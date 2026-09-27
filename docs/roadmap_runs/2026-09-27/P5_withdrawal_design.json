@@ -1,0 +1,117 @@
+{
+  "schema": "roadmap-P5-design/v1",
+  "status": "Experimental design specified; no eligible experimental dataset and no bench execution",
+  "biological_novelty": "Withdrawal-associated AT1-marker recovery has published precedent. The discriminating extension is fibroblast-restricted reception during the resolution phase, plus independent lineage yield; not a claim to newly discover withdrawal recovery.",
+  "precedent": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7487779/",
+    "locator": "Figure 7D\u2013E and accompanying Results",
+    "schedule": "14 days IL1B exposure then 7 days without added IL1B"
+  },
+  "model": "Same-species lineage-labelled adult AT2 plus defined fibroblast co-culture, with culture conditions and all added ligands recorded",
+  "unit": "Independent biological preparation with source-animal/donor identities; aliquot wells are technical subsamples. Shared parent sources across preparations must be modelled or aggregated at that parent level.",
+  "allocation": "Block all six arms within independent preparation; randomize well positions and process/score blind to arm. Fibroblast-restricted intervention is assigned after the common entry phase.",
+  "arms": [
+    {
+      "arm": "continuous__intact",
+      "schedule": "continuous",
+      "recipient": "intact",
+      "common_phase": "IL1B-exposed days 0\u201314",
+      "resolution_phase": "continued IL1B days 14\u201321",
+      "intervention_time": "day 14, after common entry phase; measured onset required",
+      "endpoint": "day 21 mature traced yield plus survival"
+    },
+    {
+      "arm": "continuous__fibroblast_IL1R1_suppressed_after_entry",
+      "schedule": "continuous",
+      "recipient": "fibroblast_IL1R1_suppressed_after_entry",
+      "common_phase": "IL1B-exposed days 0\u201314",
+      "resolution_phase": "continued IL1B days 14\u201321",
+      "intervention_time": "day 14, after common entry phase; measured onset required",
+      "endpoint": "day 21 mature traced yield plus survival"
+    },
+    {
+      "arm": "withdrawal__intact",
+      "schedule": "withdrawal",
+      "recipient": "intact",
+      "common_phase": "IL1B-exposed days 0\u201314",
+      "resolution_phase": "no added IL1B days 14\u201321",
+      "intervention_time": "day 14, after common entry phase; measured onset required",
+      "endpoint": "day 21 mature traced yield plus survival"
+    },
+    {
+      "arm": "withdrawal__fibroblast_IL1R1_suppressed_after_entry",
+      "schedule": "withdrawal",
+      "recipient": "fibroblast_IL1R1_suppressed_after_entry",
+      "common_phase": "IL1B-exposed days 0\u201314",
+      "resolution_phase": "no added IL1B days 14\u201321",
+      "intervention_time": "day 14, after common entry phase; measured onset required",
+      "endpoint": "day 21 mature traced yield plus survival"
+    },
+    {
+      "arm": "unexposed__intact",
+      "schedule": "unexposed",
+      "recipient": "intact",
+      "common_phase": "unexposed days 0\u201314",
+      "resolution_phase": "no added IL1B days 14\u201321",
+      "intervention_time": "day 14, after common entry phase; measured onset required",
+      "endpoint": "day 21 mature traced yield plus survival"
+    },
+    {
+      "arm": "unexposed__fibroblast_IL1R1_suppressed_after_entry",
+      "schedule": "unexposed",
+      "recipient": "fibroblast_IL1R1_suppressed_after_entry",
+      "common_phase": "unexposed days 0\u201314",
+      "resolution_phase": "no added IL1B days 14\u201321",
+      "intervention_time": "day 14, after common entry phase; measured onset required",
+      "endpoint": "day 21 mature traced yield plus survival"
+    }
+  ],
+  "primary_outcome": {
+    "measure": "Viable traced descendants satisfying a fixed late-AT1 protein/morphology gate per 1000 initially labelled epithelial input cells at day21",
+    "gate": "AGER and late AT1 CAV1 protein with compatible flattened morphology, externally validated positive/negative controls; PDPN or HOPX alone is insufficient",
+    "missingness": "Report lost/unreadable cultures and surviving traced counts by arm. Never impute missing mature yield as zero without observed absence.",
+    "qualification": "Lineage contribution, not independently measured whole-lung or barrier function"
+  },
+  "contrasts": [
+    {
+      "id": "C1_schedule",
+      "formula": "mean_prep(Y_withdrawal,intact - Y_continuous,intact)",
+      "question": "Does the specified withdrawal schedule change later mature contribution?"
+    },
+    {
+      "id": "C2_recipient_interaction",
+      "formula": "mean_prep((Y_withdrawal,suppressed - Y_continuous,suppressed) - (Y_withdrawal,intact - Y_continuous,intact))",
+      "question": "Does fibroblast reception during resolution modify the schedule effect?"
+    }
+  ],
+  "secondary": [
+    "absolute surviving traced descendants",
+    "late-AT1 fraction among survivors",
+    "day14 entry-state and viability in prespecified sibling aliquots",
+    "unexposed-arm recipient effect",
+    "measured soluble exposure and receptor engagement"
+  ],
+  "gates": [
+    "verified cytokine withdrawal, including carryover/endogenous supply checks appropriate to the claim",
+    "fibroblast-restricted intervention with measured onset after entry, epithelial IL1R1 intact and engagement assessed",
+    "adequate viability/dynamic range and late-AT1 positive controls",
+    "independent-unit precision justification and frozen inference/multiplicity before main endpoints",
+    "label lineage retention and independent late phenotype thresholds"
+  ],
+  "inference_plan": "Equal-independent-unit contrasts; technical wells averaged within unit. C1 and C2 are a two-test family with Holm control if both are tested inferentially. Fix interval/error model and sample size using independent or blinded planning data before main endpoint comparison.",
+  "effect_margins": null,
+  "sample_size": null,
+  "limits": [
+    "C1 is a specified exposure-schedule effect, not pure duration separated from dose and recency",
+    "Constitutive fibroblast deletion confounds entry and resolution; it does not substitute for this design",
+    "A decrease in transitional RNA or improved survival alone does not establish mature yield or function",
+    "C2 does not identify a downstream ligand or establish malignant transformation"
+  ],
+  "launch_missing": [
+    "experimental system/data with selective post-entry receptor intervention",
+    "independent preparations and verified assay performance",
+    "dose/exposure measurements and endpoint operating thresholds",
+    "precision/margin/sample-size specification"
+  ],
+  "current_execution": "No new wet-lab data exist in this run; no biological contrasts computed"
+}

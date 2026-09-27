@@ -1,0 +1,476 @@
+{
+  "accession": "GSE201698",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE201nnn/GSE201698/soft/GSE201698_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:39:15.516641+00:00",
+  "raw_sha256": "3bd7f4cf72cf9cb4f2caee9fe8bad637f9da3968f7ee47a5033a043f599b1699",
+  "series": {
+    "!Series_title": [
+      "Time-course cellular interactome analysis by single-cell RNA-seq in bleomycin-induced pulmonary fibrosis"
+    ],
+    "!Series_geo_accession": [
+      "GSE201698"
+    ],
+    "!Series_summary": [
+      "Pulmonary fibrosis (PF) is an intractable disorder with a poor prognosis. Although multiple cell subsets contribute to the pathogenesis of PF, the entiety of the changes of cell-cell interaction remain unclear. To identify PF pathology-associated changes in cell-cell interaction network, we performed time-course single-cell transcriptome analysis of the single cell suspensiton obtained from the lungs of bleomycin-treated mice."
+    ],
+    "!Series_overall_design": [
+      "To clarify changes of cellular interactome throughout PF initiation and progression, we isolated lung single cell suspension at 0, 3, 7, 10, 14,and 21 days post-bleomycin administration and performed single-cell RNA-seq by using an BD Rhapsody platform and a Novaseq6000 sequencer."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Shigeyuki,,Shichino",
+      "Shinichi,,Hashimoto",
+      "Shungo,,Deshimaru",
+      "Satoshi,,Ueha",
+      "Kouji,,Matsushima"
+    ],
+    "!Series_sample_id": [
+      "GSM6069658",
+      "GSM6069659",
+      "GSM6069660",
+      "GSM6069661",
+      "GSM6069662",
+      "GSM6069663"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE201nnn/GSE201698/suppl/GSE201698_RAW.tar",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE201nnn/GSE201698/suppl/GSE201698_cell_barcode_information.xlsx"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM6069658",
+      "!Sample_title": [
+        "day00-lung"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6069658"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "day: 0",
+        "cell type: lung single cell suspension",
+        "strain: C57BL/6J",
+        "Sex: female",
+        "model: bleomycin-induced lung fibrosis",
+        "organ: lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "C57BL/6J female mice were administered with a single dose of bleomycin sulfate (2 mg/kg dissolved in 50 \u03bcL of sterile saline solution; Nippon Kayaku) by oropharyngeal aspiration under deep anesthesia."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Murine lung cells were isolated at 0, 3, 7,10, 14 and 21 days post-bleomycin administration. Lungs were cut into small pieces with a razor blade and digested enzymatically using 0.25 mg/ml Liberase TM (Roche) and 20 kU/mL DNase I (Sigma-Aldrich, St Louis, MO) for 60 min at 37\u00b0C. Erythrocytes and dead cells were removed by 25%/65% Percoll (GE Healthcare, Buckinghamshire, UK) density separation. Resulting cells were stained with Calcein AM for 5 min at 37\u00b0C, immediately chilled on ice, and filtered through 30 \u03bcm filter (Miltenyi).",
+        "15000 cells were loaded onto BD Rhapsody cartrige and captured cell number was asessed by BD Rhapsody scanner. Cell lysis, mRNA trap, cDNA synthesis, and primer digestion were performed according to the manufacture's instruction.",
+        "cDNA amplification was performed by TAS-Seq protocol (Shichino et al bioRxiv 2021). Sequencing libraries from amplified cDNAs were produced by using NEB UltraII FS Kit (New England Biolabs) with some modifications. Sequencing was performed by using a Novaseq S2 200 cycle kit and a Novaseq 6000 sequencer (Illumina) according to the manufacture's instructions. 20% PhiX spike-in was used for sequencing."
+      ],
+      "!Sample_description": [
+        "BD Rhapsody WTA"
+      ],
+      "!Sample_data_processing": [
+        "R1 = cell barcode and UMI read",
+        "R2 = mRNA read (complement)",
+        "Adapter trimming of sequencing data was performed by using Cutadapt 3.4.  Filtered reads were chunked to 16 parts for parallel processing by using Seqkit 0.15.0.  Filtered cell barcode reads were annotated by Python script provided by BD with minor modification for compatible to Python3.8.  Associated cDNA reads were mapped to reference RNA (build GRCm38 release-101) by using bowtie2-2.4.2 by the following parameters: -p 2 \u2013very-sensitive-local -N 1 \u2013norc \u2013seed 656565 \u2013reorder.  Then, cell barcode information of each read were added to the bowtie2-mapped BAM files, and read counts of each gene in each cell barcode were counted by using mawk.  Resulted count data was converted to genes x cells matrix file and inflection threshold of the knee-plot was detected by using DropletUtils package in R version 4.1.3 (2022-03-10).",
+        "Assembly: GRCm38",
+        "Supplementary files format and content: txt"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6069nnn/GSM6069658/suppl/GSM6069658_matrix_inflection_day00UT.txt.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE201698"
+      ]
+    },
+    {
+      "accession": "GSM6069659",
+      "!Sample_title": [
+        "day03-lung"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6069659"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "day: 3",
+        "cell type: lung single cell suspension",
+        "strain: C57BL/6J",
+        "Sex: female",
+        "model: bleomycin-induced lung fibrosis",
+        "organ: lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "C57BL/6J female mice were administered with a single dose of bleomycin sulfate (2 mg/kg dissolved in 50 \u03bcL of sterile saline solution; Nippon Kayaku) by oropharyngeal aspiration under deep anesthesia."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Murine lung cells were isolated at 0, 3, 7,10, 14 and 21 days post-bleomycin administration. Lungs were cut into small pieces with a razor blade and digested enzymatically using 0.25 mg/ml Liberase TM (Roche) and 20 kU/mL DNase I (Sigma-Aldrich, St Louis, MO) for 60 min at 37\u00b0C. Erythrocytes and dead cells were removed by 25%/65% Percoll (GE Healthcare, Buckinghamshire, UK) density separation. Resulting cells were stained with Calcein AM for 5 min at 37\u00b0C, immediately chilled on ice, and filtered through 30 \u03bcm filter (Miltenyi).",
+        "15000 cells were loaded onto BD Rhapsody cartrige and captured cell number was asessed by BD Rhapsody scanner. Cell lysis, mRNA trap, cDNA synthesis, and primer digestion were performed according to the manufacture's instruction.",
+        "cDNA amplification was performed by TAS-Seq protocol (Shichino et al bioRxiv 2021). Sequencing libraries from amplified cDNAs were produced by using NEB UltraII FS Kit (New England Biolabs) with some modifications. Sequencing was performed by using a Novaseq S2 200 cycle kit and a Novaseq 6000 sequencer (Illumina) according to the manufacture's instructions. 20% PhiX spike-in was used for sequencing."
+      ],
+      "!Sample_description": [
+        "BD Rhapsody WTA"
+      ],
+      "!Sample_data_processing": [
+        "R1 = cell barcode and UMI read",
+        "R2 = mRNA read (complement)",
+        "Adapter trimming of sequencing data was performed by using Cutadapt 3.4.  Filtered reads were chunked to 16 parts for parallel processing by using Seqkit 0.15.0.  Filtered cell barcode reads were annotated by Python script provided by BD with minor modification for compatible to Python3.8.  Associated cDNA reads were mapped to reference RNA (build GRCm38 release-101) by using bowtie2-2.4.2 by the following parameters: -p 2 \u2013very-sensitive-local -N 1 \u2013norc \u2013seed 656565 \u2013reorder.  Then, cell barcode information of each read were added to the bowtie2-mapped BAM files, and read counts of each gene in each cell barcode were counted by using mawk.  Resulted count data was converted to genes x cells matrix file and inflection threshold of the knee-plot was detected by using DropletUtils package in R version 4.1.3 (2022-03-10).",
+        "Assembly: GRCm38",
+        "Supplementary files format and content: txt"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6069nnn/GSM6069659/suppl/GSM6069659_matrix_inflection_BLMd03.txt.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE201698"
+      ]
+    },
+    {
+      "accession": "GSM6069660",
+      "!Sample_title": [
+        "day07-lung"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6069660"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "day: 7",
+        "cell type: lung single cell suspension",
+        "strain: C57BL/6J",
+        "Sex: female",
+        "model: bleomycin-induced lung fibrosis",
+        "organ: lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "C57BL/6J female mice were administered with a single dose of bleomycin sulfate (2 mg/kg dissolved in 50 \u03bcL of sterile saline solution; Nippon Kayaku) by oropharyngeal aspiration under deep anesthesia."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Murine lung cells were isolated at 0, 3, 7,10, 14 and 21 days post-bleomycin administration. Lungs were cut into small pieces with a razor blade and digested enzymatically using 0.25 mg/ml Liberase TM (Roche) and 20 kU/mL DNase I (Sigma-Aldrich, St Louis, MO) for 60 min at 37\u00b0C. Erythrocytes and dead cells were removed by 25%/65% Percoll (GE Healthcare, Buckinghamshire, UK) density separation. Resulting cells were stained with Calcein AM for 5 min at 37\u00b0C, immediately chilled on ice, and filtered through 30 \u03bcm filter (Miltenyi).",
+        "15000 cells were loaded onto BD Rhapsody cartrige and captured cell number was asessed by BD Rhapsody scanner. Cell lysis, mRNA trap, cDNA synthesis, and primer digestion were performed according to the manufacture's instruction.",
+        "cDNA amplification was performed by TAS-Seq protocol (Shichino et al bioRxiv 2021). Sequencing libraries from amplified cDNAs were produced by using NEB UltraII FS Kit (New England Biolabs) with some modifications. Sequencing was performed by using a Novaseq S2 200 cycle kit and a Novaseq 6000 sequencer (Illumina) according to the manufacture's instructions. 20% PhiX spike-in was used for sequencing."
+      ],
+      "!Sample_description": [
+        "BD Rhapsody WTA"
+      ],
+      "!Sample_data_processing": [
+        "R1 = cell barcode and UMI read",
+        "R2 = mRNA read (complement)",
+        "Adapter trimming of sequencing data was performed by using Cutadapt 3.4.  Filtered reads were chunked to 16 parts for parallel processing by using Seqkit 0.15.0.  Filtered cell barcode reads were annotated by Python script provided by BD with minor modification for compatible to Python3.8.  Associated cDNA reads were mapped to reference RNA (build GRCm38 release-101) by using bowtie2-2.4.2 by the following parameters: -p 2 \u2013very-sensitive-local -N 1 \u2013norc \u2013seed 656565 \u2013reorder.  Then, cell barcode information of each read were added to the bowtie2-mapped BAM files, and read counts of each gene in each cell barcode were counted by using mawk.  Resulted count data was converted to genes x cells matrix file and inflection threshold of the knee-plot was detected by using DropletUtils package in R version 4.1.3 (2022-03-10).",
+        "Assembly: GRCm38",
+        "Supplementary files format and content: txt"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6069nnn/GSM6069660/suppl/GSM6069660_matrix_inflection_BLMd07.txt.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE201698"
+      ]
+    },
+    {
+      "accession": "GSM6069661",
+      "!Sample_title": [
+        "day10-lung"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6069661"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "day: 10",
+        "cell type: lung single cell suspension",
+        "strain: C57BL/6J",
+        "Sex: female",
+        "model: bleomycin-induced lung fibrosis",
+        "organ: lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "C57BL/6J female mice were administered with a single dose of bleomycin sulfate (2 mg/kg dissolved in 50 \u03bcL of sterile saline solution; Nippon Kayaku) by oropharyngeal aspiration under deep anesthesia."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Murine lung cells were isolated at 0, 3, 7,10, 14 and 21 days post-bleomycin administration. Lungs were cut into small pieces with a razor blade and digested enzymatically using 0.25 mg/ml Liberase TM (Roche) and 20 kU/mL DNase I (Sigma-Aldrich, St Louis, MO) for 60 min at 37\u00b0C. Erythrocytes and dead cells were removed by 25%/65% Percoll (GE Healthcare, Buckinghamshire, UK) density separation. Resulting cells were stained with Calcein AM for 5 min at 37\u00b0C, immediately chilled on ice, and filtered through 30 \u03bcm filter (Miltenyi).",
+        "15000 cells were loaded onto BD Rhapsody cartrige and captured cell number was asessed by BD Rhapsody scanner. Cell lysis, mRNA trap, cDNA synthesis, and primer digestion were performed according to the manufacture's instruction.",
+        "cDNA amplification was performed by TAS-Seq protocol (Shichino et al bioRxiv 2021). Sequencing libraries from amplified cDNAs were produced by using NEB UltraII FS Kit (New England Biolabs) with some modifications. Sequencing was performed by using a Novaseq S2 200 cycle kit and a Novaseq 6000 sequencer (Illumina) according to the manufacture's instructions. 20% PhiX spike-in was used for sequencing."
+      ],
+      "!Sample_description": [
+        "BD Rhapsody WTA"
+      ],
+      "!Sample_data_processing": [
+        "R1 = cell barcode and UMI read",
+        "R2 = mRNA read (complement)",
+        "Adapter trimming of sequencing data was performed by using Cutadapt 3.4.  Filtered reads were chunked to 16 parts for parallel processing by using Seqkit 0.15.0.  Filtered cell barcode reads were annotated by Python script provided by BD with minor modification for compatible to Python3.8.  Associated cDNA reads were mapped to reference RNA (build GRCm38 release-101) by using bowtie2-2.4.2 by the following parameters: -p 2 \u2013very-sensitive-local -N 1 \u2013norc \u2013seed 656565 \u2013reorder.  Then, cell barcode information of each read were added to the bowtie2-mapped BAM files, and read counts of each gene in each cell barcode were counted by using mawk.  Resulted count data was converted to genes x cells matrix file and inflection threshold of the knee-plot was detected by using DropletUtils package in R version 4.1.3 (2022-03-10).",
+        "Assembly: GRCm38",
+        "Supplementary files format and content: txt"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6069nnn/GSM6069661/suppl/GSM6069661_matrix_inflection_BLMd10.txt.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE201698"
+      ]
+    },
+    {
+      "accession": "GSM6069662",
+      "!Sample_title": [
+        "day14-lung"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6069662"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "day: 14",
+        "cell type: lung single cell suspension",
+        "strain: C57BL/6J",
+        "Sex: female",
+        "model: bleomycin-induced lung fibrosis",
+        "organ: lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "C57BL/6J female mice were administered with a single dose of bleomycin sulfate (2 mg/kg dissolved in 50 \u03bcL of sterile saline solution; Nippon Kayaku) by oropharyngeal aspiration under deep anesthesia."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Murine lung cells were isolated at 0, 3, 7,10, 14 and 21 days post-bleomycin administration. Lungs were cut into small pieces with a razor blade and digested enzymatically using 0.25 mg/ml Liberase TM (Roche) and 20 kU/mL DNase I (Sigma-Aldrich, St Louis, MO) for 60 min at 37\u00b0C. Erythrocytes and dead cells were removed by 25%/65% Percoll (GE Healthcare, Buckinghamshire, UK) density separation. Resulting cells were stained with Calcein AM for 5 min at 37\u00b0C, immediately chilled on ice, and filtered through 30 \u03bcm filter (Miltenyi).",
+        "15000 cells were loaded onto BD Rhapsody cartrige and captured cell number was asessed by BD Rhapsody scanner. Cell lysis, mRNA trap, cDNA synthesis, and primer digestion were performed according to the manufacture's instruction.",
+        "cDNA amplification was performed by TAS-Seq protocol (Shichino et al bioRxiv 2021). Sequencing libraries from amplified cDNAs were produced by using NEB UltraII FS Kit (New England Biolabs) with some modifications. Sequencing was performed by using a Novaseq S2 200 cycle kit and a Novaseq 6000 sequencer (Illumina) according to the manufacture's instructions. 20% PhiX spike-in was used for sequencing."
+      ],
+      "!Sample_description": [
+        "BD Rhapsody WTA"
+      ],
+      "!Sample_data_processing": [
+        "R1 = cell barcode and UMI read",
+        "R2 = mRNA read (complement)",
+        "Adapter trimming of sequencing data was performed by using Cutadapt 3.4.  Filtered reads were chunked to 16 parts for parallel processing by using Seqkit 0.15.0.  Filtered cell barcode reads were annotated by Python script provided by BD with minor modification for compatible to Python3.8.  Associated cDNA reads were mapped to reference RNA (build GRCm38 release-101) by using bowtie2-2.4.2 by the following parameters: -p 2 \u2013very-sensitive-local -N 1 \u2013norc \u2013seed 656565 \u2013reorder.  Then, cell barcode information of each read were added to the bowtie2-mapped BAM files, and read counts of each gene in each cell barcode were counted by using mawk.  Resulted count data was converted to genes x cells matrix file and inflection threshold of the knee-plot was detected by using DropletUtils package in R version 4.1.3 (2022-03-10).",
+        "Assembly: GRCm38",
+        "Supplementary files format and content: txt"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6069nnn/GSM6069662/suppl/GSM6069662_matrix_inflection_BLMd14.txt.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE201698"
+      ]
+    },
+    {
+      "accession": "GSM6069663",
+      "!Sample_title": [
+        "day21-lung"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6069663"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "day: 21",
+        "cell type: lung single cell suspension",
+        "strain: C57BL/6J",
+        "Sex: female",
+        "model: bleomycin-induced lung fibrosis",
+        "organ: lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "C57BL/6J female mice were administered with a single dose of bleomycin sulfate (2 mg/kg dissolved in 50 \u03bcL of sterile saline solution; Nippon Kayaku) by oropharyngeal aspiration under deep anesthesia."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Murine lung cells were isolated at 0, 3, 7,10, 14 and 21 days post-bleomycin administration. Lungs were cut into small pieces with a razor blade and digested enzymatically using 0.25 mg/ml Liberase TM (Roche) and 20 kU/mL DNase I (Sigma-Aldrich, St Louis, MO) for 60 min at 37\u00b0C. Erythrocytes and dead cells were removed by 25%/65% Percoll (GE Healthcare, Buckinghamshire, UK) density separation. Resulting cells were stained with Calcein AM for 5 min at 37\u00b0C, immediately chilled on ice, and filtered through 30 \u03bcm filter (Miltenyi).",
+        "15000 cells were loaded onto BD Rhapsody cartrige and captured cell number was asessed by BD Rhapsody scanner. Cell lysis, mRNA trap, cDNA synthesis, and primer digestion were performed according to the manufacture's instruction.",
+        "cDNA amplification was performed by TAS-Seq protocol (Shichino et al bioRxiv 2021). Sequencing libraries from amplified cDNAs were produced by using NEB UltraII FS Kit (New England Biolabs) with some modifications. Sequencing was performed by using a Novaseq S2 200 cycle kit and a Novaseq 6000 sequencer (Illumina) according to the manufacture's instructions. 20% PhiX spike-in was used for sequencing."
+      ],
+      "!Sample_description": [
+        "BD Rhapsody WTA"
+      ],
+      "!Sample_data_processing": [
+        "R1 = cell barcode and UMI read",
+        "R2 = mRNA read (complement)",
+        "Adapter trimming of sequencing data was performed by using Cutadapt 3.4.  Filtered reads were chunked to 16 parts for parallel processing by using Seqkit 0.15.0.  Filtered cell barcode reads were annotated by Python script provided by BD with minor modification for compatible to Python3.8.  Associated cDNA reads were mapped to reference RNA (build GRCm38 release-101) by using bowtie2-2.4.2 by the following parameters: -p 2 \u2013very-sensitive-local -N 1 \u2013norc \u2013seed 656565 \u2013reorder.  Then, cell barcode information of each read were added to the bowtie2-mapped BAM files, and read counts of each gene in each cell barcode were counted by using mawk.  Resulted count data was converted to genes x cells matrix file and inflection threshold of the knee-plot was detected by using DropletUtils package in R version 4.1.3 (2022-03-10).",
+        "Assembly: GRCm38",
+        "Supplementary files format and content: txt"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6069nnn/GSM6069663/suppl/GSM6069663_matrix_inflection_BLMd21.txt.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE201698"
+      ]
+    }
+  ]
+}

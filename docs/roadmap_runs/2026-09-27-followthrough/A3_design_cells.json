@@ -1,0 +1,79 @@
+{
+  "cohort": "GSE303646",
+  "cells": [
+    {
+      "age": "old",
+      "treatment": "bleo",
+      "day": 10,
+      "libraries": 4
+    },
+    {
+      "age": "old",
+      "treatment": "bleo",
+      "day": 20,
+      "libraries": 4
+    },
+    {
+      "age": "old",
+      "treatment": "bleo",
+      "day": 3,
+      "libraries": 4
+    },
+    {
+      "age": "old",
+      "treatment": "bleo",
+      "day": 30,
+      "libraries": 4
+    },
+    {
+      "age": "old",
+      "treatment": "bleo",
+      "day": 37,
+      "libraries": 4
+    },
+    {
+      "age": "old",
+      "treatment": "control",
+      "day": 0,
+      "libraries": 8
+    },
+    {
+      "age": "young",
+      "treatment": "bleo",
+      "day": 10,
+      "libraries": 4
+    },
+    {
+      "age": "young",
+      "treatment": "bleo",
+      "day": 20,
+      "libraries": 4
+    },
+    {
+      "age": "young",
+      "treatment": "bleo",
+      "day": 3,
+      "libraries": 4
+    },
+    {
+      "age": "young",
+      "treatment": "bleo",
+      "day": 30,
+      "libraries": 4
+    },
+    {
+      "age": "young",
+      "treatment": "bleo",
+      "day": 37,
+      "libraries": 3
+    },
+    {
+      "age": "young",
+      "treatment": "control",
+      "day": 0,
+      "libraries": 9
+    }
+  ],
+  "later_controls": 0,
+  "interpretation": "No later uninjured controls. A baseline-age interaction is not a pure persistent-injury effect beyond elapsed aging. Animal-label and state validation also required."
+}

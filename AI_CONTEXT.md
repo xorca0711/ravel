@@ -1,5 +1,73 @@
 # AI context
 
+## Latest roadmap follow-through, 27 September 2026
+
+The [follow-through record](docs/roadmap_runs/2026-09-27-followthrough/README.md)
+supersedes the earlier execution queue below. A12 and a separately specified A13 pilot
+ran on 12 paired patients under fixed recipient states and explicit assigned-macrophage
+aggregation. A12's epithelial model improved held-out error; its fibroblast result was
+unstable. A13's nominated fibroblast programme worsened aggregate prediction in every
+eligible sensitivity. These are exploratory results on previously exposed data.
+
+Eighteen additional primary GEO records were audited. GSE233844 is PBMCs, not lung triads.
+GSE122960 author annotations give only three complete subjects across all diagnoses, two
+in the donor/IPF subset. GSE303646 has baseline controls but no later uninjured controls;
+the earlier assertion that it met A3's gate was too strong. No unchanged A5 replication
+or linked regulatory/future-fate fit is ready. The [17-question remaining-work ledger](docs/roadmap_runs/2026-09-27-followthrough/remaining_work.json)
+and [experimental handoff](docs/roadmap_runs/2026-09-27-followthrough/EXPERIMENTAL_HANDOFF.md)
+specify reopening inputs. Scientific gaps remain; no biological experiment, independent
+confirmation, claim-grade change or author contact occurred. Prior run records and their
+document hashes are historical snapshots, not assertions that living docs never change.
+
+## Roadmap execution results, 27 September 2026
+
+The owner authorized proceeding through the [research roadmap](docs/RESEARCH_ROADMAP.md),
+with reports between packages. The [P0–P5 execution record](docs/roadmap_runs/2026-09-27/README.md)
+contains completed source/eligibility/accounting work and the conditional experimental design.
+P1 recovered the supplement: four screen wells were split from a common mixture, and
+regular medium includes recombinant EGF. These supersede older statements treating
+replication as wholly unknown or medium composition as wholly unavailable.
+P2's two candidates fail the inherited A5 unit gate. P3 lacks regulatory/fate linkage.
+P4 quantified source-assignment ambiguity and kept the joint-model gates explicit.
+P5 specifies a post-entry recipient intervention; no experiment has been performed.
+Read the package reports for the remaining data requirements. Claim grades, frozen
+protocols and prior numerical results are preserved.
+
+
+## Historical planning state before execution, 27 September 2026
+
+The owner requested structured plans to close the remaining logical gaps with
+biological context. The [roadmap](docs/RESEARCH_ROADMAP.md) defines P0–P5 and
+tasks T0–T7. Start with the outcome/status contract, screen design recovery and
+independent A5 eligibility; assess a linked regulatory/fate design in parallel
+if feasible. Mechanism and withdrawal studies remain conditional on suitable
+data. These tasks are proposed, not executed; no new dataset has been declared
+eligible and existing freezes, stop decisions and claim grades are preserved.
+
+## Current authority after rationale audit: 27 September 2026
+
+The owner requested a whole-repository challenge of every RQ and trial rationale,
+context synchronization and guidance for further work. The [A0–A15 audit](docs/audits/2026-09-27-rq-rationale/REPORT.md)
+reviews merged snapshot `329c07c`, including the A2/A13/A15 continuations. It is
+saved in an isolated managed worktree; the old main checkout and its caches were
+preserved. This is not a claim that live GitHub PR status was queried.
+
+Current interpretation follows the [shared architecture](docs/RESEARCH_ARCHITECTURE.md).
+A0's current pilot is stopped after failed mature-endpoint transfer. A1, A5/A11
+and A10 completed their bounded work with the stated outcome/replication gaps.
+A2's depth-standardized correlation is inconclusive, not absent; a 100-molecule
+rerun is not mathematically required. A13 remains below its triad gate. A15's
+parent test remains blocked and registration pending; marker enrichment and
+wide epithelial null intervals do not eliminate epithelial-state mediation.
+The A2/A15 dated addenda supersede the interpretation and next-step wording in
+older reports, while frozen numerical records and C1–C168 grades are preserved.
+
+Next work should recover a decision-changing design fact or a truly independent
+comparison. No new scientific fit, external message, branch cleanup or claim
+reclassification was performed. See the audit for each RQ's remaining gate and
+the ranked research direction. Older status and queue sections below are dated
+history, not instructions to repeat completed work.
+
 A self-contained, machine-oriented operating file for AI assistants working
 in this repository: status, environment, rules, and pitfalls that must not be
 violated. Human-readable counterparts: [`README.md`](README.md) (overview),
@@ -7,7 +75,7 @@ violated. Human-readable counterparts: [`README.md`](README.md) (overview),
 (AI-assisted development disclosure and scientific ownership),
 [`PROGRESS.md`](PROGRESS.md) (session state).
 
-## Repository status and operating warnings, 26 September 2026
+## Historical repository snapshot and operating warnings, 26 September 2026
 
 All pull requests through #81 are merged and none is open. Read PROGRESS
 "Repository status" for the per-question summary. Rules for the next session:

@@ -1,5 +1,7 @@
 # Register data-gate audit, 27 September 2026
 
+**Superseding metadata follow-up:** the [expanded candidate audit](../../roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md) corrects title-only judgments below. GSE303646 has no later uninjured controls, so its A3 gate was overstated; GSE233844 is PBMCs and cannot provide lung triads; GSE122960 author annotations now fail the counted triad gate. A5 requires three eligible mice across its window, not three at every time point. A12 can support a conditional RNA model without proving IL-1 activation; that exploratory model is now executed. The original audit text remains a historical record.
+
 Every remaining question in the register states a gate, and for most of them the gate is
 data the repository does not hold. This audit asks once, for each of them, whether a
 public deposit meets that gate. It adds no claim, grades nothing and fits no model.

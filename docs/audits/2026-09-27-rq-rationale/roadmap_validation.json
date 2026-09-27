@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-09-27T05:39:33.502603+00:00",
+  "status": "passed",
+  "scope": "Planning documents and context pointers only. Previous source/unit checks remain valid; no analysis executed.",
+  "research_questions": [
+    "A0",
+    "A1",
+    "A10",
+    "A11",
+    "A12",
+    "A12-S1",
+    "A13",
+    "A14",
+    "A15",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9"
+  ],
+  "work_packages": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ],
+  "tasks": [
+    "T0",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6",
+    "T7"
+  ],
+  "files_written": [
+    "docs/RESEARCH_ROADMAP.md",
+    "README.md",
+    "RESEARCH_QUESTIONS.md",
+    "RQ_Specified/README.md",
+    "docs/RESEARCH_ARCHITECTURE.md",
+    "PROGRESS.md",
+    "AI_CONTEXT.md"
+  ],
+  "checks": [
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "output": "Repository validation passed: 2793 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "safe.directory=C:/Users/dream/.codex/worktrees/rq-rationale-audit/scRNA_seq",
+        "-c",
+        "core.safecrlf=false",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": ""
+    }
+  ]
+}

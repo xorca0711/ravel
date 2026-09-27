@@ -1,0 +1,100 @@
+{
+  "updated_utc": "2026-09-27T08:54:45.707272+00:00",
+  "scope": "The defined follow-through analyses and named candidate checks are completed. Scientific hypotheses remain open; no claim of exhaustive public-data search.",
+  "questions": [
+    {
+      "rq": "A0",
+      "status": "stopped",
+      "reopen_condition": "Distinct independently justified cross-tissue branch; do not reopen failed intestinal endpoint by retuning."
+    },
+    {
+      "rq": "A1",
+      "status": "data_required",
+      "reopen_condition": "Replicated early regulatory feature linked to future lineage outcome; P3 candidates do not supply the link."
+    },
+    {
+      "rq": "A2",
+      "status": "design_ceiling",
+      "reopen_condition": "Independent crossed source/recipient/guide preparations and measured ligand presentation/engagement."
+    },
+    {
+      "rq": "A3",
+      "status": "candidate_corrected",
+      "reopen_condition": "Later age/harvest-matched sham controls and programme-independent states; tracing for same-cell persistence."
+    },
+    {
+      "rq": "A4",
+      "status": "data_required",
+      "reopen_condition": "Validated prior-Wnt recorder/washout with temporally linked IL1 response and fate."
+    },
+    {
+      "rq": "A5",
+      "status": "metadata_or_validated_annotation_required",
+      "reopen_condition": "Barcode-to-mouse and independent transitional/activated-AT2 map, especially GSE303646/GSE202325; no unchanged replication scored."
+    },
+    {
+      "rq": "A6",
+      "status": "definition_required",
+      "reopen_condition": "Programme-independent harmonization and explicit composition versus within-state estimands; no composition-only equivalence claim."
+    },
+    {
+      "rq": "A7",
+      "status": "data_required",
+      "reopen_condition": "Replicated age-matched genotype units and predeclared total versus within-state contrasts."
+    },
+    {
+      "rq": "A8",
+      "status": "data_required",
+      "reopen_condition": "Independent mature lineage/function endpoint paired to nominated early measurement."
+    },
+    {
+      "rq": "A9",
+      "status": "data_required",
+      "reopen_condition": "Recipient receptor protein or selective engagement, with coverage and viable dynamic range."
+    },
+    {
+      "rq": "A10",
+      "status": "design_ceiling",
+      "reopen_condition": "Independent culture preparations, image physical calibration and future/new-preparation outcome validation."
+    },
+    {
+      "rq": "A11",
+      "status": "comparator_definition_required",
+      "reopen_condition": "Programme-independent comparable injured epithelial state and frozen specificity contrast; mixed GSE198864 records do not establish it."
+    },
+    {
+      "rq": "A12",
+      "status": "exploratory_pilot_complete",
+      "reopen_condition": "Independent matched-state replication of fixed epithelial model; activation/perturbation for IL1 specificity."
+    },
+    {
+      "rq": "A12-S1",
+      "status": "identity_required",
+      "reopen_condition": "Independent unknown-cell identity/ambient/doublet adjudication; secreted mature protein is a separate requirement."
+    },
+    {
+      "rq": "A13",
+      "status": "exploratory_pilot_complete_no_predictive_gain",
+      "reopen_condition": "New independent, comparable complete triads and a separately justified programme; do not tune this failed proxy to the same data."
+    },
+    {
+      "rq": "A14",
+      "status": "experiment_required",
+      "reopen_condition": "Verified withdrawal crossed with selective post-entry recipient intervention and lineage yield/survival."
+    },
+    {
+      "rq": "A15",
+      "status": "experiment_required",
+      "reopen_condition": "Accepted question contract plus crossed epithelial integrin/source supply and active/total TGF-beta, engagement, viable rescue controls."
+    }
+  ],
+  "new_biological_experiments": 0,
+  "new_claim_grades": 0,
+  "unperformed": [
+    "Independent A5 scoring: population/assay gates not met",
+    "Independent A12/A13 validation: compatible new cohort not established",
+    "A11 specificity fit: comparable injured population not established",
+    "Early-regulatory/future-fate fit: linkage absent",
+    "Causal withdrawal or activation experiment: requires laboratory data"
+  ]
+}

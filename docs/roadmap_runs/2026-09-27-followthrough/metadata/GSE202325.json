@@ -1,0 +1,858 @@
+{
+  "accession": "GSE202325",
+  "reused_source": "Research Article\\gate1_03_nabhan_2018\\external_feasibility\\GSE202325_family.soft.gz",
+  "sha256": "3fb8d48d0bfbf0a61450aa7aef60aecdbdc3997a606890c5c701b6e45fcf9ab5",
+  "series": {
+    "!Series_title": [
+      "scRNA-seq of young and aged lungs following influenza A virus infection"
+    ],
+    "!Series_geo_accession": [
+      "GSE202325"
+    ],
+    "!Series_pubmed_id": [
+      "37852965"
+    ],
+    "!Series_summary": [
+      "Aging is known to alter the host repsonse to influenza infection. Here, we use single-cell RNA sequencing (scRNA-seq) to identify cellular changes in the lungs of young (16-week-old) and aged (80-week-old) mice following influenza infection."
+    ],
+    "!Series_overall_design": [
+      "Mice were infected with influenza A/PR8/34 (~50 PFU/mouse) to establish acute infection. Infections were performed by intranasal (i.n.) administration under anesthesia as described before (Sun et al., 2009). Mice were then euthanized and the right ventricle was perfused with 10 mL cold DPBS (Corning). The lung lobes were cut into fine pieces and digested at 37 \u00b0C with collagenase IV (1 mg/mL; Worthington) for 40 minutes. The tissue pieces were further ground and homogenized in a 70 \u03bcm cell strainer. After spinning down, red blood cells were removed by addition of ACK lysis buffer (Lonza) for 10 minutes on ice. Cells were kept in 10% RPMI (Lonza) at all times. Only day 9 post-infection samples were sorted for scRNA-seq. Single-cell suspensions were incubated with antibodies against surface markers for 30 minutes at 4 \u00b0C in 10% RPMI, followed by 2 washes in 10% RPMI. Samples were then run on an Aria IIIu cell sorter (BD Biosciences). For day 9 post-infection samples, single-cell suspensions of lung tissue were FACS sorted (see above), and Lin+ cells and Lin\u2013 cells from each sample were individually pooled at a 1:1 ratio. For day 3 post-infection samples, cells were not sorted as the ratio of Lin+:Lin\u2013 cells was approximately 1:1. Cells were loaded onto the Chromium Controller (10x Genomics), then the 10x Genomics 3\u2019 v2 Reagent Kit (day 9 post-infection samples) or the 10x Genomics 3\u2019 v3.1 Reagent Kit (day 3 post-infection samples) was used to generate cDNA libraries. Barcoded libraries were sequenced on an Illumina NextSeq 500 instrument using a NextSeq 500/550 High Output Kit v2 (150 cycles) (20024907, Illumina) with the following cycle counts: 28 (read 1), 8 (index), and 91 (read 2) (day 9 post-infection samples) or 28 (read 1), 10 (index 1), 10 (index 2), 90 (read 2) (day 3 post-infection samples). Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v6.0, 10x Genomics). Analysis was performed in R using Seurat (v4.0) (Butler et al., 2018), with tidyverse (v1.3.1) used for data organization (Wickham et al., 2019). Receptor-ligand analysis was performed using CellChat (v1.1.3) (Jin et al., 2021) with default settings."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Moujtaba,,Kasmani",
+      "Weiguo,,Cui"
+    ],
+    "!Series_sample_id": [
+      "GSM6108381",
+      "GSM6108382",
+      "GSM6108383",
+      "GSM6108384",
+      "GSM6108385",
+      "GSM6108386",
+      "GSM6108387",
+      "GSM6108388",
+      "GSM7159206",
+      "GSM7159207",
+      "GSM7159208",
+      "GSM7159209"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202325/suppl/GSE202325_RAW.tar"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM6108381",
+      "!Sample_title": [
+        "scRNA-seq_Day_3_Young_1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6108381"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: Day 3",
+        "infection: Flu PR8 infection",
+        "condition: Young"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10",
+        "Demultiplexing and alignment were performed with Cell Ranger (v6.0, 10x Genomics) and the mm10 2020-A reference transcriptome (10x Genomics).",
+        "Assembly: mm10"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108381/suppl/GSM6108381_Day3_Young1_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108381/suppl/GSM6108381_Day3_Young1_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108381/suppl/GSM6108381_Day3_Young1_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM6108382",
+      "!Sample_title": [
+        "scRNA-seq_Day_3_Young_2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6108382"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: Day 3",
+        "infection: Flu PR8 infection",
+        "condition: Young"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10",
+        "Demultiplexing and alignment were performed with Cell Ranger (v6.0, 10x Genomics) and the mm10 2020-A reference transcriptome (10x Genomics).",
+        "Assembly: mm10"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108382/suppl/GSM6108382_Day3_Young2_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108382/suppl/GSM6108382_Day3_Young2_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108382/suppl/GSM6108382_Day3_Young2_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM6108383",
+      "!Sample_title": [
+        "scRNA-seq_Day_3_Aged_1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6108383"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: Day 3",
+        "infection: Flu PR8 infection",
+        "condition: Aged"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10",
+        "Demultiplexing and alignment were performed with Cell Ranger (v6.0, 10x Genomics) and the mm10 2020-A reference transcriptome (10x Genomics).",
+        "Assembly: mm10"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108383/suppl/GSM6108383_Day3_Aged1_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108383/suppl/GSM6108383_Day3_Aged1_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108383/suppl/GSM6108383_Day3_Aged1_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM6108384",
+      "!Sample_title": [
+        "scRNA-seq_Day_3_Aged_2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6108384"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: Day 3",
+        "infection: Flu PR8 infection",
+        "condition: Aged"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10",
+        "Demultiplexing and alignment were performed with Cell Ranger (v6.0, 10x Genomics) and the mm10 2020-A reference transcriptome (10x Genomics).",
+        "Assembly: mm10"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108384/suppl/GSM6108384_Day3_Aged2_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108384/suppl/GSM6108384_Day3_Aged2_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108384/suppl/GSM6108384_Day3_Aged2_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM6108385",
+      "!Sample_title": [
+        "scRNA-seq_Day_9_Young_1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6108385"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: Day 9",
+        "infection: Flu PR8 infection",
+        "condition: Young"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10",
+        "Demultiplexing and alignment were performed with Cell Ranger (v6.0, 10x Genomics) and the mm10 2020-A reference transcriptome (10x Genomics).",
+        "Assembly: mm10"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108385/suppl/GSM6108385_Day9_Young1_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108385/suppl/GSM6108385_Day9_Young1_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108385/suppl/GSM6108385_Day9_Young1_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM6108386",
+      "!Sample_title": [
+        "scRNA-seq_Day_9_Young_2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6108386"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: Day 9",
+        "infection: Flu PR8 infection",
+        "condition: Young"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10",
+        "Demultiplexing and alignment were performed with Cell Ranger (v6.0, 10x Genomics) and the mm10 2020-A reference transcriptome (10x Genomics).",
+        "Assembly: mm10"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108386/suppl/GSM6108386_Day9_Young2_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108386/suppl/GSM6108386_Day9_Young2_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108386/suppl/GSM6108386_Day9_Young2_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM6108387",
+      "!Sample_title": [
+        "scRNA-seq_Day_9_Aged_1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6108387"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: Day 9",
+        "infection: Flu PR8 infection",
+        "condition: Aged"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10",
+        "Demultiplexing and alignment were performed with Cell Ranger (v6.0, 10x Genomics) and the mm10 2020-A reference transcriptome (10x Genomics).",
+        "Assembly: mm10"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108387/suppl/GSM6108387_Day9_Aged1_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108387/suppl/GSM6108387_Day9_Aged1_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108387/suppl/GSM6108387_Day9_Aged1_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM6108388",
+      "!Sample_title": [
+        "scRNA-seq_Day_9_Aged_2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM6108388"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: Day 9",
+        "infection: Flu PR8 infection",
+        "condition: Aged"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10",
+        "Demultiplexing and alignment were performed with Cell Ranger (v6.0, 10x Genomics) and the mm10 2020-A reference transcriptome (10x Genomics).",
+        "Assembly: mm10"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108388/suppl/GSM6108388_Day9_Aged2_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108388/suppl/GSM6108388_Day9_Aged2_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6108nnn/GSM6108388/suppl/GSM6108388_Day9_Aged2_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM7159206",
+      "!Sample_title": [
+        "scRNA-seq_D_3_Aged_3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7159206"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: 3 days p.i.",
+        "infection: PR8 Influenza",
+        "condition: Aged"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics; each sample generated one gene expression library (GEX)."
+      ],
+      "!Sample_description": [
+        "D_3_Aged_3"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10.",
+        "Assembly: mm10",
+        "Supplementary files format and content: Matrix files were generated using Cell Ranger (10x Genomics);"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159206/suppl/GSM7159206_D_3_Aged_3_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159206/suppl/GSM7159206_D_3_Aged_3_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159206/suppl/GSM7159206_D_3_Aged_3_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM7159207",
+      "!Sample_title": [
+        "scRNA-seq_D_9_Aged_3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7159207"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: 9 days p.i.",
+        "infection: PR8 Influenza",
+        "condition: Aged"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics; each sample generated one gene expression library (GEX)."
+      ],
+      "!Sample_description": [
+        "D_9_Aged_3"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10.",
+        "Assembly: mm10",
+        "Supplementary files format and content: Matrix files were generated using Cell Ranger (10x Genomics);"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159207/suppl/GSM7159207_D_9_Aged_3_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159207/suppl/GSM7159207_D_9_Aged_3_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159207/suppl/GSM7159207_D_9_Aged_3_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM7159208",
+      "!Sample_title": [
+        "scRNA-seq_D_3_Young_3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7159208"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: 3 days p.i.",
+        "infection: PR8 Influenza",
+        "condition: Young"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics; each sample generated one gene expression library (GEX)."
+      ],
+      "!Sample_description": [
+        "D_3_Young_3"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10.",
+        "Assembly: mm10",
+        "Supplementary files format and content: Matrix files were generated using Cell Ranger (10x Genomics);"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159208/suppl/GSM7159208_D_3_Young_3_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159208/suppl/GSM7159208_D_3_Young_3_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159208/suppl/GSM7159208_D_3_Young_3_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    },
+    {
+      "accession": "GSM7159209",
+      "!Sample_title": [
+        "scRNA-seq_D_9_Young_3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7159209"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "strain: C57BL/6 mice",
+        "timepoint: 9 days p.i.",
+        "infection: PR8 Influenza",
+        "condition: Young"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "10x Genomics; each sample generated one gene expression library (GEX)."
+      ],
+      "!Sample_description": [
+        "D_9_Young_3"
+      ],
+      "!Sample_data_processing": [
+        "Reads were aligned to mouse reference genome mm10.",
+        "Assembly: mm10",
+        "Supplementary files format and content: Matrix files were generated using Cell Ranger (10x Genomics);"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159209/suppl/GSM7159209_D_9_Young_3_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159209/suppl/GSM7159209_D_9_Young_3_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7159nnn/GSM7159209/suppl/GSM7159209_D_9_Young_3_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE202325"
+      ]
+    }
+  ]
+}

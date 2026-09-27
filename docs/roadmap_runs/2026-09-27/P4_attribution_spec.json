@@ -1,0 +1,15 @@
+{
+  "analysis": "Post hoc attribution sensitivity using already published repository counts; no reassignment or hypothesis test",
+  "unit": "patient by histology, preserving repeated patients across histologies",
+  "input": "Research Article\\gate2_C3_yu_lee_choi_min_2026\\trials\\u5_human_sources\\IL1B_source_fractions.csv",
+  "sha256": "9a678d9f1fe750ba74bcab4efc0e81c8a57066ab51b4a9e19c3b18a016050708",
+  "primary_uncertainty_cutoff": 0.2,
+  "assumptions": [
+    "Assigned macrophage labels correct",
+    "Observed IL1B counts attributable to their captured cells",
+    "Unassigned counts may range from none to all macrophage-derived"
+  ],
+  "calculation": "M = assigned macrophage IL1B / all observed IL1B; U = unassigned IL1B / all observed IL1B; conditional bounds [M,M+U]; majority crossover alpha=(0.5-M)/U",
+  "interpretation": "Conditional observed-RNA accounting; not confidence intervals, secreted protein, ambient correction, or biological identity discovery",
+  "no_fits": "No source/recipient fit unless independent units and comparable compartments pass their existing gates"
+}

@@ -1,0 +1,2356 @@
+{
+  "accession": "GSE262927",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262927/soft/GSE262927_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:32:40.065486+00:00",
+  "raw_sha256": "e5d7ac4b588b0a9e05db5c0ffd14ad0c9377ef9fd64034c807921a107fddb628",
+  "series": {
+    "!Series_title": [
+      "A longitudinal atlas of post-viral lung regeneration reveals persistent injury-associated cell states"
+    ],
+    "!Series_geo_accession": [
+      "GSE262927"
+    ],
+    "!Series_pubmed_id": [
+      "39818203"
+    ],
+    "!Series_summary": [
+      "Functional regeneration of the lung\u2019s gas exchange surface following injury requires the coordination of a complex series of cell behaviors within the alveolar niche. Using a multi-modal approach, we have mapped the temporal sequencing of mouse lung regeneration after acute viral injury, demonstrating that this response is asynchronously phased across different cellular compartments. This longitudinal atlas of regeneration has produced a catalogue of new cell states that reflect transient and persistent transcriptional alterations in daughter cells as they transit across axes of differentiation. These new cell states include an injury-induced capillary endothelial cell (iCAP) that arises after injury, persists indefinitely, and shares transcriptional hallmarks with both developing lung endothelium and the endothelial aberrations found in degenerative human lung diseases. This comprehensive atlas of lung regeneration provides a foundational resource to understand the complexity of the cellular and molecular responses to injury, reveals the critical importance of capillary endothelium in maintaining and rebuilding the alveolar niche after injury, and correlates these responses to those found in development and human lung diseases."
+    ],
+    "!Series_overall_design": [
+      "Lungs of adult, lineage-traced Ki67-CreERT2; ROSA26-tdTm mice were collected at homeostasis or after PR8 influenza infection (6, 11, 19, 25, 42, 90, or 366 dpi) for single-cell RNA sequencing. In addition, lungs of adult mice with lineage traced CAP1 endothelial cells (Kit-MerCreMer; ROSA26-tdTm) or CAP2 endothelial cells (Car4-CreERT2; ROSA26-tdTm and Ednrb-CreERT2; ROSA26-tdTm) were collected for single-cell RNA sequencing at 19 days post-PR8 influenza infection."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Edward,E,Morrisey",
+      "Terren,K,Niethamer",
+      "Joseph,D,Planer",
+      "Michael,P,Morley"
+    ],
+    "!Series_sample_id": [
+      "GSM8181583",
+      "GSM8181584",
+      "GSM8181585",
+      "GSM8181586",
+      "GSM8181587",
+      "GSM8181588",
+      "GSM8181589",
+      "GSM8181590",
+      "GSM8181591",
+      "GSM8181592",
+      "GSM8181593",
+      "GSM8181594",
+      "GSM8181595",
+      "GSM8181596",
+      "GSM8181597",
+      "GSM8181598",
+      "GSM8181599",
+      "GSM8181600",
+      "GSM8181601",
+      "GSM8181602",
+      "GSM8181603",
+      "GSM8181604",
+      "GSM8181605",
+      "GSM8181606",
+      "GSM8181607",
+      "GSM8181608",
+      "GSM8181609",
+      "GSM8181610",
+      "GSM8181611",
+      "GSM8181612",
+      "GSM8181613",
+      "GSM8181614",
+      "GSM8181615"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262927/suppl/GSE262927_CellMetaData.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262927/suppl/GSE262927_RAW.tar"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM8181583",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam02_sac06_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181583"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 6"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181583/suppl/GSM8181583_EEM-scRNA-113.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181584",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam07_sac11_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181584"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 11"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181584/suppl/GSM8181584_EEM-scRNA-116.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181585",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam14_sac19_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181585"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181585/suppl/GSM8181585_EEM-scRNA-117.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181586",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam21_sac25_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181586"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 25"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181586/suppl/GSM8181586_EEM-scRNA-118.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181587",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam02_sac42_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181587"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181587/suppl/GSM8181587_EEM-scRNA-124.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181588",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam07_sac42_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181588"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181588/suppl/GSM8181588_EEM-scRNA-125.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181589",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam14_sac42_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181589"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181589/suppl/GSM8181589_EEM-scRNA-126.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181590",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam21_sac42_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181590"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181590/suppl/GSM8181590_EEM-scRNA-127.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181591",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_homeostasis_d42_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181591"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen",
+        "time: homeostasis_d42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181591/suppl/GSM8181591_EEM-scRNA-158.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181592",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam02_sac06_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181592"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 6"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181592/suppl/GSM8181592_EEM-scRNA-162.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181593",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_homeostasis_d03_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181593"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen",
+        "time: homeostasis_d03"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181593/suppl/GSM8181593_EEM-scRNA-166.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181594",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam07_sac11_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181594"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 11"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181594/suppl/GSM8181594_EEM-scRNA-167.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181595",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam14_sac19_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181595"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181595/suppl/GSM8181595_EEM-scRNA-170.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181596",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam21_sac25_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181596"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 25"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181596/suppl/GSM8181596_EEM-scRNA-172.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181597",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam02_sac42_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181597"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181597/suppl/GSM8181597_EEM-scRNA-179.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181598",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam07_sac42_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181598"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181598/suppl/GSM8181598_EEM-scRNA-180.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181599",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam14_sac42_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181599"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181599/suppl/GSM8181599_EEM-scRNA-181.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181600",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam21_sac42_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181600"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 42"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181600/suppl/GSM8181600_EEM-scRNA-182.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181601",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam02_sac90_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181601"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 90"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181601/suppl/GSM8181601_EEM-scRNA-236.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181602",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam07_sac90_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181602"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 90"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181602/suppl/GSM8181602_EEM-scRNA-237.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181603",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam14_sac90_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181603"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 90"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181603/suppl/GSM8181603_EEM-scRNA-238.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181604",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam21_sac90_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181604"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 90"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181604/suppl/GSM8181604_EEM-scRNA-239.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181605",
+      "!Sample_title": [
+        "KitMCM_H1N1_tam-pre_sac19_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181605"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Kit-MerCreMer_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181605/suppl/GSM8181605_EEM-scRNA-249.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181606",
+      "!Sample_title": [
+        "KitMCM_H1N1_tam-pre_sac19_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181606"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Kit-MerCreMer_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181606/suppl/GSM8181606_EEM-scRNA-250.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181607",
+      "!Sample_title": [
+        "KitMCM_H1N1_tam-pre_sac19_rep3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181607"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Kit-MerCreMer_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181607/suppl/GSM8181607_EEM-scRNA-251.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181608",
+      "!Sample_title": [
+        "Car4Cre_H1N1_tam-pre_sac19_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181608"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Car4-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181608/suppl/GSM8181608_EEM-scRNA-288.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181609",
+      "!Sample_title": [
+        "Car4Cre_H1N1_tam-pre_sac19_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181609"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Car4-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181609/suppl/GSM8181609_EEM-scRNA-289.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181610",
+      "!Sample_title": [
+        "EdnrbCre_H1N1_tam-pre_sac19_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181610"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ednrb-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181610/suppl/GSM8181610_EEM-scRNA-290.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181611",
+      "!Sample_title": [
+        "EdnrbCre_H1N1_tam-pre_sac19_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181611"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ednrb-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181611/suppl/GSM8181611_EEM-scRNA-291.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181612",
+      "!Sample_title": [
+        "EdnrbCre_H1N1_tam-pre_sac19_rep3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181612"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ednrb-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 19"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181612/suppl/GSM8181612_EEM-scRNA-292.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181613",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam14_sac366_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181613"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 366"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181613/suppl/GSM8181613_EEM-scRNA-310.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181614",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam14_sac366_rep2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181614"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 366"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181614/suppl/GSM8181614_EEM-scRNA-311.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    },
+    {
+      "accession": "GSM8181615",
+      "!Sample_title": [
+        "Ki67Cre_H1N1_tam07_sac366_rep1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8181615"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Ki67-CreERT2_ROSA26-LSL-tdTm",
+        "treatment: Tamoxifen_Influenza",
+        "time: 366"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Tamoxifen as noted; H1N1 PR8 influenza virus infection at \"day 0\""
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Cells were loaded onto the 10x Chromium (10X Genomics) aiming for 10,000 cells per sample.",
+        "Libraries were prepared according to the manufacturer\u2019s protocol using Chromium Single Cell 3\u2019 v2 chemistry."
+      ],
+      "!Sample_description": [
+        "CellMetaData.csv"
+      ],
+      "!Sample_data_processing": [
+        "The demultiplexing, barcoded processing, alignment and gene counting was performed using the STARSolo 2.7.9a",
+        "Ambineat RNAs were removed using SoupX",
+        "Clustering and dimesion reduction using Seurat V4",
+        "Assembly: GRCm39",
+        "Supplementary files format and content: SoupX processed H5 counts",
+        "Supplementary files format and content: CellMetaData.csv Cell annotation file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8181nnn/GSM8181615/suppl/GSM8181615_EEM-scRNA-312.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE262927"
+      ]
+    }
+  ]
+}

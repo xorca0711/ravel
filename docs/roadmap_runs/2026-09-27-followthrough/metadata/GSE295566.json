@@ -1,0 +1,325 @@
+{
+  "accession": "GSE295566",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE295nnn/GSE295566/soft/GSE295566_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:50:52.093670+00:00",
+  "raw_sha256": "ee3ee3959279a9d932f8b7c53dc83dd48c907d28b80bd4db1c34a519d2274e71",
+  "series": {
+    "!Series_title": [
+      "Persistence of alveolar fibroblast-derived ADAMTS4+ cells during delayed resolution of pulmonary fibrosis"
+    ],
+    "!Series_geo_accession": [
+      "GSE295566"
+    ],
+    "!Series_pubmed_id": [
+      "42103706"
+    ],
+    "!Series_summary": [
+      "Idiopathic pulmonary fibrosis is a severe interstitial lung disease with limited therapeutic options. This study traced fibroblast growth factor 10 (Fgf10+) alveolar fibroblasts (AFs) in aged mice subjected to bleomycin injury, analyzing histology and single-cell transcriptomics at peak fibrosis and during resolution phases. Ex vivo models and human lung tissue data were also examined. Results showed Fgf10+ AFs transitioning from lipofibroblasts (LIF) to myofibroblasts (MyoFBs) during fibrogenesis, and reversing during resolution. An ADAM metallopeptidase with thrombospondin type 1 motif 4 (Adamts4+) AF population was linked to delayed resolution. ADAMTS4 emerged as a key target in fibrotic lung diseases, highlighting its therapeutic potential."
+    ],
+    "!Series_overall_design": [
+      "Aged female Fgf10Cre-ERT2/+; tdTomatoflox mice received tamoxifen injections three successive injections two weeks prior to intratracheal instillation of saline or bleomycin. Lungs were collected on days 14, 30 and 60 post bleomycin injury for further analysis."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Ali,,Khadim",
+      "Mahsa,,Zabihi",
+      "Marek,,Bartkuhn",
+      "Elie,,El Agha"
+    ],
+    "!Series_sample_id": [
+      "GSM8952936",
+      "GSM8952937",
+      "GSM8952938",
+      "GSM8952939"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE295nnn/GSE295566/suppl/GSE295566_1.Saline.h5ad",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE295nnn/GSE295566/suppl/GSE295566_2.Bleo_d14.h5ad",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE295nnn/GSE295566/suppl/GSE295566_3.Bleo_d30.h5ad",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE295nnn/GSE295566/suppl/GSE295566_4.Bleo_d60.h5ad",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE295nnn/GSE295566/suppl/GSE295566_5.Fgf10_Bleo.h5ad"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM8952936",
+      "!Sample_title": [
+        "Bleo d60"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8952936"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: Lipofibroblasts / AF1",
+        "genotype: Fgf10Cre-ERT2; tdTomatoflox",
+        "treatment: Tamoxifen injections (three i.p.) 2 weeks before bleomycin administration.Lungs were harvested at day 60 post bleomycin."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Library preparation was carried out using the Chromium Next GEM Single-Cell 3\u02b9 Reagent Kit v3.1 (10x Genomics) according to manufacturer\u2019s instructions.",
+        "scRNA-Seq"
+      ],
+      "!Sample_description": [
+        "Library name: Old Fgf10Cre Bleomycin d60",
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "For demultiplexing and the subsequent FASTQ file generation we used Illumina\u2019s bcl2fastq (2.19.0.316)",
+        "Sequencing reads were aligned to the mouse mm10 reference genome (refdata-gex-mm10-2020-A downloaded from 10xGenomics) using STAR solo (2.7.9a)",
+        "STAR was run in Velocyto mode in order to allow for downstream velocity analysis.",
+        "Droplet filtering was done using the EmptyDrops_CR parameter setting.",
+        "Resulting UMI count matrices were pre-processed for further analyses using Scanpy (1.9.6)",
+        "Assembly: Assembly: mm10",
+        "Supplementary files format and content: Normalized and integrated data including embeddings and clustering in H5AD format."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE295566"
+      ]
+    },
+    {
+      "accession": "GSM8952937",
+      "!Sample_title": [
+        "Bleo d30"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8952937"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: Lipofibroblasts / AF1",
+        "genotype: Fgf10Cre-ERT2; tdTomatoflox",
+        "treatment: Tamoxifen injections (three i.p.) 2 weeks before bleomycin administration. Lungs were harvested at day 30 post bleomycin."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Library preparation was carried out using the Chromium Next GEM Single-Cell 3\u02b9 Reagent Kit v3.1 (10x Genomics) according to manufacturer\u2019s instructions.",
+        "scRNA-Seq"
+      ],
+      "!Sample_description": [
+        "Library name: Old Fgf10Cre Bleomycin d30",
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "For demultiplexing and the subsequent FASTQ file generation we used Illumina\u2019s bcl2fastq (2.19.0.316)",
+        "Sequencing reads were aligned to the mouse mm10 reference genome (refdata-gex-mm10-2020-A downloaded from 10xGenomics) using STAR solo (2.7.9a)",
+        "STAR was run in Velocyto mode in order to allow for downstream velocity analysis.",
+        "Droplet filtering was done using the EmptyDrops_CR parameter setting.",
+        "Resulting UMI count matrices were pre-processed for further analyses using Scanpy (1.9.6)",
+        "Assembly: Assembly: mm10",
+        "Supplementary files format and content: Normalized and integrated data including embeddings and clustering in H5AD format."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE295566"
+      ]
+    },
+    {
+      "accession": "GSM8952938",
+      "!Sample_title": [
+        "Saline d14"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8952938"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: Lipofibroblasts / AF1",
+        "genotype: Fgf10Cre-ERT2; tdTomatoflox",
+        "treatment: Tamoxifen injections (three i.p.) 2 weeks before saline administation. Lungs were harvested at day 14"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Library preparation was carried out using the Chromium Next GEM Single-Cell 3\u02b9 Reagent Kit v3.1 (10x Genomics) according to manufacturer\u2019s instructions.",
+        "scRNA-Seq"
+      ],
+      "!Sample_description": [
+        "Library name: Old Fgf10Cre Saline d14",
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "For demultiplexing and the subsequent FASTQ file generation we used Illumina\u2019s bcl2fastq (2.19.0.316)",
+        "Sequencing reads were aligned to the mouse mm10 reference genome (refdata-gex-mm10-2020-A downloaded from 10xGenomics) using STAR solo (2.7.9a)",
+        "STAR was run in Velocyto mode in order to allow for downstream velocity analysis.",
+        "Droplet filtering was done using the EmptyDrops_CR parameter setting.",
+        "Resulting UMI count matrices were pre-processed for further analyses using Scanpy (1.9.6)",
+        "Assembly: Assembly: mm10",
+        "Supplementary files format and content: Normalized and integrated data including embeddings and clustering in H5AD format."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE295566"
+      ]
+    },
+    {
+      "accession": "GSM8952939",
+      "!Sample_title": [
+        "Bleo d14"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8952939"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: Lipofibroblasts / AF1",
+        "genotype: Fgf10Cre-ERT2; tdTomatoflox",
+        "treatment: Tamoxifen injections (three i.p.) 2 weeks before bleomycin administration.Lungs were harvested at day 14 post bleomycin."
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Library preparation was carried out using the Chromium Next GEM Single-Cell 3\u02b9 Reagent Kit v3.1 (10x Genomics) according to manufacturer\u2019s instructions.",
+        "scRNA-Seq"
+      ],
+      "!Sample_description": [
+        "Library name: Old Fgf10Cre Bleomycin d14",
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "For demultiplexing and the subsequent FASTQ file generation we used Illumina\u2019s bcl2fastq (2.19.0.316)",
+        "Sequencing reads were aligned to the mouse mm10 reference genome (refdata-gex-mm10-2020-A downloaded from 10xGenomics) using STAR solo (2.7.9a)",
+        "STAR was run in Velocyto mode in order to allow for downstream velocity analysis.",
+        "Droplet filtering was done using the EmptyDrops_CR parameter setting.",
+        "Resulting UMI count matrices were pre-processed for further analyses using Scanpy (1.9.6)",
+        "Assembly: Assembly: mm10",
+        "Supplementary files format and content: Normalized and integrated data including embeddings and clustering in H5AD format."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE295566"
+      ]
+    }
+  ]
+}

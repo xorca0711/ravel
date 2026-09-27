@@ -1,5 +1,7 @@
 # A11: lesion-associated programme beyond shared plasticity
 
+**Latest follow-through:** [A11 results and candidate decisions](../../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md). Historical specifications and numerical results below are preserved; read the dated follow-through for the current execution state.
+
 Question-specific work for [A11](../../RESEARCH_QUESTIONS.md#a11). The canonical
 hypothesis stays in the register.
 

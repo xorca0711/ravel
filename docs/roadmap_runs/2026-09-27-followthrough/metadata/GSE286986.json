@@ -1,0 +1,1521 @@
+{
+  "accession": "GSE286986",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE286nnn/GSE286986/soft/GSE286986_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:50:52.104188+00:00",
+  "raw_sha256": "9d1862f855d0aac1aec34136e93fae7bf793fccee00bcf2c66afa91b6279851c",
+  "series": {
+    "!Series_title": [
+      "Single-cell Multiomics Analysis Reveals CTCF as a Key Regulator of Lung Morphogenesis and Progenitor Maintenance"
+    ],
+    "!Series_geo_accession": [
+      "GSE286986"
+    ],
+    "!Series_pubmed_id": [
+      "41315351"
+    ],
+    "!Series_web_link": [
+      "https://www.nature.com/articles/s41467-025-65757-1"
+    ],
+    "!Series_summary": [
+      "Lung development generates a complex tree-like architecture through proximal-distal patterning and branching morphogenesis. However, the gene regulatory programs governing embryonic lung development remain poorly understood. Here, we present a comprehensive single-cell multi-omics atlas of mouse embryonic lungs, integrating gene expression and chromatin accessibility profiles. Through systematic analysis, we identify 13 distinct cell types and map cis-regulatory elements, peak-to-gene linkages, and transcription factors underlying lung development. Leveraging this multi-modal dataset, we uncover lineage-determining transcription factors  driving cell differentiation, including the Activated Protein-1 complex. We further delineate gene regulatory networks involving diverse transcription regulators, including CCCTC-binding factor. Using the Ctcf conditional knockout mouse, coupled with histological and multi-omics analyses, we demonstrate that CCCTC-binding factor  orchestrates lung progenitor maintenance and branching morphogenesis by modulating both gene expression and chromatin accessibility. Thus, our study provides a multi-omics resource and mechanistic insights for transcriptional regulation of lung morphogenesis."
+    ],
+    "!Series_overall_design": [
+      "Refer to individual Series"
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing",
+      "Genome binding/occupancy profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Shenfei,,Sun",
+      "Yamei,,Jiang",
+      "Fujing,,Huang",
+      "Wei,,Wei",
+      "Mathias,,Hochgerner",
+      "Tianmin,,Xu",
+      "Xiaoting,,Wang",
+      "Kaijun,,Lin",
+      "Xinna,,Zhang",
+      "Yanli,,Wang",
+      "Hua,,He",
+      "Miao,,Yu",
+      "Xiaofang,,Tang",
+      "Xinhua,,Lin"
+    ],
+    "!Series_sample_id": [
+      "GSM8735701",
+      "GSM8735702",
+      "GSM8735703",
+      "GSM8735704",
+      "GSM8735705",
+      "GSM8735706",
+      "GSM8735707",
+      "GSM8735708",
+      "GSM8735709",
+      "GSM8735710",
+      "GSM8735711",
+      "GSM8735712",
+      "GSM8735713",
+      "GSM8735714",
+      "GSM8735715",
+      "GSM8735716",
+      "GSM8735717",
+      "GSM8735718",
+      "GSM8735719",
+      "GSM8735720",
+      "GSM8735721",
+      "GSM8735722"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE286nnn/GSE286986/suppl/GSE286986_RAW.tar"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM8735701",
+      "!Sample_title": [
+        "scATAC-seq of mus musclus: E12.5 embryo male lung"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735701"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: whole lung cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single cell multiomics libraries were constructed using Chromium Next GEM Single Cell Multiome ATAC + Gene Expression Reagent Kits (10x Genomics, PN-1000283) according to the manufacturer\u2019s protocol. Briefly, after dissociation, cells (epithelia cells: whole lung cells= 1:10) were collected and resuspended in chilled Lysis Buffer to isolate nuclei. After washing, nuclei suspensions underwent incubation in a Transposition Mix containing Transposase. The Transposase penetrated the nuclei and selectively cleaved DNA within the open chromatin regions. Simultaneously, adapter sequences were appended to the ends of the DNA fragments. The Single Cell Multiome ATAC + GEX Gel Beads include a poly(dT) sequence that enables production of barcoded, full-length cDNA from poly-adenylated mRNA for gene expression library and a Spacer sequence that enables barcode attachment to transposed DNA fragments for ATAC library",
+        "Single cell multiomics libraries were constructed using Chromium Next GEM Single Cell Multiome ATAC + Gene Expression Reagent Kits (10x Genomics, PN-1000283) according to the manufacturer\u2019s protocol. Briefly, after dissociation, cells (epithelia cells: whole lung cells= 1:10) were collected and resuspended in chilled Lysis Buffer to isolate nuclei. After washing, nuclei suspensions underwent incubation in a Transposition Mix containing Transposase. The Transposase penetrated the nuclei and selectively cleaved DNA within the open chromatin regions. Simultaneously, adapter sequences were appended to the ends of the DNA fragments. The Single Cell Multiome ATAC + GEX Gel Beads include a poly(dT) sequence that enables production of barcoded, full-length cDNA from poly-adenylated mRNA for gene expression library and a Spacer sequence that enables barcode attachment to transposed DNA fragments for ATAC library"
+      ],
+      "!Sample_description": [
+        "Library name: scATAC_ARC"
+      ],
+      "!Sample_data_processing": [
+        "We used the FASTQ files from both snATAC and snRNA as input files for CellRanger ARC (v2.0.2) to achieve mm10 mouse genome aligning, real cells identifying, cell barcode demultiplexing and molecular counting for both ATAC and GEX (Gene Expression). We employed the resulting files (filtered_feature_bc_matrix.h5, atac_fragments.tsv.gz and per_barcode_metrics.csv), as input files for the creation of a new Seurat object using the R packages Seurat (v4.4.0) and Signac (v1.13.0).",
+        "Assembly: mm10",
+        "Supplementary files format and content: filtered feature barcode matrix",
+        "Supplementary files format and content: fragment files"
+      ],
+      "!Sample_instrument_model": [
+        "Element AVITI"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "ATAC-seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735701/suppl/GSM8735701_AllCellTypes_Macs2Peaks.bed.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735701/suppl/GSM8735701_scARC.ATAC.WTlung.atac_fragments.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735701/suppl/GSM8735701_scARC.ATAC.WTlung.atac_fragments.tsv.gz.tbi.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE286981",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735702",
+      "!Sample_title": [
+        "scRNA-seq of mus musclus: E12.5 embryo male lung"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735702"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: whole lung cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single cell multiomics libraries were constructed using Chromium Next GEM Single Cell Multiome ATAC + Gene Expression Reagent Kits (10x Genomics, PN-1000283) according to the manufacturer\u2019s protocol. Briefly, after dissociation, cells (epithelia cells: whole lung cells= 1:10) were collected and resuspended in chilled Lysis Buffer to isolate nuclei. After washing, nuclei suspensions underwent incubation in a Transposition Mix containing Transposase. The Transposase penetrated the nuclei and selectively cleaved DNA within the open chromatin regions. Simultaneously, adapter sequences were appended to the ends of the DNA fragments. The Single Cell Multiome ATAC + GEX Gel Beads include a poly(dT) sequence that enables production of barcoded, full-length cDNA from poly-adenylated mRNA for gene expression library and a Spacer sequence that enables barcode attachment to transposed DNA fragments for ATAC library",
+        "Single cell multiomics libraries were constructed using Chromium Next GEM Single Cell Multiome ATAC + Gene Expression Reagent Kits (10x Genomics, PN-1000283) according to the manufacturer\u2019s protocol. Briefly, after dissociation, cells (epithelia cells: whole lung cells= 1:10) were collected and resuspended in chilled Lysis Buffer to isolate nuclei. After washing, nuclei suspensions underwent incubation in a Transposition Mix containing Transposase. The Transposase penetrated the nuclei and selectively cleaved DNA within the open chromatin regions. Simultaneously, adapter sequences were appended to the ends of the DNA fragments. The Single Cell Multiome ATAC + GEX Gel Beads include a poly(dT) sequence that enables production of barcoded, full-length cDNA from poly-adenylated mRNA for gene expression library and a Spacer sequence that enables barcode attachment to transposed DNA fragments for ATAC library"
+      ],
+      "!Sample_description": [
+        "Library name: scRNA_ARC"
+      ],
+      "!Sample_data_processing": [
+        "We used the FASTQ files from both snATAC and snRNA as input files for CellRanger ARC (v2.0.2) to achieve mm10 mouse genome aligning, real cells identifying, cell barcode demultiplexing and molecular counting for both ATAC and GEX (Gene Expression). We employed the resulting files (filtered_feature_bc_matrix.h5, atac_fragments.tsv.gz and per_barcode_metrics.csv), as input files for the creation of a new Seurat object using the R packages Seurat (v4.4.0) and Signac (v1.13.0).",
+        "Assembly: mm10",
+        "Supplementary files format and content: filtered feature barcode matrix",
+        "Supplementary files format and content: fragment files"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735702/suppl/GSM8735702_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE286981",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735703",
+      "!Sample_title": [
+        "CUT&Tag_CTCF of mus muscles: E12.5 embryo male lung epithelia cells replicate1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735703"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_CTCF_Epi_rep1"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735703/suppl/GSM8735703_01Epi_Ctcf_CUTTag.narrowPeak.bed.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735703/suppl/GSM8735703_02Ctcf_CUTTag_FC1.5_DiffPeaks_Epi_specific.bed.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735703/suppl/GSM8735703_Epi_Ctcf_rep1.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735704",
+      "!Sample_title": [
+        "CUT&Tag_CTCF of mus muscles: E12.5 embryo male lung epithelia cells replicate2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735704"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_CTCF_Epi_rep2"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735704/suppl/GSM8735704_Epi_Ctcf_rep2.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735705",
+      "!Sample_title": [
+        "CUT&Tag_CTCF of mus muscles: E12.5 embryo male lung mesenchymal cells replicate1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735705"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung mesenchymal cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_CTCF_Mes_rep1"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735705/suppl/GSM8735705_01Mes_Ctcf_CUTTag.narrowPeak.bed.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735705/suppl/GSM8735705_02Ctcf_CUTTag_FC1.5_DiffPeaks_Mes_specific.bed.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735705/suppl/GSM8735705_Mes_Ctcf_rep1.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735706",
+      "!Sample_title": [
+        "CUT&Tag_CTCF of mus muscles: E12.5 embryo male lung mesenchymal cells replicate2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735706"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung mesenchymal cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_CTCF_Mes_rep2"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735706/suppl/GSM8735706_Mes_Ctcf_rep2.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735707",
+      "!Sample_title": [
+        "CUT&Tag_H3K4me3 of mus muscles: E12.5 embryo male lung epithelia cells replicate1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735707"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_H3K4me3_Epi_rep1"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735707/suppl/GSM8735707_Epi_H3k4me3_rep1.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735708",
+      "!Sample_title": [
+        "CUT&Tag_H3K4me3 of mus muscles: E12.5 embryo male lung epithelia cells replicate2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735708"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_H3K4me3_Epi_rep2"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735708/suppl/GSM8735708_Epi_H3k4me3_rep2.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735709",
+      "!Sample_title": [
+        "CUT&Tag_H3K4me3 of mus muscles: E12.5 embryo male lung mesenchymal cells replicate1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735709"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung mesenchymal cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_H3K4me3_Mes_rep1"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735709/suppl/GSM8735709_Mes_H3k4me3_rep1.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735710",
+      "!Sample_title": [
+        "CUT&Tag_H3K4me3 of mus muscles: E12.5 embryo male lung mesenchymal cells replicate2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735710"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung mesenchymal cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_H3K4me3_Mes_rep2"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735710/suppl/GSM8735710_Mes_H3k4me3_rep2.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735711",
+      "!Sample_title": [
+        "CUT&Tag_IgG of mus muscles: E12.5 embryo male lung epithelia cells"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735711"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_IgG_Epi"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735711/suppl/GSM8735711_Epi_IgG.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735712",
+      "!Sample_title": [
+        "CUT&Tag_IgG of mus muscles: E12.5 embryo male lung mesenchymal cells"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735712"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung mesenchymal cells",
+        "genotype: WT"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis.",
+        "CUT&Tag libraries were generated using CUT&Tag Assay Kits (ABclonal, # RK20265) following the manufacturer's guidelines. In brief, cells were captured by Concanavalin A Magnetic Beads, then incubated with primary antibodies at 4\u00b0C and then bound to pAGTn5. The Fragmented DNA was purified and finally amplified through PCR to form the libraries. Prepared libraries were sequenced on the Illumina NovaSeq 6000 platform with paired ends and 150-bp read lengths. Each sample includes two independent biological replicates, and each replicate library produced at least 40 M reads for comprehensive bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: CUTTag_IgG_Mes"
+      ],
+      "!Sample_data_processing": [
+        "For analyzing CUT&Tag data, we used the ENCODE ChIP-seq pipeline (v2.2.1, https://github.com/ENCODE-DCC/chip-seq-pipeline2). The raw sequencing data were processed to remove adapters and low-quality sequences using Cutadapt (v2.5) with the parameters: -m 5 -e 0.1. Then, clean reads were aligned against the mouse mm10 genome using bwa (v0.7.17). Then, sam files were converted to bam files using samtools (v1.9). PCR duplicates were removed using Picard (v2.20.7, https://broadinstitute.github.io/picard/). Peaks were called using MACS2 (v2.2.4). The conservative narrow peaks were used for downstream analysis. For visualization, bam files were converted to bigWig files using deepTools (v3.3.1), and bigWig files were used to calculate tag density under 50 bp resolution.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files",
+        "Library strategy: CUT&Tag"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "OTHER"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735712/suppl/GSM8735712_Mes_IgG.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286982",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735713",
+      "!Sample_title": [
+        "RNA-seq of mus musclus: E12.5 embryo male lung epithelia cells, CTRL, replicate 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735713"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CTRL"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Total RNA from isolated epithelial cells was extracted by using RNeasy Plus Mini Kits (QIAGEN, #74134).",
+        "The freshly RNA was purified into mRNA using VAHTS mRNA Capture Beads (Vazyme, #N401). Then, the captured mRNA underwent library generation using Equalbit RNA HS Assay Kits (Vazyme, NR605) following the manufacturer\u2019s instructions."
+      ],
+      "!Sample_description": [
+        "Library name: RNAseq_CTRL_rep1"
+      ],
+      "!Sample_data_processing": [
+        "We performed RNA-seq analysis as described previously. Briefly, after removing adapters using Cutadapt (v2.5), paired-end reads were aligned to the mm10 mouse genome using Hisat2 (v2.2.1) in paired-end mode with default parameters. Expression level of genes were calculated using StringTie (v2.2.1). Subsequently, raw read counts for genes were calculated using the python script prepDE.py3. Differential expressed genes were identified using the R package DESeq2 (v1.38.3)",
+        "Assembly: mm10",
+        "Supplementary files format and content: differentially expressed genes list"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE286983",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735714",
+      "!Sample_title": [
+        "RNA-seq of mus musclus: E12.5 embryo male lung epithelia cells, CTRL, replicate 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735714"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CTRL"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Total RNA from isolated epithelial cells was extracted by using RNeasy Plus Mini Kits (QIAGEN, #74134).",
+        "The freshly RNA was purified into mRNA using VAHTS mRNA Capture Beads (Vazyme, #N401). Then, the captured mRNA underwent library generation using Equalbit RNA HS Assay Kits (Vazyme, NR605) following the manufacturer\u2019s instructions."
+      ],
+      "!Sample_description": [
+        "Library name: RNAseq_CTRL_rep2"
+      ],
+      "!Sample_data_processing": [
+        "We performed RNA-seq analysis as described previously. Briefly, after removing adapters using Cutadapt (v2.5), paired-end reads were aligned to the mm10 mouse genome using Hisat2 (v2.2.1) in paired-end mode with default parameters. Expression level of genes were calculated using StringTie (v2.2.1). Subsequently, raw read counts for genes were calculated using the python script prepDE.py3. Differential expressed genes were identified using the R package DESeq2 (v1.38.3)",
+        "Assembly: mm10",
+        "Supplementary files format and content: differentially expressed genes list"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE286983",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735715",
+      "!Sample_title": [
+        "RNA-seq of mus musclus: E12.5 embryo male lung epithelia cells, CKO, replicate 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735715"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CKO"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Total RNA from isolated epithelial cells was extracted by using RNeasy Plus Mini Kits (QIAGEN, #74134).",
+        "The freshly RNA was purified into mRNA using VAHTS mRNA Capture Beads (Vazyme, #N401). Then, the captured mRNA underwent library generation using Equalbit RNA HS Assay Kits (Vazyme, NR605) following the manufacturer\u2019s instructions."
+      ],
+      "!Sample_description": [
+        "Library name: RNAseq_CKO_rep1"
+      ],
+      "!Sample_data_processing": [
+        "We performed RNA-seq analysis as described previously. Briefly, after removing adapters using Cutadapt (v2.5), paired-end reads were aligned to the mm10 mouse genome using Hisat2 (v2.2.1) in paired-end mode with default parameters. Expression level of genes were calculated using StringTie (v2.2.1). Subsequently, raw read counts for genes were calculated using the python script prepDE.py3. Differential expressed genes were identified using the R package DESeq2 (v1.38.3)",
+        "Assembly: mm10",
+        "Supplementary files format and content: differentially expressed genes list"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE286983",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735716",
+      "!Sample_title": [
+        "RNA-seq of mus musclus: E12.5 embryo male lung epithelia cells, CKO, replicate 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735716"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CKO"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Total RNA from isolated epithelial cells was extracted by using RNeasy Plus Mini Kits (QIAGEN, #74134).",
+        "The freshly RNA was purified into mRNA using VAHTS mRNA Capture Beads (Vazyme, #N401). Then, the captured mRNA underwent library generation using Equalbit RNA HS Assay Kits (Vazyme, NR605) following the manufacturer\u2019s instructions."
+      ],
+      "!Sample_description": [
+        "Library name: RNAseq_CKO_rep2"
+      ],
+      "!Sample_data_processing": [
+        "We performed RNA-seq analysis as described previously. Briefly, after removing adapters using Cutadapt (v2.5), paired-end reads were aligned to the mm10 mouse genome using Hisat2 (v2.2.1) in paired-end mode with default parameters. Expression level of genes were calculated using StringTie (v2.2.1). Subsequently, raw read counts for genes were calculated using the python script prepDE.py3. Differential expressed genes were identified using the R package DESeq2 (v1.38.3)",
+        "Assembly: mm10",
+        "Supplementary files format and content: differentially expressed genes list"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE286983",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735717",
+      "!Sample_title": [
+        "ATAC-seq of mus musclus: E12.5 embryo male lung epithelia cells, CTRL, replicate 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735717"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CTRL"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Epithelia nuclei were isolated and fragmented with Tn5 transposase. DNA was isolated using the DNA Clean and Concentrator Kits (Zymo, D4013) and subjected to library construction using Q5 high-fidelity DNA polymerase (New England Biolabs, M0544S).",
+        "Epithelia nuclei were isolated and fragmented with Tn5 transposase. DNA was isolated using the DNA Clean and Concentrator Kits (Zymo, D4013) and subjected to library construction using Q5 high-fidelity DNA polymerase (New England Biolabs, M0544S)."
+      ],
+      "!Sample_description": [
+        "Library name: ATACseq_CTRL_rep1"
+      ],
+      "!Sample_data_processing": [
+        "ATAC-seq data were analyzed using a standardized ENCODE ATAC-seq pipeline (v2.2.2, https://github.com/ENCODE-DCC/atac-seq-pipeline). The mouse reference genome (mm10) was used in the pipeline. Trimming, mapping, and duplicate-removing were performed as ENCODE pipeline suggested using Cutadapt (v2.5), Bowtie2 (v2.3.4.3), and Picard (v2.20.7, https://broadinstitute.github.io/picard/) respectively. MACS2 (v2.2.4) was used for peak calling with parameters: --nomodel --shift 100 --extsize 200 --pval 0.01 --SPMR --call-summits.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "ATAC-seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735717/suppl/GSM8735717_01ATAC_C.narrowPeak.bed.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735717/suppl/GSM8735717_02ATAC_LossPeaks.bed.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735717/suppl/GSM8735717_ATAC.C1.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286984",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735718",
+      "!Sample_title": [
+        "ATAC-seq of mus musclus: E12.5 embryo male lung epithelia cells, CTRL, replicate 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735718"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CTRL"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Epithelia nuclei were isolated and fragmented with Tn5 transposase. DNA was isolated using the DNA Clean and Concentrator Kits (Zymo, D4013) and subjected to library construction using Q5 high-fidelity DNA polymerase (New England Biolabs, M0544S).",
+        "Epithelia nuclei were isolated and fragmented with Tn5 transposase. DNA was isolated using the DNA Clean and Concentrator Kits (Zymo, D4013) and subjected to library construction using Q5 high-fidelity DNA polymerase (New England Biolabs, M0544S)."
+      ],
+      "!Sample_description": [
+        "Library name: ATACseq_CTRL_rep2"
+      ],
+      "!Sample_data_processing": [
+        "ATAC-seq data were analyzed using a standardized ENCODE ATAC-seq pipeline (v2.2.2, https://github.com/ENCODE-DCC/atac-seq-pipeline). The mouse reference genome (mm10) was used in the pipeline. Trimming, mapping, and duplicate-removing were performed as ENCODE pipeline suggested using Cutadapt (v2.5), Bowtie2 (v2.3.4.3), and Picard (v2.20.7, https://broadinstitute.github.io/picard/) respectively. MACS2 (v2.2.4) was used for peak calling with parameters: --nomodel --shift 100 --extsize 200 --pval 0.01 --SPMR --call-summits.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "ATAC-seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735718/suppl/GSM8735718_ATAC.C2.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286984",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735719",
+      "!Sample_title": [
+        "ATAC-seq of mus musclus: E12.5 embryo male lung epithelia cells, CKO, replicate 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735719"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CKO"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Epithelia nuclei were isolated and fragmented with Tn5 transposase. DNA was isolated using the DNA Clean and Concentrator Kits (Zymo, D4013) and subjected to library construction using Q5 high-fidelity DNA polymerase (New England Biolabs, M0544S).",
+        "Epithelia nuclei were isolated and fragmented with Tn5 transposase. DNA was isolated using the DNA Clean and Concentrator Kits (Zymo, D4013) and subjected to library construction using Q5 high-fidelity DNA polymerase (New England Biolabs, M0544S)."
+      ],
+      "!Sample_description": [
+        "Library name: ATACseq_CKO_rep1"
+      ],
+      "!Sample_data_processing": [
+        "ATAC-seq data were analyzed using a standardized ENCODE ATAC-seq pipeline (v2.2.2, https://github.com/ENCODE-DCC/atac-seq-pipeline). The mouse reference genome (mm10) was used in the pipeline. Trimming, mapping, and duplicate-removing were performed as ENCODE pipeline suggested using Cutadapt (v2.5), Bowtie2 (v2.3.4.3), and Picard (v2.20.7, https://broadinstitute.github.io/picard/) respectively. MACS2 (v2.2.4) was used for peak calling with parameters: --nomodel --shift 100 --extsize 200 --pval 0.01 --SPMR --call-summits.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "ATAC-seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735719/suppl/GSM8735719_01ATAC_K.narrowPeak.bed.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735719/suppl/GSM8735719_02ATAC_GainPeaks.bed.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735719/suppl/GSM8735719_ATAC.K1.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286984",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735720",
+      "!Sample_title": [
+        "ATAC-seq of mus musclus: E12.5 embryo male lung epithelia cells, CKO, replicate 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735720"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CKO"
+      ],
+      "!Sample_molecule_ch1": [
+        "genomic DNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Epithelia nuclei were isolated and fragmented with Tn5 transposase. DNA was isolated using the DNA Clean and Concentrator Kits (Zymo, D4013) and subjected to library construction using Q5 high-fidelity DNA polymerase (New England Biolabs, M0544S).",
+        "Epithelia nuclei were isolated and fragmented with Tn5 transposase. DNA was isolated using the DNA Clean and Concentrator Kits (Zymo, D4013) and subjected to library construction using Q5 high-fidelity DNA polymerase (New England Biolabs, M0544S)."
+      ],
+      "!Sample_description": [
+        "Library name: ATACseq_CKO_rep2"
+      ],
+      "!Sample_data_processing": [
+        "ATAC-seq data were analyzed using a standardized ENCODE ATAC-seq pipeline (v2.2.2, https://github.com/ENCODE-DCC/atac-seq-pipeline). The mouse reference genome (mm10) was used in the pipeline. Trimming, mapping, and duplicate-removing were performed as ENCODE pipeline suggested using Cutadapt (v2.5), Bowtie2 (v2.3.4.3), and Picard (v2.20.7, https://broadinstitute.github.io/picard/) respectively. MACS2 (v2.2.4) was used for peak calling with parameters: --nomodel --shift 100 --extsize 200 --pval 0.01 --SPMR --call-summits.",
+        "Assembly: mm10",
+        "Supplementary files format and content: bigwig files and peak files"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "other"
+      ],
+      "!Sample_library_source": [
+        "genomic"
+      ],
+      "!Sample_library_strategy": [
+        "ATAC-seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735720/suppl/GSM8735720_ATAC.K2.bigwig"
+      ],
+      "!Sample_series_id": [
+        "GSE286984",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735721",
+      "!Sample_title": [
+        "scRNA-seq of mus musclus: E12.5 embryo male lung, CTRL"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735721"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CTRL"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell transcriptomic libraries were constructed using Chromium Single Cell 3\u02b9 Reagent Kits v3 (10x Genomics, PN-1000121) according to the manufacturer\u2019s protocol. Briefly, after dissociation, whole lung cells were collected and resuspended to form cell suspension, and the cell concentration was adjusted to 1000 cells/\u03bcL (viability \u2265 85%). Ap proximately 5000 cells were captured in droplets, and then lysed to release total RNA. RNA was barcoded through reverse transcription from individual gel beads in emulsion. The cDNA was then amplified for the library construction. Prepared libraries were sequenced on the Illumina NovaSeq 6000. Each library produced at least 100 GB of raw data for downstream bioinformatics analysis.",
+        "Single-cell transcriptomic libraries were constructed using Chromium Single Cell 3\u02b9 Reagent Kits v3 (10x Genomics, PN-1000121) according to the manufacturer\u2019s protocol. Briefly, after dissociation, whole lung cells were collected and resuspended to form cell suspension, and the cell concentration was adjusted to 1000 cells/\u03bcL (viability \u2265 85%). Ap proximately 5000 cells were captured in droplets, and then lysed to release total RNA. RNA was barcoded through reverse transcription from individual gel beads in emulsion. The cDNA was then amplified for the library construction. Prepared libraries were sequenced on the Illumina NovaSeq 6000. Each library produced at least 100 GB of raw data for downstream bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: scRNA_CTRL"
+      ],
+      "!Sample_data_processing": [
+        "FASTQ files were run through CellRanger (v7.1.0) software with default parameters for de-multiplexing, aligning reads with STAR software to mm10, and counting unique molecular identifiers (UMIs). As input files of the Seurat R package (v4.4.0), the filtered gene expression matrices were then used for downstream analyses.",
+        "Assembly: mm10",
+        "Supplementary files format and content: filtered feature barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735721/suppl/GSM8735721_Ctrl.barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735721/suppl/GSM8735721_Ctrl.features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735721/suppl/GSM8735721_Ctrl.matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE286985",
+        "GSE286986"
+      ]
+    },
+    {
+      "accession": "GSM8735722",
+      "!Sample_title": [
+        "scRNA-seq of mus musclus: E12.5 embryo male lung, CKO"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8735722"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "cell type: lung epithelia cells",
+        "genotype: CKOL"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell transcriptomic libraries were constructed using Chromium Single Cell 3\u02b9 Reagent Kits v3 (10x Genomics, PN-1000121) according to the manufacturer\u2019s protocol. Briefly, after dissociation, whole lung cells were collected and resuspended to form cell suspension, and the cell concentration was adjusted to 1000 cells/\u03bcL (viability \u2265 85%). Ap proximately 5000 cells were captured in droplets, and then lysed to release total RNA. RNA was barcoded through reverse transcription from individual gel beads in emulsion. The cDNA was then amplified for the library construction. Prepared libraries were sequenced on the Illumina NovaSeq 6000. Each library produced at least 100 GB of raw data for downstream bioinformatics analysis.",
+        "Single-cell transcriptomic libraries were constructed using Chromium Single Cell 3\u02b9 Reagent Kits v3 (10x Genomics, PN-1000121) according to the manufacturer\u2019s protocol. Briefly, after dissociation, whole lung cells were collected and resuspended to form cell suspension, and the cell concentration was adjusted to 1000 cells/\u03bcL (viability \u2265 85%). Ap proximately 5000 cells were captured in droplets, and then lysed to release total RNA. RNA was barcoded through reverse transcription from individual gel beads in emulsion. The cDNA was then amplified for the library construction. Prepared libraries were sequenced on the Illumina NovaSeq 6000. Each library produced at least 100 GB of raw data for downstream bioinformatics analysis."
+      ],
+      "!Sample_description": [
+        "Library name: scRNA_CKO"
+      ],
+      "!Sample_data_processing": [
+        "FASTQ files were run through CellRanger (v7.1.0) software with default parameters for de-multiplexing, aligning reads with STAR software to mm10, and counting unique molecular identifiers (UMIs). As input files of the Seurat R package (v4.4.0), the filtered gene expression matrices were then used for downstream analyses.",
+        "Assembly: mm10",
+        "Supplementary files format and content: filtered feature barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735722/suppl/GSM8735722_CKO.barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735722/suppl/GSM8735722_CKO.features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8735nnn/GSM8735722/suppl/GSM8735722_CKO.matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE286985",
+        "GSE286986"
+      ]
+    }
+  ]
+}

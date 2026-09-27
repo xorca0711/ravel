@@ -1,0 +1,733 @@
+{
+  "accession": "GSE292515",
+  "reused_source": "Research Article\\gate1_03_nabhan_2018\\external_feasibility\\GSE292515_family.soft.gz",
+  "sha256": "77ed64f075e6f233538ede784d22a36519756989683a7d1b824555acd46287a1",
+  "series": {
+    "!Series_title": [
+      "scRNA-seq Analysis of Lung Cells in Influenza A Virus (IAV) Infected Aged Mice"
+    ],
+    "!Series_geo_accession": [
+      "GSE292515"
+    ],
+    "!Series_summary": [
+      "Seasonal influenza causes significant morbidity and mortality worldwide, with 70-90% of these deaths occurring in individuals aged 65 or older. To explore the mechanisms behind this age-related vulnerability, we investigated immune responses and inflammation in the lungs of young and old mice during influenza A virus (IAV) infection. Young (12-week) and old (70-week) C57BL/6J mice were intranasally infected with IAV PR8, and immune responses were assessed at 7 days post-infection (dpi) using single-cell RNA sequencing (scRNA-seq)."
+    ],
+    "!Series_overall_design": [
+      "scRNA-seq profiling in the lungs from old and young mice at day 7 after influenza virus infection"
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Wenxin,,Wu",
+      "Jeremy S,,Alexander",
+      "Chaoqun,,Huang",
+      "Lin,,Liu",
+      "Douglas A,,Drevets",
+      "Jordan P,,Metcalf"
+    ],
+    "!Series_sample_id": [
+      "GSM8860478",
+      "GSM8860479",
+      "GSM8860480",
+      "GSM8860481",
+      "GSM8860482",
+      "GSM8860483",
+      "GSM8860484",
+      "GSM8860485",
+      "GSM8860486",
+      "GSM8860487"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE292nnn/GSE292515/suppl/GSE292515_RAW.tar"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM8860478",
+      "!Sample_title": [
+        "lung cells,young mouse mock treated 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860478"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 12 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: PBS",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: mock young  lung cell 1"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860478/suppl/GSM8860478_2_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860479",
+      "!Sample_title": [
+        "lung cells,young mouse mock treated 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860479"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 12 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: PBS",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: mock young lung cell 2"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860479/suppl/GSM8860479_9_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860480",
+      "!Sample_title": [
+        "lung cells,young mouse IAV infected 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860480"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 12 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: influenza virus PR8",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: IAV infected young lung cell 3"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860480/suppl/GSM8860480_3_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860481",
+      "!Sample_title": [
+        "lung cells,young mouse IAV infected 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860481"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 12 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: influenza virus PR8",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: IAV infected young lung cell 4"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860481/suppl/GSM8860481_4_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860482",
+      "!Sample_title": [
+        "lung cells,young mouse IAV infected 3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860482"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 12 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: influenza virus PR8",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: IAV infected young lung cell 5"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860482/suppl/GSM8860482_11_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860483",
+      "!Sample_title": [
+        "lung cells,old mouse mock treated 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860483"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 70 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: PBS",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: mock old lung cell 6"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860483/suppl/GSM8860483_6_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860484",
+      "!Sample_title": [
+        "lung cells,old mouse mock treated 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860484"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 70 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: PBS",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: mock old lung cell 7"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860484/suppl/GSM8860484_13_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860485",
+      "!Sample_title": [
+        "lung cells,old mouse IAV infected 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860485"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 70 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: influenza virus PR8",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: IAV infected old lung cell 8"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860485/suppl/GSM8860485_7_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860486",
+      "!Sample_title": [
+        "lung cells,old mouse IAV infected 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860486"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 70 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: influenza virus PR8",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: IAV infected old lung cell 9"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860486/suppl/GSM8860486_8_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    },
+    {
+      "accession": "GSM8860487",
+      "!Sample_title": [
+        "lung cells,old mouse IAV infected 3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8860487"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "total lung cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "age: 70 weeks",
+        "cell type: total lung cells",
+        "Sex: male",
+        "genotype: C57BL/6J",
+        "treatment: influenza virus PR8",
+        "batch: day 7 after infection"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "influenza A virus infection"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Seven days after IAV infection, mice were euthanized, and their lungs were perfused. Whole lungs were collected, fixed and frozen according to the Tissue Fixation & Dissociation for Chromium Fixed RNA Profiling kit (10X Genomics, Pleasanton, CA) and the 10x Genomics Chromium Next GEM Single Cell Fixed RNA Sample Preparation Kit. Dissociation of fixed Tissue and creation of single cell suspension were done according to the manufacturers protocol.",
+        "Cells were loaded onto the Chromium X (10X Genomics), then the Mouse Transcriptome 10x Genomics Chromium Fixed RNA Kit, was used to generate cDNA libraries. All samples were handled so that approximately 10,000 cells were captured as 10X Genomics Gel Beads-in-emulsion (GEMs). Barcoded libraries were sequenced on an Illumina NovaSeq X Plus 25B PE300 instrument using the 10X genomics\u2019 suggested cycling conditions."
+      ],
+      "!Sample_description": [
+        "Library name: IAV infected old lung cell 10"
+      ],
+      "!Sample_data_processing": [
+        "Data were demultiplexed and aligned to the mm10 2020-A reference transcriptome (10x Genomics) using Cell Ranger (v8.0, 10x Genomics).",
+        "Assembly: mouse mm10",
+        "Supplementary files format and content: Tab seperated values and matrix file"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq X Plus"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8860nnn/GSM8860487/suppl/GSM8860487_15_sample_filtered_feature_bc_matrix.h5"
+      ],
+      "!Sample_series_id": [
+        "GSE292515"
+      ]
+    }
+  ]
+}

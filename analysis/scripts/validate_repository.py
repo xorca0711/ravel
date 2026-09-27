@@ -22,7 +22,7 @@ from urllib.parse import unquote
 
 REPO = Path(__file__).resolve().parents[2]
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
-SKIP_DIRS = {".git", ".venv", ".venv-x64", ".venv-repro", ".tools", ".claude", "raw_data", "__pycache__", "cache", "tmp", ".uv-cache"}
+SKIP_DIRS = {".git", ".venv", ".venv-x64", ".venv-repro", ".tools", ".claude", "raw_data", "__pycache__", "cache", "tmp", ".uv-cache", ".worktrees"}
 
 
 class Validation:
@@ -58,7 +58,8 @@ def median_by(rows: list[dict[str, str]], group: str, value: str) -> dict[float,
 def source_files(root: Path, suffix: str) -> list[Path]:
     files = []
     for directory, subdirectories, names in os.walk(root):
-        subdirectories[:] = [name for name in subdirectories if name not in SKIP_DIRS]
+        subdirectories[:] = [name for name in subdirectories if name not in SKIP_DIRS
+                             and not (Path(directory) / name / ".git").exists()]
         files.extend(Path(directory) / name for name in names if name.endswith(suffix))
     return files
 

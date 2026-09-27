@@ -1,0 +1,116 @@
+{
+  "input": "Research Article\\gate1_01_niethamer_2025\\GSE262927\\tables\\cell_metadata.csv",
+  "sha256": "2449459a1312945dea7e790490746a123a296656db67d2f37214dc1e55aafe29",
+  "scope": "full retained-cell metadata, not epithelial-subanalysis subset; before raw UMI gate",
+  "counts": [
+    {
+      "sample": "EEM-scRNA-113",
+      "day": "6.0",
+      "label": "AT1_AT2",
+      "cells_before_depth_filter": 19
+    },
+    {
+      "sample": "EEM-scRNA-113",
+      "day": "6.0",
+      "label": "AT2",
+      "cells_before_depth_filter": 120
+    },
+    {
+      "sample": "EEM-scRNA-113",
+      "day": "6.0",
+      "label": "Alveolar_transitional",
+      "cells_before_depth_filter": 4
+    },
+    {
+      "sample": "EEM-scRNA-116",
+      "day": "11.0",
+      "label": "AT1_AT2",
+      "cells_before_depth_filter": 4
+    },
+    {
+      "sample": "EEM-scRNA-116",
+      "day": "11.0",
+      "label": "AT2",
+      "cells_before_depth_filter": 40
+    },
+    {
+      "sample": "EEM-scRNA-116",
+      "day": "11.0",
+      "label": "Alveolar_transitional",
+      "cells_before_depth_filter": 23
+    },
+    {
+      "sample": "EEM-scRNA-117",
+      "day": "19.0",
+      "label": "AT1_AT2",
+      "cells_before_depth_filter": 13
+    },
+    {
+      "sample": "EEM-scRNA-117",
+      "day": "19.0",
+      "label": "AT2",
+      "cells_before_depth_filter": 152
+    },
+    {
+      "sample": "EEM-scRNA-117",
+      "day": "19.0",
+      "label": "Alveolar_transitional",
+      "cells_before_depth_filter": 14
+    },
+    {
+      "sample": "EEM-scRNA-162",
+      "day": "6.0",
+      "label": "AT1_AT2",
+      "cells_before_depth_filter": 16
+    },
+    {
+      "sample": "EEM-scRNA-162",
+      "day": "6.0",
+      "label": "AT2",
+      "cells_before_depth_filter": 150
+    },
+    {
+      "sample": "EEM-scRNA-162",
+      "day": "6.0",
+      "label": "Alveolar_transitional",
+      "cells_before_depth_filter": 11
+    },
+    {
+      "sample": "EEM-scRNA-167",
+      "day": "11.0",
+      "label": "AT1_AT2",
+      "cells_before_depth_filter": 8
+    },
+    {
+      "sample": "EEM-scRNA-167",
+      "day": "11.0",
+      "label": "AT2",
+      "cells_before_depth_filter": 149
+    },
+    {
+      "sample": "EEM-scRNA-167",
+      "day": "11.0",
+      "label": "Alveolar_transitional",
+      "cells_before_depth_filter": 127
+    },
+    {
+      "sample": "EEM-scRNA-170",
+      "day": "19.0",
+      "label": "AT1_AT2",
+      "cells_before_depth_filter": 21
+    },
+    {
+      "sample": "EEM-scRNA-170",
+      "day": "19.0",
+      "label": "AT2",
+      "cells_before_depth_filter": 111
+    },
+    {
+      "sample": "EEM-scRNA-170",
+      "day": "19.0",
+      "label": "Alveolar_transitional",
+      "cells_before_depth_filter": 10
+    }
+  ],
+  "eligible_transition_samples_upper_bound": 1
+}

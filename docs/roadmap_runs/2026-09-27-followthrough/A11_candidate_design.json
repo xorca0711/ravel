@@ -1,0 +1,14 @@
+{
+  "cohort": "GSE198864",
+  "libraries": 91,
+  "tissue_counts": {
+    "ex-vivo infected AM cells": 24,
+    "autopsy material": 8,
+    "lung explant tissue": 49,
+    "bronchial lung organoids": 4,
+    "alveolar lung organoids": 6
+  },
+  "status": "mixed ex vivo, organoid, autopsy and assay contexts; no verified matched transitional-state specificity contrast",
+  "public_processed_counts": "Public processed HDF5 files and RDS objects are listed. FASTQ privacy restriction is not treated as absence of processed counts.",
+  "remaining": "Donor-resolved epithelial annotation with a programme-independent comparable injured state; predeclared acute explant transport contrast would be a distinct falsification experiment, not tumour-specificity validation."
+}

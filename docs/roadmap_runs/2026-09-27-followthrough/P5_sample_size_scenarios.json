@@ -1,0 +1,63 @@
+{
+  "method": "noncentral t power for independent preparation-level paired contrasts; two-sided alpha .025 for each of two predeclared contrasts (Bonferroni conservative planning for Holm family)",
+  "assumptions": "normal independent contrast differences, no attrition, standardized effect = mean contrast / SD of same contrast; paired/factorial contrast SD must come from appropriate pilot, not well residuals",
+  "not_a_selected_sample_size": true,
+  "scenarios": [
+    {
+      "standardized_contrast_effect": 0.3,
+      "target_power": 0.8,
+      "independent_preparations": 109,
+      "calculated_power": 0.803487849713251,
+      "six_arm_culture_units_before_technical_repeats": 654
+    },
+    {
+      "standardized_contrast_effect": 0.3,
+      "target_power": 0.9,
+      "independent_preparations": 141,
+      "calculated_power": 0.9012702784263472,
+      "six_arm_culture_units_before_technical_repeats": 846
+    },
+    {
+      "standardized_contrast_effect": 0.5,
+      "target_power": 0.8,
+      "independent_preparations": 41,
+      "calculated_power": 0.8047639899717614,
+      "six_arm_culture_units_before_technical_repeats": 246
+    },
+    {
+      "standardized_contrast_effect": 0.5,
+      "target_power": 0.9,
+      "independent_preparations": 53,
+      "calculated_power": 0.904878017830185,
+      "six_arm_culture_units_before_technical_repeats": 318
+    },
+    {
+      "standardized_contrast_effect": 0.8,
+      "target_power": 0.8,
+      "independent_preparations": 18,
+      "calculated_power": 0.8151275991405215,
+      "six_arm_culture_units_before_technical_repeats": 108
+    },
+    {
+      "standardized_contrast_effect": 0.8,
+      "target_power": 0.9,
+      "independent_preparations": 23,
+      "calculated_power": 0.9148181777995161,
+      "six_arm_culture_units_before_technical_repeats": 138
+    },
+    {
+      "standardized_contrast_effect": 1.0,
+      "target_power": 0.8,
+      "independent_preparations": 13,
+      "calculated_power": 0.8354093348328574,
+      "six_arm_culture_units_before_technical_repeats": 78
+    },
+    {
+      "standardized_contrast_effect": 1.0,
+      "target_power": 0.9,
+      "independent_preparations": 16,
+      "calculated_power": 0.9210349372410238,
+      "six_arm_culture_units_before_technical_repeats": 96
+    }
+  ]
+}

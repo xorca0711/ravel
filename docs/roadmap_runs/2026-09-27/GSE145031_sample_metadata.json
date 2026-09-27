@@ -1,0 +1,282 @@
+{
+  "accession": "GSE145031",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE145nnn/GSE145031/soft/GSE145031_family.soft.gz",
+  "bytes": 3672,
+  "sha256": "0f8f3b1d98318e8ff4681005a5c37b641c202bc55e013190de08ff12a71b356f",
+  "series": {
+    "!Series_title": [
+      "Inflammatory Signals induce AT2 Cell-Derived Damage-Associated Transient Progenitors that Mediate Alveolar Regeneration"
+    ],
+    "!Series_status": [
+      "Public on Aug 03 2020"
+    ],
+    "!Series_last_update_date": [
+      "Nov 02 2020"
+    ],
+    "!Series_pubmed_id": [
+      "32750316"
+    ],
+    "!Series_summary": [
+      "Tissue regeneration is a multi-step process mediated by diverse cellular hierarchies and states that are also implicated in tissue dysfunction and pathogenesis.  Here, we leveraged single-cell RNA sequencing in combination with in vivo lineage tracing and organoid models to finely map the trajectories of alveolar lineage cells during injury repair and lung regeneration. We identified a distinct AT2-lineage population, Damage-Associated Transient Progenitors (DATPs), that arises during alveolar regeneration. We found that interstitial macrophage-derived IL-1\u03b2 primes a subset of AT2 cells expressing Il1r1 for conversion into DATPs via a HIF1\u03b1-mediated glycolysis pathway, which is required for mature AT1 cell differentiation. Importantly, chronic inflammation mediated by IL-1\u03b2 prevents AT1 differentiation, leading to aberrant accumulation of DATPs and impaired alveolar regeneration.  Together, this step-wise mapping to cell fate transitions shows how an inflammatory niche impairs alveolar regeneration by controlling stem cell fate and behavior."
+    ],
+    "!Series_overall_design": [
+      "For scRNA-seq, lung organoids derived from AT2 cells and lung tissues from control or Bleomycin-treated SPC-CreERT2;R26RTomato mice were collected and sorted by FACS, and the expression levels were quantified using the Chromium Controller (10X Genomics). For ATAC-seq of bulk (control) and Il1r1+ AT2, Tomato+ AT2 cells were isolated by FACS."
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE145nnn/GSE145031/suppl/GSE145031_RAW.tar"
+    ],
+    "!Series_relation": [
+      "SubSeries of: GSE144553",
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA605766",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP247966"
+    ]
+  },
+  "samples": [
+    {
+      "accession": [
+        "GSM4304609"
+      ],
+      "!Sample_title": [
+        "PBS_AT2_Tomato"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lineage labelled AT2 cells were collected at day 0"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: lung progenitor cells",
+        "strain: C57BL/6",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "IL-1\u03b2 or PBS were treated for organoid culture.",
+        "0.2mg/g body weight tamoxifen was given via intraperitoneal (IP) injection.",
+        "1.25U/kg of bleomycin, or PBS control, were delivered intratracheally."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Lung organoids were co-culutured with stromal cells.",
+        "Mice for the lineage tracing and injury experiments were  bred and maintained under specific-pathogen-free conditions at the Cambridge Stem Cell Institute and Gurdon Institute of University of Cambridge."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Established organoids of control or IL-1\u03b2-treatment were incubated with dispase (BD Bioscience) for 30-60min. Then, cells were dissociated with TripLE  for 5min, followed by washing with buffer (PBS/0.01% BSA).",
+        "For SPC or Krt8 lineage-labelled cells, CD45\u2013CD31\u2013EpCAM+Tomato+ cells were sorted at specific time points (at day 14 and day 28 post damage) from PBS or Bleomycin-treated mice (2 mice were pooled for each experiment). For non-lineage-labelled cells isolated from SPCCreERT2;R26RtdTomato mice  in parallel with experiment of SPC lineage-labelled cells, we combined the cells of EpCAM+Tomato\u2013 and EpCAM\u2013 population with a ratio of 2:1, respectively.",
+        "The resulting cell suspension (~110,000 cells each) were submitted as separate samples to be barcoded for the droplet-encapsulation single- cell RNA-seq experiments using the Chromium Controller (10X Genomics). Single cell cDNA synthesis, amplification and sequencing libraries were generated using the Single Cell 3' Reagent Kit as per the 10x Genomics protocol.",
+        "10x libraries were multiplexed so that 2 libraries were sequenced per single lane of HiSeq 4000"
+      ],
+      "!Sample_data_processing": [
+        "Droplet-based sequencing data was aligned and quantified using the Cell Ranger Single-Cell Software Suite (version 2.0.2, 10x Genomics Inc) using the Mus musculus genome (mm9,GRCm38) (official Cell Ranger reference, version 1.2.0). \u00a0Cells were filtered by custom cutoff (more than 500 and less than 7000 detected genes, more than 2000 UMI count) to remove potential empty droplets and doublets.",
+        "Downstream analysis included data normalisation, highly variable gene detection, log transformation, principal component analysis, neighbourhood graph generation and Louvain graph-based clustering, which was done by python package scanpy (version 1.3.6) using default parameters.",
+        "Genome_build: Mus musculus, mm9/GRCm38",
+        "Supplementary_files_format_and_content: raw fastq files and raw gene quantifications, mtx/tsv format for matrix, barcode, and genes"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14078568",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX7703153"
+      ]
+    },
+    {
+      "accession": [
+        "GSM4304610"
+      ],
+      "!Sample_title": [
+        "PBS_AT2_nonTomato"
+      ],
+      "!Sample_source_name_ch1": [
+        "Unlineage labelled cells were collected at day 0"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: lung progenitor cells",
+        "strain: C57BL/6",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "IL-1\u03b2 or PBS were treated for organoid culture.",
+        "0.2mg/g body weight tamoxifen was given via intraperitoneal (IP) injection.",
+        "1.25U/kg of bleomycin, or PBS control, were delivered intratracheally."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Lung organoids were co-culutured with stromal cells.",
+        "Mice for the lineage tracing and injury experiments were  bred and maintained under specific-pathogen-free conditions at the Cambridge Stem Cell Institute and Gurdon Institute of University of Cambridge."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Established organoids of control or IL-1\u03b2-treatment were incubated with dispase (BD Bioscience) for 30-60min. Then, cells were dissociated with TripLE  for 5min, followed by washing with buffer (PBS/0.01% BSA).",
+        "For SPC or Krt8 lineage-labelled cells, CD45\u2013CD31\u2013EpCAM+Tomato+ cells were sorted at specific time points (at day 14 and day 28 post damage) from PBS or Bleomycin-treated mice (2 mice were pooled for each experiment). For non-lineage-labelled cells isolated from SPCCreERT2;R26RtdTomato mice  in parallel with experiment of SPC lineage-labelled cells, we combined the cells of EpCAM+Tomato\u2013 and EpCAM\u2013 population with a ratio of 2:1, respectively.",
+        "The resulting cell suspension (~110,000 cells each) were submitted as separate samples to be barcoded for the droplet-encapsulation single- cell RNA-seq experiments using the Chromium Controller (10X Genomics). Single cell cDNA synthesis, amplification and sequencing libraries were generated using the Single Cell 3' Reagent Kit as per the 10x Genomics protocol.",
+        "10x libraries were multiplexed so that 2 libraries were sequenced per single lane of HiSeq 4000"
+      ],
+      "!Sample_data_processing": [
+        "Droplet-based sequencing data was aligned and quantified using the Cell Ranger Single-Cell Software Suite (version 2.0.2, 10x Genomics Inc) using the Mus musculus genome (mm9,GRCm38) (official Cell Ranger reference, version 1.2.0). \u00a0Cells were filtered by custom cutoff (more than 500 and less than 7000 detected genes, more than 2000 UMI count) to remove potential empty droplets and doublets.",
+        "Downstream analysis included data normalisation, highly variable gene detection, log transformation, principal component analysis, neighbourhood graph generation and Louvain graph-based clustering, which was done by python package scanpy (version 1.3.6) using default parameters.",
+        "Genome_build: Mus musculus, mm9/GRCm38",
+        "Supplementary_files_format_and_content: raw fastq files and raw gene quantifications, mtx/tsv format for matrix, barcode, and genes"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14078567",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX7703154"
+      ]
+    },
+    {
+      "accession": [
+        "GSM4304611"
+      ],
+      "!Sample_title": [
+        "Day14_AT2_Tomato"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lineage labelled AT2 cells were collected at day 14 post injury"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: lung progenitor cells",
+        "strain: C57BL/6",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "IL-1\u03b2 or PBS were treated for organoid culture.",
+        "0.2mg/g body weight tamoxifen was given via intraperitoneal (IP) injection.",
+        "1.25U/kg of bleomycin, or PBS control, were delivered intratracheally."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Lung organoids were co-culutured with stromal cells.",
+        "Mice for the lineage tracing and injury experiments were  bred and maintained under specific-pathogen-free conditions at the Cambridge Stem Cell Institute and Gurdon Institute of University of Cambridge."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Established organoids of control or IL-1\u03b2-treatment were incubated with dispase (BD Bioscience) for 30-60min. Then, cells were dissociated with TripLE  for 5min, followed by washing with buffer (PBS/0.01% BSA).",
+        "For SPC or Krt8 lineage-labelled cells, CD45\u2013CD31\u2013EpCAM+Tomato+ cells were sorted at specific time points (at day 14 and day 28 post damage) from PBS or Bleomycin-treated mice (2 mice were pooled for each experiment). For non-lineage-labelled cells isolated from SPCCreERT2;R26RtdTomato mice  in parallel with experiment of SPC lineage-labelled cells, we combined the cells of EpCAM+Tomato\u2013 and EpCAM\u2013 population with a ratio of 2:1, respectively.",
+        "The resulting cell suspension (~110,000 cells each) were submitted as separate samples to be barcoded for the droplet-encapsulation single- cell RNA-seq experiments using the Chromium Controller (10X Genomics). Single cell cDNA synthesis, amplification and sequencing libraries were generated using the Single Cell 3' Reagent Kit as per the 10x Genomics protocol.",
+        "10x libraries were multiplexed so that 2 libraries were sequenced per single lane of HiSeq 4000"
+      ],
+      "!Sample_data_processing": [
+        "Droplet-based sequencing data was aligned and quantified using the Cell Ranger Single-Cell Software Suite (version 2.0.2, 10x Genomics Inc) using the Mus musculus genome (mm9,GRCm38) (official Cell Ranger reference, version 1.2.0). \u00a0Cells were filtered by custom cutoff (more than 500 and less than 7000 detected genes, more than 2000 UMI count) to remove potential empty droplets and doublets.",
+        "Downstream analysis included data normalisation, highly variable gene detection, log transformation, principal component analysis, neighbourhood graph generation and Louvain graph-based clustering, which was done by python package scanpy (version 1.3.6) using default parameters.",
+        "Genome_build: Mus musculus, mm9/GRCm38",
+        "Supplementary_files_format_and_content: raw fastq files and raw gene quantifications, mtx/tsv format for matrix, barcode, and genes"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14078566",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX7703155"
+      ]
+    },
+    {
+      "accession": [
+        "GSM4304612"
+      ],
+      "!Sample_title": [
+        "Day14_AT2_nonTomato"
+      ],
+      "!Sample_source_name_ch1": [
+        "Unlineage labelled cells were collected at day 14 post injury"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: lung progenitor cells",
+        "strain: C57BL/6",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "IL-1\u03b2 or PBS were treated for organoid culture.",
+        "0.2mg/g body weight tamoxifen was given via intraperitoneal (IP) injection.",
+        "1.25U/kg of bleomycin, or PBS control, were delivered intratracheally."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Lung organoids were co-culutured with stromal cells.",
+        "Mice for the lineage tracing and injury experiments were  bred and maintained under specific-pathogen-free conditions at the Cambridge Stem Cell Institute and Gurdon Institute of University of Cambridge."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Established organoids of control or IL-1\u03b2-treatment were incubated with dispase (BD Bioscience) for 30-60min. Then, cells were dissociated with TripLE  for 5min, followed by washing with buffer (PBS/0.01% BSA).",
+        "For SPC or Krt8 lineage-labelled cells, CD45\u2013CD31\u2013EpCAM+Tomato+ cells were sorted at specific time points (at day 14 and day 28 post damage) from PBS or Bleomycin-treated mice (2 mice were pooled for each experiment). For non-lineage-labelled cells isolated from SPCCreERT2;R26RtdTomato mice  in parallel with experiment of SPC lineage-labelled cells, we combined the cells of EpCAM+Tomato\u2013 and EpCAM\u2013 population with a ratio of 2:1, respectively.",
+        "The resulting cell suspension (~110,000 cells each) were submitted as separate samples to be barcoded for the droplet-encapsulation single- cell RNA-seq experiments using the Chromium Controller (10X Genomics). Single cell cDNA synthesis, amplification and sequencing libraries were generated using the Single Cell 3' Reagent Kit as per the 10x Genomics protocol.",
+        "10x libraries were multiplexed so that 2 libraries were sequenced per single lane of HiSeq 4000"
+      ],
+      "!Sample_data_processing": [
+        "Droplet-based sequencing data was aligned and quantified using the Cell Ranger Single-Cell Software Suite (version 2.0.2, 10x Genomics Inc) using the Mus musculus genome (mm9,GRCm38) (official Cell Ranger reference, version 1.2.0). \u00a0Cells were filtered by custom cutoff (more than 500 and less than 7000 detected genes, more than 2000 UMI count) to remove potential empty droplets and doublets.",
+        "Downstream analysis included data normalisation, highly variable gene detection, log transformation, principal component analysis, neighbourhood graph generation and Louvain graph-based clustering, which was done by python package scanpy (version 1.3.6) using default parameters.",
+        "Genome_build: Mus musculus, mm9/GRCm38",
+        "Supplementary_files_format_and_content: raw fastq files and raw gene quantifications, mtx/tsv format for matrix, barcode, and genes"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14078565",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX7703156"
+      ]
+    },
+    {
+      "accession": [
+        "GSM4304613"
+      ],
+      "!Sample_title": [
+        "Day28_AT2_Tomato"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lineage labelled AT2 cells were collected at day 28 post injury"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: lung progenitor cells",
+        "strain: C57BL/6",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "IL-1\u03b2 or PBS were treated for organoid culture.",
+        "0.2mg/g body weight tamoxifen was given via intraperitoneal (IP) injection.",
+        "1.25U/kg of bleomycin, or PBS control, were delivered intratracheally."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Lung organoids were co-culutured with stromal cells.",
+        "Mice for the lineage tracing and injury experiments were  bred and maintained under specific-pathogen-free conditions at the Cambridge Stem Cell Institute and Gurdon Institute of University of Cambridge."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Established organoids of control or IL-1\u03b2-treatment were incubated with dispase (BD Bioscience) for 30-60min. Then, cells were dissociated with TripLE  for 5min, followed by washing with buffer (PBS/0.01% BSA).",
+        "For SPC or Krt8 lineage-labelled cells, CD45\u2013CD31\u2013EpCAM+Tomato+ cells were sorted at specific time points (at day 14 and day 28 post damage) from PBS or Bleomycin-treated mice (2 mice were pooled for each experiment). For non-lineage-labelled cells isolated from SPCCreERT2;R26RtdTomato mice  in parallel with experiment of SPC lineage-labelled cells, we combined the cells of EpCAM+Tomato\u2013 and EpCAM\u2013 population with a ratio of 2:1, respectively.",
+        "The resulting cell suspension (~110,000 cells each) were submitted as separate samples to be barcoded for the droplet-encapsulation single- cell RNA-seq experiments using the Chromium Controller (10X Genomics). Single cell cDNA synthesis, amplification and sequencing libraries were generated using the Single Cell 3' Reagent Kit as per the 10x Genomics protocol.",
+        "10x libraries were multiplexed so that 2 libraries were sequenced per single lane of HiSeq 4000"
+      ],
+      "!Sample_data_processing": [
+        "Droplet-based sequencing data was aligned and quantified using the Cell Ranger Single-Cell Software Suite (version 2.0.2, 10x Genomics Inc) using the Mus musculus genome (mm9,GRCm38) (official Cell Ranger reference, version 1.2.0). \u00a0Cells were filtered by custom cutoff (more than 500 and less than 7000 detected genes, more than 2000 UMI count) to remove potential empty droplets and doublets.",
+        "Downstream analysis included data normalisation, highly variable gene detection, log transformation, principal component analysis, neighbourhood graph generation and Louvain graph-based clustering, which was done by python package scanpy (version 1.3.6) using default parameters.",
+        "Genome_build: Mus musculus, mm9/GRCm38",
+        "Supplementary_files_format_and_content: raw fastq files and raw gene quantifications, mtx/tsv format for matrix, barcode, and genes"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14078564",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX7703157"
+      ]
+    },
+    {
+      "accession": [
+        "GSM4304614"
+      ],
+      "!Sample_title": [
+        "Day28_AT2_nonTomato"
+      ],
+      "!Sample_source_name_ch1": [
+        "Unlineage labelled cells were collected at day 28 post injury"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: lung progenitor cells",
+        "strain: C57BL/6",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "IL-1\u03b2 or PBS were treated for organoid culture.",
+        "0.2mg/g body weight tamoxifen was given via intraperitoneal (IP) injection.",
+        "1.25U/kg of bleomycin, or PBS control, were delivered intratracheally."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Lung organoids were co-culutured with stromal cells.",
+        "Mice for the lineage tracing and injury experiments were  bred and maintained under specific-pathogen-free conditions at the Cambridge Stem Cell Institute and Gurdon Institute of University of Cambridge."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Established organoids of control or IL-1\u03b2-treatment were incubated with dispase (BD Bioscience) for 30-60min. Then, cells were dissociated with TripLE  for 5min, followed by washing with buffer (PBS/0.01% BSA).",
+        "For SPC or Krt8 lineage-labelled cells, CD45\u2013CD31\u2013EpCAM+Tomato+ cells were sorted at specific time points (at day 14 and day 28 post damage) from PBS or Bleomycin-treated mice (2 mice were pooled for each experiment). For non-lineage-labelled cells isolated from SPCCreERT2;R26RtdTomato mice  in parallel with experiment of SPC lineage-labelled cells, we combined the cells of EpCAM+Tomato\u2013 and EpCAM\u2013 population with a ratio of 2:1, respectively.",
+        "The resulting cell suspension (~110,000 cells each) were submitted as separate samples to be barcoded for the droplet-encapsulation single- cell RNA-seq experiments using the Chromium Controller (10X Genomics). Single cell cDNA synthesis, amplification and sequencing libraries were generated using the Single Cell 3' Reagent Kit as per the 10x Genomics protocol.",
+        "10x libraries were multiplexed so that 2 libraries were sequenced per single lane of HiSeq 4000"
+      ],
+      "!Sample_data_processing": [
+        "Droplet-based sequencing data was aligned and quantified using the Cell Ranger Single-Cell Software Suite (version 2.0.2, 10x Genomics Inc) using the Mus musculus genome (mm9,GRCm38) (official Cell Ranger reference, version 1.2.0). \u00a0Cells were filtered by custom cutoff (more than 500 and less than 7000 detected genes, more than 2000 UMI count) to remove potential empty droplets and doublets.",
+        "Downstream analysis included data normalisation, highly variable gene detection, log transformation, principal component analysis, neighbourhood graph generation and Louvain graph-based clustering, which was done by python package scanpy (version 1.3.6) using default parameters.",
+        "Genome_build: Mus musculus, mm9/GRCm38",
+        "Supplementary_files_format_and_content: raw fastq files and raw gene quantifications, mtx/tsv format for matrix, barcode, and genes"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14078563",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX7703158"
+      ]
+    }
+  ]
+}

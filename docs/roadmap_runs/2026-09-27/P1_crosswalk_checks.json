@@ -1,0 +1,101 @@
+{
+  "libraries": 886,
+  "unique_targets": 203,
+  "cross_plate_targets": 4,
+  "axis_targets": {
+    "AREG": {
+      "target": "AREG",
+      "libraries": 4,
+      "plates": 1,
+      "positions": 1,
+      "guide_pools": 1,
+      "plate_positions": 1
+    },
+    "EGFR": {
+      "target": "EGFR",
+      "libraries": 4,
+      "plates": 1,
+      "positions": 1,
+      "guide_pools": 1,
+      "plate_positions": 1
+    },
+    "ERBB2": {
+      "target": "ERBB2",
+      "libraries": 4,
+      "plates": 1,
+      "positions": 1,
+      "guide_pools": 1,
+      "plate_positions": 1
+    },
+    "ERBB3": {
+      "target": "ERBB3",
+      "libraries": 4,
+      "plates": 1,
+      "positions": 1,
+      "guide_pools": 1,
+      "plate_positions": 1
+    },
+    "ERBB4": {
+      "target": "ERBB4",
+      "libraries": 4,
+      "plates": 1,
+      "positions": 1,
+      "guide_pools": 1,
+      "plate_positions": 1
+    },
+    "ITGB6": {
+      "target": "ITGB6",
+      "libraries": 4,
+      "plates": 1,
+      "positions": 1,
+      "guide_pools": 1,
+      "plate_positions": 1
+    }
+  },
+  "preparation_identifiers_recovered_from_deposited_tables": 0,
+  "libraries_without_plate_design": 30,
+  "unmapped_target": "TDTOMATO only; guide pool is unknown, not an additional measured pool",
+  "finding": "Each nominated axis target is inseparable from its one position and one guide pool in this screen; deposited repeat labels do not establish biological replication.",
+  "sources": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307112/suppl/GSE307112_plate_design.csv.gz",
+      "file": "GSE307112_plate_design.csv.gz",
+      "sha256": "8f6950e6286ed438748bfcb12077e683abe74aa525678096f9ad9bea282b8ad1",
+      "bytes": 14102,
+      "rows": 232,
+      "columns": [
+        "plate",
+        "well",
+        "gene_name",
+        "species",
+        "gene_id",
+        "sgrna1",
+        "sgrna2",
+        "sgrna3",
+        "amplicon_size",
+        "GC_percent",
+        "fwd_primer",
+        "rev_primer",
+        "sequencing_primer"
+      ]
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307112/suppl/GSE307112_imaging_outputs.csv.gz",
+      "file": "GSE307112_imaging_outputs.csv.gz",
+      "sha256": "50ab337c916e0bd195c0fc387067fe0ee138683537e738c23f90ad97ef99d215",
+      "bytes": 46028,
+      "rows": 1883,
+      "columns": [
+        "plate",
+        "plate_replicate",
+        "well",
+        "crispr_target",
+        "segmentation_model",
+        "day",
+        "organoids_count",
+        "organoids_area_mean",
+        "organoids_area_prop"
+      ]
+    }
+  ]
+}

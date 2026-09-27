@@ -1,5 +1,13 @@
 # A13: fibroblast programmes beyond macrophage interleukin-1 beta
 
+**Latest follow-through:** [A13 results and candidate decisions](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md). Historical specifications and numerical results below are preserved; read the dated follow-through for the current execution state.
+
+**Scope clarification, 27 September 2026:** the [rationale audit](../../docs/audits/2026-09-27-rq-rationale/REPORT.md)
+retains the zero/three-pair coverage result and no-fit decision. The recorded
+fibroblast bottleneck applies to the inspected cohorts; it does not prove that
+a larger or differently sampled cohort cannot supply complete triads. Comparable
+states, protocol, depth and actual per-patient counts govern a new eligibility audit.
+
 **Status, 27 September 2026: coverage counted, the gate is not met, nothing fitted.** The
 register card for [A13](../../RESEARCH_QUESTIONS.md#a13) says coverage is next and not
 mediation fitting. This folder is that coverage and nothing more. No model was fitted, no

@@ -1,0 +1,826 @@
+{
+  "accession": "GSE129605",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE129nnn/GSE129605/soft/GSE129605_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:32:40.648984+00:00",
+  "raw_sha256": "aab86dc92bb919ab52db4117217df20368dea28843be0b0bd31c72216164dfec",
+  "series": {
+    "!Series_title": [
+      "Defining the Activated Fibroblast Population in Lung Fibrosis Using Single Cell Sequencing"
+    ],
+    "!Series_geo_accession": [
+      "GSE129605"
+    ],
+    "!Series_pubmed_id": [
+      "30848683"
+    ],
+    "!Series_summary": [
+      "In brief, we have applied a novel and unbiased approach to identify distinct and dynamic cell populations, including an in-depth analysis of the fibroblast population, in lung fibrosis. We found that while fibroblast number did not increase after injury, a population of activated fibroblasts can be identified in the fibrotic mouse lung. Using expression profiles of 1,945 lung fibroblasts we redefine the molecular characteristics of activated fibroblasts, finding that they are not a separate population but rather exhibit a similar, yet amplified, gene expression pattern to non-activated cells."
+    ],
+    "!Series_overall_design": [
+      "A bolus of Bleomycin (2.8 U/kilogram (kg); 1.75 milligram (mg)/kg) or 0.9% sterile saline at 2ml/kg volume was dosed into mouth of each C57BL/6 male mouse (12-13 weeks) near the larynx to induce lung fibrosis.  3 Groups: Saline Control, Bleomycin, and Bleomycin+60mg/kg Nintedanib treatment was started concomitantly with the administration of bleomycin and single cell isolations were performed on day 11."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Rebecca,,Peyser",
+      "Scott,,MacDonnell",
+      "Yinglin,,Gao",
+      "Luis,,Cheng",
+      "Yong,,Kim",
+      "Theodore,,Kaplan",
+      "Qin,,Ruan",
+      "Yi,,Wei",
+      "Min,,Ni",
+      "Christina,,Adler",
+      "Wen,,Zhang",
+      "Kishor,,Devalaraja-Narashimha",
+      "Justin,,Grindley",
+      "Gabor,,Halasz",
+      "Lori,,Morton"
+    ],
+    "!Series_sample_id": [
+      "GSM3716976",
+      "GSM3716977",
+      "GSM3716978",
+      "GSM3716979",
+      "GSM3716980",
+      "GSM3716981",
+      "GSM3716982",
+      "GSM3716983",
+      "GSM3716984",
+      "GSM3716985",
+      "GSM3716986"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE129nnn/GSE129605/suppl/GSE129605_RAW.tar"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM3716976",
+      "!Sample_title": [
+        "saline.947170: Saline Control 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716976"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Saline-treated and receiving daily oral gavage with vehicle.  Vehicle - 0.5% carboxymethyl cellulose in water."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716976/suppl/GSM3716976_saline.947170_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716976/suppl/GSM3716976_saline.947170_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716976/suppl/GSM3716976_saline.947170_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716977",
+      "!Sample_title": [
+        "saline.947172: Saline Control 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716977"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Saline-treated and receiving daily oral gavage with vehicle.  Vehicle - 0.5% carboxymethyl cellulose in water."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716977/suppl/GSM3716977_saline.947172_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716977/suppl/GSM3716977_saline.947172_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716977/suppl/GSM3716977_saline.947172_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716978",
+      "!Sample_title": [
+        "saline.955736: Saline Control 3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716978"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Saline-treated and receiving daily oral gavage with vehicle.  Vehicle - 0.5% carboxymethyl cellulose in water."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716978/suppl/GSM3716978_saline.955736_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716978/suppl/GSM3716978_saline.955736_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716978/suppl/GSM3716978_saline.955736_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716979",
+      "!Sample_title": [
+        "saline.955737: Saline Control 4"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716979"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Saline-treated and receiving daily oral gavage with vehicle.  Vehicle - 0.5% carboxymethyl cellulose in water."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716979/suppl/GSM3716979_saline.955737_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716979/suppl/GSM3716979_saline.955737_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716979/suppl/GSM3716979_saline.955737_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716980",
+      "!Sample_title": [
+        "bleomycin.947173: Bleomycin 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716980"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Bleomycin-treated (2.8 U/kilogram (kg); 1.75 milligram (mg)/kg) and receiving daily oral gavage with vehicle."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716980/suppl/GSM3716980_bleomycin.947173_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716980/suppl/GSM3716980_bleomycin.947173_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716980/suppl/GSM3716980_bleomycin.947173_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716981",
+      "!Sample_title": [
+        "bleomycin.947174: Bleomycin 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716981"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Bleomycin-treated (2.8 U/kilogram (kg); 1.75 milligram (mg)/kg) and receiving daily oral gavage with vehicle."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716981/suppl/GSM3716981_bleomycin.947174_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716981/suppl/GSM3716981_bleomycin.947174_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716981/suppl/GSM3716981_bleomycin.947174_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716982",
+      "!Sample_title": [
+        "bleomycin.947176: Bleomycin 3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716982"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Bleomycin-treated (2.8 U/kilogram (kg); 1.75 milligram (mg)/kg) and receiving daily oral gavage with vehicle."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716982/suppl/GSM3716982_bleomycin.947176_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716982/suppl/GSM3716982_bleomycin.947176_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716982/suppl/GSM3716982_bleomycin.947176_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716983",
+      "!Sample_title": [
+        "bleomycin.955738: Bleomycin 4"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716983"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Bleomycin-treated (2.8 U/kilogram (kg); 1.75 milligram (mg)/kg) and receiving daily oral gavage with vehicle."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716983/suppl/GSM3716983_bleomycin.955738_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716983/suppl/GSM3716983_bleomycin.955738_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716983/suppl/GSM3716983_bleomycin.955738_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716984",
+      "!Sample_title": [
+        "nintedanib.947177: Bleomycin + Nintedanib 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716984"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Bleomycin-treated (2.8 U/kilogram (kg); 1.75 milligram (mg)/kg) and receiving Nintedanib (60mg/kg administered by oral gavage, QD)."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716984/suppl/GSM3716984_nintedanib.947177_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716984/suppl/GSM3716984_nintedanib.947177_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716984/suppl/GSM3716984_nintedanib.947177_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716985",
+      "!Sample_title": [
+        "nintedanib.947178: Bleomycin + Nintedanib 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716985"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Bleomycin-treated (2.8 U/kilogram (kg); 1.75 milligram (mg)/kg) and receiving Nintedanib (60mg/kg administered by oral gavage, QD)."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716985/suppl/GSM3716985_nintedanib.947178_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716985/suppl/GSM3716985_nintedanib.947178_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716985/suppl/GSM3716985_nintedanib.947178_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    },
+    {
+      "accession": "GSM3716986",
+      "!Sample_title": [
+        "nintedanib.947179: Bleomycin + Nintedanib 3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3716986"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Isolated Lung Cells"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "age: 12-13 weeks",
+        "tissue: Lung"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "Bleomycin (2.8 U/kg), Vehicle (0.5% carboxymethyl cellulose in water), or Nintedanib (60mg/kg) plus Bleomycin administered by oral gavage, QD."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Singe cell isolation was completed using collagenase based tissue dissociation techniques.  Viable cells were collected and suspended in 2ml sterile PBS+0.4%BSA. Single cell suspensions were loaded on a Chromium Single Cell Instrument (10X Genomics) to generate single cell gel beads in emulsion.",
+        "Single cell RNA-Seq libraries were prepared using version 2 Chromium single cell 3\u2019 chemistry. Sequencing was performed on Illumina NextSeq500 with a transcript length of 59 bp."
+      ],
+      "!Sample_description": [
+        "Bleomycin-treated (2.8 U/kilogram (kg); 1.75 milligram (mg)/kg) and receiving Nintedanib (60mg/kg administered by oral gavage, QD)."
+      ],
+      "!Sample_data_processing": [
+        "The Cell Ranger Suite version 2.0.0 was used to perform sample de-multiplexing, barcode processing and single cell gene UMI (unique molecular index) counting.  Sequencing reads were aligned Refseq mm10 transcriptome."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NextSeq 500"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716986/suppl/GSM3716986_nintedanib.947179_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716986/suppl/GSM3716986_nintedanib.947179_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3716nnn/GSM3716986/suppl/GSM3716986_nintedanib.947179_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE129605"
+      ]
+    }
+  ]
+}

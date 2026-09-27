@@ -1,0 +1,134 @@
+{
+  "created_utc": "2026-09-27T04:53:41.205423+00:00",
+  "baseline_commit": "329c07c2c7752b861ef94ffd5bd23575daae9d2b",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "status": "passed",
+  "tracked_changes": [
+    "AI_CONTEXT.md",
+    "DEVELOPMENT.md",
+    "PROGRESS.md",
+    "README.md",
+    "RESEARCH_QUESTIONS.md",
+    "RQ_Specified/A0_conserved_epithelial_transition_program/README.md",
+    "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md",
+    "RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md",
+    "RQ_Specified/A2_areg_source_delivery/README.md",
+    "RQ_Specified/README.md",
+    "analysis/scripts/validate_repository.py",
+    "docs/LOGICAL_RATIONALE_REVIEW.md",
+    "docs/RQ_MEASUREMENT_CONTRACTS.md"
+  ],
+  "preservation": "All tracked changes are restricted to the listed living summaries and validator. No tracked claim grades, frozen reports/configs, scientific code, numerical tables or source inputs differ from the baseline in Git.",
+  "checks": [
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\dream\\.codex\\worktrees\\rq-rationale-audit\\scRNA_seq\\docs\\audits\\2026-09-27-rq-rationale\\audit_checks.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"baseline_commit\": \"329c07c2c7752b861ef94ffd5bd23575daae9d2b\", \"tracked_files\": 2620, \"python_files_parsed\": 334, \"json_files_parsed\": 492, \"failures\": []}\n{\"A0_V1\": {\"start\": {\"mice\": 3, \"median_score_points\": 0.2693643735564133, \"positive_mice\": 2, \"decision\": true}, \"destination\": {\"mice\": 3, \"median_score_points\": -0.09140661342003642, \"positive_mice\": 1, \"decision\": false}}, \"A2_primary_correlation\": {\"budget\": \"1000\", \"stratum\": \"pooled\", \"x\": \"machinery\", \"y\": \"activation\", \"donors\": \"22\", \"rho\": \"0.2931\", \"p_value\": \"0.185637\", \"note\": \"predictor of interest\"}, \"A2_ITGB6\": {\"readable_units\": 3, \"median_effect\": -0.938}}\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "-x",
+        "[/\\\\]\\.tools[/\\\\]",
+        "analysis",
+        "Research Article",
+        "RQ_Specified"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "analysis/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 53 tests in 3.452s\n\nOK (skipped=1)\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "analysis/scripts/claim_contract.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "Claim contract verified; 18 numeric bindings passed.\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "output": "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested.\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "output": "Repository validation passed: 2780 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "safe.directory=C:/Users/dream/.codex/worktrees/rq-rationale-audit/scRNA_seq",
+        "-c",
+        "core.safecrlf=false",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\dream\\.codex\\worktrees\\rq-rationale-audit\\scRNA_seq\\docs\\audits\\2026-09-27-rq-rationale\\audit_checks.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"baseline_commit\": \"329c07c2c7752b861ef94ffd5bd23575daae9d2b\", \"tracked_files\": 2620, \"python_files_parsed\": 334, \"json_files_parsed\": 492, \"failures\": []}\n{\"A0_V1\": {\"start\": {\"mice\": 3, \"median_score_points\": 0.2693643735564133, \"positive_mice\": 2, \"decision\": true}, \"destination\": {\"mice\": 3, \"median_score_points\": -0.09140661342003642, \"positive_mice\": 1, \"decision\": false}}, \"A2_primary_correlation\": {\"budget\": \"1000\", \"stratum\": \"pooled\", \"x\": \"machinery\", \"y\": \"activation\", \"donors\": \"22\", \"rho\": \"0.2931\", \"p_value\": \"0.185637\", \"note\": \"predictor of interest\"}, \"A2_ITGB6\": {\"readable_units\": 3, \"median_effect\": -0.938}}\n",
+      "reason": "Final README/RQ interpretation clarifications and report verification summary; no source changes since successful compile/unit checks."
+    },
+    {
+      "argv": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "output": "Repository validation passed: 2780 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n",
+      "reason": "Final README/RQ interpretation clarifications and report verification summary; no source changes since successful compile/unit checks."
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "safe.directory=C:/Users/dream/.codex/worktrees/rq-rationale-audit/scRNA_seq",
+        "-c",
+        "core.safecrlf=false",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "",
+      "reason": "Final README/RQ interpretation clarifications and report verification summary; no source changes since successful compile/unit checks."
+    }
+  ],
+  "limitations": [
+    "The test_a1_lineage_execution module is skipped because the bundled validation runtime lacks its NumPy/pandas/matplotlib dependency set; existing scientific integration tests were not rerun in another environment.",
+    "No raw-matrix or raw-input reproduction was performed."
+  ]
+}

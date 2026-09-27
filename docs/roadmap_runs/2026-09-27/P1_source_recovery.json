@@ -1,0 +1,79 @@
+{
+  "schema": "roadmap-P1-source-recovery/v1",
+  "article": "https://doi.org/10.1073/pnas.2606113123",
+  "retrieval": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13367804/supplementaryFiles",
+    "bytes": 131769108,
+    "sha256": "d9d8b27e28d11b917f713598b009ac73bc6c393d24df231bd4bfe677a5876aee",
+    "members": [
+      "pnas.2606113123fig02.jpg",
+      "pnas.2606113123.sapp.pdf",
+      "pnas.2606113123.sd07.xlsx",
+      "pnas.2606113123fig03.gif",
+      "pnas.2606113123fig01.gif",
+      "pnas.2606113123.sd05.xlsx",
+      "pnas.2606113123fig04.gif",
+      "pnas.2606113123fig05.jpg",
+      "pnas.2606113123fig02.gif",
+      "pnas.2606113123.sd06.csv",
+      "pnas.2606113123.sd03.xlsx",
+      "pnas.2606113123.sd02.xlsx",
+      "pnas.2606113123.sd01.xlsx",
+      "pnas.2606113123fig05.gif",
+      "pnas.2606113123fig01.jpg",
+      "pnas.2606113123.sd04.xlsx",
+      "pnas.2606113123fig03.jpg",
+      "pnas.2606113123fig04.jpg"
+    ],
+    "selected": [
+      {
+        "file": "pnas.2606113123.sapp.pdf",
+        "bytes": 3911957,
+        "sha256": "71cc465ddf61a3c605868e8d57a8ef665537ee8b9d64ef9acfdb2469d6a423e9"
+      }
+    ],
+    "seconds": 654.8
+  },
+  "facts": [
+    {
+      "field": "replicate hierarchy",
+      "locator": "Supplement PDF p.2, Cell Co-culture and Transwell Seeding",
+      "finding": "A common cell-Matrigel mixture is divided into four replicate Transwells. These are split culture wells, not four independent preparations."
+    },
+    {
+      "field": "recipient material",
+      "locator": "Supplement PDF p.2, Cell Isolation and Sorting",
+      "finding": "The protocol uses same-patient fibroblasts at passage 3. The deposited libraries still lack a patient/isolation/lot crosswalk."
+    },
+    {
+      "field": "culture context",
+      "locator": "Supplement PDF p.2; Fig. S5 p.11",
+      "finding": "Growth-factor-reduced Matrigel and MTEC/Plus medium are specified; Fig. S5 identifies recombinant EGF in regular medium. Well-specific ligand concentrations are not mapped."
+    },
+    {
+      "field": "imaging and timing",
+      "locator": "Supplement PDF pp.2\u20133",
+      "finding": "ImageXpress acquisition at days 7 and 14; RNA collection at day 14. SAM processing and filtering are described; deposited-area physical calibration/transformation remains unresolved."
+    },
+    {
+      "field": "area coverage definition",
+      "locator": "Supplement PDF p.3, Image Processing",
+      "finding": "Coverage uses a union of bounding boxes over an adjusted image area; it is not algebraically the sum of segmented object areas."
+    }
+  ],
+  "visual_verification": {
+    "pages": [
+      2,
+      11
+    ],
+    "result": "Read the split-mixture protocol and recombinant-EGF caption directly in rendered pages"
+  },
+  "interpretation": "The four repeat labels cannot be treated as independent preparations; supplemental EGF is an additional unremoved ligand rival. Neither new fact converts the screen into a causal route test.",
+  "remaining": [
+    "mouse/isolation and donor/lot to library mapping",
+    "target crossed with guide/position",
+    "physical scale and deposited area transformation",
+    "axis-specific protein engagement or effective ligand dose"
+  ],
+  "failed_initial_join": "The first strict crosswalk attempt stopped on tdTomato-only positions absent from the plate-design file, before writing outputs. Final join retains 30 such libraries as explicit unknown guide pools."
+}
