@@ -1,0 +1,21 @@
+gsm,title,experiment,reporter,il1r1_status,population,collection_day,reported_replicate_token,input_barcodes,source_QC_cells,median_genes,median_umis,median_mito_percent,doublet_calls,doublet_fraction,scrublet_error,contamination_flags,source_gate_exact
+GSM7890829,Expt1_Confetti RFP,1,RFP,no_Il1r1_deletion_in_reported_genotype,WT_baseline,14,not_reported,5366,3980,1398.5,4010.0,4.149007028426396,1,0.0002512562814070352,,3,genes>=1000;UMI<=50000;mito<=15%
+GSM7890830,Expt1_Confetti YFP,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_baseline,14,not_reported,6213,4177,1262.0,3257.0,3.666749812920928,0,0.0,,2,genes>=1000;UMI<=50000;mito<=15%
+GSM7890831,Expt1_4d RFP r1,1,RFP,no_Il1r1_deletion_in_reported_genotype,mutant_RFP,4,1,4811,3838,1517.5,4732.0,2.958681197082579,0,0.0,,2,genes>=1000;UMI<=50000;mito<=15%
+GSM7890832,Expt1_4d RFP r2,1,RFP,no_Il1r1_deletion_in_reported_genotype,mutant_RFP,4,2,2144,1736,1572.5,5125.5,1.3864555152954425,6,0.0034562211981566822,,85,genes>=1000;UMI<=50000;mito<=15%
+GSM7890833,Expt1_4d YFP r1,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_in_oncogenic_tissue,4,1,2584,1913,1793.0,5910.0,3.5979027300668958,9,0.004704652378463147,,9,genes>=1000;UMI<=50000;mito<=15%
+GSM7890834,Expt1_4d YFP r2,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_in_oncogenic_tissue,4,2,3480,3090,1744.0,6155.0,2.078799542664191,1,0.00032362459546925567,,19,genes>=1000;UMI<=50000;mito<=15%
+GSM7890835,Expt1_2w RFP r1,1,RFP,no_Il1r1_deletion_in_reported_genotype,mutant_RFP,14,1,4859,4245,3353.0,15529.0,2.419089051479797,2,0.0004711425206124853,,1,genes>=1000;UMI<=50000;mito<=15%
+GSM7890836,Expt1_2w RFP r2,1,RFP,no_Il1r1_deletion_in_reported_genotype,mutant_RFP,14,2,4429,3528,3027.0,13067.0,1.991935096768,12,0.003401360544217687,,99,genes>=1000;UMI<=50000;mito<=15%
+GSM7890837,Expt1_2w YFP r1,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_in_oncogenic_tissue,14,1,5687,4445,1798.0,5838.0,2.5806451612903225,0,0.0,,0,genes>=1000;UMI<=50000;mito<=15%
+GSM7890838,Expt1_2w YFP r2,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_in_oncogenic_tissue,14,2,2439,1746,1862.5,6801.0,2.0257263552266815,4,0.002290950744558992,,366,genes>=1000;UMI<=50000;mito<=15%
+GSM7890839,Expt2_Confetti RFP r1,2,RFP,no_Il1r1_deletion_in_reported_genotype,WT_baseline,unknown,1,1987,1231,2199.0,6965.0,4.042288557213931,13,0.010560519902518278,,73,genes>=1000;UMI<=50000;mito<=15%
+GSM7890840,Expt2_Confetti RFP r2,2,RFP,no_Il1r1_deletion_in_reported_genotype,WT_baseline,unknown,2,2780,1498,1543.5,4554.5,3.718189908453491,10,0.006675567423230975,,33,genes>=1000;UMI<=50000;mito<=15%
+GSM7890841,Expt2_2w het RFP r1,2,RFP,heterozygous,mutant_RFP,14,1,983,826,2449.5,9178.0,2.97247149123637,5,0.006053268765133172,,10,genes>=1000;UMI<=50000;mito<=15%
+GSM7890842,Expt2_2w het RFP r2,2,RFP,heterozygous,mutant_RFP,14,2,973,754,2548.0,9717.5,2.554540426143931,8,0.010610079575596816,,12,genes>=1000;UMI<=50000;mito<=15%
+GSM7890843,Expt2_2w hom RFP r1,2,RFP,homozygous_deletion,mutant_RFP,14,1,1015,871,2249.0,7592.0,2.8567110036275696,9,0.010332950631458095,,4,genes>=1000;UMI<=50000;mito<=15%
+GSM7890844,Expt2_2w hom RFP r2,2,RFP,homozygous_deletion,mutant_RFP,14,2,784,620,2157.5,7931.0,3.345913147993799,18,0.02903225806451613,,11,genes>=1000;UMI<=50000;mito<=15%
+GSM7890845,Expt2_12w het RFP r1,2,RFP,heterozygous,mutant_RFP,84,1,2648,1490,1929.0,5663.0,2.8858223366591567,13,0.0087248322147651,,111,genes>=1000;UMI<=50000;mito<=15%
+GSM7890846,Expt2_12w het RFP r2,2,RFP,heterozygous,mutant_RFP,84,2,2146,1528,1850.0,5685.5,1.7617700393844409,6,0.003926701570680628,,446,genes>=1000;UMI<=50000;mito<=15%
+GSM7890847,Expt2_12w hom RFP r1,2,RFP,homozygous_deletion,mutant_RFP,84,1,2255,1479,2020.0,6134.0,3.0072062084257207,8,0.005409060175794456,,79,genes>=1000;UMI<=50000;mito<=15%
+GSM7890848,Expt2_12w hom RFP r2,2,RFP,homozygous_deletion,mutant_RFP,84,2,1998,1201,1852.0,6072.0,3.1021572472811556,12,0.009991673605328892,,30,genes>=1000;UMI<=50000;mito<=15%

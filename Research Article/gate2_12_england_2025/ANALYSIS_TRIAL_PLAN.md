@@ -1,5 +1,7 @@
 # England re-analysis and further-analysis plan
 
+**Execution update, 28 September 2026:** the owner authorized the actual analysis after planning. The [first execution batch and four figures](RESULTS_BATCH1.md) are complete: 20 libraries, 44,196 source-QC cells, and 164,453 clonal measurements across 44 source-indexed mice. Numerical verification passed; exact source-state reproduction, independent pool identities and inferential spatial joins remain unresolved. The text below records the original planning/source-intake state.
+
 **Date:** 2026-09-27. **Status:** structured proposal; source/design intake partly complete; no new biological analysis executed. This is not a retrospective preregistration. Existing C3 outcomes and the paper were inspected. Freeze each computational contract, software environment and source hashes before its new endpoint is evaluated. [Source/design evidence](SOURCE_AUDIT.md) governs feasibility.
 
 ## Central question and discriminating predictions

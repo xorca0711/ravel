@@ -1,5 +1,7 @@
 # Source and design audit, 27 September 2026
 
+**Execution update, 28 September 2026:** the owner authorized the actual analysis after planning. The [first execution batch and four figures](RESULTS_BATCH1.md) are complete: 20 libraries, 44,196 source-QC cells, and 164,453 clonal measurements across 44 source-indexed mice. Numerical verification passed; exact source-state reproduction, independent pool identities and inferential spatial joins remain unresolved. The text below records the original planning/source-intake state.
+
 **Completed:** local article and supplements read; selected main-figure and methods pages visually checked; owner-provided Notion text read; repository hierarchy and relevant historical outputs inspected; GEO SOFT sample fields and matrix dimensions inventoried; public Zenodo archive catalogue and MATLAB source inspected.
 **Not completed:** new expression scoring, clone-array decoding, model fitting, author-label recovery, manuscript figure reproduction or any biological experiment. No source code from the archive was executed.
 

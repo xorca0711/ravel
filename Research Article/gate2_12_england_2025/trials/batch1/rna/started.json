@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-09-27T14:55:14.124749+00:00",
+  "contract_sha256": "ad71950be73dc509a08fccee12c8e71185c227c61a7f44b86d99b7dbba919af7",
+  "script_sha256": "cd41156025af246cc1b1dbdcd4a84130d5dfeaca6048dce75c3dc3904cfbb611",
+  "git_commit": "90fc7990cb2a2da80c504e88bec781edecfaa593",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "scanpy": "1.12.3",
+    "anndata": "0.13.2"
+  },
+  "inputs": [],
+  "interpretation": "descriptive library-level estimates; biological pool and pairing identities unknown"
+}

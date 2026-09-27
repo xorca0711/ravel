@@ -1,0 +1,41 @@
+{
+  "started_utc": "2026-09-27T14:58:09.457865+00:00",
+  "contract_sha256": "ad71950be73dc509a08fccee12c8e71185c227c61a7f44b86d99b7dbba919af7",
+  "script_sha256": "328f1763808fbe9623b09e7d6617b3205dd47e1d4231334d1e48eb78642bb23c",
+  "archive_sha256": "404697263ca941b1b74dee9feb4c4680ff3077d9e20bb7105482d17f14e96a70",
+  "git_commit": "4b2fc0476e74d81a3e0ee516b66e241c1aa2a203",
+  "completed_utc": "2026-09-27T14:58:28.177961+00:00",
+  "clone_rows": 164453,
+  "source_indexed_mice": 44,
+  "spatial_inference": "blocked: no mouse/clone IDs in the supplied distance arrays",
+  "outputs": [
+    {
+      "file": "clone_CCDF_by_mouse.csv",
+      "sha256": "1184e6720eab34b9137945d7039adbfc33b376f16ba2c8fdaf2b2600c26da29d"
+    },
+    {
+      "file": "clone_summary_by_mouse.csv",
+      "sha256": "e0e0db08283dc340f218f51954f788c27bd45513be8d8d087558952756486a3d"
+    },
+    {
+      "file": "model_LOMO_by_mouse.csv",
+      "sha256": "16f124e44582e94d4282afa0ba1da50846dd10ef0609cfd7158ada960afb5392"
+    },
+    {
+      "file": "model_LOMO_summary.csv",
+      "sha256": "b21c9b52bbea08a95dfc35ae565a679ecbdd21e40bc7883a655afc6f2408947f"
+    },
+    {
+      "file": "mouse_schema.csv",
+      "sha256": "5b17244f5fedf9e569bc9b15e916dd315efeb8fe6ab5b158db816adc558290ac"
+    },
+    {
+      "file": "spatial_identity_gate.csv",
+      "sha256": "51277fda6393a2078fd93d6d3d35b74d3c0751373e38dff336f38418bff94707"
+    },
+    {
+      "file": "spatial_pooled_bin_profiles.csv",
+      "sha256": "506ce9fcd2407416c314206bee037c62a19c99e68360815f5add78c6f96b572d"
+    }
+  ]
+}

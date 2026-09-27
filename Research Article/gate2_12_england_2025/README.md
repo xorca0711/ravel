@@ -1,5 +1,7 @@
 # England et al. 2025: regeneration, NF-kB feedback and mutant AT2 states
 
+**Execution update, 28 September 2026:** the owner authorized the actual analysis after planning. The [first execution batch and four figures](RESULTS_BATCH1.md) are complete: 20 libraries, 44,196 source-QC cells, and 164,453 clonal measurements across 44 source-indexed mice. Numerical verification passed; exact source-state reproduction, independent pool identities and inferential spatial joins remain unresolved. The text below records the original planning/source-intake state.
+
 **Reading gate 2C, item 2; stable roadmap paper 12. Owner read confirmed 27 September 2026.**
 [Paper](https://doi.org/10.1016/j.stem.2025.01.011), Cell Stem Cell 32, 375-390.
 This assistant-authored synthesis follows the owner's request to structure re-analysis and further analysis after reading. It is a plan with a completed source/design audit, not a completed biological re-analysis or an owner-approved interpretation.

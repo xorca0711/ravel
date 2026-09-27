@@ -1,5 +1,26 @@
 # AI context
 
+## England first analysis batch, 28 September 2026
+
+Following the owner's explicit request to proceed beyond planning, the
+[England results and four figures](Research%20Article/gate2_12_england_2025/RESULTS_BATCH1.md)
+now cover 20 libraries (44,196 source-QC cells), 164,453 clonal measurements,
+and 44 source-indexed mice. Contract c82b0e0 preceded the new outcomes.
+Il1r1 deletion is associated with lower Cd177-related RNA without a demonstrated
+AT1-maturation rescue. Late mutant clone tails favor a negative-binomial
+alternative over the two-component distribution on average in held-out mice;
+this does not settle founder identity. Pair-level spatial profiles remain
+strictly descriptive because the distance arrays omit mouse/clone IDs.
+
+The bounded batch passed 6,489 numerical/provenance checks. It uses explicitly
+named marker-supported proxies, not the paper's recovered six-state labels.
+Pool identities/pairing, exact source annotation, clone-merger handling and
+external confirmation remain open. No claim grade changed; no job is running.
+The scientific runtime worked through the bundled AMD64 Python interpreter
+and existing .venv-x64 site-packages, despite the stale launcher. The isolated
+branch is codex/england-analysis-plan. The report and stage ledger own current
+status; the earlier plan and source audit are historical intake snapshots.
+
 ## England 2025 reading and analysis structure, 27 September 2026
 
 The owner confirmed reading Gate 2C item 2 (stable paper 12) and requested a

@@ -1391,3 +1391,17 @@ Codex authored the synthesis and candidate trial choices; the record does not cl
 human acceptance of those choices or that the requested re-analysis has run.
 Private annotations, copyrighted PDFs, historical freezes and existing claim grades
 were preserved. Source-based caveats are in the [England audit](Research%20Article/gate2_12_england_2025/SOURCE_AUDIT.md).
+
+
+## England execution record, 28 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | First England RNA/clonal analysis batch | Codex specified the bounded contract and source-label amendment | Owner explicitly requested actual analysis after planning; scientific conclusions remain for owner review | Executed and numerically checked; no historical claim regrading | Measure genotype-associated RNA and clone-distribution alternatives without treating pooled libraries or flattened spatial pairs as individual mice |
+
+The first independent verifier used a full-list gene denominator and failed;
+correction to the already frozen mapped-gene definition resolved the check.
+Biological results were not altered to pass it. The per-cell rendering denominator
+is documented explicitly in the render record. Sparse distance bins are marked
+visually, and stronger spatial inference remains blocked. The batch is not an
+exact reproduction of the original six-state Seurat analysis or stochastic model.
