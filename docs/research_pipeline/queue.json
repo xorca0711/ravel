@@ -3,7 +3,7 @@
   "updated": "2026-09-27",
   "branch": "codex/computational-research-pipeline",
   "base_merge": "17ca9b49a4da29afef4214449ea940d1b62b999e",
-  "next_task": "C1",
+  "next_task": "C2",
   "active_processes": [],
   "new_biological_analysis_executed": false,
   "task_policy": "One checkpoint per task; pending dependencies are not biological failures. Gate failure records its evidence and permits unrelated ready tasks.",
@@ -17,18 +17,21 @@
     {
       "id": "C1",
       "task": "inspect_annotation_and_sample_identity",
-      "status": "ready",
+      "status": "completed",
       "depends_on": [
         "C0"
-      ]
+      ],
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c1/",
+      "note": "object inspected after stripping a double gzip layer; medium is recorded per cell in the protocol field; the nominated H3N2 arm has 1 usable medium-matched pair against 5 for each coronavirus arm; pat1-pat6 do not join to the series donor IDs"
     },
     {
       "id": "C2",
       "task": "freeze_a11_acute_injury_contract",
-      "status": "pending",
+      "status": "ready",
       "depends_on": [
         "C1"
-      ]
+      ],
+      "note": "arm selection is open: coverage favours a coronavirus arm, and the biological cost of that swap is the owner's call"
     },
     {
       "id": "C3",

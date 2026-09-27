@@ -1,0 +1,69 @@
+field	class	n_unique	n_missing	values
+orig.ident	character	37	0	17B-control | A333-chronic | A344-R3-chronic | A592-prolonged | BB73-control | lung-102C-BSA | lung-102C-FCS | lung-102C-H3N2 | lung-102C-MERS | lung-102C-SCoV1 | lung-102C-SCoV2 | lung-1169Z-control | lung-1169Z-H3N2 | lung-1169Z-MERS | lung-1169Z-SCoV1 | lung-1169Z-SCoV2 | lung-218V-control | lung-218V-H3N2 | lung-218V-MERS | lung-218V-SCoV1 | lung-218V-SCoV2 | lung-219V-BSA | lung-219V-FCS | lung-219V-H3N2 | lung-219V-MERS | lung-219V-SCoV1 | lung-219V-SCoV2 | lung-700D-control | lung-700D-H3N2 | lung-89C-control | lung-89C-H3N2 | lung-89C-MERS | lung-89C-SCoV1 | lung-89C-SCoV2 | O325-akut | T128-akut | T188-R2-prolonged
+nCount_RNA	numeric	19015	0	<high cardinality>
+nFeature_RNA	integer	4425	0	<high cardinality>
+scrublet_score	numeric	2293	0	<high cardinality>
+scrublet_prediction	character	1	0	singlet
+donor	character	14	0	A333 | A344 | A592 | O325 | pat1 | pat2 | pat3 | pat4 | pat5 | pat6 | pat7 | pat8 | T128 | T188
+condition	character	4	112476	acute | control | prolonged
+origin	factor	2	0	autopsy | explant
+pct.mito	numeric	107532	0	<high cardinality>
+pct.ribo	numeric	119914	0	<high cardinality>
+pct.MALAT1	numeric	22279	112476	<high cardinality>
+pct.SCoV2	numeric	2079	0	<high cardinality>
+S.Score	numeric	146156	0	<high cardinality>
+G2M.Score	numeric	146273	0	<high cardinality>
+Phase	character	3	0	G1 | G2M | S
+integrated_snn_res.0.8	factor	30	0	0 | 1 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 2 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+seurat_clusters	factor	30	0	0 | 1 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 2 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+predicted.id	character	37	0	Adventitial Fibroblast | Airway Smooth Muscle | Alveolar Epithelial Type 1 | Alveolar Epithelial Type 2 | Alveolar Fibroblast | Artery | B | Basal | Basophil/Mast 1 | Capillary | Capillary Aerocyte | Capillary Intermediate 1 | Capillary Intermediate 2 | CD4+ Memory/Effector T | CD8+ Memory/Effector T | CD8+ Naive T | Ciliated | Classical Monocyte | Club | EREG+ Dendritic | IGSF21+ Dendritic | Intermediate Monocyte | Lymphatic | Macrophage | Mucous | Myeloid Dendritic Type 1 | Myeloid Dendritic Type 2 | Myofibroblast | Natural Killer | Nonclassical Monocyte | OLR1+ Classical Monocyte | Pericyte | Plasmacytoid Dendritic | Proliferating Macrophage | Proliferating NK/T | Vascular Smooth Muscle | Vein
+prediction.score.Capillary.Aerocyte	numeric	10458	0	<high cardinality>
+prediction.score.Capillary	numeric	15158	0	<high cardinality>
+prediction.score.Capillary.Intermediate.1	numeric	10373	0	<high cardinality>
+prediction.score.Capillary.Intermediate.2	numeric	1533	0	<high cardinality>
+prediction.score.IGSF21..Dendritic	numeric	7413	0	<high cardinality>
+prediction.score.Myeloid.Dendritic.Type.1	numeric	4531	0	<high cardinality>
+prediction.score.Plasmacytoid.Dendritic	numeric	2425	0	<high cardinality>
+prediction.score.Myeloid.Dendritic.Type.2	numeric	2513	0	<high cardinality>
+prediction.score.B	numeric	7684	0	<high cardinality>
+prediction.score.EREG..Dendritic	numeric	9834	0	<high cardinality>
+prediction.score.Macrophage	numeric	23617	0	<high cardinality>
+prediction.score.CD8..Naive.T	numeric	45722	0	<high cardinality>
+prediction.score.CD4..Naive.T	numeric	35476	0	<high cardinality>
+prediction.score.CD4..Memory.Effector.T	numeric	37679	0	<high cardinality>
+prediction.score.Vein	numeric	11711	0	<high cardinality>
+prediction.score.Artery	numeric	14873	0	<high cardinality>
+prediction.score.Pericyte	numeric	7933	0	<high cardinality>
+prediction.score.Vascular.Smooth.Muscle	numeric	2513	0	<high cardinality>
+prediction.score.Club	numeric	14154	0	<high cardinality>
+prediction.score.Mucous	numeric	2257	0	<high cardinality>
+prediction.score.Alveolar.Epithelial.Type.2	numeric	6648	0	<high cardinality>
+prediction.score.Basal	numeric	4420	0	<high cardinality>
+prediction.score.Lymphatic	numeric	1191	0	<high cardinality>
+prediction.score.Proliferating.Macrophage	numeric	1415	0	<high cardinality>
+prediction.score.CD8..Memory.Effector.T	numeric	47010	0	<high cardinality>
+prediction.score.Proliferating.NK.T	numeric	923	0	<high cardinality>
+prediction.score.Natural.Killer.T	numeric	44810	0	<high cardinality>
+prediction.score.Natural.Killer	numeric	34532	0	<high cardinality>
+prediction.score.OLR1..Classical.Monocyte	numeric	14098	0	<high cardinality>
+prediction.score.Basophil.Mast.1	numeric	1065	0	<high cardinality>
+prediction.score.Classical.Monocyte	numeric	10816	0	<high cardinality>
+prediction.score.Intermediate.Monocyte	numeric	7043	0	<high cardinality>
+prediction.score.Nonclassical.Monocyte	numeric	5339	0	<high cardinality>
+prediction.score.Airway.Smooth.Muscle	numeric	3277	0	<high cardinality>
+prediction.score.Ciliated	numeric	1001	0	<high cardinality>
+prediction.score.Alveolar.Fibroblast	numeric	11009	0	<high cardinality>
+prediction.score.Myofibroblast	numeric	7363	0	<high cardinality>
+prediction.score.Adventitial.Fibroblast	numeric	9279	0	<high cardinality>
+prediction.score.Alveolar.Epithelial.Type.1	numeric	9992	0	<high cardinality>
+prediction.score.max	numeric	115486	0	<high cardinality>
+DF.classifications	character	1	0	Singlet
+autopsy.cluster	character	23	112476	0 | 1 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 2 | 20 | 21 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+infect	character	6	34000	control | H3N2 | MERS | SCoV1 | SCoV2
+protocol	character	3	34000	BSA | FCS
+pct.H3N2	numeric	1381	0	<high cardinality>
+pct.MERS	numeric	1550	0	<high cardinality>
+pct.SCoV1	numeric	1257	0	<high cardinality>
+explant.cluster	character	29	34000	0 | 1 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 2 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+cluster	factor	16	0	AT1 | AT2 | B cells | basal / secretory | basophilic / mast | ciliated | dendritic | endothelial | endothelial / lymphatic | fibroblasts | macrophages | monocytes | NK cells | plasma cells | stromal | T cells
+virus	character	5	0	H3N2 | MERS | none | SCoV1 | SCoV2

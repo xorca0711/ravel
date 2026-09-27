@@ -1,0 +1,49 @@
+{
+  "task": "C1, GEO half",
+  "scope": "series metadata only; the count object is not read and no join is verified here",
+  "completed_utc": "2026-09-27T11:28:58.188519+00:00",
+  "script": "docs/research_pipeline/scripts/c1_geo_crosswalk.py",
+  "script_sha256": "4ab895dc7ed889d95a2e3e5e7c453257bc31e3d0dc3900649fef23ffcaa09de4",
+  "input": {
+    "path": "docs/roadmap_runs/2026-09-27-followthrough/metadata/GSE198864.json",
+    "sha256": "89f7f02a825ec9e3fc6643bca36206608b403d9d86923dd5e81dd26c5c2d45d7"
+  },
+  "records": 91,
+  "records_with_single_cell_h5": 71,
+  "tissue_tally": {
+    "lung explant tissue": 49,
+    "ex-vivo infected AM cells": 24,
+    "autopsy material": 8,
+    "alveolar lung organoids": 6,
+    "bronchial lung organoids": 4
+  },
+  "pathogen_tally": {
+    "unclear": 34,
+    "SARS-CoV-2": 22,
+    "control": 17,
+    "IAV": 10,
+    "NL63-CoV": 8
+  },
+  "medium_tally": {
+    "not named": 83,
+    "FCS": 6,
+    "BSA": 2
+  },
+  "single_cell_explant_records": 29,
+  "single_cell_explant_donors": [
+    "unclear"
+  ],
+  "explant_media_by_donor": {
+    "unclear": [
+      "BSA",
+      "FCS",
+      "not named"
+    ]
+  },
+  "unresolved": [
+    "A record whose medium is not named cannot be matched to a control by name alone.",
+    "Donor parsed from the title is a metadata reading, not an object-verified identity.",
+    "Nothing here establishes which libraries the count object actually contains."
+  ],
+  "joins_verified_against_object": false
+}

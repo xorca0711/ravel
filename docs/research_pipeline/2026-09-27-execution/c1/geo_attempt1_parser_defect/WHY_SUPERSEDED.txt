@@ -1,0 +1,6 @@
+The first crosswalk run parsed the donor from the start of the title, which fits the
+ex-vivo macrophage records (AM1212Z_...) but not the explant records (lung_102C_BSA), so
+every explant donor came back unclear. Its tissue tally is correct and independently
+reproduces the handoff counts. Its pathogen column is also wrong for explants, because the
+treatment characteristic there names the control medium (BSA or FCS) rather than a pathogen.
+Preserved unchanged; the corrected run sits one directory up.

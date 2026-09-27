@@ -1,0 +1,161 @@
+{
+  "task": "C1, GEO half",
+  "scope": "series metadata only; the count object is not read and no join is verified here",
+  "completed_utc": "2026-09-27T11:30:44.355802+00:00",
+  "script": "docs/research_pipeline/scripts/c1_geo_crosswalk.py",
+  "script_sha256": "a145308a2d8e13bf4e2a29e5e1e9bf87fa48b50702b0e073399a250d99d4e293",
+  "input": {
+    "path": "docs/roadmap_runs/2026-09-27-followthrough/metadata/GSE198864.json",
+    "sha256": "89f7f02a825ec9e3fc6643bca36206608b403d9d86923dd5e81dd26c5c2d45d7"
+  },
+  "superseded_attempt": "geo_attempt1_parser_defect/, whose donor parser did not fit the explant titles",
+  "records": 91,
+  "tissue_tally": {
+    "lung explant tissue": 49,
+    "ex-vivo infected AM cells": 24,
+    "autopsy material": 8,
+    "alveolar lung organoids": 6,
+    "bronchial lung organoids": 4
+  },
+  "single_cell_explant_records": 29,
+  "single_cell_explant_donors": [
+    "102C",
+    "1169Z",
+    "218V",
+    "219V",
+    "700D",
+    "89C"
+  ],
+  "explant_arms_and_controls_by_donor": {
+    "102C": {
+      "arms": [
+        "IAV",
+        "MERS-CoV",
+        "SARS-CoV-1",
+        "SARS-CoV-2",
+        "control"
+      ],
+      "control_media_present": [
+        "BSA",
+        "FCS"
+      ]
+    },
+    "1169Z": {
+      "arms": [
+        "IAV",
+        "MERS-CoV",
+        "SARS-CoV-1",
+        "SARS-CoV-2",
+        "control"
+      ],
+      "control_media_present": [
+        "FCS"
+      ]
+    },
+    "218V": {
+      "arms": [
+        "IAV",
+        "MERS-CoV",
+        "SARS-CoV-1",
+        "SARS-CoV-2",
+        "control"
+      ],
+      "control_media_present": [
+        "FCS"
+      ]
+    },
+    "219V": {
+      "arms": [
+        "IAV",
+        "MERS-CoV",
+        "SARS-CoV-1",
+        "SARS-CoV-2",
+        "control"
+      ],
+      "control_media_present": [
+        "BSA",
+        "FCS"
+      ]
+    },
+    "700D": {
+      "arms": [
+        "IAV",
+        "control"
+      ],
+      "control_media_present": [
+        "FCS"
+      ]
+    },
+    "89C": {
+      "arms": [
+        "IAV",
+        "MERS-CoV",
+        "SARS-CoV-1",
+        "SARS-CoV-2",
+        "control"
+      ],
+      "control_media_present": [
+        "FCS"
+      ]
+    }
+  },
+  "medium_matched_donor_counts_by_arm": {
+    "IAV": {
+      "required_control_medium": "BSA",
+      "donors_with_arm_and_matched_control": [
+        "102C",
+        "219V"
+      ],
+      "count": 2
+    },
+    "SARS-CoV-2": {
+      "required_control_medium": "FCS",
+      "donors_with_arm_and_matched_control": [
+        "102C",
+        "1169Z",
+        "218V",
+        "219V",
+        "89C"
+      ],
+      "count": 5
+    },
+    "SARS-CoV-1": {
+      "required_control_medium": "FCS",
+      "donors_with_arm_and_matched_control": [
+        "102C",
+        "1169Z",
+        "218V",
+        "219V",
+        "89C"
+      ],
+      "count": 5
+    },
+    "MERS-CoV": {
+      "required_control_medium": "FCS",
+      "donors_with_arm_and_matched_control": [
+        "102C",
+        "1169Z",
+        "218V",
+        "219V",
+        "89C"
+      ],
+      "count": 5
+    },
+    "NL63-CoV": {
+      "required_control_medium": "FCS",
+      "donors_with_arm_and_matched_control": [],
+      "count": 0
+    },
+    "229E-CoV": {
+      "required_control_medium": "FCS",
+      "donors_with_arm_and_matched_control": [],
+      "count": 0
+    }
+  },
+  "unresolved": [
+    "Only the control libraries state a medium. An infected library's medium is taken from the source protocol, so a medium-matched pairing is a protocol inference and not a recorded fact.",
+    "Donor is parsed from the title and is a metadata reading, not an object-verified identity.",
+    "Nothing here establishes which libraries the count object actually contains, nor its cell labels."
+  ],
+  "joins_verified_against_object": false
+}
