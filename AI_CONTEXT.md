@@ -377,6 +377,78 @@ no endpoint scored, no claim row added, no grade changed.
 - The screen's source paper (roadmap 14, doi:10.1073/pnas.2606113123) remains
   unread by the owner and gets no study note, following DEVELOPMENT decision 21.
 
+## A15 proposed from A2's integrin lead, 27 September 2026
+
+Branch `Claude/a15-epithelial-integrin-tgfb`, branched from
+`Claude/a2-delivery-hypothesis` at `286f425`, with its pull request based on that branch
+because the workspace cross-links A2 reports that were only on that branch at the time.
+**PR #85 has since merged**, so those reports are on `main` and both A15 branches have been
+brought up to date with it. PR #86 was closed by accident and is not reopenable, because
+GitHub refuses to reopen or retarget a pull request whose base branch has been deleted; PR #89
+replaces it against `main`, with PR #88 stacked on it.
+Documents only: **no dataset opened, no endpoint scored, no claim row added, no grade
+changed.** The register still ends at C168.
+
+- **A15 is proposed, not registered.** The card in `RESEARCH_QUESTIONS.md#a15`, the table
+  row, the `RQ_Specified` index row and the workspace are all assistant-proposed and
+  pending the owner's retain or reject. If rejected, the folder is removed and the lead
+  becomes a FINDINGS entry under A2.
+- Entry points: `RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md`, then
+  `reports/REGISTER_DECISION.md`, `RATIONALE.md`, `reports/PUBLIC_DATA_SEARCH.md`,
+  `PLAN.md` and `config/a15_question_contract.json`. The contract is the authority on the
+  estimand, the eligibility gate and the prohibitions.
+- **The scope is the partition, not the mechanism.** That integrin alphaVbeta6 activates
+  latent TGF-beta is established outside this repository (Munger 1999, Horan 2008,
+  Sheppard 2015, references A15-1 to A15-9) and must not be re-asked here. A15 asks which
+  epithelial output carries the epithelial input to a fibroblast activation programme:
+  ligand supply, or integrin-mediated activation.
+- **The founding observation belongs to A2 and is not evidence for A15.** A15 opens with
+  no result and has no `tables/` directory. Its limits: the four ITGB6 libraries are
+  plate3-1 to plate3-4 at well C02, so target is confounded with position and guide pool;
+  the ligand arm is a bounded null, not an absence; preparation independence is
+  unresolved; the knockout is partial at 1.138 log2 CPM; and the readout is a transcript
+  score where the proposition names a protein event.
+- **The stage 1 eligibility gate is frozen before any candidate dataset is opened.** Six
+  conditions. Condition 3 requires a measure of activated TGF-beta, distinguished from the
+  latent pool, as a reporter bioassay, an immunoassay specific to the active dimer, or
+  receptor-proximal signalling in the recipient. **A transcript score of TGF-beta target
+  genes does not satisfy condition 3 and no pre-declared alternative exists.** Do not
+  relax it to obtain a run.
+- **No public dataset clears the gate**, per `reports/PUBLIC_DATA_SEARCH.md`: GEO, PRIDE,
+  the Image Data Resource and the BioImage Archive were searched, with the fifteen GEO
+  queries and their hit counts recorded. The nearest, GSE190821 (3G9 anti-integrin-beta6
+  in bleomycin mice, 4 treated against 7 antibody-control mice, epithelial RiboTag
+  translatome plus whole lung), fails conditions 3, 4 and 5.
+- **One side-branch is runnable and is outside the staged test.** GSE190821's epithelial
+  arm can bound the "changed epithelium, not the integrin" rival. It cannot test A15, and
+  must never be reported as doing so. It needs its own pre-declared endpoint and stop rule
+  before any count is opened. A whole-lung activation signature in the same deposit is
+  recorded as feasible but non-discriminating and not recommended.
+- **The rival-2 side-branch has run, 27 September 2026**, branch
+  `Claude/a15-rival2-gse190821`, under `config/a15_rival2_freeze_v3.json`. **Freezes v1 and
+  v2 were withdrawn on adversarial review before anything was scored and are preserved
+  unedited; do not edit them, and do not resurrect their endpoints.** The result: the
+  antibody separated a whole-lung collagen programme completely (p 0.028571) while the
+  epithelial panels and a 15,062-gene omnibus did not separate, with purity comparable
+  between arms. Verdict: weak bound on rival 2. It is **not** evidence about A15, it is
+  **not** absence, and the whole-lung result **reproduces** Horan 2008.
+- **Three traps this side-branch already fell into.** A curated injury programme averaged
+  over a bulk immunoprecipitation measures state abundance, that is severity and
+  composition, not state. A between-minus-within permutation statistic rejects with
+  probability 1.000 under a pure dispersion change, so it needs a dispersion diagnostic
+  before it can be read as a location change. And a symbol lookup built at one stage will
+  silently fail to map panels a later freeze declares, turning "not computed" into "no
+  breach"; script 02 now fails closed on it.
+- **Prohibitions that are easy to violate here.** Do not compute another per-target
+  contrast on GSE307112's plate-3 wells and call it a test of A15: same design, same fixed
+  positions, same guide pools. Do not read the failure of an anti-alphaVbeta6 antibody in
+  idiopathic pulmonary fibrosis (Raghu 2022) as refuting the mechanism, or the mechanism as
+  supporting a therapeutic claim. Do not edit files under
+  `RQ_Specified/A2_areg_source_delivery/`, which A15 deliberately left untouched while they
+  were under review in PR #85, now merged; A15 stays discoverable from the register and the
+  index rather than from inside A2's folder. Do not
+  use the GSE307128 series summary, which restates the unread source paper's conclusions.
+
 ## Current repository layout
 
 Paper studies: `Research Article/` (renamed from `Thesis/` on 2026-09-25).

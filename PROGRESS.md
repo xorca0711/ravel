@@ -287,6 +287,97 @@ Branch `Claude/a2-delivery-hypothesis`, based on main `f1b2c4f`. Start with the
   first evidence here that the receiver is equipped: fibroblast ITGAV 5.835, ITGB1
   9.487, ITGB8 5.254, LTBP1 9.757 and EGFR 5.389 mean log2 CPM.
 
+## Parallel work stream: A15 proposed from A2's integrin lead, 27 September 2026
+
+Branch `Claude/a15-epithelial-integrin-tgfb`, branched from
+`Claude/a2-delivery-hypothesis` at `286f425` and with its pull request based on that
+branch rather than on main, because the workspace cross-links A2's stage 3 and stage 5
+reports. **PR #85 merged on 26 September 2026**, so those reports are now on `main` and
+this branch has been brought up to date with it; the original PR #86 was closed by accident
+and could not be reopened, because GitHub refuses to reopen or retarget a pull request whose
+base branch has been deleted, so PR #89 replaces it against `main`. Start with the
+[A15 workspace README](RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md).
+**This supersedes the sentence in the A2 section above that the Itgb6 lead is not a
+question yet: it is now a proposed question, and the owner decides.**
+
+- The owner asked whether A2's unplanned Itgb6 lead deserves its own register question
+  and, if so, for it to be structured the way this repository structures questions.
+  **Nothing was computed. No dataset was opened, no endpoint was scored, no claim row
+  was added and no grade changed.** The register still ends at C168.
+- **Recommendation: register it as A15**, scoped to the partition of the epithelial
+  output rather than to the mechanism. The
+  [registration argument](RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/REGISTER_DECISION.md)
+  states the case against as well as the case for, and rejects three alternatives on the
+  record: a third leg of A2, a fold into A9, and an enabling entry like A12-S1.
+- **The scope matters.** That integrin alphaVbeta6 activates latent TGF-beta has been
+  established since 1999, a blocking antibody prevented murine bleomycin fibrosis in
+  2008, and two clinical programmes have tested the axis. The repository does not
+  re-ask any of that. What is open is the partition: epithelial ligand supply against
+  epithelial integrin activation, in one system, with the recipient's own ligand removed
+  so the ligand arm is bounded, and with activated TGF-beta measured.
+- **The founding observation stays A2's.** A15 opens with no evidence of its own and has
+  no `tables/` directory. Its four recorded limits are the fixed well position (the four
+  ITGB6 libraries are plate3-1 to plate3-4 at well C02, from the deposit's own sample
+  titles), the bounded rather than absent ligand null, unresolved preparation
+  independence, and a transcript readout where the proposition names a protein event.
+- **Readiness is blocked, and the blocking constraint is named.** A search of GEO, PRIDE,
+  the Image Data Resource and the BioImage Archive found no deposit pairing an epithelial
+  integrin perturbation with a measurement of activated TGF-beta. Fifteen GEO queries with
+  their hit counts, the three other repositories and the six nearest candidates are in the
+  [search report](RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/PUBLIC_DATA_SEARCH.md),
+  which also states that keyword search over indexed metadata cannot prove absence.
+- **A stage 1 eligibility gate is frozen before any candidate dataset is opened**, with
+  six conditions. A transcript score of TGF-beta target genes is explicitly excluded as
+  the activation readout and no pre-declared alternative exists, so a later session
+  cannot relax the readout in order to get a run.
+- **One thing is runnable and it bounds a rival, not the hypothesis.** GSE190821 blocks
+  integrin beta6 in vivo with the 3G9 antibody, four treated against seven
+  antibody-control mice, and reads an epithelial RiboTag translatome alongside whole
+  lung. It fails gate conditions 3, 4 and 5, so it cannot test A15; its epithelial arm
+  can ask whether the integrin blockade moves the epithelium's own programme, which is
+  the "changed epithelium, not the integrin" rival. It is declared outside the staged
+  test and needs its own pre-declared endpoint before any count is opened.
+- **The side-branch was authorized and has run, 27 September 2026.** Branch
+  `Claude/a15-rival2-gse190821`. It took three freezes: **two were withdrawn on adversarial
+  review with nothing scored**, which is the second and third freeze withdrawal in this
+  repository. Read
+  [the results](RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_RESULTS.md),
+  then the two withdrawal reports.
+- **The result.** 3G9 anti-integrin-beta6 lowered a frozen whole-lung collagen and
+  myofibroblast programme by 1.2424 standardised units with **complete separation** of four
+  treated from four control mice, exact two-sided p 0.028571, reproducing the published
+  direction for this antibody. In the same mice the epithelial immunoprecipitation showed no
+  detectable difference: transitional panel -0.3599 at p 0.8857, identity panel -0.2107 at
+  p 0.6857, and a 15,062-gene omnibus centroid statistic at p 0.6571 with its dispersion
+  diagnostic within threshold at 1.0661. Epithelial enrichment differs between arms by at
+  most 0.294 log2 units, so the epithelial null is not a purity artefact. Verdict under the
+  frozen rules: **weak bound on rival 2**, which is the one informative branch.
+- **What it is not.** Not absence: the shift intervals span [-1.91, +1.43] and
+  [-2.44, +1.57] standardised units, and four against four reaches significance only under
+  complete separation. Not evidence about A15 in either direction. Not novel: the whole-lung
+  result reproduces Horan 2008 and is reported as reproduction.
+- **Verification.** 39 of 39 independent checks pass through numpy and scipy. Two earlier
+  failures were bugs in the verifier, not the analysis, and are recorded. The repository
+  checks pass at 2,669 validation checks, the claim contract and 45 unit tests.
+- Next: the owner makes four decisions, recorded in DEVELOPMENT.md as pending. Retain or
+  reject the A15 registration; retain or revise the scope wording; retain or reject the
+  restatement of rival 2; and grade or decline the claim sentence the results report
+  proposes. If the registration is rejected, the honest alternative is a FINDINGS entry
+  under A2 with the same limits stated, and the folder is removed.
+- Two defects a later session should not repeat. A frozen rule that compares which
+  non-significant p-value is smaller is vacuous when nothing separates; it is reported as
+  written here rather than reinterpreted, and any future version should require separation
+  before the comparison. And an Ensembl symbol lookup built at one stage must be extended
+  when a later freeze declares new panels, or covariates silently return "not recovered" and
+  vacuous silence gets reported as a negative result; script 02 now fails closed on it.
+- Constraints honoured and worth restating for the next session: no file under
+  `RQ_Specified/A2_areg_source_delivery/` was edited, because those are under review in
+  PR #85, which has since merged; no study note was written on roadmap paper 14
+  (doi 10.1073/pnas.2606113123),
+  whose reading is recorded as not started; and the sibling deposit GSE307128's series
+  summary, which restates that paper's conclusions, was read while searching GEO and is
+  deliberately not used.
+
 ## Historical handoffs
 
 The entries below describe earlier sessions. Their then-current task, authorization
