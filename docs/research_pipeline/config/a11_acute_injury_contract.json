@@ -1,0 +1,96 @@
+{
+  "schema": "a11-acute-injury-falsification/v1",
+  "task": "C2",
+  "declared": "2026-09-27",
+  "status": "frozen and committed before any score was computed in this cohort",
+  "question": {
+    "register": "RESEARCH_QUESTIONS.md#a11",
+    "asks": "Does the already frozen lesion-associated programme increase in author-annotated type 2 cells in infected versus medium-matched mock explants from the same donor?",
+    "why_it_matters": "Acute induction would challenge a broad reading of the programme as tumour-associated RNA. It would not show that infection and cancer share a mechanism, and it does not compare matched transitional states.",
+    "what_a_null_cannot_do": "A negative or imprecise result cannot establish tumour specificity.",
+    "population_caveat": "These tumour-free explants come from surgical cancer patients, so they are not a cancer-naive population."
+  },
+  "cohort": {
+    "accession": "GSE198864",
+    "object": "GSE198864_lung_combined_all.rds, outer gzip layer stripped; see the C1 report",
+    "unit": "donor",
+    "cells_are_never_replicates": true,
+    "arm_source": "the object's infect field",
+    "medium_source": "the object's protocol field, which records BSA or FCS for every explant cell"
+  },
+  "inherited_unchanged_from_a11": {
+    "module": "lesion_specific, 73 human genes",
+    "module_table": "RQ_Specified/A11_lesion_programme_addition/tables/test_v2/human_module_genes.tsv",
+    "secondary_modules": ["stress_excluded, 56 genes", "shared_remodelling, 10 genes, used only to form the beyond-shared contrast"],
+    "normalization": "edgeR DGEList, calcNormFactors TMM, cpm(log=TRUE, prior.count=1)",
+    "score": "unweighted mean of the module's genes over the log CPM matrix",
+    "inference": "RQ_Specified/A5_A11_shared_component_contract/scripts/paired_inference.R, location_test, unchanged",
+    "margin": 0.10,
+    "margin_rationale_inherited": "a pragmatic planning margin based on a fraction of discovery, not clinically validated",
+    "cell_floor_per_arm": 50,
+    "cell_floor_origin": "inherited from the A11 discovery primary configuration and not chosen for this cohort",
+    "unit_floor": 3,
+    "gene_coverage_gate": 0.7,
+    "why_inherited": "a new assay may not retune the instrument that produced the result it is meant to challenge"
+  },
+  "state_definition": {
+    "label": "the object's author cluster label AT2",
+    "explant_at2_cells": 4732,
+    "why_author_annotation": "the question asks about author-annotated type 2 cells, and a transferred label would introduce a second annotation decision this contract does not own",
+    "alternative_present_but_not_used": "predicted.id Alveolar Epithelial Type 2, a reference-transfer label, reported for context only"
+  },
+  "arm_eligibility_counted_before_any_score": {
+    "rule": "a donor contributes a pair when it supplies both the infected arm and a control in the same medium, each with at least the inherited 50-cell AT2 floor",
+    "counts": {
+      "SARS-CoV-1": {"medium": "FCS", "eligible_pairs": 4, "donors": ["pat1", "pat3", "pat4", "pat6"]},
+      "SARS-CoV-2": {"medium": "FCS", "eligible_pairs": 3, "donors": ["pat1", "pat4", "pat6"]},
+      "MERS-CoV": {"medium": "FCS", "eligible_pairs": 2, "donors": ["pat1", "pat4"]},
+      "H3N2": {"medium": "BSA", "eligible_pairs": 1, "donors": ["pat5"]}
+    },
+    "note": "the donor lists above are the pairs whose smaller side clears 50 AT2 cells, read from the C1 design table; C3 recomputes them from the object and refuses to proceed on any disagreement"
+  },
+  "arm_selection": {
+    "primary": "SARS-CoV-1",
+    "why": "it is the only arm that clears the inherited 3-unit floor with any margin, at 4 eligible pairs. The floors were inherited rather than chosen here, so the selection rests on inherited criteria applied to counted coverage, not on any programme value.",
+    "secondary_predeclared": "SARS-CoV-2, at 3 eligible pairs, exactly at the unit floor, reported beside the primary with no separate decision",
+    "declared_ineligible": {
+      "MERS-CoV": "2 eligible pairs, below the inherited 3-unit floor",
+      "H3N2": "1 eligible pair, below the floor. The handoff nominated this arm for its acute-injury character; every influenza library is in BSA and only two donors have a BSA control, one of which has 19 AT2 cells on its infected side."
+    },
+    "biological_cost_recorded": "influenza and a coronavirus are different injuries with different tropism. Coverage cannot settle that, and the owner may reject this substitution; the register decision stays open until then.",
+    "selection_made_after_counting": true,
+    "selection_made_after_any_score": false
+  },
+  "tests": {
+    "primary": "exact paired location test of the per-donor difference in the lesion_specific score, infected minus medium-matched control, in the primary arm",
+    "secondary": ["stress_excluded score", "beyond_shared, the lesion_specific difference minus the shared_remodelling difference", "the secondary arm repeated for all three"],
+    "multiplicity": "Benjamini-Hochberg across the secondary tests only, as the A11 instrument does; the primary carries the decision",
+    "direction_predicted": "positive, an increase in the infected arm, declared before any score"
+  },
+  "power_declared_in_advance": {
+    "exact_two_sided_minimum_p": {"n=4": 0.125, "n=3": 0.25},
+    "consequence": "the primary cannot reject at alpha 0.05 at these unit counts. That is known before running and is not a reason to change the test.",
+    "what_the_decision_rests_on": "the Hodges-Lehmann estimate and its exact interval against the inherited 0.10 margin, plus the direction count across donors",
+    "if_the_exact_interval_is_unavailable": "the A11 helper reports it as unavailable and that is the result, not a prompt to substitute an approximate test"
+  },
+  "decision_rules": {
+    "acute_induction_supported": "the exact interval lies entirely above the 0.10 margin and every eligible donor moves in the predicted direction",
+    "margin_ruled_out": "the exact interval upper bound lies below 0.10, which bounds acute induction as smaller than the planning margin in this assay",
+    "unresolved": "any other outcome, including an unavailable exact interval, which is the expected outcome at these unit counts",
+    "never_available_here": "tumour specificity, in either direction"
+  },
+  "prohibited": [
+    "treating cells, libraries or organoids as replicates",
+    "pooling BSA and FCS controls, or pairing across media",
+    "substituting a sensitivity arm, a different state label or an approximate test to reach a threshold",
+    "deriving any gene list from this cohort",
+    "reading the autopsy compartment into this contrast",
+    "adding or grading a claim row"
+  ],
+  "gates_c3_must_apply_before_scoring": [
+    "gene coverage of the 73-gene module in the object's RNA index at or above 0.7",
+    "recomputation of the eligible pair list, refusing on any disagreement with the counts above",
+    "confirmation that the RNA assay holds raw integer counts, already checked in C1"
+  ],
+  "scores_computed_at_declaration": false
+}

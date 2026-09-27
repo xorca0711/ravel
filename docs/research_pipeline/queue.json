@@ -3,7 +3,7 @@
   "updated": "2026-09-27",
   "branch": "codex/computational-research-pipeline",
   "base_merge": "17ca9b49a4da29afef4214449ea940d1b62b999e",
-  "next_task": "C2",
+  "next_task": "C3",
   "active_processes": [],
   "new_biological_analysis_executed": false,
   "task_policy": "One checkpoint per task; pending dependencies are not biological failures. Gate failure records its evidence and permits unrelated ready tasks.",
@@ -27,16 +27,17 @@
     {
       "id": "C2",
       "task": "freeze_a11_acute_injury_contract",
-      "status": "ready",
+      "status": "completed",
       "depends_on": [
         "C1"
       ],
-      "note": "arm selection is open: coverage favours a coronavirus arm, and the biological cost of that swap is the owner's call"
+      "note": "frozen before any score; primary arm SARS-CoV-1 at 4 eligible pairs under A11's inherited 50-cell and 3-unit floors, SARS-CoV-2 secondary at 3, MERS and H3N2 declared ineligible; the exact two-sided test cannot reject at these unit counts and that is declared in advance",
+      "artifacts": "docs/research_pipeline/config/a11_acute_injury_contract.json"
     },
     {
       "id": "C3",
       "task": "gate_and_pseudobulk_a11",
-      "status": "pending",
+      "status": "ready",
       "depends_on": [
         "C2"
       ]
