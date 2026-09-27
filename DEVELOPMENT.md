@@ -749,8 +749,11 @@ only presentation labels were rerendered. Original script bytes, run records
 and a relocation manifest retain the execution history. Status edits distinguish
 completed feasible work from unavailable endpoints and new proposals. No
 scientific threshold, claim classification or inference was changed by this
-consolidation. The [LinkedIn draft](docs/LINKEDIN_PROJECT.md) is prepared for
-owner use; it has not been posted. Personal PI-fit planning remains in Notion.
+consolidation. A LinkedIn draft was prepared for owner use at the time and was
+never posted; **the owner removed it from the repository on 27 September 2026** as
+work that should not have been tracked here, so the link is gone and the sentence
+records what happened rather than pointing at a deleted file. Personal PI-fit
+planning remains in Notion.
 
 ## 34. Rework A1 lineage/function stages and execute the first batch (25 September 2026)
 
@@ -1283,3 +1286,21 @@ records every number, its independent verification at 39 of 39 checks, and the s
 artefacts would support if the owner wants a claim row. The two withdrawn freezes stay
 unedited so their bytes keep verifying, and both withdrawals are written up with the
 simulations that justified them. Scientific acceptance is not inferred from execution.
+
+
+## Branch cleanup and the LinkedIn removal, 27 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | Delete every branch with nothing new against `main` | Owner question, "what is unnecessary" | **Owner instruction**, conditional on the branch holding nothing new | Six merged branches deleted on both local and origin, each verified at zero commits ahead of `origin/main` first, with `git branch -d` so an unmerged branch would have been refused | No active session was ongoing and their tips are all reachable from `main`, so the refs carried nothing |
+| 2026-09-27 | Delete the two branches that did hold unmerged commits | Assistant reported that neither one's content was on `main`, against the owner's stated premise | **Owner instruction, after that correction** | `rq-framing-proposal` and `codex/linkedin-media-selection` deleted; their commits recorded as `0034245` and `cd18f97` for reflog recovery | The framing proposal was a plan the research-question rewrite in PR #69 had already executed, and the owner judged the LinkedIn work should never have been tracked in this repository |
+| 2026-09-27 | Remove `docs/LINKEDIN_PROJECT.md` from `main` | Assistant, after the owner said the LinkedIn work should not have been in the repository | **Owner instruction** | The file is deleted and all five referring documents are corrected | It is personal-surface promotional material, which decision 27 keeps out of every tracked file |
+| 2026-09-27 | The 2026-09-25 migration manifest entry for that file | Assistant | Assistant | **Left unedited** | Nothing asserts the file still exists: the manifest is only a fallback lookup for `recorded_file`. The entry records what the migration did at the time, which is still true, and superseded records stay in-tree by convention |
+| 2026-09-27 | The historical sentences in decision 33 and in PROGRESS that described the draft | Assistant | Assistant | Kept as prose, with the link removed and the removal dated in place | Rewriting a historical record to hide that the draft existed would be worse than a dangling link; the validator's link check forces one of the two, and delinking keeps the history true |
+
+| Date | Rejected or reworked output | Reason | Authority |
+|---|---|---|---|
+| 2026-09-27 | The premise that the two unmerged branches held work already on `main` | Checked before deleting: `codex/linkedin-media-selection` carried 40 lines absent from `main`, and `docs/RQ_FRAMING_PROPOSAL.md` did not exist on `main` at all. Reported, and the owner confirmed the deletion anyway with a reason for each | Assistant verified rather than accepting the premise |
+| 2026-09-27 | Deleting the untracked working copies in the primary checkout wholesale | All 2,158 entries were classified first. 2,050 were cache artefacts origin/main already ignores, 92 matched main apart from line endings, and **16 A0 files were newer than main**, carrying decision records A0-015 and A0-016 that appear in none of main's A0 record files. Deleting them would have destroyed provenance this repository treats as load-bearing | Assistant refused the wholesale option and preserved the sixteen on `Claude/recovered-a0-decision-records` at `3d3796a` before touching anything |
+| 2026-09-27 | Merging those preserved A0 records into `main` | Whether the two decision records should land, and in which file, is a scientific-provenance judgement. Main records the exploratory outcome in `stage_decisions.json` while the recovered tree mutates `decisions.json`, and the recovered `PLAN.md` still points at pre-migration `Thesis/` paths, so it is a divergent variant rather than a successor | Assistant preserved and escalated rather than merging; the owner decides |
+| 2026-09-27 | Deleting `PORTFOLIO_SUMMARY.md` alongside the LinkedIn draft | It sits in the same `docs/README.md` sentence and may be the same category of personal-surface material, but the owner named only the LinkedIn file, and widening a deletion is the owner's call | Assistant kept to the instruction and raised the question instead |
