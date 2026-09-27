@@ -1,8 +1,8 @@
 # Documentation Index
 
 Repository guides: [structure and label scope](REPOSITORY_STRUCTURE.md),
-[portfolio summary](PORTFOLIO_SUMMARY.md), [LinkedIn project draft](LINKEDIN_PROJECT.md),
-and [next-dataset gate](NEXT_DATASET_GATE.md).
+[portfolio summary](PORTFOLIO_SUMMARY.md) and
+[next-dataset gate](NEXT_DATASET_GATE.md).
 
 > **Tool reference pages are not execution records.** The five tool pages below
 > describe tools and the reference study's design. They do **not** imply that

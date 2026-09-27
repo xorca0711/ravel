@@ -35,15 +35,31 @@ cohort. Two history headings here that still said current were relabelled.
    the A10 first specification as inconclusive and its fibroblast increment as a
    specification artefact; the A10 revised within-unit gain and its plate-transfer
    limit; A0's failed intestinal transfer.
-2. **Two local branches hold unmerged commits.** `codex/linkedin-media-selection` has
-   one LinkedIn-document commit whose remote was deleted unmerged.
-   `rq-framing-proposal` is local only and holds the 216-line framing proposal that the
-   research-question rewrite superseded; repository convention would land it as a
-   superseded document rather than delete it.
-3. **The main checkout is 79 commits behind origin.** Git also reports `RQ_Specified/`
-   and `Research Article/` as untracked there, because local main predates both paths.
-   A plain pull will refuse to overwrite them. That checkout also holds the ignored data
-   caches other runs read, so reconcile it deliberately rather than by cleaning.
+2. **Resolved, 27 September 2026: branch cleanup is complete.** Six merged branches
+   were deleted on both local and origin. The two that held unmerged commits were
+   deleted on the owner's instruction after each was checked against `main`:
+   `rq-framing-proposal` held a 216-line proposal that the research-question rewrite
+   in PR #69 had already executed, and `codex/linkedin-media-selection` held LinkedIn
+   work the owner judged should never have been tracked in this repository. Neither
+   was on origin. Both commits remain recoverable from the reflog, at `cd18f97` and
+   `0034245`. `main` is now the only branch.
+3. **Resolved, 27 September 2026: the main checkout is current and clean.** It is on
+   `main` at `329c07c`, level with origin, with zero dirty or untracked entries. All
+   2,158 untracked entries were classified before anything was touched, and nothing was
+   lost: 2,050 were cache and derived artefacts that origin/main's ignore rules already
+   cover and that only looked untracked because the local branch predated those rules;
+   92 matched origin/main apart from line endings and were discarded; and **16 A0 files
+   were newer than main and are preserved on branch `Claude/recovered-a0-decision-records`
+   at `3d3796a`**, not deleted. Zero files held content that existed nowhere in git.
+4. **Open, and it needs the owner: the preserved A0 records.** That branch's
+   `decisions.json` reports `current_stage` `E4_exploratory_complete_narrow` with
+   `program_scoring_performed` true, against main's
+   `P0_extended_feasibility_complete_P1_P4_blocked` and false, and it carries decision
+   records **A0-015 and A0-016 that appear in none of main's A0 record files**. Main
+   records the exploratory outcome in a separate `stage_decisions.json`, which contains
+   neither identifier. Its `PLAN.md` also still points at pre-migration `Thesis/` paths,
+   so the tree is a divergent variant rather than a clean successor. Decide whether the
+   two decision records should land, and in which file, before that branch is deleted.
 
 **Branch housekeeping done at the owner's request.** Twenty merged local branches and
 nine merged remote branches were deleted; every one was fully contained in main. The
@@ -623,8 +639,10 @@ Gate 3A/3B and the original KRT8 pilot contract retain their separate status.
 
 The [structure contract](docs/REPOSITORY_STRUCTURE.md) defines shared versus
 paper-specific paths and scoped labels. The root README remains navigation.
-The [LinkedIn project draft](docs/LINKEDIN_PROJECT.md) uses current evidence
-and includes replacement media captions; profile publication is separate.
+A LinkedIn project draft used current evidence and included replacement media
+captions; profile publication was always separate. **The owner removed that draft
+from the repository on 27 September 2026**, so this sentence is history, not a
+pointer.
 The four linked Notion roadmap/status pages were updated and read back;
 child-page links and private PI planning were preserved. Verification passed
 239 input hashes, 19 unchanged scientific files, all six shared figure reviews

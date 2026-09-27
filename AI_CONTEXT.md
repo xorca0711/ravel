@@ -23,8 +23,25 @@ All pull requests through #81 are merged and none is open. Read PROGRESS
 - **The claim register does not yet cover question-level results.** It ends at C168.
   Do not add rows for A0, A5, A10 or A11 results without the owner; grading is theirs.
   Until rows exist, the generated negative-results page omits A0's failed transfer.
-- **Two local branches hold unmerged commits and must not be deleted unasked:**
-  `codex/linkedin-media-selection` and the local-only `rq-framing-proposal`.
+- **Branch cleanup is done, 27 September 2026.** Every merged branch was deleted on
+  both local and origin, and the two that held unmerged commits,
+  `codex/linkedin-media-selection` and the local-only `rq-framing-proposal`, were
+  deleted on the owner's instruction: the framing proposal was superseded by the
+  research-question rewrite in PR #69, and the LinkedIn work should not have been
+  tracked here. Their commits stay recoverable from the reflog at `cd18f97` and
+  `0034245`. One branch was then created deliberately:
+  **`Claude/recovered-a0-decision-records` at `3d3796a` preserves sixteen A0 files that
+  sat untracked in the primary checkout and were newer than main**, including decision
+  records A0-015 and A0-016 that appear in none of main's A0 record files. **Do not delete
+  that branch and do not merge it unasked**; the owner decides whether those records land.
+  Apart from it, `main` is the only branch.
+- **The primary checkout is clean and current as of 27 September 2026**, on `main` at
+  `329c07c` with zero untracked entries. Its 2,158 untracked entries were classified
+  first: 2,050 were cache artefacts that origin/main already ignores and that only showed
+  because the local branch predated those ignore rules, 92 matched main apart from line
+  endings, and the remaining 16 are the preserved branch above. If it ever looks that way
+  again, classify before cleaning: nothing there held content absent from git except those
+  sixteen.
 - **The A10 source paper is unread by the owner.** Use the deposit, never write a study
   note on roadmap paper 14; the precedent is DEVELOPMENT decision 21.
 
