@@ -31,7 +31,11 @@
     "effect": {
       "target": "Itgb6",
       "median_depth_matched_effect_log2cpm": -0.938,
-      "per_unit_effects": [-0.938, -1.575, -0.680],
+      "per_unit_effects": [
+        -0.938,
+        -1.575,
+        -0.68
+      ],
       "units_in_predicted_direction": "3 of 3 readable",
       "fourth_unit": "ineligible at 4,865 fibroblast counts",
       "endpoint_sd_over_168_eligible_wells": 0.482,
@@ -42,15 +46,33 @@
       }
     },
     "comparator_arms": {
-      "Areg": {"median_effect": 0.036, "units_in_predicted_direction": "2 of 4", "status": "bounded null, not absence"},
-      "Erbb3": {"median_effect": -0.187, "day14_log_area_minus_control": -0.605, "fibroblast_count_ratio_to_control": 2.31, "status": "fails the culture check; composition or viability shift"},
-      "Egfr": {"median_effect": 0.247, "units_in_predicted_direction": "0 of 3"},
-      "Erbb4": {"median_effect": 0.503, "units_in_predicted_direction": "0 of 3"},
-      "Erbb2": {"median_effect": -0.169, "units_in_predicted_direction": "1 of 1 readable"}
+      "Areg": {
+        "median_effect": 0.036,
+        "units_in_predicted_direction": "2 of 4",
+        "status": "bounded null, not absence"
+      },
+      "Erbb3": {
+        "median_effect": -0.187,
+        "day14_log_area_minus_control": -0.605,
+        "fibroblast_count_ratio_to_control": 2.31,
+        "status": "fails the culture check; composition or viability shift"
+      },
+      "Egfr": {
+        "median_effect": 0.247,
+        "units_in_predicted_direction": "0 of 3"
+      },
+      "Erbb4": {
+        "median_effect": 0.503,
+        "units_in_predicted_direction": "0 of 3"
+      },
+      "Erbb2": {
+        "median_effect": -0.169,
+        "units_in_predicted_direction": "1 of 1 readable"
+      }
     },
     "sources": {
       "RQ_Specified/A2_areg_source_delivery/reports/STAGE3_LEG1_RESULTS.md": "ba503625de23c643887f2c4ebfed26dd4cae5619671073874581b1afeaea8d05",
-      "RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md": "96ee088c54716774c3791bd9561fc0aeac8607a50a353cea093f9fbb72c6d955",
+      "RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md": "1d14f3b27bfd8f3badbe1627a8d50f000749e558af3889bbdcf67d3f3f9983b8",
       "RQ_Specified/A2_areg_source_delivery/config/a2_stage2_freeze_v2.json": "81f9d6b119b8f616df13c3d7c2d534b9523f2ed9b5be5ef9c9a35beb120f574f"
     },
     "limits": [
@@ -61,7 +83,15 @@
       "The endpoint is a transcript score; TGF-beta activation was never measured.",
       "The culture medium and matrix are not in the deposit.",
       "The integrin is mouse and the recipient is human; cross-species activation is carried and unverified."
-    ]
+    ],
+    "sources_rehashed": {
+      "date": "2026-09-27",
+      "why": "pull request 85 merged A2 into main after this contract was written, and its stage 5 synthesis gained a section on the negative-results path. The recorded hashes are re-recorded against the merged files rather than left stale, and the superseded hashes are kept here so the change is visible.",
+      "superseded": {
+        "STAGE5_SYNTHESIS.md": "96ee088c54716774c3791bd9561fc0aeac8607a50a353cea093f9fbb72c6d955"
+      },
+      "numbers_unchanged": "no figure this contract cites was altered by that commit; it added a section and restored line endings"
+    }
   },
   "rivals": [
     "fibroblast-side amplification through the recipient's own alphaV integrins carries the effect",
@@ -101,12 +131,21 @@
   "public_data_search": {
     "report": "reports/PUBLIC_DATA_SEARCH.md",
     "date": "2026-09-27",
-    "repositories": ["GEO DataSets", "PRIDE", "Image Data Resource", "BioImage Archive via BioStudies"],
+    "repositories": [
+      "GEO DataSets",
+      "PRIDE",
+      "Image Data Resource",
+      "BioImage Archive via BioStudies"
+    ],
     "conclusion": "no public dataset can test the proposal; the binding gap is the absence of any deposited measurement of activated TGF-beta under an integrin perturbation",
     "nearest_candidate": {
       "accession": "GSE190821",
       "what_it_is": "lung epithelial RiboTag translatome and whole lung under bleomycin, with the 3G9 anti-integrin-beta6 antibody in 4 mice against the inert antibody Axum8 in 7 mice, 48 libraries from 24 mice, day 7",
-      "fails_conditions": [3, 4, 5],
+      "fails_conditions": [
+        3,
+        4,
+        5
+      ],
       "bounded_use": "can bound rival 2 only, by asking whether the epithelium's own programme moves under integrin beta6 blockade; not part of the staged test and never reported as one"
     },
     "caveat": "keyword searches over indexed metadata; a deposit describing the same assay in different words could have been missed"
