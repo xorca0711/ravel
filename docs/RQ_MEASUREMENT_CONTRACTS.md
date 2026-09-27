@@ -34,7 +34,11 @@ confounded age, injury time and processing.
   preparation joins and harvest timing before A10 prediction. Hold out whole
   preparations; outcome-time RNA is concurrent association.
 - [Niche report](../Research%20Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/REPORT.md):
-  count exact complete paired triads before A13. IPF counts six and three remain
+  count exact complete paired triads before A13. Those counts use a label-level rule: a
+  compartment meets the floor when one single cell label reaches it, not when its labels sum
+  to it. The rule was unwritten until the A13 coverage pass recovered it and reproduced all
+  240 earlier flags; any new count must use it or it will not be comparable.
+  IPF counts six and three remain
   below the ten-unit joint-model floor. Three-per-arm and ten-unit floors in
   their respective protocols are eligibility rules, not power guarantees.
 

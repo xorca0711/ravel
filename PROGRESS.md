@@ -256,8 +256,22 @@ Branch `Claude/a2-delivery-hypothesis`, based on main `f1b2c4f`. Start with the
   this repository so it carries no discovery contamination, and A13 on GSE233844 and
   GSE122960. A1 has half its gate met. Six are blocked with a constraint that now fits in a
   sentence. A15 was excluded because the session that owns it audited its own gate.
+- **A13's coverage is counted and its gate is not met.** See
+  `RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/`. The pass reproduces all 240 earlier
+  triad flags before reporting anything, which needed a rule the earlier trial never wrote
+  down: a compartment meets the floor when one single cell label reaches it, not when its
+  labels sum to it. The Kim cohort gives zero complete paired triads at the 50-cell floor
+  under the type 2 epithelial definition and three under a wider one, against a ten-patient
+  floor. The zero is definitional, since every tumour sample holds zero type 2 labelled cells,
+  so that contrast and that compartment cannot coexist in the deposit. Under the wider
+  definition fibroblast recovery binds, at a median of 32.5 cells for the largest fibroblast
+  label in ten of twenty-two samples, which is an assay property rather than a cohort size
+  problem. Nothing was fitted and nothing should be on this coverage.
 - Next: the owner grades or rejects the claim sentences proposed in
-  `reports/STAGE5_SYNTHESIS.md` and in the depth-standardised leg 2 report; none is added. The cheapest open item is a
+  `reports/STAGE5_SYNTHESIS.md`, in the depth-standardised leg 2 report and in the A13
+  coverage report; none is added. A13 now needs either a mesenchyme-enriched cohort, a
+  re-specified contrast that does not need all three compartments at depth in one patient, or
+  retirement. The cheapest open item is a
   depth-standardized donor measure for leg 2, using the common-molecule-budget treatment
   this repository applied to C37. The Itgb6 lead needs its own design and is not a
   question yet. Earlier note, still current: the second freeze was provisional and

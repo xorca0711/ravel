@@ -1,0 +1,148 @@
+{
+  "schema": "a13-triad-coverage/v1",
+  "declared": "2026-09-27",
+  "status": "declared and committed before any count was produced by this script",
+  "scope": "coverage arithmetic only; no model is fitted, no association is estimated, no claim row is added",
+  "why_only_coverage": "the A13 card states that coverage is next and not mediation fitting, and that 23 human cohort patients does not mean 23 complete paired triads. A joint model needs at least ten complete patients, so counting decides whether there is anything to plan.",
+  "question": {
+    "register": "RESEARCH_QUESTIONS.md#a13",
+    "gate_quoted": "IPF has six and three complete triads, below the ten-unit joint-model floor; 23 human cohort patients does not mean 23 complete paired triads. Coverage is next, not mediation fitting.",
+    "joint_model_floor_patients": 10
+  },
+  "definition_of_a_complete_triad": {
+    "per_sample": "all three compartments hold at least the floor number of annotated cells in that sample",
+    "per_patient_paired": "a complete triad in both the tumour and the matched normal sample of the same patient, which is what the card means by a complete paired triad",
+    "floors": {
+      "primary": 50,
+      "sensitivities": [
+        30,
+        100
+      ]
+    },
+    "why_these_floors": "they are the floors the earlier triad count used, in Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness, so the reproduction check and the new cohort are on one scale",
+    "per_compartment": "at least one single cell label at or above the floor, primary; the pooled sum is a declared sensitivity"
+  },
+  "compartment_labels": {
+    "reused_verbatim_from_the_earlier_trial": {
+      "GSE136831": {
+        "epithelial": [
+          "ATII"
+        ],
+        "fibroblast": [
+          "Fibroblast",
+          "Myofibroblast"
+        ],
+        "myeloid": [
+          "Macrophage",
+          "Macrophage_Alveolar"
+        ],
+        "label_column": "Manuscript_Identity",
+        "patient_column": "Subject_Identity",
+        "disease_column": "Disease_Identity"
+      },
+      "GSE135893": {
+        "epithelial": [
+          "AT2"
+        ],
+        "fibroblast": [
+          "Fibroblasts",
+          "HAS1 High Fibroblasts",
+          "PLIN2+ Fibroblasts",
+          "Myofibroblasts"
+        ],
+        "myeloid": [
+          "Macrophages",
+          "Proliferating Macrophages"
+        ],
+        "label_column": "celltype",
+        "patient_column": "Sample_Name",
+        "disease_column": "Diagnosis"
+      }
+    },
+    "declared_here_for_the_new_cohort": {
+      "GSE131907": {
+        "epithelial_primary": [
+          "AT2"
+        ],
+        "epithelial_sensitivity": [
+          "AT2",
+          "tS1",
+          "tS2",
+          "tS3"
+        ],
+        "fibroblast": [
+          "COL13A1+ matrix FBs",
+          "COL14A1+ matrix FBs",
+          "Myofibroblasts"
+        ],
+        "myeloid": [
+          "Alveolar Mac",
+          "mo-Mac",
+          "Pleural Mac"
+        ],
+        "label_column": "Cell_subtype",
+        "patient_column": "derived from Sample, the digits after LUNG_N or LUNG_T",
+        "origins_in_scope": [
+          "tLung",
+          "nLung"
+        ],
+        "excluded_origins": [
+          "nLN",
+          "mLN",
+          "mBrain",
+          "PE",
+          "tL/B"
+        ]
+      }
+    },
+    "why_AT2_is_the_primary_epithelial_compartment": "the earlier trial defined the epithelial compartment as the type 2 cell alone in both IPF cohorts, not as all epithelium. Using all epithelium in the new cohort would inflate its counts relative to the two the gate already quotes, so the primary keeps the type 2 definition and the tumour states are a declared sensitivity rather than a choice made after seeing counts.",
+    "why_mural_and_mesothelial_are_excluded": "the earlier trial excluded them, and trials C1b and E4 both recorded a mural contribution distorting exactly this kind of measure",
+    "why_monocytes_are_excluded": "the earlier trial counted macrophages, and A13 is about macrophage IL1B specifically"
+  },
+  "reproduction_check": {
+    "requirement": "the script must reproduce the earlier trial's per-donor complete-triad flags exactly, for both IPF cohorts and all three floors, before its new counts are reported",
+    "expected_at_floor_50": {
+      "GSE136831": {
+        "IPF": 2,
+        "control": 4
+      },
+      "GSE135893": {
+        "IPF": 2,
+        "control": 1
+      }
+    },
+    "artefact": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/complete_triad_coverage.csv",
+    "on_failure": "the run refuses and reports the disagreement rather than its new counts",
+    "achieved": "all 240 prior rows reproduce under the single-label rule"
+  },
+  "inputs": {
+    "note": "deposited annotation and metadata only; no count matrix is read and nothing is downloaded",
+    "files": [
+      "raw_data/GSE136831/GSE136831_AllCells.Samples.CellType.MetadataTable.txt.gz",
+      "raw_data/GSE135893/GSE135893_IPF_metadata.csv.gz",
+      "raw_data/GSE131907/GSE131907_Lung_Cancer_cell_annotation.txt.gz"
+    ]
+  },
+  "declared_reading": {
+    "gate_met": "at least ten patients hold a complete paired triad at the primary floor, in which case A13 has coverage and a plan may be written",
+    "gate_not_met": "fewer than ten, in which case A13 stays where its card puts it and the count is recorded so no one re-asks",
+    "no_substitution": "a sensitivity floor or the wider epithelial definition may not be substituted for the primary to reach the floor"
+  },
+  "prohibited": [
+    "fitting any joint model or estimating any association in this pass",
+    "reading a count as evidence for or against fibroblast information beyond macrophage IL1B",
+    "substituting a sensitivity for the primary",
+    "adding or grading a claim row",
+    "treating a met floor as adequate power, which the card already warns against"
+  ],
+  "counts_produced_at_declaration": false,
+  "amended": "2026-09-27, before any count for the new cohort existed",
+  "amendment": {
+    "what_changed": "the rule for when a compartment meets the floor",
+    "primary_rule": "at least one single cell label in the compartment holds the floor number of cells",
+    "sensitivity_rule": "the compartment's labels summed, reported beside the primary and never substituted for it",
+    "why": "the first run assumed the pooled rule and reproduced 230 of the earlier trial's 240 flags, disagreeing on 10, every one in the direction of counting more cells. The disagreement pattern identified the earlier rule: a donor with 26 Fibroblast and 14 Myofibroblast cells fails a 30-cell floor under the earlier trial but passes when pooled. The single-label rule reproduces all 240 flags exactly.",
+    "why_it_is_the_right_primary": "the earlier gate counted label-level eligibility, which is what a label-level communication analysis needs, and the number the A13 card quotes was produced under it. Changing the rule would make the new count incomparable with the gate it is meant to test.",
+    "integrity_note": "the amendment was made after the reproduction check failed and before the script produced any count for the new cohort, because the run refused at the check. The refused attempt is preserved in tables/attempt1_refused_pooled_rule/."
+  }
+}

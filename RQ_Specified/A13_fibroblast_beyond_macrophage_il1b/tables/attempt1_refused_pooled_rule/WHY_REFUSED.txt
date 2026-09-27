@@ -1,0 +1,6 @@
+The first run assumed a complete triad meant each compartment's labels summed to the
+floor. It reproduced 230 of the earlier trial's 240 flags and disagreed on 10, every
+disagreement in the direction of counting more cells, so the script refused to report any
+new count. The refusal is the artefact: the disagreement pattern identified the earlier
+rule, which requires one single cell label to reach the floor rather than a pooled
+compartment. Preserved unchanged; the corrected run reproduces all 240 flags.

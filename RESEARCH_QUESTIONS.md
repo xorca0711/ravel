@@ -50,7 +50,7 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A10](#a10) | Epithelial programmes add information about measured organoid growth | Public RNA and imaging design | Follow-up complete: added information beyond E2F/G2M and positive plate-shift error gains, but negative absolute R-squared on 3/4 plates; independent units unresolved |
 | [A11](#a11) | Lesion-associated programmes add to shared plasticity | Reduced HPCS signal across repair, development, IPF and LUAD | Kim lesion association replicates in 8 patients; beyond-shared criterion unresolved (BH q=0.0547) |
 | [A12](#a12) | Recipient context explains responses beyond ligand RNA | Cohort/recipient heterogeneity | Conditional component model; activation unmeasured |
-| [A13](#a13) | Fibroblast programmes add information beyond macrophage IL1B | Niche heterogeneity motivates joint association | Audit complete triads; current IPF arms below joint-model floor |
+| [A13](#a13) | Fibroblast programmes add information beyond macrophage IL1B | Niche heterogeneity motivates joint association | [Coverage counted and the gate is not met](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md): zero complete paired triads in the one uncounted cohort, for a definitional reason, and fibroblast recovery binds under any wider definition |
 | [A14](#a14) | Exposure duration and fibroblast reception separately affect recovery | Mechanistic follow-up to the repair/persistence question | Two decisions; withdrawal and recipient-specific data needed |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
@@ -625,9 +625,17 @@ not test “beyond IL1B.” Spatial work requires independently defined patholog
 regions and a patient-level null; feedback requires intervention.
 
 **Decision / readiness.** Replicated added information supports the association;
-precise absence weakens the nominated programme. IPF has six and three complete
-triads, below the ten-unit joint-model floor; 23 human cohort patients does not
-mean 23 complete paired triads. Coverage is next, not mediation fitting.
+precise absence weakens the nominated programme. IPF has six and three complete triads,
+below the ten-unit joint-model floor; 23 human cohort patients does not mean 23 complete
+paired triads. **Coverage is now counted and the gate is not met**
+([results](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md)):
+the one uncounted cohort on disk gives zero complete paired triads at the 50-cell floor under
+the epithelial definition the IPF cohorts used, and three under a wider one. The zero is
+definitional, because every tumour sample there holds zero cells labelled type 2, so a paired
+tumour-versus-normal contrast and a type 2 epithelial compartment are incompatible in that
+deposit at any cohort size. Under the wider definition fibroblast recovery binds, at a median
+of 32.5 cells for the largest fibroblast label. Nothing was fitted, and a joint model should not
+be fitted on this coverage.
 [Figure plan/spatial evidence](analysis/figures/rq/README.md#a13): coverage heatmap
 first, then patient effects if eligible. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC3–MC5](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
