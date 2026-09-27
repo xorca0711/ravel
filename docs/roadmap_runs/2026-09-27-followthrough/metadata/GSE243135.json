@@ -1,0 +1,560 @@
+{
+  "accession": "GSE243135",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/soft/GSE243135_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:32:40.075293+00:00",
+  "raw_sha256": "3167dbc0d851d21e2bddba548d845e3fc4997f6c72efd75dcbf7f9d65a172058",
+  "series": {
+    "!Series_title": [
+      "Epithelial Yap/Taz are required for functional alveolar regeneration following acute lung injury"
+    ],
+    "!Series_geo_accession": [
+      "GSE243135"
+    ],
+    "!Series_pubmed_id": [
+      "37676731"
+    ],
+    "!Series_summary": [
+      "A hallmark of idiopathic pulmonary fibrosis (IPF) and other interstitial lung diseases is dysregulated repair of the alveolar epithelium. The Hippo pathway effector transcription factors YAP and TAZ are implicated as essential for type 1 and type 2 alveolar epithelial cell (AT1 and AT2) differentiation in the developing lung, yet aberrant activation of YAP/TAZ is a prominent feature of the dysregulated alveolar epithelium in IPF. In these studies, we sought to define the functional role of YAP/TAZ activity during alveolar regeneration. We demonstrated that Yap and Taz are normally activated in AT2 cells shortly after injury, and deletion of Yap/Taz in AT2 cells led to pathologic alveolar remodeling, failure of AT2 to AT1 cell differentiation, increased collagen deposition, exaggerated neutrophilic inflammation, and increased mortality following injury induced by a single dose of bleomycin. Loss of Yap/Taz activity prior to a LPS injury prevented AT1 cell regeneration, led to intra-alveolar collagen deposition, and resulted in persistent innate inflammation. Together these findings established that AT2 cell Yap/Taz activity is essential for functional alveolar epithelial repair and prevention of fibrotic remodeling."
+    ],
+    "!Series_overall_design": [
+      "Lung single-cell suspensions were generated with MACS-column-based downsampling of Cd45+ cells from tamxifen-treated  WT and SPC-CreERT2 Yap f/f; Taz f/f mice at day 28 after intratracheal bleomycin or PBS. ScRNA-seq was performed using the Parse Biosciences Evercode system.",
+      "",
+      "Please note that eight paired sets of FASTQ files are sub-libraries (represented as GSMnnnn records), each of which contain cells from all of the 19 individual samples. The post-demultiplexing counts files for each sample (along with each sample information file, metadata_19samples.txt) are linked as Series supplementary files."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Kropski,,Jonathan",
+      "Gokey,,Jason"
+    ],
+    "!Series_sample_id": [
+      "GSM7779812",
+      "GSM7779813",
+      "GSM7779814",
+      "GSM7779815",
+      "GSM7779816",
+      "GSM7779817",
+      "GSM7779818",
+      "GSM7779819"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_252-7.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_252-8.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_252-9.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_252_12_WTm.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_252_34_YT2.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_263-4.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_263-6.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_263-7.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_264-3.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_2704-.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_2705-.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_2706-.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_273-7.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_273-8.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_3083-34-4.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_C57-1.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_C57-15.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_C57-2.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_C57-25.zip",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243135/suppl/GSE243135_metadata_19samples.txt.gz"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM7779812",
+      "!Sample_title": [
+        "WT_Ytdel_saline_Bleo mixed sample [9301-CT-0001]"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7779812"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "strain background: C57Bl6",
+        "genotype: WT or Ytdel",
+        "treatment: saline or IT Bleo"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell suspensions were generated from lung dissue with a collagenase/dispase digest.",
+        "Parse Evercode"
+      ],
+      "!Sample_data_processing": [
+        "Parse_pipeline",
+        "MORE DETAILES REQUESTED",
+        "Assembly: mm10",
+        "Supplementary files format and content: DGE_filtered"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE243135"
+      ]
+    },
+    {
+      "accession": "GSM7779813",
+      "!Sample_title": [
+        "WT_Ytdel_saline_Bleo mixed sample [9301-CT-0002]"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7779813"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "strain background: C57Bl6",
+        "genotype: WT or Ytdel",
+        "treatment: saline or IT Bleo"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell suspensions were generated from lung dissue with a collagenase/dispase digest.",
+        "Parse Evercode"
+      ],
+      "!Sample_data_processing": [
+        "Parse_pipeline",
+        "MORE DETAILES REQUESTED",
+        "Assembly: mm10",
+        "Supplementary files format and content: DGE_filtered"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE243135"
+      ]
+    },
+    {
+      "accession": "GSM7779814",
+      "!Sample_title": [
+        "WT_Ytdel_saline_Bleo mixed sample [9301-CT-0003]"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7779814"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "strain background: C57Bl6",
+        "genotype: WT or Ytdel",
+        "treatment: saline or IT Bleo"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell suspensions were generated from lung dissue with a collagenase/dispase digest.",
+        "Parse Evercode"
+      ],
+      "!Sample_data_processing": [
+        "Parse_pipeline",
+        "MORE DETAILES REQUESTED",
+        "Assembly: mm10",
+        "Supplementary files format and content: DGE_filtered"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE243135"
+      ]
+    },
+    {
+      "accession": "GSM7779815",
+      "!Sample_title": [
+        "WT_Ytdel_saline_Bleo mixed sample [9301-CT-0004]"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7779815"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "strain background: C57Bl6",
+        "genotype: WT or Ytdel",
+        "treatment: saline or IT Bleo"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell suspensions were generated from lung dissue with a collagenase/dispase digest.",
+        "Parse Evercode"
+      ],
+      "!Sample_data_processing": [
+        "Parse_pipeline",
+        "MORE DETAILES REQUESTED",
+        "Assembly: mm10",
+        "Supplementary files format and content: DGE_filtered"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE243135"
+      ]
+    },
+    {
+      "accession": "GSM7779816",
+      "!Sample_title": [
+        "WT_Ytdel_saline_Bleo mixed sample [9301-CT-0005]"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7779816"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "strain background: C57Bl6",
+        "genotype: WT or Ytdel",
+        "treatment: saline or IT Bleo"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell suspensions were generated from lung dissue with a collagenase/dispase digest.",
+        "Parse Evercode"
+      ],
+      "!Sample_data_processing": [
+        "Parse_pipeline",
+        "MORE DETAILES REQUESTED",
+        "Assembly: mm10",
+        "Supplementary files format and content: DGE_filtered"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE243135"
+      ]
+    },
+    {
+      "accession": "GSM7779817",
+      "!Sample_title": [
+        "WT_Ytdel_saline_Bleo mixed sample [9301-CT-0006]"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7779817"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "strain background: C57Bl6",
+        "genotype: WT or Ytdel",
+        "treatment: saline or IT Bleo"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell suspensions were generated from lung dissue with a collagenase/dispase digest.",
+        "Parse Evercode"
+      ],
+      "!Sample_data_processing": [
+        "Parse_pipeline",
+        "MORE DETAILES REQUESTED",
+        "Assembly: mm10",
+        "Supplementary files format and content: DGE_filtered"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE243135"
+      ]
+    },
+    {
+      "accession": "GSM7779818",
+      "!Sample_title": [
+        "WT_Ytdel_saline_Bleo mixed sample [9301-CT-0007]"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7779818"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "strain background: C57Bl6",
+        "genotype: WT or Ytdel",
+        "treatment: saline or IT Bleo"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell suspensions were generated from lung dissue with a collagenase/dispase digest.",
+        "Parse Evercode"
+      ],
+      "!Sample_data_processing": [
+        "Parse_pipeline",
+        "MORE DETAILES REQUESTED",
+        "Assembly: mm10",
+        "Supplementary files format and content: DGE_filtered"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE243135"
+      ]
+    },
+    {
+      "accession": "GSM7779819",
+      "!Sample_title": [
+        "WT_Ytdel_saline_Bleo mixed sample [9301-CT-0008]"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7779819"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: lung",
+        "strain background: C57Bl6",
+        "genotype: WT or Ytdel",
+        "treatment: saline or IT Bleo"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Single-cell suspensions were generated from lung dissue with a collagenase/dispase digest.",
+        "Parse Evercode"
+      ],
+      "!Sample_data_processing": [
+        "Parse_pipeline",
+        "MORE DETAILES REQUESTED",
+        "Assembly: mm10",
+        "Supplementary files format and content: DGE_filtered"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "NONE"
+      ],
+      "!Sample_series_id": [
+        "GSE243135"
+      ]
+    }
+  ]
+}

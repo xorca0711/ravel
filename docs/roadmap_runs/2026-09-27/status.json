@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-09-27T05:47:14.428115+00:00",
+  "authorization": "User requested proceeding with the research roadmap and a report between work packages",
+  "packages": {
+    "P0": {
+      "status": "completed",
+      "report": "P0_OUTCOMES.md"
+    },
+    "P1": {
+      "status": "completed_design_ceiling",
+      "report": "P1_SCREEN_DESIGN.md",
+      "new_evidence": "Split-mixture technical wells and exogenous EGF; preparation/lot crosswalk unresolved"
+    },
+    "P2": {
+      "status": "eligibility_complete_scoring_not_launched",
+      "report": "P2_REPLICATION_ELIGIBILITY.md",
+      "gate": "Both bounded candidates fail independent-mouse eligibility"
+    },
+    "P3": {
+      "status": "feasibility_complete_linkage_gate_closed",
+      "report": "P3_REGULATORY_FATE.md"
+    },
+    "P4": {
+      "status": "accounting_and_design_complete_identity_gate_closed",
+      "report": "P4_SOURCE_RECIPIENT.md"
+    },
+    "P5": {
+      "status": "design_complete_new_experimental_data_required",
+      "report": "P5_RECOVERY_DESIGN.md"
+    }
+  },
+  "no_new_claim_grades": true,
+  "bounded_execution_completed_utc": "2026-09-27T06:25:48.016742+00:00"
+}

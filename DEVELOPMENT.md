@@ -1307,3 +1307,61 @@ simulations that justified them. Scientific acceptance is not inferred from exec
 | 2026-09-27 | **REJECTED: the duplicate `history/recovered_working_tree_2026-09-27` archive, and the four documents written to make it discoverable** | The archive preserved zero new bytes. Its own cross-check section was wrong on every entry: it compared against `documentation_migration.json`, an archive **record**, and never opened `exploratory_execution_artifacts.zip`, the archive **zip** sitting beside it with no sibling record. The accompanying edits to A0's README, PROGRESS, AI_CONTEXT and DEVELOPMENT asserted a verifiable falsehood, and one of them told future sessions to disbelieve main's own logged stage artefacts | Discarded before being pushed; PR #92 closed as contributing nothing |
 | 2026-09-27 | **The triage method that produced the error** | It compared untracked files path for path against `origin/main`. A0 deliberately keeps `decisions.json` at the feasibility stage and `exploratory_decisions.json` at the exploratory stage, so a renamed and split file read as "newer than main", and content already inside a `history/` zip read as unpreserved. Any future triage must be content-addressed across the whole tree and across every archive in `history/`, with line endings normalised | Recorded in AI_CONTEXT so a later session does not repeat it |
 | 2026-09-27 | Deleting `PORTFOLIO_SUMMARY.md` alongside the LinkedIn draft | It sits in the same `docs/README.md` sentence and may be the same category of personal-surface material, but the owner named only the LinkedIn file, and widening a deletion is the owner's call | Assistant kept to the instruction and raised the question instead |
+## 27 September 2026: repository-wide rationale audit and context corrections
+
+The owner requested challenging every RQ and question-specific trial, reconciling
+contexts and guiding future work. Codex reviewed merged snapshot `329c07c` in a
+separate managed worktree, preserving the older checkout and all scientific outputs.
+The [audit](docs/audits/2026-09-27-rq-rationale/REPORT.md) records A0–A15, A12-S1,
+the trial families, exact sampling-model probes and remaining logical gaps.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | Rationale audit and current-context synchronization | Codex | Owner authorized the audit/synchronization; these interpretations are assistant judgments pending review | Correct current A2/A15 language and publish the shared architecture; preserve grades, frozen records and numerical outputs | Nonsignificance, enrichment and a conditional count probe were being read more strongly than their evidence permits |
+
+Rejected or substantially revised assistant interpretations:
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-09-27 | A2 no coupling and automatic 100-molecule next pass | Positive nonsignificant correlation does not establish absence; conditional fixed-K/N behavior does not prove marginal depth-standardization failure | Codex under the requested logical audit; no owner claim grade inferred |
+| 2026-09-27 | A15 pure IP and elimination of a composition/epithelial-state rival | Marker enrichment and wide null intervals cannot establish purity, equivalence or absence of a mediator | Same audit authority; historical decision label and estimates retained |
+
+No individual scientific claim acceptance, A15 registration approval, public-data
+exhaustion or successful raw-data replication is implied by this review.
+
+
+## 27 September 2026: authorized roadmap execution
+
+The owner requested proceeding through the research roadmap with reports between packages.
+The [execution record](docs/roadmap_runs/2026-09-27/README.md) distinguishes performed
+metadata/source/counting work from stopped fits and future experiments. Codex recovered
+the previously unread screen supplement, checked two A5 candidates, audited regulatory/fate
+linkage, calculated IL1B attribution bounds and specified a selective post-entry design.
+The shared-mixture replication and supplemented-EGF findings supersede earlier assistant
+statements that those aspects of screen design were unresolved. Confidence-threshold
+sensitivity remains sensitivity; no source cell identity or claim grade was assigned.
+No author was contacted and no experimental result was invented.
+
+
+## 27 September 2026: roadmap follow-through
+
+At the owner's instruction to proceed until nothing remained, Codex executed separately
+specified exploratory A12/A13 pilots, completed the named external-candidate checks and
+prepared a data/experimental handoff. [Evidence](docs/roadmap_runs/2026-09-27-followthrough/README.md).
+The earlier assistant proposal treating GSE303646 as A3-ready and GSE233844 as a lung-triad
+candidate was rejected by primary metadata. It is corrected with a dated notice, not
+silently deleted. A13's original source-compartment rule was not overwritten: the new
+pilot declares broad assigned macrophages and fixed recipient states. No human acceptance
+or evidence-grade upgrade is inferred from authorization to execute.
+
+
+## 27 September 2026: authorized landing and computational continuation
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | Commit, PR and merge the rationale audit and roadmap follow-through | Codex | Repository owner, explicit chat instruction | Authorized landing of the current code and reports; scientific grades unchanged | Preserve the completed work before structuring and executing the next computational phase |
+
+Before landing, the historical P0–P5 verifier was corrected to report changes in
+living-document hashes separately from failures of immutable analytical inputs.
+Later dated context updates are expected; all scientific source hashes remain strict.
+The original verification record still identifies the script version used at that time.

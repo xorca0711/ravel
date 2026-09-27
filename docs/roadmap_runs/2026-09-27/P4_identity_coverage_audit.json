@@ -1,0 +1,182 @@
+{
+  "units": 70,
+  "unique_patients": 23,
+  "assignment_sensitive_units": 62,
+  "histologies": [
+    {
+      "histology": "AAH",
+      "patient_histology_units": 8,
+      "median_unassigned_fraction": 0.5174100156494523,
+      "median_lower": 0.3631651017214398,
+      "median_upper": 0.9251757770522675,
+      "assignment_sensitive_majority": 5
+    },
+    {
+      "histology": "AIS",
+      "patient_histology_units": 12,
+      "median_unassigned_fraction": 0.6829254079254079,
+      "median_lower": 0.1706392663448358,
+      "median_upper": 0.8923417983996877,
+      "assignment_sensitive_majority": 11
+    },
+    {
+      "histology": "LUAD",
+      "patient_histology_units": 23,
+      "median_unassigned_fraction": 0.7207792207792207,
+      "median_lower": 0.17194570135746606,
+      "median_upper": 0.8918918918918919,
+      "assignment_sensitive_majority": 23
+    },
+    {
+      "histology": "MIA",
+      "patient_histology_units": 4,
+      "median_unassigned_fraction": 0.6613082237575217,
+      "median_lower": 0.19628928014263428,
+      "median_upper": 0.857597503900156,
+      "assignment_sensitive_majority": 3
+    },
+    {
+      "histology": "normal",
+      "patient_histology_units": 23,
+      "median_unassigned_fraction": 0.6352040816326531,
+      "median_lower": 0.18867924528301888,
+      "median_upper": 0.8896103896103896,
+      "assignment_sensitive_majority": 20
+    }
+  ],
+  "annotation": {
+    "libraries": 75,
+    "patients": 23,
+    "qc_cells": 555480,
+    "primary_confident_cells": 308646,
+    "sensitivity_confident_cells": 362208
+  },
+  "primary_confident_fraction": 0.5556383668178873,
+  "sensitivity_confident_fraction": 0.6520630805789588,
+  "triad_coverage": [
+    {
+      "cohort": "GSE131907",
+      "unit_kind": "patient_paired",
+      "epithelial_definition": "primary",
+      "group": "tumour_and_normal",
+      "units": 12,
+      "complete": 0
+    },
+    {
+      "cohort": "GSE131907",
+      "unit_kind": "patient_paired",
+      "epithelial_definition": "sensitivity",
+      "group": "tumour_and_normal",
+      "units": 12,
+      "complete": 3
+    },
+    {
+      "cohort": "GSE131907",
+      "unit_kind": "sample",
+      "epithelial_definition": "primary",
+      "group": "normal",
+      "units": 11,
+      "complete": 4
+    },
+    {
+      "cohort": "GSE131907",
+      "unit_kind": "sample",
+      "epithelial_definition": "primary",
+      "group": "tumour",
+      "units": 11,
+      "complete": 0
+    },
+    {
+      "cohort": "GSE131907",
+      "unit_kind": "sample",
+      "epithelial_definition": "sensitivity",
+      "group": "normal",
+      "units": 11,
+      "complete": 4
+    },
+    {
+      "cohort": "GSE131907",
+      "unit_kind": "sample",
+      "epithelial_definition": "sensitivity",
+      "group": "tumour",
+      "units": 11,
+      "complete": 5
+    },
+    {
+      "cohort": "GSE135893",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "Control",
+      "units": 10,
+      "complete": 1
+    },
+    {
+      "cohort": "GSE135893",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "ILD",
+      "units": 1,
+      "complete": 0
+    },
+    {
+      "cohort": "GSE135893",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "IPF",
+      "units": 12,
+      "complete": 2
+    },
+    {
+      "cohort": "GSE135893",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "NSIP",
+      "units": 3,
+      "complete": 1
+    },
+    {
+      "cohort": "GSE135893",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "Sarcoidosis",
+      "units": 2,
+      "complete": 0
+    },
+    {
+      "cohort": "GSE135893",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "cHP",
+      "units": 2,
+      "complete": 1
+    },
+    {
+      "cohort": "GSE136831",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "COPD",
+      "units": 18,
+      "complete": 3
+    },
+    {
+      "cohort": "GSE136831",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "Control",
+      "units": 28,
+      "complete": 4
+    },
+    {
+      "cohort": "GSE136831",
+      "unit_kind": "donor",
+      "epithelial_definition": "primary",
+      "group": "IPF",
+      "units": 32,
+      "complete": 2
+    }
+  ],
+  "triad_sha256": "d98c95e587621521e44283568afc608ccb58142cd58d297b407a89dd11b1005a",
+  "independent_identity": "Not recovered. Existing broad-marker review supports assigned classes but does not resolve the IL1B-bearing unknown cells.",
+  "ambient_doublet_status": "No independent per-unknown-cell ambient/doublet adjudication was established from these aggregate artifacts.",
+  "new_data_scope": "Reaggregation and worst-case assignment sensitivity only; no cell labels, confidence thresholds or gene scores changed."
+}

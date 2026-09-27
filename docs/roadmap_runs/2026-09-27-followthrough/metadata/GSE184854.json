@@ -1,0 +1,175 @@
+{
+  "accession": "GSE184854",
+  "reused_source": "Research Article\\gate1_03_nabhan_2018\\external_feasibility\\GSE184854_family.soft.gz",
+  "sha256": "a37b6fea8e623a3b4882398772507ed5f8e5cc5834d028119eca1e2c0e4cddd0",
+  "series": {
+    "!Series_title": [
+      "Time-series single-cell RNA sequencing analysis of WT or CCR2-/- murine lungs in silica-induced pulmonary fibrosis model."
+    ],
+    "!Series_geo_accession": [
+      "GSE184854"
+    ],
+    "!Series_web_link": [
+      "https://doi.org/10.1016/j.bbrc.2022.02.037"
+    ],
+    "!Series_summary": [
+      "Pulmonary fibrosis (PF) is a progressive fibrotic disease with a poor prognosis and suboptimal therapeutic options. Macrophages have been implicated in PF; however, the roles of macrophage subsets, particularly interstitial macrophages (IM), remain unknown. To address this issue, we performed time-series single-cell RNA sequencing (scRNA-seq) analysis in silica-induced PF model mice and clarify the characteristics of IM. In addition,  to elucidate the origin of IM, we used CCR2-/- mice which supressed classical monocyte infiltration."
+    ],
+    "!Series_overall_design": [
+      "To clarify transcriptomic landscape of silica-administrated murine lungs, we intratracheally administered with silica (400 mg/kg) to WT or CCR2-/- mice and lungs were harvested at day3, 7, and 21.  scRNA-seq was performed using Illumina Novaseq 6000 sequencer."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Tatsuro,,Ogawa",
+      "Shigeyuki,,Shichino",
+      "Satoshi,,Ueha",
+      "Kouji,,Matsushima"
+    ],
+    "!Series_sample_id": [
+      "GSM5598265",
+      "GSM5598266"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE184nnn/GSE184854/suppl/GSE184854_RAW.tar",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE184nnn/GSE184854/suppl/GSE184854_hashtag_antibodies.xlsx"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM5598265",
+      "!Sample_title": [
+        "SilicaWT1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM5598265"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "genotype: WT",
+        "tissue: lung",
+        "treatment: Silica",
+        "date: Day 3, 7, and 21"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "WT or CCR2-/- mice were intratracheally administered with silica (400 mg/kg) and harvested lungs at day 3, 7, and 21."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Murine lungs were isolated from silica-administrated WT or CCR2-/- mice. Lungs were minced into 0.5 mm2 with a razor blade and digested with Liberase solution [RPMI-1640 (Nacalai Tesque) supplemented with 10% FBS (MP Bio Japan), 10 mM HEPES pH7.2-7.4 (Cytiva (Global Life Sciences Technologies Japan)), 0.25 mg/ml Liberase TM (Roche), and 2 kU/mL DNase I (Merck)] at 37 \u00baC for 60 minutes. Cell suspensions were washed and resuspended with 25% Percoll PLUS (Cytiva). After under layered 65% Percoll PLUS, cell suspensions were centrifuged at 20\u00baC for 1,000 \u00d7g for 20 minutes, and the middle layer was collected. Resultant cell suspensions were washed and resuspended with 1000 \u03bcL of preparation medium [RPMI-1640 supplemented with 5% FBS and 10 mM HEPES]. Each single-cell suspension cell concentration was counted using Flow-count fluorospheres (Beckman Coulter, Brea, CA, USA) and a Gallios flow cytometer (Beckman Coulter). Cells were stained with 2.5 \u03bcg/ml of Totalseq anti-mouse Hashtag-A antibodies (BioLegend) at 4\u00baC for 30 minutes and washed thrice with Cell Staining Buffer (BioLegend) and pooled.",
+        "Pooled single-cell suspensions were subjected to a BD Rhapsody system with BD Rhapsody Targeted & Abseq Reagent kit (BD Biosciences) following the manufacture\u2019s instructions. 20000 cells were subjected to the BD Rhapsody workflow. After reverse transcription, Exonuclease I treatment of the resultant BD Rhapsody beads was performed at 37\u00baC for 60 minutes with 1,200 rpm on a Thermomixer C with Thermotop. Resultant beads were immediately chilled on ice; the supernatant was removed and washed with 1 mL of WTA wash buffer [10 mM Tris-HCl (pH 8.0), 50 mM NaCl, 1 mM EDTA, and 0.05% Tween-20], 200 \u03bcL of BD Rhapsody lysis buffer (for inactivation of enzyme), once with 1 ml of WTA wash buffer, twice with 500 \u03bcL of WTA wash buffer, resuspended with 200 \u03bcL of Beads resuspension buffer. During the washing step, beads-containing DNA LoBind tubes (Eppendorf Japan) were replaced twice. Exonuclease I-treated BD Rhapsody beads were subjected to TAS- Seq workflow for cDNA and/or hashtag library amplification (Shichino S., bioRxiv, 2021). 150 ng of amplified cDNA libraries was subjected to fragmentation/end-repair/A-tailing using NEBNext Ultra II FS DNA Library Prep Kit for Illumina. Ligated products were purified by AmPure XP beads and 9 cycles of Barcoding PCR were performed. Resultant products were purified twice by double size selection with 0.5\u00d7 \u2192 0.3\u00d7 (final 0.8\u00d7) AmPure XP beads and eluted with 30 \u03bcL of 10 mM Tris-HCl pH8.0. Size distribution of amplified products was analyzed by MultiNA system with appropriate dilutions. Resultant libraries and barcoded hashtag libraries were quantified using the KAPA Library Quantification Kit. Pooled libraries were sequenced by Illumina Novaseq 6000 sequencer."
+      ],
+      "!Sample_data_processing": [
+        "Pair-end Fastq files (R1: cell barcode reads, R2: RNA reads) were processed as follows. Adapter trimming of sequencing data was performed using cutadapt 2.10. Filtered reads were chunked into 16 parts for parallel processing by using Seqkit 0.14.0. Filtered cell barcode reads were annotated by Python script provided by BD Biosciences with minor modification for compatibility to Python 3.7. Reference RNA sequences were built by concatenating cDNA and ncRNA fasta files of the Ensembl database (build GRCm38 release-101). Associated cDNA reads were mapped to reference RNA using bowtie2-2.4.2 by the following parameters: -p 2 --very-sensitive-local -N 1 -norc -seed 656565 -reorder. Then, cell barcode information of each read was added to the bowtie2-mapped BAM files by the python script and pysam 0.15.4 (https://github.com/pysam-developers/pysam), and read counts of each gene in each cell barcode were counted using mawk. Resultant count data was converted to a single-cell gene-expression matrix file by using R-3.6.3. The inflection point of the knee-plot (total read count versus the rank of the read count) was detected using DropletUtils package in R-3.6.3. Cells of which total read count was over inflection point were considered as valid cells.",
+        "Genome_build: GRCm38",
+        "Supplementary_files_format_and_content: tab-delimited text files include raw tag-count values for each sample"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5598nnn/GSM5598265/suppl/GSM5598265_matrix_inflection_demulti_SilicaWT.txt.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE184854"
+      ]
+    },
+    {
+      "accession": "GSM5598266",
+      "!Sample_title": [
+        "SilicaCCR2KO1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM5598266"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL/6",
+        "genotype: CCR2-/-",
+        "tissue: lung",
+        "treatment: Silica",
+        "date: Day 3, 7, and 21"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "WT or CCR2-/- mice were intratracheally administered with silica (400 mg/kg) and harvested lungs at day 3, 7, and 21."
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Murine lungs were isolated from silica-administrated WT or CCR2-/- mice. Lungs were minced into 0.5 mm2 with a razor blade and digested with Liberase solution [RPMI-1640 (Nacalai Tesque) supplemented with 10% FBS (MP Bio Japan), 10 mM HEPES pH7.2-7.4 (Cytiva (Global Life Sciences Technologies Japan)), 0.25 mg/ml Liberase TM (Roche), and 2 kU/mL DNase I (Merck)] at 37 \u00baC for 60 minutes. Cell suspensions were washed and resuspended with 25% Percoll PLUS (Cytiva). After under layered 65% Percoll PLUS, cell suspensions were centrifuged at 20\u00baC for 1,000 \u00d7g for 20 minutes, and the middle layer was collected. Resultant cell suspensions were washed and resuspended with 1000 \u03bcL of preparation medium [RPMI-1640 supplemented with 5% FBS and 10 mM HEPES]. Each single-cell suspension cell concentration was counted using Flow-count fluorospheres (Beckman Coulter, Brea, CA, USA) and a Gallios flow cytometer (Beckman Coulter). Cells were stained with 2.5 \u03bcg/ml of Totalseq anti-mouse Hashtag-A antibodies (BioLegend) at 4\u00baC for 30 minutes and washed thrice with Cell Staining Buffer (BioLegend) and pooled.",
+        "Pooled single-cell suspensions were subjected to a BD Rhapsody system with BD Rhapsody Targeted & Abseq Reagent kit (BD Biosciences) following the manufacture\u2019s instructions. 20000 cells were subjected to the BD Rhapsody workflow. After reverse transcription, Exonuclease I treatment of the resultant BD Rhapsody beads was performed at 37\u00baC for 60 minutes with 1,200 rpm on a Thermomixer C with Thermotop. Resultant beads were immediately chilled on ice; the supernatant was removed and washed with 1 mL of WTA wash buffer [10 mM Tris-HCl (pH 8.0), 50 mM NaCl, 1 mM EDTA, and 0.05% Tween-20], 200 \u03bcL of BD Rhapsody lysis buffer (for inactivation of enzyme), once with 1 ml of WTA wash buffer, twice with 500 \u03bcL of WTA wash buffer, resuspended with 200 \u03bcL of Beads resuspension buffer. During the washing step, beads-containing DNA LoBind tubes (Eppendorf Japan) were replaced twice. Exonuclease I-treated BD Rhapsody beads were subjected to TAS- Seq workflow for cDNA and/or hashtag library amplification (Shichino S., bioRxiv, 2021). 150 ng of amplified cDNA libraries was subjected to fragmentation/end-repair/A-tailing using NEBNext Ultra II FS DNA Library Prep Kit for Illumina. Ligated products were purified by AmPure XP beads and 9 cycles of Barcoding PCR were performed. Resultant products were purified twice by double size selection with 0.5\u00d7 \u2192 0.3\u00d7 (final 0.8\u00d7) AmPure XP beads and eluted with 30 \u03bcL of 10 mM Tris-HCl pH8.0. Size distribution of amplified products was analyzed by MultiNA system with appropriate dilutions. Resultant libraries and barcoded hashtag libraries were quantified using the KAPA Library Quantification Kit. Pooled libraries were sequenced by Illumina Novaseq 6000 sequencer."
+      ],
+      "!Sample_data_processing": [
+        "Pair-end Fastq files (R1: cell barcode reads, R2: RNA reads) were processed as follows. Adapter trimming of sequencing data was performed using cutadapt 2.10. Filtered reads were chunked into 16 parts for parallel processing by using Seqkit 0.14.0. Filtered cell barcode reads were annotated by Python script provided by BD Biosciences with minor modification for compatibility to Python 3.7. Reference RNA sequences were built by concatenating cDNA and ncRNA fasta files of the Ensembl database (build GRCm38 release-101). Associated cDNA reads were mapped to reference RNA using bowtie2-2.4.2 by the following parameters: -p 2 --very-sensitive-local -N 1 -norc -seed 656565 -reorder. Then, cell barcode information of each read was added to the bowtie2-mapped BAM files by the python script and pysam 0.15.4 (https://github.com/pysam-developers/pysam), and read counts of each gene in each cell barcode were counted using mawk. Resultant count data was converted to a single-cell gene-expression matrix file by using R-3.6.3. The inflection point of the knee-plot (total read count versus the rank of the read count) was detected using DropletUtils package in R-3.6.3. Cells of which total read count was over inflection point were considered as valid cells.",
+        "Genome_build: GRCm38",
+        "Supplementary_files_format_and_content: tab-delimited text files include raw tag-count values for each sample"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5598nnn/GSM5598266/suppl/GSM5598266_matrix_inflection_demulti_SilicaCCR2KO.txt.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE184854"
+      ]
+    }
+  ]
+}

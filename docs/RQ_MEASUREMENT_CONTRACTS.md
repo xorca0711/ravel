@@ -1,5 +1,10 @@
 # Measurement contracts supporting the research questions
 
+Current authority: [research architecture](RESEARCH_ARCHITECTURE.md) and
+[27 September rationale audit](audits/2026-09-27-rq-rationale/REPORT.md).
+The audit corrects A2 depth/null interpretations and A15 purity/mediator/gate
+interpretations without replacing frozen numerical records.
+
 25 September 2026. This is an index of decision-relevant checks, not a new
 analysis protocol or a second question register. The biological hypotheses live
 in [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md). Existing trial contracts,

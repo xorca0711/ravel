@@ -1,0 +1,150 @@
+{
+  "status": "exploratory_pilot_complete",
+  "input_sha256": {
+    "specification": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f",
+    "Research Article\\gate2_C3_yu_lee_choi_min_2026\\trials\\u5_human_niche\\unc20_pooled_units.csv": "288f4c9988b048cad9bc4274aad4ea70a194cec205cdc5cc8c00ce8c69c970f1",
+    "X:\\GitHub\\scRNA_seq\\Research Article\\gate2_C3_yu_lee_choi_min_2026\\cache\\u5_human_niche\\unc20_pooled_triad_counts.csv.gz": "e24fccfa249a52788117bde204bc88f7deb1ce350d2e52c1b92ebc14c08bfc02",
+    "Research Article\\gate2_C3_yu_lee_choi_min_2026\\trials\\u5_human_niche\\unc30_pooled_units.csv": "75604acf1a874a015d65e050118586061abc9cfa97746da595d4415beefc6a12",
+    "X:\\GitHub\\scRNA_seq\\Research Article\\gate2_C3_yu_lee_choi_min_2026\\cache\\u5_human_niche\\unc30_pooled_triad_counts.csv.gz": "caecf13d3ff6bda192cd86d58cc0fba4118745182ccc08022afa9103ee9c5976"
+  },
+  "coverage": [
+    {
+      "uncertainty": 0.2,
+      "response_genes_present": 193,
+      "response_genes_frozen": 197,
+      "missing": [
+        "ICOSLG",
+        "IL6ST",
+        "RIGI",
+        "SIK1"
+      ],
+      "library_total_parity": true
+    },
+    {
+      "uncertainty": 0.3,
+      "response_genes_present": 193,
+      "response_genes_frozen": 197,
+      "missing": [
+        "ICOSLG",
+        "IL6ST",
+        "RIGI",
+        "SIK1"
+      ],
+      "library_total_parity": true
+    }
+  ],
+  "comparisons": [
+    {
+      "recipient": "AT2",
+      "uncertainty": 0.2,
+      "cell_floor": 50,
+      "n": 12,
+      "alpha": 1.0,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": 0.07722951669436325,
+      "patients_improved": 7,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "AT2",
+      "uncertainty": 0.2,
+      "cell_floor": 50,
+      "n": 12,
+      "alpha": 0.1,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": 0.09928145909354284,
+      "patients_improved": 6,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "AT2",
+      "uncertainty": 0.2,
+      "cell_floor": 50,
+      "n": 12,
+      "alpha": 10.0,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": 0.019514310743056384,
+      "patients_improved": 9,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "AT2",
+      "uncertainty": 0.2,
+      "cell_floor": 30,
+      "n": 18,
+      "alpha": 1.0,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": 0.014775113687593556,
+      "patients_improved": 11,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "Alveolar fibroblasts",
+      "uncertainty": 0.2,
+      "cell_floor": 50,
+      "n": 12,
+      "alpha": 1.0,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": -0.008096902411181174,
+      "patients_improved": 5,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "Alveolar fibroblasts",
+      "uncertainty": 0.2,
+      "cell_floor": 50,
+      "n": 12,
+      "alpha": 0.1,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": -0.011644143232341643,
+      "patients_improved": 6,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "Alveolar fibroblasts",
+      "uncertainty": 0.2,
+      "cell_floor": 50,
+      "n": 12,
+      "alpha": 10.0,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": 0.0032915817760404086,
+      "patients_improved": 7,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "Alveolar fibroblasts",
+      "uncertainty": 0.2,
+      "cell_floor": 30,
+      "n": 18,
+      "alpha": 1.0,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": -0.01248590289720811,
+      "patients_improved": 9,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "AT2",
+      "uncertainty": 0.3,
+      "cell_floor": 50,
+      "n": 16,
+      "alpha": 1.0,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": 0.017728283192612306,
+      "patients_improved": 7,
+      "heldout_outcome_isolation_passed": true
+    },
+    {
+      "recipient": "Alveolar fibroblasts",
+      "uncertainty": 0.3,
+      "cell_floor": 50,
+      "n": 16,
+      "alpha": 1.0,
+      "comparison": "joint_minus_alternative",
+      "MSE_improvement": 0.0017214643793751587,
+      "patients_improved": 8,
+      "heldout_outcome_isolation_passed": true
+    }
+  ],
+  "no_confirmatory_inference": true,
+  "source_attribution": "conditional on assigned macrophages; unknown cells not relabelled"
+}

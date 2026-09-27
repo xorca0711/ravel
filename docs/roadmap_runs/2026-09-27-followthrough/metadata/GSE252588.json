@@ -1,0 +1,260 @@
+{
+  "accession": "GSE252588",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE252nnn/GSE252588/soft/GSE252588_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:32:40.648984+00:00",
+  "raw_sha256": "a04aebefbf11e5ed3e69cf005d4b97421b97d05387123bf080eb47a2c15def0a",
+  "series": {
+    "!Series_title": [
+      "Intersectional genetic tracing reveals the origin of alveolar stem cells during lung repair and regeneration"
+    ],
+    "!Series_geo_accession": [
+      "GSE252588"
+    ],
+    "!Series_summary": [
+      "Alveolar type 2 (AT2) cells are stem cells of the alveolar epithelia. Previous genetic lineage tracing studies reported multiple cellular origins for AT2 cells after injury. However, conventional lineage tracing based on Cre-loxP has the limitation of non-specific labeling. Thus, the exact contribution of various epithelial cells to the pools of AT2 cells under different conditions remains unclear. Here, we used dual recombinases-mediated intersectional genetic lineage tracing to investigate the cellular origins of AT2 cells during lung homeostasis, injury and repair. In contrast to previous studies, we found AT1 cells were terminally differentiated cells and did not contribute to AT2 cells after lung injury and repair. Distinctive, but simultaneous, labeling of club cells, bronchioalveolar stem cells (BASCs), and AT2 cells revealed the exact contribution of each to AT2 cells after lung injury. Moreover, we found that club cells have the potential to rebuild virtually all alveoli in some severely injured lung regions. Mechanistically, Notch signaling promotes a BASCs-to-AT2 cell transition, but it inhibits club cell-to-AT2 cell conversion during lung repair. This intersectional genetic lineage tracing strategy with enhanced precision allowed us to elucidate the physiological role of AT1, club, BASCs, and AT2 cells to alveolar regeneration after injury."
+    ],
+    "!Series_overall_design": [
+      "tdT+, ZsG+, tdT+ZsG+ lung epithelial cell of the Scgb1a1-CreER;Sftpc-DreER;R26-TLR mice at 4 weeks after bleomycin injury were isolated by Fluorescence-activated cell sorting (FACS) and analyzed using scRNAseq."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Kuo,,Liu",
+      "Xinfeng,,Meng",
+      "Zixin,,Liu",
+      "Muxue,,Tang",
+      "Zan,,Lv",
+      "Xiuzhen,,Huang",
+      "Hengwei,,Jin",
+      "Xinmeng,,Han",
+      "Xiuxiu,,Liu",
+      "Wenjuan,,Pu",
+      "Huan,,Zhu",
+      "Bin,,Zhou"
+    ],
+    "!Series_sample_id": [
+      "GSM8003558",
+      "GSM8003559",
+      "GSM8003560"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE252nnn/GSE252588/suppl/GSE252588_RAW.tar"
+    ],
+    "!Series_platform_taxid": [
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM8003558",
+      "!Sample_title": [
+        "ClubTracer, bleo injuryed, scRNAseq"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8003558"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "whole lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: whole lung",
+        "cell type: lung epithelial cells",
+        "genotype: Scgb1a1-CreER;Sftpc-DreER;R26-TLR",
+        "treatment: bleo injuryed"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "After the mice were killed, the lungs were perfused using cold PBS through the right ventricle to wash out the blood cell and then the protease solution (collagenase type I (500U ml\u22121; Gibco 17100\u2013017), elastase(4U ml\u22121; Worthington Biochemical Corporation LS002279), dispase (5 U ml\u22121; BD Biosciences 354235) and DNase I (0.33 U ml\u22121; Worthington Biochemical Corporation LS002139) in DMEM (Gibco, 11965092)) was injected into the lungs through the trachea to the lung. After that, the lungs were minced into small pieces and incubated in 4 ml protease solution for 30 min at a 37\u00b0C shaker with frequent agitation. Subsequently, the tissue pieces were dissociated by pipetting and centrifuged at 1000 x g for 5 min at 4\u00b0C. After washing with DMEM, the pellet was resuspended in 3 ml 0.1% Trypsin-EDTA (Gibco, 25200072) with DNase I and incubated for 20 minutes at a 37 \u00b0C shaker with agitation and pipetting. Then the DMEM with 10% FBS was added to terminate the digestion and the cells were filtered sequentially through 100 \u03bcm strainers and centrifuged at 1000 x g for 5 min at 4\u00b0C.",
+        "The cells isolated from bleomycin-treated mice were sorted using Fluorescence-Activated Cell Sorting (FACS) based on their cell lineage, relying specifically on fluorescent signals (AT2-Tracer: ZsGreen+; BASCs-Tracer: ZsGreen+, tdTomato+; Club-Tracer: tdTomato+). Cells with distinct lineages were loaded into the 10x Chromium controller to generate GEMs respectively, which were subsequently processed into single-cell 5\u02b9 gene expression libraries using the Chromium Single Cell 5\u02b9 Library Kit (v2 Chemistry). All samples were pooled for sequencing on the Illumina NovaSeq 6000 PE150 platform."
+      ],
+      "!Sample_description": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Each single-cell RNA sequencing (scRNA-seq) dataset was processed using the CellRanger pipeline (v6.1.1) for alignment to the customized mouse reference genome (mm10), alignment filtering, barcode counting, and UMI counting.",
+        "Assembly: mm10",
+        "Supplementary files format and content: Tab-separated values files and matrix files"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003558/suppl/GSM8003558_ClubTracer_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003558/suppl/GSM8003558_ClubTracer_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003558/suppl/GSM8003558_ClubTracer_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE252588"
+      ]
+    },
+    {
+      "accession": "GSM8003559",
+      "!Sample_title": [
+        "BASCsTracer, bleo injuryed, scRNAseq"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8003559"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "whole lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: whole lung",
+        "cell type: lung epithelial cells",
+        "genotype: Scgb1a1-CreER;Sftpc-DreER;R26-TLR",
+        "treatment: bleo injuryed"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "After the mice were killed, the lungs were perfused using cold PBS through the right ventricle to wash out the blood cell and then the protease solution (collagenase type I (500U ml\u22121; Gibco 17100\u2013017), elastase(4U ml\u22121; Worthington Biochemical Corporation LS002279), dispase (5 U ml\u22121; BD Biosciences 354235) and DNase I (0.33 U ml\u22121; Worthington Biochemical Corporation LS002139) in DMEM (Gibco, 11965092)) was injected into the lungs through the trachea to the lung. After that, the lungs were minced into small pieces and incubated in 4 ml protease solution for 30 min at a 37\u00b0C shaker with frequent agitation. Subsequently, the tissue pieces were dissociated by pipetting and centrifuged at 1000 x g for 5 min at 4\u00b0C. After washing with DMEM, the pellet was resuspended in 3 ml 0.1% Trypsin-EDTA (Gibco, 25200072) with DNase I and incubated for 20 minutes at a 37 \u00b0C shaker with agitation and pipetting. Then the DMEM with 10% FBS was added to terminate the digestion and the cells were filtered sequentially through 100 \u03bcm strainers and centrifuged at 1000 x g for 5 min at 4\u00b0C.",
+        "The cells isolated from bleomycin-treated mice were sorted using Fluorescence-Activated Cell Sorting (FACS) based on their cell lineage, relying specifically on fluorescent signals (AT2-Tracer: ZsGreen+; BASCs-Tracer: ZsGreen+, tdTomato+; Club-Tracer: tdTomato+). Cells with distinct lineages were loaded into the 10x Chromium controller to generate GEMs respectively, which were subsequently processed into single-cell 5\u02b9 gene expression libraries using the Chromium Single Cell 5\u02b9 Library Kit (v2 Chemistry). All samples were pooled for sequencing on the Illumina NovaSeq 6000 PE150 platform."
+      ],
+      "!Sample_description": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Each single-cell RNA sequencing (scRNA-seq) dataset was processed using the CellRanger pipeline (v6.1.1) for alignment to the customized mouse reference genome (mm10), alignment filtering, barcode counting, and UMI counting.",
+        "Assembly: mm10",
+        "Supplementary files format and content: Tab-separated values files and matrix files"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003559/suppl/GSM8003559_BASCsTracer_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003559/suppl/GSM8003559_BASCsTracer_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003559/suppl/GSM8003559_BASCsTracer_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE252588"
+      ]
+    },
+    {
+      "accession": "GSM8003560",
+      "!Sample_title": [
+        "AT2Tracer, bleo injuryed, scRNAseq"
+      ],
+      "!Sample_geo_accession": [
+        "GSM8003560"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "whole lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "tissue: whole lung",
+        "cell type: lung epithelial cells",
+        "genotype: Scgb1a1-CreER;Sftpc-DreER;R26-TLR",
+        "treatment: bleo injuryed"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "After the mice were killed, the lungs were perfused using cold PBS through the right ventricle to wash out the blood cell and then the protease solution (collagenase type I (500U ml\u22121; Gibco 17100\u2013017), elastase(4U ml\u22121; Worthington Biochemical Corporation LS002279), dispase (5 U ml\u22121; BD Biosciences 354235) and DNase I (0.33 U ml\u22121; Worthington Biochemical Corporation LS002139) in DMEM (Gibco, 11965092)) was injected into the lungs through the trachea to the lung. After that, the lungs were minced into small pieces and incubated in 4 ml protease solution for 30 min at a 37\u00b0C shaker with frequent agitation. Subsequently, the tissue pieces were dissociated by pipetting and centrifuged at 1000 x g for 5 min at 4\u00b0C. After washing with DMEM, the pellet was resuspended in 3 ml 0.1% Trypsin-EDTA (Gibco, 25200072) with DNase I and incubated for 20 minutes at a 37 \u00b0C shaker with agitation and pipetting. Then the DMEM with 10% FBS was added to terminate the digestion and the cells were filtered sequentially through 100 \u03bcm strainers and centrifuged at 1000 x g for 5 min at 4\u00b0C.",
+        "The cells isolated from bleomycin-treated mice were sorted using Fluorescence-Activated Cell Sorting (FACS) based on their cell lineage, relying specifically on fluorescent signals (AT2-Tracer: ZsGreen+; BASCs-Tracer: ZsGreen+, tdTomato+; Club-Tracer: tdTomato+). Cells with distinct lineages were loaded into the 10x Chromium controller to generate GEMs respectively, which were subsequently processed into single-cell 5\u02b9 gene expression libraries using the Chromium Single Cell 5\u02b9 Library Kit (v2 Chemistry). All samples were pooled for sequencing on the Illumina NovaSeq 6000 PE150 platform."
+      ],
+      "!Sample_description": [
+        "10x Genomics"
+      ],
+      "!Sample_data_processing": [
+        "Each single-cell RNA sequencing (scRNA-seq) dataset was processed using the CellRanger pipeline (v6.1.1) for alignment to the customized mouse reference genome (mm10), alignment filtering, barcode counting, and UMI counting.",
+        "Assembly: mm10",
+        "Supplementary files format and content: Tab-separated values files and matrix files"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003560/suppl/GSM8003560_AT2Tracer_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003560/suppl/GSM8003560_AT2Tracer_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8003nnn/GSM8003560/suppl/GSM8003560_AT2Tracer_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE252588"
+      ]
+    }
+  ]
+}

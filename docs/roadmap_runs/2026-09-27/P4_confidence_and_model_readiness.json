@@ -1,0 +1,141 @@
+{
+  "confidence_sensitivity": [
+    {
+      "threshold": "0.2",
+      "histology": "AAH",
+      "n": 8,
+      "median_unassigned": 0.5174100156494523,
+      "sensitive_majority": 5
+    },
+    {
+      "threshold": "0.2",
+      "histology": "AIS",
+      "n": 12,
+      "median_unassigned": 0.6829254079254079,
+      "sensitive_majority": 11
+    },
+    {
+      "threshold": "0.2",
+      "histology": "LUAD",
+      "n": 23,
+      "median_unassigned": 0.7207792207792207,
+      "sensitive_majority": 23
+    },
+    {
+      "threshold": "0.2",
+      "histology": "MIA",
+      "n": 4,
+      "median_unassigned": 0.6613082237575217,
+      "sensitive_majority": 3
+    },
+    {
+      "threshold": "0.2",
+      "histology": "normal",
+      "n": 23,
+      "median_unassigned": 0.6352040816326531,
+      "sensitive_majority": 20
+    },
+    {
+      "threshold": "0.3",
+      "histology": "AAH",
+      "n": 8,
+      "median_unassigned": 0.41441725710679556,
+      "sensitive_majority": 4
+    },
+    {
+      "threshold": "0.3",
+      "histology": "AIS",
+      "n": 12,
+      "median_unassigned": 0.4503106000528681,
+      "sensitive_majority": 8
+    },
+    {
+      "threshold": "0.3",
+      "histology": "LUAD",
+      "n": 23,
+      "median_unassigned": 0.6067567567567568,
+      "sensitive_majority": 22
+    },
+    {
+      "threshold": "0.3",
+      "histology": "MIA",
+      "n": 4,
+      "median_unassigned": 0.5113669064748202,
+      "sensitive_majority": 3
+    },
+    {
+      "threshold": "0.3",
+      "histology": "normal",
+      "n": 23,
+      "median_unassigned": 0.46938775510204084,
+      "sensitive_majority": 18
+    }
+  ],
+  "primary_sensitive_units": 62,
+  "sensitivity_sensitive_units": 55,
+  "component_readiness": [
+    {
+      "recipient": "AT2-like",
+      "patients_with_matched_component_records": 23,
+      "patient_ids": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "status": "record availability only; includes observed zeros; not a cell-floor, state comparability, precision or response-endpoint eligibility declaration"
+    },
+    {
+      "recipient": "Fibroblasts",
+      "patients_with_matched_component_records": 23,
+      "patient_ids": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "status": "record availability only; includes observed zeros; not a cell-floor, state comparability, precision or response-endpoint eligibility declaration"
+    }
+  ],
+  "response_endpoint_in_component_table": false,
+  "remaining_model_contract": "Need an aligned, frozen, predictor-disjoint recipient response; state/coverage and independent-unit precision check; primary alternative-ligand comparison and a fixed held-out evaluation. Unknown-cell attribution does not by itself prohibit a model explicitly conditional on assigned macrophages.",
+  "no_fits": true
+}

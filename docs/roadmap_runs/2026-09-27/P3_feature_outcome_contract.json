@@ -1,0 +1,45 @@
+{
+  "schema": "roadmap-P3-feature-nomination/v1",
+  "status": "Feature/outcome nomination fixed for planning; no launchable predictive cohort or power specification",
+  "selection_exposure": "Source signals were inspected in prior A1 work; this is explicitly source-informed, not a pre-data discovery claim",
+  "primary_feature": {
+    "gene": "SFTPC",
+    "mark": "H3K27ac",
+    "control": "matched H3",
+    "assembly": "T2T-CHM13v2.0",
+    "chrom": "chr8",
+    "start_0based": 22430327,
+    "end_0based_exclusive": 22432327,
+    "measurement": "log2(mean CPM mark / mean CPM H3), exact interval integration; both cover >=80% and have positive means; no pseudocount",
+    "interpretation": "Local relative enrichment, not absolute/global histone modification or causal regulation"
+  },
+  "biological_rationale": "Test whether regulatory retention/loss of an AT2 identity locus adds information beyond early RNA about a later mature descendant outcome; it may simply track existing RNA, which is the explicit rival",
+  "baseline_features": [
+    "early SFTPC RNA",
+    "early AGER RNA",
+    "early CDKN1A RNA",
+    "pre-exposure viable input and declared design variables"
+  ],
+  "outcome": {
+    "level": "lineage contribution",
+    "primary": "Viable lineage-labelled descendants meeting independently fixed AT1 protein and morphology criteria per 1000 labelled input cells, after a fixed AT1 differentiation regime",
+    "required_criteria": "AGER and late-AT1 CAV1 protein plus flattened AT1-compatible morphology; thresholds fixed with external positive/negative controls before outcome comparison. PDPN/HOPX alone is insufficient.",
+    "time": "One regime-specific later time must be fixed from independent protocol evidence before candidate data are scored; none is inferred from an RNA snapshot",
+    "secondary": [
+      "absolute surviving traced descendants",
+      "mature fraction among surviving descendants"
+    ],
+    "function": "Separate functional assay required for a repair-function claim"
+  },
+  "linkage": "Sibling aliquots or lineage-linked preparations with parent line, donor, isolation and time recorded; destructive chromatin and fate are not measured in the same cell",
+  "prediction_test": "Training-only fixed RNA/design baseline versus baseline plus this one feature; held-out parent line/donor for transport, with within-line preparation validation labelled separately; compare absolute error and calibration",
+  "open_launch_fields": [
+    "eligible linked cohort",
+    "regime/time",
+    "independent-unit precision and sample-size justification",
+    "training/validation specification and multiplicity",
+    "assay assembly/coverage compatibility"
+  ],
+  "stop": "Do not fit until all open fields are resolved. A different assembly or endpoint requires an explicit amendment, not silent transfer.",
+  "design_amendment": "Before any new scores or model: late-marker requirement clarified from Choi Figure 7 while constructing P5; no existing results changed."
+}

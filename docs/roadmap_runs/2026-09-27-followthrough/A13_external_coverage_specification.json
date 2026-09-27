@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-09-27T08:47:13.751263+00:00",
+  "cohort": "GSE122960 author Figure 1 browser",
+  "annotation_url": "https://sqlifts.fsm.northwestern.edu/public/resources/fig1/meta.tsv",
+  "labels": {
+    "epithelial": "AT2 Cells",
+    "fibroblast": "Fibroblasts",
+    "myeloid": "Macrophages"
+  },
+  "floors": [
+    50,
+    30,
+    100
+  ],
+  "unit": "author SubjectID; condition kept; no pooling across subjects",
+  "rule": "each exact single label reaches floor; no substituting pooled epithelium, monocytes, other ILD or another fibroblast state",
+  "threshold": 10,
+  "scope": "coverage only; diagnosis/subject crosswalk must be explicit before combining disease groups or fitting; no inference or expression score"
+}

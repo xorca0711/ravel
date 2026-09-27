@@ -1,5 +1,14 @@
 # A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand
 
+**New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
+
+**Current interpretation and gate, 27 September 2026:** read the
+[dated correction](reports/INTERPRETATION_AUDIT_2026-09-27.md). The parent test
+remains blocked; unknown biological independence does not pass its gate. The
+side-branch supports marker enrichment, not purity, and leaves epithelial-state
+mediation unresolved. The weak-bound label below is the preserved historical
+decision, not equivalence or exclusion of the rival.
+
 **Status, 27 September 2026: proposed, and the rival-2 side-branch has run.** The question
 itself is still a proposal and still has no result of its own. What has run is the bounded
 side-branch the owner authorized, which addresses one rival and is not a test of A15: read
@@ -94,7 +103,7 @@ That is a proposal in [RATIONALE.md](RATIONALE.md), not authorized work.
 
 The `scripts/` and `tables/rival2/` directories belong to the side-branch only. **The A15
 question itself still has no computed result**, and nothing may be computed for it until a
-dataset clears the stage 1 gate in [PLAN.md](PLAN.md), which no public deposit does.
+dataset clears the stage 1 gate in [PLAN.md](PLAN.md), which no candidate in the recorded search did.
 
 ## Seven things a later session must not do
 

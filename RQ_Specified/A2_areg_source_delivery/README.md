@@ -1,14 +1,15 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
-**Status, 27 September 2026: all six stages complete, and leg 2 has since been read.**
-Start with the [synthesis](reports/STAGE5_SYNTHESIS.md), then the
-[depth-standardised leg 2](reports/LEG2_DEPTH_STANDARDISED_RESULTS.md). Leg 1 found no
-movement in the Areg arm and a large consistent decrease in the epithelial Itgb6 arm. Leg 2
-was refused by the frozen depth rule it inherited; putting its measure on a common molecule
-budget brought the depth coupling from 0.770 and 0.412 down to 0.232 and 0.341, which lets
-the rule pass the pair, and the correlation then falls from 0.433 at nominal p 0.044 to
-0.293 at p 0.186. The rule was protecting against depth, and there was nothing behind it. The history below is preserved because the first freeze was
-withdrawn before anything was scored.
+**New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
+
+**Current interpretation, 27 September 2026:** both descriptive legs and the
+depth sensitivity are complete. Read the [audit correction](reports/INTERPRETATION_AUDIT_2026-09-27.md)
+before the historical [synthesis](reports/STAGE5_SYNTHESIS.md) and
+[depth report](reports/LEG2_DEPTH_STANDARDISED_RESULTS.md). The donor estimate is
+positive and inconclusive (rho 0.293, nominal p 0.186), not no coupling. The
+ITGB6 association remains a lead; no zero AREG contribution or causal route is
+established. The correction also removes the claimed necessity of a 100-molecule
+rerun. Original reports, estimates and frozen records remain unchanged.
 
 **Earlier status, before the legs ran: audited, then narrowed by its own audit. Nothing
 scored.** No endpoint has been computed in either dataset named below, and no claim row
@@ -21,11 +22,10 @@ authority on what stage 3 may do. The [stage 1 audit](reports/STAGE1_AUDIT.md), 
 unedited. The second freeze is provisional pending owner review, and stage 3 is not
 authorized.
 
-**The decisive finding.** These fibroblasts transcribe AREG at 9.846 mean log2 CPM in
-99.2 per cent of plate-3 wells, above the mouse epithelial Areg the knockout removes
-within its own compartment. The recipient supplies the ligand, so removing the
-epithelial source cannot establish necessity, and the screen can at most bound an
-increment.
+**Measurement constraint.** Recipient AREG RNA is present in this screen.
+Its protein supply and activity were not measured, and separately normalized
+compartment RNA cannot quantify relative ligand supply. Partial source perturbation
+and potential recipient supply leave the epithelial contribution unresolved.
 
 This analysis replaces A2's abundance question with a delivery question. The
 register card is [A2](../../RESEARCH_QUESTIONS.md#a2); the biology and the closed
@@ -71,16 +71,16 @@ Two legs follow, each able to fail alone:
 ## What the screen can and cannot separate
 
 The screen perturbs the mouse epithelium only and leaves the human fibroblasts
-unedited, with reads assigned by species. Removing mouse Areg removes the **epithelial
-source** of AREG, while the fibroblasts' own AREG remains. Removing epithelial EGFR
-removes epithelial reception, with ERBB2 as its heterodimer partner; ERBB3 and ERBB4
-bind neuregulins rather than AREG, so they are perturbation controls and not tests of
-AREG reception, and Erbb4 has no receptor to remove in this compartment at all.
-Removing epithelial ITGB6 removes epithelial TGF-beta activation.
+unedited, with reads assigned by species. Targeting mouse Areg challenges a candidate
+epithelial ligand source while recipient AREG remains unperturbed. Egfr/Erbb2 and
+Erbb3/Erbb4 arms target distinct receptor machinery; they are not interchangeable
+tests of AREG reception. Undetected Erbb4 RNA does not prove absent receptor protein.
+Targeting epithelial ITGB6 perturbs a candidate activator; TGF-beta activation
+was not measured in this screen.
 
-Those contrasts separate an epithelial source contribution from epithelial reception
-and from epithelial TGF-beta activation. They do **not** separate delivery from
-abundance, because a single well holds one source compartment and no spatial variation.
+The arms distinguish targeted genes and compartments, but do not directly quantify
+source protein supply, receptor engagement or TGF-beta activation. They also do not
+separate delivery from abundance: the design provides no controlled spatial variation.
 A positive result is equally consistent with the abundance version. The five remaining
 axis targets sit on plate 3 with one well per target in each of its four units, which
 is forced by the design rather than chosen.
@@ -88,7 +88,7 @@ is forced by the design rather than chosen.
 ## What the gate found
 
 Stage 1 passed all seven stop rules, so the test can run, and it constrained the
-freeze in four ways. Erbb4 is not expressed in the perturbed compartment, so it is
+freeze in four ways. Erbb4 RNA was not detected by the screened measure, so it is
 dropped from the discriminating set. Egfr sits near the detection floor, so its
 contrast is weaker than Erbb2 or Erbb3. Fibroblast depth spans four orders of
 magnitude across the 240 plate-3 wells, and all four Areg wells sit above their unit

@@ -1,0 +1,1688 @@
+{
+  "accession": "GSE132771",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132771/soft/GSE132771_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:32:40.736116+00:00",
+  "raw_sha256": "ae74ed89d771a4a0b33ae145698d21ea44f857d9cd65aca56d4843111128c537",
+  "series": {
+    "!Series_title": [
+      "Single cell RNA-sequencing of normal and fibrotic lungs in mouse and human"
+    ],
+    "!Series_geo_accession": [
+      "GSE132771"
+    ],
+    "!Series_pubmed_id": [
+      "32317643"
+    ],
+    "!Series_summary": [
+      "We performed scRNA-seq of cells obtained with a protocol designed to capture all of the collagen-producing cells from normal and fibrotic mouse and human lungs."
+    ],
+    "!Series_overall_design": [
+      "We induced lung fibrosis by treating two Col1a1-GFP reporter mice with bleomycin, and harvested lungs on day 14 after treatment. Two untreated Col1a1-GFP mice were used as control. After tissue dissociation, GFP+ cells and GFP- cells were sorted, and their single cell libraries were generated using 10x Genomics 3' v2 system. For human samples, we sorted lineage (CD31, CD45, EPCAM, CD235a)- cells and all lung cells (CD235a-) from three normal, three IPF, and two scleroderma lungs."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Tatsuya,,Tsukui",
+      "Kai,H,Sun",
+      "Michael,A,Matthay",
+      "Paul,J,Wolters",
+      "Dean,,Sheppard"
+    ],
+    "!Series_sample_id": [
+      "GSM3891612",
+      "GSM3891613",
+      "GSM3891614",
+      "GSM3891615",
+      "GSM3891616",
+      "GSM3891617",
+      "GSM3891618",
+      "GSM3891619",
+      "GSM3891620",
+      "GSM3891621",
+      "GSM3891622",
+      "GSM3891623",
+      "GSM3891624",
+      "GSM3891625",
+      "GSM3891626",
+      "GSM3891627",
+      "GSM3891628",
+      "GSM3891629",
+      "GSM3891630",
+      "GSM3891631",
+      "GSM3891632",
+      "GSM3891633",
+      "GSM3891634",
+      "GSM3891635"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE132nnn/GSE132771/suppl/GSE132771_RAW.tar"
+    ],
+    "!Series_platform_taxid": [
+      "9606",
+      "10090"
+    ],
+    "!Series_sample_taxid": [
+      "9606",
+      "10090"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM3891612",
+      "!Sample_title": [
+        "Bleo1_GFPp"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891612"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "genotype/variation: Col1a1-GFP reporter",
+        "treatment: Bleomycin",
+        "sorted cell type: GFP+",
+        "individual identifier: Bleomycin1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891612/suppl/GSM3891612_Bleo1_GFPp_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891612/suppl/GSM3891612_Bleo1_GFPp_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891612/suppl/GSM3891612_Bleo1_GFPp_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891613",
+      "!Sample_title": [
+        "Bleo2_GFPp"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891613"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "genotype/variation: Col1a1-GFP reporter",
+        "treatment: Bleomycin",
+        "sorted cell type: GFP+",
+        "individual identifier: Bleomycin2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891613/suppl/GSM3891613_Bleo2_GFPp_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891613/suppl/GSM3891613_Bleo2_GFPp_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891613/suppl/GSM3891613_Bleo2_GFPp_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891614",
+      "!Sample_title": [
+        "Bleo1_GFPn"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891614"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "genotype/variation: Col1a1-GFP reporter",
+        "treatment: Bleomycin",
+        "sorted cell type: GFP-",
+        "individual identifier: Bleomycin1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891614/suppl/GSM3891614_Bleo1_GFPn_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891614/suppl/GSM3891614_Bleo1_GFPn_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891614/suppl/GSM3891614_Bleo1_GFPn_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891615",
+      "!Sample_title": [
+        "Bleo2_GFPn"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891615"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "genotype/variation: Col1a1-GFP reporter",
+        "treatment: Bleomycin",
+        "sorted cell type: GFP-",
+        "individual identifier: Bleomycin2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891615/suppl/GSM3891615_Bleo2_GFPn_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891615/suppl/GSM3891615_Bleo2_GFPn_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891615/suppl/GSM3891615_Bleo2_GFPn_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891616",
+      "!Sample_title": [
+        "UT1_GFPp"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891616"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "genotype/variation: Col1a1-GFP reporter",
+        "treatment: Untreated",
+        "sorted cell type: GFP+",
+        "individual identifier: Untreted1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891616/suppl/GSM3891616_UT1_GFPp_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891616/suppl/GSM3891616_UT1_GFPp_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891616/suppl/GSM3891616_UT1_GFPp_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891617",
+      "!Sample_title": [
+        "UT2_GFPp"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891617"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "genotype/variation: Col1a1-GFP reporter",
+        "treatment: Untreated",
+        "sorted cell type: GFP+",
+        "individual identifier: Untreted2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891617/suppl/GSM3891617_UT2_GFPp_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891617/suppl/GSM3891617_UT2_GFPp_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891617/suppl/GSM3891617_UT2_GFPp_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891618",
+      "!Sample_title": [
+        "UT1_GFPn"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891618"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "genotype/variation: Col1a1-GFP reporter",
+        "treatment: Untreated",
+        "sorted cell type: GFP-",
+        "individual identifier: Untreted1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891618/suppl/GSM3891618_UT1_GFPn_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891618/suppl/GSM3891618_UT1_GFPn_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891618/suppl/GSM3891618_UT1_GFPn_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891619",
+      "!Sample_title": [
+        "UT2_GFPn"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891619"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Mus musculus"
+      ],
+      "!Sample_taxid_ch1": [
+        "10090"
+      ],
+      "!Sample_characteristics_ch1": [
+        "genotype/variation: Col1a1-GFP reporter",
+        "treatment: Untreated",
+        "sorted cell type: GFP-",
+        "individual identifier: Untreted2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891619/suppl/GSM3891619_UT2_GFPn_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891619/suppl/GSM3891619_UT2_GFPn_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891619/suppl/GSM3891619_UT2_GFPn_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891620",
+      "!Sample_title": [
+        "NML1_Lin"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891620"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Normal",
+        "sorted cell type: Lineage-",
+        "individual identifier: Normal1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891620/suppl/GSM3891620_NML1_Lin_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891620/suppl/GSM3891620_NML1_Lin_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891620/suppl/GSM3891620_NML1_Lin_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891621",
+      "!Sample_title": [
+        "NML1_All"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891621"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Normal",
+        "sorted cell type: All cells",
+        "individual identifier: Normal1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891621/suppl/GSM3891621_NML1_All_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891621/suppl/GSM3891621_NML1_All_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891621/suppl/GSM3891621_NML1_All_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891622",
+      "!Sample_title": [
+        "NML2_Lin"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891622"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Normal",
+        "sorted cell type: Lineage-",
+        "individual identifier: Normal2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891622/suppl/GSM3891622_NML2_Lin_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891622/suppl/GSM3891622_NML2_Lin_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891622/suppl/GSM3891622_NML2_Lin_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891623",
+      "!Sample_title": [
+        "NML2_All"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891623"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Normal",
+        "sorted cell type: All cells",
+        "individual identifier: Normal2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891623/suppl/GSM3891623_NML2_All_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891623/suppl/GSM3891623_NML2_All_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891623/suppl/GSM3891623_NML2_All_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891624",
+      "!Sample_title": [
+        "NML3_Lin"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891624"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Normal",
+        "sorted cell type: Lineage-",
+        "individual identifier: Normal3"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891624/suppl/GSM3891624_NML3_Lin_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891624/suppl/GSM3891624_NML3_Lin_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891624/suppl/GSM3891624_NML3_Lin_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891625",
+      "!Sample_title": [
+        "NML3_All"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891625"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Normal",
+        "sorted cell type: All cells",
+        "individual identifier: Normal3"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891625/suppl/GSM3891625_NML3_All_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891625/suppl/GSM3891625_NML3_All_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891625/suppl/GSM3891625_NML3_All_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891626",
+      "!Sample_title": [
+        "IPF1_Lin"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891626"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Idiopathic pulmonary fibrosis (IPF)",
+        "sorted cell type: Lineage-",
+        "individual identifier: IPF1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891626/suppl/GSM3891626_IPF1_Lin_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891626/suppl/GSM3891626_IPF1_Lin_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891626/suppl/GSM3891626_IPF1_Lin_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891627",
+      "!Sample_title": [
+        "IPF1_All"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891627"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Idiopathic pulmonary fibrosis (IPF)",
+        "sorted cell type: All cells",
+        "individual identifier: IPF1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891627/suppl/GSM3891627_IPF1_All_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891627/suppl/GSM3891627_IPF1_All_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891627/suppl/GSM3891627_IPF1_All_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891628",
+      "!Sample_title": [
+        "IPF2_Lin"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891628"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Idiopathic pulmonary fibrosis (IPF)",
+        "sorted cell type: Lineage-",
+        "individual identifier: IPF2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891628/suppl/GSM3891628_IPF2_Lin_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891628/suppl/GSM3891628_IPF2_Lin_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891628/suppl/GSM3891628_IPF2_Lin_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891629",
+      "!Sample_title": [
+        "IPF2_All"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891629"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Idiopathic pulmonary fibrosis (IPF)",
+        "sorted cell type: All cells",
+        "individual identifier: IPF2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891629/suppl/GSM3891629_IPF2_All_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891629/suppl/GSM3891629_IPF2_All_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891629/suppl/GSM3891629_IPF2_All_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891630",
+      "!Sample_title": [
+        "IPF3_Lin"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891630"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Idiopathic pulmonary fibrosis (IPF)",
+        "sorted cell type: Lineage-",
+        "individual identifier: IPF3"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891630/suppl/GSM3891630_IPF3_Lin_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891630/suppl/GSM3891630_IPF3_Lin_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891630/suppl/GSM3891630_IPF3_Lin_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891631",
+      "!Sample_title": [
+        "IPF3_All"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891631"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Idiopathic pulmonary fibrosis (IPF)",
+        "sorted cell type: All cells",
+        "individual identifier: IPF3"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891631/suppl/GSM3891631_IPF3_All_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891631/suppl/GSM3891631_IPF3_All_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891631/suppl/GSM3891631_IPF3_All_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891632",
+      "!Sample_title": [
+        "SCD1_Lin"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891632"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Scleroderma",
+        "sorted cell type: Lineage-",
+        "individual identifier: Scleroderma1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891632/suppl/GSM3891632_SCD1_Lin_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891632/suppl/GSM3891632_SCD1_Lin_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891632/suppl/GSM3891632_SCD1_Lin_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891633",
+      "!Sample_title": [
+        "SCD1_All"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891633"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Scleroderma",
+        "sorted cell type: All cells",
+        "individual identifier: Scleroderma1"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891633/suppl/GSM3891633_SCD1_All_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891633/suppl/GSM3891633_SCD1_All_genes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891633/suppl/GSM3891633_SCD1_All_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891634",
+      "!Sample_title": [
+        "SCD2_Lin"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891634"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Scleroderma",
+        "sorted cell type: Lineage-",
+        "individual identifier: Scleroderma2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891634/suppl/GSM3891634_SCD2_Lin_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891634/suppl/GSM3891634_SCD2_Lin_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891634/suppl/GSM3891634_SCD2_Lin_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    },
+    {
+      "accession": "GSM3891635",
+      "!Sample_title": [
+        "SCD2_All"
+      ],
+      "!Sample_geo_accession": [
+        "GSM3891635"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Lung"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "disease diagnosis: Scleroderma",
+        "sorted cell type: All cells",
+        "individual identifier: Scleroderma2"
+      ],
+      "!Sample_molecule_ch1": [
+        "total RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Lung tissues were minced into 1 x 1 x 1 mm pieces and digested with protease solution (Collagenase A, Dispase II, DNase I in RPMI with 10 mM HEPES) at 37\u00b0C for 60 min with trituration every 20 min. Cells were stained with antibodies. For murine samples, Col-GFP+ or Col-GFP- cells were sorted. For human samples, lineage (CD31, CD45, CD235a, EPCAM)- cells, or all cells (CD235a-) were sorted. Approximately 10,000 sorted cells were loaded onto 10x Genomics Chromium controller.",
+        "Single cell libraries were generated using Chromium Single Cell 3' v2 Reagent Kit (10x Genomics) according to the manufacturer's protocol. The libraries were sequenced on Illumina HiSeq 4000 for murine samples or NovaSeq 6000 for human samples."
+      ],
+      "!Sample_data_processing": [
+        "Sequencing data were demultiplexed, aligned to the mouse genome mm10 or human genome GRCh38, and UMI-collapsed with the Cell Ranger toolkit (version 2.0 or 3.0, 10X Genomics).",
+        "Genome_build: mm10 (mouse), GRCh38 (human)",
+        "Supplementary_files_format_and_content: barcodes.tsv: barcodes",
+        "Supplementary_files_format_and_content: genes.tsv: genes",
+        "Supplementary_files_format_and_content: matrix.mtx: gene-barcode matrix"
+      ],
+      "!Sample_instrument_model": [
+        "Illumina NovaSeq 6000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891635/suppl/GSM3891635_SCD2_All_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891635/suppl/GSM3891635_SCD2_All_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3891nnn/GSM3891635/suppl/GSM3891635_SCD2_All_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE132771"
+      ]
+    }
+  ]
+}

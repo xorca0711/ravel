@@ -1,0 +1,171 @@
+{
+  "status": "counts_complete",
+  "source_url": "https://sqlifts.fsm.northwestern.edu/public/resources/fig1/meta.tsv",
+  "raw_sha256": "67d2ce1121504896f6fa0e9fba799926e8931236212ef84fbbc63538947efddb",
+  "cells": 76070,
+  "subjects": 16,
+  "per_subject": [
+    {
+      "subject": "Donor 1",
+      "condition": "donor",
+      "epithelial": 2249,
+      "fibroblast": 12,
+      "myeloid": 2466,
+      "complete_50": false,
+      "complete_30": false,
+      "complete_100": false
+    },
+    {
+      "subject": "Donor 2",
+      "condition": "donor",
+      "epithelial": 1980,
+      "fibroblast": 45,
+      "myeloid": 1080,
+      "complete_50": false,
+      "complete_30": true,
+      "complete_100": false
+    },
+    {
+      "subject": "Donor 3",
+      "condition": "donor",
+      "epithelial": 1705,
+      "fibroblast": 30,
+      "myeloid": 2595,
+      "complete_50": false,
+      "complete_30": true,
+      "complete_100": false
+    },
+    {
+      "subject": "Donor 4",
+      "condition": "donor",
+      "epithelial": 3006,
+      "fibroblast": 25,
+      "myeloid": 1477,
+      "complete_50": false,
+      "complete_30": false,
+      "complete_100": false
+    },
+    {
+      "subject": "Donor 5",
+      "condition": "donor",
+      "epithelial": 2707,
+      "fibroblast": 52,
+      "myeloid": 1595,
+      "complete_50": true,
+      "complete_30": true,
+      "complete_100": false
+    },
+    {
+      "subject": "Donor 6",
+      "condition": "donor",
+      "epithelial": 1473,
+      "fibroblast": 36,
+      "myeloid": 1468,
+      "complete_50": false,
+      "complete_30": true,
+      "complete_100": false
+    },
+    {
+      "subject": "Donor 7",
+      "condition": "donor",
+      "epithelial": 4197,
+      "fibroblast": 71,
+      "myeloid": 1551,
+      "complete_50": true,
+      "complete_30": true,
+      "complete_100": false
+    },
+    {
+      "subject": "Donor 8",
+      "condition": "donor",
+      "epithelial": 3299,
+      "fibroblast": 32,
+      "myeloid": 2464,
+      "complete_50": false,
+      "complete_30": true,
+      "complete_100": false
+    },
+    {
+      "subject": "HP",
+      "condition": "fibrosis",
+      "epithelial": 475,
+      "fibroblast": 26,
+      "myeloid": 991,
+      "complete_50": false,
+      "complete_30": false,
+      "complete_100": false
+    },
+    {
+      "subject": "IPF 1",
+      "condition": "fibrosis",
+      "epithelial": 163,
+      "fibroblast": 32,
+      "myeloid": 714,
+      "complete_50": false,
+      "complete_30": true,
+      "complete_100": false
+    },
+    {
+      "subject": "IPF 2",
+      "condition": "fibrosis",
+      "epithelial": 25,
+      "fibroblast": 72,
+      "myeloid": 552,
+      "complete_50": false,
+      "complete_30": false,
+      "complete_100": false
+    },
+    {
+      "subject": "IPF 3",
+      "condition": "fibrosis",
+      "epithelial": 298,
+      "fibroblast": 28,
+      "myeloid": 1983,
+      "complete_50": false,
+      "complete_30": false,
+      "complete_100": false
+    },
+    {
+      "subject": "IPF 4",
+      "condition": "fibrosis",
+      "epithelial": 1808,
+      "fibroblast": 11,
+      "myeloid": 2857,
+      "complete_50": false,
+      "complete_30": false,
+      "complete_100": false
+    },
+    {
+      "subject": "PM-ILD",
+      "condition": "fibrosis",
+      "epithelial": 140,
+      "fibroblast": 95,
+      "myeloid": 3048,
+      "complete_50": true,
+      "complete_30": true,
+      "complete_100": false
+    },
+    {
+      "subject": "SSc-ILD 1",
+      "condition": "fibrosis",
+      "epithelial": 750,
+      "fibroblast": 13,
+      "myeloid": 3053,
+      "complete_50": false,
+      "complete_30": false,
+      "complete_100": false
+    },
+    {
+      "subject": "SSc-ILD 2",
+      "condition": "fibrosis",
+      "epithelial": 2311,
+      "fibroblast": 33,
+      "myeloid": 3186,
+      "complete_50": false,
+      "complete_30": true,
+      "complete_100": false
+    }
+  ],
+  "primary_complete": 3,
+  "schema_correction": "Browser internal key SubjectID is exported as Subject ID; first attempt refused before counts, corrected literal header without changing selection or thresholds."
+}

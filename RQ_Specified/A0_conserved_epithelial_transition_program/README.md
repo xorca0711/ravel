@@ -1,5 +1,11 @@
 # A0 — Conserved epithelial transition programme
 
+**Audit clarification, 27 September 2026:** the current `pilot_v1` and the earlier
+repair-first exploratory pilot have different cohorts, intestinal state definitions
+and scoring instruments. Both reuse repair/Haber sources; they are not independent
+cohort replications. Keep their estimates and stop decisions separate. See the
+[complete rationale audit](../../docs/audits/2026-09-27-rq-rationale/REPORT.md).
+
 **Scientific pilot complete, 26 September 2026: primary intestinal transfer not
 supported.** Discovery in 9 repair mice and 11 developmental donors produced a
 frozen 50-gene programme. In 3 intestinal mice, the intermediate exceeded stem

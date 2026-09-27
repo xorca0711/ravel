@@ -1,5 +1,7 @@
 # A10: epithelial and niche programmes against measured organoid growth
 
+**New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
+
 Question-specific work for [A10](../../RESEARCH_QUESTIONS.md#a10). The canonical
 hypothesis stays in the register.
 

@@ -1,0 +1,1560 @@
+{
+  "created_utc": "2026-09-27T04:56:20.205155+00:00",
+  "baseline_commit": "329c07c2c7752b861ef94ffd5bd23575daae9d2b",
+  "scope": "Tracked-file census; Python syntax and JSON parse checks; RQ document inventory; exact depth-estimand probe. No raw-matrix rerun.",
+  "tracked_files": 2620,
+  "census": [
+    {
+      "root": ".github",
+      "suffix": ".yml",
+      "files": 1
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": "",
+      "files": 1
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".R",
+      "files": 11
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".csv",
+      "files": 46
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".gz",
+      "files": 2
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".in",
+      "files": 2
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".json",
+      "files": 201
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".log",
+      "files": 2
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".md",
+      "files": 90
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".png",
+      "files": 31
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".py",
+      "files": 127
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".source",
+      "files": 2
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".svg",
+      "files": 28
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".tsv",
+      "files": 219
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".txt",
+      "files": 9
+    },
+    {
+      "root": "RQ_Specified",
+      "suffix": ".zip",
+      "files": 2
+    },
+    {
+      "root": "Research Article",
+      "suffix": "",
+      "files": 2
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".R",
+      "files": 9
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".csv",
+      "files": 590
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".gz",
+      "files": 5
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".html",
+      "files": 1
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".json",
+      "files": 237
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".md",
+      "files": 119
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".pdf",
+      "files": 27
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".png",
+      "files": 267
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".py",
+      "files": 152
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".svg",
+      "files": 23
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".tsv",
+      "files": 6
+    },
+    {
+      "root": "Research Article",
+      "suffix": ".txt",
+      "files": 27
+    },
+    {
+      "root": "analysis",
+      "suffix": "",
+      "files": 2
+    },
+    {
+      "root": "analysis",
+      "suffix": ".R",
+      "files": 2
+    },
+    {
+      "root": "analysis",
+      "suffix": ".csv",
+      "files": 69
+    },
+    {
+      "root": "analysis",
+      "suffix": ".json",
+      "files": 42
+    },
+    {
+      "root": "analysis",
+      "suffix": ".md",
+      "files": 7
+    },
+    {
+      "root": "analysis",
+      "suffix": ".png",
+      "files": 21
+    },
+    {
+      "root": "analysis",
+      "suffix": ".ps1",
+      "files": 1
+    },
+    {
+      "root": "analysis",
+      "suffix": ".py",
+      "files": 52
+    },
+    {
+      "root": "analysis",
+      "suffix": ".svg",
+      "files": 13
+    },
+    {
+      "root": "analysis",
+      "suffix": ".txt",
+      "files": 8
+    },
+    {
+      "root": "archive",
+      "suffix": ".md",
+      "files": 2
+    },
+    {
+      "root": "archive",
+      "suffix": ".pdf",
+      "files": 1
+    },
+    {
+      "root": "archive",
+      "suffix": ".py",
+      "files": 1
+    },
+    {
+      "root": "docs",
+      "suffix": ".json",
+      "files": 12
+    },
+    {
+      "root": "docs",
+      "suffix": ".md",
+      "files": 27
+    },
+    {
+      "root": "docs",
+      "suffix": ".png",
+      "files": 1
+    },
+    {
+      "root": "docs",
+      "suffix": ".py",
+      "files": 2
+    },
+    {
+      "root": "docs",
+      "suffix": ".tsv",
+      "files": 1
+    },
+    {
+      "root": "docs",
+      "suffix": ".txt",
+      "files": 103
+    },
+    {
+      "root": "root",
+      "suffix": "",
+      "files": 3
+    },
+    {
+      "root": "root",
+      "suffix": ".cff",
+      "files": 1
+    },
+    {
+      "root": "root",
+      "suffix": ".md",
+      "files": 10
+    }
+  ],
+  "python_files_parsed": 334,
+  "json_files_parsed": 492,
+  "research_questions": [
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "A10",
+    "A11",
+    "A12",
+    "A13",
+    "A14",
+    "A15"
+  ],
+  "enabling_question": "A12-S1",
+  "rq_document_inventory": [
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/CONTINUATION_PLAN.md",
+      "sha256": "bdbdef65b0981dcbbe35f43e16c0c7bc19a2fd032bd8d836286ded4de689646f",
+      "headings": [
+        "A0 continuation: eligibility before expression discovery",
+        "References checked before launch",
+        "Recovery sequence and limits",
+        "Metadata-driven amendment before discovery"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/DATASET_CANDIDATES.md",
+      "sha256": "c4c58850b1d0533367f4cd2fd63772dcdf13531d120b24aace36abf1273d4f93",
+      "headings": [
+        "A0 dataset candidates and selection requirements",
+        "Current audit findings",
+        "Required roles",
+        "Existing resources with known limitations",
+        "Metadata to capture for each candidate",
+        "Relevant local and primary sources"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/EXPLORATORY_PLAN.md",
+      "sha256": "46bfad13abfcb6b2c60ee8afb3bb91f49a9f8d84201d1fe70a38420520388f77",
+      "headings": [
+        "A0 exploratory expression pilot \u2014 staged amendment",
+        "E1 \u2014 Establish a reproducible repair-associated program",
+        "E2 \u2014 Determine what the source signal measures",
+        "E3 \u2014 Frozen descriptive transfer",
+        "E4 \u2014 Closeout",
+        "Dated post-transfer addition \u2014 E3a (2026-09-26)",
+        "Publication context"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/EXPLORATORY_REPRODUCING.md",
+      "sha256": "1e72ad6bb9dfc1164522e6585cad32820aec98f2fa97832d925ed93f2eede2bc",
+      "headings": [
+        "Reproduce the separate repair-first exploratory analysis",
+        "Inputs and reproduction",
+        "Review the E1 gate in EXPLORATORY_PLAN.md before proceeding.",
+        "Review the E2 gate before proceeding.",
+        "The recorded E3 decision justified this explicit post-transfer sensitivity.",
+        "Visually review changed PNGs and update exploratory_figure_review.json."
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/PLAN.md",
+      "sha256": "c7fda5a50fc526f26ed963a603a03a265c3921901356d9a68266ed6370022695",
+      "headings": [
+        "A0 pilot analysis plan",
+        "1. Question, hypotheses and limits",
+        "2. Three-setting design",
+        "3. Dataset eligibility",
+        "4. Execution sequence",
+        "P0 \u2014 Audit and select datasets",
+        "P1 \u2014 Freeze state definitions and analysis settings",
+        "P2 \u2014 Discover one candidate program in D1 and D2",
+        "P3 \u2014 Score and transfer",
+        "P4 \u2014 Specificity and technical sensitivity",
+        "5. Decision criteria",
+        "6. Outputs and work boundaries",
+        "7. Evidence and provenance"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/README.md",
+      "sha256": "786836f28e952902643cc2619f5a3a951656467701635d1289a23cdbec7efec3",
+      "headings": [
+        "A0 \u2014 Conserved epithelial transition programme",
+        "Biological question and sequence",
+        "Historical feasibility audit",
+        "Separate repair-first exploratory analysis"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/REPRODUCING.md",
+      "sha256": "23647cc5efb908b268dac4fa655c37c74652ae7cdbe4e2ff788b5c509a65589a",
+      "headings": [
+        "Reproduce the A0 scientific pilot",
+        "Inputs and environment",
+        "Run in a separate reproduction checkout",
+        "Commit the valid frozen_programme.json before this step.",
+        "Historical audit"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/TRANSFER_EXECUTION.md",
+      "sha256": "5d8fb2be2e065831990ce33f2d38a6f13927af28a1f03c607cdd7fd32186b805",
+      "headings": [
+        "Frozen programme transfer: execution details"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/figures/pilot_v1/README.md",
+      "sha256": "9d45fed801ab34a15c9a24d40e0538da3af98f301a09ba86f722779749ffe963",
+      "headings": [
+        "A0 pilot figures",
+        "1. Biological-unit coverage",
+        "2. Discovery gates",
+        "3. Selected gene effects",
+        "4. Frozen transfer"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/reports/EXPLORATORY_PILOT_REPORT.md",
+      "sha256": "6cdb6baf813f18cb742f20c12c3790011ee501ee64ffdf6068a169ccc410ef6b",
+      "headings": [
+        "A0 \u2014 Executed exploratory expression pilot",
+        "What was authorized and what was completed",
+        "E1 \u2014 Does a reproducible repair-associated signal exist?",
+        "E2 \u2014 Could technical effects or generic responses explain it?",
+        "E3 \u2014 Does the frozen candidate transfer?",
+        "E3a \u2014 Was the smaller intestinal lead robust enough to pursue?",
+        "Hypothesis status and next investment decision",
+        "Artifacts and reproducibility"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/reports/P0_ELIGIBILITY_REPORT.md",
+      "sha256": "bf8522f5ac1fb449cb3ba829b2c59531ed4f03db2d432c77e464098a78327813",
+      "headings": [
+        "A0 \u2014 Initial dataset eligibility audit",
+        "Decision",
+        "What was executed",
+        "D1: repair datasets",
+        "Existing influenza cohort: insufficient coverage",
+        "Bleomycin alternative: promising across time, not selected",
+        "D2: developmental cohort remains unresolved",
+        "V1: intestinal atlas has recoverable IDs but incomplete eligibility",
+        "Stage status and next actions",
+        "Reproduction"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_REPORT.md",
+      "sha256": "d5375a105c1de77579dd6495f7bd5c7e20009f48974086e6bb62d86d4c21845e",
+      "headings": [
+        "A0 \u2014 Feasibility closeout",
+        "What was executed",
+        "Repair: a usable candidate, with a specified estimand",
+        "Development: why pooling by age is misleading",
+        "Transfer: unresolved animal identities",
+        "What additional sampling might require",
+        "Remaining dependencies and next executable step",
+        "Reproducibility and limits"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_V1_RESULTS.md",
+      "sha256": "2e0a84c7aa869603f761779bfb5b43d11eadd22db6e20a8c1e91c579ee3a2b3a",
+      "headings": [
+        "A0 scientific pilot: lung discovery passes; intestinal transfer does not",
+        "Why this is the relevant test",
+        "Cohorts and prospective decisions",
+        "Discovery",
+        "Frozen transfer",
+        "Adaptive stop and interpretation",
+        "Verification and artifacts"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A0_conserved_epithelial_transition_program/reports/SOURCE_RECOVERY.md",
+      "sha256": "ee5efdfe708d653b708e14f55c2dfd06449017fee61393262357480a662e0897",
+      "headings": [
+        "A0: recovery of an executable pilot",
+        "Biological sequence",
+        "Candidate decisions",
+        "Selected measurement scope",
+        "Retrieval and execution limits"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/FOLLOWUP_PLAN.md",
+      "sha256": "21bf8f8b7c303906ce6f2457e45578cfcb2fed4231bf4dfdd95cb404bea6a41d",
+      "headings": [
+        "A10 follow-up: design diagnostics before model extensions",
+        "Existing references checked before launch",
+        "Phase A: fixed diagnostic scope",
+        "Adaptive gates after the diagnostic"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/PLAN.md",
+      "sha256": "e97ebac14fcba15d5551b6b158fe3405d10c0d2baace896412c1eb1b95bb1457",
+      "headings": [
+        "A10 analysis plan: epithelial and niche programmes against measured organoid growth",
+        "Structure",
+        "Stage 1: the identity and join audit",
+        "Stage 2: what gets frozen, and why",
+        "Stage 3: fitting, and how it is evaluated",
+        "What this plan refuses to do",
+        "Order of work"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/RATIONALE.md",
+      "sha256": "6224b5ab56b613cfbce59e173c9c4bb2dd0e9e28474de92d7c7dded3d08d5ccb",
+      "headings": [
+        "A10 rationale: connect compartment RNA to measured organoid size",
+        "Biological premise",
+        "What this design measures",
+        "Question and logical sequence",
+        "Connections to A5, A11 and niche questions",
+        "Source-paper boundary",
+        "Current conclusion"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/README.md",
+      "sha256": "4f3e109efb0258fb1a73523121b928af4e5e2c948a1e9c86b69f2136a8ee1988",
+      "headings": [
+        "A10: epithelial and niche programmes against measured organoid growth",
+        "Why this question is worth the effort",
+        "Where the work stands",
+        "The gate in one sentence",
+        "Layout",
+        "Two things a later session must not do"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_DESIGN_REPORT.md",
+      "sha256": "49f15a38cb2bf6042f27b5632c0e7aebb832f2f86c4bc99825e63c46eba11d59",
+      "headings": [
+        "A10 follow-up design diagnostic",
+        "Findings that change the next analysis",
+        "Gate decisions"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md",
+      "sha256": "759e4c3d4105767b8b25e496b48d9b4d944625d9d173890bb291207aa05944af",
+      "headings": [
+        "A10 follow-up: more than the nominated proliferation scores, limited absolute transfer",
+        "What the design audit resolved",
+        "The comparison was fixed before fitting",
+        "Results",
+        "Relative gain does not establish good absolute prediction",
+        "Biological interpretation and what was pruned",
+        "Verification and reproduction"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/reports/PUBLIC_DATA_SEARCH.md",
+      "sha256": "1e9c3223e9ad309362c362acf4cfa7081f8c687a32879ae09d8700a0ce01fea3",
+      "headings": [
+        "A10 public data search: is an independent cohort available",
+        "Conclusion",
+        "What was searched",
+        "Nearest GEO candidates, and why each falls short",
+        "What this means for the plan",
+        "What was not done"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/reports/STAGE1_IDENTITY_AUDIT.md",
+      "sha256": "e26745667c0899cfd23ce3c273166d8d5a24e0420a3a023c40e287f3c74f3f87",
+      "headings": [
+        "A10 stage 1: identity and join audit",
+        "Original audit, 25 September 2026",
+        "Verdict",
+        "What joined, and what needed normalizing",
+        "Why the biological unit is unresolved",
+        "Two further items left open, deliberately",
+        "Read assignment is not clean, and it bounds the design",
+        "One target dominates the replication",
+        "What stage 2 must now assume",
+        "What was not done"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/reports/STAGE3_FIT_REPORT.md",
+      "sha256": "5d3d92bd7e514757c42108fe32eb0b09f8f87d9a4255ff8c0ede8d953e3098b5",
+      "headings": [
+        "A10 stage 3: nested models against measured organoid growth",
+        "Original report, 25 September 2026",
+        "Verdict",
+        "What was fitted",
+        "Why the fibroblast increment cannot be reported as support",
+        "The finding that matters most: the baseline does not transfer",
+        "The assay validation passes",
+        "What this does and does not establish",
+        "Why no stronger reading is available",
+        "What would change the answer",
+        "Provenance"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/reports/STAGE4_REVISED_REPORT.md",
+      "sha256": "de2f23ad58e7e241d056440e2cb7bc5cc61ba1af9960ffe36041ad1aecdae864",
+      "headings": [
+        "A10 stage 4: the revised specification, and what it changes",
+        "Original report, 25 September 2026",
+        "Verdict",
+        "The supported result passes every mandatory check",
+        "The earlier fibroblast finding was a specification artefact",
+        "The limitation that qualifies the result",
+        "Secondary blocks: nothing added",
+        "What is now established, and what is not",
+        "Why the first analysis was not wrong to report",
+        "What would strengthen this next"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/PLAN.md",
+      "sha256": "1b83b8887c24480582f5b99cb49db05c7510162344e622de93a3f68251b309cc",
+      "headings": [
+        "A11 pre-registered test in the Kim 2020 cohort",
+        "The question",
+        "Why this cohort, and why not the obvious one",
+        "Populations",
+        "Eligibility",
+        "Scoring uses the discovery's own instrument",
+        "Primary test",
+        "Secondary tests",
+        "Power, stated before any score",
+        "What this cannot show",
+        "Order of work",
+        "Gate outcome",
+        "Correction made before scoring",
+        "Current amendment before scoring"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/README.md",
+      "sha256": "922a53d04b9f6d9a9177207624811e1c17653c70c17296398c782e734a63026a",
+      "headings": [
+        "A11: lesion-associated programme beyond shared plasticity",
+        "Why the test moved to a new cohort",
+        "Layout",
+        "Reproduce the completed test"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/superseded_power_label_AT2/README.md",
+      "sha256": "f28d411d180ce6c8aee4f1bba068d387fb801a5678b63d08837c12b4ae4581fc",
+      "headings": [
+        "Superseded power calculation"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md",
+      "sha256": "9634e8d6c72af2127c58124c619a0170f05781c02fea81a18b96f783c837d769",
+      "headings": [
+        "A13: fibroblast programmes beyond macrophage interleukin-1 beta",
+        "What the gate asked, and the answer",
+        "Two things a later session should know",
+        "Layout"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md",
+      "sha256": "1fb9ad8fc26c1b14543184dee15d6e6ea55b9c22a5fdfaa6bf89a824345e9cce",
+      "headings": [
+        "A13 coverage: the gate is not met, and the reason is definitional",
+        "Verdict",
+        "The instrument reproduces",
+        "The Kim cohort, counted for the first time",
+        "Why the primary count is zero, and why that matters",
+        "Under the wider definition, fibroblasts bind",
+        "What this establishes and what it does not",
+        "Proposed wording, not graded here",
+        "What would open the gate"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/PLAN.md",
+      "sha256": "3b34884b4a396e5fcc8ffab9450e51a7552e2067875175828b8581772941c834",
+      "headings": [
+        "A15 analysis plan: what has to exist before anything is computed",
+        "Structure",
+        "Stage 0: registration, which is what this folder contains",
+        "Stage 1: the eligibility gate, frozen before any candidate is opened",
+        "Stage 2: what a freeze would have to fix, declared now so it cannot drift",
+        "Stage 3: execution, not authorized",
+        "Stage 4: report and register",
+        "A separately labelled side-branch, if the owner authorizes it",
+        "What this plan refuses to do",
+        "Order of work"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/RATIONALE.md",
+      "sha256": "fe1debdc1e1dddea290dae7d1d6229bfc886db6a1919eba6c353f05254bca904",
+      "headings": [
+        "A15 rationale: why the epithelial integrin arm is a separate question",
+        "The proposition, stated so it can fail",
+        "The mechanism, and how old it is",
+        "What A2 measured, and exactly how far it goes",
+        "Rivals",
+        "The clinical record, which bounds any answer this question could give",
+        "What is genuinely open, given all of the above",
+        "Connections and boundaries",
+        "Other genomic layers, with feasibility verdicts"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md",
+      "sha256": "917482046effd34a18bc1b8002c3a875460ccaa50528adad77663f86af4e1027",
+      "headings": [
+        "A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand",
+        "The question in one sentence",
+        "What it stands on, and what that is worth",
+        "Register readiness: blocked, and honest about why",
+        "Layout",
+        "Seven things a later session must not do"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/PUBLIC_DATA_SEARCH.md",
+      "sha256": "e208ff1b8a88994b3002e5c2b2a582ffebe24a3e21575c652c9187333fbfd814",
+      "headings": [
+        "A15 public data search: can any public dataset test the proposal",
+        "Conclusion",
+        "What was searched, with counts",
+        "The six nearest candidates, and why each falls short",
+        "Why the readout is the binding constraint, not the design",
+        "What this means for the question",
+        "What was not done"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/REGISTER_DECISION.md",
+      "sha256": "c9d9cf93de313f58d4bc66a5dee0174397d34e94d99757bd44ba72a8c189a28d",
+      "headings": [
+        "Does the Itgb6 lead deserve its own register question",
+        "The criteria used",
+        "The case for",
+        "The case against, which is real",
+        "How the case is resolved",
+        "Alternatives considered and rejected",
+        "What was deliberately not done",
+        "What the owner is being asked to decide"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_FREEZE_V1_WITHDRAWN.md",
+      "sha256": "b794b2cc44222b0e23b84411baf07d1dc1620982afb2387e3870d6ee1717df68",
+      "headings": [
+        "Why the first rival-2 freeze is withdrawn, before anything was scored",
+        "The fatal reasons",
+        "1. The primary endpoint could not measure what rival 2 asserts",
+        "2. The score is an abundance proxy, not a state measure",
+        "3. No perturbation-engagement check, while only the null was called informative",
+        "4. Purity was disclaimed when the deposit makes it computable",
+        "5. The A0 set is sensitive to handling and to contamination, neither of which is recorded",
+        "6. The ratio rule was quantifiably biased toward its own favourable verdict",
+        "The serious reasons that also forced changes",
+        "One correction to the review, recorded because it changes the remedy",
+        "What v2 keeps from v1"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_FREEZE_V2_WITHDRAWN.md",
+      "sha256": "869191073540342eacfad0829c630e1cc85bc6c17e61129f9103521e78b59198",
+      "headings": [
+        "Why the second rival-2 freeze is withdrawn, also before anything was scored",
+        "1. The omnibus statistic confounded location with dispersion",
+        "2. The Hodges-Lehmann interval under-covered",
+        "3. Three defects v2 introduced",
+        "4. The branch names overclaimed",
+        "5. One further defect, found by execution rather than review",
+        "What v3 keeps"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_RESULTS.md",
+      "sha256": "910df9b3c8e7c6a38412f344331dd02641e3ca80036c220f085060c9f53632dd",
+      "headings": [
+        "A15 rival-2 side-branch: what the GSE190821 epithelial arm shows",
+        "The result in one paragraph",
+        "The engagement control worked, and that is reproduction",
+        "The epithelium's own programme did not separate",
+        "The immunoprecipitation was pure, and comparably so in both arms",
+        "What this establishes, and what it does not",
+        "Two things worth recording against the next design",
+        "Comparison against the source paper, in the declared order",
+        "The negative-results path, and why it is not taken yet",
+        "Register position"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_STAGE1_AUDIT.md",
+      "sha256": "aef216f5a91ada6ae8b09d87b9ab2df046f89570a6a7756ad9a7e40ed20bc6b5",
+      "headings": [
+        "A15 rival-2 stage 1: can GSE190821 carry the bounding comparison",
+        "Verdict",
+        "The arms, recomputed from the deposit",
+        "Finding 1: the column names cannot identify the antibody control",
+        "Finding 2: A1 has already used this deposit, and left this contrast untouched",
+        "Finding 3: the source paper is Auyeung 2022, and it may already report this contrast",
+        "Endpoint coverage, against the deposited gene index",
+        "Power, computed exactly before any value is read",
+        "What stage 2 must therefore fix"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_STAGE1_ERRATUM.md",
+      "sha256": "da7200b88fb812ba0be64e71f66791fef06f746ab38f2499f931f2e7fba43413",
+      "headings": [
+        "Erratum to the rival-2 stage 1 audit and its addendum",
+        "Correction 1: the deposit does state genotype, dose and schedule",
+        "Correction 2: immunoprecipitation purity is computable, not unverifiable",
+        "What remains genuinely unstated, corrected list",
+        "What is not corrected, because it was right"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/JOBS.md",
+      "sha256": "fdb108130522b5d887e787dd9ef9e83be0b59b7b4b2eb207ec6b742a3ff9c8c6",
+      "headings": [
+        "A1 execution jobs",
+        "Latest: three requested remaining avenues",
+        "Previous adaptive closure batch",
+        "Previous authorized robustness batch",
+        "Preserved second-batch job record"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/LINEAGE_AUDIT.md",
+      "sha256": "462541d95f14461c133172fa6a6d28cf108b81f7a8463259e87311f00b15ef21",
+      "headings": [
+        "Lineage and functional evidence: critique and revised analysis",
+        "Why the previous stages were inadequate",
+        "Established experiments and what their labels mean",
+        "Revised stage 3: test observed lineage endpoints first",
+        "Revised stage 4: test an endpoint, then corroborate its phenotype",
+        "First execution batch and claim ceiling",
+        "Execution outcome",
+        "Second-batch resolution, 25 September 2026"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/NEXT_SESSION.md",
+      "sha256": "706aa0d0f8c801c85a3e0770807fbbd096fb84c521c15e57d8ecee8c34505069",
+      "headings": [
+        "A1 \u2014 current handoff after regulatory and outcome continuation",
+        "Historical closure handoff (superseded above)",
+        "Historical robustness handoff (superseded above)",
+        "Historical second-batch handoff (superseded by the status above)",
+        "Historical pre-verification handoff (superseded by the status above)",
+        "Start here",
+        "Completed computation to reuse",
+        "Jobs, in execution order",
+        "J1 \u2014 finish IRE1\u03b1 sensitivity verification and interpretation",
+        "J2 \u2014 finish direct histone verification and biological interpretation",
+        "J3 \u2014 finish the normal-differentiation methylation reference",
+        "J4 \u2014 finalize PATS tracing; isolate the histone hold",
+        "J5 \u2014 resolve the TIGIT ATAC biological units",
+        "J6 \u2014 resolve CD44 counts versus genotype and mouse",
+        "J7 \u2014 recover HPCS descendant data independently",
+        "J8 \u2014 synthesize and deliver the batch",
+        "Environment and commands",
+        "Prompt to paste into the next session"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/PLAN.md",
+      "sha256": "3b69b4c614972817c700ba091733d497cf4378f9c59453f2c5dbe93f2fc0654b",
+      "headings": [
+        "A1 analysis plan: regulatory state, lineage and phenotype",
+        "Question and possible answers",
+        "What each assay can establish",
+        "Dataset roles and first execution order",
+        "Stage 0: metadata and identity contract",
+        "Stage 1: define states without circular validation",
+        "Stage 2: chromatin and direct modifications",
+        "Stage 3: measured origin, state passage and descendants",
+        "Stage 4: functional endpoints linked to the state",
+        "Stage 5: cross-study synthesis and decision rules",
+        "Figure plan",
+        "Deliverables and stopping points"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/README.md",
+      "sha256": "08a42cad4209497b32326734c327b7a168eb9e7c346374442d96ba560cff54b7",
+      "headings": [
+        "A1: Distinguishing transitional epithelial states"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/STUDY_MAP.md",
+      "sha256": "6c1ed949ac2d1587a0734436fe28b397fbee34e5dc316d25e0ac8d3d2c7e2bd8",
+      "headings": [
+        "A1 study and assay map",
+        "Direct regulatory measurements",
+        "Lineage, dynamics, protein and function"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/config/README.md",
+      "sha256": "4b7fe358354c7aee9f1bbb8709d1eb3d39061ebc57f3631990bc1e9d1cc82f40",
+      "headings": [
+        "Prospective contracts"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/config/evidence_closure_scope.md",
+      "sha256": "3d69d6f5a72df13c64d0cbc67a65a57367c856cdd5fd78fafe790dcf83f7ddb9",
+      "headings": [
+        "A1 adaptive evidence-closure scope"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/config/hpcs_metadata_recovery.md",
+      "sha256": "49c9440bd4744e2505c8accecf42e3d9e92b2cebca6fc46f1654907b62f31580",
+      "headings": [
+        "HPCS bounded metadata recovery"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/config/regulatory_fate_scope.md",
+      "sha256": "e34e454c72b4ff97caa2dbac61c0f6bd70497cb7667079ea195be909ea751305",
+      "headings": [
+        "A1 regulatory-to-outcome continuation \u2014 25 September 2026"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/config/robustness_annotation_scope.md",
+      "sha256": "a4b7fa8d690b2fbe3a969126c08ed2729bb7de53449c8db2eb956ff93c66fa75",
+      "headings": [
+        "HPCS annotation eligibility refinement"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/config/second_batch.md",
+      "sha256": "24abf6f43a44ac11b3e89b6de29b61d16dbf5a4c9298927434bb7b7753de0462",
+      "headings": [
+        "A1 second batch: frozen scope and decisions",
+        "IRE1\u03b1 stability",
+        "Direct marks and identity audits"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/figures/README.md",
+      "sha256": "b3256114f5ab26aa269fd9b224fc08a04dc501c5456d712ef6d0ed19e867777f",
+      "headings": [
+        "A1 figure gallery",
+        "Latest: regulatory perturbation and context-dependent outcomes",
+        "Previous: CD44 context and HPCS confidence abstention",
+        "Previous: source influence and alternative transcript starts",
+        "Preserved earlier batches",
+        "IRE1\u03b1 omission and batch sensitivity",
+        "Direct histone profiles and controls",
+        "Normal-differentiation methylation-domain reference",
+        "HPCS trace-linked descendant source composition",
+        "IRE1\u03b1 perturbation: sample structure and treatment effects",
+        "Predefined molecular endpoints",
+        "Measured PATS lineage endpoint reconstruction",
+        "Descriptive ATAC and protein-sorted RNA profiles",
+        "Remaining figure plan"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/metadata/README.md",
+      "sha256": "4001c95dd5d6ca96517d5ee41d7cb42746211a186c708cd1717c5eb679580f1c",
+      "headings": [
+        "Metadata evidence and unresolved identities",
+        "Holds that must be resolved before the affected contrast"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/ANALYSIS_REFERENCE_MAP.md",
+      "sha256": "ad8aa8a2e86f405635793a8a96a87ecbef6ed7748223c901467d4e6f18a5fb9d",
+      "headings": [
+        "A1 analysis references and logical progression",
+        "Regulatory and outcome continuation (25 September 2026)"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md",
+      "sha256": "4db20f8609fe9c8b5cc54065068b48cba3d36923c86a590fcca4be7845414ca9",
+      "headings": [
+        "A1 adaptive evidence closure",
+        "Read the evidence as a sequence",
+        "CD44: identity recovery unlocks the paired question",
+        "HPCS: biological map recovered, validation interpretation corrected",
+        "Adaptive decisions for every remaining branch",
+        "Verification and reproducibility"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/FIRST_BATCH_REPORT.md",
+      "sha256": "59bd73cf83a28b8b365609d40ca9e4eefd6f883026ed71604d8aa4d18ad43ee0",
+      "headings": [
+        "A1 first analysis batch \u2014 25 September 2026",
+        "What ran",
+        "IRE1\u03b1: specified comparison and observed results",
+        "PATS: measured endpoint, correct denominator",
+        "What remains before stronger conclusions",
+        "Execution evidence"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/PREFLIGHT.md",
+      "sha256": "f2000c3f750a3fe897663bd7a306fe9d5a15e2079b7ddb86f440e8221f48c350",
+      "headings": [
+        "A1 catalog and design preflight"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/REGULATORY_FATE_REPORT.md",
+      "sha256": "5606400f3b90235c7f6a8677a167d5a1222e0843e9aec6f6c82322790e0dae99",
+      "headings": [
+        "A1: identities, regulatory evidence and measured outcomes",
+        "What changed",
+        "1. HPCS: exact animals recovered, design limits retained",
+        "2. Regulatory comparisons: a newly resolved perturbation design",
+        "3. Regulatory perturbation and differentiation are context-dependent",
+        "AP-1: nested source values reveal a regional interaction",
+        "Tsutsui: plasticity and program suppression are separate experiments",
+        "TP53: shared selected RNA changes do not establish one origin or state",
+        "Adaptive decisions and remaining requirements",
+        "Verification and provenance"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/REMAINING_ANALYSIS_OPTIONS.md",
+      "sha256": "13d72c64b9e0f9ea9221533334c19ca549174c8b28f73732959e7cf58a9ecbe4",
+      "headings": [
+        "A1: useful follow-up analysis and what it can resolve",
+        "What requires missing information or new measurements"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/ROBUSTNESS_REPORT.md",
+      "sha256": "bfd62f2b5fc82e0a3b527f5144c21e2fea8dc948a3411f44cd6853d793a6bcce",
+      "headings": [
+        "A1 robustness batch: source influence and promoter dependence",
+        "What changed in the interpretation",
+        "Design identifiability",
+        "HPCS source influence",
+        "Annotation robustness and its boundary",
+        "Alternative transcript starts",
+        "Verification and next decisions"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/SECOND_BATCH_REPORT.md",
+      "sha256": "e1824aa4f35195009a3f160ca8cbc1017c1c4001ab99094065cabd54803753c6",
+      "headings": [
+        "A1 second batch: regulatory profiles and perturbation stability",
+        "What this batch establishes",
+        "J1 \u2014 IRE1\u03b1 sensitivity verified",
+        "J2 \u2014 direct histone profiles verified",
+        "J3 \u2014 normal-differentiation methylation reference verified",
+        "J4 \u2014 PATS timing resolved; deposited histone scaling held",
+        "J5\u2013J6 \u2014 identity audit complete, inference held",
+        "J7 \u2014 descendant source composition recovered; biological-unit inference held",
+        "J8 \u2014 synthesis and next discriminating evidence",
+        "Evidence and reproducibility"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/SOURCE_REQUEST_DRAFTS.md",
+      "sha256": "e9237f307be6cacfeebf4ec3a2da1ee8c6634fca18fc33e154f564c6265b351f",
+      "headings": [
+        "Prepared requests for evidence that remains unavailable",
+        "TIGIT / HPCS 2020 data team",
+        "HPCS 2026 data team",
+        "PATS / MintChIP data team",
+        "Tsutsui p300/CBP data team",
+        "TP53 / Mdm2 preprint data team"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/SPECIFICATION_STATUS.md",
+      "sha256": "c34186f56af6a21598675d7fa491c21d34b4480188dc09813a5945bb5e6d8c30",
+      "headings": [
+        "Specification status \u2014 25 September 2026"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/scripts/README.md",
+      "sha256": "b77466238ef8acaea983f4a39f81b7ab64b1922ae87ca83fe372bb3184a52433",
+      "headings": [
+        "Execution scope",
+        "Latest robustness batch",
+        "Earlier execution scope",
+        "Verified second batch",
+        "Adaptive evidence closure (scripts 26\u201331)",
+        "First real analysis batch",
+        "Regulatory and outcome continuation"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/PLAN.md",
+      "sha256": "f02980e9b7858be7b1fd1ff18294af0844e4a2fa7ca76a5cac4def3edb874881",
+      "headings": [
+        "A2 analysis plan: does removing the epithelial ligand move the fibroblast",
+        "Structure",
+        "Stage 0: the framing, which is what this commit contains",
+        "Stage 1: instrument, eligibility and power, before any endpoint exists",
+        "Stage 2: what gets frozen, and why",
+        "Stage 3: leg 1, the within-plate contrast",
+        "Stage 4: leg 2, recipient licensing in an existing cohort",
+        "Stage 5: report and register",
+        "What this plan refuses to do",
+        "Order of work"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/RATIONALE.md",
+      "sha256": "1fc8b861c3a123051c5665a37dd439190c1155cf1fae892eb5751108eb8e32d5",
+      "headings": [
+        "A2 rationale: why AREG source matters through delivery, not through abundance",
+        "The question the register used to ask, and why it is closed",
+        "The mechanism, including the part the first draft dropped",
+        "The hypothesis, stated so it can fail",
+        "Rivals, with the two that were missing",
+        "What the audit found, and what it costs",
+        "What the screen cannot do, stated before it runs",
+        "Why leg 2 uses a cohort that already returned a null",
+        "Connections and boundaries",
+        "Other genomic layers, with feasibility verdicts"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/README.md",
+      "sha256": "ae4be2b1e03a1f3dd561866a2ff3d52d0ed15314649501d8f204fb185360f755",
+      "headings": [
+        "A2: does the fibroblast response to AREG depend on delivery or on abundance",
+        "The hypothesis in one sentence",
+        "Why the previous question is closed",
+        "What makes the question testable now",
+        "What the screen can and cannot separate",
+        "What the gate found",
+        "Layout",
+        "Three things a later session must not do"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/reports/LEG2_DEPTH_STANDARDISED_RESULTS.md",
+      "sha256": "9e64a6b35dd243cbfe024eb648354f75e8838523f5ff015bf37736a32b726325",
+      "headings": [
+        "A2 leg 2, second pass: the pair becomes readable, and reads null",
+        "Verdict",
+        "What changed",
+        "Why this is evidence that the first result was depth",
+        "The limitation this pass exposed, which is not small",
+        "What this establishes and what it does not",
+        "Proposed claim wording, not graded here"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/reports/STAGE1_AUDIT.md",
+      "sha256": "f8dec49107246f2fffecced24da775c6e03936bb087ddddd53f322f579a6cf3a",
+      "headings": [
+        "A2 stage 1: instrument, eligibility and power",
+        "Verdict",
+        "Item 1: the plate-3 layout is as the contract states",
+        "Item 2: the knockouts validate, except that one receptor is not there",
+        "Item 3: both endpoints are fully covered",
+        "Item 4: the covariate audit is the most consequential result",
+        "Item 5: the test is still blind",
+        "Item 6: what the design can and cannot reach",
+        "Item 7: the cross-species assumption is carried, not settled",
+        "What stage 2 must absorb"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/reports/STAGE2_FREEZE.md",
+      "sha256": "2b661f76505ee5aaba7f1d1aa8f125c579c5da091196920a2dbe98b774a3113d",
+      "headings": [
+        "A2 stage 2: the test is frozen",
+        "What did not change",
+        "The test, in full",
+        "The five changes stage 1 forced, with their reasons",
+        "What stage 3 may and may not do"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/reports/STAGE2_WITHDRAWN.md",
+      "sha256": "4d44527e04ea2e65e765a590d3a75a7623ad993ba20bb288dc88ce2a071312d2",
+      "headings": [
+        "A2 stage 2: the first freeze is withdrawn",
+        "How this was found",
+        "The five reasons",
+        "What replaces it",
+        "Corrections to the stage 1 report",
+        "What this costs, stated plainly",
+        "Authorization"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/reports/STAGE3_LEG1_RESULTS.md",
+      "sha256": "ba503625de23c643887f2c4ebfed26dd4cae5619671073874581b1afeaea8d05",
+      "headings": [
+        "A2 stage 3, leg 1: the epithelial source contribution, measured",
+        "Verdict",
+        "Scale, so the effects can be read",
+        "The Areg contrast, against the screen's own controls",
+        "What that null does not mean",
+        "The result that was not predicted: epithelial Itgb6",
+        "The depth diagnostic the freeze required",
+        "A post hoc check that separates Itgb6 from Erbb3",
+        "What this establishes and what it proposes"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/reports/STAGE4_LEG2_RESULTS.md",
+      "sha256": "e87a467732ea92feb213f79d0f4e1cca845a3ca04e49af889c2a2cbd70c12c33",
+      "headings": [
+        "A2 stage 4, leg 2: refused by its own control",
+        "Verdict",
+        "What was computed",
+        "Why the pair is refused",
+        "Two things the leg did establish",
+        "The population the mechanism actually used",
+        "What would make this leg readable",
+        "What this does and does not establish"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md",
+      "sha256": "1d14f3b27bfd8f3badbe1627a8d50f000749e558af3889bbdcf67d3f3f9983b8",
+      "headings": [
+        "A2 stage 5: what the question now stands on",
+        "The short version",
+        "Leg 1, in the organoid screen",
+        "Leg 2, in the fibrosis cohort",
+        "What is established, and what is not",
+        "Claim wording proposed for the register, not graded here",
+        "The negative-results path, and why it is not taken yet",
+        "Other genomic layers, with feasibility verdicts",
+        "Register readiness"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/BIOLOGICAL_LOGIC.md",
+      "sha256": "e07b49780d297e34227cd01a962cb7c0db6c749139a894fdb483ddf5242639f2",
+      "headings": [
+        "Biological logic linking A5 and A11",
+        "Start from the biological problem",
+        "Logical sequence and why each step is needed",
+        "What the shared partition means",
+        "A5: remove test-cohort selection from the primary gene set",
+        "A11: preserve the distinction between association and addition",
+        "How the completed A1 evidence constrains both questions",
+        "Evidence and correction record"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/PLAN.md",
+      "sha256": "a7a3436a1fcfbb974fa97ed81321189aac0ffc7348729304a32f59eb812bb450",
+      "headings": [
+        "Shared epithelial component contract: prospective plan",
+        "Why a shared contract rather than a merged question",
+        "What the contract decides, and what it must not",
+        "Stages",
+        "Stage 1: source the missing developmental signature",
+        "Stage 2: freeze three disjoint modules",
+        "Stage 3: report coverage before scoring anything",
+        "Stage 4: stop for the owner's decision",
+        "Species, units and multiplicity",
+        "Prohibited readings",
+        "Next-layer proposal"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/README.md",
+      "sha256": "33ee99907d9de37f6bc81ebd2935b61403044dc8e8871bf039c75efac682a8c0",
+      "headings": [
+        "Shared epithelial component contract (A5 and A11)",
+        "What this is",
+        "What this is not",
+        "Stage 1 outcome",
+        "Layout",
+        "Historical evidence at contract creation"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/config/README.md",
+      "sha256": "0d3753775608622def92851de4d1ad143d7de86a6e664dd31c828bcad1274826",
+      "headings": [
+        "Specification files",
+        "What the specification fixes",
+        "Where membership lives",
+        "Reading order"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md",
+      "sha256": "c5b84c26cb1ea84f12872d2ef91615b471993f066f9dce5b671449d1a194b977",
+      "headings": [
+        "A5/A11 revised tests: results and biological interpretation",
+        "A5: partial developmental-signature recruitment",
+        "A11: report direction, magnitude and biological claim separately",
+        "How the two results fit A1",
+        "Verification and execution record",
+        "What remains scientifically unresolved"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/reports/STAGE1_SOURCE_AUDIT.md",
+      "sha256": "a3007ea1683e5d3d6468a3d51e4cec7fc671729c234428d363f1b3bc0ae8baa7",
+      "headings": [
+        "Stage 1: developmental source audit",
+        "Selection criteria, fixed before searching",
+        "Candidates",
+        "The selected list",
+        "Limitations of this selection",
+        "Biological rival recorded for A5",
+        "Retrieval record",
+        "Interpretation added after the joint review"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/reports/STAGE2_3_REPORT.md",
+      "sha256": "aa0b1481d65b6bcf29fa851bd1ad562b072e871a1496dfeac38d870c94d8b5d2",
+      "headings": [
+        "Stages 2 and 3: frozen modules and eligibility",
+        "Summary",
+        "Stage 2: the frozen modules",
+        "What the two overlaps contain",
+        "How much weight the list overlaps can bear",
+        "Consequence for the joint framing",
+        "Stage 3: eligibility",
+        "Gate 1, assayed source fraction",
+        "Gate 2, complete independent units",
+        "Verdict per question",
+        "Provenance chain",
+        "Instrument check and the refused first attempt",
+        "Limitations",
+        "Stage 4: decisions for the owner",
+        "Next-layer proposals"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/scripts/README.md",
+      "sha256": "842cbc3774ac8086b3af0b6610b4609981949fa4e2a6d91ad7f414b54b1d20ed",
+      "headings": [
+        "Scripts",
+        "Environment"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/sources/README.md",
+      "sha256": "5f36da76de47d5cc286753069e5c62699614493e66d6dcf7da832e4cf38f1a33",
+      "headings": [
+        "Cached source files"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_A11_shared_component_contract/tables/stage3_attempt1_refused/README.md",
+      "sha256": "6487ca22357abec8fc75e99ea0e2885f0751e03d21305e9bab6519a0c9abb62e",
+      "headings": [
+        "Stage 3, first attempt: refused by its own precedent check"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/DATA_AUDIT.md",
+      "sha256": "1dbdedf7713fa5d1ce024156b03b9d26c7192a7fedeaf83dde017102881d8742",
+      "headings": [
+        "A5 data audit: a replicated adult injury time course",
+        "Why adult injury animals are enough now",
+        "The cohort: Strunz et al. 2020, high-resolution epithelial time course",
+        "Units",
+        "Coverage",
+        "Provenance correction after review, before scoring",
+        "Identity is the main rival",
+        "Historical design choices, now fixed in PLAN.md",
+        "A metadata conflict, recorded",
+        "Revised verdict"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/PLAN.md",
+      "sha256": "da2e997c046091904f90091c9b74694cae04aae9f7697a761f094bc16cbadb4a",
+      "headings": [
+        "A5: prospective test of developmental-gene recruitment in adult injury",
+        "Question and prior evidence",
+        "Gene definitions, fixed without Strunz marker selection",
+        "Cohort, population and time",
+        "Depth-matched measurement",
+        "Inference and decisions",
+        "Launch sequence and existing references"
+      ]
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/README.md",
+      "sha256": "b0e56334aff5260f454239b6df0a069bb8e35d68686e6f7046082eaaa9543ab0",
+      "headings": [
+        "A5: developmental-gene recruitment in adult repair",
+        "Reproduce the completed test"
+      ]
+    },
+    {
+      "path": "RQ_Specified/README.md",
+      "sha256": "d54e2484acc04a0f398938356da06114517e61a1a63ca22a5d8221a24c8b3bb2",
+      "headings": [
+        "Research question analyses"
+      ]
+    }
+  ],
+  "finite_population_probes": [
+    {
+      "N": 10,
+      "B": 10,
+      "p": 0.2,
+      "marginal_detection": 0.8926258176000005,
+      "binomial_detection": 0.8926258175999999,
+      "conditional_K_equals_Np": 1.0
+    },
+    {
+      "N": 20,
+      "B": 10,
+      "p": 0.2,
+      "marginal_detection": 0.892625817600001,
+      "binomial_detection": 0.8926258175999999,
+      "conditional_K_equals_Np": 0.956656346749226
+    },
+    {
+      "N": 40,
+      "B": 10,
+      "p": 0.2,
+      "marginal_detection": 0.8926258176000019,
+      "binomial_detection": 0.8926258175999999,
+      "conditional_K_equals_Np": 0.9238937783829425
+    },
+    {
+      "N": 80,
+      "B": 10,
+      "p": 0.2,
+      "marginal_detection": 0.8926258176000039,
+      "binomial_detection": 0.8926258175999999,
+      "conditional_K_equals_Np": 0.9080024654324276
+    }
+  ],
+  "table_schemas": {
+    "RQ_Specified/A0_conserved_epithelial_transition_program/tables/pilot_v1/transfer_unit_differences.tsv": {
+      "columns": [
+        "role",
+        "unit",
+        "endpoint",
+        "difference"
+      ],
+      "rows": 46,
+      "preview": [
+        {
+          "role": "D1",
+          "unit": "D10-E1",
+          "endpoint": "start",
+          "difference": "0.028147644797977156"
+        },
+        {
+          "role": "D1",
+          "unit": "D10-E1",
+          "endpoint": "destination",
+          "difference": "0.02206848903181946"
+        }
+      ]
+    },
+    "RQ_Specified/A2_areg_source_delivery/tables/leg2_depth_correlations.tsv": {
+      "columns": [
+        "budget",
+        "stratum",
+        "x",
+        "y",
+        "donors",
+        "rho",
+        "p_value",
+        "note"
+      ],
+      "rows": 45,
+      "preview": [
+        {
+          "budget": "1000",
+          "stratum": "pooled",
+          "x": "machinery",
+          "y": "activation",
+          "donors": "22",
+          "rho": "0.2931",
+          "p_value": "0.185637",
+          "note": "predictor of interest"
+        },
+        {
+          "budget": "1000",
+          "stratum": "pooled",
+          "x": "epithelial_AREG",
+          "y": "activation",
+          "donors": "22",
+          "rho": "-0.1835",
+          "p_value": "0.413653",
+          "note": "abundance comparator"
+        }
+      ]
+    },
+    "RQ_Specified/A2_areg_source_delivery/tables/stage3_contrasts.tsv": {
+      "columns": [
+        "endpoint",
+        "target",
+        "unit",
+        "library",
+        "well_eligible",
+        "fibroblast_total_counts",
+        "score",
+        "controls_used",
+        "control_mean",
+        "effect_vs_controls",
+        "controls_in_depth_band",
+        "effect_vs_depth_matched_controls",
+        "effect_after_epithelial_adjustment",
+        "interpretable"
+      ],
+      "rows": 48,
+      "preview": [
+        {
+          "endpoint": "activation_score",
+          "target": "AREG",
+          "unit": "3-1",
+          "library": "3-1_F07_AREG",
+          "well_eligible": "yes",
+          "fibroblast_total_counts": "408995",
+          "score": "9.3108",
+          "controls_used": "3",
+          "control_mean": "9.1795",
+          "effect_vs_controls": "0.1313",
+          "controls_in_depth_band": "3",
+          "effect_vs_depth_matched_controls": "0.1313",
+          "effect_after_epithelial_adjustment": "0.172",
+          "interpretable": "yes"
+        },
+        {
+          "endpoint": "activation_score",
+          "target": "AREG",
+          "unit": "3-2",
+          "library": "3-2_F07_AREG",
+          "well_eligible": "yes",
+          "fibroblast_total_counts": "993663",
+          "score": "10.0003",
+          "controls_used": "6",
+          "control_mean": "9.6022",
+          "effect_vs_controls": "0.3981",
+          "controls_in_depth_band": "5",
+          "effect_vs_depth_matched_controls": "0.4136",
+          "effect_after_epithelial_adjustment": "0.4356",
+          "interpretable": "yes"
+        }
+      ]
+    }
+  },
+  "numerical_reaggregations": {
+    "A0_V1": {
+      "start": {
+        "mice": 3,
+        "median_score_points": 0.2693643735564133,
+        "positive_mice": 2,
+        "decision": true
+      },
+      "destination": {
+        "mice": 3,
+        "median_score_points": -0.09140661342003642,
+        "positive_mice": 1,
+        "decision": false
+      }
+    },
+    "A2_primary_correlation": {
+      "budget": "1000",
+      "stratum": "pooled",
+      "x": "machinery",
+      "y": "activation",
+      "donors": "22",
+      "rho": "0.2931",
+      "p_value": "0.185637",
+      "note": "predictor of interest"
+    },
+    "A2_ITGB6": {
+      "readable_units": 3,
+      "median_effect": -0.938
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,2835 @@
+{
+  "accession": "GSE233844",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233844/soft/GSE233844_family.soft.gz",
+  "retrieved_utc": "2026-09-27T08:39:16.116932+00:00",
+  "raw_sha256": "6f3990c0374707b08b364f96888768a279a6ac6168c6d1ed1c5eebd48f96e4c1",
+  "series": {
+    "!Series_title": [
+      "Single-cell profiling reveals immune aberrations in progressive idiopathic pulmonary fibrosis"
+    ],
+    "!Series_geo_accession": [
+      "GSE233844"
+    ],
+    "!Series_pubmed_id": [
+      "38717443"
+    ],
+    "!Series_web_link": [
+      "https://www.atsjournals.org/doi/10.1164/rccm.202306-0979OC"
+    ],
+    "!Series_summary": [
+      "Rationale: Changes in peripheral blood cell populations have been observed but not detailed at single-cell resolution in idiopathic pulmonary fibrosis (IPF).  Objectives: To provide an atlas of the changes in the peripheral immune system in stable and progressive IPF.  Methods: Peripheral blood mononuclear cells (PBMCs) from IPF patients and controls were profiled using 10x Chromium 5\u2019 single-cell RNA sequencing (scRNA-seq). Flow cytometry was used for validation. Protein concentrations of Regulatory T-cells (Tregs) and Monocytes chemoattractants were measured in plasma and lung homogenates from patients and controls.  Measurements and Main Results: Thirty-eight PBMC samples from 25 patients with IPF and 13 matched controls yielded 149,564 cells that segregated into 23 subpopulations, corresponding to all expected peripheral blood cell populations. Classical monocytes were increased in progressive and stable IPF compared to controls (32.1%, 25.2%, 17.9%, respectively, p<0.05). Total lymphocytes were decreased in IPF vs controls, and in progressive vs stable IPF (52.6% vs 62.6%, p=0.035). Tregs were increased in progressive IPF (1.8% vs 1.1%, p=0.007), and were associated with decreased survival (P=0.009 in Kaplan-Meier analysis). Flow cytometry analysis confirmed this finding in an independent cohort of IPF patients. Tregs were also increased in two cohorts of lung scRNA-seq. CCL22 and CCL18, ligands for CCR4 and CCR8 Treg chemotaxis receptors, were increased in IPF.  Conclusions: The single-cell atlas of the peripheral immune system in IPF, reveals an outcome-predictive increase in classical monocytes and Tregs, as well as evidence for a lung-blood immune recruitment axis involving CCL7 (for classical monocytes) and CCL18/CCL22 (for Tregs)."
+    ],
+    "!Series_overall_design": [
+      "38 peripheral blood mononuclear cells (PBMCs) samples from 25 patients with IPF (12 patients with progressive disease and 13 patients with stable disease) and 13 matched control subjects were profiled using 10x Genomics Chromium 5\u2019 single-cell RNA sequencing (scRNA-seq)."
+    ],
+    "!Series_type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "!Series_contributor": [
+      "Avraham,,Unterman",
+      "Amy,Y,Zhao",
+      "Nir,,Neumark",
+      "Jonas,C,Schupp",
+      "Farida,,Ahangari",
+      "Carlos,,CosmeJr",
+      "Prapti,,Sharma",
+      "Jasper,,Flint",
+      "Yan,,Stein",
+      "Changwan,,Ryu",
+      "Genta,,Ishikawa",
+      "Tomokazu,S,Sumida",
+      "Jose,L,Gomez",
+      "Jose,,Herazo-Maya",
+      "Charles,S,DelaCruz",
+      "Erica,L,Herzog",
+      "Naftali,,Kaminski"
+    ],
+    "!Series_sample_id": [
+      "GSM7437857",
+      "GSM7437858",
+      "GSM7437859",
+      "GSM7437860",
+      "GSM7437861",
+      "GSM7437862",
+      "GSM7437863",
+      "GSM7437864",
+      "GSM7437865",
+      "GSM7437866",
+      "GSM7437867",
+      "GSM7437868",
+      "GSM7437869",
+      "GSM7437870",
+      "GSM7437871",
+      "GSM7437872",
+      "GSM7437873",
+      "GSM7437874",
+      "GSM7437875",
+      "GSM7437876",
+      "GSM7437877",
+      "GSM7437878",
+      "GSM7437879",
+      "GSM7437880",
+      "GSM7437881",
+      "GSM7437882",
+      "GSM7437883",
+      "GSM7437884",
+      "GSM7437885",
+      "GSM7437886",
+      "GSM7437887",
+      "GSM7437888",
+      "GSM7437889",
+      "GSM7437890",
+      "GSM7437891",
+      "GSM7437892",
+      "GSM7437893",
+      "GSM7437894"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233844/suppl/GSE233844_RAW.tar"
+    ],
+    "!Series_platform_taxid": [
+      "9606"
+    ],
+    "!Series_sample_taxid": [
+      "9606"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM7437857",
+      "!Sample_title": [
+        "Progressive IPF patient 1"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437857"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 71",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: 0",
+        "dlco% predicted: 41",
+        "fvc% predicted: 56"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437857/suppl/GSM7437857_P01_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437857/suppl/GSM7437857_P01_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437857/suppl/GSM7437857_P01_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437858",
+      "!Sample_title": [
+        "Progressive IPF patient 2"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437858"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 72",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 60",
+        "dlco% predicted: 44",
+        "fvc% predicted: 58"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437858/suppl/GSM7437858_P02_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437858/suppl/GSM7437858_P02_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437858/suppl/GSM7437858_P02_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437859",
+      "!Sample_title": [
+        "Progressive IPF patient 3"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437859"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 72",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 5",
+        "dlco% predicted: 39",
+        "fvc% predicted: 75"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437859/suppl/GSM7437859_P03_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437859/suppl/GSM7437859_P03_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437859/suppl/GSM7437859_P03_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437860",
+      "!Sample_title": [
+        "Progressive IPF patient 4"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437860"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 82",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: 0",
+        "dlco% predicted: 44",
+        "fvc% predicted: 88"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437860/suppl/GSM7437860_P04_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437860/suppl/GSM7437860_P04_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437860/suppl/GSM7437860_P04_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437861",
+      "!Sample_title": [
+        "Progressive IPF patient 5"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437861"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 64",
+        "Sex: Female",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 120",
+        "dlco% predicted: 26",
+        "fvc% predicted: 63"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437861/suppl/GSM7437861_P05_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437861/suppl/GSM7437861_P05_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437861/suppl/GSM7437861_P05_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437862",
+      "!Sample_title": [
+        "Progressive IPF patient 6"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437862"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 75",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 112",
+        "dlco% predicted: 30",
+        "fvc% predicted: 79"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437862/suppl/GSM7437862_P06_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437862/suppl/GSM7437862_P06_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437862/suppl/GSM7437862_P06_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437863",
+      "!Sample_title": [
+        "Progressive IPF patient 7"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437863"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 60",
+        "Sex: Female",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 40",
+        "dlco% predicted: 24",
+        "fvc% predicted: 70"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437863/suppl/GSM7437863_P07_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437863/suppl/GSM7437863_P07_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437863/suppl/GSM7437863_P07_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437864",
+      "!Sample_title": [
+        "Progressive IPF patient 8"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437864"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 71",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 60",
+        "dlco% predicted: 38",
+        "fvc% predicted: 91"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437864/suppl/GSM7437864_P08_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437864/suppl/GSM7437864_P08_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437864/suppl/GSM7437864_P08_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437865",
+      "!Sample_title": [
+        "Progressive IPF patient 9"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437865"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 60",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: 0",
+        "dlco% predicted: 65",
+        "fvc% predicted: 64"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437865/suppl/GSM7437865_P09_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437865/suppl/GSM7437865_P09_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437865/suppl/GSM7437865_P09_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437866",
+      "!Sample_title": [
+        "Progressive IPF patient 10"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437866"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 67",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 37.5",
+        "dlco% predicted: 13",
+        "fvc% predicted: 56"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437866/suppl/GSM7437866_P10_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437866/suppl/GSM7437866_P10_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437866/suppl/GSM7437866_P10_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437867",
+      "!Sample_title": [
+        "Progressive IPF patient 11"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437867"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 76",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 30",
+        "dlco% predicted: 35",
+        "fvc% predicted: 68"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437867/suppl/GSM7437867_P11_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437867/suppl/GSM7437867_P11_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437867/suppl/GSM7437867_P11_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437868",
+      "!Sample_title": [
+        "Progressive IPF patient 12"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437868"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Progressive IPF",
+        "age (years): 79",
+        "Sex: Male",
+        "race/ethnicity: Asian Indian",
+        "smoking: Never",
+        "pack years: 0",
+        "dlco% predicted: 53",
+        "fvc% predicted: 70"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437868/suppl/GSM7437868_P12_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437868/suppl/GSM7437868_P12_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437868/suppl/GSM7437868_P12_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437869",
+      "!Sample_title": [
+        "Stable IPF patient 14"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437869"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 64",
+        "Sex: Female",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 30",
+        "dlco% predicted: 42",
+        "fvc% predicted: 84"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437869/suppl/GSM7437869_S14_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437869/suppl/GSM7437869_S14_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437869/suppl/GSM7437869_S14_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437870",
+      "!Sample_title": [
+        "Stable IPF patient 15"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437870"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 66",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: 0",
+        "dlco% predicted: 43",
+        "fvc% predicted: 58"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437870/suppl/GSM7437870_S15_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437870/suppl/GSM7437870_S15_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437870/suppl/GSM7437870_S15_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437871",
+      "!Sample_title": [
+        "Stable IPF patient 16"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437871"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 76",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 50",
+        "dlco% predicted: 47",
+        "fvc% predicted: 83"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437871/suppl/GSM7437871_S16_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437871/suppl/GSM7437871_S16_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437871/suppl/GSM7437871_S16_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437872",
+      "!Sample_title": [
+        "Stable IPF patient 17"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437872"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 73",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 90",
+        "dlco% predicted: 38",
+        "fvc% predicted: 76"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437872/suppl/GSM7437872_S17_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437872/suppl/GSM7437872_S17_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437872/suppl/GSM7437872_S17_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437873",
+      "!Sample_title": [
+        "Stable IPF patient 18"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437873"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 70",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 14",
+        "dlco% predicted: 36",
+        "fvc% predicted: 65"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437873/suppl/GSM7437873_S18_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437873/suppl/GSM7437873_S18_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437873/suppl/GSM7437873_S18_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437874",
+      "!Sample_title": [
+        "Stable IPF patient 19"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437874"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 82",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: 32",
+        "fvc% predicted: 61"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437874/suppl/GSM7437874_S19_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437874/suppl/GSM7437874_S19_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437874/suppl/GSM7437874_S19_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437875",
+      "!Sample_title": [
+        "Stable IPF patient 20"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437875"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 67",
+        "Sex: Female",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 40",
+        "dlco% predicted: 37",
+        "fvc% predicted: 94"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437875/suppl/GSM7437875_S20_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437875/suppl/GSM7437875_S20_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437875/suppl/GSM7437875_S20_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437876",
+      "!Sample_title": [
+        "Stable IPF patient 21"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437876"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 73",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: 43",
+        "fvc% predicted: 98"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437876/suppl/GSM7437876_S21_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437876/suppl/GSM7437876_S21_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437876/suppl/GSM7437876_S21_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437877",
+      "!Sample_title": [
+        "Stable IPF patient 22"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437877"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 64",
+        "Sex: Female",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: 0",
+        "dlco% predicted: 53",
+        "fvc% predicted: 67"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437877/suppl/GSM7437877_S22_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437877/suppl/GSM7437877_S22_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437877/suppl/GSM7437877_S22_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437878",
+      "!Sample_title": [
+        "Stable IPF patient 23"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437878"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 71",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 50",
+        "dlco% predicted: 52",
+        "fvc% predicted: 65"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437878/suppl/GSM7437878_S23_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437878/suppl/GSM7437878_S23_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437878/suppl/GSM7437878_S23_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437879",
+      "!Sample_title": [
+        "Stable IPF patient 24"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437879"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 76",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 90",
+        "dlco% predicted: 60",
+        "fvc% predicted: 91"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437879/suppl/GSM7437879_S24_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437879/suppl/GSM7437879_S24_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437879/suppl/GSM7437879_S24_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437880",
+      "!Sample_title": [
+        "Stable IPF patient 25"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437880"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 60",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: 15",
+        "dlco% predicted: 28",
+        "fvc% predicted: 62"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437880/suppl/GSM7437880_S25_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437880/suppl/GSM7437880_S25_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437880/suppl/GSM7437880_S25_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437881",
+      "!Sample_title": [
+        "Stable IPF patient 26"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437881"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Stable IPF",
+        "age (years): 67",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: 0",
+        "dlco% predicted: 65",
+        "fvc% predicted: 95"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437881/suppl/GSM7437881_S26_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437881/suppl/GSM7437881_S26_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437881/suppl/GSM7437881_S26_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437882",
+      "!Sample_title": [
+        "Control Subject 27"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437882"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 69",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437882/suppl/GSM7437882_C27_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437882/suppl/GSM7437882_C27_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437882/suppl/GSM7437882_C27_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437883",
+      "!Sample_title": [
+        "Control Subject 29"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437883"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 72",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437883/suppl/GSM7437883_C29_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437883/suppl/GSM7437883_C29_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437883/suppl/GSM7437883_C29_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437884",
+      "!Sample_title": [
+        "Control Subject 30"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437884"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 70",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437884/suppl/GSM7437884_C30_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437884/suppl/GSM7437884_C30_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437884/suppl/GSM7437884_C30_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437885",
+      "!Sample_title": [
+        "Control Subject 31"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437885"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 65",
+        "Sex: Female",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437885/suppl/GSM7437885_C31_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437885/suppl/GSM7437885_C31_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437885/suppl/GSM7437885_C31_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437886",
+      "!Sample_title": [
+        "Control Subject 32"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437886"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 68",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437886/suppl/GSM7437886_C32_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437886/suppl/GSM7437886_C32_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437886/suppl/GSM7437886_C32_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437887",
+      "!Sample_title": [
+        "Control Subject 33"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437887"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 68",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437887/suppl/GSM7437887_C33_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437887/suppl/GSM7437887_C33_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437887/suppl/GSM7437887_C33_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437888",
+      "!Sample_title": [
+        "Control Subject 34"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437888"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 80",
+        "Sex: Female",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437888/suppl/GSM7437888_C34_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437888/suppl/GSM7437888_C34_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437888/suppl/GSM7437888_C34_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437889",
+      "!Sample_title": [
+        "Control Subject 35"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437889"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 72",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437889/suppl/GSM7437889_C35_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437889/suppl/GSM7437889_C35_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437889/suppl/GSM7437889_C35_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437890",
+      "!Sample_title": [
+        "Control Subject 36"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437890"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 76",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437890/suppl/GSM7437890_C36_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437890/suppl/GSM7437890_C36_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437890/suppl/GSM7437890_C36_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437891",
+      "!Sample_title": [
+        "Control Subject 37"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437891"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 71",
+        "Sex: Female",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437891/suppl/GSM7437891_C37_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437891/suppl/GSM7437891_C37_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437891/suppl/GSM7437891_C37_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437892",
+      "!Sample_title": [
+        "Control Subject 38"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437892"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 67",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437892/suppl/GSM7437892_C38_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437892/suppl/GSM7437892_C38_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437892/suppl/GSM7437892_C38_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437893",
+      "!Sample_title": [
+        "Control Subject 39"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437893"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 69",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Never",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437893/suppl/GSM7437893_C39_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437893/suppl/GSM7437893_C39_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437893/suppl/GSM7437893_C39_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    },
+    {
+      "accession": "GSM7437894",
+      "!Sample_title": [
+        "Control Subject 40"
+      ],
+      "!Sample_geo_accession": [
+        "GSM7437894"
+      ],
+      "!Sample_type": [
+        "SRA"
+      ],
+      "!Sample_channel_count": [
+        "1"
+      ],
+      "!Sample_source_name_ch1": [
+        "PBMCs"
+      ],
+      "!Sample_organism_ch1": [
+        "Homo sapiens"
+      ],
+      "!Sample_taxid_ch1": [
+        "9606"
+      ],
+      "!Sample_characteristics_ch1": [
+        "cell type: PBMCs",
+        "group assignment: Control",
+        "age (years): 76",
+        "Sex: Male",
+        "race/ethnicity: Caucasian",
+        "smoking: Ever",
+        "pack years: NA",
+        "dlco% predicted: NA",
+        "fvc% predicted: NA"
+      ],
+      "!Sample_molecule_ch1": [
+        "polyA RNA"
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "PBMCs were isolated from whole blood by density gradient centrifugation using Histopaque 1077 (Sigma Aldrich) and immediately cryopreserved in 70% DMEM, 20% FBS and 10% DMSO. PBMCs were later thawed and DMSO was removed by 5 serial dilutions in cold growth medium added at 1:1 ratio, followed by cetrifugation and removal of suprenatant. Then, cell pellets were resuspended in PBS + 0.04% BSA, filtered using a 40 micron strainer, counted and loaded to the 10x chromium platform. To minimize batch effects, samples were processed in five randomized and balanced batches of 8, each containing 2-3 samples of each of the 3 patient categories: stable IPF, progressive IPF, and controls. The division into batches can be found in Table E1 in the online manuscript.",
+        "Cells from each sample were loaded onto the 10x Chromium Chip A, according to the manufacturer\u2019s user guide (Chromium Single Cell V(D)J Reagent Kits User Guide, document number CG000086, revision J, November 2018), aiming for recovery of 10,000 cells per lane. The loaded Chip A was placed in 10x Chromium Controller to create Gel Beads-in-emulsion (GEMs). The next steps were carried out according to the manufacturer\u2019s user guide, including GEM-RT incubation, post GEM-RT Dynabead cleanup, cDNA amplification and cleanup, fragmentation, end-repair and A-tailing, adaptor ligation, sample Index PCR and double-sided size selection using SPRIselect (Beckman Coulter)."
+      ],
+      "!Sample_data_processing": [
+        "Raw sequencing reads were demultiplexed using Cell Ranger mkfastq pipeline (v3.0.2) to create FASTQ files. Next, Cell Ranger count pipeline (v3.0.2) was employed in order to perform alignment (using STAR), filtering, barcode counting and UMI counting.",
+        "Seurat R package (v3.1) was used for all downstream analyses. 10x Genomics gene expression aggregated matrix was converted into a Seurat object using CreateSeuratObject function. Genes expressed by fewer than 3 cells were filtered out. Cells with mitochondrial gene percentages higher than 12% and cells with fewer than 1000 Unique Molecular Identifiers (UMIs) were excluded from the study to filter out dead and dying cells.",
+        "Assembly: GRCh38",
+        "Supplementary files format and content: For each sample, processed data include Cell Ranger Count filtered outputs: cell barcodes (barcodes.tsv.gz), genes (features.tsv.gz) and count matrix (matrix.mtx.gz)."
+      ],
+      "!Sample_instrument_model": [
+        "Illumina HiSeq 4000"
+      ],
+      "!Sample_library_selection": [
+        "cDNA"
+      ],
+      "!Sample_library_source": [
+        "transcriptomic single cell"
+      ],
+      "!Sample_library_strategy": [
+        "RNA-Seq"
+      ],
+      "!Sample_supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437894/suppl/GSM7437894_C40_barcodes.tsv.gz"
+      ],
+      "!Sample_supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437894/suppl/GSM7437894_C40_features.tsv.gz"
+      ],
+      "!Sample_supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7437nnn/GSM7437894/suppl/GSM7437894_C40_matrix.mtx.gz"
+      ],
+      "!Sample_series_id": [
+        "GSE233844"
+      ]
+    }
+  ]
+}

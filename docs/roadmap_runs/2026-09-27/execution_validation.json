@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "scope": "Bounded P0\u2013P5 execution: source recovery, metadata eligibility, accounting and prospective design. No new biological experiment or fitted claim.",
+  "checks": [
+    {
+      "name": "accounting",
+      "exit_code": 0,
+      "output": "{\"status\": \"passed\", \"RQ_entries\": 17, \"libraries_joined\": 886, \"A5_candidates_checked\": 2, \"IL1B_units\": 70, \"primary_assignment_sensitive\": 62, \"sensitivity_assignment_sensitive\": 55, \"P3_linked_designs\": 0, \"P5_design_arms\": 6, \"new_biological_experiments\": 0}"
+    },
+    {
+      "name": "repository",
+      "exit_code": 0,
+      "output": "Repository validation passed: 2863 checks\r\n  local Markdown links resolve\r\n  tracked JSON artefacts parse\r\n  selected headline values and explicit numeric bindings match tracked tables\r\n  claim index and summary match the register; this is not full scientific reproduction"
+    },
+    {
+      "name": "diff",
+      "exit_code": 0,
+      "output": ""
+    }
+  ],
+  "repository_checks": 2863,
+  "original_scientific_results_and_contracts": "No tracked changes to original scientific tables, reports or configurations. Living documentation and the earlier audit's validator changes remain reviewable.",
+  "previous_checks": "The earlier rationale audit's unit tests and numeric binding checks were reused; this execution did not change scientific code or those tests.",
+  "commands": {
+    "accounting": "python docs/roadmap_runs/2026-09-27/scripts/verify_run.py",
+    "repository": "python analysis/scripts/validate_repository.py",
+    "diff": "git -c core.safecrlf=false diff --check"
+  },
+  "tracked_changed_files": [
+    "AI_CONTEXT.md",
+    "DEVELOPMENT.md",
+    "PROGRESS.md",
+    "README.md",
+    "RESEARCH_QUESTIONS.md",
+    "RQ_Specified/A0_conserved_epithelial_transition_program/README.md",
+    "RQ_Specified/A10_organoid_growth_outcome/README.md",
+    "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md",
+    "RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md",
+    "RQ_Specified/A2_areg_source_delivery/README.md",
+    "RQ_Specified/README.md",
+    "analysis/scripts/validate_repository.py",
+    "docs/LOGICAL_RATIONALE_REVIEW.md",
+    "docs/RQ_MEASUREMENT_CONTRACTS.md"
+  ],
+  "verified_utc": "2026-09-27T06:25:48.016742+00:00",
+  "artifact_sha256": {
+    "GSE113049_sample_metadata.json": "53db881babb625f872e3ff92df1df0c5e750da12caa8ac0554733bf8234595ba",
+    "GSE144468_sample_metadata.json": "318c4a7f6db2ea678cdfb5ced013c574fa929204d2804677fd085af60846ac94",
+    "GSE144598_sample_metadata.json": "803b69d5c148addca647bb667af062b4c8052049b2f51e8dee8ba65ee33d7ca1",
+    "GSE145031_sample_metadata.json": "4d9b447b5070ef14600ef2f1c69c854a6ba2e516f65089e129afca71e5a81ffa",
+    "inputs/GSE307112_imaging_outputs.csv.gz": "50ab337c916e0bd195c0fc387067fe0ee138683537e738c23f90ad97ef99d215",
+    "inputs/GSE307112_plate_design.csv.gz": "8f6950e6286ed438748bfcb12077e683abe74aa525678096f9ad9bea282b8ad1",
+    "inputs/p1_metadata_retrieval.json": "9c4252c0f0bd7b769768b0bfd53a307bb075936f756d8040cda364626a865707",
+    "outcome_contract.json": "f29a96649120e4cf2a1d6fcbb08b659137cc8b69aa5cc048626d0cd707814f88",
+    "P0_OUTCOMES.md": "03a8ff3d9605bdf2ac2f5dec142e77ae5e3dfccbdc0d2f6af29ac633c1acb545",
+    "P1_crosswalk_checks.json": "32f99326ce88a63b78b0088b77ee8f827703ab00a5a664eb038a1c7c40a8aec1",
+    "P1_library_crosswalk.tsv": "2bee555839f3edf731386f5b8480b1a85eff1a7477abff1f5d2c1e99d4c390bd",
+    "P1_SCREEN_DESIGN.md": "869e75f985c6d83e18ad55139ad96a05f0c8061124e008ec2c26e1980c350ba5",
+    "P1_source_recovery.json": "022f9126b53245ce13afb0b62ce5a57fb25f3c9f070eb85e15f72a4bd1f5bfdc",
+    "P1_target_identifiability.tsv": "6d036d9ebffad78289adc727386c66c4b5ee087288c48f4ed179d10c71e93ba8",
+    "P2_eligibility.json": "b4960d6c43fe55ea06d435c0d6e7fa4fe32b68761b5ec3770318bea5c9419ec3",
+    "P2_REPLICATION_ELIGIBILITY.md": "91049a4a628783814e1a5f6186dba1e915fb5221c1313b0ba86e7672e93fdaca",
+    "P3_feature_outcome_contract.json": "45bdc3b106ee149c53ec93e26f7b02a93814e9f28a23f34096c339403b4fe484",
+    "P3_linkage_audit.json": "bf4eaf08ee8a76b264d8dbeb49d0f1cd0ca71ff290b4e48bc9d87ab314d371c9",
+    "P3_REGULATORY_FATE.md": "b964d145e3025932176bdaf6c5324e022d18988c688b2b81fe5afb99b27e07c6",
+    "P4_attribution_spec.json": "5c98e44d350ca1abe409126aa1be1ad3bfd22a29abd88240d7fc34d240ca7f7c",
+    "P4_confidence_and_model_readiness.json": "c56bdbc093a41b3a8165165ad3c219393ddc5435a9836d29912c6294aca18ed3",
+    "P4_identity_coverage_audit.json": "7c188738cd56f172729b0ea7bee07c3359c00a15881cd3105955394de3632836",
+    "P4_source_attribution_bounds.tsv": "a4bf824f04d559a2da131a15a7a3129384a39995380da84d61b74ec25b77588a",
+    "P4_source_attribution_summary.tsv": "d01d8e7335912012089c714a233bffb1a6f5562ebb8f23fdc331e29d36bb8806",
+    "P4_SOURCE_RECIPIENT.md": "57e958ea5eb2fc80369a8449aaee4bae26badf163368a42719bc3b7be565cbb0",
+    "P5_RECOVERY_DESIGN.md": "bfc493b70d7dbd598ba45bfb259755d836821deeca0a5636cc5479735998ff6e",
+    "P5_withdrawal_design.json": "692ee43a5d40d013001f288d917feea3d0d78bf02fe448cbe64584732ab858d5",
+    "README.md": "baf35baf95b4b47f2b544740eeb9f0af7578366986e00a8e09f1df73e7ca5463",
+    "rq_outcomes.json": "1437854cd76ffa6d1f37e6cfc2511631f5816dfa261851586135e09c2a81101b",
+    "scripts/p1_crosswalk.py": "168e5a1f3110c1b560411068930cc57de9abda275aa18380de1c39e9506f5758",
+    "scripts/verify_run.py": "ef35ef782f00fc2d56333ad7d536ea2e52707e711b4d237aef00ee763bf6e93b",
+    "status.json": "3ba4140b398f9360458c666d463213d31f86cc3cc0edeb4c54e049220e707c7e"
+  }
+}

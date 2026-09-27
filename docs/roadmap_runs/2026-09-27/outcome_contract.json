@@ -1,0 +1,81 @@
+{
+  "schema": "roadmap-outcome-contract/v1",
+  "date": "2026-09-27",
+  "selected_new_run": "A5 independent adult-injury replication",
+  "status": "measurement defined; cohort eligibility unresolved; no new scores read",
+  "biological_claim": "Partial external-signature recruitment in a comparable injury state; no lineage or functional-repair claim",
+  "starting_population": "Adult mouse injury epithelium with independently supported transitional and activated-AT2 compartments",
+  "unit": "Independent mouse; pooled animals are not decomposed into mice",
+  "exposure": "Independent injury study; compatible day 2 through day 21 schedule required for an unchanged replication",
+  "predictor": "Guo_AT1_AT2_external",
+  "outcome_level": "RNA-state contrast",
+  "numerator": "Sum of exact 500-UMI expected gene detections, averaged over assayed module genes and eligible cells",
+  "denominator": "Assayed module genes including observed zeros; eligible cells within each state; equal weight per eligible mouse",
+  "primary_estimand": "Equal-mouse mean paired difference, conditional on eligible independent replication-cohort mice and the sampled day 2-21 schedule",
+  "inherited_instrument": {
+    "schema": "a5-strunz-external-test/v1",
+    "date": "2026-09-25",
+    "authorization": "Owner requested proceeding with the review revisions and biological rationale; commit before counts.",
+    "cohort": "GSE141259 high-resolution epithelial experiment",
+    "unit": "mouse",
+    "day_min": 2,
+    "day_max": 21,
+    "exclude_sample_prefix": "NC",
+    "case_label": "Krt8+ ADI",
+    "reference_label": "AT2 activated",
+    "secondary_reference_label": "AT2",
+    "depth_umi": 500,
+    "cell_floor": 30,
+    "unit_floor": 3,
+    "coverage_floor": 0.7,
+    "primary_module": "Guo_AT1_AT2_external",
+    "measurement": "Expected detection after 500-UMI sampling without replacement; equal-mouse paired difference in percentage points",
+    "estimand": "Equal-mouse mean paired difference, conditional on eligible mice and the sampled day 2-21 schedule",
+    "primary_test": "two-sided one-sample t test of paired differences, alpha 0.05, 95% t interval",
+    "meaningful_effect_margin": null,
+    "secondary_family": "Holm across three tests; ineligible tests enter correction as p=1",
+    "secondary_tests": [
+      {
+        "module": "Guo_minus_identity",
+        "reference": "AT2 activated"
+      },
+      {
+        "module": "Guo_minus_identity_and_controls",
+        "reference": "AT2 activated"
+      },
+      {
+        "module": "Guo_AT1_AT2_external",
+        "reference": "AT2"
+      }
+    ],
+    "controls": [
+      "HALLMARK_P53_PATHWAY",
+      "HALLMARK_HYPOXIA",
+      "HALLMARK_INFLAMMATORY_RESPONSE",
+      "HALLMARK_UNFOLDED_PROTEIN_RESPONSE",
+      "HALLMARK_E2F_TARGETS",
+      "HALLMARK_G2M_CHECKPOINT"
+    ],
+    "descriptive": [
+      "original shared contract modules and Strunz-filtered 51-gene module",
+      "Guo identity axes and six Hallmark axes",
+      "equal-day mean",
+      "leave-one-mouse-out means"
+    ],
+    "interpretation": "External-source signature recruitment; no untouched-cohort, lineage, mechanism or successful-repair claim",
+    "on_primary_failure": "Stop, do not lower depth/cell floors or switch reference"
+  },
+  "module_selection": "Frozen external source definitions; no candidate-cohort marker filtering",
+  "state_mapping": "Defined from independent source labels/evidence before module scoring",
+  "missingness": "Absent genes are excluded from score denominator and count against coverage; observed zeros retained. Missing state or unit identity fails paired eligibility, never imputed.",
+  "decision": {
+    "positive": "95% interval wholly above zero supports recruitment under the specified sampling population",
+    "contradictory": "95% interval wholly below zero contradicts directional transfer in this context",
+    "inconclusive": "Interval crosses zero; no equivalence or absence claim",
+    "ineligible": "Stop without scoring or reference/floor retuning"
+  },
+  "precision": "Historical n>=3 is eligibility only. Before scoring, report interval half-width sensitivity to independent-unit count and plausible between-unit SD, without using the original positive mean as the sole planning assumption.",
+  "meaningful_effect_margin": null,
+  "functional_endpoint": "Not available in this test; a later study must select an independent lineage/function endpoint",
+  "frozen_parent_sha256": "2bdd8ae0dbc2c04c07f95744f8ab54b066fbff96498385605c69c71ce711bdb7"
+}

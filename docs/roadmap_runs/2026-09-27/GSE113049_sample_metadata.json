@@ -1,0 +1,436 @@
+{
+  "accession": "GSE113049",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113049/soft/GSE113049_family.soft.gz",
+  "bytes": 4415,
+  "sha256": "826fc8a08789c7e53cbff74a42721a6a2aa3054c921c8a8240f736e384e75a71",
+  "series": {
+    "!Series_title": [
+      "Single Cell RNA Sequencing Identifies TGF\u03b2 as a Key Regenerative Cue following LPS-induced Lung Injury"
+    ],
+    "!Series_status": [
+      "Public on Mar 27 2019"
+    ],
+    "!Series_last_update_date": [
+      "Mar 27 2019"
+    ],
+    "!Series_pubmed_id": [
+      "30913038"
+    ],
+    "!Series_summary": [
+      "Many lung diseases result from a failure of efficient regeneration of damaged alveolar epithelial cells (AECs) after lung injury. During regeneration, AEC2s proliferate to replace lost cells, after which proliferation halts and some AEC2s transdifferentiate into AEC1s to restore normal alveolar structure and function. Although the mechanisms underlying AEC2 proliferation have been studied, the mechanisms responsible for halting proliferation and inducing transdifferentiation are poorly understood. To identify candidate signaling pathways responsible for halting proliferation and inducing transdifferentiation, we performed single cell RNA sequencing on AEC2s during regeneration in a murine model of lung injury induced by intratracheal LPS. Unsupervised clustering revealed distinct subpopulations of regenerating AEC2s: proliferating, cell cycle arrest, and transdifferentiating. Gene expression analysis of these transitional subpopulations revealed that TGF\u03b2 signaling was highly upregulated in the cell cycle arrest subpopulation and relatively downregulated in transdifferentiating cells. In cultured AEC2s, TGF\u03b2 was necessary for cell cycle arrest but impeded transdifferentiation. We conclude that during regeneration after LPS-induced lung injury, TGF\u03b2 is a critical signal halting AEC2 proliferation but must be inactivated to allow transdifferentiation. This study provides insight into the molecular mechanisms regulating alveolar regeneration and the pathogenesis of diseases resulting from a failure of regeneration."
+    ],
+    "!Series_overall_design": [
+      "Single cell RNA-Seq analysis of na\u00efve and LPS-injured adult murine lung"
+    ],
+    "!Series_supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113049/suppl/GSE113049_cell_metadata.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113049/suppl/GSE113049_count_matrix.tsv.gz"
+    ],
+    "!Series_relation": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA449866",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP139766"
+    ]
+  },
+  "samples": [
+    {
+      "accession": [
+        "GSM3094778"
+      ],
+      "!Sample_title": [
+        "Expt. 1 Control Mouse, Non Type II lung epithelial cells, technical rep. 1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Control Non-Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Control Non-Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3161-ATII-1",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919103",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927684"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094779"
+      ],
+      "!Sample_title": [
+        "Expt. 1 Control Mouse, Non-Type II lung epithelial cells, technical rep. 2"
+      ],
+      "!Sample_source_name_ch1": [
+        "Control Non-Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Control Non-Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3161-ATII-2",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919102",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927685"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094780"
+      ],
+      "!Sample_title": [
+        "Expt. 1 Control Mouse, Type II Alveolar cells"
+      ],
+      "!Sample_source_name_ch1": [
+        "Control Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Control Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3161-ATII-3",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919101",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927686"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094781"
+      ],
+      "!Sample_title": [
+        "Expt. 1 Injured Mouse (LPS), Type II Alveolar cells, technical rep. 2"
+      ],
+      "!Sample_source_name_ch1": [
+        "Injured Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Injured Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3162-ATIII-5",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919100",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927687"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094782"
+      ],
+      "!Sample_title": [
+        "Expt. 1 Injured Mouse (LPS), Type II Alveolar cells, technical rep. 1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Injured Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Injured Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3162-ATII-4",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919099",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927688"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094783"
+      ],
+      "!Sample_title": [
+        "Expt. 2 Control Mouse, Non-Type II Lung epithelial cells, technical rep. 1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Control Non-Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Control Non-Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3242ATI1",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919098",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927689"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094784"
+      ],
+      "!Sample_title": [
+        "Expt. 2 Control Mouse, Non-Type II Lung Epithelial cells, technical rep. 2"
+      ],
+      "!Sample_source_name_ch1": [
+        "Control Non-Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Control Non-Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3242ATI2",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919097",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927690"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094785"
+      ],
+      "!Sample_title": [
+        "Expt. 2 Control Mouse, Type II Alveolar cells"
+      ],
+      "!Sample_source_name_ch1": [
+        "Control Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Control Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3242ATII3",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919096",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927691"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094786"
+      ],
+      "!Sample_title": [
+        "Expt. 2 Injured Mouse (LPS), Type II Alveolar cells, technical rep. 1"
+      ],
+      "!Sample_source_name_ch1": [
+        "Injured Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Injured Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3241ATII4",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919095",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927692"
+      ]
+    },
+    {
+      "accession": [
+        "GSM3094787"
+      ],
+      "!Sample_title": [
+        "Expt. 2 Injured Mouse (LPS), Type II Alveolar cells, technical rep. 2"
+      ],
+      "!Sample_source_name_ch1": [
+        "Injured Type II Lung Epithelial Cells"
+      ],
+      "!Sample_characteristics_ch1": [
+        "strain: C57BL6",
+        "genotype: SftpcCreERT2;Rosa26-mTmG",
+        "cell type: Injured Type II Lung Epithelial Cells"
+      ],
+      "!Sample_treatment_protocol_ch1": [
+        "SPCCreERT2+/-;mTmG+/- mice were administered tamoxifen 20 mg/ml in corn oil at a dose of 0.25 mg / g body weight i.p. every other day for 3 doses at age 6 wk. At 12 wk of age, SPCCreERT2+/-;mTmG+/-  mice were treated with 40 \u03bcg LPS (E. coli 0111:B4; List Biological Laboratories) in 50 \u03bcl 0.9% saline by i.t. instillation or left untreated. Mice were euthanized 7 days later."
+      ],
+      "!Sample_growth_protocol_ch1": [
+        "Animals were maintained in a pathogen-free environment on a 12 h light/dark cycle with full access to food and water."
+      ],
+      "!Sample_extract_protocol_ch1": [
+        "Briefly, lungs were perfused with 10 ml of PBS at 20 cm H20, lavaged twice with 1 ml PBS + 5mM EDTA + 5 mM EGTA, twice with RPMI 1640 + 25 mM HEPES, and once with 4.5 U/ml elastase (Worthington #LS00229) in RPMI with 25 mM HEPES. Next, 2 ml of elastase 4.5 U/ml was instilled into the lungs, followed immediately with 500 ul of 1% low melting point agarose. Lungs were submerged into 2 ml elastase 4.5 U/ml and incubated for 45 m at 37\u2070C. The trachea and bronchial tree were dissected off, and lung tissue was submerged in 5 ml ice cold FBS with 0.2 mg/ml DNAse (Sigma #DN25). Tissue was minced to ~0.5-1 mm3 fragments with scissors, shaken vigorously for 2 m, and filtered over 100, 40, and 20 um filters consecutively. Cell suspension was centrifuged at 350 g for 12 m at 4\u2070C onto a percoll cushion. Cell pellet was resuspended in 30 ul DNAse (4 mg/ml), and 300 ul RPMI + 25 mM HEPES + 20% FBS was added. Cells were stained with anti-T1\u03b1 PE-Cy7 (eBioscience #25-5381), anti-EPCAM-647 (Biolegend #118212), and CD45-A700 (ebioscience #56-0451-80) antibodies with FcBlock (BD Pharmingen #553142) for 60 m at 4\u2070C. DAPI (Thermo #62248) 1 ug/ml was added. Cells were sorted on a Moflo XDP (Beckman). Gates were drawn based on FMO controls. DAPI- Tomato- GFP+ cells and DAPI- Tomato+ GFP- CD45- EpCAM+ T1\u03b1+ cells were collected. Cells were processed using the 10x chromium platform to generate single cell RNA-Seq libraries, which were sequenced on the Illumina HiSeq. Technical replicates are defined as the same cell suspension split into two separate wells for the 10x genomics single cell capture.",
+        "library construction protocol: 10x Genomics 3' end library kit"
+      ],
+      "!Sample_description": [
+        "3241ATII5",
+        "count_matrix.tsv.gz",
+        "cell_metadata.tsv.gz"
+      ],
+      "!Sample_data_processing": [
+        "UMI count matrices were generated using the 10x genomics cellranger count(2.1.1) pipeline with default parameters. The count matrices were normalized by downsampling to the lowest read count libraries using cellranger aggr. The aggregated matrix was then further filtered to exclude cells not passing the following QC measures: at least 100 genes detected (UMI > 0), number of UMIs less than 3 times that standard deviation of UMIs expressed per sample, and proportion of UMIs derived from mitochondia less than 35%. Genes were also excluded  if they were not expressed in at least  3 cells (UMI count > 0). After filtering, this matrix was used for tSNE projection and graph based clustering. Following cell-embeddings and clustering, the original non-downsampled UMI data was used for all analysis and is provided as the count_matrix.tsv.gz. EGFP counts were generated by mapping reads unaligned to the mm10 genome to the eGFP cDNA using bowtie2 (--very-sensitive-local mode).",
+        "Genome_build: mm10",
+        "Supplementary_files_format_and_content: Count matrix with UMI counts per gene per cell. Cell_metadata.tsv contains information about each cell in the count matrix"
+      ],
+      "!Sample_relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN08919094",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX3927693"
+      ]
+    }
+  ]
+}

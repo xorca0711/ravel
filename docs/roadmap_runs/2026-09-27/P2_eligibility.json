@@ -1,0 +1,101 @@
+{
+  "schema": "roadmap-P2-eligibility/v1",
+  "candidates": [
+    {
+      "role": "primary",
+      "study": "Choi 2020",
+      "accession": "GSE145031",
+      "selection_reason": "Independent mouse injury cohort with author-defined primed AT2 and DATP states, day 14 in the original window",
+      "source_reuse": "Previously studied elsewhere in this repository; independent of Strunz but not an untouched research source",
+      "submitted_samples": 6,
+      "eligible_time_lineage_libraries": 1,
+      "resolved_individual_mouse_ids": 0,
+      "unit_evidence": "Methods state two mice pooled per experiment; one deposited day14 Tomato-positive sample. Negative-lineage sort is not an independent animal replicate; day28 is outside the frozen window.",
+      "decision": "ineligible_for_unchanged_equal_mouse_replication",
+      "counts_downloaded": false,
+      "scores_read": false,
+      "deferred_checks": [
+        "module gene coverage",
+        "paired state cell floors",
+        "state crosswalk validation"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7487779/"
+    },
+    {
+      "role": "fallback",
+      "study": "Riemondy 2019",
+      "accession": "GSE113049",
+      "selection_reason": "Independent adult LPS-injury epithelial study with a differentiating alveolar population and animal-labelled samples",
+      "submitted_samples": 10,
+      "injured_libraries": 4,
+      "biological_injured_sample_labels": 2,
+      "unit_evidence": "Two experimental injured-mouse labels; each is represented by two explicitly technical libraries. Four libraries are not four mice.",
+      "decision": "fails_inherited_minimum_three_independent_mice",
+      "counts_downloaded": false,
+      "scores_read": false,
+      "deferred_checks": [
+        "raw integer validation",
+        "module coverage",
+        "activated AT2 correspondence",
+        "paired state cell floors"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113049"
+    }
+  ],
+  "precision_sensitivity": [
+    {
+      "n": 3,
+      "df": 2,
+      "half_width_over_between_mouse_SD": 2.4841377117503303
+    },
+    {
+      "n": 6,
+      "df": 5,
+      "half_width_over_between_mouse_SD": 1.0494356398959845
+    },
+    {
+      "n": 12,
+      "df": 11,
+      "half_width_over_between_mouse_SD": 0.6353696873306397
+    },
+    {
+      "n": 24,
+      "df": 23,
+      "half_width_over_between_mouse_SD": 0.4222629665043183
+    },
+    {
+      "n": 40,
+      "df": 39,
+      "half_width_over_between_mouse_SD": 0.31981551549288373
+    }
+  ],
+  "precision_scope": "Analytic 95% t-interval half-width in multiples of a planning between-mouse SD. Not power, a chosen sample size, or an equivalence margin.",
+  "decision": "No eligible cohort among the primary and one fallback; T3 scoring not launched. Broader availability remains unsearched.",
+  "P2b": "A11 comparable-state injury/tumour/normal design and A0 distinct conservation branch were not opened by either candidate; historical decisions remain.",
+  "metadata_sources": [
+    {
+      "accession": "GSE145031",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE145nnn/GSE145031/soft/GSE145031_family.soft.gz",
+      "bytes": 3672,
+      "sha256": "0f8f3b1d98318e8ff4681005a5c37b641c202bc55e013190de08ff12a71b356f"
+    },
+    {
+      "accession": "GSE144598",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144598/soft/GSE144598_family.soft.gz",
+      "bytes": 3040,
+      "sha256": "7f44108c09f90ec0fe2c38156b76771f2bb429df7890f2c49204c6aea5f48f19"
+    },
+    {
+      "accession": "GSE144468",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144468/soft/GSE144468_family.soft.gz",
+      "bytes": 3244,
+      "sha256": "de7fdca5fa788583f17aa1598c3d319981761f39d804bc89569a3763f7331777"
+    },
+    {
+      "accession": "GSE113049",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113049/soft/GSE113049_family.soft.gz",
+      "bytes": 4415,
+      "sha256": "826fc8a08789c7e53cbff74a42721a6a2aa3054c921c8a8240f736e384e75a71"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # A5: developmental-gene recruitment in adult repair
 
+**Latest follow-through:** [A5 results and candidate decisions](../../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md). Historical specifications and numerical results below are preserved; read the dated follow-through for the current execution state.
+
 Read the [biological rationale](../A5_A11_shared_component_contract/BIOLOGICAL_LOGIC.md)
 and [prospective plan](PLAN.md). **The revised test is complete.** All 24 primary mice have positive paired
 changes: mean +0.735 detection percentage points (95% CI 0.579–0.892).

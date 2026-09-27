@@ -1,5 +1,10 @@
 # Logical rationale review after status synchronization
 
+**Latest review, 27 September 2026:** the [repository-wide A0–A15 audit](audits/2026-09-27-rq-rationale/REPORT.md)
+extends this earlier A1/A5/A11/A10 review. Use its A2/A15 corrections and
+[shared architecture](RESEARCH_ARCHITECTURE.md) for current interpretation and next work.
+The dated analysis below remains the earlier review record.
+
 26 September 2026. Reviewed the merged scientific baseline `32ded9b` and its
 current documentation. Scope: A1, A5, A11 and A10 evidence chains, their shared
 contract, and how they feed the A1–A14 register. This is a logic and implementation

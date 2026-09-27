@@ -37,11 +37,12 @@ Exploratory findings and independent confirmation are distinguished explicitly.
 |---|---|
 | Biological hypotheses, evidence and next tests | [Research questions](RESEARCH_QUESTIONS.md); [measurement contracts](docs/RQ_MEASUREMENT_CONTRACTS.md) |
 | Current merged analyses and remaining work | [Current handoff](PROGRESS.md); [question-specific status](RQ_Specified/README.md) |
-| Biological logic, interpretation limits and follow-up order | [Logical rationale review](docs/LOGICAL_RATIONALE_REVIEW.md) |
+| Biological logic, interpretation limits and follow-up order | [A0–A15 audit](docs/audits/2026-09-27-rq-rationale/REPORT.md); [shared architecture](docs/RESEARCH_ARCHITECTURE.md) |
+| Plans, package results and remaining data gates | [Research roadmap](docs/RESEARCH_ROADMAP.md); [latest follow-through](docs/roadmap_runs/2026-09-27-followthrough/README.md) |
 | Paper-specific analyses and figure galleries | [Paper roadmap](Research%20Article/README.md) |
 | A short portfolio entry and four figures | [Portfolio summary](docs/PORTFOLIO_SUMMARY.md) |
 | Three portfolio case studies and what was actually demonstrated | [Portfolio guide](docs/PORTFOLIO.md) |
-| Every claim, decision authority and explicit numeric-check coverage | [Claim register](CLAIMS.md) and [generated summary](docs/CLAIM_SUMMARY.md) |
+| Historical graded claims, decision authority and numeric-check coverage | [Claim register](CLAIMS.md) and [generated summary](docs/CLAIM_SUMMARY.md) |
 | Corrected analyses and remaining limitations | [Implementation record](docs/remediation/2026-09-22/IMPLEMENTATION_STATUS.md) |
 | Commands, dependencies and data requirements | [Reproducibility guide](REPRODUCIBILITY.md) |
 | A0: conserved transition programme pilot | [Scientific result](RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_V1_RESULTS.md); [source recovery](RQ_Specified/A0_conserved_epithelial_transition_program/reports/SOURCE_RECOVERY.md) |
@@ -63,7 +64,10 @@ Exploratory findings and independent confirmation are distinguished explicitly.
   analysis distinguishes traceable gene programmes from two-marker labels and
   keeps chromatin measurements separate from fate claims.
 
-The current evidence and caveats live in [CLAIMS.md](CLAIMS.md). Earlier owner
+The historical graded evidence and caveats live in [CLAIMS.md](CLAIMS.md).
+Its C1–C168 ledger does not yet cover the newer question-level results; use
+[RQ_Specified](RQ_Specified/README.md) and the [current audit](docs/audits/2026-09-27-rq-rationale/REPORT.md)
+for those outcomes, including failed and inconclusive tests. Earlier owner
 retentions are preserved in [DEVELOPMENT.md](DEVELOPMENT.md); the subsequent
 reassessment was explicitly delegated by the owner and is identified as such.
 
