@@ -48,18 +48,31 @@ cohort. Two history headings here that still said current were relabelled.
    2,158 untracked entries were classified before anything was touched, and nothing was
    lost: 2,050 were cache and derived artefacts that origin/main's ignore rules already
    cover and that only looked untracked because the local branch predated those rules;
-   92 matched origin/main apart from line endings and were discarded; and **16 A0 files
-   were newer than main and are preserved on branch `Claude/recovered-a0-decision-records`
-   at `3d3796a`**, not deleted. Zero files held content that existed nowhere in git.
-4. **Open, and it needs the owner: the preserved A0 records.** That branch's
-   `decisions.json` reports `current_stage` `E4_exploratory_complete_narrow` with
-   `program_scoring_performed` true, against main's
-   `P0_extended_feasibility_complete_P1_P4_blocked` and false, and it carries decision
-   records **A0-015 and A0-016 that appear in none of main's A0 record files**. Main
-   records the exploratory outcome in a separate `stage_decisions.json`, which contains
-   neither identifier. Its `PLAN.md` also still points at pre-migration `Thesis/` paths,
-   so the tree is a divergent variant rather than a clean successor. Decide whether the
-   two decision records should land, and in which file, before that branch is deleted.
+   92 matched origin/main apart from line endings and were discarded; and 16 A0 files were
+   set aside on branch `Claude/recovered-a0-decision-records` at `3d3796a` pending a check.
+   Zero files held content that existed nowhere in git.
+4. **CORRECTED, 27 September 2026, and now closed.** The previous wording of this item
+   claimed those 16 files were newer than main and that decision records **A0-015 and
+   A0-016 appeared in none of main's A0 record files**. **Both claims were false**, and the
+   error was mine. A three-lens review of the follow-up merge caught it and every claim was
+   then verified directly:
+   - **A0-015 and A0-016 have been live on main since 26 September 2026**, in the tracked
+     file `exploratory_decisions.json`. There was never anything to promote.
+   - **All 16 recovered files were already preserved on main** inside
+     `history/exploratory_execution_artifacts.zip`, 16 of 16 identical once line endings are
+     normalised, and enumerated with hashes in the live `exploratory_publication_record.json`.
+   - The recovered `decisions.json` is byte-identical, LF-normalised, to main's
+     `exploratory_decisions.json`. It is the pre-split copy, not a divergent variant.
+
+   **The root error:** main deliberately keeps two records, `decisions.json` at the
+   feasibility stage and `exploratory_decisions.json` at the exploratory stage. The triage
+   compared path for path and never checked whether the content existed under a different
+   filename, so a renamed and split file read as "newer than main". Any future triage of
+   untracked files must be content-addressed across the whole tree and across the archives in
+   `history/`, not path for path.
+
+   Nothing was ever at risk, no owner decision is outstanding, and PR #92 was closed as
+   contributing nothing. The branch may be deleted.
 
 **Branch housekeeping done at the owner's request.** Twenty merged local branches and
 nine merged remote branches were deleted; every one was fully contained in main. The
