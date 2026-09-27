@@ -365,7 +365,11 @@ no endpoint scored, no claim row added, no grade changed.
 
 Branch `Claude/a15-epithelial-integrin-tgfb`, branched from
 `Claude/a2-delivery-hypothesis` at `286f425`, with its pull request based on that branch
-because the workspace cross-links A2 reports that exist only there while PR #85 is open.
+because the workspace cross-links A2 reports that were only on that branch at the time.
+**PR #85 has since merged**, so those reports are on `main` and both A15 branches have been
+brought up to date with it. PR #86 was closed by accident and is not reopenable, because
+GitHub refuses to reopen or retarget a pull request whose base branch has been deleted; PR #89
+replaces it against `main`, with PR #88 stacked on it.
 Documents only: **no dataset opened, no endpoint scored, no claim row added, no grade
 changed.** The register still ends at C168.
 
@@ -424,7 +428,9 @@ changed.** The register still ends at C168.
   positions, same guide pools. Do not read the failure of an anti-alphaVbeta6 antibody in
   idiopathic pulmonary fibrosis (Raghu 2022) as refuting the mechanism, or the mechanism as
   supporting a therapeutic claim. Do not edit files under
-  `RQ_Specified/A2_areg_source_delivery/`, which are under owner review in PR #85. Do not
+  `RQ_Specified/A2_areg_source_delivery/`, which A15 deliberately left untouched while they
+  were under review in PR #85, now merged; A15 stays discoverable from the register and the
+  index rather than from inside A2's folder. Do not
   use the GSE307128 series summary, which restates the unread source paper's conclusions.
 
 ## Current repository layout

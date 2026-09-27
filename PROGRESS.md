@@ -261,7 +261,10 @@ Branch `Claude/a2-delivery-hypothesis`, based on main `f1b2c4f`. Start with the
 Branch `Claude/a15-epithelial-integrin-tgfb`, branched from
 `Claude/a2-delivery-hypothesis` at `286f425` and with its pull request based on that
 branch rather than on main, because the workspace cross-links A2's stage 3 and stage 5
-reports and those exist only there while PR #85 is open. Start with the
+reports. **PR #85 merged on 26 September 2026**, so those reports are now on `main` and
+this branch has been brought up to date with it; the original PR #86 was closed by accident
+and could not be reopened, because GitHub refuses to reopen or retarget a pull request whose
+base branch has been deleted, so PR #89 replaces it against `main`. Start with the
 [A15 workspace README](RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md).
 **This supersedes the sentence in the A2 section above that the Itgb6 lead is not a
 question yet: it is now a proposed question, and the owner decides.**
@@ -338,7 +341,8 @@ question yet: it is now a proposed question, and the owner decides.**
   vacuous silence gets reported as a negative result; script 02 now fails closed on it.
 - Constraints honoured and worth restating for the next session: no file under
   `RQ_Specified/A2_areg_source_delivery/` was edited, because those are under review in
-  PR #85; no study note was written on roadmap paper 14 (doi 10.1073/pnas.2606113123),
+  PR #85, which has since merged; no study note was written on roadmap paper 14
+  (doi 10.1073/pnas.2606113123),
   whose reading is recorded as not started; and the sibling deposit GSE307128's series
   summary, which restates that paper's conclusions, was read while searching GEO and is
   deliberately not used.

@@ -91,10 +91,12 @@ workspace has no `tables/` directory.
 - **No claim row was added**, and no existing row was re-graded. A2's stage 5 already
   proposed wording for the observation as its own proposal 2; that row, if it is ever
   created, belongs to A2.
-- **No file under `RQ_Specified/A2_areg_source_delivery/` was edited.** Those files are
-  under the owner's review in pull request 85, and adding a cross-reference into them
-  while they are being reviewed would change a document under review. A15 is discoverable
-  from the register table and from the `RQ_Specified` index instead.
+- **No file under `RQ_Specified/A2_areg_source_delivery/` was edited.** When this was
+  written those files were under the owner's review in pull request 85, and adding a
+  cross-reference into them while they were being reviewed would have changed a document
+  under review. **Pull request 85 merged on 26 September 2026**, so they are now on `main`;
+  the decision stands as taken, and A15 remains discoverable from the register table and the
+  `RQ_Specified` index rather than from inside A2's folder.
 - **No study note was written on the screen's source paper**, roadmap paper 14
   (DOI 10.1073/pnas.2606113123), whose reading by the owner is recorded as not started.
 - **The sibling deposit's series summary was not used.** GSE307128, in the same
