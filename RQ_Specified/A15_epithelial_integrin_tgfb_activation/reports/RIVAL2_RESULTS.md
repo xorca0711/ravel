@@ -159,6 +159,23 @@ lower TGF-beta-induced epithelial gene expression. **The whole-lung collagen res
 reproduces the established direction for this antibody and is reported as reproduction.** No
 claim of novelty attaches to any number in this report.
 
+## The negative-results path, and why it is not taken yet
+
+This report's central number is a null: no detectable difference in the epithelial
+compartment's own programme. The A15 plan directed such an outcome to NEGATIVE_RESULTS.md
+through the usual generation path, and A2's stage 5 named the same constraint on the same
+day, so it is named here in the same terms rather than left silent.
+
+That file carries a standing instruction not to edit it by hand. It is generated from
+CLAIMS.md by `analysis/scripts/14_write_negative_results.py`, and the wording it prints is
+the register's own. **So the entry cannot be written from here.** Grading is the owner's
+decision and this side-branch adds no register row, which means there is nothing for the
+generator to pick up. Once the sentence proposed below is graded and entered, re-running that
+script places it on the negative-results page without further work.
+
+A null that lives only in a stage report is easier to lose than one the generator owns, which
+is why the gap is recorded rather than passed over.
+
 ## Register position
 
 No claim row is added, and the register still ends at C168. Grading is the owner's decision.
