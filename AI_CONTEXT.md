@@ -29,12 +29,19 @@ All pull requests through #81 are merged and none is open. Read PROGRESS
   deleted on the owner's instruction: the framing proposal was superseded by the
   research-question rewrite in PR #69, and the LinkedIn work should not have been
   tracked here. Their commits stay recoverable from the reflog at `cd18f97` and
-  `0034245`. One branch was then created deliberately:
-  **`Claude/recovered-a0-decision-records` at `3d3796a` preserves sixteen A0 files that
-  sat untracked in the primary checkout and were newer than main**, including decision
-  records A0-015 and A0-016 that appear in none of main's A0 record files. **Do not delete
-  that branch and do not merge it unasked**; the owner decides whether those records land.
-  Apart from it, `main` is the only branch.
+  `0034245`. A branch `Claude/recovered-a0-decision-records` at `3d3796a` was also created,
+  to hold sixteen A0 files found untracked in the primary checkout. **Its premise was wrong
+  and PR #92 was closed as contributing nothing**: all sixteen were already preserved on main
+  inside `history/exploratory_execution_artifacts.zip`, identical once line endings are
+  normalised, and decision records A0-015 and A0-016 have been live on main since
+  26 September in `exploratory_decisions.json`. That branch is disposable.
+- **Do not repeat this triage error.** A0 deliberately keeps two records, `decisions.json` at
+  the feasibility stage and `exploratory_decisions.json` at the exploratory stage, and its
+  `history/` holds two archive zips, only one of which has a sibling JSON record. A path-for-path
+  comparison of untracked files against `origin/main` will therefore report renamed, split or
+  already-archived content as new. **Classify untracked files content-addressed across the whole
+  tree and across every zip in `history/`, with line endings normalised**, before concluding that
+  anything is unpreserved.
 - **The primary checkout is clean and current as of 27 September 2026**, on `main` at
   `329c07c` with zero untracked entries. Its 2,158 untracked entries were classified
   first: 2,050 were cache artefacts that origin/main already ignores and that only showed
