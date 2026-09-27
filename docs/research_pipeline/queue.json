@@ -3,9 +3,9 @@
   "updated": "2026-09-27",
   "branch": "codex/computational-research-pipeline",
   "base_merge": "17ca9b49a4da29afef4214449ea940d1b62b999e",
-  "next_task": "C3",
+  "next_task": "C6",
   "active_processes": [],
-  "new_biological_analysis_executed": false,
+  "new_biological_analysis_executed": true,
   "task_policy": "One checkpoint per task; pending dependencies are not biological failures. Gate failure records its evidence and permits unrelated ready tasks.",
   "tasks": [
     {
@@ -37,26 +37,32 @@
     {
       "id": "C3",
       "task": "gate_and_pseudobulk_a11",
-      "status": "ready",
+      "status": "completed",
       "depends_on": [
         "C2"
-      ]
+      ],
+      "note": "gates passed: 73 of 73 lesion genes present, eligibility recomputed identical to the contract; 11 pseudobulk units over 2,370 type 2 cells",
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c3/"
     },
     {
       "id": "C4",
       "task": "score_a11_frozen_contrast",
-      "status": "pending",
+      "status": "completed",
       "depends_on": [
         "C3"
-      ]
+      ],
+      "note": "scored under the frozen contract; primary SCoV1 mean +0.260 log2 CPM with 4 of 4 donors positive, exact interval unavailable at n=4 as declared",
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c4/"
     },
     {
       "id": "C5",
       "task": "verify_and_report_a11",
-      "status": "pending",
+      "status": "completed",
       "depends_on": [
         "C4"
-      ]
+      ],
+      "note": "verified: 7 of 8 checks pass; the eighth is an added robustness probe showing the effect falls to +0.090 with 3 of 4 positive without trimmed-mean normalisation. The primary arm's type 2 cells are 0.6 per cent virus-positive, so the contrast measures a bystander response. Verdict unresolved; the cohort cannot carry this falsification under A11's inherited floors.",
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/"
     },
     {
       "id": "C6",

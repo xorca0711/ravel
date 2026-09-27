@@ -1,0 +1,12 @@
+{"task":"C3","scope":"gates and pseudobulk only; no score computed",
+"contract_sha_note":"read from docs/research_pipeline/config/a11_acute_injury_contract.json",
+"rds":"GSE198864_lung_combined_all.rds",
+"genes_in_index":50558,
+"lesion_specific_present":73,"lesion_specific_fraction":1.000000,
+"coverage_gate":0.70,"coverage_gate_passed":true,
+"eligible_pairs":{"SCoV1":4,"SCoV2":3,"MERS":2,"H3N2":1},
+"eligibility_matches_contract":true,
+"primary_arm":"SCoV1","secondary_arm":"SCoV2",
+"pseudobulk_units":11,"pseudobulk_genes":50558,
+"total_at2_cells_used":2370,
+"scores_computed":false}

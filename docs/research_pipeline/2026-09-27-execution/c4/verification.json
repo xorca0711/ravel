@@ -1,0 +1,93 @@
+{
+  "task": "C5 verification",
+  "scope": "checks only; no new inference and no decision changed",
+  "completed_utc": "2026-09-27T11:47:44.226237+00:00",
+  "script": "docs/research_pipeline/scripts/c5_verify_a11_acute.py",
+  "script_sha256": "f3853123fd7d5a30f4ba574b3f6d3735bb7436b6b0540c3b832f1366f035206e",
+  "inputs": {
+    "pseudobulk": {
+      "path": "at2_pseudobulk_counts.tsv.gz",
+      "sha256": "a6a91d31c8b0acaedd9ba9469ac3816978aeafbc7ae5c2d7f2b726ac5bc09054"
+    },
+    "inference": {
+      "path": "inference.tsv",
+      "sha256": "c0747bd882e3d2aca2832365738d2bab755e79eec48e2f9f7f77fb4e3d8efa96"
+    }
+  },
+  "checks": [
+    {
+      "check": "pseudobulk holds only non-negative integers",
+      "passed": true,
+      "detail": "50558 rows, 11 units"
+    },
+    {
+      "check": "per-unit totals match the library sizes R recorded",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "cell counts agree between C3 and the C4 normalisation table",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "every unit clears the inherited 50-cell floor",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "paired differences follow from the per-unit scores",
+      "passed": true,
+      "detail": "largest error 7.63e-15"
+    },
+    {
+      "check": "all 73 module genes are present in the pseudobulk",
+      "passed": true,
+      "detail": "73 of 73"
+    },
+    {
+      "check": "the primary direction survives dropping the trimmed-mean normalisation",
+      "passed": false,
+      "detail": "plain mean +0.0899 with 3 of 4 positive, against the TMM mean +0.2596 with 4 positive"
+    },
+    {
+      "check": "the exact interval is unavailable on every test, as the contract predicted",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "failures": 1,
+  "normalisation_free_recomputation": {
+    "SCoV1": {
+      "donors": [
+        "pat1",
+        "pat3",
+        "pat4",
+        "pat6"
+      ],
+      "differences": [
+        0.13021,
+        0.187328,
+        -0.0479,
+        0.089779
+      ],
+      "mean": 0.089854,
+      "donors_positive": 3
+    },
+    "SCoV2": {
+      "donors": [
+        "pat1",
+        "pat4",
+        "pat6"
+      ],
+      "differences": [
+        0.272553,
+        -0.003344,
+        -0.023981
+      ],
+      "mean": 0.081743,
+      "donors_positive": 1
+    }
+  },
+  "reading": "The direction in the primary arm does not depend on the trimmed-mean normalisation, and the exact interval the contract designated is unavailable at four pairs exactly as declared. Neither fact turns an unresolved result into a supported one."
+}
