@@ -3,9 +3,9 @@
 27 September 2026, **rewritten the same day after a three-lens adversarial review**. The first draft
 is superseded, not preserved separately, because almost every sentence in its argument changed; its
 wording is quoted below wherever it was wrong so the correction is visible. Executed under the
-contract frozen at [C2](../../config/a11_acute_injury_contract.json), gated at
-[C3](../c3/gate_report.json), scored at [C4](../c4/inference.tsv), extended by the post hoc
-diagnostics in this directory and by the identity restriction at [C6](../c6/) and [C7](../c7/).
+contract frozen at [C2](../config/gse198864_acute_injury_contract.json), gated at
+[C3](../tables/acute_injury_gse198864/gate/gate_report.json), scored at [C4](../tables/acute_injury_gse198864/scores/inference.tsv), extended by the post hoc
+diagnostics in this directory and by the identity restriction at [C6](../tables/acute_injury_gse198864/concordant_identity/) and [C7](../tables/acute_injury_gse198864/concordant_identity/).
 **No claim row is added and no register grade changes.**
 
 ## Verdict
@@ -43,8 +43,8 @@ primary. It contains the 0.10 margin, so the contract's `acute_induction_support
 so the data are as concordant with the predicted direction as the design permits. I did not patch the
 shared helper to report these, because it is A11's frozen instrument and altering it would change the
 A11 result it produced; they are recorded in
-[`gene_level_diagnostic.json`](gene_level_diagnostic.json) and recomputed directly in
-[C7](../c7/inference_concordant.tsv) instead.
+[`gene_level_diagnostic.json`](../tables/acute_injury_gse198864/diagnostics/gene_level_diagnostic.json) and recomputed directly in
+[C7](../tables/acute_injury_gse198864/concordant_identity/inference_concordant.tsv) instead.
 
 **The direction count is not separate evidence.** Four of four concordant signs is the sign test, at
 one-sided 0.0625 and two-sided 0.125, the same number as the exact p. The first draft and its
@@ -64,7 +64,7 @@ Over 2,000 matched random 73-gene sets:
 The displacement is invariant to about four decimal places and sits roughly 4.8 null standard
 deviations out. What the normalisation moves is the baseline, not the module signal, so the first
 draft's eighth verification check was measuring the wrong thing. Table:
-[`null_displacement.tsv`](null_displacement.tsv).
+[`null_displacement.tsv`](../tables/acute_injury_gse198864/diagnostics/null_displacement.tsv).
 
 **The stress-excluded agreement proves nothing about stress.** A11's exclusion drops 17 of the 73
 genes and retains the canonical inflammatory and stress names: TNF, RELB, IL23A, IL24, PTGS2, TRIB1,
@@ -81,7 +81,7 @@ actual test is to drop those genes:
 | Only those 16 | 16 | +0.3845 | 4 of 4 |
 
 The injury-responsive genes are enriched for the effect but do not carry it: the other 57 still move
-+0.2245 with every donor positive. Table: [`dropout_and_null.tsv`](dropout_and_null.tsv).
++0.2245 with every donor positive. Table: [`dropout_and_null.tsv`](../tables/acute_injury_gse198864/diagnostics/dropout_and_null.tsv).
 
 ## The confound the review found, and what happened when it was removed
 
@@ -134,7 +134,7 @@ The bystander reading survives and is stronger than the first draft argued: not 
 primary arm exceeds 1 per cent viral content. The first draft's influenza figure of 15.6 per cent was
 pooled over donors that are not eligible; within the one eligible donor it is 5.0 per cent. Its MERS
 figure of 309 cells was likewise pooled; within the two eligible donors it is 253 of 589. Table:
-[`virus_detection.tsv`](virus_detection.tsv).
+[`virus_detection.tsv`](../tables/acute_injury_gse198864/diagnostics/virus_detection.tsv).
 
 ## What this establishes
 

@@ -43,7 +43,7 @@ author <- ex & m$cluster == AUTHOR_LABEL
 concordant <- author & m$predicted.id == TRANSFER_LABEL
 
 ## ---- purity, per unit, on the cells C4 actually used ---------------------------------------
-u <- read.delim(file.path(repo, "docs/research_pipeline/2026-09-27-execution/c3/units.tsv"),
+u <- read.delim(file.path(repo, "RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/gate/units.tsv"),
                 stringsAsFactors = FALSE)
 lib <- Matrix::colSums(counts)
 rows <- list()

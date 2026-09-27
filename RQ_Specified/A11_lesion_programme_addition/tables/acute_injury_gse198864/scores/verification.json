@@ -2,7 +2,7 @@
   "task": "C5 verification",
   "scope": "checks only; no new inference and no decision changed",
   "completed_utc": "2026-09-27T11:47:44.226237+00:00",
-  "script": "docs/research_pipeline/scripts/c5_verify_a11_acute.py",
+  "script": "RQ_Specified/A11_lesion_programme_addition/scripts/10_verify_acute.py",
   "script_sha256": "f3853123fd7d5a30f4ba574b3f6d3735bb7436b6b0540c3b832f1366f035206e",
   "inputs": {
     "pseudobulk": {
@@ -94,5 +94,6 @@
   "failing_checks": [
     "the primary direction survives dropping the trimmed-mean normalisation"
   ],
-  "note_on_the_superseded_reading": "the earlier text asserted that the direction does not depend on the normalisation, which contradicted this file's own failing check; it is kept above so the correction is visible"
+  "note_on_the_superseded_reading": "the earlier text asserted that the direction does not depend on the normalisation, which contradicted this file's own failing check; it is kept above so the correction is visible",
+  "relocated_2026_09_27": "this record was written while the assay lived under docs/research_pipeline/; the script and output paths above were rewritten when the assay moved into the question hierarchy, and the move is recorded in docs/migrations/2026-09-27-a11-acute-into-rq/"
 }

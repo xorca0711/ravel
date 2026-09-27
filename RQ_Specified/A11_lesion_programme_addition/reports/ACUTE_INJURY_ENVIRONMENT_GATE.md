@@ -1,7 +1,7 @@
 # C1 environment gate: the object does not fit in this machine as it stands
 
 27 September 2026, recorded by the session that picked up
-[the handoff](../../../handoffs/2026-09-27-computational-research.md). **C1 is not complete
+[the handoff](../../../docs/handoffs/2026-09-27-computational-research.md). **C1 is not complete
 and not failed. It is blocked on memory, and the block is measured rather than estimated.**
 No module score was computed, no contract was frozen and nothing was committed.
 
@@ -23,7 +23,7 @@ object from the download size will be out by more than threefold.
 
 ## Why the drafted script was not run
 
-[`scripts/inspect_gse198864.R`](../../scripts/inspect_gse198864.R), left untracked by the
+[`scripts/inspect_gse198864.R`](../scripts/05_inspect_gse198864.R), left untracked by the
 previous session, is sound for its purpose: it reads attributes through base R without Seurat,
 dumps cell metadata and the metadata field inventory, records assay slots and dimensions,
 checks the count matrix for non-finite, negative and non-integer values, and writes per-cell

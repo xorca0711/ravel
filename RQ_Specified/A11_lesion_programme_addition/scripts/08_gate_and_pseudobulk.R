@@ -23,7 +23,7 @@ dir.create(out, recursive = TRUE, showWarnings = FALSE)
 dir.create(cache, recursive = TRUE, showWarnings = FALSE)
 if (file.exists(file.path(out, "gate_report.json"))) stop("Refusing to overwrite the C3 gate")
 
-contract_path <- file.path(repo, "docs/research_pipeline/config/a11_acute_injury_contract.json")
+contract_path <- file.path(repo, "RQ_Specified/A11_lesion_programme_addition/config/gse198864_acute_injury_contract.json")
 stopifnot(file.exists(contract_path))
 contract_text <- paste(readLines(contract_path, warn = FALSE), collapse = "\n")
 ## Read the few fields we need without a JSON package.
@@ -117,7 +117,7 @@ write.table(units, file.path(out, "units.tsv"), sep = "\t", row.names = FALSE, q
 
 report <- c(
   sprintf('{"task":"C3","scope":"gates and pseudobulk only; no score computed",'),
-  sprintf('"contract_sha_note":"read from %s",', "docs/research_pipeline/config/a11_acute_injury_contract.json"),
+  sprintf('"contract_sha_note":"read from %s",', "RQ_Specified/A11_lesion_programme_addition/config/gse198864_acute_injury_contract.json"),
   sprintf('"rds":"%s",', basename(rds)),
   sprintf('"genes_in_index":%d,', length(index)),
   sprintf('"lesion_specific_present":%d,"lesion_specific_fraction":%.6f,',

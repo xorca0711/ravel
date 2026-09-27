@@ -117,7 +117,7 @@ def main() -> None:
         "task": "C5b, post hoc diagnostic",
         "declared": "post hoc; not in the frozen contract; changes no decision",
         "completed_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "script": "docs/research_pipeline/scripts/c5b_gene_level_diagnostic.py",
+        "script": "RQ_Specified/A11_lesion_programme_addition/scripts/11_gene_level_diagnostic.py",
         "script_sha256": sha256(Path(__file__).resolve()),
         "inputs": {"pseudobulk": {"path": pb.name, "sha256": sha256(pb)}},
         "primary_arm": PRIMARY_ARM,

@@ -162,7 +162,7 @@ def main() -> None:
         "task": "C5 verification",
         "scope": "checks only; no new inference and no decision changed",
         "completed_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "script": "docs/research_pipeline/scripts/c5_verify_a11_acute.py",
+        "script": "RQ_Specified/A11_lesion_programme_addition/scripts/10_verify_acute.py",
         "script_sha256": sha256(Path(__file__).resolve()),
         "inputs": {
             "pseudobulk": {"path": pb_path.name, "sha256": sha256(pb_path)},
