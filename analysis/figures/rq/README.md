@@ -12,6 +12,10 @@ in each caption remain the numerical sources. Script 16 owns A1/A3/A4/A5;
 script 18 owns the current A2 and A6–A9. Scripts 19–21 prepare/render/validate
 A11/A12/A12-S1/A14; see [their report](il1b_context/REPORT.md).
 Paper-local A1, Nb1 and ES1 galleries retain their own producers and provenance.
+Figures that live inside the question folders are indexed separately, with the
+document that captions each one, in the
+[question figure gallery](../../../RQ_Specified/FIGURES.md); six questions there
+hold no figure at all, which that page states rather than leaving blank.
 
 The former `rq_a2_ligands.png` is a historical output, excluded from this current
 selection; it must not replace `rq_a2_source_rank.png`. A3's title and display
@@ -41,7 +45,7 @@ are still conditional on eligibility.
 
 <a id="a1"></a>
 
-## A1. RNA/chromatin measurements — supporting diagnostics
+## A1. RNA/chromatin measurements: supporting diagnostics
 
 The question-specific [A1 gallery](../../../RQ_Specified/A1_transitional_epithelial_state_distinction/figures/README.md)
 now includes verified IRE1α stability, native histone/H3 profiles, one-donor
@@ -60,7 +64,14 @@ expose HPCS source influence, annotation differences and chase/library aliasing.
 
 <a id="a2"></a>
 
-## A2. AREG sources and ranks — supporting diagnostics
+## A2. AREG sources and ranks: supporting diagnostics
+
+The register has since rewritten A2 around delivery rather than abundance, so the
+panel below is a source-abundance diagnostic for a question that no longer turns
+on abundance. It is retained because the abundance measurement is still what it
+was; the current question, its two executed legs and the unresolved verdict are
+at [A2_areg_source_delivery](../../../RQ_Specified/A2_areg_source_delivery/README.md),
+which produced tables and no figure.
 
 ![AREG donor-paired detection and resource-dependent ranks](../../../analysis/figures/rq/rq_a2_source_rank.png)
 
@@ -68,7 +79,7 @@ expose HPCS source influence, annotation differences and chase/library aliasing.
 
 <a id="a3"></a>
 
-## A3. Population states across infection sampling times — descriptive
+## A3. Population states across infection sampling times: descriptive
 
 ![A3: myeloid and capillary states by phase](../../../analysis/figures/rq/rq_a3_persistence.png)
 
@@ -76,7 +87,7 @@ expose HPCS source influence, annotation differences and chase/library aliasing.
 
 <a id="a4"></a>
 
-## A4. AT2 Wnt/IL-1 transcript context — descriptive
+## A4. AT2 Wnt/IL-1 transcript context: descriptive
 
 ![A4: Axin2 and Il1r1 in AT2 nuclei](../../../analysis/figures/rq/rq_a4_axin2_il1r1.png)
 
@@ -111,7 +122,7 @@ show the sampling and transcript-level context.*
 
 <a id="a5"></a>
 
-## A5. Developmental and injury programmes — descriptive motivation
+## A5. Developmental and injury programmes: descriptive motivation
 
 ![A5: the transitional marker set in development and after injury](../../../analysis/figures/rq/rq_a5_development.png)
 
@@ -129,7 +140,7 @@ measurements and coverage checks, not replicated fate inference (C165–C168).*
 
 <a id="a6"></a>
 
-## A6. Macrophage composition — descriptive motivation
+## A6. Macrophage composition: descriptive motivation
 
 ![Macrophage state fractions and proliferating-state transcript contributions](../../../analysis/figures/rq/rq_a6_composition.png)
 
@@ -137,7 +148,7 @@ measurements and coverage checks, not replicated fate inference (C165–C168).*
 
 <a id="a7"></a>
 
-## A7. Genotype and AT2 identity — descriptive motivation
+## A7. Genotype and AT2 identity: descriptive motivation
 
 ![AT2 programme detection in reference and labelled states by genotype](../../../analysis/figures/rq/rq_a7_genotype_reference.png)
 
@@ -145,7 +156,7 @@ measurements and coverage checks, not replicated fate inference (C165–C168).*
 
 <a id="a8"></a>
 
-## A8. Shared/unique programme definitions — supporting diagnostics
+## A8. Shared/unique programme definitions: supporting diagnostics
 
 ![Gene-list overlap and epithelial programme contrasts](../../../analysis/figures/rq/rq_a8_signature_specificity.png)
 
@@ -153,7 +164,7 @@ measurements and coverage checks, not replicated fate inference (C165–C168).*
 
 <a id="a9"></a>
 
-## A9. Receptor coverage — supporting diagnostics
+## A9. Receptor coverage: supporting diagnostics
 
 ![Donor coverage by ligand, resource and receptor definition](../../../analysis/figures/rq/rq_a9_receptor_coverage.png)
 
@@ -161,7 +172,7 @@ measurements and coverage checks, not replicated fate inference (C165–C168).*
 
 <a id="a10"></a>
 
-## A10. Outcome-linked organoid analysis — proposed design
+## A10. Outcome-linked organoid analysis: proposed design
 
 ```mermaid
 flowchart TD
@@ -181,7 +192,7 @@ fate or in vivo repair.*
 
 <a id="a11"></a>
 
-## A11. Epithelial programmes — measured panels and extension menu
+## A11. Epithelial programmes: measured panels and extension menu
 
 **Generated A11:** A, PCA of 70 patient-histology pseudobulks; B, reduced-HPCS
 violins for 23 paired patients; C, all seven released paired contrasts;
@@ -228,7 +239,7 @@ Histology differences are cross-sectional, not a progression time course.
 
 <a id="a12"></a>
 
-## A12. Recipient components, enrichment and ligand targets — measured panels
+## A12. Recipient components, enrichment and ligand targets: measured panels
 
 **A12 panels.**
 
@@ -279,7 +290,7 @@ direction and sensitivity tables remain available in the original reports.
 
 <a id="a12-s1"></a>
 
-### A12-S1. Source identity — enabling diagnostics
+### A12-S1. Source identity: enabling diagnostics
 
 **Enabling question.** Do IL1B-expressing cells without confident fine labels
 represent coherent cell states, mixed profiles or measurement background?
@@ -307,7 +318,7 @@ and any reviewed alternative labels as separately versioned results.
 
 <a id="a13"></a>
 
-## A13. Fibroblast joint associations — proposed panels
+## A13. Fibroblast joint associations: proposed panels
 
 **A13 panels.**
 
@@ -330,9 +341,16 @@ and any reviewed alternative labels as separately versioned results.
 
 **Eligibility and decision.** Count complete triads before estimating joint
 associations. Existing IPF triad counts (six and three donors) do not reach the
-project's ten-unit joint-association floor. Human eligibility must be audited
-for the exact variables and paired contrast; 23 cohort patients does not mean
-23 complete triads. A floor is not a power guarantee. Weak coverage produces
+project's ten-unit joint-association floor. The human audit this paragraph used
+to ask for has since run: no Kim patient holds a complete paired triad at the
+50-cell floor under the type 2 epithelial definition the IPF cohorts use, because
+no tumour sample carries a type 2 label, and admitting the tumour epithelial
+states gives three, both far below the ten-patient floor. The binding constraint
+then moves to fibroblast capture, whose largest label reaches 50 cells in 10 of
+22 samples with a median of 32.5. See the
+[coverage result](../../../RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md).
+So 23 cohort patients did not mean 23 complete triads, and a coverage panel is
+what these data support. A floor is not a power guarantee. Weak coverage produces
 a coverage panel, not a mediation fit. Replicated association would prioritize
 a functional test; it would not demonstrate a feedback loop.
 
@@ -342,7 +360,7 @@ a functional test; it would not demonstrate a feedback loop.
 
 <a id="a14"></a>
 
-## A14. Withdrawal and recipient perturbation — proposed experiment
+## A14. Withdrawal and recipient perturbation: proposed experiment
 
 **A14 panels, requiring new evidence.**
 

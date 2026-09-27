@@ -12,7 +12,9 @@ The [research roadmap](../docs/RESEARCH_ROADMAP.md) groups the questions into si
 
 The canonical questions remain in [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md).
 This directory holds question-specific plans, executable workflows, metadata,
-tables and galleries. Source-paper analyses belong in `Research Article/`.
+tables and galleries. The [figure gallery index](FIGURES.md) lists every tracked
+figure and the document that captions it, and names the six questions that
+produced none. Source-paper analyses belong in `Research Article/`.
 
 | Question | Analysis | Status |
 |---|---|---|
