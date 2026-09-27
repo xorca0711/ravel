@@ -339,6 +339,12 @@ no endpoint scored, no claim row added, no grade changed.
   A3's gate is met by GSE303646 but A3 still carries A6's annotation defect. A5, A11 and A13
   have named candidates needing an eligibility count. A4, A7, A8, A9, A12 and A14 are blocked
   with stated constraints. A15 was excluded; its own session audited it.
+- A13 coverage is counted in `RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/` and its
+  gate is not met: zero complete paired triads in GSE131907 at the 50-cell floor under the
+  type 2 epithelial definition, three under a wider one, against a ten-patient floor. The zero
+  is definitional, because every tumour sample there holds zero type 2 labelled cells. The
+  triad rule is label-level, not pooled, and is now recorded in MC2; a count using the pooled
+  rule will not be comparable with the six and three the A13 card quotes. Nothing was fitted.
 - Earlier state, preserved: stages 1 and 2 ran with nothing scored. The first
   freeze `config/a2_stage2_freeze.json` is **withdrawn and preserved**;
   `config/a2_stage2_freeze_v2.json` is the authority, and

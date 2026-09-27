@@ -28,7 +28,6 @@ HERE = Path(__file__).resolve().parents[1]
 ROOT = HERE.parents[1]
 OUT = HERE / "tables"
 SPEC = HERE / "config/a13_triad_coverage_spec.json"
-PRIOR = ROOT / "Research Article/gate2_05_cardoso_2026"  # placeholder, corrected below
 PRIOR_TABLE = ROOT / "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/complete_triad_coverage.csv"
 OUTPUTS = ["a13_triad_counts.tsv", "a13_reproduction_check.tsv", "a13_coverage_run.json"]
 FLOORS = [30, 50, 100]
@@ -67,15 +66,31 @@ def classify(label: str, mapping: dict) -> str | None:
 
 
 def count_cells(rows: list[dict], label_col: str, unit_col: str, mapping: dict) -> dict:
-    counts: dict[str, dict[str, int]] = {}
+    """Per unit, the cell count of every label that belongs to a compartment."""
+    counts: dict[str, dict[str, dict[str, int]]] = {}
     for r in rows:
         compartment = classify(r[label_col], mapping)
         if compartment is None:
             continue
         unit = r[unit_col]
-        counts.setdefault(unit, {"epithelial": 0, "fibroblast": 0, "myeloid": 0})
-        counts[unit][compartment] += 1
+        counts.setdefault(unit, {"epithelial": {}, "fibroblast": {}, "myeloid": {}})
+        per_label = counts[unit][compartment]
+        per_label[r[label_col]] = per_label.get(r[label_col], 0) + 1
     return counts
+
+
+def largest(per_label: dict) -> int:
+    return max(per_label.values()) if per_label else 0
+
+
+def pooled(per_label: dict) -> int:
+    return sum(per_label.values())
+
+
+def complete(c: dict, floor: int, rule: str) -> bool:
+    """The earlier gate required one single label to reach the floor. Pooling is a sensitivity."""
+    size = largest if rule == "single_label" else pooled
+    return all(size(c[k]) >= floor for k in ("epithelial", "fibroblast", "myeloid"))
 
 
 def main() -> None:
@@ -120,18 +135,22 @@ def main() -> None:
         ipf_counts[cohort] = (counts, disease)
         for unit, c in sorted(counts.items()):
             for floor in FLOORS:
-                complete = all(c[k] >= floor for k in ("epithelial", "fibroblast", "myeloid"))
-                rows_out.append({"cohort": cohort, "unit": unit, "unit_kind": "donor",
-                                 "group": disease.get(unit, ""), "floor": floor,
-                                 "epithelial": c["epithelial"], "fibroblast": c["fibroblast"],
-                                 "myeloid": c["myeloid"], "complete_triad": complete,
-                                 "epithelial_definition": "primary"})
+                for rule in ("single_label", "pooled"):
+                    size = largest if rule == "single_label" else pooled
+                    rows_out.append({"cohort": cohort, "unit": unit, "unit_kind": "donor",
+                                     "group": disease.get(unit, ""), "floor": floor, "rule": rule,
+                                     "epithelial": size(c["epithelial"]),
+                                     "fibroblast": size(c["fibroblast"]),
+                                     "myeloid": size(c["myeloid"]),
+                                     "complete_triad": complete(c, floor, rule),
+                                     "epithelial_definition": "primary"})
         print("%s: %d donors counted" % (cohort, len(counts)), flush=True)
 
     # ---------------------------------------------------------------- reproduction check
     prior = read_rows(PRIOR_TABLE, ",")
     mine = {(r["cohort"], r["unit"], int(r["floor"])): bool(r["complete_triad"])
-            for r in rows_out if r["cohort"] in ("GSE136831", "GSE135893")}
+            for r in rows_out
+            if r["cohort"] in ("GSE136831", "GSE135893") and r["rule"] == "single_label"}
     disagreements = 0
     for p in prior:
         key = (p["cohort"], p["donor"], int(p["floor"]))
@@ -175,41 +194,49 @@ def main() -> None:
             if compartment is None:
                 continue
             key = (r["_patient"], r["_origin"])
-            per_sample.setdefault(key, {"epithelial": 0, "fibroblast": 0, "myeloid": 0})
-            per_sample[key][compartment] += 1
+            per_sample.setdefault(key, {"epithelial": {}, "fibroblast": {}, "myeloid": {}})
+            per_label = per_sample[key][compartment]
+            label = r[cfg["label_column"]]
+            per_label[label] = per_label.get(label, 0) + 1
         for (patient, origin), c in sorted(per_sample.items()):
             for floor in FLOORS:
-                complete = all(c[k] >= floor for k in ("epithelial", "fibroblast", "myeloid"))
-                rows_out.append({"cohort": "GSE131907", "unit": "%s_%s" % (patient, origin),
-                                 "unit_kind": "sample", "group": origin, "floor": floor,
-                                 "epithelial": c["epithelial"], "fibroblast": c["fibroblast"],
-                                 "myeloid": c["myeloid"], "complete_triad": complete,
-                                 "epithelial_definition": variant})
-        paired = {}
+                for rule in ("single_label", "pooled"):
+                    size = largest if rule == "single_label" else pooled
+                    rows_out.append({"cohort": "GSE131907", "unit": "%s_%s" % (patient, origin),
+                                     "unit_kind": "sample", "group": origin, "floor": floor,
+                                     "rule": rule,
+                                     "epithelial": size(c["epithelial"]),
+                                     "fibroblast": size(c["fibroblast"]),
+                                     "myeloid": size(c["myeloid"]),
+                                     "complete_triad": complete(c, floor, rule),
+                                     "epithelial_definition": variant})
         patients = sorted({p for p, _ in per_sample})
-        for floor in FLOORS:
-            both = []
-            for p in patients:
-                ok = True
-                for origin in ("tumour", "normal"):
-                    c = per_sample.get((p, origin))
-                    if c is None or not all(c[k] >= floor for k in ("epithelial", "fibroblast", "myeloid")):
-                        ok = False
-                if ok:
-                    both.append(p)
-            paired[floor] = both
-            for p in patients:
-                rows_out.append({"cohort": "GSE131907", "unit": p, "unit_kind": "patient_paired",
-                                 "group": "tumour_and_normal", "floor": floor,
-                                 "epithelial": "", "fibroblast": "", "myeloid": "",
-                                 "complete_triad": p in both, "epithelial_definition": variant})
-        kim[variant] = {"patients_with_both_samples": len([p for p in patients
-                                                           if (p, "tumour") in per_sample and (p, "normal") in per_sample]),
-                        "patients_seen": len(patients),
-                        "complete_paired_triads": {str(f): len(v) for f, v in paired.items()},
-                        "paired_patients_at_primary_floor": paired[floor_primary]}
-        print("GSE131907 %s epithelial definition: complete paired triads %s"
-              % (variant, {f: len(v) for f, v in paired.items()}), flush=True)
+        paired: dict[str, dict[int, list]] = {"single_label": {}, "pooled": {}}
+        for rule in ("single_label", "pooled"):
+            for floor in FLOORS:
+                both = [p for p in patients
+                        if all((p, o) in per_sample and complete(per_sample[(p, o)], floor, rule)
+                               for o in ("tumour", "normal"))]
+                paired[rule][floor] = both
+                for p in patients:
+                    rows_out.append({"cohort": "GSE131907", "unit": p,
+                                     "unit_kind": "patient_paired",
+                                     "group": "tumour_and_normal", "floor": floor, "rule": rule,
+                                     "epithelial": "", "fibroblast": "", "myeloid": "",
+                                     "complete_triad": p in both,
+                                     "epithelial_definition": variant})
+        kim[variant] = {
+            "patients_seen": len(patients),
+            "patients_with_both_samples": len([p for p in patients
+                                               if (p, "tumour") in per_sample
+                                               and (p, "normal") in per_sample]),
+            "complete_paired_triads_single_label": {str(f): len(v) for f, v in paired["single_label"].items()},
+            "complete_paired_triads_pooled": {str(f): len(v) for f, v in paired["pooled"].items()},
+            "paired_patients_at_primary_floor_single_label": paired["single_label"][floor_primary],
+        }
+        print("GSE131907 %s epithelial definition: paired triads single-label %s, pooled %s"
+              % (variant, {f: len(v) for f, v in paired["single_label"].items()},
+                 {f: len(v) for f, v in paired["pooled"].items()}), flush=True)
 
     with open(OUT / OUTPUTS[0], "w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows_out[0].keys()), delimiter="\t", lineterminator="\n")
@@ -217,7 +244,7 @@ def main() -> None:
         for r in rows_out:
             w.writerow(r)
 
-    primary = kim["primary"]["complete_paired_triads"][str(floor_primary)]
+    primary = kim["primary"]["complete_paired_triads_single_label"][str(floor_primary)]
     gate = spec["question"]["joint_model_floor_patients"]
     verdict = ("gate met: %d patients hold a complete paired triad at the %d-cell floor, at or above the %d-patient floor"
                % (primary, floor_primary, gate) if primary >= gate else
@@ -236,12 +263,14 @@ def main() -> None:
                         "rows": len(prior), "disagreements": disagreements},
         "floors": FLOORS,
         "primary_floor": floor_primary,
-        "ipf_cohorts_at_primary_floor": {
+        "primary_rule": "one single cell label at or above the floor; pooling is a declared sensitivity",
+        "ipf_cohorts_at_primary_floor_single_label": {
             cohort: {
                 group: sum(1 for r in rows_out
                            if r["cohort"] == cohort and r["floor"] == floor_primary
-                           and r["complete_triad"] and str(r["group"]).lower().startswith(group.lower()))
-                for group in (["IPF", "Control"] if cohort == "GSE135893" else ["IPF", "Control"])
+                           and r["rule"] == "single_label" and r["complete_triad"]
+                           and str(r["group"]).lower().startswith(group.lower()))
+                for group in ["IPF", "Control"]
             } for cohort in ["GSE136831", "GSE135893"]
         },
         "kim_cohort": kim,
