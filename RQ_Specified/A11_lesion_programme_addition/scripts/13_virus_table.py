@@ -104,7 +104,7 @@ def main() -> None:
         "task": "C5d, post hoc",
         "declared": "post hoc; corrects three narrative figures and changes no decision",
         "completed_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "script": "docs/research_pipeline/scripts/c5d_virus_table.py",
+        "script": "RQ_Specified/A11_lesion_programme_addition/scripts/13_virus_table.py",
         "script_sha256": sha256(Path(__file__).resolve()),
         "inputs": {"cell_metadata": sha256(a.metadata), "gene_index": sha256(a.gene_index)},
         "virus_field_definition": "the object's virus field is a detection call, non-none when the cell carries at least one read assigned to that virus; it is not an infection assay and a droplet assay can miss low-load infected cells",

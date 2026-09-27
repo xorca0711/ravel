@@ -160,7 +160,7 @@ def main() -> None:
         "task": "C1, GEO half",
         "scope": "series metadata only; the count object is not read and no join is verified here",
         "completed_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "script": "docs/research_pipeline/scripts/c1_geo_crosswalk.py",
+        "script": "RQ_Specified/A11_lesion_programme_addition/scripts/06_geo_crosswalk.py",
         "script_sha256": sha256(Path(__file__).resolve()),
         "input": {"path": "docs/roadmap_runs/2026-09-27-followthrough/metadata/GSE198864.json",
                   "sha256": sha256(METADATA)},

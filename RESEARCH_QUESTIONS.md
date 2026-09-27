@@ -652,6 +652,15 @@ be fitted on this coverage. This finding is confined to the inspected datasets a
 definitions; different capture, sampling or more independently eligible patients can
 change coverage. The ten-unit floor does not itself establish power or model adequacy.
 
+A [second assay under this question](RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md)
+asks whether the same frozen module rises in acute injury, which would challenge a tumour-associated
+reading. In GSE198864 lung explants it is higher in SARS-CoV-1 infected than in medium-matched mock
+type 2 cells by +0.225 log2 CPM across three identity-concordant paired donors, positive in all
+three, at an exact p of 0.25 which is the floor at that unit count; the beyond-shared contrast is
+-0.039, so the rise is not separable from the shared component, and the cells scored are bystanders
+at 5 viral reads in 1,039 cells. Unresolved, and tumour specificity is untouched in either
+direction.
+
 A [separately frozen GSE308103 pilot](docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md) subsequently verified 12 paired triads with fixed AT2 and alveolar-fibroblast labels and explicit broad assigned macrophages, an amended compartment rule. Adding the frozen fibroblast RNA programme worsened primary held-out RMSE from 0.2283 to 0.2373 and worsened every eligible sensitivity. It is not independent confirmation or a test of feedback. The two external candidates are resolved: GSE233844 is blood; author annotations for GSE122960 fail the ten-unit gate.
 [Figure plan/spatial evidence](analysis/figures/rq/README.md#a13): coverage heatmap
 first, then patient effects if eligible. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),

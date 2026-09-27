@@ -2,7 +2,7 @@
 
 27 September 2026. **C1 is complete. No module score was computed, no contract was frozen and
 C2 has not been started.** Every number below comes from this directory's tables and their run
-records. The earlier [environment gate](ENVIRONMENT_GATE.md) records the memory measurement
+records. The earlier [environment gate](ACUTE_INJURY_ENVIRONMENT_GATE.md) records the memory measurement
 that blocked the first attempt and is superseded by this run.
 
 ## What had to be fixed before the drafted script would run
@@ -13,7 +13,7 @@ published file cannot reach the serialization. Stripping the outer layer once gi
 `.rds` that R reads normally. The true serialized size is 6.54 GB and the loaded object reports
 7.09 GB, so anyone sizing this object from the download figure is out by more than threefold.
 
-The previous session's [`inspect_gse198864.R`](../../scripts/inspect_gse198864.R) was left
+The previous session's [`inspect_gse198864.R`](../scripts/05_inspect_gse198864.R) was left
 untracked and unrun. It was run here unchanged. It is sound for C1: it reads slots through base R
 without Seurat, dumps the cell metadata and its field inventory, records assay slots and
 dimensions, checks the count matrix, and computes per-cell totals. It computes no programme score.
@@ -88,4 +88,4 @@ The queue advances to C2 and nothing else changes. No contract exists, so there 
 donor set and no frozen contrast. `new_biological_analysis_executed` stays false, the register is
 untouched and no claim row was added. The first crosswalk attempt, whose donor parser did not fit
 the explant titles, is preserved in
-[`geo_attempt1_parser_defect/`](geo_attempt1_parser_defect/).
+[`geo_attempt1_parser_defect/`](../tables/acute_injury_gse198864/intake/geo_attempt1_parser_defect/).

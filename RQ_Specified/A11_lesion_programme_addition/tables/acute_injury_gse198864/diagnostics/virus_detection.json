@@ -2,7 +2,7 @@
   "task": "C5d, post hoc",
   "declared": "post hoc; corrects three narrative figures and changes no decision",
   "completed_utc": "2026-09-27T12:33:08.816207+00:00",
-  "script": "docs/research_pipeline/scripts/c5d_virus_table.py",
+  "script": "RQ_Specified/A11_lesion_programme_addition/scripts/13_virus_table.py",
   "script_sha256": "1dcf09b1725151eaaf281d749df0acc8096fa2aefefea7773b67baf1e6553d77",
   "inputs": {
     "cell_metadata": "53c14a1f41aa22b3d00493254230beff0ca91f55e71a6ae58b025c208c55bdd2",
@@ -90,5 +90,6 @@
     "cells_above_1pc_viral": 0,
     "donors": "pat1,pat3,pat4,pat6"
   },
-  "changes_no_decision": true
+  "changes_no_decision": true,
+  "relocated_2026_09_27": "this record was written while the assay lived under docs/research_pipeline/; the script and output paths above were rewritten when the assay moved into the question hierarchy, and the move is recorded in docs/migrations/2026-09-27-a11-acute-into-rq/"
 }

@@ -100,7 +100,7 @@ def main() -> None:
         "task": "C1, object half",
         "scope": "cached cell metadata only; no count matrix and no expression is read, and no score is produced",
         "completed_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "script": "docs/research_pipeline/scripts/c1_object_design.py",
+        "script": "RQ_Specified/A11_lesion_programme_addition/scripts/07_object_design.py",
         "script_sha256": sha256(Path(__file__).resolve()),
         "input": {"path": str(args.metadata).replace("\\", "/"), "sha256": sha256(args.metadata)},
         "explant_cells": len(explant),

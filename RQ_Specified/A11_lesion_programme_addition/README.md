@@ -15,6 +15,24 @@ is positive (BH q=0.0234). The beyond-shared comparison is unresolved (BH q=0.05
 so the stronger relative-activation criterion is not met. Cancer specificity,
 malignant identity and a separate mechanism remain unestablished.
 
+## Second assay: the acute-injury falsification in GSE198864
+
+A separate assay under this question asks whether the same frozen module rises in acute injury,
+which would challenge a tumour-associated reading of it. It has its own contract, its own cohort and
+its own verdict, and it does not revise the Kim test above.
+
+**Verdict: unresolved.** In lung explants the module is higher in SARS-CoV-1 infected than in
+medium-matched mock type 2 cells by +0.225 log2 CPM across three identity-concordant paired donors,
+positive in all three, at an exact p of 0.25 which is the floor at that unit count. The
+beyond-shared contrast is -0.039, so the rise is not separable from the shared remodelling component
+rising with it. The type 2 cells scored carry a viral read in 5 of 1,039, so this is a bystander
+response. These explants come from surgical cancer patients and are not a cancer-naive population.
+
+Read the [results](reports/ACUTE_INJURY_RESULTS.md), the [intake](reports/ACUTE_INJURY_INTAKE.md)
+and the [contract](config/gse198864_acute_injury_contract.json). The assay was executed under the
+computational pipeline and moved into this folder afterwards; the move is recorded in
+[the migration note](../../docs/migrations/2026-09-27-a11-acute-into-rq/README.md).
+
 ## Why the test moved to a new cohort
 
 The lesion-specific module frozen by the
@@ -30,6 +48,10 @@ been scored with these modules.
 |---|---|
 | [PLAN.md](PLAN.md) | The pre-registration: populations, instrument, estimands, decision rules, power |
 | [config/kim2020_test_contract.json](config/kim2020_test_contract.json) | The same, machine-readable |
+| [config/gse198864_acute_injury_contract.json](config/gse198864_acute_injury_contract.json) | The second assay's frozen contract |
+| [reports/](reports/) | The second assay's intake, environment gate and results |
+| `tables/acute_injury_gse198864/` | Its intake, gate, scores, diagnostics and identity-concordant outputs |
+| `scripts/05` to `scripts/15` | Its instruments, continuing this folder's numbering |
 | `scripts/00_power_calculation.py` | Power from the discovery's tracked differences only |
 | `scripts/01_eligibility_gates.py` | Gene coverage and patient eligibility from names and labels only |
 | `tables/` | Power, pairing, cell counts, coverage and run records |

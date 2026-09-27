@@ -2,7 +2,7 @@
   "task": "C1, GEO half",
   "scope": "series metadata only; the count object is not read and no join is verified here",
   "completed_utc": "2026-09-27T11:30:44.355802+00:00",
-  "script": "docs/research_pipeline/scripts/c1_geo_crosswalk.py",
+  "script": "RQ_Specified/A11_lesion_programme_addition/scripts/06_geo_crosswalk.py",
   "script_sha256": "a145308a2d8e13bf4e2a29e5e1e9bf87fa48b50702b0e073399a250d99d4e293",
   "input": {
     "path": "docs/roadmap_runs/2026-09-27-followthrough/metadata/GSE198864.json",
@@ -157,5 +157,6 @@
     "Donor is parsed from the title and is a metadata reading, not an object-verified identity.",
     "Nothing here establishes which libraries the count object actually contains, nor its cell labels."
   ],
-  "joins_verified_against_object": false
+  "joins_verified_against_object": false,
+  "relocated_2026_09_27": "this record was written while the assay lived under docs/research_pipeline/; the script and output paths above were rewritten when the assay moved into the question hierarchy, and the move is recorded in docs/migrations/2026-09-27-a11-acute-into-rq/"
 }

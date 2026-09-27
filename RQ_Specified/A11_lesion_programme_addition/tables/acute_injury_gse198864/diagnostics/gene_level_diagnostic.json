@@ -2,7 +2,7 @@
   "task": "C5b, post hoc diagnostic",
   "declared": "post hoc; not in the frozen contract; changes no decision",
   "completed_utc": "2026-09-27T12:08:40.155607+00:00",
-  "script": "docs/research_pipeline/scripts/c5b_gene_level_diagnostic.py",
+  "script": "RQ_Specified/A11_lesion_programme_addition/scripts/11_gene_level_diagnostic.py",
   "script_sha256": "e0de6efeed5e9ba3d90e688372a5dd7f9ee7e8c5e2ca7f94af4d37b030bbc4a4",
   "inputs": {
     "pseudobulk": {
@@ -170,5 +170,6 @@
     "share_of_net_shift_carried_by_top_10": 1.545,
     "reading": "the net shift is a small residue of large opposing gene movements, and several of the largest positive movers are canonical injury responders, so the module label carries less of the result than its name suggests"
   },
-  "changes_no_decision": true
+  "changes_no_decision": true,
+  "relocated_2026_09_27": "this record was written while the assay lived under docs/research_pipeline/; the script and output paths above were rewritten when the assay moved into the question hierarchy, and the move is recorded in docs/migrations/2026-09-27-a11-acute-into-rq/"
 }

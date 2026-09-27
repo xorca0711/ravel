@@ -37,7 +37,7 @@ Validation before merge: 56 unit tests; compileall; 18 numeric bindings; Nb1 evi
 - Public source: [GEO RDS](https://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198864/suppl/GSE198864_lung_combined_all.rds.gz).
 - Bytes: `2115735865`.
 - SHA-256: `db0e696ddebe71d097ef84050d985b8e0affa231283038916410d869d301b5e5`.
-- Retrieval record: [tracked copy](../research_pipeline/GSE198864_retrieval.json); original `raw_data/GSE198864/retrieval.json`.
+- Retrieval record: [tracked copy](../../RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/intake/GSE198864_retrieval.json); original `raw_data/GSE198864/retrieval.json`.
 - Do not download the 9.9-GB RAW tar merely to discover labels. Do not commit the RDS.
 - The download completed in this session. Hashes certify bytes, not count semantics or scientific eligibility.
 

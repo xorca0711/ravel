@@ -2,7 +2,7 @@
   "task": "C1, object half",
   "scope": "cached cell metadata only; no count matrix and no expression is read, and no score is produced",
   "completed_utc": "2026-09-27T11:33:10.723177+00:00",
-  "script": "docs/research_pipeline/scripts/c1_object_design.py",
+  "script": "RQ_Specified/A11_lesion_programme_addition/scripts/07_object_design.py",
   "script_sha256": "e88d436a187ded1924a05ced6c8fc80de2ecb131f15b736a1dab8cf050f916f5",
   "input": {
     "path": "X:/GitHub/scRNA_seq/raw_data/GSE198864/intake_2026-09-27/cell_metadata.tsv.gz",
@@ -199,5 +199,6 @@
     "partially_constrained_by_arms": "the donor carrying only a control and an influenza arm, and the two donors carrying both control media, are each identifiable as a group, which narrows the mapping without resolving any individual pair"
   },
   "selection_not_made_here": "C2 chooses the arm. This table exists so the choice rests on matched-control availability and AT2 depth, both counted before any programme value.",
-  "scores_computed": false
+  "scores_computed": false,
+  "relocated_2026_09_27": "this record was written while the assay lived under docs/research_pipeline/; the script and output paths above were rewritten when the assay moved into the question hierarchy, and the move is recorded in docs/migrations/2026-09-27-a11-acute-into-rq/"
 }
