@@ -41,7 +41,7 @@ recovery endpoint, and population persistence does not trace the same cells.
 |---|---|---|---|
 | [A0](#a0) | A conserved transition-associated programme may contribute to epithelial fate modulation | Related transitional RNA states across repair and development; shared fate control remains a hypothesis | [Pilot complete](RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_V1_RESULTS.md): 50-gene lung signature fails the mature intestinal endpoint; P4 pruned; universal/causal fate claims unresolved |
 | [A1](#a1) | Regulatory features distinguish RNA-similar transitional states and responses | Direct marks, lineage, perturbation and paired CD44 context contrasts | Adaptive batch complete; matched replicated regulatory/fate linkage remains missing |
-| [A2](#a2) | AREG changes a fibroblast response through delivery to a competent recipient rather than through source abundance | Seven register rows close the abundance version (C37, C39, C40, C45, C48, C49, C50); the mechanism places the rate-limiting step in the recipient | [Both legs run](RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md): the Areg arm does not move and its null is bounded by an unremoved autocrine source; epithelial Itgb6 moves by -0.938 log2 CPM in three of three readable units; the donor-level leg is refused by the C51 depth rule |
+| [A2](#a2) | AREG changes a fibroblast response through delivery to a competent recipient rather than through source abundance | Seven register rows close the abundance version (C37, C39, C40, C45, C48, C49, C50); the mechanism places the rate-limiting step in the recipient | [Both legs run](RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md): the Areg arm does not move and its null is bounded by an unremoved autocrine source; epithelial Itgb6 moves by -0.938 log2 CPM in three of three readable units; the donor-level leg, once put on a common molecule budget, reads null at rho 0.293 |
 | [A3](#a3) | Injury leaves a macrophage programme beyond normal aging | Late population composition | Age-matched controls and comparable sampling needed |
 | [A4](#a4) | Wnt maintenance and IL-1 response occur sequentially in an AT2 lineage | Transcript/source observations; sequence untested | Measured activity/history and lineage-linked response needed |
 | [A5](#a5) | Adult repair reuses a developmental epithelial component | Neonatal coexpression and label-excluded ADI enrichment; outside developmental list now sourced | Revised external-signature test positive in 24 mice and after identity/control exclusions; lineage/function untested |
@@ -52,7 +52,7 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A10](#a10) | Epithelial programmes add information about measured organoid growth | Public RNA and imaging design | Follow-up complete: added information beyond E2F/G2M and positive plate-shift error gains, but negative absolute R-squared on 3/4 plates; independent units unresolved |
 | [A11](#a11) | Lesion-associated programmes add to shared plasticity | Reduced HPCS signal across repair, development, IPF and LUAD | Kim lesion association replicates in 8 patients; beyond-shared criterion unresolved (BH q=0.0547) |
 | [A12](#a12) | Recipient context explains responses beyond ligand RNA | Cohort/recipient heterogeneity | Conditional component model; activation unmeasured |
-| [A13](#a13) | Fibroblast programmes add information beyond macrophage IL1B | Niche heterogeneity motivates joint association | Audit complete triads; current IPF arms below joint-model floor |
+| [A13](#a13) | Fibroblast programmes add information beyond macrophage IL1B | Niche heterogeneity motivates joint association | [Coverage counted and the gate is not met](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md): zero complete paired triads in the one uncounted cohort, for a definitional reason, and fibroblast recovery binds under any wider definition |
 | [A14](#a14) | Exposure duration and fibroblast reception separately affect recovery | Mechanistic follow-up to the repair/persistence question | Two decisions; withdrawal and recipient-specific data needed |
 | [A15](#a15) | The epithelial input to fibroblast activation runs through integrin-mediated TGF-beta activation rather than through ligand supply | A2's unplanned lead: epithelial Itgb6 knockout lowers the frozen fibroblast activation score by -0.938 log2 CPM in three of three readable units, while the ligand arm does not move | **Proposed, pending the owner's retain or reject.** Blocked: no public deposit measures activated TGF-beta under an integrin perturbation. One authorized side-branch has run and bounds a rival, not the hypothesis |
 
@@ -247,8 +247,11 @@ transcribes AREG at 9.846 against the 7.267 removed, the knockout is partial, an
 culture medium is not in the deposit. The arm that moved is epithelial **Itgb6**, at a
 median of -0.938 in three of three readable units, with organoid size and fibroblast
 content unchanged, which proposes epithelial integrin-mediated TGF-beta activation rather
-than the ligand and needs its own design. The donor-level leg is refused by the frozen
-C51 depth rule, its composite tracking fibroblast depth at 0.770. The first freeze, which
+than the ligand and needs its own design. The donor-level leg was refused by the frozen
+C51 depth rule at a composite depth coupling of 0.770, and has since been read: on a common
+molecule budget the coupling falls to 0.232 and the correlation falls from 0.433 at nominal
+p 0.044 to 0.293 at p 0.186, so the rule was protecting against depth and no coupling
+survives it. The first freeze, which
 declared a rank test with an exact null, is
 [withdrawn](RQ_Specified/A2_areg_source_delivery/reports/STAGE2_WITHDRAWN.md). Read the
 [synthesis](RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md). Secreted
@@ -625,9 +628,17 @@ not test “beyond IL1B.” Spatial work requires independently defined patholog
 regions and a patient-level null; feedback requires intervention.
 
 **Decision / readiness.** Replicated added information supports the association;
-precise absence weakens the nominated programme. IPF has six and three complete
-triads, below the ten-unit joint-model floor; 23 human cohort patients does not
-mean 23 complete paired triads. Coverage is next, not mediation fitting.
+precise absence weakens the nominated programme. IPF has six and three complete triads,
+below the ten-unit joint-model floor; 23 human cohort patients does not mean 23 complete
+paired triads. **Coverage is now counted and the gate is not met**
+([results](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md)):
+the one uncounted cohort on disk gives zero complete paired triads at the 50-cell floor under
+the epithelial definition the IPF cohorts used, and three under a wider one. The zero is
+definitional, because every tumour sample there holds zero cells labelled type 2, so a paired
+tumour-versus-normal contrast and a type 2 epithelial compartment are incompatible in that
+deposit at any cohort size. Under the wider definition fibroblast recovery binds, at a median
+of 32.5 cells for the largest fibroblast label. Nothing was fitted, and a joint model should not
+be fitted on this coverage.
 [Figure plan/spatial evidence](analysis/figures/rq/README.md#a13): coverage heatmap
 first, then patient effects if eligible. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC3–MC5](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).

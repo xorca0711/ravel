@@ -989,6 +989,72 @@ machinery the cited mechanism needs, with integrin alphaV at 5.835, ITGB1 at 9.4
 at 5.254, LTBP1 at 9.757 and EGFR at 5.389 mean log2 CPM, which is the first evidence in
 this repository that the receiver is equipped and which bears on C36 without settling it.
 
+### A2 leg 2 read on a common molecule budget, and the register gates audited, 27 September 2026
+
+The owner asked for two pieces of work and told the assistant to avoid overlapping the
+session that owns A15. Neither piece overlaps it: A15's own gate was excluded from the audit
+and its search report is cited instead.
+
+Leg 2's refused pair was re-measured with the C37 treatment, declared and committed before
+anything ran. The standardisation brought the predictor's depth coupling from 0.770 to 0.232
+and the outcome's from 0.412 to 0.341, so the frozen C51 rule no longer refuses the pair, and
+the correlation then falls from 0.433 at nominal p 0.044 to 0.293 at p 0.186. The rule was
+protecting against depth and nothing survives it. The result is strengthened by an internal
+pattern: the correlation tracks how much of each library the measure consumes, giving 0.230,
+0.293, 0.379 and 0.433 as the budget rises from 500 to 2,000 and then to the whole library.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | Leg 2 second pass | Owner instruction | Owner | Run with the C37 common-budget treatment, declared first | A raw detection fraction over 52 to 608 cells across a 2.1-fold depth spread is largely a depth statistic |
+| 2026-09-27 | Primary budget | Assistant | Pending owner retain or reject | Kept at 1,000 molecules as declared, despite a limitation found later | Changing it after seeing the problem would be indistinguishable from choosing a budget that reads |
+| 2026-09-27 | Register gate audit | Owner instruction | Owner | One pass over GEO, two declared queries per gated question, verdicts written by hand | Eleven questions were gated on data nobody had checked against an archive |
+| 2026-09-27 | A15 excluded from the audit | Assistant | Owner instruction to avoid overlap | Cited the owning session's search report instead | Repeating it would waste effort and risk a contradictory verdict |
+
+| Date | Rejected or reworked output | Reason | Authority |
+|---|---|---|---|
+| 2026-09-27 | The assistant's first version of the measure test | It asserted rate invariance at the 1,000-molecule budget. The formula was right and the assertion was wrong: invariance holds only when the budget is small relative to the smallest library, and this deposit is floored at exactly 1,000 | Assistant corrected the test to characterise the regime, before any result was reported |
+| 2026-09-27 | Reading the 2,000-molecule sensitivity as the stable one | It drops 470 of 4,648 cells and sits near the measure's ceiling for typical gene rates, so its stability is saturation rather than invariance | Assistant recorded it as declared but not as the better estimate |
+| 2026-09-27 | Any claim that A3 is now runnable because a deposit exists | GSE303646 matches A3's stated gate, but A3's composition-versus-state boundary is still set by annotation granularity, which is what retired A6 | Assistant recorded the deposit and withheld the recommendation pending a re-specified endpoint |
+
+The audit's outcome: one gate met as written (A3, GSE303646), three with named candidates
+whose eligibility is arithmetic (A5, A11, A13), one with half its gate met (A1), and six
+blocked with a constraint that now fits in a sentence (A4, A7, A8, A9, A12, A14). Titles in
+the candidate table are stored verbatim, including the archive's own punctuation, because
+they are retrieved evidence.
+
+### A13 coverage counted, 27 September 2026
+
+The owner asked for the triad arithmetic after the gate audit named it the cheapest of the
+three eligibility checks. It is counts only: nothing was fitted and no association estimated.
+
+The pass reproduces all 240 per-donor flags the earlier trial recorded before reporting
+anything new, which required recovering a rule that trial never wrote down. The Kim lung
+adenocarcinoma cohort, the only one on disk never counted, gives zero complete paired triads
+at the 50-cell floor under the epithelial definition the two IPF cohorts used, and three under
+a wider one, against a ten-patient floor.
+
+The zero has a definitional cause worth recording: every one of the eleven tumour samples holds
+exactly zero cells labelled type 2, because the deposit annotates tumour-sample epithelium as
+tumour states. So a paired tumour-versus-normal contrast and a type 2 epithelial compartment
+cannot coexist in that deposit at any cohort size. Under the wider definition the binding
+constraint is fibroblast recovery, with the largest fibroblast label reaching 50 cells in ten
+of twenty-two samples at a median of 32.5, which is a property of the assay rather than of the
+cohort.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | A13 coverage count | Owner instruction | Owner | Run, counts only | The card says coverage is next and not mediation fitting |
+| 2026-09-27 | The triad rule | Assistant, recovered from the earlier trial | Pending owner retain or reject | Single-label as primary, pooling as a declared sensitivity | The number the card quotes was produced under the single-label rule, so changing it would make the new count incomparable |
+| 2026-09-27 | Epithelial compartment for the new cohort | Assistant | Pending owner retain or reject | Type 2 only as primary, tumour states as a declared sensitivity | Using all epithelium would inflate the new cohort relative to the two the gate already quotes |
+
+| Date | Rejected or reworked output | Reason | Authority |
+|---|---|---|---|
+| 2026-09-27 | The first coverage run, which assumed a pooled-label rule | It reproduced 230 of 240 earlier flags and disagreed on 10, every disagreement in the direction of counting more cells | The script refused at its own reproduction check and reported no new count; the attempt is preserved with a note |
+| 2026-09-27 | Any reading of the three patients under the wider epithelial definition as usable coverage | Three cannot support a joint model, and the compartment is no longer the one the six and three were counted with | Assistant recorded both counts and fitted nothing |
+
+Two sentences are proposed for the register and neither is added. The measurement contract now
+records the label-level rule so the next count does not have to rediscover it.
+
 ## How outputs were reviewed
 
 ### A1 adaptive continuation, 25 September 2026

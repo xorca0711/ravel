@@ -1,0 +1,78 @@
+{
+  "stage": "A13 coverage",
+  "scope": "counts only; nothing fitted",
+  "governed_by": {
+    "file": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/config/a13_triad_coverage_spec.json",
+    "sha256": "125423a6c3e71f8b1256679022f7abd8edacb9483dd204814b4709997e7f0afd"
+  },
+  "completed_utc": "2026-09-27T01:46:59.475049+00:00",
+  "script": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/scripts/01_count_triads.py",
+  "script_sha256": "b82237446e0b86751edb20b0fb161b28cd5f57b20660099874dd86d6e58ee05b",
+  "inputs": {
+    "X:/GitHub/scRNA_seq/raw_data/GSE136831/GSE136831_AllCells.Samples.CellType.MetadataTable.txt.gz": "147bdd11d720ed30736a459ba62a3d8e2f3f9028a8430e0eb714484f0456049b",
+    "X:/GitHub/scRNA_seq/raw_data/GSE135893/GSE135893_IPF_metadata.csv.gz": "5c67b3717375859aafc4463024847cf30d7af7bb9d5f4ad9a5364ee6d7726bf5",
+    "X:/GitHub/scRNA_seq/raw_data/GSE131907/GSE131907_Lung_Cancer_cell_annotation.txt.gz": "9d017652a31a489c1f62cacc436936d48a5b07bb554fc0dbe602da7474532205"
+  },
+  "prior_table": {
+    "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/complete_triad_coverage.csv",
+    "sha256": "c06b0997abba22b1de911191eff69e4776ee815231a71e88d8c183e09c5b0dd7",
+    "rows": 240,
+    "disagreements": 0
+  },
+  "floors": [
+    30,
+    50,
+    100
+  ],
+  "primary_floor": 50,
+  "primary_rule": "one single cell label at or above the floor; pooling is a declared sensitivity",
+  "ipf_cohorts_at_primary_floor_single_label": {
+    "GSE136831": {
+      "IPF": 2,
+      "Control": 4
+    },
+    "GSE135893": {
+      "IPF": 2,
+      "Control": 1
+    }
+  },
+  "kim_cohort": {
+    "primary": {
+      "patients_seen": 12,
+      "patients_with_both_samples": 10,
+      "complete_paired_triads_single_label": {
+        "30": 0,
+        "50": 0,
+        "100": 0
+      },
+      "complete_paired_triads_pooled": {
+        "30": 0,
+        "50": 0,
+        "100": 0
+      },
+      "paired_patients_at_primary_floor_single_label": []
+    },
+    "sensitivity": {
+      "patients_seen": 12,
+      "patients_with_both_samples": 10,
+      "complete_paired_triads_single_label": {
+        "30": 4,
+        "50": 3,
+        "100": 1
+      },
+      "complete_paired_triads_pooled": {
+        "30": 4,
+        "50": 3,
+        "100": 1
+      },
+      "paired_patients_at_primary_floor_single_label": [
+        "18",
+        "30",
+        "31"
+      ]
+    }
+  },
+  "joint_model_floor_patients": 10,
+  "verdict": "gate not met: 0 patients hold a complete paired triad at the 50-cell floor, below the 10-patient floor",
+  "nothing_fitted": true
+}
