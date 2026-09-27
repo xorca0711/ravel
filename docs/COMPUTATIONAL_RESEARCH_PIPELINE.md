@@ -1,6 +1,6 @@
 # Computational pipeline for remaining research gaps
 
-**Date:** 2026-09-27. **Status:** intake started; contracts and new biological analyses pending.
+**Date:** 2026-09-27, status corrected the same day. **Status:** the A11 acute-injury branch, C0 through C7, is frozen, scored, reported and merged; the A5 and A12 audits are the ready work. This page restates [the queue](research_pipeline/queue.json), which is the execution record, so when the two disagree the queue is right. The earlier head here said new biological analyses were pending after they had run.
 
 The [handoff](handoffs/2026-09-27-computational-research.md) holds exact paths, sources and prior decisions. The [queue](research_pipeline/queue.json) records execution state. The purpose is to distinguish reused injury programmes from lesion-associated expression, identify reproducible source/recipient associations, and expose which fate or mechanism claims still need additional measurements. Each task produces a reviewable checkpoint; completion of retrieval is never completion of analysis.
 

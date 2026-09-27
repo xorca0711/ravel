@@ -1,6 +1,6 @@
 # Computational research: next-session handoff
 
-**Date:** 2026-09-27. **Status:** ready to resume at C1; no new biological score yet.
+**Date:** 2026-09-27. **Status corrected the same day:** C1 through C7 ran. The A11 acute-injury assay is scored, reported and merged on `main`, so the original status, "ready to resume at C1; no new biological score yet", no longer holds. This file is retained as the authorization and environment record of the session that executed it, not as a live instruction to resume at C1. The results are at [ACUTE_INJURY_RESULTS.md](../../RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md).
 
 ## Summary
 
@@ -18,7 +18,7 @@ The owner authorized committing, opening a PR and merging the completed rational
 - No subagent delegation was requested. Run the small tasks sequentially; scripts handle deterministic work.
 - This managed worktree can require elevated filesystem permission in Codex. Reuse it rather than creating a duplicate. The original checkout's `tmp/rq-audit/` is staging, not the scientific record.
 
-### What is complete — do not repeat it
+### What is complete: do not repeat it
 
 1. Repository-wide A0–A15/A12-S1 audit, context synchronization and biological roadmap: [architecture](../RESEARCH_ARCHITECTURE.md), [audit](../audits/2026-09-27-rq-rationale/REPORT.md), [roadmap](../RESEARCH_ROADMAP.md).
 2. [P0–P5 execution](../roadmap_runs/2026-09-27/README.md): outcome ledger; 886-library screen crosswalk; source supplement recovery; A5 candidate gates; regulatory/fate linkage audit; IL1B assignment bounds; selective post-entry experimental design.
