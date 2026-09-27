@@ -1,5 +1,18 @@
 # AI context
 
+## Current computational continuation, 27 September 2026
+
+The owner-authorized audit/roadmap landing is merged in PR #94 (`17ca9b4`). The
+next phase is on `codex/computational-research-pipeline`, divided into small tasks
+in the [computational pipeline](docs/COMPUTATIONAL_RESEARCH_PIPELINE.md). Start
+with the [next-session handoff](docs/handoffs/2026-09-27-computational-research.md)
+and C1 in its queue. GSE198864's annotated RDS is downloaded and hashed in the
+original checkout's ignored raw-data cache. Its internal metadata, eligible
+contrast and counts have not been analyzed; **no new biological score is complete**.
+No process remains running. Prior pilot results and scientific grades are unchanged.
+The owner requested this handoff for a different session; resume the next unfinished
+task rather than rerunning the completed audit or assuming data gates passed.
+
 ## Latest roadmap follow-through, 27 September 2026
 
 The [follow-through record](docs/roadmap_runs/2026-09-27-followthrough/README.md)

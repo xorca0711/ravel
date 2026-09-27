@@ -1,0 +1,100 @@
+{
+  "schema": "computational-research-queue/v1",
+  "updated": "2026-09-27",
+  "branch": "codex/computational-research-pipeline",
+  "base_merge": "17ca9b49a4da29afef4214449ea940d1b62b999e",
+  "next_task": "C1",
+  "active_processes": [],
+  "new_biological_analysis_executed": false,
+  "task_policy": "One checkpoint per task; pending dependencies are not biological failures. Gate failure records its evidence and permits unrelated ready tasks.",
+  "tasks": [
+    {
+      "id": "C0",
+      "task": "retrieve_gse198864",
+      "status": "completed",
+      "depends_on": []
+    },
+    {
+      "id": "C1",
+      "task": "inspect_annotation_and_sample_identity",
+      "status": "ready",
+      "depends_on": [
+        "C0"
+      ]
+    },
+    {
+      "id": "C2",
+      "task": "freeze_a11_acute_injury_contract",
+      "status": "pending",
+      "depends_on": [
+        "C1"
+      ]
+    },
+    {
+      "id": "C3",
+      "task": "gate_and_pseudobulk_a11",
+      "status": "pending",
+      "depends_on": [
+        "C2"
+      ]
+    },
+    {
+      "id": "C4",
+      "task": "score_a11_frozen_contrast",
+      "status": "pending",
+      "depends_on": [
+        "C3"
+      ]
+    },
+    {
+      "id": "C5",
+      "task": "verify_and_report_a11",
+      "status": "pending",
+      "depends_on": [
+        "C4"
+      ]
+    },
+    {
+      "id": "C6",
+      "task": "audit_a5_external_correspondence",
+      "status": "ready",
+      "depends_on": []
+    },
+    {
+      "id": "C7",
+      "task": "validate_a5_annotation_transport",
+      "status": "pending",
+      "depends_on": [
+        "C6"
+      ]
+    },
+    {
+      "id": "C8",
+      "task": "score_eligible_independent_a5",
+      "status": "pending",
+      "depends_on": [
+        "C7"
+      ]
+    },
+    {
+      "id": "C9",
+      "task": "audit_independent_a12_cohort",
+      "status": "ready",
+      "depends_on": []
+    },
+    {
+      "id": "C10",
+      "task": "evaluate_a12_transfer",
+      "status": "pending",
+      "depends_on": [
+        "C9"
+      ]
+    },
+    {
+      "id": "C11",
+      "task": "synchronize_final_gap_status",
+      "status": "pending",
+      "depends_on": []
+    }
+  ]
+}

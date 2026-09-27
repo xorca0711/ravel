@@ -1,5 +1,7 @@
 # Research roadmap: closing the biological and logical gaps
 
+**Computational continuation:** [small-task pipeline](COMPUTATIONAL_RESEARCH_PIPELINE.md) and [next-session handoff](handoffs/2026-09-27-computational-research.md). Intake has started; new biological scoring is pending.
+
 **Latest execution:** [follow-through](roadmap_runs/2026-09-27-followthrough/README.md) adds completed A12/A13 exploratory pilots, expanded candidate checks and experimental precision scenarios. The [remaining-work ledger](roadmap_runs/2026-09-27-followthrough/remaining_work.json) identifies actual data requirements; prospective designs below are not completed experiments.
 
 **Date:** 27 September 2026. **Status:** the first bounded execution is complete; see the [P0–P5 reports](roadmap_runs/2026-09-27/README.md) for completed source checks, calculations and failed gates. The designs below remain prospective wherever compatible data are missing.
