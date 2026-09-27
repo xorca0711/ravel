@@ -1,0 +1,203 @@
+{
+  "task": "C1, object half",
+  "scope": "cached cell metadata only; no count matrix and no expression is read, and no score is produced",
+  "completed_utc": "2026-09-27T11:33:10.723177+00:00",
+  "script": "docs/research_pipeline/scripts/c1_object_design.py",
+  "script_sha256": "e88d436a187ded1924a05ced6c8fc80de2ecb131f15b736a1dab8cf050f916f5",
+  "input": {
+    "path": "X:/GitHub/scRNA_seq/raw_data/GSE198864/intake_2026-09-27/cell_metadata.tsv.gz",
+    "sha256": "53c14a1f41aa22b3d00493254230beff0ca91f55e71a6ae58b025c208c55bdd2"
+  },
+  "explant_cells": 112476,
+  "explant_donors": [
+    "pat1",
+    "pat2",
+    "pat3",
+    "pat4",
+    "pat5",
+    "pat6"
+  ],
+  "autopsy_cells": 34000,
+  "medium_is_recorded_per_cell": "yes, in the protocol field, for infected and control libraries alike",
+  "at2_label_used": "the author cluster label 'AT2'",
+  "at2_explant_cells": 4732,
+  "pair_inventory": {
+    "H3N2": {
+      "medium_matched_pairs": 2,
+      "pairs": [
+        {
+          "donor": "pat5",
+          "medium": "BSA",
+          "at2_infected": 200,
+          "at2_control": 66,
+          "at2_smaller_side": 66
+        },
+        {
+          "donor": "pat6",
+          "medium": "BSA",
+          "at2_infected": 19,
+          "at2_control": 76,
+          "at2_smaller_side": 19
+        }
+      ],
+      "pairs_at_floor": {
+        "20": 1,
+        "50": 1
+      }
+    },
+    "SCoV1": {
+      "medium_matched_pairs": 5,
+      "pairs": [
+        {
+          "donor": "pat1",
+          "medium": "FCS",
+          "at2_infected": 195,
+          "at2_control": 142,
+          "at2_smaller_side": 142
+        },
+        {
+          "donor": "pat3",
+          "medium": "FCS",
+          "at2_infected": 81,
+          "at2_control": 63,
+          "at2_smaller_side": 63
+        },
+        {
+          "donor": "pat4",
+          "medium": "FCS",
+          "at2_infected": 641,
+          "at2_control": 309,
+          "at2_smaller_side": 309
+        },
+        {
+          "donor": "pat5",
+          "medium": "FCS",
+          "at2_infected": 231,
+          "at2_control": 36,
+          "at2_smaller_side": 36
+        },
+        {
+          "donor": "pat6",
+          "medium": "FCS",
+          "at2_infected": 122,
+          "at2_control": 188,
+          "at2_smaller_side": 122
+        }
+      ],
+      "pairs_at_floor": {
+        "20": 5,
+        "50": 4
+      }
+    },
+    "SCoV2": {
+      "medium_matched_pairs": 5,
+      "pairs": [
+        {
+          "donor": "pat1",
+          "medium": "FCS",
+          "at2_infected": 113,
+          "at2_control": 142,
+          "at2_smaller_side": 113
+        },
+        {
+          "donor": "pat3",
+          "medium": "FCS",
+          "at2_infected": 32,
+          "at2_control": 63,
+          "at2_smaller_side": 32
+        },
+        {
+          "donor": "pat4",
+          "medium": "FCS",
+          "at2_infected": 386,
+          "at2_control": 309,
+          "at2_smaller_side": 309
+        },
+        {
+          "donor": "pat5",
+          "medium": "FCS",
+          "at2_infected": 41,
+          "at2_control": 36,
+          "at2_smaller_side": 36
+        },
+        {
+          "donor": "pat6",
+          "medium": "FCS",
+          "at2_infected": 130,
+          "at2_control": 188,
+          "at2_smaller_side": 130
+        }
+      ],
+      "pairs_at_floor": {
+        "20": 5,
+        "50": 3
+      }
+    },
+    "MERS": {
+      "medium_matched_pairs": 5,
+      "pairs": [
+        {
+          "donor": "pat1",
+          "medium": "FCS",
+          "at2_infected": 107,
+          "at2_control": 142,
+          "at2_smaller_side": 107
+        },
+        {
+          "donor": "pat3",
+          "medium": "FCS",
+          "at2_infected": 43,
+          "at2_control": 63,
+          "at2_smaller_side": 43
+        },
+        {
+          "donor": "pat4",
+          "medium": "FCS",
+          "at2_infected": 482,
+          "at2_control": 309,
+          "at2_smaller_side": 309
+        },
+        {
+          "donor": "pat5",
+          "medium": "FCS",
+          "at2_infected": 38,
+          "at2_control": 36,
+          "at2_smaller_side": 36
+        },
+        {
+          "donor": "pat6",
+          "medium": "FCS",
+          "at2_infected": 32,
+          "at2_control": 188,
+          "at2_smaller_side": 32
+        }
+      ],
+      "pairs_at_floor": {
+        "20": 5,
+        "50": 2
+      }
+    }
+  },
+  "donor_label_mismatch": {
+    "object_labels": [
+      "pat1",
+      "pat2",
+      "pat3",
+      "pat4",
+      "pat5",
+      "pat6"
+    ],
+    "series_single_cell_explant_donors": [
+      "102C",
+      "1169Z",
+      "218V",
+      "219V",
+      "700D",
+      "89C"
+    ],
+    "status": "six against six, but the mapping is not stated anywhere in either source",
+    "partially_constrained_by_arms": "the donor carrying only a control and an influenza arm, and the two donors carrying both control media, are each identifiable as a group, which narrows the mapping without resolving any individual pair"
+  },
+  "selection_not_made_here": "C2 chooses the arm. This table exists so the choice rests on matched-control availability and AT2 depth, both counted before any programme value.",
+  "scores_computed": false
+}

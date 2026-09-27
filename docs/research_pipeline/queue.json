@@ -1,0 +1,140 @@
+{
+  "schema": "computational-research-queue/v1",
+  "updated": "2026-09-27",
+  "branch": "codex/computational-research-pipeline",
+  "base_merge": "17ca9b49a4da29afef4214449ea940d1b62b999e",
+  "next_task": "C6-audit-followups",
+  "active_processes": [],
+  "new_biological_analysis_executed": true,
+  "task_policy": "One checkpoint per task; pending dependencies are not biological failures. Gate failure records its evidence and permits unrelated ready tasks.",
+  "tasks": [
+    {
+      "id": "C0",
+      "task": "retrieve_gse198864",
+      "status": "completed",
+      "depends_on": []
+    },
+    {
+      "id": "C1",
+      "task": "inspect_annotation_and_sample_identity",
+      "status": "completed",
+      "depends_on": [
+        "C0"
+      ],
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c1/",
+      "note": "object inspected after stripping a double gzip layer; medium is recorded per cell in the protocol field; the nominated H3N2 arm has 1 usable medium-matched pair against 5 for each coronavirus arm; pat1-pat6 do not join to the series donor IDs"
+    },
+    {
+      "id": "C2",
+      "task": "freeze_a11_acute_injury_contract",
+      "status": "completed",
+      "depends_on": [
+        "C1"
+      ],
+      "note": "frozen before any score; primary arm SARS-CoV-1 at 4 eligible pairs under A11's inherited 50-cell and 3-unit floors, SARS-CoV-2 secondary at 3, MERS and H3N2 declared ineligible; the exact two-sided test cannot reject at these unit counts and that is declared in advance",
+      "artifacts": "docs/research_pipeline/config/a11_acute_injury_contract.json"
+    },
+    {
+      "id": "C3",
+      "task": "gate_and_pseudobulk_a11",
+      "status": "completed",
+      "depends_on": [
+        "C2"
+      ],
+      "note": "gates passed: 73 of 73 lesion genes present, eligibility recomputed identical to the contract; 11 pseudobulk units over 2,370 type 2 cells",
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c3/"
+    },
+    {
+      "id": "C4",
+      "task": "score_a11_frozen_contrast",
+      "status": "completed",
+      "depends_on": [
+        "C3"
+      ],
+      "note": "scored under the frozen contract; primary SCoV1 mean +0.260 log2 CPM with 4 of 4 donors positive, exact interval unavailable at n=4 as declared",
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c4/"
+    },
+    {
+      "id": "C5",
+      "task": "verify_and_report_a11",
+      "status": "completed",
+      "depends_on": [
+        "C4"
+      ],
+      "note": "superseded in reasoning by an adversarial review: the verdict of unresolved stands and is now reached by the contract's decision rule, but four of the first draft's five arguments were wrong and are corrected in the rewritten report",
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/"
+    },
+    {
+      "id": "C6-audit-followups",
+      "task": "audit_a5_external_correspondence",
+      "status": "ready",
+      "depends_on": []
+    },
+    {
+      "id": "C7",
+      "task": "validate_a5_annotation_transport",
+      "status": "pending",
+      "depends_on": [
+        "C6"
+      ]
+    },
+    {
+      "id": "C8",
+      "task": "score_eligible_independent_a5",
+      "status": "pending",
+      "depends_on": [
+        "C7"
+      ]
+    },
+    {
+      "id": "C9",
+      "task": "audit_independent_a12_cohort",
+      "status": "ready",
+      "depends_on": []
+    },
+    {
+      "id": "C10",
+      "task": "evaluate_a12_transfer",
+      "status": "pending",
+      "depends_on": [
+        "C9"
+      ]
+    },
+    {
+      "id": "C11",
+      "task": "synchronize_final_gap_status",
+      "status": "pending",
+      "depends_on": []
+    },
+    {
+      "id": "C5b",
+      "task": "gene_level_and_exact_output_diagnostic",
+      "status": "completed",
+      "depends_on": [
+        "C5"
+      ],
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/",
+      "note": "the exact test does return HL and p; only the 95 per cent interval is unattainable"
+    },
+    {
+      "id": "C5c",
+      "task": "dropout_and_null_displacement",
+      "status": "completed",
+      "depends_on": [
+        "C5"
+      ],
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/",
+      "note": "displacement from an abundance-matched background is invariant to normalisation at +0.267 and +0.269; dropping the NF-kB and stress genes leaves +0.2245 with 4 of 4 positive"
+    },
+    {
+      "id": "C5d",
+      "task": "virus_detection_table",
+      "status": "completed",
+      "depends_on": [
+        "C5"
+      ],
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/",
+      "note": "46 viral features, and the MERS and influenza figures corrected to their eligible donors"
+    }
+  ]
+}

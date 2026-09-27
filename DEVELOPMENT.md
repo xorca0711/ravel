@@ -1365,3 +1365,16 @@ Before landing, the historical P0–P5 verifier was corrected to report changes 
 living-document hashes separately from failures of immutable analytical inputs.
 Later dated context updates are expected; all scientific source hashes remain strict.
 The original verification record still identifies the script version used at that time.
+
+
+## 27 September 2026: computational continuation handoff
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | Land prior audit, then divide the computational continuation into resumable tasks | Codex | Owner explicitly authorized commit/PR/merge and then requested small tasks and a next-session handoff | PR #94 merged after both CI checks passed; pipeline/handoff recorded; public GSE198864 annotated object retrieved | Preserve state across sessions without treating retrieval or interrupted work as completed science |
+
+The A11 acute-injury contrast remains a proposal pending metadata and a committed
+contract. No new module score, scientific acceptance or claim-grade change occurred.
+The initial combined check/merge command was automatically rejected while a check
+was still running. Both checks were then separately verified successful before the
+authorized merge; no check or approval was bypassed.

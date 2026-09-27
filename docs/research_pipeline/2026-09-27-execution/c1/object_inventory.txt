@@ -1,0 +1,14 @@
+Class: Seurat
+Attributes: assays meta.data active.assay active.ident graphs neighbors reductions images project.name misc version commands tools class
+Object bytes: 7093015320
+Cells: 146476
+Metadata fields: orig.ident, nCount_RNA, nFeature_RNA, scrublet_score, scrublet_prediction, donor, condition, origin, pct.mito, pct.ribo, pct.MALAT1, pct.SCoV2, S.Score, G2M.Score, Phase, integrated_snn_res.0.8, seurat_clusters, predicted.id, prediction.score.Capillary.Aerocyte, prediction.score.Capillary, prediction.score.Capillary.Intermediate.1, prediction.score.Capillary.Intermediate.2, prediction.score.IGSF21..Dendritic, prediction.score.Myeloid.Dendritic.Type.1, prediction.score.Plasmacytoid.Dendritic, prediction.score.Myeloid.Dendritic.Type.2, prediction.score.B, prediction.score.EREG..Dendritic, prediction.score.Macrophage, prediction.score.CD8..Naive.T, prediction.score.CD4..Naive.T, prediction.score.CD4..Memory.Effector.T, prediction.score.Vein, prediction.score.Artery, prediction.score.Pericyte, prediction.score.Vascular.Smooth.Muscle, prediction.score.Club, prediction.score.Mucous, prediction.score.Alveolar.Epithelial.Type.2, prediction.score.Basal, prediction.score.Lymphatic, prediction.score.Proliferating.Macrophage, prediction.score.CD8..Memory.Effector.T, prediction.score.Proliferating.NK.T, prediction.score.Natural.Killer.T, prediction.score.Natural.Killer, prediction.score.OLR1..Classical.Monocyte, prediction.score.Basophil.Mast.1, prediction.score.Classical.Monocyte, prediction.score.Intermediate.Monocyte, prediction.score.Nonclassical.Monocyte, prediction.score.Airway.Smooth.Muscle, prediction.score.Ciliated, prediction.score.Alveolar.Fibroblast, prediction.score.Myofibroblast, prediction.score.Adventitial.Fibroblast, prediction.score.Alveolar.Epithelial.Type.1, prediction.score.max, DF.classifications, autopsy.cluster, infect, protocol, pct.H3N2, pct.MERS, pct.SCoV1, explant.cluster, cluster, virus
+Assays: RNA, integrated
+Assay RNA class Assay attributes counts, data, scale.data, key, assay.orig, var.features, meta.features, misc, class
+RNA stored values: 209357601
+RNA nonfinite: 0
+RNA negative: 0
+RNA noninteger: 0
+RNA range: 1 33094
+RNA duplicated genes: 0
+Assay integrated class Assay attributes counts, data, scale.data, key, assay.orig, var.features, meta.features, misc, class

@@ -1,0 +1,10 @@
+arm	scope	cells	cells_with_any_viral_read	fraction_with_any_viral_read	median_viral_percent	max_viral_percent	cells_above_1pc_viral	donors
+control	all donors	1171	0	0.0	none	none	none	pat1,pat2,pat3,pat4,pat5,pat6
+SCoV1	all donors	1270	7	0.0055	0.0	0.0228	0	pat1,pat3,pat4,pat5,pat6
+SCoV1	eligible donors only	1039	5	0.0048	0.0	0.0228	0	pat1,pat3,pat4,pat6
+SCoV2	all donors	702	6	0.0085	0.0	0.0518	0	pat1,pat3,pat4,pat5,pat6
+SCoV2	eligible donors only	629	6	0.0095	0.0	0.0518	0	pat1,pat4,pat6
+MERS	all donors	702	309	0.4402	0.0	20.2729	113	pat1,pat3,pat4,pat5,pat6
+MERS	eligible donors only	589	253	0.4295	0.0	20.2729	90	pat1,pat4
+H3N2	all donors	887	138	0.1556	0.0	58.1055	13	pat1,pat2,pat3,pat4,pat5,pat6
+H3N2	eligible donors only	200	10	0.05	0.0	41.4917	1	pat5

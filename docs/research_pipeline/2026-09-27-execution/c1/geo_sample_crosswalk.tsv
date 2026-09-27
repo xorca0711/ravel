@@ -1,0 +1,92 @@
+accession	title	tissue	treatment_field	condition	donor	arm	medium	medium_source	single_cell_h5
+GSM5958229	AM1212Z_control_ACE2_16h	ex-vivo infected AM cells	control	ACE2+, 16h	1212Z	control	not named	record says control without a medium	yes
+GSM5958230	AM1212Z_control_ACE2_48h	ex-vivo infected AM cells	control	ACE2+, 48h	1212Z	control	not named	record says control without a medium	yes
+GSM5958231	AM1212Z_control_ctrl_16h	ex-vivo infected AM cells	control	ACE2-, 16h	1212Z	control	not named	record says control without a medium	yes
+GSM5958232	AM1212Z_control_ctrl_48h	ex-vivo infected AM cells	control	ACE2-, 48h	1212Z	control	not named	record says control without a medium	yes
+GSM5958233	AM1212Z_NL63_ACE2_16h	ex-vivo infected AM cells	NL63-CoV	ACE2+, 16h	1212Z	NL63-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958234	AM1212Z_NL63_ACE2_48h	ex-vivo infected AM cells	NL63-CoV	ACE2+, 48h	1212Z	NL63-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958235	AM1212Z_NL63_ctrl_16h	ex-vivo infected AM cells	NL63-CoV	ACE2-, 16h	1212Z	NL63-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958236	AM1212Z_NL63_ctrl_48h	ex-vivo infected AM cells	NL63-CoV	ACE2-, 48h	1212Z	NL63-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958237	AM1212Z_SCoV2_ACE2_16h	ex-vivo infected AM cells	SARS-CoV-2	ACE2+, 16h	1212Z	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958238	AM1212Z_SCoV2_ACE2_48h	ex-vivo infected AM cells	SARS-CoV-2	ACE2+, 48h	1212Z	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958239	AM1212Z_SCoV2_ctrl_16h	ex-vivo infected AM cells	SARS-CoV-2	ACE2-, 16h	1212Z	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958240	AM1212Z_SCoV2_ctrl_48h	ex-vivo infected AM cells	SARS-CoV-2	ACE2-, 48h	1212Z	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958241	AM723D_control_ACE2_16h	ex-vivo infected AM cells	control	ACE2+, 16h	723D	control	not named	record says control without a medium	yes
+GSM5958242	AM723D_control_ACE2_48h	ex-vivo infected AM cells	control	ACE2+, 48h	723D	control	not named	record says control without a medium	yes
+GSM5958243	AM723D_control_ctrl_16h	ex-vivo infected AM cells	control	ACE2-, 16h	723D	control	not named	record says control without a medium	yes
+GSM5958244	AM723D_control_ctrl_48h	ex-vivo infected AM cells	control	ACE2-, 48h	723D	control	not named	record says control without a medium	yes
+GSM5958245	AM723D_NL63_ACE2_16h	ex-vivo infected AM cells	NL63-CoV	ACE2+, 16h	723D	NL63-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958246	AM723D_NL63_ACE2_48h	ex-vivo infected AM cells	NL63-CoV	ACE2+, 48h	723D	NL63-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958247	AM723D_NL63_ctrl_16h	ex-vivo infected AM cells	NL63-CoV	ACE2-, 16h	723D	NL63-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958248	AM723D_NL63_ctrl_48h	ex-vivo infected AM cells	NL63-CoV	ACE2-, 48h	723D	NL63-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958249	AM723D_SCoV2_ACE2_16h	ex-vivo infected AM cells	SARS-CoV-2	ACE2+, 16h	723D	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958250	AM723D_SCoV2_ACE2_48h	ex-vivo infected AM cells	SARS-CoV-2	ACE2+, 48h	723D	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958251	AM723D_SCoV2_ctrl_16h	ex-vivo infected AM cells	SARS-CoV-2	ACE2-, 16h	723D	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958252	AM723D_SCoV2_ctrl_48h	ex-vivo infected AM cells	SARS-CoV-2	ACE2-, 48h	723D	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958253	17B-control	autopsy material	none	control	unclear	none	not named	not determinable from the record	yes
+GSM5958254	A333-chronic	autopsy material	none	control	unclear	none	not named	not determinable from the record	yes
+GSM5958255	A344-R3-chronic	autopsy material	none	chronic	unclear	none	not named	not determinable from the record	yes
+GSM5958256	A592-prolonged	autopsy material	none	prolonged	unclear	none	not named	not determinable from the record	yes
+GSM5958257	BB73-control	autopsy material	none	control	unclear	none	not named	not determinable from the record	yes
+GSM5958258	O325-akut	autopsy material	none	acute	unclear	none	not named	not determinable from the record	yes
+GSM5958259	T128-akut	autopsy material	none	acute	unclear	none	not named	not determinable from the record	yes
+GSM5958260	T188-R2-prolonged	autopsy material	none	prolonged	unclear	none	not named	not determinable from the record	yes
+GSM5958261	lung_102C_BSA	lung explant tissue	BSA	not stated	102C	control	BSA	stated in the treatment field	yes
+GSM5958262	lung_102C_FCS	lung explant tissue	FCS	not stated	102C	control	FCS	stated in the treatment field	yes
+GSM5958263	lung_102C_H3N2	lung explant tissue	IAV	not stated	102C	IAV	BSA	inferred from the source protocol, not stated in the record	yes
+GSM5958264	lung_102C_MERS	lung explant tissue	MERS-CoV	not stated	102C	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958265	lung_102C_SCoV1	lung explant tissue	SARS-CoV-1	not stated	102C	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958266	lung_102C_SCoV2	lung explant tissue	SARS-CoV-2	not stated	102C	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958267	lung_1169Z_control	lung explant tissue	FCS	not stated	1169Z	control	FCS	stated in the treatment field	yes
+GSM5958268	lung_1169Z_H3N2	lung explant tissue	IAV	not stated	1169Z	IAV	BSA	inferred from the source protocol, not stated in the record	yes
+GSM5958269	lung_1169Z_MERS	lung explant tissue	MERS-CoV	not stated	1169Z	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958270	lung_1169Z_SCoV1	lung explant tissue	SARS-CoV-1	not stated	1169Z	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958271	lung_1169Z_SCoV2	lung explant tissue	SARS-CoV-2	not stated	1169Z	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958272	lung_218V_control	lung explant tissue	FCS	not stated	218V	control	FCS	stated in the treatment field	yes
+GSM5958273	lung_218V_H3N2	lung explant tissue	IAV	not stated	218V	IAV	BSA	inferred from the source protocol, not stated in the record	yes
+GSM5958274	lung_218V_MERS	lung explant tissue	MERS-CoV	not stated	218V	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958275	lung_218V_SCoV1	lung explant tissue	SARS-CoV-1	not stated	218V	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958276	lung_218V_SCoV2	lung explant tissue	SARS-CoV-2	not stated	218V	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958277	lung_219V_BSA	lung explant tissue	BSA	not stated	219V	control	BSA	stated in the treatment field	yes
+GSM5958278	lung_219V_FCS	lung explant tissue	FCS	not stated	219V	control	FCS	stated in the treatment field	yes
+GSM5958279	lung_219V_H3N2	lung explant tissue	IAV	not stated	219V	IAV	BSA	inferred from the source protocol, not stated in the record	yes
+GSM5958280	lung_219V_MERS	lung explant tissue	MERS-CoV	not stated	219V	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958281	lung_219V_SCoV1	lung explant tissue	SARS-CoV-1	not stated	219V	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958282	lung_219V_SCoV2	lung explant tissue	SARS-CoV-2	not stated	219V	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958283	lung_700D_control	lung explant tissue	FCS	not stated	700D	control	FCS	stated in the treatment field	yes
+GSM5958284	lung_700D_H3N2	lung explant tissue	IAV	not stated	700D	IAV	BSA	inferred from the source protocol, not stated in the record	yes
+GSM5958285	lung_89C_control	lung explant tissue	FCS	not stated	89C	control	FCS	stated in the treatment field	yes
+GSM5958286	lung_89C_H3N2	lung explant tissue	IAV	not stated	89C	IAV	BSA	inferred from the source protocol, not stated in the record	yes
+GSM5958287	lung_89C_MERS	lung explant tissue	MERS-CoV	not stated	89C	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958288	lung_89C_SCoV1	lung explant tissue	SARS-CoV-1	not stated	89C	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958289	lung_89C_SCoV2	lung explant tissue	SARS-CoV-2	not stated	89C	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958290	AO13_control	bronchial lung organoids	control	not stated	AO13	control	not named	record says control without a medium	yes
+GSM5958291	AO13_SCoV2	bronchial lung organoids	SARS-CoV-2	not stated	AO13	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958292	AO15_control	bronchial lung organoids	control	not stated	AO15	control	not named	record says control without a medium	yes
+GSM5958293	AO15_SCoV2	bronchial lung organoids	SARS-CoV-2	not stated	AO15	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958294	AO27_control	alveolar lung organoids	control	not stated	AO27	control	not named	record says control without a medium	yes
+GSM5958295	AO27_SCoV2	alveolar lung organoids	SARS-CoV-2	not stated	AO27	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958296	AO28_control	alveolar lung organoids	control	not stated	AO28	control	not named	record says control without a medium	yes
+GSM5958297	AO28_SCoV2	alveolar lung organoids	SARS-CoV-2	not stated	AO28	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958298	AO31_control	alveolar lung organoids	control	not stated	AO31	control	not named	record says control without a medium	yes
+GSM5958299	AO31_SCoV2	alveolar lung organoids	SARS-CoV-2	not stated	AO31	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	yes
+GSM5958300	lung_663D-EMC1_1	lung explant tissue	MERS-CoV	not stated	lung	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958301	lung_195V-Panama1_1	lung explant tissue	IAV	not stated	lung	IAV	BSA	inferred from the source protocol, not stated in the record	no
+GSM5958302	lung_89C-S1_1	lung explant tissue	SARS-CoV-1	not stated	lung	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958303	lung_195V-S2_1	lung explant tissue	SARS-CoV-2	not stated	lung	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958304	lung_89C-S2_1	lung explant tissue	SARS-CoV-2	not stated	lung	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958305	lung_641D-S2_1	lung explant tissue	SARS-CoV-2	not stated	lung	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958306	lung_89C-Panama1_1	lung explant tissue	IAV	not stated	lung	IAV	BSA	inferred from the source protocol, not stated in the record	no
+GSM5958307	lung_195V-mock1_1	lung explant tissue	control	not stated	lung	control	not named	record says control without a medium	no
+GSM5958308	lung_663D-S2_1	lung explant tissue	SARS-CoV-2	not stated	lung	SARS-CoV-2	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958309	lung_641D-S1_1	lung explant tissue	SARS-CoV-1	not stated	lung	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958310	lung_641D-EMC1_1	lung explant tissue	MERS-CoV	not stated	lung	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958311	lung_641D-Panama1_1	lung explant tissue	IAV	not stated	lung	IAV	BSA	inferred from the source protocol, not stated in the record	no
+GSM5958312	lung_89C-mock1_1	lung explant tissue	control	not stated	lung	control	not named	record says control without a medium	no
+GSM5958313	lung_195V-S1_1	lung explant tissue	SARS-CoV-1	not stated	lung	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958314	lung_663D-S1_1	lung explant tissue	SARS-CoV-1	not stated	lung	SARS-CoV-1	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958315	lung_663D-mock1_1	lung explant tissue	control	not stated	lung	control	not named	record says control without a medium	no
+GSM5958316	lung_641D-mock1_1	lung explant tissue	control	not stated	lung	control	not named	record says control without a medium	no
+GSM5958317	lung_663D-Panama1_1	lung explant tissue	IAV	not stated	lung	IAV	BSA	inferred from the source protocol, not stated in the record	no
+GSM5958318	lung_195V-EMC1_1	lung explant tissue	MERS-CoV	not stated	lung	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	no
+GSM5958319	lung_89C-EMC2_	lung explant tissue	MERS-CoV	not stated	lung	MERS-CoV	FCS	inferred from the source protocol, not stated in the record	no

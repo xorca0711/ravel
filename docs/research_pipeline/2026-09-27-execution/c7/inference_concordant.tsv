@@ -1,0 +1,7 @@
+test	n	mean	sd	mean_low	mean_high	p_mean	HL	low	high	p_exact	exact_available	direction	magnitude	inference_note	exact_HL_direct	exact_p_direct	attained_conf_level	donors_positive	donors_total
+SCoV1_primary_lesion	3	0.225225157256217	0.0713775873260517	0.0479134008058197	0.402536913706615	0.0318860965280103	NA	NA	NA	NA	FALSE	unavailable	unavailable	Wilcoxon signed rank exact test	0.227154826678754	0.25	1	3	3
+SCoV1_stress_excluded	3	0.230022367282203	0.047632576866067	0.111696486781359	0.348348247783046	0.0139944242505001	NA	NA	NA	NA	FALSE	unavailable	unavailable	Wilcoxon signed rank exact test	0.223867123857583	0.25	1	3	3
+SCoV1_beyond_shared	3	-0.0389962014657733	0.18842435160731	-0.507068239105596	0.42907583617405	0.754297589186249	NA	NA	NA	NA	FALSE	unavailable	unavailable	Wilcoxon signed rank exact test	-0.0221398629413616	1	1	2	3
+SCoV2_primary_lesion	3	0.158871769711011	0.10112576837637	-0.0923385651424571	0.41008210456448	0.112681543341112	NA	NA	NA	NA	FALSE	unavailable	unavailable	Wilcoxon signed rank exact test	0.16917910848871	0.25	1	3	3
+SCoV2_stress_excluded	3	0.15748221831356	0.053206321243415	0.0253103892092905	0.28965404741783	0.036006454096102	NA	NA	NA	NA	FALSE	unavailable	unavailable	Wilcoxon signed rank exact test	0.161584251611214	0.25	1	3	3
+SCoV2_beyond_shared	3	0.00343209877403083	0.078624230130866	-0.19188131635139	0.198745513899452	0.946613772964897	NA	NA	NA	NA	FALSE	unavailable	unavailable	Wilcoxon signed rank exact test	0.00547696402016928	1	1	2	3

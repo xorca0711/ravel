@@ -1,0 +1,174 @@
+{
+  "task": "C5b, post hoc diagnostic",
+  "declared": "post hoc; not in the frozen contract; changes no decision",
+  "completed_utc": "2026-09-27T12:08:40.155607+00:00",
+  "script": "docs/research_pipeline/scripts/c5b_gene_level_diagnostic.py",
+  "script_sha256": "e0de6efeed5e9ba3d90e688372a5dd7f9ee7e8c5e2ca7f94af4d37b030bbc4a4",
+  "inputs": {
+    "pseudobulk": {
+      "path": "at2_pseudobulk_counts.tsv.gz",
+      "sha256": "a6a91d31c8b0acaedd9ba9469ac3816978aeafbc7ae5c2d7f2b726ac5bc09054"
+    }
+  },
+  "primary_arm": "SCoV1",
+  "donors": [
+    "pat1",
+    "pat3",
+    "pat4",
+    "pat6"
+  ],
+  "exact_test_actual_output": {
+    "note": "recomputed and recorded because the A11 helper blanks its output when the interval is unattainable",
+    "SCoV1_primary_lesion": {
+      "n": 4,
+      "HL": 0.241,
+      "exact_p": 0.125,
+      "conf_int": "minus infinity to infinity",
+      "attained_conf_level": 1.0,
+      "why_helper_reports_unavailable": "the helper requires a finite 95 per cent interval and at four pairs none exists"
+    },
+    "SCoV1_stress_excluded": {
+      "n": 4,
+      "HL": 0.2296,
+      "exact_p": 0.125
+    },
+    "SCoV1_beyond_shared": {
+      "n": 4,
+      "HL": 0.0845,
+      "exact_p": 0.625
+    },
+    "SCoV2_primary_lesion": {
+      "n": 3,
+      "HL": 0.1587,
+      "exact_p": 0.5
+    },
+    "SCoV2_stress_excluded": {
+      "n": 3,
+      "HL": 0.1489,
+      "exact_p": 0.5
+    },
+    "SCoV2_beyond_shared": {
+      "n": 3,
+      "HL": 0.0074,
+      "exact_p": 0.25
+    },
+    "minimum_attainable_two_sided_p": {
+      "n=4": 0.125,
+      "n=3": 0.25
+    }
+  },
+  "leave_one_out_primary_means": {
+    "pat1": 0.3271,
+    "pat3": 0.1699,
+    "pat4": 0.2805,
+    "pat6": 0.2609
+  },
+  "a11_stress_exclusion": {
+    "genes_dropped": 17,
+    "dropped": [
+      "DDIT3",
+      "ETS1",
+      "GCNT2",
+      "HS3ST1",
+      "LIF",
+      "MAFF",
+      "MXD1",
+      "PRKCA",
+      "PROCR",
+      "PVR",
+      "RHBDF2",
+      "RNF19B",
+      "RRAD",
+      "SGMS2",
+      "TGFA",
+      "TM4SF1",
+      "TNFAIP3"
+    ],
+    "nfkb_names_retained": [
+      "IL23A",
+      "IL24",
+      "PTGS2",
+      "RELB",
+      "TNF",
+      "TRIB1"
+    ],
+    "isr_names_retained": [
+      "ASNS",
+      "CHAC1",
+      "SLC1A4",
+      "SLC38A2",
+      "TP53INP1",
+      "ZFAND2A"
+    ],
+    "consequence": "the exclusion removes 17 of the 73 and retains the canonical NF-kB and integrated-stress-response names, so agreement between the primary and the stress-excluded variant does not show the movement is independent of an injury response"
+  },
+  "gene_level": {
+    "net_sum_of_mean_differences": 6.5594,
+    "sum_of_positive_movers": 17.4117,
+    "top_10": [
+      {
+        "gene": "SEMA7A",
+        "mean_difference": 1.5867,
+        "donors_positive": 4,
+        "canonical_group": "none"
+      },
+      {
+        "gene": "DENND2C",
+        "mean_difference": 1.5447,
+        "donors_positive": 4,
+        "canonical_group": "none"
+      },
+      {
+        "gene": "ITGA2",
+        "mean_difference": 1.3929,
+        "donors_positive": 4,
+        "canonical_group": "none"
+      },
+      {
+        "gene": "ZFAND2A",
+        "mean_difference": 1.1869,
+        "donors_positive": 4,
+        "canonical_group": "integrated stress response"
+      },
+      {
+        "gene": "TNF",
+        "mean_difference": 0.9346,
+        "donors_positive": 3,
+        "canonical_group": "NF-kB"
+      },
+      {
+        "gene": "ASNS",
+        "mean_difference": 0.8728,
+        "donors_positive": 4,
+        "canonical_group": "integrated stress response"
+      },
+      {
+        "gene": "TM4SF1",
+        "mean_difference": 0.7358,
+        "donors_positive": 4,
+        "canonical_group": "none"
+      },
+      {
+        "gene": "RELB",
+        "mean_difference": 0.6943,
+        "donors_positive": 2,
+        "canonical_group": "NF-kB"
+      },
+      {
+        "gene": "TNFRSF11B",
+        "mean_difference": 0.638,
+        "donors_positive": 2,
+        "canonical_group": "none"
+      },
+      {
+        "gene": "IL23A",
+        "mean_difference": 0.5466,
+        "donors_positive": 2,
+        "canonical_group": "NF-kB"
+      }
+    ],
+    "share_of_net_shift_carried_by_top_10": 1.545,
+    "reading": "the net shift is a small residue of large opposing gene movements, and several of the largest positive movers are canonical injury responders, so the module label carries less of the result than its name suggests"
+  },
+  "changes_no_decision": true
+}
