@@ -1378,3 +1378,16 @@ contract. No new module score, scientific acceptance or claim-grade change occur
 The initial combined check/merge command was automatically rejected while a check
 was still running. Both checks were then separately verified successful before the
 authorized merge; no check or approval was bypassed.
+
+
+## England 2025 planning record, 27 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | Source-grounded England study package and EN0-EN7 analysis structure | Codex, using the article, repository and owner-supplied reading context | Owner requested the scope; scientific interpretation remains for owner review | Plan and metadata intake prepared; no new biological run or claim-grade decision | Separate pooled sequencing experiments, preserve C3 evidence, and expose clone/spatial re-analysis routes |
+
+The owner explicitly confirmed reading before this paper's study note was written.
+Codex authored the synthesis and candidate trial choices; the record does not claim
+human acceptance of those choices or that the requested re-analysis has run.
+Private annotations, copyrighted PDFs, historical freezes and existing claim grades
+were preserved. Source-based caveats are in the [England audit](Research%20Article/gate2_12_england_2025/SOURCE_AUDIT.md).

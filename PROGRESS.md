@@ -1,5 +1,22 @@
 # Progress and handoff state
 
+## England 2025 reading and analysis structure, 27 September 2026
+
+The owner confirmed reading Gate 2C item 2 (stable paper 12) and requested a
+repository-grounded re-analysis plan using the article and private reading notes.
+The [England study package](Research%20Article/gate2_12_england_2025/README.md)
+contains source synthesis, an EN0-EN7 plan and a 20-library design manifest.
+Source intake found at least two lungs pooled per sequencing sample and verified
+public clone/model files, including size-distance inputs. Pool identities, reporter
+pairing and 13-versus-10 Experiment-1 library accounting remain unresolved.
+Historical C3 numbers are preserved; its within-animal wording is qualified by the
+new source audit. No new expression score, clone fit, claim grade or experiment
+was produced. The next England task is EN0 identity/schema recovery before an
+EN1/EN2 freeze. This separate plan does not replace the existing computational
+continuation. The primary checkout's scientific Python launcher was unavailable;
+restore/verify that runtime before new analysis. Work is in the isolated
+`codex/england-analysis-plan` worktree; no private notes or PDFs are tracked.
+
 ## Current computational continuation, 27 September 2026
 
 The owner-authorized audit/roadmap landing is merged in PR #94 (`17ca9b4`). The
