@@ -1,0 +1,94 @@
+{
+  "task": "C5d, post hoc",
+  "declared": "post hoc; corrects three narrative figures and changes no decision",
+  "completed_utc": "2026-09-27T12:33:08.816207+00:00",
+  "script": "docs/research_pipeline/scripts/c5d_virus_table.py",
+  "script_sha256": "1dcf09b1725151eaaf281d749df0acc8096fa2aefefea7773b67baf1e6553d77",
+  "inputs": {
+    "cell_metadata": "53c14a1f41aa22b3d00493254230beff0ca91f55e71a6ae58b025c208c55bdd2",
+    "gene_index": "80718e8ad003e7f9a2d2e40ffead4604182d2653ab3ff3c3933d0d028fce7333"
+  },
+  "virus_field_definition": "the object's virus field is a detection call, non-none when the cell carries at least one read assigned to that virus; it is not an infection assay and a droplet assay can miss low-load infected cells",
+  "viral_feature_inventory": {
+    "total": 46,
+    "by_virus": {
+      "H3N2": 10,
+      "MERS": 9,
+      "SCoV1": 14,
+      "SCoV2": 13
+    },
+    "features": {
+      "H3N2": [
+        "H3N2-HA",
+        "H3N2-M1",
+        "H3N2-M2",
+        "H3N2-NA",
+        "H3N2-NP",
+        "H3N2-NS1",
+        "H3N2-NS2",
+        "H3N2-PA",
+        "H3N2-PB1",
+        "H3N2-PB2"
+      ],
+      "MERS": [
+        "MERS-E",
+        "MERS-M",
+        "MERS-N",
+        "MERS-S",
+        "MERS-orf1ab",
+        "MERS-orf3",
+        "MERS-orf4a",
+        "MERS-orf4b",
+        "MERS-orf5"
+      ],
+      "SCoV1": [
+        "SCoV1-3a",
+        "SCoV1-3b",
+        "SCoV1-6",
+        "SCoV1-7a",
+        "SCoV1-7b",
+        "SCoV1-8a",
+        "SCoV1-8b",
+        "SCoV1-E",
+        "SCoV1-M",
+        "SCoV1-N",
+        "SCoV1-S",
+        "SCoV1-UTR3",
+        "SCoV1-orf1a",
+        "SCoV1-orf1ab"
+      ],
+      "SCoV2": [
+        "SCoV2-E",
+        "SCoV2-M",
+        "SCoV2-N",
+        "SCoV2-ORF10",
+        "SCoV2-ORF3a",
+        "SCoV2-ORF6",
+        "SCoV2-ORF7a",
+        "SCoV2-ORF7b",
+        "SCoV2-ORF8",
+        "SCoV2-S",
+        "SCoV2-UTR3",
+        "SCoV2-orf1a",
+        "SCoV2-orf1ab"
+      ]
+    }
+  },
+  "corrections": {
+    "viral_inventory": "an earlier narrative said 34 SARS-CoV-2, 10 influenza and 9 MERS entries and omitted SARS-CoV-1, the arm under test; the counted inventory is above",
+    "mers_figure": "an earlier narrative gave 309 virus-positive type 2 cells for MERS pooled over all donors; restricted to its two eligible donors the figure is 253 of 589",
+    "h3n2_figure": "an earlier narrative gave 15.6 per cent for influenza pooled over all donors; restricted to its one eligible donor the figure is 10 of 200"
+  },
+  "primary_arm_eligible_donors": {
+    "arm": "SCoV1",
+    "scope": "eligible donors only",
+    "cells": 1039,
+    "cells_with_any_viral_read": 5,
+    "fraction_with_any_viral_read": 0.0048,
+    "median_viral_percent": 0.0,
+    "max_viral_percent": 0.0228,
+    "cells_above_1pc_viral": 0,
+    "donors": "pat1,pat3,pat4,pat6"
+  },
+  "changes_no_decision": true
+}

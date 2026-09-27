@@ -89,5 +89,10 @@
       "donors_positive": 1
     }
   },
-  "reading": "The direction in the primary arm does not depend on the trimmed-mean normalisation, and the exact interval the contract designated is unavailable at four pairs exactly as declared. Neither fact turns an unresolved result into a supported one."
+  "reading_superseded": "The direction in the primary arm does not depend on the trimmed-mean normalisation, and the exact interval the contract designated is unavailable at four pairs exactly as declared. Neither fact turns an unresolved result into a supported one.",
+  "reading": "Derived from the checks rather than asserted. 7 of 8 checks pass. The one that fails is a normalisation probe added after the contract, and a later diagnostic showed its premise was wrong: the module's displacement from an abundance-matched background is +0.2667 with and +0.2692 without trimmed-mean normalisation, so the normalisation moves the score's zero and not the module signal. The exact interval is unavailable at these unit counts as the contract predicted, while the exact p and estimate are available and are recorded in the C5 directory.",
+  "failing_checks": [
+    "the primary direction survives dropping the trimmed-mean normalisation"
+  ],
+  "note_on_the_superseded_reading": "the earlier text asserted that the direction does not depend on the normalisation, which contradicted this file's own failing check; it is kept above so the correction is visible"
 }

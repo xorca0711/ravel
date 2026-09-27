@@ -1,0 +1,11 @@
+normalisation	variant	genes	paired_mean	donors_positive	donors
+TMM	full_module	73	0.2596	4	4
+TMM	drop_nfkb	64	0.2279	4	4
+TMM	drop_isr	66	0.2601	4	4
+TMM	drop_both	57	0.2245	4	4
+TMM	only_nfkb_and_isr	16	0.3845	4	4
+none	full_module	73	0.093	3	4
+none	drop_nfkb	64	0.062	3	4
+none	drop_isr	66	0.0953	3	4
+none	drop_both	57	0.0609	3	4
+none	only_nfkb_and_isr	16	0.2072	2	4

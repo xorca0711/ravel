@@ -3,7 +3,7 @@
   "updated": "2026-09-27",
   "branch": "codex/computational-research-pipeline",
   "base_merge": "17ca9b49a4da29afef4214449ea940d1b62b999e",
-  "next_task": "C6",
+  "next_task": "C6-audit-followups",
   "active_processes": [],
   "new_biological_analysis_executed": true,
   "task_policy": "One checkpoint per task; pending dependencies are not biological failures. Gate failure records its evidence and permits unrelated ready tasks.",
@@ -61,11 +61,11 @@
       "depends_on": [
         "C4"
       ],
-      "note": "verified: 7 of 8 checks pass; the eighth is an added robustness probe showing the effect falls to +0.090 with 3 of 4 positive without trimmed-mean normalisation. The primary arm's type 2 cells are 0.6 per cent virus-positive, so the contrast measures a bystander response. Verdict unresolved; the cohort cannot carry this falsification under A11's inherited floors.",
+      "note": "superseded in reasoning by an adversarial review: the verdict of unresolved stands and is now reached by the contract's decision rule, but four of the first draft's five arguments were wrong and are corrected in the rewritten report",
       "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/"
     },
     {
-      "id": "C6",
+      "id": "C6-audit-followups",
       "task": "audit_a5_external_correspondence",
       "status": "ready",
       "depends_on": []
@@ -105,6 +105,36 @@
       "task": "synchronize_final_gap_status",
       "status": "pending",
       "depends_on": []
+    },
+    {
+      "id": "C5b",
+      "task": "gene_level_and_exact_output_diagnostic",
+      "status": "completed",
+      "depends_on": [
+        "C5"
+      ],
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/",
+      "note": "the exact test does return HL and p; only the 95 per cent interval is unattainable"
+    },
+    {
+      "id": "C5c",
+      "task": "dropout_and_null_displacement",
+      "status": "completed",
+      "depends_on": [
+        "C5"
+      ],
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/",
+      "note": "displacement from an abundance-matched background is invariant to normalisation at +0.267 and +0.269; dropping the NF-kB and stress genes leaves +0.2245 with 4 of 4 positive"
+    },
+    {
+      "id": "C5d",
+      "task": "virus_detection_table",
+      "status": "completed",
+      "depends_on": [
+        "C5"
+      ],
+      "artifacts": "docs/research_pipeline/2026-09-27-execution/c5/",
+      "note": "46 viral features, and the MERS and influenza figures corrected to their eligible donors"
     }
   ]
 }
