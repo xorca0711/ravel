@@ -1417,7 +1417,7 @@ The owner explicitly confirmed reading before this paper's study note was writte
 Codex authored the synthesis and candidate trial choices; the record does not claim
 human acceptance of those choices or that the requested re-analysis has run.
 Private annotations, copyrighted PDFs, historical freezes and existing claim grades
-were preserved. Source-based caveats are in the [England audit](Research%20Article/gate2_12_england_2025/SOURCE_AUDIT.md).
+were preserved. Source-based caveats are in the [England audit](Research%20Article/gate2_C2_england_2025/SOURCE_AUDIT.md).
 
 
 ## England execution record, 28 September 2026
@@ -1451,7 +1451,7 @@ continuation queue; this documentation is not evidence that EN7 has executed.
 
 | Date | Item | Proposed by | Decided by | Decision | Reason |
 |---|---|---|---|---|---|
-| 2026-09-28 | Continuation session opened; runtime, external objects and source simulator re-inspected; amendments CA1 to CA3 frozen | Claude, from the handoff and frozen contract | Owner asked to settle the state, save, commit and open a PR before any endpoint ran; scientific acceptance remains open | Recorded in [continuation amendments](Research%20Article/gate2_12_england_2025/config/continuation_amendments.json); no continuation endpoint executed, no batch1 file changed, no claim regraded | An amendment that can change an EN6 outcome must be frozen before that endpoint is evaluated |
+| 2026-09-28 | Continuation session opened; runtime, external objects and source simulator re-inspected; amendments CA1 to CA3 frozen | Claude, from the handoff and frozen contract | Owner asked to settle the state, save, commit and open a PR before any endpoint ran; scientific acceptance remains open | Recorded in [continuation amendments](Research%20Article/gate2_C2_england_2025/config/continuation_amendments.json); no continuation endpoint executed, no batch1 file changed, no claim regraded | An amendment that can change an EN6 outcome must be frozen before that endpoint is evaluated |
 
 The session confirmed the bundled AMD64 interpreter and the checkout's scientific
 packages, confirmed the Choi and Niethamer object schemas the contract relies on,

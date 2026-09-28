@@ -4,7 +4,7 @@
 
 A second session resumed the [England EN7/CD177 handoff](docs/handoffs/2026-09-28-england-en7-cd177.md),
 re-verified the runtime and external object schemas, and froze three
-[continuation amendments](Research%20Article/gate2_12_england_2025/config/continuation_amendments.json)
+[continuation amendments](Research%20Article/gate2_C2_england_2025/config/continuation_amendments.json)
 before any endpoint: a simulator branch observation with a diagnostic third
 implementation for EN6, the igraph multilevel route for the contract's Louvain,
 and barcode-joined reuse of batch1 doublet flags. **No continuation script exists
@@ -27,7 +27,7 @@ first-batch outputs. No scientific claim grade changed.
 ## England first analysis batch, 28 September 2026
 
 Following the owner's explicit request to proceed beyond planning, the
-[England results and four figures](Research%20Article/gate2_12_england_2025/RESULTS_BATCH1.md)
+[England results and four figures](Research%20Article/gate2_C2_england_2025/RESULTS_BATCH1.md)
 now cover 20 libraries (44,196 source-QC cells), 164,453 clonal measurements,
 and 44 source-indexed mice. Contract c82b0e0 preceded the new outcomes.
 Il1r1 deletion is associated with lower Cd177-related RNA without a demonstrated
@@ -49,7 +49,7 @@ status; the earlier plan and source audit are historical intake snapshots.
 
 The owner confirmed reading Gate 2C item 2 (stable paper 12) and requested a
 repository-grounded re-analysis plan using the article and private reading notes.
-The [England study package](Research%20Article/gate2_12_england_2025/README.md)
+The [England study package](Research%20Article/gate2_C2_england_2025/README.md)
 contains source synthesis, an EN0-EN7 plan and a 20-library design manifest.
 Source intake found at least two lungs pooled per sequencing sample and verified
 public clone/model files, including size-distance inputs. Pool identities, reporter
