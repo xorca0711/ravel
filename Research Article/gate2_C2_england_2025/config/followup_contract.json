@@ -1,0 +1,123 @@
+{
+  "schema": "england-followup-FU/v1",
+  "parent_contracts": ["config/continuation_contract.json", "config/continuation_amendments.json"],
+  "frozen_local_date": "2026-09-28",
+  "authorization": "Owner approved the continuation recommendations and asked for paper-style subcluster UMAP and trajectory-analogous figures for CD177 and reversible state conversion",
+  "exposure": "FULL. Every endpoint of batch1 and the continuation (EN0-EN7) has been evaluated and reported in RESULTS_CONTINUATION.md. This contract is an openly exploratory follow-up on exposed data; it is not preregistration and cannot yield independent validation.",
+  "formal_p_values": false,
+  "inherited_rules": "Gates, modules, inclusion rules, 30-cell floor, 10-per-side bin floor, library units, mapped-gene denominators and EN7_library_CPM_v1 are inherited unchanged from the continuation contract unless named below.",
+
+  "paper_pipeline_as_documented": {
+    "source": "England et al. 2025 STAR Methods, read 2026-09-28",
+    "qc": ">15% mitochondrial, <1000 detected genes, >50,000 UMIs removed; mitochondrial genes and genes in <3 cells dropped before normalization",
+    "round1": "log-normalize + scale, top 5,000 HVG, PCA, Louvain graph clustering, UMAP on first two dimensions; clusters of unwanted types discarded on Ptprc (immune), Pecam1 (endothelial), Col1a1 (mesenchymal), Foxj1 (ciliated) plus canonical markers",
+    "round2": "filtered objects integrated, counts renormalized, PCA / clustering / UMAP repeated; clusters annotated by known markers and by comparison with published regeneration states",
+    "trajectory_method": "NONE. The paper reports no pseudotime, RNA-velocity, Monocle, PAGA or similar analysis. Its reversible-transition claim rests on CD177/Itga2 double-positive immunofluorescence, organoid cultures from sorted states, orthotopic transplantation and EdU, plus the absence of a clone-size-versus-composition correlation.",
+    "velocity_feasibility": "RNA velocity is impossible on this deposit: GEO supplies CellRanger filtered count matrices only, with no spliced/unspliced layers or velocyto output."
+  },
+
+  "FU_A_depth_control": {
+    "question": "Do the CD177 secondary associations (priming, AT2/AT1 identity, Itga2, shared/lesion modules) survive depth control?",
+    "population": "transition-gated, primary-included cells in the two eligible libraries GSM7890835 and GSM7890836",
+    "methods_all_prespecified": [
+      "within-transition thinning to a common budget of 3000 UMIs (seed 20260930), cells below the budget excluded and counted; gates and Cd177 grouping recomputed on the thinned counts",
+      "rank-based endpoint: within-library rank of each per-cell score, difference of mean ranks expressed as a rank-biserial correlation",
+      "detection-covariate residual: per-cell score residualized on log10(total UMIs) and on the number of detected genes by ordinary least squares within library, then the standardized mean difference recomputed on residuals",
+      "depth-decile stratified SMD: 10 equal-count depth bins, >=10 cells per side per bin, weights min(n_pos, n_neg)"
+    ],
+    "decision_rule_frozen": "An association is called depth-robust only if its direction is preserved in BOTH libraries under ALL FOUR methods AND the residualized |SMD| is at least half the unadjusted |SMD|. Otherwise it is reported as depth-dependent or inconclusive.",
+    "boundary": "Depth control cannot remove ambient contamination or establish causality; Cd177 RNA is not surface protein."
+  },
+
+  "FU_B_AT1_module_gate": {
+    "question": "Does an AT1 definition that is specific in an independently labelled dataset change the mixed-state readout?",
+    "new_gate": "AT1_module_gate: mean log1p(CP10k) over Pdpn, Cav1, Aqp5, Spock2 (the AT1_identity module, disjoint from the Ager/Hopx/Clic5 detection gate) above a threshold",
+    "threshold_calibration": "Fixed BEFORE application to England data as the value maximizing Youden's J for author_celltype == 'AT1' versus author_celltype == 'AT2' among Niethamer primary-included cells (25-sample atlas, all days). Recorded with its sensitivity and specificity.",
+    "application": "Recompute the exclusive state rule with AT1_module_gate replacing the AT1 detection gate; recompute per-library composition, the mixed-state fraction and the Cd177 contrasts. Report both definitions side by side; the original gate is not deleted.",
+    "boundary": "A threshold transferred across studies and chemistries is a descriptive harmonization, not a validated classifier."
+  },
+
+  "FU_C_cluster_level_cd177": {
+    "question": "Is the CD177 association a property of the transition gate or of the Cd177-enriched cluster?",
+    "population": "Experiment-1 epithelial subclusters from FU_E round 2; the comparison is Cd177 >=1 UMI versus zero WITHIN each subcluster that meets the 30-cell floor on both sides",
+    "endpoints": "same primary (cycling) and secondary endpoints as EN5, same matched design",
+    "boundary": "Clusters are reconstruction-dependent; this is a sensitivity of the gate-based result, not an independent test."
+  },
+
+  "FU_D_library_quality_model": {
+    "question": "How much of the between-library spread in response-high fraction is explained by technical quality?",
+    "unit": "library (n = 20)",
+    "outcome": "fraction of primary-included cells above the frozen WT-baseline q90 response threshold (EN3 definition, unchanged)",
+    "predictors": "median log10 UMIs, median detected genes, median mitochondrial percent, batch1 doublet fraction, immune-marker-high fraction",
+    "model": "ordinary least squares, all five predictors entered together, no selection; report R-squared, coefficients and residuals by condition",
+    "boundary": "20 libraries and five predictors; descriptive variance accounting, not inference. Condition is confounded with library, so a high R-squared does not prove a technical origin."
+  },
+
+  "FU_E_embedding_and_topology": {
+    "question": "Reproduce the paper's two-round epithelial subclustering and UMAP, and characterize state topology as far as the data allow",
+    "round1": "per experiment, the continuation EN1 clustering already run (5,000 HVG, 30 PCs, 15 neighbours, igraph multilevel r 0.5/1.0/1.5, seed 20260928) is reused as round 1",
+    "contaminant_rule": "a round-1 cluster at r = 1.0 is discarded when its detection fraction for any of Ptprc, Pecam1, Col1a1 or Foxj1 is >= 0.25 and its epithelial-anchor detection (>=2 of Epcam/Krt18/Krt19/Sftpc/Nkx2-1/Lamp3) is < 0.5; the rule is applied per experiment and its waterfall recorded",
+    "round2": "retained cells renormalized, 5,000 HVG, 30 PCs, 15 neighbours, igraph multilevel r 0.5/1.0/1.5, seed 20260928; UMAP with min_dist 0.3, spread 1.0, seed 20260928, 2 components",
+    "annotation": "clusters labelled by the frozen gates and modules plus the contaminant panels; no six-state target and no author-label equivalence claimed",
+    "topology": [
+      "PAGA connectivity between round-2 clusters (scanpy default), reported as an undirected graph",
+      "diffusion pseudotime rooted at the cell with the highest AT2_identity score inside the largest AT2-gated cluster, reported as an ordering only"
+    ],
+    "direction_boundary": "PAGA connectivity and diffusion pseudotime are undirected descriptions of transcriptome similarity. They cannot establish a direction of travel, a transition rate, or bidirectional conversion. No arrow may be drawn on a figure from these quantities. RNA velocity is not computable on this deposit.",
+    "cd177_itga2_codetection": "Within mutant RFP epithelial cells, count Cd177/Itga2 RNA co-detection at >=1 UMI each and compare with 200 permutations of the Itga2 indicator within depth-decile x cycling strata (seed 20260930). This is the RNA analogue of the paper's protein double-positive observation; RNA co-detection is not protein double positivity and does not demonstrate transition."
+  },
+
+  "FU_T_transition_model_predictions": {
+    "purpose": "Test predictions that distinguish the paper's reversible-transition model from a forward reprogramming cascade, using RNA only. This tests consequences of the model; it does not measure transitions, directions or rates.",
+    "paper_model_as_read": "England et al. 2025: mutant cells initially transform along a forward reprogramming pathway, then gain capacity for reversible transitions between DATP-like (Itga2), Cd177+ mixed and other mutant states, imparting equivalent proliferative potential on all mutant states. Evidence in the paper is CD177/Itga2 double-positive immunofluorescence, organoids and transplants from sorted states, EdU, and absence of a clone-size-versus-composition correlation.",
+    "T1_topology": {
+      "prediction_reversible": "round-2 mutant subclusters are mutually adjacent: PAGA connectivity is distributed across many pairs rather than concentrated in a chain",
+      "prediction_cascade": "connectivity concentrated along a path, with low direct connectivity between non-adjacent states",
+      "readout": "PAGA connectivity matrix between round-2 clusters restricted to mutant RFP epithelial cells; report the full matrix, the fraction of total connectivity carried by the largest spanning path, and the number of pairs above 0.1",
+      "boundary": "undirected; a connected graph is compatible with rapid mixing AND with a continuum of states that never interconvert"
+    },
+    "T2_intermediate_density": {
+      "prediction_reversible": "cells occupy the transcriptional space between state centroids rather than only at them",
+      "readout": "for each pair of round-2 mutant clusters, project cells onto the line joining the two centroids in the 30-PC space, bin into 10 equal-width bins, and report the density in the middle four bins relative to the two end bins (a filled-valley ratio). Report the same ratio after excluding cells flagged as doublets in batch1 and after depth-decile matching of the two clusters.",
+      "boundary": "doublets, ambient RNA and depth all fill valleys; the ratio is descriptive and is reported alongside the doublet and depth sensitivities, never alone"
+    },
+    "T3_composition_stationarity": {
+      "prediction_reversible": "state composition approaches a stationary mix and changes little between later timepoints",
+      "prediction_cascade": "composition drifts monotonically with time",
+      "readout": "per-library exclusive-state composition at Experiment-1 day 4 versus day 14 (mutant RFP) and Experiment-2 day 14 versus day 84 (Il1r1 heterozygous mutant RFP); report total variation distance between the mean compositions of each pair and the per-library range",
+      "boundary": "different timepoints are different mice, not longitudinal measurements; two timepoints per experiment cannot distinguish a stationary mix from a slow cascade, and this comparison is confounded with library and depth"
+    },
+    "T4_equipotency": {
+      "prediction_reversible": "cycling is comparable across mutant states (the model's functional core)",
+      "prediction_cascade": "cycling concentrated in specific states",
+      "readout": "within mutant RFP libraries, cycling score and the fraction with >=2 cycling markers per exclusive gate state and per round-2 cluster, with the 30-cell floor; depth-decile matched pairwise standardized mean differences between states; reported per library, never pooled across libraries",
+      "boundary": "RNA cycling markers are not a proliferation assay and say nothing about long-term potential, which the paper measured with organoids, transplantation and EdU"
+    },
+    "not_computable_on_this_deposit": [
+      "RNA velocity or any splicing-based direction: GEO supplies CellRanger filtered matrices with no spliced/unspliced layers; the only route is re-quantifying the 68 ENA runs, which requires remote compute and separate authorization",
+      "transition rates or detailed-balance tests: state occupancy over time does not identify a rate matrix, and timepoints are different animals",
+      "optimal-transport couplings between timepoints: the method imposes the time direction it would be asked to test, so it adds assumptions without discriminating power here; deliberately excluded",
+      "CellRank or any directed Markov chain built on a pseudotime or similarity kernel: its arrows follow from the kernel and root choice, not from the data; deliberately excluded",
+      "assignment of any cell to a founder class, or of any state to a position in a lineage"
+    ],
+    "reporting_rule": "Each prediction is reported as consistent, inconsistent or uninformative with respect to the two competing descriptions, with the confound that could produce the same pattern named in the same sentence. The word 'reversible' may not be applied to any quantity computed here."
+  },
+
+  "FU_S_simulator_refit": {
+    "question": "Does a boundary-correct implementation change the fitted two-population parameters and their support relative to the literal script?",
+    "data": "batch1 mouse-level clone sizes, support n >= 2, mutant RFP cohorts kras1w/kras2w/kras4w",
+    "implementations": "literal and boundary-correct Gillespie from EN6, unchanged",
+    "fitting": "simulated-likelihood on a fixed grid: fs in {0.04,0.08,0.12,0.16,0.20}, sigma_f in {2,4,6,8,10,12,14}/7 x 2, sigma_s in {0.5,1.0,1.5,2.0}/7 x 2, r = q in {0.5,0.6,0.7,0.8}; 20 replicates x 2000 clones per grid point, seed 20260930; score = mean per-mouse multinomial log likelihood of the binned size distribution (bins 2,3,4,5-6,7-10,11-20,21-50,51+) with leave-one-mouse-out held-out scoring",
+    "comparison": "best grid point per implementation, its held-out score, and the batch1 shifted-negative-binomial held-out score on the same bins",
+    "boundary": "A coarse grid is not a maximum-likelihood fit; merger and segmentation of imaged clones are not modelled; agreement with the published curves is not evidence that a particular implementation produced them."
+  },
+
+  "figures": {
+    "FU_F01": "paper-style two-round epithelial UMAP per experiment with gate-state, Cd177 and Itga2 overlays",
+    "FU_F02": "CD177 depth-control panel: four methods x two libraries x endpoints, with the frozen decision rule marked",
+    "FU_F03": "state topology: PAGA connectivity graph and diffusion-pseudotime distributions by cluster, captioned as undirected",
+    "FU_F04": "AT1 module gate calibration on Niethamer and its effect on England mixed-state composition",
+    "FU_F05": "simulator refit: grid likelihood surface and held-out comparison"
+  },
+  "reporting": "One appended section in RESULTS_CONTINUATION.md or a separate RESULTS_FOLLOWUP.md, with the depth-robustness verdict per endpoint and an explicit statement that no direction of state conversion is established."
+}
