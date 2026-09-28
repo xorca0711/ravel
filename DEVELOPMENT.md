@@ -1655,3 +1655,18 @@ carries forward the integration review's boundaries. The frozen contract was
 deliberately left unedited because CI hash-verifies it. This is an
 owner-authorized documentation change; the register card, readiness row,
 claim grades and the pending A16 retain/reject decision are unchanged.
+
+## 28 September 2026: align A10's endpoint, then nominate A1's next test
+
+Continuing the adopted proposal, Claude Science consolidated what A10's endpoint
+measures and in which unit, and used that statement to bind A10 into A1's
+comparison matrix. The consequential finding is negative and was not anticipated
+by the proposal's wording: A10's predictor and outcome are measured at the same
+time in the same well, so it cannot serve as the later outcome A1, A8 and A14
+need, and no other A1 branch has a later outcome in the same units either. The
+matrix therefore nominates a linkage design rather than a computational task,
+and records the stop rule against pairing measurements across cohorts. Two
+sub-agents produced the underlying inventories; their first dispatch was
+terminated by a platform content-safety refusal and the retry completed, which is
+recorded because the failure left no output and could be mistaken for a data
+problem. Documentation only; no result, grade or register wording changed.

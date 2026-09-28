@@ -2,6 +2,36 @@
 
 **Update this before stopping work, every session.**
 
+## Current A10 and A1 endpoint alignment, 28 September 2026
+
+Second adopted item of the [combined proposal](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md):
+A10's timing and units, then A1's comparison matrix. Branch
+`codex/a10-a1-endpoint-matrix`, stacked on PR #112 (A16 figures).
+
+The [A10 endpoint consolidation](RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md)
+establishes that A10's predictor and outcome are concurrent: imaging is at days 7
+and 14 while the RNA libraries are day-14, the day-7 image is the only earlier
+measurement and is itself post-perturbation, and the unit is the well -- 885
+analysed wells in 15 plate-replicate groups across four plates, a target's four
+repeat wells being aliquots of one cell-Matrigel mixture. Held-out error falls on
+all four plates against the E2F/G2M comparator while R-squared against the
+held-out plate mean stays negative on plates 1, 2 and 4; both are plotted in one
+figure from `model_absolute_performance.tsv`.
+
+The [A1 comparison matrix](RQ_Specified/A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md)
+ranks every branch on whether a measured later outcome exists in the same units
+as the early measurement. None does, which the closure ledger already stated for
+the branch as a whole. It therefore nominates a linkage rather than an analysis:
+the day-7 IRE1-alpha epithelial RNA and the day-14 mature endpoint measured in
+one cohort of animals. Supporting inventories are a 27-branch
+[branch inventory](RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_BRANCH_INVENTORY.md)
+and a 29-outcome [outcome inventory](RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md)
+shared with A8 and A14; the latter records that no EdU, BrdU or label-retention
+assay is named anywhere in the A1 evidence, which is a coverage gap rather than a
+measured negative. A10's endpoint is bound in the matrix as a concurrent growth
+readout that does not qualify as a later outcome. No analysis ran; no claim row,
+grade, register card or readiness row changed.
+
 ## Current A16 rationale amendment, 28 September 2026
 
 The owner adopted the [combined proposal](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md)'s

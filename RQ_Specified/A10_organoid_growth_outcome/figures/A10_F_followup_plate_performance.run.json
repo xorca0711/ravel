@@ -1,0 +1,66 @@
+{
+ "figure": "RQ_Specified/A10_organoid_growth_outcome/figures/A10_F_followup_plate_performance.png",
+ "script": "RQ_Specified/A10_organoid_growth_outcome/scripts/plot_followup_plate_performance.py",
+ "script_sha256": "42cd0d127b0f0af19ddcc10c21a1c4c221467708e8f7ac1bb2e97b27d46cb1aa",
+ "inputs": [
+  {
+   "path": "RQ_Specified/A10_organoid_growth_outcome/tables/followup_v1/model_absolute_performance.tsv",
+   "sha256": "c95a53e77917975a530cbb812081911b2e77e3511039e0cd7dc5b9c6c2035497"
+  }
+ ],
+ "selection": {
+  "setting": "primary",
+  "scale": "inherited_log2",
+  "models": [
+   "baseline+proliferation",
+   "baseline+proliferation+remaining_growth"
+  ],
+  "plates": [
+   "plate1",
+   "plate2",
+   "plate3",
+   "plate4"
+  ]
+ },
+ "plotted_values": {
+  "wells": {
+   "plate1": 232,
+   "plate2": 174,
+   "plate3": 239,
+   "plate4": 240
+  },
+  "rmse": {
+   "baseline+proliferation": {
+    "plate1": 0.0550300758839,
+    "plate2": 0.0442346765816,
+    "plate3": 0.0505559540291,
+    "plate4": 0.0465570683002
+   },
+   "baseline+proliferation+remaining_growth": {
+    "plate1": 0.0416986292652,
+    "plate2": 0.029516659042,
+    "plate3": 0.0423219173372,
+    "plate4": 0.040186711619
+   }
+  },
+  "r2_against_heldout_mean": {
+   "baseline+proliferation": {
+    "plate1": -0.80167018317,
+    "plate2": -3.76855922609,
+    "plate3": -0.155317569148,
+    "plate4": -8.62617691228
+   },
+   "baseline+proliferation+remaining_growth": {
+    "plate1": -0.0344717273173,
+    "plate2": -1.1232242493,
+    "plate3": 0.190368444608,
+    "plate4": -6.17211971079
+   }
+  }
+ },
+ "matplotlib": "3.11.2",
+ "numpy": "2.4.6",
+ "pandas": "2.3.3",
+ "generated_utc": "2026-09-28T13:49:15.564653+00:00",
+ "note": "Presentation of tracked follow-up values only; no model was fitted or rescored."
+}
