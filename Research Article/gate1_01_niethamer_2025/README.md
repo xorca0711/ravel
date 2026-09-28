@@ -1,5 +1,16 @@
 # Gate 1, paper 1: Niethamer et al. 2025 (GSE262927)
 
+## Read this study
+
+| To understand | Read |
+|---|---|
+| Paper context and biological question | [Published workflow](../../docs/WORKFLOW_Niethamer2025.md); [source-method notes](../../docs/scRNAseq_workflow_Niethamer2025.md) |
+| Analysis results, claims and limitations | [Generated atlas report](GSE262927/README.md); [analysis stages and outcomes](ANALYSIS_TRIAL_PLAN.md) |
+| Figures and captions | [Selected figures and links to detailed galleries](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
 This page brings together the study note, analysis reports and selected
 figures for the first paper in the [reading roadmap](../README.md).
 

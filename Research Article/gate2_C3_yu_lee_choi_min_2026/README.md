@@ -1,5 +1,16 @@
 # Yu, Lee, Choi_Min and Choi 2026: IL-1beta and stem-cell plasticity
 
+## Read this study
+
+| To understand | Read |
+|---|---|
+| Paper context and biological question | [Review context](#study-context); [source and annotation synthesis](SOURCE_SYNTHESIS.md) |
+| Analysis results, claims and limitations | [Current evidence review](EVIDENCE_REVIEW.md); [completion register](WORK_PACKAGES.md) |
+| Figures and captions | [All 17 generated figures](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
 **IL-1beta signaling as a molecular arbiter of stem cell plasticity:
 orchestrating the niches of repair, fibrosis, and cancer.** Sua Yu, Seo Hyeon
 Lee, Min Seo Choi and Jinwook Choi. *Seminars in Immunology* 83, 102050.
@@ -21,7 +32,9 @@ questions that remain unidentifiable. No criterion was relaxed after
 viewing results. The [initial report](INITIAL_RUN_REPORT.md) preserves
 the first batch; it is not the current whole-run status.
 
-## Read and review
+<a id="read-and-review"></a>
+
+## Analysis files and protocols
 
 | Artifact | Purpose |
 |---|---|

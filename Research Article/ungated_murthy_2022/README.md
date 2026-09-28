@@ -1,5 +1,16 @@
 # Kadur Lakshminarasimha Murthy et al. 2022, the source paper of GSE178360
 
+## Read this study
+
+| To understand | Read |
+|---|---|
+| Paper context and biological question | [Source and role of this deposit](#study-context) |
+| Analysis results, claims and limitations | [Generated three-donor atlas report](GSE178360/README.md); [related HLCA mapping](../gate1_04_sikkema_2023_hlca/README.md) |
+| Figures and captions | [Donor map and epithelial markers](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
 *Nature* 2022, DOI [10.1038/s41586-022-04541-3](https://doi.org/10.1038/s41586-022-04541-3),
 PMID [35355018](https://pubmed.ncbi.nlm.nih.gov/35355018/). Human distal lung
 maps and lineage hierarchies.
@@ -16,7 +27,8 @@ the roadmap, and the roadmap's rule is that study notes follow reading
 
 - [`GSE178360/`](GSE178360/README.md): the generated report, figures,
   tables, QC and the epithelial sub-analysis (three healthy donors,
-  27,729 cells after QC). Rows C4 to C7 and C9 in `CLAIMS.md`.
+  27,729 cells after QC). Current decisions are in the root
+  [claim register](../../CLAIMS.md); its mouse claims do not describe this cohort.
 
 ## Figure gallery
 

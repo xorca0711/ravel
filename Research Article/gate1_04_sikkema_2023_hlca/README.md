@@ -1,5 +1,16 @@
 # Study note: Sikkema et al. 2023, An integrated cell atlas of the lung in health and disease (HLCA)
 
+## Read this study
+
+| To understand | Read |
+|---|---|
+| Paper context and biological question | [Study context](#study-context); [source atlas, methods and evidence](#source-context) |
+| Analysis results, claims and limitations | [S1–S5 outcomes](ANALYSIS_TRIAL_PLAN.md); [what reference mapping can establish](PIPELINE_FRAMING.md) |
+| Figures and captions | [Reference mapping, annotation and QC](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
 Roadmap position: **Gate 1, paper 4 of 4 ("reference framework")** in the
 ordered paper roadmap of [`Research Article/README.md`](../README.md).
 The owner's own reading note is kept privately;
@@ -92,6 +103,8 @@ annotations from a single inferred identity. Resolution and author-label
 dependence remain part of the interpretation.*
 
 </details>
+
+<a id="source-context"></a>
 
 ## 0. Reading workflow (the five questions the roadmap requires)
 

@@ -1,0 +1,158 @@
+{
+  "base_commit": "37e5f1b",
+  "before": {
+    "epithelial_state_specificity": {
+      "readme_lines": 84,
+      "embedded_figures": 1,
+      "sha256": "3e2de057eda4d0889c16420e9d39683ff7b11f4078111a8d9f340e4b45d22759"
+    },
+    "gate1_01_niethamer_2025": {
+      "readme_lines": 65,
+      "embedded_figures": 3,
+      "sha256": "0802514172587107c25a73cc42a8cc83d388e250bb6776d0bfaf6f5700740134"
+    },
+    "gate1_02_choi_2020": {
+      "readme_lines": 203,
+      "embedded_figures": 2,
+      "sha256": "892dfd17025ce9a51662644da55ccde0f50965ae6ce320b033d962b0b702382c"
+    },
+    "gate1_03_nabhan_2018": {
+      "readme_lines": 121,
+      "embedded_figures": 7,
+      "sha256": "959aff2e795a8acf4eeb3f47881270c277cb9c313a621bd081381f115898ddc2"
+    },
+    "gate1_04_sikkema_2023_hlca": {
+      "readme_lines": 422,
+      "embedded_figures": 6,
+      "sha256": "b2bd3460eb974a2d5704af40070631235cb6dae7e2038a758da45f27382731c7"
+    },
+    "gate2_05_cardoso_2026": {
+      "readme_lines": 314,
+      "embedded_figures": 3,
+      "sha256": "dc9aa21ef3b3db9488bc4271a1a1806e9b90810c1eb9daf4c6c9619943dbb0d0"
+    },
+    "gate2_C2_england_2025": {
+      "readme_lines": 260,
+      "embedded_figures": 15,
+      "sha256": "29cdc9137bc9bb8915977ecb5a5fa51c59bfeec7283d73dfd7c5ec567a0e9987"
+    },
+    "gate2_C3_yu_lee_choi_min_2026": {
+      "readme_lines": 270,
+      "embedded_figures": 17,
+      "sha256": "fd0e717689b7bbeb47af33e163813f54585d99de355cae7dd6360247bccaa70c"
+    },
+    "ungated_murthy_2022": {
+      "readme_lines": 43,
+      "embedded_figures": 2,
+      "sha256": "03fae1fd25eb0a8dc897371cee94e3d998abd46deb2ea99b04a3f42bc23664c6"
+    }
+  },
+  "england_figures": [
+    {
+      "figure": "EN_C01",
+      "path": "trials/continuation/figures/EN_C01_state_occupancy.png",
+      "sha256": "d64d8796bdc7286b4dd292a53b8ef65590198cb167f63a82ad2f3c4a163eef86",
+      "stage": "Continuation",
+      "render_record": "trials/continuation/figures/render_record.json"
+    },
+    {
+      "figure": "EN_C02",
+      "path": "trials/continuation/figures/EN_C02_cluster_gate_crosstab.png",
+      "sha256": "bac0f0f42e28894814b9f6c6e8f5322e6fb0cc1d3af9822ff5cd3450c1473812",
+      "stage": "Continuation",
+      "render_record": "trials/continuation/figures/render_record.json"
+    },
+    {
+      "figure": "FU_F01",
+      "path": "trials/followup/figures/FU_F01_round2_umap.png",
+      "sha256": "feb435a78eaea7aecdb56480997801db97a3744bd85e308a7debec74b4abb9f5",
+      "stage": "Follow-up",
+      "render_record": "trials/followup/figures/render_record.json"
+    },
+    {
+      "figure": "FU_F04",
+      "path": "trials/followup/figures/FU_F04_controls.png",
+      "sha256": "7f1f9879be92463aca984b56082d7228d29357672fe593b4f60041f616fd2afd",
+      "stage": "Follow-up",
+      "render_record": "trials/followup/figures/render_record.json"
+    },
+    {
+      "figure": "EN_C03",
+      "path": "trials/continuation/figures/EN_C03_cd177_transition.png",
+      "sha256": "7517b3003ad51b58b2f53a73c5bc55d4fddbea38e8baff8e00a89aad46d19b9c",
+      "stage": "Continuation",
+      "render_record": "trials/continuation/figures/render_record.json"
+    },
+    {
+      "figure": "FU_F02",
+      "path": "trials/followup/figures/FU_F02_depth_control.png",
+      "sha256": "bbb34e314ef387ef341a7dcdfd8d70d198b09ce947a55e67e564e22b86b6a002",
+      "stage": "Follow-up",
+      "render_record": "trials/followup/figures/render_record.json"
+    },
+    {
+      "figure": "FU_F03",
+      "path": "trials/followup/figures/FU_F03_topology_and_within_cluster.png",
+      "sha256": "0876fb58749267892c5006635c8e09908995b401cc2a41d35e2fa131fe6135b2",
+      "stage": "Follow-up",
+      "render_record": "trials/followup/figures/render_record.json"
+    },
+    {
+      "figure": "EN_F02",
+      "path": "trials/batch1/figures/EN_F02_genotype_contrasts.png",
+      "sha256": "1770d33fc8abeaece0546e52ea7a7faa01e629b0fe44dfb2379c00c05002f7b0",
+      "stage": "Batch 1 RNA",
+      "render_record": "trials/batch1/figures/render_record.json"
+    },
+    {
+      "figure": "EN_F03",
+      "path": "trials/batch1/figures/EN_F03_library_distributions.png",
+      "sha256": "167dfffe426b17e994398dc219650728f985a445455f03d31bee2c943ea015aa",
+      "stage": "Batch 1 RNA",
+      "render_record": "trials/batch1/figures/render_record.json"
+    },
+    {
+      "figure": "EN_C04",
+      "path": "trials/continuation/figures/EN_C04_genotype_contrasts.png",
+      "sha256": "5f7a4debbe1d36030c489e252c8e5a03c722aabfea6436f40e5e56ee6318285f",
+      "stage": "Continuation",
+      "render_record": "trials/continuation/figures/render_record.json"
+    },
+    {
+      "figure": "EN_F05",
+      "path": "trials/batch1/figures/EN_F05_clone_models.png",
+      "sha256": "e692861cc23d6694c0b2894a365fb3e9b848805d002ab09c7b98f2994df4ba78",
+      "stage": "Batch 1 clones",
+      "render_record": "trials/batch1/figures/render_record.json"
+    },
+    {
+      "figure": "EN_C05",
+      "path": "trials/continuation/figures/EN_C05_simulator_implementations.png",
+      "sha256": "d69bcf2bf85f96b2c3c601db47353205639c8ffd3187b1276ff6d3cfbe18a9bf",
+      "stage": "Continuation",
+      "render_record": "trials/continuation/figures/render_record.json"
+    },
+    {
+      "figure": "EN_F06",
+      "path": "trials/batch1/figures/EN_F06_spatial_profiles.png",
+      "sha256": "65d9aaf9b89d785028d1559bbc0d70d41461193848c125b4669b92f69e1be7ac",
+      "stage": "Batch 1 clones",
+      "render_record": "trials/batch1/figures/render_record.json"
+    },
+    {
+      "figure": "FU_F05",
+      "path": "trials/followup/figures/FU_F05_growth_differentiation.png",
+      "sha256": "ce2a8e5568a6c3c784738bd44714448f2eefd7789c1fbba317571ff820844016",
+      "stage": "Spatial follow-up",
+      "render_record": "trials/followup/FU_W_run_record.json"
+    },
+    {
+      "figure": "EN_C06",
+      "path": "trials/continuation/figures/EN_C06_repair_transfer.png",
+      "sha256": "c9674d6034944cd89699f37713522ca52addef034121e5095ed4d0128cad151a",
+      "stage": "Continuation",
+      "render_record": "trials/continuation/figures/render_record.json"
+    }
+  ],
+  "scope": "Documentation and caption review; no figure regeneration or claim regrading."
+}

@@ -1,5 +1,16 @@
 # Nabhan 2018: Wnt niche biology and public-data analysis
 
+## Read this study
+
+| To understand | Read |
+|---|---|
+| Paper context and biological question | [Biological context and analysis sequence](#study-context) |
+| Analysis results, claims and limitations | [Findings and limits](#findings-that-motivate-research-questions); [Nb1 evidence](nb1/README.md); [source reproduction](source_reproduction/README.md) |
+| Figures and captions | [All seven figures](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
 The owner completed the paper and authorized this sequence on 2026-09-22.
 Their study notes remain private. This directory contains the analysis and its
 evidence limits, not a substitute record of the owner's reading.

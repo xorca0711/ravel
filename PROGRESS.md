@@ -2,6 +2,19 @@
 
 **Update this before stopping work, every session.**
 
+## Current paper navigation, 28 September 2026
+
+The [research-article index](Research%20Article/README.md#studies-with-executed-analyses)
+now separates study context, analysis evidence and figure links across eight
+paper folders and the cross-study specificity module. England has a short
+[overview](Research%20Article/gate2_C2_england_2025/README.md), a current
+[evidence review](Research%20Article/gate2_C2_england_2025/EVIDENCE_REVIEW.md)
+and a complete [15-figure gallery](Research%20Article/gate2_C2_england_2025/FIGURES.md).
+The [navigation audit](docs/audits/2026-09-28-paper-navigation/REPORT.md)
+records the scope and preserved evidence. No scientific analysis or claim-grade
+change was made. Earlier session entries below retain historical status;
+the existing A16–A18 scientific next steps remain open.
+
 ## Current branch consolidation and A16 Stage 1, 28 September 2026
 
 The [branch review](docs/audits/2026-09-28-branch-consolidation/REPORT.md)

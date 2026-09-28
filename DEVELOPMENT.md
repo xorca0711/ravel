@@ -1561,3 +1561,22 @@ Rejected or substantially revised assistant output:
 The [review](docs/audits/2026-09-28-branch-consolidation/REPORT.md) records branch
 identities and evidence verification. Publication authorization is not acceptance
 of a biological hypothesis or a new claim grade.
+
+
+## 28 September 2026: article context, claims and gallery navigation
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | Separate England overview, evidence review and gallery; index completed analyses across article folders | Codex | Repository owner, explicit request to organize context, claims and figures; prior PR/merge authorization | Authorized documentation revision and publication after checks; no scientific acceptance or grade change inferred | Chronological status, source claims, repository results and proposed questions were hard to distinguish |
+
+Rejected or substantially revised assistant output:
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-09-28 | England README combining original planning, later execution and overstrong gallery captions | The owner found it entangled; current review separates source evidence, reanalysis and inference limits | Owner requested organization; Codex applies already documented audits |
+| 2026-09-28 | England gallery described as 14 figures and as uniformly lacking animal-level units | Inventory contains 15; nonspatial clone data retain 44 source-indexed mice, unlike pooled spatial arrays | Codex inventory and existing source/unit audit |
+| 2026-09-28 | Murthy page assigned C4–C7 and C9 wholesale to the human atlas | The cited block also contains mouse claims; replace the inaccurate mapping with report and register navigation | Codex navigation review; registered claims unchanged |
+
+The [audit](docs/audits/2026-09-28-paper-navigation/REPORT.md) and
+[inventory](docs/audits/2026-09-28-paper-navigation/inventory.json) record this
+documentation-only revision. Original reports and images retain their bytes.
