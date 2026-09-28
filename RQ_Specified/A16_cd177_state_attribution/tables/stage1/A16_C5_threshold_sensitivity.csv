@@ -1,0 +1,46 @@
+arm,unit,definition,threshold,column,n_pos,n_neg,status,smd_priming_associated,smd_AT2_identity,smd_AT1_identity,smd_Itga2,smd_cycling
+A_marginal_transitional_gate,GSM7890835,"full depth, >=1 UMI",1,Cd177_umi,79,796,estimated,1.5992445294414055,0.9342736985438113,0.8454177690233557,-0.47926763398681466,-0.03760208878154049
+A_marginal_transitional_gate,GSM7890835,"full depth, >=2 UMI",2,Cd177_umi,62,813,estimated,1.6192983416606386,0.898881182126583,0.8068162656944571,-0.4534185727777609,-0.08577777487758713
+A_marginal_transitional_gate,GSM7890835,"full depth, >=3 UMI",3,Cd177_umi,52,823,estimated,1.681139182188459,0.9286785427067697,0.788016295106867,-0.5119910424843281,-0.1459928651685295
+A_marginal_transitional_gate,GSM7890835,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,18,857,not assessed: fewer than 30 cells on a side,,,,,
+A_marginal_transitional_gate,GSM7890835,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,18,857,not assessed: fewer than 30 cells on a side,,,,,
+A_marginal_transitional_gate,GSM7890836,"full depth, >=1 UMI",1,Cd177_umi,60,594,estimated,2.1645358082781265,1.4107014966179547,0.5213658286874192,-0.7550608722728374,0.4770009809376118
+A_marginal_transitional_gate,GSM7890836,"full depth, >=2 UMI",2,Cd177_umi,42,612,estimated,2.346329604977163,1.5464065083719831,0.6138449544833087,-0.874241835215196,0.6085768106268346
+A_marginal_transitional_gate,GSM7890836,"full depth, >=3 UMI",3,Cd177_umi,37,617,estimated,2.4069077216151835,1.5868328299195948,0.6713337417038956,-0.9564219142970154,0.6183482081380751
+A_marginal_transitional_gate,GSM7890836,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,12,642,not assessed: fewer than 30 cells on a side,,,,,
+A_marginal_transitional_gate,GSM7890836,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,13,641,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=10,"full depth, >=1 UMI",1,Cd177_umi,36,216,estimated,0.3583803262801186,0.14687572013892466,-0.28610806714680376,-0.07337090886046864,-0.019058413030394718
+B_within_subcluster_FU_C,exp1_sub_r1.0=10,"full depth, >=2 UMI",2,Cd177_umi,11,241,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=10,"full depth, >=3 UMI",3,Cd177_umi,7,245,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=10,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,11,241,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=10,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,5,247,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=12,"full depth, >=1 UMI",1,Cd177_umi,108,1074,estimated,-0.0767444919971594,-0.19529637411366405,0.38725308737789466,0.5745051788374754,-0.05548099151986624
+B_within_subcluster_FU_C,exp1_sub_r1.0=12,"full depth, >=2 UMI",2,Cd177_umi,70,1112,estimated,-0.15251203409320568,-0.27235069996050615,0.3221819613414367,0.9336241820312937,-0.1535720895195203
+B_within_subcluster_FU_C,exp1_sub_r1.0=12,"full depth, >=3 UMI",3,Cd177_umi,53,1129,estimated,-0.1880203896270701,-0.33808411639062785,0.3354632738181882,1.1850550601224434,-0.23688995894389409
+B_within_subcluster_FU_C,exp1_sub_r1.0=12,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,29,1153,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=12,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,24,1158,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=16,"full depth, >=1 UMI",1,Cd177_umi,321,1262,estimated,0.015270958064436015,-0.36404280446261394,0.39353497376834956,0.6822348378854026,0.2068067847828074
+B_within_subcluster_FU_C,exp1_sub_r1.0=16,"full depth, >=2 UMI",2,Cd177_umi,250,1333,estimated,0.01743599030996319,-0.3502632244953898,0.3852537580784875,0.6563832845769129,0.22744581008281634
+B_within_subcluster_FU_C,exp1_sub_r1.0=16,"full depth, >=3 UMI",3,Cd177_umi,203,1380,estimated,0.06615032609105836,-0.32259344496450165,0.3490503275208396,0.6490937368175779,0.1591678041228318
+B_within_subcluster_FU_C,exp1_sub_r1.0=16,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,95,1488,estimated,-0.11926336210447065,-0.43024021554929487,0.3053024901610321,0.8705285594076129,0.1731191782360636
+B_within_subcluster_FU_C,exp1_sub_r1.0=16,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,95,1488,estimated,0.2008748916522785,-0.3226731207118465,0.26796307277141374,0.6887017459297403,0.005462385139586113
+B_within_subcluster_FU_C,exp1_sub_r1.0=17,"full depth, >=1 UMI",1,Cd177_umi,114,973,estimated,0.3586077159978917,0.05190213706355392,0.3102185079843814,0.07126050200404968,0.08844227198037212
+B_within_subcluster_FU_C,exp1_sub_r1.0=17,"full depth, >=2 UMI",2,Cd177_umi,74,1013,estimated,0.46260526827266113,0.06211208704636147,0.27469616385880125,0.05320749193012638,0.10795442325599823
+B_within_subcluster_FU_C,exp1_sub_r1.0=17,"full depth, >=3 UMI",3,Cd177_umi,54,1033,estimated,0.4788410743512728,0.02316480973515459,0.2475253856967072,0.11156409942230933,-0.009471430205244326
+B_within_subcluster_FU_C,exp1_sub_r1.0=17,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,28,1059,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=17,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,21,1066,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=18,"full depth, >=1 UMI",1,Cd177_umi,80,306,estimated,2.3230397920415164,1.2658434744066454,1.2176095782014684,-0.5371425638626698,0.24123300217985078
+B_within_subcluster_FU_C,exp1_sub_r1.0=18,"full depth, >=2 UMI",2,Cd177_umi,70,316,estimated,2.336830651401687,1.2706940419599537,1.291507663872018,-0.6016089884283587,0.3921586323715718
+B_within_subcluster_FU_C,exp1_sub_r1.0=18,"full depth, >=3 UMI",3,Cd177_umi,61,325,estimated,2.3843700490335267,1.3133014055206642,1.3057887149107528,-0.680910687923482,0.5146610579114178
+B_within_subcluster_FU_C,exp1_sub_r1.0=18,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,18,368,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp1_sub_r1.0=18,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,23,363,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp2_sub_r1.0=10,"full depth, >=1 UMI",1,Cd177_umi,80,444,estimated,0.5972055119139251,-0.34442070077497333,0.035795061642739975,1.00713880900088,-0.08415415863329559
+B_within_subcluster_FU_C,exp2_sub_r1.0=10,"full depth, >=2 UMI",2,Cd177_umi,51,473,estimated,0.6299866168351463,-0.4171106136801294,-0.05220098987366908,1.353367234702616,-0.15651311337551416
+B_within_subcluster_FU_C,exp2_sub_r1.0=10,"full depth, >=3 UMI",3,Cd177_umi,40,484,estimated,0.6879778017192979,-0.3781981701982174,-0.16005021628005445,1.4363132212098493,-0.35577365664725485
+B_within_subcluster_FU_C,exp2_sub_r1.0=10,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,23,501,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp2_sub_r1.0=10,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,24,500,not assessed: fewer than 30 cells on a side,,,,,
+B_within_subcluster_FU_C,exp2_sub_r1.0=12,"full depth, >=1 UMI",1,Cd177_umi,55,132,estimated,1.3076804709656304,0.6971651058632464,-0.39143113890851244,0.11608857080611834,0.0175841765782706
+B_within_subcluster_FU_C,exp2_sub_r1.0=12,"full depth, >=2 UMI",2,Cd177_umi,38,149,estimated,1.1803584678333383,0.6087383590181026,-0.29246929200078253,0.09671844312653925,0.041185067910203835
+B_within_subcluster_FU_C,exp2_sub_r1.0=12,"full depth, >=3 UMI",3,Cd177_umi,31,156,estimated,1.0866991310542358,0.6465884210495562,-0.12739420040630142,0.06751697400127883,0.015415434988838305
+B_within_subcluster_FU_C,exp2_sub_r1.0=12,"thinned to 1000 UMI, seed 20260928, >=1",1,d20260928_Cd177_umi,30,157,estimated,1.2390794574813124,0.716615984363584,0.09670339376999942,0.00744442932691974,0.009368716011845878
+B_within_subcluster_FU_C,exp2_sub_r1.0=12,"thinned to 1000 UMI, seed 20260929, >=1",1,d20260929_Cd177_umi,21,166,not assessed: fewer than 30 cells on a side,,,,,

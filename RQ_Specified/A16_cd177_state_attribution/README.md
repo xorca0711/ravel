@@ -1,7 +1,8 @@
 # A16: does Cd177 mark a cell-intrinsic priming programme, or the transcriptional neighbourhood a cell occupies
 
-**Registered as proposed on 28 September 2026, pending the owner's retain or reject.** Nothing in
-this folder has been computed. The question has no result of its own and adds no claim row.
+**Registered as proposed on 28 September 2026, pending the owner's retain or reject. Stage 1 was
+authorized and executed the same day** — see [STAGE1_RESULTS.md](reports/STAGE1_RESULTS.md). The
+question adds no claim row, and no graded claim is available.
 
 ## The question in one sentence
 
@@ -47,14 +48,14 @@ different claim.
 
 | Layer | State |
 |---|---|
-| Attribution within the existing matrices | **Computable now.** Five analyses specified in [PLAN.md](PLAN.md) Stage 1, awaiting execution authorization |
+| Attribution within the existing matrices | **Executed, inconclusive on specificity.** Ambient neutrophil origin and threshold dependence are excluded; the detection-matched null could not settle generic gradient behaviour because Cd177 is hard to match. [Results](reports/STAGE1_RESULTS.md) |
 | External transfer | **Blocked.** No deposit pairs surface CD177 separation with a proliferation or fate readout in lung; see [PUBLIC_DATA_SEARCH.md](reports/PUBLIC_DATA_SEARCH.md) |
 | The discriminating measurement | **Not computable from any RNA matrix.** Needs prospective separation on CD177 protein with a measured outcome |
 
-Stage 1 can change the question's readiness row and can answer it negatively: if the residual is
-generic, ambient-driven or threshold-dependent, A16 closes without new data. It cannot answer it
-positively, because no amount of conditioning on RNA establishes that a marker carries cell-intrinsic
-information about future behaviour.
+Stage 1 has now run. It did not close the question and did not reach the conclusion its contract
+permits: ambient origin and threshold dependence are excluded, but the specificity clause failed in
+the best-powered unit and was underpowered elsewhere. Stage 1's ceiling is reached, so the next action
+is the data request or the experiment, not another conditioning analysis.
 
 ## Layout
 
@@ -64,6 +65,8 @@ information about future behaviour.
 | [PLAN.md](PLAN.md) | Stage 0 to Stage 4, with the frozen estimands and decision rules |
 | [config/a16_question_contract.json](config/a16_question_contract.json) | The machine-readable freeze, including exposure |
 | [reports/PUBLIC_DATA_SEARCH.md](reports/PUBLIC_DATA_SEARCH.md) | The 28 September 2026 search, recorded as a negative result |
+| [reports/STAGE1_ERRATUM.md](reports/STAGE1_ERRATUM.md) | The population correction, why Stage 1 runs two arms |
+| [reports/STAGE1_RESULTS.md](reports/STAGE1_RESULTS.md) | Executed C1 to C5, the verdict and what changes |
 
 ## Seven things a later session must not do
 
