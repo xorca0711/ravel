@@ -33,8 +33,8 @@
   "next": "Phase 3: run EN2-EN5 (run_rna_continuation.py), then EN6, EN7, verification, figures, report",
   "phase2_completed_local_date": "2026-09-28",
   "EN1_state_reliability_notes": [
-    "Transition gate is cluster-concentrated: 88% (Exp1) and 96% (Exp2) of transition-gated cells fall in two clusters; the main transition cluster is 98% mutant RFP (Exp1 cluster 11) and 90% of mutant transition cells sit in it.",
-    "AT1 gate (>=2 of Ager/Hopx/Clic5) is not cluster-concentrated: 17-18% of cells in pure AT2 clusters pass it; top-2 clusters hold only 43% (Exp1) / 51% (Exp2) of AT1-gate cells. 'mixed' state largely reflects low-level Ager/Hopx detection in AT2 cells, not a mature AT1 population; no distinct AT1 cluster exists in these sorted libraries.",
+    "Transition gate is cluster-concentrated: 88% (Exp1) and 96% (Exp2) of transition-gated cells fall in two clusters. The main transition cluster is 98% mutant RFP in Exp1 (cluster 11) and holds 79% of Exp1 mutant transition cells; in Exp2 cluster 15 holds 90% of mutant transition cells.",
+    "AT1 gate (>=2 of Ager/Hopx/Clic5) is not cluster-concentrated. In Exp1 the largest AT2 clusters (0, 1, 9) have 17-18% AT1-gate cells; in Exp2 the AT2 clusters (7, 4, 0, 6, 11) have 29-43%. Top-2 clusters hold only 43% (Exp1) / 51% (Exp2) of AT1-gate cells. 'mixed' state largely reflects low-level Ager/Hopx detection in AT2 cells, not a mature AT1 population; no distinct AT1 cluster exists in these sorted libraries.",
     "Cd177-positive cells concentrate in one high-depth cluster per experiment (Exp1 cluster 12: 96% 2-week mutant RFP, 21% Cd177>=1, 51% AT1 gate, 25% cycling>=2; Exp2 cluster 11: 13% Cd177>=1, 43% AT1 gate, 21% cycling).",
     "Immune clusters retain 30-56% of cells under the primary rule (Exp1 clusters 6/7); strict rule removes more. Depth differs strongly across clusters (median UMIs 3.3k-13.8k); depth-thinned variants are essential for EN2-EN5."
   ],
