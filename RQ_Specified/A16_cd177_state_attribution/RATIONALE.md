@@ -146,6 +146,49 @@ The reframed question asks only what the existing evidence attributes and what i
 None of States 1–3 can add a graded claim or establish a mechanism. Only Stage 2 of the plan — a
 deposit clearing all five eligibility conditions — or the discriminating experiment can.
 
+## Figures for the amendment
+
+Two panels are rendered from tracked tables by
+[scripts/plot_amendment_figures.py](scripts/plot_amendment_figures.py), with input, script and
+output hashes in [figures/figure_run.json](figures/figure_run.json). They plot saved columns and
+estimate nothing; they exist because the two things this amendment turns on — how much of the
+association survives conditioning, and why the specificity test could not decide — are both
+comparisons across nine entries that a table renders less legibly than a plot.
+
+![Corrected C1 attenuation and residual imbalance](figures/A16_F01_corrected_c1_attenuation.png)
+
+**Figure A16-F01. Matching on local position removes most of each marginal difference; the priming
+difference is the one that stays clearly positive, and positional imbalance is not removed.**
+Corrected C1 on one fixed transitional population per library (GSM7890835: 79 Cd177-positive of
+876 cells; GSM7890836: 60 of 656). (a) Marginal and matched raw differences at k=10 for all seven
+frozen endpoints, in score units of mean log1p(full-library CP10k). (b) The predeclared k
+sensitivity for the primary endpoint against its marginal value. (c) Per-PC |standardized
+difference| before against after matching, 20 PCs per library; the worst residual PC is
+labelled. Plotted from
+[effects.csv](correction_20260928/tables/corrected_c1/effects.csv) and
+[PC_balance.csv](correction_20260928/tables/corrected_c1/PC_balance.csv). Neighbours are drawn
+within the same library and depth quartile in a local 20-PC space fitted after excluding 660
+grouping, gate and outcome genes. These raw differences share no scale with the C3 SMD null and
+are not compared with it. The change from marginal to matched is not a fraction of signal
+explained, and the residuals in (c) are why neither persistence nor attenuation attributes the
+effect to a cell property.
+
+![C3 control-gene scarcity and Cd177's position in the null](figures/A16_F02_c3_specificity_power.png)
+
+**Figure A16-F02. The specificity null is too sparsely populated to decide: Cd177 exceeds every
+sampled control in four entries and sits inside the null in the best-powered one.** C3
+detection-matched gene null for the priming endpoint, nine descriptive entries. (a) Matched
+control genes used per entry, log scale, against the 40-gene readability floor; seven entries fall
+below it. (b) Percentage of each entry's control genes reaching Cd177's effect. Open markers mark
+entries below the floor; exp1 sub 12's 100% is a single control gene, and exp1 sub 18's 9.1% is
+one of eleven. Arm B entries pool libraries within an experiment and use all `primary_include`
+cells rather than the transition gate, so they are diagnostics of the earlier result and not
+within-state contrasts ([population erratum](reports/STAGE1_ERRATUM.md)). Plotted from
+[A16_C3_matched_gene_null.csv](tables/stage1/A16_C3_matched_gene_null.csv). Cd177 is detected in
+about 9% of transitional cells but carries 1 to 53 UMIs where detected, which is why matching on
+detection and expression together leaves so few controls; widening the bands after seeing this
+would be a disclosed post-hoc relaxation, not the frozen C3.
+
 ## Claim-by-claim ledger: statements above that later evidence superseded or qualified
 
 | Statement in the Stage 0 text | Status | Superseding or qualifying evidence |

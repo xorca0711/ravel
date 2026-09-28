@@ -2,7 +2,7 @@
 
 An index of every figure tracked under `RQ_Specified/`, with the document that
 captions it. A question ID is a navigation label, not an evidence grade. Six of
-the ten questions here hold no figure at all, which is a fact about what those
+the eleven questions here hold no figure at all, which is a fact about what those
 analyses produced rather than a gap waiting to be filled: a paired median with
 three readable units is reported as a table because a plot of three points would
 imply a distribution the design cannot support.
@@ -24,6 +24,7 @@ page covers only assets that live inside the question folders.
 | A0 | 10 | [figures/pilot_v1/README.md](A0_conserved_epithelial_transition_program/figures/pilot_v1/README.md) (4), [reports/EXPLORATORY_PILOT_REPORT.md](A0_conserved_epithelial_transition_program/reports/EXPLORATORY_PILOT_REPORT.md) (3), [reports/PILOT_REPORT.md](A0_conserved_epithelial_transition_program/reports/PILOT_REPORT.md) (2), [reports/P0_ELIGIBILITY_REPORT.md](A0_conserved_epithelial_transition_program/reports/P0_ELIGIBILITY_REPORT.md) (1) |
 | A1 | 19 | [figures/README.md](A1_transitional_epithelial_state_distinction/figures/README.md), the question's own curated gallery, plus [reports/REGULATORY_FATE_REPORT.md](A1_transitional_epithelial_state_distinction/reports/REGULATORY_FATE_REPORT.md) |
 | A10 | 1 | [reports/FOLLOWUP_RESULTS.md](A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md) |
+| A16 | 2 | [RATIONALE.md](A16_cd177_state_attribution/RATIONALE.md#figures-for-the-amendment), the dated amendment that they support |
 | A5 and A11 shared contract | 1 | [reports/REVISED_TEST_RESULTS.md](A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md) |
 
 Each PNG has an SVG beside it except the three A0 planning and coverage panels,

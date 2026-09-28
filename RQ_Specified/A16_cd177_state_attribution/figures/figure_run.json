@@ -1,0 +1,16 @@
+{
+  "scope": "Plots tracked table columns only. No fit, no rescoring, no new estimate. Arm B entries pool libraries within an experiment and are not within-state contrasts; open markers flag entries below the 40-control readability floor.",
+  "script_sha256": "1754b591f5e6e6b56bd6dd390b708876eaaf31a07b410545c751e5c3dcecac8f",
+  "matplotlib_version": "3.11.1",
+  "inputs": {
+    "correction_20260928/tables/corrected_c1/effects.csv": "1dd66ac52e8dde4157d89d26973a9584049c2d8d644b716a1540d6fcceedcfc4",
+    "correction_20260928/tables/corrected_c1/PC_balance.csv": "6fa727d570bb95eb14acf52f9247d5d08aa7a3c013735c5be6d207326102adeb",
+    "tables/stage1/A16_C3_matched_gene_null.csv": "6ce26899b0f051125e60791a4146237e2ebe8f7f384e45b99cc91eb3c381c612"
+  },
+  "outputs": {
+    "A16_F01_corrected_c1_attenuation.png": "f46b79215ca7738d4a28d6511d599c464db389364e2c597e2244d73582fcdc32",
+    "A16_F01_corrected_c1_attenuation.svg": "1068015f7f26f82530d174e4593f991a1a2443754a41efe786a9426166dbc4f7",
+    "A16_F02_c3_specificity_power.png": "2818d694ee3bc0c2cad4c2d56333febf9e6053bc1f609bf40e96fe3938bc68e5",
+    "A16_F02_c3_specificity_power.svg": "a203cc84a90f848f004b24818e21db1725e939402271afb29b87402d1b2c853d"
+  }
+}
