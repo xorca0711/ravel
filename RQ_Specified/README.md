@@ -11,6 +11,11 @@ analytical scope and key reading links. The plans, evidence and analysis sequenc
 then follow the needs of that question. Source-paper analyses remain in
 `Research Article/`; a question can draw on several papers and assays.
 
+The [combined development and reframing proposal](../docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
+assesses rationale depth and hypothesis scope together, with a plan and evidence
+gate for every label. It is a draft; the current registered questions below are
+unchanged.
+
 ## Question workspaces
 
 | ID | Organizing biological question | What the workspace tests |

@@ -1,5 +1,14 @@
 # AI context
 
+## Current combined RQ proposal, 28 September 2026
+
+Branch `codex/rq-development-proposal`, based on merged PR #109 (`c0a3117`),
+contains the owner's requested [combined development plan](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md).
+It covers every registered question and the A5/A11 enabling workspace. Its
+candidate framing and grouping recommendations are proposals, not adopted
+register edits or instructions to start scientific work. Preserve the current
+questions, frozen analyses, failed gates and owner retain/reject decisions.
+
 ## Current RQ README handoff, 28 September 2026
 
 Branch `codex/rq-readme-orientation` starts from merged PR #108 (`f893294`).

@@ -6,6 +6,10 @@ The [current project state](../PROGRESS.md), [execution roadmap](RESEARCH_ROADMA
 and [latest gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md) distinguish
 completed work from remaining inputs and decisions.
 
+The [combined RQ development proposal](audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
+sets out proposed rationale, scope and next-evidence work for each question;
+it does not replace the current register or executed-result ledger.
+
 Repository guides: [structure and label scope](REPOSITORY_STRUCTURE.md),
 [research architecture](RESEARCH_ARCHITECTURE.md),
 [reproducibility](../REPRODUCIBILITY.md) and [portfolio summary](PORTFOLIO_SUMMARY.md).

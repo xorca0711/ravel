@@ -1,5 +1,11 @@
 # Research roadmap: closing the biological and logical gaps
 
+**Draft development proposal, 28 September 2026:** the
+[combined question-by-question plan](audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
+joins documentation-depth and hypothesis-reframing assessments. It proposes
+immediate synthesis work and separate evidence gates; it does not change the
+registered hypotheses, execution queue or results below.
+
 **Current execution, 28 September 2026:** the [gap-fill report and every-question ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
 record the merged A15 normalization correction, corrected A16 C1, A17 source
 accounting and A5/A12 recovery gates. The [small-task queue](research_pipeline/queue.json)

@@ -1633,3 +1633,13 @@ not explain the biological purpose. A5/A12 links now include the latest recovery
 reports, and A13's original no-fit statement is explicitly historical alongside
 the later amended pilot. These are owner-authorized documentation changes;
 scientific results, hypothesis wording and acceptance decisions are preserved.
+
+## 28 September 2026: combine rationale-depth and reframing plans
+
+The owner requested a merged proposal from the two comparative assessments.
+Codex prepared a dated plan for A0–A18, A12-S1 and the shared A5/A11 workspace,
+linking each diagnosis to proposed scope, work possible now and an evidence gate
+or stopping rule. The [proposal](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
+does not implement its candidate hypotheses or organizational recommendations.
+Publication of this planning document does not imply scientific acceptance;
+its contingent analyses remain proposed work subject to their evidence gates.
