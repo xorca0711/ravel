@@ -1,16 +1,34 @@
 {
-  "status": "contract_frozen_endpoints_not_run",
+  "status": "phase1_preparation_complete_endpoints_not_run",
   "contract_commit": "4d66231",
   "handoff": "docs/handoffs/2026-09-28-england-en7-cd177.md",
   "amendments": "config/continuation_amendments.json",
   "session_2026_09_28_second": "runtime verified, external object schemas confirmed, amendments CA1 to CA3 frozen before any endpoint; no analysis script written or run; owner asked to save state, commit and open a PR",
   "no_process_running": true,
-  "EN0": "additional public run/source mapping completed; biological identities unresolved",
+  "EN0": "public run/source mapping complete; matrix checks done (features identical across 20 libraries, 31,053 genes, 36 duplicate symbols, no reporter features, integer counts, no duplicate barcodes); availability ledger written; biological pool/pair/spatial identities unknown",
   "EN1": "source-inspired clustering not run",
   "EN2": "batch1 proxies complete; independent-gate extension not run",
   "EN3": "batch1 distributions complete; conditional extension not run",
   "EN4": "new baseline/conditional comparisons not run",
   "EN5": "CD177 extension not run",
   "EN6": "batch1 clone distribution models complete; source simulator audit not run; spatial identity gate unresolved",
-  "EN7": "external transfer not run"
+  "EN7": "external transfer not run",
+  "phase1_completed_local_date": "2026-09-28",
+  "package_folder": "Research Article/gate2_C2_england_2025 (renamed from gate2_12_england_2025 on 2026-09-28)",
+  "preparation": {
+    "script": "scripts/prepare_continuation.py",
+    "ledger_script": "scripts/en0_ledger.py",
+    "outputs": "trials/continuation/prep/",
+    "source_QC_cells": 44196,
+    "primary_include": 41811,
+    "strict_include": 39583,
+    "batch1_cell_set_identical": true,
+    "CA3_doublet_flags_joined": true,
+    "thinning_seeds": [
+      20260928,
+      20260929
+    ]
+  },
+  "EN5_note": "transition-gated groups with >=30 cells on both Cd177 sides under the primary rule exist only in the 2-week mutant RFP libraries GSM7890835/GSM7890836; other libraries will be reported as unavailable for the primary contrast",
+  "next": "Phase 2: EN1 source-inspired clustering per experiment (CA2), then EN2-EN5"
 }

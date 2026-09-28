@@ -1,0 +1,26 @@
+{
+  "stage": "continuation preparation (EN0 matrix checks, per-cell measurements)",
+  "started_utc": "2026-09-28T02:20:31.398186+00:00",
+  "contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "amendments_sha256": "5596a674795bfa7ffdd94146e2ff843dc245c8d97bedbdbcbabacde935e237cf",
+  "script_sha256": "c499c119c6e11096c684278ee1d474545710d56e86e14d9222e8f7691757ac35",
+  "git_head": "21ff1a56c12b85425c5bfd1dac83bb358e04682d",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "machine": "AMD64",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "scanpy": "1.12.3",
+    "anndata": "0.13.2"
+  },
+  "package_paths": {
+    "numpy": "X:\\GitHub\\scRNA_seq\\.venv-x64\\Lib\\site-packages\\numpy",
+    "pandas": "X:\\GitHub\\scRNA_seq\\.venv-x64\\Lib\\site-packages\\pandas",
+    "scipy": "X:\\GitHub\\scRNA_seq\\.venv-x64\\Lib\\site-packages\\scipy"
+  },
+  "inputs": [],
+  "seeds": "exact 1000 UMI thinning seeds 20260928,20260929; same raw inclusion masks",
+  "interpretation": "descriptive per-cell measurements; biological pool and pairing identities unknown; Cd177 RNA is not surface protein"
+}

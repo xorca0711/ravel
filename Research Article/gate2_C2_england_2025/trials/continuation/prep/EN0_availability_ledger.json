@@ -1,0 +1,145 @@
+{
+  "stage": "EN0 continuation ledger",
+  "written_utc": "2026-09-28T02:27:46.848326+00:00",
+  "inputs_sha256": {
+    "analysis_unit_map.csv": "0a7f00c2820f28417b50892f648f295f2036596289ae0600c01ab3ce739fc25e",
+    "continuation_intake.json": "e06511bc4158b491aa4ffda22635b78192482626af19b442c164b495b2e55239",
+    "matrix_checks.json": "64671956ec0c99211a620d82d27cf52ddcb57f2f7a3b6a461c6384a3802ce355",
+    "spatial_identity_gate.csv": "90dc74b3a8fe717a332bfa4ccab8258537ee9bc1d158b389c24cd08f124d2d3c"
+  },
+  "sequencing_records": {
+    "GEO_libraries": 20,
+    "ENA_runs": 68,
+    "BioSamples": 20,
+    "runs_per_library": {
+      "1": [
+        1,
+        4
+      ],
+      "2": [
+        4
+      ]
+    },
+    "note": "runs are sequencing records of the same library, not additional mice"
+  },
+  "experiment1_library_accounting": {
+    "deposited_GSMs": 10,
+    "paper_states": 13,
+    "resolved": false,
+    "note": "no deposit or public record explains the 13-versus-10 difference"
+  },
+  "identities": {
+    "biological_pool_id": {
+      "known": 0,
+      "total": 20,
+      "values": [
+        "unknown"
+      ],
+      "status": "unknown",
+      "consequence": "library estimates are descriptive; no biological p values"
+    },
+    "reporter_pair_id": {
+      "known": 0,
+      "total": 20,
+      "values": [
+        "unknown"
+      ],
+      "status": "unknown",
+      "consequence": "RFP/YFP same-r libraries are not treated as paired mice"
+    },
+    "independence_verified": {
+      "known": 0,
+      "total": 20,
+      "values": [
+        "False"
+      ],
+      "status": "not verified",
+      "consequence": "minimum two lungs pooled per library (paper); pool overlap between libraries unknown"
+    },
+    "processing_batch": {
+      "known": 0,
+      "total": 20,
+      "values": [
+        "unknown"
+      ],
+      "status": "unknown"
+    },
+    "author_cell_annotation": {
+      "status": "absent from inspected deposits",
+      "source": "https://github.com/ibordeu/scripts_England_et_al_2025_git",
+      "tree_sha": "5bb585a2af9ccbbf66d817fe0d3eca2813fb20d0",
+      "consequence": "EN1 clustering is source-inspired, never an author-label reproduction"
+    },
+    "reporter_features_in_matrix": {
+      "status": "absent",
+      "consequence": "reporter identity is library metadata only; no per-cell reporter call"
+    },
+    "spatial_mouse_and_clone_ids": {
+      "status": "absent",
+      "datasets": 13,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "consequence": "joint mouse-level spatial analysis (EN6c) stays unavailable"
+    },
+    "mendeley_figure1_pdf": {
+      "status": "not inspected",
+      "download": "HTTP 403; PDF not inspected"
+    }
+  },
+  "matrix_checks": {
+    "features_identical_across_libraries": true,
+    "genes_total": 31053,
+    "duplicate_symbols": 36,
+    "nonnegative_integer_counts": true,
+    "batch1_cell_set_identical": {
+      "GSM7890829": true,
+      "GSM7890830": true,
+      "GSM7890831": true,
+      "GSM7890832": true,
+      "GSM7890833": true,
+      "GSM7890834": true,
+      "GSM7890835": true,
+      "GSM7890836": true,
+      "GSM7890837": true,
+      "GSM7890838": true,
+      "GSM7890839": true,
+      "GSM7890840": true,
+      "GSM7890841": true,
+      "GSM7890842": true,
+      "GSM7890843": true,
+      "GSM7890844": true,
+      "GSM7890845": true,
+      "GSM7890846": true,
+      "GSM7890847": true,
+      "GSM7890848": true
+    },
+    "modules_below_coverage_floor": []
+  },
+  "duplicate_barcodes_within_library_max": 0,
+  "cells": {
+    "source_QC": 44196,
+    "primary_include": 41811,
+    "strict_include": 39583,
+    "by_experiment": {
+      "1": {
+        "source_QC_cells": 32698,
+        "primary_include": 31454,
+        "strict_include": 29997
+      },
+      "2": {
+        "source_QC_cells": 11498,
+        "primary_include": 10357,
+        "strict_include": 9586
+      }
+    }
+  },
+  "trial_verdicts": {
+    "EN1": "run-ready (source-inspired clustering, per experiment; no six-state target)",
+    "EN2": "run-ready as descriptive library contrasts; within-state estimates only where >=30 cells per library",
+    "EN3": "run-ready; snapshot RNA, no activity or duration inference",
+    "EN4": "limited: 2-week Confetti-YFP is a single baseline library; 4-day arm has no matched baseline",
+    "EN5_CD177": "run-ready where transition-gated groups reach 30 cells on both Cd177 sides; otherwise unavailable",
+    "EN6_simulation": "run-ready from verified archive; EN6c spatial joint analysis blocked (no IDs)",
+    "EN7": "run-ready as descriptive transfer (Choi pooled libraries; Niethamer 25-sample atlas, known days)"
+  }
+}
