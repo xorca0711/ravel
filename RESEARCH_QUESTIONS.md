@@ -1,5 +1,7 @@
 # Research questions
 
+**28 September gap-fill execution:** [current results and every-question ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md). A15's normalization sensitivity is corrected in a new version; A5/A12 metadata gates are resolved as far as recovered inputs permit. The newer A16/A17 computational follow-ups preserve their historical outputs and all claim grades.
+
 **A16 branch integration, 28 September 2026:** [executed Stage 1 and review](RQ_Specified/A16_cd177_state_attribution/README.md)
 are now included. Sensitivity results are retained; contamination, complete
 depth control and intrinsic biology remain unresolved. No claim grade changed.
@@ -406,6 +408,10 @@ transcriptional recruitment, not a shared lineage or repair outcome. The origina
 there. Strunz's published poor overall developmental correspondence remains relevant
 counterevidence to global equivalence. [Plan](RQ_Specified/A5_developmental_programme_reuse/PLAN.md);
 [results and biological interpretation](RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md).
+A [new independent-cohort recovery](RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/REPORT.md)
+identifies GSE303646's author Krt8-ADI/activated-AT2 vocabulary and 56 library records.
+The barcode-to-state/mouse map and 55-mice/56-libraries discrepancy remain unresolved;
+no unchanged external score was computed.
 [Current figures](analysis/figures/rq/README.md#a5) motivate animal-level
 shared-versus-specific effects and held-out evaluation.
 [MC1–MC2](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1), [MC5](docs/RQ_MEASUREMENT_CONTRACTS.md#mc5).
@@ -613,6 +619,15 @@ motivate disjoint-component heatmaps and held-out patient effects.
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1), [MC3](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3),
 [MC5](docs/RQ_MEASUREMENT_CONTRACTS.md#mc5).
 
+A [second assay under A11](RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md)
+asks whether the same frozen module rises in acute injury, which would challenge a tumour-associated
+reading. In GSE198864 lung explants it is higher in SARS-CoV-1 infected than in medium-matched mock
+type 2 cells by +0.225 log2 CPM across three identity-concordant paired donors, positive in all
+three, at an exact p of 0.25 which is the floor at that unit count; the beyond-shared contrast is
+-0.039, so the rise is not separable from the shared component, and the cells scored are bystanders
+at 5 viral reads in 1,039 cells. Unresolved, and tumour specificity is untouched in either
+direction. This paragraph was moved from A13 on 28 September 2026; its results are unchanged.
+
 <a id="a12-recipient-context-and-il-1-specificity"></a>
 <a id="a12"></a>
 
@@ -641,6 +656,9 @@ insufficient matched units leave it unresolved. The
 [methods/report](analysis/figures/rq/il1b_context/REPORT.md) and
 [component, enrichment and target figures](analysis/figures/rq/README.md#a12)
 are complete. A [new exploratory conditional pilot](docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md) now ran on fixed candidate states with a gene-disjoint inflammatory RNA response and TNF comparator: AT2 RMSE fell from 0.4271 to 0.3244, while the fibroblast increment was unstable. Independent cohort validation and activation/perturbation are still required.
+The [28 September recovery](RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md)
+closes three candidate gates: Kim has zero tumour AT2-labelled cells, Laughney has
+at most four possible pairs, and Wu lacks a separate normal arm. No external fit ran.
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1), [MC3–MC5](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
 
 <a id="a12-s1"></a>
@@ -686,15 +704,6 @@ of 32.5 cells for the largest fibroblast label. Nothing was fitted, and a joint 
 be fitted on this coverage. This finding is confined to the inspected datasets and
 definitions; different capture, sampling or more independently eligible patients can
 change coverage. The ten-unit floor does not itself establish power or model adequacy.
-
-A [second assay under this question](RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md)
-asks whether the same frozen module rises in acute injury, which would challenge a tumour-associated
-reading. In GSE198864 lung explants it is higher in SARS-CoV-1 infected than in medium-matched mock
-type 2 cells by +0.225 log2 CPM across three identity-concordant paired donors, positive in all
-three, at an exact p of 0.25 which is the floor at that unit count; the beyond-shared contrast is
--0.039, so the rise is not separable from the shared component, and the cells scored are bystanders
-at 5 viral reads in 1,039 cells. Unresolved, and tumour specificity is untouched in either
-direction.
 
 A [separately frozen GSE308103 pilot](docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md) subsequently verified 12 paired triads with fixed AT2 and alveolar-fibroblast labels and explicit broad assigned macrophages, an amended compartment rule. Adding the frozen fibroblast RNA programme worsened primary held-out RMSE from 0.2283 to 0.2373 and worsened every eligible sensitivity. It is not independent confirmation or a test of feedback. The two external candidates are resolved: GSE233844 is blood; author annotations for GSE122960 fail the ten-unit gate.
 [Figure plan/spatial evidence](analysis/figures/rq/README.md#a13): coverage heatmap
@@ -821,6 +830,10 @@ alphaVbeta1 inhibitor was better tolerated with exploratory signals
 ([Lancaster 2024](https://doi.org/10.1164/rccm.202403-0636OC)); a positive answer here would
 be a statement about which epithelial output moves a fibroblast programme, not about
 whether blocking it helps a patient.
+A [versioned normalization erratum](RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/NORMALIZATION_ERRATUM_2026-09-28.md)
+replaces the double-normalized sensitivity. Corrected transitional and identity
+contrasts remain nonseparating; the identity point estimate changes sign. The CPM
+primary and historical algorithmic label are preserved, with mediation unresolved.
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC2 to MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc2).
 
@@ -873,9 +886,14 @@ matching is a declared substitute for the frozen space; the two arms do not
 make the original population comparison nested. The [integration review](RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md)
 supersedes the old report's stronger exclusions without changing its numbers.
 
-**Readiness.** Partly measured and inconclusive. The corrected descriptive
-attribution analysis still needs its population and independent neighbourhood
-definitions fixed in an amendment.
+**Readiness.** Partly measured and inconclusive. A separately frozen
+[corrected C1 comparison](RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)
+now retains each library's original transition population and excludes grouping,
+gate and outcome genes before constructing its local PCA neighbourhoods. Priming
+raw differences attenuate from 1.2558 to 0.4098 and from 1.3318 to 0.3151 at k=10.
+Substantial residual PC imbalance remains; positive residuals do not establish
+specificity or intrinsic biology. This executes C1's computational amendment,
+not the full attribution or functional test, and preserves original Stage 1.
 The full functional test remains data-limited. GSE253461 and GSE316244 are
 conditional external candidates with differing genotype/culture and pooling,
 not independent confirmation. [E-N5/E-N6](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
@@ -924,6 +942,12 @@ on the same held-out bins/folds, with a separately specified tail diagnostic.
 The existing [FU_S contract](Research%20Article/gate2_C2_england_2025/config/followup_contract.json)
 is preserved as the original proposal. Unchanged best-fit parameters alone
 would not close the question. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1).
+
+The [28 September raw-source reconciliation](docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md)
+reproduces all 58 saved mouse/analysis-channel count rows and traces the deposited
+fast/slow argument mapping and rate switch. The primary input contains 11
+source-indexed mice. Printed-table and manuscript/curve-provenance discrepancies
+remain explicit; no stochastic refit ran.
 
 <a id="a18"></a>
 

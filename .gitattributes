@@ -58,3 +58,8 @@ RQ_Specified/A0_conserved_epithelial_transition_program/tables/**/*.tsv whitespa
 
 # England audit evidence and historical proposal preserve recorded byte hashes.
 docs/audits/2026-09-28-england-paper-rqs/** -text whitespace=cr-at-eol
+
+# Gap-fill evidence and downloaded source snapshots carry exact-byte hashes.
+docs/audits/2026-09-28-rq-adversarial-review/** -text whitespace=cr-at-eol
+docs/roadmap_runs/2026-09-28-gap-fill/** -text whitespace=cr-at-eol
+RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/sources/** whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof,-space-before-tab

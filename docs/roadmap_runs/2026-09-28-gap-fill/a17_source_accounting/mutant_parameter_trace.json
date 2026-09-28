@@ -1,0 +1,254 @@
+{
+  "source_member": "sim_two_pop_model.m",
+  "source_sha256": "78f7157b8a01d1a8a785c479d33ad1c2c03eb902452f577e10f9e7e006008065",
+  "selected_block": "Red2Kras / chan == 2 / RFP",
+  "assignments": [
+    {
+      "main_variable": "model",
+      "expression": "2",
+      "value": 2,
+      "source_line_1based": 53
+    },
+    {
+      "main_variable": "fss_in",
+      "expression": "0.08",
+      "value": 0.08,
+      "source_line_1based": 55
+    },
+    {
+      "main_variable": "r_in",
+      "expression": "0.7",
+      "value": 0.7,
+      "source_line_1based": 56
+    },
+    {
+      "main_variable": "q_in",
+      "expression": "r_in",
+      "value": 0.7,
+      "source_line_1based": 57
+    },
+    {
+      "main_variable": "sigmas_s_in",
+      "expression": "3.1/7/(2*r_in-1)",
+      "value": 1.1071428571428574,
+      "source_line_1based": 58
+    },
+    {
+      "main_variable": "sigmas_p_in",
+      "expression": "0.9/7/(2*q_in-1)",
+      "value": 0.32142857142857156,
+      "source_line_1based": 59
+    },
+    {
+      "main_variable": "tau",
+      "expression": "7*2",
+      "value": 14,
+      "source_line_1based": 60
+    },
+    {
+      "main_variable": "taur",
+      "expression": "r_in",
+      "value": 0.7,
+      "source_line_1based": 61
+    },
+    {
+      "main_variable": "tauq",
+      "expression": "q_in",
+      "value": 0.7,
+      "source_line_1based": 62
+    },
+    {
+      "main_variable": "tausigma_s",
+      "expression": "0.5/7/(2*taur-1)",
+      "value": 0.1785714285714286,
+      "source_line_1based": 63
+    },
+    {
+      "main_variable": "tausigma_p",
+      "expression": "0.01/7/(2*tauq-1)",
+      "value": 0.003571428571428572,
+      "source_line_1based": 64
+    },
+    {
+      "main_variable": "times",
+      "expression": "7*[1,2,4]",
+      "value": [
+        7,
+        14,
+        28
+      ],
+      "source_line_1based": 65
+    }
+  ],
+  "main_to_function_argument_map": [
+    {
+      "position_1based": 1,
+      "main_argument": "sigma_s",
+      "formal_parameter": "sigma_f"
+    },
+    {
+      "position_1based": 2,
+      "main_argument": "r",
+      "formal_parameter": "r"
+    },
+    {
+      "position_1based": 3,
+      "main_argument": "sigma_p",
+      "formal_parameter": "sigma_s"
+    },
+    {
+      "position_1based": 4,
+      "main_argument": "q",
+      "formal_parameter": "q"
+    },
+    {
+      "position_1based": 5,
+      "main_argument": "tau",
+      "formal_parameter": "tau"
+    },
+    {
+      "position_1based": 6,
+      "main_argument": "tausigma_s",
+      "formal_parameter": "tausigma_f"
+    },
+    {
+      "position_1based": 7,
+      "main_argument": "taur",
+      "formal_parameter": "taur"
+    },
+    {
+      "position_1based": 8,
+      "main_argument": "tausigma_p",
+      "formal_parameter": "tausigma_s"
+    },
+    {
+      "position_1based": 9,
+      "main_argument": "tauq",
+      "formal_parameter": "tauq"
+    },
+    {
+      "position_1based": 10,
+      "main_argument": "nclones",
+      "formal_parameter": "nclones"
+    },
+    {
+      "position_1based": 11,
+      "main_argument": "fs",
+      "formal_parameter": "prop_f"
+    },
+    {
+      "position_1based": 12,
+      "main_argument": "tmax",
+      "formal_parameter": "t_max"
+    },
+    {
+      "position_1based": 13,
+      "main_argument": "N_max",
+      "formal_parameter": "N_max"
+    }
+  ],
+  "call_line_1based": 143,
+  "function_line_1based": 270,
+  "canonical_rates": [
+    {
+      "phase": "early",
+      "canonical_process": "fast",
+      "attempt_rate_per_day": 1.1071428571428574,
+      "attempt_rate_per_week": 7.750000000000002,
+      "symmetric_renewal_probability": 0.7,
+      "nominal_birth_rate_per_week": 5.425000000000001,
+      "nominal_loss_rate_per_week": 2.325000000000001,
+      "nominal_net_expansion_per_week": 3.1,
+      "interpretation": "rates of intended birth-death law; not realised drift of defective event selector"
+    },
+    {
+      "phase": "early",
+      "canonical_process": "slow",
+      "attempt_rate_per_day": 0.32142857142857156,
+      "attempt_rate_per_week": 2.250000000000001,
+      "symmetric_renewal_probability": 0.7,
+      "nominal_birth_rate_per_week": 1.5750000000000006,
+      "nominal_loss_rate_per_week": 0.6750000000000004,
+      "nominal_net_expansion_per_week": 0.9000000000000001,
+      "interpretation": "rates of intended birth-death law; not realised drift of defective event selector"
+    },
+    {
+      "phase": "late",
+      "canonical_process": "fast",
+      "attempt_rate_per_day": 0.1785714285714286,
+      "attempt_rate_per_week": 1.2500000000000002,
+      "symmetric_renewal_probability": 0.7,
+      "nominal_birth_rate_per_week": 0.8750000000000001,
+      "nominal_loss_rate_per_week": 0.3750000000000001,
+      "nominal_net_expansion_per_week": 0.5,
+      "interpretation": "rates of intended birth-death law; not realised drift of defective event selector"
+    },
+    {
+      "phase": "late",
+      "canonical_process": "slow",
+      "attempt_rate_per_day": 0.003571428571428572,
+      "attempt_rate_per_week": 0.025000000000000005,
+      "symmetric_renewal_probability": 0.7,
+      "nominal_birth_rate_per_week": 0.0175,
+      "nominal_loss_rate_per_week": 0.007500000000000002,
+      "nominal_net_expansion_per_week": 0.01,
+      "interpretation": "rates of intended birth-death law; not realised drift of defective event selector"
+    }
+  ],
+  "tau_days": 14,
+  "observation_days": [
+    7,
+    14,
+    28
+  ],
+  "schedule": {
+    "early": "event-start t < 14 days",
+    "late": "event-start t >= 14 days",
+    "literal_boundary_rule": "Propensities are chosen before the waiting-time draw. The old-rate event is applied after t += dt even if it crosses tau; no boundary splitting occurs.",
+    "terminal_rule": "The event is applied after advancing time; a crossing event can occur beyond t_max before the next while-condition check.",
+    "source_lines_1based": {
+      "while_condition": 330,
+      "rate_branch": 332,
+      "late_branch": 337,
+      "time_draw": 346,
+      "time_advance": 347,
+      "event_selection": 350
+    }
+  },
+  "founder_allocation": {
+    "nominal_fs": 0.08,
+    "formal_argument": "prop_f",
+    "canonical_process": "fast",
+    "nclones": 1000,
+    "literal_fast_founders": 81,
+    "literal_fast_fraction": 0.081,
+    "basis": "rep starts at 0; rep <= prop_f*nclones; all final nonnegative populations are recorded"
+  },
+  "known_source_defect": {
+    "slow_loss_threshold": "(ws1+ws2+wp2+wp2)/w",
+    "source_line_1based": 356,
+    "status": "preserved; not repaired or simulated in this pass"
+  },
+  "manuscript_parameter_differences": [
+    {
+      "item": "fraction",
+      "manuscript_table3_symbol": "f_S",
+      "manuscript_value": 0.16,
+      "archive_main_variable": "fss_in / fs",
+      "archive_value": 0.08,
+      "archive_canonical_allocation": "passed as prop_f, selects fast founders; literal <= boundary gives 81/1000",
+      "status": "numerical values differ; manuscript-symbol correspondence unresolved"
+    },
+    {
+      "item": "early slow nominal net expansion",
+      "manuscript_value_per_week": 1.1,
+      "archive_value_per_week": 0.9000000000000001,
+      "archive_expression": "sigmas_p_in = 0.9/7/(2*q_in-1)",
+      "status": "values differ; no silent substitution"
+    }
+  ],
+  "manuscript_source": "previous visually checked Methods S1 Table 3 transcription in audited REPORT.md; no new PDF transcription",
+  "manuscript_symbol_mapping": "unresolved",
+  "published_curve_parameter_provenance": "unresolved",
+  "fit_or_simulation_executed": false
+}

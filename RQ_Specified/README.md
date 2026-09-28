@@ -1,12 +1,17 @@
 # Research question analyses
 
+**Latest gap-fill execution, 28 September 2026:** [results and every-question ledger](../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+link the versioned A15 correction, A5/A12 metadata recovery, corrected A16 comparison
+and A17 source accounting. Historical outputs and biological grades are preserved;
+failed candidate gates are not external validation.
+
 **England review, 28 September 2026:** current [A16–A18 cards](../RESEARCH_QUESTIONS.md#a16)
 incorporate the source audit. [Eight paper-local candidates](../Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
 are proposals, with supporting checks linked from each card. They create no
 new execution workspaces; future tests should extend the relevant A question.
 The later A16 Stage 0/1 branch is now imported with a [dated interpretation review](A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md).
 
-**Latest results:** [A12 recipient-context pilot](A12_recipient_context/README.md) and the [A13 follow-through](../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md) are executed exploratory comparisons; the [candidate audit](../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md) corrects earlier title-only eligibility statements.
+**27 September pilot results:** [A12 recipient-context pilot](A12_recipient_context/README.md) and the [A13 follow-through](../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md) are executed exploratory comparisons; the [candidate audit](../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md) corrects earlier title-only eligibility statements.
 
 **Roadmap execution:** [P0–P5 reports](../docs/roadmap_runs/2026-09-27/README.md) now record completed design recovery, failed replication gates and source-attribution calculations. The current screen interpretation uses P1's recovered split-well hierarchy and supplemented EGF.
 
@@ -34,7 +39,7 @@ produced none. Source-paper analyses belong in `Research Article/`.
 | A13 | [Fibroblast programmes beyond macrophage IL1B](A13_fibroblast_beyond_macrophage_il1b/README.md) | Explicitly amended 12-patient pilot complete: no aggregate predictive gain; historical cohort gates remain failed; two external candidates resolved |
 | A15 | [Epithelial integrin TGF-beta activation](A15_epithelial_integrin_tgfb_activation/README.md) | Proposed, pending the owner's retain or reject; the question still has no result of its own and no claim row is added. The authorized rival-2 side-branch has run in GSE190821: a whole-lung programme changes while epithelial-panel estimates have wide intervals in 4 mice against 4; epithelial-state mediation remains unresolved. The dated addendum qualifies the historical weak-bound label. Two freezes were withdrawn on adversarial review before anything was scored |
 | A5 and A11 | [Shared epithelial component contract](A5_A11_shared_component_contract/README.md) | Contract and revised tests complete; original partition preserved; A5 uses additional independent Guo modules because the original Strunz-filtered variants are descriptive |
-| A16 | [CD177 state attribution](A16_cd177_state_attribution/README.md) | Stage 1 executed and integrated with corrections; specificity, contamination and the corrected same-population test remain unresolved |
+| A16 | [CD177 state attribution](A16_cd177_state_attribution/README.md) | Stage 1 preserved; corrected C1 now executed on fixed per-library populations with gene exclusion. Priming attenuates but residual imbalance remains; specificity, contamination and functional attribution unresolved |
 
 Question numbers are stable identifiers, not evidence grades. A plan or a
 source paper's published finding is not a result of this repository.

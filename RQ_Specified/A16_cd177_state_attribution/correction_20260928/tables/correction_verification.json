@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-09-28T11:21:32.032812+00:00",
+  "checks": [
+    "runner_and_all_output_hashes",
+    "original_Stage1_preserved",
+    "committed_amendment_identity",
+    "gene_exclusion_and_unique_feature_rows",
+    "same_fixed_population_for_coordinates_and_outcomes",
+    "within_library_depth_matches_and_distances",
+    "all_fixed_positives_retained_and_control_reuse_accounted",
+    "deterministic_nearest_controls_recomputed",
+    "42_effects_recomputed_on_common_scale",
+    "raw_instrument_parity_gate_saved"
+  ],
+  "n_checks": 10,
+  "verifier_sha256": "24b9838f6ccc467a13164d631247eab5f25eaa188fb87cb8a6096508c14c69c0",
+  "run_record_sha256": "8daf937377c498a1aa06a234335ca4357c9b3cc0ec5537faefc393a1b39cb50a",
+  "effect_rows_recomputed": 42,
+  "maximum_effect_recalculation_error": 4.440892098500626e-16,
+  "fixed_cells": 1532,
+  "library_k_comparisons": 6,
+  "inference": false,
+  "dependencies": "Python standard library only"
+}

@@ -1,0 +1,508 @@
+---
+title: "meta"
+output:
+  html_document:
+    code_folding: hide
+date: "2024-09-26"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Install packages
+```{r}
+#if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+#BiocManager::install(c("ComplexHeatmap", "Biobase", "zellkonverter", "edgeR", "sva", "Matrix", "fgsea" ))
+#install.packages('scITD')
+#install.packages("Seurat")
+#install.packages('anndata')
+#install.packages("BiocManager")
+#BiocManager::install("biomaRt")
+```
+
+## Loading libraries
+```{r}
+library(scITD)
+library(Seurat)
+library(zellkonverter)
+library(dplyr)
+library(biomaRt)
+library(dplyr)
+library(purrr)
+library(pheatmap)
+```
+
+## Load dataset
+```{r}
+ad <- anndata::read_h5ad("230111_Bleo_Ageing_annotated_final.h5ad")
+ad
+```
+
+
+## Gene names conversion
+```{r}
+gene_names <- ad$var_names  # Assuming 'var_names' holds the gene names
+
+# Select the Ensembl BioMart dataset for mouse genes
+ensembl <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
+
+# Get the mapping between MGI symbols and HGNC symbols (or Ensembl gene IDs)
+conversion_table <- getBM(attributes = c('mgi_symbol', 'external_gene_name'),
+                          mart = ensembl)
+
+# Create a named vector for easy lookup
+mgi_to_standard <- setNames(conversion_table$external_gene_name, conversion_table$mgi_symbol)
+
+converted_gene_names <- gene_names %>% map_chr(~ mgi_to_standard[.x] %||% .x)
+
+ad$var_names <- converted_gene_names
+
+## remove duplicates
+non_dup_indices <- !duplicated(ad$var_names)
+
+ad <- ad[, non_dup_indices]
+
+ad$var_names <- toupper(ad$var_names)
+```
+
+## Extract metadata from AnnData object
+```{r}
+ad_meta <- ad$obs
+
+# Convert to data frame (if needed)
+ad_meta <- as.data.frame(ad_meta)
+
+## Change column names
+names(ad_meta)[names(ad_meta) == "name"] <- "donors"
+names(ad_meta)[names(ad_meta) == "meta_label"] <- "ctypes"
+```
+
+```{r}
+ad_meta$non_resolving_fibrosis <- ifelse(ad_meta$age == "old" & ad_meta$day %in% c("d30", "d37"), "yes", "no")
+```
+
+
+```{r}
+## Filter metadata
+ad_meta <- ad_meta[, c("donors", "ctypes", "day", "age", "treatment", "sex", "age_treatment", "age_day", "non_resolving_fibrosis")]
+```
+
+## Extract counts from adata object
+```{r}
+counts_layer <- ad$layers$get("counts") 
+
+# Convert to dgCMatrix
+ad_counts <- as(counts_layer, "CsparseMatrix")
+class(ad_counts)
+
+# Transpose counts matrix
+ad_counts <- t(ad_counts)
+```
+
+
+```{r}
+cell_types <- unique(ad_meta$ctypes)
+cell_types
+```
+
+
+```{r}
+donor_rep <- ad_meta %>%
+  group_by(donors, ctypes) %>%
+  summarise(cell_count = n(), .groups = 'drop') %>%
+  tidyr::pivot_wider(names_from = ctypes, values_from = cell_count, values_fill = 0)
+
+print(donor_rep)
+```
+
+```{r}
+# Convert it into a character vector (if it's not already)
+cell_types <- as.character(cell_types)
+cell_types <- setdiff(cell_types, "Megakaryocytes")
+cell_types <- setdiff(cell_types, "Pericytes")
+cell_types <- setdiff(cell_types, "SMC")
+cell_types <- setdiff(cell_types, "NK")
+cell_types
+```
+
+## Set up parameters for scITD
+```{r}
+# set up project parameters
+param_list <- initialize_params(ctypes_use = cell_types,
+                                ncores = 6, rand_seed = 10)
+
+# create project container
+ad_container <- make_new_container(count_data=ad_counts, 
+                                     meta_data=ad_meta,
+                                     params=param_list)
+```
+
+```{r}
+ad_container <- form_tensor(ad_container, donor_min_cells=1,
+                              norm_method='regular', scale_factor=10000,
+                              vargenes_method='norm_var_pvals', vargenes_thresh=0.01,
+                              scale_var = TRUE, var_scale_power = 2)
+```
+
+
+```{r}
+# number of genes included in the tensor
+print(length(ad_container[["all_vargenes"]]))
+```
+## Run the tensor decomposition
+```{r}
+ad_container <- run_tucker_ica(ad_container, ranks=c(5,16),
+                                 tucker_type = 'regular', rotation_type = 'hybrid')
+```
+
+## Get donor scores-metadata associations
+```{r, fig.height=10, fig.width=8}
+ad_container <- get_meta_associations(ad_container, vars_test=c('treatment', 'age', "non_resolving_fibrosis", 'sex' ), stat_use='pval')
+```
+
+
+```{r}
+pdf("scITD_factors.pdf", width = 6, height = 8)
+
+# plot donor scores
+ad_container <- plot_donor_matrix(ad_container, meta_vars=c('treatment', 'age', "non_resolving_fibrosis",  'sex'),
+                                    show_donor_ids = FALSE,
+                                    add_meta_associations='pval')
+
+# show the donor scores heatmap
+ad_container$plots$donor_matrix
+dev.off()
+```
+
+
+
+```{r}
+## Get pvals
+
+start_time <- Sys.time()  # Start timer
+
+# Run the function
+ad_container <- get_lm_pvals(ad_container)
+
+end_time <- Sys.time()  # End timer
+
+# Calculate and print the time difference
+time_taken <- end_time - start_time
+print(paste("Time taken: ", time_taken))
+
+```
+
+## Generate the loadings plots
+```{r, fig.height=12, fig.width=14}
+
+ad_container <- get_all_lds_factor_plots(ad_container, 
+                                           use_sig_only=TRUE,
+                                           nonsig_to_zero=TRUE,
+                                           sig_thresh=.02,
+                                           display_genes=FALSE,
+                                           gene_callouts = TRUE,
+                                           callout_n_gene_per_ctype=3,
+                                           show_var_explained = TRUE)
+
+# arrange the plots into a figure and show the figure
+myfig <- render_multi_plots(ad_container,data_type='loadings')
+myfig
+```
+
+
+```{r}
+f1_data <- get_one_factor(ad_container, factor_select=1)
+f1_dscores <- f1_data[[1]]
+f1_loadings <- f1_data[[2]]
+
+f1_pvals <- get_one_factor_gene_pvals(ad_container, factor_select=1)
+
+
+# Set significance threshold for p-values
+sig_threshold <- 0.05
+
+# Create a logical matrix indicating significant genes (based on p-values)
+sig_genes <- f1_pvals < sig_threshold  # Logical matrix where TRUE means significant
+
+# Create an empty list to store results for each cell type
+results <- list()
+
+# Loop through each cell type (assuming your loading matrix has cell types as columns)
+for (cell_type in colnames(f1_loadings)) {
+  
+  # Filter significant genes for the current cell type
+  sig_loadings <- f1_loadings[sig_genes[, cell_type], cell_type]  # Get significant loadings for the cell type
+
+  # Store results (significant genes and their loadings) in the list for each cell type
+  results[[cell_type]] <- sig_loadings
+}
+
+results_df <- do.call(rbind, lapply(names(results), function(cell_type) {
+  data.frame(Cell_Type = cell_type, Gene = names(results[[cell_type]]), Loading = unlist(results[[cell_type]]))
+}))
+
+# Save as CSV
+write.csv(results_df, "significant_genes_factor1.csv", row.names = FALSE)
+```
+
+##Factor 2
+```{r}
+f2_data <- get_one_factor(ad_container, factor_select=2)
+f2_dscores <- f2_data[[1]]
+f2_loadings <- f2_data[[2]]
+
+f2_pvals <- get_one_factor_gene_pvals(ad_container, factor_select=2)
+
+
+# Set significance threshold for p-values
+sig_threshold <- 0.05
+
+# Create a logical matrix indicating significant genes (based on p-values)
+sig_genes <- f2_pvals < sig_threshold  # Logical matrix where TRUE means significant
+
+# Create an empty list to store results for each cell type
+results <- list()
+
+# Loop through each cell type (assuming your loading matrix has cell types as columns)
+for (cell_type in colnames(f2_loadings)) {
+  
+  # Filter significant genes for the current cell type
+  sig_loadings <- f2_loadings[sig_genes[, cell_type], cell_type]  # Get significant loadings for the cell type
+
+  # Store results (significant genes and their loadings) in the list for each cell type
+  results[[cell_type]] <- sig_loadings
+}
+
+results_df <- do.call(rbind, lapply(names(results), function(cell_type) {
+  data.frame(Cell_Type = cell_type, Gene = names(results[[cell_type]]), Loading = unlist(results[[cell_type]]))
+}))
+
+# Save as CSV
+write.csv(results_df, "significant_genes_factor2.csv", row.names = FALSE)
+```
+
+##Factor 3
+```{r}
+f3_data <- get_one_factor(ad_container, factor_select=3)
+f3_dscores <- f3_data[[1]]
+f3_loadings <- f3_data[[2]]
+
+f3_pvals <- get_one_factor_gene_pvals(ad_container, factor_select=3)
+
+
+# Set significance threshold for p-values
+sig_threshold <- 0.05
+
+# Create a logical matrix indicating significant genes (based on p-values)
+sig_genes <- f3_pvals < sig_threshold  # Logical matrix where TRUE means significant
+
+# Create an empty list to store results for each cell type
+results <- list()
+
+# Loop through each cell type (assuming your loading matrix has cell types as columns)
+for (cell_type in colnames(f3_loadings)) {
+  
+  # Filter significant genes for the current cell type
+  sig_loadings <- f3_loadings[sig_genes[, cell_type], cell_type]  # Get significant loadings for the cell type
+
+  # Store results (significant genes and their loadings) in the list for each cell type
+  results[[cell_type]] <- sig_loadings
+}
+
+results_df <- do.call(rbind, lapply(names(results), function(cell_type) {
+  data.frame(Cell_Type = cell_type, Gene = names(results[[cell_type]]), Loading = unlist(results[[cell_type]]))
+}))
+
+# Save as CSV
+write.csv(results_df, "significant_genes_factor3.csv", row.names = FALSE)
+```
+
+##Factor 4
+```{r}
+f4_data <- get_one_factor(ad_container, factor_select=4)
+f4_dscores <- f4_data[[1]]
+f4_loadings <- f4_data[[2]]
+
+f4_pvals <- get_one_factor_gene_pvals(ad_container, factor_select=4)
+
+
+# Set significance threshold for p-values
+sig_threshold <- 0.05
+
+# Create a logical matrix indicating significant genes (based on p-values)
+sig_genes <- f4_pvals < sig_threshold  # Logical matrix where TRUE means significant
+
+# Create an empty list to store results for each cell type
+results <- list()
+
+# Loop through each cell type (assuming your loading matrix has cell types as columns)
+for (cell_type in colnames(f4_loadings)) {
+  
+  # Filter significant genes for the current cell type
+  sig_loadings <- f4_loadings[sig_genes[, cell_type], cell_type]  # Get significant loadings for the cell type
+
+  # Store results (significant genes and their loadings) in the list for each cell type
+  results[[cell_type]] <- sig_loadings
+}
+
+results_df <- do.call(rbind, lapply(names(results), function(cell_type) {
+  data.frame(Cell_Type = cell_type, Gene = names(results[[cell_type]]), Loading = unlist(results[[cell_type]]))
+}))
+
+# Save as CSV
+write.csv(results_df, "significant_genes_factor4.csv", row.names = FALSE)
+```
+
+##Factor 5
+```{r}
+f5_data <- get_one_factor(ad_container, factor_select=5)
+f5_dscores <- f5_data[[1]]
+f5_loadings <- f5_data[[2]]
+
+f5_pvals <- get_one_factor_gene_pvals(ad_container, factor_select=5)
+
+
+# Set significance threshold for p-values
+sig_threshold <- 0.05
+
+# Create a logical matrix indicating significant genes (based on p-values)
+sig_genes <- f5_pvals < sig_threshold  # Logical matrix where TRUE means significant
+
+# Create an empty list to store results for each cell type
+results <- list()
+
+# Loop through each cell type (assuming your loading matrix has cell types as columns)
+for (cell_type in colnames(f5_loadings)) {
+  
+  # Filter significant genes for the current cell type
+  sig_loadings <- f5_loadings[sig_genes[, cell_type], cell_type]  # Get significant loadings for the cell type
+
+  # Store results (significant genes and their loadings) in the list for each cell type
+  results[[cell_type]] <- sig_loadings
+}
+
+results_df <- do.call(rbind, lapply(names(results), function(cell_type) {
+  data.frame(Cell_Type = cell_type, Gene = names(results[[cell_type]]), Loading = unlist(results[[cell_type]]))
+}))
+
+# Save as CSV
+write.csv(results_df, "significant_genes_factor5.csv", row.names = FALSE)
+```
+
+
+## Donor analysis
+
+```{r}
+# Combine the factor scores into a data frame
+factor_scores_df <- data.frame(
+  donor = rownames(f1_dscores),  # Assuming the donors are in the row names
+  Factor1 = f1_dscores[, 1],    # Factor 1 scores
+  Factor2 = f2_dscores[, 1],    # Factor 2 scores
+  Factor3 = f3_dscores[, 1],    # Factor 3 scores
+  Factor4 = f4_dscores[, 1],    # Factor 4 scores
+  Factor5 = f5_dscores[, 1]     # Factor 5 scores
+)
+```
+
+```{r}
+donor_df <- factor_scores_df
+```
+
+```{r}
+# Step: Extract 'young' if 'y' and 'old' if 'o'
+donor_df$age <- ifelse(grepl("^y", donor_df$donor), "young", "old")
+# Step: Extract the day (e.g., 'd0', 'd3', 'd10', etc.) using a regex that handles both underscore and dash
+donor_df$day <- gsub(".*[_-](d\\d+)[_-].*", "\\1", donor_df$donor)
+
+# View the results
+head(donor_df)
+```
+
+
+```{r}
+
+# Grouping by age and day and calculating the average score for each factor
+average_scores_df <- donor_df %>%
+  group_by(age, day) %>%
+  summarise(across(starts_with("Factor"), mean, na.rm = TRUE))
+
+# View the result
+head(average_scores_df)
+```
+
+```{r}
+df <- average_scores_df 
+```
+
+```{r}
+library(tidyr)
+```
+
+```{r}
+# Create a new column combining age and day
+df$age_day <- paste(df$age, df$day, sep = "_")
+
+# Convert the data from wide to long format
+df_long <- df %>%
+  pivot_longer(cols = starts_with("Factor"), 
+               names_to = "Factor", 
+               values_to = "Score")
+```
+
+```{r}
+age_day_order <- c(
+  "young_d0", "young_d3", "young_d10", "young_d21", "young_d28", 
+  "old_d0", "old_d3", "old_d10", "old_d21", "old_d28", "old_d42"
+)
+
+# Ensure the 'age_day' column is ordered as specified
+df_long$age_day <- factor(df_long$age_day, levels = age_day_order)
+
+```
+
+
+```{r}
+library(ggplot2)
+
+pdf("scITD_donors.pdf", width = 5, height = 4)
+
+ggplot(df_long, aes(x = age_day, y = Factor, fill = Score)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "darkblue", high = "darkred", mid = "white", midpoint = 0) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = "Heatmap of Factor Scores by Age and Day",
+       x = "Age and Day",
+       y = "Factor",
+       fill = "Factor Score")
+
+dev.off()
+```
+
+```{r}
+f1_significant_genes <- read.csv("significant_genes_factor1.csv")
+f2_significant_genes <- read.csv("significant_genes_factor2.csv")
+f3_significant_genes <- read.csv("significant_genes_factor3.csv")
+f4_significant_genes <- read.csv("significant_genes_factor4.csv")
+f5_significant_genes <- read.csv("significant_genes_factor5.csv")
+```
+
+```{r, fig.height=16, fig.width=11}
+ad_container <- run_gsea_one_factor(ad_container, factor_select=5, method="fgsea", thresh=0.05, db_use=c("GO"), signed=TRUE)
+
+```
+
+```{r}
+# get assistance with rank determination
+ad_container <- determine_ranks_tucker(ad_container, max_ranks_test=c(10,15),
+  shuffle_level='cells', 
+  num_iter=10, 
+  norm_method='trim',
+  scale_factor=10000,
+  scale_var=TRUE,
+  var_scale_power=2)
+#> Warning: replacing previous import 'lifecycle::last_warnings' by 'rlang::last_warnings' when loading 'hms'
+
+ad_container$plots$rank_determination_plot
+```

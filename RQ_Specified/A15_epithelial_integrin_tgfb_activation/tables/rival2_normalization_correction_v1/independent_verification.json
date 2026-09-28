@@ -1,0 +1,350 @@
+{
+  "schema": "a15-rival2-normalization-independent-verification/v1",
+  "generated_utc": "2026-09-28T10:58:56.210650+00:00",
+  "correction_run_sha256": "94c29ea1705e3fbc6864b47a3aa22e64f9104d0577cb2d654a166c740f9f03ba",
+  "verifier_script_sha256": "b2efdeaee1f4ac20014f171fa89912e1e101f52de3e3d6a0f6353c8a2efc73e8",
+  "numpy_version": "2.4.6",
+  "implementation_independent": true,
+  "total_checks": 62,
+  "failed_checks": 0,
+  "checks": [
+    {
+      "check": "input hash: counts",
+      "passed": true
+    },
+    {
+      "check": "input hash: symbol_map",
+      "passed": true
+    },
+    {
+      "check": "input hash: original_freeze",
+      "passed": true
+    },
+    {
+      "check": "input hash: original_run",
+      "passed": true
+    },
+    {
+      "check": "input hash: original_join",
+      "passed": true
+    },
+    {
+      "check": "input hash: original_script",
+      "passed": true
+    },
+    {
+      "check": "output hash: panel_scores.tsv",
+      "passed": true
+    },
+    {
+      "check": "output hash: per_gene_scores.tsv",
+      "passed": true
+    },
+    {
+      "check": "output hash: reference_genes.tsv",
+      "passed": true
+    },
+    {
+      "check": "output hash: size_factors.tsv",
+      "passed": true
+    },
+    {
+      "check": "specification hash",
+      "passed": true
+    },
+    {
+      "check": "specification prose hash",
+      "passed": true
+    },
+    {
+      "check": "execution source hash",
+      "passed": true
+    },
+    {
+      "check": "original output and grades preserved",
+      "passed": true
+    },
+    {
+      "check": "original eight mice and column ordering",
+      "passed": true
+    },
+    {
+      "check": "independent data root count hash",
+      "passed": true
+    },
+    {
+      "check": "independent data root symbol hash",
+      "passed": true
+    },
+    {
+      "check": "complete unique nonnegative matrix",
+      "passed": true
+    },
+    {
+      "check": "all original library totals",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "independent reference IDs",
+      "passed": true
+    },
+    {
+      "check": "broad reference minimum/count",
+      "passed": true
+    },
+    {
+      "check": "all median-ratio factors",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "factor geometric mean",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "factor table",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 4.440892098500626e-16
+      }
+    },
+    {
+      "check": "transitional: coverage",
+      "passed": true
+    },
+    {
+      "check": "transitional: all scores",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 3.552713678800501e-15
+      }
+    },
+    {
+      "check": "transitional: score table mouse ordering",
+      "passed": true
+    },
+    {
+      "check": "transitional: score table",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 3.552713678800501e-15
+      }
+    },
+    {
+      "check": "transitional: mean effect",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "transitional: exact midrank U and p",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "transitional: SciPy exact rank-sum p",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "transitional: all pairwise shifts",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 7.105427357601002e-15
+      }
+    },
+    {
+      "check": "transitional: Hodges-Lehmann and full interval",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 7.105427357601002e-15
+      }
+    },
+    {
+      "check": "transitional: corrected gate",
+      "passed": true
+    },
+    {
+      "check": "transitional: preserved standardised CPM scores",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 4.0064131720529694e-05
+      }
+    },
+    {
+      "check": "transitional: preserved standardised CPM mean effect",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 1.7661769283527917e-05
+      }
+    },
+    {
+      "check": "transitional: preserved standardised CPM exact p",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 2.8571428567492063e-07
+      }
+    },
+    {
+      "check": "transitional: preserved standardised CPM gate",
+      "passed": true
+    },
+    {
+      "check": "transitional: preserved unstandardised CPM scores",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 4.876391160557603e-05
+      }
+    },
+    {
+      "check": "transitional: preserved unstandardised CPM mean effect",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 4.4705150458068665e-05
+      }
+    },
+    {
+      "check": "transitional: preserved unstandardised CPM exact p",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 2.8571428567492063e-07
+      }
+    },
+    {
+      "check": "transitional: preserved unstandardised CPM gate",
+      "passed": true
+    },
+    {
+      "check": "identity: coverage",
+      "passed": true
+    },
+    {
+      "check": "identity: all scores",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 3.552713678800501e-15
+      }
+    },
+    {
+      "check": "identity: score table mouse ordering",
+      "passed": true
+    },
+    {
+      "check": "identity: score table",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 3.552713678800501e-15
+      }
+    },
+    {
+      "check": "identity: mean effect",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "identity: exact midrank U and p",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "identity: SciPy exact rank-sum p",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "identity: all pairwise shifts",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 3.552713678800501e-15
+      }
+    },
+    {
+      "check": "identity: Hodges-Lehmann and full interval",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 1.7763568394002505e-15
+      }
+    },
+    {
+      "check": "identity: corrected gate",
+      "passed": true
+    },
+    {
+      "check": "identity: preserved standardised CPM scores",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 4.102797425353799e-05
+      }
+    },
+    {
+      "check": "identity: preserved standardised CPM mean effect",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 4.2996190089295006e-05
+      }
+    },
+    {
+      "check": "identity: preserved standardised CPM exact p",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 2.8571428567492063e-07
+      }
+    },
+    {
+      "check": "identity: preserved standardised CPM gate",
+      "passed": true
+    },
+    {
+      "check": "identity: preserved unstandardised CPM scores",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 4.4150390147379426e-05
+      }
+    },
+    {
+      "check": "identity: preserved unstandardised CPM mean effect",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 1.4851759683534582e-06
+      }
+    },
+    {
+      "check": "identity: preserved unstandardised CPM exact p",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 2.8571428567492063e-07
+      }
+    },
+    {
+      "check": "identity: preserved unstandardised CPM gate",
+      "passed": true
+    },
+    {
+      "check": "normalization disagreement and all other gates preserved",
+      "passed": true
+    },
+    {
+      "check": "corrected algorithmic verdict",
+      "passed": true
+    }
+  ]
+}

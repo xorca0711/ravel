@@ -1,0 +1,100 @@
+{
+  "schema": "a5-external-replication-recovery-gates/v1",
+  "date": "2026-09-28",
+  "recovery_spec_checkpoint": "f3950253ae229f062dbae94551b04a908a8e5ade",
+  "unchanged_module_sizes": {
+    "Guo_AT1_AT2_external": 99,
+    "Guo_minus_identity": 57,
+    "Guo_minus_identity_and_controls": 53
+  },
+  "expression_matrices_downloaded": 0,
+  "new_expression_scores": false,
+  "candidates": [
+    {
+      "candidate": "GSE303646",
+      "overall": "blocked_missing_metadata",
+      "gates": {
+        "sterile_mouse_scope": {
+          "status": "pass",
+          "reason": "Author paper and GEO identify mouse bleomycin repair; days 3/10/20 are inside fixed day 2-21."
+        },
+        "external_cohort_independence": {
+          "status": "unresolved",
+          "reason": "Separate study/accession and a 2021 DGE processing header support a distinct cohort, but no animal-level provenance establishes no reuse of prior Strunz animals/cells. Existing A5 and author cohort results have been seen; this is not blind validation."
+        },
+        "mouse_identity": {
+          "status": "unresolved",
+          "reason": "56 GEO libraries align with 56 author QC identifiers; paper says 55 mice. Author donor field name is referenced but unavailable. No barcode-to-verified-mouse mapping or technical-split/pooling reconciliation recovered."
+        },
+        "author_state_vocabulary": {
+          "status": "pass",
+          "reason": "Pinned author NicheNet notebook explicitly includes Krt8-ADI and AT2_activated (plus AT2). Their existence is now confirmed, not absent."
+        },
+        "programme_independent_barcode_state_map": {
+          "status": "unresolved",
+          "reason": "Author cell_type/meta_label live in a referenced local h5ad, not recovered from GEO, code tree or public browser entry page. Canonical-marker author annotation is described, but exact classification dependency and barcode map cannot be audited. No Guo-module relabelling performed."
+        },
+        "raw_umi_provenance": {
+          "status": "unresolved",
+          "reason": "One downloaded in-window DGE summary explicitly uses molecule mode and a molecular barcode tag. Full-cohort raw-integer matrix provenance, absence of SoupX/normalization substitution, gene universe and exact barcode alignment remain untested."
+        },
+        "fixed_module_coverage": {
+          "status": "not_assessed",
+          "reason": "Metadata prerequisites do not pass; no new gene-universe/matrix download or 99/57/53 coverage count."
+        },
+        "paired_depth_cell_mouse_floors": {
+          "status": "not_assessed",
+          "reason": "No verified mouse/state map, so no 500-UMI/30-cell/three-mouse eligibility count and no scores."
+        }
+      },
+      "required_enabling_fields": [
+        "raw_cell_barcode",
+        "GEO_library_or_identifier",
+        "biological_mouse_id",
+        "pool_or_technical_split_id",
+        "injury_day",
+        "age",
+        "treatment",
+        "author_cell_type",
+        "author_annotation_method_and_version",
+        "raw_UMI_matrix_correspondence"
+      ],
+      "specific_enabling_artifact": "Author export of obs from 230111_Bleo_Ageing_annotated_final.h5ad, preserving identifier/name/cell_type, plus animal provenance reconciliation and raw DGE alignment."
+    },
+    {
+      "candidate": "GSE202325",
+      "overall": "not_assessed_out_of_scope",
+      "gates": {
+        "scope": {
+          "status": "not_assessed",
+          "reason": "Existing GEO title identifies infection cohort; no further primary-source/protocol/expression analysis under the frozen non-pathogen recovery scope."
+        },
+        "author_state_map": {
+          "status": "not_assessed",
+          "reason": "Previous audit reported broad AT2 labels and missing exact activated/transitional map. This is inherited evidence, not a new biological ineligibility finding."
+        }
+      },
+      "missing_for_unchanged_validation_in_prior_audit": [
+        "programme-independent per-barcode transitional/activated-AT2 labels",
+        "verified per-barcode mouse provenance"
+      ],
+      "source": "docs/roadmap_runs/2026-09-27-followthrough/metadata/GSE202325.json; EXPANDED_CANDIDATE_AUDIT.md"
+    },
+    {
+      "candidate": "Hippo_LOX / Zenodo 14229565",
+      "overall": "fails_unchanged_mouse_cohort_scope",
+      "gates": {
+        "scope": {
+          "status": "fail",
+          "reason": "Primary paper separates mouse perturbation experiments from the newly deposited single-nucleus data, which are human PCLS from two donor lungs. Zenodo names LT106/LT107 preparations. These are not mouse repair cohorts for unchanged A5."
+        },
+        "mouse_state_and_count_gates": {
+          "status": "not_assessed",
+          "reason": "Stop after species/experimental-unit mismatch; no deposited expression matrices downloaded."
+        }
+      },
+      "source": "https://www.nature.com/articles/s41467-025-61795-x; https://zenodo.org/records/14229565"
+    }
+  ],
+  "stop_reason": "Bounded named-candidate plus one source-led alternative search completed. GSE303646 is an access/identity block; absence of state labels in recovered files does not prove absence of the states."
+}

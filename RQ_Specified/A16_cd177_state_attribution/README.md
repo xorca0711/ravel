@@ -6,6 +6,12 @@ Read the [integration review](reports/INTEGRATION_REVIEW.md) before the original
 Stage 1 report. Publication of these results does not establish a mechanism or
 change a historical claim grade.
 
+A separately frozen [corrected C1 comparison](correction_20260928/reports/CORRECTED_C1_REPORT.md)
+now preserves the original population per library and excludes tested genes
+before neighbourhood construction. Priming differences attenuate but remain
+positive; substantial residual imbalance and other biological limits remain.
+This completes the bounded computational correction, with original Stage 1 intact.
+
 ## Biological question
 
 Within comparable transitional mutant cells, CD177 may identify a

@@ -1,0 +1,603 @@
+{
+  "accession": "GSE123902",
+  "series": {
+    "title": [
+      "The single cell transcriptional landscape of human lung adenocarcinoma (primary tumours and metastases)"
+    ],
+    "pubmed_id": [
+      "32042191"
+    ],
+    "summary": [
+      "By transcriptionally profiling single cells from patients spanning different stages of lung adenocarcinoma progression, we provide evidence of epithelial regeneration in untreated primary tumours and a continuum of phenotypic states spanning key stages of embryonic development and lung morphogenesis in metastases. We transcriptionally profiled 41,384 single cells obtained from fresh surgical human samples taken from non-tumour-involved lung (n = 4), primary lung adenocarcinomas (n = 8; 7 untreated and 1 post neo-adjuvant chemotherapy), as well as brain (n = 3), bone (n = 1), and adrenal (n = 1) lung adenocarcinoma metastases. These samples were derived from patients spanning various stages of tumour progression without enrichment for a specific cell type, such that the entire tumour and its microenvironment were sampled in an unbiased manner. Data from all patients were merged to create a global cell atlas of the normal lung, primary tumours, and metastases."
+    ],
+    "overall_design": [
+      "Single-cell RNA sequencing was performed on 17 donors using the 10X Genomics protocol. For each donor, all viable cells (identified by forward and side scatter and DAPI exclusion) were assayed for trancriptome-wide RNA-sequence."
+    ],
+    "sample_id": [
+      "GSM3516662",
+      "GSM3516663",
+      "GSM3516664",
+      "GSM3516665",
+      "GSM3516666",
+      "GSM3516667",
+      "GSM3516668",
+      "GSM3516669",
+      "GSM3516670",
+      "GSM3516671",
+      "GSM3516672",
+      "GSM3516673",
+      "GSM3516674",
+      "GSM3516675",
+      "GSM3516676",
+      "GSM3516677",
+      "GSM3516678"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE123nnn/GSE123902/suppl/GSE123902_GEO_README.rtf",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE123nnn/GSE123902/suppl/GSE123902_RAW.tar"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM3516662",
+      "title": [
+        "MSK_LX653_PRIMARY_TUMOUR"
+      ],
+      "geo_accession": [
+        "GSM3516662"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma",
+        "Stage: 1A",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600753",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137765"
+      ]
+    },
+    {
+      "accession": "GSM3516663",
+      "title": [
+        "MSK_LX661_PRIMARY_TUMOUR"
+      ],
+      "geo_accession": [
+        "GSM3516663"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma",
+        "Stage: 1A",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600752",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137766"
+      ]
+    },
+    {
+      "accession": "GSM3516664",
+      "title": [
+        "MSK_LX666_METASTASIS"
+      ],
+      "geo_accession": [
+        "GSM3516664"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma metastasis to BONE"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma metastasis to BONE",
+        "Stage: IV",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: Yes"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600751",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137767"
+      ]
+    },
+    {
+      "accession": "GSM3516665",
+      "title": [
+        "MSK_LX675_PRIMARY_TUMOUR"
+      ],
+      "geo_accession": [
+        "GSM3516665"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma",
+        "Stage: IV",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600750",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137768"
+      ]
+    },
+    {
+      "accession": "GSM3516666",
+      "title": [
+        "MSK_LX675_NORMAL"
+      ],
+      "geo_accession": [
+        "GSM3516666"
+      ],
+      "source_name_ch1": [
+        "Patient adjacent non-tumour involved lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient adjacent non-tumour involved lung",
+        "Stage: na",
+        "diagnosis: non-tumour involved lung",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600749",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137769"
+      ]
+    },
+    {
+      "accession": "GSM3516667",
+      "title": [
+        "MSK_LX676_PRIMARY_TUMOUR"
+      ],
+      "geo_accession": [
+        "GSM3516667"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma",
+        "Stage: 1A",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600748",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137770"
+      ]
+    },
+    {
+      "accession": "GSM3516668",
+      "title": [
+        "MSK_LX255B_METASTASIS"
+      ],
+      "geo_accession": [
+        "GSM3516668"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma metastasis to BRAIN"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma metastasis to BRAIN",
+        "Stage: IV",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: Yes"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600747",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137771"
+      ]
+    },
+    {
+      "accession": "GSM3516669",
+      "title": [
+        "MSK_LX679_PRIMARY_TUMOUR"
+      ],
+      "geo_accession": [
+        "GSM3516669"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma",
+        "Stage: IIA",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: Yes"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600746",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137772"
+      ]
+    },
+    {
+      "accession": "GSM3516670",
+      "title": [
+        "MSK_LX680_PRIMARY_TUMOUR"
+      ],
+      "geo_accession": [
+        "GSM3516670"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma",
+        "Stage: IB",
+        "diagnosis: Lung Adenocarcinom + Large Cell Neuroendocrine Carcinoma",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600745",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137773"
+      ]
+    },
+    {
+      "accession": "GSM3516671",
+      "title": [
+        "MSK_LX681_METASTASIS"
+      ],
+      "geo_accession": [
+        "GSM3516671"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma metastasis to BRAIN"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma metastasis to BRAIN",
+        "Stage: IV",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: Yes"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600744",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137764"
+      ]
+    },
+    {
+      "accession": "GSM3516672",
+      "title": [
+        "MSK_LX682_PRIMARY_TUMOUR"
+      ],
+      "geo_accession": [
+        "GSM3516672"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma",
+        "Stage: IB",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600743",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137774"
+      ]
+    },
+    {
+      "accession": "GSM3516673",
+      "title": [
+        "MSK_LX682_NORMAL"
+      ],
+      "geo_accession": [
+        "GSM3516673"
+      ],
+      "source_name_ch1": [
+        "Patient adjacent non-tumour involved lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient adjacent non-tumour involved lung",
+        "Stage: na",
+        "diagnosis: non-tumour involved lung",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600742",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137775"
+      ]
+    },
+    {
+      "accession": "GSM3516674",
+      "title": [
+        "MSK_LX684_PRIMARY_TUMOUR"
+      ],
+      "geo_accession": [
+        "GSM3516674"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma",
+        "Stage: IA",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600741",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137776"
+      ]
+    },
+    {
+      "accession": "GSM3516675",
+      "title": [
+        "MSK_LX684_NORMAL"
+      ],
+      "geo_accession": [
+        "GSM3516675"
+      ],
+      "source_name_ch1": [
+        "Patient adjacent non-tumour involved lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient adjacent non-tumour involved lung",
+        "Stage: na",
+        "diagnosis: non-tumour involved lung",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600740",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137777"
+      ]
+    },
+    {
+      "accession": "GSM3516676",
+      "title": [
+        "MSK_LX685_NORMAL"
+      ],
+      "geo_accession": [
+        "GSM3516676"
+      ],
+      "source_name_ch1": [
+        "Patient adjacent non-tumour involved lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient adjacent non-tumour involved lung",
+        "Stage: na",
+        "diagnosis: non-tumour involved lung",
+        "chemotherapy: No"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600739",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137778"
+      ]
+    },
+    {
+      "accession": "GSM3516677",
+      "title": [
+        "MSK_LX699_METASTASIS"
+      ],
+      "geo_accession": [
+        "GSM3516677"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma metastasis to ADRENAL"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma metastasis to ADRENAL",
+        "Stage: IV",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: Yes"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600738",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137779"
+      ]
+    },
+    {
+      "accession": "GSM3516678",
+      "title": [
+        "MSK_LX701_METASTASIS"
+      ],
+      "geo_accession": [
+        "GSM3516678"
+      ],
+      "source_name_ch1": [
+        "Patient primary lung adenocarcinoma metastasis to BRAIN"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "tissue: Patient primary lung adenocarcinoma metastasis to BRAIN",
+        "Stage: IV",
+        "diagnosis: Lung Adenocarcinoma",
+        "chemotherapy: Yes"
+      ],
+      "data_processing": [
+        "The Sequence Quality Control (SEQC) package18 was utilized for de-multiplexing, STAR alignment, implementation of cell barcode and multi-alignment correction, and the generation of a raw digital expression matrix by collapsing groups of reads with the same unique molecular identifier (UMI), cell barcode and gene annotation. Alignment to the hg38 annotation was restricted to transcribed, polyadenylated RNA of length > 200 nucleotides (gene biotypes accessible by 3\u2019 mRNA sequencing technologies) to increase mapping specificity.",
+        "Genome_build: hg38 annotation restricted to transcribed, polyadenylated RNA of length > 200 nucleotides",
+        "Supplementary_files_format_and_content: csv of cells x genes unnormalized"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10600737",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX5137780"
+      ]
+    }
+  ]
+}

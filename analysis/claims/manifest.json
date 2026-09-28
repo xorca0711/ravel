@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "CLAIMS.md",
-  "source_sha256": "f9cf102ff5904917ab339c9281e0d1615552fa3de24513940d8e9c5377a41af2",
+  "source_sha256": "399d9034b9a92aaa6d07f5e1eac9597896cd22ab5080afa50bb3ee53ee3ad26e",
   "interpretation": "Generated index, not a certificate of biological validity. Numeric checks have explicitly bounded coverage.",
   "claims": [
     {
@@ -877,15 +877,18 @@
       "family": "Cardoso and ligand extensions",
       "register_section": "Stage 3. Cardoso 2026, the Gate 2 paper (2026-09-12)",
       "estimand_or_proposition": "Whether fibroblasts receive the Areg signal",
-      "design_and_observation": "no analysis; CellChat is R-only and unavailable here",
+      "design_and_observation": "The original trial did not measure reception. Later corrected ligand-resource and recipient-expression analyses provide candidate compatibility, not direct receptor engagement.",
       "datasets_explicit_in_row": [],
-      "artifacts": [],
-      "artifact_text": "none",
+      "artifacts": [
+        "RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md",
+        "analysis/corrections/ligand/RESULTS.md"
+      ],
+      "artifact_text": "`analysis/corrections/ligand/RESULTS.md`; `RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md`",
       "unresolved_artifact_labels": [],
       "status": "Not established",
       "status_group": "Not established",
       "review_state": "individual_owner_review_not_recorded_in_status",
-      "limitations_and_interpretation": "None until a communication analysis is possible; stated so that no reader takes C31 to C33 for a communication result.",
+      "limitations_and_interpretation": "RNA compatibility and receptor transcripts do not establish ligand delivery, protein activation or a fibroblast response caused by AREG. The historical software-availability limitation is superseded; the biological reception claim remains unestablished.",
       "claim_kind": "not_yet_normalized",
       "sample_definition": "See design_and_observation; not yet normalized",
       "statistical_unit": "not_yet_normalized",
@@ -1209,7 +1212,7 @@
       "status": "Not established",
       "status_group": "Not established",
       "review_state": "individual_owner_review_not_recorded_in_status",
-      "limitations_and_interpretation": "High as a null, because it is the first direct test of the paper's link that any dataset here supports. It bounds nothing weaker than rho 0.43, and it pools all epithelium, so it is silent about the state the paper's claim is about.",
+      "limitations_and_interpretation": "The positive, nonsignificant estimates are inconclusive. The script's approximate rho 0.43 significance cutoff is neither a confidence bound nor an effect detectable at a specified power. No absence or equivalence follows. Pooling all epithelium also prevents a state-specific interpretation. Wording corrected 2026-09-28; estimates and grade preserved.",
       "claim_kind": "cross_donor_association",
       "sample_definition": "Eligible epithelial and fibroblast compartments; pooled and IPF-only contrasts",
       "statistical_unit": "donor",

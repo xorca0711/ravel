@@ -1,0 +1,90 @@
+{
+  "table_s1_affected_rows": 5,
+  "table_s1_discrepancies": [
+    {
+      "dataset": "kras1w",
+      "channel": "YFP",
+      "printed_mouse_counts": "[4532, 1586, 4848]",
+      "printed_mouse_sum": 10966,
+      "printed_total": 12073,
+      "raw_decoded_mouse_count": 4,
+      "raw_decoded_mouse_counts": "[4532, 1586, 4848, 1107]",
+      "raw_decoded_total": 12073,
+      "prior_audit_archive_counts_reproduced": true,
+      "issues": "printed_mouse_list_length_differs_from_archive;printed_total_differs_from_printed_mouse_sum"
+    },
+    {
+      "dataset": "kras2w",
+      "channel": "YFP",
+      "printed_mouse_counts": "[4155, 342, 1142]",
+      "printed_mouse_sum": 5639,
+      "printed_total": 10464,
+      "raw_decoded_mouse_count": 4,
+      "raw_decoded_mouse_counts": "[4155, 342, 1152, 4815]",
+      "raw_decoded_total": 10464,
+      "prior_audit_archive_counts_reproduced": true,
+      "issues": "printed_mouse_list_length_differs_from_archive;printed_mouse_entry_differs_from_archive;printed_total_differs_from_printed_mouse_sum"
+    },
+    {
+      "dataset": "kras4d",
+      "channel": "RFP",
+      "printed_mouse_counts": "[886, 11, 25]",
+      "printed_mouse_sum": 922,
+      "printed_total": 10464,
+      "raw_decoded_mouse_count": 3,
+      "raw_decoded_mouse_counts": "[886, 11, 25]",
+      "raw_decoded_total": 922,
+      "prior_audit_archive_counts_reproduced": true,
+      "issues": "printed_total_differs_from_printed_mouse_sum;printed_total_differs_from_archive"
+    },
+    {
+      "dataset": "kras1w",
+      "channel": "RFP",
+      "printed_mouse_counts": "[2967, 138, 4800]",
+      "printed_mouse_sum": 7905,
+      "printed_total": 8756,
+      "raw_decoded_mouse_count": 4,
+      "raw_decoded_mouse_counts": "[2967, 138, 4800, 851]",
+      "raw_decoded_total": 8756,
+      "prior_audit_archive_counts_reproduced": true,
+      "issues": "printed_mouse_list_length_differs_from_archive;printed_total_differs_from_printed_mouse_sum"
+    },
+    {
+      "dataset": "kras2w",
+      "channel": "RFP",
+      "printed_mouse_counts": "[1253, 252, 613]",
+      "printed_mouse_sum": 2118,
+      "printed_total": 4857,
+      "raw_decoded_mouse_count": 4,
+      "raw_decoded_mouse_counts": "[1253, 252, 613, 2739]",
+      "raw_decoded_total": 4857,
+      "prior_audit_archive_counts_reproduced": true,
+      "issues": "printed_mouse_list_length_differs_from_archive;printed_total_differs_from_printed_mouse_sum"
+    }
+  ],
+  "parameter_discrepancies": [
+    {
+      "item": "fraction",
+      "manuscript_table3_symbol": "f_S",
+      "manuscript_value": 0.16,
+      "archive_main_variable": "fss_in / fs",
+      "archive_value": 0.08,
+      "archive_canonical_allocation": "passed as prop_f, selects fast founders; literal <= boundary gives 81/1000",
+      "status": "numerical values differ; manuscript-symbol correspondence unresolved"
+    },
+    {
+      "item": "early slow nominal net expansion",
+      "manuscript_value_per_week": 1.1,
+      "archive_value_per_week": 0.9000000000000001,
+      "archive_expression": "sigmas_p_in = 0.9/7/(2*q_in-1)",
+      "status": "values differ; no silent substitution"
+    }
+  ],
+  "scope_limits": [
+    "Raw size arrays preserve mouse grouping but do not supply named animal IDs.",
+    "No source file, manuscript table, or original output was repaired.",
+    "The intended net rates are distinct from the literal defective event-selection process.",
+    "No stochastic fit, simulation, likelihood, model comparison, or published-curve attribution was executed.",
+    "Future FU_S amendment must freeze source variants, rate-switch handling across the grid, tail diagnostics, unobserved-bin likelihood rules, and common comparator folds/bins/weights."
+  ]
+}

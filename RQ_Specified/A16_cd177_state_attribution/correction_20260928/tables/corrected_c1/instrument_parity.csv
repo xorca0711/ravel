@@ -1,0 +1,15 @@
+library,endpoint,frozen_genes,present_genes,max_abs_score_error,fixed_cells,n_positive,n_negative,totals_and_gate_parity
+GSM7890835,priming_associated,4,4,4.440892098500626e-16,876,79,797,True
+GSM7890835,AT2_identity,4,4,4.440892098500626e-16,876,79,797,True
+GSM7890835,AT1_identity,4,4,2.220446049250313e-16,876,79,797,True
+GSM7890835,Itga2,1,1,4.440892098500626e-16,876,79,797,True
+GSM7890835,cycling,5,5,4.440892098500626e-16,876,79,797,True
+GSM7890835,shared_gate_cycle_stress_disjoint,10,10,2.220446049250313e-16,876,79,797,True
+GSM7890835,lesion_gate_cycle_stress_disjoint,73,70,9.71445146547012e-17,876,79,797,True
+GSM7890836,priming_associated,4,4,4.440892098500626e-16,656,60,596,True
+GSM7890836,AT2_identity,4,4,4.440892098500626e-16,656,60,596,True
+GSM7890836,AT1_identity,4,4,2.220446049250313e-16,656,60,596,True
+GSM7890836,Itga2,1,1,4.440892098500626e-16,656,60,596,True
+GSM7890836,cycling,5,5,2.220446049250313e-16,656,60,596,True
+GSM7890836,shared_gate_cycle_stress_disjoint,10,10,4.440892098500626e-16,656,60,596,True
+GSM7890836,lesion_gate_cycle_stress_disjoint,73,70,9.71445146547012e-17,656,60,596,True

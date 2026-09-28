@@ -1,0 +1,61 @@
+{
+  "status": "bounded_metadata_recovery_complete_no_external_fit",
+  "completed_utc": "2026-09-28T10:57:52.178695+00:00",
+  "preregistration_commit": "f3950253ae229f062dbae94551b04a908a8e5ade",
+  "specification_sha256": "c4f01c7a2ed46a65211c59c297a5bfbc221151373bbfd51a6590081026f58eb4",
+  "script_sha256": "d9dd9955b60510206e276022d892ec05e05a652e9ea5448f718ad34b8c9f63a7",
+  "inputs": {
+    "X:\\GitHub\\scRNA_seq\\raw_data\\GSE131907\\GSE131907_Lung_Cancer_cell_annotation.txt.gz": {
+      "sha256": "9d017652a31a489c1f62cacc436936d48a5b07bb554fc0dbe602da7474532205",
+      "bytes": 1886187
+    },
+    "X:\\GitHub\\scRNA_seq\\raw_data\\GSE131907\\GSE131907_Lung_Cancer_Feature_Summary.xlsx": {
+      "sha256": "27bec6d22d2658e5cccab2bdd463e7b4e4ba342f795bdeb07fdb3f68084ff8e4",
+      "bytes": 19500
+    },
+    "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\RQ_Specified\\A11_lesion_programme_addition\\tables\\gates_run.json": {
+      "sha256": "306452e11a330ca1ad99f93ce4f3c7171ad7ace3b0a4b7da483e5e3ce84d6838",
+      "bytes": 2907
+    },
+    "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\RQ_Specified\\A12_recipient_context\\external_validation_20260928\\sources\\retrieval_manifest.json": {
+      "sha256": "fb0859bababec08170a32a7de2c7756f903848bb1da0d2ee8a0e6839cba6d6e7",
+      "bytes": 1430
+    }
+  },
+  "output_sha256": {
+    "tables/candidate_gate_summary.tsv": "1436854a47cbd0085793e6da72fc9b9e9c114471c6811e22292a587e914a8ee8",
+    "tables/kim_annotation_inventory.tsv": "75388b8b91696f75459335de71745267f1342f1bd75d16e7e2422c070f4277d9",
+    "tables/kim_patient_intersection.tsv": "07fdf6b41b62ad6d978a6e65a1a7e04efa2b8f2096ff351c34f78a3a2e964add",
+    "tables/kim_sample_crosswalk.tsv": "d531713adf4459b6e27319c0011a1d919b83d14886f99fa630e0b20e77b6aeac",
+    "tables/laughney_sample_manifest.tsv": "7cc5086fea5d5cbe4fc2a4071e9a465809c0c5ff363900f3f6b78cf309c68fcd",
+    "tables/laughney_title_pair_intersection.tsv": "10c8de761b0a4c5269b3e4ac27fff7e428232462b9fc178ae15324bafc0d7116",
+    "tables/wu_sample_manifest.tsv": "59d413cda651f9205859f8eba98a5d1daea3c18a772f4db11a61f1dc9f27ff39",
+    "tables/candidate_gate_ledger.json": "751330f96cedc94d6fcdb6997717a86ed81d46aa958565a9244ae46f665b5c57"
+  },
+  "kim_annotation_rows": 208506,
+  "kim_paired_patients": 10,
+  "kim_source_candidate_both_50": 10,
+  "kim_normal_AT2_50": 10,
+  "kim_tumour_AT2_cells": 0,
+  "kim_complete_count_intersection": 0,
+  "laughney_title_pairs": [
+    "LX675",
+    "LX682",
+    "LX684"
+  ],
+  "laughney_normal_specimen_upper_bound": 4,
+  "wu_normal_tissue_arms": 0,
+  "precision_calculation": {
+    "independent_fixed_model_losses": true,
+    "n": 46,
+    "df": 45,
+    "standardized_95_t_halfwidth": 0.2969633435547995,
+    "scipy_version": "1.18.0",
+    "interpretation": "pragmatic standardized planning precision, not substantive power or a biological margin"
+  },
+  "external_expression_opened": false,
+  "external_scores_produced": false,
+  "model_fits": 0,
+  "main_checkout_writes": false,
+  "source_attribution": "conditional; diagnostic source counts do not adjudicate biological origin"
+}

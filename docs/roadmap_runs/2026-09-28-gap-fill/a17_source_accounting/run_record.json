@@ -1,0 +1,79 @@
+{
+  "started_utc": "2026-09-28T11:12:53.426175+00:00",
+  "completed_utc": "2026-09-28T11:12:53.497752+00:00",
+  "specification_checkpoint": "7f1aae4244fc3a7aaba39ae0ce1b22d43bb76e72",
+  "script_sha256": "c8816a7ba56de5933a16ea95ae1131f9bf8639b47900fc93fcb9410eec68793d",
+  "archive_sha256": "404697263ca941b1b74dee9feb4c4680ff3077d9e20bb7105482d17f14e96a70",
+  "input_manifest_sha256": "6f81a4ba595b2def301198ff132a5d1ea473c166d844c19f59c6fca29c24355a",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "source_mouse_arrays": 44,
+  "source_mouse_channel_rows": 88,
+  "raw_clone_measurements": 164453,
+  "batch1_reference_rows": 58,
+  "primary_mice": 11,
+  "primary_clones_ge2": 16113,
+  "table_s1_discrepant_rows": 5,
+  "checks": {
+    "archive_hash": true,
+    "all_nested_mice_channels_decoded": true,
+    "integer_support_for_valid_sizes": true,
+    "mouse_lobe_spc_shapes_match": true,
+    "batch1_mouse_schema_match": true,
+    "batch1_all_counts_match": true,
+    "table_s1_prior_archive_counts_match": true,
+    "primary_frequencies_match_counts": true,
+    "mutant_positional_arguments_match": true,
+    "nominal_rate_arithmetic_match": true,
+    "literal_founder_boundary_checked": true,
+    "no_fit_or_simulation": true
+  },
+  "outputs": [
+    {
+      "file": "input_manifest.json",
+      "sha256": "6f81a4ba595b2def301198ff132a5d1ea473c166d844c19f59c6fca29c24355a",
+      "bytes": 4647
+    },
+    {
+      "file": "mouse_channel_manifest.csv",
+      "sha256": "e495965352247ca3370c9216f3a0bce0f54a26fccfd70402186b5c593a50b571",
+      "bytes": 82076
+    },
+    {
+      "file": "batch1_count_crosscheck.csv",
+      "sha256": "e7fe9b662f1e51517266f2cd14949a7a3bd0c38a0e652f63ea8c6eb3eb2848de",
+      "bytes": 3174
+    },
+    {
+      "file": "table_s1_reconciliation.csv",
+      "sha256": "6c1a13520bf7d873040e81e6b748dd30e80a8802771eaecc550dc148f4912f18",
+      "bytes": 1272
+    },
+    {
+      "file": "discrepancy_ledger.json",
+      "sha256": "a2ed619f62e66fa75e3ec76b640383c2754dd6ad121e82e327dafb812af20a77",
+      "bytes": 3712
+    },
+    {
+      "file": "primary_cohort_manifest.csv",
+      "sha256": "988ab3c376f2cff5daa46924bc1009c80a164d7e0e9c916c539f66cfa8c99294",
+      "bytes": 2746
+    },
+    {
+      "file": "primary_clone_size_frequencies.csv",
+      "sha256": "766358ef9e56e4791fe65df95c4ff4fa59499d4e806b0899db918172fe43a9e8",
+      "bytes": 45738
+    },
+    {
+      "file": "mutant_parameter_trace.json",
+      "sha256": "84a2b3ea950d6e27fa23e9fe53ebb56e816a17241372314bdb8103725604addc",
+      "bytes": 7491
+    },
+    {
+      "file": "REPORT.md",
+      "sha256": "586c83fbc0ae0f4c7cb58ea8ccf9d03040dfc85eece7352783d53b8b29b2ab42",
+      "bytes": 4237
+    }
+  ]
+}

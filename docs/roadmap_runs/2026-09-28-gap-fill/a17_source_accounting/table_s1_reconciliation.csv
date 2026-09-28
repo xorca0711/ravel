@@ -1,0 +1,9 @@
+dataset,channel,printed_mouse_counts,printed_mouse_sum,printed_total,raw_decoded_mouse_count,raw_decoded_mouse_counts,raw_decoded_total,prior_audit_archive_counts_reproduced,issues
+kras4d,YFP,"[892, 7, 38]",937,937,3,"[892, 7, 38]",937,True,
+kras1w,YFP,"[4532, 1586, 4848]",10966,12073,4,"[4532, 1586, 4848, 1107]",12073,True,printed_mouse_list_length_differs_from_archive;printed_total_differs_from_printed_mouse_sum
+kras2w,YFP,"[4155, 342, 1142]",5639,10464,4,"[4155, 342, 1152, 4815]",10464,True,printed_mouse_list_length_differs_from_archive;printed_mouse_entry_differs_from_archive;printed_total_differs_from_printed_mouse_sum
+kras4w,YFP,"[3107, 1811, 2051]",6969,6969,3,"[3107, 1811, 2051]",6969,True,
+kras4d,RFP,"[886, 11, 25]",922,10464,3,"[886, 11, 25]",922,True,printed_total_differs_from_printed_mouse_sum;printed_total_differs_from_archive
+kras1w,RFP,"[2967, 138, 4800]",7905,8756,4,"[2967, 138, 4800, 851]",8756,True,printed_mouse_list_length_differs_from_archive;printed_total_differs_from_printed_mouse_sum
+kras2w,RFP,"[1253, 252, 613]",2118,4857,4,"[1253, 252, 613, 2739]",4857,True,printed_mouse_list_length_differs_from_archive;printed_total_differs_from_printed_mouse_sum
+kras4w,RFP,"[1086, 544, 870]",2500,2500,3,"[1086, 544, 870]",2500,True,

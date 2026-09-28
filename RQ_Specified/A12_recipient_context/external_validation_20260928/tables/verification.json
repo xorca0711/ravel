@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-09-28T11:00:37.828485+00:00",
+  "checks": [
+    "no_external_score_or_fit",
+    "committed_prospective_specification",
+    "metadata_inputs_and_audit_outputs_hashes",
+    "three_complete_GEO_metadata_manifests",
+    "Kim_ten_pairs_zero_AT2_intersection",
+    "Laughney_three_title_pairs_four_normal_upper_bound",
+    "Wu_zero_normal_arms_with_primary_paper_provenance",
+    "unknown_counts_distinguished_from_zero_units"
+  ],
+  "n_checks": 8,
+  "verifier_sha256": "89dcc6c627f1fb58ea368c989692ec8cdac1d81b93da3ecc3e0b00c1a96c9dbb",
+  "recovery_run_sha256": "3593065b8cc8e58d664dc690002b33f69b669f3d3f84747665f1bd15b89f9047",
+  "primary_source_evidence_sha256": "6e0b45711a42824cd3b6cd832adf6bf74a7a1aaeb50b7c9e3394246c25bceb02",
+  "report_sha256": "c49bc01bab5693fc85c4588ab1fcebc03fda9f3b0fdfb662025370311c64250c",
+  "candidates": 3,
+  "external_scores": 0,
+  "model_fits": 0
+}

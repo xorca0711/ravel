@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="_w_914416b775f34269b8613a3d107ca27c/">
+    <script type="text/javascript">
+(function() {
+  var workerId = '_w_914416b775f34269b8613a3d107ca27c';
+  // remove base href if worker ID is in url
+  if (window.location.href.indexOf(workerId) > 0) {
+    document.querySelector('base').removeAttribute('href');
+  }
+})();
+</script>
+
+      <script type="text/javascript">
+      var __connect = {
+        shinyPre101: false
+      }
+      </script>
+      
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type="application/shiny-singletons"></script>
+  <script type="application/html-dependencies">jquery[3.6.0];shiny-css[1.9.1];shiny-busy-indicators[1.9.1];shiny-javascript[1.9.1];font-awesome[6.5.2];selectize[0.15.2];htmltools-fill[0.5.8.1];shinycssloaders-binding[1.1.0];htmlwidgets[1.6.4];datatables-css[0.0.0];datatables-binding[0.33];crosstalk[1.2.1];bootstrap[3.4.1];AdminLTE[2.0.6];shinydashboard[0.7.2]</script>
+<script src="jquery-3.6.0/jquery.min.js"></script>
+<link href="shiny-css-1.9.1/shiny.min.css" rel="stylesheet" />
+<link href="shiny-busy-indicators-1.9.1/busy-indicators.css" rel="stylesheet" />
+<script src="shiny-javascript-1.9.1/shiny.min.js"></script>
+<link href="font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="selectize-0.15.2/css/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="selectize-0.15.2/js/selectize.min.js"></script>
+<script src="selectize-0.15.2/accessibility/js/selectize-plugin-a11y.min.js"></script>
+<link href="htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<link href="shinycssloaders-binding-1.1.0/spinner.css" rel="stylesheet" />
+<script src="shinycssloaders-binding-1.1.0/spinner.js"></script>
+<script src="htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="datatables-binding-0.33/datatables.js"></script>
+<link href="crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+<script src="crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+<link href="bootstrap-3.4.1/accessibility/css/bootstrap-accessibility.min.css" rel="stylesheet" />
+<script src="bootstrap-3.4.1/js/bootstrap.min.js"></script>
+<script src="bootstrap-3.4.1/accessibility/js/bootstrap-accessibility.min.js"></script>
+<link href="AdminLTE-2.0.6/AdminLTE.min.css" rel="stylesheet" />
+<link href="AdminLTE-2.0.6/_all-skins.min.css" rel="stylesheet" />
+<script src="AdminLTE-2.0.6/app.min.js"></script>
+<link href="shinydashboard-0.7.2/shinydashboard.css" rel="stylesheet" />
+<script src="shinydashboard-0.7.2/shinydashboard.min.js"></script>  <title>Lung Injury and Regeneration in Old and Young Mice</title>
+  <style>
+      @media (min-width: 768px) {
+        .main-header > .navbar {
+          margin-left: 700px;
+        }
+        .main-header .logo {
+          width: 700px;
+        }
+      }
+    </style>
+  <style>
+      .main-sidebar, .left-side {
+        width: 290px;
+      }
+      @media (min-width: 768px) {
+        .content-wrapper,
+        .right-side,
+        .main-footer {
+          margin-left: 290px;
+        }
+        .main-sidebar,
+        .left-side {
+          width: 290px;
+        }
+      }
+      @media (max-width: 767px) {
+        .sidebar-open .content-wrapper,
+        .sidebar-open .right-side,
+        .sidebar-open .main-footer {
+          -webkit-transform: translate(290px, 0);
+          -ms-transform: translate(290px, 0);
+          -o-transform: translate(290px, 0);
+          transform: translate(290px, 0);
+        }
+      }
+      @media (max-width: 767px) {
+        .main-sidebar,
+        .left-side {
+          -webkit-transform: translate(-290px, 0);
+          -ms-transform: translate(-290px, 0);
+          -o-transform: translate(-290px, 0);
+          transform: translate(-290px, 0);
+        }
+      }
+      @media (min-width: 768px) {
+        .sidebar-collapse .main-sidebar,
+        .sidebar-collapse .left-side {
+          -webkit-transform: translate(-290px, 0);
+          -ms-transform: translate(-290px, 0);
+          -o-transform: translate(-290px, 0);
+          transform: translate(-290px, 0);
+        }
+      }
+    </style>
+  <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+      /* Clean Professional Color Palette */
+      :root {
+        --primary-gradient: linear-gradient(135deg, #1F77B4, #17BECF);
+        --secondary-gradient: linear-gradient(135deg, #1F77B4, #17BECF);
+        --accent-gradient: linear-gradient(135deg, #1F77B4, #17BECF);
+        --success-gradient: linear-gradient(135deg, #1F77B4, #17BECF);
+        --warning-gradient: linear-gradient(135deg, #1F77B4, #17BECF);
+        --light-bg: #FFFFFF;
+        --card-bg: #FFFFFF;
+        --sidebar-bg: #F7FAFC;
+        --text-primary: #2D3748;
+        --text-secondary: #4A5568;
+        --border-color: #E2E8F0;
+        --shadow-primary: 0 6px 12px rgba(0,0,0,0.15);
+        --shadow-secondary: 0 2px 4px rgba(0,0,0,0.1);
+        --blue-accent: #1F77B4;
+      }
+
+      /* Global Styles */
+      * {
+        transition: all 0.3s ease;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif !important;
+        background: var(--light-bg) !important;
+        color: var(--text-primary) !important;
+      }
+
+      /* Header Styling */
+      .main-header {
+        background: var(--primary-gradient) !important;
+        border: none !important;
+        box-shadow: var(--shadow-primary) !important;
+      }
+
+      .main-header .logo {
+        font-family: "Roboto", sans-serif !important;
+        font-weight: 700 !important;
+        font-size: 1.8rem !important;
+        background: transparent !important;
+        color: white !important;
+        text-shadow: none !important;
+      }
+
+      .main-header .logo:hover {
+        background: rgba(255, 255, 255, 0.1) !important;
+        transform: translateY(-2px);
+      }
+
+      .main-header .navbar {
+        background: transparent !important;
+      }
+
+      /* Sidebar Styling */
+      .main-sidebar {
+        background: var(--sidebar-bg) !important;
+        border-right: 1px solid var(--border-color) !important;
+        border-radius: 0 12px 12px 0 !important;
+        margin: 10px 0 !important;
+        height: calc(100vh - 20px) !important;
+      }
+
+      .skin-blue .main-sidebar .sidebar .sidebar-menu .active a {
+        background: var(--primary-gradient) !important;
+        color: white !important;
+        border-radius: 8px !important;
+        margin: 4px 8px !important;
+        font-weight: 500 !important;
+        box-shadow: var(--shadow-secondary) !important;
+      }
+
+      .skin-blue .main-sidebar .sidebar .sidebar-menu a {
+        background: transparent !important;
+        color: var(--text-secondary) !important;
+        border-radius: 8px !important;
+        margin: 2px 8px !important;
+        font-weight: 400 !important;
+        border: 1px solid transparent !important;
+      }
+
+      .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover {
+        background: rgba(31, 119, 180, 0.1) !important;
+        color: var(--blue-accent) !important;
+        border-color: var(--border-color) !important;
+        font-weight: 500 !important;
+      }
+
+      /* Sidebar Form Controls */
+      .form-group label {
+        color: var(--blue-accent) !important;
+        font-weight: 500 !important;
+        font-size: 1rem !important;
+        margin-bottom: 8px !important;
+      }
+
+      .form-control, .selectize-input {
+        background: white !important;
+        border: 1px solid #CBD5E0 !important;
+        color: var(--text-primary) !important;
+        border-radius: 8px !important;
+        font-family: "Roboto", sans-serif !important;
+        padding: 0.5rem !important;
+        font-size: 0.95rem !important;
+        box-shadow: var(--shadow-secondary) !important;
+      }
+
+      .form-control:focus, .selectize-input.focus {
+        border-color: var(--blue-accent) !important;
+        box-shadow: 0 0 0 3px rgba(31, 119, 180, 0.1) !important;
+        background: white !important;
+      }
+
+      .selectize-dropdown {
+        background: white !important;
+        border: 1px solid var(--border-color) !important;
+        border-radius: 8px !important;
+        box-shadow: var(--shadow-primary) !important;
+      }
+
+      .selectize-dropdown-content .option {
+        color: var(--text-primary) !important;
+        padding: 0.5rem 0.75rem !important;
+        border-radius: 4px !important;
+        margin: 2px 4px !important;
+      }
+
+      .selectize-dropdown-content .option:hover {
+        background: var(--primary-gradient) !important;
+        color: white !important;
+      }
+
+      /* Toggle Button */
+      .skin-blue .main-header .navbar .sidebar-toggle:hover {
+        background: rgba(255, 255, 255, 0.15) !important;
+        transform: scale(1.05);
+      }
+
+      /* Main Content Area */
+      .content-wrapper, .right-side {
+        background: var(--light-bg) !important;
+        min-height: 100vh !important;
+      }
+
+      .content {
+        padding: 2rem !important;
+      }
+
+      /* Box Styling - Card Design */
+      .box {
+        background: var(--card-bg) !important;
+        border: 1px solid var(--border-color) !important;
+        border-radius: 12px !important;
+        box-shadow: var(--shadow-primary) !important;
+        margin-bottom: 2rem !important;
+        overflow: hidden !important;
+        transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+      }
+
+      .box:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      }
+
+      .box-header {
+        background: var(--primary-gradient) !important;
+        color: white !important;
+        padding: 1rem 1.5rem !important;
+        font-weight: 500 !important;
+        font-size: 1.2rem !important;
+        border-bottom: none !important;
+        border-radius: 12px 12px 0 0 !important;
+      }
+
+      .box-body {
+        padding: 1.5rem !important;
+        background: var(--card-bg) !important;
+      }
+
+      /* About Page Specific Styles */
+      .about-content {
+        font-family: "Roboto", sans-serif !important;
+        line-height: 1.8 !important;
+        color: var(--text-primary) !important;
+      }
+
+      .about-content h1 {
+        color: var(--blue-accent) !important;
+        font-weight: 700 !important;
+        margin-bottom: 1.5rem !important;
+        border-bottom: 3px solid var(--blue-accent) !important;
+        padding-bottom: 0.5rem !important;
+      }
+
+      .about-content h2 {
+        color: var(--blue-accent) !important;
+        font-weight: 600 !important;
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+      }
+
+      .about-content h3 {
+        color: var(--text-primary) !important;
+        font-weight: 500 !important;
+        margin-top: 1.5rem !important;
+        margin-bottom: 0.75rem !important;
+      }
+
+      .about-content img {
+        max-width: 100% !important;
+        height: auto !important;
+        border-radius: 12px !important;
+        box-shadow: var(--shadow-secondary) !important;
+        margin: 1rem 0 !important;
+      }
+
+      .about-content p {
+        margin-bottom: 1rem !important;
+        text-align: justify !important;
+      }
+
+      .about-content ul {
+        margin-left: 1.5rem !important;
+        margin-bottom: 1rem !important;
+      }
+
+      .about-content li {
+        margin-bottom: 0.5rem !important;
+      }
+
+      .about-content strong {
+        color: var(--blue-accent) !important;
+        font-weight: 600 !important;
+      }
+
+      .about-content em {
+        font-style: italic !important;
+        color: var(--text-secondary) !important;
+      }
+
+      .about-content hr {
+        border: none !important;
+        height: 2px !important;
+        background: var(--border-color) !important;
+        margin: 2rem 0 !important;
+      }
+
+      /* Stats Box Style */
+      .stats-box {
+        background: var(--card-bg) !important;
+        border-radius: 10px !important;
+        padding: 15px !important;
+        margin-bottom: 20px !important;
+        border-left: 5px solid var(--blue-accent) !important;
+        box-shadow: var(--shadow-secondary) !important;
+      }
+
+      .stats-label {
+        color: var(--blue-accent) !important;
+        font-weight: 500 !important;
+        font-size: 1rem !important;
+      }
+
+      /* Spinner Customization */
+      .spinner-border {
+        border-color: var(--blue-accent) !important;
+        border-right-color: transparent !important;
+      }
+
+      /* DataTables Styling */
+      .dataTables_wrapper {
+        font-family: "Roboto", sans-serif !important;
+        color: var(--text-primary) !important;
+      }
+
+      .dataTables_wrapper .dataTables_length,
+      .dataTables_wrapper .dataTables_filter,
+      .dataTables_wrapper .dataTables_info,
+      .dataTables_wrapper .dataTables_paginate {
+        color: var(--text-secondary) !important;
+      }
+
+      .dataTables_wrapper .dataTables_paginate .paginate_button {
+        background: white !important;
+        border: 1px solid var(--border-color) !important;
+        color: var(--text-primary) !important;
+        border-radius: 6px !important;
+        margin: 0 2px !important;
+        padding: 0.5rem 0.75rem !important;
+      }
+
+      .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        background: var(--primary-gradient) !important;
+        color: white !important;
+        transform: translateY(-1px);
+        border-color: transparent !important;
+      }
+
+      .dataTables_wrapper table {
+        border-collapse: separate !important;
+        border-spacing: 0 2px !important;
+      }
+
+      .dataTables_wrapper table thead th {
+        background: var(--primary-gradient) !important;
+        color: white !important;
+        border: none !important;
+        padding: 1rem 0.75rem !important;
+        font-weight: 500 !important;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 10 !important;
+        font-size: 1rem !important;
+      }
+
+      .dataTables_wrapper table tbody tr {
+        background: rgba(31, 119, 180, 0.02) !important;
+        border-radius: 8px !important;
+      }
+
+      .dataTables_wrapper table tbody tr:hover {
+        background: rgba(31, 119, 180, 0.08) !important;
+        transform: scale(1.005);
+      }
+
+      .dataTables_wrapper table tbody td {
+        border: none !important;
+        padding: 0.75rem !important;
+        color: var(--text-primary) !important;
+      }
+
+      /* Disconnect Message Styling */
+      .disconnected-overlay {
+        background: linear-gradient(135deg, rgba(26, 26, 46, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%) !important;
+        backdrop-filter: blur(10px) !important;
+      }
+
+      /* Iframe Styling */
+      iframe {
+        border-radius: 16px !important;
+        box-shadow: var(--shadow-primary) !important;
+      }
+
+      /* Custom Animations */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .box {
+        animation: fadeInUp 0.6s ease-out;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .main-header .logo {
+          font-size: 16px !important;
+        }
+        .main-sidebar {
+          width: 250px !important;
+        }
+        .content {
+          padding: 15px !important;
+        }
+      }
+
+      /* Custom Gradient Backgrounds for Different Elements */
+      .tab-content {
+        background: var(--dark-bg) !important;
+      }
+
+      /* Special styling for plots */
+      .plotly, .ggplot {
+        background: var(--card-bg) !important;
+        border-radius: 12px !important;
+        padding: 10px !important;
+      }
+    </style>
+  <style>#shiny-disconnected-overlay { display: none !important; }#ss-overlay {
+   background-color: #1a1a2e !important;
+   opacity: 0.8 !important;
+   position: fixed !important;
+   top: 0 !important;
+   left: 0 !important;
+   bottom: 0 !important;
+   right: 0 !important;
+   z-index: 99998 !important;
+   overflow: hidden !important;
+   cursor: not-allowed !important;
+}#ss-connect-dialog {
+   background: #667eea !important;
+   color: white !important;
+   width: 450px !important;
+   transform: translateX(-50%) translateY(-50%) !important;
+   font-size: 25px !important;
+   top: 50% !important;
+   position: fixed !important;
+   bottom: auto !important;
+   left: 50% !important;
+   padding: 0.8em 1.5em !important;
+   text-align: center !important;
+   height: auto !important;
+   opacity: 1 !important;
+   z-index: 99999 !important;
+   border-radius: 3px !important;
+   box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px !important;
+}#ss-connect-dialog::before { content: 'Your session timed out, reload the application.' }#ss-connect-dialog label { display: none !important; }#ss-connect-dialog a {
+   display: block !important;
+   color: #4facfe !important;
+   font-size: 0 !important;
+   margin-top: 25px !important;
+   font-weight: normal !important;
+}#ss-connect-dialog a::before {
+  content: 'Reload';
+  font-size: 25px;
+}#ss-connect-dialog {  }</style>
+  <style>#spinner-7f44c435ddda5b178e02b3b1e1f3f8cc {   border-top: 1.1em solid rgba(79,172,254, 0.2);   border-right: 1.1em solid rgba(79,172,254, 0.2);   border-bottom: 1.1em solid rgba(79,172,254, 0.2);   border-left: 1.1em solid #4facfe; } #spinner-7f44c435ddda5b178e02b3b1e1f3f8cc { font-size: 9px; }</style>
+  <style>#spinner-4e76a568a70aef80f8d531847b0b06dc {   border-top: 1.1em solid rgba(240,147,251, 0.2);   border-right: 1.1em solid rgba(240,147,251, 0.2);   border-bottom: 1.1em solid rgba(240,147,251, 0.2);   border-left: 1.1em solid #f093fb; } #spinner-4e76a568a70aef80f8d531847b0b06dc { font-size: 9px; }</style>
+  <style>#spinner-326302be353a9632ecb2ae4e576eaeb6 {   border-top: 1.1em solid rgba(67,233,123, 0.2);   border-right: 1.1em solid rgba(67,233,123, 0.2);   border-bottom: 1.1em solid rgba(67,233,123, 0.2);   border-left: 1.1em solid #43e97b; } #spinner-326302be353a9632ecb2ae4e576eaeb6 { font-size: 9px; }</style>
+  <style>#spinner-263c03a65f0dbd307ce29502dd5eb31c {   border-top: 1.1em solid rgba(250,112,154, 0.2);   border-right: 1.1em solid rgba(250,112,154, 0.2);   border-bottom: 1.1em solid rgba(250,112,154, 0.2);   border-left: 1.1em solid #fa709a; } #spinner-263c03a65f0dbd307ce29502dd5eb31c { font-size: 9px; }</style>
+  <style>#spinner-3bc60cf0835ff6f488c277cfded1efcb {   border-top: 1.1em solid rgba(79,172,254, 0.2);   border-right: 1.1em solid rgba(79,172,254, 0.2);   border-bottom: 1.1em solid rgba(79,172,254, 0.2);   border-left: 1.1em solid #4facfe; } #spinner-3bc60cf0835ff6f488c277cfded1efcb { font-size: 9px; }</style>
+  <style>#spinner-85270828ed1e765bd82f1133236f45c0 {   border-top: 1.1em solid rgba(67,233,123, 0.2);   border-right: 1.1em solid rgba(67,233,123, 0.2);   border-bottom: 1.1em solid rgba(67,233,123, 0.2);   border-left: 1.1em solid #43e97b; } #spinner-85270828ed1e765bd82f1133236f45c0 { font-size: 9px; }</style>
+<script src="__assets__/sockjs.min.js"></script>
+<script src="__assets__/shiny-server-client.min.js"></script>
+<script>preShinyInit({reconnect:true,reconnectTimeout:15000,disableProtocols:["htmlfile","xdr-streaming","xdr-polling","websocket"],token:true,workerId:true,subappTag:true,extendSession:true,fixupInternalLinks:true});</script>
+<link rel="stylesheet" type="text/css" href="__assets__/rstudio-connect.css"/>
+</head>
+<body class="skin-blue" style="min-height: 611px;">
+<script type="text/javascript" src="/__static__/components/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+<script type="text/javascript" src="/__static__/frontend/scripts/shinyapps.frame.content.js"></script>
+<script type="text/javascript" src="/__static__/frontend/scripts/shinyapps.js"></script>
+  <div class="wrapper">
+    <header class="main-header">
+      <span class="logo"><span style='font-size: 2.8rem; text-align: left, font-weight: 700; font-family: Roboto, sans-serif;'>Lung Injury and Regeneration in Old and Young Mice</span></span>
+      <nav class="navbar navbar-static-top" role="navigation">
+        <span style="display:none;">
+          <i class="fas fa-bars" role="presentation" aria-label="bars icon"></i>
+        </span>
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <li class="dropdown"><img src='Overview_logos2.png' style='padding-top:5px;padding-right:20px;padding-bottom:5px;' height='60'/></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <aside id="sidebarCollapsed" class="main-sidebar" data-collapsed="false">
+      <section id="sidebarItemExpanded" class="sidebar">
+        <ul class="sidebar-menu" selected="about_page">
+          <li>
+            <a href="#shiny-tab-about_page" data-toggle="tab" data-value="about_page">
+              <i class="fas fa-circle-info" role="presentation" aria-label="circle-info icon"></i>
+              <span>About This Project</span>
+            </a>
+          </li>
+          <li>
+            <a href="#shiny-tab-tab1_whole_cell_type" data-toggle="tab" data-value="tab1_whole_cell_type">
+              <i class="fas fa-lungs" role="presentation" aria-label="lungs icon"></i>
+              <span>Lung Cell Type Signatures</span>
+            </a>
+          </li>
+          <li>
+            <a href="#shiny-tab-tab2_whole_lung_dge" data-toggle="tab" data-value="tab2_whole_lung_dge">
+              <i class="fas fa-chart-line" role="presentation" aria-label="chart-line icon"></i>
+              <span>Time Course Differential Expression</span>
+            </a>
+          </li>
+          <li>
+            <a href="#shiny-tab-tab3_cell_communication" data-toggle="tab" data-value="tab3_cell_communication">
+              <i class="far fa-comments" role="presentation" aria-label="comments icon"></i>
+              <span>Cell-Cell Communication</span>
+            </a>
+          </li>
+          <li>
+            <a href="#shiny-tab-tab4_cell_communication" data-toggle="tab" data-value="tab4_cell_communication">
+              <i class="fas fa-bullseye" role="presentation" aria-label="bullseye icon"></i>
+              <span>Targeted Cell-Cell Communication</span>
+            </a>
+          </li>
+          <hr style="margin: 15px 0; border-color: #E2E8F0;"/>
+          <div class="shiny-panel-conditional" data-display-if="input.tabs == &#39;tab1_whole_cell_type&#39;" data-ns-prefix="">
+            <div class="form-group shiny-input-container">
+              <label class="control-label" id="annotation_level-label" for="annotation_level">Annotation labels (for UMAP &amp; Dotplot):</label>
+              <div>
+                <select class="shiny-input-select form-control" id="annotation_level"><option value="meta" selected>meta</option>
+<option value="compartment">compartment</option>
+<option value="cell_type">cell_type</option></select>
+                <script type="application/json" data-for="annotation_level">{"maxOptions":3,"plugins":["selectize-plugin-a11y"]}</script>
+              </div>
+            </div>
+          </div>
+          <div class="shiny-panel-conditional" data-display-if="input.tabs == &#39;tab1_whole_cell_type&#39; || input.tabs == &#39;tab2_whole_lung_dge&#39;" data-ns-prefix="">
+            <div class="form-group shiny-input-container">
+              <label class="control-label" id="cell_type-label" for="cell_type">Query cell type: (for DGE Table 1 &amp; 2)</label>
+              <div>
+                <select id="cell_type" class="shiny-input-select"><option value="Airway_Epi" selected>Airway_Epi</option>
+<option value="Alveolar_Epi">Alveolar_Epi</option>
+<option value="B cells">B cells</option>
+<option value="Capillary ECs">Capillary ECs</option>
+<option value="DC">DC</option>
+<option value="Fibroblasts">Fibroblasts</option>
+<option value="Granulocytes">Granulocytes</option>
+<option value="Lymphatic ECs">Lymphatic ECs</option>
+<option value="Macrophages">Macrophages</option>
+<option value="Megakaryocytes">Megakaryocytes</option>
+<option value="Mesothelium">Mesothelium</option>
+<option value="Monocytes">Monocytes</option>
+<option value="NK">NK</option>
+<option value="Pericytes">Pericytes</option>
+<option value="Plasma cells">Plasma cells</option>
+<option value="SMC">SMC</option>
+<option value="T cells">T cells</option>
+<option value="Vascular ECs">Vascular ECs</option></select>
+                <script type="application/json" data-for="cell_type" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
+              </div>
+            </div>
+          </div>
+          <div class="shiny-panel-conditional" data-display-if="input.tabs == &#39;tab1_whole_cell_type&#39; || input.tabs == &#39;tab2_whole_lung_dge&#39;" data-ns-prefix="">
+            <div class="form-group shiny-input-container">
+              <label class="control-label" id="day-label" for="day">Query day: (for DGE Table 1 &amp; 2)</label>
+              <div>
+                <select class="shiny-input-select form-control" id="day"><option value="d0">d0</option>
+<option value="d3" selected>d3</option>
+<option value="d10">d10</option>
+<option value="d20">d20</option>
+<option value="d30">d30</option>
+<option value="d37">d37</option></select>
+                <script type="application/json" data-for="day">{"plugins":["selectize-plugin-a11y"]}</script>
+              </div>
+            </div>
+          </div>
+          <div class="shiny-panel-conditional" data-display-if="input.tabs == &#39;tab1_whole_cell_type&#39;" data-ns-prefix="">
+            <div class="form-group shiny-input-container">
+              <label class="control-label" id="condition-label" for="condition">Query condition (for DGE Table 2):</label>
+              <div>
+                <select id="condition" class="shiny-input-select"><option value="old">Old</option>
+<option value="young">Young</option></select>
+                <script type="application/json" data-for="condition" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
+              </div>
+            </div>
+          </div>
+          <div id="tabs" class="sidebarMenuSelectedTabItem" data-value="null"></div>
+        </ul>
+      </section>
+    </aside>
+    <div class="content-wrapper">
+      <section class="content">
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-about_page">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">About: Lung Injury and Regeneration Research</h3>
+                  </div>
+                  <div class="box-body">
+                    <div class="about-content" style="padding: 30px;">
+    <!-- Laboratory Logos -->
+    <div style="text-align: center; margin-bottom: 40px; padding: 30px; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 16px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+      <div style="display: flex; justify-content: center; align-items: center; gap: 4rem; flex-wrap: nowrap; max-width: 100%;">
+        <a href="https://www.helmholtz-munich.de/en/research/environmental-health-center/prm" target="_blank" style="text-decoration: none; position: relative; display: block;" class="logo-link">
+          <img 
+            src="PRM_logo.png" 
+            alt="Schiller Lab - Precision Regenerative Medicine at Helmholtz Munich" 
+            style="height: 180px; width: 180px; object-fit: contain; border-radius: 12px; background: white; padding: 15px; box-shadow: 0 6px 20px rgba(31,119,180,0.2); transition: transform 0.3s ease, box-shadow 0.3s ease; animation: fadeIn 1s ease-out;" 
+            loading="lazy">
+          <span class="logo-tooltip" style="position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); background: #1F77B4; color: white; padding: 8px 12px; border-radius: 8px; font-size: 0.9rem; white-space: nowrap; opacity: 0; transition: opacity 0.3s ease;">Schiller Lab</span>
+        </a>
+        <a href="https://www.uni-marburg.de/en/fb20/departments/ciii/lung-research/research/lehmann-lab_folder" target="_blank" style="text-decoration: none; position: relative; display: block;" class="logo-link">
+          <img 
+            src="LI_logo_hq.png" 
+            alt="Lehmann Lab - Lung Inflammaging at University of Marburg and Helmholtz Munich" 
+            style="height: 180px; width: 180px; object-fit: contain; border-radius: 12px; background: white; padding: 15px; box-shadow: 0 6px 20px rgba(31,119,180,0.2); transition: transform 0.3s ease, box-shadow 0.3s ease; animation: fadeIn 1s ease-out 0.2s;" 
+            loading="lazy">
+          <span class="logo-tooltip" style="position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); background: #1F77B4; color: white; padding: 8px 12px; border-radius: 8px; font-size: 0.9rem; white-space: nowrap; opacity: 0; transition: opacity 0.3s ease;">Lehmann Lab</span>
+        </a>
+        <a href="https://www.dbmr.unibe.ch/research/research_programs/gote_schniering_lab/index_eng.html" target="_blank" style="text-decoration: none; position: relative; display: block;" class="logo-link">
+          <img 
+            src="GS_logo_hq.jpg" 
+            alt="Gote-Schniering Lab - Lung Precision Medicine at University of Bern" 
+            style="height: 180px; width: 180px; object-fit: contain; border-radius: 12px; background: white; padding: 15px; box-shadow: 0 6px 20px rgba(31,119,180,0.2); transition: transform 0.3s ease, box-shadow 0.3s ease; animation: fadeIn 1s ease-out 0.4s;" 
+            loading="lazy">
+          <span class="logo-tooltip" style="position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); background: #1F77B4; color: white; padding: 8px 12px; border-radius: 8px; font-size: 0.9rem; white-space: nowrap; opacity: 0; transition: opacity 0.3s ease;">Gote-Schniering Lab</span>
+        </a>
+      </div>
+    </div>
+
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .logo-link:hover img { 
+        transform: scale(1.05); 
+        box-shadow: 0 10px 30px rgba(31,119,180,0.4); 
+      }
+      .logo-link:hover .logo-tooltip { 
+        opacity: 1; 
+      }
+      .logo-link:focus img { 
+        transform: scale(1.05); 
+        box-shadow: 0 10px 30px rgba(31,119,180,0.4); 
+        outline: 2px solid #1F77B4; 
+        outline-offset: 4px;
+      }
+      @media (max-width: 1024px) {
+        .logo-link img { height: 150px; width: 150px; }
+        .logo-link { gap: 2rem; }
+      }
+      @media (max-width: 768px) {
+        .logo-container { 
+          flex-direction: column; 
+          gap: 2rem; 
+        }
+        .logo-link img { height: 140px; width: 140px; }
+      }
+    </style>
+    
+    <h2 style="color: #1F77B4; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem;">Abstract</h2>
+    <p style="text-align: justify; line-height: 1.8;">
+      Aging impairs the regenerative capacity of mammalian organs and is a major risk factor for chronic lung disease. The causalities for persistent fibrosis after lung injury in old individuals have been unclear. We used longitudinal single-cell RNA-seq after lung injury and dissected aging effects computationally and experimentally at baseline and during repair. In old mice, sustained fibroblast activation in the resolution phase of repair was associated with prolonged cellular senescence and persistent epithelial-mesenchymal crosstalk. Single-cell interpretable tensor decomposition analysis identified the strongest link of aging with T/B-lymphocytes and macrophages. A Gzmk-high CD8-T cell state was unique to aged mice, co-localized with progenitors, and its co-culture or Gzmk treatments in lung organoids reduced progenitor function by induction of stem cell senescence. In summary, our study highlights effects of immune aging on progenitor function and provides a high resolution map of a lung regeneration time course in the context of aging.
+    </p>
+    
+    <h2 style="color: #1F77B4; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem;">Dataset Description</h2>
+    <p style="text-align: justify; line-height: 1.8;">
+      This dataset was generated using longitudinal single-cell RNA sequencing to study lung injury and regeneration in young versus aged mice. The experimental design included:
+    </p>
+    <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #1F77B4;">Animal Model:</strong> Young (12-weeks-old) and aged (18-months-old) female and male C57BL/6J mice</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #1F77B4;">Injury Model:</strong> Oropharyngeal instillation of bleomycin sulphate (2U/kg) to induce lung injury and fibrosis</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #1F77B4;">Time Course:</strong> Longitudinal sampling at days 0, 3, 10, 20, 30, and 37 post-bleomycin injury</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #1F77B4;">Methodology:</strong> Drop-seq based single-cell RNA sequencing with microfluidic droplet encapsulation</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #1F77B4;">Cell Processing:</strong> Single-cell suspensions generated using enzymatic digestion with dispase, collagenase, elastase, and DNase</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #1F77B4;">Data Processing:</strong> Quality control, doublet removal, ambient RNA correction, and hierarchical cell type annotation</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #1F77B4;">Cell Types:</strong> Comprehensive annotation including epithelial, stromal, endothelial, and immune cell populations</li>
+    </ul>
+    <p style="text-align: justify; line-height: 1.8;">
+      The dataset provides a high-resolution map of cellular dynamics during lung regeneration, enabling detailed comparison of repair processes between young and aged lungs across multiple timepoints.
+    </p>
+    
+    <h2 style="color: #1F77B4; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem;">How To Use This Shiny App?</h2>
+    <div style="text-align: center; margin: 2rem 0;">
+      <iframe 
+        width="800" height="600"
+        style="display: block; margin: 0 auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
+        src="https://www.youtube.com/embed/X3j85CMKCWo"
+        title="Research Overview"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    
+    <h2 style="color: #1F77B4; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem;">Research Groups</h2>
+    
+    <h3 style="color: #1F77B4; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.8rem;">Schiller Lab - Research Unit for Precision Regenerative Medicine</h3>
+    <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Institution:</strong> Helmholtz Munich
+      </li>
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Website:</strong> <a href="https://www.helmholtz-munich.de/en/research/environmental-health-center/prm" target="_blank" style="color: #1F77B4; text-decoration: none;">Precision Regenerative Medicine Group</a>
+      </li>
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Principal Investigator:</strong> Prof. Dr. Herbert Schiller
+      </li>
+    </ul>
+    
+    <h3 style="color: #1F77B4; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.8rem;">Lehmann Lab - Lung Inflammaging</h3>
+    <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Institution 1:</strong> University of Marburg – Institute for Lung Research
+      </li>
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Website 1:</strong> <a href="https://www.uni-marburg.de/en/fb20/departments/ciii/lung-research/research/lehmann-lab_folder" target="_blank" style="color: #1F77B4; text-decoration: none;">Marburg Lehmann Lab</a>
+      </li>
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Institution 2:</strong> Helmholtz Munich - Institute of Lung Health and Immunity
+      </li>
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Website 2:</strong> <a href="https://www.helmholtz-munich.de/en/research/environmental-health-center/lhi/research-groups/lehmann-lab" target="_blank" style="color: #1F77B4; text-decoration: none;">Munich Lehmann Lab</a>
+      </li>
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Principal Investigator:</strong> Prof. Dr. Mareike Lehmann
+      </li>
+    </ul>
+    
+    <h3 style="color: #1F77B4; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.8rem;">Gote-Schniering Lab - Lung Precision Medicine</h3>
+    <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Institution:</strong> University of Bern - Department for BioMedical Research (DBMR)
+      </li>
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Website:</strong> <a href="https://www.dbmr.unibe.ch/research/research_programs/gote_schniering_lab/index_eng.html" target="_blank" style="color: #1F77B4; text-decoration: none;">Gote-Schniering Lab</a>
+      </li>
+      <li style="margin-bottom: 0.5rem;">
+        <strong>Principal Investigator:</strong> Dr. Janine Gote-Schniering
+      </li>
+    </ul>
+
+    
+    <hr style="border: none; height: 2px; background: #E2E8F0; margin: 2rem 0;">
+    
+    <h2 style="color: #1F77B4; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem;">Credits</h2>
+    <p style="text-align: justify; line-height: 1.8;">
+      <strong style="color: #1F77B4;">Application Development:</strong><br>
+      This application was developed by <a href="https://www.linkedin.com/in/prakki-sai-rama-sridatta-data/" target="_blank" rel="noopener noreferrer" style="color: #1F77B4; text-decoration: none; font-weight: 600;">Sai Rama Sridatta Prakki</a> using Shiny for R. 
+    </p>
+    <p style="text-align: justify; line-height: 1.8;">
+      <strong style="color: #1F77B4;">Institution:</strong><br>
+      Schiller/Theis Lab | © 2025 Helmholtz Zentrum München
+    </p>
+    
+    <hr style="border: none; height: 2px; background: #E2E8F0; margin: 2rem 0;">
+    
+    <h2 style="color: #1F77B4; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem;">Disclaimer</h2>
+    <p style="text-align: justify; line-height: 1.8; color: #4A5568;">
+      The data presented here is for demonstration purposes only. For suggestions, questions or collaboration requests, please contact Prof. Dr. Herbert Schiller at <a href="mailto:herbert.schiller@helmholtz-munich.de" style="color: #1F77B4; text-decoration: none;">herbert.schiller@helmholtz-munich.de</a> or Prof. Dr. Mareike Lehmann at 
+      <a href="mailto:mareike.lehmann@uni-marburg.de" style="color: #1F77B4; text-decoration: none;">mareike.lehmann@uni-marburg.de</a> or 
+      <a href="mailto:mareike.lehmann@helmholtz-munich.de" style="color: #1F77B4; text-decoration: none;">mareike.lehmann@helmholtz-munich.de</a>.
+    </p>
+    <p style="text-align: justify; line-height: 1.8; color: #4A5568;">
+      The results may not be a clear reproduction of the original publication.
+    </p>
+  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-tab1_whole_cell_type">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">UMAP Visualization</h3>
+                    <div class="box-tools pull-right">
+                      <button class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fas fa-minus" role="presentation" aria-label="minus icon"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="box-body">
+                    <div data-spinner-id="spinner-7f44c435ddda5b178e02b3b1e1f3f8cc" class="shiny-spinner-output-container shiny-spinner-hideui">
+                      <div class="load-container shiny-spinner-hidden load8">
+                        <div id="spinner-7f44c435ddda5b178e02b3b1e1f3f8cc" class="loader">Loading...</div>
+                      </div>
+                      <div class="shiny-plot-output html-fill-item" id="umapPlot" style="width:100%;height:700px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">Dot Plot Visualization</h3>
+                    <div class="box-tools pull-right">
+                      <button class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fas fa-minus" role="presentation" aria-label="minus icon"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="box-body">
+                    <div style="height: 700px; overflow-y: scroll; border: 1px solid #ddd;">
+                      <div data-spinner-id="spinner-4e76a568a70aef80f8d531847b0b06dc" class="shiny-spinner-output-container shiny-spinner-hideui">
+                        <div class="load-container shiny-spinner-hidden load8">
+                          <div id="spinner-4e76a568a70aef80f8d531847b0b06dc" class="loader">Loading...</div>
+                        </div>
+                        <div class="shiny-plot-output html-fill-item" id="dotPlot" style="width:100%;height:700px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">Differential Expression Table (Meta Annotation; Select a gene to update the plots)</h3>
+                    <div class="box-tools pull-right">
+                      <button class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fas fa-minus" role="presentation" aria-label="minus icon"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="box-body">
+                    <div data-spinner-id="spinner-326302be353a9632ecb2ae4e576eaeb6" class="shiny-spinner-output-container shiny-spinner-hideui">
+                      <div class="load-container shiny-spinner-hidden load8">
+                        <div id="spinner-326302be353a9632ecb2ae4e576eaeb6" class="loader">Loading...</div>
+                      </div>
+                      <div class="datatables html-widget html-widget-output shiny-report-size html-fill-item" id="degTable" style="width:100%;height:700px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">Bleomycin Analysis Results</h3>
+                    <div class="box-tools pull-right">
+                      <button class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fas fa-minus" role="presentation" aria-label="minus icon"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="box-body">
+                    <div data-spinner-id="spinner-263c03a65f0dbd307ce29502dd5eb31c" class="shiny-spinner-output-container shiny-spinner-hideui">
+                      <div class="load-container shiny-spinner-hidden load8">
+                        <div id="spinner-263c03a65f0dbd307ce29502dd5eb31c" class="loader">Loading...</div>
+                      </div>
+                      <div class="datatables html-widget html-widget-output shiny-report-size html-fill-item" id="degTable_bleo" style="width:100%;height:700px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-tab2_whole_lung_dge">
+            <div class="row">
+              <div class="col-sm-9">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">Time Course Expression Profile</h3>
+                    <div class="box-tools pull-right">
+                      <button class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fas fa-minus" role="presentation" aria-label="minus icon"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="box-body">
+                    <div data-spinner-id="spinner-3bc60cf0835ff6f488c277cfded1efcb" class="shiny-spinner-output-container shiny-spinner-hideui">
+                      <div class="load-container shiny-spinner-hidden load8">
+                        <div id="spinner-3bc60cf0835ff6f488c277cfded1efcb" class="loader">Loading...</div>
+                      </div>
+                      <div class="shiny-plot-output html-fill-item" id="timeCoursePlot" style="width:100%;height:700px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">Differential Expression Table (Select a gene to update the plot)</h3>
+                    <div class="box-tools pull-right">
+                      <button class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fas fa-minus" role="presentation" aria-label="minus icon"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="box-body">
+                    <div data-spinner-id="spinner-85270828ed1e765bd82f1133236f45c0" class="shiny-spinner-output-container shiny-spinner-hideui">
+                      <div class="load-container shiny-spinner-hidden load8">
+                        <div id="spinner-85270828ed1e765bd82f1133236f45c0" class="loader">Loading...</div>
+                      </div>
+                      <div class="datatables html-widget html-widget-output shiny-report-size html-fill-item" id="degTable_timeCourse" style="width:100%;height:700px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-tab3_cell_communication">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">Interactive Cell-Cell Communication Analysis</h3>
+                  </div>
+                  <div class="box-body">
+                    <iframe style="height:2000px; width:100%; border:none; border-radius:16px;" src="https://hschillerlabshiny.shinyapps.io/BleoAging_Meta_Connectome/"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-tab4_cell_communication">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="box box-solid box-primary">
+                  <div class="box-header">
+                    <h3 class="box-title">Interactive Targeted Cell-Cell Communication Analysis</h3>
+                  </div>
+                  <div class="box-body">
+                    <iframe style="height:2000px; width:100%; border:none; border-radius:16px;" src="https://hschillerlabshiny.shinyapps.io/BleAging_Targeted_Connectome/"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

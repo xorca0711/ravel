@@ -1,0 +1,64 @@
+{
+  "status": "started",
+  "started_utc": "2026-09-28T11:19:16.030859+00:00",
+  "specification_commit": "e1d46b4f68453eedde9166f11b772576462a9f6d",
+  "specification_sha256": "708af192e40d59f89314fe5635fb5ab82c8658e2bd7134e7511a5bc0e972c31d",
+  "exclusion_sha256": "4448401b0d254840945f16495c4588ea2980e81d4d071065ee4934395428b5e5",
+  "script_sha256": "de5fa8a36cdfadd11738f3ed6274bbf41d772e2f836bd7cb6d8898b4fe04a9e4",
+  "helper_sha256": "6ade24b07bd8c898604e9a714c3f2411b66284c4ba90dc8a492a4a245e4dfbcf",
+  "inputs": {
+    "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890835_Expt1_2wRFPr1_matrix.mtx.gz": {
+      "sha256": "460e0c0103f6571d72bdb907ec3053f93a378f1eea4dae2e0e36f9be3cc37f9e",
+      "bytes": 57244058
+    },
+    "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890835_Expt1_2wRFPr1_features.tsv.gz": {
+      "sha256": "2f99761e01d018cd7b572a93009b2efe2043378d2c1bb2e11d128f9862097e94",
+      "bytes": 279361
+    },
+    "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890835_Expt1_2wRFPr1_barcodes.tsv.gz": {
+      "sha256": "242ea7ffc2c453ad3b41dbaec0ea21cc3aa836d342a689a22393c63af5e01ad2",
+      "bytes": 25854
+    },
+    "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890836_Expt1_2wRFPr2_matrix.mtx.gz": {
+      "sha256": "54b89787500fd8bcc3231b633944d84ec2f53ca72390ab08211bffe5af21a621",
+      "bytes": 42170324
+    },
+    "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890836_Expt1_2wRFPr2_features.tsv.gz": {
+      "sha256": "bbde36380bb036b4325cf444e9c83601891b504e56505eecf7a6280d7fed41fe",
+      "bytes": 279361
+    },
+    "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890836_Expt1_2wRFPr2_barcodes.tsv.gz": {
+      "sha256": "7450308e6ff996e56016f92ae20c0da15300c52035beaa339ba6baf96776b38f",
+      "bytes": 23675
+    },
+    "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\processed\\continuation\\cells_table.csv.gz": {
+      "sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78",
+      "bytes": 11168082
+    }
+  },
+  "original_stage1_hashes": {
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C1_neighbourhood_matched.csv": "a1313e66e93adf7dc3e41474e5a93d14f01e0556817474862e202485f7b58454",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C2_resolution_ladder.csv": "431245682217d734e3781b23b433d31c28e6866d354abc779f49757842262a2b",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C3_control_gene_detail.csv": "81fa430623527696701d13115666e428a4d5ce596c74ad90efdf331738a41182",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C3_matched_gene_null.csv": "6ce26899b0f051125e60791a4146237e2ebe8f7f384e45b99cc91eb3c381c612",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C4_ambient_neutrophil_control.csv": "5d7383acd8b08dafbf6262278950b17ddf8c29786a9d43f8cee677b9582c4e61",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C5_threshold_sensitivity.csv": "d813507247e4a78d11c85baecdf1f849f7c0de6b0b6912ed5a7f4501b0da9af1",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/run_record.json": "0130a93d8716bf99533609e89dc09d565d819edcf0c72a3792e3e032e34075da",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/run_record_c1_c2_c5.json": "49e1134b8b10c7bfbfce617be2c283d77aede0a6becc388a4a64be2364241ff6",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/started.json": "509a343000010778da16ca44512935ec2830700b63d0d254ee11836ae6aa7c27",
+    "RQ_Specified/A16_cd177_state_attribution/tables/stage1/started_c1_c2_c5.json": "5a3ee6953f3ff1a7bde71f7c17c6e5c677f9ec4af9c16874f15d5c7d7b45a31a",
+    "RQ_Specified/A16_cd177_state_attribution/config/a16_question_contract.json": "61e3f7025657721eecd45e7fb78b84f1ed99fce00b15cea4b44d8a1e27d65481",
+    "RQ_Specified/A16_cd177_state_attribution/scripts/01_stage1_c3_c4.py": "689fc0b6308bb14bf99faae5d0736c9f6ad36d42098ea7e383f6ee04564d785d",
+    "RQ_Specified/A16_cd177_state_attribution/scripts/02_stage1_c1_c2_c5.py": "132ae13848fd40c559ff7b555482af160766435a46d6186b0878b570e3c6304a",
+    "RQ_Specified/A16_cd177_state_attribution/reports/STAGE1_RESULTS.md": "43a468d1231b28fe6c29bf0a90b25c43309deff9108ced435c98f824b1305d29",
+    "RQ_Specified/A16_cd177_state_attribution/reports/STAGE1_ERRATUM.md": "f74366cda8c141bd974d830068706b425d4e85422ddd810bda0ac3d13a9e5b93"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "pandas": "2.3.3"
+  },
+  "libraries": {},
+  "biological_units_available": 0,
+  "formal_inference": false
+}
