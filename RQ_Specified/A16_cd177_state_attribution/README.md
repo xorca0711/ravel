@@ -17,6 +17,7 @@ address alternative explanations for an RNA association; persistence,
 CD177-specific function and growth potential need independent outcomes.
 
 **Read first:** [question card](../../RESEARCH_QUESTIONS.md#a16),
+[rationale amendment of 28 September 2026](RATIONALE.md#amendment-28-september-2026-the-rationale-as-successive-evidence-states),
 [plan](PLAN.md), [integration review](reports/INTEGRATION_REVIEW.md),
 [corrected C1 result](correction_20260928/reports/CORRECTED_C1_REPORT.md).
 
@@ -33,6 +34,15 @@ now preserves the original population per library and excludes tested genes
 before neighbourhood construction. Priming differences attenuate but remain
 positive; substantial residual imbalance and other biological limits remain.
 This completes the bounded computational correction, with original Stage 1 intact.
+
+**Rationale amended, 28 September 2026.** The Stage 0 text in [RATIONALE.md](RATIONALE.md)
+is preserved unedited and followed by a dated amendment that restates the
+question as *what can be attributed to a CD177-associated priming RNA phenotype
+within comparable mutant transitional cells, and what remains unresolved about
+state mixture, detection and contamination*. It records four successive evidence
+states and a claim-by-claim ledger of which original statements the integration
+review and corrected C1 superseded or qualified. No analysis, claim row or grade
+changed; the frozen contract and erratum are untouched.
 
 ## What has run
 
@@ -61,7 +71,8 @@ executed during branch integration.
 | [Current integration review](reports/INTEGRATION_REVIEW.md) | Current interpretation and unresolved comparisons |
 | [Original Stage 1 results](reports/STAGE1_RESULTS.md) | Historical numerical report; stronger interpretations superseded |
 | [Population erratum](reports/STAGE1_ERRATUM.md) | Pre-execution two-arm amendment |
-| [Original rationale](RATIONALE.md), [plan](PLAN.md), [contract](config/a16_question_contract.json) | Preserved planning history; original premises/status are not the current verdict |
+| [Rationale](RATIONALE.md): Stage 0 text plus dated amendment | Stage 0 premises preserved as history; the amendment is the current argument and ledger |
+| [Plan](PLAN.md), [contract](config/a16_question_contract.json) | Preserved planning history; original status lines are not the current verdict |
 | [Public-data search](reports/PUBLIC_DATA_SEARCH.md) | Dated search boundaries |
 | [Verification record](reports/INTEGRATION_VALIDATION.json), [verifier](scripts/verify_stage1_evidence.py) | Lightweight provenance and table checks; no raw-data replay |
 

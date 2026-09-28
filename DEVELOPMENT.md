@@ -1643,3 +1643,15 @@ or stopping rule. The [proposal](docs/audits/2026-09-28-rq-development-proposal/
 does not implement its candidate hypotheses or organizational recommendations.
 Publication of this planning document does not imply scientific acceptance;
 its contingent analyses remain proposed work subject to their evidence gates.
+
+## 28 September 2026: amend the A16 rationale to match later evidence
+
+The owner adopted the combined proposal's first item and asked for A16 first.
+Claude Science appended a dated amendment to A16's rationale rather than
+rewriting the Stage 0 text, so the original premises remain readable as
+planning history. The amendment adopts the proposal's question wording inside
+the workspace, records four evidence states and a claim-by-claim ledger, and
+carries forward the integration review's boundaries. The frozen contract was
+deliberately left unedited because CI hash-verifies it. This is an
+owner-authorized documentation change; the register card, readiness row,
+claim grades and the pending A16 retain/reject decision are unchanged.
