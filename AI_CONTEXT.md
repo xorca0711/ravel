@@ -1,5 +1,21 @@
 # AI context
 
+## Current article navigation, 28 September 2026
+
+Start with the [article index](Research%20Article/README.md#studies-with-executed-analyses).
+England's README is now an overview. Its EVIDENCE_REVIEW.md separates published
+evidence, our analyses and current limitations; FIGURES.md carries all 15
+original images and their current captions. The source audit and A16 integration
+review remain the underlying interpretation authorities. Archived image titles
+and original result reports can contain superseded claims: read the new caption
+before reusing them. RNA libraries, nonspatial mice and pooled spatial rows are
+different units. Do not infer functional validation from an RNA score.
+
+Sibling paper pages link to existing evidence reports; the navigation pass did
+not audit every historical claim anew. The machine-readable England roadmap
+entry now includes all three paper-analysis stages. Figure hashes, frozen
+reports, protocols, scripts, data and registered grades are unchanged.
+
 ## Current A16 integration authority, 28 September 2026
 
 The previously separate A16 Stage 0/1 work is now integrated. Read its

@@ -40,6 +40,36 @@ reproducible parts.
 programmes distinguish productive lung repair from persistent dysplastic
 remodelling after inflammatory injury?
 
+## Studies with executed analyses
+
+Start with a study overview, then use its evidence report and gallery. Source
+paper findings, repository reanalyses and proposed research questions are
+different evidence layers. The [claim register](../CLAIMS.md) retains formal
+decisions; the [question register](../RESEARCH_QUESTIONS.md) holds shared RQs.
+An executed analysis does not mean every biological question is resolved or
+that a study note has been accepted. Each overview states its limits.
+
+<a id="figure-galleries"></a>
+
+| Study and biological context | Analysis claims and evidence | Figures |
+|---|---|---|
+| [Niethamer 2025: viral injury and repair](gate1_01_niethamer_2025/README.md) | [Atlas report](gate1_01_niethamer_2025/GSE262927/README.md); [follow-up outcomes](gate1_01_niethamer_2025/ANALYSIS_TRIAL_PLAN.md) | [Gallery](gate1_01_niethamer_2025/README.md#figure-gallery) |
+| [Choi 2020: AT2–DATP–AT1 transition](gate1_02_choi_2020/README.md) | [Trial outcomes](gate1_02_choi_2020/ANALYSIS_TRIAL_PLAN.md); [follow-up branches](gate1_02_choi_2020/README.md#branches-of-this-paper) | [State maps and branch galleries](gate1_02_choi_2020/README.md#figure-gallery) |
+| [Nabhan 2018: Wnt niche biology](gate1_03_nabhan_2018/README.md) | [Findings and limits](gate1_03_nabhan_2018/README.md#findings-that-motivate-research-questions); [animal-level report](gate1_03_nabhan_2018/nb1/README.md) | [Gallery](gate1_03_nabhan_2018/README.md#figure-gallery) |
+| [Sikkema 2023: lung reference annotation](gate1_04_sikkema_2023_hlca/README.md) | [S1–S5 outcomes](gate1_04_sikkema_2023_hlca/ANALYSIS_TRIAL_PLAN.md); [interpretation framework](gate1_04_sikkema_2023_hlca/PIPELINE_FRAMING.md) | [Gallery](gate1_04_sikkema_2023_hlca/README.md#figure-gallery) |
+| [Cardoso 2026: tumour-associated niches](gate2_05_cardoso_2026/README.md) | [Analysis sequence](gate2_05_cardoso_2026/ANALYSIS_TRIAL_PLAN.md); [current ligand correction](../analysis/corrections/ligand/README.md) | [Gallery](gate2_05_cardoso_2026/README.md#figure-gallery) |
+| [England 2025: mutant AT2 states and clone growth](gate2_C2_england_2025/README.md) | [Current claims and evidence review](gate2_C2_england_2025/EVIDENCE_REVIEW.md) | [15 figures by biological question](gate2_C2_england_2025/FIGURES.md) |
+| [Yu, Lee, Choi_Min 2026: IL-1beta and niches](gate2_C3_yu_lee_choi_min_2026/README.md) | [Current evidence review](gate2_C3_yu_lee_choi_min_2026/EVIDENCE_REVIEW.md); [completion register](gate2_C3_yu_lee_choi_min_2026/WORK_PACKAGES.md) | [Gallery](gate2_C3_yu_lee_choi_min_2026/README.md#figure-gallery) |
+| [Murthy 2022: healthy human distal-lung atlas](ungated_murthy_2022/README.md) | [Generated atlas report](ungated_murthy_2022/GSE178360/README.md); deposit analysed, roadmap study note not written | [Gallery](ungated_murthy_2022/README.md#figure-gallery) |
+
+The [epithelial-state specificity module](epithelial_state_specificity/README.md)
+is a cross-study analysis, with its own [results](epithelial_state_specificity/results/SUMMARY.md)
+and [figure](epithelial_state_specificity/README.md#figure-gallery).
+Choi's [chromatin](gate1_02_choi_2020/datp_epigenetics/README.md#figure-gallery)
+and [Axin2/Il1r1](gate1_02_choi_2020/axin2_il1r1/README.md#figure-gallery)
+branches retain their separate galleries. Papers without executed analyses
+remain in the roadmap below.
+
 ## Order and status
 
 | # | Gate | Paper | DOI | PMID | Role in the roadmap | Folder | Study note | Analysis trial |
@@ -49,7 +79,7 @@ remodelling after inflammatory injury?
 | 3 | 1 | Nabhan et al. 2018, *Science* | [10.1126/science.aam6603](https://doi.org/10.1126/science.aam6603) | 29420258 | fibroblast Wnt niches maintain AT2 stemness; niche exit permits AT1 differentiation | [`gate1_03_nabhan_2018/`](gate1_03_nabhan_2018/README.md) | owner completed reading 2026-09-22; notes remain private | Source reproduction, descriptive Nb1 and external cohort eligibility: [analysis report](gate1_03_nabhan_2018/README.md) |
 | 4 | 1 | Sikkema et al. 2023, *Nature Medicine* (HLCA) | [10.1038/s41591-023-02327-2](https://doi.org/10.1038/s41591-023-02327-2) | 37291214 | reference framework: annotation hierarchy, reference mapping, uncertainty handling, donor coverage, shared profibrotic macrophage states | [`gate1_04_sikkema_2023_hlca/`](gate1_04_sikkema_2023_hlca/README.md) | done, owner review pending | S1 to S5 run (Descriptive only); see [`ANALYSIS_TRIAL_PLAN.md`](gate1_04_sikkema_2023_hlca/ANALYSIS_TRIAL_PLAN.md) |
 | 5 | 2C | Cardoso, Lee et al. 2026, *Nature* | [10.1038/s41586-026-10399-6](https://doi.org/10.1038/s41586-026-10399-6) | 42020743 | early fibrotic niches; regenerative-like mutant AT2 states coordinate fibroblast and immune remodelling through AREG-EGFR | [`gate2_05_cardoso_2026/`](gate2_05_cardoso_2026/README.md) | done, owner review pending | C0 to C6 plus the E series run 2026-09-12 and 2026-09-13; Gate 1 returned **not recovered**, and six extension trials left this deposit for public data because it carries no within-group replication. Later annotation/depth and resource audits revise the earlier E1 interpretation; use the current [claims](../CLAIMS.md) and [correction report](../analysis/corrections/ligand/README.md). The historical trial sequence is in: [`ANALYSIS_TRIAL_PLAN.md`](gate2_05_cardoso_2026/ANALYSIS_TRIAL_PLAN.md) |
-| 12 | 2C | England et al. 2025, *Cell Stem Cell* | [10.1016/j.stem.2025.01.011](https://doi.org/10.1016/j.stem.2025.01.011) | 39978341 | NF-kappaB feedback, Il1r1 reprogramming, mutant-WT context and clone distributions; two pooled-lung sequencing experiments | [`gate2_C2_england_2025/`](gate2_C2_england_2025/README.md) | owner read confirmed 2026-09-27; synthesis prepared | [First analysis batch and four figures](gate2_C2_england_2025/RESULTS_BATCH1.md) complete; 20 RNA libraries and clonal distribution analyses; exact source labels, pool identities and external validation remain open |
+| 12 | 2C | England et al. 2025, *Cell Stem Cell* | [10.1016/j.stem.2025.01.011](https://doi.org/10.1016/j.stem.2025.01.011) | 39978341 | NF-kappaB feedback, Il1r1 reprogramming, mutant-WT context and clone distributions; two pooled-lung sequencing experiments | [`gate2_C2_england_2025/`](gate2_C2_england_2025/README.md) | owner read confirmed 2026-09-27; synthesis prepared | Batch 1, continuation and follow-up complete; A16 Stage 1 integrated. Read the [current evidence review](gate2_C2_england_2025/EVIDENCE_REVIEW.md) and [15-figure gallery](gate2_C2_england_2025/FIGURES.md); source labels/pool identities, attribution and independent functional validation remain unresolved |
 | 13 | 2C | Yu, Lee, Choi_Min and Choi 2026, *Seminars in Immunology* (review) | [10.1016/j.smim.2026.102050](https://doi.org/10.1016/j.smim.2026.102050) | 42497497 | review-motivated IL-1beta perturbation, state specificity and niche-context questions | [`gate2_C3_yu_lee_choi_min_2026/`](gate2_C3_yu_lee_choi_min_2026/README.md) | owner read; synthesis prepared; staged execution authorized 2026-09-24 | [feasible analyses complete](gate2_C3_yu_lee_choi_min_2026/EVIDENCE_REVIEW.md): IPF, early mouse, human, spatial/context and specificity; remaining endpoints gated; shared questions A11–A14 |
 | 6 | 2N | Nabhan et al. 2023, *Cell* | [10.1016/j.cell.2023.05.022](https://doi.org/10.1016/j.cell.2023.05.022) | 37321220 | Frizzled-specific Wnt agonists separate regeneration from fibrotic risk; receptor-specific Wnt modules | queued after paper 3 (re-ranking 2026-09-15) | not started | not started |
 | 14 | 2N | Nabhan et al. 2026, *PNAS* | [10.1073/pnas.2606113123](https://doi.org/10.1073/pnas.2606113123) | 42418498 | an alveolosphere screen of 201 genes with chimeric RNA-seq of stem-cell effects on the fibroblast niche | not started | not started | not started |
@@ -60,24 +90,6 @@ remodelling after inflammatory injury?
 | 9 | 3B | DuPage et al. 2015, *Immunity* | [10.1016/j.immuni.2015.01.007](https://doi.org/10.1016/j.immuni.2015.01.007) | 25680271 | Ezh2 maintains regulatory T cell identity after activation | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started | not started |
 | 10 | 3B | Wang et al. 2018, *Cell Reports* | [10.1016/j.celrep.2018.05.050](https://doi.org/10.1016/j.celrep.2018.05.050) | 29898397 | targeting EZH2 reprograms intratumoral Tregs | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started | not started |
 | 11 | 3B | Zhang et al. 2026, *Science Immunology* | [10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411) | 41961946 | intratumoral Treg ablation elicits NK-mediated control | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started | not started |
-
-## Figure galleries
-
-The paper pages now bring existing analysis figures together with their
-interpretive limits: [Niethamer](gate1_01_niethamer_2025/README.md#figure-gallery),
-[Choi](gate1_02_choi_2020/README.md#figure-gallery),
-[Nabhan](gate1_03_nabhan_2018/README.md#figure-gallery),
-[Sikkema](gate1_04_sikkema_2023_hlca/README.md#figure-gallery),
-[Cardoso](gate2_05_cardoso_2026/README.md#figure-gallery),
-[England](gate2_C2_england_2025/README.md#figure-gallery),
-[Yu, Lee, Choi_Min](gate2_C3_yu_lee_choi_min_2026/README.md#figure-gallery) and
-[Murthy](ungated_murthy_2022/README.md#figure-gallery).
-Choi's [chromatin](gate1_02_choi_2020/datp_epigenetics/README.md#figure-gallery)
-and [Axin2/Il1r1](gate1_02_choi_2020/axin2_il1r1/README.md#figure-gallery)
-branches have their own galleries; the
-[cross-study specificity report](epithelial_state_specificity/README.md)
-already embeds its evidence figure. Papers without an executed analysis have
-no result gallery.
 
 The `#` is a stable identifier assigned when a paper enters the roadmap, and
 folder names normally carry it; the owner-selected Yu folder uses 2C item 3

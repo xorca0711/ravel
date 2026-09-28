@@ -1,5 +1,16 @@
 # Study note: Cardoso, Lee et al. 2026, Early fibrotic niches establish tumour-permissive microenvironments
 
+## Read this study
+
+| To understand | Read |
+|---|---|
+| Paper context and biological question | [Study context](#study-context); [source cascade and evidence](#source-context) |
+| Analysis results, claims and limitations | [Analysis sequence](ANALYSIS_TRIAL_PLAN.md); [current ligand correction](../../analysis/corrections/ligand/README.md); [divergences](DIVERGENCES_AND_NEXT.md) |
+| Figures and captions | [Ligand sources, sensitivity and coverage](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
 Roadmap position: **Gate 2, branch 2C (the Choi axis), paper 5** in the ordered paper roadmap of
 [`Research Article/README.md`](../README.md),
 entered ahead of papers 2, 3 and 6 on the owner's instruction. The paper is a
@@ -85,6 +96,8 @@ Details: [ligand correction report](../../analysis/corrections/ligand/RESULTS.md
 Also available: [injury-only comparison](trials/e5_figure_for_the_refutation/e5_retention_against_injury.png),
 which removes tumour specificity from the Runx1/Pdgfrb persistence observation;
 it does not identify the complete causal pathway behind that persistence.
+
+<a id="source-context"></a>
 
 ## 0. Reading workflow (the five questions the roadmap requires)
 

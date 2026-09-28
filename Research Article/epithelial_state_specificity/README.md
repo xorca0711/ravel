@@ -1,5 +1,16 @@
 # Epithelial-state specificity
 
+## Read this analysis
+
+| To understand | Read |
+|---|---|
+| Biological context and cross-study question | [Cross-study question](#study-context); [frozen plan](PLAN.md) |
+| Analysis results, claims and limitations | [Generated results and limits](results/SUMMARY.md); [measurement definitions](#what-is-measured) |
+| Figures and captions | [Specificity and external coverage](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
 This project combines the former A1 chromatin motivation and A5 neonatal
 marker warning into a measurable RNA specificity question: which changes
 extend beyond the two transcripts used to label a group, and how do they
@@ -9,6 +20,8 @@ The executable first pass is **ES1**. Read the [frozen analysis plan](PLAN.md),
 [module definitions](modules.json), and [generated results](results/SUMMARY.md).
 The figure shows within-well differences; each multiome condition is one
 pooled library. It does not assign fate or measure chromatin reversibility.
+
+## Figure gallery
 
 ![Within-library module differences and external animal coverage](results/es1_specificity.png)
 

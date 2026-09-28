@@ -1,5 +1,16 @@
 # Study note: Choi, Lee et al. 2020, Inflammatory signals induce AT2 cell-derived damage-associated transient progenitors that mediate alveolar regeneration
 
+## Read this study
+
+| To understand | Read |
+|---|---|
+| Paper context and biological question | [Study context](#study-context); [source evidence and deposited data](#source-context) |
+| Analysis results, claims and limitations | [Trial outcomes](ANALYSIS_TRIAL_PLAN.md); [chromatin](datp_epigenetics/README.md) and [Axin2/Il1r1](axin2_il1r1/README.md) follow-ups |
+| Figures and captions | [State maps and follow-up galleries](#figure-gallery) |
+| Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
+
+<a id="study-context"></a>
+
 Roadmap paper 2, Gate 1. Written on 2026-09-15 at the owner's direction after
 the owner read the paper (DEVELOPMENT decision 23). It supersedes an
 AI-written note of 2026-09-13 that the owner withdrew (decision 21); that
@@ -58,6 +69,8 @@ More: [D3 pseudotime figure](trials/d3_ordering/d3_dpt_by_state.png)
 [trial index](trials/README.md),
 [chromatin branch gallery](datp_epigenetics/README.md#figure-gallery), and
 [Axin2–Il1r1 branch gallery](axin2_il1r1/README.md#figure-gallery).
+
+<a id="source-context"></a>
 
 ## 0. The five questions
 
