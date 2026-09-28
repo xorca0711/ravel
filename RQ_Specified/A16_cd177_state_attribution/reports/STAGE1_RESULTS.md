@@ -18,7 +18,7 @@ on specificity**, which is neither missing evidence nor evidence against.
 | Analysis | Could it close A16? | Result |
 |---|---|---|
 | C4 ambient neutrophil origin | yes | **Did not close.** Conditioning retains 87–139% of the effect; Cd177 detection barely tracks the neutrophil panel (\|ρ\| ≤ 0.27) |
-| C3 detection-matched gene null | yes | **Inconclusive.** Cd177 exceeds every control in 4 of 9 units and sits inside the null in the best-powered unit; 6 of 9 nulls have fewer than 40 control genes |
+| C3 detection-matched gene null | yes | **Inconclusive.** Cd177 exceeds every control in 4 of 9 units and sits inside the null in the best-powered unit; 7 of 9 nulls have fewer than 40 control genes |
 | C1 neighbourhood matching | no | Positive in 8 of 9 units, but retains only 18–34% of the unmatched difference where that is well defined |
 | C2 resolution ladder | no | No monotone decay; a plateau, on 3 resolutions with 1–6 testable clusters |
 | C5 threshold sensitivity | no | Stable; no sign change where the effect is non-trivial |
@@ -75,8 +75,8 @@ large positive association there. Cd177's +2.323 is elevated above that, but the
 marker, accounts for most of it. This is exactly what the null was for.
 
 **The binding limitation is that Cd177 is hard to match.** Requiring both detection rate (±25 %
-relative) and mean expression (±35 % relative) leaves fewer than 40 control genes in 6 of 9 units, and
-a single gene in one. That is a fact about the marker rather than a coding accident: Cd177 is detected
+relative) and mean expression (±35 % relative) leaves fewer than 40 control genes in 7 of 9 units,
+fewer than 20 in 5 of them and a single gene in one; only two units reach 40 or more. That is a fact about the marker rather than a coding accident: Cd177 is detected
 in about 9 per cent of transitional cells but carries 1 to 53 UMIs where detected, so its
 expression-per-detection ratio is unusual and few genes sit in the same band. A null of 11 or 14 genes
 cannot place an observation in a tail with any confidence. **Widening the band would be a post-hoc
