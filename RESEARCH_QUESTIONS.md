@@ -69,6 +69,9 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A13](#a13) | Fibroblast programmes add information beyond macrophage IL1B | Niche heterogeneity motivates joint association | [Amended exploratory pilot complete](docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md): 12 paired triads; no aggregate held-out gain. Older failed coverage gates preserved; no mediation claim |
 | [A14](#a14) | Exposure duration and fibroblast reception separately affect recovery | Mechanistic follow-up to the repair/persistence question | Two decisions; withdrawal and recipient-specific data needed |
 | [A15](#a15) | The epithelial input to fibroblast activation runs through integrin-mediated TGF-beta activation rather than through ligand supply | A2's exploratory association: Itgb6-targeted wells have a -0.938 log2 CPM median contrast in three readable split wells; no Areg decrement is established | **Proposed, pending the owner's retain or reject.** Blocked: no eligible deposit found in the recorded search. The authorized side-branch has run; epithelial-state mediation remains unresolved |
+| [A16](#a16) | Cd177 marks a cell-intrinsic priming programme rather than the transcriptional neighbourhood a cell occupies | England re-analysis: seven CD177 associations survive depth control, but within-subcluster conditioning dissolves most of them and leaves only priming-associated RNA standing in 5 of 7 subclusters | **Proposed, pending the owner's retain or reject.** Blocked: the discriminating sorted-CD177 test needs a deposit pairing surface CD177 with a proliferation readout, and none exists in the recorded search. GSE253461 and GSE316244 are partially eligible for the attribution question alone |
+| [A17](#a17) | Support for two founder classes in mutant clone growth survives a boundary-correct simulation | The deposited simulator's S-loss branch changes the q = 0.7 clone-size distribution materially (KS 0.104–0.281), and the homeostatic Confetti mixture is not identifiable from the deposited sizes (weights 0.09–0.89) | **Proposed, pending the owner's retain or reject.** Ready to run, no new data required: the FU_S refit is frozen in the England follow-up contract and was deferred for runtime only |
+| [A18](#a18) | Wild-type AT2 growth and wild-type AT2 identity loss run through separately ranged channels near a mutant clone | The source's own decoupling claim, plus its EdU data showing division independent of clone size and of pro-Sftpc status; reproduced on the deposit, where the size gradient is oncogenic-specific on scale-fair links and the differentiation gradient is not distinguishable from homeostatic background | **Proposed, pending the owner's retain or reject.** Descriptively complete, inferentially blocked: the distance-by-readout interaction needs the mouse-level and clone-level rows behind the pooled spatial arrays, or a new spatial series |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -78,6 +81,12 @@ also run. Further A10 expansion now needs preparation identities and imaging/
 validation design evidence; stronger A1, A5 and A11 conclusions require the
 missing evidence named in their cards. Existing joins and scores need not be
 rerun. The other questions remain conditional; their design gates still apply.
+A16 to A18 derive from the England re-analysis and are proposed on 28 September 2026: A17 is the
+only one of the three that can run now, A16 waits on a sorted-CD177 deposit that does not yet
+exist, and A18 waits on the mouse-level and clone-level rows behind the pooled spatial arrays.
+Their evidence is in the
+[England follow-up](Research%20Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md) and the
+[opportunity ledger](Research%20Article/gate2_C2_england_2025/ANALYSIS_OPPORTUNITIES.md).
 The [logical review](docs/LOGICAL_RATIONALE_REVIEW.md) checks this sequence against
 the actual measurements and implementation, with an adaptive follow-up order.
 
@@ -793,6 +802,8 @@ whether blocking it helps a patient.
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC2 to MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc2).
 
+<a id="a16"></a>
+
 ### A16. Does Cd177 mark a cell-intrinsic priming programme or the transcriptional neighbourhood a cell occupies?
 
 **Proposed 28 September 2026, and pending the owner's retain or reject.** Assistant-proposed
@@ -849,6 +860,10 @@ eligible** external route exists for the attribution question alone, without the
 KrasG12D AT2 reprogramming and niche) could test whether the same within-subcluster dissolution
 appears in an independent mutant compartment. Both would be descriptive transfer on a different
 driver genotype, not confirmation. An owner decision is required before either is opened.
+[MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
+[MC2–MC3](docs/RQ_MEASUREMENT_CONTRACTS.md#mc2).
+
+<a id="a17"></a>
 
 ### A17. Does support for two founder classes in mutant clone growth survive a boundary-correct simulation?
 
@@ -900,6 +915,9 @@ pending.** The design is frozen as FU_S in the
 the 28 September follow-up only for runtime. A negative result, meaning the corrected
 implementation fits as well and keeps the same parameters, is informative and would close the
 question.
+[MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1).
+
+<a id="a18"></a>
 
 ### A18. Are wild-type AT2 growth and wild-type AT2 identity loss under separate control near a mutant clone?
 
@@ -963,6 +981,8 @@ spatial series. No mouse deposit found in our search pairs this model with spati
 early fibrotic niche series GSE316241, GSE316243 and GSE316244 surfaced as the nearest candidates and
 need an eligibility check before any transfer. An owner decision is required on whether to request
 the identifiers before this question is graded.
+[MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
+[MC3–MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
 
 ## Execution and interpretation rules
 

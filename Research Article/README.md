@@ -69,6 +69,7 @@ interpretive limits: [Niethamer](gate1_01_niethamer_2025/README.md#figure-galler
 [Nabhan](gate1_03_nabhan_2018/README.md#figure-gallery),
 [Sikkema](gate1_04_sikkema_2023_hlca/README.md#figure-gallery),
 [Cardoso](gate2_05_cardoso_2026/README.md#figure-gallery),
+[England](gate2_C2_england_2025/README.md#figure-gallery),
 [Yu, Lee, Choi_Min](gate2_C3_yu_lee_choi_min_2026/README.md#figure-gallery) and
 [Murthy](ungated_murthy_2022/README.md#figure-gallery).
 Choi's [chromatin](gate1_02_choi_2020/datp_epigenetics/README.md#figure-gallery)
