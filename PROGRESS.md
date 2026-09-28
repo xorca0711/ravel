@@ -2,6 +2,25 @@
 
 **Update this before stopping work, every session.**
 
+## Current A16 rationale amendment, 28 September 2026
+
+The owner adopted the [combined proposal](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md)'s
+first item and asked for A16 to be carried first. Branch `codex/a16-rationale-amendment`,
+based on merged PR #110 (`1f7559b`), appends a dated
+[amendment](RQ_Specified/A16_cd177_state_attribution/RATIONALE.md#amendment-28-september-2026-the-rationale-as-successive-evidence-states)
+below the preserved Stage 0 text of A16's rationale. It restates the question as
+what can be attributed to a CD177-associated priming RNA phenotype within
+comparable mutant transitional cells and what remains unresolved about state
+mixture, detection and contamination; records four successive evidence states
+(registration, Stage 1, integration review, corrected C1); and carries a
+thirteen-row ledger of original statements that later evidence superseded or
+qualified, with the superseding numbers. The A16 README and PLAN gained pointers
+and a dated post-execution state note. No analysis ran, no claim row or grade
+changed, and the hash-verified contract and erratum are untouched. The register
+card wording is unchanged pending the owner's adoption; the A16 retain/reject
+decision remains pending and separate. Remaining proposal passes (A1 with A10,
+A12 with A13, A2 with A15, A5/shared/A11, A0) are not started.
+
 ## Current combined RQ proposal, 28 September 2026
 
 The owner requested a merged assessment and plan for each question. The

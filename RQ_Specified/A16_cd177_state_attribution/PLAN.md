@@ -1,5 +1,14 @@
 # A16 analysis plan: what has to be fixed before anything is computed
 
+> **State on 28 September 2026, after execution.** Stage 1 ran in the frozen order (C3 and C4, then
+> C1, C2 and C5) and neither closed the question nor reached the permitted positive conclusion; the
+> [integration review](reports/INTEGRATION_REVIEW.md) withdrew the stronger exclusions and a
+> [corrected C1](correction_20260928/reports/CORRECTED_C1_REPORT.md) then executed the neighbourhood
+> amendment on one fixed population per library. Order-of-work item 4 has therefore been reached:
+> the next action is not another analysis on these matrices but the Stage 2 data gate or the
+> discriminating experiment. The stage definitions below are the frozen plan and are unchanged; the
+> current argument is the [rationale amendment](RATIONALE.md#amendment-28-september-2026-the-rationale-as-successive-evidence-states).
+
 Written 28 September 2026, before any A16 endpoint has been run. The exposure is disclosed and is not
 small: the founding within-subcluster result was seen first, and Stage 1 reuses the same matrices. So
 Stage 1 is an **amendment with full prior exposure**, not independent confirmation, and its value is

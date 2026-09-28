@@ -1,5 +1,20 @@
 # AI context
 
+## Current A16 rationale amendment, 28 September 2026
+
+Branch `codex/a16-rationale-amendment`, based on merged PR #110 (`1f7559b`),
+adds a dated [amendment](RQ_Specified/A16_cd177_state_attribution/RATIONALE.md#amendment-28-september-2026-the-rationale-as-successive-evidence-states)
+to A16's rationale and pointers in its README and PLAN. Rules for later
+sessions: the Stage 0 rationale text above the horizontal rule is history and
+must not be edited; the amendment's ledger is the current statement of which
+original claims are superseded; `config/a16_question_contract.json` and
+`reports/STAGE1_ERRATUM.md` are hash-verified by
+`scripts/verify_stage1_evidence.py` in CI and must never be modified, so any
+further amendment is recorded in RATIONALE.md or a new dated report, not in the
+contract. No statement in A16 may describe the neutrophil-panel adjustment as
+excluding contamination or the full-depth cutoff sensitivity as excluding
+depth effects. The register card and readiness row are unchanged.
+
 ## Current combined RQ proposal, 28 September 2026
 
 Branch `codex/rq-development-proposal`, based on merged PR #109 (`c0a3117`),

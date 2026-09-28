@@ -106,3 +106,104 @@ disagrees between the two libraries.
 The sibling relationship worth naming explicitly: A16 is an attribution question about a marker,
 which is the same shape as the enabling source-identity work under A12-S1 — useful because several
 questions would otherwise each assume the marker means what it appears to mean.
+
+---
+
+# Amendment, 28 September 2026: the rationale as successive evidence states
+
+Everything above this line is the Stage 0 rationale as written before any A16 endpoint was computed.
+It is preserved unedited as planning history. It is no longer the current argument. Stage 1 ran on
+the owner's authorization the same day, the [integration review](reports/INTEGRATION_REVIEW.md)
+then withdrew the stronger exclusions in the [original Stage 1 report](reports/STAGE1_RESULTS.md),
+and a separately frozen [corrected C1 comparison](correction_20260928/reports/CORRECTED_C1_REPORT.md)
+executed the neighbourhood amendment on one fixed population per library. This section records what
+each of those states changed in the argument, which statements above are superseded or qualified,
+and how the question now reads. It adds no analysis, no claim row and no grade change. The frozen
+[contract](config/a16_question_contract.json) and the [population erratum](reports/STAGE1_ERRATUM.md)
+are hash-verified by `scripts/verify_stage1_evidence.py` and are not modified by this amendment.
+
+## The current question
+
+*Within comparable mutant transitional cells, what can be attributed to a CD177-associated
+priming RNA phenotype, and what remains unresolved about state mixture, detection and contamination?*
+
+This replaces the intrinsic-versus-positional dichotomy as the operative question. The dichotomy is
+kept above because it explains the design decision that still governs A16 — conditioning on position
+shrinks the estimate under both readings, so no calculation on these matrices can decide between them
+— but it is not a question Stage 1 could answer, and the [register card](../../RESEARCH_QUESTIONS.md#a16)
+now states that a stable intrinsic programme and a neighbourhood-associated phenotype can coexist.
+The reframed question asks only what the existing evidence attributes and what it leaves open.
+
+## Four evidence states
+
+| State | Documents | What it established | What it could change |
+|---|---|---|---|
+| 0. Registration | this rationale (above), [PLAN.md](PLAN.md), the frozen contract | The design: Stage 1 one-directional, five analyses, permitted positive conclusion capped by contract wording | Nothing yet computed; the readiness row read "blocked" |
+| 1. Stage 1 executed | [STAGE1_RESULTS.md](reports/STAGE1_RESULTS.md), [STAGE1_ERRATUM.md](reports/STAGE1_ERRATUM.md), `tables/stage1/` | C3 inconclusive; C1 positive residuals in 8 of 9 entries at k=10; C2 non-monotone on three resolutions; C4 and C5 reported as exclusions (prose later withdrawn); two-arm population amendment recorded before execution | Readiness row moved from "blocked" to "partly measured and inconclusive"; no claim row permitted |
+| 2. Integration review | [INTEGRATION_REVIEW.md](reports/INTEGRATION_REVIEW.md) | C4 does not exclude ambient RNA; C5 does not exclude detection/depth artefacts; C1 was not the frozen neighbourhood test; C2 changes eligibility and weights, not only resolution; C3 control abundance is not power; the two arms do not nest the original population | Superseded the stronger prose of State 1 without changing any number; readiness unchanged |
+| 3. Corrected C1 | [CORRECTED_C1_REPORT.md](correction_20260928/reports/CORRECTED_C1_REPORT.md), specification committed at `e1d46b4f` before outcomes | On the fixed per-library transition population with 660 grouping, gate and outcome genes excluded before normalization, local 20-PC neighbourhoods and same-library, same-depth-quartile matching: priming raw difference 1.255829 → 0.409807 (GSM7890835, 79/797 cells) and 1.331844 → 0.315110 (GSM7890836, 60/596 cells) at k=10; residual maximum PC imbalance 0.62495 and 0.52100 | Completed C1's computational amendment on exposed data; cannot change biological status, specificity or contamination verdicts |
+
+None of States 1–3 can add a graded claim or establish a mechanism. Only Stage 2 of the plan — a
+deposit clearing all five eligibility conditions — or the discriminating experiment can.
+
+## Claim-by-claim ledger: statements above that later evidence superseded or qualified
+
+| Statement in the Stage 0 text | Status | Superseding or qualifying evidence |
+|---|---|---|
+| The question is a choice between an intrinsic and a positional reading; "Cd177 was a coordinate all along" is the failure condition | **Superseded as the operative question**; retained as the design argument | Register card: the two readings can coexist. PLAN.md, "What Stage 1 may not conclude": conditioning shrinks the estimate under both. Proposal wording adopted above |
+| 79 positive against 799 negative and 60 against 598 cells | **Qualified** | Actual `primary_include` and `gate_transition` flags give 876 and 656 fixed cells, i.e. 79/797 and 60/596; the founding prose's 878 and 658 do not override the inclusion flags (corrected C1 report) |
+| "They are not depth artefacts", with residualization "retaining 87 to 159 per cent of each effect" | **Superseded** | SMD ratios do not measure a percentage of biological signal retained (register card; integration review, correction 1). FU_A's frozen four-method verdict is inconclusive because one thinning arm has 26 positive cells. C5 thins the marker call while outcomes stay full-depth, and all four thinned-depth rows in the two primary libraries fail the 30-cell floor (integration review, correction 2). Current wording: directions are preserved under the *available full-depth* adjustments; complete depth control was not achieved |
+| "They are largely compositional": Itga2 flips positive in 5 of 7 subclusters, AT2 identity spreads −0.36 to +1.27, only priming persists in 5 of 7 | **Qualified** | Those numbers come from FU_C, which pools libraries within each experiment and uses all `primary_include` cells, not the transition gate (STAGE1_ERRATUM.md, Arm B; integration review, correction 6). They are a diagnostic of the old result, not a within-state conditioning. The within-population statement is now supplied by the corrected C1 secondary endpoints: AT2 identity 0.695824 → 0.112045 and 0.997005 → −0.042701, Itga2 −0.397238 → −0.030124 and −0.651080 → −0.004508, while priming stays 0.409807 and 0.315110 |
+| The matched-gene null, the ambient control and the threshold sensitivity "each close A16 negatively without new data" | **Qualified** | In principle still true; in practice none of the three could. C3: Cd177 exceeds every sampled control in 4 of 9 entries but sits inside the null in the best-powered unit (Experiment-1 subcluster 10, 500 controls), and 7 of 9 entries have fewer than 40 matched controls because Cd177 is detected in about 9% of transitional cells yet carries 1–53 UMIs where detected. C4: the within-cell neutrophil panel cannot estimate ambient RNA in filtered matrices; the reported Spearman compares *detection*, not UMI abundance, with the panel. C5: bounded to full-depth cutoffs. The instruments were too weak to close, which is "inconclusive", not "negative" |
+| Rival 1, finer-scale composition, "if the effect decays monotonically with resolution, this rival wins" | **Open; qualified** | C2's three persisted resolutions give non-monotone weighted effects, but eligibility, represented populations and weights change with resolution (integration review, correction 4). Corrected C1 attenuates the priming residual by roughly two thirds and leaves maximum PC imbalance above 0.5, so position as measured explains much, not all, and the remainder is not shown to be non-positional |
+| Rival 2, generic gradient behaviour, "the rival most likely to be correct" | **Open; unchanged** | C3 inconclusive for control-gene scarcity. In Experiment-1 subcluster 18 the median matched control shows +0.963 against Cd177's +2.323, but the median control SMD is not an additive decomposition (integration review, correction 5) |
+| Rival 3, ambient neutrophil RNA, "addressed by the ambient-origin control" | **Open; the State 1 exclusion is withdrawn** | Conditioning retains 87–139% of the effect, but a low panel correlation or a remaining adjusted effect does not test every contamination source (integration review, correction 1). The Stage 0 text's own "known weakness" paragraph was correct |
+| Rival 4, detection threshold, "addressed by threshold sensitivity" | **Bounded, not excluded** | Directions are stable across 1/2/3-UMI cuts at full depth; thinned-depth rows fail the floor. The Stage 1 prose "detection-threshold artefact is excluded" is superseded |
+| Rival 5, library-specific biology; report per library, never pooled | **Retained and applied** | Corrected C1 fits each library separately and matches within library. The two libraries agree in direction on priming and disagree on cycling (0.125699 → −0.068290 in GSM7890836; −0.015371 → −0.009126 in GSM7890835). Two libraries from one experiment remain two libraries, not two animals |
+| Rival 6, state-definition dependence; "disclosed rather than tested" | **Unchanged** | The gate was not varied. The two-arm amendment compared different populations rather than conditioning one (integration review, correction 6) |
+| Rival 7, RNA is not protein; "unresolvable here" | **Unchanged** | No deposit clears eligibility conditions 1 and 2 together ([PUBLIC_DATA_SEARCH.md](reports/PUBLIC_DATA_SEARCH.md)) |
+| "What would decide it positively is prospective separation", with the prediction that CD177-sorted cells enrich for primed, identity-retaining cells and *not* for more cycling ones | **Retained; unchanged** | The falsifying observation is unchanged: CD177-positive cells dividing more would contradict this reading and support the source's. Cycling RNA after matching is near zero in both libraries, which is consistent with the "not cycling" half of the prediction but is not a measurement of proliferation |
+| Connections and boundaries (A8, A11, A1, A4, A17, A12-S1) | **Unchanged** | — |
+
+## What a reader should now be able to identify
+
+- **Biological premise.** Within the England mutant transitional compartment, Cd177 RNA detection
+  co-varies with a priming-associated module (Lcn2, Lrg1, Retnla, Ptgs1) and with retained AT2/AT1
+  identity, and inversely with Itga2 and remodelling RNA. The source paper reads CD177 as marking a
+  reversible, proliferative mutant state; our reading is that it marks a primed, identity-retaining
+  position, with a residual not yet attributed.
+- **Main rival.** Generic gradient behaviour: any gene with Cd177's detection profile would leave a
+  similar within-neighbourhood residual. Ambient neutrophil RNA is the second live rival.
+- **Population and outcome.** Cells passing the frozen Cldn4/Ndrg1/Sox9 gate in GSM7890835 (876) and
+  GSM7890836 (656); primary outcome the mean log1p(full-library CP10k) of the four priming genes.
+- **Narrow comparison.** Cd177-detected versus matched Cd177-negative cells from the same library and
+  depth quartile in a gene-excluded local PCA space, per library.
+- **Independent unit.** The sequencing library. Two libraries, one experiment, no deposited animal
+  identities; no population inference is available and none is claimed.
+- **Possible interpretations of the current numbers.** (a) Position as measured accounts for most of
+  the marginal association, and the remainder is composition below the resolution of a 20-PC local
+  space, generic gradient behaviour, or contamination; (b) a Cd177-linked priming component exists
+  within comparable cells. The corrected C1 numbers are compatible with both. Neither attenuation nor
+  persistence is an explained fraction of signal.
+- **Exact next evidence gate.** Stage 2 of PLAN.md, unchanged: protein-level CD177 separation within
+  an independently assigned transitional state, a measured outcome on the separated fractions, at
+  least three animals or donors per arm with deposited identities, and enough transcriptome to place
+  the separated cells within a neighbourhood. Until a deposit or experiment clears it, A16 remains
+  "partly measured and inconclusive".
+
+## Boundaries carried forward
+
+- Residual matching effects do not prove intrinsic biology; attenuation is not an explained causal
+  fraction; ratios of standardized effects are not percentages of signal retained.
+- The corrected C1 retains substantial imbalance. Another parameter sweep — wider C3 matching bands,
+  different k, other resolutions — cannot supply biological attribution and would be a disclosed
+  post-hoc exploration if run at all.
+- The C3 null uses unadjusted SMDs; corrected C1 reports raw matched differences and a common
+  fixed-population SD. These scales are not comparable, so no common null threshold is applied.
+- No statement about the neutrophil panel may be read as excluding contamination, and no statement
+  about full-depth cutoffs may be read as excluding depth or detection effects.
+- Nothing here bears on the source's immunofluorescence, sorted-organoid or transplantation evidence,
+  which A16 cannot touch with these matrices.
+- This amendment adopts the proposal's question wording inside the workspace. The register card is
+  unchanged until the owner adopts that wording, and the owner's retain/reject decision on A16 remains
+  pending and separate.

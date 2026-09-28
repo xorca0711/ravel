@@ -15,6 +15,9 @@ The [combined development and reframing proposal](../docs/audits/2026-09-28-rq-d
 assesses rationale depth and hypothesis scope together, with a plan and evidence
 gate for every label. It is a draft; the current registered questions below are
 unchanged.
+The A16 workspace carries the proposal's first item: a dated
+[rationale amendment](A16_cd177_state_attribution/RATIONALE.md#amendment-28-september-2026-the-rationale-as-successive-evidence-states)
+records successive evidence states; its register card is unchanged.
 
 ## Question workspaces
 
