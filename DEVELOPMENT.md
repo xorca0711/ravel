@@ -781,10 +781,15 @@ independent validation or universal transitional-state taxonomy.
 
 After merging PR #67, the owner requested a substantial RQ review before
 remaining analysis, using their attached `RQ_FRAMING_PROPOSAL.md`. Codex prepared
-[a restructuring plan](docs/RQ_REFRAMING_PLAN.md), not an implemented replacement
-of the register. It recommends four core questions with unchanged legacy IDs,
-linked supporting contracts and conditional biological branches. The owner's
-choice of this structure and acceptance of its hypotheses remain pending.
+a restructuring plan, not an implemented replacement
+of the register. It recommended four core questions with unchanged legacy IDs,
+linked supporting contracts and conditional biological branches. That structure
+was not adopted: decision 36 below records the rewrite the owner actually
+requested, which kept all of A1 to A14 and dropped the fixed count. The plan
+document itself was deleted on 27 September 2026 as an executed planning
+artefact, and the [implementation record](docs/migrations/2026-09-25-rq-reframing/README.md)
+holds its before-bytes and what changed. Its one part that no other file carried
+is the refutation table below.
 
 | Date | Prior framing challenged | Review outcome | Authority |
 |---|---|---|---|
@@ -795,6 +800,28 @@ choice of this structure and acceptance of its hypotheses remain pending.
 The review also confirmed caption-generator drift that could restore a
 superseded A2 figure. Repair is specified before redraw; no generator or
 biological model was run, and no numerical evidence or claim grade was changed.
+
+### Assertions from the owner's proposal that were refused as headlines
+
+Carried verbatim from the deleted planning document, because it is a rejection
+record and those stay visible. These were the owner's proposed framings, assessed
+against the claim rows that existed at the time; refusing them as headlines did
+not refuse the mechanisms as hypotheses.
+
+| Attachment assertion | Assessment against current evidence | Safer use |
+|---|---|---|
+| AT2 RNA loss occurs over permissive distal chromatin, with closure later | C131/C133 do not establish distal state or time order; the old genotype comparator is not a clean temporal control | Optional A1 temporal hypothesis with explicit longitudinal requirements |
+| Epithelium sets the AREG available to fibroblasts | C37 is measurement-sensitive; C45 supports competing myeloid sources; RNA is not secreted availability | Context-specific source/receiver experiment, not an existing supported conclusion |
+| Late interstitial macrophages are the same persisting population | Cross-sectional proportions do not identify ancestry or replacement | Population-state persistence and cell persistence become separate estimands |
+| AT1 identity is largely an extension of transition because 119 genes overlap | C168 quantifies shared definition, not developmental continuity or fate | Test added endpoint information from disjoint/shared components |
+| Fibroblast EGFR is predominantly homodimeric | C114 is refuted as a resource-absence claim; receptor coexpression cannot measure dimer composition | RNA competence screen; direct complex/activation assay for the mechanistic claim |
+| Neoplasia adds no separable epithelial programme | Shared-HPCS elevation does not exclude an additional programme | Test a bounded candidate addition on independent validation data; report an inconclusive null honestly |
+| Unassigned IL1B-positive cells form a distinct source architecture | Annotation failure is partly determined by reference and threshold; ambient/mixed profiles remain alternatives | Resolve source identity before formulating a biological state claim |
+
+These objections do not prevent proposing the mechanisms. They prevent treating
+the proposal's motivating measurements as direct tests of those mechanisms.
+Novelty remains to be checked against the literature for whichever narrow
+hypotheses are retained; reframing alone creates neither novelty nor evidence.
 
 ## 36. Implement the biological RQ rewrite (25 September 2026)
 
@@ -1419,3 +1446,60 @@ PDF download returned HTTP 403 and was not inspected. Source simulator timing
 behavior was read, not numerically evaluated. No result or historical claim was
 regraded. The [handoff](docs/handoffs/2026-09-28-england-en7-cd177.md) owns the
 continuation queue; this documentation is not evidence that EN7 has executed.
+
+## 27 September 2026: audit docs/ for AI-session residue, and refuse most of the deletions
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | Delete unnecessary and superseded documents under `docs/`, where the owner defined superseded as an improper log or an artefact of AI generation context | Repository owner, explicit chat instruction | Owner instructed the deletion; Claude selected the targets and refused most of them | One document deleted, four stale status heads corrected, eighteen candidates retained with reasons | Most of `docs/` is either a run record bound to a logged artefact or an input some script reads; the residue the owner described turned out to be stale prose heads, not whole files |
+
+**What was deleted.** `docs/RQ_REFRAMING_PLAN.md`, 425 lines. It is a plan an agent wrote,
+executed, and then topped with a banner stating that its own grouping recommendations are not
+the current register. Its table of seven proposed assertions refused as headlines was carried
+into decision 35 above before deletion, because a rejection record stays visible, and its only
+inbound link now points at the implementation record that holds its before-bytes.
+
+**What was corrected instead of deleted.** Four pages claimed a status their own logged artefact
+contradicted. `docs/research_pipeline/queue.json` records `new_biological_analysis_executed` as
+true with `next_task` at `C6-audit-followups`, while `PROGRESS.md`, `AI_CONTEXT.md`,
+`docs/COMPUTATIONAL_RESEARCH_PIPELINE.md` and the computational handoff all still told a
+returning reader to start at C1 and that no biological score was complete. The A11 acute-injury
+assay had by then been scored, reported and merged. Those heads were rewritten to match the
+queue and to say plainly that the earlier text was wrong; the dated sections beneath them were
+left untouched.
+
+**What was refused, and why.** Deleting these would break a gate or destroy a record:
+
+- `docs/roadmap_runs/2026-09-27/P3_REGULATORY_FATE.md` and `P5_RECOVERY_DESIGN.md` are code
+  input. `docs/roadmap_runs/2026-09-27/scripts/verify_run.py` asserts that every report named
+  in `status.json` is a file.
+- `LOGICAL_RATIONALE_REVIEW.md`, `RESEARCH_ROADMAP.md`, `EXPERIMENTAL_HANDOFF.md`, `P3` and `P5`
+  each have their SHA-256 pinned inside a validation record. Deleting the file falsifies the
+  ledger that hashed it.
+- `docs/migrations/` is read by `analysis/lib/repository_paths.py`, which resolves pre-migration
+  paths through its manifest and archived original bytes.
+- `docs/PIPELINE_AS_RUN.md` is required by `analysis/scripts/validate_repository.py`, and
+  `docs/CLAIM_SUMMARY.md` by `claim_contract.py --check`.
+- `docs/NEXT_DATASET_GATE.md` is named as an inherited contract inside frozen configuration.
+- The computational handoff and queue are what an open session on
+  `codex/computational-research-pipeline` resumes from, and the previous commit on `main` already
+  decided in writing that they stay. Its status head was corrected; the file was kept.
+- The five tool pages describe tools mostly not used, which looks like residue but is deliberate:
+  `docs/README.md` states that of the five, only Scrublet was used. The two Niethamer workflow
+  pages share four lines and are not a duplicate pair.
+
+**Rejected agent output.** Three review lenses ran over twenty candidates. Two of them asserted
+that the deleted plan was the only record of a SHA-256, `5aaaef62...`, of the owner's supplied
+`RQ_FRAMING_PROPOSAL.md`, and both used that as the reason to consolidate rather than delete.
+The file contained no 64-character hex string at all, and that hash appears nowhere in the tree.
+The claim was rejected and the consolidation proceeded on the refutation table alone. Two lenses
+also disagreed about whether the GSE198864 byte count and hash existed outside the handoff; the
+tracked intake record carries both, so the preservation lens was wrong on that point and the
+handoff was kept for other reasons. No deletion in this change rests on an agent's assertion
+that was not checked against the tree.
+
+**Not established by this audit.** Whether the remaining head-stacked pages, chiefly
+`RESEARCH_ROADMAP.md`, `RESEARCH_ARCHITECTURE.md`, `LOGICAL_RATIONALE_REVIEW.md` and
+`NEXT_DATASET_GATE.md`, should be rewritten rather than left with appended banners. Two lenses
+recommended rewriting their heads and keeping their bodies. That is a change to living
+interpretation documents and is left for the owner.

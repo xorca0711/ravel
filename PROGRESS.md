@@ -53,17 +53,25 @@ restore/verify that runtime before new analysis. Work is in the isolated
 
 ## Current computational continuation, 27 September 2026
 
-The owner-authorized audit/roadmap landing is merged in PR #94 (`17ca9b4`). The
-next phase is on `codex/computational-research-pipeline`, divided into small tasks
-in the [computational pipeline](docs/COMPUTATIONAL_RESEARCH_PIPELINE.md). Start
-with the [next-session handoff](docs/handoffs/2026-09-27-computational-research.md)
-and C1 in its queue. GSE198864's annotated RDS is downloaded and hashed in the
-original checkout's ignored raw-data cache. Its internal metadata, eligible
-contrast and counts have not been analyzed; **no new biological score is complete**.
-No process remains running. Prior pilot results and scientific grades are unchanged.
-The owner requested this handoff for a different session; resume the next unfinished
-task rather than rerunning the completed audit or assuming data gates passed.
+The audit and roadmap landing is merged, and so is the first phase of the computational
+pipeline. The A11 acute-injury assay in GSE198864 ran through to identity-concordant
+scoring and is on `main` at `bbfa4e7`; its
+[results](RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md)
+report the frozen lesion module higher in SARS-CoV-1 infected than in medium-matched mock
+type 2 cells by +0.225 log2 CPM across three identity-concordant paired donors, positive in
+all three, at an exact p of 0.25 which is the floor at that unit count. The beyond-shared
+contrast is -0.039, so the rise is not separable from the shared remodelling component. The
+verdict is unresolved, no claim row was added, and the explants come from surgical cancer
+patients rather than a cancer-naive population.
 
+**Do not resume at C1.** The [queue](docs/research_pipeline/queue.json) is the execution
+record and is current: `new_biological_analysis_executed` is true, `next_task` is
+`C6-audit-followups`, and the ready work is the A5 external-correspondence audit and the
+A12 independent-cohort audit. An earlier version of this section said no biological score
+was complete; that was a status head left behind by the session that wrote it, and the
+queue always contradicted it.
+
+No process is running. Prior pilot results and scientific grades are unchanged.
 ## Latest roadmap follow-through, 27 September 2026
 
 The [follow-through record](docs/roadmap_runs/2026-09-27-followthrough/README.md)
