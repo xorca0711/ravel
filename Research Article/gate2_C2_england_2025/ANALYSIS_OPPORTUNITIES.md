@@ -2,7 +2,10 @@
 
 **Interpretation amendment, 28 September 2026:** the [source/code audit](../../docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
 supersedes the earlier A16 population, A17 readiness and Figure-7 reproduction
-interpretations. Original numerical reports and contracts remain unchanged.
+interpretations. The later [corrected A16 C1](../../RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)
+and [A17 source accounting](../../docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md)
+complete bounded follow-through on that review. Original numerical reports and
+contracts remain unchanged.
 
 **Written 28 September 2026**, from a second reading of the paper and its STAR Methods against the
 deposited material. This is a scoping ledger, not a results file: it records which of the paper's
@@ -26,7 +29,7 @@ velocity analysis would remain model-dependent, not lineage ground truth.
 | # | Source claim (figure) | Evidence type in paper | Deposited material | Our status |
 | --- | --- | --- | --- | --- |
 | 1 | A two-population model encapsulates homeostatic AT2 dynamics (Fig 1) | clone-size distributions + simulated-likelihood fit | Zenodo clone archive (conf1w–conf72w, 3–5 mice each); MATLAB `sim_two_pop_model.m` | **Audited, one finding open.** Confetti mixture weights are not identifiable from the deposited sizes (0.09–0.89, overlapping components). Folded into **A17** |
-| 2 | Two-population dynamics are conserved in KrasG12D initiation (Fig 2) | same, on kras4d–kras4w | clone archive (RFP and YFP separately) | **Audited, finding open.** The deposited script's S-loss branch changes the q = 0.7 clone-size distribution materially (KS 0.104–0.281; size ≥2 fraction 0.91–0.96 literal vs 0.57–0.59 fixed branch vs 0.50–0.55 Gillespie). FU_S / **A17** is computationally feasible after source-count, parameter and switch-schedule amendments; not executed |
+| 2 | Two-population dynamics are conserved in KrasG12D initiation (Fig 2) | same, on kras4d–kras4w | clone archive (RFP and YFP separately) | **Audited, finding open.** The deposited script's S-loss branch changes the q = 0.7 clone-size distribution materially (KS 0.104–0.281; size ≥2 fraction 0.91–0.96 literal vs 0.57–0.59 fixed branch vs 0.50–0.55 Gillespie). **A17** source-count reconciliation and source-code mapping are complete. FU_S model/score amendments, published-curve provenance and the full stochastic refit remain open |
 | 3 | Mutant AT2 cells co-opt a regeneration program (Fig 3) | scRNA-seq clustering, state occupancy | GSE247505, 20 libraries | **RNA proxies reproduced and extended; exact author states not recovered.** EN1–EN4. Transition gate is cluster-concentrated; AT1 gate is not, which motivated the calibrated module gate (FU_B) |
 | 4 | Reversible transitions between mutant states (Fig 4) | IF double-positives, sorted organoids, transplantation, EdU | **none of it** — no protein, no sorted fractions, no lineage barcodes | **Closed on this deposit.** Direction and reversibility are not recoverable from these matrices; deliberately not claimed. Velocity impossible (no spliced/unspliced) |
 | 5 | Oncogenic clones increase wild-type proliferation, proximity-dependently (Fig 5) | Ki67, EdU, clone size vs distance | pooled spatial pair rows, no mouse or clone IDs | **Reproduced descriptively** (FU_W): size slope −109 to −16% per 100 um, robust to bin occupancy. Inferential test blocked without identifiers → **A18** |
@@ -35,13 +38,17 @@ velocity analysis would remain model-dependent, not lineage ground truth.
 
 ## Current opportunities and prerequisites
 
-1. **A16 attribution:** preserve the original compartment and separate libraries,
-   with independently defined neighbourhoods and explicit depth/contamination
-   limits. The old pooled FU_C result does not settle attribution. Stable
-   cell-intrinsic function requires independent outcomes.
-2. **A17 clone-growth models:** reconcile source/archive units and parameters,
-   specify the schedule and amend FU_S before a held-out comparison. The
-   deposited code defect cannot by itself overturn biological founder evidence.
+1. **A16 attribution:** corrected C1 now preserves the original compartment and
+   separate libraries with a frozen embedding and common effect scale. Priming
+   attenuates, but substantial residual matching imbalance prevents attribution.
+   Specificity, contamination limits and independent functional outcomes remain
+   unresolved; repeating the old pooled FU_C comparison would not settle them.
+2. **A17 clone-growth models:** raw-source accounting reproduces all 58 count
+   rows and identifies 11 primary mice. Source-code parameter mapping and the
+   14-day switch are documented; published-curve provenance remains unresolved.
+   FU_S still needs a model/score amendment before a held-out comparison; the
+   full stochastic refit has not run. A code defect cannot by itself overturn
+   biological founder evidence.
 3. **E-N1/E-N2 mouse-level questions:** assess distributed identity loss and
    paired mutant burden/WT response with the nonspatial mouse/lobe hierarchy.
    These are narrower than A18's blocked spatial interaction.

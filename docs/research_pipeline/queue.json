@@ -1,9 +1,9 @@
 {
   "schema": "computational-research-queue/v1",
-  "updated": "2026-09-27",
-  "branch": "codex/computational-research-pipeline",
-  "base_merge": "17ca9b49a4da29afef4214449ea940d1b62b999e",
-  "next_task": "C6-audit-followups",
+  "updated": "2026-09-28",
+  "branch": "codex/rq-gap-fill",
+  "base_merge": "71321fa275259225681f57403871cc5f4f48bef2",
+  "next_task": null,
   "active_processes": [],
   "new_biological_analysis_executed": true,
   "task_policy": "One checkpoint per task; pending dependencies are not biological failures. Gate failure records its evidence and permits unrelated ready tasks.",
@@ -67,44 +67,53 @@
     {
       "id": "C6-audit-followups",
       "task": "audit_a5_external_correspondence",
-      "status": "ready",
-      "depends_on": []
+      "status": "completed_with_data_gate",
+      "depends_on": [],
+      "artifacts": "RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/REPORT.md",
+      "note": "Recovered 56 author/GEO libraries and Krt8-ADI/AT2_activated vocabulary. Per-cell state/mouse map and 55/56 reconciliation unresolved; no new A5 score."
     },
     {
       "id": "C7",
       "task": "validate_a5_annotation_transport",
-      "status": "pending",
+      "status": "blocked",
       "depends_on": [
-        "C6"
-      ]
+        "C6-audit-followups"
+      ],
+      "note": "Requires barcode-level author metadata and verified biological units; no validated annotation transport has run."
     },
     {
       "id": "C8",
       "task": "score_eligible_independent_a5",
-      "status": "pending",
+      "status": "blocked",
       "depends_on": [
         "C7"
-      ]
+      ],
+      "note": "Unchanged instrument preserved; independent scoring cannot run before state, unit and assay gates pass."
     },
     {
       "id": "C9",
       "task": "audit_independent_a12_cohort",
-      "status": "ready",
-      "depends_on": []
+      "status": "completed_with_data_gate",
+      "depends_on": [],
+      "artifacts": "RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md",
+      "note": "Three candidate gates resolved: Kim zero tumour AT2, Laughney at most four pairs, Wu no separate normal arm. None permits the unchanged external comparison."
     },
     {
       "id": "C10",
       "task": "evaluate_a12_transfer",
-      "status": "pending",
+      "status": "blocked",
       "depends_on": [
         "C9"
-      ]
+      ],
+      "note": "No eligible independent cohort admitted. Frozen-model transport and algorithm replication remain distinct future tests."
     },
     {
       "id": "C11",
       "task": "synchronize_final_gap_status",
-      "status": "pending",
-      "depends_on": []
+      "status": "completed",
+      "depends_on": [],
+      "artifacts": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md",
+      "note": "All 20 question entries have execution/remaining-input records; this documentation pass also reconciles the legacy queue."
     },
     {
       "id": "C5b",
@@ -136,5 +145,18 @@
       "artifacts": "RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/diagnostics/",
       "note": "46 viral features, and the MERS and influenza figures corrected to their eligible donors"
     }
+  ],
+  "prior_queue_context": {
+    "updated": "2026-09-27",
+    "branch": "codex/computational-research-pipeline",
+    "base_merge": "17ca9b49a4da29afef4214449ea940d1b62b999e",
+    "next_task": "C6-audit-followups"
+  },
+  "current_scope": "C0-C11 execution queue reconciled to merged gap-fill results; independent A5/A12 scoring remains blocked, not biologically refuted.",
+  "current_ledger": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md",
+  "next_actions": [
+    "Recover missing A5 author state/mouse metadata and reconcile libraries with animals.",
+    "Identify a genuinely compatible independent A12 cohort; prior failed gates remain failed.",
+    "Use the current global ledger for A16/A17 and other questions outside this legacy queue."
   ]
 }

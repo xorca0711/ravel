@@ -1,10 +1,20 @@
 # Computational pipeline for remaining research gaps
 
-**Date:** 2026-09-27, status corrected the same day. **Status:** the A11 acute-injury branch, C0 through C7, is frozen, scored, reported and merged; the A5 and A12 audits are the ready work. This page restates [the queue](research_pipeline/queue.json), which is the execution record, so when the two disagree the queue is right. The earlier head here said new biological analyses were pending after they had run.
+**Synchronized 28 September 2026.** A11 C0–C5 and its diagnostics are complete;
+the [current A11 report](../RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md)
+governs interpretation after identity adjudication. A5 recovery (C6-audit-followups)
+and the three-candidate A12 audit (C9) are now complete with data gates. C7/C8
+and C10 remain blocked; no independent validation score has run. C11 status
+synchronization is complete. The [queue](research_pipeline/queue.json) records
+these states and the [global gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+covers the additional A15–A18 work. No scientific job is running.
 
 The [handoff](handoffs/2026-09-27-computational-research.md) holds exact paths, sources and prior decisions. The [queue](research_pipeline/queue.json) records execution state. The purpose is to distinguish reused injury programmes from lesion-associated expression, identify reproducible source/recipient associations, and expose which fate or mechanism claims still need additional measurements. Each task produces a reviewable checkpoint; completion of retrieval is never completion of analysis.
 
-## Small tasks and decision gates
+## Task contracts and decision gates
+
+The table retains the original task definitions. Current execution status is
+in the queue and summary above; completed intake/analysis tasks are not a new launch order.
 
 | Task | Bounded work and biological purpose | Saved deliverable | Exit condition |
 |---|---|---|---|
@@ -14,20 +24,27 @@ The [handoff](handoffs/2026-09-27-computational-research.md) holds exact paths, 
 | C3 | Apply C2 to names/labels/count structure; construct donor-arm pseudobulks only for eligible units | Coverage, exclusion reasons, unit table, pseudobulk hashes | Raw nonnegative count semantics verified; all primary gates pass. No threshold reduction to rescue a failed gate |
 | C4 | Execute frozen A11 RNA contrast | Scores, donor paired differences, intervals, primary and secondary results, diagnostics, run record | Quantify acute induction or uncertainty. No cancer-specificity proof from a null result; no repair/function or causal signalling claim |
 | C5 | Independently verify joins, group sums, module membership and numerical inference | Verification JSON and concise biological report | Independent recomputation matches within a stated tolerance, or discrepancy is resolved and recorded |
-| C6 | Audit A5 external sample/state correspondence, first GSE202325, then GSE303646 if needed | Mouse identity map and programme-independent annotation-validation plan | Author state labels verified, or a separately named transport protocol frozen. Stop if animal identity or annotation validity remains missing |
+| C6-audit-followups | Audit A5 external sample/state correspondence, first GSE202325, then GSE303646 if needed | Mouse identity map and programme-independent annotation-validation plan | Author state labels verified, or a separately named transport protocol frozen. Stop if animal identity or annotation validity remains missing |
 | C7 | Execute A5 validation of a new annotation method before any target-module comparison | Mouse-held-out confusion/abstention results, excluded-feature set and domain-shift diagnostics | Prespecified annotation acceptance criteria pass; no use of tested developmental modules to select labels or thresholds. Failed classifier is a result, not a reason to relabel cells |
 | C8 | Run eligible independent A5 contrast using the frozen instrument, or its explicitly justified amendment | Per-mouse scores, paired effect and uncertainty | Full UMI provenance, >=500 UMIs/cell, >=30 cells/arm, >=3 mice across days 2–21, >=70% module coverage for the unchanged test; report amendment limits |
 | C9 | Identify an independent A12 cohort with comparable fixed recipient states and source compartments | Bounded candidate ledger, donor/state coverage and transfer contract | Sufficient independent eligible units for a justified fixed-model evaluation; no re-selection of predictors on validation outcomes |
 | C10 | Execute and verify A12 transfer if C9 passes | Held-out predictions, absolute error/calibration, baseline comparison, uncertainty | Train-only transformations and donor independence; distinguish frozen-model transfer from a new cohort-specific refit |
 | C11 | Update current RQ status and next data requirements | Dated report, current queue, PROGRESS, AI_CONTEXT | Every task marked completed, interrupted, pending or blocked with evidence; no claim that all public data have been exhausted |
 
-C1–C5 run first because the annotated candidate object is now local. This is a cost/availability sequencing decision, not a revision of the roadmap's scientific priority for A5. C6 and C9 can advance after an A11 gate stops; a failed gate must not terminate all independent work.
+The original C1–C5-first sequence is complete. C6-audit-followups and C9 have
+also produced bounded recovery reports; they are not still ready-to-run tasks.
+Reopen their dependent analyses only when new evidence satisfies the recorded
+gate. C7 now depends on the actual C6-audit-followups ID rather than a nonexistent C6 entry.
 
 ## Contract requirements
 
 Use one contract and a fresh output directory per new test. Separate primary estimand, technical sensitivity and biological controls. Preserve original gene maps, normalization scope and inference when claiming the same instrument. Any change is a named amendment with its own interpretation. State author-annotation dependence and possible selection of surviving cells after infection. Hash source files; record assay identity and donor evidence, not merely accession strings.
 
-A11's candidate instrument is donor-arm raw-count pseudobulk, edgeR TMM and mean logCPM with prior.count=1 over the already frozen human module. C1 must establish whether the RDS RNA counts can support it. Integrated/scaled expression is not raw input; corrected fractional counts need explicit assay assessment or raw-HDF5 recovery. Exact small-sample confidence intervals may be unattainable; report that instead of silently switching methods.
+A11's executed instrument and subsequent identity restrictions are recorded
+in its frozen contract, saved computations and current report. The intake
+contract is not an instruction to restart C1. Integrated/scaled expression is
+not raw input, and exact small-sample intervals may be unattainable; these
+measurement limits remain explicit in the saved analysis.
 
 A5 annotation transport is a different task from clustering. Establish correspondence to transitional and activated-AT2 states without including the tested module genes, select thresholds before new-cohort outcomes, evaluate on held-out biological units and allow abstention. Failure of an external author label to exist does not authorize inventing it. GSE202325 has age/time/chemistry strata; specify the target population and aggregation before scores.
 

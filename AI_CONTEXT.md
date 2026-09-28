@@ -1,5 +1,23 @@
 # AI context
 
+## Current documentation handoff, 28 September 2026
+
+The current docs branch is `codex/research-doc-sync`, based on remote main
+`71321fa` after gap-fill PR #107 merged. Read the [main README](README.md),
+[dataset inventory](docs/DATASETS.md) and
+[current execution ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md).
+The owner wants project-level navigation and no front claims table. Keep
+paper-specific entry points in the paper index and evidence grading in the
+claim register. The paper roadmap's JSON and Markdown must agree; using a
+deposit does not mark its paper as read.
+
+The legacy queue now records completed A5/A12 eligibility audits with their
+downstream scoring tasks blocked; it is not a command to repeat those audits.
+No scientific job is running or was started for this documentation pass.
+[Audit and checks](docs/audits/2026-09-28-documentation-sync/REPORT.md) define its
+scope. Older handoffs below are historical where superseded. Preserve main's
+untracked `.claude/` and adversarial-review files and all original run artifacts.
+
 ## Current gap-fill handoff, 28 September 2026
 
 Start with [gap-fill results and the every-question ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md).

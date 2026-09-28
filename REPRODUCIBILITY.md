@@ -1,13 +1,17 @@
 # Reproducibility guide
 
 This repository supports three levels of verification. The first two use only
-tracked files; the full analysis requires the public GEO downloads and the
-pinned scientific Python environment.
+tracked files. Scientific reruns require each analysis's pinned inputs,
+dependencies and commands; later question-specific analyses extend beyond the
+original two-atlas pipeline described below.
 
 ## 1. Review the result without computation
 
-Start with [`docs/PORTFOLIO.md`](docs/PORTFOLIO.md) and [`RESEARCH_QUESTIONS.md`](RESEARCH_QUESTIONS.md), then follow each figure to its tracked
-table and generated per-dataset report. [`docs/PIPELINE_AS_RUN.md`](docs/PIPELINE_AS_RUN.md)
+Start with the [question register](RESEARCH_QUESTIONS.md),
+[paper index](Research%20Article/README.md) and [dataset inventory](docs/DATASETS.md),
+then follow the relevant figure to its tracked table and report. The
+[current execution ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+identifies later corrections and data gates. [`docs/PIPELINE_AS_RUN.md`](docs/PIPELINE_AS_RUN.md)
 is the record of the original atlas pipeline, not every later trial. It is generated from the decision
 logs rather than maintained as a second handwritten method description.
 
@@ -19,6 +23,7 @@ Python 3.12 is recommended; no third-party package is needed:
 python analysis/scripts/validate_repository.py
 python analysis/scripts/claim_contract.py --check
 python "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+python RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py
 python -m unittest discover -s analysis/tests -q
 python -m compileall -q analysis "Research Article" RQ_Specified
 ```
@@ -29,6 +34,11 @@ lineage-tracing range from the tracked CSV tables. GitHub Actions runs the same
 checks on every push and pull request. The generated claim manifest binds
 selected values to explicit artifacts, filters and aggregation rules. Its
 coverage is stated per row; CI does not reproduce all biological claims.
+The archived A16 verifier checks the original Stage 1 artifacts. Later
+[A16 corrections](RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)
+and [A15 normalization corrections](RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/NORMALIZATION_ERRATUM_2026-09-28.md)
+have separate verification records; passing an archive check does not endorse
+superseded interpretations.
 
 Local portable runtimes may contain ignored third-party Python 2 files. In a
 workspace containing `analysis/corrections/statistics/.tools/`, compile the

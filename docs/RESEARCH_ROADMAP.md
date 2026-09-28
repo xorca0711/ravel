@@ -1,10 +1,27 @@
 # Research roadmap: closing the biological and logical gaps
 
-**Computational continuation:** [small-task pipeline](COMPUTATIONAL_RESEARCH_PIPELINE.md) and [next-session handoff](handoffs/2026-09-27-computational-research.md). Intake has started; new biological scoring is pending.
+**Current execution, 28 September 2026:** the [gap-fill report and every-question ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+record the merged A15 normalization correction, corrected A16 C1, A17 source
+accounting and A5/A12 recovery gates. The [small-task queue](research_pipeline/queue.json)
+is synchronized; no scientific job is running and no eligible external A5/A12
+score is queued. The older [handoff](handoffs/2026-09-27-computational-research.md)
+and [first P0–P5 execution](roadmap_runs/2026-09-27/README.md) remain historical.
 
-**Latest execution:** [follow-through](roadmap_runs/2026-09-27-followthrough/README.md) adds completed A12/A13 exploratory pilots, expanded candidate checks and experimental precision scenarios. The [remaining-work ledger](roadmap_runs/2026-09-27-followthrough/remaining_work.json) identifies actual data requirements; prospective designs below are not completed experiments.
+The [27 September follow-through](roadmap_runs/2026-09-27-followthrough/README.md)
+contains the completed A12/A13 exploratory pilots and prior candidate checks.
+Prospective designs below describe requirements; they are not completed experiments.
+Use the [dataset inventory](DATASETS.md) for current analysed versus gated inputs.
 
-**Date:** 27 September 2026. **Status:** the first bounded execution is complete; see the [P0–P5 reports](roadmap_runs/2026-09-27/README.md) for completed source checks, calculations and failed gates. The designs below remain prospective wherever compatible data are missing.
+| Current checkpoint | Next enabling input or decision |
+|---|---|
+| A5 recovery completed; unchanged external test blocked | Per-barcode state/mouse export and 55-mice/56-libraries reconciliation |
+| A12 three-candidate audit completed; no cohort admitted | Different paired cohort with supported fixed recipient and source definitions |
+| A13 fixed predictor worsened held-out error | Close this cohort/predictor cycle; no same-data retuning |
+| A15 sensitivity corrected; parent mechanism unresolved | Independent units and appropriate activation/recipient measurements |
+| A16 C1 corrected; substantial residual imbalance | Biological attribution and independent outcome evidence remain open |
+| A17 input accounting completed; full refit unrun | Explicit source variants, switching, common scoring and tail-diagnostic amendment |
+
+**Planning baseline:** 27 September 2026, with execution status synchronized on 28 September.
 
 This roadmap follows the [repository rationale audit](audits/2026-09-27-rq-rationale/REPORT.md) and [shared architecture](RESEARCH_ARCHITECTURE.md). It preserves existing stop decisions and frozen instruments. It structures future work without changing claim grades or treating A15 registration as accepted. A dataset mentioned in an older analysis is not automatically eligible for a new question.
 
@@ -66,7 +83,7 @@ P1 and P2 can proceed independently. P3 and P5 require P0's outcome definition. 
 
 For an alveolar maturation study, select a primary mature-cell contribution endpoint with independent protein/morphology criteria, plus a prespecified functional endpoint when available. The particular endpoint depends on the model. If function is unavailable, label the conclusion as differentiation or lineage contribution. Tissue physiology also needs an attribution design before it can be assigned to one epithelial mechanism.
 
-**Deliverables.** Record the starting population, injury/exposure, early and late sampling times, independent unit, numerator/denominator, missingness, primary contrast, and biological interpretation. Maintain an outcome index for A0–A15 and A12-S1 linking estimates, uncertainty, failed gates and current interpretations. Proposed claim rows remain separate from owner-graded claims.
+**Deliverables.** Record the starting population, injury/exposure, early and late sampling times, independent unit, numerator/denominator, missingness, primary contrast, and biological interpretation. Maintain an outcome index for A0–A18 and A12-S1 linking estimates, uncertainty, failed gates and current interpretations. Proposed claim rows remain separate from owner-graded claims.
 
 **Completion criterion.** Every selected new run has one primary estimand and a decision it can change. The ledger may correctly say completed/inconclusive, stopped, or awaiting data. None of these is a new evidence grade.
 
@@ -184,7 +201,7 @@ These are the original planned tasks. The [execution record](roadmap_runs/2026-0
 
 For each task, save: the question; existing evidence; principal rival; data exposure history; unit and target population; predictor/intervention and independent endpoint; estimand; precision or meaningful-effect criterion; eligibility/stop rule; and the decision under positive, contradictory and inconclusive results. Set any new margin before the relevant outcomes are inspected. Existing frozen specifications are amended transparently, never overwritten.
 
-The first execution batch should be T0–T2. T4 can be a small metadata-only feasibility task alongside them. Run T3's analysis only after eligibility and specification are complete. Choose the next mechanism branch from the resulting evidence; there is no reason to activate every RQ simultaneously.
+The T0–T2-first ordering describes the original planning sequence. The current checkpoint table and linked every-question ledger now govern execution: retain completed source recoveries, do not restart failed cohort gates, and run a new analysis only after its missing inputs and specification are resolved. Choose the next mechanism branch from that evidence rather than activating every RQ simultaneously.
 
 **Success for the next phase:** a trustworthy screen-design ceiling, one eligible independently specified replication or a documented data gap, and one explicit path from early state to a later independent outcome. Negative or inconclusive findings can meet that goal when they resolve which claims and next tests are justified.
 

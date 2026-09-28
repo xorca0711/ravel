@@ -1,10 +1,12 @@
 # Next dataset gate: connect expression to measured outcomes
 
-**Status update, 26 September 2026:** the first candidate's joins and two A10
-model specifications are complete. Start with the
-[revised result](../RQ_Specified/A10_organoid_growth_outcome/reports/STAGE4_REVISED_REPORT.md)
-and [current handoff](../PROGRESS.md). Biological preparation identities remain
-unresolved. The dated gate below is retained as provenance, not an unexecuted
+**Status synchronized, 28 September 2026:** the first candidate's A10 joins,
+revised models and [design follow-up](../RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md)
+are complete. Later [source-design recovery](roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md)
+identifies repeats split from a starting mixture; independent biological
+preparation identities remain unresolved. Use the
+[current execution ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md) for remaining
+gates. The dated design below is retained as provenance, not an unexecuted
 instruction or confirmation of independent replication.
 
 Decision date: 22 September 2026. This is a prospective analysis gate following

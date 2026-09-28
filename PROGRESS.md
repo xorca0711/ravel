@@ -2,6 +2,27 @@
 
 **Update this before stopping work, every session.**
 
+## Current documentation synchronization, 28 September 2026
+
+Gap-fill PR [#107](https://github.com/xorca0711/scRNA_seq/pull/107) merged at
+`71321fa`. This documentation pass starts from that remote main on
+`codex/research-doc-sync`. The [main README](README.md) now introduces the project
+and links to questions, studies, datasets, figures and reproducibility. The
+owner explicitly removed the front claims table and paper-specific start links;
+the full claim register remains the evidence authority.
+
+The new [dataset inventory](docs/DATASETS.md) retains the former accession rows
+and adds later inputs, selected biological units and failed eligibility gates.
+The [paper roadmap](Research%20Article/README.md) and its JSON agree on current
+analysis status without changing the owner's reading order or note status.
+Execution guides, the legacy queue, England summaries and reproducibility
+navigation are synchronized to the merged evidence. No scientific rerun or
+change to a registered claim is part of this pass. The
+[synchronization audit](docs/audits/2026-09-28-documentation-sync/REPORT.md)
+records scope and validation. Older checkpoints below retain their original
+branch, readiness and publication context; they are historical where superseded.
+Validation passed 3,740 repository checks and 40 targeted documentation checks.
+
 ## Current gap-fill execution, 28 September 2026
 
 Fetched remote main at `33b27cf`; work is isolated on `codex/rq-gap-fill`.

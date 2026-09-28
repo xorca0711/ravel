@@ -1,6 +1,14 @@
 # References
 
-Every source study whose deposit this repository has opened, every roadmap paper, the method papers behind the original pipeline, and the methods references the analysis reads at the step that uses them. Metadata verified against PubMed.
+This central bibliography covers the original source studies, roadmap papers
+and selected analysis methods. Later question-specific source references also
+live in their linked reports; this page is not an exhaustive inventory of every
+inspected deposit. Use the [dataset inventory](docs/DATASETS.md) to find those
+sources and their current analytical roles, and the
+[paper roadmap](Research%20Article/README.md) for reading and execution status.
+Bibliographic verification dates apply to the entries or groups that record
+them; the 28 September documentation synchronization did not reverify all
+publication metadata.
 
 ---
 

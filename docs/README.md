@@ -1,21 +1,27 @@
 # Documentation Index
 
-**England review, 28 September 2026:** [paper, claims and A16–A18 audit](audits/2026-09-28-england-paper-rqs/REPORT.md),
-[eight biological hypotheses](../Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md),
-and [architecture/revision record](audits/2026-09-28-england-paper-rqs/ARCHITECTURE_REVIEW.md).
+Start with the [research questions](../RESEARCH_QUESTIONS.md),
+[paper roadmap](../Research%20Article/README.md) and [dataset inventory](DATASETS.md).
+The [current project state](../PROGRESS.md), [execution roadmap](RESEARCH_ROADMAP.md)
+and [latest gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md) distinguish
+completed work from remaining inputs and decisions.
 
 Repository guides: [structure and label scope](REPOSITORY_STRUCTURE.md),
-[portfolio summary](PORTFOLIO_SUMMARY.md) and
-[next-dataset gate](NEXT_DATASET_GATE.md).
+[research architecture](RESEARCH_ARCHITECTURE.md),
+[reproducibility](../REPRODUCIBILITY.md) and [portfolio summary](PORTFOLIO_SUMMARY.md).
+The [next-dataset gate](NEXT_DATASET_GATE.md) is a historical design with links
+to the resulting analyses. Dated reviews, including the
+[England source review](audits/2026-09-28-england-paper-rqs/REPORT.md), retain their
+original scope; they are not the repository-wide navigation hierarchy.
 
 > **Tool reference pages are not execution records.** The five tool pages below
 > describe tools and the reference study's design. They do **not** imply that
-> every tool described here was used in the analysis in `analysis/`, most were
+> every tool described here was used in the original atlas analysis, most were
 > not. For what was actually executed, with real parameters and cell counts,
 > see **[`PIPELINE_AS_RUN.md`](PIPELINE_AS_RUN.md)**, which is generated from
 > the pipeline's own outputs and states tool-by-tool which were used.
 >
-> Short version: of the five tools documented here, only **Scrublet** was used.
+> In that original pipeline, of the five tools documented here, only **Scrublet** was used.
 > SoupX, scds, Slingshot and tradeSeq were **not**. `PIPELINE_AS_RUN.md` also
 > records where the executed analysis departs from the two source publications.
 

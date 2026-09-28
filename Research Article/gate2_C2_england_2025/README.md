@@ -77,12 +77,19 @@ These are execution stages, not independent replication cohorts.
 | Follow-up, FU blocks | Depth, gate, neighbourhood, topology and spatial sensitivities | [Follow-up](RESULTS_FOLLOWUP.md) | [Source/claim audit](../../docs/audits/2026-09-28-england-paper-rqs/REPORT.md) |
 | A16 Stage 1 | Marker attribution sensitivities in the question-specific workspace | [A16 original results](../../RQ_Specified/A16_cd177_state_attribution/reports/STAGE1_RESULTS.md) | [A16 integration review](../../RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md) |
 
+Two later computational tasks have their own versioned records:
+
+- [Corrected A16 C1](../../RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md): fixed populations and gene-excluded local matching; no full attribution claim.
+- [A17 source accounting](../../docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md): all 58 saved count rows reproduced, 11 primary source-indexed mice; no stochastic refit.
+
 ## Questions and next decisions
 
-**A16** is partly measured and inconclusive; a corrected same-population
-comparison and independent functional evidence remain open. **A17** needs
-source-count, parameter and schedule reconciliation before its stochastic
-refit. **A18** needs spatial mouse/clone identities for animal-level inference.
+**A16** remains biologically inconclusive. Its [corrected C1 comparison](../../RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)
+now retains fixed populations in separate libraries and excludes tested genes
+before neighbourhood construction; priming attenuates, with substantial residual
+imbalance. **A17** now has [verified raw-source counts and code mapping](../../docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md).
+Manuscript/curve provenance and a fully specified fair stochastic refit remain
+open. **A18** still needs spatial mouse/clone identities for animal-level inference.
 The [candidate cards](CANDIDATE_HYPOTHESES.md) explain the feasible E-N1/E-N2
 mouse-level extensions and the additional RNA/mechanistic hypotheses.
 
