@@ -1,0 +1,63 @@
+{
+  "schema": "england-through-EN7-amendments/v1",
+  "parent_contract": "config/continuation_contract.json",
+  "parent_contract_sha256": "unchanged; see trials/continuation/stage_status.json for the commit that froze it",
+  "frozen_local_date": "2026-09-28",
+  "principle": "Each amendment is recorded before the endpoint it affects is evaluated. None changes a batch1 result or a claim grade.",
+  "amendments": [
+    {
+      "id": "CA1",
+      "stage": "EN6",
+      "status": "frozen_before_simulation_run",
+      "kind": "source code observation and added diagnostic implementation",
+      "observation": "In sim_two_pop_model.m (archive SHA-256 404697263ca941b1b74dee9feb4c4680ff3077d9e20bb7105482d17f14e96a70, member identical to live Git blob 9cf4e967cd19f17b968ff175d129529ac5f40312), the branch that selects the slow-population loss event compares the uniform draw against a cumulative sum whose last two terms are the same variable: (wf1+wf2+ws2+ws2)/w in function_2_population_model and (ws1+ws2+wp2+wp2)/w in function_2_population_model_ageing. The intended cumulative sum is the total propensity w. When the slow-population renewal probability q equals 0.5 the two expressions coincide and nothing changes. When q differs from 0.5 the loss interval is empty (q greater than 0.5) or a draw can fall past the last branch and advance time without any event (both cases).",
+      "consequence_to_test": "The Red2Kras RFP parameter block uses r = q = 0.7 before and after tau, so in a source-literal run the slow population never loses a cell and its effective dynamics become pure birth at rate q*sigma rather than birth q*sigma and death (1-q)*sigma. The Confetti and Red2Kras YFP blocks use r = q = 0.5 and are unaffected. Numerical size of the effect on the n>=2 clone-size distribution has not been calculated at freeze time.",
+      "implementation_change": "Add a third implementation, 'source-literal with corrected branch cumulative', to the two already frozen (source-literal; boundary-correct Gillespie). It reproduces every other literal behaviour (event applied after the horizon is crossed, old rate across the tau boundary, founder allocation rep <= fraction*nclones counted from zero) and changes only the branch cumulative to the total propensity. Its purpose is to attribute any literal-versus-corrected difference to the branch typo separately from the horizon and rate-switch behaviours.",
+      "interpretation_boundary": "This is a code observation about the deposited script. It does not show which implementation produced the published best-fit curves, and it does not by itself change any published parameter or claim."
+    },
+    {
+      "id": "CA2",
+      "stage": "EN1",
+      "status": "disclosure_no_rule_change",
+      "kind": "implementation disclosure",
+      "observation": "The contract specifies igraph Louvain. No 'louvain' Python package is installed in the verified runtime. igraph 1.0.0 exposes Graph.community_multilevel(weights, return_levels, resolution), which is the Louvain multilevel algorithm with a resolution parameter.",
+      "implementation_change": "Louvain is run through igraph community_multilevel with the contract resolutions 0.5, 1.0 and 1.5 and seed 20260928 set through igraph's random generator. This satisfies the frozen algorithm; it is not Leiden and is not an exact reproduction of Seurat's Louvain implementation."
+    },
+    {
+      "id": "CA3",
+      "stage": "EN2-EN5",
+      "status": "disclosure_planned_reuse",
+      "kind": "reuse of a passed check",
+      "observation": "The primary inclusion rule removes automatic doublets. Batch1 already ran scanpy Scrublet (seed 20260927) on every library, and its per-cell flags are cached with barcodes under processed/batch1/rna.",
+      "implementation_change": "Continuation scripts may join batch1 doublet flags by barcode after asserting that the source-QC cell set is identical, instead of rerunning Scrublet. Module scores are never inherited from batch1 caches; they are recomputed from counts with the mapped-gene denominator as the handoff requires."
+    }
+  ],
+  "runtime_verified_2026_09_28": {
+    "interpreter": "C:/Users/dream/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe, Python 3.12.14 AMD64",
+    "site_packages": "X:/GitHub/scRNA_seq/.venv-x64/Lib/site-packages",
+    "versions": {
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "scipy": "1.18.0",
+      "anndata": "0.13.2",
+      "scanpy": "1.12.3",
+      "igraph": "1.0.0",
+      "leidenalg": "0.12.0",
+      "umap-learn": "0.5.12",
+      "pynndescent": "0.6.0",
+      "scikit-learn": "1.9.0",
+      "matplotlib": "3.11.1",
+      "h5py": "3.16.0"
+    },
+    "missing": [
+      "louvain",
+      "scrublet standalone package (scanpy's built-in Scrublet is available)",
+      "psutil"
+    ],
+    "cpu_count": 8
+  },
+  "external_object_schema_confirmed_2026_09_28": {
+    "Choi": "tomato_annotated_d2b.h5ad: 11,683 cells x 27,998 features; layers/counts CSR float32 with integer values; var index 'feature' holds symbols; obs library PBS_AT2_Tomato 4,319, Day14_AT2_Tomato 3,790, Day28_AT2_Tomato 3,574; obs state includes AT1 337, DATP 880, cAT2 313, hAT2 9,546 and three contaminant labels; predicted_doublet all False",
+    "Niethamer": "alveolar_trajectory.h5ad: 5,694 cells x 32,228 features; layers/counts CSR float32 with integer values; var gene_symbol and gene_id are nullable string groups; 25 sample_id values, all author_lineage Epithelium; sacrifice_day 0 (2 samples, 579 cells), 6, 11 (2 samples, 487 cells), 19, 25 (2 samples, 557 cells), 42, 90, 366; author_celltype AT1 1,759, AT1_AT2 429, AT2 3,277, Alveolar_transitional 229; cell_cycle_phase G1/S/G2M present; predicted_doublet all False"
+  }
+}

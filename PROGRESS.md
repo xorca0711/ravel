@@ -1,5 +1,15 @@
 # Progress and handoff state
 
+## England continuation, second session state, 28 September 2026
+
+Resumed from the [England EN7/CD177 handoff](docs/handoffs/2026-09-28-england-en7-cd177.md).
+Runtime and Choi/Niethamer schemas re-verified; three
+[continuation amendments](Research%20Article/gate2_12_england_2025/config/continuation_amendments.json)
+frozen before any endpoint, including a deposited-simulator branch observation
+that the earlier handoff did not carry. **No continuation endpoint has run; no
+script was written.** State saved and opened as a pull request at the owner's
+request. Batch1 outputs and claim grades are unchanged. No job is running.
+
 ## England continuation handoff, 28 September 2026
 
 The owner requested completion through EN7, added CD177-associated transitional

@@ -1447,6 +1447,24 @@ behavior was read, not numerically evaluated. No result or historical claim was
 regraded. The [handoff](docs/handoffs/2026-09-28-england-en7-cd177.md) owns the
 continuation queue; this documentation is not evidence that EN7 has executed.
 
+## England continuation session state, 28 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | Continuation session opened; runtime, external objects and source simulator re-inspected; amendments CA1 to CA3 frozen | Claude, from the handoff and frozen contract | Owner asked to settle the state, save, commit and open a PR before any endpoint ran; scientific acceptance remains open | Recorded in [continuation amendments](Research%20Article/gate2_12_england_2025/config/continuation_amendments.json); no continuation endpoint executed, no batch1 file changed, no claim regraded | An amendment that can change an EN6 outcome must be frozen before that endpoint is evaluated |
+
+The session confirmed the bundled AMD64 interpreter and the checkout's scientific
+packages, confirmed the Choi and Niethamer object schemas the contract relies on,
+and found one source-code observation the handoff did not carry: the deposited
+simulator's slow-population loss branch compares against a cumulative sum that
+repeats one term, so with renewal probability 0.7 (the Red2Kras RFP block) that
+loss event can never fire. Its numerical effect is not calculated. A third,
+diagnostic implementation was added to the EN6 plan to attribute any difference
+to that branch separately from the horizon and rate-switch behaviours already
+recorded. The origin/main audit below was merged into this branch, keeping both
+records. Nothing in this session is evidence that EN1 to EN7 have executed.
+
+
 ## 27 September 2026: audit docs/ for AI-session residue, and refuse most of the deletions
 
 | Date | Item | Proposed by | Decided by | Decision | Reason |

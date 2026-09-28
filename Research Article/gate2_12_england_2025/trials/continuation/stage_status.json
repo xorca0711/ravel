@@ -2,6 +2,8 @@
   "status": "contract_frozen_endpoints_not_run",
   "contract_commit": "4d66231",
   "handoff": "docs/handoffs/2026-09-28-england-en7-cd177.md",
+  "amendments": "config/continuation_amendments.json",
+  "session_2026_09_28_second": "runtime verified, external object schemas confirmed, amendments CA1 to CA3 frozen before any endpoint; no analysis script written or run; owner asked to save state, commit and open a PR",
   "no_process_running": true,
   "EN0": "additional public run/source mapping completed; biological identities unresolved",
   "EN1": "source-inspired clustering not run",

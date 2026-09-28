@@ -1,5 +1,16 @@
 # AI context
 
+## England continuation, second session state, 28 September 2026
+
+A second session resumed the [England EN7/CD177 handoff](docs/handoffs/2026-09-28-england-en7-cd177.md),
+re-verified the runtime and external object schemas, and froze three
+[continuation amendments](Research%20Article/gate2_12_england_2025/config/continuation_amendments.json)
+before any endpoint: a simulator branch observation with a diagnostic third
+implementation for EN6, the igraph multilevel route for the contract's Louvain,
+and barcode-joined reuse of batch1 doublet flags. **No continuation script exists
+and no endpoint has run.** The owner asked for the state to be saved, committed
+and opened as a pull request at that point. Batch1 and claim grades are unchanged.
+
 ## England continuation handoff, 28 September 2026
 
 The owner requested completion through EN7, added CD177-associated transitional
