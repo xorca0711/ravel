@@ -1,0 +1,91 @@
+{
+  "stage": "FU_A-FU_E, FU_T follow-up",
+  "started_utc": "2026-09-28T04:59:48.095306+00:00",
+  "followup_contract_sha256": "4f767583f47e592bef60221afdd5b254c380a13fc9c51ae446e91f1266bede76",
+  "continuation_contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "script_sha256": "32b53efe072f5a0eb6dd8dab198b58f1591f2e5ab314edf403ed79952e1045a3",
+  "git_head": "71f8ba003bcc481b7b4a147ec9f1b531aa4d7baa",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "scanpy": "1.12.3",
+    "anndata": "0.13.2",
+    "igraph": "1.0.0",
+    "scikit-learn": "1.9.0"
+  },
+  "exposure": "FULL. Every endpoint of batch1 and the continuation (EN0-EN7) has been evaluated and reported in RESULTS_CONTINUATION.md. This contract is an openly exploratory follow-up on exposed data; it is not preregistration and cannot yield independent validation.",
+  "inputs": [
+    {
+      "path": "processed/continuation/cells_table.csv.gz",
+      "sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\england_continuation_inputs\\alveolar_trajectory.h5ad",
+      "sha256": "6cee7997e65b0b5b9e03cc028ac1baf65da227e5244eb7db71417cce3a7af4e3"
+    }
+  ],
+  "interpretation": "exploratory follow-up on fully exposed data; no direction of state conversion is computed or claimed",
+  "completed_utc": "2026-09-28T05:05:15.696021+00:00",
+  "at1_module_threshold": 1.0101636940780894,
+  "outputs": [
+    {
+      "file": "FU_A_depth_control.csv",
+      "sha256": "3257e93f9d3b8757dc3fe323d21097b199b30ef280f74a27cf9a535bcd40ab77"
+    },
+    {
+      "file": "FU_A_verdicts.csv",
+      "sha256": "93e32d20ba2f0e807b521abecff9d9777cf814cf8db653ec68c555f55969e250"
+    },
+    {
+      "file": "FU_B_at1_gate_calibration.csv",
+      "sha256": "27bd1f580b35d8667cf3d615174b0b17f22147124cda428202552a1e48b4a5cb"
+    },
+    {
+      "file": "FU_B_state_composition_both_definitions.csv",
+      "sha256": "d572bb2202f2dfc30f49a2edf0b71ccf4214b9e733be350768423b06a3990224"
+    },
+    {
+      "file": "FU_C_within_subcluster_cd177.csv",
+      "sha256": "5b3432afba2e895a68a69d717df01ecc12039ddea3704183993cf6e7af28ebc4"
+    },
+    {
+      "file": "FU_D_library_quality_model.csv",
+      "sha256": "07a444c9a817d51ede94598da3af8271582f66cf12f408097869acd7f9d4aa6e"
+    },
+    {
+      "file": "FU_D_model_summary.csv",
+      "sha256": "5cb2c022a372402baf36ad06a9e397f0f362de84f9874aa9483e64266db035ac"
+    },
+    {
+      "file": "FU_E_diffusion_ordering.csv",
+      "sha256": "5481fa5c028cdf42c7342dc5350986cd41fdc587e00ca4b500d1b7b0fb2ba540"
+    },
+    {
+      "file": "FU_E_round1_contaminant_waterfall.csv",
+      "sha256": "0017d7be3d4e5997a737eddfd050c34040df56359434da339e621a60c268364e"
+    },
+    {
+      "file": "FU_E_round2_clusters.csv",
+      "sha256": "f4ce9ffddbf5d9380063e206b2a1e31ff76a80b8a5ba646e8cad08dd08cb78fa"
+    },
+    {
+      "file": "FU_T1_paga_connectivity.csv",
+      "sha256": "8715d787670014433d68377c430e8195c815984ec237132e69b9fbaec2fbd0b6"
+    },
+    {
+      "file": "FU_T2_intermediate_density.csv",
+      "sha256": "16929dcffcf0122cb18481001446ee85bcc0cdc0b0e6ad85b45e697fe013b61f"
+    },
+    {
+      "file": "FU_T3_composition_stationarity.csv",
+      "sha256": "88ec7bf28af5b67956e67a215972798b3a4c7d97d19d9363f3bc4180e6d60632"
+    },
+    {
+      "file": "FU_T4_cycling_equipotency.csv",
+      "sha256": "765cfc160d34e4c0981bdf2b036ab3ba62fd3b98f2efee8685dc24bfad0920e2"
+    }
+  ]
+}

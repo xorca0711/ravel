@@ -30,7 +30,7 @@
     ]
   },
   "EN5_note": "transition-gated groups with >=30 cells on both Cd177 sides under the primary rule exist only in the 2-week mutant RFP libraries GSM7890835/GSM7890836; other libraries will be reported as unavailable for the primary contrast",
-  "next": "owner review of PR; optional: corrected-implementation refit of the two-population model against deposited CCDFs (new contract required)",
+  "next": "optional: FU_S simulator refit; spliced/unspliced re-quantification of 68 ENA runs (needs remote compute); surface CD177 sorting experiment",
   "phase2_completed_local_date": "2026-09-28",
   "EN1_state_reliability_notes": [
     "Transition gate is cluster-concentrated: 88% (Exp1) and 96% (Exp2) of transition-gated cells fall in two clusters. The main transition cluster is 98% mutant RFP in Exp1 (cluster 11) and holds 79% of Exp1 mutant transition cells; in Exp2 cluster 15 holds 90% of mutant transition cells.",
@@ -49,5 +49,18 @@
   },
   "figures": "trials/continuation/figures/EN_C01-EN_C06 (visually reviewed)",
   "no_running_jobs": true,
-  "no_claim_grades_changed": true
+  "no_claim_grades_changed": true,
+  "followup": {
+    "contract": "config/followup_contract.json (frozen 71f8ba0 before endpoints)",
+    "report": "RESULTS_FOLLOWUP.md",
+    "outputs": "trials/followup/",
+    "exposure": "full; exploratory",
+    "FU_A": "CD177 priming/identity/Itga2/remodelling associations are NOT depth artefacts; residualization retains 87-159% of each effect; frozen 4-method rule returned inconclusive because 3,000-UMI thinning leaves GSM7890836 at 26 Cd177+ cells (<30 floor), disclosed post-hoc relaxation to 3 methods",
+    "FU_B": "AT1 module gate (Pdpn/Cav1/Aqp5/Spock2) calibrated on Niethamer author labels: threshold 1.01, sens 0.99, spec 0.99; applying it collapses the England mixed state from 7-36% to 0-8% per library",
+    "FU_C": "within round-2 subclusters the CD177 contrast largely dissolves (Itga2 flips positive in 5/7, AT2 identity -0.36 to +1.27); priming-associated RNA persists in 5/7 - the phenotype is largely compositional",
+    "FU_D": "library technical quality explains R2 0.57 (adj 0.42) of the between-library response-high spread",
+    "FU_E_T": "two-round subclustering (19 Exp1 / 15 Exp2 clusters at r=1.0); PAGA connected but not a chain (largest path 70%/69% of connectivity); intermediates populated (median middle-axis share 0.20/0.25, doublet removal changes <=0.002); composition stationarity uninformative (between-timepoint TV below within-timepoint library TV); cycling equipotency consistent for AT2 vs mixed (12 libraries, median SMD -0.01)",
+    "not_addressable": "direction, rate or reversibility of state conversion; paper ran no trajectory method and the deposit has no spliced/unspliced layers",
+    "deferred": "FU_S corrected-implementation simulator refit (560-point grid) not executed"
+  }
 }
