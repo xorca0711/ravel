@@ -14,8 +14,13 @@ comparable mutant transitional cells and what remains unresolved about state
 mixture, detection and contamination; records four successive evidence states
 (registration, Stage 1, integration review, corrected C1); and carries a
 thirteen-row ledger of original statements that later evidence superseded or
-qualified, with the superseding numbers. The A16 README and PLAN gained pointers
-and a dated post-execution state note. No analysis ran, no claim row or grade
+qualified, with the superseding numbers. Two figures rendered from tracked
+tables by `scripts/plot_amendment_figures.py` support the two claims the
+amendment turns on: corrected C1 attenuation with residual per-PC imbalance,
+and the C3 control-gene scarcity behind the inconclusive specificity verdict.
+Both carry input, script and output hashes in `figures/figure_run.json` and are
+registered in the question figure gallery. The A16 README and PLAN gained
+pointers and a dated post-execution state note. No analysis ran, no claim row or grade
 changed, and the hash-verified contract and erratum are untouched. The register
 card wording is unchanged pending the owner's adoption; the A16 retain/reject
 decision remains pending and separate. Remaining proposal passes (A1 with A10,
