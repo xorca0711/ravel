@@ -2,6 +2,19 @@
 
 **Update this before stopping work, every session.**
 
+## Current combined RQ proposal, 28 September 2026
+
+The owner requested a merged assessment and plan for each question. The
+[draft proposal](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
+covers A0–A18, A12-S1 and the shared A5/A11 workspace, combining rationale depth,
+scope, proposed wording, immediate deliverables and next evidence gates. Based
+on merged PR #109 (`c0a3117`), branch `codex/rq-development-proposal` changes only
+the proposal and navigation/handoff documents. No hypothesis change is adopted,
+scientific analysis run or queue task made runnable by this proposal.
+Validation passed 3,884 repository checks. A coverage check confirms all 20
+question plans have immediate work, next gate/stop and evidence links, alongside
+the shared workspace; only seven documentation files changed.
+
 ## Current RQ workspace orientation, 28 September 2026
 
 Based on merged documentation PR #108 (`f893294`), branch
