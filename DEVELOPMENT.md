@@ -1406,6 +1406,65 @@ The initial combined check/merge command was automatically rejected while a chec
 was still running. Both checks were then separately verified successful before the
 authorized merge; no check or approval was bypassed.
 
+
+## England 2025 planning record, 27 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-27 | Source-grounded England study package and EN0-EN7 analysis structure | Codex, using the article, repository and owner-supplied reading context | Owner requested the scope; scientific interpretation remains for owner review | Plan and metadata intake prepared; no new biological run or claim-grade decision | Separate pooled sequencing experiments, preserve C3 evidence, and expose clone/spatial re-analysis routes |
+
+The owner explicitly confirmed reading before this paper's study note was written.
+Codex authored the synthesis and candidate trial choices; the record does not claim
+human acceptance of those choices or that the requested re-analysis has run.
+Private annotations, copyrighted PDFs, historical freezes and existing claim grades
+were preserved. Source-based caveats are in the [England audit](Research%20Article/gate2_12_england_2025/SOURCE_AUDIT.md).
+
+
+## England execution record, 28 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | First England RNA/clonal analysis batch | Codex specified the bounded contract and source-label amendment | Owner explicitly requested actual analysis after planning; scientific conclusions remain for owner review | Executed and numerically checked; no historical claim regrading | Measure genotype-associated RNA and clone-distribution alternatives without treating pooled libraries or flattened spatial pairs as individual mice |
+
+The first independent verifier used a full-list gene denominator and failed;
+correction to the already frozen mapped-gene definition resolved the check.
+Biological results were not altered to pass it. The per-cell rendering denominator
+is documented explicitly in the render record. Sparse distance bins are marked
+visually, and stronger spatial inference remains blocked. The batch is not an
+exact reproduction of the original six-state Seurat analysis or stochastic model.
+
+
+## England continuation handoff, 28 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | EN7/CD177 contract and next-session handoff | Codex specified the bounded continuation | Owner requested completion through EN7, ideas 4–6 assessment and a handoff; scientific acceptance remains open | Contract frozen before new outcomes; no continuation endpoint run | Preserve verified batch1 and carry forward concrete rules, source intake, paths and remaining gates |
+
+The added public ENA/GitHub/Mendeley catalogue audit recovered sequencing-run
+mapping but no biological pool or repeated spatial-clone identities. The Mendeley
+PDF download returned HTTP 403 and was not inspected. Source simulator timing
+behavior was read, not numerically evaluated. No result or historical claim was
+regraded. The [handoff](docs/handoffs/2026-09-28-england-en7-cd177.md) owns the
+continuation queue; this documentation is not evidence that EN7 has executed.
+
+## England continuation session state, 28 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | Continuation session opened; runtime, external objects and source simulator re-inspected; amendments CA1 to CA3 frozen | Claude, from the handoff and frozen contract | Owner asked to settle the state, save, commit and open a PR before any endpoint ran; scientific acceptance remains open | Recorded in [continuation amendments](Research%20Article/gate2_12_england_2025/config/continuation_amendments.json); no continuation endpoint executed, no batch1 file changed, no claim regraded | An amendment that can change an EN6 outcome must be frozen before that endpoint is evaluated |
+
+The session confirmed the bundled AMD64 interpreter and the checkout's scientific
+packages, confirmed the Choi and Niethamer object schemas the contract relies on,
+and found one source-code observation the handoff did not carry: the deposited
+simulator's slow-population loss branch compares against a cumulative sum that
+repeats one term, so with renewal probability 0.7 (the Red2Kras RFP block) that
+loss event can never fire. Its numerical effect is not calculated. A third,
+diagnostic implementation was added to the EN6 plan to attribute any difference
+to that branch separately from the horizon and rate-switch behaviours already
+recorded. The origin/main audit below was merged into this branch, keeping both
+records. Nothing in this session is evidence that EN1 to EN7 have executed.
+
+
 ## 27 September 2026: audit docs/ for AI-session residue, and refuse most of the deletions
 
 | Date | Item | Proposed by | Decided by | Decision | Reason |

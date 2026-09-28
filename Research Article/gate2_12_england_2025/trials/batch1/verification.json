@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": 6489,
+  "max_absolute_arithmetic_difference": 3.108624468950438e-14,
+  "source_matrix_rechecks": 4,
+  "clone_likelihoods_recomputed": 246,
+  "limits": "Verifies arithmetic/joins and recorded bytes; does not verify unresolved biological pool identity, prove state identity, or independently optimize the clonal likelihoods."
+}

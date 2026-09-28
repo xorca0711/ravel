@@ -1,0 +1,75 @@
+{
+  "inspected_utc": "2026-09-28T00:41:05.487893+00:00",
+  "ena": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1039244&result=read_run&fields=run_accession,experiment_accession,sample_accession,secondary_sample_accession,sample_title,library_name,instrument_model&format=tsv",
+    "response_sha256": "6543392934fbd45d16a6f327ff2ce0fd248d14a0f88a07eb01f832169fbbc1bf",
+    "runs": 68,
+    "GSMs": 20,
+    "experiments": 20,
+    "BioSamples": 20,
+    "independent_animal_identity_resolved": false
+  },
+  "github": {
+    "url": "https://github.com/ibordeu/scripts_England_et_al_2025_git",
+    "tree_sha": "5bb585a2af9ccbbf66d817fe0d3eca2813fb20d0",
+    "tree_response_sha256": "8a76892f903bdcc3a048bb8356cb96b22017cfa2c6e94fc7aa2077e35772af2f",
+    "paths": [
+      ".gitattributes",
+      "README.md",
+      "data",
+      "data/all_ds.mat",
+      "data/all_nv_cent.mat",
+      "data/all_nv_cent_spc.mat",
+      "data/all_nv_neigh.mat",
+      "data/all_nv_neigh_spc.mat",
+      "data/chlbls.mat",
+      "data/clone_sizes_SPC_pos.mat",
+      "data/clone_sizes_total.mat",
+      "data/datasets.mat",
+      "data/lobe_area_total.mat",
+      "data/store_sections.mat",
+      "data/t0.mat",
+      "data/time_points.mat",
+      "data_analysis.m",
+      "plots",
+      "plots/errorbar_csdist_wo_cs1_conf12w.fig",
+      "plots/errorbar_csdist_wo_cs1_conf24w.fig",
+      "plots/errorbar_csdist_wo_cs1_conf36w.fig",
+      "plots/errorbar_csdist_wo_cs1_conf52w.fig",
+      "plots/errorbar_csdist_wo_cs1_conf60w.fig",
+      "plots/errorbar_csdist_wo_cs1_conf72w.fig",
+      "plots/errorbar_csdist_wo_cs1_kras1w_ch_RFP.fig",
+      "plots/errorbar_csdist_wo_cs1_kras1w_ch_YFP.fig",
+      "plots/errorbar_csdist_wo_cs1_kras2w_ch_RFP.fig",
+      "plots/errorbar_csdist_wo_cs1_kras2w_ch_YFP.fig",
+      "plots/errorbar_csdist_wo_cs1_kras4d_ch_RFP.fig",
+      "plots/errorbar_csdist_wo_cs1_kras4d_ch_YFP.fig",
+      "plots/errorbar_csdist_wo_cs1_kras4w_ch_RFP.fig",
+      "plots/errorbar_csdist_wo_cs1_kras4w_ch_YFP.fig",
+      "sim_two_pop_model.m",
+      "utils",
+      "utils/Violin.m",
+      "utils/densityScatterChart.m",
+      "utils/violinplot.m"
+    ],
+    "simulation_archive_matches_live_git_blob": true,
+    "simulation_git_blob_sha": "9cf4e967cd19f17b968ff175d129529ac5f40312"
+  },
+  "mendeley": {
+    "url": "https://data.mendeley.com/datasets/ss6pb96pty/1",
+    "root_files": [
+      {
+        "filename": "England et al_Mendeley Data Figure 1.pdf",
+        "bytes": 9938971,
+        "sha256": "1571c1731baad2224d2f15fbb570f782d875cca6afbdc78a79845e8e7d12948d"
+      }
+    ],
+    "download_status": "HTTP 403; PDF not inspected"
+  },
+  "notion": {
+    "url": "https://app.notion.com/p/3e0151616b44807ba675e28eeb4db751",
+    "title": "연구 테마 주제 후보",
+    "page_last_edited_at": "2026-09-27T13:22:01.549Z",
+    "scope": "ideas 4,5,6 assessed in CONTINUATION_CONTRACT.md; contents treated as source hypotheses"
+  }
+}

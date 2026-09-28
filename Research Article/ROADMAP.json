@@ -4,7 +4,7 @@
     "origin": "the owner's reading order; the reading notes are kept privately",
     "reading_order_last_checked": "2026-09-15",
     "ids_verified_against_pubmed_on": "2026-09-09 (papers 1 to 11); 2026-09-15 (papers 12 to 16 and M1 to M7)",
-    "analysis_status_updated": "2026-09-25"
+    "analysis_status_updated": "2026-09-28"
   },
   "working_question": "Which epithelial and immune-state programmes distinguish productive lung repair from persistent dysplastic remodelling after inflammatory injury?",
   "gate_rules": {
@@ -332,7 +332,7 @@
       "doi": "10.1016/j.stem.2025.01.011",
       "pmid": "39978341",
       "pmcid": "PMC13432921",
-      "role": "companion of paper 5: NF-kappaB separates tumour initiation from regeneration; GSE247505 is the only replicated time course in the Cardoso set, already used by trial C3",
+      "role": "NF-kappaB feedback, Il1r1 reprogramming, mutant-WT context and clone distributions; GSE247505 has two experiments with pooled-lung libraries",
       "extract": [
         "the two AT2 subpopulations",
         "Il1r1 as the shared activator with Choi 2020",
@@ -341,10 +341,12 @@
       "datasets": [
         "GSE247505"
       ],
-      "folder": null,
-      "note_status": "not started",
-      "trial_status": "none planned; its data are analysed under paper 5",
-      "added": "2026-09-15"
+      "folder": "gate2_12_england_2025",
+      "note_status": "owner read confirmed 2026-09-27; source-grounded synthesis prepared",
+      "trial_status": "First analysis batch complete: 20 RNA libraries, mouse-held-out clone models and descriptive spatial profiles; exact source labels/pool identities/external validation unresolved",
+      "added": "2026-09-15",
+      "analysis_plan": "gate2_12_england_2025/ANALYSIS_TRIAL_PLAN.md",
+      "results": "gate2_12_england_2025/RESULTS_BATCH1.md"
     },
     {
       "order": 13,

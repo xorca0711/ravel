@@ -1,5 +1,67 @@
 # AI context
 
+## England continuation, second session state, 28 September 2026
+
+A second session resumed the [England EN7/CD177 handoff](docs/handoffs/2026-09-28-england-en7-cd177.md),
+re-verified the runtime and external object schemas, and froze three
+[continuation amendments](Research%20Article/gate2_12_england_2025/config/continuation_amendments.json)
+before any endpoint: a simulator branch observation with a diagnostic third
+implementation for EN6, the igraph multilevel route for the contract's Louvain,
+and barcode-joined reuse of batch1 doublet flags. **No continuation script exists
+and no endpoint has run.** The owner asked for the state to be saved, committed
+and opened as a pull request at that point. Batch1 and claim grades are unchanged.
+
+## England continuation handoff, 28 September 2026
+
+The owner requested completion through EN7, added CD177-associated transitional
+states and research-theme ideas 4–6, then requested a handoff for another session.
+Start with the [England EN7/CD177 handoff](docs/handoffs/2026-09-28-england-en7-cd177.md).
+The first batch is complete; the new continuation contract was frozen at `4d66231`
+before its endpoints. **Continuation clustering, CD177 comparisons, source-model
+simulation and external transfer have not run.** No job is running.
+Public ENA intake maps 68 runs to 20 libraries; it does not resolve biological
+pool identities or reporter pairing. New metadata and the continuation ledger
+are in the England paper package. Reuse the existing worktree and preserve
+first-batch outputs. No scientific claim grade changed.
+
+## England first analysis batch, 28 September 2026
+
+Following the owner's explicit request to proceed beyond planning, the
+[England results and four figures](Research%20Article/gate2_12_england_2025/RESULTS_BATCH1.md)
+now cover 20 libraries (44,196 source-QC cells), 164,453 clonal measurements,
+and 44 source-indexed mice. Contract c82b0e0 preceded the new outcomes.
+Il1r1 deletion is associated with lower Cd177-related RNA without a demonstrated
+AT1-maturation rescue. Late mutant clone tails favor a negative-binomial
+alternative over the two-component distribution on average in held-out mice;
+this does not settle founder identity. Pair-level spatial profiles remain
+strictly descriptive because the distance arrays omit mouse/clone IDs.
+
+The bounded batch passed 6,489 numerical/provenance checks. It uses explicitly
+named marker-supported proxies, not the paper's recovered six-state labels.
+Pool identities/pairing, exact source annotation, clone-merger handling and
+external confirmation remain open. No claim grade changed; no job is running.
+The scientific runtime worked through the bundled AMD64 Python interpreter
+and existing .venv-x64 site-packages, despite the stale launcher. The isolated
+branch is codex/england-analysis-plan. The report and stage ledger own current
+status; the earlier plan and source audit are historical intake snapshots.
+
+## England 2025 reading and analysis structure, 27 September 2026
+
+The owner confirmed reading Gate 2C item 2 (stable paper 12) and requested a
+repository-grounded re-analysis plan using the article and private reading notes.
+The [England study package](Research%20Article/gate2_12_england_2025/README.md)
+contains source synthesis, an EN0-EN7 plan and a 20-library design manifest.
+Source intake found at least two lungs pooled per sequencing sample and verified
+public clone/model files, including size-distance inputs. Pool identities, reporter
+pairing and 13-versus-10 Experiment-1 library accounting remain unresolved.
+Historical C3 numbers are preserved; its within-animal wording is qualified by the
+new source audit. No new expression score, clone fit, claim grade or experiment
+was produced. The next England task is EN0 identity/schema recovery before an
+EN1/EN2 freeze. This separate plan does not replace the existing computational
+continuation. The primary checkout's scientific Python launcher was unavailable;
+restore/verify that runtime before new analysis. Work is in the isolated
+`codex/england-analysis-plan` worktree; no private notes or PDFs are tracked.
+
 ## Current computational continuation, 27 September 2026
 
 The audit and roadmap landing is merged, and so is the first phase of the computational

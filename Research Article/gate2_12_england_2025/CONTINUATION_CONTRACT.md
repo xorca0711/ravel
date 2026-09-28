@@ -1,0 +1,15 @@
+# England continuation through EN7
+
+Frozen before new continuation endpoint evaluation; batch1 and historical source results were already seen. This is a disclosed exploratory extension, not retrospective preregistration. Machine-readable rules and exact genes: [contract](config/continuation_contract.json).
+
+The owner requested all feasible stages through EN7, then specifically asked to assess [research-theme ideas 4–6](https://app.notion.com/p/3e0151616b44807ba675e28eeb4db751). These are hypotheses to evaluate, not source-document instructions to execute.
+
+| Idea | Value and feasible analysis | Boundary |
+|---|---|---|
+| 4: heterogeneous AT2 founders yield distinct AT1 progeny | Retain separate AT2 and AT1 RNA axes and mixed-identity distribution; compare differentiation proxy with clone size by mouse. Useful phenotype description. | No sequenced founder–descendant link; fast/slow clone categories are model-inferred. Distinct functional AT1 subtypes and half-life cannot be established. Do not assign AT1 cells to an inferred founder from RNA. |
+| 5: stochastic cycling versus selected Itga2 plasticity | High-value model audit: reproduce deposited two-population stochastic model, compare its numerical behavior with exact horizon handling, and retain the earlier held-out distribution alternatives. Score Itga2 separately from the transitional gate, CD177 and cycling. | Heterogeneous clone growth and reversible RNA states need not contradict each other. This deposit lacks a matched Kras/Trp53 perturbation arm and metastasis endpoints. No new driver-hit mechanism follows from correlations. |
+| 6: CD177-positive mixed state sustains division | Highest priority. Test Cd177 RNA detection versus cycling within an independently defined transitional compartment; separate occupancy, mixed identity, Il1r1 genotype and within-state expression. Use molecule matching, stricter detection and immune/doublet sensitivities. Transfer the same question to Choi and focused Niethamer cohorts. | Cd177 RNA is not surface CD177 protein; a negative count is not proven protein negativity. The source Cd177 mixed state and DATP-like state are not synonyms. Association with cycling does not show that Cd177 itself causes persistent division. |
+
+Primary CD177 comparison uses an Itga2-free transition gate, held-out cycling/identity endpoints and a 30-cell floor on both sides. Missing groups are unavailable, never zero-valued expression. All studies retain library/animal units and separate time/genotype contrasts. Shared A5/A11 modules keep their membership; the explicit EN7_library_CPM_v1 normalization and named disjoint derivatives are descriptive amendments, not a repeat of the human TMM validation.
+
+EN0 public metadata recovery, EN1 source-inspired full-transcriptome clustering, EN2–5 independent-gate distribution analyses, EN6 stochastic model audit and EN7 repair transfer will be reported together. Exact source labels, pool pairing, founder identity, spatial repeated-clone identities and functional fate remain gated on actual evidence. No author contact or external write is authorized by this contract.

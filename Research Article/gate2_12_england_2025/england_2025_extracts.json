@@ -1,0 +1,115 @@
+{
+  "schema": "england-2025-planning-extracts/v1",
+  "date": "2026-09-27",
+  "paper_order": 12,
+  "reading_gate": "2C",
+  "branch_item": 2,
+  "status": "proposed_not_frozen",
+  "source_doi": "10.1016/j.stem.2025.01.011",
+  "paper_parameters": {
+    "source": "P1 PDF pp23-24",
+    "species": "Mus musculus",
+    "alignment_reference": "GRCm38",
+    "chemistry": "10x 3-prime v3",
+    "qc_exclude": {
+      "mitochondrial_percent_gt": 15,
+      "detected_genes_lt": 1000,
+      "umis_gt": 50000
+    },
+    "clustering_remove_mitochondrial_genes": true,
+    "clustering_gene_min_cells": 3,
+    "hvg_count": 5000,
+    "clustering": "Louvain",
+    "cross_study_anchor_features": 2000,
+    "minimum_lungs_pooled_per_sample": 2
+  },
+  "paper_state_categories": [
+    "AT2",
+    "primed_AT2",
+    "cycling",
+    "DATP_like",
+    "Cd177_mixed",
+    "AT1_like"
+  ],
+  "paper_feedback_genes": [
+    "Nfkbia",
+    "Tonsl"
+  ],
+  "candidate_marker_examples_not_frozen_modules": {
+    "AT2": [
+      "Sftpc",
+      "Etv5",
+      "Lamp3"
+    ],
+    "transition": [
+      "Cldn4",
+      "Clu",
+      "Ndrg1"
+    ],
+    "oncogenic_DATP_associated": [
+      "Itga2",
+      "Hmga2",
+      "Areg",
+      "Ereg"
+    ],
+    "mixed": [
+      "Cd177",
+      "Cd38"
+    ],
+    "AT1": [
+      "Ager",
+      "Hopx",
+      "Pdpn"
+    ]
+  },
+  "proposed_operational_defaults_not_paper_parameters": {
+    "min_cells_per_library_state_expression": 30,
+    "min_mapped_module_fraction": 0.7,
+    "rare_state_fraction_denominator": "all_eligible_lineage_sorted_epithelial_cells",
+    "formal_biological_inference": "not_licensed_by_library_count_alone"
+  },
+  "trials": [
+    {
+      "id": "EN0",
+      "status": "intake_partly_complete"
+    },
+    {
+      "id": "EN1",
+      "status": "proposed_not_run"
+    },
+    {
+      "id": "EN2",
+      "status": "proposed_not_run"
+    },
+    {
+      "id": "EN3",
+      "status": "proposed_not_run"
+    },
+    {
+      "id": "EN4",
+      "status": "proposed_not_run"
+    },
+    {
+      "id": "EN5",
+      "status": "proposed_not_run"
+    },
+    {
+      "id": "EN6",
+      "status": "proposed_not_run"
+    },
+    {
+      "id": "EN7",
+      "status": "proposed_not_run"
+    }
+  ],
+  "freeze_required": [
+    "pool and pairing evidence",
+    "analysis population and annotation features",
+    "exact gene modules and their provenance",
+    "primary endpoint and comparisons",
+    "normalization and depth budget",
+    "independent-unit uncertainty and multiplicity",
+    "clone schema and sampling/truncation",
+    "environment and input hashes"
+  ]
+}

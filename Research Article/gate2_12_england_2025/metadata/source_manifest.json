@@ -1,0 +1,125 @@
+{
+  "audit_date": "2026-09-27",
+  "base_commit": "bbfa4e7",
+  "status": "source_and_design_intake_only",
+  "expression_scoring_performed": false,
+  "clone_model_fitting_performed": false,
+  "clone_arrays_decoded": false,
+  "pdfs_rendered_pages": [
+    7,
+    13,
+    23
+  ],
+  "source_files": [
+    {
+      "source_id": "P1",
+      "location": "owner-supplied external reading folder; source PDF not tracked",
+      "filename": "England et al_Sustained_NF-kB_allow_mutant_alveolar_stem_cell_Co_o_regeneration_2025.pdf",
+      "bytes": 11405801,
+      "sha256": "3167e85eae83a34a4cee7815dda5936e6a90bf4b19178b0687b1f612fc7fed1b"
+    },
+    {
+      "source_id": "P2",
+      "location": "owner-supplied external reading folder; source PDF not tracked",
+      "filename": "mmc1.pdf",
+      "bytes": 30839888,
+      "sha256": "ec94d5c85dbc952802e0772ab372889703752e6d33eea9c7dbbfc8cd05964812"
+    },
+    {
+      "source_id": "P3",
+      "location": "owner-supplied external reading folder; source PDF not tracked",
+      "filename": "mmc2.pdf",
+      "bytes": 146841,
+      "sha256": "230c1378ad80c7f1423ea00dbf034df43aecdf164857c31cd16d4063fca2cb26"
+    },
+    {
+      "source_id": "D1",
+      "location": "raw_data/GSE247505/GSE247505_family.soft.gz",
+      "filename": "GSE247505_family.soft.gz",
+      "bytes": 3940,
+      "sha256": "bb575f986d79b1277a1d36089a2e32a418650081f4c4448b2295643da2f9bff9"
+    },
+    {
+      "source_id": "D2",
+      "location": "https://zenodo.org/records/14673088",
+      "filename": "zenodo_v1.1.zip",
+      "bytes": 1352723,
+      "sha256": "404697263ca941b1b74dee9feb4c4680ff3077d9e20bb7105482d17f14e96a70"
+    },
+    {
+      "source_id": "R1",
+      "location": "Research Article/gate2_05_cardoso_2026/trials/c3_areg_state_specificity/c3_state_composition.csv",
+      "filename": "c3_state_composition.csv",
+      "bytes": 2542,
+      "sha256": "190c8d4de15b13845fc0ce078a64e1ebd73dbb17dfe845d329afe10ad7f35e52"
+    },
+    {
+      "source_id": "R1",
+      "location": "Research Article/gate2_05_cardoso_2026/trials/c3_areg_state_specificity/c3_qc_per_library.csv",
+      "filename": "c3_qc_per_library.csv",
+      "bytes": 1338,
+      "sha256": "06ad618a9dbcaf3e25b3be051bdf9970e029e0d3ebcae6098504df50d3b63e66"
+    },
+    {
+      "source_id": "R1",
+      "location": "Research Article/gate2_05_cardoso_2026/trials/c3_areg_state_specificity/c3_summary.md",
+      "filename": "c3_summary.md",
+      "bytes": 4296,
+      "sha256": "8068a7622c5381c44bb9a525f5e140c7d34863b93d5086562ba456f0f0e5a0bd"
+    }
+  ],
+  "public_archive": {
+    "record_id": 14673088,
+    "version": "v1.1",
+    "doi": "10.5281/zenodo.14673088",
+    "advertised_md5": "bb9dd952a5337e3add7a5c1c68491a58",
+    "md5_verified": true,
+    "member_inventory": "metadata/zenodo_files.csv"
+  },
+  "geo_inventory": {
+    "samples": 20,
+    "experiment_1": 10,
+    "experiment_2": 10,
+    "matrix_barcodes_total": 59581,
+    "full_matrix_hashes_computed": false,
+    "counts_read": "MatrixMarket headers only; no count entries scored"
+  },
+  "unresolved": [
+    "pool identities and independence",
+    "RFP/YFP pairing",
+    "13 stated versus 10 deposited Experiment-1 libraries",
+    "Experiment-2 Confetti collection time",
+    "clone array schema and independent mouse identifiers",
+    "source annotation/barcode mapping",
+    "scientific analysis runtime"
+  ],
+  "notion_sources": [
+    {
+      "source_id": "N1",
+      "title": "Thesis_Reading_Order",
+      "url": "https://app.notion.com/p/3d7151616b448093a718e0dfe66d513d?pvs=204",
+      "last_edited_at": "2026-09-27T14:24:10.288Z",
+      "retrieved_on": "2026-09-27",
+      "verification": "unverified",
+      "private_content_copied": false
+    },
+    {
+      "source_id": "N2",
+      "title": "Discussion",
+      "url": "https://app.notion.com/p/3e6151616b44806a98abc043ae5f5844?pvs=204",
+      "last_edited_at": "2026-09-26T05:15:05.874Z",
+      "retrieved_on": "2026-09-27",
+      "verification": "unverified",
+      "private_content_copied": false
+    },
+    {
+      "source_id": "N3",
+      "title": "Result(Body)",
+      "url": "https://app.notion.com/p/3e6151616b4480a48e4bc43043ab685f?pvs=204",
+      "last_edited_at": "2026-09-27T14:20:00.003Z",
+      "retrieved_on": "2026-09-27",
+      "verification": "unverified",
+      "private_content_copied": false
+    }
+  ]
+}
