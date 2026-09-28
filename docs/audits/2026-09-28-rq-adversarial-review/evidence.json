@@ -1,0 +1,75 @@
+{
+  "snapshot": {
+    "head": "bbfa4e76f40b5bbeb30b90504ee95ec026fb4d1e",
+    "branch": "main",
+    "locally_recorded_origin_main": "05b5e913bb4689f2de040e149ed25bb74a5aa2e8",
+    "ahead_behind_local_origin": "0\t11",
+    "live_remote_queried": false
+  },
+  "tracked_files": 2773,
+  "tracked_python_sources": 348,
+  "syntax_failures": [],
+  "rq_workspace_counts": {
+    "A0_conserved_epithelial_transition_program": 164,
+    "A10_organoid_growth_outcome": 66,
+    "A11_lesion_programme_addition": 85,
+    "A12_recipient_context": 1,
+    "A13_fibroblast_beyond_macrophage_il1b": 9,
+    "A15_epithelial_integrin_tgfb_activation": 32,
+    "A1_transitional_epithelial_state_distinction": 369,
+    "A2_areg_source_delivery": 49,
+    "A5_A11_shared_component_contract": 32,
+    "A5_developmental_programme_reuse": 24
+  },
+  "pilot_metric_reaggregation": {
+    "A12": {
+      "n_per_model": {
+        "mean": 12,
+        "source": 12,
+        "recipient": 12,
+        "alternative": 12,
+        "joint": 12
+      },
+      "rmse": {
+        "mean": 0.3762843887418965,
+        "source": 0.5189215826250685,
+        "recipient": 0.5184492267730255,
+        "alternative": 0.42713878191678767,
+        "joint": 0.3243732762158342
+      },
+      "joint_mse_improvement_over_alternative": 0.07722951669436323,
+      "joint_Q2_vs_training_mean": 0.25688208199551377,
+      "input_sha256": "850b8c4a0ed6e9ab49c860b1392dd4065c85d92107f8bfb5f5b97fd70c09faea"
+    },
+    "A13": {
+      "n_per_model": {
+        "mean": 12,
+        "source": 12,
+        "source_fibroblast": 12,
+        "alternative": 12,
+        "joint": 12
+      },
+      "rmse": {
+        "mean": 0.216732524832766,
+        "source": 0.24257797339502882,
+        "source_fibroblast": 0.26714697865877535,
+        "alternative": 0.22827570594825705,
+        "joint": 0.2372573590846339
+      },
+      "joint_mse_improvement_over_alternative": -0.004181256513639799,
+      "joint_Q2_vs_training_mean": -0.1983707584078962,
+      "input_sha256": "a3eee6db8de12120ad54d1ce79e988567f6fd41a441003f81c11f2a0ce311ab1"
+    }
+  },
+  "A15_scaling_counterexample": {
+    "proper_normalized_ratio_B_over_A": 0.9999999999999998,
+    "implemented_double_normalized_ratio_B_over_A": 0.49999999999999994,
+    "implemented_log_score_difference": -0.9999938792022753,
+    "scope": "Deterministic method counterexample, not a re-estimated biological effect"
+  },
+  "A11_exact_two_sided_p_floor": {
+    "3": 0.25,
+    "4": 0.125,
+    "8": 0.0078125
+  }
+}

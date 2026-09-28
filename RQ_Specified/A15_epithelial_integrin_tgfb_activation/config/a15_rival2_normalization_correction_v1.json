@@ -1,0 +1,50 @@
+{
+  "schema": "a15-rival2-normalization-correction-spec/v1",
+  "written_date": "2026-09-28",
+  "execution_requires_committed_specification": true,
+  "scope": "Replace only the invalid median-of-ratios sensitivity; preserve all original frozen outputs",
+  "case_mice": ["218", "219", "226R", "228"],
+  "reference_mice": ["204", "206", "208R", "225"],
+  "compartment": "Epithelium",
+  "exposure": "Bleomycin",
+  "batch": "S151",
+  "case_treatment": "3G9",
+  "reference_treatment": "Axum8",
+  "panels": {
+    "transitional": ["Krt8", "Krt19", "Cldn4", "Cdkn1a", "Krt7"],
+    "identity": ["Sftpc", "Ager"]
+  },
+  "reference_universe": {
+    "source": "all unique Ensembl rows in the full count matrix",
+    "requires_positive_in_all_eight": true,
+    "excluded_symbols": ["Krt8", "Krt19", "Cldn4", "Cdkn1a", "Krt7", "Sftpc", "Ager", "Itgb6"],
+    "minimum_reference_genes": 1000,
+    "effect_or_label_filter": false
+  },
+  "estimator": "arithmetic median of raw-count/geometric-gene-mean ratios, factors rescaled to geometric mean 1",
+  "score": "mean(log2(raw_count / size_factor + 1)) over unchanged measurable panel members",
+  "score_unit": "unstandardized log2 normalized counts; not CPM",
+  "minimum_median_raw_count": 10,
+  "minimum_panel_fraction": 0.8,
+  "alpha_numerator": 2,
+  "alpha_denominator": 70,
+  "interval": "minimum and maximum of the 16 case-minus-reference shifts, 68/70 attained coverage under a continuous common-shift model",
+  "expected_count_rows": 42548,
+  "data_paths_relative_to_data_root": {
+    "counts": "RQ_Specified/A1_transitional_epithelial_state_distinction/cache/inputs/GSE190821/GSE190821_counts.csv.gz",
+    "symbol_map": ".claude/worktrees/sharp-margulis-5e858e/RQ_Specified/A15_epithelial_integrin_tgfb_activation/cache/ensembl_symbol_lookup.json"
+  },
+  "sha256": {
+    "counts": "2c8a21fd68c355330bfee2e5e63ca3d415d7f4677a3b783669d9acb0a595d1f7",
+    "symbol_map": "0a8da7c1ad99c3f7cd1cde806d49b853c03c91a0b60c7eee08ac3b892133fe7b",
+    "original_freeze": "5f39fd4e8f9b7e3c67175f547b32c317475088a2b3e783db0d2f308aedd58c09",
+    "original_run": "e07b0e5511728020cce5e3b4f227b684e934bea0b9c1198ec75266a08efade01",
+    "original_join": "a67a8c605bc31190ae7aa227bef547c2412e31660a6da2ac89b3961c362e2260",
+    "original_script": "51ad33b70d103592489f8ce0c6a6b90d9a7aab52c0bfa62dcaab786e5b463575"
+  },
+  "preserve_primary": true,
+  "new_exploratory_panels": false,
+  "claim_rows_added": 0,
+  "register_grades_changed": false,
+  "parent_test_remains_blocked": true
+}
