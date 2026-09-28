@@ -31,10 +31,12 @@ later outcome in the same units.
 | A1 | [Do regulatory programmes distinguish RNA-similar transitional states and their functional responses?](A1_transitional_epithelial_state_distinction/README.md) | Regulatory, lineage and outcome evidence for source-defined epithelial states |
 | A2 | [Does the fibroblast response to AREG depend on delivery or on abundance?](A2_areg_source_delivery/README.md) | Source perturbations and recipient associations; spatial delivery itself remains unmeasured |
 | A5 | [Does adult alveolar repair reuse part of a developmental epithelial programme?](A5_developmental_programme_reuse/README.md) | External developmental-signature recruitment in adult repair and independent-cohort eligibility |
+| A8 | [Does a maturation component add information about mature AT1 contribution?](A8_maturation_component_at1_contribution/README.md) | A frozen component partition against an independently measured mature endpoint; blocked on that outcome |
 | A10 | [Do epithelial programmes add information about measured organoid growth?](A10_organoid_growth_outcome/README.md) | RNA–imaging relationships, added information and plate/design sensitivity |
 | A11 | [Which lesion-associated programmes add to a shared epithelial plasticity component?](A11_lesion_programme_addition/README.md) | Paired human lesion comparisons and a separate acute-injury specificity challenge |
 | A12 | [Does recipient receptor and inhibitor context explain responses beyond IL-1 ligand RNA?](A12_recipient_context/README.md) | Recipient-context prediction in fixed states and independent-cohort eligibility |
 | A13 | [Do fibroblast programmes add information about epithelial plasticity beyond macrophage IL1B?](A13_fibroblast_beyond_macrophage_il1b/README.md) | Complete-triad coverage and a linked amended predictive pilot |
+| A14 | [Do exposure duration and fibroblast IL-1 reception separately determine recovery?](A14_withdrawal_recovery_and_reception/README.md) | Two frozen hypotheses with separate decisions; the experiment is unexecuted |
 | A15 | [Does the epithelial input to fibroblast activation run through the integrin or through the ligand?](A15_epithelial_integrin_tgfb_activation/README.md) | Proposed integrin/TGF-beta mechanism and a bounded epithelial-state rival; parent test remains blocked |
 | A16 | [Does CD177 identify a priming phenotype within comparable mutant cells?](A16_cd177_state_attribution/README.md) | Attribution of an RNA association within comparable mutant transitional populations |
 
@@ -62,9 +64,7 @@ that the question was rejected or that no related analysis exists.
 | A4 | [Can Wnt-supported maintenance precede an IL-1-responsive transition in the same AT2 lineage?](../RESEARCH_QUESTIONS.md#a4) |
 | A6 | [Does IPF alter shared macrophage states beyond changing their abundance?](../RESEARCH_QUESTIONS.md#a6) |
 | A7 | [Does Cebpa loss attenuate AT2 identity across states or preferentially within a transitional state?](../RESEARCH_QUESTIONS.md#a7) |
-| A8 | [Does a maturation-specific programme add information about mature AT1 contribution beyond shared transition?](../RESEARCH_QUESTIONS.md#a8) |
 | A9 | [Does fibroblast receptor context determine the response to AREG?](../RESEARCH_QUESTIONS.md#a9) |
-| A14 | [Do exposure duration and fibroblast IL-1 reception separately determine recovery after withdrawal?](../RESEARCH_QUESTIONS.md#a14) |
 | A17 | [Do persistent founder differences help explain unequal mutant clone growth?](../RESEARCH_QUESTIONS.md#a17) |
 | A18 | [Are WT expansion and loss of AT2 identity regulated differently near mutant clones?](../RESEARCH_QUESTIONS.md#a18) |
 

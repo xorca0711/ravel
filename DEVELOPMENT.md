@@ -1670,3 +1670,18 @@ sub-agents produced the underlying inventories; their first dispatch was
 terminated by a platform content-safety refusal and the retry completed, which is
 recorded because the failure left no output and could be mistaken for a data
 problem. Documentation only; no result, grade or register wording changed.
+
+## 28 September 2026: separate workspaces for A8 and A14
+
+The owner asked whether the two questions share enough context to be handled
+together, and the answer from their cards and cited evidence was no: the overlap
+is the absent mature outcome and MC1, while hypothesis, predictor, population,
+perturbation, rival set and decision rule are disjoint. Claude Science therefore
+created two folders rather than one shared document, on the owner's instruction,
+and noted that this is a deliberate exception to the proposal's default against
+new folders. Each carries the two open proposal items for its question: A8's
+rationale separates a measurement check from a maturation claim and states why
+neither direction of the inference is identified; A14's gives each of its two
+hypotheses an independent design and decision. Both remain blocked on
+measurements that do not exist, and both say so rather than proposing an analysis.
+Documentation only; no result, grade or register wording changed.

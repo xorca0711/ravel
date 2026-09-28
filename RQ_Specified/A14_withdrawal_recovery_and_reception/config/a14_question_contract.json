@@ -1,0 +1,99 @@
+{
+  "schema": "a14-withdrawal-recovery-and-reception/v1",
+  "drafted": "2026-09-28",
+  "status": "registered_design_unexecuted_nothing_computed",
+  "registration": {
+    "decided_by": "owner",
+    "decision_state": "already registered in the canonical register; this workspace adds no identifier",
+    "workspace_created": "2026-09-28 on the owner's instruction, replacing a card-only presence",
+    "argument": "RQ_Specified/A14_withdrawal_recovery_and_reception/RATIONALE.md"
+  },
+  "question": {
+    "asked": "Do exposure duration and fibroblast IL-1 reception separately determine mature epithelial recovery after verified withdrawal?",
+    "two_hypotheses_separate_decisions": true,
+    "what_is_not_being_asked": [
+      "whether a transitional RNA score declines after withdrawal",
+      "whether receptor or inhibitor RNA predicts an inflammatory RNA response (that is A12)",
+      "whether a fibroblast programme adds information in human cross-sections (that is A13)",
+      "anything about malignant transformation"
+    ]
+  },
+  "hypotheses": {
+    "H1_duration": {
+      "statement": "longer IL-1beta exposure reduces mature epithelial recovery after verified withdrawal, relative to transient exposure at matched intensity",
+      "population": "alveolar epithelial cells in a system where exposure can be started and stopped and the same preparation followed afterwards",
+      "arms": [
+        "transient exposure",
+        "sustained exposure at matched intensity",
+        "time-matched never-exposed controls"
+      ],
+      "primary_outcome": "mature-cell yield per unit after a fixed post-withdrawal interval",
+      "safeguards": [
+        "viability per unit",
+        "traced descendants where a lineage label exists",
+        "post-withdrawal target engagement"
+      ],
+      "rivals": [
+        "residual exposure",
+        "toxicity",
+        "death and replacement",
+        "time in culture or in vivo rather than time under exposure"
+      ],
+      "decision": "a recovery difference after verified withdrawal supports H1; a precise absence weakens it; failed engagement or no post-withdrawal observation is inconclusive"
+    },
+    "H2_reception": {
+      "statement": "fibroblast IL-1 reception modifies epithelial recovery beyond direct epithelial reception of the same signal",
+      "population": "a system containing both compartments in which IL1R1 can be removed from one compartment at a time under fixed exposure",
+      "arms": [
+        "epithelial-specific IL1R1 perturbation",
+        "fibroblast-specific IL1R1 perturbation",
+        "unperturbed control"
+      ],
+      "primary_outcome": "mature-cell yield per unit, defined identically to H1",
+      "safeguards": [
+        "engagement in the perturbed compartment",
+        "compartment composition"
+      ],
+      "rivals": [
+        "an epithelial-only response",
+        "incomplete or off-target perturbation",
+        "compartment composition change",
+        "a parallel non-IL-1 mediator"
+      ],
+      "decision": "an outcome change under fibroblast-specific intervention with epithelial reception controlled supports H2; a precise absence weakens it; failed engagement is inconclusive"
+    }
+  },
+  "must_not_be_combined_into_one_experiment": "arms varying exposure duration and receiving compartment together confound the two claims, and the two hypotheses have different control requirements",
+  "unit_and_inference": {
+    "unit": "the animal, or an independently prepared culture",
+    "floor": "at least three independent units per arm with identities recorded",
+    "repeat_wells_are_not_preparations": "four wells split from a common mixture count as one unit (A2 recovered methods)"
+  },
+  "motivating_but_non_answering_evidence": {
+    "A12": "exploratory 12-patient pilot: recipient receptor and inhibitor RNA improved held-out prediction of an inflammatory RNA response; fibroblast increment unstable; no withdrawal, no reception measurement",
+    "A13": "amended pilot: no aggregate held-out gain from a fibroblast programme; RMSE 0.2283 to 0.2373; human cross-section"
+  },
+  "feasibility_state_on_2026_09_28": {
+    "H1_system_available": false,
+    "H2_system_available": false,
+    "outcome_requirement": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md row O28, not available",
+    "note": "the survey covered the A1 documents rather than the public archives or the group's own capability; this is not a claim that the experiment is infeasible"
+  },
+  "prohibitions": [
+    "reading loss of a transitional RNA score as recovery",
+    "combining the two hypotheses into one experiment",
+    "claiming withdrawal without measured post-withdrawal engagement",
+    "treating receptor or inhibitor RNA as measured reception",
+    "counting repeat wells from one mixture as independent preparations",
+    "presenting an anticipated response curve as a result",
+    "extending either result to malignant transformation"
+  ],
+  "claim_rows_added": 0,
+  "claim_rows_regraded": 0,
+  "endpoint_scored": false,
+  "datasets_opened_for_a14": [],
+  "measurement_contracts": [
+    "docs/RQ_MEASUREMENT_CONTRACTS.md#mc1",
+    "docs/RQ_MEASUREMENT_CONTRACTS.md#mc3"
+  ]
+}
