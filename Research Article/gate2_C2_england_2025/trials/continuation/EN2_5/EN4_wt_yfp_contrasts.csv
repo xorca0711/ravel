@@ -1,0 +1,406 @@
+variant,collection_day,contrast,endpoint,n_libraries_A,n_libraries_B,status,difference_of_library_means,cross_library_min,cross_library_max,all_cross_library_directions_agree,range_is_confidence_interval
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT2_identity,2,1,single_library_side,-0.6574451387598597,-0.9896971800463188,-0.32519309747339875,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT2_identity,2,2,estimated,-0.355842109089787,-0.9438287663516451,0.23214454817206942,False,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT2_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),transition_RNA,2,1,single_library_side,1.0652277540233062,0.7192903698750124,1.4111651381716008,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),transition_RNA,2,2,estimated,1.3530230736305562,0.9754560215366848,1.7305901257244285,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,transition_RNA,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT1_identity,2,1,single_library_side,-0.21771100712838543,-0.30683419227169706,-0.12858782198507424,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT1_identity,2,2,estimated,0.7994018739417648,0.6218589166467714,0.9769448312367586,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT1_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),priming_associated,2,1,single_library_side,1.5013448303672483,0.9983982628136854,2.0042913979208112,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),priming_associated,2,2,estimated,-0.17066920490866266,-1.0774715640445294,0.736133154227204,False,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,priming_associated,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),cycling,2,1,single_library_side,0.02053936791574884,-0.01899722989030561,0.06007596572180329,False,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),cycling,2,2,estimated,0.8362248606789331,0.3479689262613972,1.324480795096468,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,cycling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),TNFA_NFKB_RNA_disjoint,2,1,single_library_side,0.23946206481383658,0.19261081853734918,0.286313311090324,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),TNFA_NFKB_RNA_disjoint,2,2,estimated,0.10534964320379192,-0.036578954427186616,0.24727824083476957,False,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,TNFA_NFKB_RNA_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),P53_RNA_control,2,1,single_library_side,-0.033396714770606906,-0.0691789914208174,0.0023855618796027045,False,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),P53_RNA_control,2,2,estimated,0.32596997563223873,0.2696197935062852,0.38232015775819406,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,P53_RNA_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),hypoxia_control,2,1,single_library_side,-0.05579028451040502,-0.10720540807050627,-0.004375160950303325,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),hypoxia_control,2,2,estimated,0.2177104099432876,0.12257607765924083,0.3128447422273348,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,hypoxia_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_remodelling,2,1,single_library_side,0.18971231314796544,0.15218289643768923,0.22724172985824165,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_remodelling,2,2,estimated,1.3894433739996987,1.2851527661410032,1.4937339818583943,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_remodelling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_specific,2,1,single_library_side,0.15218969209860278,0.13342556478168488,0.17095381941552024,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_specific,2,2,estimated,0.8054072377608392,0.7229154864183172,0.8878989891033617,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_specific,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_gate_cycle_stress_disjoint,2,1,single_library_side,0.09825348912040521,0.08438034779335357,0.11212663044745685,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_gate_cycle_stress_disjoint,2,2,estimated,0.7126463730140515,0.6287658439653727,0.7965269020627304,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_gate_cycle_stress_disjoint,2,1,single_library_side,0.1284926222806,0.10081910039655018,0.1561661441646489,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_gate_cycle_stress_disjoint,2,2,estimated,1.5707393521887498,1.453498212675436,1.6879804917020644,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Nfkbia,2,1,single_library_side,-0.6048659619642915,-1.0964044584324393,-0.1133274654961447,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Nfkbia,2,2,estimated,0.4801127603147872,-0.35253144566271555,1.31275696629229,False,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Nfkbia,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Tonsl,2,1,single_library_side,-0.5689763193120763,-1.0455422778081946,-0.09241036081595788,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Tonsl,2,2,estimated,0.49661356568622206,-0.2627246469681306,1.2559517783405745,False,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Tonsl,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Areg,2,1,single_library_side,0.8225947897790915,0.18271878124441177,1.4624707983137712,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Areg,2,2,estimated,2.2123725117996393,1.5385418401736661,2.8862031834256126,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Areg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Ereg,2,1,single_library_side,2.123960941666674,1.9471572905981258,2.3007645927352223,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Ereg,2,2,estimated,2.976917852128163,2.4030192064391236,3.550816497817201,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Ereg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hbegf,2,1,single_library_side,0.30305857737948916,-0.4524279858387885,1.0585451405977668,False,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hbegf,2,2,estimated,2.0157933002692348,1.1424401236295836,2.889146476908886,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hbegf,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Spp1,2,1,single_library_side,3.770250828910606,2.53184832856334,5.008653329257872,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Spp1,2,2,estimated,2.9010355918818025,1.2666965955577378,4.535374588205866,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Spp1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Il1r1,2,1,single_library_side,-1.0712645077388503,-1.4777272375146047,-0.6648017779630955,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Il1r1,2,2,estimated,0.2437304781318046,-0.1952093632210521,0.6826703194846608,False,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Il1r1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Dlk1,2,1,single_library_side,3.7603520144178084,2.527462611952785,4.993241416882832,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Dlk1,2,2,estimated,4.484262042729906,2.986973089425476,5.981550996034338,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Dlk1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd177,2,1,single_library_side,1.2230731307523741,0.13173879862629778,2.314407462878451,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd177,2,2,estimated,3.369313899834555,2.0190355830650426,4.719592216604068,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd177,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hmga2,2,1,single_library_side,1.369285524747509,1.199535041495007,1.5390360080000112,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hmga2,2,2,estimated,3.68656678100949,3.222495034854919,4.150638527164061,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hmga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Itga2,2,1,single_library_side,2.6572216695891973,2.0253205126118567,3.289122826566538,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Itga2,2,2,estimated,3.582799952027373,2.868365499673789,4.297234404380956,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Itga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Axin2,2,1,single_library_side,-1.4884584167111266,-2.1878868937831655,-0.7890299396390872,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Axin2,2,2,estimated,-0.7876187701148694,-2.076965920384808,0.5017283801550683,False,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Axin2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd38,2,1,single_library_side,0.5659171728242407,0.021631738270964762,1.1102026073775166,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd38,2,2,estimated,2.5690479561443755,1.628373732748401,3.50972217954035,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd38,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Trp53,2,1,single_library_side,-0.33646109453996864,-0.3849107067412021,-0.2880114823387352,True,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Trp53,2,2,estimated,0.9643533065572765,0.808077913705608,1.120628699408944,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Trp53,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+all_sourceQC,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Mki67,2,1,single_library_side,-0.10345958708639813,-0.35683220523123005,0.1499130310584329,False,False
+all_sourceQC,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Mki67,2,2,estimated,0.8032944048947179,0.2733707139190793,1.3332180958703566,True,False
+all_sourceQC,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Mki67,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT2_identity,2,1,single_library_side,-0.46213689230169663,-0.6086501286429336,-0.3156236559604597,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT2_identity,2,2,estimated,-0.5197178584889315,-0.8925517308953239,-0.14688398608253728,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT2_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),transition_RNA,2,1,single_library_side,1.0127330340422436,0.7074875812921739,1.3179784867923123,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),transition_RNA,2,2,estimated,1.363938271739956,1.0447762948290107,1.6831002486509021,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,transition_RNA,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT1_identity,2,1,single_library_side,-0.2179932636767461,-0.3058795465755182,-0.1301069807779731,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT1_identity,2,2,estimated,0.8278400407009991,0.6274437257563639,1.0282363556456335,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT1_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),priming_associated,2,1,single_library_side,1.7217514021009706,1.4278736592710324,2.0156291449309105,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),priming_associated,2,2,estimated,-0.35946175932437185,-1.025390668655957,0.3064671500072116,False,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,priming_associated,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),cycling,2,1,single_library_side,-0.1941148074385879,-0.4525940729166269,0.06436445803945112,False,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),cycling,2,2,estimated,1.0713930852807625,0.3654599424380729,1.777326228123452,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,cycling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),TNFA_NFKB_RNA_disjoint,2,1,single_library_side,0.09757897792803139,-0.04866652115963799,0.24382447701570076,False,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),TNFA_NFKB_RNA_disjoint,2,2,estimated,0.20890761813423175,-0.06468042204364721,0.4824956583121107,False,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,TNFA_NFKB_RNA_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),P53_RNA_control,2,1,single_library_side,-0.07306417983943625,-0.13032071691263436,-0.01580764276623814,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),P53_RNA_control,2,2,estimated,0.35877890489068864,0.27617324684880806,0.4413845629325701,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,P53_RNA_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),hypoxia_control,2,1,single_library_side,-0.09949056017412605,-0.17719690395044863,-0.021784216397803924,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),hypoxia_control,2,2,estimated,0.24866795173240686,0.1186261430140263,0.37870976045078786,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,hypoxia_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_remodelling,2,1,single_library_side,0.25188906776634834,0.2243023204036998,0.2794758151289969,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_remodelling,2,2,estimated,1.3504246489721332,1.2371906668338806,1.4636586311103867,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_remodelling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_specific,2,1,single_library_side,0.11261392998474484,0.10379328843308411,0.12143457153640558,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_specific,2,2,estimated,0.852157328132789,0.7825764371349222,0.9217382191306549,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_specific,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_gate_cycle_stress_disjoint,2,1,single_library_side,0.05658192039759724,0.012540638769143353,0.10062320202605157,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_gate_cycle_stress_disjoint,2,2,estimated,0.7601580331154794,0.6493012182766162,0.871014847954342,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_gate_cycle_stress_disjoint,2,1,single_library_side,0.22134870038223564,0.15279418570514647,0.2899032150593239,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_gate_cycle_stress_disjoint,2,2,estimated,1.5028201992661883,1.3228871898643613,1.6827532086680161,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Nfkbia,2,1,single_library_side,-0.7032693078701193,-1.2888072007248876,-0.11773141501535189,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Nfkbia,2,2,estimated,0.5296435747413071,-0.4550325070073331,1.5143196564899473,False,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Nfkbia,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Tonsl,2,1,single_library_side,-0.5630444672264654,-1.04183909325371,-0.08424984119922052,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Tonsl,2,2,estimated,0.5099729407173812,-0.23514281589498487,1.255088697329747,False,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Tonsl,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Areg,2,1,single_library_side,1.0359381197555173,0.6028244472081878,1.4690517923028459,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Areg,2,2,estimated,2.038421575174116,1.5331020997523286,2.543741050595904,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Areg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Ereg,2,1,single_library_side,2.2388902353704037,2.003391819441529,2.474388651299278,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Ereg,2,2,estimated,2.9471491921728585,2.349645804609586,3.544652579736131,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Ereg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hbegf,2,1,single_library_side,0.520183868516968,-0.027013809158511037,1.067381546192447,False,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hbegf,2,2,estimated,1.8383549433296151,1.2106072189071684,2.466102667752062,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hbegf,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Spp1,2,1,single_library_side,3.2644808065371977,2.4769452756065506,4.052016337467845,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Spp1,2,2,estimated,3.426412284464213,2.202377747371422,4.650446821557006,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Spp1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Il1r1,2,1,single_library_side,-0.8924977497940785,-1.130561422855478,-0.6544340767326791,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Il1r1,2,2,estimated,0.09685770390895909,-0.14310473335297713,0.33682014117089576,False,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Il1r1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Dlk1,2,1,single_library_side,3.997653244186179,2.5404671871684252,5.454839301203933,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Dlk1,2,2,estimated,4.289213149446997,2.602207546499443,5.976218752394552,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Dlk1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd177,2,1,single_library_side,1.2631298763784558,0.13634318133233325,2.389916571424578,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd177,2,2,estimated,3.373687826936811,1.9496722475910406,4.797703406282582,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd177,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hmga2,2,1,single_library_side,1.5031109953137376,1.2092308241708674,1.7969911664566083,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hmga2,2,2,estimated,3.5903041755843703,3.0389710430660717,4.141637308102668,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hmga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Itga2,2,1,single_library_side,2.88211168334981,2.0370208339341636,3.727202532765457,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Itga2,2,2,estimated,3.400082263718101,2.433625065195251,4.366539462240951,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Itga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Axin2,2,1,single_library_side,-1.3045796789991808,-1.830176642675005,-0.7789827153233566,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Axin2,2,2,estimated,-0.9470964004287692,-2.040457544371646,0.14626474351410756,False,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Axin2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd38,2,1,single_library_side,0.5545620038676722,0.01721255620428863,1.0919114515310562,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd38,2,2,estimated,2.6085240440221167,1.644224505976211,3.572823582068022,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd38,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Trp53,2,1,single_library_side,-0.49950874419363966,-0.5990830696220728,-0.3999344187652074,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Trp53,2,2,estimated,1.1304080965153567,0.924065351466254,1.3367508415644593,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Trp53,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+primary,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Mki67,2,1,single_library_side,-0.5151094227333797,-0.6481803579889589,-0.3820384874778009,True,False
+primary,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Mki67,2,2,estimated,1.190969166219868,0.7530903726783853,1.628847959761352,True,False
+primary,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Mki67,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT2_identity,2,1,single_library_side,-0.37577235842206314,-0.42421780898246375,-0.3273269078616643,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT2_identity,2,2,estimated,-0.5511533616210507,-0.7454662154740603,-0.356840507768041,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT2_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),transition_RNA,2,1,single_library_side,0.9932661886679668,0.8033946096442586,1.183137767691675,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),transition_RNA,2,2,estimated,1.2854483623071289,0.8788795023073446,1.692017222306915,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,transition_RNA,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT1_identity,2,1,single_library_side,0.03432750499429238,-0.10401030868466643,0.1726653186732512,False,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT1_identity,2,2,estimated,1.0531156709301772,0.7313421666079103,1.3748891752524441,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT1_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),priming_associated,2,1,single_library_side,1.8078834803351373,1.6102657882495954,2.0055011724206793,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),priming_associated,2,2,estimated,-0.38177300416752225,-0.8633193650453261,0.09977335671028342,False,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,priming_associated,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),cycling,2,1,single_library_side,-0.5696236086284916,-1.1466907558545323,0.007443538597548205,False,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),cycling,2,2,estimated,1.3186233638284248,0.1722492720898341,2.4649974555670164,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,cycling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),TNFA_NFKB_RNA_disjoint,2,1,single_library_side,-0.03144553852191212,-0.34558248754004417,0.28269141049621993,False,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),TNFA_NFKB_RNA_disjoint,2,2,estimated,0.3117141954519491,-0.2824032172491444,0.9058316081530426,False,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,TNFA_NFKB_RNA_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),P53_RNA_control,2,1,single_library_side,-0.12195363227577705,-0.24307012101484293,-0.000837143536710272,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),P53_RNA_control,2,2,estimated,0.42459334305400187,0.23096663520479055,0.6182200509032123,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,P53_RNA_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),hypoxia_control,2,1,single_library_side,-0.10829749324896465,-0.25180851715840236,0.0352135306604735,False,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),hypoxia_control,2,2,estimated,0.33036502588720307,0.09965225277015799,0.5610777990042481,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,hypoxia_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_remodelling,2,1,single_library_side,0.3360376953099484,0.30577576331178147,0.3662996273081145,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_remodelling,2,2,estimated,1.4370537367889078,1.2709468695254031,1.6031606040524125,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_remodelling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_specific,2,1,single_library_side,0.10428509152155119,0.020109778441705917,0.18846040460139646,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_specific,2,2,estimated,0.9842261011511981,0.8071661078819341,1.1612860944204617,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_specific,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_gate_cycle_stress_disjoint,2,1,single_library_side,0.031729089926126886,-0.08518032843641477,0.14863850828866854,False,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_gate_cycle_stress_disjoint,2,2,estimated,0.8760599884280564,0.6534483483153695,1.0986716285407434,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_gate_cycle_stress_disjoint,2,1,single_library_side,0.33503591325168536,0.24409364723725702,0.4259781792661137,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_gate_cycle_stress_disjoint,2,2,estimated,1.584100893819116,1.3218943115998512,1.8463074760383797,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Nfkbia,2,1,single_library_side,-0.6525985028303749,-1.2315769476569374,-0.07362005800381244,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Nfkbia,2,2,estimated,0.48820423117836054,-0.5380400895714406,1.5144485519281607,False,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Nfkbia,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Tonsl,2,1,single_library_side,-0.6147835464082034,-1.1344084235398069,-0.0951586692766,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Tonsl,2,2,estimated,0.5431777406738068,-0.23303356037441603,1.3193890417220293,False,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Tonsl,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Areg,2,1,single_library_side,1.1241198196564248,0.7976249771381765,1.4506146621746723,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Areg,2,2,estimated,2.0063446131604383,1.5238755789918077,2.48881364732907,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Areg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Ereg,2,1,single_library_side,2.935286238375887,2.6984703814718998,3.172102095279875,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Ereg,2,2,estimated,3.0884145917539376,2.5693212778840655,3.6075079056238093,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Ereg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hbegf,2,1,single_library_side,0.6457960779382947,0.1919152013834564,1.099676954493133,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hbegf,2,2,estimated,1.8321215491205267,1.3676531432108687,2.296589955030184,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hbegf,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Spp1,2,1,single_library_side,4.564139402516116,4.122183970509854,5.006094834522378,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Spp1,2,2,estimated,3.959543064415156,3.0700883663378207,4.848997762492489,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Spp1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Il1r1,2,1,single_library_side,-0.7862038786849119,-0.9449810086744299,-0.6274267486953944,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Il1r1,2,2,estimated,0.08951464404801257,-0.13750716190037027,0.31653644999639585,False,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Il1r1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Dlk1,2,1,single_library_side,3.918199216180568,2.5737012511012436,5.262697181259893,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Dlk1,2,2,estimated,4.4835078077040915,3.0132956305119682,5.953719984896215,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Dlk1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd177,2,1,single_library_side,1.4515961911193511,0.2771064439362479,2.626085938302454,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd177,2,2,estimated,3.4145750623061453,1.8572276883742012,4.9719224362380885,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd177,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hmga2,2,1,single_library_side,1.4968509669539607,1.1726132550862873,1.8210886788216336,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hmga2,2,2,estimated,3.6950163425788034,3.2070814340462728,4.182951251111335,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hmga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Itga2,2,1,single_library_side,3.4234734032275664,2.4990537469969634,4.34789305945817,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Itga2,2,2,estimated,3.5932720791765433,2.455219522551917,4.731324635801169,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Itga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Axin2,2,1,single_library_side,-1.1617787672398583,-1.56830389162492,-0.7552536428547971,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Axin2,2,2,estimated,-1.0007509492719935,-1.9009993564438157,-0.10050254210017062,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Axin2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd38,2,1,single_library_side,1.4810064507700242,0.8993923674396569,2.0626205341003914,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd38,2,2,estimated,2.6886851339016187,1.580635561793935,3.7967347060093015,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd38,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Trp53,2,1,single_library_side,-0.5946864724551597,-0.7991975947338492,-0.3901753501764711,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Trp53,2,2,estimated,1.2814346029811183,0.9579842963239997,1.604884909638237,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Trp53,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+strict,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Mki67,2,1,single_library_side,-1.1715753947029697,-1.8587170007474172,-0.4844337886585226,True,False
+strict,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Mki67,2,2,estimated,1.5522284147166445,0.2866642964086683,2.8177925330246203,True,False
+strict,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Mki67,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT2_identity,2,1,single_library_side,-0.45936439346466607,-0.589399009397324,-0.3293297775320081,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT2_identity,2,2,estimated,-0.5021239536908766,-0.9074170607819436,-0.09683084659980956,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT2_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),transition_RNA,2,1,single_library_side,0.665253142869414,0.6081848957808731,0.7223213899579557,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),transition_RNA,2,2,estimated,1.726309836509449,1.6309077533239131,1.821711919694982,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,transition_RNA,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT1_identity,2,1,single_library_side,0.04313541728036441,-0.10586087501548036,0.1921317095762083,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT1_identity,2,2,estimated,0.7803751701646329,0.5571930307068742,1.0035573096223924,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT1_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),priming_associated,2,1,single_library_side,1.7010306222125635,1.4194967703351207,1.9825644740900064,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),priming_associated,2,2,estimated,-0.2540585204605854,-0.9649210356211988,0.4568039947000262,False,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,priming_associated,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),cycling,2,1,single_library_side,0.011057992374746917,-0.21433040435943695,0.2364463891089299,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),cycling,2,2,estimated,0.996038189321018,0.29290382001790416,1.6991725586241326,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,cycling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),TNFA_NFKB_RNA_disjoint,2,1,single_library_side,0.1030545172695767,-0.09384668793023998,0.2999557224693934,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),TNFA_NFKB_RNA_disjoint,2,2,estimated,0.33212298392195727,-0.011330001472343199,0.6755759693162569,False,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,TNFA_NFKB_RNA_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),P53_RNA_control,2,1,single_library_side,-0.0831673366586152,-0.16495288143195008,-0.0013817918852794264,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),P53_RNA_control,2,2,estimated,0.4236659175418023,0.3082076459857843,0.5391241890978202,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,P53_RNA_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),hypoxia_control,2,1,single_library_side,-0.07794419844274048,-0.17443908751213044,0.01855069062664949,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),hypoxia_control,2,2,estimated,0.3075330278916413,0.13814658754296838,0.4769194682403133,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,hypoxia_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_remodelling,2,1,single_library_side,0.030331241001158027,-0.09368818744986562,0.15435066945218168,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_remodelling,2,2,estimated,1.4786890693061938,1.1844896037064592,1.7728885349059276,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_remodelling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_specific,2,1,single_library_side,0.030950634294239165,-0.009479635286346877,0.07138090387482521,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_specific,2,2,estimated,0.96529134792896,0.8626266740150559,1.067956021842864,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_specific,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_gate_cycle_stress_disjoint,2,1,single_library_side,0.0012588990653874532,-0.05787735083472212,0.06039514896549658,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_gate_cycle_stress_disjoint,2,2,estimated,0.8425362219357035,0.7145583311026069,0.9705141127688006,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_gate_cycle_stress_disjoint,2,1,single_library_side,-0.04587076657085376,-0.1532329131247092,0.06149137998300169,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_gate_cycle_stress_disjoint,2,2,estimated,1.638117210150834,1.3310331949245375,1.9452012253771302,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Nfkbia,2,1,single_library_side,-0.5777073832466311,-1.1913601617043144,0.03594539521105222,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Nfkbia,2,2,estimated,0.549823265032301,-0.3781699384424684,1.4778164685070703,False,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Nfkbia,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Tonsl,2,1,single_library_side,1.0380363601147953,0.6262775882648202,1.4497951319647706,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Tonsl,2,2,estimated,-0.36569585822668293,-1.434274142210004,0.702882425756638,False,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Tonsl,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Areg,2,1,single_library_side,0.8013337352970806,0.15121553675505162,1.4514519338391105,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Areg,2,2,estimated,2.240453834286752,1.4057610257977142,3.0751466427757874,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Areg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Ereg,2,1,single_library_side,1.9951124204884594,1.968472312745011,2.021752528231908,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Ereg,2,2,estimated,3.4366221039648037,3.0285100257252906,3.8447341822043173,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Ereg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hbegf,2,1,single_library_side,0.20791516057948556,-0.7004040562469065,1.1162343774058767,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hbegf,2,2,estimated,2.1524202498020752,1.2262555526671282,3.078584946937024,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hbegf,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Spp1,2,1,single_library_side,2.5315500673106333,1.5964365130054987,3.466663621615768,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Spp1,2,2,estimated,3.8739219287726536,2.494313922738585,5.253529934806724,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Spp1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Il1r1,2,1,single_library_side,-0.5184459396710706,-0.5520456564048501,-0.4848462229372905,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Il1r1,2,2,estimated,-0.08295616649562199,-0.12483604003231541,-0.04107629295892856,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Il1r1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Dlk1,2,1,single_library_side,2.8944709309646446,1.2427130621740075,4.546228799755282,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Dlk1,2,2,estimated,5.183707448927779,3.3401879180492076,7.027226979806348,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Dlk1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd177,2,1,single_library_side,0.6166458144658843,-0.26966867496197183,1.5029603038937402,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd177,2,2,estimated,3.7112482828144064,2.4351820178329278,4.987314547795885,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd177,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hmga2,2,1,single_library_side,-0.29492597360888595,-0.5656720500665283,-0.02417989715124358,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hmga2,2,2,estimated,5.345267455761062,4.775438786467205,5.9150961250549186,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hmga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Itga2,2,1,single_library_side,1.6254288935254717,0.9309991334139002,2.3198586536370436,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Itga2,2,2,estimated,4.595018676720505,3.74310335298866,5.446934000452349,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Itga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Axin2,2,1,single_library_side,-0.8643490689832358,-1.6320204574999049,-0.09667768046656722,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Axin2,2,2,estimated,-0.8736844731830209,-2.2648447257138424,0.5174757793478011,False,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Axin2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd38,2,1,single_library_side,0.20728742850578996,-0.2554636222613922,0.6700384792729723,False,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd38,2,2,estimated,2.907872639217045,1.8918325086155496,3.92391276981854,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd38,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Trp53,2,1,single_library_side,-0.4740351838513863,-0.6614751194145931,-0.2865952482881795,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Trp53,2,2,estimated,1.0632707134138784,0.7770602473148509,1.3494811795129058,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Trp53,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260928,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Mki67,2,1,single_library_side,-0.3050912592891839,-0.34998149028876213,-0.2602010282896061,True,False
+depth1000_seed20260928,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Mki67,2,2,estimated,1.0764967423544656,0.6124657305040073,1.5405277542049243,True,False
+depth1000_seed20260928,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Mki67,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT2_identity,2,1,single_library_side,-0.4136881439163602,-0.5242977023078623,-0.3030785855248581,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT2_identity,2,2,estimated,-0.5213330673560304,-0.8716486243049815,-0.17101751040707924,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT2_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),transition_RNA,2,1,single_library_side,0.549132633713886,0.39923362248312877,0.6990316449446423,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),transition_RNA,2,2,estimated,1.736928158607931,1.5676090817958723,1.9062472354199924,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,transition_RNA,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),AT1_identity,2,1,single_library_side,-0.2549337272886616,-0.4768280835400853,-0.033039371037237864,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),AT1_identity,2,2,estimated,0.8497208820515922,0.6176610458006442,1.0817807183025394,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,AT1_identity,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),priming_associated,2,1,single_library_side,1.6897327562723934,1.4258200458120367,1.9536454667327483,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),priming_associated,2,2,estimated,-0.2702500310141751,-0.9571113166993079,0.4166112546709613,False,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,priming_associated,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),cycling,2,1,single_library_side,-0.18311964139729398,-0.4147037491614549,0.04846446636686785,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),cycling,2,2,estimated,1.1733431034035995,0.452795475291599,1.8938907315156,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,cycling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),TNFA_NFKB_RNA_disjoint,2,1,single_library_side,0.1272493967676116,-0.026292974797833324,0.28079176833305564,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),TNFA_NFKB_RNA_disjoint,2,2,estimated,0.2878039931361087,-0.02563156461677707,0.6012395508889963,False,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,TNFA_NFKB_RNA_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),P53_RNA_control,2,1,single_library_side,-0.09227664671561531,-0.18164482784254865,-0.0029084655886819633,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),P53_RNA_control,2,2,estimated,0.4255488918254322,0.307365180546852,0.5437326031040124,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,P53_RNA_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),hypoxia_control,2,1,single_library_side,-0.07459743612594849,-0.16260301262987786,0.013408140377980882,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),hypoxia_control,2,2,estimated,0.30467998856908185,0.15652716980381998,0.45283280733434284,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,hypoxia_control,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_remodelling,2,1,single_library_side,0.08205954947940874,0.0007063710828871805,0.1634127278759303,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_remodelling,2,2,estimated,1.45688092687878,1.211943239881867,1.7018186138756928,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_remodelling,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_specific,2,1,single_library_side,0.02099748544566049,-0.06174713441064572,0.10374210530196715,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_specific,2,2,estimated,1.0276143390128745,0.8979535527390636,1.1572751252866849,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_specific,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),lesion_gate_cycle_stress_disjoint,2,1,single_library_side,-0.035524390178915066,-0.15439971775335382,0.08335093739552324,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),lesion_gate_cycle_stress_disjoint,2,2,estimated,0.9305157393755081,0.7551768885267696,1.1058545902242476,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,lesion_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),shared_gate_cycle_stress_disjoint,2,1,single_library_side,0.007588228611489001,-0.06715311424073533,0.08232957146371334,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),shared_gate_cycle_stress_disjoint,2,2,estimated,1.62741701250998,1.3523395679225487,1.9024944570974114,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,shared_gate_cycle_stress_disjoint,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Nfkbia,2,1,single_library_side,-0.5255110886422276,-1.1315174257014124,0.08049524841695721,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Nfkbia,2,2,estimated,0.4000462950985959,-0.6295669277521885,1.4296595179493803,False,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Nfkbia,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Tonsl,2,1,single_library_side,-0.9230387642742619,-1.9562280082817212,0.11015047973319736,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Tonsl,2,2,estimated,1.3261958221876977,0.24917851930153123,2.403213125073864,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Tonsl,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Areg,2,1,single_library_side,0.6814683552146255,-0.09906868224204324,1.4620053926712941,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Areg,2,2,estimated,2.402038274135239,1.4409880845861984,3.3630884636842797,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Areg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Ereg,2,1,single_library_side,1.0388779749078663,0.9310029076266026,1.1467530421891299,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Ereg,2,2,estimated,3.945509622518723,3.6312226647798576,4.2597965802575875,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Ereg,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hbegf,2,1,single_library_side,0.25494465027515645,-0.7505863217708448,1.2604756223211586,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hbegf,2,2,estimated,2.106991203836227,1.0957050768655856,3.118277330806868,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hbegf,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Spp1,2,1,single_library_side,2.317697294074347,1.400314915705609,3.235079672443085,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Spp1,2,2,estimated,4.081801054642224,2.722099894828353,5.441502214456093,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Spp1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Il1r1,2,1,single_library_side,-0.9239310848506666,-1.1451379721448682,-0.7027241975564644,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Il1r1,2,2,estimated,0.17698644945884334,-0.2216670694309304,0.5756399683486166,False,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Il1r1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Dlk1,2,1,single_library_side,3.0082974126851414,1.2427130621740075,4.773881763196275,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Dlk1,2,2,estimated,5.078034978433397,3.131072462127629,7.024997494739167,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Dlk1,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd177,2,1,single_library_side,0.9946774493604233,0.23110734883793144,1.7582475498829153,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd177,2,2,estimated,3.60893518406433,2.6064602307860985,4.6114101373425616,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd177,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Hmga2,2,1,single_library_side,-0.2110173840440055,-0.4865018290655328,0.06446706097752186,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Hmga2,2,2,estimated,5.138338081429317,4.607192349789524,5.669483813069109,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Hmga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Itga2,2,1,single_library_side,2.5016281052312213,1.712545405796103,3.290710804666339,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Itga2,2,2,estimated,4.280662679625609,3.3483099699629695,5.213015389288247,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Itga2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Axin2,2,1,single_library_side,-1.4546143437295012,-1.9333555318785427,-0.9758731555804596,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Axin2,2,2,estimated,-0.7656213927458779,-1.5832065559882864,0.05196377049653034,False,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Axin2,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Cd38,2,1,single_library_side,-0.10377021631784222,-0.23335362759226097,0.025813194956576524,False,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Cd38,2,2,estimated,2.8503906381566173,2.3573445174668204,3.343436758846415,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Cd38,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Trp53,2,1,single_library_side,-0.2901577343800934,-0.33371397547301296,-0.24660149328717473,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Trp53,2,2,estimated,0.8884248035781166,0.7915059942849876,0.9853436128712456,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Trp53,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
+depth1000_seed20260929,14,WT_in_oncogenic_tissue YFP minus Confetti YFP baseline (single library),Mki67,2,1,single_library_side,-0.3261001215779258,-0.43612784179217456,-0.21607240136367745,True,False
+depth1000_seed20260929,14,mutant RFP minus WT_in_oncogenic_tissue YFP (unpaired libraries),Mki67,2,2,estimated,1.1585593082203705,0.6818924450907011,1.6352261713500411,True,False
+depth1000_seed20260929,4,WT_in_oncogenic_tissue YFP minus time-matched baseline,Mki67,2,0,unavailable: no deposited 4-day Confetti arm,,,,,
