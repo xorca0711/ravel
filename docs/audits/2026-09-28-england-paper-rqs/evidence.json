@@ -1,0 +1,1169 @@
+{
+  "audit_date": "2026-09-28",
+  "main_snapshot": "bbfa4e7",
+  "england_snapshot": "d485507",
+  "scope": "source/code/table audit plus post-hoc A16 same-population diagnostic; no new atlas or simulator fit",
+  "snapshot_file_count": 136,
+  "snapshot_checks": [
+    {
+      "path": "Research Article/gate2_C2_england_2025/ANALYSIS_OPPORTUNITIES.md",
+      "committed_sha256": "33cbc0e9f8325f8831749995709179405886007fa3965fd6870568d4ab8b61cc",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/ANALYSIS_TRIAL_PLAN.md",
+      "committed_sha256": "7244514dfa2d549f6511202001b77f2ffed06ab64ad9d92b90b8f86817946571",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/BATCH1_CONTRACT.md",
+      "committed_sha256": "a443429cd5ce8462c8c439000f9d81be87ea86186afdaa1bf73bbb4eae7a5b8b",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/CONTINUATION_CONTRACT.md",
+      "committed_sha256": "629645cbbaf466218e4b2d394d25f676dd21fa3366360ccb0d21d74cdb4cfc98",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/README.md",
+      "committed_sha256": "90278e0c04dfa75cc45fc16440bbab32afe9fb7eccce4edab14346b31baa7ee8",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/RESULTS_BATCH1.md",
+      "committed_sha256": "5fa2dc28426cfaab0cbfcd0b121a7539bcabfe7f2e186d2a851cd803a50f497d",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/RESULTS_CONTINUATION.md",
+      "committed_sha256": "98c9ffb705d6c258aafbde4e7255d7dde923f9ceeaef9ef1f8a9e64933cc89f7",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md",
+      "committed_sha256": "02243a576403e51c3fcbf1c08f4471805ad26d19aa86f320a0950ac249695909",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/SOURCE_AUDIT.md",
+      "committed_sha256": "903d16400457f94f9536de99b17119657b0a2e4a7e3c21c5bb9225db53d68f86",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/config/batch1_contract.json",
+      "committed_sha256": "45278241ba9b7222350f5372951e05ff9ea8f3b29e7ae86c2daab9b3f29a01a6",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/config/continuation_amendments.json",
+      "committed_sha256": "5596a674795bfa7ffdd94146e2ff843dc245c8d97bedbdbcbabacde935e237cf",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/config/continuation_contract.json",
+      "committed_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/config/followup_contract.json",
+      "committed_sha256": "0e5633438c7b9128906ccd9153b4b67879e4abfa7a0c995d9e586ad9891bf354",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/england_2025_extracts.json",
+      "committed_sha256": "570cf17daa4661bbb8d028ae7ff2a47b4702a3ef3ac4c6a6062b00bebea7d81a",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/metadata/analysis_unit_map.csv",
+      "committed_sha256": "0a7f00c2820f28417b50892f648f295f2036596289ae0600c01ab3ce739fc25e",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/metadata/continuation_intake.json",
+      "committed_sha256": "e06511bc4158b491aa4ffda22635b78192482626af19b442c164b495b2e55239",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/metadata/geo_library_manifest.csv",
+      "committed_sha256": "5c7642f2ebef815a2b0b4a512f520e3c82aea03ce707acd2578807de1b296bd8",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/metadata/source_manifest.json",
+      "committed_sha256": "3b0ffca63cfe8af68f91b00a5edfbb1984806f2dc18f1bff954dbc55479af3dc",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/metadata/zenodo_files.csv",
+      "committed_sha256": "64d5c9292ebe31d6b4b9920db5be78bde083efba55d4d0d2282082aa21006b30",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/en0_ledger.py",
+      "committed_sha256": "8fb3a50d428c526e81d6e290b639a7599a089d04a8359208f6e0d9c351b0bd39",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/plot_batch1.py",
+      "committed_sha256": "6ff00bc0d876a56924360776283afc519086a4a625620afab70c0111399227d4",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/plot_continuation.py",
+      "committed_sha256": "95bde3e168e8411503accb7df75bc05f793d69a681ae98345a09b37fb89fb464",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/plot_followup.py",
+      "committed_sha256": "0a1e6fc0a51ebf2e4fd662cf150488e7c52120584dcf750c912e1b68673af338",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/prepare_continuation.py",
+      "committed_sha256": "c499c119c6e11096c684278ee1d474545710d56e86e14d9222e8f7691757ac35",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/run_clone_batch1.py",
+      "committed_sha256": "303572decea09050360475697b25acb35224f048566f329ecdf1fe8ef104a2ba",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/run_clustering_continuation.py",
+      "committed_sha256": "0f9872f5954c6ee1b9e47ba7b67ba8c0334f81bc12b2d7613160f4f096740e8d",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/run_external_en7.py",
+      "committed_sha256": "835889882f04fa7056555d5e03ea73bbf773d9f9f038077e3dd977e2ab4220c9",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/run_followup.py",
+      "committed_sha256": "32b53efe072f5a0eb6dd8dab198b58f1591f2e5ab314edf403ed79952e1045a3",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/run_rna_batch1.py",
+      "committed_sha256": "a795435f5b859dde885b90f47bb41502f13f4709f9d2f5019130872a0b6e5085",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/run_rna_continuation.py",
+      "committed_sha256": "3c561beae21ce747f1f1d22077ac8b1bf0a109d6c18cb475aaffe1653d6cf4c5",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/run_simulation_en6.py",
+      "committed_sha256": "ef2622cf02b69122f205d1c285b0abec53de18f9e6792205b99feac82a4c3bc3",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/run_spatial_decoupling.py",
+      "committed_sha256": "ab7c286eca6bd8aa36b744122e8bc5f73ce7f110cda9dff39b75910cc7fee987",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/verify_batch1.py",
+      "committed_sha256": "9a051d470a3d58c4e44882d67831d5069b6fd1dc001e227ab2669b1470a7ae70",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/scripts/verify_continuation.py",
+      "committed_sha256": "9e8abd5a0fc92a05fdde7ed6472abdbe8ac0721f4b695c707a7975f1db14039c",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/clone_CCDF_by_mouse.csv",
+      "committed_sha256": "c843ee11b7ef054005febacac1ce9c13882f59c6371d97511b5b70ffe4090fbd",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/clone_summary_by_mouse.csv",
+      "committed_sha256": "141e07e6f9ab71c4faf9ce4788552d4b6105dd8fc865cb7babf63b4e9fb4e3ff",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/model_LOMO_by_mouse.csv",
+      "committed_sha256": "f35429dc0465fd8ba673c190bc5802cb93877fcf8a54027037ee0adfa3d4a13c",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/model_LOMO_summary.csv",
+      "committed_sha256": "3c613cdda3c870305587902502580468832b26bafeff7adea790dafea5ffaa8f",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/mouse_schema.csv",
+      "committed_sha256": "d82f18edf76e3d055b1fb4565bde263f0734bcd1ba3201e7fdc3b1a4c52e9e38",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/run_record.json",
+      "committed_sha256": "30b051a9f654111781b781315df329795898869e20a5b17f3f468ea76683400f",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/spatial_identity_gate.csv",
+      "committed_sha256": "90dc74b3a8fe717a332bfa4ccab8258537ee9bc1d158b389c24cd08f124d2d3c",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/spatial_pooled_bin_profiles.csv",
+      "committed_sha256": "e3c4ca02d2ee5a8063cdfd39bc7a1c66dce7efcc788cf80a5bad4b8a35b1b5d6",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/clones/started.json",
+      "committed_sha256": "5ea2b07fdd9e5b137d19373ec493fcf6c670d6ec81d7d5fedb234fc7c45f7965",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/figures/EN_F02_genotype_contrasts.png",
+      "committed_sha256": "1770d33fc8abeaece0546e52ea7a7faa01e629b0fe44dfb2379c00c05002f7b0",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/figures/EN_F03_library_distributions.png",
+      "committed_sha256": "167dfffe426b17e994398dc219650728f985a445455f03d31bee2c943ea015aa",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/figures/EN_F05_clone_models.png",
+      "committed_sha256": "e692861cc23d6694c0b2894a365fb3e9b848805d002ab09c7b98f2994df4ba78",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/figures/EN_F06_spatial_profiles.png",
+      "committed_sha256": "65d9aaf9b89d785028d1559bbc0d70d41461193848c125b4669b92f69e1be7ac",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/figures/render_record.json",
+      "committed_sha256": "85d5c94c0869e413dad4fce5ade99d4e3794422fcaa8fdc4c601f710dfc88705",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/figures/visual_review.json",
+      "committed_sha256": "e70be0127d9f00d249a30e6061b746327e19641a053d036ecdd52f59b241e334",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/rna/QC_by_library.csv",
+      "committed_sha256": "fdf432d889858daaa72cb7f27ef7594025baec5e26270b16807f723dc8f26e2c",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/rna/library_contrasts.csv",
+      "committed_sha256": "55afcdfa43c5d2185de52d59a3b0d20060c6989af00a16b3e1ac899c86323976",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/rna/library_expression.csv",
+      "committed_sha256": "5f3b9056ad721c076aaf51e5b8fccc4e56022b97ff59df4010febe64264b3b07",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/rna/module_coverage.csv",
+      "committed_sha256": "2520e51994e3f299cc90917cc7b160ea3f92db217611b6059ed9f2e1a17dcdb8",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/rna/phenotype_occupancy.csv",
+      "committed_sha256": "ac1ec2cf5b14422ccee19c04eb6270bfbe0bc674d1eddeb812c6903b95e56d9c",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/rna/run_record.json",
+      "committed_sha256": "897c4b608973920394bc6a5a0d84fde38b00f0db3341639d21b5a589ec54233f",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/rna/started.json",
+      "committed_sha256": "6514dd87a87eccce02ef3f2465c8cec30b1d7c738328a4fea0e96d1789f53ba5",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/stage_status.json",
+      "committed_sha256": "cacc5c49f9bf7726b440b83f3ffe24808cdc012014e67f02502b8303aba9b18d",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/batch1/verification.json",
+      "committed_sha256": "b15a79a75988a9a3873050b9dfe3321467430cb46029a46f43f7c612f278ee48",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN1/cluster_by_library.csv",
+      "committed_sha256": "a84bb080540d5362c46c42e11d5e9ba8eaa02bf80c6c1b380db31024fb5b8885",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN1/cluster_gate_crosstab.csv",
+      "committed_sha256": "b82be430af1c6a20bc77e734e0016a3e9306d06395746745d6dcc423a3d2bb78",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN1/cluster_marker_panels.csv",
+      "committed_sha256": "1acf26ef0cdf69446a87c8113ce6228334ecfcecb55e6ebd175f3aac71a21ec7",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN1/cluster_sizes.csv",
+      "committed_sha256": "2d47221bec9c0199e55483eb26af9b101ef4557dfbbd77214fad7695146328fa",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN1/retention_waterfall.csv",
+      "committed_sha256": "e21bcedb1c1b0c4dfb526d43e43701a3a9e6c5fd4eb6f4df8d3234aafb2d0a13",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN1/run_record.json",
+      "committed_sha256": "eaae8ffae57fbc06a451874056f3b9c56708311f5d5ffd9b316a833ba167e1e0",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN1/started.json",
+      "committed_sha256": "f6cb5a8af1c4c44e832ea54e7184198c89e72f80e47b4c969a07a5c88e28abc8",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN2_composition.csv",
+      "committed_sha256": "906d9be360454cdd85b5ab6216ed1643f51a43a5e3c7ef3b8eb92b4eeb25ec23",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN2_composition_contrasts.csv",
+      "committed_sha256": "92302a9eaff01aec07da31b16d0f7cabe9307baf3657abc1032b7632fb09fb33",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN2_within_state_contrasts.csv",
+      "committed_sha256": "7a1e2a8a00fcba453d92f5ada237b1a7a0a29e0154f8b33f15242e100f735f0c",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN2_within_state_pseudobulk.csv",
+      "committed_sha256": "9271fc55aa971c00ad2a5ff231d7333c72879cf004d43cbfd1826281f7365af6",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN3_axes_by_library.csv",
+      "committed_sha256": "c4e6b2c73b121beed8b4ee95259bc7f8324f6c0648e4ac36d965765139fcdc35",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN3_candidate_tail_occupancy.csv",
+      "committed_sha256": "715a3a9bb32157e2ee07cbf769c1a3969320e843607c2b7074c5ca56749ce257",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN4_wt_yfp_contrasts.csv",
+      "committed_sha256": "8280573b51e21cbe2cd5400ae52af38beed4f25436b663165bda2cf06f447e70",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN5_cd177_contrasts.csv",
+      "committed_sha256": "0e6cabd58939d978f70d6c7f65acbe2517d67ddb7de64768fb2778a651d811e2",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN5_cd177_groups.csv",
+      "committed_sha256": "bc8eba7923c778eb50f8d15332686b192f4d0fce3e5cf14d038439feb489d36e",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN5_cd177_matched.csv",
+      "committed_sha256": "ffb4b47cbc22373861bd6396738c1d77d3ad2225cdae83276b3f9390729d3da8",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN5_codetection_null.csv",
+      "committed_sha256": "fc1637b40932119353dc7219794cc27dfcb9d6f77a9dcce9d310b123ec4886d9",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/run_record.json",
+      "committed_sha256": "7156b93eef8b33bf06d803497ed6143860cac92eb31a2eeed86db95f5c3ddd9d",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/started.json",
+      "committed_sha256": "39d4eef256068c9ae6834430bfa5abe4e9093b5c26ad2f4cf2cb2c5fcce09662",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN6/analytic_birth_death_check.csv",
+      "committed_sha256": "06b9227d8de1f207af74262aa0cfe2fd8d168f45c1a2abd8493613dda9517398",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN6/implementation_differences.csv",
+      "committed_sha256": "7573a3bf465a43068c5833e62eddc436d9b652ab8793ddabd6d8faac4e7ece03",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN6/lomo_parameter_spread.csv",
+      "committed_sha256": "c239a28471dc0d1a31703f347963f02f45ed773cf1d4fd5195a691a3c2d88f28",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN6/run_record.json",
+      "committed_sha256": "f4bb6ab8a83a0693ea64bcec0c9be425a9d5d554b4627c528ecdaff3ba9ffd44",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN6/simulation_ccdf.csv",
+      "committed_sha256": "df1c22644e21e0bcebf6c3c6d58be2000c2df60a6ca637944d8b89d97c1d5c9d",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN6/simulation_summary.csv",
+      "committed_sha256": "1c181ad613d1188db84151f305f3378ba991fbf98e2cc7c6aa10067daf84f6f8",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN6/started.json",
+      "committed_sha256": "a8dac2abb2d1dd09aaba8163d6af5ecfd529f93bccc88e3b51b20b6c53ff267d",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/EN7_author_state_crosstab.csv",
+      "committed_sha256": "14724c6bf0adb72e2d31e6be88bbb0aa7513649f6fb2c27e5cefbf446d5bb4db",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/EN7_cd177_contrasts.csv",
+      "committed_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/EN7_cd177_groups.csv",
+      "committed_sha256": "d7d994cfc3734ab002c71f6bc37bdee275b802ad3dda11524582829479938950",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/EN7_cd177_matched.csv",
+      "committed_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/EN7_composition.csv",
+      "committed_sha256": "04d39371fc0d70b73866e225de5c72b1a168a797a030553d191da081229275d9",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/EN7_contrasts.csv",
+      "committed_sha256": "c3a9ce88656dad434df536687cfc82137b464d917fc742de22be47285a17ac39",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/EN7_pseudobulk.csv",
+      "committed_sha256": "331458643cb93e504fcaf7a8eb9dd5cc7814fd3277252177aa3cb9a04f0ef917",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/run_record.json",
+      "committed_sha256": "a145dadbb2ce29451b94546d9c1da16dcd1745df901614c406235b8206841f9d",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/EN7/started.json",
+      "committed_sha256": "11ac478b1101e8dec1183883fc35c97e0c5bd39c4476cf613a0776175576c72f",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/figures/EN_C01_state_occupancy.png",
+      "committed_sha256": "d64d8796bdc7286b4dd292a53b8ef65590198cb167f63a82ad2f3c4a163eef86",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/figures/EN_C02_cluster_gate_crosstab.png",
+      "committed_sha256": "bac0f0f42e28894814b9f6c6e8f5322e6fb0cc1d3af9822ff5cd3450c1473812",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/figures/EN_C03_cd177_transition.png",
+      "committed_sha256": "7517b3003ad51b58b2f53a73c5bc55d4fddbea38e8baff8e00a89aad46d19b9c",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/figures/EN_C04_genotype_contrasts.png",
+      "committed_sha256": "5f7a4debbe1d36030c489e252c8e5a03c722aabfea6436f40e5e56ee6318285f",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/figures/EN_C05_simulator_implementations.png",
+      "committed_sha256": "d69bcf2bf85f96b2c3c601db47353205639c8ffd3187b1276ff6d3cfbe18a9bf",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/figures/EN_C06_repair_transfer.png",
+      "committed_sha256": "c9674d6034944cd89699f37713522ca52addef034121e5095ed4d0128cad151a",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/figures/render_record.json",
+      "committed_sha256": "bb51a87dbb4ab1edb642b9a929a1a3c6c14a7f060c84455d501b91f0752455e1",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/prep/EN0_availability_ledger.json",
+      "committed_sha256": "114800c4863fdc5d98ce537f148d26ef6588db5c797e950b7661ef6f8271dc64",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/prep/QC_by_library.csv",
+      "committed_sha256": "4904f074984fe5767652bcde2722c006fbde6bf4cd8ad004605738293b2668db",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/prep/gate_occupancy_by_library.csv",
+      "committed_sha256": "294910c13d11f2e164c3f38ec75952d84a11fc99df07448d0464ae5e84cc2f61",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/prep/matrix_checks.json",
+      "committed_sha256": "64671956ec0c99211a620d82d27cf52ddcb57f2f7a3b6a461c6384a3802ce355",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/prep/module_coverage.csv",
+      "committed_sha256": "39dee8eaf42c39dacdf78257dd9cd590b84dca5ea3141fbf62ea7e368cf07650",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/prep/run_record.json",
+      "committed_sha256": "5a22ef87365f356075a2edf7f0d2de7b0537962f5025ac3bbf658ff384f0d2ba",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/prep/started.json",
+      "committed_sha256": "f5a4c8d15805efa6e577288d966f0e9a7d7c0965d441379e4fb79ea338a06652",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/stage_status.json",
+      "committed_sha256": "b8aa5a3058a402ed929c3018220b2e5066872d4dacc5c6ac53f4a2bf1788e3e6",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/continuation/verification.json",
+      "committed_sha256": "62a7dc31802fcad5c9f1294a03942e7ed4528b2acdeb9439cefbf422077ee31d",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_A_depth_control.csv",
+      "committed_sha256": "3257e93f9d3b8757dc3fe323d21097b199b30ef280f74a27cf9a535bcd40ab77",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_A_verdicts.csv",
+      "committed_sha256": "93e32d20ba2f0e807b521abecff9d9777cf814cf8db653ec68c555f55969e250",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_B_at1_gate_calibration.csv",
+      "committed_sha256": "27bd1f580b35d8667cf3d615174b0b17f22147124cda428202552a1e48b4a5cb",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_B_state_composition_both_definitions.csv",
+      "committed_sha256": "d572bb2202f2dfc30f49a2edf0b71ccf4214b9e733be350768423b06a3990224",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_C_within_subcluster_cd177.csv",
+      "committed_sha256": "5b3432afba2e895a68a69d717df01ecc12039ddea3704183993cf6e7af28ebc4",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_D_library_quality_model.csv",
+      "committed_sha256": "07a444c9a817d51ede94598da3af8271582f66cf12f408097869acd7f9d4aa6e",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_D_model_summary.csv",
+      "committed_sha256": "5cb2c022a372402baf36ad06a9e397f0f362de84f9874aa9483e64266db035ac",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_E_diffusion_ordering.csv",
+      "committed_sha256": "5481fa5c028cdf42c7342dc5350986cd41fdc587e00ca4b500d1b7b0fb2ba540",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_E_round1_contaminant_waterfall.csv",
+      "committed_sha256": "0017d7be3d4e5997a737eddfd050c34040df56359434da339e621a60c268364e",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_E_round2_clusters.csv",
+      "committed_sha256": "f4ce9ffddbf5d9380063e206b2a1e31ff76a80b8a5ba646e8cad08dd08cb78fa",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_T1_paga_connectivity.csv",
+      "committed_sha256": "8715d787670014433d68377c430e8195c815984ec237132e69b9fbaec2fbd0b6",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_T2_intermediate_density.csv",
+      "committed_sha256": "16929dcffcf0122cb18481001446ee85bcc0cdc0b0e6ad85b45e697fe013b61f",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_T3_composition_stationarity.csv",
+      "committed_sha256": "88ec7bf28af5b67956e67a215972798b3a4c7d97d19d9363f3bc4180e6d60632",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_T4_cycling_equipotency.csv",
+      "committed_sha256": "765cfc160d34e4c0981bdf2b036ab3ba62fd3b98f2efee8685dc24bfad0920e2",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_W_distance_slopes.csv",
+      "committed_sha256": "9d2e407e4c33a6f36cc86c03a42cc98a3cb2d7eb553a8161d506aebff4547bab",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/FU_W_run_record.json",
+      "committed_sha256": "031c00384ec2b1124087e7fb04f53edbb9fffd155cdfc9fa3d6cce149d9c5120",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/figures/FU_F01_round2_umap.png",
+      "committed_sha256": "feb435a78eaea7aecdb56480997801db97a3744bd85e308a7debec74b4abb9f5",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/figures/FU_F02_depth_control.png",
+      "committed_sha256": "bbb34e314ef387ef341a7dcdfd8d70d198b09ce947a55e67e564e22b86b6a002",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/figures/FU_F03_topology_and_within_cluster.png",
+      "committed_sha256": "0876fb58749267892c5006635c8e09908995b401cc2a41d35e2fa131fe6135b2",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/figures/FU_F04_controls.png",
+      "committed_sha256": "7f1f9879be92463aca984b56082d7228d29357672fe593b4f60041f616fd2afd",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/figures/FU_F05_growth_differentiation.png",
+      "committed_sha256": "ce2a8e5568a6c3c784738bd44714448f2eefd7789c1fbba317571ff820844016",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/figures/render_record.json",
+      "committed_sha256": "61e6147fee78bb5267b60db3f5afa48609f5ee2d406292f52c74e523fd748b45",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/run_record.json",
+      "committed_sha256": "d523e3d4bc095a421e53ec9028d3924a27e7c17bcaa8e97ca0dacb655595b053",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "Research Article/gate2_C2_england_2025/trials/followup/started.json",
+      "committed_sha256": "c1185ee9e1f12d83f7241515ecfecb81b07ece0f46f989308595ba5368fcae73",
+      "live_matches_after_newline_normalization": true
+    },
+    {
+      "path": "RESEARCH_QUESTIONS.md",
+      "committed_sha256": "ba437e9b4b32c6694ed0e05941936c8701015ed05a7019bcf90427c4d1d438d5",
+      "live_matches_after_newline_normalization": false
+    },
+    {
+      "path": "CLAIMS.md",
+      "committed_sha256": "f9cf102ff5904917ab339c9281e0d1615552fa3de24513940d8e9c5377a41af2",
+      "live_matches_after_newline_normalization": true
+    }
+  ],
+  "primary_sources": [
+    {
+      "name": "England et al_Sustained_NF-kB_allow_mutant_alveolar_stem_cell_Co_op_regeneration_2025.pdf",
+      "bytes": 11405801,
+      "sha256": "3167e85eae83a34a4cee7815dda5936e6a90bf4b19178b0687b1f612fc7fed1b"
+    },
+    {
+      "name": "mmc1.pdf",
+      "bytes": 30839888,
+      "sha256": "ec94d5c85dbc952802e0772ab372889703752e6d33eea9c7dbbfc8cd05964812"
+    },
+    {
+      "name": "mmc2.pdf",
+      "bytes": 146841,
+      "sha256": "230c1378ad80c7f1423ea00dbf034df43aecdf164857c31cd16d4063fca2cb26"
+    }
+  ],
+  "cached_inputs": [
+    {
+      "path": "trials/followup/FU_A_verdicts.csv",
+      "sha256": "93e32d20ba2f0e807b521abecff9d9777cf814cf8db653ec68c555f55969e250",
+      "source": "d485507"
+    },
+    {
+      "path": "processed/continuation/cells_table.csv.gz",
+      "sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78",
+      "source": "existing ignored cache"
+    },
+    {
+      "path": "processed/followup/experiment1_round2.csv.gz",
+      "sha256": "671c957002dc4c00ec629c3afb8e102ed8f4513854af85fab165c22dafbef2f7",
+      "source": "existing ignored cache"
+    },
+    {
+      "path": "processed/followup/experiment2_round2.csv.gz",
+      "sha256": "5b134a38f622f87237c12b210f2c2b63486f68abf5f12f905d057a95f7f88375",
+      "source": "existing ignored cache"
+    },
+    {
+      "path": "trials/followup/FU_C_within_subcluster_cd177.csv",
+      "sha256": "5b3432afba2e895a68a69d717df01ecc12039ddea3704183993cf6e7af28ebc4",
+      "source": "d485507"
+    },
+    {
+      "path": "trials/continuation/EN6/implementation_differences.csv",
+      "sha256": "7573a3bf465a43068c5833e62eddc436d9b652ab8793ddabd6d8faac4e7ece03",
+      "source": "d485507"
+    },
+    {
+      "path": "trials/batch1/clones/clone_summary_by_mouse.csv",
+      "sha256": "141e07e6f9ab71c4faf9ce4788552d4b6105dd8fc865cb7babf63b4e9fb4e3ff",
+      "source": "d485507"
+    },
+    {
+      "path": "trials/batch1/clones/spatial_identity_gate.csv",
+      "sha256": "90dc74b3a8fe717a332bfa4ccab8258537ee9bc1d158b389c24cd08f124d2d3c",
+      "source": "d485507"
+    },
+    {
+      "path": "trials/followup/FU_W_distance_slopes.csv",
+      "sha256": "9d2e407e4c33a6f36cc86c03a42cc98a3cb2d7eb553a8161d506aebff4547bab",
+      "source": "d485507"
+    }
+  ],
+  "fu_a_frozen_verdicts": {
+    "depth_dependent_or_inconclusive": 12
+  },
+  "fu_c_original_numeric_checks": 49,
+  "fu_c_max_numeric_error": 9.71445146547012e-17,
+  "fu_c_original_estimated_clusters": [
+    {
+      "experiment": 1,
+      "cluster": 10
+    },
+    {
+      "experiment": 1,
+      "cluster": 12
+    },
+    {
+      "experiment": 1,
+      "cluster": 16
+    },
+    {
+      "experiment": 1,
+      "cluster": 17
+    },
+    {
+      "experiment": 1,
+      "cluster": 18
+    },
+    {
+      "experiment": 2,
+      "cluster": 10
+    },
+    {
+      "experiment": 2,
+      "cluster": 12
+    }
+  ],
+  "a16_same_population_eligible_strata": [
+    {
+      "library": "GSM7890835",
+      "cluster": 18,
+      "n_pos": 45,
+      "n_neg": 222,
+      "eligible_30_per_side": true
+    },
+    {
+      "library": "GSM7890836",
+      "cluster": 16,
+      "n_pos": 35,
+      "n_neg": 47,
+      "eligible_30_per_side": true
+    }
+  ],
+  "simulator_branch_audit": {
+    "q": 0.7,
+    "birth_threshold": 0.7,
+    "literal_loss_threshold": 0.6000000000000001,
+    "loss_branch_reachable": false,
+    "archive_sha256": "404697263ca941b1b74dee9feb4c4680ff3077d9e20bb7105482d17f14e96a70",
+    "member_sha256": "78f7157b8a01d1a8a785c479d33ad1c2c03eb902452f577e10f9e7e006008065"
+  },
+  "recorded_implementation_differences": [
+    {
+      "block": "Red2Kras_RFP",
+      "time_days": 7,
+      "comparison": "literal vs literal_fixed_branch",
+      "seed": 20260928,
+      "ks_distance_conditional_ge2": 0.104184568,
+      "mean_size_ge2_A": 7.4800321777,
+      "mean_size_ge2_B": 7.2514939476,
+      "fraction_ge2_A": 0.90746,
+      "fraction_ge2_B": 0.58737
+    },
+    {
+      "block": "Red2Kras_RFP",
+      "time_days": 14,
+      "comparison": "literal vs literal_fixed_branch",
+      "seed": 20260928,
+      "ks_distance_conditional_ge2": 0.2810936722,
+      "mean_size_ge2_A": 65.5441309137,
+      "mean_size_ge2_B": 79.7926062783,
+      "fraction_ge2_A": 0.9533,
+      "fraction_ge2_B": 0.57914
+    },
+    {
+      "block": "Red2Kras_RFP",
+      "time_days": 28,
+      "comparison": "literal vs literal_fixed_branch",
+      "seed": 20260928,
+      "ks_distance_conditional_ge2": 0.2809789448,
+      "mean_size_ge2_A": 138.6003284175,
+      "mean_size_ge2_B": 201.6794566295,
+      "fraction_ge2_A": 0.96219,
+      "fraction_ge2_B": 0.57493
+    }
+  ],
+  "clone_units_by_dataset_channel": [
+    {
+      "dataset": "conf12w",
+      "channel": "combined_YFP_RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "conf1w",
+      "channel": "combined_YFP_RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "conf24w",
+      "channel": "combined_YFP_RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "conf2w",
+      "channel": "combined_YFP_RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "conf36w",
+      "channel": "combined_YFP_RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "conf4w",
+      "channel": "combined_YFP_RFP",
+      "mice": 5
+    },
+    {
+      "dataset": "conf52w",
+      "channel": "combined_YFP_RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "conf60w",
+      "channel": "combined_YFP_RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "conf72w",
+      "channel": "combined_YFP_RFP",
+      "mice": 4
+    },
+    {
+      "dataset": "kras1w",
+      "channel": "RFP",
+      "mice": 4
+    },
+    {
+      "dataset": "kras1w",
+      "channel": "YFP",
+      "mice": 4
+    },
+    {
+      "dataset": "kras2w",
+      "channel": "RFP",
+      "mice": 4
+    },
+    {
+      "dataset": "kras2w",
+      "channel": "YFP",
+      "mice": 4
+    },
+    {
+      "dataset": "kras4d",
+      "channel": "RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "kras4d",
+      "channel": "YFP",
+      "mice": 3
+    },
+    {
+      "dataset": "kras4w",
+      "channel": "RFP",
+      "mice": 3
+    },
+    {
+      "dataset": "kras4w",
+      "channel": "YFP",
+      "mice": 3
+    }
+  ],
+  "table_s1_source_reconciliation": [
+    {
+      "dataset": "kras4d",
+      "channel": "YFP",
+      "printed_mouse_counts": "[892, 7, 38]",
+      "printed_mouse_sum": 937,
+      "printed_total": 937,
+      "archive_mouse_count": 3,
+      "archive_mouse_counts": "[892, 7, 38]",
+      "archive_total": 937,
+      "printed_total_matches_printed_sum": true
+    },
+    {
+      "dataset": "kras1w",
+      "channel": "YFP",
+      "printed_mouse_counts": "[4532, 1586, 4848]",
+      "printed_mouse_sum": 10966,
+      "printed_total": 12073,
+      "archive_mouse_count": 4,
+      "archive_mouse_counts": "[4532, 1586, 4848, 1107]",
+      "archive_total": 12073,
+      "printed_total_matches_printed_sum": false
+    },
+    {
+      "dataset": "kras2w",
+      "channel": "YFP",
+      "printed_mouse_counts": "[4155, 342, 1142]",
+      "printed_mouse_sum": 5639,
+      "printed_total": 10464,
+      "archive_mouse_count": 4,
+      "archive_mouse_counts": "[4155, 342, 1152, 4815]",
+      "archive_total": 10464,
+      "printed_total_matches_printed_sum": false
+    },
+    {
+      "dataset": "kras4w",
+      "channel": "YFP",
+      "printed_mouse_counts": "[3107, 1811, 2051]",
+      "printed_mouse_sum": 6969,
+      "printed_total": 6969,
+      "archive_mouse_count": 3,
+      "archive_mouse_counts": "[3107, 1811, 2051]",
+      "archive_total": 6969,
+      "printed_total_matches_printed_sum": true
+    },
+    {
+      "dataset": "kras4d",
+      "channel": "RFP",
+      "printed_mouse_counts": "[886, 11, 25]",
+      "printed_mouse_sum": 922,
+      "printed_total": 10464,
+      "archive_mouse_count": 3,
+      "archive_mouse_counts": "[886, 11, 25]",
+      "archive_total": 922,
+      "printed_total_matches_printed_sum": false
+    },
+    {
+      "dataset": "kras1w",
+      "channel": "RFP",
+      "printed_mouse_counts": "[2967, 138, 4800]",
+      "printed_mouse_sum": 7905,
+      "printed_total": 8756,
+      "archive_mouse_count": 4,
+      "archive_mouse_counts": "[2967, 138, 4800, 851]",
+      "archive_total": 8756,
+      "printed_total_matches_printed_sum": false
+    },
+    {
+      "dataset": "kras2w",
+      "channel": "RFP",
+      "printed_mouse_counts": "[1253, 252, 613]",
+      "printed_mouse_sum": 2118,
+      "printed_total": 4857,
+      "archive_mouse_count": 4,
+      "archive_mouse_counts": "[1253, 252, 613, 2739]",
+      "archive_total": 4857,
+      "printed_total_matches_printed_sum": false
+    },
+    {
+      "dataset": "kras4w",
+      "channel": "RFP",
+      "printed_mouse_counts": "[1086, 544, 870]",
+      "printed_mouse_sum": 2500,
+      "printed_total": 2500,
+      "archive_mouse_count": 3,
+      "archive_mouse_counts": "[1086, 544, 870]",
+      "archive_total": 2500,
+      "printed_total_matches_printed_sum": true
+    }
+  ],
+  "spatial_identity": [
+    {
+      "dataset": "conf1w",
+      "pair_rows": 708,
+      "eligible_pair_rows": 708,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "conf2w",
+      "pair_rows": 209,
+      "eligible_pair_rows": 209,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "conf4w",
+      "pair_rows": 758,
+      "eligible_pair_rows": 758,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "conf12w",
+      "pair_rows": 1069,
+      "eligible_pair_rows": 1069,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "conf24w",
+      "pair_rows": 931,
+      "eligible_pair_rows": 931,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "conf36w",
+      "pair_rows": 322,
+      "eligible_pair_rows": 322,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "conf52w",
+      "pair_rows": 342,
+      "eligible_pair_rows": 342,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "conf60w",
+      "pair_rows": 695,
+      "eligible_pair_rows": 695,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "conf72w",
+      "pair_rows": 446,
+      "eligible_pair_rows": 446,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "kras4d",
+      "pair_rows": 538,
+      "eligible_pair_rows": 538,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "kras1w",
+      "pair_rows": 7588,
+      "eligible_pair_rows": 7588,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "kras2w",
+      "pair_rows": 6988,
+      "eligible_pair_rows": 6988,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    },
+    {
+      "dataset": "kras4w",
+      "pair_rows": 4579,
+      "eligible_pair_rows": 4579,
+      "mouse_id_available": false,
+      "unique_clone_id_available": false,
+      "distance_unit": "micrometres_as_labeled_in_author_script"
+    }
+  ],
+  "fu_w_slope_columns": [
+    "dataset",
+    "context",
+    "status",
+    "eligible_bins",
+    "pair_rows",
+    "nearest_bin_um",
+    "farthest_bin_um",
+    "min_bin_pair_rows",
+    "distal_anchor_pair_rows",
+    "dense_bins_ge100_rows",
+    "size_relative_slope_dense_bins",
+    "spcneg_relative_slope_dense_bins",
+    "log_size_slope_per_100um",
+    "logit_spcneg_slope_per_100um",
+    "size_near",
+    "size_far",
+    "size_slope_per_100um",
+    "size_relative_slope_pct_per_100um",
+    "spcneg_near",
+    "spcneg_far",
+    "spcneg_slope_per_100um",
+    "spcneg_relative_slope_pct_per_100um",
+    "mouse_or_clone_ids_available"
+  ],
+  "fu_s_current_contract": {
+    "question": "Does a boundary-correct implementation change the fitted two-population parameters and their support relative to the literal script?",
+    "data": "batch1 mouse-level clone sizes, support n >= 2, mutant RFP cohorts kras1w/kras2w/kras4w",
+    "implementations": "literal and boundary-correct Gillespie from EN6, unchanged",
+    "fitting": "simulated-likelihood on a fixed grid: fs in {0.04,0.08,0.12,0.16,0.20}, sigma_f in {2,4,6,8,10,12,14}/7 x 2, sigma_s in {0.5,1.0,1.5,2.0}/7 x 2, r = q in {0.5,0.6,0.7,0.8}; 20 replicates x 2000 clones per grid point, seed 20260930; score = mean per-mouse multinomial log likelihood of the binned size distribution (bins 2,3,4,5-6,7-10,11-20,21-50,51+) with leave-one-mouse-out held-out scoring",
+    "comparison": "best grid point per implementation, its held-out score, and the batch1 shifted-negative-binomial held-out score on the same bins",
+    "boundary": "A coarse grid is not a maximum-likelihood fit; merger and segmentation of imaged clones are not modelled; agreement with the published curves is not evidence that a particular implementation produced them."
+  },
+  "limitations": [
+    "Cell cache and labels are existing exposed outputs, not independent data.",
+    "Same-population diagnostic keeps outcome-informed clusters and does not resolve overconditioning.",
+    "SMD ratios use different denominators; they are not fractions of signal explained.",
+    "No official claim grade was changed."
+  ]
+}

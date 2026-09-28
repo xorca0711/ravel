@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-28",
+  "base_commit": "27e281a",
+  "python": "3.12.14",
+  "scope": "Local repository checks after documentation rewrite; no scientific refit or mechanism validation.",
+  "results": {
+    "compile": {
+      "exit_code": 0,
+      "tail": []
+    },
+    "unit_tests": {
+      "exit_code": 0,
+      "tail": [
+        "Ran 53 tests in 5.438s",
+        "",
+        "OK (skipped=1)"
+      ]
+    },
+    "claim_contract": {
+      "exit_code": 0,
+      "tail": [
+        "Claim contract verified; 18 numeric bindings passed."
+      ]
+    },
+    "nb1_evidence": {
+      "exit_code": 0,
+      "tail": [
+        "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested."
+      ]
+    },
+    "repository": {
+      "exit_code": 0,
+      "tail": [
+        "  tracked JSON artefacts parse",
+        "  selected headline values and explicit numeric bindings match tracked tables",
+        "  claim index and summary match the register; this is not full scientific reproduction"
+      ]
+    },
+    "preserved_audit": {
+      "exit_code": 0,
+      "files": 8,
+      "mismatches": []
+    }
+  },
+  "ci": "PR workflows must pass on the pushed commit before merging."
+}

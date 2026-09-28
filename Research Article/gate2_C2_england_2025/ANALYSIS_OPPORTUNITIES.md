@@ -1,60 +1,60 @@
 # England et al. 2025 — what the deposits can and cannot still surface
 
+**Interpretation amendment, 28 September 2026:** the [source/code audit](../../docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
+supersedes the earlier A16 population, A17 readiness and Figure-7 reproduction
+interpretations. Original numerical reports and contracts remain unchanged.
+
 **Written 28 September 2026**, from a second reading of the paper and its STAR Methods against the
 deposited material. This is a scoping ledger, not a results file: it records which of the paper's
 claims can still be interrogated with what was released, which are closed, and which are blocked and
 on what. Results live in [RESULTS_BATCH1.md](RESULTS_BATCH1.md),
 [RESULTS_CONTINUATION.md](RESULTS_CONTINUATION.md) and [RESULTS_FOLLOWUP.md](RESULTS_FOLLOWUP.md).
 
-## What the paper actually ran
+## Source methods and interpretation scope
 
-Worth stating plainly, because it bounds every "reproduce their trajectory" request: the study ran
-**no computational trajectory analysis**. Seurat v4.3.0 on R 4.2.1, CellRanger v3.1.0 against GRCm38,
-QC removing >15% mitochondrial reads, <1,000 genes or >50,000 UMIs, log-normalisation and scaling,
-top 5,000 variable genes, PCA, Louvain clustering, UMAP on the first two dimensions, contaminant
-clusters discarded on Ptprc / Pecam1 / Col1a1 / Foxj1, then two rounds of integration with
-renormalisation and re-clustering, markers by FindMarkers, and CellChat for ligand–receptor
-inference. No pseudotime, no RNA velocity, no Monocle, no PAGA. The reversibility and bidirectionality
-claims rest on **protein and functional assays**: CD177/Itga2 double-positive immunofluorescence,
-organoids from sorted CD177+, Itga2+, double-negative and double-positive fractions, orthotopic
-transplantation into NSG mice, EdU label retention, and the absence of a clone-size-to-composition
-correlation. Any trajectory we compute is our own addition and carries no directional authority; RNA
-velocity is not available at all, because the deposit holds filtered count matrices with no
-spliced/unspliced layers.
+The inspected article/supplements describe clustering, integration, signatures,
+correlations and CellChat, but do not document a computational directional
+trajectory method. The contribution statement mentions trajectory analysis;
+absence of a documented algorithm is not proof that none was performed.
+Sorted-state organoids and transplantation provide functional plasticity
+evidence. Double-positive staining alone does not establish interconversion.
+Deposited filtered matrices lack spliced/unspliced layers; any re-quantified
+velocity analysis would remain model-dependent, not lineage ground truth.
 
 ## Claim-by-claim ledger
 
 | # | Source claim (figure) | Evidence type in paper | Deposited material | Our status |
 | --- | --- | --- | --- | --- |
 | 1 | A two-population model encapsulates homeostatic AT2 dynamics (Fig 1) | clone-size distributions + simulated-likelihood fit | Zenodo clone archive (conf1w–conf72w, 3–5 mice each); MATLAB `sim_two_pop_model.m` | **Audited, one finding open.** Confetti mixture weights are not identifiable from the deposited sizes (0.09–0.89, overlapping components). Folded into **A17** |
-| 2 | Two-population dynamics are conserved in KrasG12D initiation (Fig 2) | same, on kras4d–kras4w | clone archive (RFP and YFP separately) | **Audited, finding open.** The deposited script's S-loss branch changes the q = 0.7 clone-size distribution materially (KS 0.104–0.281; size ≥2 fraction 0.91–0.96 literal vs 0.57–0.59 fixed branch vs 0.50–0.55 Gillespie). Refit specified as FU_S / **A17**, ready to run |
-| 3 | Mutant AT2 cells co-opt a regeneration program (Fig 3) | scRNA-seq clustering, state occupancy | GSE247505, 20 libraries | **Reproduced and extended.** EN1–EN4. Transition gate is cluster-concentrated; AT1 gate is not, which motivated the calibrated module gate (FU_B) |
+| 2 | Two-population dynamics are conserved in KrasG12D initiation (Fig 2) | same, on kras4d–kras4w | clone archive (RFP and YFP separately) | **Audited, finding open.** The deposited script's S-loss branch changes the q = 0.7 clone-size distribution materially (KS 0.104–0.281; size ≥2 fraction 0.91–0.96 literal vs 0.57–0.59 fixed branch vs 0.50–0.55 Gillespie). FU_S / **A17** is computationally feasible after source-count, parameter and switch-schedule amendments; not executed |
+| 3 | Mutant AT2 cells co-opt a regeneration program (Fig 3) | scRNA-seq clustering, state occupancy | GSE247505, 20 libraries | **RNA proxies reproduced and extended; exact author states not recovered.** EN1–EN4. Transition gate is cluster-concentrated; AT1 gate is not, which motivated the calibrated module gate (FU_B) |
 | 4 | Reversible transitions between mutant states (Fig 4) | IF double-positives, sorted organoids, transplantation, EdU | **none of it** — no protein, no sorted fractions, no lineage barcodes | **Closed on this deposit.** Direction and reversibility are not recoverable from these matrices; deliberately not claimed. Velocity impossible (no spliced/unspliced) |
 | 5 | Oncogenic clones increase wild-type proliferation, proximity-dependently (Fig 5) | Ki67, EdU, clone size vs distance | pooled spatial pair rows, no mouse or clone IDs | **Reproduced descriptively** (FU_W): size slope −109 to −16% per 100 um, robust to bin occupancy. Inferential test blocked without identifiers → **A18** |
 | 6 | Oncogenic clones trigger a regenerative response in tissue-sharing wild-type AT2 (Fig 6) | pro-Sftpc− fraction, IF, scRNA-seq of YFP+ cells | pooled spatial rows + WT-in-oncogenic YFP libraries | **Reproduced on both axes.** EN4 gives the transcriptional side (Spp1 +3.3, Dlk1 +4.0, transition RNA +1.0, priming +1.7); FU_W gives the spatial side, where the proximity-independence claim is *consistent with* but not strongly supported by the deposit |
-| 7 | Sustained NF-κB activation distinguishes oncogenesis from regeneration (Fig 7) | Il1r1 deletion tracing, scRNA-seq, BMS-345541 | Il1r1 het/homozygous libraries at 2 and 12 weeks | **Reproduced.** EN2: transition occupancy −0.057 / −0.123, within-AT2 Cd177 ≈ −4 log2, and **no AT1 maturation rescue** (−0.50 / −0.60). The BMS arm is not deposited |
+| 7 | Sustained NF-kB activation distinguishes oncogenesis from regeneration (Fig 7) | Il1r1 loss and genetic/pharmacological NF-kB inhibition | Il1r1 het/homozygous RNA libraries; no deposited BMS RNA arm | **Partial RNA comparison only.** EN2 tests genotype-associated entry/state differences, not post-entry NF-kB rescue, pathway activity or mature repair. Its lower transition occupancy and AT1 scores are not a failure to reproduce the inhibition experiment |
 
-## Open opportunities, ranked by whether they could change a conclusion
+## Current opportunities and prerequisites
 
-1. **FU_S, the corrected-implementation refit (A17).** The only item that could overturn a
-   *foundational* claim of the paper, needs no new data, and is already specified in the frozen
-   contract. Highest value per unit of work.
-2. **The two-channel test for wild-type growth versus differentiation (A18).** Matches the study's
-   own stated limitation and the owner's flagged unknown. Descriptively complete; the interaction
-   test needs mouse-level and clone-level rows, so the action is a **request to the authors** for the
-   identifiers behind the pooled arrays, which would also unblock every clone-level estimate above.
-3. **Cd177 attribution (A16).** Within-subcluster conditioning already dissolved most of the
-   phenotype and left priming-associated RNA standing in 5 of 7 subclusters. The discriminating test
-   is a wet experiment; no GEO deposit pairs CD177 sorting with a proliferation readout in lung.
-4. **Spliced/unspliced re-quantification of the 68 PRJNA1039244 runs.** The only route to
-   directional evidence from this deposit. Needs remote compute and separate authorization, and would
-   still not settle reversibility, only local direction.
-5. **Loss of equipotency under a second oncogenic hit.** The paper's Discussion raises Kras;Trp53 and
-   an Itga2+ high-plasticity state; the owner's notes flag the mechanism as open. GSE253461 (39
-   samples, KrasG12D p53−/− AT2 cells, organoids and co-cultures) is the closest public resource and
-   would support a descriptive transfer of our frozen gates and modules only. **Not promoted to a
-   research question**: it needs an eligibility check first, and a descriptive transfer cannot
-   establish loss of equipotency, which is a clone-level property.
+1. **A16 attribution:** preserve the original compartment and separate libraries,
+   with independently defined neighbourhoods and explicit depth/contamination
+   limits. The old pooled FU_C result does not settle attribution. Stable
+   cell-intrinsic function requires independent outcomes.
+2. **A17 clone-growth models:** reconcile source/archive units and parameters,
+   specify the schedule and amend FU_S before a held-out comparison. The
+   deposited code defect cannot by itself overturn biological founder evidence.
+3. **E-N1/E-N2 mouse-level questions:** assess distributed identity loss and
+   paired mutant burden/WT response with the nonspatial mouse/lobe hierarchy.
+   These are narrower than A18's blocked spatial interaction.
+4. **E-N4/E-N5 RNA pilots:** assess coordinated output and incomplete maturation
+   as extensions of existing questions. Classification is supporting work.
+5. **E-N6/E-N7/E-N8 mechanisms:** second-hit effects, feedback induction and
+   SPP1/DLK1 interaction need their stated metadata or mechanistic endpoints.
+   Public RNA transfer cannot supply missing causal contrasts.
+
+Read the [eight hypothesis cards](CANDIDATE_HYPOTHESES.md) and
+[technical gates](CANDIDATE_CHECKS.md). A18 still needs spatial mouse/clone IDs
+for inference; those IDs are not missing from every nonspatial clone estimate.
+Requesting author data is a possible next step, not an action taken here.
 
 ## Blocked, with the specific missing item
 

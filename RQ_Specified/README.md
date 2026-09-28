@@ -1,5 +1,11 @@
 # Research question analyses
 
+**England review, 28 September 2026:** current [A16–A18 cards](../RESEARCH_QUESTIONS.md#a16)
+incorporate the source audit. [Eight paper-local candidates](../Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
+are proposals, with supporting checks linked from each card. They create no
+new execution workspaces; future tests should extend the relevant A question.
+The separate A16 Stage 0 worktree inspected by the audit is not imported here.
+
 **Latest results:** [A12 recipient-context pilot](A12_recipient_context/README.md) and the [A13 follow-through](../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md) are executed exploratory comparisons; the [candidate audit](../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md) corrects earlier title-only eligibility statements.
 
 **Roadmap execution:** [P0–P5 reports](../docs/roadmap_runs/2026-09-27/README.md) now record completed design recovery, failed replication gates and source-attribution calculations. The current screen interpretation uses P1's recovered split-well hierarchy and supplemented EGF.

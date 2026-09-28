@@ -1,5 +1,30 @@
 # AI context
 
+## Current England interpretation authority, 28 September 2026
+
+Read the [paper/claim audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
+and [candidate hypotheses](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
+before using the historical A16–A18 premises. The audit pins `d485507`; this
+documentation landing starts from main `27e281a`, which contains completed
+continuation/follow-up outputs. Earlier “no script/endpoint” entries below are
+historical. FU_C pooled libraries and dropped FU_A's transition gate; the
+same-population post-hoc check is heterogeneous and does not execute A16 Stage 1.
+FU_A's frozen verdict remains inconclusive. Do not restore categorical
+depth-independence, complete maturation or two-channel claims from older prose.
+
+E-N1–E-N8 are paper-local proposals linked from the root register. E-N3 is an
+A17 sampling/identifiability extension; E-N5's classifier supports A1/A8. They
+do not create A19–A26. Keep future execution in the relevant question workspace,
+paper evidence in the England package and performed audit evidence in the
+dated folder. The separate live A16 Stage 0 package was inspected during the
+audit but was absent from this landing base; do not claim it was imported or run.
+
+The primary checkout at `X:/GitHub/scRNA_seq` has separate ongoing work and our
+original audit copy. Landing uses `codex/england-rq-reframing` in the managed
+worktree; preserve the primary checkout. The numerical audit script needs the
+existing ignored England cell cache and local PDFs; lightweight CI needs neither.
+Publication is owner-authorized. Scientific retention/grades remain unchanged.
+
 ## England continuation, second session state, 28 September 2026
 
 A second session resumed the [England EN7/CD177 handoff](docs/handoffs/2026-09-28-england-en7-cd177.md),

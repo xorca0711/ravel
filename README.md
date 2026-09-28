@@ -1,5 +1,18 @@
 # Integrative reanalysis of public lung single-cell and multiome data
 
+| Claim | Status | Evidence (artefact path) | Notes |
+|---|---|---|---|
+| Initial mouse clustering recovers deposited cell types, median purity 0.947 (C1) | Validated | [cluster_vs_author_celltype_fraction.csv](Research%20Article/gate1_01_niethamer_2025/GSE262927/tables/cluster_vs_author_celltype_fraction.csv) | Existing registered annotation result; not functional validation |
+| Reported lineage proliferation peaks (C9) | Descriptive only | [proliferation_peak_by_lineage.csv](Research%20Article/gate1_01_niethamer_2025/GSE262927/phase_timecourse/tables/proliferation_peak_by_lineage.csv) | Existing small-cohort description |
+| England same-population CD177 diagnostic is heterogeneous | Exploratory | [a16_same_population_effects.csv](docs/audits/2026-09-28-england-paper-rqs/a16_same_population_effects.csv) | Post-hoc diagnostic; no new C-register grade |
+| Earlier claim that doublet removal selectively depleted AT0-like cells (C7) | Retracted-superseded | [DOUBLETS_AND_SCRUBLET.md](docs/DOUBLETS_AND_SCRUBLET.md) | Original assertion refuted; retained in the ledger |
+| Mechanisms proposed in eight England candidates | Not established | [CANDIDATE_HYPOTHESES.md](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md) | Proposal record only; no mechanism established |
+
+This is a selected claims summary. The full historical [C1–C168 ledger](CLAIMS.md)
+and [generated evidence index](docs/CLAIM_SUMMARY.md) retain every registered row;
+current question-level results live in [RQ_Specified](RQ_Specified/README.md).
+Publication of a hypothesis does not validate it.
+
 [![Repository checks](https://github.com/xorca0711/scRNA_seq/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/xorca0711/scRNA_seq/actions/workflows/repository-checks.yml)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
@@ -36,6 +49,7 @@ Exploratory findings and independent confirmation are distinguished explicitly.
 | To assess | Open |
 |---|---|
 | Biological hypotheses, evidence and next tests | [Research questions](RESEARCH_QUESTIONS.md); [measurement contracts](docs/RQ_MEASUREMENT_CONTRACTS.md) |
+| England source review and eight plain-language candidate hypotheses | [Source/claim audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md); [hypothesis cards](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md) |
 | Current merged analyses and remaining work | [Current handoff](PROGRESS.md); [question-specific status](RQ_Specified/README.md) |
 | Biological logic, interpretation limits and follow-up order | [A0–A15 audit](docs/audits/2026-09-27-rq-rationale/REPORT.md); [shared architecture](docs/RESEARCH_ARCHITECTURE.md) |
 | Plans, package results and remaining data gates | [Research roadmap](docs/RESEARCH_ROADMAP.md); [latest follow-through](docs/roadmap_runs/2026-09-27-followthrough/README.md) |
@@ -215,9 +229,10 @@ archive/                     displaced material: what moved, when, and why
 `.npz` objects are gitignored; figures, small tables and run records are
 tracked. No sequencing data, count matrices or paper PDFs are committed.
 
-## Reproducing
+## Try it yourself
 
-The evidence-contract checks use only Python's standard library:
+From a clean clone with Python installed, the following evidence-contract checks
+use only the standard library and tracked files; no downloaded raw data are needed:
 
 ```bash
 python -m unittest discover -s analysis/tests -q
