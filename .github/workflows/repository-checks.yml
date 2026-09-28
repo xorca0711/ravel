@@ -23,5 +23,7 @@ jobs:
         run: python analysis/scripts/claim_contract.py --check
       - name: Verify tracked Nb1 evidence
         run: python "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+      - name: Verify archived A16 Stage 1 evidence
+        run: python RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py
       - name: Validate tracked artefacts and documentation
         run: python analysis/scripts/validate_repository.py

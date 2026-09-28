@@ -1,0 +1,31 @@
+{
+  "stage": "A16 Stage 1 C1+C2+C5",
+  "started_utc": "2026-09-28T09:25:18.527051+00:00",
+  "a16_contract_sha256": "61e3f7025657721eecd45e7fb78b84f1ed99fce00b15cea4b44d8a1e27d65481",
+  "script_sha256": "132ae13848fd40c559ff7b555482af160766435a46d6186b0878b570e3c6304a",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0"
+  },
+  "exposure": {
+    "declared": "FULL",
+    "detail": "The founding within-subcluster result (FU_C) was computed and seen on 28 September 2026 before this contract was written, and Stage 1 reuses the same processed matrices. Stage 1 is an amendment with full prior exposure, not independent confirmation.",
+    "consequence": "Stage 1 is one-directional: it can close the question negatively, and its strongest permitted positive conclusion is bounded by stage_1_permitted_positive_conclusion below."
+  },
+  "contract_deviation": "C1 uses UMAP-space kNN because the round-2 integrated embedding was not persisted; the integrated-space version is deferred",
+  "floor_cells_per_side": 30,
+  "ks": [
+    5,
+    10,
+    20
+  ],
+  "resolutions": [
+    "sub_r0.5",
+    "sub_r1.0",
+    "sub_r1.5"
+  ],
+  "inputs": []
+}

@@ -1,5 +1,21 @@
 # AI context
 
+## Current A16 integration authority, 28 September 2026
+
+The previously separate A16 Stage 0/1 work is now integrated. Read its
+[current review](RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md)
+before the preserved Stage 1 report or original plan. Do not repeat its claims
+that ambient origin and threshold artefacts are excluded. The two analysis arms
+do not implement one fixed-population conditioning comparison; the UMAP proxy
+and failed primary thinning comparisons remain explicit limitations.
+
+The [consolidation record](docs/audits/2026-09-28-branch-consolidation/REPORT.md)
+identifies retained commits and already merged branches. Preserve dirty source
+worktree files and index state when deleting refs; leave those worktrees
+detached rather than discarding drafts. Existing caches/stashes and the separate
+adversarial audit remain outside the merge. The new standard-library A16 verifier
+checks archived evidence without running the overwrite-prone scientific scripts.
+
 ## Current England interpretation authority, 28 September 2026
 
 Read the [paper/claim audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md)

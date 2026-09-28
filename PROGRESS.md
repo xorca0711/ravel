@@ -2,6 +2,24 @@
 
 **Update this before stopping work, every session.**
 
+## Current branch consolidation and A16 Stage 1, 28 September 2026
+
+The [branch review](docs/audits/2026-09-28-branch-consolidation/REPORT.md)
+retains the three unique A16 commits and preserves main's recent England audit.
+The [A16 workspace](RQ_Specified/A16_cd177_state_attribution/README.md) now
+contains executed C1–C5 sensitivity results, with a dated integration correction.
+Specificity is inconclusive; the available ambient panel does not exclude
+contamination, and primary-library thinning fails the cell floor. A16's
+corrected attribution and independent functional test remain open.
+
+This supersedes earlier statements below that Stage 1 was absent from main.
+No scientific rerun or claim-grade change occurred. The owner authorized
+conditional merge and removal of the remaining branch refs after validation;
+dirty worktrees and the separate primary-checkout audit remain preserved.
+No scientific job was started by this consolidation.
+
+**Update this before stopping work, every session.**
+
 ## Current England audit and hypothesis review, 28 September 2026
 
 The [source/claim audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md)

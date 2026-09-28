@@ -1,0 +1,63 @@
+{
+  "stage": "A16 Stage 1 C3+C4",
+  "started_utc": "2026-09-28T09:22:52.513348+00:00",
+  "a16_contract_sha256": "61e3f7025657721eecd45e7fb78b84f1ed99fce00b15cea4b44d8a1e27d65481",
+  "england_continuation_contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "erratum_sha256": "f74366cda8c141bd974d830068706b425d4e85422ddd810bda0ac3d13a9e5b93",
+  "script_sha256": "689fc0b6308bb14bf99faae5d0736c9f6ad36d42098ea7e383f6ee04564d785d",
+  "seed": 20260928,
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0"
+  },
+  "exposure": {
+    "declared": "FULL",
+    "detail": "The founding within-subcluster result (FU_C) was computed and seen on 28 September 2026 before this contract was written, and Stage 1 reuses the same processed matrices. Stage 1 is an amendment with full prior exposure, not independent confirmation.",
+    "consequence": "Stage 1 is one-directional: it can close the question negatively, and its strongest permitted positive conclusion is bounded by stage_1_permitted_positive_conclusion below."
+  },
+  "n_control_genes_cap": 500,
+  "matching_bands": {
+    "detection_rate_relative": 0.25,
+    "mean_log1p_cp10k_relative": 0.35
+  },
+  "floor_cells_per_side": 30,
+  "primary_endpoint": "priming_associated",
+  "inputs": [
+    {
+      "path": "processed/continuation/cells_table.csv.gz",
+      "sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78"
+    },
+    {
+      "path": "processed/continuation/matrices/features.csv",
+      "sha256": "76cfc55115f8002f7a0a42fab2ff8e9577f62fa2e23a0a19e06a247a61d9813c"
+    },
+    {
+      "path": "processed/followup/experiment1_round2.csv.gz",
+      "sha256": "671c957002dc4c00ec629c3afb8e102ed8f4513854af85fab165c22dafbef2f7"
+    },
+    {
+      "path": "processed/followup/experiment2_round2.csv.gz",
+      "sha256": "5b134a38f622f87237c12b210f2c2b63486f68abf5f12f905d057a95f7f88375"
+    }
+  ],
+  "n_banned_control_genes": 638,
+  "neutrophil_panel_mapped": [
+    "Ptprc",
+    "Tyrobp",
+    "Lst1",
+    "Fcer1g",
+    "Ly6g",
+    "S100a8",
+    "S100a9",
+    "Retnlg"
+  ],
+  "completed_utc": "2026-09-28T09:23:08.799478+00:00",
+  "outputs": {
+    "A16_C3_matched_gene_null.csv": "6ce26899b0f051125e60791a4146237e2ebe8f7f384e45b99cc91eb3c381c612",
+    "A16_C3_control_gene_detail.csv": "81fa430623527696701d13115666e428a4d5ce596c74ad90efdf331738a41182",
+    "A16_C4_ambient_neutrophil_control.csv": "5d7383acd8b08dafbf6262278950b17ddf8c29786a9d43f8cee677b9582c4e61"
+  }
+}

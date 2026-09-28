@@ -1,0 +1,50 @@
+{
+  "stage": "A16 Stage 1 C1+C2+C5",
+  "started_utc": "2026-09-28T09:25:18.527051+00:00",
+  "a16_contract_sha256": "61e3f7025657721eecd45e7fb78b84f1ed99fce00b15cea4b44d8a1e27d65481",
+  "script_sha256": "132ae13848fd40c559ff7b555482af160766435a46d6186b0878b570e3c6304a",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0"
+  },
+  "exposure": {
+    "declared": "FULL",
+    "detail": "The founding within-subcluster result (FU_C) was computed and seen on 28 September 2026 before this contract was written, and Stage 1 reuses the same processed matrices. Stage 1 is an amendment with full prior exposure, not independent confirmation.",
+    "consequence": "Stage 1 is one-directional: it can close the question negatively, and its strongest permitted positive conclusion is bounded by stage_1_permitted_positive_conclusion below."
+  },
+  "contract_deviation": "C1 uses UMAP-space kNN because the round-2 integrated embedding was not persisted; the integrated-space version is deferred",
+  "floor_cells_per_side": 30,
+  "ks": [
+    5,
+    10,
+    20
+  ],
+  "resolutions": [
+    "sub_r0.5",
+    "sub_r1.0",
+    "sub_r1.5"
+  ],
+  "inputs": [
+    {
+      "path": "processed/continuation/cells_table.csv.gz",
+      "sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78"
+    },
+    {
+      "path": "processed/followup/experiment1_round2.csv.gz",
+      "sha256": "671c957002dc4c00ec629c3afb8e102ed8f4513854af85fab165c22dafbef2f7"
+    },
+    {
+      "path": "processed/followup/experiment2_round2.csv.gz",
+      "sha256": "5b134a38f622f87237c12b210f2c2b63486f68abf5f12f905d057a95f7f88375"
+    }
+  ],
+  "completed_utc": "2026-09-28T09:25:23.206831+00:00",
+  "outputs": {
+    "A16_C1_neighbourhood_matched.csv": "a1313e66e93adf7dc3e41474e5a93d14f01e0556817474862e202485f7b58454",
+    "A16_C2_resolution_ladder.csv": "431245682217d734e3781b23b433d31c28e6866d354abc779f49757842262a2b",
+    "A16_C5_threshold_sensitivity.csv": "d813507247e4a78d11c85baecdf1f849f7c0de6b0b6912ed5a7f4501b0da9af1"
+  }
+}

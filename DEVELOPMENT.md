@@ -1543,3 +1543,21 @@ Rejected or substantially revised assistant output:
 | 2026-09-28 | A17 refit already fully specified and able by itself to overturn founder biology | Source accounting, parameter/schedule mapping and model comparison require amendment; code defect is not a biological refutation | Same review authority; historic results preserved |
 | 2026-09-28 | A18 range assigned to an AREG mechanism and flat identity slope treated as separate control | Pooled rows lack inferential units; source SPP1/DLK1 lead and measurement/geometry alternatives remain open | Same review authority; no owner grade inferred |
 | 2026-09-28 | E-N3/E-N5 treated as independent biological discoveries by virtue of a counting or classification improvement | Technical outputs support survival/maturation hypotheses within existing questions; they do not establish those mechanisms | Same review authority |
+
+
+## 28 September 2026: review and consolidate remaining branches
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | Retain appropriate unique branch work, merge, and delete remaining branch refs | Codex review | Repository owner, explicit chat instruction | Retain A16 Stage 0/1 evidence with a current interpretation correction; merge after checks; preserve dirty worktrees | One remaining remote branch contains unique results; the other and two stale local branches are already merged |
+
+Rejected or substantially revised assistant output:
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-09-28 | A16 Stage 1 excludes ambient RNA and detection-threshold artefacts | The contract itself limits the ambient panel; all four primary thinning rows fail the floor; reported panel correlation uses binary detection | Codex under the owner's appropriateness review |
+| 2026-09-28 | C1/C2 prove a non-positional component; median matched control accounts for most signal | UMAP/gene reuse, pooled units, changing eligibility and incompatible effect scales prevent these mechanistic decompositions | Same review; numerical evidence and original scripts preserved |
+
+The [review](docs/audits/2026-09-28-branch-consolidation/REPORT.md) records branch
+identities and evidence verification. Publication authorization is not acceptance
+of a biological hypothesis or a new claim grade.
