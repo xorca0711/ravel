@@ -1,0 +1,154 @@
+{
+  "stage": "EN2-EN5 RNA endpoints",
+  "started_utc": "2026-09-28T03:49:15.381062+00:00",
+  "contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "script_sha256": "3c561beae21ce747f1f1d22077ac8b1bf0a109d6c18cb475aaffe1653d6cf4c5",
+  "git_head": "a5b0f90013ff50f8f2baf5709551f9fe48e90281",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0"
+  },
+  "inputs": [
+    {
+      "path": "processed/continuation/cells_table.csv.gz",
+      "sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78",
+      "rows": 44196
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890829_named_counts.npz",
+      "sha256": "ff778f3883b83af9602f7f39c5febb5eecf5d2b24ba68ff1de7d2f9f0fb63832"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890830_named_counts.npz",
+      "sha256": "c1b1ca942984ec1fd80fbff282daf1680bad3fcccd561e04c670f221463e1cbd"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890831_named_counts.npz",
+      "sha256": "c7aeaaf7f287d0d2092fa013104f199971fc38bf52d880cefe52b076475554d4"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890832_named_counts.npz",
+      "sha256": "b03b5fa87769baf8373361bba5b2e53081c74367677c850e77ec0e9780c143b0"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890833_named_counts.npz",
+      "sha256": "829d27739078d7c84031c2a44c2bf278606e9dd688d5b7e4823a25a7a1913a2d"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890834_named_counts.npz",
+      "sha256": "bc0349d81defa7cc20db984c6e398901acd653264c8f15ceb80f1878a580348c"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890835_named_counts.npz",
+      "sha256": "0ea6c04be0c2e8611e9fbfe621606b91ebaa61f03e8c77aab561cd244ea8834a"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890836_named_counts.npz",
+      "sha256": "a7e323e32125ea086aa54a52da77781cf69234a5d665a7842b0c433205e57ae9"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890837_named_counts.npz",
+      "sha256": "2b17df9cee0fbe41b4aa18781bc69e01afa87e2dad303d3f3de6347f7f81cc04"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890838_named_counts.npz",
+      "sha256": "f50e14ae575751ba7c25625ac4a8e06594a1382455e04bb8a319d735693f6d29"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890839_named_counts.npz",
+      "sha256": "562e26bbf9f9eb558a3345c9a2f8f1cbd48efa08b6efaa77f815c6258bae6007"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890840_named_counts.npz",
+      "sha256": "d9b7d5eeca9840db9ecbab76aca84ff58a306b0cc8e1891179750f9fe53183a5"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890841_named_counts.npz",
+      "sha256": "9e665d6cef5f8890d01a9dfbf313180905077a6f5a5906175473417f642ed1eb"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890842_named_counts.npz",
+      "sha256": "ca4090812f67efa24d1a6ccee64b0b1f9711e98c1e482df5c019b26590ccabe1"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890843_named_counts.npz",
+      "sha256": "16905656a3f8173679e87c5895d3068ef0522147ccbec6088e805de8efb409d0"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890844_named_counts.npz",
+      "sha256": "51c0ca8ab21a47bea11eb67666ae9896e604dcd634fcc5c96b8d9279272fa74e"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890845_named_counts.npz",
+      "sha256": "a87e9055f32572eb938a3edbc73523c29298d1d9f70517dbe754b3b3f5d49b69"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890846_named_counts.npz",
+      "sha256": "02ec3bbb42facf1690964668f88f990f64801eb51ae354133b372c7a6b63fd70"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890847_named_counts.npz",
+      "sha256": "252b337eee3b3489421487bec806a4bef2938f87926f722d3075aedf106d57ba"
+    },
+    {
+      "path": "processed/continuation/cells/GSM7890848_named_counts.npz",
+      "sha256": "e4dc0ecb6a525c653cb475f2e8af54fbb287243fb23e0998d15030d71a2ac215"
+    }
+  ],
+  "declared_rules_at_run": {
+    "EN3_tail_threshold": "per endpoint and variant, the pooled 90th percentile of per-cell scores in the two Experiment-1 WT baseline libraries (GSM7890829, GSM7890830); fixed, then applied to every library",
+    "SMD": "difference of group means divided by pooled SD (cells); descriptive effect size, not a test",
+    "unavailable": "group below the 30-cell floor on either side, or a required library missing"
+  },
+  "interpretation": "library-level descriptive estimates; Cd177 RNA is not surface protein; associations are not causal or lineage evidence",
+  "completed_utc": "2026-09-28T03:50:30.007893+00:00",
+  "outputs": [
+    {
+      "file": "EN2_composition.csv",
+      "sha256": "906d9be360454cdd85b5ab6216ed1643f51a43a5e3c7ef3b8eb92b4eeb25ec23"
+    },
+    {
+      "file": "EN2_composition_contrasts.csv",
+      "sha256": "92302a9eaff01aec07da31b16d0f7cabe9307baf3657abc1032b7632fb09fb33"
+    },
+    {
+      "file": "EN2_within_state_contrasts.csv",
+      "sha256": "7a1e2a8a00fcba453d92f5ada237b1a7a0a29e0154f8b33f15242e100f735f0c"
+    },
+    {
+      "file": "EN2_within_state_pseudobulk.csv",
+      "sha256": "9271fc55aa971c00ad2a5ff231d7333c72879cf004d43cbfd1826281f7365af6"
+    },
+    {
+      "file": "EN3_axes_by_library.csv",
+      "sha256": "c4e6b2c73b121beed8b4ee95259bc7f8324f6c0648e4ac36d965765139fcdc35"
+    },
+    {
+      "file": "EN3_candidate_tail_occupancy.csv",
+      "sha256": "715a3a9bb32157e2ee07cbf769c1a3969320e843607c2b7074c5ca56749ce257"
+    },
+    {
+      "file": "EN4_wt_yfp_contrasts.csv",
+      "sha256": "8280573b51e21cbe2cd5400ae52af38beed4f25436b663165bda2cf06f447e70"
+    },
+    {
+      "file": "EN5_cd177_contrasts.csv",
+      "sha256": "0e6cabd58939d978f70d6c7f65acbe2517d67ddb7de64768fb2778a651d811e2"
+    },
+    {
+      "file": "EN5_cd177_groups.csv",
+      "sha256": "bc8eba7923c778eb50f8d15332686b192f4d0fce3e5cf14d038439feb489d36e"
+    },
+    {
+      "file": "EN5_cd177_matched.csv",
+      "sha256": "ffb4b47cbc22373861bd6396738c1d77d3ad2225cdae83276b3f9390729d3da8"
+    },
+    {
+      "file": "EN5_codetection_null.csv",
+      "sha256": "fc1637b40932119353dc7219794cc27dfcb9d6f77a9dcce9d310b123ec4886d9"
+    }
+  ]
+}

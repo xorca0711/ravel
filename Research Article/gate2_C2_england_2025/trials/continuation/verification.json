@@ -1,0 +1,46 @@
+{
+  "verified_utc": "2026-09-28T03:59:34.090764+00:00",
+  "checks_total": 1178,
+  "checks_passed": 1178,
+  "checks_failed": 0,
+  "max_abs_discrepancy": 1.7763568394002505e-15,
+  "failed": [],
+  "scope": "saved outputs and recomputation from cached counts; not biological validity, not pool independence",
+  "script_sha256": "9e8abd5a0fc92a05fdde7ed6472abdbe8ac0721f4b695c707a7975f1db14039c",
+  "details_sample": [
+    {
+      "check": "EN6: analytic birth-death P0 within 0.005 and CCDF within 0.01",
+      "passed": true,
+      "detail": [
+        {
+          "birth": 0.5,
+          "death": 0.5,
+          "t": 5.0,
+          "P0_analytic": 0.7143,
+          "P0_empirical": 0.7151
+        },
+        {
+          "birth": 0.7,
+          "death": 0.3,
+          "t": 5.0,
+          "P0_analytic": 0.3934,
+          "P0_empirical": 0.3927
+        },
+        {
+          "birth": 0.3,
+          "death": 0.7,
+          "t": 5.0,
+          "P0_analytic": 0.9179,
+          "P0_empirical": 0.9173
+        },
+        {
+          "birth": 1.9457,
+          "death": 1.9457,
+          "t": 7.0,
+          "P0_analytic": 0.9316,
+          "P0_empirical": 0.9328
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+study,variant,contrast,quantity,group_or_state,endpoint,n_units_A,n_units_B,status,difference_of_unit_means,cross_unit_min,cross_unit_max,all_directions_agree,range_is_confidence_interval
+Choi_2020,primary,Day14 minus PBS (single libraries),unit fraction,Cd177_ge1_all,,1,1,single_unit_side,0.007124085232733438,0.007124085232733438,0.007124085232733438,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),unit fraction,state_AT1,,1,1,single_unit_side,0.03898859946863408,0.03898859946863408,0.03898859946863408,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),unit fraction,state_AT2,,1,1,single_unit_side,-0.17804319895379117,-0.17804319895379117,-0.17804319895379117,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),unit fraction,state_mixed,,1,1,single_unit_side,0.07076633760492457,0.07076633760492457,0.07076633760492457,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),unit fraction,state_transition,,1,1,single_unit_side,0.016899920781621336,0.016899920781621336,0.016899920781621336,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),unit fraction,state_transition_AT1,,1,1,single_unit_side,0.005809347768682334,0.005809347768682334,0.005809347768682334,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),unit fraction,state_unresolved,,1,1,single_unit_side,0.04557899332992879,0.04557899332992879,0.04557899332992879,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,AT1_identity,1,1,single_unit_side,0.7165399735317703,0.7165399735317703,0.7165399735317703,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,AT2_identity,1,1,single_unit_side,-0.379414044729419,-0.379414044729419,-0.379414044729419,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Areg,1,1,single_unit_side,0.3106029857090986,0.3106029857090986,0.3106029857090986,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Axin2,1,1,single_unit_side,-0.5871466163843331,-0.5871466163843331,-0.5871466163843331,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Cd177,1,1,single_unit_side,1.20015924949727,1.20015924949727,1.20015924949727,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Cd38,1,1,single_unit_side,0.5266037994305605,0.5266037994305605,0.5266037994305605,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Ereg,1,1,single_unit_side,0.7064160776315832,0.7064160776315832,0.7064160776315832,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Hbegf,1,1,single_unit_side,-0.06564724912388531,-0.06564724912388531,-0.06564724912388531,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Hmga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Il1r1,1,1,single_unit_side,-0.38606380576836363,-0.38606380576836363,-0.38606380576836363,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Itga2,1,1,single_unit_side,0.18316766007510143,0.18316766007510143,0.18316766007510143,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Mki67,1,1,single_unit_side,2.1318019449758188,2.1318019449758188,2.1318019449758188,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Nfkbia,1,1,single_unit_side,-0.7641895536957595,-0.7641895536957595,-0.7641895536957595,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,P53_RNA_control,1,1,single_unit_side,0.17901281295553684,0.17901281295553684,0.17901281295553684,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Spp1,1,1,single_unit_side,7.4304546523920285,7.4304546523920285,7.4304546523920285,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.2747274925837604,-0.2747274925837604,-0.2747274925837604,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Tonsl,1,1,single_unit_side,0.12892412495943262,0.12892412495943262,0.12892412495943262,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Trp53,1,1,single_unit_side,-0.05064249384269193,-0.05064249384269193,-0.05064249384269193,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,cycling,1,1,single_unit_side,2.7281974056790945,2.7281974056790945,2.7281974056790945,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,hypoxia_control,1,1,single_unit_side,0.05658833128684604,0.05658833128684604,0.05658833128684604,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,0.05101018836852811,0.05101018836852811,0.05101018836852811,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,lesion_specific,1,1,single_unit_side,0.0636056925719819,0.0636056925719819,0.0636056925719819,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,priming_associated,1,1,single_unit_side,0.8006459027064547,0.8006459027064547,0.8006459027064547,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,0.48631172034725445,0.48631172034725445,0.48631172034725445,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,shared_remodelling,1,1,single_unit_side,0.47244670647658094,0.47244670647658094,0.47244670647658094,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,transition_RNA,1,1,single_unit_side,1.3370237819733912,1.3370237819733912,1.3370237819733912,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,AT1_identity,1,1,single_unit_side,0.8892780463296637,0.8892780463296637,0.8892780463296637,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,AT2_identity,1,1,single_unit_side,-0.5743495205643114,-0.5743495205643114,-0.5743495205643114,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Areg,1,1,single_unit_side,0.3235367623394847,0.3235367623394847,0.3235367623394847,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Axin2,1,1,single_unit_side,-0.7455549900244476,-0.7455549900244476,-0.7455549900244476,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Cd177,1,1,single_unit_side,1.9776349973218514,1.9776349973218514,1.9776349973218514,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Cd38,1,1,single_unit_side,0.49951366095734595,0.49951366095734595,0.49951366095734595,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Dlk1,1,1,single_unit_side,0.7114325762694361,0.7114325762694361,0.7114325762694361,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Ereg,1,1,single_unit_side,1.420102394821073,1.420102394821073,1.420102394821073,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Hbegf,1,1,single_unit_side,0.06698234918720125,0.06698234918720125,0.06698234918720125,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Hmga2,1,1,single_unit_side,0.017804895081451527,0.017804895081451527,0.017804895081451527,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Il1r1,1,1,single_unit_side,-0.3845524439652266,-0.3845524439652266,-0.3845524439652266,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Itga2,1,1,single_unit_side,0.5495064487700942,0.5495064487700942,0.5495064487700942,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Mki67,1,1,single_unit_side,2.0968759244916537,2.0968759244916537,2.0968759244916537,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Nfkbia,1,1,single_unit_side,-0.6772683052397905,-0.6772683052397905,-0.6772683052397905,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,P53_RNA_control,1,1,single_unit_side,0.3903718299476058,0.3903718299476058,0.3903718299476058,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Spp1,1,1,single_unit_side,6.841989891400462,6.841989891400462,6.841989891400462,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.0997903150312256,-0.0997903150312256,-0.0997903150312256,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Tonsl,1,1,single_unit_side,0.104120602794457,0.104120602794457,0.104120602794457,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Trp53,1,1,single_unit_side,0.3282895329806914,0.3282895329806914,0.3282895329806914,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,cycling,1,1,single_unit_side,2.7801785767473706,2.7801785767473706,2.7801785767473706,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,hypoxia_control,1,1,single_unit_side,0.18620931796961404,0.18620931796961404,0.18620931796961404,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,0.34940495165099517,0.34940495165099517,0.34940495165099517,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,lesion_specific,1,1,single_unit_side,0.3867810399622158,0.3867810399622158,0.3867810399622158,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,priming_associated,1,1,single_unit_side,0.6449453296514847,0.6449453296514847,0.6449453296514847,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,1.1350595344976,1.1350595344976,1.1350595344976,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,shared_remodelling,1,1,single_unit_side,1.0461069866978532,1.0461069866978532,1.0461069866978532,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,transition_RNA,1,1,single_unit_side,2.0646570199726826,2.0646570199726826,2.0646570199726826,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,AT1_identity,1,1,single_unit_side,0.39541021614743777,0.39541021614743777,0.39541021614743777,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,AT2_identity,1,1,single_unit_side,-0.6790135599278688,-0.6790135599278688,-0.6790135599278688,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Areg,1,1,single_unit_side,0.06486176057773463,0.06486176057773463,0.06486176057773463,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Axin2,1,1,single_unit_side,-0.8357144224225506,-0.8357144224225506,-0.8357144224225506,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Cd177,1,1,single_unit_side,1.8918672468905344,1.8918672468905344,1.8918672468905344,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Cd38,1,1,single_unit_side,0.22568791372751051,0.22568791372751051,0.22568791372751051,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Ereg,1,1,single_unit_side,1.3707992346030087,1.3707992346030087,1.3707992346030087,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Hbegf,1,1,single_unit_side,0.09969282884926312,0.09969282884926312,0.09969282884926312,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Hmga2,1,1,single_unit_side,0.15388763867830743,0.15388763867830743,0.15388763867830743,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Il1r1,1,1,single_unit_side,-0.47625628789719077,-0.47625628789719077,-0.47625628789719077,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Itga2,1,1,single_unit_side,0.7444890496478418,0.7444890496478418,0.7444890496478418,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Mki67,1,1,single_unit_side,2.5347440015074816,2.5347440015074816,2.5347440015074816,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Nfkbia,1,1,single_unit_side,-0.7960784655966933,-0.7960784655966933,-0.7960784655966933,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,P53_RNA_control,1,1,single_unit_side,0.39423941256132267,0.39423941256132267,0.39423941256132267,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Spp1,1,1,single_unit_side,1.8881190788127442,1.8881190788127442,1.8881190788127442,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.0800040420691861,-0.0800040420691861,-0.0800040420691861,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Tonsl,1,1,single_unit_side,0.04428013339438586,0.04428013339438586,0.04428013339438586,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Trp53,1,1,single_unit_side,0.3139835319280353,0.3139835319280353,0.3139835319280353,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,cycling,1,1,single_unit_side,3.6533317383923056,3.6533317383923056,3.6533317383923056,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,hypoxia_control,1,1,single_unit_side,0.18370317297688876,0.18370317297688876,0.18370317297688876,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,0.29080514243606137,0.29080514243606137,0.29080514243606137,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,lesion_specific,1,1,single_unit_side,0.34465392850747145,0.34465392850747145,0.34465392850747145,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,priming_associated,1,1,single_unit_side,0.55222170715078,0.55222170715078,0.55222170715078,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,1.1902911206249494,1.1902911206249494,1.1902911206249494,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,shared_remodelling,1,1,single_unit_side,1.084919025136589,1.084919025136589,1.084919025136589,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,transition_RNA,1,1,single_unit_side,1.9885378784125978,1.9885378784125978,1.9885378784125978,True,False
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,AT1_identity,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,AT2_identity,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Areg,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Axin2,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Cd177,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Cd38,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Dlk1,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Ereg,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Hbegf,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Hmga2,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Il1r1,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Itga2,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Mki67,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Nfkbia,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,P53_RNA_control,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Spp1,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,TNFA_NFKB_RNA_disjoint,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Tonsl,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,Trp53,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,cycling,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,hypoxia_control,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,lesion_gate_cycle_stress_disjoint,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,lesion_specific,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,priming_associated,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,shared_gate_cycle_stress_disjoint,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,shared_remodelling,1,0,unavailable,,,,,
+Choi_2020,primary,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,transition,transition_RNA,1,0,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),unit fraction,Cd177_ge1_all,,1,1,single_unit_side,-0.0030990235647324156,-0.0030990235647324156,-0.0030990235647324156,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),unit fraction,state_AT1,,1,1,single_unit_side,0.00035720717217592457,0.00035720717217592457,0.00035720717217592457,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),unit fraction,state_AT2,,1,1,single_unit_side,0.08528446908753384,0.08528446908753384,0.08528446908753384,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),unit fraction,state_mixed,,1,1,single_unit_side,-0.03395427156793546,-0.03395427156793546,-0.03395427156793546,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),unit fraction,state_transition,,1,1,single_unit_side,-0.015220189538620216,-0.015220189538620216,-0.015220189538620216,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),unit fraction,state_transition_AT1,,1,1,single_unit_side,-0.0032897509041806545,-0.0032897509041806545,-0.0032897509041806545,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),unit fraction,state_unresolved,,1,1,single_unit_side,-0.0331774642489734,-0.0331774642489734,-0.0331774642489734,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,AT1_identity,1,1,single_unit_side,-0.385494595011898,-0.385494595011898,-0.385494595011898,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,AT2_identity,1,1,single_unit_side,0.16601057199356362,0.16601057199356362,0.16601057199356362,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Areg,1,1,single_unit_side,0.4439205410103284,0.4439205410103284,0.4439205410103284,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Axin2,1,1,single_unit_side,0.366014905964986,0.366014905964986,0.366014905964986,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Cd177,1,1,single_unit_side,-1.4656033487148585,-1.4656033487148585,-1.4656033487148585,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Cd38,1,1,single_unit_side,-0.1652783299256152,-0.1652783299256152,-0.1652783299256152,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Ereg,1,1,single_unit_side,0.6630901880204277,0.6630901880204277,0.6630901880204277,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Hbegf,1,1,single_unit_side,-0.0017471383372873461,-0.0017471383372873461,-0.0017471383372873461,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Hmga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Il1r1,1,1,single_unit_side,-0.03670793406862405,-0.03670793406862405,-0.03670793406862405,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Itga2,1,1,single_unit_side,-0.18316766007510143,-0.18316766007510143,-0.18316766007510143,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Mki67,1,1,single_unit_side,-2.0424479150201966,-2.0424479150201966,-2.0424479150201966,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Nfkbia,1,1,single_unit_side,0.30109496825296844,0.30109496825296844,0.30109496825296844,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,P53_RNA_control,1,1,single_unit_side,-0.1162571967995385,-0.1162571967995385,-0.1162571967995385,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Spp1,1,1,single_unit_side,-7.440637485798561,-7.440637485798561,-7.440637485798561,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,0.03888610916006563,0.03888610916006563,0.03888610916006563,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Tonsl,1,1,single_unit_side,-0.2330664990226623,-0.2330664990226623,-0.2330664990226623,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Trp53,1,1,single_unit_side,0.12630114701818407,0.12630114701818407,0.12630114701818407,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,cycling,1,1,single_unit_side,-1.8566861001955144,-1.8566861001955144,-1.8566861001955144,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,hypoxia_control,1,1,single_unit_side,-0.047562650384969984,-0.047562650384969984,-0.047562650384969984,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.11359910601603884,-0.11359910601603884,-0.11359910601603884,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,lesion_specific,1,1,single_unit_side,-0.11644999649322907,-0.11644999649322907,-0.11644999649322907,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,priming_associated,1,1,single_unit_side,-0.8258987696479583,-0.8258987696479583,-0.8258987696479583,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.5375317236978727,-0.5375317236978727,-0.5375317236978727,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,shared_remodelling,1,1,single_unit_side,-0.48511802745110444,-0.48511802745110444,-0.48511802745110444,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,transition_RNA,1,1,single_unit_side,-1.406037629670518,-1.406037629670518,-1.406037629670518,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,AT1_identity,1,1,single_unit_side,-0.09485549697846896,-0.09485549697846896,-0.09485549697846896,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,AT2_identity,1,1,single_unit_side,0.2897777489302271,0.2897777489302271,0.2897777489302271,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Areg,1,1,single_unit_side,0.4305119636670174,0.4305119636670174,0.4305119636670174,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Axin2,1,1,single_unit_side,0.48034777384090876,0.48034777384090876,0.48034777384090876,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Cd177,1,1,single_unit_side,-1.6924707600546782,-1.6924707600546782,-1.6924707600546782,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Cd38,1,1,single_unit_side,-0.2664335424599893,-0.2664335424599893,-0.2664335424599893,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Dlk1,1,1,single_unit_side,-0.7114325762694361,-0.7114325762694361,-0.7114325762694361,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Ereg,1,1,single_unit_side,0.21827121443257447,0.21827121443257447,0.21827121443257447,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Hbegf,1,1,single_unit_side,-0.1000325251387908,-0.1000325251387908,-0.1000325251387908,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Hmga2,1,1,single_unit_side,-0.08126887375669127,-0.08126887375669127,-0.08126887375669127,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Il1r1,1,1,single_unit_side,0.10079679256109086,0.10079679256109086,0.10079679256109086,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Itga2,1,1,single_unit_side,-0.5495064487700942,-0.5495064487700942,-0.5495064487700942,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Mki67,1,1,single_unit_side,-1.9412138694970769,-1.9412138694970769,-1.9412138694970769,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Nfkbia,1,1,single_unit_side,0.29539493349934,0.29539493349934,0.29539493349934,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,P53_RNA_control,1,1,single_unit_side,-0.22076239896332606,-0.22076239896332606,-0.22076239896332606,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Spp1,1,1,single_unit_side,-5.112855265020616,-5.112855265020616,-5.112855265020616,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.07229731867223599,-0.07229731867223599,-0.07229731867223599,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Tonsl,1,1,single_unit_side,-0.17319845275663415,-0.17319845275663415,-0.17319845275663415,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Trp53,1,1,single_unit_side,-0.26912398008973426,-0.26912398008973426,-0.26912398008973426,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,cycling,1,1,single_unit_side,-1.8866925436499882,-1.8866925436499882,-1.8866925436499882,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,hypoxia_control,1,1,single_unit_side,-0.1296702381660233,-0.1296702381660233,-0.1296702381660233,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.3010565041597202,-0.3010565041597202,-0.3010565041597202,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,lesion_specific,1,1,single_unit_side,-0.31340529138238704,-0.31340529138238704,-0.31340529138238704,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,priming_associated,1,1,single_unit_side,-0.7177436038632585,-0.7177436038632585,-0.7177436038632585,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.8684623197170778,-0.8684623197170778,-0.8684623197170778,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,shared_remodelling,1,1,single_unit_side,-0.7708064203021578,-0.7708064203021578,-0.7708064203021578,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,transition_RNA,1,1,single_unit_side,-1.244683597922907,-1.244683597922907,-1.244683597922907,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,AT1_identity,1,1,single_unit_side,-0.09024589664950877,-0.09024589664950877,-0.09024589664950877,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,AT2_identity,1,1,single_unit_side,0.35564686269807666,0.35564686269807666,0.35564686269807666,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Areg,1,1,single_unit_side,0.451763814767558,0.451763814767558,0.451763814767558,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Axin2,1,1,single_unit_side,0.5973031967993565,0.5973031967993565,0.5973031967993565,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Cd177,1,1,single_unit_side,-1.0823707413170327,-1.0823707413170327,-1.0823707413170327,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Cd38,1,1,single_unit_side,-0.42846013345215694,-0.42846013345215694,-0.42846013345215694,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Ereg,1,1,single_unit_side,0.6296583383889218,0.6296583383889218,0.6296583383889218,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Hbegf,1,1,single_unit_side,-0.12175221536638148,-0.12175221536638148,-0.12175221536638148,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Hmga2,1,1,single_unit_side,-0.15388763867830743,-0.15388763867830743,-0.15388763867830743,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Il1r1,1,1,single_unit_side,0.45044290359214845,0.45044290359214845,0.45044290359214845,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Itga2,1,1,single_unit_side,-0.7444890496478418,-0.7444890496478418,-0.7444890496478418,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Mki67,1,1,single_unit_side,-1.954899536347293,-1.954899536347293,-1.954899536347293,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Nfkbia,1,1,single_unit_side,0.49614935765431056,0.49614935765431056,0.49614935765431056,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,P53_RNA_control,1,1,single_unit_side,-0.14680474049501946,-0.14680474049501946,-0.14680474049501946,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Spp1,1,1,single_unit_side,-1.8881190788127442,-1.8881190788127442,-1.8881190788127442,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.04941753235056723,-0.04941753235056723,-0.04941753235056723,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Tonsl,1,1,single_unit_side,-0.11051875234115549,-0.11051875234115549,-0.11051875234115549,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Trp53,1,1,single_unit_side,-0.51842021091106,-0.51842021091106,-0.51842021091106,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,cycling,1,1,single_unit_side,-2.272760656240679,-2.272760656240679,-2.272760656240679,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,hypoxia_control,1,1,single_unit_side,-0.09757847836091482,-0.09757847836091482,-0.09757847836091482,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.21870423736784295,-0.21870423736784295,-0.21870423736784295,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,lesion_specific,1,1,single_unit_side,-0.21929852233886438,-0.21929852233886438,-0.21929852233886438,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,priming_associated,1,1,single_unit_side,-0.551913962809353,-0.551913962809353,-0.551913962809353,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.7786148968893318,-0.7786148968893318,-0.7786148968893318,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,shared_remodelling,1,1,single_unit_side,-0.6702949167090386,-0.6702949167090386,-0.6702949167090386,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,transition_RNA,1,1,single_unit_side,-0.9503063513134062,-0.9503063513134062,-0.9503063513134062,True,False
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,AT1_identity,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,AT2_identity,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Areg,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Axin2,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Cd177,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Cd38,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Dlk1,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Ereg,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Hbegf,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Hmga2,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Il1r1,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Itga2,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Mki67,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Nfkbia,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,P53_RNA_control,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Spp1,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,TNFA_NFKB_RNA_disjoint,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Tonsl,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,Trp53,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,cycling,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,hypoxia_control,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,lesion_gate_cycle_stress_disjoint,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,lesion_specific,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,priming_associated,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,shared_gate_cycle_stress_disjoint,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,shared_remodelling,0,1,unavailable,,,,,
+Choi_2020,primary,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,transition,transition_RNA,0,1,unavailable,,,,,
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),unit fraction,Cd177_ge1_all,,1,1,single_unit_side,0.0011531797045512473,0.0011531797045512473,0.0011531797045512473,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),unit fraction,state_AT1,,1,1,single_unit_side,0.026006148374279146,0.026006148374279146,0.026006148374279146,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),unit fraction,state_AT2,,1,1,single_unit_side,-0.18738019711882548,-0.18738019711882548,-0.18738019711882548,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),unit fraction,state_mixed,,1,1,single_unit_side,-0.009141843735093006,-0.009141843735093006,-0.009141843735093006,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),unit fraction,state_transition,,1,1,single_unit_side,0.0031687351465540005,0.0031687351465540005,0.0031687351465540005,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),unit fraction,state_transition_AT1,,1,1,single_unit_side,0.0002640612622128334,0.0002640612622128334,0.0002640612622128334,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),unit fraction,state_unresolved,,1,1,single_unit_side,0.16708309607087246,0.16708309607087246,0.16708309607087246,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,AT1_identity,1,1,single_unit_side,0.39789468466491495,0.39789468466491495,0.39789468466491495,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,AT2_identity,1,1,single_unit_side,-0.37313115542117536,-0.37313115542117536,-0.37313115542117536,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Areg,1,1,single_unit_side,0.4102057385321132,0.4102057385321132,0.4102057385321132,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Axin2,1,1,single_unit_side,-0.6972815084578685,-0.6972815084578685,-0.6972815084578685,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Cd177,1,1,single_unit_side,1.1836890240411493,1.1836890240411493,1.1836890240411493,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Cd38,1,1,single_unit_side,0.1812785054504688,0.1812785054504688,0.1812785054504688,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Ereg,1,1,single_unit_side,0.5873770536544561,0.5873770536544561,0.5873770536544561,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Hbegf,1,1,single_unit_side,-0.15982929839449422,-0.15982929839449422,-0.15982929839449422,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Hmga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Il1r1,1,1,single_unit_side,-0.05392869880142914,-0.05392869880142914,-0.05392869880142914,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Itga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Mki67,1,1,single_unit_side,0.9351308398791227,0.9351308398791227,0.9351308398791227,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Nfkbia,1,1,single_unit_side,-0.5723953408247446,-0.5723953408247446,-0.5723953408247446,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,P53_RNA_control,1,1,single_unit_side,0.02999386785476066,0.02999386785476066,0.02999386785476066,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Spp1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.3082680577425183,-0.3082680577425183,-0.3082680577425183,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Tonsl,1,1,single_unit_side,0.05830160074434776,0.05830160074434776,0.05830160074434776,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,Trp53,1,1,single_unit_side,-0.2362480564790186,-0.2362480564790186,-0.2362480564790186,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,cycling,1,1,single_unit_side,2.0432070292547473,2.0432070292547473,2.0432070292547473,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,hypoxia_control,1,1,single_unit_side,0.0076713181381005136,0.0076713181381005136,0.0076713181381005136,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.06496946179779695,-0.06496946179779695,-0.06496946179779695,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,lesion_specific,1,1,single_unit_side,-0.05705887022823086,-0.05705887022823086,-0.05705887022823086,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,priming_associated,1,1,single_unit_side,0.6457304174589584,0.6457304174589584,0.6457304174589584,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,0.26323392908802035,0.26323392908802035,0.26323392908802035,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,shared_remodelling,1,1,single_unit_side,0.28816192972563304,0.28816192972563304,0.28816192972563304,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,AT2,transition_RNA,1,1,single_unit_side,0.744963039947967,0.744963039947967,0.744963039947967,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,AT1_identity,1,1,single_unit_side,0.9350606422144319,0.9350606422144319,0.9350606422144319,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,AT2_identity,1,1,single_unit_side,-0.6151485451432244,-0.6151485451432244,-0.6151485451432244,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Areg,1,1,single_unit_side,0.38033517217695767,0.38033517217695767,0.38033517217695767,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Axin2,1,1,single_unit_side,-0.7773865076949376,-0.7773865076949376,-0.7773865076949376,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Cd177,1,1,single_unit_side,1.386719798394672,1.386719798394672,1.386719798394672,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Cd38,1,1,single_unit_side,0.2679595686077898,0.2679595686077898,0.2679595686077898,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Dlk1,1,1,single_unit_side,0.8417185919022958,0.8417185919022958,0.8417185919022958,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Ereg,1,1,single_unit_side,1.6380692472954235,1.6380692472954235,1.6380692472954235,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Hbegf,1,1,single_unit_side,0.01611586121868669,0.01611586121868669,0.01611586121868669,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Hmga2,1,1,single_unit_side,0.03735725248319727,0.03735725248319727,0.03735725248319727,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Il1r1,1,1,single_unit_side,-0.09841929292538865,-0.09841929292538865,-0.09841929292538865,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Itga2,1,1,single_unit_side,0.6117602228858402,0.6117602228858402,0.6117602228858402,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Mki67,1,1,single_unit_side,1.2545324534266835,1.2545324534266835,1.2545324534266835,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Nfkbia,1,1,single_unit_side,-0.6599156937780748,-0.6599156937780748,-0.6599156937780748,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,P53_RNA_control,1,1,single_unit_side,0.3284406581566133,0.3284406581566133,0.3284406581566133,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Spp1,1,1,single_unit_side,6.037711870075846,6.037711870075846,6.037711870075846,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.10360772139550356,-0.10360772139550356,-0.10360772139550356,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Tonsl,1,1,single_unit_side,0.15320703141676262,0.15320703141676262,0.15320703141676262,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,Trp53,1,1,single_unit_side,0.35147482576549116,0.35147482576549116,0.35147482576549116,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,cycling,1,1,single_unit_side,2.0579549064732534,2.0579549064732534,2.0579549064732534,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,hypoxia_control,1,1,single_unit_side,0.16433141910022142,0.16433141910022142,0.16433141910022142,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,0.3305396774165059,0.3305396774165059,0.3305396774165059,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,lesion_specific,1,1,single_unit_side,0.3556524532175942,0.3556524532175942,0.3556524532175942,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,priming_associated,1,1,single_unit_side,0.4805276936010454,0.4805276936010454,0.4805276936010454,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,1.0280922681140527,1.0280922681140527,1.0280922681140527,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,shared_remodelling,1,1,single_unit_side,0.9586310263004032,0.9586310263004032,0.9586310263004032,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,all,transition_RNA,1,1,single_unit_side,2.037522311480661,2.037522311480661,2.037522311480661,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,AT1_identity,1,1,single_unit_side,0.885031806753612,0.885031806753612,0.885031806753612,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,AT2_identity,1,1,single_unit_side,-1.0374156055257817,-1.0374156055257817,-1.0374156055257817,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Areg,1,1,single_unit_side,0.789570522790962,0.789570522790962,0.789570522790962,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Axin2,1,1,single_unit_side,0.9225380006892983,0.9225380006892983,0.9225380006892983,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Cd177,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Cd38,1,1,single_unit_side,-3.554918874563873,-3.554918874563873,-3.554918874563873,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Ereg,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Hbegf,1,1,single_unit_side,-0.7052922612456349,-0.7052922612456349,-0.7052922612456349,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Hmga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Il1r1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Itga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Mki67,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Nfkbia,1,1,single_unit_side,-0.5341050268522451,-0.5341050268522451,-0.5341050268522451,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,P53_RNA_control,1,1,single_unit_side,-0.35490736958038127,-0.35490736958038127,-0.35490736958038127,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Spp1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.5822689139526736,-0.5822689139526736,-0.5822689139526736,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Tonsl,1,1,single_unit_side,0.8934679416657172,0.8934679416657172,0.8934679416657172,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,Trp53,1,1,single_unit_side,0.38907422836453964,0.38907422836453964,0.38907422836453964,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,cycling,1,1,single_unit_side,3.0346206793600716,3.0346206793600716,3.0346206793600716,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,hypoxia_control,1,1,single_unit_side,-0.10860993093248172,-0.10860993093248172,-0.10860993093248172,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,-1.0171411107748871,-1.0171411107748871,-1.0171411107748871,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,lesion_specific,1,1,single_unit_side,-0.8644210872840223,-0.8644210872840223,-0.8644210872840223,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,priming_associated,1,1,single_unit_side,-0.12727237395338875,-0.12727237395338875,-0.12727237395338875,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.34324947789411553,-0.34324947789411553,-0.34324947789411553,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,shared_remodelling,1,1,single_unit_side,-0.225854749264367,-0.225854749264367,-0.225854749264367,True,False
+Choi_2020,depth1000_seed20260928,Day14 minus PBS (single libraries),pseudobulk_mean_log2_CPM1,mixed,transition_RNA,1,1,single_unit_side,2.4381956529538797,2.4381956529538797,2.4381956529538797,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),unit fraction,Cd177_ge1_all,,1,1,single_unit_side,-0.0015684736283229804,-0.0015684736283229804,-0.0015684736283229804,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),unit fraction,state_AT1,,1,1,single_unit_side,0.0065039501258356905,0.0065039501258356905,0.0065039501258356905,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),unit fraction,state_AT2,,1,1,single_unit_side,0.061584157625352964,0.061584157625352964,0.061584157625352964,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),unit fraction,state_mixed,,1,1,single_unit_side,0.006066164349009149,0.006066164349009149,0.006066164349009149,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),unit fraction,state_transition,,1,1,single_unit_side,-0.0028887799393871472,-0.0028887799393871472,-0.0028887799393871472,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),unit fraction,state_transition_AT1,,1,1,single_unit_side,-0.0002640612622128334,-0.0002640612622128334,-0.0002640612622128334,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),unit fraction,state_unresolved,,1,1,single_unit_side,-0.07100143089859784,-0.07100143089859784,-0.07100143089859784,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,AT1_identity,1,1,single_unit_side,-0.03409516878272445,-0.03409516878272445,-0.03409516878272445,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,AT2_identity,1,1,single_unit_side,0.12696260705567042,0.12696260705567042,0.12696260705567042,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Areg,1,1,single_unit_side,0.40675864307100973,0.40675864307100973,0.40675864307100973,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Axin2,1,1,single_unit_side,0.5161251771984676,0.5161251771984676,0.5161251771984676,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Cd177,1,1,single_unit_side,-1.5897875722451367,-1.5897875722451367,-1.5897875722451367,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Cd38,1,1,single_unit_side,-0.5873770536544561,-0.5873770536544561,-0.5873770536544561,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Ereg,1,1,single_unit_side,0.9523956309054201,0.9523956309054201,0.9523956309054201,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Hbegf,1,1,single_unit_side,0.211948892571181,0.211948892571181,0.211948892571181,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Hmga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Il1r1,1,1,single_unit_side,0.6518635504997397,0.6518635504997397,0.6518635504997397,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Itga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Mki67,1,1,single_unit_side,-1.361475215865061,-1.361475215865061,-1.361475215865061,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Nfkbia,1,1,single_unit_side,0.16844696437498108,0.16844696437498108,0.16844696437498108,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,P53_RNA_control,1,1,single_unit_side,0.009613345616834579,0.009613345616834579,0.009613345616834579,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Spp1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,0.041697221615895064,0.041697221615895064,0.041697221615895064,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Tonsl,1,1,single_unit_side,-0.2214427468780853,-0.2214427468780853,-0.2214427468780853,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,Trp53,1,1,single_unit_side,0.18260801963333062,0.18260801963333062,0.18260801963333062,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,cycling,1,1,single_unit_side,-1.7673150852115933,-1.7673150852115933,-1.7673150852115933,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,hypoxia_control,1,1,single_unit_side,-0.016766398068613242,-0.016766398068613242,-0.016766398068613242,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.059978299748731256,-0.059978299748731256,-0.059978299748731256,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,lesion_specific,1,1,single_unit_side,-0.03663221250350013,-0.03663221250350013,-0.03663221250350013,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,priming_associated,1,1,single_unit_side,-0.7584129917665159,-0.7584129917665159,-0.7584129917665159,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.4701387439682767,-0.4701387439682767,-0.4701387439682767,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,shared_remodelling,1,1,single_unit_side,-0.42265846784766925,-0.42265846784766925,-0.42265846784766925,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,AT2,transition_RNA,1,1,single_unit_side,-0.9401159252982891,-0.9401159252982891,-0.9401159252982891,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,AT1_identity,1,1,single_unit_side,0.14894590770397098,0.14894590770397098,0.14894590770397098,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,AT2_identity,1,1,single_unit_side,0.2408601623903106,0.2408601623903106,0.2408601623903106,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Areg,1,1,single_unit_side,0.44258314807097854,0.44258314807097854,0.44258314807097854,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Axin2,1,1,single_unit_side,0.6832747466899729,0.6832747466899729,0.6832747466899729,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Cd177,1,1,single_unit_side,-1.7921237802609484,-1.7921237802609484,-1.7921237802609484,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Cd38,1,1,single_unit_side,-0.3347148728872521,-0.3347148728872521,-0.3347148728872521,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Dlk1,1,1,single_unit_side,-0.8417185919022958,-0.8417185919022958,-0.8417185919022958,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Ereg,1,1,single_unit_side,-0.0726249027750765,-0.0726249027750765,-0.0726249027750765,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Hbegf,1,1,single_unit_side,0.0064758748139643885,0.0064758748139643885,0.0064758748139643885,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Hmga2,1,1,single_unit_side,-0.3380663848353469,-0.3380663848353469,-0.3380663848353469,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Il1r1,1,1,single_unit_side,0.4670889812362593,0.4670889812362593,0.4670889812362593,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Itga2,1,1,single_unit_side,-0.6117602228858402,-0.6117602228858402,-0.6117602228858402,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Mki67,1,1,single_unit_side,-1.3454283003294132,-1.3454283003294132,-1.3454283003294132,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Nfkbia,1,1,single_unit_side,0.26770935308722343,0.26770935308722343,0.26770935308722343,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,P53_RNA_control,1,1,single_unit_side,-0.17672080859894823,-0.17672080859894823,-0.17672080859894823,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Spp1,1,1,single_unit_side,-3.913561605849785,-3.913561605849785,-3.913561605849785,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,-0.09560593437389642,-0.09560593437389642,-0.09560593437389642,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Tonsl,1,1,single_unit_side,-0.19728290918866254,-0.19728290918866254,-0.19728290918866254,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,Trp53,1,1,single_unit_side,-0.3501802739179931,-0.3501802739179931,-0.3501802739179931,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,cycling,1,1,single_unit_side,-1.6726535795964206,-1.6726535795964206,-1.6726535795964206,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,hypoxia_control,1,1,single_unit_side,-0.10279344818860325,-0.10279344818860325,-0.10279344818860325,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.3196238490454082,-0.3196238490454082,-0.3196238490454082,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,lesion_specific,1,1,single_unit_side,-0.3031354532189363,-0.3031354532189363,-0.3031354532189363,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,priming_associated,1,1,single_unit_side,-0.6788599978564172,-0.6788599978564172,-0.6788599978564172,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,-0.7725225193077465,-0.7725225193077465,-0.7725225193077465,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,shared_remodelling,1,1,single_unit_side,-0.6802701225166183,-0.6802701225166183,-0.6802701225166183,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,all,transition_RNA,1,1,single_unit_side,-1.3048973737013299,-1.3048973737013299,-1.3048973737013299,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,AT1_identity,1,1,single_unit_side,-0.5067151955148921,-0.5067151955148921,-0.5067151955148921,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,AT2_identity,1,1,single_unit_side,0.5864530274104336,0.5864530274104336,0.5864530274104336,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Areg,1,1,single_unit_side,0.7015968723911961,0.7015968723911961,0.7015968723911961,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Axin2,1,1,single_unit_side,-4.477456875253171,-4.477456875253171,-4.477456875253171,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Cd177,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Cd38,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Ereg,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Hbegf,1,1,single_unit_side,-1.1835980714601648,-1.1835980714601648,-1.1835980714601648,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Hmga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Il1r1,1,1,single_unit_side,4.013597603400722,4.013597603400722,4.013597603400722,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Itga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Mki67,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Nfkbia,1,1,single_unit_side,0.02952310931230606,0.02952310931230606,0.02952310931230606,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,P53_RNA_control,1,1,single_unit_side,0.31009873070183236,0.31009873070183236,0.31009873070183236,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Spp1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,0.07780883205691236,0.07780883205691236,0.07780883205691236,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Tonsl,1,1,single_unit_side,-0.901161389721616,-0.901161389721616,-0.901161389721616,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,Trp53,1,1,single_unit_side,-0.4764761158391675,-0.4764761158391675,-0.4764761158391675,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,cycling,1,1,single_unit_side,-2.820079465855328,-2.820079465855328,-2.820079465855328,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,hypoxia_control,1,1,single_unit_side,-0.2371090083972094,-0.2371090083972094,-0.2371090083972094,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,0.500661521910867,0.500661521910867,0.500661521910867,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,lesion_specific,1,1,single_unit_side,0.31719158473916975,0.31719158473916975,0.31719158473916975,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,priming_associated,1,1,single_unit_side,-0.7902632514442232,-0.7902632514442232,-0.7902632514442232,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,0.22654229322652952,0.22654229322652952,0.22654229322652952,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,shared_remodelling,1,1,single_unit_side,0.18985394628101293,0.18985394628101293,0.18985394628101293,True,False
+Choi_2020,depth1000_seed20260928,Day28 minus Day14 (single libraries),pseudobulk_mean_log2_CPM1,mixed,transition_RNA,1,1,single_unit_side,-2.2234553552735408,-2.2234553552735408,-2.2234553552735408,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),unit fraction,Cd177_ge1_all,,2,2,estimated,-0.0014882976484681953,-0.008026100247431441,0.00504950495049505,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),unit fraction,state_AT1,,2,2,estimated,-0.14844125113270068,-0.36123263489139606,0.0643501326259947,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),unit fraction,state_AT2,,2,2,estimated,-0.013337033166644058,-0.14231763068972372,0.11564356435643564,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),unit fraction,state_mixed,,2,2,estimated,0.04499335869062815,-0.043395225464191,0.13338194284544733,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),unit fraction,state_transition,,2,2,estimated,0.020410378833207482,0.015049504950495049,0.02577125271591992,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),unit fraction,state_transition_AT1,,2,2,estimated,0.07246770025839794,0.07,0.07493540051679587,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),unit fraction,state_unresolved,,2,2,estimated,0.023906846517111155,0.017813693034222304,0.03,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,AT1_identity,1,1,single_unit_side,1.0481417401209572,1.0481417401209572,1.0481417401209572,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,AT2_identity,1,1,single_unit_side,0.3950001262452929,0.3950001262452929,0.3950001262452929,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Areg,1,1,single_unit_side,3.0381802828553637,3.0381802828553637,3.0381802828553637,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Axin2,1,1,single_unit_side,0.22321052868935531,0.22321052868935531,0.22321052868935531,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Cd177,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Cd38,1,1,single_unit_side,0.9248093767226342,0.9248093767226342,0.9248093767226342,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Ereg,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Hbegf,1,1,single_unit_side,0.5911370312197795,0.5911370312197795,0.5911370312197795,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Hmga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Il1r1,1,1,single_unit_side,-0.3353240132708306,-0.3353240132708306,-0.3353240132708306,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Itga2,1,1,single_unit_side,1.0787471766598904,1.0787471766598904,1.0787471766598904,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Mki67,1,1,single_unit_side,5.862400391058793,5.862400391058793,5.862400391058793,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Nfkbia,1,1,single_unit_side,0.6122087792375384,0.6122087792375384,0.6122087792375384,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,P53_RNA_control,1,1,single_unit_side,0.4461286193820282,0.4461286193820282,0.4461286193820282,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Spp1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,0.3809685926326245,0.3809685926326245,0.3809685926326245,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Tonsl,1,1,single_unit_side,0.13987544837522137,0.13987544837522137,0.13987544837522137,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Trp53,1,1,single_unit_side,0.854429692323321,0.854429692323321,0.854429692323321,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,cycling,1,1,single_unit_side,5.412238644032013,5.412238644032013,5.412238644032013,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,hypoxia_control,1,1,single_unit_side,0.4958340998501005,0.4958340998501005,0.4958340998501005,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,0.1592226916538717,0.1592226916538717,0.1592226916538717,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,lesion_specific,1,1,single_unit_side,0.20887219410420865,0.20887219410420865,0.20887219410420865,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,priming_associated,1,1,single_unit_side,0.37125196798700877,0.37125196798700877,0.37125196798700877,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,1.3183641555176102,1.3183641555176102,1.3183641555176102,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,shared_remodelling,1,1,single_unit_side,1.2265713012367367,1.2265713012367367,1.2265713012367367,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,transition_RNA,1,1,single_unit_side,2.5681879372076186,2.5681879372076186,2.5681879372076186,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,AT1_identity,2,2,estimated,-0.3131948300110494,-1.1906936047010461,0.5643039446789473,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,AT2_identity,2,2,estimated,-0.1374374643734697,-0.5466322971688555,0.2717573684219179,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Areg,2,2,estimated,2.543151600209339,2.2606053462854145,2.8256978541332636,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Axin2,2,2,estimated,-1.033523725094673,-1.7328729166929389,-0.3341745334964079,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Cd177,2,2,estimated,-0.32730985238581706,-0.6584168266676765,0.0037971218960425324,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Cd38,2,2,estimated,-0.27105086586990357,-1.4528995776513196,0.9107978459115127,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Dlk1,2,2,estimated,0.1777316065084922,0.0,0.3554632130169844,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Ereg,2,2,estimated,4.829137677923071,4.116421600685699,5.541853755160442,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Hbegf,2,2,estimated,0.631201455842846,-0.1908111951654874,1.4532141068511777,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Hmga2,2,2,estimated,0.7503859312018487,0.007085627372560799,1.4936862350311366,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Il1r1,2,2,estimated,-0.35009010413397323,-0.45073059607163213,-0.24944961219631345,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Itga2,2,2,estimated,2.75636055430592,2.1396791071032744,3.3730420015085665,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Mki67,2,2,estimated,3.386322364254247,1.324998945790476,5.447645782718019,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Nfkbia,2,2,estimated,-0.5646678338551308,-1.3272244705897451,0.19788880287948363,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,P53_RNA_control,2,2,estimated,0.31263108528841155,0.013412833039039285,0.6118493375377829,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Spp1,2,2,estimated,0.693785823607364,-1.1744915018182793,2.562063149033007,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,TNFA_NFKB_RNA_disjoint,2,2,estimated,0.10232631449855134,-0.37479004317259257,0.5794426721696961,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Tonsl,2,2,estimated,0.018069591183301092,-0.46561852126448966,0.5017577036310916,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Trp53,2,2,estimated,0.8446845948461323,0.10682913860158294,1.5825400510906809,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,cycling,2,2,estimated,3.655169698353946,2.1772351768125713,5.133104219895321,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,hypoxia_control,2,2,estimated,0.1637725853394576,-0.2613109836094045,0.5888561542883193,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,lesion_gate_cycle_stress_disjoint,2,2,estimated,0.39041327838245987,0.14514149936643417,0.6356850573984847,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,lesion_specific,2,2,estimated,0.40515114318725054,0.12126701416129215,0.6890352722132094,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,priming_associated,2,2,estimated,0.9521688276631295,-0.42766363100449745,2.3320012863307555,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,shared_gate_cycle_stress_disjoint,2,2,estimated,1.439446960035653,0.8889605140593035,1.9899334060120024,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,shared_remodelling,2,2,estimated,1.3069381718944237,0.7691899532454505,1.844686390543397,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,transition_RNA,2,2,estimated,2.9462987174622075,2.006058831447845,3.8865386034765717,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,AT1_identity,2,2,estimated,-0.1077322333031443,-0.7796016686521918,0.5641372020459015,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,AT2_identity,2,2,estimated,-0.1333599868191726,-0.27972841893994804,0.013008445301602833,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Areg,2,2,estimated,1.5512277425162608,0.8211100595186336,2.28134542551389,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Axin2,2,2,estimated,-1.1356906197109984,-1.4405062035914775,-0.8308750358305192,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Cd177,2,2,estimated,-0.9463915989778258,-1.2173708809156116,-0.6754123170400399,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Cd38,2,2,estimated,-0.750770441390467,-2.3630972693387027,0.8615563865577682,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Dlk1,2,2,estimated,0.3884289945674847,0.0,0.7768579891349694,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Ereg,2,2,estimated,3.596518114714408,3.3654395171879914,3.8275967122408243,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Hbegf,2,2,estimated,1.0219680580714607,0.656352077155506,1.3875840389874146,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Hmga2,2,2,estimated,0.3884289945674847,0.0,0.7768579891349694,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Il1r1,2,2,estimated,0.0809664515324231,-0.35377916785660535,0.5157120709214515,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Itga2,2,2,estimated,-0.41787873290191246,-1.9786600798313123,1.142902614027487,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Mki67,2,2,estimated,2.521095605189598,-0.19303604346283132,5.235227253842027,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Nfkbia,2,2,estimated,-0.9499517492094629,-1.8190243535589232,-0.08087914486000347,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,P53_RNA_control,2,2,estimated,0.09262455316665807,-0.27426795798960857,0.4595170643229265,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Spp1,2,2,estimated,-0.6967859624976318,-3.7901360448615478,2.396564119866284,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,TNFA_NFKB_RNA_disjoint,2,2,estimated,-0.22427818974905822,-0.7778458458198898,0.32928946632177336,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Tonsl,2,2,estimated,-0.16634390182376135,-1.145639724573526,0.8129519209260034,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Trp53,2,2,estimated,0.3801396710368392,-0.6089264798602434,1.3692058219339227,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,cycling,2,2,estimated,3.361312389235053,1.433713293890763,5.288911484579342,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,hypoxia_control,2,2,estimated,-0.050957819894298595,-0.5498052179330202,0.44788957814442476,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,lesion_gate_cycle_stress_disjoint,2,2,estimated,0.03912335077909912,-0.23619858954524453,0.31444529110344277,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,lesion_specific,2,2,estimated,-0.016126573194072513,-0.34245695969834333,0.31020381331019875,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,priming_associated,2,2,estimated,0.9253305641474121,-0.11106949581890291,1.9617306241137253,False,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,shared_gate_cycle_stress_disjoint,2,2,estimated,1.344393068753572,0.8481345964491247,1.840651541058019,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,shared_remodelling,2,2,estimated,1.2115372373194262,0.7346417082809475,1.6884327663579057,True,False
+Niethamer_2025,primary,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,transition_RNA,2,2,estimated,1.9828602443725325,0.5952802075184138,3.3704402812266494,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),unit fraction,Cd177_ge1_all,,2,2,estimated,0.0017891805639396845,-0.004736842105263158,0.008315203233142526,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),unit fraction,state_AT1,,2,2,estimated,-0.11917654696909569,-0.13789473684210526,-0.10045835709608603,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),unit fraction,state_AT2,,2,2,estimated,0.10020811539229757,0.08158038147138963,0.11883584931320548,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),unit fraction,state_mixed,,2,2,estimated,0.11944042932670162,0.10111519107847139,0.13776566757493186,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),unit fraction,state_transition,,2,2,estimated,-0.016130716076887187,-0.02316061471508228,-0.009100817438692099,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),unit fraction,state_transition_AT1,,2,2,estimated,-0.06584214454349761,-0.0722106048764689,-0.059473684210526324,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),unit fraction,state_unresolved,,2,2,estimated,-0.01849913712951877,-0.019473684210526317,-0.017524590048511222,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,AT1_identity,2,1,single_unit_side,-0.36882596629894016,-0.4706283312577675,-0.2670236013401128,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,AT2_identity,2,1,single_unit_side,-0.04678894524718835,-0.2370813070905573,0.1435034165961806,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Areg,2,1,single_unit_side,-1.443139144864909,-1.4621854429839178,-1.4240928467459,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Axin2,2,1,single_unit_side,-0.4551329571534133,-0.6174222969603291,-0.292843617346497,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Cd177,2,1,single_unit_side,0.3679137356016138,0.0,0.7358274712032276,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Cd38,2,1,single_unit_side,0.6539377961021442,0.48831690774571435,0.819558684458574,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Dlk1,2,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Ereg,2,1,single_unit_side,0.5059924424281178,0.0,1.0119848848562356,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Hbegf,2,1,single_unit_side,-0.4130504517936959,-0.7431405208924051,-0.08296038269498585,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Hmga2,2,1,single_unit_side,0.5059924424281178,0.0,1.0119848848562356,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Il1r1,2,1,single_unit_side,0.37011821825246827,0.24440580291588443,0.495830633589053,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Itga2,2,1,single_unit_side,0.5870707409694289,-0.06676229180365478,1.2409037737425124,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Mki67,2,1,single_unit_side,-5.461613470129054,-5.566004155902422,-5.3572227843556846,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Nfkbia,2,1,single_unit_side,-0.1526565687082222,-0.20830561375620604,-0.09700752366023924,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,P53_RNA_control,2,1,single_unit_side,-0.0807123341873126,-0.20965446925901965,0.048229800884394436,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Spp1,2,1,single_unit_side,2.2271720660712564,2.113287721908927,2.3410564102335853,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,TNFA_NFKB_RNA_disjoint,2,1,single_unit_side,-0.0559070729947484,-0.06360024215682447,-0.04821390383267232,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Tonsl,2,1,single_unit_side,0.3615065623320959,-0.08811135906339729,0.8111244837275895,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Trp53,2,1,single_unit_side,-0.5497094590058298,-0.6666361319384073,-0.43278278607325227,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,cycling,2,1,single_unit_side,-5.231681059937847,-5.303761781132412,-5.159600338743282,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,hypoxia_control,2,1,single_unit_side,-0.08366831970361233,-0.14425995560407356,-0.023076683803151532,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,lesion_gate_cycle_stress_disjoint,2,1,single_unit_side,0.14065636831498152,0.09102697217773725,0.19028576445222578,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,lesion_specific,2,1,single_unit_side,0.13237228939545176,0.09239554667169037,0.17234903211921315,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,priming_associated,2,1,single_unit_side,-0.563156638611412,-0.5838160933778056,-0.5424971838450183,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,shared_gate_cycle_stress_disjoint,2,1,single_unit_side,-0.3820843343240785,-0.4345016547415339,-0.32966701390662223,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,shared_remodelling,2,1,single_unit_side,-0.2771475026051151,-0.31755025872698983,-0.2367447464832404,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,transition_RNA,2,1,single_unit_side,-0.5617749367912417,-1.2887858182324052,0.16523594464992186,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,AT1_identity,2,2,estimated,-0.27625649248082773,-0.6134330150940812,0.06092003013242753,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,AT2_identity,2,2,estimated,0.7377586612127267,0.5523328282012656,0.923184494224186,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Areg,2,2,estimated,-1.6544345219772794,-1.73629929645025,-1.5725697475043088,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Axin2,2,2,estimated,1.0216906473837923,0.4602321624037917,1.583149132363793,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Cd177,2,2,estimated,0.3862106982916322,0.11315617543386491,0.6592652211493996,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Cd38,2,2,estimated,0.45833164635867396,-0.1847050604361269,1.1013683531534748,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Dlk1,2,2,estimated,-0.1777316065084922,-0.3554632130169844,0.0,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Ereg,2,2,estimated,-3.444130248624702,-5.141359412926113,-1.7469010843232908,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Hbegf,2,2,estimated,-1.2908277644869157,-1.906614448172287,-0.6750410808015426,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Hmga2,2,2,estimated,-1.175494573484464,-1.4936862350311366,-0.8573029119377913,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Il1r1,2,2,estimated,0.8934832069911476,0.8252609055331313,0.9617055084491621,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Itga2,2,2,estimated,-2.4926241514043816,-2.692027041242789,-2.2932212615659746,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Mki67,2,2,estimated,-2.011580688083446,-4.681474347838975,0.6583129716720828,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Nfkbia,2,2,estimated,0.24479310950862398,-0.058529005236588105,0.5481152242538352,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,P53_RNA_control,2,2,estimated,-0.2179310257505227,-0.34339309859512923,-0.09246895290591617,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Spp1,2,2,estimated,0.6145768659393842,-1.2392844117152522,2.468438143594021,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,TNFA_NFKB_RNA_disjoint,2,2,estimated,-0.07310014117942831,-0.44172175204161146,0.29552146968275483,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Tonsl,2,2,estimated,0.10646082594913775,-0.7522439382089388,0.965165590107214,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Trp53,2,2,estimated,-0.8284665322874929,-1.08486001246846,-0.5720730521065258,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,cycling,2,2,estimated,-2.226825648082988,-4.702275488247125,0.24862419208114828,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,hypoxia_control,2,2,estimated,-0.15401973496371735,-0.35102015952206234,0.04298068959462853,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,lesion_gate_cycle_stress_disjoint,2,2,estimated,-0.37303846437041255,-0.544802137191764,-0.20127479154906114,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,lesion_specific,2,2,estimated,-0.41118024939415276,-0.5923880762270786,-0.22997242256122696,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,priming_associated,2,2,estimated,-0.25712859318780446,-0.6497452452205881,0.13548805884498094,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,shared_gate_cycle_stress_disjoint,2,2,estimated,-1.1328490979376538,-1.2775289955644133,-0.9881692003108951,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,shared_remodelling,2,2,estimated,-1.0178057066078274,-1.1451061755565313,-0.8905052376591236,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,transition_RNA,2,2,estimated,-1.8610291503479601,-2.2838741725016005,-1.4381841281943224,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,AT1_identity,2,2,estimated,0.4872606518105522,0.39711754880458905,0.5774037548165163,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,AT2_identity,2,2,estimated,0.2650443724557192,0.04028207086038016,0.4898066740510547,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Areg,2,2,estimated,-1.0108446380440759,-1.2811454355131406,-0.7405438405750129,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Axin2,2,2,estimated,0.48389563534365276,0.16136537267855866,0.8064258980087469,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Cd177,2,2,estimated,0.7288763256691497,0.4515493347749064,1.006203316563393,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Cd38,2,2,estimated,0.4835805495022636,-0.03148196235685763,0.9986430613613844,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Dlk1,2,2,estimated,-0.3884289945674847,-0.7768579891349694,0.0,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Ereg,2,2,estimated,-1.956765690336329,-3.465717981946953,-0.44781339872570536,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Hbegf,2,2,estimated,-1.0143730403178184,-1.420495589552738,-0.6082504910828979,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Hmga2,2,2,estimated,-0.3884289945674847,-0.7768579891349694,0.0,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Il1r1,2,2,estimated,0.46134720171288635,0.058248492812827735,0.8644459106129458,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Itga2,2,2,estimated,0.14466029672387926,-0.7468735815327308,1.0361941749804897,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Mki67,2,2,estimated,-1.1286582259472082,-4.767851323859986,2.51053487196557,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Nfkbia,2,2,estimated,0.3903321379917415,0.051763731617016084,0.7289005443664678,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,P53_RNA_control,2,2,estimated,-0.060736062340994934,-0.1685643053146002,0.04709218063260856,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Spp1,2,2,estimated,1.2788972197737254,-1.9805989640459967,4.538393403593448,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,TNFA_NFKB_RNA_disjoint,2,2,estimated,0.08368901462870415,-0.26751505245405305,0.43489308171146046,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Tonsl,2,2,estimated,0.1091894861317726,-0.9017175727728599,1.1200965450364049,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Trp53,2,2,estimated,-0.4545651917651874,-1.0226337810441777,0.1135033975138029,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,cycling,2,2,estimated,-1.645174241228755,-4.7470440728762195,1.4566955904187102,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,hypoxia_control,2,2,estimated,-0.0058269966635453585,-0.24441866607272633,0.23276467274563473,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,lesion_gate_cycle_stress_disjoint,2,2,estimated,-0.07264820592531995,-0.2665935224353979,0.121297110584758,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,lesion_specific,2,2,estimated,-0.03888061686496602,-0.24562937042784316,0.16786813669791067,False,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,priming_associated,2,2,estimated,-0.8439678309196808,-1.2366224985848167,-0.45131316325454307,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,shared_gate_cycle_stress_disjoint,2,2,estimated,-0.8367089490384778,-0.9038690893160375,-0.7695488087609181,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,shared_remodelling,2,2,estimated,-0.7226002426530727,-0.7800188510322457,-0.6651816342739005,True,False
+Niethamer_2025,primary,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,transition_RNA,2,2,estimated,-1.4859003837843527,-2.355658329179983,-0.61614243838872,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),unit fraction,Cd177_ge1_all,,2,2,estimated,-0.0013297872340425532,-0.0026595744680851063,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),unit fraction,state_AT1,,2,2,estimated,-0.14783874898348615,-0.3539732211563125,0.058295723189340176,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),unit fraction,state_AT2,,2,2,estimated,-0.05596632587963901,-0.26606490436277674,0.15413225260349867,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),unit fraction,state_mixed,,2,2,estimated,-0.023053617923803185,-0.028702870287028705,-0.017404365560577673,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),unit fraction,state_transition,,2,2,estimated,0.0012953367875647669,0.0,0.0025906735751295338,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),unit fraction,state_transition_AT1,,2,2,estimated,0.005050505050505051,0.0,0.010101010101010102,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),unit fraction,state_unresolved,,2,2,estimated,0.22051285094885853,0.14729632896042333,0.29372937293729373,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,AT1_identity,1,1,single_unit_side,0.965970021154734,0.965970021154734,0.965970021154734,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,AT2_identity,1,1,single_unit_side,0.4821078559016687,0.4821078559016687,0.4821078559016687,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Areg,1,1,single_unit_side,2.8600687267410185,2.8600687267410185,2.8600687267410185,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Axin2,1,1,single_unit_side,-0.3279723076862706,-0.3279723076862706,-0.3279723076862706,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Cd177,1,1,single_unit_side,-2.740240726199067,-2.740240726199067,-2.740240726199067,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Cd38,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Dlk1,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Ereg,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Hbegf,1,1,single_unit_side,0.4950597635180136,0.4950597635180136,0.4950597635180136,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Hmga2,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Il1r1,1,1,single_unit_side,0.5968668669067108,0.5968668669067108,0.5968668669067108,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Itga2,1,1,single_unit_side,3.3000589149267716,3.3000589149267716,3.3000589149267716,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Mki67,1,1,single_unit_side,5.1857963940851945,5.1857963940851945,5.1857963940851945,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Nfkbia,1,1,single_unit_side,1.218195364267558,1.218195364267558,1.218195364267558,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,P53_RNA_control,1,1,single_unit_side,0.17014153458720038,0.17014153458720038,0.17014153458720038,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Spp1,1,1,single_unit_side,3.3000589149267716,3.3000589149267716,3.3000589149267716,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,TNFA_NFKB_RNA_disjoint,1,1,single_unit_side,0.24053793935270784,0.24053793935270784,0.24053793935270784,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Tonsl,1,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Trp53,1,1,single_unit_side,-0.09427938430121863,-0.09427938430121863,-0.09427938430121863,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,cycling,1,1,single_unit_side,5.05411488250731,5.05411488250731,5.05411488250731,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,hypoxia_control,1,1,single_unit_side,0.293600171467435,0.293600171467435,0.293600171467435,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,lesion_gate_cycle_stress_disjoint,1,1,single_unit_side,0.3299144603397193,0.3299144603397193,0.3299144603397193,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,lesion_specific,1,1,single_unit_side,0.4466026661325766,0.4466026661325766,0.4466026661325766,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,priming_associated,1,1,single_unit_side,0.1425008518855453,0.1425008518855453,0.1425008518855453,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,shared_gate_cycle_stress_disjoint,1,1,single_unit_side,0.8515424567064365,0.8515424567064365,0.8515424567064365,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,shared_remodelling,1,1,single_unit_side,0.7489722561663701,0.7489722561663701,0.7489722561663701,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,transition_RNA,1,1,single_unit_side,3.101042197405432,3.101042197405432,3.101042197405432,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,AT1_identity,2,2,estimated,-0.10477087231853943,-0.9063480700451887,0.6968063254081134,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,AT2_identity,2,2,estimated,0.4274496482533099,-0.34338425964044994,1.1982835561470697,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Areg,2,2,estimated,3.182078545892212,2.8946400242636647,3.4695170675207585,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Axin2,2,2,estimated,-0.9967370331159947,-3.8377285711011226,1.8442545048691332,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Cd177,2,2,estimated,-0.9358379515122303,-1.8716759030244605,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Cd38,2,2,estimated,-1.2865048489796953,-2.5730096979593906,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Dlk1,2,2,estimated,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Ereg,2,2,estimated,5.106141639353112,4.048239800302014,6.164043478404209,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Hbegf,2,2,estimated,0.8152688469520397,-0.02725570569725022,1.6577933996013314,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Hmga2,2,2,estimated,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Il1r1,2,2,estimated,1.222651514594972,0.519990645447348,1.9253123837425954,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Itga2,2,2,estimated,2.5117107146041326,0.41958372144808287,4.603837707760182,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Mki67,2,2,estimated,2.6584367778693774,0.0,5.316873555738755,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Nfkbia,2,2,estimated,-0.2680920613936717,-0.9313056473310457,0.3951215245437032,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,P53_RNA_control,2,2,estimated,0.22498494067711405,-0.06311474391180116,0.5130846252660284,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Spp1,2,2,estimated,1.5664546103137806,0.0,3.1329092206275613,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,TNFA_NFKB_RNA_disjoint,2,2,estimated,0.10337046345630974,-0.12315684039969899,0.329897767312318,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Tonsl,2,2,estimated,-0.3643775965451287,-2.5730096979593906,1.8442545048691332,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,Trp53,2,2,estimated,0.1727271881478103,-0.18773998193188035,0.5331943582275,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,cycling,2,2,estimated,2.669002781174815,0.2624775451038923,5.075528017245737,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,hypoxia_control,2,2,estimated,0.16497374988443259,-0.060145675176826785,0.3900931749456933,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,lesion_gate_cycle_stress_disjoint,2,2,estimated,0.22765027916126757,-0.07670029691461222,0.5320008552371474,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,lesion_specific,2,2,estimated,0.2612853735872682,-0.02967316853334978,0.5522439157078862,False,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,priming_associated,2,2,estimated,1.299056247022155,0.011453102394893833,2.586659391649416,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,shared_gate_cycle_stress_disjoint,2,2,estimated,1.2704077495806452,0.6678030854725732,1.873012413688718,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,shared_remodelling,2,2,estimated,1.0983252852537868,0.5251123488607305,1.6715382216468422,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,all,transition_RNA,2,2,estimated,3.1089967969203576,2.067861696128384,4.150131897712331,True,False
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,AT1_identity,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,AT2_identity,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Areg,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Axin2,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Cd177,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Cd38,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Dlk1,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Ereg,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Hbegf,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Hmga2,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Il1r1,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Itga2,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Mki67,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Nfkbia,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,P53_RNA_control,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Spp1,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,TNFA_NFKB_RNA_disjoint,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Tonsl,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Trp53,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,cycling,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,hypoxia_control,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,lesion_gate_cycle_stress_disjoint,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,lesion_specific,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,priming_associated,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,shared_gate_cycle_stress_disjoint,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,shared_remodelling,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 11 minus day 0 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,transition_RNA,0,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),unit fraction,Cd177_ge1_all,,2,2,estimated,0.0013623978201634877,0.0,0.0027247956403269754,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),unit fraction,state_AT1,,2,2,estimated,-0.07150356828341264,-0.1070376792447637,-0.03596945732206164,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),unit fraction,state_AT2,,2,2,estimated,0.23849809826928087,0.18954271434823738,0.2874534821903243,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),unit fraction,state_mixed,,2,2,estimated,0.037707455844065665,0.008753749659121901,0.06666116202900943,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),unit fraction,state_transition,,2,2,estimated,-0.0012953367875647669,-0.0025906735751295338,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),unit fraction,state_transition_AT1,,2,2,estimated,-0.005050505050505051,-0.010101010101010102,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),unit fraction,state_unresolved,,2,2,estimated,-0.198356143991864,-0.23859649122807014,-0.15811579675565782,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,AT1_identity,2,1,single_unit_side,0.41098360106904863,0.40446297908764706,0.4175042230504502,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,AT2_identity,2,1,single_unit_side,-0.11381147850091367,-0.3039728652466813,0.07634990824485399,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Areg,2,1,single_unit_side,-0.9051780245708478,-0.96282972737359,-0.8475263217681048,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Axin2,2,1,single_unit_side,-1.522599477644835,-3.3000589149267716,0.2548599596371015,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Cd177,2,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Cd38,2,1,single_unit_side,1.3666465274777235,0.0,2.733293054955447,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Dlk1,2,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Ereg,2,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Hbegf,2,1,single_unit_side,0.10820660048777864,-0.06175097584474987,0.27816417682030625,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Hmga2,2,1,single_unit_side,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Il1r1,2,1,single_unit_side,-0.6371785811852115,-0.6699792149558799,-0.6043779474145436,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Itga2,2,1,single_unit_side,-3.3000589149267716,-3.3000589149267716,-3.3000589149267716,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Mki67,2,1,single_unit_side,-3.408336956803258,-5.1857963940851945,-1.6308775195213214,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Nfkbia,2,1,single_unit_side,-0.8108411617963096,-1.2973259333308853,-0.3243563902617339,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,P53_RNA_control,2,1,single_unit_side,0.0325895698815164,-0.11096960155758451,0.1761487413206173,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Spp1,2,1,single_unit_side,-1.489798843874167,-3.3000589149267716,0.3204612271784377,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,TNFA_NFKB_RNA_disjoint,2,1,single_unit_side,-0.0630599149883917,-0.3072993215191646,0.18117949154238167,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Tonsl,2,1,single_unit_side,1.3666465274777235,0.0,2.733293054955447,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,Trp53,2,1,single_unit_side,-0.44390892913684876,-1.2289920244901187,0.3411741662164216,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,cycling,2,1,single_unit_side,-4.312069640433166,-5.335625350830496,-3.288513930035837,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,hypoxia_control,2,1,single_unit_side,-0.0545174538100639,-0.23282232435100392,0.12378741673087612,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,lesion_gate_cycle_stress_disjoint,2,1,single_unit_side,0.3319175321449208,0.022956874171957686,0.6408781901178844,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,lesion_specific,2,1,single_unit_side,0.24750272070821655,-0.06723884355467336,0.5622442849711069,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,priming_associated,2,1,single_unit_side,-0.4820385849738127,-0.7037134241332161,-0.26036374581440747,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,shared_gate_cycle_stress_disjoint,2,1,single_unit_side,-0.3649593826391211,-0.6334709314248528,-0.0964478338533894,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,shared_remodelling,2,1,single_unit_side,-0.2157411562531415,-0.4946441050042587,0.06316179249797571,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,AT2,transition_RNA,2,1,single_unit_side,-1.0668625823970785,-1.78001949661064,-0.35370566818351623,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,AT1_identity,2,2,estimated,-0.5448826129929891,-0.6229126301971544,-0.46685259578882743,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,AT2_identity,2,2,estimated,0.5116433640955762,0.14898966323862517,0.8742970649525255,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Areg,2,2,estimated,-1.5652375761696309,-1.893989787071357,-1.2364853652679049,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Axin2,2,2,estimated,0.8413025206442274,-1.8442545048691332,3.526859546157588,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Cd177,2,2,estimated,0.9485806373814236,0.0,1.8971612747628472,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Cd38,2,2,estimated,3.1098404064007,2.646890249864358,3.5727905629370422,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Dlk1,2,2,estimated,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Ereg,2,2,estimated,-4.157561001971688,-6.164043478404209,-2.1510785255391665,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Hbegf,2,2,estimated,-1.3926252086837287,-2.2547093739037054,-0.530541043463753,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Hmga2,2,2,estimated,0.0,0.0,0.0,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Il1r1,2,2,estimated,-0.6979483230094807,-1.2549378585145456,-0.14095878750441582,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Itga2,2,2,estimated,-2.906177892994147,-4.603837707760182,-1.2085180782281117,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Mki67,2,2,estimated,-1.3349916529371983,-5.316873555738755,2.646890249864358,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Nfkbia,2,2,estimated,0.05664953076859547,-0.1807735872205667,0.29407264875775674,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,P53_RNA_control,2,2,estimated,-0.17139628886970737,-0.40747339037837005,0.06468081263895531,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Spp1,2,2,estimated,0.03235126617843598,-3.1329092206275613,3.1976117529844332,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,TNFA_NFKB_RNA_disjoint,2,2,estimated,-0.0015737133595541408,-0.2660380912089124,0.26289066448980325,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Tonsl,2,2,estimated,0.42247661651113433,-1.8442545048691332,2.689207737891402,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,Trp53,2,2,estimated,-0.28164882467408603,-0.6209353156122468,0.05763766626407385,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,cycling,2,2,estimated,-1.832015293137009,-5.004184429587733,1.340153843313715,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,hypoxia_control,2,2,estimated,-0.11315867029551718,-0.23551342882361403,0.009196088232579669,False,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,lesion_gate_cycle_stress_disjoint,2,2,estimated,-0.358437609564759,-0.620319636692487,-0.09655558243703144,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,lesion_specific,2,2,estimated,-0.427432122677478,-0.6628371443420908,-0.19202710101286513,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,priming_associated,2,2,estimated,-0.4934490493742114,-0.8721540251858197,-0.1147440735626013,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,shared_gate_cycle_stress_disjoint,2,2,estimated,-0.9307710509305887,-1.2327523283146427,-0.6287897735465355,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,shared_remodelling,2,2,estimated,-0.8374873241307377,-1.040216465927787,-0.6347581823336883,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,all,transition_RNA,2,2,estimated,-1.667566457240551,-2.0811644534495093,-1.2539684610315929,True,False
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,AT1_identity,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,AT2_identity,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Areg,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Axin2,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Cd177,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Cd38,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Dlk1,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Ereg,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Hbegf,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Hmga2,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Il1r1,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Itga2,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Mki67,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Nfkbia,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,P53_RNA_control,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Spp1,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,TNFA_NFKB_RNA_disjoint,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Tonsl,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,Trp53,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,cycling,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,hypoxia_control,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,lesion_gate_cycle_stress_disjoint,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,lesion_specific,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,priming_associated,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,shared_gate_cycle_stress_disjoint,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,shared_remodelling,1,0,unavailable,,,,,
+Niethamer_2025,depth1000_seed20260928,day 25 minus day 11 (2 animals each),pseudobulk_mean_log2_CPM1,mixed,transition_RNA,1,0,unavailable,,,,,

@@ -1,0 +1,21 @@
+variant,gsm,experiment,reporter,il1r1_status,population,collection_day,n_transition,status,observed_AT2_and_AT1,permutation_mean,permutation_sd,fraction_permutations_ge_observed,n_permutations,note
+depth1000_seed20260928,GSM7890829,1,RFP,no_Il1r1_deletion_in_reported_genotype,WT_baseline,14,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890830,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_baseline,14,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890831,1,RFP,no_Il1r1_deletion_in_reported_genotype,mutant_RFP,4,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890832,1,RFP,no_Il1r1_deletion_in_reported_genotype,mutant_RFP,4,85,estimated,0.0,0.0,0.0,1.0,200.0,conditional descriptive null; no biological p value; no ambient correction
+depth1000_seed20260928,GSM7890833,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_in_oncogenic_tissue,4,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890834,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_in_oncogenic_tissue,4,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890835,1,RFP,no_Il1r1_deletion_in_reported_genotype,mutant_RFP,14,90,estimated,0.0,0.04,0.19645092217681395,1.0,200.0,conditional descriptive null; no biological p value; no ambient correction
+depth1000_seed20260928,GSM7890836,1,RFP,no_Il1r1_deletion_in_reported_genotype,mutant_RFP,14,47,estimated,0.0,0.165,0.3982057749405198,1.0,200.0,conditional descriptive null; no biological p value; no ambient correction
+depth1000_seed20260928,GSM7890837,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_in_oncogenic_tissue,14,1,unavailable,,,,,,
+depth1000_seed20260928,GSM7890838,1,YFP,no_Il1r1_deletion_in_reported_genotype,WT_in_oncogenic_tissue,14,2,unavailable,,,,,,
+depth1000_seed20260928,GSM7890839,2,RFP,no_Il1r1_deletion_in_reported_genotype,WT_baseline,unknown,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890840,2,RFP,no_Il1r1_deletion_in_reported_genotype,WT_baseline,unknown,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890841,2,RFP,heterozygous,mutant_RFP,14,2,unavailable,,,,,,
+depth1000_seed20260928,GSM7890842,2,RFP,heterozygous,mutant_RFP,14,8,unavailable,,,,,,
+depth1000_seed20260928,GSM7890843,2,RFP,homozygous_deletion,mutant_RFP,14,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890844,2,RFP,homozygous_deletion,mutant_RFP,14,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890845,2,RFP,heterozygous,mutant_RFP,84,2,unavailable,,,,,,
+depth1000_seed20260928,GSM7890846,2,RFP,heterozygous,mutant_RFP,84,24,unavailable,,,,,,
+depth1000_seed20260928,GSM7890847,2,RFP,homozygous_deletion,mutant_RFP,84,0,unavailable,,,,,,
+depth1000_seed20260928,GSM7890848,2,RFP,homozygous_deletion,mutant_RFP,84,0,unavailable,,,,,,

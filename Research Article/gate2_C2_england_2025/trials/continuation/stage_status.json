@@ -1,5 +1,5 @@
 {
-  "status": "phase2_EN1_complete_EN2_to_EN7_not_run",
+  "status": "continuation_complete_EN0_EN7_executed_as_feasible",
   "contract_commit": "4d66231",
   "handoff": "docs/handoffs/2026-09-28-england-en7-cd177.md",
   "amendments": "config/continuation_amendments.json",
@@ -7,12 +7,12 @@
   "no_process_running": true,
   "EN0": "public run/source mapping complete; matrix checks done (features identical across 20 libraries, 31,053 genes, 36 duplicate symbols, no reporter features, integer counts, no duplicate barcodes); availability ledger written; biological pool/pair/spatial identities unknown",
   "EN1": "source-inspired clustering run per experiment (CA2 igraph multilevel; seed 20260928; r=0.5/1.0/1.5 -> Exp1 13/20/25, Exp2 17/25/36 clusters). Outputs trials/continuation/EN1/. Not an author-label reproduction; no resolution selected on an outcome.",
-  "EN2": "batch1 proxies complete; independent-gate extension not run",
-  "EN3": "batch1 distributions complete; conditional extension not run",
-  "EN4": "new baseline/conditional comparisons not run",
-  "EN5": "CD177 extension not run",
-  "EN6": "batch1 clone distribution models complete; source simulator audit not run; spatial identity gate unresolved",
-  "EN7": "external transfer not run",
+  "EN2": "independent-gate composition and within-state pseudobulk genotype contrasts run (trials/continuation/EN2_5/). Il1r1 homozygous minus heterozygous: transition-gate fraction lower at both times in every cross-library comparison (primary -0.057 at 14 d, -0.123 at 84 d; thinned -0.007/-0.014); AT2-state fraction higher (+0.077/+0.244; agreement only at 84 d). Within AT2 and mixed states (>=30 cells, 2 libraries per side): Cd177 pseudobulk lower by ~4 log2 units at both times; AT1 identity lower (-0.5/-0.6); response and Nfkbia near zero at 14 d, modestly lower at 84 d. Transition-state within-state contrast unavailable (homozygous libraries hold 0-12 transition cells). Composition and conditional expression answer different questions; no causal mediation.",
+  "EN3": "separated axes per library with a declared WT-baseline q90 threshold. Response-high fraction varies 3-52% across libraries and 2-3x between replicate libraries of the same condition (e.g. GSM7890835 0.52 vs GSM7890836 0.22); Nfkbia-high fraction is 2-15% and does not track response; within-library Spearman(response, Nfkbia) is 0.24-0.54 everywhere including WT baseline, so no library-specific feedback decoupling is visible. Snapshot RNA, not activity or duration.",
+  "EN4": "2-week oncogenic-tissue YFP minus the single Confetti-YFP baseline: Spp1 +3.3, Dlk1 +4.0, Cd177 +1.3, transition RNA +1.0, priming +1.7 log2 units; response +0.1, Nfkbia -0.7, cycling -0.2. Mutant RFP exceeds oncogenic YFP on Cd177 (+3.4), Areg (+2.0), cycling (+1.1), AT1 identity (+0.8). Single baseline library and unverified pairing; 4-day arm unavailable (no Confetti arm).",
+  "EN5": "CD177 primary contrast available only in GSM7890835 (79 vs 799) and GSM7890836 (60 vs 598) at raw depth; no thinned variant retains an eligible group (transition gate collapses to 90/47 cells at 1,000 UMIs) and no Il1r1 or WT library qualifies. Cycling score, Cd177>=1 minus Cd177=0: GSM7890835 SMD -0.04 (matched -0.05, 4 strata, 63 vs 408); GSM7890836 SMD +0.48 (binary cycling fraction 0.47 vs 0.17; matched weighted SMD +0.19, 2 strata, 35 vs 111). Direction is library-dependent and shrinks under depth/hypoxia matching; >=2-UMI sensitivity gives the same picture. Unstratified secondary SMDs (GSM7890835 / GSM7890836): priming_associated +1.60 / +2.17, AT2 identity +0.94 / +1.41, AT1 identity +0.85 / +0.52, Itga2 -0.48 / -0.75, shared disjoint -0.70 / -1.21, lesion disjoint -0.88 / -1.10. Within cycling strata (<2 and >=2 markers, both libraries) the directions hold in all four strata but magnitudes are smaller in the cycling-high stratum (|SMD| range 0.36-2.47; e.g. GSM7890835 cycling>=2: priming +0.89, AT2 identity +0.47, Itga2 -0.39, shared -0.44, lesion -0.41). Depth/hypoxia-matched secondary strata fall under the floor; Cd177+ cells are deeper-sequenced (EN1 cluster 12), so depth remains an alternative explanation for the identity-module differences. Cd177 UMI distribution in positives is spread 1-53 without a natural break; no bimodality claim. Co-detection null at 1,000 UMIs is uninformative (0 observed, ~0 expected).",
+  "EN6": "simulator audit run (trials/continuation/EN6/). Three implementations x 3 parameter blocks x times x 2 seeds, 100 x 1,000 clones. Gillespie validated against the analytic one-lineage birth-death law (P0 error <=0.0013, conditional CCDF error <=0.007). q=0.5 blocks (Confetti, Red2Kras YFP): literal and fixed-branch identical (KS 0); literal vs Gillespie KS <=0.025 (Confetti) and 0.05-0.10 (YFP 14/28 d), i.e. horizon-overshoot and old-rate-across-tau effects are modest. Red2Kras RFP (q=0.7): the CA1 branch typo dominates: literal vs fixed-branch KS 0.10/0.28/0.28 at 1/2/4 weeks; fraction of clones with size>=2 is 0.91-0.96 (literal) vs 0.57-0.59 (fixed) vs 0.50-0.55 (Gillespie) because slow-population loss never fires; conditional mean size 66 vs 80 at 2 weeks, P90 66 vs 36. fixed-branch vs Gillespie KS <=0.045. Seed-to-seed KS <=0.011. Batch1 LOMO (saved fits, not refitted): kras two-geometric mixtures have non-overlapping components in every held-out fit, but the fast-component parameter and weight vary by cohort: kras1w p 0.037-0.071 and weight 0.14-0.28 (4 fits); kras2w p 0.004-0.005 and weight 0.30-0.34 (4 fits); kras4w p 0.001 and weight 0.22-0.25 (3 fits). Confetti mixture weights range 0.09-0.89 across held-out mice with overlapping component parameters (not identifiable). Code observation quantified; which implementation produced the published RFP curves is not established; merger/segmentation not modelled; EN6c spatial joint analysis stays blocked (no IDs).",
+  "EN7": "external transfer run (trials/continuation/EN7/). Cd177 primary contrast unavailable in every unit: Choi day-14 has 117 transition-gated cells with 2 Cd177>=1; day-28 21/1; PBS 0; Niethamer day 0/11/25 samples hold 1-50 transition-gated cells with 0-1 Cd177>=1. Whole-unit pseudobulks: transient repair rise of cycling (+2.8 Choi d14-PBS; +3.7 Niethamer d11-d0, 2x2 agree), transition RNA (+2.1; +3.0, agree), shared disjoint module (+1.1; +1.4, agree), lesion disjoint module (+0.35; +0.39, agree) and Itga2 (+0.55; +2.8, agree), all reversing by d28/d25; Cd177 rises transiently in Choi (+2.0 then -1.7) but not consistently in Niethamer (-0.33, directions disagree); TNFA/NF-kB disjoint response ~0; Nfkbia lower at peak repair. Independent gates vs author labels: transition gate captures 10% of Choi DATP (88/880) and 27% of Niethamer Alveolar_transitional (62/229); AT1 gate is specific where AT1 exist (Niethamer AT1 1677/1759) but 'mixed' covers 15% of Choi hAT2 and 52% of Niethamer AT2. Descriptive transfer; single pooled libraries (Choi) or 2 animals per day (Niethamer); no injury-cancer axis.",
   "phase1_completed_local_date": "2026-09-28",
   "package_folder": "Research Article/gate2_C2_england_2025 (renamed from gate2_12_england_2025 on 2026-09-28)",
   "preparation": {
@@ -30,16 +30,24 @@
     ]
   },
   "EN5_note": "transition-gated groups with >=30 cells on both Cd177 sides under the primary rule exist only in the 2-week mutant RFP libraries GSM7890835/GSM7890836; other libraries will be reported as unavailable for the primary contrast",
-  "next": "Phase 3: run EN2-EN5 (run_rna_continuation.py), then EN6, EN7, verification, figures, report",
+  "next": "owner review of PR; optional: corrected-implementation refit of the two-population model against deposited CCDFs (new contract required)",
   "phase2_completed_local_date": "2026-09-28",
   "EN1_state_reliability_notes": [
-    "Transition gate is cluster-concentrated: 88% (Exp1) and 96% (Exp2) of transition-gated cells fall in two clusters; the main transition cluster is 98% mutant RFP (Exp1 cluster 11) and 90% of mutant transition cells sit in it.",
-    "AT1 gate (>=2 of Ager/Hopx/Clic5) is not cluster-concentrated: 17-18% of cells in pure AT2 clusters pass it; top-2 clusters hold only 43% (Exp1) / 51% (Exp2) of AT1-gate cells. 'mixed' state largely reflects low-level Ager/Hopx detection in AT2 cells, not a mature AT1 population; no distinct AT1 cluster exists in these sorted libraries.",
+    "Transition gate is cluster-concentrated: 88% (Exp1) and 96% (Exp2) of transition-gated cells fall in two clusters. The main transition cluster is 98% mutant RFP in Exp1 (cluster 11) and holds 79% of Exp1 mutant transition cells; in Exp2 cluster 15 holds 90% of mutant transition cells.",
+    "AT1 gate (>=2 of Ager/Hopx/Clic5) is not cluster-concentrated. In Exp1 the largest AT2 clusters (0, 1, 9) have 17-18% AT1-gate cells; in Exp2 the AT2 clusters (7, 4, 0, 6, 11) have 29-43%. Top-2 clusters hold only 43% (Exp1) / 51% (Exp2) of AT1-gate cells. 'mixed' state largely reflects low-level Ager/Hopx detection in AT2 cells, not a mature AT1 population; no distinct AT1 cluster exists in these sorted libraries.",
     "Cd177-positive cells concentrate in one high-depth cluster per experiment (Exp1 cluster 12: 96% 2-week mutant RFP, 21% Cd177>=1, 51% AT1 gate, 25% cycling>=2; Exp2 cluster 11: 13% Cd177>=1, 43% AT1 gate, 21% cycling).",
     "Immune clusters retain 30-56% of cells under the primary rule (Exp1 clusters 6/7); strict rule removes more. Depth differs strongly across clusters (median UMIs 3.3k-13.8k); depth-thinned variants are essential for EN2-EN5."
   ],
-  "drafted_not_run": {
-    "scripts/run_rna_continuation.py": "EN2-EN5 endpoints, drafted from the contract, not executed",
-    "scripts/run_simulation_en6.py": "EN6 three-implementation simulator audit (CA1), drafted, not executed"
-  }
+  "phase3_completed_local_date": "2026-09-28",
+  "completed_local_date": "2026-09-28",
+  "report": "RESULTS_CONTINUATION.md",
+  "verification": {
+    "checks": 1178,
+    "passed": 1178,
+    "max_abs_discrepancy": 1.78e-15,
+    "record": "trials/continuation/verification.json"
+  },
+  "figures": "trials/continuation/figures/EN_C01-EN_C06 (visually reviewed)",
+  "no_running_jobs": true,
+  "no_claim_grades_changed": true
 }

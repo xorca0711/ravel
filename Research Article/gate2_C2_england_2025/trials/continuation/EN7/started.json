@@ -1,0 +1,28 @@
+{
+  "stage": "EN7 external transfer (Choi, Niethamer)",
+  "started_utc": "2026-09-28T03:54:26.402385+00:00",
+  "contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "script_sha256": "835889882f04fa7056555d5e03ea73bbf773d9f9f038077e3dd977e2ab4220c9",
+  "git_head": "8b6cbb19e97835d6ae39882029938023b55ddcc5",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "anndata": "0.13.2",
+    "h5py": "3.16.0"
+  },
+  "inputs": [
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE145031\\choi_trials\\tomato_annotated_d2b.h5ad",
+      "sha256": "87fca51716487c575731861c3b8b2725d8e13c9af08ccd3671ff6f3b155333b3"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\england_continuation_inputs\\alveolar_trajectory.h5ad",
+      "sha256": "6cee7997e65b0b5b9e03cc028ac1baf65da227e5244eb7db71417cce3a7af4e3"
+    }
+  ],
+  "normalization": "EN7_library_CPM_v1 (contract shared_contract_amendment)",
+  "interpretation": "descriptive transfer on already exposed datasets; not independent A11 validation; Cd177 RNA is not surface protein"
+}

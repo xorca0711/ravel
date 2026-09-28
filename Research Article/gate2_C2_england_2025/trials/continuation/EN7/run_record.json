@@ -1,0 +1,86 @@
+{
+  "stage": "EN7 external transfer (Choi, Niethamer)",
+  "started_utc": "2026-09-28T03:54:26.402385+00:00",
+  "contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "script_sha256": "835889882f04fa7056555d5e03ea73bbf773d9f9f038077e3dd977e2ab4220c9",
+  "git_head": "8b6cbb19e97835d6ae39882029938023b55ddcc5",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "anndata": "0.13.2",
+    "h5py": "3.16.0"
+  },
+  "inputs": [
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE145031\\choi_trials\\tomato_annotated_d2b.h5ad",
+      "sha256": "87fca51716487c575731861c3b8b2725d8e13c9af08ccd3671ff6f3b155333b3"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\england_continuation_inputs\\alveolar_trajectory.h5ad",
+      "sha256": "6cee7997e65b0b5b9e03cc028ac1baf65da227e5244eb7db71417cce3a7af4e3"
+    }
+  ],
+  "normalization": "EN7_library_CPM_v1 (contract shared_contract_amendment)",
+  "interpretation": "descriptive transfer on already exposed datasets; not independent A11 validation; Cd177 RNA is not surface protein",
+  "Choi": {
+    "cells": 11683,
+    "primary_include": 11674,
+    "thin_eligible": 11683,
+    "genes_mapped_of_needed": 629
+  },
+  "Niethamer": {
+    "cells": 5694,
+    "primary_include": 5693,
+    "thin_eligible": 5665,
+    "primary_units_day0_11_25": {
+      "0": [
+        "EEM-scRNA-158",
+        "EEM-scRNA-166"
+      ],
+      "11": [
+        "EEM-scRNA-116",
+        "EEM-scRNA-167"
+      ],
+      "25": [
+        "EEM-scRNA-118",
+        "EEM-scRNA-172"
+      ]
+    },
+    "coverage_only_units": 19,
+    "genes_mapped_of_needed": 640
+  },
+  "completed_utc": "2026-09-28T03:55:21.579693+00:00",
+  "outputs": [
+    {
+      "file": "EN7_author_state_crosstab.csv",
+      "sha256": "14724c6bf0adb72e2d31e6be88bbb0aa7513649f6fb2c27e5cefbf446d5bb4db"
+    },
+    {
+      "file": "EN7_cd177_contrasts.csv",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "file": "EN7_cd177_groups.csv",
+      "sha256": "d7d994cfc3734ab002c71f6bc37bdee275b802ad3dda11524582829479938950"
+    },
+    {
+      "file": "EN7_cd177_matched.csv",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "file": "EN7_composition.csv",
+      "sha256": "04d39371fc0d70b73866e225de5c72b1a168a797a030553d191da081229275d9"
+    },
+    {
+      "file": "EN7_contrasts.csv",
+      "sha256": "c3a9ce88656dad434df536687cfc82137b464d917fc742de22be47285a17ac39"
+    },
+    {
+      "file": "EN7_pseudobulk.csv",
+      "sha256": "331458643cb93e504fcaf7a8eb9dd5cc7814fd3277252177aa3cb9a04f0ef917"
+    }
+  ]
+}
