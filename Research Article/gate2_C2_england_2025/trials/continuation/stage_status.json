@@ -1,5 +1,5 @@
 {
-  "status": "phases_4_5_complete_verification_pending",
+  "status": "continuation_complete_EN0_EN7_executed_as_feasible",
   "contract_commit": "4d66231",
   "handoff": "docs/handoffs/2026-09-28-england-en7-cd177.md",
   "amendments": "config/continuation_amendments.json",
@@ -30,7 +30,7 @@
     ]
   },
   "EN5_note": "transition-gated groups with >=30 cells on both Cd177 sides under the primary rule exist only in the 2-week mutant RFP libraries GSM7890835/GSM7890836; other libraries will be reported as unavailable for the primary contrast",
-  "next": "Phase 6: verify_continuation.py, figures, RESULTS_CONTINUATION.md, handoff/root docs, PR update",
+  "next": "owner review of PR; optional: corrected-implementation refit of the two-population model against deposited CCDFs (new contract required)",
   "phase2_completed_local_date": "2026-09-28",
   "EN1_state_reliability_notes": [
     "Transition gate is cluster-concentrated: 88% (Exp1) and 96% (Exp2) of transition-gated cells fall in two clusters. The main transition cluster is 98% mutant RFP in Exp1 (cluster 11) and holds 79% of Exp1 mutant transition cells; in Exp2 cluster 15 holds 90% of mutant transition cells.",
@@ -38,9 +38,16 @@
     "Cd177-positive cells concentrate in one high-depth cluster per experiment (Exp1 cluster 12: 96% 2-week mutant RFP, 21% Cd177>=1, 51% AT1 gate, 25% cycling>=2; Exp2 cluster 11: 13% Cd177>=1, 43% AT1 gate, 21% cycling).",
     "Immune clusters retain 30-56% of cells under the primary rule (Exp1 clusters 6/7); strict rule removes more. Depth differs strongly across clusters (median UMIs 3.3k-13.8k); depth-thinned variants are essential for EN2-EN5."
   ],
-  "drafted_not_run": {
-    "scripts/run_rna_continuation.py": "EN2-EN5 endpoints, drafted from the contract, not executed",
-    "scripts/run_simulation_en6.py": "EN6 three-implementation simulator audit (CA1), drafted, not executed"
+  "phase3_completed_local_date": "2026-09-28",
+  "completed_local_date": "2026-09-28",
+  "report": "RESULTS_CONTINUATION.md",
+  "verification": {
+    "checks": 1178,
+    "passed": 1178,
+    "max_abs_discrepancy": 1.78e-15,
+    "record": "trials/continuation/verification.json"
   },
-  "phase3_completed_local_date": "2026-09-28"
+  "figures": "trials/continuation/figures/EN_C01-EN_C06 (visually reviewed)",
+  "no_running_jobs": true,
+  "no_claim_grades_changed": true
 }

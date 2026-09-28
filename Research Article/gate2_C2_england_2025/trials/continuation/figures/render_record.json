@@ -1,0 +1,20 @@
+{
+  "rendered_utc": "2026-09-28T04:09:18.243264+00:00",
+  "palette_sha256": "004f44afff8ccc524c75ecc081eb25604ddf8aa8e3cd22dbac226e93f40ac36c",
+  "figures": {
+    "EN_C01_state_occupancy.png": "d64d8796bdc7286b4dd292a53b8ef65590198cb167f63a82ad2f3c4a163eef86",
+    "EN_C02_cluster_gate_crosstab.png": "bac0f0f42e28894814b9f6c6e8f5322e6fb0cc1d3af9822ff5cd3450c1473812",
+    "EN_C03_cd177_transition.png": "7517b3003ad51b58b2f53a73c5bc55d4fddbea38e8baff8e00a89aad46d19b9c",
+    "EN_C04_genotype_contrasts.png": "5f7a4debbe1d36030c489e252c8e5a03c722aabfea6436f40e5e56ee6318285f",
+    "EN_C05_simulator_implementations.png": "d69bcf2bf85f96b2c3c601db47353205639c8ffd3187b1276ff6d3cfbe18a9bf",
+    "EN_C06_repair_transfer.png": "c9674d6034944cd89699f37713522ca52addef034121e5095ed4d0128cad151a"
+  },
+  "inputs": {
+    "trials/continuation/EN2_5/EN2_composition.csv": "906d9be360454cdd85b5ab6216ed1643f51a43a5e3c7ef3b8eb92b4eeb25ec23",
+    "trials/continuation/EN1/cluster_gate_crosstab.csv": "b82be430af1c6a20bc77e734e0016a3e9306d06395746745d6dcc423a3d2bb78",
+    "trials/continuation/EN2_5/EN5_cd177_contrasts.csv": "0e6cabd58939d978f70d6c7f65acbe2517d67ddb7de64768fb2778a651d811e2",
+    "trials/continuation/EN2_5/EN2_composition_contrasts.csv": "92302a9eaff01aec07da31b16d0f7cabe9307baf3657abc1032b7632fb09fb33",
+    "trials/continuation/EN6/simulation_ccdf.csv": "df1c22644e21e0bcebf6c3c6d58be2000c2df60a6ca637944d8b89d97c1d5c9d",
+    "trials/continuation/EN7/EN7_pseudobulk.csv": "331458643cb93e504fcaf7a8eb9dd5cc7814fd3277252177aa3cb9a04f0ef917"
+  }
+}
