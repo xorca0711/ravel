@@ -1,0 +1,73 @@
+{
+  "stage": "EN6 simulator audit",
+  "started_utc": "2026-09-28T03:55:24.437439+00:00",
+  "contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "amendments_sha256": "5596a674795bfa7ffdd94146e2ff843dc245c8d97bedbdbcbabacde935e237cf",
+  "script_sha256": "ef2622cf02b69122f205d1c285b0abec53de18f9e6792205b99feac82a4c3bc3",
+  "git_head": "8b6cbb19e97835d6ae39882029938023b55ddcc5",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "numba": "0.66.0"
+  },
+  "archive": {
+    "path": "X:\\GitHub\\scRNA_seq\\raw_data\\england_continuation_inputs\\zenodo_v1.1.zip",
+    "sha256": "404697263ca941b1b74dee9feb4c4680ff3077d9e20bb7105482d17f14e96a70",
+    "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/sim_two_pop_model.m",
+    "git_blob_sha1": "9cf4e967cd19f17b968ff175d129529ac5f40312"
+  },
+  "rules": {
+    "source_archive_sha256": "404697263ca941b1b74dee9feb4c4680ff3077d9e20bb7105482d17f14e96a70",
+    "replicates": 100,
+    "clones_per_replicate": 1000,
+    "seeds": [
+      20260928,
+      20260929
+    ],
+    "parameters": "literal sim_two_pop_model.m, no fitting",
+    "implementations": [
+      "source-literal event overshoot and rate-switch behavior",
+      "boundary-correct Gillespie"
+    ],
+    "support": "n>=2; CCDF P(N>n)",
+    "audit": "Validate boundary-correct distributions against analytic one-lineage birth-death transition law; compare source literal vs corrected, independent Monte Carlo seeds; full MATLAB runtime/bitwise reproduction not claimed",
+    "identifiability": "LOMO parameter spread from batch1 and likelihood near-optima; no RNA-state/founder assignment"
+  },
+  "rng": "numba np.random (Mersenne Twister) seeded per replicate as seed*1000+replicate; not MATLAB rand, so no bitwise reproduction is claimed",
+  "inputs": [
+    {
+      "path": "trials/batch1/clones/model_LOMO_by_mouse.csv",
+      "sha256": "f35429dc0465fd8ba673c190bc5802cb93877fcf8a54027037ee0adfa3d4a13c"
+    }
+  ],
+  "completed_utc": "2026-09-28T03:56:42.992330+00:00",
+  "outputs": [
+    {
+      "file": "analytic_birth_death_check.csv",
+      "sha256": "06b9227d8de1f207af74262aa0cfe2fd8d168f45c1a2abd8493613dda9517398"
+    },
+    {
+      "file": "implementation_differences.csv",
+      "sha256": "7573a3bf465a43068c5833e62eddc436d9b652ab8793ddabd6d8faac4e7ece03"
+    },
+    {
+      "file": "lomo_parameter_spread.csv",
+      "sha256": "c239a28471dc0d1a31703f347963f02f45ed773cf1d4fd5195a691a3c2d88f28"
+    },
+    {
+      "file": "simulation_ccdf.csv",
+      "sha256": "df1c22644e21e0bcebf6c3c6d58be2000c2df60a6ca637944d8b89d97c1d5c9d"
+    },
+    {
+      "file": "simulation_summary.csv",
+      "sha256": "1c181ad613d1188db84151f305f3378ba991fbf98e2cc7c6aa10067daf84f6f8"
+    }
+  ],
+  "limits": [
+    "size cap 20,000 cells per clone bounds runtime; clones hitting the cap are counted per condition",
+    "MATLAB RNG not reproduced; Monte Carlo seeds independent",
+    "no fit to data; merger/segmentation of imaged clones not modelled"
+  ]
+}
