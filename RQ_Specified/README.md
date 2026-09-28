@@ -1,50 +1,75 @@
 # Research question analyses
 
-**Latest gap-fill execution, 28 September 2026:** [results and every-question ledger](../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
-link the versioned A15 correction, A5/A12 metadata recovery, corrected A16 comparison
-and A17 source accounting. Historical outputs and biological grades are preserved;
-failed candidate gates are not external validation.
+This directory contains execution workspaces for the biological questions in
+[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md). **A0–A18 are stable question
+identifiers**, not a reading sequence, evidence grade or record of acceptance.
+A12-S1 is an enabling source-identity question. The register owns each hypothesis
+and its status; this index explains the workspace labels.
 
-**England review, 28 September 2026:** current [A16–A18 cards](../RESEARCH_QUESTIONS.md#a16)
-incorporate the source audit. [Eight paper-local candidates](../Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
-are proposals, with supporting checks linked from each card. They create no
-new execution workspaces; future tests should extend the relevant A question.
-The later A16 Stage 0/1 branch is now imported with a [dated interpretation review](A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md).
+Each question README opens with its organizing biological question, motivation,
+analytical scope and key reading links. The plans, evidence and analysis sequence
+then follow the needs of that question. Source-paper analyses remain in
+`Research Article/`; a question can draw on several papers and assays.
 
-**27 September pilot results:** [A12 recipient-context pilot](A12_recipient_context/README.md) and the [A13 follow-through](../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md) are executed exploratory comparisons; the [candidate audit](../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md) corrects earlier title-only eligibility statements.
+## Question workspaces
 
-**Roadmap execution:** [P0–P5 reports](../docs/roadmap_runs/2026-09-27/README.md) now record completed design recovery, failed replication gates and source-attribution calculations. The current screen interpretation uses P1's recovered split-well hierarchy and supplemented EGF.
-
-The [shared architecture](../docs/RESEARCH_ARCHITECTURE.md) and
-[A0–A15 rationale audit](../docs/audits/2026-09-27-rq-rationale/REPORT.md)
-distinguish completed measurements from open biological questions. A2 and A15
-have dated interpretation corrections; read those before historical verdicts.
-The [research roadmap](../docs/RESEARCH_ROADMAP.md) groups the questions into six work packages; dated execution records distinguish performed analyses from experimental/data requirements.
-
-The canonical questions remain in [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md).
-This directory holds question-specific plans, executable workflows, metadata,
-tables and galleries. The [figure gallery index](FIGURES.md) lists every tracked
-figure and the document that captions it, and names the six questions that
-produced none. Source-paper analyses belong in `Research Article/`.
-
-| Question | Analysis | Status |
+| ID | Organizing biological question | What the workspace tests |
 |---|---|---|
-| A0 | [Conserved epithelial transition programme](A0_conserved_epithelial_transition_program/README.md) | Pilot complete: 50-gene lung discovery passes, intestinal mature-endpoint transfer fails; P4 pruned; universal/fate claims unresolved |
-| A1 | [Transitional epithelial state distinction](A1_transitional_epithelial_state_distinction/README.md) | Regulatory/outcome continuation complete, including mouse identities and regional HOPX responses; matched replicated regulation-to-fate linkage remains open |
-| A2 | [AREG source delivery](A2_areg_source_delivery/README.md) | Both legs complete: no Areg decrement established; Itgb6-associated median -0.938 log2 CPM in three readable split wells; depth-standardized donor correlation remains inconclusive; delivery versus abundance untested |
-| A5 | [Developmental programme reuse](A5_developmental_programme_reuse/README.md) | External signature enrichment positive in 24 primary mice and after identity/control exclusions; partial recruitment, with lineage/function untested |
-| A10 | [Organoid growth outcome](A10_organoid_growth_outcome/README.md) | Follow-up complete: growth scores add beyond E2F/G2M and lower error on all four plate holdouts, but absolute R-squared remains negative on 3/4 plates; target mix and plate are entangled; preparations unresolved; descriptive only |
-| A11 | [Lesion programme beyond shared plasticity](A11_lesion_programme_addition/README.md), with a second [acute-injury assay](A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md) | Lesion association replicates in 8 patients; beyond-shared criterion unresolved (BH q=0.0547); cancer specificity unestablished |
-| A12 | [Recipient context](A12_recipient_context/README.md) | Exploratory pilot complete: epithelial held-out improvement, fibroblast increment unstable; independent validation and selective activation remain open |
-| A13 | [Fibroblast programmes beyond macrophage IL1B](A13_fibroblast_beyond_macrophage_il1b/README.md) | Explicitly amended 12-patient pilot complete: no aggregate predictive gain; historical cohort gates remain failed; two external candidates resolved |
-| A15 | [Epithelial integrin TGF-beta activation](A15_epithelial_integrin_tgfb_activation/README.md) | Proposed, pending the owner's retain or reject; the question still has no result of its own and no claim row is added. The authorized rival-2 side-branch has run in GSE190821: a whole-lung programme changes while epithelial-panel estimates have wide intervals in 4 mice against 4; epithelial-state mediation remains unresolved. The dated addendum qualifies the historical weak-bound label. Two freezes were withdrawn on adversarial review before anything was scored |
-| A5 and A11 | [Shared epithelial component contract](A5_A11_shared_component_contract/README.md) | Contract and revised tests complete; original partition preserved; A5 uses additional independent Guo modules because the original Strunz-filtered variants are descriptive |
-| A16 | [CD177 state attribution](A16_cd177_state_attribution/README.md) | Stage 1 preserved; corrected C1 now executed on fixed per-library populations with gene exclusion. Priming attenuates but residual imbalance remains; specificity, contamination and functional attribution unresolved |
+| A0 | [Is a conserved programme reused across epithelial transitions, and could it modulate fate?](A0_conserved_epithelial_transition_program/README.md) | Lung discovery and intestinal transfer of an intermediate-enriched programme; the RNA test precedes any causal fate claim |
+| A1 | [Do regulatory programmes distinguish RNA-similar transitional states and their functional responses?](A1_transitional_epithelial_state_distinction/README.md) | Regulatory, lineage and outcome evidence for source-defined epithelial states |
+| A2 | [Does the fibroblast response to AREG depend on delivery or on abundance?](A2_areg_source_delivery/README.md) | Source perturbations and recipient associations; spatial delivery itself remains unmeasured |
+| A5 | [Does adult alveolar repair reuse part of a developmental epithelial programme?](A5_developmental_programme_reuse/README.md) | External developmental-signature recruitment in adult repair and independent-cohort eligibility |
+| A10 | [Do epithelial programmes add information about measured organoid growth?](A10_organoid_growth_outcome/README.md) | RNA–imaging relationships, added information and plate/design sensitivity |
+| A11 | [Which lesion-associated programmes add to a shared epithelial plasticity component?](A11_lesion_programme_addition/README.md) | Paired human lesion comparisons and a separate acute-injury specificity challenge |
+| A12 | [Does recipient receptor and inhibitor context explain responses beyond IL-1 ligand RNA?](A12_recipient_context/README.md) | Recipient-context prediction in fixed states and independent-cohort eligibility |
+| A13 | [Do fibroblast programmes add information about epithelial plasticity beyond macrophage IL1B?](A13_fibroblast_beyond_macrophage_il1b/README.md) | Complete-triad coverage and a linked amended predictive pilot |
+| A15 | [Does the epithelial input to fibroblast activation run through the integrin or through the ligand?](A15_epithelial_integrin_tgfb_activation/README.md) | Proposed integrin/TGF-beta mechanism and a bounded epithelial-state rival; parent test remains blocked |
+| A16 | [Does CD177 identify a priming phenotype within comparable mutant cells?](A16_cd177_state_attribution/README.md) | Attribution of an RNA association within comparable mutant transitional populations |
 
-Question numbers are stable identifiers, not evidence grades. A plan or a
-source paper's published finding is not a result of this repository.
+## Shared enabling work
 
-An entry owned by two questions is enabling work, not a new question, and takes
-no new register identifier. It supplies a shared input so that each owning
-question keeps its own biological units, multiplicity family and decision. The
-existing enabling source-identity question A12-S1 has the same status.
+The [A5/A11 shared component contract](A5_A11_shared_component_contract/README.md)
+defines source-list overlap, exclusions and measurement contracts for two
+separate questions. It has no new question identifier and does not merge their
+biological units or decisions.
+
+[A12-S1](../RESEARCH_QUESTIONS.md#a12-s1) asks which cells account for IL1B RNA
+currently attributed to unassigned cells, and how their identity changes source
+attribution. It enables interpretation of A12 and related niche analyses; it has
+no separate workspace here.
+
+## Registered questions without a dedicated folder here
+
+These labels remain in the canonical register. Their cards link existing source
+analyses, proposals and missing inputs; absence of a directory does not imply
+that the question was rejected or that no related analysis exists.
+
+| ID | Organizing biological question |
+|---|---|
+| A3 | [Does prior injury leave a macrophage programme that differs from normal aging?](../RESEARCH_QUESTIONS.md#a3) |
+| A4 | [Can Wnt-supported maintenance precede an IL-1-responsive transition in the same AT2 lineage?](../RESEARCH_QUESTIONS.md#a4) |
+| A6 | [Does IPF alter shared macrophage states beyond changing their abundance?](../RESEARCH_QUESTIONS.md#a6) |
+| A7 | [Does Cebpa loss attenuate AT2 identity across states or preferentially within a transitional state?](../RESEARCH_QUESTIONS.md#a7) |
+| A8 | [Does a maturation-specific programme add information about mature AT1 contribution beyond shared transition?](../RESEARCH_QUESTIONS.md#a8) |
+| A9 | [Does fibroblast receptor context determine the response to AREG?](../RESEARCH_QUESTIONS.md#a9) |
+| A14 | [Do exposure duration and fibroblast IL-1 reception separately determine recovery after withdrawal?](../RESEARCH_QUESTIONS.md#a14) |
+| A17 | [Do persistent founder differences help explain unequal mutant clone growth?](../RESEARCH_QUESTIONS.md#a17) |
+| A18 | [Are WT expansion and loss of AT2 identity regulated differently near mutant clones?](../RESEARCH_QUESTIONS.md#a18) |
+
+## Evidence and execution state
+
+The [latest gap-fill ledger, 28 September 2026](../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+records completed corrections, cohort gates and remaining inputs for every
+question. Workspace READMEs link their current reports before the preserved
+analysis history. In particular, completed A5/A12 eligibility audits did not
+produce an independent validation score; corrected A16 matching remains
+inconclusive, and A17 source accounting is separate from its unrun full refit.
+A15–A18 remain proposed pending the owner's retain/reject decision.
+
+Use the [figure index](FIGURES.md) for tracked figures and their captions,
+[dataset inventory](../docs/DATASETS.md) for input roles and biological units,
+[research architecture](../docs/RESEARCH_ARCHITECTURE.md) for interpretation rules,
+and [execution roadmap](../docs/RESEARCH_ROADMAP.md) for planned work.
+The [England candidate extensions](../Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
+are paper-local proposals connected to the relevant A questions; they introduce
+no additional A-numbered workspaces.

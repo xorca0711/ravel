@@ -1,5 +1,27 @@
 # A16: does CD177 identify a priming phenotype within comparable mutant cells?
 
+<a id="biological-question"></a>
+
+## Organizing biological question
+
+> Does CD177 identify a priming phenotype within comparable mutant cells?
+
+The proposed hypothesis is that CD177 identifies a priming-associated RNA
+phenotype within the same transitional mutant epithelial compartment, beyond
+differences in the mixture of states. A stable intrinsic programme and a
+neighbourhood-associated phenotype could coexist.
+
+This folder tests attribution using population restrictions, depth and
+contamination sensitivities, and local matching within libraries. Those checks
+address alternative explanations for an RNA association; persistence,
+CD177-specific function and growth potential need independent outcomes.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a16),
+[plan](PLAN.md), [integration review](reports/INTEGRATION_REVIEW.md),
+[corrected C1 result](correction_20260928/reports/CORRECTED_C1_REPORT.md).
+
+## Evidence and analysis history
+
 **Current status, 28 September 2026: proposed; partly measured and inconclusive.**
 The [shared question card](../../RESEARCH_QUESTIONS.md#a16) owns the hypothesis.
 Read the [integration review](reports/INTEGRATION_REVIEW.md) before the original
@@ -11,13 +33,6 @@ now preserves the original population per library and excludes tested genes
 before neighbourhood construction. Priming differences attenuate but remain
 positive; substantial residual imbalance and other biological limits remain.
 This completes the bounded computational correction, with original Stage 1 intact.
-
-## Biological question
-
-Within comparable transitional mutant cells, CD177 may identify a
-priming-associated phenotype beyond the local mixture of epithelial states.
-Neighbourhood association and a stable intrinsic programme can coexist. RNA
-alone cannot establish persistence or functional growth potential.
 
 ## What has run
 

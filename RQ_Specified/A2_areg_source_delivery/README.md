@@ -1,5 +1,24 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
+## Organizing biological question
+
+> Does the fibroblast response to AREG depend on delivery or on abundance?
+
+The working hypothesis is that amphiregulin (AREG) acts according to where it is
+released and the recipient's capacity to respond. Ranking compartments by AREG
+RNA is therefore only one part of the biological question about fibroblast activation.
+
+This folder examines epithelial perturbations in a mixed-species organoid screen
+and donor-level source/recipient associations in fibrosis. These analyses provide
+leads about source contribution and recipient context; the available measurements
+do not directly distinguish spatial delivery from ligand abundance.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a2),
+[biological rationale](RATIONALE.md), [plan](PLAN.md),
+[current interpretation](reports/INTERPRETATION_AUDIT_2026-09-27.md).
+
+## Evidence and analysis history
+
 **New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
 
 **Current interpretation, 27 September 2026:** both descriptive legs and the

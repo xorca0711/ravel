@@ -1619,3 +1619,17 @@ Rejected or substantially revised assistant output:
 The [synchronization audit](docs/audits/2026-09-28-documentation-sync/REPORT.md)
 records the documentation scope and preservation checks. No paper is marked
 read, biological hypothesis accepted or claim grade changed by this revision.
+
+## 28 September 2026: put the biological question first in RQ workspaces
+
+The owner requested that every question-folder README explain its A label and
+organizing biological question at first glance while retaining its distinct
+analysis flow. Codex added question, motivation, scope and evidence-navigation
+openings to all 10 question workspaces and the shared A5/A11 contract. The parent
+index now maps every registered label without creating empty execution folders.
+
+Status-first introductions were revised because completed/remaining tasks did
+not explain the biological purpose. A5/A12 links now include the latest recovery
+reports, and A13's original no-fit statement is explicitly historical alongside
+the later amended pilot. These are owner-authorized documentation changes;
+scientific results, hypothesis wording and acceptance decisions are preserved.

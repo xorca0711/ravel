@@ -1,5 +1,24 @@
 # A10: epithelial and niche programmes against measured organoid growth
 
+## Organizing biological question
+
+> Do epithelial programmes add information about measured organoid growth?
+
+The working hypothesis is that epithelial responses to perturbation contain
+information about a measured growth outcome beyond baseline imaging and plate
+effects. Fibroblast programmes may provide an additional contribution.
+
+This folder links species-separated epithelial/fibroblast RNA to well-level
+organoid imaging, then tests added information, proliferation controls and
+transfer across plates. Its endpoint is organoid growth; mature epithelial
+function and successful tissue repair require their own measurements.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a10),
+[biological rationale](RATIONALE.md), [plan](PLAN.md),
+[follow-up results](reports/FOLLOWUP_RESULTS.md).
+
+## Evidence and analysis history
+
 **New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
 
 Question-specific work for [A10](../../RESEARCH_QUESTIONS.md#a10). The canonical

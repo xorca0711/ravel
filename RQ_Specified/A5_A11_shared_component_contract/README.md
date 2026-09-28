@@ -1,5 +1,27 @@
 # Shared epithelial component contract (A5 and A11)
 
+## Organizing biological questions
+
+This shared workspace supports two questions:
+
+- **A5:** Does adult alveolar repair reuse part of a developmental epithelial programme?
+- **A11:** Which lesion-associated programmes add to a shared epithelial plasticity component?
+
+Both questions need an explicit account of what the selected developmental,
+injury and lesion-associated gene lists share. Otherwise, overlapping genes can
+make a context-associated score appear to identify a distinct biological process.
+
+This folder defines the source-list partition, exclusions and measurement
+contracts used by the two analyses. It is enabling work with two owning questions,
+not a new A-number or a single combined biological test. Each question keeps its
+own units, comparison and decision.
+
+**Read first:** [A5 card](../../RESEARCH_QUESTIONS.md#a5),
+[A11 card](../../RESEARCH_QUESTIONS.md#a11), [biological logic](BIOLOGICAL_LOGIC.md),
+[plan](PLAN.md), [revised results](reports/REVISED_TEST_RESULTS.md).
+
+## Evidence and analysis history
+
 **Status: contract and revised A5/A11 tests complete; PR #77 merged.** The owner
 retained the original partition on 25 September 2026 (DEVELOPMENT decision 37).
 It remains a provenance reference. The revised A5 primary instead uses additional

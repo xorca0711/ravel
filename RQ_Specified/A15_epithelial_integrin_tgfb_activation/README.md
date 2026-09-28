@@ -1,4 +1,26 @@
 # A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand
+
+## Organizing biological question
+
+> Does the epithelial input to fibroblast activation run through the integrin or through the ligand?
+
+The proposed hypothesis is that epithelial integrin alphaVbeta6 contributes to
+fibroblast activation by activating latent TGF-beta in the shared matrix. The
+question is whether this route explains the epithelial contribution relative to
+epithelial supply of an EGFR ligand, such as AREG.
+
+This folder specifies that mechanistic distinction and tests a bounded rival:
+whether an epithelial-state change could explain the associated fibroblast
+programme. The parent question remains proposed and blocked. The completed
+side-branch and its normalization correction do not constitute a test of the
+parent mechanism; A2 owns the source observation that motivated it.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a15),
+[plan](PLAN.md), [current interpretation](reports/INTERPRETATION_AUDIT_2026-09-27.md),
+[normalization correction](reports/NORMALIZATION_ERRATUM_2026-09-28.md).
+
+## Evidence and analysis history
+
 **Normalization correction, 28 September 2026:** the original alternative-normalization
 sensitivity divided out depth twice and is withdrawn. The [versioned correction and
 erratum](reports/NORMALIZATION_ERRATUM_2026-09-28.md), specified and committed before

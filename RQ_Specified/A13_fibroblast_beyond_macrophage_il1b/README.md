@@ -1,5 +1,26 @@
 # A13: fibroblast programmes beyond macrophage interleukin-1 beta
 
+## Organizing biological question
+
+> Do fibroblast programmes add information about epithelial plasticity beyond macrophage IL1B?
+
+The working hypothesis is that fibroblast inflammatory, matrix and trophic
+programmes contribute information about the epithelial response beyond that
+contained in macrophage IL1B RNA. Shared inflammation and cell composition are
+competing explanations for an apparent association.
+
+This folder establishes whether matched macrophage–fibroblast–epithelial
+measurements support a joint test, and links to the later amended pilot that
+tests added predictive information. A12 asks about recipient signalling context;
+A13 asks about the fibroblast programme's additional information for an epithelial
+endpoint. Neither comparison alone establishes mediation or reciprocal feedback.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a13),
+[original coverage report](reports/COVERAGE_RESULTS.md),
+[amended pilot and coverage decisions](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md).
+
+## Evidence and analysis history
+
 **Latest follow-through:** [A13 results and candidate decisions](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md). Historical specifications and numerical results below are preserved; read the dated follow-through for the current execution state.
 
 **Scope clarification, 27 September 2026:** the [rationale audit](../../docs/audits/2026-09-27-rq-rationale/REPORT.md)
@@ -8,10 +29,14 @@ fibroblast bottleneck applies to the inspected cohorts; it does not prove that
 a larger or differently sampled cohort cannot supply complete triads. Comparable
 states, protocol, depth and actual per-patient counts govern a new eligibility audit.
 
-**Status, 27 September 2026: coverage counted, the gate is not met, nothing fitted.** The
-register card for [A13](../../RESEARCH_QUESTIONS.md#a13) says coverage is next and not
-mediation fitting. This folder is that coverage and nothing more. No model was fitted, no
-association was estimated, and no claim row was added.
+**Current scope:** the later amended 12-patient pilot is complete and shows no
+aggregate held-out predictive gain. Its specification and outputs live in the
+linked follow-through package. The coverage artifacts stored here retain their
+earlier failed gates; they were not used to fit that later model.
+
+**Historical coverage result, 27 September 2026: gate not met; no fit on these
+inputs.** The original coverage step produced no association estimate or claim
+row. The sections below describe that step and its preserved decisions.
 
 Read the [coverage results](reports/COVERAGE_RESULTS.md). The frozen decisions are in
 [`config/a13_triad_coverage_spec.json`](config/a13_triad_coverage_spec.json), committed before

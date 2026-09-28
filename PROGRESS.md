@@ -2,6 +2,21 @@
 
 **Update this before stopping work, every session.**
 
+## Current RQ workspace orientation, 28 September 2026
+
+Based on merged documentation PR #108 (`f893294`), branch
+`codex/rq-readme-orientation` adds the organizing biological question,
+motivation, analytical scope and reading links before execution history in all
+10 question READMEs and the shared A5/A11 README. The
+[directory index](RQ_Specified/README.md) explains every A0–A18 label and A12-S1,
+including questions without a dedicated folder. Each workspace retains its own
+analysis structure. A5/A12 now link the latest recovery gates; A13 distinguishes
+the original no-fit coverage audit from the later amended pilot. Scientific
+artifacts, hypotheses, claim grades and reading decisions are unchanged.
+Validation passed 3,809 repository checks. All 11 openings were checked, and
+the index's 19 question texts match the canonical headings verbatim; A12-S1 is
+linked separately. Only READMEs and handoff/decision documentation changed.
+
 ## Current documentation synchronization, 28 September 2026
 
 Gap-fill PR [#107](https://github.com/xorca0711/scRNA_seq/pull/107) merged at
