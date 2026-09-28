@@ -114,6 +114,20 @@ over homeostatic tissue at every distance while its slope is inconsistent in sig
 contexts, so the deposit is consistent with proximity independence without being strong evidence for
 it; an absent slope in a noisy readout is not a demonstration of independence.
 
+**Is the decoupling a scale artefact?** It is the first objection to raise, because an unbounded count
+was being compared against a fraction bounded at 1 on a percent-of-distal-level scale, and a bounded
+readout yields shallower relative slopes for purely arithmetic reasons. Repeating both slopes on
+multiplicative scales with no ceiling — a log link for neighbour size, a logit link for the
+pro-Sftpc-negative fraction — the decoupling survives and becomes easier to read. Mean absolute slope
+per 100 um in oncogenic tissue is 0.435 on log size against 0.062 in homeostatic tissue, a sevenfold
+separation; for the logit fraction it is 0.185 oncogenic against 0.155 homeostatic, and the four
+oncogenic values are inconsistent in sign (−0.51, +0.16, −0.04, +0.04). So the size gradient is
+specific to oncogenic tissue on a scale where the ceiling cannot produce it, while the differentiation
+readout's distance dependence is not distinguishable from homeostatic background. kras1w is the single
+exception, carrying both gradients (−0.754 log size, −0.507 logit fraction). This addresses the scale
+objection only: clone merger, the bin-occupancy collapse and the absence of an animal unit are
+untouched by it, and they remain the reasons A18 is filed as inferentially blocked.
+
 **What this does not establish.** Pooled rows carry no mouse or clone identifiers and one neighbour
 clone may contribute to several rows, so there is no mouse-level effect, no significance and no
 causal reading. Pair rows collapse with distance (kras1w: 4,953 at 25 um to 13 at 225 um), which the

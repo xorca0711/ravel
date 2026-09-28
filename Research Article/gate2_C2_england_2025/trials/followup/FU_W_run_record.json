@@ -1,13 +1,13 @@
 {
-  "completed_utc": "2026-09-28T05:52:45.938689+00:00",
+  "completed_utc": "2026-09-28T06:09:32.539384+00:00",
   "input": {
     "path": "trials/batch1/clones/spatial_pooled_bin_profiles.csv",
     "sha256": "e3c4ca02d2ee5a8063cdfd39bc7a1c66dce7efcc788cf80a5bad4b8a35b1b5d6"
   },
-  "script_sha256": "aa69744cd66a67515760e567913b4fb92d8571fa0995a97d43b7c8f0d3614d97",
+  "script_sha256": "ab7c286eca6bd8aa36b744122e8bc5f73ce7f110cda9dff39b75910cc7fee987",
   "exposure_disclosure": "The slope computation below was run as scoping BEFORE this block was frozen, on 28 September 2026, and its direction was seen. It is therefore an openly exploratory extension, not a preregistered test. No threshold or decision rule was tuned after seeing it; the rule below fixes the reporting, not the outcome.",
   "outputs": {
-    "FU_W_distance_slopes.csv": "94b6b7f7dde3e7910b67ab478ea7e1eabe8ebc3539f3abdb8f2acd66929dfac7",
+    "FU_W_distance_slopes.csv": "9d2e407e4c33a6f36cc86c03a42cc98a3cb2d7eb553a8161d506aebff4547bab",
     "FU_F05_growth_differentiation.png": "ce2a8e5568a6c3c784738bd44714448f2eefd7789c1fbba317571ff820844016"
   }
 }

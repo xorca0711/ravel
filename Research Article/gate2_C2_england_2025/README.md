@@ -154,7 +154,8 @@ the within-subcluster conditioning in FU_F03 were designed to resolve.
 The deposited MATLAB model run literally against the same model with its S-loss branch corrected,
 both validated against the analytic birth–death law. The two agree exactly for Confetti and for
 Red2Kras YFP (KS 0.000) and diverge for Red2Kras RFP at q = 0.7 (KS 0.104–0.281; size ≥ 2 fraction
-0.91–0.96 literal against 0.50–0.59 corrected). Which implementation produced the published curves
+0.91–0.96 literal against 0.57–0.59 for the fixed branch and 0.50–0.55 for the boundary-correct
+Gillespie reference). Which implementation produced the published curves
 is not established.
 [Simulated CCDFs](trials/continuation/EN6/simulation_ccdf.csv) ·
 [analytic check](trials/continuation/EN6/analytic_birth_death_check.csv) ·

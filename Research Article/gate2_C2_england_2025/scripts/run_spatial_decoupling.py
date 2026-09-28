@@ -39,6 +39,13 @@ for ds, g in sp.groupby('dataset'):
     w = g.pair_rows.to_numpy(float); x = g.mid.to_numpy(float)
     sz = g.mean_neighbor_size.to_numpy(float); sn = g.mean_neighbor_spc_negative_fraction.to_numpy(float)
     b_sz = np.average(sz[-2:], weights=w[-2:]); b_sn = np.average(sn[-2:], weights=w[-2:])
+    # Scale-fair comparison: an unbounded count against a bounded fraction is not comparable on a
+    # percent-of-distal-level scale, because a bounded readout mechanically yields shallower relative
+    # slopes. A log link for the count and a logit link for the fraction put both on multiplicative
+    # scales with no ceiling.
+    frc = np.clip(sn, 1e-3, 1 - 1e-3)
+    links = {'log_size_slope_per_100um': wslope(x, np.log(sz), w) * 100,
+             'logit_spcneg_slope_per_100um': wslope(x, np.log(frc / (1 - frc)), w) * 100}
     dense = g.pair_rows.to_numpy(float) >= 100
     dslopes = {}
     for nm, y in (('size', sz), ('spcneg', sn)):
@@ -49,7 +56,7 @@ for ds, g in sp.groupby('dataset'):
             dslopes[f'{nm}_relative_slope_dense_bins'] = np.nan
     rows.append({'dataset': ds, 'context': 'oncogenic Red2Kras' if ds.startswith('kras') else 'homeostatic Confetti', 'status': 'estimated',
                  'eligible_bins': len(g), 'pair_rows': int(w.sum()), 'nearest_bin_um': float(x[0]), 'farthest_bin_um': float(x[-1]),
-                 'min_bin_pair_rows': int(w.min()), 'distal_anchor_pair_rows': int(w[-2:].sum()), 'dense_bins_ge100_rows': int(dense.sum()), **dslopes,
+                 'min_bin_pair_rows': int(w.min()), 'distal_anchor_pair_rows': int(w[-2:].sum()), 'dense_bins_ge100_rows': int(dense.sum()), **dslopes, **links,
                  'size_near': float(sz[0]), 'size_far': float(sz[-1]), 'size_slope_per_100um': wslope(x, sz, w) * 100,
                  'size_relative_slope_pct_per_100um': wslope(x, sz, w) * 100 / b_sz * 100 if b_sz else np.nan,
                  'spcneg_near': float(sn[0]), 'spcneg_far': float(sn[-1]), 'spcneg_slope_per_100um': wslope(x, sn, w) * 100,
