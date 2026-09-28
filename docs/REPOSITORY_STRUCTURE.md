@@ -1,6 +1,6 @@
 # Repository structure and label scope
 
-Updated 28 September 2026 (England candidates and A16–A18 proposals). This contract follows the existing shared-analysis
+Updated 28 September 2026 (project navigation, dataset inventory and current execution links). This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
 protocols, original trial names and immutable run records remain historical evidence.
 
@@ -15,7 +15,9 @@ protocols, original trial names and immutable run records remain historical evid
 | Paper notes, contracts, inference and galleries | `Research Article/<paper>/` | Preserve the paper-specific source evidence, scripts, tables and figure gallery |
 | Cross-study specificity analysis | `Research Article/epithelial_state_specificity/` | Existing substantive analysis module, referenced by the global questions |
 | Corrective scientific analyses | `analysis/corrections/` | Keep original results and corrections distinguishable |
-| Current scientific findings and evidence ledger | [FINDINGS.md](../FINDINGS.md), [CLAIMS.md](../CLAIMS.md), [NEGATIVE_RESULTS.md](../NEGATIVE_RESULTS.md) | Claims change only with supporting evidence; a layout migration does not promote them |
+| Graded evidence and negative results | [CLAIMS.md](../CLAIMS.md), [NEGATIVE_RESULTS.md](../NEGATIVE_RESULTS.md) | Claims change only with supporting evidence; current question reports may narrow historical interpretations without promoting grades |
+| Original two-atlas findings | [FINDINGS.md](../FINDINGS.md) | Historical scope; not a summary of every later question or correction |
+| Dataset roles, units and eligibility | [DATASETS.md](DATASETS.md) | Link to run-specific provenance and gates; shared deposits and companion assays are not independent replications |
 | Methods, structure, portfolio and communication drafts | `docs/` | Each page identifies whether it describes execution, reference methods or proposed work |
 | Reading order and paper status | [Research Article/ROADMAP.json](../Research%20Article/ROADMAP.json), [Research Article/README.md](../Research%20Article/README.md) | Stable paper identifiers differ from the reading sequence; update the two views together |
 | Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Current section first; older dated checkpoints remain historical |

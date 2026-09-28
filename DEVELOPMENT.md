@@ -1601,3 +1601,21 @@ The [execution report](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md) disting
 completed computational work, failed eligibility gates and measurements still
 required. Assistant review and computational retention do not constitute owner
 acceptance of a biological hypothesis.
+
+## 28 September 2026: synchronize project navigation and research status
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | Reorganize the root README, update dataset and paper roadmaps, reconcile related current documentation | Repository owner | Owner explicitly requested these changes; Codex selected the linked inventory and synchronization details | Remove the front claims table and paper-specific start links; preserve the full claim register, reading decisions and scientific artifacts | The landing page mixed project navigation with individual analyses and the roadmap lagged merged work |
+
+Rejected or substantially revised assistant output:
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-09-28 | Front claims table and A10/Nabhan-specific entries in the main Start here table | Owner requested general project navigation; this explicit preference supersedes the documentation skill's default claims-table placement | Repository owner |
+| 2026-09-28 | Paper 14's analysis unstarted because its study note was unstarted; old Cardoso E1 result presented as current | A2/A10 already use the deposit, and later corrections limit the original E1 interpretation; reading and execution are separate | Codex reconciliation against tracked reports |
+| 2026-09-28 | Completed A5/A12 audits still queued as ready, with C7 depending on nonexistent C6 | Later recovery reports close the audits while leaving scoring gated; the actual dependency is C6-audit-followups | Codex reconciliation against merged gap-fill records |
+
+The [synchronization audit](docs/audits/2026-09-28-documentation-sync/REPORT.md)
+records the documentation scope and preservation checks. No paper is marked
+read, biological hypothesis accepted or claim grade changed by this revision.

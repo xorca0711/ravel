@@ -4,7 +4,8 @@
     "origin": "the owner's reading order; the reading notes are kept privately",
     "reading_order_last_checked": "2026-09-15",
     "ids_verified_against_pubmed_on": "2026-09-09 (papers 1 to 11); 2026-09-15 (papers 12 to 16 and M1 to M7)",
-    "analysis_status_updated": "2026-09-28"
+    "analysis_status_updated": "2026-09-28",
+    "analysis_status_basis": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md; study-reading statuses and reading order preserved"
   },
   "working_question": "Which epithelial and immune-state programmes distinguish productive lung repair from persistent dysplastic remodelling after inflammatory injury?",
   "gate_rules": {
@@ -211,9 +212,13 @@
       "note_status": "done, owner review pending",
       "note_location": "Research Article/gate2_05_cardoso_2026/README.md",
       "config": "Research Article/gate2_05_cardoso_2026/cardoso_2026_extracts.json",
-      "trial_status": "C0 to C6 plus the E series run 2026-09-12 and 2026-09-13; Gate 1 returned not recovered and stopped to characterise, and six extension trials left this deposit for public data because it carries no within-group replication. Trial E1 on GSE131907 is the only tested claim (paired within donor, p = 0.0020); trial E4 on GSE132771 refuted the second-signal reading of claim C29 under a rule frozen in advance",
+      "trial_status": "Original C/E trials complete; later annotation, depth and ligand-resource corrections supersede the initial E1 interpretation. Current source/recipient results are observational; independently replicated genotype and receptor-engagement claims remain unestablished.",
       "trial_location": "Research Article/gate2_05_cardoso_2026/ANALYSIS_TRIAL_PLAN.md",
-      "entered_out_of_order": "on the owner's instruction, ahead of papers 2, 3 and 6"
+      "entered_out_of_order": "on the owner's instruction, ahead of papers 2, 3 and 6",
+      "current_evidence": [
+        "analysis/corrections/ligand/README.md",
+        "RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md"
+      ]
     },
     {
       "order": 6,
@@ -339,14 +344,20 @@
         "the 4-day, 2-week, 12-week design"
       ],
       "datasets": [
-        "GSE247505"
+        "GSE247505 (SuperSeries; relevant subseries include GSE247504)",
+        "Zenodo 14673088 v1.1 (clone arrays and source code)"
       ],
       "folder": "gate2_C2_england_2025",
       "note_status": "owner read confirmed 2026-09-27; source-grounded synthesis prepared",
-      "trial_status": "Batch 1, continuation and follow-up complete; A16 Stage 1 integrated. Current interpretation in EVIDENCE_REVIEW.md; 15 figures in FIGURES.md. Source labels/pool identities, attribution and independent functional validation remain unresolved",
+      "trial_status": "Batch1, continuation, follow-up and original A16 Stage1 retained. Corrected fixed-population, gene-excluded A16 C1 and A17 raw-source accounting completed 2026-09-28. Residual matching imbalance, source/manuscript discrepancies, full stochastic refit and independent functional evidence remain open.",
       "added": "2026-09-15",
       "analysis_plan": "gate2_C2_england_2025/ANALYSIS_TRIAL_PLAN.md",
-      "results": "gate2_C2_england_2025/EVIDENCE_REVIEW.md; gate2_C2_england_2025/RESULTS_BATCH1.md; gate2_C2_england_2025/RESULTS_CONTINUATION.md; gate2_C2_england_2025/RESULTS_FOLLOWUP.md"
+      "results": "gate2_C2_england_2025/EVIDENCE_REVIEW.md; gate2_C2_england_2025/RESULTS_BATCH1.md; gate2_C2_england_2025/RESULTS_CONTINUATION.md; gate2_C2_england_2025/RESULTS_FOLLOWUP.md",
+      "current_evidence": [
+        "Research Article/gate2_C2_england_2025/EVIDENCE_REVIEW.md",
+        "RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md",
+        "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md"
+      ]
     },
     {
       "order": 13,
@@ -363,10 +374,17 @@
         "thresholds, contexts and timing of IL-1beta activity",
         "which transitional states it stabilises pathologically"
       ],
-      "datasets": [],
+      "datasets": [
+        "GSE300288 (eligible early mouse analyses)",
+        "GSE308103 (human RNA)",
+        "GSE307534 (human spatial companion)",
+        "GSE267226/GSE267228 (post-viral spatial context)",
+        "GSE136831/GSE135893 (reused IPF cohorts)",
+        "GSE222901/GSE300293/GSE307529 (companion metadata/crosswalk, not completed expression analyses)"
+      ],
       "folder": "gate2_C3_yu_lee_choi_min_2026",
       "note_status": "owner read; source synthesis prepared; staged execution authorized 2026-09-24",
-      "trial_status": "feasible IPF, early mouse, full human, spatial/context and specificity analyses complete; KAC identity, later history, independent spatial regions and causal/fate endpoints remain gated; repository-wide follow-ups A11–A14",
+      "trial_status": "Feasible IPF, early mouse, human, spatial/context and specificity analyses complete. Derived A11 acute assay and A12/A13 exploratory pilots completed; later A12 independent-cohort recovery admits no unchanged validation cohort. KAC identity, later history, independent regions and causal/fate endpoints remain gated.",
       "added": "2026-09-15"
     },
     {
@@ -386,11 +404,19 @@
         "how niche effects are read from chimeric RNA-seq",
         "the Nkx2.1 result"
       ],
-      "datasets": [],
+      "datasets": [
+        "GSE307112 (deposited mixed-species RNA screen and imaging outcomes)"
+      ],
       "folder": null,
       "note_status": "not started",
-      "trial_status": "not started",
-      "added": "2026-09-15"
+      "trial_status": "Deposit used in completed A2 screen and A10 growth/outcome analyses; later P1 source recovery identifies split-well hierarchy and unresolved independent preparations. Paper reading and study note remain not started; use of its deposit does not establish owner reading.",
+      "added": "2026-09-15",
+      "trial_location": "RQ_Specified/A10_organoid_growth_outcome/README.md",
+      "current_evidence": [
+        "RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md",
+        "RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md",
+        "docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md"
+      ]
     },
     {
       "order": 15,
@@ -572,9 +598,11 @@
     "artifact_paths": "Repository-relative unless explicitly stated otherwise.",
     "question_register": "RESEARCH_QUESTIONS.md",
     "shared_figures": "analysis/figures/rq/",
-    "label_scope": "Paper-local trials and figure groups are qualified by paper key; A1–A14 are repository-wide questions."
+    "label_scope": "Paper-local trials and figures require the paper key; A0-A18 and enabling A12-S1 are repository-wide questions, with proposed status governed by RESEARCH_QUESTIONS.md.",
+    "dataset_inventory": "docs/DATASETS.md"
   },
   "folder_name_exceptions": {
-    "yu_lee_choi_min_2026": "gate2_C3_yu_lee_choi_min_2026: owner-selected branch 2C item 3; stable paper order 13."
+    "yu_lee_choi_min_2026": "gate2_C3_yu_lee_choi_min_2026: owner-selected branch 2C item 3; stable paper order 13.",
+    "england_2025": "gate2_C2_england_2025: branch 2C item 2; stable paper order 12."
   }
 }

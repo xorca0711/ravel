@@ -1,10 +1,15 @@
 # Research architecture and interpretation authority
 
-**Latest authority:** the [follow-through](roadmap_runs/2026-09-27-followthrough/README.md) records new exploratory A12/A13 results and source-based candidate corrections. Historical run hashes remain snapshots; living-context changes do not rewrite earlier measurements.
+**Latest execution authority:** the [28 September gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+records A15 correction, corrected A16 C1, A17 source accounting and independent
+A5/A12 data gates across all 20 question entries. The earlier
+[follow-through](roadmap_runs/2026-09-27-followthrough/README.md) retains the A12/A13
+exploratory pilots. Historical run hashes remain snapshots; living-context
+changes do not rewrite earlier measurements.
 
 The [roadmap execution record](roadmap_runs/2026-09-27/README.md) supplies the latest P1 source facts and P4 accounting evidence. Completed feasibility work does not imply its biological gate has passed.
 
-Updated 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md).
+Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. Current question scope is A0–A18 plus A12-S1.
 
 The purpose is to generate and discriminate biological hypotheses about lung
 repair and remodelling from public data. The organizing question is not yet an

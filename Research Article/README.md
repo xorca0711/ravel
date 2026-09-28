@@ -1,44 +1,25 @@
-# Research article roadmap: one folder per paper, in reading order
+# Research article roadmap
 
-Formerly `Thesis/`; renamed on 25 September 2026. Question-specific future work
-lives in [RQ_Specified](../RQ_Specified/README.md), with one canonical
-[question register](../RESEARCH_QUESTIONS.md).
+This index connects the owner's reading order with source-study context,
+executed analyses and figure galleries. The same stable paper identifiers,
+reading order and status fields are maintained in [ROADMAP.json](ROADMAP.json).
+The [dataset inventory](../docs/DATASETS.md) maps deposits to all their uses;
+the [question register](../RESEARCH_QUESTIONS.md) and
+[question workspaces](../RQ_Specified/README.md) own the derived biological tests.
 
-This directory builds the project up paper by paper. Each paper gets one
-folder holding (1) a study note in the roadmap's five-question format
-(question tested, evidence type, reusable variables, one limitation, one
-bridge), (2) any parameters or decision criteria extracted from the paper as
-reviewable JSON, and (3) the analysis trial that paper motivates, with its
-dated analysis specification, its logged outcome, and its negative results. Folders
-are added one at a time in the order below, with owner-directed exceptions recorded in
-the table: paper 5 (Cardoso 2026) was entered on the owner's instruction of
-2026-09-12, ahead of papers 2, 3 and 6; and paper 2 (Choi 2020) was entered by
-the agent on 2026-09-13 on a general "proceed", then withdrawn on 2026-09-15
-until the owner had read it, with its deposit check kept under paper 5 as an
-extension (DEVELOPMENT decision 21), then re-entered later the same day at
-the owner's direction after reading (decision 23). The order below is the owner's
-reading order
-(gates 1, 2C, 2N, 2W, 3A, 3B; the Gate 2 branches were added on 2026-09-15). The same table is machine-readable in
-[`ROADMAP.json`](ROADMAP.json).
+**Synchronized 28 September 2026 after the merged gap-fill work.** England's
+corrected A16 C1 and A17 source accounting are complete; its full attribution
+and stochastic-refit questions remain open. Roadmap paper 14's deposit already
+supports A2/A10 analyses, while the paper's reading/study-note status remains
+not started. A study note, use of a deposit and scientific acceptance are
+separate records. [Current execution and remaining inputs](../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md).
 
-On 24 September 2026, after reading paper 13, the owner opened its planning
-branch as [`gate2_C3_yu_lee_choi_min_2026/`](gate2_C3_yu_lee_choi_min_2026/README.md).
-`C3` denotes the third item in branch 2C; stable roadmap order 13 is unchanged.
-The owner subsequently authorized staged execution. Feasible IPF, early mouse,
-human, spatial/context and specificity analyses are complete. The
-[evidence review](gate2_C3_yu_lee_choi_min_2026/EVIDENCE_REVIEW.md) states the
-remaining annotation, design and causal limits. Repository-wide follow-ups
-are A11–A14 in [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md), with shared
-figures under `analysis/figures/rq/`; study-specific inference stays here.
-
-Paper PDFs and supplementary spreadsheets stay on disk and are gitignored
-(`*.pdf`, `*.xlsx`); only text, JSON and small tables are tracked. The
-owner's reading notes are kept privately; this directory holds the
-reproducible parts.
-
-**Working question (from the roadmap).** Which epithelial and immune-state
-programmes distinguish productive lung repair from persistent dysplastic
-remodelling after inflammatory injury?
+Paper folders hold study notes, extracted variables/criteria and analysis
+reports. Question-specific continuations can live outside the source-paper
+folder. Historical entry, withdrawal and reading-order decisions remain in
+the [decision log](../DEVELOPMENT.md). The former `Thesis/` directory was renamed
+on 25 September 2026. Private reading annotations and large raw inputs remain
+outside the tracked documentation.
 
 ## Studies with executed analyses
 
@@ -78,11 +59,11 @@ remain in the roadmap below.
 | 2 | 1 | Choi et al. 2020, *Cell Stem Cell* | [10.1016/j.stem.2020.06.020](https://doi.org/10.1016/j.stem.2020.06.020) | 32750316 | biological spine: IL-1beta/HIF1alpha-driven AT2 to DATP to AT1 transition | [`gate1_02_choi_2020/`](gate1_02_choi_2020/README.md) (re-entered 2026-09-15 at the owner's direction after reading, decision 23; the AI-written note of 2026-09-13 was withdrawn first and stays in git history, PR #19) | done (2026-09-15, owner-directed) | trials D0 to D7 run 2026-09-15 with a corrected annotation pass D2b beside D2; Gate 1 not fully recovered from the deposit (four of five states; primed AT2 never assigned as a cluster); Descriptive only, owner review pending: [`ANALYSIS_TRIAL_PLAN.md`](gate1_02_choi_2020/ANALYSIS_TRIAL_PLAN.md). Two branches opened 2026-09-20 on other laboratories' multiome deposits, because this paper's ATAC deposit is coverage tracks only: [`datp_epigenetics/`](gate1_02_choi_2020/datp_epigenetics/README.md) (M0 to M4; one validated deposit error, the chromatin question Not established with a direction) and [`axin2_il1r1/`](gate1_02_choi_2020/axin2_il1r1/README.md) (this paper's own closing Discussion question; assessed, two routes run and refused). Rows C116 to C154 |
 | 3 | 1 | Nabhan et al. 2018, *Science* | [10.1126/science.aam6603](https://doi.org/10.1126/science.aam6603) | 29420258 | fibroblast Wnt niches maintain AT2 stemness; niche exit permits AT1 differentiation | [`gate1_03_nabhan_2018/`](gate1_03_nabhan_2018/README.md) | owner completed reading 2026-09-22; notes remain private | Source reproduction, descriptive Nb1 and external cohort eligibility: [analysis report](gate1_03_nabhan_2018/README.md) |
 | 4 | 1 | Sikkema et al. 2023, *Nature Medicine* (HLCA) | [10.1038/s41591-023-02327-2](https://doi.org/10.1038/s41591-023-02327-2) | 37291214 | reference framework: annotation hierarchy, reference mapping, uncertainty handling, donor coverage, shared profibrotic macrophage states | [`gate1_04_sikkema_2023_hlca/`](gate1_04_sikkema_2023_hlca/README.md) | done, owner review pending | S1 to S5 run (Descriptive only); see [`ANALYSIS_TRIAL_PLAN.md`](gate1_04_sikkema_2023_hlca/ANALYSIS_TRIAL_PLAN.md) |
-| 5 | 2C | Cardoso, Lee et al. 2026, *Nature* | [10.1038/s41586-026-10399-6](https://doi.org/10.1038/s41586-026-10399-6) | 42020743 | early fibrotic niches; regenerative-like mutant AT2 states coordinate fibroblast and immune remodelling through AREG-EGFR | [`gate2_05_cardoso_2026/`](gate2_05_cardoso_2026/README.md) | done, owner review pending | C0 to C6 plus the E series run 2026-09-12 and 2026-09-13; Gate 1 returned **not recovered**, and six extension trials left this deposit for public data because it carries no within-group replication. Later annotation/depth and resource audits revise the earlier E1 interpretation; use the current [claims](../CLAIMS.md) and [correction report](../analysis/corrections/ligand/README.md). The historical trial sequence is in: [`ANALYSIS_TRIAL_PLAN.md`](gate2_05_cardoso_2026/ANALYSIS_TRIAL_PLAN.md) |
-| 12 | 2C | England et al. 2025, *Cell Stem Cell* | [10.1016/j.stem.2025.01.011](https://doi.org/10.1016/j.stem.2025.01.011) | 39978341 | NF-kappaB feedback, Il1r1 reprogramming, mutant-WT context and clone distributions; two pooled-lung sequencing experiments | [`gate2_C2_england_2025/`](gate2_C2_england_2025/README.md) | owner read confirmed 2026-09-27; synthesis prepared | Batch 1, continuation and follow-up complete; A16 Stage 1 integrated. Read the [current evidence review](gate2_C2_england_2025/EVIDENCE_REVIEW.md) and [15-figure gallery](gate2_C2_england_2025/FIGURES.md); source labels/pool identities, attribution and independent functional validation remain unresolved |
-| 13 | 2C | Yu, Lee, Choi_Min and Choi 2026, *Seminars in Immunology* (review) | [10.1016/j.smim.2026.102050](https://doi.org/10.1016/j.smim.2026.102050) | 42497497 | review-motivated IL-1beta perturbation, state specificity and niche-context questions | [`gate2_C3_yu_lee_choi_min_2026/`](gate2_C3_yu_lee_choi_min_2026/README.md) | owner read; synthesis prepared; staged execution authorized 2026-09-24 | [feasible analyses complete](gate2_C3_yu_lee_choi_min_2026/EVIDENCE_REVIEW.md): IPF, early mouse, human, spatial/context and specificity; remaining endpoints gated; shared questions A11–A14 |
+| 5 | 2C | Cardoso, Lee et al. 2026, *Nature* | [10.1038/s41586-026-10399-6](https://doi.org/10.1038/s41586-026-10399-6) | 42020743 | early fibrotic niches; regenerative-like mutant AT2 states coordinate fibroblast and immune remodelling through AREG-EGFR | [`gate2_05_cardoso_2026/`](gate2_05_cardoso_2026/README.md) | done, owner review pending | Original C/E trials completed; later annotation, depth and resource corrections supersede the initial E1 reading. Use the [current ligand correction](../analysis/corrections/ligand/README.md) and [A2 synthesis](../RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md); historical sequence in the [trial plan](gate2_05_cardoso_2026/ANALYSIS_TRIAL_PLAN.md). Independent genotype/engagement inference remains limited. |
+| 12 | 2C | England et al. 2025, *Cell Stem Cell* | [10.1016/j.stem.2025.01.011](https://doi.org/10.1016/j.stem.2025.01.011) | 39978341 | NF-kappaB feedback, Il1r1 reprogramming, mutant-WT context and clone distributions; two pooled-lung sequencing experiments | [`gate2_C2_england_2025/`](gate2_C2_england_2025/README.md) | owner read confirmed 2026-09-27; synthesis prepared | Batch1, continuation, follow-up and original Stage1 retained. [Corrected A16 C1](../RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md) and [A17 source accounting](../docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md) completed; residual matching imbalance, source discrepancies, full refit and independent functional evidence remain open. [Current review](gate2_C2_england_2025/EVIDENCE_REVIEW.md). |
+| 13 | 2C | Yu, Lee, Choi_Min and Choi 2026, *Seminars in Immunology* (review) | [10.1016/j.smim.2026.102050](https://doi.org/10.1016/j.smim.2026.102050) | 42497497 | review-motivated IL-1beta perturbation, state specificity and niche-context questions | [`gate2_C3_yu_lee_choi_min_2026/`](gate2_C3_yu_lee_choi_min_2026/README.md) | owner read; synthesis prepared; staged execution authorized 2026-09-24 | [Feasible paper analyses complete](gate2_C3_yu_lee_choi_min_2026/EVIDENCE_REVIEW.md). Derived A11 acute assay and A12/A13 exploratory pilots completed; [later A12 cohort recovery](../RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md) admits no unchanged validation cohort. Causal/fate, annotation and region gates remain. |
 | 6 | 2N | Nabhan et al. 2023, *Cell* | [10.1016/j.cell.2023.05.022](https://doi.org/10.1016/j.cell.2023.05.022) | 37321220 | Frizzled-specific Wnt agonists separate regeneration from fibrotic risk; receptor-specific Wnt modules | queued after paper 3 (re-ranking 2026-09-15) | not started | not started |
-| 14 | 2N | Nabhan et al. 2026, *PNAS* | [10.1073/pnas.2606113123](https://doi.org/10.1073/pnas.2606113123) | 42418498 | an alveolosphere screen of 201 genes with chimeric RNA-seq of stem-cell effects on the fibroblast niche | not started | not started | not started |
+| 14 | 2N | Nabhan et al. 2026, *PNAS* | [10.1073/pnas.2606113123](https://doi.org/10.1073/pnas.2606113123) | 42418498 | an alveolosphere screen of 201 genes with chimeric RNA-seq of stem-cell effects on the fibroblast niche | No paper study folder; analysis lives under A2/A10 | not started | GSE307112 used in completed [A10 growth/outcome work](../RQ_Specified/A10_organoid_growth_outcome/README.md) and [A2 screen analysis](../RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md). [P1 recovery](../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) records split-well hierarchy; independent preparations remain unresolved. Deposit use does not establish paper reading. |
 | 15 | 2W | Wagner et al. 2021, *Cell* | [10.1016/j.cell.2021.05.045](https://doi.org/10.1016/j.cell.2021.05.045) | 34216539 | Compass: immune-metabolic state inference from single-cell RNA, the method behind proposal W1 | not started | not started | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
 | 16 | 2W | Yadav et al. 2025, *JCI* | [10.1172/JCI188734](https://doi.org/10.1172/JCI188734) | 40875483 | the lung-fibrosis myeloid-to-mesenchymal ARG1 and ornithine circuit, with Wagner as co-author; the comparison proposal W1 names | not started | not started | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
 | 7 | 3A | Saxton et al. 2021, *Science* | [10.1126/science.abc8433](https://doi.org/10.1126/science.abc8433) | 33737461 | structure-based decoupling of IL-10 pro- and anti-inflammatory functions | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started | not started |
@@ -92,8 +73,8 @@ remain in the roadmap below.
 | 11 | 3B | Zhang et al. 2026, *Science Immunology* | [10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411) | 41961946 | intratumoral Treg ablation elicits NK-mediated control | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started | not started |
 
 The `#` is a stable identifier assigned when a paper enters the roadmap, and
-folder names normally carry it; the owner-selected Yu folder uses 2C item 3
-instead and retains stable order 13. The row order above is the reading order. Papers 12 to
+folder names normally carry it. England uses branch 2C item 2 (`gate2_C2`, stable order 12),
+and Yu uses branch 2C item 3 (`gate2_C3`, stable order 13). The row order above is the reading order. Papers 12 to
 16 were added on 2026-09-15 (see the re-ranking bullet below).
 
 ### Methods references, read at the backbone step that uses them
@@ -109,7 +90,7 @@ Identifiers verified against PubMed on 2026-09-15.
 | M3b | Jin et al. 2021, *Nature Communications*: CellChat | [10.1038/s41467-021-21246-9](https://doi.org/10.1038/s41467-021-21246-9) | 33597522 | 5, communication | the Cardoso paper's tool; R-only, never run here |
 | M4 | Zaiss et al. 2015, *Immunity*: amphiregulin in immunity, inflammation and repair | [10.1016/j.immuni.2015.01.020](https://doi.org/10.1016/j.immuni.2015.01.020) | 25692699 | 5, the constraint on epithelium-centric AREG readings | claim C45 |
 | M5a | Kobayashi et al. 2020, *Nature Cell Biology*: the transitional (PATS) state | [10.1038/s41556-020-0542-8](https://doi.org/10.1038/s41556-020-0542-8) | 32661339 | 4, the Krt8 transitional programme | `docs/DOUBLETS_AND_SCRUBLET.md`; the displaced Krt8 trajectory |
-| M5b | Strunz et al. 2020, *Nature Communications*: the Krt8+ transitional state | [10.1038/s41467-020-17358-3](https://doi.org/10.1038/s41467-020-17358-3) | 32678092 | 4, the Krt8 transitional programme | same |
+| M5b | Strunz et al. 2020, *Nature Communications*: the Krt8+ transitional state | [10.1038/s41467-020-17358-3](https://doi.org/10.1038/s41467-020-17358-3) | 32678092 | 4, the Krt8 transitional programme | A0 discovery, A5 external-signature test, shared specificity work; [A5](../RQ_Specified/A5_developmental_programme_reuse/README.md) records the current interpretation |
 | M6 | Tsukui et al. 2020, *Nature Communications*: collagen-producing lung cell atlas | [10.1038/s41467-020-15647-5](https://doi.org/10.1038/s41467-020-15647-5) | 32317643 | 4, fibroblast states | trials E4, C9, C10 |
 | M7 | Vaughan et al. 2015, *Nature*: lineage-negative progenitors after major injury | [10.1038/nature14112](https://doi.org/10.1038/nature14112) | 25533958 | 4, the KRT5 dysplastic programme | not used |
 | M8 | van den Brink et al. 2017, *Nature Methods*: dissociation-induced gene expression in tissue subpopulations | [10.1038/nmeth.4437](https://doi.org/10.1038/nmeth.4437) | 28960196 | 2, the dissociation-stress list any stress-like programme reading needs | named by Choi 2020 attack A3 (trial D7), not attempted because the list is in the paper's supplement and not on disk |
@@ -150,9 +131,9 @@ DOIs and PMIDs were verified against PubMed on 2026-09-09.
 - **Gate 2 branches (2026-09-15).** Gate 2 is split into 2C (the Choi
   axis: paper 5 done, papers 12 and 13 added), 2N (Nabhan: papers 6 and
   14) and 2W (Wagner: papers 15 and 16, added because the method behind
-  proposal W1 had no paper in the original order). Except for the owner-selected
-  Yu folder (2C item 3, stable paper 13), folder names keep the
-  plain gate label (`gate2_`); the branch letter lives in the table and in
+  proposal W1 had no paper in the original order). England and Yu use branch-position labels `gate2_C2` and `gate2_C3`
+  while retaining stable paper IDs 12 and 13. Other Gate 2 folder names keep
+  the plain `gate2_` prefix; branch membership is recorded in this table and
   `ROADMAP.json`. Papers in 2C and 2N are read while interpreting the pilot
   figures, as before; 2W is read alongside proposal W1.
 
@@ -173,10 +154,11 @@ Research Article/
     README.md                     a pointer note, not a study note; the study note waits for the reading (Murthy 2022 holds GSE178360)
 ```
 
-Status vocabulary is the one used in the root README claims table:
-Validated, Descriptive only, Exploratory, Retracted-superseded, Not
-established. A trial result with no artefact under `trials/` is Not
-established. Thresholds are frozen in the plan before the trial reads data.
+Reading/workflow statuses in `ROADMAP.json` describe progress, not evidence
+grades. Scientific status belongs in the [claim register](../CLAIMS.md) or the
+linked question report. An executed analysis needs a report and logged artifacts
+in its paper or question workspace; a plan alone is not a result. Each run
+records its freeze or exposed-data amendment and interpretation limits.
 
 ## Local, untracked material
 

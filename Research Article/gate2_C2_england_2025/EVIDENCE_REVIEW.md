@@ -5,7 +5,7 @@
 
 **Current interpretation, 28 September 2026.** This page separates published
 source findings from this repository's reanalysis and unresolved mechanisms.
-It summarizes the source audit and the later A16 integration review; it does
+It summarizes the source audit, A16 integration, corrected C1 and A17 source accounting; it does
 not create a second graded claim register or regrade C1–C168.
 
 <a id="state-and-maturation"></a>
@@ -41,6 +41,11 @@ The source audit's fixed-population diagnostic retains two eligible strata
 with different priming effects. A16 Stage 1 adds exploratory sensitivities,
 but specificity remains inconclusive and the available panel cannot exclude
 ambient RNA. Its four primary-library thinning comparisons fail the cell floor.
+The later [corrected C1](../../RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)
+uses fixed per-library populations and excludes grouping/gate/outcome genes
+before local matching. Primary priming raw differences attenuate from 1.2558
+to 0.4098 and 1.3318 to 0.3151; appreciable PC imbalance remains. These are
+exposed-data sensitivities, not independent biological confirmation.
 
 **Conclusion and limit:** CD177-associated RNA is a lead, not established
 cell-intrinsic function or a resolved composition/depth effect. Read the
@@ -77,9 +82,12 @@ distributions. The corrected full stochastic refit has not run.
 
 **Conclusion and limit:** an implementation defect affects reproducibility;
 it does not by itself refute observed heterogeneity, the analytical source
-fit or lineage evidence. A17 needs explicit parameter/schedule and source-count
-amendments before comparing corrected models. Mouse identities exist in these
-nonspatial arrays, unlike the spatial pair exports. [Relevant figures](FIGURES.md#clone-growth).
+fit or lineage evidence. [A17 raw-source accounting](../../docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md)
+now reproduces all 58 saved count rows and traces the code's fast/slow arguments
+and 14-day switch. The primary input has 11 source-indexed mice. Printed-table
+and manuscript/curve-provenance discrepancies remain; grid-wide switching,
+common model scoring and a tail diagnostic still need a refit amendment.
+Source-indexed mouse units exist in the nonspatial arrays, unlike the spatial pair exports. [Relevant figures](FIGURES.md#clone-growth).
 
 <a id="wild-type-neighbours"></a>
 ## 5. WT expansion and loss of AT2 identity
