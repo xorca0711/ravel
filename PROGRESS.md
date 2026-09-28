@@ -1,5 +1,32 @@
 # Progress and handoff state
 
+**Update this before stopping work, every session.**
+
+## Current England audit and hypothesis review, 28 September 2026
+
+The [source/claim audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
+is complete against its recorded snapshots. The current main base for landing
+is `27e281a`; the England continuation and follow-up have run. Older unexecuted
+checkpoints below describe earlier sessions and do not override those results.
+
+The [eight candidate cards](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
+now separate biological hypotheses from technical checks. A16–A18 have corrected
+current cards in the shared register. The existing audit reproduced 49 FU_C
+effects and found only two eligible same-population strata, with priming SMDs
++2.105 and +0.069. This is post-hoc diagnostic evidence; A16's full prospective
+attribution test has not run here. A17's simulator defect is confirmed, but its
+refit still needs source-accounting and model-specification amendments. A18's
+spatial inference still needs mouse/clone identifiers.
+
+Next scientific steps: specify the corrected A16 comparison, reconcile A17's
+counts/parameters/schedule, then consider the bounded E-N1/E-N2 mouse-level
+analyses. The rewrite runs none of those fits and changes no grades or frozen
+outputs. The owner authorized a PR and merge after repository checks; that
+authorization does not register E-N1–E-N8 as eight new A questions. The
+[architecture review](docs/audits/2026-09-28-england-paper-rqs/ARCHITECTURE_REVIEW.md)
+records placement and preserved evidence. Separate local audit work remains
+outside this change. No scientific job is running. Local repository checks passed (53 tests, one skip; claim contract, Nb1 evidence, compilation and artefact/link validation). PR CI remains the merge gate.
+
 ## England continuation, second session state, 28 September 2026
 
 Resumed from the [England EN7/CD177 handoff](docs/handoffs/2026-09-28-england-en7-cd177.md).

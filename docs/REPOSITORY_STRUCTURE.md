@@ -1,12 +1,12 @@
 # Repository structure and label scope
 
-Updated 26 September 2026 (A0 registration). This contract follows the existing shared-analysis
+Updated 28 September 2026 (England candidates and A16–A18 proposals). This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
 protocols, original trial names and immutable run records remain historical evidence.
 
 | Material | Canonical location | Rule |
 |---|---|---|
-| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A14; link to source studies rather than maintaining a second register |
+| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A18 (A15–A18 proposed, pending retain/reject); link to source studies rather than maintaining a second register |
 | Question-specific plans and analyses | `RQ_Specified/A<id>_<topic>/` | Prospective plan, source metadata, configuration, scripts, tables, reports and gallery; reference the root question register |
 | Shared question figures | [analysis/figures/rq/README.md](../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
 | Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
@@ -23,8 +23,14 @@ protocols, original trial names and immutable run records remain historical evid
 
 ## Identifier namespaces
 
-- `A0`–`A14` identify repository-wide questions; figures use the associated
-  question ID, with panel/group suffixes where needed.
+- `A0`–`A18` identify the current repository-wide question cards. A15–A18
+  remain proposals pending retain/reject; an identifier is not claim acceptance.
+  Figures use the associated question ID, with panel/group suffixes where needed.
+- `England/E-N1`–`England/E-N8` are paper-local candidate extensions indexed
+  from the root register, not A19–A26. Biological cards and supporting checks
+  stay in the England paper package; executable plans belong under their
+  relevant global question once specified. Performed cross-document audits
+  and evidence remain under `docs/audits/<date>-<topic>/`.
 - Paper-local IDs require paper context: `Niethamer/W1`, `Niethamer/S1`,
   `Sikkema/S1`, `Choi/D1`, `Yu/N1`, `Yu/U5`, `Yu/F01`. Equal short labels do
   not mean equal analyses. Existing historical scripts are not renamed solely

@@ -1,5 +1,10 @@
 # Research questions
 
+**England interpretation update, 28 September 2026:** [source/claim audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
+and [eight readable candidate hypotheses](#england-candidates). A16–A18 below
+incorporate the audit's population, model and spatial-inference corrections;
+historical results and claim grades are unchanged.
+
 **Latest follow-through:** [results and open gates](docs/roadmap_runs/2026-09-27-followthrough/README.md). A12 and an explicitly amended A13 pilot now ran; prior failed cohort gates remain failed. New results are exploratory, with no claim-grade changes.
 
 **Roadmap execution, 27 September 2026:** [package results](docs/roadmap_runs/2026-09-27/README.md). P1 recovered split-well replication and supplemented EGF in the screen; P2 replication remains gated, and P4 quantifies source-attribution uncertainty. Current interpretations below retain the original numerical results.
@@ -69,9 +74,9 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A13](#a13) | Fibroblast programmes add information beyond macrophage IL1B | Niche heterogeneity motivates joint association | [Amended exploratory pilot complete](docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md): 12 paired triads; no aggregate held-out gain. Older failed coverage gates preserved; no mediation claim |
 | [A14](#a14) | Exposure duration and fibroblast reception separately affect recovery | Mechanistic follow-up to the repair/persistence question | Two decisions; withdrawal and recipient-specific data needed |
 | [A15](#a15) | The epithelial input to fibroblast activation runs through integrin-mediated TGF-beta activation rather than through ligand supply | A2's exploratory association: Itgb6-targeted wells have a -0.938 log2 CPM median contrast in three readable split wells; no Areg decrement is established | **Proposed, pending the owner's retain or reject.** Blocked: no eligible deposit found in the recorded search. The authorized side-branch has run; epithelial-state mediation remains unresolved |
-| [A16](#a16) | Cd177 marks a cell-intrinsic priming programme rather than the transcriptional neighbourhood a cell occupies | England re-analysis: seven CD177 associations survive depth control, but within-subcluster conditioning dissolves most of them and leaves only priming-associated RNA standing in 5 of 7 subclusters | **Proposed, pending the owner's retain or reject.** Blocked: the discriminating sorted-CD177 test needs a deposit pairing surface CD177 with a proliferation readout, and none exists in the recorded search. GSE253461 and GSE316244 are partially eligible for the attribution question alone |
-| [A17](#a17) | Support for two founder classes in mutant clone growth survives a boundary-correct simulation | The deposited simulator's S-loss branch changes the q = 0.7 clone-size distribution materially (KS 0.104–0.281), and the homeostatic Confetti mixture is not identifiable from the deposited sizes (weights 0.09–0.89) | **Proposed, pending the owner's retain or reject.** Ready to run, no new data required: the FU_S refit is frozen in the England follow-up contract and was deferred for runtime only |
-| [A18](#a18) | Wild-type AT2 growth and wild-type AT2 identity loss run through separately ranged channels near a mutant clone | The source's own decoupling claim, plus its EdU data showing division independent of clone size and of pro-Sftpc status; reproduced on the deposit, where the size gradient is oncogenic-specific on scale-fair links and the differentiation gradient is not distinguishable from homeostatic background | **Proposed, pending the owner's retain or reject.** Descriptively complete, inferentially blocked: the distance-by-readout interaction needs the mouse-level and clone-level rows behind the pooled spatial arrays, or a new spatial series |
+| [A16](#a16) | A CD177-associated priming phenotype may persist within comparable mutant transitional cells | Earlier comparisons changed the population and pooling; the audit's same-population diagnostic is heterogeneous | **Proposed, pending retain/reject.** Corrected RNA attribution can be specified; stable cell-intrinsic function needs independent outcomes |
+| [A17](#a17) | Persistent growth differences between founder lineages may help explain mutant clone-size heterogeneity | Clone distributions and source lineage evidence motivate the model; a deposited simulator defect affects one implementation | **Proposed, pending retain/reject.** Computationally feasible after source-count, parameter and schedule amendments; held-out refit unexecuted |
+| [A18](#a18) | WT expansion and loss of AT2 identity may be regulated differently near mutant clones | Source phenotype and reproduced pooled distance profiles; two causal channels remain a hypothesis | **Proposed, pending retain/reject.** Descriptive profiles complete; spatial inference needs mouse/clone identifiers |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -81,12 +86,25 @@ also run. Further A10 expansion now needs preparation identities and imaging/
 validation design evidence; stronger A1, A5 and A11 conclusions require the
 missing evidence named in their cards. Existing joins and scores need not be
 rerun. The other questions remain conditional; their design gates still apply.
-A16 to A18 derive from the England re-analysis and are proposed on 28 September 2026: A17 is the
-only one of the three that can run now, A16 waits on a sorted-CD177 deposit that does not yet
-exist, and A18 waits on the mouse-level and clone-level rows behind the pooled spatial arrays.
-Their evidence is in the
-[England follow-up](Research%20Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md) and the
-[opportunity ledger](Research%20Article/gate2_C2_england_2025/ANALYSIS_OPPORTUNITIES.md).
+A16–A18 remain proposed. Their [source audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
+corrects the premises below without changing historical outputs or claim grades.
+A16 needs the same-compartment, separate-library comparison; A17 needs a model
+and source-accounting amendment before its refit; A18 lacks spatial inferential
+units. Eight further paper-local candidates are indexed below.
+
+<a id="england-candidates"></a>
+### England candidate extensions: E-N1–E-N8
+
+Read the [eight biological hypothesis cards](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
+for context, predictions, rivals and feasibility, and the
+[supporting checks](Research%20Article/gate2_C2_england_2025/CANDIDATE_CHECKS.md)
+for analysis requirements. E-N1 concerns distributed identity loss; E-N2 mutant
+burden and WT response; E-N3 survival selection; E-N4 coordinated epithelial
+signals; E-N5 incomplete AT1 maturation; E-N6 p53-dependent growth advantage;
+E-N7 failed feedback induction; E-N8 SPP1/DLK1 interaction. E-N3/E-N5 began as
+technical checks and support existing A17/A1/A8 questions. These are not eight
+independent discoveries or registrations; no A19–A26 identifiers are assigned.
+
 The [logical review](docs/LOGICAL_RATIONALE_REVIEW.md) checks this sequence against
 the actual measurements and implementation, with an adaptive follow-up order.
 
@@ -804,183 +822,131 @@ whether blocking it helps a patient.
 
 <a id="a16"></a>
 
-### A16. Does Cd177 mark a cell-intrinsic priming programme or the transcriptional neighbourhood a cell occupies?
+### A16. Does CD177 identify a priming phenotype within comparable mutant cells?
 
-**Proposed 28 September 2026, and pending the owner's retain or reject.** Assistant-proposed
-wording. It grades nothing, adds no claim row, and carries no result of its own.
+**Proposed 28 September 2026; pending the owner's retain or reject.** Current
+wording amended by the [source/code audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md).
+No claim grade or completed functional result is added.
 
-**Hypothesis.** Within an independently defined transitional compartment of mutant alveolar
-epithelium, Cd177 detection marks a *position* in the transcriptional landscape — a primed,
-identity-retaining neighbourhood — rather than a cell-intrinsic programme that travels with the
-cell. Two predictions can each fail alone: conditioning on the local transcriptome (subcluster)
-removes most marker-linked differences, leaving only a priming-associated residue; and cells
-sorted on surface CD177 resemble their neighbours of origin more than they resemble CD177-positive
-cells from a different neighbourhood.
+**Hypothesis and biology.** Within the same transitional compartment, CD177
+may identify cells with a priming-associated programme beyond the local mixture
+of epithelial states. Such a phenotype could help explain the source's mixed
+mutant state. A stable cell-intrinsic programme and a neighbourhood-associated
+phenotype can coexist; RNA alone cannot distinguish their persistence or function.
 
-**What is not being asked.** That a Cd177-expressing mutant state exists, is enriched at later
-timepoints, is absent from regeneration and from reporter controls, and that CD177 and Itga2
-double-positive cells are frequent at the protein level, is established by
-[England 2025](https://doi.org/10.1016/j.stem.2025.01.011) and is not re-asked here. Nor is the
-existence of the DATP/PATS/Krt8+ ADI transitional programme
-([Choi 2020](https://doi.org/10.1016/j.stem.2020.06.020),
-[Strunz 2020](https://doi.org/10.1038/s41467-020-17358-3),
-[Kobayashi 2020](https://doi.org/10.1038/s41556-020-0542-8)). What this question owns is the
-**attribution** of the marker-linked phenotype: cell-intrinsic programme against compositional
-position, which the source work does not separate.
+**Current evidence.** The source supports a CD177-associated mutant state and
+functional plasticity of sorted states. It does not establish CD177-specific
+necessity. The marker is scarce in the compared in-vivo repair dataset, but the
+same paper induces it in WT inflammatory organoids (Figure S7); it is not
+universally mutant-exclusive. FU_A preserves several effect directions under
+available depth adjustments, but its frozen verdict is inconclusive: one
+thinning arm has 26 positive cells, below the required 30. SMD ratios do not
+measure a percentage of biological signal retained. FU_C then pools libraries
+and drops the original transition gate, so its seven-cluster result cannot be
+read as the same comparison conditioned on neighbourhood.
 
-**Observation.** Our re-analysis produced the lead as an unplanned result. Within transition-gated
-cells the Cd177-detected fraction shows higher priming-associated RNA (standardised mean difference
-+1.60 and +2.17 in the two eligible libraries), higher AT2 and AT1 identity, and lower Itga2 and
-lower shared and lesion remodelling RNA; these survive rank-based, depth-residualized and
-depth-decile-stratified adjustment, retaining at least 87% of each effect, so they are not
-sequencing-depth artefacts. Repeating the same contrast **within** each round-2 subcluster largely
-dissolves it: Itga2 flips positive in five of seven testable subclusters and AT2 identity ranges
--0.36 to +1.27, while priming-associated RNA persists in five of seven. Read
-[the follow-up results](Research%20Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md) and
-[the continuation](Research%20Article/gate2_C2_england_2025/RESULTS_CONTINUATION.md).
-**That observation is confounded motivation for A16, not a demonstrated mechanism:** it rests on
-two libraries from one experiment, with biological pool identities unknown, and subclusters are
-reconstruction-dependent.
+The audit's post-hoc diagnostic preserves the original two libraries, gate and
+30-per-side floor. Two strata qualify: priming SMD +2.105 in GSM7890835/cluster
+18 and +0.069 in GSM7890836/cluster 16. These are different neighbourhoods with
+outcome-informed labels, not independent validation or proof of a common residue.
+The [saved diagnostic](docs/audits/2026-09-28-england-paper-rqs/a16_same_population_effects.csv)
+does not execute the separate A16 Stage 1 plan.
 
-**Rivals and test.** The strongest rival is that the subcluster conditioning removes the signal
-because subcluster and marker are the same variable measured twice, not because the phenotype is
-positional. Next is ambient RNA, which fills transcriptional space between neighbourhoods and is
-not correctable from a filtered count matrix. Then sorting-induced state change, the gap between
-Cd177 RNA detection and surface CD177 protein, and depth heterogeneity between neighbourhoods. The
-discriminating test needs surface CD177 sorted from a defined transitional gate with at least three
-animals per arm, a neighbourhood-of-origin label preserved through the sort, and a readout that is
-not the sorting marker.
+**Prediction, rival and decision.** A consistent association within separately
+analysed libraries and independently defined comparable states would nominate
+a CD177-associated RNA phenotype. Disappearance with valid conditioning would
+favour state composition, but could also reflect removal of genuine biology
+encoded by the clustering. Depth, ambient RNA and RNA/protein mismatch remain
+rivals. Independent surface-marker and outcome linkage is needed for the
+stable/functionally distinct phenotype; snapshot cell-cycle RNA is insufficient.
 
-**Decision / readiness.** **Blocked for the discriminating test, and the blocking constraint is
-nameable.** A GEO search on 28 September 2026 found no deposit pairing surface CD177 sorting with a
-proliferation or neighbourhood readout in lung; a Cd177-plus-lung mouse query returns two unrelated
-series (GSE260762 pancreatitis-associated lung injury, GSE155166 cadmium BAL). One **partially
-eligible** external route exists for the attribution question alone, without the sort: GSE253461
-(39 samples, KrasG12D p53-/- Rosa26-YFP AT2 cells, organoids and co-cultures) and GSE316244 (early
-KrasG12D AT2 reprogramming and niche) could test whether the same within-subcluster dissolution
-appears in an independent mutant compartment. Both would be descriptive transfer on a different
-driver genotype, not confirmation. An owner decision is required before either is opened.
+**Readiness.** The corrected descriptive attribution analysis can be specified
+with existing data; its population and gene exclusions must be fixed first.
+The full functional test remains data-limited. GSE253461 and GSE316244 are
+conditional external candidates with differing genotype/culture and pooling,
+not independent confirmation. [E-N5/E-N6](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
+separate maturation and second-hit hypotheses from marker transfer.
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC2–MC3](docs/RQ_MEASUREMENT_CONTRACTS.md#mc2).
 
 <a id="a17"></a>
 
-### A17. Does support for two founder classes in mutant clone growth survive a boundary-correct simulation?
+### A17. Do persistent founder differences help explain unequal mutant clone growth?
 
-**Proposed 28 September 2026, and pending the owner's retain or reject.** Assistant-proposed
-wording. It grades nothing, adds no claim row, and carries no result of its own.
+**Proposed 28 September 2026; pending the owner's retain or reject.** The
+biological question is retained; the simulator correction is its enabling check.
 
-**Hypothesis.** The evidence favouring two immutable founder classes over continuous growth
-heterogeneity in mutant alveolar clones is sensitive to the numerical implementation of the fitted
-model, and does not survive a boundary-correct one. The prediction that can fail: refitting the
-same two-population model with a corrected event-selection branch moves its best-fit parameters and
-removes its held-out advantage over a continuous-heterogeneity alternative.
+**Hypothesis and biology.** Persistent differences between founder lineages
+contribute to the unequal expansion of mutant AT2 clones. A discrete fast/slow
+model is one representation. Continuous variation, reversible state changes,
+survival selection and clone merger can also generate unequal clone sizes.
+England's Figures 1–2 and Il1r1 lineage experiments motivate founder differences;
+the Discussion explicitly retains a single-hierarchy possibility. A fitted
+mixture does not independently identify immutable cell types.
 
-**What is not being asked.** That mutant clone sizes are strongly right-tailed, and that the
-largest decile of clones carries most measured cells by 2 to 4 weeks, is a property of the
-deposited measurements and is not disputed. Neutral-competition and single-progenitor-pool models
-for homeostatic epithelia are established
-([Klein 2011](https://doi.org/10.1016/j.stem.2011.05.017)); this question is not a general test of
-them. What it owns is whether **this** deposit's discrimination between two founder classes and a
-continuum is an artefact of implementation.
+**Current evidence.** The deposited slow-loss event branch is unreachable in
+the q=0.7 setting audited by EN6; literal and corrected-branch distributions
+differ (KS 0.104, 0.281 and 0.281 at one, two and four weeks). This confirms an
+implementation problem, not which implementation generated the published
+curves. Methods S1 also fits analytical biexponential distributions, and the
+paper has independent lineage evidence. Neither is refuted by that code defect.
+Batch1's alternative distribution fits are not a completed corrected stochastic
+refit. The [audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
+also records Table S1/archive mouse-count and parameter discrepancies.
 
-**Observation.** Auditing the deposited simulator against its archived source (Zenodo v1.1,
-SHA-256 `404697263c...6a70`; member identical to the live Git blob) found that the slow-population
-loss branch compares the uniform draw against a cumulative sum whose last two terms repeat one
-variable. At the Red2Kras RFP parameter block, where renewal probability q = 0.7, that loss event
-can never fire: the slow population becomes pure birth. Running three implementations at 100
-replicates x 1,000 clones with two seeds, the literal and corrected-branch distributions differ by
-Kolmogorov-Smirnov 0.104, 0.281 and 0.281 at 1, 2 and 4 weeks, with the fraction of clones reaching
-size >= 2 at 0.91-0.96 literal against 0.57-0.59 corrected, while q = 0.5 blocks are unaffected and
-seed-to-seed distances stay below 0.011. Separately, leave-one-mouse-out fits of a two-geometric
-mixture are cohort-dependent (kras1w fast component 0.037-0.071, kras2w 0.004-0.005, kras4w 0.001)
-and not identifiable at all in Confetti (mixture weight 0.09-0.89 with overlapping components).
-Read [EN6 in the continuation](Research%20Article/gate2_C2_england_2025/RESULTS_CONTINUATION.md).
-**These are code and fit observations. Which implementation produced the published curves is not
-established, and clone merger and segmentation are not modelled.**
+**Prediction, rival and decision.** A correctly specified discrete model should
+retain useful held-out predictive advantage over a continuous alternative and
+identify its parameters adequately. Comparable prediction or weak
+identifiability leaves founder structure unresolved. Lack of advantage rejects
+that model's claimed discrimination, not every biological founder difference.
+Report survivor/expanded-clone fractions separately from initial founder
+fractions; [E-N3](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md#e-n3)
+develops the survival rival.
 
-**Rivals and test.** The strongest rival is that the published fit used a different or corrected
-code path not present in the deposit, in which case the audit bounds reproducibility rather than
-the biology. Next is clone merger at later timepoints inflating the observed tail independently of
-any founder structure, then the imaging-derived size estimates not being integer cell counts, and
-the possibility that both models remain indistinguishable at the available mouse counts. The test
-is specified and needs no new data: a fixed-grid simulated-likelihood refit of both
-implementations against the deposited clone-size distributions, scored by leave-one-mouse-out
-held-out likelihood on prespecified size bins, against the continuous alternative already fitted.
-
-**Decision / readiness.** **Ready to run, with no new data required and no owner data decision
-pending.** The design is frozen as FU_S in the
-[follow-up contract](Research%20Article/gate2_C2_england_2025/config/followup_contract.json)
-(560 parameter points x 20 replicates x 2,000 clones x two implementations) and was deferred from
-the 28 September follow-up only for runtime. A negative result, meaning the corrected
-implementation fits as well and keeps the same parameters, is informative and would close the
-question.
-[MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1).
+**Readiness.** Computation is feasible with existing inputs, but FU_S has not
+run and needs an explicit amendment: reconcile source units and parameter
+symbols, specify rate changes/switching times, and score both model families
+on the same held-out bins/folds, with a separately specified tail diagnostic.
+The existing [FU_S contract](Research%20Article/gate2_C2_england_2025/config/followup_contract.json)
+is preserved as the original proposal. Unchanged best-fit parameters alone
+would not close the question. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1).
 
 <a id="a18"></a>
 
-### A18. Are wild-type AT2 growth and wild-type AT2 identity loss under separate control near a mutant clone?
+### A18. Are WT expansion and loss of AT2 identity regulated differently near mutant clones?
 
-**Hypothesis.** Proximity to a mutant clone acts on neighbouring wild-type AT2 cells through two
-separable channels: a short-range mitogenic channel that raises neighbour clone size within roughly
-one hundred micrometres, and a field-wide channel that lowers pro-Sftpc with no distance dependence.
-The mechanistic reading that makes this testable is that a membrane-tethered or matrix-bound EGFR
-ligand of the kind enriched in mutant cells in our own contrast, Areg at +2.0 log2 units over
-wild-type cells in the same oncogenic lung, acts over a short range, while a soluble mediator or a
-mechanical change acts across the lobe. The rival is a single field effect whose two readouts differ
-only in dynamic range, saturation or measurement sensitivity, in which case one mechanism explains
-both and the apparent decoupling is an artefact of the readouts.
+**Proposed 28 September 2026; pending the owner's retain or reject.**
 
-**What is not being asked.** Whether wild-type expansion promotes or restrains tumour progression.
-That is the owner's separately flagged unknown and needs a perturbation, not a distance profile.
-Also not asked: the molecular identity of either mediator, which this design can motivate but not
-establish.
+**Hypothesis and biology.** Mutant tissue influences WT cell expansion and AT2
+identity through partly separable controls. The source's different spatial
+patterns motivate this hypothesis, but do not identify two mediators or their
+ranges. SPP1/DLK1 have direct source organoid motivation (Figure S6Q–V); AREG,
+relay signalling and mechanical effects are alternatives. Ligand RNA abundance
+or ligand class cannot assign an in-vivo signalling distance.
 
-**Observation.** The source states this decoupling directly: loss of pro-Sftpc was independent of
-proximity to mutant clones up to a 300 um resolution, in contrast to wild-type expansion, suggesting
-that alternate mechanisms control self-renewal versus differentiation (Figures 5G–5J, 6E–6F). Our
-FU_W is a reproduction of that comparison on the deposited pooled pair arrays, not an independent
-contrast; what it adds is recoverability from the deposit, a common relative scale, the homeostatic
-slope for both readouts, and an occupancy audit. Neighbour clone size falls with distance in all four
-Red2Kras datasets, by 16 to 109 per cent of the distal level per 100 um. On full-bin slopes
-kras1w (-109), kras2w (-78) and kras4w (-41) all fall faster than every one of the nine homeostatic
-Confetti datasets, the most negative of which is conf60w at -22, while kras4d (-16) sits inside the
-homeostatic range. Restricting to bins with at least 100 pair rows barely moves the oncogenic values
-(-109, -69, -43), so the size gradient is not an artefact of the sparse distal bins, but under that
-restriction conf60w reaches -56 and kras4w no longer separates from homeostatic tissue, so only the
-one- and two-week timepoints separate on both estimators. The pro-Sftpc-negative
-fraction is two- to five-fold raised over homeostatic tissue at every distance, 0.14 to 0.33 against
-0.03 to 0.09, but its slope is inconsistent in sign in both contexts (-49, -2.5, +3.5, +12 in
-oncogenic; -48 to +55 in homeostatic), so the deposit is consistent with proximity independence
-without providing strong evidence for it. Read
-[FU_W in the follow-up](Research%20Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md).
-**These are pooled rows with no mouse or clone identifiers, a neighbour clone may recur across rows,
-and pair rows collapse with distance (kras1w: 4,953 at 25 um to 13 at 225 um) exactly as the source
-methods note, so nothing here is a mouse-level effect, a significance statement or a causal reading.
-The exposure is disclosed in the contract: the slopes were seen before the block was frozen.**
+**Current evidence.** Source Figures 5–6 support altered WT growth and identity.
+FU_W reproduces pooled size and pro-Sftpc profiles and checks bin occupancy and
+scale. The identity-loss slope is noisy and inconsistent in sign; that does not
+establish distance independence. Pair rows omit mouse/clone identifiers, may
+repeat neighbours and become sparse at distance. Log-size/logit-fraction
+transformations do not restore replication or make biological effects directly
+interchangeable. Cell fractions around 0.2–0.3 do not establish saturation.
+The source's mutant-cell EdU results are not a WT distance-dependent division test.
 
-**Rivals and test.** The strongest rival is clone merger near large lesions, which would inflate
-apparent neighbour size at short distance without any change in division rate, and which the
-deposited rows cannot exclude. Next is segmentation and detection bias in dense perilesional tissue,
-then saturation of the pro-Sftpc-negative fraction, which already sits near 0.2 to 0.3 close to the
-clone and has less room to rise, then the unmatched reference, since distance in Confetti tissue is
-clone-to-clone rather than clone-to-mutant, and finally differing measurement noise between a count
-and a fraction. The discriminating test needs the mouse and clone identifiers that were not
-deposited: a joint model over both readouts with distance as the predictor, the animal as the unit
-of inference and a distance-by-readout interaction as the estimand, with clone merger addressed by
-restricting to unambiguously separated clones and by a size-independent division readout such as EdU
-per neighbour cell rather than clone size. A spatial transcriptomic or EdU-plus-immunofluorescence
-series in this model would test the same interaction directly, and would separate the two candidate
-mediators by their predicted ranges.
+**Prediction, rival and decision.** With identified mice/clones, WT expansion
+and identity loss should retain distinguishable distance associations after
+accounting for sampling geometry, repeated neighbours and clone merger. A common
+response distorted by different readout sensitivities remains a rival. Compare
+predicted changes on meaningful scales with uncertainty; a distance-by-readout
+interaction alone would still not identify separate causal signals. Source
+necessity and recipient response require separate evidence.
 
-**Decision / readiness.** **Descriptively complete and inferentially blocked.** The distance
-profiles are computed and frozen as FU_W in the
-[follow-up contract](Research%20Article/gate2_C2_england_2025/config/followup_contract.json); the
-interaction test requires either mouse-level and clone-level rows requested from the authors or a new
-spatial series. No mouse deposit found in our search pairs this model with spatial coordinates; the
-early fibrotic niche series GSE316241, GSE316243 and GSE316244 surfaced as the nearest candidates and
-need an eligibility check before any transfer. An owner decision is required on whether to request
-the identifiers before this question is graded.
+**Readiness.** Descriptive profiles are complete. Animal-level spatial inference
+is blocked pending identifiers or suitable new data. Nonspatial mouse-indexed
+arrays do exist and permit the narrower [E-N1/E-N2](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
+questions. E-N8 develops SPP1/DLK1 interaction. Neither these analyses nor a new
+RNA fit would show whether WT responses promote or restrain tumour progression.
+No author was contacted. [Source audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md),
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC3–MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
 

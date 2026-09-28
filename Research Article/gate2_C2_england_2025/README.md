@@ -1,8 +1,15 @@
 # England et al. 2025: regeneration, NF-kB feedback and mutant AT2 states
 
-**Questions derived, 28 September 2026:** the follow-up proposes [A16 and A17](../../RESEARCH_QUESTIONS.md) (Cd177 as intrinsic programme versus transcriptional position; founder-class support under a boundary-correct simulation), both pending the owner's retain or reject.
+**Current interpretation, 28 September 2026:** read the [source/claim audit](../../docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
+and corrected [A16–A18 cards](../../RESEARCH_QUESTIONS.md#a16). All three remain
+proposed. The [eight additional candidate hypotheses](CANDIDATE_HYPOTHESES.md)
+now separate biological context from [supporting technical checks](CANDIDATE_CHECKS.md).
+FU_A's frozen depth verdict is inconclusive; FU_C changed the population and
+pooling. A17's refit needs a source/model amendment, and A18 lacks spatial
+inferential units. Original reports below preserve the executed outputs;
+their stronger interpretations are superseded by this review.
 
-**Follow-up executed, 28 September 2026:** [RESULTS_FOLLOWUP.md](RESULTS_FOLLOWUP.md) adds depth control of the CD177 associations, a calibrated AT1 module gate, two-round subclustering with UMAP and undirected topology tests of the paper's transition model, under the [follow-up contract](config/followup_contract.json). No trajectory direction is claimed; the paper itself ran no trajectory method.
+**Follow-up executed, 28 September 2026:** [RESULTS_FOLLOWUP.md](RESULTS_FOLLOWUP.md) adds depth control of the CD177 associations, a calibrated AT1 module gate, two-round subclustering with UMAP and undirected topology tests of the paper's transition model, under the [follow-up contract](config/followup_contract.json). No trajectory direction is claimed; no computational directional trajectory method is documented in the inspected article/supplements. The source's plasticity evidence includes sorted-state functional assays.
 
 **Continuation executed, 28 September 2026:** [RESULTS_CONTINUATION.md](RESULTS_CONTINUATION.md) reports EN0-EN7 under the frozen [contract](CONTINUATION_CONTRACT.md) and amendments, with 1,178 verification checks and six figures; the [handoff](../../docs/handoffs/2026-09-28-england-en7-cd177.md) records the sessions. Batch1 results below remain unchanged.
 

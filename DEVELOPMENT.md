@@ -1521,3 +1521,25 @@ that was not checked against the tree.
 `NEXT_DATASET_GATE.md`, should be rewritten rather than left with appended banners. Two lenses
 recommended rewriting their heads and keeping their bodies. That is a change to living
 interpretation documents and is left for the owner.
+
+
+## 28 September 2026: England source review and biological hypothesis rewrite
+
+Codex reviewed the article/supplements against saved source, code and tables,
+performed a bounded post-hoc same-population diagnostic, and reframed eight
+assistant-proposed candidates. The [audit and revision record](docs/audits/2026-09-28-england-paper-rqs/ARCHITECTURE_REVIEW.md)
+separates new interpretation from preserved analytical outputs.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | England audit, eight biological cards, architecture corrections, PR and merge after checks | Codex | Repository owner, explicit chat instructions to review/reframe and then open and merge a PR | Authorized revision and publication; no new A registration or claim-grade acceptance inferred | The original wording mixed biological questions with technical checks and carried overstrong A16–A18 premises |
+
+Rejected or substantially revised assistant output:
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-09-28 | Eight method-heavy candidate descriptions | Owner found them hard to understand; separate biological hypothesis, context, prediction and feasibility, with technical checks linked underneath | Owner requested reframing; Codex supplies the revised interpretations |
+| 2026-09-28 | A16 depth artefacts excluded; within-cluster priming consistently persists | Frozen depth verdict is inconclusive and FU_C changed the population; same-population diagnostic is heterogeneous | Codex source/code review under owner authorization |
+| 2026-09-28 | A17 refit already fully specified and able by itself to overturn founder biology | Source accounting, parameter/schedule mapping and model comparison require amendment; code defect is not a biological refutation | Same review authority; historic results preserved |
+| 2026-09-28 | A18 range assigned to an AREG mechanism and flat identity slope treated as separate control | Pooled rows lack inferential units; source SPP1/DLK1 lead and measurement/geometry alternatives remain open | Same review authority; no owner grade inferred |
+| 2026-09-28 | E-N3/E-N5 treated as independent biological discoveries by virtue of a counting or classification improvement | Technical outputs support survival/maturation hypotheses within existing questions; they do not establish those mechanisms | Same review authority |

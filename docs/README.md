@@ -1,5 +1,9 @@
 # Documentation Index
 
+**England review, 28 September 2026:** [paper, claims and A16–A18 audit](audits/2026-09-28-england-paper-rqs/REPORT.md),
+[eight biological hypotheses](../Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md),
+and [architecture/revision record](audits/2026-09-28-england-paper-rqs/ARCHITECTURE_REVIEW.md).
+
 Repository guides: [structure and label scope](REPOSITORY_STRUCTURE.md),
 [portfolio summary](PORTFOLIO_SUMMARY.md) and
 [next-dataset gate](NEXT_DATASET_GATE.md).
