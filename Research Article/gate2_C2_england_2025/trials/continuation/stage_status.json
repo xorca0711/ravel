@@ -1,12 +1,12 @@
 {
-  "status": "phase1_preparation_complete_endpoints_not_run",
+  "status": "phase2_EN1_complete_EN2_to_EN7_not_run",
   "contract_commit": "4d66231",
   "handoff": "docs/handoffs/2026-09-28-england-en7-cd177.md",
   "amendments": "config/continuation_amendments.json",
   "session_2026_09_28_second": "runtime verified, external object schemas confirmed, amendments CA1 to CA3 frozen before any endpoint; no analysis script written or run; owner asked to save state, commit and open a PR",
   "no_process_running": true,
   "EN0": "public run/source mapping complete; matrix checks done (features identical across 20 libraries, 31,053 genes, 36 duplicate symbols, no reporter features, integer counts, no duplicate barcodes); availability ledger written; biological pool/pair/spatial identities unknown",
-  "EN1": "source-inspired clustering not run",
+  "EN1": "source-inspired clustering run per experiment (CA2 igraph multilevel; seed 20260928; r=0.5/1.0/1.5 -> Exp1 13/20/25, Exp2 17/25/36 clusters). Outputs trials/continuation/EN1/. Not an author-label reproduction; no resolution selected on an outcome.",
   "EN2": "batch1 proxies complete; independent-gate extension not run",
   "EN3": "batch1 distributions complete; conditional extension not run",
   "EN4": "new baseline/conditional comparisons not run",
@@ -30,5 +30,16 @@
     ]
   },
   "EN5_note": "transition-gated groups with >=30 cells on both Cd177 sides under the primary rule exist only in the 2-week mutant RFP libraries GSM7890835/GSM7890836; other libraries will be reported as unavailable for the primary contrast",
-  "next": "Phase 2: EN1 source-inspired clustering per experiment (CA2), then EN2-EN5"
+  "next": "Phase 3: run EN2-EN5 (run_rna_continuation.py), then EN6, EN7, verification, figures, report",
+  "phase2_completed_local_date": "2026-09-28",
+  "EN1_state_reliability_notes": [
+    "Transition gate is cluster-concentrated: 88% (Exp1) and 96% (Exp2) of transition-gated cells fall in two clusters; the main transition cluster is 98% mutant RFP (Exp1 cluster 11) and 90% of mutant transition cells sit in it.",
+    "AT1 gate (>=2 of Ager/Hopx/Clic5) is not cluster-concentrated: 17-18% of cells in pure AT2 clusters pass it; top-2 clusters hold only 43% (Exp1) / 51% (Exp2) of AT1-gate cells. 'mixed' state largely reflects low-level Ager/Hopx detection in AT2 cells, not a mature AT1 population; no distinct AT1 cluster exists in these sorted libraries.",
+    "Cd177-positive cells concentrate in one high-depth cluster per experiment (Exp1 cluster 12: 96% 2-week mutant RFP, 21% Cd177>=1, 51% AT1 gate, 25% cycling>=2; Exp2 cluster 11: 13% Cd177>=1, 43% AT1 gate, 21% cycling).",
+    "Immune clusters retain 30-56% of cells under the primary rule (Exp1 clusters 6/7); strict rule removes more. Depth differs strongly across clusters (median UMIs 3.3k-13.8k); depth-thinned variants are essential for EN2-EN5."
+  ],
+  "drafted_not_run": {
+    "scripts/run_rna_continuation.py": "EN2-EN5 endpoints, drafted from the contract, not executed",
+    "scripts/run_simulation_en6.py": "EN6 three-implementation simulator audit (CA1), drafted, not executed"
+  }
 }

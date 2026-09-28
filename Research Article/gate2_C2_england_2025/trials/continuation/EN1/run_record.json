@@ -1,0 +1,208 @@
+{
+  "stage": "EN1 source-inspired clustering",
+  "started_utc": "2026-09-28T03:24:56.979304+00:00",
+  "contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "amendments_sha256": "5596a674795bfa7ffdd94146e2ff843dc245c8d97bedbdbcbabacde935e237cf",
+  "script_sha256": "0f9872f5954c6ee1b9e47ba7b67ba8c0334f81bc12b2d7613160f4f096740e8d",
+  "git_head": "449db98a585338b146a019bb52db33c675ce7c55",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "scanpy": "1.12.3",
+    "anndata": "0.13.2",
+    "igraph": "1.0.0"
+  },
+  "rules": {
+    "experiments_separate": true,
+    "counts": "full raw triplets after source QC",
+    "genes": "nonmitochondrial, detected >=3 cells",
+    "HVG": 5000,
+    "transform": "normalize_total 10000 + log1p, Seurat-flavor HVG, unscaled sparse PCA",
+    "pcs": 30,
+    "neighbors": 15,
+    "algorithm": "igraph Louvain",
+    "resolutions": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "seed": 20260928,
+    "note": "source-inspired sensitivity, not exact Seurat integration or recovered author annotations; no outcome selected resolution"
+  },
+  "amendment": "CA2: igraph Graph.community_multilevel(weights=connectivities, resolution=r) with random.seed(seed) before each call",
+  "inputs": [
+    {
+      "path": "processed/continuation/cells_table.csv.gz",
+      "sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78"
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890829_sourceQC.npz",
+      "sha256": "4341df67818bd5e85a8c34d4ee8b31452802a7d23a0b595a71e77c972e01d4fd",
+      "cells": 3980
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890830_sourceQC.npz",
+      "sha256": "b1d13c1f804a57a2a8d1b5a9168f5ad3880778a15521d205cd00ac3d907fb30b",
+      "cells": 4177
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890831_sourceQC.npz",
+      "sha256": "66712cd3bf0ef389e46131eff207fc2521213a5008a782d3ff0a31849fb46aca",
+      "cells": 3838
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890832_sourceQC.npz",
+      "sha256": "9e9d29bbb66daeb3c5aacaee7468e8363389f29fd38a0f179ad0f55d3b919a3a",
+      "cells": 1736
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890833_sourceQC.npz",
+      "sha256": "97fa8cafcfc2242925065f443f714909a41651ddd5c051cde7439044ba83356a",
+      "cells": 1913
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890834_sourceQC.npz",
+      "sha256": "3d31fc960c797a82084f1ddea0ea785d53645c86488194d919b790230bec40db",
+      "cells": 3090
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890835_sourceQC.npz",
+      "sha256": "c63f6dfffb11f8d4f4c43896f0486e67990f042e108ea437a134b83b2c56dd9c",
+      "cells": 4245
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890836_sourceQC.npz",
+      "sha256": "ac938c651daac0c4fc41a5cd048616120236ed532f93887c36a8273f97e8ee3d",
+      "cells": 3528
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890837_sourceQC.npz",
+      "sha256": "d5bcda46799c162b70bec244c7acd3dd20d1bcb7ec52c460cd4c84d1b827d802",
+      "cells": 4445
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890838_sourceQC.npz",
+      "sha256": "6a73b73307a138a94792586ab9f1657bf2906bc4b2cd5efc2d51ae09d43b22aa",
+      "cells": 1746
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890839_sourceQC.npz",
+      "sha256": "2a38a942e8a308b0393687539ec151555fd27b23b8b5f683ee1777775b3a69ba",
+      "cells": 1231
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890840_sourceQC.npz",
+      "sha256": "9f6c83d0620fc62665aa04e7b1e04706d88ea37829dfdb910ea139724e761b78",
+      "cells": 1498
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890841_sourceQC.npz",
+      "sha256": "3daf4c8a68d0070442c9bba0b983653767f9d3737d3423e9f35af8c3a4bec0b8",
+      "cells": 826
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890842_sourceQC.npz",
+      "sha256": "c509c63565d8c4ffe5e895c62c44393b04636c64eade681c004446d443e9864a",
+      "cells": 754
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890843_sourceQC.npz",
+      "sha256": "0568f37dc84bd6bbd42b6921c0bf464227eadda6df330fd2d1e6bbae6e0e4ed7",
+      "cells": 871
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890844_sourceQC.npz",
+      "sha256": "bc614b60e816a7d804a69ac087ea8cee885bb8c66436e256bce8beff49aa022e",
+      "cells": 620
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890845_sourceQC.npz",
+      "sha256": "2e29254aac73d34e5c28f1f127f94f0aff5484a4f07f0022d4e82cc88377bb30",
+      "cells": 1490
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890846_sourceQC.npz",
+      "sha256": "b49aa587962f8a80d5b3b92328f3415f8b16f1a577d7cfae25187aaf0c92648d",
+      "cells": 1528
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890847_sourceQC.npz",
+      "sha256": "cb5f2c9f052db450c39c930b3a83a0522ff571dfdb36c665a73453e6b04610c1",
+      "cells": 1479
+    },
+    {
+      "path": "processed/continuation/matrices/GSM7890848_sourceQC.npz",
+      "sha256": "71b5bfa91e5612f82730026bc5c3f392064ceb7f97bbb99a3a5582cd7436b3b6",
+      "cells": 1201
+    }
+  ],
+  "experiments": {
+    "1": {
+      "r0.5_clusters": 13,
+      "r0.5_modularity": 0.860437109031052,
+      "r1.0_clusters": 20,
+      "r1.0_modularity": 0.8065205635171823,
+      "r1.5_clusters": 25,
+      "r1.5_modularity": 0.7659718752977814,
+      "cells": 32698,
+      "genes_used": 19580,
+      "hvg": 5000
+    },
+    "2": {
+      "r0.5_clusters": 17,
+      "r0.5_modularity": 0.8421024530725675,
+      "r1.0_clusters": 25,
+      "r1.0_modularity": 0.779720039620213,
+      "r1.5_clusters": 36,
+      "r1.5_modularity": 0.7409448395825919,
+      "cells": 11498,
+      "genes_used": 18322,
+      "hvg": 5000
+    }
+  },
+  "interpretation": "sensitivity reconstruction; not author labels; no outcome-selected resolution",
+  "completed_utc": "2026-09-28T03:29:32.830755+00:00",
+  "outputs": [
+    {
+      "file": "cluster_by_library.csv",
+      "sha256": "a84bb080540d5362c46c42e11d5e9ba8eaa02bf80c6c1b380db31024fb5b8885"
+    },
+    {
+      "file": "cluster_gate_crosstab.csv",
+      "sha256": "b82be430af1c6a20bc77e734e0016a3e9306d06395746745d6dcc423a3d2bb78"
+    },
+    {
+      "file": "cluster_marker_panels.csv",
+      "sha256": "1acf26ef0cdf69446a87c8113ce6228334ecfcecb55e6ebd175f3aac71a21ec7"
+    },
+    {
+      "file": "cluster_sizes.csv",
+      "sha256": "2d47221bec9c0199e55483eb26af9b101ef4557dfbbd77214fad7695146328fa"
+    },
+    {
+      "file": "retention_waterfall.csv",
+      "sha256": "e21bcedb1c1b0c4dfb526d43e43701a3a9e6c5fd4eb6f4df8d3234aafb2d0a13"
+    }
+  ],
+  "ignored_outputs": [
+    {
+      "file": "experiment1_cluster_labels.csv.gz",
+      "sha256": "ba32a000ad404a824a7a2f1fdbde25f2bd374b05caf215981755049f558f9a48"
+    },
+    {
+      "file": "experiment1_pca.npy",
+      "sha256": "aa3665c162c9628f7ba83749f7de5ddefc0d59a5d0ddfe91952b5ca27a74ac40"
+    },
+    {
+      "file": "experiment2_cluster_labels.csv.gz",
+      "sha256": "9f7421af7fdc2f12accaea7f4ed794d790ff7cf2964b03bad7883c37273b4836"
+    },
+    {
+      "file": "experiment2_pca.npy",
+      "sha256": "5235fb27ab81c5a83c0bd295e128ec58461a1490efc6e46fd949cee2546ce374"
+    }
+  ]
+}

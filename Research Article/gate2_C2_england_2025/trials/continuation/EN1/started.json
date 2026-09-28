@@ -1,0 +1,39 @@
+{
+  "stage": "EN1 source-inspired clustering",
+  "started_utc": "2026-09-28T03:24:56.979304+00:00",
+  "contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "amendments_sha256": "5596a674795bfa7ffdd94146e2ff843dc245c8d97bedbdbcbabacde935e237cf",
+  "script_sha256": "0f9872f5954c6ee1b9e47ba7b67ba8c0334f81bc12b2d7613160f4f096740e8d",
+  "git_head": "449db98a585338b146a019bb52db33c675ce7c55",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "scanpy": "1.12.3",
+    "anndata": "0.13.2",
+    "igraph": "1.0.0"
+  },
+  "rules": {
+    "experiments_separate": true,
+    "counts": "full raw triplets after source QC",
+    "genes": "nonmitochondrial, detected >=3 cells",
+    "HVG": 5000,
+    "transform": "normalize_total 10000 + log1p, Seurat-flavor HVG, unscaled sparse PCA",
+    "pcs": 30,
+    "neighbors": 15,
+    "algorithm": "igraph Louvain",
+    "resolutions": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "seed": 20260928,
+    "note": "source-inspired sensitivity, not exact Seurat integration or recovered author annotations; no outcome selected resolution"
+  },
+  "amendment": "CA2: igraph Graph.community_multilevel(weights=connectivities, resolution=r) with random.seed(seed) before each call",
+  "inputs": [],
+  "experiments": {},
+  "interpretation": "sensitivity reconstruction; not author labels; no outcome-selected resolution"
+}
