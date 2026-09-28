@@ -1,0 +1,9 @@
+# A17 source-accounting checkpoint
+
+This is deterministic input reconciliation, not a new clone-growth fit. Prior counts and simulator differences are already exposed. Re-read the hash-identified Zenodo v1.1 archive, decode every nested mouse/channel array independently, and compare n >= 2 counts with the existing mouse summary and the visually checked Table S1 transcription. Preserve both manuscript and archive values and never infer missing mouse identities from clone rows.
+
+Trace the deposited mutant script's actual argument mapping into the fast/slow process and rate-switch schedule. Record the archival parameter values, their units and the manuscript discrepancies separately. The code's `sigma_s` argument feeds the fast process; spelling alone cannot map it to a manuscript symbol. No silent repair of source parameters, figures or source tables is allowed.
+
+Write a reusable per-mouse input manifest, discrepancy ledger and parameter trace under `a17_source_accounting/`. Hash direct inputs and the script, assert parity with archived batch1 counts, and refuse completed-output overwrite. The primary cohort definition remains RFP, kras1w/kras2w/kras4w, clone size >= 2, with equal-mouse evaluation weights. These data are exposed and any future fit is exploratory.
+
+Stop before stochastic fitting. The old FU_S proposal does not fully specify rate switching across its grid, tail diagnostics, likelihood handling of unobserved bins or a common comparator evaluation. A future contract must explicitly distinguish a code-consistent exploratory comparison from reproduction of published fitting, identify source variants, and define those choices before new fit outcomes. This checkpoint supplies the verified input units and code mapping for that amendment; it does not resolve which parameters produced the paper's curves.

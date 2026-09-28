@@ -51,6 +51,7 @@ Exploratory findings and independent confirmation are distinguished explicitly.
 | Biological hypotheses, evidence and next tests | [Research questions](RESEARCH_QUESTIONS.md); [measurement contracts](docs/RQ_MEASUREMENT_CONTRACTS.md) |
 | England source review and eight plain-language candidate hypotheses | [Source/claim audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md); [hypothesis cards](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md) |
 | Current merged analyses and remaining work | [Current handoff](PROGRESS.md); [question-specific status](RQ_Specified/README.md) |
+| Executed adversarial-review gap fills | [Corrections, cohort gates and every-question ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md) |
 | Biological logic, interpretation limits and follow-up order | [A0–A15 audit](docs/audits/2026-09-27-rq-rationale/REPORT.md); [shared architecture](docs/RESEARCH_ARCHITECTURE.md) |
 | Plans, package results and remaining data gates | [Research roadmap](docs/RESEARCH_ROADMAP.md); [latest follow-through](docs/roadmap_runs/2026-09-27-followthrough/README.md) |
 | Paper-specific analyses and figure galleries | [Paper roadmap](Research%20Article/README.md) |

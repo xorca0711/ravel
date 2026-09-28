@@ -1,0 +1,2086 @@
+{
+  "accession": "GSE131907",
+  "series": {
+    "title": [
+      "Single cell RNA sequencing of lung adenocarcinoma"
+    ],
+    "pubmed_id": [
+      "32385277",
+      "40517220"
+    ],
+    "summary": [
+      "We performed single cell RNA sequencing (scRNA-seq) for 208,506 cells derived from 58 lung adenocarcinomas from 44 patients, which covers primary tumour, lymph node and brain metastases, and pleural effusion in addition to normal lung tissues and lymph nodes. The extensive single cell profiles depicted a complex cellular atlas of lung adenocarcinoma progression which includes cancer, stromal, and immune cells in the surrounding tumor microenvironments."
+    ],
+    "overall_design": [
+      "All single-cell mRNA expression profiles were acquired from forty-four patients pathologically diagnosed with lung adenocarcinoma (LUAD) (58 samples). 11 tumour, 11 distant normal lung, 10 normal lymph node, and 10 metastatic brain tissue samples were obtained from LUAD patients conserving surgery without prior treatment. 7 metastatic lymph node and 4 lung tumour tissue samples from advanced stage LUAD patients were also collected through the endobronchial ultrasound (EBUS) and bronchoscopy (BRONCHO). And 5 pleural fluid samples were obtained from LUAD patients with malignant pleural effusion. We applied the quality measures so as to remove less informative cells and finally obtained 208,506 single cell sequencing data.",
+      "",
+      "---------------------------------------------------------",
+      "Submitter states that raw data are not availble for open access due to patient privacy concerns. Raw data will be made available under controlled access at EGA: EGAD00001005054 (EGAS00001003680 and EGAS00001003681).",
+      "---------------------------------------------------------"
+    ],
+    "sample_id": [
+      "GSM3827114",
+      "GSM3827115",
+      "GSM3827116",
+      "GSM3827117",
+      "GSM3827118",
+      "GSM3827119",
+      "GSM3827120",
+      "GSM3827121",
+      "GSM3827122",
+      "GSM3827123",
+      "GSM3827124",
+      "GSM3827125",
+      "GSM3827126",
+      "GSM3827127",
+      "GSM3827128",
+      "GSM3827129",
+      "GSM3827130",
+      "GSM3827131",
+      "GSM3827132",
+      "GSM3827133",
+      "GSM3827134",
+      "GSM3827135",
+      "GSM3827136",
+      "GSM3827137",
+      "GSM3827138",
+      "GSM3827139",
+      "GSM3827140",
+      "GSM3827141",
+      "GSM3827142",
+      "GSM3827143",
+      "GSM3827144",
+      "GSM3827145",
+      "GSM3827146",
+      "GSM3827147",
+      "GSM3827148",
+      "GSM3827149",
+      "GSM3827150",
+      "GSM3827151",
+      "GSM3827152",
+      "GSM3827153",
+      "GSM3827154",
+      "GSM3827155",
+      "GSM3827156",
+      "GSM3827157",
+      "GSM3827158",
+      "GSM3827159",
+      "GSM3827160",
+      "GSM3827161",
+      "GSM3827162",
+      "GSM3827163",
+      "GSM3827164",
+      "GSM3827165",
+      "GSM3827166",
+      "GSM3827167",
+      "GSM3827168",
+      "GSM3827169",
+      "GSM3827170",
+      "GSM3827171"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/suppl/GSE131907_Lung_Cancer_Feature_Summary.xlsx",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/suppl/GSE131907_Lung_Cancer_cell_annotation.txt.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/suppl/GSE131907_Lung_Cancer_normalized_log2TPM_matrix.rds.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/suppl/GSE131907_Lung_Cancer_normalized_log2TPM_matrix.txt.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/suppl/GSE131907_Lung_Cancer_raw_UMI_matrix.rds.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/suppl/GSE131907_Lung_Cancer_raw_UMI_matrix.txt.gz"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM3827114",
+      "title": [
+        "LUNG_N01"
+      ],
+      "geo_accession": [
+        "GSM3827114"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0001",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882900"
+      ]
+    },
+    {
+      "accession": "GSM3827115",
+      "title": [
+        "LUNG_N06"
+      ],
+      "geo_accession": [
+        "GSM3827115"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0006",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882899"
+      ]
+    },
+    {
+      "accession": "GSM3827116",
+      "title": [
+        "LUNG_N08"
+      ],
+      "geo_accession": [
+        "GSM3827116"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0008",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882898"
+      ]
+    },
+    {
+      "accession": "GSM3827117",
+      "title": [
+        "LUNG_N09"
+      ],
+      "geo_accession": [
+        "GSM3827117"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0009",
+        "tumor stage: II",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882897"
+      ]
+    },
+    {
+      "accession": "GSM3827118",
+      "title": [
+        "LUNG_N18"
+      ],
+      "geo_accession": [
+        "GSM3827118"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0018",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882896"
+      ]
+    },
+    {
+      "accession": "GSM3827119",
+      "title": [
+        "LUNG_N19"
+      ],
+      "geo_accession": [
+        "GSM3827119"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0019",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882895"
+      ]
+    },
+    {
+      "accession": "GSM3827120",
+      "title": [
+        "LUNG_N20"
+      ],
+      "geo_accession": [
+        "GSM3827120"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0020",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882894"
+      ]
+    },
+    {
+      "accession": "GSM3827121",
+      "title": [
+        "LUNG_N28"
+      ],
+      "geo_accession": [
+        "GSM3827121"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0028",
+        "tumor stage: III",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882893"
+      ]
+    },
+    {
+      "accession": "GSM3827122",
+      "title": [
+        "LUNG_N30"
+      ],
+      "geo_accession": [
+        "GSM3827122"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0030",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882892"
+      ]
+    },
+    {
+      "accession": "GSM3827123",
+      "title": [
+        "LUNG_N31"
+      ],
+      "geo_accession": [
+        "GSM3827123"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0031",
+        "tumor stage: III",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882853"
+      ]
+    },
+    {
+      "accession": "GSM3827124",
+      "title": [
+        "LUNG_N34"
+      ],
+      "geo_accession": [
+        "GSM3827124"
+      ],
+      "source_name_ch1": [
+        "Normal lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0034",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882852"
+      ]
+    },
+    {
+      "accession": "GSM3827125",
+      "title": [
+        "LUNG_T06"
+      ],
+      "geo_accession": [
+        "GSM3827125"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0006",
+        "tumor stage: I",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882851"
+      ]
+    },
+    {
+      "accession": "GSM3827126",
+      "title": [
+        "LUNG_T08"
+      ],
+      "geo_accession": [
+        "GSM3827126"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0008",
+        "tumor stage: I",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882850"
+      ]
+    },
+    {
+      "accession": "GSM3827127",
+      "title": [
+        "LUNG_T09"
+      ],
+      "geo_accession": [
+        "GSM3827127"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0009",
+        "tumor stage: II",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882849"
+      ]
+    },
+    {
+      "accession": "GSM3827128",
+      "title": [
+        "LUNG_T18"
+      ],
+      "geo_accession": [
+        "GSM3827128"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0018",
+        "tumor stage: I",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882848"
+      ]
+    },
+    {
+      "accession": "GSM3827129",
+      "title": [
+        "LUNG_T19"
+      ],
+      "geo_accession": [
+        "GSM3827129"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0019",
+        "tumor stage: I",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882847"
+      ]
+    },
+    {
+      "accession": "GSM3827130",
+      "title": [
+        "LUNG_T20"
+      ],
+      "geo_accession": [
+        "GSM3827130"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0020",
+        "tumor stage: I",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882846"
+      ]
+    },
+    {
+      "accession": "GSM3827131",
+      "title": [
+        "LUNG_T25"
+      ],
+      "geo_accession": [
+        "GSM3827131"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0025",
+        "tumor stage: I",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882845"
+      ]
+    },
+    {
+      "accession": "GSM3827132",
+      "title": [
+        "LUNG_T28"
+      ],
+      "geo_accession": [
+        "GSM3827132"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0028",
+        "tumor stage: III",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882841"
+      ]
+    },
+    {
+      "accession": "GSM3827133",
+      "title": [
+        "LUNG_T30"
+      ],
+      "geo_accession": [
+        "GSM3827133"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0030",
+        "tumor stage: I",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882840"
+      ]
+    },
+    {
+      "accession": "GSM3827134",
+      "title": [
+        "LUNG_T31"
+      ],
+      "geo_accession": [
+        "GSM3827134"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0031",
+        "tumor stage: III",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882839"
+      ]
+    },
+    {
+      "accession": "GSM3827135",
+      "title": [
+        "LUNG_T34"
+      ],
+      "geo_accession": [
+        "GSM3827135"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P0034",
+        "tumor stage: I",
+        "tissue origin abbrevation: tLung",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "Reanalyzed by: GSE210347",
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882838"
+      ]
+    },
+    {
+      "accession": "GSM3827136",
+      "title": [
+        "EBUS_06"
+      ],
+      "geo_accession": [
+        "GSM3827136"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1006",
+        "tumor stage: IV",
+        "tissue origin abbrevation: tL/B",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882844"
+      ]
+    },
+    {
+      "accession": "GSM3827137",
+      "title": [
+        "EBUS_28"
+      ],
+      "geo_accession": [
+        "GSM3827137"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1028",
+        "tumor stage: IV",
+        "tissue origin abbrevation: tL/B",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882843"
+      ]
+    },
+    {
+      "accession": "GSM3827138",
+      "title": [
+        "EBUS_49"
+      ],
+      "geo_accession": [
+        "GSM3827138"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1049",
+        "tumor stage: IV",
+        "tissue origin abbrevation: tL/B",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882842"
+      ]
+    },
+    {
+      "accession": "GSM3827139",
+      "title": [
+        "BRONCHO_58"
+      ],
+      "geo_accession": [
+        "GSM3827139"
+      ],
+      "source_name_ch1": [
+        "Tumour lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1058",
+        "tumor stage: IV",
+        "tissue origin abbrevation: tL/B",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882837"
+      ]
+    },
+    {
+      "accession": "GSM3827140",
+      "title": [
+        "EBUS_10"
+      ],
+      "geo_accession": [
+        "GSM3827140"
+      ],
+      "source_name_ch1": [
+        "Metastatic lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1010",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882836"
+      ]
+    },
+    {
+      "accession": "GSM3827141",
+      "title": [
+        "BRONCHO_11"
+      ],
+      "geo_accession": [
+        "GSM3827141"
+      ],
+      "source_name_ch1": [
+        "Metastatic lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1011",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882835"
+      ]
+    },
+    {
+      "accession": "GSM3827142",
+      "title": [
+        "EBUS_12"
+      ],
+      "geo_accession": [
+        "GSM3827142"
+      ],
+      "source_name_ch1": [
+        "Metastatic lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1012",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882834"
+      ]
+    },
+    {
+      "accession": "GSM3827143",
+      "title": [
+        "EBUS_13"
+      ],
+      "geo_accession": [
+        "GSM3827143"
+      ],
+      "source_name_ch1": [
+        "Metastatic lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1013",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882833"
+      ]
+    },
+    {
+      "accession": "GSM3827144",
+      "title": [
+        "EBUS_15"
+      ],
+      "geo_accession": [
+        "GSM3827144"
+      ],
+      "source_name_ch1": [
+        "Metastatic lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1015",
+        "tumor stage: III",
+        "tissue origin abbrevation: mLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882832"
+      ]
+    },
+    {
+      "accession": "GSM3827145",
+      "title": [
+        "EBUS_19"
+      ],
+      "geo_accession": [
+        "GSM3827145"
+      ],
+      "source_name_ch1": [
+        "Metastatic lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1019",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882831"
+      ]
+    },
+    {
+      "accession": "GSM3827146",
+      "title": [
+        "EBUS_51"
+      ],
+      "geo_accession": [
+        "GSM3827146"
+      ],
+      "source_name_ch1": [
+        "Metastatic lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1051",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882830"
+      ]
+    },
+    {
+      "accession": "GSM3827147",
+      "title": [
+        "LN_01"
+      ],
+      "geo_accession": [
+        "GSM3827147"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2001",
+        "tumor stage: II",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882829"
+      ]
+    },
+    {
+      "accession": "GSM3827148",
+      "title": [
+        "LN_02"
+      ],
+      "geo_accession": [
+        "GSM3827148"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2002",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882828"
+      ]
+    },
+    {
+      "accession": "GSM3827149",
+      "title": [
+        "LN_03"
+      ],
+      "geo_accession": [
+        "GSM3827149"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2003",
+        "tumor stage: II",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882827"
+      ]
+    },
+    {
+      "accession": "GSM3827150",
+      "title": [
+        "LN_04"
+      ],
+      "geo_accession": [
+        "GSM3827150"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2004",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882826"
+      ]
+    },
+    {
+      "accession": "GSM3827151",
+      "title": [
+        "LN_05"
+      ],
+      "geo_accession": [
+        "GSM3827151"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2005",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882825"
+      ]
+    },
+    {
+      "accession": "GSM3827152",
+      "title": [
+        "LN_06"
+      ],
+      "geo_accession": [
+        "GSM3827152"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2006",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882824"
+      ]
+    },
+    {
+      "accession": "GSM3827153",
+      "title": [
+        "LN_07"
+      ],
+      "geo_accession": [
+        "GSM3827153"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2007",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882891"
+      ]
+    },
+    {
+      "accession": "GSM3827154",
+      "title": [
+        "LN_08"
+      ],
+      "geo_accession": [
+        "GSM3827154"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2008",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882890"
+      ]
+    },
+    {
+      "accession": "GSM3827155",
+      "title": [
+        "LN_11"
+      ],
+      "geo_accession": [
+        "GSM3827155"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2011",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882889"
+      ]
+    },
+    {
+      "accession": "GSM3827156",
+      "title": [
+        "LN_12"
+      ],
+      "geo_accession": [
+        "GSM3827156"
+      ],
+      "source_name_ch1": [
+        "Normal lymph node"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P2012",
+        "tumor stage: I",
+        "tissue origin abbrevation: nLN",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882888"
+      ]
+    },
+    {
+      "accession": "GSM3827157",
+      "title": [
+        "EFFUSION_06"
+      ],
+      "geo_accession": [
+        "GSM3827157"
+      ],
+      "source_name_ch1": [
+        "Pleural effusion"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1006",
+        "tumor stage: IV",
+        "tissue origin abbrevation: PE",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882887"
+      ]
+    },
+    {
+      "accession": "GSM3827158",
+      "title": [
+        "EFFUSION_11"
+      ],
+      "geo_accession": [
+        "GSM3827158"
+      ],
+      "source_name_ch1": [
+        "Pleural effusion"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1011",
+        "tumor stage: IV",
+        "tissue origin abbrevation: PE",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882886"
+      ]
+    },
+    {
+      "accession": "GSM3827159",
+      "title": [
+        "EFFUSION_12"
+      ],
+      "geo_accession": [
+        "GSM3827159"
+      ],
+      "source_name_ch1": [
+        "Pleural effusion"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1012",
+        "tumor stage: IV",
+        "tissue origin abbrevation: PE",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882885"
+      ]
+    },
+    {
+      "accession": "GSM3827160",
+      "title": [
+        "EFFUSION_13"
+      ],
+      "geo_accession": [
+        "GSM3827160"
+      ],
+      "source_name_ch1": [
+        "Pleural effusion"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1013",
+        "tumor stage: IV",
+        "tissue origin abbrevation: PE",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882884"
+      ]
+    },
+    {
+      "accession": "GSM3827161",
+      "title": [
+        "EFFUSION_64"
+      ],
+      "geo_accession": [
+        "GSM3827161"
+      ],
+      "source_name_ch1": [
+        "Pleural effusion"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P1064",
+        "tumor stage: IV",
+        "tissue origin abbrevation: PE",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882883"
+      ]
+    },
+    {
+      "accession": "GSM3827162",
+      "title": [
+        "NS_02"
+      ],
+      "geo_accession": [
+        "GSM3827162"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3002",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882882"
+      ]
+    },
+    {
+      "accession": "GSM3827163",
+      "title": [
+        "NS_03"
+      ],
+      "geo_accession": [
+        "GSM3827163"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3003",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882881"
+      ]
+    },
+    {
+      "accession": "GSM3827164",
+      "title": [
+        "NS_04"
+      ],
+      "geo_accession": [
+        "GSM3827164"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3004",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882880"
+      ]
+    },
+    {
+      "accession": "GSM3827165",
+      "title": [
+        "NS_06"
+      ],
+      "geo_accession": [
+        "GSM3827165"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3006",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882879"
+      ]
+    },
+    {
+      "accession": "GSM3827166",
+      "title": [
+        "NS_07"
+      ],
+      "geo_accession": [
+        "GSM3827166"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3007",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882878"
+      ]
+    },
+    {
+      "accession": "GSM3827167",
+      "title": [
+        "NS_12"
+      ],
+      "geo_accession": [
+        "GSM3827167"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3012",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882877"
+      ]
+    },
+    {
+      "accession": "GSM3827168",
+      "title": [
+        "NS_13"
+      ],
+      "geo_accession": [
+        "GSM3827168"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3013",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882876"
+      ]
+    },
+    {
+      "accession": "GSM3827169",
+      "title": [
+        "NS_16"
+      ],
+      "geo_accession": [
+        "GSM3827169"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3016",
+        "tumor stage: III",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882875"
+      ]
+    },
+    {
+      "accession": "GSM3827170",
+      "title": [
+        "NS_17"
+      ],
+      "geo_accession": [
+        "GSM3827170"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3017",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882874"
+      ]
+    },
+    {
+      "accession": "GSM3827171",
+      "title": [
+        "NS_19"
+      ],
+      "geo_accession": [
+        "GSM3827171"
+      ],
+      "source_name_ch1": [
+        "Metastatic brain"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "patient id: P3019",
+        "tumor stage: IV",
+        "tissue origin abbrevation: mBrain",
+        "lung cancer subtype: lung adenocarcinoma"
+      ],
+      "data_processing": [
+        "Fastq files were quantified to unique molecular identifiers (UMI) count values with Cell Ranger toolkit (version 2.1.0) with default parameters.",
+        "For each cell, we applied the three quality measures of mitochondrial genes (\u226420%), and UMI and gene count (range from 100 to 150,000 and range from 200 to 10,000, respectively), which was applied to the raw gene-cell-barcode matrix.",
+        "UMI count for a gene in each cell was log-normalized to TPM-like values and then finally used in the scale of log2 (TPM+1), as previously described.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: tab-delimited text files representing: UMI counts (Lung_Cancer_raw_UMI_matrix.txt); normalized data as described above (Lung_Cancer_normalized_log2TPM_matrix.txt)"
+      ],
+      "platform_id": [
+        "GPL16791"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN11882873"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "cohort": "GSE131907",
+    "series_samples": 58,
+    "candidate_primary_lung_normal_samples": 11,
+    "paired_metadata_units": 10,
+    "paired_units_kind": "author patient IDs from original workbook",
+    "source_both_50_candidate": 10,
+    "recipient_AT2_both_50": 0,
+    "paired_source_recipient_count_intersection": 0,
+    "admitted_fixed_state_units": 0,
+    "decision": "ineligible_state_and_coverage",
+    "decisive_reason": "No author AT2 cells in tumour lung; no unchanged AT2 paired units. Macrophage synonym counts are a diagnostic proxy, not an admitted mapping.",
+    "unresolved": "No independent pilot-state correspondence/confidence mapping; source attribution remains assignment-conditional.",
+    "precision_gate": "fail_zero_eligible_units",
+    "response_opened": false
+  },
+  {
+    "cohort": "GSE123902",
+    "series_samples": 17,
+    "candidate_primary_lung_normal_samples": 4,
+    "paired_metadata_units": 3,
+    "paired_units_kind": "matching GEO title tokens; donor-field discrepancy retained",
+    "source_both_50_candidate": null,
+    "recipient_AT2_both_50": null,
+    "paired_source_recipient_count_intersection": null,
+    "admitted_fixed_state_units": null,
+    "decision": "ineligible_unit_ceiling",
+    "decisive_reason": "Three title-matched untreated primary tumour/normal pairs; only four normal specimens overall, so at most four pairs before state gates, below ten.",
+    "unresolved": "GEO says 17 donors but titles imply 14 distinct tokens. No donor table or cell-label mapping recovered after decisive unit ceiling; unknown counts are not zero.",
+    "precision_gate": "fail_at_most_four_units",
+    "response_opened": false
+  },
+  {
+    "cohort": "GSE148071",
+    "series_samples": 42,
+    "candidate_primary_lung_normal_samples": 0,
+    "paired_metadata_units": 0,
+    "paired_units_kind": "no normal tissue arm in primary-paper design",
+    "source_both_50_candidate": null,
+    "recipient_AT2_both_50": null,
+    "paired_source_recipient_count_intersection": 0,
+    "admitted_fixed_state_units": 0,
+    "decision": "ineligible_no_paired_normal",
+    "decisive_reason": "All 42 biopsies were primary tumours. AT2-like cells inside tumour biopsies cannot supply the separate paired normal tissue arm.",
+    "unresolved": "GEO has no patient-linked subtype annotation table; cell counts and confidence/mixture correspondence not recovered after design failure.",
+    "precision_gate": "fail_zero_pairs",
+    "response_opened": false
+  }
+]

@@ -404,8 +404,8 @@ what was refuted and what settled it.
 ### C36. Whether fibroblasts receive the Areg signal
 
 - **Status in the register:** Not established
-- **What settled it:** no analysis; CellChat is R-only and unavailable here
-- **Artefact:** `none`
+- **What settled it:** The original trial did not measure reception. Later corrected ligand-resource and recipient-expression analyses provide candidate compatibility, not direct receptor engagement.
+- **Artefact:** `analysis/corrections/ligand/RESULTS.md; RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md`
 - **Where it came from:** Stage 3. Cardoso 2026, the Gate 2 paper (2026-09-12)
 
 ### C39. Epithelium is the AREG source in human lung adenocarcinoma

@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "repository_validation": {"checks": 3709, "failures": 0},
+  "staged_diff_whitespace": "passed; source snapshots retain original whitespace under scoped attributes",
+  "preservation": {
+    "no_deletions": true,
+    "existing_scientific_scripts_configs_and_outputs_unchanged": true,
+    "only_existing_scientific_folder_changes": [
+      "RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md",
+      "RQ_Specified/A16_cd177_state_attribution/README.md",
+      "RQ_Specified/README.md",
+      "analysis/claims/manifest.json"
+    ],
+    "staged_exact_byte_files_checked_at_integration": 98,
+    "note": "This final validation record was updated after the byte check; analysis evidence was not changed. Scoped attributes preserve source and output hashes across checkouts."
+  },
+  "python_compilation": "passed repository workflow scope plus new audit and source-accounting scripts",
+  "initial_repository_validation": {"checks": 3709, "failures": 1, "resolution": "Converted imported baseline audit machine-local links to portable relative targets; removed unsupported line suffix from one link."},
+  "base_commit": "33b27cf1f03da706ee987f3fd00b7127eaaff79e",
+  "branch": "codex/rq-gap-fill",
+  "freeze_commits": {
+    "A5_A12_A15": "f3950253ae229f062dbae94551b04a908a8e5ade",
+    "A17_source_accounting": "7f1aae4244fc3a7aaba39ae0ce1b22d43bb76e72",
+    "A16_corrected_C1": "e1d46b4f68453eedde9166f11b772576462a9f6d"
+  },
+  "checks_already_passed": {
+    "repository_unit_suite_before_A16_bridge": {"ran": 60, "skipped": 1, "failed": 0},
+    "A16_CI_discovery_bridge": {"ran": 6, "skipped": 0, "failed": 0},
+    "claim_numeric_bindings": 18,
+    "unchanged_claim_status_and_authority_rows": 168,
+    "all_question_ledger_entries": 20,
+    "Nb1_saved_output_hashes": 17,
+    "original_A16_Stage1_checks": 1867,
+    "A15_independent_raw_count_checks": 62,
+    "A12_recovery_checks": 8,
+    "A16_corrected_C1_verifier_checks": 10,
+    "A16_corrected_effects_recomputed": 42,
+    "A5_recovery": "passed frozen inputs, module sizes, source hashes and all 56 library crosswalk records",
+    "A17_source_accounting": "58 saved count rows reproduced; raw archive, output hashes and overwrite refusal passed"
+  },
+  "limitations": [
+    "Compilation, source integrity and numerical checks are not biological validation.",
+    "No external A5 or A12 score was run; recovered candidates remain gated.",
+    "A16 is an exposed-data C1 correction with residual matching imbalance; no biological inference.",
+    "A17 is input accounting, not the stochastic model refit.",
+    "No claim grade, biological experiment, author communication or remote publication occurred."
+  ]
+}

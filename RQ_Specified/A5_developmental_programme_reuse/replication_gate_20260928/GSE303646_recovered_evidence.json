@@ -1,0 +1,57 @@
+{
+  "kind": "author_reported_library_inventory_not_mouse_or_paired_cell_eligibility",
+  "qc_notebook_cell": 8,
+  "qc_source_output": "text/html; epithelial columns elided",
+  "author_qc_libraries": 56,
+  "geo_libraries": 56,
+  "paper_stated_mice": 55,
+  "paper_library_discrepancy_resolved": false,
+  "author_reported_retained_cells_sum": 160477,
+  "fixed_window_library_inventory": 24,
+  "fixed_window_inventory_by_age_day": {
+    "old_d10": 4,
+    "old_d20": 4,
+    "old_d3": 4,
+    "young_d10": 4,
+    "young_d20": 4,
+    "young_d3": 4
+  },
+  "geo_author_age_day_treatment_mismatches": [],
+  "recovered_author_label_vocabulary": [
+    "Krt8-ADI",
+    "AT2_activated",
+    "AT2"
+  ],
+  "label_vocabulary_is_barcode_map": false,
+  "author_object_required": "230111_Bleo_Ageing_annotated_final.h5ad",
+  "author_qc_export_referenced_but_not_deposited": "20250506_QC_metrics_BleoAging.txt",
+  "author_obs_fields_referenced": [
+    "identifier",
+    "name",
+    "cell_type",
+    "meta_label",
+    "day",
+    "age",
+    "sex",
+    "treatment"
+  ],
+  "raw_umi_metadata_evidence": {
+    "sample": "GSM9131916",
+    "library": "muc26501",
+    "OUTPUT_READS_INSTEAD": false,
+    "MOLECULAR_BARCODE_TAG": "XM",
+    "summary_columns": [
+      "CELL_BARCODE",
+      "NUM_GENIC_READS",
+      "NUM_TRANSCRIPTS",
+      "NUM_GENES"
+    ],
+    "applies_to_all_libraries": false,
+    "matrix_integrity_and_alignment": "not_assessed"
+  },
+  "source_revision": "e52bede4d8a0f9a8a07cb88ceb557fe01455d0c0",
+  "expression_matrices_downloaded": 0,
+  "paired_arm_counts_computed": false,
+  "module_coverage_computed": false,
+  "expression_scores_computed": false
+}

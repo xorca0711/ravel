@@ -1,4 +1,13 @@
 # A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand
+**Normalization correction, 28 September 2026:** the original alternative-normalization
+sensitivity divided out depth twice and is withdrawn. The [versioned correction and
+erratum](reports/NORMALIZATION_ERRATUM_2026-09-28.md), specified and committed before
+corrected outcomes, uses 15,174 reference genes outside the scored panels and count/factor normalization.
+Both original panels remain non-separating (transitional -0.0859, p 0.6857; identity
++0.0214, p 0.8857, in log2 normalized-count units), so the historical algorithmic gate
+label is unchanged. Original frozen files and CPM primary results are preserved;
+62 independent checks pass. This repairs the sensitivity only: epithelial mediation
+remains unresolved, the parent test remains blocked, and no claim or grade changes.
 
 **New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
 

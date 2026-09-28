@@ -1,0 +1,112 @@
+{
+  "archive": {
+    "path": "X:\\GitHub\\scRNA_seq\\raw_data\\england_continuation_inputs\\zenodo_v1.1.zip",
+    "bytes": 1352723,
+    "sha256": "404697263ca941b1b74dee9feb4c4680ff3077d9e20bb7105482d17f14e96a70"
+  },
+  "specification_checkpoint": "7f1aae4244fc3a7aaba39ae0ce1b22d43bb76e72",
+  "script": {
+    "path": "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\docs\\roadmap_runs\\2026-09-28-gap-fill\\a17_source_accounting\\account_sources.py",
+    "sha256": "c8816a7ba56de5933a16ea95ae1131f9bf8639b47900fc93fcb9410eec68793d"
+  },
+  "reference_inputs": {
+    "specification": {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\docs\\roadmap_runs\\2026-09-28-gap-fill\\A17_SOURCE_ACCOUNTING_SPEC.md",
+      "sha256": "f3bee940ed987ede8247e806b13c41e9796ea9fde2f515231c745846e1e31b5c"
+    },
+    "batch1_summary": {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\trials\\batch1\\clones\\clone_summary_by_mouse.csv",
+      "sha256": "e0e0db08283dc340f218f51954f788c27bd45513be8d8d087558952756486a3d"
+    },
+    "batch1_schema": {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\trials\\batch1\\clones\\mouse_schema.csv",
+      "sha256": "5b17244f5fedf9e569bc9b15e916dd315efeb8fe6ab5b158db816adc558290ac"
+    },
+    "batch1_decoder_reference_only": {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\scripts\\run_clone_batch1.py",
+      "sha256": "328f1763808fbe9623b09e7d6617b3205dd47e1d4231334d1e48eb78642bb23c"
+    },
+    "audited_table_s1_transcription": {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\docs\\audits\\2026-09-28-england-paper-rqs\\table_s1_reconciliation.csv",
+      "sha256": "fb77b7fcc5596cd7b37312f6335746f38828612a475cd79f5753691a51022785"
+    },
+    "manuscript_parameter_transcription": {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\docs\\audits\\2026-09-28-england-paper-rqs\\REPORT.md",
+      "sha256": "575cd0ed580e2733ee5e370078339b53772eb9431b93f4532d7dd7824ba9f861"
+    }
+  },
+  "archive_members": [
+    {
+      "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/data/datasets.mat",
+      "bytes": 265,
+      "sha256": "28d08cc19c9a2468e9bab02477ffa691369fd8163504a3db05a4187ee1ae74da",
+      "variable": "datasets",
+      "shape": [
+        1,
+        13
+      ]
+    },
+    {
+      "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/data/time_points.mat",
+      "bytes": 221,
+      "sha256": "380aa6c87e5fc12155e39b7031cafbb42fa31a3ad5c7b721c86ead2221083fa0",
+      "variable": "time_points",
+      "shape": [
+        13,
+        1
+      ]
+    },
+    {
+      "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/data/chlbls.mat",
+      "bytes": 198,
+      "sha256": "dc20ca3284705a4f460d876ed8792f15c583b052442a29c63a69a543ac5bce70",
+      "variable": "chlbls",
+      "shape": [
+        1,
+        2
+      ]
+    },
+    {
+      "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/data/clone_sizes_total.mat",
+      "bytes": 66575,
+      "sha256": "c54be7c2781ff4a595da43a493f40cef8344fd8999210fa010c2bf72977e63bb",
+      "variable": "clone_sizes_total",
+      "shape": [
+        1,
+        13
+      ]
+    },
+    {
+      "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/data/clone_sizes_SPC_pos.mat",
+      "bytes": 63843,
+      "sha256": "d3b55cb1f0b396f70e89d149331c746cfbf298e4b06bf6bf8cae9cc4776f61b1",
+      "variable": "clone_sizes_SPC_pos",
+      "shape": [
+        1,
+        13
+      ]
+    },
+    {
+      "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/data/lobe_area_total.mat",
+      "bytes": 1709,
+      "sha256": "8777e5d9436eb1be62cad4b1e9c900e3fa4da600900c42eaa6d4113573dde321",
+      "variable": "lobe_area_total",
+      "shape": [
+        1,
+        13
+      ]
+    },
+    {
+      "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/sim_two_pop_model.m",
+      "bytes": 16300,
+      "sha256": "78f7157b8a01d1a8a785c479d33ad1c2c03eb902452f577e10f9e7e006008065"
+    },
+    {
+      "member": "ibordeu-scripts_England_et_al_2025_git-ed4ef3c/data_analysis.m",
+      "bytes": 86126,
+      "sha256": "75a1269416ee6936f7b52edd8f7fb2287988f000c204a2c2770b68e95e1bf586"
+    }
+  ],
+  "decoder": "scipy.io.loadmat(squeeze_me=False, struct_as_record=True); explicit dataset/mouse/lobe/channel indices",
+  "identity_rule": "Mouse IDs are stable source-array coordinates, not recovered animal identifiers. No identities are inferred from clone rows."
+}

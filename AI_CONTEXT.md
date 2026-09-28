@@ -1,5 +1,27 @@
 # AI context
 
+## Current gap-fill handoff, 28 September 2026
+
+Start with [gap-fill results and the every-question ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md).
+Base main/origin was fetched at `33b27cf`; execution uses `codex/rq-gap-fill` in
+the attached managed checkout. The original main checkout and other worktree
+caches are read-only inputs, not cleanup targets.
+
+Use A15's new normalization erratum instead of the invalid old median-ratio
+sensitivity. Its CPM primary, original results and claim grades are preserved.
+A5's 56 recovered identifiers are libraries, not verified independent mice;
+the named author h5ad's per-cell metadata and 55/56 reconciliation are missing.
+A12's three checked cohorts cannot carry unchanged validation; do not substitute
+tumour labels for AT2, lower floors or interpret the planning precision example
+as biological power. A13's current predictor worsens held-out error; do not tune
+it on the same cohort. A0 stays pruned and A6's owner priority remains in force.
+
+A16's correction is an exposed-data C1 amendment, not completed specificity,
+ambient or functional validation. A17's source accounting is not the FU_S refit
+and cannot identify which source parameters produced published curves. Read the
+new report before replaying any historical overwrite-prone scripts. C36/C49 and
+A11 ownership corrections are explanatory only; no biological grades changed.
+
 ## Current article navigation, 28 September 2026
 
 Start with the [article index](Research%20Article/README.md#studies-with-executed-analyses).

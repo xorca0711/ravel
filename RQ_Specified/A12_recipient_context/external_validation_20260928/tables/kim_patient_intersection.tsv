@@ -1,0 +1,11 @@
+patient	histology	normal_sample	tumour_sample	normal_AT2_cells	normal_candidate_macrophage_cells	normal_mo_Mac_cells	tumour_AT2_cells	tumour_candidate_macrophage_cells	tumour_mo_Mac_cells	AT2_both_50	candidate_source_both_50	count_intersection_both_50	fixed_state_admitted	exclusion
+P0006	ADC	LUNG_N06	LUNG_T06	91	1173	26	0	226	214	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0008	ADC	LUNG_N08	LUNG_T08	137	1146	32	0	142	142	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0009	ADC	LUNG_N09	LUNG_T09	330	1020	82	0	1153	1115	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0018	ADC	LUNG_N18	LUNG_T18	76	1613	101	0	779	761	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0019	ADC	LUNG_N19	LUNG_T19	151	824	52	0	741	327	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0020	ADC	LUNG_N20	LUNG_T20	191	3264	21	0	636	557	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0028	ADC(Double)	LUNG_N28	LUNG_T28	208	736	7	0	843	815	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0030	ADC	LUNG_N30	LUNG_T30	72	439	107	0	696	50	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0031	ADC	LUNG_N31	LUNG_T31	250	923	189	0	231	213	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated
+P0034	ADC	LUNG_N34	LUNG_T34	369	1270	123	0	199	106	False	True	False	False	zero tumour AT2 label; pilot correspondence/confidence not independently adjudicated

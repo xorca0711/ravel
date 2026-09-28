@@ -1,0 +1,141 @@
+{
+  "status": "ready_for_specification_review",
+  "checked_utc": "2026-09-28T11:06:31.274391+00:00",
+  "script_sha256": "7273f0cca23199036fef2872111a93b24c8f721d02b994ce5d8761eea14215ab",
+  "data_root": "X:\\GitHub\\scRNA_seq",
+  "cache_root": "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025",
+  "libraries": [
+    "GSM7890835",
+    "GSM7890836"
+  ],
+  "raw_files_verified": 6,
+  "original_cells_table_verified": true,
+  "original_doublet_flags_verified": true,
+  "historical_prep_record": "C:\\Users\\dream\\.codex\\worktrees\\rq-gap-fill\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\trials\\continuation\\prep\\run_record.json",
+  "historical_prep_sha256": "5a22ef87365f356075a2edf7f0d2de7b0537962f5025ac3bbf658ff384f0d2ba",
+  "inputs": [
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890835_Expt1_2wRFPr1_matrix.mtx.gz",
+      "role": "raw_count_provenance",
+      "exists": true,
+      "expected_sha256": "460e0c0103f6571d72bdb907ec3053f93a378f1eea4dae2e0e36f9be3cc37f9e",
+      "actual_sha256": "460e0c0103f6571d72bdb907ec3053f93a378f1eea4dae2e0e36f9be3cc37f9e",
+      "matches": true,
+      "bytes": 57244058
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890835_Expt1_2wRFPr1_features.tsv.gz",
+      "role": "raw_count_provenance",
+      "exists": true,
+      "expected_sha256": "2f99761e01d018cd7b572a93009b2efe2043378d2c1bb2e11d128f9862097e94",
+      "actual_sha256": "2f99761e01d018cd7b572a93009b2efe2043378d2c1bb2e11d128f9862097e94",
+      "matches": true,
+      "bytes": 279361
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890835_Expt1_2wRFPr1_barcodes.tsv.gz",
+      "role": "raw_count_provenance",
+      "exists": true,
+      "expected_sha256": "242ea7ffc2c453ad3b41dbaec0ea21cc3aa836d342a689a22393c63af5e01ad2",
+      "actual_sha256": "242ea7ffc2c453ad3b41dbaec0ea21cc3aa836d342a689a22393c63af5e01ad2",
+      "matches": true,
+      "bytes": 25854
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\processed\\batch1\\rna\\GSM7890835_QC_cells.csv.gz",
+      "role": "original_doublet_flags",
+      "exists": true,
+      "expected_sha256": "0ccec803976980cb13bce41772f4c03ee075fa667a02391c2d67b87ba3836965",
+      "actual_sha256": "0ccec803976980cb13bce41772f4c03ee075fa667a02391c2d67b87ba3836965",
+      "matches": true,
+      "bytes": 103223
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890836_Expt1_2wRFPr2_matrix.mtx.gz",
+      "role": "raw_count_provenance",
+      "exists": true,
+      "expected_sha256": "54b89787500fd8bcc3231b633944d84ec2f53ca72390ab08211bffe5af21a621",
+      "actual_sha256": "54b89787500fd8bcc3231b633944d84ec2f53ca72390ab08211bffe5af21a621",
+      "matches": true,
+      "bytes": 42170324
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890836_Expt1_2wRFPr2_features.tsv.gz",
+      "role": "raw_count_provenance",
+      "exists": true,
+      "expected_sha256": "bbde36380bb036b4325cf444e9c83601891b504e56505eecf7a6280d7fed41fe",
+      "actual_sha256": "bbde36380bb036b4325cf444e9c83601891b504e56505eecf7a6280d7fed41fe",
+      "matches": true,
+      "bytes": 279361
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE247505\\GSE247505_RAW\\GSM7890836_Expt1_2wRFPr2_barcodes.tsv.gz",
+      "role": "raw_count_provenance",
+      "exists": true,
+      "expected_sha256": "7450308e6ff996e56016f92ae20c0da15300c52035beaa339ba6baf96776b38f",
+      "actual_sha256": "7450308e6ff996e56016f92ae20c0da15300c52035beaa339ba6baf96776b38f",
+      "matches": true,
+      "bytes": 23675
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\processed\\batch1\\rna\\GSM7890836_QC_cells.csv.gz",
+      "role": "original_doublet_flags",
+      "exists": true,
+      "expected_sha256": "fef40eac6de81c36a746ff454d6e94b6c8c20aecac3d8c5055be1edc5d441730",
+      "actual_sha256": "fef40eac6de81c36a746ff454d6e94b6c8c20aecac3d8c5055be1edc5d441730",
+      "matches": true,
+      "bytes": 86060
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\processed\\continuation\\cells_table.csv.gz",
+      "role": "original_cells_table_inclusion_and_gates",
+      "exists": true,
+      "expected_sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78",
+      "actual_sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78",
+      "matches": true,
+      "bytes": 11168082
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\processed\\continuation\\matrices\\GSM7890835_sourceQC.npz",
+      "role": "recoverable_cache_not_required_if_original_cells_table_verified",
+      "exists": true,
+      "expected_sha256": null,
+      "actual_sha256": "c63f6dfffb11f8d4f4c43896f0486e67990f042e108ea437a134b83b2c56dd9c",
+      "matches": null,
+      "bytes": 31205865
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\processed\\continuation\\matrices\\GSM7890835_barcodes.npy",
+      "role": "recoverable_cache_not_required_if_original_cells_table_verified",
+      "exists": true,
+      "expected_sha256": null,
+      "actual_sha256": "910abbd9c63c5a0d92b685801a86c887579401378bc3e8bf29015610f55dd4e3",
+      "matches": null,
+      "bytes": 305768
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\processed\\continuation\\matrices\\GSM7890836_sourceQC.npz",
+      "role": "recoverable_cache_not_required_if_original_cells_table_verified",
+      "exists": true,
+      "expected_sha256": null,
+      "actual_sha256": "ac938c651daac0c4fc41a5cd048616120236ed532f93887c36a8273f97e8ee3d",
+      "matches": null,
+      "bytes": 22752496
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\england-analysis-plan\\scRNA_seq\\Research Article\\gate2_C2_england_2025\\processed\\continuation\\matrices\\GSM7890836_barcodes.npy",
+      "role": "recoverable_cache_not_required_if_original_cells_table_verified",
+      "exists": true,
+      "expected_sha256": null,
+      "actual_sha256": "f781fef345c7351f3fd016f83e230bffed4199316e9a250b086bac2b4f54bb1a",
+      "matches": null,
+      "bytes": 254144
+    }
+  ],
+  "outcomes_opened": false,
+  "matrix_values_parsed": false,
+  "counts_hashed_only": true,
+  "readiness_rule": "Need six raw files plus original hash-verified cell table or both original hash-verified batch1 QC flags; raw triplets alone do not preserve primary_include.",
+  "blocker": null,
+  "next_action": "Recover the original byte-identified cell table or both QC files. Restore read-only cache access; do not regenerate doublet flags or replace inclusion."
+}

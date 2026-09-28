@@ -1580,3 +1580,24 @@ Rejected or substantially revised assistant output:
 The [audit](docs/audits/2026-09-28-paper-navigation/REPORT.md) and
 [inventory](docs/audits/2026-09-28-paper-navigation/inventory.json) record this
 documentation-only revision. Original reports and images retain their bytes.
+
+## 28 September 2026: execute adversarial-review gap fills
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | Fetch current main; parallel A15 correction, A5/A12 source recovery, bounded A16/A17 follow-through and shared-document fixes | Codex adversarial review and agent proposals | Repository owner explicitly requested latest remote state and multi-agent gap-fill execution; Codex selected and froze implementation details | Authorized computational work in isolated checkout; no scientific acceptance, grade change or publication inferred | Repair the confirmed normalization defect and resolve decision-changing data gates while preserving historical evidence |
+
+Rejected or substantially revised assistant output:
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-09-28 | A15 raw-count median-ratio factor followed by another library-total division | Fails proportional-library invariance; replace only this sensitivity in a committed new version with independent raw-count verification | Codex review under owner-authorized correction; original evidence preserved |
+| 2026-09-28 | C49 approximate significance cutoff described as a bound on absent correlations | The calculation supplies neither a confidence bound nor a powered detectable effect | Codex code/claim review; estimates and grade unchanged |
+| 2026-09-28 | C36 unavailable CellChat software used as current explanation for missing reception evidence | Later ligand-resource/recipient analyses exist; they still do not measure receptor engagement | Codex evidence reconciliation; Not established retained |
+| 2026-09-28 | A11 acute-assay paragraph presented under A13 | It tests the lesion module and provides no A13 triad/fibroblast evidence | Codex question-ownership correction; results unchanged |
+| 2026-09-28 | A16 historical pooled/UMAP matching treated as the requested fixed-population, gene-excluded comparison | Requires new per-library construction and unchanged cells/effect scale; corrected C1 remains exploratory | Codex amended specification, committed before new outcomes; original Stage 1 preserved |
+
+The [execution report](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md) distinguishes
+completed computational work, failed eligibility gates and measurements still
+required. Assistant review and computational retention do not constitute owner
+acceptance of a biological hypothesis.

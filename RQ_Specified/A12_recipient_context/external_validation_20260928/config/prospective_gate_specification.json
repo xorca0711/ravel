@@ -1,0 +1,52 @@
+{
+  "schema": "a12-external-recovery/v1",
+  "recorded_date": "2026-09-28",
+  "status": "metadata-first prospective gate specification; no external A12 outcomes opened",
+  "scope": "At most three primary-source-led independent human lung normal/LUAD single-cell cohorts; no expression retrieval after a decisive metadata failure.",
+  "prior_exposure": [
+    "A12 GSE308103 pilot report, specification and script; exploratory with twelve primary paired patients.",
+    "Kim/GSE131907 earlier A11 results exist in repository; its metadata and historical coverage audits were inspected. Kim is not wholly untouched.",
+    "Historical audit reports zero unchanged primary epithelial paired triads for Kim. Recount A12-specific source/recipient units from original annotation."
+  ],
+  "fixed_instrument": {
+    "pilot_specification": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+    "unit": "patient, pooled repeated libraries; LUAD minus same-patient normal",
+    "recipient": "existing fixed AT2 candidate state in each arm; independently adjudicated correspondence required",
+    "source": "broad assigned macrophages; retains conditional attribution",
+    "source_mixture": "fraction of assigned macrophages labelled Monocyte-derived Mph; monocytes or all myeloid cells are not substitutes",
+    "confidence": 0.2,
+    "cells_per_arm_per_compartment_minimum": 50,
+    "predictors": ["IL1A", "IL1B", "mono_fraction", "TNF", "recipient_index"],
+    "recipient_index": "mean log2(1+full-library CPM) IL1R1,IL1RAP minus mean IL1R2,IL1RN,SIGIRR; paired difference",
+    "response": "exact 197-gene predictor-disjoint TNF/NFkB hallmark in pilot specification; mean log2(1+full-library CPM), paired difference",
+    "gene_coverage_minimum": 0.7,
+    "all_predictor_components_required": true,
+    "normalization": "raw count pseudobulk using full assay library denominator; no alias rescue or zero-filling absent genes",
+    "fit": "ridge alpha=1; train-only mean and population SD; unpenalized intercept; unchanged five pilot feature sets",
+    "primary_comparison": "joint versus alternative (source IL1A, IL1B, mixture and TNF), same patients",
+    "prohibited_changes": ["tumour-labelled epithelium substituted for AT2", "reference mapping with tested predictor/outcome genes", "new alpha or module tuning", "changed mixture definition", "normalized expression without raw full-library instrument comparability"]
+  },
+  "ordered_gates": [
+    "independent human untreated primary LUAD and same-patient normal; patient/sample accession crosswalk and no pilot overlap",
+    "unchanged AT2 correspondence in both arms and broad assigned macrophages with identifiable Monocyte-derived Mph fraction; independent annotation provenance",
+    "intersection of paired source and recipient arms at the 50-cell floor; report cell counts and excluded patients",
+    "raw count and full-library normalization comparability; >=70 percent response genes and all component genes; no outcome values inspected to resolve metadata gates",
+    "minimum ten eligible pairs for exploratory algorithm replication; sufficient-precision gate separately requires at least 46 independent external patient pairs for fixed-model loss assessment",
+    "root commits this specification and candidate-specific admissible mapping before scores; separately serialize and commit all-pilot fitted parameters before external outcomes if eligible"
+  ],
+  "validation_target": {
+    "pilot_artifact": "LOPO predictions exist, not one deployed fitted model. Those predictions cannot be transported as fitted coefficients.",
+    "frozen_model_validation": "If all gates pass, fit unchanged feature sets once to all twelve primary pilot AT2 pairs; save training means/SDs/intercepts/coefficients and hashes; commit before external score access. External data do not refit or recalibrate predictions.",
+    "algorithm_replication": "Fixed-algorithm LOPO inside an independent cohort tests the algorithm at its training size, not transport of a frozen pilot fitted model. Ten to forty-five pairs allow descriptive replication only; overlapping-fold losses receive no ordinary paired t interval.",
+    "no_eligible_cohort": "No model fit, response extraction, effect estimate, or negative biological conclusion. Publish metadata gate results and unresolved information."
+  },
+  "evaluation_if_eligible": {
+    "baselines": ["frozen pilot training-outcome mean", "source-only", "source plus recipient", "source plus TNF"],
+    "all_models": ["RMSE", "MAE", "per-patient signed/absolute/squared error", "Q2 versus frozen pilot mean", "calibration intercept and slope with uncertainty"],
+    "primary_effect": "mean paired loss improvement: squared error alternative minus squared error joint",
+    "precision": "Independent external fixed-model losses: 95 percent t half-width target <=0.30 between-patient loss SD (46 pairs gives approximately 0.297). A planning precision criterion, not biological equivalence or guaranteed interval coverage; report instability/outliers without changing membership.",
+    "biological_meaningful_margin": null,
+    "claim_limit": "General inflammatory RNA prediction conditional on annotations. No IL1 specificity, activation, causality, unconditional macrophage source attribution, or equivalence claim."
+  },
+  "audit_outputs": ["source URLs and retrieval hashes", "source/sample manifests", "per-patient compartment intersection where available", "annotation label inventory", "gate decisions distinguishing unknown from zero", "machine-readable run record and verifier"]
+}

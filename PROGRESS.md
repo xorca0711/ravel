@@ -2,6 +2,30 @@
 
 **Update this before stopping work, every session.**
 
+## Current gap-fill execution, 28 September 2026
+
+Fetched remote main at `33b27cf`; work is isolated on `codex/rq-gap-fill`.
+The [execution report and 20-question ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+supersede earlier next-step queues for this run. A15's invalid alternative
+normalization is replaced with frozen, independently checked versioned outputs;
+both corrected panel decisions remain nonseparating. A5 recovered author labels
+and 56 library records but lacks the barcode/state/mouse map. A12's three inspected
+external cohorts fail the unchanged design; none was fitted. C36/C49 wording and
+A11 paragraph placement are corrected without grade or estimate changes.
+
+The newly merged A16/A17 work is followed through in separately frozen correction
+and source-accounting artifacts linked from that report. Historical Stage 1,
+England outputs and failed cohort gates remain intact. Original main's untracked
+review and `.claude` work are preserved. This execution is not biological
+validation, owner scientific acceptance, a new experiment or remote publication.
+
+All execution tracks are complete within their stated computational scope; no
+scientific job is running. Corrected A16 C1 attenuates priming but retains substantial
+matching imbalance. A17 reproduces 58 count rows and identifies 11 primary mice;
+its stochastic refit remains unrun. Final repository validation passes 3,709 checks;
+the 60-test suite (one skip) and six new A16 tests pass, as do compilation, claim
+bindings and archived-evidence checks. The linked report retains exact data gates.
+
 ## Current paper navigation, 28 September 2026
 
 The [research-article index](Research%20Article/README.md#studies-with-executed-analyses)

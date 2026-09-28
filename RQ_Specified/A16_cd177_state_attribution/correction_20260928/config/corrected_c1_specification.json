@@ -1,0 +1,62 @@
+{
+  "schema": "a16-corrected-C1/v1",
+  "date": "2026-09-28",
+  "status": "root-reviewed computational amendment; commit before corrected outcomes; scientific claim remains proposed and inconclusive",
+  "exposure": "FULL: founding England results, Stage1 and integration review already seen. Same exposed matrices; exploratory correction, not confirmation.",
+  "scope": "Correct C1 population, library separation, neighbourhood construction and marginal/matched effect scales only. Original Stage1 bytes are preserved. No new C2/C3/C4/C5, no reference-gene null comparison, no claim closure or grade change.",
+  "libraries": ["GSM7890835", "GSM7890836"],
+  "source_contract": "Research Article/gate2_C2_england_2025/config/continuation_contract.json",
+  "population": {
+    "fixed_set": "All original cells_table rows in the two primary libraries with primary_include=True and gate_transition=True; use the full cell table, not the round2-labelled subset.",
+    "gate": "Cldn4,Ndrg1,Sox9: at least two detected; retain original definition and verify from summed raw symbol counts.",
+    "inclusion": "Original hash-verified primary_include, including original doublet exclusions and immune-low-anchor rule; no recomputation of doublet flags.",
+    "row_order": "sort each library by exact barcode; unique (gsm,barcode) joins",
+    "fixed_group": "Cd177 summed raw UMIs >=1 versus 0; retain same positives/negative candidate pool for marginal and all k values",
+    "floor": "at least 30 positives and 30 negatives per library; no cell inclusion or gate relaxation"
+  },
+  "input_provenance": {
+    "readiness_record": "tables/readiness.json",
+    "raw_data_root": "X:/GitHub/scRNA_seq",
+    "cache_root": "C:/Users/dream/.codex/worktrees/england-analysis-plan/scRNA_seq/Research Article/gate2_C2_england_2025",
+    "cells_table_sha256": "46f50a933e673cb627a01eccb0af8f8ba3e1e9d4ff5db0bf601767b0889f9b78",
+    "raw_files": "six original matrix/feature/barcode files; verify against historical continuation preparation run before reading values",
+    "matrix_route": "Read original verified raw triplets and select exact fixed barcodes. Reconstruct sums and detected features; compare totals/n_genes, Cd177 call, transition gate and scores to cached values after commit. Do not depend on unhashed Stage1 direct npz/barcode inputs.",
+    "duplicates": "sum raw counts for duplicated gene symbols before endpoint scoring; exclude all feature rows carrying a banned symbol from neighbourhood construction"
+  },
+  "neighbourhood": {
+    "space": "New locally fitted, deterministic per-library PCA within the fixed transition population; this amends the original integrated-space wording and is not a reconstruction of the author embedding.",
+    "excluded_genes": "Cd177 plus every gate, every module, every individual gene, epithelial anchor, immune/non-epithelial panel gene from the frozen England continuation contract, plus Retnlg; see config/excluded_genes.tsv.",
+    "mitochondrial_exclusion": "exclude case-insensitive mt- prefix",
+    "normalization": "log1p(10000 * raw count / sum of ALL non-mitochondrial, non-excluded raw counts in that cell); denominator is computed after all exclusions, before variable-gene selection. Tested genes cannot enter through the library denominator.",
+    "feature_selection": "within each library, genes detected in >=3 fixed cells and variance>0; select at most 2000 by population variance of normalized log values, descending, ties by symbol. No group labels or outcomes enter selection.",
+    "fit": "center columns without variance scaling; deterministic full SVD with one BLAS thread; retain min(20,n_cells-1,n_features-1) PCs; refuse fewer than 5 usable PCs; no whitening, integration, UMAP, clusters or outcome-driven dimension choices",
+    "depth_strata": "four equal-count quartiles of remaining-gene raw library sum, ranked by (sum,barcode) within the fixed library; group/outcome genes excluded from these sums",
+    "matching": "for each positive, k nearest Cd177-negative cells in the SAME library and depth quartile by Euclidean distance in retained PCs; deterministic ties by negative barcode; k=5,10,20; primary k=10; matching with replacement across positives",
+    "no_hidden_population_change": "Require every fixed positive to have k candidates; otherwise that entire library/k is not assessed. Never drop positives to salvage a match. Require >=30 unique matched negative controls; report reused-control frequencies and effective control sample size, without interpreting them as biological replicates.",
+    "quality_outputs": "feature list and loading/coordinate hashes; remaining library sums and depth strata; nearest-neighbour edge list, distances, selected controls, unique-control counts and weight ESS; per-PC group standardized differences before/after matching. No quality threshold chosen after outcomes."
+  },
+  "outcomes": {
+    "primary": "priming_associated",
+    "secondary": ["AT2_identity", "AT1_identity", "Itga2", "cycling", "shared_gate_cycle_stress_disjoint", "lesion_gate_cycle_stress_disjoint"],
+    "definition": "Unchanged frozen module membership; per-cell mean log1p(full-library CP10k) across present genes, Itga2 individual log1p(full-library CP10k); >=70 percent coverage and individual Itga2 present. Gene values/membership never enter neighbourhood or depth strata.",
+    "instrument_parity": "raw-count reconstructed endpoints must equal the cached per-cell scores within 1e-8; totals and group/gate calls must agree exactly; stop on mismatch"
+  },
+  "estimands": {
+    "marginal": "mean outcome fixed Cd177-positive cells minus mean outcome all fixed negative cells, per library",
+    "matched": "mean across ALL fixed positives of (positive outcome minus mean outcome of its k matched controls), per library",
+    "common_scale": "Report raw log1p(CP10k) differences and divide BOTH marginal and matched differences by the SAME sample SD of that endpoint across the complete fixed library population; label fixed-population standardized difference, not original pooled-group SMD. No ratio interpreted as biological fraction.",
+    "C3": "Do not apply old Stage1 marginal C3 null bands to these matched estimates. No marker-specificity/null-tail conclusion is computed.",
+    "inference": "No pooling libraries, confidence intervals, p values, cell-bootstrap biological inference, mechanism claim, or attribution of ambient origin. Animal identities are unavailable.",
+    "decision": "Describe change from marginal to gene-excluded-neighbourhood-matched effect and its k sensitivity separately for each library. A residual or its attenuation cannot close A16 biologically."
+  },
+  "verification": [
+    "committed spec and exclusion list hashes plus historical raw/cell-table provenance",
+    "fixed cell set, original total counts, grouping and gate parity",
+    "all banned genes absent from latent features; no use of saved endpoints for feature selection or matching",
+    "synthetic perturbation of excluded gene columns leaves latent inputs and depth strata unchanged",
+    "no match crosses library/depth stratum; every eligible positive retained for each assessed k",
+    "recalculate estimates from persisted edge weights and cell outcomes; common denominators identical across marginal and k",
+    "original Stage1 artifact hashes unchanged"
+  ],
+  "execution_gate": "Root reviews and commits this amendment and excluded-gene list before any corrected outcome calculation. A separate execution script must record that commit and refuse a changed spec."
+}

@@ -1,0 +1,4 @@
+cohort	series_samples	paired_metadata_units	paired_source_recipient_count_intersection	decision	precision_gate	response_opened
+GSE131907	58	10	0	ineligible_state_and_coverage	fail_zero_eligible_units	False
+GSE123902	17	3		ineligible_unit_ceiling	fail_at_most_four_units	False
+GSE148071	42	0	0	ineligible_no_paired_normal	fail_zero_pairs	False

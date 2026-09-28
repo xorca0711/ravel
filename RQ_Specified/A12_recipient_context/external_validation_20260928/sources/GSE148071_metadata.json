@@ -1,0 +1,1413 @@
+{
+  "accession": "GSE148071",
+  "series": {
+    "title": [
+      "Comprehensive Profiling of Cancer Cells and Their Microenvironment in Advanced NSCLC"
+    ],
+    "pubmed_id": [
+      "33953163",
+      "40140461"
+    ],
+    "summary": [
+      "Using single-cell RNA sequencing (scRNA-seq) profiles gene expression pattern of each individual cell to characterize of the entire tumor ecosystem"
+    ],
+    "overall_design": [
+      "42 Samples were collected by diagnostic procedures including transcutaneous needle biopsy, bronchoscopy or superficial lymph node biopsy for scRNA_seq",
+      "",
+      "*** Submitter states that raw data are not available for this Series due to patient privacy concerns and human genetic resources policy in China."
+    ],
+    "sample_id": [
+      "GSM4453576",
+      "GSM4453577",
+      "GSM4453578",
+      "GSM4453579",
+      "GSM4453580",
+      "GSM4453581",
+      "GSM4453582",
+      "GSM4453583",
+      "GSM4453584",
+      "GSM4453585",
+      "GSM4453586",
+      "GSM4453587",
+      "GSM4453588",
+      "GSM4453589",
+      "GSM4453590",
+      "GSM4453591",
+      "GSM4453592",
+      "GSM4453593",
+      "GSM4453594",
+      "GSM4453595",
+      "GSM4453596",
+      "GSM4453597",
+      "GSM4453598",
+      "GSM4453599",
+      "GSM4453600",
+      "GSM4453601",
+      "GSM4453602",
+      "GSM4453603",
+      "GSM4453604",
+      "GSM4453605",
+      "GSM4453606",
+      "GSM4453607",
+      "GSM4453608",
+      "GSM4453609",
+      "GSM4453610",
+      "GSM4453611",
+      "GSM4453612",
+      "GSM4453613",
+      "GSM4453614",
+      "GSM4453615",
+      "GSM4453616",
+      "GSM4453617"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148071/suppl/GSE148071_RAW.tar"
+    ]
+  },
+  "samples": [
+    {
+      "accession": "GSM4453576",
+      "title": [
+        "P1"
+      ],
+      "geo_accession": [
+        "GSM4453576"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 71",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534704"
+      ]
+    },
+    {
+      "accession": "GSM4453577",
+      "title": [
+        "P2"
+      ],
+      "geo_accession": [
+        "GSM4453577"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 62",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534702"
+      ]
+    },
+    {
+      "accession": "GSM4453578",
+      "title": [
+        "P3"
+      ],
+      "geo_accession": [
+        "GSM4453578"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 67",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534701"
+      ]
+    },
+    {
+      "accession": "GSM4453579",
+      "title": [
+        "P4"
+      ],
+      "geo_accession": [
+        "GSM4453579"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 58",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534699"
+      ]
+    },
+    {
+      "accession": "GSM4453580",
+      "title": [
+        "P5"
+      ],
+      "geo_accession": [
+        "GSM4453580"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 62",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534697"
+      ]
+    },
+    {
+      "accession": "GSM4453581",
+      "title": [
+        "P6"
+      ],
+      "geo_accession": [
+        "GSM4453581"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 59",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534695"
+      ]
+    },
+    {
+      "accession": "GSM4453582",
+      "title": [
+        "P7"
+      ],
+      "geo_accession": [
+        "GSM4453582"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 71",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534694"
+      ]
+    },
+    {
+      "accession": "GSM4453583",
+      "title": [
+        "P8"
+      ],
+      "geo_accession": [
+        "GSM4453583"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 35",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534692"
+      ]
+    },
+    {
+      "accession": "GSM4453584",
+      "title": [
+        "P9"
+      ],
+      "geo_accession": [
+        "GSM4453584"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 40",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534691"
+      ]
+    },
+    {
+      "accession": "GSM4453585",
+      "title": [
+        "P10"
+      ],
+      "geo_accession": [
+        "GSM4453585"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 65",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534689"
+      ]
+    },
+    {
+      "accession": "GSM4453586",
+      "title": [
+        "P11"
+      ],
+      "geo_accession": [
+        "GSM4453586"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 58",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534687"
+      ]
+    },
+    {
+      "accession": "GSM4453587",
+      "title": [
+        "P12"
+      ],
+      "geo_accession": [
+        "GSM4453587"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 62",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534686"
+      ]
+    },
+    {
+      "accession": "GSM4453588",
+      "title": [
+        "P13"
+      ],
+      "geo_accession": [
+        "GSM4453588"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 50",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534684"
+      ]
+    },
+    {
+      "accession": "GSM4453589",
+      "title": [
+        "P14"
+      ],
+      "geo_accession": [
+        "GSM4453589"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 60",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534682"
+      ]
+    },
+    {
+      "accession": "GSM4453590",
+      "title": [
+        "P15"
+      ],
+      "geo_accession": [
+        "GSM4453590"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 64",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534680"
+      ]
+    },
+    {
+      "accession": "GSM4453591",
+      "title": [
+        "P16"
+      ],
+      "geo_accession": [
+        "GSM4453591"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 49",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534678"
+      ]
+    },
+    {
+      "accession": "GSM4453592",
+      "title": [
+        "P17"
+      ],
+      "geo_accession": [
+        "GSM4453592"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 71",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534676"
+      ]
+    },
+    {
+      "accession": "GSM4453593",
+      "title": [
+        "P18"
+      ],
+      "geo_accession": [
+        "GSM4453593"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 66",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534675"
+      ]
+    },
+    {
+      "accession": "GSM4453594",
+      "title": [
+        "P19"
+      ],
+      "geo_accession": [
+        "GSM4453594"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 55",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534673"
+      ]
+    },
+    {
+      "accession": "GSM4453595",
+      "title": [
+        "P20"
+      ],
+      "geo_accession": [
+        "GSM4453595"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 59",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534672"
+      ]
+    },
+    {
+      "accession": "GSM4453596",
+      "title": [
+        "P21"
+      ],
+      "geo_accession": [
+        "GSM4453596"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 65",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534728"
+      ]
+    },
+    {
+      "accession": "GSM4453597",
+      "title": [
+        "P22"
+      ],
+      "geo_accession": [
+        "GSM4453597"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 67",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534727"
+      ]
+    },
+    {
+      "accession": "GSM4453598",
+      "title": [
+        "P23"
+      ],
+      "geo_accession": [
+        "GSM4453598"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 77",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534726"
+      ]
+    },
+    {
+      "accession": "GSM4453599",
+      "title": [
+        "P24"
+      ],
+      "geo_accession": [
+        "GSM4453599"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 52",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534725"
+      ]
+    },
+    {
+      "accession": "GSM4453600",
+      "title": [
+        "P25"
+      ],
+      "geo_accession": [
+        "GSM4453600"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 75",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534722"
+      ]
+    },
+    {
+      "accession": "GSM4453601",
+      "title": [
+        "P26"
+      ],
+      "geo_accession": [
+        "GSM4453601"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 53",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534721"
+      ]
+    },
+    {
+      "accession": "GSM4453602",
+      "title": [
+        "P27"
+      ],
+      "geo_accession": [
+        "GSM4453602"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 68",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534720"
+      ]
+    },
+    {
+      "accession": "GSM4453603",
+      "title": [
+        "P28"
+      ],
+      "geo_accession": [
+        "GSM4453603"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 64",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534719"
+      ]
+    },
+    {
+      "accession": "GSM4453604",
+      "title": [
+        "P29"
+      ],
+      "geo_accession": [
+        "GSM4453604"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 48",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534718"
+      ]
+    },
+    {
+      "accession": "GSM4453605",
+      "title": [
+        "P30"
+      ],
+      "geo_accession": [
+        "GSM4453605"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 73",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534724"
+      ]
+    },
+    {
+      "accession": "GSM4453606",
+      "title": [
+        "P31"
+      ],
+      "geo_accession": [
+        "GSM4453606"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 53",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534723"
+      ]
+    },
+    {
+      "accession": "GSM4453607",
+      "title": [
+        "P32"
+      ],
+      "geo_accession": [
+        "GSM4453607"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 71",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534717"
+      ]
+    },
+    {
+      "accession": "GSM4453608",
+      "title": [
+        "P33"
+      ],
+      "geo_accession": [
+        "GSM4453608"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 42",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534716"
+      ]
+    },
+    {
+      "accession": "GSM4453609",
+      "title": [
+        "P34"
+      ],
+      "geo_accession": [
+        "GSM4453609"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 72",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534715"
+      ]
+    },
+    {
+      "accession": "GSM4453610",
+      "title": [
+        "P35"
+      ],
+      "geo_accession": [
+        "GSM4453610"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 63",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534714"
+      ]
+    },
+    {
+      "accession": "GSM4453611",
+      "title": [
+        "P36"
+      ],
+      "geo_accession": [
+        "GSM4453611"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 42",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534713"
+      ]
+    },
+    {
+      "accession": "GSM4453612",
+      "title": [
+        "P37"
+      ],
+      "geo_accession": [
+        "GSM4453612"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 73",
+        "gender: female"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534712"
+      ]
+    },
+    {
+      "accession": "GSM4453613",
+      "title": [
+        "P38"
+      ],
+      "geo_accession": [
+        "GSM4453613"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 55",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534711"
+      ]
+    },
+    {
+      "accession": "GSM4453614",
+      "title": [
+        "P39"
+      ],
+      "geo_accession": [
+        "GSM4453614"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 49",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534710"
+      ]
+    },
+    {
+      "accession": "GSM4453615",
+      "title": [
+        "P40"
+      ],
+      "geo_accession": [
+        "GSM4453615"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 62",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534709"
+      ]
+    },
+    {
+      "accession": "GSM4453616",
+      "title": [
+        "P41"
+      ],
+      "geo_accession": [
+        "GSM4453616"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 60",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534708"
+      ]
+    },
+    {
+      "accession": "GSM4453617",
+      "title": [
+        "P42"
+      ],
+      "geo_accession": [
+        "GSM4453617"
+      ],
+      "source_name_ch1": [
+        "lung"
+      ],
+      "organism_ch1": [
+        "Homo sapiens"
+      ],
+      "characteristics_ch1": [
+        "age: 64",
+        "gender: male"
+      ],
+      "data_processing": [
+        "Quality control",
+        "scRNA-seq reads were aligned to the GRCh38 genome assembly using STAR version 020201",
+        "aligned bam files were dealing with Featurecounts Version 1.6.2 to get UMI counts of each cell",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: expression matrix file using RNA raw count"
+      ],
+      "platform_id": [
+        "GPL20795"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN14534707"
+      ]
+    }
+  ]
+}

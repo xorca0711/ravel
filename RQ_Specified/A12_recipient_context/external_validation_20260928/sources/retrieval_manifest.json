@@ -1,0 +1,33 @@
+{
+  "retrieved_utc": "2026-09-28T10:53:37.912988+00:00",
+  "expression_opened": false,
+  "records": [
+    {
+      "accession": "GSE131907",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/soft/GSE131907_family.soft.gz",
+      "metadata_file": "sources\\GSE131907_family.soft.gz",
+      "sha256": "ccbe89a0247c2502ca5f389ce7ff3f8d864bcfc1db7caac3078f89c26d493de8",
+      "bytes": 7084,
+      "samples": 58,
+      "extracted_sha256": "bc6a0c50db54a761914ea5d8416f1622f69e2153c5a7403ae345845dccff5ca6"
+    },
+    {
+      "accession": "GSE123902",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE123nnn/GSE123902/soft/GSE123902_family.soft.gz",
+      "metadata_file": "sources\\GSE123902_family.soft.gz",
+      "sha256": "9517368516a822886fbdc4b324f3a4df8a586e8b3a37e6d39cf6d85959eaf160",
+      "bytes": 4679,
+      "samples": 17,
+      "extracted_sha256": "a58b2bf773f2e00af03fd58c0357980a3086d4f37af7cc104adb3384dc13a751"
+    },
+    {
+      "accession": "GSE148071",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148071/soft/GSE148071_family.soft.gz",
+      "metadata_file": "sources\\GSE148071_family.soft.gz",
+      "sha256": "db22b28bb983ebd519f2b64ca1faf188f21d13143f32bcbadf1c0f22091d3344",
+      "bytes": 3968,
+      "samples": 42,
+      "extracted_sha256": "c3a3f4d7edf52f40465af60da5d6a3faac849e6e5be0eaf697f87a20e5cee007"
+    }
+  ]
+}

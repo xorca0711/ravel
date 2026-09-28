@@ -1,0 +1,36 @@
+{
+  "checked_date": "2026-09-28",
+  "scope": "Three candidates, chosen from public LUAD scRNA-seq series; bounded recovery, not an exhaustive literature review.",
+  "records": [
+    {
+      "cohort": "GSE131907",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131907",
+      "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7210975/",
+      "annotation_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/suppl/GSE131907_Lung_Cancer_cell_annotation.txt.gz",
+      "patient_table_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131907/suppl/GSE131907_Lung_Cancer_Feature_Summary.xlsx",
+      "evidence": "Original deposited cell subtypes and original workbook patient IDs were recounted. Local originals match historical gate hashes. GEO confirms surgical untreated primary tumour and distant normal specimens among other tissue sites.",
+      "annotation_provenance": "Depositor Cell_subtype field; source candidate union Alveolar Mac, mo-Mac, Pleural Mac. AT2 is an exact depositor label. These counts do not certify equivalence to the pilot healthy-reference assignments or its uncertainty threshold.",
+      "decisive_evidence_file": "tables/kim_patient_intersection.tsv"
+    },
+    {
+      "cohort": "GSE123902",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123902",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32042191/",
+      "evidence": "The complete deposited sample manifest has four normal tissues. LX675, LX682 and LX684 have matching normal/primary-tumour title tokens and no chemotherapy in either arm. GEO's 17-donor wording conflicts with repeated title tokens, so title-pair provenance and a four-normal-specimen upper bound are retained separately.",
+      "annotation_provenance": "Sample-level GEO fields only. Recipient/source labels and counts remain unknown because even the maximum four paired units cannot reach the fixed ten-pair floor.",
+      "decisive_evidence_file": "tables/laughney_sample_manifest.tsv"
+    },
+    {
+      "cohort": "GSE148071",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148071",
+      "paper_url": "https://www.nature.com/articles/s41467-021-22801-0",
+      "paper_locator": "Figure 1 caption, panel e; Results, Establishment of advanced NSCLC cell atlas",
+      "short_verbatim_excerpt": "Biopsies were all taken from the primary lung tumors.",
+      "evidence": "The complete GEO manifest has 42 uniquely titled samples. The primary paper identifies the 42 biopsies as primary-tumour samples from 42 patients. Normal-like AT2 cells within these biopsies do not constitute separately sampled matched normal tissue.",
+      "annotation_provenance": "Sample-level GEO fields plus primary-paper tissue provenance. Paper discusses AT2 subclusters, but this does not repair the missing normal arm. No cell-level mappings were admitted.",
+      "decisive_evidence_file": "tables/wu_sample_manifest.tsv"
+    }
+  ],
+  "source_hashes": "sources/retrieval_manifest.json and tables/recovery_run.json",
+  "access_failures": ["Initial browser-open GEO views showed a browser-check page; indexed primary GEO records and direct public SOFT retrieval succeeded.", "openpyxl rejected a malformed custom workbook property; original sheet XML was read without altering the workbook."]
+}

@@ -1,0 +1,21 @@
+{
+  "all_recorded_output_hashes_match": true,
+  "executed_script_hash_matches": true,
+  "overwrite_guard_invoked": true,
+  "overwrite_guard_exit_code": 1,
+  "overwrite_guard_refused_before_archive_read": true,
+  "all_existing_artifact_hashes_unchanged_by_guard_test": true,
+  "run_record_sha256": "a11c635e3a3708ee5e089c91ae5bace0b26133200af571f5b88012a0c0d244ef",
+  "checked_outputs": {
+    "input_manifest.json": true,
+    "mouse_channel_manifest.csv": true,
+    "batch1_count_crosscheck.csv": true,
+    "table_s1_reconciliation.csv": true,
+    "discrepancy_ledger.json": true,
+    "primary_cohort_manifest.csv": true,
+    "primary_clone_size_frequencies.csv": true,
+    "mutant_parameter_trace.json": true,
+    "REPORT.md": true
+  },
+  "fit_or_simulation_executed": false
+}
