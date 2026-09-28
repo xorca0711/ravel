@@ -1,5 +1,27 @@
 # AI context
 
+## Current A8 and A14 workspaces, 28 September 2026
+
+Branch `codex/a8-a14-workspaces` gives A8 and A14 their own folders. Both were
+card-only before; both are registered questions blocked on a measurement, not on
+an analysis. Rules for later sessions:
+
+- **A8.** The 119-gene ADI/AT1 overlap and the seed-unstable four-gene late-AT1
+  panel (C168, owned by `Research Article/epithelial_state_specificity`) are facts
+  about gene lists. They are evidence neither for nor against a maturation
+  mechanism. A shrinking increment after disjointification is not a negative
+  result, because removing shared genes can remove real biology. Never define the
+  predictor and the mature outcome from the same or overlapping RNA panels, and
+  never substitute A10's organoid size (concurrent, unit = well) for the outcome.
+- **A14.** H1 (exposure duration) and H2 (fibroblast reception) have separate
+  decisions and must not be run as one experiment; their control requirements
+  differ. Loss of a transitional RNA score is not recovery. Receptor or inhibitor
+  RNA in A12 or A13 is not measured reception, and neither pilot involved
+  withdrawal.
+- Neither folder may be treated as having a result. A8's eligibility gate has not
+  been searched; A14's two systems are not available in the surveyed evidence,
+  which is a statement about what was examined, not about feasibility.
+
 ## Current A10 and A1 endpoint alignment, 28 September 2026
 
 Branch `codex/a10-a1-endpoint-matrix` adds A10's endpoint consolidation and A1's

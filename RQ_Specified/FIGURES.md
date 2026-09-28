@@ -1,8 +1,8 @@
 # Question figure gallery
 
 An index of every figure tracked under `RQ_Specified/`, with the document that
-captions it. A question ID is a navigation label, not an evidence grade. Six of
-the eleven questions here hold no figure at all, which is a fact about what those
+captions it. A question ID is a navigation label, not an evidence grade. Eight of
+the thirteen questions here hold no figure at all, which is a fact about what those
 analyses produced rather than a gap waiting to be filled: a paired median with
 three readable units is reported as a table because a plot of three points would
 imply a distribution the design cannot support.
@@ -48,11 +48,13 @@ correction there was to the SVG and to one raster panel, not to every image.
 | Question | What it produced instead |
 |---|---|
 | A2 | Both delivery legs, as tables and staged reports under [A2_areg_source_delivery](A2_areg_source_delivery/README.md). The readable leg-1 result is a median across three split wells, and the depth-standardised leg-2 correlation rests on four donors |
+| A8 | A rationale, a plan and a frozen component partition specification under [A8_maturation_component_at1_contribution](A8_maturation_component_at1_contribution/README.md). Its founding overlap diagnostics live in the register's own gallery at [analysis/figures/rq/README.md#a8](../analysis/figures/rq/README.md#a8), because they belong to the package that owns claim C168 |
 | A5 developmental reuse | A data audit and enrichment tables under [A5_developmental_programme_reuse](A5_developmental_programme_reuse/README.md); the shared-contract figure above covers the component test |
 | A11 | The Kim test and the GSE198864 acute-injury assay, both as tables and reports under [A11_lesion_programme_addition](A11_lesion_programme_addition/README.md). The acute-injury assay reached three to four paired donors, below any count that supports a plotted distribution |
 | A12 | A README only; its executed pilot was recorded under the roadmap run that produced it |
 | A13 | Triad counts and a reproduction check under [A13_fibroblast_beyond_macrophage_il1b](A13_fibroblast_beyond_macrophage_il1b/README.md). The result is a coverage arithmetic: no Kim patient holds a complete paired triad under the type 2 epithelial definition, three do under a wider one, against a ten-patient floor |
 | A15 | A plan, a rationale and a side-branch report; the question has no result of its own and is pending the owner's retain or reject |
+| A14 | Two frozen hypotheses and their arms under [A14_withdrawal_recovery_and_reception](A14_withdrawal_recovery_and_reception/README.md). Its experimental schematic is in the register's own gallery at [analysis/figures/rq/README.md#a14](../analysis/figures/rq/README.md#a14); its outcome panels require the unexecuted experiment |
 
 ## What this page does not do
 

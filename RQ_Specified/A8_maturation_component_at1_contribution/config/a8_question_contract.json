@@ -1,0 +1,82 @@
+{
+  "schema": "a8-maturation-component-at1-contribution/v1",
+  "drafted": "2026-09-28",
+  "status": "registered_blocked_stage_0_only_nothing_computed",
+  "registration": {
+    "decided_by": "owner",
+    "decision_state": "already registered in the canonical register; this workspace adds no identifier",
+    "workspace_created": "2026-09-28 on the owner's instruction, replacing a card-only presence",
+    "argument": "RQ_Specified/A8_maturation_component_at1_contribution/RATIONALE.md"
+  },
+  "question": {
+    "asked": "Conditional on a frozen shared-transition component, does a frozen maturation-specific component add information about an independently measured mature AT1 contribution, in independent animals?",
+    "what_is_not_being_asked": [
+      "whether a maturation-specific programme exists as a separable biological entity",
+      "whether mature AT1 identity is an extension of the transitional state",
+      "whether any RNA score predicts any other RNA score"
+    ]
+  },
+  "founding_observation": {
+    "owned_by": "Research Article/epithelial_state_specificity",
+    "claim": "C168",
+    "content": "source-derived ADI and AT1 holdout lists share 119 genes; the four-gene late-AT1 panel changes direction across technical seeds 17 and 29 at 2,000 UMIs in several injured wells and the one eligible external mouse",
+    "table": "Research Article/epithelial_state_specificity/results/module_overlap.csv",
+    "is_evidence_for_a_maturation_mechanism": false,
+    "is_evidence_against_a_maturation_mechanism": false,
+    "licenses": "a measurement check: freeze a disjoint component partition before any endpoint is opened"
+  },
+  "predictions": {
+    "if_h1_holds": "the frozen maturation component adds information about the measured mature endpoint beyond the shared component, and the increment transports",
+    "if_the_measurement_rival_holds": "the increment disappears under a disjoint partition",
+    "non_identifiability": "a shrinking increment after disjointification is consistent with both the measurement rival and removal of real shared biology; neither direction is identified by RNA alone"
+  },
+  "rivals": [
+    "definitional dependence",
+    "shared transition alone",
+    "timing",
+    "mixture",
+    "measurement quality",
+    "circularity through an RNA-defined outcome"
+  ],
+  "stage_1_partition_freeze": {
+    "required_before_any_endpoint": true,
+    "contents": [
+      "explicit rule assigning the 119 overlapping genes",
+      "exclusion of the seed-unstable four-gene late-AT1 panel from a primary role",
+      "minimum usable component size",
+      "normalization and depth conventions"
+    ],
+    "written": false
+  },
+  "stage_2_eligibility_gate": {
+    "conditions_all_required": [
+      "mature AT1 contribution measured independently of RNA (protein, morphology or traced descendant yield)",
+      "an early epithelial RNA measurement in the same biological units as the endpoint",
+      "predictor timing documented as earlier than the endpoint",
+      "at least three independent animals, donors or preparations per arm with identities deposited",
+      "endpoint definition independent of the predictor's genes"
+    ],
+    "state_on_2026_09_28": "no candidate identified; no public-data search has been performed under this gate",
+    "surveyed_evidence": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md rows O27 and O29"
+  },
+  "prohibitions": [
+    "defining predictor and mature outcome from the same or overlapping RNA panels",
+    "using the four-gene late-AT1 panel as a primary instrument while it is seed-unstable",
+    "substituting organoid size, a cycling score or a transitional score for measured mature AT1 contribution",
+    "reassigning the 119 shared genes after an increment has been seen",
+    "pooling preparations or relaxing the three-unit floor"
+  ],
+  "boundaries": [
+    "A10's organoid endpoint is concurrent with its RNA and its unit is the well; it is not A8's later outcome",
+    "no EdU, BrdU or label-retention assay is named in the surveyed evidence, so a traced-yield readout cannot be assumed available"
+  ],
+  "discriminating_measurement": "one cohort with an early epithelial RNA profile and, at a later documented timepoint, mature AT1 contribution measured by protein or traced descendant yield",
+  "claim_rows_added": 0,
+  "claim_rows_regraded": 0,
+  "endpoint_scored": false,
+  "datasets_opened_for_a8": [],
+  "measurement_contracts": [
+    "docs/RQ_MEASUREMENT_CONTRACTS.md#mc1",
+    "docs/RQ_MEASUREMENT_CONTRACTS.md#mc5"
+  ]
+}

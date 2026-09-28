@@ -2,6 +2,33 @@
 
 **Update this before stopping work, every session.**
 
+## Current A8 and A14 workspaces, 28 September 2026
+
+The owner asked whether A8 and A14 share enough context to sit together. They do
+not: they share only the absence of a measured mature epithelial outcome and
+measurement contract MC1. A8 is observational and turns on how a maturation
+component is defined; A14 is interventional and turns on IL-1 exposure duration
+and compartment-specific reception. Their populations, predictors, perturbations,
+rivals and decision rules are disjoint, and they sit in different question
+families -- A8 with A1 and A10, A14 with A2, A12 and A13. On that finding the
+owner's instruction was to create separate folders.
+
+Branch `codex/a8-a14-workspaces` adds
+[A8_maturation_component_at1_contribution](RQ_Specified/A8_maturation_component_at1_contribution/README.md)
+and [A14_withdrawal_recovery_and_reception](RQ_Specified/A14_withdrawal_recovery_and_reception/README.md),
+each with README, RATIONALE, PLAN and a question contract in the house template.
+A8's rationale completes the proposal's open item for it: the 119-gene ADI/AT1
+overlap and the seed-unstable four-gene late-AT1 panel (claim C168) license a
+measurement check and not a maturation mechanism, and the inference runs in
+neither direction because disjointification can remove real shared biology as
+well as a definitional artefact. A14's rationale completes its open item by
+giving H1 (exposure duration) and H2 (fibroblast reception) each its own
+population, arms, outcome, rival set and decision, with an explicit refusal to
+combine them into one experiment. Both folders record that their blocking input
+is a measurement rather than an analysis; A8 additionally records that no
+public-data search has been performed under its frozen eligibility gate. No
+analysis ran, and no claim row, grade, register card or readiness row changed.
+
 ## Current A10 and A1 endpoint alignment, 28 September 2026
 
 Second adopted item of the [combined proposal](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md):
