@@ -1,5 +1,16 @@
 # AI context
 
+## Current RQ README handoff, 28 September 2026
+
+Branch `codex/rq-readme-orientation` starts from merged PR #108 (`f893294`).
+Every existing question-workspace README now introduces its biological question,
+motivation and scope before results/history. Keep that orientation when adding
+future status updates; retain each question's distinct workflow below it.
+[RQ_Specified/README.md](RQ_Specified/README.md) maps all registered labels and
+distinguishes the A5/A11 shared contract from a new question. A5/A12 recovery
+gates and A13's historical coverage versus later pilot are explicitly linked.
+This revision does not run or alter analyses or change registered decisions.
+
 ## Current documentation handoff, 28 September 2026
 
 The current docs branch is `codex/research-doc-sync`, based on remote main

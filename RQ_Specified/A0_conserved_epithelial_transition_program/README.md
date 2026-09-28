@@ -1,5 +1,23 @@
 # A0 — Conserved epithelial transition programme
 
+## Organizing biological question
+
+> Is a conserved programme reused across epithelial transitions, and could it modulate fate?
+
+The working hypothesis is that epithelia reuse some of the cellular work needed
+to leave one identity and acquire another. A transferable RNA programme would
+motivate a separate question about its contribution to maturation or persistence.
+
+This folder tests the observable part first: discover an intermediate-enriched
+programme in lung repair and development, then test its transfer to intestinal
+differentiation against both starting and mature states. It separates that
+cross-tissue test from the still-open causal question about fate.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a0),
+[plan](PLAN.md), [scientific pilot result](reports/PILOT_V1_RESULTS.md).
+
+## Evidence and analysis history
+
 **Audit clarification, 27 September 2026:** the current `pilot_v1` and the earlier
 repair-first exploratory pilot have different cohorts, intestinal state definitions
 and scoring instruments. Both reuse repair/Haber sources; they are not independent

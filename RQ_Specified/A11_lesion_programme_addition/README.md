@@ -1,5 +1,24 @@
 # A11: lesion-associated programme beyond shared plasticity
 
+## Organizing biological question
+
+> Which lesion-associated programmes add to a shared epithelial plasticity component?
+
+The working hypothesis is that neoplasia-associated epithelial states combine a
+shared remodelling response with additional lesion-associated programmes. A
+programme found in a tumour context could also accompany non-neoplastic repair.
+
+This folder tests a frozen lesion-associated module in paired human lung samples
+and asks whether its change exceeds the shared component. A separate acute-injury
+assay challenges its specificity. A5 tests developmental reuse; A11 asks what
+lesion-associated information remains beyond shared plasticity.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a11),
+[plan](PLAN.md), [paired-patient results](../A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md),
+[acute-injury results](reports/ACUTE_INJURY_RESULTS.md).
+
+## Evidence and analysis history
+
 **Latest follow-through:** [A11 results and candidate decisions](../../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md). Historical specifications and numerical results below are preserved; read the dated follow-through for the current execution state.
 
 Question-specific work for [A11](../../RESEARCH_QUESTIONS.md#a11). The canonical

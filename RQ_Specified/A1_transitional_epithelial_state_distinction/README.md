@@ -1,5 +1,23 @@
 # A1: Distinguishing transitional epithelial states
 
+## Organizing biological question
+
+> Do regulatory programmes distinguish RNA-similar transitional states and their functional responses?
+
+The working hypothesis is that epithelia with overlapping injury-associated RNA
+can differ in regulatory state and in their ability to mature, persist or respond
+to a perturbation. Shared marker expression alone does not resolve those possibilities.
+
+This folder compares source-defined transitional states using chromatin,
+histone and methylation evidence alongside separately assessed lineage and
+functional outcomes. It asks what supports a regulation-to-fate connection
+without assuming that different state names imply either identical or distinct biology.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a1),
+[analysis plan](PLAN.md), [regulatory and outcome report](reports/REGULATORY_FATE_REPORT.md).
+
+## Evidence and analysis history
+
 Updated 25 September 2026. **Status: three-avenue continuation completed for
 usable public inputs.** Start with the
 [regulatory and outcome report](reports/REGULATORY_FATE_REPORT.md). All 22 HPCS

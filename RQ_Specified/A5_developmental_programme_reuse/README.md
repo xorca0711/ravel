@@ -1,6 +1,31 @@
 # A5: developmental-gene recruitment in adult repair
 
-**Latest follow-through:** [A5 results and candidate decisions](../../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md). Historical specifications and numerical results below are preserved; read the dated follow-through for the current execution state.
+## Organizing biological question
+
+> Does adult alveolar repair reuse part of a developmental epithelial programme?
+
+The working hypothesis is that development and repair recruit a shared component
+of epithelial remodelling, with context-specific additions contributing to
+different outcomes. Developmental-gene enrichment would support partial reuse;
+it would leave shared ancestry and repair function as separate questions.
+
+This folder tests an externally sourced developmental signature in transitional
+versus activated alveolar type 2 (AT2) cells within injured mice, with identity,
+stress and cycling exclusions. It also records the eligibility of an independent
+repair cohort. A0 asks about transfer across epithelial transitions more broadly;
+A5 focuses on developmental reuse in adult alveolar repair.
+
+**Read first:** [question card](../../RESEARCH_QUESTIONS.md#a5),
+[biological rationale](../A5_A11_shared_component_contract/BIOLOGICAL_LOGIC.md),
+[plan](PLAN.md), [revised results](../A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md).
+
+## Evidence and analysis history
+
+**Latest recovery, 28 September 2026:** the [independent-cohort report](replication_gate_20260928/REPORT.md)
+recovers author state labels and library records, but the barcode/state/mouse map
+and library-to-animal reconciliation remain missing. No new external score was
+produced. The [earlier candidate audit](../../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md)
+and numerical results below retain their original scope.
 
 Read the [biological rationale](../A5_A11_shared_component_contract/BIOLOGICAL_LOGIC.md)
 and [prospective plan](PLAN.md). **The revised test is complete.** All 24 primary mice have positive paired
