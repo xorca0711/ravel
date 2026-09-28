@@ -1,5 +1,18 @@
 # AI context
 
+## England continuation handoff, 28 September 2026
+
+The owner requested completion through EN7, added CD177-associated transitional
+states and research-theme ideas 4–6, then requested a handoff for another session.
+Start with the [England EN7/CD177 handoff](docs/handoffs/2026-09-28-england-en7-cd177.md).
+The first batch is complete; the new continuation contract was frozen at `4d66231`
+before its endpoints. **Continuation clustering, CD177 comparisons, source-model
+simulation and external transfer have not run.** No job is running.
+Public ENA intake maps 68 runs to 20 libraries; it does not resolve biological
+pool identities or reporter pairing. New metadata and the continuation ledger
+are in the England paper package. Reuse the existing worktree and preserve
+first-batch outputs. No scientific claim grade changed.
+
 ## England first analysis batch, 28 September 2026
 
 Following the owner's explicit request to proceed beyond planning, the

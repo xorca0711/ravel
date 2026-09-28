@@ -1405,3 +1405,17 @@ Biological results were not altered to pass it. The per-cell rendering denominat
 is documented explicitly in the render record. Sparse distance bins are marked
 visually, and stronger spatial inference remains blocked. The batch is not an
 exact reproduction of the original six-state Seurat analysis or stochastic model.
+
+
+## England continuation handoff, 28 September 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-28 | EN7/CD177 contract and next-session handoff | Codex specified the bounded continuation | Owner requested completion through EN7, ideas 4–6 assessment and a handoff; scientific acceptance remains open | Contract frozen before new outcomes; no continuation endpoint run | Preserve verified batch1 and carry forward concrete rules, source intake, paths and remaining gates |
+
+The added public ENA/GitHub/Mendeley catalogue audit recovered sequencing-run
+mapping but no biological pool or repeated spatial-clone identities. The Mendeley
+PDF download returned HTTP 403 and was not inspected. Source simulator timing
+behavior was read, not numerically evaluated. No result or historical claim was
+regraded. The [handoff](docs/handoffs/2026-09-28-england-en7-cd177.md) owns the
+continuation queue; this documentation is not evidence that EN7 has executed.

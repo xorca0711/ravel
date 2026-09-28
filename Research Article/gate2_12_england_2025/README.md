@@ -1,5 +1,7 @@
 # England et al. 2025: regeneration, NF-kB feedback and mutant AT2 states
 
+**Continuation handoff, 28 September 2026:** [resume through EN7 and CD177](../../docs/handoffs/2026-09-28-england-en7-cd177.md). The [new contract](CONTINUATION_CONTRACT.md) is frozen; its endpoints have not run. Batch1 results below remain unchanged.
+
 **Execution update, 28 September 2026:** the owner authorized the actual analysis after planning. The [first execution batch and four figures](RESULTS_BATCH1.md) are complete: 20 libraries, 44,196 source-QC cells, and 164,453 clonal measurements across 44 source-indexed mice. Numerical verification passed; exact source-state reproduction, independent pool identities and inferential spatial joins remain unresolved. The text below records the original planning/source-intake state.
 
 **Reading gate 2C, item 2; stable roadmap paper 12. Owner read confirmed 27 September 2026.**
