@@ -201,6 +201,8 @@ Research Article/                      paper roadmap, one folder per paper, in r
   gate1_03_nabhan_2018/        source reproduction, descriptive Nb1, external eligibility
   gate1_04_sikkema_2023_hlca/  reference mapping to the HLCA (S1 to S5)
   gate2_05_cardoso_2026/       early fibrotic niches (C0 to C14, E1 to E6)
+  gate2_C2_england_2025/       NF-kB, mutant AT2 states and clone dynamics; batch1, EN0 to EN7
+                               and FU_A to FU_W trials, and a 14-figure gallery
   gate2_C3_yu_lee_choi_min_2026/ IL-1 context analyses and paper-specific F01–F07 gallery
   epithelial_state_specificity/ cross-study signature, genotype and coverage analysis
   ungated_murthy_2022/         a source paper outside the roadmap; pointer note only
