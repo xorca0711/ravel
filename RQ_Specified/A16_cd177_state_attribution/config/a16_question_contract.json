@@ -1,0 +1,196 @@
+{
+  "schema": "a16-cd177-state-attribution/v1",
+  "drafted": "2026-09-28",
+  "status": "proposed_registration_stage_0_only_nothing_computed",
+  "registration": {
+    "decided_by": "owner",
+    "decision_state": "pending retain or reject",
+    "argument": "RQ_Specified/A16_cd177_state_attribution/README.md",
+    "if_rejected": "the folder is removed and the lead is recorded as a findings entry under Research Article/gate2_C2_england_2025, keeping the observation without keeping a register identifier"
+  },
+  "question": {
+    "register": "RESEARCH_QUESTIONS.md#a16",
+    "proposition": "Cd177 detection in a transitional alveolar cell carries information about that cell beyond the information carried by its position in the transcriptional landscape.",
+    "what_is_not_being_asked": "whether a primed, identity-retaining transitional state exists, which the England package already describes, and whether CD177-positive cells are functionally distinct, which no RNA matrix can answer",
+    "what_is_being_asked": "the attribution of one marker: cell-intrinsic programme against positional coordinate, holding the frozen transitional gate and module definitions fixed",
+    "rationale": "RATIONALE.md",
+    "plan": "PLAN.md"
+  },
+  "exposure": {
+    "declared": "FULL",
+    "detail": "The founding within-subcluster result (FU_C) was computed and seen on 28 September 2026 before this contract was written, and Stage 1 reuses the same processed matrices. Stage 1 is an amendment with full prior exposure, not independent confirmation.",
+    "consequence": "Stage 1 is one-directional: it can close the question negatively, and its strongest permitted positive conclusion is bounded by stage_1_permitted_positive_conclusion below."
+  },
+  "founding_observation": {
+    "owned_by": "Research Article/gate2_C2_england_2025 (EN5, FU_A, FU_C)",
+    "is_evidence_for_a16": false,
+    "why_not": "reuse never adds independent evidence; the England package owns these numbers and the interpretation recorded there, and A16 opens with a question about them rather than support for an answer",
+    "libraries_with_the_contrast": {
+      "GSM7890835": "79 positive vs 799 negative",
+      "GSM7890836": "60 positive vs 598 negative",
+      "note": "the only two libraries in GSE247505 with enough Cd177-positive transitional cells; same experiment, no animal identities deposited, therefore not two biological replicates"
+    },
+    "marginal_effects_smd": {
+      "priming_associated_RNA": [
+        1.6,
+        2.17
+      ],
+      "AT2_identity": [
+        0.94,
+        1.41
+      ],
+      "AT1_identity": [
+        0.85,
+        0.52
+      ],
+      "Itga2": [
+        -0.48,
+        -0.75
+      ],
+      "shared_remodelling_disjoint": [
+        -0.7,
+        -1.21
+      ],
+      "lesion_remodelling_disjoint": [
+        -0.88,
+        -1.1
+      ],
+      "cycling": [
+        -0.04,
+        0.48
+      ]
+    },
+    "depth_control": "all seven associations keep their sign under the three methods available in both libraries; residualisation on log depth and detected genes retains 87 to 159 per cent of each effect; the frozen four-method rule returned inconclusive only because 3,000-UMI thinning leaves GSM7890836 at 26 positive cells, below the pre-set 30-cell floor",
+    "within_subcluster_conditioning": {
+      "testable_subclusters": 7,
+      "Itga2_flips_positive_in": 5,
+      "AT2_identity_range": [
+        -0.36,
+        1.27
+      ],
+      "priming_persists_in": 5,
+      "priming_persisting_values": [
+        0.36,
+        0.36,
+        0.6,
+        1.31,
+        2.32
+      ]
+    },
+    "marker_quality": "Cd177 UMIs in positive cells spread 1 to 53 with no break, so the positive/negative split is a detection threshold rather than a bimodal population"
+  },
+  "frozen_definitions": {
+    "transitional_gate": "Cldn4, Ndrg1, Sox9; at least two of three detected",
+    "priming_associated_module": [
+      "Lcn2",
+      "Lrg1",
+      "Retnla",
+      "Ptgs1"
+    ],
+    "AT2_identity_module": [
+      "Abca3",
+      "Cebpa",
+      "Lpcat1",
+      "Sftpa1"
+    ],
+    "cycling_module": [
+      "Mki67",
+      "Birc5",
+      "Cdk1",
+      "Top2a",
+      "Stmn1"
+    ],
+    "source_of_truth": "Research Article/gate2_C2_england_2025/config/continuation_contract.json; not to be varied by this question",
+    "primary_endpoint": "priming-associated RNA, the only endpoint that survived conditioning in the founding work",
+    "secondary_endpoints": "the remaining six, reported for consistency and not promoted if they move"
+  },
+  "unit_and_inference": {
+    "unit": "the sequencing library; never the cell and never a pooled two-library aggregate",
+    "biological_units_available": 0,
+    "consequence": "no population inference, no p values, no significance statement; per-library reporting only",
+    "floor": "at least 30 cells per side; a stratum below the floor is reported as not assessed"
+  },
+  "stage_1_analyses": {
+    "A16_C1_continuous_neighbourhood_matching": {
+      "purpose": "condition on position continuously instead of on arbitrary cluster boundaries",
+      "estimand": "weighted mean matched difference in the primary endpoint per library, over a prespecified range of k",
+      "decision": "inside the C3 null band means the residual is composition finer than the round-2 clusters and A16 closes; outside means position as measured does not explain it"
+    },
+    "A16_C2_resolution_ladder": {
+      "purpose": "test whether the residual is an artefact of one clustering resolution",
+      "estimand": "trend of the pooled within-subcluster primary effect against clustering resolution, with the count of subclusters clearing the floor at each",
+      "decision": "monotone decay toward zero favours finer-scale composition; a plateau favours a non-positional component; running out of testable subclusters is reported as underpowered"
+    },
+    "A16_C3_detection_matched_gene_null": {
+      "purpose": "the specificity anchor: is the residual specific to Cd177 or generic gradient behaviour",
+      "estimand": "Cd177's primary effect as a quantile of a control-gene distribution matched on detection rate and mean expression within the transitional gate, per library and per analysis",
+      "decision": "central mass means the persistence is generic, the premise collapses and A16 closes; only an extreme-tail position keeps it open",
+      "run_order": "first, with C4"
+    },
+    "A16_C4_ambient_neutrophil_origin_control": {
+      "purpose": "Cd177 is a neutrophil surface protein and the priming module is inflammation-associated, so ambient neutrophil RNA would produce a residual with no cell state behind it",
+      "estimand": "the primary effect before and after conditioning on a neutrophil and ambient panel score, plus the association between Cd177 detection and that score",
+      "decision": "removal of the residual means contamination and A16 closes negatively; this bears on the RNA side only and cannot touch the source's immunofluorescence or sorted-organoid evidence",
+      "known_weakness": "the deposit holds filtered matrices with no empty droplets, so ambient RNA cannot be estimated properly; a within-cell panel is a weaker instrument and a negative result here does not exclude contamination",
+      "run_order": "first, with C3"
+    },
+    "A16_C5_threshold_and_marker_quality": {
+      "purpose": "the positive call is a cut on a continuum",
+      "estimand": "sign and magnitude of the primary effect at Cd177 >= 1, >= 2 and >= 3 UMIs and at thinned-depth equivalents, with surviving cell counts",
+      "decision": "sign changes across thresholds mean no RNA-based attribution is possible and the question waits entirely on protein"
+    }
+  },
+  "stage_1_permitted_positive_conclusion": "a component of the priming association is not explained by position as measured here, is specific to Cd177 among detection-matched genes, and is not removed by the available ambient control \u2014 this wording is the ceiling, and cell-intrinsic function may not be concluded because conditioning shrinks the estimate under both rivals",
+  "stage_2_eligibility_gate": {
+    "purpose": "a later session cannot relax the readout requirement in order to obtain a testable dataset",
+    "frozen_before_any_candidate_is_opened": true,
+    "conditions": {
+      "1_protein_separation": "CD177 measured as protein and used for prospective separation, by sorting or spatial protein at single-cell resolution; RNA detection alone is not separation",
+      "2_measured_outcome": "EdU or BrdU incorporation, Ki67 protein, clone or colony growth, organoid formation, or a lineage label, on the separated fractions; a cycling RNA score is not an outcome",
+      "3_independent_state_assignment": "transitional-state assignment by the frozen gate or an author label with a stated definition, so the comparison is within state",
+      "4_biological_replication": "at least three independent animals or donors per arm with unit identities deposited",
+      "5_position_recoverable": "enough transcriptome to establish neighbourhood, so separated cells are compared within a region rather than across the landscape"
+    },
+    "stop_rules": {
+      "hard": "if conditions 1 to 3 do not co-occur, no transfer is attempted and the search is recorded as a negative result",
+      "soft": "a deposit meeting 1 and 2 but failing 4 may be used for an explicitly non-inferential descriptive transfer, labelled as such, and may not change the readiness row"
+    },
+    "state_on_2026_09_28": "no candidate clears conditions 1 and 2 together; GSE253461 and GSE316244 are partially eligible for the positional part of the question only and neither carries a sorted-CD177 arm with an outcome"
+  },
+  "rivals": [
+    "finer-scale composition below the round-2 clusters",
+    "generic gradient behaviour shared by any detection-matched gene, the rival most likely to be correct",
+    "ambient neutrophil RNA co-varying with both Cd177 and the inflammation-associated priming module",
+    "a detection threshold masquerading as a population, given Cd177 UMIs spread 1 to 53 with no break",
+    "library-specific biology or handling, the two libraries already disagreeing on cycling",
+    "state-definition dependence of the transitional gate, disclosed rather than tested",
+    "RNA detection is not surface protein availability, which is what a sorting experiment would act on"
+  ],
+  "prohibitions": [
+    "do not report the England FU_C result as independent confirmation",
+    "do not treat a surviving within-neighbourhood association as cell-intrinsic function",
+    "do not substitute a cycling RNA score for a proliferation readout",
+    "do not pool GSM7890835 and GSM7890836",
+    "do not lower the 30-cell floor or relax the transitional gate to make a subcluster testable",
+    "do not change the gate or module definitions frozen in the England continuation contract",
+    "do not compute a trajectory, velocity or pseudotime; the source ran none and the deposit has no spliced or unspliced layers",
+    "do not use the Il1r1-deletion Cd177 decrease as evidence about attribution",
+    "do not add or regrade a claim row"
+  ],
+  "boundaries": {
+    "A8": "owns the maturation component and mature AT1 endpoints; A16 does not ask what the primed state matures into",
+    "A11": "owns lesion programmes against shared plasticity; A16 uses the disjoint modules only as endpoints",
+    "A1": "owns the regulatory distinction between RNA-similar transitional states; A16 adds no chromatin or regulatory layer",
+    "A4": "owns lineage; nothing here traces a cell or licenses a direction",
+    "A17": "shares a package of origin and no data or estimand"
+  },
+  "discriminating_experiment": {
+    "design": "sort surface CD177-positive and CD177-negative cells from within a Cldn4/Ndrg1/Sox9 transitional gate in the same animals and from a comparable neighbourhood, and measure EdU or Ki67 protein and short-term clone growth on both fractions",
+    "prediction_on_record": "enrichment for primed, identity-retaining cells and not for more cycling ones",
+    "falsifier": "CD177-positive cells dividing more would contradict our reading and support the source's"
+  },
+  "claim_rows_added": 0,
+  "claim_rows_regraded": 0,
+  "endpoint_scored": false,
+  "datasets_opened_for_a16": 0
+}

@@ -1,5 +1,10 @@
 # England et al. 2025: regeneration, NF-kB feedback and mutant AT2 states
 
+**A16 Stage 1 integration, 28 September 2026:** the [question workspace](../../RQ_Specified/A16_cd177_state_attribution/README.md)
+now holds the completed sensitivities and [current review](../../RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md).
+The original numerical outputs are retained; ambient/depth exclusions and
+position-independent biology remain unestablished.
+
 **Current interpretation, 28 September 2026:** read the [source/claim audit](../../docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
 and corrected [A16–A18 cards](../../RESEARCH_QUESTIONS.md#a16). All three remain
 proposed. The [eight additional candidate hypotheses](CANDIDATE_HYPOTHESES.md)

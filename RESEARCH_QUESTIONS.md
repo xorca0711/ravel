@@ -1,5 +1,9 @@
 # Research questions
 
+**A16 branch integration, 28 September 2026:** [executed Stage 1 and review](RQ_Specified/A16_cd177_state_attribution/README.md)
+are now included. Sensitivity results are retained; contamination, complete
+depth control and intrinsic biology remain unresolved. No claim grade changed.
+
 **England interpretation update, 28 September 2026:** [source/claim audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md)
 and [eight readable candidate hypotheses](#england-candidates). A16–A18 below
 incorporate the audit's population, model and spatial-inference corrections;
@@ -74,7 +78,7 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A13](#a13) | Fibroblast programmes add information beyond macrophage IL1B | Niche heterogeneity motivates joint association | [Amended exploratory pilot complete](docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md): 12 paired triads; no aggregate held-out gain. Older failed coverage gates preserved; no mediation claim |
 | [A14](#a14) | Exposure duration and fibroblast reception separately affect recovery | Mechanistic follow-up to the repair/persistence question | Two decisions; withdrawal and recipient-specific data needed |
 | [A15](#a15) | The epithelial input to fibroblast activation runs through integrin-mediated TGF-beta activation rather than through ligand supply | A2's exploratory association: Itgb6-targeted wells have a -0.938 log2 CPM median contrast in three readable split wells; no Areg decrement is established | **Proposed, pending the owner's retain or reject.** Blocked: no eligible deposit found in the recorded search. The authorized side-branch has run; epithelial-state mediation remains unresolved |
-| [A16](#a16) | A CD177-associated priming phenotype may persist within comparable mutant transitional cells | Earlier comparisons changed the population and pooling; the audit's same-population diagnostic is heterogeneous | **Proposed, pending retain/reject.** Corrected RNA attribution can be specified; stable cell-intrinsic function needs independent outcomes |
+| [A16](#a16) | A CD177-associated priming phenotype may persist within comparable mutant transitional cells | Original population mismatch and Stage 1 sensitivities leave specificity, contamination and composition unresolved | **Proposed, pending retain/reject.** [Stage 1 integrated with corrections](RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md): partly measured and inconclusive; corrected attribution and functional evidence remain open |
 | [A17](#a17) | Persistent growth differences between founder lineages may help explain mutant clone-size heterogeneity | Clone distributions and source lineage evidence motivate the model; a deposited simulator defect affects one implementation | **Proposed, pending retain/reject.** Computationally feasible after source-count, parameter and schedule amendments; held-out refit unexecuted |
 | [A18](#a18) | WT expansion and loss of AT2 identity may be regulated differently near mutant clones | Source phenotype and reproduced pooled distance profiles; two causal channels remain a hypothesis | **Proposed, pending retain/reject.** Descriptive profiles complete; spatial inference needs mouse/clone identifiers |
 
@@ -860,8 +864,18 @@ encoded by the clustering. Depth, ambient RNA and RNA/protein mismatch remain
 rivals. Independent surface-marker and outcome linkage is needed for the
 stable/functionally distinct phenotype; snapshot cell-cycle RNA is insufficient.
 
-**Readiness.** The corrected descriptive attribution analysis can be specified
-with existing data; its population and gene exclusions must be fixed first.
+**Stage 1 now integrated.** The subsequently reviewed [A16 workspace](RQ_Specified/A16_cd177_state_attribution/README.md)
+contains executed C1–C5 sensitivities and their two-arm population amendment.
+Specificity remains inconclusive; seven of nine entries have fewer than 40
+matched controls. The panel adjustment does not exclude contamination, and all
+four thinned-depth rows in the two primary libraries fail the cell floor. UMAP
+matching is a declared substitute for the frozen space; the two arms do not
+make the original population comparison nested. The [integration review](RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md)
+supersedes the old report's stronger exclusions without changing its numbers.
+
+**Readiness.** Partly measured and inconclusive. The corrected descriptive
+attribution analysis still needs its population and independent neighbourhood
+definitions fixed in an amendment.
 The full functional test remains data-limited. GSE253461 and GSE316244 are
 conditional external candidates with differing genotype/culture and pooling,
 not independent confirmation. [E-N5/E-N6](Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)

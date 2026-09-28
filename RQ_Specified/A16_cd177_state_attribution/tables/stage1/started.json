@@ -1,0 +1,29 @@
+{
+  "stage": "A16 Stage 1 C3+C4",
+  "started_utc": "2026-09-28T09:22:52.513348+00:00",
+  "a16_contract_sha256": "61e3f7025657721eecd45e7fb78b84f1ed99fce00b15cea4b44d8a1e27d65481",
+  "england_continuation_contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "erratum_sha256": "f74366cda8c141bd974d830068706b425d4e85422ddd810bda0ac3d13a9e5b93",
+  "script_sha256": "689fc0b6308bb14bf99faae5d0736c9f6ad36d42098ea7e383f6ee04564d785d",
+  "seed": 20260928,
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0"
+  },
+  "exposure": {
+    "declared": "FULL",
+    "detail": "The founding within-subcluster result (FU_C) was computed and seen on 28 September 2026 before this contract was written, and Stage 1 reuses the same processed matrices. Stage 1 is an amendment with full prior exposure, not independent confirmation.",
+    "consequence": "Stage 1 is one-directional: it can close the question negatively, and its strongest permitted positive conclusion is bounded by stage_1_permitted_positive_conclusion below."
+  },
+  "n_control_genes_cap": 500,
+  "matching_bands": {
+    "detection_rate_relative": 0.25,
+    "mean_log1p_cp10k_relative": 0.35
+  },
+  "floor_cells_per_side": 30,
+  "primary_endpoint": "priming_associated",
+  "inputs": []
+}
