@@ -81,6 +81,70 @@ Repeating the Cd177 contrast *within* each round-2 subcluster that meets the 30-
 | Reversible / bidirectional transitions | **Not addressable with this deposit.** Intermediates are populated and not doublets, which is consistent with their model, but no direction, rate or reversibility can be estimated from snapshot matrices without splicing information |
 | Mixed identity as AT2→AT1 infidelity | **Weakened.** Under a module-based AT1 definition calibrated on labelled data, the mixed state nearly disappears |
 
+## FU_W — the source's growth versus differentiation decoupling, recovered from the deposit
+
+England et al. report the decoupling explicitly: loss of pro-Sftpc was independent of proximity to
+mutant clones up to a 300 um resolution, in contrast to wild-type expansion, suggesting that
+alternate mechanisms control self-renewal versus differentiation (Figures 5G–5J and 6E–6F). This
+block is a **reproduction of that comparison** on the deposited pooled pair arrays, not an
+independent contrast. What it adds is that the claim is recoverable from what was deposited, both
+readouts on a common relative scale, the homeostatic slope for each, and an audit of the
+bin-occupancy limitation the source methods name. Bins require at least ten pair rows and a midpoint
+within 400 um; slopes are pair-row-weighted, expressed as a percentage of the distal level per
+100 um, and repeated on bins with at least 100 pair rows.
+
+| context | dataset | pair rows | size near / far | size slope | dense-bin | pro-Sftpc− near / far | pro-Sftpc− slope | dense-bin |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| oncogenic | kras4d | 520 | 2.55 / 2.10 | −16 | n/a | 0.28 / 0.33 | −2.5 | n/a |
+| oncogenic | kras1w | 7,576 | 4.88 / 2.77 | −109 | −109 | 0.20 / 0.25 | −49 | −49 |
+| oncogenic | kras2w | 6,986 | 4.76 / 2.31 | −78 | −69 | 0.14 / 0.22 | +12 | +12 |
+| oncogenic | kras4w | 4,557 | 5.25 / 3.16 | −41 | −43 | 0.22 / 0.21 | +3.5 | +5.5 |
+| homeostatic | nine Confetti | 201–1,058 | 2.15–6.71 / 2.06–5.36 | −22 to +0.2 | −56 to −1.4 | 0.03–0.09 / 0.00–0.14 | −13 to +40 | −48 to +55 |
+
+![Growth and differentiation distance profiles](trials/followup/figures/FU_F05_growth_differentiation.png)
+
+Three readings hold. The size gradient is robust: restricting to well-occupied bins leaves the
+oncogenic values essentially unchanged, so it is not an artefact of the sparse distal bins. Context
+separation depends on the estimator and on the timepoint. On full-bin slopes, kras1w, kras2w and
+kras4w (−109, −78, −41) all fall faster than every homeostatic dataset, the most negative of which is
+conf60w at −22, while kras4d (−16) sits inside the homeostatic range. Under the dense-bin restriction
+the four-week separation is lost: kras4w (−43) is shallower than conf60w (−56), so only the one- and
+two-week timepoints separate from homeostatic tissue on both estimators. And the differentiation proxy is raised two- to five-fold
+over homeostatic tissue at every distance while its slope is inconsistent in sign in **both**
+contexts, so the deposit is consistent with proximity independence without being strong evidence for
+it; an absent slope in a noisy readout is not a demonstration of independence.
+
+**Is the decoupling a scale artefact?** It is the first objection to raise, because an unbounded count
+was being compared against a fraction bounded at 1 on a percent-of-distal-level scale, and a bounded
+readout yields shallower relative slopes for purely arithmetic reasons. Repeating both slopes on
+multiplicative scales with no ceiling — a log link for neighbour size, a logit link for the
+pro-Sftpc-negative fraction — the decoupling survives and becomes easier to read. Mean absolute slope
+per 100 um in oncogenic tissue is 0.435 on log size against 0.062 in homeostatic tissue, a sevenfold
+separation; for the logit fraction it is 0.185 oncogenic against 0.155 homeostatic, and the four
+oncogenic values are inconsistent in sign (−0.51, +0.16, −0.04, +0.04). So the size gradient is
+specific to oncogenic tissue on a scale where the ceiling cannot produce it, while the differentiation
+readout's distance dependence is not distinguishable from homeostatic background. kras1w is the single
+exception, carrying both gradients (−0.754 log size, −0.507 logit fraction). This addresses the scale
+objection only: clone merger, the bin-occupancy collapse and the absence of an animal unit are
+untouched by it, and they remain the reasons A18 is filed as inferentially blocked.
+
+**What this does not establish.** Pooled rows carry no mouse or clone identifiers and one neighbour
+clone may contribute to several rows, so there is no mouse-level effect, no significance and no
+causal reading. Pair rows collapse with distance (kras1w: 4,953 at 25 um to 13 at 225 um), which the
+source methods name as limiting statistical power. Clone merger near large lesions would inflate
+short-distance neighbour size without any change in division rate and cannot be excluded from these
+rows; the pro-Sftpc-negative fraction already sits near 0.2 to 0.3 close to the clone and has less
+room to rise; and distance in Confetti tissue is clone-to-clone rather than clone-to-mutant, making
+that reference analogous rather than matched. The exposure is disclosed in the contract: these slopes
+were computed as scoping before the FU_W block was frozen, so this is an openly exploratory
+extension. The mechanistic question it motivates is written up as A18 in
+[RESEARCH_QUESTIONS.md](../../RESEARCH_QUESTIONS.md).
+
+## Derived research questions
+
+Three questions were proposed to the shared index on 28 September 2026, each pending the owner's retain or reject:
+**A16** (does Cd177 mark a cell-intrinsic priming programme or the transcriptional neighbourhood a cell occupies) — blocked for its discriminating sorted-CD177 test, with GSE253461 and GSE316244 identified as partially eligible external routes for the attribution question alone; **A17** (does support for two founder classes survive a boundary-correct simulation) — ready to run as the deferred FU_S refit, no new data required; **A18** (are wild-type growth and wild-type identity loss under separate control near a mutant clone) — descriptively complete from FU_W above and inferentially blocked without mouse-level and clone-level rows. See [RESEARCH_QUESTIONS.md](../../RESEARCH_QUESTIONS.md), and [ANALYSIS_OPPORTUNITIES.md](ANALYSIS_OPPORTUNITIES.md) for the analyses the deposits can and cannot still support.
+
 ## What would change these conclusions
 
 1. **Spliced/unspliced quantification from the 68 ENA runs** — the only route to directional evidence from this deposit; needs remote compute.
