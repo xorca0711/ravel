@@ -65,10 +65,14 @@ spliced/unspliced layers.
 - **Mouse and clone identifiers for the spatial pair arrays.** All 25,173 rows are marked
   `pooled_only` with `biological_inference_allowed = False`.
 - **The paper's Experiment 1 library count.** The text describes 13 Experiment-1 libraries; 10 are
-  deposited. A GEO check on 28 September 2026 confirms GSE247503 (10 samples) and GSE247504 (10) are
-  the only subseries of the GSE247505 superseries, totalling the 20 deposited libraries, so **no
-  third subseries accounts for the missing three.** Either they were not deposited or the text counts
-  something other than libraries. Unresolved; an author query is the only route.
+  deposited. A GEO check on 28 September 2026 found no additional series: GSE247503
+  (10 samples) and GSE247504 (10) total the 20 deposited libraries, and a keyword search on the paper
+  title and the Red2Kras model surfaced no further England series. **This is an arithmetic and search
+  argument, not a machine-confirmed linkage**: the GEO `relations` field came back empty for
+  GSE247505, GSE247503 and GSE247504 alike, so the superseries-to-subseries structure was not
+  returned by the API and a third subseries is not formally excluded. Either the missing three were
+  not deposited or the text counts something other than libraries. Unresolved; an author query is the
+  only route.
 - **Mendeley Data `ss6pb96pty` (Figure 1 of the Mendeley deposit)**, cited for the Figure 6 wild-type
   composition data, returns HTTP 403 and has never been inspected.
 - **The BMS-345541 NF-κB inhibition arm** of Figure 7 has no deposited sequencing.

@@ -924,11 +924,13 @@ that alternate mechanisms control self-renewal versus differentiation (Figures 5
 FU_W is a reproduction of that comparison on the deposited pooled pair arrays, not an independent
 contrast; what it adds is recoverability from the deposit, a common relative scale, the homeostatic
 slope for both readouts, and an occupancy audit. Neighbour clone size falls with distance in all four
-Red2Kras datasets, by 16 to 109 per cent of the distal level per 100 um, and the two early
-timepoints (kras1w -109, kras2w -78) fall faster than any of the nine homeostatic Confetti datasets;
-kras4w at -41 sits inside the Confetti range because one late homeostatic dataset, conf60w, reaches
--22. Restricting to bins with at least 100 pair rows barely moves the oncogenic values (-109, -69,
--43), so the size gradient is not an artefact of the sparse distal bins. The pro-Sftpc-negative
+Red2Kras datasets, by 16 to 109 per cent of the distal level per 100 um. On full-bin slopes
+kras1w (-109), kras2w (-78) and kras4w (-41) all fall faster than every one of the nine homeostatic
+Confetti datasets, the most negative of which is conf60w at -22, while kras4d (-16) sits inside the
+homeostatic range. Restricting to bins with at least 100 pair rows barely moves the oncogenic values
+(-109, -69, -43), so the size gradient is not an artefact of the sparse distal bins, but under that
+restriction conf60w reaches -56 and kras4w no longer separates from homeostatic tissue, so only the
+one- and two-week timepoints separate on both estimators. The pro-Sftpc-negative
 fraction is two- to five-fold raised over homeostatic tissue at every distance, 0.14 to 0.33 against
 0.03 to 0.09, but its slope is inconsistent in sign in both contexts (-49, -2.5, +3.5, +12 in
 oncogenic; -48 to +55 in homeostatic), so the deposit is consistent with proximity independence

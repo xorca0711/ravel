@@ -104,10 +104,12 @@ within 400 um; slopes are pair-row-weighted, expressed as a percentage of the di
 ![Growth and differentiation distance profiles](trials/followup/figures/FU_F05_growth_differentiation.png)
 
 Three readings hold. The size gradient is robust: restricting to well-occupied bins leaves the
-oncogenic values essentially unchanged, so it is not an artefact of the sparse distal bins. The two
-early oncogenic timepoints fall faster than any homeostatic dataset, while kras4w sits inside the
-homeostatic range because one late dataset, conf60w, is itself steep — the context separation is
-clear at one and two weeks and not at four. And the differentiation proxy is raised two- to five-fold
+oncogenic values essentially unchanged, so it is not an artefact of the sparse distal bins. Context
+separation depends on the estimator and on the timepoint. On full-bin slopes, kras1w, kras2w and
+kras4w (−109, −78, −41) all fall faster than every homeostatic dataset, the most negative of which is
+conf60w at −22, while kras4d (−16) sits inside the homeostatic range. Under the dense-bin restriction
+the four-week separation is lost: kras4w (−43) is shallower than conf60w (−56), so only the one- and
+two-week timepoints separate from homeostatic tissue on both estimators. And the differentiation proxy is raised two- to five-fold
 over homeostatic tissue at every distance while its slope is inconsistent in sign in **both**
 contexts, so the deposit is consistent with proximity independence without being strong evidence for
 it; an absent slope in a noisy readout is not a demonstration of independence.
