@@ -1,12 +1,14 @@
 {
   "schema": "england-followup-FU/v1",
-  "parent_contracts": ["config/continuation_contract.json", "config/continuation_amendments.json"],
+  "parent_contracts": [
+    "config/continuation_contract.json",
+    "config/continuation_amendments.json"
+  ],
   "frozen_local_date": "2026-09-28",
   "authorization": "Owner approved the continuation recommendations and asked for paper-style subcluster UMAP and trajectory-analogous figures for CD177 and reversible state conversion",
   "exposure": "FULL. Every endpoint of batch1 and the continuation (EN0-EN7) has been evaluated and reported in RESULTS_CONTINUATION.md. This contract is an openly exploratory follow-up on exposed data; it is not preregistration and cannot yield independent validation.",
   "formal_p_values": false,
   "inherited_rules": "Gates, modules, inclusion rules, 30-cell floor, 10-per-side bin floor, library units, mapped-gene denominators and EN7_library_CPM_v1 are inherited unchanged from the continuation contract unless named below.",
-
   "paper_pipeline_as_documented": {
     "source": "England et al. 2025 STAR Methods, read 2026-09-28",
     "qc": ">15% mitochondrial, <1000 detected genes, >50,000 UMIs removed; mitochondrial genes and genes in <3 cells dropped before normalization",
@@ -15,7 +17,6 @@
     "trajectory_method": "NONE. The paper reports no pseudotime, RNA-velocity, Monocle, PAGA or similar analysis. Its reversible-transition claim rests on CD177/Itga2 double-positive immunofluorescence, organoid cultures from sorted states, orthotopic transplantation and EdU, plus the absence of a clone-size-versus-composition correlation.",
     "velocity_feasibility": "RNA velocity is impossible on this deposit: GEO supplies CellRanger filtered count matrices only, with no spliced/unspliced layers or velocyto output."
   },
-
   "FU_A_depth_control": {
     "question": "Do the CD177 secondary associations (priming, AT2/AT1 identity, Itga2, shared/lesion modules) survive depth control?",
     "population": "transition-gated, primary-included cells in the two eligible libraries GSM7890835 and GSM7890836",
@@ -28,7 +29,6 @@
     "decision_rule_frozen": "An association is called depth-robust only if its direction is preserved in BOTH libraries under ALL FOUR methods AND the residualized |SMD| is at least half the unadjusted |SMD|. Otherwise it is reported as depth-dependent or inconclusive.",
     "boundary": "Depth control cannot remove ambient contamination or establish causality; Cd177 RNA is not surface protein."
   },
-
   "FU_B_AT1_module_gate": {
     "question": "Does an AT1 definition that is specific in an independently labelled dataset change the mixed-state readout?",
     "new_gate": "AT1_module_gate: mean log1p(CP10k) over Pdpn, Cav1, Aqp5, Spock2 (the AT1_identity module, disjoint from the Ager/Hopx/Clic5 detection gate) above a threshold",
@@ -36,14 +36,12 @@
     "application": "Recompute the exclusive state rule with AT1_module_gate replacing the AT1 detection gate; recompute per-library composition, the mixed-state fraction and the Cd177 contrasts. Report both definitions side by side; the original gate is not deleted.",
     "boundary": "A threshold transferred across studies and chemistries is a descriptive harmonization, not a validated classifier."
   },
-
   "FU_C_cluster_level_cd177": {
     "question": "Is the CD177 association a property of the transition gate or of the Cd177-enriched cluster?",
     "population": "Experiment-1 epithelial subclusters from FU_E round 2; the comparison is Cd177 >=1 UMI versus zero WITHIN each subcluster that meets the 30-cell floor on both sides",
     "endpoints": "same primary (cycling) and secondary endpoints as EN5, same matched design",
     "boundary": "Clusters are reconstruction-dependent; this is a sensitivity of the gate-based result, not an independent test."
   },
-
   "FU_D_library_quality_model": {
     "question": "How much of the between-library spread in response-high fraction is explained by technical quality?",
     "unit": "library (n = 20)",
@@ -52,7 +50,6 @@
     "model": "ordinary least squares, all five predictors entered together, no selection; report R-squared, coefficients and residuals by condition",
     "boundary": "20 libraries and five predictors; descriptive variance accounting, not inference. Condition is confounded with library, so a high R-squared does not prove a technical origin."
   },
-
   "FU_E_embedding_and_topology": {
     "question": "Reproduce the paper's two-round epithelial subclustering and UMAP, and characterize state topology as far as the data allow",
     "round1": "per experiment, the continuation EN1 clustering already run (5,000 HVG, 30 PCs, 15 neighbours, igraph multilevel r 0.5/1.0/1.5, seed 20260928) is reused as round 1",
@@ -66,7 +63,6 @@
     "direction_boundary": "PAGA connectivity and diffusion pseudotime are undirected descriptions of transcriptome similarity. They cannot establish a direction of travel, a transition rate, or bidirectional conversion. No arrow may be drawn on a figure from these quantities. RNA velocity is not computable on this deposit.",
     "cd177_itga2_codetection": "Within mutant RFP epithelial cells, count Cd177/Itga2 RNA co-detection at >=1 UMI each and compare with 200 permutations of the Itga2 indicator within depth-decile x cycling strata (seed 20260930). This is the RNA analogue of the paper's protein double-positive observation; RNA co-detection is not protein double positivity and does not demonstrate transition."
   },
-
   "FU_T_transition_model_predictions": {
     "purpose": "Test predictions that distinguish the paper's reversible-transition model from a forward reprogramming cascade, using RNA only. This tests consequences of the model; it does not measure transitions, directions or rates.",
     "paper_model_as_read": "England et al. 2025: mutant cells initially transform along a forward reprogramming pathway, then gain capacity for reversible transitions between DATP-like (Itga2), Cd177+ mixed and other mutant states, imparting equivalent proliferative potential on all mutant states. Evidence in the paper is CD177/Itga2 double-positive immunofluorescence, organoids and transplants from sorted states, EdU, and absence of a clone-size-versus-composition correlation.",
@@ -102,7 +98,6 @@
     ],
     "reporting_rule": "Each prediction is reported as consistent, inconsistent or uninformative with respect to the two competing descriptions, with the confound that could produce the same pattern named in the same sentence. The word 'reversible' may not be applied to any quantity computed here."
   },
-
   "FU_S_simulator_refit": {
     "question": "Does a boundary-correct implementation change the fitted two-population parameters and their support relative to the literal script?",
     "data": "batch1 mouse-level clone sizes, support n >= 2, mutant RFP cohorts kras1w/kras2w/kras4w",
@@ -111,7 +106,6 @@
     "comparison": "best grid point per implementation, its held-out score, and the batch1 shifted-negative-binomial held-out score on the same bins",
     "boundary": "A coarse grid is not a maximum-likelihood fit; merger and segmentation of imaged clones are not modelled; agreement with the published curves is not evidence that a particular implementation produced them."
   },
-
   "figures": {
     "FU_F01": "paper-style two-round epithelial UMAP per experiment with gate-state, Cd177 and Itga2 overlays",
     "FU_F02": "CD177 depth-control panel: four methods x two libraries x endpoints, with the frozen decision rule marked",
@@ -119,5 +113,27 @@
     "FU_F04": "AT1 module gate calibration on Niethamer and its effect on England mixed-state composition",
     "FU_F05": "simulator refit: grid likelihood surface and held-out comparison"
   },
-  "reporting": "One appended section in RESULTS_CONTINUATION.md or a separate RESULTS_FOLLOWUP.md, with the depth-robustness verdict per endpoint and an explicit statement that no direction of state conversion is established."
+  "reporting": "One appended section in RESULTS_CONTINUATION.md or a separate RESULTS_FOLLOWUP.md, with the depth-robustness verdict per endpoint and an explicit statement that no direction of state conversion is established.",
+  "FU_W_growth_differentiation_decoupling": {
+    "purpose": "Reproduce, on the deposited pooled spatial pair profiles, the comparison the source makes between wild-type neighbour clone SIZE (Figures 5G-5J) and neighbour DIFFERENTIATION, the pro-Sftpc-negative fraction (Figures 6E-6F), placing both on a common relative scale with the homeostatic Confetti datasets as the non-oncogenic reference the source also uses, and quantifying the bin-occupancy limitation the source methods name.",
+    "exposure_disclosure": "The slope computation below was run as scoping BEFORE this block was frozen, on 28 September 2026, and its direction was seen. It is therefore an openly exploratory extension, not a preregistered test. No threshold or decision rule was tuned after seeing it; the rule below fixes the reporting, not the outcome.",
+    "source_claim": "England et al. 2025 report that wild-type AT2 proliferation scales with proximity to mutant clones (Fig 5) while loss of pro-Sftpc is independent of proximity (Fig 6). The owner's reading notes flag the mechanism behind these opposing behaviours as the study's stated limitation.",
+    "unit": "distance bin within a deposited dataset; bins with >=10 pair rows and midpoint <=400 um",
+    "estimand": "pair-row-weighted least-squares slope of the binned profile against bin midpoint, per 100 um, reported raw and relative to the distal level (weighted mean of the last two eligible bins)",
+    "endpoints": [
+      "mean_neighbor_size (growth proxy)",
+      "mean_neighbor_spc_negative_fraction (differentiation proxy)"
+    ],
+    "comparison": "oncogenic datasets (kras4d/1w/2w/4w) against homeostatic Confetti datasets (conf1w-conf72w), and size-slope against differentiation-slope within each dataset",
+    "reporting_rule": "Report both slopes for every eligible dataset with its pair-row count. State in the same sentence as any contrast that these are pooled rows without mouse or clone identifiers, so no mouse-level effect, no significance and no causal reading is available, and that a neighbour clone may appear in several pair rows.",
+    "named_rivals": [
+      "clone merger near large mutant lesions inflating apparent neighbour size at short distance",
+      "detection and segmentation bias in dense regions",
+      "differing clone-density and tissue-area normalisation between datasets",
+      "distance in Confetti tissue is clone-to-clone while in Red2Kras it is clone-to-mutant, so the reference is analogous, not matched",
+      "declining bin occupancy with distance, named in the source methods, so distal anchors rest on few pair rows and relative slopes are sensitive to them"
+    ],
+    "boundary": "This cannot establish that proximity causes wild-type growth, nor that differentiation is truly proximity-independent; an absent slope with wide uncertainty is not evidence of independence.",
+    "relationship_to_source": "This is a reproduction of the source's own contrast, not an independent one. England et al. state the conclusion directly: loss of pro-Sftpc was independent of proximity to mutant clones up to 300 um resolution, in contrast to wild-type expansion, suggesting that alternate mechanisms control self-renewal versus differentiation. The contribution here is recoverability from the deposit, a common relative scale for the two readouts, the Confetti slope for both, and an explicit occupancy audit."
+  }
 }

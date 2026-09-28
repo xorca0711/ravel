@@ -1,5 +1,7 @@
 # England et al. 2025: regeneration, NF-kB feedback and mutant AT2 states
 
+**Questions derived, 28 September 2026:** the follow-up proposes [A16 and A17](../../RESEARCH_QUESTIONS.md) (Cd177 as intrinsic programme versus transcriptional position; founder-class support under a boundary-correct simulation), both pending the owner's retain or reject.
+
 **Follow-up executed, 28 September 2026:** [RESULTS_FOLLOWUP.md](RESULTS_FOLLOWUP.md) adds depth control of the CD177 associations, a calibrated AT1 module gate, two-round subclustering with UMAP and undirected topology tests of the paper's transition model, under the [follow-up contract](config/followup_contract.json). No trajectory direction is claimed; the paper itself ran no trajectory method.
 
 **Continuation executed, 28 September 2026:** [RESULTS_CONTINUATION.md](RESULTS_CONTINUATION.md) reports EN0-EN7 under the frozen [contract](CONTINUATION_CONTRACT.md) and amendments, with 1,178 verification checks and six figures; the [handoff](../../docs/handoffs/2026-09-28-england-en7-cd177.md) records the sessions. Batch1 results below remain unchanged.
@@ -56,6 +58,180 @@ These are paraphrased scientific leads from the owner-supplied notes, checked ag
 The [Cardoso C3 report](../gate2_05_cardoso_2026/trials/c3_areg_state_specificity/c3_summary.md) covers only Experiment 1 and already supports a descriptive Areg-within-DATP-like result. Its four mutant-library DATP-like fractions are **1.16%, 28.16%, 20.70%, and 30.98%** (4-day r1/r2, then 2-week r1/r2). The 4-day disagreement is a priority diagnostic, not proof of distinct biological responders. The source contains 29,563 Experiment-1 cells after its pipeline; C3 analyzed 33,217 after different QC and annotation. Equality is not expected without matching filters and library mapping.
 
 The current audit establishes two consequential facts absent from the old C0 summary: the paper explicitly reports lung pooling, and a small public archive supplies extracted clone measurements, including size-distance inputs, plus analysis/model scripts. Detailed pool identities, the paper's 13-versus-10 Experiment-1 library accounting, and usable mouse/section identifiers inside the clone arrays remain to be reconciled.
+
+## Figure gallery
+
+[What the deposits can and cannot still surface](ANALYSIS_OPPORTUNITIES.md) is the scoping ledger
+behind these panels: it records claim by claim which of the source's figures can still be
+interrogated with what was released, which are closed, and which are blocked and on what.
+
+Fourteen rendered figures across three analysis stages, each captioned beside the analysis that
+produced it and linked here to its plotted tables, generating script and run record. Only generated,
+visually checked figures appear; nothing is embedded as a placeholder. Two limits apply to every
+panel and are not repeated in each caption: **the experimental unit is the sequencing library or the
+pooled clone dataset, never the animal**, because no biological pool or animal identities were
+deposited, and **no panel carries a transition arrow, a pseudotime axis or a direction**, because the
+source ran no computational trajectory and this deposit cannot establish one. Cross-library and
+cross-dataset ranges are ranges, not confidence intervals.
+
+| Stage | Figures | What the set establishes |
+|---|---|---|
+| Batch 1 (first pass) | EN_F02, EN_F03, EN_F05, EN_F06 | Il1r1-dosage contrasts, per-library distribution shape, the clone-size model comparison and the pooled spatial profiles |
+| Continuation (EN0–EN7) | EN_C01–EN_C06 | State occupancy, cluster-versus-gate concentration, CD177 contrasts, genotype contrasts, the simulator audit and transfer to two external repair cohorts |
+| Follow-up (FU_A–FU_W) | FU_F01–FU_F05 | Round-2 embedding, depth controls, within-subcluster conditioning, calibration and equipotency controls, and the growth-versus-differentiation distance profiles |
+
+The batch-1 identifiers are not sequential: no EN_F01 or EN_F04 exists in the render record, the
+visual review or the plotting script, so the set is complete as recorded.
+
+### EN_F02, EN_F03: Il1r1 genotype contrasts and per-library distributions
+
+![Il1r1 genotype contrasts](trials/batch1/figures/EN_F02_genotype_contrasts.png)
+
+![Per-library RNA distributions](trials/batch1/figures/EN_F03_library_distributions.png)
+
+First-pass library contrasts by Il1r1 dosage, and the per-library distributions behind them. The
+distributions are shown because between-library spread of the same condition is large enough that a
+contrast of means alone would misrepresent it.
+[Library contrasts](trials/batch1/rna/library_contrasts.csv) ·
+[per-library expression](trials/batch1/rna/library_expression.csv) ·
+[occupancy](trials/batch1/rna/phenotype_occupancy.csv) ·
+[generating script](scripts/plot_batch1.py) ·
+[run record](trials/batch1/rna/run_record.json) ·
+[visual review](trials/batch1/figures/visual_review.json)
+
+### EN_F05, EN_F06: clone-size models and pooled spatial profiles
+
+![Clone distributions and model comparison](trials/batch1/figures/EN_F05_clone_models.png)
+
+![Pooled spatial profiles](trials/batch1/figures/EN_F06_spatial_profiles.png)
+
+Clone-size distributions with the two-population comparison, and the pooled distance profiles.
+Sparse spatial bins are marked on the figure; all 25,173 deposited pair rows are `pooled_only` with
+`biological_inference_allowed = False`, so these are descriptions of deposited profiles.
+[CCDF by mouse](trials/batch1/clones/clone_CCDF_by_mouse.csv) ·
+[leave-one-mouse-out fits](trials/batch1/clones/model_LOMO_by_mouse.csv) ·
+[spatial bin profiles](trials/batch1/clones/spatial_pooled_bin_profiles.csv) ·
+[generating script](scripts/plot_batch1.py) ·
+[run record](trials/batch1/clones/run_record.json)
+
+### EN_C01, EN_C02: state occupancy and cluster-versus-gate concentration
+
+![Exclusive-gate state occupancy](trials/continuation/figures/EN_C01_state_occupancy.png)
+
+![Cluster versus gate cross-tabulation](trials/continuation/figures/EN_C02_cluster_gate_crosstab.png)
+
+Occupancy under the frozen exclusive gates, and how those gates sit across unsupervised clusters.
+The cross-tabulation is the panel that matters most for what follows: the transition gate is
+cluster-concentrated (88% of gated cells in two Experiment-1 clusters, 96% in Experiment 2), while
+the AT1 gate is not (17–18% of cells in the largest Experiment-1 AT2 clusters and 29–43% in
+Experiment 2 pass it), which is what motivated the calibrated module gate in FU_B.
+[Composition](trials/continuation/EN2_5/EN2_composition.csv) ·
+[cluster-gate crosstab](trials/continuation/EN1/cluster_gate_crosstab.csv) ·
+[generating script](scripts/plot_continuation.py) ·
+[run record](trials/continuation/figures/render_record.json)
+
+### EN_C03, EN_C04: CD177 and genotype contrasts
+
+![CD177 contrasts](trials/continuation/figures/EN_C03_cd177_transition.png)
+
+![Genotype contrasts](trials/continuation/figures/EN_C04_genotype_contrasts.png)
+
+The Cd177-positive versus Cd177-negative contrast within the transitional gate, available in only
+two libraries, and the wild-type-versus-mutant genotype contrasts. Priming-associated RNA, AT2
+identity and AT1 identity are consistently positive across both libraries while the cycling score is
+library-discordant (SMD −0.04 against +0.48) — the discordance that the depth controls in FU_F02 and
+the within-subcluster conditioning in FU_F03 were designed to resolve.
+[CD177 contrasts](trials/continuation/EN2_5/EN5_cd177_contrasts.csv) ·
+[matched contrasts](trials/continuation/EN2_5/EN5_cd177_matched.csv) ·
+[composition contrasts](trials/continuation/EN2_5/EN2_composition_contrasts.csv) ·
+[generating script](scripts/plot_continuation.py) ·
+[run record](trials/continuation/figures/render_record.json)
+
+### EN_C05: the deposited simulator's two implementations
+
+![Simulator implementations](trials/continuation/figures/EN_C05_simulator_implementations.png)
+
+The deposited MATLAB model run literally against the same model with its S-loss branch corrected,
+both validated against the analytic birth–death law. The two agree exactly for Confetti and for
+Red2Kras YFP (KS 0.000) and diverge for Red2Kras RFP at q = 0.7 (KS 0.104–0.281; size ≥ 2 fraction
+0.91–0.96 literal against 0.50–0.59 corrected). Which implementation produced the published curves
+is not established.
+[Simulated CCDFs](trials/continuation/EN6/simulation_ccdf.csv) ·
+[analytic check](trials/continuation/EN6/analytic_birth_death_check.csv) ·
+[implementation differences](trials/continuation/EN6/implementation_differences.csv) ·
+[generating script](scripts/plot_continuation.py) ·
+[run record](trials/continuation/figures/render_record.json)
+
+### EN_C06: transfer to two external repair cohorts
+
+![Repair transfer](trials/continuation/figures/EN_C06_repair_transfer.png)
+
+The shared repair programme in Choi 2020 (GSE145031) and Niethamer 2025 (GSE262927): cycling,
+transition RNA and the disjoint remodelling modules all rise transiently and reverse by day 28 and
+day 25. The Cd177 contrast is unavailable in both cohorts — 2 Cd177-positive cells among 117
+transitional cells in Choi, 0–1 among 1–50 in Niethamer — which is the result that closed the
+CD177-transfer question rather than a gap to be filled.
+[Pseudobulk](trials/continuation/EN7/EN7_pseudobulk.csv) ·
+[composition](trials/continuation/EN7/EN7_composition.csv) ·
+[author-state crosstab](trials/continuation/EN7/EN7_author_state_crosstab.csv) ·
+[generating script](scripts/plot_continuation.py) ·
+[run record](trials/continuation/figures/render_record.json)
+
+### FU_F01, FU_F02: round-2 embedding and depth controls
+
+![Round-2 UMAP](trials/followup/figures/FU_F01_round2_umap.png)
+
+![Depth control](trials/followup/figures/FU_F02_depth_control.png)
+
+The two-round embedding reproducing the source's documented pipeline, and the depth controls for the
+CD177 contrast. The frozen four-method rule returned "inconclusive" for every endpoint only because
+3,000-UMI thinning leaves one library at 26 positive cells, below the pre-set 30-cell floor; under
+the three methods available in both libraries all seven associations keep their sign, and
+residualisation on log depth and detected genes retains 87–159% of each effect. The CD177
+associations are not depth artefacts.
+[Depth control](trials/followup/FU_A_depth_control.csv) ·
+[verdicts](trials/followup/FU_A_verdicts.csv) ·
+[round-2 clusters](trials/followup/FU_E_round2_clusters.csv) ·
+[generating script](scripts/plot_followup.py) ·
+[run record](trials/followup/run_record.json)
+
+### FU_F03, FU_F04: within-subcluster conditioning, calibration and equipotency controls
+
+![Topology and within-cluster contrast](trials/followup/figures/FU_F03_topology_and_within_cluster.png)
+
+![Controls](trials/followup/figures/FU_F04_controls.png)
+
+The most consequential panel in the package: repeating the Cd177 contrast **within** each round-2
+subcluster largely dissolves it — Itga2 flips positive in 5 of 7 testable subclusters and AT2
+identity ranges −0.36 to +1.27 — while priming-associated RNA persists in 5 of 7 (+0.36 to +2.32).
+Cd177 therefore marks a position in the transcriptional landscape more than a cell-intrinsic
+programme. The controls panel carries the AT1 module-gate calibration against author labels
+(sensitivity 0.99, specificity 0.99), the intermediate-density and stationarity checks, and the
+depth-matched cycling comparison across twelve libraries (median SMD −0.01, six positive and six
+negative), which is consistent with equipotency.
+[Within-subcluster contrasts](trials/followup/FU_C_within_subcluster_cd177.csv) ·
+[AT1 gate calibration](trials/followup/FU_B_at1_gate_calibration.csv) ·
+[intermediate density](trials/followup/FU_T2_intermediate_density.csv) ·
+[cycling equipotency](trials/followup/FU_T4_cycling_equipotency.csv) ·
+[generating script](scripts/plot_followup.py) ·
+[run record](trials/followup/run_record.json)
+
+### FU_F05: growth against differentiation with distance from a mutant clone
+
+![Growth and differentiation distance profiles](trials/followup/figures/FU_F05_growth_differentiation.png)
+
+A reproduction of the source's own comparison (Figures 5G–5J against 6E–6F) on the deposited pooled
+pair arrays, not an independent contrast. Neighbour clone size falls with distance in all four
+Red2Kras datasets and survives restriction to well-occupied bins, while the pro-Sftpc-negative
+fraction is raised two- to five-fold at every distance with a slope inconsistent in sign in both
+oncogenic and homeostatic tissue. Pair rows collapse with distance (4,953 at 25 um to 13 at 225 um in
+kras1w), the limitation the source methods name, so the deposit is consistent with proximity
+independence without being strong evidence for it.
+[Distance slopes](trials/followup/FU_W_distance_slopes.csv) ·
+[spatial bin profiles](trials/batch1/clones/spatial_pooled_bin_profiles.csv) ·
+[generating script](scripts/run_spatial_decoupling.py) ·
+[run record](trials/followup/FU_W_run_record.json) ·
+[frozen rules](config/followup_contract.json)
 
 ## Connection to shared questions
 
