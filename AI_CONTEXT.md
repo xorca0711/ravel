@@ -1,5 +1,26 @@
 # AI context
 
+## Current A10 and A1 endpoint alignment, 28 September 2026
+
+Branch `codex/a10-a1-endpoint-matrix` adds A10's endpoint consolidation and A1's
+comparison matrix plus its two inventories. Rules for later sessions:
+
+- A10's endpoint is **concurrent**, not later. Imaging days 7 and 14, RNA
+  libraries day-14, same well. Never cite A10 organoid size as the later outcome
+  of an early-feature-to-later-outcome test, and never describe its held-out
+  plate results as evidence that a programme predicts a later outcome.
+- A10's unit is the **well**. Four repeat wells of a target are aliquots of one
+  cell-Matrigel mixture, and no deposited field maps a library to an isolation,
+  animal or donor.
+- A1's gate is unmet by every branch: no measured outcome has an early regulatory
+  measurement in the same experimental units. Do not pair measurements across
+  cohorts to manufacture the test; the matrix's stop rule forbids it.
+- No EdU, BrdU or label-retention assay exists anywhere in the A1 evidence. Treat
+  designs that assume a proliferation readout as needing new measurement.
+
+The nominated test is a linkage design and is not runnable now. Register cards,
+readiness rows and claim grades are unchanged.
+
 ## Current A16 rationale amendment, 28 September 2026
 
 Branch `codex/a16-rationale-amendment`, based on merged PR #110 (`1f7559b`),

@@ -18,6 +18,10 @@ unchanged.
 The A16 workspace carries the proposal's first item: a dated
 [rationale amendment](A16_cd177_state_attribution/RATIONALE.md#amendment-28-september-2026-the-rationale-as-successive-evidence-states)
 records successive evidence states; its register card is unchanged.
+A10 and A1 carry the second item: an [endpoint consolidation](A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md)
+and a [comparison matrix](A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md)
+that nominates one linkage, since no branch holds an early measurement and a
+later outcome in the same units.
 
 ## Question workspaces
 

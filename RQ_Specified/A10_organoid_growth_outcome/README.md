@@ -21,6 +21,17 @@ function and successful tissue repair require their own measurements.
 
 **New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
 
+**Endpoint timing and units consolidated, 28 September 2026.** The
+[endpoint consolidation](reports/ENDPOINT_TIMING_UNITS_2026-09-28.md) fixes what
+this endpoint measures and when, separates concurrent association from
+prospective prediction, and states the biological unit actually available. Its
+endpoint statement is the version A1, A8 and A14 cite: imaging is at days 7 and
+14 while the RNA libraries are day-14, so predictor and outcome are concurrent in
+the same well, and the unit is the well rather than a preparation. Relative
+held-out gains and negative absolute R-squared are reported together, with a
+[per-plate figure](figures/A10_F_followup_plate_performance.png). Documentation
+only; nothing was rescored.
+
 Question-specific work for [A10](../../RESEARCH_QUESTIONS.md#a10). The canonical
 hypothesis stays in the register.
 
