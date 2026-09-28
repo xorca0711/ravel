@@ -1,0 +1,22 @@
+{
+  "stage": "FU_A-FU_E, FU_T follow-up",
+  "started_utc": "2026-09-28T04:59:48.095306+00:00",
+  "followup_contract_sha256": "4f767583f47e592bef60221afdd5b254c380a13fc9c51ae446e91f1266bede76",
+  "continuation_contract_sha256": "a4a2e81e7e03d48e00d3d035034cf61766fa03c076001289775d0893c6580019",
+  "script_sha256": "32b53efe072f5a0eb6dd8dab198b58f1591f2e5ab314edf403ed79952e1045a3",
+  "git_head": "71f8ba003bcc481b7b4a147ec9f1b531aa4d7baa",
+  "interpreter": "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "scanpy": "1.12.3",
+    "anndata": "0.13.2",
+    "igraph": "1.0.0",
+    "scikit-learn": "1.9.0"
+  },
+  "exposure": "FULL. Every endpoint of batch1 and the continuation (EN0-EN7) has been evaluated and reported in RESULTS_CONTINUATION.md. This contract is an openly exploratory follow-up on exposed data; it is not preregistration and cannot yield independent validation.",
+  "inputs": [],
+  "interpretation": "exploratory follow-up on fully exposed data; no direction of state conversion is computed or claimed"
+}
