@@ -5,6 +5,10 @@ settle one confusion that the register card's brevity invites: the observation t
 is a fact about two gene lists, and it licenses a check on the measurement rather than a claim
 about maturation biology.
 
+**Scope correction, 29 September 2026:** the register permits incremental
+association or prospective prediction. These are separate interpretation routes,
+not a requirement to collect only longitudinal data.
+
 ## The proposition, stated so it can fail
 
 A component of epithelial RNA specific to maturation carries information about how much mature
@@ -12,6 +16,15 @@ AT1 contribution a population actually produces, beyond what the shared transiti
 already carries. Stated to fail: freeze the two components, measure mature AT1 contribution
 independently in the same animals, and the maturation-specific component adds nothing the shared
 component did not already provide.
+
+For **association**, the RNA components and an independently measured mature
+endpoint may be concurrent, with timing documented. For **prospective prediction**,
+the RNA measurement must precede the endpoint and that linkage must be feasible
+and documented in the same biological units. Either route requires independent
+animals (or verified donors/preparations in an appropriate candidate system), a
+frozen component partition and a non-RNA endpoint independent of the predictor's
+genes. An association increment does not establish temporal prediction or a
+maturation mechanism.
 
 Note what the failure condition is not. It is not "the increment shrinks when shared genes are
 removed", and it is not "the two gene lists overlap". Both of those are true of the present data
@@ -59,8 +72,10 @@ timing, with mixture, or with measurement quality — the rivals the register ca
 The asymmetry that makes A8 worth keeping is therefore narrow, and it is about the **outcome**
 rather than the predictor. With an independently measured mature AT1 contribution, a frozen
 partition can be tested for added information against something that is not itself an RNA score.
-Without that outcome, no partition of the RNA can settle anything, and the question is not a
-computation waiting for time — it is a question waiting for a measurement.
+Without a compatible link between that outcome and the RNA measurements, no partition of
+the RNA can answer A8. Mature endpoints are already measured in some surveyed sources;
+the unresolved requirement is an eligible linked dataset, not proof that the endpoint
+measurement is absent everywhere.
 
 ## Rivals
 
@@ -87,7 +102,11 @@ Whether a maturation-specific component exists as a measurable, separable progra
 open. So is whether mature AT1 contribution is predictable from any early epithelial measurement.
 A8's specific contribution is narrower than either: it asks whether a frozen maturation component
 adds information about a measured mature endpoint, which is the one version of the question that
-an existing dataset could in principle answer if the endpoint were measured.
+an existing dataset could in principle answer if its endpoint, RNA linkage, timing and
+biological units satisfy the chosen route. No eligible candidate has been identified in
+the evidence examined here; no public-archive search under these contracts has been
+completed. Absence of documented EdU/BrdU or label-retention assays does not imply absence
+of genetic lineage-labelled outcomes, which the shared inventory records in O2/O3.
 
 What is not open is whether the current evidence supports a maturation mechanism. It does not,
 and this document exists so that a later session does not read the overlap arithmetic as though
@@ -102,9 +121,12 @@ it did.
   A1: one component partition, one endpoint, no chromatin or regulatory layer.
 - **A10** owns the organoid growth endpoint. Its
   [endpoint statement](../A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md)
-  disqualifies it as A8's later outcome: predictor and outcome are concurrent and in the same
-  well, and the unit is the well.
-- **A14** shares the absence of a measured mature outcome and nothing else. Its question is
+  identifies organoid size rather than measured mature AT1 contribution, with preparation
+  independence unresolved. These exclude it from both A8 routes. Concurrent RNA and imaging
+  also prevent prospective prediction, but concurrency alone would not exclude association
+  with an otherwise eligible mature endpoint.
+- **A14** shares the search for eligible evidence of mature outcomes, not a claim that those
+  measurements do not exist. Its question is
   interventional and about IL-1 exposure and reception; A8's is observational and about the
   definition of a maturation component. They are separate workspaces for that reason.
 - **A7** owns whether Cebpa loss attenuates AT2 identity across or within states, and the

@@ -1685,3 +1685,17 @@ neither direction of the inference is identified; A14's gives each of its two
 hypotheses an independent design and decision. Both remain blocked on
 measurements that do not exist, and both say so rather than proposing an analysis.
 Documentation only; no result, grade or register wording changed.
+
+## 29 September 2026: correct the RQ delivery review findings
+
+The owner explicitly requested the seven review corrections and subsequently
+authorized the A1 regulatory primary test only if executable. Codex applied the
+A1/shared-inventory/A16 corrections, with two scoped agents updating A8 and A14;
+the parent reviewed their contracts and synchronized the handoff documents.
+A1 remains non-executable because the regulatory predictor and compatible
+regulatory/RNA/later-outcome linkage are absent. No RNA-only substitute was run.
+
+The [resolution note](docs/audits/2026-09-29-rq-delivery-review/CORRECTIONS.md)
+records the corrections and checks. A16's presentation revision retains original
+figure/script records and uses the same tracked tables. No model was fitted,
+no claim grade was changed, and no biological readiness state was promoted.

@@ -23,12 +23,12 @@ and a **biological claim** about a maturation-specific mechanism, which is not.
 
 ## Evidence and analysis history
 
-**Status, 28 September 2026: registered; blocked on the outcome measurement;
+**Status, 29 September 2026: registered; blocked on an eligible linked dataset;
 nothing computed for A8.** This folder was created on the owner's instruction to
 give A8 its own workspace rather than a card alone. It adds no new question
 identifier, no claim row and no grade, and it does not change the register card.
 
-A8 has never had an endpoint of its own. Its founding observation is owned by
+A8 has not analyzed an endpoint of its own. Its founding observation is owned by
 another package: claim C168 records that the source-derived ADI and AT1 holdout
 lists share **119 genes**, and that the four-gene late-AT1 panel changes direction
 across technical seeds 17 and 29 at 2,000 UMIs in several injured wells and in the
@@ -44,6 +44,11 @@ Conditional on a frozen shared-transition component, does a frozen
 maturation-specific component add information about an independently measured
 mature AT1 contribution, in independent animals?
 
+Two routes preserve the register's scope: **incremental association** can use a
+concurrent, independently measured endpoint; **prospective prediction** requires
+the RNA measurement to precede that endpoint. Both require documented timing,
+compatible biological-unit linkage and a noncircular mature AT1 measurement.
+
 ## What it stands on, and what that is worth
 
 It stands on a definitional dependence, not on a biological result. The 119-gene
@@ -56,21 +61,24 @@ mature AT1 identity is merely an extension of the transition. The
 
 ## Register readiness: blocked, and honest about why
 
-The blocking input is the outcome, not the predictor. The shared
+The blocking input is an eligible predictor–outcome linkage, and the component
+partition still needs to be frozen. The shared
 [outcome inventory](../A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md)
-records A8's requirement as row O27 and finds it **not available**: no deposit in
-the surveyed evidence carries mature AT1 protein, morphology or traced descendant
-yield measured in independent animals alongside an early RNA measurement in those
-same animals. A8 therefore shares A1's missing-outcome gate, as the
-[gap-fill ledger](../../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md) records.
-A related coverage gap is that no EdU, BrdU or label-retention assay is named
-anywhere in the surveyed A1 evidence (row O29), so a traced-yield readout cannot
-be assumed available.
+records A8's linkage requirement as row O27. Mature non-RNA endpoints already
+exist in the examined evidence, including O2/O3; no dataset linking a suitable
+endpoint to the required RNA measurements with verified biological units has
+been identified for A8. This is a limit of the examined evidence, not a claim
+that no eligible dataset exists. A bounded search or author-provided data can
+satisfy the contract. The lack of documented EdU, BrdU or label-retention assays
+in O29 does not erase the genetic lineage-labelled endpoints in O2/O3.
 
 A10's organoid endpoint does not substitute. Its
 [endpoint statement](../A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md)
-records that its imaging and its RNA are concurrent and in the same well, and that
-its unit is the well rather than an independent preparation.
+records an organoid-size endpoint rather than measured mature AT1 contribution,
+with wells not verified as independent preparations. Those limitations exclude
+it from either route. Its concurrent RNA and imaging additionally prevent a
+prospective-prediction interpretation; concurrency alone does not exclude an
+otherwise eligible association design.
 
 ## Layout
 
@@ -93,7 +101,7 @@ its unit is the well rather than an independent preparation.
    result.** Removing shared genes can remove real biology; the direction of that
    bias is not known here.
 4. **Do not substitute organoid size, a cycling score or any RNA score for
-   measured mature AT1 contribution.** A10's endpoint is concurrent and its unit
-   is the well.
+   measured mature AT1 contribution.** Concurrent measurement may serve the
+   association route, but it cannot establish prospective prediction.
 5. **Do not open A8's endpoint before the component partition is frozen in
    writing.** The partition must not be chosen after seeing an increment.
