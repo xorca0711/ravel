@@ -25,7 +25,7 @@ page covers only assets that live inside the question folders.
 | A1 | 19 | [figures/README.md](A1_transitional_epithelial_state_distinction/figures/README.md), the question's own curated gallery, plus [reports/REGULATORY_FATE_REPORT.md](A1_transitional_epithelial_state_distinction/reports/REGULATORY_FATE_REPORT.md) |
 | A10 | 2 | [reports/FOLLOWUP_RESULTS.md](A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md), [reports/ENDPOINT_TIMING_UNITS_2026-09-28.md](A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md) |
 | A12 | 3 | [RATIONALE.md](A12_recipient_context/RATIONALE.md) (held-out model ladder for the A12 and A13 pilots; patient-level relationship and predictions), [reports/A12_S1_SOURCE_IDENTITY_MAP.md](A12_recipient_context/reports/A12_S1_SOURCE_IDENTITY_MAP.md) (per-patient IL1B allocation) |
-| A16 | 2 | [RATIONALE.md](A16_cd177_state_attribution/RATIONALE.md#figures-for-the-amendment), the dated amendment that they support |
+| A16 | 5 | [RATIONALE.md](A16_cd177_state_attribution/RATIONALE.md#figures-for-the-amendment) (two summary panels) and [the evidence behind them](A16_cd177_state_attribution/RATIONALE.md#the-evidence-behind-those-two-summaries) (a matched-null histogram set, per-cell violins and a balance Love plot) |
 | A5 and A11 shared contract | 1 | [reports/REVISED_TEST_RESULTS.md](A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md) |
 
 Each PNG has an SVG beside it except the three A0 planning and coverage panels
