@@ -2,6 +2,15 @@
 
 **Update this before stopping work, every session.**
 
+## README aim and research workflow, 29 September 2026
+
+The [main README](README.md) now states the project's scientific aim and the six-stage
+workflow: article reading, paper-data analysis, RQ derivation, question-specific
+analysis, cross-question hypothesis development, and hypothesis testing. It explains
+how negative and inconclusive results refine or close questions, and distinguishes
+planned tests from executed evidence. This documentation update starts from merged
+PR #118 on `codex/readme-research-workflow`; no scientific results or claim grades change.
+
 ## Figure audit completion, 29 September 2026
 
 [PR #118](https://github.com/xorca0711/scRNA_seq/pull/118) completes the presentation audit:
