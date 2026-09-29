@@ -303,6 +303,1481 @@
         "GSE310539",
         "GSE262927"
       ]
+    },
+    "C169": {
+      "kind": "reproduction_of_source",
+      "unit": "cell (no animal mapping deposited)",
+      "sample_definition": "47 Fluidigm C1 adult mouse lung mesenchymal cells after CD45/Pecam/EpCAM depletion; bulk control excluded",
+      "datasets": [
+        "GSE109444"
+      ]
+    },
+    "C170": {
+      "kind": "method_check",
+      "unit": "cell",
+      "sample_definition": "47 deposited GSE109444 single cells",
+      "datasets": [
+        "GSE109444"
+      ]
+    },
+    "C171": {
+      "kind": "biological_description",
+      "unit": "animal (paired deposited compartments)",
+      "sample_definition": "GSE262927 animals with >=50 cells in both AF1 and AF2 author labels",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C172": {
+      "kind": "biological_description",
+      "unit": "animal x deposited compartment",
+      "sample_definition": "GSE262927 animal-by-compartment units passing the 50-cell floor",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C173": {
+      "kind": "biological_description",
+      "unit": "animal (AT2 unit)",
+      "sample_definition": "GSE262927 AT2 author-label units with >=50 cells",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C174": {
+      "kind": "method_check",
+      "unit": "animal (AT2 unit)",
+      "sample_definition": "GSE262927 AT2 units with >=50 cells",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C175": {
+      "kind": "negative_result",
+      "unit": "animal",
+      "sample_definition": "GSE262927 AT2 units by harvest day",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C176": {
+      "kind": "negative_result",
+      "unit": "animal (required); deposited sample (available)",
+      "sample_definition": "Candidate external mouse injury cohorts screened against a frozen >=3 animals per arm, >=50 cells per compartment rule",
+      "datasets": [
+        "GSE129605",
+        "GSE141259",
+        "GSE202325",
+        "GSE292515",
+        "GSE184854"
+      ]
+    },
+    "C177": {
+      "kind": "method_check",
+      "unit": "cluster (descriptive label agreement)",
+      "sample_definition": "GSE262927 atlas Leiden clusters with >=20% author-labelled cells",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C178": {
+      "kind": "analysis_decision",
+      "unit": "animal within stratum",
+      "sample_definition": "GSE262927 clusters by harvest or tracing stratum, >=50 cells",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C179": {
+      "kind": "annotation_validation",
+      "unit": "cluster; 3 donors",
+      "sample_definition": "GSE178360 Harmony Leiden 1.0 clusters, 27,729 cells from 3 donors",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C180": {
+      "kind": "method_check",
+      "unit": "cell (method reproduction)",
+      "sample_definition": "GSE178360 cells matched to HLCA Tata_unpubl barcodes",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C181": {
+      "kind": "method_check",
+      "unit": "donor",
+      "sample_definition": "3 GSE178360 donors after QC and doublet removal",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C182": {
+      "kind": "annotation_validation",
+      "unit": "cluster; 3 donors",
+      "sample_definition": "GSE178360 cluster 22",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C183": {
+      "kind": "method_check",
+      "unit": "cluster",
+      "sample_definition": "GSE178360 clusters 14 and 15",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C184": {
+      "kind": "negative_result",
+      "unit": "donor; cell counts",
+      "sample_definition": "3 GSE178360 donors",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C185": {
+      "kind": "annotation_validation",
+      "unit": "donor",
+      "sample_definition": "GSE178360 cluster 30",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C186": {
+      "kind": "method_check",
+      "unit": "barcode set; sample composition",
+      "sample_definition": "GSE262927 atlas cluster 23",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C187": {
+      "kind": "method_check",
+      "unit": "subcluster; animals as composition units",
+      "sample_definition": "GSE262927 atlas cluster 5 subclustered without batch correction",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C188": {
+      "kind": "annotation_validation",
+      "unit": "subcluster",
+      "sample_definition": "GSE262927 cluster 5 subcluster 8 (r0.2), 12 (r0.5)",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C189": {
+      "kind": "method_check",
+      "unit": "subcluster",
+      "sample_definition": "GSE262927 cluster 5 subclusters",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C190": {
+      "kind": "negative_result",
+      "unit": "subcluster",
+      "sample_definition": "GSE262927 cluster 5 primary-resolution subclusters",
+      "datasets": [
+        "GSE262927"
+      ]
+    },
+    "C191": {
+      "kind": "method_check",
+      "unit": "capture (one per donor)",
+      "sample_definition": "3 GSE178360 10x captures after per-sample MAD QC",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C192": {
+      "kind": "method_check",
+      "unit": "donor",
+      "sample_definition": "GSE178360 Harmony clusters",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C193": {
+      "kind": "method_check",
+      "unit": "cluster",
+      "sample_definition": "GSE178360 Harmony clusters",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C194": {
+      "kind": "annotation_validation",
+      "unit": "cluster; 3 donors",
+      "sample_definition": "GSE178360 cluster 12 and epithelial subclusters 1 and 5",
+      "datasets": [
+        "GSE178360"
+      ]
+    },
+    "C195": {
+      "kind": "biological_description",
+      "unit": "library (one per genotype)",
+      "sample_definition": "Marker-gated compartments with >=100 cells in GSE316243/4/1 niche, RFP and mesenchyme libraries",
+      "datasets": [
+        "GSE316243",
+        "GSE316244",
+        "GSE316241"
+      ]
+    },
+    "C196": {
+      "kind": "biological_description",
+      "unit": "mouse (D1), donor (D2)",
+      "sample_definition": "per-unit pseudobulk by author state; units with >= 30 cells in each of three states",
+      "datasets": [
+        "GSE141259",
+        "Sountoulidis 2023 (UCSC lung-dev)"
+      ]
+    },
+    "C197": {
+      "kind": "negative_result",
+      "unit": "mouse",
+      "sample_definition": "verified Haber control mice with >= 30 stem, late progenitor and mature proximal enterocyte cells",
+      "datasets": [
+        "GSE92332"
+      ]
+    },
+    "C198": {
+      "kind": "biological_description",
+      "unit": "mouse",
+      "sample_definition": "Strunz injured mice days 10-15 with >= 30 AT2, Krt8+ ADI and AT1 cells; NC controls excluded",
+      "datasets": [
+        "GSE141259"
+      ]
+    },
+    "C199": {
+      "kind": "negative_result",
+      "unit": "encoded capture group (not a verified animal)",
+      "sample_definition": "Negretti barcode-suffix groups; only P14:2 meets >= 30 cells per state",
+      "datasets": [
+        "GSE165063",
+        "GSE160876"
+      ]
+    },
+    "C200": {
+      "kind": "negative_result",
+      "unit": "mouse",
+      "sample_definition": "verified Haber control mice with >= 30 stem, immature-proximal and mature-proximal enterocytes",
+      "datasets": [
+        "GSE92332"
+      ]
+    },
+    "C201": {
+      "kind": "analysis_decision",
+      "unit": "animal / verified mouse / encoded capture group",
+      "sample_definition": "author state labels counted per sample or library; 30 cells per state",
+      "datasets": [
+        "GSE262927",
+        "GSE141259",
+        "GSE165063",
+        "GSE160876",
+        "GSE92332",
+        "GSE67602"
+      ]
+    },
+    "C202": {
+      "kind": "biological_description",
+      "unit": "mouse",
+      "sample_definition": "each Strunz sample is one mouse per published methods; injured mice days 2-21 with >= 30 Krt8+ ADI and >= 30 activated-AT2 cells at >= 500 UMI",
+      "datasets": [
+        "GSE141259"
+      ]
+    },
+    "C203": {
+      "kind": "analysis_decision",
+      "unit": "mouse",
+      "sample_definition": "candidate cohorts audited from metadata only; no expression scored",
+      "datasets": [
+        "GSE303646",
+        "GSE202325",
+        "GSE262927",
+        "GSE247130"
+      ]
+    },
+    "C204": {
+      "kind": "analysis_decision",
+      "unit": "gene list",
+      "sample_definition": "published source lists after the frozen operational-gene and symbol rules",
+      "datasets": [
+        "Guo 2019",
+        "Strunz 2020 lists",
+        "lesion source list"
+      ]
+    },
+    "C205": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "patient-paired pseudobulk: author tumour epithelium versus normal type 2 cells, >= 50 cells per arm",
+      "datasets": [
+        "GSE131907"
+      ]
+    },
+    "C206": {
+      "kind": "negative_result",
+      "unit": "patient",
+      "sample_definition": "as the Kim primary",
+      "datasets": [
+        "GSE131907"
+      ]
+    },
+    "C207": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "as the Kim primary",
+      "datasets": [
+        "GSE131907"
+      ]
+    },
+    "C208": {
+      "kind": "negative_result",
+      "unit": "donor",
+      "sample_definition": "donor-paired infected versus medium-matched mock explant type 2 pseudobulk, identity-concordant cells, >= 50 cells",
+      "datasets": [
+        "GSE198864"
+      ]
+    },
+    "C209": {
+      "kind": "method_check",
+      "unit": "donor",
+      "sample_definition": "donor-paired SARS-CoV-1 versus mock explant type 2 pseudobulk, author labels",
+      "datasets": [
+        "GSE198864"
+      ]
+    },
+    "C210": {
+      "kind": "analysis_decision",
+      "unit": "donor / cell (detection counts are cells)",
+      "sample_definition": "author-labelled explant type 2 cells restricted to each arm's eligible donors",
+      "datasets": [
+        "GSE198864"
+      ]
+    },
+    "C211": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "patient-histology pseudobulk of the broad type 2 compartment, >= 50 cells",
+      "datasets": [
+        "GSE308103 (Yu-Lee-Choi-Min human lesion cohort)"
+      ]
+    },
+    "C212": {
+      "kind": "negative_result",
+      "unit": "well within deposited plate-replicate group (not an independent preparation)",
+      "sample_definition": "Transwell wells with day-7 and day-14 imaging and day-14 species-split RNA",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C213": {
+      "kind": "negative_result",
+      "unit": "well within deposited plate-replicate group",
+      "sample_definition": "as stage 3",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C214": {
+      "kind": "method_check",
+      "unit": "deposited plate-replicate group",
+      "sample_definition": "leave-one-group-out held-out fits",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C215": {
+      "kind": "method_check",
+      "unit": "gene (libraries from shared mixtures)",
+      "sample_definition": "module-member targets with targeted versus pooled other-target libraries",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C216": {
+      "kind": "biological_description",
+      "unit": "well within deposited plate-replicate group",
+      "sample_definition": "885 wells, 15 groups; within-group centring including the held-out group mean",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C217": {
+      "kind": "negative_result",
+      "unit": "well within deposited plate-replicate group",
+      "sample_definition": "as stage 4",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C218": {
+      "kind": "biological_description",
+      "unit": "well; folds are deposited groups or plates",
+      "sample_definition": "885 wells; within-group and whole-plate holdouts",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C219": {
+      "kind": "negative_result",
+      "unit": "plate (not an independent preparation)",
+      "sample_definition": "whole-plate holdout without plate or target indicators",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C220": {
+      "kind": "analysis_decision",
+      "unit": "well (the only verified unit)",
+      "sample_definition": "Transwell wells; repeat wells share one mixture",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C221": {
+      "kind": "biological_description",
+      "unit": "patient (LUAD-minus-normal paired difference, repeated libraries pooled)",
+      "sample_definition": "12 GSE308103 patients with at least 50 cells in fixed AT2 candidate label and broad assigned macrophages in both normal and LUAD samples at label confidence 0.2",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C222": {
+      "kind": "method_check",
+      "unit": "patient",
+      "sample_definition": "same 12 GSE308103 paired patients as the A12 AT2 pilot",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C223": {
+      "kind": "negative_result",
+      "unit": "patient",
+      "sample_definition": "12 GSE308103 patients with at least 50 cells in fixed alveolar-fibroblast label and broad assigned macrophages in both arms, confidence 0.2",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C224": {
+      "kind": "negative_result",
+      "unit": "patient pair (tumour and same-patient normal)",
+      "sample_definition": "untreated primary LUAD with same-patient normal tissue, AT2 in both arms, broad assigned macrophages with identifiable monocyte-derived fraction, at least 50 cells each",
+      "datasets": [
+        "GSE131907",
+        "GSE123902",
+        "GSE148071"
+      ]
+    },
+    "C225": {
+      "kind": "biological_description",
+      "unit": "patient-histology observation (23 patients)",
+      "sample_definition": "GSE308103 (Yu-Lee-Choi-Min human cohort), all QC nuclei, repeated libraries pooled within patient and histology, finest-label uncertainty cutoff 0.2",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C226": {
+      "kind": "negative_result",
+      "unit": "patient",
+      "sample_definition": "23 GSE308103 patients with LUAD and normal pseudobulks at 50 cells in the receiver compartment, confidence 0.2",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C227": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "23 GSE308103 paired patients, LUAD against normal, focused-triad source scope",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C228": {
+      "kind": "negative_result",
+      "unit": "patient (paired tumour and normal samples)",
+      "sample_definition": "GSE131907 primary-lung patients with both tumour and normal samples; compartment met when one single cell label reaches the floor",
+      "datasets": [
+        "GSE131907",
+        "GSE136831",
+        "GSE135893"
+      ]
+    },
+    "C229": {
+      "kind": "method_check",
+      "unit": "donor",
+      "sample_definition": "240 prior per-donor flags in GSE136831 and GSE135893 at three floors",
+      "datasets": [
+        "GSE136831",
+        "GSE135893"
+      ]
+    },
+    "C230": {
+      "kind": "negative_result",
+      "unit": "patient (LUAD-minus-normal paired difference)",
+      "sample_definition": "12 GSE308103 patients with at least 50 cells in fixed AT2, fixed alveolar fibroblasts and broad assigned macrophages in both normal and LUAD samples",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C231": {
+      "kind": "negative_result",
+      "unit": "subject",
+      "sample_definition": "GSE122960 subjects under exact author labels, all diagnoses; GSE233844 excluded on tissue",
+      "datasets": [
+        "GSE122960",
+        "GSE233844"
+      ]
+    },
+    "C232": {
+      "kind": "biological_description",
+      "unit": "donor (cohort means shown)",
+      "sample_definition": "GSE135893 and GSE136831 donors with macrophage compartment passing primary eligibility; deposited subtype labels",
+      "datasets": [
+        "GSE135893",
+        "GSE136831"
+      ]
+    },
+    "C233": {
+      "kind": "method_check",
+      "unit": "donor",
+      "sample_definition": "22 tumour donors eligible in the corrected ligand-resource analysis",
+      "datasets": [
+        "GSE131907"
+      ]
+    },
+    "C234": {
+      "kind": "analysis_decision",
+      "unit": "sequencing library",
+      "sample_definition": "each of the 20 GSE247505 libraries, minimum two lungs pooled per library per the paper; pool overlap between libraries unknown",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C235": {
+      "kind": "method_check",
+      "unit": "sequencing library (cells within library)",
+      "sample_definition": "41,811 primary_include cells across 20 libraries; Choi and Niethamer author-labelled cells for the crosstab",
+      "datasets": [
+        "GSE247505",
+        "GSE145031 (Choi 2020)",
+        "GSE262927 (Niethamer 2025)"
+      ]
+    },
+    "C236": {
+      "kind": "method_check",
+      "unit": "sequencing library",
+      "sample_definition": "20 England libraries; Niethamer 25-sample atlas cells for calibration",
+      "datasets": [
+        "GSE247505",
+        "GSE262927 (Niethamer 2025)"
+      ]
+    },
+    "C237": {
+      "kind": "biological_description",
+      "unit": "sequencing library",
+      "sample_definition": "4 Experiment-2 libraries per timepoint (2 homozygous, 2 heterozygous)",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C238": {
+      "kind": "negative_result",
+      "unit": "sequencing library",
+      "sample_definition": "20 England libraries; 2 per genotype/time for the genotype contrasts",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C239": {
+      "kind": "method_check",
+      "unit": "sequencing library",
+      "sample_definition": "all 20 England libraries",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C240": {
+      "kind": "biological_description",
+      "unit": "sequencing library",
+      "sample_definition": "2 WT-in-oncogenic YFP libraries, 1 Confetti-YFP baseline library, 2 mutant RFP libraries at 2 weeks",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C241": {
+      "kind": "biological_description",
+      "unit": "sequencing library (cells within library)",
+      "sample_definition": "876 and 656 transition-gated primary_include cells in GSM7890835 and GSM7890836, both 2-week mutant RFP",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C242": {
+      "kind": "negative_result",
+      "unit": "sequencing library (cells within library)",
+      "sample_definition": "same 876 and 656 transition-gated cells",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C243": {
+      "kind": "method_check",
+      "unit": "sequencing library (cells within library)",
+      "sample_definition": "79/797 and 60/596 transition-gated cells; 38/834 and 26/626 after 3,000-UMI thinning",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C244": {
+      "kind": "method_check",
+      "unit": "subcluster within experiment (libraries pooled)",
+      "sample_definition": "7 round-2 subclusters, 252-1,583 cells each, pooled across 4-10 libraries per subcluster",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C245": {
+      "kind": "method_check",
+      "unit": "sequencing library (cells within library)",
+      "sample_definition": "876 and 656 fixed transition-gated cells per library; 79 and 60 Cd177-positive",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C246": {
+      "kind": "method_check",
+      "unit": "library (Arm A) or experiment-pooled subcluster (Arm B)",
+      "sample_definition": "2 library-level marginal entries plus 7 pooled subcluster entries; 1-500 matched control genes each",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C247": {
+      "kind": "negative_result",
+      "unit": "library (Arm A) or experiment-pooled subcluster (Arm B)",
+      "sample_definition": "9 entries; 36-321 Cd177-positive cells in Arm B, 79 and 60 in Arm A",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C248": {
+      "kind": "method_check",
+      "unit": "library (Arm A) or experiment-pooled subcluster (Arm B)",
+      "sample_definition": "9 entries at three full-depth cutoffs plus two thinning seeds",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C249": {
+      "kind": "method_check",
+      "unit": "experiment-pooled subcluster set",
+      "sample_definition": "30,730 Experiment-1 and 9,307 Experiment-2 cells, three persisted resolutions",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C250": {
+      "kind": "method_check",
+      "unit": "library-by-subcluster stratum",
+      "sample_definition": "GSM7890835 cluster 18 (267 cells) and GSM7890836 cluster 16 (82 cells)",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C251": {
+      "kind": "negative_result",
+      "unit": "public deposit",
+      "sample_definition": "4 GEO DataSets queries, 28 September 2026",
+      "datasets": [
+        "GEO metadata"
+      ]
+    },
+    "C252": {
+      "kind": "analysis_decision",
+      "unit": "not applicable (design decision)",
+      "sample_definition": "the two eligible England libraries and their derived subcluster diagnostics",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C253": {
+      "kind": "method_check",
+      "unit": "simulation replicate (software implementation)",
+      "sample_definition": "100 replicates x 1,000 clones per block/time/implementation, two seeds",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1 (SHA-256 404697263c...6a70)"
+      ]
+    },
+    "C254": {
+      "kind": "method_check",
+      "unit": "not applicable (code and manuscript provenance)",
+      "sample_definition": "archived MATLAB call and Methods S1 Table 3",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C255": {
+      "kind": "biological_description",
+      "unit": "source-indexed mouse",
+      "sample_definition": "3-5 mice per dataset/channel across 13 datasets; 44 mice, 164,453 clone measurements",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C256": {
+      "kind": "biological_description",
+      "unit": "source-indexed mouse (leave-one-mouse-out)",
+      "sample_definition": "3-4 held-out mice per mutant cohort; 12 condition/reporter groups, 246 held-out predictions",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C257": {
+      "kind": "method_check",
+      "unit": "source-indexed mouse (leave-one-mouse-out)",
+      "sample_definition": "3-4 held-out fits per cohort across 12 dataset/channel groups",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C258": {
+      "kind": "analysis_decision",
+      "unit": "source-indexed mouse (planned held-out unit)",
+      "sample_definition": "11 source-indexed mice, 16,113 clones of size >=2 in the primary RFP input",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C259": {
+      "kind": "method_check",
+      "unit": "source-indexed mouse",
+      "sample_definition": "44 mouse-indexed arrays, 13 datasets, both reporter channels",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C260": {
+      "kind": "reproduction_of_source",
+      "unit": "pooled library (Choi) or animal (Niethamer)",
+      "sample_definition": "3 Choi conditions as single pooled libraries; 6 Niethamer samples, two animals per day at days 0, 11 and 25",
+      "datasets": [
+        "GSE145031 (Choi 2020)",
+        "GSE262927 (Niethamer 2025)"
+      ]
+    },
+    "C261": {
+      "kind": "negative_result",
+      "unit": "pooled library (Choi) or animal (Niethamer)",
+      "sample_definition": "3 Choi conditions and 25 Niethamer samples; 0-117 transition-gated cells per unit",
+      "datasets": [
+        "GSE145031 (Choi 2020)",
+        "GSE262927 (Niethamer 2025)",
+        "GSE247505"
+      ]
+    },
+    "C262": {
+      "kind": "analysis_decision",
+      "unit": "not applicable (design decision)",
+      "sample_definition": "40,786 round-2 cells across the two experiments",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C263": {
+      "kind": "negative_result",
+      "unit": "sequencing library / round-2 cluster pair",
+      "sample_definition": "21 and 91 mutant-dominated cluster pairs; 4 timepoint-to-timepoint comparisons over 20 libraries",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C264": {
+      "kind": "biological_description",
+      "unit": "round-2 cluster pair within experiment",
+      "sample_definition": "21 Experiment-1 and 45 Experiment-2 cluster pairs",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C265": {
+      "kind": "biological_description",
+      "unit": "sequencing library",
+      "sample_definition": "12 libraries for AT2 against mixed, 4 each for the transition pairs",
+      "datasets": [
+        "GSE247505"
+      ]
+    },
+    "C266": {
+      "kind": "reproduction_of_source",
+      "unit": "pooled distance bin (no mouse or clone identifiers)",
+      "sample_definition": "13 datasets, 201-7,576 pair rows each; 4 oncogenic and 9 homeostatic",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C267": {
+      "kind": "reproduction_of_source",
+      "unit": "pooled distance bin (no mouse or clone identifiers)",
+      "sample_definition": "13 datasets, 201-7,576 pair rows each",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C268": {
+      "kind": "analysis_decision",
+      "unit": "source-indexed mouse (unavailable in the spatial arrays)",
+      "sample_definition": "13 pooled distance-array datasets, 201-7,576 pair rows each",
+      "datasets": [
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C269": {
+      "kind": "analysis_decision",
+      "unit": "not applicable (process record)",
+      "sample_definition": "all England batch1, continuation, follow-up and A16 outputs",
+      "datasets": [
+        "GSE247505",
+        "England 2025 Zenodo archive v1.1"
+      ]
+    },
+    "C270": {
+      "kind": "method_check",
+      "unit": "deposited sample record",
+      "sample_definition": "one GEO GSM record; biological identity, animal pooling and specimen crosswalk remain unresolved in the deposit",
+      "datasets": [
+        "GSE141259",
+        "GSE222901",
+        "GSE267226",
+        "GSE267228",
+        "GSE277777",
+        "GSE300288",
+        "GSE300293",
+        "GSE307529",
+        "GSE307534",
+        "GSE308103"
+      ]
+    },
+    "C271": {
+      "kind": "method_check",
+      "unit": "deposited sample record",
+      "sample_definition": "one GEO GSM record of the NNK anti-IL-1beta experiment",
+      "datasets": [
+        "GSE300288"
+      ]
+    },
+    "C272": {
+      "kind": "negative_result",
+      "unit": "animal",
+      "sample_definition": "one retained 10x library per mouse at 3 months post-NNK; 4 Control IgG and 3 anti-IL-1beta",
+      "datasets": [
+        "GSE300288"
+      ]
+    },
+    "C273": {
+      "kind": "negative_result",
+      "unit": "animal",
+      "sample_definition": "one retained 10x library per mouse at 3 months post-NNK; 4 Control IgG and 3 anti-IL-1beta",
+      "datasets": [
+        "GSE300288"
+      ]
+    },
+    "C274": {
+      "kind": "negative_result",
+      "unit": "animal",
+      "sample_definition": "one retained 10x library per mouse at 3 months post-NNK; 4 Control IgG and 3 anti-IL-1beta",
+      "datasets": [
+        "GSE300288"
+      ]
+    },
+    "C275": {
+      "kind": "biological_description",
+      "unit": "animal",
+      "sample_definition": "one retained 10x library per mouse at 3 months post-NNK; 4 Control IgG and 3 anti-IL-1beta",
+      "datasets": [
+        "GSE300288"
+      ]
+    },
+    "C276": {
+      "kind": "analysis_decision",
+      "unit": "animal",
+      "sample_definition": "one retained 10x library per mouse; clusters and units are analysis groupings within those seven libraries",
+      "datasets": [
+        "GSE300288"
+      ]
+    },
+    "C277": {
+      "kind": "biological_description",
+      "unit": "donor",
+      "sample_definition": "one human lung donor with deposited IPF or control status and at least 50 cells in each compared compartment",
+      "datasets": [
+        "GSE136831",
+        "GSE135893"
+      ]
+    },
+    "C278": {
+      "kind": "negative_result",
+      "unit": "donor",
+      "sample_definition": "one human lung donor with at least 50 cells in the scored compartment",
+      "datasets": [
+        "GSE136831",
+        "GSE135893"
+      ]
+    },
+    "C279": {
+      "kind": "negative_result",
+      "unit": "donor",
+      "sample_definition": "one human lung donor contributing a receiver pseudobulk with at least 50 cells and 10% subunit detection",
+      "datasets": [
+        "GSE136831",
+        "GSE135893"
+      ]
+    },
+    "C280": {
+      "kind": "analysis_decision",
+      "unit": "donor",
+      "sample_definition": "one human lung donor with at least 50 cells in each of macrophage, fibroblast and epithelial compartments",
+      "datasets": [
+        "GSE136831",
+        "GSE135893"
+      ]
+    },
+    "C281": {
+      "kind": "method_check",
+      "unit": "patient",
+      "sample_definition": "one GSE308103 patient label within one histology; 70 patient-histology units over 23 patients",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C282": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "one GSE308103 patient label contributing both sides of a histology contrast; repeated libraries pooled within patient and histology",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C283": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "one GSE308103 patient label contributing both sides of a histology contrast, with at least three same-histology patients and 50 cells per receiver group",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C284": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "one GSE308103 patient label contributing paired AT2-like pseudobulks for both histologies",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C285": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "one GSE308103 patient label contributing paired AT2-like pseudobulks for LUAD and normal",
+      "datasets": [
+        "GSE308103"
+      ]
+    },
+    "C286": {
+      "kind": "biological_description",
+      "unit": "pooled library or sorted source identifier",
+      "sample_definition": "one pooled 10x well (GSE247130, GSE310539), one retained mouse library (GSE300288) or one source identifier covering at most two animals across six sorting gates (GSE277777)",
+      "datasets": [
+        "GSE277777",
+        "GSE247130",
+        "GSE310539",
+        "GSE300288"
+      ]
+    },
+    "C287": {
+      "kind": "method_check",
+      "unit": "pooled library or sorted source identifier",
+      "sample_definition": "one pooled 10x well, one retained mouse library, or one source identifier covering at most two animals",
+      "datasets": [
+        "GSE247130",
+        "GSE277777",
+        "GSE300288",
+        "GSE310539"
+      ]
+    },
+    "C288": {
+      "kind": "biological_description",
+      "unit": "donor",
+      "sample_definition": "one GSE135893 or GSE136831 donor with at least 50 cells in both compared deposited epithelial states",
+      "datasets": [
+        "GSE135893",
+        "GSE136831"
+      ]
+    },
+    "C289": {
+      "kind": "biological_description",
+      "unit": "patient",
+      "sample_definition": "one GSE307534 patient label contributing sections of both compared histologies; repeated same-histology sections averaged within patient",
+      "datasets": [
+        "GSE307534"
+      ]
+    },
+    "C290": {
+      "kind": "negative_result",
+      "unit": "section",
+      "sample_definition": "one deposited spatial section (56 human lesion sections; nine post-viral count matrices)",
+      "datasets": [
+        "GSE307534",
+        "GSE267226",
+        "GSE267228"
+      ]
+    },
+    "C291": {
+      "kind": "biological_description",
+      "unit": "donor or animal",
+      "sample_definition": "one deposited post-viral sample: 3 PASC-PF and 2 control human donors; 2 IgG and 2 anti-CD8 mice",
+      "datasets": [
+        "GSE267226",
+        "GSE267228"
+      ]
+    },
+    "C292": {
+      "kind": "method_check",
+      "unit": "patient",
+      "sample_definition": "one patient label shared between the RNA and spatial series",
+      "datasets": [
+        "GSE308103",
+        "GSE307534"
+      ]
+    },
+    "C293": {
+      "kind": "method_check",
+      "unit": "animal, donor or patient depending on cohort",
+      "sample_definition": "the same units as the four underlying pathway families: 4 against 3 mice, IPF/control donors, and 23 paired patients",
+      "datasets": [
+        "GSE136831",
+        "GSE135893",
+        "GSE300288",
+        "GSE308103"
+      ]
+    },
+    "C294": {
+      "kind": "negative_result",
+      "unit": "not applicable",
+      "sample_definition": "no analysable unit was obtained; the audit covers repository files and supplementary archive members",
+      "datasets": [
+        "Han 2023 (doi:10.1038/s41586-023-06423-8) processed data"
+      ]
+    },
+    "C295": {
+      "kind": "analysis_decision",
+      "unit": "not applicable",
+      "sample_definition": "documentation-level decision; no biological units",
+      "datasets": []
+    },
+    "C296": {
+      "kind": "negative_result",
+      "unit": "mouse",
+      "sample_definition": "10 bleomycin-injured mice, 5 per treatment arm, one epithelial RiboTag library each",
+      "datasets": [
+        "GSE190821"
+      ]
+    },
+    "C297": {
+      "kind": "method_check",
+      "unit": "mouse",
+      "sample_definition": "nine mice per omission fit (4 versus 5 or 5 versus 4); six mice in the S061 within-batch fit",
+      "datasets": [
+        "GSE190821"
+      ]
+    },
+    "C298": {
+      "kind": "negative_result",
+      "unit": "mouse",
+      "sample_definition": "10 mice in the primary fit; nine per omission fit",
+      "datasets": [
+        "GSE190821"
+      ]
+    },
+    "C299": {
+      "kind": "analysis_decision",
+      "unit": "library (one pooled GEM library per condition)",
+      "sample_definition": "four pooled libraries from 2/2/3/3 mice",
+      "datasets": [
+        "GSE243124",
+        "GSE243129"
+      ]
+    },
+    "C300": {
+      "kind": "biological_description",
+      "unit": "CUT preparation (culture), one parental iPSC line",
+      "sample_definition": "two numbered CUT preparations per induced state, 24 CPM tracks",
+      "datasets": [
+        "GSE289683",
+        "GSE291333"
+      ]
+    },
+    "C301": {
+      "kind": "method_check",
+      "unit": "CUT preparation (culture), one parental iPSC line",
+      "sample_definition": "two preparations per state; 1,104 locus-mark-window contrasts",
+      "datasets": [
+        "GSE289683",
+        "GSE291333"
+      ]
+    },
+    "C302": {
+      "kind": "method_check",
+      "unit": "CUT preparation (culture), one parental iPSC line",
+      "sample_definition": "two preparations per state at 46 TSS positions over 23 loci",
+      "datasets": [
+        "GSE289683",
+        "GSE291333"
+      ]
+    },
+    "C303": {
+      "kind": "biological_description",
+      "unit": "donor (one)",
+      "sample_definition": "one WGBS donor at three culture days; 414 promoter-domain intersections",
+      "datasets": [
+        "GSE150527"
+      ]
+    },
+    "C304": {
+      "kind": "reproduction_of_source",
+      "unit": "mouse",
+      "sample_definition": "three explicitly named mice per marker, fields nested within mouse",
+      "datasets": [
+        "Kobayashi PATS Extended Data 4 source workbook"
+      ]
+    },
+    "C305": {
+      "kind": "analysis_decision",
+      "unit": "deposited library (independent-unit count unverified)",
+      "sample_definition": "20 GSM library records, two replicate labels per condition",
+      "datasets": [
+        "GSE141635"
+      ]
+    },
+    "C306": {
+      "kind": "method_check",
+      "unit": "deposited interval file (no biological unit claimed)",
+      "sample_definition": "two deposited called-interval files, one per condition",
+      "datasets": [
+        "GSE141635"
+      ]
+    },
+    "C307": {
+      "kind": "biological_description",
+      "unit": "mouse (22 verified animals); cells are not replicates",
+      "sample_definition": "5,333 retained traced cells from 22 animals across six deposited groups",
+      "datasets": [
+        "GSE277777"
+      ]
+    },
+    "C308": {
+      "kind": "method_check",
+      "unit": "mouse",
+      "sample_definition": "22 named animals covering all 5,333 retained traced cells",
+      "datasets": [
+        "GSE277777"
+      ]
+    },
+    "C309": {
+      "kind": "analysis_decision",
+      "unit": "source library / animal",
+      "sample_definition": "22 source aliases across six sequencing libraries",
+      "datasets": [
+        "GSE277777"
+      ]
+    },
+    "C310": {
+      "kind": "method_check",
+      "unit": "source library / animal",
+      "sample_definition": "22 sources omitted once each within their group; 5,333 cells retained throughout",
+      "datasets": [
+        "GSE277777"
+      ]
+    },
+    "C311": {
+      "kind": "method_check",
+      "unit": "cell label (annotation audit; no biological replication involved)",
+      "sample_definition": "28,402 deposited label rows including 5,333 traced cells",
+      "datasets": [
+        "GSE277777"
+      ]
+    },
+    "C312": {
+      "kind": "analysis_decision",
+      "unit": "animal or disjoint pool (unresolved)",
+      "sample_definition": "eight bulk ATAC libraries across four deposited source blocks",
+      "datasets": [
+        "GSE154966"
+      ]
+    },
+    "C313": {
+      "kind": "biological_description",
+      "unit": "mouse (paired within genotype)",
+      "sample_definition": "eight mice, four paired per genotype, 16 sorted libraries",
+      "datasets": [
+        "GSE273123"
+      ]
+    },
+    "C314": {
+      "kind": "biological_description",
+      "unit": "mouse (paired within genotype)",
+      "sample_definition": "eight mice, four paired per genotype, 16 sorted libraries",
+      "datasets": [
+        "GSE273123"
+      ]
+    },
+    "C315": {
+      "kind": "biological_description",
+      "unit": "mouse",
+      "sample_definition": "three mice per genotype, three fields per mouse per region, 12 mouse-region fractions",
+      "datasets": [
+        "Lynch AP-1 preprint v2 Fig. 4I source workbook"
+      ]
+    },
+    "C316": {
+      "kind": "reproduction_of_source",
+      "unit": "author-declared independent culture experiment; one parental iPSC line",
+      "sample_definition": "3 to 7 culture experiments per condition across panels 6c, 6d, 6g, 6h, 6i",
+      "datasets": [
+        "Tsutsui 2026 source workbook (PRJDB37980/37982/37983 study)"
+      ]
+    },
+    "C317": {
+      "kind": "biological_description",
+      "unit": "author-declared independent culture experiment; one parental iPSC line",
+      "sample_definition": "3 or 4 culture experiments per siRNA condition; 3 per inhibitor condition",
+      "datasets": [
+        "Tsutsui 2026 source workbook"
+      ]
+    },
+    "C318": {
+      "kind": "analysis_decision",
+      "unit": "author-declared CUT&Tag preparation",
+      "sample_definition": "64 sequencing runs across three DDBJ projects",
+      "datasets": [
+        "PRJDB37980",
+        "PRJDB37982",
+        "PRJDB37983",
+        "GSE289683",
+        "GSE291333"
+      ]
+    },
+    "C319": {
+      "kind": "method_check",
+      "unit": "gene list (no biological sample manifest recovered)",
+      "sample_definition": "three supplied selected gene lists (3,984 / 686 / 868 genes)",
+      "datasets": [
+        "GSE335749",
+        "GSE335750",
+        "Morowitz preprint supplementary table"
+      ]
+    },
+    "C320": {
+      "kind": "analysis_decision",
+      "unit": "donor",
+      "sample_definition": "48 GSM records; 3 RNA donors, 2 histone donors, 1 WGBS donor",
+      "datasets": [
+        "GSE150527"
+      ]
+    },
+    "C321": {
+      "kind": "analysis_decision",
+      "unit": "animal / donor / culture preparation (the units that would need to be shared)",
+      "sample_definition": "29 inventoried outcome records and 27 evidence branches across the A1 study set",
+      "datasets": [
+        "GSE141635",
+        "GSE190821",
+        "GSE273123",
+        "GSE277777",
+        "GSE289683",
+        "GSE291333",
+        "GSE150527",
+        "GSE309751",
+        "GSE307112"
+      ]
+    },
+    "C322": {
+      "kind": "negative_result",
+      "unit": "not established (no such assay identified)",
+      "sample_definition": "surveyed A1 evidence base; documentation pass only",
+      "datasets": [
+        "GSE141635"
+      ]
+    },
+    "C323": {
+      "kind": "biological_description",
+      "unit": "nucleus within one well per condition (no biological replication between groups)",
+      "sample_definition": "two multiome wells; 7,340 PBS and 8,093 SeV wild-type nuclei",
+      "datasets": [
+        "GSE310539"
+      ]
+    },
+    "C324": {
+      "kind": "biological_description",
+      "unit": "well (240 plate-3 wells; four repeat wells per unit are aliquots of one mixture)",
+      "sample_definition": "240 plate-3 wells across four plate-replicate units",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C325": {
+      "kind": "negative_result",
+      "unit": "well (four plate-replicate units; wells are aliquots of one mixture, not independent preparations)",
+      "sample_definition": "one Areg well per unit in four units; 168 eligible plate-3 wells; 8 control wells per unit before eligibility",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C326": {
+      "kind": "biological_description",
+      "unit": "well (four plate-replicate units; wells are aliquots of one mixture)",
+      "sample_definition": "one Itgb6 well per unit, three readable; 168 eligible plate-3 wells",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C327": {
+      "kind": "analysis_decision",
+      "unit": "well (four copies of one plate layout)",
+      "sample_definition": "four plate-replicate units of 60 wells; 53 plate-3 targets",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C328": {
+      "kind": "method_check",
+      "unit": "library (886 screen libraries; four targeted libraries per gene)",
+      "sample_definition": "886 mouse libraries; four targeted libraries per axis gene",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C329": {
+      "kind": "method_check",
+      "unit": "donor",
+      "sample_definition": "22 donors with both compartments at the 50-cell floor (18 IPF, 4 Control)",
+      "datasets": [
+        "GSE136831"
+      ]
+    },
+    "C330": {
+      "kind": "negative_result",
+      "unit": "donor",
+      "sample_definition": "22 donors (18 IPF, 4 Control); 6 donors in the mural stratum",
+      "datasets": [
+        "GSE136831"
+      ]
+    },
+    "C331": {
+      "kind": "biological_description",
+      "unit": "well (240 plate-3 wells)",
+      "sample_definition": "240 plate-3 wells of the co-culture screen",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C332": {
+      "kind": "method_check",
+      "unit": "well within plate-replicate unit",
+      "sample_definition": "32, 48, 31 and 57 eligible wells in units 3-1 to 3-4",
+      "datasets": [
+        "GSE307112"
+      ]
+    },
+    "C333": {
+      "kind": "reproduction_of_source",
+      "unit": "mouse",
+      "sample_definition": "four 3G9 and four Axum8 bleomycin mice, one whole-lung input library each",
+      "datasets": [
+        "GSE190821"
+      ]
+    },
+    "C334": {
+      "kind": "negative_result",
+      "unit": "mouse",
+      "sample_definition": "four 3G9 and four Axum8 bleomycin mice, one epithelial RiboTag library each",
+      "datasets": [
+        "GSE190821"
+      ]
+    },
+    "C335": {
+      "kind": "method_check",
+      "unit": "mouse (paired immunoprecipitation and input from one homogenate)",
+      "sample_definition": "eight mice with paired epithelial and whole-lung libraries",
+      "datasets": [
+        "GSE190821"
+      ]
+    },
+    "C336": {
+      "kind": "analysis_decision",
+      "unit": "mouse",
+      "sample_definition": "eight mice, four per arm, epithelial libraries",
+      "datasets": [
+        "GSE190821"
+      ]
+    },
+    "C337": {
+      "kind": "negative_result",
+      "unit": "dataset (search over repository metadata)",
+      "sample_definition": "15 GEO queries plus PRIDE, IDR and BioImage Archive; six nearest candidates assessed",
+      "datasets": [
+        "GSE190821",
+        "GSE298207",
+        "GSE224401",
+        "GSE2255",
+        "GSE253494",
+        "GSE307128"
+      ]
+    },
+    "C338": {
+      "kind": "method_check",
+      "unit": "mouse",
+      "sample_definition": "eight mice, four per arm",
+      "datasets": [
+        "GSE190821"
+      ]
+    },
+    "C339": {
+      "kind": "analysis_decision",
+      "unit": "animal / donor / preparation (the units that would need to be shared)",
+      "sample_definition": "29 inventoried outcome records; no A8 analysis executed",
+      "datasets": [
+        "Kobayashi PATS Extended Data 4 source workbook",
+        "GSE190821",
+        "GSE307112"
+      ]
+    },
+    "C340": {
+      "kind": "analysis_decision",
+      "unit": "animal / culture preparation (the units that would need to be identified)",
+      "sample_definition": "29 inventoried outcome records; no A14 analysis executed",
+      "datasets": []
+    },
+    "C341": {
+      "kind": "method_check",
+      "unit": "deposited sample record (no biological unit claimed)",
+      "sample_definition": "32 cached GEO catalog extracts; three deposits with named conflicting records",
+      "datasets": [
+        "GSE154965",
+        "GSE273122",
+        "GSE309751"
+      ]
+    },
+    "C342": {
+      "kind": "method_check",
+      "unit": "simulated mouse (200 draws, eight mice, 200 genes)",
+      "sample_definition": "simulation study; the executed analysis has eight mice",
+      "datasets": [
+        "simulation (no deposit)",
+        "GSE190821"
+      ]
     }
   }
 }
