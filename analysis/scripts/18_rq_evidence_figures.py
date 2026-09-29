@@ -59,14 +59,24 @@ def a2():
         ax.set(xticks=[0, 1], xticklabels=["Myeloid", "Epithelial"],
                ylabel="AREG detection (%)", ylim=(0, 100), xlim=(-.3, 1.3), title=title)
         ax.text(.04, .94, "10 paired donors", transform=ax.transAxes, va="top")
-    r = rank[rank.areg_median_rank.notna()].copy()
-    axes[2].scatter(r.areg_median_rank, np.arange(len(r)), s=48, color=ORANGE)
+    # Per-donor ranks are not deposited (resource_summary carries only the median across
+    # 22 donors), so no dispersion can be drawn. Show instead where AREG-EGFR sits inside
+    # each resource's full rank range, which is the quantity that changes between resources.
+    r = rank[rank.areg_median_rank.notna()].copy().sort_values("areg_median_rank")
+    y = np.arange(len(r))
     for i, row in enumerate(r.itertuples()):
-        axes[2].text(row.areg_median_rank+1, i, f"{row.areg_median_rank:g} / {row.pairs}", va="center", fontsize=9)
-    axes[2].set(yticks=np.arange(len(r)), yticklabels=r.resource,
-                xlabel="AREG–EGFR median donor rank", xlim=(0, 65),
-                title="c  Resource-dependent rank")
-    axes[2].invert_yaxis()
+        axes[2].plot([1, row.pairs], [i, i], color="#CCCCCC", lw=3,
+                     solid_capstyle="butt", zorder=1)
+        axes[2].scatter([row.areg_median_rank], [i], s=52, color=ORANGE, zorder=3)
+        axes[2].text(row.pairs*1.06, i, f"rank {row.areg_median_rank:g} of {row.pairs}",
+                     va="center", fontsize=8.5)
+    axes[2].set_xscale("log")
+    axes[2].set(yticks=y, yticklabels=r.resource, xlim=(1, 2600),
+                title="c  AREG\u2013EGFR position in each resource")
+    axes[2].set_ylim(len(r) - 0.4, -0.6)
+    axes[2].set_xlabel("Rank position among the resource's pairs (log scale)\n"
+                       "grey bar: that resource's full rank range; median across 22 donors, "
+                       "per-donor ranks are not deposited", fontsize=8)
     fig.suptitle("AREG source detection and ligand rank", fontsize=15)
     save(fig, "rq_a2_source_rank")
 
@@ -92,12 +102,25 @@ def a6():
         ax.set_xlabel(f"{cohort}: {int(t.iloc[0].n_IPF)} IPF / {int(t.iloc[0].n_control)} control donors", fontsize=9)
     p = f[(f.cohort.eq("GSE135893")) & f.label.eq("Proliferating Macrophages")].iloc[0]
     t = shares[(shares.cohort.eq("GSE135893")) & shares.label.eq("Proliferating Macrophages")].set_index("set")
+    # Cell share and within-state transcript share are different measurement scales and
+    # must not be read off a shared axis or joined by a line across non-ordinal categories.
+    # Draw them as two grouped measures with a visual break and label each scale.
     for j, group in enumerate(["control", "IPF"]):
-        vals = [p[f"mean_cell_fraction_{group}"], t.loc["HALLMARK_E2F_TARGETS", f"mean_set_transcript_share_{group}"],
-                t.loc["HALLMARK_G2M_CHECKPOINT", f"mean_set_transcript_share_{group}"]]
-        axes[2].plot(np.arange(3), np.array(vals)*100, "o-", color=[TEAL, ORANGE][j], label=group)
-    axes[2].set(xticks=[0, 1, 2], xticklabels=["Cells", "E2F\ntranscripts", "G2M\ntranscripts"],
-                ylabel="Mean donor share (%)", ylim=(0, 19), title="c  Proliferating-state contribution")
+        cell = 100 * p[f"mean_cell_fraction_{group}"]
+        tx = [100 * t.loc["HALLMARK_E2F_TARGETS", f"mean_set_transcript_share_{group}"],
+              100 * t.loc["HALLMARK_G2M_CHECKPOINT", f"mean_set_transcript_share_{group}"]]
+        axes[2].bar([0 + (j - .5) * .32], [cell], width=.30, color=[TEAL, ORANGE][j], label=group)
+        axes[2].bar([1.4 + (j - .5) * .32, 2.4 + (j - .5) * .32], tx, width=.30,
+                    color=[TEAL, ORANGE][j])
+        for x, v in zip([0 + (j - .5) * .32, 1.4 + (j - .5) * .32, 2.4 + (j - .5) * .32],
+                        [cell] + tx):
+            axes[2].text(x, v + 0.4, f"{v:.1f}", ha="center", fontsize=8.5)
+    axes[2].axvline(0.7, color="#BBBBBB", lw=0.9, linestyle="--")
+    axes[2].set(xticks=[0, 1.4, 2.4], xticklabels=["Cells", "E2F", "G2M"],
+                ylabel="Mean donor share (%)", ylim=(0, 19), xlim=(-0.6, 3.0),
+                title="c  Proliferating-state contribution")
+    axes[2].set_xlabel("left of the dashed line: cell composition\n"
+                       "right: within-state transcript share (a different measure)", fontsize=8.5)
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="outside lower center", ncol=2, frameon=False)
     fig.suptitle("Macrophage composition and programme contributions", fontsize=15)

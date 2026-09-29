@@ -37,7 +37,8 @@ for ax, v, ttl in zip(axes, ['primary', 'depth1000_seed20260928'], ['Raw depth, 
         ax.barh(range(len(order)), d[f'state_{s}'].to_numpy(), left=left, color=STATE_COL[s], label=s.replace('_', '+'), height=0.8); left += d[f'state_{s}'].to_numpy()
     ax.set_yticks(range(len(order))); ax.set_yticklabels([lab[g] for g in order]); ax.set_xlim(0, 1); ax.set_xlabel('fraction of included cells'); ax.set_title(ttl); ax.invert_yaxis()
 h, l = axes[0].get_legend_handles_labels(); fig.legend(h, l, loc='lower center', ncol=6, title='exclusive gate state', bbox_to_anchor=(0.55, 0.0)); letter(axes[0], 'a'); letter(axes[1], 'b')
-fig.suptitle('Gate states are dominated by AT2 and AT2+AT1 co-detection; transition states are mutant-specific and depth-sensitive', x=0.01, y=1.03, ha='left', fontsize=8)
+fig.suptitle('Gate states are dominated by AT2 and AT2+AT1 co-detection; transition occupancy clears the\n30-cell floor only in mutant RFP libraries (non-mutant libraries hold 0-10 such cells) and is depth-sensitive',
+                 x=0.01, y=1.06, ha='left', fontsize=8)
 f1 = FIG / 'EN_C01_state_occupancy.png'; fig.savefig(f1, bbox_inches='tight'); plt.close(fig)
 
 # ---------------- EN_C02: EN1 cluster x gate heatmap (r = 0.5)
@@ -53,7 +54,8 @@ for ax, exp, L in zip(axes, [1, 2], ['a', 'b']):
     ax.set_xticklabels([f"c{c} {n/1000:.1f}k {m[c].replace('_gate', '').replace('nonepi_', '')}" for c, n in zip(d.cluster, d.n_cells)], rotation=90, fontsize=5)
     ax.set_title(f'Experiment {exp}, r = 0.5 (n cells, top panel)', pad=12); ax.text(-0.02, 1.12, L, transform=ax.transAxes, fontsize=10, fontweight='bold', va='bottom', ha='left'); ax.tick_params(length=0)
 cb = fig.colorbar(im, ax=axes, fraction=0.02, pad=0.02); cb.set_label('fraction of cluster cells')
-fig.suptitle('Transition-gate and Cd177+ cells concentrate in few mutant clusters; the AT1 gate fires in every AT2 cluster', x=0.01, y=0.99, ha='left', fontsize=8)
+fig.suptitle('Transition-gate and Cd177+ cells concentrate in one to three mutant clusters per experiment;\nthe AT1 gate fires in every cluster where the AT2 gate itself fires, and is zero in two sparsely-AT2 clusters',
+                 x=0.01, y=1.02, ha='left', fontsize=8)
 f2 = FIG / 'EN_C02_cluster_gate_crosstab.png'; fig.savefig(f2, bbox_inches='tight'); plt.close(fig)
 
 # ---------------- EN_C03: CD177 within transition-gated cells (two eligible libraries)
@@ -72,14 +74,14 @@ for k, g in enumerate(libs):
     ax.scatter([s2.get(e, np.nan) for e in eps], y + off, facecolor='none', edgecolor=lc[g], s=22, zorder=3, label=f'{g} (>=2 UMI)')
     ax.scatter([mm.get(e, np.nan) for e in eps], y + off, marker='D', color=lc[g], s=26, zorder=4, edgecolor=INK, linewidth=0.5, label=f'{g} depth x hypoxia matched')
 ax.axvline(0, color=AXIS, lw=0.8, zorder=1); ax.set_yticks(y); ax.set_yticklabels(epn); ax.invert_yaxis(); ax.set_xlabel('SMD, Cd177-detected minus Cd177-zero cells (within one library)')
-ax.set_title('Cd177 detection tracks priming/identity RNA in both libraries; cycling differs by library'); hh, ll = ax.get_legend_handles_labels(); fig.legend(hh, ll, loc='lower center', ncol=3, fontsize=6, bbox_to_anchor=(0.5, -0.06)); letter(ax, 'a'); ax.margins(y=0.04); ax.set_xlim(-1.7, 2.6)
+ax.set_title('Cd177 detection tracks priming and identity RNA\nin both libraries; cycling differs by library'); hh, ll = ax.get_legend_handles_labels(); fig.legend(hh, ll, loc='lower center', ncol=3, fontsize=6, bbox_to_anchor=(0.5, -0.06)); letter(ax, 'a'); ax.margins(y=0.04); ax.set_xlim(-1.7, 2.6)
 ax2 = fig.add_subplot(gs[0, 1])
 for k, g in enumerate(libs):
     r = con[(con.variant == 'primary') & (con.gsm == g) & (con.Cd177_threshold_UMI == 1) & (con.endpoint == 'cycling_markers_ge2_fraction')].iloc[0]
     ax2.bar([k - 0.18, k + 0.18], [r.mean_neg, r.mean_pos], width=0.34, color=[PAL['deemph'], lc[g]]); ax2.text(k + 0.18, r.mean_pos + 0.01, f'{r.mean_pos:.2f}', ha='center', fontsize=6); ax2.text(k - 0.18, r.mean_neg + 0.01, f'{r.mean_neg:.2f}', ha='center', fontsize=6)
 gg = grp[(grp.variant == 'primary') & (grp.Cd177_threshold_UMI == 1) & (grp.status == 'available')].set_index('gsm')
 ax2.set_xticks([0, 1]); ax2.set_xticklabels([f'{g}\nn={int(gg.loc[g].n_Cd177_neg)} / {int(gg.loc[g].n_Cd177_pos)}' for g in libs]); ax2.set_ylabel('fraction with >=2 cycling markers'); ax2.set_ylim(0, 0.65)
-ax2.set_title('Cycling fraction: Cd177-zero (grey) vs detected'); letter(ax2, 'b')
+ax2.set_title('Cycling fraction:\nCd177-zero (grey) vs detected'); letter(ax2, 'b')
 ax3 = fig.add_subplot(gs[1, 1])
 for k, g in enumerate(libs):
     d = json.loads(gg.loc[g].Cd177_umi_counts_in_pos); xs = np.array(sorted(int(x) for x in d)); ys = np.array([d[str(x)] for x in xs])

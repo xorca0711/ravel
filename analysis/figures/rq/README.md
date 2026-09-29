@@ -227,7 +227,7 @@ score overlays and gene-component heatmaps have not been generated.
   genes. New candidate discriminatory genes remain exploratory and require
   a held-out cohort; no classifier performance claim from these inspected data.
 
-**Decision.** Shared score increases motivate a shared-component hypothesis, while overlap alone cannot establish cell identity. A defensible
+**Decision.** The shared score increases in LUAD, AIS and MIA versus matched normal (19/23, 9/12 and 3/4 patients) but **not in AAH** (median -0.08, 3/8 patients), so it motivates a shared-component hypothesis for the later lesions only, and overlap alone cannot establish cell identity. A defensible
 neoplasia-specific extension needs reproducible within-study associations,
 independent cell-state validation and validation data not used for selection.
 Histology differences are cross-sectional, not a progression time course.

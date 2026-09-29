@@ -87,14 +87,28 @@ def main():
     pad = 0.09 * (hi - lo)
     ax_b.plot([lo - pad, hi + pad], [lo - pad, hi + pad], color=GREY, linewidth=0.8,
               linestyle='--', zorder=1)
-    ax_b.annotate('perfect prediction', xy=(hi, hi), xytext=(-4, 6), textcoords='offset points',
+    ax_b.annotate('perfect prediction', xy=(hi, hi), xytext=(-6, -14), textcoords='offset points',
                   ha='right', fontsize=6.3, color=GREY, rotation=45)
     ax_b.set_xlim(lo - pad, hi + pad)
     ax_b.set_ylim(lo - pad, hi + pad)
     ax_b.set_aspect('equal')
     ax_b.set_xlabel('Observed response')
     ax_b.set_ylabel('Held-out prediction')
-    ax_b.set_title('Both models compress the range;\nneither tracks the extremes')
+    # Verified against A12_heldout_predictions.csv: both predicted ranges are WIDER than the
+    # observed range, so the earlier "both models compress the range" wording was false.
+    _obs = held[held.model == 'joint'].observed.to_numpy()
+    _obs_w = float(_obs.max() - _obs.min())
+    _sl, _wid = {}, {}
+    for _m in ('alternative', 'joint'):
+        _s = held[held.model == _m]
+        _sl[_m] = float(np.polyfit(_s.observed.to_numpy(), _s.predicted.to_numpy(), 1)[0])
+        _wid[_m] = float(_s.predicted.max() - _s.predicted.min())
+    _n_wider = sum(1 for _m in _sl if _wid[_m] > _obs_w)
+    _tail = ('both predicted ranges wider than observed' if _n_wider == 2
+             else f'{_n_wider} of 2 predicted ranges wider than observed')
+    ax_b.set_title(f'Neither model tracks the extremes\n'
+                   f'(slopes {_sl["alternative"]:.2f} and {_sl["joint"]:.2f} against observed)')
+    ax_b.annotate(_tail, xy=(0.03, 0.03), xycoords='axes fraction', fontsize=6.4, color=GREY)
     ax_b.legend(frameon=False, loc='upper left', fontsize=6.5, handletextpad=0.4)
 
     for ax, letter in ((ax_a, 'a'), (ax_b, 'b')):

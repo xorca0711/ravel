@@ -67,7 +67,7 @@ def figure_one(plt, np, pd, paths):
         ('A12, AT2 recipient', primary(a12, recipient='AT2'), MODEL_ORDER,
          'the recipient index lowers held-out error'),
         ('A12, alveolar fibroblast recipient', primary(a12, recipient='Alveolar fibroblasts'),
-         MODEL_ORDER, 'the same index does not'),
+         MODEL_ORDER, 'no gain over source + TNF'),
         ('A13, fibroblast programme', primary(a13), A13_MODEL_ORDER,
          'no model beats the training mean'),
     ]
@@ -115,15 +115,25 @@ def figure_one(plt, np, pd, paths):
 def figure_two(plt, np, pd, paths):
     frame = pd.read_csv(SRC / 'IL1B_source_fractions.csv')
     frame = frame[(frame.uncertainty == PRIMARY_UNCERTAINTY) & (frame.broad == 'Unassigned')]
-    fig, ax = plt.subplots(figsize=(4.8, 3.1), layout='constrained')
-    rng = np.random.default_rng(20260928)
+    fig, ax = plt.subplots(figsize=(6.2, 3.3), layout='constrained')
+    below = 0
     for xi, histology in enumerate(HISTOLOGY_ORDER):
         values = 100.0 * frame[frame.histology == histology].fraction_of_observed_IL1B_counts.to_numpy()
-        ax.scatter(xi + rng.uniform(-0.13, 0.13, size=values.size), values, s=20,
-                   facecolor='none', edgecolor=FOCAL, linewidth=0.9, zorder=2)
-        median = float(np.median(values))
+        values = np.sort(values)
+        below += int((values < 50).sum())
+        # Deterministic symmetric offsets: at n = 4-23 per group a random jitter adds no
+        # information and is not reproducible across renders.
+        off = np.linspace(-0.13, 0.13, values.size) if values.size > 1 else np.zeros(1)
+        ax.scatter(xi + off, values, s=20, facecolor='none', edgecolor=FOCAL,
+                   linewidth=0.9, zorder=2)
+        q1, median, q3 = (float(np.percentile(values, q)) for q in (25, 50, 75))
+        ax.plot([xi - 0.30, xi - 0.30], [q1, q3], color=FOCAL, linewidth=1.2,
+                solid_capstyle='butt', zorder=3)
         ax.plot([xi - 0.26, xi + 0.26], [median, median], color=FOCAL, linewidth=2.0, zorder=3)
-        ax.annotate(f'{median:.1f}%', xy=(xi + 0.30, median), fontsize=6.5, va='center', color=FOCAL)
+        # Place the median label away from the 50% reference line.
+        ax.annotate(f'{median:.1f}%', xy=(xi + 0.30, median),
+                    xytext=(0, 7 if abs(median - 50) < 6 else 0), textcoords='offset points',
+                    fontsize=6.5, va='center', color=FOCAL)
     ax.axhline(50, color=BASELINE, linewidth=0.8, linestyle=':')
     ax.annotate('half of the recovered counts', xy=(0.02, 0.5), xycoords=('axes fraction', 'data'),
                 xytext=(2, 3), textcoords='offset points', fontsize=6, color=BASELINE)
@@ -131,7 +141,11 @@ def figure_two(plt, np, pd, paths):
     ax.set_xticklabels([f'{h}\nn = {int((frame.histology == h).sum())}' for h in HISTOLOGY_ORDER])
     ax.set_ylabel('IL1B counts in cells without a confident\nlabel (% of that patient\u2019s counts)')
     ax.set_ylim(0, 100)
-    ax.set_title('Most recovered IL1B RNA sits in cells the reference\ncannot confidently label, in every histology')
+    ax.set_title('The median patient in every histology carries most recovered IL1B RNA\n'
+                 'in cells the reference cannot confidently label '
+                 f'({below} of {len(frame)} patients fall below half)')
+    ax.annotate('bars: interquartile range', xy=(0.98, 0.03), xycoords='axes fraction',
+                ha='right', fontsize=6, color=BASELINE)
     for path in paths:
         fig.savefig(path, metadata={'Creator': 'scRNA_seq A12-S1 source allocation'})
     plt.close(fig)

@@ -277,19 +277,31 @@ def main() -> int:
              if l in set(per_sample["cre_line"].astype(str))]
     colours = {"Kit-MerCreMer": "#4C72B0", "Car4-CreERT2": "#C44E52",
                "Ednrb-CreERT2": "#55A868"}
+    # The two values on each row come from the SAME animal, so they are drawn as
+    # paired slopes rather than as two offset clouds. n = 2-3 animals per line at a
+    # single timepoint with no recombination-efficiency control, so this is a
+    # label-frequency comparison consistent with a CAP1 origin, not a test of origin.
+    n_animals, up = 0, 0
     for i, l in enumerate(lines):
         g = per_sample[per_sample["cre_line"].astype(str) == l]
+        for _, row in g.iterrows():
+            lo, hi = row["pct_traced_in_other_EC"], row["pct_traced_in_iCAP"]
+            ax.plot([i - 0.12, i + 0.12], [lo, hi], color=colours[l],
+                    linewidth=0.9, alpha=0.8, zorder=2)
+            n_animals += 1
+            up += int(hi > lo)
         ax.scatter(np.full(len(g), i - 0.12), g["pct_traced_in_other_EC"],
-                   s=44, facecolors="none", edgecolors=colours[l], linewidths=1.4)
+                   s=44, facecolors="none", edgecolors=colours[l], linewidths=1.4, zorder=3)
         ax.scatter(np.full(len(g), i + 0.12), g["pct_traced_in_iCAP"],
-                   s=52, color=colours[l])
+                   s=52, color=colours[l], zorder=3)
     ax.set_xticks(range(len(lines)))
-    ax.set_xticklabels([f"{l}\n(labels {LINE_LABELS[l]})" for l in lines],
-                       fontsize=8)
+    ax.set_xticklabels([f"{l}\n(labels {LINE_LABELS[l]}, n = {int((per_sample['cre_line'].astype(str) == l).sum())})"
+                        for l in lines], fontsize=8)
     ax.set_ylabel("% of cells traced (tdTomato-recombined)")
-    ax.set_title("Origin of the injury-induced capillary state at 19 dpi\n"
-                 "open = other endothelium, filled = injury state; "
-                 "one point per animal", fontsize=9)
+    ax.set_title("Lineage-label frequency in the injury-induced capillary state at 19 dpi\n"
+                 f"paired within animal: label enriched in the injury state in {up} of {n_animals} animals;\n"
+                 "consistent with a CAP1 origin, not a test of it "
+                 "(one timepoint, no recombination-efficiency control)", fontsize=8.5)
     fig.tight_layout()
     save_fig(fig, FIG, "icap_origin_by_cre_line")
 

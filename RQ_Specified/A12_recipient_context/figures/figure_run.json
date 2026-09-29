@@ -1,6 +1,6 @@
 {
   "scope": "Plots tracked table columns only. No fit, no rescoring, no new estimate. Both pilots are exploratory on reused data; the ladders are held-out RMSE at the primary settings (alpha=1, 50-cell floor, confidence 0.2) and carry no interval because leave-one-patient-out fold losses are dependent. Figure 2 shows an RNA count allocation among recovered cells, not a secretion fraction and not a tissue-composition correction.",
-  "script_sha256": "0cca3ee94a8423de3c487f511feefcb51ddcbfc8e826984446c8cb23eebc5bfe",
+  "script_sha256": "ac845edab36cfb939b1e92e1077968144b0101f9203fc4e054ed5c3a4922c787",
   "matplotlib_version": "3.11.1",
   "jitter_seed": 20260928,
   "inputs": {
@@ -9,9 +9,9 @@
     "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_sources/IL1B_source_fractions.csv": "9a678d9f1fe750ba74bcab4efc0e81c8a57066ab51b4a9e19c3b18a016050708"
   },
   "outputs": {
-    "A12_F01_heldout_model_ladder.png": "a12a3ea6126150c4fe2ee1ba34a21225cda9db90a124327270a9189f5e70a712",
-    "A12_F01_heldout_model_ladder.svg": "f3d1e9c9bb7310be7f4d76dd8089ea77935b4f86b931cfb02e7eb975c6222173",
-    "A12_F02_il1b_source_allocation.png": "a09ef1fa7795987a709ad95a75f9dba25a0acd175950b39f685de10efbea5d0f",
-    "A12_F02_il1b_source_allocation.svg": "c1dd19919421a269d290518a720ea83bf705fc000a8c8b2b2793c4e46de3eef4"
+    "A12_F01_heldout_model_ladder.png": "fb6454cc96028ad23afc27b8c8117eb0325753276fb9b88dc0b98e7c127c445e",
+    "A12_F01_heldout_model_ladder.svg": "bed46bf71a5f3d70c8e8a8990fc18f6c99723f27232f74eaa4e6968b670f2f30",
+    "A12_F02_il1b_source_allocation.png": "37c2efccba83899042a76b4fb54f19d3b45651f1cafc47dad9f650a413e0f761",
+    "A12_F02_il1b_source_allocation.svg": "81386ba9c852565cbaa35112728c0f8d6b9295c84e82e21bc98b1c56f2c6d467"
   }
 }

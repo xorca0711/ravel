@@ -70,7 +70,8 @@ axes[0].set_yticks(y); axes[0].set_yticklabels(epn); axes[0].invert_yaxis()
 axes[0].legend(loc='lower left', fontsize=6, ncol=1)
 fig.supxlabel('standardized effect, Cd177-detected minus Cd177-zero cells', fontsize=8, y=0.13)
 fig.text(0.5, 0.03, 'Frozen rule: depth-robust requires sign agreement across all methods in BOTH libraries and |residualized| >= half |unadjusted|.\nThe 3,000-UMI thinning leaves GSM7890836 below the 30-cell floor (26 Cd177+ cells), so the frozen rule returns "inconclusive" for every endpoint;\nthe three methods available in both libraries are shown and discussed as a disclosed post-hoc relaxation.', ha='center', fontsize=6, color=INK2)
-fig.suptitle('Depth control: the priming and identity associations of Cd177 detection survive every available adjustment', x=0.01, y=0.99, ha='left', fontsize=8)
+fig.suptitle('Depth control: the frozen rule returns depth_dependent_or_inconclusive for all 12 endpoints because the\n3,000-UMI arm is unavailable in GSM7890836; in the three adjustments available in both libraries the priming and\nAT2/AT1 identity effects keep sign and at least half their unadjusted magnitude',
+                 x=0.01, y=1.02, ha='left', fontsize=8)
 f2 = FIG / 'FU_F02_depth_control.png'; fig.savefig(f2, bbox_inches='tight'); plt.close(fig)
 
 # ---------------- FU_F03 topology (undirected) + within-subcluster CD177
@@ -110,8 +111,9 @@ for i in range(piv.shape[0]):
 ax.set_yticks(range(len(eps))); ax.set_yticklabels(epn, fontsize=6); ax.set_xticks(range(piv.shape[1]))
 ax.set_xticklabels([f'E{e_}c{c_}' for e_, c_ in piv.columns], fontsize=6, rotation=90); ax.tick_params(length=0)
 cb = fig.colorbar(im, ax=ax, fraction=0.03, pad=0.02); cb.set_label('SMD, Cd177-detected minus zero', fontsize=6); cb.ax.tick_params(labelsize=5)
-ax.set_title('Within each subcluster, the Cd177 contrast\nlargely dissolves except priming', fontsize=7, pad=14); letter(ax, 'c', dx=-0.3, dy=1.12)
-fig.suptitle('State topology is a connected graph with populated intermediates; the CD177 phenotype is mostly between subclusters, not within them', x=0.01, y=0.99, ha='left', fontsize=8)
+ax.set_title('Within subclusters the Cd177 contrast\nretains median |SMD| 0.36 against 1.60-2.17 pooled', fontsize=7, pad=14); letter(ax, 'c', dx=-0.3, dy=1.12)
+fig.suptitle('Mutant subclusters form one connected component except cluster 14 (PAGA connectivity 0 to all six others);\ncells occupy the inter-centroid middle 40% at median 0.20-0.25, below a uniform 0.40; the pooled CD177 contrast is\nlargely a between-subcluster difference',
+                 x=0.01, y=1.02, ha='left', fontsize=8)
 f3 = FIG / 'FU_F03_topology_and_within_cluster.png'; fig.savefig(f3, bbox_inches='tight'); plt.close(fig)
 
 # ---------------- FU_F04 AT1 gate calibration and consequences + cycling equipotency
@@ -132,7 +134,7 @@ for i, (sa, sb) in enumerate(labs):
     ax.scatter(v, np.full(len(v), i) + np.random.default_rng(2).uniform(-0.1, 0.1, len(v)), s=16, color=CAT[0], alpha=0.8, linewidths=0)
     ax.plot([np.median(v)] * 2, [i - 0.2, i + 0.2], color=INK, lw=1.4)
 ax.axvline(0, color=AXIS, lw=0.8); ax.set_yticks(range(len(labs))); ax.set_yticklabels([f'{a_} vs {b_}\n({pairs[(pairs.state_a==a_)&(pairs.state_b==b_)].gsm.nunique()} libraries)' for a_, b_ in labs], fontsize=6)
-ax.set_xlabel('depth-matched cycling SMD between states'); ax.set_title('Cycling differences between states\nare small and inconsistent', fontsize=7, pad=14); letter(ax, 'b', dx=-0.42, dy=1.12)
+ax.set_xlabel('depth-matched cycling SMD between states'); ax.set_title('Cycling differences are inconsistent in sign;\nnegligible for AT2 vs mixed, larger for transition', fontsize=7, pad=14); letter(ax, 'b', dx=-0.42, dy=1.12)
 ax = axes[2]
 d = pd.read_csv(FU / 'FU_D_library_quality_model.csv'); s = pd.read_csv(FU / 'FU_D_model_summary.csv').iloc[0]
 for popn, col in zip(sorted(d.population.unique()), CAT):

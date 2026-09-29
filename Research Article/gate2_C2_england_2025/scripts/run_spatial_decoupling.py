@@ -83,7 +83,10 @@ for k, (ctx, c) in enumerate([('homeostatic Confetti', DEEMPH), ('oncogenic Red2
     ax.scatter(d.size_relative_slope_pct_per_100um, d.spcneg_relative_slope_pct_per_100um, s=30, color=c, linewidths=0.4, edgecolor='white', label=ctx, zorder=3)
 ax.axhline(0, color=AXIS, lw=0.8); ax.axvline(0, color=AXIS, lw=0.8)
 ax.set_xlabel('size slope (% of distal level per 100 um)'); ax.set_ylabel('pro-Sftpc-negative slope\n(% of distal level per 100 um)')
-ax.set_title('The two profiles do not track each other', fontsize=7.5); ax.legend(fontsize=6, loc='lower left')
+# Pearson r = +0.609 (p = 0.027) across the 13 plotted points, so the two slope sets DO
+    # co-vary; the earlier 'do not track each other' wording was false. State the per-dataset
+    # sign pattern, which is what the table supports, and leave co-variation unidentified.
+    ax.set_title('Growth slopes are negative in 12 of 13 datasets;\nthe differentiation slope has no consistent sign (8 up, 5 down)', fontsize=7.5); ax.legend(fontsize=6, loc='lower left')
 for _, r_ in E[E.context == 'oncogenic Red2Kras'].iterrows():
     ax.annotate(r_.dataset.replace('kras', ''), (r_.size_relative_slope_pct_per_100um, r_.spcneg_relative_slope_pct_per_100um), textcoords='offset points', xytext=(4, 3), fontsize=5.5, color=INK2)
 for i, L in enumerate('abc'): axes[i].text(-0.2 if i < 2 else -0.28, 1.1, L, transform=axes[i].transAxes, fontsize=10, fontweight='bold', va='bottom')

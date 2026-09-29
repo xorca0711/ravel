@@ -21,7 +21,7 @@ for ax,end,label in zip(axes.ravel(),ends,labels):
   r=d[(d.collection_day==day)&(d.variant==var)&(d.endpoint==end)].iloc[0];color=cs[0 if var=='raw' else 1]
   ax.hlines(3-j,r.cross_library_min,r.cross_library_max,color=color,lw=2);ax.scatter(r.difference_of_library_means,3-j,color=color,s=40,marker='o' if var=='raw' else 's',zorder=3)
  ax.axvline(0,color=pal['muted'],ls=':',lw=1);ax.set_yticks(range(4),['12w | 1000 UMI','12w | raw','2w | 1000 UMI','2w | raw']);ax.set_title(label,fontweight='bold');ax.grid(axis='x',alpha=.22);ax.set_xlabel('Deletion minus heterozygous')
-fig.suptitle('Il1r1 deletion changes reprogramming-associated RNA',fontsize=19,x=.06,ha='left',y=1.02)
+fig.suptitle('Il1r1 deletion lowers Cd177-associated RNA at both times;\n17 of 32 displayed cross-library ranges include zero',fontsize=19,x=.06,ha='left',y=1.04)
 fig.text(.06,.96,'Differences in mean log2(CPM + 1) across module genes; 2 libraries per genotype/time. Lines are all cross-library ranges, NOT confidence intervals.',fontsize=10)
 fig.tight_layout(rect=[0,.04,1,.93]);fig.text(.06,.015,'Source-QC populations; pools contain multiple lungs and biological identities remain unresolved. Marker/module RNA is not a direct fate or NF-kB activity measurement.',fontsize=9)
 save(fig,'EN_F02_genotype_contrasts.png')

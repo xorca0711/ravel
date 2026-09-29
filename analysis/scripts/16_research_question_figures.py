@@ -420,7 +420,7 @@ def figure_a1(a) -> dict:
     rna = a.obs["score_AT2_identity"].to_numpy()
     atac = a.obs["atac_at2_promoter"].to_numpy()
     violins(axes[1, 1], [(n, rna[m], c) for n, m, c in groups], "AT2 identity RNA score")
-    axes[1, 1].set_title("e  RNA score, by group")
+    axes[1, 1].set_title("e  RNA score, by group", fontsize=8)
     # panel f: the form of the registered statistic, detection at one depth budget
     det, budget = detection_at_budget(a, [(n, m) for n, m, _ in groups])
     spec_f = axes[1, 2].get_subplotspec()
@@ -439,16 +439,30 @@ def figure_a1(a) -> dict:
     depth = a.obs["atac_counts"].to_numpy()
     violins(axes[2, 0], [(n, atac[m], c) for n, m, c in groups],
             "log1p promoter counts per 10,000 ATAC counts")
-    axes[2, 0].set_title("g  Promoter chromatin, per nucleus, by group")
+    axes[2, 0].set_title("g  Promoter chromatin, per nucleus, by group", fontsize=8)
     violins(axes[2, 1], [(n, np.log10(np.maximum(depth[m], 1)), c) for n, m, c in groups],
             "log10 ATAC counts per nucleus")
-    axes[2, 1].set_title("h  ATAC depth, by group")
+    axes[2, 1].set_title("h  ATAC depth, by group", fontsize=8)
     violins(axes[2, 2], [(n, atac[m][atac[m] > 0], c) for n, m, c in groups],
             "log1p promoter counts per 10,000 ATAC counts")
-    axes[2, 2].set_title("i  Promoter chromatin, nuclei with any signal")
+    axes[2, 2].set_title("i  Promoter chromatin, nuclei with any signal", fontsize=8)
     fig.suptitle("A1  Closed or silenced: the AT2 identity programme in RNA and in chromatin, "
                  "GSE310539 wildtype wells", x=0.01, ha="left", fontsize=12.5, fontweight="semibold")
-    fig.tight_layout(w_pad=2.5, rect=(0, 0, 1, 1))
+    # The three compared groups come from TWO libraries: one wildtype PBS well and one
+    # wildtype SeV well. Violins in e, g, h and i show spread across nuclei, which is a
+    # scale and not uncertainty across animals, so between-group differences here carry no
+    # biological replication. State that on the figure rather than leaving it to the reader.
+    _wells = sorted(set(well[[m for _, m, _ in groups][0] | [m for _, m, _ in groups][1]
+                             | [m for _, m, _ in groups][2]]))
+    fig.text(0.01, 0.005,
+             "Panels e, g, h and i compare three groups drawn from "
+             f"{len(_wells)} pooled wells ({', '.join(_wells)}): the SeV reference and SeV "
+             "transitional groups are subsets of one library.\n"
+             "Violin spread is across nuclei - a scale, not uncertainty across animals - so "
+             "between-group differences have no biological replication and no between-animal "
+             "test is available from these data.",
+             fontsize=7.5, color="#555555", va="bottom")
+    fig.tight_layout(w_pad=2.5, rect=(0, 0.045, 1, 1))
     save(fig, "rq_a1_chromatin.png")
     table = pd.DataFrame([{
         "group": n.replace("\n", " "), "n_nuclei": int(m.sum()),
