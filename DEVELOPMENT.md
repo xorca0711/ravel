@@ -1720,3 +1720,29 @@ The [resolution note](docs/audits/2026-09-29-rq-delivery-review/CORRECTIONS.md)
 records the corrections and checks. A16's presentation revision retains original
 figure/script records and uses the same tracked tables. No model was fitted,
 no claim grade was changed, and no biological readiness state was promoted.
+
+## 29 September 2026: register question-level and atlas claims
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-29 | Register every claim across paper packages and RQ_Specified results; relabel existing rows the 29 September figure audit contradicts | Repository owner | Owner requested the registration; Claude Science proposed each grade as a delegated reassessment | Add C169-C233 in four dated sections. Append dated qualifiers to C2, C4, C29, C38, C42, C47, C51, C54, C69, C73, C74, C76 and C83. Change C4's Kit status from Validated to Descriptive only. Repair 17 package-relative artefact paths in C1, C19, C20, C22-C32, C34 and C35. Extend `claim_contract.py` with explicit family ranges | The register ended at C168 and omitted every question-level result, including A0's negative transfer. The figure audit had corrected several claims that still read at full strength in the register |
+
+Three inventory tracks stopped before producing output: England with A16, Yu-Lee-Choi-Min,
+and A1, A2, A8, A14 and A15. Each was retried once, unchanged and with the owner's
+authorization, and stopped again. Those folders are listed as not inventoried in
+`CLAIMS.md` and the coverage ledger. No grade was inferred for them. Historical row
+wording was preserved, and each correction is appended as a dated qualifier. Grades
+proposed here are not owner acceptance.
+
+## 29 September 2026: complete the register's coverage
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-29 | Inventory the three folder groups the first pass could not read, and register their claims | Repository owner | Owner asked for the retry; Claude Science proposed each grade as a delegated reassessment | Add C234-C269 (England with A16), C270-C295 (Yu, Lee, Choi and Min) and C296-C342 (A1, A2, A15 and the A8/A14 endpoint requirements). Append dated qualifiers to C19, C31 and C34 and add two superseding artefacts to C36. Extend `claim_contract.py` to 342 | The first pass left those folders ungraded because its inventories were interrupted. Every folder under `Research Article/` and `RQ_Specified/` now has rows or a recorded reason for having none |
+
+Two of the Yu-Lee-Choi-Min propositions were already registered through A12, as
+C225 and C226, and are not duplicated. A8 and A14 hold Stage 0 material only, so
+their rows record absent endpoint requirements rather than results. The three
+inventories were interrupted repeatedly before this pass and completed unchanged
+once the session model changed; no brief was reworded and no refused track was
+taken over directly. Grades proposed here are not owner acceptance.

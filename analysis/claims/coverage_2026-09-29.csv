@@ -1,0 +1,344 @@
+document,exists_on_main,registered_as,not_registered_reason,inventory_track
+RQ_Specified/A0_conserved_epithelial_transition_program/CONTINUATION_PLAN.md,True,,Plan or pre-registration (design record); its executed results are registered from the results report,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/DATASET_CANDIDATES.md,True,,Candidate list for the original plan; feasibility outcomes are registered via PILOT_REPORT/P0 audit,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/EXPLORATORY_PLAN.md,True,,Plan or pre-registration (design record); its executed results are registered from the results report,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/EXPLORATORY_REPRODUCING.md,True,,Reproduction instructions; no claim,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/PLAN.md,True,,Plan or pre-registration (design record); its executed results are registered from the results report,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/README.md,True,C196;C197;C198;C200,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/REPRODUCING.md,True,,Reproduction instructions; no claim,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/TRANSFER_EXECUTION.md,True,,Pre-declared score definition and conditional stop rule (method record); the executed outcome is A0-pilot-intestinal-transfer,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/decisions.json,True,C201,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/exploratory_decisions.json,True,C198;C200,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/figures/pilot_v1/README.md,True,C196;C197,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/history/documentation_migration.json,True,,Documentation migration record; no claim,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/reports/EXPLORATORY_PILOT_REPORT.md,True,C198;C199;C200,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/reports/P0_ELIGIBILITY_REPORT.md,True,C201,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_REPORT.md,True,C201,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_V1_RESULTS.md,True,C196;C197,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/reports/SOURCE_RECOVERY.md,True,,Eligibility and source-identity report for pilot_v1 cohort selection (coverage is not a result); its selections feed A0-pilot-lung-discovery,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/stage_E1_result.json,True,C198,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/stage_E2_result.json,True,C198,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/stage_E3_result.json,True,C199;C200,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/stage_E3a_result.json,True,C200,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/stage_decisions.json,True,C198;C199;C200,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/tables/pilot_v1/pilot_status.json,True,C197,,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/tables/preparation_attempt1_interrupted/record.json,True,,Interrupted preparation attempt; no effects calculated,Programmes
+RQ_Specified/A0_conserved_epithelial_transition_program/tables/preparation_attempt2_interrupted/record.json,True,,Interrupted preparation attempt; no effects calculated,Programmes
+RQ_Specified/A10_organoid_growth_outcome/FOLLOWUP_PLAN.md,True,,Plan or pre-registration (design record); its executed results are registered from the results report,Programmes
+RQ_Specified/A10_organoid_growth_outcome/PLAN.md,True,,Plan or pre-registration (design record); its executed results are registered from the results report,Programmes
+RQ_Specified/A10_organoid_growth_outcome/RATIONALE.md,True,,Biological rationale and endpoint definition; the endpoint/timing content is registered via A10-endpoint-concurrency-and-units,Programmes
+RQ_Specified/A10_organoid_growth_outcome/README.md,True,C213;C216;C218;C219;C220,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/figures/A10_F_followup_plate_performance.run.json,True,C219,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md,True,C219;C220,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_DESIGN_REPORT.md,True,C220,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md,True,C218;C219,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/reports/PUBLIC_DATA_SEARCH.md,True,C220,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/reports/STAGE1_IDENTITY_AUDIT.md,True,C220,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/reports/STAGE3_FIT_REPORT.md,True,C212;C213;C214;C215,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/reports/STAGE4_REVISED_REPORT.md,True,C213;C216;C217,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/tables/followup_v1/diagnostic_run.json,True,C220,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/tables/followup_v1/source_design_check.json,True,C220,,Programmes
+RQ_Specified/A10_organoid_growth_outcome/tables/followup_v1/verification.json,True,C218;C219,,Programmes
+RQ_Specified/A11_lesion_programme_addition/PLAN.md,True,,Plan or pre-registration (design record); its executed results are registered from the results report,Programmes
+RQ_Specified/A11_lesion_programme_addition/README.md,True,C205;C206;C208,,Programmes
+RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_ENVIRONMENT_GATE.md,True,,"Operational memory gate (object did not fit in memory); superseded by the intake run, no biological result",Programmes
+RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_INTAKE.md,True,C210,,Programmes
+RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md,True,C208;C209;C210,,Programmes
+RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/concordant_identity/restriction_summary.txt,True,C208,,Programmes
+RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/gate/gate_report.json,True,C208,,Programmes
+RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/intake/geo_attempt1_parser_defect/WHY_SUPERSEDED.txt,True,,Superseded parser-defect crosswalk; no claim,Programmes
+RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/scores/verification.json,True,C208,,Programmes
+RQ_Specified/A11_lesion_programme_addition/tables/gates_run.json,True,C205,,Programmes
+RQ_Specified/A11_lesion_programme_addition/tables/superseded_power_label_AT2/README.md,True,,"Superseded power input (narrower label), corrected before scoring; power is quoted in A11-kim-lesion-module-replication",Programmes
+RQ_Specified/A12_recipient_context/PLAN.md,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/RATIONALE.md,True,C221;C222;C223;C224,,Recipient
+RQ_Specified/A12_recipient_context/README.md,True,,"Folder README and evidence history; points to the rationale, pilot and recovery documents registered below; no separate proposition.",Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/config/prospective_gate_specification.json,True,,Pre-registration specification (design only); cited as artefact of A12-external-validation-gate.,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/sources/GSE123902_metadata.json,True,,Raw GEO metadata input; provenance only.,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/sources/GSE131907_metadata.json,True,,Raw GEO metadata input; provenance only.,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/sources/GSE148071_metadata.json,True,,Raw GEO metadata input; provenance only.,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/sources/primary_source_evidence.json,True,,Retrieved primary-source provenance for the gate audit; no proposition of its own.,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/sources/retrieval_manifest.json,True,,Download hash manifest; provenance only.,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/candidate_gate_ledger.json,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/candidate_gate_summary.tsv,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/kim_annotation_inventory.tsv,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/kim_patient_intersection.tsv,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/kim_sample_crosswalk.tsv,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/laughney_sample_manifest.tsv,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/laughney_title_pair_intersection.tsv,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/recovery_run.json,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/verification.json,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/external_validation_20260928/tables/wu_sample_manifest.tsv,True,C224,,Recipient
+RQ_Specified/A12_recipient_context/figures/figure_run.json,True,C221;C223;C225;C230,,Recipient
+RQ_Specified/A12_recipient_context/figures/figure_run_patient_level.json,True,C222,,Recipient
+RQ_Specified/A12_recipient_context/reports/A12_S1_SOURCE_IDENTITY_MAP.md,True,C225,,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/PLAN.md,True,C230;C231,,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/RATIONALE.md,True,C230;C231,,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md,True,,Folder README and history; results registered via the coverage report and pilot report rows.,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/config/a13_triad_coverage_spec.json,True,,Pre-count specification (design only); cited as artefact.,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md,True,C228;C229,,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/tables/a13_coverage_run.json,True,C228;C229,,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/tables/a13_reproduction_check.tsv,True,C229,,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/tables/a13_triad_counts.tsv,True,C228,,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/tables/attempt1_refused_pooled_rule/WHY_REFUSED.txt,True,C229,,Recipient
+RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/tables/attempt1_refused_pooled_rule/a13_reproduction_check.tsv,True,C229,,Recipient
+RQ_Specified/A5_A11_shared_component_contract/BIOLOGICAL_LOGIC.md,True,,Rationale for the revised A5/A11 tests; explicitly not a claim,Programmes
+RQ_Specified/A5_A11_shared_component_contract/PLAN.md,True,,Plan or pre-registration (design record); its executed results are registered from the results report,Programmes
+RQ_Specified/A5_A11_shared_component_contract/README.md,True,C202;C204;C205,,Programmes
+RQ_Specified/A5_A11_shared_component_contract/config/README.md,True,,Configuration description; no claim,Programmes
+RQ_Specified/A5_A11_shared_component_contract/figures/revision_20260929/render_record.json,True,C202;C205,,Programmes
+RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md,True,C202;C205;C206;C207,,Programmes
+RQ_Specified/A5_A11_shared_component_contract/reports/STAGE1_SOURCE_AUDIT.md,True,,"Developmental source selection (Guo 2019) and doublet-union check on author lists; a method/provenance record for the A5 instrument, no biological result",Programmes
+RQ_Specified/A5_A11_shared_component_contract/reports/STAGE2_3_REPORT.md,True,C203;C204,,Programmes
+RQ_Specified/A5_A11_shared_component_contract/scripts/README.md,True,,Script index; no claim,Programmes
+RQ_Specified/A5_A11_shared_component_contract/sources/README.md,True,,Source cache description; no claim,Programmes
+RQ_Specified/A5_A11_shared_component_contract/tables/revised_tests_verification.json,True,C202;C205,,Programmes
+RQ_Specified/A5_A11_shared_component_contract/tables/stage3_attempt1_refused/README.md,True,,"Refused first coverage attempt (instrument check failed 3 of 33); preserved method record, superseded by the corrected run in STAGE2_3_REPORT",Programmes
+RQ_Specified/A5_developmental_programme_reuse/DATA_AUDIT.md,True,C202;C203,,Programmes
+RQ_Specified/A5_developmental_programme_reuse/PLAN.md,True,,Plan or pre-registration (design record); its executed results are registered from the results report,Programmes
+RQ_Specified/A5_developmental_programme_reuse/README.md,True,C202;C203,,Programmes
+RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/REPORT.md,True,C203,,Programmes
+RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/SOURCE_RECOVERY_SPEC.md,True,,Recovery rules committed before extraction (design record),Programmes
+RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/candidate_verdicts.json,True,C203,,Programmes
+RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/verification.json,True,C203,,Programmes
+RQ_Specified/A5_developmental_programme_reuse/tables/test_v1/score_run.json,True,C202,,Programmes
+Research Article/epithelial_state_specificity/PLAN.md,True,C165,,Existing rows
+Research Article/epithelial_state_specificity/README.md,True,C165,,Existing rows
+Research Article/epithelial_state_specificity/results/SUMMARY.md,True,C165;C166;C167;C168,,Existing rows
+Research Article/epithelial_state_specificity/results/run_record.json,True,C165;C166;C167;C168,,Existing rows
+Research Article/epithelial_state_specificity/sources/README.md,True,,"Source-list provenance note (gene lists, hashes); no result.",Existing rows
+Research Article/gate1_01_niethamer_2025/ANALYSIS_TRIAL_PLAN.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/README.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/figure_revision_20260929/README.md,True,,"Presentation-only revision (categorical time spacing, same-RNA concordance wording); applied as relabel to C2; no new result.",Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/figure_revision_20260929/figure_run.json,True,,"Presentation-only revision record (hash manifest); no new result. Its corrections are applied as relabels to C2 and C4 and do not contradict C3, C9-C15.",Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/inventory/per_sample_results.json,True,,Raw-file inventory and per-sample QC bookkeeping; no claim.,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/lineage_tracing_cohort/decisions.json,True,C4,,Existing rows;Recipient
+Research Article/gate1_01_niethamer_2025/GSE262927/lineage_tracing_cohort/figures/icap_origin_by_cre_line.run.json,True,C4,,Recipient
+Research Article/gate1_01_niethamer_2025/GSE262927/logs/decisions.json,True,,Pipeline decisions log for the Stage 0 mouse run; its batch and QC decisions are registered as C1 and C5.,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/myeloid_focus/README.md,True,C12;C13;C14;C18,,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/myeloid_focus/amac_origin/README.md,True,C15;C16;C17,,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/myeloid_focus/amac_origin/run_record.json,True,C15;C16;C17,,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/myeloid_focus/batch_sensitivity/README.md,True,C18,,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/myeloid_focus/batch_sensitivity/run_record.json,True,C18,,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/myeloid_focus/run_record.json,True,C12;C13;C14;C18,,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/phase_timecourse/README.md,True,C9;C10;C11,,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/phase_timecourse/run_record.json,True,C9;C10;C11,,Existing rows
+Research Article/gate1_01_niethamer_2025/GSE262927/regeneration_focus/decisions.json,True,C2,,Existing rows
+Research Article/gate1_01_niethamer_2025/README.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/g0_gsea_feasibility/g0_run_record.json,True,C155,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/g0_gsea_feasibility/g0_summary.md,True,C155,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/g1_gsea_by_phase/g1_run_record.json,True,C156;C158;C159,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/g1_gsea_by_phase/g1_summary.md,True,C156;C158;C159,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/g1b_corrected_positive_control/g1b_run_record.json,True,C157,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/g1b_corrected_positive_control/g1b_summary.md,True,C157,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/g2_gsea_ipf/g2_run_record.json,True,C160;C161,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/g2_gsea_ipf/g2_summary.md,True,C160;C161,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/w1_amac_pseudobulk_de/w1_run_record.json,True,C162;C163;C164,,Existing rows
+Research Article/gate1_01_niethamer_2025/trials/w1_amac_pseudobulk_de/w1_summary.md,True,C162;C163;C164,,Existing rows
+Research Article/gate1_02_choi_2020/ANALYSIS_TRIAL_PLAN.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate1_02_choi_2020/README.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/README.md,True,C134;C135;C136;C137;C138;C140;C141;C142;C146,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/ROUTE_B_OUTCOME.md,True,C134;C135;C136;C137;C138;C140;C141;C142;C146,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/README.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/a1_locus_co_accessibility/a1_run_record.json,True,C143,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/a1b_split_locus_control/a1b_run_record.json,True,C142;C144;C145,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/a1c_graded_statistic/a1c_run_record.json,True,C144;C145;C154,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/a2_does_il1r1_deletion_move_wnt/a2_run_record.json,True,C148;C149;C150,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/a2_does_il1r1_deletion_move_wnt/a2_summary.md,True,C148;C149;C150,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/feasibility_of_the_joint_question/feasibility_run_record.json,True,C139,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/feasibility_of_the_joint_question/feasibility_summary.md,True,C139,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/module_detection_check/module_run_record.json,True,C147,,Existing rows
+Research Article/gate1_02_choi_2020/axin2_il1r1/trials/module_detection_check/module_summary.md,True,C147,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/ANALYSIS_TRIAL_PLAN.md,True,C127,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/README.md,True,C127,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/README.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m0_deposit_reality_check/m0_run_record.json,True,C117,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m0_deposit_reality_check/m0_summary.md,True,C117,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1_closed_or_merely_silenced/m1_run_record.json,True,C123,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1_closed_or_merely_silenced/m1_summary.md,True,C123,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1b_corrected_pass/m1b_run_record.json,True,C124,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1b_corrected_pass/m1b_summary.md,True,C124,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1c_label_at_the_depth_available/m1c_run_record.json,True,C119;C153,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1c_label_at_the_depth_available/m1c_summary.md,True,C119;C153,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1d_mature_wells_only/m1d_run_record.json,True,C125,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1d_mature_wells_only/m1d_summary.md,True,C125,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1e_per_well_budget/m1e_run_record.json,True,C120;C128,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m1e_per_well_budget/m1e_summary.md,True,C120;C128,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m2_robustness_of_the_m1e_reading/m2_run_record.json,True,C118;C121;C122;C126,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m2_robustness_of_the_m1e_reading/m2_summary.md,True,C118;C121;C122;C126,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m3_one_instrument_and_the_right_null/m3_run_record.json,True,C129;C130;C131;C132;C133,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m3_one_instrument_and_the_right_null/m3_summary.md,True,C129;C130;C131;C132;C133,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m4_the_corroboration_the_register_claimed/m4_run_record.json,True,C116;C151;C152,,Existing rows
+Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m4_the_corroboration_the_register_claimed/m4_summary.md,True,C116;C151;C152,,Existing rows
+Research Article/gate1_02_choi_2020/trials/README.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate1_02_choi_2020/trials/d0_data_reality_check/d0_run_record.json,True,C58;C59;C60;C61;C62;C63;C64,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d0_data_reality_check/d0_summary.md,True,C58;C59;C60;C61;C62;C63;C64,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc/d1_run_record.json,True,C85,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc/d1_summary.md,True,C85,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d2_state_recovery/d2_run_record.json,True,C86,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d2_state_recovery/d2_summary.md,True,C86,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation/d2b_run_record.json,True,C87;C88;C89;C90,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation/d2b_summary.md,True,C87;C88;C89;C90,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d3_ordering/d3_run_record.json,True,C91,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d3_ordering/d3_summary.md,True,C91,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d4_composition_and_controls/d4_run_record.json,True,C92;C93;C94,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d4_composition_and_controls/d4_summary.md,True,C92;C93;C94,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d5_organoids/d5_run_record.json,True,C95,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d5_organoids/d5_summary.md,True,C95,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d5b_corrected_annotation/d5b_run_record.json,True,C96;C97,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d5b_corrected_annotation/d5b_summary.md,True,C96;C97,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d6_programmes/d6_run_record.json,True,C98;C99;C100;C101,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d6_programmes/d6_summary.md,True,C98;C99;C100;C101,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d6_programmes/revision_20260929/README.md,True,,Presentation-only revision of the D6 heatmap; C98-C101 unaffected.,Existing rows
+Research Article/gate1_02_choi_2020/trials/d6_programmes/revision_20260929/figure_run.json,True,,"Presentation-only revision of the D6 heatmap (column scaling, cell counts); no row states row scaling, so C98-C101 need no relabel.",Existing rows
+Research Article/gate1_02_choi_2020/trials/d7_attack_claims/d7_run_record.json,True,C102;C103;C104,,Existing rows
+Research Article/gate1_02_choi_2020/trials/d7_attack_claims/d7_summary.md,True,C102;C103;C104,,Existing rows
+Research Article/gate1_03_nabhan_2018/README.md,True,C169;C171;C173;C174;C176,,Existing rows
+Research Article/gate1_03_nabhan_2018/external_feasibility/GSE129605_acquisition_audit.json,True,C176,,Existing rows
+Research Article/gate1_03_nabhan_2018/external_feasibility/GSE129605_download_receipt.json,True,,"Download receipt (byte sizes, hashes); provenance for NB-external-cohort-hold, no claim.",Existing rows
+Research Article/gate1_03_nabhan_2018/external_feasibility/GSE129605_filelist.txt,True,,GEO file list; provenance only.,Existing rows
+Research Article/gate1_03_nabhan_2018/external_feasibility/Peyser2019_bibliography.json,True,,Bibliographic record for the candidate cohort; no claim.,Existing rows
+Research Article/gate1_03_nabhan_2018/external_feasibility/README.md,True,C176,,Existing rows
+Research Article/gate1_03_nabhan_2018/external_feasibility/feasibility.json,True,C176,,Existing rows
+Research Article/gate1_03_nabhan_2018/nb1/PROTOCOL.md,True,C171;C175,,Existing rows
+Research Article/gate1_03_nabhan_2018/nb1/README.md,True,C171;C172;C173;C174;C175,,Existing rows
+Research Article/gate1_03_nabhan_2018/nb1/run_record.json,True,C171;C172;C173;C174;C175,,Existing rows
+Research Article/gate1_03_nabhan_2018/source_reproduction/README.md,True,C169;C170,,Existing rows
+Research Article/gate1_03_nabhan_2018/source_reproduction/provenance.json,True,,"Input URLs, hashes and versions for the source reproduction; no claim.",Existing rows
+Research Article/gate1_03_nabhan_2018/source_reproduction/specification.json,True,C169,,Existing rows
+Research Article/gate1_03_nabhan_2018/source_reproduction/summary.json,True,C169;C170,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/ANALYSIS_TRIAL_PLAN.md,True,C6;C177;C178;C179;C180;C181;C182;C183;C184;C185;C186;C187;C188;C189;C190,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/PIPELINE_FRAMING.md,True,,"Pipeline framing and proposed gates (G3) pending owner decision; design, no result.",Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/README.md,True,C6;C182;C186;C187,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/SUPPLEMENTARY_INVENTORY.md,True,,Inventory of supplementary files; no claim.,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/integration_benchmark.json,True,,"Numbers transcribed from the HLCA paper (benchmark design and scores); a source summary, not a repository result.",Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s1_entropy_criteria.json,True,C177;C178;C185,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s1_entropy_criteria.md,True,C177;C178;C185,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/requirements_s2_env.txt,True,,Environment specification; no claim.,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/s2_run_record_surgery.json,True,C180,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/s2_run_record_surgery_timingtest.json,True,,Timing test of the surgery environment; no scientific result.,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/s2_run_record_transfer.json,True,C6;C179;C180;C181;C182;C183;C185;C194,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/s2_summary.md,True,C6;C179;C180;C181;C182;C183,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s2_reference_mapping/s2_training_history.json,True,,Model training loss history; diagnostic only.,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s3_hlca_marker_annotation/s3_run_record.json,True,C6;C179;C184,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s3_hlca_marker_annotation/s3_summary.md,True,C6;C179;C182;C184,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s4_cluster23_qc/s4_run_record.json,True,C186,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s4_cluster23_qc/s4_summary.md,True,C186,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s5_cluster5_subclusters/s5_run_record.json,True,C187;C188;C189;C190,,Existing rows
+Research Article/gate1_04_sikkema_2023_hlca/trials/s5_cluster5_subclusters/s5_summary.md,True,C187;C188;C189;C190,,Existing rows
+Research Article/gate2_05_cardoso_2026/ANALYSIS_TRIAL_PLAN.md,True,C1,,Existing rows
+Research Article/gate2_05_cardoso_2026/DIVERGENCES_AND_NEXT.md,True,C1,,Existing rows
+Research Article/gate2_05_cardoso_2026/README.md,True,C1,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/README.md,True,,Package or folder index/plan; results are registered in the trial-level rows it links.,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c0_data_reality_check/c0_run_record.json,True,C19;C20,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c0_data_reality_check/c0_summary.md,True,C19;C20,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c10_published_state_or_not/c10_run_record.json,True,C73;C74;C75;C76;C77;C78;C79,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c10_published_state_or_not/c10_summary.md,True,C73;C74;C75;C76;C77;C78;C79,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c11_figures_for_the_contradictions/c11_run_record.json,True,,"Figure-only trial re-reading tracked tables of E6, C7, C8, C6/E2, C9 and C10; its propositions are the rows it depicts (C49-C51, C52-C54, C55-C57, C38/C47/C83, C65-C69, C73-C79).",Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c11_figures_for_the_contradictions/c11_summary.md,True,,Figure index for trial C11; no independent claim.,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c12_cellchatdb_full_resource_scan/c12_run_record.json,True,C83,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c12_cellchatdb_full_resource_scan/c12_summary.md,True,C83,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c13_epcam_transcript_in_the_transitional_state/c13_run_record.json,True,C105;C106;C107;C108;C109;C110,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c13_epcam_transcript_in_the_transitional_state/c13_summary.md,True,C105;C106;C107;C108;C109;C110,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c14_does_the_ranking_depend_on_the_database/c14_run_record.json,True,C115,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c14_does_the_ranking_depend_on_the_database/c14_summary.md,True,C115,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c1_fibroblast_compartment/c1_run_record.json,True,C22,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c1_fibroblast_compartment/c1_summary.md,True,C22,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c1b_characterise_red2kras_private/c1b_run_record.json,True,C22;C23;C24,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c1b_characterise_red2kras_private/c1b_summary.md,True,C22;C23;C24,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c1c_fibrotic_inflammatory_overlap/c1c_run_record.json,True,C25,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c1c_fibrotic_inflammatory_overlap/c1c_summary.md,True,C25,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c1d_sort_purity/c1d_run_record.json,True,C26,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c1d_sort_purity/c1d_summary.md,True,C26,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c2_areg_deletion_arm/c2_run_record.json,True,C27;C29,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c2_areg_deletion_arm/c2_summary.md,True,C27;C29,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c2b_composition_without_the_confidence_floor/c2b_run_record.json,True,C28;C30,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c2b_composition_without_the_confidence_floor/c2b_summary.md,True,C28;C30,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c3_areg_state_specificity/c3_run_record.json,True,C31;C32;C34;C35,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c3_areg_state_specificity/c3_summary.md,True,C31;C32;C34;C35,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c5_figures_for_the_three_findings/c5_run_record.json,True,C33,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c5_figures_for_the_three_findings/c5_summary.md,True,C33,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c6_who_makes_egfr_ligands/c6_run_record.json,True,C195,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c6_who_makes_egfr_ligands/c6_summary.md,True,C195,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c7_what_the_sort_contaminant_is/c7_run_record.json,True,C52;C53;C54,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c7_what_the_sort_contaminant_is/c7_summary.md,True,C52;C53;C54,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c8_subpopulation_or_gradient/c8_run_record.json,True,C55;C56;C57,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c8_subpopulation_or_gradient/c8_summary.md,True,C55;C56;C57,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c9_the_fst_runx2_population/c9_run_record.json,True,C65;C66;C67;C68;C69;C70;C72,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/c9_the_fst_runx2_population/c9_summary.md,True,C65;C66;C67;C68;C69;C70;C72,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e1_human_luad_ligand_sources/e1_run_record.json,True,C40,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e1_human_luad_ligand_sources/e1_summary.md,True,C40,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e1b_human_luad_by_subtype/e1b_run_record.json,True,C38;C39;C41,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e1b_human_luad_by_subtype/e1b_summary.md,True,C38;C39;C41,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e2_human_fibrosis_ligand_sources/e2_run_record.json,True,C44;C45;C46;C47,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e2_human_fibrosis_ligand_sources/e2_summary.md,True,C44;C45;C46;C47,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e2b_t4_disease_against_control/e2b_run_record.json,True,C48,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e2b_t4_disease_against_control/e2b_summary.md,True,C48,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e4_bleomycin_fibrotic_genes/e4_run_record.json,True,C42;C43,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e4_bleomycin_fibrotic_genes/e4_summary.md,True,C42;C43,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e5_figure_for_the_refutation/e5_run_record.json,True,,Figure-only trial combining C5 and E4 tables; proposition registered as C29 and C42 (relabelled 2026-09-29).,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e5_figure_for_the_refutation/e5_summary.md,True,,Figure summary for the C29/C42 reading; no independent claim.,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e6_donor_level_axis_coupling/e6_run_record.json,True,C49;C50;C51,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/e6_donor_level_axis_coupling/e6_summary.md,True,C49;C50;C51,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/plot_claim_review_20260929.py,True,C29;C38;C42;C47;C51;C54;C69;C73;C74;C76;C83,,Existing rows
+Research Article/gate2_05_cardoso_2026/trials/revision_20260929/README.md,True,,"Deciding artefact for the 2026-09-29 Cardoso relabels (C29, C38, C42, C47, C51, C54, C69, C73, C74, C76, C83); no new result.",Existing rows
+Research Article/gate2_05_cardoso_2026/trials/revision_20260929/figure_run.json,True,,"Presentation-only revision hash manifest; its corrections are proposed as relabels to C29, C38, C42, C47, C51, C54, C69, C73, C74, C76, C83.",Existing rows
+Research Article/ungated_murthy_2022/GSE178360/README.md,True,C5;C191;C192;C193,,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/epithelial_subanalysis/figures/reference_aligned/reference_alignment_metadata.json,True,C194,,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/epithelial_subanalysis/tables/epithelial_absent_featureplot_genes.txt,True,,List of genes absent from the object; bookkeeping.,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/epithelial_subanalysis/tables/epithelial_absent_markers.txt,True,,List of absent markers; bookkeeping.,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/inventory/detected_format.json,True,,Raw-format detection; bookkeeping.,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/inventory/per_sample_results.json,True,,Per-sample load/QC bookkeeping; totals appear in MU-scrublet-ranking-cut.,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/logs/analysis_log.txt,True,,Execution log; no claim.,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/logs/decisions.json,True,C5;C191;C192;C193,,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/logs/final_summary.txt,True,C191;C192;C193,,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/qc/batch_assessment.json,True,C5,,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/qc/donor_driven_clustering_check.json,True,C192,,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/qc/qc_review_warnings.txt,True,C192;C193,,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/tables/absent_featureplot_genes.txt,True,,Bookkeeping list.,Existing rows
+Research Article/ungated_murthy_2022/GSE178360/tables/absent_markers.txt,True,,Bookkeeping list.,Existing rows
+Research Article/ungated_murthy_2022/README.md,True,,Folder index for the GSE178360 series; points to the generated report and HLCA mapping.,Existing rows
+analysis/claims/manifest.json,True,C1;C19;C20;C22;C23;C24;C25;C26;C27;C28;C29;C30;C31;C32;C34;C35,,Existing rows
+analysis/figures/rq/README.md,True,C119;C211,,Programmes
+analysis/figures/rq/README.md#a11,True,,"A11 decision text (shared score up in LUAD 19/23, AIS 9/12, MIA 3/4, not AAH median -0.08, 3/8) verified against analysis/figures/rq/il1b_context/D1_HPCS_all_contrasts.csv (AAH median -0.0781); belongs to A11 / Yu-Lee-Choi-Min u6 specificity, outside the recipient-competence family; left for that track to register (see notes).",Recipient
+analysis/figures/rq/README.md#a12,True,C226;C227,,Recipient
+analysis/figures/rq/README.md#a12-s1,True,C225,,Recipient
+analysis/figures/rq/README.md#a13,True,C228;C229,,Recipient
+analysis/figures/rq/README.md#a3,True,C3,,Recipient
+analysis/figures/rq/README.md#a6,True,C232,,Recipient
+analysis/figures/rq/README.md#a9,True,C233,,Recipient
+analysis/figures/rq/il1b_context/REPORT.md,True,C211;C225;C226;C227,,Programmes;Recipient
+analysis/figures/rq/il1b_context/preparation_run_record.json,True,,Preparation provenance (UMAP/PCA display); no proposition.,Recipient
+analysis/figures/rq/il1b_context/render_run_record.json,True,,Render provenance; no proposition.,Recipient
+analysis/figures/rq/il1b_context/render_validation.json,True,,Render checks; provenance only.,Recipient
+analysis/figures/rq/il1b_context/validation.json,True,C226;C227,,Recipient
+analysis/figures/rq/il1b_context/visual_review.json,True,,Visual review log; provenance only.,Recipient
+analysis/figures/rq/rq_evidence_figures.json,True,C232;C233,,Programmes;Recipient
+analysis/figures/rq/run_record.json,True,,Script 16 run record for A1/A3/A4/A5 panels; outside assigned scope.,Recipient
+docs/FIGURE_AUDIT_CONSOLIDATED.csv,True,C2;C4,,Existing rows
+docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md,True,C2;C4;C29;C38;C42;C47;C51;C54;C69;C73;C74;C76;C83,,Existing rows
+docs/figure_audit_2026-09-29/deciding_checks.json,True,C4,,Existing rows
+docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md,True,C221;C223,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A12_heldout_predictions.csv,True,C221;C222;C223,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A12_model_inputs.csv,True,C222,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A12_model_metrics.csv,True,C221;C223,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_results.json,True,C221;C223,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json,True,,Pre-fit specification (design only); cited as artefact.,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md,True,C230;C231,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_external_coverage_results.json,True,C231,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_external_coverage_specification.json,True,,Pre-count specification (design only).,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_external_subject_coverage.csv,True,C231,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_heldout_predictions.csv,True,C230,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_model_inputs.csv,True,C230,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_model_metrics.csv,True,C230,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_pilot_results.json,True,C230,,Recipient
+docs/roadmap_runs/2026-09-27-followthrough/A13_pilot_specification.json,True,,Pre-fit specification (design only).,Recipient
+Research Article/gate2_C2_england_2025/,True,C234-C269 (see second-pass ledger),Inventoried on the second pass 2026-09-29; see analysis/claims/coverage_2026-09-29_second_pass.csv,none
+RQ_Specified/A16_cd177_state_attribution/,True,C234-C269 (see second-pass ledger),Inventoried on the second pass 2026-09-29; see analysis/claims/coverage_2026-09-29_second_pass.csv,none
+Research Article/gate2_C3_yu_lee_choi_min_2026/,True,C225;C226;C270-C295 (see second-pass ledger),Inventoried on the second pass 2026-09-29; see analysis/claims/coverage_2026-09-29_second_pass.csv,none
+RQ_Specified/A1_transitional_epithelial_state_distinction/,True,C296-C342 (see second-pass ledger),Inventoried on the second pass 2026-09-29; see analysis/claims/coverage_2026-09-29_second_pass.csv,none
+RQ_Specified/A2_areg_source_delivery/,True,C296-C342 (see second-pass ledger),Inventoried on the second pass 2026-09-29; see analysis/claims/coverage_2026-09-29_second_pass.csv,none
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/,True,C296-C342 (see second-pass ledger),Inventoried on the second pass 2026-09-29; see analysis/claims/coverage_2026-09-29_second_pass.csv,none
+RQ_Specified/A8_maturation_component_at1_contribution/,True,C337,Inventoried on the second pass 2026-09-29; see analysis/claims/coverage_2026-09-29_second_pass.csv,none
+RQ_Specified/A14_withdrawal_recovery_and_reception/,True,C338,Inventoried on the second pass 2026-09-29; see analysis/claims/coverage_2026-09-29_second_pass.csv,none

@@ -17,10 +17,10 @@ the claim's potential.
 | Bucket | Rows |
 |---|--:|
 | Retracted or superseded, kept on display | 3 |
-| Refuted | 38 |
-| Not establishable with the data that exists | 6 |
-| Not established | 39 |
-| **Total** | **86** |
+| Refuted | 49 |
+| Not establishable with the data that exists | 32 |
+| Not established | 78 |
+| **Total** | **162** |
 
 Some of these rows refute a claim this repository itself had made, and some
 refute a method it had used. No count is given here, because deciding which is
@@ -66,7 +66,7 @@ what was refuted and what settled it.
 
 ### C42. Runx1 and Pdgfrb persistence after Areg deletion reflects a second, tumour-specific signal
 
-- **Status in the register:** Refuted by a rule frozen before the data were read
+- **Status in the register:** Refuted by a rule frozen before the data were read (qualifier 2026-09-29: the rule removes Runx1 and Pdgfrb retention as evidence for a tumour-specific signal; it does not show that tumour-specific input is absent, so the second-signal hypothesis is unsupported rather than disproven)
 - **What settled it:** trial E4 on GSE132771 (Tsukui et al. 2020): both genes rise with bleomycin alone in both replicates, Runx1 0.225 and 0.237 against 0.078 and 0.088
 - **Artefact:** `Research Article/gate2_05_cardoso_2026/trials/e4_bleomycin_fibrotic_genes/e4_injury_generic_verdicts.csv`
 - **Where it came from:** Stage 3. Cardoso 2026, the Gate 2 paper (2026-09-12)
@@ -87,7 +87,7 @@ what was refuted and what settled it.
 
 ### C54. Rank correlation of whole mean profiles can name an epithelial state
 
-- **Status in the register:** Refuted, and the rule that allowed it is disclosed
+- **Status in the register:** Refuted, and the rule that allowed it is disclosed (qualifier 2026-09-29: refuted for this panel, where the between-state margin was 0.0056 of rho; it does not show that whole-profile correlation can never distinguish epithelial states)
 - **What settled it:** trial C7: the measure separates the epithelial query from a fibroblast control by 0.415 of rho and separates epithelial states from each other by 0.0056, with the top four matches spanning three different calls inside 0.015
 - **Artefact:** `Research Article/gate2_05_cardoso_2026/trials/c7_what_the_sort_contaminant_is/c7_profile_correlations.csv`
 - **Where it came from:** Stage 3. Cardoso 2026, the Gate 2 paper (2026-09-12)
@@ -115,7 +115,7 @@ what was refuted and what settled it.
 
 ### C76. Trial C9's marker signature is a new fibroblast programme
 
-- **Status in the register:** Refuted; supersedes the reading of C70
+- **Status in the register:** Refuted; supersedes the reading of C70 (qualifier 2026-09-29: the refutation rests on resemblance, the highest score of four published sets, which supports an annotation rather than proving the signature holds no new component)
 - **What settled it:** trial C10: the same cells score highest on the published pathological set of the four tested
 - **Artefact:** `Research Article/gate2_05_cardoso_2026/trials/c10_published_state_or_not/c10_summary.md`
 - **Where it came from:** Stage 4. Choi 2020, roadmap paper 2, re-entered at the owner's direction (2026-09-15)
@@ -323,6 +323,83 @@ what was refuted and what settled it.
 - **Artefact:** `Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m4_the_corroboration_the_register_claimed/m4_summary.md`
 - **Where it came from:** Stage 6. The Axin2 and Il1r1 assessment, a branch of roadmap paper 2 (2026-09-20)
 
+### C213. Fibroblast programme scores add information about organoid growth beyond the epithelial block (the first-specification fibroblast increment of 0.0230)
+
+- **Status in the register:** Refuted as written (specification-dependent; absence of a fibroblast contribution not established; delegated reassessment 2026-09-29)
+- **What settled it:** Stage 3: fibroblast increment 0.0230 clears 0.02 in the primary but falls to 0.0179 without the 87-library TIGIT target and 0.0159 with TIGIT and TDTOMATO removed; positive in 10/15 groups (-0.31 to +0.51); every fibroblast feature alone is negative in the single-feature scan. Stage 4 grid: 0.0161 (old modules, within-unit), -0.0017 (growth Hallmark, pooled), -0.0154 (growth Hallmark, within-unit) Run record: RQ_Specified/A10_organoid_growth_outcome/reports/STAGE4_REVISED_REPORT.md.
+- **Artefact:** `RQ_Specified/A10_organoid_growth_outcome/tables/sensitivity.tsv; RQ_Specified/A10_organoid_growth_outcome/tables/revised_grid.tsv; RQ_Specified/A10_organoid_growth_outcome/tables/robustness_run.json`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C256. A two-component mixture is not uniquely favoured by late mutant clone-size distributions: a shifted negative binomial predicts held-out mice as well or better
+
+- **Status in the register:** Refuted as a claim of unique support for two founder classes (held-out comparison across mice; the biological hypothesis itself is not refuted; delegated reassessment 2026-09-29)
+- **What settled it:** Batch1 fitted three distributions on the same support (n>=2, x=n-2) with equal weight per training mouse and scored average negative log likelihood in each held-out mouse, 246 held-out predictions in total, all recorded fits converged. Mutant RFP full support: 1 week single geometric 2.8231, mixture 2.4806, negative binomial 2.5170 (4 mice); 2 weeks 5.4142, 4.0425, 4.0015 (4 mice, negative binomial better in 3 of 4 held-out mice); 4 weeks 6.4348, 4.1260, 4.0361 (3 mice, better in 3 of 3). After within-mouse upper-1% trimming the late ranking holds (2 weeks 5.0941 / 3.9038 / 3.8863; 4 weeks 5.7059 / 3.9034 / 3.8640). The verification independently recomputed all 246 held-out likelihoods with scipy.stats Run record: Research Article/gate2_C2_england_2025/trials/batch1/clones/run_record.json.
+- **Artefact:** `Research Article/gate2_C2_england_2025/trials/batch1/clones/model_LOMO_summary.csv; Research Article/gate2_C2_england_2025/trials/batch1/clones/model_LOMO_by_mouse.csv; Research Article/gate2_C2_england_2025/trials/batch1/verification.json`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C306. Peak-count or overlap contrasts between the deposited PATS H3K4me3 calls measure biology
+
+- **Status in the register:** Refuted (the interval geometry is set by the caller parameters, so any count or overlap contrast is a technical diagnostic; delegated reassessment 2026-09-29)
+- **What settled it:** Header audit of the deposited called-interval files: homeostatic AT2 was called with getDifferentialPeaksReplicates.pl -size 1000 -minDist 2000 -C 0 -L 50 and CTGF-positive bleomycin with -size 4000 -minDist 4000 -C 0 -L 0, with further parameter differences. The consequence is visible in the geometry: 27,564 called intervals at median width 1,766 bp (homeostasis) versus 21,379 at median width 6,142 bp (CTGF-positive injury) Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/FIRST_BATCH_REPORT.md.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/descriptive/H3K4me3_technical_geometry.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C311. The deposit's stringent cluster column is an independent classifier that validates the HPCS state labels
+
+- **Status in the register:** Refuted (the stringent column is confidence filtering of the same prediction, not independent support; delegated reassessment 2026-09-29)
+- **What settled it:** Author notebooks retrieved at 69,091,594 and 49,691,834 bytes from pinned commit b52d53c984e21d3bb3a163041fdb3f56b54c19c0, cell source text only. Notebook 01 cell 142 maps newleiden to the eight biological labels and reproduces all 28,402 deposited labels including all 5,333 traced cells (0 unmapped, 0 mismatches). Cell 116 sets clusterK12_stringent to other below a 0.8 classifier-confidence threshold: all 1,282 traced-cell changes (24.04%) and all 11,133 object-wide changes are abstentions, with zero switches between retained K12 codes. Abstention is uneven by state: 146/1,717 HPCS (8.50%), 538/1,277 AT2-like (42.13%), 331/531 lung-endoderm-like (62.34%). Label-invariant agreement over all 5,333 cells: ARI 0.633117 (cell type vs clusterK12), 0.572276 (vs clusterK12_stringent), 0.714829 (between the two cluster fields), across 87 partition comparisons Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/closure_identity_run.json.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/evidence_closure/hpcs_annotation_audit.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/evidence_closure/hpcs_abstention_summary.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/robustness_2026-09-25/hpcs/partition_agreement.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C319. The supplied AT1- and AT2-origin Mdm2-perturbation gene lists are upregulated sets, so shared significance means shared activation
+
+- **Status in the register:** Refuted (the supplied lists contain decreases, and 109 of 868 shared genes change in opposite directions; delegated reassessment 2026-09-29)
+- **What settled it:** Sign audit of the supplied selected differential-expression lists. The source description calls 3,984, 686 and 868 genes upregulated; the signed values give 2,049 increased and 1,935 decreased in the AT2-origin-only set, 245 increased and 441 decreased in the AT1-origin-only set, and in the 868-gene shared set 493 increased in both, 266 decreased in both and 109 changing in opposite directions between origins. Cldn4 and Cdkn1a increase in both supplied contrasts. GSE335749 and GSE335750 were observed private with a displayed scheduled release of Jun 01, 2027 against a manuscript claim of publicly available, checked 2026-09-25T10:38:03Z Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/regulatory_fate_input_audit.json.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/regulatory_fate/tp53_signed_set_summary.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/regulatory_fate/tp53_accessibility.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C327. The Areg well's rank among its plate-mates supports an exact p-value against a uniform-rank null
+
+- **Status in the register:** Refuted (the exact p-value, the critical rank sum of 64 and the alpha are withdrawn; the first freeze is preserved and superseded; delegated reassessment 2026-09-29)
+- **What settled it:** First freeze declared a rank space of 12,960,000 over four units of 60 wells, a smallest attainable one-sided p of 7.72e-08, a critical rank sum of 64 at alpha 0.05 and a joint-rule exact size of 0.04903. Adversarial review then established that 50 of the 53 plate-3 targets occupy one fixed well position in all four units, with Areg always at F07, so target is confounded with plate position and guide pool and the four units are four copies of one layout; the consistency requirement's exact size equalled the rank-sum size, adding no stringency; and the primary rank denominator contained wells whose scores are deterministic, with plate-3 fibroblast totals starting at 1 count (72 of 240 wells below the 100,000-count floor, maximum 4,409,390). The recovered supplementary methods further show the four repeat wells are aliquots of a common cell-Matrigel mixture Run record: RQ_Specified/A2_areg_source_delivery/reports/STAGE2_WITHDRAWN.md.
+- **Artefact:** `RQ_Specified/A2_areg_source_delivery/tables/stage1_power.json; RQ_Specified/A2_areg_source_delivery/tables/stage1_covariates.tsv; RQ_Specified/A2_areg_source_delivery/tables/stage3_well_scores.tsv; docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C332. Within eligible wells the leg-1 endpoints are uncorrelated with fibroblast sequencing depth
+
+- **Status in the register:** Refuted as stated for the secondary endpoint (the primary activation score is uncorrelated; the Hallmark secondary reaches +0.7023 within a unit; delegated reassessment 2026-09-29)
+- **What settled it:** Declared depth diagnostic, Spearman within each unit. The primary five-gene activation score is essentially uncorrelated with log depth: -0.0488 (3-1, 32 eligible wells), +0.0426 (3-2, 48), -0.0294 (3-3, 31), -0.1089 (3-4, 57). The secondary Hallmark TGF-beta score is not: +0.7023, +0.2118, +0.5363 and +0.3321 in the same units. The leg-1 results report tabulates only the activation-score column and does not display the secondary's depth correlations Run record: RQ_Specified/A2_areg_source_delivery/tables/stage3_run.json.
+- **Artefact:** `RQ_Specified/A2_areg_source_delivery/tables/stage3_diagnostics.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C335. Epithelial immunoprecipitation purity in this deposit is unverifiable, so compartment composition is an unresolvable caveat
+
+- **Status in the register:** Refuted (purity is computable from the paired input, and the arm difference is small; the withdrawn freeze's unverifiability statement is wrong about this deposit; delegated reassessment 2026-09-29)
+- **What settled it:** Erratum to the committed stage-1 material. The series summary states that an aliquot of each mouse's homogenate was removed as the input and the remainder anti-HA immunoprecipitated, so every mouse has a paired input and per-mouse enrichment is computable. Measured immunoprecipitation-minus-input log2 CPM, 3G9 against Axum8 arm means: Epcam +1.173/+1.073, Cdh1 +1.084/+0.887, Nkx2-1 +0.779/+0.693, Ptprc -4.831/-4.792, Pecam1 -3.812/-3.892, Col3a1 -4.146/-4.093, Lyz2 +0.322/+0.102, Cd68 -3.692/-3.398, Itgax -4.401/-4.224, Mrc1 -3.906/-4.010. No arm difference exceeds 0.294 log2 units against a declared downgrade threshold of 1.0, and none was left uncomputed. The same erratum corrects a second stage-1 statement: the deposit does state bleomycin dose and route (intranasal 3 U/kg, day 1) and the 3G9 schedule (10 mg/kg on days 1 and 4); only measured target engagement is genuinely absent Run record: RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_STAGE1_ERRATUM.md.
+- **Artefact:** `RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage3_execute_run.json; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage1b_addendum_run.json; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage1_libraries.tsv; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage1_join.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C336. Both declared alternative-normalisation sensitivities agreed with the standardised CPM primary in the rival-2 side branch
+
+- **Status in the register:** Refuted (the original median-of-ratios sensitivity is invalid and withdrawn; the corrected replacement leaves the decision unchanged; delegated reassessment 2026-09-29)
+- **What settled it:** The original median-of-ratios sensitivity divided each count by both its size factor and its library total, double-removing depth; a regression test demonstrates the failure of that denominator on identical compositions where library B is exactly twice A. Its reported values (-0.1491 transitional, -0.0425 identity) are withdrawn as evidence. The replacement, specified and committed at f3950253ae229f062dbae94551b04a908a8e5ade before corrected outcomes were computed, estimates size factors from 15,174 reference genes positive in all eight epithelial libraries out of 42,548 matrix rows, excluding the seven scored panel genes and Itgb6, with no treatment-label or effect-based selection; factors range 0.7488 to 1.3262 and are centred to geometric mean 1. Corrected panels: transitional -0.085856 (p 0.685714, shift -0.048786 [-0.523072, +0.456674]) and identity +0.021399 (p 0.885714, shift +0.102947 [-1.005967, +0.683664]), both non-separating, so no sensitivity downgrade applies. Seven regression tests pass and an independent NumPy/SciPy verifier passes 62 of 62 checks Run record: RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/NORMALIZATION_ERRATUM_2026-09-28.md.
+- **Artefact:** `RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2_normalization_correction_v1/correction_run.json; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2_normalization_correction_v1/independent_verification.json; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2_normalization_correction_v1/size_factors.tsv; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2_normalization_correction_v1/reference_genes.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C338. The A5/A11 injury residual module corroborates the epithelial null as a second, larger endpoint
+
+- **Status in the register:** Refuted as corroboration (two overlapping sets from one source study scored on the same eight mice are nearly the same instrument; delegated reassessment 2026-09-29)
+- **What settled it:** Declared secondary on the same eight mice: 373 of 386 symbols measurable, mean difference -0.1412 at exact two-sided p 0.685714, non-separating. The Pearson correlation between its per-mouse score vector and that of the demoted A0 handling covariate is 0.8112, above the 0.7 at which the freeze required corroboration language to be dropped. Two sets containing the perturbed gene were barred from primary use: the A5/A11 shared remodelling module (11 of 12 members, contains Itgb6) was excluded outright and A1's eight-marker panel retained for per-gene reporting only Run record: RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage3_execute_run.json.
+- **Artefact:** `RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage3_execute_run.json; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage1_endpoint_coverage.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C342. A between-arm-minus-within-arm mean distance statistic can be read as a change in the epithelium's overall profile
+
+- **Status in the register:** Refuted (the statistic rejects on dispersion alone, so it is not a location test; delegated reassessment 2026-09-29)
+- **What settled it:** Simulation run in this repository before accepting a reviewer's claim, over 200 draws with eight mice and 200 genes. Under a pure between-mouse dispersion difference with no gene's mean moving, the between-minus-within statistic rejects in 1.000 of draws while the centroid-distance statistic rejects in 0.635, with a median within-arm distance ratio of 2.77; under the true null with equal dispersion both reject in 0.035; under a true location shift both reject in 1.000. Freeze v3 therefore makes the centroid distance primary and gates it on a within-arm distance ratio, which in the executed analysis is 1.0661 against the declared 1.5 threshold; the demoted statistic is reported as -0.038365 at p 0.6286 and carries no decision Run record: RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_FREEZE_V2_WITHDRAWN.md.
+- **Artefact:** `RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_FREEZE_V2_WITHDRAWN.md; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage3_execute_run.json; RQ_Specified/A15_epithelial_integrin_tgfb_activation/config/a15_rival2_freeze_v3.json`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
 ---
 
 ## Not establishable with the data that exists
@@ -369,13 +446,195 @@ what was refuted and what settled it.
 - **Artefact:** `Research Article/gate1_02_choi_2020/datp_epigenetics/trials/m0_deposit_reality_check/m0_replication.csv`
 - **Where it came from:** Stage 5. The DATP epigenetics branch of roadmap paper 2 (2026-09-20)
 
+### C175. An animal-level baseline against day-11 comparison of AT2 Wnt source or response can be made in GSE262927
+
+- **Status in the register:** Not establishable with the data that exists (delegated reassessment 2026-09-29)
+- **What settled it:** Nb1 coverage: AT2 units with >=50 cells number 1 at day 0 and 1 at day 11 (the two day-11 units hold 40 and 149 cells); lowering the floor to 20 gives 2 animals per early arm; no time-course or injury-versus-baseline test was reported Run record: Research Article/gate1_03_nabhan_2018/nb1/run_record.json.
+- **Artefact:** `Research Article/gate1_03_nabhan_2018/nb1/tables/eligibility_sensitivity.csv; Research Article/gate1_03_nabhan_2018/nb1/tables/animal_compartment_coverage.csv`
+- **Where it came from:** Reference atlases: Nabhan, Sikkema and Murthy packages, registered 2026-09-29
+
+### C176. An independent injury cohort meeting three animals per arm with >=50 AT2 and >=50 fibroblasts each is available for testing Wnt expression generalization
+
+- **Status in the register:** Not establishable (HOLD pending animal provenance and annotation; delegated reassessment 2026-09-29)
+- **What settled it:** Frozen screen 2026-09-22: GSE129605 day-11 bleomycin against saline, 4 plus 4 samples acquired (24 files, 13,673 deposited cells, integrity checks passed) but no per-cell annotation and animal identity beyond sample indices unverified, AT2 and fibroblast counts UNESTABLISHED; GSE141259 day-3 bleomycin samples have 4, 16 and 3 fibroblasts including myofibroblasts and all seven PBS samples fewer than 50; GSE202325, GSE292515 and GSE184854 held for missing uninfected arm, control replication below three, or unverified demultiplexing Run record: Research Article/gate1_03_nabhan_2018/external_feasibility/README.md.
+- **Artefact:** `Research Article/gate1_03_nabhan_2018/external_feasibility/feasibility.json; Research Article/gate1_03_nabhan_2018/external_feasibility/GSE129605_acquisition_audit.csv; Research Article/gate1_03_nabhan_2018/external_feasibility/GSE141259_compartment_coverage.csv`
+- **Where it came from:** Reference atlases: Nabhan, Sikkema and Murthy packages, registered 2026-09-29
+
+### C201. The originally audited deposits support a replicated within-unit AT2/transitional/AT1 (and matched intestinal) triplet design for A0
+
+- **Status in the register:** Not establishable with the data audited on 25 September 2026 (historical; superseded by the recovered pilot_v1 cohorts; delegated reassessment 2026-09-29)
+- **What settled it:** P0 and extended feasibility audit, metadata and annotations only: GSE262927 influenza cohort 1 of 25 annotated animals has >= 30 AT2, Alveolar_transitional and AT1 cells; GSE141259 enriched epithelium 10 complete triplets across days (at most 2 per day; 9 in days 10-15); GSE141259 whole lung 38 AT1 cells in total, 0 triplets; Negretti atlas 1 of 14 barcode-suffix groups (P14:2); GSE92332 2 of 4 verified mice; skin GSE67602 no mouse-to-batch map Run record: RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_REPORT.md.
+- **Artefact:** `RQ_Specified/A0_conserved_epithelial_transition_program/tables/dataset_audit.csv; RQ_Specified/A0_conserved_epithelial_transition_program/tables/d1_sample_coverage.csv; RQ_Specified/A0_conserved_epithelial_transition_program/tables/d1_strunz_high_resolution_coverage.csv; RQ_Specified/A0_conserved_epithelial_transition_program/decisions.json`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C203. The A5 developmental-signature recruitment replicates in a second adult injury cohort
+
+- **Status in the register:** Not establishable with the data recovered so far (missing evidence, not an inconclusive or negative estimate; delegated reassessment 2026-09-29)
+- **What settled it:** Local data: shared-contract gate found 1 external injury animal and 0 independent neonatal animals (every neonatal multiome unit a pooled library). Bounded external audit of 12 further GEO cohorts found none ready for the unchanged test. 28 September recovery of GSE303646: 56 author/GEO library identifiers matched, author labels Krt8-ADI and AT2_activated named in code, 24 libraries in the fixed window; barcode-to-state map, mouse identity (paper reports 55 mice) and raw-UMI provenance unresolved; no matrix downloaded, no score produced. GSE202325 not assessed under the frozen scope; Hippo_LOX data are human PCLS Run record: RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/REPORT.md.
+- **Artefact:** `RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/candidate_verdicts.json; RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/GSE303646_library_crosswalk.tsv; RQ_Specified/A5_A11_shared_component_contract/tables/unit_floor.tsv; docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C220. A10 can test whether epithelial programmes predict a later growth outcome, with independent preparations as units
+
+- **Status in the register:** Not establishable with this deposit (prospective prediction and preparation-level replication; delegated reassessment 2026-09-29)
+- **What settled it:** Endpoint consolidation (documentation, nothing rescored): imaging at days 7 and 14, RNA libraries at day 14, joined to the same well, so predictor and endpoint are concurrent; day 7 is itself post-perturbation. Recovered methods: the four repeat wells are aliquots of one common cell-Matrigel mixture. 886 GEO records carry only a batch label, no isolation, animal, donor or fibroblast-lot identifier. Only 4 of 203 targets occur on more than one plate. No public cohort pairs well-level RNA with measured organoid growth under perturbation Run record: RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md.
+- **Artefact:** `RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md; RQ_Specified/A10_organoid_growth_outcome/tables/well_join.tsv; RQ_Specified/A10_organoid_growth_outcome/tables/preparation_units.tsv; RQ_Specified/A10_organoid_growth_outcome/tables/followup_v1/diagnostic_target_overlap.tsv; docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C224. An unchanged external epithelial validation of the A12 pilot can be run in one of the three audited public LUAD cohorts (Kim GSE131907, Laughney GSE123902, Wu GSE148071)
+
+- **Status in the register:** Not establishable (in the three audited cohorts; failures on units and states before any outcome was opened; delegated reassessment 2026-09-29)
+- **What settled it:** Prospective gate specification committed at f3950253 before any external scoring; metadata-only audit, no expression matrix opened, no score or fit (verification: 8 checks passed, external_scores 0, model_fits 0). Kim: 10 normal/tumour patient pairs, every tumour arm has 0 AT2-labelled cells (normal arms 72 to 369), so the complete intersection is 0. Laughney: 17 sample records, 3 title-token pairs, at most 4 pairs because only four normal samples exist. Wu: 42 primary-tumour biopsies, no separate normal arm, 0 paired units. Ten-pair floor is a computational guard; the 46-patient target (t(.975,45)/sqrt(46) = 0.296963 between-patient loss SD) is a planning calculation, not power Run record: RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md.
+- **Artefact:** `RQ_Specified/A12_recipient_context/external_validation_20260928/tables/candidate_gate_summary.tsv; RQ_Specified/A12_recipient_context/external_validation_20260928/tables/kim_patient_intersection.tsv; RQ_Specified/A12_recipient_context/external_validation_20260928/tables/laughney_title_pair_intersection.tsv; RQ_Specified/A12_recipient_context/external_validation_20260928/tables/wu_sample_manifest.tsv; RQ_Specified/A12_recipient_context/external_validation_20260928/tables/verification.json; RQ_Specified/A12_recipient_context/external_validation_20260928/config/prospective_gate_specification.json`
+- **Where it came from:** Question-level results: recipient competence (A6, A9, A12, A13), registered 2026-09-29
+
+### C228. The Kim LUAD deposit supports a joint macrophage-fibroblast-epithelial association test under the gate the IPF cohorts used (at least ten patients with complete paired triads)
+
+- **Status in the register:** Not establishable (in GSE131907 under the gate definition; zero is definitional, three under a wider non-comparable definition; delegated reassessment 2026-09-29)
+- **What settled it:** Counts only, frozen specification before any count. GSE131907: 22 lung samples (11 tumour, 11 normal), 10 patients with both. Complete paired triads at floors 30/50/100: 0/0/0 under the type 2 epithelial definition (single-label and pooled rules), because all 11 tumour samples carry 0 type-2-labelled cells; 4/3/1 when tumour epithelial states are admitted (patients 18, 30, 31 at floor 50). Per sample at floor 50: type 2 median 36 (11 of 22 at 50 or more), largest fibroblast label median 32.5 (10 of 22), largest macrophage label median 723 (22 of 22). Reference counts at floor 50: GSE136831 2 IPF + 4 control donors, GSE135893 2 IPF + 1 control Run record: RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md.
+- **Artefact:** `RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/tables/a13_triad_counts.tsv; RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/tables/a13_coverage_run.json; RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/config/a13_triad_coverage_spec.json`
+- **Where it came from:** Question-level results: recipient competence (A6, A9, A12, A13), registered 2026-09-29
+
+### C231. Either named external candidate (GSE233844, GSE122960) supplies at least ten subjects with a complete AT2, fibroblast and macrophage triad for the A13 comparison
+
+- **Status in the register:** Not establishable (in these two candidates; availability failure resolved on design before any expression download; delegated reassessment 2026-09-29)
+- **What settled it:** Pre-count specification before counting. GSE233844: primary design is PBMCs, cannot supply a lung triad; title-based candidacy withdrawn. GSE122960: author Figure 1 export, 76,070 cells, 16 subjects; exact author AT2 Cells/Fibroblasts/Macrophages labels; 3 of 16 subjects pass floor 50 (Donor 5, Donor 7, PM-ILD), 2 restricting to donor/IPF with no IPF subject passing; 9 at floor 30, 0 at floor 100; fibroblast counts per subject 11 to 95 Run record: docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md.
+- **Artefact:** `docs/roadmap_runs/2026-09-27-followthrough/A13_external_subject_coverage.csv; docs/roadmap_runs/2026-09-27-followthrough/A13_external_coverage_results.json; docs/roadmap_runs/2026-09-27-followthrough/A13_external_coverage_specification.json`
+- **Where it came from:** Question-level results: recipient competence (A6, A9, A12, A13), registered 2026-09-29
+
+### C252. Whether CD177 marks a cell-intrinsic priming programme or the transcriptional neighbourhood a cell occupies cannot be decided from these RNA matrices
+
+- **Status in the register:** Not establishable from these matrices (the decision recorded after Stage 1; the question stays open, not answered; delegated reassessment 2026-09-29)
+- **What settled it:** Five prespecified Stage-1 analyses plus the corrected C1 amendment, all on the two eligible libraries and their exposed derivatives: neighbourhood matching attenuates the priming difference to 0.409807 and 0.315110 while leaving maximum PC imbalance at 0.62495 and 0.52100; the matched-gene null is inconclusive with fewer than 40 controls in 7 of 9 entries; the neutrophil-panel control cannot estimate ambient RNA in filtered matrices; the threshold sensitivity is bounded to full-depth cutoffs; the resolution ladder changes eligibility as well as resolution. Of the seven rivals in the rationale, generic gradient behaviour and finer-scale composition remain open, ambient RNA and detection threshold are bounded rather than excluded, state-definition dependence was never varied, and the RNA/protein gap is untouched. The readiness state recorded across three evidence states is partly measured and inconclusive, with no claim grade requested Run record: RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md.
+- **Artefact:** `RQ_Specified/A16_cd177_state_attribution/RATIONALE.md; RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md; RQ_Specified/A16_cd177_state_attribution/reports/STAGE1_RESULTS.md; RQ_Specified/A16_cd177_state_attribution/config/a16_question_contract.json`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C261. The CD177 contrast cannot be tested in either repair dataset because Cd177-positive transitional cells are essentially absent there
+
+- **Status in the register:** Not establishable in these repair deposits (missing coverage, which is not biological absence; delegated reassessment 2026-09-29)
+- **What settled it:** EN7 with the same transition gate and 30-per-side floor: Choi day 14 has 117 transition-gated cells of 3,787 with 2 Cd177-detected, day 28 has 21 of 3,572 with 1, and PBS has none of 4,315; across the 25 Niethamer samples transition-gated counts run 0-50 with at most 1 Cd177-detected cell. Every unit returns unavailable. In England itself the contrast also fails outside the two 2-week mutant RFP libraries, including all Il1r1 and WT libraries Run record: Research Article/gate2_C2_england_2025/trials/continuation/EN7/run_record.json.
+- **Artefact:** `Research Article/gate2_C2_england_2025/trials/continuation/EN7/EN7_cd177_groups.csv; Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN5_cd177_groups.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C262. No direction, rate or reversibility of state conversion can be estimated from this deposit
+
+- **Status in the register:** Not establishable with this deposit (prospective exclusion recorded in the frozen contract; delegated reassessment 2026-09-29)
+- **What settled it:** The follow-up contract excluded optimal-transport couplings and any directed Markov chain on a pseudotime or similarity kernel before execution, on the ground that their arrows follow from the kernel and root choice. RNA velocity is not computable: GEO supplies CellRanger filtered count matrices with no spliced/unspliced layers, and the only route is re-quantifying the 68 ENA runs, which needs remote compute and separate authorization. Accordingly the follow-up reproduces the paper's pipeline shape (two-round subclustering, contaminant removal on Ptprc/Pecam1/Col1a1/Foxj1, 19 Experiment-1 clusters over 31,387 cells and 15 Experiment-2 clusters over 9,399 after discarding 4 clusters/1,311 cells and 10 clusters/2,099 cells) and tests predictions of the transition model rather than measuring transitions. No figure in the package carries a transition arrow. The inspected article and supplements document Seurat clustering, integration, signatures, correlations and CellChat and no computational directional trajectory method Run record: Research Article/gate2_C2_england_2025/trials/followup/run_record.json.
+- **Artefact:** `Research Article/gate2_C2_england_2025/config/followup_contract.json; Research Article/gate2_C2_england_2025/trials/followup/FU_E_round2_clusters.csv; Research Article/gate2_C2_england_2025/trials/followup/FU_E_round1_contaminant_waterfall.csv; Research Article/gate2_C2_england_2025/trials/followup/FU_E_diffusion_ordering.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C268. Animal-level spatial inference on the wild-type response near mutant clones is blocked by the deposited arrays, not by analysis choices
+
+- **Status in the register:** Not establishable without mouse and clone identifiers (blocking decision recorded before and after execution; delegated reassessment 2026-09-29)
+- **What settled it:** The batch1 spatial identity gate over all 13 datasets records mouse_id_available and unique_clone_id_available as false for every one, and every bin profile row carries biological_inference_allowed false. Pair rows collapse with distance (kras1w 4,953 rows at 0-50 micrometres, 348 at 100-150, 40 at 150-200, 13 at 200-250 and 1-7 beyond 250), which the source methods themselves name as limiting power, and one neighbour clone may contribute to several rows. The joint spatial analysis EN6c is recorded as blocked for the same reason, while mouse-indexed non-spatial clone arrays do exist and support the narrower clone-composition questions Run record: Research Article/gate2_C2_england_2025/trials/batch1/clones/run_record.json.
+- **Artefact:** `Research Article/gate2_C2_england_2025/trials/batch1/clones/spatial_identity_gate.csv; Research Article/gate2_C2_england_2025/trials/batch1/clones/spatial_pooled_bin_profiles.csv; Research Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C272. The prespecified primary endpoint, the KAC fraction response to anti-IL-1beta, cannot be estimated from the public deposits
+
+- **Status in the register:** Not establishable (author classifier restricted and eligible animals insufficient; this is missing evidence, not evidence of no effect; delegated reassessment 2026-09-29)
+- **What settled it:** trial U2 source audit: Zenodo record 17172149 (LungPCA_Code) returns access_right 'restricted' with an empty file list, and the author Figure 7 plotting code loads an external annotated object rather than building annotations; trial U4 denominator gate at the declared 100-alveolar-cell floor retains 3 of 4 Control IgG and 2 of 3 anti-IL-1beta animals, below the declared three per arm; the 50-cell sensitivity retains 4 and 3 animals but supplies no KAC definition, and the 200-cell floor retains 3 and 1 Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/validation.json.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_source_audit/run_record.json; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/alveolar_fraction_eligibility.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/validation.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C280. Complete macrophage-fibroblast-epithelial triads are too sparse in either IPF cohort to support the proposed joint niche associations
+
+- **Status in the register:** Not establishable (coverage limit, not an effect estimate; delegated reassessment 2026-09-29)
+- **What settled it:** trial U5 full-cell native LIANA pass over all annotated cells: GSE136831 60 annotated IPF/control donors and 243,472 cells, 25 primary LR donors, 350 native calls, 0 empty; GSE135893 22 donors and 89,326 cells, 17 primary LR donors, 236 calls, 13 independently verified as having no eligible edge and recorded as empty rather than zero; complete triads at the 50-cell floor number 2 IPF and 1 control in GSE135893 and 2 IPF and 4 control in GSE136831, against the declared requirement of at least ten complete patients for a joint association; sensitivity table covers two resources, two cap seeds, 30/50/100-cell floors and 5/10/20% detection over 24 configurations Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/REPORT.md.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/cohort_completion.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/complete_triad_coverage.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/sensitivity_summary.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/validation.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C290. Region- and neighbourhood-level spatial niche questions cannot be evaluated from these deposits
+
+- **Status in the register:** Not establishable (missing independent region labels and, for the post-viral series, missing coordinates; delegated reassessment 2026-09-29)
+- **What settled it:** trial U5 archive audit: the deposited-member inventory for the human lesion series contains no verified independent spot-level pathology or ROI annotation, and gene-score-derived regions were not substituted; both coordinate-file versions agree on their common barcodes in every human section and all filtered-matrix barcodes map to coordinates, so the limit is annotation rather than geometry; the nine deposited post-viral matrices carry H5 counts and PNG images with no coordinate table in the archive listing or inside the H5 inventory, and the author code loads complete local Space Ranger directories absent from the deposit Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/acquisition_run_record.json.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/deposited_member_inventory.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/possible_pathology_annotation_members.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/validation.json; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_remaining_context_access/additional_source_audit.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C294. The conditional Han developmental ISR comparison cannot be run from the audited processed-data sources
+
+- **Status in the register:** Not establishable (no reusable processed matrices in the audited sources; no alignment attempted; delegated reassessment 2026-09-29)
+- **What settled it:** trial U2/U6 source audit: the author repository pinned at e1cbecd5dc0e36cc3b22f266804597b179096514 contains code referencing local SHH1-SHH8 10x directories and local RDS objects, with no processed matrices in its file inventory; the Europe PMC supplementary archive retrieved for the paper (5,017,188 bytes, 57 members) contains an ImageJ alveolar-thickness macro and no expression matrix; the publication lists raw-read BioProjects only; raw-read alignment was outside the authorized staged plan and was not started, and a prior Springer CDN attempt failed DNS resolution before the Europe PMC endpoint was used Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_isr_extension/run_record.json.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_remaining_context_access/additional_source_audit.json; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_remaining_context_access/han_repository_file_inventory.json; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_isr_extension/run_record.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C299. The available cell-resolved IRE1alpha follow-up deposit cannot supply a replicate-level treatment contrast
+
+- **Status in the register:** Not establishable with this deposit (one pooled library per condition; delegated reassessment 2026-09-29)
+- **What settled it:** Eligibility screen of GSE243124: day-10 epithelial scRNA under saline, bleomycin, epithelial IRE1 knockout and KIRA8, each condition pooled into one GEM library from 2, 2, 3 and 3 contributing mice, with no recovered donor labels or author cell annotations; no test was fitted. The linked GSE243129 was excluded as a neonatal Tgfbr2 knockout/hyperoxia cohort rather than an IRE1 intervention Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md; RQ_Specified/A1_transitional_epithelial_state_distinction/STUDY_MAP.md; RQ_Specified/A1_transitional_epithelial_state_distinction/metadata/GSE243124.json; RQ_Specified/A1_transitional_epithelial_state_distinction/metadata/GSE243129.json`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C305. A quantitative between-condition histone amplitude comparison cannot be made from the deposited PATS tracks
+
+- **Status in the register:** Not establishable from the deposited material (scaling contract unrecoverable; reprocessing would not remove the design confounding; delegated reassessment 2026-09-29)
+- **What settled it:** Identity and resource audit of GSE141635: 20 GSM library records covering H3K4me3, H3K27ac, H3K36me3 and H3 in injured CTGF-positive epithelium versus homeostatic AT2, plus TP53 and input, with two replicate labels and no verified independent-unit count. The methods describe MintChIP/BWA/HOMER and H3-normalised peak calling and the cached generic pipeline calls HOMER makeUCSCfile, but neither establishes each deposited track's scale factors or paired controls; four bedGraphs were acquired and the two larger CTGF-positive mark files exceed the frozen 256-MiB per-file ceiling. Raw reprocessing was audited and pruned: 20 SRA experiments totalling 54,858,327,209 deposited original bytes (48.01 GB for 16 histone/H3 libraries) before reference and alignment storage, and no raw download was started Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/evidence_closure/PATS_raw_resource_audit.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md; RQ_Specified/A1_transitional_epithelial_state_distinction/reports/SOURCE_REQUEST_DRAFTS.md`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C309. A library-adjusted chase effect is not estimable in the HPCS trace-sorted design
+
+- **Status in the register:** Not establishable in this design (chase is perfectly aliased with source library; delegated reassessment 2026-09-29)
+- **What settled it:** Source-level design audit over the 22 source aliases and six libraries: every library contains only one chase interval, so adding chase to unrestricted library indicators adds zero rank (6 to 6 overall, 5 to 5 within Slc4a11, 2 to 2 within Hopx). Driver adds one algebraic dimension overall (6 to 7), supported by the mixed IGO17402 library, which also contributes to both a Slc4a11 and a Hopx group. The audit records independent_biological_units_verified as false for all six scope/effect rows, and no model omitting or constraining library effects was fitted Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/hpcs_robustness_run.json.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/robustness_2026-09-25/hpcs/design_rank_audit.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/robustness_2026-09-25/hpcs/library_group_support.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C312. The published mouse-paired TIGIT accessibility contrast can be refitted from the deposited records
+
+- **Status in the register:** Not establishable from public records (targeted recovery exhausted; delegated reassessment 2026-09-29)
+- **What settled it:** Identity audit of all 24 relevant libraries (8 GSE154966 bulk ATAC plus 16 GSE273123 sorted RNA) with linked sample/experiment/biosample identifiers and source URLs, and SRA full records with original filenames retained for all 24, including the eight TIGIT ATAC libraries. The eight bulk ATAC libraries map to four source blocks (YY1181, YY1916, 106623 and the compound 106621_106642); the published article describes four mouse replicates and a paired ~ Mouse + Tigit_status analysis, but the sample and experiment XML repeats 106621_106642 with no pool-membership or non-overlap statement, and the pinned 2020 author repository supplies single-cell computational methods rather than an ATAC pool crosswalk. Every row is recorded as held: pool membership/non-overlap unresolved. No paired inference was fitted Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/closure_identity_run.json.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/identity_audit/GEO_ENA_sample_audit.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/evidence_closure/SRA_explicit_identity_evidence.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/reports/SOURCE_REQUEST_DRAFTS.md`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C318. The published inhibitor chromatin amplitudes can be compared with the deposited baseline CUT&Tag tracks analysed in A1
+
+- **Status in the register:** Not establishable as stated (different normalisation bases; absolute amplitudes are not comparable; delegated reassessment 2026-09-29)
+- **What settled it:** Full DDBJ SRA records resolve all 64 Tsutsui runs into 26 inhibitor CUT&Tag (PRJDB37980: DMSO, CBP30, GNE781 across two numbered CUT preparations and H3, H3K27ac, H3K4me3, H3K27me3, plus two DMSO p300 libraries), 32 epithelial organoid CUT&Tag (PRJDB37983, DMSO/BLM, days 14/17 and inhibitor conditions) and six fibroblast RNA libraries (PRJDB37982, three author-declared preparations per condition). The published Fig. 8/9 track captions specify E. coli DNA normalisation, whereas the deposited baseline tracks A1 quantified are CPM. No scaled per-replicate signal matrix, peak-count matrix or spike-in factor was recovered and no raw sequencing was downloaded Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/regulatory_fate_analysis_run.json.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/regulatory_fate/tsutsui_sequencing_crosswalk.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/reports/REGULATORY_FATE_REPORT.md`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C320. An independent direct-mark comparator for the transitional-state histone profiles is available in public data
+
+- **Status in the register:** Not establishable with this deposit (track scale unspecified; state definition inappropriate; delegated reassessment 2026-09-29)
+- **What settled it:** Context screen of GSE150527: 48 GSM records across human AT2-to-AT1 culture with three donor labels for RNA, two for selected histones and one donor for WGBS at D0/D4/D6; donor-matched input and H3K27ac BigWigs exist across the three days, but the catalog text describes aligned BigWigs without specifying their quantitative scale, and D4 is mixed cultured AT1-like differentiation rather than a purified injury transitional population. No quantitative comparison was made eligible Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md; RQ_Specified/A1_transitional_epithelial_state_distinction/STUDY_MAP.md; RQ_Specified/A1_transitional_epithelial_state_distinction/metadata/GSE150527.json`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C321. No outcome in the surveyed A1 evidence has an early regulatory measurement recorded in the same experimental units
+
+- **Status in the register:** Not establishable from the current evidence base (the linked regulatory-to-fate comparison remains held; delegated reassessment 2026-09-29)
+- **What settled it:** Documentation pass over the 29 inventoried outcome records (O1-O29) and the 27 named evidence branches (B1-B27), every value copied from a tracked document or table in the folder. Across O1 to O25 no outcome has an early regulatory measurement in the same units: the PATS KRT8/AGER mice have no chromatin or RNA (histone from a separate day-12 CTGF-positive sort, TP53 ChIP from a separate day-8 sort); the AP-1 microscopy mice cannot be paired to a mutant RNA/ATAC experiment with one pooled library per condition; the Tsutsui medium-switch endpoints are RNA with chromatin in separate CUT&Tag preparations; the HPCS predictor and outcome are RNA labels on the same cells; the CD44 predictor and outcome share their libraries Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md; RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_BRANCH_INVENTORY.md; RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C337. A public dataset exists that pairs an epithelial integrin perturbation with a measurement of activated TGF-beta
+
+- **Status in the register:** Not establishable from public data at the recorded search (the binding gap is the readout, not the design; delegated reassessment 2026-09-29)
+- **What settled it:** Recorded search before the question was written: 15 GEO DataSets queries through the Entrez gds index (hit counts 55, 9, 0, 4, 19, 6, 68, 2, 1, 3, 5, 4, 1447, 45, 82, with the inspected depth stated per query), plus PRIDE (3, 0 and 0 projects), the Image Data Resource and the BioImage Archive through BioStudies (1,622 hits, top 8 inspected). No deposit in any repository searched pairs an epithelial integrin perturbation with an activated-TGF-beta readout; the six nearest candidates are named with the specific reason each falls short, GSE190821 being nearest (replicated in vivo blockade, mouse as unit, but no activation readout, no separated fibroblast compartment and no ligand arm). Neither clinical programme against this integrin has deposited participant-level data Run record: RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/PUBLIC_DATA_SEARCH.md.
+- **Artefact:** `RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/PUBLIC_DATA_SEARCH.md; RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/REGISTER_DECISION.md; RQ_Specified/A15_epithelial_integrin_tgfb_activation/config/a15_question_contract.json`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C339. An eligible dataset linking frozen RNA maturation components to an independently measured mature AT1 endpoint in the same biological units exists in the surveyed evidence
+
+- **Status in the register:** Not establishable at present (missing linkage and eligibility, not a missing endpoint category; delegated reassessment 2026-09-29)
+- **What settled it:** Documentation pass recorded as outcome row O27 over the 29 inventoried outcome records. Relevant measured endpoint types already exist: O2, the AGER-positive fraction among Krt19-lineage-labelled cells in three named mice (32.84%, protein on labelled cells, independent of any RNA predictor panel), and O3, the published day-14 labelled-cell AGER endpoint under KIRA8, whose numerical source and unit count are not recovered in the folder. What is absent is a dataset in which compatible RNA components and a noncircular mature endpoint are measured in the same verified biological units; O2's three mice carry no early measurement, and O3's RNA and microscopy arms are different experiments in different animals. A8 has computed nothing of its own; its workspace holds a README, rationale, plan and question contract only Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md; RQ_Specified/A8_maturation_component_at1_contribution/PLAN.md; RQ_Specified/A8_maturation_component_at1_contribution/config/a8_question_contract.json`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C340. An eligible dataset measuring mature-cell yield, viability, traced descendants or function after verified IL-1beta withdrawal exists in the surveyed evidence
+
+- **Status in the register:** Not establishable at present (no eligible recovery observations identified; this is not proof that new data generation is necessary; delegated reassessment 2026-09-29)
+- **What settled it:** Documentation pass recorded as outcome row O28 over the same 29 inventoried outcome records: no eligible recovery dataset is identified, and A14 remains unexecuted with a README, rationale, plan and question contract only and no tables directory. The required contract is the relevant exposure or reception contrast linked to viable traced mature output, with independent animals or culture preparations whose identities are known and comparable post-withdrawal intervals against time-matched controls Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md; RQ_Specified/A14_withdrawal_recovery_and_reception/PLAN.md; RQ_Specified/A14_withdrawal_recovery_and_reception/config/a14_question_contract.json`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
 ---
 
 ## Not established
 
-### C4. The injury capillary state has a CAP1 origin (Kit line traced at 33 to 53% per animal); the CAP2 lines are uninformative, not negative
+### C4. The injury capillary state has a CAP1 origin (Kit line traced at 33 to 53% per animal) (qualifier 2026-09-29: the reporter-detected traced fraction in iCAP exceeds that in other endothelium in each of the 3 Kit animals, 33.41 against 31.71, 42.27 against 35.01 and 52.71 against 42.30%; this descriptive enrichment is lineage-trace support for a CAP1 contribution, not proof of an exclusive CAP1 origin); the CAP2 lines are uninformative, not negative
 
-- **Status in the register:** Validated (Kit); Not established (CAP2)
+- **Status in the register:** Descriptive only (Kit: three animals, one harvest day, enrichment over other endothelium, not origin proof); Not established (CAP2; delegated reassessment 2026-09-29)
 - **What settled it:** 8-sample Cre cohort; trace rule reproduces the deposited calls at 100%
 - **Artefact:** `Research Article/gate1_01_niethamer_2025/GSE262927/lineage_tracing_cohort/`
 - **Where it came from:** Stage 0. Initial run (August 2026): recovering the published biology from raw counts
@@ -405,7 +664,7 @@ what was refuted and what settled it.
 
 - **Status in the register:** Not established
 - **What settled it:** The original trial did not measure reception. Later corrected ligand-resource and recipient-expression analyses provide candidate compatibility, not direct receptor engagement.
-- **Artefact:** `analysis/corrections/ligand/RESULTS.md; RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md`
+- **Artefact:** `analysis/corrections/ligand/RESULTS.md; RQ_Specified/A2_areg_source_delivery/reports/INTERPRETATION_AUDIT_2026-09-27.md; RQ_Specified/A2_areg_source_delivery/tables/stage1b_fibroblast_covariates.tsv; RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md`
 - **Where it came from:** Stage 3. Cardoso 2026, the Gate 2 paper (2026-09-12)
 
 ### C39. Epithelium is the AREG source in human lung adenocarcinoma
@@ -645,6 +904,279 @@ what was refuted and what settled it.
 - **What settled it:** GSE262927: 25 animals examined, only EEM-scRNA-167 qualifies in both seeds (40/193 and 35/197 labelled/reference cells); ADI contrasts +12.64/+11.58 detection points. The 7-week multiome control also crosses its floor between seeds (30 versus 26 labelled cells)
 - **Artefact:** `Research Article/epithelial_state_specificity/results/retention.csv; Research Article/epithelial_state_specificity/results/within_unit_effects.csv`
 - **Where it came from:** Cross-study epithelial specificity: ES1 correction, 2026-09-22
+
+### C184. AT0 cells in GSE178360 can be identified by transferring the HLCA consensus marker sets
+
+- **Status in the register:** Not established (scheme-dependent; delegated reassessment 2026-09-29)
+- **What settled it:** S3: per-donor AT0 calls under the pre-registered flat argmax 1,018, 1,631 and 152 against 106, 167 and 8 under the post hoc hierarchical scheme; epithelial subcluster 4 (328 cells) is 280 AT0 under flat and 0 AT0 (251 AT2) under hierarchical; S2 reference mapping instead gives 26, 87 and 6 confident AT0 cells Run record: Research Article/gate1_04_sikkema_2023_hlca/trials/s3_hlca_marker_annotation/s3_run_record.json.
+- **Artefact:** `Research Article/gate1_04_sikkema_2023_hlca/trials/s3_hlca_marker_annotation/s3_at0_check_per_donor.csv; Research Article/gate1_04_sikkema_2023_hlca/trials/s3_hlca_marker_annotation/s3_epithelial_subcluster_by_hlca_type_flat.csv; Research Article/gate1_04_sikkema_2023_hlca/trials/s3_hlca_marker_annotation/s3_epithelial_subcluster_by_hlca_type_hier.csv`
+- **Where it came from:** Reference atlases: Nabhan, Sikkema and Murthy packages, registered 2026-09-29
+
+### C190. The HLCA SPP1-high profibrotic macrophage programme is detectable in mouse atlas cluster 5 after viral injury
+
+- **Status in the register:** Not established (negative at population level; delegated reassessment 2026-09-29)
+- **What settled it:** S5 comparator panel through mouse orthologs, primary resolution: Spp1 detected in at most 0.331 of cells in any subcluster; of the five SPP1-high members only Chil3 (0.535 and 0.657, the iMON and cMON subclusters) and Lpl (0.512, the impure endothelial-gene subcluster 7) exceed 0.5; C1QA-high (C1qa 0.916, Trem2 0.648 in the iMAC subcluster) and CCL2-high (Ccl2 0.754, Il1rn 0.725 in the day-6 monocyte subcluster) programmes are detected Run record: Research Article/gate1_04_sikkema_2023_hlca/trials/s5_cluster5_subclusters/s5_run_record.json.
+- **Artefact:** `Research Article/gate1_04_sikkema_2023_hlca/trials/s5_cluster5_subclusters/s5_comparator_panel_detection_fraction.csv`
+- **Where it came from:** Reference atlases: Nabhan, Sikkema and Murthy packages, registered 2026-09-29
+
+### C193. Seven human clusters, including the AT1 and ciliated candidates 26 and 25, have median depth far below the dataset median and may be depth-driven
+
+- **Status in the register:** Not established (flag not followed up; delegated reassessment 2026-09-29)
+- **What settled it:** GSE178360 automated QC review: median UMIs 737 (cluster 9), 1,501 (10), 947 (13), 923 (14), 800.5 (15), 971 (25) and 1,840 (26) against a dataset median of 4,811; whether any is depth-driven was not tested Run record: Research Article/ungated_murthy_2022/GSE178360/logs/decisions.json.
+- **Artefact:** `Research Article/ungated_murthy_2022/GSE178360/qc/cluster_qc_summary.csv; Research Article/ungated_murthy_2022/GSE178360/qc/qc_review_warnings.txt`
+- **Where it came from:** Reference atlases: Nabhan, Sikkema and Murthy packages, registered 2026-09-29
+
+### C195. In the mouse Kras tumour niche libraries Hbegf is detected in non-epithelial compartments, chiefly endothelial-gated cells, and after Areg deletion its detection is retained in endothelial and mesenchymal gates but not in myeloid gates
+
+- **Status in the register:** Descriptive only (source pattern); driver reading not established (delegated reassessment 2026-09-29)
+- **What settled it:** Trial C6, marker gates, library as unit, no P value: non-epithelial Hbegf detection >=0.1 in endothelial gates of Red2Kras niche 0.2137, Areg-flox/+ niche 0.2432 and Areg-flox/flox niche 0.1842, mesenchymal 0.1143 and 0.1135, neutrophil 0.1783 (flox/+). Areg-flox/flox against flox/+ retained fraction 0.757 endothelial and 0.818 mesenchymal against 0.306 alveolar macrophage-like, 0.35 neutrophil and 0.429 other myeloid (rule: survives if >=0.7). Tested hypothesis: Hbegf as an Areg-independent driver Run record: Research Article/gate2_05_cardoso_2026/trials/c6_who_makes_egfr_ligands/c6_run_record.json.
+- **Artefact:** `Research Article/gate2_05_cardoso_2026/trials/c6_who_makes_egfr_ligands/c6_ligands_by_compartment.csv; Research Article/gate2_05_cardoso_2026/trials/c6_who_makes_egfr_ligands/c6_hbegf_survival.csv`
+- **Where it came from:** Cardoso trial C6, registered 2026-09-29
+
+### C197. The frozen A0 50-gene programme transfers to intestinal differentiation, peaking in late enterocyte progenitors relative to both stem cells and mature proximal enterocytes
+
+- **Status in the register:** Not established (the pre-declared transfer criterion failed against mature enterocytes; three mice cannot establish absence; delegated reassessment 2026-09-29)
+- **What settled it:** A0 pilot_v1 P3, Haber GSE92332, 3 verified control mice (1,013 primary cells): intermediate minus stem median +0.2694 score points (2/3 positive, smallest leave-one-out +0.0786, pass); intermediate minus mature enterocyte median -0.0914 (1/3 positive, smallest leave-one-out -0.2929, fail). Per mouse vs mature: +0.4065, -0.0914, -0.4945 (Control-Mouse1, 3, 4). Decision STOP_PRIMARY_TRANSFER_NOT_SUPPORTED; P4 specificity pruned by the rule committed before V1 scores Run record: RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_V1_RESULTS.md.
+- **Artefact:** `RQ_Specified/A0_conserved_epithelial_transition_program/tables/pilot_v1/transfer_summary.tsv; RQ_Specified/A0_conserved_epithelial_transition_program/tables/pilot_v1/transfer_unit_differences.tsv; RQ_Specified/A0_conserved_epithelial_transition_program/tables/pilot_v1/transfer_leave_one_out.tsv; RQ_Specified/A0_conserved_epithelial_transition_program/tables/pilot_v1/pilot_status.json`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C199. The repair-first A0 programme is reused in normal postnatal alveolar development, higher in transitional cells than in both AT2 and AT1
+
+- **Status in the register:** Not established (one qualifying capture group, no verified animals; delegated reassessment 2026-09-29)
+- **What settled it:** E3 frozen transfer to the Negretti author viewer (SCT data-slot export, not raw counts): only one encoded capture group, P14:2 (226/32/34 cells), passes the 30-cell floor: +0.06788 vs AT2 and +0.01523 vs AT1. Across all nine evaluable groups 7/9 positive vs AT2 and 4/9 vs AT1. Group-to-animal mapping not recovered; 49/50 genes covered Run record: RQ_Specified/A0_conserved_epithelial_transition_program/reports/EXPLORATORY_PILOT_REPORT.md.
+- **Artefact:** `RQ_Specified/A0_conserved_epithelial_transition_program/stage_E3_result.json; RQ_Specified/A0_conserved_epithelial_transition_program/tables/exploratory/development_transfer_effects.csv; RQ_Specified/A0_conserved_epithelial_transition_program/tables/exploratory/development_transfer_coverage.csv`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C200. The repair-first A0 programme, or its 31-gene generic-control-excluded variant, transfers to the proximal intestinal branch against both stem cells and mature enterocytes
+
+- **Status in the register:** Not established (near-zero primary estimates in two mice; the variant lead does not survive depth matching; delegated reassessment 2026-09-29)
+- **What settled it:** E3/E3a, GSE92332, two mice pass the floor (Control-Mouse1, Control-Mouse3). Full programme vs Stem -0.00070 and -0.00005 (0/2 positive), vs mature +0.00410 and -0.00042 (1/2). 31-gene variant before matching positive in both; after within-mouse UMI-quintile matching (200 draws) Mouse1 vs Stem median -0.00388 [5-95% -0.00944, +0.00264] at 25 cells/state, and only Mouse3 (32 cells/state) stays above the floor, with draw ranges including zero Run record: RQ_Specified/A0_conserved_epithelial_transition_program/reports/EXPLORATORY_PILOT_REPORT.md.
+- **Artefact:** `RQ_Specified/A0_conserved_epithelial_transition_program/stage_E3_result.json; RQ_Specified/A0_conserved_epithelial_transition_program/stage_E3a_result.json; RQ_Specified/A0_conserved_epithelial_transition_program/tables/exploratory/intestine_depth_matched_sensitivity.csv; RQ_Specified/A0_conserved_epithelial_transition_program/tables/exploratory/intestine_transfer_effects.csv`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C206. The lesion module's rise in lung adenocarcinoma exceeds the rise of the nominated shared remodelling component
+
+- **Status in the register:** Not established (inconclusive estimate: positive point estimate, interval includes zero; delegated reassessment 2026-09-29)
+- **What settled it:** Kim 2020, 8 patients: lesion minus shared HL +0.549 log2 CPM (exact 95% CI -0.034 to 1.063; exact p 0.0547; BH q 0.0547). The shared union itself changes by mean +0.171 (6/8 patients positive). The predefined narrow criterion (positive primary plus BH-significant beyond-shared and stress-excluded tests) is not met Run record: RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md.
+- **Artefact:** `RQ_Specified/A11_lesion_programme_addition/tables/test_v2/inference.tsv; RQ_Specified/A11_lesion_programme_addition/tables/test_v2/paired_differences.tsv`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C208. The frozen A11 lesion module is acutely induced in type 2 cells by virus infection of lung explants, above the 0.10 margin and separable from the shared remodelling component
+
+- **Status in the register:** Not established (unresolved by the contract's own rule: exact interval unavailable at 3-4 pairs and the attainable interval contains the margin; beyond-shared null once identity is controlled; delegated reassessment 2026-09-29)
+- **What settled it:** GSE198864 explants, frozen contract, medium-matched mock controls. Author-labelled type 2 pseudobulk: SARS-CoV-1 4 donors mean +0.260, HL +0.241, exact p 0.125, 4/4 positive; 87.5% exact interval +0.057 to +0.529 contains the margin. Per-donor effect rank-identical (Spearman +1.000) to the share of counts from cells the reference transfer does not call type 2. Identity-concordant restriction (3,827 of 4,732 cells) drops pat3: SARS-CoV-1 3 donors mean +0.225 (3/3 positive, exact p 0.25, the floor); beyond-shared -0.039 (2/3 positive); SARS-CoV-2 +0.159 (3/3), beyond-shared +0.003 Run record: RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md.
+- **Artefact:** `RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/concordant_identity/inference_concordant.tsv; RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/concordant_identity/paired_differences_concordant.tsv; RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/scores/inference.tsv; RQ_Specified/A11_lesion_programme_addition/tables/acute_injury_gse198864/gate/gate_report.json`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C212. The frozen shared-contract repair, development and lesion modules scored in epithelial RNA add information about day-14 organoid area beyond day-7 area, plate and composition
+
+- **Status in the register:** Not established (inconclusive: below the margin, no bound computed; delegated reassessment 2026-09-29)
+- **What settled it:** Stage 3, margin 0.02 committed before fitting; 885 wells, 15 plate-replicate groups, leave-one-group-out. Held-out R2 baseline 0.5864, + epithelial 0.6007, + fibroblast 0.6237; epithelial increment 0.0144, below the margin in the primary and in all four sensitivities (0.0178, 0.0163, 0.0113, 0.0134); positive in 8/15 groups (-1.08 to +0.58) Run record: RQ_Specified/A10_organoid_growth_outcome/reports/STAGE3_FIT_REPORT.md.
+- **Artefact:** `RQ_Specified/A10_organoid_growth_outcome/tables/model_comparison.tsv; RQ_Specified/A10_organoid_growth_outcome/tables/sensitivity.tsv; RQ_Specified/A10_organoid_growth_outcome/tables/per_unit_increments.tsv; RQ_Specified/A10_organoid_growth_outcome/tables/fit_run.json`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C217. Epithelial or fibroblast niche-signalling (Wnt, TGF-beta, Notch, Hedgehog) or environment programme blocks add information about organoid growth
+
+- **Status in the register:** Not established (below the descriptive margin; no inference implemented; delegated reassessment 2026-09-29)
+- **What settled it:** Stage 4 secondary blocks on top of both primary blocks: epithelial niche signalling -0.0084 pooled / -0.0081 within-unit; epithelial environment 0.0135 / 0.0030; fibroblast niche signalling 0.0059 / -0.0052; fibroblast environment 0.0099 / 0.0163; none clears 0.02 Run record: RQ_Specified/A10_organoid_growth_outcome/reports/STAGE4_REVISED_REPORT.md.
+- **Artefact:** `RQ_Specified/A10_organoid_growth_outcome/tables/revised_grid.tsv`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C219. The A10 growth model predicts day-14 organoid area in a held-out plate better than that plate's own mean
+
+- **Status in the register:** Not established (absolute R2 negative on three of four held-out plates; delegated reassessment 2026-09-29)
+- **What settled it:** Primary inherited-log2 plate holdout, R2 against the held-out plate mean, baseline -> six growth scores: plate 1 (232 wells) -0.728 -> -0.034; plate 2 (174) -3.795 -> -1.123; plate 3 (239) -0.278 -> 0.190; plate 4 (240) -11.707 -> -6.172. RMSE lower than the E2F/G2M comparator on all four plates Run record: RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md.
+- **Artefact:** `RQ_Specified/A10_organoid_growth_outcome/tables/followup_v1/model_absolute_performance.tsv; RQ_Specified/A10_organoid_growth_outcome/figures/A10_F_followup_plate_performance.run.json`
+- **Where it came from:** Question-level results: programmes and outcomes (A0, A5, A5/A11, A10, A11), registered 2026-09-29
+
+### C223. The same recipient RNA index measured in the fixed alveolar-fibroblast candidate label adds held-out predictive information about the fibroblast inflammatory RNA endpoint beyond source plus TNF
+
+- **Status in the register:** Not established (inconclusive: direction unstable across predeclared sensitivities; delegated reassessment 2026-09-29)
+- **What settled it:** Secondary A12 arm, 12 paired patients, primary settings: training mean 0.408475, source 0.407185, source+TNF 0.209804, joint 0.228286 RMSE; MSE worse by 0.00810; 5/12 patients with lower error. Direction changes across sensitivities: worse at alpha 0.1 (0.214368 to 0.239995) and the 30-cell floor (0.348467 to 0.365944), better at alpha 10 (0.254716 to 0.248171) and confidence 0.3 (0.420199 to 0.418146). Against source only the index would look favourable (0.407185 to 0.364795) Run record: docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md.
+- **Artefact:** `docs/roadmap_runs/2026-09-27-followthrough/A12_model_metrics.csv; docs/roadmap_runs/2026-09-27-followthrough/A12_heldout_predictions.csv; docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_results.json`
+- **Where it came from:** Question-level results: recipient competence (A6, A9, A12, A13), registered 2026-09-29
+
+### C226. Recipient pathway gene sets (NF-kB, inflammatory, IL-6/JAK-STAT3 and related) differ between LUAD and matched normal in broad AT2-like, fibroblast or macrophage receivers under the primary CAMERA model
+
+- **Status in the register:** Not established (primary estimated-correlation family null; significance appears only under the fixed-correlation sensitivity; delegated reassessment 2026-09-29)
+- **What settled it:** Patient-blocked TMM/voom CAMERA on raw-count pseudobulks, 23 patients, confidence 0.2 pooled, 50-cell floor, global BH over the full family: 0 of 279 tests at q < 0.05 with estimated inter-gene correlation; 148 of 279 under the fixed-0.01 sensitivity. The gallery A12b panel displays the 21 broad-receiver LUAD-normal tests: 0/21 primary, 11/21 fixed-0.01 (AT2 3/8, fibroblasts 3/6, macrophages 5/7) Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/REPORT.md.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/camera.csv; analysis/figures/rq/il1b_context/D2_pathway_values.csv; analysis/figures/rq/il1b_context/validation.json`
+- **Where it came from:** Question-level results: recipient competence (A6, A9, A12, A13), registered 2026-09-29
+
+### C230. In GSE308103, fibroblast TGF-beta hallmark pathway RNA in the fixed alveolar-fibroblast label adds held-out predictive information about an AT2 HPCS-proxy RNA score beyond macrophage IL1B, macrophage mixture and TNF
+
+- **Status in the register:** Not established (no aggregate predictive gain; at the primary setting no model beats the training mean, so the instrument is weak; delegated reassessment 2026-09-29)
+- **What settled it:** Amended fixed-state triad rule (broad assigned macrophages, fixed AT2 and alveolar-fibroblast labels, triad intersection), 12 paired patients at the 50-cell floor, alpha=1, confidence 0.2. Outcome HPCS-without-ADI/operational markers (91 mouse genes, 73 human mappings, 72 assayed); predictor TGF-beta hallmark minus TGIF1 (53 frozen, 52 assayed). Held-out RMSE: training mean 0.216733, source 0.242578, source+TNF 0.228276, joint 0.237257; MSE worse by 0.004181; 8/12 patients with lower error. Worse in every eligible sensitivity: alpha 0.1 (MSE -0.007223), alpha 10 (-0.002654), 30-cell floor n=18 (-0.003194), confidence 0.3 n=16 (-0.006332); floor 100 has 7 patients, not fit. At the primary alpha no nonconstant model beats the training mean (best fitted 0.228276 against 0.216733). Exception at alpha=10 only: source+TNF 0.211252 (Q2 0.049934) beats the mean, joint 0.217443 does not Run record: docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md.
+- **Artefact:** `docs/roadmap_runs/2026-09-27-followthrough/A13_model_metrics.csv; docs/roadmap_runs/2026-09-27-followthrough/A13_heldout_predictions.csv; docs/roadmap_runs/2026-09-27-followthrough/A13_pilot_results.json; docs/roadmap_runs/2026-09-27-followthrough/A13_pilot_specification.json; RQ_Specified/A12_recipient_context/figures/figure_run.json`
+- **Where it came from:** Question-level results: recipient competence (A6, A9, A12, A13), registered 2026-09-29
+
+### C232. In the IPF validation cohort, the deposited proliferating-macrophage label is more abundant in IPF than control by cohort mean and holds a larger share of all macrophage E2F-target and G2M-checkpoint transcripts, so composition could contribute to the replicated IPF macrophage cell-cycle programmes; a within-state change is not established
+
+- **Status in the register:** Descriptive only (cohort means, unharmonized labels; within-state component Not established; delegated reassessment 2026-09-29)
+- **What settled it:** GSE135893, 12 IPF against 9 control donors, deposited labels: mean proliferating-macrophage cell fraction 0.037716 IPF against 0.021143 control. Proliferating-state share of all macrophage transcripts in the set: HALLMARK_E2F_TARGETS 0.159958 against 0.099122; HALLMARK_G2M_CHECKPOINT 0.131346 against 0.089937. Only 3 IPF and 1 control donor pass the 50-cell floor for the proliferating label (not tested). Discovery GSE136831 (32 against 27 donors) uses different labels: Macrophage 0.701380 against 0.606497, Macrophage_Alveolar 0.298620 against 0.393503 Run record: analysis/corrections/statistics/README.md.
+- **Artefact:** `analysis/corrections/statistics/tables/subtype_cell_fractions.csv; analysis/corrections/statistics/tables/subtype_transcript_contributions.csv; analysis/corrections/statistics/tables/GSE135893_subtype_eligibility.csv; analysis/figures/rq/rq_evidence_figures.json`
+- **Where it came from:** Question-level results: recipient competence (A6, A9, A12, A13), registered 2026-09-29
+
+### C238. Nfkbia and Tonsl transcript levels do not supply a feedback readout separable from the TNF/NF-kB response module in these libraries
+
+- **Status in the register:** Not established (inconclusive estimates, not evidence against a feedback mechanism; delegated reassessment 2026-09-29)
+- **What settled it:** Batch1 genotype contrasts: Nfkbia -0.0528 (range -0.325 to +0.219) at 2 weeks and -0.5099 (-1.204 to +0.185) at 12 weeks, Tonsl +0.0520 (-0.503 to +0.607) and +0.2307 (-0.243 to +0.705); every range spans zero. Mutant RFP minus WT-in-oncogenic YFP at 2 weeks: Nfkbia +0.4466 (-0.269 to +1.163), Tonsl -0.0647 (-1.481 to +1.352). EN3 per library (primary variant, threshold fixed at the pooled 90th percentile of the two Experiment-1 WT-baseline libraries): the within-library Spearman correlation between the response module and Nfkbia is 0.24-0.54 in every library including WT baseline, and Nfkbia-high fractions (2.4-15.0%) do not track the response-high fraction. The response panel is gene-disjoint from the feedback and identity panels; 160 of 163 response genes map, and the P53 control maps 194 of 200 Run record: Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/run_record.json.
+- **Artefact:** `Research Article/gate2_C2_england_2025/trials/batch1/rna/library_contrasts.csv; Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN3_axes_by_library.csv; Research Article/gate2_C2_england_2025/trials/batch1/rna/module_coverage.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C242. Cd177 detection is not consistently associated with more cycling among transitional mutant cells
+
+- **Status in the register:** Not established (library-discordant; the near-zero reference in GSM7890835 makes its sign uninformative; delegated reassessment 2026-09-29)
+- **What settled it:** EN5 primary endpoint in the two eligible libraries: cycling SMD -0.0365 in GSM7890835 against +0.4791 in GSM7890836; the fraction of cells with >=2 cycling markers differs by +0.0498 and +0.2955 between Cd177-detected and Cd177-zero cells. Depth-by-hypoxia matched values are -0.0482 (4 strata, 63 against 408 cells) and +0.1872 (2 strata, 35 against 111). FU_A depth adjustment does not reconcile them: -0.0365 / -0.1997 / -0.3435 (unadjusted, residualized, decile-stratified) in GSM7890835 against +0.4791 / +0.3563 / +0.2980 in GSM7890836. In the corrected A16 C1 comparison, matched cycling differences are -0.009126 and -0.068290 Run record: Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/run_record.json.
+- **Artefact:** `Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/EN5_cd177_contrasts.csv; Research Article/gate2_C2_england_2025/trials/followup/FU_A_verdicts.csv; RQ_Specified/A16_cd177_state_attribution/correction_20260928/tables/corrected_c1/effects.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C243. Sequencing depth is not excluded as a contributor to the CD177 associations; the frozen depth-control rule returned inconclusive for every endpoint
+
+- **Status in the register:** Not established (frozen verdict inconclusive; a floor artefact, and not evidence of depth dependence either; delegated reassessment 2026-09-29)
+- **What settled it:** FU_A: all 12 endpoint verdicts are depth_dependent_or_inconclusive, because agreement across all four adjustment methods in both libraries was required and thinning to a common 3,000-UMI budget leaves GSM7890836 with 26 Cd177-positive cells, below the contract's 30-cell floor. Under the three methods available in both libraries the signs are stable for priming (+1.6004 / +1.5075 / +1.3762 and +2.1682 / +1.9928 / +1.9564), AT2 identity, AT1 identity, Itga2, transition RNA and both remodelling modules, and unstable for the TNF/NF-kB, Nfkbia and hypoxia controls. In GSM7890835 the 3,000-UMI thinning did run (38 against 834 cells) and reproduced every direction: priming +1.5046, AT2 identity +0.9608, AT1 identity +0.7252, Itga2 -0.3309, shared -0.6636, lesion -0.7261. Cd177-detected cells are the deeper-sequenced ones (EN1: the Cd177-rich clusters have median 13,785 UMIs against 3,987-4,641 in the three largest AT2-dominant clusters) Run record: Research Article/gate2_C2_england_2025/trials/followup/run_record.json.
+- **Artefact:** `Research Article/gate2_C2_england_2025/trials/followup/FU_A_verdicts.csv; Research Article/gate2_C2_england_2025/trials/followup/FU_A_depth_control.csv; Research Article/gate2_C2_england_2025/trials/continuation/EN1/cluster_sizes.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C246. Whether the priming residual is specific to Cd177 among detection-matched control genes is inconclusive, and the two best-populated nulls disagree
+
+- **Status in the register:** Not established (inconclusive estimate: the instrument is too weak to place the observation, and this is not evidence against specificity; delegated reassessment 2026-09-29)
+- **What settled it:** C3 detection-matched gene null (matching on detection rate +-25% and mean expression +-35% relative, computed within each arm unit), nine descriptive entries. No sampled control reaches Cd177's priming SMD in 4 of 9 entries: GSM7890835 (SMD 1.6004, 14 controls), GSM7890836 (2.1682, 25 controls), Experiment-2 subcluster 10 (0.5972, 36 controls) and Experiment-2 subcluster 12 (1.3077, 284 controls, above the null maximum 1.2379). Seven of nine entries have fewer than 40 matched controls, five fewer than 20 and one a single gene (Experiment-1 subcluster 12, whose 100% exceedance fraction has denominator one). The two entries above the 40-control floor place Cd177 differently: Experiment-1 subcluster 10 has 500 controls with Cd177 at the 86th percentile (13.87% of controls exceed it; null median 0.0969, p95 0.5189), while Experiment-2 subcluster 12 exceeds its whole null. In Experiment-1 subcluster 18 the median matched control itself shows a priming SMD of +0.9633 against Cd177's +2.3230. Cd177 is detected in about 9% of transitional cells (0.0902 and 0.0915) but carries 1-53 UMIs where detected, which is why so few genes match on detection and expression together Run record: RQ_Specified/A16_cd177_state_attribution/tables/stage1/run_record.json.
+- **Artefact:** `RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C3_matched_gene_null.csv; RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C3_control_gene_detail.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C247. Ambient neutrophil RNA remains a live alternative explanation for the CD177 priming association; the within-cell panel control does not exclude it
+
+- **Status in the register:** Not established (the Stage-1 exclusion of ambient origin is withdrawn; contamination is unresolved, not disproved; delegated reassessment 2026-09-29)
+- **What settled it:** C4: conditioning the priming contrast on a neutrophil panel score leaves 1.5573 (GSM7890835, from 1.6004) and 2.1492 (GSM7890836, from 2.1682), and 1.4784 and 1.9843 when depth is added; across all nine entries the adjusted-to-unadjusted ratio runs 0.868-1.392. The Spearman correlation between Cd177 detection and the neutrophil panel runs -0.082 to +0.272, while the priming module itself correlates 0.043-0.357 with that panel and positively in 8 of 9 entries Run record: RQ_Specified/A16_cd177_state_attribution/tables/stage1/run_record.json.
+- **Artefact:** `RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C4_ambient_neutrophil_control.csv; RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C249. The priming association does not decay monotonically as clustering resolution increases, but the ladder cannot establish a non-positional component
+
+- **Status in the register:** Not established (three persisted resolutions; eligibility, represented population and weights change with resolution; delegated reassessment 2026-09-29)
+- **What settled it:** C2 pooled weighted priming SMD. Experiment 1: marginal 0.6347 (1 testable cluster), then 0.6494 at r=0.5 (5 testable), 0.3585 at r=1.0 (5) and 0.3801 at r=1.5 (6). Experiment 2: marginal 1.1876, then 0.4778 at r=0.5 (1 testable), 0.8867 at r=1.0 (2) and 0.5732 at r=1.5 (2). Per-cluster values within Experiment 1 at r=0.5 span 0.0082 to 4.2699 Run record: RQ_Specified/A16_cd177_state_attribution/tables/stage1/run_record_c1_c2_c5.json.
+- **Artefact:** `RQ_Specified/A16_cd177_state_attribution/tables/stage1/A16_C2_resolution_ladder.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C250. With the original libraries, transitional gate and 30-per-side floor all preserved, only two library/subcluster strata qualify and their priming effects disagree
+
+- **Status in the register:** Not established (a claim of a consistent residual priming programme is not supported by this comparison; delegated reassessment 2026-09-29)
+- **What settled it:** The 2026-09-28 England source/code audit reran the within-subcluster contrast without changing population or library grouping: GSM7890835 cluster 18 (45 positive, 222 negative) gives priming SMD +2.1051, AT2 identity +1.1506, AT1 identity +1.1390, Itga2 -0.3554, shared remodelling -0.8049, lesion remodelling -1.0983, cycling +0.1766; GSM7890836 cluster 16 (35 positive, 47 negative) gives priming +0.0694, AT2 identity -0.3623, AT1 identity -0.3012, Itga2 +0.3245, shared +0.3806, lesion +0.1886, cycling +0.1785. The audit also reproduced 49 saved FU_C effect sizes from the cell data to better than 1e-15 Run record: docs/audits/2026-09-28-england-paper-rqs/REPORT.md.
+- **Artefact:** `docs/audits/2026-09-28-england-paper-rqs/a16_same_population_effects.csv; docs/audits/2026-09-28-england-paper-rqs/a16_same_population_coverage.csv; docs/audits/2026-09-28-england-paper-rqs/REPORT.md`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C251. No public deposit found on 28 September 2026 pairs surface-CD177 separation with an outcome measured on the separated fractions in lung
+
+- **Status in the register:** Not established (dated negative search over indexed metadata; not proof of absence; delegated reassessment 2026-09-29)
+- **What settled it:** Four NCBI GEO DataSets queries through E-utilities. 'Cd177 AND lung AND Mus musculus AND expression profiling by high throughput sequencing' returned 2 series (GSE260762, GSE155166), both on unrelated subjects; three broader queries (sorted surface markers, KrasG12D single cell, clonal/lineage alveolar) each returned 25 records at the retrieval cap. Stage-2 eligibility requires CD177 measured as protein and used for prospective separation AND a measured outcome on the separated fractions; nothing found satisfies both. GSE253461 (39 samples, KrasG12D p53-null Rosa26-YFP AT2 cells, organoids, co-cultures) and GSE316244 (4 samples, early fibrotic niches, KrasG12D AT2 reprogramming, Areg-EGFR) are recorded as partially eligible for the positional question only, with eligibility unchecked beyond indexed metadata Run record: RQ_Specified/A16_cd177_state_attribution/reports/PUBLIC_DATA_SEARCH.md.
+- **Artefact:** `RQ_Specified/A16_cd177_state_attribution/reports/PUBLIC_DATA_SEARCH.md; RQ_Specified/A16_cd177_state_attribution/PLAN.md`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C254. Which simulator implementation produced the published mutant clone-size curves is not established from the deposit
+
+- **Status in the register:** Not established (missing evidence: the archive does not record which variant generated the figures; delegated reassessment 2026-09-29)
+- **What settled it:** EN6 records that the literal and corrected implementations give different q=0.7 laws but does not identify which was used for the published fits. The A17 source accounting traced the archived RFP call positionally (main sigma_s -> function sigma_f -> fast process; main sigma_p -> function sigma_s -> slow process; tausigma_s/tausigma_p to late fast/slow rates; fs to prop_f) and reports nominal net expansion 3.1 and 0.9 per week before day 14 and 0.5 and 0.01 after, with r=q=0.7 throughout, and fs=0.08 allocating 81 fast founders per 1,000 under the zero-based boundary. Visually checked Methods S1 Table 3 instead prints f_S=0.16 and an early slow expansion rate of 1.1 per week. Both variants are preserved; the symbol correspondence is not safely inferred from names Run record: docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/run_record.json.
+- **Artefact:** `docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/mutant_parameter_trace.json; docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md; Research Article/gate2_C2_england_2025/trials/continuation/EN6/implementation_differences.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C258. The corrected-implementation stochastic refit that would decide the founder-class question has not been run, and its existing contract is not executable as frozen
+
+- **Status in the register:** Not established (not executed; the decision to defer and the required amendment are recorded; delegated reassessment 2026-09-29)
+- **What settled it:** The follow-up contract specifies FU_S as 560 parameter points x 20 replicates x 2,000 clones x 2 implementations and it was not executed. Recorded amendment requirements before execution: state whether rate changes and switching times are fixed from the archive, re-estimated or removed; reconcile manuscript parameter symbols with the code (Methods S1 Table 3 f_S=0.16 and 1.1 per week against archive fs=0.08 and 0.9 per week); give the negative-binomial comparator the same held-out bins and training folds; and freeze a separate tail diagnostic, because the source used log-CCDF RMSLE while FU_S proposes a binned likelihood and a terminal 51-plus bin can hide the upper tail that distinguishes the models. Input accounting is complete: the primary RFP input is 11 source-indexed mice and 16,113 clones of size >=2 (4, 4 and 3 mice at 1, 2 and 4 weeks), and a fresh decode reproduced all 58 batch1 mouse/analysis-channel count rows Run record: docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md.
+- **Artefact:** `Research Article/gate2_C2_england_2025/config/followup_contract.json; docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/primary_cohort_manifest.csv; docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C263. Graph topology and composition drift cannot distinguish a reversibly mixing state pool from a static continuum in these libraries
+
+- **Status in the register:** Not established (uninformative between the competing descriptions; delegated reassessment 2026-09-29)
+- **What settled it:** FU_T1 PAGA connectivity among mutant-dominated round-2 clusters (mutant fraction above 0.5 on both sides) exceeds 0.1 in 12 of 21 pairs in Experiment 1 and 30 of 91 in Experiment 2. FU_T3 total variation in state composition between timepoints is 0.2887 (Experiment 1, day 4 to day 14) and 0.3356 (Experiment 2, day 14 to day 84), against within-timepoint replicate-library variation of 0.3522 and 0.2922 in Experiment 1 and 0.1407 and 0.4790 in Experiment 2; neither between-timepoint value exceeds the larger within-timepoint value, though the Experiment-2 value does exceed its smaller one (the results prose quotes only the larger value per experiment, 0.35 and 0.48) Run record: Research Article/gate2_C2_england_2025/trials/followup/run_record.json.
+- **Artefact:** `Research Article/gate2_C2_england_2025/trials/followup/FU_T1_paga_connectivity.csv; Research Article/gate2_C2_england_2025/trials/followup/FU_T3_composition_stationarity.csv`
+- **Where it came from:** England 2025 and CD177 attribution, registered 2026-09-29
+
+### C273. Three months of anti-IL-1beta leaves no gene differentially expressed at BH q<0.05 in any independently reviewed mouse compartment
+
+- **Status in the register:** Not established (no discovery at the declared threshold; 4 against 3 animals bounds nothing; delegated reassessment 2026-09-29)
+- **What settled it:** trial U4 receiver differential expression, 4 Control IgG against 3 anti-IL-1beta animals, one retained library per animal, per-animal raw-count pseudobulks, TMM, voom and BH: 0 genes at q<0.05 in each direction in all seven receivers (alveolar broad 9,814 genes tested; fibroblast broad 11,625; fibroblast_Gsn 9,738; fibroblast_Itga8 7,126; fibroblast_Pi16 10,052; myeloid broad 9,667; CSF1R_myeloid 9,047). This made the declared conditional ligand-target arm, which needs ten mapped q<0.05 targets per direction, ineligible without relaxing the threshold Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/validation.json.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/DE_target_eligibility.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/validation.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C274. No declared recipient pathway separates anti-IL-1beta from IgG animals in the early mouse niche
+
+- **Status in the register:** Not established (tested, no discovery at the declared family threshold; delegated reassessment 2026-09-29)
+- **What settled it:** trial U4 official CAMERA on per-animal pseudobulks with estimated inter-gene correlation, 50-cell floor, 4 against 3 animals: 46 primary tests, 0 at global early-family q<0.05, smallest q 0.788; the declared fixed-0.01 sensitivity gives 4 at q<0.05 (smallest 0.0005); 30-cell floor 61 tests, 0 primary against 5 fixed; 100-cell floor 26 tests, 0 against 2; 6 BH families checked Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/validation.json.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/camera.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/validation.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C277. The canonical macrophage-to-fibroblast IL-1 RNA compatibility contrast does not increase consistently in IPF across the two cohorts
+
+- **Status in the register:** Not established (no cohort-consistent increase; descriptive contrasts with no P value or FDR claim; delegated reassessment 2026-09-29)
+- **What settled it:** trial U5 donor-level RNA compatibility, deposited author labels, 50-cell floor, prior count 1, consensus resource: IL1B/IL1R1-IL1RAP macrophages to fibroblasts, IPF minus control +0.005 in GSE136831 (4 control against 18 IPF donors, leave-one-donor-out -0.221 to +0.106) and +1.285 in GSE135893 (3 against 7 donors, LOO 0.943 to 1.930); macrophages to AT2 -1.426 in GSE136831 (10 against 3 donors, LOO -2.044 to -0.779); 277 eligible primary contrasts independently recomputed from donor scores; of 62 contrasts common to both cohorts' broad views 44 share direction; both LR resources, 30/50/100-cell floors and prior counts 0.5/1/2 retained as sensitivities Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/run_record.json.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/primary_contrasts.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/figure_core_examples.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/robustness.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/validation.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C278. No declared recipient pathway separates IPF from control compartments in either cohort under the primary correlation model
+
+- **Status in the register:** Not established (tested, no discovery at the declared family threshold; delegated reassessment 2026-09-29)
+- **What settled it:** trial U5 official CAMERA on donor pseudobulks with voom/TMM and estimated inter-gene correlation, 50-cell floor: GSE136831 49 primary tests with 0 at global q<0.05, GSE135893 36 primary tests with 0; the declared fixed-0.01 sensitivity gives 14 and 12; across all estimated-correlation rows the smallest global q is 0.328 and 0.555; broad fibroblast IPF/control donor n is 18/4 and 7/3, and most fine fibroblast subtypes lack three controls and are explicitly ineligible; 20 output-integrity checks passed Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_pathways/run_record.json.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_pathways/GSE136831_camera.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_pathways/GSE135893_camera.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_pathways/validation.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C279. IL-1 ligands are not the leading unsigned-prior fit to upregulated IPF fibroblast targets, and their better fit to downregulated genes cannot establish repression
+
+- **Status in the register:** Not established (unsigned prior; top ranks carry near-zero correlations; no causal or directional activation; delegated reassessment 2026-09-29)
+- **What settled it:** trial U5 ligand-target prioritization with the checksum-verified NicheNet v2 human prior (Zenodo 7074291), Pearson correlation between prior target potential and a binary DE-target vector, receivers fit with the deposited-label donor design: GSE136831 fibroblast receiver, downregulated targets IL1A rank 1 (r 0.0647) and IL1B rank 2 (r 0.0469), upregulated targets IL1A rank 8 and IL1B rank 6; rank ranges over 11 of 14 eligible donor omissions are 1 to 4 and 2 to 5 in the focused-triad scope; GSE136831 AT2 and GSE135893 broad fibroblasts fail the declared ten-mapped-target gate and receive no ranking; 274 primary candidate rows and 8,750 omission rows; IL1R2 and SIGIRR are excluded as activating receptors Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/REPORT.md.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/primary_candidate_rankings.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/candidate_ranking_stability.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/combined_eligibility.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/validation.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C293. Whether this package reports any recipient-pathway discovery is decided by the inter-gene correlation assumption rather than by the data
+
+- **Status in the register:** Not established (the primary setting yields no discovery in any of the four families; the alternative setting is a modelling choice, not a replication; delegated reassessment 2026-09-29)
+- **What settled it:** trial U6 matched comparison with identical test membership and gene counts per cohort (verified identical_test_and_gene_count_sets True in all four): GSE136831 49 tests, 0 at q<0.05 with estimated correlation against 14 with correlation fixed at 0.01, median estimated correlation 0.0714; GSE135893 36 tests, 0 against 12, median 0.0685; GSE300288 46 tests, 0 against 4, median 0.0391; GSE308103 279 tests, 0 against 148, median 0.0406; separately, all 52 cohort/pathway assay-coverage checks reach at least 92% gene coverage (minimum 0.920), so the declared 50%, 70% and 80% coverage gates select identical sets and require no refit Run record: Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/pathway_correlation_validation.json.
+- **Artefact:** `Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/pathway_correlation_sensitivity.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/pathway_correlation_validation.json; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/pathway_assay_fraction_sensitivity.csv; Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/pathway_coverage_validation.json`
+- **Where it came from:** Yu, Lee, Choi and Min 2026, registered 2026-09-29
+
+### C296. Seven days of KIRA8 IRE1alpha inhibition after bleomycin does not detectably change any of eight predefined transitional or identity markers in epithelial ribosome-associated RNA
+
+- **Status in the register:** Not established (inconclusive at 10 mice, not evidence of equivalence; delegated reassessment 2026-09-29)
+- **What settled it:** GSE190821 epithelial RiboTag counts, 10 mice (5 vehicle, 5 KIRA8), each arm 3 S061 plus 2 S135, Axum8 antibody and whole-lung libraries excluded; frozen contract preceded fitting. edgeR TMM robust quasi-likelihood ~ batch + sex + group; 42,548 input features, 14,811 tested, design rank 4, 6 residual df. All eight markers fail all-gene BH FDR 0.05: Itgb6 -0.811 (0.143), Krt8 -0.566 (0.171), Krt19 -0.604 (0.206), Cldn4 -0.981 (0.116), Ager +0.255 (0.707), Sftpc +0.659 (0.387), Cdkn1a -0.903 (0.104), Krt7 -0.526 (0.128). PC1 of unadjusted samples explains 89.5% and separates the two batches Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/ire1_run.json.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/ire1/predefined_marker_effects.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/ire1/fit_summary.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/ire1/sample_manifest.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C298. A frozen published TGF-beta signature is lower in the epithelial compartment under KIRA8
+
+- **Status in the register:** Not established (directionally consistent, significant only under one mouse omission; delegated reassessment 2026-09-29)
+- **What settled it:** CAMERA with estimated inter-gene correlation on the same primary design; 47 of 49 source symbols tested, correlation 0.156982, direction Down, BH FDR 0.124634 in the primary model. Across ten leave-one-mouse-out fits the direction is Down throughout but BH FDR crosses 0.05 only when mouse 148 is omitted (0.044898). The general unfolded-protein set (94 genes) gives FDR 0.528535; the terminal-UPR set is held at 6 of 8 source symbols (0.75), below the frozen 0.80 coverage rule, with no spelling repair applied Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/ire1_stability_run.json.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/tables/ire1/gene_set_camera.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/second_batch_verified/ire1_pathway_comparison.tsv; RQ_Specified/A1_transitional_epithelial_state_distinction/tables/ire1/gene_set_coverage.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C322. A proliferation readout based on EdU, BrdU or label retention exists somewhere in the A1 evidence base
+
+- **Status in the register:** Not established (a bounded assay-coverage gap, not a measured negative; delegated reassessment 2026-09-29)
+- **What settled it:** Outcome-inventory row O29: no EdU, BrdU or label-retention assay is documented anywhere in the surveyed A1 evidence. The only Ki67-related record found is an Mki67-tagRFP sorting gate in the GSE141635 metadata, which is a sorting criterion rather than a proliferation outcome Run record: RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md.
+- **Artefact:** `RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md; RQ_Specified/A1_transitional_epithelial_state_distinction/metadata/GSE141635.json`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C325. Knocking out epithelial Areg does not move the frozen five-gene fibroblast activation score in this co-culture screen
+
+- **Status in the register:** Not established (a bounded null; no epithelial AREG contribution detected on top of an unremoved autocrine source; delegated reassessment 2026-09-29)
+- **What settled it:** Computed under a freeze committed before any endpoint was scored, which forbids a p-value. Endpoint is the mean over set members of log2(CPM+1) on the well's own human total; effect is the Areg well minus the mean of its unit's eligible TIGIT/TDTOMATO control wells within a factor of four of its fibroblast depth. Per unit: +0.1313 (3-1), +0.4136 (3-2), -0.0642 (3-3), -0.0593 (3-4); median depth-matched +0.036, median against all eligible controls +0.034, two of four units below controls, median after epithelial-fraction adjustment +0.0567. The Hallmark TGF-beta secondary agrees (+0.0282 depth-matched median, one of four units lower). Reported endpoint scale is a standard deviation of 0.482 log2 CPM across the 168 eligible wells. The predicted direction was lower Run record: RQ_Specified/A2_areg_source_delivery/tables/stage3_run.json.
+- **Artefact:** `RQ_Specified/A2_areg_source_delivery/tables/stage3_contrasts.tsv; RQ_Specified/A2_areg_source_delivery/tables/stage3_run.json; RQ_Specified/A2_areg_source_delivery/tables/stage3_well_scores.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C330. A six-gene fibroblast integrin and latent-complex composite tracks the frozen fibroblast activation score across donors in fibrotic lung
+
+- **Status in the register:** Not established (positive point estimate, not statistically established; exploratory and not an independent test; delegated reassessment 2026-09-29)
+- **What settled it:** Same 22 donors, measure changed to expected detection at a common 1,000-molecule budget declared before any standardised value existed. Pooled rho 0.2931 at nominal p 0.185637; IPF stratum 0.3932 (p 0.106485); mural stratum, the population the cited mechanism used, 0.0286 in six donors with a median of 18 mural cells each. The detection-matched oxidative-phosphorylation control gives 0.0232 and the housekeeping control 0.1361, so neither co-regulation nor shared detection is what remains; matching was close (ITGAV 0.5488 against SLC25A3 0.5473, ITGB1 0.5516 against NDUFA1 0.5536, ITGB8 0.224 against ATP6V1D 0.224, LTBP1 0.7177 against COX4I1 0.7158, TGFB1 0.2894 against BAX 0.2868, THBS1 0.5155 against CYB5R3 0.5129). The abundance comparator reproduces the register: epithelial AREG against activation -0.1835 standardised against -0.1496 raw Run record: RQ_Specified/A2_areg_source_delivery/tables/leg2_depth_run.json.
+- **Artefact:** `RQ_Specified/A2_areg_source_delivery/tables/leg2_depth_correlations.tsv; RQ_Specified/A2_areg_source_delivery/tables/leg2_depth_donor_values.tsv; RQ_Specified/A2_areg_source_delivery/tables/stage4_donor_values.tsv`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
+
+### C334. Blocking integrin beta6 changes the epithelial compartment's own transitional or identity programme
+
+- **Status in the register:** Not established (inconclusive: shift intervals span roughly two to three between-mouse standard deviations; delegated reassessment 2026-09-29)
+- **What settled it:** Same eight mice, epithelial anti-HA immunoprecipitation libraries, two-sided by declaration. Frozen transitional panel (Krt8, Krt19, Cldn4, Cdkn1a, Krt7; 5 of 5 measurable) mean difference -0.3599, exact two-sided p 0.885714, shift -0.4181 [-1.9112, +1.4275]; frozen identity panel (Sftpc, Ager) -0.2107, p 0.685714, shift -0.4366 [-2.4426, +1.5693]; 15,062-gene omnibus centroid statistic 79.667358, p 0.657143, with a within-arm distance ratio of 1.0661 against a declared 1.5 threshold so the omnibus is readable as a location statistic. Declared sensitivities agree: unstandardised composites -0.1563 and -0.0497; the corrected broad-reference normalisation gives -0.085856 (p 0.685714) and +0.021399 (p 0.885714). The demoted A0 handling covariate gives -0.1632 (p 0.4857). For scale, the transitional composite separates bleomycin from saline at +1.5637 (p 0.057143, the 4-versus-3 floor). Descriptive depth diagnostics: the transitional composite correlates with log library total at +0.6165 and the identity composite at -0.7958 across the eight mice Run record: RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage3_execute_run.json.
+- **Artefact:** `RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2/stage3_execute_run.json; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2_normalization_correction_v1/panel_scores.tsv; RQ_Specified/A15_epithelial_integrin_tgfb_activation/tables/rival2_normalization_correction_v1/correction_run.json`
+- **Where it came from:** Question-level results: regulatory states and delivery (A1, A2, A8, A14, A15), registered 2026-09-29
 
 ---
 

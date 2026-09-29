@@ -412,14 +412,18 @@ cohort. Two history headings here that still said current were relabelled.
 
 **Pending owner decisions.**
 
-1. **The claim register has no row for any question-specific result.** It ends at
-   C168. So A0's failed transfer, a negative result, is absent from the generated
-   negative-results page, and A5, A10 and A11 findings are absent from the ledger.
-   Grading is the owner's call, so no row was added. Candidates: A5 enrichment in 24 of
-   24 mice; A11 replication in 8 of 8 patients with the beyond-shared test unresolved;
-   the A10 first specification as inconclusive and its fibroblast increment as a
-   specification artefact; the A10 revised within-unit gain and its plate-transfer
-   limit; A0's failed intestinal transfer.
+1. **Owner review of the delegated claim grades, 29 September 2026.** At the owner's
+   request the register grew from 168 to 342 rows, and every folder under
+   `Research Article/` and `RQ_Specified/` is now inventoried. Rows C169-C342 cover the
+   reference atlases, Cardoso trial C6, A0, A5, the shared A5/A11 contract, A10, A11,
+   A6, A9, A12, A13, England with A16, Yu-Lee-Choi-Min, A1, A2, A15, and the A8/A14
+   endpoint requirements. Thirty-three earlier rows were touched, 18 with dated
+   qualifiers and 17 with repaired artefact paths; C4's Kit status moved from Validated
+   to Descriptive only. Each new or changed grade is marked as a delegated reassessment
+   awaiting retain/reject. Four grades most need review: C202 (A5, 24/24 mice) and C205
+   (A11 Kim, 8/8 patients), both proposed Validated within one cohort, and the two
+   Validated-as-a-record rows C253 (deposited simulator branch) and C329 (a frozen depth
+   rule refusing a nominally significant correlation).
 2. **Resolved, 27 September 2026: branch cleanup is complete.** Six merged branches
    were deleted on both local and origin. The two that held unmerged commits were
    deleted on the owner's instruction after each was checked against `main`:
