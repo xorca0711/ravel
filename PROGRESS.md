@@ -40,62 +40,28 @@ of the unlabelled IL1B-carrying cells. Two figures are rendered from tracked
 tables. No analysis ran; no claim row, grade, register card or readiness row
 changed.
 
-## Current A8 and A14 workspaces, 28 September 2026
+## Current delivery corrections, 29 September 2026
 
-The owner asked whether A8 and A14 share enough context to sit together. They do
-not: they share only the absence of a measured mature epithelial outcome and
-measurement contract MC1. A8 is observational and turns on how a maturation
-component is defined; A14 is interventional and turns on IL-1 exposure duration
-and compartment-specific reception. Their populations, predictors, perturbations,
-rivals and decision rules are disjoint, and they sit in different question
-families -- A8 with A1 and A10, A14 with A2, A12 and A13. On that finding the
-owner's instruction was to create separate folders.
+The owner asked to apply the seven findings from the
+[review of PRs #111–#114](docs/audits/2026-09-29-rq-delivery-review/REPORT.md),
+then authorized A1's regulatory primary test if executable. It is not executable
+with current inputs: a regulatory predictor remains unspecified, and no cohort
+links that measurement, early RNA and a later mature endpoint in the same units.
 
-Branch `codex/a8-a14-workspaces` adds
-[A8_maturation_component_at1_contribution](RQ_Specified/A8_maturation_component_at1_contribution/README.md)
-and [A14_withdrawal_recovery_and_reception](RQ_Specified/A14_withdrawal_recovery_and_reception/README.md),
-each with README, RATIONALE, PLAN and a question contract in the house template.
-A8's rationale completes the proposal's open item for it: the 119-gene ADI/AT1
-overlap and the seed-unstable four-gene late-AT1 panel (claim C168) license a
-measurement check and not a maturation mechanism, and the inference runs in
-neither direction because disjointification can remove real shared biology as
-well as a definitional artefact. A14's rationale completes its open item by
-giving H1 (exposure duration) and H2 (fibroblast reception) each its own
-population, arms, outcome, rival set and decision, with an explicit refusal to
-combine them into one experiment. Both folders record that their blocking input
-is a measurement rather than an analysis; A8 additionally records that no
-public-data search has been performed under its frozen eligibility gate. No
-analysis ran, and no claim row, grade, register card or readiness row changed.
+The [A1 matrix](RQ_Specified/A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md)
+now treats IRE1-alpha RNA/AGER as a supporting sourcing candidate rather than the
+decisive regulatory test. Its shared inventory distinguishes measured endpoints
+from missing linkage, resolves the 22-mouse HPCS identity hold and binds A10's
+completed timing statement. A8 preserves distinct association/prediction routes;
+A14 has a directional H1 decision and permits identifiable joint designs and
+eligible existing data. A16's amendment and revised figure labels describe
+attenuation without assigning an explained fraction or treating control count as
+power. Original presentation and scientific outputs are preserved.
 
-## Current A10 and A1 endpoint alignment, 28 September 2026
-
-Second adopted item of the [combined proposal](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md):
-A10's timing and units, then A1's comparison matrix. Branch
-`codex/a10-a1-endpoint-matrix`, stacked on PR #112 (A16 figures).
-
-The [A10 endpoint consolidation](RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md)
-establishes that A10's predictor and outcome are concurrent: imaging is at days 7
-and 14 while the RNA libraries are day-14, the day-7 image is the only earlier
-measurement and is itself post-perturbation, and the unit is the well -- 885
-analysed wells in 15 plate-replicate groups across four plates, a target's four
-repeat wells being aliquots of one cell-Matrigel mixture. Held-out error falls on
-all four plates against the E2F/G2M comparator while R-squared against the
-held-out plate mean stays negative on plates 1, 2 and 4; both are plotted in one
-figure from `model_absolute_performance.tsv`.
-
-The [A1 comparison matrix](RQ_Specified/A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md)
-ranks every branch on whether a measured later outcome exists in the same units
-as the early measurement. None does, which the closure ledger already stated for
-the branch as a whole. It therefore nominates a linkage rather than an analysis:
-the day-7 IRE1-alpha epithelial RNA and the day-14 mature endpoint measured in
-one cohort of animals. Supporting inventories are a 27-branch
-[branch inventory](RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_BRANCH_INVENTORY.md)
-and a 29-outcome [outcome inventory](RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md)
-shared with A8 and A14; the latter records that no EdU, BrdU or label-retention
-assay is named anywhere in the A1 evidence, which is a coverage gap rather than a
-measured negative. A10's endpoint is bound in the matrix as a concurrent growth
-readout that does not qualify as a later outcome. No analysis ran; no claim row,
-grade, register card or readiness row changed.
+See [CORRECTIONS.md](docs/audits/2026-09-29-rq-delivery-review/CORRECTIONS.md) for
+the finding-by-finding resolution and validation. No model was fitted or rescored,
+no new claim was added, and no biological readiness state was promoted. These
+corrections supersede the 28 September nomination and workspace gate wording.
 
 ## Current A16 rationale amendment, 28 September 2026
 

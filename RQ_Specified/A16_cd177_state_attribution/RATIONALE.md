@@ -1,5 +1,8 @@
 # A16 rationale: why marker attribution is its own question
 
+> Current interpretation: read the [dated amendment](#amendment-28-september-2026-the-rationale-as-successive-evidence-states),
+> corrected 29 September 2026. The Stage 0 text below is preserved planning history.
+
 ## The proposition, stated so it can fail
 
 Cd177 detection in a transitional alveolar cell carries information about that cell beyond the
@@ -118,7 +121,9 @@ then withdrew the stronger exclusions in the [original Stage 1 report](reports/S
 and a separately frozen [corrected C1 comparison](correction_20260928/reports/CORRECTED_C1_REPORT.md)
 executed the neighbourhood amendment on one fixed population per library. This section records what
 each of those states changed in the argument, which statements above are superseded or qualified,
-and how the question now reads. It adds no analysis, no claim row and no grade change. The frozen
+and how the question now reads. Wording and figure labels were corrected on 29 September 2026
+after the [delivery review](../../docs/audits/2026-09-29-rq-delivery-review/REPORT.md).
+These changes add no analysis, no claim row and no grade change. The frozen
 [contract](config/a16_question_contract.json) and the [population erratum](reports/STAGE1_ERRATUM.md)
 are hash-verified by `scripts/verify_stage1_evidence.py` and are not modified by this amendment.
 
@@ -149,16 +154,20 @@ deposit clearing all five eligibility conditions — or the discriminating exper
 ## Figures for the amendment
 
 Two panels are rendered from tracked tables by
-[scripts/plot_amendment_figures.py](scripts/plot_amendment_figures.py), with input, script and
-output hashes in [figures/figure_run.json](figures/figure_run.json). They plot saved columns and
+[scripts/plot_amendment_figures_20260929.py](scripts/plot_amendment_figures_20260929.py),
+with input, script and output hashes in
+[figures/revision_20260929/figure_run.json](figures/revision_20260929/figure_run.json).
+This presentation revision changes explanatory labels only; the
+[original figure record](figures/figure_run.json) and its script/images remain
+preserved. The revised panels plot saved columns and
 estimate nothing; they exist because the two things this amendment turns on — how much of the
 association survives conditioning, and why the specificity test could not decide — are both
-comparisons across nine entries that a table renders less legibly than a plot.
+comparisons across endpoints, libraries and control-gene sets.
 
-![Corrected C1 attenuation and residual imbalance](figures/A16_F01_corrected_c1_attenuation.png)
+![Corrected C1 attenuation and residual imbalance](figures/revision_20260929/A16_F01_corrected_c1_attenuation.png)
 
-**Figure A16-F01. Matching on local position removes most of each marginal difference; the priming
-difference is the one that stays clearly positive, and positional imbalance is not removed.**
+**Figure A16-F01. Matched contrasts are smaller than marginal contrasts; the priming
+contrast remains positive, and substantial positional imbalance remains.**
 Corrected C1 on one fixed transitional population per library (GSM7890835: 79 Cd177-positive of
 876 cells; GSM7890836: 60 of 656). (a) Marginal and matched raw differences at k=10 for all seven
 frozen endpoints, in score units of mean log1p(full-library CP10k). (b) The predeclared k
@@ -173,10 +182,10 @@ are not compared with it. The change from marginal to matched is not a fraction 
 explained, and the residuals in (c) are why neither persistence nor attenuation attributes the
 effect to a cell property.
 
-![C3 control-gene scarcity and Cd177's position in the null](figures/A16_F02_c3_specificity_power.png)
+![C3 control-gene scarcity and Cd177's position in the null](figures/revision_20260929/A16_F02_c3_specificity_power.png)
 
-**Figure A16-F02. The specificity null is too sparsely populated to decide: Cd177 exceeds every
-sampled control in four entries and sits inside the null in the best-powered one.** C3
+**Figure A16-F02. Cd177 exceeds every sampled control in four entries and sits inside
+the null in the entry with the most controls; specificity remains unresolved.** C3
 detection-matched gene null for the priming endpoint, nine descriptive entries. (a) Matched
 control genes used per entry, log scale, against the 40-gene readability floor; seven entries fall
 below it. (b) Percentage of each entry's control genes reaching Cd177's effect. Open markers mark
@@ -197,8 +206,8 @@ would be a disclosed post-hoc relaxation, not the frozen C3.
 | 79 positive against 799 negative and 60 against 598 cells | **Qualified** | Actual `primary_include` and `gate_transition` flags give 876 and 656 fixed cells, i.e. 79/797 and 60/596; the founding prose's 878 and 658 do not override the inclusion flags (corrected C1 report) |
 | "They are not depth artefacts", with residualization "retaining 87 to 159 per cent of each effect" | **Superseded** | SMD ratios do not measure a percentage of biological signal retained (register card; integration review, correction 1). FU_A's frozen four-method verdict is inconclusive because one thinning arm has 26 positive cells. C5 thins the marker call while outcomes stay full-depth, and all four thinned-depth rows in the two primary libraries fail the 30-cell floor (integration review, correction 2). Current wording: directions are preserved under the *available full-depth* adjustments; complete depth control was not achieved |
 | "They are largely compositional": Itga2 flips positive in 5 of 7 subclusters, AT2 identity spreads −0.36 to +1.27, only priming persists in 5 of 7 | **Qualified** | Those numbers come from FU_C, which pools libraries within each experiment and uses all `primary_include` cells, not the transition gate (STAGE1_ERRATUM.md, Arm B; integration review, correction 6). They are a diagnostic of the old result, not a within-state conditioning. The within-population statement is now supplied by the corrected C1 secondary endpoints: AT2 identity 0.695824 → 0.112045 and 0.997005 → −0.042701, Itga2 −0.397238 → −0.030124 and −0.651080 → −0.004508, while priming stays 0.409807 and 0.315110 |
-| The matched-gene null, the ambient control and the threshold sensitivity "each close A16 negatively without new data" | **Qualified** | In principle still true; in practice none of the three could. C3: Cd177 exceeds every sampled control in 4 of 9 entries but sits inside the null in the best-powered unit (Experiment-1 subcluster 10, 500 controls), and 7 of 9 entries have fewer than 40 matched controls because Cd177 is detected in about 9% of transitional cells yet carries 1–53 UMIs where detected. C4: the within-cell neutrophil panel cannot estimate ambient RNA in filtered matrices; the reported Spearman compares *detection*, not UMI abundance, with the panel. C5: bounded to full-depth cutoffs. The instruments were too weak to close, which is "inconclusive", not "negative" |
-| Rival 1, finer-scale composition, "if the effect decays monotonically with resolution, this rival wins" | **Open; qualified** | C2's three persisted resolutions give non-monotone weighted effects, but eligibility, represented populations and weights change with resolution (integration review, correction 4). Corrected C1 attenuates the priming residual by roughly two thirds and leaves maximum PC imbalance above 0.5, so position as measured explains much, not all, and the remainder is not shown to be non-positional |
+| The matched-gene null, the ambient control and the threshold sensitivity "each close A16 negatively without new data" | **Qualified** | In principle still true; in practice none of the three could. C3: Cd177 exceeds every sampled control in 4 of 9 entries but sits inside the null in the entry with the most controls (Experiment-1 subcluster 10, 500 controls; this is not a power estimate), and 7 of 9 entries have fewer than 40 matched controls because Cd177 is detected in about 9% of transitional cells yet carries 1–53 UMIs where detected. C4: the within-cell neutrophil panel cannot estimate ambient RNA in filtered matrices; the reported Spearman compares *detection*, not UMI abundance, with the panel. C5: bounded to full-depth cutoffs. The instruments were too weak to close, which is "inconclusive", not "negative" |
+| Rival 1, finer-scale composition, "if the effect decays monotonically with resolution, this rival wins" | **Open; qualified** | C2's three persisted resolutions give non-monotone weighted effects, but eligibility, represented populations and weights change with resolution (integration review, correction 4). Corrected C1 attenuates the priming residual by roughly two thirds and leaves maximum PC imbalance above 0.5, so it establishes attenuation under this matching procedure, not how much position explains; neither the reduction nor the remainder has been biologically attributed |
 | Rival 2, generic gradient behaviour, "the rival most likely to be correct" | **Open; unchanged** | C3 inconclusive for control-gene scarcity. In Experiment-1 subcluster 18 the median matched control shows +0.963 against Cd177's +2.323, but the median control SMD is not an additive decomposition (integration review, correction 5) |
 | Rival 3, ambient neutrophil RNA, "addressed by the ambient-origin control" | **Open; the State 1 exclusion is withdrawn** | Conditioning retains 87–139% of the effect, but a low panel correlation or a remaining adjusted effect does not test every contamination source (integration review, correction 1). The Stage 0 text's own "known weakness" paragraph was correct |
 | Rival 4, detection threshold, "addressed by threshold sensitivity" | **Bounded, not excluded** | Directions are stable across 1/2/3-UMI cuts at full depth; thinned-depth rows fail the floor. The Stage 1 prose "detection-threshold artefact is excluded" is superseded |
@@ -223,11 +232,12 @@ would be a disclosed post-hoc relaxation, not the frozen C3.
   depth quartile in a gene-excluded local PCA space, per library.
 - **Independent unit.** The sequencing library. Two libraries, one experiment, no deposited animal
   identities; no population inference is available and none is claimed.
-- **Possible interpretations of the current numbers.** (a) Position as measured accounts for most of
-  the marginal association, and the remainder is composition below the resolution of a 20-PC local
-  space, generic gradient behaviour, or contamination; (b) a Cd177-linked priming component exists
-  within comparable cells. The corrected C1 numbers are compatible with both. Neither attenuation nor
-  persistence is an explained fraction of signal.
+- **Observation and possible interpretations.** The matched priming contrast is smaller than the
+  marginal contrast, while substantial PC imbalance remains. Positional composition, generic gradient
+  behaviour or contamination could contribute; a Cd177-linked priming component within comparable
+  cells could also contribute. These explanations can coexist. The corrected C1 comparison does not
+  quantify their contributions, and neither attenuation nor persistence is an explained fraction
+  of signal.
 - **Exact next evidence gate.** Stage 2 of PLAN.md, unchanged: protein-level CD177 separation within
   an independently assigned transitional state, a measured outcome on the separated fractions, at
   least three animals or donors per arm with deposited identities, and enough transcriptome to place

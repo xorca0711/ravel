@@ -1,6 +1,7 @@
 {
-  "schema": "a14-withdrawal-recovery-and-reception/v1",
+  "schema": "a14-withdrawal-recovery-and-reception/v2",
   "drafted": "2026-09-28",
+  "corrected": "2026-09-29",
   "status": "registered_design_unexecuted_nothing_computed",
   "registration": {
     "decided_by": "owner",
@@ -39,7 +40,14 @@
         "death and replacement",
         "time in culture or in vivo rather than time under exposure"
       ],
-      "decision": "a recovery difference after verified withdrawal supports H1; a precise absence weakens it; failed engagement or no post-withdrawal observation is inconclusive"
+      "decision": "a meaningful decrease after sustained versus transient exposure supports H1 under the prespecified uncertainty rule; a reliable meaningful increase contradicts its direction; otherwise a precise absence of a meaningful decrement weakens it; an imprecise estimate, failed engagement or missing post-withdrawal observation is inconclusive",
+      "decision_specification": {
+        "contrast": "recovery after sustained exposure minus recovery after transient exposure",
+        "meaningful_decrement_threshold": null,
+        "uncertainty_rule": null,
+        "status": "threshold and uncertainty rule must be fixed before outcome inspection; this contract does not yet authorize scoring",
+        "interpretation_limits": "viability must distinguish reduced recovery from toxicity; absent lineage evidence limits inference to mature yield rather than recovery of originally transitional cells"
+      }
     },
     "H2_reception": {
       "statement": "fibroblast IL-1 reception modifies epithelial recovery beyond direct epithelial reception of the same signal",
@@ -63,25 +71,43 @@
       "decision": "an outcome change under fibroblast-specific intervention with epithelial reception controlled supports H2; a precise absence weakens it; failed engagement is inconclusive"
     }
   },
-  "must_not_be_combined_into_one_experiment": "arms varying exposure duration and receiving compartment together confound the two claims, and the two hypotheses have different control requirements",
+  "joint_design_eligibility": {
+    "allowed": true,
+    "H1": "identifiable duration contrast at fixed receiving conditions, with time-matched unexposed controls",
+    "H2": "identifiable reception contrast at fixed exposure and withdrawal schedule, with direct epithelial reception controlled",
+    "requirements": "each hypothesis must meet its own observation, engagement, outcome and biological-unit requirements; assess interactions and uncertainty without treating shared units as independent replication",
+    "prohibited": "inferring separate duration and reception effects from an inseparable contrast that changes both factors together",
+    "decisions_remain_separate": true
+  },
   "unit_and_inference": {
     "unit": "the animal, or an independently prepared culture",
-    "floor": "at least three independent units per arm with identities recorded",
+    "floor": "at least three independent units per arm with identities recorded; this floor alone does not establish adequate decision precision",
     "repeat_wells_are_not_preparations": "four wells split from a common mixture count as one unit (A2 recovered methods)"
   },
   "motivating_but_non_answering_evidence": {
     "A12": "exploratory 12-patient pilot: recipient receptor and inhibitor RNA improved held-out prediction of an inflammatory RNA response; fibroblast increment unstable; no withdrawal, no reception measurement",
     "A13": "amended pilot: no aggregate held-out gain from a fibroblast programme; RMSE 0.2283 to 0.2373; human cross-section"
   },
-  "feasibility_state_on_2026_09_28": {
-    "H1_system_available": false,
-    "H2_system_available": false,
-    "outcome_requirement": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md row O28, not available",
-    "note": "the survey covered the A1 documents rather than the public archives or the group's own capability; this is not a claim that the experiment is infeasible"
+  "feasibility_state_on_2026_09_29": {
+    "H1_eligible_dataset_identified_in_reviewed_evidence": false,
+    "H2_eligible_dataset_identified_in_reviewed_evidence": false,
+    "outcome_requirement": "RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md row O28; eligible withdrawal evidence remains unidentified",
+    "available_measurement_boundary": "O2/O3 contain measured mature and genetically lineage-labelled endpoints, but do not establish A14's required linkage and contrasts; O29's EdU/BrdU/label-retention documentation limit does not negate genetic lineage evidence",
+    "note": "the survey covered A1 documents; no public-archive search under these eligibility conditions has been completed, and no global absence or infeasibility is established"
+  },
+  "evidence_sourcing": {
+    "eligible_routes": [
+      "existing deposits with sufficient supporting metadata",
+      "available author-provided data meeting the same contract",
+      "new data generation if bounded sourcing remains unresolved"
+    ],
+    "bounded_search_status": "not performed; record source scope, queries and stopping rule before sourcing",
+    "candidate_record": "record acceptance, rejection or unresolved eligibility and reasons separately for H1 and H2",
+    "requirements_unchanged": "endpoint, withdrawal, timing, contrast, safeguards and independent biological units apply to every route"
   },
   "prohibitions": [
     "reading loss of a transitional RNA score as recovery",
-    "combining the two hypotheses into one experiment",
+    "inferring separate effects from confounded inseparable duration and reception contrasts",
     "claiming withdrawal without measured post-withdrawal engagement",
     "treating receptor or inhibitor RNA as measured reception",
     "counting repeat wells from one mixture as independent preparations",
