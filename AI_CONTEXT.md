@@ -1,5 +1,30 @@
 # AI context
 
+## Current A12 group rationale and plans, 28 September 2026
+
+Branch `codex/a12-a13-rationale` adds local rationale and plan files for A12 and
+A13 and an A12-S1 evidence map. Rules for later sessions:
+
+- **A12's pilot is closed.** Do not rerun, retune or extend the conditional
+  comparison on GSE308103. The recipient index is RNA, not receptor occupancy; the
+  endpoint is general inflammatory transcription and is NOT IL-1-specific.
+- **Choose the validation kind before opening data.** The pilot stored LOPO
+  predictions, not a fitted model. Fixed-procedure replication and fitted-model
+  transport answer different questions; transport requires serializing the
+  all-pilot coefficients and committing them first. That fit does not exist.
+- **The three rejected A12 cohorts stay rejected** (Kim zero tumour AT2, Laughney
+  at most four pairs, Wu no normal arm). They failed on units and states before
+  any outcome was opened, so they are not evidence against recipient context.
+- **A13's cycle is closed.** Do not screen alternative fibroblast modules against
+  its outcome. Its null covers one programme, one RNA proxy, one cohort; no model
+  in its ladder beats the training mean, so the instrument is weak. TGF-beta
+  pathway RNA is not active TGF-beta (that is A15), and the HPCS proxy is not
+  lineage potential.
+- **Source terms in both are assignment-conditional** while A12-S1 is open. Cells
+  without a confident label carry median 51.7-72.1% of recovered IL1B counts by
+  histology; they must not be silently excluded from a total-source claim, and a
+  relaxed confidence cutoff or a UMAP cluster does not resolve identity.
+
 ## Current A8 and A14 workspaces, 28 September 2026
 
 Branch `codex/a8-a14-workspaces` gives A8 and A14 their own folders. Both were

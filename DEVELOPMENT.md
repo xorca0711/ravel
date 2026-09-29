@@ -1685,3 +1685,17 @@ neither direction of the inference is identified; A14's gives each of its two
 hypotheses an independent design and decision. Both remain blocked on
 measurements that do not exist, and both say so rather than proposing an analysis.
 Documentation only; no result, grade or register wording changed.
+
+## 28 September 2026: local rationale and plans for the A12 group
+
+Continuing the adopted proposal, Claude Science wrote the A12 and A13 rationale
+and plan files and one shared A12-S1 evidence map. Two things emerged that the
+proposal's wording did not anticipate. First, A12's endpoint choice needed
+defending rather than describing: a general inflammatory readout cannot show IL-1
+specificity, and the design's answer is to put TNF in the comparator rather than
+to claim selectivity. Second, A13's null is weaker than it looks -- no model in
+its ladder beats the training mean, so the closed comparison is between two
+models that both predict worse than a constant, which is a statement about the
+instrument and not about fibroblast biology. Both are recorded in the documents
+rather than smoothed over. Documentation only; no result, grade or register
+wording changed.
