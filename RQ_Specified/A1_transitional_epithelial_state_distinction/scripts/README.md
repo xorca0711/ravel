@@ -137,3 +137,9 @@ and [contract](../config/regulatory_fate_analysis.json) describe each estimand.
 Scripts 33–35 refuse completed-output overwrites; do not rerun as a routine
 status check. Script 32 validates the hash and URL when reusing a fetched file;
 its transport inventory does not substitute for source-content validation.
+
+Script `36_render_identity_revisions_20260929.py` renders versioned HPCS
+composition/robustness and deposited-source PCA presentations from tracked
+tables. It incorporates the resolved mouse/CD44 identities without changing
+coordinates, omission ranges, scientific tables or the historical figures.
+Outputs and input/preservation hashes live in `figures/revision_20260929/`.

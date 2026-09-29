@@ -12,6 +12,13 @@ This page is for human readers. The machine-oriented counterpart, repository
 rules, environment constraints, and pitfalls a future AI session must not
 violate, is [`AI_CONTEXT.md`](AI_CONTEXT.md).
 
+## Figure presentation audit, 29 September 2026
+
+The user requested completion of PR #118 after review of merged PR #117. Codex coordinated
+three bounded figure reviews and integrated saved-table presentation corrections. The
+[audit](docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md) records decisions, coverage depth and
+remaining reproduction inputs. No new scientific model fit or raw-RNA scoring was performed in this presentation pass; the changes do not promote biological claims.
+
 ## Who decided what
 
 | Responsibility | Primary authority |

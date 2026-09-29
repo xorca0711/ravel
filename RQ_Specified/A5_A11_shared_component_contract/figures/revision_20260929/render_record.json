@@ -1,0 +1,13 @@
+{
+  "mode": "presentation_only_from_saved_estimates",
+  "script_sha256": "c27254dc30efeedf05eea091670eb4790d7ca6e7522237bf62d3dd5545eed31f",
+  "inputs": {
+    "RQ_Specified/A5_developmental_programme_reuse/tables/test_v1/inference.tsv": "d276064aa2bfb57a9582b97211c398a7a53af446e02f1672b3456699562728d8",
+    "RQ_Specified/A11_lesion_programme_addition/tables/test_v2/inference.tsv": "c6d88911b49ae354bc150ea3fec2ad38e92469c05416af164eb6a9833ad7dfe1"
+  },
+  "outputs": {
+    "a5_a11_results.png": "0021141b31b2a368b99db19edf88b3582383851a82a06c3557f50081b716b06b",
+    "a5_a11_results.svg": "2bf22159d21dfac7608ced6343c0d93ad01bdf1069fc1932b742d2f6f8476856"
+  },
+  "change": "Label A5 n as mice and A11 n as patient pairs; original estimates, intervals and historical outputs preserved."
+}

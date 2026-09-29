@@ -5,7 +5,7 @@ Figure 2 of trial C5 shows what Areg deletion does to the six genes of the
 paper's reprogrammed-fibroblast set: Runx1 and Pdgfrb keep almost all their
 detection, Fst and Runx2 lose most of theirs. That figure states a measurement
 and remains correct. What it invited was an interpretation, that a second
-tumour-specific signal sustains the retained tier, and trial E4 refutes it.
+tumour-specific signal sustains the retained tier, and trial E4 shows that retention alone does not establish it.
 
 The refutation is a two-panel argument and is hard to see in a table, which is
 the only reason this figure exists. On the left, how much detection each gene
@@ -49,52 +49,18 @@ RULES = {
 }
 
 
-def main():
-    import matplotlib
-    matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-
-    rec = RunRecord(OUT / "e5_run_record.json", "E5 figure for the C29 refutation", RULES)
-    for path in (RETENTION, INJURY):
-        rec.add_input(path)
-    keep = pd.read_csv(RETENTION).set_index("gene")
-    injury = pd.read_csv(INJURY)
-
-    bleo = injury[injury["group"] == "bleomycin"]
-    untr = injury[injury["group"] == "untreated"]
-    rows = []
-    for gene in GENES:
-        column = "det_" + gene
-        values_b = bleo[column].astype(float).tolist()
-        values_u = untr[column].astype(float).tolist()
-        rows.append({"gene": gene,
-                     "retention_pct": round(float(keep.loc[gene, "retention_pct"]), 1),
-                     "bleomycin_min": min(values_b), "bleomycin_max": max(values_b),
-                     "untreated_min": min(values_u), "untreated_max": max(values_u),
-                     "injury_generic": bool(min(values_b) > max(values_u))})
-    table = pd.DataFrame(rows)
-    table.to_csv(OUT / "e5_retention_against_injury.csv", index=False)
-    rec.add_output(OUT / "e5_retention_against_injury.csv")
-
-    top_two = set(table.nlargest(2, "retention_pct")["gene"])
-    if top_two != {"Runx1", "Pdgfrb"}:
-        raise SystemExit("the retained tier is no longer Runx1 and Pdgfrb; refusing to draw this figure")
-    both = table[(table["retention_pct"] >= 80) & table["injury_generic"]]["gene"].tolist()
-    rec.set("retained_and_injury_generic", both)
-    rec.set("injury_generic_count", int(table["injury_generic"].sum()))
-
+def render_figure(table, plt, path):
+    """Draw saved values only; no fits or inferential changes."""
     V.apply(plt)
     order = table.sort_values("retention_pct").reset_index(drop=True)
-    fig = plt.figure(figsize=(13.6, 5.4), dpi=150)
+    fig = plt.figure(figsize=(15.5, 5.4), dpi=150)
     generic_n = int(table["injury_generic"].sum())
-    fig.text(0.012, 0.945, "Injury alone turns on " + str(generic_n) + " of the 6 genes, whether or not "
-             "they survive Areg deletion", fontsize=15, fontweight="semibold", color=V.INK)
+    fig.text(0.012, 0.945, "Injury samples show higher detection of " + str(generic_n) + " of the 6 genes, including both retained genes", fontsize=15, fontweight="semibold", color=V.INK)
     fig.text(0.012, 0.898, "Left: fibroblasts of GSE316244, one library per genotype. Right: sorted "
              "Col1a1-GFP mesenchyme of GSE132771, two bleomycin and two untreated animals, no oncogene "
              "present.", fontsize=10, color=V.INK_2)
-    fig.text(0.012, 0.862, "The tiers on the left carry no tumour-specific information: Runx1 and "
-             "Pdgfrb persist without Areg and also rise with bleomycin, so their persistence is "
-             "fibroblast activation.", fontsize=10, color=V.INK_2)
+    fig.text(0.012, 0.862, "Runx1 and Pdgfrb are retained and are also higher in injury samples; retention alone does not establish "
+             "a tumour-specific signal.", fontsize=10, color=V.INK_2)
 
     left = fig.add_axes([0.075, 0.12, 0.36, 0.68])
     left.set_xlim(0, 118)
@@ -129,13 +95,50 @@ def main():
                           linewidths=1.4, zorder=3,
                           label=name + " (2 animals)" if i == 0 else None)
         if row["injury_generic"]:
-            right.text(float(row["bleomycin_max"]) + top * 0.025, i, "rises with injury",
+            right.text(float(row["bleomycin_max"]) + top * 0.025, i, "higher in both injury animals",
                        fontsize=8.5, color=V.INK_2, va="center")
     right.legend(loc="lower right", handletextpad=0.4)
 
-    path = OUT / "e5_retention_against_injury.png"
     fig.savefig(path, bbox_inches="tight")
     plt.close(fig)
+
+
+def main():
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    rec = RunRecord(OUT / "e5_run_record.json", "E5 figure for the C29 refutation", RULES)
+    for path in (RETENTION, INJURY):
+        rec.add_input(path)
+    keep = pd.read_csv(RETENTION).set_index("gene")
+    injury = pd.read_csv(INJURY)
+
+    bleo = injury[injury["group"] == "bleomycin"]
+    untr = injury[injury["group"] == "untreated"]
+    rows = []
+    for gene in GENES:
+        column = "det_" + gene
+        values_b = bleo[column].astype(float).tolist()
+        values_u = untr[column].astype(float).tolist()
+        rows.append({"gene": gene,
+                     "retention_pct": round(float(keep.loc[gene, "retention_pct"]), 1),
+                     "bleomycin_min": min(values_b), "bleomycin_max": max(values_b),
+                     "untreated_min": min(values_u), "untreated_max": max(values_u),
+                     "injury_generic": bool(min(values_b) > max(values_u))})
+    table = pd.DataFrame(rows)
+    table.to_csv(OUT / "e5_retention_against_injury.csv", index=False)
+    rec.add_output(OUT / "e5_retention_against_injury.csv")
+
+    top_two = set(table.nlargest(2, "retention_pct")["gene"])
+    if top_two != {"Runx1", "Pdgfrb"}:
+        raise SystemExit("the retained tier is no longer Runx1 and Pdgfrb; refusing to draw this figure")
+    both = table[(table["retention_pct"] >= 80) & table["injury_generic"]]["gene"].tolist()
+    rec.set("retained_and_injury_generic", both)
+    rec.set("injury_generic_count", int(table["injury_generic"].sum()))
+
+    path = OUT / "e5_retention_against_injury.png"
+    render_figure(table, plt, path)
     rec.add_output(path)
 
     lines = ["# Trial E5: the figure for the C29 refutation", "",

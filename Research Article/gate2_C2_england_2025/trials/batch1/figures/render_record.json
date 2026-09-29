@@ -5,7 +5,7 @@
   "figures": [
     {
       "file": "EN_F02_genotype_contrasts.png",
-      "sha256": "1770d33fc8abeaece0546e52ea7a7faa01e629b0fe44dfb2379c00c05002f7b0"
+      "sha256": "599bb1243c810c907d2817299e1a849afb9df4e03215ad283e0f8ecbed2c9e7f"
     },
     {
       "file": "EN_F03_library_distributions.png",
@@ -18,6 +18,20 @@
     {
       "file": "EN_F06_spatial_profiles.png",
       "sha256": "65d9aaf9b89d785028d1559bbc0d70d41461193848c125b4669b92f69e1be7ac"
+    },
+    {
+      "file": "EN_F02_genotype_contrasts.svg",
+      "sha256": "3318ad3d00c91710ef19c00600c6250745f9ebcfa6cee281c43d1b61f51e3ec3"
     }
-  ]
+  ],
+  "latest_render": {
+    "script_sha256": "fa3cc7026f61833b1ea623874ab41fa0788b0f7893b380b0576fd154f5c51771",
+    "selected_figures": [
+      "EN_F02"
+    ],
+    "inputs": {
+      "rna/library_contrasts.csv": "dc1361e04dc1b3d92ab8aed89f701b581bc81daead72b7588845ff736fa7d90b"
+    },
+    "note": "Unselected figure hashes are preserved from their earlier render."
+  }
 }

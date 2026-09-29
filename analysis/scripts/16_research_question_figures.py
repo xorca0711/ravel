@@ -266,6 +266,40 @@ def sha256(path: Path) -> str:
         return hashlib.file_digest(handle, "sha256").hexdigest()
 
 
+def record_input(path: Path) -> None:
+    """Keep external cache locations explicit while retaining portable repository paths."""
+    path = path.resolve()
+    key = path.relative_to(REPO).as_posix() if path.is_relative_to(REPO) else path.as_posix()
+    RECORD.setdefault("input_sha256", {})[key] = sha256(path)
+
+
+def a1_display_cache():
+    """Read only A1 display metadata and reuse its frozen detection table.
+
+    No RNA count matrix, new depth calculation or embedding is needed for a caption
+    revision. The source run record supplies the original detection budgets.
+    """
+    from anndata.io import read_elem
+    from types import SimpleNamespace
+    path = CACHE / "gse310539_wildtype.h5ad"
+    with h5py.File(path, "r") as handle:
+        a = SimpleNamespace(obs=read_elem(handle["obs"]),
+                            obsm={"X_umap": read_elem(handle["obsm/X_umap"])},
+                            uns={"n_promoter_peaks": read_elem(handle["uns/n_promoter_peaks"])})
+    record_input(path)
+    source = REPO / "analysis/figures/rq"
+    detection_path, run_path = source / "rq_a1_detection_at_budget.csv", source / "run_record.json"
+    for p in (detection_path, run_path):
+        record_input(p)
+    detection = pd.read_csv(detection_path)
+    original = json.loads(run_path.read_text())["panels"]["A1"]
+    observed_wells = a.obs["well"].value_counts().to_dict()
+    if observed_wells != original["wells"]:
+        raise ValueError("Display-cache well counts do not match the frozen A1 record")
+    RECORD["A1_display_source"] = "cached obs/UMAP + frozen detection table and depth budgets; no count matrix read"
+    return a, (detection, original["budget"])
+
+
 def cached(tag: str, build, *, backed=None):
     import anndata as ad
     p = CACHE / f"{tag}.h5ad"
@@ -285,7 +319,7 @@ def cached(tag: str, build, *, backed=None):
                 a.file.close()
             raise ValueError(f"Cache lacks X_umap: {p}; no automatic rebuild")
         log(f"  {tag}: cached embedding")
-    RECORD.setdefault("input_sha256", {})[p.relative_to(REPO).as_posix()] = sha256(p)
+    record_input(p)
     return a
 
 
@@ -394,7 +428,7 @@ def all_well_counts_gse310539() -> pd.DataFrame:
     return df
 
 
-def figure_a1(a) -> dict:
+def figure_a1(a, frozen_detection=None) -> dict:
     xy = a.obsm["X_umap"]
     well = a.obs["well"].to_numpy()
     trans = a.obs["transitional_label"].to_numpy()
@@ -420,9 +454,10 @@ def figure_a1(a) -> dict:
     rna = a.obs["score_AT2_identity"].to_numpy()
     atac = a.obs["atac_at2_promoter"].to_numpy()
     violins(axes[1, 1], [(n, rna[m], c) for n, m, c in groups], "AT2 identity RNA score")
-    axes[1, 1].set_title("e  RNA score, by group", fontsize=8)
+    axes[1, 1].set_title("e  RNA score across nuclei in each subset", fontsize=8)
     # panel f: the form of the registered statistic, detection at one depth budget
-    det, budget = detection_at_budget(a, [(n, m) for n, m, _ in groups])
+    det, budget = (frozen_detection if frozen_detection is not None else
+                   detection_at_budget(a, [(n, m) for n, m, _ in groups]))
     spec_f = axes[1, 2].get_subplotspec()
     axes[1, 2].remove()
     gsf = spec_f.subgridspec(1, 2, wspace=0.45)
@@ -442,11 +477,11 @@ def figure_a1(a) -> dict:
     axes[2, 0].set_title("g  Promoter chromatin, per nucleus, by group", fontsize=8)
     violins(axes[2, 1], [(n, np.log10(np.maximum(depth[m], 1)), c) for n, m, c in groups],
             "log10 ATAC counts per nucleus")
-    axes[2, 1].set_title("h  ATAC depth, by group", fontsize=8)
+    axes[2, 1].set_title("h  ATAC depth across nuclei in each subset", fontsize=8)
     violins(axes[2, 2], [(n, atac[m][atac[m] > 0], c) for n, m, c in groups],
             "log1p promoter counts per 10,000 ATAC counts")
     axes[2, 2].set_title("i  Promoter chromatin, nuclei with any signal", fontsize=8)
-    fig.suptitle("A1  Closed or silenced: the AT2 identity programme in RNA and in chromatin, "
+    fig.suptitle("A1  AT2 identity RNA and promoter accessibility: measurement diagnostics, "
                  "GSE310539 wildtype wells", x=0.01, ha="left", fontsize=12.5, fontweight="semibold")
     # The three compared groups come from TWO libraries: one wildtype PBS well and one
     # wildtype SeV well. Violins in e, g, h and i show spread across nuclei, which is a
@@ -456,7 +491,7 @@ def figure_a1(a) -> dict:
                              | [m for _, m, _ in groups][2]]))
     fig.text(0.01, 0.005,
              "Panels e, g, h and i compare three groups drawn from "
-             f"{len(_wells)} pooled wells ({', '.join(_wells)}): the SeV reference and SeV "
+             f"{len(_wells)} wells ({', '.join(_wells)}): the SeV reference and SeV "
              "transitional groups are subsets of one library.\n"
              "Violin spread is across nuclei - a scale, not uncertainty across animals - so "
              "between-group differences have no biological replication and no between-animal "
@@ -703,12 +738,15 @@ def main() -> int:
     global OUT, CACHE, REBUILD
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--figures", nargs="+", choices=ACTIVE_FIGURES, required=True)
+    ap.add_argument("--cache-dir", type=Path, default=CACHE,
+                    help="existing display-cache directory (may be outside this checkout)")
     mode = ap.add_mutually_exclusive_group(required=True)
     mode.add_argument("--replot", action="store_true", help="require existing display caches; never refit embeddings")
     mode.add_argument("--rebuild-embeddings", action="store_true", help="explicitly prepare fresh display embeddings")
     args = ap.parse_args()
     selected = list(dict.fromkeys(args.figures))
     REBUILD = args.rebuild_embeddings
+    CACHE = args.cache_dir.resolve()
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
     OUT = REPO / "analysis" / "figures" / "rq" / "renders" / run_id
     OUT.mkdir(parents=True, exist_ok=False)
@@ -721,12 +759,17 @@ def main() -> int:
     RECORD["caption_owner"] = "analysis/figures/rq/README.md (curated); panel facts in this record"
     vs.apply(plt)
     if {"A1", "A4"}.intersection(selected):
-        wt = cached("gse310539_wildtype", build_gse310539)
+        display_only = not REBUILD and "A4" not in selected
+        if display_only:
+            wt, frozen_detection = a1_display_cache()
+        else:
+            wt = cached("gse310539_wildtype", build_gse310539)
+            frozen_detection = None
         if "A1" in selected:
-            ensure_promoter_score(wt)
-            cache_path = CACHE / "gse310539_wildtype.h5ad"
-            RECORD["input_sha256"][cache_path.relative_to(REPO).as_posix()] = sha256(cache_path)
-            figure_a1(wt)
+            if not display_only:
+                ensure_promoter_score(wt)
+                record_input(CACHE / "gse310539_wildtype.h5ad")
+            figure_a1(wt, frozen_detection)
         if "A4" in selected:
             figure_a4(wt, all_well_counts_gse310539())
         del wt

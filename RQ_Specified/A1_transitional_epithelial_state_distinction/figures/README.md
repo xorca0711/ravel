@@ -1,5 +1,11 @@
 # A1 figure gallery
 
+The three [29 September identity-label revisions](revision_20260929/run_record.json)
+below update the HPCS and CD44 presentations to the recovered animal evidence.
+Their numerical tables, PCA coordinates and historical outputs are preserved;
+[script 36](../scripts/36_render_identity_revisions_20260929.py) performs only
+table-based rendering and verifies the unchanged hashes.
+
 ## Latest: regulatory perturbation and context-dependent outcomes
 
 ![AP-1 regional HOPX response](regulatory_fate/ap1_region_outcome.png)
@@ -39,16 +45,18 @@ independent validation. [SVG](evidence_closure/a1_hpcs_abstention.svg),
 
 ## Previous: source influence and alternative transcript starts
 
-![HPCS source and annotation robustness](robustness_2026-09-25/a1_hpcs_robustness.png)
+![HPCS mouse and annotation robustness](revision_20260929/a1_hpcs_robustness.png)
 
-Dots retain full-group equal-source and pooled-cell HPCS fractions; lines show
-the range after omitting each source, not confidence intervals. The heatmap
+Dots retain full-group equal-mouse and pooled-cell HPCS fractions; lines show
+the range after omitting each mouse, not confidence intervals. The heatmap
 compares deposited partitions using ARI, not biological accuracy. The 22 source
 aliases were unverified at that run; the new animal table now resolves them.
 Chase still cannot be separated from
 unrestricted source-library effects in this design.
 [Report and full tables](../reports/ROBUSTNESS_REPORT.md),
-[SVG](robustness_2026-09-25/a1_hpcs_robustness.svg).
+[Revised SVG](revision_20260929/a1_hpcs_robustness.svg).
+The [historical image](robustness_2026-09-25/a1_hpcs_robustness.png) retains
+the pre-crosswalk wording as an earlier evidence state.
 
 ![Alternative TSS sensitivity](robustness_2026-09-25/a1_histone_tss_robustness.png)
 
@@ -120,20 +128,26 @@ is inferred. [Values](../tables/direct_marks_2026-09-25/methylation_domain_overl
 
 ## HPCS trace-linked descendant source composition
 
-![HPCS source composition](hpcs_source_composition/a1_hpcs_source_composition.png)
+![HPCS mouse composition](revision_20260929/a1_hpcs_source_composition.png)
 
-5,333 retained author-designated traced cells across 22 source labels. Each
+5,333 retained author-designated traced cells across 22 verified distinct mice. Each
 bar retains every RNA-state category, including zeros; N denotes captured
 cells, not biological replicates. Source labels, driver and chase are linked
 to author hash assignments and GEO libraries in the
 [manifest](../tables/hpcs_source_composition/source_manifest.tsv).
-Current mScarlet is absent in these traced rows. Mouse/pool independence and
-the IGO17543 age discrepancy remain unresolved, so the panel is a descriptive
-source reproduction with no p-values or transition rates. Source means and
+The [animal crosswalk](../tables/regulatory_fate/hpcs_mouse_crosswalk.tsv)
+resolves the mouse identities and IGO17543 harvest at 14 weeks after induction
+at 12 weeks. Historical group ID `Hopx_12wk14d` is retained as a source key.
+Current mScarlet remains unavailable in these traced rows. Chase/library
+confounding, differing sex/reporter composition and four study animals without
+retained aliases remain; the panel is descriptive, with no temporal p-values
+or transition rates. Equal-mouse means and
 cell-pooled fractions are reported separately in the
 [summary](../tables/hpcs_source_composition/group_descriptive_summary.tsv).
 [Counts](../tables/hpcs_source_composition/source_state_counts.tsv),
-[SVG](hpcs_source_composition/a1_hpcs_source_composition.svg).
+[Revised SVG](revision_20260929/a1_hpcs_source_composition.svg).
+The [historical image](hpcs_source_composition/a1_hpcs_source_composition.png)
+preserves the original pre-crosswalk interpretation.
 
 ## IRE1α perturbation: sample structure and treatment effects
 
@@ -175,15 +189,19 @@ mutually exclusive composition or transition-rate estimate is assumed.
 
 ## Descriptive ATAC and protein-sorted RNA profiles
 
-![Deposited-source PCA for TIGIT ATAC and CD44 RNA](a1_deposited_source_PCA.png)
+![Deposited-source PCA for TIGIT ATAC and CD44 RNA](revision_20260929/a1_deposited_source_PCA.png)
 
 PCA of deposited integer counts after CPM/log2 transformation, using 2,000
-variable features. Lines connect literal source aliases. ATAC pool independence
-and CD44 alias-to-genotype mapping are unresolved; neither plot supplies
-biological replication or an inferential contrast. Labels and coordinates:
+variable features. TIGIT lines connect source aliases; ATAC pool independence
+remains unresolved. CD44 sample identity and genotype mapping are resolved:
+lines join the two sorted samples from each of four WT and four mutant mice.
+The unchanged PCA coordinates remain descriptive and do not replace the
+separate paired model. Labels and coordinates:
 [ATAC](../tables/descriptive/GSE154966_source_PCA_QC.tsv),
 [CD44 RNA](../tables/descriptive/GSE273123_source_PCA_QC.tsv),
-[SVG](a1_deposited_source_PCA.svg).
+[Revised SVG](revision_20260929/a1_deposited_source_PCA.svg),
+[verified CD44 identities](../tables/evidence_closure/cd44_sample_manifest.tsv).
+The [historical PCA image](a1_deposited_source_PCA.png) is preserved.
 
 No biological peak-overlap plot was made for GSE141635: the deposited histone
 calls use incompatible region settings. The
@@ -201,7 +219,7 @@ histone-modification or fate questions.
 | A1-1 | Sampling and modality-specific state maps | Assay/design diagram; separate RNA and ATAC UMAPs; cross-assignment matrix |
 | A1-2 | Sample-level accessible regulatory programmes | PCA with paired sources joined; accessibility effects; motif heatmap; genome tracks |
 | A1-3 | Direct histone marks and methylation reference | Descriptive tracks/domain heatmap completed above; replicated direct-mark effects and promoter CpG estimates remain future work |
-| A1-4 | Measured lineage, then testable time/topology | PATS mouse endpoints and HPCS source-composition table completed; verified HPCS biological units and independently testable trajectory remain future work |
+| A1-4 | Measured lineage, then testable time/topology | PATS mouse endpoints and HPCS composition completed; all 22 retained HPCS mice verified; chase/library confounding still prevents an independent temporal contrast |
 | A1-5 | Functional perturbation and linked phenotype | RNA response, eligible pathways and separately measured differentiation/fibroblast outcomes |
 | A1-6 | Optional tissue proteins and cross-assay synthesis | Donor/ROI protein, morphology and regional effects; measured-versus-inferred evidence matrix |
 

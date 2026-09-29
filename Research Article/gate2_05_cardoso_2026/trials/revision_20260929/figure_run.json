@@ -1,0 +1,36 @@
+{
+  "scope": "Presentation only: scoped claims and unit/uncertainty wording; no scientific fits or values changed.",
+  "preserved": "Original C11 and E5 images, trial records, tables and summaries.",
+  "inputs_sha256": {
+    "e6_donor_level_axis_coupling/e6_per_donor.csv": "dd558fdd64da1a8ab67b51bc35c9622acee5ee3c8e82d6aac8f109d79cd59fc7",
+    "e6_donor_level_axis_coupling/e6_correlations.csv": "0564710e10d4f38a0250155e9e6a5b54c5950c3ca32c1d5949b50305ffa1d917",
+    "c7_what_the_sort_contaminant_is/c7_profile_correlations.csv": "4f54b43610beac797ff8f61407e59d594539740755165a53d18fc12cc7942aab",
+    "c8_subpopulation_or_gradient/c8_codetection_ratios.csv": "6e4735f4ecb9a162a127bc511f079213015b7b7d4b6c44fdeb152c382b547f03",
+    "c6_who_makes_egfr_ligands/c6_hbegf_survival.csv": "c81762ee3e965dcddf688d5bc70ebd68656e056284cad0a68b769f732f44e518",
+    "e2_human_fibrosis_ligand_sources/e2_ipf_ranking_by_celltype.csv": "a4198a040504a51aea53e765e5031ab4a139ab8a910898995ebce2757ed188de",
+    "c9_the_fst_runx2_population/c9_per_library.csv": "7558743c6e93e029038847ec8de109c6a4830727360a7f8b1409ad93c0dd6164",
+    "c9_the_fst_runx2_population/c9_marker_replication.csv": "e2adf7fe4d1cd7fe8024ff4c501e66ef971092cb9f43a06d6853d256d4ec6144",
+    "c9_the_fst_runx2_population/c9_reference_markers.csv": "ce6e908a5af45dbcb2694d1bee274f5625aed4ab95aa3c7d844737306cccefc0",
+    "c10_published_state_or_not/c10_effect_sizes.csv": "ef02f914e163a4b86e2086b98a9f5778c8c4156a189d1166432dcc4d7b3af415",
+    "c10_published_state_or_not/c10_saturation_audit.csv": "bca704c6db11bdf265f981c5efdc397faf88f0c7f4db002e117b818d491c6171",
+    "e5_figure_for_the_refutation/e5_retention_against_injury.csv": "7b14efa283c13d01a408c4f8cbe8b4b06d66651f945c936a24ab7d8c50c82d31",
+    "c5_figures_for_the_three_findings/c5_fibrotic_retention.csv": "dda307448a09ad37fcaaa9eb29bf6781f64788fb27d7810849c32fc87818d606"
+  },
+  "scripts_sha256": {
+    "plot_claim_review_20260929.py": "54292b91276a20cdf7b02c9ce76a66f424d0bffa99c49f025dfbc63e18dbb54e",
+    "c5_figures_for_the_three_findings.py": "853e53e26de49e0c6ef09e16ff1722c1ecd225df0812d57d3ec7b10c17fbd0d7",
+    "c11_figures_for_the_contradictions.py": "976f40c1a861a537d26e8c31ea9e646afa080aaf0530fdabb368a5df5db10bf0",
+    "e5_figure_for_the_refutation.py": "6b96aa02fefa7a7da560b31987d0cc8221d7874445bc828b766a13755328346e",
+    "viz_style.py": "27f8d0c75c978bd08066c9f41c7567f9bf967f81b9e7c3af56bc1a4e23213717"
+  },
+  "outputs_sha256": {
+    "c11_fig1_e6_depth_control.png": "20efaeb1edc2dc4f4cc77dfdb9cf652722e96733b96cb2e7da8c7627e85503f3",
+    "c11_fig2_c7_resolution.png": "f35d1c09d085a38d5885d5a15b8724d1f8d63ead5956087fa739b86b8f450dc3",
+    "c11_fig3_c8_amplitudes.png": "9a08cbdb880ed08325183c7f8724ed9369d320daa12cfbd27596043f88bad6d4",
+    "c11_fig4_species_divergence.png": "b156a4cbb401e2cff820a889ef3950567ea1cc4a8ac7e7aa5bceccaae9609629",
+    "c11_fig5_c9_existence_vs_size.png": "12bfe7e2eae77ad05d172b98ac5b78d76132e2128c721523eb8f0f68a33adcd6",
+    "c11_fig6_c10_lead_closes.png": "83baa5bee580b223e72bd8e35cff0fb54a816e13a574a9a1ad9317435e0eb271",
+    "c5_fig2_fibrotic_programme_split.png": "1fc354bbd4210bc3e7efbfb51a76129e8aa8eaf8f8cc3ad8abd9ac88c7c8a1e9",
+    "e5_retention_against_injury.png": "8ea1752d871d1528828a3d7072165094434cef7fe6c99b0a8a0533282b701152"
+  }
+}

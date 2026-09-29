@@ -1,0 +1,12 @@
+{
+  "mode": "render_only_from_frozen_tables",
+  "script_sha256": "db27a7cc1dbec6bdfd369d5eb85476536fa09911904f549025791f0d3f3653e1",
+  "inputs": {
+    "trials/batch1/clones/spatial_pooled_bin_profiles.csv": "506ce9fcd2407416c314206bee037c62a19c99e68360815f5add78c6f96b572d",
+    "trials/followup/FU_W_distance_slopes.csv": "9d2e407e4c33a6f36cc86c03a42cc98a3cb2d7eb553a8161d506aebff4547bab"
+  },
+  "outputs": {
+    "FU_F05_growth_differentiation.png": "439ec10148e84d614fae859985fd12680cb73d79ca1eecadd767db6540a9651c",
+    "FU_F05_growth_differentiation.svg": "f78b76fdfe70b70a9cfbaaec7a4742b6f6fe53dc2ce7bde7709bdf1b96c037eb"
+  }
+}

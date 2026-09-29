@@ -1,0 +1,11 @@
+{
+  "scope": "Presentation only; original scores and trial files preserved.",
+  "inputs_sha256": {
+    "d6_scores_invivo.csv": "d0bae0fd19363ed9b1314c70e260813ad3ec232008c6e10e5d31e76bd29cefa7",
+    "d6_scores_organoid.csv": "292755c7a4547d6be896108dfd3af9a99dd35fea159141f983c1ce00b2fe0fe8"
+  },
+  "script_sha256": "d0be256ed443b0b16c53cf0cdfb7a1e4467a8b4f4d266843ccfda6974d38d865",
+  "outputs_sha256": {
+    "d6_programme_scores.png": "30919d4ed7a72456766ee1f725e85469533d56cfc3e0c1523f656488c9c54ac4"
+  }
+}

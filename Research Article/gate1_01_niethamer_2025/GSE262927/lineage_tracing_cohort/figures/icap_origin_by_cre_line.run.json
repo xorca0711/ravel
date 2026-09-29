@@ -1,0 +1,15 @@
+{
+  "mode": "saved-table presentation only; no cell loading, clustering or model fitting",
+  "generated_utc": "2026-09-29T04:52:38.502915+00:00",
+  "script": "analysis/scripts/07_lineage_tracing_cohort.py",
+  "script_sha256": "fff7a8fdbc3a7fbe0e133827b82f9d427c24c871002d20585f9497363fb05a67",
+  "inputs_sha256": {
+    "Research Article/gate1_01_niethamer_2025/GSE262927/lineage_tracing_cohort/tables/icap_tracing_by_cre_line.csv": "f1d9967a73cd9dec4a71f71256349b231452b508b3ef9af5a389824f986b6d55"
+  },
+  "outputs_sha256": {
+    "icap_origin_by_cre_line.png": "1dd9f3eb02229760f58bfe864fb37c4c51d6c792aea94a5822e3943dea243b4e"
+  },
+  "unit": "animal",
+  "animal_count": 8,
+  "denominator": "reporter-detected endothelial cells within the named state"
+}

@@ -20,6 +20,8 @@ own units, comparison and decision.
 [A11 card](../../RESEARCH_QUESTIONS.md#a11), [biological logic](BIOLOGICAL_LOGIC.md),
 [plan](PLAN.md), [revised results](reports/REVISED_TEST_RESULTS.md).
 
+**Current figure presentation:** [paired-estimate forest plot with biological units](figures/revision_20260929/a5_a11_results.png) labels A5 as 24/26 mice and A11 as eight patient pairs. This 29 September presentation revision reads the saved estimates and intervals; the [original figure](figures/a5_a11_results.png) and analysis records remain unchanged. [Render provenance](figures/revision_20260929/render_record.json).
+
 ## Evidence and analysis history
 
 **Status: contract and revised A5/A11 tests complete; PR #77 merged.** The owner

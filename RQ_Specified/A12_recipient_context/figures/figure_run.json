@@ -1,17 +1,36 @@
 {
-  "scope": "Plots tracked table columns only. No fit, no rescoring, no new estimate. Both pilots are exploratory on reused data; the ladders are held-out RMSE at the primary settings (alpha=1, 50-cell floor, confidence 0.2) and carry no interval because leave-one-patient-out fold losses are dependent. Figure 2 shows an RNA count allocation among recovered cells, not a secretion fraction and not a tissue-composition correction.",
-  "script_sha256": "ac845edab36cfb939b1e92e1077968144b0101f9203fc4e054ed5c3a4922c787",
+  "scope": "Plots tracked values and derived absolute errors; no predictive model fit or rescoring. Both pilots are exploratory on reused data; the ladders are held-out RMSE at the primary settings (alpha=1, 50-cell floor, confidence 0.2) and carry no interval because leave-one-patient-out fold losses are dependent. Figure 2 shows an RNA count allocation among recovered cells, not a secretion fraction and not a tissue-composition correction.",
+  "script_sha256": "c98ecd5165e716889908c8c3f51ab8ab55b29c5ef707c88d55a39b848df05f2a",
   "matplotlib_version": "3.11.1",
-  "jitter_seed": 20260928,
+  "point_offsets": "Deterministic evenly spaced offsets, -0.13 to +0.13, ordered by value.",
+  "paired_error_checks": {
+    "A12, AT2 recipient": {
+      "patients": 12,
+      "joint_lower_error": 7,
+      "joint_minus_alternative_RMSE": -0.1027655057009535
+    },
+    "A12, alveolar fibroblast recipient": {
+      "patients": 12,
+      "joint_lower_error": 5,
+      "joint_minus_alternative_RMSE": 0.018482272390627996
+    },
+    "A13, fibroblast programme": {
+      "patients": 12,
+      "joint_lower_error": 8,
+      "joint_minus_alternative_RMSE": 0.008981653136376916
+    }
+  },
   "inputs": {
-    "docs/roadmap_runs/2026-09-27-followthrough/A12_model_metrics.csv": "0c90cea8f30b7319f447d495abfe187b66f86237c7db20a25d3bf73deef9f7a6",
-    "docs/roadmap_runs/2026-09-27-followthrough/A13_model_metrics.csv": "1e3fefda6c996bf2396398fca5e8173116df45c526e8277003c91ac1043efb3b",
+    "docs/roadmap_runs/2026-09-27-followthrough/A12_heldout_predictions.csv": "850b8c4a0ed6e9ab49c860b1392dd4065c85d92107f8bfb5f5b97fd70c09faea",
+    "docs/roadmap_runs/2026-09-27-followthrough/A13_heldout_predictions.csv": "a3eee6db8de12120ad54d1ce79e988567f6fd41a441003f81c11f2a0ce311ab1",
+    "docs/roadmap_runs/2026-09-27-followthrough/A12_model_metrics.csv": "db48023a8febb1463083a3088d965c38f9af5648f5baaebb3f353a9ea3155fc3",
+    "docs/roadmap_runs/2026-09-27-followthrough/A13_model_metrics.csv": "75fc79391465d534820ccc451aff9ebd0c27849e54b264e9bc13decb17651ac1",
     "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_sources/IL1B_source_fractions.csv": "9a678d9f1fe750ba74bcab4efc0e81c8a57066ab51b4a9e19c3b18a016050708"
   },
   "outputs": {
-    "A12_F01_heldout_model_ladder.png": "fb6454cc96028ad23afc27b8c8117eb0325753276fb9b88dc0b98e7c127c445e",
-    "A12_F01_heldout_model_ladder.svg": "bed46bf71a5f3d70c8e8a8990fc18f6c99723f27232f74eaa4e6968b670f2f30",
-    "A12_F02_il1b_source_allocation.png": "37c2efccba83899042a76b4fb54f19d3b45651f1cafc47dad9f650a413e0f761",
-    "A12_F02_il1b_source_allocation.svg": "81386ba9c852565cbaa35112728c0f8d6b9295c84e82e21bc98b1c56f2c6d467"
+    "A12_F01_heldout_model_ladder.png": "ee460a9e828e73e1fce1eed97d6992bd9f78313b4a45571d55a801c6dffea182",
+    "A12_F01_heldout_model_ladder.svg": "b62e27918b6beb6a29b1edab5f214657a2f96285ca32e931e82dc9256b442494",
+    "A12_F02_il1b_source_allocation.png": "1d022eeceab413153229a16bcc805ea3de956bd51081f7aa475d75b067933854",
+    "A12_F02_il1b_source_allocation.svg": "f2c29b96144eea9ab519221cc72f0beafd4e4173f4d0eb6cc8e8e3f72f677ee5"
   }
 }

@@ -125,7 +125,7 @@ def figure_one(plt, np, pd, paths):
     ax_b.set_xticks(ks)
     ax_b.set_xlabel('Matched neighbours per positive cell (k)')
     ax_b.set_ylabel('Matched raw difference')
-    ax_b.set_title('Attenuation is not a choice of k')
+    ax_b.set_title('Attenuated at all three tested k values')
     ax_b.margins(x=0.12, y=0.10)
 
     # Panel C: residual per-PC imbalance at k = 10.
@@ -242,7 +242,11 @@ def main():
     FIG.mkdir(parents=True, exist_ok=True)
     one = [FIG / 'A16_F01_corrected_c1_attenuation.png', FIG / 'A16_F01_corrected_c1_attenuation.svg']
     two = [FIG / 'A16_F02_c3_specificity_power.png', FIG / 'A16_F02_c3_specificity_power.svg']
-    assert not any(p.exists() for p in one + two), 'Refusing to overwrite figures'
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--overwrite', action='store_true')
+    args = parser.parse_args()
+    assert args.overwrite or not any(p.exists() for p in one + two), 'Use --overwrite for presentation revisions'
 
     _style(plt)
     figure_one(plt, np, pd, one)
@@ -253,6 +257,10 @@ def main():
         if path.suffix == '.svg':
             cleaned = '\n'.join(line.rstrip() for line in path.read_text(encoding='utf-8').splitlines())
             path.write_text(cleaned.rstrip() + '\n', encoding='utf-8')
+
+    for path in one + two:
+        if path.suffix == '.svg':
+            path.write_text('\n'.join(line.rstrip() for line in path.read_text(encoding='utf-8').splitlines()) + '\n', encoding='utf-8')
 
     inputs = {
         'correction_20260928/tables/corrected_c1/effects.csv': C1 / 'effects.csv',

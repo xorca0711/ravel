@@ -1,5 +1,7 @@
 # Gate 1, paper 1: Niethamer et al. 2025 (GSE262927)
 
+Current figure corrections: [categorical time axes and annotation comparison](GSE262927/figure_revision_20260929/README.md). Earlier run assets remain preserved as historical outputs.
+
 ## Read this study
 
 | To understand | Read |
@@ -49,7 +51,7 @@ These figures distinguish reporter history, current RNA measurements and
 statistical inference. The full analysis reports retain their tables and
 sampling rules; the early repair days contain only two animals each.
 
-![Ki67 tracing and deposited cell-cycle calls by lineage and animal](GSE262927/phase_timecourse/figures/proliferation_by_lineage.png)
+![Ki67 tracing and deposited cell-cycle calls by lineage and animal](GSE262927/figure_revision_20260929/proliferation_by_lineage.png)
 
 *Top: Ki67 tracing in immediate tamoxifen windows, excluding undetected
 reporters. Bottom: deposited S/G2M calls. Points are animals and lines are

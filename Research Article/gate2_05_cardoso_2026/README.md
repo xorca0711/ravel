@@ -6,7 +6,7 @@
 |---|---|
 | Paper context and biological question | [Study context](#study-context); [source cascade and evidence](#source-context) |
 | Analysis results, claims and limitations | [Analysis sequence](ANALYSIS_TRIAL_PLAN.md); [current ligand correction](../../analysis/corrections/ligand/README.md); [divergences](DIVERGENCES_AND_NEXT.md) |
-| Figures and captions | [Ligand sources, sensitivity and coverage](#figure-gallery) |
+| Figures and captions | [Current C5/C11/E5 claim corrections](trials/revision_20260929/README.md); [ligand sources, sensitivity and coverage](#figure-gallery) |
 | Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
 
 <a id="study-context"></a>
@@ -93,7 +93,7 @@ receptor complexes are present. These expression-based ranks are not functional
 communication or independent biological validation.
 
 Details: [ligand correction report](../../analysis/corrections/ligand/RESULTS.md).
-Also available: [injury-only comparison](trials/e5_figure_for_the_refutation/e5_retention_against_injury.png),
+Also available: [injury-only comparison, corrected interpretation](trials/revision_20260929/e5_retention_against_injury.png),
 which removes tumour specificity from the Runx1/Pdgfrb persistence observation;
 it does not identify the complete causal pathway behind that persistence.
 

@@ -63,3 +63,18 @@ docs/audits/2026-09-28-england-paper-rqs/** -text whitespace=cr-at-eol
 docs/audits/2026-09-28-rq-adversarial-review/** -text whitespace=cr-at-eol
 docs/roadmap_runs/2026-09-28-gap-fill/** -text whitespace=cr-at-eol
 RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/sources/** whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof,-space-before-tab
+
+# PR118 render records preserve exact live producer and generated vector bytes.
+"Research Article/gate2_C2_england_2025/scripts/plot_batch1.py" -text whitespace=cr-at-eol
+"Research Article/gate2_C2_england_2025/scripts/plot_continuation.py" -text whitespace=cr-at-eol
+"Research Article/gate2_C2_england_2025/scripts/plot_followup.py" -text whitespace=cr-at-eol
+"Research Article/gate2_C2_england_2025/scripts/run_spatial_decoupling.py" -text whitespace=cr-at-eol
+"Research Article/gate2_05_cardoso_2026/trials/c11_figures_for_the_contradictions.py" -text whitespace=cr-at-eol
+"Research Article/gate2_05_cardoso_2026/trials/e5_figure_for_the_refutation.py" -text whitespace=cr-at-eol
+"Research Article/gate2_05_cardoso_2026/trials/plot_claim_review_20260929.py" -text whitespace=cr-at-eol
+"Research Article/gate1_02_choi_2020/trials/d6_programmes.py" -text whitespace=cr-at-eol
+"Research Article/gate1_02_choi_2020/trials/plot_d6_presentation_20260929.py" -text whitespace=cr-at-eol
+"Research Article/gate1_01_niethamer_2025/GSE262927/plot_presentation_20260929.py" -text whitespace=cr-at-eol
+"analysis/scripts/07_lineage_tracing_cohort.py" -text whitespace=cr-at-eol
+"Research Article/gate2_C2_england_2025/trials/**/figures/*.svg" -text whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A5_A11_shared_component_contract/figures/revision_20260929/*.svg whitespace=cr-at-eol,-blank-at-eol

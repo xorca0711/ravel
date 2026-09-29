@@ -1,5 +1,15 @@
 # AI context
 
+## Figure audit completion, 29 September 2026
+
+[PR #118](https://github.com/xorca0711/scRNA_seq/pull/118) completes the presentation audit:
+367 figure families / 480 assets inventoried, with 41 corrected current presentations.
+See the [audit and coverage limits](docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md) and
+[per-family inventory](docs/FIGURE_AUDIT_CONSOLIDATED.csv). Scientific fits and numerical
+source tables are unchanged. Use dated current revisions where galleries supersede historical
+images; source-screened figures are not fully revalidated raw-data analyses. A12's paired
+errors are drawn from saved predictions; its closed pilot has not been reopened.
+
 ## Current A12 group rationale and plans, 28 September 2026
 
 Branch `codex/a12-a13-rationale` adds local rationale and plan files for A12 and

@@ -34,7 +34,7 @@ import json
 HERE = Path(__file__).resolve().parents[1]
 S1 = HERE / 'tables/stage1'
 C1 = HERE / 'correction_20260928/tables/corrected_c1'
-FIG = HERE / 'figures'
+FIG = HERE / 'figures/revision_20260929'
 
 PRIMARY = 'priming_associated'
 CONTROL_FLOOR = 40
@@ -139,9 +139,9 @@ def figure_three(plt, np, pd, paths):
     for ax, unit in zip(axes.ravel(), order):
         controls = detail[detail.unit == unit].smd_priming.dropna().to_numpy()
         n_used = int(cd.loc[unit, 'n_control_genes_used'])
-        powered = n_used >= CONTROL_FLOOR
+        above_floor = n_used >= CONTROL_FLOOR
         if controls.size:
-            ax.hist(controls, bins=bins, color=PALE if powered else '#E2E2E2',
+            ax.hist(controls, bins=bins, color=PALE if above_floor else '#E2E2E2',
                     edgecolor=GREY, linewidth=0.35, zorder=2)
         observed = cd.loc[unit, 'cd177_smd']
         if pd.notna(observed):
@@ -156,9 +156,9 @@ def figure_three(plt, np, pd, paths):
         right = pd.notna(observed) and observed < mid
         ax.annotate(note, xy=(0.98 if right else 0.02, 0.97), xycoords='axes fraction',
                     ha='right' if right else 'left', va='top',
-                    fontsize=6.2, color=INK if powered else GREY)
-        ax.set_title(f'{UNIT_LABEL[unit]}' + ('' if powered else '  (under-powered null)'),
-                     fontsize=7.2, color=INK if powered else GREY)
+                    fontsize=6.2, color=INK if above_floor else GREY)
+        ax.set_title(f'{UNIT_LABEL[unit]}' + ('' if above_floor else '  (<40 controls)'),
+                     fontsize=7.2, color=INK if above_floor else GREY)
         ax.tick_params(labelsize=6.2)
         ax.set_yticks([])
         ax.spines['left'].set_visible(False)
@@ -166,13 +166,13 @@ def figure_three(plt, np, pd, paths):
         ax.set_visible(False)
     for ax in axes[-1]:
         ax.set_xlabel('Priming SMD of a matched\ncontrol gene', fontsize=7)
-    fig.suptitle('The two interpretable units disagree on whether Cd177 is exceptional',
+    fig.suptitle('The two entries with at least 40 controls place Cd177 differently',
                  fontsize=9.5, fontweight='semibold', x=0.01, ha='left')
     fig.supxlabel('Grey: priming effect of each control gene matched to Cd177 on detection and '
                   'expression. Red: Cd177\u2019s own effect. Only exp1 sub 10 (500 genes) and\n'
                   'exp2 sub 12 (284) clear the 40-gene floor. Cd177 sits at the 86th percentile '
                   'of the first null and above every gene in the second. The remaining seven\n'
-                  'panels are shown to make the shortfall visible, not to be read as nulls.',
+                  'panels have coarser reference sets; the floor does not establish power or biological replication.',
                   fontsize=6.6, color=GREY, x=0.01, ha='left')
     fig.canvas.draw()
     OVERLAPS['figure_three'] = _overlap_report(fig, plt.matplotlib, np)
@@ -210,7 +210,7 @@ def figure_four(plt, np, pd, paths):
     effects = pd.read_csv(C1 / 'effects.csv')
     score = cells.set_index(['library', 'barcode'])[PRIMARY]
 
-    fig, (ax_a, ax_b) = plt.subplots(1, 2, figsize=(7.4, 3.5), layout='constrained')
+    fig, (ax_a, ax_b) = plt.subplots(1, 2, figsize=(7.4, 3.9), layout='constrained')
 
     differences, control_means, positives = {}, {}, {}
     for library in LIBRARIES:
@@ -245,14 +245,14 @@ def figure_four(plt, np, pd, paths):
     ax_a.set_xticks([0, 1])
     ax_a.set_xticklabels(LIBRARIES, fontsize=7)
     ax_a.set_ylabel('Priming score, positive cell minus\nits matched controls (score units)')
-    ax_a.set_title('Cd177-positive cells are not uniformly primed:\n'
-                   'about one in five scores below its own controls', fontsize=8.2)
+    ax_a.set_title('Positive-minus-control differences vary:\n'
+                   'about one in five differences is below zero', fontsize=8.2)
     ax_a.set_xlim(-0.65, 1.65)
 
     library = LIBRARIES[0]
-    groups = [('All Cd177-negative\ncells', cells[(cells.library == library) & (~cells.positive)][PRIMARY].to_numpy(), '#9BB3C0'),
-              ('Matched controls\nactually used', control_means[library], GREY),
-              ('Cd177-positive\ncells', positives[library], LIB_COLOUR[library])]
+    groups = [('All negative\ncells', cells[(cells.library == library) & (~cells.positive)][PRIMARY].to_numpy(), '#9BB3C0'),
+              ('Control means\n(one/positive cell)', control_means[library], GREY),
+              ('Positive\ncells', positives[library], LIB_COLOUR[library])]
     _violin(ax_b, plt, np, [g[1] for g in groups], [0, 1, 2], [g[2] for g in groups])
     for xi, (_, vals, colour) in enumerate(groups):
         ax_b.annotate(f'median {np.median(vals):.2f}\nn = {vals.size}',
@@ -262,14 +262,15 @@ def figure_four(plt, np, pd, paths):
     ax_b.set_xticks([0, 1, 2])
     ax_b.set_xticklabels([g[0] for g in groups], fontsize=7)
     ax_b.set_ylabel('Priming-associated score,\nmean log1p(CP10k)')
-    ax_b.set_title('The cells they are compared against are\n'
-                   'themselves primed (GSM7890835)', fontsize=8.2)
+    ax_b.set_title('Matched-control means are closer to positives\n'
+                   'than the full negative pool (GSM7890835)', fontsize=8.2)
     top = max(v.max() for _, v, _ in groups)
     ax_b.set_ylim(-0.12, top * 1.26)
 
     for ax, letter in ((ax_a, 'a'), (ax_b, 'b')):
         ax.text(-0.19, 1.05, letter, transform=ax.transAxes, fontweight='bold',
                 fontsize=10, va='bottom', ha='right')
+    fig.supxlabel('Cell-level descriptions in two libraries; controls can be reused. Each middle value is a control mean, not a single cell.', fontsize=6.4)
     fig.canvas.draw()
     OVERLAPS['figure_four'] = _overlap_report(fig, plt.matplotlib, np)
     for path in paths:
@@ -313,8 +314,8 @@ def figure_five(plt, np, pd, paths):
                      fontsize=7.4)
     axes[1].legend(frameon=False, loc='lower right', fontsize=6.4, handletextpad=0.4)
     fig.supxlabel('One row per component of the library\u2019s local expression space. PC1, the '
-                  'dominant axis of transcriptional position, is brought under control in both\n'
-                  'libraries; crosses mark components matching made worse. Dashed line: the '
+                  'leading local expression axis, is less imbalanced but remains above 0.1 in both\n'
+                  'libraries; crosses mark components with increased imbalance. Dashed line: the '
                   'matching literature\u2019s conventional 0.1 reference, not a mark adopted here.',
                   fontsize=6.6, color=GREY, x=0.01, ha='left')
     fig.suptitle('The matched comparison is better balanced, but not position-free',
@@ -333,17 +334,25 @@ def main():
     import numpy as np
     import pandas as pd
 
-    FIG.mkdir(exist_ok=True)
+    FIG.mkdir(parents=True, exist_ok=True)
     three = [FIG / 'A16_F03_c3_null_histograms.png', FIG / 'A16_F03_c3_null_histograms.svg']
     four = [FIG / 'A16_F04_percell_score_violins.png', FIG / 'A16_F04_percell_score_violins.svg']
     five = [FIG / 'A16_F05_matching_balance_loveplot.png',
             FIG / 'A16_F05_matching_balance_loveplot.svg']
-    assert not any(p.exists() for p in three + four + five), 'Refusing to overwrite figures'
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--overwrite', action='store_true')
+    args = parser.parse_args()
+    assert args.overwrite or not any(p.exists() for p in three + four + five), 'Use --overwrite for presentation revisions'
 
     _style(plt)
     figure_three(plt, np, pd, three)
     figure_four(plt, np, pd, four)
     figure_five(plt, np, pd, five)
+
+    for path in three + four + five:
+        if path.suffix == '.svg':
+            path.write_text('\n'.join(line.rstrip() for line in path.read_text(encoding='utf-8').splitlines()) + '\n', encoding='utf-8')
 
     inputs = {
         'tables/stage1/A16_C3_control_gene_detail.csv': S1 / 'A16_C3_control_gene_detail.csv',
@@ -361,7 +370,9 @@ def main():
                  'script asserts their mean equals the reported matched_raw to 1e-12. Arm B entries '
                  'in F03 pool libraries within an experiment and are not within-state contrasts. '
                  'Control-gene histograms show the SELECTED controls, not the full candidate '
-                 'universe. The 0.1 line in the Love plot is the conventional balance reference '
+                 'universe; the 40-control display floor is not a power assessment. F04 compares individual '
+                 'scores with per-positive-cell means of controls, which can be reused; these are '
+                 'cell-level descriptions, not independent animal replicates. The 0.1 line in the Love plot is the conventional balance reference '
                  'from the matching literature, not a threshold this analysis adopted.',
         'script_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'matplotlib_version': matplotlib.__version__,

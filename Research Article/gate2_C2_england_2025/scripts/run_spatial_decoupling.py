@@ -9,7 +9,7 @@ Outputs: trials/followup/FU_W_distance_slopes.csv and figures/FU_F05_growth_diff
 from __future__ import annotations
 import argparse, os, sys, json, hashlib, datetime
 from pathlib import Path
-p = argparse.ArgumentParser(); p.add_argument('--data-root', type=Path, required=True); a = p.parse_args()
+p = argparse.ArgumentParser(); p.add_argument('--data-root', type=Path, required=True); p.add_argument('--replot', action='store_true', help='Read frozen slope table; do not run or overwrite the analysis'); a = p.parse_args()
 HERE = Path(__file__).resolve().parents[1]; ROOT = HERE.parents[1]
 sys.path.insert(0, str(a.data_root / '.venv-x64/Lib/site-packages'))
 import numpy as np, pandas as pd, matplotlib
@@ -32,49 +32,52 @@ MINROWS, MAXD = 10, 400
 def wslope(x, y, w):
     xb = np.average(x, weights=w); yb = np.average(y, weights=w)
     return float((w * (x - xb) * (y - yb)).sum() / (w * (x - xb) ** 2).sum())
-rows = []
-for ds, g in sp.groupby('dataset'):
-    g = g[(g.pair_rows >= MINROWS) & (g.mid <= MAXD)].sort_values('mid')
-    if len(g) < 4: rows.append({'dataset': ds, 'eligible_bins': len(g), 'status': 'unavailable: fewer than 4 eligible bins'}); continue
-    w = g.pair_rows.to_numpy(float); x = g.mid.to_numpy(float)
-    sz = g.mean_neighbor_size.to_numpy(float); sn = g.mean_neighbor_spc_negative_fraction.to_numpy(float)
-    b_sz = np.average(sz[-2:], weights=w[-2:]); b_sn = np.average(sn[-2:], weights=w[-2:])
-    # Scale-fair comparison: an unbounded count against a bounded fraction is not comparable on a
-    # percent-of-distal-level scale, because a bounded readout mechanically yields shallower relative
-    # slopes. A log link for the count and a logit link for the fraction put both on multiplicative
-    # scales with no ceiling.
-    frc = np.clip(sn, 1e-3, 1 - 1e-3)
-    links = {'log_size_slope_per_100um': wslope(x, np.log(sz), w) * 100,
-             'logit_spcneg_slope_per_100um': wslope(x, np.log(frc / (1 - frc)), w) * 100}
-    dense = g.pair_rows.to_numpy(float) >= 100
-    dslopes = {}
-    for nm, y in (('size', sz), ('spcneg', sn)):
-        if dense.sum() >= 3:
-            b = np.average(y[dense][-2:], weights=w[dense][-2:])
-            dslopes[f'{nm}_relative_slope_dense_bins'] = wslope(x[dense], y[dense], w[dense]) * 100 / b * 100 if b else np.nan
-        else:
-            dslopes[f'{nm}_relative_slope_dense_bins'] = np.nan
-    rows.append({'dataset': ds, 'context': 'oncogenic Red2Kras' if ds.startswith('kras') else 'homeostatic Confetti', 'status': 'estimated',
-                 'eligible_bins': len(g), 'pair_rows': int(w.sum()), 'nearest_bin_um': float(x[0]), 'farthest_bin_um': float(x[-1]),
-                 'min_bin_pair_rows': int(w.min()), 'distal_anchor_pair_rows': int(w[-2:].sum()), 'dense_bins_ge100_rows': int(dense.sum()), **dslopes, **links,
-                 'size_near': float(sz[0]), 'size_far': float(sz[-1]), 'size_slope_per_100um': wslope(x, sz, w) * 100,
-                 'size_relative_slope_pct_per_100um': wslope(x, sz, w) * 100 / b_sz * 100 if b_sz else np.nan,
-                 'spcneg_near': float(sn[0]), 'spcneg_far': float(sn[-1]), 'spcneg_slope_per_100um': wslope(x, sn, w) * 100,
-                 'spcneg_relative_slope_pct_per_100um': wslope(x, sn, w) * 100 / b_sn * 100 if b_sn else np.nan,
-                 'mouse_or_clone_ids_available': False})
-R = pd.DataFrame(rows); R.to_csv(FU / 'FU_W_distance_slopes.csv', index=False)
+if a.replot:
+    R = pd.read_csv(FU / 'FU_W_distance_slopes.csv')
+else:
+    rows = []
+    for ds, g in sp.groupby('dataset'):
+        g = g[(g.pair_rows >= MINROWS) & (g.mid <= MAXD)].sort_values('mid')
+        if len(g) < 4: rows.append({'dataset': ds, 'eligible_bins': len(g), 'status': 'unavailable: fewer than 4 eligible bins'}); continue
+        w = g.pair_rows.to_numpy(float); x = g.mid.to_numpy(float)
+        sz = g.mean_neighbor_size.to_numpy(float); sn = g.mean_neighbor_spc_negative_fraction.to_numpy(float)
+        b_sz = np.average(sz[-2:], weights=w[-2:]); b_sn = np.average(sn[-2:], weights=w[-2:])
+        # Scale-fair comparison: an unbounded count against a bounded fraction is not comparable on a
+        # percent-of-distal-level scale, because a bounded readout mechanically yields shallower relative
+        # slopes. A log link for the count and a logit link for the fraction put both on multiplicative
+        # scales with no ceiling.
+        frc = np.clip(sn, 1e-3, 1 - 1e-3)
+        links = {'log_size_slope_per_100um': wslope(x, np.log(sz), w) * 100,
+                 'logit_spcneg_slope_per_100um': wslope(x, np.log(frc / (1 - frc)), w) * 100}
+        dense = g.pair_rows.to_numpy(float) >= 100
+        dslopes = {}
+        for nm, y in (('size', sz), ('spcneg', sn)):
+            if dense.sum() >= 3:
+                b = np.average(y[dense][-2:], weights=w[dense][-2:])
+                dslopes[f'{nm}_relative_slope_dense_bins'] = wslope(x[dense], y[dense], w[dense]) * 100 / b * 100 if b else np.nan
+            else:
+                dslopes[f'{nm}_relative_slope_dense_bins'] = np.nan
+        rows.append({'dataset': ds, 'context': 'oncogenic Red2Kras' if ds.startswith('kras') else 'homeostatic Confetti', 'status': 'estimated',
+                     'eligible_bins': len(g), 'pair_rows': int(w.sum()), 'nearest_bin_um': float(x[0]), 'farthest_bin_um': float(x[-1]),
+                     'min_bin_pair_rows': int(w.min()), 'distal_anchor_pair_rows': int(w[-2:].sum()), 'dense_bins_ge100_rows': int(dense.sum()), **dslopes, **links,
+                     'size_near': float(sz[0]), 'size_far': float(sz[-1]), 'size_slope_per_100um': wslope(x, sz, w) * 100,
+                     'size_relative_slope_pct_per_100um': wslope(x, sz, w) * 100 / b_sz * 100 if b_sz else np.nan,
+                     'spcneg_near': float(sn[0]), 'spcneg_far': float(sn[-1]), 'spcneg_slope_per_100um': wslope(x, sn, w) * 100,
+                     'spcneg_relative_slope_pct_per_100um': wslope(x, sn, w) * 100 / b_sn * 100 if b_sn else np.nan,
+                     'mouse_or_clone_ids_available': False})
+    R = pd.DataFrame(rows); R.to_csv(FU / 'FU_W_distance_slopes.csv', index=False)
 E = R[R.status == 'estimated']
-fig, axes = plt.subplots(1, 3, figsize=(9.0, 3.2), gridspec_kw={'wspace': 0.42, 'top': 0.78, 'bottom': 0.26, 'width_ratios': [1.15, 1.15, 1]})
+fig, axes = plt.subplots(1, 3, figsize=(12, 4.6), gridspec_kw={'wspace': 0.42, 'top': 0.72, 'bottom': 0.27, 'width_ratios': [1.15, 1.15, 1]})
 KR = ['kras4d', 'kras1w', 'kras2w', 'kras4w']; CF = [d for d in sp.dataset.unique() if d.startswith('conf')]
-for ax, col, ylab, ttl in [(axes[0], 'mean_neighbor_size', 'mean neighbour clone size (cells)', 'Growth: neighbour clone size'),
-                           (axes[1], 'mean_neighbor_spc_negative_fraction', 'mean pro-Sftpc-negative fraction', 'Differentiation: pro-Sftpc loss')]:
+for ax, col, ylab, ttl in [(axes[0], 'mean_neighbor_size', 'mean neighbour clone size (cells)', 'Neighbour clone size'),
+                           (axes[1], 'mean_neighbor_spc_negative_fraction', 'mean pro-Sftpc-negative fraction', 'Identity-loss proxy: pro-Sftpc loss')]:
     for ds in CF:
         g = sp[(sp.dataset == ds) & (sp.pair_rows >= MINROWS) & (sp.mid <= MAXD)].sort_values('mid')
         if len(g) >= 4: ax.plot(g.mid, g[col], '-', color=DEEMPH, lw=0.9, zorder=1)
     for ds, c in zip(KR, CAT):
         g = sp[(sp.dataset == ds) & (sp.pair_rows >= MINROWS) & (sp.mid <= MAXD)].sort_values('mid')
         if len(g) >= 4: ax.plot(g.mid, g[col], '-o', color=c, lw=1.3, ms=3.5, label=ds.replace('kras', 'Red2Kras '), zorder=3)
-    ax.set_xlabel('distance from mutant clone (um)'); ax.set_ylabel(ylab); ax.set_title(ttl, fontsize=7.5)
+    ax.set_xlabel('distance from source clone (um)'); ax.set_ylabel(ylab); ax.set_title(ttl, fontsize=7.5)
 axes[0].legend(fontsize=6, loc='upper right'); axes[0].plot([], [], '-', color=DEEMPH, lw=0.9, label='homeostatic Confetti')
 axes[0].legend(fontsize=6, loc='upper right')
 ax = axes[2]
@@ -86,13 +89,16 @@ ax.set_xlabel('size slope (% of distal level per 100 um)'); ax.set_ylabel('pro-S
 # Pearson r = +0.609 (p = 0.027) across the 13 plotted points, so the two slope sets DO
 # co-vary; the earlier 'do not track each other' wording was false. State the per-dataset
 # sign pattern, which is what the table supports, and leave co-variation unidentified.
-ax.set_title('Growth slopes are negative in 12 of 13 datasets;\nthe differentiation slope has no consistent sign (8 up, 5 down)', fontsize=7.5); ax.legend(fontsize=6, loc='lower left')
+ax.set_title('Clone-size slopes: 12 negative / 13 datasets\nIdentity-loss proxy: 8 positive, 5 negative', fontsize=7.5); ax.legend(fontsize=6, loc='lower left')
 for _, r_ in E[E.context == 'oncogenic Red2Kras'].iterrows():
     ax.annotate(r_.dataset.replace('kras', ''), (r_.size_relative_slope_pct_per_100um, r_.spcneg_relative_slope_pct_per_100um), textcoords='offset points', xytext=(4, 3), fontsize=5.5, color=INK2)
 for i, L in enumerate('abc'): axes[i].text(-0.2 if i < 2 else -0.28, 1.1, L, transform=axes[i].transAxes, fontsize=10, fontweight='bold', va='bottom')
-fig.suptitle("The source's own decoupling claim recovered from the deposit: neighbour growth falls with distance, its differentiation proxy does not", x=0.01, y=0.98, ha='left', fontsize=8)
+fig.suptitle("Deposited spatial profiles: clone size and identity-loss proxy have different slope-sign patterns", x=0.01, y=0.98, ha='left', fontsize=8)
 fig.text(0.5, 0.005, 'Reproduces the comparison in Figures 5G-5J and 6E-6F of England et al. 2025 on the deposited pooled pair rows; it is not an independent contrast.\nPair rows collapse with distance (kras1w: 4,953 at 25 um to 13 at 225 um), the limitation the source methods name, so distal anchors and the steepest relative slopes rest on sparse bins.\nNo mouse or clone identifiers are deposited and a neighbour may recur across rows, so no mouse-level effect, significance or causal reading is available. Bins require >=10 pair rows and <=400 um.', ha='center', fontsize=5.6, color=INK2)
-f = FIG / 'FU_F05_growth_differentiation.png'; fig.savefig(f, bbox_inches='tight'); plt.close(fig)
-(FU / 'FU_W_run_record.json').write_text(json.dumps({'completed_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'input': {'path': str(src.relative_to(HERE)).replace('\\', '/'), 'sha256': digest(src)},
-    'script_sha256': digest(Path(__file__)), 'exposure_disclosure': cfg['exposure_disclosure'], 'outputs': {'FU_W_distance_slopes.csv': digest(FU / 'FU_W_distance_slopes.csv'), f.name: digest(f)}}, indent=2) + '\n')
+f = FIG / 'FU_F05_growth_differentiation.png'; fig.savefig(f, bbox_inches='tight'); fig.savefig(f.with_suffix('.svg'), bbox_inches='tight'); plt.close(fig)
+if a.replot:
+    (FIG / 'FU_F05_render_record.json').write_text(json.dumps({'mode':'render_only_from_frozen_tables','script_sha256':digest(Path(__file__)),'inputs':{str(src.relative_to(HERE)).replace('\\','/'):digest(src),'trials/followup/FU_W_distance_slopes.csv':digest(FU/'FU_W_distance_slopes.csv')},'outputs':{f.name:digest(f),f.with_suffix('.svg').name:digest(f.with_suffix('.svg'))}},indent=2)+'\n')
+else:
+    (FU / 'FU_W_run_record.json').write_text(json.dumps({'completed_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'input': {'path': str(src.relative_to(HERE)).replace('\\', '/'), 'sha256': digest(src)},
+        'script_sha256': digest(Path(__file__)), 'exposure_disclosure': cfg['exposure_disclosure'], 'outputs': {'FU_W_distance_slopes.csv': digest(FU / 'FU_W_distance_slopes.csv'), f.name: digest(f)}}, indent=2) + '\n')
 print(E[['dataset', 'context', 'pair_rows', 'size_relative_slope_pct_per_100um', 'spcneg_relative_slope_pct_per_100um']].round(1).to_string(index=False), flush=True)

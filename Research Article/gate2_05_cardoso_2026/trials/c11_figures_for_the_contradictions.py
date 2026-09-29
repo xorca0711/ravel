@@ -32,6 +32,7 @@ The six:
 from __future__ import annotations
 
 import sys
+import textwrap
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -72,9 +73,9 @@ RULES = {
 
 def head(fig, title, subtitle, extra=None):
     fig.text(0.012, 0.955, title, fontsize=15, fontweight="semibold", color=V.INK)
-    fig.text(0.012, 0.905, subtitle, fontsize=10, color=V.INK_2)
+    fig.text(0.012, 0.918, textwrap.fill(subtitle, 155), fontsize=10, color=V.INK_2, va="top")
     if extra:
-        fig.text(0.012, 0.866, extra, fontsize=10, color=V.INK_2)
+        fig.text(0.012, 0.845, textwrap.fill(extra, 155), fontsize=9.5, color=V.INK_2, va="top")
 
 
 def fig1_depth_control(plt):
@@ -93,7 +94,7 @@ def fig1_depth_control(plt):
         raise SystemExit("figure 1 assumes the primary is null and the control is significant; refusing to draw")
 
     fig = plt.figure(figsize=(13.2, 5.6), dpi=150)
-    head(fig, "The only significant correlation in the trial was a control pair",
+    head(fig, "Only the ligand-control pair reaches nominal p < 0.05 among these two tests",
          "GSE136831, " + str(len(donors)) + " donors with both compartments above the 50-cell floor. "
          "Each dot is one donor. Spearman across donors.",
          "Both variables of that control pair track sequencing depth, so the frozen rule refused to read "
@@ -139,13 +140,12 @@ def fig2_c7_resolution(plt):
         raise SystemExit("figure 2 assumes a small state margin and a large compartment gap; refusing to draw")
 
     fig = plt.figure(figsize=(13.6, 5.8), dpi=150)
-    head(fig, "A measure refuted by the margin it was made to report",
+    head(fig, "Whole-profile similarity separates compartments more than candidate epithelial states",
          "Trial C7: rank correlation of mean profiles, 32,163 shared genes. The query is the 184-cell "
          "epithelial contaminant of the mesenchymal sort; the control is the cleanest fibroblast cluster "
          "in the same object.",
          "It separates compartments by " + format(compartment_gap, ".3f") + " of rho and epithelial "
-         "states by " + format(state_margin, ".4f") + ", so it can say which compartment and never "
-         "which state.")
+         "states by " + format(state_margin, ".4f") + ", leaving the state assignment unresolved in this comparison.")
     ax = fig.add_axes([0.075, 0.14, 0.42, 0.62])
     order = query["reference_cluster"].tolist()
     ypos = {c: i for i, c in enumerate(reversed(order))}
@@ -178,7 +178,7 @@ def fig2_c7_resolution(plt):
     ax2.text(0.505, len(labels) - 0.55, "repository confidence floor: 50%", fontsize=8.5,
              color=V.MUTED, va="bottom")
     ax2.set_xlabel("share of the 184 contaminating cells")
-    ax2.set_title("and the contaminant is a mixture, not a state", fontsize=11)
+    ax2.set_title("the contaminant spans several assigned states", fontsize=11)
     path = OUT / "c11_fig2_c7_resolution.png"
     fig.savefig(path, bbox_inches="tight")
     plt.close(fig)
@@ -197,11 +197,11 @@ def fig3_c8_amplitudes(plt):
              "Pdgfrb only": b - both, "both genes": both}
 
     fig = plt.figure(figsize=(13.4, 5.4), dpi=150)
-    head(fig, "The tiers are amplitudes, and the mixture test that disagreed was arithmetic",
+    head(fig, "Retained-gene co-detection lies within the prespecified independence band",
          "Trial C8: gated fibroblasts of GSE316244, one library per genotype. Co-detection against what "
          "independence predicts, with the frozen band from 0.80 to 1.25.",
          "A third of the deletion-arm cells detect neither retained gene, so a score built from the two "
-         "has a spike at zero and a two-component mixture wins whatever the biology is.")
+         "has a spike at zero. The mixture fit alone cannot distinguish a state from this zero-inflated score.")
     ax = fig.add_axes([0.075, 0.14, 0.44, 0.62])
     frame = ratios.copy()
     frame["label"] = frame["pair"] + "\n" + frame["genotype"]
@@ -251,14 +251,14 @@ def fig4_species(plt):
         raise SystemExit("figure 4 assumes a myeloid cell type tops the human ranking; refusing to draw")
 
     fig = plt.figure(figsize=(13.8, 5.8), dpi=150)
-    head(fig, "The Hbegf lead does not transfer across species",
+    head(fig, "HBEGF source rankings differ between these mouse tumour and human IPF deposits",
          "Left: mouse niche compartments of GSE316244, control arm (trial C6). Right: the ten "
          "highest human IPF cell types of GSE136831 (trial E2). Detection fraction, orange marks "
          "myeloid populations.",
          "Macrophages and dendritic cells top the human ranking, while the equivalent mouse "
          "compartments sit near the bottom at 0.085 and 0.046 and the mouse ligand is epithelial and "
          "endothelial. Mouse neutrophils are the exception, third at 0.178. Absolute values are not "
-         "comparable across deposits; the ordering within each is.")
+         "comparable across deposits. Species, disease and sampling are confounded.")
     for index, (frame, namecol, valuecol, keys, title) in enumerate((
             (mouse, "compartment", "det_Hbegf_flox_plus", myeloid_mouse, "mouse, control arm"),
             (human, "celltype", "det_HBEGF", myeloid_human, "human IPF"))):
@@ -293,12 +293,11 @@ def fig5_c9(plt):
     attenuation = float((rep["bleo_mean"] / rep["reference_difference"]).median())
 
     fig = plt.figure(figsize=(13.6, 5.6), dpi=150)
-    head(fig, "The co-occurrence replicates; its size does not, and the magnitude rule measured depth",
+    head(fig, "Co-detection exceeds chance in both injury animals; magnitude is sensitive to sequencing depth",
          "Trial C9. Left: co-detection ratio per library, with the bar spanning the shallow and deep "
          "halves at the median genes per cell. Right: each of the 27 checkable marker genes.",
          "Median attenuation is " + format(attenuation, ".3f") + " against a threshold of 0.5, and the "
-         "bleomycin libraries carry half the genes per cell, so the threshold split the distribution at "
-         "its own centre.")
+         "bleomycin libraries have about half the genes per cell. This flags depth sensitivity, not its causal share.")
     ax = fig.add_axes([0.075, 0.14, 0.38, 0.60])
     rows = lib.iloc[::-1].reset_index(drop=True)
     ax.axvline(1.0, color=V.AXIS, lw=1, zorder=1)
@@ -331,7 +330,7 @@ def fig5_c9(plt):
     V.recessive(ax2, grid_axis="both")
     ax2.set_xlabel("detection difference, reference library")
     ax2.set_ylabel("mean difference, two bleomycin animals")
-    ax2.set_title("direction replicates for 26 of 27; magnitude is a depth line", fontsize=11)
+    ax2.set_title("26 of 27 directions agree; 9 of 27 clear the magnitude rule", fontsize=11)
     ax2.text(top * 0.42, top * 0.20, "the 0.5 threshold", fontsize=9, color=V.SLOT[2])
     ax2.legend(loc="upper left", handletextpad=0.4)
     path = OUT / "c11_fig5_c9_existence_vs_size.png"
@@ -350,11 +349,11 @@ def fig6_c10(plt):
         raise SystemExit("figure 6 assumes the pathological score separates the groups everywhere; refusing to draw")
 
     fig = plt.figure(figsize=(13.6, 5.6), dpi=150)
-    head(fig, "The lead closes: these are the published pathological fibroblast",
+    head(fig, "Double-positive cells align with a published pathological-fibroblast program",
          "Trial C10. Left: standardised difference between double-positive and double-negative gated "
          "fibroblasts for four published sets. Right: Cthrc1 detection in the two groups.",
          "Cthrc1 was absent from trial C9's top thirty only because its detection difference fell below "
-         "that list's cutoff of " + format(cutoff, ".3f") + ". The ranking hid the marker that settles it.")
+         "that list's cutoff of " + format(cutoff, ".3f") + ". Program and marker agreement support annotation, not definitive state identity.")
     ax = fig.add_axes([0.075, 0.14, 0.42, 0.60])
     sets = ["pathological", "alveolar", "adventitial", "smooth_muscle"]
     width = 0.8 / len(eff)
@@ -370,7 +369,7 @@ def fig6_c10(plt):
     V.recessive(ax, grid_axis="y")
     ax.set_ylabel("standardised difference between the groups")
     ax.text(len(sets) - 0.55, 0.56, "frozen floor 0.5", fontsize=8.5, color=V.MUTED)
-    ax.set_title("pathological is largest; alveolar identity is lost", fontsize=11)
+    ax.set_title("Pathological score is largest; alveolar-identity score is lower", fontsize=11)
     ax.legend(loc="lower left", fontsize=8.5, handletextpad=0.4)
 
     ax2 = fig.add_axes([0.60, 0.14, 0.35, 0.60])

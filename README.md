@@ -66,6 +66,9 @@ measurements and designs, and the [paper gallery index](Research%20Article/READM
 for study-level plots. Captions identify units and interpretation limits.
 Historical image titles do not override later corrections.
 
+The [29 September figure audit](docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md) records current
+presentation corrections, preserved historical versions, and the review depth for every figure.
+
 ## Try it yourself
 
 From a clean clone, Python 3.12 can check the tracked evidence and local links

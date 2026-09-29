@@ -115,7 +115,7 @@ def main() -> None:
 
     apply_style(plt)
     P = palette()
-    fig, axes = plt.subplots(1, 2, figsize=(9.5, 3.6))
+    fig, axes = plt.subplots(1, 2, figsize=(11.5, 4.6))
     for axx, (label, d) in zip(axes, out.items()):
         tab = d["scores"].set_index("state")
         M = tab[[f"score_{p}" for p in PROGRAMMES]]
@@ -123,12 +123,12 @@ def main() -> None:
         M = (M - M.min()) / (M.max() - M.min() + 1e-12)
         im = axx.imshow(M.to_numpy(), aspect="auto", cmap=matplotlib.colors.LinearSegmentedColormap.from_list("ramp", P["sequential_ramp"]))
         axx.set_xticks(range(M.shape[1])); axx.set_xticklabels(M.columns, rotation=40, ha="right", fontsize=8)
-        axx.set_yticks(range(M.shape[0])); axx.set_yticklabels([f"{s} (n={int(tab.loc[s, 'n'])})" for s in M.index], fontsize=8)
+        axx.set_yticks(range(M.shape[0])); axx.set_yticklabels([f"{s} ({int(tab.loc[s, 'n'])} cells)" for s in M.index], fontsize=8)
         for i in range(M.shape[0]):
             for j in range(M.shape[1]):
                 axx.text(j, i, f"{tab.iloc[i][f'score_{PROGRAMMES[j]}']:.2f}", ha="center", va="center", fontsize=7,
                          color=P["ink"] if M.iloc[i, j] < 0.6 else P["surface"])
-        axx.set_title(f"Mean programme score by state, {label} (rows scaled 0 to 1; numbers are raw means)", fontsize=9)
+        axx.set_title(f"Mean programme score by state, {label}\nEach program column scaled 0 to 1; numbers are raw means", fontsize=9)
     fig.tight_layout(); fig.savefig(OUT / "d6_programme_scores.png", dpi=150); rec.add_output(OUT / "d6_programme_scores.png"); plt.close(fig)
 
     lines = ["# Trial D6: programmes and the responder gene", ""]
