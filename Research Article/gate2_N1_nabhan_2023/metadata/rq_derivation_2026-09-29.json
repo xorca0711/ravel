@@ -1,0 +1,155 @@
+{
+  "schema": "nb2-rq-derivation/v1",
+  "date": "2026-09-29",
+  "base_commit": "72cf1ca",
+  "status": "proposed_questions_after_synthesis",
+  "new_analyses": false,
+  "new_claim_grades": false,
+  "derivation_report": "Research Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md",
+  "questions": [
+    {
+      "id": "A19",
+      "folder": "A19_fzd_response_reversibility",
+      "priority": "primary",
+      "source_branches": [
+        "Nb2-N1",
+        "Nb2-N2",
+        "Nb2-N3",
+        "Nb2-N5"
+      ],
+      "question": "Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?",
+      "hypotheses": [
+        "H1 temporal separation of expansion and maturation with retained reserve",
+        "H2 initial-state competence modifies the schedule response",
+        "H3 receptor-level input tunes activity trajectory and later fate balance"
+      ],
+      "unit": "independent animal/donor/preparation; repeated wells and cells nested",
+      "primary_outcome": "mature lineage-descendant yield per initial viable labeled population",
+      "required_evidence": [
+        "verified engagement and off-period",
+        "linked independent mature endpoint",
+        "survival and absolute counts",
+        "retained AT2 capacity and subsequent response",
+        "initial states for H2",
+        "independent calibration for H3"
+      ],
+      "existing_owners": [
+        "A1",
+        "A4",
+        "A8",
+        "A10",
+        "A14"
+      ],
+      "biological_hypothesis": "Fzd signaling maintains an expandable AT2 state; verified termination permits competent descendants to mature while preserving a responsive AT2 reserve.",
+      "biological_process": "reversible transition from expansion to mature alveolar contribution",
+      "competing_biology": [
+        "selection of pre-existing populations",
+        "general growth or toxicity",
+        "one amplitude-dependent response"
+      ],
+      "mechanistic_prediction": "Linked descendants increase mature output after verified off-period without exhausting the retained AT2 reserve."
+    },
+    {
+      "id": "A20",
+      "folder": "A20_fibroblast_fzd_context",
+      "priority": "secondary",
+      "source_branches": [
+        "Nb2-N6"
+      ],
+      "question": "Do subtype-specific Fzd signals maintain a fibroblast niche that enables alveolar maturation?",
+      "hypotheses": [
+        "H1 greater loss of AF1 trophic activity and epithelial mature output after Fzd2 loss than Fzd1 loss",
+        "H2 relative receptor dependence differs by initial fibroblast subtype"
+      ],
+      "unit": "independent fibroblast source/animal/preparation with epithelial recipient identity",
+      "primary_outcome": "absolute mature epithelial output; matrix remodeling assessed separately",
+      "required_evidence": [
+        "independent subtype crosswalk",
+        "receptor- and compartment-specific perturbation",
+        "verified engagement",
+        "functional epithelial output",
+        "matrix measurement",
+        "viability and cell abundance"
+      ],
+      "existing_owners": [
+        "A13",
+        "A15"
+      ],
+      "biological_hypothesis": "Fzd2 maintains AF1-like trophic activity that enables AT2 descendant maturation; Fzd1-rich contexts are not automatically interchangeable support states.",
+      "biological_process": "receptor-dependent control of a functional fibroblast support state",
+      "competing_biology": [
+        "general fibroblast abundance or depletion",
+        "mechanical or ECM-mediated support",
+        "direct epithelial reception",
+        "subtype replacement"
+      ],
+      "mechanistic_prediction": "Comparable receptor loss alters functional fibroblast-derived support and subsequent epithelial maturation; source/recipient separation and restoration distinguish trophic activity from depletion."
+    },
+    {
+      "id": "A21",
+      "folder": "A21_fzd4_capillary_function",
+      "priority": "conditional",
+      "source_branches": [
+        "Nb2-N7"
+      ],
+      "question": "Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?",
+      "hypotheses": [
+        "Fzd4-dependent regenerative state entry and later lineage contribution",
+        "competing general endothelial maintenance mechanism"
+      ],
+      "unit": "independent animal/preparation with resolved round and capillary context",
+      "primary_outcome": "traced capillary descendant yield per initial viable labeled population",
+      "required_evidence": [
+        "cohort and substate identifiers",
+        "independent expression replication",
+        "verified receptor perturbation",
+        "lineage-linked output",
+        "survival and vascular performance"
+      ],
+      "existing_owners": [],
+      "biological_hypothesis": "Fzd4 contributes to injury-induced gCap recruitment into a regenerative state that supplies renewed gCap and aerocyte descendants.",
+      "biological_process": "receptor-dependent recruitment into capillary regeneration",
+      "competing_biology": [
+        "endothelial survival or barrier/perfusion failure",
+        "capillary substate redistribution",
+        "cohort-specific injury response"
+      ],
+      "mechanistic_prediction": "Verified perturbation changes regenerative-state entry before traced descendant production, with an effect distinguishable from generalized endothelial loss."
+    }
+  ],
+  "deferred": {
+    "Nb2-N4": "Comparable verified loss/blockade evidence absent",
+    "Nb2-N8": "Ligand-selective perturbation crossed with Fzd6 dependency absent"
+  },
+  "evidence_files": [
+    {
+      "path": "Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/bulk_program_effects.tsv",
+      "sha256": "02ba08fd41c31cb9b142f86ed33d48e5d79a13f24ddb1cfa2f63f22b5911019c"
+    },
+    {
+      "path": "Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/bulk_library_influence.tsv",
+      "sha256": "ce5d172fac12cf5d7d01f4c3dbed5d5c2ae0571ff5c310ee55b7b284609f9d67"
+    },
+    {
+      "path": "Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/mouse_paired_summary.tsv",
+      "sha256": "ef84628145282e17678102cd45da5ebdc5e23520678cea41a2018a65e36ed43b"
+    },
+    {
+      "path": "Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/mouse_unit_coverage.tsv",
+      "sha256": "d001a376a161d80defadbd741a0563e3c0f3bb97f875def3e681ba2942babebe"
+    },
+    {
+      "path": "Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/vascular_depth_round_audit.tsv",
+      "sha256": "d5af420dd54164e8d1523b04260ae8b611f809e894e2698f5964ca7176f5b1ed"
+    },
+    {
+      "path": "Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/verification.json",
+      "sha256": "e69fcee2aa10a92088e9c0f349005d6db13b1ee904e5d0ecfbca1c2e4d16691f"
+    },
+    {
+      "path": "Research Article/gate2_N1_nabhan_2023/metadata/execution_validation.json",
+      "sha256": "2149fcf33a4cde4423568b51aec024b0f99dc48f59060192d1c4e2bbb6be71d5"
+    }
+  ],
+  "framing_rule": "Each RQ states a plausible biological process, a causal/directional prediction, competing explanations and a discriminating outcome. Measurement artifacts motivate controls, not standalone biological hypotheses."
+}

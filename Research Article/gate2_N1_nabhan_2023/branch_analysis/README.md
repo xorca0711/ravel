@@ -9,10 +9,11 @@ or a different niche function?
 seven requested branches and the existing endogenous-Fzd6 companion, with results,
 figures and exploratory interpretations beside [Nabhan 2023](../README.md).
 
-The [candidate notes](candidate_questions/) are paper-local drafts, not registered
-research questions. Analysis and synthesis come first; subsequently warranted RQs
-can be added under `RQ_Specified`. A branch may generate several questions, combine
-with another branch or yield none. The former Nb2-RQ1–RQ8 labels were premature
+The [candidate notes](candidate_questions/) retain the original paper-local drafts.
+The subsequent [overall synthesis](../RQ_DERIVATION.md) proposes A19–A21: four
+epithelial branches combine in A19, N6/N7 inform A20/A21, and N4/N8 remain deferred.
+Only new question plans are in `RQ_Specified`; these analyses stay paper-local.
+The former Nb2-RQ1–RQ8 labels were premature
 and have been retired in favor of the existing Nb2-N1–N8 candidate identities.
 [Relocation record](metadata/relocation.json).
 

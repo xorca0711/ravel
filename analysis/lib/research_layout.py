@@ -14,10 +14,9 @@ def check_research_layout(root: Path, result) -> None:
     package = root / 'analysis/figures/rq/il1b_context'
     questions = (root / 'RESEARCH_QUESTIONS.md').read_text(encoding='utf-8')
     ids = re.findall(r'^### (A\d+)\.', questions, flags=re.M)
-    # A15 to A18 are proposed and pending the owner's retain or reject; A15 derives from the
-    # IL-1beta branch and A16 to A18 from the England re-analysis. If any is rejected, drop the
-    # card and lower this range accordingly: the register must stay a gapless A0..An sequence.
-    result.equal(ids, [f'A{i}' for i in range(19)], 'canonical question sequence')
+    # A15-A18 retain their prior proposed status; A19-A21 are post-analysis Nb2
+    # hypotheses. Registration checks identity/order, not biological acceptance.
+    result.equal(ids, [f'A{i}' for i in range(22)], 'canonical question sequence')
     result.require(not (paper / 'DERIVED_RESEARCH_QUESTIONS.md').exists(),
                    'duplicate current paper-local RQ register')
     roadmap = json.loads((root / 'Research Article/ROADMAP.json').read_text(encoding='utf-8'))

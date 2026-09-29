@@ -2,6 +2,31 @@
 
 **Update this before stopping work, every session.**
 
+## Nb2 RQ derivation, 29 September 2026
+
+The owner requested deriving RQs from the overall Nb2 results after PR #121
+merged. [The synthesis](Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md)
+proposes A19 (epithelial reversibility; N1/N2/N3/N5), A20 (fibroblast Fzd context;
+N6) and conditional A21 (vascular renewal versus maintenance; N7). N4/N8 remain
+paper-local because comparable perturbation evidence is missing. A0–A18 retain
+their scope. New plans and draft contracts are under `RQ_Specified`; prior
+analyses, figures and frozen evidence stay beside the paper.
+
+The owner requires biological hypotheses, not measurement-artifact questions.
+A19 proposes a reversible expansion/maturation transition; A20 a receptor-dependent
+trophic fibroblast state; A21 Fzd4-dependent entry into capillary renewal.
+The designs are post-analysis proposals, not validated mechanisms or frozen
+confirmatory tests. No new fit or claim grade is added. First next work is an
+A19 source/endpoint eligibility inventory, followed by A20 subtype/perturbation
+and A21 cohort/lineage inventories. The owner requested commit, push and PR publication from
+`codex/nb2-rq-synthesis`, based on merged main `72cf1ca`. No analysis is running;
+publication does not imply biological acceptance or authorize PR merging.
+
+Validation: 24 derivation/preservation checks, the paper-plan verifier, claim
+contract and 67 tests (one skip) passed. After extending the layout validator
+to A21, repository validation passed 5,143 checks. The [verification record](Research%20Article/gate2_N1_nabhan_2023/metadata/rq_derivation_validation.json)
+preserves the initial range failure and its correction.
+
 ## Nb2 PR conflict resolution, 29 September 2026
 
 [PR #121](https://github.com/xorca0711/scRNA_seq/pull/121) integrates main through

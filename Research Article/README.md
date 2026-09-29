@@ -23,9 +23,13 @@ outside the tracked documentation.
 
 ## Nabhan branch: Nb2 initial execution
 
-Current continuation: [paper-local Nb2 branch analysis](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md)
-examines state/duration, receptor-output, fibroblast and vascular branches before
-deriving any later specified RQs.
+Subsequent [result-derived RQ synthesis](gate2_N1_nabhan_2023/RQ_DERIVATION.md)
+proposes A19–A21 with unexecuted question plans; N4/N8 remain paper-local.
+All existing Nb2 analyses and figures stay under this paper.
+
+Completed continuation: [paper-local Nb2 branch analysis](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md)
+examines state/duration, receptor-output, fibroblast and vascular branches; its
+results now motivate the subsequent A19–A21 synthesis.
 The [new results](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md) retain failed
 coverage/comparability gates and the vascular experimental-round rival.
 

@@ -7,6 +7,7 @@ hypothesis development. No claim grade changes.
 
 | Start with | Contents |
 |---|---|
+| [RQ derivation from overall results](RQ_DERIVATION.md) | Three proposed RQs (A19–A21), branch disposition and next discriminating evidence |
 | [Executed branch analysis and candidate interpretations](branch_analysis/README.md) | Seven focused branches plus the endogenous-Fzd6 companion; cross-study results, five figures, hypotheses and falsifiers |
 | [Results and remaining questions](RESULTS.md) | Main findings, uncertainty and next evidence |
 | [Figure gallery](FIGURES.md) | Six bulk and receptor-context figures |
@@ -37,7 +38,8 @@ The measured findings refine the [Nabhan cards](HYPOTHESIS_REGISTER.md#nabhan-br
 none is a validated new hypothesis. Exact healthy-atlas and functional source
 reproduction still need unavailable source inputs. New question-specific tests
 belong under the owning `RQ_Specified/` contract; the existing Axin2/Il1r1 question
-stays with A4/Nb1. No A-series question is created by this paper-local register.
+stays with A4/Nb1. The subsequent [synthesis](RQ_DERIVATION.md) proposes A19–A21
+with separate question plans; the original branch cards remain paper-local.
 
 [Numerical verification](metadata/execution_validation.json) checks provenance and
 independent table arithmetic. [Repository validation](metadata/repository_validation.json)

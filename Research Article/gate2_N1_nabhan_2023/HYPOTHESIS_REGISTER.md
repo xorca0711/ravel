@@ -4,12 +4,13 @@ Status on 29 September 2026: **initial analyses executed; hypotheses remain unva
 See [results](RESULTS.md), the [stage ledger](metadata/stage_status.tsv), and the
 execution update within each candidate card.
 The later [branch execution and candidate interpretations](branch_analysis/README.md)
-remain paper-local. They inform subsequent RQ derivation; no Nb2 question workspace
-is registered under `RQ_Specified`. Source claims below retain their own status.
+remain paper-local. The subsequent [overall synthesis](RQ_DERIVATION.md) derives
+proposed A19–A21 question plans under `RQ_Specified`; the eight branch identities
+remain unchanged. Source claims below retain their own status.
 P1 refers to the supplied [2023 paper](https://doi.org/10.1016/j.cell.2023.05.022);
 N1–N3 are the sources in the [audit](SOURCE_AUDIT.md). Source findings, the owner's
 ideas and the assistant's operational hypotheses are identified separately.
-Paper-local IDs do not create A19 onward or change C-register grades.
+Paper-local IDs are distinct from the subsequently proposed A19–A21; no C-register grade changes.
 
 <a id="published-claims"></a>
 ## Track 1: the paper's claim/hypothesis list
