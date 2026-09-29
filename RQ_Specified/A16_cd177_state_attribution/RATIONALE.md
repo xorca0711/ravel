@@ -200,19 +200,24 @@ which asserts recomputation against the archived tables before drawing; hashes i
 
 ![The C3 null as histograms with Cd177 marked](figures/A16_F03_c3_null_histograms.png)
 
-**Figure A16-F03. Cd177 is not exceptional among genes matched to it, and in most units the test
-could not have shown that it was.** *What to look for:* where the red line (Cd177's own priming
-effect) falls inside each grey distribution of effects from genes matched to Cd177 on detection
-and expression. *What it shows:* in the only well-populated null — exp1 sub 10, 500 control
-genes — Cd177 sits inside the distribution, with 14% of matched control genes reaching or
-exceeding it. A gene whose association with priming were specific to it should sit in the tail.
-It does not. *Why the rest cannot decide it:* seven of nine units hold fewer than 40 control
-genes and one holds a single gene, so their histograms are a handful of bars and the percentage
-beside them is a fraction with a denominator in single or low double digits — not a null a value
-can be placed in. The single-gene entry, exp1 sub 12, is Pclaf, whose effect (+0.203) is above
-Cd177's (-0.077); that is what its "100% reach Cd177" means. *Biological reading:* the
-specificity of Cd177 to a primed state is **untested here, not refuted** — the one interpretable
-unit gives no support for specificity, and the remaining units are silent. Plotted from
+**Figure A16-F03. The two units that can be interpreted disagree on whether Cd177 is exceptional,
+which is why the specificity test is inconclusive rather than negative.** *What to look for:*
+where the red line (Cd177's own priming effect) falls relative to the grey distribution of effects
+from genes matched to Cd177 on detection and expression. *What it shows:* the two entries that
+clear the 40-gene floor point in opposite directions. In exp1 sub 10 (500 control genes) Cd177
+sits inside the null at the 86th percentile — SMD 0.358380 against a null median of 0.096928 and
+p95 of 0.518926, with 13.87% of control genes reaching or exceeding it — so a gene matched to
+Cd177 on abundance frequently does as well. In exp2 sub 12 (284 control genes) Cd177 is at SMD
+1.307680 and exceeds **every** control gene, and the null maximum (1.237905), for a quantile of
+1.000. One unit is consistent with Cd177 being ordinary among equally abundant genes; the other
+is consistent with it being specific. *Why the rest cannot arbitrate:* seven of nine units hold
+fewer than 40 control genes, and exp1 sub 12 holds a single gene, Pclaf, whose effect (+0.203) is
+above Cd177's (-0.077) — that is what its "100% reach Cd177" means. Their percentages are
+fractions with denominators in single or low double digits. *Biological reading:* the specificity
+of Cd177 to a primed state is **unresolved, not refuted**. The contradiction between the two
+interpretable units is itself informative: it locates the disagreement at the level of the unit
+(subcluster and experiment) rather than the gene, which is what a unit-resolved closure design
+has to address. Plotted from
 [A16_C3_control_gene_detail.csv](tables/stage1/A16_C3_control_gene_detail.csv) and
 [A16_C3_matched_gene_null.csv](tables/stage1/A16_C3_matched_gene_null.csv). Arm B entries pool
 libraries within an experiment and are not within-state contrasts.

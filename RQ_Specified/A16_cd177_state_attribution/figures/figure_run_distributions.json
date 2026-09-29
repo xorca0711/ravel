@@ -1,6 +1,6 @@
 {
   "scope": "Distributions behind already-reported A16 summaries. No fit, no rescoring, no new estimate. Per-positive-cell matched differences in F04a are recomputed from the saved edge list and saved per-cell scores, as the archived verifier does, and the script asserts their mean equals the reported matched_raw to 1e-12. Arm B entries in F03 pool libraries within an experiment and are not within-state contrasts. Control-gene histograms show the SELECTED controls, not the full candidate universe. The 0.1 line in the Love plot is the conventional balance reference from the matching literature, not a threshold this analysis adopted.",
-  "script_sha256": "0b370a6c7de673ba0cede3ad3e2a34a70514c4921f484dbbe724b8f2af548d84",
+  "script_sha256": "14f0a4d1502c5516e68dbd744989a65217e12ec9d4144ed294e3e4f9218dcc81",
   "matplotlib_version": "3.11.1",
   "jitter_seed": 20260928,
   "text_collisions": {
@@ -18,11 +18,11 @@
     "correction_20260928/tables/corrected_c1/PC_balance.csv": "6fa727d570bb95eb14acf52f9247d5d08aa7a3c013735c5be6d207326102adeb"
   },
   "outputs": {
-    "A16_F03_c3_null_histograms.png": "e85a829c4c7a841386a60eb19fd5b6d2fef9882d4b38b849bfb60a95505c231a",
-    "A16_F03_c3_null_histograms.svg": "4bfa0845d2a5404d444bec471a0c9a61f1a765229693c26cdcde3554c4bf09aa",
-    "A16_F04_percell_score_violins.png": "d6f719a513173df5775c9dd464578f6fce4336783f405cbb7b4fcce57d45d865",
-    "A16_F04_percell_score_violins.svg": "e5436586975455204bb0c0417bb2c6a7b347220a9adedb39823d3e0d8152d1e8",
-    "A16_F05_matching_balance_loveplot.png": "6893d29daeeafab14cb06205052de69b6a61678e72bbf7a9c0d49e852d7a0b82",
-    "A16_F05_matching_balance_loveplot.svg": "b378470a626485a7cb3af6426676ee8db47e6aedd32c58200dcfbf3c27a0c0f5"
+    "A16_F03_c3_null_histograms.png": "12b6f271a42ab951944812479a55cd5f864280788e03f4c90a7ab7f153631831",
+    "A16_F03_c3_null_histograms.svg": "ceacbc2937520585fbaf77098fb5de5c1d0e66cef224a38fbc01f79aee14d7d3",
+    "A16_F04_percell_score_violins.png": "e59e5abed31c01675bdbd1a8307d96046a8aaef548551347b331297a2c80121e",
+    "A16_F04_percell_score_violins.svg": "6d8bbf81495e0121300e074a8baa0559e0e87068377f6e4e6873c2e2da9f12f7",
+    "A16_F05_matching_balance_loveplot.png": "8e9ed3c9d47bca8be6f0576109d0642c9bcdb131870ec0732da547efb5dc8952",
+    "A16_F05_matching_balance_loveplot.svg": "ed51c9669db2d40b0a28d8f3cfdfb6c8ab7d12641d20394571ac16490de4a917"
   }
 }

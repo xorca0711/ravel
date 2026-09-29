@@ -166,10 +166,14 @@ def figure_three(plt, np, pd, paths):
         ax.set_visible(False)
     for ax in axes[-1]:
         ax.set_xlabel('Priming SMD of a matched\ncontrol gene', fontsize=7)
-    fig.suptitle('Two entries hold a null dense enough to place Cd177; the other seven fall below the\n'
-                 '40-gene readability floor, and one holds a single control gene. '
-                 'Red line: Cd177\u2019s own effect.',
-                 fontsize=8.5, x=0.01, ha='left')
+    fig.suptitle('The two interpretable units disagree on whether Cd177 is exceptional',
+                 fontsize=9.5, fontweight='semibold', x=0.01, ha='left')
+    fig.supxlabel('Grey: priming effect of each control gene matched to Cd177 on detection and '
+                  'expression. Red: Cd177\u2019s own effect. Only exp1 sub 10 (500 genes) and\n'
+                  'exp2 sub 12 (284) clear the 40-gene floor. Cd177 sits at the 86th percentile '
+                  'of the first null and above every gene in the second. The remaining seven\n'
+                  'panels are shown to make the shortfall visible, not to be read as nulls.',
+                  fontsize=6.6, color=GREY, x=0.01, ha='left')
     fig.canvas.draw()
     OVERLAPS['figure_three'] = _overlap_report(fig, plt.matplotlib, np)
     for path in paths:
@@ -241,7 +245,8 @@ def figure_four(plt, np, pd, paths):
     ax_a.set_xticks([0, 1])
     ax_a.set_xticklabels(LIBRARIES, fontsize=7)
     ax_a.set_ylabel('Priming score, positive cell minus\nits matched controls (score units)')
-    ax_a.set_title('The estimate averages cells that disagree:\nabout one in five runs the other way')
+    ax_a.set_title('Cd177-positive cells are not uniformly primed:\n'
+                   'about one in five scores below its own controls', fontsize=8.2)
     ax_a.set_xlim(-0.65, 1.65)
 
     library = LIBRARIES[0]
@@ -257,7 +262,8 @@ def figure_four(plt, np, pd, paths):
     ax_b.set_xticks([0, 1, 2])
     ax_b.set_xticklabels([g[0] for g in groups], fontsize=7)
     ax_b.set_ylabel('Priming-associated score,\nmean log1p(CP10k)')
-    ax_b.set_title('Matching pulls the comparison group\ntoward the positives (GSM7890835)')
+    ax_b.set_title('The cells they are compared against are\n'
+                   'themselves primed (GSM7890835)', fontsize=8.2)
     top = max(v.max() for _, v, _ in groups)
     ax_b.set_ylim(-0.12, top * 1.26)
 
@@ -306,12 +312,13 @@ def figure_five(plt, np, pd, paths):
                      f'{int(worsened.sum())} worse, {int((frame.after > 0.1).sum())} still above 0.1',
                      fontsize=7.4)
     axes[1].legend(frameon=False, loc='lower right', fontsize=6.4, handletextpad=0.4)
-    fig.supxlabel('Dashed line: the conventional 0.1 balance reference from the matching '
-                  'literature, not a mark this analysis adopted.', fontsize=6.4, color=GREY,
-                  x=0.01, ha='left')
-    fig.suptitle('Matching improves most components but worsens several, and leaves more than half\n'
-                 'of them outside the conventional balance reference',
-                 fontsize=8.5, x=0.01, ha='left')
+    fig.supxlabel('One row per component of the library\u2019s local expression space. PC1, the '
+                  'dominant axis of transcriptional position, is brought under control in both\n'
+                  'libraries; crosses mark components matching made worse. Dashed line: the '
+                  'matching literature\u2019s conventional 0.1 reference, not a mark adopted here.',
+                  fontsize=6.6, color=GREY, x=0.01, ha='left')
+    fig.suptitle('The matched comparison is better balanced, but not position-free',
+                 fontsize=9.5, fontweight='semibold', x=0.01, ha='left')
     fig.canvas.draw()
     OVERLAPS['figure_five'] = _overlap_report(fig, plt.matplotlib, np)
     for path in paths:
