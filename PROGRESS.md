@@ -413,15 +413,17 @@ cohort. Two history headings here that still said current were relabelled.
 **Pending owner decisions.**
 
 1. **Owner review of the delegated claim grades, 29 September 2026.** At the owner's
-   request, the register gained rows C169-C233. They cover the reference-atlas
-   packages, Cardoso trial C6, A0, A5, the shared A5/A11 contract, A10, A11, A6, A9,
-   A12 and A13. Twenty-eight earlier rows were also touched, 13 with dated qualifiers and
-   16 with repaired artefact paths. Among them is C4, which is now Descriptive only for the Kit line. Each new or
-   changed grade is marked as a delegated reassessment awaiting retain/reject.
-   Two grades most need review: C202 (A5, 24/24 mice) and C205 (A11 Kim, 8/8
-   patients). Both are proposed as Validated within one cohort. England with A16,
-   Yu-Lee-Choi-Min, A1, A2, A8, A14 and A15 were not inventoried and still have no
-   rows.
+   request the register grew from 168 to 342 rows, and every folder under
+   `Research Article/` and `RQ_Specified/` is now inventoried. Rows C169-C342 cover the
+   reference atlases, Cardoso trial C6, A0, A5, the shared A5/A11 contract, A10, A11,
+   A6, A9, A12, A13, England with A16, Yu-Lee-Choi-Min, A1, A2, A15, and the A8/A14
+   endpoint requirements. Thirty-three earlier rows were touched, 18 with dated
+   qualifiers and 17 with repaired artefact paths; C4's Kit status moved from Validated
+   to Descriptive only. Each new or changed grade is marked as a delegated reassessment
+   awaiting retain/reject. Four grades most need review: C202 (A5, 24/24 mice) and C205
+   (A11 Kim, 8/8 patients), both proposed Validated within one cohort, and the two
+   Validated-as-a-record rows C253 (deposited simulator branch) and C329 (a frozen depth
+   rule refusing a nominally significant correlation).
 2. **Resolved, 27 September 2026: branch cleanup is complete.** Six merged branches
    were deleted on both local and origin. The two that held unmerged commits were
    deleted on the owner's instruction after each was checked against `main`:

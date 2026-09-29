@@ -1,0 +1,269 @@
+document,exists_on_main,registered_as,not_registered_reason,inventory_track
+Research Article/gate2_C2_england_2025/RESULTS_BATCH1.md,True,C237;C238;C239;C255;C256;C268;C234;C269,,England
+Research Article/gate2_C2_england_2025/RESULTS_CONTINUATION.md,True,C235;C237;C239;C240;C241;C242;C253;C257;C260;C261;C234,,England
+Research Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md,True,C243;C244;C236;C262;C263;C264;C265;C266;C267;C258;C269,,England
+Research Article/gate2_C2_england_2025/SOURCE_AUDIT.md,True,C234;C269,,England
+Research Article/gate2_C2_england_2025/EVIDENCE_REVIEW.md,True,C241;C237;C256;C266;C260;C252,,England
+Research Article/gate2_C2_england_2025/ANALYSIS_OPPORTUNITIES.md,True,C258;C268;C251,,England
+Research Article/gate2_C2_england_2025/FIGURES.md,True,,"Figure gallery with captions; presentation, not a results document. Its EN_C02, FU_F02, FU_F03 and FU_F05 captions were corrected by the 2026-09-29 figure audit and the corrected readings are reflected in the rows above.",England
+Research Article/gate2_C2_england_2025/README.md,True,,Study overview and identifier guide; no independent measurement.,England
+Research Article/gate2_C2_england_2025/ANALYSIS_TRIAL_PLAN.md,True,,"Stage 0 trial plan (design only, written before execution).",England
+Research Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md,True,C268,,England
+Research Article/gate2_C2_england_2025/CANDIDATE_CHECKS.md,True,,"Proposed supporting checks, explicitly not executed tests or frozen protocols.",England
+Research Article/gate2_C2_england_2025/BATCH1_CONTRACT.md,True,C269,,England
+Research Article/gate2_C2_england_2025/CONTINUATION_CONTRACT.md,True,C269,,England
+Research Article/gate2_C2_england_2025/config/batch1_contract.json,True,C269,,England
+Research Article/gate2_C2_england_2025/config/continuation_contract.json,True,C269,,England
+Research Article/gate2_C2_england_2025/config/continuation_amendments.json,True,C253;C234,,England
+Research Article/gate2_C2_england_2025/config/followup_contract.json,True,C262;C258;C269,,England
+Research Article/gate2_C2_england_2025/england_2025_extracts.json,True,,"Quoted source-text extracts from the paper; evidence about the source, no repository measurement.",England
+Research Article/gate2_C2_england_2025/metadata/source_manifest.json,True,,Input inventory and hashes (provenance only).,England
+Research Article/gate2_C2_england_2025/metadata/continuation_intake.json,True,C234,,England
+Research Article/gate2_C2_england_2025/metadata/analysis_unit_map.csv,True,C234,,England
+Research Article/gate2_C2_england_2025/metadata/geo_library_manifest.csv,True,C234,,England
+Research Article/gate2_C2_england_2025/metadata/zenodo_files.csv,True,C255;C253,,England
+Research Article/gate2_C2_england_2025/trials/batch1/stage_status.json,True,C269,,England
+Research Article/gate2_C2_england_2025/trials/batch1/verification.json,True,C269;C256,,England
+Research Article/gate2_C2_england_2025/trials/batch1/rna/run_record.json,True,C237;C238;C239,,England
+Research Article/gate2_C2_england_2025/trials/batch1/clones/run_record.json,True,C255;C256;C268,,England
+Research Article/gate2_C2_england_2025/trials/batch1/rna/started.json,True,,Pre-run start stamp.,England
+Research Article/gate2_C2_england_2025/trials/batch1/clones/started.json,True,,Pre-run start stamp.,England
+Research Article/gate2_C2_england_2025/trials/batch1/figures/render_record.json,True,,"Figure render provenance (including the mapped-gene denominator rescaling); presentation, not a claim.",England
+Research Article/gate2_C2_england_2025/trials/batch1/figures/visual_review.json,True,,Figure visual-review record; presentation only.,England
+Research Article/gate2_C2_england_2025/trials/continuation/stage_status.json,True,C269,,England
+Research Article/gate2_C2_england_2025/trials/continuation/verification.json,True,C269;C253,,England
+Research Article/gate2_C2_england_2025/trials/continuation/prep/run_record.json,True,C234,,England
+Research Article/gate2_C2_england_2025/trials/continuation/prep/EN0_availability_ledger.json,True,C234;C268,,England
+Research Article/gate2_C2_england_2025/trials/continuation/prep/matrix_checks.json,True,C234,,England
+Research Article/gate2_C2_england_2025/trials/continuation/prep/started.json,True,,Pre-run start stamp.,England
+Research Article/gate2_C2_england_2025/trials/continuation/EN1/run_record.json,True,C235,,England
+Research Article/gate2_C2_england_2025/trials/continuation/EN1/started.json,True,,Pre-run start stamp.,England
+Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/run_record.json,True,C237;C238;C240;C241;C242,,England
+Research Article/gate2_C2_england_2025/trials/continuation/EN2_5/started.json,True,,Pre-run start stamp.,England
+Research Article/gate2_C2_england_2025/trials/continuation/EN6/run_record.json,True,C253;C257,,England
+Research Article/gate2_C2_england_2025/trials/continuation/EN6/started.json,True,,Pre-run start stamp.,England
+Research Article/gate2_C2_england_2025/trials/continuation/EN7/run_record.json,True,C260;C261;C235,,England
+Research Article/gate2_C2_england_2025/trials/continuation/EN7/started.json,True,,Pre-run start stamp.,England
+Research Article/gate2_C2_england_2025/trials/continuation/figures/render_record.json,True,,Figure render provenance; presentation only.,England
+Research Article/gate2_C2_england_2025/trials/followup/run_record.json,True,C243;C244;C236;C262;C263;C264;C265;C239,,England
+Research Article/gate2_C2_england_2025/trials/followup/FU_W_run_record.json,True,C266;C267,,England
+Research Article/gate2_C2_england_2025/trials/followup/started.json,True,,Pre-run start stamp.,England
+Research Article/gate2_C2_england_2025/trials/followup/figures/render_record.json,True,,Figure render provenance; presentation only.,England
+Research Article/gate2_C2_england_2025/trials/followup/figures/FU_F05_render_record.json,True,,"Render-only provenance for the FU_F05 regeneration, deliberately separate from the FU_W scientific run record; presentation only.",England
+RQ_Specified/A16_cd177_state_attribution/reports/STAGE1_RESULTS.md,True,C246;C247;C248;C249;C245;C252,,England
+RQ_Specified/A16_cd177_state_attribution/reports/STAGE1_ERRATUM.md,True,C244;C246,,England
+RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md,True,C247;C248;C245;C249;C246;C252;C243,,England
+RQ_Specified/A16_cd177_state_attribution/reports/PUBLIC_DATA_SEARCH.md,True,C251,,England
+RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_VALIDATION.json,True,C252,,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md,True,C245;C241,,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/config/corrected_c1_specification.json,True,C245,,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/config/exclusion_provenance.json,True,C245,,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/config/excluded_genes.tsv,True,C245,,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/tables/corrected_c1/run_record.json,True,C245,,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/tables/correction_verification.json,True,C245;C269,,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/tables/readiness.json,True,,Input-availability and hash record for the corrected run; provenance only.,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/tables/readiness_main_only.json,True,,Preserved earlier readiness attempt (missing processed inputs in the main checkout); provenance only.,England
+RQ_Specified/A16_cd177_state_attribution/correction_20260928/tables/corrected_c1/started.json,True,,Pre-run start stamp.,England
+RQ_Specified/A16_cd177_state_attribution/RATIONALE.md,True,C252;C245;C246;C241,,England
+RQ_Specified/A16_cd177_state_attribution/PLAN.md,True,C252;C251,,England
+RQ_Specified/A16_cd177_state_attribution/README.md,True,,Workspace index; no independent measurement.,England
+RQ_Specified/A16_cd177_state_attribution/config/a16_question_contract.json,True,C252;C246,,England
+RQ_Specified/A16_cd177_state_attribution/tables/stage1/run_record.json,True,C246;C247,,England
+RQ_Specified/A16_cd177_state_attribution/tables/stage1/run_record_c1_c2_c5.json,True,C245;C249;C248,,England
+RQ_Specified/A16_cd177_state_attribution/tables/stage1/started.json,True,,Pre-run start stamp.,England
+RQ_Specified/A16_cd177_state_attribution/tables/stage1/started_c1_c2_c5.json,True,,Pre-run start stamp.,England
+RQ_Specified/A16_cd177_state_attribution/figures/figure_run.json,True,,Original A16 figure render record (PR #117); the 2026-09-29 audit marks those five figures historical_superseded and their wording is not endorsed as current inference.,England
+RQ_Specified/A16_cd177_state_attribution/figures/figure_run_distributions.json,True,,Original distribution-figure render record; superseded as above.,England
+RQ_Specified/A16_cd177_state_attribution/figures/revision_20260929/figure_run.json,True,,"Corrected-current render record for A16_F01/F02; presentation only. Its corrected readings (attenuation scoped to three k values, control count is not power) are carried in the A16 rows.",England
+RQ_Specified/A16_cd177_state_attribution/figures/revision_20260929/figure_run_distributions.json,True,,Corrected-current render record for A16_F03/F04/F05; presentation only.,England
+RESEARCH_QUESTIONS.md#a16,True,C252;C246;C245;C243,,England
+RESEARCH_QUESTIONS.md#a17,True,C258;C253;C254;C259,,England
+RESEARCH_QUESTIONS.md#a18,True,C268;C266;C267,,England
+docs/audits/2026-09-28-england-paper-rqs/REPORT.md,True,C250;C253;C259;C264;C236,,England
+docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md,True,C259;C258;C254,,England
+docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md,True,,"Figure audit applied as a constraint throughout (EN_C02 gate counts, FU_F02 inconclusive verdicts, FU_F03 positional attribution removed, FU_F05 no independence inference, A16 power wording); it is a presentation audit and holds no new scientific measurement.",England
+docs/FIGURE_AUDIT_CONSOLIDATED.csv,True,,Consolidated figure inventory and dispositions; presentation record.,England
+Research Article/gate2_C3_yu_lee_choi_min_2026/ANALYSIS_TRIAL_PLAN.md,True,,"Stage 0 plan: research questions, estimands, gates and outputs written before execution; holds no result.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/DATASETS.md,True,,Ranked dataset shortlist and access notes; the executed design audit it anticipates is registered under YU-design-audit.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/EVALUATION_RULES.md,True,C293,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/EVIDENCE_REVIEW.md,True,C277;C226;C284;C286;C290;C293;C272,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/FIGURE_GALLERY_PLAN.md,True,,Figure specification and release criteria; holds no result. All 17 figures of this folder were screened by the 2026-09-29 figure audit as retained_screened with no correction.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/FINAL_REVIEW.md,True,C272;C280;C275,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/INITIAL_RUN_REPORT.md,True,C278;C276;C293,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/NICHE_ANALYSIS_PLAN.md,True,,Stage 0 plan for the niche arms; holds no result.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/README.md,True,,"Gallery and navigation index; every number in it is restated from the trial reports registered below, so it adds no independent result.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/REPRODUCIBILITY.md,True,C295,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/SOURCE_SYNTHESIS.md,True,C295,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/WORK_PACKAGES.md,True,C277;C280;C279;C276;C274;C286;C287;C290;C288;C225;C226;C293,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/analysis_contract.json,True,,"Frozen proposed contract (review status, estimand, floors); specification, not a result.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/dataset_candidates.json,True,,Machine-readable dataset manifest with roles and release gates; no result.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/niche_analysis_contract.json,True,,"Frozen niche contract (context axes, methods, eligibility, multiplicity families); specification, not a result.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/PREPARATION_REPORT.md,True,C270;C271,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u0_geo_design_audit/run_record.json,True,C270;C271,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u1_count_input_preflight/run_record.json,True,,"Technical count-input preflight on two libraries: dimension, uniqueness, coordinate-bound and integer-count checks only; no biological comparison and no expression effect.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u1_input_spec.json,True,,"Technical count-input preflight on two libraries: dimension, uniqueness, coordinate-bound and integer-count checks only; no biological comparison and no expression effect.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_extension_access/run_record.json,True,,"Bounded HEAD/prefix access audit of candidate extension deposits; establishes retrievability, not a result. Its consequences are registered under YU-kac-endpoint-not-establishable and YU-han-isr-arm-blocked.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_extension_pilot/run_record.json,True,,Acquisition pilot record for the extension deposits; no comparison computed.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_extension_pilot/specification.json,True,,Acquisition pilot record for the extension deposits; no comparison computed.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_remaining_context_access/additional_source_audit.json,True,C294;C290,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_remaining_context_access/han_repository_file_inventory.json,True,C294;C290,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_remaining_context_access/run_record.json,True,C294;C290,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u2_source_audit/run_record.json,True,C272,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u3_acquire_qc/run_record.json,True,C276,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u3_cluster_review/run_record.json,True,C276,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u3_lineage_annotation/run_record.json,True,C276,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u3_lineage_annotation/specification.json,True,C276,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u3_run_spec.json,True,,Frozen stage specification for the mouse input/annotation run; no result.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/REPORT.md,True,C275;C274;C273;C272,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/compatibility_run_record.json,True,C275;C274;C273;C272,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/liana_run_record.json,True,C275;C274;C273;C272,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/liana_specification.json,True,C275;C274;C273;C272,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/pseudobulk_run_record.json,True,C275;C274;C273;C272,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_mouse_niche/validation.json,True,C275;C274;C273;C272,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_resources/acquisition.json,True,,"Frozen LR resource, ortholog and pathway-set acquisition for the mouse arm; inputs, not a result. The denominator-narrative correction it preserves is documented in REPRODUCIBILITY.md.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u4_resources/specification.json,True,,"Frozen LR resource, ortholog and pathway-set acquisition for the mouse arm; inputs, not a result. The denominator-narrative correction it preserves is documented in REPRODUCIBILITY.md.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_full_source_panels/GSE135893/run_record.json,True,,Full-matrix source-panel extraction for the two IPF cohorts; input stage whose outputs feed YU-triad-coverage-insufficient and YU-ipf-aberrant-hpcs-isr-dissociate.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_full_source_panels/GSE135893/specification.json,True,,Full-matrix source-panel extraction for the two IPF cohorts; input stage whose outputs feed YU-triad-coverage-insufficient and YU-ipf-aberrant-hpcs-isr-dissociate.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_full_source_panels/GSE136831/run_record.json,True,,Full-matrix source-panel extraction for the two IPF cohorts; input stage whose outputs feed YU-triad-coverage-insufficient and YU-ipf-aberrant-hpcs-isr-dissociate.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_full_source_panels/GSE136831/specification.json,True,,Full-matrix source-panel extraction for the two IPF cohorts; input stage whose outputs feed YU-triad-coverage-insufficient and YU-ipf-aberrant-hpcs-isr-dissociate.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/ANNOTATION_REVIEW.md,True,C281,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/acquisition_run_record.json,True,C281,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/acquisition_specification.json,True,C281,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/annotation_review_summary.json,True,C281,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/count_store_validation.json,True,C281,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/processing_run_record.json,True,C281,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_full/processing_specification.json,True,C281,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_ligand_targets/REPORT.md,True,C283,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_ligand_targets/filter_run_record.json,True,C283,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_ligand_targets/validation.json,True,C283,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/REPORT.md,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/aggregation_run_record.json,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/compatibility_run_record.json,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/liana_run_record.json,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/liana_specification.json,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/paired_pipeline_run_record.json,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/paired_pipeline_specification.json,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/specification.json,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/validation.json,True,C282;C226,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_pilot/annotation_review_summary.json,True,,"Human input and reference-mapping pilot (library QC, mapping training coverage, patient metadata consistency); superseded by the full 75-library run registered under YU-human-annotation-retention.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_pilot/input_run_record.json,True,,"Human input and reference-mapping pilot (library QC, mapping training coverage, patient metadata consistency); superseded by the full 75-library run registered under YU-human-annotation-retention.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_pilot/input_specification.json,True,,"Human input and reference-mapping pilot (library QC, mapping training coverage, patient metadata consistency); superseded by the full 75-library run registered under YU-human-annotation-retention.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_pilot/mapping_run_record.json,True,,"Human input and reference-mapping pilot (library QC, mapping training coverage, patient metadata consistency); superseded by the full 75-library run registered under YU-human-annotation-retention.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_pilot/mapping_specification.json,True,,"Human input and reference-mapping pilot (library QC, mapping training coverage, patient metadata consistency); superseded by the full 75-library run registered under YU-human-annotation-retention.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_sources/REPORT.md,True,C225,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_sources/run_record.json,True,C225,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_sources/validation.json,True,C225,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/REPORT.md,True,C277,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/path_relocation.json,True,C277,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/run_record.json,True,C277,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/specification.json,True,C277,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_compatibility/validation.json,True,C277,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_liana/run_record.json,True,,"Initial capped descriptive LIANA pass on GSE136831 (25 donors, 50 nonempty tables); superseded by the full-cell two-cohort pass registered under YU-triad-coverage-insufficient.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_liana/specification.json,True,,"Initial capped descriptive LIANA pass on GSE136831 (25 donors, 50 nonempty tables); superseded by the full-cell two-cohort pass registered under YU-triad-coverage-insufficient.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_liana/validation.json,True,,"Initial capped descriptive LIANA pass on GSE136831 (25 donors, 50 nonempty tables); superseded by the full-cell two-cohort pass registered under YU-triad-coverage-insufficient.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_pathways/run_record.json,True,C278,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_pathways/validation.json,True,C278,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ipf_spec/specification.json,True,,"Frozen IPF pathway specification, compartment sets and expected counts; specification, not a result.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/GSE135893/run_record.json,True,C280,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/GSE135893/specification.json,True,C280,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/GSE136831/run_record.json,True,C280,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/GSE136831/specification.json,True,C280,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/REPORT.md,True,C280,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/compression_validation.json,True,C280,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_liana_robustness/validation.json,True,C280,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/GSE135893/run_record.json,True,C279,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/GSE135893/specification.json,True,C279,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/GSE136831/run_record.json,True,C279,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/GSE136831/specification.json,True,C279,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/REPORT.md,True,C279,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/candidate_filter_specification.json,True,C279,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/prior_acquisition.json,True,C279,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_ligand_targets/validation.json,True,C279,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/REPORT.md,True,C289;C290;C291;C292,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/RNA_spatial_crosswalk_validation.json,True,C289;C290;C291;C292,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/acquisition_run_record.json,True,C289;C290;C291;C292,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/acquisition_specification.json,True,C289;C290;C291;C292,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/processing_run_record.json,True,C289;C290;C291;C292,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/validation.json,True,C289;C290;C291;C292,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/figure_review.json,True,,"Figure/PNG-hash presentation review; the 2026-09-29 repository figure audit records all 17 figure families of this folder as retained_screened with no correction, so no claim row depends on it.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/pathway_correlation_validation.json,True,C293,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/pathway_coverage_validation.json,True,C293,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/release_validation.json,True,,"Release packaging and manifest validation; engineering check, no biological claim.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/repository_checks.json,True,,Repository structural checks; no biological claim.,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_completion/runtime_versions.json,True,,"Runtime and package versions; provenance, no claim.",Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_human_specificity/REPORT.md,True,C284;C285,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_human_specificity/module_specification.json,True,C284;C285,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_human_specificity/validation.json,True,C284;C285,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_ipf_specificity/REPORT.md,True,C288,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_ipf_specificity/input_run_record.json,True,C288,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_ipf_specificity/score_run_record.json,True,C288,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_ipf_specificity/specification.json,True,C288,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_ipf_specificity/validation.json,True,C288,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_isr_extension/REPORT.md,True,C287;C294,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_isr_extension/module_specification.json,True,C287;C294,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_isr_extension/run_record.json,True,C287;C294,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_isr_extension/validation.json,True,C287;C294,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_specificity/REPORT.md,True,C286,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_specificity/module_specification.json,True,C286,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_specificity/run_record.json,True,C286,,Yu-Lee
+Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u6_specificity/validation.json,True,C286,,Yu-Lee
+RQ_Specified/A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md,True,C321,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/JOBS.md,True,,"Execution job and status tracker; records which batches ran, holds no result of its own.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/LINEAGE_AUDIT.md,True,C304;C321;C339,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/NEXT_SESSION.md,True,,Session handoff and next-step planning document; no measurement.,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/PLAN.md,True,,"Stage 0 analysis plan and figure plan; specifies eligibility and sensitivity rules, computes nothing.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/README.md,True,,Folder index and reading order.,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/STUDY_MAP.md,True,C320;C299;C305;C341,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/config/README.md,True,,"Frozen scope or contract document committed before the corresponding numerical run; design only, no result.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/config/evidence_closure_scope.md,True,,"Frozen scope or contract document committed before the corresponding numerical run; design only, no result.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/config/hpcs_metadata_recovery.md,True,,"Frozen scope or contract document committed before the corresponding numerical run; design only, no result.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/config/regulatory_fate_scope.md,True,,"Frozen scope or contract document committed before the corresponding numerical run; design only, no result.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/config/robustness_annotation_scope.md,True,,"Frozen scope or contract document committed before the corresponding numerical run; design only, no result.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/config/second_batch.md,True,,"Frozen scope or contract document committed before the corresponding numerical run; design only, no result.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/figures/README.md,True,C300;C302;C301;C307;C310;C304;C296;C297;C303;C314;C311,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/metadata/README.md,True,C341,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md,True,C321;C322;C339;C340,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/A1_BRANCH_INVENTORY.md,True,C321,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/ANALYSIS_REFERENCE_MAP.md,True,,"Precedent and reference map separating published results from this repository's reanalysis; records the SAGE Perturb-seq public-input hold, which has no measured data and therefore no registrable proposition.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/EVIDENCE_CLOSURE_REPORT.md,True,C313;C314;C311;C305;C320;C299;C312;C321,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/FIRST_BATCH_REPORT.md,True,C296;C304;C306,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/PREFLIGHT.md,True,,Metadata-only catalog and design preflight; its three candidate contrasts were held and are superseded by the identity rows registered here.,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/REGULATORY_FATE_REPORT.md,True,C308;C315;C316;C317;C318;C319,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/REMAINING_ANALYSIS_OPTIONS.md,True,,Superseded planning queue; its own header states the table is historical rationale rather than a remaining execution queue.,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/ROBUSTNESS_REPORT.md,True,C302;C310;C309;C311,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/SECOND_BATCH_REPORT.md,True,C300;C301;C303;C307;C312;C305;C297;C298,,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/SOURCE_REQUEST_DRAFTS.md,True,,"Drafted, unsent author requests; the required-input statements they contain are carried in the Potential column of the corresponding hold rows.",Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/reports/SPECIFICATION_STATUS.md,True,,Superseded planning-stage status record; its own header defers to the lineage audit and first-batch report.,Regulatory
+RQ_Specified/A1_transitional_epithelial_state_distinction/scripts/README.md,True,,Script index and execution order.,Regulatory
+RQ_Specified/A2_areg_source_delivery/PLAN.md,True,,Staged plan with declared stop rules; design only.,Regulatory
+RQ_Specified/A2_areg_source_delivery/RATIONALE.md,True,,Biological rationale and rival list; no measurement.,Regulatory
+RQ_Specified/A2_areg_source_delivery/README.md,True,C325;C326;C330,,Regulatory
+RQ_Specified/A2_areg_source_delivery/reports/STAGE1_AUDIT.md,True,C328;C324;C327,,Regulatory
+RQ_Specified/A2_areg_source_delivery/reports/STAGE2_FREEZE.md,True,C327,,Regulatory
+RQ_Specified/A2_areg_source_delivery/reports/STAGE2_WITHDRAWN.md,True,C327;C324;C331,,Regulatory
+RQ_Specified/A2_areg_source_delivery/reports/STAGE3_LEG1_RESULTS.md,True,C325;C326;C332,,Regulatory
+RQ_Specified/A2_areg_source_delivery/reports/STAGE4_LEG2_RESULTS.md,True,C329,,Regulatory
+RQ_Specified/A2_areg_source_delivery/reports/LEG2_DEPTH_STANDARDISED_RESULTS.md,True,C330;C329,,Regulatory
+RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md,True,C325;C326;C331;C329,,Regulatory
+RQ_Specified/A2_areg_source_delivery/reports/INTERPRETATION_AUDIT_2026-09-27.md,True,C330;C325;C326,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/PLAN.md,True,,Stage 0 plan with gate conditions; nothing computed for the parent question.,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/RATIONALE.md,True,,"Rationale, rival list and layer proposals; no measurement.",Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md,True,C337,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/PUBLIC_DATA_SEARCH.md,True,C337,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/REGISTER_DECISION.md,True,,"Argument for registering the question, with alternatives considered; no measurement and no grade proposed.",Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_STAGE1_AUDIT.md,True,C335;C338,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_STAGE1_ERRATUM.md,True,C335,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_FREEZE_V1_WITHDRAWN.md,True,C335,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_FREEZE_V2_WITHDRAWN.md,True,C342,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_RESULTS.md,True,C333;C334;C335;C338,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/NORMALIZATION_CORRECTION_SPEC_V1.md,True,C336,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/NORMALIZATION_ERRATUM_2026-09-28.md,True,C336,,Regulatory
+RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/INTERPRETATION_AUDIT_2026-09-27.md,True,C334;C335,,Regulatory
+RQ_Specified/A8_maturation_component_at1_contribution/README.md,True,C339,,Regulatory
+RQ_Specified/A8_maturation_component_at1_contribution/PLAN.md,True,C339,,Regulatory
+RQ_Specified/A14_withdrawal_recovery_and_reception/README.md,True,C340,,Regulatory
+RQ_Specified/A14_withdrawal_recovery_and_reception/PLAN.md,True,C340,,Regulatory
+RQ_Specified/A8_maturation_component_at1_contribution/RATIONALE.md,True,,Stage 0 rationale only; A8 has computed nothing and adds no claim row.,Regulatory
+RQ_Specified/A14_withdrawal_recovery_and_reception/RATIONALE.md,True,,Stage 0 rationale only; A14 has never had a result.,Regulatory
+"analysis/figures/rq/README.md (A1 panel, rq_a1_chromatin)",True,C323,,Regulatory
+"analysis/figures/rq/README.md (A2 panel, rq_a2_source_rank)",True,C37;C82;C112,,Regulatory

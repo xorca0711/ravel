@@ -1733,3 +1733,16 @@ authorization, and stopped again. Those folders are listed as not inventoried in
 `CLAIMS.md` and the coverage ledger. No grade was inferred for them. Historical row
 wording was preserved, and each correction is appended as a dated qualifier. Grades
 proposed here are not owner acceptance.
+
+## 29 September 2026: complete the register's coverage
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-29 | Inventory the three folder groups the first pass could not read, and register their claims | Repository owner | Owner asked for the retry; Claude Science proposed each grade as a delegated reassessment | Add C234-C269 (England with A16), C270-C295 (Yu, Lee, Choi and Min) and C296-C342 (A1, A2, A15 and the A8/A14 endpoint requirements). Append dated qualifiers to C19, C31 and C34 and add two superseding artefacts to C36. Extend `claim_contract.py` to 342 | The first pass left those folders ungraded because its inventories were interrupted. Every folder under `Research Article/` and `RQ_Specified/` now has rows or a recorded reason for having none |
+
+Two of the Yu-Lee-Choi-Min propositions were already registered through A12, as
+C225 and C226, and are not duplicated. A8 and A14 hold Stage 0 material only, so
+their rows record absent endpoint requirements rather than results. The three
+inventories were interrupted repeatedly before this pass and completed unchanged
+once the session model changed; no brief was reworded and no refused track was
+taken over directly. Grades proposed here are not owner acceptance.

@@ -25,9 +25,12 @@ METADATA = Path("analysis/claims/metadata.json")
 FAMILIES = ["Niethamer: initial atlas", "Niethamer: follow-ups", "Cardoso and ligand extensions",
             "Choi: epithelial states", "Epithelial chromatin", "Axin2 and Il1r1", "Cross-study epithelial specificity",
             "Reference atlases (Sikkema, Nabhan, Murthy)", "Question-level: programmes and outcomes (A0, A5, A10, A11)",
-            "Question-level: recipient competence (A6, A9, A12, A13)"]
+            "Question-level: recipient competence (A6, A9, A12, A13)",
+            "England 2025 and CD177 attribution", "Yu, Lee, Choi and Min 2026",
+            "Question-level: regulatory states and delivery (A1, A2, A8, A14, A15)"]
 # Rows registered from 2026-09-29 onward carry explicit, contiguous family ranges.
-LATER_FAMILY_RANGES = [(169, 194, FAMILIES[7]), (195, 195, FAMILIES[2]), (196, 220, FAMILIES[8]), (221, 233, FAMILIES[9])]
+LATER_FAMILY_RANGES = [(169, 194, FAMILIES[7]), (195, 195, FAMILIES[2]), (196, 220, FAMILIES[8]), (221, 233, FAMILIES[9]),
+                       (234, 269, FAMILIES[10]), (270, 295, FAMILIES[11]), (296, 342, FAMILIES[12])]
 
 
 def status_group(status: str) -> str:

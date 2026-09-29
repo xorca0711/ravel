@@ -51,8 +51,11 @@ class ResearchContractTests(unittest.TestCase):
         self.assertEqual(claim_family(195), "Cardoso and ligand extensions")
         self.assertEqual(claim_family(196), "Question-level: programmes and outcomes (A0, A5, A10, A11)")
         self.assertEqual(claim_family(233), "Question-level: recipient competence (A6, A9, A12, A13)")
+        self.assertEqual(claim_family(234), "England 2025 and CD177 attribution")
+        self.assertEqual(claim_family(270), "Yu, Lee, Choi and Min 2026")
+        self.assertEqual(claim_family(342), "Question-level: regulatory states and delivery (A1, A2, A8, A14, A15)")
         with self.assertRaises(ValueError):
-            claim_family(234)
+            claim_family(343)
 
     def test_duplicate_claim_ids_fail(self):
         row = "| C1 | claim | design | `file.csv` | Descriptive only | caveat |\n"
