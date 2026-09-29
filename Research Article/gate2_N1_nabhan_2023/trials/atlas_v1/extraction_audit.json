@@ -1,0 +1,26 @@
+[
+  {
+    "dataset":"Habermann2020",
+    "matrix_cells":220213.0,
+    "cells":114396,
+    "unannotated_excluded":105817.0,
+    "genes":33694,
+    "nonzeros":338061955.0,
+    "metadata_depth_match":true,
+    "source":null,
+    "original_unknown_labels":null,
+    "missing_condition":null
+  },
+  {
+    "dataset":"Niethamer2025",
+    "matrix_cells":null,
+    "cells":162175,
+    "unannotated_excluded":null,
+    "genes":32228,
+    "nonzeros":null,
+    "metadata_depth_match":null,
+    "source":"existing author-annotated object; raw counts layer",
+    "original_unknown_labels":54549.0,
+    "missing_condition":54549.0
+  }
+]

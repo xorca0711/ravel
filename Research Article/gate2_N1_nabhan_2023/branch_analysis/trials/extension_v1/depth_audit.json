@@ -1,0 +1,11 @@
+{
+  "cells": 162175,
+  "exact_match": 157266,
+  "different": 4909,
+  "maximum_gap": 28.0,
+  "sum_gap": 5532.0,
+  "maximum_fraction_gap": 0.005535055350553505,
+  "denominator": "Sum of every gene in the actual counts layer; stored QC totals are not the denominator",
+  "interpretation": "Stored QC totals can retain counts outside the final gene universe; exact cause not proven from QC fields alone. Require independent atlas_v1 aggregate reconciliation below.",
+  "earlier_independent_aggregate_rows_matched": 57380
+}

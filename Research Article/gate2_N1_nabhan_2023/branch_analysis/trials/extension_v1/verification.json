@@ -1,0 +1,220 @@
+{
+  "finished_utc": "2026-09-29T12:16:03.968209+00:00",
+  "passed": 53,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "contract_settings_unchanged",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:extension_v1.json",
+      "passed": true
+    },
+    {
+      "name": "input_hash:extension_v1.json",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:GSE327565_raw_counts_GEO_YapTaz.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "input_hash:GSE327565_raw_counts_GEO_YapTaz.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:GSE327565.json",
+      "passed": true
+    },
+    {
+      "name": "input_hash:GSE327565.json",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:normalized_log2CPM.tsv",
+      "passed": true
+    },
+    {
+      "name": "input_hash:normalized_log2CPM.tsv",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:gene_effects.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "input_hash:gene_effects.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:samples.tsv",
+      "passed": true
+    },
+    {
+      "name": "input_hash:samples.tsv",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:contract.json",
+      "passed": true
+    },
+    {
+      "name": "input_hash:contract.json",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:contract.json",
+      "passed": true
+    },
+    {
+      "name": "input_hash:contract.json",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:mh.all.v2024.1.Mm.symbols.gmt",
+      "passed": true
+    },
+    {
+      "name": "input_hash:mh.all.v2024.1.Mm.symbols.gmt",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:final_clustered.h5ad",
+      "passed": true
+    },
+    {
+      "name": "input_bytes:sample_infection_round.csv",
+      "passed": true
+    },
+    {
+      "name": "input_hash:sample_infection_round.csv",
+      "passed": true
+    },
+    {
+      "name": "frozen_script:scripts\\00_freeze.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_script:scripts\\01_gaona.R",
+      "passed": true
+    },
+    {
+      "name": "frozen_script:scripts\\02_bulk_extensions.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_script:scripts\\03_mouse_context.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_script:scripts\\common.py",
+      "passed": true
+    },
+    {
+      "name": "amended_script_hash",
+      "passed": true
+    },
+    {
+      "name": "BH:ADM",
+      "passed": true
+    },
+    {
+      "name": "unique_genes:ADM",
+      "passed": true
+    },
+    {
+      "name": "CI_direction:ADM",
+      "passed": true
+    },
+    {
+      "name": "BH:SFFFM",
+      "passed": true
+    },
+    {
+      "name": "unique_genes:SFFFM",
+      "passed": true
+    },
+    {
+      "name": "CI_direction:SFFFM",
+      "passed": true
+    },
+    {
+      "name": "raw_integral",
+      "passed": true
+    },
+    {
+      "name": "filter_gene_universe",
+      "passed": true
+    },
+    {
+      "name": "library_mean_contrasts:Nb2",
+      "passed": true
+    },
+    {
+      "name": "library_mean_contrasts:Gaona",
+      "passed": true
+    },
+    {
+      "name": "Nb2_influence_number",
+      "passed": true
+    },
+    {
+      "name": "source_panel_reconciliation",
+      "passed": true
+    },
+    {
+      "name": "signature_not_changed",
+      "passed": true
+    },
+    {
+      "name": "signature_rule",
+      "passed": true
+    },
+    {
+      "name": "CPM_denominators",
+      "passed": true
+    },
+    {
+      "name": "detection_bounds",
+      "passed": true
+    },
+    {
+      "name": "unit_keys_unique",
+      "passed": true
+    },
+    {
+      "name": "unit_gene_keys_unique",
+      "passed": true
+    },
+    {
+      "name": "independent_count_extraction",
+      "passed": true
+    },
+    {
+      "name": "paired_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "no_sparse_cohort_promotion",
+      "passed": true
+    },
+    {
+      "name": "known_units_only",
+      "passed": true
+    },
+    {
+      "name": "vascular_rank_covariance",
+      "passed": true
+    },
+    {
+      "name": "rounds_reported",
+      "passed": true
+    },
+    {
+      "name": "figures_complete",
+      "passed": true
+    }
+  ],
+  "scope": "Numerical and provenance checks, not biological validation. Large raw hash was frozen before execution; current size and independent aggregate reconciliation checked here."
+}

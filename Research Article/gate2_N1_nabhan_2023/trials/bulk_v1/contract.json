@@ -1,0 +1,97 @@
+{
+  "namespace": "Nb2",
+  "run": "bulk_v1",
+  "frozen_utc": "2026-09-29T10:51:52.283087+00:00",
+  "exposure": "Paper, owner notes, prior repository results and schema QC already inspected; new count contrasts not fitted",
+  "condition_labels": {
+    "LGK974_WNT": "Wnt",
+    "48hourwithdrawal": "withdraw48",
+    "24hourwithdrawal": "withdraw24",
+    "LGK_CHIR99201": "CHIR",
+    "LGK974_FZD6_Agonist": "Fzd6",
+    "LGK974_FZD5_Agonist": "Fzd5"
+  },
+  "contrasts": {
+    "CHIR_vs_withdraw48": [
+      "CHIR",
+      "withdraw48"
+    ],
+    "Fzd5_vs_withdraw48": [
+      "Fzd5",
+      "withdraw48"
+    ],
+    "Fzd6_vs_withdraw48": [
+      "Fzd6",
+      "withdraw48"
+    ],
+    "Wnt_vs_withdraw48": [
+      "Wnt",
+      "withdraw48"
+    ],
+    "withdraw24_vs_withdraw48": [
+      "withdraw24",
+      "withdraw48"
+    ],
+    "Fzd5_vs_CHIR": [
+      "Fzd5",
+      "CHIR"
+    ],
+    "Fzd6_vs_CHIR": [
+      "Fzd6",
+      "CHIR"
+    ],
+    "Fzd6_vs_Fzd5": [
+      "Fzd6",
+      "Fzd5"
+    ],
+    "Fzd5_vs_Wnt": [
+      "Fzd5",
+      "Wnt"
+    ],
+    "Fzd6_vs_Wnt": [
+      "Fzd6",
+      "Wnt"
+    ]
+  },
+  "primary_contrasts": [
+    "CHIR_vs_withdraw48",
+    "Fzd5_vs_withdraw48",
+    "Fzd6_vs_withdraw48"
+  ],
+  "input_hashes": {
+    "raw/bulk_counts.csv.gz": "d3ac9e580616e1ee6cd71bd2be9b116fdb2d2e21c6c1e267e7baeaf3afcdb2f0",
+    "raw/gene_mapping.tsv": "c02b4f02e6fc53a94da5c1fa5b490df83cdbcc56247b8dded4f946d322036a21",
+    "metadata/samples.tsv": "c9bbd84bf9e9b0e6bfcd447fa5074a86022df57f6baa28ad51a1f41ac728c398",
+    "metadata/source_panel_membership.tsv": "af89360b0aca95a839487cf8d577f77523d48b8bfe8398b079626dc04968587a",
+    "scripts/03_bulk.R": "117f5aa8d42d2ae5d5e0f051a2a4c1821d715cec41f0fa39147530587e2e0bfa"
+  },
+  "gene_set_resources": [
+    {
+      "name": "mh.all.v2024.1.Mm.symbols.gmt",
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\msigdb\\mh.all.v2024.1.Mm.symbols.gmt",
+      "sha256": "e5aa9acd833179d1d571b48bf91a28fb387722ce68ff53094d05847659d66460"
+    },
+    {
+      "name": "m5.go.bp.v2024.1.Mm.symbols.gmt",
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\msigdb\\m5.go.bp.v2024.1.Mm.symbols.gmt",
+      "sha256": "07e91b5ee16372f5764649b2a8b358c03d82a910c4e832ca732d0d9379772886"
+    }
+  ],
+  "filter": "raw count >=10 in >=3 of18 libraries; retain all gene IDs for schema record",
+  "normalization": "edgeR TMM on filtered assigned counts; limma voom; source internal normalization not recovered",
+  "model": "unpaired ~0+condition, rank6; residual12; eBayes nonrobust",
+  "unit": "deposited library; authors report independent animals OR cultures; independence/pairing not independently verified",
+  "inference": "Conditional model diagnostic only; no confirmed donor-level inference, equivalence, or causal fate interpretation",
+  "gene_testing": "BH per contrast and pooled across10 contrasts; effect/conditional95%CI retained for every tested ID",
+  "source_thresholds": "Report abs log2FC>1 and>2 separately atFDR<.05; caption rawP<.001 andFDR<.001 separately; no target-total fitting",
+  "panels": "Five original Fig4D panels;19/20 mapped; Crim2 unresolved; three-gene Hippo is adapted and cannot stand for complete source panel",
+  "panel_endpoint": "Per-library mean log2CPM; descriptive mean contrast and range of9 cross-arm library differences; genes not independent replicates",
+  "panel_display": "Gene-wise z-score across18 libraries, then mean by panel for display only",
+  "wnt_sensitivity": "Original4 genes and prespecified3gene panel without Birc5",
+  "enrichment": "CAMERA against all expressed unique-symbol genes; GO BP+Hallmark sets15..500; correlation.01; BH per/all contrasts; Hallmark estimated-correlation sensitivity",
+  "practical_effect": "No validated biological importance/equivalence margin; source thresholds descriptive, no equivalence test",
+  "qc": "Top2000variance genes PCA; no outcome-driven sample deletion",
+  "scripts_sha256": {
+    "02_freeze_bulk.py": "0533711a2669022546740f84b35d4ee6982181b126f358956f940b99f6cf29ab"
+  }
+}

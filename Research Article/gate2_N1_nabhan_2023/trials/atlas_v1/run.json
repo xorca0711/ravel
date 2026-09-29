@@ -1,0 +1,88 @@
+{
+  "namespace": "Nb2",
+  "run": "atlas_v1",
+  "recorded_utc": "2026-09-29T11:22:46.153592+00:00",
+  "contract_sha256": "8ffe4a65da6cfda42de08a9255a65adfd4c84d7772cdbbc423e3c8ecf8f0ea8e",
+  "completed_measurements": {
+    "finished_utc": "2026-09-29T11:04:33.183427+00:00",
+    "unit_gene_rows": 93110,
+    "coverage_rows": 2290,
+    "contract_sha256": "8ffe4a65da6cfda42de08a9255a65adfd4c84d7772cdbbc423e3c8ecf8f0ea8e",
+    "scope": "descriptive partial atlas analysis; no inferential or functional validation"
+  },
+  "outputs": {
+    "contract.json": {
+      "sha256": "8ffe4a65da6cfda42de08a9255a65adfd4c84d7772cdbbc423e3c8ecf8f0ea8e",
+      "bytes": 4468
+    },
+    "extraction_audit.json": {
+      "sha256": "92f7f5f1f0c3694a37f6ef9036ea55a7ada4debb4ddec5cc47bcece2a2211a50",
+      "bytes": 621
+    },
+    "failed_attempt/04_atlas.py": {
+      "sha256": "a2779a4a030e5214b08d8d01faef1bb943110933785dde905879310d49f9050e",
+      "bytes": 12494
+    },
+    "figures/01_receptor_context.png": {
+      "sha256": "4b6c1a12c702b58a83363c002b8d6662482a3a5af74f63d011bd46fe14fb61a5",
+      "bytes": 462224
+    },
+    "figures/02_receptor_depth500.png": {
+      "sha256": "3ca1967c4dcca9a93bcc09ce3539d4fa6912e17d44a56a678649812b131bf5e3",
+      "bytes": 411097
+    },
+    "REPORT.md": {
+      "sha256": "4812d14bb7cb2c68b0536b3cad5cfffe9e462fd236ade16b5b9055d26c99ede7",
+      "bytes": 7706
+    },
+    "run_complete.json": {
+      "sha256": "39782e1a58a70487d38b7499b88ca0bd190ebc0f812ece049f1c748cf75ab82a",
+      "bytes": 295
+    },
+    "schema_amendment.json": {
+      "sha256": "87b285e12c668139102282f27274559a4906388f340725ac71b659930ffe3a62",
+      "bytes": 540
+    },
+    "tables/fibroblast_context_associations.tsv": {
+      "sha256": "23c395a0943e37387cd5d3ee245b65664bc2b31c7be4ff8e823db7cb6673b5ce",
+      "bytes": 475
+    },
+    "tables/human_gene_mapping.tsv": {
+      "sha256": "16abf316bb1715ee7946e4373ce5528e595b618862366f503495f71fc1fdcf5e",
+      "bytes": 763
+    },
+    "tables/mouse_gene_mapping.tsv": {
+      "sha256": "34970cf08248bfd7577f67e07338341cc417300e9ac37fdf89c5f98f37dd1551",
+      "bytes": 762
+    },
+    "tables/state_summary.tsv.gz": {
+      "sha256": "66b32ca28123fdde4bb7cc608e0d964b501c909013db7f28be4d38ac750e82f2",
+      "bytes": 1969834
+    },
+    "tables/unit_coverage.tsv": {
+      "sha256": "83569cd9882a6c74eedf8fbecbbfa1cac339165632d52e7f42bbb17b173864b5",
+      "bytes": 229090
+    },
+    "tables/unit_receptor_context.tsv.gz": {
+      "sha256": "cbd4e3dc0e376f526d72e768bdfb5a9247617a7f2411ce9f42d85dfacab9951b",
+      "bytes": 1955144
+    },
+    "tables/within_unit_receptor_ordering.tsv.gz": {
+      "sha256": "4a1a3855936a8390519949d4904739d774fe2c1b6f71e5546fbd594d30f1e52c",
+      "bytes": 714391
+    }
+  },
+  "scripts": {
+    "00_fetch_counts.py": "3c25c9918f0a942dee6cba7496491bb533c34e47b7a1c324e21b97084346d5cf",
+    "00_intake.py": "cd6a1dda501e41a7351b6ec17a808c9a630c7da83906e47ef5f41da9ff99f78d",
+    "01_prepare_bulk.py": "52830efcf268112b2cd6be18c43296f33809acb19aab2bab3d9b18ae3a7ba652",
+    "02_freeze_bulk.py": "0533711a2669022546740f84b35d4ee6982181b126f358956f940b99f6cf29ab",
+    "03_bulk.R": "117f5aa8d42d2ae5d5e0f051a2a4c1821d715cec41f0fa39147530587e2e0bfa",
+    "04_atlas.py": "fab60ace886beac0fb4ee4209f7921091991eb5b5174a795391f56a6f97501a6",
+    "05_figures.py": "e47223b771f2905a9ba00d5f57abf56502bac380c2e1fea7bfd954585e828f1b",
+    "06_atlas_synthesis.py": "7f9d2ea93633aa842866dcc002b994d0a206064566a668244a9ddec9b49509bf",
+    "07_verify_execution.py": "c436505fdb57b3a588675e0c7f3e684a32044e0450faadcf3b727a448c78673a",
+    "verify_plan.py": "6333acc249042699c1fa8de584170d2297dba169a8e685a81db6cfe28eb6703f"
+  },
+  "scope": "Executed measurements with stated inference ceilings; no hypothesis or claim-grade validation"
+}

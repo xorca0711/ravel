@@ -1,0 +1,272 @@
+{
+  "checked_utc": "2026-09-29T12:31:42.205395+00:00",
+  "passed": 66,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "paper_location",
+      "passed": true
+    },
+    {
+      "name": "paper_path",
+      "passed": true
+    },
+    {
+      "name": "no_premature_workspace",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/bulk_complete.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/contract.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/depth_audit.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/derived_panels.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/gaona_complete.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/mouse_complete.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/run.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/schema_amendment.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/signature_freeze.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/targeted_audit_complete.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/targeted_audit_contract.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/verification.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/failed_attempt/03_mouse_context.py",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/01_bulk_influence.png",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/01_bulk_influence.svg",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/02_reference_context.png",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/02_reference_context.svg",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/03_epithelial_context.png",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/03_epithelial_context.svg",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/04_fibroblast_context.png",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/04_fibroblast_context.svg",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/05_endothelial_context.png",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/figures/05_endothelial_context.svg",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/bulk_library_influence.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/bulk_panel_membership.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/bulk_program_effects.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/bulk_program_scores.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/frozen_gaona_signature.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/gaona_gene_effects.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/gaona_log2CPM.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/gaona_normalization.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/gaona_samples.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_context_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_day42_associations.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_gene_mapping.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_paired_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_program_scores.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_sample_context.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_unit_coverage.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_unit_expression.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/mouse_within_unit_differences.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/nb2_receptor_feedback_effects.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/vascular_depth_round_audit.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:trials/extension_v1/tables/vascular_rival_inputs.tsv",
+      "passed": true
+    },
+    {
+      "name": "unchanged:config/extension_v1.json",
+      "passed": true
+    },
+    {
+      "name": "original_script:scripts/common.py",
+      "passed": true
+    },
+    {
+      "name": "original_script:scripts/01_gaona.R",
+      "passed": true
+    },
+    {
+      "name": "original_script:scripts/06_verify.py",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:extension_v1.json",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:GSE327565_raw_counts_GEO_YapTaz.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:GSE327565.json",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:normalized_log2CPM.tsv",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:gene_effects.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:samples.tsv",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:contract.json",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:contract.json",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:mh.all.v2024.1.Mm.symbols.gmt",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:final_clustered.h5ad",
+      "passed": true
+    },
+    {
+      "name": "resolved_input:sample_infection_round.csv",
+      "passed": true
+    },
+    {
+      "name": "R_source_path",
+      "passed": true
+    },
+    {
+      "name": "eight_paper_candidates",
+      "passed": true
+    },
+    {
+      "name": "RQ_index_clean:README.md",
+      "passed": true
+    },
+    {
+      "name": "RQ_index_clean:FIGURES.md",
+      "passed": true
+    }
+  ],
+  "scope": "Relocation, preserved bytes, syntax and path resolution only; prior scientific verification remains unchanged"
+}

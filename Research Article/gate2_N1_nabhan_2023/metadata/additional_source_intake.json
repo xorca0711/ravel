@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Mus_musculus.GRCm38.102.gtf.gz",
+    "url": "https://ftp.ensembl.org/pub/release-102/gtf/mus_musculus/Mus_musculus.GRCm38.102.gtf.gz",
+    "bytes": 33443321,
+    "sha256": "8321415404aaf788c7da79774488ff227ac006d09a57ce6c616573a510338f64",
+    "status": "retrieved"
+  },
+  {
+    "name": "PRJNA860972_runs.tsv",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA860972&result=read_run&fields=run_accession,experiment_accession,sample_accession,secondary_sample_accession,sample_title,library_name,library_layout&format=tsv",
+    "bytes": 1731,
+    "sha256": "ab2beb811e1d39f1d3e62c337aa3b1e60e10c7227c03fa5b53aa37dab912f381",
+    "status": "retrieved"
+  },
+  {
+    "name": "Travaglini2020.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7704697/fullTextXML",
+    "bytes": 173965,
+    "sha256": "d4ac2b9984bfe604f27ffcf86a4c58408d7965fa5e722e97722992982729d1b9",
+    "status": "retrieved"
+  },
+  {
+    "name": "Gillich2020.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7721049/fullTextXML",
+    "status": "failed",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "name": "sample_SAMN29877075.xml",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN29877075",
+    "bytes": 3031,
+    "sha256": "c4cd94e1103c36ef85848c23406a89550882bb2c527ca0881fabbc91475d066f",
+    "status": "retrieved"
+  }
+]

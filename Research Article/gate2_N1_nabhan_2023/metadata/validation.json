@@ -1,0 +1,92 @@
+{
+  "checked_at_utc": "2026-09-29T10:28:54.345691+00:00",
+  "scope": "Planning, metadata and repository validation; no biological analysis",
+  "results": [
+    {
+      "name": "intake_replay",
+      "command": [
+        "python",
+        "Research Article/gate2_N1_nabhan_2023/scripts/00_intake.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "output": "PASS: 18 libraries / 6 conditions; bulk metadata only; preparation and pairing unresolved"
+    },
+    {
+      "name": "plan_contract",
+      "command": [
+        "python",
+        "Research Article/gate2_N1_nabhan_2023/scripts/verify_plan.py"
+      ],
+      "returncode": 0,
+      "output": "PASS: source hash, 18 samples, 6 conditions, contrasts, 11-stage DAG, 10 claims, 8 ordered candidates and navigation"
+    },
+    {
+      "name": "compile",
+      "command": [
+        "python",
+        "-m",
+        "compileall",
+        "-q",
+        "-x",
+        "[/\\\\]\\.tools[/\\\\]",
+        "analysis",
+        "Research Article",
+        "RQ_Specified"
+      ],
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "unit_tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "analysis/tests",
+        "-q"
+      ],
+      "returncode": 0,
+      "output": "----------------------------------------------------------------------\nRan 66 tests in 8.077s\n\nOK (skipped=1)"
+    },
+    {
+      "name": "claim_contract",
+      "command": [
+        "python",
+        "analysis/scripts/claim_contract.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "output": "Claim contract verified; 18 numeric bindings passed."
+    },
+    {
+      "name": "nb1_evidence",
+      "command": [
+        "python",
+        "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+      ],
+      "returncode": 0,
+      "output": "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested."
+    },
+    {
+      "name": "a16_evidence",
+      "command": [
+        "python",
+        "RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"scope\": \"Archived provenance and table consistency; no raw-data rerun or biological validation.\",\n  \"checks\": 1867,\n  \"failures\": [],\n  \"summary\": {\n    \"C3_entries\": 9,\n    \"C3_below_40_controls\": 7,\n    \"C3_above_all_sampled_controls\": 4,\n    \"C1_positive_k10\": 8,\n    \"C5_primary_thinning_rows_below_floor\": 4\n  },\n  \"unverified\": [\n    \"Raw count matrices and barcode arrays used by C3/C4 are not directly hashed in its run record.\",\n    \"Recorded inputs and numerical computations were not independently replayed by this table verifier.\",\n    \"No contamination exclusion, position-independent mechanism or biological replication follows.\"\n  ]\n}"
+    },
+    {
+      "name": "repository",
+      "command": [
+        "python",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "returncode": 0,
+      "output": "Repository validation passed: 4664 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction"
+    }
+  ]
+}

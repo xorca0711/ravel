@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "paper_key": "nabhan_2023",
+  "paper_order": 6,
+  "gate": "2N",
+  "folder": "gate2_N1_nabhan_2023",
+  "date": "2026-09-29",
+  "status": "initial_execution_complete_with_unresolved_gates",
+  "biological_analysis_executed": true,
+  "run_contract_frozen": true,
+  "exposure": "Published findings, owner notes and prior repository analyses inspected before this plan",
+  "primary_deposit": {
+    "accession": "GSE208770",
+    "assay": "bulk_RNA_seq",
+    "organism": "Mus musculus",
+    "genome": "GRCm38",
+    "expected_libraries": 18,
+    "libraries_per_condition": 3,
+    "conditions": [
+      "LGK974_WNT",
+      "48hourwithdrawal",
+      "24hourwithdrawal",
+      "LGK_CHIR99201",
+      "LGK974_FZD6_Agonist",
+      "LGK974_FZD5_Agonist"
+    ],
+    "unit": "source_reports_different_animals_or_independent_cultures",
+    "preparation_map_verified": false,
+    "pairing_verified": false,
+    "treatment_timing_reconciled": false,
+    "count_schema_verified": true
+  },
+  "source_panels": {
+    "Wnt": [
+      "Axin2",
+      "Lgr5",
+      "Tcf7",
+      "Birc5"
+    ],
+    "proliferation": [
+      "Top2a",
+      "Mki67",
+      "Cenpa",
+      "Cenpc"
+    ],
+    "AT2": [
+      "Sftpd",
+      "Sftpa1",
+      "Etv5",
+      "Sox9"
+    ],
+    "AT1": [
+      "Ager",
+      "Hopx",
+      "Rtkn2",
+      "Cav1"
+    ],
+    "Hippo_associated": [
+      "Cyr61",
+      "Ctgf",
+      "Amotl2",
+      "Crim2"
+    ]
+  },
+  "panel_source": "P1 Figure 4D, PDF p.8, visually checked",
+  "aliases_to_resolve": {
+    "Cyr61": "Ccn1",
+    "Ctgf": "Ccn2",
+    "Ki67": "Mki67"
+  },
+  "receptor_panel": [
+    "Fzd1",
+    "Fzd2",
+    "Fzd3",
+    "Fzd4",
+    "Fzd5",
+    "Fzd6",
+    "Fzd7",
+    "Fzd8",
+    "Fzd9",
+    "Fzd10",
+    "Lrp5",
+    "Lrp6"
+  ],
+  "primary_contrasts": [
+    [
+      "LGK_CHIR99201",
+      "48hourwithdrawal"
+    ],
+    [
+      "LGK974_FZD5_Agonist",
+      "48hourwithdrawal"
+    ],
+    [
+      "LGK974_FZD6_Agonist",
+      "48hourwithdrawal"
+    ]
+  ],
+  "secondary_contrasts": [
+    [
+      "LGK974_WNT",
+      "48hourwithdrawal"
+    ],
+    [
+      "24hourwithdrawal",
+      "48hourwithdrawal"
+    ],
+    [
+      "LGK974_FZD5_Agonist",
+      "LGK_CHIR99201"
+    ],
+    [
+      "LGK974_FZD6_Agonist",
+      "LGK_CHIR99201"
+    ],
+    [
+      "LGK974_FZD6_Agonist",
+      "LGK974_FZD5_Agonist"
+    ],
+    [
+      "LGK974_FZD5_Agonist",
+      "LGK974_WNT"
+    ],
+    [
+      "LGK974_FZD6_Agonist",
+      "LGK974_WNT"
+    ]
+  ],
+  "source_reporting_settings": {
+    "results_p9": "more than twofold",
+    "methods_p24": {
+      "absolute_log2FC_gt": 2,
+      "FDR_lt": 0.05
+    },
+    "figure_4C_caption": {
+      "highlight_p_lt": 0.001,
+      "raw_or_adjusted_requires_reconciliation": true
+    },
+    "default_threshold_resolved": false
+  },
+  "required_before_inference": [
+    "count_schema_and_gene_mapping",
+    "preparation_independence_and_design",
+    "normalization_and_filter_freeze",
+    "multiplicity_family",
+    "endpoint_and_practical_effect_definition"
+  ],
+  "stages": [
+    {
+      "id": "Nb2-0",
+      "track": "intake",
+      "depends_on": [],
+      "status": "intake_complete_design_partial",
+      "next_gate": "Preparation identities, pairing and treatment timing remain unresolved"
+    },
+    {
+      "id": "Nb2-R1",
+      "track": "reproduction",
+      "depends_on": [
+        "Nb2-0"
+      ],
+      "status": "partial_source_reproduction_complete",
+      "next_gate": "Original healthy atlas access/release and other source-atlas recovery"
+    },
+    {
+      "id": "Nb2-R2",
+      "track": "reproduction",
+      "depends_on": [
+        "Nb2-0"
+      ],
+      "status": "adapted_reproduction_complete_exact_open",
+      "next_gate": "Source normalization/design and unresolved Crim2; published DEG totals not reproduced"
+    },
+    {
+      "id": "Nb2-R3",
+      "track": "reproduction",
+      "depends_on": [
+        "Nb2-R2"
+      ],
+      "status": "conditional_contrasts_complete",
+      "next_gate": "Verified independent preparations and external functional endpoint"
+    },
+    {
+      "id": "Nb2-R4",
+      "track": "reproduction",
+      "depends_on": [
+        "Nb2-0"
+      ],
+      "status": "audit_complete_functional_inputs_missing",
+      "next_gate": "Culture/animal-level numeric, survival, imaging and lineage evidence"
+    },
+    {
+      "id": "Nb2-B1",
+      "track": "exploration",
+      "depends_on": [
+        "Nb2-R3"
+      ],
+      "status": "exploratory_complete_sensitivity_limited",
+      "next_gate": "Independent data; gene-correlation sensitivity weakens metabolic interpretation"
+    },
+    {
+      "id": "Nb2-B2",
+      "track": "exploration",
+      "depends_on": [
+        "Nb2-R1"
+      ],
+      "status": "descriptive_complete_coverage_limited",
+      "next_gate": "Rare transitional-state coverage, label/ambient-RNA checks and state-response design"
+    },
+    {
+      "id": "Nb2-B3",
+      "track": "exploration",
+      "depends_on": [
+        "Nb2-R1"
+      ],
+      "status": "context_complete_function_unmeasured",
+      "next_gate": "State-dependent receptor engagement and fate; existing A4 remains owner of subset questions"
+    },
+    {
+      "id": "Nb2-B4",
+      "track": "exploration",
+      "depends_on": [
+        "Nb2-R1"
+      ],
+      "status": "descriptive_complete_controls_limited",
+      "next_gate": "Adequate control/subtype coverage and selective receptor-function evidence"
+    },
+    {
+      "id": "Nb2-B5",
+      "track": "exploration",
+      "depends_on": [
+        "Nb2-R1"
+      ],
+      "status": "descriptive_complete_function_unmeasured",
+      "next_gate": "Capillary-specific versus general endothelial function; original vascular evidence"
+    },
+    {
+      "id": "Nb2-H",
+      "track": "hypothesis_development",
+      "depends_on": [
+        "Nb2-B1",
+        "Nb2-B2",
+        "Nb2-B3",
+        "Nb2-B4",
+        "Nb2-B5",
+        "Nb2-R4"
+      ],
+      "dependency_rule": "Relevant branches per candidate; not all branches required",
+      "status": "cards_updated_no_candidate_validated",
+      "next_gate": "Candidate-specific independent evidence; no automatic A-series/claim promotion"
+    }
+  ],
+  "owner_nabhan_candidates": [
+    {
+      "id": "Nb2-N1",
+      "owner_item": "1",
+      "topic": "intermittent_stimulation",
+      "stages": [
+        "Nb2-R2",
+        "Nb2-R4"
+      ],
+      "related_questions": [
+        "A4",
+        "A8",
+        "A14"
+      ]
+    },
+    {
+      "id": "Nb2-N2",
+      "owner_item": "2",
+      "topic": "Hippo_and_plasticity",
+      "stages": [
+        "Nb2-R3",
+        "Nb2-B1"
+      ],
+      "related_questions": [
+        "A1",
+        "A5",
+        "A8",
+        "A10"
+      ]
+    },
+    {
+      "id": "Nb2-N3",
+      "owner_item": "3",
+      "topic": "starting_state_response",
+      "stages": [
+        "Nb2-B2",
+        "Nb2-B3"
+      ],
+      "related_questions": [
+        "A1",
+        "A4",
+        "A8"
+      ]
+    },
+    {
+      "id": "Nb2-N4",
+      "owner_item": "4",
+      "topic": "compensation_vs_incomplete_editing",
+      "stages": [
+        "Nb2-R4"
+      ],
+      "related_questions": [
+        "A1"
+      ]
+    },
+    {
+      "id": "Nb2-N5",
+      "owner_item": "5",
+      "topic": "receptor_context_and_outputs",
+      "stages": [
+        "Nb2-B3",
+        "Nb2-R4"
+      ],
+      "related_questions": [
+        "A1",
+        "A4",
+        "A12"
+      ]
+    },
+    {
+      "id": "Nb2-N6",
+      "owner_item": "6",
+      "topic": "fibroblast_Fzd1",
+      "stages": [
+        "Nb2-B4",
+        "Nb2-R4"
+      ],
+      "related_questions": [
+        "A13",
+        "A15"
+      ]
+    },
+    {
+      "id": "Nb2-N7",
+      "owner_item": "7",
+      "topic": "capillary_Fzd4",
+      "stages": [
+        "Nb2-B5",
+        "Nb2-R4"
+      ],
+      "related_questions": []
+    },
+    {
+      "id": "Nb2-N8",
+      "owner_item": "additional_endogenous_Fzd6_ligand_question",
+      "topic": "endogenous_Fzd6_input",
+      "stages": [
+        "Nb2-B3",
+        "Nb2-R4"
+      ],
+      "related_questions": []
+    }
+  ],
+  "namespace": "Nb2",
+  "resolved_aliases": {
+    "Cyr61": "Ccn1",
+    "Ctgf": "Ccn2",
+    "Cenpc": "Cenpc1"
+  },
+  "unresolved_source_panel_symbols": [
+    "Crim2"
+  ],
+  "runs": {
+    "bulk_v1": "trials/bulk_v1/REPORT.md",
+    "atlas_v1": "trials/atlas_v1/REPORT.md"
+  },
+  "branch_extension": {
+    "workspace": "Research Article/gate2_N1_nabhan_2023/branch_analysis",
+    "run": "extension_v1",
+    "status": "analysis_complete_candidates_provisional",
+    "candidate_ids": [
+      "Nb2-N1",
+      "Nb2-N2",
+      "Nb2-N3",
+      "Nb2-N4",
+      "Nb2-N5",
+      "Nb2-N6",
+      "Nb2-N7",
+      "Nb2-N8"
+    ],
+    "rq_specified_created": false,
+    "next_step": "Synthesize analysis and derive warranted RQs; no automatic one-RQ-per-branch registration"
+  }
+}

@@ -21,6 +21,23 @@ the [decision log](../DEVELOPMENT.md). The former `Thesis/` directory was rename
 on 25 September 2026. Private reading annotations and large raw inputs remain
 outside the tracked documentation.
 
+## Nabhan branch: Nb2 initial execution
+
+Current continuation: [paper-local Nb2 branch analysis](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md)
+examines state/duration, receptor-output, fibroblast and vascular branches before
+deriving any later specified RQs.
+The [new results](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md) retain failed
+coverage/comparability gates and the vascular experimental-round rival.
+
+[Nabhan 2023, Gate 2N item N1](gate2_N1_nabhan_2023/README.md) now has a source-grounded
+three-track plan, ten published propositions to reproduce and eight owner-ordered
+[Nabhan hypothesis cards](gate2_N1_nabhan_2023/HYPOTHESIS_REGISTER.md#nabhan-branch).
+The PDF and three private context pages were reviewed. The 18-library bulk adaptation,
+partial human atlas comparison and mouse extension are now executed.
+[Results](gate2_N1_nabhan_2023/RESULTS.md), [six-figure gallery](gate2_N1_nabhan_2023/FIGURES.md)
+and [remaining functional/design gates](gate2_N1_nabhan_2023/FUNCTIONAL_SOURCE_AUDIT.md)
+separate measured observations from unvalidated hypotheses.
+
 ## Studies with executed analyses
 
 Start with a study overview, then use its evidence report and gallery. Source
@@ -36,6 +53,7 @@ that a study note has been accepted. Each overview states its limits.
 |---|---|---|
 | [Niethamer 2025: viral injury and repair](gate1_01_niethamer_2025/README.md) | [Atlas report](gate1_01_niethamer_2025/GSE262927/README.md); [follow-up outcomes](gate1_01_niethamer_2025/ANALYSIS_TRIAL_PLAN.md) | [Gallery](gate1_01_niethamer_2025/README.md#figure-gallery) |
 | [Choi 2020: AT2–DATP–AT1 transition](gate1_02_choi_2020/README.md) | [Trial outcomes](gate1_02_choi_2020/ANALYSIS_TRIAL_PLAN.md); [follow-up branches](gate1_02_choi_2020/README.md#branches-of-this-paper) | [State maps and branch galleries](gate1_02_choi_2020/README.md#figure-gallery) |
+| [Nabhan 2023: Nb2](gate2_N1_nabhan_2023/README.md) | [Results and limits](gate2_N1_nabhan_2023/RESULTS.md); adapted bulk and descriptive atlas context | [Gallery](gate2_N1_nabhan_2023/FIGURES.md) |
 | [Nabhan 2018: Wnt niche biology](gate1_03_nabhan_2018/README.md) | [Findings and limits](gate1_03_nabhan_2018/README.md#findings-that-motivate-research-questions); [animal-level report](gate1_03_nabhan_2018/nb1/README.md) | [Gallery](gate1_03_nabhan_2018/README.md#figure-gallery) |
 | [Sikkema 2023: lung reference annotation](gate1_04_sikkema_2023_hlca/README.md) | [S1–S5 outcomes](gate1_04_sikkema_2023_hlca/ANALYSIS_TRIAL_PLAN.md); [interpretation framework](gate1_04_sikkema_2023_hlca/PIPELINE_FRAMING.md) | [Gallery](gate1_04_sikkema_2023_hlca/README.md#figure-gallery) |
 | [Cardoso 2026: tumour-associated niches](gate2_05_cardoso_2026/README.md) | [Analysis sequence](gate2_05_cardoso_2026/ANALYSIS_TRIAL_PLAN.md); [current ligand correction](../analysis/corrections/ligand/README.md) | [Gallery](gate2_05_cardoso_2026/README.md#figure-gallery) |
@@ -62,7 +80,7 @@ remain in the roadmap below.
 | 5 | 2C | Cardoso, Lee et al. 2026, *Nature* | [10.1038/s41586-026-10399-6](https://doi.org/10.1038/s41586-026-10399-6) | 42020743 | early fibrotic niches; regenerative-like mutant AT2 states coordinate fibroblast and immune remodelling through AREG-EGFR | [`gate2_05_cardoso_2026/`](gate2_05_cardoso_2026/README.md) | done, owner review pending | Original C/E trials completed; later annotation, depth and resource corrections supersede the initial E1 reading. Use the [current ligand correction](../analysis/corrections/ligand/README.md) and [A2 synthesis](../RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md); historical sequence in the [trial plan](gate2_05_cardoso_2026/ANALYSIS_TRIAL_PLAN.md). Independent genotype/engagement inference remains limited. |
 | 12 | 2C | England et al. 2025, *Cell Stem Cell* | [10.1016/j.stem.2025.01.011](https://doi.org/10.1016/j.stem.2025.01.011) | 39978341 | NF-kappaB feedback, Il1r1 reprogramming, mutant-WT context and clone distributions; two pooled-lung sequencing experiments | [`gate2_C2_england_2025/`](gate2_C2_england_2025/README.md) | owner read confirmed 2026-09-27; synthesis prepared | Batch1, continuation, follow-up and original Stage1 retained. [Corrected A16 C1](../RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md) and [A17 source accounting](../docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md) completed; residual matching imbalance, source discrepancies, full refit and independent functional evidence remain open. [Current review](gate2_C2_england_2025/EVIDENCE_REVIEW.md). |
 | 13 | 2C | Yu, Lee, Choi_Min and Choi 2026, *Seminars in Immunology* (review) | [10.1016/j.smim.2026.102050](https://doi.org/10.1016/j.smim.2026.102050) | 42497497 | review-motivated IL-1beta perturbation, state specificity and niche-context questions | [`gate2_C3_yu_lee_choi_min_2026/`](gate2_C3_yu_lee_choi_min_2026/README.md) | owner read; synthesis prepared; staged execution authorized 2026-09-24 | [Feasible paper analyses complete](gate2_C3_yu_lee_choi_min_2026/EVIDENCE_REVIEW.md). Derived A11 acute assay and A12/A13 exploratory pilots completed; [later A12 cohort recovery](../RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md) admits no unchanged validation cohort. Causal/fate, annotation and region gates remain. |
-| 6 | 2N | Nabhan et al. 2023, *Cell* | [10.1016/j.cell.2023.05.022](https://doi.org/10.1016/j.cell.2023.05.022) | 37321220 | Frizzled-specific Wnt agonists separate regeneration from fibrotic risk; receptor-specific Wnt modules | queued after paper 3 (re-ranking 2026-09-15) | not started | not started |
+| 6 | 2N | Nabhan et al. 2023, *Cell* | [10.1016/j.cell.2023.05.022](https://doi.org/10.1016/j.cell.2023.05.022) | 37321220 | Receptor-selective Wnt response, growth and differentiation | [`gate2_N1_nabhan_2023/`](gate2_N1_nabhan_2023/README.md) | owner completed reading 2026-09-29; PDF and private context reviewed | [Nb2 results](gate2_N1_nabhan_2023/RESULTS.md), [gallery](gate2_N1_nabhan_2023/FIGURES.md) and [candidates](gate2_N1_nabhan_2023/HYPOTHESIS_REGISTER.md#nabhan-branch); adapted/partial analysis executed, exact/functional reproduction open |
 | 14 | 2N | Nabhan et al. 2026, *PNAS* | [10.1073/pnas.2606113123](https://doi.org/10.1073/pnas.2606113123) | 42418498 | an alveolosphere screen of 201 genes with chimeric RNA-seq of stem-cell effects on the fibroblast niche | No paper study folder; analysis lives under A2/A10 | not started | GSE307112 used in completed [A10 growth/outcome work](../RQ_Specified/A10_organoid_growth_outcome/README.md) and [A2 screen analysis](../RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md). [P1 recovery](../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) records split-well hierarchy; independent preparations remain unresolved. Deposit use does not establish paper reading. |
 | 15 | 2W | Wagner et al. 2021, *Cell* | [10.1016/j.cell.2021.05.045](https://doi.org/10.1016/j.cell.2021.05.045) | 34216539 | Compass: immune-metabolic state inference from single-cell RNA, the method behind proposal W1 | not started | not started | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
 | 16 | 2W | Yadav et al. 2025, *JCI* | [10.1172/JCI188734](https://doi.org/10.1172/JCI188734) | 40875483 | the lung-fibrosis myeloid-to-mesenchymal ARG1 and ornithine circuit, with Wagner as co-author; the comparison proposal W1 names | not started | not started | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
@@ -132,7 +150,8 @@ DOIs and PMIDs were verified against PubMed on 2026-09-09.
   axis: paper 5 done, papers 12 and 13 added), 2N (Nabhan: papers 6 and
   14) and 2W (Wagner: papers 15 and 16, added because the method behind
   proposal W1 had no paper in the original order). England and Yu use branch-position labels `gate2_C2` and `gate2_C3`
-  while retaining stable paper IDs 12 and 13. Other Gate 2 folder names keep
+  while retaining stable paper IDs 12 and 13. Nabhan 2023 uses the owner-selected
+  `gate2_N1` (branch 2N item 1), retaining stable paper ID 6. Other Gate 2 folder names keep
   the plain `gate2_` prefix; branch membership is recorded in this table and
   `ROADMAP.json`. Papers in 2C and 2N are read while interpreting the pilot
   figures, as before; 2W is read alongside proposal W1.

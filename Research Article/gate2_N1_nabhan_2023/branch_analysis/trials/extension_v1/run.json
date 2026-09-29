@@ -1,0 +1,204 @@
+{
+  "namespace": "Nb2",
+  "run": "extension_v1",
+  "recorded_utc": "2026-09-29T12:20:35.526736+00:00",
+  "status": "computational_extension_complete_hypotheses_unvalidated",
+  "contract_sha256": "5b713034531a2c4c03d67186c1cb03238f0c345d9311d388a078a9450f0954a1",
+  "inputs": "See contract.json; original PDFs/private notes not copied",
+  "outputs": {
+    "bulk_complete.json": {
+      "bytes": 223,
+      "sha256": "7ae5282bdab6766b615dc5fb96aacd001ddb9e63ecef581cfd27bb07fe8eb083"
+    },
+    "contract.json": {
+      "bytes": 10580,
+      "sha256": "5b713034531a2c4c03d67186c1cb03238f0c345d9311d388a078a9450f0954a1"
+    },
+    "depth_audit.json": {
+      "bytes": 530,
+      "sha256": "f08e3300c8680e971685eb08e8216f770563bd85f8caeea870d5b00a5c0718a6"
+    },
+    "derived_panels.json": {
+      "bytes": 4184,
+      "sha256": "6f41d4305d29ce27dc291969c459378c71d4a0eefcb31e102b5be0d8914080a6"
+    },
+    "gaona_complete.json": {
+      "bytes": 295,
+      "sha256": "f9cf9c72ab4d21ced6e79b9744ff7ad367ed0441bedea408898677a6d5a62ecb"
+    },
+    "mouse_complete.json": {
+      "bytes": 367,
+      "sha256": "42c94ea4e0312be4fd4836d5baef62bd3796870f09cee26650576e5fdb60c22e"
+    },
+    "schema_amendment.json": {
+      "bytes": 916,
+      "sha256": "38facf5d57b2d92c3183c004ea8c7314c17f9b5b818b85ba8cf95e537cd273a2"
+    },
+    "signature_freeze.json": {
+      "bytes": 678,
+      "sha256": "594aa1bb0b92a6bee42477c47002302352ffc3a0d5a223ae715a578af6b67d83"
+    },
+    "targeted_audit_complete.json": {
+      "bytes": 144,
+      "sha256": "d4900b4b815711199b6f9dad3d507754e0de2f812d0bf1796374f388e608d27f"
+    },
+    "targeted_audit_contract.json": {
+      "bytes": 948,
+      "sha256": "47c9ade249a0d6828d11cb332af0a25f6feba37fc182dd9738fe7eaac2d58a9a"
+    },
+    "verification.json": {
+      "bytes": 4627,
+      "sha256": "e69fcee2aa10a92088e9c0f349005d6db13b1ee904e5d0ecfbca1c2e4d16691f"
+    },
+    "failed_attempt\\03_mouse_context.py": {
+      "bytes": 7685,
+      "sha256": "106ca81830031c78ddb975e44f62cb0a03aceb492eb316e4f2f73fecc9e54ce8"
+    },
+    "figures\\01_bulk_influence.png": {
+      "bytes": 104444,
+      "sha256": "5b1c5724f1153f801be52d433e4909a0ff1b8df7f6dfc283acd8b67eaf94a41e"
+    },
+    "figures\\01_bulk_influence.svg": {
+      "bytes": 33875,
+      "sha256": "f32efc287722eea4253a5412668b0f0c2b32783cf44fb42c8874f65053b630c2"
+    },
+    "figures\\02_reference_context.png": {
+      "bytes": 85765,
+      "sha256": "2fec73759964f2a66f01513de5036ef1bab49615d3983668a467980d991d01e9"
+    },
+    "figures\\02_reference_context.svg": {
+      "bytes": 23280,
+      "sha256": "319db1b949834fb852aac8bdc0943aa9358a026aa2a851e9caac081ddebf7127"
+    },
+    "figures\\03_epithelial_context.png": {
+      "bytes": 105399,
+      "sha256": "f61ab2546bf250096e1ff9d634af56fe9bca8dc764e9dda3c8a0ad7bc004d87f"
+    },
+    "figures\\03_epithelial_context.svg": {
+      "bytes": 41496,
+      "sha256": "27e37ae0d9d957d10beba263ca15a38eebef528f479944415cad6d3979817711"
+    },
+    "figures\\04_fibroblast_context.png": {
+      "bytes": 214772,
+      "sha256": "76eb47b688caa962e897e3928d90c302bf571969d50dbac3a8acf2e465b09344"
+    },
+    "figures\\04_fibroblast_context.svg": {
+      "bytes": 73451,
+      "sha256": "9dece6894c661fd191d42568e00e23c4762255e52bb729e9fe46dc8454776b1b"
+    },
+    "figures\\05_endothelial_context.png": {
+      "bytes": 141440,
+      "sha256": "3832b6860099e227031a1189e398a07cbe48381f5830118b34a854ad7fa3728b"
+    },
+    "figures\\05_endothelial_context.svg": {
+      "bytes": 49636,
+      "sha256": "46af9fb3631455d6a24217a29de92d39672d3a96abafdb388b89b822c84abd4f"
+    },
+    "tables\\bulk_library_influence.tsv": {
+      "bytes": 204631,
+      "sha256": "ce5d172fac12cf5d7d01f4c3dbed5d5c2ae0571ff5c310ee55b7b284609f9d67"
+    },
+    "tables\\bulk_panel_membership.tsv": {
+      "bytes": 20031,
+      "sha256": "3675464d0c59d977807ca3eeacf9c82705f8df916e3a46f3cd5b45204a8c191a"
+    },
+    "tables\\bulk_program_effects.tsv": {
+      "bytes": 50458,
+      "sha256": "02ba08fd41c31cb9b142f86ed33d48e5d79a13f24ddb1cfa2f63f22b5911019c"
+    },
+    "tables\\bulk_program_scores.tsv": {
+      "bytes": 27994,
+      "sha256": "23bc04d4cbdf65dfc855b3dabe535d75e9e05e27f00ab410e07ef2e1cc6bb275"
+    },
+    "tables\\frozen_gaona_signature.tsv": {
+      "bytes": 20814,
+      "sha256": "5a22eaa703d2cfe4eac92f5fa0fd15034dcb6837187acc9c64f3a8778947e4f3"
+    },
+    "tables\\gaona_gene_effects.tsv.gz": {
+      "bytes": 2558686,
+      "sha256": "6847356ca9bcba59edcf15317dc20cd2a06e4c3601afb59e555e72e9d0784473"
+    },
+    "tables\\gaona_log2CPM.tsv": {
+      "bytes": 4296207,
+      "sha256": "f73a7cf4d966c4fc61de7a54f986f8cbd037dcc4eb1f3c908898a5ad68320437"
+    },
+    "tables\\gaona_normalization.tsv": {
+      "bytes": 1588,
+      "sha256": "c503c19d98304b7b47fe1fb872cd9e8bb4ce97ec6cec39e5438144cd3a1e1c9e"
+    },
+    "tables\\gaona_samples.tsv": {
+      "bytes": 1164,
+      "sha256": "c5d62d31b49e5554adf7cd01157ea3f832b4375ef4004ed20c51ec3be6e0f897"
+    },
+    "tables\\mouse_context_summary.tsv": {
+      "bytes": 5592155,
+      "sha256": "75836744bbf3f9da880fdb7016fddc7db68eb3d1456bd2ba9e62466d410c2f1f"
+    },
+    "tables\\mouse_day42_associations.tsv": {
+      "bytes": 31223,
+      "sha256": "9b2afc6d576b5e9daed93679bdb72fe177d18fe46d3c3d0c96891e3f32f8f072"
+    },
+    "tables\\mouse_gene_mapping.tsv": {
+      "bytes": 3386,
+      "sha256": "ccc2690fd9a6ded256be3c335d5b9e30f7660dcc84fe473ee6e7af09e40f590c"
+    },
+    "tables\\mouse_paired_summary.tsv": {
+      "bytes": 984553,
+      "sha256": "ef84628145282e17678102cd45da5ebdc5e23520678cea41a2018a65e36ed43b"
+    },
+    "tables\\mouse_program_scores.tsv": {
+      "bytes": 2644365,
+      "sha256": "6bc880bb86ae4f8a95b1f558a685f59b07a5046a996ddb1e85928f851cf6d1f2"
+    },
+    "tables\\mouse_sample_context.tsv": {
+      "bytes": 3321,
+      "sha256": "8f3d5b22c7f7091b12d713378f7527bac1fdb68488ee67ea95d41956b66afbcd"
+    },
+    "tables\\mouse_unit_coverage.tsv": {
+      "bytes": 122990,
+      "sha256": "d001a376a161d80defadbd741a0563e3c0f3bb97f875def3e681ba2942babebe"
+    },
+    "tables\\mouse_unit_expression.tsv.gz": {
+      "bytes": 2707260,
+      "sha256": "2b7df81bb91878b770f19d2edbc372c208f042e6211ad23ff47733c94237fb11"
+    },
+    "tables\\mouse_within_unit_differences.tsv": {
+      "bytes": 2426631,
+      "sha256": "89cb0ecf6daf1ba7636467a4a2766907ed341c1af86b182c53edd43c9a1521e1"
+    },
+    "tables\\nb2_receptor_feedback_effects.tsv": {
+      "bytes": 72228,
+      "sha256": "ca98c7b6cc28266fa4784ca244ea0dad8fe7d7b10b45b361a07ca2d476806445"
+    },
+    "tables\\vascular_depth_round_audit.tsv": {
+      "bytes": 4711,
+      "sha256": "d5af420dd54164e8d1523b04260ae8b611f809e894e2698f5964ca7176f5b1ed"
+    },
+    "tables\\vascular_rival_inputs.tsv": {
+      "bytes": 4225,
+      "sha256": "ce4c113e8599415822fe24af792f740ac73ba50fa5e7f222ec746f92d0def99c"
+    }
+  },
+  "scripts": {
+    "scripts\\00_freeze.py": "3555b506ef3257a926b3376b218fb6c669ec5e6f807c2f428ba3a64f144cac4b",
+    "scripts\\01_gaona.R": "33731a4c4e4dbd584a3430c6d5ed5e253270b262c52229cc4c1ce488da6045af",
+    "scripts\\02_bulk_extensions.py": "f7db6c9a63f3bad617b64691e3ab86083b6e6970b39c01851e1e62570d96ee43",
+    "scripts\\03_mouse_context.py": "90a76ac8e5ad7fcff04e4a615e3b6f40fe428d48243f57890f1b0246ea67e7ad",
+    "scripts\\04_figures.py": "b2fa00e69e4d7c5c64cacea629095b6e2de821c5a9d2c507780308728b5fd68e",
+    "scripts\\05_targeted_audit.py": "e1f9a4c232908757c9b560fb299c4e31d905ed2dc659611b7715cac90906d72f",
+    "scripts\\06_verify.py": "bb24fe278bf39ebdbcb4b1a2f3fed86fad40419ef617ad41dcb014c813179809",
+    "scripts\\common.py": "a9f28b3504ec9a4a158d0afe271650eeccc32cb79899c0acb0e838dbc95b1a68"
+  },
+  "reference_download": "Public GEO HTTPS URL in config; file bytes/hash frozen in contract; existing A1 metadata reused",
+  "runtime": {
+    "python": "3.12.14 amd64",
+    "python_executable": "C:/Users/dream/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "site_packages": "X:/GitHub/scRNA_seq/.venv-x64/Lib/site-packages",
+    "R": "4.6.1",
+    "limma": "3.68.5",
+    "edgeR": "4.10.5"
+  },
+  "visual_QA": "All five PNGs inspected; legend overlap and endothelial labels corrected, sample-label headroom added, round markers and inconsistency displayed; corrected overlap panels re-inspected",
+  "verification": "53 numerical/provenance checks passed; verifier source panel label corrected without changing results",
+  "decisions": "No mechanistic validation, A-series renumbering, evidence-grade change, commit, PR or external message"
+}

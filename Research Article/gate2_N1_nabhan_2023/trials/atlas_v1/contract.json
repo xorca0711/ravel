@@ -1,0 +1,98 @@
+{
+  "namespace": "Nb2",
+  "run": "atlas_v1",
+  "frozen_utc": "2026-09-29T10:58:11.028485+00:00",
+  "code_sha256": "a2779a4a030e5214b08d8d01faef1bb943110933785dde905879310d49f9050e",
+  "genes": [
+    "Fzd1",
+    "Fzd2",
+    "Fzd3",
+    "Fzd4",
+    "Fzd5",
+    "Fzd6",
+    "Fzd7",
+    "Fzd8",
+    "Fzd9",
+    "Fzd10",
+    "Lrp5",
+    "Lrp6",
+    "Axin2",
+    "Il1r1",
+    "Cthrc1",
+    "Lrrc15",
+    "Col1a1",
+    "Col3a1",
+    "Ccn1",
+    "Ccn2",
+    "Amotl2",
+    "Tgfb2",
+    "Sftpc",
+    "Etv5",
+    "Ager",
+    "Hopx",
+    "Krt8",
+    "Krt17",
+    "Krt5",
+    "Scgb1a1",
+    "Scgb3a2",
+    "Foxj1",
+    "Pecam1",
+    "Emcn",
+    "Car4",
+    "Ednrb",
+    "Aplnr",
+    "Kit",
+    "Wnt2",
+    "Wnt5a",
+    "Wnt7b"
+  ],
+  "input_files": [
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE135893\\GSE135893_genes.tsv.gz",
+      "bytes": 129668,
+      "sha256": "7e8612e72f033ef214de101bb782ab1cb60b8c887be2d3e8a0d637de067b0233"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE135893\\GSE135893_barcodes.tsv.gz",
+      "bytes": 936873,
+      "sha256": "37a9a98a95d59bb4333c8181c14bb2b384701e6fda1c409e79f3e41c681430d4"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE135893\\GSE135893_IPF_metadata.csv.gz",
+      "bytes": 3354014,
+      "sha256": "5c67b3717375859aafc4463024847cf30d7af7bb9d5f4ad9a5364ee6d7726bf5"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\GSE135893\\GSE135893_matrix.mtx.gz",
+      "bytes": 1076137992,
+      "sha256": "036987d06ed9625a71f5e5be0717c2598e914a6c9cad0628f61a8ebb66e695a6"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\Research Article\\gate1_01_niethamer_2025\\GSE262927\\processed\\final_clustered.h5ad",
+      "bytes": 2110304693,
+      "sha256": "edf697d9940c6e94c30fdd45c191a77cd615c518247db05566338992bfb66124"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\Research Article\\gate1_01_niethamer_2025\\GSE262927\\myeloid_focus\\batch_sensitivity\\tables\\sample_infection_round.csv",
+      "bytes": 3202,
+      "sha256": "e6d0488e10524cc5fcd32448434120042559cfeffbfcb23364e6e62242c5cc81"
+    }
+  ],
+  "exposure": "Paper/owner notes and existing repo atlas results already seen; targeted Nb2 summaries not inspected",
+  "role": {
+    "Habermann2020": "source reused by Nabhan2023; original author labels; not independent validation",
+    "Niethamer2025": "cross-paper mouse extension; previously used repository data; not source reproduction or independent validation"
+  },
+  "original_healthy_atlas": "Travaglini Synapse processed syn21560510 v1; metadata syn21560409 endpoint403; not substituted as exact reproduction",
+  "units": "Human Sample_Name source participant labels; mouse sample_id linked to existing sample metadata; cells never independent units",
+  "inclusion": "All human source labels, all diagnoses retained; mouse author labels and known condition only; no relabeling",
+  "primary": "Human source labels; mouse predicted doublets removed; retained-doublet sensitivity; marker profiles reported without data-dependent relabeling",
+  "coverage": "Primary>=50 cells/unit/state; sensitivity>=20 and>=100. Binary detection maximal binomial SE about7% at50; biological uncertainty separate. Same floors apply to depth500 subset.",
+  "normalization": "CPM from summed raw counts and all-gene UMI denominator per unit/state; detection fraction; no integration or cross-species absolute comparison",
+  "depth": "Analytic hypergeometric expectation at500 UMIs/cell, eligible cells>=500; report eligible subset original detection and CPM alongside standardized detection",
+  "summaries": "Median/min/max across eligible source units by condition/state/gene; no cell-level p-values; no disease adjustment, no causal or functional inference",
+  "uncertainty": "Unit range and number of contributing units; <3 units too sparse for cohort pattern; no calibrated donor CI in this initial descriptive atlas pass",
+  "disease": "IPF versus control profiles only within human study/state; diagnoses not pooled as IPF",
+  "mouse": "Day-specific descriptive source samples; injury day, sex, genotype and batch may be confounded; CAP1/CAP2 retained without functional gCap/aCap conversion",
+  "limitations": "Human ambient RNA/doublets not newly resolved; marker profiles are checks not lineage tracing; receptor RNA not protein, ligand engagement or signaling activity"
+}

@@ -1,0 +1,10 @@
+{
+  "finished_utc": "2026-09-29T12:04:34.339241+00:00",
+  "exposure": "All extension_v1 summaries inspected; CAP1 rho0.738 selected for a confounding check, not a confirmatory test",
+  "checks": "Compare original receptor CPM/detection and expected detection at500 UMI with cycling/junction programs in day42 CAP1/CAP2; report pooled and each source round; no p-values or adequacy claims for n4 rounds",
+  "input_files": {
+    "Research Article\\gate2_N1_nabhan_2023\\trials\\atlas_v1\\tables\\unit_receptor_context.tsv.gz": "cbd4e3dc0e376f526d72e768bdfb5a9247617a7f2411ce9f42d85dfacab9951b",
+    "RQ_Specified\\Nb2_fzd_response_context\\trials\\extension_v1\\tables\\mouse_program_scores.tsv": "6bc880bb86ae4f8a95b1f558a685f59b07a5046a996ddb1e85928f851cf6d1f2",
+    "RQ_Specified\\Nb2_fzd_response_context\\trials\\extension_v1\\tables\\mouse_sample_context.tsv": "8f3d5b22c7f7091b12d713378f7527bac1fdb68488ee67ea95d41956b66afbcd"
+  }
+}

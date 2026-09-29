@@ -1,0 +1,231 @@
+{
+  "frozen_utc": "2026-09-29T11:50:56.884151+00:00",
+  "config": {
+    "namespace": "Nb2",
+    "run": "extension_v1",
+    "date": "2026-09-29",
+    "exposure": "Paper, owner notes, bulk_v1/atlas_v1 and existing repository analyses already inspected. Gaona count header/metadata inspected, no new response estimates viewed. This is exploratory extension, not independent confirmation.",
+    "decision": "Determine which of seven branches has a stable RNA/context lead worth a discriminating experiment; insufficient design closes only the current test, not the biological question.",
+    "panels": {
+      "Wnt_clean": [
+        "Axin2",
+        "Lgr5",
+        "Tcf7"
+      ],
+      "YAP_source": [
+        "Ccn1",
+        "Ccn2",
+        "Amotl2"
+      ],
+      "AT2_identity": [
+        "Sftpc",
+        "Sftpb",
+        "Abca3",
+        "Lamp3",
+        "Etv5"
+      ],
+      "AT1_associated": [
+        "Ager",
+        "Cav1",
+        "Clic5",
+        "Aqp5",
+        "Pdpn",
+        "Hopx"
+      ],
+      "transition_associated": [
+        "Krt8",
+        "Krt19",
+        "Cldn4",
+        "Sfn",
+        "Lgals3",
+        "Itgb6"
+      ],
+      "cycling": [
+        "Top2a",
+        "Mki67",
+        "Cenpa",
+        "Ube2c"
+      ],
+      "ER_stress": [
+        "Ddit3",
+        "Atf4",
+        "Hspa5",
+        "Trib3"
+      ],
+      "TGF_response": [
+        "Serpine1",
+        "Pmepa1",
+        "Tgfbi"
+      ],
+      "ECM": [
+        "Cthrc1",
+        "Lrrc15",
+        "Col1a1",
+        "Col3a1"
+      ],
+      "support_ligands": [
+        "Wnt2",
+        "Fgf7",
+        "Fgf10",
+        "Hgf"
+      ],
+      "endothelial_junction": [
+        "Cdh5",
+        "Cldn5",
+        "Ocln",
+        "Tjp1"
+      ],
+      "CAP1_markers": [
+        "Aplnr",
+        "Gpihbp1",
+        "Kit"
+      ],
+      "CAP2_markers": [
+        "Car4",
+        "Ednrb",
+        "Apln"
+      ],
+      "injury_cap_context": [
+        "Cd74",
+        "H2-Aa",
+        "Ciita",
+        "Ntrk2",
+        "Sparcl1"
+      ]
+    },
+    "additional_genes": [
+      "Fzd1",
+      "Fzd2",
+      "Fzd3",
+      "Fzd4",
+      "Fzd5",
+      "Fzd6",
+      "Fzd7",
+      "Fzd8",
+      "Fzd9",
+      "Fzd10",
+      "Lrp5",
+      "Lrp6",
+      "Tspan12",
+      "Ndp",
+      "Ror1",
+      "Ror2",
+      "Ryk",
+      "Dkk1",
+      "Notum",
+      "Rnf43",
+      "Znrf3",
+      "Wnt5a",
+      "Wnt7b",
+      "Tgfb2",
+      "Ankrd1",
+      "Yap1",
+      "Wwtr1",
+      "Stk3",
+      "Stk4",
+      "Krt5",
+      "Krt17",
+      "Scgb1a1",
+      "Scgb3a2",
+      "Foxj1"
+    ],
+    "aliases": {
+      "Cyr61": "Ccn1",
+      "Ctgf": "Ccn2"
+    },
+    "gaona": {
+      "accession": "GSE327565",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327565/suppl/GSE327565_raw_counts_GEO_YapTaz.csv.gz",
+      "source": "https://insight.jci.org/articles/view/198113 Figure 8",
+      "design": "Separate genotype comparisons within SFFFM (3 vs 3 source mice) and ADM (4 vs 4); no suffix-based pairing or cross-media interaction inference. Mouse identities across media unresolved.",
+      "analysis": "Keep counts>=10 in >=3 of all14 libraries; TMM and voom/limma separately per medium; BH per genome/contrast. Equal library replication and source-reported mice assumed. Adaptation, not exact DESeq2 reproduction.",
+      "signature": "SFFFM YTactive-WT: FDR<0.05 and abs(log2FC)>0.5; up to50 per direction ordered by P then gene ID, unique symbols. Signed equal-weight mean(up)-mean(down). Requires >=5 mapped genes per side. ADM sign agreement is internal context sensitivity, not independent replication.",
+      "overlap_sensitivity": "Remove all prespecified panel genes and mouse Hallmark E2F_TARGETS/G2M_CHECKPOINT from the frozen reference list; no refill. This removes overlap, not all cycling/stress biology.",
+      "interpretation": "Sustained Stk3/4-loss-associated RNA response in a particular organoid context; not direct TEAD targets, YAP-vs-TAZ separation, a fibrosis classifier, or Fzd-mediated mechanism. Independent target-specific activity assay remains missing."
+    },
+    "bulk": {
+      "input": "Nb2 bulk_v1 TMM-voom log2CPM and all10 frozen contrasts",
+      "score": "Mean mapped-gene log2CPM per library, requires>=60% panel membership and >=2 genes; signature requires>=5 per direction. Effects compare the same panel within a study, not absolute scores across panels/studies.",
+      "uncertainty": "Welch95% intervals conditional on unverified independent preparations. Six single-library deletions and nine leave-one-per-arm deletions per 3vs3 contrast use fixed normalization; ranges are influence diagnostics, not confidence intervals. No outcome-based exclusions.",
+      "N1": "withdraw24-withdraw48 and agonist-withdraw48 program contrasts only; no Fzd pulse/washout or serial matched cultures present",
+      "N5": "Direct source contrasts plus program response vectors; amplitude-matched causal routing cannot be identified by conditioning on post-treatment Wnt output. No PCP/calcium claim."
+    },
+    "atlas": {
+      "source": "Niethamer GSE262927 existing author-annotated raw-count object",
+      "unit": "sample_id x author_celltype x source day; source samples are units, not cells; author unknown labels/condition excluded",
+      "primary": "Predicted doublets removed; >=50 cells/unit/state",
+      "sensitivity": "Keep-doublets; cell floors20 and100; reuse previous 500-UMI receptor audit for depth sensitivity",
+      "measurement": "Sum counts by unit/state; all-gene UMI CPM; program mean log2(CPM+1); no cell-level p-values, no cross-study score comparison",
+      "comparisons": "Within-sample epithelial states; AF1-AF2 receptor/program contrasts; CAP1-CAP2 marker crosswalk; Fzd4 endothelial profiles. Fixed day42 for descriptive within-state Spearman associations when>=5 units, no p-value claim. Day profiles categorical and source-confounded, not longitudinal animals.",
+      "scope": "Coarse CAP1 includes injury-associated heterogeneity; marker crosswalk cannot recover subtype lineage. No baseline-state treatment interaction or regeneration-fate measurement.",
+      "projection": "Gaona signed signature in epithelial unit/state pseudobulk only; transcriptomic similarity not predicted response or fate"
+    },
+    "N4": "Source editing/target-scope/functional-input audit plus receptor-feedback expression context in agonist arms. No KO/blockade RNA, protein-loss map or comparable early/late perturbation cohort: compensation test ineligible.",
+    "outputs": "Frozen membership, mapping, sample and unit coverage, bulk influences, within-source contrasts, subtype comparisons, explicit branch decisions and seven falsifiable question cards. No claim grades or A-series IDs promoted."
+  },
+  "input_files": [
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\RQ_Specified\\Nb2_fzd_response_context\\config\\extension_v1.json",
+      "bytes": 5766,
+      "sha256": "4860712f2f13ccaeb496e4ae15bf15439f6da6300de7d620b727404fee3eb9c8"
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\Research Article\\gate2_N1_nabhan_2023\\raw\\GSE327565_raw_counts_GEO_YapTaz.csv.gz",
+      "bytes": 955094,
+      "sha256": "7cdc2595de691569238a5a26b81f3547cd30a1e836a836199d750f6cf157a6f3"
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\RQ_Specified\\A1_transitional_epithelial_state_distinction\\metadata\\GSE327565.json",
+      "bytes": 45717,
+      "sha256": "f396549d6e8ccc6360bfdb632b5ed0724d2d5407f53bfb0bf880714d4ce47d1b"
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\Research Article\\gate2_N1_nabhan_2023\\trials\\bulk_v1\\tables\\normalized_log2CPM.tsv",
+      "bytes": 5584672,
+      "sha256": "fc7220215b3f01ef3ba4e1f9cbc90fa8d44f796336f0009359afe9d28c243ff6"
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\Research Article\\gate2_N1_nabhan_2023\\trials\\bulk_v1\\tables\\gene_effects.tsv.gz",
+      "bytes": 13059238,
+      "sha256": "8e0faf45d914874ce9fcf1d80ccb232b4a81824ede82d59df00c89c030a04975"
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\Research Article\\gate2_N1_nabhan_2023\\metadata\\samples.tsv",
+      "bytes": 4518,
+      "sha256": "c9bbd84bf9e9b0e6bfcd447fa5074a86022df57f6baa28ad51a1f41ac728c398"
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\Research Article\\gate2_N1_nabhan_2023\\trials\\bulk_v1\\contract.json",
+      "bytes": 4095,
+      "sha256": "3d1fd9644ad7f95eb456997fdaf4d4a69500c42b12e9bd49da682df4814abfa0"
+    },
+    {
+      "path": "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\Research Article\\gate2_N1_nabhan_2023\\trials\\atlas_v1\\contract.json",
+      "bytes": 4468,
+      "sha256": "8ffe4a65da6cfda42de08a9255a65adfd4c84d7772cdbbc423e3c8ecf8f0ea8e"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\raw_data\\msigdb\\mh.all.v2024.1.Mm.symbols.gmt",
+      "bytes": 48007,
+      "sha256": "e5aa9acd833179d1d571b48bf91a28fb387722ce68ff53094d05847659d66460"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\Research Article\\gate1_01_niethamer_2025\\GSE262927\\processed\\final_clustered.h5ad",
+      "bytes": 2110304693,
+      "sha256": "edf697d9940c6e94c30fdd45c191a77cd615c518247db05566338992bfb66124"
+    },
+    {
+      "path": "X:\\GitHub\\scRNA_seq\\Research Article\\gate1_01_niethamer_2025\\GSE262927\\myeloid_focus\\batch_sensitivity\\tables\\sample_infection_round.csv",
+      "bytes": 3202,
+      "sha256": "e6d0488e10524cc5fcd32448434120042559cfeffbfcb23364e6e62242c5cc81"
+    }
+  ],
+  "scripts": {
+    "scripts\\00_freeze.py": "3555b506ef3257a926b3376b218fb6c669ec5e6f807c2f428ba3a64f144cac4b",
+    "scripts\\01_gaona.R": "33731a4c4e4dbd584a3430c6d5ed5e253270b262c52229cc4c1ce488da6045af",
+    "scripts\\02_bulk_extensions.py": "f7db6c9a63f3bad617b64691e3ab86083b6e6970b39c01851e1e62570d96ee43",
+    "scripts\\03_mouse_context.py": "106ca81830031c78ddb975e44f62cb0a03aceb492eb316e4f2f73fecc9e54ce8",
+    "scripts\\common.py": "a9f28b3504ec9a4a158d0afe271650eeccc32cb79899c0acb0e838dbc95b1a68"
+  },
+  "code_status": "Analysis and figure scripts hashed again at completion; contract settings never changed silently"
+}

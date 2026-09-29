@@ -1,0 +1,54 @@
+{
+  "namespace": "Nb2",
+  "run": "extension_v1",
+  "date": "2026-09-29",
+  "exposure": "Paper, owner notes, bulk_v1/atlas_v1 and existing repository analyses already inspected. Gaona count header/metadata inspected, no new response estimates viewed. This is exploratory extension, not independent confirmation.",
+  "decision": "Determine which of seven branches has a stable RNA/context lead worth a discriminating experiment; insufficient design closes only the current test, not the biological question.",
+  "panels": {
+    "Wnt_clean": ["Axin2", "Lgr5", "Tcf7"],
+    "YAP_source": ["Ccn1", "Ccn2", "Amotl2"],
+    "AT2_identity": ["Sftpc", "Sftpb", "Abca3", "Lamp3", "Etv5"],
+    "AT1_associated": ["Ager", "Cav1", "Clic5", "Aqp5", "Pdpn", "Hopx"],
+    "transition_associated": ["Krt8", "Krt19", "Cldn4", "Sfn", "Lgals3", "Itgb6"],
+    "cycling": ["Top2a", "Mki67", "Cenpa", "Ube2c"],
+    "ER_stress": ["Ddit3", "Atf4", "Hspa5", "Trib3"],
+    "TGF_response": ["Serpine1", "Pmepa1", "Tgfbi"],
+    "ECM": ["Cthrc1", "Lrrc15", "Col1a1", "Col3a1"],
+    "support_ligands": ["Wnt2", "Fgf7", "Fgf10", "Hgf"],
+    "endothelial_junction": ["Cdh5", "Cldn5", "Ocln", "Tjp1"],
+    "CAP1_markers": ["Aplnr", "Gpihbp1", "Kit"],
+    "CAP2_markers": ["Car4", "Ednrb", "Apln"],
+    "injury_cap_context": ["Cd74", "H2-Aa", "Ciita", "Ntrk2", "Sparcl1"]
+  },
+  "additional_genes": ["Fzd1", "Fzd2", "Fzd3", "Fzd4", "Fzd5", "Fzd6", "Fzd7", "Fzd8", "Fzd9", "Fzd10", "Lrp5", "Lrp6", "Tspan12", "Ndp", "Ror1", "Ror2", "Ryk", "Dkk1", "Notum", "Rnf43", "Znrf3", "Wnt5a", "Wnt7b", "Tgfb2", "Ankrd1", "Yap1", "Wwtr1", "Stk3", "Stk4", "Krt5", "Krt17", "Scgb1a1", "Scgb3a2", "Foxj1"],
+  "aliases": {"Cyr61": "Ccn1", "Ctgf": "Ccn2"},
+  "gaona": {
+    "accession": "GSE327565",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327565/suppl/GSE327565_raw_counts_GEO_YapTaz.csv.gz",
+    "source": "https://insight.jci.org/articles/view/198113 Figure 8",
+    "design": "Separate genotype comparisons within SFFFM (3 vs 3 source mice) and ADM (4 vs 4); no suffix-based pairing or cross-media interaction inference. Mouse identities across media unresolved.",
+    "analysis": "Keep counts>=10 in >=3 of all14 libraries; TMM and voom/limma separately per medium; BH per genome/contrast. Equal library replication and source-reported mice assumed. Adaptation, not exact DESeq2 reproduction.",
+    "signature": "SFFFM YTactive-WT: FDR<0.05 and abs(log2FC)>0.5; up to50 per direction ordered by P then gene ID, unique symbols. Signed equal-weight mean(up)-mean(down). Requires >=5 mapped genes per side. ADM sign agreement is internal context sensitivity, not independent replication.",
+    "overlap_sensitivity": "Remove all prespecified panel genes and mouse Hallmark E2F_TARGETS/G2M_CHECKPOINT from the frozen reference list; no refill. This removes overlap, not all cycling/stress biology.",
+    "interpretation": "Sustained Stk3/4-loss-associated RNA response in a particular organoid context; not direct TEAD targets, YAP-vs-TAZ separation, a fibrosis classifier, or Fzd-mediated mechanism. Independent target-specific activity assay remains missing."
+  },
+  "bulk": {
+    "input": "Nb2 bulk_v1 TMM-voom log2CPM and all10 frozen contrasts",
+    "score": "Mean mapped-gene log2CPM per library, requires>=60% panel membership and >=2 genes; signature requires>=5 per direction. Effects compare the same panel within a study, not absolute scores across panels/studies.",
+    "uncertainty": "Welch95% intervals conditional on unverified independent preparations. Six single-library deletions and nine leave-one-per-arm deletions per 3vs3 contrast use fixed normalization; ranges are influence diagnostics, not confidence intervals. No outcome-based exclusions.",
+    "N1": "withdraw24-withdraw48 and agonist-withdraw48 program contrasts only; no Fzd pulse/washout or serial matched cultures present",
+    "N5": "Direct source contrasts plus program response vectors; amplitude-matched causal routing cannot be identified by conditioning on post-treatment Wnt output. No PCP/calcium claim."
+  },
+  "atlas": {
+    "source": "Niethamer GSE262927 existing author-annotated raw-count object",
+    "unit": "sample_id x author_celltype x source day; source samples are units, not cells; author unknown labels/condition excluded",
+    "primary": "Predicted doublets removed; >=50 cells/unit/state",
+    "sensitivity": "Keep-doublets; cell floors20 and100; reuse previous 500-UMI receptor audit for depth sensitivity",
+    "measurement": "Sum counts by unit/state; all-gene UMI CPM; program mean log2(CPM+1); no cell-level p-values, no cross-study score comparison",
+    "comparisons": "Within-sample epithelial states; AF1-AF2 receptor/program contrasts; CAP1-CAP2 marker crosswalk; Fzd4 endothelial profiles. Fixed day42 for descriptive within-state Spearman associations when>=5 units, no p-value claim. Day profiles categorical and source-confounded, not longitudinal animals.",
+    "scope": "Coarse CAP1 includes injury-associated heterogeneity; marker crosswalk cannot recover subtype lineage. No baseline-state treatment interaction or regeneration-fate measurement.",
+    "projection": "Gaona signed signature in epithelial unit/state pseudobulk only; transcriptomic similarity not predicted response or fate"
+  },
+  "N4": "Source editing/target-scope/functional-input audit plus receptor-feedback expression context in agonist arms. No KO/blockade RNA, protein-loss map or comparable early/late perturbation cohort: compensation test ineligible.",
+  "outputs": "Frozen membership, mapping, sample and unit coverage, bulk influences, within-source contrasts, subtype comparisons, explicit branch decisions and seven falsifiable question cards. No claim grades or A-series IDs promoted."
+}

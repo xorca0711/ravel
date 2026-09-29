@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-09-29",
+  "base_commit": "17c0859",
+  "sources": [
+    {"id": "P1", "url": "https://doi.org/10.1016/j.cell.2023.05.022", "local_filename": "Ahmad_N_Nabhan_2023_Targeted alveolar regeneration with Frizzled-specific agonists.pdf", "sha256": "80f91f8810312613d8926d6e190f5ed3729dfd2913015a6f0df6ee9733d85963", "pages": 34, "visually_checked_pages": [8, 14, 24], "tracked": false},
+    {"id": "D1", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE208nnn/GSE208770/soft/GSE208770_family.soft.gz", "path": "sources/GSE208770_family.soft.gz", "sha256": "74fc007362b1e80af09a6e2a5bd94aa9638aba94c4a248d4d67d98a6385fc648", "scope": "Metadata only; count matrix not inspected"},
+    {"id": "N1", "url": "https://app.notion.com/p/3e9151616b448042b032e6f60e4d6dc4", "last_edited": "2026-09-29T09:33:01.927Z", "verification": "unverified", "raw_notes_tracked": false},
+    {"id": "N2", "url": "https://app.notion.com/p/3e9151616b4480f3ace6e61b3044e155", "last_edited": "2026-09-29T03:56:03.678Z", "verification": "unverified", "raw_notes_tracked": false},
+    {"id": "N3", "url": "https://app.notion.com/p/3e0151616b44807ba675e28eeb4db751", "last_edited": "2026-09-29T07:32:00.198Z", "verification": "unverified", "raw_notes_tracked": false}
+  ],
+  "unrecovered": ["preparation_to_library_map", "treatment_timing_reconciliation", "count_schema", "original_atlas_versions", "functional_source_tables", "separate_supplementary_tables"],
+  "biological_analysis_executed": false
+}

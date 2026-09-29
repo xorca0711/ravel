@@ -1,0 +1,69 @@
+{
+  "schema": [
+    "name",
+    "count",
+    "width",
+    "rpkm"
+  ],
+  "libraries": 18,
+  "gene_rows": 52636,
+  "count_integrity": "finite nonnegative integers; same gene order and widths in all libraries",
+  "annotation": "Ensembl release 102, GRCm38; adapter to the paper's unrecovered internal gene model",
+  "annotation_sha256": "8321415404aaf788c7da79774488ff227ac006d09a57ce6c616573a510338f64",
+  "gene_mapping_sha256": "c02b4f02e6fc53a94da5c1fa5b490df83cdbcc56247b8dded4f946d322036a21",
+  "matrix_sha256": "d3ac9e580616e1ee6cd71bd2be9b116fdb2d2e21c6c1e267e7baeaf3afcdb2f0",
+  "mapped_gene_ids": 52183,
+  "unique_symbol_gene_ids": 52020,
+  "source_panel_coverage": {
+    "Wnt": {
+      "resolved": [
+        "Axin2",
+        "Lgr5",
+        "Tcf7",
+        "Birc5"
+      ],
+      "unresolved_source_symbols": []
+    },
+    "proliferation": {
+      "resolved": [
+        "Top2a",
+        "Mki67",
+        "Cenpa",
+        "Cenpc1"
+      ],
+      "unresolved_source_symbols": []
+    },
+    "AT2": {
+      "resolved": [
+        "Sftpd",
+        "Sftpa1",
+        "Etv5",
+        "Sox9"
+      ],
+      "unresolved_source_symbols": []
+    },
+    "AT1": {
+      "resolved": [
+        "Ager",
+        "Hopx",
+        "Rtkn2",
+        "Cav1"
+      ],
+      "unresolved_source_symbols": []
+    },
+    "Hippo_associated": {
+      "resolved": [
+        "Ccn1",
+        "Ccn2",
+        "Amotl2"
+      ],
+      "unresolved_source_symbols": [
+        "Crim2"
+      ]
+    }
+  },
+  "preparation_map_verified": false,
+  "pairing_verified": false,
+  "endpoint_analysis_performed": false,
+  "code_sha256": "52830efcf268112b2cd6be18c43296f33809acb19aab2bab3d9b18ae3a7ba652"
+}

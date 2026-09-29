@@ -114,6 +114,35 @@ independent discoveries or registrations; no A19–A26 identifiers are assigned.
 The [logical review](docs/LOGICAL_RATIONALE_REVIEW.md) checks this sequence against
 the actual measurements and implementation, with an adaptive follow-up order.
 
+<a id="nabhan-branch"></a>
+### Nabhan branch: Nb2-N1–Nb2-N8
+
+The owner completed Nabhan 2023 and requested registration of the Nabhan branch
+from their theme list on 29 September 2026. The [paper-local register](Research%20Article/gate2_N1_nabhan_2023/HYPOTHESIS_REGISTER.md#nabhan-branch)
+preserves their order: intermittent stimulation/differentiation; Hippo-associated
+plasticity; starting-state-specific Wnt responses; compensation after Fzd5 loss;
+receptor context and diverse outputs; fibroblast Fzd1; endothelial Fzd4; and the
+additional endogenous-Fzd6-input question. Each card includes a hypothesis, rival,
+measurable test, contrary result and data limitation. The initial
+[Nb2 execution](Research%20Article/gate2_N1_nabhan_2023/RESULTS.md) adds measured
+premises and limits to each card; the hypotheses remain unvalidated.
+
+The [three-track plan](Research%20Article/gate2_N1_nabhan_2023/ANALYSIS_TRIAL_PLAN.md)
+links ten source propositions, five exploratory branches and those candidates.
+Nb2-N1/N3 connect to A4/A8, Nb2-N2 to A1/A5/A8/A10, and Nb2-N6 to A13/A15;
+these links do not replace their existing endpoints or establish a common mechanism.
+The owner's earlier Axin2/Il1r1 theme stays with A4 and Nb1. No new A-series IDs
+or C-grades are assigned. GSE208770 metadata describe bulk organoid RNA, not
+treated single-cell states.
+
+The [Nb2 branch analyses](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md)
+remain under `Research Article`, as the owner clarified. Their
+[results](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md) and
+paper-local candidate notes inform a later synthesis. No Nb2 workspace or formal
+Nb2-RQ1–RQ8 registration remains under `RQ_Specified`. Future RQs must be derived
+from the analysis and its unresolved biological implications, rather than assigned
+one-to-one from the original branch list. Existing A-series scope is unchanged.
+
 ## Hypothesis cards
 
 <a id="a0"></a>

@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-09-29T12:21:17.221551+00:00",
+  "command": "python analysis/scripts/validate_repository.py",
+  "returncode": 0,
+  "output": "Repository validation passed: 4892 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n",
+  "scope": "Repository navigation, JSON and existing numerical bindings; 53 new scientific numerical/provenance checks recorded separately"
+}

@@ -1,0 +1,11 @@
+{
+  "finished_utc": "2026-09-29T11:56:05.014978+00:00",
+  "source_effects_sha256": "6847356ca9bcba59edcf15317dc20cd2a06e4c3601afb59e555e72e9d0784473",
+  "signature_sha256": "5a22eaa703d2cfe4eac92f5fa0fd15034dcb6837187acc9c64f3a8778947e4f3",
+  "derived_panels_sha256": "6f41d4305d29ce27dc291969c459378c71d4a0eefcb31e102b5be0d8914080a6",
+  "rule": "SFFFM YTactive-WT: FDR<0.05 and abs(log2FC)>0.5; up to50 per direction ordered by P then gene ID, unique symbols. Signed equal-weight mean(up)-mean(down). Requires >=5 mapped genes per side. ADM sign agreement is internal context sensitivity, not independent replication.",
+  "counts": {
+    "-1": 50,
+    "1": 50
+  }
+}
