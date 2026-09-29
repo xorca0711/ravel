@@ -1,0 +1,20 @@
+{
+  "scope": "Distributions behind already-reported A16 summaries. No fit, no rescoring, no new estimate. Per-positive-cell matched differences in F04a are recomputed from the saved edge list and saved per-cell scores, as the archived verifier does, and the script asserts their mean equals the reported matched_raw to 1e-12. Arm B entries in F03 pool libraries within an experiment and are not within-state contrasts. Control-gene strips show the SELECTED controls, not the full candidate universe.",
+  "script_sha256": "8ac2d4b36bfbc983c90d0b835713d10d488509ac4d9455b4a74009276caaf113",
+  "matplotlib_version": "3.11.1",
+  "jitter_seed": 20260928,
+  "inputs": {
+    "tables/stage1/A16_C3_control_gene_detail.csv": "81fa430623527696701d13115666e428a4d5ce596c74ad90efdf331738a41182",
+    "tables/stage1/A16_C3_matched_gene_null.csv": "6ce26899b0f051125e60791a4146237e2ebe8f7f384e45b99cc91eb3c381c612",
+    "tables/stage1/run_record.json": "0130a93d8716bf99533609e89dc09d565d819edcf0c72a3792e3e032e34075da",
+    "correction_20260928/tables/corrected_c1/cell_outcomes.csv": "604daf3cac96f2f9690b371bb615e0a981824fa586b7e3ce9cb6c87073e1835f",
+    "correction_20260928/tables/corrected_c1/matched_edges.csv": "5710a44f00a8c1657bcf7badfa60ffa6b6fb8a1b5164fb55605259a93b4b8741",
+    "correction_20260928/tables/corrected_c1/effects.csv": "1dd66ac52e8dde4157d89d26973a9584049c2d8d644b716a1540d6fcceedcfc4"
+  },
+  "outputs": {
+    "A16_F03_c3_null_distributions.png": "fb0eaff274984ff9abfd4f9859194cfe53bddd7f7fd7ebe62121a5a54c383861",
+    "A16_F03_c3_null_distributions.svg": "5626f757af92885269083abb0255d4bdc3321015c19233dea3d70f70ef4b33fe",
+    "A16_F04_matched_difference_distributions.png": "567204beb036ff8e905643e87149300f2eb7ec2ccd592308d4df84c8a80ecb64",
+    "A16_F04_matched_difference_distributions.svg": "87aa35479c7aec3491c846e2833193814db389e38bb4b78918fd95bb77f133a7"
+  }
+}

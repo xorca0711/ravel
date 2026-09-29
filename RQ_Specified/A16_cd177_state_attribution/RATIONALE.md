@@ -189,6 +189,48 @@ about 9% of transitional cells but carries 1 to 53 UMIs where detected, which is
 detection and expression together leaves so few controls; widening the bands after seeing this
 would be a disclosed post-hoc relaxation, not the frozen C3.
 
+### The distributions behind those two summaries
+
+The panels above report the estimates; these two report the evidence they rest on, rendered by
+[scripts/plot_evidence_distributions.py](scripts/plot_evidence_distributions.py) with hashes in
+[figures/figure_run_distributions.json](figures/figure_run_distributions.json).
+
+![The C3 null as a distribution, and the matching space](figures/A16_F03_c3_null_distributions.png)
+
+**Figure A16-F03. The specificity test is inconclusive because its null is nearly empty, not
+because Cd177 sits inside a well-populated one.** (a) Per descriptive entry, the priming
+standardized mean difference of every selected control gene (points), with the median and the
+5th-95th percentile, and Cd177's own value as a diamond; entries are ordered by control count,
+printed at the right. Only exp1 sub 10 (500 controls) and exp2 sub 12 (284) support a
+distribution at all, and in the better-powered of the two Cd177 sits inside it. Entries with 1
+to 36 controls cannot place any gene, whatever the arithmetic says. (b) The matching space for
+one dense and one sparse entry: selected control genes in detection rate against mean
+log1p(CP10k) where detected, with Cd177 and the frozen matching band (detection +/-25%,
+expression +/-35%, relative, from the run record). Cd177's combination of low detection and high
+per-cell abundance leaves few genes inside its band. Plotted from
+[A16_C3_control_gene_detail.csv](tables/stage1/A16_C3_control_gene_detail.csv) and
+[A16_C3_matched_gene_null.csv](tables/stage1/A16_C3_matched_gene_null.csv). Arm B entries pool
+libraries within an experiment and are not within-state contrasts. Points are the controls that
+were selected, not the full candidate universe.
+
+![Per-cell matched differences and the matched comparison group](figures/A16_F04_matched_difference_distributions.png)
+
+**Figure A16-F04. The matched estimate is a mean over cells that disagree, and matching works by
+moving the comparison group.** (a) One point per Cd177-positive cell: its priming score minus the
+mean of its k=10 matched controls, with the mean of those differences as the bar. Both libraries
+sit around 82% above zero, so roughly one positive cell in five runs the other way, and the
+spread crosses zero in both. The means are the reported 0.409807 and 0.315110; the script asserts
+that recomputation from the saved edge list and saved per-cell scores reproduces them to 1e-12
+before plotting, as the archived verifier does. (b) For GSM7890835, the priming distribution of
+the positives, of the matched controls actually used, and of the whole Cd177-negative pool.
+Medians are 1.90, 1.34 and 0.22. **The matched controls sit far above the negative pool**, which
+is where attenuation comes from: matching selects comparison cells that already resemble the
+positives, so a smaller difference is the expected consequence of the design and not a measure of
+how much signal was positional. Plotted from
+[cell_outcomes.csv](correction_20260928/tables/corrected_c1/cell_outcomes.csv),
+[matched_edges.csv](correction_20260928/tables/corrected_c1/matched_edges.csv) and
+[effects.csv](correction_20260928/tables/corrected_c1/effects.csv).
+
 ## Claim-by-claim ledger: statements above that later evidence superseded or qualified
 
 | Statement in the Stage 0 text | Status | Superseding or qualifying evidence |
