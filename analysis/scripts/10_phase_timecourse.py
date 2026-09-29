@@ -215,11 +215,11 @@ def composition(df: pd.DataFrame, rec: RunRecord) -> tuple[pd.DataFrame, pd.Data
         strip_by_day(ax, sub, "pct_within_compartment", DAYS, col)
         ax.set_title(f"% of {'CD45-negative' if COMPARTMENT[lin] == 'CD45neg' else 'CD45-positive'} cells",
                      fontsize=9)
-        ax.set_xlabel("days post infection")
+        ax.set_xlabel("days post infection (categorical spacing)")
         ax.set_ylim(bottom=0)
     axes[0, 0].set_ylabel("% per animal")
     axes[1, 0].set_ylabel("% per animal")
-    fig.suptitle("Lineage composition per animal (one point = one animal; line = median). "
+    fig.suptitle("Lineage composition per animal (one point = one animal; line = cross-sectional median). "
                  "Top row is set by the MACS recombination and is descriptive only.", y=0.995)
     fig.tight_layout(rect=(0, 0, 1, 0.96))
     for p in save_fig(fig, FIG, "lineage_composition_by_dpi"):
@@ -297,17 +297,17 @@ def proliferation(df: pd.DataFrame, rec: RunRecord) -> dict:
         sub = g[(g["lineage"] == lin) & (g["series"].isin(["immediate_window", "baseline"]))]
         strip_by_day(ax, sub, "pct_traced", imm_days, col)
         ax.set_title(f"{lin}\nKi67-traced, immediate window\n(expected peak {PAPER_PEAK[lin]})", fontsize=9)
-        ax.set_xlabel("harvest day (tamoxifen 4 d earlier; 0 = uninjured)")
+        ax.set_xlabel("harvest day (categorical; tamoxifen 4 d earlier; 0 = uninjured)")
         ax.set_ylim(bottom=0)
         ax = axes[1, j]
         sub = c[c["lineage"] == lin]
         strip_by_day(ax, sub, "pct_cycling", DAYS, col)
         ax.set_title("cells in S or G2M", fontsize=9)
-        ax.set_xlabel("days post infection")
+        ax.set_xlabel("days post infection (categorical spacing)")
         ax.set_ylim(bottom=0)
     axes[0, 0].set_ylabel("% traced of reporter-scored cells")
     axes[1, 0].set_ylabel("% cycling per animal")
-    fig.suptitle("Proliferation per lineage (one point = one animal; line = median)", y=0.995)
+    fig.suptitle("Proliferation per lineage (one point = one animal; line = cross-sectional median)", y=0.995)
     fig.tight_layout(rect=(0, 0, 1, 0.96))
     for p in save_fig(fig, FIG, "proliferation_by_lineage"):
         rec.add_output(p)
@@ -324,7 +324,7 @@ def proliferation(df: pd.DataFrame, rec: RunRecord) -> dict:
         strip_by_day(ax, sub90, "pct_traced", windows, col, day_col="tam", median=False, hollow=True)
         ax.set_title(f"{lin}\nfilled: 42 dpi harvest (2 animals per window)\nhollow: 90 dpi (1 animal)",
                      fontsize=9)
-        ax.set_xlabel("tamoxifen window start (dpi)")
+        ax.set_xlabel("tamoxifen window start (dpi; categorical spacing)")
         ax.set_ylim(bottom=0)
     axes[0].set_ylabel("% traced of reporter-scored cells")
     fig.suptitle("Ki67 trace read at a common harvest: which window labelled each lineage", y=1.02)

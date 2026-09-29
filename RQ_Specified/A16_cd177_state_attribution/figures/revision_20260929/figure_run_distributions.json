@@ -1,0 +1,28 @@
+{
+  "scope": "Distributions behind already-reported A16 summaries. No fit, no rescoring, no new estimate. Per-positive-cell matched differences in F04a are recomputed from the saved edge list and saved per-cell scores, as the archived verifier does, and the script asserts their mean equals the reported matched_raw to 1e-12. Arm B entries in F03 pool libraries within an experiment and are not within-state contrasts. Control-gene histograms show the SELECTED controls, not the full candidate universe; the 40-control display floor is not a power assessment. F04 compares individual scores with per-positive-cell means of controls, which can be reused; these are cell-level descriptions, not independent animal replicates. The 0.1 line in the Love plot is the conventional balance reference from the matching literature, not a threshold this analysis adopted.",
+  "script_sha256": "1b11177c9547d27a9254180e01ee6ad759d794fa46415f8a0ecbe1b58ef418f6",
+  "matplotlib_version": "3.11.1",
+  "jitter_seed": 20260928,
+  "text_collisions": {
+    "figure_three": 0,
+    "figure_four": 0,
+    "figure_five": 0
+  },
+  "inputs": {
+    "tables/stage1/A16_C3_control_gene_detail.csv": "81fa430623527696701d13115666e428a4d5ce596c74ad90efdf331738a41182",
+    "tables/stage1/A16_C3_matched_gene_null.csv": "6ce26899b0f051125e60791a4146237e2ebe8f7f384e45b99cc91eb3c381c612",
+    "tables/stage1/run_record.json": "0130a93d8716bf99533609e89dc09d565d819edcf0c72a3792e3e032e34075da",
+    "correction_20260928/tables/corrected_c1/cell_outcomes.csv": "604daf3cac96f2f9690b371bb615e0a981824fa586b7e3ce9cb6c87073e1835f",
+    "correction_20260928/tables/corrected_c1/matched_edges.csv": "5710a44f00a8c1657bcf7badfa60ffa6b6fb8a1b5164fb55605259a93b4b8741",
+    "correction_20260928/tables/corrected_c1/effects.csv": "1dd66ac52e8dde4157d89d26973a9584049c2d8d644b716a1540d6fcceedcfc4",
+    "correction_20260928/tables/corrected_c1/PC_balance.csv": "6fa727d570bb95eb14acf52f9247d5d08aa7a3c013735c5be6d207326102adeb"
+  },
+  "outputs": {
+    "A16_F03_c3_null_histograms.png": "34c5f5c3294bb388c3ea26dc333c65e8499b8ac6cd0468ae12b266e51d6e1ce3",
+    "A16_F03_c3_null_histograms.svg": "d9f4cd48f4c2df945e78b5636ca71c399b7212d1634c712e03c2761211a8b6a7",
+    "A16_F04_percell_score_violins.png": "e6dd0f65a52b6fc927b098f0d9adf0d4e3ae92b65876a02781072fb0d7744313",
+    "A16_F04_percell_score_violins.svg": "5469fdb215405b83c8feb0be1b62799c90cceb4e14d66a1583f65ad289aa46e3",
+    "A16_F05_matching_balance_loveplot.png": "39a847817b3b530c244e8362930522eff64b82d73d7858503643b4c9e41d6788",
+    "A16_F05_matching_balance_loveplot.svg": "3428b1286de732d11a0583637cf2134aecca9a2191f7dfaaac3f8449d2222022"
+  }
+}

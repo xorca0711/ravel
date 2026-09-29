@@ -234,7 +234,7 @@ def figure_fibrotic(retention: pd.DataFrame, plt) -> None:
 
     frame = retention.iloc[::-1].reset_index(drop=True)
     fig = plt.figure(figsize=(14.5, 5.6), dpi=150)
-    fig.text(0.012, 0.945, "Deleting Areg does not remove the fibrotic programme as one unit",
+    fig.text(0.012, 0.945, "The Areg-deletion library retains the six fibrotic-program genes to different degrees",
              fontsize=15, fontweight="semibold", color=V.INK)
     fig.text(0.012, 0.9, "Fibroblasts of GSE316244, the six genes of the paper's reprogrammed-fibroblast "
              "set. One library per genotype, similar depth (median 2,615 and 2,750 genes per cell).",
@@ -276,7 +276,7 @@ def figure_fibrotic(retention: pd.DataFrame, plt) -> None:
     rule_ink = V.INK_2
     ax.axvline(80, color=rule_ink, lw=1, zorder=4)
     ax.text(81, len(frame) - 0.55, "C2 frozen rule: 80%", fontsize=8.5, color=rule_ink, va="bottom")
-    ax.set_title("How much of each gene survives")
+    ax.set_title("Detection ratio in the two genotype libraries")
     fig.savefig(OUT / "c5_fig2_fibrotic_programme_split.png")
     plt.close(fig)
 

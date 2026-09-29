@@ -1,0 +1,381 @@
+{
+  "england_figure_audit": {
+    "checks_passed": [
+      "EN_F02: 32 contrasts and 17 ranges span zero",
+      "EN_F02: four Cd177-associated means and entire ranges are negative",
+      "EN_C02: Experiment 1 top-AT2 count 8/8",
+      "EN_C02: Experiment 2 top-AT2 count 5/7",
+      "FU_F02: 12 frozen inconclusive verdicts",
+      "FU_F03: components have sizes 6 and 1; isolated c14",
+      "FU_F03: 21 pairs in Experiment 1",
+      "FU_F03: 45 pairs in Experiment 2",
+      "FU_F03: middle medians round to 0.20 and 0.25",
+      "FU_F03: symmetric heatmap scale includes every estimate",
+      "FU_F04: 12 AT2/mixed library estimates lie within stated bounds",
+      "FU_F05: 12/13 negative size, 8/13 positive and 5/13 negative identity proxy",
+      "EN_C04: all eight displayed Cd177 and AT1-identity point contrasts are negative",
+      "EN_C06: shared-module peak at middle time in both studies",
+      "plot_batch1.py: syntax",
+      "plot_followup.py: syntax",
+      "plot_continuation.py: syntax",
+      "run_spatial_decoupling.py: syntax",
+      "figure hash: EN_F02_genotype_contrasts.png",
+      "figure hash: EN_F03_library_distributions.png",
+      "figure hash: EN_F05_clone_models.png",
+      "figure hash: EN_F06_spatial_profiles.png",
+      "figure hash: EN_F02_genotype_contrasts.svg",
+      "figure hash: EN_C01_state_occupancy.png",
+      "figure hash: EN_C02_cluster_gate_crosstab.png",
+      "figure hash: EN_C03_cd177_transition.png",
+      "figure hash: EN_C04_genotype_contrasts.png",
+      "figure hash: EN_C05_simulator_implementations.png",
+      "figure hash: EN_C06_repair_transfer.png",
+      "figure hash: FU_F01_round2_umap.png",
+      "figure hash: FU_F02_depth_control.png",
+      "figure hash: FU_F03_topology_and_within_cluster.png",
+      "figure hash: FU_F04_controls.png",
+      "figure hash: FU_F02_depth_control.svg",
+      "figure hash: FU_F03_topology_and_within_cluster.svg",
+      "figure hash: FU_F04_controls.svg",
+      "frozen numerical/analysis sources unchanged: *.csv",
+      "frozen numerical/analysis sources unchanged: trials/followup/FU_W_run_record.json,trials/followup/run_record.json"
+    ],
+    "scientific_tables_and_frozen_runs_unchanged": true
+  },
+  "analysis_figure_audit": {
+    "source_tables_unchanged": 16,
+    "checks": [
+      "Three modified producer AST parses passed",
+      "A1 frozen table comparison passed (rtol/atol 1e-12)",
+      "Script18 row/seed/median/overlap assertions passed",
+      "iCAP saved-table 8-animal pairing checks passed",
+      "5 figure-ownership tests passed",
+      "51 current input/output/preserved-history hash comparisons passed",
+      "Three A1 revisions: 22 distinct HPCS mice and 5333 cells; 16 CD44 samples paired over 8 mice",
+      "All tracked A1 figure families assigned a disposition; retained families are source-screened, not fully revalidated"
+    ],
+    "limitations": [
+      "Retained_screened means display/claim semantics screened, not every scientific value independently recomputed.",
+      "No new biological inference, expression normalization, embedding, clustering or fitted model."
+    ],
+    "current_hash_comparisons": 51
+  },
+  "rq_remaining_figure_audit": {
+    "checks_passed": [
+      "P0 influenza 1/25 triplets",
+      "P0 bleomycin 10/32 triplets",
+      "P0 intestinal 2/4 triplets",
+      "Extended coverage source windows",
+      "Capture minimum P0 1231",
+      "Capture minimum P0 2467",
+      "Capture minimum P3 8852",
+      "Capture minimum P3 17710",
+      "Capture minimum P5 9084",
+      "Capture minimum P5 18173",
+      "Capture minimum P7 1805",
+      "Capture minimum P7 3614",
+      "Capture minimum P14 579",
+      "Capture minimum P14 1155",
+      "Pilot unit eligibility exactly matches 30-cell triplet",
+      "Pilot eligible units 9/11/3",
+      "Pilot seven cumulative gate counts",
+      "Pilot 134 qualifying and 50 selected",
+      "Qualifying gene heatmap 50 displayed rows",
+      "Heatmap positive fractions bounded D1start",
+      "Heatmap positive fractions bounded D1destination",
+      "Heatmap positive fractions bounded D2start",
+      "Heatmap positive fractions bounded D2destination",
+      "Transfer displayed median D1destination",
+      "Transfer displayed median D1start",
+      "Transfer displayed median D2destination",
+      "Transfer displayed median D2start",
+      "Transfer displayed median V1destination",
+      "Transfer displayed median V1start",
+      "Exploratory heldout nine mice/two endpoints",
+      "Exploratory standardized scale is difference / endpoint-cell SD",
+      "Exploratory source qualifications 9/9,9/9,1/9",
+      "Exploratory mixtures 200 per mouse/weight",
+      "Exploratory matched sets 200 per endpoint",
+      "Exploratory transfer floor development",
+      "Exploratory transfer contrast development",
+      "Exploratory transfer floor intestine",
+      "Exploratory transfer contrast intestine",
+      "A10 relative reduction denominator",
+      "A10 six displayed reductions positive",
+      "A10 three of four full-model R2 negative",
+      "A10 remaining-growth lowers every plate RMSE",
+      "A10 plate3 no target overlap after removal",
+      "A10 15 within-group folds with heterogeneous direction",
+      "A5 biological sample sizes",
+      "A11 patient pair sizes",
+      "A5 all 95% intervals positive",
+      "A11 beyond-shared interval crosses zero",
+      "A5/A11 revision hash a5_a11_results.png",
+      "A5/A11 revision hash a5_a11_results.svg"
+    ],
+    "limitations": [
+      "Numeric review uses saved tables, not raw-count reanalysis.",
+      "Full visual inspection was performed on the non-SVG A0 planning/coverage panels and original/revised A5/A11; remaining figures were checked against actual SVG labels and producer selectors."
+    ],
+    "scientific_tables_or_fits_changed": false
+  },
+  "other_article_numeric_checks": {
+    "T8_p_values": [
+      0.11207
+    ],
+    "T10_p_values": [
+      0.275112,
+      0.044692
+    ],
+    "retained_ratios": [
+      1.1957,
+      1.0986
+    ],
+    "injury_permutation_p": [
+      0.005,
+      0.01
+    ],
+    "replication_n": 27,
+    "positive_in_both": 26,
+    "attenuation_median": 0.5347773558853987,
+    "pathological_gt05": true,
+    "retention_range": {
+      "min": 39.4,
+      "max": 97.1
+    },
+    "injury_higher_genes": [
+      "Runx1",
+      "Pdgfrb",
+      "Tnc",
+      "Fst",
+      "Runx2"
+    ],
+    "e5_arithmetic": true,
+    "nabhan_pair_units": {
+      "Wnt2": 21,
+      "Wnt2b": 21,
+      "Wnt4": 21,
+      "Wnt5a": 21,
+      "Wnt9a": 21
+    },
+    "nabhan_threshold_rows": [
+      {
+        "threshold": ">0",
+        "estimand": "Pdgfra_given_Wnt5a",
+        "numerator_gene": "Pdgfra",
+        "conditioning_expression": "Wnt5a",
+        "joint_n": 28,
+        "denominator_n": 31,
+        "fraction": 0.9032258065,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">0",
+        "estimand": "Wnt5a_given_Pdgfra",
+        "numerator_gene": "Wnt5a",
+        "conditioning_expression": "Pdgfra",
+        "joint_n": 28,
+        "denominator_n": 40,
+        "fraction": 0.7,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">0",
+        "estimand": "Axin2_given_any_Wnt",
+        "numerator_gene": "Axin2",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 10,
+        "denominator_n": 40,
+        "fraction": 0.25,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">0",
+        "estimand": "Porcn_given_any_Wnt",
+        "numerator_gene": "Porcn",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 7,
+        "denominator_n": 40,
+        "fraction": 0.175,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">0",
+        "estimand": "Wls_given_any_Wnt",
+        "numerator_gene": "Wls",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 37,
+        "denominator_n": 40,
+        "fraction": 0.925,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=0.1",
+        "estimand": "Pdgfra_given_Wnt5a",
+        "numerator_gene": "Pdgfra",
+        "conditioning_expression": "Wnt5a",
+        "joint_n": 28,
+        "denominator_n": 31,
+        "fraction": 0.9032258065,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=0.1",
+        "estimand": "Wnt5a_given_Pdgfra",
+        "numerator_gene": "Wnt5a",
+        "conditioning_expression": "Pdgfra",
+        "joint_n": 28,
+        "denominator_n": 39,
+        "fraction": 0.7179487179,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=0.1",
+        "estimand": "Axin2_given_any_Wnt",
+        "numerator_gene": "Axin2",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 9,
+        "denominator_n": 39,
+        "fraction": 0.2307692308,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=0.1",
+        "estimand": "Porcn_given_any_Wnt",
+        "numerator_gene": "Porcn",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 7,
+        "denominator_n": 39,
+        "fraction": 0.1794871795,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=0.1",
+        "estimand": "Wls_given_any_Wnt",
+        "numerator_gene": "Wls",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 36,
+        "denominator_n": 39,
+        "fraction": 0.9230769231,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=1",
+        "estimand": "Pdgfra_given_Wnt5a",
+        "numerator_gene": "Pdgfra",
+        "conditioning_expression": "Wnt5a",
+        "joint_n": 21,
+        "denominator_n": 26,
+        "fraction": 0.8076923077,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=1",
+        "estimand": "Wnt5a_given_Pdgfra",
+        "numerator_gene": "Wnt5a",
+        "conditioning_expression": "Pdgfra",
+        "joint_n": 21,
+        "denominator_n": 33,
+        "fraction": 0.6363636364,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=1",
+        "estimand": "Axin2_given_any_Wnt",
+        "numerator_gene": "Axin2",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 5,
+        "denominator_n": 35,
+        "fraction": 0.1428571429,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=1",
+        "estimand": "Porcn_given_any_Wnt",
+        "numerator_gene": "Porcn",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 3,
+        "denominator_n": 35,
+        "fraction": 0.08571428571,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=1",
+        "estimand": "Wls_given_any_Wnt",
+        "numerator_gene": "Wls",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 29,
+        "denominator_n": 35,
+        "fraction": 0.8285714286,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=5",
+        "estimand": "Pdgfra_given_Wnt5a",
+        "numerator_gene": "Pdgfra",
+        "conditioning_expression": "Wnt5a",
+        "joint_n": 13,
+        "denominator_n": 18,
+        "fraction": 0.7222222222,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=5",
+        "estimand": "Wnt5a_given_Pdgfra",
+        "numerator_gene": "Wnt5a",
+        "conditioning_expression": "Pdgfra",
+        "joint_n": 13,
+        "denominator_n": 26,
+        "fraction": 0.5,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=5",
+        "estimand": "Axin2_given_any_Wnt",
+        "numerator_gene": "Axin2",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 2,
+        "denominator_n": 26,
+        "fraction": 0.07692307692,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=5",
+        "estimand": "Porcn_given_any_Wnt",
+        "numerator_gene": "Porcn",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 1,
+        "denominator_n": 26,
+        "fraction": 0.03846153846,
+        "n_cells": 47
+      },
+      {
+        "threshold": ">=5",
+        "estimand": "Wls_given_any_Wnt",
+        "numerator_gene": "Wls",
+        "conditioning_expression": "any_Wnt",
+        "joint_n": 17,
+        "denominator_n": 26,
+        "fraction": 0.6538461538,
+        "n_cells": 47
+      }
+    ],
+    "plot_scripts_parse": 6
+  },
+  "a12_a16": {
+    "saved_value_assertions": "All 15 primary model RMSE values reproduced from per-patient squared losses; unique patient/model keys and equal paired outcomes enforced. A16 per-cell differences reproduce two recorded means within 1e-12.",
+    "visual_review": "All eight current A12/A16 presentations inspected; discovered text/legend overlaps corrected. A16 F03-F05 report zero automated text collisions.",
+    "model_fits_rerun": false
+  },
+  "final_repository_checks": {
+    "python_compilation": "passed",
+    "evidence_tests": 69,
+    "claim_contract_bindings": 18,
+    "nb1_output_hashes": 17,
+    "a16_archived_checks": 1867,
+    "repository_validation_checks": 4594,
+    "figure_families": 367,
+    "figure_asset_hashes": 480,
+    "continuation_provenance": "Records every consumed table, including marker panels and within-state contrasts; final EN_C01 layout adjusted after visual inspection."
+  }
+}

@@ -68,55 +68,55 @@ Those are rivals, not caveats.
 ![Held-out model ladder for both pilots](figures/A12_F01_heldout_model_ladder.png)
 
 **Figure A12-F01. The recipient index lowers held-out error in the epithelium, does not in
-fibroblasts, and the related fibroblast programme does not help at all.** Held-out RMSE at the
+fibroblasts, and the related fibroblast programme raises aggregate error at the primary settings.** Held-out RMSE at the
 primary settings (ridge alpha=1, 50-cell floor, confidence 0.2), twelve paired patients per
 panel, plotted from
 [A12_model_metrics.csv](../../docs/roadmap_runs/2026-09-27-followthrough/A12_model_metrics.csv)
 and [A13_model_metrics.csv](../../docs/roadmap_runs/2026-09-27-followthrough/A13_model_metrics.csv).
-The arrow marks each pilot's primary comparison, joint against source-plus-TNF, on identical
-held-out patients. (a) A12 with AT2 as recipient: 0.4271 to 0.3244, an MSE improvement of
+The upper row summarizes model RMSE; the lower row pairs absolute errors for joint and
+source-plus-TNF on the same held-out patients, using the saved
+[A12](../../docs/roadmap_runs/2026-09-27-followthrough/A12_heldout_predictions.csv) and
+[A13 predictions](../../docs/roadmap_runs/2026-09-27-followthrough/A13_heldout_predictions.csv). (a) A12 with AT2 as recipient: 0.4271 to 0.3244, an MSE improvement of
 0.07723, with 7 of 12 patients individually better and prediction Q2 of 0.2569 against the
 training-mean baseline. (b) A12 with alveolar fibroblasts: 0.2098 to 0.2283, worse by 0.00810
 MSE, and the direction changes under the ridge and confidence sensitivities. (c) A13's fibroblast
 TGF-beta programme: 0.2283 to 0.2373, worse by 0.004181, and worse in every eligible
-predeclared sensitivity. No error bars are drawn because leave-one-patient-out fold losses share
+predeclared sensitivity. Despite the worse aggregate error, 8 of 12 A13 patients improve;
+5 of 12 improve in the A12 fibroblast arm. Counting improvements alone ignores their magnitudes.
+No error bars are drawn because leave-one-patient-out fold losses share
 training observations and are dependent; no interval or p value is computed from them. Twelve
 patients support a small exploratory prediction calculation, not a population claim.
 
-Two features of the ladder matter more than the headline arrow.
+Two features of the ladder matter more than the aggregate comparison.
 
 **The source model alone is worse than predicting the training mean** in the AT2 panel (0.5189
 against 0.3763). So the improvement attributed to the recipient index is measured against a
 comparator that itself needed TNF to become useful, and "adds information beyond source RNA" is a
 statement about a particular three-term model, not about source RNA in general.
 
-**In A13's panel nothing beats the training mean at all** (best fitted model 0.2113 at alpha=10;
-0.2283 at the primary alpha). A comparison between two models that are both worse than a constant
-is a weak instrument for deciding whether a programme contributes, which is why A13's closure is
-recorded as "no predictive reason to prefer it" rather than as evidence against fibroblast
-involvement.
+**In A13's panel no nonconstant model beats the training mean at the primary alpha**
+(best fitted RMSE 0.2283 versus 0.2167). At alpha=10 the alternative does beat that mean
+(0.2113), while the joint model does not (0.2174); the added programme still worsens error.
+The primary comparison is a weak instrument for deciding whether a programme contributes,
+which is why A13's closure is recorded as "no predictive reason to prefer it" rather than
+as evidence against fibroblast involvement.
 
 ### The twelve patients themselves
 
 ![Patient-level relationship and held-out predictions](figures/A12_F03_patient_level.png)
 
-**Figure A12-F03. The marginal relationship rests on two patients, and neither model tracks the
-extremes.** Twelve paired patients, AT2 recipient, primary settings, plotted from
-[A12_model_inputs.csv](../../docs/roadmap_runs/2026-09-27-followthrough/A12_model_inputs.csv) and
-[A12_heldout_predictions.csv](../../docs/roadmap_runs/2026-09-27-followthrough/A12_heldout_predictions.csv).
-(a) The recipient receptor index against the inflammatory response, both as LUAD-minus-normal
-paired differences. The Pearson correlation is 0.34, computed from the plotted points and
-descriptive at this size; no line is fitted and no interval or p value is reported. **Two patients
-carry it.** Their index values, 1.691 and 1.658, are more than 2.5 times the next highest (0.664),
-and removing them leaves r = -0.02 across the remaining ten. (b) Observed response against the
-saved held-out prediction for the two models in the primary comparison, with the identity line.
-Both compress the range: predictions span roughly -0.9 to 0.7 against observations of -0.53 to
-0.55, and the largest single error is a patient observed near zero and predicted at -0.67.
-
-This figure is the reason rival 6 below is stated as strongly as it is. The held-out improvement
-is real as arithmetic — the joint model predicts left-out patients better than the comparator —
-but the marginal association it draws on is concentrated in two of twelve units, which is exactly
-the configuration in which a leave-one-patient-out gain is least transportable.
+**Figure A12-F03. The receptor index has a modest marginal association, while saved predictions
+span a wider range than the observations.** Twelve paired patients, AT2 recipient, primary
+settings, plotted from [A12_model_inputs.csv](../../docs/roadmap_runs/2026-09-27-followthrough/A12_model_inputs.csv)
+and [A12_heldout_predictions.csv](../../docs/roadmap_runs/2026-09-27-followthrough/A12_heldout_predictions.csv).
+(a) The receptor index against inflammatory response, both LUAD-minus-normal differences;
+Pearson r = 0.34 is descriptive, without an interval or p value. (b) Saved held-out predictions
+against observations, with the identity line. Their range widths are 1.4275 (alternative) and
+1.3410 (joint), compared with 1.0800 observed: the previous caption's range-compression claim
+was false. Descriptive OLS slopes of **prediction on observation** are 0.33 and 0.51; these are
+not slopes from a refitted predictive model, and they do not by themselves locate failures at
+the extremes. Figure F01 now exposes each patient's errors directly. With twelve reused units,
+external transport and IL-1-specific interpretation remain unestablished.
 
 ## Why the epithelial and fibroblast recipients behave differently
 

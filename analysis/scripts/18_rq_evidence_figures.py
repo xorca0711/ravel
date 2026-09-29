@@ -59,14 +59,27 @@ def a2():
         ax.set(xticks=[0, 1], xticklabels=["Myeloid", "Epithelial"],
                ylabel="AREG detection (%)", ylim=(0, 100), xlim=(-.3, 1.3), title=title)
         ax.text(.04, .94, "10 paired donors", transform=ax.transAxes, va="top")
-    r = rank[rank.areg_median_rank.notna()].copy()
-    axes[2].scatter(r.areg_median_rank, np.arange(len(r)), s=48, color=ORANGE)
+    # The donor-pair winner tables contain the individual ranks. The resource summary
+    # is only a cross-check of their median, not the limit of the deposited evidence.
+    r = rank[rank.areg_median_rank.notna()].copy().sort_values("areg_median_rank")
+    y = np.arange(len(r))
     for i, row in enumerate(r.itertuples()):
-        axes[2].text(row.areg_median_rank+1, i, f"{row.areg_median_rank:g} / {row.pairs}", va="center", fontsize=9)
-    axes[2].set(yticks=np.arange(len(r)), yticklabels=r.resource,
-                xlabel="AREG–EGFR median donor rank", xlim=(0, 65),
-                title="c  Resource-dependent rank")
-    axes[2].invert_yaxis()
+        donor = read(LIGAND + f"lr/{row.resource}_donor_pair_winners.csv")
+        donor = donor[donor.pair.eq("AREG to EGFR")].sort_values("donor")
+        assert len(donor) == 22 and donor.donor.is_unique
+        assert np.isclose(donor["rank"].median(), row.areg_median_rank)
+        offset = np.linspace(-.16, .16, len(donor))
+        axes[2].scatter(donor["rank"], i + offset, s=16, color=TEAL, alpha=.7, zorder=2)
+        axes[2].scatter([row.areg_median_rank], [i], s=55, color=ORANGE,
+                        marker="D", edgecolors="white", linewidths=.5, zorder=3)
+    axes[2].set_xscale("log")
+    axes[2].set(yticks=y, yticklabels=[f"{row.resource}\nmedian {row.areg_median_rank:g}"
+                                    for row in r.itertuples()],
+                title="c  AREG\u2013EGFR donor ranks")
+    axes[2].set_ylim(len(r) - 0.4, -0.6)
+    axes[2].set_xlabel("Within-donor rank (log scale; lower is earlier)\n"
+                       "22 donor points/resource; diamond = median\n"
+                       "Pair universes differ; ranks are not probabilities", fontsize=8)
     fig.suptitle("AREG source detection and ligand rank", fontsize=15)
     save(fig, "rq_a2_source_rank")
 
@@ -92,12 +105,26 @@ def a6():
         ax.set_xlabel(f"{cohort}: {int(t.iloc[0].n_IPF)} IPF / {int(t.iloc[0].n_control)} control donors", fontsize=9)
     p = f[(f.cohort.eq("GSE135893")) & f.label.eq("Proliferating Macrophages")].iloc[0]
     t = shares[(shares.cohort.eq("GSE135893")) & shares.label.eq("Proliferating Macrophages")].set_index("set")
+    # Both percentages describe the proliferating state's contribution to the whole
+    # macrophage compartment. Their denominators differ: all macrophage cells versus
+    # all macrophage transcripts in the named gene set. Neither is within-state activity.
     for j, group in enumerate(["control", "IPF"]):
-        vals = [p[f"mean_cell_fraction_{group}"], t.loc["HALLMARK_E2F_TARGETS", f"mean_set_transcript_share_{group}"],
-                t.loc["HALLMARK_G2M_CHECKPOINT", f"mean_set_transcript_share_{group}"]]
-        axes[2].plot(np.arange(3), np.array(vals)*100, "o-", color=[TEAL, ORANGE][j], label=group)
-    axes[2].set(xticks=[0, 1, 2], xticklabels=["Cells", "E2F\ntranscripts", "G2M\ntranscripts"],
-                ylabel="Mean donor share (%)", ylim=(0, 19), title="c  Proliferating-state contribution")
+        cell = 100 * p[f"mean_cell_fraction_{group}"]
+        tx = [100 * t.loc["HALLMARK_E2F_TARGETS", f"mean_set_transcript_share_{group}"],
+              100 * t.loc["HALLMARK_G2M_CHECKPOINT", f"mean_set_transcript_share_{group}"]]
+        axes[2].bar([0 + (j - .5) * .32], [cell], width=.30, color=[TEAL, ORANGE][j], label=group)
+        axes[2].bar([1.4 + (j - .5) * .32, 2.4 + (j - .5) * .32], tx, width=.30,
+                    color=[TEAL, ORANGE][j])
+        for x, v in zip([0 + (j - .5) * .32, 1.4 + (j - .5) * .32, 2.4 + (j - .5) * .32],
+                        [cell] + tx):
+            axes[2].text(x, v + 0.4, f"{v:.1f}", ha="center", fontsize=8.5)
+    axes[2].axvline(0.7, color="#BBBBBB", lw=0.9, linestyle="--")
+    axes[2].set(xticks=[0, 1.4, 2.4], xticklabels=["Cells", "E2F", "G2M"],
+                ylabel="Mean donor share (%)", ylim=(0, 19), xlim=(-0.6, 3.0),
+                title="c  Proliferating-state contribution")
+    axes[2].set_xlabel("Cells / all macrophages; E2F or G2M transcripts /\n"
+                       "all macrophage transcripts in that gene set\n"
+                       "Cohort means only; donor spread is not shown", fontsize=8)
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="outside lower center", ncol=2, frameon=False)
     fig.suptitle("Macrophage composition and programme contributions", fontsize=15)
@@ -119,6 +146,8 @@ def a7():
         ax.set(xticks=[0, 1], xticklabels=["Reference AT2", "Cldn4/Krt8-labelled"],
                xlim=(-.25, 1.25), title=title)
     axes[0].set_ylabel("AT2 holdout mean gene detection (%)")
+    for ax in axes:
+        ax.set_xlabel("One pooled library per condition\nPoints = technical seeds, not biological replicates", fontsize=8)
     handles = [Line2D([], [], color=TEAL, label="Control"), Line2D([], [], color=ORANGE, label="Cebpa mutant"),
                Line2D([], [], color=".4", marker="o", ls="", label="Seed 17"), Line2D([], [], color=".4", marker="D", ls="", label="Seed 29")]
     fig.legend(handles=handles, loc="outside lower center", ncol=4, frameon=False)
@@ -162,6 +191,10 @@ def a8():
     axes[1].set(xticks=range(3), xticklabels=["ADI holdout", "AT1 holdout", "Late AT1\n4-gene panel"],
                 yticks=range(5), yticklabels=["P9 control", "P9 Cebpa mutant", "SeV control", "SeV Cebpa mutant", "External mouse 167"],
                 title="b  Labelled minus reference detection")
+    axes[0].set_xlabel("Diagonal = list size; off-diagonal = shared genes", fontsize=8)
+    axes[1].set_xlabel("Mean of technical seeds 17/29 at 2,000 UMIs\n"
+                       "* = sign reversal across seeds, not significance\n"
+                       "Pooled wells or one external mouse; no mature-fate endpoint", fontsize=8)
     fig.colorbar(im, ax=axes[1], label="Detection difference (percentage points)", shrink=.8)
     fig.suptitle("Programme overlap and epithelial-state contrasts", fontsize=15)
     save(fig, "rq_a8_signature_specificity")
@@ -188,6 +221,7 @@ def a9():
             ax.text(j, i, label, ha="center", va="center", color="white" if m.iloc[i,j]>14 else "black", fontsize=10)
     ax.set(xticks=range(7), xticklabels=ligands, yticks=range(len(pairs)), yticklabels=[f"{r}\n{receptor}" for r, receptor in pairs],
            title="Canonical EGFR ligand coverage across resources")
+    ax.set_xlabel("Dash = no matching row in the inspected table; not biological absence", fontsize=9)
     fig.colorbar(im, ax=ax, label="Donors with a score (retention requires ≥11)", shrink=.85)
     save(fig, "rq_a9_receptor_coverage")
 
@@ -200,6 +234,6 @@ if __name__ == "__main__":
               "inputs_sha256": INPUTS,
               "script_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
               "outputs_sha256": {p: hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in OUTPUTS},
-              "checks": ["10 donor pairs selected by primary-budget eligibility", "Two deposited macrophage states per cohort", "Two technical seeds per eligible ES1 comparison", "119 ADI/AT1 shared holdout genes", "Unique resource/receptor/ligand coverage rows"]}
+              "checks": ["10 donor pairs selected by primary-budget eligibility", "22 unique donor ranks per resource reproduce all four stored medians", "Two deposited macrophage states per cohort", "Two technical seeds per eligible ES1 comparison", "119 ADI/AT1 shared holdout genes", "Unique resource/receptor/ligand coverage rows"]}
     (OUT / "rq_evidence_figures.json").write_text(json.dumps(record, indent=2)+"\n", encoding="utf-8")
     print("Saved five empirical figures (PNG and SVG), with input/output hashes.")

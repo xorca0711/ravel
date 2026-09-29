@@ -1240,7 +1240,7 @@ def annotate_clusters(adata: ad.AnnData, markers_df: pd.DataFrame, dirs: dict,
 
     # Report the deposited label alongside each proposal where one exists.
     # This is REPORTED ONLY and never enters the scoring, so the agreement
-    # statistic stays an independent check - but a reader can immediately see
+    # statistic remains annotation concordance, not independent biological validation; a reader can see
     # when a marker-panel proposal contradicts the deposited annotation, which
     # is exactly the case a candidate label must not be trusted in.
     if "author_celltype" in adata.obs and "has_author_metadata" in adata.obs:
@@ -1349,7 +1349,7 @@ def validate_against_author_labels(adata: ad.AnnData, dirs: dict,
     record("author_label_agreement",
            f"median cluster purity against the deposited author cell-type "
            f"labels = {purity.median():.3f} over {int(m.sum())} annotated cells "
-           f"(independent check only; author labels were not used to build the "
+           f"(same-RNA annotation concordance; author labels were not used to build the "
            f"clustering)")
 
     fig, ax = _plt.subplots(figsize=(max(7, 0.42 * frac.shape[1] + 3),

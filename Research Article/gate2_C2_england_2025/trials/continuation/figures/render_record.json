@@ -1,20 +1,47 @@
 {
-  "rendered_utc": "2026-09-28T04:09:18.243264+00:00",
-  "palette_sha256": "004f44afff8ccc524c75ecc081eb25604ddf8aa8e3cd22dbac226e93f40ac36c",
+  "rendered_utc": "2026-09-29T05:12:08.306930+00:00",
+  "palette_sha256": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
   "figures": {
-    "EN_C01_state_occupancy.png": "d64d8796bdc7286b4dd292a53b8ef65590198cb167f63a82ad2f3c4a163eef86",
-    "EN_C02_cluster_gate_crosstab.png": "bac0f0f42e28894814b9f6c6e8f5322e6fb0cc1d3af9822ff5cd3450c1473812",
-    "EN_C03_cd177_transition.png": "7517b3003ad51b58b2f53a73c5bc55d4fddbea38e8baff8e00a89aad46d19b9c",
-    "EN_C04_genotype_contrasts.png": "5f7a4debbe1d36030c489e252c8e5a03c722aabfea6436f40e5e56ee6318285f",
+    "EN_C01_state_occupancy.png": "626d5dc60283cf1ca282321a4a117d84f56b0cf7d72ef6b1ca93b83170e8ff35",
+    "EN_C02_cluster_gate_crosstab.png": "e5deac66a6004fa214ccaca7af3e77ef38f3c8d17bbd89bcade710824a9722e7",
+    "EN_C03_cd177_transition.png": "89ce44b629ffbf2e996de13f2b35b105f03cff6c407e665ebe59d4d1598e5d63",
+    "EN_C04_genotype_contrasts.png": "52d23f05854028e8046485010c11179403d0da2d5297c4f78deae25f777e09cf",
     "EN_C05_simulator_implementations.png": "d69bcf2bf85f96b2c3c601db47353205639c8ffd3187b1276ff6d3cfbe18a9bf",
-    "EN_C06_repair_transfer.png": "c9674d6034944cd89699f37713522ca52addef034121e5095ed4d0128cad151a"
+    "EN_C06_repair_transfer.png": "66c5e1c82cdadbfd5c87264d99cca5a81313452e2dabf185f1a755d09e3bfb4a"
   },
   "inputs": {
+    "metadata/geo_library_manifest.csv": "d1e1f02e68c090e0d3b15f99c9b3b4a3c56bac23e314c2e57ce6b2fd1571bd5d",
     "trials/continuation/EN2_5/EN2_composition.csv": "906d9be360454cdd85b5ab6216ed1643f51a43a5e3c7ef3b8eb92b4eeb25ec23",
     "trials/continuation/EN1/cluster_gate_crosstab.csv": "b82be430af1c6a20bc77e734e0016a3e9306d06395746745d6dcc423a3d2bb78",
-    "trials/continuation/EN2_5/EN5_cd177_contrasts.csv": "0e6cabd58939d978f70d6c7f65acbe2517d67ddb7de64768fb2778a651d811e2",
+    "trials/continuation/EN1/cluster_marker_panels.csv": "1acf26ef0cdf69446a87c8113ce6228334ecfcecb55e6ebd175f3aac71a21ec7",
     "trials/continuation/EN2_5/EN2_composition_contrasts.csv": "92302a9eaff01aec07da31b16d0f7cabe9307baf3657abc1032b7632fb09fb33",
-    "trials/continuation/EN6/simulation_ccdf.csv": "df1c22644e21e0bcebf6c3c6d58be2000c2df60a6ca637944d8b89d97c1d5c9d",
+    "trials/continuation/EN2_5/EN2_within_state_contrasts.csv": "7a1e2a8a00fcba453d92f5ada237b1a7a0a29e0154f8b33f15242e100f735f0c",
     "trials/continuation/EN7/EN7_pseudobulk.csv": "331458643cb93e504fcaf7a8eb9dd5cc7814fd3277252177aa3cb9a04f0ef917"
-  }
+  },
+  "selected_figures": [
+    "EN_C01",
+    "EN_C02",
+    "EN_C04",
+    "EN_C06"
+  ],
+  "render_details": {
+    "EN_C02_cluster_gate_crosstab.png": {
+      "script_sha256": "67d431360225303a8727ec14c159a27643d94ccfcbff4aa007b3acb2def51faf",
+      "rendered_utc": "2026-09-29T05:12:08.306930+00:00"
+    },
+    "EN_C04_genotype_contrasts.png": {
+      "script_sha256": "67d431360225303a8727ec14c159a27643d94ccfcbff4aa007b3acb2def51faf",
+      "rendered_utc": "2026-09-29T05:12:08.306930+00:00"
+    },
+    "EN_C06_repair_transfer.png": {
+      "script_sha256": "67d431360225303a8727ec14c159a27643d94ccfcbff4aa007b3acb2def51faf",
+      "rendered_utc": "2026-09-29T05:12:08.306930+00:00"
+    },
+    "EN_C01_state_occupancy.png": {
+      "script_sha256": "67d431360225303a8727ec14c159a27643d94ccfcbff4aa007b3acb2def51faf",
+      "rendered_utc": "2026-09-29T05:12:08.306930+00:00"
+    }
+  },
+  "carry_forward_note": "Hashes of unselected figures refer to their previous render.",
+  "script_sha256": "67d431360225303a8727ec14c159a27643d94ccfcbff4aa007b3acb2def51faf"
 }

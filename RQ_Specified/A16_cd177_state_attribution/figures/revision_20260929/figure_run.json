@@ -1,8 +1,9 @@
 {
   "presentation_revision": "2026-09-29: attribution and control-count labels corrected; table values unchanged",
   "supersedes_for_display": "figures/figure_run.json",
+  "svg_trailing_whitespace_stripped": true,
   "scope": "Plots tracked table columns only. No fit, no rescoring, no new estimate. Arm B entries pool libraries within an experiment and are not within-state contrasts; open markers flag entries below the 40-control readability floor.",
-  "script_sha256": "0732893d6d5cb1c7429daee886f78cc926607f614794cb5446aa418e6376f9f7",
+  "script_sha256": "66286f59050bed67ffe9e18af04326b530ddd8af6763d64f6f148a92c72ccc36",
   "matplotlib_version": "3.11.1",
   "inputs": {
     "correction_20260928/tables/corrected_c1/effects.csv": "1dd66ac52e8dde4157d89d26973a9584049c2d8d644b716a1540d6fcceedcfc4",
@@ -10,10 +11,9 @@
     "tables/stage1/A16_C3_matched_gene_null.csv": "6ce26899b0f051125e60791a4146237e2ebe8f7f384e45b99cc91eb3c381c612"
   },
   "outputs": {
-    "A16_F01_corrected_c1_attenuation.png": "a57c83321de2f73a35e05e679d545a6505dfeeed30f2e9cc6570d5765601e2e6",
-    "A16_F01_corrected_c1_attenuation.svg": "666e4a6fe9c5fd87b005c3de98d9989dfb1f78f7fd62afa6d4f54e7ff610680e",
+    "A16_F01_corrected_c1_attenuation.png": "659688a8bbd95ef01090bdda19e5e6e4e46f4964b6099ecfa0d63452a59f35d9",
+    "A16_F01_corrected_c1_attenuation.svg": "20330614668906aa51cdb5932bb4ae7d682caf17d582cc5be415126f1fcf8ae6",
     "A16_F02_c3_specificity_power.png": "50df9d7f904518553672107d7bb65f4170087deb536a188bedd3655f7813e141",
-    "A16_F02_c3_specificity_power.svg": "5b4f55452866a8dd8853d5a1a7aafefd47ca537fe80cff1a7fd9c36fe37b8e45"
-  },
-  "svg_trailing_whitespace_stripped": true
+    "A16_F02_c3_specificity_power.svg": "bf506713b79012bd726b96fe34a8e80bd849fb94d1e4e71f87589451e46b8c15"
+  }
 }

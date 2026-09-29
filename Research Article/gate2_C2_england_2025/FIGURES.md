@@ -8,9 +8,12 @@ continuation figures and five follow-up figures. The first-batch IDs deliberatel
 skip EN_F01/EN_F04. A16 Stage 1 has tables but adds no figure to this gallery.
 
 Read by biological question below. Each caption identifies the analysis stage,
-unit, measurement and inference limit. **Original image labels are preserved;
-the current captions supersede stronger historical titles**, especially in
-FU_F03, FU_F04 and FU_F05. No image, table or plotting script was changed.
+unit, measurement and inference limit. The 29 September figure audit updates
+EN_F02, EN_C02/04/06 and FU_F02-F05 from the tracked tables, with separate SMD and
+rank-biserial scales in FU_F02 and corrected attribution language throughout.
+Scientific tables and frozen analysis records are unchanged; render records identify
+which assets were regenerated. EN_F03 and FU_F01 still require unavailable processed
+cell-level inputs to reproduce their existing displays.
 
 | Question | Figures | Current claim reading |
 |---|---|---|
@@ -42,7 +45,7 @@ FU_F03, FU_F04 and FU_F05. No image, table or plotting script was changed.
 
 **Stage:** Continuation. **Unit:** Library/experiment-defined clusters; pooled biological identities unresolved.
 
-**What it shows:** The transition gate is concentrated in a few clusters; the permissive AT1 gate is spread across AT2-assigned clusters.
+**What it shows:** The transition gate is concentrated in a few clusters. AT1-gated cells occur in 8/8 top-AT2 clusters in Experiment 1 and 5/7 in Experiment 2. The earlier PR118 assertion of AT1 detection wherever AT2 is detected was false: four Experiment-2 clusters have positive AT2 and zero AT1 gate fractions.
 
 **Current limit:** This motivates classifier sensitivity analysis. It does not establish mature AT1 cells inside every gate-positive cluster.
 
@@ -70,7 +73,7 @@ FU_F03, FU_F04 and FU_F05. No image, table or plotting script was changed.
 
 **What it shows:** Panel a compares RNA gate definitions; b shows cycling-score contrasts; c fits response spread using library quality.
 
-**Current limit:** The image's historical “cycling equivalence” title is not an equivalence result. The reported 0.99/0.99 calibration uses the same reference cells for threshold selection and evaluation. Quality associations do not quantify a causal technical share.
+**Current limit:** Cycling-score contrasts are not an equivalence test. The reported 0.99/0.99 calibration uses the same reference cells for threshold selection and evaluation. Quality associations do not quantify a causal technical share.
 
 ![Gate calibration, cycling contrasts and library quality](trials/followup/figures/FU_F04_controls.png)
 
@@ -98,7 +101,7 @@ FU_F03, FU_F04 and FU_F05. No image, table or plotting script was changed.
 
 **Stage:** Follow-up. **Unit:** Within-library cell comparisons; biological pool identities unresolved.
 
-**What it shows:** Original and adjusted effects for the CD177 comparisons.
+**What it shows:** Original and adjusted SMDs in the upper row and rank-biserial correlations on their own bounded scale in the lower row. The rank statistic is neither an SMD nor an adjustment for sequencing depth.
 
 **Current limit:** The frozen FU_A verdict is inconclusive: one 3,000-UMI arm retains only 26 positives, below 30. Preserved directions and ratios of standardized effects do not exclude depth artefacts or measure a percentage of biological signal retained.
 
@@ -113,7 +116,7 @@ FU_F03, FU_F04 and FU_F05. No image, table or plotting script was changed.
 
 **What it shows:** Undirected connectivity, projected cell positions and the original FU_C contrasts.
 
-**Current limit:** The historical title overstates intermediates and attribution. FU_C changes both the population and library pooling. Off-axis cells can fill middle projection bins; graph connectivity and the heatmap do not establish transitions or a predominantly positional phenotype. Use the same-population audit and A16 review.
+**Current limit:** FU_C changes both the population and library pooling. Off-axis cells can fill middle projection bins; graph connectivity and the heatmap do not establish transitions or a predominantly positional phenotype. Use the same-population audit and A16 review.
 
 ![Graph connectivity, projected density and subcluster contrasts](trials/followup/figures/FU_F03_topology_and_within_cluster.png)
 
@@ -128,7 +131,7 @@ FU_F03, FU_F04 and FU_F05. No image, table or plotting script was changed.
 
 **Stage:** Batch 1 RNA. **Unit:** Sequencing library; unresolved biological pools.
 
-**What it shows:** State occupancy and expression contrasts in the deposited genotype/time comparisons.
+**What it shows:** Mean expression contrasts with the range of all cross-library differences, not confidence intervals. Cd177-associated RNA is lower in deletion libraries in all four time/depth contrasts; 17 of the 32 displayed endpoint contrasts have ranges spanning zero.
 
 **Current limit:** Il1r1-associated state entry is a different comparison from post-entry NF-kB inhibition. RNA scores are not a measured pathway-activity or functional repair endpoint.
 
@@ -214,13 +217,13 @@ FU_F03, FU_F04 and FU_F05. No image, table or plotting script was changed.
 
 **Stage:** Spatial follow-up. **Unit:** The same pooled pair arrays; not an independent cohort.
 
-**What it shows:** Size gradients and the noisier identity-loss profiles on relative scales, with occupancy sensitivity.
+**What it shows:** Pooled clone-size and pro-Sftpc-loss profiles; the frozen relative slope is negative for size in 12/13 datasets, while the identity-loss proxy has 8 positive and 5 negative slopes.
 
-**Current limit:** The original image title's distance-independent differentiation reading is too strong. A noisy slope does not establish independence, separate mediators or a tumour-promoting/protective WT effect.
+**Current limit:** Different slope signs do not establish distance-independent differentiation. A noisy slope does not establish independence, separate mediators or a tumour-promoting/protective WT effect.
 
 ![WT growth and identity-loss distance patterns](trials/followup/figures/FU_F05_growth_differentiation.png)
 
-[Distance slopes](trials/followup/FU_W_distance_slopes.csv) · [Spatial profiles](trials/batch1/clones/spatial_pooled_bin_profiles.csv) · [Plotting script](scripts/run_spatial_decoupling.py) · [Render record](trials/followup/FU_W_run_record.json)
+[Distance slopes](trials/followup/FU_W_distance_slopes.csv) · [Spatial profiles](trials/batch1/clones/spatial_pooled_bin_profiles.csv) · [Plotting script](scripts/run_spatial_decoupling.py) · [Render-only record](trials/followup/figures/FU_F05_render_record.json) · [Frozen analysis record](trials/followup/FU_W_run_record.json)
 
 
 <a id="repair-transfer"></a>

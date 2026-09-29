@@ -394,7 +394,7 @@ def _trajectory_figure(a, figdir: Path) -> None:
     ax.set_xticklabels(names, rotation=20, ha="right", fontsize=8)
     ax.set_ylabel("diffusion pseudotime")
     ax.set_title("Deposited labels ordered by pseudotime\n"
-                 "(independent check - labels were not used to fit it)",
+                 "(same-RNA annotation comparison; labels withheld from fitting)",
                  fontsize=9)
     fig.tight_layout()
     save_fig(fig, figdir, "trajectory_alveolar_programmes")

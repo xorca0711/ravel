@@ -179,6 +179,54 @@ def score(a, genes, name):
     return g
 
 
+def plot_icap_origin(per_sample: pd.DataFrame, figure_dir: Path, formats=("png", "pdf")):
+    """Render the deposited animal-paired frequencies without rerunning cell analysis."""
+    required = ["cre_line", "sample", "pct_traced_in_iCAP", "pct_traced_in_other_EC"]
+    if not set(required).issubset(per_sample) or per_sample["sample"].duplicated().any():
+        raise ValueError("Expected one row per animal with two label frequencies")
+    if not np.isfinite(per_sample[required[2:]].to_numpy(dtype=float)).all():
+        raise ValueError("Both within-animal frequencies must be finite")
+    fig, ax = _plt.subplots(figsize=(7, 4.4))
+    lines = [l for l in ["Kit-MerCreMer", "Car4-CreERT2", "Ednrb-CreERT2"]
+             if l in set(per_sample["cre_line"].astype(str))]
+    colours = {"Kit-MerCreMer": "#4C72B0", "Car4-CreERT2": "#C44E52",
+               "Ednrb-CreERT2": "#55A868"}
+    # The two values on each row come from the SAME animal, so they are drawn as
+    # paired slopes rather than as two offset clouds. n = 2-3 animals per line at a
+    # single timepoint with no recombination-efficiency control, so this is a
+    # label-frequency comparison consistent with a CAP1 origin, not a test of origin.
+    n_animals, up = 0, 0
+    for i, l in enumerate(lines):
+        g = per_sample[per_sample["cre_line"].astype(str) == l]
+        for _, row in g.iterrows():
+            lo, hi = row["pct_traced_in_other_EC"], row["pct_traced_in_iCAP"]
+            ax.plot([i - 0.12, i + 0.12], [lo, hi], color=colours[l],
+                    linewidth=0.9, alpha=0.8, zorder=2)
+            n_animals += 1
+            up += int(hi > lo)
+        ax.scatter(np.full(len(g), i - 0.12), g["pct_traced_in_other_EC"],
+                   s=44, facecolors="none", edgecolors=colours[l], linewidths=1.4, zorder=3)
+        ax.scatter(np.full(len(g), i + 0.12), g["pct_traced_in_iCAP"],
+                   s=52, color=colours[l], zorder=3)
+    ax.set_xticks(range(len(lines)))
+    ax.set_xticklabels([f"{l}\n(labels {LINE_LABELS[l]}, n = {int((per_sample['cre_line'].astype(str) == l).sum())})"
+                        for l in lines], fontsize=8)
+    ax.set_ylabel("% of cells traced (tdTomato-recombined)")
+    ax.set_title("Lineage-label frequency in the injury-induced capillary state at 19 dpi\n"
+                 f"paired within animal: label enriched in the injury state in {up} of {n_animals} animals;\n"
+                 "consistent with a CAP1 origin, not a test of it "
+                 "(one timepoint, no recombination-efficiency control)", fontsize=8.5)
+    from matplotlib.lines import Line2D
+    ax.legend(handles=[Line2D([], [], marker="o", linestyle="", markerfacecolor="none",
+                             markeredgecolor=".35", label="Other endothelial cells"),
+                       Line2D([], [], marker="o", linestyle="", color=".35",
+                             label="Injury-state cells")], frameon=False, fontsize=8)
+    ax.set_xlabel("Reporter-detected cells only; paired values from each animal", fontsize=8)
+    fig.tight_layout()
+    return save_fig(fig, figure_dir, "icap_origin_by_cre_line", formats=formats)
+
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Analyse the eight-sample lineage-tracing cohort separately.",
@@ -186,7 +234,28 @@ def main() -> int:
     )
     ap.add_argument("--src", default=str(SERIES_DIRS["GSE262927"] / "processed" / "final_clustered.h5ad"),
                     help="clustered mouse AnnData object")
+    ap.add_argument("--replot-table", type=Path,
+                    help="render only iCAP paired frequencies from a saved per-animal CSV")
+    ap.add_argument("--figure-dir", type=Path, default=FIG,
+                    help="figure destination for --replot-table")
     args = ap.parse_args()
+    if args.replot_table is not None:
+        import hashlib
+        from datetime import datetime, timezone
+        table = args.replot_table.resolve()
+        outputs = plot_icap_origin(pd.read_csv(table), args.figure_dir, formats=("png",))
+        digest = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
+        source = table.relative_to(Path(__file__).resolve().parents[2]).as_posix()
+        record = {"mode": "saved-table presentation only; no cell loading, clustering or model fitting",
+                  "generated_utc": datetime.now(timezone.utc).isoformat(),
+                  "script": "analysis/scripts/07_lineage_tracing_cohort.py",
+                  "script_sha256": digest(__file__), "inputs_sha256": {source: digest(table)},
+                  "outputs_sha256": {p.name: digest(p) for p in outputs},
+                  "unit": "animal", "animal_count": int(len(pd.read_csv(table))),
+                  "denominator": "reporter-detected endothelial cells within the named state"}
+        (args.figure_dir / "icap_origin_by_cre_line.run.json").write_text(
+            json.dumps(record, indent=2)+"\n", encoding="utf-8")
+        return 0
     for d in (OUT, FIG, TAB):
         d.mkdir(parents=True, exist_ok=True)
     src = Path(args.src)
@@ -272,26 +341,7 @@ def main() -> int:
             log(f"  WARNING {name}: {exc}")
             _plt.close("all")
 
-    fig, ax = _plt.subplots(figsize=(7, 4.4))
-    lines = [l for l in ["Kit-MerCreMer", "Car4-CreERT2", "Ednrb-CreERT2"]
-             if l in set(per_sample["cre_line"].astype(str))]
-    colours = {"Kit-MerCreMer": "#4C72B0", "Car4-CreERT2": "#C44E52",
-               "Ednrb-CreERT2": "#55A868"}
-    for i, l in enumerate(lines):
-        g = per_sample[per_sample["cre_line"].astype(str) == l]
-        ax.scatter(np.full(len(g), i - 0.12), g["pct_traced_in_other_EC"],
-                   s=44, facecolors="none", edgecolors=colours[l], linewidths=1.4)
-        ax.scatter(np.full(len(g), i + 0.12), g["pct_traced_in_iCAP"],
-                   s=52, color=colours[l])
-    ax.set_xticks(range(len(lines)))
-    ax.set_xticklabels([f"{l}\n(labels {LINE_LABELS[l]})" for l in lines],
-                       fontsize=8)
-    ax.set_ylabel("% of cells traced (tdTomato-recombined)")
-    ax.set_title("Origin of the injury-induced capillary state at 19 dpi\n"
-                 "open = other endothelium, filled = injury state; "
-                 "one point per animal", fontsize=9)
-    fig.tight_layout()
-    save_fig(fig, FIG, "icap_origin_by_cre_line")
+    plot_icap_origin(per_sample, FIG)
 
     sc.tl.rank_genes_groups(ec, "subcluster", method="wilcoxon", pts=True,
                             key_added="rk")

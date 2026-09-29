@@ -1,0 +1,16 @@
+{
+  "scope": "Presentation only from tracked tables; no trajectories, scores or model fits recomputed.",
+  "inputs_sha256": {
+    "phase_timecourse/tables/lineage_composition_per_animal.csv": "a8ae7684ef1764329c55c314488926d3acc3dd70afa25fd59e6cf77040b84d07",
+    "phase_timecourse/tables/traced_fraction_per_animal.csv": "e274d0d485e68ad4a306d4b2c7e9cea76f7d792f96de062de5c2fe0c88699f57",
+    "phase_timecourse/tables/cycling_fraction_per_animal.csv": "d464ba696ede4906dba7a098c88d9f475492b0247b67827a241d3bbbfc08ecdf",
+    "regeneration_focus/tables/alveolar_cell_metadata.csv": "8a468b71edfc43e53c7b4c05d01f2a006f06b2536edcd7c7e90399a036fefa5b"
+  },
+  "script_sha256": "cc6c187edae52effd4496ce8b4560c3f90d5acbd2700af8e3283ffc578060997",
+  "outputs_sha256": {
+    "lineage_composition_by_dpi.png": "08e49c66da20bc02fcfe4d4ebf502aa86911ed173f99e345b9f4270f7468ff11",
+    "proliferation_by_lineage.png": "0a42f6e1dc3c21e447002943b2a78429beddd315ef28c1a533ebb456013648da",
+    "traced_fraction_at_common_harvest_by_window.png": "7046a1c704691c492530140ee76674577915da94dbaefa251d32e9920e46174d",
+    "trajectory_alveolar_programmes.png": "ad6ec1396b3755ef5446c07f0c5cc3eff637c38afebb4999e48bcda8f2c8f4b3"
+  }
+}

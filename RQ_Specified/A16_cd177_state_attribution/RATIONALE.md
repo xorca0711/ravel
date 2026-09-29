@@ -203,66 +203,54 @@ would be a disclosed post-hoc relaxation, not the frozen C3.
 The question these three panels serve is whether Cd177 marks a distinct primed sub-state of the
 alveolar epithelial compartment, or whether Cd177-positive cells simply sit where priming is
 already high. Each panel is drawn in the display its analysis type is normally reported in.
+Current presentation revisions retain the original PR #117 images as historical evidence.
 Rendered by [scripts/plot_evidence_distributions.py](scripts/plot_evidence_distributions.py),
 which asserts recomputation against the archived tables before drawing; hashes in
-[figures/figure_run_distributions.json](figures/figure_run_distributions.json).
+[figures/revision_20260929/figure_run_distributions.json](figures/revision_20260929/figure_run_distributions.json).
 
-![The C3 null as histograms with Cd177 marked](figures/A16_F03_c3_null_histograms.png)
+![The C3 null as histograms with Cd177 marked](figures/revision_20260929/A16_F03_c3_null_histograms.png)
 
-**Figure A16-F03. The two units that can be interpreted disagree on whether Cd177 is exceptional,
-which is why the specificity test is inconclusive rather than negative.** *What to look for:*
-where the red line (Cd177's own priming effect) falls relative to the grey distribution of effects
-from genes matched to Cd177 on detection and expression. *What it shows:* the two entries that
-clear the 40-gene floor point in opposite directions. In exp1 sub 10 (500 control genes) Cd177
-sits inside the null at the 86th percentile — SMD 0.358380 against a null median of 0.096928 and
-p95 of 0.518926, with 13.87% of control genes reaching or exceeding it — so a gene matched to
-Cd177 on abundance frequently does as well. In exp2 sub 12 (284 control genes) Cd177 is at SMD
-1.307680 and exceeds **every** control gene, and the null maximum (1.237905), for a quantile of
-1.000. One unit is consistent with Cd177 being ordinary among equally abundant genes; the other
-is consistent with it being specific. *Why the rest cannot arbitrate:* seven of nine units hold
-fewer than 40 control genes, and exp1 sub 12 holds a single gene, Pclaf, whose effect (+0.203) is
-above Cd177's (-0.077) — that is what its "100% reach Cd177" means. Their percentages are
-fractions with denominators in single or low double digits. *Biological reading:* the specificity
-of Cd177 to a primed state is **unresolved, not refuted**. The contradiction between the two
-interpretable units is itself informative: it locates the disagreement at the level of the unit
-(subcluster and experiment) rather than the gene, which is what a unit-resolved closure design
-has to address. Plotted from
+**Figure A16-F03. The two entries with at least 40 selected controls place Cd177 differently.**
+The red line marks Cd177's priming SMD against the grey distribution for genes matched on
+expression and detection. In exp1 sub 10 (500 selected controls), Cd177 is at the 86th percentile
+(SMD 0.358380; null median 0.096928, p95 0.518926). In exp2 sub 12 (284 controls), its SMD
+1.307680 exceeds the null maximum 1.237905. Seven of nine entries have fewer than 40 controls;
+exp1 sub 12 has only Pclaf, so its 100% exceedance fraction has denominator one.
+The 40-control floor describes null granularity, **not statistical power or biological
+replication**. These differing ranks do not establish specificity in one population or refute it
+in another. They leave specificity unresolved across differing subclusters and experiments.
+Plotted from
 [A16_C3_control_gene_detail.csv](tables/stage1/A16_C3_control_gene_detail.csv) and
 [A16_C3_matched_gene_null.csv](tables/stage1/A16_C3_matched_gene_null.csv). Arm B entries pool
 libraries within an experiment and are not within-state contrasts.
 
-![Per-cell scores as violins](figures/A16_F04_percell_score_violins.png)
+![Per-cell scores as violins](figures/revision_20260929/A16_F04_percell_score_violins.png)
 
-**Figure A16-F04. Cd177-positive cells are not uniformly primed, and the cells they are compared
-against are themselves primed.** *What to look for in (a):* how much of each violin lies below
-the zero line. *What it shows:* the reported effect is a mean over cells that disagree — 82% of
-Cd177-positive cells score above their own matched controls in both libraries, so roughly one in
-five scores below. The compartment is not a uniformly primed population with a sharp boundary;
-it is a graded one in which Cd177 positivity and high priming coincide in most cells but not all.
-*What to look for in (b):* the gap between the left violin and the middle one. *What it shows:*
-the matched controls actually used (median 1.34) sit far above the Cd177-negative pool they were
-drawn from (median 0.22) and close to the positives (median 1.90). *Biological reading:* this is
-the mechanism of the attenuation from 1.256 to 0.410. Matching selects negative cells that
-already occupy the primed region of the local space, so the corrected estimate asks a narrower
-and more informative question — whether Cd177 adds anything **beyond** being in that region — and
-the residual 0.410 is the answer to that narrower question, not a diminished version of the
-original one. Plotted from
+**Figure A16-F04. Cell-level matched differences vary, and matching selects higher-scoring
+controls.** In (a), 82% of positive cells score above their own matched-control mean in each
+library. These relative differences do not define a binary primed state. In (b), the negative
+pool contains individual cell scores (median 0.22), whereas the middle violin contains **one
+matched-control mean per positive cell** (median 1.34), and the positive scores have median 1.90.
+The middle distribution therefore averages controls and can reuse them; its shape is not the
+distribution of independent matched cells. These summaries describe the reduction of the mean
+contrast from 1.256 to 0.410. Residual imbalance prevents interpreting the remainder as a
+Cd177 contribution independent of position. Cells and reused controls are not animal replicates.
+Plotted from
 [cell_outcomes.csv](correction_20260928/tables/corrected_c1/cell_outcomes.csv),
 [matched_edges.csv](correction_20260928/tables/corrected_c1/matched_edges.csv) and
 [effects.csv](correction_20260928/tables/corrected_c1/effects.csv); the means are the reported
 0.409807 and 0.315110, reproduced to 1e-12.
 
-![Matching balance as a Love plot](figures/A16_F05_matching_balance_loveplot.png)
+![Matching balance as a Love plot](figures/revision_20260929/A16_F05_matching_balance_loveplot.png)
 
 **Figure A16-F05. The comparison is better balanced than the raw contrast but is not
 position-free, so the residual effect cannot be read as intrinsic to Cd177.** *What to look for:*
 how far the filled markers (after matching) sit from zero, and where a cross replaces a circle.
-*What it shows:* the dominant axis of transcriptional position, PC1, is brought under control in
-both libraries (1.30 to 0.15; 1.60 to 0.11) — the crude contrast's main confounder is removed.
-But 13 of 20 components in GSM7890835 and 12 of 20 in GSM7890836 remain above the conventional
-0.1 reference, the largest residuals being PC7 at 0.62 and PC10 at 0.52, and matching made 6 and
-7 components **worse** (crosses) — PC10 in GSM7890836 rose from 0.39 to 0.52. Worsening on
-unmatched axes is expected when matching on a 20-dimensional space with 79 and 60 positives.
+*What it shows:* PC1 imbalance decreases from 1.30 to 0.15 and 1.60 to 0.11; both residuals
+remain above the plotted 0.1 reference. This is improvement, not removal of a confounder.
+Across all components, 13 of 20 in GSM7890835 and 12 of 20 in GSM7890836 remain above 0.1.
+The largest residuals are PC7 at 0.62 and PC10 at 0.52; 6 and 7 components respectively worsen.
+The plot documents those changes without explaining why they occurred.
 *Biological reading:* whatever primed programme the residual 0.410 reflects, the positive and
 comparison cells still differ in transcriptional position along several axes, so the estimate
 remains a contrast between cells in *partly different states* rather than a clean

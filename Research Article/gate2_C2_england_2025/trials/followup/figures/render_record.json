@@ -2,8 +2,75 @@
   "rendered_utc": "2026-09-28T05:13:43.681246+00:00",
   "figures": {
     "FU_F01_round2_umap.png": "feb435a78eaea7aecdb56480997801db97a3744bd85e308a7debec74b4abb9f5",
-    "FU_F02_depth_control.png": "bbb34e314ef387ef341a7dcdfd8d70d198b09ce947a55e67e564e22b86b6a002",
-    "FU_F03_topology_and_within_cluster.png": "0876fb58749267892c5006635c8e09908995b401cc2a41d35e2fa131fe6135b2",
-    "FU_F04_controls.png": "7f1f9879be92463aca984b56082d7228d29357672fe593b4f60041f616fd2afd"
+    "FU_F02_depth_control.png": "d1aadfa9650ae4c1093775e44e5d706cc1e57e83eddc2c9dd97a1ea9bc47f7e3",
+    "FU_F03_topology_and_within_cluster.png": "8dab3f48584366b1c07858053aa43fb27664eec2f251ade3cf4d62e8b09c8b09",
+    "FU_F04_controls.png": "41e8fbce460fb95fa0f973e0fc875fb943ca483f0d04de555e82d6a71ec32fe5",
+    "FU_F02_depth_control.svg": "4ad5d1534981a20f3146755b4978158ef494a23736e1c6bf89ccc88fcefc22cc",
+    "FU_F03_topology_and_within_cluster.svg": "a15a2e51ad2c475b6eb1bed667b8f86a961c971f1571ce2a0e371c93be19ca4e",
+    "FU_F04_controls.svg": "f8e9c53b5d71258c4b372fd78bf6f9a27b3756872aebd398cefe32c2e09e60e8"
+  },
+  "render_details": {
+    "FU_F02_depth_control.png": {
+      "script_sha256": "ab91f3414fc13b3bc08c21dfabebb99f37784606339c36033163d759314c8233",
+      "palette_sha256": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
+      "inputs": {
+        "trials/followup/FU_A_depth_control.csv": "3257e93f9d3b8757dc3fe323d21097b199b30ef280f74a27cf9a535bcd40ab77"
+      },
+      "rendered_utc": "2026-09-29T04:42:48.868690+00:00"
+    },
+    "FU_F02_depth_control.svg": {
+      "script_sha256": "ab91f3414fc13b3bc08c21dfabebb99f37784606339c36033163d759314c8233",
+      "palette_sha256": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
+      "inputs": {
+        "trials/followup/FU_A_depth_control.csv": "3257e93f9d3b8757dc3fe323d21097b199b30ef280f74a27cf9a535bcd40ab77"
+      },
+      "rendered_utc": "2026-09-29T04:42:48.868690+00:00"
+    },
+    "FU_F03_topology_and_within_cluster.png": {
+      "script_sha256": "ab91f3414fc13b3bc08c21dfabebb99f37784606339c36033163d759314c8233",
+      "palette_sha256": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
+      "inputs": {
+        "trials/followup/FU_E_round2_clusters.csv": "f4ce9ffddbf5d9380063e206b2a1e31ff76a80b8a5ba646e8cad08dd08cb78fa",
+        "trials/followup/FU_T1_paga_connectivity.csv": "8715d787670014433d68377c430e8195c815984ec237132e69b9fbaec2fbd0b6",
+        "trials/followup/FU_T2_intermediate_density.csv": "16929dcffcf0122cb18481001446ee85bcc0cdc0b0e6ad85b45e697fe013b61f",
+        "trials/followup/FU_C_within_subcluster_cd177.csv": "5b3432afba2e895a68a69d717df01ecc12039ddea3704183993cf6e7af28ebc4"
+      },
+      "rendered_utc": "2026-09-29T04:42:50.679371+00:00"
+    },
+    "FU_F03_topology_and_within_cluster.svg": {
+      "script_sha256": "ab91f3414fc13b3bc08c21dfabebb99f37784606339c36033163d759314c8233",
+      "palette_sha256": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
+      "inputs": {
+        "trials/followup/FU_E_round2_clusters.csv": "f4ce9ffddbf5d9380063e206b2a1e31ff76a80b8a5ba646e8cad08dd08cb78fa",
+        "trials/followup/FU_T1_paga_connectivity.csv": "8715d787670014433d68377c430e8195c815984ec237132e69b9fbaec2fbd0b6",
+        "trials/followup/FU_T2_intermediate_density.csv": "16929dcffcf0122cb18481001446ee85bcc0cdc0b0e6ad85b45e697fe013b61f",
+        "trials/followup/FU_C_within_subcluster_cd177.csv": "5b3432afba2e895a68a69d717df01ecc12039ddea3704183993cf6e7af28ebc4"
+      },
+      "rendered_utc": "2026-09-29T04:42:50.679371+00:00"
+    },
+    "FU_F04_controls.png": {
+      "script_sha256": "ab91f3414fc13b3bc08c21dfabebb99f37784606339c36033163d759314c8233",
+      "palette_sha256": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
+      "inputs": {
+        "trials/followup/FU_B_at1_gate_calibration.csv": "27bd1f580b35d8667cf3d615174b0b17f22147124cda428202552a1e48b4a5cb",
+        "trials/followup/FU_B_state_composition_both_definitions.csv": "d572bb2202f2dfc30f49a2edf0b71ccf4214b9e733be350768423b06a3990224",
+        "trials/followup/FU_T4_cycling_equipotency.csv": "765cfc160d34e4c0981bdf2b036ab3ba62fd3b98f2efee8685dc24bfad0920e2",
+        "trials/followup/FU_D_library_quality_model.csv": "07a444c9a817d51ede94598da3af8271582f66cf12f408097869acd7f9d4aa6e",
+        "trials/followup/FU_D_model_summary.csv": "5cb2c022a372402baf36ad06a9e397f0f362de84f9874aa9483e64266db035ac"
+      },
+      "rendered_utc": "2026-09-29T04:42:52.022941+00:00"
+    },
+    "FU_F04_controls.svg": {
+      "script_sha256": "ab91f3414fc13b3bc08c21dfabebb99f37784606339c36033163d759314c8233",
+      "palette_sha256": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
+      "inputs": {
+        "trials/followup/FU_B_at1_gate_calibration.csv": "27bd1f580b35d8667cf3d615174b0b17f22147124cda428202552a1e48b4a5cb",
+        "trials/followup/FU_B_state_composition_both_definitions.csv": "d572bb2202f2dfc30f49a2edf0b71ccf4214b9e733be350768423b06a3990224",
+        "trials/followup/FU_T4_cycling_equipotency.csv": "765cfc160d34e4c0981bdf2b036ab3ba62fd3b98f2efee8685dc24bfad0920e2",
+        "trials/followup/FU_D_library_quality_model.csv": "07a444c9a817d51ede94598da3af8271582f66cf12f408097869acd7f9d4aa6e",
+        "trials/followup/FU_D_model_summary.csv": "5cb2c022a372402baf36ad06a9e397f0f362de84f9874aa9483e64266db035ac"
+      },
+      "rendered_utc": "2026-09-29T04:42:52.022941+00:00"
+    }
   }
 }

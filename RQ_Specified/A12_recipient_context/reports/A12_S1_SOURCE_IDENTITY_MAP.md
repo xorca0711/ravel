@@ -22,9 +22,11 @@ to name them.
 ![Per-patient IL1B counts in unlabelled cells](../figures/A12_F02_il1b_source_allocation.png)
 
 **Figure A12-F02. In every histology, the median patient has more than half of recovered IL1B
-counts in cells without a confident finest-level label.** One point per patient, from
+counts in cells without a confident finest-level label.** One point per patient-histology observation, from
 [IL1B_source_fractions.csv](../../../Research%20Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_sources/IL1B_source_fractions.csv)
-at the primary 0.2 uncertainty cutoff; bars are medians, annotated. Patient counts are normal 23,
+at the primary 0.2 uncertainty cutoff; horizontal bars are medians and vertical bars are
+interquartile ranges. The 70 observations comprise 23 recurring patients; 14 observations
+fall below 50%, so 70 must not be read as an independent patient count. Patient counts are normal 23,
 AAH 8, AIS 12, MIA 4, LUAD 23. Medians: normal 63.5%, AAH 51.7%, AIS 68.3%, MIA 66.1%, LUAD
 72.1%. These are **patient-level fractions of recovered counts among recovered cells** — not
 pooled cohort fractions, not a tissue-composition correction, and not a secretion measurement.

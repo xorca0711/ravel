@@ -1,0 +1,45 @@
+{
+  "scope": "Three identity-label presentation revisions; unchanged scientific tables and coordinates",
+  "generated_utc": "2026-09-29T04:50:20.025880+00:00",
+  "script_sha256": "69e66cc11f488fc7bdd9c52fec8c6b805fff58d5ab1f72541777a71af93a60d5",
+  "input_sha256": {
+    "config/hpcs_descendant_reconstruction.json": "a1d216717ccbe8d052432eebffd0da9444974a524541f71935505e8272cc37d9",
+    "tables/regulatory_fate/hpcs_mouse_crosswalk.tsv": "59da1edca71bd2db20ecc917d7a5a695c6f41beb3c3cb11796315496eb95b813",
+    "tables/hpcs_source_composition/source_state_counts.tsv": "58d77eb9bda1e5f73d1aa8b50863f3bbd2140f75d6d18c9d4f6734c1bb64eb2d",
+    "tables/hpcs_source_composition/source_manifest.tsv": "1322439c82ac75a4624c41889585d298e0d9db476f13b383adc218ca3bca7e13",
+    "tables/robustness_2026-09-25/hpcs/group_influence_summary.tsv": "fef59ef5274236536638538e60d070e547db1bbe4ca2749d24584bd06f7e29c0",
+    "tables/robustness_2026-09-25/hpcs/partition_agreement.tsv": "0d5d16b212da95b808f9d6b955b44893670da61692c500a59b951a069ebf42a4",
+    "tables/robustness_2026-09-25/hpcs/design_rank_audit.tsv": "a09ed05017f0f0f6a44bd3e16e29b096177bc2e6efebe630dc6ee1cf6fb30a38",
+    "tables/evidence_closure/cd44_sample_manifest.tsv": "a206d3a847c5a39c05ce788a38cd7f51b70d809b235144ccebac7f239e4ebd7e",
+    "tables/descriptive/GSE154966_source_PCA_QC.tsv": "c09c592e06925569239b2ac83da82c014e7aa4446d26c61df34ed8c8fe94f80b",
+    "tables/descriptive/GSE154966_PCA_variance.tsv": "21272a46b8de9d0022ef447960a0c44e96545f514399bc3dcea7e0590a27612c",
+    "tables/descriptive/GSE273123_source_PCA_QC.tsv": "deb607ca8ebd9e455542178abbf84a5ddf3d4be932a615c460709979f2818594",
+    "tables/descriptive/GSE273123_PCA_variance.tsv": "fb625cfad91981964e599ddedcf3d14cf4eac18bd6127d9d8aa7add2a140b9f9"
+  },
+  "preserved_historical_sha256": {
+    "scripts/09_descriptive_input_audit.py": "7ed6fc9fd92c392e03ca2ac496f9372c402d1eb56aae850e1779ee4c648adccc",
+    "scripts/10_render_audited_figures.py": "cf594b62cdb5ace0ee6071ec67a4fb2f58d684c2582ac708dbf4452fa519e51d",
+    "scripts/21_reconstruct_hpcs_source_composition.py": "063dd9512afec9596764138c44cdad85264566186a7119136bf947acf8154321",
+    "scripts/23_analyze_hpcs_robustness.py": "c00528cff5af4bf9067c38fee95fa16a1d9632febd51961d5ce796d374f3a0e0",
+    "figures/hpcs_source_composition/a1_hpcs_source_composition.png": "662651a7b20ef98e1d8e0b7ca926867b2ae3ab64a64221ce7d5751cb15bc614a",
+    "figures/hpcs_source_composition/a1_hpcs_source_composition.svg": "73a033c784a042c20fcc2b06e0279189ae69a21fba8d8c3a2110885c0cfe8226",
+    "figures/robustness_2026-09-25/a1_hpcs_robustness.png": "5817539edbf8d870d917314f9b5a4d7e756b5398b1fc7d53ef5d0150db55e8fe",
+    "figures/robustness_2026-09-25/a1_hpcs_robustness.svg": "3a365495283c183e83626ddefbe09c5c12f9dcc3b6ae2ec6ed8965925e93fb46",
+    "figures/a1_deposited_source_PCA.png": "211395d5575f0cbc7c1117d5968669aa440da677d985f494c57825857b903d38",
+    "figures/a1_deposited_source_PCA.svg": "cd95e8e0dd2fa701a27b6e1533e9d104d98a0479d9f4b6e134d5a6ab2e26237d"
+  },
+  "output_sha256": {
+    "figures/revision_20260929/a1_hpcs_source_composition.png": "812cd9053a91f315a9ce49ad5730521abe388f7915276524430f393505e494ab",
+    "figures/revision_20260929/a1_hpcs_source_composition.svg": "047e94187a0ea65de5fd369fab15aba1021dccd8741e6719379c9ea4886918fb",
+    "figures/revision_20260929/a1_hpcs_robustness.png": "457cecbf87b15b4d79c1258637cefab346cb2a8f6092630223e517c1b625c7da",
+    "figures/revision_20260929/a1_hpcs_robustness.svg": "1be777fd13f1e34dbdc81dba36c72fead45d84e409c9c0993a0a3286ac2ebd79",
+    "figures/revision_20260929/a1_deposited_source_PCA.png": "3ce5ae2130ccf4fa4f7fdcfe8cc311b7d61df60e8f45748268134e18a1a685ef",
+    "figures/revision_20260929/a1_deposited_source_PCA.svg": "62ebc3cdda5f3e406bceb995db1612ac45cdfa806e6d4186525be2d6b9282f99"
+  },
+  "checks": [
+    "22 unique HPCS mice; exact retained-cell totals; 5333 cells",
+    "Group mouse counts match omission summaries",
+    "16 CD44 samples join uniquely to 8 paired mice",
+    "All input and historical artifact hashes unchanged"
+  ]
+}
