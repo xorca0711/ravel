@@ -15,8 +15,9 @@ distinguish reversible repair from persistent dysfunction, which is the differen
 between successful regeneration and remodelling.
 
 **This workspace carries two hypotheses with separate decisions.** They are kept
-apart deliberately: either can hold without the other, and a single combined
-experiment that confounds them would answer neither.
+apart deliberately: either can hold without the other. Separate experiments or
+a joint design can qualify if each contrast is identifiable and independently
+supported; changing both factors in an inseparable contrast cannot answer either.
 
 **Read first:** [question card](../../RESEARCH_QUESTIONS.md#a14),
 [rationale](RATIONALE.md), [plan](PLAN.md),
@@ -24,17 +25,17 @@ experiment that confounds them would answer neither.
 
 ## Evidence and analysis history
 
-**Status, 28 September 2026: registered; the design is unexecuted; nothing
+**Status, 29 September 2026: registered; the design is unexecuted; nothing
 computed for A14.** This folder was created on the owner's instruction to give A14
 its own workspace rather than a card alone. It adds no new question identifier, no
 claim row and no grade, and it does not change the register card.
 
 A14 has never had a result. It is a mechanistic follow-up to the repair-versus-
 persistence question, not an existing withdrawal-fate finding, and published
-tracing informs its design without replacing the experiment. The only tracked
-asset is the experimental schematic in the register's cross-question gallery
+tracing informs its design without replacing the required withdrawal contrasts.
+Its schematic is in the register's cross-question gallery
 ([A14 panels](../../analysis/figures/rq/README.md#a14)); its outcome panels
-require new data, and no anticipated response curve is presented as a result.
+require eligible measured data, and no anticipated response curve is presented as a result.
 
 ## The two hypotheses in one sentence each
 
@@ -44,11 +45,18 @@ require new data, and no anticipated response curve is presented as a result.
 - **H2, reception.** Fibroblast IL-1 reception modifies epithelial recovery beyond
   direct epithelial reception of the same signal.
 
-They share an outcome family and nothing else. H1 varies the exposure and holds
-the receiving compartments fixed; H2 holds the exposure fixed and varies which
-compartment can receive it. The [rationale](RATIONALE.md) gives each its own
-population, outcome, rival and decision, and the [plan](PLAN.md) gives each its
-own arm.
+They share an outcome family but retain separate contrasts. H1 varies the exposure
+and holds receiving conditions fixed; H2 holds the exposure fixed and varies which
+compartment can receive it. A joint design must preserve those contrasts and assess
+any interaction without pooling incompatible conditions. The [rationale](RATIONALE.md)
+gives each its own population, outcome, rival and decision, and the [plan](PLAN.md)
+gives each its own arm.
+
+H1 requires a meaningful decrease in recovery after longer exposure. A reliable
+reverse effect contradicts that direction; a precise absence of a meaningful
+decrement weakens it; imprecision or failed observation/engagement checks is
+inconclusive. The meaningful-effect and uncertainty rules must be fixed before
+outcomes are inspected. Viability and lineage evidence still bound any recovery claim.
 
 ## What it stands on, and what that is worth
 
@@ -63,26 +71,31 @@ RNA-context results in human cross-sections. Neither measures reception, neither
 involves withdrawal, and neither bears on recovery. They motivate H2's compartment
 question and they cannot answer it.
 
-## Register readiness: the experiment is the blocking input
+## Register readiness: eligible withdrawal evidence is the blocking input
 
 The shared
 [outcome inventory](../A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md)
-records A14's requirement as row O28 and finds it **not available**: mature-cell
-yield, viability, traced descendants and function after verified IL-1beta
-withdrawal are not measured in any surveyed deposit. Row O29 records that no EdU,
-BrdU or label-retention assay is named anywhere in that evidence, so a
-label-retention readout cannot be assumed available either. A14 therefore shares
-A1's missing-outcome gate, as the
-[gap-fill ledger](../../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md) records.
+records A14's requirement as row O28. **No eligible dataset has been identified in
+the reviewed evidence** for either hypothesis: measured mature output must be
+linked to verified withdrawal, the relevant contrast and independent biological
+units, with viability and lineage evidence bounding interpretation. Mature and
+genetically lineage-labelled endpoints already exist in O2/O3; those records do
+not by themselves supply A14's required design. O29 concerns documented
+EdU/BrdU/label-retention assays and must not be used to erase genetic lineage
+evidence. The earlier
+[gap-fill ledger](../../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+records the unresolved endpoint gate, not global absence of mature measurements.
 
-Unlike A8, A14's gap is not a dataset that might exist somewhere. Its contrasts
-require a perturbation and a withdrawal that have to be performed.
+A bounded search of existing sources or author-provided data may satisfy either
+contract. No public-archive search under these eligibility conditions has yet been
+completed. New data generation becomes a candidate only if compatible existing
+evidence remains unidentified; all routes retain the same endpoint and unit requirements.
 
 ## Layout
 
 | Path | Role |
 |---|---|
-| [RATIONALE.md](RATIONALE.md) | Each hypothesis with its own population, outcome, rival and decision; why they are not one experiment |
+| [RATIONALE.md](RATIONALE.md) | Each hypothesis with its own population, outcome, rival and decision; conditions for separate or joint designs |
 | [PLAN.md](PLAN.md) | Stage 0 registration, the two frozen arms, feasibility conditions and what execution would require |
 | [config/a14_question_contract.json](config/a14_question_contract.json) | Machine-readable scope, the two decision rules, prohibitions, and the declaration that nothing is scored |
 | [A12 recipient context](../A12_recipient_context/README.md), [A13 fibroblast increment](../A13_fibroblast_beyond_macrophage_il1b/README.md) | The IL-1 RNA-context results that motivate H2 without answering it |
@@ -93,9 +106,9 @@ require a perturbation and a withdrawal that have to be performed.
 1. **Do not report loss of a transitional RNA score as recovery.** It cannot
    distinguish maturation, reversion, death or replacement. This is the register
    card's own boundary and the single most likely misreading of any future result.
-2. **Do not combine the two hypotheses into one experiment** whose arms vary
-   exposure duration and receiving compartment together. The result would be
-   uninterpretable for both.
+2. **Do not infer separate effects from inseparable contrasts** that change
+   exposure duration and receiving compartment together. A joint design is eligible
+   only when each hypothesis has identifiable contrasts, controls and independent units.
 3. **Do not treat A12's or A13's RNA-context results as evidence about reception.**
    Receptor or inhibitor RNA is not measured reception, and neither pilot involved
    withdrawal.

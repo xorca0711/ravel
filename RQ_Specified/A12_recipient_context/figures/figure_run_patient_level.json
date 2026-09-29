@@ -1,0 +1,14 @@
+{
+  "scope": "Patient-level values behind the A12 held-out summary. No fit, no rescoring, no new estimate; the panel-a correlation is computed from the plotted points and is descriptive at twelve patients, with no line, interval or p value. Predictions are the saved leave-one-patient-out values at the primary settings (alpha=1, 50-cell floor, confidence 0.2) for the AT2 recipient.",
+  "script_sha256": "70b82b8b6dae86866c00c8fe43ba67ec026e2bf10d90975a3db14aaea8bfdca3",
+  "matplotlib_version": "3.11.1",
+  "panel_a_pearson_r": 0.343987,
+  "inputs": {
+    "docs/roadmap_runs/2026-09-27-followthrough/A12_model_inputs.csv": "937455aa87c7602a4c19cdb097f49303bad46f3618c8d519e538c52e615d9282",
+    "docs/roadmap_runs/2026-09-27-followthrough/A12_heldout_predictions.csv": "96a331182190907caea090e9e33264f74863fab10f7cc8b927b9ae3c100afbdb"
+  },
+  "outputs": {
+    "A12_F03_patient_level.png": "d79d4b71cb791a688f4df992c07ff17c4238c2c4463d71a3be639a556a441e46",
+    "A12_F03_patient_level.svg": "e3c0ace1bbfcfe5faa9b3ee78a7598d60b14c97cc5b69fe1a0945e863ad62073"
+  }
+}

@@ -219,9 +219,14 @@ discriminator. Incompatible callers, pooled identities or low replication leave
 it inconclusive. The [plan](RQ_Specified/A1_transitional_epithelial_state_distinction/PLAN.md),
 [assay map](RQ_Specified/A1_transitional_epithelial_state_distinction/STUDY_MAP.md)
 and [lineage audit](RQ_Specified/A1_transitional_epithelial_state_distinction/LINEAGE_AUDIT.md)
-govern the input gate. PATS track scaling, TIGIT pool membership and HPCS
-source/age reconciliation remain specific holds; CD44 count identities are
-resolved. The newer IRE1 cell-resolved cohort has one pooled library per
+govern the input gate. PATS track scaling and TIGIT pool membership remain
+specific holds. HPCS animal identities and Hopx harvest are resolved; library/chase
+confounding and the missing current reporter remain. CD44 count identities are
+resolved. The [corrected comparison matrix](RQ_Specified/A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md)
+records that the regulatory primary test is not executable: the regulatory
+predictor is unspecified and no cohort links it, early RNA and later mature
+output in the same biological units. The IRE1 RNA-to-outcome candidate alone
+would not satisfy this gate. The newer IRE1 cell-resolved cohort has one pooled library per
 condition and cannot supply replicated treatment inference. Temporal closure or memory additionally needs actual
 time/fate evidence (A14).
 

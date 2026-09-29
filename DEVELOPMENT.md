@@ -1685,3 +1685,31 @@ neither direction of the inference is identified; A14's gives each of its two
 hypotheses an independent design and decision. Both remain blocked on
 measurements that do not exist, and both say so rather than proposing an analysis.
 Documentation only; no result, grade or register wording changed.
+
+## 28 September 2026: local rationale and plans for the A12 group
+
+Continuing the adopted proposal, Claude Science wrote the A12 and A13 rationale
+and plan files and one shared A12-S1 evidence map. Two things emerged that the
+proposal's wording did not anticipate. First, A12's endpoint choice needed
+defending rather than describing: a general inflammatory readout cannot show IL-1
+specificity, and the design's answer is to put TNF in the comparator rather than
+to claim selectivity. Second, A13's null is weaker than it looks -- at the
+primary setting no model beats the training mean, so the closed comparison is
+between two models that predict no better than a constant, which is a statement about the
+instrument and not about fibroblast biology. Both are recorded in the documents
+rather than smoothed over. Documentation only; no result, grade or register
+wording changed.
+
+## 29 September 2026: correct the RQ delivery review findings
+
+The owner explicitly requested the seven review corrections and subsequently
+authorized the A1 regulatory primary test only if executable. Codex applied the
+A1/shared-inventory/A16 corrections, with two scoped agents updating A8 and A14;
+the parent reviewed their contracts and synchronized the handoff documents.
+A1 remains non-executable because the regulatory predictor and compatible
+regulatory/RNA/later-outcome linkage are absent. No RNA-only substitute was run.
+
+The [resolution note](docs/audits/2026-09-29-rq-delivery-review/CORRECTIONS.md)
+records the corrections and checks. A16's presentation revision retains original
+figure/script records and uses the same tracked tables. No model was fitted,
+no claim grade was changed, and no biological readiness state was promoted.
