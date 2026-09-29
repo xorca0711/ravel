@@ -1693,9 +1693,9 @@ and plan files and one shared A12-S1 evidence map. Two things emerged that the
 proposal's wording did not anticipate. First, A12's endpoint choice needed
 defending rather than describing: a general inflammatory readout cannot show IL-1
 specificity, and the design's answer is to put TNF in the comparator rather than
-to claim selectivity. Second, A13's null is weaker than it looks -- no model in
-its ladder beats the training mean, so the closed comparison is between two
-models that both predict worse than a constant, which is a statement about the
+to claim selectivity. Second, A13's null is weaker than it looks -- at the
+primary setting no model beats the training mean, so the closed comparison is
+between two models that predict no better than a constant, which is a statement about the
 instrument and not about fibroblast biology. Both are recorded in the documents
 rather than smoothed over. Documentation only; no result, grade or register
 wording changed.

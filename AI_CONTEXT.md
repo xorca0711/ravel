@@ -16,8 +16,8 @@ A13 and an A12-S1 evidence map. Rules for later sessions:
   at most four pairs, Wu no normal arm). They failed on units and states before
   any outcome was opened, so they are not evidence against recipient context.
 - **A13's cycle is closed.** Do not screen alternative fibroblast modules against
-  its outcome. Its null covers one programme, one RNA proxy, one cohort; no model
-  in its ladder beats the training mean, so the instrument is weak. TGF-beta
+  its outcome. Its null covers one programme, one RNA proxy, one cohort; at the primary
+  setting no model beats the training mean, so the instrument is weak. TGF-beta
   pathway RNA is not active TGF-beta (that is A15), and the HPCS proxy is not
   lineage potential.
 - **Source terms in both are assignment-conditional** while A12-S1 is open. Cells

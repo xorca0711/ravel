@@ -23,10 +23,11 @@ for the three ineligible candidates.
 
 [A13's rationale](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/RATIONALE.md)
 traces the broad niche proposition through the compartment-rule amendment to the
-one pair actually tested, and records a limit that qualifies the null: no model in
-A13's ladder beats the training mean (0.2167 against a best fitted 0.2113 at
-alpha=10), so the comparison is between two models that both predict worse than a
-constant. Its [plan](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/PLAN.md)
+one pair actually tested, and records a limit that qualifies the null: at the
+primary setting no model beats the training mean (0.2167 against 0.2283 and
+0.2373), so both compared models predict no better than a constant. The one
+exception is the comparator at alpha=10 (0.2113), where the joint model still
+fails to improve on it. Its [plan](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/PLAN.md)
 closes the cycle and fixes five conditions for any new pair.
 
 The [A12-S1 map](RQ_Specified/A12_recipient_context/reports/A12_S1_SOURCE_IDENTITY_MAP.md)

@@ -53,9 +53,12 @@ them as if they were would be selecting a favourable statistic after the fact.
 
 Panel (c) of the [shared ladder figure](../A12_recipient_context/figures/A12_F01_heldout_model_ladder.png)
 carries the result in its proper context, and that context weakens the instrument considerably:
-**no model in A13's ladder beats the training mean.** The mean baseline is 0.2167; the best
-fitted model is 0.2113 at alpha=10 and 0.2283 at the primary alpha. A comparison between two
-models that both predict worse than a constant is a poor test of whether a programme contributes.
+**at the primary setting no model beats the training mean.** The mean baseline is 0.2167, against
+0.2283 for the source-plus-TNF comparator and 0.2373 for the joint model. The one exception across
+the predeclared sensitivities is the comparator at alpha=10, which does beat the mean (0.2113,
+Q2 +0.0499) -- but the joint model at that same alpha (0.2174) does not, so the primary contrast
+still worsens there. A comparison in which both compared models predict no better than a constant
+is a poor test of whether a programme contributes.
 
 **Decision, unchanged:** do not expand this fibroblast programme on this cohort. The fixed test
 gives no predictive reason to prefer it over the source-and-TNF comparator.

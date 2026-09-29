@@ -23,9 +23,9 @@ endpoint. Neither comparison alone establishes mediation or reciprocal feedback.
 
 **Rationale and plan written, 28 September 2026.** The [rationale](RATIONALE.md)
 traces the broad niche proposition to the single TGF-beta-RNA/HPCS-proxy pair that
-was actually tested, and states what the null does not cover -- notably that no
-model in this pilot beats the training mean, which weakens the instrument rather
-than the biology. The [plan](PLAN.md) records the cycle as closed, both external
+was actually tested, and states what the null does not cover -- notably that at
+the primary setting no model beats the training mean, which weakens the instrument
+rather than the biology. The [plan](PLAN.md) records the cycle as closed, both external
 candidates as resolved on design, and the five conditions a different pair would
 have to meet before any new computation. Documentation only; nothing was rescored.
 
