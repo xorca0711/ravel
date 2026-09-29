@@ -5,7 +5,8 @@
     "reading_order_last_checked": "2026-09-15",
     "ids_verified_against_pubmed_on": "2026-09-09 (papers 1 to 11); 2026-09-15 (papers 12 to 16 and M1 to M7)",
     "analysis_status_updated": "2026-09-28",
-    "analysis_status_basis": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md; study-reading statuses and reading order preserved"
+    "analysis_status_basis": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md; study-reading statuses and reading order preserved",
+    "nabhan_2023_status_updated": "2026-09-29; Nb2 source and branch analyses remain under Research Article; specified RQs deferred to evidence-driven derivation"
   },
   "working_question": "Which epithelial and immune-state programmes distinguish productive lung repair from persistent dysplastic remodelling after inflammatory injury?",
   "gate_rules": {
@@ -234,10 +235,34 @@
       "extract": [
         "receptor-specific Wnt response modules rather than a generic Wnt score"
       ],
-      "datasets": [],
-      "folder": null,
-      "note_status": "queued after paper 3 (re-ranking 2026-09-15)",
-      "trial_status": "not started"
+      "datasets": [
+        "GSE208770 (18 bulk AT2-organoid libraries; conditional limma/voom adaptation)",
+        "GSE135893 (Habermann source reuse; descriptive author-label profiles)",
+        "GSE262927 (Niethamer exposed mouse extension; descriptive profiles)"
+      ],
+      "folder": "gate2_N1_nabhan_2023",
+      "note_status": "owner completed reading 2026-09-29; private notes and supplied annotated PDF reviewed",
+      "trial_status": "Initial adapted bulk, partial source atlas and mouse extension executed; exact/functional reproduction unresolved",
+      "note_location": "Research Article/gate2_N1_nabhan_2023/SOURCE_AUDIT.md",
+      "trial_location": "Research Article/gate2_N1_nabhan_2023/RESULTS.md",
+      "config": "Research Article/gate2_N1_nabhan_2023/config/pipeline.json",
+      "candidate_register": "Research Article/gate2_N1_nabhan_2023/HYPOTHESIS_REGISTER.md",
+      "analysis_stages": [
+        {
+          "track": "source_reproduction",
+          "status": "adapted/partial measurements complete; exact and functional evidence gaps remain"
+        },
+        {
+          "track": "biological_exploration",
+          "status": "initial component and receptor-context analyses complete; sensitivity/coverage limits explicit"
+        },
+        {
+          "track": "open_question_hypotheses",
+          "status": "eight owner-ordered cards updated; none validated or promoted"
+        }
+      ],
+      "namespace": "Nb2",
+      "figure_gallery": "Research Article/gate2_N1_nabhan_2023/FIGURES.md"
     },
     {
       "order": 7,
@@ -603,6 +628,7 @@
   },
   "folder_name_exceptions": {
     "yu_lee_choi_min_2026": "gate2_C3_yu_lee_choi_min_2026: owner-selected branch 2C item 3; stable paper order 13.",
-    "england_2025": "gate2_C2_england_2025: branch 2C item 2; stable paper order 12."
+    "england_2025": "gate2_C2_england_2025: branch 2C item 2; stable paper order 12.",
+    "nabhan_2023": "gate2_N1_nabhan_2023: owner-selected branch 2N item 1; stable paper order 6."
   }
 }

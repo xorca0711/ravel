@@ -1,0 +1,18 @@
+{
+  "source_sha256": "74fc007362b1e80af09a6e2a5bd94aa9638aba94c4a248d4d67d98a6385fc648",
+  "n_libraries": 18,
+  "condition_counts": {
+    "24hourwithdrawal": 3,
+    "48hourwithdrawal": 3,
+    "LGK974_FZD5_Agonist": 3,
+    "LGK974_FZD6_Agonist": 3,
+    "LGK974_WNT": 3,
+    "LGK_CHIR99201": 3
+  },
+  "assay": "bulk_RNA_seq",
+  "assay_basis": "P1 Figure 4 and methods p.24",
+  "preparation_map_verified": false,
+  "pairing_verified": false,
+  "count_matrix_inspected": false,
+  "biological_analysis_executed": false
+}

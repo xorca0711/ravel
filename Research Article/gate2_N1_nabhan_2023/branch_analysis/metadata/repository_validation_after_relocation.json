@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-09-29T12:31:45.738984+00:00",
+  "results": [
+    {
+      "command": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "analysis/scripts/run_with_environment.py",
+        "--site-packages",
+        "X:/GitHub/scRNA_seq/.venv-x64/Lib/site-packages",
+        "C:\\Users\\dream\\.codex\\worktrees\\nabhan-2023-plan\\scRNA_seq\\Research Article\\gate2_N1_nabhan_2023\\branch_analysis\\scripts\\07_verify_relocation.py"
+      ],
+      "returncode": 0,
+      "output": "PASS: 66 relocation checks;45 frozen artifacts unchanged;no scientific reanalysis\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "returncode": 0,
+      "output": "Repository validation passed: 4911 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    }
+  ],
+  "scope": "Structural correction only; prior numerical analysis checks reused"
+}

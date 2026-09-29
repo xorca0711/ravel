@@ -1,0 +1,26 @@
+[
+  {
+    "query": "Cenpc",
+    "url": "https://rest.ensembl.org/lookup/symbol/mus_musculus/Cenpc?content-type=application/json",
+    "status": "not_resolved",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "query": "Cyr61",
+    "url": "https://rest.ensembl.org/lookup/symbol/mus_musculus/Cyr61?content-type=application/json",
+    "status": "not_resolved",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "query": "Ctgf",
+    "url": "https://rest.ensembl.org/lookup/symbol/mus_musculus/Ctgf?content-type=application/json",
+    "status": "not_resolved",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "query": "Crim2",
+    "url": "https://rest.ensembl.org/lookup/symbol/mus_musculus/Crim2?content-type=application/json",
+    "status": "not_resolved",
+    "error": "HTTP Error 400: Bad Request"
+  }
+]

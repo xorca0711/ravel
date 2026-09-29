@@ -78,3 +78,22 @@ identities, independent validation, spatial regions or causal endpoints are reso
 The main README links to galleries without embedding a partial selection.
 PI fit, contact preferences and personal outreach planning stay in the owner's
 Notion workspace; public documents contain scientific questions and portfolio text.
+
+## Nabhan branch registration, 29 September 2026
+
+`Research Article/gate2_N1_nabhan_2023/` is the owner-selected Gate 2N item 1,
+with stable roadmap paper ID 6. `Nb2-P1`–`Nb2-P10` identify its published propositions;
+`Nb2-R*` and `Nb2-B*` identify reproduction and exploration stages;
+`Nb2-N1`–`Nb2-N8` are paper-local candidate hypotheses linked from the root register.
+They do not renumber A0–A18, the earlier Nabhan/Nb1 trial or other papers' N1 labels.
+Private reading annotations stay local. Source metadata and prospective contracts
+are distinct from executed biological results. Question-specific continuations use
+an owning `RQ_Specified/` contract once their scope and endpoints are specified.
+## Nb2 branch analysis: corrected hierarchy, 29 September 2026
+
+`Research Article/gate2_N1_nabhan_2023/branch_analysis/` owns the branch analyses,
+including cross-study comparisons used to interpret the paper. Its candidate
+notes retain Nb2-N1–N8 as provisional interpretations. `RQ_Specified` is populated
+later with questions warranted by the analysis and synthesis; branches are not
+automatically promoted to RQs. The premature Nb2-RQ1–RQ8 registration is retired.
+The move preserves measured results, source records and existing A-series scope. [Index](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md).

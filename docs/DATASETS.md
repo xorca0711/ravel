@@ -89,3 +89,26 @@ Use their analysis-specific version/coverage records. [References](../REFERENCES
 and the linked source reports identify publications; [reproducibility](../REPRODUCIBILITY.md)
 describes local input layout. The [current per-question ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
 governs what missing input would permit a new analysis.
+
+## Nabhan 2023 source intake, 29 September 2026
+
+[GSE208770](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208770) has 18 mouse
+AT2-organoid **bulk RNA-seq** libraries across six treatments, three labeled
+replicates each. All counts were acquired and analyzed in the conditional
+[Nb2 bulk adaptation](../Research%20Article/gate2_N1_nabhan_2023/trials/bulk_v1/REPORT.md).
+The [study inventory](../Research%20Article/gate2_N1_nabhan_2023/DATASETS.md) distinguishes
+this treatment experiment from the original single-cell receptor-map atlases.
+The paper calls the replicates biological, but animal/preparation identity, pairing
+and discrepant treatment timing still require reconciliation. This is not a
+single-cell agonist-response dataset or an independently measured fate endpoint.
+## Nb2 branch-analysis input, 29 September 2026
+
+[GSE327565](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327565) now supplies
+an executed mouse organoid Stk3/4-loss/YAP-TAZ comparator:14 bulk libraries,
+separate3v3 SFFFM and4v4 ADM genotype contrasts. Source Figure8 reports mice;
+cross-medium identities remain unresolved. This is distinct from GSE327686
+multiome and GSE326359 human data. The existing A1 catalog was reused and the
+processed count table downloaded publicly; no pooled multiome well was counted
+as an independent bulk mouse. [Methods and source hashes](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/METHODS.md).
+The same workspace reuses GSE208770 and GSE262927; these are additional analyses,
+not independent validation cohorts.

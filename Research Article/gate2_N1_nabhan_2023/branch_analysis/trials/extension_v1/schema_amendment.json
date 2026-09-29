@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-09-29T11:59:24.321015+00:00",
+  "failure": "Exact counts-layer sum versus stored total_counts assertion failed before aggregation; only gene mapping was emitted.",
+  "audit": "First100 cells:94 exact stored-QC matches; examples differ by1 UMI. No expression summaries inspected from failed run.",
+  "amendment": "Keep original count-layer denominator; quantify stored-QC differences, require nonnegative gap and exact reconciliation with the independently completed atlas_v1 common gene/sample counts, cells and denominators.",
+  "endpoints_changed": false,
+  "failed_script_sha256": "106ca81830031c78ddb975e44f62cb0a03aceb492eb316e4f2f73fecc9e54ce8",
+  "resumed_script_sha256": "90a76ac8e5ad7fcff04e4a615e3b6f40fe428d48243f57890f1b0246ea67e7ad",
+  "source_context": "Final object retains32228 genes; source metadata QC may cover a different universe; exact cause not assumed."
+}

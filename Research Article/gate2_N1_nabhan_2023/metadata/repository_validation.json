@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-09-29T11:21:34.526990+00:00",
+  "scope": "Updated package syntax, source contract, namespace, repository navigation and unit tests; numerical results audited separately",
+  "results": [
+    {
+      "name": "intake",
+      "command": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "Research Article\\gate2_N1_nabhan_2023\\scripts\\00_intake.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "output": "PASS: 18 libraries / 6 conditions; bulk metadata only; preparation and pairing unresolved\n"
+    },
+    {
+      "name": "namespace_stages",
+      "command": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "Research Article\\gate2_N1_nabhan_2023\\scripts\\verify_plan.py"
+      ],
+      "returncode": 0,
+      "output": "PASS: source hash, 18 samples, 6 conditions, contrasts, 11-stage DAG, 10 claims, 8 ordered candidates and navigation\n"
+    },
+    {
+      "name": "compile",
+      "command": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "Research Article\\gate2_N1_nabhan_2023\\scripts"
+      ],
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "unit_tests",
+      "command": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "analysis/tests",
+        "-q"
+      ],
+      "returncode": 0,
+      "output": "----------------------------------------------------------------------\nRan 66 tests in 5.897s\n\nOK (skipped=1)\n"
+    },
+    {
+      "name": "repository",
+      "command": [
+        "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "returncode": 0,
+      "output": "Repository validation passed: 4786 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    }
+  ]
+}

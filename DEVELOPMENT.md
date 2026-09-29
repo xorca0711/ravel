@@ -1720,3 +1720,98 @@ The [resolution note](docs/audits/2026-09-29-rq-delivery-review/CORRECTIONS.md)
 records the corrections and checks. A16's presentation revision retains original
 figure/script records and uses the same tracked tables. No model was fitted,
 no claim grade was changed, and no biological readiness state was promoted.
+
+## 29 September 2026: Nabhan 2023 structure and owner candidate register
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-29 | Gate 2N/N1 folder and three tracks | Owner | Owner, explicit request | Implemented as a planning package; scientific acceptance not inferred | Connect reproduction, exploration and open questions to the README purpose |
+| 2026-09-29 | Eight Nabhan cards and existing-RQ crosswalk | Owner themes; Codex operational formulations | Owner requested registration; formulations remain proposals | Register locally in the requested order and link from the root register | Preserve hypotheses without duplicate global questions |
+
+Codex read the supplied annotated 34-page paper, visually checked selected pages,
+fetched three Notion context pages and public GEO metadata, and authored the package
+without subagents. A managed worktree from fetched `17c0859` preserves the primary
+checkout's unrelated files. No Notion page was edited.
+
+| Date | Interpretation revised | Reason | Revised by |
+|---|---|---|---|
+| 2026-09-29 | Figure 4/GSE208770 as scRNA-seq in the abbreviated reading notes | Paper methods and deposit support bulk organoid RNA-seq | Codex primary-source check; owner notes preserved |
+| 2026-09-29 | Undetected Fzd5/Fzd6 differences as equivalence; compensation as established | Precision is limited; incomplete editing and antibody target scope remain alternatives | Codex specification |
+| 2026-09-29 | Preventative fibrosis findings as delayed-treatment or clinical IPF benefit | Paper limitations restrict those endpoints | Codex source audit |
+
+These constraints do not reject the owner's research interests. Only metadata intake
+and verification are implemented. No biological result or evidence grade is promoted.
+Validation is recorded in the package's metadata.
+
+
+## 29 September 2026: Nb2 initial execution
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-29 | Paper namespace and execution | Owner | Owner, explicit follow-up | Use Nb2; execute accessible first pass within the existing Gate2N/N1 folder | Preserve reading-position identity while separating this paper from Nb1 |
+| 2026-09-29 | Bulk and atlas contracts, scripts, tables and six figures | Codex | Owner-authorized analysis; implementation by Codex | Frozen count adaptation and descriptive source/extension summaries; no claim promotion | Source preparation map and exact atlas/functional inputs remain unresolved |
+| 2026-09-29 | Human barcode alignment recovery | Codex | Deterministic source-schema audit | Preserve failed script/contract and append amendment before extraction; restrict to114,396 annotated barcodes | All source labels are a subset of220,213 matrix barcodes; recomputed depths match metadata exactly |
+
+The [execution report](Research%20Article/gate2_N1_nabhan_2023/RESULTS.md) owns the
+new measured observations. Existing local counts and a compatible runtime were
+reused; human counts were streamed once after the pre-extraction schema failure.
+Frozen hashes preserve exposure and inputs. Unpaired bulk inference remains
+conditional on the source's unverified independence claim. No sample was excluded
+because of PCA separation, and no block was guessed from replicate suffixes.
+
+| Date | Interpretation revised | Reason | Revised by |
+|---|---|---|---|
+| 2026-09-29 | Substitute Crim1 for printed Crim2 | Unresolved source name; three-gene adaptation explicitly recorded instead | Codex source/annotation audit |
+| 2026-09-29 | Promote prominent oxidative-phosphorylation enrichment to a metabolic mechanism | Estimated residual gene correlation weakens the enrichment; bulk RNA is not flux | Codex prespecified sensitivity |
+| 2026-09-29 | Treat vascular Fzd4 as a progenitor-specific result | Arterial and venous profiles also express it strongly | Codex descriptive extension |
+| 2026-09-29 | Infer state-dependent disease effects from rare populations | Transitional-IPF and fibroblast-control unit coverage fails the main cohort threshold | Codex coverage gate |
+
+Numerical verification recomputes panel arithmetic, contrast algebra, BH adjustment,
+CPM denominators and state summaries. Root navigation and the stage ledger now
+point to executed evidence. [Replay and validation](Research%20Article/gate2_N1_nabhan_2023/EXECUTION.md)
+describe the precise scope. These checks do not validate the eight hypotheses.
+## 29 September 2026: Nb2 branch execution and RQ specifications
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-29 | Execute branches and derive hypotheses under RQ_Specified | Owner | Owner, explicit follow-up | Create Nb2_fzd_response_context with seven focused RQs and existing N8 companion | Follow the reading-to-analysis-to-specified-question hierarchy |
+| 2026-09-29 | Cross-study reference, influence and subtype analyses | Codex | Owner-authorized scope; implementation by Codex | Frozen exploratory contract; reuse prior exposure and A1 resource audit | Distinguish stable RNA leads from missing fate/mechanism evidence |
+| 2026-09-29 | Count-depth schema amendment | Codex | Deterministic source audit | Preserve failure; retain count-layer denominator and require prior aggregate reconciliation | Stored QC totals differ slightly;57,380 shared unit/gene rows match exactly |
+| 2026-09-29 | Local Nb2-RQ1–RQ8 IDs | Codex | Owner requested RQ specification; formulations remain proposals | Link existing A-series owners without renumbering or duplicate global questions | Organize the seven focused branches and N8 companion coherently |
+
+| Date | Interpretation revised | Reason | Revised by |
+|---|---|---|---|
+| 2026-09-29 | Three source genes establish broad sustained-YAP activation | Projected reference response is unstable; reference also separates atlas AT1/AT2 | Codex measured extension |
+| 2026-09-29 | More Fzd5 RNA implies more canonical target RNA | Four matched AT1/AT2 samples show opposite orderings | Codex descriptive state comparison |
+| 2026-09-29 | Fzd1-rich fibroblasts imply stronger epithelial support | Subtype contrast favors Fzd2-rich AF1 for the selected support-ligand panel; functional outcome absent | Codex subtype comparison |
+| 2026-09-29 | Pooled Fzd4–cycling correlation supports a progenitor mechanism | Opposite within-round correlations; no receptor perturbation or lineage endpoint | Codex post hoc rival check |
+
+The [question results](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md) and
+[execution record](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/EXECUTION.md) own the
+new evidence. The numerical verifier's first source-panel lookup used `Hippo`
+instead of the actual `Hippo_associated`; correcting the lookup changed no
+analysis values, and all53 checks then passed. Figure inspection corrected a
+legend/label overlap and exposed experimental round in the vascular panel.
+No claim grade or scientific acceptance was inferred from execution authorization.
+## 29 September 2026: owner correction to Nb2 analysis hierarchy
+
+| Date | Proposal corrected | Reason | Rejected / corrected by | Resolution |
+|---|---|---|---|---|
+| 2026-09-29 | Put branch analyses in RQ_Specified and label each branch Nb2-RQ1–RQ8 | The owner clarified that analyses remain under Research Article; specified RQs follow from the analysis and synthesis | Owner, explicit hierarchy correction | Move the complete bundle to the Nb2 paper, retire the premature RQ labels and retain provisional Nb2-N1–N8 candidate notes |
+
+This supersedes the earlier location/registration decision above. It does not
+reject the measured results or authorize a one-to-one mapping of branches to
+future RQs. Scientific artifacts retain their original hashes. Live scripts
+only change path resolution; originals and historical path aliases are recorded
+in the [relocation metadata](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/metadata/relocation.json).
+The two RQ index edits were removed, existing A-series work was preserved, and
+current navigation/handoff now follows **paper analysis → synthesis → warranted
+RQ specification**. No scientific model was rerun for this structural correction.
+
+## 29 September 2026: Nb2 PR publication
+
+The owner explicitly requested opening a PR for the completed Nb2 paper and
+branch analyses. Codex prepared the existing managed branch for publication,
+retaining the paper-local hierarchy and provisional candidate status. A targeted
+Git attribute preserves frozen evidence bytes across platforms. Publication
+does not promote claims, register specified RQs or authorize merging.

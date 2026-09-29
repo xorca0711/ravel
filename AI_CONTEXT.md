@@ -1,5 +1,57 @@
 # AI context
 
+## Current Nb2 branch-analysis location, 29 September 2026
+
+The owner clarified that branch analysis belongs under `Research Article`; RQs
+are to be derived afterward from the actual analysis and synthesis. The complete
+bundle now lives at
+[Research Article/gate2_N1_nabhan_2023/branch_analysis](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md).
+No Nb2 analysis workspace or figure entry remains under `RQ_Specified`. The
+premature Nb2-RQ1–RQ8 labels are retired; candidate notes use the existing Nb2-N1–N8
+branch IDs and are not a commitment to one formal RQ per branch.
+
+Measured results are unchanged: 14-library Gaona comparison, 182 bulk program
+contrasts, 183 mapped mouse genes, five figure pairs and 53 earlier numerical
+checks. The broad sustained-YT response remains unresolved; transitional coverage
+fails; receptor-loss/blockade conditions are incomparable; the pooled vascular
+association varies by experimental round. No new biological claim is promoted.
+[Results](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md).
+
+The move preserves all 45 frozen trial/config artifacts by hash. Original scripts
+are archived; only path resolution changed in three live scripts. Frozen records
+retain their old paths, resolved through the explicit relocation map. Do not
+rewrite them to make history appear to have used the corrected hierarchy.
+
+The owner requested PR publication from managed `codex/nabhan-2023-plan`. The
+original checkout and unrelated files are preserved. Publication does not imply
+scientific acceptance or authorize merging. Continue paper analysis and synthesis, then
+register whichever RQs are biologically warranted; do not automatically turn
+branch labels into specified questions. No analysis process remains running.
+
+## Nb2 initial execution, 29 September 2026
+
+The owner authorized execution using the **Nb2** namespace. The
+[Gate2N/N1 package](Research%20Article/gate2_N1_nabhan_2023/README.md) now contains
+an adapted 18-library bulk analysis (16,534 genes; 10 contrasts), a partial source
+atlas comparison and mouse extension, six figures, functional recovery audit,
+and eight updated owner-ordered hypothesis cards. Read [results](Research%20Article/gate2_N1_nabhan_2023/RESULTS.md)
+and [the gallery](Research%20Article/gate2_N1_nabhan_2023/FIGURES.md).
+
+Broad source RNA directions are recovered; exact DEG totals are not. Crim2 remains
+unresolved, library heterogeneity is substantial, and the source preparation map
+is unavailable. Metabolic enrichment weakens with estimated gene correlation.
+Human basaloid FZD6 remains above FZD1 in three eligible participants; transitional
+and fibroblast control coverage constrain disease comparisons. Mouse Fzd4 also
+fits broad endothelial identity. No candidate or claim grade is promoted.
+
+Current next gates: source design/normalization and timing; original healthy-atlas
+access/version; functional unit-level evidence; adequately replicated state and
+later-outcome designs. See [stage ledger](Research%20Article/gate2_N1_nabhan_2023/metadata/stage_status.tsv)
+and [replay/verification](Research%20Article/gate2_N1_nabhan_2023/EXECUTION.md).
+Work is on managed `codex/nabhan-2023-plan`, based on fetched `origin/main` 17c0859.
+The original checkout and unrelated local audit material are preserved. No job
+is running. Raw inputs and full private notes remain outside tracked artifacts.
+
 ## Figure audit completion, 29 September 2026
 
 [PR #118](https://github.com/xorca0711/scRNA_seq/pull/118) completes the presentation audit:

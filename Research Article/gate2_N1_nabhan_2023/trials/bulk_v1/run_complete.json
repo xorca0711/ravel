@@ -1,0 +1,15 @@
+{
+  "finished_utc": "2026-09-29 10:53:48 UTC",
+  "R": "R version 4.6.1 (2026-06-24 ucrt)",
+  "limma": "3.68.5",
+  "edgeR": "4.10.5",
+  "input_genes": 52636,
+  "tested_genes": 16534,
+  "design_rank": 6,
+  "residual_df": 12,
+  "gene_sets": 3640,
+  "source_panel_resolved": 19,
+  "source_panel_unresolved": "Crim2",
+  "interpretation": "Adapted assay reproduction; model inference conditional on unverified source replicate independence; not equivalence or functional validation",
+  "pca_variance": [0.4996, 0.1732]
+}

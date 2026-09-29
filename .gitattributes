@@ -78,3 +78,8 @@ RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/sources/
 "analysis/scripts/07_lineage_tracing_cohort.py" -text whitespace=cr-at-eol
 "Research Article/gate2_C2_england_2025/trials/**/figures/*.svg" -text whitespace=cr-at-eol,-blank-at-eol
 RQ_Specified/A5_A11_shared_component_contract/figures/revision_20260929/*.svg whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve frozen Nb2 evidence bytes and intentional generated-file whitespace.
+"Research Article/gate2_N1_nabhan_2023/**" -text whitespace=cr-at-eol
+"Research Article/gate2_N1_nabhan_2023/**/*.tsv" whitespace=cr-at-eol,-blank-at-eol
+"Research Article/gate2_N1_nabhan_2023/**/*.svg" whitespace=cr-at-eol,-blank-at-eol

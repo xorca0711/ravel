@@ -1,0 +1,127 @@
+{
+  "namespace": "Nb2",
+  "run": "bulk_v1",
+  "recorded_utc": "2026-09-29T11:22:46.016855+00:00",
+  "contract_sha256": "3d1fd9644ad7f95eb456997fdaf4d4a69500c42b12e9bd49da682df4814abfa0",
+  "completed_measurements": {
+    "finished_utc": "2026-09-29 10:53:48 UTC",
+    "R": "R version 4.6.1 (2026-06-24 ucrt)",
+    "limma": "3.68.5",
+    "edgeR": "4.10.5",
+    "input_genes": 52636,
+    "tested_genes": 16534,
+    "design_rank": 6,
+    "residual_df": 12,
+    "gene_sets": 3640,
+    "source_panel_resolved": 19,
+    "source_panel_unresolved": "Crim2",
+    "interpretation": "Adapted assay reproduction; model inference conditional on unverified source replicate independence; not equivalence or functional validation",
+    "pca_variance": [
+      0.4996,
+      0.1732
+    ]
+  },
+  "outputs": {
+    "contract.json": {
+      "sha256": "3d1fd9644ad7f95eb456997fdaf4d4a69500c42b12e9bd49da682df4814abfa0",
+      "bytes": 4095
+    },
+    "figures/01_source_panels.png": {
+      "sha256": "97147c220f61020f0b1c7b366ca19fd281b65e634a35b4351f64fdfaba541827",
+      "bytes": 266784
+    },
+    "figures/02_bulk_pca.png": {
+      "sha256": "0131d1387e75f56af1f66513261c56ffde43165e266964d4042c2ca8375c2bad",
+      "bytes": 76631
+    },
+    "figures/03_direct_effects.png": {
+      "sha256": "ca974ee1f7a7a923bb2c0fc67546e13a8f2a7e265f6cd4938ee37fce6a7a19e5",
+      "bytes": 111919
+    },
+    "figures/04_enrichment_sensitivity.png": {
+      "sha256": "06335e01128aa5453df6f770cf29abc9b72d0a61f7bb88b597574f8e00540062",
+      "bytes": 112575
+    },
+    "REPORT.md": {
+      "sha256": "88e203e176181c5950bed23bc267602e4b38f68ffc7318e601be0a433b72035a",
+      "bytes": 7511
+    },
+    "run_complete.json": {
+      "sha256": "47c80766832a85dcc869162b92577c9016f96a9b2dee9c4834fe87c2e3a66459",
+      "bytes": 530
+    },
+    "tables/camera_all_sets.tsv.gz": {
+      "sha256": "426ec9a2c23ca8bbea1ce506863a88d6907357b4ad3d86a897207803712e33c0",
+      "bytes": 1351886
+    },
+    "tables/camera_top25_per_contrast.tsv": {
+      "sha256": "1f605a2fce6813241106c1a1f59f259f82796e9df282f1072172c03b446ce677",
+      "bytes": 31931
+    },
+    "tables/gene_effects.tsv.gz": {
+      "sha256": "8e0faf45d914874ce9fcf1d80ccb232b4a81824ede82d59df00c89c030a04975",
+      "bytes": 13059238
+    },
+    "tables/hallmark_comparable_sensitivity.tsv": {
+      "sha256": "fce90ca93fb08ff00d3d4689f0301f0568387c5995207e896dc90c332ab7798c",
+      "bytes": 1925
+    },
+    "tables/hallmark_estimated_correlation.tsv": {
+      "sha256": "70ef410de8396ff47bf39d7238edf31e2f29b0e0f6d2c08dde24a452f113420d",
+      "bytes": 53227
+    },
+    "tables/normalization.tsv": {
+      "sha256": "a6b12858d6996156210f57c9c0f794e8d8cc60b77036eebe3a1cc70788986a3a",
+      "bytes": 5160
+    },
+    "tables/normalized_log2CPM.tsv": {
+      "sha256": "fc7220215b3f01ef3ba4e1f9cbc90fa8d44f796336f0009359afe9d28c243ff6",
+      "bytes": 5584672
+    },
+    "tables/panel_effects.tsv": {
+      "sha256": "7d8a1606055444afd1e4a9793f4750a5616aa8e658100cf0d325f700ebeba334",
+      "bytes": 4254
+    },
+    "tables/panel_sample_scores.tsv": {
+      "sha256": "e96b6529f6d843da5f2e70754fa53a74d103eeb98a978751b4287d19b63b78da",
+      "bytes": 5872
+    },
+    "tables/pca_coordinates.tsv": {
+      "sha256": "ae8c985308eff0d0c2051fb975f60705599944f133c828b4b0e295cd84221d02",
+      "bytes": 986
+    },
+    "tables/source_and_lead_effects.tsv": {
+      "sha256": "e7a1b17fc45ae9fb380c5f34cb1ebd19fc255aa56f3bbf7dd729ad83ed3220fb",
+      "bytes": 72071
+    },
+    "tables/source_panel_expression.tsv": {
+      "sha256": "26125d9d455bf59cf90bd55af1dd5b53492b5b4a7a153a1ebd4b1c7663d7cd88",
+      "bytes": 29787
+    },
+    "tables/threshold_reconciliation.tsv": {
+      "sha256": "4a19a56f9ccff9b58570329ba8b261fc785e4951fb4e41b4e3d8def057c9c7b0",
+      "bytes": 774
+    },
+    "tables/top100_per_contrast.tsv": {
+      "sha256": "7eb16d862a0faf96025d645d5d99cf2abd06ea78bb88c811ce5d24c7cd689164",
+      "bytes": 251172
+    },
+    "tables/wnt_specificity_sensitivity.tsv": {
+      "sha256": "c81c6498602323313ac5db1749c8a535d4b1d9a121d73cacde1666fe1bec1399",
+      "bytes": 704
+    }
+  },
+  "scripts": {
+    "00_fetch_counts.py": "3c25c9918f0a942dee6cba7496491bb533c34e47b7a1c324e21b97084346d5cf",
+    "00_intake.py": "cd6a1dda501e41a7351b6ec17a808c9a630c7da83906e47ef5f41da9ff99f78d",
+    "01_prepare_bulk.py": "52830efcf268112b2cd6be18c43296f33809acb19aab2bab3d9b18ae3a7ba652",
+    "02_freeze_bulk.py": "0533711a2669022546740f84b35d4ee6982181b126f358956f940b99f6cf29ab",
+    "03_bulk.R": "117f5aa8d42d2ae5d5e0f051a2a4c1821d715cec41f0fa39147530587e2e0bfa",
+    "04_atlas.py": "fab60ace886beac0fb4ee4209f7921091991eb5b5174a795391f56a6f97501a6",
+    "05_figures.py": "e47223b771f2905a9ba00d5f57abf56502bac380c2e1fea7bfd954585e828f1b",
+    "06_atlas_synthesis.py": "7f9d2ea93633aa842866dcc002b994d0a206064566a668244a9ddec9b49509bf",
+    "07_verify_execution.py": "c436505fdb57b3a588675e0c7f3e684a32044e0450faadcf3b727a448c78673a",
+    "verify_plan.py": "6333acc249042699c1fa8de584170d2297dba169a8e685a81db6cfe28eb6703f"
+  },
+  "scope": "Executed measurements with stated inference ceilings; no hypothesis or claim-grade validation"
+}
