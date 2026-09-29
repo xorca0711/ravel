@@ -1,5 +1,7 @@
 # Research questions
 
+**Nb2 synthesis, 29 September 2026:** [derivation from overall results](Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) proposes **A19–A21**: epithelial response reversibility, fibroblast receptor context and capillary renewal versus maintenance. These are post-analysis questions with unexecuted designs; no mechanism, acceptance or claim grade is inferred.
+
 **28 September gap-fill execution:** [current results and every-question ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md). A15's normalization sensitivity is corrected in a new version; A5/A12 metadata gates are resolved as far as recovered inputs permit. The newer A16/A17 computational follow-ups preserve their historical outputs and all claim grades.
 
 **A16 branch integration, 28 September 2026:** [executed Stage 1 and review](RQ_Specified/A16_cd177_state_attribution/README.md)
@@ -83,6 +85,9 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A16](#a16) | A CD177-associated priming phenotype may persist within comparable mutant transitional cells | Original population mismatch and Stage 1 sensitivities leave specificity, contamination and composition unresolved | **Proposed, pending retain/reject.** [Stage 1 integrated with corrections](RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md): partly measured and inconclusive; corrected attribution and functional evidence remain open |
 | [A17](#a17) | Persistent growth differences between founder lineages may help explain mutant clone-size heterogeneity | Clone distributions and source lineage evidence motivate the model; a deposited simulator defect affects one implementation | **Proposed, pending retain/reject.** Computationally feasible after source-count, parameter and schedule amendments; held-out refit unexecuted |
 | [A18](#a18) | WT expansion and loss of AT2 identity may be regulated differently near mutant clones | Source phenotype and reproduced pooled distance profiles; two causal channels remain a hypothesis | **Proposed, pending retain/reject.** Descriptive profiles complete; spatial inference needs mouse/clone identifiers |
+| [A19](#a19) | Terminating Fzd-supported expansion permits mature alveolar contribution while preserving an AT2 reserve | Nb2 withdrawal lead, selective RNA output and receptor/target dissociation | **Proposed; primary priority.** Inventory linked engagement, initial-state and later-outcome data before fitting |
+| [A20](#a20) | Fzd2 maintains an AF1-like trophic state that enables epithelial maturation; receptor dependence varies by subtype | Fzd1/Fzd2 subtype contrast; support and ECM RNA rise together in AF1 | **Proposed; secondary priority.** Receptor-specific functional comparison and source subtype crosswalk needed |
+| [A21](#a21) | Fzd4 recruits injured gCap cells into regenerative renewal and aerocyte contribution | Broad vascular expression; pooled cycling association fails round consistency | **Proposed; conditional priority.** Resolve cohort/substate evidence and distinguish lineage output from survival/performance |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -131,17 +136,20 @@ The [three-track plan](Research%20Article/gate2_N1_nabhan_2023/ANALYSIS_TRIAL_PL
 links ten source propositions, five exploratory branches and those candidates.
 Nb2-N1/N3 connect to A4/A8, Nb2-N2 to A1/A5/A8/A10, and Nb2-N6 to A13/A15;
 these links do not replace their existing endpoints or establish a common mechanism.
-The owner's earlier Axin2/Il1r1 theme stays with A4 and Nb1. No new A-series IDs
-or C-grades are assigned. GSE208770 metadata describe bulk organoid RNA, not
-treated single-cell states.
+The owner's earlier Axin2/Il1r1 theme stays with A4 and Nb1. The initial paper-local
+registration assigned no new A-series IDs or C-grades. GSE208770 describes bulk
+organoid RNA, not treated single-cell states.
 
 The [Nb2 branch analyses](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md)
 remain under `Research Article`, as the owner clarified. Their
 [results](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md) and
-paper-local candidate notes inform a later synthesis. No Nb2 workspace or formal
-Nb2-RQ1–RQ8 registration remains under `RQ_Specified`. Future RQs must be derived
-from the analysis and its unresolved biological implications, rather than assigned
-one-to-one from the original branch list. Existing A-series scope is unchanged.
+paper-local candidate notes now inform the [29 September synthesis](Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md).
+It combines N1/N2/N3/N5 into A19, derives A20 from N6 and retains A21 from N7 at
+conditional priority. N4/N8 remain paper-local pending comparable perturbation
+evidence. The retired Nb2-RQ1–RQ8 identifiers are not restored. Only the new
+question plans live under `RQ_Specified`; prior analyses stay with the paper.
+A0–A18 keep their existing scopes. A19–A21 are proposed, not validated or approved
+mechanisms; their contracts do not yet authorize confirmatory scoring.
 
 ## Hypothesis cards
 
@@ -1022,7 +1030,105 @@ No author was contacted. [Source audit](docs/audits/2026-09-28-england-paper-rqs
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC3–MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
 
+<a id="a19"></a>
+
+### A19. Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?
+
+**Proposed biological hypothesis, 29 September 2026; primary priority; untested.**
+[Biological rationale](RQ_Specified/A19_fzd_response_reversibility/README.md) ·
+[Investigation plan](RQ_Specified/A19_fzd_response_reversibility/PLAN.md).
+
+**Hypothesis and mechanism.** Fzd stimulation maintains an expandable AT2 state;
+termination permits competent descendants to enter an AT1 maturation program
+while preserving a responsive AT2 reserve. Initial state and receptor-level input
+may tune this reversible transition. YAP/TAZ dynamics are a candidate component,
+not an established mediator. H1 (duration), H2 (initial-state competence) and H3
+(input-dependent regulation) retain separate decisions.
+
+**Evidence to hypothesis.** The withdrawal AT1 RNA direction survives omissions
+but is imprecise. Fzd agonists compare above CHIR and below withdrawal48 on that
+score. Narrow YAP-associated and broad sustained-YT responses disagree; matched
+AT1/AT2 units dissociate Fzd5 abundance from canonical-target RNA. These motivate
+reversible, context-dependent biology without demonstrating it.
+
+**Prediction, rival and decision.** Verified off-periods should increase traced
+mature output per initial viable population without exhausting the AT2 reserve.
+Selection, toxicity and generic growth remain rivals. A precise absence of useful
+mature-output gain, a reliable reverse effect or failed reserve preservation
+weakens H1. State/input effects require their own contrasts; matching on achieved
+growth or post-treatment scores cannot identify a direct mechanism. Missing
+engagement or independent mature endpoints is inconclusive. First inventory linked
+source, exposure and outcome data. A4, A8, A10 and A1 retain their distinct scopes.
+
+<a id="a20"></a>
+
+### A20. Do subtype-specific Fzd signals maintain a fibroblast niche that enables alveolar maturation?
+
+**Proposed biological hypothesis, 29 September 2026; secondary priority; untested.**
+[Biological rationale](RQ_Specified/A20_fibroblast_fzd_context/README.md) ·
+[Investigation plan](RQ_Specified/A20_fibroblast_fzd_context/PLAN.md).
+
+**Hypothesis and mechanism.** Fzd2 maintains an AF1-like trophic state whose
+secreted activity enables AT2 descendants to mature. Fzd1-rich contexts are not
+automatically interchangeable support states. The receiving fibroblast state
+therefore determines the epithelial consequence of receptor signaling; support
+and matrix remodeling remain distinct outputs.
+
+**Evidence to hypothesis.** In five paired samples, AF2 is Fzd1-high while AF1 is
+Fzd2-high with more support-ligand and ECM RNA. The within-AF1 Fzd1–support
+correlation is unstable. Published mesenchymal Fzd2 perturbation supplies prior
+biological motivation. The proposed trophic-state-to-mature-output chain exceeds
+these observations and needs functional testing; no specific mediator is nominated.
+
+**Prediction, rival and decision.** Comparable Fzd2 loss should reduce AF1-derived
+trophic activity and mature epithelial output more than Fzd1 loss; the relative
+receptor effect should depend on initial subtype. A precise absence or reliable
+reverse of the AF1 direction weakens the primary hypothesis; a precise absence
+of subtype interaction weakens the context extension. Cell depletion, direct
+epithelial reception and mechanical/ECM support compete with the secreted-support
+account. A statistical interaction alone does not establish mediation. First
+inventory perturbation/endpoints and crosswalk subtypes. A13's predictive niche
+and A15's integrin/TGF-beta questions are unchanged.
+
+<a id="a21"></a>
+
+### A21. Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?
+
+**Proposed biological hypothesis, 29 September 2026; conditional priority; untested.**
+[Biological rationale](RQ_Specified/A21_fzd4_capillary_function/README.md) ·
+[Investigation plan](RQ_Specified/A21_fzd4_capillary_function/PLAN.md).
+
+**Hypothesis and mechanism.** Fzd4 signaling helps injured gCap cells enter a
+regenerative state that supplies renewed gCap cells and aerocyte descendants.
+General endothelial survival or vascular performance is a competing mechanism,
+not an assumed explanation already excluded by the current data.
+
+**Evidence to hypothesis.** CAP1 has higher Fzd4 than CAP2 in eight pairs, with
+substantial arterial/venous expression too. The pooled CAP1 Fzd4–cycling rho
+(+0.738) has opposite within-round signs (−0.400/+1.000; four units each). This
+weakens the expression lead. Published gCap lineage biology makes the question
+plausible but supplies no Fzd4 dependency result in these samples.
+
+**Prediction, rival and decision.** Verified receptor perturbation should change
+regenerative-state entry before altering traced gCap/aerocyte contribution per
+initial population. The effect must be distinguishable from broad endothelial
+loss; survival adjustment alone is insufficient. Precise absence of a useful
+renewal-selective effect weakens the hypothesis; a maintenance-only phenotype
+favors its rival. Failed engagement is inconclusive. Resolve cohort/substate
+identity and independently challenge the RNA lead first. Failed replication
+retires that lead without proving no receptor function.
+
 ## Execution and interpretation rules
+
+**Biological-hypothesis rule (owner clarification, 29 September 2026).** Every
+RQ must propose a plausible biological process, state its causal or directional
+prediction, identify competing biological explanations, and name a discriminating
+outcome. Explain how the result motivates that mechanism and where the inferential
+step remains untested. Marker disagreement, batch effects, score robustness or
+measurement artifacts belong in eligibility/controls and can revise a question;
+they are not sufficient as its organizing biological hypothesis. Statistical
+interactions and prediction gains do not by themselves establish a mechanism.
+
 
 Before a new fit, freeze its estimand, biological unit, eligible observations,
 primary comparison, multiplicity family, meaningful effect/prediction margin

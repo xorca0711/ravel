@@ -1,14 +1,18 @@
 # Research question analyses
 
 This directory contains execution workspaces for the biological questions in
-[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md). **A0–A18 are stable question
+[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md). **A0–A21 are stable question
 identifiers**, not a reading sequence, evidence grade or record of acceptance.
 A12-S1 is an enabling source-identity question. The register owns each hypothesis
 and its status; this index explains the workspace labels.
 
 Each question README opens with its organizing biological question, motivation,
 analytical scope and key reading links. The plans, evidence and analysis sequence
-then follow the needs of that question. Source-paper analyses remain in
+then follow the needs of that question. Each RQ must state a plausible biological
+process, its predicted consequence, competing explanations and a discriminating
+outcome. Measurement artifacts inform controls, not the organizing hypothesis
+([register rule](../RESEARCH_QUESTIONS.md#execution-and-interpretation-rules)).
+Source-paper analyses remain in
 `Research Article/`; a question can draw on several papers and assays.
 
 The [combined development and reframing proposal](../docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
@@ -43,6 +47,23 @@ quantifying how conditional their macrophage source term is.
 | A14 | [Do exposure duration and fibroblast IL-1 reception separately determine recovery?](A14_withdrawal_recovery_and_reception/README.md) | Two frozen hypotheses with separate decisions; the experiment is unexecuted |
 | A15 | [Does the epithelial input to fibroblast activation run through the integrin or through the ligand?](A15_epithelial_integrin_tgfb_activation/README.md) | Proposed integrin/TGF-beta mechanism and a bounded epithelial-state rival; parent test remains blocked |
 | A16 | [Does CD177 identify a priming phenotype within comparable mutant cells?](A16_cd177_state_attribution/README.md) | Attribution of an RNA association within comparable mutant transitional populations |
+
+## Nb2 questions derived after paper analysis
+
+[The Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md)
+proposes three questions from the overall results. Their designs are unexecuted;
+prior analyses and figures remain beside the paper. These do not restore the
+retired one-question-per-branch registration.
+
+| ID | Organizing question | Immediate evidence gate |
+|---|---|---|
+| A19 | [Can transient Fzd signaling separate expansion from maturation?](A19_fzd_response_reversibility/README.md) | Linked exposure/engagement, initial-state and later mature-output evidence; primary priority |
+| A20 | [Do subtype-specific Fzd signals maintain a maturation-supporting fibroblast niche?](A20_fibroblast_fzd_context/README.md) | Receptor-specific functional comparison and subtype crosswalk; secondary priority |
+| A21 | [Does Fzd4 recruit gCap cells into regenerative renewal?](A21_fzd4_capillary_function/README.md) | Cohort/substate replication and lineage-versus-maintenance evidence; conditional priority |
+
+N4 compensation and N8 endogenous input remain paper-local until comparable
+perturbation evidence is available. Registration neither validates a hypothesis
+nor supplies a confirmatory execution contract.
 
 ## Shared enabling work
 

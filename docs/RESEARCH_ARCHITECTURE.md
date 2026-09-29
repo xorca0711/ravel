@@ -9,7 +9,7 @@ changes do not rewrite earlier measurements.
 
 The [roadmap execution record](roadmap_runs/2026-09-27/README.md) supplies the latest P1 source facts and P4 accounting evidence. Completed feasibility work does not imply its biological gate has passed.
 
-Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. Current question scope is A0–A18 plus A12-S1.
+Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. Current question scope is A0–A21 plus A12-S1. A19–A21 are unexecuted proposals from the [Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md), added 29 September; the dated ledgers above retain their original scope.
 
 The purpose is to generate and discriminate biological hypotheses about lung
 repair and remodelling from public data. The organizing question is not yet an

@@ -6,7 +6,7 @@ protocols, original trial names and immutable run records remain historical evid
 
 | Material | Canonical location | Rule |
 |---|---|---|
-| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A18 (A15–A18 proposed, pending retain/reject); link to source studies rather than maintaining a second register |
+| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A21 (A15–A18 retain their earlier proposed status; A19–A21 are new post-analysis proposals); link to source studies rather than maintaining a second register |
 | Question-specific plans and analyses | `RQ_Specified/A<id>_<topic>/` | Prospective plan, source metadata, configuration, scripts, tables, reports and gallery; reference the root question register |
 | Shared question figures | [analysis/figures/rq/README.md](../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
 | Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
@@ -25,8 +25,9 @@ protocols, original trial names and immutable run records remain historical evid
 
 ## Identifier namespaces
 
-- `A0`–`A18` identify the current repository-wide question cards. A15–A18
-  remain proposals pending retain/reject; an identifier is not claim acceptance.
+- `A0`–`A21` identify the current repository-wide question cards. A15–A18
+  retain their pending proposals; A19–A21 derive from the Nb2 synthesis.
+  Registration is not biological acceptance or confirmatory readiness.
   Figures use the associated question ID, with panel/group suffixes where needed.
 - `England/E-N1`–`England/E-N8` are paper-local candidate extensions indexed
   from the root register, not A19–A26. Biological cards and supporting checks
@@ -97,3 +98,13 @@ notes retain Nb2-N1–N8 as provisional interpretations. `RQ_Specified` is popul
 later with questions warranted by the analysis and synthesis; branches are not
 automatically promoted to RQs. The premature Nb2-RQ1–RQ8 registration is retired.
 The move preserves measured results, source records and existing A-series scope. [Index](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md).
+
+## Nb2 result-derived questions, 29 September 2026
+
+The subsequent [synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md)
+proposes A19–A21 after the paper analyses. Their new plans live under
+`RQ_Specified/A19_fzd_response_reversibility/`,
+`RQ_Specified/A20_fibroblast_fzd_context/` and
+`RQ_Specified/A21_fzd4_capillary_function/`. Earlier analyses stay paper-local.
+N1/N2/N3/N5 combine in A19; N6 and N7 inform A20/A21; N4/N8 remain deferred.
+The older Nb2-RQ1–RQ8 identities remain retired. No A0–A18 scope or C-grade changes.

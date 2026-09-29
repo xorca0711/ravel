@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-29",
+  "scope": "RQ framing, documentation and evidence preservation; no biological inference validated",
+  "targeted_checks": [
+    {
+      "check": "A0-A18 cards unchanged",
+      "passed": true
+    },
+    {
+      "check": "unique A0-A21 main anchors",
+      "passed": true
+    },
+    {
+      "check": "preserved source: Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/bulk_program_effects.tsv",
+      "passed": true
+    },
+    {
+      "check": "preserved source: Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/bulk_library_influence.tsv",
+      "passed": true
+    },
+    {
+      "check": "preserved source: Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/mouse_paired_summary.tsv",
+      "passed": true
+    },
+    {
+      "check": "preserved source: Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/mouse_unit_coverage.tsv",
+      "passed": true
+    },
+    {
+      "check": "preserved source: Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/tables/vascular_depth_round_audit.tsv",
+      "passed": true
+    },
+    {
+      "check": "preserved source: Research Article/gate2_N1_nabhan_2023/branch_analysis/trials/extension_v1/verification.json",
+      "passed": true
+    },
+    {
+      "check": "preserved source: Research Article/gate2_N1_nabhan_2023/metadata/execution_validation.json",
+      "passed": true
+    },
+    {
+      "check": "A19 proposed and unexecuted",
+      "passed": true
+    },
+    {
+      "check": "A19 biological framing",
+      "passed": true
+    },
+    {
+      "check": "A19 synchronized hypothesis",
+      "passed": true
+    },
+    {
+      "check": "A19 documents exist",
+      "passed": true
+    },
+    {
+      "check": "A20 proposed and unexecuted",
+      "passed": true
+    },
+    {
+      "check": "A20 biological framing",
+      "passed": true
+    },
+    {
+      "check": "A20 synchronized hypothesis",
+      "passed": true
+    },
+    {
+      "check": "A20 documents exist",
+      "passed": true
+    },
+    {
+      "check": "A21 proposed and unexecuted",
+      "passed": true
+    },
+    {
+      "check": "A21 biological framing",
+      "passed": true
+    },
+    {
+      "check": "A21 synchronized hypothesis",
+      "passed": true
+    },
+    {
+      "check": "A21 documents exist",
+      "passed": true
+    },
+    {
+      "check": "all eight branches accounted once",
+      "passed": true
+    },
+    {
+      "check": "original Nb2 trial trees unchanged",
+      "passed": true
+    },
+    {
+      "check": "claim grades unchanged",
+      "passed": true
+    }
+  ],
+  "commands": [
+    {
+      "name": "Paper plan verification",
+      "exit_code": 0,
+      "output": "PASS: source hash, 18 samples, 6 conditions, contrasts, 11-stage DAG, 10 claims, 8 ordered candidates and navigation\n"
+    },
+    {
+      "name": "Repository validation",
+      "exit_code": 1,
+      "output": "Repository validation FAILED (1 of 5142 checks):\n  - canonical question sequence: expected ['A0', 'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18'], got ['A0', 'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21']\n"
+    },
+    {
+      "name": "Claim contract",
+      "exit_code": 0,
+      "output": "Claim contract verified; 18 numeric bindings passed.\n"
+    },
+    {
+      "name": "Evidence/provenance tests",
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 67 tests in 7.609s\n\nOK (skipped=1)\n"
+    }
+  ],
+  "correction": "The initial repository run found the old A0-A18 range. The validator now checks A0-A21; prior cards and evidence remain unchanged.",
+  "final_repository_validation": {
+    "exit_code": 0,
+    "output": "Repository validation passed: 5143 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+  },
+  "modified_validator_compilation": "passed"
+}

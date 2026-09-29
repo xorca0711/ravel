@@ -1,0 +1,51 @@
+{
+  "schema": "nb2-derived-question/v1",
+  "drafted": "2026-09-29",
+  "status": "proposed_design_unexecuted",
+  "post_analysis_derivation": true,
+  "owner_request": "start deriving RQs from the overall results",
+  "biological_acceptance": false,
+  "scoring_authorized": false,
+  "id": "A21",
+  "folder": "A21_fzd4_capillary_function",
+  "priority": "conditional",
+  "source_branches": [
+    "Nb2-N7"
+  ],
+  "question": "Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?",
+  "hypotheses": [
+    "Fzd4-dependent regenerative state entry and later lineage contribution",
+    "competing general endothelial maintenance mechanism"
+  ],
+  "unit": "independent animal/preparation with resolved round and capillary context",
+  "primary_outcome": "traced capillary descendant yield per initial viable labeled population",
+  "required_evidence": [
+    "cohort and substate identifiers",
+    "independent expression replication",
+    "verified receptor perturbation",
+    "lineage-linked output",
+    "survival and vascular performance"
+  ],
+  "existing_owners": [],
+  "paper_synthesis": "Research Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md",
+  "design_owner": "RQ_Specified/A21_fzd4_capillary_function/PLAN.md",
+  "quantitative_parameters": {
+    "meaningful_effect_margin": null,
+    "uncertainty_rule": null,
+    "biological_replication_and_power": null,
+    "multiplicity_family": null,
+    "validation_cohort": null
+  },
+  "execution_gate": "Identify eligible data and freeze remaining assay-specific comparisons, margins, models and validation before new outcomes are inspected.",
+  "new_fits": false,
+  "new_claim_grades": false,
+  "biological_hypothesis": "Fzd4 contributes to injury-induced gCap recruitment into a regenerative state that supplies renewed gCap and aerocyte descendants.",
+  "biological_process": "receptor-dependent recruitment into capillary regeneration",
+  "competing_biology": [
+    "endothelial survival or barrier/perfusion failure",
+    "capillary substate redistribution",
+    "cohort-specific injury response"
+  ],
+  "mechanistic_prediction": "Verified perturbation changes regenerative-state entry before traced descendant production, with an effect distinguishable from generalized endothelial loss.",
+  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint."
+}

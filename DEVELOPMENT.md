@@ -1850,3 +1850,24 @@ taken over directly. Grades proposed here are not owner acceptance.
 
 The incoming claim register and generated summaries are retained unchanged. The
 Nb2 scientific artifacts and provisional candidate status are unchanged.
+
+## 29 September 2026: derive questions from the combined Nb2 results
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-29 | Derive RQs after paper-local analysis and synthesis | Owner | Owner requested derivation; formulations by Codex remain proposals | Propose A19–A21 with new question plans; retain all earlier analysis in Research Article | Follow evidence-to-question hierarchy without one formal RQ per original branch |
+| 2026-09-29 | Consolidation and priority | Codex | Proposed under the owner's derivation request; no biological acceptance inferred | N1/N2/N3/N5 combine in A19; N6 informs A20; N7 informs conditional A21; defer N4/N8 | Separate functional endpoints and decisions; respect failed coverage, perturbation mismatch and unfavorable round sensitivity |
+
+The bounded primary-source check contextualizes Gaona, the Fzd2 study and Gillich;
+it is not an exhaustive novelty or dataset search. New contracts disclose prior
+exposure, missing quantitative design choices and unexecuted status. Source trial
+bytes, A0–A18 scopes and C-grades are preserved. No scientific result is rerun.
+
+| Date | Proposal clarified | Reason | Corrected by | Resolution |
+|---|---|---|---|---|
+| 2026-09-29 | RQs framed primarily as response interactions or measurement distinctions | Each RQ must be plausibly framed as a biological hypothesis, not a measurement artifact | Owner, explicit framing rule | State a reversible expansion/maturation process (A19), trophic fibroblast-state mechanism (A20) and Fzd4-dependent regenerative recruitment (A21); retain measurement issues as rivals and controls. Mechanisms remain proposed and untested |
+
+The owner subsequently requested pushing this RQ synthesis and opening a PR.
+Codex prepared the same branch for publication, retaining the proposed/untested
+status and biological-hypothesis framing rule. This authorizes publication, not
+scientific acceptance or merging.

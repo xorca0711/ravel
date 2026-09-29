@@ -380,7 +380,17 @@
       "Nb2-N7",
       "Nb2-N8"
     ],
-    "rq_specified_created": false,
-    "next_step": "Synthesize analysis and derive warranted RQs; no automatic one-RQ-per-branch registration"
+    "rq_specified_created": true,
+    "next_step": "A19 eligibility inventory; A20 subtype/perturbation crosswalk; A21 cohort and lineage inventory. Prior branch analyses remain paper-local."
+  },
+  "rq_derivation": {
+    "report": "Research Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md",
+    "manifest": "Research Article/gate2_N1_nabhan_2023/metadata/rq_derivation_2026-09-29.json",
+    "proposed_ids": [
+      "A19",
+      "A20",
+      "A21"
+    ],
+    "status": "post_analysis_proposals_designs_unexecuted"
   }
 }
