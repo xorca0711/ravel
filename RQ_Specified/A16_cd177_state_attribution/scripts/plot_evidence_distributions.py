@@ -1,20 +1,29 @@
-"""Render the A16 evidence distributions that the summary panels only asserted.
+"""Render the A16 evidence in the conventional form for each result type.
 
-A16_F03 shows the C3 detection-matched gene null as a distribution per descriptive entry,
-with Cd177's own effect marked, and the matching space that explains why control genes are
-scarce. Inputs: tables/stage1/A16_C3_control_gene_detail.csv (one row per selected control
-gene per unit) and A16_C3_matched_gene_null.csv (Cd177's own values), with the matching bands
-read from tables/stage1/run_record.json.
+Each panel uses the display its analysis type is normally reported in, rather than a generic
+dot plot:
 
-A16_F04 shows the corrected-C1 estimate as the distribution of per-cell matched differences
-behind it, and the priming distributions of positives, their matched controls and the full
-negative pool. Inputs: correction_20260928/tables/corrected_c1/{cell_outcomes,matched_edges,
-effects}.csv.
+A16_F03 - the C3 detection-matched gene null as small-multiple histograms of the control-gene
+statistic with a vertical line at Cd177's own value, which is the standard rendering of a
+resampling or matched null (grey null, line at the observed statistic). One facet per
+descriptive entry, shared axis, ordered by control count.
 
-Every plotted value is a saved column, except the per-positive-cell matched differences in
-A16_F04a, which are recomputed from the saved edge list and saved per-cell scores exactly as
-the archived verifier does; the script asserts their mean equals the reported matched_raw to
-1e-12 before plotting. Run from the repository root:
+A16_F04 - per-cell scores as violins with an inner box and median, the standard single-cell
+display for comparing a signature score across cell groups (Seurat VlnPlot / scanpy
+sc.pl.violin), rather than jittered points alone.
+
+A16_F05 - matching balance as a Love plot: absolute standardized mean difference per covariate
+before and after matching, ordered by the pre-matching value, with the conventional 0.1
+reference. This is the named standard diagnostic for covariate balance after matching
+(Love 2004); the 0.1 line is conventional rather than universal and is drawn as a reference,
+not a pass mark.
+
+Inputs are tracked tables: tables/stage1/A16_C3_control_gene_detail.csv and
+A16_C3_matched_gene_null.csv, and correction_20260928/tables/corrected_c1/{cell_outcomes,
+matched_edges,effects,PC_balance}.csv. Every plotted value is a saved column, except the
+per-positive-cell matched differences in A16_F04a, which are recomputed from the saved edge
+list and saved per-cell scores exactly as the archived verifier does; the script asserts their
+mean equals the reported matched_raw to 1e-12 before plotting. Run from the repository root:
 
     python RQ_Specified/A16_cd177_state_attribution/scripts/plot_evidence_distributions.py
 """
@@ -40,8 +49,10 @@ UNIT_LABEL = {
     'exp2_sub_r1.0=12': 'exp2 sub 12',
 }
 INK = '#222222'
+OVERLAPS = {}
 GREY = '#8A8A8A'
 PALE = '#C9D6DE'
+PALE_DARK = '#AFC3CE'
 CD177 = '#B4553C'
 
 
@@ -56,155 +67,255 @@ def _style(plt):
     })
 
 
+def _overlap_report(fig, matplotlib, np):
+    """Geometric text-collision check (figure-style 9.1). Returns a list of colliding pairs."""
+    renderer = fig.canvas.get_renderer()
+    texts = [(t, t.get_window_extent(renderer)) for t in fig.findobj(matplotlib.text.Text)
+             if t.get_text().strip() and t.get_visible()]
+    ticklabels = {ax: set(ax.get_xticklabels(which='both') + ax.get_yticklabels(which='both'))
+                  for ax in fig.axes}
+    pairs = []
+    for i, (a, ba) in enumerate(texts):
+        for b, bb in texts[i + 1:]:
+            if ba.overlaps(bb):
+                pairs.append((a.get_text()[:28], b.get_text()[:28]))
+    for ax in fig.axes:
+        for spine in ax.spines.values():
+            if not spine.get_visible():
+                continue
+            bs = spine.get_window_extent(renderer)
+            for t, bt in texts:
+                if bt.overlaps(bs) and t not in ticklabels.get(ax, set()):
+                    pairs.append((t.get_text()[:28], 'spine'))
+        for coll in ax.collections:
+            try:
+                if not coll.get_visible():
+                    continue
+                try:
+                    offsets = coll.get_offsets()
+                except Exception:
+                    continue
+                sizes = np.atleast_1d(np.asarray(coll.get_sizes(), dtype=float))
+                if sizes.size == 0:
+                    sizes = np.array([26.0])
+                offsets = np.asarray(np.atleast_2d(offsets), dtype=float)
+                if offsets.shape[-1] != 2:
+                    continue
+                for j, (ox, oy) in enumerate(offsets):
+                    if not np.isfinite([ox, oy]).all():
+                        continue
+                    px, py = ax.transData.transform((ox, oy))
+                    r = 0.5 * float(np.sqrt(sizes[j % sizes.size])) + 1.0
+                    bm = matplotlib.transforms.Bbox.from_bounds(px - r, py - r, 2 * r, 2 * r)
+                    for t, bt in texts:
+                        if bt.overlaps(bm) and t not in ticklabels.get(ax, set()):
+                            pairs.append((t.get_text()[:28], 'marker'))
+            except Exception:
+                continue
+        for line in ax.lines:
+            if not line.get_visible():
+                continue
+            bl = line.get_window_extent(renderer)
+            if bl.width > 2 and bl.height > 2:
+                continue
+            for t, bt in texts:
+                if bt.overlaps(bl) and t not in ticklabels.get(ax, set()):
+                    pairs.append((t.get_text()[:28], 'reference line'))
+    return pairs
+
 def figure_three(plt, np, pd, paths):
+    """C3 null as small-multiple histograms with a line at the observed statistic."""
     detail = pd.read_csv(S1 / 'A16_C3_control_gene_detail.csv')
     null = pd.read_csv(S1 / 'A16_C3_matched_gene_null.csv')
-    record = json.loads((S1 / 'run_record.json').read_text(encoding='utf-8'))
-    bands = record['matching_bands']
-    det_band, exp_band = bands['detection_rate_relative'], bands['mean_log1p_cp10k_relative']
-
     cd = null[null.endpoint == PRIMARY].set_index('unit')
-    order = cd.sort_values('n_control_genes_used', ascending=True).index.tolist()
+    order = cd.sort_values('n_control_genes_used', ascending=False).index.tolist()
 
-    fig = plt.figure(figsize=(7.6, 4.6), layout='constrained')
-    grid = fig.add_gridspec(1, 2, width_ratios=[1.45, 1.0])
-    ax_a = fig.add_subplot(grid[0, 0])
-    ax_b = fig.add_subplot(grid[0, 1])
+    values = detail.smd_priming.dropna()
+    lo = min(values.min(), cd.cd177_smd.min()) - 0.15
+    hi = max(values.max(), cd.cd177_smd.max()) + 0.15
+    bins = np.linspace(lo, hi, 34)
 
-    rng = np.random.default_rng(20260928)
-    for y, unit in enumerate(order):
+    fig, axes = plt.subplots(3, 3, figsize=(7.4, 5.4), sharex=True, layout='constrained')
+    for ax, unit in zip(axes.ravel(), order):
         controls = detail[detail.unit == unit].smd_priming.dropna().to_numpy()
         n_used = int(cd.loc[unit, 'n_control_genes_used'])
         powered = n_used >= CONTROL_FLOOR
         if controls.size:
-            ax_a.scatter(controls, y + rng.uniform(-0.17, 0.17, controls.size), s=7,
-                         color=PALE if powered else GREY, alpha=0.75, linewidth=0, zorder=2)
-            lo, hi = np.percentile(controls, [5, 95])
-            ax_a.plot([lo, hi], [y, y], color=GREY, linewidth=0.9, zorder=3)
-            ax_a.plot([np.median(controls)] * 2, [y - 0.22, y + 0.22], color=INK,
-                      linewidth=1.4, zorder=4)
-        value = cd.loc[unit, 'cd177_smd']
-        if pd.notna(value):
-            ax_a.scatter(value, y, marker='D', s=30, color=CD177, zorder=6,
-                         edgecolor='white', linewidth=0.6)
-        ax_a.annotate(f'{n_used}', xy=(1.0, y), xycoords=('axes fraction', 'data'),
-                      xytext=(4, 0), textcoords='offset points', va='center',
-                      fontsize=6.5, color=INK if powered else GREY,
-                      annotation_clip=False)
-    ax_a.axvline(0, color=INK, linewidth=0.8, zorder=1)
-    ax_a.set_yticks(range(len(order)))
-    ax_a.set_yticklabels([UNIT_LABEL[u] for u in order])
-    ax_a.set_xlabel('Priming-associated standardized mean difference,\nCd177-positive minus negative')
-    ax_a.set_title('Only two entries hold a null dense enough\nto place Cd177 in it')
-    ax_a.annotate('control genes', xy=(1.0, 1.0), xycoords='axes fraction', xytext=(4, 8),
-                  textcoords='offset points', fontsize=6.5, color=INK, annotation_clip=False)
-    ax_a.margins(y=0.07)
-    ax_a.set_xlim(left=min(-1.2, detail.smd_priming.min() - 0.1))
-    ax_a.annotate('Cd177', xy=(cd.loc[order[-1], 'cd177_smd'], len(order) - 1),
-                  xytext=(6, 10), textcoords='offset points', fontsize=7, color=CD177,
-                  arrowprops=dict(arrowstyle='-', color=CD177, linewidth=0.7))
-    ax_a.annotate('median and 5th-95th percentile\nof the selected control genes',
-                  xy=(0.03, 0.03), xycoords='axes fraction', fontsize=6.3, color=GREY)
-
-    shown = ['exp1_sub_r1.0=10', 'GSM7890835']
-    for unit, marker in zip(shown, ['o', 's']):
-        controls = detail[detail.unit == unit]
-        ax_b.scatter(100 * controls.detection_rate, controls.mean_log1p_cp10k, s=9,
-                     marker=marker, facecolor='none', edgecolor=LIB_COLOUR[LIBRARIES[0]]
-                     if unit == shown[0] else LIB_COLOUR[LIBRARIES[1]], linewidth=0.7,
-                     alpha=0.8, zorder=2,
-                     label=f'{UNIT_LABEL[unit]}  ({len(controls)} controls)')
-        x0 = 100 * float(cd.loc[unit, 'cd177_detection_rate'])
-        y0 = float(cd.loc[unit, 'cd177_mean_log1p_cp10k'])
-        colour = LIB_COLOUR[LIBRARIES[0]] if unit == shown[0] else LIB_COLOUR[LIBRARIES[1]]
-        ax_b.add_patch(plt.Rectangle((x0 * (1 - det_band), y0 * (1 - exp_band)),
-                                     x0 * 2 * det_band, y0 * 2 * exp_band,
-                                     fill=False, edgecolor=colour, linewidth=0.9,
-                                     linestyle='--', zorder=3))
-        ax_b.scatter(x0, y0, marker='D', s=34, color=CD177, edgecolor='white',
-                     linewidth=0.6, zorder=5)
-    ax_b.set_xlabel('Detection rate in the entry (% of cells)')
-    ax_b.set_ylabel('Mean log1p(CP10k) where detected')
-    ax_b.set_title('Few genes match Cd177 on detection\nand expression together')
-    ax_b.legend(frameon=False, loc='upper left', fontsize=6.5, handletextpad=0.4)
-    ax_b.annotate('dashed box: the frozen matching band\n(detection \u00b125%, expression \u00b135%, relative)',
-                  xy=(0.03, 0.03), xycoords='axes fraction', fontsize=6.3, color=GREY)
-    ax_b.margins(0.10)
-
-    for ax, letter in ((ax_a, 'a'), (ax_b, 'b')):
-        ax.text(-0.16 if ax is ax_a else -0.20, 1.05, letter, transform=ax.transAxes,
-                fontweight='bold', fontsize=10, va='bottom', ha='right')
+            ax.hist(controls, bins=bins, color=PALE if powered else '#E2E2E2',
+                    edgecolor=GREY, linewidth=0.35, zorder=2)
+        observed = cd.loc[unit, 'cd177_smd']
+        if pd.notna(observed):
+            ax.axvline(observed, color=CD177, linewidth=1.5, zorder=4)
+        exceed = cd.loc[unit, 'frac_control_ge_cd177']
+        note = f'{n_used} control gene' + ('s' if n_used != 1 else '')
+        if pd.notna(exceed):
+            note += f'\n{exceed:.0%} reach Cd177'
+        counts, _ = np.histogram(controls, bins=bins) if controls.size else (np.array([0]), None)
+        ax.set_ylim(0, max(counts.max(), 1) * 1.42)
+        mid = 0.5 * (bins[0] + bins[-1])
+        right = pd.notna(observed) and observed < mid
+        ax.annotate(note, xy=(0.98 if right else 0.02, 0.97), xycoords='axes fraction',
+                    ha='right' if right else 'left', va='top',
+                    fontsize=6.2, color=INK if powered else GREY)
+        ax.set_title(f'{UNIT_LABEL[unit]}' + ('' if powered else '  (under-powered null)'),
+                     fontsize=7.2, color=INK if powered else GREY)
+        ax.tick_params(labelsize=6.2)
+        ax.set_yticks([])
+        ax.spines['left'].set_visible(False)
+    for ax in axes.ravel()[len(order):]:
+        ax.set_visible(False)
+    for ax in axes[-1]:
+        ax.set_xlabel('Priming SMD of a matched\ncontrol gene', fontsize=7)
+    fig.suptitle('Two entries hold a null dense enough to place Cd177; the other seven fall below the\n'
+                 '40-gene readability floor, and one holds a single control gene. '
+                 'Red line: Cd177\u2019s own effect.',
+                 fontsize=8.5, x=0.01, ha='left')
+    fig.canvas.draw()
+    OVERLAPS['figure_three'] = _overlap_report(fig, plt.matplotlib, np)
     for path in paths:
         fig.savefig(path, metadata={'Creator': 'scRNA_seq A16 evidence distributions'})
     plt.close(fig)
 
 
+def _violin(ax, plt, np, datasets, positions, colours):
+    """Violin with an inner box and median, the single-cell convention."""
+    parts = ax.violinplot(datasets, positions=positions, widths=0.72,
+                          showextrema=False, showmedians=False)
+    for body, colour in zip(parts['bodies'], colours):
+        body.set_facecolor(colour)
+        body.set_edgecolor(colour)
+        body.set_alpha(0.32)
+        body.set_linewidth(0.7)
+    box = ax.boxplot(datasets, positions=positions, widths=0.13,
+                     showfliers=False, patch_artist=True, medianprops=dict(color='white',
+                     linewidth=1.3), whiskerprops=dict(linewidth=0.8),
+                     capprops=dict(linewidth=0.8))
+    for patch, colour in zip(box['boxes'], colours):
+        patch.set_facecolor(colour)
+        patch.set_edgecolor(colour)
+        patch.set_linewidth(0.7)
+    for element in ('whiskers', 'caps'):
+        for artist in box[element]:
+            artist.set_color(GREY)
+
+
 def figure_four(plt, np, pd, paths):
+    """Per-cell scores as violins with inner boxes."""
     cells = pd.read_csv(C1 / 'cell_outcomes.csv')
     edges = pd.read_csv(C1 / 'matched_edges.csv')
     effects = pd.read_csv(C1 / 'effects.csv')
     score = cells.set_index(['library', 'barcode'])[PRIMARY]
 
-    fig, (ax_a, ax_b) = plt.subplots(1, 2, figsize=(7.6, 3.6), layout='constrained')
-    rng = np.random.default_rng(20260928)
+    fig, (ax_a, ax_b) = plt.subplots(1, 2, figsize=(7.4, 3.5), layout='constrained')
 
-    for xi, library in enumerate(LIBRARIES):
+    differences, control_means, positives = {}, {}, {}
+    for library in LIBRARIES:
         edge = edges[(edges.library == library) & (edges.k == K_PRIMARY)]
         control_mean = (edge.assign(value=[score.loc[(library, b)] for b in edge.negative_barcode])
                         .groupby('positive_barcode').value.mean())
         positive = pd.Series({b: score.loc[(library, b)] for b in control_mean.index})
-        differences = (positive - control_mean).to_numpy()
+        diff = (positive - control_mean).to_numpy()
         reported = float(effects[(effects.library == library) & (effects.k == K_PRIMARY)
                                  & (effects.endpoint == PRIMARY)].matched_raw.iloc[0])
-        assert abs(differences.mean() - reported) < 1e-12, (library, differences.mean(), reported)
+        assert abs(diff.mean() - reported) < 1e-12, (library, diff.mean(), reported)
+        differences[library] = (diff, reported)
+        control_means[library] = control_mean.to_numpy()
+        positives[library] = positive.to_numpy()
 
-        colour = LIB_COLOUR[library]
-        ax_a.scatter(xi + rng.uniform(-0.15, 0.15, differences.size), differences, s=11,
-                     facecolor='none', edgecolor=colour, linewidth=0.7, alpha=0.85, zorder=2)
-        ax_a.plot([xi - 0.30, xi + 0.30], [reported] * 2, color=colour, linewidth=2.2, zorder=4)
-        ax_a.annotate(f'mean {reported:.3f}', xy=(xi + 0.33, reported), fontsize=6.8,
-                      va='center', color=colour)
-        above = float((differences > 0).mean())
-        ax_a.annotate(f'{above:.0%} above zero\nn = {differences.size} cells',
-                      xy=(xi, 0.02), xycoords=('data', 'axes fraction'), xytext=(0, 0),
-                      textcoords='offset points', ha='center', va='bottom', fontsize=6.5,
-                      color=colour)
-
-        if xi == 0:
-            all_negative = cells[(cells.library == library) & (~cells.positive)][PRIMARY].to_numpy()
-            groups = [('All Cd177-negative\ncells in the entry', all_negative, PALE),
-                      ('The matched controls\nactually used', control_mean.to_numpy(), GREY),
-                      ('Cd177-positive cells', positive.to_numpy(), colour)]
-            for yi, (label, values, shade) in enumerate(groups):
-                ax_b.scatter(values, yi + rng.uniform(-0.16, 0.16, values.size), s=8,
-                             color=shade, alpha=0.7, linewidth=0, zorder=2)
-                ax_b.plot([np.median(values)] * 2, [yi - 0.26, yi + 0.26], color=INK,
-                          linewidth=1.5, zorder=4)
-                ax_b.annotate(f'median {np.median(values):.2f}  (n = {values.size})',
-                              xy=(1.0, yi), xycoords=('axes fraction', 'data'),
-                              xytext=(-4, 12), textcoords='offset points', ha='right',
-                              fontsize=6.5, color=INK)
-            ax_b.set_yticks(range(len(groups)))
-            ax_b.set_yticklabels([g[0] for g in groups])
-
+    data = [differences[lib][0] for lib in LIBRARIES]
+    colours = [LIB_COLOUR[lib] for lib in LIBRARIES]
+    _violin(ax_a, plt, np, data, [0, 1], colours)
     ax_a.axhline(0, color=INK, linewidth=0.8, zorder=1)
-    ax_a.set_xticks(range(len(LIBRARIES)))
-    ax_a.set_xticklabels(LIBRARIES)
+    span = max(d.max() for d in data) - min(d.min() for d in data)
+    ax_a.set_ylim(min(d.min() for d in data) - 0.06 * span,
+                  max(d.max() for d in data) + 0.42 * span)
+    for xi, library in enumerate(LIBRARIES):
+        diff, reported = differences[library]
+        ax_a.scatter([xi], [reported], marker='D', s=26, color=LIB_COLOUR[library],
+                     edgecolor='white', linewidth=0.6, zorder=6)
+        ax_a.annotate(f'mean {reported:.3f}\n{(diff > 0).mean():.0%} above zero\n'
+                      f'n = {diff.size} cells', xy=(xi, 0.99),
+                      xycoords=('data', 'axes fraction'), xytext=(0, -2),
+                      textcoords='offset points', ha='center', va='top', fontsize=6.4,
+                      color=LIB_COLOUR[library])
+    ax_a.set_xticks([0, 1])
+    ax_a.set_xticklabels(LIBRARIES, fontsize=7)
     ax_a.set_ylabel('Priming score, positive cell minus\nits matched controls (score units)')
     ax_a.set_title('The estimate averages cells that disagree:\nabout one in five runs the other way')
-    ax_a.margins(x=0.22, y=0.10)
+    ax_a.set_xlim(-0.65, 1.65)
 
-    ax_b.set_xlabel('Priming-associated score, mean log1p(CP10k)')
-    ax_b.set_title('Matching pulls the comparison group\ntoward the positives')
-    ax_b.margins(y=0.22)
-    ax_b.annotate('GSM7890835 only', xy=(0.02, 0.03), xycoords='axes fraction',
-                  fontsize=6.5, color=GREY)
+    library = LIBRARIES[0]
+    groups = [('All Cd177-negative\ncells', cells[(cells.library == library) & (~cells.positive)][PRIMARY].to_numpy(), '#9BB3C0'),
+              ('Matched controls\nactually used', control_means[library], GREY),
+              ('Cd177-positive\ncells', positives[library], LIB_COLOUR[library])]
+    _violin(ax_b, plt, np, [g[1] for g in groups], [0, 1, 2], [g[2] for g in groups])
+    for xi, (_, vals, colour) in enumerate(groups):
+        ax_b.annotate(f'median {np.median(vals):.2f}\nn = {vals.size}',
+                      xy=(xi, 1.0), xycoords=('data', 'axes fraction'), xytext=(0, -4),
+                      textcoords='offset points', ha='center', va='top', fontsize=6.4,
+                      color=INK if xi == 0 else colour)
+    ax_b.set_xticks([0, 1, 2])
+    ax_b.set_xticklabels([g[0] for g in groups], fontsize=7)
+    ax_b.set_ylabel('Priming-associated score,\nmean log1p(CP10k)')
+    ax_b.set_title('Matching pulls the comparison group\ntoward the positives (GSM7890835)')
+    top = max(v.max() for _, v, _ in groups)
+    ax_b.set_ylim(-0.12, top * 1.26)
 
     for ax, letter in ((ax_a, 'a'), (ax_b, 'b')):
-        ax.text(-0.18 if ax is ax_a else -0.30, 1.05, letter, transform=ax.transAxes,
-                fontweight='bold', fontsize=10, va='bottom', ha='right')
+        ax.text(-0.19, 1.05, letter, transform=ax.transAxes, fontweight='bold',
+                fontsize=10, va='bottom', ha='right')
+    fig.canvas.draw()
+    OVERLAPS['figure_four'] = _overlap_report(fig, plt.matplotlib, np)
     for path in paths:
         fig.savefig(path, metadata={'Creator': 'scRNA_seq A16 evidence distributions'})
+    plt.close(fig)
+
+
+def figure_five(plt, np, pd, paths):
+    """Love plot: |SMD| per covariate before and after matching, the standard balance display."""
+    balance = pd.read_csv(C1 / 'PC_balance.csv')
+    balance = balance[balance.k == K_PRIMARY]
+    fig, axes = plt.subplots(1, 2, figsize=(7.4, 4.6), sharex=True, layout='constrained',
+                             gridspec_kw={'wspace': 0.16})
+    for ax, library in zip(axes, LIBRARIES):
+        frame = balance[balance.library == library].copy()
+        frame['before'] = frame.standardized_difference_before.abs()
+        frame['after'] = frame.standardized_difference_after.abs()
+        frame = frame.sort_values('before')
+        y = np.arange(len(frame))
+        colour = LIB_COLOUR[library]
+        worsened = (frame.after > frame.before).to_numpy()
+        ax.hlines(y, frame.after, frame.before, color=GREY, linewidth=0.7, zorder=1)
+        ax.scatter(frame.before, y, s=26, facecolor='none', edgecolor=colour,
+                   linewidth=1.0, zorder=3, label='Before matching')
+        ax.scatter(frame.after[~worsened], y[~worsened], s=26, color=colour, zorder=4,
+                   label='After matching, improved')
+        ax.scatter(frame.after[worsened], y[worsened], s=34, color=CD177, marker='X',
+                   zorder=5, label='After matching, worse')
+        ax.axvline(0.1, color=INK, linewidth=0.8, linestyle='--', zorder=2)
+        ax.set_yticks(y)
+        ax.set_yticklabels([f'PC{int(v)}' for v in frame.PC], fontsize=6.2)
+        ax.set_xlabel('Absolute standardized mean difference')
+        ax.set_xticks([0.0, 0.5, 1.0, 1.5])
+        top = frame.loc[frame.after.idxmax()]
+        ax.annotate(f'largest residual {top.after:.2f}',
+                    xy=(max(top.after, top.before), float(y[list(frame.PC).index(top.PC)])),
+                    xytext=(12, 0), textcoords='offset points',
+                    fontsize=6.4, color=INK, va='center', ha='left')
+        ax.set_title(f'{library}\n{int((~worsened).sum())} of 20 improved, '
+                     f'{int(worsened.sum())} worse, {int((frame.after > 0.1).sum())} still above 0.1',
+                     fontsize=7.4)
+    axes[1].legend(frameon=False, loc='lower right', fontsize=6.4, handletextpad=0.4)
+    fig.supxlabel('Dashed line: the conventional 0.1 balance reference from the matching '
+                  'literature, not a mark this analysis adopted.', fontsize=6.4, color=GREY,
+                  x=0.01, ha='left')
+    fig.suptitle('Matching improves most components but worsens several, and leaves more than half\n'
+                 'of them outside the conventional balance reference',
+                 fontsize=8.5, x=0.01, ha='left')
+    fig.canvas.draw()
+    OVERLAPS['figure_five'] = _overlap_report(fig, plt.matplotlib, np)
+    for path in paths:
+        fig.savefig(path, metadata={'Creator': 'scRNA_seq A16 balance'})
     plt.close(fig)
 
 
@@ -216,14 +327,16 @@ def main():
     import pandas as pd
 
     FIG.mkdir(exist_ok=True)
-    three = [FIG / 'A16_F03_c3_null_distributions.png', FIG / 'A16_F03_c3_null_distributions.svg']
-    four = [FIG / 'A16_F04_matched_difference_distributions.png',
-            FIG / 'A16_F04_matched_difference_distributions.svg']
-    assert not any(p.exists() for p in three + four), 'Refusing to overwrite figures'
+    three = [FIG / 'A16_F03_c3_null_histograms.png', FIG / 'A16_F03_c3_null_histograms.svg']
+    four = [FIG / 'A16_F04_percell_score_violins.png', FIG / 'A16_F04_percell_score_violins.svg']
+    five = [FIG / 'A16_F05_matching_balance_loveplot.png',
+            FIG / 'A16_F05_matching_balance_loveplot.svg']
+    assert not any(p.exists() for p in three + four + five), 'Refusing to overwrite figures'
 
     _style(plt)
     figure_three(plt, np, pd, three)
     figure_four(plt, np, pd, four)
+    figure_five(plt, np, pd, five)
 
     inputs = {
         'tables/stage1/A16_C3_control_gene_detail.csv': S1 / 'A16_C3_control_gene_detail.csv',
@@ -232,6 +345,7 @@ def main():
         'correction_20260928/tables/corrected_c1/cell_outcomes.csv': C1 / 'cell_outcomes.csv',
         'correction_20260928/tables/corrected_c1/matched_edges.csv': C1 / 'matched_edges.csv',
         'correction_20260928/tables/corrected_c1/effects.csv': C1 / 'effects.csv',
+        'correction_20260928/tables/corrected_c1/PC_balance.csv': C1 / 'PC_balance.csv',
     }
     record = {
         'scope': 'Distributions behind already-reported A16 summaries. No fit, no rescoring, no new '
@@ -239,16 +353,21 @@ def main():
                  'saved edge list and saved per-cell scores, as the archived verifier does, and the '
                  'script asserts their mean equals the reported matched_raw to 1e-12. Arm B entries '
                  'in F03 pool libraries within an experiment and are not within-state contrasts. '
-                 'Control-gene strips show the SELECTED controls, not the full candidate universe.',
+                 'Control-gene histograms show the SELECTED controls, not the full candidate '
+                 'universe. The 0.1 line in the Love plot is the conventional balance reference '
+                 'from the matching literature, not a threshold this analysis adopted.',
         'script_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'matplotlib_version': matplotlib.__version__,
         'jitter_seed': 20260928,
+        'text_collisions': {k: len(v) for k, v in OVERLAPS.items()},
         'inputs': {name: hashlib.sha256(path.read_bytes()).hexdigest() for name, path in inputs.items()},
-        'outputs': {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in three + four},
+        'outputs': {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in three + four + five},
     }
     (FIG / 'figure_run_distributions.json').write_text(json.dumps(record, indent=2) + '\n',
                                                        encoding='utf-8')
-    print('Rendered A16_F03_c3_null_distributions and A16_F04_matched_difference_distributions')
+    for name, pairs in OVERLAPS.items():
+        print(f'{name}: {len(pairs)} text collisions' + (f' -> {pairs}' if pairs else ''))
+    print('Rendered A16_F03, A16_F04 and A16_F05')
 
 
 if __name__ == '__main__':

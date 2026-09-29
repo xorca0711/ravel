@@ -1,20 +1,28 @@
 {
-  "scope": "Distributions behind already-reported A16 summaries. No fit, no rescoring, no new estimate. Per-positive-cell matched differences in F04a are recomputed from the saved edge list and saved per-cell scores, as the archived verifier does, and the script asserts their mean equals the reported matched_raw to 1e-12. Arm B entries in F03 pool libraries within an experiment and are not within-state contrasts. Control-gene strips show the SELECTED controls, not the full candidate universe.",
-  "script_sha256": "8ac2d4b36bfbc983c90d0b835713d10d488509ac4d9455b4a74009276caaf113",
+  "scope": "Distributions behind already-reported A16 summaries. No fit, no rescoring, no new estimate. Per-positive-cell matched differences in F04a are recomputed from the saved edge list and saved per-cell scores, as the archived verifier does, and the script asserts their mean equals the reported matched_raw to 1e-12. Arm B entries in F03 pool libraries within an experiment and are not within-state contrasts. Control-gene histograms show the SELECTED controls, not the full candidate universe. The 0.1 line in the Love plot is the conventional balance reference from the matching literature, not a threshold this analysis adopted.",
+  "script_sha256": "0b370a6c7de673ba0cede3ad3e2a34a70514c4921f484dbbe724b8f2af548d84",
   "matplotlib_version": "3.11.1",
   "jitter_seed": 20260928,
+  "text_collisions": {
+    "figure_three": 0,
+    "figure_four": 0,
+    "figure_five": 0
+  },
   "inputs": {
     "tables/stage1/A16_C3_control_gene_detail.csv": "81fa430623527696701d13115666e428a4d5ce596c74ad90efdf331738a41182",
     "tables/stage1/A16_C3_matched_gene_null.csv": "6ce26899b0f051125e60791a4146237e2ebe8f7f384e45b99cc91eb3c381c612",
     "tables/stage1/run_record.json": "0130a93d8716bf99533609e89dc09d565d819edcf0c72a3792e3e032e34075da",
     "correction_20260928/tables/corrected_c1/cell_outcomes.csv": "604daf3cac96f2f9690b371bb615e0a981824fa586b7e3ce9cb6c87073e1835f",
     "correction_20260928/tables/corrected_c1/matched_edges.csv": "5710a44f00a8c1657bcf7badfa60ffa6b6fb8a1b5164fb55605259a93b4b8741",
-    "correction_20260928/tables/corrected_c1/effects.csv": "1dd66ac52e8dde4157d89d26973a9584049c2d8d644b716a1540d6fcceedcfc4"
+    "correction_20260928/tables/corrected_c1/effects.csv": "1dd66ac52e8dde4157d89d26973a9584049c2d8d644b716a1540d6fcceedcfc4",
+    "correction_20260928/tables/corrected_c1/PC_balance.csv": "6fa727d570bb95eb14acf52f9247d5d08aa7a3c013735c5be6d207326102adeb"
   },
   "outputs": {
-    "A16_F03_c3_null_distributions.png": "fb0eaff274984ff9abfd4f9859194cfe53bddd7f7fd7ebe62121a5a54c383861",
-    "A16_F03_c3_null_distributions.svg": "5626f757af92885269083abb0255d4bdc3321015c19233dea3d70f70ef4b33fe",
-    "A16_F04_matched_difference_distributions.png": "567204beb036ff8e905643e87149300f2eb7ec2ccd592308d4df84c8a80ecb64",
-    "A16_F04_matched_difference_distributions.svg": "87aa35479c7aec3491c846e2833193814db389e38bb4b78918fd95bb77f133a7"
+    "A16_F03_c3_null_histograms.png": "e85a829c4c7a841386a60eb19fd5b6d2fef9882d4b38b849bfb60a95505c231a",
+    "A16_F03_c3_null_histograms.svg": "4bfa0845d2a5404d444bec471a0c9a61f1a765229693c26cdcde3554c4bf09aa",
+    "A16_F04_percell_score_violins.png": "d6f719a513173df5775c9dd464578f6fce4336783f405cbb7b4fcce57d45d865",
+    "A16_F04_percell_score_violins.svg": "e5436586975455204bb0c0417bb2c6a7b347220a9adedb39823d3e0d8152d1e8",
+    "A16_F05_matching_balance_loveplot.png": "6893d29daeeafab14cb06205052de69b6a61678e72bbf7a9c0d49e852d7a0b82",
+    "A16_F05_matching_balance_loveplot.svg": "b378470a626485a7cb3af6426676ee8db47e6aedd32c58200dcfbf3c27a0c0f5"
   }
 }
