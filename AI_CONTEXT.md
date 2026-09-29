@@ -386,9 +386,17 @@ All pull requests through #81 are merged and none is open. Read PROGRESS
 - **Work from a fresh branch or worktree off `origin/main`.** Other sessions work in
   parallel; the handoff documents and register are edited by several of them, so expect
   merge conflicts in PROGRESS, AI_CONTEXT and the register, and resolve by keeping both.
-- **The claim register does not yet cover question-level results.** It ends at C168.
-  Do not add rows for A0, A5, A10 or A11 results without the owner; grading is theirs.
-  Until rows exist, the generated negative-results page omits A0's failed transfer.
+- **The claim register now covers question-level results, but not all of them.** On
+  29 September 2026 the owner asked for every claim to be registered. Rows C169-C233
+  add the Nabhan, Sikkema and Murthy atlases, Cardoso trial C6, A0/A5/A5-A11/A10/A11
+  and A6/A9/A12/A13, and 28 earlier rows were touched (13 gained dated qualifiers, 16 had artefact paths repaired).
+  Every new grade is marked `delegated reassessment 2026-09-29` and stands only until
+  the owner retains or rejects it. **Not yet inventoried:** England with A16, Yu-Lee-Choi-Min
+  (apart from C225/C226), and A1, A2, A8, A14 and A15. The inventory for these folders
+  stopped before producing output, which reflects no judgement on their results. New
+  rows need an explicit family range in `analysis/scripts/claim_contract.py`
+  (`LATER_FAMILY_RANGES`). `analysis/claims/coverage_2026-09-29.csv` maps each
+  document read to its rows.
 - **Branch cleanup is done, 27 September 2026.** Every merged branch was deleted on
   both local and origin, and the two that held unmerged commits,
   `codex/linkedin-media-selection` and the local-only `rq-framing-proposal`, were

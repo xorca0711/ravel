@@ -46,6 +46,14 @@ class ResearchContractTests(unittest.TestCase):
         for number in (65, 84, 105, 115):
             self.assertEqual(claim_family(number), "Cardoso and ligand extensions")
 
+    def test_later_claims_have_explicit_families(self):
+        self.assertEqual(claim_family(169), "Reference atlases (Sikkema, Nabhan, Murthy)")
+        self.assertEqual(claim_family(195), "Cardoso and ligand extensions")
+        self.assertEqual(claim_family(196), "Question-level: programmes and outcomes (A0, A5, A10, A11)")
+        self.assertEqual(claim_family(233), "Question-level: recipient competence (A6, A9, A12, A13)")
+        with self.assertRaises(ValueError):
+            claim_family(234)
+
     def test_duplicate_claim_ids_fail(self):
         row = "| C1 | claim | design | `file.csv` | Descriptive only | caveat |\n"
         with self.assertRaises(ValueError):

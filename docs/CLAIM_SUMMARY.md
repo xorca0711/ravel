@@ -6,22 +6,22 @@ Status counts include biological observations, method checks and decision record
 
 | Status | Rows |
 |---|---:|
-| Validated | 7 |
-| Descriptive or exploratory | 75 |
-| Not established | 44 |
-| Refuted or retracted | 41 |
+| Validated | 8 |
+| Descriptive or exploratory | 116 |
+| Not established | 66 |
+| Refuted or retracted | 42 |
 | Displaced | 1 |
 
-Total: **168**. Rows with selected machine-checked numeric bindings: **9**.
+Total: **233**. Rows with selected machine-checked numeric bindings: **9**.
 
 The [manifest](../analysis/claims/manifest.json) retains each proposition, design, dataset IDs explicitly present in its row, evidence paths, full status, review authority and limitations. Sample units remain in the design prose; absence of normalized metadata is not interpreted as independence.
 
 | ID | Analysis family | Status | Review state | Numeric bindings |
 |---|---|---|---|---|
 | C1 | Niethamer: initial atlas | Validated | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
-| C2 | Niethamer: initial atlas | Displaced; historical status: Validated | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
+| C2 | Niethamer: initial atlas | Displaced; historical status: Validated (qualifier 2026-09-29: recovery with deposited labels held out is internal concordance on the same RNA, and pseudotime is an inferred ordering; true intermediate refers to ordering position and abundance, not demonstrated lineage passage) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C3 | Niethamer: initial atlas | Validated | individual_owner_review_not_recorded_in_status | C3_day366_median |
-| C4 | Niethamer: initial atlas | Validated (Kit); Not established (CAP2) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
+| C4 | Niethamer: initial atlas | Descriptive only (Kit: three animals, one harvest day, enrichment over other endothelium, not origin proof); Not established (CAP2; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
 | C5 | Niethamer: initial atlas | Validated (as a decision record) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C6 | Niethamer: initial atlas | Descriptive only; headline re-wording pending (PROGRESS item 15) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C7 | Niethamer: initial atlas | Retracted-superseded (refuted, kept on display) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
@@ -59,7 +59,7 @@ The [manifest](../analysis/claims/manifest.json) retains each proposition, desig
 | C39 | Cardoso and ligand extensions | Not established, and it qualifies C37 | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C40 | Cardoso and ligand extensions | Refuted at compartment level | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C41 | Cardoso and ligand extensions | Not establishable with these labels | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
-| C42 | Cardoso and ligand extensions | Refuted by a rule frozen before the data were read | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
+| C42 | Cardoso and ligand extensions | Refuted by a rule frozen before the data were read (qualifier 2026-09-29: the rule removes Runx1 and Pdgfrb retention as evidence for a tumour-specific signal; it does not show that tumour-specific input is absent, so the second-signal hypothesis is unsupported rather than disproven) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C43 | Cardoso and ligand extensions | Refuted | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C44 | Cardoso and ligand extensions | Not established | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C45 | Cardoso and ligand extensions | Descriptive only | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
@@ -71,7 +71,7 @@ The [manifest](../analysis/claims/manifest.json) retains each proposition, desig
 | C51 | Cardoso and ligand extensions | Validated (as a decision record) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C52 | Cardoso and ligand extensions | Refuted | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C53 | Cardoso and ligand extensions | Descriptive only | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
-| C54 | Cardoso and ligand extensions | Refuted, and the rule that allowed it is disclosed | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
+| C54 | Cardoso and ligand extensions | Refuted, and the rule that allowed it is disclosed (qualifier 2026-09-29: refuted for this panel, where the between-state margin was 0.0056 of rho; it does not show that whole-profile correlation can never distinguish epithelial states) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C55 | Cardoso and ligand extensions | Not established; the tiers are amplitudes, as C5 corrected | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C56 | Cardoso and ligand extensions | Refuted as a method, and recorded rather than repaired | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C57 | Cardoso and ligand extensions | Exploratory, and explicitly post hoc | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
@@ -93,7 +93,7 @@ The [manifest](../analysis/claims/manifest.json) retains each proposition, desig
 | C73 | Cardoso and ligand extensions | Descriptive only | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C74 | Cardoso and ligand extensions | Descriptive only | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C75 | Cardoso and ligand extensions | Refuted | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
-| C76 | Cardoso and ligand extensions | Refuted; supersedes the reading of C70 | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
+| C76 | Cardoso and ligand extensions | Refuted; supersedes the reading of C70 (qualifier 2026-09-29: the refutation rests on resemblance, the highest score of four published sets, which supports an annotation rather than proving the signature holds no new component) | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C77 | Cardoso and ligand extensions | Not established | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C78 | Cardoso and ligand extensions | Descriptive only | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
 | C79 | Cardoso and ligand extensions | Refuted as written, and disclosed | individual_owner_review_not_recorded_in_status | None; not recomputed by CI |
@@ -186,3 +186,68 @@ The [manifest](../analysis/claims/manifest.json) retains each proposition, desig
 | C166 | Cross-study epithelial specificity | Not established (delegated reassessment 2026-09-22, decision 32) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
 | C167 | Cross-study epithelial specificity | Descriptive only (delegated reassessment 2026-09-22, decision 32) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
 | C168 | Cross-study epithelial specificity | Descriptive only (delegated reassessment 2026-09-22, decision 32) | assistant_reassessed_under_owner_authorization | C168_shared_ADI_AT1_genes |
+| C169 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (source-data reproduction; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C170 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (method caution; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C171 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C172 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C173 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C174 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (method caution; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C175 | Reference atlases (Sikkema, Nabhan, Murthy) | Not establishable with the data that exists (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C176 | Reference atlases (Sikkema, Nabhan, Murthy) | Not establishable (HOLD pending animal provenance and annotation; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C177 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C178 | Reference atlases (Sikkema, Nabhan, Murthy) | Exploratory (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C179 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C180 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (method check; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C181 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C182 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (correction of the blind table pending owner decision; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C183 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (method caution; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C184 | Reference atlases (Sikkema, Nabhan, Murthy) | Not established (scheme-dependent; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C185 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C186 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C187 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (primary rule failed; sensitivity passed; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C188 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C189 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C190 | Reference atlases (Sikkema, Nabhan, Murthy) | Not established (negative at population level; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C191 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (method caution; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C192 | Reference atlases (Sikkema, Nabhan, Murthy) | Descriptive only (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C193 | Reference atlases (Sikkema, Nabhan, Murthy) | Not established (flag not followed up; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C194 | Reference atlases (Sikkema, Nabhan, Murthy) | Exploratory (read from a tracked S2 table; no report states the proposition; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C195 | Cardoso and ligand extensions | Descriptive only (source pattern); driver reading not established (delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C196 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Exploratory (selected and scored in the same discovery units; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C197 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not established (the pre-declared transfer criterion failed against mature enterocytes; three mice cannot establish absence; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C198 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Exploratory (one cohort, author state labels, selection and evaluation in the same mice; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C199 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not established (one qualifying capture group, no verified animals; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C200 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not established (near-zero primary estimates in two mice; the variant lead does not survive depth matching; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C201 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not establishable with the data audited on 25 September 2026 (historical; superseded by the recovered pilot_v1 cohorts; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C202 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Validated (within one cohort: paired RNA detection difference in 24 mice; plan and external signature committed before scores; the Strunz mice were previously used for A0 discovery; not replicated in a second cohort; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C203 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not establishable with the data recovered so far (missing evidence, not an inconclusive or negative estimate; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C204 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Descriptive only (list-level overlap; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C205 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Validated (direction of a paired RNA association only; one independent 8-patient cohort; frozen instrument; GSE131907 was previously inspected in this repository for C38-C41; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C206 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not established (inconclusive estimate: positive point estimate, interval includes zero; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C207 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Exploratory (secondary; direction supported, magnitude unresolved; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C208 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not established (unresolved by the contract's own rule: exact interval unavailable at 3-4 pairs and the attainable interval contains the margin; beyond-shared null once identity is controlled; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C209 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Descriptive only (post hoc diagnostics, 4 donors; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C210 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Descriptive only (design bound; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C211 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Descriptive only (cross-sectional paired contrasts; previously inspected cohort; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C212 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not established (inconclusive: below the margin, no bound computed; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C213 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Refuted as written (specification-dependent; absence of a fibroblast contribution not established; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C214 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Descriptive only (method check; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C215 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Descriptive only (limited consistency check; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C216 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Descriptive only (within-screen concurrent association after an adaptive respecification; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C217 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not established (below the descriptive margin; no inference implemented; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C218 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Descriptive only (relative gain over a weak baseline, within one screen; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C219 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not established (absolute R2 negative on three of four held-out plates; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C220 | Question-level: programmes and outcomes (A0, A5, A10, A11) | Not establishable with this deposit (prospective prediction and preparation-level replication; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C221 | Question-level: recipient competence (A6, A9, A12, A13) | Exploratory (single cohort, 12 patients, reused data, unreplicated; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C222 | Question-level: recipient competence (A6, A9, A12, A13) | Descriptive only (diagnostic of the A12 pilot; 12 reused patients; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C223 | Question-level: recipient competence (A6, A9, A12, A13) | Not established (inconclusive: direction unstable across predeclared sensitivities; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C224 | Question-level: recipient competence (A6, A9, A12, A13) | Not establishable (in the three audited cohorts; failures on units and states before any outcome was opened; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C225 | Question-level: recipient competence (A6, A9, A12, A13) | Descriptive only (RNA count allocation among recovered cells; identity of unassigned cells unresolved; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C226 | Question-level: recipient competence (A6, A9, A12, A13) | Not established (primary estimated-correlation family null; significance appears only under the fixed-correlation sensitivity; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C227 | Question-level: recipient competence (A6, A9, A12, A13) | Descriptive only (prior-weighted RNA fit on 23 patients; not an activation measurement; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C228 | Question-level: recipient competence (A6, A9, A12, A13) | Not establishable (in GSE131907 under the gate definition; zero is definitional, three under a wider non-comparable definition; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C229 | Question-level: recipient competence (A6, A9, A12, A13) | Descriptive only (method reconstruction; bookkeeping, not biology; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C230 | Question-level: recipient competence (A6, A9, A12, A13) | Not established (no aggregate predictive gain; at the primary setting no model beats the training mean, so the instrument is weak; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C231 | Question-level: recipient competence (A6, A9, A12, A13) | Not establishable (in these two candidates; availability failure resolved on design before any expression download; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C232 | Question-level: recipient competence (A6, A9, A12, A13) | Descriptive only (cohort means, unharmonized labels; within-state component Not established; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |
+| C233 | Question-level: recipient competence (A6, A9, A12, A13) | Descriptive only (resource-representation method check; RNA compatibility; delegated reassessment 2026-09-29) | assistant_reassessed_under_owner_authorization | None; not recomputed by CI |

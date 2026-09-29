@@ -1720,3 +1720,16 @@ The [resolution note](docs/audits/2026-09-29-rq-delivery-review/CORRECTIONS.md)
 records the corrections and checks. A16's presentation revision retains original
 figure/script records and uses the same tracked tables. No model was fitted,
 no claim grade was changed, and no biological readiness state was promoted.
+
+## 29 September 2026: register question-level and atlas claims
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-29 | Register every claim across paper packages and RQ_Specified results; relabel existing rows the 29 September figure audit contradicts | Repository owner | Owner requested the registration; Claude Science proposed each grade as a delegated reassessment | Add C169-C233 in four dated sections. Append dated qualifiers to C2, C4, C29, C38, C42, C47, C51, C54, C69, C73, C74, C76 and C83. Change C4's Kit status from Validated to Descriptive only. Repair 17 package-relative artefact paths in C1, C19, C20, C22-C32, C34 and C35. Extend `claim_contract.py` with explicit family ranges | The register ended at C168 and omitted every question-level result, including A0's negative transfer. The figure audit had corrected several claims that still read at full strength in the register |
+
+Three inventory tracks stopped before producing output: England with A16, Yu-Lee-Choi-Min,
+and A1, A2, A8, A14 and A15. Each was retried once, unchanged and with the owner's
+authorization, and stopped again. Those folders are listed as not inventoried in
+`CLAIMS.md` and the coverage ledger. No grade was inferred for them. Historical row
+wording was preserved, and each correction is appended as a dated qualifier. Grades
+proposed here are not owner acceptance.

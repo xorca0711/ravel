@@ -23,7 +23,11 @@ SUMMARY = Path("docs/CLAIM_SUMMARY.md")
 BINDINGS = Path("analysis/claims/numeric_bindings.json")
 METADATA = Path("analysis/claims/metadata.json")
 FAMILIES = ["Niethamer: initial atlas", "Niethamer: follow-ups", "Cardoso and ligand extensions",
-            "Choi: epithelial states", "Epithelial chromatin", "Axin2 and Il1r1", "Cross-study epithelial specificity"]
+            "Choi: epithelial states", "Epithelial chromatin", "Axin2 and Il1r1", "Cross-study epithelial specificity",
+            "Reference atlases (Sikkema, Nabhan, Murthy)", "Question-level: programmes and outcomes (A0, A5, A10, A11)",
+            "Question-level: recipient competence (A6, A9, A12, A13)"]
+# Rows registered from 2026-09-29 onward carry explicit, contiguous family ranges.
+LATER_FAMILY_RANGES = [(169, 194, FAMILIES[7]), (195, 195, FAMILIES[2]), (196, 220, FAMILIES[8]), (221, 233, FAMILIES[9])]
 
 
 def status_group(status: str) -> str:
@@ -45,6 +49,9 @@ def claim_family(number: int) -> str:
     # Explicit provenance grouping, independent of the ledger's historical headings.
     if 165 <= number <= 168:
         return FAMILIES[6]
+    for first, last, family in LATER_FAMILY_RANGES:
+        if first <= number <= last:
+            return family
     if number > 168:
         raise ValueError(f"New claim C{number} needs an explicit analysis-family assignment")
     if number <= 8:
