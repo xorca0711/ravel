@@ -1,0 +1,64 @@
+{
+  "scope": "Documentation, contracts and presentation provenance; no scientific model refit or hypothesis validation.",
+  "baseline": "5d4619da3a3d7ebe8bfc38de71241b44a588751b",
+  "figure_provenance": {
+    "status": "passed",
+    "sha256_comparisons": 18,
+    "old_and_new_input_hashes_identical": true,
+    "drawing_function_ASTs_identical_except_titles_and_unused_title_variable": true,
+    "revised_PNG_visual_inspection": "passed",
+    "note": "Initial provenance and drawing-logic checks passed. Final staging exposed generated SVG trailing whitespace; it was stripped with canonical XML equivalence verified, without changing PNGs or table values. Script/output hashes were updated and rechecked in the Git index."
+  },
+  "inventory": {
+    "status": "passed",
+    "unique_ordered_records": 29,
+    "columns_per_record": 9
+  },
+  "contract_review": {
+    "a8": "Parent inspected both timing routes and independent endpoint/unit requirements; agent JSON and consistency checks passed.",
+    "a14": "Parent inspected direction-specific H1 rule, identifiable joint designs and existing-data sourcing; agent JSON and consistency checks passed."
+  },
+  "a1_execution": {
+    "executable": false,
+    "analysis_run": false,
+    "reason": "Regulatory predictor unspecified; no verified regulatory/early-RNA/later-mature-outcome cohort with feasible biological-unit linkage."
+  },
+  "repository_validation": {
+    "status": "passed",
+    "returncode": 0,
+    "output": "Repository validation passed: 4451 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction"
+  },
+  "a16_frozen_evidence": {
+    "status": "passed",
+    "checks": 1867,
+    "failures": [],
+    "summary": {
+      "C3_entries": 9,
+      "C3_below_40_controls": 7,
+      "C3_above_all_sampled_controls": 4,
+      "C1_positive_k10": 8,
+      "C5_primary_thinning_rows_below_floor": 4
+    },
+    "limitations": [
+      "Raw count matrices and barcode arrays used by C3/C4 are not directly hashed in its run record.",
+      "Recorded inputs and numerical computations were not independently replayed by this table verifier.",
+      "No contamination exclusion, position-independent mechanism or biological replication follows."
+    ]
+  },
+  "diff_whitespace": {
+    "status": "passed",
+    "returncode": 0,
+    "output": ""
+  },
+  "status": "passed",
+  "final_staging": {
+    "svg_canonical_xml_equivalence": "passed",
+    "pngs_unchanged": true,
+    "figure_index_hash_checks": {
+      "status": "passed",
+      "comparisons": 8
+    },
+    "cached_diff_whitespace": "passed",
+    "plot_script_AST_parse": "passed"
+  }
+}

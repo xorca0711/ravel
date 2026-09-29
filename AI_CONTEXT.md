@@ -1,47 +1,49 @@
 # AI context
 
-## Current A8 and A14 workspaces, 28 September 2026
+## Current RQ delivery corrections, 29 September 2026
 
-Branch `codex/a8-a14-workspaces` gives A8 and A14 their own folders. Both were
-card-only before; both are registered questions blocked on a measurement, not on
-an analysis. Rules for later sessions:
+The owner requested correction of the seven findings in the
+[delivery review](docs/audits/2026-09-29-rq-delivery-review/REPORT.md).
+The corrected state is recorded in the
+[resolution note](docs/audits/2026-09-29-rq-delivery-review/CORRECTIONS.md).
 
-- **A8.** The 119-gene ADI/AT1 overlap and the seed-unstable four-gene late-AT1
-  panel (C168, owned by `Research Article/epithelial_state_specificity`) are facts
-  about gene lists. They are evidence neither for nor against a maturation
-  mechanism. A shrinking increment after disjointification is not a negative
-  result, because removing shared genes can remove real biology. Never define the
-  predictor and the mature outcome from the same or overlapping RNA panels, and
-  never substitute A10's organoid size (concurrent, unit = well) for the outcome.
-- **A14.** H1 (exposure duration) and H2 (fibroblast reception) have separate
-  decisions and must not be run as one experiment; their control requirements
-  differ. Loss of a transitional RNA score is not recovery. Receptor or inhibitor
-  RNA in A12 or A13 is not measured reception, and neither pilot involved
-  withdrawal.
-- Neither folder may be treated as having a result. A8's eligibility gate has not
-  been searched; A14's two systems are not available in the surveyed evidence,
-  which is a statement about what was examined, not about feasibility.
+- **A1 is not executable as a regulatory primary test.** No regulatory predictor
+  has been nominated and no verified cohort links that measurement, early RNA and
+  a later mature endpoint in the same biological units. The IRE1-alpha day-7 RNA /
+  day-14 AGER evidence is a supporting sourcing candidate from different cohorts.
+  Linking RNA alone would not meet the regulatory-and-RNA gate; do not manufacture
+  pairs across cohorts. The [matrix](RQ_Specified/A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md)
+  lists the remaining execution requirements.
+- **Shared inventory.** The 29 rows are outcome, contextual and requirement records.
+  HPCS identities are resolved to 22 mice; library/chase confounding and the missing
+  current reporter remain. A10's completed timing statement is linked. Mature
+  protein/genetic-lineage endpoints exist in O2/O3; compatible predictor linkage
+  is missing. O29's assay-coverage limit does not erase genetic lineage evidence.
+- **A8.** Signature overlap licenses a measurement check, not a maturation mechanism.
+  Keep separate association and prospective-prediction routes: concurrent timing can
+  serve the former; earlier RNA is required for the latter. Both require independent
+  biological units and a noncircular measured mature endpoint. The component partition
+  remains unfrozen and no eligible linked dataset has been identified in examined
+  evidence. No public-data search under these contracts has been completed.
+- **A14.** H1 tests a meaningful decrease after sustained versus transient exposure;
+  a reliable reverse effect contradicts its direction, and imprecision is inconclusive.
+  H1/H2 retain independent decisions and controls. Joint designs may qualify only when
+  their contrasts are separately identifiable and biological units are appropriate.
+  Existing or author-provided data may meet the same contract; no global absence or
+  necessity for new experiments has been established.
+- **A16.** Matching attenuates the observed contrast while substantial PC imbalance
+  remains; it does not identify an explained positional fraction. Control-gene count
+  is not a biological power calculation. Revised presentation files live under
+  figures/revision_20260929; original figures, scripts and scientific outputs remain.
+- **A10.** Day-14 RNA and area are concurrent; day-7 imaging is a baseline covariate.
+  There are 885 analysed wells across four plates and 15 plate-replicate groups;
+  four repeat wells split from a mixture are not four independent preparations.
+  Preparation identities remain unresolved. Size is not an A8 mature-contribution
+  endpoint or an A14 withdrawal-recovery endpoint.
 
-## Current A10 and A1 endpoint alignment, 28 September 2026
-
-Branch `codex/a10-a1-endpoint-matrix` adds A10's endpoint consolidation and A1's
-comparison matrix plus its two inventories. Rules for later sessions:
-
-- A10's endpoint is **concurrent**, not later. Imaging days 7 and 14, RNA
-  libraries day-14, same well. Never cite A10 organoid size as the later outcome
-  of an early-feature-to-later-outcome test, and never describe its held-out
-  plate results as evidence that a programme predicts a later outcome.
-- A10's unit is the **well**. Four repeat wells of a target are aliquots of one
-  cell-Matrigel mixture, and no deposited field maps a library to an isolation,
-  animal or donor.
-- A1's gate is unmet by every branch: no measured outcome has an early regulatory
-  measurement in the same experimental units. Do not pair measurements across
-  cohorts to manufacture the test; the matrix's stop rule forbids it.
-- No EdU, BrdU or label-retention assay exists anywhere in the A1 evidence. Treat
-  designs that assume a proliferation readout as needing new measurement.
-
-The nominated test is a linkage design and is not runnable now. Register cards,
-readiness rows and claim grades are unchanged.
+No new scientific analysis, claim grade or readiness promotion follows from these
+corrections. A8/A14 remain unexecuted. The user's instruction to run A1 if executable
+does not clear its missing-measurement and linkage requirements.
 
 ## Current A16 rationale amendment, 28 September 2026
 

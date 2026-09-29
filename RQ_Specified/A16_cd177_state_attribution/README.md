@@ -17,7 +17,7 @@ address alternative explanations for an RNA association; persistence,
 CD177-specific function and growth potential need independent outcomes.
 
 **Read first:** [question card](../../RESEARCH_QUESTIONS.md#a16),
-[rationale amendment of 28 September 2026](RATIONALE.md#amendment-28-september-2026-the-rationale-as-successive-evidence-states),
+[rationale amendment, corrected 29 September 2026](RATIONALE.md#amendment-28-september-2026-the-rationale-as-successive-evidence-states),
 [plan](PLAN.md), [integration review](reports/INTEGRATION_REVIEW.md),
 [corrected C1 result](correction_20260928/reports/CORRECTED_C1_REPORT.md).
 

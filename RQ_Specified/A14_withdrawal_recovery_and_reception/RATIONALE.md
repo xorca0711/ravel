@@ -1,9 +1,10 @@
 # A14 rationale: two hypotheses, two decisions, one shared outcome family
 
-Written 28 September 2026, before any A14 endpoint exists. A14 is a design, not a result. This
+Written 28 September 2026; corrected 29 September 2026, with no eligible A14 dataset identified
+in the reviewed evidence. A14 is a design, not a result. This
 document does what the register card compresses into a paragraph: it gives each hypothesis its
-own population, outcome, rival set and decision rule, and it explains why they must not be run as
-one experiment.
+own population, outcome, rival set and decision rule, and it explains when separate or joint
+designs can answer them without confounding their contrasts.
 
 ## Why recovery is the question, and why RNA cannot answer it
 
@@ -49,9 +50,15 @@ function readout where available. Not a transitional RNA score, and not a cyclin
 4. **Time in culture or in vivo**, rather than time under exposure. Addressed by the time-matched
    unexposed controls.
 
-**Decision.** A recovery difference after verified withdrawal, in independent preparations,
-supports H1. A precise absence of a difference weakens it. Failed engagement verification, or no
-post-withdrawal observation, is inconclusive rather than negative.
+**Decision.** Define the contrast as recovery after sustained exposure minus recovery after
+transient exposure. Before inspecting outcomes, fix the minimum meaningful decrement and the
+uncertainty rule. A decrease that meets both rules after verified withdrawal, in independent
+preparations, supports H1. A reliably meaningful increase contradicts H1's direction. Otherwise,
+a sufficiently precise estimate excluding a meaningful decrement weakens H1; an estimate that
+cannot distinguish a meaningful decrement from its absence is inconclusive. Failed engagement
+verification or missing post-withdrawal observation is also inconclusive, rather than negative.
+Viability must distinguish reduced recovery from toxicity, and absent lineage evidence limits
+the conclusion to mature yield rather than recovery of the originally transitional cells.
 
 ## H2, reception: does it matter which compartment receives the signal?
 
@@ -87,15 +94,22 @@ measured per preparation, alongside verified target engagement in the perturbed 
 reception controlled, supports H2. A precise absence weakens it. Failed engagement is
 inconclusive. H2 can hold while H1 fails and the reverse, which is why each carries its own rule.
 
-## Why these are not one experiment
+## Why the decisions are separate, even in a joint design
 
-A single factorial that varied exposure duration and receiving compartment together would confound
-the two claims in the arms that matter most: a long-exposure, fibroblast-perturbed arm differs
-from a short-exposure, epithelial-perturbed arm in two ways at once. Worse, the two hypotheses
-have different control requirements — H1 needs time-matched unexposed preparations, H2 needs a
-controlled epithelial-reception arm — and an experiment sized for one is not automatically valid
-for the other. The register card's phrasing, "either can hold without the other", is a design
-constraint and not a hedge.
+A long-exposure, fibroblast-perturbed arm differs from a short-exposure,
+epithelial-perturbed arm in two ways at once. That comparison alone cannot separate duration
+from reception. The prohibition applies to this inseparable contrast, not to every joint or
+factorial design. A design that varies the factors separately and adequately observes the
+relevant combinations may identify each contrast and their interaction.
+
+Eligibility is assessed for each hypothesis: H1 needs duration contrasts at fixed receiving
+conditions and time-matched unexposed controls; H2 needs reception contrasts at fixed exposure
+with direct epithelial reception controlled. Each must have documented biological units,
+adequate replication and the relevant engagement, viability and lineage checks. A joint design
+must state how interactions affect its contrasts and uncertainty; it cannot assume effects
+are constant across conditions or count shared units as independent replication. A design
+adequate for one hypothesis is not automatically adequate for the other. Either hypothesis
+can advance alone, and its result does not decide the other.
 
 ## What the neighbouring IL-1 work does and does not contribute
 
@@ -114,10 +128,16 @@ cross-sections rather than followed preparations.
 
 ## What is genuinely open
 
-Everything A14 asks. There is no recovery measurement, no withdrawal observation, and no
-compartment-specific reception experiment in the surveyed evidence. The honest statement of A14's
-status is that it is a well-specified design whose value is in being specified before it is run,
-so that its endpoints, contrasts and replication are fixed rather than chosen afterwards.
+Both hypotheses remain unanswered. No eligible dataset linking the required recovery outcomes,
+verified withdrawal and hypothesis-specific contrasts has been identified in the reviewed
+evidence. This does not establish absence from public archives or author-held data. Mature
+endpoint measurements in neighbouring studies are not automatically eligible withdrawal
+contrasts, but their existence must not be described as an absence of mature measurement.
+
+The next sourcing step is a bounded review of existing or author-provided evidence against the
+same contracts, recorded separately for H1 and H2. New data generation is a candidate if that
+route remains unresolved. Endpoint definitions, contrasts, meaningful-effect criteria and
+replication requirements are fixed before outcome inspection; sourcing does not relax them.
 
 ## Connections and boundaries
 
@@ -126,10 +146,10 @@ so that its endpoints, contrasts and replication are fixed rather than chosen af
 - **A13** owns whether a fibroblast programme adds information about an epithelial outcome in
   human cross-sections; A14 asks whether fibroblast reception changes recovery under a controlled
   exposure. A13's negative does not bear on A14's H2.
-- **A8** shares the absence of a measured mature epithelial outcome and the
+- **A8** shares the need to establish an eligible, linked mature epithelial endpoint and the
   [shared inventory](../A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md)
-  that records it, and nothing else. A8 is observational and about a component definition; A14 is
-  interventional and about exposure and reception.
+  that separates measurement availability from design eligibility. A8 is observational and about
+  a component definition; A14 is interventional and about exposure and reception.
 - **A1** owns the regulatory distinction between transitional states and the endpoint sourcing
   both A8 and A14 draw on.
 - **A4** owns the lineage-sequence question. A14 traces descendants as an outcome and makes no

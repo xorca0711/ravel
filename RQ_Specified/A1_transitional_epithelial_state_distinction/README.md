@@ -18,16 +18,17 @@ without assuming that different state names imply either identical or distinct b
 
 ## Evidence and analysis history
 
-**Comparison matrix and nominated test, 28 September 2026.** The
-[comparison matrix](COMPARISON_MATRIX.md) ranks every A1 branch on one axis that
-decides the umbrella's next step: whether a measured later outcome exists in the
-same experimental units as the early measurement. None does. It nominates the
-single linkage that would unblock A1 -- the day-7 IRE1-alpha epithelial RNA and
-the day-14 mature endpoint measured in one cohort of animals -- and records the
-supporting role of the other branches. Detail sits in the
+**Comparison matrix, corrected 29 September 2026.** The
+[comparison matrix](COMPARISON_MATRIX.md) separates a regulatory primary test from a
+supporting RNA-to-outcome linkage. No eligible linked cohort has been identified,
+and the regulatory predictor remains unspecified. The day-7 IRE1-alpha RNA and
+day-14 AGER observations may guide sourcing, but joining them alone would not
+meet the regulatory-and-RNA gate. The matrix explains the other branches'
+supporting roles. Detail sits in the
 [branch inventory](reports/A1_BRANCH_INVENTORY.md) (27 branches) and the
-[outcome inventory](reports/A1_A8_A14_OUTCOME_INVENTORY.md) (29 outcomes, shared
-with A8 and A14). Documentation only; nothing was rescored.
+[outcome inventory](reports/A1_A8_A14_OUTCOME_INVENTORY.md) (29 outcome, contextual
+and requirement records shared with A8 and A14). Documentation only; nothing
+was rescored.
 
 
 Updated 25 September 2026. **Status: three-avenue continuation completed for
