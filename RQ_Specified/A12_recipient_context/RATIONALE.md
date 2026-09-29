@@ -96,6 +96,28 @@ is a weak instrument for deciding whether a programme contributes, which is why 
 recorded as "no predictive reason to prefer it" rather than as evidence against fibroblast
 involvement.
 
+### The twelve patients themselves
+
+![Patient-level relationship and held-out predictions](figures/A12_F03_patient_level.png)
+
+**Figure A12-F03. The marginal relationship rests on two patients, and neither model tracks the
+extremes.** Twelve paired patients, AT2 recipient, primary settings, plotted from
+[A12_model_inputs.csv](../../docs/roadmap_runs/2026-09-27-followthrough/A12_model_inputs.csv) and
+[A12_heldout_predictions.csv](../../docs/roadmap_runs/2026-09-27-followthrough/A12_heldout_predictions.csv).
+(a) The recipient receptor index against the inflammatory response, both as LUAD-minus-normal
+paired differences. The Pearson correlation is 0.34, computed from the plotted points and
+descriptive at this size; no line is fitted and no interval or p value is reported. **Two patients
+carry it.** Their index values, 1.691 and 1.658, are more than 2.5 times the next highest (0.664),
+and removing them leaves r = -0.02 across the remaining ten. (b) Observed response against the
+saved held-out prediction for the two models in the primary comparison, with the identity line.
+Both compress the range: predictions span roughly -0.9 to 0.7 against observations of -0.53 to
+0.55, and the largest single error is a patient observed near zero and predicted at -0.67.
+
+This figure is the reason rival 6 below is stated as strongly as it is. The held-out improvement
+is real as arithmetic — the joint model predicts left-out patients better than the comparator —
+but the marginal association it draws on is concentrated in two of twelve units, which is exactly
+the configuration in which a leave-one-patient-out gain is least transportable.
+
 ## Why the epithelial and fibroblast recipients behave differently
 
 The honest answer is that this design cannot tell us. Three explanations are live and the pilot
@@ -121,10 +143,12 @@ the most mundane and is not excluded.
    without confident labels carry most of the recovered IL1B RNA
    ([map](reports/A12_S1_SOURCE_IDENTITY_MAP.md)). The source term is therefore conditional on an
    annotation decision, and this is a rival to the source side of every model here.
-6. **Overfitting at twelve patients.** Five feature sets and a fixed ridge on twelve paired units
-   will show numerical differences between nested models as a matter of course; that the ordering
-   held at alphas 0.1 and 10, at the 30-cell floor and at confidence 0.3 is a robustness
-   description, not an independent replication.
+6. **Two high-leverage patients.** Five feature sets and a fixed ridge on twelve paired units will
+   show numerical differences between nested models as a matter of course, and here the index's
+   marginal association is concentrated in two patients (index 1.691 and 1.658 against a next
+   highest of 0.664; r falls from 0.34 to -0.02 without them). That the ordering held at alphas
+   0.1 and 10, at the 30-cell floor and at confidence 0.3 is a robustness description over the
+   same units, not an independent replication, and it does not address the leverage.
 7. **RNA is not reception.** Receptor and inhibitor transcript abundance need not track surface
    protein, complex assembly or occupancy. Unresolvable in this data.
 
