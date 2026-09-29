@@ -21,6 +21,14 @@ endpoint. Neither comparison alone establishes mediation or reciprocal feedback.
 
 ## Evidence and analysis history
 
+**Rationale and plan written, 28 September 2026.** The [rationale](RATIONALE.md)
+traces the broad niche proposition to the single TGF-beta-RNA/HPCS-proxy pair that
+was actually tested, and states what the null does not cover -- notably that at
+the primary setting no model beats the training mean, which weakens the instrument
+rather than the biology. The [plan](PLAN.md) records the cycle as closed, both external
+candidates as resolved on design, and the five conditions a different pair would
+have to meet before any new computation. Documentation only; nothing was rescored.
+
 **Latest follow-through:** [A13 results and candidate decisions](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md). Historical specifications and numerical results below are preserved; read the dated follow-through for the current execution state.
 
 **Scope clarification, 27 September 2026:** the [rationale audit](../../docs/audits/2026-09-27-rq-rationale/REPORT.md)

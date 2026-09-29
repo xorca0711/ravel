@@ -2,6 +2,44 @@
 
 **Update this before stopping work, every session.**
 
+## Current A12 group rationale and plans, 28 September 2026
+
+Third adopted item of the [combined proposal](docs/audits/2026-09-28-rq-development-proposal/PROPOSAL.md):
+local rationale and plan for A12 and A13, plus the A12-S1 evidence map. Branch
+`codex/a12-a13-rationale`.
+
+[A12's rationale](RQ_Specified/A12_recipient_context/RATIONALE.md) states the
+recipient index for what it is -- an equal-weight RNA summary of IL1R1/IL1RAP
+against IL1R2/IL1RN/SIGIRR, not receptor occupancy -- and defends the general
+inflammatory endpoint explicitly: no IL-1-specific readout exists in
+observational RNA, so the design instead puts TNF in the comparator. Its
+[plan](RQ_Specified/A12_recipient_context/PLAN.md) records the pilot as closed and
+fixes the decision a validation must make first, because the pilot stored
+leave-one-patient-out predictions rather than a deployable fit: fixed-procedure
+replication tests the algorithm at a new training size, while transport requires
+serializing and committing the all-pilot coefficients before any external outcome
+is opened. No such serialized fit exists, and it was deliberately not manufactured
+for the three ineligible candidates.
+
+[A13's rationale](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/RATIONALE.md)
+traces the broad niche proposition through the compartment-rule amendment to the
+one pair actually tested, and records a limit that qualifies the null: at the
+primary setting no model beats the training mean (0.2167 against 0.2283 and
+0.2373), so both compared models predict no better than a constant. The one
+exception is the comparator at alpha=10 (0.2113), where the joint model still
+fails to improve on it. Its [plan](RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/PLAN.md)
+closes the cycle and fixes five conditions for any new pair.
+
+The [A12-S1 map](RQ_Specified/A12_recipient_context/reports/A12_S1_SOURCE_IDENTITY_MAP.md)
+quantifies the source conditionality both questions inherit: median patient-level
+IL1B count fractions in cells without a confident label are 63.5% normal, 51.7%
+AAH, 68.3% AIS, 66.1% MIA and 72.1% LUAD, with label retention lowest in LUAD
+(50.6%). It lists five candidate explanations with the observation that would
+separate each, and names the cheapest unrun check: the multi-marker myeloid profile
+of the unlabelled IL1B-carrying cells. Two figures are rendered from tracked
+tables. No analysis ran; no claim row, grade, register card or readiness row
+changed.
+
 ## Current delivery corrections, 29 September 2026
 
 The owner asked to apply the seven findings from the

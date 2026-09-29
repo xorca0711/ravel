@@ -22,6 +22,10 @@ A10 and A1 carry the second item: an [endpoint consolidation](A10_organoid_growt
 and a [comparison matrix](A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md)
 that nominates one linkage, since no branch holds an early measurement and a
 later outcome in the same units.
+A12 and A13 carry the third item: local [A12](A12_recipient_context/RATIONALE.md)
+and [A13](A13_fibroblast_beyond_macrophage_il1b/RATIONALE.md) rationale and plans,
+with a shared [A12-S1 evidence map](A12_recipient_context/reports/A12_S1_SOURCE_IDENTITY_MAP.md)
+quantifying how conditional their macrophage source term is.
 
 ## Question workspaces
 
