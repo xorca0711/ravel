@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-09-30T00:58:44.452126+00:00",
+  "checks": [
+    "frozen contract and raw source hashes",
+    "143 source cell coordinates and donor keys",
+    "72 complete paired contrasts and intervals",
+    "8 source count columns and 14581-gene filter",
+    "TMM denominator arithmetic and full normalized matrices",
+    "marker coverage, program and gene effects, interactions",
+    "12 export hashes and 4 single-page text-bearing PDFs"
+  ],
+  "limits": "Checks do not establish source biological independence, PCR efficiency, TMM assumptions or mature fate/function.",
+  "pairing_status": {
+    "complete": 72,
+    "missing_arm": 12,
+    "nonquantified_Ct": 1
+  },
+  "normalization_sign_disagreements": [
+    {
+      "panel": "AT2_identity",
+      "block": 2,
+      "background": "control",
+      "TMM": -0.0181635759,
+      "total_count": 0.0625839093
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "openpyxl": "3.1.5"
+  },
+  "script_sha256": {
+    "00_fetch_sources.py": "4e8776f07496fd2b99b667df8543dca400741669796337f06caa49f397e6b15f",
+    "01_prepare.py": "270f2b86e16d211d6221879909436aaed8fe141d87f79817ca94beb68a3dbab4",
+    "02_normalize.R": "c1ab08fb1c2234a96f5bace27ea6dea8e453dcb9be4d60383ee3149ced7837aa",
+    "03_analyze.py": "a47968d0b1e45392742875c3e559da37b22df84dad194617d2c0fecfd2bb6574",
+    "04_figures.py": "b553af2f353774aee26b2b7794a707ad26759909c92a4a10b779143d4da4c746",
+    "05_verify.py": "81fc3efa4c593c46bb15b4911035e4b8638fca42e7cf03fa8a32b2d2bb149a5e",
+    "06_render_review.py": "897b8d4457744b0848f78a32adb4c4d9fd33b33eb525bc15f372d8c844eed79f"
+  },
+  "table_sha256": {
+    "bulk_marker_effects.tsv": "17e80b17b764139ad02f9331518ccf944c4b35a596fb2e11310aeb9d82a28dcf",
+    "bulk_marker_expression.tsv": "0ff2ed32a75ef3f4469f8e1e6f551d23dcdaa4e60315258a5c0345f415b27453",
+    "bulk_normalization.tsv": "855f01c5f381f824db632604b27d90598480ecdac80da4f6ce658d17452d8185",
+    "bulk_panel_membership.tsv": "bf40106c262d95015810f553d1c828c4beb687c84985911f0d570874e606072c",
+    "bulk_program_effects.tsv": "8008e92f7a766a768a6b1a2e9ffd62aed12819fa4360cefaa379c0d223543f39",
+    "bulk_program_scores.tsv": "8e10aba7ad8977827bb0cc08ed1823464743d6db49e6bf5322c8ee42d7224704",
+    "bulk_qc.tsv": "2014abe97f7ded59d7579a1374176eda67d4d5efd07287bc86c8668aac2ac9a3",
+    "bulk_response_interactions.tsv": "976b4fb23f9029fb5abb53ac7dac2cb95dc97de5c26a484e3749b3f5bb9dd080",
+    "bulk_samples.tsv": "13b0894d274f724cb279e1466bf584cbbdb4f5ebc6a5905ea0b236e02d41a1ad",
+    "qpcr_effect_summary.tsv": "7b422d7239921895df30f259ca132a1f85540dfa3b9c2a570b69842d3a52293d",
+    "qpcr_paired_effects.tsv": "e185e920549104089d6ce8a953388eee9e65eefaff34a2b96c25305eec5eac15",
+    "qpcr_pairing_audit.tsv": "b4e6a31ef1ee519dd07a81ff1744cab89a8b523057ad330a61b318eedaada975",
+    "qpcr_source_rows.tsv": "39e5cd2fb3590b38dbf0f0dd7eb7c4fe183a0ede2f6fc0b75f9b747152c6c2b7"
+  }
+}

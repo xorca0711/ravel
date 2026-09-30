@@ -1,0 +1,17 @@
+{
+  "finished_utc": "2026-09-30T02:22:47.052624+00:00",
+  "donors": 4,
+  "libraries": 16,
+  "planned_genes": 45,
+  "mapped_genes": 44,
+  "unavailable_genes": [
+    "FZD10"
+  ],
+  "panels": 4,
+  "contrasts": 5,
+  "source_sha256": "e3c1d312e2114238c0ae2e90033f37871ca205f831360cfbe26a87952cd1879f",
+  "config_sha256": "0dbb91185d753c7470a548f0cd7f44e6d68ac69ff0ca5e6348bf8e9815c7c5ee",
+  "normalization_sign_agreement": 225,
+  "normalization_comparisons": 240,
+  "interpretation": "Concurrent input interaction in RNA; not Fzd specificity, initial-state causality or linked epithelial function."
+}

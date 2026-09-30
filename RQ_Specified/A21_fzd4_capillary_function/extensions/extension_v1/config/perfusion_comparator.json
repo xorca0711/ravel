@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-09-30T04:59:22.726300+00:00",
+  "scope": "Bian Figure3F Foxf1-deficiency perfusion comparator; separate from Figure7 Fzd4 rescue",
+  "contrast": "endFoxf1+/- minus Control",
+  "source_columns": {
+    "B": "Control",
+    "C": "endFoxf1+/-"
+  },
+  "data_rows": [
+    3,
+    4,
+    5
+  ],
+  "unit_basis": "Source legend explicitly n=3 mice/group and sheet has 3 data rows/group. No cross-endpoint animal IDs; unpaired descriptive analysis only.",
+  "outcome": "Source-labelled perfused vessels percentage",
+  "rationale": "Perfusion after Foxf1 loss cannot be treated as perfusion rescue after Fzd4 restoration.",
+  "known_exposure": "Published direction/n and XLSX structure inspected; numerical values not inspected.",
+  "no_new_p_values": true
+}

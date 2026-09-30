@@ -1,0 +1,23 @@
+{
+  "finished_utc": "2026-09-30T05:17:17.135048+00:00",
+  "status": "passed",
+  "checks": 56225,
+  "cells": 5423,
+  "genes": 36,
+  "source_observations": 88,
+  "prior_files_checked": 256,
+  "prior_files_unchanged": 250,
+  "prior_documents_archived": [
+    "RQ_Specified/A21_fzd4_capillary_function/FIGURES.md",
+    "RQ_Specified/A21_fzd4_capillary_function/PLAN.md",
+    "RQ_Specified/A21_fzd4_capillary_function/README.md",
+    "RQ_Specified/A21_fzd4_capillary_function/RESULTS.md",
+    "RQ_Specified/A21_fzd4_capillary_function/SOURCES.md",
+    "RQ_Specified/A21_fzd4_capillary_function/config/question_contract.json"
+  ],
+  "root_readme_unchanged": true,
+  "figure_exports": 9,
+  "limitations": "Source rows are reported biological replicates with anonymous identities; functional lineage and independent state validation remain untested.",
+  "post_integration_preservation_report": "preservation.json",
+  "post_verification_change": "Archive snapshot suffixes changed from .md to .md.txt; scientific arithmetic unchanged. Updated archive paths checked independently."
+}

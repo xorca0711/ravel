@@ -1,9 +1,9 @@
 {
   "schema": "nb2-derived-question/v1",
   "drafted": "2026-09-29",
-  "status": "proposed_design_unexecuted",
+  "status": "exploratory_complete_primary_scope_narrowed_functional_H1_unexecuted",
   "post_analysis_derivation": true,
-  "owner_request": "start deriving RQs from the overall results",
+  "owner_request": "Proceed with narrowing A20 after the completed exploratory analysis",
   "biological_acceptance": false,
   "scoring_authorized": false,
   "id": "A20",
@@ -12,15 +12,15 @@
   "source_branches": [
     "Nb2-N6"
   ],
-  "question": "Do subtype-specific Fzd signals maintain a fibroblast niche that enables alveolar maturation?",
+  "question": "Does Fzd2, more than Fzd1, sustain AF1 fibroblast support of AT2-derived alveolar repair?",
   "hypotheses": [
     "H1 greater loss of AF1 trophic activity and epithelial mature output after Fzd2 loss than Fzd1 loss",
     "H2 relative receptor dependence differs by initial fibroblast subtype"
   ],
   "unit": "independent fibroblast source/animal/preparation with epithelial recipient identity",
-  "primary_outcome": "absolute mature epithelial output; matrix remodeling assessed separately",
+  "primary_outcome": "absolute lineage-linked mature AT2-descendant output per starting epithelial population, with prospectively defined identity and functional criteria; original H1 endpoint retained",
   "required_evidence": [
-    "independent subtype crosswalk",
+    "independent initial AF1-like identity and adult repair context",
     "receptor- and compartment-specific perturbation",
     "verified engagement",
     "functional epithelial output",
@@ -40,17 +40,55 @@
     "multiplicity_family": null,
     "validation_cohort": null
   },
-  "execution_gate": "Identify eligible data and freeze remaining assay-specific comparisons, margins, models and validation before new outcomes are inspected.",
+  "execution_gate": "Resolve an eligible adult AF1-like source with comparable Fzd1/Fzd2 loss, verified engagement, biological units, source/recipient attribution, viable-source abundance and lineage-linked mature output; freeze assay-specific margins, uncertainty and models before new outcomes.",
   "new_fits": false,
   "new_claim_grades": false,
-  "biological_hypothesis": "Fzd2 maintains AF1-like trophic activity that enables AT2 descendant maturation; Fzd1-rich contexts are not automatically interchangeable support states.",
-  "biological_process": "receptor-dependent control of a functional fibroblast support state",
+  "biological_hypothesis": "In a defined adult alveolar repair context, comparable Fzd2 loss in prospectively identified AF1-like fibroblasts reduces functional epithelial support and absolute mature AT2-descendant output more than comparable Fzd1 loss.",
+  "biological_process": "receptor-dependent AF1 fibroblast support of an AT2 pool capable of later mature alveolar contribution",
   "competing_biology": [
     "general fibroblast abundance or depletion",
+    "maturation-specific support rather than pool maintenance",
     "mechanical or ECM-mediated support",
     "direct epithelial reception",
     "subtype replacement"
   ],
-  "mechanistic_prediction": "Comparable receptor loss alters functional fibroblast-derived support and subsequent epithelial maturation; source/recipient separation and restoration distinguish trophic activity from depletion.",
-  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint."
+  "mechanistic_prediction": "Greater Fzd2-dependent support loss may reduce the earlier supported AT2 pool and later mature contribution; independent source-activity and fate evidence must distinguish this from depletion or a maturation-specific effect.",
+  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint.",
+  "context_execution": "exploratory_v1",
+  "source_audit": "RQ_Specified/A20_fibroblast_fzd_context/SOURCES.md",
+  "results": "RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md",
+  "figures": "RQ_Specified/A20_fibroblast_fzd_context/FIGURES.md",
+  "refinement": "Focus original H1 on Fzd2 versus Fzd1 within one adult AF1-like repair context. Retain mature output as primary; pool maintenance is an untested mechanistic proposal. Defer original subtype H2.",
+  "extension_execution": "extensions/extension_v1",
+  "extension_results": "RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/RESULTS.md",
+  "scope_revision": {
+    "id": "scope_refinement_v1",
+    "date": "2026-09-30",
+    "post_analysis": true,
+    "human_authorized_action": "Narrow the research scope",
+    "biological_validation": false,
+    "history": "RQ_Specified/A20_fibroblast_fzd_context/metadata/history/scope_refinement_v1/document_snapshots.json"
+  },
+  "focused_design": "RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md",
+  "hypothesis_status": {
+    "H1": "active_primary_unexecuted",
+    "H2": "retained_deferred_unexecuted"
+  },
+  "primary_context": "one defined adult alveolar repair setting; prospectively and independently identified AF1-like fibroblasts",
+  "primary_contrast": "E(Fzd2)-E(Fzd1) < 0, where E is loss-minus-matched-control effect on the retained primary mature-output endpoint",
+  "mechanistic_companions": [
+    "functional source-derived epithelial support beyond general fibroblast loss",
+    "earlier supported AT2-descendant pool with survival and expansion distinguished",
+    "later tracked fate/function",
+    "fibroblast viability and abundance",
+    "matrix deposition and mechanics"
+  ],
+  "deferred_scope": [
+    "original H2 receptor-by-initial-subtype interaction",
+    "Fzd2-by-Notch interaction",
+    "specific secreted mediator assignment",
+    "other FZD family members",
+    "cross-stage or chronic-disease generalization"
+  ],
+  "stop_rule": "Do not repeat expression-only analysis to resolve functional H1; reopen with evidence that changes source eligibility or a discriminating biological outcome."
 }

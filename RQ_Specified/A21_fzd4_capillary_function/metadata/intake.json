@@ -1,0 +1,89 @@
+[
+  {
+    "file": "gillich.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7721049/fullTextXML",
+    "status": "failed",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "foxf1_fzd4.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11099127/fullTextXML",
+    "bytes": 234615,
+    "sha256": "82988f2bde3e73cf2644b853c10aa8f35d347e702563ea5f30873ceffd10b264",
+    "status": "retrieved"
+  },
+  {
+    "file": "godoy.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10181823/fullTextXML",
+    "bytes": 215572,
+    "sha256": "acd270d8015118900e4b8fdb9b3ba8bfe568bb0f8fa1d52f93ee3a9aa0e38942",
+    "status": "retrieved"
+  },
+  {
+    "file": "GSE211335.soft",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE211335&targ=self&form=text&view=full",
+    "bytes": 2907,
+    "sha256": "f98f8d7a1d1fdb4cc7c7a1fb1fbe1c9e259ff509100e22050c869dcf41ede76e",
+    "status": "retrieved"
+  },
+  {
+    "file": "foxf1_fig7.zip",
+    "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs44321-024-00064-8/MediaObjects/44321_2024_64_MOESM8_ESM.zip",
+    "status": "failed",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "file": "gillich_fig4.xlsx",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7721049/bin/NIHMS1628000-supplement-Source_Data_Figure_4.xlsx",
+    "status": "failed",
+    "error": "Payload is not a ZIP/XLSX document"
+  },
+  {
+    "file": "godoy_samples.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211335/suppl/GSE211335_sample_metadata.txt.gz",
+    "status": "retrieved",
+    "bytes": 667,
+    "sha256": "adccdf0d08591eafab5b1349997e1c21c087e549e0874221c9dcb774ef38a1ee"
+  },
+  {
+    "file": "godoy_endothelial_metadata.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211335/suppl/GSE211335_Endothelial_seurat_metadata.csv.gz",
+    "status": "retrieved",
+    "bytes": 273111,
+    "sha256": "36399ae1d54b2aad96f527021993c961361de1d0a0a650ccf366617ed456f62d"
+  },
+  {
+    "file": "foxf1_fig7.zip",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11099127/bin/44321_2024_64_MOESM8_ESM.zip",
+    "status": "failed",
+    "error": "Not ZIP"
+  },
+  {
+    "file": "godoy_code_tree.json",
+    "url": "https://api.github.com/repos/rsgodoy/Single-Cell-Transcriptomic-Atlas-of-Lung-Microvascular-Regeneration-After-Targeted-EC-Ablation/git/trees/main?recursive=1",
+    "status": "retrieved",
+    "bytes": 3192,
+    "sha256": "e471dd9eb9f0b85695b1c2ed3ee3ee089129f2dc5d920955e584cfc892c49c3f"
+  },
+  {
+    "file": "GSE211335_RAW.tar",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211335/suppl/GSE211335_RAW.tar",
+    "status": "retrieved",
+    "bytes": 85053440,
+    "sha256": "1447eae94b0a1937630876ea2c78bdab1606ea14e641c65c3ee455a03a67d04b"
+  },
+  {
+    "file": "1a_QC_doublets_integration_global.Rmd",
+    "url": "https://raw.githubusercontent.com/rsgodoy/Single-Cell-Transcriptomic-Atlas-of-Lung-Microvascular-Regeneration-After-Targeted-EC-Ablation/main/1a_QC_doublets_integration_global.Rmd",
+    "status": "retrieved",
+    "bytes": 2955,
+    "sha256": "4c9ca6b8a2eae5d2480f05dfb694b5c1147866c2e753b6f88b03e57019970e10"
+  },
+  {
+    "file": "2_Global_UMAP_CellClustering_Subgrouping.Rmd",
+    "url": "https://raw.githubusercontent.com/rsgodoy/Single-Cell-Transcriptomic-Atlas-of-Lung-Microvascular-Regeneration-After-Targeted-EC-Ablation/main/2_Global_UMAP_CellClustering_Subgrouping.Rmd",
+    "status": "retrieved",
+    "bytes": 41230,
+    "sha256": "f99314a6eec631370097372f91fa11cd2a4fb6b6e01f1fd6bb699a68b201cc5d"
+  }
+]

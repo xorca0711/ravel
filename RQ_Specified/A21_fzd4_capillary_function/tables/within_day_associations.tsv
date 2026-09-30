@@ -1,0 +1,25 @@
+state	day	cell_floor	animals	rho	status
+gCap	0	20	3	-1	descriptive_n3
+gCap	3	20	3	-1	descriptive_n3
+gCap	5	20	3	0.5	descriptive_n3
+gCap	7	20	3	-1	descriptive_n3
+gCap_0	0	20	3	-0.5	descriptive_n3
+gCap_0	3	20	3	1	descriptive_n3
+gCap_0	5	20	2		insufficient_or_constant
+gCap_0	7	20	3	-1	descriptive_n3
+gCap	0	10	3	-1	descriptive_n3
+gCap	3	10	3	-1	descriptive_n3
+gCap	5	10	3	0.5	descriptive_n3
+gCap	7	10	3	-1	descriptive_n3
+gCap_0	0	10	3	-0.5	descriptive_n3
+gCap_0	3	10	3	1	descriptive_n3
+gCap_0	5	10	3	-0.5	descriptive_n3
+gCap_0	7	10	3	-1	descriptive_n3
+gCap	0	50	3	-1	descriptive_n3
+gCap	3	50	3	-1	descriptive_n3
+gCap	5	50	3	0.5	descriptive_n3
+gCap	7	50	3	-1	descriptive_n3
+gCap_0	0	50	3	-0.5	descriptive_n3
+gCap_0	3	50	2		insufficient_or_constant
+gCap_0	5	50	2		insufficient_or_constant
+gCap_0	7	50	3	-1	descriptive_n3

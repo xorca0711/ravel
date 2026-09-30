@@ -1,0 +1,100 @@
+{
+  "compile": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "compileall",
+      "-q",
+      "-x",
+      "[/\\\\]\\.tools[/\\\\]",
+      "analysis",
+      "Research Article",
+      "RQ_Specified"
+    ],
+    "exit_code": 0,
+    "log": "compile_check.log",
+    "summary": []
+  },
+  "tests": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "analysis/tests",
+      "-q"
+    ],
+    "exit_code": 0,
+    "log": "tests_check.log",
+    "summary": [
+      "----------------------------------------------------------------------"
+    ]
+  },
+  "claims": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "analysis/scripts/claim_contract.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "claims_check.log",
+    "summary": [
+      "Claim contract verified; 18 numeric bindings passed."
+    ]
+  },
+  "Nb1": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+    ],
+    "exit_code": 0,
+    "log": "Nb1_check.log",
+    "summary": [
+      "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested."
+    ]
+  },
+  "A16": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py"
+    ],
+    "exit_code": 0,
+    "log": "A16_check.log",
+    "summary": [
+      "{"
+    ]
+  },
+  "repository": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "analysis/scripts/validate_repository.py"
+    ],
+    "exit_code": 0,
+    "log": "repository_check.log",
+    "summary": [
+      "Repository validation passed: 5447 checks"
+    ]
+  },
+  "whitespace": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "whitespace_check.log",
+    "summary": []
+  },
+  "input_restore": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "RQ_Specified/A21_fzd4_capillary_function/scripts/00_fetch.py"
+    ],
+    "exit_code": 0,
+    "log": "input_restore_check.log",
+    "summary": [
+      "Verified godoy_samples.txt.gz"
+    ]
+  }
+}

@@ -1,5 +1,12 @@
 # A19 investigation plan
 
+**Current execution route:** [extension pipeline](EXTENSION_PIPELINE.md) ·
+[external evidence review](EXTERNAL_EVIDENCE.md) ·
+[draft execution specification](config/extension_pipeline_draft.json).
+The stages below retain the parent H1–H3 design; P1–P3 in the extension document
+are priorities that prepare or conditionally execute those tests, not a new
+numbering of the parent stages.
+
 This proposed design derives from exposed results; it is not a frozen confirmatory
 protocol. Numerical thresholds and assay details remain unselected. No new fit is
 required to restate the Nb2 premise.
@@ -72,3 +79,43 @@ cannot be the same predictor panel. Missing independent endpoints, failed
 engagement, unresolved units or absent initial states stop the affected inference.
 First deliverable: candidate-source eligibility and an amended prospective
 contract, not another score sweep of Nb2.
+
+
+## Execution addendum, 30 September 2026
+
+The owner authorized A19 analysis and formal figures. The bounded
+[source inventory](SOURCES.md) found no complete direct Fzd schedule/fate/reserve
+experiment among the inspected sources. A separate [exploratory contract](config/exploratory_v1.json)
+was frozen before new numeric outcomes, with prior narrative exposure recorded.
+The run executed donor-paired qPCR and source-block bulk RNA from the 2022 human
+organoid study; [results](RESULTS.md), [figures](FIGURES.md) and [methods](METHODS.md)
+are deposited here. This is not another fit of the exposed Nb2 matrix.
+
+The observations motivate a post-analysis refinement: release from a maintenance
+input may permit alveolar maturation only while alveolar competence is retained;
+otherwise alternative lineage states or selection may dominate. That proposition
+is biological and falsifiable through traced mature output and reserve, rather
+than through agreement between marker scores. Direct H1–H3 decisions remain
+unresolved. The original stages, competing explanations and prospective
+confirmatory gate above remain in force; no outcome-derived numerical margin
+or accepted mechanism is inserted retrospectively.
+
+
+## Integrated extension amendment, 30 September 2026
+
+The owner requested that the three proposed priorities be integrated with the
+results' hypothesis-refinement section, then added an external web evidence
+review. [EXTENSION_PIPELINE.md](EXTENSION_PIPELINE.md) now specifies eligibility,
+contrasts, units, competing explanations, decision/stop rules and planned
+artifacts for cellular identity (P1), existing input-context effects (P2) and
+linked functional evidence (P3). The draft JSON records pending numerical
+choices; it is not a frozen single-cell or confirmatory contract.
+
+The [eight-study evidence review](EXTERNAL_EVIDENCE.md) supports competing-fate
+biology and adds the missing-maturation-cue and modifiable-state alternatives.
+It distinguishes already used studies, reference datasets and potentially useful
+functional results. No reviewed source is assumed to join every required
+endpoint. S0 and S1 state questions remain separate, and the original H1 reserve
+criterion is retained. Existing scientific outputs remain unchanged; the
+[pre-amendment versions](reports/history/2026-09-30-before-extension/snapshot.json)
+of the edited question documents are preserved.

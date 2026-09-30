@@ -1,0 +1,64 @@
+[
+  {
+    "file": "hyperoxia.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8983125/fullTextXML",
+    "status": "retrieved",
+    "bytes": 161352,
+    "sha256": "caa396b998238da04658d3fa3e929c39fcdf756b31258c681e8b3730bab63ce7"
+  },
+  {
+    "file": "ng_blichfeldt2019.pdf",
+    "url": "https://pure.rug.nl/ws/files/93432135/ajplung.00400.2018.pdf",
+    "status": "retrieved",
+    "bytes": 2917379,
+    "sha256": "6ce35c335f56166a62a610851f9d7b909e569a6f40e9cb996a87b895e533365d"
+  },
+  {
+    "file": "Jones_biosample_WT.json",
+    "url": "https://www.ebi.ac.uk/biosamples/samples/SAMN38767631",
+    "status": "failed",
+    "error": "HTTP Error 404: "
+  },
+  {
+    "file": "Jones_biosample_NotchKD.json",
+    "url": "https://www.ebi.ac.uk/biosamples/samples/SAMN38767630",
+    "status": "failed",
+    "error": "HTTP Error 404: "
+  },
+  {
+    "file": "ng_figshare.json",
+    "url": "https://api.figshare.com/v2/articles/7740071",
+    "status": "retrieved",
+    "bytes": 5059,
+    "sha256": "38b6afea7cd9aba17f94eecbc36b5ca5c73efd3f186a671d9fb6a7639a3395ef"
+  },
+  {
+    "file": "GSE171812.soft",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171812&targ=all&form=text&view=full",
+    "status": "retrieved",
+    "bytes": 11170497,
+    "sha256": "98fa9b791870f477f51e04591017d78641928d0583b5544a4319022b6aaf3f8a"
+  },
+  {
+    "file": "Jones_biosample.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN38767631,SAMN38767630&retmode=xml",
+    "status": "retrieved",
+    "bytes": 4216,
+    "sha256": "f8b0fa73f3e194a4c1547e9ba0b3f27952e6b366d5cfe4f3e7f25c5bceb38ce4"
+  },
+  {
+    "file": "ng2019_expression.tsv",
+    "url": "https://ndownloader.figshare.com/files/14401178",
+    "status": "retrieved",
+    "bytes": 1945358,
+    "sha256": "e3c1d312e2114238c0ae2e90033f37871ca205f831360cfbe26a87952cd1879f"
+  },
+  {
+    "file": "human_gene_lookup.json",
+    "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens",
+    "method": "POST symbol lookup",
+    "status": "retrieved",
+    "bytes": 20185,
+    "sha256": "bb3b5cff257ca0cc6c51dce52b2d0387530692e1a88f9d4305627ebb7b9a5c60"
+  }
+]

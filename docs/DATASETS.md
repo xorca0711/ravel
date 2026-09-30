@@ -112,3 +112,86 @@ processed count table downloaded publicly; no pooled multiome well was counted
 as an independent bulk mouse. [Methods and source hashes](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/METHODS.md).
 The same workspace reuses GSE208770 and GSE262927; these are additional analyses,
 not independent validation cohorts.
+
+
+## A19 supporting human organoid data, 30 September 2026
+
+[GSE197949](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197949) supplies
+eight analyzed alveolar-organoid bulk libraries (GSM5934407–GSM5934414), crossing
+control/GSK3B-knockdown backgrounds with CHIR presence/absence in two source
+blocks. The paper describes two donor cultures; GEO batches do not explicitly
+map to donors, and knockdown hairpin differs by block. No population-level
+DEG or interaction test was fitted. Of 60,662 count rows, 14,581 pass the frozen
+expression filter. Other GEO samples are outside this analysis.
+
+Supplementary Data 3 from [the associated 2022 human organoid paper](https://www.nature.com/articles/s42003-022-03828-5)
+provides 143 extracted qPCR rows across five differentiation sheets, with exact
+donor-code pairing and non-detects retained. These public source observations
+support A19's lineage-context question; they do not measure Fzd withdrawal,
+traced mature output or retained reserve. This is secondary analysis, not an
+independent replication of Nb2. [Sources and hashes](../RQ_Specified/A19_fzd_response_reversibility/SOURCES.md) ·
+[Results](../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md).
+
+## A20 fibroblast context and source eligibility, 30 September 2026
+
+A20 reuses the GSE262927 author-annotated count object for 21 predefined genes,
+with five paired AF1/AF2 day42 source samples at the primary 50-cell floor.
+This is the previously exposed Nb2 atlas, not independent replication. Additional
+identity probes and individual support/collagen measurements are reported under
+[A20 results](../RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md).
+
+Zhou2025 supplies published Fzd2 perturbation evidence but no accession-linked
+Fzd1/Fzd2 functional outcome join in the inspected article/supplement. Jones2024
+GSE249931 supplies 17 public library records, including one named library each
+for the Notch genotype contrast; animal replication remains unresolved. CellRef
+LMEX0000004397/GSE122332 and human GSE135893 are reference/context candidates,
+not newly executed intervention analyses. [Eligibility and identifiers](../RQ_Specified/A20_fibroblast_fzd_context/SOURCES.md).
+
+## A20 extension: matched fibroblast input cohort, 30 September 2026
+
+[Ng-Blichfeldt et al. 2019](https://doi.org/10.1152/ajplung.00400.2018) deposited
+[raw counts, figshare version 1](https://doi.org/10.6084/m9.figshare.7740071.v1):
+32,734 genes, four human fibroblast donors, four concurrent input conditions
+per donor (16 libraries). A20 extension_v1 uses all-gene TMM normalization and
+44 of 45 frozen requested genes; FZD10 is absent and explicitly unavailable.
+The source count SHA256, frozen Ensembl mapping and retrieval metadata are
+under [extension metadata](../RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/metadata/intake.json).
+All four donors are retained with donor contrasts, leave-one-donor means and
+total-count sensitivity; no inferential model was fit.
+
+The source's functional cohort comprises eight different donors. RNA and
+function cannot be donor-joined. CHIR is downstream of FZD; simultaneous TGF
+does not define prior state. Jones GEO/BioSample and Riccetti GEO metadata were
+audited for units, with no additional numerical fits.
+[Assay-level eligibility](../RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/metadata/assay_evidence.tsv)
+preserves these boundaries.
+
+## A21 independent capillary context, 30 September 2026
+
+[Godoy et al. 2023](https://doi.org/10.7554/eLife.80900),
+[GSE211335](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE211335):
+12 animal barcodes, three per condition, across three technical library pools.
+A21 aggregates raw counts for 26 predefined genes over the 5,423 deposited
+endothelial cells and preserves source-defined clusters. All-gene raw denominators
+are used; a [documented discrepancy](../RQ_Specified/A21_fzd4_capillary_function/reports/denominator_amendment.json)
+with deposited QC totals prompted a recorded sensitivity, not exclusions.
+This is independent expression context for the prior GSE262927 lead, not Fzd4
+perturbation or traced lineage evidence. No cell/pool is treated as an animal.
+
+The [source eligibility inventory](../RQ_Specified/A21_fzd4_capillary_function/SOURCES.md)
+also distinguishes Gillich's lineage rationale, Bian's tumor endothelial FZD4
+restoration and epithelial FZD4 repair evidence. Failed source-table downloads
+remain in the intake record; those studies were not numerically reanalyzed.
+
+## A21 extension source update, 30 September 2026
+
+[Extension sources](../RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/SOURCES.md)
+add numerical reconstruction from Bian 2024 Figure 3F and Figure 7D-G workbooks.
+The 88 observations are panel records, not 88 distinct animals; anonymous rows
+cannot be joined across outcomes. Fzd4 restoration occurs in tumor endothelium;
+perfusion is measured in a separate Foxf1-loss comparison. GSE255969 has four
+control/four Foxf1-deficient bulk samples and no rescue arm; no bulk fit was run.
+The existing GSE211335 cohort now has 36 predefined genes, including all ten Fzd
+receptors and Foxf1. It is reused evidence. GSE262927 coarse CAP labels do not
+validate the Godoy major/transitional contrast. A 2026 retinal preprint supplies
+cross-organ literature context only. No joined adult-lung functional test is added.

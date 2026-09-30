@@ -1,0 +1,6 @@
+{
+  "failure": "openpyxl read-only EmptyCell has no row attribute in blank leading cells",
+  "resolution": "Use the iterator row index; retain exact source rows without changing gene/condition/donor selection",
+  "failed_script_sha256": "5fe40f8718fe413efb040a8c344f02860efafebcd85b175f72a22cee7164657d",
+  "scientific_contract_changed": false
+}

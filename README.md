@@ -63,9 +63,6 @@ and the [execution roadmap](docs/RESEARCH_ROADMAP.md) records current priorities
 |---|---|
 | Biological questions and the evidence needed to answer them | [Research-question register](RESEARCH_QUESTIONS.md) and [question workspaces](RQ_Specified/README.md) |
 | Source studies, reading status and paper-specific analyses | [Research article roadmap](Research%20Article/README.md) |
-| Nabhan 2023 reproduction, exploration and open hypotheses | [Nb2 results](Research%20Article/gate2_N1_nabhan_2023/RESULTS.md) and [figures](Research%20Article/gate2_N1_nabhan_2023/FIGURES.md); initial analysis executed, exact reproduction and functional gates remain |
-| Nb2 derived RQs: epithelial reversibility, fibroblast context and vascular function | [Evidence synthesis](Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md); A19–A21 are proposed, with unexecuted question-specific plans |
-| Nb2 branch analysis and emerging hypotheses | [Paper analysis workspace](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md), [new results](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md) and [figures](Research%20Article/gate2_N1_nabhan_2023/branch_analysis/FIGURES.md); timing, epithelial state, receptor output and niche function |
 | Datasets, their roles, biological units and eligibility limits | [Dataset inventory](docs/DATASETS.md) |
 | Current results, remaining gaps and execution priorities | [Current project state](PROGRESS.md) and [research execution roadmap](docs/RESEARCH_ROADMAP.md) |
 | Figures and the reports that interpret them | [Question figure index](RQ_Specified/FIGURES.md) and [paper galleries](Research%20Article/README.md#figure-galleries) |

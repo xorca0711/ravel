@@ -1,0 +1,45 @@
+{
+  "repository": {
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "analysis/scripts/validate_repository.py"
+    ],
+    "log": "repository.log",
+    "summary": [
+      "Repository validation passed: 5400 checks"
+    ]
+  },
+  "claims": {
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "analysis/scripts/claim_contract.py",
+      "--check"
+    ],
+    "log": "claims.log",
+    "summary": [
+      "Claim contract verified; 18 numeric bindings passed."
+    ]
+  },
+  "whitespace": {
+    "exit_code": 0,
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "log": "whitespace.log",
+    "summary": []
+  },
+  "preservation": {
+    "prior_A20_files_unchanged": 103,
+    "prior_A20_documents_archived": 4,
+    "A19_files_unchanged": 69,
+    "root_readme_unchanged": true,
+    "original_H1_H2_preserved": true,
+    "assay_parameters_unchanged": true,
+    "claim_status_unchanged": true,
+    "no_new_scientific_analysis": true
+  }
+}

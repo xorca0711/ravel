@@ -1,0 +1,73 @@
+{
+  "checked_utc": "2026-09-30T02:00:24.680276+00:00",
+  "checks": [
+    {
+      "name": "compile",
+      "command": [
+        "-m",
+        "compileall",
+        "-q",
+        "-x",
+        "[/\\\\]\\.tools[/\\\\]",
+        "analysis",
+        "Research Article",
+        "RQ_Specified"
+      ],
+      "exit_code": 0,
+      "log": "compile_check.log",
+      "tail": ""
+    },
+    {
+      "name": "unit_tests",
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "analysis/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "log": "unit_tests_check.log",
+      "tail": "----------------------------------------------------------------------\nRan 67 tests in 4.300s\n\nOK (skipped=1)\n"
+    },
+    {
+      "name": "claim_contract",
+      "command": [
+        "analysis/scripts/claim_contract.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "claim_contract_check.log",
+      "tail": "Claim contract verified; 18 numeric bindings passed.\n"
+    },
+    {
+      "name": "nb1",
+      "command": [
+        "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "log": "nb1_check.log",
+      "tail": "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested.\n"
+    },
+    {
+      "name": "a16",
+      "command": [
+        "RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py"
+      ],
+      "exit_code": 0,
+      "log": "a16_check.log",
+      "tail": "{\n  \"scope\": \"Archived provenance and table consistency; no raw-data rerun or biological validation.\",\n  \"checks\": 1867,\n  \"failures\": [],\n  \"summary\": {\n    \"C3_entries\": 9,\n    \"C3_below_40_controls\": 7,\n    \"C3_above_all_sampled_controls\": 4,\n    \"C1_positive_k10\": 8,\n    \"C5_primary_thinning_rows_below_floor\": 4\n  },\n  \"unverified\": [\n    \"Raw count matrices and barcode arrays used by C3/C4 are not directly hashed in its run record.\",\n    \"Recorded inputs and numerical computations were not independently replayed by this table verifier.\",\n    \"No contamination exclusion, position-independent mechanism or biological replication follows.\"\n  ]\n}\n"
+    },
+    {
+      "name": "repository",
+      "command": [
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "log": "repository_check.log",
+      "tail": "Repository validation passed: 5333 checks\n  local Markdown links resolve\n  tracked JSON artefacts parse\n  selected headline values and explicit numeric bindings match tracked tables\n  claim index and summary match the register; this is not full scientific reproduction\n"
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,53 @@
+"""Compute frozen matched-donor RNA context contrasts, not Fzd intervention effects."""
+from pathlib import Path
+import datetime,hashlib,json,re
+import numpy as np,pandas as pd
+BASE=Path(__file__).resolve().parents[1]
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def write(x,n):x.to_csv(BASE/'tables'/n,sep='\t',index=False,float_format='%.12g')
+def main():
+ if (BASE/'reports/analysis_complete.json').exists():raise SystemExit('Completed extension exists; preserve/version before rerun.')
+ c=json.loads((BASE/'config/analysis_contract.json').read_text());raw=pd.read_csv(BASE/'cache'/c['source_file'],sep='\t',index_col=0)
+ assert sha(BASE/'cache'/c['source_file'])==c['source_sha256']
+ annotation=json.loads((BASE/'metadata/human_gene_lookup.json').read_text())['records'];all_ids={g:annotation[g]['id'] for g in c['genes']}
+ assert len(set(all_ids.values()))==len(all_ids)
+ missing=[g for g,v in all_ids.items() if v not in raw.index];assert missing==json.loads((BASE/'reports/mapping_amendment.json').read_text())['allowed_missing']
+ ids={g:v for g,v in all_ids.items() if v in raw.index}
+ write(pd.DataFrame([dict(gene=g,ensembl=v,mapped=v in raw.index) for g,v in all_ids.items()]),'gene_mapping.tsv')
+ meta=[]
+ for col in raw.columns:
+  m=re.fullmatch(r'Donor (\d+) - (.+)',col);assert m and m[2] in c['conditions'];meta.append(dict(sample=col,donor=int(m[1]),condition=m[2]))
+ meta=pd.DataFrame(meta);assert meta.groupby('donor').condition.nunique().eq(4).all() and meta.donor.nunique()==4;write(meta,'samples.tsv')
+ norm=pd.read_csv(BASE/'tables/normalization.tsv',sep='\t').set_index('sample').loc[raw.columns]
+ assert np.array_equal(raw.sum().to_numpy(),norm.library_size.to_numpy())
+ tmm=pd.read_csv(BASE/'cache/TMM_log2CPM.tsv',sep='\t',index_col=0);assert list(tmm.columns)==list(raw.columns)
+ expected=np.log2(raw.div(norm.effective_library_size,axis=1)*1e6+1);assert np.allclose(tmm,expected,atol=1e-10)
+ matrices={'TMM':tmm,'total_count':np.log2(raw.div(raw.sum(),axis=1)*1e6+1)}
+ coverage=[dict(gene=g,ensembl=all_ids[g],mapped=False,libraries_ge10=None,adequately_detected=None,total_counts=None) for g in missing]
+ for gene,ens in ids.items():
+  v=raw.loc[ens];coverage.append(dict(gene=gene,ensembl=ens,mapped=True,libraries_ge10=int((v>=10).sum()),adequately_detected=bool((v>=10).sum()>=4),total_counts=int(v.sum())))
+ coverage=pd.DataFrame(coverage);write(coverage,'gene_coverage.tsv')
+ raw_selected=raw.loc[list(ids.values())].copy();raw_selected.insert(0,'gene',list(ids));raw_selected.index.name='ensembl';write(raw_selected.reset_index(),'selected_raw_counts.tsv')
+ values=[]
+ for method,mat in matrices.items():
+  features={g:mat.loc[v] for g,v in ids.items()}
+  for panel,gs in c['panels'].items():features[panel]=pd.DataFrame([features[g] for g in gs]).mean(axis=0)
+  for name,vals in features.items():
+   for sample,v in vals.items():
+    m=meta.set_index('sample').loc[sample];values.append(dict(normalization=method,feature=name,kind='panel' if name in c['panels'] else 'gene',sample=sample,donor=int(m.donor),condition=m.condition,value=float(v)))
+ values=pd.DataFrame(values);write(values,'sample_features.tsv');contrasts=[]
+ for key,g in values.groupby(['normalization','feature','kind','donor'],observed=True):
+  v=g.set_index('condition').value
+  for name,weights in c['contrasts'].items():contrasts.append(dict(normalization=key[0],feature=key[1],kind=key[2],donor=key[3],contrast=name,delta=sum(v[k]*w for k,w in weights.items())))
+ contrasts=pd.DataFrame(contrasts);write(contrasts,'donor_contrasts.tsv')
+ summaries=[]
+ for key,g in contrasts.groupby(['normalization','feature','kind','contrast'],observed=True):
+  v=g.delta;assert len(v)==4
+  leave=[v.drop(i).mean() for i in v.index]
+  summaries.append(dict(normalization=key[0],feature=key[1],kind=key[2],contrast=key[3],donors=4,mean=v.mean(),median=v.median(),minimum=v.min(),maximum=v.max(),positive=int((v>0).sum()),negative=int((v<0).sum()),leave_one_mean_min=min(leave),leave_one_mean_max=max(leave)))
+ summaries=pd.DataFrame(summaries);write(summaries,'contrast_summary.tsv')
+ a=summaries[summaries.normalization.eq('TMM')];z=a.merge(summaries[summaries.normalization.eq('total_count')],on=['feature','kind','contrast'],suffixes=('_TMM','_total'),validate='one_to_one');z['mean_sign_agrees']=np.sign(z.mean_TMM)==np.sign(z.mean_total);write(z[['feature','kind','contrast','mean_TMM','mean_total','mean_sign_agrees']],'normalization_sensitivity.tsv')
+ report=dict(finished_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),donors=4,libraries=16,planned_genes=45,mapped_genes=len(ids),unavailable_genes=missing,panels=4,contrasts=5,source_sha256=c['source_sha256'],config_sha256=sha(BASE/'config/analysis_contract.json'),normalization_sign_agreement=int(z.mean_sign_agrees.sum()),normalization_comparisons=len(z),interpretation='Concurrent input interaction in RNA; not Fzd specificity, initial-state causality or linked epithelial function.')
+ (BASE/'reports/analysis_complete.json').write_text(json.dumps(report,indent=2)+'\n')
+ print(json.dumps(report));print(a[a.feature.isin(['FZD1','FZD2','support','collagen','canonical_response','TGF_response'])][['feature','contrast','mean','positive','negative','leave_one_mean_min','leave_one_mean_max']].to_string(index=False))
+if __name__=='__main__':main()

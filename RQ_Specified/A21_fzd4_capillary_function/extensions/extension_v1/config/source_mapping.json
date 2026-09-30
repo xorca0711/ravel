@@ -1,0 +1,113 @@
+{
+  "recorded_utc": "2026-09-30T05:02:24.479382+00:00",
+  "panels": [
+    {
+      "panel": "3F",
+      "archive": "44321_2024_64_MOESM4_ESM.zip",
+      "outcome": "Perfused vascular area",
+      "unit": "Lectin-positive area as percent of CD31-positive area",
+      "columns": {
+        "B": "Control",
+        "C": "endFoxf1+/-"
+      },
+      "expected_n": [
+        3,
+        3
+      ],
+      "contrast": [
+        "C",
+        "B"
+      ],
+      "intervention": "Endothelial Foxf1 heterozygous loss; no Fzd4 rescue"
+    },
+    {
+      "panel": "7D",
+      "archive": "44321_2024_64_MOESM8_ESM.zip",
+      "outcome": "Tumor size",
+      "unit": "mm^3",
+      "columns": {
+        "B": "Control-nano-empty",
+        "C": "endFoxf1+/--nano-empty",
+        "D": "endFoxf1+/-nano-fzd4"
+      },
+      "expected_n": [
+        10,
+        7,
+        11
+      ],
+      "contrast": [
+        "D",
+        "C"
+      ],
+      "intervention": "Fzd4 restoration after endothelial Foxf1 heterozygous loss in tumors"
+    },
+    {
+      "panel": "7E",
+      "archive": "44321_2024_64_MOESM8_ESM.zip",
+      "outcome": "Fzd4-positive gCap endothelium",
+      "unit": "percent of gCap endothelial cells",
+      "columns": {
+        "B": "Lung EC",
+        "C": "Tumor EC",
+        "D": "endFoxf1+/--nano-empty",
+        "E": "endFoxf1+/-nano-fzd4"
+      },
+      "expected_n": [
+        6,
+        9,
+        5,
+        4
+      ],
+      "contrast": [
+        "E",
+        "D"
+      ],
+      "intervention": "Fzd4 restoration after endothelial Foxf1 heterozygous loss in tumors"
+    },
+    {
+      "panel": "7F",
+      "archive": "44321_2024_64_MOESM8_ESM.zip",
+      "outcome": "Nuclear beta-catenin-positive endothelium",
+      "unit": "percent of endothelial cells",
+      "columns": {
+        "B": "Control tumor empty",
+        "C": "endFoxf1+/--nano-empty",
+        "D": "endFoxf1+/-nano-fzd4"
+      },
+      "expected_n": [
+        7,
+        5,
+        4
+      ],
+      "contrast": [
+        "D",
+        "C"
+      ],
+      "intervention": "Fzd4 restoration after endothelial Foxf1 heterozygous loss in tumors"
+    },
+    {
+      "panel": "7G",
+      "archive": "44321_2024_64_MOESM8_ESM.zip",
+      "outcome": "Basement-membrane coverage",
+      "unit": "Collagen IV-positive area as percent of CD31-positive area",
+      "columns": {
+        "B": "Control tumor empty",
+        "C": "endFoxf1+/--nano-empty",
+        "D": "endFoxf1+/-nano-fzd4"
+      },
+      "expected_n": [
+        4,
+        5,
+        5
+      ],
+      "contrast": [
+        "D",
+        "C"
+      ],
+      "intervention": "Fzd4 restoration after endothelial Foxf1 heterozygous loss in tumors"
+    }
+  ],
+  "unit_resolution": "Published Figure3F axis is lectin-positive area/CD31-positive area, not a vessel-count percentage. This resolves the provisional comparator label before numeric extraction; no outcome/contrast changes.",
+  "source_unit_basis": "Paper legends specify biological replicates and count image fields within mice; source columns contain matching n. Rows are anonymous Data1 etc, not linkable mouse IDs. Retain source-reported replicate interpretation and avoid cross-endpoint joins.",
+  "source_statistics_discrepancy": "Figure7E workbook lists uncorrected Fisher LSD whereas figure legend states Tukey. Do not reproduce/reuse P values or inferential stars."
+}

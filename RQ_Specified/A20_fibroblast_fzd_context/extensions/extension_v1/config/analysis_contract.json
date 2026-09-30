@@ -1,0 +1,132 @@
+{
+  "run": "extension_v1",
+  "frozen_utc": "2026-09-30T02:19:04.177797+00:00",
+  "source": "Ng-Blichfeldt2019 figshare 10.6084/m9.figshare.7740071.v1",
+  "source_file": "ng2019_expression.tsv",
+  "source_sha256": "e3c1d312e2114238c0ae2e90033f37871ca205f831360cfbe26a87952cd1879f",
+  "exposure": "Paper narratives and matrix header/count-integrality QC seen; new gene-level estimates not inspected. Four named donors x four concurrent 24-hour conditions, 32734 genes, integer raw counts.",
+  "unit": "four named primary human lung fibroblast donors; four conditions matched within donor",
+  "conditions": [
+    "Vehicle",
+    "CHIR99021",
+    "TGFb",
+    "CHIR99021 + TGFb"
+  ],
+  "design": "Concurrent TGF-beta x CHIR factorial; no verified initial subtype or prestimulation state. CHIR is downstream GSK3 inhibition, not receptor-selective agonism.",
+  "genes": [
+    "ACTA2",
+    "AXIN2",
+    "COL1A1",
+    "COL1A2",
+    "COL3A1",
+    "COL5A1",
+    "COL5A2",
+    "COL6A1",
+    "COL6A2",
+    "COL6A3",
+    "FGF10",
+    "FGF7",
+    "FZD1",
+    "FZD10",
+    "FZD2",
+    "FZD3",
+    "FZD4",
+    "FZD5",
+    "FZD6",
+    "FZD7",
+    "FZD8",
+    "FZD9",
+    "HEYL",
+    "HGF",
+    "LEF1",
+    "LRP5",
+    "LRP6",
+    "NKD1",
+    "NOTCH3",
+    "NOTUM",
+    "PDGFRA",
+    "PDGFRB",
+    "PMEPA1",
+    "ROR1",
+    "ROR2",
+    "RYK",
+    "SERPINE1",
+    "TAGLN",
+    "TCF7",
+    "TGFBI",
+    "VEGFA",
+    "WNT2",
+    "WNT2B",
+    "WNT5A",
+    "WNT5B"
+  ],
+  "panels": {
+    "support": [
+      "WNT2",
+      "FGF7",
+      "FGF10",
+      "HGF"
+    ],
+    "collagen": [
+      "COL1A1",
+      "COL1A2",
+      "COL3A1",
+      "COL5A1",
+      "COL5A2",
+      "COL6A1",
+      "COL6A2",
+      "COL6A3"
+    ],
+    "canonical_response": [
+      "AXIN2",
+      "NKD1",
+      "NOTUM",
+      "TCF7",
+      "LEF1"
+    ],
+    "TGF_response": [
+      "SERPINE1",
+      "PMEPA1",
+      "TGFBI"
+    ]
+  },
+  "normalization": "TMM effective library size from complete supplied count matrix, then log2(CPM+1). Library-total CPM+1 normalization as fixed sensitivity. No numerical comparison with mouse atlas levels.",
+  "coverage_rule": "Flag gene counts >=10 in >=4 libraries as adequately detected for descriptive interpretation; retain and label all requested mapped genes even when below this floor. Panels remain fixed; report adequately detected membership.",
+  "contrasts": {
+    "CHIR_without_TGF": {
+      "CHIR99021": 1,
+      "Vehicle": -1
+    },
+    "CHIR_with_TGF": {
+      "CHIR99021 + TGFb": 1,
+      "TGFb": -1
+    },
+    "TGF_without_CHIR": {
+      "TGFb": 1,
+      "Vehicle": -1
+    },
+    "TGF_with_CHIR": {
+      "CHIR99021 + TGFb": 1,
+      "CHIR99021": -1
+    },
+    "interaction": {
+      "CHIR99021 + TGFb": 1,
+      "TGFb": -1,
+      "CHIR99021": -1,
+      "Vehicle": 1
+    }
+  },
+  "primary_context_estimand": "Within-donor interaction: (combined minus TGF) minus (CHIR minus vehicle). Estimated directly, not by comparing significance labels.",
+  "summaries": "Every donor contrast; mean, median, observed range, sign counts and leave-one-donor mean range. No P values, significance categories, population-confidence claim or genome-wide discovery.",
+  "panels_rule": "Equal-weight mean log2(CPM+1); no receptor genes in panels. No favorable-gene removal or refill.",
+  "sensitivity": "All four leave-one-donor means under fixed normalization; total-count normalization direction; no outcome-based donor exclusions.",
+  "biological_limits": [
+    "RNA cohort (4 Munich donors) differs from organoid cohort (8 Groningen donors), so no donor-level RNA/function mediation join.",
+    "RNA at 24h versus functional fibroblast pretreatment at 48h; no matched maturation timeline.",
+    "No direct Fzd1 versus Fzd2 contrast, ligand secretion, deposited matrix or mature epithelial output in count file.",
+    "No independent replicated Jones Notch contrast found after GEO and BioSample review.",
+    "Hyperoxia neonatal function supplies a stage-specific comparator; no equivalent adult AF1/AF2 state assumed."
+  ],
+  "biological_acceptance": false,
+  "new_claim_grades": false
+}

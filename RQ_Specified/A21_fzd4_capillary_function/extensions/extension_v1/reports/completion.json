@@ -1,0 +1,29 @@
+{
+  "completed_utc": "2026-09-30T05:23:40.432773+00:00",
+  "priorities": {
+    "1": "source reconstruction complete within tumor/endothelial structural scope",
+    "2": "family analysis complete; no robust nominee; independent matched-state validation unavailable",
+    "3": "functional hypotheses and estimands specified; no eligible adult-lung functional source"
+  },
+  "repository_checks_passed": [
+    "compile",
+    "tests",
+    "claims",
+    "Nb1",
+    "A16",
+    "source_restore",
+    "repository",
+    "whitespace"
+  ],
+  "repository_checks": 5504,
+  "scientific_checks": 56225,
+  "new_figures": 3,
+  "exports": 9,
+  "prior_A19_A20_files_unchanged": 191,
+  "main_readme_unchanged": true,
+  "claim_grade_changes": false,
+  "biological_acceptance": false,
+  "committed": false,
+  "pushed": false,
+  "pull_request_created": false
+}

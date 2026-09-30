@@ -1,9 +1,9 @@
 {
   "schema": "nb2-derived-question/v1",
   "drafted": "2026-09-29",
-  "status": "proposed_design_unexecuted",
+  "status": "exploratory_context_and_extensions_complete_functional_hypothesis_untested",
   "post_analysis_derivation": true,
-  "owner_request": "start deriving RQs from the overall results",
+  "owner_request": "Proceed with A21 analysis after the A20 narrowing",
   "biological_acceptance": false,
   "scoring_authorized": false,
   "id": "A21",
@@ -47,5 +47,25 @@
     "cohort-specific injury response"
   ],
   "mechanistic_prediction": "Verified perturbation changes regenerative-state entry before traced descendant production, with an effect distinguishable from generalized endothelial loss.",
-  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint."
+  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint.",
+  "context_execution": "exploratory_v1",
+  "source_audit": "RQ_Specified/A21_fzd4_capillary_function/SOURCES.md",
+  "results": "RQ_Specified/A21_fzd4_capillary_function/RESULTS.md",
+  "figures": "RQ_Specified/A21_fzd4_capillary_function/FIGURES.md",
+  "independent_context": {
+    "dataset": "GSE211335",
+    "animals": 12,
+    "endothelial_cells": 5423,
+    "functional_Fzd4_test": false
+  },
+  "refinement": "Focus on Fzd4-dependent capillary vascular integrity permitting later repopulation, versus selective entry or aerocyte production. These remain proposed mechanisms. Preserve separate original lineage outputs.",
+  "expression_lead_status": "Original pooled association retired as affirmative renewal evidence; independent within-condition cycling association inconsistent and underpowered.",
+  "primary_endpoint_retained": true,
+  "functional_execution_gate": "No eligible joined adult-repair Fzd4 perturbation, initial gCap identity, traced descendant and maintenance dataset identified; require this linkage before a functional fit.",
+  "preserved_history": "RQ_Specified/A21_fzd4_capillary_function/metadata/history/document_snapshots.json",
+  "latest_owner_request": "Proceed with priorities 1-3",
+  "extension_execution": "extensions/extension_v1",
+  "extension_results": "RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/RESULTS.md",
+  "functional_design": "RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/FUNCTIONAL_DESIGN.md",
+  "extension_summary": "Recovered tumor source reconstruction supports structural-maintenance plausibility; all-ten-Fzd screen nominates no robust alternative; Foxf1/Fzd4/Lrp6 lower in 11 paired state contrasts; no independent matched-state validation or adult-lung functional lineage test."
 }

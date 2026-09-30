@@ -1,0 +1,66 @@
+{
+  "schema": "nb2-derived-question/v1",
+  "drafted": "2026-09-29",
+  "status": "exploratory_cohort_substate_complete_functional_design_unexecuted",
+  "post_analysis_derivation": true,
+  "owner_request": "Proceed with A21 analysis after the A20 narrowing",
+  "biological_acceptance": false,
+  "scoring_authorized": false,
+  "id": "A21",
+  "folder": "A21_fzd4_capillary_function",
+  "priority": "conditional",
+  "source_branches": [
+    "Nb2-N7"
+  ],
+  "question": "Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?",
+  "hypotheses": [
+    "Fzd4-dependent regenerative state entry and later lineage contribution",
+    "competing general endothelial maintenance mechanism"
+  ],
+  "unit": "independent animal/preparation with resolved round and capillary context",
+  "primary_outcome": "traced capillary descendant yield per initial viable labeled population",
+  "required_evidence": [
+    "cohort and substate identifiers",
+    "independent expression replication",
+    "verified receptor perturbation",
+    "lineage-linked output",
+    "survival and vascular performance"
+  ],
+  "existing_owners": [],
+  "paper_synthesis": "Research Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md",
+  "design_owner": "RQ_Specified/A21_fzd4_capillary_function/PLAN.md",
+  "quantitative_parameters": {
+    "meaningful_effect_margin": null,
+    "uncertainty_rule": null,
+    "biological_replication_and_power": null,
+    "multiplicity_family": null,
+    "validation_cohort": null
+  },
+  "execution_gate": "Identify eligible data and freeze remaining assay-specific comparisons, margins, models and validation before new outcomes are inspected.",
+  "new_fits": false,
+  "new_claim_grades": false,
+  "biological_hypothesis": "Fzd4 contributes to injury-induced gCap recruitment into a regenerative state that supplies renewed gCap and aerocyte descendants.",
+  "biological_process": "receptor-dependent recruitment into capillary regeneration",
+  "competing_biology": [
+    "endothelial survival or barrier/perfusion failure",
+    "capillary substate redistribution",
+    "cohort-specific injury response"
+  ],
+  "mechanistic_prediction": "Verified perturbation changes regenerative-state entry before traced descendant production, with an effect distinguishable from generalized endothelial loss.",
+  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint.",
+  "context_execution": "exploratory_v1",
+  "source_audit": "RQ_Specified/A21_fzd4_capillary_function/SOURCES.md",
+  "results": "RQ_Specified/A21_fzd4_capillary_function/RESULTS.md",
+  "figures": "RQ_Specified/A21_fzd4_capillary_function/FIGURES.md",
+  "independent_context": {
+    "dataset": "GSE211335",
+    "animals": 12,
+    "endothelial_cells": 5423,
+    "functional_Fzd4_test": false
+  },
+  "refinement": "Discriminate Fzd4-dependent vascular competence permitting later capillary repopulation from selective regenerative entry. Lower transitional-state RNA does not establish receptor dispensability.",
+  "expression_lead_status": "Original pooled association retired as affirmative renewal evidence; independent within-condition cycling association inconsistent and underpowered.",
+  "primary_endpoint_retained": true,
+  "functional_execution_gate": "No eligible joined adult-repair Fzd4 perturbation, initial gCap identity, traced descendant and maintenance dataset identified; require this linkage before a functional fit.",
+  "preserved_history": "RQ_Specified/A21_fzd4_capillary_function/metadata/history/document_snapshots.json"
+}

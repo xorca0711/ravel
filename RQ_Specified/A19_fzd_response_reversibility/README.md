@@ -1,9 +1,36 @@
 # A19. Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?
 
-**Proposed biological hypothesis; 29 September 2026; untested.**
+**Exploratory context analysis completed 30 September 2026; direct H1–H3 remain unresolved.**
 [Canonical card](../../RESEARCH_QUESTIONS.md#a19) ·
 [Nb2 derivation](../../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) ·
-[Investigation plan](PLAN.md).
+[Investigation plan](PLAN.md) · [Results](RESULTS.md) · [Figure gallery](FIGURES.md) ·
+[Methods](METHODS.md) · [Source inventory](SOURCES.md) ·
+[Extension pipeline](EXTENSION_PIPELINE.md) · [External evidence](EXTERNAL_EVIDENCE.md).
+
+## Current analysis
+
+The [executed analysis](RESULTS.md) extracts 143 qPCR source rows and analyzes
+eight human alveolar-organoid bulk libraries in two source blocks. CHIR absence
+lowers SFTPC and raises airway markers in three qPCR donor lines, while bulk
+RNA shows mixed AT1/airway changes and an opposing SFTPC direction. In
+**airway-derived** cultures, early SFTPC induction declines despite continued
+CHIR. The results motivate an alveolar-competence constraint on temporal control;
+they do not measure Fzd withdrawal, lineage-derived mature output or AT2 reserve.
+
+Three main figures and one supplementary figure are deposited as PNG, PDF and
+SVG with captions, source tables, scripts and verification. The original Nb2
+analyses remain paper-local. This is exploratory secondary analysis, not
+independent validation or biological acceptance. The current scientific next
+step follows [three integrated priorities](EXTENSION_PIPELINE.md): cellular
+identity/context analysis, a bounded report of existing GSK3B-by-CHIR contrasts,
+and linked state/engagement/fate/reserve eligibility. The external review is
+complete; new single-cell and functional extension runs are not yet executed.
+
+The focused hypothesis concerns whether an airway-associated state acquired
+during expansion limits the later withdrawal response under a specified
+maturation environment. The pipeline distinguishes pre-exposure and
+pre-withdrawal states and treats missing cues, selection and input-dependent
+plasticity as rivals. H1–H3 and the full reserve requirement remain unchanged.
 
 ## Working hypothesis and biological logic
 
@@ -49,7 +76,8 @@ output per initial viable population, retained AT2 capacity and later-bout respo
 must distinguish them. RNA scores alone cannot decide the biological hypothesis.
 
 No inspected Nb2 dataset joins Fzd withdrawal, initial state and later function.
-The next task is a source/endpoint eligibility inventory, not a further score sweep.
-[The draft contract](config/question_contract.json) leaves assay choices, effect
+The [completed inventory](SOURCES.md) identified supporting human RNA contrasts,
+but no inspected source supplies that complete linked test.
+[The parent contract](config/question_contract.json) still leaves confirmatory assay choices, effect
 margins and validation data unset. A4's Wnt/IL-1 sequence, A8's maturation predictor,
 A10's growth question and A1's regulatory-state question keep their own scope.

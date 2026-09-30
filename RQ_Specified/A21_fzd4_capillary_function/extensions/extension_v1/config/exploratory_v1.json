@@ -1,0 +1,126 @@
+{
+  "id": "A21_extension_v1",
+  "frozen_utc": "2026-09-30T04:53:01.881060+00:00",
+  "status": "exploratory; frozen before new all-family estimates, after parent results and Bian narrative exposure",
+  "source": "GSE211335; same 12 animals and 5423 author endothelial cells as parent A21, not new replication",
+  "genes": [
+    "Fzd1",
+    "Fzd2",
+    "Fzd3",
+    "Fzd4",
+    "Fzd5",
+    "Fzd6",
+    "Fzd7",
+    "Fzd8",
+    "Fzd9",
+    "Fzd10",
+    "Foxf1",
+    "Aplnr",
+    "Gpihbp1",
+    "Cd93",
+    "Kit",
+    "Car4",
+    "Ednrb",
+    "Apln",
+    "Fibin",
+    "Mki67",
+    "Top2a",
+    "Pcna",
+    "Cdk1",
+    "Ccnb1",
+    "Ccnb2",
+    "Procr",
+    "Angpt2",
+    "Cdh5",
+    "Cldn5",
+    "Pecam1",
+    "Lrp5",
+    "Lrp6",
+    "Tspan12",
+    "Axin2",
+    "Nkd1",
+    "Lef1"
+  ],
+  "clusters": {
+    "0": "gCap_0",
+    "1": "gCap_transitional_1",
+    "2": "aCap_2",
+    "3": "gCap_3",
+    "4": "arterial_4",
+    "5": "venous_5",
+    "6": "gCap_6",
+    "7": "gCap_cycling_7"
+  },
+  "coarse_groups": {
+    "gCap": [
+      0,
+      1,
+      3,
+      6,
+      7
+    ],
+    "aCap": [
+      2
+    ],
+    "arterial": [
+      4
+    ],
+    "venous": [
+      5
+    ]
+  },
+  "days": [
+    0,
+    3,
+    5,
+    7
+  ],
+  "floors": [
+    20,
+    10,
+    50
+  ],
+  "primary_floor": 20,
+  "contrasts": [
+    {
+      "id": "transitional1_minus_gCap0",
+      "kind": "cluster",
+      "left": "gCap_transitional_1",
+      "right": "gCap_0"
+    },
+    {
+      "id": "gCap_minus_aCap",
+      "kind": "coarse",
+      "left": "gCap",
+      "right": "aCap"
+    }
+  ],
+  "normalization": "Raw all-gene counts summed per animal/state, CPM then log2(CPM+1); author denominator sensitivity holds numerators fixed as in parent amendment",
+  "statistics": "Each animal is the unit; technical pools aggregated. Paired state contrasts, split by day. Mean, median, full observed range, signs, detected cells and counts. No P values, fitted pathway score, pooled correlation, trajectory or cross-day longitudinal pairing.",
+  "gene_mapping_gate": "Every requested symbol must map uniquely in all three matrices; absent/ambiguous stops before estimates for documented amendment. Zero observations remain zeros, not gene absence.",
+  "candidate_rule": {
+    "purpose": "Exploratory RNA nomination only; no receptor compensation claim",
+    "criteria": "Among Fzd1-10 excluding Fzd4, transitional enrichment: per injury day >=2 pairs, positive mean and >=2/3 positive pairs, >=5 detected transitional cells across eligible animals; satisfy >=2 injury days at both 20- and 10-cell floors. Report floor50 separately and all ten receptors regardless of nomination.",
+    "validation": "Requires independent injury cohort with matching source-defined major/transitional identity independent of Fzd/canonical/cycling genes and resolved biological units; a coarse CAP1/CAP2 comparison is not validation."
+  },
+  "functional_reanalysis": {
+    "target": "Bian2024 Figure7 source datasets: Fzd4-restoration versus empty vector in endothelial Foxf1-deficient tumor context",
+    "outcomes": [
+      "nuclear beta-catenin-positive endothelium",
+      "collagen IV area relative to CD31 area",
+      "Fzd4-positive endothelium",
+      "tumor size (context only)"
+    ],
+    "units": "Source-resolved animals; repeated image fields nested; do not infer animal identity from row order across endpoints",
+    "gate": "Numerical tables and biological unit mapping needed; otherwise evidence audit only. No digitization of figures.",
+    "summaries": "Unpaired individual animal points, n, mean/median/range and raw mean differences if eligible; no new inferential tests, no causal mediation or cross-context pooling."
+  },
+  "priority3": "Separate self-renewal and aerocyte descendant output per initial viable labelled population; no functional fit without linked Fzd4 perturbation, initial state, lineage, viability and vascular-performance data.",
+  "known_exposure": [
+    "All 26 parent target-gene estimates",
+    "Bian2024 figures/narrative (including reported FZD4 dominance and FZD6 non-capillary expression)",
+    "Original Nb2 Fzd-family observations; no independence claimed"
+  ],
+  "claim_grade_change": false,
+  "biological_acceptance": false
+}

@@ -76,7 +76,11 @@ Older plans and first-batch reports do not override a completed continuation.
 “Feasible analyses complete” does not mean that unavailable biological
 identities, independent validation, spatial regions or causal endpoints are resolved.
 
-The main README links to galleries without embedding a partial selection.
+The main README provides universal repository context and shared navigation.
+Its Start here section links to repository-wide indexes, not individual papers
+or paper-specific results, branches or derived RQs. Those links belong in the
+research-article and question indexes. The main README links to galleries without
+embedding a partial selection.
 PI fit, contact preferences and personal outreach planning stay in the owner's
 Notion workspace; public documents contain scientific questions and portfolio text.
 
@@ -108,3 +112,28 @@ proposes A19–A21 after the paper analyses. Their new plans live under
 `RQ_Specified/A21_fzd4_capillary_function/`. Earlier analyses stay paper-local.
 N1/N2/N3/N5 combine in A19; N6 and N7 inform A20/A21; N4/N8 remain deferred.
 The older Nb2-RQ1–RQ8 identities remain retired. No A0–A18 scope or C-grade changes.
+
+
+## A19 question-specific execution, 30 September 2026
+
+The owner subsequently authorized A19 analysis. Its new cross-source context
+results, methods, figure set, scripts and verification live under
+`RQ_Specified/A19_fzd_response_reversibility/`. Prior Nb2 paper analyses remain
+unchanged in `Research Article/`. The root README retains universal navigation;
+A19 discovery belongs in the question register and question/figure indexes.
+Supporting RNA execution does not imply a completed direct Fzd/fate/reserve test
+or change any existing scientific claim grade.
+
+## A21 question-specific execution, 30 September 2026
+
+A21 now contains a source/cohort audit, independent GSE211335 animal-level
+expression analysis, methods, three figures and verification under
+RQ_Specified/A21_fzd4_capillary_function. Prior Nb2 measurements remain paper-local;
+the reused cohort comparison is explicitly labelled. Functional Fzd4-dependent
+lineage and maintenance hypotheses remain untested.
+
+The A21 priorities extension is versioned under
+`RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/`, with its own
+contracts, source provenance, tables, scripts, figures, results and functional
+design. Parent scientific evidence is preserved; revised parent navigation and
+contracts have pre-extension snapshots under the extension metadata/history.

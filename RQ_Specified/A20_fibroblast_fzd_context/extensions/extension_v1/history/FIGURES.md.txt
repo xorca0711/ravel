@@ -1,0 +1,42 @@
+# A20 figure gallery
+
+Three figures, each exported as 300-dpi PNG, vector PDF and editable SVG.
+These are observed source-sample results; no simulated biological outcomes are shown.
+[Results](RESULTS.md) · [Methods](METHODS.md) · [Source eligibility](SOURCES.md).
+
+## F1. Identity probes and receptor context
+
+![A20 F1](figures/A20_F1_identity_receptors.png)
+
+[PDF](figures/A20_F1_identity_receptors.pdf) · [SVG](figures/A20_F1_identity_receptors.svg).
+Five paired day-42 source samples, with predicted doublets removed and at least
+50 cells in each author-labelled subtype. Lines join the same sample; colors
+identify samples and the legend records experimental round. Pdgfra/Pdgfrb and
+Col13a1 support a local identity crosswalk; Col14a1 is mixed. Fzd1 and Fzd2 have
+opposite subtype rankings. Each axis is log2(CPM+1), independently scaled.
+Identity agreement and receptor RNA do not establish lineage, activity or function.
+Source: GSE262927, reused from Nb2; [paired data](tables/paired_differences.tsv).
+
+## F2. Selective support RNA and broad matrix RNA
+
+![A20 F2](figures/A20_F2_support_matrix.png)
+
+[PDF](figures/A20_F2_support_matrix.pdf) · [SVG](figures/A20_F2_support_matrix.svg).
+The same five pairs as F1, retaining its sample colors. Each point is an observed
+AF1-minus-AF2 difference in log2(CPM+1); black ticks are medians and grey lines are
+observed ranges, not confidence intervals. Candidate support genes have different
+directions, while every prespecified collagen gene is higher in AF1. Hgf differences
+are small and Lrrc15 is often undetected. Gene-level RNA is not secreted protein,
+functional trophic activity, deposited matrix or epithelial maturation.
+
+## S1. Fixed eligibility and panel sensitivity
+
+![A20 S1](figures/A20_S1_coverage_sensitivity.png)
+
+[PDF](figures/A20_S1_coverage_sensitivity.pdf) · [SVG](figures/A20_S1_coverage_sensitivity.svg).
+Paired medians and full observed ranges for all six predefined doublet/floor
+combinations. The 20/50/100-cell floors retain 8/5/0 pairs. No eligible pairs at
+100 cells is an explicit limitation, not an estimate of zero effect. The four-gene
+support, four-gene earlier ECM and eight-gene collagen panels have separate gene
+membership; their magnitudes do not quantify relative amounts of biological
+function. [Eligibility](tables/eligibility.tsv) · [Estimates](tables/paired_summary.tsv).

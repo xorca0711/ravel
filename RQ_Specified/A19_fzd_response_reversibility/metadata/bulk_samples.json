@@ -1,0 +1,74 @@
+[
+  {
+    "gsm": "GSM5934407",
+    "title": "ctrl_CHIR_1",
+    "block": 1,
+    "background": "control",
+    "input": "CHIR",
+    "characteristics": "tissue: alveolar organoid; batch: 1; treatment: shctrl_CHIR",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934407/suppl/GSM5934407_ctrl_CHIR_1.feature_counts.txt.gz"
+  },
+  {
+    "gsm": "GSM5934408",
+    "title": "GSK3kd_ctrl_1",
+    "block": 1,
+    "background": "GSK3KD",
+    "input": "no_CHIR",
+    "characteristics": "tissue: alveolar organoid; batch: 1; treatment: shGSK3hp1_ctrl",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934408/suppl/GSM5934408_GSK3_ctrl_1.feature_counts.txt.gz"
+  },
+  {
+    "gsm": "GSM5934409",
+    "title": "GSK3kd_ctrl_2",
+    "block": 2,
+    "background": "GSK3KD",
+    "input": "no_CHIR",
+    "characteristics": "tissue: alveolar organoid; batch: 2; treatment: shGSK3hp2_ctrl",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934409/suppl/GSM5934409_GSK3_ctrl_2.feature_counts.txt.gz"
+  },
+  {
+    "gsm": "GSM5934410",
+    "title": "GSK3kd_CHIR_2",
+    "block": 2,
+    "background": "GSK3KD",
+    "input": "CHIR",
+    "characteristics": "tissue: alveolar organoid; batch: 2; treatment: shGSK3hp2_CHIR",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934410/suppl/GSM5934410_GSK3_CHIR_2.feature_counts.txt.gz"
+  },
+  {
+    "gsm": "GSM5934411",
+    "title": "ctrl_ctrl_1",
+    "block": 1,
+    "background": "control",
+    "input": "no_CHIR",
+    "characteristics": "tissue: alveolar organoid; batch: 1; treatment: shctrl_ctrl",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934411/suppl/GSM5934411_ctrl_ctrl_1.feature_counts.txt.gz"
+  },
+  {
+    "gsm": "GSM5934412",
+    "title": "ctrl_CHIR_2",
+    "block": 2,
+    "background": "control",
+    "input": "CHIR",
+    "characteristics": "tissue: alveolar organoid; batch: 2; treatment: shctrl_CHIR",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934412/suppl/GSM5934412_ctrl_CHIR_2.feature_counts.txt.gz"
+  },
+  {
+    "gsm": "GSM5934413",
+    "title": "GSK3kd_CHIR_1",
+    "block": 1,
+    "background": "GSK3KD",
+    "input": "CHIR",
+    "characteristics": "tissue: alveolar organoid; batch: 1; treatment: shGSK3hp1_CHIR",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934413/suppl/GSM5934413_GSK3_CHIR_1.feature_counts.txt.gz"
+  },
+  {
+    "gsm": "GSM5934414",
+    "title": "ctrl_ctrl_2",
+    "block": 2,
+    "background": "control",
+    "input": "no_CHIR",
+    "characteristics": "tissue: alveolar organoid; batch: 2; treatment: shctrl_ctrl",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934414/suppl/GSM5934414_ctrl_ctrl_2.feature_counts.txt.gz"
+  }
+]

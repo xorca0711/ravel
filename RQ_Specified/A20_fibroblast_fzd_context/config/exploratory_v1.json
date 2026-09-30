@@ -1,0 +1,86 @@
+{
+  "id": "A20",
+  "run": "exploratory_v1",
+  "frozen_utc": "2026-09-30T01:44:46.727534+00:00",
+  "exposure": "Nb2-N6 aggregate results and Zhou2025 narrative already inspected. No new A20 marker/gene estimates inspected. Exploratory source eligibility and context analysis, not confirmation.",
+  "data_root": "X:/GitHub/scRNA_seq",
+  "input": "Research Article/gate1_01_niethamer_2025/GSE262927/processed/final_clustered.h5ad",
+  "source": "GSE262927",
+  "unit": "source sample_id x author_celltype; source preparations not individual cells",
+  "day": 42,
+  "states": [
+    "AF1",
+    "AF2"
+  ],
+  "crosswalk_markers": [
+    "Pdgfra",
+    "Pdgfrb",
+    "Col13a1",
+    "Col14a1"
+  ],
+  "receptors": [
+    "Fzd1",
+    "Fzd2"
+  ],
+  "support_genes": [
+    "Wnt2",
+    "Fgf7",
+    "Fgf10",
+    "Hgf",
+    "Vegfa"
+  ],
+  "matrix_genes": [
+    "Col1a1",
+    "Col1a2",
+    "Col3a1",
+    "Col5a1",
+    "Col5a2",
+    "Col6a1",
+    "Col6a2",
+    "Col6a3",
+    "Cthrc1",
+    "Lrrc15"
+  ],
+  "panels": {
+    "support_existing": [
+      "Wnt2",
+      "Fgf7",
+      "Fgf10",
+      "Hgf"
+    ],
+    "ECM_existing": [
+      "Cthrc1",
+      "Lrrc15",
+      "Col1a1",
+      "Col3a1"
+    ],
+    "collagen_source": [
+      "Col1a1",
+      "Col1a2",
+      "Col3a1",
+      "Col5a1",
+      "Col5a2",
+      "Col6a1",
+      "Col6a2",
+      "Col6a3"
+    ]
+  },
+  "selection": "Author AF1/AF2; independent markers are crosswalk checks, never relabel/reselect by receptor or outcome. All source days retained for coverage only; fixed day42 primary comparison.",
+  "modes": [
+    "doublets_removed",
+    "author_labels"
+  ],
+  "floors": [
+    20,
+    50,
+    100
+  ],
+  "primary_mode": "doublets_removed",
+  "primary_floor": 50,
+  "normalization": "Sum integer counts within source sample/subtype; denominator is sum of all genes in counts layer. log2(CPM+1), gene and mean-panel differences AF1 minus AF2; detection proportions secondary.",
+  "summary": "Paired source sample differences, n, median, full observed range and signs. No cell-level P values, population CI, fitted causal model, stage-effect or intervention-effect estimate. Display individual paired values and sample round.",
+  "sensitivity": "Fixed floor20/100 and keep-doublets; individual genes and full predefined collagen panel; compare overlap to earlier Nb2 extraction. No outcome-based exclusions or favorable panel selection.",
+  "eligibility": "Direct H1/H2 require comparable Fzd1/Fzd2 compartment-specific perturbation and independently measured mature epithelial output. RNA is not substituted for secreted support, collagen deposition, subtype conversion, or epithelial maturation.",
+  "biological_acceptance": false,
+  "new_claim_grades": false
+}

@@ -1,11 +1,11 @@
 {
   "schema": "nb2-derived-question/v1",
   "drafted": "2026-09-29",
-  "status": "proposed_design_unexecuted",
+  "status": "exploratory_context_analysis_completed_parent_H1_H3_unresolved",
   "post_analysis_derivation": true,
   "owner_request": "start deriving RQs from the overall results",
   "biological_acceptance": false,
-  "scoring_authorized": false,
+  "scoring_authorized": true,
   "id": "A19",
   "folder": "A19_fzd_response_reversibility",
   "priority": "primary",
@@ -47,7 +47,7 @@
     "multiplicity_family": null,
     "validation_cohort": null
   },
-  "execution_gate": "Identify eligible data and freeze remaining assay-specific comparisons, margins, models and validation before new outcomes are inspected.",
+  "execution_gate": "Exploratory source/context analysis completed under its separate frozen contract. Direct H1-H3 require linked eligible endpoints, prospective margins, unit/power and validation specification.",
   "new_fits": false,
   "new_claim_grades": false,
   "biological_hypothesis": "Fzd signaling maintains an expandable AT2 state; verified termination permits competent descendants to mature while preserving a responsive AT2 reserve.",
@@ -58,5 +58,18 @@
     "one amplitude-dependent response"
   ],
   "mechanistic_prediction": "Linked descendants increase mature output after verified off-period without exhausting the retained AT2 reserve.",
-  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint."
+  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint.",
+  "execution_authorized": "2026-09-30: owner requested A19 analysis and formal research-style figures under RQ_Specified",
+  "scoring_scope": "Supporting RNA panels and exact source contrasts in exploratory_v1 only; no H1-H3 confirmatory decision",
+  "exploratory_contract": "config/exploratory_v1.json",
+  "exploratory_results": "RESULTS.md",
+  "confirmatory_execution": false,
+  "original_contract_sha256": "b12cd7565afdc027243660bc3ebabf5d0577b714fd55689dd84baa1280b1ec66",
+  "new_descriptive_estimates": true,
+  "extension_pipeline": "EXTENSION_PIPELINE.md",
+  "extension_specification": "config/extension_pipeline_draft.json",
+  "extension_status": "structured_not_executed_not_frozen",
+  "external_evidence_review": "EXTERNAL_EVIDENCE.md",
+  "extension_question": "Does acquisition of an airway-associated state during expansion limit subsequent AT1 maturation after Fzd stimulation ends under a specified maturation environment?",
+  "original_H2_preserved": "S0 before exposure; S1 before withdrawal decision is a separately described H2-extension"
 }

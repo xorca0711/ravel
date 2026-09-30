@@ -1871,3 +1871,196 @@ The owner subsequently requested pushing this RQ synthesis and opening a PR.
 Codex prepared the same branch for publication, retaining the proposed/untested
 status and biological-hypothesis framing rule. This authorizes publication, not
 scientific acceptance or merging.
+
+## 30 September 2026: restore universal front-page navigation
+
+| Date | Proposal corrected | Reason | Corrected by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | Nabhan/Nb2-specific entries in the main README Start here table | The front page must remain universal repository context | Owner, explicit correction | Remove all three paper-specific rows; retain discovery through the Research Article and RQ indexes; record the universal-navigation rule in the structure contract |
+
+
+## 30 September 2026: A19 exploratory context analysis and figures
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-30 | Execute A19 and deposit research-style figures under RQ_Specified | Owner | Owner, explicit request | Analyze eligible public inputs in the existing A19 workspace; retain paper-local Nb2 artifacts | Continue the specified biological question with source-grounded outputs |
+| 2026-09-30 | Bounded source selection and exploratory RNA contrasts | Codex | Execution authorized by owner; biological interpretation remains proposed | Freeze donor pairing, panels, units and comparisons before new numeric outcomes; preserve prior narrative exposure | No inspected source supplies the complete direct Fzd/fate/reserve test |
+| 2026-09-30 | Biological refinement | Codex | Proposed; no human acceptance or grade inferred | Retained alveolar competence may constrain whether ending maintenance input permits maturation | Airway-marker responses, transient induction in airway-derived cultures and bulk discordance limit a simple expansion-then-maturation account |
+
+| Date | Output corrected or rejected | Reason | Decided by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | First qPCR extraction used an EmptyCell row attribute | Empty leading cells lack that attribute | Codex, execution error | Preserve failed script/hash; record iterator row index; no scientific selection changed |
+| 2026-09-30 | Initial figure script and layout | Newline escaping prevented parsing; first visual pass showed colliding labels and insufficient origin labeling | Codex, runtime and visual review | Correct escaping/spacing; label airway-derived cultures and CHIR-present knockdown comparison; no numerical changes |
+| 2026-09-30 | Frozen figure shorthand suggesting a receptor-input comparator | New source data compare GSK3 contexts, not Fzd receptors | Codex, source audit | Keep frozen contract intact; final figures/captions explicitly describe the narrower comparison and leave H3 unresolved |
+
+Codex performed public-source intake, deterministic extraction, paired summaries,
+TMM normalization and fixed-panel contrasts, plus scientific plotting and
+independent source/arithmetic verification. The source workbook contributes 143
+rows, including three non-detects; exact donor matching yields 72 complete
+contrasts. Eight selected bulk libraries contribute two source blocks, with
+hairpin confounding retained. No source unit was inflated to eight donors, no
+missing outcome was imputed, and no mechanistic or clinical claim was accepted.
+The user's universal front-page navigation rule remains in force.
+
+
+Validation: the independent A19 verifier passed source-coordinate, raw-count,
+normalization and contrast arithmetic, coverage, and all 12 export hashes.
+All four PDF figure sets were visually inspected after rendering. Local required
+CI passed: 67 tests (one skip), claim contract, Nb1/A16 provenance and 5,233
+repository checks. This validates deposited implementation/provenance, not the
+parent biological mechanism. [Verification record](RQ_Specified/A19_fzd_response_reversibility/reports/repository_checks.json).
+
+
+## 30 September 2026: integrate the A19 extension and external evidence
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-30 | Structure extension priorities with the existing hypothesis refinement | Owner | Owner, explicit request | Deposit a staged pipeline and draft execution specification; integrate PLAN/RESULTS/navigation | Make the narrowed biological question actionable without relabeling old results |
+| 2026-09-30 | External web evidence review | Owner | Owner, explicit follow-up | Review primary studies and dataset records, map support/constraints and eligibility | Test the plausibility of the narrowed scope and locate useful data |
+| 2026-09-30 | State timing and competing biological explanations | Codex | Proposed interpretation under the authorized analysis-planning task | Distinguish S0 from acquired S1; preserve reserve and add missing-cue, selection and input-context rivals | Avoid circular competence definitions, mediator adjustment and irreversible-fate assumptions |
+
+| Date | Output corrected or qualified | Reason | Decided by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | Potentially treating pre-withdrawal state as the original H2 baseline state | An acquired state may be a treatment-induced mediator | Codex, design audit | Preserve pre-exposure H2 and define a separate local H2-extension with assignment timing made explicit |
+| 2026-09-30 | A strong airway-state restriction reading of the narrowed hypothesis | Receptor/input and maturation context can alter fate; withdrawal alone can lack necessary cues | Codex, external primary-source review | State a conditional, potentially modifiable restriction and retain counterevidence; no accepted mechanism inferred |
+
+Eight primary studies were mapped, including already exposed Nb2/Hoffmann
+results, prior A1 lineage context, and newer differentiation/function studies.
+No reference was counted as an independent validation merely because it appears
+in a second paper. Failed public XML requests remain in the intake record;
+publisher/PMC sections were used where readable. Full downloaded reference
+payloads remain in ignored cache. No authors were contacted and no new numerical
+analysis, figure or claim grade was produced. Pre-amendment document bytes were
+archived; the original exploratory_v1 scientific outputs remain unchanged.
+
+
+Validation of the extension amendment passed 5,280 repository checks and 18
+claim bindings. Source identity checks matched all six proposed uninfected
+controls to their recorded labels; eight reference entries and available
+payload hashes passed. Forty-five previous A19 artifacts remained byte-identical.
+The first link check found 23 broken relative links in copied historical
+Markdown; historical files were stored as .md.txt snapshots with original-path
+mapping and unchanged bytes, then the check passed. No unrelated analysis or
+previously passing scientific test was rerun. The planning/source check record
+is under A19 reports/extension_integration_checks.json.
+
+## 30 September 2026: A20 exploratory context execution
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-30 | Check universal README correction on main and proceed with A20 | Owner | Owner, explicit request | Fetch main; preserve local removal; execute source eligibility and frozen paired context analysis | Main still contains the article-specific rows; A20 needs source and functional boundaries |
+| 2026-09-30 | Narrow A20's biological hypothesis | Codex | Proposed interpretation; owner acceptance not recorded | Separate niche persistence from changed support activity and instructive maturation | Receptor and selective ligand/collagen RNA do not identify functional mediation |
+
+| Date | Output corrected or qualified | Reason | Decided by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | Treating AF1 support-panel elevation as uniformly greater trophic activity | Hgf has the opposite direction; RNA is not secretion or function | Codex, analytical review | Report individual genes and retain distinct functional outcomes |
+| 2026-09-30 | Treating AF1/AF2 as universal reparative/fibrotic classes | Collagen rankings vary across source contexts and local Col14a1 is mixed | Codex, source and crosswalk review | Retain local multi-marker comparison and stage/model boundaries |
+
+A20's exploratory specification was frozen before new gene estimates. Original
+plans are archived as exact bytes; no direct H1/H2 test or biological acceptance
+is claimed. Three scientific figures show source samples and coverage limits.
+The independent verifier passed 15,383 checks with 1,000 prior extraction rows
+reconciled; 69 A19 artifacts stayed byte-identical. Required CI-equivalent checks
+passed: 67 tests (one skipped), 18 claim bindings, Nb1/A16 provenance and 5,333
+repository checks; results are recorded in the A20 report. README remains universal locally; its removal
+has not landed on main, and no merge was requested or performed in this turn.
+
+## 30 September 2026: A20 aligned priorities 1–3 extension
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-30 | Execute aligned priorities 1–3 | Owner | Owner, explicit request | Source audit plus frozen four-donor input-context analysis | Distinguish niche persistence, support/matrix activity and context |
+| 2026-09-30 | Refine receptor-dependent support hypothesis | Codex | Proposed interpretation; owner biological acceptance not recorded | Preserve H1/H2; separate pool maintenance and maturation | RNA response cannot establish niche function |
+
+| Date | Output corrected or qualified | Reason | Decided by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | Forty-five-gene source mapping | FZD10 absent; gate failed before gene estimates | Codex, source mapping review | Preserve failure/amendment; retain unavailable entry; execute 44 genes without replacing a target |
+| 2026-09-30 | Concurrent TGF/CHIR as a prior-state effect | Inputs are simultaneous and CHIR acts downstream of FZD | Codex, assay review | Report direct concurrent-input interaction; initial-subtype H2 remains open |
+| 2026-09-30 | RNA/function matched association | Separate human donor cohorts and treatment durations | Codex, source review | No cross-cohort regression or mediation fit |
+| 2026-09-30 | Jones Notch as FZD2 mechanism | Different perturbation and unresolved animal-level data units | Codex, eligibility review | Explicit full citation; use as lineage/context comparator only |
+
+All four donors and every planned contrast remain in the tables, including
+normalization sign changes and low-detection genes. No P values, population
+intervals or genome-wide discovery labels were generated. Five parent documents
+were archived before integration. The extension's reports retain arithmetic,
+preservation, figure review and repository validation evidence. No new claim
+grade, biological acceptance, commit, push or PR was produced.
+
+Extension verification passed 39,809 arithmetic/provenance checks; 45 prior
+A20 files and all 69 A19 files remain unchanged, with five A20 parent documents
+archived. Required CI-equivalent checks passed: 67 tests (one skipped), 18 claim
+bindings, Nb1/A16 evidence and 5,382 repository checks. All three final PDF
+renders were visually checked.
+
+## 30 September 2026: A20 primary scope narrowing
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-30 | Narrow A20 after the completed exploratory phase | Owner | Owner, explicit request to narrow | Focus on Fzd2 versus Fzd1 within one adult AF1-like context; retain absolute mature-output H1 | A bounded receptor-function question is executable only with matched functional evidence |
+| 2026-09-30 | AT2 pool maintenance as focused mechanism | Codex | Working proposal; biological acceptance not recorded | Distinguish from maturation-specific support, depletion and matrix effects | Existing RNA/context evidence cannot identify the causal route |
+
+| Date | Output corrected or qualified | Reason | Decided by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | Broad subtype and pathway extensions presented alongside the primary question | This kept several biological programs active without eligible functional evidence | Codex, authorized scope amendment | Preserve original H2 but defer it; retain Notch, matrix and mediator possibilities without opening parallel programs |
+| 2026-09-30 | Potential replacement of mature output by AT2 expansion | An expanded pool need not yield functional mature descendants | Codex, endpoint review | Preserve original primary endpoint and use earlier pool/fate outcomes to discriminate mechanisms |
+
+Pre-amendment A20 documents and its package manifest are archived under
+metadata/history/scope_refinement_v1. The focused design is explicitly
+post-analysis. No raw data, normalization, contrast, figure, claim grade or
+scientific result was changed. The scope authorization is not a biological
+acceptance decision.
+
+Narrowing validation passed: 5,400 repository checks, 18 claim bindings and
+whitespace validation. All 103 unedited prior A20 files and all 69 A19 files
+remain byte-identical; four revised A20 documents are archived. The universal
+README is unchanged by this amendment. No scientific rerun was needed for
+the documentation-only scope change.
+
+## 30 September 2026: A21 independent context execution
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-30 | Proceed with A21 | Owner | Owner, explicit request | Execute source/cohort eligibility and frozen independent capillary context analysis | Challenge the existing expression lead and distinguish renewal from maintenance |
+| 2026-09-30 | Vascular competence versus regenerative entry | Codex | Proposed interpretation; biological acceptance not recorded | Retain original lineage endpoint and conditional priority | Expression context and tumor-vessel restoration do not establish normal gCap renewal |
+
+| Date | Output corrected or qualified | Reason | Decided by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | Exact raw UMI equality to author QC totals | 718 cells differ by 1–10 UMIs; source initial filtering incompletely documented | Codex, source audit | Preserve failed script and audit; keep frozen raw normalization and add author-denominator sensitivity before gene estimates |
+| 2026-09-30 | Positive pooled Fzd4-cycling lead | Original round dependence and independent within-condition inconsistency | Codex, executed analysis | Preserve coefficients but retire the pooled lead as affirmative renewal evidence |
+| 2026-09-30 | Cycling-state receptor comparison | No animal reaches the frozen 20-cell floor | Codex, eligibility check | Report unavailable primary contrast; retain the single 10-cell sensitivity without claiming replication |
+| 2026-09-30 | General Fzd4 rescue as restored perfusion in normal lung | Bian Figure 7 measures pathway/structure/tumor outcomes after Foxf1 loss; perfusion impairment is a different comparison | Codex, source endpoint review | State measured endpoints and tumor context; do not claim normal gCap lineage or direct Fzd4 perfusion rescue |
+
+Twelve barcoded animals, source-state definitions, 26 genes, cell floors and
+contrasts were frozen before new gene estimates. Three scientific figures show
+all eligible units and coverage limitations. Failed source-workbook/ZIP downloads
+remain recorded; no source values were reconstructed from bars. The independent
+verifier reconciles raw counts, denominators, panels, paired contrasts and rank
+summaries and preserves all 191 prior A19/A20 artifacts. No biological acceptance,
+claim grade, commit, push or PR was produced.
+
+A21 validation passed: independent raw-source arithmetic/provenance verification,
+all 191 prior A19/A20 artifacts preserved, 67 tests (one skipped), 18 claim bindings,
+Nb1/A16 evidence, input restoration and 5,447 repository checks. All three PDF
+figures passed visual review. Validation establishes reproducibility within the
+recorded scope, not a functional Fzd4 mechanism.
+
+## 30 September 2026: A21 priorities extension
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-30 | Execute priorities 1-3 | Owner | Owner, explicit request | Reconstruct eligible vascular source data, extend all-Fzd state context and specify separate functional lineage outcomes | Narrow the biological mechanism using available evidence |
+| 2026-09-30 | Focus vascular integrity versus lineage specificity | Codex | Working proposal; no biological acceptance recorded | Retain original gCap and aerocyte endpoints and conditional status | Structural tumor rescue and RNA context cannot establish adult-lung receptor-dependent renewal |
+
+| Date | Output corrected or qualified | Reason | Decided by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | Earlier Bian source archive unavailable | Current publisher media endpoint resolves ZIPs | Codex, source intake | Preserve failed requests; reconstruct five eligible workbooks with hashes and cell addresses |
+| 2026-09-30 | Potential interpretation as Fzd4-rescue perfusion | Perfusion data are from Foxf1 loss; Fzd4 rescue measures structure/signaling | Codex, source audit | Keep contrasts separate; no mediation or functional-rescue claim |
+| 2026-09-30 | Provisional perfusion endpoint called a vessel percentage | Published axis is lectin-positive area relative to CD31 area | Codex, visual source audit before numeric extraction | Resolve source unit in source_mapping.json without changing the contrast |
+| 2026-09-30 | Broad alternative-Fzd compensation proposal | No receptor meets frozen RNA nomination criteria | Codex, completed exploratory screen | Defer candidate-specific compensation; absence and dependency remain untested |
+| 2026-09-30 | Figure 7E significance reconstruction | Workbook specifies Fisher LSD while legend specifies Tukey | Codex, source audit | Preserve observations; import no P values or significance stars |
+| 2026-09-30 | Initial independent-verifier global gene-symbol uniqueness check | Unrelated feature names are duplicated although all 36 targets map uniquely | Codex, verifier correction | Check the contract's selected-target uniqueness; no scientific outputs changed |
+
+Scientific verification passed 56,225 checks. Final PDFs were rendered and reviewed.
+The extension retains original source observations, prior results and archived
+parent documents; the root README remains universal and unchanged by this work.
+Execution authorization is not a biological acceptance or landing decision.

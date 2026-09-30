@@ -1,0 +1,31 @@
+{
+  "reviewed_utc": "2026-09-30T00:59:44.572791+00:00",
+  "reviewer": "Codex visual inspection",
+  "method": "Exported single-page PDFs rasterized with pymupdf, then visually inspected; PNG/SVG data generated from the same plotting code.",
+  "status": "passed",
+  "checks": [
+    "All four panels/figure sets readable at review resolution",
+    "No labels collide with axes or observations after spacing correction",
+    "Gene, condition, source-origin, direction and sample-unit labels checked against tables/captions",
+    "No invented observations, p-value stars or mature-fate curves",
+    "Vector text retained in PDFs/SVGs"
+  ],
+  "revisions": [
+    "Corrected Python string newline escaping before first completed render",
+    "Moved Figure 1 annotations/letters clear of data and y labels",
+    "Clarified airway-derived passage source and CHIR-present knockdown context",
+    "Used uniform forest-point color to avoid suggesting donor identity across separate experiments"
+  ],
+  "pdf_sha256": {
+    "A19_F1_identity_context.pdf": "c007ad28808ca9b4611c34d4c766148aa09133ec3341d894301ef3043b6897db",
+    "A19_F2_persistence_and_input.pdf": "5a8a7836ba86e0b04ca7939f7a9ee424690c708a2fbfb86345d454d4290d6d62",
+    "A19_F3_bulk_response_context.pdf": "47002e0df3c65f8a0a17bf9218ed6bd5ad20fb9d770adf79eac22c8289276483",
+    "A19_S1_target_and_pairing.pdf": "e4358d7e89e004db78dbdb9f84c05d501b7f21a7849f6755eb9c34d131574729"
+  },
+  "review_raster_sha256": {
+    "A19_F1_identity_context.png": "0d83a8d8f3b187848be7a57f46d5b398aa281b2974f7c5a2b228c7a8f79dc8c4",
+    "A19_F2_persistence_and_input.png": "a036273738bb63a0a7e9e9ae675f75030abf59ffa406495e790ed5500d6d9f81",
+    "A19_F3_bulk_response_context.png": "7df0240320607b1626f38aa183b8096169ca1ea803d9cbb532e298c6ea79eba6",
+    "A19_S1_target_and_pairing.png": "0e7a0d28ba78e520bffc03009f12a90319257e834dc54c6f321b944b4dbd889e"
+  }
+}

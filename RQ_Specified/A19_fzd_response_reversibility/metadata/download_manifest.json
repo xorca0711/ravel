@@ -1,0 +1,80 @@
+[
+  {
+    "file": "engineered_lung.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10147714/fullTextXML",
+    "bytes": 209010,
+    "sha256": "740e4a663d483546e59b1254c8a59fc0cf93445c34bf4c360d7cc36e45022455"
+  },
+  {
+    "file": "adult_organoids.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9409623/fullTextXML",
+    "bytes": 149156,
+    "sha256": "281c152c44a5e6ae6b298bbc0a372d79296bf1eb1a56e0ae5645c6af66536e26"
+  },
+  {
+    "file": "GSE197949.soft",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197949&targ=all&form=text&view=full",
+    "bytes": 13953983,
+    "sha256": "aee3e417620f16c303b018ea7ff52ee5d99d5f2e02d2ee0098f9780c29426572"
+  },
+  {
+    "file": "adult_source3.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-022-03828-5/MediaObjects/42003_2022_3828_MOESM6_ESM.xlsx",
+    "bytes": 42785,
+    "sha256": "73b5e0d22cc1da57f24603b3d3eaf7f3843a4866ec291d37b4f1355826eb2afb"
+  },
+  {
+    "file": "GSM5934407_ctrl_CHIR_1.feature_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934407/suppl/GSM5934407_ctrl_CHIR_1.feature_counts.txt.gz",
+    "bytes": 5054445,
+    "sha256": "e99ab27979d4429abf3ea4ba7156a6f04bdb6294d61f2828307d60aa97dc7084"
+  },
+  {
+    "file": "GSM5934408_GSK3_ctrl_1.feature_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934408/suppl/GSM5934408_GSK3_ctrl_1.feature_counts.txt.gz",
+    "bytes": 5053468,
+    "sha256": "21ce3e947f29bee425507fb733e7bc0815079bc2fbaf2f71c4ef782f4742b550"
+  },
+  {
+    "file": "GSM5934409_GSK3_ctrl_2.feature_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934409/suppl/GSM5934409_GSK3_ctrl_2.feature_counts.txt.gz",
+    "bytes": 5050265,
+    "sha256": "de46a282abb02f408c5de6cb8dd15ebce6036a862e4670feee8daa7421a883fd"
+  },
+  {
+    "file": "GSM5934410_GSK3_CHIR_2.feature_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934410/suppl/GSM5934410_GSK3_CHIR_2.feature_counts.txt.gz",
+    "bytes": 5054975,
+    "sha256": "9d0c1e34532a709acc1abcb9c52cfc4284afbc7a0928c952ebee314db9d7eb0c"
+  },
+  {
+    "file": "GSM5934411_ctrl_ctrl_1.feature_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934411/suppl/GSM5934411_ctrl_ctrl_1.feature_counts.txt.gz",
+    "bytes": 5054422,
+    "sha256": "1f1f59aed89ef7ab76c3bb75ff8075aa99dbbd7d47f45601bda2b368190529aa"
+  },
+  {
+    "file": "GSM5934412_ctrl_CHIR_2.feature_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934412/suppl/GSM5934412_ctrl_CHIR_2.feature_counts.txt.gz",
+    "bytes": 5051810,
+    "sha256": "4f3798ae85ab2c16886a2f4086a59406bffdf100a2bd71624a95bcea9e477c2b"
+  },
+  {
+    "file": "GSM5934413_GSK3_CHIR_1.feature_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934413/suppl/GSM5934413_GSK3_CHIR_1.feature_counts.txt.gz",
+    "bytes": 5050405,
+    "sha256": "5c8c863d50ad1ee24d823f5133feba0cb06ee0ccb166bfc08a00b6c2867d62c5"
+  },
+  {
+    "file": "GSM5934414_ctrl_ctrl_2.feature_counts.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5934nnn/GSM5934414/suppl/GSM5934414_ctrl_ctrl_2.feature_counts.txt.gz",
+    "bytes": 5052347,
+    "sha256": "03f3bc19ceb0ff783d1da93eef1f7ec73a43618624fbe5681d4e8f472f98b06f"
+  },
+  {
+    "file": "human_marker_lookup.json",
+    "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens",
+    "bytes": 13814,
+    "sha256": "dde25bb0e12f92ad04770a3a1d1798e42cb4e80150595ad3e27c367522fd9740"
+  }
+]

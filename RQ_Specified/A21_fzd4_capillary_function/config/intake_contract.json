@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-30T04:03:45.899942+00:00",
+  "status": "source_eligibility_before_new_estimates",
+  "stages": [
+    "Resolve existing cohort/tracing/sex/genotype and substate crosswalk",
+    "Audit independent expression data and gCap lineage source",
+    "Audit direct FZD4 vascular perturbation and maintenance outcomes"
+  ],
+  "eligibility": [
+    "identified biological units and source cohorts",
+    "exact perturbation and compartment",
+    "matched functional/lineage outcomes",
+    "denominators and initial population",
+    "maintenance and renewal distinguished"
+  ],
+  "execution": "Freeze source-specific numerical scope before extracting new outcomes; no raw matrix acquisition until unit/label eligibility is resolved.",
+  "already_exposed": [
+    "Nb2 N7 pooled and within-round association; CAP1/CAP2 Fzd4 direction",
+    "Gillich gCap renewal narrative",
+    "FOXF1/FZD4 tumor vessel rescue narrative"
+  ],
+  "claim_grades": false,
+  "biological_acceptance": false
+}

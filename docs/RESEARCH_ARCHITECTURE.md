@@ -9,7 +9,7 @@ changes do not rewrite earlier measurements.
 
 The [roadmap execution record](roadmap_runs/2026-09-27/README.md) supplies the latest P1 source facts and P4 accounting evidence. Completed feasibility work does not imply its biological gate has passed.
 
-Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. Current question scope is A0–A21 plus A12-S1. A19–A21 are unexecuted proposals from the [Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md), added 29 September; the dated ledgers above retain their original scope.
+Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. Current question scope is A0–A21 plus A12-S1. A19–A21 were proposed from the [Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) on 29 September. A19 now has an [exploratory RNA/context analysis](../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md), completed 30 September; A20 also has an [exploratory fibroblast context analysis](../RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md). A21 now has an [independent capillary context analysis](../RQ_Specified/A21_fzd4_capillary_function/RESULTS.md). Their direct functional tests remain unexecuted. The dated ledgers above retain their original scope.
 
 The purpose is to generate and discriminate biological hypotheses about lung
 repair and remodelling from public data. The organizing question is not yet an
@@ -91,3 +91,11 @@ The [research roadmap](RESEARCH_ROADMAP.md) develops them into six work packages
 biological rationales, data requirements and explicit proceed/stop decisions.
 This is guidance for future specifications, not a new analysis authorization or
 an instruction to repeat completed fits.
+
+## A21 extension boundary, 30 September 2026
+
+[Source reconstruction and family mapping](../RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/RESULTS.md)
+refine vascular maintenance versus capillary lineage specificity. Tumor structural
+rescue, upstream Foxf1-loss perfusion and adult atlas RNA remain separate evidence
+layers. The extension adds no adult-lung causal join, compensation claim or
+biological acceptance; the original two lineage outcomes remain the targets.

@@ -1,0 +1,17 @@
+{
+  "scope": "Archived provenance and table consistency; no raw-data rerun or biological validation.",
+  "checks": 1867,
+  "failures": [],
+  "summary": {
+    "C3_entries": 9,
+    "C3_below_40_controls": 7,
+    "C3_above_all_sampled_controls": 4,
+    "C1_positive_k10": 8,
+    "C5_primary_thinning_rows_below_floor": 4
+  },
+  "unverified": [
+    "Raw count matrices and barcode arrays used by C3/C4 are not directly hashed in its run record.",
+    "Recorded inputs and numerical computations were not independently replayed by this table verifier.",
+    "No contamination exclusion, position-independent mechanism or biological replication follows."
+  ]
+}
