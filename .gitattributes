@@ -83,3 +83,26 @@ RQ_Specified/A5_A11_shared_component_contract/figures/revision_20260929/*.svg wh
 "Research Article/gate2_N1_nabhan_2023/**" -text whitespace=cr-at-eol
 "Research Article/gate2_N1_nabhan_2023/**/*.tsv" whitespace=cr-at-eol,-blank-at-eol
 "Research Article/gate2_N1_nabhan_2023/**/*.svg" whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve A19 generated vector bytes and R-session output used by run hashes.
+RQ_Specified/A19_fzd_response_reversibility/figures/**/*.svg whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A19_fzd_response_reversibility/reports/R_session.txt whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve A20 generated vector whitespace used by figure hashes.
+RQ_Specified/A20_fibroblast_fzd_context/figures/**/*.svg whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve A20 extension vector and R-session output whitespace.
+RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/figures/*.svg whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/reports/R_session.txt whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve A21 generated vector whitespace used by figure hashes.
+RQ_Specified/A21_fzd4_capillary_function/figures/*.svg whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve A21 extension generated vector whitespace.
+RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/figures/*.svg whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve intentionally empty final TSV fields and exact archived register bytes.
+RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/tables/gene_coverage.tsv whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/tables/source_workbook_cells.tsv whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A20_fibroblast_fzd_context/metadata/history/scope_refinement_v1/REGISTER_A20_before.md.txt whitespace=cr-at-eol,-blank-at-eof
+RQ_Specified/A21_fzd4_capillary_function/metadata/history/REGISTER_A21_before.md.txt whitespace=cr-at-eol,-blank-at-eof

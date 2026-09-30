@@ -1,0 +1,122 @@
+# A20 investigation plan
+
+## Eligibility and source crosswalk
+
+Review sources for receptor identity/selectivity, compartment specificity,
+verified engagement, initial subtype, injury stage, independent units, epithelial
+recipient identity and functional outcomes. The Fzd2 study is prior art and an
+assay comparator; this plan does not assert an eligible public count/outcome join.
+Record accessibility and identifiers before calling a test executable.
+
+Map AF1/AF2 across sources using author biology and independent markers; labels
+alone are insufficient. Separate developmental, adult-injury and chronic-fibrosis
+settings. Day42 observations cannot set an acute treatment window or establish
+stage dependence. Do not define subtype using the receptor or tested outcome.
+
+## Biological chain and primary contrast
+
+The working chain is Fzd2 reception in an initial AF1-like state, maintenance of
+functional trophic activity, then increased mature epithelial contribution.
+Primary directional contrast: comparable Fzd2-loss minus Fzd1-loss effects within
+AF1 on mature epithelial output, expected to be negative. The same contrast on
+functional trophic activity is a mechanistic companion, not a ligand-RNA substitute.
+The receptor-by-subtype interaction below tests the context extension separately.
+A specific secreted mediator is not yet nominated; attribution requires independent
+functional source-to-recipient evidence and a suitable restoration/dependency
+comparison. Mechanical/ECM support remains a rival even if receptor specificity
+is demonstrated.
+
+## Context-extension estimand
+
+Let E(r,s) be the perturbation-minus-control effect on independently measured mature
+epithelial output for receptor r in initial fibroblast subtype s. The interaction is:
+
+`[E(Fzd1, AF1) − E(Fzd2, AF1)] − [E(Fzd1, AF2) − E(Fzd2, AF2)]`.
+
+Perturbation mode must be comparable. Loss, blockade and agonism are different
+interventions; their effect signs cannot be pooled. Define matched controls and
+account for incomplete engagement. The context extension predicts a meaningful
+nonzero interaction. The primary
+AF1 Fzd2-dependence hypothesis predicts a larger support decrement after verified
+Fzd2 loss than Fzd1 loss; this direction is not implied for an agonist contrast.
+
+The unit is the fibroblast source/animal/preparation. Paired subtypes and repeated
+wells stay nested; recipient donor identity is retained. Define absolute epithelial
+mature output per starting epithelial population, survival and growth separately.
+Matrix deposition/remodeling is a distinct secondary outcome; its direction is
+not automatically beneficial or harmful. Do not invent a composite benefit score.
+
+## Functional attribution and decision
+
+Compartment-specific perturbation or appropriate separation of recipient exposure
+is necessary to attribute effects to fibroblasts. Verify receptor engagement and
+starting subtype. Interpret total output with viability and abundance; adjustment
+for post-treatment fibroblast number alone cannot separate support from depletion.
+Lineage/tracked-state evidence is needed to call an AF1/AF2 shift a conversion.
+
+Before new outcomes, freeze useful interaction/effect margins, uncertainty rules,
+biological replication, validation source, exclusions and multiplicity. Estimate
+the interaction rather than comparing within-subtype significance labels. A precise
+lack of the nominated AF1 dependence weakens H1; a reliable reverse effect
+contradicts its direction. A precise absence of useful subtype interaction weakens
+H2. Imprecision, missing functional outcomes or unequal perturbation validity is
+inconclusive for the affected comparison.
+
+First deliverable: eligibility and subtype-crosswalk table. No functional fit uses
+support-ligand or ECM RNA as substitutes. Additional stage interactions wait until
+a replicated within-stage receptor-by-subtype contrast is feasible.
+
+
+## Execution update, 30 September 2026
+
+The first [eligibility/crosswalk deliverable](SOURCES.md) and an exploratory
+sample-paired context analysis are complete. [Results](RESULTS.md) and
+[figures](FIGURES.md) refine the hypothesis; the original H1/H2 functional fits
+remain unexecuted. The frozen exploratory contract is separate from the original
+prospective functional design. No useful-effect margin or power assumption has
+been invented for unavailable assays.
+
+Next priorities are biological, with measurement checks serving their eligibility:
+
+1. **Niche persistence versus changed support activity.** Resolve animal/preparation
+   identities and functional records before any receptor-effect model. Preserve
+   original absolute mature-output H1 and report supported epithelial pool size
+   separately. Use prospectively comparable inputs for a distinct activity
+   contrast; do not claim mediation after adjusting for post-treatment cell counts.
+2. **Support versus matrix remodeling.** Ask whether verified Fzd dependence changes
+   functional epithelial support independently of the presence of matrix production.
+   Keep deposited matrix/mechanics as outcomes and rivals; RNA is contextual only.
+3. **State dependence.** Retain the registered receptor-by-initial-subtype H2.
+   Investigate Jones GSE249931 as a Notch/lineage comparator only after source
+   animal identities are resolved; one library per named Notch genotype cannot
+   support replicated donor-level inference. A Fzd2-by-Notch interaction is proposed,
+   not established by combining separate studies.
+
+Human IPF validation follows an independent multi-marker crosswalk and donor/region
+inventory. Do not pool reference, adult-injury and chronic-disease values or
+upgrade the reused atlas to independent confirmation. Freeze assay-specific
+contrasts, useful-effect margins, exclusions and uncertainty before new functional
+outcomes. No additional atlas correlations are prioritized over these missing
+biological links.
+
+## Priorities 1–3 executed as extension_v1, 30 September 2026
+
+The [extension](extensions/extension_v1/README.md) integrates the hypothesis
+refinement with three completed context tasks:
+
+1. Audited niche persistence versus support activity. Separate RNA and functional
+   cohorts preclude a matched mediation fit; receptor-specific mature-output
+   evidence remains missing.
+2. Analyzed support and matrix RNA separately in four matched donors, with
+   individual genes retained. These are not measurements of secretion or mechanics.
+3. Computed the direct within-donor interaction of concurrent TGF and CHIR.
+   It concerns simultaneous inputs, not a verified pre-existing fibroblast state.
+   Jones Notch data remain a lineage/context comparator with unresolved animal units.
+
+[Results](extensions/extension_v1/RESULTS.md) and
+[assay decisions](extensions/extension_v1/metadata/assay_evidence.tsv) retain the
+original H1/H2. Higher receptor RNA and canonical-response RNA do not establish
+functional niche competence. The next functional comparison needs receptor
+identity, initial subtype, engagement, viable source abundance and later
+lineage-linked mature output resolved together. No numerical acceptance margin,
+confirmatory model, new RQ ID or claim grade is inferred from this extension.

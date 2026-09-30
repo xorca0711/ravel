@@ -1,11 +1,10 @@
 # Question figure gallery
 
-An index of every figure tracked under `RQ_Specified/`, with the document that
-captions it. A question ID is a navigation label, not an evidence grade. Seven of
-the thirteen questions here hold no figure at all, which is a fact about what those
-analyses produced rather than a gap waiting to be filled: a paired median with
-three readable units is reported as a table because a plot of three points would
-imply a distribution the design cannot support.
+An index of figures tracked under `RQ_Specified/`, with the document that
+captions each set. A question ID is a navigation label, not an evidence grade.
+Some questions have tables or proposed designs without figures. Where small
+samples are plotted, every observed unit and its limits must remain explicit;
+a plot does not turn a few observations into a supported population distribution.
 
 Captions stay next to the analysis that produced them, so this page points and
 does not restate. Restating a caption here would create a second, drifting copy
@@ -26,6 +25,9 @@ page covers only assets that live inside the question folders.
 | A10 | 2 | [reports/FOLLOWUP_RESULTS.md](A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md), [reports/ENDPOINT_TIMING_UNITS_2026-09-28.md](A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md) |
 | A12 | 3 | [RATIONALE.md](A12_recipient_context/RATIONALE.md) (held-out model ladder for the A12 and A13 pilots; patient-level relationship and predictions), [reports/A12_S1_SOURCE_IDENTITY_MAP.md](A12_recipient_context/reports/A12_S1_SOURCE_IDENTITY_MAP.md) (per-patient IL1B allocation) |
 | A16 | 5 | [RATIONALE.md](A16_cd177_state_attribution/RATIONALE.md#figures-for-the-amendment) (two summary panels) and [the evidence behind them](A16_cd177_state_attribution/RATIONALE.md#the-evidence-behind-those-two-summaries) (a matched-null histogram set, per-cell violins and a balance Love plot) |
+| A19 | 4 | [FIGURES.md](A19_fzd_response_reversibility/FIGURES.md): three main figures and one supplementary figure, each as PNG/PDF/SVG; donor-paired qPCR, passage persistence and source-block bulk RNA |
+| A20 | 6 | [Atlas gallery](A20_fibroblast_fzd_context/FIGURES.md): three paired-context figures; [extension gallery](A20_fibroblast_fzd_context/extensions/extension_v1/FIGURES.md): three four-donor FZD/input/individual-gene figures, each PNG/PDF/SVG |
+| A21 | 6 | [Parent gallery](A21_fzd4_capillary_function/FIGURES.md): three cohort/context figures; [extension gallery](A21_fzd4_capillary_function/extensions/extension_v1/FIGURES.md): three vascular-source, Fzd-family and receptor-context figures; each PNG/PDF/SVG |
 | A5 and A11 shared contract | 1 | [reports/REVISED_TEST_RESULTS.md](A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md) |
 
 Each PNG has an SVG beside it except the three A0 planning and coverage panels
@@ -35,8 +37,8 @@ A0 keeps its pilot panels in a gallery of their own because the pilot has a
 frozen figure set; its later exploratory and eligibility panels are captioned in
 the reports that decided them, which is where their gates are stated.
 
-A1 is the only question whose figure count justifies a curated gallery, and that
-gallery is organised newest first. Fifteen of its nineteen images are displayed
+A1 keeps a curated gallery organised newest first. A19 keeps its new four-figure
+set with full captions and source links in its question workspace. Fifteen of A1's nineteen images are displayed
 there or in the regulatory-fate report. The remaining four, under
 `figures/second_batch/`, are deliberately displayed nowhere: they are the
 superseded renders, preserved beside the corrected `second_batch_verified/` set,

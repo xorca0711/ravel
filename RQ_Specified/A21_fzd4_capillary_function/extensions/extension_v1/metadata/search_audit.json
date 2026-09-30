@@ -1,0 +1,25 @@
+{
+  "searched_utc": "2026-09-30T05:07:09.210341+00:00",
+  "queries": [
+    "\"Fzd4\" \"gCap\" regeneration lineage",
+    "\"FZD4\" lung endothelial regeneration 2025 2026"
+  ],
+  "scope": "Bounded primary-source search, not systematic review or evidence of universal absence",
+  "retained": [
+    "Godoy2023_GSE211335",
+    "Bian2024_Figure7",
+    "Bian2024_Figure3F",
+    "Bian_GSE255969",
+    "Niethamer_GSE262927",
+    "Gillich2020",
+    "Levey2026_preprint"
+  ],
+  "additional_screened": [
+    {
+      "url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628787v2.full",
+      "result": "Full text unavailable through web tool; search snippet not used to establish receptor interactions or independent state validation."
+    }
+  ],
+  "conclusion": "No inspected source joins adult normal-lung Fzd4 intervention, independent initial gCap identity, lineage outputs and vascular performance.",
+  "known_exposure": "Search after frozen family analysis; did not change the gene list, candidate rule or outcome contrasts."
+}

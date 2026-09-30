@@ -1,0 +1,85 @@
+{
+  "compile": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "compileall",
+      "-q",
+      "-x",
+      "[/\\\\]\\.tools[/\\\\]",
+      "analysis",
+      "Research Article",
+      "RQ_Specified"
+    ],
+    "exit_code": 0,
+    "log": "compile_check.log",
+    "tail": []
+  },
+  "tests": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "analysis/tests",
+      "-q"
+    ],
+    "exit_code": 0,
+    "log": "tests_check.log",
+    "tail": [
+      "Ran 67 tests in 2.984s",
+      "",
+      "OK (skipped=1)"
+    ]
+  },
+  "claims": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "analysis/scripts/claim_contract.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "claims_check.log",
+    "tail": [
+      "Claim contract verified; 18 numeric bindings passed."
+    ]
+  },
+  "Nb1": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+    ],
+    "exit_code": 0,
+    "log": "Nb1_check.log",
+    "tail": [
+      "Nb1 evidence verified: 17 output hashes, code/protocol/panel hashes, units, reported paired directions and expression denominators; raw inputs not requested."
+    ]
+  },
+  "A16": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py"
+    ],
+    "exit_code": 0,
+    "log": "A16_check.log",
+    "tail": [
+      "    \"No contamination exclusion, position-independent mechanism or biological replication follows.\"",
+      "  ]",
+      "}"
+    ]
+  },
+  "repository": {
+    "command": [
+      "C:\\Users\\dream\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "analysis/scripts/validate_repository.py"
+    ],
+    "exit_code": 0,
+    "log": "repository_check.log",
+    "tail": [
+      "  tracked JSON artefacts parse",
+      "  selected headline values and explicit numeric bindings match tracked tables",
+      "  claim index and summary match the register; this is not full scientific reproduction"
+    ]
+  }
+}

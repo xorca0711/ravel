@@ -1,0 +1,21 @@
+{
+  "reviewed_utc": "2026-09-30T05:19:37.045957+00:00",
+  "status": "passed",
+  "method": "Rendered all three final PDFs with PyMuPDF at 1.5x and visually inspected; source figure axes also inspected",
+  "figures": [
+    {
+      "file": "figures/A21E_F1_vascular_source_evidence.pdf",
+      "sha256": "e0d979f9984a92d356414dc8fe8ead0f0ac20aa0e74a368ee7d5d73579cca31b"
+    },
+    {
+      "file": "figures/A21E_F2_fzd_family_states.pdf",
+      "sha256": "ccebca312202ea7d31b16e69356a7632ae7cf57dbd6d121e9c790410ad1d1713"
+    },
+    {
+      "file": "figures/A21E_F3_receptor_context.pdf",
+      "sha256": "2778b7fe149c2041e1496066229ed87de3ab3290569d067f929f6611c4308a0b"
+    }
+  ],
+  "findings": "Readable labels, explicit biological n, no clipping or overlap; earlier crowded group labels shortened with an explicit Het definition; footers moved below axes.",
+  "scientific_boundary": "Descriptive source-reported values and RNA contrasts; no simulated outcomes or inferential stars."
+}

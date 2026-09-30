@@ -1,0 +1,16 @@
+panel	outcome	unit	source_column	source_group	n	mean	median	minimum	maximum	sd
+3F	Perfused vascular area	Lectin-positive area as percent of CD31-positive area	B	Control	3	29.73885	26.79426	24.36919	38.0531	7.30173307668
+3F	Perfused vascular area	Lectin-positive area as percent of CD31-positive area	C	endFoxf1+/-	3	4.89762266667	5.639687	2.074014	6.979167	2.53537494159
+7D	Tumor size	mm^3	B	Control-nano-empty	10	15.025	16.7	2.25	24.5	6.59862148904
+7D	Tumor size	mm^3	C	endFoxf1+/--nano-empty	7	72.3428571429	87.5	8.6	112.5	44.6886957049
+7D	Tumor size	mm^3	D	endFoxf1+/-nano-fzd4	11	21.4045454545	5.5	0	126	36.3060081429
+7E	Fzd4-positive gCap endothelium	percent of gCap endothelial cells	B	Lung EC	6	80.1809533333	91.93105	18.37748	95.47414	30.3442749571
+7E	Fzd4-positive gCap endothelium	percent of gCap endothelial cells	C	Tumor EC	9	43.2168344444	41.62072	16.19798	68.15166	16.6361999924
+7E	Fzd4-positive gCap endothelium	percent of gCap endothelial cells	D	endFoxf1+/--nano-empty	5	9.6809406	5.665025	3.316327	17.85714	6.68417166364
+7E	Fzd4-positive gCap endothelium	percent of gCap endothelial cells	E	endFoxf1+/-nano-fzd4	4	37.36782	37.038175	34.90735	40.48758	2.3143774942
+7F	Nuclear beta-catenin-positive endothelium	percent of endothelial cells	B	Control tumor empty	7	43.4190947943	49.49109	20.909091	58.63309	14.569378047
+7F	Nuclear beta-catenin-positive endothelium	percent of endothelial cells	C	endFoxf1+/--nano-empty	5	4.8314753006	5.420054	0	9.913793103	4.71166590027
+7F	Nuclear beta-catenin-positive endothelium	percent of endothelial cells	D	endFoxf1+/-nano-fzd4	4	45.8224083875	45.996320125	34.079602	57.2173913	9.72421122232
+7G	Basement-membrane coverage	Collagen IV-positive area as percent of CD31-positive area	B	Control tumor empty	4	71.3352025	72.091	53.82214	87.33667	13.9475615791
+7G	Basement-membrane coverage	Collagen IV-positive area as percent of CD31-positive area	C	endFoxf1+/--nano-empty	5	25.824	25	14.63	38.06	8.96283046811
+7G	Basement-membrane coverage	Collagen IV-positive area as percent of CD31-positive area	D	endFoxf1+/-nano-fzd4	5	57.9882	59.735	43.79	64.09	8.15774731161

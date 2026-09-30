@@ -1,9 +1,9 @@
 {
   "schema": "nb2-derived-question/v1",
   "drafted": "2026-09-29",
-  "status": "proposed_design_unexecuted",
+  "status": "exploratory_context_and_extensions_complete_functional_hypothesis_untested",
   "post_analysis_derivation": true,
-  "owner_request": "start deriving RQs from the overall results",
+  "owner_request": "Proceed with A21 analysis after the A20 narrowing",
   "biological_acceptance": false,
   "scoring_authorized": false,
   "id": "A21",
@@ -12,10 +12,10 @@
   "source_branches": [
     "Nb2-N7"
   ],
-  "question": "Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?",
+  "question": "Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?",
   "hypotheses": [
-    "Fzd4-dependent regenerative state entry and later lineage contribution",
-    "competing general endothelial maintenance mechanism"
+    "Fzd4-dependent vascular integrity permits later gCap renewal and aerocyte production",
+    "competing selective regenerative-entry or aerocyte-production mechanism"
   ],
   "unit": "independent animal/preparation with resolved round and capillary context",
   "primary_outcome": "traced capillary descendant yield per initial viable labeled population",
@@ -39,13 +39,42 @@
   "execution_gate": "Identify eligible data and freeze remaining assay-specific comparisons, margins, models and validation before new outcomes are inspected.",
   "new_fits": false,
   "new_claim_grades": false,
-  "biological_hypothesis": "Fzd4 contributes to injury-induced gCap recruitment into a regenerative state that supplies renewed gCap and aerocyte descendants.",
-  "biological_process": "receptor-dependent recruitment into capillary regeneration",
+  "biological_hypothesis": "Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury.",
+  "biological_process": "Fzd4-dependent vascular integrity permitting later capillary repopulation",
   "competing_biology": [
     "endothelial survival or barrier/perfusion failure",
     "capillary substate redistribution",
     "cohort-specific injury response"
   ],
   "mechanistic_prediction": "Verified perturbation changes regenerative-state entry before traced descendant production, with an effect distinguishable from generalized endothelial loss.",
-  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint."
+  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint.",
+  "context_execution": "exploratory_v1",
+  "source_audit": "RQ_Specified/A21_fzd4_capillary_function/SOURCES.md",
+  "results": "RQ_Specified/A21_fzd4_capillary_function/RESULTS.md",
+  "figures": "RQ_Specified/A21_fzd4_capillary_function/FIGURES.md",
+  "independent_context": {
+    "dataset": "GSE211335",
+    "animals": 12,
+    "endothelial_cells": 5423,
+    "functional_Fzd4_test": false
+  },
+  "refinement": "Focus on Fzd4-dependent capillary vascular integrity permitting later repopulation, versus selective entry or aerocyte production. These remain proposed mechanisms. Preserve separate original lineage outputs.",
+  "expression_lead_status": "Original pooled association retired as affirmative renewal evidence; independent within-condition cycling association inconsistent and underpowered.",
+  "primary_endpoint_retained": true,
+  "functional_execution_gate": "No eligible joined adult-repair Fzd4 perturbation, initial gCap identity, traced descendant and maintenance dataset identified; require this linkage before a functional fit.",
+  "preserved_history": "RQ_Specified/A21_fzd4_capillary_function/metadata/history/document_snapshots.json",
+  "latest_owner_request": "Proceed with priorities 1-3",
+  "extension_execution": "extensions/extension_v1",
+  "extension_results": "RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/RESULTS.md",
+  "functional_design": "RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/FUNCTIONAL_DESIGN.md",
+  "extension_summary": "Recovered tumor source reconstruction supports structural-maintenance plausibility; all-ten-Fzd screen nominates no robust alternative; Foxf1/Fzd4/Lrp6 lower in 11 paired state contrasts; no independent matched-state validation or adult-lung functional lineage test.",
+  "one_line_question": "Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?",
+  "one_line_hypothesis": "Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury.",
+  "question_wording_revision": {
+    "id": "one_line_refinement_20260930",
+    "date": "2026-09-30",
+    "owner_request": "Update one-line hypothesis questions in PR using the established RQ_Specified hierarchy",
+    "scope": "Current question wording and hypothesis summary; primary outcomes, frozen analyses, evidence grades and acceptance unchanged",
+    "history": "RQ_Specified/A21_fzd4_capillary_function/metadata/history/one_line_refinement_20260930"
+  }
 }

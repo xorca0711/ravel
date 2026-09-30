@@ -1,0 +1,83 @@
+# A19. Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?
+
+**Exploratory context analysis completed 30 September 2026; direct H1–H3 remain unresolved.**
+[Canonical card](../../RESEARCH_QUESTIONS.md#a19) ·
+[Nb2 derivation](../../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) ·
+[Investigation plan](PLAN.md) · [Results](RESULTS.md) · [Figure gallery](FIGURES.md) ·
+[Methods](METHODS.md) · [Source inventory](SOURCES.md) ·
+[Extension pipeline](EXTENSION_PIPELINE.md) · [External evidence](EXTERNAL_EVIDENCE.md).
+
+## Current analysis
+
+The [executed analysis](RESULTS.md) extracts 143 qPCR source rows and analyzes
+eight human alveolar-organoid bulk libraries in two source blocks. CHIR absence
+lowers SFTPC and raises airway markers in three qPCR donor lines, while bulk
+RNA shows mixed AT1/airway changes and an opposing SFTPC direction. In
+**airway-derived** cultures, early SFTPC induction declines despite continued
+CHIR. The results motivate an alveolar-competence constraint on temporal control;
+they do not measure Fzd withdrawal, lineage-derived mature output or AT2 reserve.
+
+Three main figures and one supplementary figure are deposited as PNG, PDF and
+SVG with captions, source tables, scripts and verification. The original Nb2
+analyses remain paper-local. This is exploratory secondary analysis, not
+independent validation or biological acceptance. The current scientific next
+step follows [three integrated priorities](EXTENSION_PIPELINE.md): cellular
+identity/context analysis, a bounded report of existing GSK3B-by-CHIR contrasts,
+and linked state/engagement/fate/reserve eligibility. The external review is
+complete; new single-cell and functional extension runs are not yet executed.
+
+The focused hypothesis concerns whether an airway-associated state acquired
+during expansion limits the later withdrawal response under a specified
+maturation environment. The pipeline distinguishes pre-exposure and
+pre-withdrawal states and treats missing cues, selection and input-dependent
+plasticity as rivals. H1–H3 and the full reserve requirement remain unchanged.
+
+## Working hypothesis and biological logic
+
+Receptor-selective Fzd signaling supports an expandable AT2 state, whereas its
+termination allows competent descendants to enter an AT1 maturation program.
+A finite off-period therefore increases mature alveolar output while leaving
+a responsive AT2 reserve. Initial epithelial state sets the competence to make
+this transition; receptor-level input may tune that balance differently from
+GSK3 inhibition. These are proposed biological processes, not observed mechanisms.
+
+The central idea is **temporal separation of expansion and differentiation**.
+An apparent gain in cell number is useful for repair only if descendants can
+subsequently contribute mature tissue. A state that expands under stimulation
+could remain reversible, become persistently transitional, or simply select a
+pre-existing population. The question distinguishes those biological outcomes.
+
+## Predictions that distinguish the hypothesis
+
+| Hypothesis | Biological prediction | Contrary result |
+|---|---|---|
+| H1: a reversible expansion-to-maturation transition | Verified termination of stimulation increases lineage-derived mature AT1 output relative to sustained input, while retaining a responsive AT2 reserve | A precise absence of useful mature-output gain, a reliable reverse effect, or depletion of the retained reserve |
+| H2: initial-state competence | The same exposure history yields different expansion-to-maturation responses from independently identified initial states | A precise absence of a useful initial-state interaction under comparable engagement and baseline receptor context |
+| H3: input-dependent regulation | Receptor-level inputs produce a different activity trajectory and later fate balance than comparator inputs within a prospectively calibrated engagement range | Only transient RNA differences remain, or independently calibrated inputs produce equivalent later outcomes within the chosen margin |
+
+H1 is primary; H2/H3 have separate decisions. The YAP/TAZ-associated signal is a
+candidate component of the trajectory, not an established mediator. Active Hippo
+MST/LATS kinases restrain YAP/TAZ; their activation is not synonymous with increased
+YAP/TAZ output. A specific mediator claim needs its own dependency evidence.
+
+## Why the results motivate it, and what they do not show
+
+The withdrawal24-to-withdrawal48 AT1-associated RNA direction survives library
+omissions but is imprecise and not serially linked. Fzd agonists compare above
+CHIR and below withdrawal48 in point estimates. The narrow source YAP panel rises
+while a broad sustained-YT projection is unstable. In four matched atlas samples,
+AT1 has more Fzd5 RNA but less canonical-target RNA than AT2. Together these
+motivate a state- and time-dependent response, without demonstrating it.
+[Observed evidence](../../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md).
+
+Selection of pre-existing mature cells, toxicity, exposure differences and a
+single generic growth response are competing explanations. Traced absolute mature
+output per initial viable population, retained AT2 capacity and later-bout response
+must distinguish them. RNA scores alone cannot decide the biological hypothesis.
+
+No inspected Nb2 dataset joins Fzd withdrawal, initial state and later function.
+The [completed inventory](SOURCES.md) identified supporting human RNA contrasts,
+but no inspected source supplies that complete linked test.
+[The parent contract](config/question_contract.json) still leaves confirmatory assay choices, effect
+margins and validation data unset. A4's Wnt/IL-1 sequence, A8's maturation predictor,
+A10's growth question and A1's regulatory-state question keep their own scope.

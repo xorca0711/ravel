@@ -1,0 +1,63 @@
+{
+  "schema": "nb2-derived-question/v1",
+  "drafted": "2026-09-29",
+  "status": "exploratory_context_and_extension_complete_functional_design_unexecuted",
+  "post_analysis_derivation": true,
+  "owner_request": "Proceed with aligned priorities 1, 2, 3 for the A20 extension analysis",
+  "biological_acceptance": false,
+  "scoring_authorized": false,
+  "id": "A20",
+  "folder": "A20_fibroblast_fzd_context",
+  "priority": "secondary",
+  "source_branches": [
+    "Nb2-N6"
+  ],
+  "question": "Do subtype-specific Fzd signals maintain a fibroblast niche that enables alveolar maturation?",
+  "hypotheses": [
+    "H1 greater loss of AF1 trophic activity and epithelial mature output after Fzd2 loss than Fzd1 loss",
+    "H2 relative receptor dependence differs by initial fibroblast subtype"
+  ],
+  "unit": "independent fibroblast source/animal/preparation with epithelial recipient identity",
+  "primary_outcome": "absolute mature epithelial output; matrix remodeling assessed separately",
+  "required_evidence": [
+    "independent subtype crosswalk",
+    "receptor- and compartment-specific perturbation",
+    "verified engagement",
+    "functional epithelial output",
+    "matrix measurement",
+    "viability and cell abundance"
+  ],
+  "existing_owners": [
+    "A13",
+    "A15"
+  ],
+  "paper_synthesis": "Research Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md",
+  "design_owner": "RQ_Specified/A20_fibroblast_fzd_context/PLAN.md",
+  "quantitative_parameters": {
+    "meaningful_effect_margin": null,
+    "uncertainty_rule": null,
+    "biological_replication_and_power": null,
+    "multiplicity_family": null,
+    "validation_cohort": null
+  },
+  "execution_gate": "Identify eligible data and freeze remaining assay-specific comparisons, margins, models and validation before new outcomes are inspected.",
+  "new_fits": false,
+  "new_claim_grades": false,
+  "biological_hypothesis": "Fzd2 maintains AF1-like trophic activity that enables AT2 descendant maturation; Fzd1-rich contexts are not automatically interchangeable support states.",
+  "biological_process": "receptor-dependent control of a functional fibroblast support state",
+  "competing_biology": [
+    "general fibroblast abundance or depletion",
+    "mechanical or ECM-mediated support",
+    "direct epithelial reception",
+    "subtype replacement"
+  ],
+  "mechanistic_prediction": "Comparable receptor loss alters functional fibroblast-derived support and subsequent epithelial maturation; source/recipient separation and restoration distinguish trophic activity from depletion.",
+  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint.",
+  "context_execution": "exploratory_v1",
+  "source_audit": "RQ_Specified/A20_fibroblast_fzd_context/SOURCES.md",
+  "results": "RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md",
+  "figures": "RQ_Specified/A20_fibroblast_fzd_context/FIGURES.md",
+  "refinement": "Separate niche persistence, support activity, matrix function and instructive maturation. Concurrent TGF/CHIR RNA responses narrow expression proxies but do not test Fzd1/Fzd2 dependence or original initial-subtype H2.",
+  "extension_execution": "extensions/extension_v1",
+  "extension_results": "RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/RESULTS.md"
+}

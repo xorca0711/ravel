@@ -1,0 +1,141 @@
+# A20 exploratory results
+
+30 September 2026 · exploratory_v1 · source sample is the unit · no biological acceptance.
+
+## What the analysis resolves
+
+The existing AF1/AF2 receptor contrast survives an independent-marker check, but
+its accompanying support signal is selective: Wnt2 and Fgf7/Fgf10 are higher in
+AF1 while Hgf is lower. Higher AF1 matrix RNA extends to all eight prespecified
+collagen genes. This supports studying a combined support-and-matrix phenotype;
+it does not show secreted activity, fibrosis, receptor dependence or maturation.
+
+[Figures](FIGURES.md) · [Methods](METHODS.md) · [Source eligibility](SOURCES.md).
+
+## Independent identity probes and receptor context
+
+We extracted 21 genes from 22,186 author-labelled AF1/AF2 cells across the source
+atlas. The primary comparison is restricted to five paired day-42 source samples,
+with predicted doublets removed and at least 50 cells in each subtype. These are
+EEM-scRNA-124/125/179/181/182, spanning two experimental rounds. AF2 coverage is
+55-81 cells; AF1 coverage is 649-1,206 cells. No cell is an independent replicate.
+
+Pdgfra is higher and Pdgfrb lower in AF1 in all five pairs, consistent with the
+Pdgfra/Pdgfrb framework in the lineage study. Col13a1 is higher in all five; Col14a1
+has mixed direction. A Col14a1-only rule would not provide a reliable crosswalk
+here. These checks support author labels locally, not complete equivalence across
+species, developmental stages, injury models or disease states.
+
+| Feature | Median AF1 minus AF2 | Observed range | Paired direction |
+|---|---:|---:|---|
+| Pdgfra | +6.000 | +4.493 to +9.964 | higher 5/5 |
+| Pdgfrb | -4.231 | -5.119 to -3.499 | lower 5/5 |
+| Col13a1 | +3.362 | +2.594 to +4.727 | higher 5/5 |
+| Col14a1 | +0.849 | -0.697 to +1.726 | higher 4/5 |
+| Fzd1 | -0.731 | -1.312 to -0.284 | lower 5/5 |
+| Fzd2 | +2.731 | +2.322 to +3.397 | higher 5/5 |
+
+Values are differences in log2(CPM+1), not literal log2 fold changes. A consistent
+observed sign is not a population-level significance or receptor-activity result.
+[Full paired table](tables/paired_differences.tsv).
+
+## Selective support RNA coexists with matrix RNA
+
+Median AF1-minus-AF2 differences are Wnt2 +3.735, Fgf7 +4.581, Fgf10 +6.070,
+Vegfa +1.356 and Hgf -0.280. Each direction holds in all five primary pairs. The
+small Hgf difference is not evidence that an HGF-dependent function is lost.
+The existing four-gene support panel averages +3.572, but this average masks its
+opposing Hgf component. No mediator is nominated from this expression pattern.
+
+All eight collagen genes are higher in AF1 in all five pairs. The predefined
+collagen-panel difference is +1.263 (range +0.877 to +1.772); the earlier ECM panel
+is +1.114 (+0.801 to +2.588). Thus the matrix pattern does not arise solely from
+Cthrc1 or Lrrc15. Cthrc1 varies widely, while Lrrc15 is undetected in both subtypes
+in four primary pairs. RNA does not establish matrix deposition or its mechanical
+consequence. Higher matrix RNA and candidate support RNA can coexist without
+implying a globally reparative or fibrotic subtype.
+
+The published Fzd2 study describes a different collagen ranking in its reference
+analysis. Distinct stages, source sampling and cell-state definitions prevent
+calling this a replicated contradiction. The correct extension is to test whether
+niche support and matrix remodeling can be functionally uncoupled within verified
+states. [Gene-level estimates](tables/paired_summary.tsv).
+
+## Sensitivity and evidence boundary
+
+At the 20-cell floor, eight pairs retain higher support/collagen panels and lower
+Hgf in AF1, with or without predicted doublets. At 50 cells there are five pairs;
+at 100 cells there are zero. The stricter analysis is unavailable, not a negative
+result. Keeping doublets does not change these paired results. Individual samples
+are shown; no cell-level P values, bootstrap population intervals, causal models
+or temporal-effect estimates were fitted.
+
+The atlas is already exposed through Nb2 and is cross-sectional. It lacks a
+fibroblast Fzd perturbation, linked epithelial recipients and mature-output
+measurements. Neither H1 nor H2 is identified by these RNA comparisons. The
+source audit also finds no eligible public Fzd1/Fzd2 factorial outcome join.
+Jones provides useful Notch/lineage evidence; its public Notch comparison has one
+GEO library per genotype, with animal-level replication unresolved in that record.
+We therefore did not turn cells or libraries into donor-level replication.
+
+## Hypothesis refinement and discriminating biological outcomes
+
+**Priority 1 — receptor-dependent support capacity.** Does Fzd2 reception preserve
+an AF1-like niche that maintains an epithelial progenitor pool capable of later
+alveolar repair? The refined working hypothesis is that Fzd2 loss reduces this
+capacity more than comparable Fzd1 loss in the same initial state. This retains
+the original receptor-specific prediction while separating pool maintenance from
+an instructive effect on maturation. A precise comparable or reversed effect
+would weaken the nominated Fzd2 preference; the current atlas cannot decide it.
+
+Two biological accounts must be distinguished. Under **niche persistence**, fewer
+viable support cells or fewer supported AT2 progenitors explain lower absolute
+mature output. Under **changed support activity**, receptor loss changes what
+surviving fibroblasts provide, affecting recipient fate even when starting inputs
+are prospectively comparable. Total effects, viable-cell abundance, epithelial
+expansion and lineage-linked mature output are separate outcomes. Retrospective
+adjustment for post-treatment cell number cannot establish the second account.
+
+**Priority 2 — selective support versus matrix remodeling.** Does Fzd2-dependent
+support preserve later epithelial maturation while matrix production continues?
+The hypothesis is that supportive activity and matrix output are separable
+biological responses within AF1-like fibroblasts. Functional source-to-recipient
+separation and matrix measurements distinguish secreted support from mechanical
+support. RNA panel agreement, a lower collagen score or an interaction alone
+cannot decide this. This branch preserves the original subtype interaction H2.
+
+**Priority 3 — context and competing niche states.** Is Fzd2 dependence modified
+by a Notch-associated fibroblast state? Jones provides a reason to consider this
+context, but no Fzd2-by-Notch interaction has been established. A future factorial
+contrast requires independently defined starting state, comparable target
+engagement and functional recipients. It is a proposed modifier, not a claim of
+Fzd2–Notch epistasis or universal harm from AF2. Cross-study directions are not
+substitutes for that interaction.
+
+A19 owns epithelial response timing. A20 can connect to it through the narrower
+question of whether a maintained fibroblast niche expands a competent pool yet
+requires subsequent changes in recipient cues for maturation. No schedule or
+clinical benefit is inferred from day-42 expression.
+
+## Extension of priorities 1–3
+
+[Extension results and hypothesis refinement](extensions/extension_v1/RESULTS.md)
+add a source/assay audit and four-donor concurrent-input analysis, with
+[three new figures](extensions/extension_v1/FIGURES.md).
+Canonical-response RNA and selected support-ligand RNA diverge, and TGF increases
+FZD2 while reducing the support-panel average. This challenges expression proxies
+for functional support. It does not test receptor-specific H1/H2, establish an
+ECM mediator or identify a pre-existing state effect. The atlas estimates above
+remain unchanged. The refined biological distinction is maintenance of a competent
+epithelial pool versus instructive maturation, with matrix function measured
+separately.
+
+## Focused scope after the exploratory phase
+
+The [30 September narrowing amendment](NARROWED_HYPOTHESIS.md) selects the
+Fzd2-versus-Fzd1 functional comparison within one initial adult AF1-like context.
+The original absolute mature-output H1 endpoint is retained. AT2 pool maintenance
+is the leading mechanism to discriminate from maturation-specific support,
+general fibroblast depletion and matrix effects; it is not established by
+these results. Original subtype H2 is retained but deferred. Numerical outputs,
+six figures and their interpretation limits are unchanged.

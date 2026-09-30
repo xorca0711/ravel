@@ -1,0 +1,141 @@
+{
+  "schema": "a19-exploratory-v1",
+  "frozen_utc": "2026-09-30T00:31:57.177463+00:00",
+  "status": "exploratory_cross_system_predictions_not_H1_validation",
+  "prior_exposure": [
+    "Nb2 results and derived hypotheses",
+    "published source narratives and captions",
+    "workbook string labels and GEO sample metadata; no new numerical outcomes inspected"
+  ],
+  "scope": "Noninfectious differentiation and input-response comparisons only",
+  "biological_question": "Does reducing a growth-maintenance input release mature alveolar differentiation, or redirect/lose alveolar identity depending on starting context?",
+  "qpcr": {
+    "file": "cache/adult_source3.xlsx",
+    "sheets": [
+      "fig4b ",
+      "fig4e",
+      "fig5c",
+      "fig6a",
+      "fig6c"
+    ],
+    "unit": "explicit source donor-coded line; fig6a described as independent pool organoid cultures; no independent population origin interaction",
+    "outcome": "negative DeltaCt; change = reference DeltaCt minus comparison DeltaCt; log2 expression ratio assuming equal PCR efficiency",
+    "contrasts": {
+      "fig4b ": [
+        [
+          "AOM",
+          "AOM+CHIR"
+        ]
+      ],
+      "fig4e": [
+        [
+          "AOM",
+          "AOM+CHIR"
+        ]
+      ],
+      "fig5c": [
+        [
+          "shGSK-3β",
+          "Control"
+        ]
+      ],
+      "fig6a": [
+        [
+          "P1 AOM+CHIR",
+          "P1 AOM"
+        ],
+        [
+          "P3 AOM+CHIR",
+          "P1 AOM+CHIR"
+        ]
+      ],
+      "fig6c": [
+        [
+          "P3",
+          "P1"
+        ],
+        [
+          "P5",
+          "P1"
+        ]
+      ]
+    },
+    "pairing": "exact matching donor IDs within sheet/gene; retain mismatches and undetected values in audit; no imputation",
+    "estimation": "per-line paired change, mean, median, range; two-sided t interval when n>=2, descriptive under independence/normality; no discovery p-values",
+    "TCF4": "retain source-assay name; not equated to modern TCF7L2 without assay verification"
+  },
+  "bulk": {
+    "accession": "GSE197949",
+    "selection": "only eight uninfected bulk alveolar-organoid libraries with titles matching ctrl|GSK3kd crossed with ctrl|CHIR and blocks1/2",
+    "unit": "two source blocks; paper reports two donor cultures, block and hairpin confounded; no population inference",
+    "filter": "count>=10 in at least2 of8 libraries",
+    "normalization": "TMM with edgeR, log2(CPM+1); total-count CPM sensitivity; do not pool with Nb2 matrices",
+    "contrasts": [
+      "CHIR absent minus present within control background/block",
+      "CHIR absent minus present within GSK3KD background/block",
+      "difference between those withdrawal responses per block"
+    ],
+    "panel_minimum": "at least60% and >=2 genes",
+    "panels": {
+      "AT2_identity": [
+        "SFTPC",
+        "SFTPB",
+        "ABCA3",
+        "NAPSA",
+        "LAMP3",
+        "SLC34A2"
+      ],
+      "AT1_associated": [
+        "AGER",
+        "HOPX",
+        "PDPN",
+        "CAV1",
+        "CLIC5",
+        "RTKN2"
+      ],
+      "Basal_identity": [
+        "KRT5",
+        "KRT14",
+        "KRT17",
+        "TP63"
+      ],
+      "Airway_differentiation": [
+        "FOXJ1",
+        "SCGB1A1",
+        "SCGB3A1"
+      ],
+      "Canonical_Wnt_targets": [
+        "AXIN2",
+        "LEF1",
+        "NKD1",
+        "NOTUM"
+      ],
+      "Proliferation": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "MCM2",
+        "MCM5"
+      ]
+    },
+    "sentinels": [
+      "GSK3B",
+      "EGF",
+      "FOXM1"
+    ],
+    "interpretation": "supporting RNA phenotypes, not lineage/function, direct Wnt activity, or Fzd schedule effects"
+  },
+  "source_contexts": [
+    "GSE208770 Nb2: already exposed, do not rerun",
+    "Rational engineering 2023: withdrawal co-removes CHIR/KGF; Fig6 numeric source not yet recovered",
+    "Jacob2017: AT2 maturation endpoint, not AT1; full text API unavailable at first attempt"
+  ],
+  "figures": [
+    "paired airway/alveolar qPCR effects",
+    "persistent-versus-transient SFTPC and receptor-input comparator",
+    "bulk state-program responses with source-block effects",
+    "supplementary donor continuity/coverage if needed"
+  ],
+  "decision_rules": "Do not score H1-H3 as supported. Report which narrower prediction is consistent, contrary or unresolved, with direct Fzd and functional gaps explicit. All selected genes/contrasts retained.",
+  "new_claim_grades": false
+}

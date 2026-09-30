@@ -1,0 +1,8 @@
+[
+  {
+    "utc": "2026-09-30T05:17:04.393966+00:00",
+    "status": "verification harness corrected",
+    "error": "pandas Index.get_indexer rejected duplicated names among unrelated raw matrix features",
+    "resolution": "Check uniqueness of each of the 36 selected targets, as required by the frozen contract; unrelated feature-symbol duplicates do not prevent extraction. No analysis result or input changed."
+  }
+]

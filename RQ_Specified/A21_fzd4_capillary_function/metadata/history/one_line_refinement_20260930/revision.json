@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-30",
+  "revision": "one_line_refinement_20260930",
+  "question": "Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?",
+  "working_hypothesis": "Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury.",
+  "previous_question": "Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?",
+  "primary_outcome_retained": "traced capillary descendant yield per initial viable labeled population",
+  "hypothesis_status": "proposed; untested",
+  "biological_acceptance": false,
+  "source_contracts_unchanged": true,
+  "snapshots": [
+    {
+      "file": "README.md",
+      "sha256": "3acd7a10f028fad55edf59688f7f846ca6b1a9a0c179ff87cf2d8ecfcaab3b6d",
+      "snapshot": "metadata/history/one_line_refinement_20260930/README.md.txt"
+    },
+    {
+      "file": "PLAN.md",
+      "sha256": "dffdc4902eeca848b93073247fdd495b098c9fac563467261653fac895a0cde2",
+      "snapshot": "metadata/history/one_line_refinement_20260930/PLAN.md.txt"
+    },
+    {
+      "file": "config/question_contract.json",
+      "sha256": "1bafd6586a5ba0802f28e1332c8702d8a4865e9d25a9597c2727a2209539b09a",
+      "snapshot": "metadata/history/one_line_refinement_20260930/config_question_contract.json"
+    },
+    {
+      "file": "reports/package_manifest.json",
+      "sha256": "6dfa29b6cb3a0dd01c7b9ded0ff0035afe2f1a267d3841e289f3b884d16f4761",
+      "snapshot": "metadata/history/one_line_refinement_20260930/reports_package_manifest.json"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-30T02:22:42.875372+00:00",
+  "failed_stage": "Gene-to-source-row eligibility assertion before gene estimates or contrasts were calculated",
+  "finding": "FZD10 / ENSG00000111432 is absent from the supplied 32734-gene table; the other 44 prespecified genes map uniquely.",
+  "decision": "Retain FZD10 as unavailable in the mapping and figures; do not impute zero or substitute another gene. Execute mapped-gene contrasts and unchanged complete panels.",
+  "allowed_missing": [
+    "FZD10"
+  ],
+  "outcome_exposure": "No new gene-level outcomes inspected before amendment. TMM normalization already completed and is unchanged.",
+  "original_script_sha256": "960e42232692367d92960027fa3aedb3979349c32d64665cef90b301ccf7a82f"
+}

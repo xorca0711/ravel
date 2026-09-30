@@ -1,0 +1,6 @@
+panel	outcome	unit	left_group	right_group	n_left	n_right	mean_left	mean_right	mean_difference	median_left	median_right	interpretation
+3F	Perfused vascular area	Lectin-positive area as percent of CD31-positive area	endFoxf1+/-	Control	3	3	4.89762266667	29.73885	-24.8412273333	5.639687	26.79426	source-reported biological replicate values; descriptive only
+7D	Tumor size	mm^3	endFoxf1+/-nano-fzd4	endFoxf1+/--nano-empty	11	7	21.4045454545	72.3428571429	-50.9383116883	5.5	87.5	source-reported biological replicate values; descriptive only
+7E	Fzd4-positive gCap endothelium	percent of gCap endothelial cells	endFoxf1+/-nano-fzd4	endFoxf1+/--nano-empty	4	5	37.36782	9.6809406	27.6868794	37.038175	5.665025	source-reported biological replicate values; descriptive only
+7F	Nuclear beta-catenin-positive endothelium	percent of endothelial cells	endFoxf1+/-nano-fzd4	endFoxf1+/--nano-empty	4	5	45.8224083875	4.8314753006	40.9909330869	45.996320125	5.420054	source-reported biological replicate values; descriptive only
+7G	Basement-membrane coverage	Collagen IV-positive area as percent of CD31-positive area	endFoxf1+/-nano-fzd4	endFoxf1+/--nano-empty	5	5	57.9882	25.824	32.1642	59.735	25	source-reported biological replicate values; descriptive only

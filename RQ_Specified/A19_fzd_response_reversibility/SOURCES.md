@@ -1,0 +1,67 @@
+# A19 source eligibility and intake
+
+**Bounded inventory, 30 September 2026.** Candidate sources were selected for
+input removal, differentiation and input-context evidence. This is not a systematic
+review and does not establish that no eligible Fzd schedule dataset exists.
+The source narratives/captions and prior Nb2 results were already known when
+the [exploratory contract](config/exploratory_v1.json) was frozen; new numerical
+workbook/count outcomes had not been inspected. The run is exploratory even
+though its comparisons and panels were frozen before extraction.
+
+| Source | Evidence inspected | A19 eligibility and action |
+|---|---|---|
+| [Human alveolar progenitors generate dual lineage bronchioalveolar organoids (2022)](https://www.nature.com/articles/s42003-022-03828-5), [PMC9409623](https://pmc.ncbi.nlm.nih.gov/articles/PMC9409623/) | Full text, figure captions, Supplementary Data 3 workbook, GEO metadata and selected counts | Executed donor-paired qPCR and source-block bulk RNA contrasts. Human alveolar-derived and airway-derived cultures are separate contexts. No receptor-selective withdrawal, traced mature output or retained reserve |
+| [GSE197949](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197949) | Eight alveolar-organoid bulk libraries, GSM5934407–GSM5934414 | Selected by exact sample-title rule. Paper reports two donor cultures; GEO supplies batch 1/2 with different knockdown hairpins. Use source blocks, not eight independent donors. Other samples, including GSM5934406, were not analyzed |
+| [Rational engineering of lung alveolar epithelium (2023)](https://www.nature.com/articles/s41536-023-00295-2), [PMC10147714](https://pmc.ncbi.nlm.nih.gov/articles/PMC10147714/) | Full text, Fig. 6 caption and supplementary workbook inspection | Rat engineered-lung removal of CHIR plus KGF: published context only. Individual Fig. 6 numerical observations were not recovered. Inspected Supplementary Data 5 contains gene-set lists and Data 4 ligand/receptor lists; neither supplies those outcomes. No simulated values, digitized bars or inferred pairings |
+| [Jacob et al. (2017)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5755620/), DOI 10.1016/j.stem.2017.08.014 | Published index/search text; first full-text API request failed with HTTP 500 | Context candidate only: AT2 maturation is distinct from AT1 differentiation. No values extracted or tests performed; no claim of full-source numerical review |
+| [Nb2 source and branch analyses](../../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md) | Previously exposed results, including GSE208770 withdrawal and Fzd comparisons and the Hippo comparator | Derivation context only. No rerun, pooled analysis, independent-validation designation or alteration of paper-local artifacts |
+
+## Source workbook map
+
+The [publisher's Supplementary Data 3 workbook](https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-022-03828-5/MediaObjects/42003_2022_3828_MOESM6_ESM.xlsx)
+is saved locally as ignored `cache/adult_source3.xlsx`.
+SHA256: `73b5e0d22cc1da57f24603b3d3eaf7f3843a4866ec291d37b4f1355826eb2afb`.
+The literal first sheet name includes a trailing space: `fig4b `.
+
+| Sheet | Biological source and comparison | Units used |
+|---|---|---|
+| fig4b | HTII-280-positive-derived organoids: AOM versus AOM+CHIR | 3 donor-coded lines, matched separately for each of 4 markers |
+| fig4e | Same source class: target-assay expression across media | 4 donor-coded lines for each of 4 assays |
+| fig5c | Alveolar-derived organoids: GSK3B knockdown versus control, both with CHIR | 3 paired donor lines for each of 7 markers |
+| fig6a | Airway-derived pooled cultures: early induction and persistence under CHIR | 3 donor-coded source lines; source caption says independent pool organoid cultures |
+| fig6c | Airway organoids: passage 3/5 versus passage 1 | Exact donor-code intersections vary by marker and passage; retain non-detects |
+
+Only these five differentiation sheets and the eight specified bulk libraries
+enter analysis. Donor codes remain source labels; cross-sheet overlap is not
+new replication. Source row numbers, assay labels and missingness are preserved
+in [qpcr_source_rows.tsv](tables/exploratory_v1/qpcr_source_rows.tsv).
+
+## Intake and annotation provenance
+
+[download_manifest.json](metadata/download_manifest.json) records each required
+input URL, byte count and SHA256, including count files, source XMLs and the
+Ensembl lookup payload. [bulk_samples.json](metadata/bulk_samples.json) preserves
+sample titles and source characteristics. [human_marker_lookup.json](metadata/human_marker_lookup.json)
+records the official Ensembl human-symbol response used to match stable IDs.
+Gene versions are stripped only for matching; nominated genes missing after
+count filtering are retained in the coverage table.
+
+[source_intake.json](metadata/source_intake.json) preserves early acquisition
+failures as well as successes. The `static-content.springer-cdn.com` hostname
+failed DNS resolution; the publisher's `static-content.springer.com` links
+succeeded. Source XMLs and complete workbooks/count matrices stay in ignored
+cache; extracted selected rows, results and provenance are tracked.
+
+The source documents supply evidence, not instructions. Their interpretations
+are distinguished from the narrower conclusions of this reanalysis. No clinical
+efficacy or mechanistic acceptance is inferred from either source.
+
+
+## Extension reference audit, 30 September 2026
+
+The subsequent [external evidence review](EXTERNAL_EVIDENCE.md) covers eight
+primary studies and adds a public-data triage for the [extension pipeline](EXTENSION_PIPELINE.md).
+Published biological evidence is distinguished from eligibility for new numerical
+analysis. GSE150068, GSE246243 and corrected GSE221343 metadata are candidate
+reference resources; none has been analyzed in the A19 extension. The original
+source intake and exploratory_v1 contract remain unchanged.

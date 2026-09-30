@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-09-30T04:15:30.550540+00:00",
+  "trigger": "Exact raw UMI equality to deposited Seurat metadata failed before gene estimates",
+  "audit": {
+    "cells": 5423,
+    "raw_equal": 4705,
+    "min_delta": 0.0,
+    "max_delta": 10.0,
+    "median_delta": 0.0,
+    "filtered_ge3_equal": 5421,
+    "raw_author_correlation": 0.999999976267571
+  },
+  "explanation": "Raw counts exceed author QC totals by 0-10 UMIs. A per-pool >=3-cell gene filter reconstructs 5421 of 5423 totals; two residual differences remain. Released preprocessing starts from an existing RDS, so exact filtering provenance is unresolved.",
+  "decision": "Retain planned all-gene raw denominator and every source cell. Add deposited-author-denominator sensitivity with unchanged raw target counts. Do not claim exact reproduction of author filtering.",
+  "unchanged": [
+    "genes",
+    "panels",
+    "units",
+    "source states",
+    "cell floors",
+    "primary contrasts",
+    "raw-count primary normalization"
+  ],
+  "primary_config_unchanged": true,
+  "new_gene_estimates_seen": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "A20",
+  "run": "extension_v1",
+  "created_utc": "2026-09-30T02:13:56.665596+00:00",
+  "authorized": "Proceed with aligned priorities 1,2,3 for extension analysis",
+  "exposure": "A20 exploratory_v1 and source-paper narratives inspected; no new extension numerical outcomes analyzed. Dataset eligibility precedes quantitative contrast freeze.",
+  "priorities": {
+    "P1": "Niche persistence versus changed support activity; keep pool size and later maturation separate.",
+    "P2": "Functional support versus matrix remodeling; retain mechanics as a competing pathway.",
+    "P3": "State-dependent receptor effects; Notch is a comparator, not proven Fzd2 epistasis."
+  },
+  "stage": "source_eligibility",
+  "required_for_direct_H1_H2": [
+    "Comparable Fzd1 and Fzd2 perturbations",
+    "Initial subtype independently verified",
+    "Compartment-specific target engagement",
+    "Independent source units and recipient identities",
+    "Absolute lineage-linked mature epithelial output"
+  ],
+  "secondary_context": "Analyze eligible public perturbation data only after unit and contrast definitions are frozen; no cell-level surrogate for animal replication.",
+  "ineligible_data_action": "Report explicit eligibility failure and biological inference boundary; do not fill missing function with RNA scores.",
+  "raw_count_download_policy": "Download large count payloads only after biological-unit and label eligibility is demonstrated.",
+  "biological_acceptance": false,
+  "claim_grades_changed": false
+}

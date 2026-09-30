@@ -51,15 +51,20 @@ quantifying how conditional their macrophage source term is.
 ## Nb2 questions derived after paper analysis
 
 [The Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md)
-proposes three questions from the overall results. Their designs are unexecuted;
-prior analyses and figures remain beside the paper. These do not restore the
+proposes three questions from the overall results. A19 now carries an
+[exploratory context analysis and figure set](A19_fzd_response_reversibility/RESULTS.md);
+A20 carries an [exploratory fibroblast context analysis](A20_fibroblast_fzd_context/RESULTS.md)
+and a [four-donor priorities 1–3 extension](A20_fibroblast_fzd_context/extensions/extension_v1/RESULTS.md).
+A21 now carries an [independent capillary context analysis](A21_fzd4_capillary_function/RESULTS.md).
+Their direct functional designs remain unexecuted. Prior paper analyses
+and figures remain beside the paper. These do not restore the
 retired one-question-per-branch registration.
 
 | ID | Organizing question | Immediate evidence gate |
 |---|---|---|
-| A19 | [Can transient Fzd signaling separate expansion from maturation?](A19_fzd_response_reversibility/README.md) | Linked exposure/engagement, initial-state and later mature-output evidence; primary priority |
-| A20 | [Do subtype-specific Fzd signals maintain a maturation-supporting fibroblast niche?](A20_fibroblast_fzd_context/README.md) | Receptor-specific functional comparison and subtype crosswalk; secondary priority |
-| A21 | [Does Fzd4 recruit gCap cells into regenerative renewal?](A21_fzd4_capillary_function/README.md) | Cohort/substate replication and lineage-versus-maintenance evidence; conditional priority |
+| A19 | [Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?](A19_fzd_response_reversibility/README.md) | Exploratory qPCR/bulk RNA context analysis completed; [four figures](A19_fzd_response_reversibility/FIGURES.md). Direct Fzd timing, mature-output and reserve evidence remains missing; [integrated extension pipeline](A19_fzd_response_reversibility/EXTENSION_PIPELINE.md) and external review deposited |
+| A20 | [Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?](A20_fibroblast_fzd_context/README.md) | Exploratory phase complete; [focused H1 and decisions](A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md). Functional comparison untested; original subtype H2 deferred; [six figures](A20_fibroblast_fzd_context/FIGURES.md) |
+| A21 | [Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?](A21_fzd4_capillary_function/README.md) | Context and [extension analysis](A21_fzd4_capillary_function/extensions/extension_v1/RESULTS.md) complete; six figures. Structural-maintenance hypothesis focused; direct lineage-versus-function test unexecuted; conditional priority |
 
 N4 compensation and N8 endogenous input remain paper-local until comparable
 perturbation evidence is available. Registration neither validates a hypothesis

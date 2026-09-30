@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "scope": "Planning and reference-integration checks; no new scientific execution or biological validation",
+  "previous_artifacts_preserved": 45,
+  "changed_question_documents_archived": [
+    "PLAN.md",
+    "README.md",
+    "RESULTS.md",
+    "SOURCES.md",
+    "config/question_contract.json"
+  ],
+  "candidate_control_samples_verified": 6,
+  "references": 8,
+  "draft_not_frozen": true,
+  "raw_source_hashes": "passed",
+  "existing_scientific_tests": "Prior passing tests remain applicable; analysis code/data/figures unchanged.",
+  "repository_validation_attempts": [
+    {
+      "status": "failed",
+      "checks": 5309,
+      "failures": 23,
+      "cause": "Exact-byte Markdown copies moved into an archive retained their original relative-link base.",
+      "resolution": "Store historical Markdown bytes as .md.txt snapshots with an explicit original-to-archive path map; active documentation remains Markdown."
+    },
+    {
+      "status": "passed",
+      "checks": 5280,
+      "failures": 0
+    }
+  ],
+  "claim_contract": {
+    "status": "passed",
+    "numeric_bindings": 18
+  },
+  "snapshot_bytes_after_archive_fix": "passed",
+  "recorded_utc": "2026-09-30T01:36:18.081827+00:00"
+}

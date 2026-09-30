@@ -1,0 +1,189 @@
+{
+  "schema": "a19-extension-pipeline/v1",
+  "drafted": "2026-09-30",
+  "status": "structured_not_executed_not_frozen",
+  "owner_request": "Structure the extension priorities with the existing hypothesis refinement and examine external reference evidence",
+  "parent_question_id": "A19",
+  "pipeline": "EXTENSION_PIPELINE.md",
+  "external_evidence": "EXTERNAL_EVIDENCE.md",
+  "preserved_run": "exploratory_v1",
+  "prior_exposure": [
+    "All exploratory_v1 values and figures",
+    "Parent Nb2 results",
+    "Published single-cell narratives/figures and the 2026-09-30 primary-source review"
+  ],
+  "new_claim_grades": false,
+  "confirmatory_execution": false,
+  "focused_question": "Does acquisition of an airway-associated state during expansion limit subsequent AT1 maturation after Fzd stimulation ends under a specified maturation environment?",
+  "working_hypothesis": "A competing basal/airway programme reduces the subsequent withdrawal benefit for mature alveolar output, conditional on input and maturation context; the restriction need not be irreversible.",
+  "causal_timepoints": {
+    "S0": "Before any expansion input: original H2 baseline modifier",
+    "S1": "After expansion, before withdrawal/continuation assignment: H2-extension candidate modifier",
+    "Y": "Later independently measured lineage/function outcome"
+  },
+  "causal_constraints": [
+    "Keep H1 total schedule effect separate from conditioning on treatment-induced S1",
+    "Common expansion followed by withdrawal assignment permits S1-specific withdrawal contrasts under a valid design",
+    "S1 effect heterogeneity alone does not establish causal action of state acquisition",
+    "Define S0/S1 independently of Y; do not define competence from successful maturation"
+  ],
+  "stages": [
+    {
+      "id": "E0",
+      "status": "pending_source_unit_audit_and_run_freeze",
+      "purpose": "Reconcile identities, source conditions, data matrices and prior exposure",
+      "freeze_before_new_outcomes": [
+        "uninfected inclusion list",
+        "donor/preparation aggregation",
+        "state reference and marker definitions",
+        "QC/coverage/detection rules",
+        "paired contrasts and sensitivity checks",
+        "figure plan"
+      ],
+      "output_prefix": "metadata/extension_v1"
+    },
+    {
+      "id": "P1",
+      "priority": 1,
+      "status": "planned",
+      "purpose": "Describe separate epithelial populations versus within-cell mixed alveolar/airway identity",
+      "hypotheses_informed": [
+        "H2",
+        "H2-extension"
+      ],
+      "primary_accession": "GSE197949",
+      "candidate_pairs": [
+        {
+          "source_code": "AO15",
+          "alveolar_control": "GSM5934387",
+          "airway_control": "GSM5934389"
+        },
+        {
+          "source_code": "AO16",
+          "alveolar_control": "GSM5934392",
+          "airway_control": "GSM5934394"
+        },
+        {
+          "source_code": "AO22",
+          "alveolar_control": "GSM5934397",
+          "airway_control": "GSM5934400"
+        }
+      ],
+      "candidate_pair_identity_status": "Source codes only; actual donor/preparation and context need verification",
+      "secondary_reference_candidates": [
+        "GSE150068"
+      ],
+      "unit": "independent donor/preparation; technical captures aggregated, cells nested",
+      "estimands": [
+        "within-donor context difference in epithelial composition",
+        "mixed-identity prevalence and joint multi-marker distribution",
+        "descriptive within-state donor/context pseudobulk where eligible"
+      ],
+      "inference_ceiling": "Descriptive lineage-context association; not transition, stability, or fate causation",
+      "stop_conditions": [
+        "unresolvable identities stop affected paired inference",
+        "failed state coverage stops affected state comparison",
+        "technical sensitivity failure leaves mixed identity unresolved"
+      ]
+    },
+    {
+      "id": "P2",
+      "priority": 2,
+      "status": "planned_reporting_of_existing_exposed_estimates",
+      "purpose": "Summarize GSK3B-background dependence of differentiation/growth-associated CHIR responses",
+      "hypotheses_informed": [
+        "H3 context only"
+      ],
+      "inputs": [
+        "tables/exploratory_v1/bulk_response_interactions.tsv",
+        "tables/exploratory_v1/bulk_marker_effects.tsv",
+        "tables/exploratory_v1/bulk_marker_expression.tsv"
+      ],
+      "estimand": "(absence minus presence in knockdown) minus (absence minus presence in control), separately by block",
+      "unit": "two source blocks; hairpin confounded with block",
+      "inference_ceiling": "Descriptive RNA context; no Fzd specificity, selective mechanism or mediator inference",
+      "constraints": [
+        "retain all originally eligible panels and genes",
+        "show TMM and total-count sensitivity",
+        "do not compare panel magnitudes as calibrated biological effect sizes",
+        "no post-treatment growth adjustment or population interaction test"
+      ]
+    },
+    {
+      "id": "P3",
+      "priority": 3,
+      "status": "literature_triage_completed_linked_unit_audit_pending",
+      "purpose": "Find and conditionally analyze linked schedule/state/fate/reserve evidence",
+      "hypotheses_informed": [
+        "H1",
+        "H2",
+        "H2-extension",
+        "H3"
+      ],
+      "can_start_before_P1_P2_success": true,
+      "candidate_resources": [
+        "GSE150068",
+        "GSE246243",
+        "GSE221343",
+        "GSE178405",
+        "Li2024 supplementary metadata",
+        "Lin2026 HRA009633 access audit"
+      ],
+      "eligibility_fields": [
+        "independent unit and allocation",
+        "S0/S1 timing",
+        "lineage origin",
+        "exposure history",
+        "verified engagement and off-period",
+        "maturation-promoting co-interventions",
+        "mechanical context",
+        "developmental model",
+        "common later observation time",
+        "absolute mature lineage-descendant output",
+        "airway-descendant output",
+        "survival and absolute counts",
+        "retained AT2 capacity and later response",
+        "independent input calibration for H3"
+      ],
+      "inference_ceiling": "Evaluate each biological hypothesis only if its linked endpoints and prospective contract are satisfied",
+      "known_correction": "GSE221343: two sample titles and processed-file names corrected on 2024-05-20",
+      "stop_conditions": [
+        "no eligible linked dataset: report missing evidence",
+        "missing reserve prevents full H1 acceptance",
+        "no calibrated Fzd comparator prevents H3 test"
+      ]
+    }
+  ],
+  "rival_explanations": [
+    "separate populations or selective growth/survival",
+    "missing permissive maturation cue",
+    "input-specific and modifiable lineage stability",
+    "acquired airway-state restriction",
+    "technical mixed-expression artifacts as supporting checks"
+  ],
+  "parameters_to_freeze_after_technical_audit": {
+    "single_cell_qc": null,
+    "minimum_cells_per_source_state": null,
+    "marker_coverage_and_joint_detection_rule": null,
+    "external_state_reference_version": null,
+    "effect_margin_mature_output": null,
+    "reserve_preservation_margin": null,
+    "state_interaction_margin": null,
+    "uncertainty_and_multiplicity_rule": null,
+    "independent_replication_and_power": null,
+    "validation_cohort": null
+  },
+  "planned_artifacts": {
+    "P1": "reports/extension_v1/CELLULAR_CONTEXT.md",
+    "P2": "reports/extension_v1/INPUT_CONTEXT.md",
+    "P3_inventory": "reports/extension_v1/FUNCTIONAL_ELIGIBILITY.md",
+    "P3_if_eligible": "reports/extension_v1/FUNCTIONAL_RESULTS.md",
+    "synthesis": "reports/extension_v1/SYNTHESIS.md",
+    "figures": [
+      "A19_E1 cellular organization",
+      "A19_E2 input-context contrasts",
+      "A19_E3 linked function only if eligible"
+    ]
+  },
+  "preservation_rule": "Do not overwrite exploratory_v1 tables, scripts, inputs, figures, frozen contracts or old verification records; extension figures/results require actual execution."
+}

@@ -1,56 +1,57 @@
-# A21. Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?
+# A21. Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?
 
-**Proposed biological hypothesis; 29 September 2026; conditional priority; untested.**
-[Canonical card](../../RESEARCH_QUESTIONS.md#a21) ·
-[Nb2 derivation](../../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) ·
-[Investigation plan](PLAN.md).
+<a id="biological-question"></a>
 
-## Working hypothesis and biological logic
+## Organizing biological question
 
-After alveolar injury, Fzd4 signaling helps general-capillary cells enter a
-regenerative state that supplies renewed gCap cells and aerocyte descendants.
-This contribution helps restore the alveolar capillary surface. The candidate
-mechanism is Fzd4-dependent recruitment into renewal, distinct from simply keeping
-pre-existing endothelial cells alive. It is a plausible but weakly supported
-extension of the present evidence, not a demonstrated Fzd4 function.
+> Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?
 
-[Gillich et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC7721049/) establishes gCap
-lineage contribution in its source setting. That biology makes a renewal question
-plausible; a CAP1 label or Fzd4-positive cell in the current atlas does not inherit
-the published lineage behavior or establish receptor dependency.
+**Working hypothesis (untested):** Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury.
 
-## Predictions and competing biology
+**Exploratory cohort/substate analysis completed, 30 September 2026.
+Functional hypothesis untested; conditional priority retained.**
 
-The renewal hypothesis predicts that verified Fzd4 perturbation changes entry
-into the regenerative capillary state and later traced gCap/aerocyte contribution
-per initial labeled population. Activity/state changes should precede the lineage
-consequence, and the effect should be distinguishable from broad endothelial
-loss. Restoration of the relevant Fzd4-dependent response would strengthen the
-mechanistic interpretation; a cycling score alone would not.
+[Results and hypothesis refinement](RESULTS.md) · [Three figures](FIGURES.md) ·
+[Source eligibility](SOURCES.md) · [Methods](METHODS.md) · [Plan](PLAN.md) ·
+[Canonical question](../../RESEARCH_QUESTIONS.md#a21).
 
-The competing maintenance hypothesis predicts that reduced descendant production
-primarily follows impaired survival, barrier function or perfusion. Injury-induced
-state composition and unrelated cohort effects also remain alternatives. A precise
-absence of a meaningful renewal-selective effect weakens the working hypothesis;
-a maintenance-only phenotype favors the alternative. Missing engagement or sparse
-lineage outcomes is inconclusive, not proof of dispensability.
+The independent GSE211335 cohort contains 12 animals and 5,423 endothelial cells.
+Fzd4 is higher in gCap than aerocytes in all seven primary eligible pairs,
+but lower in the author transitional gCap state than major gCap in all 11
+eligible pairs. Within-condition Fzd4-cycling associations are inconsistent,
+and the dedicated cycling state is too sparse for its primary comparison.
+These are expression-context results, not evidence of traced renewal.
 
-## Why priority remains conditional
+The biological refinement is whether Fzd4 sustains **vascular competence that
+permits later capillary repopulation**, versus a selective effect on regenerative
+entry. Neither route is established. Published FZD4 restoration in tumor vessels
+makes stability a concrete alternative; it does not prove normal gCap lineage
+function. The original primary endpoint remains traced gCap renewal and aerocyte
+descendant output per initial viable labelled population, kept separate.
 
-CAP1 exceeds CAP2 in Fzd4 RNA in eight paired samples, while arterial/venous
-expression is also high. The pooled CAP1 Fzd4–cycling rho is +0.738, but within
-rounds it is −0.400 and +1.000 (four units each).
-[The unfavorable sensitivity](../../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/RESULTS.md#n7-a-vascular-association-weakens-under-experimental-round-scrutiny)
-weakens the expression lead; it does not supply affirmative mechanistic evidence.
+The existing eight-sample Nb2 cohort was reconciled to its round, label cohort,
+sex and reporter genotype. Its pooled correlation is preserved historically but
+retired as affirmative renewal evidence. Further expression-only analyses cannot
+replace the missing perturbation/lineage/maintenance join.
 
-Resolve cohort, tracing window, genotype, sex and capillary substates, then seek
-independent expression replication. Failure retires that lead; a separately
-motivated receptor-dependency experiment could remain informative. A mechanistic
-test needs independent animals/preparations, linked initial state and descendants,
-absolute counts, survival and vascular performance. Post-treatment survival
-adjustment alone cannot identify a direct renewal effect.
+[Original design snapshots](metadata/history/document_snapshots.json) preserve
+the initial hypothesis. No prior A19/A20 scientific output, claim grade or
+biological acceptance changed.
 
-[The draft contract](config/question_contract.json) and plan are unexecuted.
-The first deliverable is an identified cohort/substate/lineage inventory. Vascular
-renewal adds a biological compartment to the repository's repair question; it
-does not substitute vascular RNA for measured epithelial or whole-tissue recovery.
+[Independent verification](reports/verification.json) ·
+[Repository checks](reports/repository_checks.json).
+
+## Priorities 1-3 extension, 30 September 2026
+
+[Extension results](extensions/extension_v1/RESULTS.md) and
+[three additional figures](extensions/extension_v1/FIGURES.md) are deposited.
+Recovered Bian workbooks support canonical engagement and basement-membrane
+restoration in tumor vessels; the separate Foxf1-loss perfusion endpoint is not
+Fzd4-rescue function. The complete Fzd-family comparison nominates no robust
+alternative receptor. Foxf1 joins Fzd4 and Lrp6 as lower in all 11 primary
+transitional-state pairs. Independent substate validation remains unavailable.
+
+The [focused functional design](extensions/extension_v1/FUNCTIONAL_DESIGN.md)
+retains separate gCap renewal and aerocyte yields. Priorities 1-2 are analysed;
+priority 3 is specified but untested. Adult-lung vascular integrity versus lineage
+specificity is the next biological distinction. No claim grade or acceptance changes.

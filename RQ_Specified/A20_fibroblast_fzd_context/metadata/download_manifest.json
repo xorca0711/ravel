@@ -1,0 +1,43 @@
+[
+  {
+    "file": "cache/Zhou2025.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12628998/fullTextXML",
+    "bytes": 193956,
+    "sha256": "c0b3e06f21f6711c14247571e2d0c5311bf646e09d3193f80c9f191d284c670a",
+    "status": "retrieved"
+  },
+  {
+    "file": "cache/Zhou2025_supplement.pdf",
+    "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12964-025-02501-8/MediaObjects/12964_2025_2501_MOESM1_ESM.pdf",
+    "bytes": 8835243,
+    "sha256": "f4162fcf1d25d47b8de677207b5b51de1a5624745c2254ed6093ab36c938583e",
+    "status": "retrieved"
+  },
+  {
+    "file": "cache/Jones2024.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13159043/fullTextXML",
+    "status": "failed",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "cache/Guo2023.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10387117/fullTextXML",
+    "bytes": 218327,
+    "sha256": "08699fd3a355720f79d24294ff49056e2cb3fa21581b5febfac2d0462adb6083",
+    "status": "retrieved"
+  },
+  {
+    "file": "cache/GSE135893.soft",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135893&targ=self&form=text&view=full",
+    "bytes": 5399,
+    "sha256": "c2ed634ecaf3f32b2e19b896d02a19aeb6d941133b718311c2b601aa9c4fed28",
+    "status": "retrieved"
+  },
+  {
+    "file": "cache/GSE249931.soft",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249931&targ=all&form=text&view=full",
+    "bytes": 31666303,
+    "sha256": "add8f4b655b483294eb7722b3518f571dd775abd5db9787267b080a6e8f37363",
+    "status": "retrieved"
+  }
+]

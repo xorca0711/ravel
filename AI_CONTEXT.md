@@ -1,5 +1,231 @@
 # AI context
 
+## PR #123 delivery and one-line questions, 30 September 2026
+
+[PR #123](https://github.com/xorca0711/scRNA_seq/pull/123) is open from
+codex/a19-reversibility-analysis into main. The owner authorized push/open PR and
+then requested question wording consistent with other RQ_Specified folders.
+The current A19-A21 README questions, plans, contracts, register and index are
+synchronized; primary outcomes and scientific evidence are unchanged. Older
+question wording is archived. [Delivery review](docs/audits/2026-09-30-a19-a21-delivery/REPORT.md)
+records the amendment and the fix for 16 PDFs excluded by the global ignore rule.
+The live CI status is on the PR. Earlier local-only handoffs below are historical.
+Hypotheses remain proposed and untested; no biological acceptance or merge.
+
+## A21 priorities extension, 30 September 2026
+
+[Extension results](RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/RESULTS.md),
+[three new figures](RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/FIGURES.md)
+and [functional hypotheses](RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/FUNCTIONAL_DESIGN.md)
+are deposited. Priorities 1-2 are analysed; priority 3 is specified but untested.
+Bian publisher source archives now yield five workbooks and 88 panel observations,
+not 88 unique mice. Fzd4 rescue increases nuclear beta-catenin and collagen-IV
+coverage in tumor ECs; the perfusion comparator is upstream Foxf1 loss, not rescue.
+Anonymous rows cannot be joined across outcomes. Figure 7E's source test label
+differs from its legend, so no inferential reconstruction was performed.
+
+The existing 12-animal/5,423-cell atlas now covers 36 genes, including all ten
+Fzd receptors and Foxf1. No alternative receptor passes the frozen nomination
+rule. Foxf1, Fzd4 and Lrp6 are lower in all 11 primary paired state contrasts.
+All 828 mean directions agree under denominator sensitivity. GSE262927 lacks a
+compatible independent major/transitional state crosswalk; no validation claim.
+A retinal FZD4/LRP5 preprint is cross-organ context only, not a lung PDGFB result.
+
+The focused proposal is vascular integrity permitting subsequent repopulation,
+with selective entry and aerocyte-production alternatives. Keep gCap renewal and
+aerocyte yields separate. Do not run further expression-only extensions to fill
+the missing adult-lung perturbation-state-lineage-function join. No claim grade
+or biological acceptance is changed. The universal README and all earlier
+scientific outputs are preserved; revised parent documents have archived originals.
+
+Independent raw/source arithmetic verification passed (56,225 checks), and all
+three final PDFs were visually reviewed. [Scientific verification](RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/reports/verification.json)
+and [repository checks](RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/reports/repository_checks.json)
+record scope and limitations. The verifier's initial unrelated-feature-name
+uniqueness assumption was corrected without changing scientific results.
+Work remains local on codex/a19-reversibility-analysis; no new commit, push or PR.
+
+## A21 independent capillary context, 30 September 2026
+
+The owner authorized A21. [Results](RQ_Specified/A21_fzd4_capillary_function/RESULTS.md),
+[source eligibility](RQ_Specified/A21_fzd4_capillary_function/SOURCES.md) and
+[three figures](RQ_Specified/A21_fzd4_capillary_function/FIGURES.md) are deposited.
+GSE211335 supplies 12 animals, not three technical-pool replicates, and 5,423
+endothelial cells. Fzd4 is higher in gCap than aerocytes in all seven primary
+eligible pairs, but lower in author transitional state 1 than state 0 in all
+11 pairs. Within-condition cycling associations are inconsistent at n=3;
+state 7 is below primary coverage in every animal.
+
+The next biological distinction is Fzd4-dependent vascular competence permitting
+later repopulation versus selective regenerative entry. Neither is established.
+The original lineage-output endpoint and conditional priority remain. The pooled
+Nb2 correlation is retired as affirmative renewal evidence; its eight original
+records and results are preserved, with round/label/sex/reporter metadata resolved.
+
+The first run stopped at a raw-versus-author UMI mismatch. The amendment retains
+raw normalization and all cells, with author-denominator sensitivity: 648/648
+mean contrast directions agree. This does not resolve biological lineage limits.
+Independent raw-source/summary verification passed and all 191 prior A19/A20
+files remained byte-identical. Root README is unchanged. Required repository
+checks are recorded in A21 reports. Work remains local and uncommitted; no new
+push, PR or merge was performed.
+
+A21 validation passed: independent raw-source arithmetic/provenance verification,
+all 191 prior A19/A20 artifacts preserved, 67 tests (one skipped), 18 claim bindings,
+Nb1/A16 evidence, input restoration and 5,447 repository checks. All three PDF
+figures passed visual review. Validation establishes reproducibility within the
+recorded scope, not a functional Fzd4 mechanism.
+
+## A20 scope narrowed, 30 September 2026
+
+The owner requested narrowing after the completed exploratory phase.
+[Current hypothesis](RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md):
+in one independently defined adult AF1-like repair context, comparable Fzd2 loss
+reduces functional epithelial support and mature AT2-descendant output more than
+Fzd1 loss. The original absolute mature-output primary endpoint is retained.
+
+AT2 pool maintenance is the focused mechanistic proposal, with maturation-specific
+support, fibroblast depletion and matrix effects distinguished by biological
+outcomes. Original subtype H2 is retained but deferred. No FZD2–Notch or specific
+secreted mediator is established. Do not reopen expression-only analysis to
+answer the functional question; next execution requires an eligible matched
+receptor perturbation and mature-output source.
+
+The focused design, plan, question contract and canonical register agree.
+Pre-amendment documents and the complete preceding A20 manifest are archived.
+This is a scope amendment, with no new fit, figure, claim grade or biological
+acceptance. Existing A19/A20 scientific evidence and the universal README are
+preserved. Work remains local on codex/a19-reversibility-analysis; no new commit,
+push, PR or merge was performed.
+
+Narrowing validation passed: 5,400 repository checks, 18 claim bindings and
+whitespace validation. All 103 unedited prior A20 files and all 69 A19 files
+remain byte-identical; four revised A20 documents are archived. The universal
+README is unchanged by this amendment. No scientific rerun was needed for
+the documentation-only scope change.
+
+## A20 priorities 1–3 extension, 30 September 2026
+
+The owner authorized the aligned priorities. [Extension results](RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/RESULTS.md)
+and [three new figures](RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/FIGURES.md)
+are deposited. Four human fibroblast donors across four concurrent conditions
+give 16 libraries, not 16 biological replicates. Canonical-response RNA rises
+while selected support-ligand RNA falls after CHIR; TGF alone raises FZD2 while
+lowering the support-panel mean. All 20 panel means retain direction under
+total-count normalization; 15 of 240 gene/panel means change sign.
+
+The gene-mapping gate stopped before gene estimates because FZD10 was absent.
+A recorded amendment retained it as unavailable and executed 44 mapped genes
+with unchanged panels. FZD3/5/8/9 are low detection. CHIR is downstream of FZD
+and TGF is concurrent, so original receptor-specific H1 and initial-subtype H2
+remain untested. Jones et al., Science 2024, is a mesenchymal Notch comparator,
+not evidence of a FZD2–Notch interaction. RNA/function cohorts are not matched.
+
+Extension verification passed 39,809 arithmetic/provenance checks; 45 prior
+A20 files and all 69 A19 files remain unchanged, with five A20 parent documents
+archived. Required CI-equivalent checks passed: 67 tests (one skipped), 18 claim
+bindings, Nb1/A16 evidence and 5,382 repository checks. All three final PDF
+renders were visually checked. The branch remains local and uncommitted; no new push,
+PR or merge was performed. The universal README correction has not been
+confirmed on main since the recorded fetch at c5d240f.
+
+## A20 context analysis and main README check, 30 September 2026
+
+After `git fetch origin`, main remains `c5d240f`; the three Nabhan-specific
+Start here rows remain on main. Their removal is only in this worktree, on
+`codex/a19-reversibility-analysis`, with the A19 package. No new commit, push,
+PR or merge was performed in this turn. [Check evidence](RQ_Specified/A20_fibroblast_fzd_context/reports/main_readme_status.json).
+
+The owner authorized A20 execution. [Results](RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md),
+[source eligibility/crosswalk](RQ_Specified/A20_fibroblast_fzd_context/SOURCES.md),
+[three figures](RQ_Specified/A20_fibroblast_fzd_context/FIGURES.md) and a refined plan
+are deposited. The frozen exploratory analysis reuses GSE262927: five primary
+pairs support the local Pdgfra/Pdgfrb crosswalk and show higher AF1 Fzd2,
+Wnt2/Fgf7/Fgf10 and collagen RNA, with lower Hgf. Eight/five/zero pairs qualify
+at 20/50/100 cells. This is selective RNA context, not secreted activity or an
+independent replication. H1/H2 functional tests and all claim grades remain open.
+
+The biological priority is now niche persistence versus altered support activity,
+keeping AT2 pool size, later mature output and matrix function separate. The
+Notch study provides a state-context comparator, not Fzd2–Notch epistasis;
+GSE249931's named Notch contrast has one library per genotype with animal units
+unresolved. Do not fit cells as replicated animals or promote marker changes
+to a functional outcome. Original A20 design bytes are preserved in history.
+
+A20's independent verification passed 15,383 checks, reconciled 1,000 rows to the
+prior Nb2 extraction, and retained all 69 A19 files byte-for-byte. Three exported
+PDFs were rendered and visually checked. Required checks passed: 67 tests (one skipped), 18 claim bindings, Nb1/A16
+provenance and 5,333 repository checks. [Recorded results](RQ_Specified/A20_fibroblast_fzd_context/reports/repository_checks.json).
+
+## A19 extension structure and evidence review, 30 September 2026
+
+The owner requested integration of proposed priorities with A19's hypothesis
+refinement and an external web reference review. The [extension pipeline](RQ_Specified/A19_fzd_response_reversibility/EXTENSION_PIPELINE.md)
+and [eight-study evidence review](RQ_Specified/A19_fzd_response_reversibility/EXTERNAL_EVIDENCE.md)
+are deposited, with a draft machine-readable specification. The results section,
+parent plan and question navigation now point to the integrated stages.
+
+P1 describes cellular identity/population mixture in uninfected controls; P2
+summarizes existing GSK3B-by-CHIR contrasts; P3 audits linked state, schedule,
+mature output and reserve evidence and runs only eligible hypothesis components.
+S0 before exposure and S1 before withdrawal assignment are explicitly distinct.
+External evidence adds missing maturation cues and modifiable state restrictions
+as competing explanations. H1's reserve criterion and all existing claim grades
+are preserved. The review identifies a 2024 GSE221343 sample/file-name correction
+and notes reference-data reuse across studies. No new single-cell matrices,
+fits or figures were generated by this planning amendment.
+
+Next execution: E0 source identity/technical audit and a P1-specific freeze;
+P2 reporting and P3 metadata inventory can proceed independently. The draft is
+not a frozen confirmatory contract. Original exploratory_v1 data/code/figures
+are unchanged; pre-amendment question documents and manifest are archived under
+A19 reports/history. The branch and universal README rule below still apply.
+Validation passed: 5,280 repository checks, 18 claim bindings, six candidate
+control-source identities and eight reference records. Forty-five previous A19
+artifacts remain byte-identical; no scientific rerun was needed. The archived-
+link correction and passing recheck are recorded in A19 reports.
+
+## A19 exploratory execution, 30 September 2026
+
+The owner authorized A19 analysis and formal research figures under `RQ_Specified`.
+[Results](RQ_Specified/A19_fzd_response_reversibility/RESULTS.md),
+[four captioned figures](RQ_Specified/A19_fzd_response_reversibility/FIGURES.md)
+and [methods/reproduction](RQ_Specified/A19_fzd_response_reversibility/METHODS.md)
+are deposited. The run extracts 143 source qPCR rows (72 complete contrasts)
+and analyzes eight GSE197949 bulk libraries in two source blocks; 14,581 of
+60,662 genes pass filtering. Three main figures and one supplementary figure
+have PNG/PDF/SVG exports. Source-coordinate, numerical and export checks passed.
+[Local repository validation](RQ_Specified/A19_fzd_response_reversibility/reports/repository_checks.json)
+passed all required commands: 67 tests (one skip), claim/provenance checks and
+5,233 repository checks. Final PDFs were visually reviewed.
+
+Biological result: CHIR absence shifts alveolar-derived qPCR toward airway
+markers; transient SFTPC induction in airway-derived cultures fades under
+continued CHIR. Bulk RNA has mixed AT1/airway changes and an opposing SFTPC
+pattern. This motivates an alveolar-competence constraint on temporal control,
+without demonstrating Fzd reversibility, initial-state interaction, mature
+function or retained AT2 reserve. Direct H1–H3 remain unresolved; A20/A21,
+A0–A18 and existing claim grades are unchanged. The original parent contract and
+frozen exploratory contract are retained, with source/figure corrections logged.
+
+Current branch: `codex/a19-reversibility-analysis`, based on merged main `c5d240f`,
+in the attached `nabhan-2023-plan` worktree. It carries forward the earlier
+universal-README correction. Main README has no Nabhan-specific Start here rows.
+No new publication or biological acceptance is inferred from this execution.
+The next decisive scientific input is a linked Fzd schedule/engagement,
+starting-state, traced mature-output and reserve dataset, not another score
+sweep of the exposed Nb2 inputs. Full source payloads/matrices and PDF-review
+rasters stay in ignored A19 cache; extracted tables and provenance are tracked.
+
+## Universal README navigation, 30 September 2026
+
+The owner reiterated that the main front page is universal repository context.
+Removed the three Nabhan/Nb2-specific Start here rows; paper and RQ detail remains
+available through the shared indexes. The structure contract now states this
+navigation rule explicitly. This correction was initiated on
+`codex/universal-readme-navigation` and is now carried forward on
+`codex/a19-reversibility-analysis`, based on merged main `c5d240f`.
+
 ## Nb2 RQ derivation, 29 September 2026
 
 The owner requested deriving RQs from the overall Nb2 results after PR #121

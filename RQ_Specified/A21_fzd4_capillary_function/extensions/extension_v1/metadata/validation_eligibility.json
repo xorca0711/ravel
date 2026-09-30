@@ -1,0 +1,15 @@
+{
+  "inspected_source": "GSE262927 processed final_clustered.h5ad",
+  "metadata_location": "X:/GitHub/scRNA_seq/Research Article/gate1_01_niethamer_2025/GSE262927/processed/final_clustered.h5ad",
+  "observed_endothelial_labels": [
+    "Arterial_endothelium",
+    "CAP1",
+    "CAP2",
+    "Lymphatic_endothelium",
+    "Venous_endothelium"
+  ],
+  "parent_gcap_contrast": "author transitional cluster1 versus major cluster0",
+  "crosswalk_available": false,
+  "new_estimates_computed": false,
+  "decision": "No compatible independently annotated substate contrast. No validation claim, clustering search or recoding based on Fzd expression."
+}

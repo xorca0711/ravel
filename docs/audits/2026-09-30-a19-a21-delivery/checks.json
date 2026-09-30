@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-09-30T05:46:32.444037+00:00",
+  "baseline_commit": "ffa18b99acbb53ff9b92e7ce94676bcd6c9f88d9",
+  "checks": {
+    "question_hierarchy": "passed",
+    "unchanged_primary_outcomes": 3,
+    "exact_archived_documents": 13,
+    "scientific_artifacts_byte_unchanged": 135,
+    "a21_preservation_logic": {
+      "status": "passed",
+      "prior_files": 256,
+      "unchanged": 240,
+      "archived_changes": 16
+    },
+    "modified_verifier_syntax": "passed",
+    "package_json_parse": "passed",
+    "claim_contract": {
+      "status": "passed",
+      "numeric_bindings": 18
+    },
+    "repository_validation": {
+      "status": "passed",
+      "checks": 5508
+    },
+    "staged_whitespace": "passed",
+    "staged_package_integrity": {
+      "status": "passed",
+      "unique_files": 342,
+      "manifest_entry_counts": {
+        "RQ_Specified/A19_fzd_response_reversibility/reports/package_manifest.json": 73,
+        "RQ_Specified/A20_fibroblast_fzd_context/reports/package_manifest.json": 127,
+        "RQ_Specified/A21_fzd4_capillary_function/reports/package_manifest.json": 139,
+        "RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/reports/package_manifest.json": 69
+      },
+      "added_reviewed_pdfs": 16
+    }
+  },
+  "assertions": 468,
+  "validation_scope": "Owner-authorized question wording, exact history and delivery packaging; raw biological analyses were not rerun because their inputs, contracts and outputs are unchanged."
+}

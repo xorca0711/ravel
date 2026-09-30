@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-30",
+  "revision": "one_line_refinement_20260930",
+  "question": "Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?",
+  "working_hypothesis": "Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve.",
+  "previous_question": "Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?",
+  "primary_outcome_retained": "mature lineage-descendant yield per initial viable labeled population",
+  "hypothesis_status": "proposed; untested",
+  "biological_acceptance": false,
+  "source_contracts_unchanged": true,
+  "snapshots": [
+    {
+      "file": "README.md",
+      "sha256": "15f082cb4a6ff1af8fce67cf1808bd154a992d0ef4d1259f99da6c2e08539f1f",
+      "snapshot": "metadata/history/one_line_refinement_20260930/README.md.txt"
+    },
+    {
+      "file": "PLAN.md",
+      "sha256": "042a31b3ed9d40bd81d47b8bf12eb48fafece4e584bba7c3ac93d56bd91fd45f",
+      "snapshot": "metadata/history/one_line_refinement_20260930/PLAN.md.txt"
+    },
+    {
+      "file": "config/question_contract.json",
+      "sha256": "b2d668d957f6909b835acd1ab5756721ad30db5902bed207c9f33a145e0e9228",
+      "snapshot": "metadata/history/one_line_refinement_20260930/config_question_contract.json"
+    },
+    {
+      "file": "reports/package_manifest.json",
+      "sha256": "b5246b92551f2da024195de71058fd95522e2aeed8275162cebe2c4eae0c795c",
+      "snapshot": "metadata/history/one_line_refinement_20260930/reports_package_manifest.json"
+    }
+  ]
+}

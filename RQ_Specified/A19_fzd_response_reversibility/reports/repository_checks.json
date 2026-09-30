@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "recorded_utc": "2026-09-30T01:01:50.892054+00:00",
+  "scope": "Local equivalents of required repository CI plus A19 verification; no remote CI or scientific acceptance inferred.",
+  "base_commit": "c5d240f6181318bc059e02f7e4d0a5c92c64c59a",
+  "branch": "codex/a19-reversibility-analysis",
+  "checks": [
+    {
+      "name": "compile",
+      "command": "python -m compileall -q -x '[/\\\\]\\.tools[/\\\\]' analysis 'Research Article' RQ_Specified",
+      "exit_code": 0
+    },
+    {
+      "name": "tests",
+      "command": "python -m unittest discover -s analysis/tests -q",
+      "exit_code": 0,
+      "result": "67 tests completed successfully; 1 skipped"
+    },
+    {
+      "name": "claim_contract",
+      "command": "python analysis/scripts/claim_contract.py --check",
+      "exit_code": 0,
+      "result": "18 numeric bindings passed"
+    },
+    {
+      "name": "Nb1 provenance",
+      "command": "python \"Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py\"",
+      "exit_code": 0,
+      "result": "17 output hashes plus code/protocol/panel, units and denominator checks passed"
+    },
+    {
+      "name": "A16 archive",
+      "command": "python RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py",
+      "exit_code": 0,
+      "result": "1867 checks; raw-data reproduction not asserted"
+    },
+    {
+      "name": "repository",
+      "command": "python analysis/scripts/validate_repository.py",
+      "exit_code": 0,
+      "result": "5233 checks passed"
+    },
+    {
+      "name": "A19 source/arithmetic/exports",
+      "command": "python RQ_Specified/A19_fzd_response_reversibility/scripts/05_verify.py",
+      "exit_code": 0,
+      "result": "Source values, all numerical contrasts and export hashes passed"
+    },
+    {
+      "name": "diff whitespace",
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ]
+}

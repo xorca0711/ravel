@@ -1,0 +1,75 @@
+{
+  "schema": "nb2-derived-question/v1",
+  "drafted": "2026-09-29",
+  "status": "exploratory_context_analysis_completed_parent_H1_H3_unresolved",
+  "post_analysis_derivation": true,
+  "owner_request": "start deriving RQs from the overall results",
+  "biological_acceptance": false,
+  "scoring_authorized": true,
+  "id": "A19",
+  "folder": "A19_fzd_response_reversibility",
+  "priority": "primary",
+  "source_branches": [
+    "Nb2-N1",
+    "Nb2-N2",
+    "Nb2-N3",
+    "Nb2-N5"
+  ],
+  "question": "Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?",
+  "hypotheses": [
+    "H1 temporal separation of expansion and maturation with retained reserve",
+    "H2 initial-state competence modifies the schedule response",
+    "H3 receptor-level input tunes activity trajectory and later fate balance"
+  ],
+  "unit": "independent animal/donor/preparation; repeated wells and cells nested",
+  "primary_outcome": "mature lineage-descendant yield per initial viable labeled population",
+  "required_evidence": [
+    "verified engagement and off-period",
+    "linked independent mature endpoint",
+    "survival and absolute counts",
+    "retained AT2 capacity and subsequent response",
+    "initial states for H2",
+    "independent calibration for H3"
+  ],
+  "existing_owners": [
+    "A1",
+    "A4",
+    "A8",
+    "A10",
+    "A14"
+  ],
+  "paper_synthesis": "Research Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md",
+  "design_owner": "RQ_Specified/A19_fzd_response_reversibility/PLAN.md",
+  "quantitative_parameters": {
+    "meaningful_effect_margin": null,
+    "uncertainty_rule": null,
+    "biological_replication_and_power": null,
+    "multiplicity_family": null,
+    "validation_cohort": null
+  },
+  "execution_gate": "Exploratory source/context analysis completed under its separate frozen contract. Direct H1-H3 require linked eligible endpoints, prospective margins, unit/power and validation specification.",
+  "new_fits": false,
+  "new_claim_grades": false,
+  "biological_hypothesis": "Fzd signaling maintains an expandable AT2 state; verified termination permits competent descendants to mature while preserving a responsive AT2 reserve.",
+  "biological_process": "reversible transition from expansion to mature alveolar contribution",
+  "competing_biology": [
+    "selection of pre-existing populations",
+    "general growth or toxicity",
+    "one amplitude-dependent response"
+  ],
+  "mechanistic_prediction": "Linked descendants increase mature output after verified off-period without exhausting the retained AT2 reserve.",
+  "measurement_checks_role": "Eligibility and rival checks support the biological test; marker disagreement or score robustness is not the research endpoint.",
+  "execution_authorized": "2026-09-30: owner requested A19 analysis and formal research-style figures under RQ_Specified",
+  "scoring_scope": "Supporting RNA panels and exact source contrasts in exploratory_v1 only; no H1-H3 confirmatory decision",
+  "exploratory_contract": "config/exploratory_v1.json",
+  "exploratory_results": "RESULTS.md",
+  "confirmatory_execution": false,
+  "original_contract_sha256": "b12cd7565afdc027243660bc3ebabf5d0577b714fd55689dd84baa1280b1ec66",
+  "new_descriptive_estimates": true,
+  "extension_pipeline": "EXTENSION_PIPELINE.md",
+  "extension_specification": "config/extension_pipeline_draft.json",
+  "extension_status": "structured_not_executed_not_frozen",
+  "external_evidence_review": "EXTERNAL_EVIDENCE.md",
+  "extension_question": "Does acquisition of an airway-associated state during expansion limit subsequent AT1 maturation after Fzd stimulation ends under a specified maturation environment?",
+  "original_H2_preserved": "S0 before exposure; S1 before withdrawal decision is a separately described H2-extension"
+}

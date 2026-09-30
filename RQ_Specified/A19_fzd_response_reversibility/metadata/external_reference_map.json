@@ -1,0 +1,132 @@
+{
+  "review_date": "2026-09-30",
+  "status": "bounded_primary_source_review_completed_no_new_numerical_analysis",
+  "report": "EXTERNAL_EVIDENCE.md",
+  "references": [
+    {
+      "id": "A19-REF01",
+      "citation": "Kathiriya et al. 2022",
+      "doi": "10.1038/s41556-021-00809-4",
+      "url": "https://www.nature.com/articles/s41556-021-00809-4",
+      "role": [
+        "P1 external state reference",
+        "P3 source audit"
+      ],
+      "evidence_type": "published human organoid conversion capacity and graft-origin evidence",
+      "boundary": "Not endogenous human lineage tracing or a Fzd schedule/reserve experiment",
+      "accessions": [
+        "GSE150068",
+        "GSE150247",
+        "GSE148992"
+      ],
+      "already_in_repo": "RQ_Specified/A1_transitional_epithelial_state_distinction/LINEAGE_AUDIT.md"
+    },
+    {
+      "id": "A19-REF02",
+      "citation": "Burgess et al. 2024",
+      "doi": "10.1016/j.stem.2024.03.017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11147407/",
+      "role": [
+        "P3 differentiation and function reference"
+      ],
+      "evidence_type": "published perturbation, phenotype and epithelial barrier evidence",
+      "boundary": "Combined cues; one model cannot establish Fzd withdrawal plus reserve",
+      "accessions": [
+        "GSE221342",
+        "GSE221343",
+        "GSE221344",
+        "GSE246243"
+      ]
+    },
+    {
+      "id": "A19-REF03",
+      "citation": "Li et al. 2024",
+      "doi": "10.1152/ajplung.00191.2023",
+      "url": "https://journals.physiology.org/doi/full/10.1152/ajplung.00191.2023",
+      "role": [
+        "P3 co-intervention audit"
+      ],
+      "evidence_type": "published adult human molecular and morphological differentiation",
+      "boundary": "Multi-factor medium; complete functional unit linkage unverified",
+      "accessions": []
+    },
+    {
+      "id": "A19-REF04",
+      "citation": "Rational engineering of lung alveolar epithelium, 2023",
+      "doi": "10.1038/s41536-023-00295-2",
+      "url": "https://www.nature.com/articles/s41536-023-00295-2",
+      "role": [
+        "P3 mechanics/withdrawal context"
+      ],
+      "evidence_type": "published rat engineered-tissue differentiation",
+      "boundary": "CHIR/KGF co-removal; figure outcomes not recovered from GEO",
+      "accessions": [
+        "GSE178405"
+      ],
+      "already_exposed": true
+    },
+    {
+      "id": "A19-REF05",
+      "citation": "Patel et al. 2024",
+      "doi": "10.1186/s12931-024-02786-2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10985870/",
+      "role": [
+        "H1/H3 functional context"
+      ],
+      "evidence_type": "published lung function and fibrosis outcomes with multi-FZD input",
+      "boundary": "Whole-lung benefit does not identify epithelial fate, off-period or reserve",
+      "accessions": []
+    },
+    {
+      "id": "A19-REF06",
+      "citation": "Lin et al. 2026",
+      "doi": "10.1002/advs.202519151",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13334660/",
+      "role": [
+        "P1/P2 lineage-stability context"
+      ],
+      "evidence_type": "published perturbation of basal conversion",
+      "boundary": "Prevention is not reversal; no AT1/reserve or Fzd-specific test",
+      "accessions": [
+        "HRA009633"
+      ],
+      "reused_accessions": [
+        "GSE150068",
+        "GSE150247",
+        "SRR22542111",
+        "SRR22542112"
+      ]
+    },
+    {
+      "id": "A19-REF07",
+      "citation": "Nabhan et al. 2023",
+      "doi": "10.1016/j.cell.2023.05.022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37321220/",
+      "role": [
+        "Parent Fzd hypothesis and input-dependent plasticity constraint"
+      ],
+      "evidence_type": "already exposed parent-paper perturbation results",
+      "boundary": "Airway-derived alveolar fate is not proof of universal established-basal-state reversal",
+      "accessions": [
+        "GSE208770"
+      ],
+      "already_exposed": true
+    },
+    {
+      "id": "A19-REF08",
+      "citation": "Hoffmann et al. 2022",
+      "doi": "10.1038/s42003-022-03828-5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9409623/",
+      "role": [
+        "Existing exploratory_v1 source",
+        "P1 primary controls"
+      ],
+      "evidence_type": "already analyzed qPCR/bulk plus published single-cell context",
+      "boundary": "Reused source, not independent validation; no Fzd withdrawal or retained reserve",
+      "accessions": [
+        "GSE197949"
+      ],
+      "already_exposed": true
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "A21_exploratory_v1",
+  "frozen_utc": "2026-09-30T04:08:57.684256+00:00",
+  "scope": "Independent capillary expression/substate context and existing cohort audit; no Fzd4 functional fit",
+  "source": "GSE211335; Godoy et al. eLife 2023 doi:10.7554/eLife.80900",
+  "biological_unit": "12 separately barcoded animals, 3 per condition; pool A/B/C are technical partitions, aggregated per animal",
+  "days": [
+    0,
+    3,
+    5,
+    7
+  ],
+  "clusters": {
+    "0": "gCap_0",
+    "1": "gCap_transitional_1",
+    "2": "aCap_2",
+    "3": "gCap_3",
+    "4": "arterial_4",
+    "5": "venous_5",
+    "6": "gCap_6",
+    "7": "gCap_cycling_7"
+  },
+  "gcap_clusters": [
+    0,
+    1,
+    3,
+    6,
+    7
+  ],
+  "acap_cluster": 2,
+  "coarse_groups": {
+    "gCap": [
+      0,
+      1,
+      3,
+      6,
+      7
+    ],
+    "aCap": [
+      2
+    ],
+    "arterial": [
+      4
+    ],
+    "venous": [
+      5
+    ]
+  },
+  "genes": {
+    "receptor": [
+      "Fzd4"
+    ],
+    "gcap_identity": [
+      "Aplnr",
+      "Gpihbp1",
+      "Cd93",
+      "Kit"
+    ],
+    "acap_identity": [
+      "Car4",
+      "Ednrb",
+      "Apln",
+      "Fibin"
+    ],
+    "cycling": [
+      "Mki67",
+      "Top2a",
+      "Pcna",
+      "Cdk1",
+      "Ccnb1",
+      "Ccnb2"
+    ],
+    "transitional_context": [
+      "Procr",
+      "Angpt2"
+    ],
+    "endothelial_identity": [
+      "Cdh5",
+      "Cldn5",
+      "Pecam1"
+    ],
+    "co_receptors": [
+      "Lrp5",
+      "Lrp6",
+      "Tspan12"
+    ],
+    "canonical_context": [
+      "Axin2",
+      "Nkd1",
+      "Lef1"
+    ]
+  },
+  "cell_inclusion": "Exactly deposited endothelial metadata barcodes, doublet flag false, positive raw UMI; no new clustering or outcome-guided selection",
+  "primary_cell_floor": 20,
+  "sensitivity_floors": [
+    10,
+    50
+  ],
+  "normalization": "Sum raw counts per biological unit/state over all matrix genes; CPM and log2(CPM+1); detection as a separate measure",
+  "panels": {
+    "cycling": [
+      "Mki67",
+      "Top2a",
+      "Pcna",
+      "Cdk1",
+      "Ccnb1",
+      "Ccnb2"
+    ]
+  },
+  "contrasts": [
+    "gCap minus aCap within animal, reported separately by day",
+    "author transitional cluster1 minus cluster0 within animal/day",
+    "author cycling cluster7 minus cluster0 within animal/day"
+  ],
+  "association": "Fzd4 CPM versus cycling panel in aggregate gCap and cluster0 separately, within each day only when >=3 units qualify; include all donor points; no pooled across-day correlation or significance test",
+  "summaries": "All unit estimates, n, mean/median, full observed range and signs; no population confidence interval, P values, fitted mediator or broad differential expression",
+  "hypothesis_boundary": "RNA and author clusters are not receptor engagement, lineage tracing, absolute tissue abundance or vascular function",
+  "substate_rule": "Use source-defined clusters and independent marker checks; failed identity evidence is reported, not repaired by reclustering",
+  "prior_Nb2": "Reconcile eight day42 units and already reported correlation; resolve sex/genotype/tracing metadata; no repeated search for a positive pooled association",
+  "known_exposure": [
+    "source narrative on cluster1 and cluster7",
+    "source metadata and sample counts; no new Fzd4 estimates inspected",
+    "original Nb2 association and round sensitivity"
+  ],
+  "claim_grade_change": false,
+  "biological_acceptance": false
+}

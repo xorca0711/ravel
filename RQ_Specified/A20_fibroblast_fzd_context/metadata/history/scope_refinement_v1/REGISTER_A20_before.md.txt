@@ -1,0 +1,42 @@
+### A20. Do subtype-specific Fzd signals maintain a fibroblast niche that enables alveolar maturation?
+
+**Atlas context and priorities 1–3 extension completed, 30 September 2026; functional H1/H2 untested.**
+[Biological rationale](RQ_Specified/A20_fibroblast_fzd_context/README.md) ·
+[Investigation plan](RQ_Specified/A20_fibroblast_fzd_context/PLAN.md) ·
+[Results and refined hypotheses](RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md) ·
+[Figures](RQ_Specified/A20_fibroblast_fzd_context/FIGURES.md).
+
+**Hypothesis and mechanism.** Fzd2 maintains an AF1-like trophic state whose
+secreted activity enables AT2 descendants to mature. Fzd1-rich contexts are not
+automatically interchangeable support states. The receiving fibroblast state
+therefore determines the epithelial consequence of receptor signaling; support
+and matrix remodeling remain distinct outputs.
+
+**Evidence to hypothesis.** In five paired samples, AF2 is Fzd1-high while AF1 is
+Fzd2-high with more support-ligand and ECM RNA. The within-AF1 Fzd1–support
+correlation is unstable. Published mesenchymal Fzd2 perturbation supplies prior
+biological motivation. The proposed trophic-state-to-mature-output chain exceeds
+these observations and needs functional testing; no specific mediator is nominated.
+
+**Prediction, rival and decision.** Comparable Fzd2 loss should reduce AF1-derived
+trophic activity and mature epithelial output more than Fzd1 loss; the relative
+receptor effect should depend on initial subtype. A precise absence or reliable
+reverse of the AF1 direction weakens the primary hypothesis; a precise absence
+of subtype interaction weakens the context extension. Cell depletion, direct
+epithelial reception and mechanical/ECM support compete with the secreted-support
+account. A statistical interaction alone does not establish mediation. The first source eligibility/crosswalk and paired context analysis are complete.
+Pdgfra/Pdgfrb support local labels; Wnt2/Fgf7/Fgf10 and all eight examined collagen
+genes are higher in AF1 while Hgf is lower. This narrows the functional question
+to niche persistence versus altered support activity, without inferring secretion
+or maturation from RNA. No pairs meet the 100-cell floor. A13's predictive niche
+and A15's integrin/TGF-beta questions are unchanged.
+
+**Extension refinement.** [Four matched human fibroblast donors](RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/RESULTS.md)
+show increased canonical-response but reduced selected support-ligand RNA after
+CHIR, and higher FZD2 with reduced support-panel RNA after TGF alone.
+Receptor expression is therefore insufficient to identify support competence.
+The functional hypothesis concerns receptor-dependent maintenance of a competent
+epithelial pool versus instructive maturation, with matrix function separate.
+Concurrent TGF/CHIR interaction does not test initial-subtype H2; CHIR acts
+downstream of FZD. Original functional hypotheses remain open.
+
