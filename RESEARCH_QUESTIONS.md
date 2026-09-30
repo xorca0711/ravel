@@ -85,9 +85,9 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A16](#a16) | A CD177-associated priming phenotype may persist within comparable mutant transitional cells | Original population mismatch and Stage 1 sensitivities leave specificity, contamination and composition unresolved | **Proposed, pending retain/reject.** [Stage 1 integrated with corrections](RQ_Specified/A16_cd177_state_attribution/reports/INTEGRATION_REVIEW.md): partly measured and inconclusive; corrected attribution and functional evidence remain open |
 | [A17](#a17) | Persistent growth differences between founder lineages may help explain mutant clone-size heterogeneity | Clone distributions and source lineage evidence motivate the model; a deposited simulator defect affects one implementation | **Proposed, pending retain/reject.** Computationally feasible after source-count, parameter and schedule amendments; held-out refit unexecuted |
 | [A18](#a18) | WT expansion and loss of AT2 identity may be regulated differently near mutant clones | Source phenotype and reproduced pooled distance profiles; two causal channels remain a hypothesis | **Proposed, pending retain/reject.** Descriptive profiles complete; spatial inference needs mouse/clone identifiers |
-| [A19](#a19) | Terminating Fzd-supported expansion permits mature alveolar contribution while preserving an AT2 reserve | Nb2 withdrawal lead, selective RNA output and receptor/target dissociation | **Exploratory RNA/context analysis completed.** Direct Fzd schedule, mature-output and reserve test remains unresolved; [results](RQ_Specified/A19_fzd_response_reversibility/RESULTS.md) |
-| [A20](#a20) | Fzd2 is more necessary than Fzd1 for AF1 functional support of AT2-derived mature repair | Receptor/context motivation; RNA responses do not establish functional support | **Exploratory phase complete; H1 narrowed and untested.** Pool maintenance is the mechanistic focus; original subtype H2 deferred. [Focused design](RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md) |
-| [A21](#a21) | Fzd4-dependent vascular competence may permit later capillary repopulation; renewal-selective effects remain an alternative | Independent capillary enrichment; lower transitional-state Fzd4 and inconsistent cycling association | **Exploratory context completed; conditional priority.** Perturbation-linked lineage versus maintenance remains untested; [results](RQ_Specified/A21_fzd4_capillary_function/RESULTS.md) |
+| [A19](#a19) | Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve. | Nb2 withdrawal lead, selective RNA output and receptor/target dissociation | **Exploratory RNA/context analysis completed.** Direct Fzd schedule, mature-output and reserve test remains unresolved; [results](RQ_Specified/A19_fzd_response_reversibility/RESULTS.md) |
+| [A20](#a20) | Fzd2 is more necessary than Fzd1 for AF1 fibroblasts to maintain AT2 cells that subsequently produce mature alveolar descendants. | Receptor/context motivation; RNA responses do not establish functional support | **Exploratory phase complete; H1 narrowed and untested.** Pool maintenance is the mechanistic focus; original subtype H2 deferred. [Focused design](RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md) |
+| [A21](#a21) | Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury. | Independent capillary enrichment; lower transitional-state Fzd4 and inconsistent cycling association | **Exploratory context completed; conditional priority.** Perturbation-linked lineage versus maintenance remains untested; [results](RQ_Specified/A21_fzd4_capillary_function/RESULTS.md) |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -1032,7 +1032,9 @@ No author was contacted. [Source audit](docs/audits/2026-09-28-england-paper-rqs
 
 <a id="a19"></a>
 
-### A19. Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?
+### A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
+
+**One-line working hypothesis (untested):** Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve.
 
 **Primary priority; exploratory context analysis completed 30 September 2026; direct H1–H3 unresolved.**
 [Biological rationale](RQ_Specified/A19_fzd_response_reversibility/README.md) ·
@@ -1078,7 +1080,9 @@ source, exposure, fate and reserve outcomes. A4, A8, A10 and A1 retain their dis
 
 <a id="a20"></a>
 
-### A20. Does Fzd2, more than Fzd1, sustain AF1 fibroblast support of AT2-derived alveolar repair?
+### A20. Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?
+
+**One-line working hypothesis (untested):** Fzd2 is more necessary than Fzd1 for AF1 fibroblasts to maintain AT2 cells that subsequently produce mature alveolar descendants.
 
 **Exploratory phase complete; primary scope narrowed, 30 September 2026.
 Functional H1 untested; original subtype H2 deferred.**
@@ -1120,7 +1124,9 @@ acceptance changes; new execution waits for an eligible functional source.
 
 <a id="a21"></a>
 
-### A21. Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?
+### A21. Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?
+
+**One-line working hypothesis (untested):** Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury.
 
 **Exploratory cohort/substate analysis completed, 30 September 2026;
 functional hypothesis untested; conditional priority retained.**

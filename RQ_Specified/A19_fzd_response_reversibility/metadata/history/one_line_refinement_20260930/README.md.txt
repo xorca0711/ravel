@@ -1,12 +1,4 @@
-# A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
-
-<a id="biological-question"></a>
-
-## Organizing biological question
-
-> Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
-
-**Working hypothesis (untested):** Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve.
+# A19. Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?
 
 **Exploratory context analysis completed 30 September 2026; direct H1–H3 remain unresolved.**
 [Canonical card](../../RESEARCH_QUESTIONS.md#a19) ·

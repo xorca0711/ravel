@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-30",
+  "revision": "one_line_refinement_20260930",
+  "question": "Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?",
+  "working_hypothesis": "Fzd2 is more necessary than Fzd1 for AF1 fibroblasts to maintain AT2 cells that subsequently produce mature alveolar descendants.",
+  "previous_question": "Does Fzd2, more than Fzd1, sustain AF1 fibroblast support of AT2-derived alveolar repair?",
+  "primary_outcome_retained": "absolute lineage-linked mature AT2-descendant output per starting epithelial population, with prospectively defined identity and functional criteria; original H1 endpoint retained",
+  "hypothesis_status": "proposed; untested",
+  "biological_acceptance": false,
+  "source_contracts_unchanged": true,
+  "snapshots": [
+    {
+      "file": "README.md",
+      "sha256": "b9711d85240870c50c0fc8636daa2b00d7a55582d9c0c3f515c7c9d6b5a00207",
+      "snapshot": "metadata/history/one_line_refinement_20260930/README.md.txt"
+    },
+    {
+      "file": "PLAN.md",
+      "sha256": "3eaccbcd5ac9995b73bf6631ebafbbcb70ebb9f8c6024660bb64ee7083ed9fe7",
+      "snapshot": "metadata/history/one_line_refinement_20260930/PLAN.md.txt"
+    },
+    {
+      "file": "config/question_contract.json",
+      "sha256": "3ea65594d3259609bcca9e8056cca8eb761e5d4859ac8d9eb857fcf8fa16f12e",
+      "snapshot": "metadata/history/one_line_refinement_20260930/config_question_contract.json"
+    },
+    {
+      "file": "reports/package_manifest.json",
+      "sha256": "6c6ac4b834c163f0c2f6e2b77426368c8b04daf8db48dc8a0fa878ae0d74405f",
+      "snapshot": "metadata/history/one_line_refinement_20260930/reports_package_manifest.json"
+    },
+    {
+      "file": "NARROWED_HYPOTHESIS.md",
+      "sha256": "2f6beea1a6e46b23fd354e60b50125971d44825b4722941ad0a7aa12529d2b0f",
+      "snapshot": "metadata/history/one_line_refinement_20260930/NARROWED_HYPOTHESIS.md.txt"
+    }
+  ]
+}

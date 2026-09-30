@@ -1,12 +1,4 @@
-# A20. Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?
-
-<a id="biological-question"></a>
-
-## Organizing biological question
-
-> Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?
-
-**Working hypothesis (untested):** Fzd2 is more necessary than Fzd1 for AF1 fibroblasts to maintain AT2 cells that subsequently produce mature alveolar descendants.
+# A20. Does Fzd2, more than Fzd1, sustain AF1 fibroblast support of AT2-derived alveolar repair?
 
 **Exploratory phase complete; primary scope narrowed, 30 September 2026.
 Functional H1 remains untested; original subtype H2 is deferred.**

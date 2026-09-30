@@ -15,7 +15,7 @@
     "Nb2-N3",
     "Nb2-N5"
   ],
-  "question": "Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?",
+  "question": "Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?",
   "hypotheses": [
     "H1 temporal separation of expansion and maturation with retained reserve",
     "H2 initial-state competence modifies the schedule response",
@@ -71,14 +71,5 @@
   "extension_status": "structured_not_executed_not_frozen",
   "external_evidence_review": "EXTERNAL_EVIDENCE.md",
   "extension_question": "Does acquisition of an airway-associated state during expansion limit subsequent AT1 maturation after Fzd stimulation ends under a specified maturation environment?",
-  "original_H2_preserved": "S0 before exposure; S1 before withdrawal decision is a separately described H2-extension",
-  "one_line_question": "Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?",
-  "one_line_hypothesis": "Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve.",
-  "question_wording_revision": {
-    "id": "one_line_refinement_20260930",
-    "date": "2026-09-30",
-    "owner_request": "Update one-line hypothesis questions in PR using the established RQ_Specified hierarchy",
-    "scope": "Current question wording and hypothesis summary; primary outcomes, frozen analyses, evidence grades and acceptance unchanged",
-    "history": "RQ_Specified/A19_fzd_response_reversibility/metadata/history/one_line_refinement_20260930"
-  }
+  "original_H2_preserved": "S0 before exposure; S1 before withdrawal decision is a separately described H2-extension"
 }

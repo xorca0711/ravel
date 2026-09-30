@@ -1,12 +1,4 @@
-# A21. Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?
-
-<a id="biological-question"></a>
-
-## Organizing biological question
-
-> Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?
-
-**Working hypothesis (untested):** Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury.
+# A21. Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?
 
 **Exploratory cohort/substate analysis completed, 30 September 2026.
 Functional hypothesis untested; conditional priority retained.**

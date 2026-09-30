@@ -2,6 +2,18 @@
 
 **Update this before stopping work, every session.**
 
+## PR #123 delivery and one-line questions, 30 September 2026
+
+[PR #123](https://github.com/xorca0711/scRNA_seq/pull/123) is open from
+codex/a19-reversibility-analysis into main. The owner authorized push/open PR and
+then requested question wording consistent with other RQ_Specified folders.
+The current A19-A21 README questions, plans, contracts, register and index are
+synchronized; primary outcomes and scientific evidence are unchanged. Older
+question wording is archived. [Delivery review](docs/audits/2026-09-30-a19-a21-delivery/REPORT.md)
+records the amendment and the fix for 16 PDFs excluded by the global ignore rule.
+The live CI status is on the PR. Earlier local-only handoffs below are historical.
+Hypotheses remain proposed and untested; no biological acceptance or merge.
+
 ## A21 priorities extension, 30 September 2026
 
 [Extension results](RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/RESULTS.md),

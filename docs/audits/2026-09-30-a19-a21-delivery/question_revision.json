@@ -1,0 +1,116 @@
+{
+  "pr": "https://github.com/xorca0711/scRNA_seq/pull/123",
+  "revision": "one_line_refinement_20260930",
+  "questions": [
+    {
+      "id": "A19",
+      "folder": "A19_fzd_response_reversibility",
+      "date": "2026-09-30",
+      "revision": "one_line_refinement_20260930",
+      "question": "Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?",
+      "working_hypothesis": "Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve.",
+      "previous_question": "Can transient Fzd signaling separate AT2 expansion from later alveolar maturation?",
+      "primary_outcome_retained": "mature lineage-descendant yield per initial viable labeled population",
+      "hypothesis_status": "proposed; untested",
+      "biological_acceptance": false,
+      "source_contracts_unchanged": true,
+      "snapshots": [
+        {
+          "file": "README.md",
+          "sha256": "15f082cb4a6ff1af8fce67cf1808bd154a992d0ef4d1259f99da6c2e08539f1f",
+          "snapshot": "metadata/history/one_line_refinement_20260930/README.md.txt"
+        },
+        {
+          "file": "PLAN.md",
+          "sha256": "042a31b3ed9d40bd81d47b8bf12eb48fafece4e584bba7c3ac93d56bd91fd45f",
+          "snapshot": "metadata/history/one_line_refinement_20260930/PLAN.md.txt"
+        },
+        {
+          "file": "config/question_contract.json",
+          "sha256": "b2d668d957f6909b835acd1ab5756721ad30db5902bed207c9f33a145e0e9228",
+          "snapshot": "metadata/history/one_line_refinement_20260930/config_question_contract.json"
+        },
+        {
+          "file": "reports/package_manifest.json",
+          "sha256": "b5246b92551f2da024195de71058fd95522e2aeed8275162cebe2c4eae0c795c",
+          "snapshot": "metadata/history/one_line_refinement_20260930/reports_package_manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "A20",
+      "folder": "A20_fibroblast_fzd_context",
+      "date": "2026-09-30",
+      "revision": "one_line_refinement_20260930",
+      "question": "Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?",
+      "working_hypothesis": "Fzd2 is more necessary than Fzd1 for AF1 fibroblasts to maintain AT2 cells that subsequently produce mature alveolar descendants.",
+      "previous_question": "Does Fzd2, more than Fzd1, sustain AF1 fibroblast support of AT2-derived alveolar repair?",
+      "primary_outcome_retained": "absolute lineage-linked mature AT2-descendant output per starting epithelial population, with prospectively defined identity and functional criteria; original H1 endpoint retained",
+      "hypothesis_status": "proposed; untested",
+      "biological_acceptance": false,
+      "source_contracts_unchanged": true,
+      "snapshots": [
+        {
+          "file": "README.md",
+          "sha256": "b9711d85240870c50c0fc8636daa2b00d7a55582d9c0c3f515c7c9d6b5a00207",
+          "snapshot": "metadata/history/one_line_refinement_20260930/README.md.txt"
+        },
+        {
+          "file": "PLAN.md",
+          "sha256": "3eaccbcd5ac9995b73bf6631ebafbbcb70ebb9f8c6024660bb64ee7083ed9fe7",
+          "snapshot": "metadata/history/one_line_refinement_20260930/PLAN.md.txt"
+        },
+        {
+          "file": "config/question_contract.json",
+          "sha256": "3ea65594d3259609bcca9e8056cca8eb761e5d4859ac8d9eb857fcf8fa16f12e",
+          "snapshot": "metadata/history/one_line_refinement_20260930/config_question_contract.json"
+        },
+        {
+          "file": "reports/package_manifest.json",
+          "sha256": "6c6ac4b834c163f0c2f6e2b77426368c8b04daf8db48dc8a0fa878ae0d74405f",
+          "snapshot": "metadata/history/one_line_refinement_20260930/reports_package_manifest.json"
+        },
+        {
+          "file": "NARROWED_HYPOTHESIS.md",
+          "sha256": "2f6beea1a6e46b23fd354e60b50125971d44825b4722941ad0a7aa12529d2b0f",
+          "snapshot": "metadata/history/one_line_refinement_20260930/NARROWED_HYPOTHESIS.md.txt"
+        }
+      ]
+    },
+    {
+      "id": "A21",
+      "folder": "A21_fzd4_capillary_function",
+      "date": "2026-09-30",
+      "revision": "one_line_refinement_20260930",
+      "question": "Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?",
+      "working_hypothesis": "Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury.",
+      "previous_question": "Does Fzd4 signaling recruit general-capillary cells into regenerative renewal after injury?",
+      "primary_outcome_retained": "traced capillary descendant yield per initial viable labeled population",
+      "hypothesis_status": "proposed; untested",
+      "biological_acceptance": false,
+      "source_contracts_unchanged": true,
+      "snapshots": [
+        {
+          "file": "README.md",
+          "sha256": "3acd7a10f028fad55edf59688f7f846ca6b1a9a0c179ff87cf2d8ecfcaab3b6d",
+          "snapshot": "metadata/history/one_line_refinement_20260930/README.md.txt"
+        },
+        {
+          "file": "PLAN.md",
+          "sha256": "dffdc4902eeca848b93073247fdd495b098c9fac563467261653fac895a0cde2",
+          "snapshot": "metadata/history/one_line_refinement_20260930/PLAN.md.txt"
+        },
+        {
+          "file": "config/question_contract.json",
+          "sha256": "1bafd6586a5ba0802f28e1332c8702d8a4865e9d25a9597c2727a2209539b09a",
+          "snapshot": "metadata/history/one_line_refinement_20260930/config_question_contract.json"
+        },
+        {
+          "file": "reports/package_manifest.json",
+          "sha256": "6dfa29b6cb3a0dd01c7b9ded0ff0035afe2f1a267d3841e289f3b884d16f4761",
+          "snapshot": "metadata/history/one_line_refinement_20260930/reports_package_manifest.json"
+        }
+      ]
+    }
+  ]
+}

@@ -114,3 +114,10 @@ RQ_Specified/**/cache/
 RQ_Specified/**/processed/
 RQ_Specified/**/reference/
 RQ_Specified/**/tables/cd44_closure/counts_input.tsv.gz
+
+# Published question figures accompany PNG/SVG exports; source PDFs stay ignored.
+!RQ_Specified/A19_fzd_response_reversibility/figures/**/*.pdf
+!RQ_Specified/A20_fibroblast_fzd_context/figures/*.pdf
+!RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/figures/*.pdf
+!RQ_Specified/A21_fzd4_capillary_function/figures/*.pdf
+!RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/figures/*.pdf

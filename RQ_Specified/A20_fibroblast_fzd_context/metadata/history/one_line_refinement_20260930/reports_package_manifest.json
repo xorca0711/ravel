@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-09-30T05:43:56.053485+00:00",
-  "scope": "Current package after owner-authorized one-line question refinement; original documents/manifests archived; scientific tables, figures and frozen contracts unchanged",
+  "created_utc": "2026-09-30T03:52:19.117720+00:00",
+  "scope": "Exploratory evidence and explicit scope_refinement_v1; functional H1 untested, H2 deferred; no biological acceptance",
   "files": [
     {
       "file": "config/exploratory_v1.json",
@@ -9,8 +9,8 @@
     },
     {
       "file": "config/question_contract.json",
-      "bytes": 6104,
-      "sha256": "84195f4d06b43d9c2dddbf7582793737a3e11e439b638c16eff53cef5a991661"
+      "bytes": 5318,
+      "sha256": "3ea65594d3259609bcca9e8056cca8eb761e5d4859ac8d9eb857fcf8fa16f12e"
     },
     {
       "file": "extensions/extension_v1/config/analysis_contract.json",
@@ -358,36 +358,6 @@
       "sha256": "eefde2ba5ca37ae237558b045211def31069666e9ac9764ce9bbc021f2bad3a8"
     },
     {
-      "file": "metadata/history/one_line_refinement_20260930/config_question_contract.json",
-      "bytes": 5318,
-      "sha256": "3ea65594d3259609bcca9e8056cca8eb761e5d4859ac8d9eb857fcf8fa16f12e"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/NARROWED_HYPOTHESIS.md.txt",
-      "bytes": 7696,
-      "sha256": "2f6beea1a6e46b23fd354e60b50125971d44825b4722941ad0a7aa12529d2b0f"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/PLAN.md.txt",
-      "bytes": 4692,
-      "sha256": "3eaccbcd5ac9995b73bf6631ebafbbcb70ebb9f8c6024660bb64ee7083ed9fe7"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/README.md.txt",
-      "bytes": 1741,
-      "sha256": "b9711d85240870c50c0fc8636daa2b00d7a55582d9c0c3f515c7c9d6b5a00207"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/reports_package_manifest.json",
-      "bytes": 21495,
-      "sha256": "6c6ac4b834c163f0c2f6e2b77426368c8b04daf8db48dc8a0fa878ae0d74405f"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/revision.json",
-      "bytes": 1943,
-      "sha256": "15084f7afb834f9c095357d1fa2563b25c1a0cb0f32124ffeeba9b3507d96db6"
-    },
-    {
       "file": "metadata/history/scope_refinement_v1/config_question_contract.json",
       "bytes": 3340,
       "sha256": "954f5a7825af7d9a0922d1d6d12a3487ade2fc060c78b8a4ada08a2244bc5519"
@@ -449,18 +419,18 @@
     },
     {
       "file": "NARROWED_HYPOTHESIS.md",
-      "bytes": 7721,
-      "sha256": "41fe4ecc8b749007efeb242f4a63d4e35960b16bf1708598448263b06c3aa477"
+      "bytes": 7696,
+      "sha256": "2f6beea1a6e46b23fd354e60b50125971d44825b4722941ad0a7aa12529d2b0f"
     },
     {
       "file": "PLAN.md",
-      "bytes": 4999,
-      "sha256": "f2502fde937d9fcb23a82f6933ac4fae4e42adf52cbe6eb6cc5269fa5e10461b"
+      "bytes": 4692,
+      "sha256": "3eaccbcd5ac9995b73bf6631ebafbbcb70ebb9f8c6024660bb64ee7083ed9fe7"
     },
     {
       "file": "README.md",
-      "bytes": 2119,
-      "sha256": "d40a9439477ce30187e52738ef8dbf16def96ad838d99b53aa9046f6c6fb3757"
+      "bytes": 1741,
+      "sha256": "b9711d85240870c50c0fc8636daa2b00d7a55582d9c0c3f515c7c9d6b5a00207"
     },
     {
       "file": "reports/a16_check.log",

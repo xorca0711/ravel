@@ -92,7 +92,12 @@ def main():
  for name,h in prior.items():
   p=ROOT/name
   if sha(p)==h:unchanged+=1;check(True,'prior unchanged');continue
-  check(PARENT in p.parents,'only A21 parent edits');rel=p.relative_to(PARENT).as_posix();check(rel in allowed,'allowed parent document')
+  if PARENT not in p.parents:
+   parts=p.relative_to(ROOT).parts;check(parts[0]=='RQ_Specified' and parts[1] in ['A19_fzd_response_reversibility','A20_fibroblast_fzd_context'],'authorized question folder')
+   owner=ROOT/parts[0]/parts[1];rel=p.relative_to(owner).as_posix();check(rel in {'README.md','PLAN.md','NARROWED_HYPOTHESIS.md','config/question_contract.json','reports/package_manifest.json'},'wording-only prior document')
+   revision=owner/'metadata/history/one_line_refinement_20260930/revision.json';ledger=json.loads(revision.read_text());entry=next(x for x in ledger['snapshots'] if x['file']==rel)
+   check(entry['sha256']==h and sha(owner/entry['snapshot'])==h,'pre-wording prior bytes archived');changed.append(name);continue
+  rel=p.relative_to(PARENT).as_posix();check(rel in allowed,'allowed parent document')
   backup=BASE/'metadata/history'/(rel.replace('/','_')+('.txt' if rel.endswith('.md') else ''));check(backup.exists() and sha(backup)==h,'original parent bytes archived');changed.append(name)
  check(sha(ROOT/'README.md')==(BASE/'metadata/root_readme_sha256.txt').read_text().strip(),'universal README unchanged')
  figures=json.loads((BASE/'reports/figure_manifest.json').read_text());check(len(figures)==9,'nine exports')

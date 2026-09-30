@@ -2064,3 +2064,18 @@ Scientific verification passed 56,225 checks. Final PDFs were rendered and revie
 The extension retains original source observations, prior results and archived
 parent documents; the root README remains universal and unchanged by this work.
 Execution authorization is not a biological acceptance or landing decision.
+
+## 30 September 2026: PR delivery and one-line question refinement
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-09-30 | Push and open PR after final review | Owner | Owner, explicit request | Push the reviewed A19-A21 packages and open PR #123 | Publish reviewable work; no merge or biological acceptance |
+| 2026-09-30 | Update one-line A19-A21 hypothesis questions within repository hierarchy | Owner | Owner requested wording update; formulations by Codex remain proposals | Synchronize folder README/PLAN/contracts, canonical register and index; retain stable IDs and primary outcomes | Reflect the refined biological questions instead of older broad titles |
+
+| Date | Output corrected | Reason | Decided by | Resolution |
+|---|---|---|---|---|
+| 2026-09-30 | First PR commit omitted 16 PDF exports | Global PDF ignore rule hid locally reviewed files from staging, causing hosted link checks to fail | Codex, CI diagnosis | Add narrow scientific-figure exceptions and commit byte-identical PDFs; verify manifest coverage in the Git index |
+
+Original question documents and manifests are archived in each question folder.
+Scientific tables, figures and frozen analysis contracts are unchanged by the
+wording update. Historical verification records retain their original scope.

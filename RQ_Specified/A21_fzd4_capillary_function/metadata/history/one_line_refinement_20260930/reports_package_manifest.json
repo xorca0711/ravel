@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-09-30T05:43:56.194983+00:00",
-  "scope": "Current package after owner-authorized one-line question refinement; original documents/manifests archived; scientific tables, figures and frozen contracts unchanged",
+  "created_utc": "2026-09-30T05:27:27.938658+00:00",
+  "scope": "A21 parent and extension_v1; original parent manifest archived in extension metadata/history",
   "files": [
     {
       "file": "config/exploratory_v1.json",
@@ -14,8 +14,8 @@
     },
     {
       "file": "config/question_contract.json",
-      "bytes": 5070,
-      "sha256": "0c010e2905835263e566f448300eed1f9d49534edd16b0c73305448a13a15ae8"
+      "bytes": 4259,
+      "sha256": "1bafd6586a5ba0802f28e1332c8702d8a4865e9d25a9597c2727a2209539b09a"
     },
     {
       "file": "extensions/extension_v1/config/exploratory_v1.json",
@@ -214,8 +214,8 @@
     },
     {
       "file": "extensions/extension_v1/reports/package_manifest.json",
-      "bytes": 11855,
-      "sha256": "396a1293845e299bee56a8a1a483794978851cc571c48f9ec0ae514b17b2961d"
+      "bytes": 11778,
+      "sha256": "ccbc8bc0ccff56db99e90fb72f1153d2385c509a6f209e00872e6ba3b92ba53c"
     },
     {
       "file": "extensions/extension_v1/reports/preservation.json",
@@ -299,8 +299,8 @@
     },
     {
       "file": "extensions/extension_v1/scripts/04_verify.py",
-      "bytes": 10207,
-      "sha256": "30a87849a2816c79fd9df22a98f7a210d97d0d76b56a08292d3e0d6899ed54bd"
+      "bytes": 9511,
+      "sha256": "a3589108c108bd9aca5e215fd39fbc562a32a044c201673349819dae9c860ee6"
     },
     {
       "file": "extensions/extension_v1/scripts/source_workbooks.py",
@@ -433,31 +433,6 @@
       "sha256": "0e171719175ab2a18ba1186dee1a1f813dab856b619a5e2ed4b8b271d6819945"
     },
     {
-      "file": "metadata/history/one_line_refinement_20260930/config_question_contract.json",
-      "bytes": 4259,
-      "sha256": "1bafd6586a5ba0802f28e1332c8702d8a4865e9d25a9597c2727a2209539b09a"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/PLAN.md.txt",
-      "bytes": 5884,
-      "sha256": "dffdc4902eeca848b93073247fdd495b098c9fac563467261653fac895a0cde2"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/README.md.txt",
-      "bytes": 2879,
-      "sha256": "3acd7a10f028fad55edf59688f7f846ca6b1a9a0c179ff87cf2d8ecfcaab3b6d"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/reports_package_manifest.json",
-      "bytes": 24350,
-      "sha256": "6dfa29b6cb3a0dd01c7b9ded0ff0035afe2f1a267d3841e289f3b884d16f4761"
-    },
-    {
-      "file": "metadata/history/one_line_refinement_20260930/revision.json",
-      "bytes": 1596,
-      "sha256": "cb04ce89baa55048429313e0b0185314a8b41191cd58af3c7831be41fa163cc3"
-    },
-    {
       "file": "metadata/history/PLAN.md.txt",
       "bytes": 3104,
       "sha256": "c01fb935292ddddedee14d31846d2eb21b8b53964fb1f0f096e420fb61e81ed1"
@@ -509,13 +484,13 @@
     },
     {
       "file": "PLAN.md",
-      "bytes": 6180,
-      "sha256": "f62b56ccf1edf62f4eca708072b3a71c524f36cd59a6b68ce7842f4a993ba9cf"
+      "bytes": 5884,
+      "sha256": "dffdc4902eeca848b93073247fdd495b098c9fac563467261653fac895a0cde2"
     },
     {
       "file": "README.md",
-      "bytes": 3242,
-      "sha256": "09caa6dbfe37f4c24e26203fa44cbf94c26e230889d355660d4922e852f23802"
+      "bytes": 2879,
+      "sha256": "3acd7a10f028fad55edf59688f7f846ca6b1a9a0c179ff87cf2d8ecfcaab3b6d"
     },
     {
       "file": "reports/A16_check.log",
