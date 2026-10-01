@@ -26,9 +26,12 @@ observed response is accounted for by independently measured cell abundance/
 state composition. A failed perturbation or uninformative interval is
 inconclusive rather than evidence against the biological proposition.
 
-Stage 0 is complete: the Nb3 local sensitivity and transcriptional-context
-analyses. Stage 1 is eligibility of an independently replicated, appropriately
-measured dataset/design. Source-reused GSE215824, unresolved spatial bins and
+The source-evidence stage is complete under Nb3. The A22
+[analysis pipeline](PIPELINE.md) now separates P0 verified intake, P1 source
+eligibility, P2 same-screen RNA triage, P3 spatial/state attribution, P4 independent
+RNA transfer, P5 the functional test below, and P6 synthesis. Only the intake
+has run as new A22 work; no new biological model has been fitted. Eligibility of
+an independently replicated, appropriately measured dataset/design remains open. Source-reused GSE215824, unresolved spatial bins and
 the same 771 bulk wells do not become an independent validation cohort. The
 numeric S5 conflict requires correction/code for an exact source-reproduction
 claim; it does not justify altering Nb3's verified count-derived estimates.

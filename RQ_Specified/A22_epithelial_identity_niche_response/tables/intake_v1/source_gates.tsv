@@ -1,0 +1,5 @@
+accession	role	allowed_use	P4_RNA_eligible	P5_minimum_endpoint_gate	remaining_hold
+GSE307112	source_screen	P0 inherited evidence; P2 same-screen descriptive follow-up	False	False	Split-well independence and guide/target/position confounding; RNA depth and species fraction are not cell counts.
+GSE307128	same_study_spatial	P3 only after source design and attribution gates	False	False	Four libraries are not four verified animals; treatment/time bridge, bin/region mapping and recipient attribution unresolved.
+GSE215824	source_reused_epithelial_context	Epithelial state/timing context only; cannot validate the A22 niche endpoint	False	False	Five RNA plus three ATAC libraries; one deposited day-28 control and KO RNA library each; biological replication and linked fibroblast endpoints not established.
+GSE122960	source_reused_human_context	Conditional donor-aware disease/state context; not an identity-perturbation test	False	False	Source reused; disease/treatment/state confounding and author annotation/paired-compartment eligibility remain to audit.

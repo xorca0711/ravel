@@ -13,6 +13,18 @@ restoration/function hypotheses remain gated. Main README and claim grades
 are unchanged. Validation passed: archived intake hashes, 71 tests (one skip),
 6,232 repository checks and all seven stage dependencies.
 
+## A22 pipeline structured, 1 October 2026
+
+The owner requested the [A22 analysis pipeline](RQ_Specified/A22_epithelial_identity_niche_response/PIPELINE.md).
+P0 source intake passed 64 checks, extracting 18 inherited evidence values and
+recording four source gates. P2 proposes focused recipient-RNA prediction;
+spatial/state attribution, independent transfer and function have separate gates.
+No new biological fit, functional result or claim-grade change occurred. The
+next numerical step is the RNA-imaging join/design audit and a new exploratory
+contract. The main README remains outside this question-specific update.
+Validation passed: archived intake hashes, the 71-test suite (one skip),
+6,232 repository checks and all seven stage dependencies.
+
 ## Nb3 PR integration, 1 October 2026
 
 The owner explicitly requested commit, push and a PR. Delivery is prepared on

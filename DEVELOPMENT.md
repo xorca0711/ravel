@@ -2202,6 +2202,21 @@ A16 and A17 cards, retaining the historical decision rows. The source checkout
 and unrelated local files remain preserved. No frozen numerical output or
 claim grade is changed by delivery.
 
+## 1 October 2026: structure the A22 analysis pipeline
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | A22 stage graph, source registry, sample schema, intake reader and figure plan | Codex | Owner explicitly requested A22 pipeline structuring; Codex selected implementation | Structure P0-P6 and execute only source-evidence intake | Separate RNA motivation from biological identity/amount attribution and protein/function evidence |
+
+The new intake validates preserved Nb3 hashes and extracts existing values. It
+does not refit the screen or establish independent replication. P2 is a draft
+requiring its own exploratory contract; P3-P5 retain source-specific gates.
+The first script-writing command failed at Python string parsing before writing
+files; the corrected writer saved the reader and the intake passed. Live GEO
+retrieval for two series returned browser-check pages; inherited hashed source
+metadata, rather than a claimed fresh retrieval, support those design facts.
+No scientific acceptance or claim-grade promotion is implied.
+
 ## 1 October 2026: keep the main README general
 
 | Date | Prior output | Why revised | Review authority |
@@ -2227,3 +2242,13 @@ browser check did not prevent official FTP metadata retrieval. The publisher
 source-workbook link failed retrieval, so no workbook contents are claimed.
 PAM CD45 fractions are not separate patients; independent biological validation,
 scientific acceptance and claim-grade promotion remain unestablished.
+
+## 1 October 2026: reconcile the A22 pull request with main
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | A22 PR #126 merge conflict resolution | Codex | Owner requested A22 CI issue resolution alongside A23 | Preserve both documentation histories and merge main | Hosted CI was passing; PR #125 introduced overlapping documentation changes |
+
+This change preserves the universal main README, the A22 pipeline and immutable
+intake evidence. It resolves a delivery blocker and does not constitute scientific
+acceptance or a claim-grade change.
