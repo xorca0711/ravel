@@ -1,0 +1,89 @@
+{
+  "schema": "a22-intake-record/v1",
+  "status": "PASS_intake_only",
+  "date": "2026-10-01",
+  "checks": 64,
+  "new_biological_fits": false,
+  "evidence_rows": 18,
+  "source_rows": 4,
+  "inputs": [
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/config/Nb3_followup_v1.json",
+      "sha256": "841c6dd3609c53da28399d1db575c5b123000ed43f385a260fd79c535ebe6d42"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/run_record.json",
+      "sha256": "f38b556d0407800a43dc9056556ae7595c80e7819a83e4960d859a5225af0b63"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R4_v1/fixed_panel_effects.tsv",
+      "sha256": "6cd5e99c085732bcf6b574164ff5d0e1593e5b2f008b5f4138d37c525e2e9b13"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/panel_sensitivity_summary.tsv",
+      "sha256": "ca8fe4174b9a75a43d87b546ad79e5b2e8b47ad4810b375987bd9c9c626cec73"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/individual_marker_effects.tsv",
+      "sha256": "14de007aae0b070eb3aad517ad7cb6bf63e2532f87bd88515f45cd6ea042f176"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/paired_depth_effects.tsv",
+      "sha256": "089331f528d75387fd6905cd329fc796cb2dc5e00c28a5659364c707b2c31c3d"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/paired_depth_associations.tsv",
+      "sha256": "d4efc7e22e0a27459f6ce9d792ef234fac4a1d019e1759f5c70cd5bb780b77bb"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/target_transcript_checks.tsv",
+      "sha256": "5d2a8d4a8238e0af07e43711260e81d3616017730a0c072fdbbe1c3bbd9898ff"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R5_v1/GSE307128_metadata.json",
+      "sha256": "8d416bb64efd19985f18d3924c63d8a3bb43566a2d7bd6da1fb3e30a5a170521"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R5_v1/GSE215824_metadata.json",
+      "sha256": "4af17166ea46079e8bc4f2d2c519ca89bbca790cd6be71e36405290cbd19e9ab"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R5_v1/GSE122960_metadata.json",
+      "sha256": "8c5f4a846cd6cb635d308ecce41f5bfd7e68bb863c5296d04650fbeef5895d51"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/config/intake_v1.json",
+      "sha256": "a48c2bae31c60dc3827b9c0d1107f12384d342c74211ce5d107d0aa1f3605013"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/config/source_registry.json",
+      "sha256": "d61526f13b61099771a467542fac22f6369171457b826bf7df566b40f56951bb"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/config/pipeline_draft.json",
+      "sha256": "3ddf415c05fa8445e3e6ab49787a2f82120b70b984bf509e88d56c5c717fc579"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/config/sample_manifest_schema.json",
+      "sha256": "8321d72d68edd1cfee621d304e137943775877a9ccb8a11a325cbe2ea49af545"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/scripts/00_intake.py",
+      "sha256": "2c00cc4832edc6c97dfb06612e42a476559abf99f4d5d2fadc861a1ab6099f51"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/intake_v1/evidence.tsv",
+      "sha256": "2694fa0da53bbc5e42665fb998eb6fe202f678cd05228d2c662b365be6062e2e"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/intake_v1/source_gates.tsv",
+      "sha256": "2cf624bbda6ab546b5363b0c4e0f116f0965ae6ef68c65d44975e710d34cdb52"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/reports/intake_v1/INTAKE.md",
+      "sha256": "2bacb2b01d5ec482b843ed41463b141c4470d91e7ef40c598b46b71831dd10ec"
+    }
+  ]
+}

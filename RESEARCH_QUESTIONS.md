@@ -1256,7 +1256,11 @@ proposition. RNA alone cannot choose a mediator or establish global immune
 suppression, immunotherapy resistance or lung-specific fibroblast identity.
 
 **Readiness.** Descriptive motivation and local sensitivities complete;
-independent preparation/donor and functional evidence remain missing. This
+independent preparation/donor and functional evidence remain missing.
+The [A22 pipeline](RQ_Specified/A22_epithelial_identity_niche_response/PIPELINE.md)
+structures source intake, same-screen RNA triage, state/spatial attribution,
+independent transfer and a separate functional test. The intake is verified;
+new biological fits and the functional hypothesis remain unexecuted. This
 question is distinct from A10 growth prediction and reverses the direction
 of A13's fibroblast-to-epithelium prediction question. Primary context and
 exact analytical provenance are in the rationale and

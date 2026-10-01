@@ -120,3 +120,6 @@ RQ_Specified/A21_fzd4_capillary_function/metadata/history/REGISTER_A21_before.md
 "Research Article/gate2_N2_nabhan_2026/reports/verification.json" whitespace=cr-at-eol,-blank-at-eof
 "Research Article/gate2_N2_nabhan_2026/figures/publication_v1/source_data/*.tsv" whitespace=cr-at-eol,-blank-at-eol
 "Research Article/gate2_N2_nabhan_2026/runs/**/R_log.txt" whitespace=cr-at-eol,-blank-at-eol
+
+# A22 intake records exact config, reader and output hashes.
+RQ_Specified/A22_epithelial_identity_niche_response/** -text whitespace=cr-at-eol

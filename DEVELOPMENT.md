@@ -2201,3 +2201,18 @@ Integration uses current main for the shared indexes and the corrected A1,
 A16 and A17 cards, retaining the historical decision rows. The source checkout
 and unrelated local files remain preserved. No frozen numerical output or
 claim grade is changed by delivery.
+
+## 1 October 2026: structure the A22 analysis pipeline
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | A22 stage graph, source registry, sample schema, intake reader and figure plan | Codex | Owner explicitly requested A22 pipeline structuring; Codex selected implementation | Structure P0-P6 and execute only source-evidence intake | Separate RNA motivation from biological identity/amount attribution and protein/function evidence |
+
+The new intake validates preserved Nb3 hashes and extracts existing values. It
+does not refit the screen or establish independent replication. P2 is a draft
+requiring its own exploratory contract; P3-P5 retain source-specific gates.
+The first script-writing command failed at Python string parsing before writing
+files; the corrected writer saved the reader and the intake passed. Live GEO
+retrieval for two series returned browser-check pages; inherited hashed source
+metadata, rather than a claimed fresh retrieval, support those design facts.
+No scientific acceptance or claim-grade promotion is implied.
