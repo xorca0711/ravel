@@ -2216,3 +2216,24 @@ files; the corrected writer saved the reader and the intake passed. Live GEO
 retrieval for two series returned browser-check pages; inherited hashed source
 metadata, rather than a claimed fresh retrieval, support those design facts.
 No scientific acceptance or claim-grade promotion is implied.
+
+## 1 October 2026: keep the main README general
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-10-01 | Nb3-specific highlights and a dated figure-audit notice in the main README | The owner requested only general project context on the main README; detailed study and audit updates belong in their indexes | Repository owner, explicit README cleanup request; Codex applied the scope correction |
+
+Removed the Nb3-only navigation row and figure announcement, retained the
+existing study-gallery links in the article index, and moved the dated figure
+audit reference beside the paper galleries. Main README execution links now
+use the current-state page. No scientific result, figure or claim changed.
+
+## 1 October 2026: reconcile the A22 pull request with main
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | A22 PR #126 merge conflict resolution | Codex | Owner requested A22 CI issue resolution alongside A23 | Preserve both documentation histories and merge main | Hosted CI was passing; PR #125 introduced overlapping documentation changes |
+
+This change preserves the universal main README, the A22 pipeline and immutable
+intake evidence. It resolves a delivery blocker and does not constitute scientific
+acceptance or a claim-grade change.

@@ -1,5 +1,17 @@
 # Progress and handoff state
 
+## A22 pull request reconciliation, 1 October 2026
+
+The owner requested resolution of the A22 CI issue alongside A23. Both existing
+CI jobs on PR #126 had passed; the actual blocker was a documentation merge
+conflict after PR #125 landed. Both the A22 pipeline history and the main README
+scope cleanup are preserved in this reconciliation. The A22 intake, source
+contracts and scientific outputs are unchanged. The archived A22 intake passed
+(64 checks), repository validation passed 6,229 checks, and the resolved diff
+passed whitespace checks. Existing code tests remain unchanged; hosted CI will
+rerun on the reconciled head.
+
+
 ## A22 pipeline structured, 1 October 2026
 
 The owner requested the [A22 analysis pipeline](RQ_Specified/A22_epithelial_identity_niche_response/PIPELINE.md).
@@ -11,6 +23,14 @@ next numerical step is the RNA-imaging join/design audit and a new exploratory
 contract. The main README remains outside this question-specific update.
 Validation passed: archived intake hashes, the 71-test suite (one skip),
 6,232 repository checks and all seven stage dependencies.
+
+## Main README scope cleanup, 1 October 2026
+
+Following the owner's review, the main README now contains general project
+context and navigation. The Nb3-only highlights were removed; its gallery
+remains in the article index. The dated figure audit is linked beside the
+paper galleries, and execution links now lead through this current-state page.
+This documentation follow-up is based on main after PR #124 merged.
 
 ## Nb3 PR integration, 1 October 2026
 
