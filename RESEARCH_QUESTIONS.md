@@ -96,8 +96,8 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A19](#a19) | Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve. | Nb2 withdrawal lead, selective RNA output and receptor/target dissociation | **Exploratory RNA/context analysis completed.** Direct Fzd schedule, mature-output and reserve test remains unresolved; [results](RQ_Specified/A19_fzd_response_reversibility/RESULTS.md) |
 | [A20](#a20) | Fzd2 is more necessary than Fzd1 for AF1 fibroblasts to maintain AT2 cells that subsequently produce mature alveolar descendants. | Receptor/context motivation; RNA responses do not establish functional support | **Exploratory phase complete; H1 narrowed and untested.** Pool maintenance is the mechanistic focus; original subtype H2 deferred. [Focused design](RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md) |
 | [A21](#a21) | Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury. | Independent capillary enrichment; lower transitional-state Fzd4 and inconsistent cycling association | **Exploratory context completed; conditional priority.** Perturbation-linked lineage versus maintenance remains untested; [results](RQ_Specified/A21_fzd4_capillary_function/RESULTS.md) |
-| [A22](#a22) | NKX2-1-dependent epithelial identity sustains fibroblast chemokine competence beyond epithelial amount | Nb3's local AT2/chemokine decrease and wound-marker increase survive tested reference/gene/well sensitivities; general association remains modest | **Proposed, pending retain/reject.** Descriptive follow-up complete; independent identity/composition, secretion and recipient-function evidence needed |
-| [A23](#a23) | SLC34A2-dependent phosphate homeostasis constrains transition-associated epithelial stress before broad lineage collapse | Three transition markers rise coherently; identity effects are smaller than NKX21 but not absent | **Proposed, pending retain/reject.** Descriptive follow-up complete; transport, temporal order, within-state and restoration evidence needed |
+| [A22](#a22) | NKX2-1-dependent epithelial identity sustains fibroblast chemokine competence beyond epithelial amount | Nb3's focal NKX21 response survives technical sensitivities; the later identity–amount extension adds little target-held-out information and worsens whole-plate prediction | **Proposed, pending retain/reject.** Descriptive follow-up complete; independent identity/composition, secretion and recipient-function evidence needed |
+| [A23](#a23) | SLC34A2-dependent phosphate homeostasis constrains transition-associated epithelial stress before broad lineage collapse | Nb3 transition markers rise; the external PAM case lacks coherent transfer and has lower alternative-transporter RNA; flux and timing remain untested | **Proposed, pending retain/reject.** Descriptive follow-up complete; transport, temporal order, within-state and restoration evidence needed |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -1260,7 +1260,7 @@ independent preparation/donor and functional evidence remain missing.
 The [A22 pipeline](RQ_Specified/A22_epithelial_identity_niche_response/PIPELINE.md)
 structures source intake, same-screen RNA triage, state/spatial attribution,
 independent transfer and a separate functional test. The intake is verified;
-new biological fits and the functional hypothesis remain unexecuted. This
+the same-screen P2 extension has now run, while the functional hypothesis remains untested. This
 question is distinct from A10 growth prediction and reverses the direction
 of A13's fibroblast-to-epithelium prediction question. Primary context and
 exact analytical provenance are in the rationale and
@@ -1269,6 +1269,17 @@ exact analytical provenance are in the rationale and
 <a id="a22-candidates-20261001"></a>
 
 **Conditional branches retained after review, 1 October 2026.** E7 asks whether epithelial inputs induce fibroblast states or select their abundance; bulk RNA cannot decide this. E8 separately asks whether the response belongs to a lung-associated fibroblast programme and whether it contributes to immune recruitment in tumours. PLIN2 alone does not establish tissue specificity, and no immunotherapy endpoint was analysed. Require multi-tissue/state comparisons, secretion/recruitment measurements and a separate tumour-context test rather than interpreting the whole chain as an A22 result. [Eight-candidate framing](Research%20Article/gate2_N2_nabhan_2026/CANDIDATE_HYPOTHESES.md).
+
+**Conditional candidate narrowed after P2, related to A22 H2/E7 (1 October
+2026).** The specific NKX2-1-associated response remains a candidate for
+within-fibroblast-state testing. The broader AT2-panel predictor gains only
+0.64% in target-held-out equal-target MSE, worsens by 0.97% after NKX21 omission,
+and worsens on all four held-out plates (35.00% pooled). Thus the current
+operational identity score does not establish broad incremental generality
+beyond the nominated amount/depth proxies. This does not demonstrate an
+amount-only mechanism or reject a focal protein-level effect. Preserve the
+original hypothesis; prioritize independent amount/state attribution and
+secreted output. [Extension and fixed-fold amendment](RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md).
 
 <a id="a23"></a>
 
@@ -1303,9 +1314,26 @@ Normal repair, pathological persistence and mature AT1 recovery require
 separate time/fate outcomes.
 
 **Readiness.** Descriptive follow-up complete; independent time/transport and
-functional evidence remain unestablished. A23 supplies a specific homeostatic
+functional evidence remain unestablished.
+The [A23 pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md)
+now includes executed P2 descriptive RNA and P3 source-biochemistry analyses,
+plus temporal ordering and restoration/recovery gates. The causal hypotheses
+remain untested. A23 supplies a specific homeostatic
 input to A1/A8's state and maturation questions, not another trajectory claim.
 The cited primary literature and full evidence chain are in the rationale.
+
+**Conditional candidate, related to the A23 homeostatic-compensation branch
+(P3/H2), 1 October 2026.** Compensatory phosphate handling may buffer the
+transition-associated response to SLC34A2 loss. The external PAM case has lower
+target RNA without a coherent KRT8/SPRR1A/CLU increase; separate source mouse
+assays show higher AT2 Slc20a1/2 RNA under low-phosphate diet. These unlinked
+observations motivate a discriminator, not a demonstrated compensatory mechanism.
+The [strict review and findings](RQ_Specified/A23_slc34a2_transition_homeostasis/reports/external_pilot_v2/RESULTS.md)
+require linked transport/compensation, phosphate and epithelial-state measurements
+in replicated units. Secondary injury, disease stage and cell selection remain
+rivals. No broad identity-retention claim survives the annotation sensitivity,
+and mineral clearance is not epithelial recovery. Acceptance and claim grades
+remain unchanged.
 
 ## Execution and interpretation rules
 
@@ -1331,3 +1359,16 @@ sensitivity sweep merely to obtain significance. The [methods guide](REPRODUCIBI
 [measurement contracts](docs/RQ_MEASUREMENT_CONTRACTS.md) and
 [ID crosswalk](docs/RQ_MEASUREMENT_CONTRACTS.md#crosswalk) locate requirements
 without making diagnostics the biological questions.
+
+
+**Conditional compensation candidate narrowed after RNA extension, related to
+A23 H2/P3 (1 October 2026).** SLC20A1/SLC20A2 RNA is lower in the PAM case
+across five unchanged AT2 selections, with small mixed within-case
+transporter–KRT8/CLU depth-conditional associations. Increased transporter RNA
+is unsupported as the explanation for the absent coordinated transition
+pattern. Compensation through actual transport activity remains untested;
+mouse dietary assays cannot identify the mechanism in this human case.
+Retain direct homeostatic disturbance and secondary mineral/inflammatory injury
+as rival routes. The operational next question is when SLC34A2 impairment
+produces stress; ordering before identity loss and recovery remain separate
+predictions. [Strict extension review](RQ_Specified/A23_slc34a2_transition_homeostasis/reports/transporter_context_v1/RESULTS.md).

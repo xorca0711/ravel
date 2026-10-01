@@ -1,5 +1,63 @@
 # Progress and handoff state
 
+## A22/A23 extensions executed, 1 October 2026
+
+The owner requested structuring and execution of the narrowed extensions.
+[A22 P2](RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md)
+uses 672 wells/201 targets: +0.64% target-held-out error reduction becomes
+−0.97% without NKX21; whole-plate error reduction is −35.00%. Fixed-fold v2
+supersedes regrouped-fold v1 for exclusion comparisons; both remain archived.
+[A23 transporter context](RQ_Specified/A23_slc34a2_transition_homeostasis/reports/transporter_context_v1/RESULTS.md)
+finds lower SLC20A1/2 RNA in the PAM case across five selections and small mixed
+depth-conditional associations. Increased transporter RNA is unsupported as an
+explanation; compensatory flux remains untested. Each RQ has an added current
+figure and a reviewed conditional-branch update. Main README and claim grades
+are unchanged. Independent raw-marker/model checks, 79 tests (one skip),
+claim checks and repository validation passed. The old A23 gallery is preserved
+in a byte-exact snapshot; `08_verify_external_current.py` checks its historical
+receipt without rewriting the original verifier or numerical evidence. Next scientific
+steps require state/amount attribution and linked protein/function for A22,
+and replicated transport/state/time/restoration measurements for A23.
+Scientific acceptance remains the owner's; current PR delivery is execution,
+not retain/reject or merge authorization. Preserve all frozen scripts/configs.
+
+
+## A23 external analysis executed, 1 October 2026
+
+The owner requested continuation of the [A23 pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md).
+P2 now has a descriptive human PAM case/control analysis; P3 has coordinate-level
+source-biochemistry extraction and an endpoint-linkage audit. [Results](RQ_Specified/A23_slc34a2_transition_homeostasis/reports/external_pilot_v2/RESULTS.md)
+and [five current figures](RQ_Specified/A23_slc34a2_transition_homeostasis/FIGURES.md)
+are deposited. The human case does not reproduce a coordinated KRT8/SPRR1A/CLU
+increase; identity-marker signs depend on annotation selection. A conditional
+phosphate-handling compensation branch is recorded after strict review.
+P4/P5 remain untested without linked replicated transport/state/time and
+restoration/function data. Claim grades and main README remain unchanged.
+
+The public archive and source workbook were retrieved; 13,346 filtered cells
+were audited. The failed PECAM1 feature gate, its pre-outcome conservative
+amendment, 1,847 published-only PAM barcodes, and the superseded F3 layout remain
+recorded. Independent raw-count/workbook-coordinate verification passed.
+Validation passed: 79 tests (one skip), the claim contract, repository checks,
+independent raw-count/workbook-coordinate checks, and visual review of all four
+current main figures. A supplementary source-completeness sensitivity recovers
+all 14,210 published cells and retains the marker pattern; independent annotation
+and ambient/doublet limitations remain. The A23 verifier is now a CI step.
+
+
+## A23 pipeline structured, 1 October 2026
+
+The owner requested the [A23 analysis pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md).
+P0 passed 51 checks and extracted 19 inherited values/range endpoints. Five
+source roles are recorded. GSE199329 metadata identify three libraries with
+CD45-split PAM sampling; the reported case/control design supports descriptive
+context, not replicated causal inference. No expression matrix or new biological
+fit was run. Next: P2 processed-file/epithelial-coverage audit and its exploratory
+contract; P3 biochemical linkage can proceed independently. P4/P5 temporal and
+restoration/function hypotheses remain gated. Main README and claim grades
+are unchanged. Validation passed: archived intake hashes, 71 tests (one skip),
+6,232 repository checks and all seven stage dependencies.
+
 ## A22 pull request reconciliation, 1 October 2026
 
 The owner requested resolution of the A22 CI issue alongside A23. Both existing

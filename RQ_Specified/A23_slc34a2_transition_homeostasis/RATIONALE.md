@@ -30,7 +30,8 @@ decreases and is not included in either identity or transition scoring.
 Eight wells on one plate do not establish eight independent preparations.
 
 The AT2 and AT1 baseline panels are near zero compared with NKX21's broad
-identity phenotype. Yet paired-depth adjustment shifts AT2 to −0.219, so the
+identity phenotype. Yet paired-depth adjustment shifts AT2 to −0.219 in the
+seven-well paired subset (rather than the eight-well mouse-QC baseline), so the
 hypothesis cannot rest on an assertion of intact identity. The defensible
 contrast is smaller identity attenuation with a coherent transition-associated
 signal. Wider Hallmark changes are correlation-sensitive and do not identify

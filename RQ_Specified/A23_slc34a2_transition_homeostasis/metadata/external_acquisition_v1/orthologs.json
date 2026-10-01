@@ -1,0 +1,20 @@
+{
+  "retrieved_utc": "2026-10-01T06:37:46.172599+00:00",
+  "records": [
+    {
+      "mouse_symbol": "Krt8",
+      "url": "https://rest.ensembl.org/homology/symbol/mus_musculus/Krt8?target_species=homo_sapiens;type=orthologues;content-type=application/json",
+      "error": "The read operation timed out"
+    },
+    {
+      "mouse_symbol": "Sprr1a",
+      "url": "https://rest.ensembl.org/homology/symbol/mus_musculus/Sprr1a?target_species=homo_sapiens;type=orthologues;content-type=application/json",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "mouse_symbol": "Clu",
+      "url": "https://rest.ensembl.org/homology/symbol/mus_musculus/Clu?target_species=homo_sapiens;type=orthologues;content-type=application/json",
+      "error": "HTTP Error 500: Internal Server Error"
+    }
+  ]
+}

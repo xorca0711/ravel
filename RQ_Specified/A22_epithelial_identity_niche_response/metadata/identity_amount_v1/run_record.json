@@ -1,0 +1,82 @@
+{
+  "status": "completed descriptive same-screen extension",
+  "completed_utc": "2026-10-01T07:30:57.585066+00:00",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "inputs": [
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_panel_scores.tsv",
+      "sha256": "81ce02adcb9ca80ce61df586ccc3b8fcc4bb1d9f2d95c1ccf504a659d381896c"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_panel_scores.tsv",
+      "sha256": "8fd4be1226a7b792aa2a07eb2b12af9ab15e2fcb44cb0368676afe2708d38c31"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_panel_eligibility.tsv",
+      "sha256": "a883da7c64751eef5aed3f7da293d92e643aeb68c0f0acaa376cbb99b14cd70b"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_panel_eligibility.tsv",
+      "sha256": "9cb326457eb0822e0b0dc84fb3e927384314eaa28ad8c51414c9ffea357eda42"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R4_v1/paired_library_QC.tsv",
+      "sha256": "e49690e9498c6c0fe23bcecf46451549c8cad00362b94d28a1b2f19ae9bb9afc"
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/tables/well_join.tsv",
+      "sha256": "5bbb3debca16b63b21bf14bc91e86856f1b8bfaf6d9f37bfe7b4d8f63ef39774"
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md",
+      "sha256": "fb0d9851456ec3d7de52a13d28b6a88408679374b07097093fdd97d728138397"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/00_v1/target_identity.tsv",
+      "sha256": "98f85f631fbe7320b7caba3f5c7d526da4ba4654158fe5f5e5a18678a1693235"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/config/identity_amount_v1.json",
+      "sha256": "b31db58d468f3aa41ea889f602aa9f8131f10906f2ed2191a1679c53aa322e32"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/scripts/01_identity_amount.py",
+      "sha256": "2c54e502e19276c86969d3afccce16e9b14ee1e23fbca9fb70e6026da3b65c00"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/identity_amount_v1/fold_membership.tsv",
+      "sha256": "3e735b269e2f986cf31e0d0fdb1fa1f242dbabd87f6dbc7adcad704c9135373d"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/identity_amount_v1/folds.tsv",
+      "sha256": "b66866ff0b435c79981565c5499257a586ed2a7a30d7c766d36d88487855b79d"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/identity_amount_v1/join_audit.tsv",
+      "sha256": "327278b918acf2f74436dfec13564ceefa96756a05c40ce3c0eaaf45486d2918"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/identity_amount_v1/joined_wells.tsv",
+      "sha256": "24c025fa8b6d3744b13d3bbea742cc6b224822070b770a58a3fa51c14c668d49"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/identity_amount_v1/metrics.tsv",
+      "sha256": "026add4a269c8f56ec81afbd950b280b433254e613fe187d40ec372db1aa50aa"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/identity_amount_v1/predictions.tsv",
+      "sha256": "d3d743f7ac947cf366ecc488026aef5eba180c8e3fb9ab1c0ba26df5f0ccb5e0"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/identity_amount_v1/target_errors.tsv",
+      "sha256": "1c079cdaef5db0df5e9cfbdf620b66e02972b71f0a00e2fa55287bd968d56b9d"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/metadata/identity_amount_v1/design_audit.json",
+      "sha256": "3a9c7288f5cdbbd21f0f7f480ee892b58536352ff374b69a49eb98d9d5440c8a"
+    }
+  ]
+}

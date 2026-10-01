@@ -1,0 +1,77 @@
+{
+  "schema": "a23-source-registry/v1",
+  "review_date": "2026-10-01",
+  "scope": "Bounded source triage; none admitted to a replicated linked time/transport/restoration test. Unknown remains unverified.",
+  "sources": [
+    {
+      "id": "GSE307112",
+      "source_group": "Nabhan2026",
+      "role": "discovery_screen",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307112",
+      "independent_of_Nb3": false,
+      "replication_resolved": false,
+      "slc34a2_exposure_validated": null,
+      "linked_transport_state": false,
+      "linked_temporal_state_identity": false,
+      "linked_restoration_mature_output": false,
+      "use": "Inherited evidence only; do not repeat completed sensitivities as validation.",
+      "hold": "Bulk mixed-species wells; eight mouse-QC SLC34A2 wells but seven in paired-depth subset; independent preparations unresolved."
+    },
+    {
+      "id": "GSE199329",
+      "source_group": "Uehara2023",
+      "role": "external_PAM_case_context",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199329",
+      "independent_of_Nb3": true,
+      "replication_resolved": false,
+      "slc34a2_exposure_validated": null,
+      "linked_transport_state": null,
+      "linked_temporal_state_identity": false,
+      "linked_restoration_mature_output": false,
+      "use": "Priority P2 processed-count/epithelial-coverage audit, then separately frozen descriptive comparison if eligible.",
+      "hold": "One reported PAM explant and one control; PAM CD45 fractions are not patients. Donor/age, sampling and disease are confounded; epithelial coverage not yet checked."
+    },
+    {
+      "id": "Uehara2023_source_data",
+      "source_group": "Uehara2023",
+      "role": "homeostasis_and_secondary_injury_endpoint_audit",
+      "url": "https://doi.org/10.1038/s41467-023-36810-8",
+      "independent_of_Nb3": true,
+      "replication_resolved": null,
+      "slc34a2_exposure_validated": null,
+      "linked_transport_state": null,
+      "linked_temporal_state_identity": null,
+      "linked_restoration_mature_output": null,
+      "use": "Audit advertised source workbook for units, biochemical compartments and epithelial-state linkage before any reanalysis.",
+      "hold": "Workbook not retrieved; group-level results from different assays cannot be joined as measurements of the same animals. Shared study with GSE199329."
+    },
+    {
+      "id": "GSE141259",
+      "source_group": "Strunz2020",
+      "role": "repair_state_reference",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141259",
+      "independent_of_Nb3": false,
+      "replication_resolved": null,
+      "slc34a2_exposure_validated": false,
+      "linked_transport_state": false,
+      "linked_temporal_state_identity": null,
+      "linked_restoration_mature_output": false,
+      "use": "Reuse A1 reference/source audit for transition and timing context only.",
+      "hold": "Repair reference without an SLC34A2 intervention; reused source/reference is not independent validation of this mechanism."
+    },
+    {
+      "id": "GSE215824",
+      "source_group": "Toth2023",
+      "role": "different_perturbation_context",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE215824",
+      "independent_of_Nb3": false,
+      "replication_resolved": false,
+      "slc34a2_exposure_validated": false,
+      "linked_transport_state": false,
+      "linked_temporal_state_identity": false,
+      "linked_restoration_mature_output": false,
+      "use": "NKX2-1 state context only; no routine new fit proposed.",
+      "hold": "Source-reused NKX2-1 experiment, not an SLC34A2 cohort."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+"""Publication-style A23 figures from archived descriptive tables; no new inference."""
+import csv, hashlib, json
+from pathlib import Path
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+ROOT=Path(__file__).resolve().parents[3]
+RQ=ROOT/'RQ_Specified/A23_slc34a2_transition_homeostasis'
+RUN='external_pilot_v2'
+T=RQ/'tables'/RUN
+OUT=RQ/'figures'/RUN
+BLUE='#2166AC'; ORANGE='#B35806'; GREY='#666666'
+plt.rcParams.update({'font.family':'Arial','font.size':9,'axes.titlesize':10,'axes.labelsize':9,'xtick.labelsize':8,'ytick.labelsize':8,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42,'ps.fonttype':42,'svg.fonttype':'none','savefig.dpi':300})
+def load(n):
+ with (T/(n+'.tsv')).open(encoding='utf-8') as f:return list(csv.DictReader(f,delimiter='\t'))
+def save(fig,name):
+ for ext in ['png','pdf','svg']:fig.savefig(OUT/(name+'.'+ext),bbox_inches='tight',facecolor='white')
+ plt.close(fig)
+def panel(ax,letter,title):
+ ax.set_title(title,loc='left',pad=10);ax.text(-0.15,1.08,letter,transform=ax.transAxes,fontweight='bold',fontsize=12)
+def main():
+ if OUT.exists():raise FileExistsError(OUT)
+ OUT.mkdir(parents=True)
+ cov=[r for r in load('coverage') if r['qc']=='primary'];ann=load('annotation_coverage')
+ labels=['PAM CD45−','PAM CD45+','Control D071']
+ fig,axes=plt.subplots(1,2,figsize=(8.5,3.4),layout='constrained')
+ for j,(col,title,color) in enumerate([('filtered_cells','Filtered',GREY),('qc_cells','QC',BLUE),('epithelial_candidate','Epithelial',ORANGE),('AT2_candidate','AT2', '#7B3294')]):
+  xx=np.arange(3)+(j-1.5)*.19;vv=[int(r[col]) for r in cov]
+  axes[0].bar(xx,vv,width=.18,label=title,color=color)
+  for x,y in zip(xx,vv):axes[0].text(x,y+100,str(y),ha='center',rotation=90,fontsize=6.5)
+ axes[0].set_xticks(np.arange(3),labels,rotation=20,ha='right');axes[0].set_ylabel('Deposited or retained cells');axes[0].set_ylim(0,6500);axes[0].legend(frameon=False,ncol=2,fontsize=7,loc='upper right');panel(axes[0],'A','Candidate-cell coverage')
+ for j,(col,title,color) in enumerate([('matched','Matched',BLUE),('published_not_filtered','Published only',ORANGE),('filtered_not_published','Filtered only',GREY)]):
+  xx=np.arange(3)+(j-1)*.24;vv=[int(r[col]) for r in ann]
+  axes[1].bar(xx,vv,width=.22,label=title,color=color)
+  for x,y in zip(xx,vv):axes[1].text(x,y+70,str(y),ha='center',fontsize=7)
+ axes[1].set_xticks(np.arange(3),labels,rotation=20,ha='right');axes[1].set_ylabel('Cell barcodes');axes[1].set_ylim(0,6100);axes[1].legend(frameon=False,fontsize=7,loc='upper right');panel(axes[1],'B','Published annotation overlap')
+ save(fig,'F1_coverage')
+ data=load('marker_summaries');genes=['KRT8','SPRR1A','CLU','SFTPA1','SFTPA2','LAMP3','NKX2-1','AGER','AQP5','PDPN','HOPX','SLC34A2']
+ libs=['GSM5970468','GSM5970470']
+ fig,axes=plt.subplots(1,2,figsize=(7.4,4.8),sharey=True,layout='constrained')
+ vmax=max(float(r['mean_log1p_10k']) for r in data if r['library'] in libs and r['qc']=='primary')
+ for i,group in enumerate(['epithelial_candidate','AT2_candidate']):
+  ax=axes[i];ns=[]
+  for x,lib in enumerate(libs):
+   rows=[next(r for r in data if (r['library'],r['qc'],r['group'],r['gene'])==(lib,'primary',group,g)) for g in genes]
+   ns.append(rows[0]['n'])
+   sc=ax.scatter([x]*len(genes),np.arange(len(genes)),s=[5+100*float(r['fraction_detected']) for r in rows],c=[float(r['mean_log1p_10k']) for r in rows],vmin=0,vmax=vmax,cmap='viridis',edgecolor='none')
+  ax.set_xlim(-.7,1.7);ax.set_xticks([0,1],[f'PAM CD45−\nn = {ns[0]}',f'Control\nn = {ns[1]}']);ax.set_yticks(np.arange(len(genes)),genes);ax.set_ylim(len(genes)-.5,-.6);ax.grid(axis='y',color='.93');ax.set_axisbelow(True)
+  panel(ax,'AB'[i],['Epithelial candidates','AT2 candidates'][i])
+ fig.colorbar(sc,ax=axes,shrink=.7,label='Mean log(1 + UMI per 10,000)')
+ handles=[plt.scatter([],[],s=5+100*f,color=GREY,label=f'{f:.0%}') for f in [.1,.5,1]]
+ axes[1].legend(handles=handles,title='Detected',frameon=False,loc='lower left',bbox_to_anchor=(0,-.31),ncol=3,fontsize=7,title_fontsize=8)
+ save(fig,'F2_marker_profiles')
+ differences=load('marker_differences')
+ fig,ax=plt.subplots(figsize=(7.1,4.9),layout='constrained')
+ styles=[('primary','AT2_candidate','o',BLUE,'AT2 primary'),('strict','AT2_candidate','s',ORANGE,'AT2 strict'),('primary','AT2_published_intersection','^', '#7B3294','Published AT2 intersection'),('strict','AT2_published_intersection','v','#008837','Intersection, strict')]
+ for k,(qc,group,marker,color,label) in enumerate(styles):
+  rows=[next(r for r in differences if (r['qc'],r['group'],r['gene'])==(qc,group,g)) for g in genes]
+  assert all(r['coverage_pass']=='True' for r in rows)
+  ax.scatter([float(r['mean_log1p_difference']) for r in rows],np.arange(len(genes))+(k-1.5)*.15,marker=marker,color=color,s=22,label=label)
+ ax.axvline(0,color='.5',lw=.8);ax.set_yticks(np.arange(len(genes)),genes);ax.set_ylim(len(genes)-.4,-.6);ax.set_xlabel('PAM − control: difference in mean log(1 + UMI per 10,000)');ax.legend(frameon=False,fontsize=7,loc='lower left');panel(ax,'A','Marker differences across fixed sensitivity rules');save(fig,'F3_sensitivity')
+ values=load('biochemical_values');stone=load('stone_pairs')
+ fig,axes=plt.subplots(2,3,figsize=(10,6),layout='constrained')
+ endpoints=[('Fig 6m','Serum phosphate (mM)','Serum phosphate'),('Fig 6q','BALF phosphate (μM)','Alveolar phosphate'),('Fig 6s','Relative RNA expression','AT2 Slc20a1 RNA'),('Fig 6t','Relative RNA expression','AT2 Slc20a2 RNA'),('Fig 7f','BALF osteoprotegerin (pg/mL)','Osteoprotegerin')]
+ for k,(sheet,ylabel,title) in enumerate(endpoints):
+  ax=axes.flat[k]
+  for gi,genotype in enumerate(['Npt2b+/+','Npt2b-/-']):
+   for di,diet in enumerate(['LPD','RD','HPD']):
+    nums=[float(r['value']) for r in values if (r['sheet'],r['genotype'],r['diet'])==(sheet,genotype,diet)]
+    x=di+gi*3.5;offset=np.linspace(-.1,.1,len(nums));color=BLUE if gi==0 else ORANGE
+    ax.scatter(x+offset,nums,color=color,s=17,alpha=.85);ax.plot([x-.18,x+.18],[np.mean(nums)]*2,color=color,lw=1.6)
+    ax.text(x,1.01,'n='+str(len(nums)),transform=ax.get_xaxis_transform(),ha='center',fontsize=6.5)
+  ax.set_xticks([0,1,2,3.5,4.5,5.5],['LPD','RD','HPD']*2,rotation=35);ax.set_ylabel(ylabel);ax.text(1,-.30,'Npt2b+/+',transform=ax.get_xaxis_transform(),ha='center',fontsize=8,color=BLUE);ax.text(4.5,-.30,'Npt2b−/−',transform=ax.get_xaxis_transform(),ha='center',fontsize=8,color=ORANGE);panel(ax,'ABCDE'[k],title)
+ ax=axes.flat[5]
+ for k,(sheet,label,color) in enumerate([('Fig 6d','LPD\n20–28 wk',BLUE),('Fig 6e','RD\n20–28 wk',GREY),('Fig 6f','HPD\n5–6 wk',ORANGE)]):
+  vals=[float(r['D56_D0_ratio']) for r in stone if r['sheet']==sheet]
+  ax.scatter(k+np.linspace(-.1,.1,4),vals,color=color,s=25);ax.plot([k-.18,k+.18],[np.median(vals)]*2,color=color,lw=1.6)
+ ax.axhline(1,color='.5',ls='--',lw=.8);ax.set_xticks([0,1,2],['LPD\n20–28 wk','RD\n20–28 wk','HPD\n5–6 wk']);ax.set_ylabel('Stone burden: D56 / D0');panel(ax,'F','Source-paired mineral burden (n = 4 each)');save(fig,'F4_biochemical_context')
+ receipt={'run':RUN,'source_run_receipt_sha256':hashlib.sha256((RQ/'metadata'/RUN/'run_record.json').read_bytes()).hexdigest(),'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'matplotlib':matplotlib.__version__,'outputs':[{'path':p.relative_to(ROOT).as_posix(),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(OUT.iterdir())]}
+ (RQ/'metadata'/RUN/'figure_record.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
+ print('Saved four figures in PNG, PDF and SVG.')
+if __name__=='__main__':main()

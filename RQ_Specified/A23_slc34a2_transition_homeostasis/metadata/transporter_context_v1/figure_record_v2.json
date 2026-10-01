@@ -1,0 +1,39 @@
+{
+  "rendered_utc": "2026-10-01T07:38:03.999612+00:00",
+  "inputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/transporter_context_v1/summaries.tsv",
+      "sha256": "5597d92a758b2374342bec6498575d01969d48b48cdc75472772a4959c82c955"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/transporter_context_v1/differences.tsv",
+      "sha256": "0c7578bfafec674d7b5dcb07827f24411d640c5328ebb5c0df6a10882b411217"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/transporter_context_v1/associations.tsv",
+      "sha256": "76e7b3156aa8af1e23bab0c27d17ecca4c22dc40d5cb5832b5bd947e42d5c574"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/transporter_context_v1.json",
+      "sha256": "af299bcd2f3030387688a4d6b28bc00667a7afcc04a99c2863a00c784a412bda"
+    },
+    {
+      "path": "analysis/scripts/plot_a22_a23_extensions_v2.py",
+      "sha256": "9c17056cadb96adc04888775a213f8b162b2e68ab34db985d57f40b4759d7a8d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/figures/transporter_context_v1_layout_v2/F5_transporter_context.pdf",
+      "sha256": "e2a141db9cf9e6466c3d7e80ba4e3f4c701593b9ca9f19764705a34c5cbea57d"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/figures/transporter_context_v1_layout_v2/F5_transporter_context.png",
+      "sha256": "b0f8ac76da79697e27d5875e8f836b486f1837b4054798ea322c8512f8094ec0"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/figures/transporter_context_v1_layout_v2/F5_transporter_context.svg",
+      "sha256": "c6047ae2d332140be75f35e169bba4030497d1e71afb4d8530272eeaa3fbe02f"
+    }
+  ]
+}

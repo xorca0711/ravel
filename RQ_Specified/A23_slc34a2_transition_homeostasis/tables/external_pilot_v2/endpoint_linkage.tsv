@@ -1,0 +1,7 @@
+source	endpoint	units	biological_unit	time	subject_link	state_or_flux_available
+GSE199329	human epithelial RNA	UMI counts	one PAM case; one control	single explant snapshot	library plus barcode only	RNA; no transport flux or state trajectory
+Fig 6m	serum phosphate	mM	4 WT or 6 Npt2b-null mice/group	one-week diet	IDs absent; cross-assay pairing unresolved	systemic concentration only
+Fig 6q	BALF phosphate	micromolar	4 WT or 6 Npt2b-null mice/group	one-week diet	IDs absent; cross-assay pairing unresolved	lavage concentration; not intracellular phosphate
+Fig 6s/t	AT2 Slc20a1/2	relative RNA expression	3 mice/group	one-week diet	IDs absent; no linked epithelial-state assay	RNA; not measured transport flux
+Fig 7f	BALF osteoprotegerin	pg/mL	4 mice/group	one-week diet	IDs absent; no link to human RNA	niche protein; not epithelial state
+Fig 6d/e/f	mineral burden	g and D56/D0 ratio	4 source-paired observations/group	D0 and D56; age/formulation differ across series	within-sheet paired row only; IDs absent	mineral burden; no mature epithelial recovery

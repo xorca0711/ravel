@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-01",
+  "question": "A23",
+  "claim_grade_change": false,
+  "stages": {
+    "P0": "intake verified; archived",
+    "P1": "source design and sampling audited for this batch",
+    "P2": "filtered pilot and complete published-cell sensitivity executed; descriptive one-case/one-control inference",
+    "P3": "53-sheet inventory, eight selected source endpoint sheets and linkage audit executed",
+    "P4": "not tested; no eligible linked replicated transport/state/time source",
+    "P5": "not tested; no linked verified restoration and mature-output source",
+    "P6": "strict review recorded; compensation branch remains conditional"
+  },
+  "outputs": [
+    "reports/external_pilot_v2/RESULTS.md",
+    "FIGURES.md",
+    "metadata/external_pilot_v2/run_record.json",
+    "metadata/published_cell_audit_v1/run_record.json"
+  ],
+  "validation": "79 tests with one skip; repository and provenance checks passed; independent raw/workbook calculations and all five current figures reviewed"
+}

@@ -2228,6 +2228,21 @@ existing study-gallery links in the article index, and moved the dated figure
 audit reference beside the paper galleries. Main README execution links now
 use the current-state page. No scientific result, figure or claim changed.
 
+## 1 October 2026: structure the A23 analysis pipeline
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | A23 pipeline, source gates, metadata intake, evidence reader and figure plan | Codex | Owner requested the same pipeline structuring for A23 | Structure P0-P6; execute source/metadata intake only | Separate state RNA, measured homeostasis, temporal ordering and restoration/mature recovery |
+
+The inherited evidence audit preserves the eight-well mouse-QC versus seven-well
+paired-depth distinction and the AT1 sign-change counterexample. A bounded
+primary-source search identified GSE199329; its 2,339-byte official metadata
+file was retrieved and hashed. No expression matrix was read. The GEO HTML
+browser check did not prevent official FTP metadata retrieval. The publisher
+source-workbook link failed retrieval, so no workbook contents are claimed.
+PAM CD45 fractions are not separate patients; independent biological validation,
+scientific acceptance and claim-grade promotion remain unestablished.
+
 ## 1 October 2026: reconcile the A22 pull request with main
 
 | Date | Item | Proposed by | Decided by | Decision | Reason |
@@ -2237,3 +2252,51 @@ use the current-state page. No scientific result, figure or claim changed.
 This change preserves the universal main README, the A22 pipeline and immutable
 intake evidence. It resolves a delivery blocker and does not constitute scientific
 acceptance or a claim-grade change.
+
+## 1 October 2026: execute the A23 external pilot and source audit
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | A23 P2 descriptive analysis, P3 endpoint linkage, figures and conditional branch | Codex | Owner requested continuation of the A23 pipeline; Codex selected scoped implementation | Execute eligible source analyses; retain P4/P5 data gates | The available human case and mouse assay sheets do not identify a linked causal sequence |
+
+Main now includes A22; both pipeline histories were preserved when merging it
+into the A23 branch. The external archive contains nested per-library archives;
+the acquisition reader was updated to extract filtered HDF5 files safely.
+Ensembl homology retrieval failed, and official NCBI orthologue responses were
+used instead. The first matrix attempt stopped on absent PECAM1 before outcome
+summaries. An explicit v2 contract conservatively excludes VWF- or EMCN-detecting
+cells without replacing the absent gene or changing readout features. The old
+contract and failed-attempt record remain. No marker outcome informed the change.
+
+The source workbook supplies cell annotations but not shared IDs across the
+selected mouse assay sheets. That limits the compensation branch to a hypothesis.
+The first F3 legend overlapped target-gene points; the corrected rendering has a
+new filename, with the initial render retained. A targeted rendering-helper
+attempt failed before writing corrected images; the indentation fix completed
+the versioned render. No numerical outputs were overwritten. Hypothesis
+acceptance and scientific claim grades remain open.
+
+A concrete source-selection concern justified one additional post-pilot audit:
+1,847 published PAM cells were missing from filtered matrices, while every
+published control cell was present. A separate contract and immutable run
+recovered all 14,210 published cells from raw matrices. The published-AT2 marker
+pattern persists under both frozen QC rules. No outcome-based threshold change
+or independent-replication claim was made.
+
+The delivery dependency audit found that the repository's broad PDF ignore rule excluded the six generated A23 PDFs (five current and one superseded). A scoped figure exception, matching the existing A19-A21 and Nb3 convention, includes those receipt dependencies; source PDFs remain ignored.
+
+
+## A22/A23 extension execution, 1 October 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | Structure and execute A22 identity–amount and A23 transporter-RNA extensions | Codex, following the narrowed RQ discussion | Owner authorized execution; scientific acceptance pending | Two versioned analyses, reports, figures and reviewed conditional branches deposited | Test available discriminators while keeping state, protein, transport, time and recovery gaps explicit |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-01 | A22 v1 exclusion comparisons regenerated target folds | Omission effects were mixed with fold reassignment; v2 fixes the primary assignment across variants and preserves v1 | Codex during verification; no human rejection invented |
+| 2026-10-01 | Initial extension-figure legend placement | A22 panel B and A23 panel B legends crowded observations; layout-v2 figures move legends and preserve initial renders | Codex visual review; numerical results unchanged |
+
+The executed analyses weaken the broad A22 operational predictor and do not
+support increased transporter RNA as an A23 buffering explanation. They do
+not establish causal absence or change the owner's retain/reject decisions.

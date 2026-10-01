@@ -1,0 +1,36 @@
+{
+  "schema": "a23-sample-manifest/v1",
+  "required_fields": [
+    "accession",
+    "sample_id",
+    "library_id",
+    "donor_or_animal_id",
+    "preparation_id",
+    "source_identity_evidence",
+    "condition",
+    "perturbation_and_validity",
+    "age",
+    "sampling_fraction",
+    "technical_repeat_or_section",
+    "collection_time",
+    "time_from_perturbation",
+    "destructive_or_longitudinal_sampling",
+    "transport_endpoint",
+    "phosphate_compartment_and_units",
+    "mineral_burden_endpoint",
+    "inflammation_endpoint",
+    "state_definition",
+    "identity_endpoint",
+    "restoration_and_validity",
+    "mature_lineage_or_function_endpoint",
+    "matched_control_id",
+    "source_file_sha256"
+  ],
+  "rules": [
+    "Unknown fields remain null; filenames do not create biological units.",
+    "CD45 fractions and cells remain nested within donor.",
+    "Never infer intracellular phosphate from extracellular mineral burden or systemic concentration.",
+    "No cross-assay subject joins without source IDs.",
+    "Keep baseline and post-treatment measures separate."
+  ]
+}

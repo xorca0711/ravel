@@ -1,0 +1,31 @@
+{
+  "rendered_utc": "2026-10-01T07:36:46.069431+00:00",
+  "inputs": [
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/tables/identity_amount_v2/metrics.tsv",
+      "sha256": "acce8f0c806b31e777c6bb7f12592f8057016cbb65ca7ab7c16c1ce6ed0cc59a"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/config/identity_amount_v2.json",
+      "sha256": "35ee58613f20b97a722b2a0bdb5c738a7aeb1285731db50b04619ea439e227d2"
+    },
+    {
+      "path": "analysis/scripts/plot_a22_a23_extensions.py",
+      "sha256": "147b3dc598bad632dbf70de067ccab1770436bd23aec1907450ceb3d9de9aa89"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/figures/identity_amount_v2/F1_identity_amount.pdf",
+      "sha256": "8da418f461403fba941f7bddc2b18882c9f36f8b2a8aa77a15bae042e07a1b3c"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/figures/identity_amount_v2/F1_identity_amount.png",
+      "sha256": "9376ba07cccc05c4d4b88a75169957a0fa4ccf1fb464f7b326a2617ca2ba3dc8"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/figures/identity_amount_v2/F1_identity_amount.svg",
+      "sha256": "22ddd637e8d9abbc443b3d6ab7407221d13cea2c76dce2dcf8599c35440d3646"
+    }
+  ]
+}

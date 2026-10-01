@@ -1,0 +1,42 @@
+{
+  "saved_utc": "2026-10-01T06:40:44.977245+00:00",
+  "scope": "individual human markers, no one-to-one equivalence or full source-score claim",
+  "mappings": [
+    {
+      "mouse": "Krt8",
+      "human": "KRT8",
+      "ensembl_ids": [
+        "ENSG00000170421"
+      ],
+      "ncbi_gene": "3856",
+      "all_reported_human_orthologues": [
+        "KRT8"
+      ],
+      "source": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/16691/orthologs?taxon_filter=9606"
+    },
+    {
+      "mouse": "Sprr1a",
+      "human": "SPRR1A",
+      "ensembl_ids": [
+        "ENSG00000169474"
+      ],
+      "ncbi_gene": "6698",
+      "all_reported_human_orthologues": [
+        "SPRR1A"
+      ],
+      "source": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/20753/orthologs?taxon_filter=9606"
+    },
+    {
+      "mouse": "Clu",
+      "human": "CLU",
+      "ensembl_ids": [
+        "ENSG00000120885"
+      ],
+      "ncbi_gene": "1191",
+      "all_reported_human_orthologues": [
+        "CLU"
+      ],
+      "source": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/12759/orthologs?taxon_filter=9606"
+    }
+  ]
+}

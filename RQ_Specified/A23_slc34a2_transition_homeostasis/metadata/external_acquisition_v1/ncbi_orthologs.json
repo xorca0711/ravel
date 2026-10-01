@@ -1,0 +1,1960 @@
+{
+  "retrieved_utc": "2026-10-01T06:39:45.995306+00:00",
+  "records": [
+    {
+      "mouse_symbol": "Krt8",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/16691/orthologs?taxon_filter=9606",
+      "response": {
+        "reports": [
+          {
+            "gene": {
+              "gene_id": "3856",
+              "symbol": "KRT8",
+              "description": "keratin 8",
+              "tax_id": "9606",
+              "taxname": "Homo sapiens",
+              "common_name": "human",
+              "type": "PROTEIN_CODING",
+              "orientation": "minus",
+              "reference_standards": [
+                {
+                  "gene_range": {
+                    "accession_version": "NG_008402.2",
+                    "range": [
+                      {
+                        "begin": "49791",
+                        "end": "57676",
+                        "orientation": "plus"
+                      }
+                    ]
+                  },
+                  "type": "REFSEQ_GENE"
+                }
+              ],
+              "chromosomes": [
+                "12"
+              ],
+              "nomenclature_authority": {
+                "authority": "HGNC",
+                "identifier": "HGNC:6446"
+              },
+              "swiss_prot_accessions": [
+                "P05787"
+              ],
+              "ensembl_gene_ids": [
+                "ENSG00000170421"
+              ],
+              "omim_ids": [
+                "148060"
+              ],
+              "synonyms": [
+                "K8",
+                "KO",
+                "CK8",
+                "CK-8",
+                "CYK8",
+                "K2C8",
+                "CARD2"
+              ],
+              "alternate_names": [
+                "cytokeratin-8",
+                "keratin 8, type II",
+                "keratin, type II cytoskeletal 8",
+                "type-II keratin Kb8"
+              ],
+              "annotations": [
+                {
+                  "assembly_accession": "GCF_000001405.40",
+                  "assembly_name": "GRCh38.p14",
+                  "annotation_name": "GCF_000001405.40-RS_2025_08",
+                  "annotation_release_date": "2025-08-01",
+                  "genomic_locations": [
+                    {
+                      "genomic_accession_version": "NC_000012.12",
+                      "sequence_name": "12",
+                      "genomic_range": {
+                        "begin": "52897191",
+                        "end": "52949860",
+                        "orientation": "minus"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assembly_accession": "GCF_009914755.1",
+                  "assembly_name": "T2T-CHM13v2.0",
+                  "annotation_name": "GCF_009914755.1-RS_2025_08",
+                  "annotation_release_date": "2025-08-01",
+                  "genomic_locations": [
+                    {
+                      "genomic_accession_version": "NC_060936.1",
+                      "sequence_name": "12",
+                      "genomic_range": {
+                        "begin": "52861778",
+                        "end": "52914419",
+                        "orientation": "minus"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "transcript_count": 5,
+              "protein_count": 4,
+              "transcript_type_counts": [
+                {
+                  "type": "PROTEIN_CODING",
+                  "count": 3
+                },
+                {
+                  "type": "NON_CODING",
+                  "count": 1
+                },
+                {
+                  "type": "PROTEIN_CODING_MODEL",
+                  "count": 1
+                }
+              ],
+              "gene_groups": [
+                {
+                  "id": "3856",
+                  "method": "NCBI Ortholog"
+                }
+              ],
+              "summary": [
+                {
+                  "description": "This gene is a member of the type II keratin family clustered on the long arm of chromosome 12. Type I and type II keratins heteropolymerize to form intermediate-sized filaments in the cytoplasm of epithelial cells. The product of this gene typically dimerizes with keratin 18 to form an intermediate filament in simple single-layered epithelial cells. This protein plays a role in maintaining cellular structural integrity and also functions in signal transduction and cellular differentiation. Mutations in this gene cause cryptogenic cirrhosis. Alternatively spliced transcript variants have been found for this gene. [provided by RefSeq, Jan 2012]"
+                }
+              ],
+              "gene_ontology": {
+                "assigned_by": "GOA",
+                "molecular_functions": [
+                  {
+                    "name": "protein binding",
+                    "go_id": "GO:0005515",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "10852826",
+                        "10954706",
+                        "11684708",
+                        "12577067",
+                        "14756564",
+                        "15671067",
+                        "15731013",
+                        "15846844",
+                        "16608857",
+                        "19188445",
+                        "20936779",
+                        "21149639",
+                        "21988832",
+                        "22038833",
+                        "22458338",
+                        "24940650",
+                        "25416956",
+                        "26769854",
+                        "30021884",
+                        "31515488",
+                        "32296183",
+                        "32814053",
+                        "36012204"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "scaffold protein binding",
+                    "go_id": "GO:0097110",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "10852826"
+                      ]
+                    }
+                  }
+                ],
+                "biological_processes": [
+                  {
+                    "name": "epithelium development",
+                    "go_id": "GO:0060429",
+                    "evidence_code": "IEA",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "epithelium development",
+                    "go_id": "GO:0060429",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "intermediate filament organization",
+                    "go_id": "GO:0045109",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "negative regulation of hepatocyte apoptotic process",
+                    "go_id": "GO:1903944",
+                    "evidence_code": "IEA",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "negative regulation of hepatocyte apoptotic process",
+                    "go_id": "GO:1903944",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "sarcomere organization",
+                    "go_id": "GO:0045214",
+                    "evidence_code": "IBA",
+                    "qualifier": "involved_in"
+                  }
+                ],
+                "cellular_components": [
+                  {
+                    "name": "Z disc",
+                    "go_id": "GO:0030018",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "apicolateral plasma membrane",
+                    "go_id": "GO:0016327",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cell periphery",
+                    "go_id": "GO:0071944",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cell-cell junction",
+                    "go_id": "GO:0005911",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cytoplasm",
+                    "go_id": "GO:0005737",
+                    "evidence_code": "EXP",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "10973561"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cytoplasm",
+                    "go_id": "GO:0005737",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "15846844",
+                        "19188445"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cytoplasm",
+                    "go_id": "GO:0005737",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cytoskeleton",
+                    "go_id": "GO:0005856",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cytosol",
+                    "go_id": "GO:0005829",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cytosol",
+                    "go_id": "GO:0005829",
+                    "evidence_code": "TAS",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "extracellular exosome",
+                    "go_id": "GO:0070062",
+                    "evidence_code": "HDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "19199708",
+                        "23533145"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "intermediate filament",
+                    "go_id": "GO:0005882",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "10852826"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "intermediate filament",
+                    "go_id": "GO:0005882",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "intermediate filament cytoskeleton",
+                    "go_id": "GO:0045111",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "keratin filament",
+                    "go_id": "GO:0045095",
+                    "evidence_code": "IBA",
+                    "qualifier": "is_active_in"
+                  },
+                  {
+                    "name": "keratin filament",
+                    "go_id": "GO:0045095",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "keratin filament",
+                    "go_id": "GO:0045095",
+                    "evidence_code": "IPI",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "10852826"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "nuclear matrix",
+                    "go_id": "GO:0016363",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "nuclear matrix",
+                    "go_id": "GO:0016363",
+                    "evidence_code": "ISS",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "nucleoplasm",
+                    "go_id": "GO:0005654",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "nucleus",
+                    "go_id": "GO:0005634",
+                    "evidence_code": "HDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "21630459"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "sarcolemma",
+                    "go_id": "GO:0042383",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  }
+                ]
+              },
+              "map_locations": [
+                {
+                  "map_type": "Cytogenetic",
+                  "map_value": "12q13.13"
+                }
+              ]
+            },
+            "query": [
+              "16691"
+            ]
+          }
+        ],
+        "total_count": 1
+      }
+    },
+    {
+      "mouse_symbol": "Sprr1a",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/20753/orthologs?taxon_filter=9606",
+      "response": {
+        "reports": [
+          {
+            "gene": {
+              "gene_id": "6698",
+              "symbol": "SPRR1A",
+              "description": "small proline rich protein 1A",
+              "tax_id": "9606",
+              "taxname": "Homo sapiens",
+              "common_name": "human",
+              "type": "PROTEIN_CODING",
+              "orientation": "plus",
+              "chromosomes": [
+                "1"
+              ],
+              "nomenclature_authority": {
+                "authority": "HGNC",
+                "identifier": "HGNC:11259"
+              },
+              "swiss_prot_accessions": [
+                "P35321"
+              ],
+              "ensembl_gene_ids": [
+                "ENSG00000169474"
+              ],
+              "omim_ids": [
+                "182265"
+              ],
+              "synonyms": [
+                "SPRK"
+              ],
+              "alternate_names": [
+                "19 kDa pancornulin",
+                "SPR-IA",
+                "cornifin-A",
+                "small proline-rich protein IA"
+              ],
+              "annotations": [
+                {
+                  "assembly_accession": "GCF_000001405.40",
+                  "assembly_name": "GRCh38.p14",
+                  "annotation_name": "GCF_000001405.40-RS_2025_08",
+                  "annotation_release_date": "2025-08-01",
+                  "genomic_locations": [
+                    {
+                      "genomic_accession_version": "NC_000001.11",
+                      "sequence_name": "1",
+                      "genomic_range": {
+                        "begin": "152984081",
+                        "end": "152985814",
+                        "orientation": "plus"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assembly_accession": "GCF_009914755.1",
+                  "assembly_name": "T2T-CHM13v2.0",
+                  "annotation_name": "GCF_009914755.1-RS_2025_08",
+                  "annotation_release_date": "2025-08-01",
+                  "genomic_locations": [
+                    {
+                      "genomic_accession_version": "NC_060925.1",
+                      "sequence_name": "1",
+                      "genomic_range": {
+                        "begin": "152120747",
+                        "end": "152122480",
+                        "orientation": "plus"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "transcript_count": 2,
+              "protein_count": 2,
+              "transcript_type_counts": [
+                {
+                  "type": "PROTEIN_CODING",
+                  "count": 2
+                }
+              ],
+              "gene_groups": [
+                {
+                  "id": "6698",
+                  "method": "NCBI Ortholog"
+                }
+              ],
+              "summary": [
+                {
+                  "description": "A structural constituent of skin epidermis. Involved in cornification and peptide cross-linking. Located in cornified envelope. [provided by Alliance of Genome Resources, Jun 2026]"
+                }
+              ],
+              "gene_ontology": {
+                "assigned_by": "GOA",
+                "molecular_functions": [
+                  {
+                    "name": "protein binding",
+                    "go_id": "GO:0005515",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "10066784",
+                        "32296183"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "structural constituent of skin epidermis",
+                    "go_id": "GO:0030280",
+                    "evidence_code": "IDA",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "7543090"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "structural molecule activity",
+                    "go_id": "GO:0005198",
+                    "evidence_code": "TAS",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "8325635"
+                      ]
+                    }
+                  }
+                ],
+                "biological_processes": [
+                  {
+                    "name": "cornification",
+                    "go_id": "GO:0070268",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "7543090"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "epidermis development",
+                    "go_id": "GO:0008544",
+                    "evidence_code": "TAS",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "8325635"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "keratinocyte differentiation",
+                    "go_id": "GO:0030216",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "10908733"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "peptide cross-linking",
+                    "go_id": "GO:0018149",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "10908733"
+                      ]
+                    }
+                  }
+                ],
+                "cellular_components": [
+                  {
+                    "name": "cornified envelope",
+                    "go_id": "GO:0001533",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "7543090",
+                        "10908733"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cornified envelope",
+                    "go_id": "GO:0001533",
+                    "evidence_code": "TAS",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cytoplasm",
+                    "go_id": "GO:0005737",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cytosol",
+                    "go_id": "GO:0005829",
+                    "evidence_code": "TAS",
+                    "qualifier": "located_in"
+                  }
+                ]
+              },
+              "map_locations": [
+                {
+                  "map_type": "Cytogenetic",
+                  "map_value": "1q21.3"
+                }
+              ]
+            },
+            "query": [
+              "20753"
+            ]
+          }
+        ],
+        "total_count": 1
+      }
+    },
+    {
+      "mouse_symbol": "Clu",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/12759/orthologs?taxon_filter=9606",
+      "response": {
+        "reports": [
+          {
+            "gene": {
+              "gene_id": "1191",
+              "symbol": "CLU",
+              "description": "clusterin",
+              "tax_id": "9606",
+              "taxname": "Homo sapiens",
+              "common_name": "human",
+              "type": "PROTEIN_CODING",
+              "orientation": "minus",
+              "reference_standards": [
+                {
+                  "gene_range": {
+                    "accession_version": "NG_027845.1",
+                    "range": [
+                      {
+                        "begin": "5111",
+                        "end": "22894",
+                        "orientation": "plus"
+                      }
+                    ]
+                  },
+                  "type": "REFSEQ_GENE"
+                }
+              ],
+              "chromosomes": [
+                "8"
+              ],
+              "nomenclature_authority": {
+                "authority": "HGNC",
+                "identifier": "HGNC:2095"
+              },
+              "swiss_prot_accessions": [
+                "P10909"
+              ],
+              "ensembl_gene_ids": [
+                "ENSG00000120885"
+              ],
+              "omim_ids": [
+                "185430"
+              ],
+              "synonyms": [
+                "CLI",
+                "AAG4",
+                "APOJ",
+                "CLU1",
+                "CLU2",
+                "KUB1",
+                "SGP2",
+                "APO-J",
+                "SGP-2",
+                "SP-40",
+                "TRPM-2",
+                "NA1/NA2"
+              ],
+              "alternate_names": [
+                "aging-associated protein 4",
+                "apolipoprotein J",
+                "complement cytolysis inhibitor",
+                "complement lysis inhibitor",
+                "complement-associated protein SP-40,40",
+                "epididymis secretory sperm binding protein",
+                "ku70-binding protein 1",
+                "sulfated glycoprotein 2",
+                "testosterone-repressed prostate message 2"
+              ],
+              "annotations": [
+                {
+                  "assembly_accession": "GCF_000001405.40",
+                  "assembly_name": "GRCh38.p14",
+                  "annotation_name": "GCF_000001405.40-RS_2025_08",
+                  "annotation_release_date": "2025-08-01",
+                  "genomic_locations": [
+                    {
+                      "genomic_accession_version": "NC_000008.11",
+                      "sequence_name": "8",
+                      "genomic_range": {
+                        "begin": "27596917",
+                        "end": "27614700",
+                        "orientation": "minus"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assembly_accession": "GCF_009914755.1",
+                  "assembly_name": "T2T-CHM13v2.0",
+                  "annotation_name": "GCF_009914755.1-RS_2025_08",
+                  "annotation_release_date": "2025-08-01",
+                  "genomic_locations": [
+                    {
+                      "genomic_accession_version": "NC_060932.1",
+                      "sequence_name": "8",
+                      "genomic_range": {
+                        "begin": "27874264",
+                        "end": "27892057",
+                        "orientation": "minus"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "transcript_count": 3,
+              "protein_count": 1,
+              "transcript_type_counts": [
+                {
+                  "type": "PROTEIN_CODING",
+                  "count": 1
+                },
+                {
+                  "type": "NON_CODING",
+                  "count": 2
+                }
+              ],
+              "gene_groups": [
+                {
+                  "id": "1191",
+                  "method": "NCBI Ortholog"
+                }
+              ],
+              "summary": [
+                {
+                  "description": "The protein encoded by this gene is a secreted chaperone that can under some stress conditions also be found in the cell cytosol. It has been suggested to be involved in several basic biological events such as cell death, tumor progression, and neurodegenerative disorders. Alternate splicing results in both coding and non-coding variants.[provided by RefSeq, May 2011]"
+                }
+              ],
+              "gene_ontology": {
+                "assigned_by": "GOA",
+                "molecular_functions": [
+                  {
+                    "name": "ATP hydrolysis activity",
+                    "go_id": "GO:0016887",
+                    "evidence_code": "IDA",
+                    "qualifier": "NOT enables",
+                    "reference": {
+                      "pmids": [
+                        "11123922"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "amyloid-beta binding",
+                    "go_id": "GO:0001540",
+                    "evidence_code": "IDA",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "22179788"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "amyloid-beta binding",
+                    "go_id": "GO:0001540",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "9228033",
+                        "23106396"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "low-density lipoprotein particle receptor binding",
+                    "go_id": "GO:0050750",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "9228033"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "misfolded protein binding",
+                    "go_id": "GO:0051787",
+                    "evidence_code": "IBA",
+                    "qualifier": "enables"
+                  },
+                  {
+                    "name": "misfolded protein binding",
+                    "go_id": "GO:0051787",
+                    "evidence_code": "IDA",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "11123922"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "misfolded protein binding",
+                    "go_id": "GO:0051787",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "19996109"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein binding",
+                    "go_id": "GO:0005515",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "8555189",
+                        "16113678",
+                        "17043677",
+                        "17170699",
+                        "17567961",
+                        "20195357",
+                        "21567405",
+                        "22179788",
+                        "22528093",
+                        "22689054",
+                        "23805218",
+                        "25051234",
+                        "25451228",
+                        "26496610",
+                        "28887769",
+                        "31270237",
+                        "31413325",
+                        "32814053"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein carrier activity",
+                    "go_id": "GO:0140597",
+                    "evidence_code": "IDA",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "9228033"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein heterodimerization activity",
+                    "go_id": "GO:0046982",
+                    "evidence_code": "TAS",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "25051234"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein sequestering activity",
+                    "go_id": "GO:0140311",
+                    "evidence_code": "IDA",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "9200695",
+                        "34667172"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein-containing complex binding",
+                    "go_id": "GO:0044877",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "22179788",
+                        "23106396"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein-folding chaperone binding",
+                    "go_id": "GO:0051087",
+                    "evidence_code": "ISS",
+                    "qualifier": "enables"
+                  },
+                  {
+                    "name": "receptor ligand activity",
+                    "go_id": "GO:0048018",
+                    "evidence_code": "IDA",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "27477018"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "signaling receptor binding",
+                    "go_id": "GO:0005102",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "27477018"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "tau protein binding",
+                    "go_id": "GO:0048156",
+                    "evidence_code": "IPI",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "25051234"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "ubiquitin protein ligase binding",
+                    "go_id": "GO:0031625",
+                    "evidence_code": "IDA",
+                    "qualifier": "enables",
+                    "reference": {
+                      "pmids": [
+                        "20068069"
+                      ]
+                    }
+                  }
+                ],
+                "biological_processes": [
+                  {
+                    "name": "amyloid-beta clearance",
+                    "go_id": "GO:0097242",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "27477018"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cell morphogenesis",
+                    "go_id": "GO:0000902",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "15857407"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "central nervous system myelin maintenance",
+                    "go_id": "GO:0032286",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "21543606"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "chaperone-mediated protein complex assembly",
+                    "go_id": "GO:0051131",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "17412999"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "complement activation",
+                    "go_id": "GO:0006956",
+                    "evidence_code": "TAS",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "1585460"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "immune complex clearance",
+                    "go_id": "GO:0002434",
+                    "evidence_code": "IEA",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "immune complex clearance",
+                    "go_id": "GO:0002434",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "intrinsic apoptotic signaling pathway",
+                    "go_id": "GO:0097193",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "21567405"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "lipid metabolic process",
+                    "go_id": "GO:0006629",
+                    "evidence_code": "NAS",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "2387851"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "microglial cell activation",
+                    "go_id": "GO:0001774",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "15857407"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "microglial cell proliferation",
+                    "go_id": "GO:0061518",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "15857407"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of activation of membrane attack complex",
+                    "go_id": "GO:0001971",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "9200695",
+                        "34667172"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of amyloid fibril formation",
+                    "go_id": "GO:1905907",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "22179788"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of amyloid fibril formation",
+                    "go_id": "GO:1905907",
+                    "evidence_code": "IEA",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "negative regulation of amyloid fibril formation",
+                    "go_id": "GO:1905907",
+                    "evidence_code": "TAS",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "9228033",
+                        "23106396"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of amyloid-beta formation",
+                    "go_id": "GO:1902430",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "12047389",
+                        "17412999"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of complement activation",
+                    "go_id": "GO:0045916",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "9200695",
+                        "34667172"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of complement-dependent cytotoxicity",
+                    "go_id": "GO:1903660",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "9200695",
+                        "34667172"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage",
+                    "go_id": "GO:1902230",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "16113678"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of neuron apoptotic process",
+                    "go_id": "GO:0043524",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "negative regulation of protein-containing complex assembly",
+                    "go_id": "GO:0031333",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "22179788",
+                        "23106396"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of protein-containing complex assembly",
+                    "go_id": "GO:0031333",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "16113678"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of release of cytochrome c from mitochondria",
+                    "go_id": "GO:0090201",
+                    "evidence_code": "TAS",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "21803450"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "negative regulation of response to endoplasmic reticulum stress",
+                    "go_id": "GO:1903573",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "21803450"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of amyloid fibril formation",
+                    "go_id": "GO:1905908",
+                    "evidence_code": "TAS",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "20005821"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of amyloid-beta formation",
+                    "go_id": "GO:1902004",
+                    "evidence_code": "IEA",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "positive regulation of amyloid-beta formation",
+                    "go_id": "GO:1902004",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "positive regulation of apoptotic process",
+                    "go_id": "GO:0043065",
+                    "evidence_code": "IEA",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "positive regulation of apoptotic process",
+                    "go_id": "GO:0043065",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "21567405"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of apoptotic process",
+                    "go_id": "GO:0043065",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "positive regulation of gene expression",
+                    "go_id": "GO:0010628",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "positive regulation of intrinsic apoptotic signaling pathway",
+                    "go_id": "GO:2001244",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "21567405"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of neurofibrillary tangle assembly",
+                    "go_id": "GO:1902998",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "15897157"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of nitric oxide biosynthetic process",
+                    "go_id": "GO:0045429",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "15857407"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of proteasomal ubiquitin-dependent protein catabolic process",
+                    "go_id": "GO:0032436",
+                    "evidence_code": "IBA",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "positive regulation of proteasomal ubiquitin-dependent protein catabolic process",
+                    "go_id": "GO:0032436",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "20068069"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of protein-containing complex assembly",
+                    "go_id": "GO:0031334",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "22179788"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of receptor-mediated endocytosis",
+                    "go_id": "GO:0048260",
+                    "evidence_code": "IGI",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "9228033"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of receptor-mediated endocytosis",
+                    "go_id": "GO:0048260",
+                    "evidence_code": "ISS",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "positive regulation of tumor necrosis factor production",
+                    "go_id": "GO:0032760",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "15857407"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "positive regulation of ubiquitin-dependent protein catabolic process",
+                    "go_id": "GO:2000060",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "20068069"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein folding",
+                    "go_id": "GO:0006457",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "11123922"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein import",
+                    "go_id": "GO:0017038",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "24446231"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein stabilization",
+                    "go_id": "GO:0050821",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "11123922",
+                        "12176985"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein targeting to lysosome involved in chaperone-mediated autophagy",
+                    "go_id": "GO:0061740",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "9228033"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "regulation of amyloid-beta clearance",
+                    "go_id": "GO:1900221",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "24446231"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "regulation of apoptotic process",
+                    "go_id": "GO:0042981",
+                    "evidence_code": "IBA",
+                    "qualifier": "involved_in"
+                  },
+                  {
+                    "name": "regulation of cell population proliferation",
+                    "go_id": "GO:0042127",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "19137541"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "regulation of neuronal signal transduction",
+                    "go_id": "GO:1902847",
+                    "evidence_code": "IMP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "21397462"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "release of cytochrome c from mitochondria",
+                    "go_id": "GO:0001836",
+                    "evidence_code": "IC",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "16113678"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "response to misfolded protein",
+                    "go_id": "GO:0051788",
+                    "evidence_code": "IDA",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "19996109"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "response to virus",
+                    "go_id": "GO:0009615",
+                    "evidence_code": "IEP",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "16548883"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "reverse cholesterol transport",
+                    "go_id": "GO:0043691",
+                    "evidence_code": "TAS",
+                    "qualifier": "involved_in",
+                    "reference": {
+                      "pmids": [
+                        "16682745"
+                      ]
+                    }
+                  }
+                ],
+                "cellular_components": [
+                  {
+                    "name": "Golgi apparatus",
+                    "go_id": "GO:0005794",
+                    "evidence_code": "ISS",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "apical dendrite",
+                    "go_id": "GO:0097440",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "9560017"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "blood microparticle",
+                    "go_id": "GO:0072562",
+                    "evidence_code": "HDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "22516433"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cell periphery",
+                    "go_id": "GO:0071944",
+                    "evidence_code": "IDA",
+                    "qualifier": "colocalizes_with",
+                    "reference": {
+                      "pmids": [
+                        "21803450"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cell surface",
+                    "go_id": "GO:0009986",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "17567961"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "chromaffin granule",
+                    "go_id": "GO:0042583",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cytoplasm",
+                    "go_id": "GO:0005737",
+                    "evidence_code": "EXP",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "12551933",
+                        "19137541",
+                        "20068069",
+                        "24073260"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cytoplasm",
+                    "go_id": "GO:0005737",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "9560017",
+                        "17689225",
+                        "22689054",
+                        "25051234"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cytoplasm",
+                    "go_id": "GO:0005737",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "cytoplasm",
+                    "go_id": "GO:0005737",
+                    "evidence_code": "TAS",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "23164821"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cytoskeleton",
+                    "go_id": "GO:0005856",
+                    "evidence_code": "IDA",
+                    "qualifier": "colocalizes_with",
+                    "reference": {
+                      "pmids": [
+                        "25051234"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cytosol",
+                    "go_id": "GO:0005829",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "22689054"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "cytosol",
+                    "go_id": "GO:0005829",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "endoplasmic reticulum",
+                    "go_id": "GO:0005783",
+                    "evidence_code": "EXP",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "16113678",
+                        "22689054"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "endoplasmic reticulum",
+                    "go_id": "GO:0005783",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "extracellular exosome",
+                    "go_id": "GO:0070062",
+                    "evidence_code": "HDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "19056867",
+                        "19199708",
+                        "23533145"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "extracellular region",
+                    "go_id": "GO:0005576",
+                    "evidence_code": "EXP",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "2387851",
+                        "2780565",
+                        "3154963",
+                        "8292612",
+                        "8328966",
+                        "17260971",
+                        "17412999",
+                        "17451556",
+                        "24073260"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "extracellular region",
+                    "go_id": "GO:0005576",
+                    "evidence_code": "HDA",
+                    "qualifier": "colocalizes_with",
+                    "reference": {
+                      "pmids": [
+                        "20551380"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "extracellular region",
+                    "go_id": "GO:0005576",
+                    "evidence_code": "HDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "16502470",
+                        "20551380",
+                        "27068509",
+                        "27559042"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "extracellular region",
+                    "go_id": "GO:0005576",
+                    "evidence_code": "IBA",
+                    "qualifier": "is_active_in"
+                  },
+                  {
+                    "name": "extracellular region",
+                    "go_id": "GO:0005576",
+                    "evidence_code": "IDA",
+                    "qualifier": "is_active_in",
+                    "reference": {
+                      "pmids": [
+                        "30333625"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "extracellular region",
+                    "go_id": "GO:0005576",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "11123922",
+                        "16113678",
+                        "17567961",
+                        "19996109"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "extracellular region",
+                    "go_id": "GO:0005576",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "extracellular region",
+                    "go_id": "GO:0005576",
+                    "evidence_code": "TAS",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "23164821",
+                        "25051234"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "intracellular membrane-bounded organelle",
+                    "go_id": "GO:0043231",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "22689054"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "membrane",
+                    "go_id": "GO:0016020",
+                    "evidence_code": "IDA",
+                    "qualifier": "colocalizes_with",
+                    "reference": {
+                      "pmids": [
+                        "25051234"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mitochondrial inner membrane",
+                    "go_id": "GO:0005743",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "17689225"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mitochondrial membrane",
+                    "go_id": "GO:0031966",
+                    "evidence_code": "EXP",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "16113678",
+                        "17689225"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mitochondrial membrane",
+                    "go_id": "GO:0031966",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "mitochondrion",
+                    "go_id": "GO:0005739",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "16113678",
+                        "22689054"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "mitochondrion",
+                    "go_id": "GO:0005739",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "neurofibrillary tangle",
+                    "go_id": "GO:0097418",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "9560017",
+                        "15897157"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "nucleus",
+                    "go_id": "GO:0005634",
+                    "evidence_code": "EXP",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "12551933"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "nucleus",
+                    "go_id": "GO:0005634",
+                    "evidence_code": "IBA",
+                    "qualifier": "is_active_in"
+                  },
+                  {
+                    "name": "nucleus",
+                    "go_id": "GO:0005634",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "19137541",
+                        "25051234"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "nucleus",
+                    "go_id": "GO:0005634",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "perinuclear endoplasmic reticulum lumen",
+                    "go_id": "GO:0099020",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "22689054"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "perinuclear region of cytoplasm",
+                    "go_id": "GO:0048471",
+                    "evidence_code": "IDA",
+                    "qualifier": "located_in",
+                    "reference": {
+                      "pmids": [
+                        "20068069",
+                        "21567405"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "perinuclear region of cytoplasm",
+                    "go_id": "GO:0048471",
+                    "evidence_code": "IEA",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "plasma membrane",
+                    "go_id": "GO:0005886",
+                    "evidence_code": "IDA",
+                    "qualifier": "is_active_in",
+                    "reference": {
+                      "pmids": [
+                        "30333625"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "platelet alpha granule lumen",
+                    "go_id": "GO:0031093",
+                    "evidence_code": "TAS",
+                    "qualifier": "located_in"
+                  },
+                  {
+                    "name": "protein-containing complex",
+                    "go_id": "GO:0032991",
+                    "evidence_code": "IDA",
+                    "qualifier": "part_of",
+                    "reference": {
+                      "pmids": [
+                        "9228033",
+                        "17567961"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "protein-containing complex",
+                    "go_id": "GO:0032991",
+                    "evidence_code": "TAS",
+                    "qualifier": "part_of",
+                    "reference": {
+                      "pmids": [
+                        "25051234"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "spherical high-density lipoprotein particle",
+                    "go_id": "GO:0034366",
+                    "evidence_code": "IDA",
+                    "qualifier": "part_of",
+                    "reference": {
+                      "pmids": [
+                        "16682745"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "synapse",
+                    "go_id": "GO:0045202",
+                    "evidence_code": "IEA",
+                    "qualifier": "is_active_in"
+                  }
+                ]
+              },
+              "map_locations": [
+                {
+                  "map_type": "Cytogenetic",
+                  "map_value": "8p21.1"
+                }
+              ]
+            },
+            "query": [
+              "12759"
+            ]
+          }
+        ],
+        "total_count": 1
+      }
+    }
+  ]
+}

@@ -121,5 +121,17 @@ RQ_Specified/A21_fzd4_capillary_function/metadata/history/REGISTER_A21_before.md
 "Research Article/gate2_N2_nabhan_2026/figures/publication_v1/source_data/*.tsv" whitespace=cr-at-eol,-blank-at-eol
 "Research Article/gate2_N2_nabhan_2026/runs/**/R_log.txt" whitespace=cr-at-eol,-blank-at-eol
 
+# A23 intake preserves exact config, reader, metadata and output hashes.
+RQ_Specified/A23_slc34a2_transition_homeostasis/** -text whitespace=cr-at-eol
+
 # A22 intake records exact config, reader and output hashes.
 RQ_Specified/A22_epithelial_identity_niche_response/** -text whitespace=cr-at-eol
+
+# Preserve generated SVG paths and empty TSV fields in archived A23 evidence.
+RQ_Specified/A23_slc34a2_transition_homeostasis/figures/**/*.svg whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A23_slc34a2_transition_homeostasis/tables/**/*.tsv whitespace=cr-at-eol,-blank-at-eol
+
+# Extension figure receipts retain exact generator and vector bytes.
+analysis/scripts/plot_a22_a23_extensions*.py -text whitespace=cr-at-eol
+RQ_Specified/A22_epithelial_identity_niche_response/figures/**/*.svg whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A22_epithelial_identity_niche_response/tables/**/*.tsv whitespace=cr-at-eol,-blank-at-eol

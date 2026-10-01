@@ -1,0 +1,14 @@
+{
+  "paired_wells": 771,
+  "imaging_wells": 886,
+  "eligible_wells": 672,
+  "eligible_targets": 201,
+  "excluded_reason_counts": {
+    "reference_control_excluded": 98,
+    "reference_control_excluded;invalid_imaging_or_depth": 1
+  },
+  "identity_panel_overlap_targets": [
+    "SFTPD"
+  ],
+  "timing": "day14 RNA concurrent with day14 imaging; day7 also post-perturbation"
+}

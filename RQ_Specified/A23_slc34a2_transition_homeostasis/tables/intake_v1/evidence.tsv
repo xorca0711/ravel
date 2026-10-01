@@ -1,0 +1,20 @@
+kind	endpoint	variant	value	source_units	source
+baseline	transition_figure3	mouse_QC	0.5237668284454798	8 target wells on plate4; independent preparations unresolved	runs/R4_v1/fixed_panel_effects.tsv
+baseline	AT2_figure3	mouse_QC	-0.11003499787223117	8 target wells on plate4; independent preparations unresolved	runs/R4_v1/fixed_panel_effects.tsv
+baseline	AT1_maintext	mouse_QC	0.062470650441086906	8 target wells on plate4; independent preparations unresolved	runs/R4_v1/fixed_panel_effects.tsv
+individual_marker	Krt8	mouse_QC	0.435812138077	8 technical target wells	runs/followup_v1/individual_marker_effects.tsv
+individual_marker	Sprr1a	mouse_QC	0.437795996386	8 technical target wells	runs/followup_v1/individual_marker_effects.tsv
+individual_marker	Clu	mouse_QC	0.697692350874	8 technical target wells	runs/followup_v1/individual_marker_effects.tsv
+sensitivity_range	transition_figure3	TIGIT_only_min	0.490405345621	technical omission/control range, not a confidence interval	runs/followup_v1/panel_sensitivity_summary.tsv
+sensitivity_range	transition_figure3	TIGIT_only_max	0.490405345621	technical omission/control range, not a confidence interval	runs/followup_v1/panel_sensitivity_summary.tsv
+sensitivity_range	transition_figure3	omit_gene_min	0.436804067231	technical omission/control range, not a confidence interval	runs/followup_v1/panel_sensitivity_summary.tsv
+sensitivity_range	transition_figure3	omit_gene_max	0.56774417363	technical omission/control range, not a confidence interval	runs/followup_v1/panel_sensitivity_summary.tsv
+sensitivity_range	transition_figure3	omit_target_well_min	0.488182864049	technical omission/control range, not a confidence interval	runs/followup_v1/panel_sensitivity_summary.tsv
+sensitivity_range	transition_figure3	omit_target_well_max	0.566873324489	technical omission/control range, not a confidence interval	runs/followup_v1/panel_sensitivity_summary.tsv
+sensitivity_range	transition_figure3	tdTomato_only_min	0.623851276918	technical omission/control range, not a confidence interval	runs/followup_v1/panel_sensitivity_summary.tsv
+sensitivity_range	transition_figure3	tdTomato_only_max	0.623851276918	technical omission/control range, not a confidence interval	runs/followup_v1/panel_sensitivity_summary.tsv
+counterexample	AT1_maintext	omit_gene_min	-0.0062698806857	near-zero marker summary; not preserved function	runs/followup_v1/panel_sensitivity_summary.tsv
+counterexample	AT1_maintext	omit_gene_max	0.130868012742	near-zero marker summary; not preserved function	runs/followup_v1/panel_sensitivity_summary.tsv
+depth_sensitivity	AT2_figure3	paired_baseline	-0.13558177852	7 paired-QC target wells; conditioning is not causal adjustment	runs/followup_v1/paired_depth_effects.tsv
+depth_sensitivity	AT2_figure3	paired_depth	-0.21887356057	7 paired-QC target wells; conditioning is not causal adjustment	runs/followup_v1/paired_depth_effects.tsv
+target_RNA	Slc34a2	gene_DE	-0.870178734992	transcript consistency; not protein or transport validity	runs/followup_v1/target_transcript_checks.tsv

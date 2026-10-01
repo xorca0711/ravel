@@ -1,0 +1,58 @@
+{
+  "schema": "a23-intake/v1",
+  "date": "2026-10-01",
+  "source_base_commit": "a397cc1",
+  "purpose": "Verify already exposed source results and metadata gates; no new biological fit",
+  "target": "SLC34A2",
+  "baseline_wells": 8,
+  "paired_depth_wells": 7,
+  "plate": "plate4",
+  "baseline_programs": {
+    "transition_figure3": 0.524,
+    "AT2_figure3": -0.11,
+    "AT1_maintext": 0.062
+  },
+  "transition_markers": [
+    "Krt8",
+    "Sprr1a",
+    "Clu"
+  ],
+  "paired_AT2": {
+    "paired_baseline": -0.136,
+    "paired_depth": -0.219
+  },
+  "inputs": [
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/config/Nb3_followup_v1.json",
+      "sha256": "841c6dd3609c53da28399d1db575c5b123000ed43f385a260fd79c535ebe6d42"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/run_record.json",
+      "sha256": "f38b556d0407800a43dc9056556ae7595c80e7819a83e4960d859a5225af0b63"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R4_v1/fixed_panel_effects.tsv",
+      "sha256": "6cd5e99c085732bcf6b574164ff5d0e1593e5b2f008b5f4138d37c525e2e9b13"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/panel_sensitivity_summary.tsv",
+      "sha256": "ca8fe4174b9a75a43d87b546ad79e5b2e8b47ad4810b375987bd9c9c626cec73"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/individual_marker_effects.tsv",
+      "sha256": "14de007aae0b070eb3aad517ad7cb6bf63e2532f87bd88515f45cd6ea042f176"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/paired_depth_effects.tsv",
+      "sha256": "089331f528d75387fd6905cd329fc796cb2dc5e00c28a5659364c707b2c31c3d"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/target_transcript_checks.tsv",
+      "sha256": "5d2a8d4a8238e0af07e43711260e81d3616017730a0c072fdbbe1c3bbd9898ff"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_source_v1/GSE199329_metadata.json",
+      "sha256": "12d32159d116545d59cf35a54ab1353727eacddebcb8de1cc5cabd385d81b4e1"
+    }
+  ]
+}

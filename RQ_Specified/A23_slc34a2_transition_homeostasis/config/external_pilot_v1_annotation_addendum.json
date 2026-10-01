@@ -1,0 +1,12 @@
+{
+  "saved_utc": "2026-10-01T06:38:29.829703+00:00",
+  "exposure": "Workbook assay labels and first rows inspected; no count-derived readout summaries inspected.",
+  "new_resource": "Source workbook Fig 2a contains published barcode, cell type, group and UMAP coordinates.",
+  "decision": "Keep marker-defined candidates as frozen primary. Cross-tabulate published labels after exact prefix-plus-barcode matching; report missing and duplicate keys. Published AT2 intersections are a sensitivity, not independent replication.",
+  "prefix_map": {
+    "PAMCD45_neg": "GSM5970468",
+    "PAMCD45_pos": "GSM5970469",
+    "D071": "GSM5970470"
+  },
+  "no_tuning": "Do not alter marker thresholds or silently include raw-matrix barcodes to match the paper."
+}
