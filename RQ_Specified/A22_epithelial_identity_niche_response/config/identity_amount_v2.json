@@ -1,0 +1,89 @@
+{
+  "schema": "a22-identity-amount/v2",
+  "frozen_utc": "2026-10-01T07:32:33.124432+00:00",
+  "status": "post-v1 sensitivity amendment, before v2 fits; primary v1 outcomes already known",
+  "hypothesis": "Epithelial identity adds descriptive information about recipient chemokine RNA beyond amount-related proxies.",
+  "inputs": [
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_panel_scores.tsv",
+      "sha256": "81ce02adcb9ca80ce61df586ccc3b8fcc4bb1d9f2d95c1ccf504a659d381896c"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_panel_scores.tsv",
+      "sha256": "8fd4be1226a7b792aa2a07eb2b12af9ab15e2fcb44cb0368676afe2708d38c31"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_panel_eligibility.tsv",
+      "sha256": "a883da7c64751eef5aed3f7da293d92e643aeb68c0f0acaa376cbb99b14cd70b"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_panel_eligibility.tsv",
+      "sha256": "9cb326457eb0822e0b0dc84fb3e927384314eaa28ad8c51414c9ffea357eda42"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R4_v1/paired_library_QC.tsv",
+      "sha256": "e49690e9498c6c0fe23bcecf46451549c8cad00362b94d28a1b2f19ae9bb9afc"
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/tables/well_join.tsv",
+      "sha256": "5bbb3debca16b63b21bf14bc91e86856f1b8bfaf6d9f37bfe7b4d8f63ef39774"
+    },
+    {
+      "path": "RQ_Specified/A10_organoid_growth_outcome/reports/ENDPOINT_TIMING_UNITS_2026-09-28.md",
+      "sha256": "fb0d9851456ec3d7de52a13d28b6a88408679374b07097093fdd97d728138397"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/00_v1/target_identity.tsv",
+      "sha256": "98f85f631fbe7320b7caba3f5c7d526da4ba4654158fe5f5e5a18678a1693235"
+    }
+  ],
+  "primary_outcome": "chemokines_figure4",
+  "secondary_outcome": "wound_figure4",
+  "identity": "AT2_figure3",
+  "population": "one-to-one intersection of paired species QC, fixed panel scores and complete nonnegative day7/day14 imaging; positive species read totals; exclude TIGIT and TDTOMATO from all train/test sets",
+  "controls": [
+    "TIGIT",
+    "TDTOMATO"
+  ],
+  "baseline_features": [
+    "deposited mean area day07",
+    "deposited mean area day14",
+    "log1p organoid count day07",
+    "log1p organoid count day14",
+    "deposited area proportion day07",
+    "deposited area proportion day14",
+    "log2 mouse reads",
+    "log2 human reads"
+  ],
+  "plate_handling": "target holdouts include training-derived plate indicator columns; whole-plate holdouts omit plate indicators",
+  "model": "weighted OLS with intercept; each training target has total weight one; training-only feature standardization; drop training-constant columns; abort rank-deficient designs; no tuning",
+  "variants": [
+    "primary",
+    "without_NKX21",
+    "without_identity_panel_targets",
+    "without_NKX21_and_identity_panel_targets"
+  ],
+  "panel_overlap": "match source mouse gene names case-insensitively to inherited AT2 panel; exclude entire target groups in declared sensitivity",
+  "evaluation": {
+    "target_holdout": "5 target groups; stable SHA256(target) lexical order on the complete eligible primary target universe, assigned round-robin once and held fixed across all exclusion variants",
+    "plate_shift": "leave one whole plate out; also purge its targets from training even if present on other plates",
+    "metrics": [
+      "well MSE/RMSE",
+      "equal-target MSE/RMSE",
+      "relative equal-target MSE reduction 1-full/base",
+      "per-target error changes and every fold"
+    ],
+    "minimum": "each fold >=20 training targets and >=5 test targets; all four plates present for target holdouts"
+  },
+  "reference_handling": "No outcome centering and no shared-control contrasts. No test outcome used to fit transformations. Inherited whole-screen TMM scores remain fixed, so upstream normalization exposes held-out count distributions; this is a retrospective diagnostic conditional on that normalization, not clean prospective validation.",
+  "decision": "Report continuous error changes and fold signs; no arbitrary biological utility threshold. Broad identity generalization needs consistency across target/plate diagnostics and exclusions; inconsistency narrows only this operational predictor.",
+  "limits": [
+    "technical wells and perturbation targets are not independent preparations",
+    "post-treatment adjustment cannot identify causal mediation",
+    "imaging and RNA are amount-related proxies, not viable cell counts",
+    "no recipient state, protein or function measurements",
+    "source S5 discrepancy remains open",
+    "same-screen follow-up, not independent validation"
+  ],
+  "amendment": "v1 assigned folds separately after each exclusion, changing retained targets between folds. Preserve v1 as archived. v2 freezes membership on the complete primary universe before any exclusion, isolating omission sensitivities from fold reassignment. Other models/populations/scales unchanged."
+}
