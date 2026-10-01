@@ -1,0 +1,81 @@
+{
+  "schema": "a23-transporter-context/v1",
+  "frozen_utc": "2026-10-01T07:26:08.512077+00:00",
+  "status": "conditional compensation candidate motivated by prior pilot; saved before these transporter values/associations are inspected",
+  "hypothesis": "Insufficient alternative phosphate handling may condition epithelial stress after SLC34A2 impairment; RNA associations are only descriptive prerequisites, not flux tests.",
+  "inputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_acquisition_v1/raw_matrices.json",
+      "sha256": "8b5d3c58017b9f75f1a8af40834742ba91b08e89914f672bc69fd4076e7137b9"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/published_cell_audit_v1/cell_selection.tsv",
+      "sha256": "644e52f67c3c28ea0e96d500664851f1d1a9ff74ecee5ffee5affb28389032b5"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/cell_selection.tsv",
+      "sha256": "cdb907711f469b455be516b7ff52fe26f21b7bbeb94b8b86f324e3ade34ec56f"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/external_pilot_v2.json",
+      "sha256": "74ec394bd4163e16cac7670baa739966ccb054130df19316da4526b0a228b552"
+    }
+  ],
+  "new_readouts": [
+    "SLC20A1",
+    "SLC20A2"
+  ],
+  "context_readouts": [
+    "SLC34A2",
+    "KRT8",
+    "SPRR1A",
+    "CLU"
+  ],
+  "libraries": [
+    "GSM5970468",
+    "GSM5970469",
+    "GSM5970470"
+  ],
+  "primary_comparison": [
+    "GSM5970468",
+    "GSM5970470"
+  ],
+  "context_only_library": "GSM5970469",
+  "selections": [
+    "AT2_candidate_primary",
+    "AT2_candidate_strict",
+    "published_AT2_all",
+    "published_AT2_primary",
+    "published_AT2_strict"
+  ],
+  "selection_rule": "Reuse exact archived library+barcode selection memberships without adapting any marker/QC thresholds; recover from raw matrices; require matching archived total UMI and unique symbols/stable IDs.",
+  "summaries": [
+    "n",
+    "n_detected",
+    "fraction_detected",
+    "mean_log1p_10k",
+    "sum_count_CPM"
+  ],
+  "comparison": "PAM minus control difference of library summaries; no cell-derived p-values, biological CI or tissue composition estimate",
+  "associations": {
+    "pairs": "each of SLC20A1,SLC20A2 versus each of KRT8,SPRR1A,CLU within each library and selection separately",
+    "methods": [
+      "Spearman",
+      "partial rank correlation after residualizing both ranked variables on ranked total UMI and ranked detected-gene count"
+    ],
+    "coverage": "at least 50 cells and both genes detected in >=20 cells and >=5% of selected cells; otherwise report not_estimable",
+    "depth_controls": "report each variable versus total UMI and n_genes, including for all primary and secondary pairs",
+    "scope": "cell associations describe a sampled library, not biological replication, compensation or within-cell causal effects"
+  },
+  "sources": [
+    "https://www.nature.com/articles/s41467-023-36810-8"
+  ],
+  "decision": "Concordant negative depth-conditional associations could nominate linked mechanistic follow-up only; inconsistent/missing associations weaken use of transporter RNA as a buffering surrogate. Neither direction tests actual compensatory flux.",
+  "limits": [
+    "one case and one control; age/disease/donor inseparable",
+    "source mouse assays are unlinked to human cells",
+    "transporter RNA is not flux",
+    "no timing, restoration or mature function",
+    "annotation/ambient/doublet uncertainty remains"
+  ]
+}
