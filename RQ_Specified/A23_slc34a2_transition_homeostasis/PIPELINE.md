@@ -1,5 +1,26 @@
 # A23 analysis pipeline: phosphate homeostasis and epithelial state
 
+## Current extension structure and execution
+
+1. **Freeze the candidate:** new readouts SLC20A1/SLC20A2, inherited
+   SLC34A2/KRT8/SPRR1A/CLU context, and five unchanged archived AT2 selections.
+2. **Recover and describe:** read raw-matrix counts for exact selected barcodes,
+   check archived QC totals, and retain detection, mean log-normalized RNA and
+   aggregate CPM as separate summaries. Keep the two case fractions separate.
+3. **Depth sensitivity:** report each transporter–marker rank association within
+   each library, with both variables conditioned on depth and detected-gene count.
+   Apply the fixed coverage gate; missing associations are never zero.
+4. **Strict review:** distinguish transporter RNA from flux, the mouse dietary
+   assays from human case observations, and conditional plausibility from mechanism.
+
+These steps are executed under [transporter_context_v1](config/transporter_context_v1.json).
+[Results](reports/transporter_context_v1/RESULTS.md) | [Figure 5](FIGURES.md#figure-5-alternative-transporter-context).
+The proposed RNA-surrogate explanation is unsupported by this case; functional
+compensation itself remains untested. P4 timing and P5 restoration remain gated
+by missing linked replicated measurements. No additional within-case fitting
+can supply independent units or measured phosphate transport.
+
+
 **1 October 2026 update.** P0/P1 intake and P2/P3 descriptive analysis are executed.
 [External results](reports/external_pilot_v2/RESULTS.md) and [figures](FIGURES.md)
 record the current evidence. P4/P5 remain gated. The stage design below preserves

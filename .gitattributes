@@ -130,3 +130,8 @@ RQ_Specified/A22_epithelial_identity_niche_response/** -text whitespace=cr-at-eo
 # Preserve generated SVG paths and empty TSV fields in archived A23 evidence.
 RQ_Specified/A23_slc34a2_transition_homeostasis/figures/**/*.svg whitespace=cr-at-eol,-blank-at-eol
 RQ_Specified/A23_slc34a2_transition_homeostasis/tables/**/*.tsv whitespace=cr-at-eol,-blank-at-eol
+
+# Extension figure receipts retain exact generator and vector bytes.
+analysis/scripts/plot_a22_a23_extensions*.py -text whitespace=cr-at-eol
+RQ_Specified/A22_epithelial_identity_niche_response/figures/**/*.svg whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A22_epithelial_identity_niche_response/tables/**/*.tsv whitespace=cr-at-eol,-blank-at-eol

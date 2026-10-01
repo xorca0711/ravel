@@ -1,5 +1,27 @@
 # AI context
 
+## A22/A23 extensions executed, 1 October 2026
+
+The owner requested structuring and execution of the narrowed extensions.
+[A22 P2](RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md)
+uses 672 wells/201 targets: +0.64% target-held-out error reduction becomes
+−0.97% without NKX21; whole-plate error reduction is −35.00%. Fixed-fold v2
+supersedes regrouped-fold v1 for exclusion comparisons; both remain archived.
+[A23 transporter context](RQ_Specified/A23_slc34a2_transition_homeostasis/reports/transporter_context_v1/RESULTS.md)
+finds lower SLC20A1/2 RNA in the PAM case across five selections and small mixed
+depth-conditional associations. Increased transporter RNA is unsupported as an
+explanation; compensatory flux remains untested. Each RQ has an added current
+figure and a reviewed conditional-branch update. Main README and claim grades
+are unchanged. Independent raw-marker/model checks, 79 tests (one skip),
+claim checks and repository validation passed. The old A23 gallery is preserved
+in a byte-exact snapshot; `08_verify_external_current.py` checks its historical
+receipt without rewriting the original verifier or numerical evidence. Next scientific
+steps require state/amount attribution and linked protein/function for A22,
+and replicated transport/state/time/restoration measurements for A23.
+Scientific acceptance remains the owner's; current PR delivery is execution,
+not retain/reject or merge authorization. Preserve all frozen scripts/configs.
+
+
 ## A23 external analysis executed, 1 October 2026
 
 The owner requested continuation of the [A23 pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md).

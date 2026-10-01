@@ -69,4 +69,4 @@ unresolved, and the captions carry those limits.
 
 ## Nb3-derived questions, 1 October 2026
 
-A22 retains its rationale/test plan without new question-specific data figures. A23 now has five current external-analysis figures in its gallery above. Their completed source-screen evidence remains in the [Nb3 gallery](../Research%20Article/gate2_N2_nabhan_2026/FIGURES.md), with 12 paper-style figures and source tables. No duplicate image assets or claim grades are created here.
+A22 now has [one current identity–amount diagnostic figure](A22_epithelial_identity_niche_response/FIGURES.md). A23 now has [six current figures](A23_slc34a2_transition_homeostasis/FIGURES.md), including the transporter-context extension. Their completed source-screen evidence remains in the [Nb3 gallery](../Research%20Article/gate2_N2_nabhan_2026/FIGURES.md), with 12 paper-style figures and source tables. No duplicate image assets or claim grades are created here.

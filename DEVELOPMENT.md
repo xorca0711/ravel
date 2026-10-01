@@ -2284,3 +2284,19 @@ pattern persists under both frozen QC rules. No outcome-based threshold change
 or independent-replication claim was made.
 
 The delivery dependency audit found that the repository's broad PDF ignore rule excluded the six generated A23 PDFs (five current and one superseded). A scoped figure exception, matching the existing A19-A21 and Nb3 convention, includes those receipt dependencies; source PDFs remain ignored.
+
+
+## A22/A23 extension execution, 1 October 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | Structure and execute A22 identity–amount and A23 transporter-RNA extensions | Codex, following the narrowed RQ discussion | Owner authorized execution; scientific acceptance pending | Two versioned analyses, reports, figures and reviewed conditional branches deposited | Test available discriminators while keeping state, protein, transport, time and recovery gaps explicit |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-01 | A22 v1 exclusion comparisons regenerated target folds | Omission effects were mixed with fold reassignment; v2 fixes the primary assignment across variants and preserves v1 | Codex during verification; no human rejection invented |
+| 2026-10-01 | Initial extension-figure legend placement | A22 panel B and A23 panel B legends crowded observations; layout-v2 figures move legends and preserve initial renders | Codex visual review; numerical results unchanged |
+
+The executed analyses weaken the broad A22 operational predictor and do not
+support increased transporter RNA as an A23 buffering explanation. They do
+not establish causal absence or change the owner's retain/reject decisions.

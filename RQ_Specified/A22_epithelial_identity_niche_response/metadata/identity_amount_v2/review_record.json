@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-01",
+  "scope": "Technical verification and scientific interpretation review; not owner retain/reject",
+  "checks": [
+    "independent unstandardized weighted fit recovers target fold 1 predictions",
+    "fixed target-fold membership across all exclusion variants",
+    "test targets absent from training including whole-plate purges",
+    "all saved error metrics recomputed from held-out predictions",
+    "A23 raw-count normalization and rank associations independently recovered",
+    "both corrected scientific figures visually checked"
+  ],
+  "amendments": [
+    "A22 v1 fold-regrouping limitation preserved and corrected in v2 before its fits",
+    "initial figure legends moved in fresh layout-v2 directories",
+    "A23 historical gallery archived byte-for-byte; original numerical receipts and verifier unchanged"
+  ],
+  "remaining": [
+    "no independent A22 preparation mapping or secreted output/function",
+    "one A23 case and one control; RNA not compensatory flux",
+    "no linked epithelial time/restoration/function measurements"
+  ]
+}

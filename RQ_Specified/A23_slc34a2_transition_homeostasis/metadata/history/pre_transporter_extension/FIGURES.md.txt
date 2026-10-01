@@ -1,6 +1,6 @@
 # A23 figure gallery
 
-**1 October 2026.** Six current figures (five main and one supplementary) from the descriptive P2 pilot and P3
+**1 October 2026.** Five current figures (four main and one supplementary) from the descriptive P2 pilot and P3
 source-assay audit. [Results](reports/external_pilot_v2/RESULTS.md) |
 [Analysis receipt](metadata/external_pilot_v2/run_record.json) |
 [Rendering receipt](metadata/external_pilot_v2/figure_record.json) |
@@ -87,26 +87,3 @@ lack of a coordinated transition-marker increase, but does not independently
 validate the author annotations or establish absence of a biological effect.
 [Differences](tables/published_cell_audit_v1/marker_differences.tsv) |
 [Receipt](metadata/published_cell_audit_v1/run_record.json).
-
-## Figure 5. Alternative-transporter context
-
-![Transporter RNA context](figures/transporter_context_v1_layout_v2/F5_transporter_context.png)
-
-[PDF](figures/transporter_context_v1_layout_v2/F5_transporter_context.pdf) | [SVG](figures/transporter_context_v1_layout_v2/F5_transporter_context.svg)
-
-A, mean log-normalized transporter RNA in primary AT2 candidates from one PAM
-case and one control. Counts in the legend are cells, not biological replicates.
-B, PAM minus control differences under five overlapping selection rules.
-C, within-library rank associations after conditioning both variables on total
-UMI and detected-gene count; candidate means primary QC, published means the
-complete published AT2 annotation. SPRR1A fails the detection gate and is not
-plotted as zero. No p-values or biological confidence intervals are shown.
-RNA abundance and conditional associations do not measure compensatory flux.
-
-[Results](reports/transporter_context_v1/RESULTS.md) |
-[Summaries](tables/transporter_context_v1/summaries.tsv) |
-[Associations](tables/transporter_context_v1/associations.tsv) |
-[Current rendering receipt](metadata/transporter_context_v1/figure_record_v2.json).
-The [initial rendering receipt](metadata/transporter_context_v1/figure_record.json)
-preserves a layout whose panel-B legend crowded observations. The current
-layout moves it without changing numerical results.

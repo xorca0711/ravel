@@ -1,0 +1,68 @@
+{
+  "status": "completed descriptive transporter RNA context",
+  "completed_utc": "2026-10-01T07:31:24.606205+00:00",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "h5py": "3.16.0",
+  "inputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_acquisition_v1/raw_matrices.json",
+      "sha256": "8b5d3c58017b9f75f1a8af40834742ba91b08e89914f672bc69fd4076e7137b9"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/published_cell_audit_v1/cell_selection.tsv",
+      "sha256": "644e52f67c3c28ea0e96d500664851f1d1a9ff74ecee5ffee5affb28389032b5"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/cell_selection.tsv",
+      "sha256": "cdb907711f469b455be516b7ff52fe26f21b7bbeb94b8b86f324e3ade34ec56f"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/external_pilot_v2.json",
+      "sha256": "74ec394bd4163e16cac7670baa739966ccb054130df19316da4526b0a228b552"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970468_raw_gene_bc_matrices_h5.h5",
+      "sha256": "12e57884a7d517781edfd1b9e9a2c50e141c6b295ebc631d733288504991e8e3"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970469_raw_gene_bc_matrices_h5.h5",
+      "sha256": "51f1af124ec9b9eb5afd8b3693ef190623513ff8ef3393e9f076a3c2fa371010"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970470_raw_gene_bc_matrices_h5.h5",
+      "sha256": "7ea168b631f415c495a409ce1b5b7ca6762ba255570632da99b2ed785c607c6d"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/transporter_context_v1.json",
+      "sha256": "af299bcd2f3030387688a4d6b28bc00667a7afcc04a99c2863a00c784a412bda"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/07_transporter_context.py",
+      "sha256": "49a265fd7f871aead30d7e659f1c0bba96e9cd57fbed01b4b84774a3216538e8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/transporter_context_v1/associations.tsv",
+      "sha256": "76e7b3156aa8af1e23bab0c27d17ecca4c22dc40d5cb5832b5bd947e42d5c574"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/transporter_context_v1/coverage.tsv",
+      "sha256": "82910d621120e0c2f7a6174612eb3d1c578faf23be21a06259203378801c3952"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/transporter_context_v1/differences.tsv",
+      "sha256": "0c7578bfafec674d7b5dcb07827f24411d640c5328ebb5c0df6a10882b411217"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/transporter_context_v1/gene_mapping.tsv",
+      "sha256": "09b4dbee87d9fb25918710c9a19b473645e82d196d7fde7c28ebb5f729346594"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/transporter_context_v1/summaries.tsv",
+      "sha256": "5597d92a758b2374342bec6498575d01969d48b48cdc75472772a4959c82c955"
+    }
+  ]
+}

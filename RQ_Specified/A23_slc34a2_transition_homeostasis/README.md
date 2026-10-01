@@ -1,5 +1,16 @@
 # A23: does phosphate homeostasis constrain entry into an alveolar transition state?
 
+## Transporter extension executed, 1 October 2026
+
+[New results](reports/transporter_context_v1/RESULTS.md) |
+[Contract](config/transporter_context_v1.json) | [Figure 5](FIGURES.md#figure-5-alternative-transporter-context).
+SLC20A1 and SLC20A2 RNA are lower in the PAM case across five fixed AT2
+selections. Within-case depth-conditional associations with KRT8/CLU are small
+and mixed. Increased alternative-transporter RNA is unsupported as an
+explanation for the absent coordinated transition pattern. Compensatory flux,
+time and recovery remain unmeasured; the functional candidate remains conditional.
+
+
 **Proposed 1 October 2026; P2 descriptive analysis and P3 source audit executed; causal
 sequence open.** The [shared question card](../../RESEARCH_QUESTIONS.md#a23) owns the
 hypothesis. The owner requested derivation after the Nb3 follow-up; retain/reject
@@ -53,3 +64,9 @@ the marker pattern persists. Independent annotation/ambient-RNA assessment remai
 a limit on finer state interpretation. P4 and P5 need
 linked replicated transport/state/time and restoration/function data. The source
 workbook cannot connect those endpoints across its unlabelled animal rows.
+
+The current archived-pilot verification command is
+`python RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/08_verify_external_current.py`.
+It checks the unchanged numerical records and the
+[original gallery snapshot](metadata/history/pre_transporter_extension/snapshot.json).
+The original verifier remains preserved for its historical checkout.

@@ -1,6 +1,17 @@
 # A22: does epithelial identity determine fibroblast chemokine competence?
 
-**Proposed 1 October 2026; pipeline structured, intake verified, mechanism open.**
+## Executed extension, 1 October 2026
+
+[Identity–amount results](reports/identity_amount_v2/RESULTS.md) |
+[Figure gallery](FIGURES.md) | [Frozen v2 contract](config/identity_amount_v2.json).
+The same-screen P2 extension now covers 672 wells and 201 targets. Identity
+reduces equal-target held-out MSE by 0.64%, but worsens it by 0.97% after NKX21
+omission and by 35.00% in whole-plate prediction. The broad operational
+predictor is weakened; the focal mechanism, within-state response and
+protein/function hypotheses remain open. No scientific acceptance or grade changes.
+
+
+**Proposed 1 October 2026; P2 descriptive extension executed, mechanism open.**
 The [shared question card](../../RESEARCH_QUESTIONS.md#a22) owns the hypothesis.
 The owner requested derivation after Nb3 follow-up; retain/reject and scientific
 acceptance remain open. No claim grade is added.
@@ -29,20 +40,19 @@ does not establish a general rule or a growth-independent causal effect.
 | [Nb3 follow-up](../../Research%20Article/gate2_N2_nabhan_2026/reports/FOLLOWUP_RESULTS.md) | Completed analysis, sensitivities and remaining source/design gaps |
 | [Nb3 figures](../../Research%20Article/gate2_N2_nabhan_2026/FIGURES.md) | Figures 4, 7 and 8 plus source tables |
 
-No new question-specific biological fit is claimed here. The paper package
-retains ownership of all computed evidence. Corrected human S5/code,
+The paper package retains ownership of the motivating discovery fits; A22 owns
+the new P2 diagnostic fits. Corrected human S5/code,
 independent preparations, state/composition measurements and a secreted-protein/
 recipient-function endpoint are still needed for the stronger answer.
 
 ## Execution status and next step
 
 P0 ran as a provenance/evidence audit. P1 has a bounded source registry; no
-independent RNA or functional source is admitted yet. P2 is the next numerical
-arm: audit the existing RNA-imaging join and freeze a descriptive comparison of
-amount-related proxies versus those proxies plus epithelial identity for the
-fibroblast chemokine response. P3-P5 have separate source/design gates and need
+independent RNA or functional source is admitted yet. P2 has completed the RNA–imaging join and frozen descriptive comparison of
+amount-related proxies versus proxies plus epithelial identity. P3-P5 have separate source/design gates and need
 not wait for a favorable P2 result. Details and the runnable intake commands are
 in the [pipeline](PIPELINE.md#run-the-intake).
 
-The pipeline draft is not a frozen confirmatory contract. No new biological fit,
-functional result, scientific figure or claim-grade promotion is reported.
+The pipeline draft remains historical. The executed extension uses a separate
+exploratory contract and adds one current figure. No functional result or
+claim-grade promotion is reported.
