@@ -1,0 +1,80 @@
+{
+  "schema": "a22-intake/v1",
+  "date": "2026-10-01",
+  "purpose": "Hash-checked extraction of already exposed evidence and recorded metadata gates; no new fit",
+  "source_base_commit": "775ee02",
+  "target": "NKX21",
+  "endpoints": [
+    {
+      "species": "mouse",
+      "program": "AT2_figure3",
+      "expected_rounded_effect": -2.072
+    },
+    {
+      "species": "human",
+      "program": "chemokines_figure4",
+      "expected_rounded_effect": -3.357
+    },
+    {
+      "species": "human",
+      "program": "wound_figure4",
+      "expected_rounded_effect": 1.468
+    }
+  ],
+  "expected_chemokine_genes": [
+    "CCL2",
+    "CXCL1",
+    "CXCL2",
+    "CXCL3",
+    "CXCL6",
+    "CXCL8",
+    "CXCL12"
+  ],
+  "expected_common_targets": 195,
+  "inputs": [
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/config/Nb3_followup_v1.json",
+      "sha256": "841c6dd3609c53da28399d1db575c5b123000ed43f385a260fd79c535ebe6d42"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/run_record.json",
+      "sha256": "f38b556d0407800a43dc9056556ae7595c80e7819a83e4960d859a5225af0b63"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R4_v1/fixed_panel_effects.tsv",
+      "sha256": "6cd5e99c085732bcf6b574164ff5d0e1593e5b2f008b5f4138d37c525e2e9b13"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/panel_sensitivity_summary.tsv",
+      "sha256": "ca8fe4174b9a75a43d87b546ad79e5b2e8b47ad4810b375987bd9c9c626cec73"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/individual_marker_effects.tsv",
+      "sha256": "14de007aae0b070eb3aad517ad7cb6bf63e2532f87bd88515f45cd6ea042f176"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/paired_depth_effects.tsv",
+      "sha256": "089331f528d75387fd6905cd329fc796cb2dc5e00c28a5659364c707b2c31c3d"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/paired_depth_associations.tsv",
+      "sha256": "d4efc7e22e0a27459f6ce9d792ef234fac4a1d019e1759f5c70cd5bb780b77bb"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/target_transcript_checks.tsv",
+      "sha256": "5d2a8d4a8238e0af07e43711260e81d3616017730a0c072fdbbe1c3bbd9898ff"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R5_v1/GSE307128_metadata.json",
+      "sha256": "8d416bb64efd19985f18d3924c63d8a3bb43566a2d7bd6da1fb3e30a5a170521"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R5_v1/GSE215824_metadata.json",
+      "sha256": "4af17166ea46079e8bc4f2d2c519ca89bbca790cd6be71e36405290cbd19e9ab"
+    },
+    {
+      "path": "Research Article/gate2_N2_nabhan_2026/runs/R5_v1/GSE122960_metadata.json",
+      "sha256": "8c5f4a846cd6cb635d308ecce41f5bfd7e68bb863c5296d04650fbeef5895d51"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "schema": "a22-analysis-pipeline/v1",
+  "date": "2026-10-01",
+  "question_id": "A22",
+  "status": "draft_for_future_fits; intake_only_executable",
+  "owner_request": "Structure the A22 analysis pipeline",
+  "prior_exposure": [
+    "Nb3 source narrative and all v1/followup outputs",
+    "A10 growth follow-up",
+    "A22 rationale and existing post-analysis hypothesis"
+  ],
+  "new_claim_grades": false,
+  "new_biological_fits": false,
+  "hypothesis": "NKX2-1-dependent epithelial identity contributes to fibroblast chemokine competence beyond epithelial amount alone.",
+  "primary_functional_endpoint": "Source-attributed secreted chemokine output; CCL2 remains a candidate until assay/source eligibility is fixed.",
+  "secondary_functional_endpoint": "Prespecified recipient recruitment or migration, separately from survival/proliferation.",
+  "stages": [
+    {
+      "id": "P0",
+      "name": "Reconcile inherited evidence",
+      "depends_on": [],
+      "state": "executable_intake",
+      "purpose": "Verify preserved Nb3 inputs and extract the focal evidence without refitting",
+      "outputs": [
+        "metadata/intake_v1/run_record.json",
+        "tables/intake_v1/evidence.tsv",
+        "reports/intake_v1/INTAKE.md"
+      ]
+    },
+    {
+      "id": "P1",
+      "name": "Resolve source roles and biological units",
+      "depends_on": [
+        "P0"
+      ],
+      "state": "bounded_inventory_prepared",
+      "purpose": "Separate source reuse, RNA context, spatial evidence and direct functional tests",
+      "outputs": [
+        "tables/intake_v1/source_gates.tsv",
+        "source-specific sample manifest and eligibility report"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Same-screen identity versus amount triage",
+      "depends_on": [
+        "P0",
+        "P1"
+      ],
+      "state": "planned_requires_new_exploratory_contract",
+      "purpose": "Test incremental description of fibroblast chemokine RNA using epithelial identity, with recorded imaging and RNA-depth rivals; no causal adjustment",
+      "outputs": [
+        "target and well join audit",
+        "model and comparator ledger",
+        "descriptive blocked performance and sensitivity tables"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Fibroblast state and spatial attribution",
+      "depends_on": [
+        "P1"
+      ],
+      "state": "blocked_source_identity_and_design",
+      "purpose": "Describe within-state RNA differences separately from fibroblast composition and spatial sampling",
+      "outputs": [
+        "sample-to-animal map",
+        "per-animal state composition and RNA contrasts",
+        "annotation and spatial sensitivity report"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Independent RNA transfer",
+      "depends_on": [
+        "P1"
+      ],
+      "state": "blocked_no_eligible_linked_cohort_identified",
+      "purpose": "Evaluate a fixed RNA prediction in an independent perturbation cohort with linked epithelial and fibroblast measurements",
+      "outputs": [
+        "independence and endpoint audit",
+        "locked transfer results if eligible"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Secreted output and recipient function",
+      "depends_on": [
+        "P1"
+      ],
+      "state": "blocked_no_eligible_functional_source",
+      "purpose": "Test the biological hypothesis with attributed protein output and recipient function; distinguish total perturbation effect from identity mechanism",
+      "outputs": [
+        "source-specific endpoint and unit contract",
+        "functional effect estimates and biological decision table"
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Integrate evidence and refine the hypothesis",
+      "depends_on": [
+        "P0",
+        "P1"
+      ],
+      "state": "planned_update_after_each_completed_arm",
+      "purpose": "Retain, narrow or weaken separate predictions without requiring favorable exploratory results",
+      "outputs": [
+        "RESULTS.md",
+        "hypothesis decision ledger",
+        "eligible figure gallery"
+      ]
+    }
+  ],
+  "P2_draft": {
+    "evidence_class": "same-screen post-analysis descriptive association",
+    "primary_response": "human chemokines_figure4 frozen seven-gene RNA score",
+    "primary_predictor": "mouse AT2_figure3 frozen four-gene RNA score",
+    "secondary_response": "human wound_figure4; report separately",
+    "baseline_candidates": [
+      "recorded imaging area/count endpoint with source timing",
+      "mouse and human RNA depth"
+    ],
+    "prohibited_interpretations": [
+      "RNA fractions as absolute cell counts",
+      "partial regression as an identity-specific causal effect",
+      "targets/wells as independent preparations",
+      "random well splits or cell/bin-level biological inference"
+    ],
+    "comparison": "baseline versus baseline plus identity, on the same eligible observations",
+    "evaluation": "Leave complete target groups out; separately report whole-plate shift; transformations fit on training data; controls/shared reference and plate-target confounding retained.",
+    "reporting": "Held-out error, each plate/target contribution, all-target and omit-NKX21 views; no biological confidence intervals from technical wells.",
+    "requires_before_fit": [
+      "audited RNA-imaging join and temporal alignment",
+      "fixed analysis population and control handling",
+      "marker overlap and missingness policy",
+      "scales, transformations, regression family and tuning rule",
+      "complete fold allocation with shared-control treatment",
+      "coverage/exclusion rules and evaluation metrics",
+      "versioned execution contract and hash record"
+    ],
+    "power_or_equivalence_margin": null
+  },
+  "P3_gate": [
+    "animal/section nesting",
+    "AAV-versus-bleomycin timing reconciliation",
+    "counts/bin geometry and source region mapping",
+    "validated fibroblast attribution independent of tested chemokines",
+    "sample-level design and sufficient uncertainty reporting"
+  ],
+  "P4_gate": [
+    "independent source cohort, not reused reference",
+    "verified epithelial perturbation and matched controls",
+    "linked recipient measurement in the same biological units",
+    "resolved independent units and assay/ortholog compatibility"
+  ],
+  "P5_gate": [
+    "valid identity perturbation independent of target RNA alone",
+    "epithelial and fibroblast identity, viable amount and timing",
+    "fibroblast attribution of secreted output",
+    "independent preparation/donor nesting and matched controls",
+    "recipient function with survival/proliferation alternatives",
+    "prespecified estimand, useful-effect margin and justified uncertainty/power"
+  ],
+  "deferred_branches": [
+    "E7 induction versus selection needs temporal/lineage evidence; spatial association alone cannot choose",
+    "E8 lung specificity needs multi-tissue context; PLIN2 is insufficient",
+    "E8 tumour/immunotherapy translation requires a separate cohort and endpoint",
+    "Mediator ranking does not imply mediation; no selected pathway from the sensitive Hallmark screen"
+  ]
+}

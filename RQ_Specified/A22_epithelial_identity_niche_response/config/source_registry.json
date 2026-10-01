@@ -1,0 +1,63 @@
+{
+  "schema": "a22-source-registry/v1",
+  "review_date": "2026-10-01",
+  "scope": "Bounded triage of existing relevant deposits; not an exhaustive public-data search. Unknown means unverified, not proven absent.",
+  "sources": [
+    {
+      "accession": "GSE307112",
+      "role": "source_screen",
+      "allowed_use": "P0 inherited evidence; P2 same-screen descriptive follow-up",
+      "evidence": "../../Research Article/gate2_N2_nabhan_2026/DATASETS.md",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307112",
+      "independent_of_Nb3": false,
+      "units_resolved": false,
+      "linked_epithelial_and_fibroblast_RNA": true,
+      "verified_identity_perturbation_per_unit": null,
+      "attributed_secreted_output": false,
+      "recipient_function": false,
+      "hold": "Split-well independence and guide/target/position confounding; RNA depth and species fraction are not cell counts."
+    },
+    {
+      "accession": "GSE307128",
+      "role": "same_study_spatial",
+      "allowed_use": "P3 only after source design and attribution gates",
+      "evidence": "../../Research Article/gate2_N2_nabhan_2026/reports/CONTEXT_ELIGIBILITY.md",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307128",
+      "independent_of_Nb3": false,
+      "units_resolved": false,
+      "linked_epithelial_and_fibroblast_RNA": null,
+      "verified_identity_perturbation_per_unit": null,
+      "attributed_secreted_output": false,
+      "recipient_function": false,
+      "hold": "Four libraries are not four verified animals; treatment/time bridge, bin/region mapping and recipient attribution unresolved."
+    },
+    {
+      "accession": "GSE215824",
+      "role": "source_reused_epithelial_context",
+      "allowed_use": "Epithelial state/timing context only; cannot validate the A22 niche endpoint",
+      "evidence": "../../Research Article/gate2_N2_nabhan_2026/runs/R5_v1/GSE215824_metadata.json",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE215824",
+      "independent_of_Nb3": false,
+      "units_resolved": false,
+      "linked_epithelial_and_fibroblast_RNA": null,
+      "verified_identity_perturbation_per_unit": null,
+      "attributed_secreted_output": false,
+      "recipient_function": false,
+      "hold": "Five RNA plus three ATAC libraries; one deposited day-28 control and KO RNA library each; biological replication and linked fibroblast endpoints not established."
+    },
+    {
+      "accession": "GSE122960",
+      "role": "source_reused_human_context",
+      "allowed_use": "Conditional donor-aware disease/state context; not an identity-perturbation test",
+      "evidence": "../../Research Article/gate2_N2_nabhan_2026/reports/CONTEXT_ELIGIBILITY.md",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122960",
+      "independent_of_Nb3": false,
+      "units_resolved": null,
+      "linked_epithelial_and_fibroblast_RNA": null,
+      "verified_identity_perturbation_per_unit": false,
+      "attributed_secreted_output": false,
+      "recipient_function": false,
+      "hold": "Source reused; disease/treatment/state confounding and author annotation/paired-compartment eligibility remain to audit."
+    }
+  ]
+}

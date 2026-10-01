@@ -1,0 +1,19 @@
+kind	species	endpoint	variant	value	source_units	source
+baseline	mouse	AT2_figure3	source_v1	-2.071866851893314	4 technical target wells; preparation independence unresolved	runs/R4_v1/fixed_panel_effects.tsv
+baseline	human	chemokines_figure4	source_v1	-3.3569783118083136	4 technical target wells; preparation independence unresolved	runs/R4_v1/fixed_panel_effects.tsv
+baseline	human	wound_figure4	source_v1	1.467634474975015	4 technical target wells; preparation independence unresolved	runs/R4_v1/fixed_panel_effects.tsv
+individual_marker	human	CCL2	source_followup	-1.76920432857	technical-well contrast; not secretion	runs/followup_v1/individual_marker_effects.tsv
+individual_marker	human	CXCL1	source_followup	-3.6205926029	technical-well contrast; not secretion	runs/followup_v1/individual_marker_effects.tsv
+individual_marker	human	CXCL2	source_followup	-6.26649284094	technical-well contrast; not secretion	runs/followup_v1/individual_marker_effects.tsv
+individual_marker	human	CXCL3	source_followup	-4.94620348117	technical-well contrast; not secretion	runs/followup_v1/individual_marker_effects.tsv
+individual_marker	human	CXCL6	source_followup	-3.05552146418	technical-well contrast; not secretion	runs/followup_v1/individual_marker_effects.tsv
+individual_marker	human	CXCL8	source_followup	-2.5778150883	technical-well contrast; not secretion	runs/followup_v1/individual_marker_effects.tsv
+individual_marker	human	CXCL12	source_followup	-1.2630183766	technical-well contrast; not secretion	runs/followup_v1/individual_marker_effects.tsv
+cross_target_association	paired	AT2_chemokines	paired_baseline__common_estimable	0.210357830682	195 target contrasts; not independent preparations	runs/followup_v1/paired_depth_associations.tsv
+cross_target_association	paired	AT2_chemokines	paired_baseline__common_without_NKX21	0.198083600071	194 target contrasts; not independent preparations	runs/followup_v1/paired_depth_associations.tsv
+cross_target_association	paired	AT2_chemokines	paired_depth__common_estimable	0.151378077004	195 target contrasts; not independent preparations	runs/followup_v1/paired_depth_associations.tsv
+cross_target_association	paired	AT2_chemokines	paired_depth__common_without_NKX21	0.138187062657	194 target contrasts; not independent preparations	runs/followup_v1/paired_depth_associations.tsv
+depth_sensitivity	mouse	AT2_figure3	paired_baseline	-2.09438508237	4 target wells; depth conditioning is not causal adjustment	runs/followup_v1/paired_depth_effects.tsv
+depth_sensitivity	mouse	AT2_figure3	paired_depth	-1.83678723071	4 target wells; depth conditioning is not causal adjustment	runs/followup_v1/paired_depth_effects.tsv
+depth_sensitivity	human	chemokines_figure4	paired_baseline	-3.35697831181	4 target wells; depth conditioning is not causal adjustment	runs/followup_v1/paired_depth_effects.tsv
+depth_sensitivity	human	chemokines_figure4	paired_depth	-3.23842180128	4 target wells; depth conditioning is not causal adjustment	runs/followup_v1/paired_depth_effects.tsv

@@ -1,0 +1,38 @@
+{
+  "schema": "a22-sample-manifest/v1",
+  "status": "requirements_for_future_source_intake; no fabricated sample rows",
+  "required_columns": [
+    "accession",
+    "sample_id",
+    "library_id",
+    "species",
+    "assay",
+    "condition",
+    "matched_control_id",
+    "collection_time",
+    "time_relative_to_perturbation",
+    "epithelial_source_id",
+    "fibroblast_source_id",
+    "independent_unit_id",
+    "donor_or_animal_id",
+    "preparation_id",
+    "technical_repeat_id",
+    "plate_or_batch",
+    "section_or_region_id",
+    "pool_membership",
+    "unit_evidence_reference",
+    "perturbation_validity_evidence",
+    "identity_measurement",
+    "epithelial_amount_measurement",
+    "fibroblast_amount_measurement",
+    "recipient_attribution",
+    "source_file_sha256"
+  ],
+  "rules": [
+    "Missing identities stay null and block the relevant inference; do not infer donors from filenames.",
+    "Wells/sections/bins/cells are nested observations, not independent units.",
+    "Record which measurements are baseline and which follow treatment.",
+    "RNA and protein/function must join by actual units and time; never join separate cohorts by condition alone.",
+    "Cross-species gene mapping and cell attribution require their own versioned map."
+  ]
+}
