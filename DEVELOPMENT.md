@@ -2282,3 +2282,5 @@ published control cell was present. A separate contract and immutable run
 recovered all 14,210 published cells from raw matrices. The published-AT2 marker
 pattern persists under both frozen QC rules. No outcome-based threshold change
 or independent-replication claim was made.
+
+The delivery dependency audit found that the repository's broad PDF ignore rule excluded the six generated A23 PDFs (five current and one superseded). A scoped figure exception, matching the existing A19-A21 and Nb3 convention, includes those receipt dependencies; source PDFs remain ignored.
