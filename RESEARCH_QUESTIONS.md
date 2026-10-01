@@ -1299,7 +1299,11 @@ Normal repair, pathological persistence and mature AT1 recovery require
 separate time/fate outcomes.
 
 **Readiness.** Descriptive follow-up complete; independent time/transport and
-functional evidence remain unestablished. A23 supplies a specific homeostatic
+functional evidence remain unestablished.
+The [A23 pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md)
+now includes verified intake, a PAM case-context coverage lead, biochemical
+linkage, temporal ordering and restoration/recovery gates. New expression fits
+and the causal hypotheses remain unexecuted. A23 supplies a specific homeostatic
 input to A1/A8's state and maturation questions, not another trajectory claim.
 The cited primary literature and full evidence chain are in the rationale.
 

@@ -93,7 +93,7 @@ mechanism or supply independent functional validation.
 | ID | Organizing question | Immediate evidence gate |
 |---|---|---|
 | A22 | [Does epithelial identity determine fibroblast chemokine competence beyond epithelial amount?](A22_epithelial_identity_niche_response/README.md) | Independent state/composition, secretion and recipient-function evidence |
-| A23 | [Does SLC34A2-dependent phosphate homeostasis constrain entry into a transition-associated state?](A23_slc34a2_transition_homeostasis/README.md) | Independent transport, time, within-state and restoration evidence |
+| A23 | [Does SLC34A2-dependent phosphate homeostasis constrain entry into a transition-associated state?](A23_slc34a2_transition_homeostasis/README.md) | [Staged pipeline and source gates](A23_slc34a2_transition_homeostasis/PIPELINE.md) structured; intake and PAM metadata checked. Replicated transport, time and restoration tests remain open |
 
 ## Shared enabling work
 

@@ -1,0 +1,60 @@
+{
+  "accession": "GSE199329",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE199nnn/GSE199329/soft/GSE199329_family.soft.gz",
+  "retrieved_utc": "2026-10-01T06:11:42.649523+00:00",
+  "compressed_bytes": 2339,
+  "source_sha256": "2b66c863214bb30a90344befb19159d30e75abf353e1483f6600b7d5b345150b",
+  "scope": "Series/sample metadata only; no expression matrix read",
+  "series": [
+    "!Series_title = Novel insights into pulmonary phosphate homeostasis and osteoclastogenesis emerge from the study of pulmonary alveolar microlithiasis.",
+    "!Series_pubmed_id = 36864068",
+    "!Series_summary = Pulmonary alveolar microlithiasis (PAM) is an autosomal recessive lung disease caused by a deficiency in the pulmonary epithelial Npt2b sodium-phosphate co-transporter that results in accumulation of phosphate and formation of hydroxyapatite microliths in the alveolar space. The single cell transcriptomic analysis of a PAM lung explant showing a robust osteoclast gene signature in alveolar monocytes and the finding that calcium phosphate microliths contain a rich protein and lipid matrix that includes bone resorbing osteoclast enzymes suggested a role for osteoclast-like cells in the defense against microliths.",
+    "!Series_overall_design = Using the 10x Chromium platform sequencing, transcriptomes of single cells from human lung explant of PAM patient and normal human donor lung were analyzed.",
+    "!Series_overall_design = Submitter states that raw data will be submitted to dbGap.",
+    "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE199nnn/GSE199329/suppl/GSE199329_RAW.tar"
+  ],
+  "samples": {
+    "GSM5970468": [
+      "!Sample_title = PAM1",
+      "!Sample_source_name_ch1 = CD45- PAM lung",
+      "!Sample_organism_ch1 = Homo sapiens",
+      "!Sample_characteristics_ch1 = tissue: lung",
+      "!Sample_characteristics_ch1 = disease state: PAM",
+      "!Sample_extract_protocol_ch1 = Single-cell suspensions were processed through the 10X Chromium to generate single-cell cDNA libraries attached to microbeads",
+      "!Sample_extract_protocol_ch1 = Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA was prepared for sequencing using a modified Nextera XT protocol",
+      "!Sample_extract_protocol_ch1 = single-cell RNA-seq",
+      "!Sample_data_processing = Read alignment and gene-expression quantification of human single-cell RNA-seq (scRNA-seq) were performed using Cell Ranger version 2.1.1 and 2.0.0 pipeline (10x Genomics).",
+      "!Sample_data_processing = For scRNA-seq alignment and quantification, Cell Ranger pre-built human (hg19) reference package was used.",
+      "!Sample_data_processing = Assembly: hg19",
+      "!Sample_data_processing = Supplementary files format and content: Raw Feature Barcode Matrix and 10x Cell Ranger filtered Feature Barcode Matirx in HDF5 format"
+    ],
+    "GSM5970469": [
+      "!Sample_title = PAM2",
+      "!Sample_source_name_ch1 = CD45+ PAM lung",
+      "!Sample_organism_ch1 = Homo sapiens",
+      "!Sample_characteristics_ch1 = tissue: lung",
+      "!Sample_characteristics_ch1 = disease state: PAM",
+      "!Sample_extract_protocol_ch1 = Single-cell suspensions were processed through the 10X Chromium to generate single-cell cDNA libraries attached to microbeads",
+      "!Sample_extract_protocol_ch1 = Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA was prepared for sequencing using a modified Nextera XT protocol",
+      "!Sample_extract_protocol_ch1 = single-cell RNA-seq",
+      "!Sample_data_processing = Read alignment and gene-expression quantification of human single-cell RNA-seq (scRNA-seq) were performed using Cell Ranger version 2.1.1 and 2.0.0 pipeline (10x Genomics).",
+      "!Sample_data_processing = For scRNA-seq alignment and quantification, Cell Ranger pre-built human (hg19) reference package was used.",
+      "!Sample_data_processing = Assembly: hg19",
+      "!Sample_data_processing = Supplementary files format and content: Raw Feature Barcode Matrix and 10x Cell Ranger filtered Feature Barcode Matirx in HDF5 format"
+    ],
+    "GSM5970470": [
+      "!Sample_title = D071",
+      "!Sample_source_name_ch1 = Normal Donor lung 24 years old",
+      "!Sample_organism_ch1 = Homo sapiens",
+      "!Sample_characteristics_ch1 = tissue: lung",
+      "!Sample_characteristics_ch1 = disease state: Control",
+      "!Sample_extract_protocol_ch1 = Single-cell suspensions were processed through the 10X Chromium to generate single-cell cDNA libraries attached to microbeads",
+      "!Sample_extract_protocol_ch1 = Microbeads were counted, and amplified by PCR, and the 3' end of the cDNA was prepared for sequencing using a modified Nextera XT protocol",
+      "!Sample_extract_protocol_ch1 = single-cell RNA-seq",
+      "!Sample_data_processing = Read alignment and gene-expression quantification of human single-cell RNA-seq (scRNA-seq) were performed using Cell Ranger version 2.1.1 and 2.0.0 pipeline (10x Genomics).",
+      "!Sample_data_processing = For scRNA-seq alignment and quantification, Cell Ranger pre-built human (hg19) reference package was used.",
+      "!Sample_data_processing = Assembly: hg19",
+      "!Sample_data_processing = Supplementary files format and content: Raw Feature Barcode Matrix and 10x Cell Ranger filtered Feature Barcode Matirx in HDF5 format"
+    ]
+  }
+}

@@ -1,5 +1,18 @@
 # Progress and handoff state
 
+## A23 pipeline structured, 1 October 2026
+
+The owner requested the [A23 analysis pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md).
+P0 passed 51 checks and extracted 19 inherited values/range endpoints. Five
+source roles are recorded. GSE199329 metadata identify three libraries with
+CD45-split PAM sampling; the reported case/control design supports descriptive
+context, not replicated causal inference. No expression matrix or new biological
+fit was run. Next: P2 processed-file/epithelial-coverage audit and its exploratory
+contract; P3 biochemical linkage can proceed independently. P4/P5 temporal and
+restoration/function hypotheses remain gated. Main README and claim grades
+are unchanged. Validation passed: archived intake hashes, 71 tests (one skip),
+6,232 repository checks and all seven stage dependencies.
+
 ## Main README scope cleanup, 1 October 2026
 
 Following the owner's review, the main README now contains general project

@@ -29,9 +29,13 @@ Failure to restore the state after verified normalization would challenge the
 reversible version, while leaving alternative persistent or indirect mechanisms
 open. None of these conclusions follows from an underpowered or invalid assay.
 
-Stage 0 is complete: source-informed marker, control, well, depth and pathway
-diagnostics. Suitable time/transport-linked independent data are not yet
-established. GSE307112 is the discovery screen, not its own validation set;
+The source-evidence stage is complete under Nb3. A23's [pipeline](PIPELINE.md)
+now separates verified P0 intake, P1 source eligibility, P2 external PAM
+case-context inspection, P3 transport/secondary-injury linkage, P4 temporal
+ordering, P5 restoration and mature recovery, and P6 synthesis. The existing
+paired-depth result concerns AT2 identity in seven wells; no transition-panel
+depth fit was performed. Only intake and external metadata review have run as
+new A23 work. Suitable replicated time/transport-linked data remain unestablished. GSE307112 is the discovery screen, not its own validation set;
 GSE215824 is source-reused NKX2-1 context, not an SLC34A2 validation cohort.
 The current data do not justify an optimal intervention, clinical inference or
 a claim of normal versus fibrotic cell fate.

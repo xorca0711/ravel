@@ -1,0 +1,173 @@
+{
+  "schema": "a23-analysis-pipeline/v1",
+  "date": "2026-10-01",
+  "question_id": "A23",
+  "status": "structured_draft; intake_only_executable",
+  "prior_exposure": [
+    "Nb3 source/followup and A23 rationale",
+    "Uehara 2023 article and public GSE199329 metadata; no matrix read"
+  ],
+  "new_biological_fits": false,
+  "claim_grade_change": false,
+  "hypothesis": "SLC34A2-associated phosphate homeostasis constrains transition-associated epithelial stress; timing, mediation and reversibility are separate predictions.",
+  "predictions": {
+    "H1": "Verified SLC34A2 disruption changes an independently defined epithelial state endpoint.",
+    "H2": "A measured relevant transport/phosphate change contributes beyond generic or secondary mineral/inflammatory injury.",
+    "H3": "The state response occurs before a prespecified broad identity-loss endpoint, given linked temporal evidence.",
+    "H4": "Verified restoration reduces the state response; mature recovery is a separate functional endpoint."
+  },
+  "stages": [
+    {
+      "id": "P0",
+      "name": "Verify inherited SLC34A2 phenotype",
+      "depends_on": [],
+      "status": "executable_intake_only",
+      "purpose": "Preserve Nb3 contrasts, the seven-versus-eight well distinction and existing counterexamples",
+      "outputs": [
+        "tables/intake_v1/evidence.tsv",
+        "metadata/intake_v1/run_record.json"
+      ]
+    },
+    {
+      "id": "P1",
+      "name": "Resolve sources, sampling and endpoint eligibility",
+      "depends_on": [
+        "P0"
+      ],
+      "status": "bounded_metadata_intake",
+      "purpose": "Separate discovery, external case context, homeostasis measurements and repair references",
+      "outputs": [
+        "tables/intake_v1/source_gates.tsv",
+        "metadata/external_source_v1/GSE199329_metadata.json"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "External PAM epithelial phenotype and composition",
+      "depends_on": [
+        "P1"
+      ],
+      "status": "ready_for_count_coverage_audit; numerical_contract_not_frozen",
+      "purpose": "Describe transition/identity RNA within eligible epithelial cells while retaining donor, age and sorting confounding",
+      "outputs": [
+        "processed-file and gene coverage audit",
+        "per-library epithelial annotation and descriptive marker tables",
+        "case-context figure only if eligible"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Transport/phosphate versus secondary injury",
+      "depends_on": [
+        "P1"
+      ],
+      "status": "planned_endpoint_and_unit_audit",
+      "purpose": "Determine which source measurements distinguish a transport-associated epithelial response from mineral/inflammatory injury",
+      "outputs": [
+        "source-workbook endpoint and unit map",
+        "measured-compartment and linkage ledger"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Temporal ordering before identity loss",
+      "depends_on": [
+        "P1"
+      ],
+      "status": "blocked_no_eligible_linked_time_series",
+      "purpose": "Test whether verified homeostatic disruption precedes a state change while an independently defined identity endpoint is retained",
+      "outputs": [
+        "time/perturbation contract",
+        "unit-level temporal contrasts and uncertainty"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Restoration and mature epithelial recovery",
+      "depends_on": [
+        "P1"
+      ],
+      "status": "blocked_no_eligible_linked_restoration_and_fate_source",
+      "purpose": "Separate reversibility of RNA state from restoration of transport, viability and mature lineage-derived function",
+      "outputs": [
+        "restoration and mature-output contract",
+        "separate state and functional decisions"
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Synthesize and refine A23",
+      "depends_on": [
+        "P0",
+        "P1"
+      ],
+      "status": "planned_after_each_arm",
+      "purpose": "Update distinct predictions without treating descriptive human disease context as causal validation",
+      "outputs": [
+        "RESULTS.md",
+        "hypothesis decision ledger",
+        "eligible figure gallery"
+      ]
+    }
+  ],
+  "P2": {
+    "primary_source": "GSE199329",
+    "sampling_units": [
+      "GSM5970468: PAM1, CD45-negative fraction",
+      "GSM5970469: PAM2, CD45-positive fraction",
+      "GSM5970470: D071, normal donor"
+    ],
+    "biological_design": "Paper reports one PAM explant and one control; two PAM fractions are not two patients.",
+    "allowed_inference": "descriptive case context only; no population or genotype effect",
+    "first_action": "Audit processed HDF5 inventory, epithelial coverage, annotation and ortholog mapping without fitting contrasts.",
+    "state_seed_mouse": [
+      "Krt8",
+      "Sprr1a",
+      "Clu"
+    ],
+    "exclude_from_state_definition": [
+      "SLC34A2",
+      "Slc34a2"
+    ],
+    "human_ortholog_map": "must resolve and freeze before scoring; no silent replacement of missing genes",
+    "forbidden": [
+      "p-values or biological CIs from cells as replicates",
+      "combining CD45 fractions to estimate tissue composition without sampling weights",
+      "correcting away disease/donor confounding with batch integration",
+      "inferring time or maturation from pseudotime",
+      "selecting cells by low SLC34A2 and reporting target-low phenotype as independent evidence"
+    ],
+    "freeze_before_scoring": [
+      "counts/normalization and sample inclusion",
+      "independent epithelial/state annotation features",
+      "human gene map and missingness/coverage rules",
+      "technical QC and ambient/doublet assessment",
+      "per-sample aggregation and descriptive summaries",
+      "separate individual markers, identity and transition endpoints"
+    ]
+  },
+  "time_gate": [
+    "verified perturbation and transport/homeostasis",
+    "known times and sampling relationships",
+    "state and independent identity endpoints in linked units",
+    "independent biological replication and identifiable design"
+  ],
+  "restoration_gate": [
+    "verified normalization in the relevant compartment",
+    "matched restoration comparison and source specificity",
+    "linked state and viable amount",
+    "independently measured mature lineage/function endpoint for recovery"
+  ],
+  "unfixed_quantities": [
+    "useful-effect and identity-retention margins",
+    "power and independent variance",
+    "time windows",
+    "assay-specific normalization and models",
+    "multiplicity families"
+  ],
+  "source_constraints": [
+    "Intracellular phosphate, alveolar soluble phosphate, mineral burden and systemic phosphate are different measurements.",
+    "Conditioning on treatment-induced identity, survival or mineral burden is not a causal mediation test.",
+    "Unrelated repair and NKX2-1 datasets provide context, not an SLC34A2 intervention."
+  ]
+}

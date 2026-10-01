@@ -2212,3 +2212,18 @@ Removed the Nb3-only navigation row and figure announcement, retained the
 existing study-gallery links in the article index, and moved the dated figure
 audit reference beside the paper galleries. Main README execution links now
 use the current-state page. No scientific result, figure or claim changed.
+
+## 1 October 2026: structure the A23 analysis pipeline
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | A23 pipeline, source gates, metadata intake, evidence reader and figure plan | Codex | Owner requested the same pipeline structuring for A23 | Structure P0-P6; execute source/metadata intake only | Separate state RNA, measured homeostasis, temporal ordering and restoration/mature recovery |
+
+The inherited evidence audit preserves the eight-well mouse-QC versus seven-well
+paired-depth distinction and the AT1 sign-change counterexample. A bounded
+primary-source search identified GSE199329; its 2,339-byte official metadata
+file was retrieved and hashed. No expression matrix was read. The GEO HTML
+browser check did not prevent official FTP metadata retrieval. The publisher
+source-workbook link failed retrieval, so no workbook contents are claimed.
+PAM CD45 fractions are not separate patients; independent biological validation,
+scientific acceptance and claim-grade promotion remain unestablished.
