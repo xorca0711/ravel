@@ -1305,11 +1305,24 @@ separate time/fate outcomes.
 **Readiness.** Descriptive follow-up complete; independent time/transport and
 functional evidence remain unestablished.
 The [A23 pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md)
-now includes verified intake, a PAM case-context coverage lead, biochemical
-linkage, temporal ordering and restoration/recovery gates. New expression fits
-and the causal hypotheses remain unexecuted. A23 supplies a specific homeostatic
+now includes executed P2 descriptive RNA and P3 source-biochemistry analyses,
+plus temporal ordering and restoration/recovery gates. The causal hypotheses
+remain untested. A23 supplies a specific homeostatic
 input to A1/A8's state and maturation questions, not another trajectory claim.
 The cited primary literature and full evidence chain are in the rationale.
+
+**Conditional candidate, related to the A23 homeostatic-compensation branch
+(P3/H2), 1 October 2026.** Compensatory phosphate handling may buffer the
+transition-associated response to SLC34A2 loss. The external PAM case has lower
+target RNA without a coherent KRT8/SPRR1A/CLU increase; separate source mouse
+assays show higher AT2 Slc20a1/2 RNA under low-phosphate diet. These unlinked
+observations motivate a discriminator, not a demonstrated compensatory mechanism.
+The [strict review and findings](RQ_Specified/A23_slc34a2_transition_homeostasis/reports/external_pilot_v2/RESULTS.md)
+require linked transport/compensation, phosphate and epithelial-state measurements
+in replicated units. Secondary injury, disease stage and cell selection remain
+rivals. No broad identity-retention claim survives the annotation sensitivity,
+and mineral clearance is not epithelial recovery. Acceptance and claim grades
+remain unchanged.
 
 ## Execution and interpretation rules
 

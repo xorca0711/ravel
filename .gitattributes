@@ -126,3 +126,7 @@ RQ_Specified/A23_slc34a2_transition_homeostasis/** -text whitespace=cr-at-eol
 
 # A22 intake records exact config, reader and output hashes.
 RQ_Specified/A22_epithelial_identity_niche_response/** -text whitespace=cr-at-eol
+
+# Preserve generated SVG paths and empty TSV fields in archived A23 evidence.
+RQ_Specified/A23_slc34a2_transition_homeostasis/figures/**/*.svg whitespace=cr-at-eol,-blank-at-eol
+RQ_Specified/A23_slc34a2_transition_homeostasis/tables/**/*.tsv whitespace=cr-at-eol,-blank-at-eol

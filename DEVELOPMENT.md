@@ -2252,3 +2252,33 @@ scientific acceptance and claim-grade promotion remain unestablished.
 This change preserves the universal main README, the A22 pipeline and immutable
 intake evidence. It resolves a delivery blocker and does not constitute scientific
 acceptance or a claim-grade change.
+
+## 1 October 2026: execute the A23 external pilot and source audit
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | A23 P2 descriptive analysis, P3 endpoint linkage, figures and conditional branch | Codex | Owner requested continuation of the A23 pipeline; Codex selected scoped implementation | Execute eligible source analyses; retain P4/P5 data gates | The available human case and mouse assay sheets do not identify a linked causal sequence |
+
+Main now includes A22; both pipeline histories were preserved when merging it
+into the A23 branch. The external archive contains nested per-library archives;
+the acquisition reader was updated to extract filtered HDF5 files safely.
+Ensembl homology retrieval failed, and official NCBI orthologue responses were
+used instead. The first matrix attempt stopped on absent PECAM1 before outcome
+summaries. An explicit v2 contract conservatively excludes VWF- or EMCN-detecting
+cells without replacing the absent gene or changing readout features. The old
+contract and failed-attempt record remain. No marker outcome informed the change.
+
+The source workbook supplies cell annotations but not shared IDs across the
+selected mouse assay sheets. That limits the compensation branch to a hypothesis.
+The first F3 legend overlapped target-gene points; the corrected rendering has a
+new filename, with the initial render retained. A targeted rendering-helper
+attempt failed before writing corrected images; the indentation fix completed
+the versioned render. No numerical outputs were overwritten. Hypothesis
+acceptance and scientific claim grades remain open.
+
+A concrete source-selection concern justified one additional post-pilot audit:
+1,847 published PAM cells were missing from filtered matrices, while every
+published control cell was present. A separate contract and immutable run
+recovered all 14,210 published cells from raw matrices. The published-AT2 marker
+pattern persists under both frozen QC rules. No outcome-based threshold change
+or independent-replication claim was made.

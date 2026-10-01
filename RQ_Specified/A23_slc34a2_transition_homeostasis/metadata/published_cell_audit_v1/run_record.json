@@ -1,0 +1,64 @@
+{
+  "status": "post-pilot descriptive sensitivity, same case and same control",
+  "completed_utc": "2026-10-01T07:06:16.443657+00:00",
+  "inputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/05_published_cell_audit.py",
+      "sha256": "c635daeecb4429ee41e48d4f6991334c909583541376b688275fbf7ab84d42d7"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/02_external_pilot.py",
+      "sha256": "eada477693e6c4674910e5a868822f8516e2f02b3c76dd7493a3abea4771e0b4"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/external_pilot_v2.json",
+      "sha256": "74ec394bd4163e16cac7670baa739966ccb054130df19316da4526b0a228b552"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/published_cell_audit_v1.json",
+      "sha256": "6bd13c228a3b470f682be31206ee9c7422a47bd04c8dc06329ad8b48a1e04ff5"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_acquisition_v1/raw_matrices.json",
+      "sha256": "8b5d3c58017b9f75f1a8af40834742ba91b08e89914f672bc69fd4076e7137b9"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/external_pilot_v1_annotation_addendum.json",
+      "sha256": "447c0af91d6a2de7d4d35e3170fdaf64899a9e3587fd371be5ad634fa1ef4e8b"
+    },
+    {
+      "path": "raw_data/GSE199329/41467_2023_36810_MOESM9_ESM.xlsx",
+      "sha256": "024585f00ed06ddab8e081feb48ddf82fc065a7ead3010e5a9fbded340ed754c"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970468_raw_gene_bc_matrices_h5.h5",
+      "sha256": "12e57884a7d517781edfd1b9e9a2c50e141c6b295ebc631d733288504991e8e3"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970469_raw_gene_bc_matrices_h5.h5",
+      "sha256": "51f1af124ec9b9eb5afd8b3693ef190623513ff8ef3393e9f076a3c2fa371010"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970470_raw_gene_bc_matrices_h5.h5",
+      "sha256": "7ea168b631f415c495a409ce1b5b7ca6762ba255570632da99b2ed785c607c6d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/published_cell_audit_v1/cell_selection.tsv",
+      "sha256": "644e52f67c3c28ea0e96d500664851f1d1a9ff74ecee5ffee5affb28389032b5"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/published_cell_audit_v1/coverage.tsv",
+      "sha256": "3bc00ad9541149671223ceb7396b32fe83ad5672d70faa8cdafc0b098ba5177f"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/published_cell_audit_v1/marker_differences.tsv",
+      "sha256": "513a53c2a4b573757ffd5d3fdeee02f63c68f0d54bfc4c0a213530afe461482c"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/published_cell_audit_v1/marker_summaries.tsv",
+      "sha256": "501ac83de69cb08d9177498aab695323a396853da33db381e351038a623fd35c"
+    }
+  ]
+}

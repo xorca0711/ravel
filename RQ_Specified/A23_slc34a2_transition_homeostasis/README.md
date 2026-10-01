@@ -1,6 +1,6 @@
 # A23: does phosphate homeostasis constrain entry into an alveolar transition state?
 
-**Proposed 1 October 2026; pipeline structured and intake verified; causal
+**Proposed 1 October 2026; P2 descriptive analysis and P3 source audit executed; causal
 sequence open.** The [shared question card](../../RESEARCH_QUESTIONS.md#a23) owns the
 hypothesis. The owner requested derivation after the Nb3 follow-up; retain/reject
 and scientific acceptance remain open. No claim grade is added.
@@ -11,7 +11,7 @@ Restoring the relevant homeostatic defect should attenuate this response if the
 link is causal. Transport, phosphate, temporal order and recovery were not
 measured in Nb3.
 
-SLC34A2 increases Krt8, Sprr1a and Clu individually; their mean contrast is
+The Slc34a2-targeted perturbation in Nb3 increases Krt8, Sprr1a and Clu; their mean contrast is
 +0.524 and stays positive under all tested control/gene/well omissions.
 AT2-marker attenuation is smaller than under NKX21, but is not absent:
 the paired-depth estimate is −0.219 from seven paired-QC wells, versus eight
@@ -20,6 +20,9 @@ trajectory or establish a normal versus pathological fate.
 
 | Read | Purpose |
 |---|---|
+| [External results](reports/external_pilot_v2/RESULTS.md) | Human case comparison, biochemical reproduction and strict hypothesis review |
+| [Figure gallery](FIGURES.md) | Five current figures as PNG/PDF/SVG, with source units and limitations |
+| [Reproduce](reports/external_pilot_v2/REPRODUCE.md) | Acquisition, environment, checks and immutable output records |
 | [Rationale](RATIONALE.md) | Homeostasis/transition biology, evidence and competing explanations |
 | [Analysis pipeline](PIPELINE.md) | P0-P6 stages, distinct predictions, source gates, outputs and figure plan |
 | [Intake results](reports/intake_v1/INTAKE.md) | 51 checks; 19 inherited values/range endpoints and five source-role decisions; no new biological fit |
@@ -29,18 +32,24 @@ trajectory or establish a normal versus pathological fate.
 | [Nb3 follow-up](../../Research%20Article/gate2_N2_nabhan_2026/reports/FOLLOWUP_RESULTS.md) | Executed sensitivities and limits |
 | [Nb3 figures](../../Research%20Article/gate2_N2_nabhan_2026/FIGURES.md) | Figures 5 and 7, with full numerical provenance |
 
-The article package owns all existing fits. No independent phosphate-mediated
-state test or question-specific biological experiment has been performed.
+The article package owns the discovery fits. A23 now owns the external
+case summaries and source-biochemistry reproduction. Neither is a replicated
+phosphate-mediated epithelial-state test.
 
 ## Execution status and next step
 
-P0 source intake is complete. P1 retrieved and audited GSE199329 metadata:
-three libraries include two CD45 fractions of the reported PAM case, not two
-independent patients. The next step is P2 processed-count, epithelial-coverage
-and sampling-compatibility inspection, followed by a separately frozen
-exploratory contract if coverage permits. No expression matrix has been read.
+P0/P1 intake, P2 coverage/marker analysis and P3 selected endpoint audit are
+complete within their recorded scope. The PAM case does not reproduce a
+coordinated KRT8/SPRR1A/CLU increase. Identity-marker differences depend on cell
+selection, and lower target RNA is not a transport measurement.
 
-P3 audits biochemical endpoints and their subject linkage. P4 temporal ordering
-and P5 restoration/mature recovery retain separate source requirements; they
-do not wait for a favorable case-context result. The draft is not a confirmatory
-contract, and no new biological result, figure or claim grade is asserted.
+The source biochemical data motivate a **conditional compensation branch** of
+A23: compensatory phosphate handling may buffer epithelial-state response.
+This is a testable explanation, not a demonstrated cause of the human pattern.
+See the [strict review](reports/external_pilot_v2/RESULTS.md#strict-review-of-the-a23-hypothesis).
+
+All 14,210 published cells were recovered in a post-pilot raw-matrix sensitivity;
+the marker pattern persists. Independent annotation/ambient-RNA assessment remains
+a limit on finer state interpretation. P4 and P5 need
+linked replicated transport/state/time and restoration/function data. The source
+workbook cannot connect those endpoints across its unlabelled animal rows.

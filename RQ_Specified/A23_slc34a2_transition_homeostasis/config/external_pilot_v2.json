@@ -1,0 +1,117 @@
+{
+  "schema": "a23-external-pilot/v2",
+  "frozen_utc": "2026-10-01T06:49:13.694751+00:00",
+  "status": "exploratory contract saved before matrix inspection or scoring; article and metadata already exposed",
+  "source": "GSE199329",
+  "libraries": [
+    "GSM5970468",
+    "GSM5970469",
+    "GSM5970470"
+  ],
+  "primary_comparison": [
+    "GSM5970468",
+    "GSM5970470"
+  ],
+  "context_fraction": "GSM5970469",
+  "units": "one reported PAM subject (two CD45 fractions) and one control subject; no population inference",
+  "qc": {
+    "primary": {
+      "min_genes": 200,
+      "max_genes": 6000,
+      "max_counts": 50000,
+      "max_mito_fraction": 0.2
+    },
+    "strict": {
+      "min_genes": 400,
+      "max_genes": 5000,
+      "max_counts": 40000,
+      "max_mito_fraction": 0.15
+    }
+  },
+  "detection_min_umi": 1,
+  "epithelial_features": [
+    "EPCAM",
+    "KRT7",
+    "KRT18",
+    "KRT19"
+  ],
+  "epithelial_min_features": 2,
+  "competing_lineages": {
+    "immune": [
+      "PTPRC",
+      "LST1",
+      "TYROBP"
+    ],
+    "endothelial": [
+      "VWF",
+      "EMCN"
+    ],
+    "stromal": [
+      "COL1A1",
+      "COL1A2",
+      "DCN"
+    ]
+  },
+  "competing_min_features": {
+    "immune": 2,
+    "endothelial": 1,
+    "stromal": 2
+  },
+  "at2_selection_features": [
+    "SFTPC",
+    "SFTPB",
+    "ABCA3",
+    "NAPSA"
+  ],
+  "at2_min_features": 2,
+  "annotation_scope": "marker-defined candidates; co-lineage exclusions are an ambient/doublet flag, not validated cell typing or full decontamination",
+  "readouts": {
+    "transition_seed": [
+      "KRT8",
+      "SPRR1A",
+      "CLU"
+    ],
+    "identity_separate": [
+      "SFTPA1",
+      "SFTPA2",
+      "LAMP3",
+      "NKX2-1"
+    ],
+    "at1_context": [
+      "AGER",
+      "AQP5",
+      "PDPN",
+      "HOPX"
+    ],
+    "target": [
+      "SLC34A2"
+    ]
+  },
+  "marker_transfer": "Ensembl mouse-human homology checked separately; individual markers shown. No full Nb3 panel transfer or pooled transition score.",
+  "min_epithelial_for_comparison": 50,
+  "min_at2_for_comparison": 20,
+  "normalization": "natural log1p of 10000 * UMI / total UMI per cell, no integration",
+  "summaries": [
+    "per-library n",
+    "fraction of candidates detecting each readout",
+    "mean log1p normalized expression",
+    "candidate group sum-count CPM"
+  ],
+  "comparisons": "individual-marker differences in library summaries only if both primary libraries meet coverage; no biological confidence intervals or p-values",
+  "sensitivity": "fixed stricter QC; retain all markers and outcomes even if discordant",
+  "missing": "unmapped or absent features reported as missing; never replace by zero or another feature",
+  "ambient_limit": "filtered matrices plus multi-feature and co-lineage exclusion only; do not interpret low-level isolated epithelial RNA in immune cells as epithelial state",
+  "restrictions": [
+    "no tissue-wide composition comparison across sorted fractions",
+    "no age/disease/donor separation",
+    "no state-transition timing or mature-function claim",
+    "no biological replication from cells",
+    "no selecting cells by target or transition readouts"
+  ],
+  "figures": [
+    "coverage and candidate counts",
+    "per-library dot plot separated by candidate group",
+    "marker differences across QC rules if eligible"
+  ],
+  "amendment": "Before readout inspection: PECAM1 and current stable ID absent. Exclude cells detecting either VWF or EMCN (1 of 2) instead of silently treating PECAM1 as zero. This is a conservative partial endothelial exclusion, not an equivalent full panel."
+}

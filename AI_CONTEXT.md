@@ -1,5 +1,28 @@
 # AI context
 
+## A23 external analysis executed, 1 October 2026
+
+The owner requested continuation of the [A23 pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md).
+P2 now has a descriptive human PAM case/control analysis; P3 has coordinate-level
+source-biochemistry extraction and an endpoint-linkage audit. [Results](RQ_Specified/A23_slc34a2_transition_homeostasis/reports/external_pilot_v2/RESULTS.md)
+and [five current figures](RQ_Specified/A23_slc34a2_transition_homeostasis/FIGURES.md)
+are deposited. The human case does not reproduce a coordinated KRT8/SPRR1A/CLU
+increase; identity-marker signs depend on annotation selection. A conditional
+phosphate-handling compensation branch is recorded after strict review.
+P4/P5 remain untested without linked replicated transport/state/time and
+restoration/function data. Claim grades and main README remain unchanged.
+
+The public archive and source workbook were retrieved; 13,346 filtered cells
+were audited. The failed PECAM1 feature gate, its pre-outcome conservative
+amendment, 1,847 published-only PAM barcodes, and the superseded F3 layout remain
+recorded. Independent raw-count/workbook-coordinate verification passed.
+Validation passed: 79 tests (one skip), the claim contract, repository checks,
+independent raw-count/workbook-coordinate checks, and visual review of all four
+current main figures. A supplementary source-completeness sensitivity recovers
+all 14,210 published cells and retains the marker pattern; independent annotation
+and ambient/doublet limitations remain. The A23 verifier is now a CI step.
+
+
 ## A23 pipeline structured, 1 October 2026
 
 The owner requested the [A23 analysis pipeline](RQ_Specified/A23_slc34a2_transition_homeostasis/PIPELINE.md).

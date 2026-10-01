@@ -1,0 +1,29 @@
+{
+  "scope": "Reviewed synthesis, source-linkage ledger and current figure/verification code; separate from immutable numerical run",
+  "outputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/endpoint_linkage.tsv",
+      "sha256": "ba55faa7f22e82782462abae97320133536d10b554261d438758b86a507f4268"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/reports/external_pilot_v2/RESULTS.md",
+      "sha256": "d4756ca385fb0e9333d9ed52495a34e1fdbed532409d7e17833ff2f0a680e1c1"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/reports/external_pilot_v2/REPRODUCE.md",
+      "sha256": "8769cd7d9c4c996c570714b9ffb8915b7f25a58e3991d871e86948e1bb9a8eff"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/FIGURES.md",
+      "sha256": "440661b57e2bd9c8d3ca21ae06c5b043efde6ee1b6455ea695cfa8698902c426"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/03_figures.py",
+      "sha256": "e2c7a6ac772c06918abf60ec0a8c3f7d30347f12cefa62214c0f0f8f79dacc90"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/04_verify_external.py",
+      "sha256": "8159c3f35f3cfdb03c50fc24009e9cd46b01c701ef759cbbb96f49e5d2e2d24f"
+    }
+  ]
+}

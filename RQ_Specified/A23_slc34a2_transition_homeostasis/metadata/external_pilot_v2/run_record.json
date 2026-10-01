@@ -1,0 +1,120 @@
+{
+  "run": "external_pilot_v2",
+  "completed_utc": "2026-10-01T06:49:21.958154+00:00",
+  "inference": "descriptive external case context and separate source-assay reproduction; no new causal model",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "openpyxl": "3.1.5"
+  },
+  "inputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/02_external_pilot.py",
+      "sha256": "eada477693e6c4674910e5a868822f8516e2f02b3c76dd7493a3abea4771e0b4"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/external_pilot_v2.json",
+      "sha256": "74ec394bd4163e16cac7670baa739966ccb054130df19316da4526b0a228b552"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/external_pilot_v1_annotation_addendum.json",
+      "sha256": "447c0af91d6a2de7d4d35e3170fdaf64899a9e3587fd371be5ad634fa1ef4e8b"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/config/biochemical_audit_v1.json",
+      "sha256": "f56a1c7854da399884bd7f91aa4378f9a162f95cd2b99c033fa55490eae1d2be"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_acquisition_v1/matrices.json",
+      "sha256": "43bdc266368f01246f9d7a8df11dc7488545080732e43f3a9487d32eb4001b34"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_acquisition_v1/ncbi_orthologs.json",
+      "sha256": "65925327d7826920928f805b5755434e439a0fea4dbcedf6020d5343a16667e7"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_acquisition_v1/orthologs.json",
+      "sha256": "aec49f85c8ccdc13eb47d751228ad301d7caa6bdb8e176f67cdcfc0b6f7e0140"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_acquisition_v1/selected_gene_map.json",
+      "sha256": "3c54e5fe01883e84ebc294c73560d60c3ef07b04cff06ce9a0cdbf7d68dbd9b2"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/metadata/external_acquisition_v1/sources.json",
+      "sha256": "5271fe9b9fb3b20fd73c50c975900f1c7c801da44480de60b796ce524dc6c388"
+    },
+    {
+      "path": "raw_data/GSE199329/GSE199329_RAW.tar",
+      "sha256": "1f6b85ebc63057bcee4a0371b2f324001464e43c2aae3f771666eadfb4dd0f58"
+    },
+    {
+      "path": "raw_data/GSE199329/41467_2023_36810_MOESM9_ESM.xlsx",
+      "sha256": "024585f00ed06ddab8e081feb48ddf82fc065a7ead3010e5a9fbded340ed754c"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970468_filtered_gene_bc_matrices_h5.h5",
+      "sha256": "d65aafa7ce6fd1580a3fe2f4762e933026c2080c698e817b4e9de77a40f65088"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970469_filtered_gene_bc_matrices_h5.h5",
+      "sha256": "bb47501c4b89feee67364802f8fc72a6b1b2e4c43ef0082a8938a0cb4b62f014"
+    },
+    {
+      "path": "raw_data/GSE199329/GSM5970470_filtered_gene_bc_matrices_h5.h5",
+      "sha256": "2ed46c5628e3305167cce923115de95d3de9641e5ea89b685a5b82cbd5efaa95"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/annotation_coverage.tsv",
+      "sha256": "73cd1b766d6f24b7067de91e4438a4e93bfa474ca7a35505b175718db6634754"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/biochemical_contrasts.tsv",
+      "sha256": "f0df9b4d2af5b6049ef84c6f4d606705e94db4fb77a835e4d7e36f4cc203c76d"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/biochemical_summary.tsv",
+      "sha256": "acf935db2b089de7a2d2027695a935e1d3fcafb1cfa5642a815ca73ad25eb25d"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/biochemical_values.tsv",
+      "sha256": "464277881c99a3091d6bab800742237ef9da78f8fd34e93903ffa27b6a14adc2"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/cell_selection.tsv",
+      "sha256": "cdb907711f469b455be516b7ff52fe26f21b7bbeb94b8b86f324e3ade34ec56f"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/coverage.tsv",
+      "sha256": "197ce70bbf3ba7616f0f5dba4159a503021572b630c8bb060b2d74244241805c"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/gene_coverage.tsv",
+      "sha256": "1ed9c27d9684645de9ee807e503ea57ee17f95ca2197e6ac12cbe370ff92bc9e"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/marker_differences.tsv",
+      "sha256": "1153fb527c1f7297a57ba114f0398f2edc6bf5e060cdb2e6c21a41c7259ce847"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/marker_summaries.tsv",
+      "sha256": "fa6289adea1bcfeb0583413758d00354b88f039ccc490c89f8c68880a977a0b3"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/published_annotation_crosswalk.tsv",
+      "sha256": "d35f921b78d589dc33a1e7640b489230de9901ef7d9c68ece966d1c14f899df5"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/stone_pairs.tsv",
+      "sha256": "db2a91ea44c25ac7a8de58597fef2329895e554d965800ee7d7bc869f702bace"
+    },
+    {
+      "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/tables/external_pilot_v2/workbook_inventory.tsv",
+      "sha256": "fb14ac9f0a20a476abee5853272b7ba79b3550a0f8c9558d886cb645360c90c2"
+    }
+  ]
+}

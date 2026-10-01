@@ -1,7 +1,9 @@
 # A23 analysis pipeline: phosphate homeostasis and epithelial state
 
-**1 October 2026.** Future fits are structured but not executed or frozen.
-P0 is a runnable audit of inherited Nb3 values and the source inventory.
+**1 October 2026 update.** P0/P1 intake and P2/P3 descriptive analysis are executed.
+[External results](reports/external_pilot_v2/RESULTS.md) and [figures](FIGURES.md)
+record the current evidence. P4/P5 remain gated. The stage design below preserves
+the original prospective requirements; immutable draft configs retain history.
 [Draft stage graph](config/pipeline_draft.json) | [Sources](SOURCES.md) |
 [Intake results](reports/intake_v1/INTAKE.md) | [Biological test plan](PLAN.md).
 
@@ -84,9 +86,9 @@ Repair references and the source-reused NKX2-1 cohort remain contextual.
 
 ### P2. External PAM epithelial phenotype, conditional on coverage
 
-**Immediate task:** inspect the processed-file inventory and epithelial coverage
-in GSE199329 before selecting a numerical model. Metadata advertise HDF5 counts;
-no matrices have yet been read. Prefer processed counts and existing annotation
+**Executed:** processed-matrix coverage, marker summaries and published-label
+intersection sensitivities are recorded in the external results. A subsequent raw-matrix sensitivity recovers every published barcode
+and retains the main marker pattern. The original sequence below remains the design reference. Prefer processed counts and existing annotation
 resources; do not rebuild raw sequencing for this first pass.
 
 1. Verify files, stable gene IDs, raw versus filtered matrix semantics, sample
@@ -212,8 +214,7 @@ a frozen confirmatory scientific design.
 | P4 temporal sequence | Actual unit-level condition/time contrasts with prespecified identity-retention bounds | Real sampling times, valid units and informative intervals; no pseudotime-as-fate |
 | P5 restoration/recovery | Separate paired or unit-level panels for normalization, state and mature output | Verified correction, traced/functional outcome and viability distinctions |
 
-The existing Nb3 figures retain their ownership and captions. No new scientific
-data figure is produced by this pipeline scaffold.
+The existing Nb3 figures retain their ownership and captions. Five new descriptive scientific figures are now in the [A23 gallery](FIGURES.md).
 
 ## Run the evidence intake
 
@@ -223,6 +224,4 @@ python RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/00_intake.py --ch
 ```
 
 Only tracked files and Python's standard library are required. Creation refuses
-existing output directories; checking does not rewrite evidence. The next
-numerical preparation is the P2 processed-count/epithelial-coverage audit and
-its new exploratory contract; P3's endpoint audit can proceed independently.
+existing output directories; checking does not rewrite evidence. The external analysis has separate [reproduction instructions](reports/external_pilot_v2/REPRODUCE.md).

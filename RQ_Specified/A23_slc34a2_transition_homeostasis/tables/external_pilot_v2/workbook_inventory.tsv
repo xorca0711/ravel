@@ -1,0 +1,54 @@
+sheet	rows	columns	header	scope
+Fig 1l	7	3	BALF Osteopontin (ng/mL) | Npt2b+/+ | Npt2b-/- | 70.88267 | 480.208 | 49.04667 | 517.1653	inventory only
+Fig 1m	7	3	Serum Osteopontin (ng/mL) | Npt2b+/+ | Npt2b-/- | 32.7183 | 57.0312 | 36.3421 | 62.7096	inventory only
+Fig 1n	17	3	Serum Osteopontin (ng/mL) | HC | PAM | 8.0641 | 12.87364 | 5.2038 | 11.705	inventory only
+Fig 2a	14211	5	BARCODES | CELL TYPE | GROUP | UMAP_1 | UMAP_2 | PAMCD45_neg.AAACCTGAGATATACG | AT2 | PAM | -9.586542035 | -1.084647813 | PAMCD45_neg.AAACCTGAGCACCGCT | AT2 | PAM | -9.463751698 | -0.482431644 | PAMCD45_neg.AAACCTGAGCAGGTCA | Macrophage | PAM | 5.302171325 | 4.585446841 | PAMCD45_neg.AAACCTGAGCCACTAT | AT2 | PAM | -8.769278432 | -3.048438542	inventory only
+Fig 2b	7782	5	BARCODES | CELL TYPE | GROUP | UMAP_1 | UMAP_2 | PAMCD45_neg.AAACCTGAGCAGGTCA | Macrophage | PAM | -2.861164808 | 10.38161087 | PAMCD45_neg.AAACCTGAGTGTACCT | Macrophage | PAM | 0.129252508 | 10.11153984 | PAMCD45_neg.AAACCTGCACCCAGTG | Macrophage | PAM | -3.307348967 | 10.88687134 | PAMCD45_neg.AAACCTGCAGGAATGC | Macrophage | PAM | -3.757453442 | 10.49721718	inventory only
+Fig 2c	116716	4	UMAP_1 | UMAP_2 | GENE | Zscore | -2.861164808 | 10.38161087 | ATP6V0D2 | 0.331718983 | 0.129252508 | 10.11153984 | ATP6V0D2 | -0.476897998 | -3.307348967 | 10.88687134 | ATP6V0D2 | -0.476897998 | -3.757453442 | 10.49721718 | ATP6V0D2 | -0.476897998	inventory only
+FIg 3a	347	2683	PAMCD45_neg.CTCTACGTCATAACCG | PAMCD45_pos.GATCGTATCCGTCATC | PAMCD45_neg.TTTGGTTGTGTAACGG | PAMCD45_pos.GCTGCAGAGGGATGGG | PAMCD45_neg.GTAGGCCTCCATTCTA | PAMCD45_pos.GAACCTATCATTATCC | PAMCD45_pos.AAGCCGCAGATCCCGC | PAMCD45_neg.AGAGCGACAGACGTAG | PAMCD45_pos.CGGCTAGAGCTAAACA | PAMCD45_pos.GGGTTGCTCAGAGCTT | PAMCD45_pos.CAGAATCCACGGTGTC | PAMCD45_pos.CGGTTAAAGCCACGCT | PAMCD45_neg.CAGTCCTCAGTGACAG | PAMCD45_neg.GCATGTACAACCGCCA | PAMCD45_pos.TCGTAGAAGTCTCCTC | PAMCD45_neg.AGGCCGTAGTGAACAT | PAMCD45_neg.TATGCCCGTTGTGGAG | PAMCD45_pos.CGAGCCAGTTCTGAAC | PAMCD45_pos.TACCTATCAAACGTGG | PAMCD45_neg	inventory only
+Fig 3b	16	5	gene | PAM.AvgExpr | Con.AvgExpr | FRQ.PAM | FRQ.CON | ATP6V0D2 | 0.672738221 | 0.105448155 | 0.338852927894024 | 0.070298769771529 | DCSTAMP | 0.627126298 | 0.145869947 | 0.360981484269155 | 0.114235500878735 | CTSK | 0.382507903 | 0.050087873 | 0.122233930453109 | 0.0395430579964851 | OCSTAMP | 0.002107482 | 0 | 0.00195694716242661 | 0	inventory only
+Fig 3c	7782	5	BARCODES | GROUP | CELLTYPE | UMAP_1 | UMAP_2 | PAMCD45_neg.AAACCTGAGCAGGTCA | Macrophage | PAM_Mac1 | -2.861164808 | 10.38161087 | PAMCD45_neg.AAACCTGAGTGTACCT | Macrophage | PAM_Mac1 | 0.129252508 | 10.11153984 | PAMCD45_neg.AAACCTGCACCCAGTG | Macrophage | PAM_Mac1 | -3.307348967 | 10.88687134 | PAMCD45_neg.AAACCTGCAGGAATGC | Macrophage | PAM_Mac1 | -3.757453442 | 10.49721718	inventory only
+Fig 3d	56	6	Gene | Group | Frequency | Average | Average.scaled | 56 | ITGB3 | PAM_Mac1 | 0.000454132606721163 | 0.000454132606721163 | -0.637034671168338 | 57 | CTSK | PAM_Mac1 | 0.120572207084469 | 0.215940054495913 | -0.404103645028352 | 58 | TNFRSF11A | PAM_Mac1 | 0.000227066303360581 | 0.000227066303360581 | -0.618676632880275 | 59 | MMP9 | PAM_Mac1 | 0.0138510445049955 | 0.0138510445049955 | -0.458199408229176	inventory only
+Fig 3e	7058	4	dim1 | dim2 | CELL | PAMCD45_neg.AAACCTGAGCAGGTCA | -3.65884942978046 | 1.44694360892733 | PAM_Mac1 | PAMCD45_neg.AAACCTGAGTGTACCT | 1.73131470710613 | -0.800465079141064 | PAM_Mac1 | PAMCD45_neg.AAACCTGCACCCAGTG | -4.28849954574726 | 2.61647072236498 | PAM_Mac1 | PAMCD45_neg.AAACCTGCAGGAATGC | -2.09982032745503 | 3.64329245488604 | PAM_Mac1	inventory only
+Fig 4a	8	3	Gene  | Relative expression | Acp5 | Npt2b+/+ | Npt2b-/- | 419.5492 | 383.1335	inventory only
+Fig 4b	8	3	Gene  | Relative expression | Mmp9 | Npt2b+/+ | Npt2b-/- | 0 | 10.47515	inventory only
+Fig 4c	8	3	Gene  | Relative expression | Ctsk | Npt2b+/+ | Npt2b-/- | 314.2766 | 3566.858	inventory only
+Fig 4d	8	3	Gene  | Relative expression | Itgb3 | Npt2b+/+ | Npt2b-/- | 0 | 7.872502	inventory only
+Fig 4e	9	3	Gene  | Relative expression | Calcr | Npt2b+/+ | Npt2b-/- | 0.003342 | 0.097043	inventory only
+Fig 4f	9	3	Gene  | Relative expression | Csf1 | Npt2b+/+ | Npt2b-/- | 2.018806 | 281.4931	inventory only
+Fig 4u	8	3	CatK 680 | Radient efficiency | Npt2b+/+ | Npt2b-/- | 0.721 | 1.93	inventory only
+Fig 5a	8	3	Gene  | Relative expression | Acp5 | AT (-) | AT (+) | 365.4908 | 556.9224	inventory only
+Fig 5b	8	3	Gene  | Relative expression | Mmp9 | AT (-) | AT (+) | 6.579595 | 26.9157	inventory only
+Fig 5c	8	3	Gene  | Relative expression | Ctsk | AT (-) | AT (+) | 582.5067 | 1805.817	inventory only
+Fig 5d	8	3	Gene  | Relative expression | Itgb3 | AT (-) | AT (+) | 0.11691 | 20.5941	inventory only
+Fig 5p	7	3	CTX-1 (nM) | Saline | HA | 3.21 | 15.22 | 3.015 | 8.11	inventory only
+Fig 6d	8	3	Stone Burden (g) | 0.1% Pi diet treated | D0 | D56 | 0.103 | 0.051	selected biochemical endpoint
+Fig 6e	8	3	Stone Burden (g) | 0.7% Pi diet treated | D0 | D56 | 0.185 | 0.174	selected biochemical endpoint
+Fig 6f	8	3	Stone Burden (g) | 2.0% Pi diet treated | D0 | D56 | 0.316 | 0.861	selected biochemical endpoint
+Fig 6g	9	8	Serum PTH (pg/mL) | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig 6h	20	4	Serum PTH (pg/mL) | HC | PAM	inventory only
+Fig 6i	9	8	Serum FGF-23 (pg/mL) | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig 6j	20	4	Serum FGF-23 (pg/mL) | HC | PAM	inventory only
+Fig 6k	9	8	Serum VitD3 (pmol/L) | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig 6l	20	4	Serum VitD3 (pmol/L) | HC | PAM	inventory only
+Fig 6m	11	8	Serum Phosphate (mM) | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	selected biochemical endpoint
+Fig 6n	20	4	Serum Phosphate (mg/dL) | HC | PAM	inventory only
+Fig 6o	11	8	Serum calcium (mM) | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig 6p	20	4	Serum calcium (mg/dL) | HC | PAM	inventory only
+Fig 6q	11	8	BALF phosphate (μM) | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	selected biochemical endpoint
+Fig 6r	11	8	BALF calcium (mM) | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig 6s	8	8	Gene | Relative expresion | Slc20a1 | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	selected biochemical endpoint
+Fig 6t	8	8	Gene | Relative expresion | Slc20a2 | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	selected biochemical endpoint
+fig 7b	9	5	TRAP positive MNGCs/HPF | LPD | RPD | HPD	inventory only
+Fig 7c	9	8	Gene | Relative expresion | Acp5 | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig 7d	9	8	Gene | Relative expresion | Mmp9 | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig 7e	9	8	Gene | Relative expresion | Tnfrsf11a | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig 7f	9	8	BALF osteoprotegerin (pg/mL) | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	selected biochemical endpoint
+Fig 7g	9	4	RANKL (pg/mg total protein) in AT2  | Npt2b+/+ | Npt2b-/-	inventory only
+Fig 7i	9	4	TRAP positive MNGCs/HPF | Control | RANKL ab treatment	inventory only
+Fig 7k	7	14	Radiant efficiency (%) | Control Ab | RANKL  Ab | D3 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | D5 | 82.03304 | 97.509 | 76.91025 | 79.53228 | 102.751 | 99.69488 | 85.34775 | 91.04762 | 90.98463 | 98.72096 | 92.13103 | 87.91007 | D7 | 72.91898 | 89.21502 | 73.43845 | 67.25984 | 62.87812 | 66.7953 | 65.23134 | 101.8017 | 91.30449 | 103.5458 | 101.1189 | 99.30165	inventory only
+Fig S7	8	4	Stone Burden (g) | 0.7% Pi diet treated | D1 | D56	inventory only
+Fig S8a	8	8	Gene | Relative expresion | Xpr1 | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig S8b	8	8	Gene | Relative expresion | Trpv6 | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig S8c	8	8	Gene | Relative expresion | S100g | Npt2b+/+ | Npt2b-/- | LPD | RD | HPD | LPD | RD | HPD	inventory only
+Fig S9	9	4	RANKL (pg/mg total protein) in BAL cells | Npt2b+/+ | Npt2b-/-	inventory only

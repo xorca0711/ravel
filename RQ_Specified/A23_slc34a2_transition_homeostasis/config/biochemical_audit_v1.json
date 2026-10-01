@@ -1,0 +1,27 @@
+{
+  "saved_utc": "2026-10-01T06:38:29.829703+00:00",
+  "status": "exploratory reanalysis after inspection of headings and some Fig6 numeric rows; not preregistered",
+  "source": "41467_2023_36810_MOESM9_ESM.xlsx",
+  "sheets": [
+    "Fig 6d",
+    "Fig 6e",
+    "Fig 6f",
+    "Fig 6m",
+    "Fig 6q",
+    "Fig 6s",
+    "Fig 6t",
+    "Fig 7f"
+  ],
+  "estimands": [
+    "original plotted values and n per group",
+    "mean and median by genotype/diet within each separate assay",
+    "LPD minus RD and LPD/RD within genotype for each assay separately",
+    "D56/D0 stone burden ratio within worksheet row, source-described pairing with unidentified subjects"
+  ],
+  "units": "retain workbook units; chart rows are observation positions, not shared animal IDs",
+  "inference": "descriptive reproduction and endpoint audit; no inferred cross-assay pairing, no mediation, no new p-values",
+  "missing": "empty cells missing; numeric zero retained",
+  "cross_assay_link": "unresolved unless explicit shared subject identifiers found",
+  "epithelial_state": "search workbook labels for Krt8/Sprr1a/Clu, AT2 identity and transport assay endpoints; RNA expression or serum chemistry does not measure epithelial transport flux",
+  "figure": "separate panels for soluble alveolar phosphate, serum phosphate, AT2 Slc20a1/2 RNA and longitudinal mineral burden; distinguish source units and sampling"
+}

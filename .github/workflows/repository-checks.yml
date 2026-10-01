@@ -25,5 +25,7 @@ jobs:
         run: python "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
       - name: Verify archived A16 Stage 1 evidence
         run: python RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py
+      - name: Verify archived A23 external analysis
+        run: python RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/04_verify_external.py
       - name: Validate tracked artefacts and documentation
         run: python analysis/scripts/validate_repository.py

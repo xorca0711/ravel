@@ -28,6 +28,7 @@ page covers only assets that live inside the question folders.
 | A19 | 4 | [FIGURES.md](A19_fzd_response_reversibility/FIGURES.md): three main figures and one supplementary figure, each as PNG/PDF/SVG; donor-paired qPCR, passage persistence and source-block bulk RNA |
 | A20 | 6 | [Atlas gallery](A20_fibroblast_fzd_context/FIGURES.md): three paired-context figures; [extension gallery](A20_fibroblast_fzd_context/extensions/extension_v1/FIGURES.md): three four-donor FZD/input/individual-gene figures, each PNG/PDF/SVG |
 | A21 | 6 | [Parent gallery](A21_fzd4_capillary_function/FIGURES.md): three cohort/context figures; [extension gallery](A21_fzd4_capillary_function/extensions/extension_v1/FIGURES.md): three vascular-source, Fzd-family and receptor-context figures; each PNG/PDF/SVG |
+| A23 | 6 (5 current; 1 superseded) | [A23 gallery](A23_slc34a2_transition_homeostasis/FIGURES.md): cell coverage, marker profiles, QC/annotation sensitivities and biochemical context; PNG/PDF/SVG |
 | A5 and A11 shared contract | 1 | [reports/REVISED_TEST_RESULTS.md](A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md) |
 
 Each PNG has an SVG beside it except the three A0 planning and coverage panels
@@ -68,4 +69,4 @@ unresolved, and the captions carry those limits.
 
 ## Nb3-derived questions, 1 October 2026
 
-A22 and A23 have rationale/test plans and no new question-specific data figures. Their completed source-screen evidence remains in the [Nb3 gallery](../Research%20Article/gate2_N2_nabhan_2026/FIGURES.md), with 12 paper-style figures and source tables. No duplicate image assets or claim grades are created here.
+A22 retains its rationale/test plan without new question-specific data figures. A23 now has five current external-analysis figures in its gallery above. Their completed source-screen evidence remains in the [Nb3 gallery](../Research%20Article/gate2_N2_nabhan_2026/FIGURES.md), with 12 paper-style figures and source tables. No duplicate image assets or claim grades are created here.

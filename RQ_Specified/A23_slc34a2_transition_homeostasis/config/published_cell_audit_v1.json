@@ -1,0 +1,19 @@
+{
+  "saved_utc": "2026-10-01T07:04:42.489922+00:00",
+  "status": "post-pilot source-completeness sensitivity; prior filtered outcomes exposed",
+  "reason": "1847 published PAM barcodes missing from filtered matrices versus zero published control barcodes missing; resolve differential source selection",
+  "groups": [
+    "all published AT2 labels recovered from raw matrices",
+    "published AT2 with frozen primary technical QC",
+    "published AT2 with frozen strict technical QC"
+  ],
+  "selection": "exact library plus barcode plus published AT2 label; no target/transition filtering; author annotation is a sensitivity and not independently revalidated",
+  "readouts": "same 12 individual genes and normalization as external_pilot_v2.json",
+  "comparison": [
+    "GSM5970468",
+    "GSM5970470"
+  ],
+  "context": "GSM5970469 kept separate",
+  "inference": "descriptive case context; no population significance or causal claim",
+  "no_changes": "retain all filtered analysis outputs; do not tune thresholds or choose favorable cell populations"
+}
