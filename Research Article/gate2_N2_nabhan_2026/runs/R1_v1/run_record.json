@@ -1,0 +1,35 @@
+{
+  "analysis_id": "Nb3_R1",
+  "source_rows": 1883,
+  "targets": 203,
+  "source_days": [
+    "day07",
+    "day14"
+  ],
+  "eligible_models": 2412,
+  "technical_q_lt_005_counts": {
+    "all_wells_scaling|day07|organoids_area_mean": 20,
+    "all_wells_scaling|day07|organoids_area_prop": 26,
+    "all_wells_scaling|day07|organoids_count": 17,
+    "all_wells_scaling|day14|organoids_area_mean": 17,
+    "all_wells_scaling|day14|organoids_area_prop": 26,
+    "all_wells_scaling|day14|organoids_count": 30,
+    "exclude_tdTomato_scaling|day07|organoids_area_mean": 20,
+    "exclude_tdTomato_scaling|day07|organoids_area_prop": 26,
+    "exclude_tdTomato_scaling|day07|organoids_count": 17,
+    "exclude_tdTomato_scaling|day14|organoids_area_mean": 17,
+    "exclude_tdTomato_scaling|day14|organoids_area_prop": 26,
+    "exclude_tdTomato_scaling|day14|organoids_count": 30
+  },
+  "source_choice_uncertainties": [
+    "original scale/transformation of deposited mean area",
+    "original exact multiplicity family",
+    "original scaling set and joint-day handling"
+  ],
+  "biological_inference": "Not established: split wells and unresolved preparations",
+  "script_sha256": "eefea1ecc09fe445743e250d27b456b9ffc78d1178116d8bf0d748623e54fe57",
+  "config_sha256": "f6aed37cbe4ebc2d5e45fe60d53ea0e52cdaca8388eef840423b0a0455ed91d2",
+  "input_sha256": "50ab337c916e0bd195c0fc387067fe0ee138683537e738c23f90ad97ef99d215",
+  "output_sha256": "abc9a23782615c54f6b5f1b36c422b78798655e60085bb11bb2f12d4edc6bd6b",
+  "python": "3.12.14"
+}

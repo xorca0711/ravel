@@ -1,0 +1,222 @@
+{
+  "schema": "Nb3-execution/v1",
+  "analysis_id": "Nb3",
+  "frozen_on": "2026-10-01",
+  "status": "source-informed execution contract before new endpoint fits",
+  "prior_exposure": "Paper, notes, earlier A10/A2 outputs and supplemental schema have been inspected; not an unseen-data preregistration.",
+  "inputs": {
+    "counts": {
+      "path": "raw_data/GSE307112/GSE307112_gene_counts.xlsx",
+      "sha256": "60736e5c153a4fb92908f19148ebb5ef2b59f7ade97fb1056deee7d0205acc33"
+    },
+    "imaging": {
+      "path": "docs/roadmap_runs/2026-09-27/inputs/GSE307112_imaging_outputs.csv.gz",
+      "sha256": "50ab337c916e0bd195c0fc387067fe0ee138683537e738c23f90ad97ef99d215"
+    },
+    "crosswalk": "docs/roadmap_runs/2026-09-27/P1_library_crosswalk.tsv",
+    "supplement_dir": "raw_data/nabhan_2026_sources"
+  },
+  "R1": {
+    "status": "source-informed reconstruction; unspecified source implementation choices are declared",
+    "days": [
+      "day14",
+      "day07"
+    ],
+    "primary_day": "day14",
+    "endpoints": [
+      "organoids_count",
+      "organoids_area_mean",
+      "organoids_area_prop"
+    ],
+    "scaling": "z-score within plate/day over all nonmissing imaging wells including controls, sample SD (ddof=1)",
+    "target_controls": [
+      "TIGIT"
+    ],
+    "exclude_targets": [
+      "TIGIT",
+      "TDTOMATO"
+    ],
+    "fit": "OLS with intercept and target indicator, matched plates only; already centered/scaled; original values not logged again",
+    "minimum_target_wells": 2,
+    "minimum_control_wells": 3,
+    "uncertainty": "OLS technical-well interval only; no independent-preparation inference",
+    "multiplicity": "BH across eligible target p-values separately for each day and endpoint",
+    "diagnostic_fdr": 0.05,
+    "sensitivity": "Repeat scaling with tdTomato omitted; preserve primary and sensitivity side by side",
+    "source_uncertainties": [
+      "original scale/transformation of deposited mean area",
+      "original exact multiplicity family",
+      "original scaling set and joint-day handling"
+    ],
+    "image_embedding_reproduction": "unavailable without original images/embeddings"
+  },
+  "R2": {
+    "species_gene_detection_cutoff": {
+      "mouse": 7500,
+      "human": 10000
+    },
+    "detection": "raw read count >0",
+    "gene_id": "retain stable IDs; reject duplicate IDs; annotations and library joins explicit",
+    "normalization": "edgeR TMM on all nonzero genes across species-QC-retained libraries",
+    "DE": "limma::voom then lmFit/eBayes separately per target, with plate covariate when multiple plates",
+    "controls": [
+      "TIGIT",
+      "TDTOMATO"
+    ],
+    "comparison": "target against combined reference within matching plates",
+    "min_target_libraries": 2,
+    "min_control_libraries": 3,
+    "min_residual_df": 3,
+    "postfit_filter": "AveExpr >1.5; units limma voom average log2 CPM",
+    "multiplicity": "BH per target over the full nonzero fitted gene universe, then apply AveExpr filter; source order unresolved",
+    "diagnostic_fdr": 0.05,
+    "versions": "current locally installed limma 3.68.5 and edgeR 4.10.5; not a pinned recreation of source package versions",
+    "source_comparison": "Compare common stable IDs against S4/S5 logFC with source-selected universe explicitly reported; no independent validation",
+    "outputs": "Full matrices and DE tables ignored; compact QC, effects, concordance and records tracked",
+    "source_uncertainties": [
+      "within-subset versus full-species TMM recomputation",
+      "exact source design coding/filter order",
+      "original software versions"
+    ]
+  },
+  "R3": {
+    "source_table_reconstruction": "S6 target activities and S7 gene projections, 20 components; retain source component identities",
+    "panels": "Exact figure marker panels below; not complete pathway scores",
+    "cpca": "Do not substitute ordinary PCA or choose alpha to match plots. Exact scPCA/source alpha unavailable; mark coordinate reproduction incomplete.",
+    "ica_refit": "No substitute FastICA; source JADE and source input/model settings required for exact refit",
+    "top_gene_display": "200 most absolute gene_zscoreOfProj per source component, retain sign; explicitly declared ordering variant if original signed ranking differs"
+  },
+  "R4_extensions": {
+    "program_summary": "arithmetic mean of per-gene log2(TMM CPM +0.5) after summing CPM for duplicate symbols; all panel genes required",
+    "primary_unit": "target-associated within-screen descriptive contrasts; wells remain technical",
+    "primary_contrast": "NKX21 versus same-plate TIGIT+TDTOMATO; separate source gene and fixed-panel results",
+    "comparison_targets": [
+      "BECN1",
+      "KEAP1",
+      "TRP53",
+      "CDKN2B",
+      "CTNNB1",
+      "CSNK2A1",
+      "ELOVL1",
+      "ATP6V0E",
+      "SLC34A2",
+      "FZD5",
+      "PORCN",
+      "ERBB2",
+      "ERBB3",
+      "EGFR",
+      "ERBB4"
+    ],
+    "growth_association": "Spearman across per-target effects on common eligible targets; report association without biological p-values",
+    "depth_controls": "Report correlations with log mouse and human library size in both compartments and exclude depth-driven interpretation; controls receive same checks",
+    "growth_conditioned": "Exploratory linear residual comparison using coverage-growth effect, report both before and after; no mediation/direct effect inference",
+    "leave_out": "Remove NKX21 and each focal target separately from target-level association diagnostics; no independent validation claim",
+    "E2": "joint IFN/hypoxia/transition/AT2 panel contrasts, source ICA13/ICA5 activities; no trajectory/fate claim from bulk",
+    "E3": "compare source ICA17 and Wnt/AT1 panels for ELOVL1/ATP6V0E against nominated controls",
+    "E4": "source ICA5 and fixed panels for SLC34A2; never score the targeted Slc34a2 gene as evidence for its own state",
+    "E5": "receptor expression in source compartments only; exact DepMap release/denominator and normal AT1 function remain distinct eligibility gates",
+    "E6": "source expression/DE and editing/recipient evidence audit, not a new AREG fit or claim of EGFR dispensability",
+    "E7": "bulk programme response may run; heterogeneity requires eligible single-cell/spatial evidence",
+    "E8": "PLIN2 is a sentinel only, not a complete lung-specific lineage programme; multi-organ specificity remains untested"
+  },
+  "programs": {
+    "mouse": {
+      "AT2_figure3": [
+        "Sftpb",
+        "Sftpc",
+        "Sftpd",
+        "Abca3"
+      ],
+      "transition_figure3": [
+        "Krt8",
+        "Sprr1a",
+        "Clu"
+      ],
+      "IFN_figure3": [
+        "Zbp1",
+        "Irf7",
+        "Isg15",
+        "Ifit1",
+        "Ifitm3"
+      ],
+      "hypoxia_figure3": [
+        "Ndrg1",
+        "Ndrg2",
+        "Aldoa",
+        "Hilpda"
+      ],
+      "gastric_maintext": [
+        "Hnf4a",
+        "Onecut2",
+        "Vsig1",
+        "Tff1"
+      ],
+      "Wnt_maintext": [
+        "Axin2",
+        "Tcf7",
+        "Sox9",
+        "Ctnnd2"
+      ],
+      "AT1_maintext": [
+        "Rtkn2",
+        "Spock2",
+        "Aqp5",
+        "Hopx"
+      ]
+    },
+    "human": {
+      "ID_figure4": [
+        "ID1",
+        "ID2",
+        "ID3"
+      ],
+      "OXPHOS_figure4": [
+        "MT-ND1",
+        "MT-ND2",
+        "MT-ND3"
+      ],
+      "Hippo_figure4": [
+        "CYR61",
+        "CTGF",
+        "IGFBP5",
+        "IGFBP3"
+      ],
+      "wound_figure4": [
+        "COL1A1",
+        "CTHRC1",
+        "ACTA2",
+        "TAGLN"
+      ],
+      "chemokines_figure4": [
+        "CCL2",
+        "CXCL1",
+        "CXCL2",
+        "CXCL3",
+        "CXCL6",
+        "CXCL8",
+        "CXCL12"
+      ],
+      "PLIN2_sentinel": [
+        "PLIN2"
+      ]
+    }
+  },
+  "unresolved_gene_spelling": "AT1 Spock2 must be checked against source Fig S7; if source differs, withhold this panel pending a documented amendment before scoring.",
+  "R5": {
+    "action": "metadata and public-asset eligibility audit first",
+    "no_biological_fit_until": [
+      "treatment reconciled",
+      "animal mapping verified",
+      "region and bin definitions recovered"
+    ],
+    "biological_n": "paper reports two animals per group; bins do not increase n"
+  },
+  "verdicts": [
+    "executed_descriptive",
+    "partial_source_reconstruction",
+    "held_missing_design_or_input",
+    "not_estimable",
+    "not_tested"
+  ],
+  "output_policy": "versioned run directory, refuse overwrite; retain all failures and source deviations"
+}

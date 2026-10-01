@@ -4,9 +4,10 @@
     "origin": "the owner's reading order; the reading notes are kept privately",
     "reading_order_last_checked": "2026-09-15",
     "ids_verified_against_pubmed_on": "2026-09-09 (papers 1 to 11); 2026-09-15 (papers 12 to 16 and M1 to M7)",
-    "analysis_status_updated": "2026-09-28",
-    "analysis_status_basis": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md; study-reading statuses and reading order preserved",
-    "nabhan_2023_status_updated": "2026-09-29; Nb2 source and branch analyses remain under Research Article; specified RQs deferred to evidence-driven derivation"
+    "analysis_status_updated": "2026-10-01",
+    "analysis_status_basis": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md; Nb3 updates linked in paper 14; other reading statuses and reading order preserved",
+    "nabhan_2023_status_updated": "2026-09-29; Nb2 source and branch analyses remain under Research Article; specified RQs deferred to evidence-driven derivation",
+    "nb3_status_updated": "2026-10-01; owner read; partial reproduction, descriptive follow-up and E5 pilot completed; A22/A23 proposed"
   },
   "working_question": "Which epithelial and immune-state programmes distinguish productive lung repair from persistent dysplastic remodelling after inflammatory injury?",
   "gate_rules": {
@@ -436,18 +437,27 @@
         "the Nkx2.1 result"
       ],
       "datasets": [
-        "GSE307112 (deposited mixed-species RNA screen and imaging outcomes)"
+        "GSE307351",
+        "GSE307112",
+        "GSE307128",
+        "GSE215824 (source context metadata)",
+        "GSE122960 (source context metadata)",
+        "GSE306184 (descriptive external E5 pilot)"
       ],
-      "folder": null,
-      "note_status": "not started",
-      "trial_status": "Deposit used in completed A2 screen and A10 growth/outcome analyses; later P1 source recovery identifies split-well hierarchy and unresolved independent preparations. Paper reading and study note remain not started; use of its deposit does not establish owner reading.",
+      "folder": "gate2_N2_nabhan_2026",
+      "note_status": "owner finished reading 2026-10-01; annotated-source synthesis prepared",
+      "trial_status": "Nb3 partial reproduction and descriptive follow-up complete; 12 paper-style figures including GSE306184 E5 pilot; A22/A23 proposed. Human numeric S5 failure and biological/source/spatial/DepMap holds retained.",
       "added": "2026-09-15",
-      "trial_location": "RQ_Specified/A10_organoid_growth_outcome/README.md",
+      "trial_location": "Research Article/gate2_N2_nabhan_2026/README.md",
       "current_evidence": [
         "RQ_Specified/A2_areg_source_delivery/reports/STAGE5_SYNTHESIS.md",
         "RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md",
-        "docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md"
-      ]
+        "docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md",
+        "Research Article/gate2_N2_nabhan_2026/reports/REPRODUCTION_REVIEW.md",
+        "Research Article/gate2_N2_nabhan_2026/reports/E5_EXTERNAL_FEASIBILITY.md"
+      ],
+      "analysis_id": "Nb3",
+      "trial_id": "Nb3"
     },
     {
       "order": 15,

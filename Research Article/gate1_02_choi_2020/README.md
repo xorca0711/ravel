@@ -6,6 +6,7 @@
 |---|---|
 | Paper context and biological question | [Study context](#study-context); [source evidence and deposited data](#source-context) |
 | Analysis results, claims and limitations | [Trial outcomes](ANALYSIS_TRIAL_PLAN.md); [chromatin](datp_epigenetics/README.md) and [Axin2/Il1r1](axin2_il1r1/README.md) follow-ups |
+| Later results and RQ implications | [Chronological retrospective review](RQ_RETROSPECTIVE_REVIEW.md) |
 | Figures and captions | [Corrected D6 scale and units](trials/d6_programmes/revision_20260929/README.md); [state maps and follow-up galleries](#figure-gallery) |
 | Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
 

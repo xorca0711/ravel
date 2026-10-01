@@ -1,0 +1,20 @@
+{
+  "analysis_id": "Nb3_R2",
+  "script_sha256": "8e586c371ad5e12cfc8f75c56c95b7214a3f7ca08363513d621d252ff754f544",
+  "selection_warning": "Concordance is conditional on S4/S5 source-selected genes; this is not independent validation or exact source pipeline recovery",
+  "species_summary": {
+    "pearson_logFC": {
+      "human": 0.0034785288143938495,
+      "mouse": 0.9606189661854769
+    },
+    "spearman_logFC": {
+      "human": 0.003430139830990993,
+      "mouse": 0.9495174380869967
+    },
+    "sign_agreement": {
+      "human": 0.5047949965253649,
+      "mouse": 0.9039135514018691
+    }
+  },
+  "table_sha256": "8bcca60d3f005073c1ddbccb4aadec6e085e8cab1ce4bea4253ed7368982ba5b"
+}

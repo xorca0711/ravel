@@ -1,0 +1,11 @@
+species	program	required_genes	missing_genes	eligible
+human	ID_figure4	ID1;ID2;ID3		TRUE
+human	OXPHOS_figure4	MT-ND1;MT-ND2;MT-ND3		TRUE
+human	Hippo_figure4	CYR61;CTGF;IGFBP5;IGFBP3		TRUE
+human	wound_figure4	COL1A1;CTHRC1;ACTA2;TAGLN		TRUE
+human	chemokines_figure4	CCL2;CXCL1;CXCL2;CXCL3;CXCL6;CXCL8;CXCL12		TRUE
+human	PLIN2_sentinel	PLIN2		TRUE
+human	receptor_EGFR	EGFR		TRUE
+human	receptor_ERBB2	ERBB2		TRUE
+human	receptor_ERBB3	ERBB3		TRUE
+human	receptor_ERBB4	ERBB4		TRUE

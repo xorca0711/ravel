@@ -1,0 +1,41 @@
+{
+  "config_sha256": "841c6dd3609c53da28399d1db575c5b123000ed43f385a260fd79c535ebe6d42",
+  "script_sha256": {
+    "14_followup_analysis.py": "6c3ec65f1f64ccf385812518ff72434049f707b0f72c7c67156c8792b79d8c45",
+    "14b_hallmark_context.R": "3eb7851a27cca7a63f8e3a74e4270c3e0f5f913007c6ca5b8b74e27825c8ae81"
+  },
+  "status": "complete_exploratory_followup",
+  "analysis_id": "Nb3",
+  "counts": {
+    "sensitivity_rows": 2292,
+    "estimable_sensitivity_rows": 2250,
+    "marker_rows": 832,
+    "depth_rows": 804,
+    "hallmark_rows": 2972,
+    "recovery_checks": 416
+  },
+  "unresolved": [
+    "human numeric S5 discrepancy",
+    "independent preparations/target-guide-position confounding",
+    "spatial design",
+    "exact source embeddings",
+    "independent functional validation"
+  ],
+  "output_sha256": {
+    "focal_depth_effects.tsv": "b40dfc7f15aa1d3453eb3126472c800a7a1ba327cc513a0ceb74ca72c8fbb55b",
+    "hallmark_camera.tsv": "23424dc96ab699949ac5c20a8715ab0ad06f5dbc8bde74224149a185f5fd216c",
+    "hallmark_coverage.tsv": "ade69c4c4d1d543cc47f636fb4d7259c09cd0b925d93b2325d5f2cb72def3806",
+    "hallmark_universes.tsv": "d00abdc4960adad36c6a84eb10aeeb63b27233bebb71a28e3a11c325e2c28255",
+    "individual_marker_effects.tsv": "14de007aae0b070eb3aad517ad7cb6bf63e2532f87bd88515f45cd6ea042f176",
+    "intent.json": "feddf6568ba9d54a99bd1034fe880eeed593db3d54593d23bb05d587d9113e7b",
+    "paired_depth_associations.tsv": "d4efc7e22e0a27459f6ce9d792ef234fac4a1d019e1759f5c70cd5bb780b77bb",
+    "paired_depth_effects.tsv": "089331f528d75387fd6905cd329fc796cb2dc5e00c28a5659364c707b2c31c3d",
+    "panel_sensitivities.tsv": "6fbef352b49ae5a75807b3c4be074c7d7ccc6dba951d0c970e122104b5db8996",
+    "panel_sensitivity_summary.tsv": "ca8fe4174b9a75a43d87b546ad79e5b2e8b47ad4810b375987bd9c9c626cec73",
+    "R_log.txt": "fb3ad021f298886ad33d01ac302f7abfaa08e31b9888a47186adf7b852a0a230",
+    "R_session.txt": "e7f9e8626f7cc7a2973491d64df25d78e32dee041b9c6cfbd2090f58554e82ac",
+    "recovery_checks.tsv": "e08e3cc9758533ffecce63aaf34872eb442caeb9be7db6b33a6c78745d3f0785",
+    "target_transcript_checks.tsv": "5d2a8d4a8238e0af07e43711260e81d3616017730a0c072fdbbe1c3bbd9898ff",
+    "targets.tsv": "544cc0d9297042cb935c5379cd7cf2f449b74de752f9609b1cdb24a76e093fb9"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS_after_layout_revision",
+  "reviewed": "11 base/follow-up figures in PNG draft sheets and 11 PDF-rendered pages; final corrected S03 page inspected at 140 dpi",
+  "render_engine": "Poppler pdftoppm",
+  "final_atlas": "figures/Nb3_complete_figure_atlas_v2.pdf",
+  "atlas_sha256": "70e8bf34c9a114cece5dc4008875bf5f53d440e2b1216dede04a1f758a9d934c",
+  "checks": [
+    "panel titles/labels visible",
+    "axes and zero references consistent with estimands",
+    "technical confidence intervals distinct from IQR/sensitivity ranges",
+    "shared marker heatmap scale and signed color legends",
+    "S5 discrepancy explicit",
+    "source-only ICA/budding labels retained",
+    "SVG/PDF/300dpi PNG exports",
+    "final S03 title bounds pass"
+  ],
+  "corrections": [
+    "S03 right title clipped in first PDF; new layout version shortens titles; original preserved"
+  ],
+  "scientific_check": "Direct source workbook reread confirmed extreme S3 Aqp5/Sox9 coefficients belong to source logFC columns; source scale retained, no new biological interpretation."
+}

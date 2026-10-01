@@ -1,0 +1,542 @@
+{
+  "series": "GSE122960",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122960/soft/GSE122960_family.soft.gz",
+  "sha256": "fcce982039b5121b93c69e612d8625a836b2ed6e9888aff5a213cb30843bc4ab",
+  "bytes": 4399,
+  "series_metadata": [
+    "!Series_title = Single-Cell Transcriptomic Analysis of Human Lung Reveals Complex Multicellular Changes During Pulmonary Fibrosis II",
+    "!Series_pubmed_id = 30554520",
+    "!Series_summary = Pulmonary fibrosis is a heterogeneous syndrome in which fibrotic scar replaces normal lung tissue. We performed massively parallel single-cell RNA-Seq on lung tissue from eight lung transplant donors and eight patients with pulmonary fibrosis. Combined with in situ RNA hybridization, with amplification, these data provide a molecular atlas of disease pathobiology. We identified a distinct, novel population of profibrotic alveolar macrophages exclusively in patients with fibrosis. Within epithelial cells, the expression of genes involved in Wnt secretion and response was restricted to non-overlapping cells. We identified rare cell populations including airway stem cells and senescent cells emerging during pulmonary fibrosis. Analysis of a cryobiopsy specimen from a patient with early disease supports the clinical application of single-cell RNA-Seq to develop personalized approaches to therapy.",
+    "!Series_overall_design = Single-cell suspensions from eight donor lungs and nine lungs from patients with various forms of pulmonary fibrosis were prepared and single cell RNA-seq libraries were generated using 3' V2 chemistry kit on Chromium Single cell controller (10x Genomics). This GEO submission contains only processed data (raw counts tables in HDF5 format), raw data (FASTQ files) available from dbGaP/SRA (phs001750.v1.p1).",
+    "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122960/suppl/GSE122960_RAW.tar"
+  ],
+  "samples": [
+    {
+      "gsm": "GSM3489182",
+      "title": [
+        "Donor_01"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Donor"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477942"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489182/suppl/GSM3489182_Donor_01_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489182/suppl/GSM3489182_Donor_01_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489183",
+      "title": [
+        "IPF_01"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Idiopathic pulmonary fibrosis"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477941"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489183/suppl/GSM3489183_IPF_01_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489183/suppl/GSM3489183_IPF_01_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489184",
+      "title": [
+        "IPF_02"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Idiopathic pulmonary fibrosis"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477940"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489184/suppl/GSM3489184_IPF_02_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489184/suppl/GSM3489184_IPF_02_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489185",
+      "title": [
+        "Donor_02"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Donor"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477939"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489185/suppl/GSM3489185_Donor_02_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489185/suppl/GSM3489185_Donor_02_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489186",
+      "title": [
+        "Cryobiopsy"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Idiopathic pulmonary fibrosis"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477938"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489186/suppl/GSM3489186_Cryobiopsy_01_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489186/suppl/GSM3489186_Cryobiopsy_01_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489187",
+      "title": [
+        "Donor_03"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Donor"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477937"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489187/suppl/GSM3489187_Donor_03_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489187/suppl/GSM3489187_Donor_03_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489188",
+      "title": [
+        "IPF_03"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Idiopathic pulmonary fibrosis"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477936"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489188/suppl/GSM3489188_IPF_03_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489188/suppl/GSM3489188_IPF_03_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489189",
+      "title": [
+        "Donor_04"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Donor"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477935"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489189/suppl/GSM3489189_Donor_04_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489189/suppl/GSM3489189_Donor_04_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489190",
+      "title": [
+        "IPF_04"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Idiopathic pulmonary fibrosis"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477934"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489190/suppl/GSM3489190_IPF_04_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489190/suppl/GSM3489190_IPF_04_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489191",
+      "title": [
+        "Donor_05"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Donor"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477933"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489191/suppl/GSM3489191_Donor_05_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489191/suppl/GSM3489191_Donor_05_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489192",
+      "title": [
+        "HP_01"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Hypersensitivity pneumonitis"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477932"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489192/suppl/GSM3489192_HP_01_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489192/suppl/GSM3489192_HP_01_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489193",
+      "title": [
+        "Donor_06"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Donor"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477931"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489193/suppl/GSM3489193_Donor_06_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489193/suppl/GSM3489193_Donor_06_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489194",
+      "title": [
+        "SSc-ILD_01"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Systemic slcerosis-associated interstitial lung disease"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477930"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489194/suppl/GSM3489194_SSc-ILD_01_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489194/suppl/GSM3489194_SSc-ILD_01_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489195",
+      "title": [
+        "Donor_07"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Donor"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477929"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489195/suppl/GSM3489195_Donor_07_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489195/suppl/GSM3489195_Donor_07_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489196",
+      "title": [
+        "Myositis_ILD_01"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Myositis-associated interstitial lng disease"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477928"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489196/suppl/GSM3489196_Myositis-ILD_01_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489196/suppl/GSM3489196_Myositis-ILD_01_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489197",
+      "title": [
+        "Donor_08"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Donor"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477927"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489197/suppl/GSM3489197_Donor_08_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489197/suppl/GSM3489197_Donor_08_raw_gene_bc_matrices_h5.h5"
+      ]
+    },
+    {
+      "gsm": "GSM3489198",
+      "title": [
+        "SSc-ILD_02"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "disease condition: Systemic slcerosis-associated interstitial lung disease"
+      ],
+      "treatment_protocol_ch1": [
+        "not applicable."
+      ],
+      "data_processing": [
+        "BaseCalls: HCS 3.4.0 software.",
+        "Fastq files were generated using bcl2fastq software (Illumina) as part of CellRanger V2.0 pipeline (10x Genomics) using mkfastq command.",
+        "Fastq files processed using CellRanger V2.0 pipeline (10x Genomics), mapping was done to GRCh38 version of human genome.",
+        "Genome_build: GRCh38",
+        "Supplementary_files_format_and_content: Raw and filtered matrices in HDF5 format."
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN10477926"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489198/suppl/GSM3489198_SSc-ILD_02_filtered_gene_bc_matrices_h5.h5"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3489nnn/GSM3489198/suppl/GSM3489198_SSc-ILD_02_raw_gene_bc_matrices_h5.h5"
+      ]
+    }
+  ]
+}

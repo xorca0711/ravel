@@ -1,0 +1,24 @@
+{
+  "analysis_id": "Nb3",
+  "date": "2026-10-01",
+  "python_compilation": "PASS",
+  "changed_document_link_checks": 521,
+  "changed_documents": 18,
+  "link_failures": [],
+  "new_audit_hashes": "PASS",
+  "JSON_parse": "PASS",
+  "repository_tests": {
+    "passed": 52,
+    "skipped": 1
+  },
+  "claim_numeric_bindings": 18,
+  "existing_Nb1_A16_provenance": "PASS",
+  "full_repository_validator": {
+    "status": "FAIL",
+    "failures": 24,
+    "location": "docs/audits/2026-09-28-rq-adversarial-review/epithelial-programs.md",
+    "note": "Every reported failure is in this untouched untracked audit; earlier intake run reported 17 there. No unrelated edits were made."
+  },
+  "computation_verification": "reports/Nb3_computation_verification.json",
+  "scientific_verdict": "Human numeric S5 not reproduced; computation verification is distinct from source concordance."
+}

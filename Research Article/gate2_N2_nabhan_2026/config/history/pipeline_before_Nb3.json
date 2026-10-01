@@ -1,0 +1,253 @@
+{
+  "schema": "nabhan-2026-pipeline/v1",
+  "date": "2026-10-01",
+  "status": "draft_source_informed_not_preregistered",
+  "owner_request": "Structure paper reproduction and extensions after completed reading",
+  "biological_endpoints_run_in_this_package": 0,
+  "prior_exposure": [
+    "A10 GSE307112 growth analyses",
+    "A2 GSE307112 perturbation comparisons",
+    "P1 metadata/supplement design audit",
+    "source paper and annotated notes"
+  ],
+  "scope": "Computational planning and intake; no new model fit",
+  "stages": [
+    {
+      "id": "NB26_00",
+      "kind": "intake",
+      "title": "Source, identity and design audit",
+      "depends_on": [],
+      "status": "intake_partial",
+      "output": "reports/intake_2026-10-01.json",
+      "gate": "Recover counts, aliases and remaining methods",
+      "contract_frozen": false,
+      "entrypoint": "scripts/00_inventory.py"
+    },
+    {
+      "id": "NB26_R1",
+      "kind": "reproduction",
+      "title": "Imaging phenotypes",
+      "depends_on": [
+        "NB26_00"
+      ],
+      "status": "planned",
+      "output": "runs/R1_v1/",
+      "gate": "Source design and scale",
+      "contract_frozen": false,
+      "entrypoint": null
+    },
+    {
+      "id": "NB26_R2",
+      "kind": "reproduction",
+      "title": "Species RNA QC and differential expression",
+      "depends_on": [
+        "NB26_00"
+      ],
+      "status": "planned",
+      "output": "runs/R2_v1/",
+      "gate": "Full workbook, controls and species retention",
+      "contract_frozen": false,
+      "entrypoint": null
+    },
+    {
+      "id": "NB26_R3",
+      "kind": "reproduction",
+      "title": "Epithelial cPCA and ICA",
+      "depends_on": [
+        "NB26_R1",
+        "NB26_R2"
+      ],
+      "status": "planned",
+      "output": "runs/R3_v1/",
+      "gate": "Source hyperparameters and gene programmes",
+      "contract_frozen": false,
+      "entrypoint": null
+    },
+    {
+      "id": "NB26_R4",
+      "kind": "reproduction",
+      "title": "Fibroblast growth and identity",
+      "depends_on": [
+        "NB26_R1",
+        "NB26_R2"
+      ],
+      "status": "planned",
+      "output": "runs/R4_v1/",
+      "gate": "Source group definitions and paired eligible wells",
+      "contract_frozen": false,
+      "entrypoint": null
+    },
+    {
+      "id": "NB26_R5",
+      "kind": "reproduction",
+      "title": "Spatial and non-AAV context",
+      "depends_on": [
+        "NB26_00"
+      ],
+      "status": "held_design",
+      "output": "runs/R5_v1/",
+      "gate": "Treatment, animal identities and grid reconciliation",
+      "contract_frozen": false,
+      "entrypoint": null
+    },
+    {
+      "id": "NB26_R6",
+      "kind": "synthesis",
+      "title": "Evidence and negative-result ledger",
+      "depends_on": [
+        "NB26_R1",
+        "NB26_R2",
+        "NB26_R3",
+        "NB26_R4"
+      ],
+      "status": "planned",
+      "output": "reports/REPRODUCTION_REVIEW.md",
+      "gate": "Record optional R5 as held when unresolved",
+      "contract_frozen": false,
+      "entrypoint": null
+    }
+  ],
+  "extensions": [
+    {
+      "id": "E1",
+      "owner_item": 1,
+      "depends_on": [
+        "NB26_R3",
+        "NB26_R4"
+      ],
+      "priority": 1,
+      "title": "Identity-dependent immune-support programmes",
+      "shared_analysis": "E1_E8",
+      "shared_questions": [
+        "A13"
+      ],
+      "status": "proposed",
+      "contract_frozen": false
+    },
+    {
+      "id": "E2",
+      "owner_item": 2,
+      "depends_on": [
+        "NB26_R3"
+      ],
+      "priority": 1,
+      "title": "IFN versus hypoxia transition programmes",
+      "shared_analysis": "E2",
+      "shared_questions": [
+        "A1",
+        "A8"
+      ],
+      "status": "proposed",
+      "contract_frozen": false
+    },
+    {
+      "id": "E3",
+      "owner_item": 3,
+      "depends_on": [
+        "NB26_R1",
+        "NB26_R3"
+      ],
+      "priority": 2,
+      "title": "ELOVL1 and ATP6V0E budding/Wnt association",
+      "shared_analysis": "E3",
+      "shared_questions": [
+        "A4",
+        "A10"
+      ],
+      "status": "proposed",
+      "contract_frozen": false
+    },
+    {
+      "id": "E4",
+      "owner_item": 4,
+      "depends_on": [
+        "NB26_R3"
+      ],
+      "priority": 2,
+      "title": "SLC34A2 and AT2 identity",
+      "shared_analysis": "E4",
+      "shared_questions": [
+        "A1"
+      ],
+      "status": "proposed",
+      "contract_frozen": false
+    },
+    {
+      "id": "E5",
+      "owner_item": 5,
+      "depends_on": [
+        "NB26_R1",
+        "NB26_R2"
+      ],
+      "priority": 3,
+      "title": "Normal receptor expression and cancer dependency",
+      "shared_analysis": "E5",
+      "shared_questions": [
+        "A8",
+        "A10"
+      ],
+      "status": "proposed",
+      "contract_frozen": false
+    },
+    {
+      "id": "E6",
+      "owner_item": 6,
+      "depends_on": [
+        "NB26_00",
+        "NB26_R1",
+        "NB26_R2"
+      ],
+      "priority": 3,
+      "title": "EGFR recipient/context feasibility",
+      "shared_analysis": "E6",
+      "shared_questions": [
+        "A2",
+        "A12"
+      ],
+      "status": "proposed",
+      "contract_frozen": false
+    },
+    {
+      "id": "E7",
+      "owner_item": 7,
+      "depends_on": [
+        "NB26_R4"
+      ],
+      "priority": 3,
+      "title": "AT2 growth and fibroblast heterogeneity feasibility",
+      "shared_analysis": "E7",
+      "shared_questions": [
+        "A10",
+        "A13"
+      ],
+      "status": "proposed",
+      "contract_frozen": false
+    },
+    {
+      "id": "E8",
+      "owner_item": 8,
+      "depends_on": [
+        "NB26_R3",
+        "NB26_R4"
+      ],
+      "priority": 1,
+      "title": "Lung-associated versus generalized fibroblast programmes",
+      "shared_analysis": "E1_E8",
+      "shared_questions": [
+        "A13"
+      ],
+      "status": "proposed",
+      "contract_frozen": false
+    }
+  ],
+  "pending_statistical_choices": {
+    "biological_units": null,
+    "minimum_independent_units": null,
+    "module_membership": null,
+    "module_coverage_floor": null,
+    "effect_margin": null,
+    "multiplicity_families": null,
+    "reason": "Stage-specific choices must be justified and frozen before fitting; no numeric defaults inferred from unrelated studies."
+  }
+}
+

@@ -1,5 +1,11 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
+**Conditional source-state branch reviewed 1 October 2026:** [Cardoso source
+decomposition and England coordinated outputs](../../RESEARCH_QUESTIONS.md#a2-candidates-20261001)
+specify an upstream rival already relevant to A2. They do not establish ligand
+release, controlled delivery or recipient activation. Existing A2 fits and
+contracts remain unchanged.
+
 ## Organizing biological question
 
 > Does the fibroblast response to AREG depend on delivery or on abundance?

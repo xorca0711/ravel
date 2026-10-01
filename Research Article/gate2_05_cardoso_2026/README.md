@@ -4,6 +4,7 @@
 
 | To understand | Read |
 |---|---|
+| How later analyses revise existing questions | [Chronological RQ review and conditional candidates](RQ_RETROSPECTIVE_REVIEW.md) |
 | Paper context and biological question | [Study context](#study-context); [source cascade and evidence](#source-context) |
 | Analysis results, claims and limitations | [Analysis sequence](ANALYSIS_TRIAL_PLAN.md); [current ligand correction](../../analysis/corrections/ligand/README.md); [divergences](DIVERGENCES_AND_NEXT.md) |
 | Figures and captions | [Current C5/C11/E5 claim corrections](trials/revision_20260929/README.md); [ligand sources, sensitivity and coverage](#figure-gallery) |

@@ -1,0 +1,161 @@
+{
+  "schema": "nabhan-2026-intake/v1",
+  "scope": "Structure, provenance and existing metadata only; not scientific reproduction",
+  "structural_status": "PASS",
+  "issues": [],
+  "crosswalk": {
+    "libraries": 886,
+    "targets": 203,
+    "plates": 4,
+    "rna_repeat_groups": 15,
+    "paired_imaging_wells": 885,
+    "resolved_animal_ids": 0
+  },
+  "files": [
+    {
+      "id": "article_pdf",
+      "path": "raw_data/nabhan_2026_sources/Nabhan-2026-Mapping-the-dialogue-decoding-alveo.pdf",
+      "present": true,
+      "sha256": "a2c3784e946bbae823b8b7634da969ead72eea31dfcb230e56676be47f934b47",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "supplement_pdf",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sapp.pdf",
+      "present": true,
+      "sha256": "71cc465ddf61a3c605868e8d57a8ef665537ee8b9d64ef9acfdb2469d6a423e9",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "notion_result",
+      "path": "raw_data/nabhan_2026_sources/notion_result.txt",
+      "present": true,
+      "sha256": "40e6287ea020edd47bd8c791df4644718c527c74c691d7ff30dccd7eecc3645d",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "notion_discussion",
+      "path": "raw_data/nabhan_2026_sources/notion_discussion.txt",
+      "present": true,
+      "sha256": "c49c4926b825e1aac3e4e9af2c24ec10dbb0aa6ed5449cf092ce4ca60acd40e4",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "P1_crosswalk",
+      "path": "docs/roadmap_runs/2026-09-27/P1_library_crosswalk.tsv",
+      "present": true,
+      "sha256": "2bee555839f3edf731386f5b8480b1a85eff1a7477abff1f5d2c1e99d4c390bd",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "P1_design",
+      "path": "docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md",
+      "present": true,
+      "sha256": "90ca0e526e3240d685de2a23d6e5bffaf69b3b77325311b9bc7a37d9002418c5",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "P1_source_recovery",
+      "path": "docs/roadmap_runs/2026-09-27/P1_source_recovery.json",
+      "present": true,
+      "sha256": "217679d31c27e471c0580442d7d41427a7a4b5fa83b4347be5b31fca122e67e1",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "A10_extract_record",
+      "path": "RQ_Specified/A10_organoid_growth_outcome/tables/extract_run.json",
+      "present": true,
+      "sha256": "2dfae53dfb7d3792cd83cd20caf505c41aac2e10bb29b618b8dd0081efc07bc5",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "A10_followup_record",
+      "path": "RQ_Specified/A10_organoid_growth_outcome/tables/followup_v1/model_run.json",
+      "present": true,
+      "sha256": "0ac7d4db7a25c022a7dd15822df62c1fd718ee14e8bff63b64b9e6808d4718ec",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "plate_design",
+      "path": "docs/roadmap_runs/2026-09-27/inputs/GSE307112_plate_design.csv.gz",
+      "present": true,
+      "sha256": "8f6950e6286ed438748bfcb12077e683abe74aa525678096f9ad9bea282b8ad1",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "imaging",
+      "path": "docs/roadmap_runs/2026-09-27/inputs/GSE307112_imaging_outputs.csv.gz",
+      "present": true,
+      "sha256": "50ab337c916e0bd195c0fc387067fe0ee138683537e738c23f90ad97ef99d215",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "full_counts",
+      "path": "RQ_Specified/A10_organoid_growth_outcome/cache/GSE307112_gene_counts.xlsx",
+      "present": false
+    },
+    {
+      "id": "xenome_qc",
+      "path": "RQ_Specified/A10_organoid_growth_outcome/cache/GSE307112_xenome_stats.csv.gz",
+      "present": false
+    },
+    {
+      "id": "dataset_S1",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd01.xlsx",
+      "present": true,
+      "sha256": "a4f61e5b2bee10c7ddebc1fb044de64fd35d8145a4d189ba10e354683f309622",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "dataset_S2",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd02.xlsx",
+      "present": true,
+      "sha256": "59b69b5db53139f9b75183b91739e7b22d3666ac1df728028461548bd0ff399e",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "dataset_S3",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd03.xlsx",
+      "present": true,
+      "sha256": "90eeb3c416a68049b90ca7fd1e54c3893f3fdf103c089a5317024f57aaf76397",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "dataset_S4",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd04.xlsx",
+      "present": true,
+      "sha256": "cf3fecea4dacc5984daab188d0e2bdd5abe25652d39ba0c603093b5f05677f1a",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "dataset_S5",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd05.xlsx",
+      "present": true,
+      "sha256": "7dbc8aae4ec0ab7ee549e741ddbabf285797230dcb5ea7afe57c6488be5bedbc",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "dataset_S6",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd06.csv",
+      "present": true,
+      "sha256": "ca8f13a72e7c5b5d2fc32e2e3fd0cb1a7f51c806647d42c5c2f6950ece28bca4",
+      "matches_recorded_hash": true
+    },
+    {
+      "id": "dataset_S7",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd07.xlsx",
+      "present": true,
+      "sha256": "26d5355828de2cacc297743cea0098fba3d47595d83c3a6c251825820bff8954",
+      "matches_recorded_hash": true
+    }
+  ],
+  "optional_inputs_absent": [
+    "full_counts",
+    "xenome_qc"
+  ],
+  "config_sha256": "57ec819e98648df60ceefc818373f9738f041e57d24e4496b678d2e3d38ab9ec",
+  "script_sha256": "ea8b930022a1f25fea206e0fcee986672f8c4d43f29532c9c7b8f035313fc577",
+  "source_manifest_sha256": "e69c8f48023a38c93a763b24588572e651679c1e5076326a05ec4dd03051a1ee",
+  "biological_models_run": 0,
+  "scientific_readiness": "HOLD: full counts, source-model settings and stage contracts; spatial identity/treatment reconciliation"
+}

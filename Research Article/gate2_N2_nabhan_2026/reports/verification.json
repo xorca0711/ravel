@@ -1,0 +1,47 @@
+{
+  "schema": "nabhan-2026-scaffold-verification/v1",
+  "date": "2026-10-01",
+  "checks": [
+    {
+      "check": "compile",
+      "exit_code": 0
+    },
+    {
+      "check": "tests",
+      "exit_code": 0
+    },
+    {
+      "check": "claims",
+      "exit_code": 0
+    },
+    {
+      "check": "nb1",
+      "exit_code": 0
+    },
+    {
+      "check": "a16",
+      "exit_code": 0
+    },
+    {
+      "check": "repository",
+      "exit_code": 1,
+      "note": "17 link failures confined to pre-existing untracked docs/audits/2026-09-28-rq-adversarial-review/epithelial-programs.md"
+    },
+    {
+      "check": "diff",
+      "exit_code": 0
+    }
+  ],
+  "tests": {
+    "run": 53,
+    "skipped": 1,
+    "failures": 0
+  },
+  "changed_document_links": {
+    "exit_code": 0,
+    "details": "{\"scope\": \"changed/new Markdown\", \"files\": 12, \"checks\": 417, \"failures\": []}\r"
+  },
+  "scientific_models_run": 0,
+  "raw_scientific_reproduction_verified": false
+}
+

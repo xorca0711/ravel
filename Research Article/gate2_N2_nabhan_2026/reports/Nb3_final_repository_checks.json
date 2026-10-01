@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "python_syntax_files": 5,
+  "markdown_files": 31,
+  "markdown_links": {
+    "failures": [],
+    "checks": 912
+  },
+  "layout_receipt_hashes": "PASS",
+  "followup_contract": "PASS",
+  "pipeline_and_roadmap_json": "PASS",
+  "git_diff_check": "PASS, core.autocrlf notices only",
+  "harness_note": "The first collection step referenced Validation.errors after the validator returned 912 checks and zero failures. Correct field is failures; remaining checks then completed. No analytical rerun or data change. Figure sections reordered afterward without changing links.",
+  "full_repository_validator": "Not repeated: prior run had 24 failures in unrelated untouched untracked adversarial audit; changed/new Markdown checked separately.",
+  "git_pdf_tracking": "Nested and complete atlas PDFs are not ignored (git check-ignore exit 1 with no matched paths); global user ignore file unreadable, local exceptions verified."
+}

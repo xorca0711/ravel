@@ -1,0 +1,82 @@
+species	program	variant	omitted	target	target_wells	control_wells	plates	residual_df	status	effect	se	ci_low	ci_high
+mouse	AT2_figure3	combined		NKX21	4	30	plate1	32	technical_descriptive	-2.07186685189	0.119550123568	-2.3153824848	-1.82835121898
+mouse	AT2_figure3	TIGIT_only		NKX21	4	22	plate1	24	technical_descriptive	-2.04681134202	0.122364649012	-2.29935956511	-1.79426311893
+mouse	AT2_figure3	tdTomato_only		NKX21	4	8	plate1	10	technical_descriptive	-2.14076950405	0.124307865306	-2.41774468834	-1.86379431975
+mouse	AT2_figure3	omit_gene	Sftpb	NKX21	4	30	plate1	32	technical_descriptive	-2.25721865728	0.125258443935	-2.51236175828	-2.00207555628
+mouse	AT2_figure3	omit_gene	Sftpc	NKX21	4	30	plate1	32	technical_descriptive	-1.39941817008	0.101171578643	-1.60549793203	-1.19333840814
+mouse	AT2_figure3	omit_gene	Sftpd	NKX21	4	30	plate1	32	technical_descriptive	-2.41521463451	0.152042307101	-2.72491467946	-2.10551458956
+mouse	AT2_figure3	omit_gene	Abca3	NKX21	4	30	plate1	32	technical_descriptive	-2.2156159457	0.136437083597	-2.49352919056	-1.93770270083
+mouse	AT2_figure3	omit_target_well	1-1_E06_NKX21	NKX21	3	30	plate1	31	technical_descriptive	-2.07382247923	0.138173537785	-2.35562926748	-1.79201569098
+mouse	AT2_figure3	omit_target_well	1-2_E06_NKX21	NKX21	3	30	plate1	31	technical_descriptive	-2.11354851905	0.137280283164	-2.39353350248	-1.83356353561
+mouse	AT2_figure3	omit_target_well	1-3_E06_NKX21	NKX21	3	30	plate1	31	technical_descriptive	-2.00190903509	0.135638576632	-2.27854573598	-1.7252723342
+mouse	AT2_figure3	omit_target_well	1-4_E06_NKX21	NKX21	3	30	plate1	31	technical_descriptive	-2.09818737421	0.137819232123	-2.3792715513	-1.81710319712
+human	chemokines_figure4	combined		NKX21	4	27	plate1	29	technical_descriptive	-3.35697831181	0.295389082579	-3.96111681946	-2.75283980416
+human	chemokines_figure4	TIGIT_only		NKX21	4	19	plate1	21	technical_descriptive	-3.30497024073	0.31556208069	-3.9612175126	-2.64872296885
+human	chemokines_figure4	tdTomato_only		NKX21	4	8	plate1	10	technical_descriptive	-3.48049748062	0.400286891617	-4.37239225578	-2.58860270547
+human	chemokines_figure4	omit_gene	CCL2	NKX21	4	27	plate1	29	technical_descriptive	-3.62160730901	0.30714802999	-4.24979556447	-2.99341905356
+human	chemokines_figure4	omit_gene	CXCL1	NKX21	4	27	plate1	29	technical_descriptive	-3.31304259663	0.282668231414	-3.8911640424	-2.73492115085
+human	chemokines_figure4	omit_gene	CXCL2	NKX21	4	27	plate1	29	technical_descriptive	-2.87205922362	0.271700489917	-3.42774911938	-2.31636932786
+human	chemokines_figure4	omit_gene	CXCL3	NKX21	4	27	plate1	29	technical_descriptive	-3.09210745025	0.273632246813	-3.65174823247	-2.53246666802
+human	chemokines_figure4	omit_gene	CXCL6	NKX21	4	27	plate1	29	technical_descriptive	-3.40722111975	0.294077914445	-4.00867798747	-2.80576425203
+human	chemokines_figure4	omit_gene	CXCL8	NKX21	4	27	plate1	29	technical_descriptive	-3.48683884906	0.271838692253	-4.04281140033	-2.93086629779
+human	chemokines_figure4	omit_gene	CXCL12	NKX21	4	27	plate1	29	technical_descriptive	-3.70597163434	0.381958191122	-4.48716384888	-2.92477941981
+human	chemokines_figure4	omit_target_well	1-1_E06_NKX21	NKX21	3	27	plate1	28	technical_descriptive	-3.23475871869	0.337989089895	-3.92709798428	-2.5424194531
+human	chemokines_figure4	omit_target_well	1-2_E06_NKX21	NKX21	3	27	plate1	28	technical_descriptive	-3.02602806917	0.314995667049	-3.67126744319	-2.38078869515
+human	chemokines_figure4	omit_target_well	1-3_E06_NKX21	NKX21	3	27	plate1	28	technical_descriptive	-3.74961521093	0.303541171912	-4.3713911153	-3.12783930655
+human	chemokines_figure4	omit_target_well	1-4_E06_NKX21	NKX21	3	27	plate1	28	technical_descriptive	-3.41751124845	0.340625971225	-4.11525192058	-2.71977057631
+human	wound_figure4	combined		NKX21	4	27	plate1	29	technical_descriptive	1.46763447497	0.172827936074	1.11416165713	1.82110729282
+human	wound_figure4	TIGIT_only		NKX21	4	19	plate1	21	technical_descriptive	1.41714749269	0.172785681548	1.05781999717	1.77647498821
+human	wound_figure4	tdTomato_only		NKX21	4	8	plate1	10	technical_descriptive	1.58754105791	0.176278399937	1.19476830624	1.98031380957
+human	wound_figure4	omit_gene	COL1A1	NKX21	4	27	plate1	29	technical_descriptive	1.57773877647	0.174733374742	1.22036889898	1.93510865396
+human	wound_figure4	omit_gene	CTHRC1	NKX21	4	27	plate1	29	technical_descriptive	1.38925159939	0.200539197046	0.979102889182	1.7994003096
+human	wound_figure4	omit_gene	ACTA2	NKX21	4	27	plate1	29	technical_descriptive	1.44437865995	0.168876573476	1.09898728601	1.78977003389
+human	wound_figure4	omit_gene	TAGLN	NKX21	4	27	plate1	29	technical_descriptive	1.45916886409	0.187506612117	1.07567478289	1.84266294529
+human	wound_figure4	omit_target_well	1-1_E06_NKX21	NKX21	3	27	plate1	28	technical_descriptive	1.51743745823	0.198806575944	1.11020064823	1.92467426823
+human	wound_figure4	omit_target_well	1-2_E06_NKX21	NKX21	3	27	plate1	28	technical_descriptive	1.48222160618	0.199709748499	1.07313473107	1.89130848129
+human	wound_figure4	omit_target_well	1-3_E06_NKX21	NKX21	3	27	plate1	28	technical_descriptive	1.42234938603	0.198978000732	1.01476142827	1.82993734379
+human	wound_figure4	omit_target_well	1-4_E06_NKX21	NKX21	3	27	plate1	28	technical_descriptive	1.44852944946	0.199649247736	1.03956650454	1.85749239437
+mouse	transition_figure3	combined		SLC34A2	8	32	plate4	38	technical_descriptive	0.523766828445	0.0950824180194	0.331282536316	0.716251120575
+mouse	transition_figure3	TIGIT_only		SLC34A2	8	24	plate4	30	technical_descriptive	0.490405345621	0.104303375934	0.277389433852	0.70342125739
+mouse	transition_figure3	tdTomato_only		SLC34A2	8	8	plate4	14	technical_descriptive	0.623851276918	0.081323120325	0.449430531026	0.798272022811
+mouse	transition_figure3	omit_gene	Krt8	SLC34A2	8	32	plate4	38	technical_descriptive	0.56774417363	0.106804106551	0.351530563646	0.783957783613
+mouse	transition_figure3	omit_gene	Sprr1a	SLC34A2	8	32	plate4	38	technical_descriptive	0.566752244475	0.108840807562	0.346415548852	0.787088940099
+mouse	transition_figure3	omit_gene	Clu	SLC34A2	8	32	plate4	38	technical_descriptive	0.436804067231	0.105896871993	0.222427057592	0.65118107687
+mouse	transition_figure3	omit_target_well	4-1_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.527847780756	0.101694462884	0.321795226529	0.733900334982
+mouse	transition_figure3	omit_target_well	4-1_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.529033380145	0.101680103365	0.323009921067	0.735056839223
+mouse	transition_figure3	omit_target_well	4-2_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.488182864049	0.100062413967	0.285437155037	0.690928573061
+mouse	transition_figure3	omit_target_well	4-2_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.530155941239	0.101663147492	0.324166838023	0.736145044455
+mouse	transition_figure3	omit_target_well	4-3_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.494198283881	0.10057714862	0.290409623394	0.697986944368
+mouse	transition_figure3	omit_target_well	4-3_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.566873324489	0.0992799046877	0.36571312988	0.768033519097
+mouse	transition_figure3	omit_target_well	4-4_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.54600209685	0.101073584147	0.341207562439	0.750796631261
+mouse	transition_figure3	omit_target_well	4-4_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.507840956155	0.101386964399	0.302411453041	0.713270459269
+mouse	AT2_figure3	combined		SLC34A2	8	32	plate4	38	technical_descriptive	-0.110034997872	0.082354279786	-0.276752521244	0.0566825254997
+mouse	AT2_figure3	TIGIT_only		SLC34A2	8	24	plate4	30	technical_descriptive	-0.083014926825	0.087209544913	-0.261120578327	0.0950907246774
+mouse	AT2_figure3	tdTomato_only		SLC34A2	8	8	plate4	14	technical_descriptive	-0.191095211014	0.0994488579119	-0.404391797592	0.022201375564
+mouse	AT2_figure3	omit_gene	Sftpb	SLC34A2	8	32	plate4	38	technical_descriptive	-0.0810676557162	0.0942436768543	-0.271854005126	0.109718693693
+mouse	AT2_figure3	omit_gene	Sftpc	SLC34A2	8	32	plate4	38	technical_descriptive	-0.0884602685561	0.0976564370341	-0.286155389756	0.109234852644
+mouse	AT2_figure3	omit_gene	Sftpd	SLC34A2	8	32	plate4	38	technical_descriptive	-0.175850048964	0.102830679154	-0.384019875714	0.0323197777867
+mouse	AT2_figure3	omit_gene	Abca3	SLC34A2	8	32	plate4	38	technical_descriptive	-0.0947620182527	0.105170393123	-0.307668348308	0.118144311802
+mouse	AT2_figure3	omit_target_well	4-1_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	-0.115134061755	0.0880610018078	-0.293562599905	0.0632944763945
+mouse	AT2_figure3	omit_target_well	4-1_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	-0.12872177551	0.0875761025343	-0.306167814406	0.0487242633866
+mouse	AT2_figure3	omit_target_well	4-2_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	-0.13346951479	0.0872747160351	-0.310304886633	0.0433658570531
+mouse	AT2_figure3	omit_target_well	4-2_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	-0.151212764074	0.0855264624266	-0.324505837632	0.0220803094847
+mouse	AT2_figure3	omit_target_well	4-3_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	-0.0725011488966	0.0859671818486	-0.246687204826	0.101684907033
+mouse	AT2_figure3	omit_target_well	4-3_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	-0.125412732668	0.087745525377	-0.303202054851	0.0523765895157
+mouse	AT2_figure3	omit_target_well	4-4_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	-0.0935070568083	0.0876904029881	-0.271184690423	0.0841705768062
+mouse	AT2_figure3	omit_target_well	4-4_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	-0.0603209284764	0.0843227184103	-0.231174984981	0.110533128029
+mouse	AT1_maintext	combined		SLC34A2	8	32	plate4	38	technical_descriptive	0.0624706504411	0.113650749014	-0.167603262586	0.292544563469
+mouse	AT1_maintext	TIGIT_only		SLC34A2	8	24	plate4	30	technical_descriptive	0.0606043166572	0.125843701478	-0.19640280867	0.317611441984
+mouse	AT1_maintext	tdTomato_only		SLC34A2	8	8	plate4	14	technical_descriptive	0.0680696517926	0.157929655363	-0.270655770657	0.406795074243
+mouse	AT1_maintext	omit_gene	Rtkn2	SLC34A2	8	32	plate4	38	technical_descriptive	0.0433499197885	0.116957785367	-0.193418738332	0.280118577909
+mouse	AT1_maintext	omit_gene	Spock2	SLC34A2	8	32	plate4	38	technical_descriptive	-0.0062698806857	0.110660872026	-0.230291104189	0.217751342817
+mouse	AT1_maintext	omit_gene	Cav1	SLC34A2	8	32	plate4	38	technical_descriptive	0.130868012742	0.104262594856	-0.0802005757997	0.341936601283
+mouse	AT1_maintext	omit_gene	Hopx	SLC34A2	8	32	plate4	38	technical_descriptive	0.0605677716447	0.181976397453	-0.307824185328	0.428959728617
+mouse	AT1_maintext	omit_gene	Aqp5	SLC34A2	8	32	plate4	38	technical_descriptive	0.0838374287163	0.0958325584494	-0.110165443321	0.277840300754
+mouse	AT1_maintext	omit_target_well	4-1_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.011057342858	0.118680670509	-0.229412537234	0.25152722295
+mouse	AT1_maintext	omit_target_well	4-1_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.0378753773414	0.120922486299	-0.207136853009	0.282887607692
+mouse	AT1_maintext	omit_target_well	4-2_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.0382536168216	0.120942601571	-0.20679937094	0.283306604583
+mouse	AT1_maintext	omit_target_well	4-2_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.051902940607	0.121458741918	-0.194195846837	0.298001728051
+mouse	AT1_maintext	omit_target_well	4-3_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.0988362719111	0.120138122954	-0.144586687341	0.342259231163
+mouse	AT1_maintext	omit_target_well	4-3_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.188802236378	0.102840000198	-0.0195713969203	0.397175869677
+mouse	AT1_maintext	omit_target_well	4-4_B09_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.037860593731	0.120921693689	-0.207150030638	0.2828712181
+mouse	AT1_maintext	omit_target_well	4-4_E11_SLC34A2	SLC34A2	7	32	plate4	37	technical_descriptive	0.0351768238804	0.120769818576	-0.209526072279	0.27987972004

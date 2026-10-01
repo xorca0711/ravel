@@ -1,5 +1,12 @@
 # A13: fibroblast programmes beyond macrophage interleukin-1 beta
 
+**Related branch reviewed 1 October 2026:** [Nb3 epithelial-to-fibroblast
+induction versus selection](../../RESEARCH_QUESTIONS.md#a13-candidates-20261001)
+is a reverse-direction rival, not evidence of feedback or a rescue of the
+later 12-triad pilot's worse held-out performance. The no-fit statements below
+belong to the historical IPF/Kim coverage gate; the separately frozen pilot
+is described in the follow-through linked next.
+
 ## Organizing biological question
 
 > Do fibroblast programmes add information about epithelial plasticity beyond macrophage IL1B?

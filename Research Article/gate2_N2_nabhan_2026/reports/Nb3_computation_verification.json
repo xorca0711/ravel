@@ -1,0 +1,10 @@
+{
+  "analysis_id": "Nb3",
+  "status": "PASS",
+  "checks": 709,
+  "full_de_hashes": true,
+  "implementation_history": "Initial verification stopped before writing a result because a .gz suffix was compared without the dot; corrected gzip dispatch, with no scientific output changed",
+  "independent_recalculations": "18 imaging effects/SEs and all eligible NKX21 fixed-panel effects directly from saved inputs",
+  "scientific_limit": "Verification of computations and provenance does not establish independent biological replication",
+  "script_sha256": "1f51595e06ec06dd2c40a1961a25b64c44767c3d9725c885fcf9a680b4f552a2"
+}

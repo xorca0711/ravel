@@ -1,0 +1,29 @@
+{
+  "schema": "Nb3-followup-figures/v1",
+  "script_sha256": "2c910ef111dae928821fad64301f5b5646c13b89a4caba3b931ce8bdaff5a2da",
+  "inputs": {
+    "analysis/config/palette.json": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
+    "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/panel_sensitivities.tsv": "6fbef352b49ae5a75807b3c4be074c7d7ccc6dba951d0c970e122104b5db8996",
+    "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/focal_depth_effects.tsv": "b40dfc7f15aa1d3453eb3126472c800a7a1ba327cc513a0ceb74ca72c8fbb55b",
+    "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/paired_depth_associations.tsv": "d4efc7e22e0a27459f6ce9d792ef234fac4a1d019e1759f5c70cd5bb780b77bb",
+    "Research Article/gate2_N2_nabhan_2026/runs/followup_v1/hallmark_camera.tsv": "23424dc96ab699949ac5c20a8715ab0ad06f5dbc8bde74224149a185f5fd216c",
+    "Research Article/gate2_N2_nabhan_2026/config/Nb3_followup_v1.json": "841c6dd3609c53da28399d1db575c5b123000ed43f385a260fd79c535ebe6d42"
+  },
+  "display_selection": "F07: named v1 focal contrasts; F08: 12 v1-relevant Hallmark themes including null Wnt results, not selected by q. All 50 sets retained in complete tables.",
+  "limits": "A-B sensitivity ranges are not CIs; depth may be downstream; fixed-correlation enrichment is exploratory and assumption-sensitive",
+  "outputs": {
+    "Nb3_F07_followup_sensitivity.pdf": "29f7d14fd62a3a2efc006496772ca1ea79e656d4cdd1fde84b3ab4a7181d527c",
+    "Nb3_F07_followup_sensitivity.png": "4115fa21236a7994ae415d21f8404e57e23e3841b5d025cccf40aeb48150bd1e",
+    "Nb3_F07_followup_sensitivity.svg": "b26f68a0748fca6e856a50ec24d5667ad69fcc3b51e21100de2661b38f9d6724",
+    "Nb3_F08_hallmark_context.pdf": "e6688171b06577232987ce03fb37e1e70881fc5e0f71752b6a0c97ca344f6088",
+    "Nb3_F08_hallmark_context.png": "2c305cc5a08b9d4c83a4aa2f057983c5064ac525c17bf564f0ec03eb5729f28f",
+    "Nb3_F08_hallmark_context.svg": "4ec528521c9f05f964b0799f7b1841420ec5464c796d31768f2702eeba56e91e",
+    "Nb3_followup_atlas.pdf": "799d6a29db1b207c035117f75439ba5bf43e0bb0bfdf3cab70c25d937d99f7ce",
+    "source_data/F07_depth_associations.tsv": "d4efc7e22e0a27459f6ce9d792ef234fac4a1d019e1759f5c70cd5bb780b77bb",
+    "source_data/F07_NKX21_depth.tsv": "fcc1da47bb3e8e4e7cb3d87c2299c9e235986e5444bcb7b6bb083a7efb73ba8f",
+    "source_data/F07_panel_sensitivities.tsv": "be0ad189cea6963be9fed3e3d04328d654c637b940eb44a2e1b741a77c5b4a5c",
+    "source_data/F08_all_enrichment_comparisons.tsv": "e69d8506a03fc059f3632a0ca2ffa59ccfbe692649158c8b60a528c3c8794ea4",
+    "source_data/F08_human_thematic.tsv": "b9c182549ed3a94675e7a7d80db19592343da19726ad11501f51cea499ae1b0d",
+    "source_data/F08_mouse_thematic.tsv": "175e91c63e35d73b1cb9db3721ee16aaaad3e9db92552b494aa8b10a66b24fe8"
+  }
+}

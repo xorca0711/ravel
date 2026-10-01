@@ -32,6 +32,7 @@ remaining reproduction inputs. No new scientific model fit or raw-RNA scoring wa
 | Figures, tables, and report generation | AI-assisted |
 | Review of intermediate and final outputs | Me |
 | Retain / revise / reject decision on every result | Me |
+| Structuring Nabhan 2026 after reading, including article/supplement/Notion synthesis, existing A10/A2 reuse and eight extension questions | Me (instruction 2026-10-01, corrected folder year to 2026); Codex source review, schema intake and pipeline scaffold. No new biological fit or scientific acceptance decision; proposed analysis contracts remain reviewable |
 | Literature extraction into study notes and reviewable configs (`Research Article/`) | AI-assisted; my review pending |
 | Focused reproductions of the source paper's phase and myeloid claims (`phase_timecourse/`, `myeloid_focus/`) | AI-assisted, rules frozen before each run; my review pending |
 | Repository framing, and what is displaced as established elsewhere | Me (instruction 2026-09-10); AI-assisted execution |
@@ -2079,3 +2080,124 @@ Execution authorization is not a biological acceptance or landing decision.
 Original question documents and manifests are archived in each question folder.
 Scientific tables, figures and frozen analysis contracts are unchanged by the
 wording update. Historical verification records retain their original scope.
+
+## Nb3 source reproduction and descriptive extensions, 1 October 2026
+
+The owner completed Nabhan 2026, requested a source-grounded pipeline using the
+PDF/supplement and annotated notes, corrected the year, then assigned **Nb3**
+and explicitly authorized reproduction and extensions. Codex recovered the
+exact-hash full inputs, implemented declared reconstruction variants and fixed
+marker-panel analyses, and retained explicit source/design holds. The
+[execution guide](Research%20Article/gate2_N2_nabhan_2026/EXECUTION.md),
+[reproduction review](Research%20Article/gate2_N2_nabhan_2026/reports/REPRODUCTION_REVIEW.md)
+and [extension review](Research%20Article/gate2_N2_nabhan_2026/reports/EXTENSION_REVIEW.md)
+separate source statistics, new computations and inference limits.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | Analysis ID Nb3 and reproduction/extension execution | Owner | Owner, explicit chat instruction | Authorized | Continue the reviewed paper's pipeline in its 2026 folder |
+| 2026-10-01 | Numerical v1 contract, source-marker correction, technical-well interpretation and named holds | Codex, grounded in supplied sources and prior exposure | Owner authorized execution; scientific acceptance remains pending | Record choices before fits; retain exact-source uncertainties and counterexamples | Split wells and missing source details limit inference; source code/settings must not be invented |
+| 2026-10-01 | Run paired fixed-panel analysis while independent whole-transcriptome DE finishes | Codex | Within authorized execution | Hash completed normalization/panel inputs; require final full-DE source comparison | The panel branch does not depend on remaining gene-DE fits; no numerical choice changed |
+
+The earlier assistant scaffold's statement that no new models had run is
+superseded by the current execution review, while initial intake records remain
+historical. No claim-register grade, A10/A2 fit or prior frozen contract was
+rewritten. Figure QA corrected overlapping annotation positions in a new export
+and preserved the first export. A blank-row source-table parse failed before any
+identity output was written, then was corrected to skip entirely blank Excel rows;
+the identity record retains that implementation history.
+
+The full source comparison then exposed a material human S5 discrepancy. A
+bounded post-hoc audit found internal source sign conflicts, strong agreement
+with the source's direction summaries for five inspected targets, and independent
+XML confirmation of selected complete count rows. Numeric S5 reproduction
+remains failed; no label permutation or endpoint refit was used to improve
+agreement. The [concordance audit](Research%20Article/gate2_N2_nabhan_2026/reports/CONCORDANCE_AUDIT.md)
+is required context for the fibroblast results. Two verification/audit parsing
+issues stopped before result records were written (gzip suffix handling and
+an ambiguous RGS5 symbol); corrected versions preserve their implementation
+history and did not change any scientific endpoint.
+
+## Nb3 publication figures and RQ derivation, 1 October 2026
+
+The owner requested formal figures following the repository hierarchy, then
+explicitly authorized the proposed additional analyses and subsequent RQ
+derivation. Codex used the sibling article galleries and shared palette,
+recorded a new pre-fit contract, executed marker/control/well/depth and Hallmark
+context checks, and derived two proposed biological questions with rivals and
+future discriminating endpoints. The [results](Research%20Article/gate2_N2_nabhan_2026/reports/FOLLOWUP_RESULTS.md)
+and [derivation](Research%20Article/gate2_N2_nabhan_2026/reports/RQ_DERIVATION.md)
+are the current interpretation; source/workbook and independent-unit failures
+are not silently resolved by the new analysis.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | Publication figures and additional analysis followed by RQ derivation | Owner | Owner, explicit chat instructions | Authorized | Make existing results inspectable and develop evidence-grounded biological hypotheses |
+| 2026-10-01 | Bounded sensitivity batch and species-appropriate Hallmark 2024.1 analysis | Codex | Within authorized analysis; scientific acceptance pending | Freeze before new fits; retain all eligible results and fixed correlation sensitivity | Reuse saved DE while testing concrete panel/depth/pathway uncertainties |
+| 2026-10-01 | A19/A20 proposed cards and plans | Codex, grounded in Nb3 and primary references | Owner requested derivation; retain/reject pending | Add proposals, no claim rows or grade changes | Separate epithelial-to-niche function and homeostasis-to-state hypotheses from existing questions |
+
+QA found a clipped S3 title and preserved the first export while shortening
+only its labels in a new revision. An initial revision-atlas assertion caught a
+Windows case-insensitive glob that also selected atlas files; it stopped before
+writing the new atlas/receipt. Restricting selection to numbered figures fixed
+it; draft exports remain in ignored tmp. No numerical endpoint changed.
+
+## Nb3 allocation correction and candidate framing, 1 October 2026
+
+The owner rejected the initial Nb3 A19/A20 allocation because main already
+contains A19–A21. A remote check and fetch verified those Nb2/Fzd questions at
+`f61343cc16c83e979b071393adccdcf8084ea294`; the working HEAD remains the older
+`33b27cf`. Codex had allocated from the stale local register. The earlier
+responsibility row is retained as historical evidence; its Nb3 IDs are
+superseded by A22/A23 in active cards, paths, anchors and references. See the
+[correction record](Research%20Article/gate2_N2_nabhan_2026/reports/RQ_ID_CORRECTION_2026-10-01.json).
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | Initial Nb3 A19/A20 allocation | Codex | Owner, explicit correction | Rejected numbering; replace with A22/A23 | Main already owns A19–A21; local register was stale |
+| 2026-10-01 | Nb3 A22/A23 folders and active references | Owner | Owner, explicit instruction | Relabel without changing scientific content or existing main questions | Resolve collision; retain historical logs and frozen outputs |
+| 2026-10-01 | Full framing of all eight annotations | Owner requested explanation; Codex formulated cards | Within requested clarification; hypothesis acceptance pending | Record evidence, rivals and discriminating outcomes for each candidate | Earlier derivation fully developed only two RQs; missing data do not reject the remaining biological questions |
+
+The [candidate cards](Research%20Article/gate2_N2_nabhan_2026/CANDIDATE_HYPOTHESES.md)
+retain E8's tissue-specific and clinical branches beyond A22, distinguish EGF
+recipient necessity from ERBB2/ERBB3 dependency, and keep fate and mechanism
+claims separate from measured bulk RNA patterns. No additional analysis,
+figure revision or claim-grade promotion occurred in this correction.
+
+## Cross-article chronology review and E5 extension, 1 October 2026
+
+The owner then authorized applying strict contribution review across every
+article, explicitly using subagents, and requested public E5 metadata and a
+README matching sibling hierarchy. Three subagents reviewed disjoint groups;
+the parent reviewed Nb3 and accepted only distinct conditional candidates or
+material interpretation constraints. [All folder decisions](docs/audits/2026-10-01-cross-article-rq-review/README.md)
+include no-change and rejected-transfer outcomes. Existing main-branch
+corrections take precedence over stale local readiness text. A1/A16/A17 status
+was reconciled and an existing A11 paragraph was moved out of A13. Neither
+action re-fitted or changed the original result.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | All-article review with subagents | Owner | Owner, explicit instruction | Review chronology and integrate useful conditional contributions under existing RQs | Later analysis may narrow earlier hypotheses; avoid duplicate evidence |
+| 2026-10-01 | Conditional A1/A2/A4/A8/A9/A13/A14/A18/A22 contributions | Codex and three bounded reviewers | Within authorized review; biological acceptance pending | Add dated evidence/rival/discriminator text; no grades | Make candidate relationships explicit without promoting RNA or unidentifiable effects to mechanisms |
+| 2026-10-01 | External E5 GSE306184 pilot | Codex after owner's external-data request | Within existing analysis authorization | Freeze after literature/metadata exposure, before expression-value inspection; run descriptive comparisons only | Four contrasts are identifiable, but independent donors, uninjured knockdown and competent AT2 identity are not established |
+| 2026-10-01 | Nb3 README and F09 | Owner requested hierarchy; Codex implemented | Within authorized documentation/figures | Align navigation and add a separate external figure | Preserve original results/atlas and expose analysis limits beside visuals |
+
+NCBI acquisition first hit the network sandbox and succeeded after the
+standard escalation review. Figure rendering first found the bundled Python
+missing matplotlib, then used the existing scientific environment. A reader
+expected a GSM column where pandas v1 had retained keys under `index`; the
+reader now validates/renames the key without rewriting the run. Visual review
+found left-label clipping; separate v2 widens the margin and preserves v1.
+Failed documentation patches stopped before mutation and were corrected.
+
+## 1 October 2026: authorize Nb3 delivery
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-01 | Commit, push and open a PR for Nb3 and the chronological RQ review | Repository owner | Repository owner, explicit chat request | Authorized delivery from current main; no merge or scientific acceptance inferred | Preserve main's A19-A21 and integrate Nb3 A22/A23 with reviewed conditional branches |
+
+Integration uses current main for the shared indexes and the corrected A1,
+A16 and A17 cards, retaining the historical decision rows. The source checkout
+and unrelated local files remain preserved. No frozen numerical output or
+claim grade is changed by delivery.

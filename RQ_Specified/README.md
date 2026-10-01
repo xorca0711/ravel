@@ -1,7 +1,21 @@
 # Research question analyses
 
+**Cross-article integration, 1 October 2026:** [review of all article histories](../docs/audits/2026-10-01-cross-article-rq-review/README.md)
+adds dated conditional candidates under their existing [RQ cards](../RESEARCH_QUESTIONS.md),
+with an [A8 addendum](A8_maturation_component_at1_contribution/RELATED_CANDIDATES_2026-10-01.md).
+Main's A19–A21 remain Nb2 questions; Nb3 uses A22/A23. E5 remains a distinct
+paper-local candidate with an executed descriptive pilot. Existing numerical
+results and claim grades are preserved.
+
+**Nb3 derivation, 1 October 2026:** proposed
+[A22 epithelial identity and niche response](A22_epithelial_identity_niche_response/README.md)
+and [A23 phosphate homeostasis and transition](A23_slc34a2_transition_homeostasis/README.md)
+now have rationale/test plans. The completed exploratory evidence stays in the
+[Nb3 article package](../Research%20Article/gate2_N2_nabhan_2026/reports/FOLLOWUP_RESULTS.md).
+No question-specific functional test or claim-grade promotion is implied.
+
 This directory contains execution workspaces for the biological questions in
-[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md). **A0–A21 are stable question
+[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md). **A0–A23 are stable question
 identifiers**, not a reading sequence, evidence grade or record of acceptance.
 A12-S1 is an enabling source-identity question. The register owns each hypothesis
 and its status; this index explains the workspace labels.
@@ -69,6 +83,17 @@ retired one-question-per-branch registration.
 N4 compensation and N8 endogenous input remain paper-local until comparable
 perturbation evidence is available. Registration neither validates a hypothesis
 nor supplies a confirmatory execution contract.
+
+## Nb3 questions derived after paper analysis
+
+The [Nb3 follow-up](../Research%20Article/gate2_N2_nabhan_2026/reports/FOLLOWUP_RESULTS.md)
+motivates two proposed questions. The descriptive analyses do not establish a
+mechanism or supply independent functional validation.
+
+| ID | Organizing question | Immediate evidence gate |
+|---|---|---|
+| A22 | [Does epithelial identity determine fibroblast chemokine competence beyond epithelial amount?](A22_epithelial_identity_niche_response/README.md) | Independent state/composition, secretion and recipient-function evidence |
+| A23 | [Does SLC34A2-dependent phosphate homeostasis constrain entry into a transition-associated state?](A23_slc34a2_transition_homeostasis/README.md) | Independent transport, time, within-state and restoration evidence |
 
 ## Shared enabling work
 

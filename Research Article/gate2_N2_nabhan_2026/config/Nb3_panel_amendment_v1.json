@@ -1,0 +1,12 @@
+{
+  "analysis_id": "Nb3",
+  "date": "2026-10-01",
+  "timing": "After visual source recovery, before new panel scoring or DE fits",
+  "reason": "Supplement Fig. S7B/C resolves Spock2 and gives the complete displayed Wnt and AT1 panels.",
+  "source": "Supplied supplementary PDF, page 13, Fig. S7B/C, rendered and inspected",
+  "replace_programs_mouse": {
+    "Wnt_maintext": ["Sox9", "Axin2", "Ctnnd2", "Tgfb3", "Tcf7"],
+    "AT1_maintext": ["Rtkn2", "Spock2", "Cav1", "Hopx", "Aqp5"]
+  },
+  "interpretation": "Names retained for machine compatibility; use the complete SI figure panels. Earlier execution contract bytes remain unchanged."
+}

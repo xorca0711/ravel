@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-01",
+  "analysis_id": "Nb3",
+  "authorization": "Owner explicitly requested proceeding with reproduction and extensions",
+  "folder_unchanged": "gate2_N2_nabhan_2026",
+  "mapping": {
+    "NB26_00": "Nb3_00",
+    "NB26_R1": "Nb3_R1",
+    "NB26_R2": "Nb3_R2",
+    "NB26_R3": "Nb3_R3",
+    "NB26_R4": "Nb3_R4",
+    "NB26_R5": "Nb3_R5",
+    "NB26_R6": "Nb3_R6",
+    "E1": "Nb3_E1",
+    "E2": "Nb3_E2",
+    "E3": "Nb3_E3",
+    "E4": "Nb3_E4",
+    "E5": "Nb3_E5",
+    "E6": "Nb3_E6",
+    "E7": "Nb3_E7",
+    "E8": "Nb3_E8"
+  },
+  "prior_pipeline_path": "config/history/pipeline_before_Nb3.json",
+  "prior_pipeline_sha256": "57ec819e98648df60ceefc818373f9738f041e57d24e4496b678d2e3d38ab9ec",
+  "interpretation": "Historical intake keeps its original configuration hash; no biological result is retroactively changed."
+}

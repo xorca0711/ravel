@@ -1,0 +1,14 @@
+species	program	target	target_wells	control_wells	plates	residual_df	status	effect	se	ci_low	ci_high
+human	Hippo_figure4	NKX21	4	27	plate1	29	technical_well_descriptive	0.776635645115	0.313577135468	0.13529839256	1.41797289767
+human	ID_figure4	NKX21	4	27	plate1	29	technical_well_descriptive	-0.0786803515916	0.1386383668	-0.362227648908	0.204866945725
+human	OXPHOS_figure4	NKX21	4	27	plate1	29	technical_well_descriptive	-1.01162619286	0.224931288864	-1.47166233229	-0.551590053435
+human	PLIN2_sentinel	NKX21	4	27	plate1	29	technical_well_descriptive	-1.45615046945	0.166007286622	-1.79567349286	-1.11662744604
+human	chemokines_figure4	NKX21	4	27	plate1	29	technical_well_descriptive	-3.35697831181	0.295389082579	-3.96111681946	-2.75283980416
+human	wound_figure4	NKX21	4	27	plate1	29	technical_well_descriptive	1.46763447498	0.172827936074	1.11416165713	1.82110729282
+mouse	AT1_maintext	NKX21	4	30	plate1	32	technical_well_descriptive	-1.86328566067	0.18172071692	-2.23343864816	-1.49313267318
+mouse	AT2_figure3	NKX21	4	30	plate1	32	technical_well_descriptive	-2.07186685189	0.119550123568	-2.3153824848	-1.82835121898
+mouse	IFN_figure3	NKX21	4	30	plate1	32	technical_well_descriptive	-3.57666789882	0.557869743719	-4.71301138111	-2.44032441653
+mouse	Wnt_maintext	NKX21	4	30	plate1	32	technical_well_descriptive	0.167001398504	0.473225285476	-0.79692696445	1.13092976146
+mouse	gastric_maintext	NKX21	4	30	plate1	32	technical_well_descriptive	7.34077289984	0.378462039364	6.56987095263	8.11167484706
+mouse	hypoxia_figure3	NKX21	4	30	plate1	32	technical_well_descriptive	1.63135821424	0.159173855076	1.30713168143	1.95558474705
+mouse	transition_figure3	NKX21	4	30	plate1	32	technical_well_descriptive	2.37797889397	0.163108577904	2.04573759304	2.71022019491

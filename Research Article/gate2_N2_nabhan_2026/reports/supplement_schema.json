@@ -1,0 +1,247 @@
+{
+  "schema": "nabhan-2026-supplement-schema/v1",
+  "archive_sha256": "d9d8b27e28d11b917f713598b009ac73bc6c393d24df231bd4bfe677a5876aee",
+  "scope": "Source schema only; no biological endpoint computed. Headers may precede the true table header.",
+  "datasets": [
+    {
+      "dataset": "S1",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd01.xlsx",
+      "bytes": 11677,
+      "sha256": "a4f61e5b2bee10c7ddebc1fb044de64fd35d8145a4d189ba10e354683f309622",
+      "sheets": [
+        "Sheet1"
+      ],
+      "first_sheet": {
+        "name": "Sheet1",
+        "declared_rows": 42,
+        "declared_columns": 12,
+        "header_preview": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      }
+    },
+    {
+      "dataset": "S2",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd02.xlsx",
+      "bytes": 48281,
+      "sha256": "59b69b5db53139f9b75183b91739e7b22d3666ac1df728028461548bd0ff399e",
+      "sheets": [
+        "plate1",
+        "plate2",
+        "plate3",
+        "plate4"
+      ],
+      "first_sheet": {
+        "name": "plate1",
+        "declared_rows": null,
+        "declared_columns": null,
+        "header_preview": [
+          [
+            "well_position",
+            "gene_name",
+            "species",
+            "gene_id",
+            "guide_#1",
+            "guide_#2",
+            "guide_#3",
+            "amplicon_size",
+            "GC_percent",
+            "fwd_primer",
+            "rev_primer",
+            "sequencing_primer"
+          ]
+        ]
+      }
+    },
+    {
+      "dataset": "S3",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd03.xlsx",
+      "bytes": 20259805,
+      "sha256": "90eeb3c416a68049b90ca7fd1e54c3893f3fdf103c089a5317024f57aaf76397",
+      "sheets": [
+        "buddingmorpho_vs_TigitTdTom",
+        "buddingmorpho_vs_othersWithIm"
+      ],
+      "first_sheet": {
+        "name": "buddingmorpho_vs_TigitTdTom",
+        "declared_rows": 47247,
+        "declared_columns": 18,
+        "header_preview": [
+          [
+            "seqnames",
+            "start",
+            "end",
+            "width",
+            "strand",
+            "ID",
+            "aliases",
+            "coords",
+            "size",
+            "type",
+            "symbol",
+            "desc"
+          ]
+        ]
+      }
+    },
+    {
+      "dataset": "S4",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd04.xlsx",
+      "bytes": 22676002,
+      "sha256": "cf3fecea4dacc5984daab188d0e2bdd5abe25652d39ba0c603093b5f05677f1a",
+      "sheets": [
+        "Table S4 mouse_DiffExpr_padj0.0"
+      ],
+      "first_sheet": {
+        "name": "Table S4 mouse_DiffExpr_padj0.0",
+        "declared_rows": 5137,
+        "declared_columns": 415,
+        "header_preview": [
+          [
+            "symbol",
+            "gene",
+            "nbKOs",
+            "whichKOs",
+            "nbKOs_up",
+            "whichKOs_up",
+            "nbKOs_down",
+            "whichKOs_down",
+            "aliases",
+            "desc",
+            "seqnames",
+            "start"
+          ]
+        ]
+      }
+    },
+    {
+      "dataset": "S5",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd05.xlsx",
+      "bytes": 31438682,
+      "sha256": "7dbc8aae4ec0ab7ee549e741ddbabf285797230dcb5ea7afe57c6488be5bedbc",
+      "sheets": [
+        "Table S5 human_DiffExpr_padj0.0"
+      ],
+      "first_sheet": {
+        "name": "Table S5 human_DiffExpr_padj0.0",
+        "declared_rows": 7196,
+        "declared_columns": 405,
+        "header_preview": [
+          [
+            "symbol",
+            "gene",
+            "nbKOs",
+            "whichKOs",
+            "nbKOs_up",
+            "whichKOs_up",
+            "nbKOs_down",
+            "whichKOs_down",
+            "aliases",
+            "desc",
+            "seqnames",
+            "start"
+          ]
+        ]
+      }
+    },
+    {
+      "dataset": "S6",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd06.csv",
+      "bytes": 51351,
+      "sha256": "ca8f13a72e7c5b5d2fc32e2e3fd0cb1a7f51c806647d42c5c2f6950ece28bca4",
+      "header": [
+        "",
+        "ICA_01",
+        "ICA_02",
+        "ICA_03",
+        "ICA_04",
+        "ICA_05",
+        "ICA_06",
+        "ICA_07",
+        "ICA_08",
+        "ICA_09",
+        "ICA_10",
+        "ICA_11",
+        "ICA_12",
+        "ICA_13",
+        "ICA_14",
+        "ICA_15",
+        "ICA_16",
+        "ICA_17",
+        "ICA_18",
+        "ICA_19",
+        "ICA_20"
+      ],
+      "rows": 200,
+      "first_row_labels": [
+        "Met",
+        "Glis3",
+        "Trp53",
+        "Acp6",
+        "Pink1"
+      ]
+    },
+    {
+      "dataset": "S7",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd07.xlsx",
+      "bytes": 46694279,
+      "sha256": "26d5355828de2cacc297743cea0098fba3d47595d83c3a6c251825820bff8954",
+      "sheets": [
+        "ICA_01",
+        "ICA_02",
+        "ICA_03",
+        "ICA_04",
+        "ICA_05",
+        "ICA_06",
+        "ICA_07",
+        "ICA_08",
+        "ICA_09",
+        "ICA_10",
+        "ICA_11",
+        "ICA_12",
+        "ICA_13",
+        "ICA_14",
+        "ICA_15",
+        "ICA_16",
+        "ICA_17",
+        "ICA_18",
+        "ICA_19",
+        "ICA_20"
+      ],
+      "first_sheet": {
+        "name": "ICA_01",
+        "declared_rows": 10590,
+        "declared_columns": 13,
+        "header_preview": [
+          [
+            "gene_zscoreOfProj",
+            "seqnames",
+            "start",
+            "end",
+            "width",
+            "strand",
+            "ID",
+            "aliases",
+            "coords",
+            "size",
+            "type",
+            "symbol"
+          ]
+        ]
+      }
+    }
+  ]
+}

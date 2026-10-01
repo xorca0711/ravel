@@ -4,6 +4,7 @@
 
 | To understand | Read |
 |---|---|
+| How later analyses revise existing questions | [Chronological RQ review and conditional candidates](RQ_RETROSPECTIVE_REVIEW.md) |
 | Paper context and biological question | [Review context](#study-context); [source and annotation synthesis](SOURCE_SYNTHESIS.md) |
 | Analysis results, claims and limitations | [Current evidence review](EVIDENCE_REVIEW.md); [completion register](WORK_PACKAGES.md) |
 | Figures and captions | [All 17 generated figures](#figure-gallery) |

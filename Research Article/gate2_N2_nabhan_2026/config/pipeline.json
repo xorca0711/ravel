@@ -1,0 +1,323 @@
+{
+  "schema": "nabhan-2026-pipeline/v1",
+  "date": "2026-10-01",
+  "status": "followup_complete_two_RQs_proposed_human_source_and_biological_design_holds_retained",
+  "owner_request": "Nb3 reproduction/extensions, publication figures, authorized additional analysis and hypothesis-based RQ derivation",
+  "prior_exposure": [
+    "A10 GSE307112 growth analyses",
+    "A2 GSE307112 perturbation comparisons",
+    "P1 metadata/supplement design audit",
+    "source paper and annotated notes"
+  ],
+  "scope": "Owner authorized reproduction and extension execution on 2026-10-01; retain all design gates.",
+  "stages": [
+    {
+      "id": "Nb3_00",
+      "kind": "intake",
+      "title": "Source, identity and design audit",
+      "depends_on": [],
+      "status": "executed_identity_and_design_audit",
+      "output": "runs/00_v1/",
+      "gate": "Counts/target IDs recovered and verified; biological preparation identities remain unresolved",
+      "contract_frozen": false,
+      "entrypoint": "scripts/02b_target_identity.py"
+    },
+    {
+      "id": "Nb3_R1",
+      "kind": "reproduction",
+      "title": "Imaging phenotypes",
+      "depends_on": [
+        "Nb3_00"
+      ],
+      "status": "executed_descriptive",
+      "output": "runs/R1_v1/",
+      "gate": "Source design and scale",
+      "contract_frozen": true,
+      "entrypoint": "scripts/04_imaging_reproduction.py"
+    },
+    {
+      "id": "Nb3_R2",
+      "kind": "reproduction",
+      "title": "Species RNA QC and differential expression",
+      "depends_on": [
+        "Nb3_00"
+      ],
+      "status": "computed_mouse_concordant_human_numeric_source_failed",
+      "output": "runs/R2_v1/",
+      "gate": "Reconciled human S5 numeric mapping/code; independent biological units remain unresolved",
+      "contract_frozen": true,
+      "entrypoint": "scripts/05_run_expression.py"
+    },
+    {
+      "id": "Nb3_R3",
+      "kind": "reproduction",
+      "title": "Epithelial cPCA and ICA",
+      "depends_on": [
+        "Nb3_R1",
+        "Nb3_R2"
+      ],
+      "status": "partial_source_reconstruction",
+      "output": "runs/R3_v1/",
+      "gate": "Original cPCA/JADE settings and exact gene-set definitions; deposited source tables reconstructed",
+      "contract_frozen": true,
+      "entrypoint": "scripts/06_source_components.py"
+    },
+    {
+      "id": "Nb3_R4",
+      "kind": "reproduction",
+      "title": "Fibroblast growth and identity",
+      "depends_on": [
+        "Nb3_R1",
+        "Nb3_R2"
+      ],
+      "status": "executed_descriptive_partial_source",
+      "output": "runs/R4_v1/",
+      "gate": "Paired fixed panels complete; exact author high/low grouping and human numeric S5 remain unresolved",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py"
+    },
+    {
+      "id": "Nb3_R5",
+      "kind": "reproduction",
+      "title": "Spatial and external source context",
+      "depends_on": [
+        "Nb3_00"
+      ],
+      "status": "held_design_after_metadata_audit",
+      "output": "runs/R5_v1/",
+      "gate": "Treatment, animal identities and grid reconciliation",
+      "contract_frozen": false,
+      "entrypoint": "scripts/09_context_metadata.py"
+    },
+    {
+      "id": "Nb3_R6",
+      "kind": "synthesis",
+      "title": "Evidence and negative-result ledger",
+      "depends_on": [
+        "Nb3_R1",
+        "Nb3_R2",
+        "Nb3_R3",
+        "Nb3_R4"
+      ],
+      "status": "review_complete_with_named_failures_and_holds",
+      "output": "reports/REPRODUCTION_REVIEW.md",
+      "gate": "No automatic scientific acceptance or claim-grade upgrade",
+      "contract_frozen": false,
+      "entrypoint": "scripts/11_verify_execution.py"
+    }
+  ],
+  "extensions": [
+    {
+      "id": "Nb3_E1",
+      "owner_item": 1,
+      "depends_on": [
+        "Nb3_R3",
+        "Nb3_R4"
+      ],
+      "priority": 1,
+      "title": "Identity-dependent immune-support programmes",
+      "shared_analysis": "E1_E8",
+      "shared_questions": [
+        "A13"
+      ],
+      "status": "executed_first_pass_with_named_holds",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py",
+      "output": "reports/EXTENSION_REVIEW.md",
+      "held_scope": "Independent immune outcome and causal mechanism"
+    },
+    {
+      "id": "Nb3_E2",
+      "owner_item": 2,
+      "depends_on": [
+        "Nb3_R3"
+      ],
+      "priority": 1,
+      "title": "IFN versus hypoxia transition programmes",
+      "shared_analysis": "E2",
+      "shared_questions": [
+        "A1",
+        "A8"
+      ],
+      "status": "executed_first_pass_with_named_holds",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py",
+      "output": "reports/EXTENSION_REVIEW.md",
+      "held_scope": "Within-state donor/time comparison and trajectory/fate"
+    },
+    {
+      "id": "Nb3_E3",
+      "owner_item": 3,
+      "depends_on": [
+        "Nb3_R1",
+        "Nb3_R3"
+      ],
+      "priority": 2,
+      "title": "ELOVL1 and ATP6V0E budding/Wnt association",
+      "shared_analysis": "E3",
+      "shared_questions": [
+        "A4",
+        "A10"
+      ],
+      "status": "executed_first_pass_with_named_holds",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py",
+      "output": "reports/EXTENSION_REVIEW.md",
+      "held_scope": "Edit/morphology validation and molecular mechanism"
+    },
+    {
+      "id": "Nb3_E4",
+      "owner_item": 4,
+      "depends_on": [
+        "Nb3_R3"
+      ],
+      "priority": 2,
+      "title": "SLC34A2 and AT2 identity",
+      "shared_analysis": "E4",
+      "shared_questions": [
+        "A1"
+      ],
+      "status": "executed_first_pass_with_named_holds",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py",
+      "output": "reports/EXTENSION_REVIEW.md",
+      "held_scope": "Independent disease/transport mechanism"
+    },
+    {
+      "id": "Nb3_E5",
+      "owner_item": 5,
+      "depends_on": [
+        "Nb3_R1",
+        "Nb3_R2"
+      ],
+      "priority": 3,
+      "title": "Normal receptor expression and cancer dependency",
+      "shared_analysis": "E5",
+      "shared_questions": [
+        "A8",
+        "A10"
+      ],
+      "status": "executed_first_pass_with_named_holds",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py",
+      "output": "reports/EXTENSION_REVIEW.md",
+      "held_scope": "Normal AT2/AT1 localization and versioned DepMap dependency"
+    },
+    {
+      "id": "Nb3_E6",
+      "owner_item": 6,
+      "depends_on": [
+        "Nb3_00",
+        "Nb3_R1",
+        "Nb3_R2"
+      ],
+      "priority": 3,
+      "title": "EGFR recipient/context feasibility",
+      "shared_analysis": "E6",
+      "shared_questions": [
+        "A2",
+        "A12"
+      ],
+      "status": "executed_first_pass_with_named_holds",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py",
+      "output": "reports/EXTENSION_REVIEW.md",
+      "held_scope": "Validated compartment-selective recipient function"
+    },
+    {
+      "id": "Nb3_E7",
+      "owner_item": 7,
+      "depends_on": [
+        "Nb3_R4"
+      ],
+      "priority": 3,
+      "title": "AT2 growth and fibroblast heterogeneity feasibility",
+      "shared_analysis": "E7",
+      "shared_questions": [
+        "A10",
+        "A13"
+      ],
+      "status": "executed_first_pass_with_named_holds",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py",
+      "output": "reports/EXTENSION_REVIEW.md",
+      "held_scope": "Single-cell/spatial heterogeneity with biological units"
+    },
+    {
+      "id": "Nb3_E8",
+      "owner_item": 8,
+      "depends_on": [
+        "Nb3_R3",
+        "Nb3_R4"
+      ],
+      "priority": 1,
+      "title": "Lung-associated versus generalized fibroblast programmes",
+      "shared_analysis": "E1_E8",
+      "shared_questions": [
+        "A13"
+      ],
+      "status": "executed_first_pass_with_named_holds",
+      "contract_frozen": true,
+      "entrypoint": "scripts/08_fixed_panel_extensions.py",
+      "output": "reports/EXTENSION_REVIEW.md",
+      "held_scope": "Multi-tissue specificity and contact/soluble mechanism"
+    }
+  ],
+  "pending_statistical_choices": {
+    "resolved_for_v1": "See frozen execution contract and source-panel amendment",
+    "unresolved": "Independent preparations/animals, exact source cPCA/JADE inputs, spatial treatment/grid and external source annotations; retain explicit holds"
+  },
+  "analysis_id": "Nb3",
+  "execution_contract": "config/Nb3_execution_v1.json",
+  "source_panel_amendment": "config/Nb3_panel_amendment_v1.json",
+  "new_numerical_execution": true,
+  "independent_biological_inference": false,
+  "numerical_models_completed": {
+    "imaging_with_scaling_sensitivity": 2412,
+    "fixed_panel_contrasts": 4150,
+    "gene_DE": 395
+  },
+  "source_concordance": {
+    "mouse_median_pearson": 0.9606,
+    "human_median_pearson": 0.0035,
+    "human_numeric_S5": "not_reproduced",
+    "audit": "reports/CONCORDANCE_AUDIT.md",
+    "source_fields_preserved": true
+  },
+  "verification": "reports/Nb3_computation_verification.json",
+  "repository_verification": "reports/Nb3_repository_verification.json",
+  "followup": {
+    "contract": "config/Nb3_followup_v1.json",
+    "status": "executed_exploratory",
+    "report": "reports/FOLLOWUP_RESULTS.md",
+    "entrypoint": "scripts/14_followup_analysis.py",
+    "figure_gallery": "FIGURES.md",
+    "final_atlas": "figures/Nb3_complete_figure_atlas_v2.pdf",
+    "verification": "reports/Nb3_followup_verification.json",
+    "proposed_RQs": [
+      "A22",
+      "A23"
+    ],
+    "RQ_derivation": "reports/RQ_DERIVATION.md",
+    "claim_grade_change": false
+  },
+  "external_E5": {
+    "status": "executed_descriptive_pilot",
+    "dataset": "GSE306184",
+    "metadata": "runs/E5_metadata_v1/run_record.json",
+    "contract": "config/Nb3_E5_external_v1.json",
+    "run": "runs/E5_external_v1/run_record.json",
+    "report": "reports/E5_EXTERNAL_FEASIBILITY.md",
+    "entrypoint": "scripts/19_e5_external_pilot.py",
+    "figure": "figures/E5_external_v2/Nb3_F09_E5_external_pilot.pdf",
+    "independent_biological_inference": false,
+    "new_global_RQ_ID": null
+  },
+  "candidate_review": {
+    "report": "reports/RQ_INTEGRATION_REVIEW.md",
+    "candidate_cards": "CANDIDATE_HYPOTHESES.md",
+    "global_review": "docs/audits/2026-10-01-cross-article-rq-review/README.md",
+    "verification": "docs/audits/2026-10-01-cross-article-rq-review/verification.json",
+    "reviewed_against_main": "f61343cc16c83e979b071393adccdcf8084ea294"
+  }
+}

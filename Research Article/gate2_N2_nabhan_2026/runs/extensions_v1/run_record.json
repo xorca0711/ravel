@@ -1,0 +1,37 @@
+{
+  "analysis_ids": [
+    "Nb3_R4",
+    "Nb3_E1",
+    "Nb3_E2",
+    "Nb3_E3",
+    "Nb3_E4",
+    "Nb3_E5",
+    "Nb3_E6",
+    "Nb3_E7",
+    "Nb3_E8"
+  ],
+  "status": "executed_descriptive_with_explicit_mechanistic_holds",
+  "config_sha256": "f6aed37cbe4ebc2d5e45fe60d53ea0e52cdaca8388eef840423b0a0455ed91d2",
+  "script_sha256": "15b83133c41667cb0dc333f8898d2ac0db34518da797824299aa16614ff5a740",
+  "panel_input_record_sha256": "35bcf951586f968687ae364d1f0b0067c2367f1c377039668c5d921e725ea7a5",
+  "paired_QC_libraries": 771,
+  "panel_contrasts": 4221,
+  "estimable_panel_contrasts": 4150,
+  "uncertainty": "technical-well CIs; no biological p-values for panels or cross-target associations; source compartments and target position/guide confounding persist",
+  "E1_E8": "shared contrast/programme analysis; no immune recruitment, lung specificity or causal pathway conclusion",
+  "E2": "IFN/hypoxia/gastric/AT2 contrasts; no single-cell trajectory or fate inference",
+  "E3_E4": "fixed panels and deposited component activities; no molecular mechanism identification",
+  "E5_E6": "compartment receptor expression and source effects; no protein editing/function, DepMap fit or clinical causality inference",
+  "E7": "paired bulk/growth association only; cell-type heterogeneity not estimable",
+  "output_sha256": {
+    "R4_v1/fixed_panel_effects.tsv": "6cd5e99c085732bcf6b574164ff5d0e1593e5b2f008b5f4138d37c525e2e9b13",
+    "R4_v1/paired_library_QC.tsv": "e49690e9498c6c0fe23bcecf46451549c8cad00362b94d28a1b2f19ae9bb9afc",
+    "extensions_v1/focal_effect_matrix.tsv": "4b39ed9e1e391f4b5297daca524d4ef88bf4c789d9394cb5e36b508328607dad",
+    "extensions_v1/focal_source_ICA.tsv": "91e28ec515388bd147b8873444a8f04df4cdcc552ca411d39d557775fdbf087b",
+    "extensions_v1/focal_target_panels.tsv": "224f5cee0904aa3cbe9ed377f97f4fd05fc8f7a781ca0815c8690b147a726b64",
+    "extensions_v1/leave_target_out.tsv": "9193987b912c71c2d1d98eef8d0b9db14b62b6212dcc67938db54045c5f5feda",
+    "extensions_v1/paired_depth_diagnostics.tsv": "78fb4261a72a6a45b81088f5a09db4e99aa78e82d628c51e8270bef71dd05b4c",
+    "extensions_v1/receptor_expression.tsv": "709a7d2decc4993bec56b21d3a080e69c37074d44bd9ae00805f88da271bda26",
+    "extensions_v1/target_associations.tsv": "0a475957e4cd5ea2f90e79496d16ecc8a0bfee6154d75821a98a34b62f0ebc0f"
+  }
+}

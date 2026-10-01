@@ -6,6 +6,7 @@
 |---|---|
 | Paper context and biological question | [Source and role of this deposit](#study-context) |
 | Analysis results, claims and limitations | [Generated three-donor atlas report](GSE178360/README.md); [related HLCA mapping](../gate1_04_sikkema_2023_hlca/README.md) |
+| Later results and RQ implications | [Chronological retrospective review](RQ_RETROSPECTIVE_REVIEW.md) |
 | Figures and captions | [Donor map and epithelial markers](#figure-gallery) |
 | Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
 

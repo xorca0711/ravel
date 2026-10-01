@@ -1,0 +1,183 @@
+{
+  "series": "GSE307128",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307128/soft/GSE307128_family.soft.gz",
+  "sha256": "995d2f7f4e3bed5533a61331a22a0d9300e4ea3f8dde4b6d81308d3fd69f4a38",
+  "bytes": 3120,
+  "series_metadata": [
+    "!Series_title = Mapping the Dialogue: Decoding Alveolar Stem-Niche Interactions [II]",
+    "!Series_pubmed_id = 42418498",
+    "!Series_summary = Cellular atlases reveal diverse cellular phenotypes, but how cells traverse this phenotypic landscape to impact tissues requires systematic study. We present an alveolosphere screening platform for investigating interactions between lung epithelial stem cells and their fibroblast niche. We assessed the role of 201 candidate genes in stem cells via imaging, then used RNAseq analysis for a transcriptome-wide understanding of cell-autonomous effects on stem cells and non-cell-autonomous effects on the niche. This phenome-transcriptome map uncovered new cellular states and pathways regulating stem cell growth, metabolism, and immune signaling. Notably, stem cells influenced scar-forming and immune programs in fibroblasts. This injury response was dependent on stem cell identity; loss of Nkx2.1, the transcription factor conferring lung epithelial identity, disrupted stem cell-niche interactions and had a greater non-cell-autonomous effect than eliminating the cancer genes Trp53, Egfr, or Cdkn2b. Our study highlights how functional atlases complement the cellular diversity revealed by descriptive methods.",
+    "!Series_overall_design = A CRISPR KO screen was conducted in lung alveolar type 2 (AT2) cells. Lung AT2 cells are the progenitors of AT1 cells, responsible for gas exchange in our lung alveoli. After nucleofection of these cells with RNP for our gene of interest, they are co-cultured in Matrigel with human normal lung fibroblasts for 2 weeks. During this time, AT2 cells proliferate, organize into organoid and differentiate. After 2 weeks, RNA is extracted for transcriptomics analysis. RNA was extracted from each well and prepared using SmartSeq3 pipeline. Each fastq file contains reads from both mouse AT2 cells and human fibroblasts.",
+    "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307128/suppl/GSE307128_RAW.tar"
+  ],
+  "samples": [
+    {
+      "gsm": "GSM9216987",
+      "title": [
+        "Block 8, WT"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: WT",
+        "treatment: Bleomycin",
+        "batch: 25036"
+      ],
+      "data_processing": [
+        "SpaceRanger v3.0.1 was run on the raw sequencing data, then aligned to gene expression counts using the mm10-2020-A reference genome from 10x, and the Visium v2.0 mouse transcriptome probeset.",
+        "High resolution H&E images were aligned with the CytAssist image using the landmark-based alignment tool in Loupe browser",
+        "Aligned H&E images were integrated with expression data (at the 8um bin size) using custom scripts to generate a SpatialData ZARR.",
+        "Assembly: GRCm38/mm10-2020-A",
+        "Supplementary files format and content: LIB[#]_SAM[#].sd.zarr.tar.gz: Gzipped SpatialData object",
+        "Supplementary files format and content: [SLIDE_ID]-fiducials-image-registration.json: Manual registration file for Visium coordinates to high-resolution H&E",
+        "Supplementary files format and content: LIB[#]_SAM[#]_spaceranger.tar.gz: Gzipped raw SpaceRanger outputs",
+        "Supplementary files format and content: LIB[#]_[CAPTUREAREA]_[SLIDE_ID]_[CAPTUREAREA]_[SAMPLE].tiff: CytAssist image associated with registration file",
+        "Library strategy: Spatial Transcriptomics"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN51015637",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30350556"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216987/suppl/GSM9216987_H1-6BZF3HX-A1-fiducials-image-registration.json.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216987/suppl/GSM9216987_LIB6241489_A1_H1-6BZF3HX_A1_H2023-768-8.tiff.gz"
+      ],
+      "supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216987/suppl/GSM9216987_LIB6241489_SAM24462244.sd.zarr.tar.gz"
+      ],
+      "supplementary_file_4": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216987/suppl/GSM9216987_LIB6241489_SAM24462244_spaceranger.tar.gz"
+      ]
+    },
+    {
+      "gsm": "GSM9216988",
+      "title": [
+        "Block 10, Nkx2.1 KO"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Nkx2.1 KO",
+        "treatment: Bleomycin",
+        "batch: 25036"
+      ],
+      "data_processing": [
+        "SpaceRanger v3.0.1 was run on the raw sequencing data, then aligned to gene expression counts using the mm10-2020-A reference genome from 10x, and the Visium v2.0 mouse transcriptome probeset.",
+        "High resolution H&E images were aligned with the CytAssist image using the landmark-based alignment tool in Loupe browser",
+        "Aligned H&E images were integrated with expression data (at the 8um bin size) using custom scripts to generate a SpatialData ZARR.",
+        "Assembly: GRCm38/mm10-2020-A",
+        "Supplementary files format and content: LIB[#]_SAM[#].sd.zarr.tar.gz: Gzipped SpatialData object",
+        "Supplementary files format and content: [SLIDE_ID]-fiducials-image-registration.json: Manual registration file for Visium coordinates to high-resolution H&E",
+        "Supplementary files format and content: LIB[#]_SAM[#]_spaceranger.tar.gz: Gzipped raw SpaceRanger outputs",
+        "Supplementary files format and content: LIB[#]_[CAPTUREAREA]_[SLIDE_ID]_[CAPTUREAREA]_[SAMPLE].tiff: CytAssist image associated with registration file",
+        "Library strategy: Spatial Transcriptomics"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN51015636",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30350557"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216988/suppl/GSM9216988_H1-BCFV9RY-A1-fiducials-image-registration.json.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216988/suppl/GSM9216988_LIB6241490_A1_H1-BCFV9RY_A1_H2023-768-10.tiff.gz"
+      ],
+      "supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216988/suppl/GSM9216988_LIB6241490_SAM24462245.sd.zarr.tar.gz"
+      ],
+      "supplementary_file_4": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216988/suppl/GSM9216988_LIB6241490_SAM24462245_spaceranger.tar.gz"
+      ]
+    },
+    {
+      "gsm": "GSM9216989",
+      "title": [
+        "Block 15, Nkx2.1 KO"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: Nkx2.1 KO",
+        "treatment: Bleomycin",
+        "batch: 25036"
+      ],
+      "data_processing": [
+        "SpaceRanger v3.0.1 was run on the raw sequencing data, then aligned to gene expression counts using the mm10-2020-A reference genome from 10x, and the Visium v2.0 mouse transcriptome probeset.",
+        "High resolution H&E images were aligned with the CytAssist image using the landmark-based alignment tool in Loupe browser",
+        "Aligned H&E images were integrated with expression data (at the 8um bin size) using custom scripts to generate a SpatialData ZARR.",
+        "Assembly: GRCm38/mm10-2020-A",
+        "Supplementary files format and content: LIB[#]_SAM[#].sd.zarr.tar.gz: Gzipped SpatialData object",
+        "Supplementary files format and content: [SLIDE_ID]-fiducials-image-registration.json: Manual registration file for Visium coordinates to high-resolution H&E",
+        "Supplementary files format and content: LIB[#]_SAM[#]_spaceranger.tar.gz: Gzipped raw SpaceRanger outputs",
+        "Supplementary files format and content: LIB[#]_[CAPTUREAREA]_[SLIDE_ID]_[CAPTUREAREA]_[SAMPLE].tiff: CytAssist image associated with registration file",
+        "Library strategy: Spatial Transcriptomics"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN51015635",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30350558"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216989/suppl/GSM9216989_H1-BCFV9RY-D1-fiducials-image-registration.json.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216989/suppl/GSM9216989_LIB6241491_D1_H1-BCFV9RY_D1_H2023-768-15.tiff.gz"
+      ],
+      "supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216989/suppl/GSM9216989_LIB6241491_SAM24462246.sd.zarr.tar.gz"
+      ],
+      "supplementary_file_4": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216989/suppl/GSM9216989_LIB6241491_SAM24462246_spaceranger.tar.gz"
+      ]
+    },
+    {
+      "gsm": "GSM9216990",
+      "title": [
+        "Block 16, WT"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "genotype: WT",
+        "treatment: Bleomycin",
+        "batch: 25036"
+      ],
+      "data_processing": [
+        "SpaceRanger v3.0.1 was run on the raw sequencing data, then aligned to gene expression counts using the mm10-2020-A reference genome from 10x, and the Visium v2.0 mouse transcriptome probeset.",
+        "High resolution H&E images were aligned with the CytAssist image using the landmark-based alignment tool in Loupe browser",
+        "Aligned H&E images were integrated with expression data (at the 8um bin size) using custom scripts to generate a SpatialData ZARR.",
+        "Assembly: GRCm38/mm10-2020-A",
+        "Supplementary files format and content: LIB[#]_SAM[#].sd.zarr.tar.gz: Gzipped SpatialData object",
+        "Supplementary files format and content: [SLIDE_ID]-fiducials-image-registration.json: Manual registration file for Visium coordinates to high-resolution H&E",
+        "Supplementary files format and content: LIB[#]_SAM[#]_spaceranger.tar.gz: Gzipped raw SpaceRanger outputs",
+        "Supplementary files format and content: LIB[#]_[CAPTUREAREA]_[SLIDE_ID]_[CAPTUREAREA]_[SAMPLE].tiff: CytAssist image associated with registration file",
+        "Library strategy: Spatial Transcriptomics"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN51015634",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30350559"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216990/suppl/GSM9216990_H1-6BZF3HX-D1-fiducials-image-registration.json.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216990/suppl/GSM9216990_LIB6241492_D1_H1-6BZF3HX_D1_H2023-768-16.tiff.gz"
+      ],
+      "supplementary_file_3": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216990/suppl/GSM9216990_LIB6241492_SAM24462247.sd.zarr.tar.gz"
+      ],
+      "supplementary_file_4": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9216nnn/GSM9216990/suppl/GSM9216990_LIB6241492_SAM24462247_spaceranger.tar.gz"
+      ]
+    }
+  ]
+}

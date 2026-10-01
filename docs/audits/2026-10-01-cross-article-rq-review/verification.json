@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": 1367,
+  "failures": [],
+  "markdown_files": 61,
+  "markdown_link_checks": 1586,
+  "markdown_link_failures": [],
+  "independent_xml_libraries": 14,
+  "selected_count_entries_verified": 266,
+  "scientific_scope": "descriptive only",
+  "visual_QA": "F09 v2 visually inspected; left labels readable; PDF text bounds checked",
+  "original_atlas_sha256": "70e8bf34c9a114cece5dc4008875bf5f53d440e2b1216dede04a1f758a9d934c",
+  "remote_main": "f61343cc16c83e979b071393adccdcf8084ea294",
+  "full_repository_tests": "not repeated; old unrelated audit failures excluded; no old analysis rerun",
+  "verifier_sha256": "76165ccb64d1c88e7e818713b74dbc7f3f44d8fc8ec8b7bdc6cdc7fc5bbcf885",
+  "final_documentation_checks": {
+    "status": "PASS",
+    "changed_after_initial_check": 4,
+    "local_link_checks": 220,
+    "failures": [],
+    "pipeline_and_ID_correction": "PASS",
+    "raw_archive_ignored_and_new_figure_PDF_not_ignored": true,
+    "diff_check": "PASS"
+  }
+}

@@ -8,6 +8,7 @@ Current figure corrections: [categorical time axes and annotation comparison](GS
 |---|---|
 | Paper context and biological question | [Published workflow](../../docs/WORKFLOW_Niethamer2025.md); [source-method notes](../../docs/scRNAseq_workflow_Niethamer2025.md) |
 | Analysis results, claims and limitations | [Generated atlas report](GSE262927/README.md); [analysis stages and outcomes](ANALYSIS_TRIAL_PLAN.md) |
+| Later results and RQ implications | [Chronological retrospective review](RQ_RETROSPECTIVE_REVIEW.md) |
 | Figures and captions | [Selected figures and links to detailed galleries](#figure-gallery) |
 | Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
 

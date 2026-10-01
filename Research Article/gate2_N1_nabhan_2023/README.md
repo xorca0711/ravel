@@ -1,5 +1,7 @@
 # Nabhan 2023: Nb2 receptor-selective regeneration analysis
 
+**Chronological RQ review, 1 October 2026:** [later analyses and existing A19-A21 framing](RQ_RETROSPECTIVE_REVIEW.md).
+
 **Gate 2N, item N1; stable paper ID 6; namespace Nb2.** The owner completed reading
 on 29 September 2026. The supplied paper and three private context pages informed
 an executed first pass through reproduction, biological exploration and open
