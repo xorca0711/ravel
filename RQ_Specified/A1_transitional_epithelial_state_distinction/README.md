@@ -1,5 +1,11 @@
 # A1: Distinguishing transitional epithelial states
 
+**Conditional candidates reviewed 1 October 2026:** [Nb3 response-pattern
+candidate and HLCA population-definition constraint](../../RESEARCH_QUESTIONS.md#a1-candidates-20261001).
+These nominate comparisons; they supply no regulatory-to-fate linkage or new
+A1 fit. The [cross-article review](../../docs/audits/2026-10-01-cross-article-rq-review/README.md)
+records the source chronology and review decisions.
+
 ## Organizing biological question
 
 > Do regulatory programmes distinguish RNA-similar transitional states and their functional responses?

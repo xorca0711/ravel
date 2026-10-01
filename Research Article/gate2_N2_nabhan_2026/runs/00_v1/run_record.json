@@ -1,0 +1,13 @@
+{
+  "analysis_id": "Nb3_00",
+  "source_sha256": "59b69b5db53139f9b75183b91739e7b22d3666ac1df728028461548bd0ff399e",
+  "script_sha256": "c171b49db1141f00e05e8fbe7d517ac3e802f8f4ba1fcf1a0be5da2ad4f19b65",
+  "libraries": 886,
+  "mapped_libraries": 856,
+  "missing_design_libraries": 30,
+  "target_labels": 203,
+  "unique_target_gene_pairs": 203,
+  "all_mapped_labels_agree_after_punctuation_normalization": true,
+  "all_mapped_mouse_gene_IDs_present": true,
+  "implementation_history": "Initial parse stopped before writing outputs on empty trailing Excel rows; corrected to skip completely blank rows only"
+}

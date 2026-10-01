@@ -1,0 +1,43 @@
+{
+  "status": "descriptive_pilot_only",
+  "samples": 14,
+  "unique_symbols": 46425,
+  "missing_fixed_genes": [],
+  "total_range": [
+    49379370,
+    71965612
+  ],
+  "all_source_values_integer": true,
+  "independent_donors": "unresolved",
+  "metadata_conflicts": [
+    "Human epithelial titles and GRCh38 processing conflict with mouse husbandry/restraint protocol fields; retain conflict without inventing a correction",
+    "GEO cytokine label differs from paper growth-factor EGF/EREG/NRG1 wording; preserve Cyto as a source label, with interpretation conditional",
+    "Methods mention FPKM while workbook columns and supplemental description say Read_Count; assess numeric type and retain deposited-value provenance"
+  ],
+  "no_uninjured_knockdown": true,
+  "input_hashes": [
+    {
+      "path": "raw_data/GSE306184/GSE306184_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE306nnn/GSE306184/soft/GSE306184_family.soft.gz",
+      "bytes": 2921,
+      "sha256": "35cfe03440063ba7d1cf589c8e9f6dfd7f2f83ca5372eadd1a97cc88238354ad"
+    },
+    {
+      "path": "raw_data/GSE306184/GSE306184_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE306nnn/GSE306184/suppl/GSE306184_RAW.tar",
+      "bytes": 11847680,
+      "sha256": "3118b484ae1c2a77433b1a62cfaedf623c2650d982516ea0c16cf14f79c7e89c"
+    }
+  ],
+  "config_sha256": "f9378f51ac9b5e81aea3b69dee1d205dfc847997f3e2fd990f4968b5ffe68517",
+  "script_sha256": "d74e6566536c2256c4c980ed59839ad91ef25d2977e3e7c0356bf953742f8969",
+  "completed_utc": "2026-10-01T03:30:01.648759+00:00",
+  "output_sha256": {
+    "context_difference.tsv": "6a9f8cd15b2902cba03ce089bb1cf34c455e43753fbbc5b25b6e922a9f447091",
+    "gene_contrasts.tsv": "84a1f1e0b22ecc644509b76b4668acc21c2b5d410d42f4cff3d9a8ce06af9669",
+    "panel_contrasts.tsv": "167c163d3416426764c10643f1aed2c34a5061746af5efa31e103649e372e03d",
+    "sample_design_qc.tsv": "4d821d91d218a45b8fe600e5fa6cfb7117ad103d834c839d2330aba2a7753300",
+    "selected_normalized_values.tsv": "0714bf499fce7674afff21a69c45c99b5152af79da4d76f93760cc8575271deb",
+    "selected_source_counts.tsv": "9eb8f40f7310afdddf1510f29380fbb5bcd7c271090629be3a201c3a8641f1e7"
+  }
+}

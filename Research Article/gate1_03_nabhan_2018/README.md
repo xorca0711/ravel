@@ -6,6 +6,7 @@
 |---|---|
 | Paper context and biological question | [Biological context and analysis sequence](#study-context) |
 | Analysis results, claims and limitations | [Findings and limits](#findings-that-motivate-research-questions); [Nb1 evidence](nb1/README.md); [source reproduction](source_reproduction/README.md) |
+| Later results and RQ implications | [Chronological retrospective review and conditional A4 branch](RQ_RETROSPECTIVE_REVIEW.md) |
 | Figures and captions | [All seven figures](#figure-gallery) |
 | Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
 

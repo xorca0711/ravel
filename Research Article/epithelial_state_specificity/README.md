@@ -6,6 +6,7 @@
 |---|---|
 | Biological context and cross-study question | [Cross-study question](#study-context); [frozen plan](PLAN.md) |
 | Analysis results, claims and limitations | [Generated results and limits](results/SUMMARY.md); [measurement definitions](#what-is-measured) |
+| How later analyses refine the earlier RQs | [Chronology and strict RQ review](RQ_RETROSPECTIVE_REVIEW.md) |
 | Figures and captions | [Specificity and external coverage](#figure-gallery) |
 | Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
 

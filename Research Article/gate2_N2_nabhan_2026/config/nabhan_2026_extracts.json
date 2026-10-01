@@ -1,0 +1,171 @@
+{
+  "schema": "nabhan-2026-source-extracts/v1",
+  "date": "2026-10-01",
+  "status": "source_extracted_not_numerically_reproduced",
+  "article": {
+    "title": "Mapping the dialogue: Decoding alveolar stem–niche interactions",
+    "year": 2026,
+    "published": "2026-07-08",
+    "doi": "10.1073/pnas.2606113123",
+    "pmid": "42418498",
+    "pmcid": "PMC13367804",
+    "roadmap_order": 14,
+    "gate": "2N",
+    "branch_item": 2,
+    "owner_reading": "completed"
+  },
+  "sources": {
+    "primary_pdf": "Owner-supplied annotated article, 10 pages; figures 3-5 visually reviewed",
+    "supplement_pdf": {
+      "pages": 19,
+      "sha256": "71cc465ddf61a3c605868e8d57a8ef665537ee8b9d64ef9acfdb2469d6a423e9",
+      "owner_copy_matches_cached_copy": true,
+      "methods_reviewed_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "archive_record": "docs/roadmap_runs/2026-09-27/P1_source_recovery.json"
+    },
+    "notion": [
+      {
+        "title": "Result",
+        "url": "https://app.notion.com/p/3ea151616b4480e5a5a3e4ae72714f1d",
+        "last_edited": "2026-09-30T15:30:00.020Z"
+      },
+      {
+        "title": "Discussion",
+        "url": "https://app.notion.com/p/3ea151616b44801f9cd2eb074d382f7c",
+        "last_edited": "2026-09-29T14:55:00.386Z"
+      }
+    ],
+    "notion_scope": "Fetched text; image pixels not inspected; truncation flags not supplied. Private snapshots ignored."
+  },
+  "design": {
+    "source_candidate_genes": 201,
+    "deposited_target_labels_in_P1": 203,
+    "rna_libraries_in_P1": 886,
+    "paired_imaging_wells_in_A10": 885,
+    "unit": "bulk culture well, mouse epithelium plus human fibroblasts",
+    "replication": "Four wells share a cell mixture; independent-preparation mapping unresolved",
+    "rna_day": 14,
+    "imaging_days": [
+      7,
+      14
+    ]
+  },
+  "imaging": {
+    "source": "SI p.3",
+    "endpoints": [
+      "organoid count",
+      "average segmented organoid size",
+      "bounding-box union covered fraction"
+    ],
+    "controls": [
+      "same-plate TIGIT"
+    ],
+    "model": "plate centering/scaling, per-target linear model",
+    "multiplicity": "BH across targets; exact endpoint/day family must be recovered",
+    "embeddings": "day-14 SAM region embeddings; plate centered; tdTomato excluded",
+    "pending": [
+      "deposited area scale",
+      "exact day model",
+      "raw image and embedding availability"
+    ]
+  },
+  "rna": {
+    "source": "SI p.4",
+    "counts": "gene-level exonic read counts, not assumed UMIs",
+    "species_assignment": "Xenome unambiguous reads",
+    "reference": {
+      "mouse": "GRCm38.p5 / GENCODE M15",
+      "human": "GRCh38.p10 / GENCODE 27"
+    },
+    "retention_detected_genes": {
+      "mouse": 7500,
+      "human": 10000
+    },
+    "normalization": "TMM",
+    "differential_expression": {
+      "method": "limma-voom per target",
+      "references": [
+        "same-plate TIGIT",
+        "same-plate tdTomato"
+      ],
+      "covariate": "plate",
+      "downstream_filter": "average expression >1.5 in limma-voom results; exact scale/timing to recover"
+    },
+    "enrichment": "cameraPR with t-statistic",
+    "cpca": {
+      "method": "scPCA v1.19.0",
+      "background": "TIGIT, per main text",
+      "hvg_count": 3000,
+      "hvg_methods": "scran v1.33.2 modelGeneVar/combineVar/getTopHVGs",
+      "batch_correction": "limma::removeBatchEffect on CPM before exploratory cPCA",
+      "contrast_parameter": null,
+      "transformation_details": null
+    },
+    "ica": {
+      "input": "limma-voom t-statistics transformed by limma::zscoreT",
+      "algorithm": "JADE",
+      "package": "ica v1.0.3",
+      "source_columns": 20,
+      "rank_selection": null,
+      "seed": null,
+      "source_component_roles": {
+        "ICA_05": "Krt8 transitional",
+        "ICA_08": "growth",
+        "ICA_12": "antigen presentation",
+        "ICA_13": "interferon",
+        "ICA_17": "Wnt/budding",
+        "ICA_18": "ER stress"
+      }
+    }
+  },
+  "spatial": {
+    "source": "SI p.5 / main Fig.5",
+    "series": "GSE307128",
+    "sample_accessions": [
+      "GSM9216987",
+      "GSM9216988",
+      "GSM9216989",
+      "GSM9216990"
+    ],
+    "source_animals_per_group": 2,
+    "sample_animal_map_verified": false,
+    "reference_sources": [
+      "Strunz 2020",
+      "Tsukui 2020",
+      "Toth 2023"
+    ],
+    "reference_integration": "scVI and random-forest label transfer",
+    "deconvolution": "RCTD doublet mode",
+    "bin_microns": 8,
+    "min_transcripts_per_spot": 75,
+    "enriched_weight_operator": ">",
+    "enriched_weight_threshold": 0.2,
+    "threshold_origin": "source empirical inspection",
+    "main_text_grid": "50 um2, relationship to 8-micron bins unresolved",
+    "treatment_conflict": "Inspected GEO KO and WT samples label Bleomycin; reconcile with source AAV experiment",
+    "source_processing_version": "3.0 in SI; 3.0.1 in inspected GEO samples"
+  },
+  "source_component_tables": {
+    "S1": "plate layout",
+    "S2": "four plate gene/guide design sheets",
+    "S3": "two budding differential-expression comparisons",
+    "S4": "selected mouse differential-expression wide summary",
+    "S5": "selected human differential-expression wide summary",
+    "S6": "200 targets x 20 component activities",
+    "S7": "20 component sheets, gene_zscoreOfProj plus gene annotation"
+  },
+  "safeguards": [
+    "CTNNB1 is activating in this screen",
+    "Target RNA does not validate protein knockout",
+    "No fate inference from bulk cPCA",
+    "No immune-function inference from organoid chemokine RNA",
+    "DepMap 93 versus 96 denominator unresolved",
+    "Keep source observations separate from repository results"
+  ]
+}
+

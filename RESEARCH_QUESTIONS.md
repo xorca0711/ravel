@@ -1,5 +1,13 @@
 # Research questions
 
+**Cross-article review, 1 October 2026:** [chronology and contribution decisions](docs/audits/2026-10-01-cross-article-rq-review/README.md) cover every article folder and remote main. Accepted conditional candidates and constraints appear under the relevant RQs below; historical results and claim grades remain unchanged. Main owns A19–A21; Nb3 uses A22/A23.
+
+**Nb3 follow-up, 1 October 2026:** [completed diagnostics and pathway context](Research%20Article/gate2_N2_nabhan_2026/reports/FOLLOWUP_RESULTS.md)
+motivate proposed [A22](#a22) and [A23](#a23). Each has a biological hypothesis,
+rivals and a discriminating test plan. These are post-analysis proposals pending
+retain/reject, not new mechanisms or claim-grade changes. Human S5 source
+reproduction and independent biological-unit identification remain unresolved.
+
 **Nb2 synthesis, 29 September 2026:** [derivation from overall results](Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) proposes **A19–A21**: epithelial response reversibility, fibroblast receptor context and capillary renewal versus maintenance. These are post-analysis questions; A19 now has an [exploratory context analysis](RQ_Specified/A19_fzd_response_reversibility/RESULTS.md), and A20 has a [fibroblast context analysis](RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md); A21 now has an [independent capillary context analysis](RQ_Specified/A21_fzd4_capillary_function/RESULTS.md); all direct functional designs remain unexecuted. No mechanism, acceptance or claim grade is inferred.
 
 **28 September gap-fill execution:** [current results and every-question ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md). A15's normalization sensitivity is corrected in a new version; A5/A12 metadata gates are resolved as far as recovered inputs permit. The newer A16/A17 computational follow-ups preserve their historical outputs and all claim grades.
@@ -88,6 +96,8 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A19](#a19) | Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve. | Nb2 withdrawal lead, selective RNA output and receptor/target dissociation | **Exploratory RNA/context analysis completed.** Direct Fzd schedule, mature-output and reserve test remains unresolved; [results](RQ_Specified/A19_fzd_response_reversibility/RESULTS.md) |
 | [A20](#a20) | Fzd2 is more necessary than Fzd1 for AF1 fibroblasts to maintain AT2 cells that subsequently produce mature alveolar descendants. | Receptor/context motivation; RNA responses do not establish functional support | **Exploratory phase complete; H1 narrowed and untested.** Pool maintenance is the mechanistic focus; original subtype H2 deferred. [Focused design](RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md) |
 | [A21](#a21) | Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury. | Independent capillary enrichment; lower transitional-state Fzd4 and inconsistent cycling association | **Exploratory context completed; conditional priority.** Perturbation-linked lineage versus maintenance remains untested; [results](RQ_Specified/A21_fzd4_capillary_function/RESULTS.md) |
+| [A22](#a22) | NKX2-1-dependent epithelial identity sustains fibroblast chemokine competence beyond epithelial amount | Nb3's local AT2/chemokine decrease and wound-marker increase survive tested reference/gene/well sensitivities; general association remains modest | **Proposed, pending retain/reject.** Descriptive follow-up complete; independent identity/composition, secretion and recipient-function evidence needed |
+| [A23](#a23) | SLC34A2-dependent phosphate homeostasis constrains transition-associated epithelial stress before broad lineage collapse | Three transition markers rise coherently; identity effects are smaller than NKX21 but not absent | **Proposed, pending retain/reject.** Descriptive follow-up complete; transport, temporal order, within-state and restoration evidence needed |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -272,6 +282,12 @@ Descriptive direct-mark and descendant-source panels are available; independentl
 replicated regulatory/endpoint tests remain future work. [Depth panels](analysis/figures/rq/README.md#a1) are
 supporting diagnostics. [MC1–MC2](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1).
 
+<a id="a1-candidates-20261001"></a>
+
+**Conditional candidate, related to the Nb3 transition-response branch (reviewed 1 October 2026).** IFN-dominant and hypoxia-dominant Krt8-associated bulk responses nominate a comparison of regulatory state and later functional response. They do not establish two trajectories or assign productive versus arrested fate. Independently define populations, retain timing/mixture rivals and require regulatory measurements linked to an independent response. A8 owns the complementary maturation-output question. [Nb3 strict review](Research%20Article/gate2_N2_nabhan_2026/reports/RQ_INTEGRATION_REVIEW.md).
+
+**Related measurement constraint — HLCA S3-to-S2 review.** Later reference mapping narrows earlier marker-based AT0 calls; alternative labels are not independent evidence for regulatory classes. Establish the compared populations independently of the tested outcome. [Chronological review](Research%20Article/gate1_04_sikkema_2023_hlca/RQ_RETROSPECTIVE_REVIEW.md).
+
 <a id="a2-which-cells-express-areg-and-how-sensitive-are-candidate-rankings-to-the-resource"></a>
 <a id="a2-does-the-functional-contribution-of-areg-sources-depend-on-tissue-context"></a>
 <a id="a2"></a>
@@ -350,6 +366,10 @@ ligand dose and recipient engagement, beyond spatial RNA proximity alone.
 [Current figures](analysis/figures/rq/README.md#a2) are diagnostics.
 [MC2 to MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc2).
 
+<a id="a2-candidates-20261001"></a>
+
+**Conditional candidate, related to the upstream source-state branch (reviewed 1 October 2026).** Does epithelial state composition versus within-state expression explain donor-specific AREG source differences, and do comparable source cells coordinate additional candidate outputs? Cardoso's corrected molecule-matched gap is positive in 6/10 donors and motivates source decomposition. England E-N4 motivates a separately specified within-state EGFR-ligand/SPP1/DLK1 co-expression screen. Freeze populations and genes, retain depth, annotation and division-of-labour rivals, and evaluate the source model in independent donors. This specifies A2's existing epithelial-state rival; neither RNA result establishes secretion, delivery or recipient activation. [Cardoso review](Research%20Article/gate2_05_cardoso_2026/RQ_RETROSPECTIVE_REVIEW.md#a2-source-state); [England review](Research%20Article/gate2_C2_england_2025/RQ_RETROSPECTIVE_REVIEW.md#a2-coordinated-output).
+
 <a id="a3-which-macrophage-programmes-vary-with-phase-and-what-explains-the-differences"></a>
 <a id="a3"></a>
 
@@ -405,6 +425,12 @@ Sparse RNA overlap or an unverified reporter is inconclusive. Suitable
 history/activity data are required. [Current figures](analysis/figures/rq/README.md#a4)
 are screens; the desired figure is a lineage-linked activity/response time course.
 [MC1–MC3](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1).
+
+<a id="a4-candidates-20261001"></a>
+
+**Conditional candidate, related to the Nb1 source-context branch (reviewed 1 October 2026).** Fibroblast context may modify whether a Wnt-supported AT2 lineage subsequently enters an IL-1-responsive transition. AF1-biased Wnt2 and AF2-biased Wnt4 RNA in 21 eligible paired animals nominate source contexts, not a causal ligand switch. Location, matrix, other trophic signals and epithelial competence are rivals. Separate source identity/proximity, present Wnt/IL-1 response, reporter history and lineage-linked mature descendants. These animals are reused from Niethamer; this is not independent confirmation or A20's Fzd2/Fzd1 receptor-necessity test. [Nb1 review](Research%20Article/gate1_03_nabhan_2018/RQ_RETROSPECTIVE_REVIEW.md).
+
+**Rejected pathway transfer from Nb3 E3.** ELOVL1/ATP6V0E marker changes do not establish Wnt independence or the Wnt-to-IL-1 sequence. Their homeostasis/maturation hypothesis stays conditional under A8. [Nb3 review](Research%20Article/gate2_N2_nabhan_2026/reports/RQ_INTEGRATION_REVIEW.md).
 
 <a id="a5-which-transitional-signatures-are-specific-to-injury-rather-than-development-or-genotype"></a>
 <a id="a5"></a>
@@ -540,6 +566,10 @@ guides sourcing. [Overlap figures](analysis/figures/rq/README.md#a8) are diagnos
 desired panels compare component effects and held-out endpoint performance.
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1), [MC5](docs/RQ_MEASUREMENT_CONTRACTS.md#mc5).
 
+<a id="a8-candidates-20261001"></a>
+
+**Conditional candidates, related to maturation competence (reviewed 1 October 2026).** Nb3 E2 nominates IFN/hypoxia-associated responses as possible modifiers of maturation; E3 nominates ELOVL1-linked lipid and ATP6V0E-linked acidification processes. Lower AT1-marker RNA does not establish reduced mature contribution, and Wnt independence is unmeasured. England E-N5 asks whether early AT1 features can occur without late maturation in mutant mixed-identity cells; gate dependence and in-sample calibration leave classification as a rival. These distinct contexts require independently defined predictors and late protein, morphology or traced output, with timing, mixture and survival assessed. They do not supply the missing A8 predictor–outcome linkage. [Question-specific candidate addendum](RQ_Specified/A8_maturation_component_at1_contribution/RELATED_CANDIDATES_2026-10-01.md).
+
 <a id="a9-does-apparent-egfr-ligand-specificity-reflect-receiver-biology-or-receptor-representation-and-coverage"></a>
 <a id="a9"></a>
 
@@ -566,6 +596,10 @@ mechanism. RNA/resource discordance cannot decide it. The
 [coverage panels](analysis/figures/rq/README.md#a9) support screening; primary
 future panels are protein/activation and functional contrasts.
 [MC3–MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
+
+<a id="a9-candidates-20261001"></a>
+
+**Related recipient constraint — Nb3 E6 (reviewed 1 October 2026).** EGF withdrawal from a mixed organoid cannot identify epithelial versus fibroblast EGFR necessity. Both compartments express receptor RNA; a weak epithelial screen contrast with incomplete functional validation does not establish dispensability. Keep this epithelial-requirement comparison adjacent to A9, and distinguish EGF from defined AREG exposure. Compartment-specific engagement and functional response are needed before transferring the result into A9's fibroblast-competence hypothesis. [Nb3 framing](Research%20Article/gate2_N2_nabhan_2026/CANDIDATE_HYPOTHESES.md#e6--which-compartment-mediates-the-egf-requirement).
 
 <a id="a10-do-epithelial-perturbation-responses-predict-organoid-growth-and-fibroblast-responses-across-independent-preparations"></a>
 <a id="a10"></a>
@@ -752,6 +786,10 @@ A [separately frozen GSE308103 pilot](docs/roadmap_runs/2026-09-27-followthrough
 first, then patient effects if eligible. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC3–MC5](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
 
+<a id="a13-candidates-20261001"></a>
+
+**Related reverse-direction branch — Nb3 E7 (reviewed 1 October 2026).** Local epithelial state or expansion may induce fibroblast programmes or select pre-existing fibroblast states. This is an alternative explanation for a fibroblast–epithelial association, not a rescue of A13's negative held-out pilot or proof of reciprocal feedback. Distinguish within-state induction from abundance changes with independently defined states, sample/animal identity and spatial context; intervention is needed for direction. A22 owns the complementary epithelial-to-fibroblast hypothesis. [Nb3 review](Research%20Article/gate2_N2_nabhan_2026/reports/RQ_INTEGRATION_REVIEW.md); [later A13 evidence](Research%20Article/gate2_C3_yu_lee_choi_min_2026/RQ_RETROSPECTIVE_REVIEW.md).
+
 <a id="a14-resolution-versus-persistence-after-signal-withdrawal"></a>
 <a id="a14"></a>
 
@@ -787,6 +825,10 @@ future primary panels: replicate-level recovery, mature-cell yield and
 recipient-specific contrasts with exposure/engagement controls. No anticipated
 response curve is a result. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC3–MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
+
+<a id="a14-candidates-20261001"></a>
+
+**Conditional candidate, related to endogenous feedback (England E-N7; reviewed 1 October 2026).** Persistent activity after state entry may reflect deficient feedback induction or continuing input overwhelming intact feedback. Compare linked input, activity, feedback induction and mature recovery after verified withdrawal. A single Nfkbia RNA value or an inhibitor-induced marker shift decides neither explanation. This nominates a mechanistic modifier of persistence; mutant-context evidence does not establish the IL-1 duration or fibroblast-reception effects in A14. [England review](Research%20Article/gate2_C2_england_2025/RQ_RETROSPECTIVE_REVIEW.md#a14-feedback).
 
 <a id="a15"></a>
 
@@ -1030,6 +1072,10 @@ No author was contacted. [Source audit](docs/audits/2026-09-28-england-paper-rqs
 [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 [MC3–MC4](docs/RQ_MEASUREMENT_CONTRACTS.md#mc3).
 
+<a id="a18-candidates-20261001"></a>
+
+**Conditional candidate, related to SPP1/DLK1 interaction (England E-N8; reviewed 1 October 2026).** The source's reduced combined organoid-size response motivates interference between recipient responses, with saturation, survival and geometry as rivals. Judge the combination against a prespecified non-interacting response scale, using independent preparations and separate formation, cell-number and maturation outcomes. This tests interaction, not in-vivo signalling range or necessity. [England review](Research%20Article/gate2_C2_england_2025/RQ_RETROSPECTIVE_REVIEW.md#a18-signal-interaction).
+
 <a id="a19"></a>
 
 ### A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
@@ -1175,6 +1221,87 @@ rule and no compatible independent substate validation is claimed. The
 retains gCap renewal and aerocyte yields separately, with maintenance, entry and
 fate-specific alternatives. Priority 3 remains specified but untested; no claim
 grade or biological acceptance changes.
+
+<a id="a22"></a>
+
+### A22. Does epithelial identity determine fibroblast chemokine competence beyond epithelial amount?
+
+**Proposed 1 October 2026; pending the owner's retain or reject.**
+[Workspace](RQ_Specified/A22_epithelial_identity_niche_response/README.md),
+[rationale](RQ_Specified/A22_epithelial_identity_niche_response/RATIONALE.md),
+[plan](RQ_Specified/A22_epithelial_identity_niche_response/PLAN.md).
+
+**Hypothesis and biology.** NKX2-1-dependent alveolar epithelial identity
+sustains fibroblast chemokine competence. Its loss favours a wound-associated
+recipient response beyond a simple change in epithelial amount. Chemokine-rich
+stromal niches provide biological context, but this functional direction remains
+a hypothesis; Nb3 has no immune-recruitment endpoint.
+
+**Current evidence.** NKX21 contrasts are AT2 −2.072, human chemokines −3.357
+and human wound markers +1.468 in mean log2(TMM CPM + 0.5) units. Their directions
+survive tested control-type, gene and target-well omissions. Paired-depth
+conditioning retains the focal AT2/chemokine reductions. Across 195 targets,
+however, paired rho decreases from 0.210 to 0.151; without NKX21 it is 0.138
+after conditioning. These are exposed-screen associations, not independent
+replication or a direct effect. Human S5 numeric reproduction remains failed;
+Hallmark significance is strongly intergene-correlation-sensitive.
+
+**Prediction, rival and decision.** Independently verified identity changes
+should alter a prospectively fixed fibroblast secreted-chemokine endpoint and
+recipient response when epithelial/fibroblast amounts and states are measured.
+Composition, culture stress and target/guide/position confounding are rivals.
+A precise absence of functional response under a valid perturbation, or an
+effect explained by independently measured composition, would weaken the
+proposition. RNA alone cannot choose a mediator or establish global immune
+suppression, immunotherapy resistance or lung-specific fibroblast identity.
+
+**Readiness.** Descriptive motivation and local sensitivities complete;
+independent preparation/donor and functional evidence remain missing. This
+question is distinct from A10 growth prediction and reverses the direction
+of A13's fibroblast-to-epithelium prediction question. Primary context and
+exact analytical provenance are in the rationale and
+[Nb3 derivation](Research%20Article/gate2_N2_nabhan_2026/reports/RQ_DERIVATION.md).
+
+<a id="a22-candidates-20261001"></a>
+
+**Conditional branches retained after review, 1 October 2026.** E7 asks whether epithelial inputs induce fibroblast states or select their abundance; bulk RNA cannot decide this. E8 separately asks whether the response belongs to a lung-associated fibroblast programme and whether it contributes to immune recruitment in tumours. PLIN2 alone does not establish tissue specificity, and no immunotherapy endpoint was analysed. Require multi-tissue/state comparisons, secretion/recruitment measurements and a separate tumour-context test rather than interpreting the whole chain as an A22 result. [Eight-candidate framing](Research%20Article/gate2_N2_nabhan_2026/CANDIDATE_HYPOTHESES.md).
+
+<a id="a23"></a>
+
+### A23. Does SLC34A2-dependent phosphate homeostasis constrain entry into a transition-associated state?
+
+**Proposed 1 October 2026; pending the owner's retain or reject.**
+[Workspace](RQ_Specified/A23_slc34a2_transition_homeostasis/README.md),
+[rationale](RQ_Specified/A23_slc34a2_transition_homeostasis/RATIONALE.md),
+[plan](RQ_Specified/A23_slc34a2_transition_homeostasis/PLAN.md).
+
+**Hypothesis and biology.** Impaired SLC34A2-dependent phosphate homeostasis
+promotes an epithelial transition-associated stress response before broad
+lineage collapse. The established transporter/microlithiasis context and
+repair-associated transitional states motivate the connection; phosphate
+mediation, temporal order and reversibility were not measured in Nb3.
+
+**Current evidence.** The transition-marker contrast is +0.524; all three
+markers increase, and marker-omission estimates remain +0.437 to +0.568.
+Control and target-well omissions retain direction. Slc34a2 RNA decreases and
+is excluded from state scoring. AT2/AT1 baseline contrasts are −0.110/+0.062;
+paired-depth AT2 becomes −0.219. Identity attenuation is smaller than NKX21's,
+not demonstrably absent. Eight wells on one plate are not eight independent
+preparations, and bulk means do not identify cell trajectories.
+
+**Prediction, rival and decision.** An independently reproduced, within-state
+transition response should accompany verified transport/homeostasis disruption,
+precede broad identity collapse, and respond to a discriminating restoration
+of the relevant defect. Cell-mixture shifts, generic stress and secondary
+mineral/inflammatory injury are rivals. A precise null despite a valid defect,
+or composition accounting for the state signal, would weaken the hypothesis.
+Normal repair, pathological persistence and mature AT1 recovery require
+separate time/fate outcomes.
+
+**Readiness.** Descriptive follow-up complete; independent time/transport and
+functional evidence remain unestablished. A23 supplies a specific homeostatic
+input to A1/A8's state and maturation questions, not another trajectory claim.
+The cited primary literature and full evidence chain are in the rationale.
 
 ## Execution and interpretation rules
 

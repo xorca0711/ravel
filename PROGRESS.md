@@ -1,6 +1,173 @@
 # Progress and handoff state
 
+## Nb3 PR integration, 1 October 2026
+
+The owner explicitly requested commit, push and a PR. Delivery is prepared on
+`codex/nb3-alveolar-rq-review` from main `f61343c` in an isolated checkout.
+Main's A19-A21 workspaces and current framing are retained; Nb3 adds A22/A23,
+a 12-figure gallery, the descriptive E5 pilot and the cross-article review.
+Earlier statements about the stale working checkout below are historical.
+Raw inputs, private notes and unrelated local configuration are excluded.
+The [delivery record](docs/audits/2026-10-01-cross-article-rq-review/DELIVERY.md)
+records integration checks. Scientific hypotheses remain conditional; the
+owner's delivery request does not imply biological acceptance or a merge.
+
+## Cross-article RQ integration and external E5 pilot, 1 October 2026
+
+The owner expanded strict RQ contribution review to all articles and explicitly
+authorized subagents. Three bounded reviews plus Nb3 cover 12 folders,
+including the Primary archive and remote-only Nb2. The
+[review index](docs/audits/2026-10-01-cross-article-rq-review/README.md) records
+analysis chronology, later corrections, accepted branches and rejected
+promotions. Conditional additions now sit under A1/A2/A4/A8/A9/A13/A14/A18/A22;
+A23 remains the specific SLC34A2 question. Other useful contributions were
+already integrated on main. A1/A16/A17 stale readiness text was reconciled;
+an A11 acute-injury paragraph misplaced under A13 was moved to its owning card
+without changing its numerical interpretation. No claim grade changed.
+
+The [E5 external search and pilot](Research%20Article/gate2_N2_nabhan_2026/reports/E5_EXTERNAL_FEASIBILITY.md)
+downloaded GSE306184 and ran four descriptive knockdown/context comparisons
+across 14 libraries under a separate frozen contract. IR inflammatory-marker
+means are −0.299 for ERBB3 and +0.264 for EGFR; signs persist with the specified
+normalization sensitivity. Genes have mixed directions, donor independence is
+unresolved, source protocols conflict and AT2-marker coverage is sparse.
+Normal AT2 renewal, cancer dependency and clinical injury remain distinct
+unproved links. E5 is specified paper-locally without another global ID.
+
+The Nb3 [README](Research%20Article/gate2_N2_nabhan_2026/README.md) now follows
+sibling article navigation: evidence, units, figure gallery, analysis stages,
+questions and identifiers. One separate F09 external figure brings its gallery
+to 12 figures. Original numerical runs and the 11-page atlas are unchanged;
+F09 v2 corrects clipped left labels while preserving v1. Validation is recorded
+in the [review receipt](docs/audits/2026-10-01-cross-article-rq-review/verification.json).
+
+Verification passed: 1,367 checks, including independent XML extraction from
+all 14 E5 workbooks, all 266 selected source counts, transformations, contrasts,
+hashes and unclipped PDF text. All 1,586 local-link checks across 61 Markdown
+files passed. Prior scientific analyses were not rerun.
+
+## Nb3 ID correction and eight-candidate framing, 1 October 2026
+
+The owner identified an ID collision and asked how all eight annotated ideas
+were framed. Remote main was fetched and checked at `f61343c`: A19, A20 and A21
+already belong to Nb2/Fzd questions. The local checkout remains at `33b27cf`;
+its stale register caused the initial allocation error. Nb3 folders, cards,
+anchors and active references now use **A22** (epithelial identity/niche response)
+and **A23** (SLC34A2/transition homeostasis). Main's existing questions were not
+modified or merged into this dirty checkout. The
+[correction record](Research%20Article/gate2_N2_nabhan_2026/reports/RQ_ID_CORRECTION_2026-10-01.json)
+preserves the verified IDs and mapping. Check current remote allocation before
+assigning future global IDs; do not infer availability from this local register.
+
+[Eight candidate cards](Research%20Article/gate2_N2_nabhan_2026/CANDIDATE_HYPOTHESES.md)
+now state biological hypotheses, evidence, rivals and discriminating outcomes.
+E1/E8 share A22's chemokine-response core; E8's tissue-specific and clinical
+branches remain open. E4 feeds A23. The other five remain explicit candidates,
+without new global IDs. No numerical outputs, figures, frozen contracts or
+claim grades changed; historical DEVELOPMENT entries retain their original IDs
+with an appended correction.
+
+## Nb3 figures, follow-up and RQs, 1 October 2026
+
+The owner requested paper-style figures, then explicitly authorized the proposed
+additional analyses and hypothesis-based RQ derivation. The [Nb3 gallery](Research%20Article/gate2_N2_nabhan_2026/FIGURES.md)
+now contains 11 new numbered figures, 300-dpi PNG and PDF/SVG exports, source
+tables and a complete atlas. Article-local versioning and the shared palette
+match sibling studies; old figures and all v1 analytical outputs are preserved.
+PDF review found one clipped S3 title, corrected in a separate layout revision.
+
+The [follow-up report](Research%20Article/gate2_N2_nabhan_2026/reports/FOLLOWUP_RESULTS.md)
+records 2,292 specifications (2,250 estimable), 832 marker contrasts, 804 paired
+model attempts and 2,972 Hallmark results. NKX21's AT2/chemokine reductions and
+wound-marker increase retain direction through tested local sensitivities.
+SLC34A2's three transition markers increase, but identity attenuation cannot be
+called absent. Paired AT2–chemokine rho drops 0.210→0.151 with depth conditioning.
+Hallmark q<0.05 entries drop 251→6 under the declared correlation sensitivity;
+no causal pathway is selected. All 416 recovery comparisons pass, followed by
+223 package checks including independent means, FWL coefficients, global BH,
+input/output hashes and exports. Raw DE was reused, not rerun.
+
+[Derived A22/A23](Research%20Article/gate2_N2_nabhan_2026/reports/RQ_DERIVATION.md)
+now have canonical cards and question-specific README/RATIONALE/PLAN files.
+They are proposed hypotheses pending retain/reject, with no claim-grade change.
+A22 concerns epithelial identity and fibroblast chemokine competence; A23
+concerns phosphate homeostasis and transition-state entry. Human S5 remains
+unresolved, technical wells do not establish biological replication, and
+functional/time/spatial/DepMap gates remain explicit. A10/A2 fits, shared RQ
+figure assets and unrelated untracked work remain untouched.
+
 **Update this before stopping work, every session.**
+
+## Nb3 execution, 1 October 2026
+
+The owner assigned **Nb3** and explicitly authorized reproduction and extensions
+in [gate2_N2_nabhan_2026](Research%20Article/gate2_N2_nabhan_2026/README.md).
+Full counts/Xenome inputs match the earlier recorded hashes; all 886 extracted
+library totals match A10. S2 resolves 856 libraries, with the expected 30 tdTomato
+references lacking guide rows. Mouse/human QC retains 850/771 libraries and 771
+paired wells. R1 imaging, S3/S6/S7 source-table reconstruction, fixed RNA panels,
+4,150 estimable technical panel contrasts and eight extension outcomes/holds
+are recorded. All 395 gene-DE fits and source comparisons finished; the Nb3
+computation verifier passes 709 checks. See the [current review](Research%20Article/gate2_N2_nabhan_2026/reports/REPRODUCTION_REVIEW.md).
+
+**Material source discrepancy:** mouse S4 logFC concordance has median Pearson
+0.9606; labeled human S5 has 0.0035. S5 contains 8,987 internal direction/numeric
+sign conflicts (S4 has zero). For five checked human targets, its direction
+lists agree with our signs in 5,253/5,254 cases; independent XML rereading matches
+2,658 human count entries. Read the [audit](Research%20Article/gate2_N2_nabhan_2026/reports/CONCORDANCE_AUDIT.md).
+Keep numeric human reproduction failed pending source code/mapping/corrected
+S5. Do not relabel to force concordance or discard the separately verified
+count-derived outputs.
+
+The [extension review](Research%20Article/gate2_N2_nabhan_2026/reports/EXTENSION_REVIEW.md)
+records lower AT2 markers/chemokines and higher wound markers for NKX21,
+modest cross-target associations, uncertain ELOVL1/ATP6V0E Wnt panels and a
+narrower SLC34A2 transition pattern. E1/E8 share one analysis. Spatial treatment/
+animal/grid reconciliation, exact cPCA/JADE settings, external author annotations
+and DepMap release/line selection remain held. No independent biological
+replication or new research-question grade is claimed.
+
+The execution contract and pre-scoring source-panel amendment are preserved;
+normalized-panel inputs were hashed before extensions while independent DE
+fits continued. Four scientific figures have PNG/PDF exports and visual QA;
+the initial scatter remains alongside its label-layout correction. Byte-preserving
+attributes and a narrow generated-PDF exception protect reproducibility.
+A10/A2 fits, other frozen artifacts, `.claude/` and the pre-existing untracked
+adversarial-audit folder remain untouched.
+
+Compilation, repository tests (52 passed, one skipped), 18 claim bindings and
+Nb1/A16 provenance checks pass. The full repository validator now reports 24
+links, all in the untouched untracked adversarial-audit file (the intake run
+earlier reported 17 there). Current Nb3 links are checked separately. The
+additional source-discrepancy audit was prompted by a concrete failed comparison,
+not an unrequested rerun of prior A10/A2 analyses.
+
+## Initial Nabhan 2026 pipeline intake, 1 October 2026
+
+The owner finished the paper, corrected the folder year to 2026 and requested
+a source-grounded pipeline using the article, supplement, Notion Result/Discussion
+notes and eight extension questions. The new
+[paper package](Research%20Article/gate2_N2_nabhan_2026/README.md) is Gate 2N item 2,
+stable roadmap paper 14. Source synthesis, prior-work map, dataset inventory,
+method extracts, draft stage graph and runnable metadata checks are complete.
+All seven supplementary datasets were recovered from the existing archive;
+the supplied supplement matches the cached hash. No upload is needed for them.
+
+The [intake record](Research%20Article/gate2_N2_nabhan_2026/reports/INTAKE.md)
+passes structural checks and reproduces the existing crosswalk counts. No new
+biological model ran. A10/A2 outputs and frozen contracts remain unchanged;
+the A10 living README now records that the source paper has been read.
+
+Next: recover/hash full counts and Xenome QC (absent at the recorded cache
+locations), resolve source statistical settings and aliases, then freeze R1/R2.
+Source reproduction precedes E1/E8 identity–fibroblast and E2 transition
+extensions. Spatial contrasts require treatment, animal and grid reconciliation;
+GEO's bleomycin fields must not be silently equated with the paper's AAV design.
+The initial untracked `.claude/` and adversarial-audit folder were preserved.
+This is planning/intake, not unseen-data preregistration or a new claim grade.
+Compilation, tests (52 passed, one skipped), provenance verifiers and 417
+changed-document link checks passed. Full-repository validation reports only
+17 pre-existing links in the untouched untracked adversarial-audit folder.
 
 ## PR #123 delivery and one-line questions, 30 September 2026
 
@@ -2878,3 +3045,10 @@ cohorts.
   `analysis/scripts/05_write_pipeline_as_run.py` and re-run, never the `.md`.
 - The tool reference pages under `docs/` are deliberately preserved; they
   describe the published method, not what ran here.
+
+Final Nb3 delivery checks: 912 local links across 31 changed/new Markdown files,
+new-script syntax, layout hashes and pipeline JSON pass. The 11 PDF pages were
+visually reviewed; the corrected S3 page was re-rendered and inspected. Raw
+scientific results and prior figure versions remain preserved. Verification
+records are in the Nb3 reports directory; the known unrelated full-repository
+link failures were not rerun or altered.

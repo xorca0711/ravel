@@ -1,5 +1,7 @@
 # A8: does a maturation component add information about mature AT1 contribution?
 
+**Conditional candidates reviewed 1 October 2026:** [Nb3 and England maturation branches](RELATED_CANDIDATES_2026-10-01.md) retain the missing predictor-to-outcome linkage as a gate.
+
 <a id="biological-question"></a>
 
 ## Organizing biological question

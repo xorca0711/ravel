@@ -65,3 +65,7 @@ question folder, and a new render belongs in a fresh output directory with its
 own run record, never in place of a curated asset. It also does not grade:
 several figures above accompany results the register holds as descriptive or
 unresolved, and the captions carry those limits.
+
+## Nb3-derived questions, 1 October 2026
+
+A22 and A23 have rationale/test plans and no new question-specific data figures. Their completed source-screen evidence remains in the [Nb3 gallery](../Research%20Article/gate2_N2_nabhan_2026/FIGURES.md), with 12 paper-style figures and source tables. No duplicate image assets or claim grades are created here.

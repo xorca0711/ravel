@@ -1,0 +1,27 @@
+{
+  "analysis_id": "Nb3_R2",
+  "config_sha256": "f6aed37cbe4ebc2d5e45fe60d53ea0e52cdaca8388eef840423b0a0455ed91d2",
+  "script_sha256": "8a5a64d12a855f015a2e77a2a97c89ee69871266530376dff3258cf366597c12",
+  "input_sha256": "60736e5c153a4fb92908f19148ebb5ef2b59f7ade97fb1056deee7d0205acc33",
+  "archived_A10_totals_exact_match": true,
+  "species": {
+    "mouse": {
+      "genes": 52636,
+      "libraries": 886,
+      "matrix_format": "little-endian int32, gene-major",
+      "matrix_sha256": "cc4fed4dc3071cbab69e09f72ede6c1a71988736490ff9d5d03ffea5af8a6e57",
+      "seconds": 87.17
+    },
+    "human": {
+      "genes": 58302,
+      "libraries": 886,
+      "matrix_format": "little-endian int32, gene-major",
+      "matrix_sha256": "83853e136cf64fc3a2b8a99642170ff8e1bce06688f9faad332a7123445046a2",
+      "seconds": 96.59
+    }
+  },
+  "source_qc_pass": {
+    "human": 771,
+    "mouse": 850
+  }
+}

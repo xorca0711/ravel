@@ -1,0 +1,1598 @@
+[
+  {
+    "GSM": "GSM9194404",
+    "title": [
+      "RNA seq of Epithelial cells treated with EGFR siRNA and cytokine_1"
+    ],
+    "geo_accession": [
+      "GSM9194404"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: EGFR siRNA and cytokine",
+      "replication: 1"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: 1si_Cyto_3"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750216",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201927"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194404/suppl/GSM9194404_1si_Cyto_3_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194405",
+    "title": [
+      "RNA seq of Epithelial cells treated with EGFR siRNA and cytokine_2"
+    ],
+    "geo_accession": [
+      "GSM9194405"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: EGFR siRNA and cytokine",
+      "replication: 2"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: 1si_Cyto_4"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750215",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201928"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194405/suppl/GSM9194405_1si_Cyto_4_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194406",
+    "title": [
+      "RNA seq of Epithelial cells treated with EGFR siRNA and irradiation_1"
+    ],
+    "geo_accession": [
+      "GSM9194406"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: EGFR siRNA and irradiation",
+      "replication: 1"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: 1si_IR_3"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750214",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201929"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194406/suppl/GSM9194406_1si_IR_3_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194407",
+    "title": [
+      "RNA seq of Epithelial cells treated with EGFR siRNA and irradiation_2"
+    ],
+    "geo_accession": [
+      "GSM9194407"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: EGFR siRNA and irradiation",
+      "replication: 2"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: 1si_IR_4"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750213",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201930"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194407/suppl/GSM9194407_1si_IR_4_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194408",
+    "title": [
+      "RNA seq of Epithelial celsl treated with Erbb3 siRNA and cytokine_1"
+    ],
+    "geo_accession": [
+      "GSM9194408"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: Erbb3 siRNA and cytokine",
+      "replication: 1"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: 3si_Cyto_3"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750212",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201931"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194408/suppl/GSM9194408_3si_Cyto_3_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194409",
+    "title": [
+      "RNA seq of Epithelial cells treated with Erbb3 siRNA and cytokine_2"
+    ],
+    "geo_accession": [
+      "GSM9194409"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: Erbb3 siRNA and cytokine",
+      "replication: 2"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: 3si_Cyto_4"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750211",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201932"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194409/suppl/GSM9194409_3si_Cyto_4_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194410",
+    "title": [
+      "RNA seq of Epithelial cells treated with Erbb3 siRNA and irradiation_1"
+    ],
+    "geo_accession": [
+      "GSM9194410"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: Erbb3 siRNA and irradiation",
+      "replication: 1"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: 3si_IR_3"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750210",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201933"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194410/suppl/GSM9194410_3si_IR_3_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194411",
+    "title": [
+      "RNA seq of Epithelial cells treated with Erbb3 siRNA and irradiation_2"
+    ],
+    "geo_accession": [
+      "GSM9194411"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: Erbb3 siRNA and irradiation",
+      "replication: 2"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: 3si_IR_4"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750209",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201934"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194411/suppl/GSM9194411_3si_IR_4_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194412",
+    "title": [
+      "RNA seq of Epithelial cells treated with control siRNA and cytokine_1"
+    ],
+    "geo_accession": [
+      "GSM9194412"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: control siRNA and cytokine",
+      "replication: 1"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: Consi_Cyto_3"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750208",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201935"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194412/suppl/GSM9194412_Consi_Cyto_3_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194413",
+    "title": [
+      "RNA seq of Epithelial cells treated with control siRNA and cytokine_2"
+    ],
+    "geo_accession": [
+      "GSM9194413"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: control siRNA and cytokine",
+      "replication: 2"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: Consi_Cyto_4"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750207",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201936"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194413/suppl/GSM9194413_Consi_Cyto_4_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194414",
+    "title": [
+      "RNA seq of Epithelial cells treated with control siRNA and irradiation_1"
+    ],
+    "geo_accession": [
+      "GSM9194414"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: control siRNA and irradiation",
+      "replication: 1"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: Consi_IR_3"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750206",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201937"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194414/suppl/GSM9194414_Consi_IR_3_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194415",
+    "title": [
+      "RNA seq of Epithelial cells treated with control siRNA and irradiation_2"
+    ],
+    "geo_accession": [
+      "GSM9194415"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: control siRNA and irradiation",
+      "replication: 2"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: Consi_IR_4"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750205",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201938"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194415/suppl/GSM9194415_Consi_IR_4_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194416",
+    "title": [
+      "RNA seq of Epithelial cells treated with control siRNA (Control)_1"
+    ],
+    "geo_accession": [
+      "GSM9194416"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: control siRNA (Control)",
+      "replication: 1"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: Consi_NoIR_3"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750204",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201939"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194416/suppl/GSM9194416_Consi_NoIR_3_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  {
+    "GSM": "GSM9194417",
+    "title": [
+      "RNA seq of Epithelial cells treated with control siRNA (Control)_2"
+    ],
+    "geo_accession": [
+      "GSM9194417"
+    ],
+    "status": [
+      "Public on Sep 02 2025"
+    ],
+    "submission_date": [
+      "Aug 22 2025"
+    ],
+    "last_update_date": [
+      "Sep 02 2025"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "lung epithelial cell"
+    ],
+    "organism_ch1": [
+      "Homo sapiens"
+    ],
+    "taxid_ch1": [
+      "9606"
+    ],
+    "characteristics_ch1": [
+      "cell type: lung epithelial cell",
+      "treatment: control siRNA (Control)",
+      "replication: 2"
+    ],
+    "treatment_protocol_ch1": [
+      "The mice were subjected to restraint using 50 mL tubes for 3 hours every 4 days."
+    ],
+    "growth_protocol_ch1": [
+      "Mice were maintained on a 12-hour light/dark cycle and allowed free access to food and water."
+    ],
+    "molecule_ch1": [
+      "polyA RNA"
+    ],
+    "extract_protocol_ch1": [
+      "Total RNA was extracted from the cells with the use of an RNeasy Mini Kit (Qiagen) .",
+      "RNA libraries were prepared for sequencing using standard Illumina protocols."
+    ],
+    "description": [
+      "Library name: Consi_NoIR_4"
+    ],
+    "data_processing": [
+      "Illumina bcl2fastq2-v2.20.0 software used for basecalling.",
+      "Trimmomatic program is used to remove adapter sequences and bases with base quality lower than three from the ends. Also using sliding window method, bases of reads that does not qualify for window size 4, and mean quality 15 are trimmed. Afterwards, reads with length shorter than 36bp are dropped to produce trimmed data.",
+      "Sequenced reads were mapped to GRCh38 (hg38) whole genome by using HISAT2 version 2.1.0 with parameter -p 20 -dta --rna-strandness RF --novel-splicesite-outfile -x -1 -2",
+      "Fragment Per Kilobase of exon per Megabase of library size (FPKM) were calculated by using StringTie version 2.1.3b, with parameter --rf -p 20 -l -o -G -A -C -e",
+      "Assembly: GRCh38 (hg38)",
+      "Supplementary files format and content: Read count values for each Sample"
+    ],
+    "platform_id": [
+      "GPL24676"
+    ],
+    "contact_name": [
+      "Yoon-Jin,,Lee"
+    ],
+    "contact_email": [
+      "yoonjin8@hanmail.net"
+    ],
+    "contact_phone": [
+      "010-3015-3616"
+    ],
+    "contact_institute": [
+      "Korea Institute of Radiological & Medical Sciences"
+    ],
+    "contact_address": [
+      "Nowon GU"
+    ],
+    "contact_city": [
+      "Seoul"
+    ],
+    "contact_zip/postal_code": [
+      "01812"
+    ],
+    "contact_country": [
+      "South Korea"
+    ],
+    "instrument_model": [
+      "Illumina NovaSeq 6000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN50750203",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX30201940"
+    ],
+    "supplementary_file_1": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9194nnn/GSM9194417/suppl/GSM9194417_Consi_NoIR_4_gene.xlsx"
+    ],
+    "series_id": [
+      "GSE306184"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  }
+]

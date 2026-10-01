@@ -1,0 +1,177 @@
+{
+  "schema": "nabhan-2026-source-manifest/v1",
+  "date": "2026-10-01",
+  "path_base": "repository root",
+  "text_hash_policy": "lf normalizes CRLF to LF for tracked text across operating systems",
+  "files": [
+    {
+      "id": "article_pdf",
+      "path": "raw_data/nabhan_2026_sources/Nabhan-2026-Mapping-the-dialogue-decoding-alveo.pdf",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "a2c3784e946bbae823b8b7634da969ead72eea31dfcb230e56676be47f934b47",
+      "role": "source"
+    },
+    {
+      "id": "supplement_pdf",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sapp.pdf",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "71cc465ddf61a3c605868e8d57a8ef665537ee8b9d64ef9acfdb2469d6a423e9",
+      "role": "source"
+    },
+    {
+      "id": "notion_result",
+      "path": "raw_data/nabhan_2026_sources/notion_result.txt",
+      "required_for_scaffold": false,
+      "hash_mode": "lf",
+      "sha256": "40e6287ea020edd47bd8c791df4644718c527c74c691d7ff30dccd7eecc3645d",
+      "role": "private owner annotation snapshot"
+    },
+    {
+      "id": "notion_discussion",
+      "path": "raw_data/nabhan_2026_sources/notion_discussion.txt",
+      "required_for_scaffold": false,
+      "hash_mode": "lf",
+      "sha256": "c49c4926b825e1aac3e4e9af2c24ec10dbb0aa6ed5449cf092ce4ca60acd40e4",
+      "role": "private owner annotation snapshot"
+    },
+    {
+      "id": "P1_crosswalk",
+      "path": "docs/roadmap_runs/2026-09-27/P1_library_crosswalk.tsv",
+      "required_for_scaffold": true,
+      "hash_mode": "lf",
+      "sha256": "2bee555839f3edf731386f5b8480b1a85eff1a7477abff1f5d2c1e99d4c390bd",
+      "role": "source"
+    },
+    {
+      "id": "P1_design",
+      "path": "docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md",
+      "required_for_scaffold": true,
+      "hash_mode": "lf",
+      "sha256": "90ca0e526e3240d685de2a23d6e5bffaf69b3b77325311b9bc7a37d9002418c5",
+      "role": "source"
+    },
+    {
+      "id": "P1_source_recovery",
+      "path": "docs/roadmap_runs/2026-09-27/P1_source_recovery.json",
+      "required_for_scaffold": true,
+      "hash_mode": "lf",
+      "sha256": "217679d31c27e471c0580442d7d41427a7a4b5fa83b4347be5b31fca122e67e1",
+      "role": "source"
+    },
+    {
+      "id": "A10_extract_record",
+      "path": "RQ_Specified/A10_organoid_growth_outcome/tables/extract_run.json",
+      "required_for_scaffold": true,
+      "hash_mode": "lf",
+      "sha256": "2dfae53dfb7d3792cd83cd20caf505c41aac2e10bb29b618b8dd0081efc07bc5",
+      "role": "source"
+    },
+    {
+      "id": "A10_followup_record",
+      "path": "RQ_Specified/A10_organoid_growth_outcome/tables/followup_v1/model_run.json",
+      "required_for_scaffold": true,
+      "hash_mode": "lf",
+      "sha256": "0ac7d4db7a25c022a7dd15822df62c1fd718ee14e8bff63b64b9e6808d4718ec",
+      "role": "source"
+    },
+    {
+      "id": "plate_design",
+      "path": "docs/roadmap_runs/2026-09-27/inputs/GSE307112_plate_design.csv.gz",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "8f6950e6286ed438748bfcb12077e683abe74aa525678096f9ad9bea282b8ad1",
+      "role": "source"
+    },
+    {
+      "id": "imaging",
+      "path": "docs/roadmap_runs/2026-09-27/inputs/GSE307112_imaging_outputs.csv.gz",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "50ab337c916e0bd195c0fc387067fe0ee138683537e738c23f90ad97ef99d215",
+      "role": "source"
+    },
+    {
+      "id": "full_counts",
+      "path": "RQ_Specified/A10_organoid_growth_outcome/cache/GSE307112_gene_counts.xlsx",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "60736e5c153a4fb92908f19148ebb5ef2b59f7ade97fb1056deee7d0205acc33",
+      "role": "missing at historical cache path; required for R2"
+    },
+    {
+      "id": "xenome_qc",
+      "path": "RQ_Specified/A10_organoid_growth_outcome/cache/GSE307112_xenome_stats.csv.gz",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "045b9da623db54a59948f1e8e6b68c1587fa4786a6838a51a890dfe59064edf5",
+      "role": "missing at historical cache path; required for R2"
+    },
+    {
+      "id": "dataset_S1",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd01.xlsx",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "a4f61e5b2bee10c7ddebc1fb044de64fd35d8145a4d189ba10e354683f309622",
+      "role": "source"
+    },
+    {
+      "id": "dataset_S2",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd02.xlsx",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "59b69b5db53139f9b75183b91739e7b22d3666ac1df728028461548bd0ff399e",
+      "role": "source"
+    },
+    {
+      "id": "dataset_S3",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd03.xlsx",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "90eeb3c416a68049b90ca7fd1e54c3893f3fdf103c089a5317024f57aaf76397",
+      "role": "source"
+    },
+    {
+      "id": "dataset_S4",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd04.xlsx",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "cf3fecea4dacc5984daab188d0e2bdd5abe25652d39ba0c603093b5f05677f1a",
+      "role": "source"
+    },
+    {
+      "id": "dataset_S5",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd05.xlsx",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "7dbc8aae4ec0ab7ee549e741ddbabf285797230dcb5ea7afe57c6488be5bedbc",
+      "role": "source"
+    },
+    {
+      "id": "dataset_S6",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd06.csv",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "ca8f13a72e7c5b5d2fc32e2e3fd0cb1a7f51c806647d42c5c2f6950ece28bca4",
+      "role": "source"
+    },
+    {
+      "id": "dataset_S7",
+      "path": "raw_data/nabhan_2026_sources/pnas.2606113123.sd07.xlsx",
+      "required_for_scaffold": false,
+      "hash_mode": "bytes",
+      "sha256": "26d5355828de2cacc297743cea0098fba3d47595d83c3a6c251825820bff8954",
+      "role": "source"
+    }
+  ],
+  "crosswalk": "docs/roadmap_runs/2026-09-27/P1_library_crosswalk.tsv",
+  "expected_crosswalk": {
+    "libraries": 886,
+    "targets": 203,
+    "plates": 4,
+    "rna_repeat_groups": 15,
+    "paired_imaging_wells": 885,
+    "resolved_animal_ids": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "change": "Shortened S03 titles after full-page PDF inspection found right-edge clipping. No numerical, axis, selection or inference change; prior exports and initial atlas retained.",
+  "implementation_history": "Initial atlas-selection assertion stopped before writing the atlas/record: Windows case-insensitive glob also selected atlas PDFs. Restricted to numbered figure names; draft exports preserved in ignored tmp.",
+  "script_sha256": "6d8e55e47cbc32e4ab9aa553dc83c4f8b75b1283ebb7ab52c7abadd5250ae8ca",
+  "helper_sha256": "7e3916c5fa71c1e1001722964420fe315fdcc50dc9b26bb522584f083ca7aef0",
+  "palette_sha256": "41c8f85365b1a8343b1f223d22fe69a1285f630fd739b9585e15d48a9b52dd4a",
+  "source_data": {
+    "figures/publication_v1/source_data/S03_depth_diagnostics.tsv": "957559663b0f86ed00c6882dd035de9dbcce2a2b9c7acb9d30425c67b4844745",
+    "figures/publication_v1/source_data/S03_leave_target_out.tsv": "df0ada3dce6e926435a1c2663ea811e29876bc1561668ba2492bef8b71aca3c4",
+    "figures/publication_v1/source_data/S03_associations.tsv": "c32a58e9ae862bbfabe8f125293b87eda7261dce3b01841a74e74eba7be4032f"
+  },
+  "title_bounds": "PASS",
+  "atlas_pages": 11,
+  "outputs": {
+    "figures/publication_v1/S03_layout_v2/Nb3_S03_depth_and_influence.pdf": "3ce58f4f188636acb0a5ec135139e2740456ec39a25e61d6dcd46dbdbceaa168",
+    "figures/publication_v1/S03_layout_v2/Nb3_S03_depth_and_influence.png": "41a9eff8712a36aa6e0b0b3cc83f3e84b9e9a592fce50af47c63256cdfaf3514",
+    "figures/publication_v1/S03_layout_v2/Nb3_S03_depth_and_influence.svg": "590d2156c65f71c417525ef9e768ee650a0543e4affab894a98553bb0fd3133d",
+    "figures/Nb3_complete_figure_atlas_v2.pdf": "70e8bf34c9a114cece5dc4008875bf5f53d440e2b1216dede04a1f758a9d934c"
+  },
+  "atlas_input_PDFs": {
+    "figures/publication_v1/Nb3_F01_imaging.pdf": "016a65f599db017f591dde389d544c760c0a686a9850942af243dd35d0bfe2e8",
+    "figures/publication_v1/Nb3_F02_source_concordance.pdf": "d5204d02304339f7c2e63d6249f42a63f7e32b55e8ce0d06ee8cd6cc35331dda",
+    "figures/publication_v1/Nb3_F03_fixed_panels.pdf": "0f7e84fc4d70d93f1b32ed15f82fbb0f6a9e1c75982612fb53918c038541c1f0",
+    "figures/publication_v1/Nb3_F04_paired_niche.pdf": "0cbc17d225db8b98e4d6f13f338912d8b09905760df49a9b38130bced3bdffc5",
+    "figures/publication_v1/Nb3_F05_candidate_patterns.pdf": "0ddd63c757cfb7e510edf68c8b217f3a1bfa1f66161109a4dc1f859f58def8f6",
+    "figures/publication_v1/Nb3_F06_receptor_context.pdf": "32586e1b93c8bdab9f8753dc4dce6f71310a22a2afa1f77f2d62ce8f6a3a9d5f",
+    "figures/followup_v1/Nb3_F07_followup_sensitivity.pdf": "29f7d14fd62a3a2efc006496772ca1ea79e656d4cdd1fde84b3ab4a7181d527c",
+    "figures/followup_v1/Nb3_F08_hallmark_context.pdf": "e6688171b06577232987ce03fb37e1e70881fc5e0f71752b6a0c97ca344f6088",
+    "figures/publication_v1/Nb3_S01_QC_and_scaling.pdf": "7ace542507deb3ef349b5f1f7e027fc07eb7368eeea56227fb9461f5598235fa",
+    "figures/publication_v1/Nb3_S02_source_components_and_budding.pdf": "99306720f1563cd207d0fe274a8c4ed2f8061644777b958d34041758b765d9e6",
+    "figures/publication_v1/S03_layout_v2/Nb3_S03_depth_and_influence.pdf": "3ce58f4f188636acb0a5ec135139e2740456ec39a25e61d6dcd46dbdbceaa168"
+  }
+}

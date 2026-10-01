@@ -125,11 +125,16 @@ an animal, and the deposit does not say how many independent preparations there 
 | `tables/` | Stage outputs and run records |
 | `cache/` | Local metadata/count intermediates; ignored, hashes tracked |
 
-## Two things a later session must not do
+## Current source-paper handoff, 1 October 2026
 
-- **Do not write a study note on the source paper.** Its reading by the owner is
-  recorded as not started, and an earlier session's note for an unread paper was
-  rejected (DEVELOPMENT decision 21). This work uses the deposit, not the paper.
+The owner has now finished reading Nabhan 2026. Its
+[paper package](../../Research%20Article/gate2_N2_nabhan_2026/README.md) contains
+the source/annotation synthesis and reproduction-first extension plan. The
+earlier unread-paper restriction is superseded for that new package. Historical
+reading-status fields in frozen A10 configurations remain unchanged.
+
+## Rule retained for later sessions
+
 - **Do not split wells at random for evaluation.** Wells may share preparation and
   handling. Completed holdouts are entire deposited plate-replicate groups;
   whether those groups are independent preparations is unresolved.

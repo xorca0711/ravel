@@ -121,3 +121,7 @@ RQ_Specified/**/tables/cd44_closure/counts_input.tsv.gz
 !RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/figures/*.pdf
 !RQ_Specified/A21_fzd4_capillary_function/figures/*.pdf
 !RQ_Specified/A21_fzd4_capillary_function/extensions/extension_v1/figures/*.pdf
+
+# Nb3 generated scientific figure exports; source article PDFs remain ignored.
+!Research Article/gate2_N2_nabhan_2026/figures/*.pdf
+!Research Article/gate2_N2_nabhan_2026/figures/**/*.pdf

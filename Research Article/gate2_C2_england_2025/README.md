@@ -22,6 +22,7 @@ evidence review below gives the current interpretation.
 
 | To understand | Read |
 |---|---|
+| How later analyses revise existing questions | [Chronological RQ review and conditional candidates](RQ_RETROSPECTIVE_REVIEW.md) |
 | What the paper claims, what we recovered, and what remains unresolved | [Claims and evidence review](EVIDENCE_REVIEW.md) |
 | The generated plots, their units, tables and current captions | [Complete figure gallery: 15 figures](FIGURES.md) |
 | What each execution stage produced | [Analysis stages](#analysis-stages) |

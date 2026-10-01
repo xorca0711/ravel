@@ -6,6 +6,7 @@
 |---|---|
 | Paper context and biological question | [Study context](#study-context); [source atlas, methods and evidence](#source-context) |
 | Analysis results, claims and limitations | [S1–S5 outcomes](ANALYSIS_TRIAL_PLAN.md); [what reference mapping can establish](PIPELINE_FRAMING.md) |
+| How later analyses change earlier RQ framing | [Chronological review and RQ disposition](RQ_RETROSPECTIVE_REVIEW.md) |
 | Figures and captions | [Reference mapping, annotation and QC](#figure-gallery) |
 | Registered claim decisions and shared questions | [Claim register](../../CLAIMS.md); [question register](../../RESEARCH_QUESTIONS.md) |
 

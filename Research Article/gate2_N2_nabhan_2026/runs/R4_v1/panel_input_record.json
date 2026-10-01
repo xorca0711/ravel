@@ -1,0 +1,15 @@
+{
+  "analysis_id": "Nb3_R4",
+  "dependency_phase": "both species normalization and fixed panels complete; full DE may continue independently",
+  "config_sha256": "f6aed37cbe4ebc2d5e45fe60d53ea0e52cdaca8388eef840423b0a0455ed91d2",
+  "input_sha256": {
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_normalization.tsv": "31c547f1175ef89c717019666297885a994ba9a757a5f915ae3e728f254a98e1",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_panel_scores.tsv": "81ce02adcb9ca80ce61df586ccc3b8fcc4bb1d9f2d95c1ccf504a659d381896c",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_panel_eligibility.tsv": "a883da7c64751eef5aed3f7da293d92e643aeb68c0f0acaa376cbb99b14cd70b",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_normalization.tsv": "5618418154b2ed371467050edee1b917d8e8e211df704eff0e10ac0a8439886e",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_panel_scores.tsv": "8fd4be1226a7b792aa2a07eb2b12af9ab15e2fcb44cb0368676afe2708d38c31",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_panel_eligibility.tsv": "9cb326457eb0822e0b0dc84fb3e927384314eaa28ad8c51414c9ffea357eda42",
+    "raw_data/GSE307112/Nb3_v1/mouse_selected_symbol_cpm.tsv": "939888211ce40c49ce005e4e4c6b61248b596c43519af6178cfe97aa2aacc2d7",
+    "raw_data/GSE307112/Nb3_v1/human_selected_symbol_cpm.tsv": "c25243b14b77131ad5fe7d10ce2fbfc804785dd5750320a0da4715fe9c887876"
+  }
+}

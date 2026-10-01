@@ -1,0 +1,96 @@
+{
+  "analysis_id": "Nb3_R3",
+  "status": "partial_source_reconstruction",
+  "script_sha256": "2e5dc791db9e832977d8f6f6f8824c9952546248115a09b1c1696626e1acc3c9",
+  "source_sha256": {
+    "S6": "ca8f13a72e7c5b5d2fc32e2e3fd0cb1a7f51c806647d42c5c2f6950ece28bca4",
+    "S7": "26d5355828de2cacc297743cea0098fba3d47595d83c3a6c251825820bff8954"
+  },
+  "activity_targets": 200,
+  "components": [
+    {
+      "component": "ICA_01",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_02",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_03",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_04",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_05",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_06",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_07",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_08",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_09",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_10",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_11",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_12",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_13",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_14",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_15",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_16",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_17",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_18",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_19",
+      "genes": 10589
+    },
+    {
+      "component": "ICA_20",
+      "genes": 10589
+    }
+  ],
+  "target_alias_rule": "uppercase and remove punctuation for unambiguous exact crosswalk match; preserve deposited names",
+  "cpca_status": "held: source alpha/implementation settings unresolved",
+  "fresh_JADE_status": "held: source input settings and exact implementation unresolved",
+  "interpretation": "Deposited component identities; source-table reconstruction, not independently refitted components or validation"
+}

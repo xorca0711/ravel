@@ -1,0 +1,38 @@
+{
+  "analysis_id": "Nb3_R2",
+  "timing": "Post-hoc audit triggered by near-zero labeled S5 concordance; not a new biological endpoint",
+  "script_sha256": "7122a5c31c9987e90ccbf5281e9478aa11f15ec95d127fa17df05c9c42cf7c53",
+  "source_summary": [
+    {
+      "species": "mouse",
+      "source_sha256": "cf3fecea4dacc5984daab188d0e2bdd5abe25652d39ba0c603093b5f05677f1a",
+      "listed_direction_pairs": 12897,
+      "direction_matches": 12897,
+      "direction_conflicts": 0,
+      "missing_numeric": 0,
+      "summary_count_mismatches": 0,
+      "gene_rows": 5136
+    },
+    {
+      "species": "human",
+      "source_sha256": "7dbc8aae4ec0ab7ee549e741ddbabf285797230dcb5ea7afe57c6488be5bedbc",
+      "listed_direction_pairs": 18976,
+      "direction_matches": 9989,
+      "direction_conflicts": 8987,
+      "missing_numeric": 0,
+      "summary_count_mismatches": 0,
+      "gene_rows": 7195
+    }
+  ],
+  "independent_count_entries_checked": 2658,
+  "implementation_history": "Initial count spot-check selection stopped before writing outputs because RGS5 also labels an antisense feature; corrected to the three exact S5 stable IDs, without altering extraction or any endpoint",
+  "interpretation": "Retain original labels and both results. Internal source-table conflicts do not establish how the source table was produced; request source mapping/code before treating human DE as reproduced.",
+  "relabeling_or_endpoint_refitting": false,
+  "output_sha256": {
+    "independent_count_checks.tsv": "ca3e48e084a47e67769b7af69ad62d9082b8f374e1c26d58f3cd3f49684102ee",
+    "source_direction_conflicts.tsv": "075a973f22c56a5abe9d5471625580aef7d4de09ef8f95bf1a7a9db1f3af25ac",
+    "source_internal_consistency.tsv": "6a49a6fb0e171b2451684285d7b6d9aa8e4918ba7b20cc8a516305236ce58948",
+    "source_summary_vs_reconstructed_signs.tsv": "8fbaeeb0313595dcab54b787f98062650f5f81dd5320746f72232337efab4d8e",
+    "target_swap_diagnostic.tsv": "fc13a68b670cf5cc4b643fe0f6e5e2115fdef7b2388770771c384cbad31051f2"
+  }
+}

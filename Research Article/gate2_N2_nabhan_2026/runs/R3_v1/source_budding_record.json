@@ -1,0 +1,18 @@
+{
+  "analysis_id": "Nb3_R3",
+  "source_sha256": "90eeb3c416a68049b90ca7fd1e54c3893f3fdf103c089a5317024f57aaf76397",
+  "script_sha256": "58c50c555681e57743c3bc97f9cb3a5ae0247c35c2ae1e0e535727d59153e364",
+  "source_dimensions": [
+    {
+      "comparison": "buddingmorpho_vs_TigitTdTom",
+      "source_gene_rows": 47246
+    },
+    {
+      "comparison": "buddingmorpho_vs_othersWithIm",
+      "source_gene_rows": 47246
+    }
+  ],
+  "selected_marker_rows": 62,
+  "interpretation": "Published S3 contrasts and statistics, not newly fitted budding labels or independent marker validation",
+  "unavailable": "Original image embeddings and exact source morphology assignments are not reconstructed"
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-01",
+  "reason": "Owner identified collision with A19-A21 already deposited on main; stale local HEAD was used for initial allocation",
+  "verified_remote_main": "f61343cc16c83e979b071393adccdcf8084ea294",
+  "local_HEAD": "33b27cf1f03da706ee987f3fd00b7127eaaff79e",
+  "main_existing_questions": {
+    "A19": "Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?",
+    "A20": "Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?",
+    "A21": "Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?"
+  },
+  "mapping": {
+    "Nb3 epithelial identity / fibroblast chemokine response": "A19 -> A22",
+    "Nb3 SLC34A2 / transition homeostasis": "A20 -> A23"
+  },
+  "new_folders": [
+    "RQ_Specified/A22_epithelial_identity_niche_response",
+    "RQ_Specified/A23_slc34a2_transition_homeostasis"
+  ],
+  "updated_files": [
+    "RESEARCH_QUESTIONS.md",
+    "RQ_Specified/README.md",
+    "RQ_Specified/FIGURES.md",
+    "AI_CONTEXT.md",
+    "PROGRESS.md",
+    "Research Article/README.md",
+    "Research Article/ROADMAP.json",
+    "Research Article/gate2_N2_nabhan_2026/README.md",
+    "Research Article/gate2_N2_nabhan_2026/EXECUTION.md",
+    "Research Article/gate2_N2_nabhan_2026/reports/RQ_DERIVATION.md",
+    "Research Article/gate2_N2_nabhan_2026/config/pipeline.json",
+    "RQ_Specified/A22_epithelial_identity_niche_response/PLAN.md",
+    "RQ_Specified/A22_epithelial_identity_niche_response/RATIONALE.md",
+    "RQ_Specified/A22_epithelial_identity_niche_response/README.md",
+    "RQ_Specified/A23_slc34a2_transition_homeostasis/PLAN.md",
+    "RQ_Specified/A23_slc34a2_transition_homeostasis/RATIONALE.md",
+    "RQ_Specified/A23_slc34a2_transition_homeostasis/README.md"
+  ],
+  "preservation": "No numerical runs, figures, frozen contracts or main-branch question content changed. Historical DEVELOPMENT row retained with appended correction; unrelated historical England A19-A26 non-assignment statements retained.",
+  "verification": {
+    "status": "PASS",
+    "record": "docs/audits/2026-10-01-cross-article-rq-review/verification.json",
+    "unique_new_anchors": true,
+    "old_folders_absent": true,
+    "main_A19_A20_A21_preserved": true,
+    "original_atlas_unchanged": true
+  }
+}

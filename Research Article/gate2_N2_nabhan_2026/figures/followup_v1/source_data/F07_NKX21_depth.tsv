@@ -1,0 +1,5 @@
+species	program	variant	target	target_wells	control_wells	plates	residual_df	status	effect	se	ci_low	ci_high
+mouse	AT2_figure3	paired_baseline	NKX21	4	27	plate1	29	technical_descriptive	-2.09438508237	0.115437247524	-2.33048076281	-1.85828940193
+mouse	AT2_figure3	paired_depth	NKX21	4	27	plate1	27	technical_descriptive	-1.83678723071	0.186200878187	-2.21883987477	-1.45473458665
+human	chemokines_figure4	paired_baseline	NKX21	4	27	plate1	29	technical_descriptive	-3.35697831181	0.295389082579	-3.96111681946	-2.75283980416
+human	chemokines_figure4	paired_depth	NKX21	4	27	plate1	27	technical_descriptive	-3.23842180128	0.659965111473	-4.59255835681	-1.88428524574

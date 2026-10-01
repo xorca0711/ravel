@@ -1,0 +1,255 @@
+{
+  "series": "GSE215824",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE215nnn/GSE215824/soft/GSE215824_family.soft.gz",
+  "sha256": "e9d264814bbb0d17c3ecf0d38d28a3d4c487b3f48de2e57267361252c4ead6ad",
+  "bytes": 3093,
+  "series_metadata": [
+    "!Series_title = Alveolar epithelial progenitor cells drive lung regeneration via dynamic changes in chromatin topology modulated by lineage-specific Nkx2-1 activity",
+    "!Series_pubmed_id = 38114516",
+    "!Series_summary = Lung epithelial regeneration after acute injury requires coordination of complex cellular and molecular processes required for progenitor proliferation and differentiation of specialized alveolar cells to pattern the morphologically complex alveolar gas exchange surface. During regeneration, specialized Wnt-responsive alveolar epithelial progenitor (AEP) subset of alveolar type 2 (AT2) cells transition to alveolar type 1 (AT1) cells through specialized progenitor states, though the precise molecular and epigenetic determinants of these processes remain unclear. Here, we report a refined primary murine alveolar organoid assay which recapitulates critical aspects of in vivo regeneration, providing a tractable model to dissect these key regenerative processes. Clonal expansion of single AEPs generated complex alveolar organoids with extensive structural maturation and organization. These organoids contain properly patterned AT1 and AT2 cells surrounding numerous alveolar-like cavities with minimal structural contribution from mesenchymal cells, implying extensive cell autonomous regenerative function encoded in adult AEPs. Leveraging a time series of paired scRNAseq and scATACseq analysis, we identified the AEP state at single cell resolution and defined two distinct AEP to AT1 intermediate states: a widely reported transitional state defined by cell stress markers and a second state defined by differential activation of signaling pathways mediating AT1 cell differentiation. Transcriptional regulatory network (TRN) analysis demonstrates that these AT1 transition states are driven by distinct regulatory networks controlled in part by differential activity of the lung master regulatory factor Nkx2-1. Genetic ablation of Nkx2-1 in AEP-derived organoids is sufficient to cause irreversible transition to a proliferative stressed transitional state characterized by disorganized, uncontrolled growth. Finally, AEP-specific deletion of Nkx2-1 in adult mice leads to rapid loss of AEP state, clonal expansion, and disorganization of alveolar structure, implying a continuous requirement for Nkx2-1 in maintenance and function of adult lung progenitors.  Together, these data provide new insight into lineage hierarchies in lung regeneration and implicate dynamic epigenetic maintenance via lineage transcription factors as central to control of facultative progenitor activity in AEPs.",
+    "!Series_overall_design = Lung alveolar epithelial progenitor derived organoids were digested into a single cell suspension and analyzed by scRNAseq. Nuclei were prepared from this single cell suspension for separate analysis by scATACseq",
+    "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE215nnn/GSE215824/suppl/GSE215824_RAW.tar",
+    "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE215nnn/GSE215824/suppl/GSE215824_d14_d21_d28_combined_ATAC.rds.gz"
+  ],
+  "samples": [
+    {
+      "gsm": "GSM6642024",
+      "title": [
+        "Day 14 wild type AEP organoid RNAseq"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "time: Day 14",
+        "cell type: AEP organoid",
+        "genotype: wild type"
+      ],
+      "data_processing": [
+        "Cellranger pipeline from 10x genomics used for alignment",
+        "RNA alignment to spliced/nonspliced genome via Velocyto",
+        "RNA analysis in Seurat for clustering and differential gene expression",
+        "ATAC analysis in ArchR for clustering and analysis"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN31289115",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17897202"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642024/suppl/GSM6642024_10X-Zacharias-Day-14-Ax2-202000804-3v3-1mm.loom.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642024/suppl/GSM6642024_10X-Zacharias-Day-14-Ax2-202000804-3v3-1mm_processed_singlets.rds.gz"
+      ]
+    },
+    {
+      "gsm": "GSM6642025",
+      "title": [
+        "Day 21 wild type AEP organoid RNAseq"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "time: Day 21",
+        "cell type: AEP organoid",
+        "genotype: wild type"
+      ],
+      "data_processing": [
+        "Cellranger pipeline from 10x genomics used for alignment",
+        "RNA alignment to spliced/nonspliced genome via Velocyto",
+        "RNA analysis in Seurat for clustering and differential gene expression",
+        "ATAC analysis in ArchR for clustering and analysis"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN31289114",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17897203"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642025/suppl/GSM6642025_10X-Zacharias-Day-21-Ax2-202000811-3v3-1mm.loom.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642025/suppl/GSM6642025_10X-Zacharias-Day-21-Ax2-202000811-3v3-1mm_processed_singlets.rds.gz"
+      ]
+    },
+    {
+      "gsm": "GSM6642026",
+      "title": [
+        "Day 28 wild type AEP organoid RNAseq"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "time: Day 28",
+        "cell type: AEP organoid",
+        "genotype: wild type"
+      ],
+      "data_processing": [
+        "Cellranger pipeline from 10x genomics used for alignment",
+        "RNA alignment to spliced/nonspliced genome via Velocyto",
+        "RNA analysis in Seurat for clustering and differential gene expression",
+        "ATAC analysis in ArchR for clustering and analysis"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN31289113",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17897206"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642026/suppl/GSM6642026_10X-Zacharias-Day-28-Ax2-202000818-3v3-1mm.loom.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642026/suppl/GSM6642026_10X-Zacharias-Day-28-Ax2-202000818-3v3-1mm_processed_singlets.rds.gz"
+      ]
+    },
+    {
+      "gsm": "GSM6642027",
+      "title": [
+        "Day 28 AAVControl organoid RNAseq"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "time: Day 28",
+        "cell type: AEP organoid",
+        "genotype: control"
+      ],
+      "data_processing": [
+        "Cellranger pipeline from 10x genomics used for alignment",
+        "RNA alignment to spliced/nonspliced genome via Velocyto",
+        "RNA analysis in Seurat for clustering and differential gene expression",
+        "ATAC analysis in ArchR for clustering and analysis"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN31289112",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17897204"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642027/suppl/GSM6642027_10X-Zacharias-NKX2-1-Control-20211006-3v3-1mm.loom.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642027/suppl/GSM6642027_10X-Zacharias-NKX2-1-Control-20211006-3v3-1mm_processed_singlets.rds.gz"
+      ]
+    },
+    {
+      "gsm": "GSM6642028",
+      "title": [
+        "Day 28 AAV NKX2-1 KO organoid RNAseq"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "time: Day 28",
+        "cell type: AEP organoid",
+        "genotype: NKX2-1 KO"
+      ],
+      "data_processing": [
+        "Cellranger pipeline from 10x genomics used for alignment",
+        "RNA alignment to spliced/nonspliced genome via Velocyto",
+        "RNA analysis in Seurat for clustering and differential gene expression",
+        "ATAC analysis in ArchR for clustering and analysis"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN31289111",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17897205"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642028/suppl/GSM6642028_10X-Zacharias-NKX2-1-KO-20211006-3v3-1mm.loom.gz"
+      ],
+      "supplementary_file_2": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642028/suppl/GSM6642028_10X-Zacharias-NKX2-1-KO-20211006-3v3-1mm.rds.gz"
+      ]
+    },
+    {
+      "gsm": "GSM6642029",
+      "title": [
+        "Day 14 wild type AEP organoid ATACseq"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "time: Day 14",
+        "cell type: AEP organoid",
+        "genotype: wild type"
+      ],
+      "data_processing": [
+        "Cellranger pipeline from 10x genomics used for alignment",
+        "RNA alignment to spliced/nonspliced genome via Velocyto",
+        "RNA analysis in Seurat for clustering and differential gene expression",
+        "ATAC analysis in ArchR for clustering and analysis"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN31289110",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17897207"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642029/suppl/GSM6642029_10X-Zacharias-Day-14-Ax2-20200130-ATACv1-1mm.arrow"
+      ]
+    },
+    {
+      "gsm": "GSM6642030",
+      "title": [
+        "Day 21 wild type AEP organoid ATACseq"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "time: Day 21",
+        "cell type: AEP organoid",
+        "genotype: wild type"
+      ],
+      "data_processing": [
+        "Cellranger pipeline from 10x genomics used for alignment",
+        "RNA alignment to spliced/nonspliced genome via Velocyto",
+        "RNA analysis in Seurat for clustering and differential gene expression",
+        "ATAC analysis in ArchR for clustering and analysis"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN31289109",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17897208"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642030/suppl/GSM6642030_10X-Zacharias-Day-21-Ax2-20200206-ATACv1-1mm.arrow"
+      ]
+    },
+    {
+      "gsm": "GSM6642031",
+      "title": [
+        "Day 28 wild type AEP organoid ATACseq"
+      ],
+      "source_name_ch1": [
+        "Lung"
+      ],
+      "characteristics_ch1": [
+        "tissue: Lung",
+        "time: Day 28",
+        "cell type: AEP organoid",
+        "genotype: wild type"
+      ],
+      "data_processing": [
+        "Cellranger pipeline from 10x genomics used for alignment",
+        "RNA alignment to spliced/nonspliced genome via Velocyto",
+        "RNA analysis in Seurat for clustering and differential gene expression",
+        "ATAC analysis in ArchR for clustering and analysis"
+      ],
+      "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN31289108",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX17897209"
+      ],
+      "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6642nnn/GSM6642031/suppl/GSM6642031_10X-Zacharias-Day-28-Ax2-20200818-ATACv1-1mm.arrow"
+      ]
+    }
+  ]
+}

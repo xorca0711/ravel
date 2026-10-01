@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "status": "frozen_before_reading_expression_values_after_published_results_and_metadata_exposure",
+  "dataset": "GSE306184",
+  "purpose": "Bounded descriptive feasibility pilot for an ERBB3 epithelial-function candidate; not independent biological validation or exact paper reproduction",
+  "input_receipt": "runs/E5_metadata_v1/run_record.json",
+  "expected_samples": 14,
+  "expected_rows_per_workbook": 46427,
+  "sample_mapping": "GSM prefix to SOFT sample; workbook count column must match deposited Library name",
+  "unit": "deposited library; donor/preparation independence and replicate pairing unresolved",
+  "metadata_conflicts": [
+    "Human epithelial titles and GRCh38 processing conflict with mouse husbandry/restraint protocol fields; retain conflict without inventing a correction",
+    "GEO cytokine label differs from paper growth-factor EGF/EREG/NRG1 wording; preserve Cyto as a source label, with interpretation conditional",
+    "Methods mention FPKM while workbook columns and supplemental description say Read_Count; assess numeric type and retain deposited-value provenance"
+  ],
+  "targets": ["EGFR", "ERBB3"],
+  "contexts": ["Cyto", "IR"],
+  "controls": "Consi in the same source context; NoIR control for descriptive context only",
+  "contrasts": "For each target and context, mean log2(normalized abundance + 1) in two target libraries minus mean of two context-matched control libraries",
+  "context_comparison": "Difference of knockdown contrasts between IR and Cyto; no uninjured knockdown exists, so cannot estimate an injury-versus-baseline interaction",
+  "primary_normalization": "CPM over all nonblank, nonnegative numeric deposited count rows; duplicate gene symbols summed before normalization",
+  "sensitivity_normalization": "Positive-count median-ratio size factors across all libraries, scaled to the median library total, then CPM; genes need at least seven positive libraries",
+  "genes": {
+    "receptors": ["EGFR", "ERBB2", "ERBB3", "ERBB4"],
+    "AT2_markers": ["SFTPC", "SFTPA1", "SFTPB", "ABCA3", "SLC34A2"],
+    "AT1_markers": ["AGER", "AQP5", "PDPN", "CAV1"],
+    "inflammatory_markers": ["IL6", "CXCL8", "CCL2", "CXCL10", "NFKBIA", "SOCS3"]
+  },
+  "panel_rule": "Equal-weight mean of fixed log2(CPM+1) genes, require all symbols present; show each gene and coverage, do not relabel as a complete pathway",
+  "detection_description": "CPM >= 1, reported per gene and library, never used to select a favourable contrast",
+  "inference": "No biological p-values, confidence intervals, gene-DE claims, fate, stemness, secretion, clinical causality or new global RQ ID",
+  "outputs": "Immutable runs/E5_external_v1 with selected source counts, library QC, gene and panel contrasts, normalization sensitivity and run hashes; optional descriptive figure separate from original atlas"
+}

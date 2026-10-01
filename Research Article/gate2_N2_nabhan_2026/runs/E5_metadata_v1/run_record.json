@@ -1,0 +1,21 @@
+{
+  "accessed_utc": "2026-10-01T03:24:28.425284+00:00",
+  "inputs": [
+    {
+      "path": "raw_data/GSE306184/GSE306184_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE306nnn/GSE306184/soft/GSE306184_family.soft.gz",
+      "bytes": 2921,
+      "sha256": "35cfe03440063ba7d1cf589c8e9f6dfd7f2f83ca5372eadd1a97cc88238354ad"
+    },
+    {
+      "path": "raw_data/GSE306184/GSE306184_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE306nnn/GSE306184/suppl/GSE306184_RAW.tar",
+      "bytes": 11847680,
+      "sha256": "3118b484ae1c2a77433b1a62cfaedf623c2650d982516ea0c16cf14f79c7e89c"
+    }
+  ],
+  "script_sha256": "9bc9d14e98e49f547238ec31ce26b71ae390aaf0a734e2b6c669eff091396df2",
+  "sample_count": 14,
+  "workbook_count": 14,
+  "status": "metadata_and_schema_only_no_fit"
+}

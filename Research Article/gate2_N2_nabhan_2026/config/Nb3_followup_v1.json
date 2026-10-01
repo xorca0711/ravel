@@ -1,0 +1,214 @@
+{
+  "schema": "Nb3-followup/v1",
+  "analysis_id": "Nb3",
+  "date": "2026-10-01",
+  "timing": "post-v1 inspection, before additional fits; user authorized follow-up and RQ derivation",
+  "targets": [
+    "NKX21",
+    "BECN1",
+    "KEAP1",
+    "TRP53",
+    "CDKN2B",
+    "CTNNB1",
+    "CSNK2A1",
+    "ELOVL1",
+    "ATP6V0E",
+    "SLC34A2",
+    "FZD5",
+    "PORCN",
+    "ERBB2",
+    "ERBB3",
+    "EGFR",
+    "ERBB4"
+  ],
+  "programs": {
+    "mouse": {
+      "AT2_figure3": [
+        "Sftpb",
+        "Sftpc",
+        "Sftpd",
+        "Abca3"
+      ],
+      "transition_figure3": [
+        "Krt8",
+        "Sprr1a",
+        "Clu"
+      ],
+      "IFN_figure3": [
+        "Zbp1",
+        "Irf7",
+        "Isg15",
+        "Ifit1",
+        "Ifitm3"
+      ],
+      "hypoxia_figure3": [
+        "Ndrg1",
+        "Ndrg2",
+        "Aldoa",
+        "Hilpda"
+      ],
+      "gastric_maintext": [
+        "Hnf4a",
+        "Onecut2",
+        "Vsig1",
+        "Tff1"
+      ],
+      "Wnt_maintext": [
+        "Sox9",
+        "Axin2",
+        "Ctnnd2",
+        "Tgfb3",
+        "Tcf7"
+      ],
+      "AT1_maintext": [
+        "Rtkn2",
+        "Spock2",
+        "Cav1",
+        "Hopx",
+        "Aqp5"
+      ]
+    },
+    "human": {
+      "ID_figure4": [
+        "ID1",
+        "ID2",
+        "ID3"
+      ],
+      "OXPHOS_figure4": [
+        "MT-ND1",
+        "MT-ND2",
+        "MT-ND3"
+      ],
+      "Hippo_figure4": [
+        "CYR61",
+        "CTGF",
+        "IGFBP5",
+        "IGFBP3"
+      ],
+      "wound_figure4": [
+        "COL1A1",
+        "CTHRC1",
+        "ACTA2",
+        "TAGLN"
+      ],
+      "chemokines_figure4": [
+        "CCL2",
+        "CXCL1",
+        "CXCL2",
+        "CXCL3",
+        "CXCL6",
+        "CXCL8",
+        "CXCL12"
+      ],
+      "PLIN2_sentinel": [
+        "PLIN2"
+      ]
+    }
+  },
+  "fit_gates": {
+    "min_target_libraries": 2,
+    "min_control_libraries": 3,
+    "min_residual_df": 3
+  },
+  "B1": {
+    "control_variants": {
+      "combined": [
+        "TIGIT",
+        "TDTOMATO"
+      ],
+      "TIGIT_only": [
+        "TIGIT"
+      ],
+      "tdTomato_only": [
+        "TDTOMATO"
+      ]
+    },
+    "score": "mean log2(TMM CPM + 0.5), complete panel; no new normalization",
+    "sensitivities": [
+      "omit each gene for panels with >=2 genes",
+      "omit each target well with gates retained"
+    ],
+    "interpretation": "Report all ranges and signs; no selected stability cutoff"
+  },
+  "B2": {
+    "panels": [
+      "mouse__AT2_figure3",
+      "human__chemokines_figure4"
+    ],
+    "population": "intersection of species QC; all eligible targets",
+    "models": [
+      "paired baseline with plate",
+      "paired plus both centered log2 raw species read totals"
+    ],
+    "association": "Spearman across common estimable target contrasts, with and without NKX21; no biological p-values",
+    "causal_warning": "Read depth may be a mediator or composition proxy; adjusted contrasts are sensitivity estimands"
+  },
+  "B3": {
+    "sets": "50 Hallmark sets per species, MSigDB 2024.1 cached files",
+    "universe": "saved fitted genes with finite t, AveExpr > 1.5, nonempty symbol; one row per symbol chosen by highest AveExpr then stable ID",
+    "method": "limma cameraPR(use.ranks=TRUE), signed moderated t",
+    "intergene_correlations": [
+      0.01,
+      0.05
+    ],
+    "coverage_gates": {
+      "minimum_genes": 15,
+      "minimum_fraction": 0.5
+    },
+    "multiplicity": "BH across all eligible species x target x pathway rows, separately per correlation specification",
+    "interpretation": "competitive exploratory RNA enrichment, not biological-population significance or causal pathway activation"
+  },
+  "B4": {
+    "target_check": "exact S2 stable ID from saved mouse DE; no gene-symbol alias selection",
+    "CTNNB1": "activating edit; reduced RNA is not expected evidence",
+    "NKX21": "source reports protein loss despite RNA increase; transcript change is not an editing assay"
+  },
+  "inputs": {
+    "Research Article/gate2_N2_nabhan_2026/config/Nb3_execution_v1.json": "f6aed37cbe4ebc2d5e45fe60d53ea0e52cdaca8388eef840423b0a0455ed91d2",
+    "Research Article/gate2_N2_nabhan_2026/config/Nb3_panel_amendment_v1.json": "095ddf985355a4f9777ffc5160c7d77c8410ca960513f2e69764ec2877fdc8ee",
+    "Research Article/gate2_N2_nabhan_2026/runs/R4_v1/fixed_panel_effects.tsv": "6cd5e99c085732bcf6b574164ff5d0e1593e5b2f008b5f4138d37c525e2e9b13",
+    "Research Article/gate2_N2_nabhan_2026/runs/R4_v1/paired_library_QC.tsv": "e49690e9498c6c0fe23bcecf46451549c8cad00362b94d28a1b2f19ae9bb9afc",
+    "Research Article/gate2_N2_nabhan_2026/runs/00_v1/target_identity.tsv": "98f85f631fbe7320b7caba3f5c7d526da4ba4654158fe5f5e5a18678a1693235",
+    "Research Article/gate2_N2_nabhan_2026/reports/PRE_RQ_ANALYSIS_PLAN.md": "e6bf7ddeec6a63106ae2d406e851bb973e730143b04a3a15240a941f606b4247",
+    "raw_data/GSE307112/Nb3_v1/mouse_selected_symbol_cpm.tsv": "939888211ce40c49ce005e4e4c6b61248b596c43519af6178cfe97aa2aacc2d7",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_panel_scores.tsv": "81ce02adcb9ca80ce61df586ccc3b8fcc4bb1d9f2d95c1ccf504a659d381896c",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/mouse_normalization.tsv": "31c547f1175ef89c717019666297885a994ba9a757a5f915ae3e728f254a98e1",
+    "raw_data/msigdb/mh.all.v2024.1.Mm.symbols.gmt": "e5aa9acd833179d1d571b48bf91a28fb387722ce68ff53094d05847659d66460",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/NKX21.tsv.gz": "c529257f594c7f85c76ac07195ab16fd99f0367fe49780918bfeb333e7e4e900",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/BECN1.tsv.gz": "32a2e87fc23289653fa6a794028b72da9a34fce9049c8d02a6e435b438785972",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/KEAP1.tsv.gz": "55eb5acfd90be3a7f41d44731e2478313d21a9fd294a057970e24436f83c9a48",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/TRP53.tsv.gz": "c90c4ae65c2f15ef81702ee64c0652266b06c85bc013eab84d574c3d13657972",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/CDKN2B.tsv.gz": "ba096af5d7bf0ac487aede8c0928c91f1da5d82592f1fe5685e3f2375b483ab0",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/CTNNB1.tsv.gz": "cc79d432b7906b222474861e8bbfe24e24d9913f11bce7b69be5971dc2e995c7",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/CSNK2A1.tsv.gz": "9aff4c4cd32a980345116f53e03e99fcf7d331dc345cb56846a9926226f58847",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/ELOVL1.tsv.gz": "37c74d3ea6699ae58b01085921bdafa9c205777dc8a27fba68bdaee6a131c63d",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/ATP6V0E.tsv.gz": "42a3192fd35821a6cc7b9ee88f5d3efae6f3fb666cf81d8eab4e0cc0e2ece9fd",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/SLC34A2.tsv.gz": "37e6b5c2d6914048c5548ca4aebeeda45e188929bd65621359a53bb65e8a37f0",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/FZD5.tsv.gz": "f3d2d7791256e503d8ae3b264149c418129c157b369f24315dd7491e74f6e729",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/PORCN.tsv.gz": "b3c053c3a0f54a00d87f4ab351c4b9bb0d640cdfab602f793188ace7914883e0",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/ERBB2.tsv.gz": "0ef65d29580f3065ab132ca3e49939e4b5e7d67f18badd87e3ca7eaf68d16ec8",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/ERBB3.tsv.gz": "e35a928afa13fbca59def42d91b93c33ced6488a58c3b71b1250d7c3d70e4f54",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/EGFR.tsv.gz": "24c828208d46d10d13f895262e80d7573fef4b9bf778b1bcf9caaa9ac999a440",
+    "raw_data/GSE307112/Nb3_v1/DE/mouse/ERBB4.tsv.gz": "bfcce14944448e9287b79516b300a48347051dc0f9dcead3528d06ab37abc202",
+    "raw_data/GSE307112/Nb3_v1/human_selected_symbol_cpm.tsv": "c25243b14b77131ad5fe7d10ce2fbfc804785dd5750320a0da4715fe9c887876",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_panel_scores.tsv": "8fd4be1226a7b792aa2a07eb2b12af9ab15e2fcb44cb0368676afe2708d38c31",
+    "Research Article/gate2_N2_nabhan_2026/runs/R2_v1/human_normalization.tsv": "5618418154b2ed371467050edee1b917d8e8e211df704eff0e10ac0a8439886e",
+    "raw_data/msigdb/h.all.v2024.1.Hs.symbols.gmt": "ee2463540042078bfa3f67828e1e223bb354446d9fbb4d22845866835ba5c772",
+    "raw_data/GSE307112/Nb3_v1/DE/human/NKX21.tsv.gz": "2f9d59c862203f142acf46355720b0090ecd7bbfcf00e24855b01eb14384773c",
+    "raw_data/GSE307112/Nb3_v1/DE/human/BECN1.tsv.gz": "24499fba53978bdec427075b8330f7d771e54dc83aa9caef48b5f0e1aa67cf63",
+    "raw_data/GSE307112/Nb3_v1/DE/human/KEAP1.tsv.gz": "2df016a1cb51bee68d1511426d937447bce0fd539b7695bd35e7e5761464d063",
+    "raw_data/GSE307112/Nb3_v1/DE/human/TRP53.tsv.gz": "6a2ea24dc1a55864f39b12f65976b4a240dc15d2c2e50f80525475687aa97db0",
+    "raw_data/GSE307112/Nb3_v1/DE/human/CDKN2B.tsv.gz": "6cd655cf69021b2513af4353b2c7705b467ed86fde8c6010cc8dc8e7b702ab37",
+    "raw_data/GSE307112/Nb3_v1/DE/human/CTNNB1.tsv.gz": "a2c943f8baf41550a582112d5d056bfd6c9fd11f1cbc648a361a777e18b74320",
+    "raw_data/GSE307112/Nb3_v1/DE/human/CSNK2A1.tsv.gz": "a0c92cf1f7b8155feb55c6e53cc95654eb8f2a5c33b562cd8f1afc17ef1f11a1",
+    "raw_data/GSE307112/Nb3_v1/DE/human/ELOVL1.tsv.gz": "f8b55636ddf738922ca2e3529d4655a167c6614a2d5ff0a1b06d8f6808b356b0",
+    "raw_data/GSE307112/Nb3_v1/DE/human/ATP6V0E.tsv.gz": "e1265360f3af5c1122127c7de9da483576661bff27be8ee2d271989dc04fbf7f",
+    "raw_data/GSE307112/Nb3_v1/DE/human/SLC34A2.tsv.gz": "26faafa6c8d8cf13960a57dc263b2c9b8d643c3cd9ba57b581c16d421eac3a01",
+    "raw_data/GSE307112/Nb3_v1/DE/human/FZD5.tsv.gz": "8b16ae0bfeffadf4d182521bacdaa20a9b4e5acf737084ba154059645bebabf6",
+    "raw_data/GSE307112/Nb3_v1/DE/human/PORCN.tsv.gz": "4cc1ad76640e461d75ec45a98ec4f15dbb520ae3cf7cbd7a04af52b9b951d8b9",
+    "raw_data/GSE307112/Nb3_v1/DE/human/ERBB2.tsv.gz": "0a8ce041e0e999c776fa01a799e27971f22d472b70c088fb139bd9c77dd1b21b",
+    "raw_data/GSE307112/Nb3_v1/DE/human/ERBB3.tsv.gz": "bf6dd5e8fa48856cd8606467e5d9e9689cff02b497897f2b3a2843ccf84ff877",
+    "raw_data/GSE307112/Nb3_v1/DE/human/EGFR.tsv.gz": "ce7280cb2cea602aede849020c9ec6fbaaeafb4f2700ccbfea7fb23b935c15de",
+    "raw_data/GSE307112/Nb3_v1/DE/human/ERBB4.tsv.gz": "c4565b0433c83cc72b5a4c207b0f8ea22c572bdc56d3c90f04462a792164e459"
+  }
+}

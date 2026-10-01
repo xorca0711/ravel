@@ -1,0 +1,5 @@
+target	variant	day	endpoint	target_wells	control_wells	plates	status	effect	se	ci_low	ci_high	p	q
+EGFR	all_wells_scaling	day14	organoids_area_prop	4	24	plate3	technical_well_model	0.097810490329	0.263835549945	-0.444511249543	0.640132230201	0.713845618318	0.935446295516
+ERBB2	all_wells_scaling	day14	organoids_area_prop	4	24	plate3	technical_well_model	-1.39317731842	0.250439927479	-1.90796396196	-0.878390674872	7.65774521488e-06	0.000118400522169
+ERBB3	all_wells_scaling	day14	organoids_area_prop	4	24	plate3	technical_well_model	-2.33089845309	0.25394884451	-2.85289777889	-1.80889912729	1.22433836202e-09	2.73435567518e-08
+ERBB4	all_wells_scaling	day14	organoids_area_prop	4	24	plate3	technical_well_model	0.0168841758674	0.260354785441	-0.518282750098	0.552051101833	0.948788974747	0.976489959128
