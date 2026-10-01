@@ -2201,3 +2201,14 @@ Integration uses current main for the shared indexes and the corrected A1,
 A16 and A17 cards, retaining the historical decision rows. The source checkout
 and unrelated local files remain preserved. No frozen numerical output or
 claim grade is changed by delivery.
+
+## 1 October 2026: keep the main README general
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-10-01 | Nb3-specific highlights and a dated figure-audit notice in the main README | The owner requested only general project context on the main README; detailed study and audit updates belong in their indexes | Repository owner, explicit README cleanup request; Codex applied the scope correction |
+
+Removed the Nb3-only navigation row and figure announcement, retained the
+existing study-gallery links in the article index, and moved the dated figure
+audit reference beside the paper galleries. Main README execution links now
+use the current-state page. No scientific result, figure or claim changed.

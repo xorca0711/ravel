@@ -1,5 +1,13 @@
 # Progress and handoff state
 
+## Main README scope cleanup, 1 October 2026
+
+Following the owner's review, the main README now contains general project
+context and navigation. The Nb3-only highlights were removed; its gallery
+remains in the article index. The dated figure audit is linked beside the
+paper galleries, and execution links now lead through this current-state page.
+This documentation follow-up is based on main after PR #124 merged.
+
 ## Nb3 PR integration, 1 October 2026
 
 The owner explicitly requested commit, push and a PR. Delivery is prepared on

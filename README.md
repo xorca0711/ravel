@@ -63,7 +63,6 @@ and the [execution roadmap](docs/RESEARCH_ROADMAP.md) records current priorities
 |---|---|
 | Biological questions and the evidence needed to answer them | [Research-question register](RESEARCH_QUESTIONS.md) and [question workspaces](RQ_Specified/README.md) |
 | Source studies, reading status and paper-specific analyses | [Research article roadmap](Research%20Article/README.md) |
-| Nb3: Nabhan 2026 partial reproduction and descriptive extensions | [Stem-cell–niche analysis](Research%20Article/gate2_N2_nabhan_2026/README.md); [reproduction review](Research%20Article/gate2_N2_nabhan_2026/reports/REPRODUCTION_REVIEW.md); human S5 numeric mismatch audited |
 | Datasets, their roles, biological units and eligibility limits | [Dataset inventory](docs/DATASETS.md) |
 | Current results, remaining gaps and execution priorities | [Current project state](PROGRESS.md) and [research execution roadmap](docs/RESEARCH_ROADMAP.md) |
 | Figures and the reports that interpret them | [Question figure index](RQ_Specified/FIGURES.md) and [paper galleries](Research%20Article/README.md#figure-galleries) |
@@ -82,10 +81,9 @@ register contains A0–A23 and the enabling source-identity question A12-S1;
 registration does not imply validation. Shared measurements and figures have
 explicit links to the questions they support.
 
-**Execution and review** are recorded in dated reports. The latest
-[gap-fill execution](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md) links
-completed corrections, cohort eligibility decisions and the remaining input
-for every question. Earlier runs remain available as historical evidence.
+**Execution and review** are recorded in dated reports. The
+[current project state](PROGRESS.md) links completed work, remaining inputs
+and open decisions. Earlier runs remain available as historical evidence.
 The [research architecture](docs/RESEARCH_ARCHITECTURE.md) explains how source
 evidence, measurements, interpretations and next tests connect.
 
@@ -108,13 +106,6 @@ outputs, the [shared question gallery](analysis/figures/rq/README.md) for shared
 measurements and designs, and the [paper gallery index](Research%20Article/README.md#figure-galleries)
 for study-level plots. Captions identify units and interpretation limits.
 Historical image titles do not override later corrections.
-
-The [Nb3 gallery](Research%20Article/gate2_N2_nabhan_2026/FIGURES.md) adds 12
-paper-style figures covering source reproduction, follow-up sensitivities and
-the descriptive external E5 pilot.
-
-The [29 September figure audit](docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md) records current
-presentation corrections, preserved historical versions, and the review depth for every figure.
 
 ## Try it yourself
 
@@ -159,9 +150,9 @@ complete current research index.
 The collection lacks a common functional repair outcome, and several
 comparisons lack independent biological replication or linked measurements.
 Age, genotype, processing, cell mixtures and state definitions remain important
-alternative explanations. The [execution ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
-names the next input or decision for each question, including stopped and
-inconclusive branches.
+alternative explanations. The [current project state](PROGRESS.md)
+links the remaining inputs and decisions, including stopped and inconclusive
+branches.
 
 ## Licence
 

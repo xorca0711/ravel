@@ -60,6 +60,11 @@ that a study note has been accepted. Each overview states its limits.
 
 <a id="figure-galleries"></a>
 
+The [29 September figure audit](../docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md)
+records presentation corrections, preserved historical versions and review
+coverage across the galleries. Study-specific additions and later updates are
+linked in each study's gallery.
+
 | Study and biological context | Analysis claims and evidence | Figures |
 |---|---|---|
 | [Niethamer 2025: viral injury and repair](gate1_01_niethamer_2025/README.md) | [Atlas report](gate1_01_niethamer_2025/GSE262927/README.md); [follow-up outcomes](gate1_01_niethamer_2025/ANALYSIS_TRIAL_PLAN.md) | [Gallery](gate1_01_niethamer_2025/README.md#figure-gallery) |
