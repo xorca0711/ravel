@@ -2,7 +2,7 @@
 
 Updated 3 October 2026. Integration base:
 `0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f` (main, PR #129).
-Repair branch: `codex/research-governance`. Check Git before assuming this
+Repair branch: `codex/research-governance`; [draft PR #130](https://github.com/xorca0711/scRNA_seq/pull/130), not merged. Check Git before assuming this
 checkpoint is the latest remote revision.
 
 ## Current objective
@@ -42,7 +42,7 @@ numerical execution and scientific acceptance are separate decisions.
 See [validation receipt](docs/audits/2026-10-03-repository-repair/validation.json)
 for actual checks and [repair report](docs/audits/2026-10-03-repository-repair/REPORT.md)
 for GitHub integration protection and remaining limitations. Do not infer passed
-checks or active server protection from this summary alone.
+checks or active server protection from this summary alone. Main protection was applied and read back: both GitHub Actions checks are required on an up-to-date PR, administrators are included, and force pushes/deletion are blocked. There is no independent-review requirement on this single-owner repository.
 
 ## Next work
 

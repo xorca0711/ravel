@@ -130,5 +130,35 @@
       "elapsed_seconds": 7.62,
       "log_sha256": "ab495baa1e177b79bdf7250b934a2d5a119cf81e6e11b93ab4f009e2d1a21bc1"
     }
-  ]
+  ],
+  "post_edit_document_validation": {
+    "command": "python -B analysis/scripts/validate_repository.py",
+    "result": "passed: 7083 checks; after removing duplicate handoff archives from publication"
+  },
+  "github_ci": {
+    "pull_request": "https://github.com/xorca0711/scRNA_seq/pull/130",
+    "validated_head": "13c9874",
+    "checks": [
+      {
+        "link": "https://github.com/xorca0711/scRNA_seq/actions/runs/37046172206/job/110968036923",
+        "name": "research-governance",
+        "state": "SUCCESS"
+      },
+      {
+        "link": "https://github.com/xorca0711/scRNA_seq/actions/runs/37046172046/job/110968035989",
+        "name": "validate",
+        "state": "SUCCESS"
+      },
+      {
+        "link": "https://github.com/xorca0711/scRNA_seq/actions/runs/37046144414/job/110967948406",
+        "name": "validate",
+        "state": "SUCCESS"
+      },
+      {
+        "link": "https://github.com/xorca0711/scRNA_seq/actions/runs/37046144526/job/110967949244",
+        "name": "research-governance",
+        "state": "SUCCESS"
+      }
+    ]
+  }
 }
