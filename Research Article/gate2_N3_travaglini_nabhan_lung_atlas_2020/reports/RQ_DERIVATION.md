@@ -1,5 +1,7 @@
 # Nb4: narrowed research-question candidates
 
+**Scope update, 3 October 2026:** this report records the earlier narrow derivation. The [broader candidate plan](proposals/README.md) covers the remaining atlas themes through Nb4-P01–P09; these are not new canonical A-numbers or completed analyses.
+
 **Derived after reproduction, sensitivities, external pilot and genome-wide
 diagnostics, 2 October 2026.** Conditional extensions of existing questions;
 no new A-number or claim grade.

@@ -1,5 +1,7 @@
 # Paper-local questions, not accepted mechanisms
 
+**Current planning pointer, 3 October 2026:** the [broader proposal plans](reports/proposals/README.md) add nine candidate families. The earlier scope and evidence below remain historical; the new proposals have not been executed.
+
 **Current analysis label: Nb4.** This planning document precedes execution; see the [completed evidence and gallery](README.md) and [RQ derivation](reports/RQ_DERIVATION.md). Historical TN2020 run identifiers are preserved.
 
 These questions originate in the owner's context notes and source reading.

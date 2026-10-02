@@ -1,5 +1,7 @@
 # Placement and reuse decisions
 
+**Current planning pointer, 3 October 2026:** the [broader proposal plans](reports/proposals/README.md) add nine candidate families. The earlier scope and evidence below remain historical; the new proposals have not been executed.
+
 Inspected on 2 October 2026: root README, AI_CONTEXT, article roadmap, research
 roadmap, computational pipeline, shared research architecture, RQ register,
 and neighboring Nabhan, HLCA and Yu workspaces. The working tree was already
