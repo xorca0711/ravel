@@ -1,0 +1,15 @@
+{
+  "schema": "TN2020-external-source/v1",
+  "doi": "10.1038/s41588-022-01243-4",
+  "collection_id": "c1241244-b22d-483d-875b-75699efb9f3c",
+  "dataset_id": "e871881f-b42d-4500-906d-0972a14ba47d",
+  "dataset_version_id": "460b3fe9-f623-4299-a745-78beba61c3d8",
+  "title": "Fibroblasts",
+  "url": "https://datasets.cellxgene.cziscience.com/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+  "cache_path": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+  "sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+  "bytes": 240272482,
+  "cells_reported": 20515,
+  "retrieved_at_utc": "2026-10-02T13:44:01.953728+00:00",
+  "selection": "Fibroblast subset chosen by published study, compartment and explicit source follow-up; no external expression effects inspected before acquisition"
+}

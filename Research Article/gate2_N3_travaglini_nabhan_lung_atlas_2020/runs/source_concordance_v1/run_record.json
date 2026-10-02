@@ -1,0 +1,33 @@
+{
+  "schema": "TN2020-concordance/v1",
+  "completed_at_utc": "2026-10-02T13:36:39.607000+00:00",
+  "status": "source concordance complete; species extension gated",
+  "expression_analysis_run": false,
+  "outputs": {
+    "imaging_fraction_reconstruction.json": "cdec39bbd5aaca2f2e1cded433ad59fa2773106898219578ba5dccfa2da4f327",
+    "label_aliases.json": "a25b50b21525392f7cf8c591d805a1f8f21f330b620798cb987d1482825118b4",
+    "mouse_design_gate.json": "c9b49515a25383aca5666c511e4af70c1628277e9a159665073a06e7a5f162c1",
+    "source_species_panel_results.tsv": "01f9e48a2a2a12f8d668d52197cb7c83771f877159f476f13b7a76dcb0da6fd1",
+    "summary.json": "88c6cc8f50a8e4193414c82833be85a36523f4274a3b584ed780277ecebb9b90",
+    "table2_count_concordance.tsv": "82ee01f77b842ceb12e9a67135e9f4708119bd21dad512ca55e9c9c32928c167",
+    "unmapped_source_labels.tsv": "2ffbb6a9434e2067900a3e6ac94a35c61c3280f9afcd1a9ffc1b3d5977f3d88d"
+  },
+  "code_sha256": {
+    "00_source_intake.py": "e26ea6cfe6005c35673aaf6000ccb0ea0cc47f35b80ef4ba49bddafa202c89e0",
+    "01_metadata_gate.py": "3d7f875bc4d6a64508996770b7e54631590aaca41c14a4b0a1008e11a4ef9303",
+    "02_acquire_expression.py": "9a9f5e6492e8a6779d3adcec04537356c76e69d24067991c3510bc9d2ac386e6",
+    "03_prepare_metadata.py": "91975e2960d2ecb5da41e8d9e7b6af18a68d0e9ca2b335df1fc773c9e2036e4e",
+    "04_expression_reproduction.py": "08cfe2016fa771d2395f243e99a23e794e2aa5b240f8376427850f2967fe85af",
+    "05_source_concordance.py": "2e49b31b8922c8242ad529dc851937590899d599af5193c5bbd9d210ce347826",
+    "common.py": "70daa2a3fc6a786265d503ca01d115db237d7129a820d348829d110ccf00c68a",
+    "fetch_sources.py": "fbc4f04adfb0bfa9c65173fad8d49be610efad1c26383736678d5896744b1f37",
+    "test_checks.py": "575bdd472ca25ae2eb183ef6fa3e93a09a72601c8899dda1a50116b6b471903b",
+    "verify_package.py": "c711092453400dfa4591244b92c79e9fa407c8aaee694118376ccb5be44ff3fb"
+  },
+  "config_sha256": {
+    "execution_v1.json": "2ac45d6df6ab85a806b9b04db2bed713d706b50c10cdcc54479c83b67e86cb0a",
+    "expression_sources_v1.json": "448c6d1a4bd4c3afff6ff2ba81949285ed865dea4d1900be9c209c3c5ccf1aef",
+    "pipeline_v1.json": "ce8e02639387d691f2984c7426eb418ea70681f30fdc815d93fe144fd9d70f57",
+    "source_manifest.json": "bd62dde277e0a521bee6991de1806238565b8ea8593d4a5b0fc9d689d909b535"
+  }
+}

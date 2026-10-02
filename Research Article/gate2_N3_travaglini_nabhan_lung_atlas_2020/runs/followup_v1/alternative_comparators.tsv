@@ -1,0 +1,57 @@
+assay	donor_id	anatomical_region	gene	target	comparator	n_target	n_comparator	delta_log2CPM	delta_detection
+10x	P1	distal	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	26	494	4.9563118	0.1902834
+10x	P1	distal	MYRF	Alveolar Epithelial Type 1	Club	26	176	3.1689997	0.1638986
+10x	P1	distal	MYRF	Alveolar Epithelial Type 1	other epithelial	26	827	4.416814	0.18384336
+10x	P1	distal	TBX5	Pericyte	Alveolar Fibroblast	74	45	1.9045046	0.27297297
+10x	P1	distal	TBX5	Pericyte	other stromal	74	384	3.4622708	0.34797297
+10x	P2	distal	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	113	321	6.8388163	0.33628319
+10x	P2	distal	MYRF	Alveolar Epithelial Type 1	Club	113	77	4.3892148	0.29732215
+10x	P2	distal	MYRF	Alveolar Epithelial Type 1	other epithelial	113	1288	6.2686678	0.33007201
+10x	P2	distal	TBX5	Pericyte	Alveolar Fibroblast	511	121	3.1042894	0.37136711
+10x	P2	distal	TBX5	Pericyte	Vascular Smooth Muscle	511	46	1.0828247	0.12792479
+10x	P2	distal	TBX5	Pericyte	other stromal	511	359	2.3226036	0.29245185
+10x	P2	medial	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	177	214	5.678901	0.35321295
+10x	P2	medial	MYRF	Alveolar Epithelial Type 1	Club	177	32	5.1379317	0.33598164
+10x	P2	medial	MYRF	Alveolar Epithelial Type 1	other epithelial	177	642	5.9788237	0.35632821
+10x	P2	medial	TBX5	Pericyte	Alveolar Fibroblast	624	281	3.2716861	0.37949973
+10x	P2	medial	TBX5	Pericyte	Vascular Smooth Muscle	624	40	1.2752329	0.072115385
+10x	P2	medial	TBX5	Pericyte	other stromal	624	510	2.9616256	0.33927225
+10x	P3	distal	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	328	1280	4.9366691	0.22749619
+10x	P3	distal	MYRF	Alveolar Epithelial Type 1	Club	328	284	4.0422781	0.21925455
+10x	P3	distal	MYRF	Alveolar Epithelial Type 1	other epithelial	328	2390	4.9188987	0.22925809
+10x	P3	distal	TBX5	Pericyte	Alveolar Fibroblast	240	599	3.1932415	0.40066082
+10x	P3	distal	TBX5	Pericyte	Vascular Smooth Muscle	240	225	3.1617331	0.36638889
+10x	P3	distal	TBX5	Pericyte	other stromal	240	1183	2.8515324	0.35961891
+10x	P3	proximal	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	328	1505	5.4436248	0.31160157
+10x	P3	proximal	MYRF	Alveolar Epithelial Type 1	Club	328	357	4.0685002	0.27299822
+10x	P3	proximal	MYRF	Alveolar Epithelial Type 1	other epithelial	328	3259	5.1797937	0.30320632
+10x	P3	proximal	TBX5	Pericyte	Alveolar Fibroblast	159	250	2.5795545	0.34656604
+10x	P3	proximal	TBX5	Pericyte	Vascular Smooth Muscle	159	158	2.9400302	0.35132553
+10x	P3	proximal	TBX5	Pericyte	other stromal	159	989	2.8882357	0.32878646
+SS2	P1	distal	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	101	137	7.5940908	0.71547301
+SS2	P1	distal	MYRF	Alveolar Epithelial Type 1	Club	101	640	5.0969948	0.63370978
+SS2	P1	distal	MYRF	Alveolar Epithelial Type 1	other epithelial	101	1233	5.0182241	0.6286928
+SS2	P1	distal	TBX5	Pericyte	Alveolar Fibroblast	73	80	1.9535896	0.36900685
+SS2	P1	distal	TBX5	Pericyte	Vascular Smooth Muscle	73	114	1.837354	0.37887527
+SS2	P1	distal	TBX5	Pericyte	other stromal	73	540	2.4439195	0.47409944
+SS2	P2	distal	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	41	195	6.6597444	0.54046279
+SS2	P2	distal	MYRF	Alveolar Epithelial Type 1	Club	41	51	5.9250261	0.54136777
+SS2	P2	distal	MYRF	Alveolar Epithelial Type 1	other epithelial	41	629	7.0305693	0.54984683
+SS2	P2	distal	TBX5	Pericyte	Alveolar Fibroblast	166	28	2.3542623	0.36359725
+SS2	P2	distal	TBX5	Pericyte	Vascular Smooth Muscle	166	20	4.4414801	0.34216867
+SS2	P2	distal	TBX5	Pericyte	other stromal	166	75	3.1168908	0.32883534
+SS2	P2	medial	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	60	174	6.8207167	0.43275862
+SS2	P2	medial	MYRF	Alveolar Epithelial Type 1	Club	60	42	3.3886054	0.37857143
+SS2	P2	medial	MYRF	Alveolar Epithelial Type 1	other epithelial	60	463	5.9620954	0.43056156
+SS2	P2	medial	TBX5	Pericyte	Alveolar Fibroblast	176	57	4.4847768	0.37669458
+SS2	P2	medial	TBX5	Pericyte	other stromal	176	83	3.5200903	0.34837076
+SS2	P3	distal	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	149	106	7.770921	0.7114094
+SS2	P3	distal	MYRF	Alveolar Epithelial Type 1	Club	149	86	3.0638886	0.53699079
+SS2	P3	distal	MYRF	Alveolar Epithelial Type 1	other epithelial	149	267	4.7150932	0.63650303
+SS2	P3	distal	TBX5	Pericyte	Alveolar Fibroblast	71	140	4.2837998	0.4331992
+SS2	P3	distal	TBX5	Pericyte	other stromal	71	257	3.6119837	0.43092015
+SS2	P3	medial	MYRF	Alveolar Epithelial Type 1	Alveolar Epithelial Type 2	64	52	7.568079	0.80528846
+SS2	P3	medial	MYRF	Alveolar Epithelial Type 1	Club	64	21	2.4814741	0.65327381
+SS2	P3	medial	MYRF	Alveolar Epithelial Type 1	other epithelial	64	156	5.1710087	0.79246795
+SS2	P3	medial	TBX5	Pericyte	Alveolar Fibroblast	29	51	6.6780841	0.61663286
+SS2	P3	medial	TBX5	Pericyte	other stromal	29	141	4.1334757	0.5306921

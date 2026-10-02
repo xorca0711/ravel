@@ -1,5 +1,7 @@
 # A22: does epithelial identity determine fibroblast chemokine competence?
 
+**Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.
+
 ## Executed extension, 1 October 2026
 
 [Identity–amount results](reports/identity_amount_v2/RESULTS.md) |

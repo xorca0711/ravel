@@ -1,0 +1,28 @@
+{
+  "schema": "TN2020-intake-run/v1",
+  "completed_at_utc": "2026-10-02T13:11:05.704903+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "openpyxl": "3.1.5",
+  "stage": "TN0",
+  "status": "source intake complete with unresolved source discrepancies",
+  "source_files_verified": 32,
+  "expression_analysis_run": false,
+  "outputs": {
+    "human_celltype_coverage.tsv": "5090858b3c5ef5516ff6004be313ed39bcf82108f0b549827f0a3d3bf06b1805",
+    "library_design.tsv": "cf6f512b3e06fe76abd04f97ea2a614c804b63c2950d1224be96a5b8b7bbe314",
+    "source_coverage_gates.tsv": "4deb62379b6bc98a70a31d4644222c73c8cf25e65eff134006f97e6cbb72d7e6",
+    "supplement_schema.json": "4461caa4d3609b6445bb849b7344ee68e4b2404fee4de94d4cf004b23168ef4f",
+    "table2_reconciliation.json": "307a37ac37a8a0126d01c41a4a6d48ba9aeebac8d4ab3beb57e53418c588c460",
+    "table2_row_checks.tsv": "32b3a1503e1991d60cfc1e4d2d7eeff0ed34b31cceaac5bb50dec55c805b584d"
+  },
+  "code_sha256": {
+    "00_source_intake.py": "e26ea6cfe6005c35673aaf6000ccb0ea0cc47f35b80ef4ba49bddafa202c89e0",
+    "01_metadata_gate.py": "3d7f875bc4d6a64508996770b7e54631590aaca41c14a4b0a1008e11a4ef9303",
+    "common.py": "d8d8c4fa24c87decb989d14ed5b8c7b6c9f14deb876ce51da32aab8ec55abd22"
+  },
+  "config_sha256": {
+    "pipeline_v1.json": "ce8e02639387d691f2984c7426eb418ea70681f30fdc815d93fe144fd9d70f57",
+    "source_manifest.json": "bd62dde277e0a521bee6991de1806238565b8ea8593d4a5b0fc9d689d909b535"
+  }
+}

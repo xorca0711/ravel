@@ -1,0 +1,349 @@
+assay	donor_id	cluster_id	author_cell_type	source_n_cells	curated_n_cells	delta_curated_minus_source	comparison_status
+SS2	P1	1	Club	640.0	640	0.0	exact_count_match
+10x	P1	1	Club	176.0	176	0.0	exact_count_match
+SS2	P2	1	Club	93.0	93	0.0	exact_count_match
+10x	P2	1	Club	109.0	109	0.0	exact_count_match
+SS2	P3	1	Club	165.0	165	0.0	exact_count_match
+10x	P3	1	Club	646.0	646	0.0	exact_count_match
+SS2	P1	2	Ciliated	196.0	196	0.0	exact_count_match
+10x	P1	2	Ciliated	86.0	86	0.0	exact_count_match
+SS2	P2	2	Ciliated	331.0	331	0.0	exact_count_match
+10x	P2	2	Ciliated	747.0	747	0.0	exact_count_match
+SS2	P3	2	Ciliated	24.0	24	0.0	exact_count_match
+10x	P3	2	Ciliated	488.0	488	0.0	exact_count_match
+SS2	P1	3	Proximal Ciliated		0		source_absence_not_numeric
+10x	P1	3	Proximal Ciliated		0		source_absence_not_numeric
+SS2	P2	3	Proximal Ciliated		0		source_absence_not_numeric
+10x	P2	3	Proximal Ciliated		0		source_absence_not_numeric
+SS2	P3	3	Proximal Ciliated		0		source_absence_not_numeric
+10x	P3	3	Proximal Ciliated	88.0	88	0.0	exact_count_match
+SS2	P1	4	Basal	24.0	24	0.0	exact_count_match
+10x	P1	4	Basal	24.0	24	0.0	exact_count_match
+SS2	P2	4	Basal	86.0	86	0.0	exact_count_match
+10x	P2	4	Basal	181.0	181	0.0	exact_count_match
+SS2	P3	4	Basal	130.0	130	0.0	exact_count_match
+10x	P3	4	Basal	231.0	231	0.0	exact_count_match
+SS2	P1	5	Proximal Basal		0		source_absence_not_numeric
+10x	P1	5	Proximal Basal		0		source_absence_not_numeric
+SS2	P2	5	Proximal Basal		0		source_absence_not_numeric
+10x	P2	5	Proximal Basal		0		source_absence_not_numeric
+SS2	P3	5	Proximal Basal		0		source_absence_not_numeric
+10x	P3	5	Proximal Basal	157.0	157	0.0	exact_count_match
+SS2	P1	6	Differentiating Basal		0		source_absence_not_numeric
+10x	P1	6	Differentiating Basal	63.0	63	0.0	exact_count_match
+SS2	P2	6	Differentiating Basal		0		source_absence_not_numeric
+10x	P2	6	Differentiating Basal		0		source_absence_not_numeric
+SS2	P3	6	Differentiating Basal	43.0	43	0.0	exact_count_match
+10x	P3	6	Differentiating Basal	202.0	202	0.0	exact_count_match
+SS2	P1	7	Proliferating Basal		0		source_absence_not_numeric
+10x	P1	7	Proliferating Basal	8.0	8	0.0	exact_count_match
+SS2	P2	7	Proliferating Basal		0		source_absence_not_numeric
+10x	P2	7	Proliferating Basal		0		source_absence_not_numeric
+SS2	P3	7	Proliferating Basal		0		source_absence_not_numeric
+10x	P3	7	Proliferating Basal	39.0	39	0.0	exact_count_match
+SS2	P1	8	Goblet	11.0	11	0.0	exact_count_match
+10x	P1	8	Goblet		0		source_absence_not_numeric
+SS2	P2	8	Goblet	213.0	213	0.0	exact_count_match
+10x	P2	8	Goblet		0		source_absence_not_numeric
+SS2	P3	8	Goblet	9.0	9	0.0	exact_count_match
+10x	P3	8	Goblet	159.0	159	0.0	exact_count_match
+SS2	P1	9	Mucous		0		source_absence_not_numeric
+10x	P1	9	Mucous		0		source_absence_not_numeric
+SS2	P2	9	Mucous		0		source_absence_not_numeric
+10x	P2	9	Mucous	358.0	358	0.0	exact_count_match
+SS2	P3	9	Mucous		0		source_absence_not_numeric
+10x	P3	9	Mucous	133.0	133	0.0	exact_count_match
+SS2	P1	10	Serous		0		source_absence_not_numeric
+10x	P1	10	Serous		0		source_absence_not_numeric
+SS2	P2	10	Serous		0		source_absence_not_numeric
+10x	P2	10	Serous		0		source_absence_not_numeric
+SS2	P3	10	Serous		0		source_absence_not_numeric
+10x	P3	10	Serous	24.0	24	0.0	exact_count_match
+SS2	P1	11	Ionocyte		0		source_absence_not_numeric
+10x	P1	11	Ionocyte		0		source_absence_not_numeric
+SS2	P2	11	Ionocyte		0		source_absence_not_numeric
+10x	P2	11	Ionocyte		0		source_absence_not_numeric
+SS2	P3	11	Ionocyte	2.0	2	0.0	exact_count_match
+10x	P3	11	Ionocyte	22.0	22	0.0	exact_count_match
+SS2	P1	12	Neuroendocrine	50.0	50	0.0	exact_count_match
+10x	P1	12	Neuroendocrine		0		source_absence_not_numeric
+SS2	P2	12	Neuroendocrine		0		source_absence_not_numeric
+10x	P2	12	Neuroendocrine		0		source_absence_not_numeric
+SS2	P3	12	Neuroendocrine	5.0	5	0.0	exact_count_match
+10x	P3	12	Neuroendocrine	11.0	11	0.0	exact_count_match
+SS2	P1	13	Alveolar Epithelial Type 1	101.0	101	0.0	exact_count_match
+10x	P1	13	Alveolar Epithelial Type 1	26.0	26	0.0	exact_count_match
+SS2	P2	13	Alveolar Epithelial Type 1	101.0	101	0.0	exact_count_match
+10x	P2	13	Alveolar Epithelial Type 1	290.0	290	0.0	exact_count_match
+SS2	P3	13	Alveolar Epithelial Type 1	219.0	219	0.0	exact_count_match
+10x	P3	13	Alveolar Epithelial Type 1	656.0	656	0.0	exact_count_match
+SS2	P1	14	Alveolar Epithelial Type 2	137.0	137	0.0	exact_count_match
+10x	P1	14	Alveolar Epithelial Type 2	494.0	494	0.0	exact_count_match
+SS2	P2	14	Alveolar Epithelial Type 2	369.0	369	0.0	exact_count_match
+10x	P2	14	Alveolar Epithelial Type 2	535.0	535	0.0	exact_count_match
+SS2	P3	14	Alveolar Epithelial Type 2	254.0	254	0.0	exact_count_match
+10x	P3	14	Alveolar Epithelial Type 2	2785.0	2785	0.0	exact_count_match
+SS2	P1	15	Signaling Alveolar Epithelial Type 2	175.0	175	0.0	exact_count_match
+10x	P1	15	Signaling Alveolar Epithelial Type 2		0		source_absence_not_numeric
+SS2	P2	15	Signaling Alveolar Epithelial Type 2		0		source_absence_not_numeric
+10x	P2	15	Signaling Alveolar Epithelial Type 2		0		source_absence_not_numeric
+SS2	P3	15	Signaling Alveolar Epithelial Type 2	26.0	26	0.0	exact_count_match
+10x	P3	15	Signaling Alveolar Epithelial Type 2	669.0	669	0.0	exact_count_match
+SS2	P1	16	Artery	61.0	61	0.0	exact_count_match
+10x	P1	16	Artery	208.0	208	0.0	exact_count_match
+SS2	P2	16	Artery	24.0	24	0.0	exact_count_match
+10x	P2	16	Artery	968.0	968	0.0	exact_count_match
+SS2	P3	16	Artery	7.0	7	0.0	exact_count_match
+10x	P3	16	Artery	308.0	308	0.0	exact_count_match
+SS2	P1	17	Vein		0		source_absence_not_numeric
+10x	P1	17	Vein	154.0	154	0.0	exact_count_match
+SS2	P2	17	Vein	42.0	42	0.0	exact_count_match
+10x	P2	17	Vein	802.0	802	0.0	exact_count_match
+SS2	P3	17	Vein		0		source_absence_not_numeric
+10x	P3	17	Vein	199.0	199	0.0	exact_count_match
+SS2	P1	18	Capillary Aerocyte	154.0	154	0.0	exact_count_match
+10x	P1	18	Capillary Aerocyte	300.0	300	0.0	exact_count_match
+SS2	P2	18	Capillary Aerocyte	443.0	443	0.0	exact_count_match
+10x	P2	18	Capillary Aerocyte	3237.0	3237	0.0	exact_count_match
+SS2	P3	18	Capillary Aerocyte	25.0	25	0.0	exact_count_match
+10x	P3	18	Capillary Aerocyte	815.0	815	0.0	exact_count_match
+SS2	P1	19	Capillary (general)	259.0	259	0.0	exact_count_match
+10x	P1	19	Capillary (general)	572.0	572	0.0	exact_count_match
+SS2	P2	19	Capillary (general)	533.0	533	0.0	exact_count_match
+10x	P2	19	Capillary (general)	5385.0	5385	0.0	exact_count_match
+SS2	P3	19	Capillary (general)	80.0	80	0.0	exact_count_match
+10x	P3	19	Capillary (general)	1434.0	1434	0.0	exact_count_match
+SS2	P1	20	Capillary Intermediate 1		0		source_absence_not_numeric
+10x	P1	20	Capillary Intermediate 1		0		source_absence_not_numeric
+SS2	P2	20	Capillary Intermediate 1	88.0	88	0.0	exact_count_match
+10x	P2	20	Capillary Intermediate 1	628.0	628	0.0	exact_count_match
+SS2	P3	20	Capillary Intermediate 1		0		source_absence_not_numeric
+10x	P3	20	Capillary Intermediate 1		0		source_absence_not_numeric
+SS2	P1	21	Capillary Intermediate 2		0		source_absence_not_numeric
+10x	P1	21	Capillary Intermediate 2		0		source_absence_not_numeric
+SS2	P2	21	Capillary Intermediate 2		0		source_absence_not_numeric
+10x	P2	21	Capillary Intermediate 2	464.0	464	0.0	exact_count_match
+SS2	P3	21	Capillary Intermediate 2		0		source_absence_not_numeric
+10x	P3	21	Capillary Intermediate 2		0		source_absence_not_numeric
+SS2	P1	22	Bronchial Vessel 1	106.0	106	0.0	exact_count_match
+10x	P1	22	Bronchial Vessel 1	127.0	127	0.0	exact_count_match
+SS2	P2	22	Bronchial Vessel 1		0		source_absence_not_numeric
+10x	P2	22	Bronchial Vessel 1		0		source_absence_not_numeric
+SS2	P3	22	Bronchial Vessel 1		0		source_absence_not_numeric
+10x	P3	22	Bronchial Vessel 1	328.0	328	0.0	exact_count_match
+SS2	P1	23	Bronchial Vessel 2		0		source_absence_not_numeric
+10x	P1	23	Bronchial Vessel 2	103.0	103	0.0	exact_count_match
+SS2	P2	23	Bronchial Vessel 2		0		source_absence_not_numeric
+10x	P2	23	Bronchial Vessel 2		0		source_absence_not_numeric
+SS2	P3	23	Bronchial Vessel 2		0		source_absence_not_numeric
+10x	P3	23	Bronchial Vessel 2	132.0	132	0.0	exact_count_match
+SS2	P1	24	Lymphatics	18.0	18	0.0	exact_count_match
+10x	P1	24	Lymphatics	33.0	33	0.0	exact_count_match
+SS2	P2	24	Lymphatics	19.0	19	0.0	exact_count_match
+10x	P2	24	Lymphatics	254.0	254	0.0	exact_count_match
+SS2	P3	24	Lymphatics	7.0	7	0.0	exact_count_match
+10x	P3	24	Lymphatics	180.0	180	0.0	exact_count_match
+SS2	P1	25	Airway Smooth Muscle	272.0	272	0.0	exact_count_match
+10x	P1	25	Airway Smooth Muscle	108.0	108	0.0	exact_count_match
+SS2	P2	25	Airway Smooth Muscle	21.0	21	0.0	exact_count_match
+10x	P2	25	Airway Smooth Muscle	258.0	258	0.0	exact_count_match
+SS2	P3	25	Airway Smooth Muscle	53.0	53	0.0	exact_count_match
+10x	P3	25	Airway Smooth Muscle	327.0	327	0.0	exact_count_match
+SS2	P1	26	Vascular Smooth Muscle	114.0	114	0.0	exact_count_match
+10x	P1	26	Vascular Smooth Muscle		0		source_absence_not_numeric
+SS2	P2	26	Vascular Smooth Muscle	30.0	30	0.0	exact_count_match
+10x	P2	26	Vascular Smooth Muscle	86.0	86	0.0	exact_count_match
+SS2	P3	26	Vascular Smooth Muscle	32.0	32	0.0	exact_count_match
+10x	P3	26	Vascular Smooth Muscle	383.0	383	0.0	exact_count_match
+SS2	P1	27	Myofibroblast		0		source_absence_not_numeric
+10x	P1	27	Myofibroblast	34.0	34	0.0	exact_count_match
+SS2	P2	27	Myofibroblast	10.0	10	0.0	exact_count_match
+10x	P2	27	Myofibroblast	52.0	52	0.0	exact_count_match
+SS2	P3	27	Myofibroblast	42.0	42	0.0	exact_count_match
+10x	P3	27	Myofibroblast	162.0	162	0.0	exact_count_match
+SS2	P1	28	Fibromyocyte		0		source_absence_not_numeric
+10x	P1	28	Fibromyocyte		0		source_absence_not_numeric
+SS2	P2	28	Fibromyocyte		0		source_absence_not_numeric
+10x	P2	28	Fibromyocyte		0		source_absence_not_numeric
+SS2	P3	28	Fibromyocyte	15.0	15	0.0	exact_count_match
+10x	P3	28	Fibromyocyte	98.0	98	0.0	exact_count_match
+SS2	P1	29	Adventitial Fibroblast	54.0	54	0.0	exact_count_match
+10x	P1	29	Adventitial Fibroblast	133.0	133	0.0	exact_count_match
+SS2	P2	29	Adventitial Fibroblast	12.0	12	0.0	exact_count_match
+10x	P2	29	Adventitial Fibroblast	71.0	71	0.0	exact_count_match
+SS2	P3	29	Adventitial Fibroblast	92.0	92	0.0	exact_count_match
+10x	P3	29	Adventitial Fibroblast	353.0	353	0.0	exact_count_match
+SS2	P1	30	Alveolar Fibroblast	80.0	80	0.0	exact_count_match
+10x	P1	30	Alveolar Fibroblast	45.0	45	0.0	exact_count_match
+SS2	P2	30	Alveolar Fibroblast	85.0	85	0.0	exact_count_match
+10x	P2	30	Alveolar Fibroblast	402.0	402	0.0	exact_count_match
+SS2	P3	30	Alveolar Fibroblast	195.0	195	0.0	exact_count_match
+10x	P3	30	Alveolar Fibroblast	849.0	849	0.0	exact_count_match
+SS2	P1	31	Lipofibroblast	20.0	20	0.0	exact_count_match
+10x	P1	31	Lipofibroblast	35.0	35	0.0	exact_count_match
+SS2	P2	31	Lipofibroblast		0		source_absence_not_numeric
+10x	P2	31	Lipofibroblast		0		source_absence_not_numeric
+SS2	P3	31	Lipofibroblast		0		source_absence_not_numeric
+10x	P3	31	Lipofibroblast		0		source_absence_not_numeric
+SS2	P1	32	Pericyte	73.0	73	0.0	exact_count_match
+10x	P1	32	Pericyte	74.0	74	0.0	exact_count_match
+SS2	P2	32	Pericyte	342.0	342	0.0	exact_count_match
+10x	P2	32	Pericyte	1135.0	1135	0.0	exact_count_match
+SS2	P3	32	Pericyte	103.0	103	0.0	exact_count_match
+10x	P3	32	Pericyte	399.0	399	0.0	exact_count_match
+SS2	P1	33	Mesothelial		0		source_absence_not_numeric
+10x	P1	33	Mesothelial	29.0	29	0.0	exact_count_match
+SS2	P2	33	Mesothelial		0		source_absence_not_numeric
+10x	P2	33	Mesothelial		0		source_absence_not_numeric
+SS2	P3	33	Mesothelial		0		source_absence_not_numeric
+10x	P3	33	Mesothelial		0		source_absence_not_numeric
+SS2	P1	34	B	118.0	118	0.0	exact_count_match
+10x	P1	34	B	162.0	162	0.0	exact_count_match
+SS2	P2	34	B	2.0	2	0.0	exact_count_match
+10x	P2	34	B	30.0	30	0.0	exact_count_match
+SS2	P3	34	B	9.0	9	0.0	exact_count_match
+10x	P3	34	B	533.0	533	0.0	exact_count_match
+SS2	P1	35	Plasma		0		source_absence_not_numeric
+10x	P1	35	Plasma	22.0	22	0.0	exact_count_match
+SS2	P2	35	Plasma		0		source_absence_not_numeric
+10x	P2	35	Plasma		0		source_absence_not_numeric
+SS2	P3	35	Plasma	2.0	2	0.0	exact_count_match
+10x	P3	35	Plasma	165.0	165	0.0	exact_count_match
+SS2	P1	36	CD8+ Memory/Effector T	59.0	59	0.0	exact_count_match
+10x	P1	36	CD8+ Memory/Effector T	462.0	462	0.0	exact_count_match
+SS2	P2	36	CD8+ Memory/Effector T		0		source_absence_not_numeric
+10x	P2	36	CD8+ Memory/Effector T	414.0	414	0.0	exact_count_match
+SS2	P3	36	CD8+ Memory/Effector T		0		source_absence_not_numeric
+10x	P3	36	CD8+ Memory/Effector T	314.0	314	0.0	exact_count_match
+SS2	P1	37	CD8+ Naive T	365.0	365	0.0	exact_count_match
+10x	P1	37	CD8+ Naive T	644.0	644	0.0	exact_count_match
+SS2	P2	37	CD8+ Naive T	13.0	13	0.0	exact_count_match
+10x	P2	37	CD8+ Naive T	513.0	513	0.0	exact_count_match
+SS2	P3	37	CD8+ Naive T		0		source_absence_not_numeric
+10x	P3	37	CD8+ Naive T	885.0	885	0.0	exact_count_match
+SS2	P1	38	CD4+ Memory/Effector T	126.0	126	0.0	exact_count_match
+10x	P1	38	CD4+ Memory/Effector T	359.0	359	0.0	exact_count_match
+SS2	P2	38	CD4+ Memory/Effector T		0		source_absence_not_numeric
+10x	P2	38	CD4+ Memory/Effector T	505.0	505	0.0	exact_count_match
+SS2	P3	38	CD4+ Memory/Effector T		0		source_absence_not_numeric
+10x	P3	38	CD4+ Memory/Effector T	2149.0	2149	0.0	exact_count_match
+SS2	P1	39	CD4+ Naive T	122.0	122	0.0	exact_count_match
+10x	P1	39	CD4+ Naive T	338.0	338	0.0	exact_count_match
+SS2	P2	39	CD4+ Naive T	9.0	9	0.0	exact_count_match
+10x	P2	39	CD4+ Naive T	78.0	78	0.0	exact_count_match
+SS2	P3	39	CD4+ Naive T		0		source_absence_not_numeric
+10x	P3	39	CD4+ Naive T	516.0	516	0.0	exact_count_match
+SS2	P1	40	Natural Killer T		0		source_absence_not_numeric
+10x	P1	40	Natural Killer T		0		source_absence_not_numeric
+SS2	P2	40	Natural Killer T	9.0	9	0.0	exact_count_match
+10x	P2	40	Natural Killer T	92.0	92	0.0	exact_count_match
+SS2	P3	40	Natural Killer T	43.0	43	0.0	exact_count_match
+10x	P3	40	Natural Killer T	243.0	243	0.0	exact_count_match
+SS2	P1	41	Natural Killer	379.0	379	0.0	exact_count_match
+10x	P1	41	Natural Killer	553.0	553	0.0	exact_count_match
+SS2	P2	41	Natural Killer	345.0	345	0.0	exact_count_match
+10x	P2	41	Natural Killer	2678.0	2678	0.0	exact_count_match
+SS2	P3	41	Natural Killer	508.0	508	0.0	exact_count_match
+10x	P3	41	Natural Killer	1538.0	1538	0.0	exact_count_match
+SS2	P1	42	Proliferating NK/T		0		source_absence_not_numeric
+10x	P1	42	Proliferating NK/T		0		source_absence_not_numeric
+SS2	P2	42	Proliferating NK/T	7.0	7	0.0	exact_count_match
+10x	P2	42	Proliferating NK/T	59.0	59	0.0	exact_count_match
+SS2	P3	42	Proliferating NK/T	10.0	10	0.0	exact_count_match
+10x	P3	42	Proliferating NK/T	46.0	46	0.0	exact_count_match
+SS2	P1	43	Neutrophil	101.0	101	0.0	exact_count_match
+10x	P1	43	Neutrophil		0		source_absence_not_numeric
+SS2	P2	43	Neutrophil	4.0	4	0.0	exact_count_match
+10x	P2	43	Neutrophil		0		source_absence_not_numeric
+SS2	P3	43	Neutrophil	8.0	8	0.0	exact_count_match
+10x	P3	43	Neutrophil		0		source_absence_not_numeric
+SS2	P1	44	Mast Cell/Basophil Type 1	25.0	25	0.0	exact_count_match
+10x	P1	44	Mast Cell/Basophil Type 1	117.0	117	0.0	exact_count_match
+SS2	P2	44	Mast Cell/Basophil Type 1	7.0	7	0.0	exact_count_match
+10x	P2	44	Mast Cell/Basophil Type 1	765.0	765	0.0	exact_count_match
+SS2	P3	44	Mast Cell/Basophil Type 1	14.0	14	0.0	exact_count_match
+10x	P3	44	Mast Cell/Basophil Type 1	468.0	468	0.0	exact_count_match
+SS2	P1	45	Mast Cell/Basophil Type 2		0		source_absence_not_numeric
+10x	P1	45	Mast Cell/Basophil Type 2		0		source_absence_not_numeric
+SS2	P2	45	Mast Cell/Basophil Type 2		0		source_absence_not_numeric
+10x	P2	45	Mast Cell/Basophil Type 2		0		source_absence_not_numeric
+SS2	P3	45	Mast Cell/Basophil Type 2	0.0	0	0.0	exact_count_match
+10x	P3	45	Mast Cell/Basophil Type 2	552.0	552	0.0	exact_count_match
+SS2	P1	46	Platelet/Megakaryocyte		0		source_absence_not_numeric
+10x	P1	46	Platelet/Megakaryocyte	18.0	18	0.0	exact_count_match
+SS2	P2	46	Platelet/Megakaryocyte		0		source_absence_not_numeric
+10x	P2	46	Platelet/Megakaryocyte		0		source_absence_not_numeric
+SS2	P3	46	Platelet/Megakaryocyte		0		source_absence_not_numeric
+10x	P3	46	Platelet/Megakaryocyte	22.0	22	0.0	exact_count_match
+SS2	P1	47	Macrophage		0		source_absence_not_numeric
+10x	P1	47	Macrophage	3167.0	3167	0.0	exact_count_match
+SS2	P2	47	Macrophage	22.0	22	0.0	exact_count_match
+10x	P2	47	Macrophage	6262.0	6262	0.0	exact_count_match
+SS2	P3	47	Macrophage	10.0	10	0.0	exact_count_match
+10x	P3	47	Macrophage	5305.0	5305	0.0	exact_count_match
+SS2	P1	48	Proliferating Macrophage		0		source_absence_not_numeric
+10x	P1	48	Proliferating Macrophage	31.0	31	0.0	exact_count_match
+SS2	P2	48	Proliferating Macrophage		0		source_absence_not_numeric
+10x	P2	48	Proliferating Macrophage	107.0	107	0.0	exact_count_match
+SS2	P3	48	Proliferating Macrophage		0		source_absence_not_numeric
+10x	P3	48	Proliferating Macrophage	88.0	88	0.0	exact_count_match
+SS2	P1	49	Plasmacytoid Dendritic	7.0	7	0.0	exact_count_match
+10x	P1	49	Plasmacytoid Dendritic	23.0	23	0.0	exact_count_match
+SS2	P2	49	Plasmacytoid Dendritic	4.0	4	0.0	exact_count_match
+10x	P2	49	Plasmacytoid Dendritic	53.0	53	0.0	exact_count_match
+SS2	P3	49	Plasmacytoid Dendritic	2.0	2	0.0	exact_count_match
+10x	P3	49	Plasmacytoid Dendritic	61.0	61	0.0	exact_count_match
+SS2	P1	50	Myeloid Dendritic Type 1	10.0	0	-10.0	count_mismatch
+10x	P1	50	Myeloid Dendritic Type 1	15.0	15	0.0	exact_count_match
+SS2	P2	50	Myeloid Dendritic Type 1		0		source_absence_not_numeric
+10x	P2	50	Myeloid Dendritic Type 1	65.0	65	0.0	exact_count_match
+SS2	P3	50	Myeloid Dendritic Type 1		0		source_absence_not_numeric
+10x	P3	50	Myeloid Dendritic Type 1	51.0	51	0.0	exact_count_match
+SS2	P1	51	Myeloid Dendritic Type 2		0		source_absence_not_numeric
+10x	P1	51	Myeloid Dendritic Type 2	66.0	66	0.0	exact_count_match
+SS2	P2	51	Myeloid Dendritic Type 2		0		source_absence_not_numeric
+10x	P2	51	Myeloid Dendritic Type 2	27.0	27	0.0	exact_count_match
+SS2	P3	51	Myeloid Dendritic Type 2	7.0	7	0.0	exact_count_match
+10x	P3	51	Myeloid Dendritic Type 2	173.0	173	0.0	exact_count_match
+SS2	P1	52	IGSF21+ Dendritic		0		source_absence_not_numeric
+10x	P1	52	IGSF21+ Dendritic	48.0	48	0.0	exact_count_match
+SS2	P2	52	IGSF21+ Dendritic	3.0	3	0.0	exact_count_match
+10x	P2	52	IGSF21+ Dendritic	112.0	112	0.0	exact_count_match
+SS2	P3	52	IGSF21+ Dendritic	5.0	5	0.0	exact_count_match
+10x	P3	52	IGSF21+ Dendritic	120.0	120	0.0	exact_count_match
+SS2	P1	53	EREG+ Dendritic		0		source_absence_not_numeric
+10x	P1	53	EREG+ Dendritic	27.0	27	0.0	exact_count_match
+SS2	P2	53	EREG+ Dendritic		0		source_absence_not_numeric
+10x	P2	53	EREG+ Dendritic	115.0	115	0.0	exact_count_match
+SS2	P3	53	EREG+ Dendritic		0		source_absence_not_numeric
+10x	P3	53	EREG+ Dendritic		0		source_absence_not_numeric
+SS2	P1	54	TREM2+ Dendritic		0		source_absence_not_numeric
+10x	P1	54	TREM2+ Dendritic	59.0	59	0.0	exact_count_match
+SS2	P2	54	TREM2+ Dendritic		0		source_absence_not_numeric
+10x	P2	54	TREM2+ Dendritic		0		source_absence_not_numeric
+SS2	P3	54	TREM2+ Dendritic		0		source_absence_not_numeric
+10x	P3	54	TREM2+ Dendritic	100.0	100	0.0	exact_count_match
+SS2	P1	55	Classical Monocyte	106.0	106	0.0	exact_count_match
+10x	P1	55	Classical Monocyte	607.0	607	0.0	exact_count_match
+SS2	P2	55	Classical Monocyte		0		source_absence_not_numeric
+10x	P2	55	Classical Monocyte	292.0	292	0.0	exact_count_match
+SS2	P3	55	Classical Monocyte		0		source_absence_not_numeric
+10x	P3	55	Classical Monocyte	1178.0	1178	0.0	exact_count_match
+SS2	P1	56	OLR1+ Classical Monocyte		0		source_absence_not_numeric
+10x	P1	56	OLR1+ Classical Monocyte		0		source_absence_not_numeric
+SS2	P2	56	OLR1+ Classical Monocyte		0		source_absence_not_numeric
+10x	P2	56	OLR1+ Classical Monocyte	207.0	207	0.0	exact_count_match
+SS2	P3	56	OLR1+ Classical Monocyte		0		source_absence_not_numeric
+10x	P3	56	OLR1+ Classical Monocyte		0		source_absence_not_numeric
+SS2	P1	57	Nonclassical Monocyte	24.0	24	0.0	exact_count_match
+10x	P1	57	Nonclassical Monocyte	194.0	194	0.0	exact_count_match
+SS2	P2	57	Nonclassical Monocyte	3.0	3	0.0	exact_count_match
+10x	P2	57	Nonclassical Monocyte	269.0	269	0.0	exact_count_match
+SS2	P3	57	Nonclassical Monocyte		0		source_absence_not_numeric
+10x	P3	57	Nonclassical Monocyte	341.0	341	0.0	exact_count_match
+SS2	P1	58	Intermediate Monocyte		0		source_absence_not_numeric
+10x	P1	58	Intermediate Monocyte		0		source_absence_not_numeric
+SS2	P2	58	Intermediate Monocyte	3.0	3	0.0	exact_count_match
+10x	P2	58	Intermediate Monocyte	188.0	188	0.0	exact_count_match
+SS2	P3	58	Intermediate Monocyte	3.0	3	0.0	exact_count_match
+10x	P3	58	Intermediate Monocyte		0		source_absence_not_numeric

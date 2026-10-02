@@ -1,0 +1,23 @@
+{
+  "source_version": {
+    "SS2": "c0ee0004-7bd1-4986-9b66-8a9d3593c0e6",
+    "10x": "f5568ea3-c249-4e4e-91f8-46abc30a5612"
+  },
+  "source_sha256": {
+    "SS2": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+    "10x": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5"
+  },
+  "field_mapping": {
+    "cell_id": "obs.index",
+    "donor_id": "P + donor_id",
+    "sample_id": "sample",
+    "condition": "region: normal -> histologically_normal",
+    "anatomical_region": "location",
+    "author_cell_type": "free_annotation",
+    "raw_library_id": "plate.barcode (SS2) / channel (10x)",
+    "counts_unit": "assay-derived; numerical semantics checked in expression stage"
+  },
+  "author_label_mapping": "identity: preserve source free_annotation without replacement by standardized ontology labels",
+  "matrix_cell_join_status": "verified H5AD row identity and unique obs names",
+  "normalized_metadata_sha256": "95d849c51ef9c1922f4399a80cad04390a3d06b67ddd6195dfa904ad841221cb"
+}

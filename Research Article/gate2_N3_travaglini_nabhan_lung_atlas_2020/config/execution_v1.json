@@ -1,0 +1,34 @@
+{
+  "schema": "TN2020-execution/v1",
+  "declared_on": "2026-10-02",
+  "authorization": "Owner requested staged reproduction, additional analyses and candidate RQ derivation after setup.",
+  "exposure": "Paper, source marker tables, library/cell metadata and first matrix-value samples used to establish count semantics have been inspected. No donor gene-effect estimates were inspected before this contract.",
+  "source_release": "CELLxGENE curated versions recorded in expression_sources_v1.json; current source-linked release, not guaranteed original Seurat bytes",
+  "seed": 20261002,
+  "primary_cell_floor": 20,
+  "sensitivity_cell_floors": [10, 30, 50],
+  "primary_unit": "donor within assay and anatomical region",
+  "small_cohort_rule": "Report individual donor estimates, mean, observed range and leave-one-donor-out summaries; no cell-level population p-values or causal interpretation. Fewer than three eligible donors remains a descriptive coverage hold.",
+  "raw_layer": "raw/X; require nonnegative finite integer values across all stored entries",
+  "normalization": "Per-cell raw counts divided by curated full-gene library sum, scaled to 10000 for 10x and 1000000 for SS2, log1p. Pseudobulk sums use library-total sum and log2(CPM+1). Retain original X means separately and audit agreement.",
+  "gene_mapping": "Exact feature_name; sum multiple stable-ID columns mapping to one symbol, record mappings; report missing genes explicitly. No replacement by an inferred homolog.",
+  "populations": "Author free_annotation is held fixed. Source reproduction includes lung and blood as deposited; biological contrasts use lung only. Assays remain separate.",
+  "panels": {
+    "AT2_source_dotplot": ["SFTPB", "SFTPD", "SFTPA1", "PGC", "HHIP", "WIF1", "CA2", "NNMT", "CP", "TCF7L2", "WNT5A", "LRP5"],
+    "AT2_source_context": ["MUC1", "SFTPC", "ETV5", "AQP1", "ALPL", "CXCL2", "ACSL4", "CDKN1A", "KIAA1324", "CYP4B1", "CEACAM6", "CTNNBIP1", "AQP5", "GSTA1"],
+    "stromal_source_dotplot": ["COL1A2", "BSG", "TAGLN", "ACTA2", "GPC3", "SPINT2", "FGFR4", "SERPINF1", "SFRP2", "PI16", "APOE", "FST", "PLIN2", "ASPN", "WIF1", "FGF18", "SCX", "LGR6", "MYH11", "CNN1", "ACTG2", "COX4I2", "RERGL", "KCNA5"],
+    "regulator_identity": ["MYRF", "TBX5", "NKX2-1", "HOPX", "AGER", "PDPN", "CAV1", "AQP5", "SFTPC", "ETV5", "PECAM1", "RGS5", "PDGFRB", "CSPG4", "MCAM", "KCNJ8", "ABCC9", "ACTA2", "MYH11", "CNN1", "TAGLN", "COL1A1", "COL1A2", "PDGFRA", "DCN", "LUM", "PTPRC", "EPCAM", "CLDN5"],
+    "fibroblast_immune_context": ["CCL2", "CXCL2", "IL32", "CCL13", "CXCL12", "IL1RL1", "C3", "C7", "CFI", "CFD", "CFH", "CFB"],
+    "stress_cycle_controls": ["FOS", "JUN", "HSPA1A", "HSPA1B", "DDIT3", "MKI67", "TOP2A"]
+  },
+  "contrasts": [
+    {"id": "AT2_state", "left": "Signaling Alveolar Epithelial Type 2", "right": "Alveolar Epithelial Type 2", "panels": ["AT2_source_dotplot", "AT2_source_context", "stress_cycle_controls"]},
+    {"id": "fibroblast_identity", "left": "Alveolar Fibroblast", "right": "Adventitial Fibroblast", "panels": ["stromal_source_dotplot", "fibroblast_immune_context", "stress_cycle_controls"]},
+    {"id": "AT1_vs_AT2", "left": "Alveolar Epithelial Type 1", "right": "Alveolar Epithelial Type 2", "panels": ["regulator_identity", "stress_cycle_controls"]},
+    {"id": "pericyte_vs_vascular_muscle", "left": "Pericyte", "right": "Vascular Smooth Muscle", "panels": ["regulator_identity", "stress_cycle_controls"]},
+    {"id": "pericyte_vs_alveolar_fibroblast", "left": "Pericyte", "right": "Alveolar Fibroblast", "panels": ["regulator_identity"]}
+  ],
+  "source_concordance": "Compare exact deposited type counts where labels agree; document broad/specific annotation differences without forcing a match. Reconstruct selected dot-plot summaries and imaging fractions. No claim of a full 58-type unsupervised refit, MAST rerun, spatial replication or complete evolutionary analysis.",
+  "extension_decision": "Use reproduction estimates to select bounded depth, donor/region, assay or comparator sensitivity branches. Freeze a separate follow-up contract after source results and before running those sensitivities.",
+  "figure_assay_note": "AT2 dotplot code is in the SS2 notebook and the published colorbar is ln(CPM+1), whereas the caption names 10x; show both assays with their own scales and retain the source inconsistency."
+}

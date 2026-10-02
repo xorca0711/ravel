@@ -1,0 +1,49 @@
+[
+  {
+    "assay": "SS2",
+    "cells": 9409,
+    "raw_genes": 53514,
+    "selected_genes": 78,
+    "missing_genes": [
+      "AGER",
+      "CFB",
+      "CFD",
+      "HSPA1A",
+      "HSPA1B",
+      "KIAA1324",
+      "MYH11",
+      "PTPRC",
+      "RGS5",
+      "SERPINF1"
+    ],
+    "integer_violations": 0,
+    "negative_entries": 0,
+    "nonfinite_entries": 0,
+    "count_total_min": 39709.0,
+    "count_total_median": 957254.0,
+    "count_total_max": 6745779.0,
+    "median_curated_sum_over_source_library": 0.9859300703496483,
+    "max_abs_selected_log_normalization_difference_to_X": 0.14223683086351535,
+    "mean_abs_selected_log_normalization_difference_to_X": 0.0026333398811790288,
+    "interpretation": "raw/X is numerically count-like and assay-labeled; source X retained separately; curated gene universe may differ from original source universe"
+  },
+  {
+    "assay": "10x",
+    "cells": 65662,
+    "raw_genes": 24769,
+    "selected_genes": 87,
+    "missing_genes": [
+      "KIAA1324"
+    ],
+    "integer_violations": 0,
+    "negative_entries": 0,
+    "nonfinite_entries": 0,
+    "count_total_min": 992.0,
+    "count_total_median": 3998.5,
+    "count_total_max": 135451.0,
+    "median_curated_sum_over_source_library": 0.9980703776149944,
+    "max_abs_selected_log_normalization_difference_to_X": 0.05241858090718177,
+    "mean_abs_selected_log_normalization_difference_to_X": 0.0002256006328081183,
+    "interpretation": "raw/X is numerically count-like and assay-labeled; source X retained separately; curated gene universe may differ from original source universe"
+  }
+]

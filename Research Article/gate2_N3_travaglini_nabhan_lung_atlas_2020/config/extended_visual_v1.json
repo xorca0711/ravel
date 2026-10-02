@@ -1,0 +1,16 @@
+{
+  "schema": "Nb4-extended-visual/v1",
+  "declared_on": "2026-10-02",
+  "exposure": "Targeted expression and external nine-gene pilot inspected; full-gene ranks, embedding fits and pathway enrichments not yet inspected. User requested additional UMAP, PCA, dot plots and enrichment visual aids.",
+  "analysis_label": "Nb4",
+  "historical_namespace": "TN2020 run identifiers are preserved rather than rewritten",
+  "embedding": {"source": "10x normal lung stromal cells", "genes": "top 1500 variance/mean-ranked log1p(CP10K) genes within 20 mean-expression bins; exclude MT-, RPL and RPS prefixes; minimum 10 detected cells", "pca": "30 centered, unscaled PCs; randomized SVD", "umap": {"n_neighbors": 30, "min_dist": 0.4, "metric": "euclidean", "random_state": 20261002, "n_jobs": 1}, "interpretation": "New exploratory projection, no integration, clustering, trajectory or population prevalence claim. Donor/region overlays expose confounding. Original atlas coordinates are t-SNE and displayed under that name."},
+  "pseudobulk": "All curated genes. Source 10x distal alveolar versus adventitial fibroblasts, fixed 20-cell-per-arm primary floor (P1/P3). External single-cell primary strata and four donors from external_pilot_v1; equal mean of stratum logCPM profiles within donor/type. No nuclei in enrichment.",
+  "gene_universe": "Collapse exact duplicate feature_name columns by count sum. Require >=1 CPM in either subtype for at least 2 source donors and at least 3 external donors; use intersection across cohorts. Full gene library denominators before filtering.",
+  "ranking": "Mean within-donor log2(CPM+1) difference, alveolar minus adventitial. Stable gene-symbol ordering for tied values; no cell-level significance tests.",
+  "pca_display": "Separate cohort PCA on same common expressed genes, centered log2(CPM+1), top 2000 variance genes per cohort; no scaling, no joint batch correction; pairs linked by donor.",
+  "hallmark_gsea": {"sets": "existing repo MSigDB h.all.v2024.1.Hs.symbols.gmt", "permutations": 1000, "weight": 1, "min_size": 15, "max_size": 500, "seed": 20261002, "threads": 2, "interpretation": "Gene-set permutation null only, not a donor-level biological significance test; report all sets and FDR within cohort."},
+  "complement_sensitivity": "For preselected HALLMARK_COMPLEMENT, 1000 expression-matched random sets in 20 mean-expression bins; plus-one two-sided Monte Carlo p; descriptive competitive null, not population inference.",
+  "go_bp_ora": {"sets": "existing repo MSigDB c5.go.bp.v2024.1.Hs.symbols.gmt", "foreground": "Separate positive/negative genes with absolute mean paired difference >=1 and same direction in both source donors or >=3/4 external donors", "background": "shared expression-eligible universe, not whole genome", "min_size": 15, "max_size": 500, "test": "hypergeometric overlap; BH across all eligible GO terms and both directions within each cohort", "interpretation": "Exploratory annotation of an effect-selected list, not statistically established DE genes. All terms retained; top plots are result-selected."},
+  "display_selection": "GSEA: strongest 5 positive and 5 negative source NES, retaining external estimates. GO: top 5 per direction/cohort by adjusted p, showing all retained entries regardless of significance. Complement running curves selected before analysis."
+}

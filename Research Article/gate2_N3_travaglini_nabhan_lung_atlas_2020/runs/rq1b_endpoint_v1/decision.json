@@ -1,0 +1,28 @@
+{
+  "question": "Can C3 substitute for the inherited seven-chemokine subtype contrast?",
+  "tested": "sign agreement and fixed/leave-one-gene-out panel diagnostics, not co-regulation",
+  "functional_response": "not measured",
+  "TMM_reproduction": false,
+  "primary_panel_status": [
+    {
+      "assay": "10x",
+      "direction_status": "same",
+      "donors": 2
+    },
+    {
+      "assay": "Madissoon cell",
+      "direction_status": "same",
+      "donors": 4
+    },
+    {
+      "assay": "Madissoon nucleus",
+      "direction_status": "opposite",
+      "donors": 2
+    },
+    {
+      "assay": "SS2",
+      "direction_status": "same",
+      "donors": 2
+    }
+  ]
+}

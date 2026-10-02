@@ -1,0 +1,125 @@
+"""Render descriptive figures from frozen result tables; no additional fitting."""
+from datetime import datetime, timezone
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from common import PACKAGE, read_json, write_json, new_run, finish_record, sha256
+
+
+def main():
+    out = new_run(PACKAGE / 'figures/publication_v1')
+    inputs = {}
+    def table(relative):
+        path = PACKAGE / relative
+        inputs[relative] = sha256(path)
+        return pd.read_csv(path, sep='\t')
+    def save(fig, name):
+        panel=0
+        for ax in fig.axes:
+            if not ax.get_label() == '<colorbar>':
+                ax.text(.0,1.07,chr(97+panel),transform=ax.transAxes,fontweight='bold',fontsize=13)
+                panel+=1
+        fig.savefig(out / (name + '.png'), dpi=300, facecolor='white')
+        fig.savefig(out / (name + '.svg'), facecolor='white')
+        fig.savefig(out / (name + '.pdf'), facecolor='white')
+        plt.close(fig)
+    plt.rcParams.update({'font.family':'DejaVu Sans', 'font.size':10,
+                         'axes.spines.top':False, 'axes.spines.right':False,
+                         'svg.fonttype':'none'})
+    effects = table('runs/reproduction_v1/paired_effects.tsv')
+    contrasts = ['AT2_state','fibroblast_identity','AT1_vs_AT2','pericyte_vs_vascular_muscle','pericyte_vs_alveolar_fibroblast']
+    labels = ['AT2-s / AT2','Alv. / adv. fibroblast','AT1 / AT2','Pericyte / VSM','Pericyte / alv. fibroblast']
+    unit = table('runs/reproduction_v1/unit_expression.tsv')
+    cfg = read_json(PACKAGE / 'config/execution_v1.json')
+    fig, axes = plt.subplots(1,2,figsize=(12,4.6),sharey=True)
+    for ax, assay in zip(axes,['10x','SS2']):
+        u = unit[(unit.assay==assay)&(unit.tissue=='lung')&(unit.anatomical_region=='distal')].drop_duplicates(['donor_id','author_cell_type'])
+        counts = u.set_index(['donor_id','author_cell_type']).n_cells.to_dict()
+        matrix = np.zeros((5,3),dtype=int)
+        for i,c in enumerate(cfg['contrasts']):
+            for j,donor in enumerate(['P1','P2','P3']):
+                matrix[i,j] = min(counts.get((donor,c['left']),0),counts.get((donor,c['right']),0))
+        ax.imshow(matrix>=20,cmap=matplotlib.colors.ListedColormap(['#f7e5ce','#d7e9f0']),vmin=0,vmax=1,aspect='auto')
+        for (i,j),v in np.ndenumerate(matrix): ax.text(j,i,str(v),ha='center',va='center',fontweight='bold')
+        ax.set(xticks=range(3),xticklabels=['P1','P2','P3'],yticks=range(5),yticklabels=labels,title=assay)
+        ax.tick_params(length=0)
+    fig.suptitle('Matched distal-lung coverage limits the available comparisons',fontsize=15)
+    fig.text(.5,.035,'Numbers = cells in the smaller arm. Blue: at least 20 per arm; tan: below the fixed primary floor.\nDonors remain separate; three donors are required for the planned donor-level description.',ha='center',fontsize=10)
+    fig.tight_layout(rect=(0,.12,1,.92));save(fig,'01_donor_coverage')
+
+    pooled = table('runs/reproduction_v1/source_pooled_expression.tsv')
+    genes = cfg['panels']['AT2_source_dotplot']
+    types = ['Alveolar Epithelial Type 2','Signaling Alveolar Epithelial Type 2']
+    fig, axes = plt.subplots(2,1,figsize=(12,6.4))
+    for ax,assay in zip(axes,['10x','SS2']):
+        sub=pooled[(pooled.assay==assay)&pooled.gene.isin(genes)&pooled.author_cell_type.isin(types)]
+        dots=ax.scatter(sub.gene.map({g:i for i,g in enumerate(genes)}),sub.author_cell_type.map({t:i for i,t in enumerate(types)}),s=250*sub.detection_fraction,c=sub.mean_source_X,cmap='viridis',vmin=0,vmax=sub.mean_source_X.max())
+        ax.set(xticks=range(len(genes)),xticklabels=genes,yticks=[0,1],yticklabels=['AT2','AT2-s'],ylim=(-.6,1.6),xlim=(-.5,len(genes)-.5),title=assay+' | author labels pooled across donors')
+        fig.colorbar(dots,ax=ax,pad=.02,label='Mean deposited log expression')
+        for label in ax.get_xticklabels(): label.set_fontstyle('italic')
+    handles=[axes[0].scatter([],[],s=250*p,c='#666') for p in [.25,.5,1]]
+    fig.legend(handles,['25% detected','50% detected','100% detected'],loc='lower center',bbox_to_anchor=(.5,.105),ncol=3,frameon=False)
+    fig.suptitle('Targeted reconstruction of the published AT2 marker panel',fontsize=15)
+    fig.text(.5,.03,'Dot area = detected fraction; colors use separate assay scales. Descriptive source reconstruction only.\nThe source caption, colorbar and notebook disagree on assay; both curated matrices are displayed.',ha='center',fontsize=10)
+    fig.tight_layout(rect=(0,.20,1,.94));save(fig,'02_AT2_source_panel')
+
+    external=table('runs/external_pilot_v1/donor_effects.tsv')
+    genes=['C3','CXCL2','IL32','CCL2','CXCL12']
+    fig,axes=plt.subplots(1,5,figsize=(14,5.6),sharey=True)
+    series=[('Source 10x (2 donors)','#247a9b','o'),('Source SS2 (2 donors)','#8a5799','s'),('External cells (4 donors)','#16784c','D'),('External nuclei (2 donors)','#c87b24','^')]
+    for ax,gene in zip(axes,genes):
+        for idx,(label,color,marker) in enumerate(series):
+            if idx<2:
+                sub=effects[(effects.contrast=='fibroblast_identity')&(effects.assay==['10x','SS2'][idx])&(effects.anatomical_region=='distal')&effects.primary_count_eligible&(effects.gene==gene)]
+                values=sub.delta_log2CPM.to_numpy()
+            else:
+                sub=external[(external.suspension_type==['cell','nucleus'][idx-2])&(external.cell_floor==20)&(external.gene==gene)]
+                values=sub.mean_delta_log2CPM.to_numpy()
+            ax.scatter(idx+np.linspace(-.10,.10,len(values)),values,color=color,marker=marker,s=42,label=label)
+            ax.plot([idx-.18,idx+.18],[values.mean()]*2,color=color,lw=2)
+        ax.axhline(0,c='#555',lw=.8);ax.set(title=gene,xticks=range(4),xticklabels=['10x','SS2','Cells','Nuclei'])
+        ax.title.set_fontstyle('italic')
+        ax.tick_params(axis='x',rotation=45)
+    axes[0].set_ylabel('Alveolar minus adventitial: log2(CPM + 1)')
+    handles,legend=axes[0].get_legend_handles_labels();fig.legend(handles,legend,loc='lower center',bbox_to_anchor=(.5,.08),ncol=2,frameon=False)
+    fig.suptitle('C3 transfers in direction; chemokine contrasts depend on sampling context',fontsize=15)
+    fig.text(.5,.015,'One point per donor; bars = donor means, not confidence intervals. External strata match location, protocol and assay.\nCells and nuclei are separate: CXCL2 reverses in the nuclear subset. Lower values indicate adventitial enrichment.',ha='center',fontsize=10)
+    fig.tight_layout(rect=(0,.23,1,.92));save(fig,'03_fibroblast_transfer')
+
+    alt=table('runs/followup_v1/alternative_comparators.tsv')
+    fig,axes=plt.subplots(1,2,figsize=(12,5.7))
+    panels=[('MYRF',['Alveolar Epithelial Type 2','Club','other epithelial'],['AT2','Club','Other epithelial']),('TBX5',['Alveolar Fibroblast','Vascular Smooth Muscle','other stromal'],['Alv. fibroblast','Vascular muscle','Other stromal'])]
+    for ax,(gene,comparators,short) in zip(axes,panels):
+        for i,(assay,color) in enumerate([('10x','#247a9b'),('SS2','#8a5799')]):
+            for j,comp in enumerate(comparators):
+                values=alt[(alt.gene==gene)&(alt.assay==assay)&(alt.anatomical_region=='distal')&(alt.comparator==comp)].delta_log2CPM.to_numpy()
+                x=j+(-.14 if i==0 else .14)
+                ax.scatter(x+np.linspace(-.06,.06,len(values)),values,color=color,label=assay if j==0 else None)
+                ax.text(x,values.max()+.25,'n='+str(len(values)),ha='center',fontsize=8,color=color)
+        ax.axhline(0,c='#555',lw=.8);ax.set(xticks=range(3),xticklabels=short,title=gene+' | '+('AT1' if gene=='MYRF' else 'pericyte')+' minus comparator',ylabel='Difference in log2(CPM + 1)')
+        ax.margins(y=.22);ax.legend(frameon=False)
+    fig.suptitle('Candidate regulator expression across comparator populations',fontsize=15)
+    fig.text(.5,.025,'Distal lung; minimum 20 cells in each arm; one point per donor. Author annotations are fixed.\nExpression specificity supports reference use, not a demonstrated regulator function or repair outcome.',ha='center',fontsize=10)
+    fig.tight_layout(rect=(0,.13,1,.93));save(fig,'04_regulator_context')
+    depth=table('runs/followup_v1/depth_standardized_detection.tsv')
+    panels=[('MYRF','AT1_vs_AT2'),('TBX5','pericyte_vs_alveolar_fibroblast'),('C3','fibroblast_identity'),('CXCL2','fibroblast_identity'),('IL32','fibroblast_identity'),('CCL2','fibroblast_identity')]
+    fig,axes=plt.subplots(2,3,figsize=(12,8),sharey=True)
+    colors={'P1':'#247a9b','P2':'#8a5799','P3':'#c87b24'}
+    for ax,(gene,contrast) in zip(axes.flat,panels):
+        sub=depth[(depth.gene==gene)&(depth.contrast==contrast)&(depth.anatomical_region=='distal')&depth.primary_count_eligible]
+        for row in sub.itertuples():
+            ax.plot([0,1],[row.delta_observed_detection,row.delta_expected_detection_at_1000],color=colors[row.donor_id],marker='o',lw=1.3,label=row.donor_id)
+        ax.axhline(0,c='#555',lw=.8);ax.set(xticks=[0,1],xticklabels=['Observed','1,000 UMI expectation'],title=gene+' (n='+str(len(sub))+')',xlim=(-.25,1.25),ylabel='Difference in detected fraction')
+        ax.title.set_fontstyle('italic')
+    fig.suptitle('Within-donor detection contrasts after equal-depth sampling',fontsize=15)
+    handles,labels=axes[0,0].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',bbox_to_anchor=(.5,.075),ncol=3,frameon=False)
+    fig.text(.5,.015,'10x distal lung; exact expectation from sampling 1,000 molecules without replacement. Lines connect the same donor.\nContrasts: MYRF, AT1 − AT2; TBX5, pericyte − alveolar fibroblast; other genes, alveolar − adventitial fibroblast.',ha='center',fontsize=10)
+    fig.tight_layout(rect=(0,.15,1,.94));save(fig,'05_depth_sensitivity')
+    write_json(out/'figure_inputs.json',inputs)
+    finish_record(out,{'schema':'TN2020-figures/v1','completed_at_utc':datetime.now(timezone.utc).isoformat(),'status':'five descriptive figures generated from frozen tables'})
+    print('Wrote five PNG/SVG figures with input hashes and code snapshot.')
+
+
+if __name__=='__main__':main()

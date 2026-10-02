@@ -1,0 +1,95 @@
+source_id	library_id	donor_id	assay	tissue	source_region_field	anatomical_location	sampling_label	use
+library_metadata_P1_10x	P1_1	1	10x	blood	normal	NA	NA	candidate_normal
+library_metadata_P1_10x	P1_2	1	10x	lung	normal	distal	epithelial	candidate_normal
+library_metadata_P1_10x	P1_3	1	10x	lung	normal	distal	immune and endothelial	candidate_normal
+library_metadata_P1_10x	P1_4	1	10x	lung	normal	distal	stromal	candidate_normal
+library_metadata_P1_10x	P1_5	1	10x	lung	tumor	tumor	immune and endothelial	exclude_or_resolve
+library_metadata_P1_10x	P1_6	1	10x	lung	tumor	tumor	epithelial and stromal	exclude_or_resolve
+library_metadata_P1_10x	P1_7	1	10x	lung	tumor	tumor	immune and endothelial	exclude_or_resolve
+library_metadata_P1_SS2	B001233	1	SS2	lung	tumor	tumor	Epcam (+)	exclude_or_resolve
+library_metadata_P1_SS2	B001231	1	SS2	lung	tumor	tumor	Epcam (+)	exclude_or_resolve
+library_metadata_P1_SS2	B001230	1	SS2	lung	tumor	tumor	Epcam (+)	exclude_or_resolve
+library_metadata_P1_SS2	B001232	1	SS2	lung	tumor	tumor	Epcam (+)	exclude_or_resolve
+library_metadata_P1_SS2	B001236	1	SS2	lung	tumor	tumor	Epcam (+)	exclude_or_resolve
+library_metadata_P1_SS2	B001234	1	SS2	lung	normal	distal	Epcam (+)	candidate_normal
+library_metadata_P1_SS2	B001235	1	SS2	lung	normal	distal	Epcam (+)	candidate_normal
+library_metadata_P1_SS2	B001237	1	SS2	lung	normal	distal	Epcam (+)	candidate_normal
+library_metadata_P1_SS2	B001226	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B001227	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B001228	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B001229	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B002578	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B002579	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B002580	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B002581	1	SS2	lung	tumor	tumor	Epcam (+)	exclude_or_resolve
+library_metadata_P1_SS2	B002589	1	SS2	lung	tumor	tumor	Epcam (+)	exclude_or_resolve
+library_metadata_P1_SS2	B001222	1	SS2	lung	normal	distal	Epcam (+)	candidate_normal
+library_metadata_P1_SS2	B001223	1	SS2	lung	normal	distal	Epcam (+)	candidate_normal
+library_metadata_P1_SS2	B001224	1	SS2	lung	normal	distal	Epcam (+)	candidate_normal
+library_metadata_P1_SS2	B001225	1	SS2	lung	normal	distal	Epcam (+)	candidate_normal
+library_metadata_P1_SS2	B001239	1	SS2	lung	normal	distal	Epcam (+)	candidate_normal
+library_metadata_P1_SS2	B002591	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B002593	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B002592	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B002586	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B001238	1	SS2	lung	normal	distal	Epcam (-)	candidate_normal
+library_metadata_P1_SS2	B001240	1	SS2	lung	tumor	tumor	Epcam (-)	exclude_or_resolve
+library_metadata_P1_SS2	B001241	1	SS2	lung	tumor	tumor	Epcam (-)	exclude_or_resolve
+library_metadata_P1_SS2	B002587	1	SS2	lung	tumor	tumor	Epcam (-)	exclude_or_resolve
+library_metadata_P1_SS2	B002588	1	SS2	lung	tumor	tumor	Epcam (-)	exclude_or_resolve
+library_metadata_P1_SS2	BP1	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP2	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP3	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP4	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP5	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP6	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP7	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP8	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP9	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP10	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP11	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P1_SS2	BP12	1	SS2	blood	normal	blood	multiple	candidate_normal
+library_metadata_P2_10x	P2_1	2	10x	lung	normal	distal	epithelial	candidate_normal
+library_metadata_P2_10x	P2_2	2	10x	lung	normal	distal	immune and endothelial	candidate_normal
+library_metadata_P2_10x	P2_3	2	10x	lung	normal	medial	immune and endothelial	candidate_normal
+library_metadata_P2_10x	P2_4	2	10x	lung	normal	medial	epithelial	candidate_normal
+library_metadata_P2_10x	P2_5	2	10x	lung	normal	distal	stromal	candidate_normal
+library_metadata_P2_10x	P2_6	2	10x	lung	normal	medial	epithelial	candidate_normal
+library_metadata_P2_10x	P2_7	2	10x	lung	normal	distal	epithelial	candidate_normal
+library_metadata_P2_10x	P2_8	2	10x	lung	normal	medial	stromal	candidate_normal
+library_metadata_P2_SS2	B002014	2	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B002382	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B002383	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B002385	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B002386	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003133	2	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003134	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003135	2	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003136	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003137	2	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003138	2	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003139	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003140	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003141	2	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P2_SS2	B003142	2	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P3_10x	P3_2	3	10x	lung	normal	proximal	mmune and endothelial	candidate_normal
+library_metadata_P3_10x	P3_3	3	10x	lung	normal	proximal	epithelial	candidate_normal
+library_metadata_P3_10x	P3_4	3	10x	lung	normal	proximal	stromal	candidate_normal
+library_metadata_P3_10x	P3_5	3	10x	lung	normal	distal	stromal	candidate_normal
+library_metadata_P3_10x	P3_6	3	10x	lung	normal	distal	epithelial	candidate_normal
+library_metadata_P3_10x	P3_7	3	10x	lung	normal	distal	immune and endothelial	candidate_normal
+library_metadata_P3_10x	P3_8	3	10x	blood	normal	blood	blood	candidate_normal
+library_metadata_P3_SS2	B001780	3	SS2	lung	tumor		Epcam+	exclude_or_resolve
+library_metadata_P3_SS2	B001770	3	SS2	lung	tumor		Epcam-	exclude_or_resolve
+library_metadata_P3_SS2	B001769	3	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B002464	3	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B001774	3	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B001771	3	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B001772	3	SS2	lung	normal	distal	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B002462	3	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B001773	3	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B002461	3	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B002463	3	SS2	lung	normal	medial	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B003270	3	SS2	lung	normal	proximal	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B003269	3	SS2	lung	normal	proximal	Ecpam, CD45	candidate_normal
+library_metadata_P3_SS2	B002460	3	SS2	lung	normal	proximal	Ecpam, CD45	candidate_normal

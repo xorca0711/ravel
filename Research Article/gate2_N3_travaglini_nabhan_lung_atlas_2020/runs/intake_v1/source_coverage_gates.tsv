@@ -1,0 +1,17 @@
+contrast	assay	cell_floor	eligible_donors_from_table2	n_eligible_donors	passes_count_floor_only	expression_gate
+AT2_state	10x	20	P3	1	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+AT2_state	10x	10	P3	1	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+AT2_state	10x	30	P3	1	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+AT2_state	10x	50	P3	1	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+AT2_state	SS2	20	P1,P3	2	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+AT2_state	SS2	10	P1,P3	2	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+AT2_state	SS2	30	P1	1	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+AT2_state	SS2	50	P1	1	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+fibroblast_identity	10x	20	P1,P2,P3	3	True	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+fibroblast_identity	10x	10	P1,P2,P3	3	True	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+fibroblast_identity	10x	30	P1,P2,P3	3	True	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+fibroblast_identity	10x	50	P2,P3	2	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+fibroblast_identity	SS2	20	P1,P3	2	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+fibroblast_identity	SS2	10	P1,P2,P3	3	True	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+fibroblast_identity	SS2	30	P1,P3	2	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending
+fibroblast_identity	SS2	50	P1,P3	2	False	NOT_ASSESSED: cell metadata, region matching and count semantics pending

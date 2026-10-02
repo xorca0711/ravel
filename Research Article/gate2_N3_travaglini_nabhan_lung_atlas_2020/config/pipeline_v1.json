@@ -1,0 +1,43 @@
+{
+  "schema": "TN2020-planning/v1",
+  "created_on": "2026-10-02",
+  "package_id": "TN2020",
+  "folder_gate": "2N-N3",
+  "status": "source intake complete; expression analysis not executed",
+  "scope": "Human lung identity, epithelial-stromal context and bounded species transfer",
+  "exposure": "Owner has read paper. Agent inspected paper, notes, supplements and author code before this specification. Source-informed planning, not unseen-data preregistration.",
+  "source_code_commit": "899dd282c36db5b09ded8f522fa3ba239fad1347",
+  "source_publication_counts": {"10x": 65662, "SS2": 9404, "donors": 3, "cell_populations": 58},
+  "primary_unit": "donor; retain assay, region, sorting fraction and library nesting",
+  "cell_floors": {"primary": 20, "sensitivity": [10, 30, 50], "minimum_donors": 3},
+  "floor_interpretation": "Planning floors for descriptive stability only; not a power calculation or evidence of independent replication. Regions and assays do not add donors.",
+  "source_qc": {
+    "10x": {"min_detected_genes": 500, "min_UMIs": 1000, "normalization_scale": 10000},
+    "SS2": {"min_detected_genes": 500, "min_mapped_reads": 50000, "normalization_scale": 1000000},
+    "scope": "Historical paper settings; mapping and original filter order must be recovered before claiming an exact rerun. Do not apply a UMI threshold to SS2 reads."
+  },
+  "metadata_contract": {
+    "format": "UTF-8 TSV, one row per cell; field mapping must be separately documented",
+    "required": ["cell_id", "donor_id", "assay", "sample_id", "tissue", "condition", "anatomical_region", "author_cell_type", "raw_library_id", "counts_unit"],
+    "assays": ["10x", "SS2"],
+    "counts_unit_by_assay": {"10x": "UMI", "SS2": "read_count"},
+    "eligible_tissue": "lung",
+    "eligible_condition": "histologically_normal",
+    "unknown_tokens": ["", "NA", "N/A", "unknown", "unresolved", "None", "nan"],
+    "join_key": ["assay", "raw_library_id", "cell_id"],
+    "require_mapping_provenance": true
+  },
+  "contrasts": [
+    {"id": "AT2_state", "left": "Signaling Alveolar Epithelial Type 2", "right": "Alveolar Epithelial Type 2", "question": "Are source-defined AT2 expression differences consistent across eligible donors within assay and region?", "initial_gate": "hold: Table 2 has AT2-s in one 10x donor and two SS2 donors"},
+    {"id": "fibroblast_identity", "left": "Alveolar Fibroblast", "right": "Adventitial Fibroblast", "question": "Which expression distinctions persist within donor and assay without conflating subtype with region?", "initial_gate": "pending cell metadata, anatomical coverage and raw-count checks"}
+  ],
+  "stages": [
+    {"id": "TN0", "task": "Hash and audit supplements and library design", "status": "implemented and run", "entrypoint": "scripts/00_source_intake.py", "output": "runs/intake_v1"},
+    {"id": "TN1", "task": "Versioned cell-metadata, nesting and contrast coverage", "status": "validator implemented; actual cell input pending", "entrypoint": "scripts/01_metadata_gate.py", "output": "new runs/metadata_* directory"},
+    {"id": "TN2", "task": "Recover source counts and reproduce selected source expression displays", "status": "specified; implementation pending after TN1", "output": "new run with donor/assay/source concordance"},
+    {"id": "TN3", "task": "Eligible donor-level AT2, fibroblast and TF descriptions", "status": "specified; unrun", "output": "per-donor estimates and rival checks"},
+    {"id": "TN4", "task": "Cross-species and external-reference eligibility", "status": "specified; unrun", "output": "orthology, age and dataset-overlap audit"},
+    {"id": "TN5", "task": "Synthesize decisions and route eligible extensions to existing RQs", "status": "specified; unrun", "output": "interpretation report and provenance-linked figure gallery"}
+  ],
+  "prohibited_inferences": ["cells as independent donors", "RNA coexpression as functional signaling", "AT2-s label as validated stemness", "normal cross-sectional atlas as injury trajectory", "reference reuse as independent replication", "captured-cell frequency as tissue prevalence"]
+}

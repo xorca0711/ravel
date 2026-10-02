@@ -1,0 +1,18 @@
+{
+  "schema": "TN2020-external-pilot/v1",
+  "declared_on": "2026-10-02",
+  "exposure": "Source reproduction and follow-ups seen; independent atlas publication, dataset inventory and cell metadata seen; external gene effects not inspected before this contract.",
+  "question": "Does the alveolar-versus-adventitial C3 contrast transfer more consistently than a generalized chemokine direction in an independent normal-lung dataset?",
+  "genes": ["C3", "IL32", "CXCL2", "CCL2", "CXCL12", "SPINT2", "SFRP2", "GPC3", "PI16"],
+  "left_label": "Fibro_alveolar",
+  "right_label": "Fibro_adventitial",
+  "primary_population": "normal single cells in Lower Left Lobe or Upper left lobe; retain those exact anatomical locations separately in matched strata",
+  "secondary_population": "nuclei in the same explicit lobe locations; exclude Mix and all airway locations; assay-separated technical context only",
+  "matching_fields": ["donor_id", "suspension_type", "assay_ontology_term_id", "Location_long", "Protocol_plot"],
+  "minimum_cells_each_arm": 20,
+  "sensitivity_cell_floor": 10,
+  "expression": "raw/X integer nonnegative counts, exact feature_name mapping, all-curated-gene library sums; log2(CPM+1) pseudobulk differences left minus right",
+  "donor_summary": "Equal mean of within-donor eligible assay/location/protocol stratum effects, separately for cells and nuclei. Donors, not strata, form the summary unit; show all stratum effects and heterogeneity.",
+  "interpretation": "Independent study cohort; annotation still source-defined and related to published markers. This is a descriptive external transfer pilot, not an untouched confirmatory experiment or a test of injury response.",
+  "outcomes": "Report individual donor directions, mean/range and cohort eligibility. No threshold search, biological p-values, score reweighting or causal RQ promotion."
+}

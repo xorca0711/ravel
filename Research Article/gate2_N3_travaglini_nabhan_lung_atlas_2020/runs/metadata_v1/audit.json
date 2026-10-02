@@ -1,0 +1,66 @@
+{
+  "errors": [],
+  "excluded": {
+    "blood|histologically_normal": 5421
+  },
+  "objects": [
+    {
+      "assay": "SS2",
+      "dataset_version": "c0ee0004-7bd1-4986-9b66-8a9d3593c0e6",
+      "n_cells": 9409,
+      "n_genes": 53514,
+      "raw_shape": [
+        9409,
+        53514
+      ],
+      "donors": {
+        "1": 3987,
+        "2": 3273,
+        "3": 2149
+      },
+      "tissue": {
+        "lung": 8657,
+        "blood": 752
+      },
+      "locations": {
+        "distal": 6407,
+        "medial": 1850,
+        "blood": 752,
+        "proximal": 400
+      },
+      "curation": "CELLxGENE standardized cell_type is not substituted for the source free_annotation",
+      "matrix_cell_join": "obs rows and matrix rows are in the same H5AD with unique obs names",
+      "unique_obs_names": true
+    },
+    {
+      "assay": "10x",
+      "dataset_version": "f5568ea3-c249-4e4e-91f8-46abc30a5612",
+      "n_cells": 65662,
+      "n_genes": 24769,
+      "raw_shape": [
+        65662,
+        24769
+      ],
+      "donors": {
+        "2": 28793,
+        "3": 27125,
+        "1": 9744
+      },
+      "tissue": {
+        "lung": 60993,
+        "blood": 4669
+      },
+      "locations": {
+        "distal": 42969,
+        "medial": 10251,
+        "proximal": 7773,
+        "blood": 4669
+      },
+      "curation": "CELLxGENE standardized cell_type is not substituted for the source free_annotation",
+      "matrix_cell_join": "obs rows and matrix rows are in the same H5AD with unique obs names",
+      "unique_obs_names": true
+    }
+  ],
+  "normal_lung_cells": 69650,
+  "interpretation": "metadata eligibility only; no biological fit"
+}

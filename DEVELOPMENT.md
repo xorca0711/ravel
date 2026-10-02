@@ -2300,3 +2300,22 @@ The delivery dependency audit found that the repository's broad PDF ignore rule 
 The executed analyses weaken the broad A22 operational predictor and do not
 support increased transporter RNA as an A23 buffering explanation. They do
 not establish causal absence or change the owner's retain/reject decisions.
+
+## Nb4 execution and publication request, 2 October 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-02 | Nb4 article analysis, figures and PR submission | Codex implementation following the owner’s reading and scope | Owner authorized execution, analysis label, hierarchy and publication; scientific acceptance pending | Submit the bounded study package for review | Keep source reproduction, exploratory extensions and missing evidence distinguishable; details remain [article-local](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/EXECUTION.md) |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-02 | Numerically led figure captions and crowded annotations | Owner requested biological rationale first; visual review identified crowded labels | Owner directed caption style; Codex revised captions and retained versioned renders |
+
+### Nb4 sequential RQ follow-through, 3 October 2026
+
+The owner requested scoping, evidence consolidation, separate pipelines and
+sequential execution before reporting. The article-local
+[completed sequence](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md)
+records three executed branches and retained biological endpoint holds. No
+global claim grade or scientific acceptance decision changes. The PR includes
+the results, fifteen-figure gallery and expanded archive checks.

@@ -1,0 +1,62 @@
+[
+  {
+    "cohort": "Travaglini",
+    "assay": "SS2",
+    "mapping": {
+      "MYRF": 1,
+      "AGER": 0,
+      "HOPX": 1,
+      "PDPN": 1,
+      "AQP5": 1
+    }
+  },
+  {
+    "cohort": "Travaglini",
+    "assay": "10x",
+    "mapping": {
+      "MYRF": 1,
+      "AGER": 1,
+      "HOPX": 1,
+      "PDPN": 1,
+      "AQP5": 1
+    }
+  },
+  {
+    "cohort": "Murthy",
+    "mapping": [
+      {
+        "sample_id": "DD046Q",
+        "mapping": {
+          "MYRF": 1,
+          "AGER": 1,
+          "HOPX": 1,
+          "PDPN": 1,
+          "AQP5": 1
+        },
+        "joined_cells": 1959
+      },
+      {
+        "sample_id": "DD047Q",
+        "mapping": {
+          "MYRF": 1,
+          "AGER": 1,
+          "HOPX": 1,
+          "PDPN": 1,
+          "AQP5": 1
+        },
+        "joined_cells": 4331
+      },
+      {
+        "sample_id": "DD073R",
+        "mapping": {
+          "MYRF": 1,
+          "AGER": 1,
+          "HOPX": 1,
+          "PDPN": 1,
+          "AQP5": 1
+        },
+        "joined_cells": 1156
+      }
+    ]
+  }
+]

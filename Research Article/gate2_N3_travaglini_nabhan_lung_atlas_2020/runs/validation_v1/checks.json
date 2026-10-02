@@ -1,0 +1,37 @@
+[
+  {
+    "check": "frozen_records",
+    "status": "pass",
+    "detail": "13 existing runs; 118 outputs and all recorded code/config hashes"
+  },
+  {
+    "check": "python_syntax",
+    "status": "pass",
+    "detail": "All current package scripts parse"
+  },
+  {
+    "check": "hypergeometric_math",
+    "status": "pass",
+    "detail": "20 boundary/large-library cases agree with scipy.stats.hypergeom.sf to 1e-8 absolute tolerance"
+  },
+  {
+    "check": "source_count_spot_checks",
+    "status": "pass",
+    "detail": "Independent AnnData reads: six full cell-library sums, 24 gene counts, four donor/type pseudobulks agree"
+  },
+  {
+    "check": "external_count_and_units",
+    "status": "pass",
+    "detail": "Independent raw C3 stratum calculation; four primary cell donors and two separate nuclear donors"
+  },
+  {
+    "check": "extended_analysis",
+    "status": "pass",
+    "detail": "18 focal rank effects agree with prior independent calculations; all GO p/BH q recomputed; 98 GSEA scores independently checked; finite unique UMAP coordinates; 12-page atlas"
+  },
+  {
+    "check": "package_links",
+    "status": "pass",
+    "detail": "168 local Markdown targets exist; corrected the A8 link to its canonical register because its local folder contains only a related-candidate note"
+  }
+]

@@ -1,0 +1,349 @@
+cluster_id	compartment	author_cell_type	short_name	donor_id	assay	n_cells	source_count_status	source_row	source_location
+1	Epithelial	Club	Club	P1	SS2	640	numeric	3	Bronchioles
+1	Epithelial	Club	Club	P1	10x	176	numeric	3	Bronchioles
+1	Epithelial	Club	Club	P2	SS2	93	numeric	3	Bronchioles
+1	Epithelial	Club	Club	P2	10x	109	numeric	3	Bronchioles
+1	Epithelial	Club	Club	P3	SS2	165	numeric	3	Bronchioles
+1	Epithelial	Club	Club	P3	10x	646	numeric	3	Bronchioles
+2	Epithelial	Ciliated	Cil	P1	SS2	196	numeric	4	Airways
+2	Epithelial	Ciliated	Cil	P1	10x	86	numeric	4	Airways
+2	Epithelial	Ciliated	Cil	P2	SS2	331	numeric	4	Airways
+2	Epithelial	Ciliated	Cil	P2	10x	747	numeric	4	Airways
+2	Epithelial	Ciliated	Cil	P3	SS2	24	numeric	4	Airways
+2	Epithelial	Ciliated	Cil	P3	10x	488	numeric	4	Airways
+3	Epithelial	Proximal Ciliated	Cil-px	P1	SS2		not_reported_dash_or_blank	5	PS airway
+3	Epithelial	Proximal Ciliated	Cil-px	P1	10x		not_reported_dash_or_blank	5	PS airway
+3	Epithelial	Proximal Ciliated	Cil-px	P2	SS2		not_reported_dash_or_blank	5	PS airway
+3	Epithelial	Proximal Ciliated	Cil-px	P2	10x		not_reported_dash_or_blank	5	PS airway
+3	Epithelial	Proximal Ciliated	Cil-px	P3	SS2		not_reported_dash_or_blank	5	PS airway
+3	Epithelial	Proximal Ciliated	Cil-px	P3	10x	88	numeric	5	PS airway
+4	Epithelial	Basal	Bas	P1	SS2	24	numeric	6	Airway
+4	Epithelial	Basal	Bas	P1	10x	24	numeric	6	Airway
+4	Epithelial	Basal	Bas	P2	SS2	86	numeric	6	Airway
+4	Epithelial	Basal	Bas	P2	10x	181	numeric	6	Airway
+4	Epithelial	Basal	Bas	P3	SS2	130	numeric	6	Airway
+4	Epithelial	Basal	Bas	P3	10x	231	numeric	6	Airway
+5	Epithelial	Proximal Basal	Bas-px	P1	SS2		not_reported_dash_or_blank	7	PS airway
+5	Epithelial	Proximal Basal	Bas-px	P1	10x		not_reported_dash_or_blank	7	PS airway
+5	Epithelial	Proximal Basal	Bas-px	P2	SS2		not_reported_dash_or_blank	7	PS airway
+5	Epithelial	Proximal Basal	Bas-px	P2	10x		not_reported_dash_or_blank	7	PS airway
+5	Epithelial	Proximal Basal	Bas-px	P3	SS2		not_reported_dash_or_blank	7	PS airway
+5	Epithelial	Proximal Basal	Bas-px	P3	10x	157	numeric	7	PS airway
+6	Epithelial	Differentiating Basal	Bas-d	P1	SS2		not_reported_dash_or_blank	8	Airway
+6	Epithelial	Differentiating Basal	Bas-d	P1	10x	63	numeric	8	Airway
+6	Epithelial	Differentiating Basal	Bas-d	P2	SS2		not_reported_dash_or_blank	8	Airway
+6	Epithelial	Differentiating Basal	Bas-d	P2	10x		not_reported_dash_or_blank	8	Airway
+6	Epithelial	Differentiating Basal	Bas-d	P3	SS2	43	numeric	8	Airway
+6	Epithelial	Differentiating Basal	Bas-d	P3	10x	202	numeric	8	Airway
+7	Epithelial	Proliferating Basal	Bas-p	P1	SS2		not_reported_dash_or_blank	9	Airway
+7	Epithelial	Proliferating Basal	Bas-p	P1	10x	8	numeric	9	Airway
+7	Epithelial	Proliferating Basal	Bas-p	P2	SS2		not_reported_dash_or_blank	9	Airway
+7	Epithelial	Proliferating Basal	Bas-p	P2	10x		not_reported_dash_or_blank	9	Airway
+7	Epithelial	Proliferating Basal	Bas-p	P3	SS2		not_reported_dash_or_blank	9	Airway
+7	Epithelial	Proliferating Basal	Bas-p	P3	10x	39	numeric	9	Airway
+8	Epithelial	Goblet	Gob	P1	SS2	11	numeric	10	Airway
+8	Epithelial	Goblet	Gob	P1	10x		not_reported_dash_or_blank	10	Airway
+8	Epithelial	Goblet	Gob	P2	SS2	213	numeric	10	Airway
+8	Epithelial	Goblet	Gob	P2	10x		not_reported_dash_or_blank	10	Airway
+8	Epithelial	Goblet	Gob	P3	SS2	9	numeric	10	Airway
+8	Epithelial	Goblet	Gob	P3	10x	159	numeric	10	Airway
+9	Epithelial	Mucous	Muc	P1	SS2		not_reported_dash_or_blank	11	SMG
+9	Epithelial	Mucous	Muc	P1	10x		not_reported_dash_or_blank	11	SMG
+9	Epithelial	Mucous	Muc	P2	SS2		not_reported_dash_or_blank	11	SMG
+9	Epithelial	Mucous	Muc	P2	10x	358	numeric	11	SMG
+9	Epithelial	Mucous	Muc	P3	SS2		not_reported_dash_or_blank	11	SMG
+9	Epithelial	Mucous	Muc	P3	10x	133	numeric	11	SMG
+10	Epithelial	Serous	Ser	P1	SS2		not_reported_dash_or_blank	12	SMG
+10	Epithelial	Serous	Ser	P1	10x		not_reported_dash_or_blank	12	SMG
+10	Epithelial	Serous	Ser	P2	SS2		not_reported_dash_or_blank	12	SMG
+10	Epithelial	Serous	Ser	P2	10x		not_reported_dash_or_blank	12	SMG
+10	Epithelial	Serous	Ser	P3	SS2		not_reported_dash_or_blank	12	SMG
+10	Epithelial	Serous	Ser	P3	10x	24	numeric	12	SMG
+11	Epithelial	Ionocyte	Ion	P1	SS2		not_reported_dash_or_blank	13	Airway and SMG
+11	Epithelial	Ionocyte	Ion	P1	10x		not_reported_dash_or_blank	13	Airway and SMG
+11	Epithelial	Ionocyte	Ion	P2	SS2		not_reported_dash_or_blank	13	Airway and SMG
+11	Epithelial	Ionocyte	Ion	P2	10x		not_reported_dash_or_blank	13	Airway and SMG
+11	Epithelial	Ionocyte	Ion	P3	SS2	2	numeric	13	Airway and SMG
+11	Epithelial	Ionocyte	Ion	P3	10x	22	numeric	13	Airway and SMG
+12	Epithelial	Neuroendocrine	NE	P1	SS2	50	numeric	14	Airway
+12	Epithelial	Neuroendocrine	NE	P1	10x		not_reported_dash_or_blank	14	Airway
+12	Epithelial	Neuroendocrine	NE	P2	SS2		not_reported_dash_or_blank	14	Airway
+12	Epithelial	Neuroendocrine	NE	P2	10x		not_reported_dash_or_blank	14	Airway
+12	Epithelial	Neuroendocrine	NE	P3	SS2	5	numeric	14	Airway
+12	Epithelial	Neuroendocrine	NE	P3	10x	11	numeric	14	Airway
+13	Epithelial	Alveolar Epithelial Type 1	AT1	P1	SS2	101	numeric	15	Alveoli
+13	Epithelial	Alveolar Epithelial Type 1	AT1	P1	10x	26	numeric	15	Alveoli
+13	Epithelial	Alveolar Epithelial Type 1	AT1	P2	SS2	101	numeric	15	Alveoli
+13	Epithelial	Alveolar Epithelial Type 1	AT1	P2	10x	290	numeric	15	Alveoli
+13	Epithelial	Alveolar Epithelial Type 1	AT1	P3	SS2	219	numeric	15	Alveoli
+13	Epithelial	Alveolar Epithelial Type 1	AT1	P3	10x	656	numeric	15	Alveoli
+14	Epithelial	Alveolar Epithelial Type 2	AT2	P1	SS2	137	numeric	16	Alveoli
+14	Epithelial	Alveolar Epithelial Type 2	AT2	P1	10x	494	numeric	16	Alveoli
+14	Epithelial	Alveolar Epithelial Type 2	AT2	P2	SS2	369	numeric	16	Alveoli
+14	Epithelial	Alveolar Epithelial Type 2	AT2	P2	10x	535	numeric	16	Alveoli
+14	Epithelial	Alveolar Epithelial Type 2	AT2	P3	SS2	254	numeric	16	Alveoli
+14	Epithelial	Alveolar Epithelial Type 2	AT2	P3	10x	2785	numeric	16	Alveoli
+15	Epithelial	Signaling Alveolar Epithelial Type 2	AT2-s	P1	SS2	175	numeric	17	Alveoli
+15	Epithelial	Signaling Alveolar Epithelial Type 2	AT2-s	P1	10x		not_reported_dash_or_blank	17	Alveoli
+15	Epithelial	Signaling Alveolar Epithelial Type 2	AT2-s	P2	SS2		not_reported_dash_or_blank	17	Alveoli
+15	Epithelial	Signaling Alveolar Epithelial Type 2	AT2-s	P2	10x		not_reported_dash_or_blank	17	Alveoli
+15	Epithelial	Signaling Alveolar Epithelial Type 2	AT2-s	P3	SS2	26	numeric	17	Alveoli
+15	Epithelial	Signaling Alveolar Epithelial Type 2	AT2-s	P3	10x	669	numeric	17	Alveoli
+16	Endothelial	Artery	Art	P1	SS2	61	numeric	21	Proximal vessels
+16	Endothelial	Artery	Art	P1	10x	208	numeric	21	Proximal vessels
+16	Endothelial	Artery	Art	P2	SS2	24	numeric	21	Proximal vessels
+16	Endothelial	Artery	Art	P2	10x	968	numeric	21	Proximal vessels
+16	Endothelial	Artery	Art	P3	SS2	7	numeric	21	Proximal vessels
+16	Endothelial	Artery	Art	P3	10x	308	numeric	21	Proximal vessels
+17	Endothelial	Vein	Vein	P1	SS2		not_reported_dash_or_blank	22	Proximal vessels
+17	Endothelial	Vein	Vein	P1	10x	154	numeric	22	Proximal vessels
+17	Endothelial	Vein	Vein	P2	SS2	42	numeric	22	Proximal vessels
+17	Endothelial	Vein	Vein	P2	10x	802	numeric	22	Proximal vessels
+17	Endothelial	Vein	Vein	P3	SS2		not_reported_dash_or_blank	22	Proximal vessels
+17	Endothelial	Vein	Vein	P3	10x	199	numeric	22	Proximal vessels
+18	Endothelial	Capillary Aerocyte	Cap-a	P1	SS2	154	numeric	23	Alveoli
+18	Endothelial	Capillary Aerocyte	Cap-a	P1	10x	300	numeric	23	Alveoli
+18	Endothelial	Capillary Aerocyte	Cap-a	P2	SS2	443	numeric	23	Alveoli
+18	Endothelial	Capillary Aerocyte	Cap-a	P2	10x	3237	numeric	23	Alveoli
+18	Endothelial	Capillary Aerocyte	Cap-a	P3	SS2	25	numeric	23	Alveoli
+18	Endothelial	Capillary Aerocyte	Cap-a	P3	10x	815	numeric	23	Alveoli
+19	Endothelial	Capillary (general)	Cap	P1	SS2	259	numeric	24	Alveoli
+19	Endothelial	Capillary (general)	Cap	P1	10x	572	numeric	24	Alveoli
+19	Endothelial	Capillary (general)	Cap	P2	SS2	533	numeric	24	Alveoli
+19	Endothelial	Capillary (general)	Cap	P2	10x	5385	numeric	24	Alveoli
+19	Endothelial	Capillary (general)	Cap	P3	SS2	80	numeric	24	Alveoli
+19	Endothelial	Capillary (general)	Cap	P3	10x	1434	numeric	24	Alveoli
+20	Endothelial	Capillary Intermediate 1	Cap-i1	P1	SS2		not_reported_dash_or_blank	25	Alveoli
+20	Endothelial	Capillary Intermediate 1	Cap-i1	P1	10x		not_reported_dash_or_blank	25	Alveoli
+20	Endothelial	Capillary Intermediate 1	Cap-i1	P2	SS2	88	numeric	25	Alveoli
+20	Endothelial	Capillary Intermediate 1	Cap-i1	P2	10x	628	numeric	25	Alveoli
+20	Endothelial	Capillary Intermediate 1	Cap-i1	P3	SS2		not_reported_dash_or_blank	25	Alveoli
+20	Endothelial	Capillary Intermediate 1	Cap-i1	P3	10x		not_reported_dash_or_blank	25	Alveoli
+21	Endothelial	Capillary Intermediate 2	Cap-i2	P1	SS2		not_reported_dash_or_blank	26	Alveoli
+21	Endothelial	Capillary Intermediate 2	Cap-i2	P1	10x		not_reported_dash_or_blank	26	Alveoli
+21	Endothelial	Capillary Intermediate 2	Cap-i2	P2	SS2		not_reported_dash_or_blank	26	Alveoli
+21	Endothelial	Capillary Intermediate 2	Cap-i2	P2	10x	464	numeric	26	Alveoli
+21	Endothelial	Capillary Intermediate 2	Cap-i2	P3	SS2		not_reported_dash_or_blank	26	Alveoli
+21	Endothelial	Capillary Intermediate 2	Cap-i2	P3	10x		not_reported_dash_or_blank	26	Alveoli
+22	Endothelial	Bronchial Vessel 1	Bro1	P1	SS2	106	numeric	27	Peribronchial
+22	Endothelial	Bronchial Vessel 1	Bro1	P1	10x	127	numeric	27	Peribronchial
+22	Endothelial	Bronchial Vessel 1	Bro1	P2	SS2		not_reported_dash_or_blank	27	Peribronchial
+22	Endothelial	Bronchial Vessel 1	Bro1	P2	10x		not_reported_dash_or_blank	27	Peribronchial
+22	Endothelial	Bronchial Vessel 1	Bro1	P3	SS2		not_reported_dash_or_blank	27	Peribronchial
+22	Endothelial	Bronchial Vessel 1	Bro1	P3	10x	328	numeric	27	Peribronchial
+23	Endothelial	Bronchial Vessel 2	Bro2	P1	SS2		not_reported_dash_or_blank	28	Peribronchial
+23	Endothelial	Bronchial Vessel 2	Bro2	P1	10x	103	numeric	28	Peribronchial
+23	Endothelial	Bronchial Vessel 2	Bro2	P2	SS2		not_reported_dash_or_blank	28	Peribronchial
+23	Endothelial	Bronchial Vessel 2	Bro2	P2	10x		not_reported_dash_or_blank	28	Peribronchial
+23	Endothelial	Bronchial Vessel 2	Bro2	P3	SS2		not_reported_dash_or_blank	28	Peribronchial
+23	Endothelial	Bronchial Vessel 2	Bro2	P3	10x	132	numeric	28	Peribronchial
+24	Endothelial	Lymphatics	Lym	P1	SS2	18	numeric	29	Proximal vessels
+24	Endothelial	Lymphatics	Lym	P1	10x	33	numeric	29	Proximal vessels
+24	Endothelial	Lymphatics	Lym	P2	SS2	19	numeric	29	Proximal vessels
+24	Endothelial	Lymphatics	Lym	P2	10x	254	numeric	29	Proximal vessels
+24	Endothelial	Lymphatics	Lym	P3	SS2	7	numeric	29	Proximal vessels
+24	Endothelial	Lymphatics	Lym	P3	10x	180	numeric	29	Proximal vessels
+25	Endothelial	Airway Smooth Muscle	ASM	P1	SS2	272	numeric	33	Peribronchial
+25	Endothelial	Airway Smooth Muscle	ASM	P1	10x	108	numeric	33	Peribronchial
+25	Endothelial	Airway Smooth Muscle	ASM	P2	SS2	21	numeric	33	Peribronchial
+25	Endothelial	Airway Smooth Muscle	ASM	P2	10x	258	numeric	33	Peribronchial
+25	Endothelial	Airway Smooth Muscle	ASM	P3	SS2	53	numeric	33	Peribronchial
+25	Endothelial	Airway Smooth Muscle	ASM	P3	10x	327	numeric	33	Peribronchial
+26	Endothelial	Vascular Smooth Muscle	VSM	P1	SS2	114	numeric	34	Perivascular
+26	Endothelial	Vascular Smooth Muscle	VSM	P1	10x		not_reported_dash_or_blank	34	Perivascular
+26	Endothelial	Vascular Smooth Muscle	VSM	P2	SS2	30	numeric	34	Perivascular
+26	Endothelial	Vascular Smooth Muscle	VSM	P2	10x	86	numeric	34	Perivascular
+26	Endothelial	Vascular Smooth Muscle	VSM	P3	SS2	32	numeric	34	Perivascular
+26	Endothelial	Vascular Smooth Muscle	VSM	P3	10x	383	numeric	34	Perivascular
+27	Endothelial	Myofibroblast	MyoF	P1	SS2		not_reported_dash_or_blank	35	Alveolar ducts and alveoli
+27	Endothelial	Myofibroblast	MyoF	P1	10x	34	numeric	35	Alveolar ducts and alveoli
+27	Endothelial	Myofibroblast	MyoF	P2	SS2	10	numeric	35	Alveolar ducts and alveoli
+27	Endothelial	Myofibroblast	MyoF	P2	10x	52	numeric	35	Alveolar ducts and alveoli
+27	Endothelial	Myofibroblast	MyoF	P3	SS2	42	numeric	35	Alveolar ducts and alveoli
+27	Endothelial	Myofibroblast	MyoF	P3	10x	162	numeric	35	Alveolar ducts and alveoli
+28	Endothelial	Fibromyocyte	FibM	P1	SS2		not_reported_dash_or_blank	36	Peribronchial
+28	Endothelial	Fibromyocyte	FibM	P1	10x		not_reported_dash_or_blank	36	Peribronchial
+28	Endothelial	Fibromyocyte	FibM	P2	SS2		not_reported_dash_or_blank	36	Peribronchial
+28	Endothelial	Fibromyocyte	FibM	P2	10x		not_reported_dash_or_blank	36	Peribronchial
+28	Endothelial	Fibromyocyte	FibM	P3	SS2	15	numeric	36	Peribronchial
+28	Endothelial	Fibromyocyte	FibM	P3	10x	98	numeric	36	Peribronchial
+29	Endothelial	Adventitial Fibroblast	AdvF	P1	SS2	54	numeric	37	Perivascular and peribronchial
+29	Endothelial	Adventitial Fibroblast	AdvF	P1	10x	133	numeric	37	Perivascular and peribronchial
+29	Endothelial	Adventitial Fibroblast	AdvF	P2	SS2	12	numeric	37	Perivascular and peribronchial
+29	Endothelial	Adventitial Fibroblast	AdvF	P2	10x	71	numeric	37	Perivascular and peribronchial
+29	Endothelial	Adventitial Fibroblast	AdvF	P3	SS2	92	numeric	37	Perivascular and peribronchial
+29	Endothelial	Adventitial Fibroblast	AdvF	P3	10x	353	numeric	37	Perivascular and peribronchial
+30	Endothelial	Alveolar Fibroblast	AlvF	P1	SS2	80	numeric	38	Alveoli
+30	Endothelial	Alveolar Fibroblast	AlvF	P1	10x	45	numeric	38	Alveoli
+30	Endothelial	Alveolar Fibroblast	AlvF	P2	SS2	85	numeric	38	Alveoli
+30	Endothelial	Alveolar Fibroblast	AlvF	P2	10x	402	numeric	38	Alveoli
+30	Endothelial	Alveolar Fibroblast	AlvF	P3	SS2	195	numeric	38	Alveoli
+30	Endothelial	Alveolar Fibroblast	AlvF	P3	10x	849	numeric	38	Alveoli
+31	Endothelial	Lipofibroblast	LipF	P1	SS2	20	numeric	39	Alveoli
+31	Endothelial	Lipofibroblast	LipF	P1	10x	35	numeric	39	Alveoli
+31	Endothelial	Lipofibroblast	LipF	P2	SS2		not_reported_dash_or_blank	39	Alveoli
+31	Endothelial	Lipofibroblast	LipF	P2	10x		not_reported_dash_or_blank	39	Alveoli
+31	Endothelial	Lipofibroblast	LipF	P3	SS2		not_reported_dash_or_blank	39	Alveoli
+31	Endothelial	Lipofibroblast	LipF	P3	10x		not_reported_dash_or_blank	39	Alveoli
+32	Endothelial	Pericyte	Peri	P1	SS2	73	numeric	40	Alveoli
+32	Endothelial	Pericyte	Peri	P1	10x	74	numeric	40	Alveoli
+32	Endothelial	Pericyte	Peri	P2	SS2	342	numeric	40	Alveoli
+32	Endothelial	Pericyte	Peri	P2	10x	1135	numeric	40	Alveoli
+32	Endothelial	Pericyte	Peri	P3	SS2	103	numeric	40	Alveoli
+32	Endothelial	Pericyte	Peri	P3	10x	399	numeric	40	Alveoli
+33	Endothelial	Mesothelial	Meso	P1	SS2		not_reported_dash_or_blank	41	Pleura
+33	Endothelial	Mesothelial	Meso	P1	10x	29	numeric	41	Pleura
+33	Endothelial	Mesothelial	Meso	P2	SS2		not_reported_dash_or_blank	41	Pleura
+33	Endothelial	Mesothelial	Meso	P2	10x		not_reported_dash_or_blank	41	Pleura
+33	Endothelial	Mesothelial	Meso	P3	SS2		not_reported_dash_or_blank	41	Pleura
+33	Endothelial	Mesothelial	Meso	P3	10x		not_reported_dash_or_blank	41	Pleura
+34	Immune	B	B	P1	SS2	118	numeric	45	LN
+34	Immune	B	B	P1	10x	162	numeric	45	LN
+34	Immune	B	B	P2	SS2	2	numeric	45	LN
+34	Immune	B	B	P2	10x	30	numeric	45	LN
+34	Immune	B	B	P3	SS2	9	numeric	45	LN
+34	Immune	B	B	P3	10x	533	numeric	45	LN
+35	Immune	Plasma	Plasma	P1	SS2		not_reported_dash_or_blank	46	Throughout
+35	Immune	Plasma	Plasma	P1	10x	22	numeric	46	Throughout
+35	Immune	Plasma	Plasma	P2	SS2		not_reported_dash_or_blank	46	Throughout
+35	Immune	Plasma	Plasma	P2	10x		not_reported_dash_or_blank	46	Throughout
+35	Immune	Plasma	Plasma	P3	SS2	2	numeric	46	Throughout
+35	Immune	Plasma	Plasma	P3	10x	165	numeric	46	Throughout
+36	Immune	CD8+ Memory/Effector T	CD8 M/E T	P1	SS2	59	numeric	48	Throughout
+36	Immune	CD8+ Memory/Effector T	CD8 M/E T	P1	10x	462	numeric	48	Throughout
+36	Immune	CD8+ Memory/Effector T	CD8 M/E T	P2	SS2		not_reported_dash_or_blank	48	Throughout
+36	Immune	CD8+ Memory/Effector T	CD8 M/E T	P2	10x	414	numeric	48	Throughout
+36	Immune	CD8+ Memory/Effector T	CD8 M/E T	P3	SS2		not_reported_dash_or_blank	48	Throughout
+36	Immune	CD8+ Memory/Effector T	CD8 M/E T	P3	10x	314	numeric	48	Throughout
+37	Immune	CD8+ Naive T	CD8 Na T	P1	SS2	365	numeric	49	Throughout
+37	Immune	CD8+ Naive T	CD8 Na T	P1	10x	644	numeric	49	Throughout
+37	Immune	CD8+ Naive T	CD8 Na T	P2	SS2	13	numeric	49	Throughout
+37	Immune	CD8+ Naive T	CD8 Na T	P2	10x	513	numeric	49	Throughout
+37	Immune	CD8+ Naive T	CD8 Na T	P3	SS2		not_reported_dash_or_blank	49	Throughout
+37	Immune	CD8+ Naive T	CD8 Na T	P3	10x	885	numeric	49	Throughout
+38	Immune	CD4+ Memory/Effector T	CD4 M/E T	P1	SS2	126	numeric	50	Throughout
+38	Immune	CD4+ Memory/Effector T	CD4 M/E T	P1	10x	359	numeric	50	Throughout
+38	Immune	CD4+ Memory/Effector T	CD4 M/E T	P2	SS2		not_reported_dash_or_blank	50	Throughout
+38	Immune	CD4+ Memory/Effector T	CD4 M/E T	P2	10x	505	numeric	50	Throughout
+38	Immune	CD4+ Memory/Effector T	CD4 M/E T	P3	SS2		not_reported_dash_or_blank	50	Throughout
+38	Immune	CD4+ Memory/Effector T	CD4 M/E T	P3	10x	2149	numeric	50	Throughout
+39	Immune	CD4+ Naive T	CD4 Na T	P1	SS2	122	numeric	51	Throughout
+39	Immune	CD4+ Naive T	CD4 Na T	P1	10x	338	numeric	51	Throughout
+39	Immune	CD4+ Naive T	CD4 Na T	P2	SS2	9	numeric	51	Throughout
+39	Immune	CD4+ Naive T	CD4 Na T	P2	10x	78	numeric	51	Throughout
+39	Immune	CD4+ Naive T	CD4 Na T	P3	SS2		not_reported_dash_or_blank	51	Throughout
+39	Immune	CD4+ Naive T	CD4 Na T	P3	10x	516	numeric	51	Throughout
+40	Immune	Natural Killer T	NKT	P1	SS2		not_reported_dash_or_blank	52	Throughout
+40	Immune	Natural Killer T	NKT	P1	10x		not_reported_dash_or_blank	52	Throughout
+40	Immune	Natural Killer T	NKT	P2	SS2	9	numeric	52	Throughout
+40	Immune	Natural Killer T	NKT	P2	10x	92	numeric	52	Throughout
+40	Immune	Natural Killer T	NKT	P3	SS2	43	numeric	52	Throughout
+40	Immune	Natural Killer T	NKT	P3	10x	243	numeric	52	Throughout
+41	Immune	Natural Killer	NK	P1	SS2	379	numeric	53	Throughout
+41	Immune	Natural Killer	NK	P1	10x	553	numeric	53	Throughout
+41	Immune	Natural Killer	NK	P2	SS2	345	numeric	53	Throughout
+41	Immune	Natural Killer	NK	P2	10x	2678	numeric	53	Throughout
+41	Immune	Natural Killer	NK	P3	SS2	508	numeric	53	Throughout
+41	Immune	Natural Killer	NK	P3	10x	1538	numeric	53	Throughout
+42	Immune	Proliferating NK/T	NK/T-p	P1	SS2		not_reported_dash_or_blank	54	-
+42	Immune	Proliferating NK/T	NK/T-p	P1	10x		not_reported_dash_or_blank	54	-
+42	Immune	Proliferating NK/T	NK/T-p	P2	SS2	7	numeric	54	-
+42	Immune	Proliferating NK/T	NK/T-p	P2	10x	59	numeric	54	-
+42	Immune	Proliferating NK/T	NK/T-p	P3	SS2	10	numeric	54	-
+42	Immune	Proliferating NK/T	NK/T-p	P3	10x	46	numeric	54	-
+43	Immune	Neutrophil	Neu	P1	SS2	101	numeric	55	Thoughout
+43	Immune	Neutrophil	Neu	P1	10x		not_reported_dash_or_blank	55	Thoughout
+43	Immune	Neutrophil	Neu	P2	SS2	4	numeric	55	Thoughout
+43	Immune	Neutrophil	Neu	P2	10x		not_reported_dash_or_blank	55	Thoughout
+43	Immune	Neutrophil	Neu	P3	SS2	8	numeric	55	Thoughout
+43	Immune	Neutrophil	Neu	P3	10x		not_reported_dash_or_blank	55	Thoughout
+44	Immune	Mast Cell/Basophil Type 1	Mast/Ba 1	P1	SS2	25	numeric	56	Alveoli
+44	Immune	Mast Cell/Basophil Type 1	Mast/Ba 1	P1	10x	117	numeric	56	Alveoli
+44	Immune	Mast Cell/Basophil Type 1	Mast/Ba 1	P2	SS2	7	numeric	56	Alveoli
+44	Immune	Mast Cell/Basophil Type 1	Mast/Ba 1	P2	10x	765	numeric	56	Alveoli
+44	Immune	Mast Cell/Basophil Type 1	Mast/Ba 1	P3	SS2	14	numeric	56	Alveoli
+44	Immune	Mast Cell/Basophil Type 1	Mast/Ba 1	P3	10x	468	numeric	56	Alveoli
+45	Immune	Mast Cell/Basophil Type 2	Mast/Ba 2	P1	SS2		not_reported_dash_or_blank	57	Alveoli
+45	Immune	Mast Cell/Basophil Type 2	Mast/Ba 2	P1	10x		not_reported_dash_or_blank	57	Alveoli
+45	Immune	Mast Cell/Basophil Type 2	Mast/Ba 2	P2	SS2		not_reported_dash_or_blank	57	Alveoli
+45	Immune	Mast Cell/Basophil Type 2	Mast/Ba 2	P2	10x		not_reported_dash_or_blank	57	Alveoli
+45	Immune	Mast Cell/Basophil Type 2	Mast/Ba 2	P3	SS2	0	numeric	57	Alveoli
+45	Immune	Mast Cell/Basophil Type 2	Mast/Ba 2	P3	10x	552	numeric	57	Alveoli
+46	Immune	Platelet/Megakaryocyte	MK	P1	SS2		not_reported_dash_or_blank	58	Circulation
+46	Immune	Platelet/Megakaryocyte	MK	P1	10x	18	numeric	58	Circulation
+46	Immune	Platelet/Megakaryocyte	MK	P2	SS2		not_reported_dash_or_blank	58	Circulation
+46	Immune	Platelet/Megakaryocyte	MK	P2	10x		not_reported_dash_or_blank	58	Circulation
+46	Immune	Platelet/Megakaryocyte	MK	P3	SS2		not_reported_dash_or_blank	58	Circulation
+46	Immune	Platelet/Megakaryocyte	MK	P3	10x	22	numeric	58	Circulation
+47	Immune	Macrophage	MP	P1	SS2		not_reported_dash_or_blank	59	Alveoli
+47	Immune	Macrophage	MP	P1	10x	3167	numeric	59	Alveoli
+47	Immune	Macrophage	MP	P2	SS2	22	numeric	59	Alveoli
+47	Immune	Macrophage	MP	P2	10x	6262	numeric	59	Alveoli
+47	Immune	Macrophage	MP	P3	SS2	10	numeric	59	Alveoli
+47	Immune	Macrophage	MP	P3	10x	5305	numeric	59	Alveoli
+48	Immune	Proliferating Macrophage	MP-p	P1	SS2		not_reported_dash_or_blank	60	-
+48	Immune	Proliferating Macrophage	MP-p	P1	10x	31	numeric	60	-
+48	Immune	Proliferating Macrophage	MP-p	P2	SS2		not_reported_dash_or_blank	60	-
+48	Immune	Proliferating Macrophage	MP-p	P2	10x	107	numeric	60	-
+48	Immune	Proliferating Macrophage	MP-p	P3	SS2		not_reported_dash_or_blank	60	-
+48	Immune	Proliferating Macrophage	MP-p	P3	10x	88	numeric	60	-
+49	Immune	Plasmacytoid Dendritic	pDC	P1	SS2	7	numeric	61	Throughout
+49	Immune	Plasmacytoid Dendritic	pDC	P1	10x	23	numeric	61	Throughout
+49	Immune	Plasmacytoid Dendritic	pDC	P2	SS2	4	numeric	61	Throughout
+49	Immune	Plasmacytoid Dendritic	pDC	P2	10x	53	numeric	61	Throughout
+49	Immune	Plasmacytoid Dendritic	pDC	P3	SS2	2	numeric	61	Throughout
+49	Immune	Plasmacytoid Dendritic	pDC	P3	10x	61	numeric	61	Throughout
+50	Immune	Myeloid Dendritic Type 1	mDC1	P1	SS2	10	numeric	62	Throughout
+50	Immune	Myeloid Dendritic Type 1	mDC1	P1	10x	15	numeric	62	Throughout
+50	Immune	Myeloid Dendritic Type 1	mDC1	P2	SS2		not_reported_dash_or_blank	62	Throughout
+50	Immune	Myeloid Dendritic Type 1	mDC1	P2	10x	65	numeric	62	Throughout
+50	Immune	Myeloid Dendritic Type 1	mDC1	P3	SS2		not_reported_dash_or_blank	62	Throughout
+50	Immune	Myeloid Dendritic Type 1	mDC1	P3	10x	51	numeric	62	Throughout
+51	Immune	Myeloid Dendritic Type 2	mDC2	P1	SS2		not_reported_dash_or_blank	63	Throughout
+51	Immune	Myeloid Dendritic Type 2	mDC2	P1	10x	66	numeric	63	Throughout
+51	Immune	Myeloid Dendritic Type 2	mDC2	P2	SS2		not_reported_dash_or_blank	63	Throughout
+51	Immune	Myeloid Dendritic Type 2	mDC2	P2	10x	27	numeric	63	Throughout
+51	Immune	Myeloid Dendritic Type 2	mDC2	P3	SS2	7	numeric	63	Throughout
+51	Immune	Myeloid Dendritic Type 2	mDC2	P3	10x	173	numeric	63	Throughout
+52	Immune	IGSF21+ Dendritic	IGSF21+ DC	P1	SS2		not_reported_dash_or_blank	64	Perivascular
+52	Immune	IGSF21+ Dendritic	IGSF21+ DC	P1	10x	48	numeric	64	Perivascular
+52	Immune	IGSF21+ Dendritic	IGSF21+ DC	P2	SS2	3	numeric	64	Perivascular
+52	Immune	IGSF21+ Dendritic	IGSF21+ DC	P2	10x	112	numeric	64	Perivascular
+52	Immune	IGSF21+ Dendritic	IGSF21+ DC	P3	SS2	5	numeric	64	Perivascular
+52	Immune	IGSF21+ Dendritic	IGSF21+ DC	P3	10x	120	numeric	64	Perivascular
+53	Immune	EREG+ Dendritic	EREG+ DC	P1	SS2		not_reported_dash_or_blank	65	Throughout
+53	Immune	EREG+ Dendritic	EREG+ DC	P1	10x	27	numeric	65	Throughout
+53	Immune	EREG+ Dendritic	EREG+ DC	P2	SS2		not_reported_dash_or_blank	65	Throughout
+53	Immune	EREG+ Dendritic	EREG+ DC	P2	10x	115	numeric	65	Throughout
+53	Immune	EREG+ Dendritic	EREG+ DC	P3	SS2		not_reported_dash_or_blank	65	Throughout
+53	Immune	EREG+ Dendritic	EREG+ DC	P3	10x		not_reported_dash_or_blank	65	Throughout
+54	Immune	TREM2+ Dendritic	TREM2+ DC	P1	SS2		not_reported_dash_or_blank	66	Throughout
+54	Immune	TREM2+ Dendritic	TREM2+ DC	P1	10x	59	numeric	66	Throughout
+54	Immune	TREM2+ Dendritic	TREM2+ DC	P2	SS2		not_reported_dash_or_blank	66	Throughout
+54	Immune	TREM2+ Dendritic	TREM2+ DC	P2	10x		not_reported_dash_or_blank	66	Throughout
+54	Immune	TREM2+ Dendritic	TREM2+ DC	P3	SS2		not_reported_dash_or_blank	66	Throughout
+54	Immune	TREM2+ Dendritic	TREM2+ DC	P3	10x	100	numeric	66	Throughout
+55	Immune	Classical Monocyte	Cl Mono	P1	SS2	106	numeric	67	Throughout
+55	Immune	Classical Monocyte	Cl Mono	P1	10x	607	numeric	67	Throughout
+55	Immune	Classical Monocyte	Cl Mono	P2	SS2		not_reported_dash_or_blank	67	Throughout
+55	Immune	Classical Monocyte	Cl Mono	P2	10x	292	numeric	67	Throughout
+55	Immune	Classical Monocyte	Cl Mono	P3	SS2		not_reported_dash_or_blank	67	Throughout
+55	Immune	Classical Monocyte	Cl Mono	P3	10x	1178	numeric	67	Throughout
+56	Immune	OLR1+ Classical Monocyte	OLR1+ Cl Mono	P1	SS2		not_reported_dash_or_blank	68	-
+56	Immune	OLR1+ Classical Monocyte	OLR1+ Cl Mono	P1	10x		not_reported_dash_or_blank	68	-
+56	Immune	OLR1+ Classical Monocyte	OLR1+ Cl Mono	P2	SS2		not_reported_dash_or_blank	68	-
+56	Immune	OLR1+ Classical Monocyte	OLR1+ Cl Mono	P2	10x	207	numeric	68	-
+56	Immune	OLR1+ Classical Monocyte	OLR1+ Cl Mono	P3	SS2		not_reported_dash_or_blank	68	-
+56	Immune	OLR1+ Classical Monocyte	OLR1+ Cl Mono	P3	10x		not_reported_dash_or_blank	68	-
+57	Immune	Nonclassical Monocyte	NC Mono	P1	SS2	24	numeric	69	Throughout 
+57	Immune	Nonclassical Monocyte	NC Mono	P1	10x	194	numeric	69	Throughout 
+57	Immune	Nonclassical Monocyte	NC Mono	P2	SS2	3	numeric	69	Throughout 
+57	Immune	Nonclassical Monocyte	NC Mono	P2	10x	269	numeric	69	Throughout 
+57	Immune	Nonclassical Monocyte	NC Mono	P3	SS2		not_reported_dash_or_blank	69	Throughout 
+57	Immune	Nonclassical Monocyte	NC Mono	P3	10x	341	numeric	69	Throughout 
+58	Immune	Intermediate Monocyte	Int Mono	P1	SS2		not_reported_dash_or_blank	70	Throughout
+58	Immune	Intermediate Monocyte	Int Mono	P1	10x		not_reported_dash_or_blank	70	Throughout
+58	Immune	Intermediate Monocyte	Int Mono	P2	SS2	3	numeric	70	Throughout
+58	Immune	Intermediate Monocyte	Int Mono	P2	10x	188	numeric	70	Throughout
+58	Immune	Intermediate Monocyte	Int Mono	P3	SS2	3	numeric	70	Throughout
+58	Immune	Intermediate Monocyte	Int Mono	P3	10x		not_reported_dash_or_blank	70	Throughout

@@ -1,5 +1,7 @@
 # Research article roadmap
 
+**Nb4, Gate 2N N3:** [article package](gate2_N3_travaglini_nabhan_lung_atlas_2020/README.md) · [15-figure gallery](gate2_N3_travaglini_nabhan_lung_atlas_2020/FIGURES.md) · [execution and provenance](gate2_N3_travaglini_nabhan_lung_atlas_2020/EXECUTION.md).
+
 **Cross-article review, 1 October 2026:** [chronological evidence and RQ contributions](../docs/audits/2026-10-01-cross-article-rq-review/README.md)
 cover all 12 folders including the source archive and Nb2 on main. Accepted
 conditional branches are integrated under their existing questions; later

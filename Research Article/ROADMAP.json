@@ -9,6 +9,23 @@
     "nabhan_2023_status_updated": "2026-09-29; Nb2 source and branch analyses remain under Research Article; specified RQs deferred to evidence-driven derivation",
     "nb3_status_updated": "2026-10-01; owner read; partial reproduction, descriptive follow-up and E5 pilot completed; A22/A23 proposed"
   },
+  "companion_atlases": [
+    {
+      "id": "N3",
+      "gate": "2N",
+      "key": "travaglini_nabhan_lung_atlas_2020",
+      "title": "A molecular cell atlas of the human lung from single-cell RNA sequencing",
+      "doi": "10.1038/s41586-020-2922-4",
+      "folder": "gate2_N3_travaglini_nabhan_lung_atlas_2020",
+      "note_status": "done; owner confirmed 2026-10-02",
+      "trial_status": "bounded reproduction, follow-ups, external pilot, visual analyses and sequential RQ diagnostics complete; biological endpoint holds remain in article-local reports",
+      "trial_location": "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020",
+      "analysis_namespace": "Nb4",
+      "historical_run_namespace": "TN2020",
+      "figure_gallery": "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/FIGURES.md",
+      "numbering_note": "Companion entry; stable paper IDs 1-16 and Nabhan 2026 analysis Nb3 are unchanged"
+    }
+  ],
   "working_question": "Which epithelial and immune-state programmes distinguish productive lung repair from persistent dysplastic remodelling after inflammatory injury?",
   "gate_rules": {
     "analysis_gate": "after papers 1-4: write a one-page analysis contract; start from deposited count matrices plus metadata, not FASTQ",
