@@ -1,0 +1,66 @@
+{
+  "schema": "Nb4-RQ-sequence/v1",
+  "declared_local": "2026-10-03 Asia/Seoul",
+  "authorization": "Owner requested RQ scoping, separate pipelines, evidence consolidation and sequential real analyses, then report.",
+  "exposure": "All earlier Nb4 results, current A22/A13/A8 conclusions, screened literature and Murthy metadata coverage known; exploratory specification fixed before new numerical calculations.",
+  "order": [
+    "rq1_composition_v1",
+    "rq1b_endpoint_v1",
+    "rq2_myrf_v1"
+  ],
+  "cell_floors": [
+    20,
+    10
+  ],
+  "primary_floor": 20,
+  "minimum_donors_for_replicated_description": 3,
+  "primary_population": "source normal distal lung; external normal lower/upper left lobe with donor/assay/protocol/location matching; two fibroblast subtypes only",
+  "chemokines": [
+    "CCL2",
+    "CXCL1",
+    "CXCL2",
+    "CXCL3",
+    "CXCL6",
+    "CXCL8",
+    "CXCL12"
+  ],
+  "myrf_reference_genes": [
+    "MYRF",
+    "AGER",
+    "HOPX",
+    "PDPN",
+    "AQP5"
+  ],
+  "normalization": "full-gene library denominator; per-cell linear CPM for composition accounting, pseudobulk log2(CPM+1) for donor gene contrasts",
+  "inference": "donor descriptive estimates and observed ranges/leave-one-donor-out diagnostics; no cell-level biological p-values, no pooled cohorts or assays",
+  "composition_reference": "50:50 captured alveolar/adventitial mixture; a defined accounting reference, not physiological tissue composition",
+  "endpoint_panel": "All seven genes required. No data-driven gene selection; C3 not in the chemokine panel. Leave-one-gene-out panels are diagnostics.",
+  "murthy_labels": "Previously deposited epithelial_subanalysis candidate labels; no reannotation to improve MYRF results",
+  "maturation_gate": "Linked non-RNA mature contribution required for A8; unavailable in these atlas inputs, so do not fit a maturation outcome model",
+  "source_root_argument": "read-only cache root; original repository used for local execution; no private context needed",
+  "sequence_dependency": "Each subsequent stage verifies that the preceding immutable run_record.json exists",
+  "stop_rule": "Missing count provenance, invalid cells/joins, noninteger/negative counts or altered source hashes fail the stage; missing biological endpoint remains an explicit hold while eligible reference diagnostics execute.",
+  "murthy_inputs": [
+    {
+      "path": "raw_data/GSE178360/GSE178360_RAW/GSM5388411_DD046Q_filtered_feature_bc_matrix.h5",
+      "sha256": "4451b94b0bf1a611b48a4ac7f34d6adacc9e255902f50e9f55b88fa8d176c934"
+    },
+    {
+      "path": "raw_data/GSE178360/GSE178360_RAW/GSM5388412_DD047Q_filtered_feature_bc_matrix.h5",
+      "sha256": "4a095f56e2c72518880601b4245ceaf572e865e2edd6adae5e3dd550fed9cd9f"
+    },
+    {
+      "path": "raw_data/GSE178360/GSE178360_RAW/GSM5388413_DD073Rfiltered_feature_bc_matrix.h5",
+      "sha256": "017db18fc8d4716976d2eb7b25ce0ed144cc86fed2a0372371da6b60a314f1da"
+    },
+    {
+      "path": "Research Article/ungated_murthy_2022/GSE178360/epithelial_subanalysis/tables/epithelial_cell_metadata.csv",
+      "sha256": "4fe2ddc454505615119d8588ec02ed526a454c25df0b4b69318d76730c9a2437"
+    },
+    {
+      "path": "analysis/scripts/markers.py",
+      "sha256": "37d6daa07ce89c9e7f4b3bcfbe36cd7d313c477794084a552bca5ebf52e33811"
+    }
+  ],
+  "declared_utc": "2026-10-02T15:08:00.166953+00:00"
+}
