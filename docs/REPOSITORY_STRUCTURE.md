@@ -6,7 +6,7 @@ protocols, original trial names and immutable run records remain historical evid
 
 | Material | Canonical location | Rule |
 |---|---|---|
-| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A21 (A15–A18 retain their earlier proposed status; A19–A21 are new post-analysis proposals); link to source studies rather than maintaining a second register |
+| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A23; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
 | Question-specific plans and analyses | `RQ_Specified/A<id>_<topic>/` | Prospective plan, source metadata, configuration, scripts, tables, reports and gallery; reference the root question register |
 | Shared question figures | [analysis/figures/rq/README.md](../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
 | Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
@@ -20,13 +20,15 @@ protocols, original trial names and immutable run records remain historical evid
 | Dataset roles, units and eligibility | [DATASETS.md](DATASETS.md) | Link to run-specific provenance and gates; shared deposits and companion assays are not independent replications |
 | Methods, structure, portfolio and communication drafts | `docs/` | Each page identifies whether it describes execution, reference methods or proposed work |
 | Reading order and paper status | [Research Article/ROADMAP.json](../Research%20Article/ROADMAP.json), [Research Article/README.md](../Research%20Article/README.md) | Stable paper identifiers differ from the reading sequence; update the two views together |
-| Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Current section first; older dated checkpoints remain historical |
+| Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |
+
+See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 24 questions; the registry locates their evidence and the nine article-local Nb4 candidates.
 
 ## Identifier namespaces
 
-- `A0`–`A21` identify the current repository-wide question cards. A15–A18
-  retain their pending proposals; A19–A21 derive from the Nb2 synthesis.
+- `A0`–`A23` identify the current repository-wide question cards. A15–A18
+  retain their pending proposals; A19–A21 derive from Nb2 and A22–A23 from Nb3.
   Registration is not biological acceptance or confirmatory readiness.
   Figures use the associated question ID, with panel/group suffixes where needed.
 - `England/E-N1`–`England/E-N8` are paper-local candidate extensions indexed

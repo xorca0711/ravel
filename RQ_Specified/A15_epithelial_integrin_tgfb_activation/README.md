@@ -1,5 +1,7 @@
 # A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand
 
+**Current development framing:** [A15 development dossier](../../docs/research_dossiers/A15.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 ## Organizing biological question
 
 > Does the epithelial input to fibroblast activation run through the integrin or through the ligand?

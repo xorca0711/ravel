@@ -1,5 +1,7 @@
 # A11: lesion-associated programme beyond shared plasticity
 
+**Current development framing:** [A11 development dossier](../../docs/research_dossiers/A11.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 ## Organizing biological question
 
 > Which lesion-associated programmes add to a shared epithelial plasticity component?

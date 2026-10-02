@@ -1,0 +1,8 @@
+{
+  "status": "pending",
+  "initial_main_protection": "none",
+  "initial_rulesets": [],
+  "intended_required_checks": ["validate", "research-governance"],
+  "independent_human_review_enforced": false,
+  "limitation": "An agent using owner credentials is not an independent reviewer. Repository files cannot restrict those credentials."
+}

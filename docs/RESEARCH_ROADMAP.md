@@ -1,5 +1,7 @@
 # Research roadmap: closing the biological and logical gaps
 
+**Current owner direction, 3 October 2026:** develop all existing questions before selecting a priority. The priority order below is the historical September execution proposal, not a current ranking or automatic queue. Use the [current dossiers](research_dossiers/README.md) and [project state](../PROGRESS.md) for next decisions.
+
 **Draft development proposal, 28 September 2026:** the
 [combined question-by-question plan](audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
 joins documentation-depth and hypothesis-reframing assessments. It proposes

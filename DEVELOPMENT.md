@@ -2333,3 +2333,24 @@ the results, fifteen-figure gallery and expanded archive checks.
 
 See the [planning index](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/proposals/README.md).
 Existing results, canonical numbering and scientific acceptance remain unchanged.
+
+## Repository grounding and preservation, 3 October 2026
+
+The owner requested a whole-repository repair after the other session completed:
+fetch current main, retain time for research development, and ground all RQs in
+hypotheses and evidence rather than choose a preferred RQ immediately. Codex
+preserved dirty/detached work and implemented the isolated repair branch.
+
+| Responsibility or decision | Authority and status |
+|---|---|
+| Whole-repo grounding, main fetch and proceeding with the proposal | Owner instruction in the current session |
+| Dossiers, reconciliation, contract runner, CI and documentation | Codex implementation; owner scientific review pending |
+| Keep 3A/3B reading open while S1/D1 analysis remains gated | Existing owner reading decision of 1 October; selectively recovered from local work |
+| Select an RQ, accept a mechanism or promote a claim grade | Not done; remains an owner scientific decision |
+| Treat frozen historical work as retrospectively preregistered | Rejected approach: prior exposure cannot be erased |
+| Restore an old checkout wholesale over newer main | Rejected approach: later corrections and Nb4 work would be lost |
+| Claim prompts or schemas force scientific truth | Rejected approach: structural gates and integration controls have explicit limits |
+
+See the [repair report](docs/audits/2026-10-03-repository-repair/REPORT.md)
+for per-file reconciliation, preservation and verification. No numerical
+biological analysis, experiment or new claim acceptance occurred in this repair.

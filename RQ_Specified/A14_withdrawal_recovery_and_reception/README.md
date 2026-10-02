@@ -1,5 +1,7 @@
 # A14: do exposure duration and fibroblast IL-1 reception separately determine recovery?
 
+**Current development framing:** [A14 development dossier](../../docs/research_dossiers/A14.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 <a id="biological-question"></a>
 
 ## Organizing biological question

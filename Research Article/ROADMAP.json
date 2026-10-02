@@ -2,12 +2,13 @@
   "schema": "thesis-roadmap/v1",
   "source": {
     "origin": "the owner's reading order; the reading notes are kept privately",
-    "reading_order_last_checked": "2026-09-15",
+    "reading_order_last_checked": "2026-10-01",
     "ids_verified_against_pubmed_on": "2026-09-09 (papers 1 to 11); 2026-09-15 (papers 12 to 16 and M1 to M7)",
     "analysis_status_updated": "2026-10-01",
     "analysis_status_basis": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md; Nb3 updates linked in paper 14; other reading statuses and reading order preserved",
     "nabhan_2023_status_updated": "2026-09-29; Nb2 source and branch analyses remain under Research Article; specified RQs deferred to evidence-driven derivation",
-    "nb3_status_updated": "2026-10-01; owner read; partial reproduction, descriptive follow-up and E5 pilot completed; A22/A23 proposed"
+    "nb3_status_updated": "2026-10-01; owner read; partial reproduction, descriptive follow-up and E5 pilot completed; A22/A23 proposed",
+    "reconciled_with_main": "2026-10-03; 0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f"
   },
   "companion_atlases": [
     {
@@ -28,18 +29,20 @@
   ],
   "working_question": "Which epithelial and immune-state programmes distinguish productive lung repair from persistent dysplastic remodelling after inflammatory injury?",
   "gate_rules": {
-    "analysis_gate": "after papers 1-4: write a one-page analysis contract; start from deposited count matrices plus metadata, not FASTQ",
-    "stop_rule": "finish papers 1-4, write the contract, start the pilot; read 5-16 only when a pilot result makes their branch relevant",
-    "gate_3A_condition": "cytokine or inflammation-resolution signal is strong",
-    "gate_3B_condition": "regulatory T cells are sufficiently represented"
+    "analysis_gate": "Historical four-paper KRT8 pilot remains separately unexecuted/unresolved; any new analysis needs its own explicit question, biological units, eligibility checks and specification. Existing later analyses do not depend on retroactively completing that pilot.",
+    "stop_rule": "Read one paper to answer one defined question, write an evidence/limitation/interest card, then choose the next. Literature exploration is open independently of an analysis gate; do not infer owner reading from an executed analysis.",
+    "gate_3A_condition": "Reading open. Niethamer/S1 remains unrun; a new cytokine-phase analysis needs eligible animal-level data and a prespecified contrast. W1 or A12 does not establish a cytokine-specific mechanism.",
+    "gate_3B_condition": "Reading open. Niethamer/D1 remains unrun; Treg analysis needs a verified external cohort, separable Tregs and independent biological units. Current lung/HLCA coverage has not passed that gate.",
+    "gate_2X_condition": "Literature-only comparison branch. A paper, one-page evidence card and a question may justify a separate feasibility review; they do not authorize a new numerical run or claim."
   },
   "gates": {
-    "1": "read before opening the count matrix: papers 1 to 4",
-    "2C": "the Choi axis, read while interpreting the pilot figures: papers 5, 12, 13",
-    "2N": "Nabhan: papers 6, 14",
-    "2W": "Wagner, branch added 2026-09-15: papers 15, 16",
-    "3A": "Saxton, paused 2026-09-15: papers 7, 8",
-    "3B": "DuPage, paused 2026-09-15: papers 9, 10, 11"
+    "1": "foundation references with executed analyses; review remaining interpretation questions as needed",
+    "2C": "Choi axis: papers 5, 12, 13; synthesize completed analyses and remaining functional questions",
+    "2N": "Nabhan: papers 6, 14; owner reading complete, Nb2/Nb3 analyses available with limits",
+    "2W": "Wagner: read paper 16 then 15; W1 pseudobulk complete, Compass not run",
+    "3A": "Saxton: reading open 2026-10-01, papers 8 then 7; analysis gated",
+    "3B": "DuPage: reading open 2026-10-01, papers 9 then 11; paper 10 optional next; analysis gated",
+    "2X": "cross-field comparison: functional interaction assays, developmental regeneration and immune-state memory; X1–X4"
   },
   "reading_order": [
     1,
@@ -302,7 +305,7 @@
       "extract": [],
       "datasets": [],
       "folder": null,
-      "note_status": "paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level)",
+      "note_status": "not started; reading open 2026-10-01; analysis remains gated",
       "trial_status": "not started"
     },
     {
@@ -320,7 +323,7 @@
       "extract": [],
       "datasets": [],
       "folder": null,
-      "note_status": "paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level)",
+      "note_status": "not started; reading open 2026-10-01; analysis remains gated",
       "trial_status": "not started"
     },
     {
@@ -337,7 +340,7 @@
       "extract": [],
       "datasets": [],
       "folder": null,
-      "note_status": "paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series)",
+      "note_status": "not started; reading open 2026-10-01; analysis remains gated",
       "trial_status": "not started"
     },
     {
@@ -354,7 +357,7 @@
       "extract": [],
       "datasets": [],
       "folder": null,
-      "note_status": "paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series)",
+      "note_status": "not started; reading open 2026-10-01; analysis remains gated",
       "trial_status": "not started"
     },
     {
@@ -372,7 +375,7 @@
       "extract": [],
       "datasets": [],
       "folder": null,
-      "note_status": "paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series)",
+      "note_status": "not started; reading open 2026-10-01; analysis remains gated",
       "trial_status": "not started"
     },
     {
@@ -495,7 +498,7 @@
       ],
       "datasets": [],
       "folder": null,
-      "note_status": "not started",
+      "note_status": "not started; current comparison queue; owner reading unconfirmed",
       "trial_status": "Niethamer W1 animal-level aMAC pseudobulk completed 2026-09-22; programme evidence remains correlation-sensitive. Compass flux inference has not run; reading status unchanged.",
       "added": "2026-09-15"
     },
@@ -518,7 +521,7 @@
       ],
       "datasets": [],
       "folder": null,
-      "note_status": "not started",
+      "note_status": "not started; current comparison queue; owner reading unconfirmed",
       "trial_status": "Niethamer W1 animal-level aMAC pseudobulk completed 2026-09-22; programme evidence remains correlation-sensitive. Compass flux inference has not run; reading status unchanged.",
       "added": "2026-09-15"
     }
@@ -656,12 +659,105 @@
     "artifact_paths": "Repository-relative unless explicitly stated otherwise.",
     "question_register": "RESEARCH_QUESTIONS.md",
     "shared_figures": "analysis/figures/rq/",
-    "label_scope": "Paper-local trials and figures require the paper key; A0-A18 and enabling A12-S1 are repository-wide questions, with proposed status governed by RESEARCH_QUESTIONS.md.",
+    "label_scope": "Paper-local trials and figure groups require their paper namespace; A0–A23 are repository-wide questions. X1–X4 are reading references.",
     "dataset_inventory": "docs/DATASETS.md"
   },
   "folder_name_exceptions": {
     "yu_lee_choi_min_2026": "gate2_C3_yu_lee_choi_min_2026: owner-selected branch 2C item 3; stable paper order 13.",
     "england_2025": "gate2_C2_england_2025: branch 2C item 2; stable paper order 12.",
     "nabhan_2023": "gate2_N1_nabhan_2023: owner-selected branch 2N item 1; stable paper order 6."
-  }
+  },
+  "current_reading_queue": {
+    "updated": "2026-10-01",
+    "spine_refresh": [
+      14,
+      6
+    ],
+    "first_comparison_round": [
+      16,
+      "X1",
+      "X2",
+      8,
+      9
+    ],
+    "targeted_followup": [
+      15,
+      7,
+      11,
+      "X3",
+      "X4",
+      10
+    ],
+    "rule": "Refresh only relevant Nb3/Nb2 figures, not a repeat full read. Complete one bounded evidence card per first-round paper before choosing deeper follow-up. Stable paper IDs and historical reading_order are preserved."
+  },
+  "exploration_references": [
+    {
+      "id": "X1",
+      "branch": "2X",
+      "first_author": "Wheeler",
+      "year": 2023,
+      "title": "Droplet-based forward genetic screening of astrocyte–microglia cross-talk",
+      "doi": "10.1126/science.abq4822",
+      "question": "What makes a cell–cell interaction functionally supported rather than RNA-compatible?",
+      "related_questions": [
+        "A2",
+        "A9",
+        "A12",
+        "A13",
+        "A22"
+      ],
+      "note_status": "not started; available for comparison reading",
+      "trial_status": "not started",
+      "scope": "literature comparison; no analysis workspace or global RQ assigned"
+    },
+    {
+      "id": "X2",
+      "branch": "2X",
+      "first_author": "Dhillon-Richardson",
+      "year": 2025,
+      "title": "Reactivation of an embryonic cardiac neural crest transcriptional profile during zebrafish heart regeneration",
+      "doi": "10.1073/pnas.2423697122",
+      "question": "Which evidence separates developmental programme reuse from demonstrated regenerative contribution?",
+      "related_questions": [
+        "A1",
+        "A5",
+        "A8"
+      ],
+      "note_status": "not started; available for comparison reading",
+      "trial_status": "not started",
+      "scope": "literature comparison; no analysis workspace or global RQ assigned"
+    },
+    {
+      "id": "X3",
+      "branch": "2X",
+      "first_author": "Mu",
+      "year": 2026,
+      "title": "Trained immunity links hematopoietic stem cell aging to aging-associated inflammation",
+      "doi": "10.1038/s43587-026-01175-2",
+      "question": "How can cell-intrinsic inflammatory memory be distinguished from persistent environmental input?",
+      "related_questions": [
+        "A3",
+        "A14"
+      ],
+      "note_status": "not started; available for comparison reading",
+      "trial_status": "not started",
+      "scope": "literature comparison; no analysis workspace or global RQ assigned"
+    },
+    {
+      "id": "X4",
+      "branch": "2X",
+      "first_author": "Ma",
+      "year": 2025,
+      "title": "Nutrient-driven histone code determines exhausted CD8+ T cell fates",
+      "doi": "10.1126/science.adj3020",
+      "question": "How do metabolic and chromatin measurements connect immune-state history to function?",
+      "related_questions": [
+        "A1",
+        "A3"
+      ],
+      "note_status": "not started; available for comparison reading",
+      "trial_status": "not started",
+      "scope": "literature comparison; no analysis workspace or global RQ assigned"
+    }
+  ]
 }

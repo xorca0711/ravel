@@ -1,5 +1,7 @@
 # A5: developmental-gene recruitment in adult repair
 
+**Current development framing:** [A5 development dossier](../../docs/research_dossiers/A5.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 ## Organizing biological question
 
 > Does adult alveolar repair reuse part of a developmental epithelial programme?

@@ -1,5 +1,8 @@
 *.pdf binary
 
+# Preserve prospective contract/receipt hashes.
+analysis/research/** -text whitespace=cr-at-eol
+
 # Migration archives retain original hashes, including line endings.
 docs/migrations/2026-09-25-research-layout/** -text whitespace=cr-at-eol
 

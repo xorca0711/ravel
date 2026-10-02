@@ -16,12 +16,7 @@ The [dataset inventory](../docs/DATASETS.md) maps deposits to all their uses;
 the [question register](../RESEARCH_QUESTIONS.md) and
 [question workspaces](../RQ_Specified/README.md) own the derived biological tests.
 
-**Synchronized 28 September 2026 after the merged gap-fill work.** England's
-corrected A16 C1 and A17 source accounting are complete; its full attribution
-and stochastic-refit questions remain open. Roadmap paper 14's deposit already
-supports A2/A10 analyses, while the paper's reading/study-note status remains
-not started. A study note, use of a deposit and scientific acceptance are
-separate records. [Current execution and remaining inputs](../docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md).
+Current source status is maintained in ROADMAP.json and the linked article reports. Nb2/Nb3/Nb4 reading and execution updates supersede the older September checkpoint; reading, execution and acceptance remain separate.
 
 Paper folders hold study notes, extracted variables/criteria and analysis
 reports. Question-specific continuations can live outside the source-paper
@@ -33,7 +28,7 @@ outside the tracked documentation.
 ## Nabhan branch: Nb2 initial execution
 
 Subsequent [result-derived RQ synthesis](gate2_N1_nabhan_2023/RQ_DERIVATION.md)
-proposes A19–A21 with unexecuted question plans; N4/N8 remain paper-local.
+proposes A19–A21; their later question-specific analyses and remaining functional gaps are linked from the question workspaces. N4/N8 remain paper-local.
 All existing Nb2 analyses and figures stay under this paper.
 
 Completed continuation: [paper-local Nb2 branch analysis](../Research%20Article/gate2_N1_nabhan_2023/branch_analysis/README.md)
@@ -50,6 +45,47 @@ partial human atlas comparison and mouse extension are now executed.
 [Results](gate2_N1_nabhan_2023/RESULTS.md), [six-figure gallery](gate2_N1_nabhan_2023/FIGURES.md)
 and [remaining functional/design gates](gate2_N1_nabhan_2023/FUNCTIONAL_SOURCE_AUDIT.md)
 separate measured observations from unvalidated hypotheses.
+
+## Current reading decision, 1 October 2026
+
+Reconciled with main on 3 October 2026.
+
+
+Reading and analysis now have separate readiness rules. The foundation,
+2C and 2N packages support synthesis; they are no longer a reason to postpone
+all wider reading. **3A and 3B are open for literature exploration, while
+Niethamer/S1 and D1 remain unrun and their data gates remain unmet.** W1 is
+animal-level pseudobulk, not Compass flux inference. A12/A13 exploratory
+results do not substitute for S1/D1 or establish a cytokine/Treg mechanism.
+
+The current queue is a comparison exercise, not a new ranking of scientific
+claims. Stable paper numbers and the historical full order remain below.
+
+| Step | Read or review | Output that makes the next choice useful |
+|---|---|---|
+| Refresh | Relevant Nb3 (14) and Nb2 (6) figures and limitations | One measured result, one rival, one missing functional endpoint; no repeat full read |
+| First comparison round | Yadav (16), Wheeler (X1), Dhillon-Richardson (X2), Saxton IL-22 (8), DuPage EZH2 (9) | One short evidence card per paper, comparing repair biology, immune-state regulation and functional/computational methods |
+| Follow the strongest question | Compass (15), IL-10 (7), Zhang (11), Mu (X3), Ma (X4), then Wang (10) as relevant | Choose based on the biological uncertainty and the work desired, not only on available datasets |
+
+Current evidence: use the Nb2, Nb3 and Nb4 packages in this checkout. Their completed analyses do not establish scientific acceptance or remove functional evidence gaps.
+
+### 2X: cross-field literature comparison
+
+New literature references have X identifiers so papers 1–16 and global RQ IDs
+are not renumbered. These are reading candidates, not owner-completed notes
+or newly authorized analysis workspaces. Public source checks: 1 October 2026.
+
+| ID | Paper | Question to carry back to the lung work | Boundary |
+|---|---|---|---|
+| X1 | [Wheeler et al. 2023, functional astrocyte–microglia screening](https://doi.org/10.1126/science.abq4822) | What evidence beyond compatible ligand/receptor RNA supports a functional interaction? A2/A9/A12/A13/A22 | CNS assay logic does not validate a lung circuit |
+| X2 | [Dhillon-Richardson et al. 2025, embryonic profile reuse in heart regeneration](https://doi.org/10.1073/pnas.2423697122) | How are developmental programme reuse and regenerative contribution distinguished? A1/A5/A8 | Zebrafish cardiac evidence is not mammalian lung fate evidence |
+| X3 | [Mu et al. 2026, trained immunity and stem-cell aging](https://doi.org/10.1038/s43587-026-01175-2) | What separates durable inflammatory memory from continuing exposure? A3/A14 | Hematopoietic stem-cell findings do not establish epithelial memory |
+| X4 | [Ma et al. 2025, nutrient-driven histone code and CD8 T-cell fate](https://doi.org/10.1126/science.adj3020) | How are metabolism, chromatin and functional immune states connected? | CD8 exhaustion is distinct from Treg stability and epithelial maturation |
+
+Use the five-question note contract below, adding one sentence on whether the
+question remains interesting outside the original tissue. PI matching,
+personal reflection and contact planning stay in private Notion, consistent
+with the earlier removal of outreach planning from this repository.
 
 ## Studies with executed analyses
 
@@ -101,13 +137,13 @@ remain in the roadmap below.
 | 13 | 2C | Yu, Lee, Choi_Min and Choi 2026, *Seminars in Immunology* (review) | [10.1016/j.smim.2026.102050](https://doi.org/10.1016/j.smim.2026.102050) | 42497497 | review-motivated IL-1beta perturbation, state specificity and niche-context questions | [`gate2_C3_yu_lee_choi_min_2026/`](gate2_C3_yu_lee_choi_min_2026/README.md) | owner read; synthesis prepared; staged execution authorized 2026-09-24 | [Feasible paper analyses complete](gate2_C3_yu_lee_choi_min_2026/EVIDENCE_REVIEW.md). Derived A11 acute assay and A12/A13 exploratory pilots completed; [later A12 cohort recovery](../RQ_Specified/A12_recipient_context/external_validation_20260928/reports/RECOVERY_REPORT.md) admits no unchanged validation cohort. Causal/fate, annotation and region gates remain. |
 | 6 | 2N | Nabhan et al. 2023, *Cell* | [10.1016/j.cell.2023.05.022](https://doi.org/10.1016/j.cell.2023.05.022) | 37321220 | Receptor-selective Wnt response, growth and differentiation | [`gate2_N1_nabhan_2023/`](gate2_N1_nabhan_2023/README.md) | owner completed reading 2026-09-29; PDF and private context reviewed | [Nb2 results](gate2_N1_nabhan_2023/RESULTS.md), [gallery](gate2_N1_nabhan_2023/FIGURES.md) and [candidates](gate2_N1_nabhan_2023/HYPOTHESIS_REGISTER.md#nabhan-branch); adapted/partial analysis executed, exact/functional reproduction open |
 | 14 | 2N | Nabhan et al. 2026, *PNAS* | [10.1073/pnas.2606113123](https://doi.org/10.1073/pnas.2606113123) | 42418498 | an alveolosphere screen of 201 genes with chimeric RNA-seq of stem-cell effects on the fibroblast niche | [`gate2_N2_nabhan_2026/`](gate2_N2_nabhan_2026/README.md) | owner finished reading 2026-10-01; source synthesis prepared | **Nb3:** [source-informed reproduction](gate2_N2_nabhan_2026/reports/REPRODUCTION_REVIEW.md) and [descriptive extensions](gate2_N2_nabhan_2026/reports/EXTENSION_REVIEW.md); exact-source/spatial gates retained; prior A10/A2 preserved |
-| 15 | 2W | Wagner et al. 2021, *Cell* | [10.1016/j.cell.2021.05.045](https://doi.org/10.1016/j.cell.2021.05.045) | 34216539 | Compass: immune-metabolic state inference from single-cell RNA, the method behind proposal W1 | not started | not started | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
-| 16 | 2W | Yadav et al. 2025, *JCI* | [10.1172/JCI188734](https://doi.org/10.1172/JCI188734) | 40875483 | the lung-fibrosis myeloid-to-mesenchymal ARG1 and ornithine circuit, with Wagner as co-author; the comparison proposal W1 names | not started | not started | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
-| 7 | 3A | Saxton et al. 2021, *Science* | [10.1126/science.abc8433](https://doi.org/10.1126/science.abc8433) | 33737461 | structure-based decoupling of IL-10 pro- and anti-inflammatory functions | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started | not started |
-| 8 | 3A | Saxton et al. 2021, *Immunity* | [10.1016/j.immuni.2021.03.008](https://doi.org/10.1016/j.immuni.2021.03.008) | 33852830 | IL-22 tissue-protective vs pro-inflammatory functions decoupled | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started | not started |
-| 9 | 3B | DuPage et al. 2015, *Immunity* | [10.1016/j.immuni.2015.01.007](https://doi.org/10.1016/j.immuni.2015.01.007) | 25680271 | Ezh2 maintains regulatory T cell identity after activation | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started | not started |
-| 10 | 3B | Wang et al. 2018, *Cell Reports* | [10.1016/j.celrep.2018.05.050](https://doi.org/10.1016/j.celrep.2018.05.050) | 29898397 | targeting EZH2 reprograms intratumoral Tregs | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started | not started |
-| 11 | 3B | Zhang et al. 2026, *Science Immunology* | [10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411) | 41961946 | intratumoral Treg ablation elicits NK-mediated control | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started | not started |
+| 15 | 2W | Wagner et al. 2021, *Cell* | [10.1016/j.cell.2021.05.045](https://doi.org/10.1016/j.cell.2021.05.045) | 34216539 | Compass: immune-metabolic state inference from single-cell RNA, the method behind proposal W1 | not started | not started; current comparison queue; owner reading unconfirmed | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
+| 16 | 2W | Yadav et al. 2025, *JCI* | [10.1172/JCI188734](https://doi.org/10.1172/JCI188734) | 40875483 | the lung-fibrosis myeloid-to-mesenchymal ARG1 and ornithine circuit, with Wagner as co-author; the comparison proposal W1 names | not started | not started; current comparison queue; owner reading unconfirmed | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
+| 7 | 3A | Saxton et al. 2021, *Science* | [10.1126/science.abc8433](https://doi.org/10.1126/science.abc8433) | 33737461 | structure-based decoupling of IL-10 pro- and anti-inflammatory functions | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started; reading open 2026-10-01; analysis remains gated | not started |
+| 8 | 3A | Saxton et al. 2021, *Immunity* | [10.1016/j.immuni.2021.03.008](https://doi.org/10.1016/j.immuni.2021.03.008) | 33852830 | IL-22 tissue-protective vs pro-inflammatory functions decoupled | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started; reading open 2026-10-01; analysis remains gated | not started |
+| 9 | 3B | DuPage et al. 2015, *Immunity* | [10.1016/j.immuni.2015.01.007](https://doi.org/10.1016/j.immuni.2015.01.007) | 25680271 | Ezh2 maintains regulatory T cell identity after activation | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
+| 10 | 3B | Wang et al. 2018, *Cell Reports* | [10.1016/j.celrep.2018.05.050](https://doi.org/10.1016/j.celrep.2018.05.050) | 29898397 | targeting EZH2 reprograms intratumoral Tregs | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
+| 11 | 3B | Zhang et al. 2026, *Science Immunology* | [10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411) | 41961946 | intratumoral Treg ablation elicits NK-mediated control | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
 
 The `#` is a stable identifier assigned when a paper enters the roadmap, and
 folder names normally carry it. England uses branch 2C item 2 (`gate2_C2`, stable order 12),

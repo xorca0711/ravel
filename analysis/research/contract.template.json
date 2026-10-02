@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A22.example_v1",
+  "owner": "A22",
+  "status": "draft",
+  "analysis_type": "exploratory",
+  "question": "REPLACE: question",
+  "decision": "REPLACE: decision",
+  "strongest_rival": "REPLACE: strongest rival",
+  "discriminator": "REPLACE: discriminator",
+  "evidence_refs": [
+    "RQ_Specified/A22_epithelial_identity_niche_response/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "REPLACE: exposure record",
+  "biological_unit": "REPLACE: biological unit",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "REPLACE: nesting and overlap",
+  "population_and_selection": "REPLACE: population and selection",
+  "contrast": "REPLACE: contrast",
+  "endpoint": "REPLACE: endpoint",
+  "methods": "REPLACE: methods",
+  "missingness_and_exclusions": "REPLACE: missingness and exclusions",
+  "multiplicity": "REPLACE: multiplicity",
+  "precision_status": "unknown",
+  "precision_basis": "REPLACE: precision basis",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "REPLACE: interpretation limit",
+  "stop_rule": "REPLACE: stop rule",
+  "inputs": [
+    {
+      "path": "raw_data/REPLACE",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "study_id": "REPLACE",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/REPLACE/scripts/analysis.py",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/REPLACE/scripts/analysis.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "results.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective execution version; fill in prior exposure explicitly."
+}

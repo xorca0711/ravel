@@ -1,5 +1,7 @@
 # Research question analyses
 
+**Research development, 3 October 2026:** [all 24 evidence dossiers](../docs/research_dossiers/README.md) and [execution governance](../docs/RESEARCH_GOVERNANCE.md) now define the missing biological discriminator and required analysis contract. All questions remain open for development; a completed analysis is not experimental readiness.
+
 **Cross-article integration, 1 October 2026:** [review of all article histories](../docs/audits/2026-10-01-cross-article-rq-review/README.md)
 adds dated conditional candidates under their existing [RQ cards](../RESEARCH_QUESTIONS.md),
 with an [A8 addendum](A8_maturation_component_at1_contribution/RELATED_CANDIDATES_2026-10-01.md).

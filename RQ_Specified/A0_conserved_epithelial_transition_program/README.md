@@ -1,5 +1,7 @@
 # A0 — Conserved epithelial transition programme
 
+**Current development framing:** [A0 development dossier](../../docs/research_dossiers/A0.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 ## Organizing biological question
 
 > Is a conserved programme reused across epithelial transitions, and could it modulate fate?

@@ -181,7 +181,9 @@ def check_markdown_links(result: Validation) -> None:
 
 
 def check_machine_readable_files(result: Validation) -> None:
-    for path in source_files(REPO / "analysis", ".json") + source_files(REPO / "Research Article", ".json"):
+    for path in (source_files(REPO / "analysis", ".json")
+                 + source_files(REPO / "Research Article", ".json")
+                 + source_files(REPO / "RQ_Specified", ".json")):
         try:
             json.loads(path.read_text(encoding="utf-8"))
         except (OSError, UnicodeError, json.JSONDecodeError) as exc:

@@ -1,5 +1,7 @@
 # A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
 
+**Current development framing:** [A19 development dossier](../../docs/research_dossiers/A19.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 <a id="biological-question"></a>
 
 ## Organizing biological question

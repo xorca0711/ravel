@@ -1,5 +1,7 @@
 # Shared epithelial component contract (A5 and A11)
 
+**Current development framing:** [A5 development dossier](../../docs/research_dossiers/A5.md) and [A11 development dossier](../../docs/research_dossiers/A11.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 ## Organizing biological questions
 
 This shared workspace supports two questions:

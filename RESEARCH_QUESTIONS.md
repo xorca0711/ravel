@@ -167,6 +167,8 @@ mechanisms; their contracts do not yet authorize confirmatory scoring.
 
 ### A0. Is a conserved programme reused across epithelial transitions, and could it modulate fate?
 
+**Development scope, 3 October 2026 (proposed).** Which part of the lung injury-associated programme distinguishes later productive epithelial maturation from a persistent intermediate state? See the [A0 evidence dossier](docs/research_dossiers/A0.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Hypothesis.** Different epithelia may reuse part of the cellular work needed to
 leave an established identity and acquire another. A shared RNA component is one
 possible observable consequence. Whether that component controls maturation,
@@ -211,6 +213,8 @@ a state association. Neither outcome by itself resolves universality or fate.
 <a id="a1"></a>
 
 ### A1. Do regulatory programmes distinguish RNA-similar transitional states and their functional responses?
+
+**Development scope, 3 October 2026 (proposed).** Does regulatory state distinguish transition-associated epithelial populations with different subsequent capacities for mature recovery? See the [A1 evidence dossier](docs/research_dossiers/A1.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Hypothesis.** Transitional epithelia share part of an RNA response but differ
 in regulatory programmes that help explain maturation, persistence or perturbation
@@ -294,6 +298,8 @@ supporting diagnostics. [MC1–MC2](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1).
 
 ### A2. Does the fibroblast response to AREG depend on delivery or on abundance?
 
+**Development scope, 3 October 2026 (proposed).** Does epithelial response depend on how AREG reaches the recipient, after accounting for ligand supply and recipient context? See the [A2 evidence dossier](docs/research_dossiers/A2.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Hypothesis.** AREG's contribution to a fibroblast response is set by where the
 ligand is released relative to a competent recipient, rather than by how much of it a
 compartment transcribes. The mechanism is short-range and recipient-licensed, so the
@@ -375,6 +381,8 @@ ligand dose and recipient engagement, beyond spatial RNA proximity alone.
 
 ### A3. Does prior injury leave a macrophage programme that differs from normal aging?
 
+**Development scope, 3 October 2026 (proposed).** Does prior injury leave a persistent macrophage programme after age and current tissue context are accounted for? See the [A3 evidence dossier](docs/research_dossiers/A3.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Hypothesis.** Prior infection is associated with a late macrophage programme
 or state distribution beyond changes expected with age alone.
 
@@ -403,6 +411,8 @@ controls. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 <a id="a4"></a>
 
 ### A4. Can Wnt-supported maintenance precede an IL-1-responsive transition in the same AT2 lineage?
+
+**Development scope, 3 October 2026 (proposed).** Can Wnt-associated AT2 cells change their response to inflammatory input, or do different fixed subsets account for the observed states? See the [A4 evidence dossier](docs/research_dossiers/A4.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Hypothesis.** Wnt-associated maintenance and IL-1-associated transition can be
 sequential states of a lineage rather than fixed opposing subsets.
@@ -436,6 +446,8 @@ are screens; the desired figure is a lineage-linked activity/response time cours
 <a id="a5"></a>
 
 ### A5. Does adult alveolar repair reuse part of a developmental epithelial programme?
+
+**Development scope, 3 October 2026 (proposed).** Which developmental epithelial component is recruited during adult repair, and what function does that recruitment explain? See the [A5 evidence dossier](docs/research_dossiers/A5.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Hypothesis.** Development and adult repair recruit a shared epithelial
 remodelling component, with context-specific additions contributing to different
@@ -489,6 +501,8 @@ shared-versus-specific effects and held-out evaluation.
 
 ### A6. Does IPF alter shared macrophage states beyond changing their abundance?
 
+**Development scope, 3 October 2026 (proposed).** Which macrophage programme changes within shared states in IPF, and which measurable consequence would make that change biologically useful to explain? See the [A6 evidence dossier](docs/research_dossiers/A6.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Hypothesis.** IPF has a within-state macrophage programme component in addition
 to changes in resident, recruited and proliferating cell proportions.
 
@@ -517,6 +531,8 @@ effects and intervals. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 
 ### A7. Does Cebpa loss attenuate AT2 identity across states or preferentially within a transitional state?
 
+**Development scope, 3 October 2026 (proposed).** Is the effect of Cebpa loss on AT2 identity state-selective, or is there a broadly distributed identity change? See the [A7 evidence dossier](docs/research_dossiers/A7.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Hypothesis.** Cebpa loss reduces identity across AT2 states, so the smaller
 transitional–reference contrast partly reflects a changed reference rather than
 selective preservation of intermediates.
@@ -543,6 +559,8 @@ animal effects and interaction intervals. [MC1–MC3](docs/RQ_MEASUREMENT_CONTRA
 <a id="a8"></a>
 
 ### A8. Does a maturation-specific programme add information about mature AT1 contribution beyond shared transition?
+
+**Development scope, 3 October 2026 (proposed).** Does an early maturation-related component predict later mature AT1 contribution beyond a generic transitional state? See the [A8 evidence dossier](docs/research_dossiers/A8.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Hypothesis.** A component beyond shared transition provides additional
 information about measured mature AT1 contribution.
@@ -575,6 +593,8 @@ desired panels compare component effects and held-out endpoint performance.
 
 ### A9. Does fibroblast receptor context determine the response to AREG?
 
+**Development scope, 3 October 2026 (proposed).** Does recipient receptor competence explain different fibroblast responses to comparable AREG input? See the [A9 evidence dossier](docs/research_dossiers/A9.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Hypothesis.** Receptor abundance and complex competence modify fibroblast
 responses to a defined AREG exposure.
 
@@ -605,6 +625,8 @@ future panels are protein/activation and functional contrasts.
 <a id="a10"></a>
 
 ### A10. Do epithelial programmes add information about measured organoid growth?
+
+**Development scope, 3 October 2026 (proposed).** Do epithelial programmes explain measured organoid growth beyond earlier organoid size in independent preparations? See the [A10 evidence dossier](docs/research_dossiers/A10.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Hypothesis.** Epithelial perturbation programmes add information about growth
 beyond baseline imaging and plate effects; fibroblast response programmes may
@@ -653,6 +675,8 @@ design before another model-selection cycle.
 <a id="a11"></a>
 
 ### A11. Which lesion-associated programmes add to a shared epithelial plasticity component?
+
+**Development scope, 3 October 2026 (proposed).** Which lesion-associated component exceeds shared epithelial plasticity and explains a specific lesion-relevant function? See the [A11 evidence dossier](docs/research_dossiers/A11.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Hypothesis.** Neoplasia-associated epithelial states contain a shared
 remodelling component plus context-associated additions distinguishable from
@@ -709,6 +733,8 @@ direction. This paragraph was moved from A13 on 28 September 2026; its results a
 
 ### A12. Does recipient receptor and inhibitor context explain responses beyond IL-1 ligand RNA?
 
+**Development scope, 3 October 2026 (proposed).** Does recipient context predict a response specifically attributable to IL-1 beyond ligand RNA and general inflammation? See the [A12 evidence dossier](docs/research_dossiers/A12.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Hypothesis.** Fibroblast and epithelial receptor/inhibitor context contributes
 to recipient programme variation beyond source IL1A/IL1B RNA and subtype mixture.
 
@@ -750,6 +776,8 @@ a separate measurement.
 <a id="a13"></a>
 
 ### A13. Do fibroblast programmes add information about epithelial plasticity beyond macrophage IL1B?
+
+**Development scope, 3 October 2026 (proposed).** Does epithelial context induce a distinct fibroblast response, or select among existing fibroblast states, beyond shared inflammatory exposure? See the [A13 evidence dossier](docs/research_dossiers/A13.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Hypothesis.** Fibroblast inflammatory/recruitment, matrix and trophic programmes
 contribute information about epithelial plasticity beyond macrophage IL1B RNA.
@@ -795,6 +823,8 @@ first, then patient effects if eligible. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#
 
 ### A14. Do exposure duration and fibroblast IL-1 reception separately determine recovery after withdrawal?
 
+**Development scope, 3 October 2026 (proposed).** Does input history alter recovery after withdrawal through the epithelial compartment, fibroblast IL-1 reception, or continued residual stimulation? See the [A14 evidence dossier](docs/research_dossiers/A14.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Two hypotheses, separate decisions.** Longer IL-1β exposure reduces mature
 epithelial recovery after withdrawal. Separately, fibroblast IL-1 reception
 modifies recovery beyond direct epithelial reception. Either can hold without
@@ -833,6 +863,8 @@ response curve is a result. [MC1](docs/RQ_MEASUREMENT_CONTRACTS.md#mc1),
 <a id="a15"></a>
 
 ### A15. Does the epithelial input to fibroblast activation run through the integrin or through the ligand?
+
+**Development scope, 3 October 2026 (proposed).** In the relevant epithelial–fibroblast context, does epithelial integrin-dependent activation explain the response beyond total TGF ligand supply? See the [A15 evidence dossier](docs/research_dossiers/A15.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Proposed 27 September 2026, and pending the owner's retain or reject.** This card is
 assistant-proposed wording. It grades nothing, adds no claim row, and carries no result of
@@ -925,6 +957,8 @@ primary and historical algorithmic label are preserved, with mediation unresolve
 
 ### A16. Does CD177 identify a priming phenotype within comparable mutant cells?
 
+**Development scope, 3 October 2026 (proposed).** Does CD177 identify a reproducible phenotype within comparable mutant cells that predicts a later response beyond state composition? See the [A16 evidence dossier](docs/research_dossiers/A16.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Proposed 28 September 2026; pending the owner's retain or reject.** Current
 wording amended by the [source/code audit](docs/audits/2026-09-28-england-paper-rqs/REPORT.md).
 No claim grade or completed functional result is added.
@@ -989,6 +1023,8 @@ separate maturation and second-hit hypotheses from marker transfer.
 
 ### A17. Do persistent founder differences help explain unequal mutant clone growth?
 
+**Development scope, 3 October 2026 (proposed).** Do persistent founder differences improve prediction of mutant clone growth over switching, survival and measurement alternatives? See the [A17 evidence dossier](docs/research_dossiers/A17.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Proposed 28 September 2026; pending the owner's retain or reject.** The
 biological question is retained; the simulator correction is its enabling check.
 
@@ -1037,6 +1073,8 @@ remain explicit; no stochastic refit ran.
 
 ### A18. Are WT expansion and loss of AT2 identity regulated differently near mutant clones?
 
+**Development scope, 3 October 2026 (proposed).** Do neighboring mutant cells influence WT expansion and loss of AT2 identity through separable processes? See the [A18 evidence dossier](docs/research_dossiers/A18.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **Proposed 28 September 2026; pending the owner's retain or reject.**
 
 **Hypothesis and biology.** Mutant tissue influences WT cell expansion and AT2
@@ -1079,6 +1117,8 @@ No author was contacted. [Source audit](docs/audits/2026-09-28-england-paper-rqs
 <a id="a19"></a>
 
 ### A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
+
+**Development scope, 3 October 2026 (proposed).** Does starting epithelial state determine mature AT1 output and retained AT2 reserve after Fzd input ends? See the [A19 evidence dossier](docs/research_dossiers/A19.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **One-line working hypothesis (untested):** Retention of alveolar identity during Fzd-supported AT2 expansion permits subsequent AT1 maturation after withdrawal while preserving a responsive AT2 reserve.
 
@@ -1128,6 +1168,8 @@ source, exposure, fate and reserve outcomes. A4, A8, A10 and A1 retain their dis
 
 ### A20. Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?
 
+**Development scope, 3 October 2026 (proposed).** Does Fzd2-dependent AF1 support improve the yield of mature epithelial descendants beyond maintaining a larger early AT2 pool? See the [A20 evidence dossier](docs/research_dossiers/A20.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
+
 **One-line working hypothesis (untested):** Fzd2 is more necessary than Fzd1 for AF1 fibroblasts to maintain AT2 cells that subsequently produce mature alveolar descendants.
 
 **Exploratory phase complete; primary scope narrowed, 30 September 2026.
@@ -1171,6 +1213,8 @@ acceptance changes; new execution waits for an eligible functional source.
 <a id="a21"></a>
 
 ### A21. Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?
+
+**Development scope, 3 October 2026 (proposed).** Does Fzd4-dependent vascular integrity change gCap renewal and aerocyte production during alveolar repair? See the [A21 evidence dossier](docs/research_dossiers/A21.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **One-line working hypothesis (untested):** Fzd4 preserves capillary vascular integrity, enabling subsequent gCap self-renewal and aerocyte production after injury.
 
@@ -1225,6 +1269,8 @@ grade or biological acceptance changes.
 <a id="a22"></a>
 
 ### A22. Does epithelial identity determine fibroblast chemokine competence beyond epithelial amount?
+
+**Development scope, 3 October 2026 (proposed).** Does epithelial identity alter fibroblast chemokine output through within-state induction rather than fibroblast selection or epithelial amount? See the [A22 evidence dossier](docs/research_dossiers/A22.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Proposed 1 October 2026; pending the owner's retain or reject.**
 [Workspace](RQ_Specified/A22_epithelial_identity_niche_response/README.md),
@@ -1284,6 +1330,8 @@ secreted output. [Extension and fixed-fold amendment](RQ_Specified/A22_epithelia
 <a id="a23"></a>
 
 ### A23. Does SLC34A2-dependent phosphate homeostasis constrain entry into a transition-associated state?
+
+**Development scope, 3 October 2026 (proposed).** Does SLC34A2-dependent phosphate handling affect transition entry directly, or through extracellular injury and loss of cell homeostasis? See the [A23 evidence dossier](docs/research_dossiers/A23.md) for the rival explanation, decisive outcome and experimental bridge. Historical tests below retain their original scope.
 
 **Proposed 1 October 2026; pending the owner's retain or reject.**
 [Workspace](RQ_Specified/A23_slc34a2_transition_homeostasis/README.md),

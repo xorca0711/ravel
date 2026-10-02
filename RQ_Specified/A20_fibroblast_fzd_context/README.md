@@ -1,5 +1,7 @@
 # A20. Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?
 
+**Current development framing:** [A20 development dossier](../../docs/research_dossiers/A20.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 <a id="biological-question"></a>
 
 ## Organizing biological question

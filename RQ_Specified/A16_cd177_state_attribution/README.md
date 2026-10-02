@@ -1,5 +1,7 @@
 # A16: does CD177 identify a priming phenotype within comparable mutant cells?
 
+**Current development framing:** [A16 development dossier](../../docs/research_dossiers/A16.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 **Later evidence reconciled 1 October 2026:** the [corrected C1 analysis on main](https://github.com/xorca0711/scRNA_seq/blob/f61343cc16c83e979b071393adccdcf8084ea294/RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)
 has executed the population/neighbourhood amendment. The [canonical card](../../RESEARCH_QUESTIONS.md#a16)
 now reflects its attenuation and residual imbalance. Intrinsic priming and the

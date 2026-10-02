@@ -1,0 +1,324 @@
+{
+  "type": "object",
+  "required": [
+    "schema_version",
+    "analysis_id",
+    "owner",
+    "status",
+    "analysis_type",
+    "question",
+    "decision",
+    "strongest_rival",
+    "discriminator",
+    "evidence_refs",
+    "prior_outcome_exposure",
+    "exposure_record",
+    "biological_unit",
+    "unit_status",
+    "nesting_and_overlap",
+    "population_and_selection",
+    "contrast",
+    "endpoint",
+    "methods",
+    "missingness_and_exclusions",
+    "multiplicity",
+    "precision_status",
+    "precision_basis",
+    "validation_scope",
+    "design_identifiability",
+    "inference_scope",
+    "interpretation_limit",
+    "stop_rule",
+    "inputs",
+    "code",
+    "runtime",
+    "entrypoint",
+    "arguments",
+    "expected_outputs",
+    "amendment_of",
+    "amendment_reason"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "analysis_id": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9][A-Za-z0-9_.-]{2,95}"
+    },
+    "owner": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "frozen"
+      ]
+    },
+    "analysis_type": {
+      "type": "string",
+      "enum": [
+        "metadata",
+        "exploratory",
+        "descriptive",
+        "predictive",
+        "confirmatory"
+      ]
+    },
+    "question": {
+      "type": "string",
+      "minLength": 20
+    },
+    "decision": {
+      "type": "string",
+      "minLength": 20
+    },
+    "strongest_rival": {
+      "type": "string",
+      "minLength": 20
+    },
+    "discriminator": {
+      "type": "string",
+      "minLength": 20
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "prior_outcome_exposure": {
+      "type": "string",
+      "enum": [
+        "unexposed",
+        "exposed",
+        "unknown"
+      ]
+    },
+    "exposure_record": {
+      "type": "string",
+      "minLength": 20
+    },
+    "biological_unit": {
+      "type": "string",
+      "minLength": 5
+    },
+    "unit_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "nesting_and_overlap": {
+      "type": "string",
+      "minLength": 20
+    },
+    "population_and_selection": {
+      "type": "string",
+      "minLength": 20
+    },
+    "contrast": {
+      "type": "string",
+      "minLength": 20
+    },
+    "endpoint": {
+      "type": "string",
+      "minLength": 20
+    },
+    "methods": {
+      "type": "string",
+      "minLength": 20
+    },
+    "missingness_and_exclusions": {
+      "type": "string",
+      "minLength": 20
+    },
+    "multiplicity": {
+      "type": "string",
+      "minLength": 10
+    },
+    "precision_status": {
+      "type": "string",
+      "enum": [
+        "justified",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "precision_basis": {
+      "type": "string",
+      "minLength": 20
+    },
+    "validation_scope": {
+      "type": "string",
+      "enum": [
+        "none",
+        "internal",
+        "external"
+      ]
+    },
+    "design_identifiability": {
+      "type": "string",
+      "enum": [
+        "supported",
+        "unsupported",
+        "unknown"
+      ]
+    },
+    "inference_scope": {
+      "type": "string",
+      "enum": [
+        "descriptive",
+        "association",
+        "prediction",
+        "causal"
+      ]
+    },
+    "interpretation_limit": {
+      "type": "string",
+      "minLength": 20
+    },
+    "stop_rule": {
+      "type": "string",
+      "minLength": 20
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256",
+          "study_id",
+          "unit_ids",
+          "role",
+          "independence",
+          "exposure"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "[0-9a-f]{64}"
+          },
+          "study_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "unit_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0,
+            "uniqueItems": true
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "discovery",
+              "validation",
+              "context",
+              "metadata"
+            ]
+          },
+          "independence": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "unknown",
+              "not_applicable"
+            ]
+          },
+          "exposure": {
+            "type": "string",
+            "enum": [
+              "unexposed",
+              "exposed",
+              "unknown"
+            ]
+          }
+        }
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "code": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "[0-9a-f]{64}"
+          }
+        }
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "runtime": {
+      "type": "string",
+      "enum": [
+        "python",
+        "Rscript"
+      ]
+    },
+    "entrypoint": {
+      "type": "string",
+      "minLength": 1
+    },
+    "arguments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "expected_outputs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "amendment_of": {
+      "type": "string"
+    },
+    "amendment_reason": {
+      "type": "string",
+      "minLength": 10
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prospective research execution contract v1",
+  "description": "Structural checks plus semantic rules in analysis/lib/research_governance.py. Presence is not scientific validity."
+}

@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-02T18:10:10.620512+00:00",
+  "baseline_commit": "0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f",
+  "scope": "Repository repair, tracked evidence and synthetic contract tests; no new biological fits or raw-input reruns.",
+  "checks": [
+    {
+      "name": "compile",
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "compileall",
+        "-q",
+        "-x",
+        "[/\\\\]\\.tools[/\\\\]",
+        "analysis",
+        "Research Article",
+        "RQ_Specified"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.78,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "unit_tests",
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "analysis/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 14.94,
+      "log_sha256": "f8bf138d790a48cd37e8edd5fc80303310c7f8c6797e9d89cbcf7b3174ad83d9"
+    },
+    {
+      "name": "claim_contract",
+      "command": [
+        "python",
+        "-B",
+        "analysis/scripts/claim_contract.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.5,
+      "log_sha256": "e7e5f0ebd3bf271a341d901717c00c42f4e1d9796f60ed75b73748bb28f9508d"
+    },
+    {
+      "name": "nb1_evidence",
+      "command": [
+        "python",
+        "-B",
+        "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.92,
+      "log_sha256": "d03213acc17a89d450846ff26196a2b759ba885d32a647ef10c7a81c8fdc7bd9"
+    },
+    {
+      "name": "nb4_archive",
+      "command": [
+        "python",
+        "-B",
+        "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/scripts/verify_archive.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.44,
+      "log_sha256": "7aba818f40898d07fce2ccf100424282519761b37fede97991cc01a26b8652a0"
+    },
+    {
+      "name": "a16_evidence",
+      "command": [
+        "python",
+        "-B",
+        "RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.2,
+      "log_sha256": "a30ed2397f3f61825e0976c22b69d8d19393890fa5fde7ef8ce4f9aae115f838"
+    },
+    {
+      "name": "a23_external",
+      "command": [
+        "python",
+        "-B",
+        "RQ_Specified/A23_slc34a2_transition_homeostasis/scripts/08_verify_external_current.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.81,
+      "log_sha256": "72a202c7e329e0e49c9b26da0c16d5173fb5d1a1a6bfb4122bee0ec3393da34f"
+    },
+    {
+      "name": "a22_a23_extensions",
+      "command": [
+        "python",
+        "-B",
+        "analysis/scripts/verify_a22_a23_extensions.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.69,
+      "log_sha256": "9820d60ceaff0991a8b3467599c534cfb6afa68ac8d87c1aa7a9fbeef284b85e"
+    },
+    {
+      "name": "repository",
+      "command": [
+        "python",
+        "-B",
+        "analysis/scripts/validate_repository.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 10.24,
+      "log_sha256": "c6605a97fdc485e9f3664620cb4f66858a165b3dd9b8b6a8514ee04d43bc82e3"
+    },
+    {
+      "name": "research_gate",
+      "command": [
+        "python",
+        "-B",
+        "analysis/scripts/research_gate.py",
+        "check",
+        "--base",
+        "0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.62,
+      "log_sha256": "ab495baa1e177b79bdf7250b934a2d5a119cf81e6e11b93ab4f009e2d1a21bc1"
+    }
+  ]
+}
