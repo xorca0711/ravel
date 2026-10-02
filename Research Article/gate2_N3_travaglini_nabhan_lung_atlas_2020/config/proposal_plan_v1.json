@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "analysis_label": "Nb4",
+  "date": "2026-10-03",
+  "status": "planning_only",
+  "scope": "Nine article-local proposals; no new biological runs or canonical A-number assignments",
+  "master_plan": "reports/proposals/README.md",
+  "source_ledger": "reports/proposals/SOURCES.md",
+  "stage_order": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "stages": {
+    "S0": "source, novelty and ownership audit",
+    "S1": "freeze execution contract",
+    "S2": "source measurement",
+    "S3": "rival and sensitivity analysis",
+    "S4": "independent cohort transport",
+    "S5": "question decision"
+  },
+  "queue_policy": "Proceed in priority order through eligible stages; record missing-input holds and continue. Dependencies require an audit, not a positive biological result.",
+  "conditional_dependencies": [
+    {
+      "proposal": "P06",
+      "branch": "mouse_comparison",
+      "requires": "P01:S0"
+    }
+  ],
+  "existing_executed_ids": [
+    "Nb4-RQ1",
+    "Nb4-RQ1b",
+    "Nb4-RQ2"
+  ],
+  "proposals": [
+    {
+      "id": "Nb4-P01",
+      "short_id": "P01",
+      "priority": 1,
+      "plan": "reports/proposals/P01_model_transfer.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S07"
+      ],
+      "stage_dependencies": [],
+      "existing_rq_adjacency": [
+        "A0",
+        "A4",
+        "A7",
+        "A8",
+        "A19"
+      ],
+      "next_deliverable": "Mouse animal/pool, orthology and label-reference audit"
+    },
+    {
+      "id": "Nb4-P02",
+      "short_id": "P02",
+      "priority": 8,
+      "plan": "reports/proposals/P02_evolutionary_redistribution.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S02",
+        "S08"
+      ],
+      "stage_dependencies": [
+        "P01:S0"
+      ],
+      "existing_rq_adjacency": [],
+      "next_deliverable": "Common cell-class universe and third-species qualification"
+    },
+    {
+      "id": "Nb4-P03",
+      "short_id": "P03",
+      "priority": 2,
+      "plan": "reports/proposals/P03_disease_context.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "stage_dependencies": [],
+      "existing_rq_adjacency": [
+        "A6",
+        "A13",
+        "A22"
+      ],
+      "next_deliverable": "IPF donor/state coverage and disease-panel provenance"
+    },
+    {
+      "id": "Nb4-P04",
+      "short_id": "P04",
+      "priority": 3,
+      "plan": "reports/proposals/P04_immune_tissue_association.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S03",
+        "S09"
+      ],
+      "stage_dependencies": [],
+      "existing_rq_adjacency": [
+        "A3",
+        "A6"
+      ],
+      "next_deliverable": "Paired lung-blood units and independent paired cohort"
+    },
+    {
+      "id": "Nb4-P05",
+      "short_id": "P05",
+      "priority": 4,
+      "plan": "reports/proposals/P05_immune_identity_state.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "stage_dependencies": [],
+      "existing_rq_adjacency": [
+        "A3",
+        "A6"
+      ],
+      "next_deliverable": "Myeloid label crosswalk and independent population coverage"
+    },
+    {
+      "id": "Nb4-P06",
+      "short_id": "P06",
+      "priority": 6,
+      "plan": "reports/proposals/P06_at2_heterogeneity.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S07"
+      ],
+      "stage_dependencies": [],
+      "existing_rq_adjacency": [
+        "A4",
+        "A7",
+        "A8",
+        "A19"
+      ],
+      "next_deliverable": "AT2-s coverage and noncircular continuous-state measurement"
+    },
+    {
+      "id": "Nb4-P07",
+      "short_id": "P07",
+      "priority": 5,
+      "plan": "reports/proposals/P07_regional_epithelial_identity.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S03",
+        "S05",
+        "S06"
+      ],
+      "stage_dependencies": [
+        "P03:S0"
+      ],
+      "existing_rq_adjacency": [
+        "A0",
+        "A5",
+        "A11"
+      ],
+      "next_deliverable": "Measured anatomy, pathology labels and program overlap"
+    },
+    {
+      "id": "Nb4-P08",
+      "short_id": "P08",
+      "priority": 7,
+      "plan": "reports/proposals/P08_vascular_mural_specialization.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "stage_dependencies": [],
+      "existing_rq_adjacency": [
+        "A21"
+      ],
+      "next_deliverable": "Mural identity and independent vessel-bed labels"
+    },
+    {
+      "id": "Nb4-P09",
+      "short_id": "P09",
+      "priority": 9,
+      "plan": "reports/proposals/P09_fibroblast_sensory.md",
+      "status": "planned",
+      "executed": false,
+      "source_ids": [
+        "S01",
+        "S03",
+        "S10"
+      ],
+      "stage_dependencies": [],
+      "existing_rq_adjacency": [
+        "A13",
+        "A20",
+        "A22"
+      ],
+      "next_deliverable": "Gene-specific reproducibility and contamination/localization evidence"
+    }
+  ]
+}

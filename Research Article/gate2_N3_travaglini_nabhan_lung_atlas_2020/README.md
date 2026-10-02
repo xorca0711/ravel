@@ -1,6 +1,6 @@
 # Nb4: Travaglini, Nabhan et al. 2020 human lung atlas
 
-**Gate 2N, item N3 · reading completed 2 October 2026 · bounded analysis complete.**
+**Gate 2N, item N3 · source analysis complete; broader proposal plans structured 3 October 2026.**
 The requested folder name is preserved. **Nb4** is the owner-selected analysis
 label; early immutable `TN2020` records belong to this same analysis. Nb3 remains
 the separate Nabhan 2026 study.
@@ -20,7 +20,8 @@ refit of original clustering, differential-expression, spatial or species analys
 | [Follow-up results](reports/FOLLOWUP_RESULTS.md) | Donor/assay/depth checks and independent-atlas pilot |
 | [Genome-wide visual analysis](reports/EXTENDED_VISUAL_ANALYSIS.md) | t-SNE, new UMAP, donor PCA, GSEA and GO |
 | [Sequential RQ results](reports/RQ_SEQUENCE_RESULTS.md) | Three count-based branches, narrowing decisions, preserved endpoint gates |
-| [RQ pipelines](reports/RQ_PIPELINES.md) | Frozen scope, ordered execution and cross-study evidence |
+| [Broader proposal plans](reports/proposals/README.md) | Nine candidate questions, separate pipelines, source requirements, figures and execution queue |
+| [RQ pipelines](reports/RQ_PIPELINES.md) | Earlier executed scope, ordered execution and cross-study evidence |
 | [RQ derivation](reports/RQ_DERIVATION.md) | Narrowed candidates, rivals and next discriminating evidence |
 | [Execution and verification](EXECUTION.md) | Commands, software, immutable runs and verification |
 | [Public datasets](DATASETS.md) | Used versus inspected sources, versions, hashes and access limits |
@@ -29,6 +30,8 @@ refit of original clustering, differential-expression, spatial or species analys
 | [Original candidates](CANDIDATE_HYPOTHESES.md) / [initial intake](reports/INTAKE.md) | Historical pre-execution reasoning |
 
 **Sequential RQ follow-through completed 3 October 2026:** composition accounting, fixed chemokine-endpoint comparison and MYRF reference diagnostics. Read the [full results](reports/RQ_SEQUENCE_RESULTS.md) before interpreting these as tests of epithelial intervention or mature contribution.
+
+**Broader planning revision, 3 October 2026:** [Nb4-P01–P09](reports/proposals/README.md) cover model transfer, evolutionary redistribution, IPF context, immune tissue association, myeloid identity/state, AT2 heterogeneity, regional epithelium, vascular/mural specialization and fibroblast sensory candidates. These are structured proposals; no new numerical run or A24/A25 assignment is implied.
 
 ## Current evidence
 

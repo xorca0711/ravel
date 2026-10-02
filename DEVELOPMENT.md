@@ -2319,3 +2319,17 @@ sequential execution before reporting. The article-local
 records three executed branches and retained biological endpoint holds. No
 global claim grade or scientific acceptance decision changes. The PR includes
 the results, fifteen-figure gallery and expanded archive checks.
+
+
+## Nb4 broader proposal restructuring, 3 October 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Structure separate analysis plans for the broader atlas proposals | Codex following the owner's note-based scope correction | Owner authorized planning; scientific acceptance pending | Deposit article-local plans, source requirements and an execution queue | Preserve biological breadth while keeping eligibility and endpoint limits explicit |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Earlier RQ derivation focused almost entirely on two existing-question extensions | Owner identified omitted disease, species, evolutionary, residency and cell-identity themes; the limited scope was an implementation choice, not evidence that the atlas is outdated | Owner challenged scope; Codex structured the broader candidate plans |
+
+See the [planning index](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/proposals/README.md).
+Existing results, canonical numbering and scientific acceptance remain unchanged.

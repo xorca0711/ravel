@@ -1,5 +1,14 @@
 # Progress and handoff state
 
+## Nb4 broader proposal planning, 3 October 2026
+
+The owner requested separate analysis plans for the broader atlas proposals.
+[Article-local planning index](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/proposals/README.md)
+contains the candidate plans, source ledger and stage queue. Planning is complete;
+new execution starts with source qualification and a frozen contrast contract.
+No new canonical RQ, claim grade, numerical run or figure is recorded here.
+The prior completed analysis remains archived; details stay article-local.
+
 ## Nb4 publication handoff, 2 October 2026
 
 [Article workspace](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/README.md) · [execution/verification](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/EXECUTION.md) · [figure gallery](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/FIGURES.md). The owner requested execution and PR submission; scientific acceptance remains open. Paper-specific findings stay in that workspace. The [sequential RQ follow-through](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) completed on 3 October 2026; scoped results and endpoint holds remain article-local.

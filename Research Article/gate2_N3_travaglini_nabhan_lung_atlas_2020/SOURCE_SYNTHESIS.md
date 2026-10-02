@@ -72,9 +72,12 @@ a master-regulator mechanism, and TBX5 enrichment does not measure pericyte
 contractility. Species expression differences can challenge a marker without
 establishing a functional evolutionary mechanism.
 
-This first pipeline focuses on identity, niche context and species transfer.
-The paper's disease-expression catalogue is background, not an additional
-analysis objective.
+The first implemented pipeline emphasized identity, niche context and selected
+species-transfer diagnostics. Treating the disease-expression catalogue only
+as background was an overly narrow implementation choice, not a limit of the
+owner's notes or the atlas. The [broader proposal plan](reports/proposals/README.md)
+now includes disease context and the other open biological themes, with separate
+source requirements and interpretation boundaries.
 
 ## Version and interpretation boundaries
 
