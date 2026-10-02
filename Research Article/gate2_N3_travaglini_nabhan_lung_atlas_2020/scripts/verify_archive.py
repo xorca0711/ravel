@@ -9,11 +9,12 @@ REQUIRED = {
     "runs/" + name for name in (
         "intake_v1", "metadata_v1", "reproduction_v1", "source_concordance_v1",
         "followup_v1", "external_pilot_v1", "extended_visual_v1", "validation_v1",
+        "rq1_composition_v1", "rq1b_endpoint_v1", "rq2_myrf_v1", "rq_validation_v1",
     )
 } | {
     "figures/" + name for name in (
         "execution_v1", "publication_v1", "extended_v2", "refinement_v1",
-        "gallery_v1", "gallery_v2",
+        "gallery_v1", "gallery_v2", "rq_sequence_v1", "rq_sequence_v2",
     )
 }
 
@@ -53,6 +54,16 @@ def main():
     outputs = sum(verify_record(path) for path in records)
     if read_json(PACKAGE / "figures/gallery_v2/run_record.json")["pages"] != 12:
         raise ValueError("Final atlas must contain twelve recorded pages")
+    if read_json(PACKAGE / "figures/rq_sequence_v2/run_record.json")["pages"] != 15:
+        raise ValueError("Complete RQ atlas must contain fifteen recorded pages")
+    sequence = read_json(PACKAGE / "config/rq_sequence_v1.json")["order"]
+    for previous, current in zip(sequence, sequence[1:]):
+        prior = PACKAGE / "runs" / previous / "run_record.json"
+        current_record = read_json(PACKAGE / "runs" / current / "run_record.json")
+        if current_record["previous_run_sha256"] != sha256(prior):
+            raise ValueError("Broken RQ execution sequence: " + current)
+        if current_record["completed_at_utc"] <= read_json(prior)["completed_at_utc"]:
+            raise ValueError("RQ execution timestamps are out of order")
     verify_package.main()
     print(f"Nb4 archive passed: {len(records)} run records, {outputs} output hashes, "
           "archived code, configuration hashes and local documentation links.")

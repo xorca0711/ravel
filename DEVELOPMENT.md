@@ -2310,3 +2310,12 @@ not establish causal absence or change the owner's retain/reject decisions.
 | Date | Proposal changed | Why | Who changed it |
 |---|---|---|---|
 | 2026-10-02 | Numerically led figure captions and crowded annotations | Owner requested biological rationale first; visual review identified crowded labels | Owner directed caption style; Codex revised captions and retained versioned renders |
+
+### Nb4 sequential RQ follow-through, 3 October 2026
+
+The owner requested scoping, evidence consolidation, separate pipelines and
+sequential execution before reporting. The article-local
+[completed sequence](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md)
+records three executed branches and retained biological endpoint holds. No
+global claim grade or scientific acceptance decision changes. The PR includes
+the results, fifteen-figure gallery and expanded archive checks.

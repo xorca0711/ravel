@@ -92,3 +92,13 @@ The earlier 25 failures belonged to the original, stale checkout; they are not
 failures on this publication branch. No numerical fit or historical run record
 was changed while reconciling with current main. No claim-grade promotion or
 Notion write was performed. See the [verification report](reports/VERIFICATION.md).
+
+## Sequential RQ execution, 3 October 2026
+
+[Pipeline](reports/RQ_PIPELINES.md) and [results](reports/RQ_SEQUENCE_RESULTS.md):
+scripts 15 → 16 → 17 completed in order with a frozen specification and pinned
+inputs. Their immutable runs are rq1_composition_v1, rq1b_endpoint_v1 and
+rq2_myrf_v1. Script 18 rendered figures 13–15; rq_sequence_v2 is current,
+with fifteen total atlas pages. Script 19 passed six independent validation
+groups, including 138 comparisons against earlier fits. Rendering refinements
+did not change numerical outputs. Biological endpoint holds remain explicit.

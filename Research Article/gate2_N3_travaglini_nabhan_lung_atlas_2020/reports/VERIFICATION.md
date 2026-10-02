@@ -40,3 +40,12 @@ Paper-specific content remains in this article package. Shared changes add
 navigation, source bibliography, public-dataset entries and the Nb4 roadmap
 label. Earlier dirty work is preserved. No source matrix, private Notion page,
 existing scientific fit, global claim grade or A-number was changed.
+
+## RQ extension verification, 3 October 2026
+
+The three newly scoped count-based analyses completed sequentially after their
+specification/code commit. Six [independent check groups](../runs/rq_validation_v1/checks.json)
+passed, including 138 comparisons with prior fits. The final RQ figure render
+adds the sensitivity donor and explicit failed coverage; all fifteen figures
+are linked from the gallery. The portable archive verifier includes the new
+runs and both historical/final RQ render records. See [RQ results](RQ_SEQUENCE_RESULTS.md).

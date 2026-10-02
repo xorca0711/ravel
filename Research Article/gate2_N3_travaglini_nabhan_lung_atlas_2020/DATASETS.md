@@ -1,5 +1,16 @@
 # Inputs, versions and biological units
 
+## Additional executed reference, 3 October 2026
+
+The MYRF branch uses the three existing **GSE178360** filtered count matrices
+and the repository's previously derived epithelial candidate labels from the
+[Murthy workspace](../ungated_murthy_2022/GSE178360/README.md). Exact inputs and
+hashes are in [the RQ specification](config/rq_sequence_v1.json). Only one
+donor supplies an eligible AT1 comparison, so this is a descriptive reference
+check, not replicated external confirmation. [Results](reports/RQ_SEQUENCE_RESULTS.md).
+The newly screened primary papers are literature context only; their datasets
+were not used numerically.
+
 ## Public resources actually used by Nb4
 
 This is the article-level provenance register. The shared

@@ -1,0 +1,51 @@
+{
+  "schema": "Nb4-rq-run/v1",
+  "completed_at_utc": "2026-10-02T15:13:41.398778+00:00",
+  "status": "composition accounting complete; epithelial interaction gate held",
+  "scope": "exploratory reference diagnostics; biological endpoint gates retained",
+  "outputs": {
+    "coverage.tsv": "3e6bcfd61578b94e464ab466edb750efb3da6d999339c233985f63c4b35bdab5",
+    "decision.json": "51274de3436ecbea8da3d4864f3f582eee24e108073462c71b49f19c988643e3",
+    "donor_accounting.tsv": "59337a23148a1b96d60c6dac7cb05476c64972f32674550fd498fce84ba3bd3c",
+    "gene_mapping.json": "ca2c063ca740af40631f88d948c854644d70150e1e4fc46365578ea506694f8f",
+    "input_hashes.json": "765bf3c8c57050f48e70820243cb4b2d0e7b3f414e0c320258524bc19d6e4b5c",
+    "stratum_accounting.tsv": "58770cd80393a942cef52c07e45449c9a8c15a04401ccd9c3d8411eff6c0aa1f"
+  },
+  "code_sha256": {
+    "00_source_intake.py": "e26ea6cfe6005c35673aaf6000ccb0ea0cc47f35b80ef4ba49bddafa202c89e0",
+    "01_metadata_gate.py": "3d7f875bc4d6a64508996770b7e54631590aaca41c14a4b0a1008e11a4ef9303",
+    "02_acquire_expression.py": "9a9f5e6492e8a6779d3adcec04537356c76e69d24067991c3510bc9d2ac386e6",
+    "03_prepare_metadata.py": "91975e2960d2ecb5da41e8d9e7b6af18a68d0e9ca2b335df1fc773c9e2036e4e",
+    "04_expression_reproduction.py": "08cfe2016fa771d2395f243e99a23e794e2aa5b240f8376427850f2967fe85af",
+    "05_source_concordance.py": "2e49b31b8922c8242ad529dc851937590899d599af5193c5bbd9d210ce347826",
+    "06_followup_analysis.py": "32c2ab39fd551b4938b1fd6614c7bc4ebb8f42515f253660201f4bb526868a35",
+    "07_acquire_external.py": "71a2ca610323ab2f968603b988aea61fbc1e850c6e1b7501be1c6dcb6dc05f1c",
+    "08_external_pilot.py": "0ee0e173945fddd0e10fe1209a11c4dcfc174c9e959a6f560be15a3598100e5e",
+    "09_make_figures.py": "a46506edab89023f3ca80420a04d70e1edcc8074900c899fd7f910dd439730b0",
+    "10_validate_execution.py": "192cbe20a82344efff618e2ed574a618452d3f31d85bdd228cb76dd6dc90d0a2",
+    "11_extended_analysis.py": "e4769d243c55db38c7b20102866daf7416d3efd5809638a9a15aa2cbba71f730",
+    "12_extended_figures.py": "6bfd68e666547be254c7551ab19145899fc12a999e539c297334d9255a9dbd26",
+    "13_build_gallery.py": "e1152ed7392339f1d74bac9b10ecb10f5ee066f924efe68637fc1a4b00e6e5f1",
+    "14_refine_figures.py": "2bbe7beda69aac8e6fe38326e3810bea03dbfbc01b9a637e28f161515e3a1985",
+    "15_rq1_composition.py": "8bbf271d59b8ccc10851c0d97581323e60778eed6eefb91af79dd5577dd027e1",
+    "16_rq1b_endpoint.py": "dd4c369d0800a8ba10ece0bf89f49caaf68c4cc0b6262c28dc6bd2e9fa3ae12b",
+    "17_rq2_myrf.py": "7e85636e913ae9b0334e7c71a2ea3e2900ddffe6a6f20383c5ffdb9f9110bbd3",
+    "common.py": "70daa2a3fc6a786265d503ca01d115db237d7129a820d348829d110ccf00c68a",
+    "fetch_sources.py": "fbc4f04adfb0bfa9c65173fad8d49be610efad1c26383736678d5896744b1f37",
+    "rq_common.py": "3272edf9e7f4cdf8b7dd506e5c689963bca66aea73c9cce9b734dabe372851a2",
+    "test_checks.py": "575bdd472ca25ae2eb183ef6fa3e93a09a72601c8899dda1a50116b6b471903b",
+    "verify_archive.py": "b29f0d2372e9ca8aafd08383e0239925aa175aed0690e7220b083db777ebcc09",
+    "verify_package.py": "c711092453400dfa4591244b92c79e9fa407c8aaee694118376ccb5be44ff3fb"
+  },
+  "config_sha256": {
+    "execution_v1.json": "2ac45d6df6ab85a806b9b04db2bed713d706b50c10cdcc54479c83b67e86cb0a",
+    "expression_sources_v1.json": "448c6d1a4bd4c3afff6ff2ba81949285ed865dea4d1900be9c209c3c5ccf1aef",
+    "extended_visual_v1.json": "2411cff1a6bdbb2e91997c9dd09f4b1b349a6b23260fdf6cdc5a03f180ee5312",
+    "external_pilot_v1.json": "ab1bdce96351bc855356a24663fbf9576ea0aae46482b99fd2439f718857aa3b",
+    "external_source_v1.json": "4e92f19ab22bf21ba7bef50b7180e6d068f482d30adb817d1c358fc4d006f7c7",
+    "followup_v1.json": "3f9c6b370a78af3d9a7fed715459eb2cd2c8b18f6c5af08042e3dd4b1da96474",
+    "pipeline_v1.json": "ce8e02639387d691f2984c7426eb418ea70681f30fdc815d93fe144fd9d70f57",
+    "rq_sequence_v1.json": "5137a00bf42955421f2c9606ba30b7f9678858c767a64ec1110cff5974d9b70e",
+    "source_manifest.json": "bd62dde277e0a521bee6991de1806238565b8ea8593d4a5b0fc9d689d909b535"
+  }
+}

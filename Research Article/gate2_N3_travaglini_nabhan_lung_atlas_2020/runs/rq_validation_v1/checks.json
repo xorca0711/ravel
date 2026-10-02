@@ -1,0 +1,31 @@
+[
+  {
+    "check": "RQ1 cell/library mixture identities, floors and equal-stratum donor aggregation",
+    "rows": 31,
+    "status": "pass"
+  },
+  {
+    "check": "rq1b_endpoint_v1 differences, floors and donor aggregation",
+    "rows": 248,
+    "status": "pass"
+  },
+  {
+    "check": "rq2_myrf_v1 differences, floors and donor aggregation",
+    "rows": 90,
+    "status": "pass"
+  },
+  {
+    "check": "RQ1b fixed and every gene-omission panel, missingness and direction",
+    "rows": 168,
+    "status": "pass"
+  },
+  {
+    "check": "Agreement with prior source and external fits for overlapping endpoints",
+    "comparisons": 138,
+    "status": "pass"
+  },
+  {
+    "check": "Mature-endpoint/replication gates and complete atlas page count",
+    "status": "pass"
+  }
+]

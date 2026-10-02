@@ -1,8 +1,8 @@
 # Nb4: research figure gallery
 
-Twelve figures from the executed source reconstruction, sensitivities, external pilot and genome-wide visual analysis. White backgrounds, consistent assay colors, panel letters, donor points, explicit units and 300-dpi PNG plus SVG/PDF exports follow the neighboring Nb1, England and Nb3 galleries. Dense cell layers are rasterized within vector figures.
+Fifteen figures from the executed source reconstruction, sensitivities, external pilot, genome-wide visual analysis and sequential RQ diagnostics. White backgrounds, consistent assay colors, panel letters, donor points, explicit units and 300-dpi PNG plus SVG/PDF exports follow the neighboring Nb1, England and Nb3 galleries. Dense cell layers are rasterized within vector figures.
 
-[12-page PDF atlas](figures/gallery_v2/Nb4_figure_atlas.pdf) · [Reproduction](reports/REPRODUCTION_REVIEW.md) · [Follow-up](reports/FOLLOWUP_RESULTS.md) · [Genome-wide analysis](reports/EXTENDED_VISUAL_ANALYSIS.md) · [RQ derivation](reports/RQ_DERIVATION.md)
+[Complete 15-page PDF atlas](figures/rq_sequence_v2/Nb4_complete_atlas.pdf) · [Original 12-page atlas](figures/gallery_v2/Nb4_figure_atlas.pdf) · [Reproduction](reports/REPRODUCTION_REVIEW.md) · [Follow-up](reports/FOLLOWUP_RESULTS.md) · [Genome-wide analysis](reports/EXTENDED_VISUAL_ANALYSIS.md) · [RQ derivation](reports/RQ_DERIVATION.md)
 
 These are descriptive and exploratory figures. Donor counts, coverage holds, annotation exposure and gene-set nulls are stated in each caption; no repair mechanism or population-level significance follows from visual separation.
 
@@ -186,8 +186,55 @@ HALLMARK_COMPLEMENT was selected before this analysis. Curves show weighted runn
 
 </details>
 
+## Figure 13. Captured composition and C3 expression
+
+![Captured composition and C3 expression](figures/rq_sequence_v2/13_composition_accounting.png)
+
+Apparent stromal C3 abundance reflects both the identity of the captured fibroblasts and their expression within each subtype. Comparing each captured mixture with a common subtype reference shows why a pooled signal can change without a corresponding change in the same fibroblast population. This motivates separate measurement of subtype abundance and attributed output when testing responses to epithelial identity.
+
+[PNG](figures/rq_sequence_v2/13_composition_accounting.png) · [SVG](figures/rq_sequence_v2/13_composition_accounting.svg) · [PDF](figures/rq_sequence_v2/13_composition_accounting.pdf) · [Data](runs/rq1_composition_v1/donor_accounting.tsv)
+
+<details>
+<summary>Methods, biological units and interpretation limits</summary>
+
+Points compare observed mean per-cell C3 CPM with a 50:50 alveolar/adventitial reference. Lines join estimates for the same donor; percentages describe captured cells, not tissue abundance. Primary floor: 20 cells per subtype within matched strata. External strata are averaged equally within donor. Axes differ by assay; absolute cross-assay expression comparisons are not justified. Library-weighted accounting and the lower-floor sensitivity are archived.
+
+</details>
+
+## Figure 14. C3 and chemokine responses require separate endpoints
+
+![C3 and chemokine responses require separate endpoints](figures/rq_sequence_v2/14_endpoint_separation.png)
+
+C3-associated fibroblast identity does not imply a uniform chemokine program. Primary cell comparisons share an overall subtype direction, while nuclear sampling contexts and the lower-coverage source donor reveal opposing patterns. Keeping the individual chemokines visible prevents a stable complement-associated marker from being interpreted as general immune-signaling competence.
+
+[PNG](figures/rq_sequence_v2/14_endpoint_separation.png) · [SVG](figures/rq_sequence_v2/14_endpoint_separation.svg) · [PDF](figures/rq_sequence_v2/14_endpoint_separation.pdf) · [Data](runs/rq1b_endpoint_v1/panel_sensitivity.tsv)
+
+<details>
+<summary>Methods, biological units and interpretation limits</summary>
+
+Effects are alveolar minus adventitial log2(CPM+1); the fixed panel averages the seven inherited A22 gene effects. Vertical ranges are leave-one-gene-out diagnostics, not confidence intervals. Primary donors meet 20 cells per subtype; the triangle and dagger identify P2 at the declared 10-cell sensitivity floor. The heat map displays those same donors and genes. Context differences do not identify a causal effect of capture method; neither RNA panel measures secretion or recipient function.
+
+</details>
+
+## Figure 15. MYRF reference specificity and the mature-outcome gap
+
+![MYRF reference specificity and the mature-outcome gap](figures/rq_sequence_v2/15_myrf_reference.png)
+
+MYRF distinguishes AT1 from AT2 more clearly than it separates AT1 from mesothelial context in the available comparisons. Retaining the sparsely represented donor comparisons makes the boundary between a useful reference marker and a validated maturation component explicit. A mature-contribution question requires a linked biological outcome beyond the RNA identities displayed here.
+
+[PNG](figures/rq_sequence_v2/15_myrf_reference.png) · [SVG](figures/rq_sequence_v2/15_myrf_reference.svg) · [PDF](figures/rq_sequence_v2/15_myrf_reference.pdf) · [Data](runs/rq2_myrf_v1/donor_effects.tsv)
+
+<details>
+<summary>Methods, biological units and interpretation limits</summary>
+
+Primary floor: 20 cells in each comparator population. Points show individual donor log2(CPM+1) differences; both panels share the x scale. Coverage failures are displayed rather than interpreted as zero effects. Source assays measure the same three donors. Murthy labels are repository-derived candidates, and only DD047Q supplies an eligible AT1 comparison; no three-donor external confirmation follows. No linked protein, morphology or traced-output endpoint was used.
+
+</details>
+
 ## Render and data provenance
 
 Renderers: [Figures 1–5](scripts/09_make_figures.py), [Figures 6–12](scripts/12_extended_figures.py), [label refinements](scripts/14_refine_figures.py), [gallery builder](scripts/13_build_gallery.py). Each finalized figure directory has input/output hashes and a code snapshot. [Source renders](figures/publication_v1/run_record.json), [extended renders](figures/extended_v2/run_record.json), [refinements](figures/refinement_v1/run_record.json), [atlas assembly](figures/gallery_v2/run_record.json).
 
 The initial execution_v1 figures are retained as historical drafts. extended_v1 was an incomplete rendering attempt that stopped during a diagnostic for a size-filtered gene set; extended_v2 is the finalized version. Numerical analyses were not rerun for that rendering correction.
+
+Figures 13–15: [RQ renderer](scripts/18_rq_figures.py), [final render record](figures/rq_sequence_v2/run_record.json), [sequential results](reports/RQ_SEQUENCE_RESULTS.md). Version 1 is retained; version 2 displays the predeclared P2 sensitivity and failed coverage explicitly. No numerical fits changed.

@@ -4,6 +4,8 @@
 diagnostics, 2 October 2026.** Conditional extensions of existing questions;
 no new A-number or claim grade.
 
+**Follow-through completed 3 October 2026:** [scoped pipelines](RQ_PIPELINES.md), [cross-study evidence](RQ_EVIDENCE_MATRIX.md) and [sequential results](RQ_SEQUENCE_RESULTS.md). Composition, endpoint separation and MYRF reference checks were executed; causal and mature-function gates remain held.
+
 ## Leading candidate
 
 > Does loss of alveolar epithelial identity change C3-associated output and
@@ -30,7 +32,7 @@ the broad complement set must remain separate endpoints.
 Adventitial complement expression is already motivated by the source atlas;
 that observation is not a novelty claim. The proposed question is whether
 baseline subtype identity modifies the response to epithelial identity loss.
-A targeted literature review remains necessary before formal registration.
+A [targeted primary-literature screen](RQ_LITERATURE_SCREEN.md) has now narrowed the novelty claims; it is not exhaustive and does not prove the exact gap.
 
 | Rival explanation | Discriminating evidence |
 |---|---|
@@ -71,3 +73,11 @@ unmeasured. New species contrasts require reconciled animal age, study and
 orthology. These are explicit data limits, not completed negative experiments.
 
 See [the gallery](../FIGURES.md) and [execution evidence](../EXECUTION.md).
+
+## Ranking after the executed follow-through
+
+1. **A22 subtype response, with A13 context:** prioritize state/amount attribution before testing C3 and separate chemokine outputs. Captured composition materially changes the normal reference signal.
+2. **Endpoint branch of the same RQ:** retain C3 and the fixed chemokine panel separately; donor and nuclear contexts prevent a universal substitution. This is not a new global question.
+3. **A8 MYRF component:** retain as a secondary reference candidate. Sparse mesothelial contrasts and absent linked mature outcomes prevent functional promotion.
+
+The sequence refines two biological RQs through three executable branches; it does not multiply similar diagnostics into independent mechanistic claims.

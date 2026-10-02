@@ -1,0 +1,19 @@
+cohort	assay	donor_id	stratum	n_left	n_right	comparator
+Travaglini	SS2	P1	"[""P1"", ""SS2"", ""distal""]"	101	137	Alveolar Epithelial Type 2
+Travaglini	SS2	P2	"[""P2"", ""SS2"", ""distal""]"	41	195	Alveolar Epithelial Type 2
+Travaglini	SS2	P3	"[""P3"", ""SS2"", ""distal""]"	149	106	Alveolar Epithelial Type 2
+Travaglini	SS2	P1	"[""P1"", ""SS2"", ""distal""]"	101	0	Mesothelial
+Travaglini	SS2	P2	"[""P2"", ""SS2"", ""distal""]"	41	0	Mesothelial
+Travaglini	SS2	P3	"[""P3"", ""SS2"", ""distal""]"	149	0	Mesothelial
+Travaglini	10x	P1	"[""P1"", ""10x"", ""distal""]"	26	494	Alveolar Epithelial Type 2
+Travaglini	10x	P2	"[""P2"", ""10x"", ""distal""]"	113	321	Alveolar Epithelial Type 2
+Travaglini	10x	P3	"[""P3"", ""10x"", ""distal""]"	328	1280	Alveolar Epithelial Type 2
+Travaglini	10x	P1	"[""P1"", ""10x"", ""distal""]"	26	29	Mesothelial
+Travaglini	10x	P2	"[""P2"", ""10x"", ""distal""]"	113	0	Mesothelial
+Travaglini	10x	P3	"[""P3"", ""10x"", ""distal""]"	328	0	Mesothelial
+Murthy	Murthy 10x	DD046Q	"[""DD046Q"", ""candidate epithelial subset""]"	0	118	Alveolar Epithelial Type 2
+Murthy	Murthy 10x	DD047Q	"[""DD047Q"", ""candidate epithelial subset""]"	157	303	Alveolar Epithelial Type 2
+Murthy	Murthy 10x	DD073R	"[""DD073R"", ""candidate epithelial subset""]"	2	261	Alveolar Epithelial Type 2
+Murthy	Murthy 10x	DD046Q	"[""DD046Q"", ""candidate epithelial subset""]"	0	170	Mesothelial
+Murthy	Murthy 10x	DD047Q	"[""DD047Q"", ""candidate epithelial subset""]"	157	153	Mesothelial
+Murthy	Murthy 10x	DD073R	"[""DD073R"", ""candidate epithelial subset""]"	2	150	Mesothelial

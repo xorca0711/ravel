@@ -28,3 +28,16 @@ repository CI. It checks evidence integrity without network access or matrices.
 The hash records preserve historical script snapshots when presentation code
 changes. Successful archive checks do not imply functional validation,
 independent annotation or complete reproduction of the original paper.
+
+## Sequential RQ update, 3 October 2026
+
+The three numerical branches completed in order after specification commit
+801d723 was made locally; the exact commit is identified by the Git history
+message “Scope and freeze the sequential Nb4 RQ diagnostics”. Six independent
+arithmetic/gate groups passed, including 138 prior-fit comparisons. The
+expanded archive passes **20 run records and 164 output hashes**, and the
+repository validator passes **6,716 checks** after RQ reports and links were
+added. The final fifteen-page atlas was assembled and the refined plots were
+visually checked. Shared analysis functions and prior numerical fits were
+unchanged; existing test results remain applicable, and CI reruns required
+repository checks on the published branch.

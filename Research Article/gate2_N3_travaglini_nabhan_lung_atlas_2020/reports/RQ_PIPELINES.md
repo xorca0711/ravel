@@ -84,4 +84,4 @@ rerunning the numerical fits.
 
 Read the [cross-study evidence](RQ_EVIDENCE_MATRIX.md), [literature screen](RQ_LITERATURE_SCREEN.md),
 [frozen specification](../config/rq_sequence_v1.json) and
-[derived questions](RQ_DERIVATION.md). Results will be reported separately.
+[derived questions](RQ_DERIVATION.md). The complete sequence and decisions are in [the results report](RQ_SEQUENCE_RESULTS.md).
