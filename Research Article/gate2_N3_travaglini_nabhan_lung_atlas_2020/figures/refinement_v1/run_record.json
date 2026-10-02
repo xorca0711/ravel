@@ -1,0 +1,48 @@
+{
+  "schema": "Nb4-render-refinement/v1",
+  "completed_at_utc": "2026-10-02T14:26:23.619214+00:00",
+  "status": "Labels, density legend and GSEA legend refined; no numerical fits changed",
+  "outputs": {
+    "08_donor_pca.pdf": "93eb756c42b534ecc9697242a9fc3aa93229a1a60c27beaffe9ec8f872467aa5",
+    "08_donor_pca.png": "3257139b3342f2cc83ab0b6e502736f9d61eb8dba36e8a8ab1217e4b47a1df39",
+    "08_donor_pca.svg": "bbbc246554e155a794b3236ee7b5fed56fee6c15c42f0c4e5446bc102ebd664f",
+    "09_genomewide_transfer.pdf": "eb2f3eb82171a027a4dc6b014c60f8f76edb735c92b37dc18ccdf841c77be959",
+    "09_genomewide_transfer.png": "b9a2b44f1c322d7757be523df495c00032c17c1f287dfa8b3bbc873e2cf8d8cf",
+    "09_genomewide_transfer.svg": "cb7fe8c2593ed9d11b9cabe6f4e8add1a3eae776710cfb591d66cef4d8c10376",
+    "10_hallmark_gsea.pdf": "22ba44fa924869d98d8bbe69134456c67534327f6a8fd34677e6dc1045cbf34c",
+    "10_hallmark_gsea.png": "9a36124a3c27ea61fb29fa685c0e494bdb7c1429a245bc1d3454d6ecb971a0f9",
+    "10_hallmark_gsea.svg": "bf8dae8a376683620519ae0c9946b4b16801e2ad57a62a2cbdd7a1c7516a1eea",
+    "figure_inputs.json": "c3ce60034fec24a40e7f94e765efc9636532ddf522f1fefaddd1cdde939ddeb6"
+  },
+  "code_sha256": {
+    "00_source_intake.py": "e26ea6cfe6005c35673aaf6000ccb0ea0cc47f35b80ef4ba49bddafa202c89e0",
+    "01_metadata_gate.py": "3d7f875bc4d6a64508996770b7e54631590aaca41c14a4b0a1008e11a4ef9303",
+    "02_acquire_expression.py": "9a9f5e6492e8a6779d3adcec04537356c76e69d24067991c3510bc9d2ac386e6",
+    "03_prepare_metadata.py": "91975e2960d2ecb5da41e8d9e7b6af18a68d0e9ca2b335df1fc773c9e2036e4e",
+    "04_expression_reproduction.py": "08cfe2016fa771d2395f243e99a23e794e2aa5b240f8376427850f2967fe85af",
+    "05_source_concordance.py": "2e49b31b8922c8242ad529dc851937590899d599af5193c5bbd9d210ce347826",
+    "06_followup_analysis.py": "32c2ab39fd551b4938b1fd6614c7bc4ebb8f42515f253660201f4bb526868a35",
+    "07_acquire_external.py": "71a2ca610323ab2f968603b988aea61fbc1e850c6e1b7501be1c6dcb6dc05f1c",
+    "08_external_pilot.py": "0ee0e173945fddd0e10fe1209a11c4dcfc174c9e959a6f560be15a3598100e5e",
+    "09_make_figures.py": "a46506edab89023f3ca80420a04d70e1edcc8074900c899fd7f910dd439730b0",
+    "10_validate_execution.py": "3c109ff7d847ff6c9761ffe9c3e3c96fdf9f339bc8c9dc680816750ce62a71f8",
+    "11_extended_analysis.py": "e4769d243c55db38c7b20102866daf7416d3efd5809638a9a15aa2cbba71f730",
+    "12_extended_figures.py": "6bfd68e666547be254c7551ab19145899fc12a999e539c297334d9255a9dbd26",
+    "13_build_gallery.py": "c9eb07fc045f6d7d37451ab9b4af18e2a60ce7dba3902f538673adf662a6f95b",
+    "14_refine_figures.py": "2bbe7beda69aac8e6fe38326e3810bea03dbfbc01b9a637e28f161515e3a1985",
+    "common.py": "70daa2a3fc6a786265d503ca01d115db237d7129a820d348829d110ccf00c68a",
+    "fetch_sources.py": "fbc4f04adfb0bfa9c65173fad8d49be610efad1c26383736678d5896744b1f37",
+    "test_checks.py": "575bdd472ca25ae2eb183ef6fa3e93a09a72601c8899dda1a50116b6b471903b",
+    "verify_package.py": "c711092453400dfa4591244b92c79e9fa407c8aaee694118376ccb5be44ff3fb"
+  },
+  "config_sha256": {
+    "execution_v1.json": "2ac45d6df6ab85a806b9b04db2bed713d706b50c10cdcc54479c83b67e86cb0a",
+    "expression_sources_v1.json": "448c6d1a4bd4c3afff6ff2ba81949285ed865dea4d1900be9c209c3c5ccf1aef",
+    "extended_visual_v1.json": "2411cff1a6bdbb2e91997c9dd09f4b1b349a6b23260fdf6cdc5a03f180ee5312",
+    "external_pilot_v1.json": "ab1bdce96351bc855356a24663fbf9576ea0aae46482b99fd2439f718857aa3b",
+    "external_source_v1.json": "4e92f19ab22bf21ba7bef50b7180e6d068f482d30adb817d1c358fc4d006f7c7",
+    "followup_v1.json": "3f9c6b370a78af3d9a7fed715459eb2cd2c8b18f6c5af08042e3dd4b1da96474",
+    "pipeline_v1.json": "ce8e02639387d691f2984c7426eb418ea70681f30fdc815d93fe144fd9d70f57",
+    "source_manifest.json": "bd62dde277e0a521bee6991de1806238565b8ea8593d4a5b0fc9d689d909b535"
+  }
+}

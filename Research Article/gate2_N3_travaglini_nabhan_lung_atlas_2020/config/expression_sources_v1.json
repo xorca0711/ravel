@@ -1,0 +1,30 @@
+{
+  "schema": "TN2020-expression-sources/v1",
+  "files": [
+    {
+      "assay": "SS2",
+      "dataset_id": "e04daea4-4412-45b5-989e-76a9be070a89",
+      "dataset_version_id": "c0ee0004-7bd1-4986-9b66-8a9d3593c0e6",
+      "collection_id": "5d445965-6f1a-4b68-ba3a-b8f765155d3a",
+      "url": "https://datasets.cellxgene.cziscience.com/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "bytes": 186675192,
+      "sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "cache_path": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "downloaded_at_utc": "2026-10-02T13:27:12.524569+00:00",
+      "source_role": "curated public mirror of source study, not independent replication"
+    },
+    {
+      "assay": "10x",
+      "dataset_id": "8c42cfd0-0b0a-46d5-910c-fc833d83c45e",
+      "dataset_version_id": "f5568ea3-c249-4e4e-91f8-46abc30a5612",
+      "collection_id": "5d445965-6f1a-4b68-ba3a-b8f765155d3a",
+      "url": "https://datasets.cellxgene.cziscience.com/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "bytes": 596270115,
+      "sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "cache_path": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "downloaded_at_utc": "2026-10-02T13:27:23.370191+00:00",
+      "source_role": "curated public mirror of source study, not independent replication"
+    }
+  ],
+  "access_limits": "Anonymous Synapse file GET returned 403. Public CELLxGENE collection supplies separately curated source objects; no access controls were bypassed."
+}

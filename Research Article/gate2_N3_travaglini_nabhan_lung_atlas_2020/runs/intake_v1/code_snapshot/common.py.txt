@@ -1,0 +1,59 @@
+"""Paths, immutable run directories and hash checks for TN2020 intake."""
+from pathlib import Path
+import csv
+import hashlib
+import json
+
+PACKAGE = Path(__file__).resolve().parents[1]
+REPO = PACKAGE.parents[1]
+
+
+def sha256(path):
+    digest = hashlib.sha256()
+    with Path(path).open('rb') as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b''):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def read_json(path):
+    return json.loads(Path(path).read_text(encoding='utf-8-sig'))
+
+
+def write_json(path, value):
+    Path(path).write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+
+def write_tsv(path, rows, fields):
+    with Path(path).open('w', encoding='utf-8', newline='') as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, delimiter='\t')
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def new_run(path):
+    path = Path(path).resolve()
+    if path.exists():
+        raise ValueError(f'Refusing to overwrite an existing run: {path}')
+    path.mkdir(parents=True)
+    return path
+
+
+def verified_sources():
+    manifest = read_json(PACKAGE / 'config/source_manifest.json')
+    sources = {}
+    for item in manifest['files']:
+        path = (REPO / item['cache_path']).resolve()
+        if not path.is_relative_to(REPO / 'raw_data/travaglini_nabhan_2020'):
+            raise ValueError('Source path escapes the declared cache')
+        if not path.is_file() or sha256(path) != item['sha256']:
+            raise ValueError(f'Missing or changed source: {item["id"]}')
+        sources[item['id']] = path
+    return sources
+
+
+def finish_record(out, record):
+    record['outputs'] = {p.name: sha256(p) for p in sorted(out.iterdir()) if p.is_file()}
+    record['code_sha256'] = {p.name: sha256(p) for p in sorted((PACKAGE / 'scripts').glob('*.py'))}
+    record['config_sha256'] = {p.name: sha256(p) for p in sorted((PACKAGE / 'config').glob('*.json'))}
+    write_json(out / 'run_record.json', record)

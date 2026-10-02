@@ -1,0 +1,42 @@
+{
+  "n_populations": 58,
+  "compartments": {
+    "Epithelial": 15,
+    "Endothelial": 18,
+    "Immune": 25
+  },
+  "column_order": [
+    "Patient 1 (SS2)",
+    "Patient 1 (10x)",
+    "Patient 2 (SS2)",
+    "Patient 2 (10x)",
+    "Patient 3 (SS2)",
+    "Patient 3 (10x)"
+  ],
+  "sum_population_rows_by_column": [
+    3987,
+    9744,
+    3273,
+    28793,
+    2149,
+    27125
+  ],
+  "reported_grand_row_by_column": [
+    4352,
+    9744,
+    3273,
+    28793,
+    2149,
+    27125
+  ],
+  "sum_population_rows_total": 75071,
+  "sum_reported_population_totals": 75071,
+  "sum_reported_grand_row_columns": 75436,
+  "reported_grand_total": 75066,
+  "all_population_row_totals_agree": true,
+  "published_10x": 65662,
+  "published_SS2": 9404,
+  "recomputed_10x": 65662,
+  "recomputed_SS2": 9409,
+  "resolution": "unresolved; retain deposited and recomputed values until versioned cell metadata reconciles membership"
+}

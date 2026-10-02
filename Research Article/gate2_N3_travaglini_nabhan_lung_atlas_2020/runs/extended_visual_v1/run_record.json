@@ -1,0 +1,82 @@
+{
+  "schema": "Nb4-extended-visual-run/v1",
+  "completed_at_utc": "2026-10-02T14:05:08.690167+00:00",
+  "status": "exploratory embedding, PCA, GSEA and GO complete",
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "sklearn": "1.9.0",
+    "umap": "0.5.12",
+    "gseapy": "1.3.1"
+  },
+  "gene_set_sources": {
+    "hallmark": {
+      "file": "raw_data/msigdb/h.all.v2024.1.Hs.symbols.gmt",
+      "sha256": "ee2463540042078bfa3f67828e1e223bb354446d9fbb4d22845866835ba5c772",
+      "n_sets": 50,
+      "bytes": 48690
+    },
+    "gobp": {
+      "file": "raw_data/msigdb/c5.go.bp.v2024.1.Hs.symbols.gmt",
+      "sha256": "71df041c352cc810c11847db328bb94925c5448a009f310d224f2e8baa60b792",
+      "n_sets": 7608,
+      "bytes": 4940222
+    },
+    "reused_helper": {
+      "path": "Research Article/gate1_01_niethamer_2025/trials/gsea_utils.py",
+      "sha256": "1cf96a4de589ad51f2eea308dfdae136ecc315cf0a26b0696c035792c79d1bf8"
+    }
+  },
+  "profile_hashes": {
+    "external_genomewide_profiles.npz": "e2b0c37587a94a454baf39c59224e7ba18449e6538eb4431202fb494fec945f5",
+    "source_genomewide_profiles.npz": "36fe36cc6fe328249e9dd1457873bfb737578b5fd12dfb8b026ea00937796af0"
+  },
+  "scope": "all enrichment p/q values refer to competitive gene-set/annotation nulls, not biological donor-population inference",
+  "outputs": {
+    "complement_matched_null.tsv": "9ff22b4073004248e573286824008187b08ea7305e70943e13745ed0989125f7",
+    "complement_running_curves.tsv": "6e23ee8fcdbc6068bbdd0f3fb67c0a2e012f6e6a5941f9d4fa4123c8e6588cad",
+    "deposited_tsne.tsv": "21911db3570f59dc34e429d9c6953f730b4a03d076354628762e70e042e3e812",
+    "embedding_genes.tsv": "ab7c35cd31649efd23e92613c3575e65d8b2f60b7b181b3ba93288419aee3028",
+    "embedding_model.json": "92015688199fc10af6af03529d58d97ada7732902554c7c62d4cb3fa73683161",
+    "external_gene_ranking.tsv": "703794dcaa29a88b8268e543e4968b0456e81d49a4638560c39058dfce134cf0",
+    "external_pseudobulk_units.tsv": "7b507a30e08bab963b9b66ba028b54521f5d7157a5abd37691ba04a748ae556a",
+    "gene_set_sources.json": "f1bbb7aa2e8a88a1996ca9bdce3eb9cf30f422ba5088c8f58822b9bbc6764f7f",
+    "gene_universe.json": "d07a7fd69ba3de968183114e61ccc98b98cb942c807bf92de0a06ae074ce27a5",
+    "go_bp_ora.tsv": "9e1a5c80e74bfdc64dc854254b9c116967463bd2de39e1f6663d211141bb55c9",
+    "hallmark_gsea.tsv": "f0f295cf705e2194225eaec5b3c938f346ea68375a5cbbd383c461d851229ce7",
+    "pseudobulk_pca.tsv": "2b5a8ddeb498cc1b51dcf7cc1c33df30c21c6ab8ef4b99a8b88fcfe216f0342d",
+    "pseudobulk_pca_models.json": "f15aa223395877bf324dd7294d5f09ba55e06b6e21dde119b5fd58410ac94ca5",
+    "source_gene_ranking.tsv": "d789507125ec66a298bc05ce956d2769ad3c978f093f30c01226817eb4c32ec0",
+    "source_pseudobulk_units.tsv": "67066e99464775cf9bf344242a2ea8c70a9bb90a604dd5c8c505cc8e28ebd30d",
+    "stromal_umap.tsv": "d00d27ed2343b4f89bfed01d58d0eb2312f91308b8949ec8c5a9f7effd0b3a0c"
+  },
+  "code_sha256": {
+    "00_source_intake.py": "e26ea6cfe6005c35673aaf6000ccb0ea0cc47f35b80ef4ba49bddafa202c89e0",
+    "01_metadata_gate.py": "3d7f875bc4d6a64508996770b7e54631590aaca41c14a4b0a1008e11a4ef9303",
+    "02_acquire_expression.py": "9a9f5e6492e8a6779d3adcec04537356c76e69d24067991c3510bc9d2ac386e6",
+    "03_prepare_metadata.py": "91975e2960d2ecb5da41e8d9e7b6af18a68d0e9ca2b335df1fc773c9e2036e4e",
+    "04_expression_reproduction.py": "08cfe2016fa771d2395f243e99a23e794e2aa5b240f8376427850f2967fe85af",
+    "05_source_concordance.py": "2e49b31b8922c8242ad529dc851937590899d599af5193c5bbd9d210ce347826",
+    "06_followup_analysis.py": "32c2ab39fd551b4938b1fd6614c7bc4ebb8f42515f253660201f4bb526868a35",
+    "07_acquire_external.py": "71a2ca610323ab2f968603b988aea61fbc1e850c6e1b7501be1c6dcb6dc05f1c",
+    "08_external_pilot.py": "0ee0e173945fddd0e10fe1209a11c4dcfc174c9e959a6f560be15a3598100e5e",
+    "09_make_figures.py": "4a1b5dd504c767138cd8b2bb9cdcf8502572effc3ff4148f1d981e0199a85270",
+    "10_validate_execution.py": "3c109ff7d847ff6c9761ffe9c3e3c96fdf9f339bc8c9dc680816750ce62a71f8",
+    "11_extended_analysis.py": "e4769d243c55db38c7b20102866daf7416d3efd5809638a9a15aa2cbba71f730",
+    "common.py": "70daa2a3fc6a786265d503ca01d115db237d7129a820d348829d110ccf00c68a",
+    "fetch_sources.py": "fbc4f04adfb0bfa9c65173fad8d49be610efad1c26383736678d5896744b1f37",
+    "test_checks.py": "575bdd472ca25ae2eb183ef6fa3e93a09a72601c8899dda1a50116b6b471903b",
+    "verify_package.py": "c711092453400dfa4591244b92c79e9fa407c8aaee694118376ccb5be44ff3fb"
+  },
+  "config_sha256": {
+    "execution_v1.json": "2ac45d6df6ab85a806b9b04db2bed713d706b50c10cdcc54479c83b67e86cb0a",
+    "expression_sources_v1.json": "448c6d1a4bd4c3afff6ff2ba81949285ed865dea4d1900be9c209c3c5ccf1aef",
+    "extended_visual_v1.json": "2411cff1a6bdbb2e91997c9dd09f4b1b349a6b23260fdf6cdc5a03f180ee5312",
+    "external_pilot_v1.json": "ab1bdce96351bc855356a24663fbf9576ea0aae46482b99fd2439f718857aa3b",
+    "external_source_v1.json": "4e92f19ab22bf21ba7bef50b7180e6d068f482d30adb817d1c358fc4d006f7c7",
+    "followup_v1.json": "3f9c6b370a78af3d9a7fed715459eb2cd2c8b18f6c5af08042e3dd4b1da96474",
+    "pipeline_v1.json": "ce8e02639387d691f2984c7426eb418ea70681f30fdc815d93fe144fd9d70f57",
+    "source_manifest.json": "bd62dde277e0a521bee6991de1806238565b8ea8593d4a5b0fc9d689d909b535"
+  }
+}

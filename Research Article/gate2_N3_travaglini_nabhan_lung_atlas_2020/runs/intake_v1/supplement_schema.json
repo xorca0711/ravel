@@ -1,0 +1,5376 @@
+{
+  "source_ED3": [
+    {
+      "sheet": "Sheet1",
+      "declared_shape": [
+        25,
+        9
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "(c)",
+          "number of cells with cuboidal morphology",
+          "percent of KRT5+ cells with cuboidal morphology",
+          "number of cells with transitional morphology",
+          "percent of KRT5+ cells with transitional morphology",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "HES1+KRT5+",
+          35,
+          0.2318,
+          59,
+          0.7973,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "source_ED4": [
+    {
+      "sheet": "Sheet1",
+      "declared_shape": [
+        15,
+        7
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "(c)",
+          "number of cells near airway",
+          "percent of ACTG2+ cells near airway",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "FibM (ASPN+ACTG2+)",
+          64,
+          0.4848,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "source_figure_1": [
+    {
+      "sheet": "Sheet1",
+      "declared_shape": [
+        10,
+        5
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "(d)",
+          "number of cells",
+          "percent of SFTPC+ cells",
+          null,
+          null
+        ],
+        [
+          "AT2 (WIF1+SFTPC+)",
+          183,
+          0.9015,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "supplement_table_1": [
+    {
+      "sheet": "Sheet1",
+      "declared_shape": [
+        60,
+        8
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Cell type",
+          "Relative",
+          "Number (millions)a",
+          "Canonical markersb",
+          "Extant expression profiles",
+          null,
+          "Expression",
+          "Abundance reference (method)d"
+        ],
+        [
+          null,
+          "abundance (%)",
+          null,
+          null,
+          "Single cell",
+          "Primaryc",
+          "accession codes",
+          null
+        ]
+      ]
+    }
+  ],
+  "supplement_table_2": [
+    {
+      "sheet": "Sheet1",
+      "declared_shape": [
+        72,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          null,
+          "Annotation",
+          "Short name",
+          "Patient 1 (SS2)",
+          "Patient 1 (10x)",
+          "Patient 2 (SS2)",
+          "Patient 2 (10x)",
+          "Patient 3 (SS2)",
+          "Patient 3 (10x)",
+          "Total",
+          "Lung location",
+          "Basis of annotation"
+        ],
+        [
+          null,
+          "Epithelial",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "supplement_table_3": [
+    {
+      "sheet": "Sheet1",
+      "declared_shape": [
+        22,
+        2
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Immune cell types and populations",
+          "Surface markers used for sorting"
+        ],
+        [
+          "Neutrophil",
+          "SSChiCD16+CD123-CCR3-b7 integrin-"
+        ]
+      ]
+    }
+  ],
+  "supplement_table_4": [
+    {
+      "sheet": "Cluster 1",
+      "declared_shape": [
+        200,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Club",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 1 (SS2)",
+      "declared_shape": [
+        2914,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Club",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 2",
+      "declared_shape": [
+        1792,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Ciliated",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 2 (SS2)",
+      "declared_shape": [
+        4372,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Ciliated",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 3",
+      "declared_shape": [
+        1826,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Proximal Ciliated",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 4",
+      "declared_shape": [
+        594,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Basal",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 4 (SS2)",
+      "declared_shape": [
+        4016,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Basal",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 5",
+      "declared_shape": [
+        632,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Proximal Basal",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 6",
+      "declared_shape": [
+        482,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Differentiating Basal",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 6 (SS2)",
+      "declared_shape": [
+        4029,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Differentiating Basal",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 7",
+      "declared_shape": [
+        986,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Proliferating Basal",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 8",
+      "declared_shape": [
+        645,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Goblet",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 8 (SS2)",
+      "declared_shape": [
+        1866,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Goblet",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 9",
+      "declared_shape": [
+        127,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Mucous",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 10",
+      "declared_shape": [
+        142,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Serous",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 11",
+      "declared_shape": [
+        1934,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Ionocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 11 (SS2)",
+      "declared_shape": [
+        3453,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Ionocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 12",
+      "declared_shape": [
+        1587,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Neuroendocrine",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 12 (SS2)",
+      "declared_shape": [
+        4308,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Neuroendocrine",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 13",
+      "declared_shape": [
+        1089,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Alveolar Epithelial Type 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 13 (SS2)",
+      "declared_shape": [
+        3546,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Alveolar Epithelial Type 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 14",
+      "declared_shape": [
+        207,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Alveolar Epithelial Type 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 14 (SS2)",
+      "declared_shape": [
+        682,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Alveolar Epithelial Type 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 15",
+      "declared_shape": [
+        203,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Signaling Alveolar Epithelial Type 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 15 (SS)",
+      "declared_shape": [
+        2404,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Signaling Alveolar Epithelial Type 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 16",
+      "declared_shape": [
+        294,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Artery",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 16 (SS2)",
+      "declared_shape": [
+        2824,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Artery",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 17",
+      "declared_shape": [
+        278,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Vein",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 17 (SS2)",
+      "declared_shape": [
+        1703,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Vein",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 18",
+      "declared_shape": [
+        403,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Capillary Aerocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 18 (SS2)",
+      "declared_shape": [
+        1764,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Capillary Aerocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 19",
+      "declared_shape": [
+        265,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Capillary",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 19 (SS2)",
+      "declared_shape": [
+        1938,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Capillary",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 20",
+      "declared_shape": [
+        310,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Capillary Intermediate 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 21",
+      "declared_shape": [
+        412,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Capillary Intermediate 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 21 (SS2)",
+      "declared_shape": [
+        2267,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Capillary Intermediate 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 22",
+      "declared_shape": [
+        364,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Bronchial Vessel 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 22 (SS2)",
+      "declared_shape": [
+        2871,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Bronchial Vessel 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 23",
+      "declared_shape": [
+        335,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Bronchial Vessel 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 24",
+      "declared_shape": [
+        822,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Lymphatic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 24 (SS2)",
+      "declared_shape": [
+        3187,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Lymphatic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 25",
+      "declared_shape": [
+        341,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Airway Smooth Muscle",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 25 (SS2)",
+      "declared_shape": [
+        2401,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Airway Smooth Muscle",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 26",
+      "declared_shape": [
+        286,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Vascular Smooth Muscle",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 26 (SS2)",
+      "declared_shape": [
+        2344,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Vascular Smooth Muscle",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 27",
+      "declared_shape": [
+        292,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Myofibroblast",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 27 (SS2)",
+      "declared_shape": [
+        2350,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Myofibroblast",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 28",
+      "declared_shape": [
+        416,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Fibromyocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 28 (SS2)",
+      "declared_shape": [
+        3017,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Fibromyocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 29",
+      "declared_shape": [
+        486,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Adventitial Fibroblast",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 29 (SS2)",
+      "declared_shape": [
+        2090,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Adventitial Fibroblast",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 30",
+      "declared_shape": [
+        425,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Alveolar Fibroblast",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 30 (SS2)",
+      "declared_shape": [
+        2404,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Alveolar Fibroblast",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 31",
+      "declared_shape": [
+        668,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Lipofibroblast",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 31 (SS2)",
+      "declared_shape": [
+        3000,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Lipofibroblast",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 32",
+      "declared_shape": [
+        649,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Pericyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 32 (SS2)",
+      "declared_shape": [
+        2794,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Pericyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 33",
+      "declared_shape": [
+        740,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Mesothelial",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 34",
+      "declared_shape": [
+        354,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "B",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 34 (SS2)",
+      "declared_shape": [
+        2571,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "B",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 35",
+      "declared_shape": [
+        442,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Plasma",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 35 (SS2)",
+      "declared_shape": [
+        1683,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Plasma",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 36",
+      "declared_shape": [
+        287,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "CD8+ Memory/Effector T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 36 (SS2)",
+      "declared_shape": [
+        2440,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "CD8+ Memory/Effector T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 37",
+      "declared_shape": [
+        296,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "CD8+ Naive T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 37 (SS2)",
+      "declared_shape": [
+        2244,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "CD8+ Naive T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 38",
+      "declared_shape": [
+        317,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "CD4+ Memory/Effector T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 38 (SS2)",
+      "declared_shape": [
+        2611,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "CD4+ Memory/Effector T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 39 (SS2)",
+      "declared_shape": [
+        2352,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "CD4+ Naive T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 39",
+      "declared_shape": [
+        266,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "CD4+ Naive T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 40",
+      "declared_shape": [
+        438,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Natural Killer T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 40 (SS2)",
+      "declared_shape": [
+        1665,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Natural Killer T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 41",
+      "declared_shape": [
+        562,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Natural Killer",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 41 (SS2)",
+      "declared_shape": [
+        1756,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Natural Killer",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 42",
+      "declared_shape": [
+        1138,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Proliferating NK/T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 42 (SS2)",
+      "declared_shape": [
+        2722,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Proliferating NK/T",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 43 (SS2)",
+      "declared_shape": [
+        1573,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Neutrophil",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 44",
+      "declared_shape": [
+        455,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Basophil/Mast 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 44 (SS2)",
+      "declared_shape": [
+        2550,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Basophil/Mast 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 45",
+      "declared_shape": [
+        508,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Basophil/Mast 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 46",
+      "declared_shape": [
+        1136,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Platelet/Megakaryocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 47",
+      "declared_shape": [
+        706,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Macrophage",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 47 (SS2)",
+      "declared_shape": [
+        2111,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Macrophage",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 48",
+      "declared_shape": [
+        971,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Proliferating Macrophage",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 49",
+      "declared_shape": [
+        662,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Plasmacytoid Dendritic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 49 (SS2)",
+      "declared_shape": [
+        3084,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Plasmacytoid Dendritic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 50",
+      "declared_shape": [
+        413,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Myeloid Dendritic Type 1",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 50 (SS2)",
+      "declared_shape": [
+        3234,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Dendritic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 51",
+      "declared_shape": [
+        281,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Myeloid Dendritic Type 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 51 (SS2)",
+      "declared_shape": [
+        2657,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Myeloid Dendritic Type 2",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 52",
+      "declared_shape": [
+        573,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "IGSF21+ Dendritic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 52 (SS2)",
+      "declared_shape": [
+        2599,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "IGSF21+ Dendritic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 53",
+      "declared_shape": [
+        621,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "EREG+ Dendritic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 54",
+      "declared_shape": [
+        575,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "TREM2+ Dendritic",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 55",
+      "declared_shape": [
+        564,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Classical Monocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 55 (SS2)",
+      "declared_shape": [
+        2839,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Classical Monocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 56",
+      "declared_shape": [
+        742,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "OLR1+ Classical Monocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 57",
+      "declared_shape": [
+        551,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Nonclassical Monocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 57 (SS2)",
+      "declared_shape": [
+        2859,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Nonclassical Monocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 58",
+      "declared_shape": [
+        526,
+        13
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Intermediate Monocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS",
+          "MCC"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 58 (SS2)",
+      "declared_shape": [
+        2905,
+        12
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Intermediate Monocyte",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Gene",
+          "avg_logFC",
+          "pct_in_cluster",
+          "pct_out_cluster",
+          "p_val",
+          "p_val_adj",
+          "TF",
+          "Receptor",
+          "Ligand",
+          "Enzymes",
+          "OMIM",
+          "GWAS"
+        ]
+      ]
+    }
+  ],
+  "supplement_table_5": [
+    {
+      "sheet": "significant_means",
+      "declared_shape": [
+        1791,
+        1948
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "id_cp_interaction",
+          "interacting_pair",
+          "partner_a",
+          "partner_b",
+          "gene_a",
+          "gene_b",
+          "secreted",
+          "receptor_a",
+          "receptor_b",
+          "annotation_strategy",
+          "is_integrin",
+          "rank",
+          "Adventitial Fibroblast_Adventitial Fibroblast",
+          "Adventitial Fibroblast_Airway Smooth Muscle"
+        ],
+        [
+          "CPI-SC001AFA16D",
+          "NRTN_RET receptor 2",
+          "simple:Q99748",
+          "complex:RET receptor 2",
+          "ENSG00000171119",
+          null,
+          true,
+          false,
+          true,
+          "curated",
+          false,
+          0.001,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "supplement_table_6": [
+    {
+      "sheet": "mouse_ss2",
+      "declared_shape": [
+        50,
+        37
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          null,
+          "Markers",
+          "24_58_M (SS2)",
+          "24_59_M (SS2)",
+          "24_60_M (SS2)",
+          "24_61_M (SS2)",
+          "18_45_M (SS2)",
+          "18_46_F (SS2)",
+          "18_47_F (SS2)",
+          "18_53_M (SS2)",
+          "3_10_M (SS2)",
+          "3_11_M (SS2)",
+          "3_38_F (SS2)",
+          "3_39_F (SS2)"
+        ],
+        [
+          "Epothelium",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "supplement_table_7": [
+    {
+      "sheet": "Cluster 1",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        138,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Club vs mouse_Club - R = 0.71"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 2",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        224,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Ciliated vs mouse_Ciliated - R = 0.69"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 3",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        205,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Basal vs mouse_Basal - R = 0.73"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 4",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        335,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Goblet vs mouse_Goblet - R = 0.62"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 5",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        177,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Neuroendocrine vs mouse_Neuroendocrine - R = 0.65"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 6",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        218,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Alveolar Epithelial Type 1 vs mouse_Alveolar Epithelial Type 1 - R = 0.66"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 7",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        191,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Alveolar Epithelial Type 2 vs mouse_Alveolar Epithelial Type 2 - R = 0.69"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 8",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        165,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Signaling Alveolar Epithelial Type 2 vs mouse_Alveolar Epithelial Type 2 - R = 0.69"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 9",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        158,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Artery vs mouse_Artery - R = 0.72"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 10",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        182,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Vein vs mouse_Vein - R = 0.68"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 11",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        237,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Capillary Aerocyte vs mouse_Capillary Aerocyte - R = 0.65"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 12",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        123,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Capillary vs mouse_Capillary - R = 0.68"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 13",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        132,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Lymphatic vs mouse_Lymphatic - R = 0.72"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 14",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        163,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Airway Smooth Muscle vs mouse_Smooth Muscle - R = 0.67"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 15",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        166,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Vascular Smooth Muscle vs mouse_Smooth Muscle - R = 0.66"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 16",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        127,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Myofibroblast vs mouse_Myofibroblast - R = 0.71"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 17",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        134,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Adventitial Fibroblast vs mouse_Adventitial Fibroblast - R = 0.77"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 18",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        120,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Alveolar Fibroblast vs mouse_Alveolar Fibroblast - R = 0.7"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 19",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        161,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Pericyte vs mouse_Pericyte - R = 0.66"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 20",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        84,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_B vs mouse_B - R = 0.72"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 21",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        322,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Plasma vs mouse_Plasma - R = 0.56"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 22",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        89,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_CD8+ Memory/Effector T vs mouse_CD8+ T - R = 0.72"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 23",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        114,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_CD8+ Naive T vs mouse_CD8+ T - R = 0.72"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 24",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        81,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_CD4+ Memory/Effector T vs mouse_CD4+ T - R = 0.76"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 25",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        93,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_CD4+ Naive T vs mouse_CD4+ T - R = 0.75"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 26",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        128,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Natural Killer vs mouse_Natural Killer - R = 0.72"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 27",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        97,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Neutrophil vs mouse_Neutrophil - R = 0.64"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 28",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        345,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Basophil/Mast 1 vs mouse_Basophil - R = 0.57"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 29",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        188,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Macrophage vs mouse_Alveolar Macrophage - R = 0.72"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 30",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        315,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Plasmacytoid Dendritic vs mouse_Plasmacytoid Dendritic - R = 0.6"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 31",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        209,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Classical Monocyte vs mouse_Classical Monocyte - R = 0.66"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 32",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        154,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Nonclassical Monocyte vs mouse_Nonclassical Monocyte - R = 0.72"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 33",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        358,
+        10
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "human_Intermediate Monocyte vs mouse_Intermediate Monocyte - R = 0.63"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val",
+          "enriched"
+        ]
+      ]
+    },
+    {
+      "sheet": "Cluster 34",
+      "declared_shape": [
+        1,
+        1
+      ],
+      "actual_shape_after_reset": [
+        465,
+        9
+      ],
+      "dimensions_reset": true,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Human vs Mouse - R = 0.8"
+        ],
+        [
+          "gene",
+          "mouse_avg_exp",
+          "human_avg_exp",
+          "avg_logFC",
+          "pct_mouse",
+          "pct_human",
+          "p_val",
+          "p_val_adj",
+          "log_p_val"
+        ]
+      ]
+    }
+  ],
+  "supplement_table_8": [
+    {
+      "sheet": "Sheet1",
+      "declared_shape": [
+        15,
+        4
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          "Evolutionary scenarios",
+          "Number of genes",
+          "Percent of genes",
+          "Percent of transcriptome"
+        ],
+        [
+          "Type 0 (Conserved)",
+          " 602 ± 27",
+          " 4 ± 0.2%",
+          " 6 ± 0.33%"
+        ]
+      ]
+    }
+  ],
+  "supplement_table_9": [
+    {
+      "sheet": "Table_S8",
+      "declared_shape": [
+        14941,
+        6
+      ],
+      "actual_shape_after_reset": null,
+      "dimensions_reset": false,
+      "first_two_rows_up_to_14_columns": [
+        [
+          null,
+          "Evo_Type",
+          "Gene_Class",
+          "Conserved_Num",
+          "Human_Spec_Num",
+          "Mouse_Spec_Num"
+        ],
+        [
+          "KIAA1841",
+          0,
+          "Other",
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+}

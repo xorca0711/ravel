@@ -1,0 +1,13 @@
+contrast	assay	anatomical_region	cell_floor	n_eligible_donors	eligible_donors	metadata_count_gate
+AT2_state	10x	distal	20	1	P3	HOLD
+AT2_state	10x	medial	20	0		HOLD
+AT2_state	10x	proximal	20	1	P3	HOLD
+AT2_state	SS2	distal	20	1	P1	HOLD
+AT2_state	SS2	medial	20	0		HOLD
+AT2_state	SS2	proximal	20	0		HOLD
+fibroblast_identity	10x	distal	20	2	P1,P3	HOLD
+fibroblast_identity	10x	medial	20	1	P2	HOLD
+fibroblast_identity	10x	proximal	20	1	P3	HOLD
+fibroblast_identity	SS2	distal	20	2	P1,P3	HOLD
+fibroblast_identity	SS2	medial	20	1	P3	HOLD
+fibroblast_identity	SS2	proximal	20	0		HOLD

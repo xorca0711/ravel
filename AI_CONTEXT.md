@@ -1,5 +1,9 @@
 # AI context
 
+## Nb4 article workspace, 2 October 2026
+
+[Article workspace](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/README.md) · [execution/verification](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/EXECUTION.md) · [figure gallery](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/FIGURES.md). The owner requested execution and PR submission; scientific acceptance remains open. Paper-specific findings stay in that workspace.
+
 ## A22/A23 extensions executed, 1 October 2026
 
 The owner requested structuring and execution of the narrowed extensions.

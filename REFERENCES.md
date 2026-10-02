@@ -37,6 +37,24 @@ DOI: [10.1038/s41586-022-04541-3](https://doi.org/10.1038/s41586-022-04541-3) ·
 
 ---
 
+## Public atlas sources used in Nb4
+
+**Travaglini KJ, Nabhan AN, et al.** *A molecular cell atlas of the human lung
+from single-cell RNA sequencing.* **Nature** 2020;587:619–625.
+DOI: [10.1038/s41586-020-2922-4](https://doi.org/10.1038/s41586-020-2922-4).
+Data: [Synapse syn21041850](https://www.synapse.org/Synapse:syn21041850);
+the analyzed public curated release is recorded in the
+[Nb4 dataset register](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/DATASETS.md).
+
+**Madissoon E, et al.** *A spatially resolved atlas of the human lung
+characterizes a gland-associated immune niche.* **Nature Genetics** 2023;55:66–77.
+DOI: [10.1038/s41588-022-01243-4](https://doi.org/10.1038/s41588-022-01243-4).
+Data: [CELLxGENE collection](https://cellxgene.cziscience.com/collections/c1241244-b22d-483d-875b-75699efb9f3c);
+the specific fibroblast subset/version is in the same Nb4 register.
+
+Nb4 reuses the repository's human MSigDB 2024.1 Hallmark and GO BP annotations;
+[byte-level provenance](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/runs/extended_visual_v1/gene_set_sources.json).
+
 ## Method papers, in pipeline order
 
 ### 1 · Ambient RNA removal, SoupX

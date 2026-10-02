@@ -1,0 +1,91 @@
+{
+  "n_cells_nuclei": 20515,
+  "n_genes": 32383,
+  "raw_integer_errors": 0,
+  "donors_in_object": [
+    "A26",
+    "A32",
+    "A37",
+    "A40",
+    "A41",
+    "A42",
+    "A43",
+    "A44",
+    "A47",
+    "A48"
+  ],
+  "donor_aliases": [
+    {
+      "donor_id": "A32",
+      "donor_id_2": "411C"
+    },
+    {
+      "donor_id": "A26",
+      "donor_id_2": "386C"
+    },
+    {
+      "donor_id": "A37",
+      "donor_id_2": "428C"
+    },
+    {
+      "donor_id": "A47",
+      "donor_id_2": "490C"
+    },
+    {
+      "donor_id": "A40",
+      "donor_id_2": "453C"
+    },
+    {
+      "donor_id": "A43",
+      "donor_id_2": "464C"
+    },
+    {
+      "donor_id": "A44",
+      "donor_id_2": "466C"
+    },
+    {
+      "donor_id": "A48",
+      "donor_id_2": "500C"
+    },
+    {
+      "donor_id": "A41",
+      "donor_id_2": "454C"
+    },
+    {
+      "donor_id": "A42",
+      "donor_id_2": "456C"
+    }
+  ],
+  "excluded_mix_or_airway_or_other_subtype": 15266,
+  "gene_mapping": {
+    "C3": [
+      "ENSG00000125730"
+    ],
+    "IL32": [
+      "ENSG00000008517"
+    ],
+    "CXCL2": [
+      "ENSG00000081041"
+    ],
+    "CCL2": [
+      "ENSG00000108691"
+    ],
+    "CXCL12": [
+      "ENSG00000107562"
+    ],
+    "SPINT2": [
+      "ENSG00000167642"
+    ],
+    "SFRP2": [
+      "ENSG00000145423"
+    ],
+    "GPC3": [
+      "ENSG00000147257"
+    ],
+    "PI16": [
+      "ENSG00000164530"
+    ]
+  },
+  "cohort_independence": "Madissoon organ-donor study has distinct recruitment and source identifiers from Travaglini surgical P1-P3; no record linkage beyond published design and deposited identifiers; nuclear pools remain assigned to demultiplexed donor labels",
+  "annotation_dependence": "Author fibroblast labels are retained; related identity markers inform annotations. No independent annotation validation is claimed."
+}

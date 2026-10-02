@@ -129,3 +129,6 @@ RQ_Specified/**/tables/cd44_closure/counts_input.tsv.gz
 
 # A22 generated scientific figure exports.
 !RQ_Specified/A22_epithelial_identity_niche_response/figures/**/*.pdf
+
+# Nb4 generated figure PDFs only; source papers remain ignored.
+!Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/figures/**/*.pdf

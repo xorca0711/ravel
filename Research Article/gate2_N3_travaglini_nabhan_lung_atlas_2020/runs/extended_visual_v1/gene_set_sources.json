@@ -1,0 +1,18 @@
+{
+  "hallmark": {
+    "file": "raw_data/msigdb/h.all.v2024.1.Hs.symbols.gmt",
+    "sha256": "ee2463540042078bfa3f67828e1e223bb354446d9fbb4d22845866835ba5c772",
+    "n_sets": 50,
+    "bytes": 48690
+  },
+  "gobp": {
+    "file": "raw_data/msigdb/c5.go.bp.v2024.1.Hs.symbols.gmt",
+    "sha256": "71df041c352cc810c11847db328bb94925c5448a009f310d224f2e8baa60b792",
+    "n_sets": 7608,
+    "bytes": 4940222
+  },
+  "reused_helper": {
+    "path": "Research Article/gate1_01_niethamer_2025/trials/gsea_utils.py",
+    "sha256": "1cf96a4de589ad51f2eea308dfdae136ecc315cf0a26b0696c035792c79d1bf8"
+  }
+}

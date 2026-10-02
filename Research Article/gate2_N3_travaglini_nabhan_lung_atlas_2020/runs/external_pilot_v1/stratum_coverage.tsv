@@ -1,0 +1,24 @@
+donor_id	suspension_type	assay_ontology_term_id	Location_long	Protocol_plot	n_left	n_right	primary_eligible
+A26	cell	EFO:0009899	Lower Left Lobe	ColAll	169	319	True
+A26	cell	EFO:0009899	Lower Left Lobe	LibCD45neg	610	493	True
+A26	cell	EFO:0009899	Lower Left Lobe	LibCD45pos	69	66	True
+A26	cell	EFO:0009899	Lower Left Lobe	TrypLibUndigest	416	274	True
+A26	nucleus	EFO:0009922	Lower Left Lobe	nuclei	245	75	True
+A32	cell	EFO:0009899	Lower Left Lobe	LibCD45neg_TrypLibUndigest	0	2	False
+A32	cell	EFO:0009899	Lower Left Lobe	LibCD45pos	4	38	False
+A37	cell	EFO:0030004	Lower Left Lobe	LibCD45neg_TrypLibUndigest	43	179	True
+A37	cell	EFO:0030004	Lower Left Lobe	LibCD45pos	0	44	False
+A37	cell	EFO:0030004	Upper left lobe	LibCD45neg_TrypLibUndigest	5	0	False
+A40	cell	EFO:0030004	Lower Left Lobe	LibCD45neg_TrypLibUndigest	6	27	False
+A40	cell	EFO:0030004	Upper left lobe	LibCD45neg_TrypLibUndigest	1	6	False
+A43	cell	EFO:0030004	Lower Left Lobe	LibCD45neg_TrypLibUndigest	542	430	True
+A43	cell	EFO:0030004	Upper left lobe	LibCD45neg_TrypLibUndigest	175	168	True
+A44	cell	EFO:0030004	Lower Left Lobe	LibCD45neg_TrypLibUndigest	179	105	True
+A44	cell	EFO:0030004	Lower Left Lobe	LibCD45pos	1	10	False
+A44	cell	EFO:0030004	Upper left lobe	LibCD45neg_TrypLibUndigest	42	93	True
+A44	cell	EFO:0030004	Upper left lobe	LibCD45pos	0	23	False
+A47	cell	EFO:0030004	Lower Left Lobe	LibAll	2	1	False
+A47	cell	EFO:0030004	Lower Left Lobe	TrypLibUndigest	0	6	False
+A47	cell	EFO:0030004	Upper left lobe	LibAll	0	19	False
+A47	cell	EFO:0030004	Upper left lobe	TrypLibUndigest	1	23	False
+A48	nucleus	EFO:0009922	Upper left lobe	nuclei	310	28	True

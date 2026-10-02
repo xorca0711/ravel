@@ -1,0 +1,21 @@
+{
+  "schema": "TN2020-followup/v1",
+  "declared_on": "2026-10-02",
+  "exposure": "Declared after reproduction_v1 effects; explicitly post-analysis, before these sensitivity computations.",
+  "motivation": "MYRF/TBX5 directions repeat, fibroblast immune-context genes differ, and AT2-s has sparse donor/region coverage. Resolve technical and comparator alternatives before deriving RQs.",
+  "branches": {
+    "B1": "Report fixed 10/20/30/50-cell floors and leave-one-donor-out means without changing the primary 20-cell gate.",
+    "B2": "Pair assay directions within the same donor and anatomical region at the 10-cell sensitivity floor. Two assays of one donor are technical corroboration, not new replication.",
+    "B3": "Compute the exact expected detection probability under a without-replacement draw of 1000 molecules from each eligible 10x cell. Exclude cells with fewer than 1000 curated UMIs. Compare donor/region expected detection differences with observed differences. Do not apply this UMI diagnostic to SS2 reads.",
+    "B4": "Evaluate MYRF in AT1 versus AT2, Club, and other epithelial cells; TBX5 in pericytes versus alveolar fibroblasts, vascular smooth muscle and other stromal cells. Source annotation remains fixed and exposed."
+  },
+  "comparator_floor": 20,
+  "depth_budget": 1000,
+  "focal_genes": ["MYRF", "HOPX", "TBX5", "WIF1", "WNT5A", "SPINT2", "SFRP2", "C3", "IL32", "CXCL2", "CCL2", "CXCL12"],
+  "decision_rules": [
+    "No new significance or equivalence threshold; report effect directions, ranges and coverage.",
+    "Retain a bounded candidate only with its observed unit count, exposure and strongest rival.",
+    "Do not select genes or donors by significance or favorable effect direction.",
+    "Map candidate questions to existing A4/A8/A13/A22 when their core uncertainty overlaps; do not allocate a new global ID from the stale local register."
+  ]
+}

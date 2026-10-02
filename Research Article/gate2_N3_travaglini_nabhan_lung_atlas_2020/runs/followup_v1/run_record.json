@@ -1,0 +1,39 @@
+{
+  "schema": "TN2020-followup-run/v1",
+  "completed_at_utc": "2026-10-02T13:41:06.613656+00:00",
+  "status": "B1-B4 complete; exploratory diagnostics, not independent replication",
+  "expression_analysis_run": true,
+  "row_counts": {
+    "floor_summaries": 2917,
+    "matched_assay_pairs": 414,
+    "alternative_comparators": 56,
+    "depth_effects": 748
+  },
+  "outputs": {
+    "alternative_comparators.tsv": "9f2d8078c203d6000d60cb9b2ff9506b203336f19e720aa90d39e6c4c675a64d",
+    "depth_sampling_record.json": "e65c934639884d1f00d8bd5a2fb6f6adc8e914b2a7cbc40af7140e5fd5175a98",
+    "depth_standardized_detection.tsv": "6ee90fd39572ac8932e7f6026f17bed5a63e82fe69b131969ff28f80474b3db1",
+    "floor_and_donor_sensitivity.tsv": "6bd7685d9f7a100c9f6dcfd3287c408cfd8ccf4d06a13fc0aef0e67b4a0c0521",
+    "matched_assay_directions.tsv": "40aafbad4879a0f1e5e34b732edb9278dd7bdbdf67d103d4163734f74c15fe58"
+  },
+  "code_sha256": {
+    "00_source_intake.py": "e26ea6cfe6005c35673aaf6000ccb0ea0cc47f35b80ef4ba49bddafa202c89e0",
+    "01_metadata_gate.py": "3d7f875bc4d6a64508996770b7e54631590aaca41c14a4b0a1008e11a4ef9303",
+    "02_acquire_expression.py": "9a9f5e6492e8a6779d3adcec04537356c76e69d24067991c3510bc9d2ac386e6",
+    "03_prepare_metadata.py": "91975e2960d2ecb5da41e8d9e7b6af18a68d0e9ca2b335df1fc773c9e2036e4e",
+    "04_expression_reproduction.py": "08cfe2016fa771d2395f243e99a23e794e2aa5b240f8376427850f2967fe85af",
+    "05_source_concordance.py": "2e49b31b8922c8242ad529dc851937590899d599af5193c5bbd9d210ce347826",
+    "06_followup_analysis.py": "32c2ab39fd551b4938b1fd6614c7bc4ebb8f42515f253660201f4bb526868a35",
+    "common.py": "70daa2a3fc6a786265d503ca01d115db237d7129a820d348829d110ccf00c68a",
+    "fetch_sources.py": "fbc4f04adfb0bfa9c65173fad8d49be610efad1c26383736678d5896744b1f37",
+    "test_checks.py": "575bdd472ca25ae2eb183ef6fa3e93a09a72601c8899dda1a50116b6b471903b",
+    "verify_package.py": "c711092453400dfa4591244b92c79e9fa407c8aaee694118376ccb5be44ff3fb"
+  },
+  "config_sha256": {
+    "execution_v1.json": "2ac45d6df6ab85a806b9b04db2bed713d706b50c10cdcc54479c83b67e86cb0a",
+    "expression_sources_v1.json": "448c6d1a4bd4c3afff6ff2ba81949285ed865dea4d1900be9c209c3c5ccf1aef",
+    "followup_v1.json": "3f9c6b370a78af3d9a7fed715459eb2cd2c8b18f6c5af08042e3dd4b1da96474",
+    "pipeline_v1.json": "ce8e02639387d691f2984c7426eb418ea70681f30fdc815d93fe144fd9d70f57",
+    "source_manifest.json": "bd62dde277e0a521bee6991de1806238565b8ea8593d4a5b0fc9d689d909b535"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "schema": "TN2020-source-manifest/v1",
+  "retrieved_on": "2026-10-02",
+  "doi": "10.1038/s41586-020-2922-4",
+  "pmcid": "PMC7704697",
+  "author_code_commit": "899dd282c36db5b09ded8f522fa3ba239fad1347",
+  "private_context_policy": "Snapshots contain private reading context and stay in ignored raw_data. No private URLs or personal planning are reproduced here.",
+  "files": [
+    {
+      "id": "author_SS2_labels",
+      "kind": "author_code_or_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Analysis/cellphonedb/hlca_facs_annotations.tsv",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Analysis__cellphonedb__hlca_facs_annotations.tsv",
+      "bytes": 376228,
+      "sha256": "38053fac2fe790a8a6ae533b85dc77f630a94db6a5b96df194434780dbcf6b4c"
+    },
+    {
+      "id": "author_analysis_10x",
+      "kind": "author_code_or_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Analysis/Lung_droplet.Rmd",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Analysis__Lung_droplet.Rmd",
+      "bytes": 51509,
+      "sha256": "c25f054af43bb20a0233c5fc588e1decd2263fcd029c90438365e13f5e646ddf"
+    },
+    {
+      "id": "author_analysis_SS2",
+      "kind": "author_code_or_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Analysis/lung_facs.Rmd",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Analysis__lung_facs.Rmd",
+      "bytes": 118423,
+      "sha256": "4368d88cada12876524cf943b69d3ceb75cfcbc5da1fbfe22390d350fb259fb1"
+    },
+    {
+      "id": "author_code_index",
+      "kind": "author_code_index",
+      "url": "https://api.github.com/repos/krasnowlab/HLCA/git/trees/899dd282c36db5b09ded8f522fa3ba239fad1347?recursive=1",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github_tree.json",
+      "bytes": 38169,
+      "sha256": "674bdb3dcc8dfd620fbf299a3f8d611184b1439c169a9673b8a9232c8a81cb22"
+    },
+    {
+      "id": "author_download_script",
+      "kind": "author_code_or_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/fetchData.bash",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__fetchData.bash",
+      "bytes": 680,
+      "sha256": "dd0dc3f5fbccdfc93d271b5c6a0f1760ad6de0226f79e1b1ecdf2b38bd8bf619"
+    },
+    {
+      "id": "author_readme",
+      "kind": "author_code_or_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/README.md",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__README.md",
+      "bytes": 3665,
+      "sha256": "310f052e2b5158b237bcd8819d6f0a935b3386775f35263167a0105b9e4097c0"
+    },
+    {
+      "id": "library_metadata_P1_10x",
+      "kind": "author_library_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Annotation%20Patient%201/metadata/10x.csv",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Annotation Patient 1__metadata__10x.csv",
+      "bytes": 481,
+      "sha256": "a21dc027510f7df19010936353062c9e2d987ec49efc7f14f773d05b230899a2"
+    },
+    {
+      "id": "library_metadata_P1_SS2",
+      "kind": "author_library_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Annotation%20Patient%201/metadata/SS2.csv",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Annotation Patient 1__metadata__SS2.csv",
+      "bytes": 3152,
+      "sha256": "6f98d990634014f0a12f63b5b53096007e5914f8f495f96c72dcf879e652fca8"
+    },
+    {
+      "id": "library_metadata_P2_10x",
+      "kind": "author_library_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Annotation%20Patient%202/metadata/10x.csv",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Annotation Patient 2__metadata__10x.csv",
+      "bytes": 526,
+      "sha256": "fb54b2a60fdddf6ab9ba3895d56f691d09d78f8e26b41078f69c0c2a9f27653f"
+    },
+    {
+      "id": "library_metadata_P2_SS2",
+      "kind": "author_library_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Annotation%20Patient%202/metadata/SS2.csv",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Annotation Patient 2__metadata__SS2.csv",
+      "bytes": 1350,
+      "sha256": "05fda7f3b45dfc8bd1b0ecadc3cb7b945697a6780f3aa188d9d1f5388a603b83"
+    },
+    {
+      "id": "library_metadata_P3_10x",
+      "kind": "author_library_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Annotation%20Patient%203/metadata/10x.csv",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Annotation Patient 3__metadata__10x.csv",
+      "bytes": 475,
+      "sha256": "46bf062419bdc36e466846c0ef107d3fe33ff939ac0b9966af6ef0a783b3e48a"
+    },
+    {
+      "id": "library_metadata_P3_SS2",
+      "kind": "author_library_metadata",
+      "url": "https://raw.githubusercontent.com/krasnowlab/HLCA/899dd282c36db5b09ded8f522fa3ba239fad1347/Annotation%20Patient%203/metadata/SS2.csv",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/github__Annotation Patient 3__metadata__SS2.csv",
+      "bytes": 1234,
+      "sha256": "cd3d439f101d102dc51c747c1038cbaf0e57aa024f4d1ec27266f8d10964f925"
+    },
+    {
+      "id": "owner_annotated_paper",
+      "kind": "private_context",
+      "url": null,
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/paper_annotated.pdf",
+      "bytes": 24950022,
+      "sha256": "ff83ca9d9616d148be61d46c0f05d31036cefcbaa1d6754e16929198928ebe3e"
+    },
+    {
+      "id": "private_reading_order",
+      "kind": "private_context",
+      "url": null,
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/notion_readingOrder.json",
+      "bytes": 21595,
+      "sha256": "ce325878411c2d9c12dc8675ba46388aee5af1e892c6dfea54ee8641b9b024fa"
+    },
+    {
+      "id": "private_result_notes",
+      "kind": "private_context",
+      "url": null,
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/notion_notes.json",
+      "bytes": 9379,
+      "sha256": "4a6c5ecb10053d0bf9f8bf399dab8b654997722dbbd67d88ad41cab5d4af62e0"
+    },
+    {
+      "id": "private_target_map",
+      "kind": "private_context",
+      "url": null,
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/notion_targetMap.json",
+      "bytes": 21850,
+      "sha256": "21ca29870e7bf9fb8bc44d3707992945c5c8804ed1c7dc6d5b7333a27bee0582"
+    },
+    {
+      "id": "reporting_summary",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM2_ESM.pdf",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM2_ESM.pdf",
+      "bytes": 99433,
+      "sha256": "2be12d772049d87e22896bc4962b6de9b7e52057078935523fed43a32eb63b79"
+    },
+    {
+      "id": "source_ED3",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM13_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM13_ESM.xlsx",
+      "bytes": 9785,
+      "sha256": "168cad6f984fa772c65f5ac27143f8eaf4275897131152efa37fbf282c582cb2"
+    },
+    {
+      "id": "source_ED4",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM14_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM14_ESM.xlsx",
+      "bytes": 9338,
+      "sha256": "e5a679b4fb385039eb07f38c29d4bd8c4e32ae6397a6664f8f40850a68696fa7"
+    },
+    {
+      "id": "source_figure_1",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM12_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM12_ESM.xlsx",
+      "bytes": 9158,
+      "sha256": "03ee4ac4bd68183b5c27095d3ab0dd1affb09337135d6faf130be32ee26e3380"
+    },
+    {
+      "id": "supplement_figure_1",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM1_ESM.pdf",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM1_ESM.pdf",
+      "bytes": 2096712,
+      "sha256": "4612148a523c1696bbbb5773b8a9b20332f2c08215ea35a9b3dd8dafab4d2064"
+    },
+    {
+      "id": "supplement_table_1",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM3_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM3_ESM.xlsx",
+      "bytes": 14603,
+      "sha256": "465d7e83220bf4cc4e6bfacbacc2e1d1260649228610b382b05d13ce755534e7"
+    },
+    {
+      "id": "supplement_table_2",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM4_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM4_ESM.xlsx",
+      "bytes": 15995,
+      "sha256": "18a853d0a15b61c24fe5ae1847535bd3002faaaa92fa87d90b0ba63bef67d8f5"
+    },
+    {
+      "id": "supplement_table_3",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM5_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM5_ESM.xlsx",
+      "bytes": 9870,
+      "sha256": "32fb97b1bd0bf2036846c81d874393b9fa0e2a4c0e6845a4c96b4036f5977766"
+    },
+    {
+      "id": "supplement_table_4",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM6_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM6_ESM.xlsx",
+      "bytes": 7949349,
+      "sha256": "abca9f72c5bb8d47327f543738ae9672c1bf006c92a6c0eb4b4cc2dc29031073"
+    },
+    {
+      "id": "supplement_table_5",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM7_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM7_ESM.xlsx",
+      "bytes": 702901,
+      "sha256": "037673895cb3f255cd9f73bb632ec44854a1e3bec45c687676bf4aaf161b1a36"
+    },
+    {
+      "id": "supplement_table_6",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM8_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM8_ESM.xlsx",
+      "bytes": 19429,
+      "sha256": "7a5e7ce3063d242fe85f7e778fc9d38a9b89dda06b29caee5d557a8b2b24d4f7"
+    },
+    {
+      "id": "supplement_table_7",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM9_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM9_ESM.xlsx",
+      "bytes": 472603,
+      "sha256": "730c44b46260b216b5fd5743812e52da6f94ee1390cdd960b5233f4589e0510b"
+    },
+    {
+      "id": "supplement_table_8",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM10_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM10_ESM.xlsx",
+      "bytes": 9748,
+      "sha256": "db2e3165132623d18138c5103eae5bcd0e3389a0ccb9160bde485e589139139f"
+    },
+    {
+      "id": "supplement_table_9",
+      "kind": "publisher_supplement",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2922-4/MediaObjects/41586_2020_2922_MOESM11_ESM.xlsx",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/41586_2020_2922_MOESM11_ESM.xlsx",
+      "bytes": 496798,
+      "sha256": "b819e7fc7876cf5fd1387e3b23ef3e7aa779921df26a4d1917e68ba30498368a"
+    },
+    {
+      "id": "synapse_project",
+      "kind": "author_code_or_metadata",
+      "url": "https://repo-prod.prod.sagebase.org/repo/v1/entity/syn21041850",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/synapse_entity.json",
+      "bytes": 298,
+      "sha256": "308cd3ce80c5fa1c30aa54ebcf9426a83b0bbdd0f687e8f63a4e5c712eaf6438"
+    },
+    {
+      "id": "synapse_wiki",
+      "kind": "author_code_or_metadata",
+      "url": "https://repo-prod.prod.sagebase.org/repo/v1/entity/syn21041850/wiki/600865",
+      "cache_path": "raw_data/travaglini_nabhan_2020/sources/synapse_wiki.json",
+      "bytes": 2704,
+      "sha256": "1ea844681e0868f9b651cec22cbd37656cc26c6701d21221d53850be7adae7de"
+    }
+  ]
+}

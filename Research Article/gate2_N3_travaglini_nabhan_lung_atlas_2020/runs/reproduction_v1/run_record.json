@@ -1,0 +1,37 @@
+{
+  "schema": "TN2020-reproduction/v1",
+  "completed_at_utc": "2026-10-02T13:35:44.273206+00:00",
+  "status": "bounded source reconstruction and descriptive estimates complete",
+  "expression_analysis_run": true,
+  "selected_gene_count": 88,
+  "normalization_caveat": "curated raw universe and source X retained distinctly",
+  "cache_hashes": {
+    "10x_selected_counts.npz": "9308bf0bdca24ed6d5c41d22c314c686dac9bdd6824842f2821341c7b6c21bda",
+    "SS2_selected_counts.npz": "cf706c81642475047bb06806a8bfa613bd021d7776457fdca21553a4bb68e02c"
+  },
+  "outputs": {
+    "contrast_summary.tsv": "a0c80b0a2d48dbd7577e38ace804e8ac3846549ecd4848117f6863e3f024905f",
+    "gene_mapping.tsv": "ebeb4de48e337d899820d572742c7c7c26d8c07eff4bca4e18cdf1b446f24459",
+    "matrix_semantics.json": "328ad9c163e8bed29059e8f47b3510bc77a4a1ff9a9450c2bdf5a3bf4bc8f683",
+    "paired_effects.tsv": "77aff09f72543a513f6091ec09e9b2a4cf801b08e373e53041730b9d692cfad9",
+    "source_pooled_expression.tsv": "56b3b441ed47cb79139484fe2e9a5562b71cc0d3345a3ba7f68cf161cbee4d60",
+    "unit_expression.tsv": "893973dfdd698cfd972586bcab1b9e7607d1f55e1ebb198caed543ac4f8419e1"
+  },
+  "code_sha256": {
+    "00_source_intake.py": "e26ea6cfe6005c35673aaf6000ccb0ea0cc47f35b80ef4ba49bddafa202c89e0",
+    "01_metadata_gate.py": "3d7f875bc4d6a64508996770b7e54631590aaca41c14a4b0a1008e11a4ef9303",
+    "02_acquire_expression.py": "9a9f5e6492e8a6779d3adcec04537356c76e69d24067991c3510bc9d2ac386e6",
+    "03_prepare_metadata.py": "91975e2960d2ecb5da41e8d9e7b6af18a68d0e9ca2b335df1fc773c9e2036e4e",
+    "04_expression_reproduction.py": "08cfe2016fa771d2395f243e99a23e794e2aa5b240f8376427850f2967fe85af",
+    "common.py": "70daa2a3fc6a786265d503ca01d115db237d7129a820d348829d110ccf00c68a",
+    "fetch_sources.py": "fbc4f04adfb0bfa9c65173fad8d49be610efad1c26383736678d5896744b1f37",
+    "test_checks.py": "575bdd472ca25ae2eb183ef6fa3e93a09a72601c8899dda1a50116b6b471903b",
+    "verify_package.py": "c711092453400dfa4591244b92c79e9fa407c8aaee694118376ccb5be44ff3fb"
+  },
+  "config_sha256": {
+    "execution_v1.json": "2ac45d6df6ab85a806b9b04db2bed713d706b50c10cdcc54479c83b67e86cb0a",
+    "expression_sources_v1.json": "448c6d1a4bd4c3afff6ff2ba81949285ed865dea4d1900be9c209c3c5ccf1aef",
+    "pipeline_v1.json": "ce8e02639387d691f2984c7426eb418ea70681f30fdc815d93fe144fd9d70f57",
+    "source_manifest.json": "bd62dde277e0a521bee6991de1806238565b8ea8593d4a5b0fc9d689d909b535"
+  }
+}

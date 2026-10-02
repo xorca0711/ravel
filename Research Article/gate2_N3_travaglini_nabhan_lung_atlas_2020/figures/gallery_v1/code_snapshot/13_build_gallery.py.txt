@@ -1,0 +1,57 @@
+"""Assemble Nb4's article-local figure gallery and a 12-page PDF atlas."""
+from datetime import datetime, timezone
+from pypdf import PdfWriter, PdfReader
+from common import PACKAGE, write_json, new_run, finish_record, sha256
+
+
+FIGURES = [
+ ('01_donor_coverage','Matched donor coverage','publication_v1','runs/metadata_v1/coverage.tsv',
+  'Numbers give the smaller cell count in each paired distal-lung contrast. Blue meets the fixed 20-cell floor. Counts are not independent biological replicates; AT2-s and source fibroblast contrasts fail the planned three-donor gate. Pericyte/VSM coverage differs by assay.'),
+ ('02_AT2_source_panel','AT2 source-marker dot plot','publication_v1','runs/reproduction_v1/source_pooled_expression.tsv',
+  'Dot area is the fraction with a positive raw count; color is mean deposited X, on separate assay scales. Author AT2/AT2-s labels are pooled for source reconstruction, not inference. The source caption/notebook/scale inconsistency is retained by displaying both assays. No imputed expression or gene-wise color z-score is used.'),
+ ('03_fibroblast_transfer','Fibroblast contrasts across assays and cohorts','publication_v1','runs/external_pilot_v1/donor_effects.tsv',
+  'Each point is one donor; bars are arithmetic donor means, not confidence intervals. Source distal 10x and SS2 have P1/P3, two donors per assay, not four unique donors. External cells have four donors and nuclei two. Effects are alveolar minus adventitial log2(CPM+1); external donors average matched location/assay/protocol strata. C3 retains direction; nuclear CXCL2 reverses. Source values are in runs/reproduction_v1/paired_effects.tsv.'),
+ ('04_regulator_context','MYRF and TBX5 comparator sensitivity','publication_v1','runs/followup_v1/alternative_comparators.tsv',
+  'Distal donor-specific contrasts at the primary 20-cell floor. MYRF compares AT1 with AT2, Club and other epithelium; TBX5 compares pericytes with alveolar fibroblasts, vascular muscle and other stroma. Broad comparators exclude the focal type. Points are descriptive; author-label dependence remains. Expression does not demonstrate regulator function.'),
+ ('05_depth_sensitivity','Equal-depth detection diagnostic','publication_v1','runs/followup_v1/depth_standardized_detection.tsv',
+  'Lines join the same donor before and after exact hypergeometric expectation at 1,000 assigned 10x molecules. Only cells with at least that library size and paired populations with at least 20 retained cells enter. This is conditional finite-sampling expectation, not repeated experimental sampling, SS2 conversion or a confidence interval. MYRF/TBX5 have three donors; fibroblast panels have two.'),
+ ('06_deposited_atlas_tsne','Deposited atlas t-SNE','extended_v2','runs/extended_visual_v1/deposited_tsne.tsv',
+  'The existing source coordinates for 60,993 normal-lung 10x cells are colored by compartment and donor. These are t-SNE coordinates, not UMAP. Blood is excluded. Compartment enrichment and capture prevent interpreting plotted cell proportions as native tissue prevalence.'),
+ ('07_stromal_umap','New stromal UMAP with technical context','extended_v2','runs/extended_visual_v1/stromal_umap.tsv',
+  'One exploratory projection of 5,033 normal-lung stromal cells, shown by author identity, donor, anatomical region and C3 log1p(CP10K). It uses 1,500 mean-bin-normalized dispersion genes, 30 centered unscaled PCs, 30 neighbors, minimum distance 0.4 and seed 20261002. Labels were not used in the fit. No batch correction, new clusters, trajectory or prevalence estimate is inferred. Dense point layers are rasterized in vector exports.'),
+ ('08_donor_pca','Paired fibroblast pseudobulk PCA','extended_v2','runs/extended_visual_v1/pseudobulk_pca.tsv',
+  'Separate cohort fits on 2,000 high-variance genes from the shared expressed universe. Source: two donors, four subtype profiles. External: four donors, eight profiles, averaging log profiles equally over eligible matched strata. Lines join donor pairs. Centered log2(CPM+1) is not gene-scaled. Axes and variance percentages belong to separate fits; no common coordinate or cross-study distance is claimed.'),
+ ('09_genomewide_transfer','Genome-wide cross-cohort contrast agreement','extended_v2','runs/extended_visual_v1/source_gene_ranking.tsv',
+  'Mean paired alveolar-minus-adventitial log2(CPM+1) contrasts for 11,113 shared expression-eligible genes. Source has two donors and external four. Hexbin shade represents log point count. The nine highlighted genes were selected before this fit. Spearman correlation is descriptive across dependent genes, not donor-level evidence. External values are in runs/extended_visual_v1/external_gene_ranking.tsv.'),
+ ('10_hallmark_gsea','Exploratory Hallmark GSEA','extended_v2','runs/extended_visual_v1/hallmark_gsea.tsv',
+  'Five most positive and five most negative source NES, with external results kept for those same sets. Circle/cross distinguishes competitive gene-set FDR at 0.05. The rank is mean paired log2(CPM+1) difference, not a cell-level test statistic. MSigDB 2024.1.Hs, weight 1, 1,000 gene-set permutations, sizes 15–500 and seed 20261002. All size-eligible sets are tabulated. This null does not test donor-population reproducibility; zero engine permutation p-values do not mean zero probability.'),
+ ('11_go_biological_process','GO biological-process annotation','extended_v2','runs/extended_visual_v1/go_bp_ora.tsv',
+  'Effect-selected foregrounds require absolute mean paired difference at least 1 and sign agreement in both source donors or at least three of four external donors. Background is 11,113 shared expressed genes. Hypergeometric overlap is BH-adjusted over all eligible terms and both directions within cohort. Top five terms per direction/cohort are shown; complete results and exact display selection are retained. Circles denote alveolar-up and triangles adventitial-up. Overlapping GO terms are not independent mechanisms; annotations are not measured functions.'),
+ ('12_complement_running_enrichment','Complement-set generalization check','extended_v2','runs/extended_visual_v1/complement_running_curves.tsv',
+  'HALLMARK_COMPLEMENT was selected before this analysis. Curves show weighted running enrichment across the genome-wide rank; ticks identify its 141 eligible genes. Source ES is positive and external ES negative. Neither cohort supports small adjusted gene-set q-values for this set. The additional 1,000 expression-matched random sets use a plus-one two-sided empirical p-value. C3-associated RNA therefore cannot be substituted for a coherent complement program.')
+]
+
+
+def main():
+    out=new_run(PACKAGE/'figures/gallery_v1');writer=PdfWriter();inputs={}
+    lines=['# Nb4: research figure gallery','',
+           'Twelve figures from the executed source reconstruction, sensitivities, external pilot and genome-wide visual analysis. White backgrounds, consistent assay colors, panel letters, donor points, explicit units and 300-dpi PNG plus SVG/PDF exports follow the neighboring Nb1, England and Nb3 galleries. Dense cell layers are rasterized within vector figures.','',
+           '[12-page PDF atlas](figures/gallery_v1/Nb4_figure_atlas.pdf) · [Reproduction](reports/REPRODUCTION_REVIEW.md) · [Follow-up](reports/FOLLOWUP_RESULTS.md) · [Genome-wide analysis](reports/EXTENDED_VISUAL_ANALYSIS.md) · [RQ derivation](reports/RQ_DERIVATION.md)','',
+           'These are descriptive and exploratory figures. Donor counts, coverage holds, annotation exposure and gene-set nulls are stated in each caption; no repair mechanism or population-level significance follows from visual separation.','']
+    for i,(stem,title,folder,data,caption) in enumerate(FIGURES,1):
+        root=f'figures/{folder}/{stem}'
+        pdf=PACKAGE/(root+'.pdf');assert len(PdfReader(pdf).pages)==1
+        writer.append(pdf);inputs[pdf.relative_to(PACKAGE).as_posix()]=sha256(pdf)
+        lines += [f'## Figure {i}. {title}','',f'![{title}]({root}.png)','',f'[PNG]({root}.png) · [SVG]({root}.svg) · [PDF]({root}.pdf) · [Data]({data})','',caption,'']
+    writer.write(out/'Nb4_figure_atlas.pdf')
+    lines += ['## Render and data provenance','',
+              'Renderers: [Figures 1–5](scripts/09_make_figures.py), [Figures 6–12](scripts/12_extended_figures.py), [gallery builder](scripts/13_build_gallery.py). Each finalized figure directory has an input manifest, output hashes and code snapshot. [Source renders](figures/publication_v1/run_record.json), [extended renders](figures/extended_v2/run_record.json), [atlas assembly](figures/gallery_v1/run_record.json).','',
+              'The initial execution_v1 figures are retained as historical drafts. extended_v1 was an incomplete rendering attempt that stopped during a diagnostic for a size-filtered gene set; extended_v2 is the finalized version. Numerical analyses were not rerun for that rendering correction.','']
+    (PACKAGE/'FIGURES.md').write_text('\n'.join(lines),encoding='utf-8')
+    (PACKAGE/'figures/README.md').write_text('# Nb4 figures\n\nOpen the article-level [figure gallery](../FIGURES.md) for all 12 figures, captions, source data and PDF atlas.\n\nFinal exports: publication_v1 (Figures 1–5), extended_v2 (Figures 6–12), gallery_v1 (combined atlas). execution_v1 and incomplete extended_v1 are historical render attempts.\n',encoding='utf-8')
+    write_json(out/'atlas_inputs.json',inputs)
+    finish_record(out,{'schema':'Nb4-figure-atlas/v1','completed_at_utc':datetime.now(timezone.utc).isoformat(),'pages':12,'status':'article-local gallery and atlas assembled'})
+    print('Wrote FIGURES.md and the 12-page Nb4 PDF figure atlas.')
+
+
+if __name__=='__main__':main()
