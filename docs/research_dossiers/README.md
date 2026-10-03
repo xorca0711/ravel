@@ -69,3 +69,7 @@ The [3 October review](review_2026-10-03/README.md) checks established precedent
 ## Source and capability qualification
 
 The [qualification stage](qualification_2026-10-03/README.md) contains four executed metadata contracts, five versioned GEO sources, all-question dispositions and exact enabling exports. Fresh metadata resolves source identities without inventing biological replication or laboratory access.
+
+## Current follow-up
+
+[Jobs 2, 3, 4 and 6](followup_2026-10-03/README.md) now have checkout consolidation, BioSample recovery, outcome-linkage decisions and a precise novelty ledger. Missing biological joins and actual laboratory capabilities remain explicit.

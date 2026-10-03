@@ -105,3 +105,7 @@ eligibility. Then qualify assay validity, timing, independent units, meaningful
 effect and lab feasibility. Only this evidence can justify a prospective
 confirmatory design or a real experimental commitment. Those scientific
 decisions remain open; the repair supplies a traceable process for making them.
+
+## Subsequent checkout consolidation
+
+The stale-primary description above records the initial preservation checkpoint. The [follow-up consolidation](../../research_dossiers/followup_2026-10-03/CHECKOUT.md) now places the normal checkout on a review branch, preserves its old edits on a local recovery branch, and records ignored-data verification. Other worktrees remain retained; no raw inputs were deleted.

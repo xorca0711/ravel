@@ -1,0 +1,54 @@
+# Hypothesis-specific precedent and contribution ledger
+
+**The bounded comparison is complete; novelty is not certified.** Each proposed contribution must add a discriminating measurement or result, not only a new score name or a narrower wording. This ledger retains all 24 questions and does not assign a priority. Source-informed refinements remain subject to owner scientific review.
+
+The [earlier primary-source ledger](../review_2026-10-03/SOURCES.md) and [feasibility review](../review_2026-10-03/FEASIBILITY.md) are reused, not presented as new searches. Fresh checks target A4's flexibility claim, A11's exact residual-component rationale and A19's withdrawal endpoint. The existing A20/A21 source audits resolve their nearest functional precedents. The nine Nb4 candidates retain their [separate source audit](../../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/proposals/SOURCES.md); no new global questions are created.
+
+| RQ | Already established / existing result to preserve | Possible additional contribution; current limit |
+|---|---|---|
+| A0 | Injury-transition parallels exist; the fixed lung-to-intestine test failed. | Explain the construct/transfer boundary using an independently justified comparison. Relabeling a failed signature does not supply conservation evidence. |
+| A1 | Regulatory and transitional-state studies already exist (PATS, IRE1, AP-1, Tsutsui). | Added early regulatory information beyond RNA for a later mature endpoint; the necessary join is missing. |
+| A2 | Kaiser shows recipient-specific responses to ligands. | Distinguish availability/delivery from fibroblast competence in a specified context; recipient RNA alone does not identify the route. |
+| A3 | Macrophage origin, history and age effects have precedents (Aegerter and the existing atlas sources). | Separate origin/history from current context with a functional consequence; current confounding and flux limitations remain. |
+| A4 | Frank 2016 and Nabhan 2018 already establish dynamic/recruited Wnt-responsive behavior; Choi supplies inflammatory context. | Resolve the specified sequential Wnt-associated to inflammatory response in tracked starting populations versus selection. Generic AT2 flexibility is not new. |
+| A5 | Guo provides developmental states; Strunz and later repair studies provide remodeling states. | Reproducible reuse of the exact independent developmental component under valid units. The source-state/mouse join, not another score, is the current obstacle. |
+| A6 | IPF macrophage state/mixture differences have atlas precedents. | A reproducible within-shared-state change linked to an effector could add value. Sparse common-state coverage and owner reservations remain. |
+| A7 | CEBPA identity maintenance and context-dependent progenitor programs are published (Hassan/Chen). | A specified state interaction beyond broad identity loss, using independent units and an appropriate outcome. Broad and state-selective effects can coexist. |
+| A8 | Transition and mature AT1 differentiation are established; mature labelled endpoints exist. | A frozen component's incremental information about independent mature output; current diagnostics do not test that increment. |
+| A9 | Ligand/receptor biology and supplied-ligand responses are known. | Demonstrate recipient protein/activity/response competence in context. Database complex membership and sparse RNA coverage cannot establish it. |
+| A10 | The screen measures organoid growth and perturbation-associated expression. | Reliable transport of a defined predictor to independent preparations. Current RNA/area timing is concurrent and plate prediction is weak. |
+| A11 | Marjanovic/Chan establish HPCS relevance and regenerative overlap; Bienkowska adds developmental-program disease/therapy associations. | Reproducible incremental information from the exact frozen residual over a shared/stress explanation. A set difference itself supplies no new biological mechanism; see below. |
+| A12 | IL-1/inflammatory control of regeneration is established (Choi). | Source- and input-specific recipient response rather than a generic inflammatory signature; attribution remains incomplete. |
+| A13 | Reciprocal epithelial/fibroblast niches are established (Hoffman and related source work). | A specific fibroblast output linked to epithelial recovery beyond the existing proxy model. The negative model nominates no mediator. |
+| A14 | Withdrawal recovery is already shown in Choi Fig. 7. | Distinguish persistent input, compartment dependence and residual state after documented withdrawal. Generic reversibility is insufficient novelty. |
+| A15 | Integrin-mediated latent TGF-beta activation is established (Munger). | Context-specific activation and recipient consequence with valid preparation units; expression is not activation. |
+| A16 | State-marker associations and altered source composition are known. | Marker-independent attribution plus protein and later response; existing residual imbalance prevents a mechanistic claim. |
+| A17 | Published lineage/clone growth heterogeneity exists (England). | Identifiable comparison of founder persistence, switching and measurement alternatives using recovered units. A local simulation bug does not refute the paper. |
+| A18 | Identity-altered epithelial niches are reported (Nabhan 2026). | Separate absolute neighboring WT expansion from WT identity change in mapped clones/animals; candidate ligands remain nominations. |
+| A19 | Wnt/Fzd input affects growth/identity; withdrawal and maturation-context effects are known. | Input- and state-specific productive mature output with retained reserve. Jacob's AT2 maturation and other multi-factor results do not already test that complete contrast. |
+| A20 | The Fzd functional map and fibroblast support roles are published (Nabhan 2023). | Matched AF1-like Fzd2-versus-Fzd1 support of the competent AT2 pool and mature output. Maintain the existing focused hypothesis; no qualified functional join is recovered. |
+| A21 | Gillich establishes gCap lineage roles; Bian supports Fzd4 restoration effects in tumor vessels. | Fzd4-dependent vascular-function/renewal linkage in normal adult repair. Cross-context precedents do not identify this effect. |
+| A22 | Epithelial identity loss and fibroblast chemokine response are already reported (Nabhan 2026). | Separate viable source amount, selection and altered output with independent preparations. RNA and weak transported prediction do not establish secretion. |
+| A23 | SLC34A2/phosphate homeostasis and injury associations have precedents. | Compartment-specific activity/flux and timing linked to transition and viability. Preserve the external negative marker result; transporter RNA cannot rule out compensation. |
+
+## A11: the exact component is a defined measurement, not a novel cell state
+
+The [frozen partition](../../../RQ_Specified/A5_A11_shared_component_contract/config/shared_component.json) takes a lesion-author list and excludes developmental/injury overlap and operational labeling genes. Its `lesion_specific` name describes membership relative to those lists; it does not establish specificity to cancer across biology. The discovery cohort had already seen an identical module, which is why the later paired-patient analysis used a different cohort.
+
+| Closest primary precedent / inspected locator | What it already tests | What the current A11 contrast adds or still lacks |
+|---|---|---|
+| [Marjanovic 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7745838/), primary abstract/indexed findings; original author signature provenance | HPCS-related plasticity, growth and resistance in lung cancer | The local reduced module is not interchangeable with a functionally identified HPCS population. Generic cancer relevance is already known. |
+| [Chan 2026](https://www.nature.com/articles/s41586-025-09985-x), full-text Fig. 5c–e and Extended Data 11–12 | Regenerative-state overlap and a strong relation to a recurrent stress program, alongside functional HPCS experiments | The relevant rival is shared regeneration/stress. The inspected comparison does not evaluate this repository's exact disjoint partition and paired beyond-shared contrast. That difference in definition does not establish worthwhile biological novelty. |
+| [Bienkowska 2026](https://doi.org/10.1002/1878-0261.70263), full-text signature derivation, results and data-use sections | Development-derived ALV/BM signatures, disease/therapy associations and a TP53/interferon mechanism in its studied context | These lists derive from embryonic-stage comparisons, not the Guo/Strunz/HPCS partition. It reuses Marjanovic sequencing, so it is not independent replication of that dataset. Do not present generic developmental-program reactivation in cancer as new. |
+
+**Current decision:** retain A11 as an unresolved question about the exact component's incremental information, not as an established lesion-specific mechanism. The [paired-patient result](../../../RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md) reports a lesion association while the beyond-shared criterion remains unresolved. Existing acute-injury evidence remains limited; no new pathogen-related data were analyzed.
+
+A useful next source must provide independent patients, a defined non-neoplastic comparison and a meaningful lesion-relevant endpoint. Predefine the shared/stress rival and comparator using the actual intended inference. A difference between module changes is not equivalent to causal adjustment or a functional perturbation result. A functional branch should be nominated only after evidence establishes what the residual measures and what result could change a decision. No gene target or intervention is nominated by this review.
+
+## A4 and A19 refinements
+
+[Frank et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27880906/), Results on developmental Wnt-responsive cells and Fig. S2G–H, already report gaining/losing Wnt responsiveness over lineage history. This is developmental evidence, not the complete adult inflammatory sequence. It changes A4's novelty boundary without closing the narrower question.
+
+[Jacob et al. 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5755620/), Fig. 6 and indexed primary text, links reduced Wnt input to AT2 maturation in a pluripotent-cell-derived system. This is not a mature AT1-output endpoint. The [A19 external review](../../../RQ_Specified/A19_fzd_response_reversibility/EXTERNAL_EVIDENCE.md) already recognizes differentiation environment, competing fates and preserved reserve as separate requirements. No broad withdrawal claim is restored.
+
+The queries, access levels and reused records are in [SOURCES.md](SOURCES.md). No systematic-review completeness, first discovery or author scientific acceptance is claimed.

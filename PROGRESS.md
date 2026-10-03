@@ -72,11 +72,31 @@ test covers the change. Existing freeze, hash and inference gates remain intact.
 Actual laboratory models, assays and access remain unknown. Per-stage checks
 are recorded in the [qualification validation](docs/research_dossiers/qualification_2026-10-03/VALIDATION.md).
 
+## Follow-up on jobs 2, 3, 4 and 6
+
+The [follow-up report](docs/research_dossiers/followup_2026-10-03/README.md)
+records normal-checkout consolidation, 984 verified GEO/BioSample library
+identities, a seven-question outcome-linkage matrix and an all-question novelty
+ledger. A5's first BioSample attempt stopped on a source-schema assumption; its
+failed receipt is retained and the explicit library-alias amendment passed.
+No animal/pool/preparation or per-cell-state map was inferred from those joins.
+
+Fresh precedents narrow A4's general flexibility claim and A11's generic
+plasticity/developmental-program claim. Published endpoints remain recognized;
+the precise early-to-later joins are still unqualified. The owner is preparing
+articles/capability evidence and will review and merge PR #130. No RQ was selected.
+
+The checkout handoff exposed Windows line-ending conversion of hash-bound
+metadata code. Exact-byte Git attributes now cover the six contract-bound source
+and test files; their frozen contents and recorded hashes remain unchanged.
+Actual checks and limitations are in the [follow-up validation](docs/research_dossiers/followup_2026-10-03/VALIDATION.md).
+
 ## Next work
 
 1. Review corrected question scopes and source dispositions; owner scientific acceptance remains pending.
-2. Recover the exact enabling metadata exports in the qualification capability
-   record. Do not repeat unchanged source searches or relax biological eligibility.
+2. Assess incoming articles/exports against the follow-up's exact source-unit,
+   barcode/state and outcome-join requirements. The public BioSample layer and
+   unchanged author repository have now been checked; do not repeat those searches.
 3. Record actual model/assay access when available. A published lab method is not
    evidence of current access; no RQ needs selection before this qualification.
 4. For a newly eligible comparison, register a distinct contract matching its
@@ -84,7 +104,9 @@ are recorded in the [qualification validation](docs/research_dossiers/qualificat
 5. Establish assay validity, meaningful effect and independent-unit variance
    before confirmatory experimental design. No sample size or mediator is invented.
 
-The original primary checkout remains a preserved stale working copy with private
-inputs. Use the attached repair worktree for this branch. Retirement or migration
-of old checkouts requires the reconciliation record and ignored-input inventory;
-the private snapshot alone is not a backup of ignored raw data.
+The normal checkout now uses `codex/workspace-ready` for the PR state. Original
+edits are preserved on local-only `codex/preserved-primary-20261003`; main remains
+unmerged. The attached repair worktree remains on `codex/research-governance`.
+See [checkout verification](docs/research_dossiers/followup_2026-10-03/CHECKOUT.md)
+before changing branches or retiring any older worktree. Ignored raw data remains
+in place; the private snapshot is not a backup of those inputs.

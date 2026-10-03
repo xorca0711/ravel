@@ -2388,3 +2388,21 @@ The owner authorized proceeding to the next stage after the repository repair. C
 | 2026-10-03 | A11 novelty review was incomplete | Direct 2020/2026 precedents establish generic HPCS function and regeneration overlap; the exact residual-component contribution still needs qualification | Codex bounded source comparison; no owner rejection or claim promotion inferred |
 
 See the [qualification report](docs/research_dossiers/qualification_2026-10-03/README.md). No expression values, new biological fit, wet experiment or external outreach were performed. All prior contracts, receipts and frozen scientific assets are retained.
+
+## Source recovery and checkout consolidation, 3 October 2026
+
+The owner explicitly authorized remaining jobs 2, 3, 4 and 6, reserved article/capability preparation for themselves, and said they would merge the PR. Codex implemented the [follow-up](docs/research_dossiers/followup_2026-10-03/README.md); scientific acceptance and integration remain owner decisions.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Consolidate primary checkout | Owner request | Owner authorized; Codex implemented | Preserve 685 paths on a local recovery branch, retain private settings and verify ignored files, then use a separate PR review branch | Make the normal checkout usable without discarding old work or merging the PR |
+| 2026-10-03 | Extend metadata qualification | Owner request / Codex implementation | Codex execution; scientific acceptance pending | Freeze new contracts and verify 984 library identity joins; retain missing biological identities | Database identities are not independent units |
+| 2026-10-03 | Qualify outcomes and novelty | Owner request | Codex bounded review; owner review pending | Record exact missing joins and contribution boundaries across the portfolio | Published endpoints and generic plasticity do not automatically answer the current RQs |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | A5 required a reverse GEO ID in every BioSample | Independently submitted records use MUC sample aliases and omit that field. The first run stopped; its receipt remains. A prospectively frozen source-specific amendment verifies exact declared accessions/aliases and rejects contradictory reverse IDs | Codex correction; no biological gate relaxed |
+| 2026-10-03 | Hash-bound metadata code was subject to Windows newline conversion | A real checkout produced different byte hashes. Exact-byte Git attributes cover only the six bound files; frozen source contents and hashes remain unchanged | Codex portability fix; owner PR review pending |
+| 2026-10-03 | General AT2 flexibility or cancer developmental-program overlap could appear novel | Frank 2016 and direct HPCS/developmental-program precedents already support those broad claims; precise residual comparisons remain open | Codex source-grounded clarification; no question rejected or result promoted |
+
+The old worktrees and their ignored inputs remain retained. No external outreach, expression fit, laboratory work, RQ selection or PR merge occurred.

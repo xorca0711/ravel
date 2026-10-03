@@ -2,6 +2,13 @@
 
 # Preserve prospective contract/receipt hashes.
 analysis/research/** -text whitespace=cr-at-eol
+# Metadata contracts hash these source bytes, including on Windows checkouts.
+analysis/scripts/qualify_geo_metadata_v1.py -text whitespace=cr-at-eol
+analysis/tests/test_geo_metadata_qualification.py -text whitespace=cr-at-eol
+analysis/scripts/qualify_biosample_metadata_v1.py -text whitespace=cr-at-eol
+analysis/tests/test_biosample_metadata_qualification.py -text whitespace=cr-at-eol
+analysis/scripts/qualify_a5_biosample_metadata_v3.py -text whitespace=cr-at-eol
+analysis/tests/test_a5_biosample_qualification.py -text whitespace=cr-at-eol
 
 # Migration archives retain original hashes, including line endings.
 docs/migrations/2026-09-25-research-layout/** -text whitespace=cr-at-eol
