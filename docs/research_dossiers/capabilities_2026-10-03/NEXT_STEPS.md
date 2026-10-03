@@ -101,3 +101,11 @@ Use the open PR while it remains the owner's intended integration vehicle. If
 it has merged, fetch main, inspect preserved work and continue on a new scoped
 branch; do not rewrite the old PR or overwrite another session. Update current
 state and validation evidence before handoff. Never invent owner acceptance.
+
+## Subsequent package-development checkpoint
+
+The [conditional package ledger](../packages_2026-10-03/LEDGER.md) records
+the now-written 24 drafts and nine Nb4 supplements. The earlier completion
+accounting above remains a historical capability-stage checkpoint.
+Writing packages does not complete assay qualification, access confirmation,
+scientific acceptance, bench launch or owner integration.

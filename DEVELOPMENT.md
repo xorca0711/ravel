@@ -2431,3 +2431,25 @@ handoff. It does not constitute scientific acceptance or permission to merge.
 No existing scientific script, frozen output, source contract, run receipt or
 claim grade changed. No new expression analysis, outreach, RQ selection or merge
 was performed. The private comparison and handoff are intentionally outside Git.
+
+## 3 October 2026: conditional package continuation
+
+The owner requested continuation of the scientific handoff. Codex authored
+24 packages and nine Nb4 supplements, checked targeted primary precedents and
+inspected labels in a new public supporting workbook. No subagent was used.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Conditional designs and eligibility ledger | Codex under owner continuation request | Owner authorized work; scientific acceptance/integration pending | Prepare all-question drafts with explicit unknowns and stop decisions | Complete independent package development without inventing access or positive results |
+| 2026-10-03 | Rochelle supporting workbook intake | Codex | Codex source-reading decision; owner review pending | Record donor/time labels and missing preparation links | Partial identity recovery does not establish the A8/A19 comparison |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | A11 draft offered alternative primary estimands | Specify patient-held-out log-loss increment; paired context differences become secondary | Codex self-review; no human rejection inferred |
+| 2026-10-03 | A21 draft equated later gCap counts with renewal | Require new progeny with division evidence and retained gCap identity | Codex self-review |
+| 2026-10-03 | Proposed dossier-tail and current-progress replacements | Automatic approval review rejected potential loss of prior content; all existing-document additions are append-only | Automatic approval review; Codex adopted safer edits |
+
+No governance, validator, frozen code/output, contract, receipt or claim grade
+was changed. Packages await explicit owner scientific review; no outreach,
+experimental procedure, scientific acceptance or merge occurred.
+See the [stage ledger](docs/research_dossiers/packages_2026-10-03/LEDGER.md).

@@ -77,3 +77,10 @@ The [qualification stage](qualification_2026-10-03/README.md) contains four exec
 ## Published capabilities and completion audit
 
 The [current methods review](capabilities_2026-10-03/README.md) covers the supplied 32-PDF collection. Its [remaining-work ledger](capabilities_2026-10-03/NEXT_STEPS.md) accounts for all nine original jobs. No host access is confirmed; full experimental packages and qualified biological follow-ups remain to be completed. Private lab/funding planning is kept outside Git.
+
+## Conditional packages — subsequent 3 October continuation
+
+The [package index](packages_2026-10-03/README.md) now develops all 24 questions
+and nine Nb4 candidates. These drafts await owner scientific review; the
+[ledger](packages_2026-10-03/LEDGER.md) separates package completion from
+analysis eligibility and bench readiness.

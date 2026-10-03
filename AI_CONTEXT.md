@@ -24,3 +24,10 @@ research measurements can be public; personal planning is not research evidence.
 The former long handoff is preserved in existing Git history; see the
 [historical locator](docs/history/2026-10-03-pre-governance/README.md).
 It describes earlier revisions and does not override the current locators.
+
+## Subsequent 3 October continuation
+
+Use the [conditional package index](docs/research_dossiers/packages_2026-10-03/README.md)
+and [ledger](docs/research_dossiers/packages_2026-10-03/LEDGER.md) for the now-written
+24 drafts and nine Nb4 supplements. This updates the earlier unfinished-package
+status; actual access and scientific acceptance remain unconfirmed.

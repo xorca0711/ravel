@@ -132,3 +132,40 @@ unmerged. The attached repair worktree remains on `codex/research-governance`.
 See [checkout verification](docs/research_dossiers/followup_2026-10-03/CHECKOUT.md)
 before changing branches or retiring any older worktree. Ignored raw data remains
 in place; the private snapshot is not a backup of those inputs.
+
+## Current continuation — conditional packages, 3 October 2026
+
+This checkpoint supersedes the earlier full-package-pending status and next-work
+item 1 above. [All 24 conditional packages and nine Nb4 supplements](docs/research_dossiers/packages_2026-10-03/README.md)
+are now drafted. They specify source precedents, hypotheses/rivals, units,
+contrasts, endpoints/denominators, timing, controls, precision inputs and stop
+decisions. Owner scientific review remains pending; unknown assays, meaningful
+effects, sample sizes and actual host access remain explicitly unknown.
+
+The [source review](docs/research_dossiers/packages_2026-10-03/SOURCES.md)
+records targeted checks and read-only label inspection of a new Rochelle
+support workbook. Donor-labelled endpoint tables improve source identity;
+same-donor labels do not establish same-preparation early/later linkage.
+No biological fit, new contract, wet experiment or claim promotion occurred.
+All prior negative results and gates remain intact.
+
+Work started from PR #130 revision
+`a0c8189e361306e6d08c4f927b2a7365f8f95f6c` on isolated
+`codex/conditional-packages`. Refreshed origin/main was
+`0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f`.
+Normal and repair checkouts, private settings, older worktrees and ignored data
+were not edited. Sandbox Git reports two normal-checkout metadata changes;
+full user Git showed no diff at intake. Neither path was reset or normalized.
+
+**Exact next steps:** owner review of the
+[nine-job and per-comparison ledger](docs/research_dossiers/packages_2026-10-03/LEDGER.md);
+obtain the named unit/state/outcome maps; confirm actual model/assay/supervision
+access; qualify meaningful effect and independent-unit precision; run only
+justified stages under a new committed contract/runner. A17 still needs a
+versioned corrected model and defensible observation/identifiability specification.
+After owner merge, safely align the normal checkout with integrated main.
+
+See [stage validation](docs/research_dossiers/packages_2026-10-03/VALIDATION.md)
+for actual checks and final base verification. Prior CI is not a receipt for
+this continuation. Owner merge and later checkout alignment remain pending;
+external protection settings were not changed or freshly reasserted.
