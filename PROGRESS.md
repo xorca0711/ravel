@@ -2,7 +2,7 @@
 
 **Update this before stopping work, every session.**
 
-## Current Nb5 integration and PR preparation on 3 October 2026
+## Current Nb5 integration and PR on 3 October 2026
 
 The owner requested a fresh fetch, alignment and PR. Latest main is `073a69a`
 (PR #134). Its canonical RQ specificity updates are incorporated; Nb5 P03 remains
@@ -14,9 +14,16 @@ The [Nb5 package](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md)
 includes source qualification, completed exploratory extensions, eleven captioned
 figure plates and eight provisional RQ derivations. P02's state/mixture fit and
 independent animal-level qualification remain unfinished; scientific acceptance
-and global RQ registration remain separate. Required checks and PR publication
-are being completed. The primary checkout's unrelated edits and private files
-remain unchanged. Historical checkpoints below retain their original scope.
+and global RQ registration remain separate. [PR #135](https://github.com/xorca0711/scRNA_seq/pull/135)
+is open against main and attached to the current task. All ten required local
+checks pass: 137 tests, 18 numeric bindings, 8,815 repository validations,
+compilation, archive verifiers and the research gate against `073a69a`.
+GitHub checks were in progress at publication; no merge was requested or performed.
+
+Next: review PR #135 and its CI, then the article-local scientific review packet.
+No biological analysis was rerun for integration. The primary checkout's unrelated
+edits and private files remain unchanged. External protection settings were not
+changed or freshly audited. Historical checkpoints below retain their original scope.
 
 ## Earlier Nb5 RQ derivation checkpoint on 3 October 2026
 

@@ -237,3 +237,26 @@ No global question, scientific acceptance, preferred RQ or claim-grade change
 was made. P02's state/mixture model remains unrun; independent animal-level
 qualification and scientific review remain pending. No push, PR, external
 reviewer communication or external-setting change occurred.
+
+## Latest main alignment and PR publication
+
+3 October 2026. The owner requested fetch, alignment and a PR. Main advanced
+from `537eec8` to `073a69a758f25f988ecc18402477efa268c00927` (PR #134).
+Merge `dfdbd15` incorporates the canonical RQ specificity changes. The sole
+conflict in PROGRESS.md was resolved by preserving both histories. P03 now
+explicitly links the updated A3 specificity requirement; no canonical question,
+governance rule, validator, claim grade or frozen scientific output was changed.
+
+All ten required checks passed on the aligned branch: compilation, 137 tests,
+18 numeric claim bindings, Nb1/Nb4/A16/A23/A22–A23 verifiers, 8,815 repository
+validations and the research gate against the current integration base.
+These are verification checks, not biological reruns or scientific acceptance.
+No new failure occurred. The earlier failed metadata execution remains retained.
+
+[PR #135](https://github.com/xorca0711/scRNA_seq/pull/135) is open against main;
+the remote branch is `codex/nb5-aging-atlas-plan`. GitHub reported it mergeable
+with checks still running at publication. Review and CI completion are the
+next integration steps; no merge was requested or performed. Public raw input
+caches, unrelated primary-checkout edits and private files were not published.
+The two primary metadata-file hashes remain unchanged. GitHub protection and
+other external settings were not modified or freshly audited.
