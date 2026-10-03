@@ -1,0 +1,555 @@
+dataset	mouse_id	age	age_months	sex	tissue	method	cell_ontology_class	cells
+Bladder_droplet	1-M-63	1m	1	male	Bladder	droplet	bladder cell	620
+Bladder_droplet	1-M-63	1m	1	male	Bladder	droplet	bladder urothelial cell	186
+Bladder_droplet	1-M-63	1m	1	male	Bladder	droplet	endothelial cell	117
+Bladder_droplet	1-M-63	1m	1	male	Bladder	droplet	leukocyte	33
+Bladder_droplet	18-M-52	18m	18	male	Bladder	droplet	bladder cell	517
+Bladder_droplet	18-M-52	18m	18	male	Bladder	droplet	bladder urothelial cell	1382
+Bladder_droplet	18-M-52	18m	18	male	Bladder	droplet	endothelial cell	36
+Bladder_droplet	18-M-52	18m	18	male	Bladder	droplet	leukocyte	80
+Bladder_droplet	24-M-58	24m	24	male	Bladder	droplet	bladder cell	287
+Bladder_droplet	24-M-58	24m	24	male	Bladder	droplet	bladder urothelial cell	932
+Bladder_droplet	24-M-58	24m	24	male	Bladder	droplet	endothelial cell	48
+Bladder_droplet	24-M-58	24m	24	male	Bladder	droplet	leukocyte	114
+Bladder_droplet	24-M-59	24m	24	male	Bladder	droplet	bladder cell	118
+Bladder_droplet	24-M-59	24m	24	male	Bladder	droplet	bladder urothelial cell	839
+Bladder_droplet	24-M-59	24m	24	male	Bladder	droplet	endothelial cell	43
+Bladder_droplet	24-M-59	24m	24	male	Bladder	droplet	leukocyte	34
+Bladder_droplet	24-M-60	24m	24	male	Bladder	droplet	bladder cell	140
+Bladder_droplet	24-M-60	24m	24	male	Bladder	droplet	bladder urothelial cell	741
+Bladder_droplet	24-M-60	24m	24	male	Bladder	droplet	endothelial cell	39
+Bladder_droplet	24-M-60	24m	24	male	Bladder	droplet	leukocyte	17
+Bladder_droplet	3-F-56	3m	3	female	Bladder	droplet	bladder cell	259
+Bladder_droplet	3-F-56	3m	3	female	Bladder	droplet	bladder urothelial cell	261
+Bladder_droplet	3-F-56	3m	3	female	Bladder	droplet	endothelial cell	28
+Bladder_droplet	3-F-56	3m	3	female	Bladder	droplet	leukocyte	20
+Bladder_droplet	3-M-8	3m	3	male	Bladder	droplet	bladder cell	81
+Bladder_droplet	3-M-8	3m	3	male	Bladder	droplet	bladder urothelial cell	55
+Bladder_droplet	3-M-8	3m	3	male	Bladder	droplet	endothelial cell	3
+Bladder_droplet	3-M-8	3m	3	male	Bladder	droplet	leukocyte	4
+Bladder_droplet	3-M-9	3m	3	male	Bladder	droplet	bladder cell	867
+Bladder_droplet	3-M-9	3m	3	male	Bladder	droplet	bladder urothelial cell	850
+Bladder_droplet	3-M-9	3m	3	male	Bladder	droplet	endothelial cell	26
+Bladder_droplet	3-M-9	3m	3	male	Bladder	droplet	leukocyte	40
+Brain_Myeloid_facs	24_58_M	24m	24	male	Brain_Myeloid	facs	macrophage	37
+Brain_Myeloid_facs	24_58_M	24m	24	male	Brain_Myeloid	facs	microglial cell	1216
+Brain_Myeloid_facs	24_59_M	24m	24	male	Brain_Myeloid	facs	macrophage	30
+Brain_Myeloid_facs	24_59_M	24m	24	male	Brain_Myeloid	facs	microglial cell	1020
+Brain_Myeloid_facs	24_60_M	24m	24	male	Brain_Myeloid	facs	macrophage	42
+Brain_Myeloid_facs	24_60_M	24m	24	male	Brain_Myeloid	facs	microglial cell	1153
+Brain_Myeloid_facs	24_61_M	24m	24	male	Brain_Myeloid	facs	macrophage	47
+Brain_Myeloid_facs	24_61_M	24m	24	male	Brain_Myeloid	facs	microglial cell	879
+Brain_Myeloid_facs	3_10_M	3m	3	male	Brain_Myeloid	facs	macrophage	21
+Brain_Myeloid_facs	3_10_M	3m	3	male	Brain_Myeloid	facs	microglial cell	998
+Brain_Myeloid_facs	3_38_F	3m	3	female	Brain_Myeloid	facs	macrophage	11
+Brain_Myeloid_facs	3_38_F	3m	3	female	Brain_Myeloid	facs	microglial cell	1091
+Brain_Myeloid_facs	3_39_F	3m	3	female	Brain_Myeloid	facs	macrophage	2
+Brain_Myeloid_facs	3_39_F	3m	3	female	Brain_Myeloid	facs	microglial cell	850
+Brain_Myeloid_facs	3_56_F	3m	3	female	Brain_Myeloid	facs	microglial cell	294
+Brain_Myeloid_facs	3_8_M	3m	3	male	Brain_Myeloid	facs	macrophage	6
+Brain_Myeloid_facs	3_8_M	3m	3	male	Brain_Myeloid	facs	microglial cell	581
+Brain_Myeloid_facs	3_9_M	3m	3	male	Brain_Myeloid	facs	macrophage	4
+Brain_Myeloid_facs	3_9_M	3m	3	male	Brain_Myeloid	facs	microglial cell	674
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	B cell	4
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	T cell	4
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	brush cell	27
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	epithelial cell of proximal tubule	11
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	fenestrated cell	85
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	fibroblast	7
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	kidney capillary endothelial cell	18
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	kidney collecting duct principal cell	43
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	kidney cortex artery cell	36
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	43
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	241
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	kidney mesangial cell	40
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	522
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	lymphocyte	6
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	macrophage	25
+Kidney_droplet	1-M-62	1m	1	male	Kidney	droplet	podocyte	51
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	B cell	3
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	NK cell	1
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	T cell	4
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	brush cell	26
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	epithelial cell of proximal tubule	15
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	fenestrated cell	81
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	fibroblast	8
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	kidney capillary endothelial cell	31
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	kidney collecting duct principal cell	34
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	kidney cortex artery cell	39
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	36
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	229
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	kidney mesangial cell	40
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	427
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	lymphocyte	5
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	macrophage	34
+Kidney_droplet	1-M-63	1m	1	male	Kidney	droplet	podocyte	41
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	B cell	9
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	NK cell	2
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	T cell	8
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	brush cell	17
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	epithelial cell of proximal tubule	2
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	fenestrated cell	16
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	fibroblast	1
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	kidney capillary endothelial cell	4
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	kidney collecting duct principal cell	39
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	kidney cortex artery cell	18
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	kidney distal convoluted tubule epithelial cell	53
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	60
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	kidney mesangial cell	3
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	442
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	lymphocyte	14
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	macrophage	50
+Kidney_droplet	18-F-50	18m	18	female	Kidney	droplet	podocyte	6
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	B cell	9
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	T cell	24
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	brush cell	58
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	epithelial cell of proximal tubule	1
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	fenestrated cell	38
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	fibroblast	4
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	kidney capillary endothelial cell	9
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	kidney collecting duct principal cell	58
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	kidney cortex artery cell	40
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	kidney distal convoluted tubule epithelial cell	64
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	85
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	kidney mesangial cell	5
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	581
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	lymphocyte	16
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	macrophage	100
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	plasma cell	8
+Kidney_droplet	18-F-51	18m	18	female	Kidney	droplet	podocyte	16
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	B cell	27
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	NK cell	6
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	T cell	16
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	brush cell	3
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	epithelial cell of proximal tubule	293
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	fenestrated cell	110
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	fibroblast	32
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	kidney capillary endothelial cell	12
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	kidney collecting duct principal cell	35
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	kidney cortex artery cell	33
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	52
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	105
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	kidney mesangial cell	10
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	101
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	lymphocyte	46
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	macrophage	104
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	plasma cell	1
+Kidney_droplet	18-M-52	18m	18	male	Kidney	droplet	podocyte	42
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	B cell	18
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	NK cell	1
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	T cell	13
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	brush cell	86
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	epithelial cell of proximal tubule	2
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	fenestrated cell	83
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	fibroblast	8
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	kidney capillary endothelial cell	15
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	kidney collecting duct principal cell	35
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	kidney cortex artery cell	38
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	kidney distal convoluted tubule epithelial cell	98
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	126
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	kidney mesangial cell	13
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	412
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	lymphocyte	26
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	macrophage	58
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	plasma cell	5
+Kidney_droplet	21-F-54	21m	21	female	Kidney	droplet	podocyte	38
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	B cell	36
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	NK cell	1
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	T cell	29
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	brush cell	84
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	epithelial cell of proximal tubule	3
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	fenestrated cell	51
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	fibroblast	5
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	kidney capillary endothelial cell	3
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	kidney collecting duct principal cell	23
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	kidney cortex artery cell	31
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	kidney distal convoluted tubule epithelial cell	57
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	102
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	kidney mesangial cell	9
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	457
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	lymphocyte	28
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	macrophage	43
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	plasma cell	7
+Kidney_droplet	21-F-55	21m	21	female	Kidney	droplet	podocyte	28
+Kidney_droplet	24-M-58	24m	24	male	Kidney	droplet	B cell	1447
+Kidney_droplet	24-M-58	24m	24	male	Kidney	droplet	NK cell	29
+Kidney_droplet	24-M-58	24m	24	male	Kidney	droplet	T cell	544
+Kidney_droplet	24-M-58	24m	24	male	Kidney	droplet	lymphocyte	106
+Kidney_droplet	24-M-58	24m	24	male	Kidney	droplet	macrophage	60
+Kidney_droplet	24-M-58	24m	24	male	Kidney	droplet	plasma cell	75
+Kidney_droplet	24-M-59	24m	24	male	Kidney	droplet	B cell	875
+Kidney_droplet	24-M-59	24m	24	male	Kidney	droplet	NK cell	18
+Kidney_droplet	24-M-59	24m	24	male	Kidney	droplet	T cell	302
+Kidney_droplet	24-M-59	24m	24	male	Kidney	droplet	lymphocyte	904
+Kidney_droplet	24-M-59	24m	24	male	Kidney	droplet	macrophage	199
+Kidney_droplet	24-M-59	24m	24	male	Kidney	droplet	plasma cell	94
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	B cell	2
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	NK cell	3
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	T cell	12
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	brush cell	12
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	epithelial cell of proximal tubule	4
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	fenestrated cell	53
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	fibroblast	7
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	kidney capillary endothelial cell	23
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	kidney collecting duct principal cell	33
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	kidney cortex artery cell	35
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	kidney distal convoluted tubule epithelial cell	61
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	160
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	kidney mesangial cell	26
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	486
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	lymphocyte	12
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	macrophage	55
+Kidney_droplet	3-F-57	3m	3	female	Kidney	droplet	podocyte	36
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	B cell	1
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	T cell	3
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	brush cell	3
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	epithelial cell of proximal tubule	104
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	fenestrated cell	40
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	fibroblast	5
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	kidney capillary endothelial cell	4
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	kidney collecting duct principal cell	40
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	kidney cortex artery cell	19
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	22
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	61
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	kidney mesangial cell	10
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	116
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	lymphocyte	7
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	macrophage	28
+Kidney_droplet	3-M-8	3m	3	male	Kidney	droplet	podocyte	22
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	B cell	2
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	NK cell	1
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	T cell	3
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	epithelial cell of proximal tubule	89
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	fenestrated cell	89
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	fibroblast	4
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	kidney capillary endothelial cell	11
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	kidney collecting duct principal cell	37
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	kidney cortex artery cell	24
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	43
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	94
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	kidney mesangial cell	15
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	85
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	lymphocyte	13
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	macrophage	49
+Kidney_droplet	3-M-9	3m	3	male	Kidney	droplet	podocyte	36
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	B cell	8
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	NK cell	1
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	T cell	31
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	brush cell	16
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	epithelial cell of proximal tubule	799
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	fenestrated cell	62
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	fibroblast	53
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	kidney capillary endothelial cell	6
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	kidney collecting duct principal cell	117
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	kidney cortex artery cell	42
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	40
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	145
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	kidney mesangial cell	2
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	137
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	lymphocyte	21
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	macrophage	180
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	plasma cell	1
+Kidney_droplet	30-M-2	30m	30	male	Kidney	droplet	podocyte	73
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	B cell	19
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	NK cell	1
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	T cell	89
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	epithelial cell of proximal tubule	398
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	fenestrated cell	51
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	fibroblast	15
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	kidney collecting duct principal cell	94
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	kidney cortex artery cell	34
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	43
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	68
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	kidney mesangial cell	4
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	224
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	lymphocyte	28
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	macrophage	148
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	plasma cell	12
+Kidney_droplet	30-M-3	30m	30	male	Kidney	droplet	podocyte	49
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	B cell	21
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	NK cell	1
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	T cell	36
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	brush cell	8
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	epithelial cell of proximal tubule	439
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	fenestrated cell	68
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	fibroblast	8
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	kidney capillary endothelial cell	1
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	kidney collecting duct principal cell	72
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	kidney cortex artery cell	16
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	27
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	47
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	269
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	lymphocyte	39
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	macrophage	125
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	plasma cell	23
+Kidney_droplet	30-M-4	30m	30	male	Kidney	droplet	podocyte	25
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	B cell	14
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	NK cell	1
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	T cell	21
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	brush cell	7
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	epithelial cell of proximal tubule	356
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	fenestrated cell	33
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	fibroblast	4
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	kidney collecting duct principal cell	88
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	kidney cortex artery cell	23
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	kidney distal convoluted tubule epithelial cell	23
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	kidney loop of Henle thick ascending limb epithelial cell	65
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	kidney mesangial cell	1
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	kidney proximal convoluted tubule epithelial cell	190
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	lymphocyte	18
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	macrophage	61
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	plasma cell	6
+Kidney_droplet	30-M-5	30m	30	male	Kidney	droplet	podocyte	24
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	B cell	67
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	endothelial cell	253
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	epithelial cell	36
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	granulocyte	14
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	lymphocyte	76
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	macrophage	190
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	monocyte	369
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	myeloid cell	36
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	natural killer cell	41
+Lung_droplet	1-M-62	1m	1	male	Lung	droplet	stromal cell	110
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	B cell	36
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	endothelial cell	165
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	epithelial cell	17
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	granulocyte	35
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	lymphocyte	149
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	macrophage	492
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	monocyte	555
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	myeloid cell	54
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	natural killer cell	70
+Lung_droplet	1-M-63	1m	1	male	Lung	droplet	stromal cell	129
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	B cell	68
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	endothelial cell	59
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	epithelial cell	3
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	granulocyte	2
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	lymphocyte	39
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	macrophage	21
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	monocyte	90
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	myeloid cell	9
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	natural killer cell	21
+Lung_droplet	18-F-50	18m	18	female	Lung	droplet	stromal cell	19
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	B cell	140
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	endothelial cell	202
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	epithelial cell	28
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	granulocyte	6
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	lymphocyte	207
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	macrophage	118
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	monocyte	232
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	myeloid cell	32
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	natural killer cell	55
+Lung_droplet	18-F-51	18m	18	female	Lung	droplet	stromal cell	137
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	B cell	72
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	endothelial cell	375
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	epithelial cell	65
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	granulocyte	292
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	lymphocyte	100
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	macrophage	67
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	monocyte	670
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	myeloid cell	27
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	natural killer cell	32
+Lung_droplet	18-M-52	18m	18	male	Lung	droplet	stromal cell	104
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	B cell	89
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	endothelial cell	323
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	epithelial cell	63
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	granulocyte	89
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	lymphocyte	149
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	macrophage	70
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	monocyte	500
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	myeloid cell	36
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	natural killer cell	31
+Lung_droplet	18-M-53	18m	18	male	Lung	droplet	stromal cell	138
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	B cell	113
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	endothelial cell	453
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	epithelial cell	124
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	granulocyte	27
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	lymphocyte	292
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	macrophage	121
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	monocyte	187
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	myeloid cell	36
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	natural killer cell	92
+Lung_droplet	21-F-54	21m	21	female	Lung	droplet	stromal cell	166
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	B cell	225
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	endothelial cell	444
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	epithelial cell	105
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	granulocyte	32
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	lymphocyte	259
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	macrophage	164
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	monocyte	270
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	myeloid cell	54
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	natural killer cell	84
+Lung_droplet	21-F-55	21m	21	female	Lung	droplet	stromal cell	182
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	B cell	23
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	endothelial cell	67
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	epithelial cell	16
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	granulocyte	3
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	lymphocyte	30
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	macrophage	97
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	monocyte	103
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	myeloid cell	28
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	natural killer cell	34
+Lung_droplet	3-F-56	3m	3	female	Lung	droplet	stromal cell	49
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	B cell	110
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	endothelial cell	165
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	epithelial cell	13
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	granulocyte	14
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	lymphocyte	188
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	macrophage	154
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	monocyte	200
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	myeloid cell	44
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	natural killer cell	136
+Lung_droplet	3-F-57	3m	3	female	Lung	droplet	stromal cell	69
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	B cell	6
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	epithelial cell	51
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	granulocyte	2
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	lymphocyte	1
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	macrophage	10
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	monocyte	6
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	myeloid cell	1
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	natural killer cell	43
+Lung_droplet	3-M-5/6	3m	3	male	Lung	droplet	stromal cell	392
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	B cell	6
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	epithelial cell	41
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	granulocyte	3
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	lymphocyte	6
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	macrophage	74
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	monocyte	19
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	myeloid cell	17
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	natural killer cell	138
+Lung_droplet	3-M-7/8	3m	3	male	Lung	droplet	stromal cell	1042
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	B cell	49
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	endothelial cell	188
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	epithelial cell	8
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	granulocyte	20
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	lymphocyte	268
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	macrophage	38
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	monocyte	766
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	myeloid cell	71
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	natural killer cell	68
+Lung_droplet	30-M-3	30m	30	male	Lung	droplet	stromal cell	30
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	B cell	108
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	endothelial cell	245
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	epithelial cell	14
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	granulocyte	4
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	lymphocyte	144
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	macrophage	121
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	monocyte	188
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	myeloid cell	51
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	natural killer cell	14
+Lung_droplet	30-M-4	30m	30	male	Lung	droplet	stromal cell	44
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	B cell	54
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	endothelial cell	130
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	epithelial cell	21
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	granulocyte	4
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	lymphocyte	88
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	macrophage	32
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	monocyte	137
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	myeloid cell	20
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	natural killer cell	22
+Lung_droplet	30-M-5	30m	30	male	Lung	droplet	stromal cell	39
+Lung_facs	24_58_M	24m	24	male	Lung	facs	B cell	14
+Lung_facs	24_58_M	24m	24	male	Lung	facs	T cell	21
+Lung_facs	24_58_M	24m	24	male	Lung	facs	endothelial cell	210
+Lung_facs	24_58_M	24m	24	male	Lung	facs	epithelial cell	26
+Lung_facs	24_58_M	24m	24	male	Lung	facs	glial cell	1
+Lung_facs	24_58_M	24m	24	male	Lung	facs	granulocyte	19
+Lung_facs	24_58_M	24m	24	male	Lung	facs	lymphocyte	25
+Lung_facs	24_58_M	24m	24	male	Lung	facs	macrophage	3
+Lung_facs	24_58_M	24m	24	male	Lung	facs	monocyte	16
+Lung_facs	24_58_M	24m	24	male	Lung	facs	myeloid cell	74
+Lung_facs	24_58_M	24m	24	male	Lung	facs	nan	3
+Lung_facs	24_58_M	24m	24	male	Lung	facs	stromal cell	33
+Lung_facs	24_59_M	24m	24	male	Lung	facs	B cell	26
+Lung_facs	24_59_M	24m	24	male	Lung	facs	T cell	37
+Lung_facs	24_59_M	24m	24	male	Lung	facs	endothelial cell	228
+Lung_facs	24_59_M	24m	24	male	Lung	facs	epithelial cell	2
+Lung_facs	24_59_M	24m	24	male	Lung	facs	granulocyte	3
+Lung_facs	24_59_M	24m	24	male	Lung	facs	lymphocyte	18
+Lung_facs	24_59_M	24m	24	male	Lung	facs	monocyte	39
+Lung_facs	24_59_M	24m	24	male	Lung	facs	myeloid cell	68
+Lung_facs	24_59_M	24m	24	male	Lung	facs	nan	3
+Lung_facs	24_59_M	24m	24	male	Lung	facs	stromal cell	38
+Lung_facs	24_60_M	24m	24	male	Lung	facs	B cell	32
+Lung_facs	24_60_M	24m	24	male	Lung	facs	T cell	30
+Lung_facs	24_60_M	24m	24	male	Lung	facs	endothelial cell	268
+Lung_facs	24_60_M	24m	24	male	Lung	facs	epithelial cell	29
+Lung_facs	24_60_M	24m	24	male	Lung	facs	granulocyte	13
+Lung_facs	24_60_M	24m	24	male	Lung	facs	lymphocyte	36
+Lung_facs	24_60_M	24m	24	male	Lung	facs	monocyte	15
+Lung_facs	24_60_M	24m	24	male	Lung	facs	myeloid cell	28
+Lung_facs	24_60_M	24m	24	male	Lung	facs	nan	4
+Lung_facs	24_60_M	24m	24	male	Lung	facs	stromal cell	113
+Lung_facs	24_61_M	24m	24	male	Lung	facs	B cell	68
+Lung_facs	24_61_M	24m	24	male	Lung	facs	T cell	11
+Lung_facs	24_61_M	24m	24	male	Lung	facs	endothelial cell	268
+Lung_facs	24_61_M	24m	24	male	Lung	facs	epithelial cell	31
+Lung_facs	24_61_M	24m	24	male	Lung	facs	granulocyte	1
+Lung_facs	24_61_M	24m	24	male	Lung	facs	lymphocyte	5
+Lung_facs	24_61_M	24m	24	male	Lung	facs	macrophage	8
+Lung_facs	24_61_M	24m	24	male	Lung	facs	monocyte	29
+Lung_facs	24_61_M	24m	24	male	Lung	facs	myeloid cell	52
+Lung_facs	24_61_M	24m	24	male	Lung	facs	nan	26
+Lung_facs	24_61_M	24m	24	male	Lung	facs	stromal cell	86
+Lung_facs	3_10_M	3m	3	male	Lung	facs	B cell	2
+Lung_facs	3_10_M	3m	3	male	Lung	facs	T cell	2
+Lung_facs	3_10_M	3m	3	male	Lung	facs	endothelial cell	27
+Lung_facs	3_10_M	3m	3	male	Lung	facs	epithelial cell	5
+Lung_facs	3_10_M	3m	3	male	Lung	facs	granulocyte	5
+Lung_facs	3_10_M	3m	3	male	Lung	facs	lymphocyte	10
+Lung_facs	3_10_M	3m	3	male	Lung	facs	macrophage	2
+Lung_facs	3_10_M	3m	3	male	Lung	facs	monocyte	35
+Lung_facs	3_10_M	3m	3	male	Lung	facs	myeloid cell	15
+Lung_facs	3_10_M	3m	3	male	Lung	facs	nan	3
+Lung_facs	3_10_M	3m	3	male	Lung	facs	stromal cell	22
+Lung_facs	3_11_M	3m	3	male	Lung	facs	B cell	3
+Lung_facs	3_11_M	3m	3	male	Lung	facs	endothelial cell	55
+Lung_facs	3_11_M	3m	3	male	Lung	facs	epithelial cell	10
+Lung_facs	3_11_M	3m	3	male	Lung	facs	granulocyte	1
+Lung_facs	3_11_M	3m	3	male	Lung	facs	lymphocyte	11
+Lung_facs	3_11_M	3m	3	male	Lung	facs	monocyte	5
+Lung_facs	3_11_M	3m	3	male	Lung	facs	myeloid cell	13
+Lung_facs	3_11_M	3m	3	male	Lung	facs	nan	3
+Lung_facs	3_11_M	3m	3	male	Lung	facs	stromal cell	25
+Lung_facs	3_38_F	3m	3	female	Lung	facs	B cell	15
+Lung_facs	3_38_F	3m	3	female	Lung	facs	T cell	9
+Lung_facs	3_38_F	3m	3	female	Lung	facs	endothelial cell	193
+Lung_facs	3_38_F	3m	3	female	Lung	facs	epithelial cell	28
+Lung_facs	3_38_F	3m	3	female	Lung	facs	granulocyte	8
+Lung_facs	3_38_F	3m	3	female	Lung	facs	lymphocyte	32
+Lung_facs	3_38_F	3m	3	female	Lung	facs	macrophage	2
+Lung_facs	3_38_F	3m	3	female	Lung	facs	monocyte	22
+Lung_facs	3_38_F	3m	3	female	Lung	facs	myeloid cell	56
+Lung_facs	3_38_F	3m	3	female	Lung	facs	nan	3
+Lung_facs	3_38_F	3m	3	female	Lung	facs	stromal cell	46
+Lung_facs	3_39_F	3m	3	female	Lung	facs	B cell	27
+Lung_facs	3_39_F	3m	3	female	Lung	facs	T cell	4
+Lung_facs	3_39_F	3m	3	female	Lung	facs	endothelial cell	114
+Lung_facs	3_39_F	3m	3	female	Lung	facs	epithelial cell	43
+Lung_facs	3_39_F	3m	3	female	Lung	facs	granulocyte	11
+Lung_facs	3_39_F	3m	3	female	Lung	facs	lymphocyte	35
+Lung_facs	3_39_F	3m	3	female	Lung	facs	macrophage	4
+Lung_facs	3_39_F	3m	3	female	Lung	facs	monocyte	18
+Lung_facs	3_39_F	3m	3	female	Lung	facs	myeloid cell	34
+Lung_facs	3_39_F	3m	3	female	Lung	facs	stromal cell	75
+Lung_facs	3_8_M	3m	3	male	Lung	facs	B cell	6
+Lung_facs	3_8_M	3m	3	male	Lung	facs	T cell	3
+Lung_facs	3_8_M	3m	3	male	Lung	facs	endothelial cell	108
+Lung_facs	3_8_M	3m	3	male	Lung	facs	epithelial cell	15
+Lung_facs	3_8_M	3m	3	male	Lung	facs	glial cell	2
+Lung_facs	3_8_M	3m	3	male	Lung	facs	granulocyte	1
+Lung_facs	3_8_M	3m	3	male	Lung	facs	lymphocyte	21
+Lung_facs	3_8_M	3m	3	male	Lung	facs	macrophage	2
+Lung_facs	3_8_M	3m	3	male	Lung	facs	monocyte	22
+Lung_facs	3_8_M	3m	3	male	Lung	facs	myeloid cell	31
+Lung_facs	3_8_M	3m	3	male	Lung	facs	stromal cell	26
+Lung_facs	3_9_M	3m	3	male	Lung	facs	B cell	3
+Lung_facs	3_9_M	3m	3	male	Lung	facs	T cell	1
+Lung_facs	3_9_M	3m	3	male	Lung	facs	endothelial cell	78
+Lung_facs	3_9_M	3m	3	male	Lung	facs	epithelial cell	27
+Lung_facs	3_9_M	3m	3	male	Lung	facs	granulocyte	4
+Lung_facs	3_9_M	3m	3	male	Lung	facs	lymphocyte	22
+Lung_facs	3_9_M	3m	3	male	Lung	facs	monocyte	19
+Lung_facs	3_9_M	3m	3	male	Lung	facs	myeloid cell	24
+Lung_facs	3_9_M	3m	3	male	Lung	facs	nan	1
+Lung_facs	3_9_M	3m	3	male	Lung	facs	stromal cell	23

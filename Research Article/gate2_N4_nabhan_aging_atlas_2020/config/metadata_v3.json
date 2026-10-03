@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.metadata_v3",
+  "owner": "Nb5-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which source identities, animal coverage and matrix scales permit bounded Nb5 reproduction and exploratory branches?",
+  "decision": "Qualify each downstream stage from exact deposited mouse, age, sex, tissue and assay identities; hold unsupported comparisons.",
+  "strongest_rival": "Cell counts or libraries could be mistaken for independent animals; normalized matrices and changed releases could be mistaken for raw counts and the final paper release.",
+  "discriminator": "Exact source-table to observation joins, unique mouse identity consistency and whole-matrix nonnegative/integer and deposited-total checks distinguish supported inputs from gaps.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/DATASETS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper, owner note, source-code descriptions, file schema and supplementary header labels were inspected before freezing. No biological gene contrasts or per-mouse outcomes were computed. Future source work remains exposed.",
+  "biological_unit": "Deposited original mouse; identity and repeated tissue/assay mapping are evaluated rather than assumed.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells, plates, tissues and assays may share mouse IDs; original Tabula Muris contributes reused young data. No external replication is claimed.",
+  "population_and_selection": "All deposited observations in the five explicitly downloaded Figshare version-2 objects, plus supplementary source tables. No phenotype-based filtering. Also include every observation in the pinned author Figure 4 brain object; do not treat overlapping cells as additional replication.",
+  "contrast": "Source identity and measurement-scale concordance only, without a gene-level or population hypothesis test.",
+  "endpoint": "Cell and animal coverage, identity conflicts, design support, workbook schemas, raw-versus-normalized scale diagnostics and source-table count differences.",
+  "methods": "Decode legacy AnnData categories with bounds checks; require unique cell indices; group deposited metadata without imputation; inspect all sparse matrix values for count-scale eligibility and compare row sums to n_counts; left-join source Table 1a or 2a by mouse, age, sex, tissue and assay. Inventory supplement schemas without interpreting expression or sequence outcomes. Version 2 expands only explicit merged-cell ranges in supplementary Tables 1a/2a; rows with no tissue are structural totals/separators.",
+  "missingness_and_exclusions": "No biological observations are excluded. Missing identities and source joins remain explicit. Conflicting categorical codes or nonunique observation IDs stop execution; inconsistent mouse age/sex is exported and blocks downstream inference.",
+  "multiplicity": "No hypothesis tests; counts and file-schema checks only.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Source qualification supplies unit counts but no effect-size margin, variance or confirmatory sample-size justification.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Metadata and arithmetic concordance cannot establish independence beyond the documented mouse mapping, causal ageing, lineage, senescence, secretion, functional repair or scientific acceptance.",
+  "stop_rule": "Stop on malformed identifiers or matrices. Hold any downstream comparison lacking consistent source identities, appropriate scale or estimable design; preserve source-release mismatches rather than silently reconciling them.",
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Bladder_droplet.h5ad",
+      "sha256": "8930cc26c1c9fa7200b535b9bb6e0039bd62bcf373c6eb0497be358e067c810a",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Brain_Myeloid_facs.h5ad",
+      "sha256": "92887b957d8b7d0924825dd7da7609f8aa745ca59ed7c9c08ca3312171540e9b",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Kidney_droplet.h5ad",
+      "sha256": "419fb811cd1543902145e027de059125d86f56daf1f8a2d8ddc178ea6333d7e9",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Lung_droplet.h5ad",
+      "sha256": "8fc63669a71c122c7133da12256200ce54228425aba2dfa36ff928d6267a837f",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Lung_facs.h5ad",
+      "sha256": "7b240d4eb5840e00b52aaa2058e81b88e3d2b783eef9c1395d83226263e812b9",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_1.xlsx",
+      "sha256": "ead9a7ef3de13f991e258403ee1f04a4f109ad8255e48ac779394ed5eefd1426",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_10.xlsx",
+      "sha256": "cacf91aa9d03d41f81733512ffbc94c8308f5ddbefc80206a39f613f2854fadc",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_2.xlsx",
+      "sha256": "5a14ed0215793ee82946031ed684c46327e659176ab52045a3211fcc90f5d4b9",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_4.xlsx",
+      "sha256": "39b7b59b0d714a3baa7e287a4752980b0df6e604f57b16643bfab4baec9bbb77",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_5.xlsx",
+      "sha256": "fe9759a49139ad2f423d54e7fd1d30ebcdc771a573961c9e589f9057d7bfbbc8",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_6.xlsx",
+      "sha256": "91ce4f3cfbfbceabfe4564f375921ba0af171e786a754830d677a7dfa59be6f1",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_9.xlsx",
+      "sha256": "350e02f167659dd03af0e6e22808fcd5ea5f210e8f8828959c68ff2d81439d2e",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/facs.Brain_Myeloid.clustered_diversity.h5ad",
+      "sha256": "c157f0865bf39ce43504c674fd4d8f8dfe62644fe6b795b2e901d38c64dc48e3",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/acquisition_manifest.json",
+      "sha256": "236741f23dc81562f55134402bac1aac4fd865a0af8642769cf40da301395030",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/01_qualify_metadata_v2.py",
+      "sha256": "169e6efdf2445c9a0e1023a9c930c5100437544075a4f5a0c9be0ae56a8aa1a9"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/01_qualify_metadata_v2.py",
+  "arguments": [
+    "--manifest",
+    "raw_data/tabula_muris_senis_2020/case_study_v1/acquisition_manifest.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_metadata.tsv",
+    "coverage.tsv",
+    "animals.tsv",
+    "published_coverage.tsv",
+    "source_concordance.tsv",
+    "design.tsv",
+    "layer_audit.tsv",
+    "sheet_catalog.json",
+    "inventory.json"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+  "amendment_reason": "Prospectively qualify the author Figure 4 object containing 18-month brain observations absent from the general release. v2 succeeded; retain it as the original five-object audit. New object schema only was inspected; no gene or cluster age endpoints viewed."
+}
