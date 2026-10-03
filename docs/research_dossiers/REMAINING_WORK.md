@@ -1,79 +1,62 @@
-# Remaining repository-grounding work
+# Repository-grounding completion and deferred work
 
-Current accounting after [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130)
-merged on 3 October 2026 at `b52ad6b`. [PROGRESS.md](../../PROGRESS.md) is the
-session summary. This ledger updates the original nine jobs; the
-[package-stage matrix](packages_2026-10-03/LEDGER.md#per-comparison-next-eligibility-decision)
-retains the exact condition for each A0–A23 and Nb4-P01–P09 comparison.
+Current accounting: 3 October 2026, after merged PRs #130/#131 and the
+[qualification and mapping closeout in PR #132](https://github.com/xorca0711/scRNA_seq/pull/132).
+PR #132 is still open at this checkpoint. [PROGRESS.md](../../PROGRESS.md) owns
+the live session summary; verify GitHub state before later integration.
 
-## Original jobs: completed portions and remaining work
+The owner requested completion of recoverable source-mapping work, while
+deferring scientific review and placement-dependent work. The bounded
+[source-mapping closeout](source_mapping_closeout_2026-10-03/README.md) completes
+that task for the inspected sources. Missing biological evidence remains held;
+it is not an active instruction to repeat unchanged searches.
 
-| Original job | Current disposition | Remaining completion condition |
+## Original nine jobs
+
+| Original job | Current disposition | Reopening or remaining condition |
 |---|---|---|
-| 1. Integrate PR #130 | Merged by repository owner `xorca0711` at `b52ad6b` | This integration job is complete. Future PRs and scientific acceptance are separate decisions. |
-| 2. Consolidate checkout | Original work, older worktrees and ignored data preserved | Safely reconcile the normal checkout with integrated main and verify intervening changes. Retirement of older worktrees is optional. |
-| 3. Recover source identities | 984 library joins and versioned source qualification recorded | Recover the missing biological, pool/preparation and author-state maps below. Library IDs do not establish independence. |
-| 4. Qualify linked outcomes | Seven-question linkage audit and new donor-labelled endpoint lead recorded | Verify the exact preparation, lineage, assay and time joins needed by A1/A4/A8/A14/A19–A21. |
-| 5. Confirm actual capabilities | Published models and private lab/funding comparison reviewed | Confirm actual model/specimen/reagent/assay/supervision access and practical limits; no access is currently confirmed. |
-| 6. Qualify precise novelty | Each package names a precedent, incremental discriminator and redundancy condition | Review the final assay/contrast against closest primary evidence and resolve material gaps, including A11's residual contribution. Review remains bounded. |
-| 7. Complete hypothesis packages | 24 conditional drafts and nine Nb4 supplements written | Scientific review plus qualification of unknown assays, controls, meaningful effects and precision before experiment-ready status. |
-| 8. Execute justified analyses | Prior metadata receipts and all adverse results retained | Qualify each intended comparison, commit a new frozen input/code contract, execute through the runner and verify its receipt and interpretation. |
-| 9. Develop wet-experiment designs | Conditional population/contrast/endpoint/control designs specified | Establish model-specific validity, resources and justified precision, then develop the supported bench design. RQ selection remains the owner's decision. |
+| 1. Integrate PR #130 | Complete; merged by owner at `b52ad6b` | New PRs retain a separate owner review/merge step. |
+| 2. Consolidate checkout | Complete at integrated main `76dc9b4`; preservation verified | Inspect changes before aligning a later merge. Old-worktree retirement is optional. |
+| 3. Recover source identities | Bounded public-source recovery and closeout complete; 984 library joins retained | Missing animal/pool/preparation/state fields remain evidence holds M01–M06. Reopen for a concrete new source/export addressing the row. |
+| 4. Qualify linked outcomes | Current-source linkage audit and closeout complete; 12 new Rochelle records qualified, H5 labels inspected | Exact comparisons remain held at M07–M13. Reopen for documented linked measurements; IDs cannot create an unmeasured endpoint. |
+| 5. Confirm actual capabilities | Published-capability assessment complete; actual-access check deferred | Confirm models, specimens, assays, supervision and practical limits during the placement phase. No access is assumed. |
+| 6. Qualify precise novelty | Draft precedents/discriminators recorded; owner scientific review deferred | Review the precise assay/contrast, closest primary evidence and unresolved gaps such as A11's residual contribution when review resumes. |
+| 7. Complete hypothesis packages | 24 drafts and nine supplements available; bounded consistency review complete | Scientific review and actual assay/effect/precision qualification are deferred. Drafts are not experiment-ready acceptance. |
+| 8. Execute justified analyses | All runs commissioned in this grounding stage completed with receipts; adverse results retained | Further analyses require review, eligible inputs and new frozen contracts. A17's remaining probability/tail, observation and identifiability implementation is deferred, not completed and not inherently lab-dependent. |
+| 9. Develop wet-experiment designs | Conditional design drafts complete; bench-specific development deferred | Revisit after scientific review and actual model/resource/measurement qualification. RQ selection stays with the owner. |
 
-## Work that can proceed without confirmed lab access
+## What remains now
 
-1. Review the [existing packages](packages_2026-10-03/README.md), current amended
-   results and [nearest-source comparisons](packages_2026-10-03/SOURCES.md).
-   Record supported refinements and unresolved decisions; do not redraft the
-   portfolio merely because an earlier handoff says packages are missing.
-2. Pursue targeted new evidence for the missing source maps and outcome joins.
-   Read the [metadata audit](followup_2026-10-03/METADATA.md) and
-   [outcome matrix](followup_2026-10-03/OUTCOMES.md) first. Repeating the exhausted
-   GEO/BioSample identity searches does not supply the missing biological map.
-3. Develop [A17's observation/model specification](packages_2026-10-03/A17.md):
-   corrected versioned model, defensible observation process, identifiability
-   and mouse-level evaluation. Drafting needs no new lab access; substantive
-   modeling must satisfy the existing contract and eligibility requirements.
-4. Scope only comparisons supported by available inputs. An explicit narrower
-   descriptive/exploratory question may be justified; it must not inherit an
-   unsupported causal, longitudinal or independent-replication claim.
+- **Integration:** owner review/merge of PR #132. This is separate from scientific
+  acceptance. Normal checkout alignment after that merge is routine state upkeep.
+- **No immediate source-recovery or repository-cleanup task remains within the
+  inspected scope.** Do not rescan old sources, redraft existing packages or
+  replay completed analyses merely to turn evidence holds into checked boxes.
+- **Deferred review and analysis development:** novelty, hypothesis/assay choices,
+  A4/A17 proposed refinements and A17's unfinished technical qualification.
+  These can resume before placement if requested; they are not marked done.
+- **Evidence-triggered holds:** exact source exports or linked measurements in
+  [M01–M13](source_mapping_closeout_2026-10-03/README.md). No author outreach or
+  recurring source monitoring is authorized by this closeout.
+- **Placement phase:** actual access, model-specific validity, controls,
+  meaningful effects, independent-unit precision and bench implementation.
 
-### Exact source dependencies
+The [package ledger](packages_2026-10-03/LEDGER.md#per-comparison-next-eligibility-decision)
+retains the per-comparison requirements for A0–A23 and Nb4-P01–P09. Every RQ stays
+available. A closed recovery task is not a rejected RQ, a negative biological
+finding, an accepted mechanism or permission to ignore missing replication.
 
-- **A2/A9 (MesSTIM):** animal/pool/preparation and split mappings.
-- **A5:** barcode → library → mouse/author-state/pool mapping and the
-  56-library/55-mouse reconciliation.
-- **A7:** pool/animal/preparation identities for CEBPA and AP-1 separately.
-- **A10/A22 (Nb3):** screen preparation/donor identities and spatial
-  animal/block/treatment mapping.
-- **A1/A4/A8/A14/A19–A21:** the specific early measurement, preparation/lineage,
-  timing and later endpoint joins named in their packages. The Rochelle
-  [supporting-data inspection](packages_2026-10-03/SOURCES.md#rochelle-supporting-data-inspection)
-  recovered donor/time labels; repeated donor names do not verify cross-assay
-  preparation linkage or the complete A19 input/mature-output/reserve comparison.
+## Evidence intake and preservation
 
-## Conditions requiring additional evidence
+Use the closeout's reopening conditions. New data must establish the actual
+sample/library → animal/donor → preparation/pool → condition/time → endpoint
+relationships. Keep unknowns explicit and distinguish new biological units from
+technical partitions. A newly public accession is a lead, not automatic
+qualification. Use [research governance](../RESEARCH_GOVERNANCE.md) and the
+[registry](../../analysis/research/registry.json) before substantive analysis.
 
-The owner/host must supply actual access information; published methods and
-funded aims cannot establish availability. For each proposed experiment qualify
-the biological model and endpoint, assay validity, independent preparation
-capacity, meaningful effect, between-unit variation, nesting and attrition.
-These supply a defensible precision justification; no effect margin or sample
-size is invented to complete a document.
-
-Once the particular comparison is eligible, follow
-[research governance](../RESEARCH_GOVERNANCE.md) and register its distinct
-contract/receipt through the [registry](../../analysis/research/registry.json).
-Preserve outcome exposure, negative results, source overlap and prior stop
-decisions. Reading, package completion, numerical execution, scientific
-acceptance and bench readiness remain separate milestones.
-
-## Integration and preservation
-
-The normal checkout was still `codex/workspace-ready` at `6b9ce9e` at this
-documentation task's intake. Inspect current changes and the
-[checkout record](followup_2026-10-03/CHECKOUT.md) before alignment. Preserve
-private settings, original work, frozen bytes and ignored raw inputs. Old
-worktree cleanup is not required for the scientific work above to proceed.
-The current documentation reconciliation has its own review/merge step;
-it does not reopen the already-completed integration of PR #130.
+The normal checkout remains `codex/workspace-ready` at `76dc9b4` with
+[alignment verified](continuation_2026-10-03/CHECKOUT.md). Private settings,
+unrelated local work, older worktrees, raw inputs, frozen contracts/receipts and
+negative results are preserved. Raw-data backup and optional worktree retirement
+are not claimed completed. No governance or interpretation gate was weakened.

@@ -2,6 +2,10 @@
 
 **Current navigation, after PR #130:** all [24 conditional packages and nine Nb4 supplements](packages_2026-10-03/README.md) are drafted. Use [remaining work](REMAINING_WORK.md) for current status and the [package ledger](packages_2026-10-03/LEDGER.md) for individual eligibility conditions. The dated stage summaries below preserve their original scope; scientific review and actual access remain pending.
 
+The [source-mapping closeout](source_mapping_closeout_2026-10-03/README.md) settles
+the bounded recovery task. Later scientific/technical review and placement work
+are deferred; unavailable evidence remains held rather than silently qualified.
+
 All 24 current questions remain available. No RQ is selected by this repair.
 The canonical register owns question identity; these dossiers develop the missing
 scientific discriminator and experimental bridge. A completed computational
@@ -86,3 +90,7 @@ The [package index](packages_2026-10-03/README.md) now develops all 24 questions
 and nine Nb4 candidates. These drafts await owner scientific review; the
 [ledger](packages_2026-10-03/LEDGER.md) separates package completion from
 analysis eligibility and bench readiness.
+
+## Continued qualification after integration
+
+The [current continuation](continuation_2026-10-03/README.md) records normal-checkout alignment, 12 newly qualified source records, the A17 numerical kernel/specification and proposed package refinements. Use [remaining work](REMAINING_WORK.md) for the unresolved scientific and resource dependencies.

@@ -15,7 +15,12 @@ This file is navigation, not another scientific status register.
 - [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md)
   contain 24 drafts and nine Nb4 supplements awaiting scientific review.
 - [Remaining work](docs/research_dossiers/REMAINING_WORK.md) records current
-  dependencies after PR #130 merged. Review and qualify the existing packages.
+  dependencies after integration. Review and qualify the existing packages.
+- [Source-mapping closeout](docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md)
+  closes the bounded recovery task; later review/implementation and evidence holds
+  are deferred. Reopen only for the specified new evidence or owner scope.
+- [Continued qualification](docs/research_dossiers/continuation_2026-10-03/README.md)
+  records the aligned checkout, new source metadata and A17 numerical specification.
 - [Capability review](docs/research_dossiers/capabilities_2026-10-03/README.md)
   records published approaches; actual host access remains unconfirmed.
 - [Claims](CLAIMS.md) and current correction/result reports own evidence scope.

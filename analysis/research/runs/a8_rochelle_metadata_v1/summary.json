@@ -1,0 +1,20 @@
+{
+  "GSE306194": {
+    "sample_records": 9,
+    "explicit_individual_labels": [
+      "Donor1",
+      "Donor2",
+      "Donor3"
+    ],
+    "sample_records_without_explicit_individual": 0,
+    "interpretation": "Sample records and reported individual labels only; not an inferred independent-preparation count. Embedded title codes are retained verbatim, not mapped across sources.",
+    "input_sha256": "e9a609c407d2940d11f03e701eab6cdc82365e27dcd66f5cdd98e9311ba4de83"
+  },
+  "GSE306714": {
+    "sample_records": 3,
+    "explicit_individual_labels": [],
+    "sample_records_without_explicit_individual": 3,
+    "interpretation": "Sample records and reported individual labels only; not an inferred independent-preparation count. Embedded title codes are retained verbatim, not mapped across sources.",
+    "input_sha256": "721f6bdb2f5d5b278e90e38b6869db69ff921e2bc9748a7a048faa4cef057c32"
+  }
+}
