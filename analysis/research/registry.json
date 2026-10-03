@@ -322,6 +322,38 @@
     {
       "id": "Nb4-P09",
       "plan": "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/proposals/P09_fibroblast_sensory.md"
+    },
+    {
+      "id": "Nb5-P01",
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P01_composition_expression.md"
+    },
+    {
+      "id": "Nb5-P02",
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P02_microglial_intermediate_state.md"
+    },
+    {
+      "id": "Nb5-P03",
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P03_lung_age_injury_context.md"
+    },
+    {
+      "id": "Nb5-P04",
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P04_shared_organ_specific_ageing.md"
+    },
+    {
+      "id": "Nb5-P05",
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P05_marker_and_assay_specificity.md"
+    },
+    {
+      "id": "Nb5-P06",
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P06_clonality_sampling.md"
+    },
+    {
+      "id": "Nb5-P07",
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P07_sex_age_interaction.md"
+    },
+    {
+      "id": "Nb5-P08",
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P08_age_shape_and_selection.md"
     }
   ],
   "contracts": [
@@ -333,7 +365,8 @@
     "analysis/research/contracts/A5.biosample_qualification_metadata_v2.json",
     "analysis/research/contracts/A7.biosample_qualification_metadata_v2.json",
     "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json",
-    "analysis/research/contracts/A5.biosample_qualification_metadata_v3.json"
+    "analysis/research/contracts/A5.biosample_qualification_metadata_v3.json",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",

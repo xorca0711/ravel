@@ -2,6 +2,37 @@
 
 **Update this before stopping work, every session.**
 
+## Current continuation on 3 October 2026
+
+Nb5 planning starts from fetched `origin/main` at `76dc9b4` (merged PR #131),
+in an isolated `codex/nb5-aging-atlas-plan` worktree. The owner completed the
+Tabula Muris Senis paper and supplied a handwritten Result(Body) note.
+The requested [N4 article folder](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md)
+now contains the repository-context review, note reconciliation, source
+qualification requirements and [staged plan](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md).
+Nb5-P01–P08 now provide eight separate exploratory frames alongside source
+reproduction, preserving the owner's microglial direction and adding organ,
+measurement, repertoire, sex and age-shape questions. The branch register
+sets evidence requirements for later RQ development. They remain proposals;
+A0–A23 and prior results retain their authority.
+
+Confirmed source pointers include versioned Figshare tissue objects, the broad
+GSE132042 SuperSeries, single-cell GSE149590 and bulk GSE132040. Deposit scopes
+differ and must be reconciled. Supplement workbooks, matrix count layers,
+animal joins and independent-unit coverage are not yet qualified. No numerical
+analysis, executable contract, claim promotion or Notion edit occurred.
+
+Next: acquire exact supplement/code versions; freeze a metadata-recovery
+contract and code; run and verify M0; complete only the newly eligible stage
+contracts. Scientific review, functional endpoints, precision and actual lab
+access remain unresolved. Source-access failures and scope limits are recorded
+in the article note. [Verification](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/VALIDATION.md)
+records all ten required checks passing, including 123 tests with one existing
+skip, plus branch-registration and preservation checks. Primary-checkout edits and ignored
+data were preserved; GitHub settings and owner merge decisions are unchanged.
+
+## Prior checkpoint after PR 130
+
 Current checkpoint: 3 October 2026, after the owner merged
 [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130) into `main` at
 `b52ad6bbbe66d8f886e72453be09eff2eee25d4a` (05:37:38 UTC).
