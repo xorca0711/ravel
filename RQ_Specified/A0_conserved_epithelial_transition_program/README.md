@@ -1,16 +1,18 @@
 # A0 — Conserved epithelial transition programme
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+Biological aim: adult epithelial repair recruits part of a transition programme also used in other epithelial contexts. The frozen 50-gene lung-to-intestine test failed its intended ordering; the remaining task is to determine whether independently justified source and target states are comparable. No replacement signature or conserved fate-control mechanism is proposed by that failure.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Conserved transition biology is published. This remains construct qualification and a failed-transfer boundary, not a new mechanism or a positive conservation result. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a0).
+
+**What the measurements would decide:** An independently justified state comparison could delimit where the original transfer question applies. Re-scoring the same data after changing genes or labels would test a new, exposed hypothesis and cannot rescue the frozen result.
+
+**Current disposition:** Stopped transfer; biological mechanism unspecified. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Do independently defined lung and intestinal states support the biological correspondence required by the frozen transfer test? |
-| Strongest rival | The compared transitions do not share the same intermediate-versus-endpoint meaning; apparent similarity reflects generic plasticity or an invalid mapping. |
 | Biological unit and endpoint | Source-defined states with donor/mouse provenance. The next endpoint is a complete supported/conflicting/unknown correspondence record, not another selected-gene score or a fate assay. |
 | Current evidence and limit | The fixed 50-gene lung-to-intestine transfer failed its specified contrast. That operational failure and original stop remain in force. |
 | Next decision / hold | Scientific review is deferred. Reopen only with independent construct correspondence or a distinct, prospectively amended question; do not retune the failed programme to recover a positive result. |

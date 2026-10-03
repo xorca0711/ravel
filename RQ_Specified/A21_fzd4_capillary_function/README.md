@@ -1,16 +1,18 @@
 # A21. Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+Fzd4-dependent capillary integrity may permit gCap self-renewal and subsequent aerocyte production during normal adult alveolar repair. The proposed route links vascular function to lineage output; it must be distinguished from direct regenerative entry, endothelial survival and parallel injury responses. Tumor-vessel rescue is a precedent, not evidence that this complete adult repair route has been demonstrated.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Capillary lineage specialization and Fzd4 vascular effects are established. The candidate increment is adult repair function/lineage linkage; co-occurrence alone does not establish integrity-mediated renewal. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a21).
+
+**What the measurements would decide:** A Fzd4-dependent output difference with independently measured vascular function, division, lineage and survival supports functional coupling. An output difference explained by cell loss favors maintenance. Even matched function and lineage changes do not identify mediation without a further discriminating comparison.
+
+**Current disposition:** Conditional adult-repair route; novelty provisional. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does Fzd4-dependent vascular integrity accompany gCap renewal and later aerocyte output beyond endothelial loss in adult repair? |
-| Strongest rival | Stable-state marking, injury severity or parallel consequences explain the association without the proposed integrity-to-lineage route. |
 | Biological unit and endpoint | Validated starting gCap lineages nested in animals. Measure gCap progeny with division evidence and aerocyte descendants per starting labelled population, alongside separately qualified vascular function and survival. |
 | Current evidence and limit | Expression-context and extension results do not supply direct normal-repair lineage/function coupling. Tumor-context vascular restoration remains a distinct source observation. |
 | Next decision / hold | Review is deferred and M13 retains the context/linkage hold. Reopen for the appropriate adult-repair function/lineage design; do not attribute all Foxf1-loss perfusion results to Fzd4 restoration. |

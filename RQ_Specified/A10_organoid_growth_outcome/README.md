@@ -1,16 +1,18 @@
 # A10: epithelial and niche programmes against measured organoid growth
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+The existing epithelial programme measurements may forecast subsequent organoid area beyond initial area and cell-cycle information across independent preparations. This is a growth-prediction question supporting the broader epithelial-growth hypothesis. The current day-14 RNA/area association is concurrent; it neither establishes early forecasting nor identifies a causal programme or mature repair function.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** The source screen already connects perturbations, RNA and organoid growth. The possible contribution is transport of a fixed early predictor to independent preparations, not reproduction of that association. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a10).
+
+**What the measurements would decide:** An early predictor that improves unit-level held-out area prediction beyond the same baseline supports transport. Failure on whole-preparation holdout weakens it. Preserve negative absolute R-squared on three of four plates; organoid area cannot distinguish proliferation, survival and lumen changes by itself.
+
+**Current disposition:** Prediction question; early timing and units held. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does an early epithelial programme add information about later organoid area beyond initial size that transports between independent preparations? |
-| Strongest rival | Concurrent growth state, target/plate confounding or image-segmentation effects explain the apparent gain. |
 | Biological unit and endpoint | Mapped epithelial preparations and fibroblast donors; wells/images remain nested. Use held-out preparation error for later area on a fixed scale and report absolute error and R-squared. Area is not mature function. |
 | Current evidence and limit | Descriptive residual-growth gain coexists with negative absolute held-out R-squared on three of four plates. Existing day-14 RNA and area are concurrent; preparation identities remain unresolved. |
 | Next decision / hold | Review is deferred and M05 retains the preparation hold. Forecasting needs earlier predictor acquisition and valid preparation splits. Day-7 area is post-perturbation, not automatically a pretreatment causal adjustment. |

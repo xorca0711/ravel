@@ -1,5 +1,7 @@
 # Research development index
 
+**Specificity and novelty applied:** [current source comparison](NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
+
 **Current navigation, after PR #130:** all [24 conditional packages and nine Nb4 supplements](packages_2026-10-03/README.md) are drafted. Use [remaining work](REMAINING_WORK.md) for current status and the [package ledger](packages_2026-10-03/LEDGER.md) for individual eligibility conditions. The dated stage summaries below preserve their original scope; scientific review and actual access remain pending.
 
 The [source-mapping closeout](source_mapping_closeout_2026-10-03/README.md) settles
@@ -25,30 +27,30 @@ scientific-design level; they are not laboratory procedures.
 
 | Question | Proposed development scope | Dossier |
 |---|---|---|
-| A0 | What boundary does the failed lung-to-intestine transfer place on the proposed conserved epithelial transition programme? | [Evidence and next discriminator](A0.md) |
-| A1 | Does regulatory state distinguish transition-associated epithelial populations with different subsequent capacities for mature recovery? | [Evidence and next discriminator](A1.md) |
-| A2 | Does fibroblast response to AREG depend on delivery context, ligand availability, or recipient competence? | [Evidence and next discriminator](A2.md) |
-| A3 | Does prior injury leave a persistent macrophage programme after age and current tissue context are accounted for? | [Evidence and next discriminator](A3.md) |
-| A4 | Can Wnt-associated AT2 cells change their response to inflammatory input, or do different fixed subsets account for the observed states? | [Evidence and next discriminator](A4.md) |
-| A5 | Which developmental epithelial component is recruited during adult repair, and what function does that recruitment explain? | [Evidence and next discriminator](A5.md) |
-| A6 | Which macrophage programme changes within shared states in IPF, and which measurable consequence would make that change biologically useful to explain? | [Evidence and next discriminator](A6.md) |
-| A7 | How broadly does Cebpa loss attenuate AT2 identity, and is there an additional effect associated with independently defined states? | [Evidence and next discriminator](A7.md) |
-| A8 | Does an early maturation-related component predict later mature AT1 contribution beyond a generic transitional state? | [Evidence and next discriminator](A8.md) |
-| A9 | Does recipient receptor competence explain different fibroblast responses to comparable AREG input? | [Evidence and next discriminator](A9.md) |
-| A10 | Do epithelial programmes explain measured organoid growth beyond earlier organoid size in independent preparations? | [Evidence and next discriminator](A10.md) |
-| A11 | Which lesion-associated component exceeds shared epithelial plasticity and explains a specific lesion-relevant function? | [Evidence and next discriminator](A11.md) |
-| A12 | Does recipient context predict a response specifically attributable to IL-1 beyond ligand RNA and general inflammation? | [Evidence and next discriminator](A12.md) |
-| A13 | Does a specified fibroblast output alter epithelial recovery at comparable inflammatory input, beyond differences in fibroblast abundance? | [Evidence and next discriminator](A13.md) |
-| A14 | Does input history alter recovery after withdrawal through the epithelial compartment, fibroblast IL-1 reception, or continued residual stimulation? | [Evidence and next discriminator](A14.md) |
-| A15 | In the relevant epithelial–fibroblast context, does epithelial integrin-dependent activation explain the response beyond total TGF ligand supply? | [Evidence and next discriminator](A15.md) |
-| A16 | Does CD177 identify a reproducible phenotype within comparable mutant cells that predicts a later response beyond state composition? | [Evidence and next discriminator](A16.md) |
-| A17 | Do persistent founder differences improve prediction of mutant clone growth over switching, survival and measurement alternatives? | [Evidence and next discriminator](A17.md) |
-| A18 | Do neighboring mutant cells influence WT expansion and loss of AT2 identity through separable processes? | [Evidence and next discriminator](A18.md) |
-| A19 | Does starting epithelial state determine mature AT1 output and retained AT2 reserve after Fzd input ends? | [Evidence and next discriminator](A19.md) |
-| A20 | Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1? | [Evidence and next discriminator](A20.md) |
-| A21 | Does Fzd4-dependent vascular integrity change gCap renewal and aerocyte production during alveolar repair? | [Evidence and next discriminator](A21.md) |
-| A22 | Does epithelial identity alter fibroblast chemokine output through within-state induction rather than fibroblast selection or epithelial amount? | [Evidence and next discriminator](A22.md) |
-| A23 | Does SLC34A2-dependent phosphate handling affect transition entry directly, or through extracellular injury and loss of cell homeostasis? | [Evidence and next discriminator](A23.md) |
+| A0 | Conservation aim; frozen cross-tissue transfer failed | [Evidence and next discriminator](A0.md) |
+| A1 | Regulatory competence beyond RNA; feature still missing | [Evidence and next discriminator](A1.md) |
+| A2 | AREG delivery through availability versus recipient competence | [Evidence and next discriminator](A2.md) |
+| A3 | Macrophage injury history beyond origin, age and current context | [Evidence and next discriminator](A3.md) |
+| A4 | Wnt-history AT2 lineages acquiring IL-1 response versus selection | [Evidence and next discriminator](A4.md) |
+| A5 | Replicate the fixed developmental component without claiming function | [Evidence and next discriminator](A5.md) |
+| A6 | Within-state macrophage change versus IPF population mixture | [Evidence and next discriminator](A6.md) |
+| A7 | CEBPA baseline-state interaction beyond known broad identity loss | [Evidence and next discriminator](A7.md) |
+| A8 | Frozen early RNA component predicting independent later AT1 output | [Evidence and next discriminator](A8.md) |
+| A9 | AREG recipient competence at comparable effective input | [Evidence and next discriminator](A9.md) |
+| A10 | Forecast later organoid area; concurrent association is insufficient | [Evidence and next discriminator](A10.md) |
+| A11 | Fixed residual beyond shared/stress; no new lesion mechanism | [Evidence and next discriminator](A11.md) |
+| A12 | IL-1-specific recipient response; compartment still to be fixed | [Evidence and next discriminator](A12.md) |
+| A13 | Additional fibroblast recovery route; no mediator nominated | [Evidence and next discriminator](A13.md) |
+| A14 | IL-1 exposure history and compartment effects on later mature AT1 recovery | [Evidence and next discriminator](A14.md) |
+| A15 | ITGB6 activation route for the existing context; pathway already known | [Evidence and next discriminator](A15.md) |
+| A16 | CD177 as a prospective epithelial marker, not a fate mechanism | [Evidence and next discriminator](A16.md) |
+| A17 | Persistent founder effects versus switching and clone observation | [Evidence and next discriminator](A17.md) |
+| A18 | Neighboring WT lineage expansion versus alveolar identity loss | [Evidence and next discriminator](A18.md) |
+| A19 | End Fzd input: mature AT1 output plus responsive AT2 reserve | [Evidence and next discriminator](A19.md) |
+| A20 | Matched AF1 Fzd2-versus-Fzd1 support of early pool and mature output | [Evidence and next discriminator](A20.md) |
+| A21 | Fzd4 vascular integrity linked to gCap renewal and aerocyte output | [Evidence and next discriminator](A21.md) |
+| A22 | NKX2-1 loss and actual fibroblast chemokine output beyond source amount | [Evidence and next discriminator](A22.md) |
+| A23 | SLC34A2 loss: increased transition entry versus delayed exit | [Evidence and next discriminator](A23.md) |
 
 ## Article-local candidates
 

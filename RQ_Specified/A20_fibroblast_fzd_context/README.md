@@ -1,16 +1,18 @@
 # A20. Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+In adult AF1-like fibroblasts, comparable Fzd2 loss reduces support of a maturation-competent AT2 pool and subsequent absolute mature epithelial output more than comparable Fzd1 loss. Pool maintenance is the proposed explanation, distinct from a later maturation-specific defect, general fibroblast loss or matrix effects. This restores the existing narrowed hypothesis and does not claim discovery of Fzd2-dependent repair.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Zhou already reports mesenchymal Fzd2, AF1 identity and repair involvement. The possible increment is the matched Fzd2-versus-Fzd1 comparison and early-pool versus later-output distinction; its independent value remains provisional. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a20).
+
+**What the measurements would decide:** A smaller early competent pool followed by reduced mature output is compatible with pool maintenance. Preserved early pool with reduced later output favors maturation-specific support. Unequal receptor engagement or fibroblast survival makes the receptor comparison ambiguous. Do not adjust away the post-treatment pool deficit or call timing alone mediation.
+
+**Current disposition:** Restored receptor contrast; novelty provisional. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does comparable Fzd2 loss reduce AF1-like fibroblast support of a maturation-competent AT2 pool and mature descendant output more than Fzd1 loss? |
-| Strongest rival | Maturation-specific support, fibroblast depletion, matrix effects or unequal perturbation validity explains the difference. |
 | Biological unit and endpoint | Prospectively identified AF1-like fibroblasts and matched starting AT2 populations in mapped source/recipient units. The primary contrast is absolute mature output per starting AT2 input; early competent-pool maintenance is a proposed route, not an automatic adjustment covariate. |
 | Current evidence and limit | The narrowed H1 and existing atlas/four-donor context extension motivate the comparison. RNA abundance does not establish receptor dependence or a matched Fzd2-versus-Fzd1 functional effect. |
 | Next decision / hold | Review is deferred and M12 retains the matched-comparison/linkage hold. Keep the total-effect question distinct from mediation; do not normalize away post-treatment pool depletion. |

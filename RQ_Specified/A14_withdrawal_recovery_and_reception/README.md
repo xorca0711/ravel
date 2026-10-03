@@ -1,16 +1,18 @@
 # A14: do exposure duration and fibroblast IL-1 reception separately determine recovery?
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+H1: longer IL-1-beta exposure reduces subsequent lineage-derived mature AT1 recovery after input cessation, with comparable recovery intervals and culture age. H2, assessed separately: fibroblast IL-1 reception modifies that mature-output recovery beyond direct epithelial reception. H2 has no justified direction yet. The proposed increment concerns post-cessation maturation, not the already published effects of withdrawal or fibroblast pre-exposure on organoid formation.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Choi establishes withdrawal recovery; Ciminieri already tests fibroblast IL-1 pre-exposure and organoid growth. The candidate increment is linked mature AT1 recovery after verified cessation with compartment attribution, not generic history or niche involvement. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a14).
+
+**What the measurements would decide:** Lower absolute mature output after the longer history, despite verified cessation, favors H1; comparable recovery weakens it. A separate fibroblast-reception contrast at comparable epithelial input addresses H2. Record lineage yield, survival and mature function; organoid number or a falling transitional score cannot distinguish recovery, death and replacement.
+
+**Current disposition:** Narrowed post-cessation outcome; novelty provisional. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | After verified signal cessation, does exposure history change recovery (H1), and does fibroblast IL-1 reception separately change recovery at comparable epithelial input (H2)? |
-| Strongest rival | Continuing input, survival/selection or starting composition creates apparent persistence or recovery. |
 | Biological unit and endpoint | Lineage-defined epithelium and characterized fibroblasts nested in identified donors/animals. Each primary contrast concerns mature descendants per starting AT2 input; H1 and H2 retain separate decisions and a declared testing family. |
 | Current evidence and limit | Withdrawal-associated recovery is already published. Existing data do not qualify the exact compartment/input-history-to-mature-output comparison or autonomous memory. |
 | Next decision / hold | Review is deferred and M10 retains the linkage hold. Reopen for source-qualified exposure/cessation, viability and traced output; an inseparable change in exposure and reception cannot identify either contrast. |

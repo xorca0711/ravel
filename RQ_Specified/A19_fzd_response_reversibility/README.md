@@ -1,19 +1,21 @@
 # A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+In primary AT2-derived cultures retaining alveolar identity before the schedule comparison, ending Fzd-supported expansion may increase later absolute lineage-derived mature AT1 output while preserving AT2 descendants capable of renewed expansion. Continued receptor input is the comparator. Fzd5-selective stimulation is a source-supported candidate input, not a frozen reagent choice; schedule, starting-state competence and input identity retain separate decisions.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Fzd-supported AT2 growth, Wnt withdrawal and differentiation are established. The possible increment is the joint receptor-specific AT1-output/functional-reserve tradeoff; existing CHIR withdrawal and expanded-cell differentiation do not establish it. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a19).
+
+**What the measurements would decide:** More mature AT1 output with a retained responsive AT2 reserve supports productive withdrawal in that context. More AT1 output with reserve depletion is a tradeoff; more area alone tests neither. Lineage-linked absolute counts address yield, independent identity/function addresses maturity, and later response capacity addresses reserve. CHIR withdrawal does not isolate Fzd5 withdrawal.
+
+**Current disposition:** Conditional joint outcome; novelty provisional. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does a defined pre-withdrawal AT2 state permit mature output after specified input cessation while retaining a responsive AT2 reserve? |
-| Strongest rival | Duration, mixture, survival or generic downstream pathway withdrawal explains the outcome. |
 | Biological unit and endpoint | Lineage-defined donor/animal preparations. Jointly assess absolute mature descendants and viable, functionally responsive AT2 reserve per starting AT2 input; mature markers or survivor fractions alone do not establish both. |
 | Current evidence and limit | Executed qPCR/bulk RNA context results and newer Rochelle source labels do not measure the full receptor-specific withdrawal, mature-output and reserve contrast. CHIR and Fzd-specific inputs are not interchangeable. |
-| Next decision / hold | Review is deferred; M11 retains the evidence hold. Reopen only for linked input/cessation, pre-withdrawal state, mature function and reserve measurements. An alias table cannot supply an unmeasured reserve endpoint. |
+| Next decision / hold | Scientific acceptance is pending; M11 retains the evidence hold. Reopen only for linked input/cessation, pre-withdrawal state, mature function and reserve measurements. An alias table cannot supply an unmeasured reserve endpoint. |
 
 **Read in this order:** [current evidence](RESULTS.md),
 [development dossier](../../docs/research_dossiers/A19.md),

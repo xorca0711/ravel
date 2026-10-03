@@ -1,16 +1,18 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+Epithelial AREG delivery can change the effective ligand reaching fibroblasts and thereby their response, even when epithelial AREG RNA or source-cell abundance is similar. The biological contrast is delivery through effective availability versus a recipient-context effect. The source/presentation comparison and downstream fibroblast function remain unnominated, so this is a developing hypothesis, not a specified wet experiment.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** AREG/EGFR support and recipient-dependent ligand responses are precedents. A new contribution requires a justified delivery contrast and an actual recipient consequence; another source-RNA association is redundant. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a2).
+
+**What the measurements would decide:** Measure available AREG and the nominated fibroblast response separately. A response change following altered availability is compatible with delivery through supply; equalizing availability can remove that route. A remaining response difference points to recipient competence or other inputs, not automatically a delivery-specific mechanism.
+
+**Current disposition:** Delivery contrast and functional endpoint required. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does a defined AREG source/presentation context alter recipient response through measured effective ligand availability? |
-| Strongest rival | Recipient state, other EGFR inputs or source/recipient amount explains the difference. An effect remaining after availability is matched is a separate contrast. |
 | Biological unit and endpoint | Identified source and recipient donors/preparations with shared-source nesting. Measure a validated recipient consequence per starting recipient input, alongside availability, engagement and viable yield. |
 | Current evidence and limit | The corrected RNA association is inconclusive. Supplied EGF, source Itgb6 observations and common-preparation split wells restrict delivery attribution; lack of association does not establish absence of AREG supply. |
 | Next decision / hold | Review is deferred. M01 holds population inference without animal/pool/preparation maps; delivery attribution additionally needs ligand exposure, engagement and a validated consequence assay. |
