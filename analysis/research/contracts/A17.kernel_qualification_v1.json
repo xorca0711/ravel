@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A17.kernel_qualification_v1",
+  "owner": "A17",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does a new versioned branching-process kernel respect event boundaries, loss and switching rules, and reproduce tractable synthetic birth-death laws?",
+  "decision": "Qualify numerical components for a later explicit observation-model comparison; do not fit the exposed England cohort or rank founder/switching hypotheses.",
+  "strongest_rival": "Event-selection, boundary, founder-allocation or probability-conditioning errors can create apparent evidence for persistent founder classes.",
+  "discriminator": "Branch and truncation invariant tests plus fixed-seed simulation checks against independently derived single-type moments/extinction and a common-clock piecewise law.",
+  "evidence_refs": [
+    "docs/research_dossiers/packages_2026-10-03/A17.md",
+    "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Historical England clone summaries and simulator defects were already read. These synthetic fixtures were authored for numerical qualification, not independent biological validation.",
+  "biological_unit": "Not applicable to synthetic numerical qualification; any later biological comparison must use source-indexed mice and retain nested clones.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "Simulation draws are computational replicates of one stated mathematical law, never independent biological samples. Seeds are separate numerical checks.",
+  "population_and_selection": "Five fixed synthetic cases, two seeds and 6000 realizations per case/seed, all specified before execution; no England clone-size values are fitted.",
+  "contrast": "Empirical synthetic mean and extinction versus exact mathematical expectations for constant or common-clock rates; equal-growth switching has the same total-size law.",
+  "endpoint": "Absolute numerical deviation in mean size and extinction probability, with predeclared six-standard-error Monte Carlo tolerance.",
+  "methods": "Continuous-time six-event branching process, exact regime boundary resampling, absorbing extinction and fail-closed caps; pure-birth, slow-loss, critical, piecewise and equal-growth-switching checks.",
+  "missingness_and_exclusions": "No numerical cap hit is converted to a terminal size; invalid rates, boundaries, caps or output reuse fail the run. No failed case is excluded.",
+  "multiplicity": "Ten numerical case/seed checks; no biological p-values or multiple-testing claims. Every check is retained and all must pass.",
+  "precision_status": "justified",
+  "precision_basis": "Monte Carlo tolerance is six times the analytical standard error using the known synthetic variance or binomial variance. The computational sample count is not biological sample-size justification.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Passing numerical checks does not establish parameter identifiability, observed-data likelihood accuracy, adequate mouse-level precision, source curve reproduction or persistent founder biology.",
+  "stop_rule": "Stop on any invariant/test failure, numerical cap or synthetic deviation outside the frozen tolerance. Biological fitting remains on hold pending the observation and fair-comparison specification.",
+  "inputs": [
+    {
+      "path": "analysis/research/configs/A17.kernel_synthetic_v1.json",
+      "sha256": "58aad81bda2fa30435e1b208ef3f12872f83a921c7126f2bb03f2fc4bf0a11e2",
+      "study_id": "synthetic_A17_kernel_v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/a17_branching_kernel_v1.py",
+      "sha256": "e79ebf7b7d05025784d5e6df91346b2ce7cbf13a6f53f638f675a1becbc0f766"
+    },
+    {
+      "path": "analysis/scripts/qualify_a17_kernel_v1.py",
+      "sha256": "8432ae9d2740297aa3ee6f6653571659c0a0efbfdfbf4b3b45918e35a89376a2"
+    },
+    {
+      "path": "analysis/tests/test_a17_branching_kernel_v1.py",
+      "sha256": "7cb10385f9e4b8bd93a40f3c119d9b0b31966368ee2ea664fa45d8d627282bfe"
+    },
+    {
+      "path": "analysis/research/configs/A17.kernel_synthetic_v1.json",
+      "sha256": "58aad81bda2fa30435e1b208ef3f12872f83a921c7126f2bb03f2fc4bf0a11e2"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/qualify_a17_kernel_v1.py",
+  "arguments": [
+    "--config",
+    "analysis/research/configs/A17.kernel_synthetic_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "qualification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "A new preparatory numerical-qualification stage preserves all earlier scripts and outputs. It does not execute or silently replace the historical FU_S fit contract."
+}
