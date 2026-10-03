@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P02.source_audit_v1",
+  "owner": "Nb5-P02",
+  "contract": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/source_audit_v1.json",
+  "contract_sha256": "fbf2c52f92b716c0c01614b26dc5585d7ee41e73ce5f049447891349e9bc3e13",
+  "git_commit": "a8f2ed89d9d4a245b574415351a63e6c42d8b9f2",
+  "started_at": "2026-10-03T07:02:04.742290+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/04_source_audit_v1.py",
+    "--output",
+    "analysis/research/runs/nb5_source_audit_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_10.xlsx",
+      "sha256": "cacf91aa9d03d41f81733512ffbc94c8308f5ddbefc80206a39f613f2854fadc",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/author_case_notebook.ipynb",
+      "sha256": "886fd525af6a1cb53649811c6e597ac5f1eabae7dbd8d6febb2766f934af94d5",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/facs.Brain_Myeloid.clustered_diversity.h5ad",
+      "sha256": "c157f0865bf39ce43504c674fd4d8f8dfe62644fe6b795b2e901d38c64dc48e3",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/04_source_audit_v1.py",
+      "sha256": "169301daf9342f85e9bb211851d3d2a288108ab2077b440f88e0847d130bb8ff"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nb5_source_audit_v1/bidirectional_source_overlap.tsv",
+      "sha256": "07d2b36a76b555efa432b94b23982087d2b6e0ae81ce646624ae2b2ab1ebbb39"
+    },
+    {
+      "path": "analysis/research/runs/nb5_source_audit_v1/case_annotation_audit.tsv",
+      "sha256": "b1aa1e0692411ddb64a6e313105fe601bd64533e14fbfb11c50cd37db96400b9"
+    },
+    {
+      "path": "analysis/research/runs/nb5_source_audit_v1/source_audit.json",
+      "sha256": "52f1f3c98bd3a541845c6db1929a669373550d776519c23cbfb8969c61f77f1f"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T07:02:08.448898+00:00"
+}

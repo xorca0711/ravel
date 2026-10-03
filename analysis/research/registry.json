@@ -371,7 +371,8 @@
     "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json",
     "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
     "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/repertoire_v2.json",
-    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/source_audit_v1.json"
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/source_audit_v1.json",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -385,7 +386,8 @@
     "analysis/research/runs/nb5_metadata_v2/receipt.json",
     "analysis/research/runs/nb5_metadata_v3/receipt.json",
     "analysis/research/runs/nb5_descriptive_v1/receipt.json",
-    "analysis/research/runs/nb5_repertoire_v2/receipt.json"
+    "analysis/research/runs/nb5_repertoire_v2/receipt.json",
+    "analysis/research/runs/nb5_source_audit_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
