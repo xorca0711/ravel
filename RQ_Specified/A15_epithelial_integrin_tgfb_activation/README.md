@@ -1,16 +1,18 @@
 # A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+Epithelial ITGB6-containing integrin activity may change fibroblast response by activating latent TGF-beta, rather than by changing total ligand supply. That pathway is already established. The repository-specific idea is whether the epithelial Itgb6-associated fibroblast response in the A2 context is explained by this activation route; neither active TGF-beta nor a decisive fibroblast functional endpoint was measured there.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Integrin-mediated latent TGF-beta activation and profibrotic epithelial-fibroblast signaling are published. The source-specific attribution and meaningful recipient endpoint still need definition; this is not a new pathway claim. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a15).
+
+**What the measurements would decide:** A source-attributable change in active TGF-beta and the nominated recipient response at comparable latent supply would favor activation. Supply-only change or a response independent of the activation contrast favors rivals. Itgb6 RNA, total TGF-beta and a fibroblast RNA score cannot substitute for active ligand and function.
+
+**Current disposition:** Context-specific endpoint required. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does epithelial activation of latent TGF-beta alter fibroblast consequence at comparable latent-ligand supply? |
-| Strongest rival | Ligand supply, matrix context, another activator or a parallel EGFR-ligand route explains the response. |
 | Biological unit and endpoint | Identified epithelial source and fibroblast recipient preparations with donor/animal parents. Measure an active-ligand-dependent recipient consequence per starting recipient input, with active and total ligand separately calibrated. |
 | Current evidence and limit | The Itgb6 side branch is observational and confounded by split wells/position. Its normalization correction supersedes the earlier result; the parent mechanism remains untested. |
 | Next decision / hold | Review and assay qualification are deferred. Retain the parent hold until functional ligand measurement, independent preparations and a distinguishable route contrast exist. |

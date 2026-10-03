@@ -1,16 +1,18 @@
 # A5: developmental-gene recruitment in adult repair
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+Adult alveolar repair recruits the exact independently sourced developmental epithelial component beyond the identity, stress and labeling genes excluded by the frozen shared-component contract. Its association in 24 mice motivates independent replication of that same component. Whether it performs a developmental function during repair is a separate, untested biological question.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Developmental-programme reuse is established broadly. The current contribution is reproducibility of a fixed measurement; replication is useful without being a new mechanism. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a5).
+
+**What the measurements would decide:** Reproduction in independent, source-qualified animals supports transport of the fixed component. Failure or loss after valid state/identity comparison weakens that generalization. Functional reuse requires a separately justified endpoint and intervention; gene overlap alone cannot supply it.
+
+**Current disposition:** Fixed-component replication; mapping held. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does the exact frozen developmental component reproduce its within-mouse repair contrast in an independently qualified cohort beyond the fixed identity/stress comparators? |
-| Strongest rival | Annotation, population composition or generic plasticity explains the developmental-signature association. |
 | Biological unit and endpoint | Author-defined transitional and activated AT2 states within independent biological mice. Retain the frozen paired detection-probability contrast, gene definitions, UMI budget and eligibility rules. |
 | Current evidence and limit | The original positive recruitment result across 24 primary mice survives the specified exclusions. The 56-library/55-mouse distinction and per-cell author-state mapping remain unresolved for the external candidate. |
 | Next decision / hold | External replication stays held at M02. Reopen for the authentic barcode/library/mouse/author-state and pool/split export, then qualify count alignment; no new classifier or relaxed threshold substitutes for it. |

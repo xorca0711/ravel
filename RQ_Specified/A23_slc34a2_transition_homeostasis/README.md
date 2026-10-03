@@ -1,16 +1,18 @@
 # A23: does phosphate homeostasis constrain entry into an alveolar transition state?
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+SLC34A2 transport impairment may increase acquisition of a transition-associated epithelial stress state before broad AT2 identity loss, rather than merely prolong an existing intermediate state by impairing exit to AT1 maturation. This entry-versus-residence distinction narrows the original proposal. Phosphate-dependent repair failure and the Slc34a2-loss transitional RNA module already have published precedents; the mechanism cannot be claimed new from their combination.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Lv already links SLC34A2/intracellular phosphate to AT2 self-renewal and AT1 differentiation; Nabhan reports the transitional module, and Uehara establishes mineral-context biology. The inspected Lv endpoints do not resolve the proposed entry-versus-exit comparison; its novelty and biological value remain provisional. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a23).
+
+**What the measurements would decide:** Lineage-linked acquisition and subsequent exit measured separately can distinguish increased entry from prolonged residence; endpoint state abundance cannot. Measure transport function, compartment-specific phosphate, injury and viability independently. A qualified restoration contrast can test transport dependence, but rescue of counts alone cannot identify the affected transition step. Preserve the external negative marker result.
+
+**Current disposition:** Narrowed entry-versus-exit question; novelty unresolved. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does altered SLC34A2-dependent phosphate handling precede a defined epithelial transition response in the relevant context? |
-| Strongest rival | Generalized injury, mineral context, survival or starting state explains the marker changes. |
 | Biological unit and endpoint | Independent primary AT2 donor/animal preparations with documented mineral context. Link measured phosphate handling to absolute viable transition-defined cells per starting AT2 input; abundance and transport flux are distinct. |
 | Current evidence and limit | The screen marker pattern did not reproduce coordinately in the external PAM case. Lower SLC20A1/2 RNA supplies no transcriptional compensation evidence but does not exclude functional compensation. |
 | Next decision / hold | Scientific review and measurement qualification are deferred. Keep handling, timing and recovery unresolved; three markers are not fate, and a single human case is not replicated perturbation. |

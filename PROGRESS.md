@@ -3,10 +3,38 @@
 **Update this before stopping work, every session.**
 
 Current checkpoint: 3 October 2026. PRs #130–#133 are merged; refreshed integrated
-main remains `537eec83fe102a7eaa3e3f34a7f6b48cf852be15`. The requested specificity
-review uses `codex/rq-specificity-review`. Scientific acceptance remains separate.
+main is `537eec83fe102a7eaa3e3f34a7f6b48cf852be15`. The requested novelty/specification
+application uses `codex/rq-novelty-specificity`. Scientific acceptance remains separate.
 
-## Current review: one-line framing rejected as too broad
+## Current application: specific biology and literature boundaries
+
+The owner requested a latest-remote check, a novelty check of the proposed
+repairs and application. Earlier dossier, source and README PR work was reused.
+The [application/source ledger](docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md)
+records bounded fresh checks and inherited coverage for all 24 RQs.
+
+The canonical development paragraphs, all 24 dossier/package hypotheses and
+17 dedicated README blocks now preserve named biology and distinguish outcome
+patterns. Missing features/mediators/endpoints are explicit. Published premises
+are not presented as new mechanisms: Ciminieri constrains A14; Lv adds a closer
+A23 repair precedent. A23 is narrowed to entry versus delayed exit. A4/Fzd5
+entry gating is not adopted; A19/Fzd5 remains a candidate input only.
+
+Historical README bodies, frozen scientific assets, source contracts, registry,
+claim grades and adverse results are preserved. No biological pipeline ran.
+The original atlas and earlier specificity proposal remain historical drafts.
+Actual access remains unconfirmed; no RQ is selected or certified novel.
+
+Remaining: owner scientific/integration review, nomination of missing biological
+contrasts/endpoints, exact A23 contribution review, existing
+source/outcome evidence holds, A17 technical qualification and later laboratory
+implementation. Repository validation passed 8,390 checks and the research gate
+passed against `origin/main`; alignment and history-preservation checks passed.
+The previous full ten-check suite remains applicable to unchanged code
+(134 tests, one existing skip). Final fetch confirmed the same main revision.
+The scoped branch is ready for a separate owner PR review; no merge is performed.
+
+## Earlier review: one-line framing rejected as too broad
 
 The owner rejected the usefulness of the visual atlas's one-line questions and
 generic assay descriptions. The [specificity review](docs/research_dossiers/RQ_SPECIFICITY_REVIEW_2026-10-03.md)

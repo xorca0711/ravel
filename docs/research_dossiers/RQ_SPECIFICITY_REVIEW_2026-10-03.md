@@ -1,5 +1,7 @@
 # RQ specificity review and proposed repairs
 
+**Later application:** the [source-grounded revision](NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) supersedes this proposal as the current documentation state. In particular, A4/Fzd5 gating was not adopted and A23 was narrowed after identifying closer prior art. This review remains the record of the rejected framing and initial proposals.
+
 3 October 2026. Requested after the owner rejected the one-line atlas summaries
 as too broad to motivate useful hypotheses and assays. This is a review and a
 set of proposed revisions, not approval of a new hypothesis or experimental

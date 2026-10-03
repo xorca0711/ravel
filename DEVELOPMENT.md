@@ -2543,3 +2543,14 @@ preserves useful source evidence and distinguishes restored details from new
 candidate narrowings. A technically rendered figure and passing repository
 checks do not constitute scientific acceptance. The rejection does not discard
 all RQs, reclassify historical findings or establish acceptance of replacements.
+
+## 3 October 2026: apply source-qualified RQ specificity
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Check latest main and apply literature-qualified RQ fixes | Owner | Owner authorized application; scientific acceptance and integration remain pending | Reuse merged PRs #130–#133; align current cards, dossiers, packages and dedicated READMEs | Earlier summaries obscured named biology and did not distinguish published premises from the remaining contribution |
+| 2026-10-03 | A4 Fzd5 entry gate; broad A14/A23 novelty language | Codex prior proposal | Codex source-grounded revision, not owner retain/reject | Do not adopt A4 gating; constrain A14 and narrow A23 entry-versus-exit comparison | Current primary evidence does not justify A4 direction; Ciminieri and Lv constrain novelty |
+
+The application ledger distinguishes fresh source inspection from reused audits
+and records access limits. Documentation changes do not amend frozen designs,
+accept biological hypotheses or weaken governance. No new analysis was run.

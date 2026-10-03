@@ -1,19 +1,21 @@
 # A1: Distinguishing transitional epithelial states
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+RNA-similar transitional alveolar epithelial cells may differ in regulatory competence for later AT1 maturation. The remaining hypothesis would require an early regulatory feature to distinguish later lineage-derived mature AT1 output beyond the starting RNA state. No particular regulatory feature has yet been nominated for that prospective contrast; a generic chromatin assay does not complete it.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Regulatory heterogeneity and functional transitional states are published. Exact-feature novelty cannot be judged until the regulatory feature and mature endpoint are fixed. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a1).
+
+**What the measurements would decide:** Early regulatory information that improves prediction in independent biological units would support a competence marker. It would not establish a causal regulator; absent incremental information weakens the proposed marker. Current unlinked RNA/regulatory samples cannot perform this comparison.
+
+**Current disposition:** Feature nomination required. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does a bounded early regulatory measurement improve prediction of later mature epithelial output beyond a fixed early RNA comparator? |
-| Strongest rival | Starting composition, acquisition timing or assay differences explain the apparent regulatory increment. |
 | Biological unit and endpoint | Independent animal/donor preparations with justified assay/lineage linkage. Compare held-out unit prediction error for absolute mature descendants per starting AT2 input; protein identity, morphology and function need separate qualification. |
 | Current evidence and limit | Regulatory and mature lineage endpoints exist, but no inspected cohort supplies the required early regulatory/RNA-to-later-outcome join. The regulatory predictor remains unspecified. |
-| Next decision / hold | Review is deferred; source recovery is closed at the current evidence limit (M07). Reopen for an explicit linked design and a justified feature/endpoint, not by pairing different animals through condition labels. |
+| Next decision / hold | Scientific acceptance is pending; source recovery is closed at the current evidence limit (M07). Reopen for an explicit linked design and a justified feature/endpoint, not by pairing different animals through condition labels. |
 
 **Read in this order:** [current evidence](COMPARISON_MATRIX.md),
 [development dossier](../../docs/research_dossiers/A1.md),
