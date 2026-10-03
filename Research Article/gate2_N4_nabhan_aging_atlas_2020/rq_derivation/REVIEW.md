@@ -1,5 +1,11 @@
 # Scientific review of the provisional derivations
 
+**Current status, 3 October 2026:** [bounded agent scientific review and routing](../rq_review/README.md)
+are complete. P01/P02/P04/P06 are registered as proposed A24/A25/A26/A27;
+P03 extends A3. Other branches support qualified comparisons. Earlier draft
+review language below is historical; human acceptance, exact novelty and
+execution readiness remain unresolved where specified.
+
 The [eight cards](README.md#proposed-questions-and-their-place-in-the-repository)
 are ready for scientific review. This document requests a decision about their
 biological scope and evidence requirements; it does not record one. No named

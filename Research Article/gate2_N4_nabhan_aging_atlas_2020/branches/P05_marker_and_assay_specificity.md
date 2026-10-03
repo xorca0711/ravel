@@ -1,5 +1,10 @@
 # Nb5-P05 Marker specificity and assay dependence
 
+**Current routing after bounded agent review, 3 October 2026:** A24 qualification.
+See the [scientific review](../rq_review/README.md). The original derivation below
+is retained as source history; human scientific acceptance and unresolved data
+or endpoint qualification are not supplied by registration.
+
 ## Question and decision
 
 Does an age-associated marker endpoint remain interpretable after separating

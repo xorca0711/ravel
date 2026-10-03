@@ -1,5 +1,10 @@
 # Nb5-P01 Composition and within-type ageing
 
+**Current routing after bounded agent review, 3 October 2026:** A24.
+See the [scientific review](../rq_review/README.md). The original derivation below
+is retained as source history; human scientific acceptance and unresolved data
+or endpoint qualification are not supplied by registration.
+
 **Current continuation (3 October 2026):** Lung/bladder composition accounting is complete for its frozen stage. Official metadata transfer does not restore a renal epithelial denominator among the previously sampled 24-month kidney cells; whole-kidney interpretation remains held.
 See the [completion audit](../EXTENSION_COMPLETION.md) before the earlier execution checkpoint below.
 

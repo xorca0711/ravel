@@ -1,5 +1,10 @@
 # Nb5-P07 Sex dependence of age associations
 
+**Current routing after bounded agent review, 3 October 2026:** A25/A26/A27 sex-context support.
+See the [scientific review](../rq_review/README.md). The original derivation below
+is retained as source history; human scientific acceptance and unresolved data
+or endpoint qualification are not supplied by registration.
+
 ## Question and decision
 
 For an eligible tissue/type endpoint, does the age contrast differ between

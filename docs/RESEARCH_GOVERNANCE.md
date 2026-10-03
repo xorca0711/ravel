@@ -6,7 +6,7 @@ requirements, not historical results, claim grades or scientific acceptance.
 
 ## Authority and scope
 
-`RESEARCH_QUESTIONS.md` owns the current A0–A23 questions. The dossiers under
+`RESEARCH_QUESTIONS.md` owns the current A0–A27 questions. The dossiers under
 `docs/research_dossiers/` develop their rationale, rivals and experimental bridges;
 they do not create additional global questions. `analysis/research/registry.json`
 locates each card, dossier, current evidence and future contract. Article-local

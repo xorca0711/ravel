@@ -2,7 +2,41 @@
 
 **Update this before stopping work, every session.**
 
-## Current Nb5 integration and PR on 3 October 2026
+## Current Nb5 scientific review and proposed registration on 3 October 2026
+
+The owner authorized scientific review and potential registration, then clarified
+that distinct focus, target and cell/context heterogeneity warrant separate RQs.
+The [bounded review](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
+screens 24 canonical questions and 33 prior article candidates against all eight
+Nb5 cards. Its matrix records 456 comparisons; this is documentation review,
+not new biological computation or exhaustive literature/independent peer review.
+
+Registered **proposed A24–A27**: bladder stromal/barrier maintenance, regional
+middle-age microglial organization, spleen/marrow CD8 context and within-spleen
+CD8 state attribution. P03 has an A3 normal-age reference extension. Marker,
+sex and age-window branches remain supporting tasks unless a separate target
+is specified. Dossiers, workspaces, plans, registry and entrypoints are aligned.
+Earlier source cards, failed/negative results and frozen outputs are preserved.
+
+Close precedents constrain novelty; A27 is initially attribution/replication,
+not discovery of within-state CD8 ageing. P02/A25's model is still unrun; A26's
+exact marrow support is held; A24 source/function nomination and A27 fine-state
+and receptor qualification remain necessary. No human retain/reject decision,
+claim promotion, biological run or laboratory readiness is recorded.
+
+Next: review the proposed registrations and A3 extension, nominate missing
+biological features, then qualify/freeze only the justified execution designs.
+PR #135 remains the open integration vehicle. The fetched main is `073a69a`;
+the primary checkout's unrelated edits/private files and external settings are
+unchanged. All ten required checks pass: 138 tests, 18 numeric bindings and
+9,006 repository validations, with the research gate against the refreshed base.
+The strict layout sequence now covers A0–A27; missing/duplicate/reordered/extra
+IDs remain rejected. This validator update, its infrastructure declaration and
+the governance current-ID wording await explicit PR review. The initial stale
+sequence-check failure is retained in the Nb5 execution ledger. No merge or
+human scientific acceptance is recorded.
+
+## Earlier Nb5 integration and PR checkpoint on 3 October 2026
 
 The owner requested a fresh fetch, alignment and PR. Latest main is `073a69a`
 (PR #134). Its canonical RQ specificity updates are incorporated; Nb5 P03 remains

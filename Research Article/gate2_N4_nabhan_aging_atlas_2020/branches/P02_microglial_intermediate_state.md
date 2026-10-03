@@ -1,5 +1,10 @@
 # Nb5-P02 Microglial intermediate state and disease overlap
 
+**Current routing after bounded agent review, 3 October 2026:** A25.
+See the [scientific review](../rq_review/README.md). The original derivation below
+is retained as source history; human scientific acceptance and unresolved data
+or endpoint qualification are not supplied by registration.
+
 **Current continuation (3 October 2026):** Official all-age count-valued expression and the exact bridge for all 13,130 source-labelled microglia are now recovered. The competing state/mixture model remains unrun; it needs a frozen model design with mouse-held-out fitting and explicit region/sex/processing limits. Final-paper state naming is still a separate reproduction hold.
 See the [completion audit](../EXTENSION_COMPLETION.md) before the earlier execution checkpoint below.
 

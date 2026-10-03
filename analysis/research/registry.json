@@ -51,7 +51,8 @@
       "evidence": [
         "Research Article/gate1_01_niethamer_2025/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
-        "docs/research_dossiers/capabilities_2026-10-03/README.md"
+        "docs/research_dossiers/capabilities_2026-10-03/README.md",
+        "docs/research_dossiers/extensions_2026-10-03/A3_Nb5_age_reference.md"
       ]
     },
     {
@@ -301,6 +302,62 @@
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md"
       ]
+    },
+    {
+      "id": "A24",
+      "card": "RESEARCH_QUESTIONS.md#a24",
+      "dossier": "docs/research_dossiers/A24.md",
+      "evidence": [
+        "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/README.md",
+        "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/PLAN.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
+      ]
+    },
+    {
+      "id": "A25",
+      "card": "RESEARCH_QUESTIONS.md#a25",
+      "dossier": "docs/research_dossiers/A25.md",
+      "evidence": [
+        "RQ_Specified/A25_microglial_midlife_configuration/README.md",
+        "RQ_Specified/A25_microglial_midlife_configuration/PLAN.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
+      ]
+    },
+    {
+      "id": "A26",
+      "card": "RESEARCH_QUESTIONS.md#a26",
+      "dossier": "docs/research_dossiers/A26.md",
+      "evidence": [
+        "RQ_Specified/A26_tissue_context_cd8_ageing/README.md",
+        "RQ_Specified/A26_tissue_context_cd8_ageing/PLAN.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
+      ]
+    },
+    {
+      "id": "A27",
+      "card": "RESEARCH_QUESTIONS.md#a27",
+      "dossier": "docs/research_dossiers/A27.md",
+      "evidence": [
+        "RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md",
+        "RQ_Specified/A27_cd8_repertoire_state_redistribution/PLAN.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
+      ]
     }
   ],
   "article_candidates": [
@@ -353,7 +410,10 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P01.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/SOURCES.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
     },
     {
@@ -367,7 +427,10 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P02.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/SOURCES.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
     },
     {
@@ -381,7 +444,10 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P03.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/SOURCES.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
     },
     {
@@ -395,7 +461,10 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P04.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/SOURCES.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
     },
     {
@@ -409,7 +478,10 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P05.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/SOURCES.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
     },
     {
@@ -425,7 +497,10 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P06.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/SOURCES.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
     },
     {
@@ -439,7 +514,10 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P07.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/SOURCES.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
     },
     {
@@ -453,7 +531,10 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/P08.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/SOURCES.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
     }
   ],
@@ -524,6 +605,7 @@
     "analysis/research/legacy_artifacts.json",
     "analysis/research/contract.schema.json",
     "analysis/research/contract.template.json",
-    "Research Article/ROADMAP.json"
+    "Research Article/ROADMAP.json",
+    "analysis/lib/research_layout.py"
   ]
 }

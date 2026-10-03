@@ -1,5 +1,11 @@
 # Nb5 exploratory branch register
 
+**Current status, 3 October 2026:** [bounded agent scientific review and routing](rq_review/README.md)
+are complete. P01/P02/P04/P06 are registered as proposed A24/A25/A26/A27;
+P03 extends A3. Other branches support qualified comparisons. Earlier draft
+review language below is historical; human acceptance, exact novelty and
+execution readiness remain unresolved where specified.
+
 **Current execution status:** [completion audit](EXTENSION_COMPLETION.md)
 separates completed stages from unrun models and evidence-dependent proposals.
 No branch ranking, human retain/reject decision or global RQ promotion follows.

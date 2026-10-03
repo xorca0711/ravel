@@ -158,4 +158,46 @@ class GovernanceTests(unittest.TestCase):
         self.assertTrue(any('Historical artifact changed' in e for e in check_registry(self.root)))
 
 
+class CanonicalSequenceTests(unittest.TestCase):
+    def test_layout_rejects_missing_duplicate_reordered_and_unregistered_ids(self):
+        sys.path.insert(0, str(REPO))
+        self.addCleanup(sys.path.remove, str(REPO))
+        from analysis.lib.research_layout import check_research_layout
+
+        class SequenceChecked(Exception):
+            pass
+
+        class SequenceResult:
+            # Exercise the real layout entrypoint, then stop before unrelated
+            # historical-archive checks that need the full repository fixture.
+            def equal(self, actual, expected, label):
+                self.label = label
+                self.passed = actual == expected
+                raise SequenceChecked
+
+        canonical = [f'A{i}' for i in range(28)]
+        reordered = canonical.copy()
+        reordered[24], reordered[25] = reordered[25], reordered[24]
+        cases = {
+            'registered_sequence': (canonical, True),
+            'missing_new_question': ([q for q in canonical if q != 'A24'], False),
+            'duplicate_new_question': (canonical[:26] + ['A25'] + canonical[26:], False),
+            'reordered_new_questions': (reordered, False),
+            'unregistered_question': (canonical + ['A28'], False),
+            'missing_historical_question': (canonical[1:], False),
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for name, (ids, accepted) in cases.items():
+                with self.subTest(case=name):
+                    (root / 'RESEARCH_QUESTIONS.md').write_text(
+                        ''.join(f'### {qid}. Synthetic question\n' for qid in ids),
+                        encoding='utf-8')
+                    result = SequenceResult()
+                    with self.assertRaises(SequenceChecked):
+                        check_research_layout(root, result)
+                    self.assertEqual(result.label, 'canonical question sequence')
+                    self.assertEqual(result.passed, accepted)
+
+
 if __name__=='__main__': unittest.main()

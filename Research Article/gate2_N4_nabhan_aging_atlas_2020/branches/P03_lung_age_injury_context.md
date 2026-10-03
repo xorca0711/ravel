@@ -1,5 +1,10 @@
 # Nb5-P03 Normal ageing as context for lung injury questions
 
+**Current routing after bounded agent review, 3 October 2026:** A3 extension.
+See the [scientific review](../rq_review/README.md). The original derivation below
+is retained as source history; human scientific acceptance and unresolved data
+or endpoint qualification are not supplied by registration.
+
 **Question:** Could a fixed existing lung cell-state endpoint also vary with
 normal ageing within a comparable cell identity? The decision is whether
 ageing is a plausible alternative explanation requiring an age-balanced design.

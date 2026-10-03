@@ -1,5 +1,10 @@
 # Nb5-P08 Age shape versus developmental and survivor selection
 
+**Current routing after bounded agent review, 3 October 2026:** A25/A26/A27 age-window support.
+See the [scientific review](../rq_review/README.md). The original derivation below
+is retained as source history; human scientific acceptance and unresolved data
+or endpoint qualification are not supplied by registration.
+
 ## Question and decision
 
 Does a qualified endpoint support a monotonic adult-age association, a plateau

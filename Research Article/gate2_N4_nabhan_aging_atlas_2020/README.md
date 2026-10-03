@@ -1,5 +1,11 @@
 # Nb5 mouse ageing atlas analysis development
 
+**Current status, 3 October 2026:** [bounded agent scientific review and routing](rq_review/README.md)
+are complete. P01/P02/P04/P06 are registered as proposed A24/A25/A26/A27;
+P03 extends A3. Other branches support qualified comparisons. Earlier draft
+review language below is historical; human acceptance, exact novelty and
+execution readiness remain unresolved where specified.
+
 **Gate 2N item N4. Reading completed by the owner on 3 October 2026;
 first descriptive analysis, stage-1 biological extensions, a subtype follow-up and eleven figure plates completed; scientific review pending.**
 

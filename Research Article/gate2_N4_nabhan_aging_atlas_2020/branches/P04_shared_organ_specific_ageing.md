@@ -1,5 +1,10 @@
 # Nb5-P04 Shared and organ-specific ageing within immune identities
 
+**Current routing after bounded agent review, 3 October 2026:** A26.
+See the [scientific review](../rq_review/README.md). The original derivation below
+is retained as source history; human scientific acceptance and unresolved data
+or endpoint qualification are not supplied by registration.
+
 ## Question and decision
 
 Within source-qualified immune identities, are age-associated RNA changes

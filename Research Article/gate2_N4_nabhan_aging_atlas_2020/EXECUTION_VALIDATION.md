@@ -260,3 +260,46 @@ next integration steps; no merge was requested or performed. Public raw input
 caches, unrelated primary-checkout edits and private files were not published.
 The two primary metadata-file hashes remain unchanged. GitHub protection and
 other external settings were not modified or freshly audited.
+
+
+## Scientific review and proposed A24–A27 registration
+
+3 October 2026. Under the owner's requested scientific review and explicit
+instruction to preserve distinct biological targets/cell contexts, Codex screened
+24 canonical cards and 33 prior article candidates against eight Nb5 cards:
+57 prior cards and 456 recorded comparisons. The bounded matrix, targeted
+primary-source review and access limitations are in `rq_review/`. This was an
+agent scientific review, not independent peer review or exhaustive novelty
+certification. The additional 2026 urothelial lead remains abstract-only.
+
+Proposed A24–A27 now cover bladder stromal/barrier maintenance, regional
+microglial middle-age organization, paired spleen/marrow CD8 context and
+within-spleen CD8 state attribution. P03 extends A3's normal-age reference;
+P05/P07/P08 remain explicit supporting branches. A27's within-state precedent,
+A26's outcome-exposed narrowing and missing marrow support, and all other
+source/functional unknowns are preserved. No human retain/reject, preferred RQ,
+claim-grade promotion or new biological computation was performed.
+
+Validation initially passed the research gate and 26 governance tests but failed
+one of 9,006 repository checks: the layout validator still expected A0–A23.
+The explicit expected sequence was advanced to A0–A27; its strict equality and
+order checks remain intact. One adverse test with six cases verifies the valid
+sequence and rejects missing old/new IDs, duplication, reordering and an
+unregistered A28. The existing layout module is now explicitly declared as
+infrastructure in the registry. This change and the governance current-ID wording
+are flagged for explicit PR review; the authoring agent does not supply that
+approval. No scientific asset, frozen contract or archived output was exempted.
+
+All ten required checks then passed: compilation, 138 tests, 18 numeric claim
+bindings, Nb1/Nb4/A16/A23/A22–A23 archive verifiers, 9,006 repository validations
+and the research gate against `origin/main`. The gate covers all staged new
+registrations and the validator change. Checks were rerun because infrastructure
+changed; biological analyses were not rerun. Existing unfavorable outcomes and
+the earlier failed metadata execution remain unchanged.
+
+Main was fetched again before delivery and remains
+`073a69a758f25f988ecc18402477efa268c00927`. PR #135 is the existing integration
+vehicle. The primary checkout's unrelated metadata edits and private files are
+preserved; raw caches and local check logs are excluded. External settings were
+not changed. Publication and CI status are reported with the delivery;
+scientific acceptance and merge remain pending.
