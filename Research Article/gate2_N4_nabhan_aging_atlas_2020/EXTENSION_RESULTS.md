@@ -7,7 +7,7 @@ and older local-clone burden remains higher under fixed tissue representation
 in a small balanced mouse subset. These observations refine biological
 alternatives; they do not establish a mechanism, function or a new global RQ.
 
-[New figures 7–10](EXTENSION_FIGURES.md) · [Four-page PDF](../../analysis/research/runs/nb5_biological_figures_v1/nb5_biological_extensions.pdf) ·
+[New figures 7–10](EXTENSION_FIGURES.md) · [Four-page PDF](../../analysis/research/runs/nb5_biological_figures_v2/nb5_biological_extensions.pdf) ·
 [Frozen stage design](EXTENSION_STAGE1.md) · [Prior descriptive results](RESULTS.md).
 
 ## Questions and evidence scope
@@ -196,7 +196,7 @@ execution; the rendering contract was committed at `8106334` after outcomes
 were inspected. Verified receipts bind the
 [composition run](../../analysis/research/runs/nb5_composition_biological_v1/receipt.json),
 [repertoire run](../../analysis/research/runs/nb5_repertoire_biological_v1/receipt.json)
-and [figure run](../../analysis/research/runs/nb5_biological_figures_v1/receipt.json).
+and [figure run](../../analysis/research/runs/nb5_biological_figures_v2/receipt.json).
 
 Arithmetic checks passed for every full/deletion decomposition, independent
 count-based reconstruction, clone-size/category partitions and exhaustive toy
@@ -206,3 +206,7 @@ All four PNGs were visually inspected, their short captions passed bounds and
 separation checks, and 300-dpi metadata and four-page PDF caption extraction
 were verified. Final repository checks are recorded in the
 [execution ledger](EXECUTION_VALIDATION.md).
+
+Figure-label amendment: rendering v2 was frozen at `8087a06` after visual
+review, changing only Figure 10C’s ambiguous Within type label to Within tissue.
+Original v1 is retained; figures 7–9 PNG bytes are unchanged.

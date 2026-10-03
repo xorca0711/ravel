@@ -70,3 +70,10 @@ Read the [current result and amendments](../RESULTS.md),
 before extending the original plan above. No human retain/reject decision,
 claim promotion or global RQ allocation is recorded. All branches remain
 available; a further numerical stage requires a new frozen contract.
+
+## Biological extension stage 1
+
+The owner-authorized [stage 1](../EXTENSION_STAGE1.md) is now complete. Read
+[its biological results and remaining rivals](../EXTENSION_RESULTS.md) and
+[figures 7–10](../EXTENSION_FIGURES.md) before proposing another numerical stage.
+The first-pass records above are retained; no claim grade or RQ selection changed.

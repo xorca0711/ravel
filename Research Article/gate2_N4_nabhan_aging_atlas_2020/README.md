@@ -1,7 +1,7 @@
 # Nb5 mouse ageing atlas analysis development
 
 **Gate 2N item N4. Reading completed by the owner on 3 October 2026;
-first descriptive analysis and six figure plates completed; scientific review pending.**
+first descriptive analysis, two biological extensions and ten figure plates completed; scientific review pending.**
 
 [A single-cell transcriptomic atlas characterizes ageing tissues in the mouse](https://doi.org/10.1038/s41586-020-2496-1),
 The Tabula Muris Consortium, Nature 583, 590–595 (2020).
@@ -17,7 +17,10 @@ analysis and RQ development, not a ranking of global questions.
 
 | Read | Purpose |
 |---|---|
-| [Current results](RESULTS.md) | Findings, source discrepancies, branch dispositions and exact next discriminators |
+| [Biological extension results](EXTENSION_RESULTS.md) | Within-type versus composition and compartment-local repertoire findings |
+| [Extension figures](EXTENSION_FIGURES.md) | Four new research plates with compact embedded captions |
+| [Extension design](EXTENSION_STAGE1.md) | Frozen biological questions, rivals, estimands and remaining holds |
+| [First descriptive results](RESULTS.md) | Source discrepancies and initial branch dispositions |
 | [Figure gallery](FIGURES.md) | Six plates with compact purpose/result captions; expanded gallery explanations and PNG/SVG/PDF exports |
 | [Extension feasibility](EXTENSION_ASSESSMENT.md) | Supported sensitivity work and conditional steps before RQ derivation |
 | [Execution validation](EXECUTION_VALIDATION.md) | Frozen contracts, amendments, verification and failures |
@@ -41,8 +44,8 @@ flowchart TD
     F --> G[Possible RQ development after review]
 ```
 
-The first bounded analysis is complete. Read RESULTS.md before the original
-plan. Raw-count modeling, distinct-state/mixture discrimination, disease and
+The first bounded analysis and P01/P06 biological extensions are complete.
+Read EXTENSION_RESULTS.md and RESULTS.md before the original plan. Raw-count modeling, distinct-state/mixture discrimination, disease and
 injury transport, sex interaction and nonlinear age inference remain held for
 the explicit source/design reasons in that report. Published outcomes and the
 owner note were exposed before execution. No claim grade or global RQ changed.

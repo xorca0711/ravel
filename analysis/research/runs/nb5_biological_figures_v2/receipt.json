@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.biological_figures_v2",
+  "owner": "Nb5-P01",
+  "contract": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json",
+  "contract_sha256": "164abfe9b796fe17a03a5dc576aa50b1fd81f6e6514845f6fc13275fda3349bd",
+  "git_commit": "8087a06f2e18e2f89f1dc9936fc5244af8bdf0cb",
+  "started_at": "2026-10-03T08:16:24.141626+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/11_extension_figures_v2.py",
+    "--output",
+    "analysis/research/runs/nb5_biological_figures_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/decomposition.tsv",
+      "sha256": "455d6bbacb80515b1b2c22002b1745097033f07ea1481bf9dd812412864f1e2b",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/within_type.tsv",
+      "sha256": "553333941685c66976723eab496bfc8c33c6e21c6a8b3c2c52ad7d0c5c3b86e0",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/composition_mouse.tsv",
+      "sha256": "e07af82d2c867c738adc2609838091408dee867c6f564892faf62d9fdd0ff017",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/tissue_mouse.tsv",
+      "sha256": "e7f0fda2c8b79faf76f223c31fd96d9e47522f6c839f24ad35e0ff9cf1acb1b7",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_mouse.tsv",
+      "sha256": "3ce2df1bdffd59b7f2abe72f7a92a1b103bbfd2748e4ee29dbba549cfb02497a",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_tissue.tsv",
+      "sha256": "468240524ee6daf3893e05960b63abe65a1f9da8717e3154a2c8e2b021527737",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_decomposition.tsv",
+      "sha256": "b3b7370b83e8f3eb861139aecd2d18161ad98048f97fb4186578ddd552677053",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/tissue_summary.tsv",
+      "sha256": "90b4adf11142687efbb9d3816ea77a70eb1787adc49a3147f7d2451ac0046f47",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/11_extension_figures_v2.py",
+      "sha256": "6f16e4f36424c818ebbd8cf16f92ab3dd19f6207018608ccdf97bea51b3c6457"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/07_tissue_rna_accounting.png",
+      "sha256": "b76657c3ebb8596240cab771d9ef0ba2714cba1d22720b6f19bd820a50510ca7"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/07_tissue_rna_accounting.svg",
+      "sha256": "997f88a2d4428726209608f0eee47b3f1fa225ec73763e0bc55de42a8b435e36"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/07_tissue_rna_accounting.pdf",
+      "sha256": "1a1efda5d2785f86d28cd4f3838b44f2cd55dd642d5e6adf8bf7d49a4e33b54c"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/08_within_type_and_mouse_profiles.png",
+      "sha256": "8c509ee08144d8330dff9b68dec696544ff17be496c7b2441601b5d75a77bfe4"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/08_within_type_and_mouse_profiles.svg",
+      "sha256": "33f898607c63846ef5a989139bfcb08eab65aa5da8fef988dc5842a94b3a040c"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/08_within_type_and_mouse_profiles.pdf",
+      "sha256": "21301f89cfd5ff302286fb1cc8c01eb2d2900a9a8aa4423dd7bb7825203a95b9"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/09_compartment_local_clonality.png",
+      "sha256": "221ce17b6fd06b20bb04d2db491d59b1ba72258742b17c335c8717d929b5bef8"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/09_compartment_local_clonality.svg",
+      "sha256": "adce86a38daac364ae3b99944354838f99990a9b33bca851d5c20ac05461645e"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/09_compartment_local_clonality.pdf",
+      "sha256": "33ab81a7d62f7071153428a7a6447d8d5aee7d497a8a3cd9be523da702dbc085"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/10_repertoire_compartment_accounting.png",
+      "sha256": "f6358464b0ab3d3b083f905277f166fc83fed297fee13a3de13dc9cbd2ae245e"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/10_repertoire_compartment_accounting.svg",
+      "sha256": "b02ca35ad997e6944cd44598847c797544dae17e5f3adfe6f8b3b4c98f0e8a77"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/10_repertoire_compartment_accounting.pdf",
+      "sha256": "40deb52c1847004139d42f33d6d7269c7be549fad132fef62cf8ebb6136ffecb"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/nb5_biological_extensions.pdf",
+      "sha256": "751b2c734cd1b7fa0b078c77f15c431bb825c6b9056caa852e74e967bbd840b7"
+    },
+    {
+      "path": "analysis/research/runs/nb5_biological_figures_v2/figure_manifest.json",
+      "sha256": "0b26c61f1cd1ba6228507b4ef26d052701bc076293956dde9bead1a0f9a06b6a"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T08:16:53.659915+00:00"
+}

@@ -138,3 +138,36 @@ skip), 18 numeric claim bindings, Nb1/Nb4/A16/A23/A22–A23 archive verification
 8,050 repository checks and the research gate against the updated base.
 Authored-file whitespace checks passed. No scientific acceptance, new extension
 execution, push or PR is implied by this presentation update.
+
+
+## Biological extensions on 3 October 2026
+
+Numerical design/code freeze `a44dc24` precedes both executed biological runs;
+figure freeze `8106334` follows explicit outcome exposure. The three new
+registered receipts verify. The [stage report](EXTENSION_RESULTS.md) records
+232 composition contrasts and tissue-local/three-tissue repertoire results.
+Independent count reconstruction, two hand-calculated decomposition toys,
+exact full/deletion identities, source-clone/category partitions and exhaustive
+rarefaction enumeration passed. No raw-count model or held microglial fit ran.
+
+All four PNGs were visually inspected with no caption clipping or overlap.
+Each has 300-dpi metadata, and the combined PDF has four pages with extractable
+compact captions. Figure 10 explicitly distinguishes balanced and all-supported
+mouse sets. Current required repository checks are recorded below once complete.
+
+Visual review prompted a presentation-only v2 label correction, frozen at
+`8087a06`: Figure 10C now says Within tissue. Its
+[receipt](../../analysis/research/runs/nb5_biological_figures_v2/receipt.json)
+verifies; figures 7–9 PNGs are byte-identical to v1. The four-page v2 PDF
+contains every caption and the corrected label; all v2 PNGs retain 300 dpi.
+
+
+Final checks after registering the biological extension and corrected figure
+edition: all ten required checks passed against freshly fetched, unchanged
+`origin/main` `bf7d7166887fb4207eb4582f41925a565a327dbf`. This includes compilation,
+134 tests (one existing skip), 18 numeric claim bindings, Nb1/Nb4/A16/A23 and
+A22–A23 archive checks, 8,132 repository validations and the research gate.
+Authored Markdown/Python/JSON whitespace checks passed. The two unrelated
+primary-checkout metadata files retain their original SHA-256 hashes; ignored
+inputs and private/untracked work were not modified. No frozen evidence was
+overwritten, no claim grade changed, and no push or PR was created.

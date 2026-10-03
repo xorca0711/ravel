@@ -3,7 +3,10 @@
 3 October 2026. **Targeted extensions are plausible and useful before formal
 RQ derivation.** Each extension still needs a bounded candidate question before
 execution. This is a feasibility assessment, not a new biological result or an
-authorization record for every proposed method. No extension below has run.
+authorization record for every proposed method. The owner subsequently authorized
+the bounded [stage 1 design](EXTENSION_STAGE1.md); P01 and P06 extensions are now
+complete in the [current results](EXTENSION_RESULTS.md). Other extensions remain
+proposed or held. The feasibility discussion below predates that execution.
 
 The current [results](RESULTS.md) already separate eight article-local branches.
 The useful next analyses should distinguish their strongest remaining rivals

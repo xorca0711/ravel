@@ -2,6 +2,41 @@
 
 **Update this before stopping work, every session.**
 
+## Current Nb5 biological extensions on 3 October 2026
+
+The owner authorized biologically focused follow-up after the descriptive pass.
+P01 and P06 extensions are complete in isolated `codex/nb5-aging-atlas-plan`:
+[results](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md),
+[four new figures](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_FIGURES.md)
+and [frozen stage design](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_STAGE1.md).
+
+Lung and bladder have different within-type/composition RNA patterns. Older
+local T-cell clone repetition persists under fixed tissue representation in a
+balanced thymus/spleen/marrow subset, but marrow's separate age pattern differs
+and only two young mice support the balanced comparison. Source subtypes,
+receptor recovery, absolute abundance and function remain unresolved. P02's
+state-versus-mixture fit is held for the all-age unintegrated-scale/processing
+gap; whole-kidney accounting is held because common support is immune-only.
+
+Two numerical receipts and the figure receipt verified successfully. Exact
+four-term reconstructions, count-based checks, clone partitions and analytic/
+exhaustive toy checks passed. All four new PNGs were visually inspected; compact
+captions, 300-dpi exports and the four-page PDF were checked. The execution
+ledger records all ten passing required checks: 134 tests (one existing skip),
+8,132 repository validations and the research gate against unchanged
+`origin/main` `bf7d716`. No old output
+was overwritten; no new global RQ, claim grade or scientific acceptance arose.
+
+Next: review the residual biological alternatives and qualify independent,
+population-resolved abundance/RNA or subtype-resolved repertoire evidence;
+recover qualified all-age microglial inputs before the held model comparison.
+All existing RQs remain available. Current verified integration base is
+`origin/main` `bf7d716`; unrelated primary-checkout work and external settings
+were not changed. No push or PR has been created for this branch.
+
+<details>
+<summary>Earlier Nb5 descriptive, caption and focus-review checkpoints</summary>
+
 ## Current continuation on 3 October 2026
 
 Nb5 mouse ageing atlas: the owner-authorized first bounded descriptive analysis
@@ -83,6 +118,8 @@ not a revised frozen design, new result, selected RQ or scientific acceptance.
 No biological analysis or figure was rerun. See the
 [current extension assessment](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_ASSESSMENT.md)
 and [branch cards](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md).
+
+</details>
 
 ## Integrated source-qualification checkpoint
 

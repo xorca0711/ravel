@@ -1,6 +1,9 @@
 # Nb5 research figure gallery
 
-Current edition: **version 3**, 3 October 2026. All six PNG, SVG and PDF plates
+**Additional biological plates:** [figures 7–10](EXTENSION_FIGURES.md) and
+[their results](EXTENSION_RESULTS.md) are available separately.
+
+Current edition of figures 1–6: **version 3**, 3 October 2026. All six PNG, SVG and PDF plates
 use compact, 2–3-line captions (39–51 words) covering biological purpose,
 the main observed result and its essential limit. Detailed explanations remain
 below each figure. Numerical panels and selections are unchanged.

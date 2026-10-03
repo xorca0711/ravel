@@ -6,6 +6,10 @@ before the original plan. The owner's handwritten note remains context, not
 an independent dataset. [Figures and captions](FIGURES.md) provide six plates;
 [execution validation](EXECUTION_VALIDATION.md) records checks.
 
+**Later stage:** [biological extension results](EXTENSION_RESULTS.md) and
+[figures 7–10](EXTENSION_FIGURES.md) add within-type/composition and local-repertoire
+comparisons. This report preserves the first-pass endpoints and values.
+
 ## What this analysis establishes
 
 The deposited data support mouse-level descriptions of captured composition,

@@ -3,8 +3,9 @@
 Draft 3 October 2026. Eight article-local frames are available for further
 analysis and RQ development. P02 preserves the owner's microglial direction;
 the other seven are agent-proposed frames for review, not owner-selected RQs.
-A first descriptive pass has run; [current results](RESULTS.md) record evidence and
-holds for all eight branches. None has received scientific acceptance. Numbering is not a priority rank.
+A first descriptive pass has run; [first-pass results](RESULTS.md) record evidence
+and holds for all eight branches. [Biological extension results](EXTENSION_RESULTS.md)
+now add executed P01/P06 comparisons, with [four new plates](EXTENSION_FIGURES.md). None has received scientific acceptance. Numbering is not a priority rank.
 
 ## Hierarchy and ownership
 
