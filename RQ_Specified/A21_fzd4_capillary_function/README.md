@@ -1,5 +1,7 @@
 # A21. Does Fzd4-dependent vascular integrity support gCap self-renewal and aerocyte production during alveolar repair?
 
+**Current development framing:** [A21 development dossier](../../docs/research_dossiers/A21.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 <a id="biological-question"></a>
 
 ## Organizing biological question

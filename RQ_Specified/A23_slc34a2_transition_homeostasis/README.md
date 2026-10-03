@@ -1,5 +1,7 @@
 # A23: does phosphate homeostasis constrain entry into an alveolar transition state?
 
+**Current development framing:** [A23 development dossier](../../docs/research_dossiers/A23.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 ## Transporter extension executed, 1 October 2026
 
 [New results](reports/transporter_context_v1/RESULTS.md) |

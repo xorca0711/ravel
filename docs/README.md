@@ -1,5 +1,7 @@
 # Documentation Index
 
+Start current research development with the [dossier index](research_dossiers/README.md), [governance](RESEARCH_GOVERNANCE.md) and [reconciliation report](audits/2026-10-03-repository-repair/REPORT.md).
+
 Start with the [research questions](../RESEARCH_QUESTIONS.md),
 [paper roadmap](../Research%20Article/README.md) and [dataset inventory](DATASETS.md).
 The [current project state](../PROGRESS.md), [execution roadmap](RESEARCH_ROADMAP.md)

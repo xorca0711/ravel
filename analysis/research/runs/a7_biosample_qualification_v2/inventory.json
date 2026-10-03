@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "studies": [
+    {
+      "series": "GSE247130",
+      "geo_records": 12,
+      "biosample_records": 12,
+      "exact_title_matches": 12,
+      "attribute_key_record_counts": {
+        "age": 12,
+        "cell_type": 12,
+        "collection_date": 12,
+        "genotype": 12,
+        "geo_loc_name": 12,
+        "sex": 12,
+        "source_name": 12,
+        "tissue": 12,
+        "treatment": 12
+      },
+      "biological_unit_count": null,
+      "unit_status": "not_determined_by_parser"
+    },
+    {
+      "series": "GSE310539",
+      "geo_records": 8,
+      "biosample_records": 8,
+      "exact_title_matches": 8,
+      "attribute_key_record_counts": {
+        "cell_type": 8,
+        "collection_date": 8,
+        "genotype": 8,
+        "geo_loc_name": 8,
+        "library type": 8,
+        "source_name": 8,
+        "tissue": 8,
+        "treatment": 8
+      },
+      "biological_unit_count": null,
+      "unit_status": "not_determined_by_parser"
+    }
+  ],
+  "expression_read": false,
+  "interpretation": "Matched database identities do not establish animals, pools, preparations, fate or independent replication."
+}

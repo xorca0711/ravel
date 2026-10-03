@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A22.biosample_qualification_metadata_v2",
+  "owner": "A22",
+  "contract": "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json",
+  "contract_sha256": "c3d8c2bab19c67945e4180cb1c7137bed6f3012bf074a70d3fb5cb88ddda1cfa",
+  "git_commit": "a2e6d7c9f5fc613ebea68a3b204cb8098d025de5",
+  "started_at": "2026-10-03T02:05:58.259116+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/qualify_biosample_metadata_v1.py",
+    "--soft",
+    "raw_data/source_qualification_20261003/GSE307351_family.soft",
+    "--biosample",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_01.xml",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_02.xml",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_03.xml",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_04.xml",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_05.xml",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_06.xml",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_07.xml",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_08.xml",
+    "raw_data/source_recovery_20261003/GSE307351_biosample_09.xml",
+    "--output",
+    "analysis/research/runs/a22_biosample_qualification_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/source_qualification_20261003/GSE307351_family.soft",
+      "sha256": "ce5b0dda4700625781f603089db6a4d26f61c8a28433882977131a135a812220",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_01.xml",
+      "sha256": "b3047d87e54568ce0b395c59c9dda3b520a92704e1f07c50562c09570f2d1ba0",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_02.xml",
+      "sha256": "1d48ef45242b82a80e1ae3403ff444f7a8916744c5ce6b1d5973635f27670a0f",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_03.xml",
+      "sha256": "ca70bd1ec46b0befda26cacf45eaf47c37dad71c4e1ade864977f7620b48462b",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_04.xml",
+      "sha256": "1a8ce1a1bcba63fb89d25517abcab98490c76b797a09b33826812fa0e3e221c2",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_05.xml",
+      "sha256": "f97d27f12f64abf6031f8364c7f988499d9e60f464e47b964708b77c887e5318",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_06.xml",
+      "sha256": "e2b22969d7e5d61d41c92548fd343d88b3846d55e21d1caad80ae51b869a1a18",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_07.xml",
+      "sha256": "a8877e1ef114f815ee6a0396975382fda19827a0269e2f3fa1bb15e6e994bc1f",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_08.xml",
+      "sha256": "297f062cfa2995bdd7295d5e08c1f413b3237ff29170118bdbe1ea31d42deafe",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_09.xml",
+      "sha256": "b7bb110e21abe24470745513597cd2820c665cb95fd086be3b5d1906185ecea3",
+      "study_id": "GSE307351",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_biosample_metadata_v1.py",
+      "sha256": "657c5499bf3bdf5b21aa2ed41da8c28889c314d720ef3d2c061258e622a1d909"
+    },
+    {
+      "path": "analysis/scripts/qualify_geo_metadata_v1.py",
+      "sha256": "cf8fb66e45192775e132390fd54bd44c38cca5f598f6bfee1fbdafc1bdcdc5e7"
+    },
+    {
+      "path": "analysis/tests/test_biosample_metadata_qualification.py",
+      "sha256": "809ca25b94ef9ac5b88fde94ec898230ee32bc71143a81a300f5fe1438b4062a"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/a22_biosample_qualification_v2/inventory.json",
+      "sha256": "e079bddcb5aec9f00cd8c3b86cce1450a5b4afa1c937dc6b9870bb03af1089ab"
+    },
+    {
+      "path": "analysis/research/runs/a22_biosample_qualification_v2/sample_links.tsv",
+      "sha256": "d1f57c5281c4a79fae8a14587b836623fb912d4674d522d1f701e189f68b209f"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T02:05:59.096125+00:00"
+}

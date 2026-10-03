@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.source_qualification_metadata_v1",
+  "owner": "A5",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Does the current GEO deposit resolve the library-to-mouse and author-state joins missing from A5 replication qualification?",
+  "decision": "Compare newly retrieved deposited fields with the existing source audit and determine whether the original replication hold can be lifted.",
+  "strongest_rival": "Fifty-six library identifiers can represent fewer animals, and source vocabulary without barcode labels cannot establish eligible biological arms.",
+  "discriminator": "Recover explicit deposited sample membership, assays and identity fields; distinguish a missing join from demonstrated independent biological preparations.",
+  "evidence_refs": [
+    "docs/research_dossiers/A5.md",
+    "docs/research_dossiers/qualification_2026-10-03/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published study findings, existing repository results and selected GEO metadata were inspected before this freeze. No expression values are read by this metadata run; the run is not blind validation.",
+  "biological_unit": "Animal, donor or independent source preparation; unresolved at the intended comparison level.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "GEO samples are library records and may share animals, pools, preparations, wells or parent series. No cross-study independence or sample-to-animal mapping is inferred by this parser.",
+  "population_and_selection": "All SAMPLE entities declared by each specified GEO SOFT family file; no expression-based filtering or sample exclusion.",
+  "contrast": "Descriptive comparison of deposited identity fields and sample membership against the scientific question; no gene-level or population contrast.",
+  "endpoint": "Metadata inventory: series and sample IDs, titles, species, assay strategy, subseries memberships, characteristic-key coverage and available file locators.",
+  "methods": "Parse local SOFT headers and a fixed metadata-field allowlist. Require unique accession IDs and exact series/sample membership. Export identity fields and summaries; do not export protocol text or treatment values. Never convert record counts into biological-unit counts.",
+  "missingness_and_exclusions": "Missing identity fields remain missing; incomplete or conflicting accession joins stop extraction. No sample is silently dropped and no animal identity is imputed.",
+  "multiplicity": "No hypothesis tests or inferential comparisons are performed.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This is a deposited-metadata inventory, not a sample-size or power justification; biological-unit variance remains unknown.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "An accession inventory does not establish replication, fate linkage, receptor activity, protein delivery, causal mechanisms or experimental readiness. Public file names are not audited expression contents.",
+  "stop_rule": "Stop if SOFT identity/membership checks fail. After successful extraction, hold any scientific contrast whose units, timing, endpoint or source attribution remain unresolved; do not score expression under this contract.",
+  "inputs": [
+    {
+      "path": "raw_data/source_qualification_20261003/GSE303646_family.soft",
+      "sha256": "883c3ce7fd185109e3e6b4e42a9aa36f070b3a0ef930e0c4d633cd595dc99a0c",
+      "study_id": "GSE303646",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_geo_metadata_v1.py",
+      "sha256": "cf8fb66e45192775e132390fd54bd44c38cca5f598f6bfee1fbdafc1bdcdc5e7"
+    },
+    {
+      "path": "analysis/tests/test_geo_metadata_qualification.py",
+      "sha256": "a2e4cec00ac147f064a10db9b978dc5c50ed8ba2ba441c0ac2fb8d3af8de21df"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/qualify_geo_metadata_v1.py",
+  "arguments": [
+    "--input",
+    "raw_data/source_qualification_20261003/GSE303646_family.soft",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "inventory.json",
+    "samples.tsv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial registered metadata qualification; prior source and outcome exposure is explicit. Historical biological results and contracts remain unchanged."
+}

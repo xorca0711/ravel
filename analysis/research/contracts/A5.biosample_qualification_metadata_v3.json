@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.biosample_qualification_metadata_v3",
+  "owner": "A5",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Does the current GEO deposit resolve the library-to-mouse and author-state joins missing from A5 replication qualification? Can the linked BioSample records supply missing source-unit identities?",
+  "decision": "Compare newly retrieved deposited fields with the existing source audit and determine whether the original replication hold can be lifted.",
+  "strongest_rival": "Fifty-six library identifiers can represent fewer animals, and source vocabulary without barcode labels cannot establish eligible biological arms.",
+  "discriminator": "Exact deposited accession membership and matching MUC library aliases, with absent reverse GEO links reported rather than invented.",
+  "evidence_refs": [
+    "docs/research_dossiers/A5.md",
+    "docs/research_dossiers/followup_2026-10-03/README.md",
+    "docs/research_dossiers/followup_2026-10-03/A5_FAILED_RUN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The prior GEO inventory, published findings and one representative BioSample record were inspected before this freeze. All public XML responses were acquired before freezing. No expression values are read; this is exposed metadata recovery. The v2 schema failure and representative MUC alias scheme were inspected before the v3 freeze.",
+  "biological_unit": "Animal, donor or independent source preparation; unresolved at the intended comparison level.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "GEO samples are library records and may share animals, pools, preparations, wells or parent series. No cross-study independence or sample-to-animal mapping is inferred by this parser.",
+  "population_and_selection": "All GEO SAMPLE entities in the listed frozen SOFT inputs and all explicitly linked BioSample records; no outcome selection.",
+  "contrast": "Descriptive comparison of deposited identity fields and sample membership against the scientific question; no gene-level or population contrast.",
+  "endpoint": "GEO/BioSample/submitter-library-alias crosswalk, reverse-link presence and deposited attribute-key coverage; no per-mouse or per-cell-state inference.",
+  "methods": "Validate the frozen GEO family and explicit SAMN relationships. Require exact returned accession membership, one unique MUC submitter alias per BioSample and an exact match to the GEO title MUC prefix. Reject any conflicting reverse GEO identifier. Export only selected identity values and all attribute names; report missing reverse links and keep biological-unit count null.",
+  "missingness_and_exclusions": "Missing accession, alias, conflicting reverse link, membership mismatch or repeated aliases stop extraction. Absent reverse GEO IDs are reported as absent. No biological mouse identity or barcode/state assignment is imputed.",
+  "multiplicity": "No hypothesis tests or inferential comparisons are performed.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This is a deposited-metadata inventory, not a sample-size or power justification; biological-unit variance remains unknown.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "An accession inventory does not establish replication, fate linkage, receptor activity, protein delivery, causal mechanisms or experimental readiness. Public file names are not audited expression contents.",
+  "stop_rule": "Stop if SOFT identity/membership checks fail. After successful extraction, hold any scientific contrast whose units, timing, endpoint or source attribution remain unresolved; do not score expression under this contract.",
+  "inputs": [
+    {
+      "path": "raw_data/source_qualification_20261003/GSE303646_family.soft",
+      "sha256": "883c3ce7fd185109e3e6b4e42a9aa36f070b3a0ef930e0c4d633cd595dc99a0c",
+      "study_id": "GSE303646",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE303646_biosample_01.xml",
+      "sha256": "1ddabbc04f2a8e0144e6c88c11a59424c117da24995370ceb1b64413298fa1a5",
+      "study_id": "GSE303646",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_a5_biosample_metadata_v3.py",
+      "sha256": "beb9ae249c81ecc7988ae055738182e2efc264c2177c18a493a6292c7a7e5745"
+    },
+    {
+      "path": "analysis/scripts/qualify_biosample_metadata_v1.py",
+      "sha256": "657c5499bf3bdf5b21aa2ed41da8c28889c314d720ef3d2c061258e622a1d909"
+    },
+    {
+      "path": "analysis/scripts/qualify_geo_metadata_v1.py",
+      "sha256": "cf8fb66e45192775e132390fd54bd44c38cca5f598f6bfee1fbdafc1bdcdc5e7"
+    },
+    {
+      "path": "analysis/tests/test_a5_biosample_qualification.py",
+      "sha256": "6776523bb1efd1b94781a339783dcaf4cbb1d0cb8829868a15b570b2c2a45b55"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/qualify_a5_biosample_metadata_v3.py",
+  "arguments": [
+    "--soft",
+    "raw_data/source_qualification_20261003/GSE303646_family.soft",
+    "--biosample",
+    "raw_data/source_recovery_20261003/GSE303646_biosample_01.xml",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "inventory.json",
+    "sample_links.tsv"
+  ],
+  "amendment_of": "analysis/research/contracts/A5.biosample_qualification_metadata_v2.json",
+  "amendment_reason": "The v2 run stopped because this independently submitted BioSample series omits reverse GEO IDs. Preserve its failure record. Use the actual GEO-declared SAMN accession plus an exact submitter-library-alias check; a contradictory reverse ID still stops the run. This only qualifies library metadata and changes no biological eligibility requirement."
+}

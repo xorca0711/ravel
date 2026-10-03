@@ -1,5 +1,7 @@
 # A10: epithelial and niche programmes against measured organoid growth
 
+**Current development framing:** [A10 development dossier](../../docs/research_dossiers/A10.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 ## Organizing biological question
 
 > Do epithelial programmes add information about measured organoid growth?

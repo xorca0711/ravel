@@ -1,0 +1,26 @@
+# Source recovery beyond the GEO inventory
+
+The previous [GEO qualification](../qualification_2026-10-03/RESULTS.md) remains intact. This pass queried the BioSample accessions explicitly linked in those five frozen SOFT files. It retrieved 13 XML responses and verified 984 library-record joins. Accessions and SRA sample IDs are database identities; none is automatically an independent animal, donor or preparation.
+
+| Source / questions | New evidence | Decision and exact missing export |
+|---|---|---|
+| GSE169125 / A2, A9 | All 18 GSM/SAMN pairs and titles agree. BioSample attributes are source, cell type, strain and treatment; no animal or preparation identity was added. The Kaiser full-text attachment inventory lists Table S1 and F4/F5/FS5 blot files, with no F6 source workbook listed. | Recipient-expression source only. Need `GSM → animal or animal pool → isolation/preparation → split well`, including shared starting material and supplied-input context. A suffix on a title is not a replicate declaration. Availability, receptor activity and delivery remain separate measurements. |
+| GSE303646 / A5 | All 56 GEO-declared SAMN accessions match unique MUC submitter library aliases. All lack a reverse GEO ID in BioSample. Attributes include age, breed, ecotype, sex, tissue and treatment, but no mouse ID or cell-state assignment. The author GitHub HEAD remains `e52bede4d8a0f9a8a07cb88ceb557fe01455d0c0`. | Keep the replication hold. Need the named author's per-cell object export: barcode, library/identifier, biological mouse, original state label and pool/split mapping. Reconcile 55 reported mice with 56 libraries. A MUC alias remains a library, not a newly recovered mouse. |
+| GSE247130 / A7 | All 12 RNA/ATAC library records join exactly; age/sex/genotype/tissue fields add no pool membership or individual-animal identity. | Preserve the six CEBPA condition contexts. Need RNA/ATAC library → shared cell pool → contributing animals → preparation/assay split. Paired assays do not supply independent genotype replication. |
+| GSE310539 / A7 | All eight AP-1 library records join exactly; genotype, cell type and library-type fields do not resolve pool composition. | Keep this four-context AP-1 study separate from CEBPA. Request the same pool/preparation map only if a relevant analysis is pursued. |
+| GSE307351 / A10, A22 | All 890 records and titles match: batch on all records, cell type on the 886 screen records, tissue/treatment on four spatial records. No animal/preparation identifier is supplied. | Screen: need well/plate → epithelial preparation/animal pool and fibroblast donor/preparation, including common mixtures. Spatial: need sample/block/section → animal and region, plus authoritative treatment identity. Preserve the existing paper/GEO treatment discrepancy. |
+
+The existing A10 source statement already identifies split wells from a common starting mixture; the metadata pass does not upgrade them to independent preparations. The four spatial blocks similarly remain blocks until an animal map is recovered. Full source text is not evidence that an unlisted export exists nowhere else.
+
+## Execution and provenance
+
+The v2 contracts/parser were committed at `a2e6d7c` before execution. A2, A7 and A22 passed. A5 stopped because the required reverse GEO identifier is absent; [the original failed receipt and rationale](A5_FAILED_RUN.md) are retained. Its source-specific v3 amendment was committed at `686593b` before rerunning. The amendment checks the actual deposited accession and exact MUC alias; it rejects contradictory reverse links and keeps missing reverse links explicit. It does not change the biological eligibility gate.
+
+| Owner | Successful run / outputs |
+|---|---|
+| A2 | [Receipt](../../../analysis/research/runs/a2_biosample_qualification_v2/receipt.json), [inventory](../../../analysis/research/runs/a2_biosample_qualification_v2/inventory.json), [crosswalk](../../../analysis/research/runs/a2_biosample_qualification_v2/sample_links.tsv) |
+| A5 | [Receipt](../../../analysis/research/runs/a5_biosample_qualification_v3/receipt.json), [inventory](../../../analysis/research/runs/a5_biosample_qualification_v3/inventory.json), [crosswalk](../../../analysis/research/runs/a5_biosample_qualification_v3/sample_links.tsv) |
+| A7 | [Receipt](../../../analysis/research/runs/a7_biosample_qualification_v2/receipt.json), [inventory](../../../analysis/research/runs/a7_biosample_qualification_v2/inventory.json), [crosswalk](../../../analysis/research/runs/a7_biosample_qualification_v2/sample_links.tsv) |
+| A22 | [Receipt](../../../analysis/research/runs/a22_biosample_qualification_v2/receipt.json), [inventory](../../../analysis/research/runs/a22_biosample_qualification_v2/inventory.json), [crosswalk](../../../analysis/research/runs/a22_biosample_qualification_v2/sample_links.tsv) |
+
+These crosswalks provide exact request keys if the owner later elects to approach a source author. No request was sent. All input/code/output hashes and every output identity join were independently recalculated by a separate verification implementation; this is mechanical verification by the same agent, not independent scientific review or biological replication. See [verification](VALIDATION.md).

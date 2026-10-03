@@ -1,5 +1,7 @@
 # Reproducibility guide
 
+Prospective substantive analyses now follow [research governance](docs/RESEARCH_GOVERNANCE.md). Run `python analysis/scripts/research_gate.py check` and, against an integration base, `python analysis/scripts/research_gate.py check --base origin/main`. Historical scripts retain their original dependencies and may overwrite outputs; use their archived evidence for verification.
+
 This repository supports three levels of verification. The first two use only
 tracked files. Scientific reruns require each analysis's pinned inputs,
 dependencies and commands; later question-specific analyses extend beyond the

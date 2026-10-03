@@ -1,5 +1,7 @@
 # A8: does a maturation component add information about mature AT1 contribution?
 
+**Current development framing:** [A8 development dossier](../../docs/research_dossiers/A8.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 **Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.
 
 **Conditional candidates reviewed 1 October 2026:** [Nb3 and England maturation branches](RELATED_CANDIDATES_2026-10-01.md) retain the missing predictor-to-outcome linkage as a gate.

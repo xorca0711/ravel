@@ -1,5 +1,7 @@
 # A13: fibroblast programmes beyond macrophage interleukin-1 beta
 
+**Current development framing:** [A13 development dossier](../../docs/research_dossiers/A13.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 **Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.
 
 **Related branch reviewed 1 October 2026:** [Nb3 epithelial-to-fibroblast

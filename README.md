@@ -68,6 +68,7 @@ and the [execution roadmap](docs/RESEARCH_ROADMAP.md) records current priorities
 | Figures and the reports that interpret them | [Question figure index](RQ_Specified/FIGURES.md) and [paper galleries](Research%20Article/README.md#figure-galleries) |
 | Evidence grades, corrections and negative results | [Claim register](CLAIMS.md), [generated summary](docs/CLAIM_SUMMARY.md) and [negative-results index](NEGATIVE_RESULTS.md) |
 | Reproduce the work or inspect analytical decisions | [Reproducibility guide](REPRODUCIBILITY.md), [documentation index](docs/README.md) and [decision record](DEVELOPMENT.md) |
+| Develop a research question or contribute an analysis | [Evidence dossiers](docs/research_dossiers/README.md) and [research governance](docs/RESEARCH_GOVERNANCE.md) |
 
 ## How the research is organized
 

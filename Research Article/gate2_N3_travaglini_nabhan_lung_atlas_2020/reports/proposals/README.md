@@ -122,3 +122,9 @@ The common contract follows
 [measurement contracts](../../../../docs/RQ_MEASUREMENT_CONTRACTS.md).
 The earlier immutable runs and their negative/inconclusive results remain
 unchanged. Main README stays universal.
+
+## Conditional supplements — subsequent 3 October continuation
+
+The [nine conditional supplements](../../../../docs/research_dossiers/packages_2026-10-03/NB4.md)
+develop the existing candidates without changing their source gates, ownership
+or numerical status. Owner scientific review remains pending.

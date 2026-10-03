@@ -1,0 +1,32 @@
+{
+  "status": "applied_and_read_back",
+  "observed_at": "2026-10-02T18:17:32.768579+00:00",
+  "repository": "xorca0711/scRNA_seq",
+  "branch": "main",
+  "initial_main_protection": "none",
+  "initial_rulesets": [],
+  "required_checks": [
+    {
+      "context": "validate",
+      "app_id": 15368
+    },
+    {
+      "context": "research-governance",
+      "app_id": 15368
+    }
+  ],
+  "require_up_to_date_branch": true,
+  "enforce_admins": true,
+  "required_pull_request_reviews": {
+    "dismiss_stale_reviews": true,
+    "require_code_owner_reviews": false,
+    "require_last_push_approval": false,
+    "required_approving_review_count": 0
+  },
+  "allow_force_pushes": false,
+  "allow_deletions": false,
+  "required_conversation_resolution": true,
+  "independent_human_review_enforced": false,
+  "limitation": "An agent with owner administration credentials can change policy; repository files cannot restrict those credentials. Zero required approvals avoids an impossible self-review requirement. Scientific acceptance remains an owner decision.",
+  "documentation": "https://docs.github.com/en/rest/branches/branch-protection#update-branch-protection"
+}

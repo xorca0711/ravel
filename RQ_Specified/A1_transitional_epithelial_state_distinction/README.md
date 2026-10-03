@@ -1,5 +1,7 @@
 # A1: Distinguishing transitional epithelial states
 
+**Current development framing:** [A1 development dossier](../../docs/research_dossiers/A1.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 **Conditional candidates reviewed 1 October 2026:** [Nb3 response-pattern
 candidate and HLCA population-definition constraint](../../RESEARCH_QUESTIONS.md#a1-candidates-20261001).
 These nominate comparisons; they supply no regulatory-to-fate linkage or new

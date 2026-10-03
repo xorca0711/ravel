@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A2.source_qualification_metadata_v1",
+  "owner": "A2",
+  "contract": "analysis/research/contracts/A2.source_qualification_metadata_v1.json",
+  "contract_sha256": "91240b8b5555b5c7333913e19efdd54bf0e4c06548dd81683acb5adc6f7c04d9",
+  "git_commit": "6ef2cf9d3017722297d3b5f4a3f5cbb8e1d9cee1",
+  "started_at": "2026-10-03T00:56:46.480728+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/qualify_geo_metadata_v1.py",
+    "--input",
+    "raw_data/source_qualification_20261003/GSE169125_family.soft",
+    "--output",
+    "analysis/research/runs/a2_source_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/source_qualification_20261003/GSE169125_family.soft",
+      "sha256": "5da88907e2e503d6a00e5bdfb84991a8805b9d50439a608a062b560b78ad73c6",
+      "study_id": "GSE169125",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_geo_metadata_v1.py",
+      "sha256": "cf8fb66e45192775e132390fd54bd44c38cca5f598f6bfee1fbdafc1bdcdc5e7"
+    },
+    {
+      "path": "analysis/tests/test_geo_metadata_qualification.py",
+      "sha256": "a2e4cec00ac147f064a10db9b978dc5c50ed8ba2ba441c0ac2fb8d3af8de21df"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/a2_source_qualification_v1/inventory.json",
+      "sha256": "17de5e8eac513e45b05a345ecf20d02196f97c19f133388971fe963afbc940eb"
+    },
+    {
+      "path": "analysis/research/runs/a2_source_qualification_v1/samples.tsv",
+      "sha256": "3ec6e11eedc1b3fb5d5f0076191c715f254c1f4d14b80be8030b70c5071065a2"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T00:56:47.310856+00:00"
+}

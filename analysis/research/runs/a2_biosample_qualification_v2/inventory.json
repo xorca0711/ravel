@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "studies": [
+    {
+      "series": "GSE169125",
+      "geo_records": 18,
+      "biosample_records": 18,
+      "exact_title_matches": 18,
+      "attribute_key_record_counts": {
+        "cell_type": 18,
+        "source_name": 18,
+        "strain": 18,
+        "treatment": 18
+      },
+      "biological_unit_count": null,
+      "unit_status": "not_determined_by_parser"
+    }
+  ],
+  "expression_read": false,
+  "interpretation": "Matched database identities do not establish animals, pools, preparations, fate or independent replication."
+}

@@ -2333,3 +2333,123 @@ the results, fifteen-figure gallery and expanded archive checks.
 
 See the [planning index](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/proposals/README.md).
 Existing results, canonical numbering and scientific acceptance remain unchanged.
+
+## Repository grounding and preservation, 3 October 2026
+
+The owner requested a whole-repository repair after the other session completed:
+fetch current main, retain time for research development, and ground all RQs in
+hypotheses and evidence rather than choose a preferred RQ immediately. Codex
+preserved dirty/detached work and implemented the isolated repair branch.
+
+| Responsibility or decision | Authority and status |
+|---|---|
+| Whole-repo grounding, main fetch and proceeding with the proposal | Owner instruction in the current session |
+| Dossiers, reconciliation, contract runner, CI and documentation | Codex implementation; owner scientific review pending |
+| Keep 3A/3B reading open while S1/D1 analysis remains gated | Existing owner reading decision of 1 October; selectively recovered from local work |
+| Select an RQ, accept a mechanism or promote a claim grade | Not done; remains an owner scientific decision |
+| Treat frozen historical work as retrospectively preregistered | Rejected approach: prior exposure cannot be erased |
+| Restore an old checkout wholesale over newer main | Rejected approach: later corrections and Nb4 work would be lost |
+| Claim prompts or schemas force scientific truth | Rejected approach: structural gates and integration controls have explicit limits |
+
+See the [repair report](docs/audits/2026-10-03-repository-repair/REPORT.md)
+for per-file reconciliation, preservation and verification. No numerical
+biological analysis, experiment or new claim acceptance occurred in this repair.
+
+
+## Primary-source and feasibility review, 3 October 2026
+
+The owner authorized proceeding to the next stage after the repository repair. Codex performed a bounded primary-source and feasibility review of all 24 RQs and nine Nb4 candidates. [Review and limitations](docs/research_dossiers/review_2026-10-03/README.md). No numerical biological analysis, claim promotion, RQ selection or owner scientific acceptance occurred.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Proceed to scientific grounding after the repair | Owner request | Owner authorized work; scientific acceptance pending | Record established precedents, remaining discriminators and feasibility gates | Develop the portfolio before choosing an RQ or experiment |
+| 2026-10-03 | Correct first-pass dossiers and evidence locators | Codex review | Codex implementation correction; owner review pending | Restore original question direction and current evidence authority | The initial reformulation introduced scope and provenance errors |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Codex A0 lung-maturation redirection and A2 epithelial-recipient wording | A0 displaced a stopped cross-tissue test into A8; A2 concerns fibroblast response | Codex self-correction against canonical evidence |
+| 2026-10-03 | Codex A7 England and A9 Nb3 primary evidence locators | The relevant observations belong to ES1/CEBPA and the corrected ligand audit | Codex self-correction; no human rejection inferred |
+| 2026-10-03 | Codex A13 epithelial-to-fibroblast framing | Reversed the original direction and overlapped A22 | Codex self-correction preserving the negative original model |
+| 2026-10-03 | Codex A20 effect-beyond-pool hypothesis | Inverted the existing narrowed pool-maintenance proposal | Codex self-correction against NARROWED_HYPOTHESIS.md |
+| 2026-10-03 | Broad-versus-state-selective dichotomy and automatic adjustment language | Broad effects and interactions can coexist; post-treatment state, survival and pool size may be mediators or selection variables | Codex clarified interpretation boundaries; no new causal result |
+
+
+## Source and capability qualification, 3 October 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Proceed to source and capability qualification | Owner request | Owner authorized stage; scientific acceptance pending | Execute four exposed metadata contracts and document all-question dispositions | Resolve source identity and specific enabling inputs without choosing an RQ |
+| 2026-10-03 | Metadata parser, sample tables and mechanical verification | Codex implementation | Codex recorded execution; owner scientific review pending | Keep biological-unit count undetermined and retain current inference holds | Deposited libraries, pooled assays and subseries are not independent units |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Runner receipts used resolved machine paths | Public receipts should contain portable replay commands, not local executable/worktree paths; execution and hash gates remain intact | Codex implementation correction with regression test; PR review pending |
+| 2026-10-03 | A7 summary could be read as ten CEBPA wells | Fresh source records distinguish six CEBPA and four AP-1 condition contexts | Codex clarified source split; frozen ES1 results unchanged |
+| 2026-10-03 | A11 novelty review was incomplete | Direct 2020/2026 precedents establish generic HPCS function and regeneration overlap; the exact residual-component contribution still needs qualification | Codex bounded source comparison; no owner rejection or claim promotion inferred |
+
+See the [qualification report](docs/research_dossiers/qualification_2026-10-03/README.md). No expression values, new biological fit, wet experiment or external outreach were performed. All prior contracts, receipts and frozen scientific assets are retained.
+
+## Source recovery and checkout consolidation, 3 October 2026
+
+The owner explicitly authorized remaining jobs 2, 3, 4 and 6, reserved article/capability preparation for themselves, and said they would merge the PR. Codex implemented the [follow-up](docs/research_dossiers/followup_2026-10-03/README.md); scientific acceptance and integration remain owner decisions.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Consolidate primary checkout | Owner request | Owner authorized; Codex implemented | Preserve 685 paths on a local recovery branch, retain private settings and verify ignored files, then use a separate PR review branch | Make the normal checkout usable without discarding old work or merging the PR |
+| 2026-10-03 | Extend metadata qualification | Owner request / Codex implementation | Codex execution; scientific acceptance pending | Freeze new contracts and verify 984 library identity joins; retain missing biological identities | Database identities are not independent units |
+| 2026-10-03 | Qualify outcomes and novelty | Owner request | Codex bounded review; owner review pending | Record exact missing joins and contribution boundaries across the portfolio | Published endpoints and generic plasticity do not automatically answer the current RQs |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | A5 required a reverse GEO ID in every BioSample | Independently submitted records use MUC sample aliases and omit that field. The first run stopped; its receipt remains. A prospectively frozen source-specific amendment verifies exact declared accessions/aliases and rejects contradictory reverse IDs | Codex correction; no biological gate relaxed |
+| 2026-10-03 | Hash-bound metadata code was subject to Windows newline conversion | A real checkout produced different byte hashes. Exact-byte Git attributes cover only the six bound files; frozen source contents and hashes remain unchanged | Codex portability fix; owner PR review pending |
+| 2026-10-03 | General AT2 flexibility or cancer developmental-program overlap could appear novel | Frank 2016 and direct HPCS/developmental-program precedents already support those broad claims; precise residual comparisons remain open | Codex source-grounded clarification; no question rejected or result promoted |
+
+The old worktrees and their ignored inputs remain retained. No external outreach, expression fit, laboratory work, RQ selection or PR merge occurred.
+
+Final preservation verification also caught newline normalization of the separately archived failed A5 receipt. Codex added an exact-byte attribute for that archive and restored the original receipt bytes/hash from the retained runner output. Its failed status, the successful amendment and all scientific results remain unchanged.
+
+## Published model review and continuation audit, 3 October 2026
+
+The owner supplied research papers, requested funded-direction/model comparison,
+confirmed no host access, and explicitly authorized a subagent for that bounded
+comparison. Codex reviewed the returned private artifact and integrated public
+method evidence and the [completion audit](docs/research_dossiers/capabilities_2026-10-03/NEXT_STEPS.md).
+The latest request is an accurate PR revision and a Claude Science continuation
+handoff. It does not constitute scientific acceptance or permission to merge.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Assess papers, published models and funded future directions | Owner | Owner authorized work; scientific review pending | Codex main reviewed 32-PDF inventory/method evidence; one user-authorized subagent wrote the private eight-lab comparison | Ground feasibility without attributing collaborators' models or grant aims to confirmed host access |
+| 2026-10-03 | Audit original plan and revise open PR/handoff | Owner | Codex implementation; owner integration pending | Record each original job's completed and remaining portions; retain full experiment packages as unfinished | Prior research dossiers do not yet establish bench readiness |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Preliminary uncommitted capability-stage index listed 24 conditional packages as deliverables | Only the model review and status audit had been written when the owner requested a continuation handoff; the final index explicitly leaves packages pending | Codex corrected its draft before integration; no human rejection inferred |
+| 2026-10-03 | Published method/coauthorship/funding could be read as actual laboratory capability | Owner confirms no access; Yadav assigns Wagner spatial analysis, and future funded models need local validation | Codex and the authorized subagent qualified attribution/access; no lab availability inferred |
+
+No existing scientific script, frozen output, source contract, run receipt or
+claim grade changed. No new expression analysis, outreach, RQ selection or merge
+was performed. The private comparison and handoff are intentionally outside Git.
+
+## 3 October 2026: conditional package continuation
+
+The owner requested continuation of the scientific handoff. Codex authored
+24 packages and nine Nb4 supplements, checked targeted primary precedents and
+inspected labels in a new public supporting workbook. No subagent was used.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Conditional designs and eligibility ledger | Codex under owner continuation request | Owner authorized work; scientific acceptance/integration pending | Prepare all-question drafts with explicit unknowns and stop decisions | Complete independent package development without inventing access or positive results |
+| 2026-10-03 | Rochelle supporting workbook intake | Codex | Codex source-reading decision; owner review pending | Record donor/time labels and missing preparation links | Partial identity recovery does not establish the A8/A19 comparison |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | A11 draft offered alternative primary estimands | Specify patient-held-out log-loss increment; paired context differences become secondary | Codex self-review; no human rejection inferred |
+| 2026-10-03 | A21 draft equated later gCap counts with renewal | Require new progeny with division evidence and retained gCap identity | Codex self-review |
+| 2026-10-03 | Proposed dossier-tail and current-progress replacements | Automatic approval review rejected potential loss of prior content; all existing-document additions are append-only | Automatic approval review; Codex adopted safer edits |
+
+No governance, validator, frozen code/output, contract, receipt or claim grade
+was changed. Packages await explicit owner scientific review; no outreach,
+experimental procedure, scientific acceptance or merge occurred.
+See the [stage ledger](docs/research_dossiers/packages_2026-10-03/LEDGER.md).

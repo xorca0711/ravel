@@ -1,5 +1,7 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
+**Current development framing:** [A2 development dossier](../../docs/research_dossiers/A2.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 **Conditional source-state branch reviewed 1 October 2026:** [Cardoso source
 decomposition and England coordinated outputs](../../RESEARCH_QUESTIONS.md#a2-candidates-20261001)
 specify an upstream rival already relevant to A2. They do not establish ligand

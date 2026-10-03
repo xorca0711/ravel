@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "series": "GSE303646",
+  "geo_records": 56,
+  "biosample_records": 56,
+  "exact_library_alias_matches": 56,
+  "reverse_geo_links": 0,
+  "attribute_key_record_counts": {
+    "age": 56,
+    "breed": 56,
+    "collection_date": 56,
+    "ecotype": 56,
+    "geo_loc_name": 56,
+    "sex": 56,
+    "tissue": 56,
+    "treatment": 56
+  },
+  "biological_unit_count": null,
+  "unit_status": "not_determined_by_parser",
+  "expression_read": false,
+  "interpretation": "GEO-declared accessions and matching submitter library aliases establish a metadata join, not independent mice or a barcode/state map."
+}

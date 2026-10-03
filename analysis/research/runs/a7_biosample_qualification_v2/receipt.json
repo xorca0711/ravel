@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A7.biosample_qualification_metadata_v2",
+  "owner": "A7",
+  "contract": "analysis/research/contracts/A7.biosample_qualification_metadata_v2.json",
+  "contract_sha256": "c3617cae16499fcd27701d6d69be2418d2a4484ed130d697a954f7448f2296c5",
+  "git_commit": "a2e6d7c9f5fc613ebea68a3b204cb8098d025de5",
+  "started_at": "2026-10-03T02:05:56.920819+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/qualify_biosample_metadata_v1.py",
+    "--soft",
+    "raw_data/source_qualification_20261003/GSE247130_family.soft",
+    "raw_data/source_qualification_20261003/GSE310539_family.soft",
+    "--biosample",
+    "raw_data/source_recovery_20261003/GSE247130_biosample_01.xml",
+    "raw_data/source_recovery_20261003/GSE310539_biosample_01.xml",
+    "--output",
+    "analysis/research/runs/a7_biosample_qualification_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/source_qualification_20261003/GSE247130_family.soft",
+      "sha256": "9e5ffd8722a8ae60fb0dfd09af14f4a97b15dd2609967a371ec27adde03abb79",
+      "study_id": "GSE247130",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_qualification_20261003/GSE310539_family.soft",
+      "sha256": "4b676b0a4de7790ea12ea1a8e31332336eaec94eca6e4a23817dd1a6e3c48556",
+      "study_id": "GSE310539",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE247130_biosample_01.xml",
+      "sha256": "44af0c0cc24996b288bcf91c4c1812abba427cf9a8fbe5eb16df48bf4056d027",
+      "study_id": "GSE247130",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE310539_biosample_01.xml",
+      "sha256": "b3a61a4fccc663ffd0b766275923a8edd16bdacf3ab082be17558831588282c1",
+      "study_id": "GSE310539",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_biosample_metadata_v1.py",
+      "sha256": "657c5499bf3bdf5b21aa2ed41da8c28889c314d720ef3d2c061258e622a1d909"
+    },
+    {
+      "path": "analysis/scripts/qualify_geo_metadata_v1.py",
+      "sha256": "cf8fb66e45192775e132390fd54bd44c38cca5f598f6bfee1fbdafc1bdcdc5e7"
+    },
+    {
+      "path": "analysis/tests/test_biosample_metadata_qualification.py",
+      "sha256": "809ca25b94ef9ac5b88fde94ec898230ee32bc71143a81a300f5fe1438b4062a"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/a7_biosample_qualification_v2/inventory.json",
+      "sha256": "82706c61f27ee285d23714c52af1a1793395348ddb4f50d5db4f7db3dda93597"
+    },
+    {
+      "path": "analysis/research/runs/a7_biosample_qualification_v2/sample_links.tsv",
+      "sha256": "a9d072d4aca80e8e34956f41b13ba9f2ece71222557e0537d1adc0abb541ae22"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T02:05:57.398100+00:00"
+}

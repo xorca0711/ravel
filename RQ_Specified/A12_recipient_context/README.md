@@ -1,5 +1,7 @@
 # A12: recipient context beyond ligand RNA
 
+**Current development framing:** [A12 development dossier](../../docs/research_dossiers/A12.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+
 ## Organizing biological question
 
 > Does recipient receptor and inhibitor context explain responses beyond IL-1 ligand RNA?
