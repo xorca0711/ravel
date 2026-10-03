@@ -2354,3 +2354,21 @@ preserved dirty/detached work and implemented the isolated repair branch.
 See the [repair report](docs/audits/2026-10-03-repository-repair/REPORT.md)
 for per-file reconciliation, preservation and verification. No numerical
 biological analysis, experiment or new claim acceptance occurred in this repair.
+
+
+## Primary-source and feasibility review, 3 October 2026
+
+The owner authorized proceeding to the next stage after the repository repair. Codex performed a bounded primary-source and feasibility review of all 24 RQs and nine Nb4 candidates. [Review and limitations](docs/research_dossiers/review_2026-10-03/README.md). No numerical biological analysis, claim promotion, RQ selection or owner scientific acceptance occurred.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Proceed to scientific grounding after the repair | Owner request | Owner authorized work; scientific acceptance pending | Record established precedents, remaining discriminators and feasibility gates | Develop the portfolio before choosing an RQ or experiment |
+| 2026-10-03 | Correct first-pass dossiers and evidence locators | Codex review | Codex implementation correction; owner review pending | Restore original question direction and current evidence authority | The initial reformulation introduced scope and provenance errors |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Codex A0 lung-maturation redirection and A2 epithelial-recipient wording | A0 displaced a stopped cross-tissue test into A8; A2 concerns fibroblast response | Codex self-correction against canonical evidence |
+| 2026-10-03 | Codex A7 England and A9 Nb3 primary evidence locators | The relevant observations belong to ES1/CEBPA and the corrected ligand audit | Codex self-correction; no human rejection inferred |
+| 2026-10-03 | Codex A13 epithelial-to-fibroblast framing | Reversed the original direction and overlapped A22 | Codex self-correction preserving the negative original model |
+| 2026-10-03 | Codex A20 effect-beyond-pool hypothesis | Inverted the existing narrowed pool-maintenance proposal | Codex self-correction against NARROWED_HYPOTHESIS.md |
+| 2026-10-03 | Broad-versus-state-selective dichotomy and automatic adjustment language | Broad effects and interactions can coexist; post-treatment state, survival and pool size may be mediators or selection variables | Codex clarified interpretation boundaries; no new causal result |

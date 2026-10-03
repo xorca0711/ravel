@@ -44,11 +44,26 @@ for actual checks and [repair report](docs/audits/2026-10-03-repository-repair/R
 for GitHub integration protection and remaining limitations. Do not infer passed
 checks or active server protection from this summary alone. Main protection was applied and read back: both GitHub Actions checks are required on an up-to-date PR, administrators are included, and force pushes/deletion are blocked. There is no independent-review requirement on this single-owner repository.
 
+## Scientific review completed on this branch
+
+The [3 October review](docs/research_dossiers/review_2026-10-03/README.md) records
+20 primary-source leads/precedents with access limits, a feasibility gate for
+every A0–A23 and a nine-candidate Nb4 crosswalk. Corrections restore A0's stopped
+transfer scope, A2's recipient, A7/A9 provenance, A13's signaling direction and
+A20's existing pool-maintenance hypothesis. Broad published mechanisms are
+separated from possible narrower contributions. This is a bounded review;
+exhaustive novelty, A11's lesion-specific comparison and actual lab capabilities
+remain unresolved. No new biological calculation or experimental protocol ran.
+Stage-specific verification is in the [review validation record](docs/research_dossiers/review_2026-10-03/VALIDATION.md).
+
 ## Next work
 
-1. Review proposed discriminators and their primary-source novelty with the owner.
-2. Qualify missing units, timing, measurements and lab feasibility for any branch
-   worth developing; do not force selection because a dataset is convenient.
+1. Review the corrected question scopes with the owner; scientific acceptance remains pending.
+2. Perform source/capability qualification using the per-question gates, including
+   missing units, timing, measurements, source overlap and actual lab access.
+   GSE169125 is an A2/A9 metadata lead, not qualified replication. Finish targeted
+   novelty review of any exact hypothesis before commitment, particularly A11.
+   Do not force selection because a dataset is convenient.
 3. Register a prospective contract before a substantive numerical continuation.
 4. Establish assay validity, meaningful effect and independent-unit variance
    before a confirmatory experimental design. Unknowns remain explicit.
