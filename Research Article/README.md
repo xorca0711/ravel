@@ -2,7 +2,8 @@
 
 **Nb5, Gate 2N N4:** [mouse ageing atlas](gate2_N4_nabhan_aging_atlas_2020/README.md) · [analysis plan](gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md) · [handwritten-note reconciliation](gate2_N4_nabhan_aging_atlas_2020/NOTE_RECONCILIATION.md).
 Owner reading completed 3 October 2026. [Eight article-local candidates](gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md) are
-structured separately from source reproduction; metadata qualification and numerical analyses remain unrun.
+structured separately from source reproduction. [First analysis results](gate2_N4_nabhan_aging_atlas_2020/RESULTS.md)
+and [six figure plates](gate2_N4_nabhan_aging_atlas_2020/FIGURES.md) are available; source discrepancies and branch-specific holds remain explicit.
 
 **Nb4, Gate 2N N3:** [article package](gate2_N3_travaglini_nabhan_lung_atlas_2020/README.md) · [15-figure gallery](gate2_N3_travaglini_nabhan_lung_atlas_2020/FIGURES.md) · [execution and provenance](gate2_N3_travaglini_nabhan_lung_atlas_2020/EXECUTION.md).
 

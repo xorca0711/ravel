@@ -325,35 +325,75 @@
     },
     {
       "id": "Nb5-P01",
-      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P01_composition_expression.md"
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P01_composition_expression.md",
+      "evidence": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+      ]
     },
     {
       "id": "Nb5-P02",
-      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P02_microglial_intermediate_state.md"
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P02_microglial_intermediate_state.md",
+      "evidence": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+      ]
     },
     {
       "id": "Nb5-P03",
-      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P03_lung_age_injury_context.md"
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P03_lung_age_injury_context.md",
+      "evidence": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+      ]
     },
     {
       "id": "Nb5-P04",
-      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P04_shared_organ_specific_ageing.md"
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P04_shared_organ_specific_ageing.md",
+      "evidence": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+      ]
     },
     {
       "id": "Nb5-P05",
-      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P05_marker_and_assay_specificity.md"
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P05_marker_and_assay_specificity.md",
+      "evidence": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+      ]
     },
     {
       "id": "Nb5-P06",
-      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P06_clonality_sampling.md"
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P06_clonality_sampling.md",
+      "evidence": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+      ]
     },
     {
       "id": "Nb5-P07",
-      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P07_sex_age_interaction.md"
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P07_sex_age_interaction.md",
+      "evidence": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+      ]
     },
     {
       "id": "Nb5-P08",
-      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P08_age_shape_and_selection.md"
+      "plan": "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P08_age_shape_and_selection.md",
+      "evidence": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+      ]
     }
   ],
   "contracts": [
@@ -389,7 +429,8 @@
     "analysis/research/runs/nb5_descriptive_v1/receipt.json",
     "analysis/research/runs/nb5_repertoire_v2/receipt.json",
     "analysis/research/runs/nb5_source_audit_v1/receipt.json",
-    "analysis/research/runs/nb5_figures_v1/receipt.json"
+    "analysis/research/runs/nb5_figures_v1/receipt.json",
+    "analysis/research/runs/nb5_failed_run_preservation_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

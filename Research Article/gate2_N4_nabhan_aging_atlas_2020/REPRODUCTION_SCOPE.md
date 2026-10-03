@@ -1,5 +1,9 @@
 # Nb5 source reproduction scope
 
+**Current execution:** see [results and amendments](RESULTS.md), [figures](FIGURES.md)
+and [execution ledger](EXECUTION_VALIDATION.md). The planning text below records
+pre-execution choices and is retained; it does not override current evidence.
+
 Planned and unrun. This track checks source fidelity; the
 [branch register](BRANCH_REGISTER.md) separately asks additional questions.
 The [source note](NOTE_RECONCILIATION.md) identifies paper/supplement locations.

@@ -33,13 +33,10 @@ estimated without a design that identifies that contrast.
 
 ## Execution and RQ status
 
-Planned, outcome-exposed and unrun. Apply the [shared plan](../ANALYSIS_TRIAL_PLAN.md)
-and [data qualification rules](../DATASETS.md). A separate committed contract,
-input/code hashes, verified receipt and result report are required for execution.
-Source counts, exact filtering and independent-unit precision are unqualified.
-No numerical eligibility floor, meaningful-effect margin or sample size has
-been invented. New settings chosen after results require a prospective amendment.
+First outcome-exposed pass completed 3 October 2026. Lung baseline measurement executed. No compatible within-study age/injury contrast was qualified; transport and A3 interpretation remain held.
 
-The [branch register](../BRANCH_REGISTER.md) defines the later RQ-development
-decision. This card does not establish novelty, human acceptance, a new global
-question or experimental access.
+Read the [current result and amendments](../RESULTS.md),
+[figures](../FIGURES.md) and [execution ledger](../EXECUTION_VALIDATION.md)
+before extending the original plan above. No human retain/reject decision,
+claim promotion or global RQ allocation is recorded. All branches remain
+available; a further numerical stage requires a new frozen contract.

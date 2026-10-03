@@ -1,5 +1,9 @@
 # Nb5 prospective analysis development plan
 
+**Current execution:** see [results and amendments](RESULTS.md), [figures](FIGURES.md)
+and [execution ledger](EXECUTION_VALIDATION.md). The planning text below records
+pre-execution choices and is retained; it does not override current evidence.
+
 Draft dated 3 October 2026. This is an exposed-data planning document, not a
 frozen executable contract. [Source context](NOTE_RECONCILIATION.md),
 [data gates](DATASETS.md) and [repository context](REPOSITORY_CONTEXT.md)

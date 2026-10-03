@@ -9,7 +9,7 @@
     "nabhan_2023_status_updated": "2026-09-29; Nb2 source and branch analyses remain under Research Article; specified RQs deferred to evidence-driven derivation",
     "nb3_status_updated": "2026-10-01; owner read; partial reproduction, descriptive follow-up and E5 pilot completed; A22/A23 proposed",
     "reconciled_with_main": "2026-10-03; 0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f",
-    "nb5_status_updated": "2026-10-03; owner read; handwritten note reconciled; analysis plan drafted, numerical work unrun"
+    "nb5_status_updated": "2026-10-03; bounded exposed analysis and six figure plates executed; source discrepancies and branch holds retained; scientific acceptance pending"
   },
   "companion_atlases": [
     {
@@ -38,12 +38,14 @@
       "pmid": "32669714",
       "folder": "gate2_N4_nabhan_aging_atlas_2020",
       "note_status": "done; owner confirmed 2026-10-03; supplied Result(Body) note considered in scientific reconciliation",
-      "trial_status": "source reproduction plan and eight exploratory branch frames drafted; metadata qualification and numerical analyses unrun; scientific review pending",
-      "trial_location": "Research Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md",
+      "trial_status": "metadata qualification, bounded descriptive analyses, source corrections and six research-style figure plates executed; eight branches retain explicit development holds; scientific review pending",
+      "trial_location": "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
       "analysis_namespace": "Nb5",
       "numbering_note": "Owner-requested N4 folder; Nb5 separates this study from Nb4 human lung atlas. Stable paper IDs 1-16 and A0-A23 unchanged.",
       "branch_register": "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md",
-      "reproduction_scope": "Research Article/gate2_N4_nabhan_aging_atlas_2020/REPRODUCTION_SCOPE.md"
+      "reproduction_scope": "Research Article/gate2_N4_nabhan_aging_atlas_2020/REPRODUCTION_SCOPE.md",
+      "figure_gallery": "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+      "execution_validation": "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
     }
   ],
   "working_question": "Which epithelial and immune-state programmes distinguish productive lung repair from persistent dysplastic remodelling after inflammatory injury?",

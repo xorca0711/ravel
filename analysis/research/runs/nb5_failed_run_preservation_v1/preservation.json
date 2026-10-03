@@ -1,0 +1,43 @@
+{
+  "original_status": "execution_failed",
+  "archive_status": "byte_preservation_verified",
+  "original_run": "nb5_metadata_v1",
+  "reason": "Existing registry accepts successful receipts only. This successful archival receipt does not validate the failed scientific run. Original local files remain unchanged; archived copies and source commit preserve every byte.",
+  "files": [
+    {
+      "original_path": "analysis/research/runs/nb5_metadata_v1/animals.tsv",
+      "archive_file": "animals.tsv",
+      "sha256": "335dc592614e33221680799dbb980f075e976c25878e0d0f3daddb2474c8e678"
+    },
+    {
+      "original_path": "analysis/research/runs/nb5_metadata_v1/cell_metadata.tsv",
+      "archive_file": "cell_metadata.tsv",
+      "sha256": "801e2029dc9797db475ae25db0b5befcce8a50ff3c5a3ae338334a248aec457e"
+    },
+    {
+      "original_path": "analysis/research/runs/nb5_metadata_v1/coverage.tsv",
+      "archive_file": "coverage.tsv",
+      "sha256": "068414084f3c1edf6ed5bee771c675b0f1f2f87df96250eba62cd4c7c73ea500"
+    },
+    {
+      "original_path": "analysis/research/runs/nb5_metadata_v1/published_coverage.tsv",
+      "archive_file": "published_coverage.tsv",
+      "sha256": "cf780bbcd2b4bc6150c82129b1b3d28570d6f6e327fca95a2f8a95ff4d3aae87"
+    },
+    {
+      "original_path": "analysis/research/runs/nb5_metadata_v1/receipt.json",
+      "archive_file": "failed_receipt.json",
+      "sha256": "923259dcc98ba4ef364b951923c72e8bbb1707f9dfc3e7fb0d77b2d1a5d621e4"
+    },
+    {
+      "original_path": "analysis/research/runs/nb5_metadata_v1/stderr.log",
+      "archive_file": "failed_stderr.log",
+      "sha256": "98a688f0cdb7458859e0a2ea46b0b9937bea18288fa2627668a033a3129234c1"
+    },
+    {
+      "original_path": "analysis/research/runs/nb5_metadata_v1/stdout.log",
+      "archive_file": "failed_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

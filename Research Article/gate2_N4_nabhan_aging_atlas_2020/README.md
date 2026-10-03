@@ -1,7 +1,7 @@
 # Nb5 mouse ageing atlas analysis development
 
 **Gate 2N item N4. Reading completed by the owner on 3 October 2026;
-analysis plan drafted, scientific review pending, numerical analysis unrun.**
+first descriptive analysis and six figure plates completed; scientific review pending.**
 
 [A single-cell transcriptomic atlas characterizes ageing tissues in the mouse](https://doi.org/10.1038/s41586-020-2496-1),
 The Tabula Muris Consortium, Nature 583, 590–595 (2020).
@@ -17,6 +17,10 @@ analysis and RQ development, not a ranking of global questions.
 
 | Read | Purpose |
 |---|---|
+| [Current results](RESULTS.md) | Findings, source discrepancies, branch dispositions and exact next discriminators |
+| [Figure gallery](FIGURES.md) | Six research-style plates with PNG, SVG and PDF exports |
+| [Execution validation](EXECUTION_VALIDATION.md) | Frozen contracts, amendments, verification and failures |
+| [Source manifest](SOURCE_MANIFEST.md) | Exact acquired file hashes and URLs |
 | [Branch register](BRANCH_REGISTER.md) | Eight separate cards and criteria for later RQ development |
 | [Source reproduction](REPRODUCTION_SCOPE.md) | Bounded fidelity checks, separate from additional research |
 | [Analysis plan](ANALYSIS_TRIAL_PLAN.md) | Candidates, measurements, rivals, ordered stages, decisions and holds |
@@ -36,13 +40,12 @@ flowchart TD
     F --> G[Possible RQ development after review]
 ```
 
-The next executable work is metadata qualification under a committed contract.
-No expression matrix, source supplement workbook or per-animal map has been
-qualified here. No executable contract, run receipt, biological result or
-claim grade is created by this planning package. Published outcomes and the
-owner's note have already been read; future source reanalysis is exposed work.
+The first bounded analysis is complete. Read RESULTS.md before the original
+plan. Raw-count modeling, distinct-state/mixture discrimination, disease and
+injury transport, sex interaction and nonlinear age inference remain held for
+the explicit source/design reasons in that report. Published outcomes and the
+owner note were exposed before execution. No claim grade or global RQ changed.
 
-Future `config/`, `scripts/`, `runs/`, `reports/` and `figures/` directories
-should be created as their first real artifacts become available. Large source
-files belong in ignored `raw_data/tabula_muris_senis_2020/`. A missing output
-must not be represented by an empty results file or a success status.
+Executable contracts and source scripts live here; immutable runs and figure
+exports live under `analysis/research/runs/nb5_*`, as required by the research
+runner. Large inputs remain in ignored `raw_data/tabula_muris_senis_2020/`.

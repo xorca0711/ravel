@@ -1,5 +1,9 @@
 # Data sources and qualification requirements
 
+**Current execution:** see [results and amendments](RESULTS.md), [figures](FIGURES.md)
+and [execution ledger](EXECUTION_VALIDATION.md). The planning text below records
+pre-execution choices and is retained; it does not override current evidence.
+
 Checked 3 October 2026. These are source-directory observations for planning,
 not a qualified biological metadata analysis. No expression matrices were
 downloaded and no sample counts or independent-animal counts were calculated.

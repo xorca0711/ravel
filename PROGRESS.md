@@ -4,32 +4,39 @@
 
 ## Current continuation on 3 October 2026
 
-Nb5 planning starts from fetched `origin/main` at `76dc9b4` (merged PR #131),
-in an isolated `codex/nb5-aging-atlas-plan` worktree. The owner completed the
-Tabula Muris Senis paper and supplied a handwritten Result(Body) note.
-The requested [N4 article folder](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md)
-now contains the repository-context review, note reconciliation, source
-qualification requirements and [staged plan](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md).
-Nb5-P01–P08 now provide eight separate exploratory frames alongside source
-reproduction, preserving the owner's microglial direction and adding organ,
-measurement, repertoire, sex and age-shape questions. The branch register
-sets evidence requirements for later RQ development. They remain proposals;
-A0–A23 and prior results retain their authority.
+Nb5 mouse ageing atlas: the owner-authorized first bounded descriptive analysis
+and six article-style figure plates are complete in isolated
+`codex/nb5-aging-atlas-plan`, based on `origin/main` `76dc9b4`.
+[Current results](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md),
+[figure gallery](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md)
+and [execution ledger](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md)
+own this checkpoint. Nb5-P01–P08 remain article-local development frames;
+A0–A23, historical negative results and claim grades are unchanged.
 
-Confirmed source pointers include versioned Figshare tissue objects, the broad
-GSE132042 SuperSeries, single-cell GSE149590 and bulk GSE132040. Deposit scopes
-differ and must be reconciled. Supplement workbooks, matrix count layers,
-animal joins and independent-unit coverage are not yet qualified. No numerical
-analysis, executable contract, claim promotion or Notion edit occurred.
+Five general tissue objects plus the overlapping author brain object were
+qualified. Available expression is normalized/transformed, not raw counts.
+Bladder composition directions persist under equal mouse weighting; corrected
+T-cell clone numerators match the paper but young/old denominators differ.
+The source-defined microglial list overlaps 56 genes versus the reported 55;
+final-paper cluster correspondence remains unresolved. No distinct intermediate
+state, conserved mechanism, disease transfer or functional effect is established.
 
-Next: acquire exact supplement/code versions; freeze a metadata-recovery
-contract and code; run and verify M0; complete only the newly eligible stage
-contracts. Scientific review, functional endpoints, precision and actual lab
-access remain unresolved. Source-access failures and scope limits are recorded
-in the article note. [Verification](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/VALIDATION.md)
-records all ten required checks passing, including 123 tests with one existing
-skip, plus branch-registration and preservation checks. Primary-checkout edits and ignored
-data were preserved; GitHub settings and owner merge decisions are unchanged.
+The initial metadata parser failed on merged spreadsheet cells; its complete
+bytes and failure receipt are preserved in a registered archival run. Corrected
+metadata, source-backed repertoire naming and bidirectional list amendments
+retain previous outcomes. Numerical checks passed; all six PNG plates were
+inspected, with SVG and PDF exports. All ten required checks passed: 123 tests
+(one existing skip), 7,951 repository validations and the research gate against
+freshly fetched, unchanged `origin/main` at `76dc9b4`. The execution ledger
+records verification; no legacy biological analyses were rerun.
+
+Next work is branch-specific: recover final-figure cluster/cell mapping and
+qualified all-age unintegrated expression for P02; resolve repertoire source
+denominators/tissue selection for P06; qualify missing age-sex and compatible
+injury/disease designs before those models. Effect margins, biological precision,
+host access and scientific acceptance remain unresolved. No preferred RQ was
+selected. Primary-checkout unrelated edits and ignored work were preserved;
+GitHub settings, Notion and owner merge decisions are unchanged.
 
 ## Prior checkpoint after PR 130
 
