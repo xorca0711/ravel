@@ -1,0 +1,298 @@
+{
+  "status": "executed_descriptive_only",
+  "case_identity": [
+    {
+      "mouse_id": "18_47_F",
+      "age_months": 18,
+      "sex": "female"
+    },
+    {
+      "mouse_id": "18_46_F",
+      "age_months": 18,
+      "sex": "female"
+    },
+    {
+      "mouse_id": "18_45_M",
+      "age_months": 18,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "18_53_M",
+      "age_months": 18,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "24_60_M",
+      "age_months": 24,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "24_59_M",
+      "age_months": 24,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "24_58_M",
+      "age_months": 24,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "24_61_M",
+      "age_months": 24,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "3_39_F",
+      "age_months": 3,
+      "sex": "female"
+    },
+    {
+      "mouse_id": "3_56_F",
+      "age_months": 3,
+      "sex": "female"
+    },
+    {
+      "mouse_id": "3_38_F",
+      "age_months": 3,
+      "sex": "female"
+    },
+    {
+      "mouse_id": "3_8_M",
+      "age_months": 3,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "3_9_M",
+      "age_months": 3,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "3_10_M",
+      "age_months": 3,
+      "sex": "male"
+    }
+  ],
+  "missing_markers": [
+    {
+      "dataset": "Bladder_droplet",
+      "requested": [
+        "Cdkn2a",
+        "Cdkn1a",
+        "Lmnb1",
+        "Il1b",
+        "Tnf",
+        "Cd38",
+        "H2-D1",
+        "H2-K1",
+        "B2m",
+        "Fth1",
+        "Oasl2",
+        "Oas1a",
+        "Ifit3",
+        "Rtp4",
+        "Bst2",
+        "Stat1",
+        "Irf7",
+        "Ifitm3",
+        "Usp18",
+        "Ifi204",
+        "Ifit2",
+        "P2ry12",
+        "Tmem119",
+        "Apoe",
+        "Lpl",
+        "Cst7",
+        "Clec7a",
+        "Itgal",
+        "Itga1",
+        "Msrb1",
+        "Spex1"
+      ],
+      "absent": [
+        "Msrb1",
+        "Spex1"
+      ]
+    },
+    {
+      "dataset": "Brain_Myeloid_facs",
+      "requested": [
+        "Cdkn2a",
+        "Cdkn1a",
+        "Lmnb1",
+        "Il1b",
+        "Tnf",
+        "Cd38",
+        "H2-D1",
+        "H2-K1",
+        "B2m",
+        "Fth1",
+        "Oasl2",
+        "Oas1a",
+        "Ifit3",
+        "Rtp4",
+        "Bst2",
+        "Stat1",
+        "Irf7",
+        "Ifitm3",
+        "Usp18",
+        "Ifi204",
+        "Ifit2",
+        "P2ry12",
+        "Tmem119",
+        "Apoe",
+        "Lpl",
+        "Cst7",
+        "Clec7a",
+        "Itgal",
+        "Itga1",
+        "Msrb1",
+        "Spex1"
+      ],
+      "absent": [
+        "Msrb1",
+        "Spex1"
+      ]
+    },
+    {
+      "dataset": "Kidney_droplet",
+      "requested": [
+        "Cdkn2a",
+        "Cdkn1a",
+        "Lmnb1",
+        "Il1b",
+        "Tnf",
+        "Cd38",
+        "H2-D1",
+        "H2-K1",
+        "B2m",
+        "Fth1",
+        "Oasl2",
+        "Oas1a",
+        "Ifit3",
+        "Rtp4",
+        "Bst2",
+        "Stat1",
+        "Irf7",
+        "Ifitm3",
+        "Usp18",
+        "Ifi204",
+        "Ifit2",
+        "P2ry12",
+        "Tmem119",
+        "Apoe",
+        "Lpl",
+        "Cst7",
+        "Clec7a",
+        "Itgal",
+        "Itga1",
+        "Msrb1",
+        "Spex1"
+      ],
+      "absent": [
+        "Msrb1",
+        "Spex1"
+      ]
+    },
+    {
+      "dataset": "Lung_droplet",
+      "requested": [
+        "Cdkn2a",
+        "Cdkn1a",
+        "Lmnb1",
+        "Il1b",
+        "Tnf",
+        "Cd38",
+        "H2-D1",
+        "H2-K1",
+        "B2m",
+        "Fth1",
+        "Oasl2",
+        "Oas1a",
+        "Ifit3",
+        "Rtp4",
+        "Bst2",
+        "Stat1",
+        "Irf7",
+        "Ifitm3",
+        "Usp18",
+        "Ifi204",
+        "Ifit2",
+        "P2ry12",
+        "Tmem119",
+        "Apoe",
+        "Lpl",
+        "Cst7",
+        "Clec7a",
+        "Itgal",
+        "Itga1",
+        "Msrb1",
+        "Spex1"
+      ],
+      "absent": [
+        "Msrb1",
+        "Spex1"
+      ]
+    },
+    {
+      "dataset": "Lung_facs",
+      "requested": [
+        "Cdkn2a",
+        "Cdkn1a",
+        "Lmnb1",
+        "Il1b",
+        "Tnf",
+        "Cd38",
+        "H2-D1",
+        "H2-K1",
+        "B2m",
+        "Fth1",
+        "Oasl2",
+        "Oas1a",
+        "Ifit3",
+        "Rtp4",
+        "Bst2",
+        "Stat1",
+        "Irf7",
+        "Ifitm3",
+        "Usp18",
+        "Ifi204",
+        "Ifit2",
+        "P2ry12",
+        "Tmem119",
+        "Apoe",
+        "Lpl",
+        "Cst7",
+        "Clec7a",
+        "Itgal",
+        "Itga1",
+        "Msrb1",
+        "Spex1"
+      ],
+      "absent": [
+        "Msrb1",
+        "Spex1"
+      ]
+    }
+  ],
+  "repertoire": {
+    "source_rows": 6011,
+    "unmapped_rows": 2087,
+    "common_depth": 363,
+    "sampling_limit": "Conditional on reconstructed receptors; tissue mixture and assembly selection remain. Fixed labels are not reassembled. No immune-function inference."
+  },
+  "source_overlap": {
+    "age_top_rows": 100,
+    "disease_top_rows": 200,
+    "top200_intersection": 17,
+    "age_top200_in_full_disease_list": 31,
+    "interpretation": "Source-list arithmetic only; no enrichment test, held-out disease validation or marker selection from this overlap."
+  },
+  "limits": [
+    "No raw count layer qualified.",
+    "No new state classifier or mixture model fitted: all-age source X transformation remains unresolved.",
+    "No disease-control cohort or lung-injury transport test qualified.",
+    "Age/sex support incomplete; observed male-only 3-versus-24 contrasts are sensitivity descriptions.",
+    "No meaningful-effect margin or confirmatory precision supplied.",
+    "No scientific acceptance or global RQ promotion."
+  ]
+}

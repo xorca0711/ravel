@@ -1,0 +1,59 @@
+dataset	cell_type	free_annotation	cells
+Bladder_droplet	bladder cell	bladder mesenchymal cell (Car3+)	1651
+Bladder_droplet	bladder cell	bladder mesenchymal cell (Scara5+)	1238
+Bladder_droplet	bladder urothelial cell	basal bladder epithelial cell (Krt5+)	1612
+Bladder_droplet	bladder urothelial cell	basal bladder epithelial cell (Krt5+Krt14+)	1469
+Bladder_droplet	bladder urothelial cell	luminal bladder epithelial cell (umbrella cell)	2165
+Bladder_droplet	endothelial cell	endothelial cell	340
+Bladder_droplet	leukocyte	granulocyte-monocyte progenitor	203
+Bladder_droplet	leukocyte	macrophage	139
+Brain_Myeloid_facs	macrophage	nan	200
+Brain_Myeloid_facs	microglial cell	embryonic-like microglia	34
+Brain_Myeloid_facs	microglial cell	interferon-gamma producing microglia	393
+Brain_Myeloid_facs	microglial cell	microglia	2133
+Brain_Myeloid_facs	microglial cell	old microglia	1767
+Brain_Myeloid_facs	microglial cell	young female microglia	2292
+Brain_Myeloid_facs	microglial cell	young male microglia	2137
+Kidney_droplet	B cell	CD45    B cell	2495
+Kidney_droplet	NK cell	CD45    NK cell	66
+Kidney_droplet	T cell	CD45    T cell	1139
+Kidney_droplet	brush cell	Epcam    brush cell	347
+Kidney_droplet	epithelial cell of proximal tubule	Epcam    proximal tube epithelial cell	2516
+Kidney_droplet	fenestrated cell	Pecam    fenestrated capillary endothelial	860
+Kidney_droplet	fibroblast	Stroma    fibroblast	161
+Kidney_droplet	kidney capillary endothelial cell	Pecam    kidney capillary endothelial cell	137
+Kidney_droplet	kidney collecting duct principal cell	Epcam    kidney collecting duct principal cell	748
+Kidney_droplet	kidney cortex artery cell	Pecam    Kidney cortex artery cell	428
+Kidney_droplet	kidney distal convoluted tubule epithelial cell	Epcam     kidney distal convoluted tubule epithelial cell	662
+Kidney_droplet	kidney loop of Henle thick ascending limb epithelial cell	Epcam    thick ascending tube S epithelial cell	1588
+Kidney_droplet	kidney mesangial cell	Stroma    kidney mesangial cell	178
+Kidney_droplet	kidney proximal convoluted tubule epithelial cell	Epcam    kidney proximal convoluted tubule epithelial cell	4449
+Kidney_droplet	lymphocyte	CD45	1289
+Kidney_droplet	macrophage	CD45    macrophage	1319
+Kidney_droplet	plasma cell	CD45    plasma cell	232
+Kidney_droplet	podocyte	Epcam    podocyte	487
+Lung_droplet	B cell	B cell	1166
+Lung_droplet	endothelial cell	endothelial cell	3069
+Lung_droplet	epithelial cell	epithelial cell	605
+Lung_droplet	granulocyte	granulocyte	547
+Lung_droplet	lymphocyte	lymphocyte	1996
+Lung_droplet	macrophage	macrophage	1769
+Lung_droplet	monocyte	monocyte	4292
+Lung_droplet	myeloid cell	myeloid cell	516
+Lung_droplet	natural killer cell	natural killer cell	881
+Lung_droplet	stromal cell	stromal cell	2650
+Lung_facs	B cell	B cell	196
+Lung_facs	T cell	T cell	118
+Lung_facs	endothelial cell	endothelial cell	1549
+Lung_facs	epithelial cell	epithelial cell	216
+Lung_facs	glial cell	glial cell	3
+Lung_facs	granulocyte	granulocyte	66
+Lung_facs	lymphocyte	lymphocyte	215
+Lung_facs	macrophage	macrophage	21
+Lung_facs	monocyte	monocyte	220
+Lung_facs	myeloid cell	myeloid cell	395
+Lung_facs	nan	nan	46
+Lung_facs	stromal cell	stromal cell	487
+facs.Brain_Myeloid.clustered_diversity	macrophage	nan	287
+facs.Brain_Myeloid.clustered_diversity	microglial cell	nan	13130
+facs.Brain_Myeloid.clustered_diversity	nan	nan	159

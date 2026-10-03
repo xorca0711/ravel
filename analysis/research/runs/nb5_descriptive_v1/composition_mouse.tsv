@@ -1,0 +1,611 @@
+dataset	mouse_id	age_months	sex	unit_kind	cell_type	cells	total_cells	fraction
+Bladder_droplet	1-M-63	1	male	deposited_mouse	bladder cell	620	956	0.6485355648535565
+Bladder_droplet	1-M-63	1	male	deposited_mouse	bladder urothelial cell	186	956	0.19456066945606695
+Bladder_droplet	1-M-63	1	male	deposited_mouse	endothelial cell	117	956	0.12238493723849372
+Bladder_droplet	1-M-63	1	male	deposited_mouse	leukocyte	33	956	0.034518828451882845
+Bladder_droplet	18-M-52	18	male	deposited_mouse	bladder cell	517	2015	0.256575682382134
+Bladder_droplet	18-M-52	18	male	deposited_mouse	bladder urothelial cell	1382	2015	0.6858560794044665
+Bladder_droplet	18-M-52	18	male	deposited_mouse	endothelial cell	36	2015	0.017866004962779156
+Bladder_droplet	18-M-52	18	male	deposited_mouse	leukocyte	80	2015	0.03970223325062035
+Bladder_droplet	24-M-58	24	male	deposited_mouse	bladder cell	287	1381	0.20782041998551773
+Bladder_droplet	24-M-58	24	male	deposited_mouse	bladder urothelial cell	932	1381	0.6748732802317161
+Bladder_droplet	24-M-58	24	male	deposited_mouse	endothelial cell	48	1381	0.03475742215785663
+Bladder_droplet	24-M-58	24	male	deposited_mouse	leukocyte	114	1381	0.08254887762490949
+Bladder_droplet	24-M-59	24	male	deposited_mouse	bladder cell	118	1034	0.11411992263056092
+Bladder_droplet	24-M-59	24	male	deposited_mouse	bladder urothelial cell	839	1034	0.811411992263056
+Bladder_droplet	24-M-59	24	male	deposited_mouse	endothelial cell	43	1034	0.041586073500967116
+Bladder_droplet	24-M-59	24	male	deposited_mouse	leukocyte	34	1034	0.03288201160541586
+Bladder_droplet	24-M-60	24	male	deposited_mouse	bladder cell	140	937	0.14941302027748132
+Bladder_droplet	24-M-60	24	male	deposited_mouse	bladder urothelial cell	741	937	0.7908217716115261
+Bladder_droplet	24-M-60	24	male	deposited_mouse	endothelial cell	39	937	0.0416221985058698
+Bladder_droplet	24-M-60	24	male	deposited_mouse	leukocyte	17	937	0.01814300960512273
+Bladder_droplet	3-F-56	3	female	deposited_mouse	bladder cell	259	568	0.45598591549295775
+Bladder_droplet	3-F-56	3	female	deposited_mouse	bladder urothelial cell	261	568	0.4595070422535211
+Bladder_droplet	3-F-56	3	female	deposited_mouse	endothelial cell	28	568	0.04929577464788732
+Bladder_droplet	3-F-56	3	female	deposited_mouse	leukocyte	20	568	0.035211267605633804
+Bladder_droplet	3-M-8	3	male	deposited_mouse	bladder cell	81	143	0.5664335664335665
+Bladder_droplet	3-M-8	3	male	deposited_mouse	bladder urothelial cell	55	143	0.38461538461538464
+Bladder_droplet	3-M-8	3	male	deposited_mouse	endothelial cell	3	143	0.02097902097902098
+Bladder_droplet	3-M-8	3	male	deposited_mouse	leukocyte	4	143	0.027972027972027972
+Bladder_droplet	3-M-9	3	male	deposited_mouse	bladder cell	867	1783	0.48625911385305665
+Bladder_droplet	3-M-9	3	male	deposited_mouse	bladder urothelial cell	850	1783	0.47672462142456534
+Bladder_droplet	3-M-9	3	male	deposited_mouse	endothelial cell	26	1783	0.014582164890633763
+Bladder_droplet	3-M-9	3	male	deposited_mouse	leukocyte	40	1783	0.022434099831744252
+Brain_Myeloid_facs	24_58_M	24	male	deposited_mouse	macrophage	37	1253	0.029529130087789304
+Brain_Myeloid_facs	24_58_M	24	male	deposited_mouse	microglial cell	1216	1253	0.9704708699122107
+Brain_Myeloid_facs	24_59_M	24	male	deposited_mouse	macrophage	30	1050	0.02857142857142857
+Brain_Myeloid_facs	24_59_M	24	male	deposited_mouse	microglial cell	1020	1050	0.9714285714285714
+Brain_Myeloid_facs	24_60_M	24	male	deposited_mouse	macrophage	42	1195	0.035146443514644354
+Brain_Myeloid_facs	24_60_M	24	male	deposited_mouse	microglial cell	1153	1195	0.9648535564853556
+Brain_Myeloid_facs	24_61_M	24	male	deposited_mouse	macrophage	47	926	0.05075593952483801
+Brain_Myeloid_facs	24_61_M	24	male	deposited_mouse	microglial cell	879	926	0.949244060475162
+Brain_Myeloid_facs	3_10_M	3	male	deposited_mouse	macrophage	21	1019	0.020608439646712464
+Brain_Myeloid_facs	3_10_M	3	male	deposited_mouse	microglial cell	998	1019	0.9793915603532876
+Brain_Myeloid_facs	3_38_F	3	female	deposited_mouse	macrophage	11	1102	0.009981851179673321
+Brain_Myeloid_facs	3_38_F	3	female	deposited_mouse	microglial cell	1091	1102	0.9900181488203267
+Brain_Myeloid_facs	3_39_F	3	female	deposited_mouse	macrophage	2	852	0.002347417840375587
+Brain_Myeloid_facs	3_39_F	3	female	deposited_mouse	microglial cell	850	852	0.9976525821596244
+Brain_Myeloid_facs	3_56_F	3	female	deposited_mouse	macrophage	0	294	0.0
+Brain_Myeloid_facs	3_56_F	3	female	deposited_mouse	microglial cell	294	294	1.0
+Brain_Myeloid_facs	3_8_M	3	male	deposited_mouse	macrophage	6	587	0.010221465076660987
+Brain_Myeloid_facs	3_8_M	3	male	deposited_mouse	microglial cell	581	587	0.989778534923339
+Brain_Myeloid_facs	3_9_M	3	male	deposited_mouse	macrophage	4	678	0.0058997050147492625
+Brain_Myeloid_facs	3_9_M	3	male	deposited_mouse	microglial cell	674	678	0.9941002949852508
+Kidney_droplet	1-M-62	1	male	deposited_mouse	B cell	4	1163	0.0034393809114359416
+Kidney_droplet	1-M-62	1	male	deposited_mouse	NK cell	0	1163	0.0
+Kidney_droplet	1-M-62	1	male	deposited_mouse	T cell	4	1163	0.0034393809114359416
+Kidney_droplet	1-M-62	1	male	deposited_mouse	brush cell	27	1163	0.023215821152192607
+Kidney_droplet	1-M-62	1	male	deposited_mouse	epithelial cell of proximal tubule	11	1163	0.009458297506448839
+Kidney_droplet	1-M-62	1	male	deposited_mouse	fenestrated cell	85	1163	0.07308684436801376
+Kidney_droplet	1-M-62	1	male	deposited_mouse	fibroblast	7	1163	0.0060189165950128975
+Kidney_droplet	1-M-62	1	male	deposited_mouse	kidney capillary endothelial cell	18	1163	0.015477214101461736
+Kidney_droplet	1-M-62	1	male	deposited_mouse	kidney collecting duct principal cell	43	1163	0.03697334479793637
+Kidney_droplet	1-M-62	1	male	deposited_mouse	kidney cortex artery cell	36	1163	0.030954428202923472
+Kidney_droplet	1-M-62	1	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	43	1163	0.03697334479793637
+Kidney_droplet	1-M-62	1	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	241	1163	0.20722269991401548
+Kidney_droplet	1-M-62	1	male	deposited_mouse	kidney mesangial cell	40	1163	0.034393809114359415
+Kidney_droplet	1-M-62	1	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	522	1163	0.4488392089423904
+Kidney_droplet	1-M-62	1	male	deposited_mouse	lymphocyte	6	1163	0.005159071367153913
+Kidney_droplet	1-M-62	1	male	deposited_mouse	macrophage	25	1163	0.021496130696474634
+Kidney_droplet	1-M-62	1	male	deposited_mouse	plasma cell	0	1163	0.0
+Kidney_droplet	1-M-62	1	male	deposited_mouse	podocyte	51	1163	0.043852106620808254
+Kidney_droplet	1-M-63	1	male	deposited_mouse	B cell	3	1054	0.0028462998102466793
+Kidney_droplet	1-M-63	1	male	deposited_mouse	NK cell	1	1054	0.0009487666034155598
+Kidney_droplet	1-M-63	1	male	deposited_mouse	T cell	4	1054	0.003795066413662239
+Kidney_droplet	1-M-63	1	male	deposited_mouse	brush cell	26	1054	0.024667931688804556
+Kidney_droplet	1-M-63	1	male	deposited_mouse	epithelial cell of proximal tubule	15	1054	0.014231499051233396
+Kidney_droplet	1-M-63	1	male	deposited_mouse	fenestrated cell	81	1054	0.07685009487666034
+Kidney_droplet	1-M-63	1	male	deposited_mouse	fibroblast	8	1054	0.007590132827324478
+Kidney_droplet	1-M-63	1	male	deposited_mouse	kidney capillary endothelial cell	31	1054	0.029411764705882353
+Kidney_droplet	1-M-63	1	male	deposited_mouse	kidney collecting duct principal cell	34	1054	0.03225806451612903
+Kidney_droplet	1-M-63	1	male	deposited_mouse	kidney cortex artery cell	39	1054	0.03700189753320683
+Kidney_droplet	1-M-63	1	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	36	1054	0.03415559772296015
+Kidney_droplet	1-M-63	1	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	229	1054	0.21726755218216318
+Kidney_droplet	1-M-63	1	male	deposited_mouse	kidney mesangial cell	40	1054	0.03795066413662239
+Kidney_droplet	1-M-63	1	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	427	1054	0.40512333965844405
+Kidney_droplet	1-M-63	1	male	deposited_mouse	lymphocyte	5	1054	0.004743833017077799
+Kidney_droplet	1-M-63	1	male	deposited_mouse	macrophage	34	1054	0.03225806451612903
+Kidney_droplet	1-M-63	1	male	deposited_mouse	plasma cell	0	1054	0.0
+Kidney_droplet	1-M-63	1	male	deposited_mouse	podocyte	41	1054	0.03889943074003795
+Kidney_droplet	18-F-50	18	female	deposited_mouse	B cell	9	744	0.012096774193548387
+Kidney_droplet	18-F-50	18	female	deposited_mouse	NK cell	2	744	0.002688172043010753
+Kidney_droplet	18-F-50	18	female	deposited_mouse	T cell	8	744	0.010752688172043012
+Kidney_droplet	18-F-50	18	female	deposited_mouse	brush cell	17	744	0.0228494623655914
+Kidney_droplet	18-F-50	18	female	deposited_mouse	epithelial cell of proximal tubule	2	744	0.002688172043010753
+Kidney_droplet	18-F-50	18	female	deposited_mouse	fenestrated cell	16	744	0.021505376344086023
+Kidney_droplet	18-F-50	18	female	deposited_mouse	fibroblast	1	744	0.0013440860215053765
+Kidney_droplet	18-F-50	18	female	deposited_mouse	kidney capillary endothelial cell	4	744	0.005376344086021506
+Kidney_droplet	18-F-50	18	female	deposited_mouse	kidney collecting duct principal cell	39	744	0.05241935483870968
+Kidney_droplet	18-F-50	18	female	deposited_mouse	kidney cortex artery cell	18	744	0.024193548387096774
+Kidney_droplet	18-F-50	18	female	deposited_mouse	kidney distal convoluted tubule epithelial cell	53	744	0.07123655913978495
+Kidney_droplet	18-F-50	18	female	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	60	744	0.08064516129032258
+Kidney_droplet	18-F-50	18	female	deposited_mouse	kidney mesangial cell	3	744	0.004032258064516129
+Kidney_droplet	18-F-50	18	female	deposited_mouse	kidney proximal convoluted tubule epithelial cell	442	744	0.5940860215053764
+Kidney_droplet	18-F-50	18	female	deposited_mouse	lymphocyte	14	744	0.01881720430107527
+Kidney_droplet	18-F-50	18	female	deposited_mouse	macrophage	50	744	0.06720430107526881
+Kidney_droplet	18-F-50	18	female	deposited_mouse	plasma cell	0	744	0.0
+Kidney_droplet	18-F-50	18	female	deposited_mouse	podocyte	6	744	0.008064516129032258
+Kidney_droplet	18-F-51	18	female	deposited_mouse	B cell	9	1116	0.008064516129032258
+Kidney_droplet	18-F-51	18	female	deposited_mouse	NK cell	0	1116	0.0
+Kidney_droplet	18-F-51	18	female	deposited_mouse	T cell	24	1116	0.021505376344086023
+Kidney_droplet	18-F-51	18	female	deposited_mouse	brush cell	58	1116	0.05197132616487455
+Kidney_droplet	18-F-51	18	female	deposited_mouse	epithelial cell of proximal tubule	1	1116	0.0008960573476702509
+Kidney_droplet	18-F-51	18	female	deposited_mouse	fenestrated cell	38	1116	0.034050179211469536
+Kidney_droplet	18-F-51	18	female	deposited_mouse	fibroblast	4	1116	0.0035842293906810036
+Kidney_droplet	18-F-51	18	female	deposited_mouse	kidney capillary endothelial cell	9	1116	0.008064516129032258
+Kidney_droplet	18-F-51	18	female	deposited_mouse	kidney collecting duct principal cell	58	1116	0.05197132616487455
+Kidney_droplet	18-F-51	18	female	deposited_mouse	kidney cortex artery cell	40	1116	0.035842293906810034
+Kidney_droplet	18-F-51	18	female	deposited_mouse	kidney distal convoluted tubule epithelial cell	64	1116	0.05734767025089606
+Kidney_droplet	18-F-51	18	female	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	85	1116	0.07616487455197132
+Kidney_droplet	18-F-51	18	female	deposited_mouse	kidney mesangial cell	5	1116	0.004480286738351254
+Kidney_droplet	18-F-51	18	female	deposited_mouse	kidney proximal convoluted tubule epithelial cell	581	1116	0.5206093189964157
+Kidney_droplet	18-F-51	18	female	deposited_mouse	lymphocyte	16	1116	0.014336917562724014
+Kidney_droplet	18-F-51	18	female	deposited_mouse	macrophage	100	1116	0.08960573476702509
+Kidney_droplet	18-F-51	18	female	deposited_mouse	plasma cell	8	1116	0.007168458781362007
+Kidney_droplet	18-F-51	18	female	deposited_mouse	podocyte	16	1116	0.014336917562724014
+Kidney_droplet	18-M-52	18	male	deposited_mouse	B cell	27	1028	0.026264591439688716
+Kidney_droplet	18-M-52	18	male	deposited_mouse	NK cell	6	1028	0.005836575875486381
+Kidney_droplet	18-M-52	18	male	deposited_mouse	T cell	16	1028	0.01556420233463035
+Kidney_droplet	18-M-52	18	male	deposited_mouse	brush cell	3	1028	0.0029182879377431907
+Kidney_droplet	18-M-52	18	male	deposited_mouse	epithelial cell of proximal tubule	293	1028	0.2850194552529183
+Kidney_droplet	18-M-52	18	male	deposited_mouse	fenestrated cell	110	1028	0.10700389105058365
+Kidney_droplet	18-M-52	18	male	deposited_mouse	fibroblast	32	1028	0.0311284046692607
+Kidney_droplet	18-M-52	18	male	deposited_mouse	kidney capillary endothelial cell	12	1028	0.011673151750972763
+Kidney_droplet	18-M-52	18	male	deposited_mouse	kidney collecting duct principal cell	35	1028	0.03404669260700389
+Kidney_droplet	18-M-52	18	male	deposited_mouse	kidney cortex artery cell	33	1028	0.032101167315175094
+Kidney_droplet	18-M-52	18	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	52	1028	0.05058365758754864
+Kidney_droplet	18-M-52	18	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	105	1028	0.10214007782101167
+Kidney_droplet	18-M-52	18	male	deposited_mouse	kidney mesangial cell	10	1028	0.009727626459143969
+Kidney_droplet	18-M-52	18	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	101	1028	0.09824902723735408
+Kidney_droplet	18-M-52	18	male	deposited_mouse	lymphocyte	46	1028	0.04474708171206226
+Kidney_droplet	18-M-52	18	male	deposited_mouse	macrophage	104	1028	0.10116731517509728
+Kidney_droplet	18-M-52	18	male	deposited_mouse	plasma cell	1	1028	0.0009727626459143969
+Kidney_droplet	18-M-52	18	male	deposited_mouse	podocyte	42	1028	0.04085603112840467
+Kidney_droplet	21-F-54	21	female	deposited_mouse	B cell	18	1075	0.01674418604651163
+Kidney_droplet	21-F-54	21	female	deposited_mouse	NK cell	1	1075	0.0009302325581395349
+Kidney_droplet	21-F-54	21	female	deposited_mouse	T cell	13	1075	0.012093023255813953
+Kidney_droplet	21-F-54	21	female	deposited_mouse	brush cell	86	1075	0.08
+Kidney_droplet	21-F-54	21	female	deposited_mouse	epithelial cell of proximal tubule	2	1075	0.0018604651162790699
+Kidney_droplet	21-F-54	21	female	deposited_mouse	fenestrated cell	83	1075	0.07720930232558139
+Kidney_droplet	21-F-54	21	female	deposited_mouse	fibroblast	8	1075	0.0074418604651162795
+Kidney_droplet	21-F-54	21	female	deposited_mouse	kidney capillary endothelial cell	15	1075	0.013953488372093023
+Kidney_droplet	21-F-54	21	female	deposited_mouse	kidney collecting duct principal cell	35	1075	0.03255813953488372
+Kidney_droplet	21-F-54	21	female	deposited_mouse	kidney cortex artery cell	38	1075	0.035348837209302326
+Kidney_droplet	21-F-54	21	female	deposited_mouse	kidney distal convoluted tubule epithelial cell	98	1075	0.09116279069767441
+Kidney_droplet	21-F-54	21	female	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	126	1075	0.1172093023255814
+Kidney_droplet	21-F-54	21	female	deposited_mouse	kidney mesangial cell	13	1075	0.012093023255813953
+Kidney_droplet	21-F-54	21	female	deposited_mouse	kidney proximal convoluted tubule epithelial cell	412	1075	0.38325581395348834
+Kidney_droplet	21-F-54	21	female	deposited_mouse	lymphocyte	26	1075	0.024186046511627906
+Kidney_droplet	21-F-54	21	female	deposited_mouse	macrophage	58	1075	0.053953488372093024
+Kidney_droplet	21-F-54	21	female	deposited_mouse	plasma cell	5	1075	0.004651162790697674
+Kidney_droplet	21-F-54	21	female	deposited_mouse	podocyte	38	1075	0.035348837209302326
+Kidney_droplet	21-F-55	21	female	deposited_mouse	B cell	36	997	0.03610832497492478
+Kidney_droplet	21-F-55	21	female	deposited_mouse	NK cell	1	997	0.0010030090270812437
+Kidney_droplet	21-F-55	21	female	deposited_mouse	T cell	29	997	0.029087261785356068
+Kidney_droplet	21-F-55	21	female	deposited_mouse	brush cell	84	997	0.08425275827482448
+Kidney_droplet	21-F-55	21	female	deposited_mouse	epithelial cell of proximal tubule	3	997	0.003009027081243731
+Kidney_droplet	21-F-55	21	female	deposited_mouse	fenestrated cell	51	997	0.05115346038114343
+Kidney_droplet	21-F-55	21	female	deposited_mouse	fibroblast	5	997	0.0050150451354062184
+Kidney_droplet	21-F-55	21	female	deposited_mouse	kidney capillary endothelial cell	3	997	0.003009027081243731
+Kidney_droplet	21-F-55	21	female	deposited_mouse	kidney collecting duct principal cell	23	997	0.023069207622868605
+Kidney_droplet	21-F-55	21	female	deposited_mouse	kidney cortex artery cell	31	997	0.031093279839518557
+Kidney_droplet	21-F-55	21	female	deposited_mouse	kidney distal convoluted tubule epithelial cell	57	997	0.05717151454363089
+Kidney_droplet	21-F-55	21	female	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	102	997	0.10230692076228685
+Kidney_droplet	21-F-55	21	female	deposited_mouse	kidney mesangial cell	9	997	0.009027081243731194
+Kidney_droplet	21-F-55	21	female	deposited_mouse	kidney proximal convoluted tubule epithelial cell	457	997	0.4583751253761284
+Kidney_droplet	21-F-55	21	female	deposited_mouse	lymphocyte	28	997	0.028084252758274825
+Kidney_droplet	21-F-55	21	female	deposited_mouse	macrophage	43	997	0.04312938816449348
+Kidney_droplet	21-F-55	21	female	deposited_mouse	plasma cell	7	997	0.007021063189568706
+Kidney_droplet	21-F-55	21	female	deposited_mouse	podocyte	28	997	0.028084252758274825
+Kidney_droplet	24-M-58	24	male	deposited_mouse	B cell	1447	2261	0.6399823087129589
+Kidney_droplet	24-M-58	24	male	deposited_mouse	NK cell	29	2261	0.012826183104820876
+Kidney_droplet	24-M-58	24	male	deposited_mouse	T cell	544	2261	0.24060150375939848
+Kidney_droplet	24-M-58	24	male	deposited_mouse	brush cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	epithelial cell of proximal tubule	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	fenestrated cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	fibroblast	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	kidney capillary endothelial cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	kidney collecting duct principal cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	kidney cortex artery cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	kidney mesangial cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	0	2261	0.0
+Kidney_droplet	24-M-58	24	male	deposited_mouse	lymphocyte	106	2261	0.04688191065900044
+Kidney_droplet	24-M-58	24	male	deposited_mouse	macrophage	60	2261	0.026536930561698365
+Kidney_droplet	24-M-58	24	male	deposited_mouse	plasma cell	75	2261	0.033171163202122954
+Kidney_droplet	24-M-58	24	male	deposited_mouse	podocyte	0	2261	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	B cell	875	2392	0.3658026755852843
+Kidney_droplet	24-M-59	24	male	deposited_mouse	NK cell	18	2392	0.007525083612040134
+Kidney_droplet	24-M-59	24	male	deposited_mouse	T cell	302	2392	0.1262541806020067
+Kidney_droplet	24-M-59	24	male	deposited_mouse	brush cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	epithelial cell of proximal tubule	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	fenestrated cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	fibroblast	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	kidney capillary endothelial cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	kidney collecting duct principal cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	kidney cortex artery cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	kidney mesangial cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	0	2392	0.0
+Kidney_droplet	24-M-59	24	male	deposited_mouse	lymphocyte	904	2392	0.3779264214046823
+Kidney_droplet	24-M-59	24	male	deposited_mouse	macrophage	199	2392	0.08319397993311037
+Kidney_droplet	24-M-59	24	male	deposited_mouse	plasma cell	94	2392	0.039297658862876256
+Kidney_droplet	24-M-59	24	male	deposited_mouse	podocyte	0	2392	0.0
+Kidney_droplet	3-F-57	3	female	deposited_mouse	B cell	2	1020	0.00196078431372549
+Kidney_droplet	3-F-57	3	female	deposited_mouse	NK cell	3	1020	0.0029411764705882353
+Kidney_droplet	3-F-57	3	female	deposited_mouse	T cell	12	1020	0.011764705882352941
+Kidney_droplet	3-F-57	3	female	deposited_mouse	brush cell	12	1020	0.011764705882352941
+Kidney_droplet	3-F-57	3	female	deposited_mouse	epithelial cell of proximal tubule	4	1020	0.00392156862745098
+Kidney_droplet	3-F-57	3	female	deposited_mouse	fenestrated cell	53	1020	0.05196078431372549
+Kidney_droplet	3-F-57	3	female	deposited_mouse	fibroblast	7	1020	0.006862745098039216
+Kidney_droplet	3-F-57	3	female	deposited_mouse	kidney capillary endothelial cell	23	1020	0.022549019607843137
+Kidney_droplet	3-F-57	3	female	deposited_mouse	kidney collecting duct principal cell	33	1020	0.03235294117647059
+Kidney_droplet	3-F-57	3	female	deposited_mouse	kidney cortex artery cell	35	1020	0.03431372549019608
+Kidney_droplet	3-F-57	3	female	deposited_mouse	kidney distal convoluted tubule epithelial cell	61	1020	0.059803921568627454
+Kidney_droplet	3-F-57	3	female	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	160	1020	0.1568627450980392
+Kidney_droplet	3-F-57	3	female	deposited_mouse	kidney mesangial cell	26	1020	0.025490196078431372
+Kidney_droplet	3-F-57	3	female	deposited_mouse	kidney proximal convoluted tubule epithelial cell	486	1020	0.4764705882352941
+Kidney_droplet	3-F-57	3	female	deposited_mouse	lymphocyte	12	1020	0.011764705882352941
+Kidney_droplet	3-F-57	3	female	deposited_mouse	macrophage	55	1020	0.05392156862745098
+Kidney_droplet	3-F-57	3	female	deposited_mouse	plasma cell	0	1020	0.0
+Kidney_droplet	3-F-57	3	female	deposited_mouse	podocyte	36	1020	0.03529411764705882
+Kidney_droplet	3-M-8	3	male	deposited_mouse	B cell	1	485	0.002061855670103093
+Kidney_droplet	3-M-8	3	male	deposited_mouse	NK cell	0	485	0.0
+Kidney_droplet	3-M-8	3	male	deposited_mouse	T cell	3	485	0.006185567010309278
+Kidney_droplet	3-M-8	3	male	deposited_mouse	brush cell	3	485	0.006185567010309278
+Kidney_droplet	3-M-8	3	male	deposited_mouse	epithelial cell of proximal tubule	104	485	0.21443298969072164
+Kidney_droplet	3-M-8	3	male	deposited_mouse	fenestrated cell	40	485	0.08247422680412371
+Kidney_droplet	3-M-8	3	male	deposited_mouse	fibroblast	5	485	0.010309278350515464
+Kidney_droplet	3-M-8	3	male	deposited_mouse	kidney capillary endothelial cell	4	485	0.008247422680412371
+Kidney_droplet	3-M-8	3	male	deposited_mouse	kidney collecting duct principal cell	40	485	0.08247422680412371
+Kidney_droplet	3-M-8	3	male	deposited_mouse	kidney cortex artery cell	19	485	0.03917525773195876
+Kidney_droplet	3-M-8	3	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	22	485	0.04536082474226804
+Kidney_droplet	3-M-8	3	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	61	485	0.12577319587628866
+Kidney_droplet	3-M-8	3	male	deposited_mouse	kidney mesangial cell	10	485	0.020618556701030927
+Kidney_droplet	3-M-8	3	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	116	485	0.23917525773195877
+Kidney_droplet	3-M-8	3	male	deposited_mouse	lymphocyte	7	485	0.01443298969072165
+Kidney_droplet	3-M-8	3	male	deposited_mouse	macrophage	28	485	0.0577319587628866
+Kidney_droplet	3-M-8	3	male	deposited_mouse	plasma cell	0	485	0.0
+Kidney_droplet	3-M-8	3	male	deposited_mouse	podocyte	22	485	0.04536082474226804
+Kidney_droplet	3-M-9	3	male	deposited_mouse	B cell	2	595	0.0033613445378151263
+Kidney_droplet	3-M-9	3	male	deposited_mouse	NK cell	1	595	0.0016806722689075631
+Kidney_droplet	3-M-9	3	male	deposited_mouse	T cell	3	595	0.005042016806722689
+Kidney_droplet	3-M-9	3	male	deposited_mouse	brush cell	0	595	0.0
+Kidney_droplet	3-M-9	3	male	deposited_mouse	epithelial cell of proximal tubule	89	595	0.1495798319327731
+Kidney_droplet	3-M-9	3	male	deposited_mouse	fenestrated cell	89	595	0.1495798319327731
+Kidney_droplet	3-M-9	3	male	deposited_mouse	fibroblast	4	595	0.0067226890756302525
+Kidney_droplet	3-M-9	3	male	deposited_mouse	kidney capillary endothelial cell	11	595	0.018487394957983194
+Kidney_droplet	3-M-9	3	male	deposited_mouse	kidney collecting duct principal cell	37	595	0.06218487394957983
+Kidney_droplet	3-M-9	3	male	deposited_mouse	kidney cortex artery cell	24	595	0.040336134453781515
+Kidney_droplet	3-M-9	3	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	43	595	0.07226890756302522
+Kidney_droplet	3-M-9	3	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	94	595	0.15798319327731092
+Kidney_droplet	3-M-9	3	male	deposited_mouse	kidney mesangial cell	15	595	0.025210084033613446
+Kidney_droplet	3-M-9	3	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	85	595	0.14285714285714285
+Kidney_droplet	3-M-9	3	male	deposited_mouse	lymphocyte	13	595	0.021848739495798318
+Kidney_droplet	3-M-9	3	male	deposited_mouse	macrophage	49	595	0.08235294117647059
+Kidney_droplet	3-M-9	3	male	deposited_mouse	plasma cell	0	595	0.0
+Kidney_droplet	3-M-9	3	male	deposited_mouse	podocyte	36	595	0.06050420168067227
+Kidney_droplet	30-M-2	30	male	deposited_mouse	B cell	8	1734	0.00461361014994233
+Kidney_droplet	30-M-2	30	male	deposited_mouse	NK cell	1	1734	0.0005767012687427913
+Kidney_droplet	30-M-2	30	male	deposited_mouse	T cell	31	1734	0.01787773933102653
+Kidney_droplet	30-M-2	30	male	deposited_mouse	brush cell	16	1734	0.00922722029988466
+Kidney_droplet	30-M-2	30	male	deposited_mouse	epithelial cell of proximal tubule	799	1734	0.46078431372549017
+Kidney_droplet	30-M-2	30	male	deposited_mouse	fenestrated cell	62	1734	0.03575547866205306
+Kidney_droplet	30-M-2	30	male	deposited_mouse	fibroblast	53	1734	0.030565167243367934
+Kidney_droplet	30-M-2	30	male	deposited_mouse	kidney capillary endothelial cell	6	1734	0.0034602076124567475
+Kidney_droplet	30-M-2	30	male	deposited_mouse	kidney collecting duct principal cell	117	1734	0.06747404844290658
+Kidney_droplet	30-M-2	30	male	deposited_mouse	kidney cortex artery cell	42	1734	0.02422145328719723
+Kidney_droplet	30-M-2	30	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	40	1734	0.02306805074971165
+Kidney_droplet	30-M-2	30	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	145	1734	0.08362168396770472
+Kidney_droplet	30-M-2	30	male	deposited_mouse	kidney mesangial cell	2	1734	0.0011534025374855825
+Kidney_droplet	30-M-2	30	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	137	1734	0.0790080738177624
+Kidney_droplet	30-M-2	30	male	deposited_mouse	lymphocyte	21	1734	0.012110726643598616
+Kidney_droplet	30-M-2	30	male	deposited_mouse	macrophage	180	1734	0.10380622837370242
+Kidney_droplet	30-M-2	30	male	deposited_mouse	plasma cell	1	1734	0.0005767012687427913
+Kidney_droplet	30-M-2	30	male	deposited_mouse	podocyte	73	1734	0.04209919261822376
+Kidney_droplet	30-M-3	30	male	deposited_mouse	B cell	19	1277	0.014878621769772905
+Kidney_droplet	30-M-3	30	male	deposited_mouse	NK cell	1	1277	0.0007830853563038371
+Kidney_droplet	30-M-3	30	male	deposited_mouse	T cell	89	1277	0.0696945967110415
+Kidney_droplet	30-M-3	30	male	deposited_mouse	brush cell	0	1277	0.0
+Kidney_droplet	30-M-3	30	male	deposited_mouse	epithelial cell of proximal tubule	398	1277	0.3116679718089272
+Kidney_droplet	30-M-3	30	male	deposited_mouse	fenestrated cell	51	1277	0.039937353171495694
+Kidney_droplet	30-M-3	30	male	deposited_mouse	fibroblast	15	1277	0.011746280344557557
+Kidney_droplet	30-M-3	30	male	deposited_mouse	kidney capillary endothelial cell	0	1277	0.0
+Kidney_droplet	30-M-3	30	male	deposited_mouse	kidney collecting duct principal cell	94	1277	0.07361002349256068
+Kidney_droplet	30-M-3	30	male	deposited_mouse	kidney cortex artery cell	34	1277	0.02662490211433046
+Kidney_droplet	30-M-3	30	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	43	1277	0.033672670321064996
+Kidney_droplet	30-M-3	30	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	68	1277	0.05324980422866092
+Kidney_droplet	30-M-3	30	male	deposited_mouse	kidney mesangial cell	4	1277	0.0031323414252153485
+Kidney_droplet	30-M-3	30	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	224	1277	0.1754111198120595
+Kidney_droplet	30-M-3	30	male	deposited_mouse	lymphocyte	28	1277	0.02192638997650744
+Kidney_droplet	30-M-3	30	male	deposited_mouse	macrophage	148	1277	0.1158966327329679
+Kidney_droplet	30-M-3	30	male	deposited_mouse	plasma cell	12	1277	0.009397024275646046
+Kidney_droplet	30-M-3	30	male	deposited_mouse	podocyte	49	1277	0.03837118245888802
+Kidney_droplet	30-M-4	30	male	deposited_mouse	B cell	21	1225	0.017142857142857144
+Kidney_droplet	30-M-4	30	male	deposited_mouse	NK cell	1	1225	0.0008163265306122449
+Kidney_droplet	30-M-4	30	male	deposited_mouse	T cell	36	1225	0.029387755102040815
+Kidney_droplet	30-M-4	30	male	deposited_mouse	brush cell	8	1225	0.006530612244897959
+Kidney_droplet	30-M-4	30	male	deposited_mouse	epithelial cell of proximal tubule	439	1225	0.35836734693877553
+Kidney_droplet	30-M-4	30	male	deposited_mouse	fenestrated cell	68	1225	0.05551020408163265
+Kidney_droplet	30-M-4	30	male	deposited_mouse	fibroblast	8	1225	0.006530612244897959
+Kidney_droplet	30-M-4	30	male	deposited_mouse	kidney capillary endothelial cell	1	1225	0.0008163265306122449
+Kidney_droplet	30-M-4	30	male	deposited_mouse	kidney collecting duct principal cell	72	1225	0.05877551020408163
+Kidney_droplet	30-M-4	30	male	deposited_mouse	kidney cortex artery cell	16	1225	0.013061224489795919
+Kidney_droplet	30-M-4	30	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	27	1225	0.022040816326530613
+Kidney_droplet	30-M-4	30	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	47	1225	0.03836734693877551
+Kidney_droplet	30-M-4	30	male	deposited_mouse	kidney mesangial cell	0	1225	0.0
+Kidney_droplet	30-M-4	30	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	269	1225	0.21959183673469387
+Kidney_droplet	30-M-4	30	male	deposited_mouse	lymphocyte	39	1225	0.03183673469387755
+Kidney_droplet	30-M-4	30	male	deposited_mouse	macrophage	125	1225	0.10204081632653061
+Kidney_droplet	30-M-4	30	male	deposited_mouse	plasma cell	23	1225	0.018775510204081632
+Kidney_droplet	30-M-4	30	male	deposited_mouse	podocyte	25	1225	0.02040816326530612
+Kidney_droplet	30-M-5	30	male	deposited_mouse	B cell	14	935	0.014973262032085561
+Kidney_droplet	30-M-5	30	male	deposited_mouse	NK cell	1	935	0.0010695187165775401
+Kidney_droplet	30-M-5	30	male	deposited_mouse	T cell	21	935	0.022459893048128343
+Kidney_droplet	30-M-5	30	male	deposited_mouse	brush cell	7	935	0.0074866310160427805
+Kidney_droplet	30-M-5	30	male	deposited_mouse	epithelial cell of proximal tubule	356	935	0.38074866310160427
+Kidney_droplet	30-M-5	30	male	deposited_mouse	fenestrated cell	33	935	0.03529411764705882
+Kidney_droplet	30-M-5	30	male	deposited_mouse	fibroblast	4	935	0.0042780748663101605
+Kidney_droplet	30-M-5	30	male	deposited_mouse	kidney capillary endothelial cell	0	935	0.0
+Kidney_droplet	30-M-5	30	male	deposited_mouse	kidney collecting duct principal cell	88	935	0.09411764705882353
+Kidney_droplet	30-M-5	30	male	deposited_mouse	kidney cortex artery cell	23	935	0.02459893048128342
+Kidney_droplet	30-M-5	30	male	deposited_mouse	kidney distal convoluted tubule epithelial cell	23	935	0.02459893048128342
+Kidney_droplet	30-M-5	30	male	deposited_mouse	kidney loop of Henle thick ascending limb epithelial cell	65	935	0.06951871657754011
+Kidney_droplet	30-M-5	30	male	deposited_mouse	kidney mesangial cell	1	935	0.0010695187165775401
+Kidney_droplet	30-M-5	30	male	deposited_mouse	kidney proximal convoluted tubule epithelial cell	190	935	0.20320855614973263
+Kidney_droplet	30-M-5	30	male	deposited_mouse	lymphocyte	18	935	0.019251336898395723
+Kidney_droplet	30-M-5	30	male	deposited_mouse	macrophage	61	935	0.06524064171122995
+Kidney_droplet	30-M-5	30	male	deposited_mouse	plasma cell	6	935	0.006417112299465241
+Kidney_droplet	30-M-5	30	male	deposited_mouse	podocyte	24	935	0.025668449197860963
+Lung_droplet	1-M-62	1	male	deposited_mouse	B cell	67	1192	0.05620805369127517
+Lung_droplet	1-M-62	1	male	deposited_mouse	endothelial cell	253	1192	0.21224832214765102
+Lung_droplet	1-M-62	1	male	deposited_mouse	epithelial cell	36	1192	0.030201342281879196
+Lung_droplet	1-M-62	1	male	deposited_mouse	granulocyte	14	1192	0.01174496644295302
+Lung_droplet	1-M-62	1	male	deposited_mouse	lymphocyte	76	1192	0.06375838926174497
+Lung_droplet	1-M-62	1	male	deposited_mouse	macrophage	190	1192	0.1593959731543624
+Lung_droplet	1-M-62	1	male	deposited_mouse	monocyte	369	1192	0.30956375838926176
+Lung_droplet	1-M-62	1	male	deposited_mouse	myeloid cell	36	1192	0.030201342281879196
+Lung_droplet	1-M-62	1	male	deposited_mouse	natural killer cell	41	1192	0.034395973154362415
+Lung_droplet	1-M-62	1	male	deposited_mouse	stromal cell	110	1192	0.09228187919463088
+Lung_droplet	1-M-63	1	male	deposited_mouse	B cell	36	1702	0.021151586368977675
+Lung_droplet	1-M-63	1	male	deposited_mouse	endothelial cell	165	1702	0.09694477085781433
+Lung_droplet	1-M-63	1	male	deposited_mouse	epithelial cell	17	1702	0.0099882491186839
+Lung_droplet	1-M-63	1	male	deposited_mouse	granulocyte	35	1702	0.020564042303172738
+Lung_droplet	1-M-63	1	male	deposited_mouse	lymphocyte	149	1702	0.08754406580493537
+Lung_droplet	1-M-63	1	male	deposited_mouse	macrophage	492	1702	0.2890716803760282
+Lung_droplet	1-M-63	1	male	deposited_mouse	monocyte	555	1702	0.32608695652173914
+Lung_droplet	1-M-63	1	male	deposited_mouse	myeloid cell	54	1702	0.03172737955346651
+Lung_droplet	1-M-63	1	male	deposited_mouse	natural killer cell	70	1702	0.041128084606345476
+Lung_droplet	1-M-63	1	male	deposited_mouse	stromal cell	129	1702	0.07579318448883667
+Lung_droplet	18-F-50	18	female	deposited_mouse	B cell	68	331	0.2054380664652568
+Lung_droplet	18-F-50	18	female	deposited_mouse	endothelial cell	59	331	0.1782477341389728
+Lung_droplet	18-F-50	18	female	deposited_mouse	epithelial cell	3	331	0.00906344410876133
+Lung_droplet	18-F-50	18	female	deposited_mouse	granulocyte	2	331	0.006042296072507553
+Lung_droplet	18-F-50	18	female	deposited_mouse	lymphocyte	39	331	0.11782477341389729
+Lung_droplet	18-F-50	18	female	deposited_mouse	macrophage	21	331	0.0634441087613293
+Lung_droplet	18-F-50	18	female	deposited_mouse	monocyte	90	331	0.2719033232628399
+Lung_droplet	18-F-50	18	female	deposited_mouse	myeloid cell	9	331	0.027190332326283987
+Lung_droplet	18-F-50	18	female	deposited_mouse	natural killer cell	21	331	0.0634441087613293
+Lung_droplet	18-F-50	18	female	deposited_mouse	stromal cell	19	331	0.05740181268882175
+Lung_droplet	18-F-51	18	female	deposited_mouse	B cell	140	1157	0.12100259291270528
+Lung_droplet	18-F-51	18	female	deposited_mouse	endothelial cell	202	1157	0.17458945548833188
+Lung_droplet	18-F-51	18	female	deposited_mouse	epithelial cell	28	1157	0.024200518582541054
+Lung_droplet	18-F-51	18	female	deposited_mouse	granulocyte	6	1157	0.005185825410544511
+Lung_droplet	18-F-51	18	female	deposited_mouse	lymphocyte	207	1157	0.17891097666378566
+Lung_droplet	18-F-51	18	female	deposited_mouse	macrophage	118	1157	0.10198789974070872
+Lung_droplet	18-F-51	18	female	deposited_mouse	monocyte	232	1157	0.20051858254105445
+Lung_droplet	18-F-51	18	female	deposited_mouse	myeloid cell	32	1157	0.027657735522904063
+Lung_droplet	18-F-51	18	female	deposited_mouse	natural killer cell	55	1157	0.04753673292999136
+Lung_droplet	18-F-51	18	female	deposited_mouse	stromal cell	137	1157	0.11840968020743302
+Lung_droplet	18-M-52	18	male	deposited_mouse	B cell	72	1804	0.03991130820399113
+Lung_droplet	18-M-52	18	male	deposited_mouse	endothelial cell	375	1804	0.20787139689578715
+Lung_droplet	18-M-52	18	male	deposited_mouse	epithelial cell	65	1804	0.03603104212860311
+Lung_droplet	18-M-52	18	male	deposited_mouse	granulocyte	292	1804	0.16186252771618626
+Lung_droplet	18-M-52	18	male	deposited_mouse	lymphocyte	100	1804	0.05543237250554324
+Lung_droplet	18-M-52	18	male	deposited_mouse	macrophage	67	1804	0.03713968957871397
+Lung_droplet	18-M-52	18	male	deposited_mouse	monocyte	670	1804	0.3713968957871397
+Lung_droplet	18-M-52	18	male	deposited_mouse	myeloid cell	27	1804	0.014966740576496674
+Lung_droplet	18-M-52	18	male	deposited_mouse	natural killer cell	32	1804	0.017738359201773836
+Lung_droplet	18-M-52	18	male	deposited_mouse	stromal cell	104	1804	0.057649667405764965
+Lung_droplet	18-M-53	18	male	deposited_mouse	B cell	89	1488	0.05981182795698925
+Lung_droplet	18-M-53	18	male	deposited_mouse	endothelial cell	323	1488	0.21706989247311828
+Lung_droplet	18-M-53	18	male	deposited_mouse	epithelial cell	63	1488	0.04233870967741935
+Lung_droplet	18-M-53	18	male	deposited_mouse	granulocyte	89	1488	0.05981182795698925
+Lung_droplet	18-M-53	18	male	deposited_mouse	lymphocyte	149	1488	0.10013440860215053
+Lung_droplet	18-M-53	18	male	deposited_mouse	macrophage	70	1488	0.04704301075268817
+Lung_droplet	18-M-53	18	male	deposited_mouse	monocyte	500	1488	0.33602150537634407
+Lung_droplet	18-M-53	18	male	deposited_mouse	myeloid cell	36	1488	0.024193548387096774
+Lung_droplet	18-M-53	18	male	deposited_mouse	natural killer cell	31	1488	0.020833333333333332
+Lung_droplet	18-M-53	18	male	deposited_mouse	stromal cell	138	1488	0.09274193548387097
+Lung_droplet	21-F-54	21	female	deposited_mouse	B cell	113	1611	0.07014276846679081
+Lung_droplet	21-F-54	21	female	deposited_mouse	endothelial cell	453	1611	0.2811918063314711
+Lung_droplet	21-F-54	21	female	deposited_mouse	epithelial cell	124	1611	0.07697082557417753
+Lung_droplet	21-F-54	21	female	deposited_mouse	granulocyte	27	1611	0.01675977653631285
+Lung_droplet	21-F-54	21	female	deposited_mouse	lymphocyte	292	1611	0.18125387957790193
+Lung_droplet	21-F-54	21	female	deposited_mouse	macrophage	121	1611	0.07510862818125388
+Lung_droplet	21-F-54	21	female	deposited_mouse	monocyte	187	1611	0.11607697082557418
+Lung_droplet	21-F-54	21	female	deposited_mouse	myeloid cell	36	1611	0.0223463687150838
+Lung_droplet	21-F-54	21	female	deposited_mouse	natural killer cell	92	1611	0.057107386716325266
+Lung_droplet	21-F-54	21	female	deposited_mouse	stromal cell	166	1611	0.10304158907510863
+Lung_droplet	21-F-55	21	female	deposited_mouse	B cell	225	1819	0.12369433754810336
+Lung_droplet	21-F-55	21	female	deposited_mouse	endothelial cell	444	1819	0.2440901594282573
+Lung_droplet	21-F-55	21	female	deposited_mouse	epithelial cell	105	1819	0.057724024189114896
+Lung_droplet	21-F-55	21	female	deposited_mouse	granulocyte	32	1819	0.017592083562396922
+Lung_droplet	21-F-55	21	female	deposited_mouse	lymphocyte	259	1819	0.1423859263331501
+Lung_droplet	21-F-55	21	female	deposited_mouse	macrophage	164	1819	0.09015942825728422
+Lung_droplet	21-F-55	21	female	deposited_mouse	monocyte	270	1819	0.14843320505772403
+Lung_droplet	21-F-55	21	female	deposited_mouse	myeloid cell	54	1819	0.029686641011544807
+Lung_droplet	21-F-55	21	female	deposited_mouse	natural killer cell	84	1819	0.04617921935129192
+Lung_droplet	21-F-55	21	female	deposited_mouse	stromal cell	182	1819	0.1000549752611325
+Lung_droplet	3-F-56	3	female	deposited_mouse	B cell	23	450	0.051111111111111114
+Lung_droplet	3-F-56	3	female	deposited_mouse	endothelial cell	67	450	0.14888888888888888
+Lung_droplet	3-F-56	3	female	deposited_mouse	epithelial cell	16	450	0.035555555555555556
+Lung_droplet	3-F-56	3	female	deposited_mouse	granulocyte	3	450	0.006666666666666667
+Lung_droplet	3-F-56	3	female	deposited_mouse	lymphocyte	30	450	0.06666666666666667
+Lung_droplet	3-F-56	3	female	deposited_mouse	macrophage	97	450	0.21555555555555556
+Lung_droplet	3-F-56	3	female	deposited_mouse	monocyte	103	450	0.2288888888888889
+Lung_droplet	3-F-56	3	female	deposited_mouse	myeloid cell	28	450	0.06222222222222222
+Lung_droplet	3-F-56	3	female	deposited_mouse	natural killer cell	34	450	0.07555555555555556
+Lung_droplet	3-F-56	3	female	deposited_mouse	stromal cell	49	450	0.10888888888888888
+Lung_droplet	3-F-57	3	female	deposited_mouse	B cell	110	1093	0.10064043915827996
+Lung_droplet	3-F-57	3	female	deposited_mouse	endothelial cell	165	1093	0.15096065873741996
+Lung_droplet	3-F-57	3	female	deposited_mouse	epithelial cell	13	1093	0.011893870082342177
+Lung_droplet	3-F-57	3	female	deposited_mouse	granulocyte	14	1093	0.012808783165599268
+Lung_droplet	3-F-57	3	female	deposited_mouse	lymphocyte	188	1093	0.17200365965233302
+Lung_droplet	3-F-57	3	female	deposited_mouse	macrophage	154	1093	0.14089661482159194
+Lung_droplet	3-F-57	3	female	deposited_mouse	monocyte	200	1093	0.18298261665141813
+Lung_droplet	3-F-57	3	female	deposited_mouse	myeloid cell	44	1093	0.04025617566331199
+Lung_droplet	3-F-57	3	female	deposited_mouse	natural killer cell	136	1093	0.12442817932296432
+Lung_droplet	3-F-57	3	female	deposited_mouse	stromal cell	69	1093	0.06312900274473925
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	B cell	6	512	0.01171875
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	endothelial cell	0	512	0.0
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	epithelial cell	51	512	0.099609375
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	granulocyte	2	512	0.00390625
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	lymphocyte	1	512	0.001953125
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	macrophage	10	512	0.01953125
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	monocyte	6	512	0.01171875
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	myeloid cell	1	512	0.001953125
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	natural killer cell	43	512	0.083984375
+Lung_droplet	3-M-5/6	3	male	pooled_mouse_label	stromal cell	392	512	0.765625
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	B cell	6	1346	0.004457652303120356
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	endothelial cell	0	1346	0.0
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	epithelial cell	41	1346	0.030460624071322436
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	granulocyte	3	1346	0.002228826151560178
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	lymphocyte	6	1346	0.004457652303120356
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	macrophage	74	1346	0.0549777117384844
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	monocyte	19	1346	0.01411589895988113
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	myeloid cell	17	1346	0.01263001485884101
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	natural killer cell	138	1346	0.1025260029717682
+Lung_droplet	3-M-7/8	3	male	pooled_mouse_label	stromal cell	1042	1346	0.774145616641902
+Lung_droplet	30-M-3	30	male	deposited_mouse	B cell	49	1506	0.03253652058432935
+Lung_droplet	30-M-3	30	male	deposited_mouse	endothelial cell	188	1506	0.1248339973439575
+Lung_droplet	30-M-3	30	male	deposited_mouse	epithelial cell	8	1506	0.005312084993359893
+Lung_droplet	30-M-3	30	male	deposited_mouse	granulocyte	20	1506	0.013280212483399735
+Lung_droplet	30-M-3	30	male	deposited_mouse	lymphocyte	268	1506	0.17795484727755645
+Lung_droplet	30-M-3	30	male	deposited_mouse	macrophage	38	1506	0.025232403718459494
+Lung_droplet	30-M-3	30	male	deposited_mouse	monocyte	766	1506	0.5086321381142098
+Lung_droplet	30-M-3	30	male	deposited_mouse	myeloid cell	71	1506	0.04714475431606906
+Lung_droplet	30-M-3	30	male	deposited_mouse	natural killer cell	68	1506	0.0451527224435591
+Lung_droplet	30-M-3	30	male	deposited_mouse	stromal cell	30	1506	0.0199203187250996
+Lung_droplet	30-M-4	30	male	deposited_mouse	B cell	108	933	0.1157556270096463
+Lung_droplet	30-M-4	30	male	deposited_mouse	endothelial cell	245	933	0.26259378349410506
+Lung_droplet	30-M-4	30	male	deposited_mouse	epithelial cell	14	933	0.015005359056806002
+Lung_droplet	30-M-4	30	male	deposited_mouse	granulocyte	4	933	0.004287245444801715
+Lung_droplet	30-M-4	30	male	deposited_mouse	lymphocyte	144	933	0.15434083601286175
+Lung_droplet	30-M-4	30	male	deposited_mouse	macrophage	121	933	0.12968917470525188
+Lung_droplet	30-M-4	30	male	deposited_mouse	monocyte	188	933	0.2015005359056806
+Lung_droplet	30-M-4	30	male	deposited_mouse	myeloid cell	51	933	0.05466237942122187
+Lung_droplet	30-M-4	30	male	deposited_mouse	natural killer cell	14	933	0.015005359056806002
+Lung_droplet	30-M-4	30	male	deposited_mouse	stromal cell	44	933	0.04715969989281887
+Lung_droplet	30-M-5	30	male	deposited_mouse	B cell	54	547	0.09872029250457039
+Lung_droplet	30-M-5	30	male	deposited_mouse	endothelial cell	130	547	0.2376599634369287
+Lung_droplet	30-M-5	30	male	deposited_mouse	epithelial cell	21	547	0.038391224862888484
+Lung_droplet	30-M-5	30	male	deposited_mouse	granulocyte	4	547	0.007312614259597806
+Lung_droplet	30-M-5	30	male	deposited_mouse	lymphocyte	88	547	0.16087751371115175
+Lung_droplet	30-M-5	30	male	deposited_mouse	macrophage	32	547	0.05850091407678245
+Lung_droplet	30-M-5	30	male	deposited_mouse	monocyte	137	547	0.25045703839122485
+Lung_droplet	30-M-5	30	male	deposited_mouse	myeloid cell	20	547	0.03656307129798903
+Lung_droplet	30-M-5	30	male	deposited_mouse	natural killer cell	22	547	0.04021937842778794
+Lung_droplet	30-M-5	30	male	deposited_mouse	stromal cell	39	547	0.0712979890310786
+Lung_facs	24_58_M	24	male	deposited_mouse	B cell	14	445	0.03146067415730337
+Lung_facs	24_58_M	24	male	deposited_mouse	T cell	21	445	0.04719101123595506
+Lung_facs	24_58_M	24	male	deposited_mouse	endothelial cell	210	445	0.47191011235955055
+Lung_facs	24_58_M	24	male	deposited_mouse	epithelial cell	26	445	0.058426966292134834
+Lung_facs	24_58_M	24	male	deposited_mouse	glial cell	1	445	0.0022471910112359553
+Lung_facs	24_58_M	24	male	deposited_mouse	granulocyte	19	445	0.04269662921348315
+Lung_facs	24_58_M	24	male	deposited_mouse	lymphocyte	25	445	0.056179775280898875
+Lung_facs	24_58_M	24	male	deposited_mouse	macrophage	3	445	0.006741573033707865
+Lung_facs	24_58_M	24	male	deposited_mouse	monocyte	16	445	0.035955056179775284
+Lung_facs	24_58_M	24	male	deposited_mouse	myeloid cell	74	445	0.1662921348314607
+Lung_facs	24_58_M	24	male	deposited_mouse	nan	3	445	0.006741573033707865
+Lung_facs	24_58_M	24	male	deposited_mouse	stromal cell	33	445	0.07415730337078652
+Lung_facs	24_59_M	24	male	deposited_mouse	B cell	26	462	0.05627705627705628
+Lung_facs	24_59_M	24	male	deposited_mouse	T cell	37	462	0.08008658008658008
+Lung_facs	24_59_M	24	male	deposited_mouse	endothelial cell	228	462	0.4935064935064935
+Lung_facs	24_59_M	24	male	deposited_mouse	epithelial cell	2	462	0.004329004329004329
+Lung_facs	24_59_M	24	male	deposited_mouse	glial cell	0	462	0.0
+Lung_facs	24_59_M	24	male	deposited_mouse	granulocyte	3	462	0.006493506493506494
+Lung_facs	24_59_M	24	male	deposited_mouse	lymphocyte	18	462	0.03896103896103896
+Lung_facs	24_59_M	24	male	deposited_mouse	macrophage	0	462	0.0
+Lung_facs	24_59_M	24	male	deposited_mouse	monocyte	39	462	0.08441558441558442
+Lung_facs	24_59_M	24	male	deposited_mouse	myeloid cell	68	462	0.1471861471861472
+Lung_facs	24_59_M	24	male	deposited_mouse	nan	3	462	0.006493506493506494
+Lung_facs	24_59_M	24	male	deposited_mouse	stromal cell	38	462	0.08225108225108226
+Lung_facs	24_60_M	24	male	deposited_mouse	B cell	32	568	0.056338028169014086
+Lung_facs	24_60_M	24	male	deposited_mouse	T cell	30	568	0.0528169014084507
+Lung_facs	24_60_M	24	male	deposited_mouse	endothelial cell	268	568	0.47183098591549294
+Lung_facs	24_60_M	24	male	deposited_mouse	epithelial cell	29	568	0.051056338028169015
+Lung_facs	24_60_M	24	male	deposited_mouse	glial cell	0	568	0.0
+Lung_facs	24_60_M	24	male	deposited_mouse	granulocyte	13	568	0.022887323943661973
+Lung_facs	24_60_M	24	male	deposited_mouse	lymphocyte	36	568	0.06338028169014084
+Lung_facs	24_60_M	24	male	deposited_mouse	macrophage	0	568	0.0
+Lung_facs	24_60_M	24	male	deposited_mouse	monocyte	15	568	0.02640845070422535
+Lung_facs	24_60_M	24	male	deposited_mouse	myeloid cell	28	568	0.04929577464788732
+Lung_facs	24_60_M	24	male	deposited_mouse	nan	4	568	0.007042253521126761
+Lung_facs	24_60_M	24	male	deposited_mouse	stromal cell	113	568	0.198943661971831
+Lung_facs	24_61_M	24	male	deposited_mouse	B cell	68	585	0.11623931623931624
+Lung_facs	24_61_M	24	male	deposited_mouse	T cell	11	585	0.018803418803418803
+Lung_facs	24_61_M	24	male	deposited_mouse	endothelial cell	268	585	0.4581196581196581
+Lung_facs	24_61_M	24	male	deposited_mouse	epithelial cell	31	585	0.05299145299145299
+Lung_facs	24_61_M	24	male	deposited_mouse	glial cell	0	585	0.0
+Lung_facs	24_61_M	24	male	deposited_mouse	granulocyte	1	585	0.0017094017094017094
+Lung_facs	24_61_M	24	male	deposited_mouse	lymphocyte	5	585	0.008547008547008548
+Lung_facs	24_61_M	24	male	deposited_mouse	macrophage	8	585	0.013675213675213675
+Lung_facs	24_61_M	24	male	deposited_mouse	monocyte	29	585	0.04957264957264957
+Lung_facs	24_61_M	24	male	deposited_mouse	myeloid cell	52	585	0.08888888888888889
+Lung_facs	24_61_M	24	male	deposited_mouse	nan	26	585	0.044444444444444446
+Lung_facs	24_61_M	24	male	deposited_mouse	stromal cell	86	585	0.147008547008547
+Lung_facs	3_10_M	3	male	deposited_mouse	B cell	2	128	0.015625
+Lung_facs	3_10_M	3	male	deposited_mouse	T cell	2	128	0.015625
+Lung_facs	3_10_M	3	male	deposited_mouse	endothelial cell	27	128	0.2109375
+Lung_facs	3_10_M	3	male	deposited_mouse	epithelial cell	5	128	0.0390625
+Lung_facs	3_10_M	3	male	deposited_mouse	glial cell	0	128	0.0
+Lung_facs	3_10_M	3	male	deposited_mouse	granulocyte	5	128	0.0390625
+Lung_facs	3_10_M	3	male	deposited_mouse	lymphocyte	10	128	0.078125
+Lung_facs	3_10_M	3	male	deposited_mouse	macrophage	2	128	0.015625
+Lung_facs	3_10_M	3	male	deposited_mouse	monocyte	35	128	0.2734375
+Lung_facs	3_10_M	3	male	deposited_mouse	myeloid cell	15	128	0.1171875
+Lung_facs	3_10_M	3	male	deposited_mouse	nan	3	128	0.0234375
+Lung_facs	3_10_M	3	male	deposited_mouse	stromal cell	22	128	0.171875
+Lung_facs	3_11_M	3	male	deposited_mouse	B cell	3	126	0.023809523809523808
+Lung_facs	3_11_M	3	male	deposited_mouse	T cell	0	126	0.0
+Lung_facs	3_11_M	3	male	deposited_mouse	endothelial cell	55	126	0.4365079365079365
+Lung_facs	3_11_M	3	male	deposited_mouse	epithelial cell	10	126	0.07936507936507936
+Lung_facs	3_11_M	3	male	deposited_mouse	glial cell	0	126	0.0
+Lung_facs	3_11_M	3	male	deposited_mouse	granulocyte	1	126	0.007936507936507936
+Lung_facs	3_11_M	3	male	deposited_mouse	lymphocyte	11	126	0.0873015873015873
+Lung_facs	3_11_M	3	male	deposited_mouse	macrophage	0	126	0.0
+Lung_facs	3_11_M	3	male	deposited_mouse	monocyte	5	126	0.03968253968253968
+Lung_facs	3_11_M	3	male	deposited_mouse	myeloid cell	13	126	0.10317460317460317
+Lung_facs	3_11_M	3	male	deposited_mouse	nan	3	126	0.023809523809523808
+Lung_facs	3_11_M	3	male	deposited_mouse	stromal cell	25	126	0.1984126984126984
+Lung_facs	3_38_F	3	female	deposited_mouse	B cell	15	414	0.036231884057971016
+Lung_facs	3_38_F	3	female	deposited_mouse	T cell	9	414	0.021739130434782608
+Lung_facs	3_38_F	3	female	deposited_mouse	endothelial cell	193	414	0.46618357487922707
+Lung_facs	3_38_F	3	female	deposited_mouse	epithelial cell	28	414	0.06763285024154589
+Lung_facs	3_38_F	3	female	deposited_mouse	glial cell	0	414	0.0
+Lung_facs	3_38_F	3	female	deposited_mouse	granulocyte	8	414	0.01932367149758454
+Lung_facs	3_38_F	3	female	deposited_mouse	lymphocyte	32	414	0.07729468599033816
+Lung_facs	3_38_F	3	female	deposited_mouse	macrophage	2	414	0.004830917874396135
+Lung_facs	3_38_F	3	female	deposited_mouse	monocyte	22	414	0.05314009661835749
+Lung_facs	3_38_F	3	female	deposited_mouse	myeloid cell	56	414	0.13526570048309178
+Lung_facs	3_38_F	3	female	deposited_mouse	nan	3	414	0.007246376811594203
+Lung_facs	3_38_F	3	female	deposited_mouse	stromal cell	46	414	0.1111111111111111
+Lung_facs	3_39_F	3	female	deposited_mouse	B cell	27	365	0.07397260273972603
+Lung_facs	3_39_F	3	female	deposited_mouse	T cell	4	365	0.010958904109589041
+Lung_facs	3_39_F	3	female	deposited_mouse	endothelial cell	114	365	0.31232876712328766
+Lung_facs	3_39_F	3	female	deposited_mouse	epithelial cell	43	365	0.1178082191780822
+Lung_facs	3_39_F	3	female	deposited_mouse	glial cell	0	365	0.0
+Lung_facs	3_39_F	3	female	deposited_mouse	granulocyte	11	365	0.030136986301369864
+Lung_facs	3_39_F	3	female	deposited_mouse	lymphocyte	35	365	0.0958904109589041
+Lung_facs	3_39_F	3	female	deposited_mouse	macrophage	4	365	0.010958904109589041
+Lung_facs	3_39_F	3	female	deposited_mouse	monocyte	18	365	0.049315068493150684
+Lung_facs	3_39_F	3	female	deposited_mouse	myeloid cell	34	365	0.09315068493150686
+Lung_facs	3_39_F	3	female	deposited_mouse	nan	0	365	0.0
+Lung_facs	3_39_F	3	female	deposited_mouse	stromal cell	75	365	0.2054794520547945
+Lung_facs	3_8_M	3	male	deposited_mouse	B cell	6	237	0.02531645569620253
+Lung_facs	3_8_M	3	male	deposited_mouse	T cell	3	237	0.012658227848101266
+Lung_facs	3_8_M	3	male	deposited_mouse	endothelial cell	108	237	0.45569620253164556
+Lung_facs	3_8_M	3	male	deposited_mouse	epithelial cell	15	237	0.06329113924050633
+Lung_facs	3_8_M	3	male	deposited_mouse	glial cell	2	237	0.008438818565400843
+Lung_facs	3_8_M	3	male	deposited_mouse	granulocyte	1	237	0.004219409282700422
+Lung_facs	3_8_M	3	male	deposited_mouse	lymphocyte	21	237	0.08860759493670886
+Lung_facs	3_8_M	3	male	deposited_mouse	macrophage	2	237	0.008438818565400843
+Lung_facs	3_8_M	3	male	deposited_mouse	monocyte	22	237	0.09282700421940929
+Lung_facs	3_8_M	3	male	deposited_mouse	myeloid cell	31	237	0.1308016877637131
+Lung_facs	3_8_M	3	male	deposited_mouse	nan	0	237	0.0
+Lung_facs	3_8_M	3	male	deposited_mouse	stromal cell	26	237	0.10970464135021098
+Lung_facs	3_9_M	3	male	deposited_mouse	B cell	3	202	0.01485148514851485
+Lung_facs	3_9_M	3	male	deposited_mouse	T cell	1	202	0.0049504950495049506
+Lung_facs	3_9_M	3	male	deposited_mouse	endothelial cell	78	202	0.38613861386138615
+Lung_facs	3_9_M	3	male	deposited_mouse	epithelial cell	27	202	0.13366336633663367
+Lung_facs	3_9_M	3	male	deposited_mouse	glial cell	0	202	0.0
+Lung_facs	3_9_M	3	male	deposited_mouse	granulocyte	4	202	0.019801980198019802
+Lung_facs	3_9_M	3	male	deposited_mouse	lymphocyte	22	202	0.10891089108910891
+Lung_facs	3_9_M	3	male	deposited_mouse	macrophage	0	202	0.0
+Lung_facs	3_9_M	3	male	deposited_mouse	monocyte	19	202	0.09405940594059406
+Lung_facs	3_9_M	3	male	deposited_mouse	myeloid cell	24	202	0.1188118811881188
+Lung_facs	3_9_M	3	male	deposited_mouse	nan	1	202	0.0049504950495049506
+Lung_facs	3_9_M	3	male	deposited_mouse	stromal cell	23	202	0.11386138613861387

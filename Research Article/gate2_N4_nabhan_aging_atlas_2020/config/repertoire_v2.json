@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P06.repertoire_v2",
+  "owner": "Nb5-P06",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "After applying the author-documented young-cell naming rule, which T-cell clonal-family fractions reproduce source arithmetic and remain visible under equal mouse sampling depth?",
+  "decision": "Supersede only the v1 repertoire interpretation; retain all v1 expression/composition outputs. Resolve mouse joins and distinguish source table update differences from biological results.",
+  "strongest_rival": "Young-cell identifier formatting, cross-mouse clone groups, unequal reconstruction yield and tissue mixture can account for apparent clonal fraction changes.",
+  "discriminator": "Use the exact author identifier conversion, exact age-specific source-metadata join, within-mouse clone sizes and exact common-depth sampling expectation; retain unmatched rows and paper denominator differences.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/NOTE_RECONCILIATION.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/REPRODUCTION_SCOPE.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "descriptive_v1 outcomes and its 2087 failed exact repertoire joins have been seen. The pinned author notebook specifies young-name conversion and within-mouse clone validation. This correction is outcome-exposed and was chosen to repair source matching, not select an effect.",
+  "biological_unit": "Deposited mouse within each assay and tissue; slash-containing lung IDs are explicitly pooled libraries, excluded from mouse-weighted expression contrasts and composition accounting.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated tissue and assay samples and the general versus Figure 4 brain objects reuse mice/cells. IDs use different source formats. No cross-organ independence, canonical cross-assay identity resolution or external replication is asserted.",
+  "population_and_selection": "All Table 9 source reconstructed T-cell rows at 3, 18 and 24 months. Animal-level summaries use only the exact source-metadata matched rows; all unmatched rows remain in audit output.",
+  "contrast": "Within-source 3,18,24-month descriptive fractions, both pooled matched cells and equal mouse summaries. No hypothesis tests.",
+  "endpoint": "Reconstructed cells in nonsingleton groups defined jointly by age, mouse and source clone ID; matched/unmatched denominators; exact common-depth hypergeometric expectation; tissue distribution.",
+  "methods": "At 3m, replace all hyphens in the original T-cell name with periods and append -1-1, exactly as the pinned source notebook. Join to Table 9 metadata cell_name_3m; older ages join unchanged names to cell_name_18m_24m. Require unique keys. Partition source clonal groups by mouse; a singleton after partition is not a nonsingleton clone. Denominator is every matched reconstruction row, including missing clone assignment as singleton. Equal-depth sampling uses the smallest observed reconstruction count across included mice, with exact hypergeometric expected nonsingleton occupancy conditional on observed labels. Preserve original source group_size labels and unmatched rows. Independent Counter verifies every grouped clone size. Export tissue denominators without assuming source mixtures comparable.",
+  "missingness_and_exclusions": "Unmatched names are exported and excluded only from mouse-level denominators under the source inner-join rule; mismatch does not become missing-at-random. Missing clonal group labels are singleton observations. No receptor sequence is exported or reassembled.",
+  "multiplicity": "No p-values, significance stars, rankings by effect or confirmatory claims. The fixed descriptive marker family and all contrasts are retained, including null/unfavorable values.",
+  "precision_status": "unknown",
+  "precision_basis": "Show every observed mouse and descriptive means; no biological-effect margin, independent unit variance justification or confirmatory power is available.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Normalized RNA detection is not senescence, secretion, pathway activation or repair. Source UMAP, cluster occupancy and signature overlap cannot establish trajectory, a distinct intermediate state or AD treatment direction. Clonality is conditional on reconstruction and tissue sampling, not immune performance. Broad shared-age signatures have prior art. No claim promotion.",
+  "stop_rule": "Stop on nonunique joins or arithmetic disagreement. Retain mismatch with published final-paper counts as a reproduction limitation. Do not reinterpret clonal fraction as receptor function or fit age tests on cells.",
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_9.xlsx",
+      "sha256": "350e02f167659dd03af0e6e22808fcd5ea5f210e8f8828959c68ff2d81439d2e",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/author_clonal_notebook.ipynb",
+      "sha256": "d90cbb70f005083cbe7783ad4ddf749fd4ea566e3d56c1c2a7a89a12c75a29c4",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/03_repertoire_v2.py",
+      "sha256": "7a6fbe4341fe781628fe42fc593942cb9207530f0e66b537ac7a5f6ec449aae2"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/03_repertoire_v2.py",
+  "arguments": [
+    "--table",
+    "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_9.xlsx",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "repertoire_cells.tsv",
+    "repertoire_mouse.tsv",
+    "repertoire_source.tsv",
+    "repertoire_tissue.tsv",
+    "verification.json"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+  "amendment_reason": "P06-only correction: source notebook establishes an exact young-cell key conversion missing from v1 and validates groups within individual mice. Full expression/composition analysis is not rerun. All prior results and the failed-join audit remain available."
+}
