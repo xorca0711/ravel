@@ -61,6 +61,29 @@ Next: freeze the bounded extension actually pursued, retaining prior exposure
 and the strongest rival. No new biological endpoint, precision or source access
 has been claimed. Current edition checks are in the execution ledger.
 
+## Biological focus review on 3 October 2026
+
+The owner questioned whether proposed Nb5 extensions address biology or only
+artifacts. Review of the current results, extension assessment, branch cards
+and note reconciliation finds substantive biological candidates, but an
+immediate work list weighted toward source and robustness checks. Those checks
+support an extension; completing them alone does not answer its biological
+question. The extension proposals remain unexecuted.
+
+Proposed next framing: P01 distinguishes within-type RNA differences from
+captured population redistribution; P02 distinguishes a reproducible microglial
+expression configuration from changing mixtures; P06 asks about repertoire
+concentration within comparable tissue/subset compartments. Genuine changes in
+population composition are a biological alternative, not automatically an
+artifact. Differential capture remains a separate rival. Each numerical stage
+must connect its measured endpoint and mouse-level comparison to a biological
+decision and the missing independent discriminator. Source holds, functional
+limits and prospective contracts remain unchanged. This is a review finding,
+not a revised frozen design, new result, selected RQ or scientific acceptance.
+No biological analysis or figure was rerun. See the
+[current extension assessment](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_ASSESSMENT.md)
+and [branch cards](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md).
+
 ## Integrated source-qualification checkpoint
 
 
