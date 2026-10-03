@@ -1,5 +1,7 @@
 # Completion, eligibility and remaining dependencies
 
+**Integration update, 3 October 2026:** PR #130 is merged at `b52ad6b`. Use [remaining work](../REMAINING_WORK.md) for current original-job accounting. This stage ledger preserves the pre-merge checkpoint and its per-comparison eligibility conditions; scientific acceptance and actual access remain pending.
+
 3 October 2026. This stage completes a draft conditional design for every A0–A23
 and supplements every Nb4-P01–P09 plan. Agent consistency review is documented
 in [validation](VALIDATION.md); owner scientific review remains pending.

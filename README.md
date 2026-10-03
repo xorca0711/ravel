@@ -55,7 +55,9 @@ not support.
 Different questions are at different stages. Completing an analysis can resolve a
 measurement or data limitation while leaving the biological hypothesis open. The
 [research architecture](docs/RESEARCH_ARCHITECTURE.md) explains the evidence layers,
-and the [execution roadmap](docs/RESEARCH_ROADMAP.md) records current priorities.
+and the [remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) records
+current dependencies. The [September roadmap](docs/RESEARCH_ROADMAP.md) preserves
+the historical planning context.
 
 ## Start here
 
@@ -64,11 +66,11 @@ and the [execution roadmap](docs/RESEARCH_ROADMAP.md) records current priorities
 | Biological questions and the evidence needed to answer them | [Research-question register](RESEARCH_QUESTIONS.md) and [question workspaces](RQ_Specified/README.md) |
 | Source studies, reading status and paper-specific analyses | [Research article roadmap](Research%20Article/README.md) |
 | Datasets, their roles, biological units and eligibility limits | [Dataset inventory](docs/DATASETS.md) |
-| Current results, remaining gaps and execution priorities | [Current project state](PROGRESS.md) and [research execution roadmap](docs/RESEARCH_ROADMAP.md) |
+| Current results, remaining gaps and next decisions | [Current project state](PROGRESS.md) and [remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
 | Figures and the reports that interpret them | [Question figure index](RQ_Specified/FIGURES.md) and [paper galleries](Research%20Article/README.md#figure-galleries) |
 | Evidence grades, corrections and negative results | [Claim register](CLAIMS.md), [generated summary](docs/CLAIM_SUMMARY.md) and [negative-results index](NEGATIVE_RESULTS.md) |
 | Reproduce the work or inspect analytical decisions | [Reproducibility guide](REPRODUCIBILITY.md), [documentation index](docs/README.md) and [decision record](DEVELOPMENT.md) |
-| Develop a research question or contribute an analysis | [Evidence dossiers](docs/research_dossiers/README.md) and [research governance](docs/RESEARCH_GOVERNANCE.md) |
+| Develop a research question or contribute an analysis | [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md), [evidence dossiers](docs/research_dossiers/README.md) and [research governance](docs/RESEARCH_GOVERNANCE.md) |
 
 ## How the research is organized
 

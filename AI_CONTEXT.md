@@ -10,8 +10,12 @@ This file is navigation, not another scientific status register.
   evidence and prospective contracts. Nb4-P01–P09 remain article-local candidates.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
-- [Capability review and remaining work](docs/research_dossiers/capabilities_2026-10-03/README.md)
-  records published approaches, unconfirmed host access and unfinished experiment packages.
+- [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md)
+  contain 24 drafts and nine Nb4 supplements awaiting scientific review.
+- [Remaining work](docs/research_dossiers/REMAINING_WORK.md) records current
+  dependencies after PR #130 merged. Review and qualify the existing packages.
+- [Capability review](docs/research_dossiers/capabilities_2026-10-03/README.md)
+  records published approaches; actual host access remains unconfirmed.
 - [Claims](CLAIMS.md) and current correction/result reports own evidence scope.
   A completed script, PR or schema check does not establish scientific acceptance.
 - [Reconciliation](docs/audits/2026-10-03-repository-repair/REPORT.md) identifies
@@ -24,10 +28,3 @@ research measurements can be public; personal planning is not research evidence.
 The former long handoff is preserved in existing Git history; see the
 [historical locator](docs/history/2026-10-03-pre-governance/README.md).
 It describes earlier revisions and does not override the current locators.
-
-## Subsequent 3 October continuation
-
-Use the [conditional package index](docs/research_dossiers/packages_2026-10-03/README.md)
-and [ledger](docs/research_dossiers/packages_2026-10-03/LEDGER.md) for the now-written
-24 drafts and nine Nb4 supplements. This updates the earlier unfinished-package
-status; actual access and scientific acceptance remain unconfirmed.

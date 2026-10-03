@@ -1,5 +1,75 @@
 # Current project state
 
+**Update this before stopping work, every session.**
+
+Current checkpoint: 3 October 2026, after the owner merged
+[PR #130](https://github.com/xorca0711/scRNA_seq/pull/130) into `main` at
+`b52ad6bbbe66d8f886e72453be09eff2eee25d4a` (05:37:38 UTC).
+This records repository integration; scientific acceptance remains pending.
+Check live Git state before treating this snapshot as the latest revision.
+
+## Current state and authority
+
+- All A0–A23 remain available, with nine Nb4 article-local candidates; no RQ is selected.
+- [Twenty-four conditional packages and nine Nb4 supplements](docs/research_dossiers/packages_2026-10-03/README.md)
+  are drafted. The next work is review and qualification, not drafting them again.
+- [Remaining work](docs/research_dossiers/REMAINING_WORK.md) owns the current
+  original-job accounting. The [package-stage ledger](docs/research_dossiers/packages_2026-10-03/LEDGER.md)
+  retains each comparison's exact eligibility conditions.
+- [Published capabilities](docs/research_dossiers/capabilities_2026-10-03/METHODS.md),
+  source qualification and 984 library identity joins are documented. Biological
+  maps, early/later outcome links and actual host access remain incomplete.
+- Governance, contracts and the runner are implemented. Claim grades, adverse
+  results and frozen scientific artifacts retain their existing authority.
+
+## Work in this continuation
+
+Documentation reconciliation on `codex/postmerge-docs` starts from merged main
+`b52ad6b`. Current navigation now points to the packages and remaining-work
+ledger; earlier checkpoints are explicitly historical. The private Claude
+Science handoff is updated separately and stays outside Git.
+
+All ten required local checks passed against `origin/main` at `b52ad6b`,
+including 123 tests with one existing skip. Targeted documentation validation
+resolved 356 local paths, preserved the prior progress/decision history and
+confirmed that all 13 changed paths are Markdown. GitHub checks must also pass
+at the final PR revision. Exact local logs are retained in the private handoff
+workspace under `postmerge-doc-validation/`.
+No biological pipeline, source search or scientific interpretation was rerun.
+No governance, contract, receipt, claim grade or scientific code was changed.
+
+## Next work
+
+1. Safely align the normal checkout with integrated main, preserving intervening
+   changes and ignored data. Read the [checkout record](docs/research_dossiers/followup_2026-10-03/CHECKOUT.md).
+2. Review existing packages for the exact discriminator, closest precedent and
+   measurement validity. A17's corrected model/observation specification can be
+   developed without new lab access; its substantive fit is still gated.
+3. Recover only the named missing unit/state and early/later maps from new
+   source evidence; do not repeat exhausted library-identity searches.
+4. Qualify actual models, specimens, assays, supervision, meaningful effects
+   and independent-unit precision when the required evidence is available.
+5. Execute only newly eligible comparisons under committed frozen contracts
+   and verified receipts, then develop the supported experimental designs.
+
+## Checkout and external limits
+
+At intake the normal checkout remains `codex/workspace-ready` at `6b9ce9e`;
+its reported metadata-file changes and private settings were not touched.
+Original work remains on `codex/preserved-primary-20261003`; older worktrees
+and ignored inputs are retained. The clean attached repair worktree was reused
+on the scoped documentation branch. No raw-data backup or retirement is claimed.
+Host access remains unconfirmed. GitHub protection settings were not changed
+or freshly re-audited in this documentation task. Future PR merges remain owner decisions.
+
+## Historical checkpoints through PR #130
+
+The preserved entries below describe their original revisions. Their references
+to an open PR or unwritten packages are superseded by the current checkpoint above.
+
+<details>
+<summary>Read the preserved pre-merge checkpoints</summary>
+
 Updated 3 October 2026. Integration base:
 `0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f` (main, PR #129).
 Repair branch: `codex/research-governance`; [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130), not merged. Check Git before assuming this
@@ -169,3 +239,5 @@ See [stage validation](docs/research_dossiers/packages_2026-10-03/VALIDATION.md)
 for actual checks and final base verification. Prior CI is not a receipt for
 this continuation. Owner merge and later checkout alignment remain pending;
 external protection settings were not changed or freshly reasserted.
+
+</details>

@@ -1,5 +1,7 @@
 # Conditional research packages
 
+**Integrated in PR #130.** The drafts below are available on main; [remaining work](../REMAINING_WORK.md) tracks their review and qualification. Repository integration does not establish scientific acceptance or bench readiness.
+
 3 October 2026. These 24 question packages and nine article-local supplements
 develop the [capability-stage next steps](../capabilities_2026-10-03/NEXT_STEPS.md).
 They are proposed designs, checked for consistency by the authoring agent;

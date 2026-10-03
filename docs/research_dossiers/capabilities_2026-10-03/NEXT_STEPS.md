@@ -1,5 +1,7 @@
 # Original repair plan: verified status and remaining work
 
+**Superseded status checkpoint.** PR #130 is merged and 24 conditional packages plus nine Nb4 supplements are drafted. The original job accounting below remains historical; [remaining work](../REMAINING_WORK.md) is the current ledger. Source holds and experimental qualification requirements remain applicable.
+
 3 October 2026. This is a completion audit, not a percentage estimate. A document
 being written, a parser passing and a scientific question being resolved are
 different milestones. The owner retains PR integration, scientific acceptance
