@@ -65,3 +65,7 @@ Follow [research governance](../RESEARCH_GOVERNANCE.md) and the
 ## Primary-source and feasibility review
 
 The [3 October review](review_2026-10-03/README.md) checks established precedents, corrects first-pass scope/provenance errors and records a next evidence gate for every question and all nine Nb4 candidates. It is a bounded review, not exhaustive novelty clearance or experimental readiness.
+
+## Source and capability qualification
+
+The [qualification stage](qualification_2026-10-03/README.md) contains four executed metadata contracts, five versioned GEO sources, all-question dispositions and exact enabling exports. Fresh metadata resolves source identities without inventing biological replication or laboratory access.

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "studies": [
+    {
+      "series": "GSE169125",
+      "series_fields": {
+        "Series_title": [
+          "Regulation of the alveolar regenerative niche by amphiregulin-producing Treg cells (MesSTIM)"
+        ],
+        "Series_last_update_date": [
+          "Dec 14 2022"
+        ],
+        "Series_type": [
+          "Expression profiling by high throughput sequencing"
+        ],
+        "Series_sample_id": [
+          "GSM5176672",
+          "GSM5176673",
+          "GSM5176674",
+          "GSM5176675",
+          "GSM5176676",
+          "GSM5176677",
+          "GSM5176678",
+          "GSM5176679",
+          "GSM5176680",
+          "GSM5176681",
+          "GSM5176682",
+          "GSM5176683",
+          "GSM5176684",
+          "GSM5176685",
+          "GSM5176686",
+          "GSM5176687",
+          "GSM5176688",
+          "GSM5176689"
+        ],
+        "Series_supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169125/suppl/GSE169125_MesSTIM_counts.csv.gz"
+        ],
+        "Series_relation": [
+          "SubSeries of: GSE169127",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA715241",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP311151"
+        ]
+      },
+      "sample_record_count": 18,
+      "membership_record_counts": {
+        "GSE169125": 18,
+        "GSE169127": 18
+      },
+      "library_strategy_counts": {
+        "RNA-Seq": 18
+      },
+      "organism_record_counts": {
+        "Mus musculus": 18
+      },
+      "characteristic_key_record_counts": {
+        "cell type": 18,
+        "strain": 18,
+        "treatment": 18
+      },
+      "biological_unit_count": null,
+      "biological_unit_status": "not_determined_by_parser",
+      "expression_values_read": false,
+      "interpretation": "Counts refer to deposited sample records, not animals, donors, preparations or independent wells.",
+      "input_path": "raw_data/source_qualification_20261003/GSE169125_family.soft",
+      "input_sha256": "5da88907e2e503d6a00e5bdfb84991a8805b9d50439a608a062b560b78ad73c6"
+    }
+  ]
+}

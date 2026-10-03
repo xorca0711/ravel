@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "studies": [
+    {
+      "series": "GSE303646",
+      "series_fields": {
+        "Series_title": [
+          "Single-cell RNA-seq of Lung Regeneration in Young and Aged Mice After Injury"
+        ],
+        "Series_last_update_date": [
+          "Sep 16 2026"
+        ],
+        "Series_type": [
+          "Expression profiling by high throughput sequencing"
+        ],
+        "Series_sample_id": [
+          "GSM9131908",
+          "GSM9131909",
+          "GSM9131910",
+          "GSM9131911",
+          "GSM9131912",
+          "GSM9131913",
+          "GSM9131914",
+          "GSM9131915",
+          "GSM9131916",
+          "GSM9131917",
+          "GSM9131918",
+          "GSM9131919",
+          "GSM9131920",
+          "GSM9131921",
+          "GSM9131922",
+          "GSM9131923",
+          "GSM9131924",
+          "GSM9131925",
+          "GSM9131926",
+          "GSM9131927",
+          "GSM9131928",
+          "GSM9131929",
+          "GSM9131930",
+          "GSM9131931",
+          "GSM9131932",
+          "GSM9131933",
+          "GSM9131934",
+          "GSM9131935",
+          "GSM9131936",
+          "GSM9131937",
+          "GSM9131938",
+          "GSM9131939",
+          "GSM9131940",
+          "GSM9131941",
+          "GSM9131942",
+          "GSM9131943",
+          "GSM9131944",
+          "GSM9131945",
+          "GSM9131946",
+          "GSM9131947",
+          "GSM9131948",
+          "GSM9131949",
+          "GSM9131950",
+          "GSM9131951",
+          "GSM9131952",
+          "GSM9131953",
+          "GSM9131954",
+          "GSM9131955",
+          "GSM9131956",
+          "GSM9131957",
+          "GSM9131958",
+          "GSM9131959",
+          "GSM9131960",
+          "GSM9131961",
+          "GSM9131962",
+          "GSM9131963"
+        ],
+        "Series_supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303646/suppl/GSE303646_RAW.tar"
+        ]
+      },
+      "sample_record_count": 56,
+      "membership_record_counts": {
+        "GSE303646": 56
+      },
+      "library_strategy_counts": {
+        "RNA-Seq": 56
+      },
+      "organism_record_counts": {
+        "Mus musculus": 56
+      },
+      "characteristic_key_record_counts": {
+        "age": 56,
+        "batch": 56,
+        "cell type": 56,
+        "genotype": 56,
+        "treatment": 56
+      },
+      "biological_unit_count": null,
+      "biological_unit_status": "not_determined_by_parser",
+      "expression_values_read": false,
+      "interpretation": "Counts refer to deposited sample records, not animals, donors, preparations or independent wells.",
+      "input_path": "raw_data/source_qualification_20261003/GSE303646_family.soft",
+      "input_sha256": "883c3ce7fd185109e3e6b4e42a9aa36f070b3a0ef930e0c4d633cd595dc99a0c"
+    }
+  ]
+}

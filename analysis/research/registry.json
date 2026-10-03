@@ -30,7 +30,8 @@
         "RQ_Specified/A2_areg_source_delivery/reports/LEG2_DEPTH_STANDARDISED_RESULTS.md",
         "RQ_Specified/A2_areg_source_delivery/reports/STAGE3_LEG1_RESULTS.md",
         "RQ_Specified/A2_areg_source_delivery/reports/STAGE4_LEG2_RESULTS.md",
-        "RQ_Specified/A2_areg_source_delivery/reports/INTERPRETATION_AUDIT_2026-09-27.md"
+        "RQ_Specified/A2_areg_source_delivery/reports/INTERPRETATION_AUDIT_2026-09-27.md",
+        "docs/research_dossiers/qualification_2026-10-03/RESULTS.md"
       ]
     },
     {
@@ -55,7 +56,8 @@
       "dossier": "docs/research_dossiers/A5.md",
       "evidence": [
         "RQ_Specified/A5_developmental_programme_reuse/README.md",
-        "RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md"
+        "RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md",
+        "docs/research_dossiers/qualification_2026-10-03/RESULTS.md"
       ]
     },
     {
@@ -72,7 +74,8 @@
       "dossier": "docs/research_dossiers/A7.md",
       "evidence": [
         "Research Article/epithelial_state_specificity/README.md",
-        "Research Article/epithelial_state_specificity/results/SUMMARY.md"
+        "Research Article/epithelial_state_specificity/results/SUMMARY.md",
+        "docs/research_dossiers/qualification_2026-10-03/RESULTS.md"
       ]
     },
     {
@@ -89,7 +92,8 @@
       "dossier": "docs/research_dossiers/A9.md",
       "evidence": [
         "analysis/corrections/ligand/RESULTS.md",
-        "Research Article/gate2_N2_nabhan_2026/README.md"
+        "Research Article/gate2_N2_nabhan_2026/README.md",
+        "docs/research_dossiers/qualification_2026-10-03/RESULTS.md"
       ]
     },
     {
@@ -98,7 +102,8 @@
       "dossier": "docs/research_dossiers/A10.md",
       "evidence": [
         "RQ_Specified/A10_organoid_growth_outcome/README.md",
-        "RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md"
+        "RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md",
+        "docs/research_dossiers/qualification_2026-10-03/RESULTS.md"
       ]
     },
     {
@@ -108,7 +113,8 @@
       "evidence": [
         "RQ_Specified/A11_lesion_programme_addition/README.md",
         "RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md",
-        "RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md"
+        "RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md",
+        "docs/research_dossiers/qualification_2026-10-03/A11_PRECEDENTS.md"
       ]
     },
     {
@@ -204,7 +210,8 @@
       "dossier": "docs/research_dossiers/A22.md",
       "evidence": [
         "RQ_Specified/A22_epithelial_identity_niche_response/README.md",
-        "RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md"
+        "RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md",
+        "docs/research_dossiers/qualification_2026-10-03/RESULTS.md"
       ]
     },
     {
@@ -262,7 +269,12 @@
     "analysis/research/contracts/A7.source_qualification_metadata_v1.json",
     "analysis/research/contracts/A22.source_qualification_metadata_v1.json"
   ],
-  "receipts": [],
+  "receipts": [
+    "analysis/research/runs/a2_source_qualification_v1/receipt.json",
+    "analysis/research/runs/a5_source_qualification_v1/receipt.json",
+    "analysis/research/runs/a7_source_qualification_v1/receipt.json",
+    "analysis/research/runs/a22_source_qualification_v1/receipt.json"
+  ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
     "analysis/scripts/research_gate.py",

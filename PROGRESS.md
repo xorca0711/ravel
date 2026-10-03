@@ -56,17 +56,33 @@ exhaustive novelty, A11's lesion-specific comparison and actual lab capabilities
 remain unresolved. No new biological calculation or experimental protocol ran.
 Stage-specific verification is in the [review validation record](docs/research_dossiers/review_2026-10-03/VALIDATION.md).
 
+## Source qualification completed on this branch
+
+The [qualification report](docs/research_dossiers/qualification_2026-10-03/README.md)
+records four executed metadata contracts frozen at `6ef2cf9`, five GEO source
+versions, sample identities and independent mechanical verification. MesSTIM
+preparation identities, A5 mouse/state joins, A7 biological replication and Nb3
+preparation/animal-block mapping remain unresolved. The A7 six-CEBPA/four-AP-1
+source split is explicit. A11 has a bounded direct-precedent comparison; exact
+residual-component novelty remains provisional. All 24 RQs and nine Nb4
+candidates retain their current scope and eligibility boundaries.
+
+No expression analysis ran. Receipts now use portable commands; a regression
+test covers the change. Existing freeze, hash and inference gates remain intact.
+Actual laboratory models, assays and access remain unknown. Per-stage checks
+are recorded in the [qualification validation](docs/research_dossiers/qualification_2026-10-03/VALIDATION.md).
+
 ## Next work
 
-1. Review the corrected question scopes with the owner; scientific acceptance remains pending.
-2. Perform source/capability qualification using the per-question gates, including
-   missing units, timing, measurements, source overlap and actual lab access.
-   GSE169125 is an A2/A9 metadata lead, not qualified replication. Finish targeted
-   novelty review of any exact hypothesis before commitment, particularly A11.
-   Do not force selection because a dataset is convenient.
-3. Register a prospective contract before a substantive numerical continuation.
-4. Establish assay validity, meaningful effect and independent-unit variance
-   before a confirmatory experimental design. Unknowns remain explicit.
+1. Review corrected question scopes and source dispositions; owner scientific acceptance remains pending.
+2. Recover the exact enabling metadata exports in the qualification capability
+   record. Do not repeat unchanged source searches or relax biological eligibility.
+3. Record actual model/assay access when available. A published lab method is not
+   evidence of current access; no RQ needs selection before this qualification.
+4. For a newly eligible comparison, register a distinct contract matching its
+   actual endpoint and inference level. Preserve prior exposure and unfavorable results.
+5. Establish assay validity, meaningful effect and independent-unit variance
+   before confirmatory experimental design. No sample size or mediator is invented.
 
 The original primary checkout remains a preserved stale working copy with private
 inputs. Use the attached repair worktree for this branch. Retirement or migration

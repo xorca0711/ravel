@@ -2372,3 +2372,19 @@ The owner authorized proceeding to the next stage after the repository repair. C
 | 2026-10-03 | Codex A13 epithelial-to-fibroblast framing | Reversed the original direction and overlapped A22 | Codex self-correction preserving the negative original model |
 | 2026-10-03 | Codex A20 effect-beyond-pool hypothesis | Inverted the existing narrowed pool-maintenance proposal | Codex self-correction against NARROWED_HYPOTHESIS.md |
 | 2026-10-03 | Broad-versus-state-selective dichotomy and automatic adjustment language | Broad effects and interactions can coexist; post-treatment state, survival and pool size may be mediators or selection variables | Codex clarified interpretation boundaries; no new causal result |
+
+
+## Source and capability qualification, 3 October 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Proceed to source and capability qualification | Owner request | Owner authorized stage; scientific acceptance pending | Execute four exposed metadata contracts and document all-question dispositions | Resolve source identity and specific enabling inputs without choosing an RQ |
+| 2026-10-03 | Metadata parser, sample tables and mechanical verification | Codex implementation | Codex recorded execution; owner scientific review pending | Keep biological-unit count undetermined and retain current inference holds | Deposited libraries, pooled assays and subseries are not independent units |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Runner receipts used resolved machine paths | Public receipts should contain portable replay commands, not local executable/worktree paths; execution and hash gates remain intact | Codex implementation correction with regression test; PR review pending |
+| 2026-10-03 | A7 summary could be read as ten CEBPA wells | Fresh source records distinguish six CEBPA and four AP-1 condition contexts | Codex clarified source split; frozen ES1 results unchanged |
+| 2026-10-03 | A11 novelty review was incomplete | Direct 2020/2026 precedents establish generic HPCS function and regeneration overlap; the exact residual-component contribution still needs qualification | Codex bounded source comparison; no owner rejection or claim promotion inferred |
+
+See the [qualification report](docs/research_dossiers/qualification_2026-10-03/README.md). No expression values, new biological fit, wet experiment or external outreach were performed. All prior contracts, receipts and frozen scientific assets are retained.
