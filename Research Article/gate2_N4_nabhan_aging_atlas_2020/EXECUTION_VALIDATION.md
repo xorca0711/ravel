@@ -87,3 +87,18 @@ source data were not modified. No historical biological analysis was rerun.
 Local commits include the necessary prospective freezes and completed evidence;
 no push, PR or merge was requested. External scientific review, lab access and
 GitHub protection settings remain outside this execution's verified scope.
+
+## Caption edition on 3 October 2026
+
+[Figures v2](config/figures_v2.json) adds full captions inside every PNG, SVG
+and PDF, including rationale, panel definitions, observed results and limits.
+The [verified receipt](../../analysis/research/runs/nb5_figures_v2/receipt.json)
+binds the unchanged numerical inputs and the new renderer/caption module.
+Version 1 remains immutable. An AST comparison confirms that the main panel
+calculations and selections are unchanged, excluding only export metadata.
+
+Every caption passed mechanical checks for canvas bounds and separation from
+plots, title and source attribution. All six PNGs were visually inspected.
+The combined PDF has six pages, each containing extractable rationale and
+results text. No new biological analysis or extension was executed. Current
+repository verification for this edition is recorded below after registration.

@@ -38,6 +38,23 @@ host access and scientific acceptance remain unresolved. No preferred RQ was
 selected. Primary-checkout unrelated edits and ignored work were preserved;
 GitHub settings, Notion and owner merge decisions are unchanged.
 
+## Figure captions and extension assessment on 3 October 2026
+
+The owner requested biological rationale and results inside each PNG. The
+caption-complete v2 edition now covers all six PNG/SVG/PDF plates, with original
+panel calculations unchanged and version 1 preserved. The figure gallery
+points to v2. The receipt, layout checks, visual inspection of every PNG and
+six-page PDF text checks passed; no biological analysis was rerun.
+
+The article's extension assessment concludes that targeted work is plausible
+before formal RQ derivation: mouse influence, common-denominator composition
+accounting and tissue-aware repertoire sensitivity. Microglial state/mixture
+comparison remains conditional on source and all-age expression qualification.
+These are proposals, not executed extensions or a ranking/promotion of RQs.
+Next: freeze the bounded extension actually pursued, retaining prior exposure
+and the strongest rival. No new biological endpoint, precision or source access
+has been claimed. Current edition checks are in the execution ledger.
+
 ## Prior checkpoint after PR 130
 
 Current checkpoint: 3 October 2026, after the owner merged

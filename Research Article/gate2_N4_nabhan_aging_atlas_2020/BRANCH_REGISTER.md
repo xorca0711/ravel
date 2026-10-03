@@ -81,3 +81,10 @@ Use [RESEARCH_QUESTIONS.md](../../RESEARCH_QUESTIONS.md) and the
 Any new global ID, human retain/reject decision or claim-grade change needs its
 recorded authority. Accepted question-specific execution belongs under
 `RQ_Specified/`; the source reproduction and exploratory evidence stay here.
+
+## Follow-up extension feasibility
+
+The [extension assessment](EXTENSION_ASSESSMENT.md) distinguishes currently
+supported sensitivity/denominator work from source- and design-dependent
+models. These are proposed extensions, not new execution, RQ selection or
+scientific acceptance.

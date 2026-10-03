@@ -18,7 +18,8 @@ analysis and RQ development, not a ranking of global questions.
 | Read | Purpose |
 |---|---|
 | [Current results](RESULTS.md) | Findings, source discrepancies, branch dispositions and exact next discriminators |
-| [Figure gallery](FIGURES.md) | Six research-style plates with PNG, SVG and PDF exports |
+| [Figure gallery](FIGURES.md) | Six plates with embedded rationale/result captions; PNG, SVG and PDF exports |
+| [Extension feasibility](EXTENSION_ASSESSMENT.md) | Supported sensitivity work and conditional steps before RQ derivation |
 | [Execution validation](EXECUTION_VALIDATION.md) | Frozen contracts, amendments, verification and failures |
 | [Source manifest](SOURCE_MANIFEST.md) | Exact acquired file hashes and URLs |
 | [Branch register](BRANCH_REGISTER.md) | Eight separate cards and criteria for later RQ development |
