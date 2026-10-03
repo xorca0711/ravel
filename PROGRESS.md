@@ -43,7 +43,9 @@ bindings, both archive verifiers, compilation and the research gate against
 refreshed `origin/main` (`82e749a`, unchanged). Compilation initially encountered
 the worktree sandbox's bytecode-write restriction; directing its cache to a
 writable scratch directory resolved it. No biological analysis was rerun.
-The change is ready for PR review; publication/CI status is reported by GitHub.
+Published [PR #136](https://github.com/xorca0711/scRNA_seq/pull/136) as ready
+for review, not draft. Local checks above passed; live CI and required reviewer
+approval are reported by GitHub. No merge was performed.
 
 After integration: use the new workflow when advancing a hypothesis; complete
 the exact primary-figure/supplement comparison where access/specification is
