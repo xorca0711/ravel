@@ -2474,3 +2474,39 @@ The main README retains its general research overview and existing claim-registe
 links. No claim table, scientific grading, governance or frozen evidence was
 changed. The normal checkout and all retained inputs remain untouched by this
 documentation revision. Private lab planning stays outside Git.
+
+## 3 October 2026: remaining-job qualification
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Integrate documentation reconciliation, PR #131 | Codex under owner request | `xorca0711`, verified GitHub merge at 05:58:32 UTC | Integrated at `76dc9b4`; scientific acceptance remains separate | Current navigation and remaining-job accounting are available on main |
+| 2026-10-03 | Proceed with remaining repository-grounding jobs | Owner | Owner authorized work; new PR/scientific review pending | Align normal checkout; qualify new source labels and A17 numerical components; review packages | Make progress on available evidence without inventing laboratory access |
+| 2026-10-03 | Freeze and execute A8 metadata / A17 synthetic qualification | Codex under owner continuation | Codex bounded execution decision; scientific acceptance not assessed | Contracts frozen at `78845fc`; two successful verified receipts | Both tasks have real inputs and explicit descriptive/numerical limits |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | A4's evaluable-lineage fraction could silently exclude lost follow-up | Specify the prospective t0 denominator, separate missing/loss outcomes and bounds; survivor-conditioned fraction is secondary | Codex proposed refinement; owner scientific review pending |
+| 2026-10-03 | A17 draft combined clone-size/count scoring | Size ≥2 retained measurements do not by themselves qualify a count/extinction likelihood; observation model and ascertainment must be explicit | Codex proposed refinement preserving historical evidence |
+
+No governance gate or old scientific code/output was weakened or overwritten.
+The independent verifier used standard-library RK4 after SciPy was unavailable;
+the frozen runs and all failed historical receipts remain unchanged. No human
+scientific acceptance, lab access, RQ selection or wet experiment is inferred.
+
+## 3 October 2026: bounded mapping closeout
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Finish recoverable mapping work; defer scientific review and placement work | Owner | Owner authorized this scope; PR integration/scientific acceptance pending | Close current recovery task with explicit evidence holds and reopening conditions | Unknown biological links must remain honest without becoming endless repeated searches |
+| 2026-10-03 | Inspect the two previously unexamined Rochelle H5 file structures | Codex under owner request | Codex bounded read-only inspection; no claim promotion | Record exact source attributes, range provenance and cross-assay limitations | Test the remaining concrete file candidate without expression fitting |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Earlier remaining-work wording grouped all outstanding evidence and bench requirements as immediate jobs | Owner clarified that scientific review is later and actual access belongs to the placement phase; some fields may not be recoverable from current public sources | Owner scope correction, recorded by Codex |
+| 2026-10-03 | Treating deferred A17 model qualification as only human review or a placement dependency | A probability/tail solver and further technical identifiability work remain genuinely unfinished | Codex clarification; no new execution or acceptance inferred |
+
+No governance, validator, frozen scientific asset or biological interpretation
+limit was weakened. The source-recovery task is closed within the inspected
+scope; missing evidence is not declared universally nonexistent. Author contact
+and recurring monitoring were not performed or scheduled. PR #132 remains the
+owner's integration decision.

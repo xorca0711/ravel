@@ -1,0 +1,137 @@
+{
+  "scope": "Synthetic numerical inputs in arbitrary time units; no biological parameter estimates",
+  "replicates": 6000,
+  "seeds": [
+    172903,
+    294401
+  ],
+  "standard_errors": 6,
+  "cases": [
+    {
+      "name": "pure_birth",
+      "initial": [
+        1,
+        0
+      ],
+      "schedule": [
+        [
+          2,
+          [
+            0.4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "reference_birth": 0.4,
+      "reference_death": 0,
+      "reference_time": 2
+    },
+    {
+      "name": "slow_birth_death",
+      "initial": [
+        0,
+        1
+      ],
+      "schedule": [
+        [
+          2,
+          [
+            0,
+            0,
+            0.6,
+            0.2,
+            0,
+            0
+          ]
+        ]
+      ],
+      "reference_birth": 0.6,
+      "reference_death": 0.2,
+      "reference_time": 2
+    },
+    {
+      "name": "critical",
+      "initial": [
+        1,
+        0
+      ],
+      "schedule": [
+        [
+          2,
+          [
+            0.3,
+            0.3,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "reference_birth": 0.3,
+      "reference_death": 0.3,
+      "reference_time": 2
+    },
+    {
+      "name": "piecewise_common_clock",
+      "initial": [
+        1,
+        0
+      ],
+      "schedule": [
+        [
+          1,
+          [
+            0.6,
+            0.2,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            1.2,
+            0.4,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "reference_birth": 0.6,
+      "reference_death": 0.2,
+      "reference_time": 3
+    },
+    {
+      "name": "switching_equal_growth_law",
+      "initial": [
+        1,
+        0
+      ],
+      "schedule": [
+        [
+          2,
+          [
+            0.6,
+            0.2,
+            0.6,
+            0.2,
+            0.5,
+            0.3
+          ]
+        ]
+      ],
+      "reference_birth": 0.6,
+      "reference_death": 0.2,
+      "reference_time": 2
+    }
+  ]
+}

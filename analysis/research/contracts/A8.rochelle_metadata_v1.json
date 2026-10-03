@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A8.rochelle_metadata_v1",
+  "owner": "A8",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do the newly nominated Rochelle sequencing deposits expose biological identities and assay/time joins needed by A8 and the related A19 question?",
+  "decision": "Determine which source labels are directly available and which preparation, early/later endpoint and receptor/reserve mappings still require qualification.",
+  "strongest_rival": "Repeated donor labels or embedded title codes may describe different preparations, multiplexed samples or endpoints, not a linked biological experiment.",
+  "discriminator": "Report each GSM record with verbatim title and characteristic fields; preserve absent or conflicting individual labels rather than inferring biological units.",
+  "evidence_refs": [
+    "docs/research_dossiers/packages_2026-10-03/A8.md",
+    "docs/research_dossiers/packages_2026-10-03/A19.md",
+    "docs/research_dossiers/packages_2026-10-03/SOURCES.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The article, support-workbook labels and first SOFT sample headers were read before this freeze. No expression matrix or new biological effect has been fitted.",
+  "biological_unit": "Human donor and independently identified preparation; GSM and donor labels are metadata observations, not confirmed independent units.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Samples may share donors or pool scaffold regions. Donor1-style labels are not automatically aliases for article donor codes or cross-study matches.",
+  "population_and_selection": "All SAMPLE records from the two saved GSE306194 and GSE306714 family SOFT files; no expression-based selection.",
+  "contrast": "Source-declared labels and missing fields across the two deposits; no biological between-group contrast.",
+  "endpoint": "Verbatim sample metadata, explicit individual-label sets and counts of records without explicit individual characteristics.",
+  "methods": "Parse series/sample SOFT entities; reject duplicate accessions or missing titles; retain multi-valued characteristics and embedded title codes without splitting into inferred units.",
+  "missingness_and_exclusions": "Absent individual/group fields remain empty; no donor, state, preparation, timing or lineage map is imputed.",
+  "multiplicity": "No hypothesis tests, p-values, score selection or effect calculations.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Deterministic source-label recovery only; biological effect margins and independent-unit variance are not assessed.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Recovered sample and donor labels do not establish independent preparations, same-lineage early/later linkage, mature function, receptor-specific withdrawal or retained reserve.",
+  "stop_rule": "Stop on changed source hashes, duplicate sample identifiers, wrong series or missing titles. Hold the biological comparison until its actual unit/endpoint joins are supplied.",
+  "inputs": [
+    {
+      "path": "raw_data/research_qualification_20261003/GSE306194_family.soft.gz",
+      "sha256": "e9a609c407d2940d11f03e701eab6cdc82365e27dcd66f5cdd98e9311ba4de83",
+      "study_id": "GSE306194",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/research_qualification_20261003/GSE306714_family.soft.gz",
+      "sha256": "721f6bdb2f5d5b278e90e38b6869db69ff921e2bc9748a7a048faa4cef057c32",
+      "study_id": "GSE306714",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_rochelle_metadata_v1.py",
+      "sha256": "8e7238098b63b9c759ce4851e35ba1f38de102e841dd9ff081fdc6ac9b2a4b38"
+    },
+    {
+      "path": "analysis/tests/test_rochelle_metadata_v1.py",
+      "sha256": "136667dd3a62ac55c02544648931c3ede1024e32f3f1e412ce5469e1c3098d68"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/qualify_rochelle_metadata_v1.py",
+  "arguments": [
+    "--sources",
+    "raw_data/research_qualification_20261003",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "samples.json",
+    "samples.csv",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective metadata execution for two new candidate deposits, distinct from the completed earlier GEO/BioSample sources and from exposed article reading."
+}
