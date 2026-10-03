@@ -1,6 +1,30 @@
 # A10: epithelial and niche programmes against measured organoid growth
 
-**Current development framing:** [A10 development dossier](../../docs/research_dossiers/A10.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does an early epithelial programme add information about later organoid area beyond initial size that transports between independent preparations? |
+| Strongest rival | Concurrent growth state, target/plate confounding or image-segmentation effects explain the apparent gain. |
+| Biological unit and endpoint | Mapped epithelial preparations and fibroblast donors; wells/images remain nested. Use held-out preparation error for later area on a fixed scale and report absolute error and R-squared. Area is not mature function. |
+| Current evidence and limit | Descriptive residual-growth gain coexists with negative absolute held-out R-squared on three of four plates. Existing day-14 RNA and area are concurrent; preparation identities remain unresolved. |
+| Next decision / hold | Review is deferred and M05 retains the preparation hold. Forecasting needs earlier predictor acquisition and valid preparation splits. Day-7 area is post-perturbation, not automatically a pretreatment causal adjustment. |
+
+**Read in this order:** [current evidence](reports/FOLLOWUP_RESULTS.md),
+[development dossier](../../docs/research_dossiers/A10.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A10.md).
+Source-mapping closeout: [M05 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 ## Organizing biological question
 
