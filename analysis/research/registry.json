@@ -346,7 +346,9 @@
       "evidence": [
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_FIGURES.md"
       ]
     },
     {
@@ -391,7 +393,9 @@
       "evidence": [
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
-        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md"
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_FIGURES.md"
       ]
     },
     {
@@ -437,7 +441,8 @@
     "analysis/research/contracts/A17.kernel_qualification_v1.json",
     "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/composition_biological_v1.json",
     "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/repertoire_biological_v1.json",
-    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json"
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -460,7 +465,8 @@
     "analysis/research/runs/a8_rochelle_metadata_v1/receipt.json",
     "analysis/research/runs/a17_kernel_qualification_v1/receipt.json",
     "analysis/research/runs/nb5_composition_biological_v1/receipt.json",
-    "analysis/research/runs/nb5_repertoire_biological_v1/receipt.json"
+    "analysis/research/runs/nb5_repertoire_biological_v1/receipt.json",
+    "analysis/research/runs/nb5_biological_figures_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
