@@ -17,6 +17,7 @@ analysis and RQ development, not a ranking of global questions.
 
 | Read | Purpose |
 |---|---|
+| [Provisional RQ derivations](rq_derivation/README.md) | Eight derivation cards, primary precedents, evidence-access limits and pending scientific review |
 | [Completion audit and latest results](EXTENSION_COMPLETION.md) | Recovered inputs, CD4/CD8 result and explicit unfinished-job routes |
 | [Biological extension results](EXTENSION_RESULTS.md) | Within-type versus composition and compartment-local repertoire findings |
 | [Extension figures](EXTENSION_FIGURES.md) | Figures 7–11 with compact embedded captions |

@@ -65,3 +65,10 @@ Read the [current result and amendments](../RESULTS.md),
 before extending the original plan above. No human retain/reject decision,
 claim promotion or global RQ allocation is recorded. All branches remain
 available; a further numerical stage requires a new frozen contract.
+
+## Provisional RQ derivation
+
+The [current P05 derivation](../rq_derivation/P05.md) develops the observation,
+biological gap, strongest rival and discriminating prediction, with primary-source
+precedent and independent-evidence limits. It is a proposal for scientific review;
+no global RQ registration or human acceptance is recorded.

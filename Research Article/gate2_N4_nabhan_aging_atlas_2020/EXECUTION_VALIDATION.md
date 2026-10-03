@@ -207,3 +207,33 @@ claim bindings, Nb1/Nb4/A16/A23/A22–A23 archive checks, 8,463 repository
 validations and the research gate. The two unrelated primary metadata files
 retain their original SHA-256 values. Frozen historical outputs, raw inputs,
 claim grades and global RQs remain intact; no remote push or PR was created.
+
+## Provisional RQ derivation documentation
+
+3 October 2026. The owner requested the sequence from branch observations to
+provisional questions, novelty/access checks, consequential grounding and
+scientific review. The [derivation package](rq_derivation/README.md) now contains
+eight cards, a primary-source/access ledger, grounding decisions and an unfilled
+scientific review record. No new numerical analysis or plot was executed;
+historical models, tables, figures, contracts and receipts were not changed.
+
+Eight public GEO metadata snapshots and their acquisition manifest are retained
+in ignored raw data. Their bytes and SHA-256 values were verified before writing
+the source ledger. This is source reading, not an independent-cohort analysis or
+a numerical run receipt. A deterministic content check confirms the five required
+derivation sections in all eight cards and each corresponding registry link.
+
+The repository validator passed 8,553 checks after staging the new package;
+Markdown references, JSON and existing numerical bindings passed. The research
+gate passed against freshly fetched `origin/main`
+`537eec83fe102a7eaa3e3f34a7f6b48cf852be15`, already contained in this scoped branch.
+No new remote changes needed reconciliation. Staged whitespace checks passed.
+The previous full scientific/code checks remain applicable because no numerical
+code, scientific output, executable contract or validator changed in this step.
+
+The primary checkout retains its unrelated two modified metadata files and
+untracked private directory. Both file hashes match their pre-existing values.
+No global question, scientific acceptance, preferred RQ or claim-grade change
+was made. P02's state/mixture model remains unrun; independent animal-level
+qualification and scientific review remain pending. No push, PR, external
+reviewer communication or external-setting change occurred.

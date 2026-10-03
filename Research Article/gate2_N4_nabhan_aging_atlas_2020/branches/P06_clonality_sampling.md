@@ -80,3 +80,10 @@ The owner-authorized [stage 1](../EXTENSION_STAGE1.md) is now complete. Read
 [its biological results and remaining rivals](../EXTENSION_RESULTS.md) and
 [figures 7–10](../EXTENSION_FIGURES.md) before proposing another numerical stage.
 The first-pass records above are retained; no claim grade or RQ selection changed.
+
+## Provisional RQ derivation
+
+The [current P06 derivation](../rq_derivation/P06.md) develops the observation,
+biological gap, strongest rival and discriminating prediction, with primary-source
+precedent and independent-evidence limits. It is a proposal for scientific review;
+no global RQ registration or human acceptance is recorded.

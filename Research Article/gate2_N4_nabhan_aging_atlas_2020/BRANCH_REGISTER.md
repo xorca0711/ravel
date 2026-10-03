@@ -11,6 +11,10 @@ A first descriptive pass has run; [first-pass results](RESULTS.md) record eviden
 and holds for all eight branches. [Biological extension results](EXTENSION_RESULTS.md)
 now add executed P01/P06 comparisons, with [four new plates](EXTENSION_FIGURES.md). None has received scientific acceptance. Numbering is not a priority rank.
 
+**RQ derivation initiated:** [eight provisional cards](rq_derivation/README.md)
+now connect observations to gaps, rivals and discriminating predictions.
+Their proposed relationships to existing RQs remain subject to scientific review.
+
 ## Hierarchy and ownership
 
 ```mermaid

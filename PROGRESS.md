@@ -2,7 +2,35 @@
 
 **Update this before stopping work, every session.**
 
-## Current Nb5 extension completion on 3 October 2026
+## Current Nb5 RQ derivation on 3 October 2026
+
+Owner-authorized [provisional derivations](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/README.md)
+now cover all eight article branches. Each records observation, biological gap,
+strongest rival, discriminating prediction, unit, endpoint and interpretation
+limit. A targeted primary-source and deposit review narrows the microglial,
+bladder and CD8 questions. P03 remains an A3 refinement; contextual and
+measurement branches are not automatically separate global questions.
+
+Eight public GEO metadata snapshots were read and hash-recorded. Expression
+archives and independent animal-level effects were not analysed. Prior
+microglial sex differences, pooled repertoire samples and reused bladder data
+constrain novelty and validation. No new biological run or figure was needed;
+existing captioned figures remain the visual evidence. P02 source recovery is
+complete, but its state/mixture model is still unrun and requires the specified
+model choices and a new frozen contract.
+
+Next: use the [scientific review packet](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md)
+to settle the proposed biological scope and the [grounding decisions](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md)
+to qualify only evidence that can change it. No scientific acceptance, preferred
+RQ, canonical ID, claim promotion or external reviewer communication occurred.
+Public data access does not establish laboratory access or adequate precision.
+Documentation validation passed 8,553 checks and the research gate passed
+against freshly fetched, unchanged `origin/main` `537eec8`; see the article
+execution ledger. All eight card sections and registry links were checked.
+Unrelated primary-checkout work and external settings remain unchanged; no
+push or PR was created.
+
+## Earlier Nb5 extension completion checkpoint on 3 October 2026
 
 The [completion audit](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md)
 now separates completed stages, unrun models and evidence-dependent proposals.

@@ -12,6 +12,9 @@ This file is navigation, not another scientific status register.
   and [figures](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md) record the first exposed descriptive pass and its source/design holds.
   [Biological extensions](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md)
   add within-type/composition and compartment-local clonality comparisons.
+  [Provisional Nb5 RQ derivations](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/README.md)
+  connect all eight branches to biological discriminators, primary precedents and
+  independent-evidence requirements; scientific review and global registration remain pending.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
 - [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md)
