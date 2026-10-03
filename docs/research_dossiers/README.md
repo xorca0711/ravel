@@ -73,3 +73,7 @@ The [qualification stage](qualification_2026-10-03/README.md) contains four exec
 ## Current follow-up
 
 [Jobs 2, 3, 4 and 6](followup_2026-10-03/README.md) now have checkout consolidation, BioSample recovery, outcome-linkage decisions and a precise novelty ledger. Missing biological joins and actual laboratory capabilities remain explicit.
+
+## Published capabilities and completion audit
+
+The [current methods review](capabilities_2026-10-03/README.md) covers the supplied 32-PDF collection. Its [remaining-work ledger](capabilities_2026-10-03/NEXT_STEPS.md) accounts for all nine original jobs. No host access is confirmed; full experimental packages and qualified biological follow-ups remain to be completed. Private lab/funding planning is kept outside Git.

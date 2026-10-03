@@ -2408,3 +2408,26 @@ The owner explicitly authorized remaining jobs 2, 3, 4 and 6, reserved article/c
 The old worktrees and their ignored inputs remain retained. No external outreach, expression fit, laboratory work, RQ selection or PR merge occurred.
 
 Final preservation verification also caught newline normalization of the separately archived failed A5 receipt. Codex added an exact-byte attribute for that archive and restored the original receipt bytes/hash from the retained runner output. Its failed status, the successful amendment and all scientific results remain unchanged.
+
+## Published model review and continuation audit, 3 October 2026
+
+The owner supplied research papers, requested funded-direction/model comparison,
+confirmed no host access, and explicitly authorized a subagent for that bounded
+comparison. Codex reviewed the returned private artifact and integrated public
+method evidence and the [completion audit](docs/research_dossiers/capabilities_2026-10-03/NEXT_STEPS.md).
+The latest request is an accurate PR revision and a Claude Science continuation
+handoff. It does not constitute scientific acceptance or permission to merge.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Assess papers, published models and funded future directions | Owner | Owner authorized work; scientific review pending | Codex main reviewed 32-PDF inventory/method evidence; one user-authorized subagent wrote the private eight-lab comparison | Ground feasibility without attributing collaborators' models or grant aims to confirmed host access |
+| 2026-10-03 | Audit original plan and revise open PR/handoff | Owner | Codex implementation; owner integration pending | Record each original job's completed and remaining portions; retain full experiment packages as unfinished | Prior research dossiers do not yet establish bench readiness |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Preliminary uncommitted capability-stage index listed 24 conditional packages as deliverables | Only the model review and status audit had been written when the owner requested a continuation handoff; the final index explicitly leaves packages pending | Codex corrected its draft before integration; no human rejection inferred |
+| 2026-10-03 | Published method/coauthorship/funding could be read as actual laboratory capability | Owner confirms no access; Yadav assigns Wagner spatial analysis, and future funded models need local validation | Codex and the authorized subagent qualified attribution/access; no lab availability inferred |
+
+No existing scientific script, frozen output, source contract, run receipt or
+claim grade changed. No new expression analysis, outreach, RQ selection or merge
+was performed. The private comparison and handoff are intentionally outside Git.

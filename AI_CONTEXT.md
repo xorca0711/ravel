@@ -10,6 +10,8 @@ This file is navigation, not another scientific status register.
   evidence and prospective contracts. Nb4-P01–P09 remain article-local candidates.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
+- [Capability review and remaining work](docs/research_dossiers/capabilities_2026-10-03/README.md)
+  records published approaches, unconfirmed host access and unfinished experiment packages.
 - [Claims](CLAIMS.md) and current correction/result reports own evidence scope.
   A completed script, PR or schema check does not establish scientific acceptance.
 - [Reconciliation](docs/audits/2026-10-03-repository-repair/REPORT.md) identifies

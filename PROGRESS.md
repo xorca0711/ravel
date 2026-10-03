@@ -2,7 +2,7 @@
 
 Updated 3 October 2026. Integration base:
 `0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f` (main, PR #129).
-Repair branch: `codex/research-governance`; [draft PR #130](https://github.com/xorca0711/scRNA_seq/pull/130), not merged. Check Git before assuming this
+Repair branch: `codex/research-governance`; [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130), not merged. Check Git before assuming this
 checkpoint is the latest remote revision.
 
 ## Current objective
@@ -83,26 +83,48 @@ No animal/pool/preparation or per-cell-state map was inferred from those joins.
 
 Fresh precedents narrow A4's general flexibility claim and A11's generic
 plasticity/developmental-program claim. Published endpoints remain recognized;
-the precise early-to-later joins are still unqualified. The owner is preparing
-articles/capability evidence and will review and merge PR #130. No RQ was selected.
+the precise early-to-later joins are still unqualified. At that checkpoint the owner was preparing articles/capability evidence. The
+newer capability review below records its assessment. The owner will review and
+merge PR #130; no RQ was selected.
 
 The checkout handoff exposed Windows line-ending conversion of hash-bound
 metadata code. Exact-byte Git attributes now cover the six contract-bound source
 and test files; their frozen contents and recorded hashes remain unchanged.
 Actual checks and limitations are in the [follow-up validation](docs/research_dossiers/followup_2026-10-03/VALIDATION.md).
 
+## Published capabilities and current completion state
+
+The [capability review](docs/research_dossiers/capabilities_2026-10-03/README.md)
+records 32 supplied PDFs (677 pages), targeted model/assay reading and primary
+web checks. A user-authorized subagent produced the private eight-lab
+funding/direction/model comparison; the main agent reviewed its citations and
+limits. Seven named NIH projects were refreshed. Private planning remains
+outside Git and is located in the owner-delivered continuation handoff.
+
+**The owner confirms no actual host access.** Published capability assessment is
+complete at the stated coverage; colony/line/tissue/reagent availability and
+local assay validation are not confirmed. No missing biological identity or
+early-to-later outcome join was supplied by the new reading. No new biological
+analysis or wet experiment ran; all prior holds and unfavorable results remain.
+
+The 24 dossiers contain research concepts, not completed experiment-ready
+packages. The [nine-job completion audit](docs/research_dossiers/capabilities_2026-10-03/NEXT_STEPS.md)
+distinguishes implemented structure, completed source review and remaining
+scientific development. No RQ or new claim grade was accepted.
+
 ## Next work
 
-1. Review corrected question scopes and source dispositions; owner scientific acceptance remains pending.
-2. Assess incoming articles/exports against the follow-up's exact source-unit,
-   barcode/state and outcome-join requirements. The public BioSample layer and
-   unchanged author repository have now been checked; do not repeat those searches.
-3. Record actual model/assay access when available. A published lab method is not
-   evidence of current access; no RQ needs selection before this qualification.
-4. For a newly eligible comparison, register a distinct contract matching its
-   actual endpoint and inference level. Preserve prior exposure and unfavorable results.
-5. Establish assay validity, meaningful effect and independent-unit variance
-   before confirmatory experimental design. No sample size or mediator is invented.
+1. Develop all 24 conditional packages and review the exact discriminators
+   against primary precedents. This can proceed without confirmed lab access.
+2. Recover only the still-missing source maps and linked endpoints specified in
+   the completion audit; do not repeat exhausted source searches without new evidence.
+3. Establish actual model/assay access and assay validity when evidence arrives.
+   Meaningful effects and independent-unit variance are prerequisites to a
+   confirmatory precision/sample-size justification.
+4. Run only newly eligible analyses under distinct frozen contracts and verified
+   receipts. Retain holds when inputs cannot identify the intended comparison.
+5. Owner review/merge remains pending. Reconcile the normal review checkout with
+   integrated main afterward; retain original work and ignored raw data.
 
 The normal checkout now uses `codex/workspace-ready` for the PR state. Original
 edits are preserved on local-only `codex/preserved-primary-20261003`; main remains
