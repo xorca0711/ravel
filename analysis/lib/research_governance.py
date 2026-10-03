@@ -210,10 +210,14 @@ def execute(root: Path, contract_path: str, run_id: str) -> Path:
         raise ResearchError('Rscript is unavailable; no analysis started')
     output.mkdir(parents=True)
     argv = [executable, str(within(root, c['entrypoint']))] + [arg.replace('{run_dir}', str(output.resolve())) for arg in c['arguments']]
+    # Record a replayable repository-relative command, not local user/runtime paths.
+    portable_argv = [c['runtime'], c['entrypoint']] + [
+        arg.replace('{run_dir}', output.relative_to(root).as_posix()) for arg in c['arguments']]
     record = {'schema_version':1, 'analysis_id':c['analysis_id'], 'owner':c['owner'],
               'contract':contract_path, 'contract_sha256':sha256(contract_file),
               'git_commit':git(root, 'rev-parse', 'HEAD').decode().strip(),
-              'started_at':datetime.now(timezone.utc).isoformat(), 'argv':argv,
+              'started_at':datetime.now(timezone.utc).isoformat(), 'argv':portable_argv,
+              'argv_format':'repository_relative',
               'environment':{'python':sys.version, 'platform':platform.platform()},
               'inputs':c['inputs'], 'code':c['code'], 'status':'started', 'outputs':[],
               'scientific_acceptance':'not_assessed', 'verification':'pending'}

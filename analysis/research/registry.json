@@ -256,7 +256,12 @@
       "plan": "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/proposals/P09_fibroblast_sensory.md"
     }
   ],
-  "contracts": [],
+  "contracts": [
+    "analysis/research/contracts/A2.source_qualification_metadata_v1.json",
+    "analysis/research/contracts/A5.source_qualification_metadata_v1.json",
+    "analysis/research/contracts/A7.source_qualification_metadata_v1.json",
+    "analysis/research/contracts/A22.source_qualification_metadata_v1.json"
+  ],
   "receipts": [],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

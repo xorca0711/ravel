@@ -123,6 +123,15 @@ class GovernanceTests(unittest.TestCase):
         with self.assertRaisesRegex(ResearchError,'already exists'): execute(self.root,'contract.json','synthetic-v1')
         (receipt.parent/'result.json').write_text('changed')
         self.assertTrue(any('hash mismatch' in e for e in receipt_errors(self.root,rel)))
+    def test_receipt_records_portable_command_without_local_paths(self):
+        self.freeze(); receipt=execute(self.root,'contract.json','portable-v1')
+        record=json.loads(receipt.read_text())
+        self.assertEqual(record['argv_format'],'repository_relative')
+        self.assertEqual(record['argv'], ['python','analysis/run.py',
+            'analysis/research/runs/portable-v1'])
+        self.assertNotIn(str(self.root),json.dumps(record))
+        self.assertNotIn(sys.executable,json.dumps(record))
+        self.assertEqual(receipt_errors(self.root,receipt.relative_to(self.root).as_posix()),[])
     def test_missing_expected_output_leaves_failed_receipt(self):
         self.c['expected_outputs']=['missing.json']; self.freeze()
         with self.assertRaises(ResearchError): execute(self.root,'contract.json','missing')
