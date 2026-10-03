@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A7.biosample_qualification_metadata_v2",
+  "owner": "A7",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which deposited samples belong to the CEBPA and AP-1 sources used in ES1, and do assay records identify independent genotype replicates? Can the linked BioSample records supply missing source-unit identities?",
+  "decision": "Separate source study, assay and biological-unit levels before interpreting the A7 genotype-by-state question.",
+  "strongest_rival": "GEX and ATAC records can be paired assays of pooled material; the separate AP-1 source does not replicate CEBPA loss.",
+  "discriminator": "Join each GEO accession to its explicitly linked BioSample record and inspect deposited attribute names and identity fields; a database accession is never treated as an animal or preparation.",
+  "evidence_refs": [
+    "docs/research_dossiers/A7.md",
+    "docs/research_dossiers/followup_2026-10-03/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The prior GEO inventory, published findings and one representative BioSample record were inspected before this freeze. All public XML responses were acquired before freezing. No expression values are read; this is exposed metadata recovery.",
+  "biological_unit": "Animal, donor or independent source preparation; unresolved at the intended comparison level.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "GEO samples are library records and may share animals, pools, preparations, wells or parent series. No cross-study independence or sample-to-animal mapping is inferred by this parser.",
+  "population_and_selection": "All GEO SAMPLE entities in the listed frozen SOFT inputs and all explicitly linked BioSample records; no outcome selection.",
+  "contrast": "Descriptive comparison of deposited identity fields and sample membership against the scientific question; no gene-level or population contrast.",
+  "endpoint": "Exact bidirectional GEO/BioSample identity join, record titles, SRA sample accessions, attribute-key coverage and allowlisted identity values. Biological-unit counts remain null.",
+  "methods": "Validate each SOFT family with the frozen v1 reader; require one explicit BioSample relation per GSM, exact requested/returned BioSample membership and matching reverse GEO IDs. Export an attribute-name inventory and fixed identity-value allowlist, never contacts or protocol/treatment text. No expression or statistical analysis.",
+  "missingness_and_exclusions": "Missing or duplicate accession relationships, invalid responses, membership discrepancies and disagreeing reverse joins stop execution. Missing biological-unit fields remain missing; no sample is dropped or unit imputed.",
+  "multiplicity": "No hypothesis tests or inferential comparisons are performed.",
+  "precision_status": "not_applicable",
+  "precision_basis": "This is a deposited-metadata inventory, not a sample-size or power justification; biological-unit variance remains unknown.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "An accession inventory does not establish replication, fate linkage, receptor activity, protein delivery, causal mechanisms or experimental readiness. Public file names are not audited expression contents.",
+  "stop_rule": "Stop if SOFT identity/membership checks fail. After successful extraction, hold any scientific contrast whose units, timing, endpoint or source attribution remain unresolved; do not score expression under this contract.",
+  "inputs": [
+    {
+      "path": "raw_data/source_qualification_20261003/GSE247130_family.soft",
+      "sha256": "9e5ffd8722a8ae60fb0dfd09af14f4a97b15dd2609967a371ec27adde03abb79",
+      "study_id": "GSE247130",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_qualification_20261003/GSE310539_family.soft",
+      "sha256": "4b676b0a4de7790ea12ea1a8e31332336eaec94eca6e4a23817dd1a6e3c48556",
+      "study_id": "GSE310539",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE247130_biosample_01.xml",
+      "sha256": "44af0c0cc24996b288bcf91c4c1812abba427cf9a8fbe5eb16df48bf4056d027",
+      "study_id": "GSE247130",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE310539_biosample_01.xml",
+      "sha256": "b3a61a4fccc663ffd0b766275923a8edd16bdacf3ab082be17558831588282c1",
+      "study_id": "GSE310539",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_biosample_metadata_v1.py",
+      "sha256": "657c5499bf3bdf5b21aa2ed41da8c28889c314d720ef3d2c061258e622a1d909"
+    },
+    {
+      "path": "analysis/scripts/qualify_geo_metadata_v1.py",
+      "sha256": "cf8fb66e45192775e132390fd54bd44c38cca5f598f6bfee1fbdafc1bdcdc5e7"
+    },
+    {
+      "path": "analysis/tests/test_biosample_metadata_qualification.py",
+      "sha256": "809ca25b94ef9ac5b88fde94ec898230ee32bc71143a81a300f5fe1438b4062a"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/scripts/qualify_biosample_metadata_v1.py",
+  "arguments": [
+    "--soft",
+    "raw_data/source_qualification_20261003/GSE247130_family.soft",
+    "raw_data/source_qualification_20261003/GSE310539_family.soft",
+    "--biosample",
+    "raw_data/source_recovery_20261003/GSE247130_biosample_01.xml",
+    "raw_data/source_recovery_20261003/GSE310539_biosample_01.xml",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "inventory.json",
+    "sample_links.tsv"
+  ],
+  "amendment_of": "analysis/research/contracts/A7.source_qualification_metadata_v1.json",
+  "amendment_reason": "Extend the immutable GEO inventory to the previously unqualified linked BioSample layer. Retain v1 inputs, outputs and conclusions; no biological eligibility is promoted by accession matching."
+}
