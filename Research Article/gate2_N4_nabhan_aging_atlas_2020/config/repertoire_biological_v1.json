@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P06.biological_v1",
+  "owner": "Nb5-P06",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Does older reconstructed T-cell repertoire concentration persist as local clone repetition within immune compartments, or can changing tissue representation account for the pooled pattern?",
+  "decision": "Distinguish local repertoire structure from compartment mixture to specify a later independent subtype/longitudinal/function discriminator.",
+  "strongest_rival": "Redistribution among sampled tissues and T-cell subtypes changes pooled concentration; nonrandom receptor reconstruction and source-version selection remain technical rivals.",
+  "discriminator": "Recompute clones within each mouse and tissue; distinguish local repeats from clones shared across tissues; compare observed and standardized local burden within the same balanced three-tissue mouse set.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_STAGE1.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_ASSESSMENT.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper, handwritten note, all previous Nb5 outputs and figures were inspected. Tissue/animal coverage and metadata fields were inspected before this freeze; new decomposition and tissue-local clone outcomes have not been calculated. Display genes inherit previous choices. This is exploratory reuse, not confirmation.",
+  "biological_unit": "Deposited mouse within each assay and tissue; slash-containing lung IDs are explicitly pooled libraries, excluded from mouse-weighted expression contrasts and composition accounting.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated tissue and assay samples and the general versus Figure 4 brain objects reuse mice/cells. IDs use different source formats. No cross-organ independence, canonical cross-assay identity resolution or external replication is asserted.",
+  "population_and_selection": "All mapped v2 source T-cell rows for tissue descriptions. Focal thymus/spleen/marrow selected from anatomy and coverage before new outcomes; balanced summaries include only mice with all three. Metadata has no subtype field. All ages 3/18/24 retained.",
+  "contrast": "3 versus 18 and 3 versus 24 months for balanced tissue accounting; all three ages for tissue-local and shared-clone descriptions. Sex confounding unresolved.",
+  "endpoint": "Per-mouse tissue-local nonsingleton-cell fraction, cross-tissue shared-clone-cell fraction, disjoint clone categories and balanced local-clone burden under observed/young-reference/equal tissue weights.",
+  "methods": "Use inherited source clone IDs nested within mouse; missing labels are cell-specific singletons. Tissue-local repeat requires at least two observed members in that tissue. Exact hypergeometric common-depth expectation per eligible tissue uses its minimum over all ages. Balanced primary tissue set and four-term decomposition are specified in EXTENSION_STAGE1.md; all deletions retained. Independently compare clone partitions with frozen sizes, direct cell numerator/denominator with weighted burden, and exhaustive toy enumeration with rarefaction.",
+  "missingness_and_exclusions": "Retain 11 unmatched rows in an output audit; exclude them from mouse endpoints. Record every tissue-age support stratum. Mathematical common-depth eligibility is at least two observed mice per age and depth at least two; not a power threshold. Balanced analysis drops mice lacking a focal tissue and reports remaining counts.",
+  "multiplicity": "No significance tests, selected positive subset, p-values or confirmatory thresholds. Retain complete prior marker family, all tissue descriptions, both age contrasts and failed eligibility.",
+  "precision_status": "unknown",
+  "precision_basis": "Small existing mouse groups and sparse type/tissue cells; display animal estimates and deletion influence. No invented margin, power or independence across organs.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Tissue restriction does not match T-cell subsets or resolve reconstruction selection. Shared clones do not establish migration, and clone size does not measure proliferation, antigen specificity or immune competence. Balanced local burden differs from earlier global pooled clone fraction; repeated tissues are not independent mice.",
+  "stop_rule": "Stop on missing or changed inputs, duplicate identities, unsupported complete-tissue groups, nonfinite supported expression, failure of arithmetic checks or output errors. Preserve failure; amendments require new version.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_cells.tsv",
+      "sha256": "abeadb6d45f37077f52158cd7c194af35dae7db97d19af83fa9146bdc9feb5a1",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/09_biological_extensions_v1.py",
+      "sha256": "81f5a215ff86c523be8ca5628babfbc8a8ea378e4350d4888e766dde79f18ecc"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/09_biological_extensions_v1.py",
+  "arguments": [
+    "--branch",
+    "repertoire",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "tissue_mouse.tsv",
+    "tissue_summary.tsv",
+    "tissue_support.tsv",
+    "clone_distribution.tsv",
+    "balanced_mouse.tsv",
+    "balanced_tissue.tsv",
+    "balanced_decomposition.tsv",
+    "leave_one_mouse_out.tsv",
+    "unmatched_source_rows.tsv",
+    "verification.json"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/repertoire_v2.json",
+  "amendment_reason": "Owner authorized biologically focused extensions following the exposed descriptive pass. A new estimand and bounded comparison are specified in EXTENSION_STAGE1.md; previous results remain immutable."
+}

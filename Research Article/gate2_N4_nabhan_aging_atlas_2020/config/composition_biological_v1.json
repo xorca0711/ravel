@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.biological_v1",
+  "owner": "Nb5-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Within lung FACS and bladder droplet, do 3-to-24-month RNA differences reflect within-annotated-type change, captured population redistribution, or both?",
+  "decision": "Identify whether independent follow-up needs within-population RNA/function, absolute population abundance, or both, without choosing a preferred RQ.",
+  "strongest_rival": "True redistribution among populations can explain aggregate change without within-type change; differential capture, latent subtype mixtures and unbalanced sex can mimic either.",
+  "discriminator": "Same-universe equal-mouse observed versus fixed young-composition summaries, within-type differences, exact composition/within-type/interaction/animal-covariance accounting and mouse-deletion sensitivity.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_STAGE1.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_ASSESSMENT.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper, handwritten note, all previous Nb5 outputs and figures were inspected. Tissue/animal coverage and metadata fields were inspected before this freeze; new decomposition and tissue-local clone outcomes have not been calculated. Display genes inherit previous choices. This is exploratory reuse, not confirmation.",
+  "biological_unit": "Deposited mouse within each assay and tissue; slash-containing lung IDs are explicitly pooled libraries, excluded from mouse-weighted expression contrasts and composition accounting.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated tissue and assay samples and the general versus Figure 4 brain objects reuse mice/cells. IDs use different source formats. No cross-organ independence, canonical cross-assay identity resolution or external replication is asserted.",
+  "population_and_selection": "Lung_facs and Bladder_droplet, individual mice at 3 and 24 months; common types present in every all-sex mouse, retained unchanged in male sensitivity. Complete previously fixed available marker family. Kidney common-support coverage only; whole-kidney inference held.",
+  "contrast": "24 minus 3 months, all observed sexes and male-only separately; cross-sectional, not paired animals or a sex-interaction test.",
+  "endpoint": "Mean normalized RNA and detection proportion within the common captured-type universe, per-mouse standardized values and within-type contrasts.",
+  "methods": "Methods, formulas, fixed display genes and biological rationale are specified in EXTENSION_STAGE1.md. Four exact additive terms include interaction and within-age animal covariance; no percent-explained statistic. Equal-mouse 3-month reference weights are exposed design choices fixed now. Leave-one-out fixes cell-type support, recomputes group means and retains every deletion. Independent count-based endpoint reconstruction and two analytic toy cases verify implementation.",
+  "missingness_and_exclusions": "Pooled labels excluded. A type missing in any 3/24-month mouse is excluded from both observed-common and standardized endpoints, with omitted cells reported. No minimum captured-cell threshold is disguised as precision. Missing old females remain absent; kidney shared types are immune-only and lung droplet has no 24-month group.",
+  "multiplicity": "No significance tests, selected positive subset, p-values or confirmatory thresholds. Retain complete prior marker family, all tissue descriptions, both age contrasts and failed eligibility.",
+  "precision_status": "unknown",
+  "precision_basis": "Small existing mouse groups and sparse type/tissue cells; display animal estimates and deletion influence. No invented margin, power or independence across organs.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Within annotated type is not necessarily cell intrinsic; transcript detection/normalized mean does not establish senescence, secretion or repair. Composition terms describe captured proportions, not absolute abundance or causal mediation. Opposing components and small totals remain visible.",
+  "stop_rule": "Stop on missing or changed inputs, duplicate identities, unsupported complete-tissue groups, nonfinite supported expression, failure of arithmetic checks or output errors. Preserve failure; amendments require new version.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/composition_mouse.tsv",
+      "sha256": "88e191ef1e6ff69811884fd8e9990a8fc041ed1db14bacb51300ad33d88aa807",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/expression_mouse.tsv",
+      "sha256": "5dafd7b67a17dda8f4bb257580014364d0a8e6efd985995577d33624eab81700",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/09_biological_extensions_v1.py",
+      "sha256": "81f5a215ff86c523be8ca5628babfbc8a8ea378e4350d4888e766dde79f18ecc"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/09_biological_extensions_v1.py",
+  "arguments": [
+    "--branch",
+    "composition",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "common_type_support.tsv",
+    "coverage.tsv",
+    "composition_mouse.tsv",
+    "decomposition.tsv",
+    "decomposition_by_type.tsv",
+    "within_type.tsv",
+    "leave_one_mouse_out.tsv",
+    "verification.json"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+  "amendment_reason": "Owner authorized biologically focused extensions following the exposed descriptive pass. A new estimand and bounded comparison are specified in EXTENSION_STAGE1.md; previous results remain immutable."
+}
