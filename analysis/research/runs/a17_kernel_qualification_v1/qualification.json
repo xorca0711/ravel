@@ -1,0 +1,126 @@
+{
+  "scope": "Synthetic numerical checks only; no biological fit, model selection or parameter identifiability claim",
+  "results": [
+    {
+      "case": "pure_birth",
+      "seed": 172903,
+      "replicates": 6000,
+      "mean": 2.23,
+      "reference_mean": 2.225540928492468,
+      "mean_tolerance": 0.12792556028963048,
+      "extinction": 0.0,
+      "reference_extinction": 0.0,
+      "extinction_tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "case": "pure_birth",
+      "seed": 294401,
+      "replicates": 6000,
+      "mean": 2.2266666666666666,
+      "reference_mean": 2.225540928492468,
+      "mean_tolerance": 0.12792556028963048,
+      "extinction": 0.0,
+      "reference_extinction": 0.0,
+      "extinction_tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "case": "slow_birth_death",
+      "seed": 172903,
+      "replicates": 6000,
+      "mean": 2.2481666666666666,
+      "reference_mean": 2.2255409284924674,
+      "mean_tolerance": 0.18091406233577245,
+      "extinction": 0.21316666666666667,
+      "reference_extinction": 0.21589261340876645,
+      "extinction_tolerance": 0.031870016587786654,
+      "passed": true
+    },
+    {
+      "case": "slow_birth_death",
+      "seed": 294401,
+      "replicates": 6000,
+      "mean": 2.203333333333333,
+      "reference_mean": 2.2255409284924674,
+      "mean_tolerance": 0.18091406233577245,
+      "extinction": 0.22866666666666666,
+      "reference_extinction": 0.21589261340876645,
+      "extinction_tolerance": 0.031870016587786654,
+      "passed": true
+    },
+    {
+      "case": "critical",
+      "seed": 172903,
+      "replicates": 6000,
+      "mean": 0.9856666666666667,
+      "reference_mean": 1.0,
+      "mean_tolerance": 0.08485281374238571,
+      "extinction": 0.3775,
+      "reference_extinction": 0.37499999999999994,
+      "extinction_tolerance": 0.0375,
+      "passed": true
+    },
+    {
+      "case": "critical",
+      "seed": 294401,
+      "replicates": 6000,
+      "mean": 0.9935,
+      "reference_mean": 1.0,
+      "mean_tolerance": 0.08485281374238571,
+      "extinction": 0.378,
+      "reference_extinction": 0.37499999999999994,
+      "extinction_tolerance": 0.0375,
+      "passed": true
+    },
+    {
+      "case": "piecewise_common_clock",
+      "seed": 172903,
+      "replicates": 6000,
+      "mean": 3.3171666666666666,
+      "reference_mean": 3.3201169227365472,
+      "mean_tolerance": 0.30403406633938346,
+      "extinction": 0.25816666666666666,
+      "reference_extinction": 0.25893148412984807,
+      "extinction_tolerance": 0.033931045134757844,
+      "passed": true
+    },
+    {
+      "case": "piecewise_common_clock",
+      "seed": 294401,
+      "replicates": 6000,
+      "mean": 3.316333333333333,
+      "reference_mean": 3.3201169227365472,
+      "mean_tolerance": 0.30403406633938346,
+      "extinction": 0.26033333333333336,
+      "reference_extinction": 0.25893148412984807,
+      "extinction_tolerance": 0.033931045134757844,
+      "passed": true
+    },
+    {
+      "case": "switching_equal_growth_law",
+      "seed": 172903,
+      "replicates": 6000,
+      "mean": 2.2211666666666665,
+      "reference_mean": 2.2255409284924674,
+      "mean_tolerance": 0.18091406233577245,
+      "extinction": 0.2275,
+      "reference_extinction": 0.21589261340876645,
+      "extinction_tolerance": 0.031870016587786654,
+      "passed": true
+    },
+    {
+      "case": "switching_equal_growth_law",
+      "seed": 294401,
+      "replicates": 6000,
+      "mean": 2.2176666666666667,
+      "reference_mean": 2.2255409284924674,
+      "mean_tolerance": 0.18091406233577245,
+      "extinction": 0.21933333333333332,
+      "reference_extinction": 0.21589261340876645,
+      "extinction_tolerance": 0.031870016587786654,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -2,6 +2,70 @@
 
 **Update this before stopping work, every session.**
 
+Current checkpoint: 3 October 2026. PR #130 and PR #131 are merged; this
+continuation starts from `76dc9b47f72e774e51502162b2f8ba9d0dc02f17` on
+`codex/research-qualification`. Repository integration and successful execution
+remain separate from scientific acceptance. Check live Git state before work.
+
+## Completed in this continuation
+
+- The normal checkout is aligned with integrated main at `76dc9b4`.
+  [Verification](docs/research_dossiers/continuation_2026-10-03/CHECKOUT.md)
+  preserves protected hashes, untracked paths and 62,370 ignored-file entries.
+- Existing 24 packages and nine Nb4 supplements have a bounded consistency
+  [review](docs/research_dossiers/continuation_2026-10-03/PACKAGE_REVIEW.md),
+  with proposed A4 denominator and A17 observation refinements.
+- [Rochelle metadata qualification](docs/research_dossiers/continuation_2026-10-03/SOURCE_LINKAGE.md)
+  executed for 12 source records. Direct donor/stage labels improve source
+  identity; the required preparation/outcome and receptor/reserve joins remain open.
+- [A17 specification and numerical kernel](docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md)
+  completed ten synthetic case/seed checks. No biological fit or model ranking ran.
+- [Assay qualification requirements](docs/research_dossiers/continuation_2026-10-03/ASSAY_QUALIFICATION.md)
+  distinguish measurable endpoints from actual resource access and precision.
+
+Both new contracts were committed at `78845fc` before execution; their receipts
+were verified and independently checked. Existing contracts, evidence, claim
+grades and adverse results remain unchanged. All RQs remain available.
+
+All ten required local checks passed, including 134 tests with one existing skip; see the
+[stage record](docs/research_dossiers/continuation_2026-10-03/VALIDATION.md).
+
+## Exact next work
+
+Use [remaining work](docs/research_dossiers/REMAINING_WORK.md) and each package's
+eligibility condition. Do not repeat completed checkout alignment or drafting.
+
+1. Complete scientific review and exact assay/contrast novelty qualification;
+   agent review is not owner acceptance or exhaustive novelty clearance.
+2. Obtain the still-missing biological/state maps and early/later preparation
+   joins. The new Rochelle donor labels are not a complete cross-assay map.
+3. For A17, qualify observation/detection assumptions, full probability/tail
+   calculation, parameter domains and fair mouse-level comparison before fitting.
+4. Confirm actual models/specimens/assays/supervision, measurement validity,
+   meaningful effects and independent-unit precision when evidence is available.
+5. Run only newly eligible analyses under distinct frozen contracts and verified
+   receipts, then develop the experimental designs justified by the evidence.
+
+## Preservation and external limits
+
+No host access is confirmed. No outreach, wet experiment, RQ selection or claim
+promotion occurred. Private lab/funding context remains outside Git. Old
+worktrees and raw inputs remain retained; ignored-file checks are not a backup.
+GitHub protection settings were unchanged and not freshly re-audited. A first
+private independent-verifier attempt lacked SciPy; standard-library RK4 completed
+the numerical check without installing dependencies or changing frozen code.
+The new continuation requires owner PR review/merge.
+
+## Historical checkpoints through PR #131
+
+These preserved records describe their original revisions; their pending merge,
+drafting and checkout tasks are superseded by the current checkpoint above.
+
+<details>
+<summary>Read previous documentation and grounding checkpoints</summary>
+
+**Update this before stopping work, every session.**
+
 Current checkpoint: 3 October 2026, after the owner merged
 [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130) into `main` at
 `b52ad6bbbe66d8f886e72453be09eff2eee25d4a` (05:37:38 UTC).
@@ -62,13 +126,8 @@ on the scoped documentation branch. No raw-data backup or retirement is claimed.
 Host access remains unconfirmed. GitHub protection settings were not changed
 or freshly re-audited in this documentation task. Future PR merges remain owner decisions.
 
-## Historical checkpoints through PR #130
 
-The preserved entries below describe their original revisions. Their references
-to an open PR or unwritten packages are superseded by the current checkpoint above.
-
-<details>
-<summary>Read the preserved pre-merge checkpoints</summary>
+### Earlier pre-merge grounding checkpoints
 
 Updated 3 October 2026. Integration base:
 `0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f` (main, PR #129).

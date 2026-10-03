@@ -60,7 +60,8 @@
         "Research Article/gate1_03_nabhan_2018/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
-        "docs/research_dossiers/capabilities_2026-10-03/README.md"
+        "docs/research_dossiers/capabilities_2026-10-03/README.md",
+        "docs/research_dossiers/continuation_2026-10-03/PACKAGE_REVIEW.md"
       ]
     },
     {
@@ -107,7 +108,8 @@
         "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
-        "docs/research_dossiers/capabilities_2026-10-03/README.md"
+        "docs/research_dossiers/capabilities_2026-10-03/README.md",
+        "docs/research_dossiers/continuation_2026-10-03/SOURCE_LINKAGE.md"
       ]
     },
     {
@@ -210,7 +212,8 @@
       "evidence": [
         "Research Article/gate2_C2_england_2025/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
-        "docs/research_dossiers/capabilities_2026-10-03/README.md"
+        "docs/research_dossiers/capabilities_2026-10-03/README.md",
+        "docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md"
       ]
     },
     {
@@ -232,7 +235,8 @@
         "RQ_Specified/A19_fzd_response_reversibility/RESULTS.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
-        "docs/research_dossiers/capabilities_2026-10-03/README.md"
+        "docs/research_dossiers/capabilities_2026-10-03/README.md",
+        "docs/research_dossiers/continuation_2026-10-03/SOURCE_LINKAGE.md"
       ]
     },
     {
@@ -345,7 +349,9 @@
     "analysis/research/runs/a2_biosample_qualification_v2/receipt.json",
     "analysis/research/runs/a7_biosample_qualification_v2/receipt.json",
     "analysis/research/runs/a22_biosample_qualification_v2/receipt.json",
-    "analysis/research/runs/a5_biosample_qualification_v3/receipt.json"
+    "analysis/research/runs/a5_biosample_qualification_v3/receipt.json",
+    "analysis/research/runs/a8_rochelle_metadata_v1/receipt.json",
+    "analysis/research/runs/a17_kernel_qualification_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

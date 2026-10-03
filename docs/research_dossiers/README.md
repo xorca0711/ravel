@@ -86,3 +86,7 @@ The [package index](packages_2026-10-03/README.md) now develops all 24 questions
 and nine Nb4 candidates. These drafts await owner scientific review; the
 [ledger](packages_2026-10-03/LEDGER.md) separates package completion from
 analysis eligibility and bench readiness.
+
+## Continued qualification after integration
+
+The [current continuation](continuation_2026-10-03/README.md) records normal-checkout alignment, 12 newly qualified source records, the A17 numerical kernel/specification and proposed package refinements. Use [remaining work](REMAINING_WORK.md) for the unresolved scientific and resource dependencies.

@@ -105,3 +105,7 @@ receipts and failed runs remain intact. Each package names the enabling artifact
 or measurement decision; access alone would not satisfy those conditions.
 Any later numerical stage, including description/exploration, follows the
 existing committed, hash-bound contract and runner.
+
+## Subsequent qualification
+
+The [3 October continuation](../continuation_2026-10-03/README.md) records source qualification, numerical A17 checks and a bounded [package review](../continuation_2026-10-03/PACKAGE_REVIEW.md). Its A4 denominator and A17 observation refinements qualify future specifications; scientific acceptance and actual access remain pending.

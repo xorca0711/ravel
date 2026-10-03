@@ -1,7 +1,7 @@
 # Remaining repository-grounding work
 
-Current accounting after [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130)
-merged on 3 October 2026 at `b52ad6b`. [PROGRESS.md](../../PROGRESS.md) is the
+Current accounting after PR #130 and [PR #131](https://github.com/xorca0711/scRNA_seq/pull/131)
+merged, and the [continued qualification](continuation_2026-10-03/README.md) from main `76dc9b4`. [PROGRESS.md](../../PROGRESS.md) is the
 session summary. This ledger updates the original nine jobs; the
 [package-stage matrix](packages_2026-10-03/LEDGER.md#per-comparison-next-eligibility-decision)
 retains the exact condition for each A0–A23 and Nb4-P01–P09 comparison.
@@ -11,13 +11,13 @@ retains the exact condition for each A0–A23 and Nb4-P01–P09 comparison.
 | Original job | Current disposition | Remaining completion condition |
 |---|---|---|
 | 1. Integrate PR #130 | Merged by repository owner `xorca0711` at `b52ad6b` | This integration job is complete. Future PRs and scientific acceptance are separate decisions. |
-| 2. Consolidate checkout | Original work, older worktrees and ignored data preserved | Safely reconcile the normal checkout with integrated main and verify intervening changes. Retirement of older worktrees is optional. |
+| 2. Consolidate checkout | Normal checkout fast-forwarded to `76dc9b4`; protected hashes and ignored-file inventory verified | Complete at this checkpoint. Future changes still require inspection; old-worktree retirement is optional. |
 | 3. Recover source identities | 984 library joins and versioned source qualification recorded | Recover the missing biological, pool/preparation and author-state maps below. Library IDs do not establish independence. |
-| 4. Qualify linked outcomes | Seven-question linkage audit and new donor-labelled endpoint lead recorded | Verify the exact preparation, lineage, assay and time joins needed by A1/A4/A8/A14/A19–A21. |
+| 4. Qualify linked outcomes | Seven-question linkage audit; 12 new GEO records now have executed metadata qualification | Verify the exact preparation, lineage, assay and time joins needed by A1/A4/A8/A14/A19–A21. |
 | 5. Confirm actual capabilities | Published models and private lab/funding comparison reviewed | Confirm actual model/specimen/reagent/assay/supervision access and practical limits; no access is currently confirmed. |
 | 6. Qualify precise novelty | Each package names a precedent, incremental discriminator and redundancy condition | Review the final assay/contrast against closest primary evidence and resolve material gaps, including A11's residual contribution. Review remains bounded. |
-| 7. Complete hypothesis packages | 24 conditional drafts and nine Nb4 supplements written | Scientific review plus qualification of unknown assays, controls, meaningful effects and precision before experiment-ready status. |
-| 8. Execute justified analyses | Prior metadata receipts and all adverse results retained | Qualify each intended comparison, commit a new frozen input/code contract, execute through the runner and verify its receipt and interpretation. |
+| 7. Complete hypothesis packages | 24 drafts and nine supplements written; bounded consistency review and A4/A17 refinements recorded | Scientific review plus qualification of unknown assays, controls, meaningful effects and precision before experiment-ready status. |
+| 8. Execute justified analyses | New Rochelle metadata and A17 synthetic qualification executed under frozen contracts; prior adverse results retained | Qualify each intended comparison, commit a new frozen input/code contract, execute through the runner and verify its receipt and interpretation. |
 | 9. Develop wet-experiment designs | Conditional population/contrast/endpoint/control designs specified | Establish model-specific validity, resources and justified precision, then develop the supported bench design. RQ selection remains the owner's decision. |
 
 ## Work that can proceed without confirmed lab access
@@ -30,10 +30,7 @@ retains the exact condition for each A0–A23 and Nb4-P01–P09 comparison.
    Read the [metadata audit](followup_2026-10-03/METADATA.md) and
    [outcome matrix](followup_2026-10-03/OUTCOMES.md) first. Repeating the exhausted
    GEO/BioSample identity searches does not supply the missing biological map.
-3. Develop [A17's observation/model specification](packages_2026-10-03/A17.md):
-   corrected versioned model, defensible observation process, identifiability
-   and mouse-level evaluation. Drafting needs no new lab access; substantive
-   modeling must satisfy the existing contract and eligibility requirements.
+3. Continue from [A17's new specification and numerically qualified kernel](continuation_2026-10-03/A17_MODEL_SPEC.md). Before biological fitting, qualify the observation/detection model, probability solver and tail mass, parameter domains, identifiability, matched folds and meaningful predictive precision. Numerical correctness alone does not identify founder biology.
 4. Scope only comparisons supported by available inputs. An explicit narrower
    descriptive/exploratory question may be justified; it must not inherit an
    unsupported causal, longitudinal or independent-replication claim.
@@ -70,10 +67,7 @@ acceptance and bench readiness remain separate milestones.
 
 ## Integration and preservation
 
-The normal checkout was still `codex/workspace-ready` at `6b9ce9e` at this
-documentation task's intake. Inspect current changes and the
-[checkout record](followup_2026-10-03/CHECKOUT.md) before alignment. Preserve
+The normal checkout is now `codex/workspace-ready` at `76dc9b4`, with [alignment verified](continuation_2026-10-03/CHECKOUT.md). Inspect intervening changes before future alignment. Preserve
 private settings, original work, frozen bytes and ignored raw inputs. Old
 worktree cleanup is not required for the scientific work above to proceed.
-The current documentation reconciliation has its own review/merge step;
-it does not reopen the already-completed integration of PR #130.
+PR #131 documentation reconciliation is merged. The new qualification continuation has its own owner review/merge step; neither earlier integration is reopened.

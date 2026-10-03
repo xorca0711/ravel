@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A8.rochelle_metadata_v1",
+  "owner": "A8",
+  "contract": "analysis/research/contracts/A8.rochelle_metadata_v1.json",
+  "contract_sha256": "6374d29c21296f8ad178fbbcd5062545f630b0eeac049008dc368d38e2a301ec",
+  "git_commit": "78845fcff654e72b59010cc6f35f289b59b5286a",
+  "started_at": "2026-10-03T06:17:50.504031+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/qualify_rochelle_metadata_v1.py",
+    "--sources",
+    "raw_data/research_qualification_20261003",
+    "--output",
+    "analysis/research/runs/a8_rochelle_metadata_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/research_qualification_20261003/GSE306194_family.soft.gz",
+      "sha256": "e9a609c407d2940d11f03e701eab6cdc82365e27dcd66f5cdd98e9311ba4de83",
+      "study_id": "GSE306194",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/research_qualification_20261003/GSE306714_family.soft.gz",
+      "sha256": "721f6bdb2f5d5b278e90e38b6869db69ff921e2bc9748a7a048faa4cef057c32",
+      "study_id": "GSE306714",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_rochelle_metadata_v1.py",
+      "sha256": "8e7238098b63b9c759ce4851e35ba1f38de102e841dd9ff081fdc6ac9b2a4b38"
+    },
+    {
+      "path": "analysis/tests/test_rochelle_metadata_v1.py",
+      "sha256": "136667dd3a62ac55c02544648931c3ede1024e32f3f1e412ce5469e1c3098d68"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/a8_rochelle_metadata_v1/samples.json",
+      "sha256": "0ff794a8e500281bc5478c392a91714dec4111d3fec749bcc2810b589c56627b"
+    },
+    {
+      "path": "analysis/research/runs/a8_rochelle_metadata_v1/samples.csv",
+      "sha256": "dfad68adfa7294cd56aa446f909a98522fdc23c237dc1b93c99732ac6d0cc9f4"
+    },
+    {
+      "path": "analysis/research/runs/a8_rochelle_metadata_v1/summary.json",
+      "sha256": "a2de83662532fbffec7ef475822476342238861552efbe30014c332a35f71619"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T06:17:50.923065+00:00"
+}
