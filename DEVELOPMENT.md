@@ -2492,3 +2492,21 @@ No governance gate or old scientific code/output was weakened or overwritten.
 The independent verifier used standard-library RK4 after SciPy was unavailable;
 the frozen runs and all failed historical receipts remain unchanged. No human
 scientific acceptance, lab access, RQ selection or wet experiment is inferred.
+
+## 3 October 2026: bounded mapping closeout
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Finish recoverable mapping work; defer scientific review and placement work | Owner | Owner authorized this scope; PR integration/scientific acceptance pending | Close current recovery task with explicit evidence holds and reopening conditions | Unknown biological links must remain honest without becoming endless repeated searches |
+| 2026-10-03 | Inspect the two previously unexamined Rochelle H5 file structures | Codex under owner request | Codex bounded read-only inspection; no claim promotion | Record exact source attributes, range provenance and cross-assay limitations | Test the remaining concrete file candidate without expression fitting |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Earlier remaining-work wording grouped all outstanding evidence and bench requirements as immediate jobs | Owner clarified that scientific review is later and actual access belongs to the placement phase; some fields may not be recoverable from current public sources | Owner scope correction, recorded by Codex |
+| 2026-10-03 | Treating deferred A17 model qualification as only human review or a placement dependency | A probability/tail solver and further technical identifiability work remain genuinely unfinished | Codex clarification; no new execution or acceptance inferred |
+
+No governance, validator, frozen scientific asset or biological interpretation
+limit was weakened. The source-recovery task is closed within the inspected
+scope; missing evidence is not declared universally nonexistent. Author contact
+and recurring monitoring were not performed or scheduled. PR #132 remains the
+owner's integration decision.

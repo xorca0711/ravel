@@ -7,7 +7,28 @@ continuation starts from `76dc9b47f72e774e51502162b2f8ba9d0dc02f17` on
 `codex/research-qualification`. Repository integration and successful execution
 remain separate from scientific acceptance. Check live Git state before work.
 
-## Completed in this continuation
+## Current closeout
+
+The owner has deferred scientific review and placement-dependent work. The
+[bounded source-mapping closeout](docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md)
+is complete for the inspected sources: existing source/output audits were reused,
+both Rochelle HDF5 structures were inspected, and all 13 mapping dependencies
+have explicit evidence holds and reopening conditions. No new biological join or
+analysis eligibility was invented. PR #132 remains open for owner integration.
+
+There is no immediate repository-cleanup or repeated source-search task within
+this scope. Further scientific review, A17 technical/model qualification, new-data
+analyses and bench development remain deferred or evidence-dependent. A17's
+unfinished probability/tail solver is not silently classified as completed or
+placement-dependent. All RQs remain available.
+
+Closeout verification is recorded in the
+[validation report](docs/research_dossiers/source_mapping_closeout_2026-10-03/VALIDATION.md).
+The new file inspection used bounded HTTP ranges after the browser tool could not
+open the directory pages; no expression-array values were decoded. No outreach,
+source monitoring, old biological rerun or actual-access confirmation occurred.
+
+## Completed in the preceding qualification
 
 - The normal checkout is aligned with integrated main at `76dc9b4`.
   [Verification](docs/research_dossiers/continuation_2026-10-03/CHECKOUT.md)
@@ -32,19 +53,17 @@ All ten required local checks passed, including 134 tests with one existing skip
 
 ## Exact next work
 
-Use [remaining work](docs/research_dossiers/REMAINING_WORK.md) and each package's
-eligibility condition. Do not repeat completed checkout alignment or drafting.
+1. Owner review/merge of PR #132; scientific acceptance remains separate.
+2. Resume the deferred scientific and A17 technical review only when requested.
+3. Reopen a mapping hold only for the specific new evidence in the
+   [closeout](docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+4. Confirm actual resources and qualify bench-specific designs in the placement
+   phase. Do not ask for currently unavailable access merely to fill a template.
 
-1. Complete scientific review and exact assay/contrast novelty qualification;
-   agent review is not owner acceptance or exhaustive novelty clearance.
-2. Obtain the still-missing biological/state maps and early/later preparation
-   joins. The new Rochelle donor labels are not a complete cross-assay map.
-3. For A17, qualify observation/detection assumptions, full probability/tail
-   calculation, parameter domains and fair mouse-level comparison before fitting.
-4. Confirm actual models/specimens/assays/supervision, measurement validity,
-   meaningful effects and independent-unit precision when evidence is available.
-5. Run only newly eligible analyses under distinct frozen contracts and verified
-   receipts, then develop the experimental designs justified by the evidence.
+The [remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) distinguishes
+completed preparation, deferred review/implementation and evidence/placement
+dependencies. Do not repeat completed drafting, checkout alignment or metadata
+searches without changed evidence.
 
 ## Preservation and external limits
 

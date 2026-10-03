@@ -23,3 +23,9 @@ The [validation record](VALIDATION.md) records checks and limits.
 [Remaining work](../REMAINING_WORK.md) is the current original-job ledger.
 Continue the actual missing qualification; do not restart package drafting,
 repeat exhausted library-identity searches or rerun historical pipelines.
+
+## Later source-mapping closeout
+
+The [closeout](../source_mapping_closeout_2026-10-03/README.md) records the subsequent
+HDF5 inspection and evidence-hold decisions. This stage remains the historical
+record of the two frozen runs; its results and contracts are unchanged.
