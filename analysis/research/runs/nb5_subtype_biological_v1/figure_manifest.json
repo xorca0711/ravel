@@ -1,0 +1,25 @@
+{
+  "eligible_strata": [
+    {
+      "tissue": "Spleen",
+      "subtype": "CD4"
+    },
+    {
+      "tissue": "Spleen",
+      "subtype": "CD8"
+    }
+  ],
+  "files": [
+    "11_subtype_repertoire.png",
+    "11_subtype_repertoire.svg",
+    "11_subtype_repertoire.pdf"
+  ],
+  "caption": "Figure 11. Subtype restriction tests whether older clone concentration reflects CD4/CD8 mixture. Fixed-depth spleen contrasts at 24 versus 3 months are CD4 +0.0, CD8 +1.0 percentage points. Points are mice; bars are means. Source annotations, sparse strata and unmeasured receptor recovery limit biological interpretation.",
+  "layout": {
+    "caption_below_panels": true,
+    "inside_canvas": true,
+    "lines": 3,
+    "words": 44,
+    "font_points": 9
+  }
+}

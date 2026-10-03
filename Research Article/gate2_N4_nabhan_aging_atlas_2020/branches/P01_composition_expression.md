@@ -1,5 +1,8 @@
 # Nb5-P01 Composition and within-type ageing
 
+**Current continuation (3 October 2026):** Lung/bladder composition accounting is complete for its frozen stage. Official metadata transfer does not restore a renal epithelial denominator among the previously sampled 24-month kidney cells; whole-kidney interpretation remains held.
+See the [completion audit](../EXTENSION_COMPLETION.md) before the earlier execution checkpoint below.
+
 **Question:** For qualified tissue and cell-type strata, how much of a measured
 age association reflects captured composition, detection frequency or
 within-type expression? The decision is whether a candidate needs an

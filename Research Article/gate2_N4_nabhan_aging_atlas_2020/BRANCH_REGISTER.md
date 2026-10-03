@@ -1,5 +1,9 @@
 # Nb5 exploratory branch register
 
+**Current execution status:** [completion audit](EXTENSION_COMPLETION.md)
+separates completed stages from unrun models and evidence-dependent proposals.
+No branch ranking, human retain/reject decision or global RQ promotion follows.
+
 Draft 3 October 2026. Eight article-local frames are available for further
 analysis and RQ development. P02 preserves the owner's microglial direction;
 the other seven are agent-proposed frames for review, not owner-selected RQs.

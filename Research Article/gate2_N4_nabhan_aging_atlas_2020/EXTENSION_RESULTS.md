@@ -1,5 +1,10 @@
 # Nb5 biological extensions stage 1 results
 
+**Current continuation:** [completion audit and subtype results](EXTENSION_COMPLETION.md)
+recovers official all-age brain expression and executes the source-annotated
+CD4/CD8 repertoire follow-up. The original stage-1 numbers below are retained.
+Read the continuation before treating an earlier input hold as current.
+
 3 October 2026. **Two biologically focused exploratory comparisons completed.**
 Lung and bladder show different relationships between within-type RNA and
 captured composition. T-cell clone repetition differs among immune tissues,
@@ -152,9 +157,10 @@ per tissue and are not an additional independent sample from the balanced set.
 **Biological decision:** changing sampled tissue proportions alone does not
 account for the older local-repeat mean in this balanced subset. The next
 discriminator is whether this difference persists within comparable T-cell
-subtypes with independently qualified receptor recovery. The current metadata
-has no subtype field, so tissue restriction cannot distinguish subtype
-redistribution from concentration within a subtype. Longitudinal or functional
+subtypes with independently qualified receptor recovery. Table 9 alone has no subtype field. The subsequent
+[official annotation bridge and CD4/CD8 follow-up](EXTENSION_COMPLETION.md)
+now address broad subtype redistribution; finer state and recovery differences
+remain unresolved. Longitudinal or functional
 evidence would be required to address expansion dynamics or immune performance.
 
 Evidence: [local and shared endpoints](../../analysis/research/runs/nb5_repertoire_biological_v1/tissue_mouse.tsv),
@@ -169,9 +175,10 @@ and [all deletions](../../analysis/research/runs/nb5_repertoire_biological_v1/le
 - **P02 microglia:** the author notebook reads the all-age figure object but
   does not establish how its transformed expression was constructed. The general
   brain object has qualified normalized 3/24-month values but lacks 18 months.
-  Distinct-state versus mixture remains untested. A new expression representation
-  needs qualified scale, animal and processing identity; another UMAP would not
-  answer the question. Published-cluster identity is a separate reproduction hold.
+  The [subsequent official-source recovery](EXTENSION_COMPLETION.md) now supplies
+  an all-age count-valued layer and exact microglial cell bridge. Distinct-state
+  versus mixture remains untested; processing/cohort interpretation and final-paper
+  state naming remain separate limits. Another UMAP would not answer the question.
 - **Kidney:** common-type coverage ranges from 7.94% to 95.40% and contains only
   immune annotations. No whole-kidney or tubular compensation conclusion is
   drawn. The missing renal annotation at 24 months is not treated as cell loss.

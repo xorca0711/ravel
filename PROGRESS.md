@@ -2,6 +2,31 @@
 
 **Update this before stopping work, every session.**
 
+## Current Nb5 extension completion on 3 October 2026
+
+The [completion audit](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md)
+now separates completed stages, unrun models and evidence-dependent proposals.
+Official all-age brain expression and exact case-cell identities were recovered;
+the P02 state/mixture fit remains unrun and needs its frozen model specification.
+Official metadata also enabled a completed CD4/CD8 repertoire follow-up: spleen
+CD8 retains a higher older mean at common depth; CD4 has no 24-versus-3 difference.
+Small depths and finer-state/receptor-recovery rivals remain. Figure 11 has a
+compact embedded caption; prior figures and evidence are retained.
+
+Qualification v1/v2 and the subtype biological run completed and their receipts
+verify. No failed execution or relaxed eligibility occurred; unmatched identities
+and unsupported strata are retained. The branch was reconciled with PR #133
+(`origin/main` `537eec8`) while preserving both progress histories. Final checks
+passed: all ten checks, including 137 tests, 8,463 repository validations and
+the research gate. Details are in the article execution ledger. Next: specify and execute the P02
+comparison using recovered inputs; other jobs have exact reopening requirements
+in the completion audit. No RQ/claim promotion, remote push or PR was created.
+Unrelated primary-checkout work, ignored sources and external settings remain
+unchanged; GitHub protection settings were not freshly audited.
+
+<details>
+<summary>Earlier Nb5 descriptive, caption and focus-review checkpoints</summary>
+
 ## Current Nb5 biological extensions on 3 October 2026
 
 The owner authorized biologically focused follow-up after the descriptive pass.
@@ -34,8 +59,7 @@ All existing RQs remain available. Current verified integration base is
 `origin/main` `bf7d716`; unrelated primary-checkout work and external settings
 were not changed. No push or PR has been created for this branch.
 
-<details>
-<summary>Earlier Nb5 descriptive, caption and focus-review checkpoints</summary>
+
 
 ## Current continuation on 3 October 2026
 
@@ -285,79 +309,151 @@ or freshly re-audited in this documentation task. Future PR merges remain owner 
 
 
 ### Earlier pre-merge grounding checkpoints
-
-Updated 3 October 2026. Integration base:
-`0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f` (main, PR #129).
+
+
+Updated 3 October 2026. Integration base:
+
+`0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f` (main, PR #129).
+
 Repair branch: `codex/research-governance`; [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130), not merged. Check Git before assuming this
-checkpoint is the latest remote revision.
-
-## Current objective
-
-Ground the full research portfolio before choosing a question. All A0–A23 remain
-available; nine newly merged Nb4 plans remain article-local candidates. The
-owner has not selected a priority RQ or accepted the new scientific refinements.
-
-## Repair delivered on this branch
-
-- [Twenty-four dossiers](docs/research_dossiers/README.md) distinguish source
-  knowledge, repository evidence, gaps, hypotheses, rivals, discriminating
-  outcomes and experimental bridges. Canonical cards link each refinement.
-- [Governance](docs/RESEARCH_GOVERNANCE.md), agent entry points, a typed contract,
-  execution wrapper and CI change gate make provenance and analysis structure
-  checkable. They cannot certify novelty or compel arbitrary local tools.
-- [State reconciliation](docs/audits/2026-10-03-repository-repair/REPORT.md)
-  preserves older checkouts and merges unique reading-readiness decisions into
-  current main without restoring superseded scientific interpretations.
-- The long prior handoffs remain in existing Git history, with locators in
-  [history](docs/history/2026-10-03-pre-governance/manifest.json).
-
-## Scientific boundaries carried forward
-
-Nb4 reproduction, diagnostics and nine proposals are present from main. Existing
-A19–A23 continuations remain in their workspaces. A0 transfer stopped; A13's
-proxy model was negative; A16 retains attribution imbalance; A22 transport is
-weak; A23's external marker result does not reproduce the screen pattern.
-These are not overwritten by new hypotheses. Claim grades and frozen outputs
-are unchanged. No new biological fit or laboratory experiment ran in this repair.
-
-3A/3B reading and the X1–X4 comparison queue remain open. Reading completion,
-numerical execution and scientific acceptance are separate decisions.
-
-## Verification and external settings
-
-See [validation receipt](docs/audits/2026-10-03-repository-repair/validation.json)
-for actual checks and [repair report](docs/audits/2026-10-03-repository-repair/REPORT.md)
-for GitHub integration protection and remaining limitations. Do not infer passed
-checks or active server protection from this summary alone. Main protection was applied and read back: both GitHub Actions checks are required on an up-to-date PR, administrators are included, and force pushes/deletion are blocked. There is no independent-review requirement on this single-owner repository.
-
-## Scientific review completed on this branch
-
-The [3 October review](docs/research_dossiers/review_2026-10-03/README.md) records
-20 primary-source leads/precedents with access limits, a feasibility gate for
-every A0–A23 and a nine-candidate Nb4 crosswalk. Corrections restore A0's stopped
-transfer scope, A2's recipient, A7/A9 provenance, A13's signaling direction and
-A20's existing pool-maintenance hypothesis. Broad published mechanisms are
-separated from possible narrower contributions. This is a bounded review;
-exhaustive novelty, A11's lesion-specific comparison and actual lab capabilities
-remain unresolved. No new biological calculation or experimental protocol ran.
-Stage-specific verification is in the [review validation record](docs/research_dossiers/review_2026-10-03/VALIDATION.md).
-
-## Source qualification completed on this branch
-
-The [qualification report](docs/research_dossiers/qualification_2026-10-03/README.md)
-records four executed metadata contracts frozen at `6ef2cf9`, five GEO source
-versions, sample identities and independent mechanical verification. MesSTIM
-preparation identities, A5 mouse/state joins, A7 biological replication and Nb3
-preparation/animal-block mapping remain unresolved. The A7 six-CEBPA/four-AP-1
-source split is explicit. A11 has a bounded direct-precedent comparison; exact
-residual-component novelty remains provisional. All 24 RQs and nine Nb4
-candidates retain their current scope and eligibility boundaries.
-
-No expression analysis ran. Receipts now use portable commands; a regression
-test covers the change. Existing freeze, hash and inference gates remain intact.
-Actual laboratory models, assays and access remain unknown. Per-stage checks
-are recorded in the [qualification validation](docs/research_dossiers/qualification_2026-10-03/VALIDATION.md).
-
+checkpoint is the latest remote revision.
+
+
+
+## Current objective
+
+
+
+Ground the full research portfolio before choosing a question. All A0–A23 remain
+
+available; nine newly merged Nb4 plans remain article-local candidates. The
+
+owner has not selected a priority RQ or accepted the new scientific refinements.
+
+
+
+## Repair delivered on this branch
+
+
+
+- [Twenty-four dossiers](docs/research_dossiers/README.md) distinguish source
+
+  knowledge, repository evidence, gaps, hypotheses, rivals, discriminating
+
+  outcomes and experimental bridges. Canonical cards link each refinement.
+
+- [Governance](docs/RESEARCH_GOVERNANCE.md), agent entry points, a typed contract,
+
+  execution wrapper and CI change gate make provenance and analysis structure
+
+  checkable. They cannot certify novelty or compel arbitrary local tools.
+
+- [State reconciliation](docs/audits/2026-10-03-repository-repair/REPORT.md)
+
+  preserves older checkouts and merges unique reading-readiness decisions into
+
+  current main without restoring superseded scientific interpretations.
+
+- The long prior handoffs remain in existing Git history, with locators in
+
+  [history](docs/history/2026-10-03-pre-governance/manifest.json).
+
+
+
+## Scientific boundaries carried forward
+
+
+
+Nb4 reproduction, diagnostics and nine proposals are present from main. Existing
+
+A19–A23 continuations remain in their workspaces. A0 transfer stopped; A13's
+
+proxy model was negative; A16 retains attribution imbalance; A22 transport is
+
+weak; A23's external marker result does not reproduce the screen pattern.
+
+These are not overwritten by new hypotheses. Claim grades and frozen outputs
+
+are unchanged. No new biological fit or laboratory experiment ran in this repair.
+
+
+
+3A/3B reading and the X1–X4 comparison queue remain open. Reading completion,
+
+numerical execution and scientific acceptance are separate decisions.
+
+
+
+## Verification and external settings
+
+
+
+See [validation receipt](docs/audits/2026-10-03-repository-repair/validation.json)
+
+for actual checks and [repair report](docs/audits/2026-10-03-repository-repair/REPORT.md)
+
+for GitHub integration protection and remaining limitations. Do not infer passed
+
+checks or active server protection from this summary alone. Main protection was applied and read back: both GitHub Actions checks are required on an up-to-date PR, administrators are included, and force pushes/deletion are blocked. There is no independent-review requirement on this single-owner repository.
+
+
+
+## Scientific review completed on this branch
+
+
+
+The [3 October review](docs/research_dossiers/review_2026-10-03/README.md) records
+
+20 primary-source leads/precedents with access limits, a feasibility gate for
+
+every A0–A23 and a nine-candidate Nb4 crosswalk. Corrections restore A0's stopped
+
+transfer scope, A2's recipient, A7/A9 provenance, A13's signaling direction and
+
+A20's existing pool-maintenance hypothesis. Broad published mechanisms are
+
+separated from possible narrower contributions. This is a bounded review;
+
+exhaustive novelty, A11's lesion-specific comparison and actual lab capabilities
+
+remain unresolved. No new biological calculation or experimental protocol ran.
+
+Stage-specific verification is in the [review validation record](docs/research_dossiers/review_2026-10-03/VALIDATION.md).
+
+
+
+## Source qualification completed on this branch
+
+
+
+The [qualification report](docs/research_dossiers/qualification_2026-10-03/README.md)
+
+records four executed metadata contracts frozen at `6ef2cf9`, five GEO source
+
+versions, sample identities and independent mechanical verification. MesSTIM
+
+preparation identities, A5 mouse/state joins, A7 biological replication and Nb3
+
+preparation/animal-block mapping remain unresolved. The A7 six-CEBPA/four-AP-1
+
+source split is explicit. A11 has a bounded direct-precedent comparison; exact
+
+residual-component novelty remains provisional. All 24 RQs and nine Nb4
+
+candidates retain their current scope and eligibility boundaries.
+
+
+
+No expression analysis ran. Receipts now use portable commands; a regression
+
+test covers the change. Existing freeze, hash and inference gates remain intact.
+
+Actual laboratory models, assays and access remain unknown. Per-stage checks
+
+are recorded in the [qualification validation](docs/research_dossiers/qualification_2026-10-03/VALIDATION.md).
+
+
+
 ## Follow-up on jobs 2, 3, 4 and 6
 
 The [follow-up report](docs/research_dossiers/followup_2026-10-03/README.md)
@@ -399,7 +495,8 @@ distinguishes implemented structure, completed source review and remaining
 scientific development. No RQ or new claim grade was accepted.
 
 ## Next work
-
+
+
 1. Develop all 24 conditional packages and review the exact discriminators
    against primary precedents. This can proceed without confirmed lab access.
 2. Recover only the still-missing source maps and linked endpoints specified in
@@ -411,7 +508,8 @@ scientific development. No RQ or new claim grade was accepted.
    receipts. Retain holds when inputs cannot identify the intended comparison.
 5. Owner review/merge remains pending. Reconcile the normal review checkout with
    integrated main afterward; retain original work and ignored raw data.
-
+
+
 The normal checkout now uses `codex/workspace-ready` for the PR state. Original
 edits are preserved on local-only `codex/preserved-primary-20261003`; main remains
 unmerged. The attached repair worktree remains on `codex/research-governance`.

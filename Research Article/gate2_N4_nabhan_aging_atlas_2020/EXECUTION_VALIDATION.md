@@ -171,3 +171,39 @@ Authored Markdown/Python/JSON whitespace checks passed. The two unrelated
 primary-checkout metadata files retain their original SHA-256 hashes; ignored
 inputs and private/untracked work were not modified. No frozen evidence was
 overwritten, no claim grade changed, and no push or PR was created.
+
+
+## Unfinished-extension recovery and CD4/CD8 follow-up
+
+The owner asked how unfinished extension jobs could be completed. The
+[completion report](EXTENSION_COMPLETION.md) records what was actually closed
+and what remains unrun or evidence-dependent. Main advanced to `537eec8`
+(PR #133); merge `18999c3` preserved both research and RQ documentation histories.
+
+Qualification v1 was frozen at `279384d`, ran successfully and retained its
+restricted identity rules. Explicit literal assay/alignment naming bridges
+were frozen in v2 at `e25a107`; no fuzzy barcode matching was introduced.
+All known age/mouse/tissue identities agree. The count-valued official brain
+layer was independently checked against deposited n_counts: every row total
+agrees exactly. All 13,130 case-labelled microglia match official brain cells.
+
+The CD4/CD8 design/code freeze `9b2a2c8` precedes its biological run. Its
+[receipt](../../analysis/research/runs/nb5_subtype_biological_v1/receipt.json)
+and both metadata receipts verify. Exactly 6,000 prior mapped repertoire rows
+were retained; two of six tissue/subtype combinations meet the fixed rules.
+Marrow CD4's minimum depth of one and missing label strata remain unfavorable
+eligibility outcomes. There was no failed execution or post-outcome relaxation.
+
+Independent repeated-cell reconstruction, prior clone-size equality, analytic
+conditional-depth bounds and exhaustive enumeration at three toy depths passed.
+Identity unit probes reject ambiguity and age/mouse/tissue conflicts and retain
+unmatched rows. Figure 11 was visually inspected; caption bounds/separation,
+300-dpi PNG metadata and one-page PDF caption extraction passed. The caption
+has 44 words across three lines. Existing scientific figures were not changed.
+
+All ten required checks passed against freshly fetched, unchanged `origin/main`
+`537eec83fe102a7eaa3e3f34a7f6b48cf852be15`: compilation, 137 tests, 18 numeric
+claim bindings, Nb1/Nb4/A16/A23/A22–A23 archive checks, 8,463 repository
+validations and the research gate. The two unrelated primary metadata files
+retain their original SHA-256 values. Frozen historical outputs, raw inputs,
+claim grades and global RQs remain intact; no remote push or PR was created.

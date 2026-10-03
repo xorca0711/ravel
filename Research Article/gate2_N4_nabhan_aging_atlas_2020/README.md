@@ -1,7 +1,7 @@
 # Nb5 mouse ageing atlas analysis development
 
 **Gate 2N item N4. Reading completed by the owner on 3 October 2026;
-first descriptive analysis, two biological extensions and ten figure plates completed; scientific review pending.**
+first descriptive analysis, stage-1 biological extensions, a subtype follow-up and eleven figure plates completed; scientific review pending.**
 
 [A single-cell transcriptomic atlas characterizes ageing tissues in the mouse](https://doi.org/10.1038/s41586-020-2496-1),
 The Tabula Muris Consortium, Nature 583, 590–595 (2020).
@@ -17,8 +17,9 @@ analysis and RQ development, not a ranking of global questions.
 
 | Read | Purpose |
 |---|---|
+| [Completion audit and latest results](EXTENSION_COMPLETION.md) | Recovered inputs, CD4/CD8 result and explicit unfinished-job routes |
 | [Biological extension results](EXTENSION_RESULTS.md) | Within-type versus composition and compartment-local repertoire findings |
-| [Extension figures](EXTENSION_FIGURES.md) | Four new research plates with compact embedded captions |
+| [Extension figures](EXTENSION_FIGURES.md) | Figures 7–11 with compact embedded captions |
 | [Extension design](EXTENSION_STAGE1.md) | Frozen biological questions, rivals, estimands and remaining holds |
 | [First descriptive results](RESULTS.md) | Source discrepancies and initial branch dispositions |
 | [Figure gallery](FIGURES.md) | Six plates with compact purpose/result captions; expanded gallery explanations and PNG/SVG/PDF exports |
@@ -44,10 +45,11 @@ flowchart TD
     F --> G[Possible RQ development after review]
 ```
 
-The first bounded analysis and P01/P06 biological extensions are complete.
-Read EXTENSION_RESULTS.md and RESULTS.md before the original plan. Raw-count modeling, distinct-state/mixture discrimination, disease and
-injury transport, sex interaction and nonlinear age inference remain held for
-the explicit source/design reasons in that report. Published outcomes and the
+The first bounded analysis, P01/P06 stage-1 designs and CD4/CD8 follow-up are
+complete. Read EXTENSION_COMPLETION.md before the earlier results and plan.
+The microglial state/mixture comparison remains unrun, but official all-age
+count-valued inputs are now recovered. Other proposed branches retain their
+specific population, design or independent-evidence requirements. Published outcomes and the
 owner note were exposed before execution. No claim grade or global RQ changed.
 
 Executable contracts and source scripts live here; immutable runs and figure

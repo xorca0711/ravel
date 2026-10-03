@@ -1,5 +1,8 @@
 # Nb5-P06 Immune clonality versus sampling and compartment selection
 
+**Current continuation (3 October 2026):** The tissue-local stage and source-annotated CD4/CD8 follow-up have both executed. Spleen CD8 retains a higher older mean at common depth; CD4 has no observed 24-versus-3 difference. Marrow/thymus subtype strata fail the fixed support rules. Finer T-cell states, receptor recovery and function remain unresolved.
+See the [completion audit](../EXTENSION_COMPLETION.md) before the earlier execution checkpoint below.
+
 ## Question and decision
 
 Does an age-associated change in observed repertoire clonality persist after

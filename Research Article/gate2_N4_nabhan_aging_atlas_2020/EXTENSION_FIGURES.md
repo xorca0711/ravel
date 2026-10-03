@@ -1,5 +1,9 @@
 # Nb5 biological extension figures
 
+**Additional biological follow-up:** [Figure 11](#figure-11-subtype-resolved-repertoire)
+adds the source-annotated CD4/CD8 comparison. Figures 7–10 and their four-page
+PDF remain unchanged.
+
 3 October 2026. Figures 7–10 extend the [original six plates](FIGURES.md).
 All PNGs contain concise biological purpose/result captions in the established
 article style; expanded explanations are below. Every plate has PNG at 300 dpi,
@@ -46,3 +50,21 @@ Version 2 clarifies Figure 10C’s accounting label as **Within tissue**.
 Figures 7–9 PNGs are byte-identical to v1. The
 [original four-page edition](../../analysis/research/runs/nb5_biological_figures_v1/nb5_biological_extensions.pdf)
 remains archived; numerical results and all other figure content are unchanged.
+
+
+## Figure 11: subtype-resolved repertoire
+
+![Spleen CD4/CD8 repertoire comparison](../../analysis/research/runs/nb5_subtype_biological_v1/11_subtype_repertoire.png)
+
+[PNG](../../analysis/research/runs/nb5_subtype_biological_v1/11_subtype_repertoire.png) ·
+[PDF](../../analysis/research/runs/nb5_subtype_biological_v1/11_subtype_repertoire.pdf) ·
+[SVG](../../analysis/research/runs/nb5_subtype_biological_v1/11_subtype_repertoire.svg).
+
+Panels A–B show observed within-subtype clone repetition; C–D show its conditional
+expectation at the common reconstructed-cell depths of three (CD4) and five
+(CD8). Each point is a mouse and each bar an equal-mouse mean; n=4/3/4 at
+3/18/24 months. CD8 retains a higher older mean, while CD4 has no observed
+24-versus-3 difference. Sparse sampling and unresolved finer states/receptor
+recovery limit interpretation. The short embedded caption states the biological
+question, fixed-depth result and limit. See the [full result and eligibility
+record](EXTENSION_COMPLETION.md) for unsupported marrow/thymus comparisons.

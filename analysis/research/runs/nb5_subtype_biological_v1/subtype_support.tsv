@@ -1,0 +1,19 @@
+tissue	subtype	age_months	mice	cells	depth	eligible	reason
+Thymus	CD4	3	0	0	0	False	missing age support, fewer than two mice, or depth below two
+Thymus	CD4	18	0	0	0	False	missing age support, fewer than two mice, or depth below two
+Thymus	CD4	24	0	0	0	False	missing age support, fewer than two mice, or depth below two
+Thymus	CD8	3	0	0	0	False	missing age support, fewer than two mice, or depth below two
+Thymus	CD8	18	0	0	0	False	missing age support, fewer than two mice, or depth below two
+Thymus	CD8	24	0	0	0	False	missing age support, fewer than two mice, or depth below two
+Spleen	CD4	3	4	123	3	True	supported descriptive comparison
+Spleen	CD4	18	3	85	3	True	supported descriptive comparison
+Spleen	CD4	24	4	101	3	True	supported descriptive comparison
+Spleen	CD8	3	4	105	5	True	supported descriptive comparison
+Spleen	CD8	18	3	75	5	True	supported descriptive comparison
+Spleen	CD8	24	4	108	5	True	supported descriptive comparison
+Marrow	CD4	3	3	12	1	False	missing age support, fewer than two mice, or depth below two
+Marrow	CD4	18	4	120	1	False	missing age support, fewer than two mice, or depth below two
+Marrow	CD4	24	4	81	1	False	missing age support, fewer than two mice, or depth below two
+Marrow	CD8	3	0	0	0	False	missing age support, fewer than two mice, or depth below two
+Marrow	CD8	18	0	0	0	False	missing age support, fewer than two mice, or depth below two
+Marrow	CD8	24	0	0	0	False	missing age support, fewer than two mice, or depth below two

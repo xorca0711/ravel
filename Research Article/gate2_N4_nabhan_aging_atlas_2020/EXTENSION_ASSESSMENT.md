@@ -1,5 +1,9 @@
 # Nb5 extension feasibility before RQ derivation
 
+**Current status:** see [completed follow-up and remaining jobs](EXTENSION_COMPLETION.md).
+The all-age microglial source gap has been closed; its state/mixture model is
+still unrun. The source-annotated CD4/CD8 follow-up has now executed.
+
 3 October 2026. **Targeted extensions are plausible and useful before formal
 RQ derivation.** Each extension still needs a bounded candidate question before
 execution. This is a feasibility assessment, not a new biological result or an

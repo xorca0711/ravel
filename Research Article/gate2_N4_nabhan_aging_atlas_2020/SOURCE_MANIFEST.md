@@ -28,3 +28,20 @@ Tables 4–6 were inventoried but their published significance results were not
 retested. Source matrix filenames do not certify raw counts; use the scale audit.
 The Figure 4 object supplies source coordinates and labels, not verified final
 figure correspondence. Numerical discrepancies are retained in RESULTS.md.
+
+
+## Completion-source intake on 3 October 2026
+
+These additional sources are hash-bound in completion_metadata_v1/v2. The
+bbknn notebook was acquired separately after the first acquisition manifest;
+its exact hash is bound directly by both contracts. Old inputs remain intact.
+
+| Local name under `raw_data/tabula_muris_senis_2020/completion_v1/` | Bytes | SHA-256 | Source |
+|---|---:|---|---|
+| official_brain.h5ad | 410766734 | `73c1b7c4c4045db26df384fd226c6bd248cfbb822d540d9c968bd8ce6f051f66` | [author source](https://czb-tabula-muris-senis.s3.us-west-2.amazonaws.com/Data-objects/tabula-muris-senis-facs-processed-official-annotations-Brain_Myeloid.h5ad) |
+| full_metadata.csv | 56147781 | `aa7e2d1b98462e43dec23970cf97dcdbe2b377ef6a8e9c155cf20e1f16ffaed3` | [author source](https://czb-tabula-muris-senis.s3.us-west-2.amazonaws.com/Metadata/tabula-muris-senis-full-metadata.csv) |
+| facs_raw_metadata.csv | 20917180 | `d7d5dd1aad2deae320b31686e5cadb4ce539e8d5908c7beeaac87106b36c5c51` | [author source](https://czb-tabula-muris-senis.s3.us-west-2.amazonaws.com/Metadata/tabula-muris-senis-facs-official-raw-obj__cell-metadata.csv) |
+| facs_processing.ipynb | 1713919 | `b51c584fe8332daad00ae6bd563e13266a1bcae58a7da3878e055cd19588b099` | [author source](https://raw.githubusercontent.com/czbiohub-sf/tabula-muris-senis/5ee7b62ec7208c240634946180a8a105a7356816/1_tabula_muris_senis/11_figure_1/tabula-muris-senis-facs-processing.ipynb) |
+| data_objects_listing.xml | 13461 | `5529fa797117e40242b13f797c2ed61ff0620b884a2b7971944399a8d164db80` | [author source](https://czb-tabula-muris-senis.s3.us-west-2.amazonaws.com/?list-type=2&prefix=Data-objects/&max-keys=1000) |
+| metadata_listing.xml | 2414 | `744571a4947f07bb5d1f90e55d9b28a8afe604cc06ec8299d217ade60c8a2d33` | [author source](https://czb-tabula-muris-senis.s3.us-west-2.amazonaws.com/?list-type=2&prefix=Metadata/&max-keys=1000) |
+| bbknn_processing.ipynb | 4171386 | `2990a55a5134fd13faf694b9c1df19480b521322679e26ed07492e62ef9567cc` | [author source](https://raw.githubusercontent.com/czbiohub-sf/tabula-muris-senis/5ee7b62ec7208c240634946180a8a105a7356816/1_tabula_muris_senis/11_figure_1/tms-bbknn.ipynb) |

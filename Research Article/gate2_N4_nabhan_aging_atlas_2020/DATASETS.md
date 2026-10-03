@@ -1,5 +1,9 @@
 # Data sources and qualification requirements
 
+**Newly qualified source:** the [completion audit](EXTENSION_COMPLETION.md)
+adds the official S3 brain object and full/raw atlas metadata. Its count-valued
+brain layer differs from the earlier normalized Figshare objects described below.
+
 **Current execution:** see [results and amendments](RESULTS.md), [figures](FIGURES.md)
 and [execution ledger](EXECUTION_VALIDATION.md). The planning text below records
 pre-execution choices and is retained; it does not override current evidence.
