@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.descriptive_v1",
+  "owner": "Nb5-P01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Which source results are reproduced by the qualified releases, and which composition, marker, microglial-state and repertoire descriptions justify further development of Nb5-P01 through P08?",
+  "decision": "Retain explicit branch-specific results and holds; use unit-level descriptions to focus subsequent RQ design without selecting a preferred global RQ.",
+  "strongest_rival": "Apparent age shifts can arise from sample composition, cell capture, unequal sampling, sex or release differences; source-defined clusters can describe mixtures rather than a distinct intermediate state.",
+  "discriminator": "Compare cell-weighted versus mouse-weighted composition, marker frequency versus conditional expression, all-sex versus male-only descriptions, source cluster occupancy by mouse and reconstructed repertoire fractions at equal sampling depth.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/NOTE_RECONCILIATION.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/REPRODUCTION_SCOPE.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The paper, owner note, source code, Table 10 header/first gene examples and metadata v1-v3 were examined. Biological contrasts have not been computed by this implementation. This remains exposed exploration; source cluster and gene choices originate from published outcomes.",
+  "biological_unit": "Deposited mouse within each assay and tissue; slash-containing lung IDs are explicitly pooled libraries, excluded from mouse-weighted expression contrasts and composition accounting.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated tissue and assay samples and the general versus Figure 4 brain objects reuse mice/cells. IDs use different source formats. No cross-organ independence, canonical cross-assay identity resolution or external replication is asserted.",
+  "population_and_selection": "Five pinned Figshare version-2 tissue objects, original-annotation microglia from the author Figure 4 object, and all source Table 9 reconstructed T-cell rows. No phenotype-selected mice. Case object is used only for its source-state and transformed-expression descriptions.",
+  "contrast": "Fixed 3-versus-24-month normalized-expression differences within each tissue/assay/type; all observed sexes and male-only sensitivity. All deposited ages retained in source composition, occupancy and repertoire summaries. Pooled young lung droplet libraries excluded from mouse-weighted contrasts.",
+  "endpoint": "Per-mouse captured-cell fractions; fixed marker detected fraction, positive-cell and unconditional mean; source microglial cluster occupancy; source-list top-200 overlap; reconstructed T-cell clonal fraction and exact common-depth conditional expectation. All values are descriptive.",
+  "methods": "Five general objects: raw.X is nonnegative normalized expression with each row approximately 10000; use these linear values without rounding to counts. Fixed genes are declared in hash-bound code. For every mouse/type/gene calculate positive frequency and conditional/unconditional means; absent types are zero in composition but do not manufacture expression values. Contrast equal mouse means at 3 and 24 months, separately per assay/type, plus male-only sensitivity; no tests or CI. Lung composition accounting standardizes equally across types present in every nonpooled deposited mouse, reporting covered mass; descriptive counterfactual, not causal mediation. Brain: retain original microglial annotation, source Leiden sets 1/6 and 10/12/14 plus other; preserve source UMAP and transformed X without back-transforming. Table 10: first 200 rows in source ordering, full-list overlap also reported, no enrichment test. Table 9: retain all reconstructed T-cell rows, exact age-specific cell-name join; calculate source clone fraction and within-mouse clone occupancy, exact hypergeometric expected nonsingleton fraction at the minimum observed mouse reconstruction depth. No receptor reassembly or sequence export. Independent Counter composition arithmetic, direct CSR Cdkn2a traversal and frequency-times-conditional-mean identity verify outputs.",
+  "missingness_and_exclusions": "No general-object cells excluded from source composition. Missing/unannotated identities remain labeled. Brain source-state output excludes macrophage and missing annotation, with dictionary retained. Zero-detection positive means remain missing. Repertoire unmatched rows retained in pooled output but excluded from mouse summaries; any unmatched rows hold complete mouse-level reproduction. Slash pooled labels are never counted as individual mice. No arbitrary cell-count/power cutoff is imposed.",
+  "multiplicity": "No p-values, significance stars, rankings by effect or confirmatory claims. The fixed descriptive marker family and all contrasts are retained, including null/unfavorable values.",
+  "precision_status": "unknown",
+  "precision_basis": "Show every observed mouse and descriptive means; no biological-effect margin, independent unit variance justification or confirmatory power is available.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Normalized RNA detection is not senescence, secretion, pathway activation or repair. Source UMAP, cluster occupancy and signature overlap cannot establish trajectory, a distinct intermediate state or AD treatment direction. Clonality is conditional on reconstruction and tissue sampling, not immune performance. Broad shared-age signatures have prior art. No claim promotion.",
+  "stop_rule": "Stop on nonunique source joins, malformed matrices, missing declared inputs or failed primary arithmetic verification. Preserve failed run. Hold unsupported count models, all-age state/mixture discrimination, disease transport, injury transport and sex interaction. Sparse observations remain descriptive.",
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Bladder_droplet.h5ad",
+      "sha256": "8930cc26c1c9fa7200b535b9bb6e0039bd62bcf373c6eb0497be358e067c810a",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Brain_Myeloid_facs.h5ad",
+      "sha256": "92887b957d8b7d0924825dd7da7609f8aa745ca59ed7c9c08ca3312171540e9b",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Kidney_droplet.h5ad",
+      "sha256": "419fb811cd1543902145e027de059125d86f56daf1f8a2d8ddc178ea6333d7e9",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Lung_droplet.h5ad",
+      "sha256": "8fc63669a71c122c7133da12256200ce54228425aba2dfa36ff928d6267a837f",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Lung_facs.h5ad",
+      "sha256": "7b240d4eb5840e00b52aaa2058e81b88e3d2b783eef9c1395d83226263e812b9",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_1.xlsx",
+      "sha256": "ead9a7ef3de13f991e258403ee1f04a4f109ad8255e48ac779394ed5eefd1426",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_10.xlsx",
+      "sha256": "cacf91aa9d03d41f81733512ffbc94c8308f5ddbefc80206a39f613f2854fadc",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_2.xlsx",
+      "sha256": "5a14ed0215793ee82946031ed684c46327e659176ab52045a3211fcc90f5d4b9",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_4.xlsx",
+      "sha256": "39b7b59b0d714a3baa7e287a4752980b0df6e604f57b16643bfab4baec9bbb77",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_5.xlsx",
+      "sha256": "fe9759a49139ad2f423d54e7fd1d30ebcdc771a573961c9e589f9057d7bfbbc8",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_6.xlsx",
+      "sha256": "91ce4f3cfbfbceabfe4564f375921ba0af171e786a754830d677a7dfa59be6f1",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_9.xlsx",
+      "sha256": "350e02f167659dd03af0e6e22808fcd5ea5f210e8f8828959c68ff2d81439d2e",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/facs.Brain_Myeloid.clustered_diversity.h5ad",
+      "sha256": "c157f0865bf39ce43504c674fd4d8f8dfe62644fe6b795b2e901d38c64dc48e3",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/acquisition_manifest.json",
+      "sha256": "236741f23dc81562f55134402bac1aac4fd865a0af8642769cf40da301395030",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v3/animals.tsv",
+      "sha256": "d625c4bffe0a8bb984ba5fd00ffca1dd2a96495fed9f677a3103a42f742f0a61",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v3/source_concordance.tsv",
+      "sha256": "387c67022bc0c3a1a856ab187384dc218a51257d60687d4fd3d3410a0ec1be71",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/02_descriptive_v1.py",
+      "sha256": "359d5493e61c43b8c810139537652bdbc9aeabb7d81a34c404f7928681ac7441"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/02_descriptive_v1.py",
+  "arguments": [
+    "--manifest",
+    "raw_data/tabula_muris_senis_2020/case_study_v1/acquisition_manifest.json",
+    "--metadata",
+    "analysis/research/runs/nb5_metadata_v3",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "composition_mouse.tsv",
+    "expression_mouse.tsv",
+    "expression_contrasts.tsv",
+    "lung_accounting.tsv",
+    "annotation_dictionary.tsv",
+    "microglia_state_mouse.tsv",
+    "microglia_source_expression.tsv",
+    "microglia_umap.tsv",
+    "repertoire_cells.tsv",
+    "repertoire_source.tsv",
+    "repertoire_mouse.tsv",
+    "source_overlap.tsv",
+    "design_units.tsv",
+    "release_concordance.tsv",
+    "verification.json",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial bounded descriptive execution after metadata qualification. Count-based DE and predictive state comparison are held before biological results because available scales and design do not qualify."
+}
