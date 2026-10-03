@@ -1,5 +1,15 @@
 # Question figure gallery
 
+## Hypothesis illustrations for all 28 questions
+
+The [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md)
+links the explanatory SVG in each question's README or dossier. These qualitative
+hypothesis/rival diagrams are separate from the measured-result inventory below;
+“no figures” in that historical inventory means no local measured-result figure.
+Read each context note for published precedents and the purpose of its readouts.
+
+
+
 An index of figures tracked under `RQ_Specified/`, with the document that
 captions each set. A question ID is a navigation label, not an evidence grade.
 Some questions have tables or proposed designs without figures. Where small
@@ -47,7 +57,7 @@ and the gallery says so at the point where the corrected versions appear. Three
 of those four PNGs are byte-identical to their corrected counterparts, so the
 correction there was to the SVG and to one raster panel, not to every image.
 
-## Questions with no figures
+## Questions without local measured-result figures
 
 | Question | What it produced instead |
 |---|---|

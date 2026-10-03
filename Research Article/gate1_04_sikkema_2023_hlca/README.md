@@ -434,3 +434,7 @@ scikit-learn 0.24.1; R 4.1.1 (covariate models) and 4.0.3 (GSEA); edgeR
 | "Mouse cluster 23 is a cell population" | Descriptive only: it is a low-count, ambient-like barcode set (trial S4) |
 | "The label disagreement in mouse cluster 5 is a resolution artefact" | Descriptive only (trial S5: true for 94% of labelled cells at Leiden 0.5, not at 0.2) |
 | "Human cluster 22 is mast cells" | Descriptive only (trials S2 and S3 and the model classifier agree; correction of the blind table pending owner decision) |
+
+## Question literature and visual companions
+
+- [A6: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A6.md)

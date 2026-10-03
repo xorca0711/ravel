@@ -96,3 +96,7 @@ existing `modules.json`. The four multiome H5 count files, the external raw
 `postQC.h5ad`, and the recorded local metadata must exist at the paths in the
 runner. No network access is used by scoring. The run record includes input
 and output SHA-256 hashes, parameters and runtime versions.
+
+## Question literature and visual companions
+
+- [A7: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A7.md)

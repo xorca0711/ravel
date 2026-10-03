@@ -131,3 +131,7 @@ Failure of either gate leaves the inferential comparison on hold. No new
 validated C-series claim is introduced by these descriptive analyses.
 
 The questions also appear in [Research questions, A4](../../RESEARCH_QUESTIONS.md#a4-how-do-current-wnt-activity-and-il-1-responsiveness-overlap-in-at2-cells).
+
+## Question literature and visual companions
+
+- [A4: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A4.md)

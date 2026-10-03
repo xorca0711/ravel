@@ -27,6 +27,17 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
+<!-- literature-visual-context:start -->
+## Literature context and visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A15: proposed hypothesis and rival explanation](schematics/hypothesis_v2.svg)
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+
 ## Organizing biological question
 
 > Does the epithelial input to fibroblast activation run through the integrin or through the ligand?

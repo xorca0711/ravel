@@ -2,7 +2,90 @@
 
 **Update this before stopping work, every session.**
 
-## Current Nb5 scientific review and proposed registration on 3 October 2026
+## Current literature-context and schematic integration — 3 October 2026
+
+Remote main `82e749a` was refreshed. Work is isolated on
+`codex/literature-context-workflow`; the primary checkout's unrelated code/private
+files remain preserved. The owner requested recent-literature grounding in agent
+instructions, constructive overlap context in each question, and repository-local
+schematics embedded in the READMEs.
+
+Implemented the [literature workflow](docs/LITERATURE_WORKFLOW.md) and
+[28-question illustrated context guide](docs/research_dossiers/literature_context_2026-10-03/README.md).
+Each note connects published premises, actual repository observations, possible
+increments, rivals and readout decisions. A25/A26 now include the closer eLife
+97671 and Mark 2022 precedents; inherited reads, fresh retrieval and planned
+queries remain explicitly distinguished. No complete new portfolio-wide
+literature review or novelty clearance is claimed.
+
+Twenty-one dedicated question folders contain their local SVG/context; seven
+retain article/shared execution contexts and illustrated dossier companions.
+The 24 v2 SVGs are byte-preserved, and their full hypotheses match the current
+dossiers. Four new A24–A27 companions were rendered and inspected. Missing
+features/endpoints and negative results remain visible. Canonical hypotheses,
+claims, numerical outputs, contracts and receipts are unchanged.
+
+The registry/gate now checks all-question context coverage, required sections,
+local embeds, exact inert-SVG hashes, source revision and working-hypothesis
+drift. Previously registered artwork requires a versioned correction. This is
+a narrow documentation category, not an analysis bypass or a fabricated run;
+governance/code-owner review remains required. Mechanical checks cannot verify
+literature completeness or the truth of an interpretation.
+
+Verification so far: 28 mappings/local links, 24 preserved illustrations and
+prior dedicated README bodies pass the integration audit. All 143 discovered
+tests completed successfully (one scientific-runtime integration module skipped
+because its optional analysis dependencies are unavailable here). The initial
+two new-test failures came from a synthetic fixture's paragraph formatting and
+were corrected; two new-figure label collisions were corrected and re-inspected.
+Final local checks passed: 9,506 repository validations, 18 numeric claim
+bindings, both archive verifiers, compilation and the research gate against
+refreshed `origin/main` (`82e749a`, unchanged). Compilation initially encountered
+the worktree sandbox's bytecode-write restriction; directing its cache to a
+writable scratch directory resolved it. No biological analysis was rerun.
+Published [PR #136](https://github.com/xorca0711/scRNA_seq/pull/136) as ready
+for review, not draft. Local checks above passed; live CI and required reviewer
+approval are reported by GitHub. No merge was performed.
+
+After integration: use the new workflow when advancing a hypothesis; complete
+the exact primary-figure/supplement comparison where access/specification is
+still incomplete, nominate the missing biological features/endpoints, and retain
+the existing source/model/placement holds. No RQ was ranked or accepted, and
+laboratory access and server-side protection settings remain unconfirmed.
+
+## Earlier literature-scope clarification on 3 October 2026
+
+Verified remote main `82e749a` includes merged PR #135. Earlier statements that
+PR #135 was open below are historical. The owner's question concerns the wider
+published literature, beyond papers already recorded in the repository.
+
+A fresh topic-based search found additional close precedents for A25 and A26:
+[hippocampal intermediate microglial ageing states, 2025](https://doi.org/10.7554/eLife.97671)
+and [Mark et al., 2022](https://doi.org/10.3389/fimmu.2022.939394).
+The former already addresses a defined region, intermediate states and functional
+tests; publisher-indexed Results and PubMed were available, while direct full-page
+retrieval was challenged. The latter's publisher full text compares CD8/CD4 subsets,
+spleen/marrow and young/adult ages. Its 3/12-month schedule and repertoire-structure
+endpoints do not settle A26's proposed 3/24-month concentration contrast, but CD8
+plus paired tissue/state alone cannot establish novelty. Neither source was found
+by exact DOI/title checks in the inspected Nb5 review/dossier paths.
+
+The broader search also reaffirmed established premises in the older lung RQs.
+This is a scope correction and new-source lead record, not a completed systematic
+review of every A0-A27 claim. No RQ has blanket novelty clearance; potential
+extensions, replication aims and missing specifications remain distinct. No
+canonical hypothesis, claim grade, analysis result or scientific acceptance changed.
+
+Next: compare the complete primary figures/supplements and exact proposed endpoints,
+starting with the closer A25/A26 precedents, before revising scientific scope. The
+owner has not requested rejection, ranking, a new analysis or laboratory execution.
+The A0-A23 schematic companion remains pinned to PR #134; its local progress
+commit `681a029` is preserved on `codex/rq-schematic-v2`. This follow-up only records
+the wider-literature clarification; external settings and actual lab access remain
+unconfirmed. Repository validation passed 9,005 checks; the research gate passed
+against refreshed `origin/main`. No biological analysis was rerun.
+
+## Earlier Nb5 scientific review and proposed registration on 3 October 2026
 
 The owner authorized scientific review and potential registration, then clarified
 that distinct focus, target and cell/context heterogeneity warrant separate RQs.

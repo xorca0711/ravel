@@ -108,3 +108,8 @@ while question-specific execution stays in `RQ_Specified/`.
 | A16–A18 | Proposed repository-wide research questions |
 | England/E-N1–E-N8 | Paper-local candidate extensions; not new global registrations |
 | C31, C136, etc. | Historical claims in the root [claim register](../../CLAIMS.md); distinct from paper-local trial or figure labels |
+
+## Question literature and visual companions
+
+- [A17: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A17.md)
+- [A18: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A18.md)

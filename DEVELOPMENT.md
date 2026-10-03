@@ -2579,3 +2579,18 @@ duplicate, reordered and unregistered IDs. Its existing script is declared as
 infrastructure in the registry; scientific assets remain subject to registration.
 This small validator update and the governance current-ID wording require
 explicit PR review. No review approval is claimed by the authoring agent.
+
+## 3 October 2026: literature-grounded RQ context and schematic integration
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Incorporate recent primary literature into RQ derivation and place explanatory schematics in question entrypoints | Owner | Owner requested implementation; integration and scientific review pending | Add the workflow, all-question context and versioned illustrations; preserve existing hypotheses and results | Readers need to see how prior findings support a possible extension and what each readout decides |
+| 2026-10-03 | Bind explanatory SVGs/context to the registry | Codex | Explicit governance PR review pending | Add narrow provenance/drift checks without a fabricated numerical run | Instruction text alone cannot detect missing context or stale illustrations |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Treating the previously recorded bibliography as sufficient for a wider-literature novelty answer | The owner asked about all published work; closer A25/A26 precedents require more careful boundaries | Owner scope correction; Codex propagates the sources and leaves complete overlap qualification open |
+
+No human retain/reject decision, novelty clearance, claim promotion, model access
+or laboratory readiness is inferred. The 24 earlier v2 drawings remain preserved;
+four new qualitative companions cover the subsequently registered questions.

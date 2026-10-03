@@ -607,5 +607,287 @@
     "analysis/research/contract.template.json",
     "Research Article/ROADMAP.json",
     "analysis/lib/research_layout.py"
+  ],
+  "question_guides": [
+    {
+      "question": "A0",
+      "context": "RQ_Specified/A0_conserved_epithelial_transition_program/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A0_conserved_epithelial_transition_program/README.md",
+      "schematic": "RQ_Specified/A0_conserved_epithelial_transition_program/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "67aa0ca0884ee064f954b3ab05326d77ad642c9e067b1c7b8e6137d4332ab480",
+      "hypothesis_sha256": "967f1facd3ea258cb74b2900e4603507071af486bb64a135fd6a3a46b067f5aa"
+    },
+    {
+      "question": "A1",
+      "context": "RQ_Specified/A1_transitional_epithelial_state_distinction/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A1_transitional_epithelial_state_distinction/README.md",
+      "schematic": "RQ_Specified/A1_transitional_epithelial_state_distinction/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "71e61cda12dd4c22f3663fe20387dc7b02791cb6847efb699080d52684627157",
+      "hypothesis_sha256": "912e45112f2a80020e949ecdf81e8c1ec64cf4139e6cc6200f4cb024e2657a93"
+    },
+    {
+      "question": "A2",
+      "context": "RQ_Specified/A2_areg_source_delivery/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A2_areg_source_delivery/README.md",
+      "schematic": "RQ_Specified/A2_areg_source_delivery/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "8a15cd270331de7f5b2e411213a45422bcbf8237d486ba3d564e4f1b835923e9",
+      "hypothesis_sha256": "5e540aad44f550820780cbfdbaf8d0f87cb67ec166ad6bb634358e4bdd16a9ab"
+    },
+    {
+      "question": "A3",
+      "context": "docs/research_dossiers/literature_context_2026-10-03/A3.md",
+      "entrypoint": "docs/research_dossiers/A3.md",
+      "schematic": "docs/research_dossiers/schematics/A3_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "7bb7a7c4e19323b537de0d0c104b0d9f01b18aca2fd13fc759a16dfcf9b5e8e0",
+      "hypothesis_sha256": "fd2a84403bebeb6aca0922d0a18a48f8b76c7cc90c9313ce2dc626d9952dbefa"
+    },
+    {
+      "question": "A4",
+      "context": "docs/research_dossiers/literature_context_2026-10-03/A4.md",
+      "entrypoint": "docs/research_dossiers/A4.md",
+      "schematic": "docs/research_dossiers/schematics/A4_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "a466e7bbd9db2eb7b291e8f871864f70360ec9d2a3d35ed4713c2fed196f17c6",
+      "hypothesis_sha256": "7122cb0ccae794f28ed3226bd65a6b05e494cb93bf9c884eb93e116f223d4df1"
+    },
+    {
+      "question": "A5",
+      "context": "RQ_Specified/A5_developmental_programme_reuse/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A5_developmental_programme_reuse/README.md",
+      "schematic": "RQ_Specified/A5_developmental_programme_reuse/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "9ff7a47bc8338f192969330793530429c41421611150d4b222449a7cbdbf3ed2",
+      "hypothesis_sha256": "da71eb96829561b08a0ec15ccb65f92ec74f7bde8487e7484bc64a364b069214"
+    },
+    {
+      "question": "A6",
+      "context": "docs/research_dossiers/literature_context_2026-10-03/A6.md",
+      "entrypoint": "docs/research_dossiers/A6.md",
+      "schematic": "docs/research_dossiers/schematics/A6_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "9c0aeb19d47503da8e5627f76701f00d9a060ae0884ec16d26017605b8529227",
+      "hypothesis_sha256": "0f9f80c1087345b886695ab80813b7a047683fdc90de2f8947a129a84ad3091c"
+    },
+    {
+      "question": "A7",
+      "context": "docs/research_dossiers/literature_context_2026-10-03/A7.md",
+      "entrypoint": "docs/research_dossiers/A7.md",
+      "schematic": "docs/research_dossiers/schematics/A7_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "9c0cc2733a6d4349ac0a932648e45a605d55a2979d1dbd3b6cec95ad5fc4eb07",
+      "hypothesis_sha256": "b785f5c69c81b393250cdee5ed50b4c58190a087fb4879e0b2aa477198d3cdef"
+    },
+    {
+      "question": "A8",
+      "context": "RQ_Specified/A8_maturation_component_at1_contribution/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+      "schematic": "RQ_Specified/A8_maturation_component_at1_contribution/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "5b4905e7cd103b24f3d0adf8f47da5d382c8969e9cb60056fa74dc4c9608c7ff",
+      "hypothesis_sha256": "306e4394b101c141c200431ee887b1f92c82c29e617a9cf7e11ec485406e88df"
+    },
+    {
+      "question": "A9",
+      "context": "docs/research_dossiers/literature_context_2026-10-03/A9.md",
+      "entrypoint": "docs/research_dossiers/A9.md",
+      "schematic": "docs/research_dossiers/schematics/A9_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "6c882bcdc96e65046124360d3760050c041170a418123ba72087523c5a21cb8f",
+      "hypothesis_sha256": "2f219e6d35d60b248be91f5756d0ca34dfb1e71504df4d924b41d7a897346b0a"
+    },
+    {
+      "question": "A10",
+      "context": "RQ_Specified/A10_organoid_growth_outcome/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A10_organoid_growth_outcome/README.md",
+      "schematic": "RQ_Specified/A10_organoid_growth_outcome/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "9f6ee62d983b6f01523885a606014492ff80b79d457edecd0a88b4e6580b85c2",
+      "hypothesis_sha256": "3be64b435de8b30afa06a3307ee3fc2a2e88ed26d659b0fc09360edea12ec428"
+    },
+    {
+      "question": "A11",
+      "context": "RQ_Specified/A11_lesion_programme_addition/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A11_lesion_programme_addition/README.md",
+      "schematic": "RQ_Specified/A11_lesion_programme_addition/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "db45dee32d7b5369d9d7c3ca24b00fe43811dcb89b391260f03aad432bd1f143",
+      "hypothesis_sha256": "ee19a1ea2fbfc284dff557b0059fb912fff84a6de83c16aac2204890e3b76275"
+    },
+    {
+      "question": "A12",
+      "context": "RQ_Specified/A12_recipient_context/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A12_recipient_context/README.md",
+      "schematic": "RQ_Specified/A12_recipient_context/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "7222ad4cff2ae10f4fb577230cc1ac066b04df009d0573aa90baa7671d865fcf",
+      "hypothesis_sha256": "ac20e4cbcf49f3969e2754d7512398121e1b55da3350b67621ad54403a2088aa"
+    },
+    {
+      "question": "A13",
+      "context": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md",
+      "schematic": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "722c33f39aca01f12ded0326d3fda7407f49e1635f8a7500997a3ed6a5ed22f9",
+      "hypothesis_sha256": "14b8ae2953a6db04bfc04e17692afb536261da6bdeec07d50b614b1ddc414527"
+    },
+    {
+      "question": "A14",
+      "context": "RQ_Specified/A14_withdrawal_recovery_and_reception/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A14_withdrawal_recovery_and_reception/README.md",
+      "schematic": "RQ_Specified/A14_withdrawal_recovery_and_reception/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "19ddcff8311fff669e2026ca23fe750fc412b4d841d5075badf66a0817713805",
+      "hypothesis_sha256": "0961d86df6a0dd289548513caa3fafbf2473428f69836c1d7202e8a4f39e6f5d"
+    },
+    {
+      "question": "A15",
+      "context": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md",
+      "schematic": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "1085936b79d29fb5be26802b852180037cbe449b1ba03448f87a75bdf4043564",
+      "hypothesis_sha256": "c5611bee98d85dd4bbe9bd99aa8d7903fa4e816846e4f35b2ff22cbc7f54411e"
+    },
+    {
+      "question": "A16",
+      "context": "RQ_Specified/A16_cd177_state_attribution/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A16_cd177_state_attribution/README.md",
+      "schematic": "RQ_Specified/A16_cd177_state_attribution/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "502641706ecab5f6974532c65105f704eb989fe299d5ccfc054948c2328a978e",
+      "hypothesis_sha256": "4dd1a94653ed879ad9d092cff5174e3fbe05500c68dc668905ca8d016db65d5d"
+    },
+    {
+      "question": "A17",
+      "context": "docs/research_dossiers/literature_context_2026-10-03/A17.md",
+      "entrypoint": "docs/research_dossiers/A17.md",
+      "schematic": "docs/research_dossiers/schematics/A17_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "d721ef6d3c00208f0f603805dbbc2c4bdf28d68f4276d631ce4636317a12e49b",
+      "hypothesis_sha256": "5ba24f23793dce6c3097668a70a958523ef11f98b8f34023dfca4599be16d149"
+    },
+    {
+      "question": "A18",
+      "context": "docs/research_dossiers/literature_context_2026-10-03/A18.md",
+      "entrypoint": "docs/research_dossiers/A18.md",
+      "schematic": "docs/research_dossiers/schematics/A18_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "6381015997ea4becfd69ba7b0328d9d3a3b27941d2c9c7fb7ac4792193921b2b",
+      "hypothesis_sha256": "044115a68e1720e4ac915cb51048469d312762bb17e236490ff43052fc720895"
+    },
+    {
+      "question": "A19",
+      "context": "RQ_Specified/A19_fzd_response_reversibility/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A19_fzd_response_reversibility/README.md",
+      "schematic": "RQ_Specified/A19_fzd_response_reversibility/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "d4b0d4f3d87b75a9c9899b900a03ad2cb557f98185a0c1367b3d2ae46c499c42",
+      "hypothesis_sha256": "48623f2fd1595eba25e6de8a1fdbf81fbcb4230faab0a30a0cd024d59dd6f979"
+    },
+    {
+      "question": "A20",
+      "context": "RQ_Specified/A20_fibroblast_fzd_context/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A20_fibroblast_fzd_context/README.md",
+      "schematic": "RQ_Specified/A20_fibroblast_fzd_context/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "2d2a58108c98c69736496ed59dc43f51588b2c6b2e150daafcd79d30ad4e4fa0",
+      "hypothesis_sha256": "c6af6894059770681b4f241c2d328fc2f7a18c299f34336f707e2312a25e0493"
+    },
+    {
+      "question": "A21",
+      "context": "RQ_Specified/A21_fzd4_capillary_function/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A21_fzd4_capillary_function/README.md",
+      "schematic": "RQ_Specified/A21_fzd4_capillary_function/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "98c123176acab862e69a799c8b2a64b961ac0b8c1fca63139c540a472560d6d6",
+      "hypothesis_sha256": "f2e6bfa3e721f99a63d3d2cb21c33f39828dd6a0e4bd3208bbe918159e846cd2"
+    },
+    {
+      "question": "A22",
+      "context": "RQ_Specified/A22_epithelial_identity_niche_response/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A22_epithelial_identity_niche_response/README.md",
+      "schematic": "RQ_Specified/A22_epithelial_identity_niche_response/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "3217a314ed57d8c3f3e4b55f17c5f83d713abf22eb5db12d6796442cb8b43f73",
+      "hypothesis_sha256": "65f504864344e7be3147b06d4a1a0c2f7f9a4d0772a33a0ae3371b8b1633aa7d"
+    },
+    {
+      "question": "A23",
+      "context": "RQ_Specified/A23_slc34a2_transition_homeostasis/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A23_slc34a2_transition_homeostasis/README.md",
+      "schematic": "RQ_Specified/A23_slc34a2_transition_homeostasis/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "073a69a758f25f988ecc18402477efa268c00927",
+      "schematic_sha256": "84877b785b0837001a2848fad6d73403ae62ce2a6a92491d6e5d560f5a9425b3",
+      "hypothesis_sha256": "4a718b2105deee7ae9bde4bc059baea35ed6d85c4419eac464a5e0ccd49a58bf"
+    },
+    {
+      "question": "A24",
+      "context": "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/README.md",
+      "schematic": "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/schematics/hypothesis_v1.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "82e749aba099172583447beb26a27365ccf80772",
+      "schematic_sha256": "a0d479d16c339add662f58449dc88b76608e6c9318a231c48c0af6775f0ba1b0",
+      "hypothesis_sha256": "ec3e51cee711910dc6eddf382eead5d7f0a9571fe82db8303c9011580b2110c8"
+    },
+    {
+      "question": "A25",
+      "context": "RQ_Specified/A25_microglial_midlife_configuration/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A25_microglial_midlife_configuration/README.md",
+      "schematic": "RQ_Specified/A25_microglial_midlife_configuration/schematics/hypothesis_v1.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "82e749aba099172583447beb26a27365ccf80772",
+      "schematic_sha256": "787496700003ecfe2f6c010a280553ad1648098ed89f829b2908fbbcb49be5fb",
+      "hypothesis_sha256": "510a3acc95eb0f94b806bd331b7b6153a786e9c2d8c40cae1fb9a6751b83e00d"
+    },
+    {
+      "question": "A26",
+      "context": "RQ_Specified/A26_tissue_context_cd8_ageing/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A26_tissue_context_cd8_ageing/README.md",
+      "schematic": "RQ_Specified/A26_tissue_context_cd8_ageing/schematics/hypothesis_v1.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "82e749aba099172583447beb26a27365ccf80772",
+      "schematic_sha256": "fa2e1cccc128dcd1f231821dc7ee90080f73703f0585323294fdf639b1cd7521",
+      "hypothesis_sha256": "91356fdc20af07713a980019506ca47ca80cdb99922a9a3a460fba6405a7f3ea"
+    },
+    {
+      "question": "A27",
+      "context": "RQ_Specified/A27_cd8_repertoire_state_redistribution/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md",
+      "schematic": "RQ_Specified/A27_cd8_repertoire_state_redistribution/schematics/hypothesis_v1.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "82e749aba099172583447beb26a27365ccf80772",
+      "schematic_sha256": "bdcd3ec1537bed9706bb269b05fe47721095e483c9adcf1d3dd97a181633699d",
+      "hypothesis_sha256": "172eec5093e9235c06b3302c0748ae1f39cf19e10740cd45f6f2e4b8c8538770"
+    }
   ]
 }

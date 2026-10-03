@@ -123,3 +123,7 @@ question-specific execution belongs in `RQ_Specified/`.
 
 For commands and checks use the [execution guide](EXECUTION.md). Original runs,
 frozen configurations and superseded figure exports are retained.
+
+## Question literature and visual companions
+
+- [A9: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A9.md)
