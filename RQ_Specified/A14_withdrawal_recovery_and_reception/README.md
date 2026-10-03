@@ -1,6 +1,30 @@
 # A14: do exposure duration and fibroblast IL-1 reception separately determine recovery?
 
-**Current development framing:** [A14 development dossier](../../docs/research_dossiers/A14.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | After verified signal cessation, does exposure history change recovery (H1), and does fibroblast IL-1 reception separately change recovery at comparable epithelial input (H2)? |
+| Strongest rival | Continuing input, survival/selection or starting composition creates apparent persistence or recovery. |
+| Biological unit and endpoint | Lineage-defined epithelium and characterized fibroblasts nested in identified donors/animals. Each primary contrast concerns mature descendants per starting AT2 input; H1 and H2 retain separate decisions and a declared testing family. |
+| Current evidence and limit | Withdrawal-associated recovery is already published. Existing data do not qualify the exact compartment/input-history-to-mature-output comparison or autonomous memory. |
+| Next decision / hold | Review is deferred and M10 retains the linkage hold. Reopen for source-qualified exposure/cessation, viability and traced output; an inseparable change in exposure and reception cannot identify either contrast. |
+
+**Read in this order:** [current evidence](../../docs/research_dossiers/followup_2026-10-03/OUTCOMES.md),
+[development dossier](../../docs/research_dossiers/A14.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A14.md).
+Source-mapping closeout: [M10 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 <a id="biological-question"></a>
 

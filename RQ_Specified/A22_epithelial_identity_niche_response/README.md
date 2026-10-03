@@ -1,6 +1,30 @@
 # A22: does epithelial identity determine fibroblast chemokine competence?
 
-**Current development framing:** [A22 development dossier](../../docs/research_dossiers/A22.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does a defined epithelial identity change alter measured chemokine output within comparable fibroblast states beyond viable epithelial amount? |
+| Strongest rival | Fibroblast selection, source depletion or an NKX21-specific effect explains the pattern. |
+| Biological unit and endpoint | Mapped epithelial and fibroblast donor/preparation units with shared mixtures and split wells nested. Measure total extracellular output of a prospectively selected chemokine per starting recipient population; report viable-cell-normalized output separately. |
+| Current evidence and limit | The 672-well analysis shows a small gain that reverses after NKX21 omission and in whole-plate prediction. It weakens the broad predictor; RNA scores do not establish secretion or recruitment. |
+| Next decision / hold | Review is deferred. M05/M06 retain preparation and spatial animal/treatment holds; chemokine output, within-state identity and function need separate qualification before stronger claims. |
+
+**Read in this order:** [current evidence](reports/identity_amount_v2/RESULTS.md),
+[development dossier](../../docs/research_dossiers/A22.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A22.md).
+Source-mapping closeout: [M05/M06 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 **Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.
 

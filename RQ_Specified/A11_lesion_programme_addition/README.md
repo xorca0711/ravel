@@ -1,6 +1,29 @@
 # A11: lesion-associated programme beyond shared plasticity
 
-**Current development framing:** [A11 development dossier](../../docs/research_dossiers/A11.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does the fixed disjoint residual component add lesion-context information beyond the shared component and an independently defined stress comparator? |
+| Strongest rival | Generic stress, state mixture or labeling accounts for the residual association. |
+| Biological unit and endpoint | Independent patients with source-supported pairing and comparable injury controls. The proposed discriminator is held-out patient log-loss improvement over the same shared/stress baseline; patients define holdouts, not cells. |
+| Current evidence and limit | Lesion association is supported across eight patients, but the beyond-shared test remains unresolved at q = 0.0547. The three-donor injury comparison does not establish injury specificity. |
+| Next decision / hold | Exact residual novelty and comparator validity await scientific review. Keep the lists fixed and preserve the unresolved result; no cancer-specific mechanism or biomarker acceptance follows from the measurement definition. |
+
+**Read in this order:** [current evidence](../A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md),
+[development dossier](../../docs/research_dossiers/A11.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A11.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 ## Organizing biological question
 

@@ -1,6 +1,24 @@
 # Shared epithelial component contract (A5 and A11)
 
-**Current development framing:** [A5 development dossier](../../docs/research_dossiers/A5.md) and [A11 development dossier](../../docs/research_dossiers/A11.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current shared scope — 3 October 2026
+
+This workspace owns the frozen component definitions and common measurement
+contracts. A5 and A11 retain separate questions, units, comparisons and decisions.
+
+| Owner | Current discriminator and evidence limit | Development links |
+|---|---|---|
+| A5 | Independent replication of the exact developmental component beyond fixed identity/stress comparators. The original 24-mouse result remains positive; the external mouse/state mapping remains held at M02. | [RQ entrypoint](../A5_developmental_programme_reuse/README.md), [dossier](../../docs/research_dossiers/A5.md), [package](../../docs/research_dossiers/packages_2026-10-03/A5.md) |
+| A11 | Patient-level incremental information from the fixed disjoint residual beyond shared/stress components. Lesion association remains supported, while the beyond-shared result and injury specificity remain unresolved. | [RQ entrypoint](../A11_lesion_programme_addition/README.md), [dossier](../../docs/research_dossiers/A11.md), [package](../../docs/research_dossiers/packages_2026-10-03/A11.md) |
+
+Read the [revised result](reports/REVISED_TEST_RESULTS.md) before earlier plans.
+Shared gene/source overlap is not independent replication. Scientific/novelty
+review is deferred; no component may be retuned to rescue a result. Source
+recovery is closed within its [inspected scope](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+See [remaining work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution governance](../../docs/RESEARCH_GOVERNANCE.md) before a new analysis.
+The existing definitions, exclusions, results and history below remain intact.
+<!-- current-rq-framing:end -->
 
 ## Organizing biological questions
 

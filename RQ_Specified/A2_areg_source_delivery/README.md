@@ -1,6 +1,30 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
-**Current development framing:** [A2 development dossier](../../docs/research_dossiers/A2.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does a defined AREG source/presentation context alter recipient response through measured effective ligand availability? |
+| Strongest rival | Recipient state, other EGFR inputs or source/recipient amount explains the difference. An effect remaining after availability is matched is a separate contrast. |
+| Biological unit and endpoint | Identified source and recipient donors/preparations with shared-source nesting. Measure a validated recipient consequence per starting recipient input, alongside availability, engagement and viable yield. |
+| Current evidence and limit | The corrected RNA association is inconclusive. Supplied EGF, source Itgb6 observations and common-preparation split wells restrict delivery attribution; lack of association does not establish absence of AREG supply. |
+| Next decision / hold | Review is deferred. M01 holds population inference without animal/pool/preparation maps; delivery attribution additionally needs ligand exposure, engagement and a validated consequence assay. |
+
+**Read in this order:** [current evidence](reports/INTERPRETATION_AUDIT_2026-09-27.md),
+[development dossier](../../docs/research_dossiers/A2.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A2.md).
+Source-mapping closeout: [M01 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 **Conditional source-state branch reviewed 1 October 2026:** [Cardoso source
 decomposition and England coordinated outputs](../../RESEARCH_QUESTIONS.md#a2-candidates-20261001)

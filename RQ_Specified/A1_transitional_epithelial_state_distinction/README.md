@@ -1,6 +1,30 @@
 # A1: Distinguishing transitional epithelial states
 
-**Current development framing:** [A1 development dossier](../../docs/research_dossiers/A1.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does a bounded early regulatory measurement improve prediction of later mature epithelial output beyond a fixed early RNA comparator? |
+| Strongest rival | Starting composition, acquisition timing or assay differences explain the apparent regulatory increment. |
+| Biological unit and endpoint | Independent animal/donor preparations with justified assay/lineage linkage. Compare held-out unit prediction error for absolute mature descendants per starting AT2 input; protein identity, morphology and function need separate qualification. |
+| Current evidence and limit | Regulatory and mature lineage endpoints exist, but no inspected cohort supplies the required early regulatory/RNA-to-later-outcome join. The regulatory predictor remains unspecified. |
+| Next decision / hold | Review is deferred; source recovery is closed at the current evidence limit (M07). Reopen for an explicit linked design and a justified feature/endpoint, not by pairing different animals through condition labels. |
+
+**Read in this order:** [current evidence](COMPARISON_MATRIX.md),
+[development dossier](../../docs/research_dossiers/A1.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A1.md).
+Source-mapping closeout: [M07 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 **Conditional candidates reviewed 1 October 2026:** [Nb3 response-pattern
 candidate and HLCA population-definition constraint](../../RESEARCH_QUESTIONS.md#a1-candidates-20261001).

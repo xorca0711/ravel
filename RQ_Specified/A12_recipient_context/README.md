@@ -1,6 +1,29 @@
 # A12: recipient context beyond ligand RNA
 
-**Current development framing:** [A12 development dossier](../../docs/research_dossiers/A12.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does recipient competence modify an IL-1-dependent response beyond effective input and nonspecific inflammation? |
+| Strongest rival | The recipient index reflects general inflammation or cell mixture rather than IL-1-specific competence. |
+| Biological unit and endpoint | Identified donor/preparation units, with epithelial and fibroblast recipients analyzed separately. A future contrast needs a validated IL-1-dependent consequence per starting viable recipient input; the current measured endpoint is inflammatory RNA. |
+| Current evidence and limit | The recipient index improves epithelial prediction in twelve patients while fibroblast results are unstable. Unassigned sources account for roughly 52–72% of IL1B, limiting macrophage-specific attribution. |
+| Next decision / hold | Scientific review and assay qualification are deferred. Retain A12-S1 source uncertainty; protein/input and receptor evidence are required before IL-1/source-specific causal interpretation. |
+
+**Read in this order:** [current evidence](../../docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md),
+[development dossier](../../docs/research_dossiers/A12.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A12.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 ## Organizing biological question
 

@@ -1,6 +1,29 @@
 # A0 — Conserved epithelial transition programme
 
-**Current development framing:** [A0 development dossier](../../docs/research_dossiers/A0.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Do independently defined lung and intestinal states support the biological correspondence required by the frozen transfer test? |
+| Strongest rival | The compared transitions do not share the same intermediate-versus-endpoint meaning; apparent similarity reflects generic plasticity or an invalid mapping. |
+| Biological unit and endpoint | Source-defined states with donor/mouse provenance. The next endpoint is a complete supported/conflicting/unknown correspondence record, not another selected-gene score or a fate assay. |
+| Current evidence and limit | The fixed 50-gene lung-to-intestine transfer failed its specified contrast. That operational failure and original stop remain in force. |
+| Next decision / hold | Scientific review is deferred. Reopen only with independent construct correspondence or a distinct, prospectively amended question; do not retune the failed programme to recover a positive result. |
+
+**Read in this order:** [current evidence](reports/PILOT_V1_RESULTS.md),
+[development dossier](../../docs/research_dossiers/A0.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A0.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 ## Organizing biological question
 

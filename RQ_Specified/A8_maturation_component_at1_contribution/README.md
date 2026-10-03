@@ -1,6 +1,30 @@
 # A8: does a maturation component add information about mature AT1 contribution?
 
-**Current development framing:** [A8 development dossier](../../docs/research_dossiers/A8.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does the frozen early candidate RNA component improve prediction of later mature epithelial output beyond a fixed shared-transition comparator? |
+| Strongest rival | Endpoint leakage, contemporaneous identity, generic stress or composition explains the increment. |
+| Biological unit and endpoint | Independent lineage-defined animal/donor preparations. Evaluate held-out prediction error for absolute mature descendants per starting AT2 input, with survival and total yield separate; RNA alone cannot define the mature outcome. |
+| Current evidence and limit | The 119-gene overlap analysis is a measurement diagnostic. MYRF is not AT1-specific. Rochelle donor/stage and scaffold library labels improve provenance but do not establish the missing early-to-later functional join. |
+| Next decision / hold | Review is deferred; M09 retains the linkage hold. Reopen for verified preparation/lineage and timing relationships with an independent mature endpoint. A concurrent association needs its own narrower scope. |
+
+**Read in this order:** [current evidence](../A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md),
+[development dossier](../../docs/research_dossiers/A8.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A8.md).
+Source-mapping closeout: [M09 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 **Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.
 
