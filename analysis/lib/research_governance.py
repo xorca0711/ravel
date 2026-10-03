@@ -272,9 +272,102 @@ def receipt_errors(root: Path, receipt_path: str) -> list[str]:
     return errors
 
 
+
+GUIDE_SECTIONS = ('Published starting point', 'Repository observation',
+                  'What this question could add', 'Current hypothesis and rival',
+                  'What the comparison would teach', 'Hypothesis schematic',
+                  'Next literature check')
+
+
+def question_guide_errors(root: Path, index: dict) -> tuple[list[str], set[str]]:
+    """Check documentation provenance, never biological truth or search coverage.
+
+    Only exact, inert, qualitative SVGs can enter this documentation category.
+    Tables, code and measured figures retain the existing analysis requirements.
+    """
+    from urllib.parse import unquote
+    from xml.etree import ElementTree as ET
+    errors, assets = [], set()
+    guides = index.get('question_guides')
+    if not isinstance(guides, list):
+        return ['Question guides: required registry list is missing or invalid'], assets
+    ids = [g.get('question') for g in guides if isinstance(g, dict)]
+    expected = [q['id'] for q in index['questions']]
+    if len(ids) != len(guides) or len(ids) != len(set(ids)) or set(ids) != set(expected):
+        errors.append('Question guides: missing, duplicate or unregistered question')
+    fields = {'question', 'context', 'entrypoint', 'schematic', 'kind',
+              'source_revision', 'schematic_sha256', 'hypothesis_sha256'}
+    for guide in guides:
+        try:
+            if not isinstance(guide, dict) or set(guide) != fields:
+                raise ResearchError('invalid guide fields')
+            q = next((q for q in index['questions'] if q['id'] == guide['question']), None)
+            if q is None:
+                raise ResearchError('unregistered question')
+            if guide['kind'] != 'qualitative_hypothesis':
+                raise ResearchError('only qualitative hypothesis illustrations are allowed')
+            if not re.fullmatch(r'[0-9a-f]{40}', guide['source_revision']):
+                raise ResearchError('source revision must be a full Git revision')
+            for key in ('schematic_sha256', 'hypothesis_sha256'):
+                if not re.fullmatch(r'[0-9a-f]{64}', guide[key]):
+                    raise ResearchError(f'invalid {key}')
+            context = within(root, guide['context'])
+            entry = within(root, guide['entrypoint'])
+            svg = within(root, guide['schematic'])
+            if context.suffix != '.md' or entry.suffix != '.md':
+                raise ResearchError('context and entrypoint must be Markdown')
+            if svg.suffix != '.svg' or 'schematics' not in PurePosixPath(guide['schematic']).parts:
+                raise ResearchError('illustration must be an SVG in a schematics directory')
+            if guide['schematic'] in assets:
+                raise ResearchError('illustrations cannot be shared between guide records')
+            text = context.read_text(encoding='utf-8-sig')
+            for heading in GUIDE_SECTIONS:
+                match = re.search(rf'^## {re.escape(heading)}\n(.+?)(?=\n## |\Z)', text, re.M | re.S)
+                if not match or len(match.group(1).strip()) < 30:
+                    raise ResearchError(f'missing/incomplete context section: {heading}')
+            if not re.search(r'\]\(https://[^)]+\)', text):
+                raise ResearchError('context needs a primary-source URL; support still requires review')
+            entry_text = entry.read_text(encoding='utf-8-sig')
+            targets = re.findall(r'!\[[^\]]*\]\(([^)]+)\)', entry_text)
+            if not any((entry.parent / unquote(t)).resolve() == svg for t in targets):
+                raise ResearchError('entrypoint does not embed the registered schematic')
+            dossier = within(root, q['dossier']).read_text(encoding='utf-8-sig')
+            match = re.search(r'^## Working hypothesis\n\n(.*?)(?=\n## |\Z)', dossier, re.M | re.S)
+            if not match:
+                raise ResearchError('working hypothesis missing')
+            hypothesis = match.group(1).strip().split('\n\n**Specificity/novelty')[0]
+            if hashlib.sha256(hypothesis.encode()).hexdigest() != guide['hypothesis_sha256']:
+                raise ResearchError('working hypothesis changed; reconcile context and illustration')
+            if content_hash(svg) != guide['schematic_sha256']:
+                raise ResearchError('illustration hash mismatch; use a versioned correction')
+            xml = svg.read_text(encoding='utf-8-sig')
+            if '<!DOCTYPE' in xml.upper() or '<!ENTITY' in xml.upper():
+                raise ResearchError('SVG declarations/entities are not allowed')
+            tree = ET.fromstring(xml)
+            allowed = {'svg','title','desc','rect','line','ellipse','polygon','text','a'}
+            for node in tree.iter():
+                if node.tag.split('}')[-1] not in allowed:
+                    raise ResearchError('SVG contains a non-illustration element')
+                for key, value in node.attrib.items():
+                    name = key.split('}')[-1].lower()
+                    if name.startswith('on') or name == 'style' or 'url(' in value.lower():
+                        raise ResearchError('SVG active content is not allowed')
+                    if name == 'href' and not value.startswith('https://github.com/xorca0711/scRNA_seq/blob/'):
+                        raise ResearchError('SVG links must reference pinned repository sources')
+            if 'hypothesis illustration' not in ''.join(tree.itertext()).lower():
+                raise ResearchError('SVG must label its illustrative purpose')
+            assets.add(guide['schematic'])
+        except (ResearchError, KeyError, TypeError, ValueError, OSError, ET.ParseError) as exc:
+            label = guide.get('question', '?') if isinstance(guide, dict) else '?'
+            errors.append(f'Question guide {label}: {exc}')
+    return errors, assets
+
+
 def check_registry(root: Path, *, base: str | None = None) -> list[str]:
     errors=[]
     index=read_json(root/'analysis/research/registry.json')
+    guide_errors, illustrations = question_guide_errors(root, index)
+    errors.extend(guide_errors)
     cards=(root/'RESEARCH_QUESTIONS.md').read_text(encoding='utf-8-sig')
     ids=re.findall(r'^### (A\d+)\.',cards,re.M)
     declared=[q['id'] for q in index['questions']]
@@ -332,7 +425,7 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
     if base:
         paths=git(root,'diff','--name-only','--diff-filter=ACDMRTUXB',base,'--').decode().splitlines()
         paths+=git(root,'ls-files','--others','--exclude-standard').decode().splitlines()
-        approved=set(index['infrastructure_paths'])|set(index['contracts'])|set(index['receipts'])|bound_code|bound_outputs
+        approved=set(index['infrastructure_paths'])|set(index['contracts'])|set(index['receipts'])|bound_code|bound_outputs|illustrations
         for path in set(paths):
             if path.startswith(SCIENTIFIC_ROOTS) and Path(path).suffix.lower() in ASSET_SUFFIXES and path not in approved:
                 errors.append(f'Unregistered scientific asset change: {path}')
@@ -348,6 +441,13 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
         except subprocess.CalledProcessError:
             previous=None
         if previous is not None:
+            # Explanatory drawings are versioned too; preserve prior artwork.
+            for guide in previous.get('question_guides', []):
+                try:
+                    if content_hash(within(root, guide['schematic'])) != guide['schematic_sha256']:
+                        errors.append(f'Prior illustration changed: {guide["schematic"]}; use a new version')
+                except (ResearchError, KeyError) as exc:
+                    errors.append(f'Prior illustration missing or invalid: {exc}')
             for kind in ('contracts','receipts'):
                 for path in previous[kind]:
                     if path not in index[kind]:

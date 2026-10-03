@@ -32,7 +32,9 @@ not support.
    specific observations through atlas reconstruction, programme scoring,
    sample-level comparisons and sensitivity checks. Keep the resulting evidence
    beside its source study in `Research Article/`.
-3. **Derive research questions.** Turn unexplained patterns, conflicting evidence
+3. **Derive research questions.** Use the [literature workflow](docs/LITERATURE_WORKFLOW.md)
+   to connect recent and foundational primary findings with the reproduced result.
+   Turn unexplained patterns, conflicting evidence
    and limitations into explicit biological questions. The
    [research-question register](RESEARCH_QUESTIONS.md) records each question's
    rationale, existing evidence and next discriminating test.
@@ -63,6 +65,7 @@ the historical planning context.
 
 | To explore | Start with |
 |---|---|
+| Understand each hypothesis, rival and readout visually | [Illustrated RQ context guide](docs/research_dossiers/literature_context_2026-10-03/README.md) |
 | Biological questions and the evidence needed to answer them | [Research-question register](RESEARCH_QUESTIONS.md) and [question workspaces](RQ_Specified/README.md) |
 | Source studies, reading status and paper-specific analyses | [Research article roadmap](Research%20Article/README.md) |
 | Datasets, their roles, biological units and eligibility limits | [Dataset inventory](docs/DATASETS.md) |

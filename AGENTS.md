@@ -23,6 +23,13 @@ Do not infer current state from an old checkout, an old plan or a chat summary.
 - Question IDs and execution completion do not imply scientific acceptance. Do not create a human retain/reject decision or promote a claim grade without its recorded authority.
 - Keep every current RQ available for development. Do not select a preferred RQ or expand a failed analysis merely to obtain a positive result.
 
+## Literature-grounded question development
+
+- When deriving or materially reframing an RQ from reproduction/branch evidence, or preparing an experiment package, follow [docs/LITERATURE_WORKFLOW.md](docs/LITERATURE_WORKFLOW.md). Search relevant recent primary literature beyond the existing bibliography and target PIs, together with the closest older precedents and contrary findings.
+- Record actual search date, queries, coverage, source version, access and exact figure/result locators. Explain published finding → repository observation → unresolved contrast → hypothesis/rival → informative outcomes. Separate completed reads from planned searches and shared-source reanalysis from replication.
+- Keep published mechanisms as explicit premises. State whether the contribution is replication, model discrimination or a justified extension; do not infer novelty from absent search hits or a changed label/context alone.
+- Maintain the local literature-context note, dossier and illustrated README together; use the registry's question guide. Reuse valid prior scans, refresh when the comparison or evidence changes, and link the context in prospective numerical contracts. No search or schematic certifies novelty or laboratory readiness.
+
 ## Delivery
 
 - Keep tool output and handoffs concise. Batch independent reads, reuse valid checks and avoid duplicate audits. Run additional checks when a change or unresolved risk justifies them.

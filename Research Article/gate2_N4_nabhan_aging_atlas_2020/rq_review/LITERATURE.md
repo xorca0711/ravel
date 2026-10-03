@@ -47,3 +47,12 @@ before making a stronger novelty claim. No therapeutic recommendation is made.
 The earlier deposit hashes and exact source identities remain in the source
 ledger. Different source releases, shared animals, cell partitions and internal
 held-out folds never become independent study replication.
+
+## Wider-literature correction, 3 October 2026
+
+The later [source update](../../../docs/research_dossiers/literature_context_2026-10-03/SOURCE_UPDATE.md)
+adds eLife 97671 for A25 and Mark 2022 for A26. Regional intermediate microglial
+states and CD8 age/subset/spleen/marrow comparisons already have close precedents.
+The above CD4 example remains valid background but is not a sufficient A26 novelty
+boundary. Local context notes now explain the possible model/estimand increment
+and its unresolved qualification; no canonical hypothesis or claim is promoted.

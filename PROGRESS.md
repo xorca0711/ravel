@@ -2,7 +2,56 @@
 
 **Update this before stopping work, every session.**
 
-## Current literature-scope clarification on 3 October 2026
+## Current literature-context and schematic integration — 3 October 2026
+
+Remote main `82e749a` was refreshed. Work is isolated on
+`codex/literature-context-workflow`; the primary checkout's unrelated code/private
+files remain preserved. The owner requested recent-literature grounding in agent
+instructions, constructive overlap context in each question, and repository-local
+schematics embedded in the READMEs.
+
+Implemented the [literature workflow](docs/LITERATURE_WORKFLOW.md) and
+[28-question illustrated context guide](docs/research_dossiers/literature_context_2026-10-03/README.md).
+Each note connects published premises, actual repository observations, possible
+increments, rivals and readout decisions. A25/A26 now include the closer eLife
+97671 and Mark 2022 precedents; inherited reads, fresh retrieval and planned
+queries remain explicitly distinguished. No complete new portfolio-wide
+literature review or novelty clearance is claimed.
+
+Twenty-one dedicated question folders contain their local SVG/context; seven
+retain article/shared execution contexts and illustrated dossier companions.
+The 24 v2 SVGs are byte-preserved, and their full hypotheses match the current
+dossiers. Four new A24–A27 companions were rendered and inspected. Missing
+features/endpoints and negative results remain visible. Canonical hypotheses,
+claims, numerical outputs, contracts and receipts are unchanged.
+
+The registry/gate now checks all-question context coverage, required sections,
+local embeds, exact inert-SVG hashes, source revision and working-hypothesis
+drift. Previously registered artwork requires a versioned correction. This is
+a narrow documentation category, not an analysis bypass or a fabricated run;
+governance/code-owner review remains required. Mechanical checks cannot verify
+literature completeness or the truth of an interpretation.
+
+Verification so far: 28 mappings/local links, 24 preserved illustrations and
+prior dedicated README bodies pass the integration audit. All 143 discovered
+tests completed successfully (one scientific-runtime integration module skipped
+because its optional analysis dependencies are unavailable here). The initial
+two new-test failures came from a synthetic fixture's paragraph formatting and
+were corrected; two new-figure label collisions were corrected and re-inspected.
+Final local checks passed: 9,506 repository validations, 18 numeric claim
+bindings, both archive verifiers, compilation and the research gate against
+refreshed `origin/main` (`82e749a`, unchanged). Compilation initially encountered
+the worktree sandbox's bytecode-write restriction; directing its cache to a
+writable scratch directory resolved it. No biological analysis was rerun.
+The change is ready for PR review; publication/CI status is reported by GitHub.
+
+After integration: use the new workflow when advancing a hypothesis; complete
+the exact primary-figure/supplement comparison where access/specification is
+still incomplete, nominate the missing biological features/endpoints, and retain
+the existing source/model/placement holds. No RQ was ranked or accepted, and
+laboratory access and server-side protection settings remain unconfirmed.
+
+## Earlier literature-scope clarification on 3 October 2026
 
 Verified remote main `82e749a` includes merged PR #135. Earlier statements that
 PR #135 was open below are historical. The owner's question concerns the wider

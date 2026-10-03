@@ -27,6 +27,17 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
+<!-- literature-visual-context:start -->
+## Literature context and visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A16: proposed hypothesis and rival explanation](schematics/hypothesis_v2.svg)
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+
 **Later evidence reconciled 1 October 2026:** the [corrected C1 analysis on main](https://github.com/xorca0711/scRNA_seq/blob/f61343cc16c83e979b071393adccdcf8084ea294/RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)
 has executed the population/neighbourhood amendment. The [canonical card](../../RESEARCH_QUESTIONS.md#a16)
 now reflects its attenuation and residual imbalance. Intrinsic priming and the

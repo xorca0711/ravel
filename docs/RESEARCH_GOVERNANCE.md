@@ -46,6 +46,29 @@ a minimum eligibility count is not a power calculation. Bench implementation
 requires model-specific feasibility, assay validation and the lab's applicable
 experimental oversight; a repository proposal does not provide those facts.
 
+## Literature context and explanatory illustrations
+
+Question development follows the [literature workflow](LITERATURE_WORKFLOW.md):
+recent primary work, older close precedents, contradictions and actual repository
+observations must be connected to the proposed discriminator. The
+[context index](research_dossiers/literature_context_2026-10-03/README.md) provides
+the current bounded application; it is not portfolio-wide novelty clearance.
+
+`question_guides` in the registry binds every canonical question to a context
+note, illustrated entrypoint and exact versioned qualitative SVG. The gate checks
+coverage, required context sections, a primary URL, a local SVG embed, content
+hash, source revision and full working-hypothesis hash. Only these declared inert
+SVGs qualify as explanatory documentation; scripts, data tables and measured
+figures still require their existing contract/run provenance. Do not place a
+measured result in this category to bypass the analysis gate. Changes to this
+declaration and its validation require explicit review.
+
+Existing registered illustrations are retained unchanged; corrections use a new
+path/version. Mechanical checks can catch missing context and drift, but cannot
+establish source support, search completeness or scientific merit. No analysis
+contract or run receipt is invented for an editorial drawing. Branch protection
+and mandatory review settings remain external to the repository.
+
 ## Work types and gates
 
 | Work | Required scope | What can proceed |

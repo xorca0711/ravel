@@ -28,6 +28,17 @@ meaningful effects, precision or scientific acceptance. Existing numerical
 results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
+<!-- literature-visual-context:start -->
+## Literature context and visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A2: proposed hypothesis and rival explanation](schematics/hypothesis_v2.svg)
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+
 **Conditional source-state branch reviewed 1 October 2026:** [Cardoso source
 decomposition and England coordinated outputs](../../RESEARCH_QUESTIONS.md#a2-candidates-20261001)
 specify an upstream rival already relevant to A2. They do not establish ligand

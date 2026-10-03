@@ -125,3 +125,9 @@ Every number below is read from existing tracked evidence, not recomputed here.
 | A11 paired patients, lesion contrast | 23 | Same trial |
 | A5 animals passing both group floors | 1 of 25 | Specificity module |
 | Local human developmental lung deposits | none found | Scan of local GEO family records |
+
+
+## Question literature and visual companions
+
+- [A5: published premises, proposed increment and hypothesis schematic](../A5_developmental_programme_reuse/LITERATURE_CONTEXT.md)
+- [A11: published premises, proposed increment and hypothesis schematic](../A11_lesion_programme_addition/LITERATURE_CONTEXT.md)

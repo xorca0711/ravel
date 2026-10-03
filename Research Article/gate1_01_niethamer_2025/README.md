@@ -77,3 +77,7 @@ Further galleries: [myeloid embeddings](GSE262927/myeloid_focus/README.md),
 [trace-window comparisons](GSE262927/myeloid_focus/amac_origin/README.md),
 [infection-round sensitivity](GSE262927/myeloid_focus/batch_sensitivity/README.md)
 and [Wnt source/response in this cohort](../gate1_03_nabhan_2018/README.md#figure-gallery).
+
+## Question literature and visual companions
+
+- [A3: published premises, proposed increment and hypothesis schematic](../../docs/research_dossiers/literature_context_2026-10-03/A3.md)

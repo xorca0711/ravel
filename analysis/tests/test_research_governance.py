@@ -1,5 +1,6 @@
 """Adversarial contract/runner tests using synthetic files, never biological data."""
 import copy
+import hashlib
 import json
 from pathlib import Path
 import subprocess
@@ -9,7 +10,7 @@ import unittest
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from lib.research_governance import (ResearchError, DOSSIER_SECTIONS, check_registry,
-    contract_errors, execute, receipt_errors, sha256, within)
+    contract_errors, execute, receipt_errors, sha256, within, GUIDE_SECTIONS, question_guide_errors)
 
 REPO=Path(__file__).resolve().parents[2]
 
@@ -24,12 +25,22 @@ class GovernanceTests(unittest.TestCase):
         self.write=write
         write('analysis/research/contract.schema.json',(REPO/'analysis/research/contract.schema.json').read_text())
         write('RESEARCH_QUESTIONS.md','### A1. A synthetic question\n')
-        write('dossier.md','\n'.join('## '+s+'\nSynthetic test content describing a bounded scientific decision.\n' for s in DOSSIER_SECTIONS))
+        write('dossier.md','\n'.join('## '+s+'\n\nSynthetic test content describing a bounded scientific decision.\n' for s in DOSSIER_SECTIONS))
         write('evidence.md','Synthetic source context only.\n')
         write('input.txt','synthetic input\n')
         write('analysis/run.py','import pathlib,sys\npathlib.Path(sys.argv[1], "result.json").write_text("{}")\n')
         self.index={'questions':[{'id':'A1','card':'RESEARCH_QUESTIONS.md#a1','dossier':'dossier.md','evidence':['evidence.md']}],
                     'article_candidates':[],'contracts':[],'receipts':[],'infrastructure_paths':[]}
+        self.guide_svg='RQ_Specified/A1/schematics/hypothesis_v1.svg'
+        self.guide_xml='<svg xmlns="http://www.w3.org/2000/svg"><desc>Original hypothesis illustration.</desc></svg>'
+        write(self.guide_svg,self.guide_xml)
+        write('context.md','\n'.join('## '+s+'\n\nSynthetic documented comparison and limitation with a [primary source](https://example.org/paper).\n' for s in GUIDE_SECTIONS))
+        write('README.md','![Illustration]('+self.guide_svg+')\n')
+        hypothesis='Synthetic test content describing a bounded scientific decision.'
+        self.index['question_guides']=[dict(question='A1',context='context.md',entrypoint='README.md',
+            schematic=self.guide_svg,kind='qualitative_hypothesis',source_revision='a'*40,
+            schematic_sha256=sha256(self.root/self.guide_svg),
+            hypothesis_sha256=hashlib.sha256(hypothesis.encode()).hexdigest())]
         self.save_index()
         write('analysis/research/legacy_artifacts.json','{"artifacts": []}')
         template=json.loads((REPO/'analysis/research/contract.template.json').read_text())
@@ -156,6 +167,48 @@ class GovernanceTests(unittest.TestCase):
         self.write('analysis/research/legacy_artifacts.json',json.dumps({'artifacts':[{'path':'input.txt','sha256':sha256(self.root/'input.txt')}]}))
         self.write('input.txt','modified')
         self.assertTrue(any('Historical artifact changed' in e for e in check_registry(self.root)))
+
+
+    def test_valid_question_guide(self):
+        errors, assets=question_guide_errors(self.root,self.index)
+        self.assertEqual(errors,[])
+        self.assertEqual(assets,{self.guide_svg})
+    def test_missing_duplicate_and_extra_guides_rejected(self):
+        for guides in (None,[],self.index['question_guides']*2,[dict(self.index['question_guides'][0],question='A99')]):
+            with self.subTest(guides=guides):
+                altered=copy.deepcopy(self.index); altered['question_guides']=guides
+                self.assertTrue(question_guide_errors(self.root,altered)[0])
+    def test_missing_context_and_embed_rejected(self):
+        self.write('context.md','An incomplete reading note.')
+        self.assertTrue(any('context section' in e for e in question_guide_errors(self.root,self.index)[0]))
+        self.write('context.md','\n'.join('## '+s+'\n\nComplete synthetic context with [primary](https://example.org/paper).\n' for s in GUIDE_SECTIONS))
+        self.write('README.md','Missing figure.')
+        self.assertTrue(any('embed' in e for e in question_guide_errors(self.root,self.index)[0]))
+    def test_changed_hypothesis_and_svg_rejected(self):
+        original=(self.root/'dossier.md').read_text()
+        self.write('dossier.md',original.replace('## Working hypothesis\n','## Working hypothesis\n\nA newly changed hypothesis. '))
+        self.assertTrue(any('hypothesis changed' in e for e in question_guide_errors(self.root,self.index)[0]))
+        self.write('dossier.md',original); self.write(self.guide_svg,self.guide_xml+' ')
+        self.assertTrue(any('hash mismatch' in e for e in question_guide_errors(self.root,self.index)[0]))
+    def test_code_cannot_be_registered_as_illustration(self):
+        self.index['question_guides'][0]['schematic']='analysis/run.py'
+        self.assertTrue(any('SVG' in e for e in question_guide_errors(self.root,self.index)[0]))
+    def test_active_svg_and_external_content_rejected(self):
+        for fragment in ('<script>alert(1)</script>','<image href="https://example.org/x.png"/>',
+                         '<rect onclick="alert(1)"/>','<a href="javascript:alert(1)"/>',
+                         '<rect style="fill:red"/>'):
+            with self.subTest(fragment=fragment):
+                self.write(self.guide_svg,self.guide_xml.replace('</svg>',fragment+'</svg>'))
+                self.index['question_guides'][0]['schematic_sha256']=sha256(self.root/self.guide_svg)
+                self.assertTrue(question_guide_errors(self.root,self.index)[0])
+    def test_old_illustration_cannot_be_rewritten_with_new_hash(self):
+        self.freeze(); self.write(self.guide_svg,self.guide_xml+' ')
+        self.index['question_guides'][0]['schematic_sha256']=sha256(self.root/self.guide_svg)
+        self.save_index()
+        self.assertTrue(any('Prior illustration changed' in e for e in check_registry(self.root,base='HEAD')))
+    def test_guide_registration_does_not_allow_other_scientific_assets(self):
+        self.freeze(); self.write('RQ_Specified/A1/unregistered.csv','result,1\n')
+        self.assertTrue(any('Unregistered scientific asset' in e for e in check_registry(self.root,base='HEAD')))
 
 
 class CanonicalSequenceTests(unittest.TestCase):

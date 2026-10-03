@@ -2,16 +2,19 @@
 
 **Specificity and novelty applied:** [current source comparison](../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
 
-**Current documentation alignment — 3 October 2026.** PRs #130–#133 are merged; latest fetched main is
-`537eec8`; source recovery is closed within its inspected scope. The 24 conditional
-packages exist. The requested specificity/novelty review has resumed; scientific acceptance,
-A17 technical/model qualification and placement-dependent work remain pending. See [current state](../PROGRESS.md),
-[remaining work](../docs/research_dossiers/REMAINING_WORK.md) and the
-[source-mapping closeout](../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+**Current alignment — 3 October 2026.** Main `82e749a` includes PRs #130–#135
+and all 28 registered questions. Twenty-four conditional packages and four newer
+development plans remain proposals. The [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md)
+connects published premises, repository observations, possible contributions and
+measurement decisions. This bounded application adds closer A25/A26 precedents;
+it does not certify novelty or reopen deferred bench work. See [current state](../PROGRESS.md)
+and [remaining work](../docs/research_dossiers/REMAINING_WORK.md).
 
 ## Reading order and authority
 
-Each dedicated RQ README now summarizes its proposed discriminator, strongest
+Each dedicated RQ README embeds a qualitative hypothesis/rival schematic and links
+its local literature context. The diagrams explain what each measurement would
+let you decide; they are proposals, not results. Each README also summarizes its proposed discriminator, strongest
 rival, biological unit/endpoint, current evidence and next decision/hold. Read
 the linked current result before its older plan, then use the dossier and
 conditional package for the full argument and measurement requirements.
@@ -25,7 +28,7 @@ replication or scientific acceptance.
 
 ## All 28 current questions
 
-Seventeen questions have dedicated execution folders here; seven use existing
+Twenty-one questions have dedicated execution folders here; seven use existing
 article/shared source contexts. The latter retain their own dossier and package,
 without creating empty execution workspaces or duplicating scientific pipelines.
 

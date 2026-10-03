@@ -4,6 +4,8 @@ Updated 3 October 2026. Read [AGENTS.md](AGENTS.md),
 [current state](PROGRESS.md) and [research governance](docs/RESEARCH_GOVERNANCE.md).
 This file is navigation, not another scientific status register.
 
+- [Literature workflow](docs/LITERATURE_WORKFLOW.md) connects primary findings and branch results to RQs.
+  [Illustrated context notes](docs/research_dossiers/literature_context_2026-10-03/README.md) cover all 28 questions; use their access limits and exact proposed increments.
 - [Question register](RESEARCH_QUESTIONS.md) owns A0–A27. The
   [dossiers](docs/research_dossiers/README.md) develop every question without ranking them.
 - [Research registry](analysis/research/registry.json) locates cards, dossiers,

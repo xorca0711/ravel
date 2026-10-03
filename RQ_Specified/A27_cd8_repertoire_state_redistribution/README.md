@@ -22,3 +22,13 @@ unfinished numerical design.
 This workspace owns future question-specific planning. Existing figures, tables,
 failed runs and amendments remain in the article package. No new analysis has
 been executed under this RQ; shared inputs remain shared biological evidence.
+
+<!-- literature-visual-context:start -->
+## Literature context and visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A27: proposed hypothesis and rival explanation](schematics/hypothesis_v1.svg)
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
