@@ -1,6 +1,29 @@
 # A13: fibroblast programmes beyond macrophage interleukin-1 beta
 
-**Current development framing:** [A13 development dossier](../../docs/research_dossiers/A13.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Can a measured fibroblast output and a linked epithelial recovery endpoint be nominated for a test beyond comparable inflammatory input? |
+| Strongest rival | Source amount, survival or shared inflammation explains the association rather than activity per fibroblast. |
+| Biological unit and endpoint | Donor/preparation-resolved fibroblast–epithelial systems. The immediate endpoint is a nomination record with a measured output, independent recovery measurement, units and temporal linkage; no mediator is selected merely to fill the package. |
+| Current evidence and limit | The twelve-triad TGF-hallmark/HPCS-proxy pilot worsened RMSE and models performed poorly against baseline. It establishes neither feedback nor that all fibroblast programmes are uninformative. |
+| Next decision / hold | Review is deferred. Keep the causal branch held until a qualified output/endpoint pair exists; another hallmark score does not rescue the negative proxy result. |
+
+**Read in this order:** [current evidence](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md),
+[development dossier](../../docs/research_dossiers/A13.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A13.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 **Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.
 

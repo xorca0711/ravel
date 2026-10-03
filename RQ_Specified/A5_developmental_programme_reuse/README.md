@@ -1,6 +1,30 @@
 # A5: developmental-gene recruitment in adult repair
 
-**Current development framing:** [A5 development dossier](../../docs/research_dossiers/A5.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does the exact frozen developmental component reproduce its within-mouse repair contrast in an independently qualified cohort beyond the fixed identity/stress comparators? |
+| Strongest rival | Annotation, population composition or generic plasticity explains the developmental-signature association. |
+| Biological unit and endpoint | Author-defined transitional and activated AT2 states within independent biological mice. Retain the frozen paired detection-probability contrast, gene definitions, UMI budget and eligibility rules. |
+| Current evidence and limit | The original positive recruitment result across 24 primary mice survives the specified exclusions. The 56-library/55-mouse distinction and per-cell author-state mapping remain unresolved for the external candidate. |
+| Next decision / hold | External replication stays held at M02. Reopen for the authentic barcode/library/mouse/author-state and pool/split export, then qualify count alignment; no new classifier or relaxed threshold substitutes for it. |
+
+**Read in this order:** [current evidence](../A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md),
+[development dossier](../../docs/research_dossiers/A5.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A5.md).
+Source-mapping closeout: [M02 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 ## Organizing biological question
 

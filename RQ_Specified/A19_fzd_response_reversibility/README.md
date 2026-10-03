@@ -1,6 +1,30 @@
 # A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
 
-**Current development framing:** [A19 development dossier](../../docs/research_dossiers/A19.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does a defined pre-withdrawal AT2 state permit mature output after specified input cessation while retaining a responsive AT2 reserve? |
+| Strongest rival | Duration, mixture, survival or generic downstream pathway withdrawal explains the outcome. |
+| Biological unit and endpoint | Lineage-defined donor/animal preparations. Jointly assess absolute mature descendants and viable, functionally responsive AT2 reserve per starting AT2 input; mature markers or survivor fractions alone do not establish both. |
+| Current evidence and limit | Executed qPCR/bulk RNA context results and newer Rochelle source labels do not measure the full receptor-specific withdrawal, mature-output and reserve contrast. CHIR and Fzd-specific inputs are not interchangeable. |
+| Next decision / hold | Review is deferred; M11 retains the evidence hold. Reopen only for linked input/cessation, pre-withdrawal state, mature function and reserve measurements. An alias table cannot supply an unmeasured reserve endpoint. |
+
+**Read in this order:** [current evidence](RESULTS.md),
+[development dossier](../../docs/research_dossiers/A19.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A19.md).
+Source-mapping closeout: [M11 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 <a id="biological-question"></a>
 

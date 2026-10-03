@@ -1,6 +1,29 @@
 # A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand
 
-**Current development framing:** [A15 development dossier](../../docs/research_dossiers/A15.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does epithelial activation of latent TGF-beta alter fibroblast consequence at comparable latent-ligand supply? |
+| Strongest rival | Ligand supply, matrix context, another activator or a parallel EGFR-ligand route explains the response. |
+| Biological unit and endpoint | Identified epithelial source and fibroblast recipient preparations with donor/animal parents. Measure an active-ligand-dependent recipient consequence per starting recipient input, with active and total ligand separately calibrated. |
+| Current evidence and limit | The Itgb6 side branch is observational and confounded by split wells/position. Its normalization correction supersedes the earlier result; the parent mechanism remains untested. |
+| Next decision / hold | Review and assay qualification are deferred. Retain the parent hold until functional ligand measurement, independent preparations and a distinguishable route contrast exist. |
+
+**Read in this order:** [current evidence](reports/NORMALIZATION_ERRATUM_2026-09-28.md),
+[development dossier](../../docs/research_dossiers/A15.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A15.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 ## Organizing biological question
 

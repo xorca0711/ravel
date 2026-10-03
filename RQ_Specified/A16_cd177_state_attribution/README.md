@@ -1,6 +1,29 @@
 # A16: does CD177 identify a priming phenotype within comparable mutant cells?
 
-**Current development framing:** [A16 development dossier](../../docs/research_dossiers/A16.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does verified epithelial CD177 protein identify a later response difference within a comparable starting mutant state? |
+| Strongest rival | Non-epithelial source, unequal starting states or an already active response explains the marker association. |
+| Biological unit and endpoint | Source/genotype-identified epithelial populations nested in animal/preparation units. First qualify protein localization and specificity; nominate one later response and denominator before testing, keeping expansion, survival and switching distinct. |
+| Current evidence and limit | Corrected matching attenuates the RNA association and leaves residual imbalance. It does not establish intrinsic priming, complete exclusion of contamination or a later lineage advantage. |
+| Next decision / hold | Scientific review is deferred. Hold later-response fitting until a valid baseline marker and linked endpoint are available; the existing residual does not establish a causal CD177 role. |
+
+**Read in this order:** [current evidence](correction_20260928/reports/CORRECTED_C1_REPORT.md),
+[development dossier](../../docs/research_dossiers/A16.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A16.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 **Later evidence reconciled 1 October 2026:** the [corrected C1 analysis on main](https://github.com/xorca0711/scRNA_seq/blob/f61343cc16c83e979b071393adccdcf8084ea294/RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)
 has executed the population/neighbourhood amendment. The [canonical card](../../RESEARCH_QUESTIONS.md#a16)

@@ -2,10 +2,25 @@
 
 **Update this before stopping work, every session.**
 
-Current checkpoint: 3 October 2026. PR #130 and PR #131 are merged; this
-continuation starts from `76dc9b47f72e774e51502162b2f8ba9d0dc02f17` on
-`codex/research-qualification`. Repository integration and successful execution
-remain separate from scientific acceptance. Check live Git state before work.
+Current checkpoint: 3 October 2026. PRs #130–#132 are merged; current integrated
+main is `bf7d7166887fb4207eb4582f41925a565a327dbf`. This documentation follow-up
+uses `codex/rq-readme-alignment`. Scientific acceptance remains separate.
+
+## RQ entrypoint alignment
+
+The owner identified that local RQ READMEs still led with the older broad scope
+despite the dossier/package work. All 17 dedicated RQ READMEs and the A5/A11
+shared entrypoint now surface the current proposed discriminator, rival,
+unit/endpoint, evidence limit and next decision. The [RQ index](RQ_Specified/README.md)
+covers all 24 questions; seven retain existing article/shared source contexts.
+All 24 dossiers now link the local entrypoint/context and existing package, with
+stale package-pending wording corrected. Original per-folder analysis history,
+plans, frozen outputs, claim grades and all prior adverse results are unchanged.
+
+This corrects the earlier overbroad claim that no immediate documentation work
+remained. Source-recovery closeout and deferred scientific/placement work keep
+their existing scope. Verification is recorded in the
+[alignment report](docs/research_dossiers/RQ_ENTRYPOINT_ALIGNMENT_2026-10-03.md).
 
 ## Current closeout
 
@@ -14,10 +29,11 @@ The owner has deferred scientific review and placement-dependent work. The
 is complete for the inspected sources: existing source/output audits were reused,
 both Rochelle HDF5 structures were inspected, and all 13 mapping dependencies
 have explicit evidence holds and reopening conditions. No new biological join or
-analysis eligibility was invented. PR #132 remains open for owner integration.
+analysis eligibility was invented. PR #132 was merged by the owner; this README
+alignment has its own review/merge step.
 
-There is no immediate repository-cleanup or repeated source-search task within
-this scope. Further scientific review, A17 technical/model qualification, new-data
+The source-recovery task is closed within the inspected scope. This follow-up
+resolves the separate RQ entrypoint documentation gap. Further scientific review, A17 technical/model qualification, new-data
 analyses and bench development remain deferred or evidence-dependent. A17's
 unfinished probability/tail solver is not silently classified as completed or
 placement-dependent. All RQs remain available.
@@ -53,7 +69,7 @@ All ten required local checks passed, including 134 tests with one existing skip
 
 ## Exact next work
 
-1. Owner review/merge of PR #132; scientific acceptance remains separate.
+1. Owner review/merge of this RQ README alignment; PR #132 is already merged.
 2. Resume the deferred scientific and A17 technical review only when requested.
 3. Reopen a mapping hold only for the specific new evidence in the
    [closeout](docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
@@ -73,7 +89,7 @@ worktrees and raw inputs remain retained; ignored-file checks are not a backup.
 GitHub protection settings were unchanged and not freshly re-audited. A first
 private independent-verifier attempt lacked SciPy; standard-library RK4 completed
 the numerical check without installing dependencies or changing frozen code.
-The new continuation requires owner PR review/merge.
+This README-alignment follow-up requires owner PR review/merge.
 
 ## Historical checkpoints through PR #131
 

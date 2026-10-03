@@ -1,6 +1,30 @@
 # A20. Does Fzd2 sustain AF1 fibroblast support of an AT2 pool capable of mature alveolar repair more strongly than Fzd1?
 
-**Current development framing:** [A20 development dossier](../../docs/research_dossiers/A20.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does comparable Fzd2 loss reduce AF1-like fibroblast support of a maturation-competent AT2 pool and mature descendant output more than Fzd1 loss? |
+| Strongest rival | Maturation-specific support, fibroblast depletion, matrix effects or unequal perturbation validity explains the difference. |
+| Biological unit and endpoint | Prospectively identified AF1-like fibroblasts and matched starting AT2 populations in mapped source/recipient units. The primary contrast is absolute mature output per starting AT2 input; early competent-pool maintenance is a proposed route, not an automatic adjustment covariate. |
+| Current evidence and limit | The narrowed H1 and existing atlas/four-donor context extension motivate the comparison. RNA abundance does not establish receptor dependence or a matched Fzd2-versus-Fzd1 functional effect. |
+| Next decision / hold | Review is deferred and M12 retains the matched-comparison/linkage hold. Keep the total-effect question distinct from mediation; do not normalize away post-treatment pool depletion. |
+
+**Read in this order:** [current evidence](NARROWED_HYPOTHESIS.md),
+[development dossier](../../docs/research_dossiers/A20.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A20.md).
+Source-mapping closeout: [M12 and reopening conditions](../../docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 <a id="biological-question"></a>
 

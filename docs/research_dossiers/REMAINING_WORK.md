@@ -2,7 +2,7 @@
 
 Current accounting: 3 October 2026, after merged PRs #130/#131 and the
 [qualification and mapping closeout in PR #132](https://github.com/xorca0711/scRNA_seq/pull/132).
-PR #132 is still open at this checkpoint. [PROGRESS.md](../../PROGRESS.md) owns
+PR #132 is merged at `bf7d716`. The subsequent [RQ entrypoint alignment](RQ_ENTRYPOINT_ALIGNMENT_2026-10-03.md) has its own owner review/merge step. [PROGRESS.md](../../PROGRESS.md) owns
 the live session summary; verify GitHub state before later integration.
 
 The owner requested completion of recoverable source-mapping work, while
@@ -27,10 +27,11 @@ it is not an active instruction to repeat unchanged searches.
 
 ## What remains now
 
-- **Integration:** owner review/merge of PR #132. This is separate from scientific
-  acceptance. Normal checkout alignment after that merge is routine state upkeep.
-- **No immediate source-recovery or repository-cleanup task remains within the
-  inspected scope.** Do not rescan old sources, redraft existing packages or
+- **Integration:** owner review/merge of the RQ README alignment. PR #132 is
+  merged; scientific acceptance remains separate. Normal-checkout alignment with
+  later merges remains routine state upkeep.
+- **The bounded source-recovery task is closed.** The later RQ entrypoint
+  documentation gap is addressed in this follow-up. Do not rescan old sources, redraft existing packages or
   replay completed analyses merely to turn evidence holds into checked boxes.
 - **Deferred review and analysis development:** novelty, hypothesis/assay choices,
   A4/A17 proposed refinements and A17's unfinished technical qualification.

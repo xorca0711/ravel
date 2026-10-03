@@ -2510,3 +2510,19 @@ limit was weakened. The source-recovery task is closed within the inspected
 scope; missing evidence is not declared universally nonexistent. Author contact
 and recurring monitoring were not performed or scheduled. PR #132 remains the
 owner's integration decision.
+
+## 3 October 2026: RQ README and dossier alignment
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Integrate qualification and source closeout, PR #132 | Codex under owner scope | Owner GitHub merge, 07:27:11 UTC | Integrated at `bf7d716`; no scientific acceptance inferred | Metadata task closeout and deferred-work boundaries are on main |
+| 2026-10-03 | Align the actual RQ folder READMEs with dossiers/packages | Owner | Owner requested correction; follow-up PR review pending | Add question-specific summaries to 17 RQ entrypoints and the shared A5/A11 README; align the 24-question index and all dossiers | Folder readers should see the current discriminator, endpoint, evidence and hold without reconstructing prior chats |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Calling repository preparation settled while local RQ READMEs still had only a dossier pointer | The owner identified a real entrypoint-alignment gap; dossier package-pending prose was also stale | Owner correction, implemented by Codex |
+
+This is documentation alignment to existing packages and recorded refinements.
+It does not accept a hypothesis, change a frozen contract/result, reopen source
+recovery, or start deferred biological/technical review. Existing RQ README
+analysis bodies are preserved; no empty execution folders or new RQ IDs are added.

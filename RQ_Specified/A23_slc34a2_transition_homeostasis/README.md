@@ -1,6 +1,29 @@
 # A23: does phosphate homeostasis constrain entry into an alveolar transition state?
 
-**Current development framing:** [A23 development dossier](../../docs/research_dossiers/A23.md). Read its evidence, rival explanation and experimental bridge alongside the historical plan and current results below.
+<!-- current-rq-framing:start -->
+## Current research framing — 3 October 2026
+
+**Proposed development scope; scientific review remains deferred.** The
+question card owns the registered question. The dossier/package develop its
+next discriminator; the linked result owns what has actually been measured.
+
+| Decision element | Current question-specific summary |
+|---|---|
+| Proposed discriminator | Does altered SLC34A2-dependent phosphate handling precede a defined epithelial transition response in the relevant context? |
+| Strongest rival | Generalized injury, mineral context, survival or starting state explains the marker changes. |
+| Biological unit and endpoint | Independent primary AT2 donor/animal preparations with documented mineral context. Link measured phosphate handling to absolute viable transition-defined cells per starting AT2 input; abundance and transport flux are distinct. |
+| Current evidence and limit | The screen marker pattern did not reproduce coordinately in the external PAM case. Lower SLC20A1/2 RNA supplies no transcriptional compensation evidence but does not exclude functional compensation. |
+| Next decision / hold | Scientific review and measurement qualification are deferred. Keep handling, timing and recovery unresolved; three markers are not fate, and a single human case is not replicated perturbation. |
+
+**Read in this order:** [current evidence](reports/external_pilot_v2/RESULTS.md),
+[development dossier](../../docs/research_dossiers/A23.md),
+[conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A23.md).
+[Deferred work](../../docs/research_dossiers/REMAINING_WORK.md) and
+[execution requirements](../../docs/RESEARCH_GOVERNANCE.md) govern any later
+analysis. Draft completion does not establish assay validity, resource access,
+meaningful effects, precision or scientific acceptance. Existing numerical
+results and original plans below retain their recorded scope.
+<!-- current-rq-framing:end -->
 
 ## Transporter extension executed, 1 October 2026
 
