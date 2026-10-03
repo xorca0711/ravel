@@ -1,16 +1,18 @@
 # A22: does epithelial identity determine fibroblast chemokine competence?
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+Loss of NKX2-1-dependent AT2 identity may lower actual fibroblast chemokine output within comparable fibroblast states beyond a change in viable epithelial source amount. The RNA direction is already published. The proposed extension asks whether it reaches extracellular protein output; the primary chemokine protein and collection/recovery definition have not been nominated, and broad AT2-score generalization failed.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Nabhan already reports NKX2-1-dependent fibroblast chemokine transcripts and niche changes. The possible contribution is source-amount/selection-qualified protein output, not rediscovery of the transcript effect or an assumed immune-recruitment function. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a22).
+
+**What the measurements would decide:** Lower measured protein output within comparable recipient states at comparable viable epithelial input would support the extension. An amount/selection-only effect or unchanged protein weakens it. Calibrated collection/recovery is needed for secretion-rate language; the failed broad predictor cannot support all epithelial identity perturbations.
+
+**Current disposition:** Published focal effect; protein endpoint required. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does a defined epithelial identity change alter measured chemokine output within comparable fibroblast states beyond viable epithelial amount? |
-| Strongest rival | Fibroblast selection, source depletion or an NKX21-specific effect explains the pattern. |
 | Biological unit and endpoint | Mapped epithelial and fibroblast donor/preparation units with shared mixtures and split wells nested. Measure total extracellular output of a prospectively selected chemokine per starting recipient population; report viable-cell-normalized output separately. |
 | Current evidence and limit | The 672-well analysis shows a small gain that reverses after NKX21 omission and in whole-plate prediction. It weakens the broad predictor; RNA scores do not establish secretion or recruitment. |
 | Next decision / hold | Review is deferred. M05/M06 retain preparation and spatial animal/treatment holds; chemokine output, within-state identity and function need separate qualification before stronger claims. |

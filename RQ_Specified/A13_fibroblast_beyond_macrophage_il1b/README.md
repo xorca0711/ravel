@@ -1,16 +1,18 @@
 # A13: fibroblast programmes beyond macrophage interleukin-1 beta
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+Fibroblast output may alter epithelial recovery beyond the effect of macrophage IL-1-beta input. The existing TGF-beta-hallmark/HPCS-proxy pilot found no aggregate held-out gain and nominates no mediator. The biological idea remains incomplete until a particular fibroblast product, epithelial response and source-directed contrast are supported; output nomination is preparatory work, not the hypothesis itself.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Reciprocal epithelial-fibroblast effects and inflammatory fibroblast outputs already have functional precedents. A generic additional fibroblast effect or another score fit would not establish novelty. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a13).
+
+**What the measurements would decide:** A source-directed change in a nominated product linked to a separately validated epithelial recovery endpoint could support the additional niche route. Effects explained only by fibroblast depletion or shared inflammation leave activity-specific attribution unresolved. The negative proxy pilot must not be relabeled a mediator discovery.
+
+**Current disposition:** Biological mediator and endpoint required. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Can a measured fibroblast output and a linked epithelial recovery endpoint be nominated for a test beyond comparable inflammatory input? |
-| Strongest rival | Source amount, survival or shared inflammation explains the association rather than activity per fibroblast. |
 | Biological unit and endpoint | Donor/preparation-resolved fibroblast–epithelial systems. The immediate endpoint is a nomination record with a measured output, independent recovery measurement, units and temporal linkage; no mediator is selected merely to fill the package. |
 | Current evidence and limit | The twelve-triad TGF-hallmark/HPCS-proxy pilot worsened RMSE and models performed poorly against baseline. It establishes neither feedback nor that all fibroblast programmes are uninformative. |
 | Next decision / hold | Review is deferred. Keep the causal branch held until a qualified output/endpoint pair exists; another hallmark score does not rescue the negative proxy result. |

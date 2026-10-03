@@ -1,16 +1,18 @@
 # A16: does CD177 identify a priming phenotype within comparable mutant cells?
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+Epithelial CD177 protein may identify a priming phenotype within comparable mutant transitional cells that differs in a later response. It is a candidate marker, not a proposed causal fate regulator. Source/protein attribution and one specific later response still need qualification; the corrected RNA comparison attenuated after improved starting-state matching.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** State markers and mutant epithelial heterogeneity are precedents. A prospective, source-validated marker contribution is possible, but the missing response prevents a complete novelty judgment. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a16).
+
+**What the measurements would decide:** Confirmed epithelial protein followed by a later response difference within comparable baseline states supports marker utility. Disappearance after source or state control favors contamination or mixture. Endpoint RNA differences alone do not show priming, and CD177 perturbation would ask a different causal question.
+
+**Current disposition:** Protein attribution and later endpoint required. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does verified epithelial CD177 protein identify a later response difference within a comparable starting mutant state? |
-| Strongest rival | Non-epithelial source, unequal starting states or an already active response explains the marker association. |
 | Biological unit and endpoint | Source/genotype-identified epithelial populations nested in animal/preparation units. First qualify protein localization and specificity; nominate one later response and denominator before testing, keeping expansion, survival and switching distinct. |
 | Current evidence and limit | Corrected matching attenuates the RNA association and leaves residual imbalance. It does not establish intrinsic priming, complete exclusion of contamination or a later lineage advantage. |
 | Next decision / hold | Scientific review is deferred. Hold later-response fitting until a valid baseline marker and linked endpoint are available; the existing residual does not establish a causal CD177 role. |

@@ -1,16 +1,18 @@
 # A11: lesion-associated programme beyond shared plasticity
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+The frozen lesion-associated residual component may contain reproducible lesion-context information beyond the specified shared developmental/injury and stress explanations. It is a set-defined measurement, not an identified cancer-specific state or mechanism. The paired-patient beyond-shared criterion remains unresolved, and no lesion-relevant functional mediator is nominated.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** HPCS, regenerative overlap and stress-associated plasticity have close published precedents. A disjoint gene list alone is not novelty; the exact incremental information and biological value remain unresolved. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a11).
+
+**What the measurements would decide:** A stable patient-level increment against the frozen shared/stress comparison could support measurement utility. Comparable recruitment in matched non-neoplastic injury or no increment favors shared plasticity. Preserve the beyond-shared BH q=0.0547 result; this comparison cannot establish causal lesion specificity.
+
+**Current disposition:** Measurement contribution unresolved. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does the fixed disjoint residual component add lesion-context information beyond the shared component and an independently defined stress comparator? |
-| Strongest rival | Generic stress, state mixture or labeling accounts for the residual association. |
 | Biological unit and endpoint | Independent patients with source-supported pairing and comparable injury controls. The proposed discriminator is held-out patient log-loss improvement over the same shared/stress baseline; patients define holdouts, not cells. |
 | Current evidence and limit | Lesion association is supported across eight patients, but the beyond-shared test remains unresolved at q = 0.0547. The three-donor injury comparison does not establish injury specificity. |
 | Next decision / hold | Exact residual novelty and comparator validity await scientific review. Keep the lists fixed and preserve the unresolved result; no cancer-specific mechanism or biomarker acceptance follows from the measurement definition. |

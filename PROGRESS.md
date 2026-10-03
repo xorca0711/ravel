@@ -2,7 +2,23 @@
 
 **Update this before stopping work, every session.**
 
-## Current Nb5 RQ derivation on 3 October 2026
+## Current Nb5 integration and PR preparation on 3 October 2026
+
+The owner requested a fresh fetch, alignment and PR. Latest main is `073a69a`
+(PR #134). Its canonical RQ specificity updates are incorporated; Nb5 P03 remains
+consistent with A3's requirement for a nominated macrophage programme and
+functional consequence, both still unresolved. The only merge conflict was this
+progress file; both prior histories are retained below.
+
+The [Nb5 package](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md)
+includes source qualification, completed exploratory extensions, eleven captioned
+figure plates and eight provisional RQ derivations. P02's state/mixture fit and
+independent animal-level qualification remain unfinished; scientific acceptance
+and global RQ registration remain separate. Required checks and PR publication
+are being completed. The primary checkout's unrelated edits and private files
+remain unchanged. Historical checkpoints below retain their original scope.
+
+## Earlier Nb5 RQ derivation checkpoint on 3 October 2026
 
 Owner-authorized [provisional derivations](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/README.md)
 now cover all eight article branches. Each records observation, biological gap,
@@ -201,6 +217,94 @@ Current checkpoint: 3 October 2026. PRs #130–#132 are merged; current integrat
 main is `bf7d7166887fb4207eb4582f41925a565a327dbf`. This documentation follow-up
 uses `codex/rq-readme-alignment`. Scientific acceptance remains separate.
 
+## Integrated RQ specificity history from PR #134
+
+Current checkpoint: 3 October 2026. PRs #130–#133 are merged; refreshed integrated
+main is `537eec83fe102a7eaa3e3f34a7f6b48cf852be15`. The requested novelty/specification
+application uses `codex/rq-novelty-specificity`. Scientific acceptance remains separate.
+
+## Current application: specific biology and literature boundaries
+
+The owner requested a latest-remote check, a novelty check of the proposed
+repairs and application. Earlier dossier, source and README PR work was reused.
+The [application/source ledger](docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md)
+records bounded fresh checks and inherited coverage for all 24 RQs.
+
+The canonical development paragraphs, all 24 dossier/package hypotheses and
+17 dedicated README blocks now preserve named biology and distinguish outcome
+patterns. Missing features/mediators/endpoints are explicit. Published premises
+are not presented as new mechanisms: Ciminieri constrains A14; Lv adds a closer
+A23 repair precedent. A23 is narrowed to entry versus delayed exit. A4/Fzd5
+entry gating is not adopted; A19/Fzd5 remains a candidate input only.
+
+Historical README bodies, frozen scientific assets, source contracts, registry,
+claim grades and adverse results are preserved. No biological pipeline ran.
+The original atlas and earlier specificity proposal remain historical drafts.
+Actual access remains unconfirmed; no RQ is selected or certified novel.
+
+Remaining: owner scientific/integration review, nomination of missing biological
+contrasts/endpoints, exact A23 contribution review, existing
+source/outcome evidence holds, A17 technical qualification and later laboratory
+implementation. Repository validation passed 8,390 checks and the research gate
+passed against `origin/main`; alignment and history-preservation checks passed.
+The previous full ten-check suite remains applicable to unchanged code
+(134 tests, one existing skip). Final fetch confirmed the same main revision.
+The scoped branch is ready for a separate owner PR review; no merge is performed.
+
+## Earlier review: one-line framing rejected as too broad
+
+The owner rejected the usefulness of the visual atlas's one-line questions and
+generic assay descriptions. The [specificity review](docs/research_dossiers/RQ_SPECIFICITY_REVIEW_2026-10-03.md)
+confirms that the summaries removed biological details present in several
+original cards and sometimes replaced the organizing hypothesis with a
+measurement or evidence-recovery task. Rendering and schema checks did not
+validate the scientific usefulness of those descriptions.
+
+The review proposes repairs for all 24 questions and works through A4, A19, A20,
+A14 and A23 in detail. Newly proposed narrowings are distinguished from restoring
+existing biology. Canonical questions, source packages, scientific evidence and
+claim grades remain unchanged. This is the requested review/proposal stage; the
+new candidates have not been adopted and no RQ has been selected. The earlier
+atlas remains a historical explanatory draft, not the current hypothesis
+specification. No further figure generation or biological analysis was run.
+
+Next implementation: revise each biological hypothesis and opposing prediction
+from its source evidence, align the dossier and local README, and only then
+redraw the actual contrast. Nominate missing biological features/endpoints rather
+than hiding them behind generic assay names. Preserve negative results and all
+existing evidence/access gates. Actual access remains unconfirmed; a full
+24-question novelty review was not performed in this framing audit.
+
+
+## Earlier visual explanation companion — framing rejected
+
+The owner requested biological schematics because the reframed decision tables
+remained difficult to translate into hypotheses and measurements. A private task
+companion now covers A0–A23: 24 original hypothesis/rival diagrams, three reading
+guides, editable SVGs, PDF/PNG previews, an offline question gallery, source-linked
+captions, conditional model/assay examples and a Claude Science/BioRender handoff.
+The handoff includes the existing private lab-direction comparison locator.
+
+These are illustrative explanations of the existing drafts, not analytical data
+figures, new scientific results, completed experimental designs or accepted
+mechanisms. They distinguish prediction and measurement qualification from causal
+questions, retain unknown endpoints and adverse results, and incorporate the
+later A4 denominator and A17 observation-model qualifications. The supplied image
+was a style reference only. No BioRender access or actual lab access is asserted.
+
+The companion is delivered through task artifacts rather than the research
+evidence registry. Its source snapshot is pinned to the integrated revision above;
+55 referenced repository files were checked against that revision. All 27 pages
+were rendered and visually inspected, and local assets, PDF text/links and SVG
+syntax were checked. No biological analysis was rerun. Scientific/assay review,
+novelty acceptance and the previously documented evidence holds remain pending or
+deferred. Incorporating figures into research evidence must follow the existing
+governance and provenance requirements; this delivery does not relax those gates.
+
+All ten required repository checks passed for this checkpoint, including 134
+tests with one existing skip. The progress entry is the only repository change.
+
+
 ## RQ entrypoint alignment
 
 The owner identified that local RQ READMEs still led with the older broad scope
@@ -224,8 +328,8 @@ The owner has deferred scientific review and placement-dependent work. The
 is complete for the inspected sources: existing source/output audits were reused,
 both Rochelle HDF5 structures were inspected, and all 13 mapping dependencies
 have explicit evidence holds and reopening conditions. No new biological join or
-analysis eligibility was invented. PR #132 was merged by the owner; this README
-alignment has its own review/merge step.
+analysis eligibility was invented. PRs #132 and #133, including the README
+alignment, were merged by the owner.
 
 The source-recovery task is closed within the inspected scope. This follow-up
 resolves the separate RQ entrypoint documentation gap. Further scientific review, A17 technical/model qualification, new-data
@@ -264,8 +368,10 @@ All ten required local checks passed, including 134 tests with one existing skip
 
 ## Exact next work
 
-1. Owner review/merge of this RQ README alignment; PR #132 is already merged.
-2. Resume the deferred scientific and A17 technical review only when requested.
+1. Develop the proposed specificity repairs before regenerating the visual
+   companion; PR #133 remains merged and the canonical questions are unchanged.
+2. The owner requested the present framing review; full novelty/assay review
+   and A17 technical execution retain their separately documented scope.
 3. Reopen a mapping hold only for the specific new evidence in the
    [closeout](docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
 4. Confirm actual resources and qualify bench-specific designs in the placement

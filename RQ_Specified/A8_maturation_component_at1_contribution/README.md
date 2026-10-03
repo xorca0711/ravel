@@ -1,19 +1,21 @@
 # A8: does a maturation component add information about mature AT1 contribution?
 
 <!-- current-rq-framing:start -->
-## Current research framing — 3 October 2026
+## Current biological hypothesis and novelty boundary — 3 October 2026
 
-**Proposed development scope; scientific review remains deferred.** The
-question card owns the registered question. The dossier/package develop its
-next discriminator; the linked result owns what has actually been measured.
+An early, frozen maturation-associated RNA component may identify AT2 descendants that later contribute mature AT1 cells beyond information in the shared transition component. The additional claim is prospective information about independent later mature output, not that the score is fate or that one marker causes maturation. The component remains unchanged and the early-to-later biological-unit link is still missing.
 
-| Decision element | Current question-specific summary |
+**What is already known, and what remains:** Transition and AT1 differentiation programmes are established. The fixed component needs an independently linked incremental prediction test; a differently named score is not biological novelty. [Primary-source comparison](../../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a8).
+
+**What the measurements would decide:** Improved prediction of later mature output on held-out biological units supports the component as an early indicator. No stable increment weakens it. Identity, lineage and function require independent endpoints; contemporaneous RNA or MYRF expression cannot substitute for mature AT1 contribution.
+
+**Current disposition:** Prediction question; linked endpoint held. This revision specifies proposed work; scientific acceptance, model access and assay qualification remain pending.
+
+| Evidence and implementation | Current boundary |
 |---|---|
-| Proposed discriminator | Does the frozen early candidate RNA component improve prediction of later mature epithelial output beyond a fixed shared-transition comparator? |
-| Strongest rival | Endpoint leakage, contemporaneous identity, generic stress or composition explains the increment. |
 | Biological unit and endpoint | Independent lineage-defined animal/donor preparations. Evaluate held-out prediction error for absolute mature descendants per starting AT2 input, with survival and total yield separate; RNA alone cannot define the mature outcome. |
 | Current evidence and limit | The 119-gene overlap analysis is a measurement diagnostic. MYRF is not AT1-specific. Rochelle donor/stage and scaffold library labels improve provenance but do not establish the missing early-to-later functional join. |
-| Next decision / hold | Review is deferred; M09 retains the linkage hold. Reopen for verified preparation/lineage and timing relationships with an independent mature endpoint. A concurrent association needs its own narrower scope. |
+| Next decision / hold | Scientific acceptance is pending; M09 retains the linkage hold. Reopen for verified preparation/lineage and timing relationships with an independent mature endpoint. A concurrent association needs its own narrower scope. |
 
 **Read in this order:** [current evidence](../A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md),
 [development dossier](../../docs/research_dossiers/A8.md),
