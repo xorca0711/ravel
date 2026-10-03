@@ -101,4 +101,29 @@ Every caption passed mechanical checks for canvas bounds and separation from
 plots, title and source attribution. All six PNGs were visually inspected.
 The combined PDF has six pages, each containing extractable rationale and
 results text. No new biological analysis or extension was executed. Current
-repository verification for this edition is recorded below after registration.
+repository verification for this edition passed all ten required checks,
+including 123 tests (one existing skip), 7,963 repository checks and the
+research gate. Version 2 is superseded for presentation by version 3 below.
+
+
+## Compact caption edition on 3 October 2026
+
+The owner found the v2 caption paragraphs too long. The committed
+[v3 contract](config/figures_v3.json) therefore limits embedded captions to
+short footnotes modeled on neighboring Nb2/Nb4 figures. Expanded explanations
+remain in the gallery. The [verified receipt](../../analysis/research/runs/nb5_figures_v3/receipt.json)
+binds the new renderer and caption module to unchanged input tables; v1 and v2
+are preserved. The frozen renderer's panel-calculation AST matches v1 exactly,
+excluding export metadata. No biological analysis or extension was rerun.
+
+All six PNGs were visually inspected: captions occupy 2–3 lines at 9 points,
+with 39–51 words. Mechanical bounds and panel-separation checks passed for all
+plates. PNG metadata is 300 dpi, and all six compact captions are extractable
+from the six-page PDF. The layout reuses the existing bottom margin and adds
+only the space necessary; plot physical dimensions are preserved.
+
+The preceding full check suite remains valid for unchanged tests and archived
+analyses. Final checks for the new renderer, registered receipt and gallery
+links are recorded below. Generated SVG path serialization contains trailing
+spaces; immutable SVG output bytes are retained. Whitespace checking is scoped
+to authored Markdown, Python and JSON.

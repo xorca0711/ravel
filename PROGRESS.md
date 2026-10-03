@@ -40,11 +40,13 @@ GitHub settings, Notion and owner merge decisions are unchanged.
 
 ## Figure captions and extension assessment on 3 October 2026
 
-The owner requested biological rationale and results inside each PNG. The
-caption-complete v2 edition now covers all six PNG/SVG/PDF plates, with original
-panel calculations unchanged and version 1 preserved. The figure gallery
-points to v2. The receipt, layout checks, visual inspection of every PNG and
-six-page PDF text checks passed; no biological analysis was rerun.
+The owner requested biological rationale and results inside each PNG, then
+asked for shorter captions matching established article figures. Current v3
+uses 2–3-line, 39–51-word captions at 9 points; detailed explanations remain in
+the gallery. All six PNG/SVG/PDF plates are updated, with numerical panel logic
+unchanged and v1/v2 preserved. The receipt, layout checks, visual inspection of
+every PNG and six-page PDF caption checks passed. No biological analysis was
+rerun; the execution ledger records final verification.
 
 The article's extension assessment concludes that targeted work is plausible
 before formal RQ derivation: mouse influence, common-denominator composition
