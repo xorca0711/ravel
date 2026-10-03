@@ -2,9 +2,38 @@
 
 **Update this before stopping work, every session.**
 
-Current checkpoint: 3 October 2026. PRs #130–#132 are merged; current integrated
-main is `bf7d7166887fb4207eb4582f41925a565a327dbf`. This documentation follow-up
-uses `codex/rq-readme-alignment`. Scientific acceptance remains separate.
+Current checkpoint: 3 October 2026. PRs #130–#133 are merged; fetched integrated
+main is `537eec83fe102a7eaa3e3f34a7f6b48cf852be15`. This explanatory follow-up
+uses `codex/rq-visual-explanation`. Scientific acceptance remains separate.
+
+## Visual explanation companion
+
+The owner requested biological schematics because the reframed decision tables
+remained difficult to translate into hypotheses and measurements. A private task
+companion now covers A0–A23: 24 original hypothesis/rival diagrams, three reading
+guides, editable SVGs, PDF/PNG previews, an offline question gallery, source-linked
+captions, conditional model/assay examples and a Claude Science/BioRender handoff.
+The handoff includes the existing private lab-direction comparison locator.
+
+These are illustrative explanations of the existing drafts, not analytical data
+figures, new scientific results, completed experimental designs or accepted
+mechanisms. They distinguish prediction and measurement qualification from causal
+questions, retain unknown endpoints and adverse results, and incorporate the
+later A4 denominator and A17 observation-model qualifications. The supplied image
+was a style reference only. No BioRender access or actual lab access is asserted.
+
+The companion is delivered through task artifacts rather than the research
+evidence registry. Its source snapshot is pinned to the integrated revision above;
+55 referenced repository files were checked against that revision. All 27 pages
+were rendered and visually inspected, and local assets, PDF text/links and SVG
+syntax were checked. No biological analysis was rerun. Scientific/assay review,
+novelty acceptance and the previously documented evidence holds remain pending or
+deferred. Incorporating figures into research evidence must follow the existing
+governance and provenance requirements; this delivery does not relax those gates.
+
+All ten required repository checks passed for this checkpoint, including 134
+tests with one existing skip. The progress entry is the only repository change.
+
 
 ## RQ entrypoint alignment
 
@@ -29,8 +58,8 @@ The owner has deferred scientific review and placement-dependent work. The
 is complete for the inspected sources: existing source/output audits were reused,
 both Rochelle HDF5 structures were inspected, and all 13 mapping dependencies
 have explicit evidence holds and reopening conditions. No new biological join or
-analysis eligibility was invented. PR #132 was merged by the owner; this README
-alignment has its own review/merge step.
+analysis eligibility was invented. PRs #132 and #133, including the README
+alignment, were merged by the owner.
 
 The source-recovery task is closed within the inspected scope. This follow-up
 resolves the separate RQ entrypoint documentation gap. Further scientific review, A17 technical/model qualification, new-data
@@ -69,7 +98,7 @@ All ten required local checks passed, including 134 tests with one existing skip
 
 ## Exact next work
 
-1. Owner review/merge of this RQ README alignment; PR #132 is already merged.
+1. Use the visual companion to clarify the existing drafts; PR #133 is already merged.
 2. Resume the deferred scientific and A17 technical review only when requested.
 3. Reopen a mapping hold only for the specific new evidence in the
    [closeout](docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
