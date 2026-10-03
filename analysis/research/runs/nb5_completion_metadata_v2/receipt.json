@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P02.completion_metadata_v2",
+  "owner": "Nb5-P02",
+  "contract": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json",
+  "contract_sha256": "c057bde1bffa329bcb93ad92cc8cc93bb61b7850242d659deb10ab4a439e8844",
+  "git_commit": "e25a107c1c49746f5557ec088ce4f34787222489",
+  "started_at": "2026-10-03T09:33:15.340568+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/13_completion_metadata_v2.py",
+    "--output",
+    "analysis/research/runs/nb5_completion_metadata_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/official_brain.h5ad",
+      "sha256": "73c1b7c4c4045db26df384fd226c6bd248cfbb822d540d9c968bd8ce6f051f66",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/full_metadata.csv",
+      "sha256": "aa7e2d1b98462e43dec23970cf97dcdbe2b377ef6a8e9c155cf20e1f16ffaed3",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/facs_raw_metadata.csv",
+      "sha256": "d7d5dd1aad2deae320b31686e5cadb4ce539e8d5908c7beeaac87106b36c5c51",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/facs_processing.ipynb",
+      "sha256": "b51c584fe8332daad00ae6bd563e13266a1bcae58a7da3878e055cd19588b099",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/bbknn_processing.ipynb",
+      "sha256": "2990a55a5134fd13faf694b9c1df19480b521322679e26ed07492e62ef9567cc",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/data_objects_listing.xml",
+      "sha256": "5529fa797117e40242b13f797c2ed61ff0620b884a2b7971944399a8d164db80",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/metadata_listing.xml",
+      "sha256": "744571a4947f07bb5d1f90e55d9b28a8afe604cc06ec8299d217ade60c8a2d33",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/acquisition_manifest.json",
+      "sha256": "e7e3f4e4ed70cb1a2409c441433e04e5197c7775834d0f489a3c4b649c574a80",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/facs.Brain_Myeloid.clustered_diversity.h5ad",
+      "sha256": "c157f0865bf39ce43504c674fd4d8f8dfe62644fe6b795b2e901d38c64dc48e3",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_cells.tsv",
+      "sha256": "abeadb6d45f37077f52158cd7c194af35dae7db97d19af83fa9146bdc9feb5a1",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v3/cell_metadata.tsv",
+      "sha256": "78c04b72dfb2b3cbe5ea634a2a4fac7cd21c0bf8686a7f6e74024cbd5a55c01c",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/13_completion_metadata_v2.py",
+      "sha256": "5349f65e727c055905e668501760854dfd526b7ff1aab87598892d6431bfe4d5"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/brain_cells.tsv",
+      "sha256": "83105b32ebc058989bab6cea81f1534cb09328dcd1ac5efb6689cc860ca1306b"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/brain_layers.tsv",
+      "sha256": "2d5f500cf4f3c5da7604634b694d584f7bd4be7fea5054927ca6a20a43e57d7f"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/case_brain_join.tsv",
+      "sha256": "825bcff756c6f334b548ad709f3693970f6944fae0a225e3edcb9cc2b33f5f2d"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/brain_design.tsv",
+      "sha256": "2485c4df9163033bc18c5ca6f325d7c0fe6cb708cc03a59486f1669aa2f11dcd"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/brain_covariates.tsv",
+      "sha256": "3d4e34facbc0b3e7842d826c190f86667b59442f06c5ced3139a6e884d9f3c2c"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/repertoire_annotation_join.tsv",
+      "sha256": "ba90c14565e5b5b71e6fc17ca73820926a34030764cf25229044b20d79e56241"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/repertoire_subtype_support.tsv",
+      "sha256": "89fe58a258a113346c60f37dbd7cc25c54e213ebbf7b2f984f838b67590ef27b"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/kidney_annotation_join.tsv",
+      "sha256": "4c7a200c6ca9672b62910b7df8bd94e722bc47f7d78d9452027ec7912c148321"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/kidney_annotation_support.tsv",
+      "sha256": "1ee23028eeff04e446fa0a579fd2c11cc9349eb68a605ad7f28b68e6ad07c6a7"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/qualification.json",
+      "sha256": "be518d349fe9b85e83845bef786378c702d549a8ab39e14cea3c8b7537ba8b1a"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T09:33:41.386118+00:00"
+}

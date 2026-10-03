@@ -444,7 +444,8 @@
     "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
     "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json",
     "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
-    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/subtype_biological_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -470,7 +471,8 @@
     "analysis/research/runs/nb5_repertoire_biological_v1/receipt.json",
     "analysis/research/runs/nb5_biological_figures_v1/receipt.json",
     "analysis/research/runs/nb5_biological_figures_v2/receipt.json",
-    "analysis/research/runs/nb5_completion_metadata_v1/receipt.json"
+    "analysis/research/runs/nb5_completion_metadata_v1/receipt.json",
+    "analysis/research/runs/nb5_completion_metadata_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
