@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "direct_CSR_Cdkn2a_and_Counter_composition",
+      "dataset": "Bladder_droplet",
+      "units": 8,
+      "passed": true
+    },
+    {
+      "check": "direct_CSR_Cdkn2a_and_Counter_composition",
+      "dataset": "Brain_Myeloid_facs",
+      "units": 10,
+      "passed": true
+    },
+    {
+      "check": "direct_CSR_Cdkn2a_and_Counter_composition",
+      "dataset": "Kidney_droplet",
+      "units": 16,
+      "passed": true
+    },
+    {
+      "check": "direct_CSR_Cdkn2a_and_Counter_composition",
+      "dataset": "Lung_droplet",
+      "units": 15,
+      "passed": true
+    },
+    {
+      "check": "direct_CSR_Cdkn2a_and_Counter_composition",
+      "dataset": "Lung_facs",
+      "units": 10,
+      "passed": true
+    },
+    {
+      "check": "case_microglial_source_count",
+      "dataset": "facs.Brain_Myeloid.clustered_diversity",
+      "values": {
+        "3": 4488,
+        "18": 4375,
+        "24": 4267
+      }
+    },
+    {
+      "check": "fraction_times_positive_mean_equals_unconditional_mean",
+      "rows": 17777,
+      "maximum_absolute_residual": 5.684341886080802e-14,
+      "passed": true
+    }
+  ],
+  "scope": "Independent arithmetic routes on reused data; not independent biological replication."
+}

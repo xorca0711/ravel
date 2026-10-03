@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P06.subtype_biological_v1",
+  "owner": "Nb5-P06",
+  "contract": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/subtype_biological_v1.json",
+  "contract_sha256": "f7c7165e76cbeb405194279337627e10047b9dc1f037ac372d4b64f5b02513c6",
+  "git_commit": "9b2a2c8977f9320a2fc93d91e1a053d27e8afc25",
+  "started_at": "2026-10-03T09:39:01.487023+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/14_repertoire_subtypes_v1.py",
+    "--output",
+    "analysis/research/runs/nb5_subtype_biological_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/repertoire_annotation_join.tsv",
+      "sha256": "ba90c14565e5b5b71e6fc17ca73820926a34030764cf25229044b20d79e56241",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/14_repertoire_subtypes_v1.py",
+      "sha256": "0dc32b20f21f139e56eed10bd4ba7dbddcfb331a0f8d56b3adef05d52f3a5230"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/09_biological_extensions_v1.py",
+      "sha256": "81f5a215ff86c523be8ca5628babfbc8a8ea378e4350d4888e766dde79f18ecc"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/11_extension_figures_v2.py",
+      "sha256": "6f16e4f36424c818ebbd8cf16f92ab3dd19f6207018608ccdf97bea51b3c6457"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/cohort_annotation_coverage.tsv",
+      "sha256": "2457e99b4e1a7de3b2c0530806b4ebb4c1d97fc09a098bcbe4b3121d5551bdee"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/subtype_support.tsv",
+      "sha256": "de718884fc685e23b181dc0af9051d7d89db18962c16e22158b3b23bf7220a69"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/subtype_mouse.tsv",
+      "sha256": "ff8d595399699762f23f451ffd68fa217182a456ff0ba616d65e66ad3e63a234"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/subtype_summary.tsv",
+      "sha256": "8c9d136fc3ae2980b34b2358ac80398573f27297e954546b9e8ba3f2b4ccfa58"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/subtype_contrasts.tsv",
+      "sha256": "ff80e34cf14c31c16a7f4f69c3e0d6bd1afb1f3dcd528212142ff3761c67dfb3"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/leave_one_mouse_out.tsv",
+      "sha256": "b1b61010ceca54d8dddfe6ffe32c644eacc3f233e4c152866490c9e567411f2f"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/verification.json",
+      "sha256": "a89c154eca324fc1013f47de74506a2192842de35077dfdab2eb505a7df059c8"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/figure_manifest.json",
+      "sha256": "fdf6fe9e01c07ff4650e2b6949829520cf8dad03e7dd5452a60471c9475f947b"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/11_subtype_repertoire.png",
+      "sha256": "4a764aec621276cac964a79fb11561c613d8214c7cc61749c8001a3b3803c70a"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/11_subtype_repertoire.svg",
+      "sha256": "931035847d962e6ee8d21ea13729c81b32ad9dcbc411ed9a318ab5b8a926f268"
+    },
+    {
+      "path": "analysis/research/runs/nb5_subtype_biological_v1/11_subtype_repertoire.pdf",
+      "sha256": "71496dd37f113770397c3b09dc42be5a89cd03b40610e8860ca3edfa991cc6df"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T09:39:08.962000+00:00"
+}

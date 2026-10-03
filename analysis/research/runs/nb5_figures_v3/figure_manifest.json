@@ -1,0 +1,115 @@
+{
+  "figures": [
+    {
+      "stem": "01_design_and_release",
+      "title": "Design support and source-release concordance",
+      "size_inches": [
+        10.2,
+        7.4
+      ],
+      "png_dpi": 300,
+      "caption": "Ageing comparisons require design and release checks. All 73 source records join, but 47 cell totals differ; 24-month females and lung droplet samples are absent. Tissues and brain releases overlap. Two pooled lung libraries are excluded from individual-mouse counts.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "text_inside_canvas": true,
+        "font_points": 9,
+        "lines": 2,
+        "words": 39,
+        "added_height_inches": 0.0
+      }
+    },
+    {
+      "stem": "02_captured_composition",
+      "title": "Captured-cell composition and sampling sensitivity",
+      "size_inches": [
+        10.2,
+        7.899418185763888
+      ],
+      "png_dpi": 300,
+      "caption": "To assess tissue remodelling, captured bladder fractions are compared by mouse. From 3 to 24 months, urothelial cells increase (44.0% to 75.9%) and mesenchymal cells decrease (50.3% to 15.7%). These are captured proportions, not absolute abundance. Points: mice; bars: means; triangles: females.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "text_inside_canvas": true,
+        "font_points": 9,
+        "lines": 3,
+        "words": 42,
+        "added_height_inches": 0.09941818576388806
+      }
+    },
+    {
+      "stem": "03_microglial_source_states",
+      "title": "Deposited microglial cluster-label audit and animal-level occupancy",
+      "size_inches": [
+        12.2,
+        7.5
+      ],
+      "png_dpi": 300,
+      "caption": "Microglial heterogeneity is assessed through deposited clusters: blue, 1/6; orange, 10/12/14; grey, others. From 3 to 24 months, occupancy shifts from 58.7% to 6.9% (blue) and 0.5% to 6.8% (orange). Final-paper cluster mapping remains unresolved; UMAP establishes no trajectory. D/E: mouse points and means; triangles: females.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "text_inside_canvas": true,
+        "font_points": 9,
+        "lines": 2,
+        "words": 46,
+        "added_height_inches": 0.0
+      }
+    },
+    {
+      "stem": "04_marker_endpoints",
+      "title": "Marker frequency, conditional expression and composition accounting",
+      "size_inches": [
+        12.2,
+        7.736418185763888
+      ],
+      "png_dpi": 300,
+      "caption": "Separate RNA endpoints assess detection, expression intensity and composition. Lung Cdkn2a detection increases from 0.65% to 1.42% (3 to 24 months). RNA establishes neither senescence nor secretion. Points: mice; bars: means; triangles: females. D compares all captured cells with an equal-type reference restricted to shared types.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "text_inside_canvas": true,
+        "font_points": 9,
+        "lines": 3,
+        "words": 46,
+        "added_height_inches": 0.03641818576388811
+      }
+    },
+    {
+      "stem": "05_repertoire_sampling",
+      "title": "T-cell clonal-family fractions and sampling sensitivity",
+      "size_inches": [
+        10.2,
+        7.727418185763889
+      ],
+      "png_dpi": 300,
+      "caption": "To assess sampling effects on apparent clonal expansion, older mice retain higher T-cell clonality after standardizing to 60 reconstructed cells. Tissue sampling and reconstruction remain alternative explanations; clonality does not measure immune function. B\u2013D: mouse points and means; sex is not encoded.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "text_inside_canvas": true,
+        "font_points": 9,
+        "lines": 3,
+        "words": 42,
+        "added_height_inches": 0.12741818576388908
+      }
+    },
+    {
+      "stem": "06_fixed_marker_context",
+      "title": "Within-population marker differences and sex sensitivity",
+      "size_inches": [
+        10.8,
+        6.5
+      ],
+      "png_dpi": 300,
+      "caption": "Fixed markers assess whether age-associated RNA changes agree across resident immune populations. Il1b detection directions differ across tissues, and the kidney direction reverses in the male-only subset. Values: 24 minus 3 months, in percentage points; n: young/old mice. Different populations, assays and reused mice preclude independent replication or a conserved-mechanism claim.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "text_inside_canvas": true,
+        "font_points": 9,
+        "lines": 3,
+        "words": 51,
+        "added_height_inches": 0.0
+      }
+    }
+  ],
+  "source_run": "analysis\\research\\runs\\nb5_descriptive_v1",
+  "style_reference": "Nb4 rq_sequence_v2: white background, labeled panels, mouse points, vector exports; no significance stars",
+  "limits": "Version 3 replaces long v2 captions with compact purpose/result/limit footers; extended explanations remain in the gallery. All numerical panels are unchanged; prior editions remain archived. No scientific acceptance."
+}

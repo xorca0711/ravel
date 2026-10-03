@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P06.subtype_biological_v1",
+  "owner": "Nb5-P06",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does the older local clone concentration persist within the same source CD4/CD8 annotation in thymus, spleen and marrow?",
+  "decision": "Determine whether CD4/CD8 mixture alone remains sufficient for the tissue-local observation, while retaining unresolved finer states and receptor recovery as rivals.",
+  "strongest_rival": "Older tissues differ in CD4/CD8 proportions and reconstructed cell yield, rather than repeated sequences concentrating within a comparable annotated population; source labels and finer T-cell states may also differ.",
+  "discriminator": "Equal-mouse within-annotation clone repetition, conditional common-depth expectation and every single-mouse deletion, including unfavorable contrasts and all unsupported tissue/subtype strata.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P06_clonality_sampling.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_ASSESSMENT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper results, earlier whole-atlas and tissue-local clone outcomes, and the two source recovery runs are exposed. Per-age subtype cell and mouse counts were inspected for feasibility; subtype clone endpoints have not been calculated. CD4 and CD8 broad ontology classes and the prior three focal tissues define this bounded follow-up. This is descriptive exposed analysis, not confirmation.",
+  "biological_unit": "Mouse; cells and repeated sequences are nested within mouse, tissue and source ontology annotation.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated tissue and assay samples and the general versus Figure 4 brain objects reuse mice/cells. IDs use different source formats. No cross-organ independence, canonical cross-assay identity resolution or external replication is asserted.",
+  "population_and_selection": "Exactly the previous 6000 mapped repertoire rows; exclude the 11 previously unassigned rows from biological contrasts even if later bridged. Examine the Cartesian product of Thymus/Spleen/Marrow and source CD4-positive, alpha-beta T cell / CD8-positive, alpha-beta T cell. Retain full annotation coverage and all six support outcomes.",
+  "contrast": "18 versus 3 and 24 versus 3 months within each supported tissue and exact broad CD4/CD8 annotation, with equal mouse weighting.",
+  "endpoint": "Fraction of reconstructed cells belonging to a clone repeated within the same mouse, tissue and CD4/CD8 annotation; expected fraction after conditional common-depth sampling without replacement.",
+  "methods": "Clone identities and missing-clone singletons are inherited from frozen v2 and reconstructed exactly before restriction. Define clone repetition anew within mouse/tissue/subtype. Eligibility requires at least two mice at every age and a common depth of at least two reconstructed cells, using the minimum observed cell count across all included mice at all three ages. These are mathematical eligibility rules, not precision justification. Report every mouse, equal-mouse means, both age differences, min/max and all single-mouse deletions retaining original fixed depth. Analytic hypergeometric expectation is verified by exhaustive small-sample enumeration. No tests, fitted aging curves, imputed labels or receptor detection adjustment. Render all eligible strata with source-matched current figure style and compact embedded caption.",
+  "missingness_and_exclusions": "Unmatched metadata, other ontology labels, unsupported age strata and formerly unassigned rows remain explicit in coverage/source reports. Exact broad ontology agreement does not harmonize activation/memory states. No relabeling to rescue a missing comparison.",
+  "multiplicity": "Six fixed tissue/subtype strata, two endpoints and two age contrasts, plus every single-mouse deletion; retain all eligible outcomes without significance ranking. No p-values or confirmatory claim.",
+  "precision_status": "unknown",
+  "precision_basis": "Small existing mouse groups and sparse type/tissue cells; display animal estimates and deletion influence. No invented margin, power or independence across organs.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Reconstructed sequence repetition conditional on annotation and capture is not absolute expansion, migration or immune function. CD4/CD8 restriction does not control naive/memory/activation-state composition, source annotation error or age-dependent receptor recovery. Tiny common depths limit discrimination; reused source mice are not external validation.",
+  "stop_rule": "Stop on source identity/cohort or clone-size reconstruction failure. Unsupported tissue/subtype combinations remain held; do not merge labels or lower eligibility rules after seeing results.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/repertoire_annotation_join.tsv",
+      "sha256": "ba90c14565e5b5b71e6fc17ca73820926a34030764cf25229044b20d79e56241",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/14_repertoire_subtypes_v1.py",
+      "sha256": "0dc32b20f21f139e56eed10bd4ba7dbddcfb331a0f8d56b3adef05d52f3a5230"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/09_biological_extensions_v1.py",
+      "sha256": "81f5a215ff86c523be8ca5628babfbc8a8ea378e4350d4888e766dde79f18ecc"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/11_extension_figures_v2.py",
+      "sha256": "6f16e4f36424c818ebbd8cf16f92ab3dd19f6207018608ccdf97bea51b3c6457"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/14_repertoire_subtypes_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cohort_annotation_coverage.tsv",
+    "subtype_support.tsv",
+    "subtype_mouse.tsv",
+    "subtype_summary.tsv",
+    "subtype_contrasts.tsv",
+    "leave_one_mouse_out.tsv",
+    "verification.json",
+    "figure_manifest.json",
+    "11_subtype_repertoire.png",
+    "11_subtype_repertoire.svg",
+    "11_subtype_repertoire.pdf"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/repertoire_biological_v1.json",
+  "amendment_reason": "New exact official atlas joins recover source CD4/CD8 labels absent from Table 9 metadata, enabling a prespecified narrower biological comparison. Preserve tissue-local v1 results and source-recovery v1/v2."
+}

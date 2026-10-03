@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.figures_v2",
+  "owner": "Nb5-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Can each exported research figure stand alone with an embedded biological rationale, panel definitions, observed results and interpretation limits?",
+  "decision": "Replace the current gallery with a caption-complete visual edition while preserving version 1 and every numerical analysis.",
+  "strongest_rival": "Pooled cells, missing design strata, changing denominators or unverified source labels can look convincing when rendered without unit and selection context.",
+  "discriminator": "Display individual mice, source versus released counts, cell-weighted and mouse-weighted summaries, distinct RNA endpoints, fixed markers and documented repertoire denominators.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/NOTE_RECONCILIATION.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/REPRODUCTION_SCOPE.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All descriptive_v1, repertoire_v2 and source_audit_v1 outputs have been inspected. Figures are outcome-exposed documentation of fixed descriptive results, not a new validation study. The owner requested in-image captions after viewing version 1. Caption interpretation is based on the current report and frozen results; no new biological outcome is generated.",
+  "biological_unit": "Deposited mouse within each assay and tissue; slash-containing lung IDs are explicitly pooled libraries, excluded from mouse-weighted expression contrasts and composition accounting.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated tissue and assay samples and the general versus Figure 4 brain objects reuse mice/cells. IDs use different source formats. No cross-organ independence, canonical cross-assay identity resolution or external replication is asserted.",
+  "population_and_selection": "Verified frozen analysis output tables only. Display fixed marker subset and predeclared organ/cell-type panels; full families remain available in tables.",
+  "contrast": "Visualize the previously executed contrasts, without refitting biological models or calculating significance.",
+  "endpoint": "Six PNG/SVG/PDF figure plates and combined PDF with complete embedded captions and mechanical caption-layout checks.",
+  "methods": "Matplotlib white backgrounds, labeled panels, consistent ages, explicit units, 300-dpi PNG and SVG/PDF vector text. Means are arithmetic mouse means, not cell-based uncertainty. Age panels use categorical spacing and retain one month as developmental context. Source microglial number sets are displayed as a concordance audit because final-paper mapping is unresolved. Repertoire uses v2 matched denominators and within-mouse clone groups. No additional hypothesis tests. Version 2 preserves all panel calculations and selections. Expand each canvas below the original axes, keeping panel physical dimensions fixed; embed renderer-wrapped title, biological rationale, panel definitions, numerical results and limits. Verify caption text lies inside the canvas, below axes and above the source attribution. Store exact caption text and layout checks in the figure manifest.",
+  "missingness_and_exclusions": "Missing contrasts remain absent; pooled lung labels omitted from individual-mouse coverage and weighted analyses. All exclusions inherit the frozen source analysis. Source-state annotation subset is stated in captions.",
+  "multiplicity": "No p-values, significance stars, rankings by effect or confirmatory claims. The fixed descriptive marker family and all contrasts are retained, including null/unfavorable values.",
+  "precision_status": "unknown",
+  "precision_basis": "Show every observed mouse and descriptive means; no biological-effect margin, independent unit variance justification or confirmatory power is available.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Normalized RNA detection is not senescence, secretion, pathway activation or repair. Source UMAP, cluster occupancy and signature overlap cannot establish trajectory, a distinct intermediate state or AD treatment direction. Clonality is conditional on reconstruction and tissue sampling, not immune performance. Broad shared-age signatures have prior art. No claim promotion.",
+  "stop_rule": "Stop on missing source tables or rendering failure. Inspect every PNG; layout corrections require a new version while retaining this output.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/design_units.tsv",
+      "sha256": "6a8debb277103a8ab1b149449215634238f052cc0d9a315ff5268f7b4bb37be1",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/release_concordance.tsv",
+      "sha256": "387c67022bc0c3a1a856ab187384dc218a51257d60687d4fd3d3410a0ec1be71",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/composition_mouse.tsv",
+      "sha256": "88e191ef1e6ff69811884fd8e9990a8fc041ed1db14bacb51300ad33d88aa807",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/expression_mouse.tsv",
+      "sha256": "5dafd7b67a17dda8f4bb257580014364d0a8e6efd985995577d33624eab81700",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_state_mouse.tsv",
+      "sha256": "52a87413cecabbc082c34a7d4b88c1c89660fd122236fefecc292a677e5acfdb",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_umap.tsv",
+      "sha256": "fa3688dbccf797ba2f68880f0166a8b52b966f9fb6e9bd98152edccdeebe6a65",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_source_expression.tsv",
+      "sha256": "564a440c1e9c84a496a98f606b124588588c983ebf84cc3d70a60e399e0d002d",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/lung_accounting.tsv",
+      "sha256": "47ccae461388d3f359a42454c3289bcf1e2c6cfbdae6118096e9efcc08f8c135",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/expression_contrasts.tsv",
+      "sha256": "009757d06079a1e39fec0beb8eb0ec3de7b4825f0734c7027336ab6378988219",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_mouse.tsv",
+      "sha256": "58f11d6d4d0d790795d94ae1cb257316a201ea9ce0668480072b606528ac7354",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_source.tsv",
+      "sha256": "3b775b1624fc3a9dac633fda985420ea202fc93e653925597b89462072e864ec",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/07_figures_v2.py",
+      "sha256": "897502dfba4436bf8a63d1f17c869877671bd825ae899de1ae8428f88fece81d"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_captions_v2.py",
+      "sha256": "d56ddfef506b47559f8f5d180342076a13e59c5127e9eccf0c9fdedb503f5bea"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/07_figures_v2.py",
+  "arguments": [
+    "--input",
+    "analysis/research/runs/nb5_descriptive_v1",
+    "--repertoire",
+    "analysis/research/runs/nb5_repertoire_v2",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "01_design_and_release.png",
+    "01_design_and_release.svg",
+    "01_design_and_release.pdf",
+    "02_captured_composition.png",
+    "02_captured_composition.svg",
+    "02_captured_composition.pdf",
+    "03_microglial_source_states.png",
+    "03_microglial_source_states.svg",
+    "03_microglial_source_states.pdf",
+    "04_marker_endpoints.png",
+    "04_marker_endpoints.svg",
+    "04_marker_endpoints.pdf",
+    "05_repertoire_sampling.png",
+    "05_repertoire_sampling.svg",
+    "05_repertoire_sampling.pdf",
+    "06_fixed_marker_context.png",
+    "06_fixed_marker_context.svg",
+    "06_fixed_marker_context.pdf",
+    "nb5_figure_set.pdf",
+    "figure_manifest.json"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+  "amendment_reason": "Owner-requested full captions inside each PNG, including biological rationale and results. Rendering and captions only; original panels and scientific outputs retained. No extension analysis is executed under this contract."
+}

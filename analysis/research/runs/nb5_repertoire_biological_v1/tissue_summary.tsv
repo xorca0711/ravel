@@ -1,0 +1,229 @@
+tissue	age_months	endpoint	n_mice	mean	min	max
+Aorta	3	local_clone_fraction	2	0.3	0	0.6
+Aorta	3	global_clone_fraction	2	0.3	0	0.6
+Aorta	3	shared_clone_fraction	2	0	0	0
+Aorta	3	expected_local_clone_fraction	0			
+Aorta	18	local_clone_fraction	1	0	0	0
+Aorta	18	global_clone_fraction	1	0	0	0
+Aorta	18	shared_clone_fraction	1	0	0	0
+Aorta	18	expected_local_clone_fraction	0			
+BAT	3	local_clone_fraction	6	0	0	0
+BAT	3	global_clone_fraction	6	0	0	0
+BAT	3	shared_clone_fraction	6	0	0	0
+BAT	3	expected_local_clone_fraction	0			
+BAT	18	local_clone_fraction	4	0.191666666666667	0	0.4
+BAT	18	global_clone_fraction	4	0.358333333333333	0.2	0.6
+BAT	18	shared_clone_fraction	4	0.308333333333333	0.1	0.6
+BAT	18	expected_local_clone_fraction	0			
+BAT	24	local_clone_fraction	4	0	0	0
+BAT	24	global_clone_fraction	4	0.394047619047619	0.1	1
+BAT	24	shared_clone_fraction	4	0.394047619047619	0.1	1
+BAT	24	expected_local_clone_fraction	0			
+Bladder	24	local_clone_fraction	2	0	0	0
+Bladder	24	global_clone_fraction	2	0.5	0	1
+Bladder	24	shared_clone_fraction	2	0.5	0	1
+Bladder	24	expected_local_clone_fraction	0			
+Brain_Myeloid	3	local_clone_fraction	2	0	0	0
+Brain_Myeloid	3	global_clone_fraction	2	1	1	1
+Brain_Myeloid	3	shared_clone_fraction	2	1	1	1
+Brain_Myeloid	3	expected_local_clone_fraction	0			
+Brain_Myeloid	24	local_clone_fraction	1	0.5	0.5	0.5
+Brain_Myeloid	24	global_clone_fraction	1	1	1	1
+Brain_Myeloid	24	shared_clone_fraction	1	1	1	1
+Brain_Myeloid	24	expected_local_clone_fraction	0			
+Brain_Non-Myeloid	3	local_clone_fraction	5	0	0	0
+Brain_Non-Myeloid	3	global_clone_fraction	5	0.1	0	0.5
+Brain_Non-Myeloid	3	shared_clone_fraction	5	0.1	0	0.5
+Brain_Non-Myeloid	3	expected_local_clone_fraction	0			
+Brain_Non-Myeloid	18	local_clone_fraction	4	0.242424242424242	0	0.666666666666667
+Brain_Non-Myeloid	18	global_clone_fraction	4	0.371212121212121	0	1
+Brain_Non-Myeloid	18	shared_clone_fraction	4	0.204545454545455	0	0.484848484848485
+Brain_Non-Myeloid	18	expected_local_clone_fraction	0			
+Brain_Non-Myeloid	24	local_clone_fraction	4	0.155357142857143	0	0.371428571428571
+Brain_Non-Myeloid	24	global_clone_fraction	4	0.520535714285714	0	1
+Brain_Non-Myeloid	24	shared_clone_fraction	4	0.470535714285714	0	1
+Brain_Non-Myeloid	24	expected_local_clone_fraction	0			
+Diaphragm	3	local_clone_fraction	3	0	0	0
+Diaphragm	3	global_clone_fraction	3	0.0833333333333333	0	0.25
+Diaphragm	3	shared_clone_fraction	3	0.0833333333333333	0	0.25
+Diaphragm	3	expected_local_clone_fraction	0			
+Diaphragm	18	local_clone_fraction	1	0	0	0
+Diaphragm	18	global_clone_fraction	1	0.25	0.25	0.25
+Diaphragm	18	shared_clone_fraction	1	0.25	0.25	0.25
+Diaphragm	18	expected_local_clone_fraction	0			
+Diaphragm	24	local_clone_fraction	2	0.333333333333333	0	0.666666666666667
+Diaphragm	24	global_clone_fraction	2	0.333333333333333	0	0.666666666666667
+Diaphragm	24	shared_clone_fraction	2	0	0	0
+Diaphragm	24	expected_local_clone_fraction	0			
+GAT	3	local_clone_fraction	6	0	0	0
+GAT	3	global_clone_fraction	6	0.0333333333333333	0	0.2
+GAT	3	shared_clone_fraction	6	0.0333333333333333	0	0.2
+GAT	3	expected_local_clone_fraction	6	0	0	0
+GAT	18	local_clone_fraction	3	0.198835647111509	0.0714285714285714	0.318181818181818
+GAT	18	global_clone_fraction	3	0.307172712345126	0.178571428571429	0.379310344827586
+GAT	18	shared_clone_fraction	3	0.178123600537394	0.0454545454545455	0.310344827586207
+GAT	18	expected_local_clone_fraction	3	0.0659233274175803	0.00529100529100527	0.159090909090909
+GAT	24	local_clone_fraction	4	0.197350837568229	0.151515151515152	0.285714285714286
+GAT	24	global_clone_fraction	4	0.310688405797101	0.25	0.333333333333333
+GAT	24	shared_clone_fraction	4	0.226009316770186	0.05	0.333333333333333
+GAT	24	expected_local_clone_fraction	4	0.0362159429503675	0.0205972771190163	0.0596491228070176
+Heart	3	local_clone_fraction	5	0	0	0
+Heart	3	global_clone_fraction	5	0.15	0	0.5
+Heart	3	shared_clone_fraction	5	0.15	0	0.5
+Heart	3	expected_local_clone_fraction	5	0	0	0
+Heart	18	local_clone_fraction	3	0.375	0	0.625
+Heart	18	global_clone_fraction	3	0.577094474153298	0.363636363636364	0.75
+Heart	18	shared_clone_fraction	3	0.280525846702317	0.125	0.363636363636364
+Heart	18	expected_local_clone_fraction	3	0.0983808674985146	1.11022302462516e-16	0.241666666666667
+Heart	24	local_clone_fraction	4	0.158333333333333	0	0.5
+Heart	24	global_clone_fraction	4	0.720535714285714	0.4	1
+Heart	24	shared_clone_fraction	4	0.595535714285714	0.125	1
+Heart	24	expected_local_clone_fraction	4	0.0202380952380952	0	0.0714285714285715
+Kidney	3	local_clone_fraction	3	0	0	0
+Kidney	3	global_clone_fraction	3	0.444444444444444	0	1
+Kidney	3	shared_clone_fraction	3	0.444444444444444	0	1
+Kidney	3	expected_local_clone_fraction	0			
+Kidney	18	local_clone_fraction	3	0.333333333333333	0	1
+Kidney	18	global_clone_fraction	3	0.666666666666667	0	1
+Kidney	18	shared_clone_fraction	3	0.333333333333333	0	1
+Kidney	18	expected_local_clone_fraction	0			
+Kidney	24	local_clone_fraction	4	0.325	0	0.5
+Kidney	24	global_clone_fraction	4	0.425	0	0.7
+Kidney	24	shared_clone_fraction	4	0.3	0	0.5
+Kidney	24	expected_local_clone_fraction	0			
+Limb_Muscle	3	local_clone_fraction	5	0	0	0
+Limb_Muscle	3	global_clone_fraction	5	0	0	0
+Limb_Muscle	3	shared_clone_fraction	5	0	0	0
+Limb_Muscle	3	expected_local_clone_fraction	0			
+Limb_Muscle	18	local_clone_fraction	4	0.25	0	1
+Limb_Muscle	18	global_clone_fraction	4	0.25	0	1
+Limb_Muscle	18	shared_clone_fraction	4	0	0	0
+Limb_Muscle	18	expected_local_clone_fraction	0			
+Limb_Muscle	24	local_clone_fraction	4	0.0454545454545455	0	0.181818181818182
+Limb_Muscle	24	global_clone_fraction	4	0.142045454545455	0	0.318181818181818
+Limb_Muscle	24	shared_clone_fraction	4	0.142045454545455	0	0.318181818181818
+Limb_Muscle	24	expected_local_clone_fraction	0			
+Liver	3	local_clone_fraction	1	0	0	0
+Liver	3	global_clone_fraction	1	0.222222222222222	0.222222222222222	0.222222222222222
+Liver	3	shared_clone_fraction	1	0.222222222222222	0.222222222222222	0.222222222222222
+Liver	3	expected_local_clone_fraction	0			
+Liver	18	local_clone_fraction	3	0.180952380952381	0	0.542857142857143
+Liver	18	global_clone_fraction	3	0.395238095238095	0	0.685714285714286
+Liver	18	shared_clone_fraction	3	0.366666666666667	0	0.6
+Liver	18	expected_local_clone_fraction	0			
+Liver	24	local_clone_fraction	2	0.347847847847848	0.0740740740740741	0.621621621621622
+Liver	24	global_clone_fraction	2	0.497747747747748	0.333333333333333	0.662162162162162
+Liver	24	shared_clone_fraction	2	0.477477477477477	0.333333333333333	0.621621621621622
+Liver	24	expected_local_clone_fraction	0			
+Lung	3	local_clone_fraction	5	0.0952380952380952	0	0.476190476190476
+Lung	3	global_clone_fraction	5	0.0952380952380952	0	0.476190476190476
+Lung	3	shared_clone_fraction	5	0	0	0
+Lung	3	expected_local_clone_fraction	5	0.0219548872180451	0	0.109774436090226
+Lung	18	local_clone_fraction	4	0.378054511278195	0	0.625
+Lung	18	global_clone_fraction	4	0.444574979114453	0.0555555555555556	0.625
+Lung	18	shared_clone_fraction	4	0.418259189640769	0.0555555555555556	0.625
+Lung	18	expected_local_clone_fraction	4	0.178336466165413	0	0.375
+Lung	24	local_clone_fraction	4	0.0811688311688312	0	0.181818181818182
+Lung	24	global_clone_fraction	4	0.317316017316017	0.142857142857143	0.545454545454545
+Lung	24	shared_clone_fraction	4	0.317316017316017	0.142857142857143	0.545454545454545
+Lung	24	expected_local_clone_fraction	4	0.0185637891520244	0	0.0545454545454546
+MAT	3	local_clone_fraction	5	0	0	0
+MAT	3	global_clone_fraction	5	0.008	0	0.04
+MAT	3	shared_clone_fraction	5	0.008	0	0.04
+MAT	3	expected_local_clone_fraction	5	0	0	0
+MAT	18	local_clone_fraction	4	0.145534290271132	0.0606060606060606	0.181818181818182
+MAT	18	global_clone_fraction	4	0.27292663476874	0.151515151515152	0.394736842105263
+MAT	18	shared_clone_fraction	4	0.22188995215311	0.151515151515152	0.342105263157895
+MAT	18	expected_local_clone_fraction	4	0.0256264894422789	0.00946969696969697	0.0432900432900433
+MAT	24	local_clone_fraction	3	0.0647548566142461	0	0.130434782608696
+MAT	24	global_clone_fraction	3	0.133198777787122	0.0545454545454545	0.217391304347826
+MAT	24	shared_clone_fraction	3	0.133198777787122	0.0545454545454545	0.217391304347826
+MAT	24	expected_local_clone_fraction	3	0.0223004459822221	0	0.0536420101637493
+Marrow	3	local_clone_fraction	3	0.0833333333333333	0	0.25
+Marrow	3	global_clone_fraction	3	0.0965588084232152	0.0169491525423729	0.25
+Marrow	3	shared_clone_fraction	3	0.0132254750898819	0	0.0227272727272727
+Marrow	3	expected_local_clone_fraction	3	0.0833333333333333	0	0.25
+Marrow	18	local_clone_fraction	4	0.254919087100867	0.0833333333333333	0.401574803149606
+Marrow	18	global_clone_fraction	4	0.317641575846066	0.2	0.496062992125984
+Marrow	18	shared_clone_fraction	4	0.124304722671256	0	0.204724409448819
+Marrow	18	expected_local_clone_fraction	4	0.0829228688991011	0.0152055328268069	0.217547326815061
+Marrow	24	local_clone_fraction	4	0.0680909575499128	0	0.160714285714286
+Marrow	24	global_clone_fraction	4	0.165660310935772	0.103896103896104	0.232142857142857
+Marrow	24	shared_clone_fraction	4	0.104062859879366	0.0714285714285714	0.149253731343284
+Marrow	24	expected_local_clone_fraction	4	0.0132196561728087	0	0.0417619592147894
+Pancreas	3	local_clone_fraction	3	0	0	0
+Pancreas	3	global_clone_fraction	3	0	0	0
+Pancreas	3	shared_clone_fraction	3	0	0	0
+Pancreas	3	expected_local_clone_fraction	0			
+Pancreas	18	local_clone_fraction	2	0	0	0
+Pancreas	18	global_clone_fraction	2	0	0	0
+Pancreas	18	shared_clone_fraction	2	0	0	0
+Pancreas	18	expected_local_clone_fraction	0			
+SCAT	3	local_clone_fraction	6	0	0	0
+SCAT	3	global_clone_fraction	6	0.0555555555555556	0	0.333333333333333
+SCAT	3	shared_clone_fraction	6	0.0555555555555556	0	0.333333333333333
+SCAT	3	expected_local_clone_fraction	6	3.70074341541719e-17	0	2.22044604925031e-16
+SCAT	18	local_clone_fraction	3	0.20679012345679	0	0.37037037037037
+SCAT	18	global_clone_fraction	3	0.601851851851852	0.5	0.75
+SCAT	18	shared_clone_fraction	3	0.553350970017637	0.428571428571429	0.75
+SCAT	18	expected_local_clone_fraction	3	0.025354768688102	0	0.0499145299145299
+SCAT	24	local_clone_fraction	4	0.138798701298701	0	0.25
+SCAT	24	global_clone_fraction	4	0.291801948051948	0.181818181818182	0.428571428571429
+SCAT	24	shared_clone_fraction	4	0.291801948051948	0.181818181818182	0.428571428571429
+SCAT	24	expected_local_clone_fraction	4	0.0358183483183484	2.22044604925031e-16	0.0714285714285714
+Skin	3	local_clone_fraction	1	0	0	0
+Skin	3	global_clone_fraction	1	0	0	0
+Skin	3	shared_clone_fraction	1	0	0	0
+Skin	3	expected_local_clone_fraction	0			
+Skin	18	local_clone_fraction	1	0	0	0
+Skin	18	global_clone_fraction	1	0	0	0
+Skin	18	shared_clone_fraction	1	0	0	0
+Skin	18	expected_local_clone_fraction	0			
+Skin	24	local_clone_fraction	1	0	0	0
+Skin	24	global_clone_fraction	1	0	0	0
+Skin	24	shared_clone_fraction	1	0	0	0
+Skin	24	expected_local_clone_fraction	0			
+Spleen	3	local_clone_fraction	4	0.0198412698412698	0	0.0793650793650794
+Spleen	3	global_clone_fraction	4	0.0277157738095238	0	0.0952380952380952
+Spleen	3	shared_clone_fraction	4	0.00787450396825397	0	0.0158730158730159
+Spleen	3	expected_local_clone_fraction	4	0.0119572242787473	0	0.0478288971149891
+Spleen	18	local_clone_fraction	3	0.106997677119628	0	0.231707317073171
+Spleen	18	global_clone_fraction	3	0.151908366374304	0.0689655172413793	0.24390243902439
+Spleen	18	shared_clone_fraction	3	0.0828026753173936	0.0365853658536585	0.142857142857143
+Spleen	18	expected_local_clone_fraction	3	0.0577220363716247	0	0.0884748569707919
+Spleen	24	local_clone_fraction	4	0.0660760428202289	0	0.232558139534884
+Spleen	24	global_clone_fraction	4	0.140389710157152	0.0606060606060606	0.302325581395349
+Spleen	24	shared_clone_fraction	4	0.109197388267156	0.0317460317460317	0.209302325581395
+Spleen	24	expected_local_clone_fraction	4	0.0502849289558162	0	0.186802798260541
+Thymus	3	local_clone_fraction	5	0.00957446808510638	0	0.0478723404255319
+Thymus	3	global_clone_fraction	5	0.0162347210990584	0	0.0638297872340425
+Thymus	3	shared_clone_fraction	5	0.00666025301395202	0	0.0159574468085106
+Thymus	3	expected_local_clone_fraction	5	0.00551238901999934	0	0.0275619450999967
+Thymus	18	local_clone_fraction	4	0.0646906519906409	0	0.158163265306122
+Thymus	18	global_clone_fraction	4	0.0715621477694642	0	0.158163265306122
+Thymus	18	shared_clone_fraction	4	0.00899013984661984	0	0.0190114068441065
+Thymus	18	expected_local_clone_fraction	4	0.0493469267540783	0	0.116877977097164
+Thymus	24	local_clone_fraction	4	0.0372645326514098	0	0.0963855421686747
+Thymus	24	global_clone_fraction	4	0.0639587240969488	0.0133333333333333	0.120481927710843
+Thymus	24	shared_clone_fraction	4	0.0447664806021656	0.00483091787439614	0.0963855421686747
+Thymus	24	expected_local_clone_fraction	4	0.0312787662225491	0	0.0777893175957678
+Tongue	3	local_clone_fraction	1	0	0	0
+Tongue	3	global_clone_fraction	1	0	0	0
+Tongue	3	shared_clone_fraction	1	0	0	0
+Tongue	3	expected_local_clone_fraction	0			
+Tongue	18	local_clone_fraction	2	0.5	0	1
+Tongue	18	global_clone_fraction	2	0.5	0	1
+Tongue	18	shared_clone_fraction	2	0	0	0
+Tongue	18	expected_local_clone_fraction	0			
+Trachea	3	local_clone_fraction	3	0	0	0
+Trachea	3	global_clone_fraction	3	0	0	0
+Trachea	3	shared_clone_fraction	3	0	0	0
+Trachea	3	expected_local_clone_fraction	3	0	0	0
+Trachea	18	local_clone_fraction	4	0.373219373219373	0	0.962962962962963
+Trachea	18	global_clone_fraction	4	0.568910256410256	0.25	1
+Trachea	18	shared_clone_fraction	4	0.261930199430199	0.111111111111111	0.538461538461538
+Trachea	18	expected_local_clone_fraction	4	0.15295584045584	0	0.558404558404558
+Trachea	24	local_clone_fraction	4	0.0454545454545455	0	0.181818181818182
+Trachea	24	global_clone_fraction	4	0.284090909090909	0.0909090909090909	0.5
+Trachea	24	shared_clone_fraction	4	0.284090909090909	0.0909090909090909	0.5
+Trachea	24	expected_local_clone_fraction	4	0.00454545454545459	0	0.0181818181818183

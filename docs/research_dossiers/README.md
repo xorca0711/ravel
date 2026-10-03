@@ -8,7 +8,7 @@ The [source-mapping closeout](source_mapping_closeout_2026-10-03/README.md) sett
 the bounded recovery task. Later scientific/technical review and placement work
 are deferred; unavailable evidence remains held rather than silently qualified.
 
-All 24 current questions remain available. No RQ is selected by this repair.
+All 28 current questions remain available; A24–A27 are newly proposed Nb5 questions. No RQ is selected by this repair.
 The canonical register owns question identity; these dossiers develop the missing
 scientific discriminator and experimental bridge. A completed computational
 analysis is not an experiment-ready hypothesis. Published background and
@@ -51,6 +51,17 @@ scientific-design level; they are not laboratory procedures.
 | A21 | Fzd4 vascular integrity linked to gCap renewal and aerocyte output | [Evidence and next discriminator](A21.md) |
 | A22 | NKX2-1 loss and actual fibroblast chemokine output beyond source amount | [Evidence and next discriminator](A22.md) |
 | A23 | SLC34A2 loss: increased transition entry versus delayed exit | [Evidence and next discriminator](A23.md) |
+| A24 | Bladder stromal ageing and urothelial barrier maintenance; proposed | [Evidence and next discriminator](A24.md) |
+| A25 | Regional microglial configuration during middle age; proposed | [Evidence and next discriminator](A25.md) |
+| A26 | Tissue context of CD8 repertoire ageing; proposed | [Evidence and next discriminator](A26.md) |
+| A27 | Within-state and compositional CD8 repertoire ageing; proposed | [Evidence and next discriminator](A27.md) |
+
+## Nb5 review and proposed registrations
+
+[The completed bounded agent review](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
+records A24–A27, the A3 normal-age extension and supporting branches. New workspace
+plans accompany the four questions; the earlier 24 conditional packages retain
+their historical scope. Registration is not human scientific acceptance.
 
 ## Article-local candidates
 

@@ -1,0 +1,54 @@
+# Nb5-P03 Normal ageing as context for lung injury questions
+
+**Current routing after bounded agent review, 3 October 2026:** A3 extension.
+See the [scientific review](../rq_review/README.md). The original derivation below
+is retained as source history; human scientific acceptance and unresolved data
+or endpoint qualification are not supplied by registration.
+
+**Question:** Could a fixed existing lung cell-state endpoint also vary with
+normal ageing within a comparable cell identity? The decision is whether
+ageing is a plausible alternative explanation requiring an age-balanced design.
+
+**Working hypothesis:** A bounded component of an existing RNA endpoint is
+age-associated without the injury setting. **Strongest rival:** Study, assay,
+origin and cell-mixture differences explain cross-cohort agreement. A normal
+age reference alone cannot identify an injury-specific residual effect.
+
+**Unit and endpoint:** Mouse within study and assay. Specify one existing,
+versioned endpoint and eligible cell identity before transfer; derive no new
+signature from the same comparison. Analyze within-study contrasts and report
+their compatibility. Do not concatenate atlases and regress away study when
+age and injury are confounded with study.
+
+**Relation to current RQs:** [A3](../../../docs/research_dossiers/packages_2026-10-03/A3.md)
+is a direct context question. [A22](../../../docs/research_dossiers/A22.md) and the
+[Nb4 results](../../gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md)
+provide composition/endpoint cautions, not newly validated pathways.
+No current global question is selected or reopened by this candidate.
+
+**Actions and limits:** Compatible within-type age associations motivate a
+matched source design; discordance restricts transport; missing common support
+holds the comparison. Absence of significance is not evidence of equivalence.
+Intrinsic memory, metabolism, epithelial fate and repair function remain
+unmeasured. Only existing host-cell data are contemplated here.
+
+**Additional-analysis frame:** an eligibility map and within-study age-effect
+forest plot for a fixed endpoint. No direct injury-versus-age residual is
+estimated without a design that identifies that contrast.
+
+## Execution and RQ status
+
+First outcome-exposed pass completed 3 October 2026. Lung baseline measurement executed. No compatible within-study age/injury contrast was qualified; transport and A3 interpretation remain held.
+
+Read the [current result and amendments](../RESULTS.md),
+[figures](../FIGURES.md) and [execution ledger](../EXECUTION_VALIDATION.md)
+before extending the original plan above. No human retain/reject decision,
+claim promotion or global RQ allocation is recorded. All branches remain
+available; a further numerical stage requires a new frozen contract.
+
+## Provisional RQ derivation
+
+The [current P03 derivation](../rq_derivation/P03.md) develops the observation,
+biological gap, strongest rival and discriminating prediction, with primary-source
+precedent and independent-evidence limits. It is a proposal for scientific review;
+no global RQ registration or human acceptance is recorded.

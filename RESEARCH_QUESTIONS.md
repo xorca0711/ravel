@@ -1,5 +1,13 @@
 # Research questions
 
+**Nb5 review and proposed registrations, 3 October 2026:** the
+[scientific review and overlap matrix](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
+screen A0–A23 and 33 prior article candidates. Under the owner's explicit
+focus/subset heterogeneity instruction, Nb5 P01/P02/P04/P06 become proposed
+A24/A25/A26/A27; P03 adds an A3 extension. Agent review and question registration
+do not record human scientific acceptance or certify novelty. Original article
+results and all earlier RQs remain available.
+
 **Current specificity/novelty revision, 3 October 2026:** the [application ledger](docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) distinguishes published premises, remaining comparisons and incompletely specified questions. The current development paragraph in each card and its dossier/README/package are aligned. No RQ is selected or certified novel.
 
 **Cross-article review, 1 October 2026:** [chronology and contribution decisions](docs/audits/2026-10-01-cross-article-rq-review/README.md) cover every article folder and remote main. Accepted conditional candidates and constraints appear under the relevant RQs below; historical results and claim grades remain unchanged. Main owns A19–A21; Nb3 uses A22/A23.
@@ -100,6 +108,10 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A21](#a21) | Fzd4 vascular integrity linked to gCap renewal and aerocyte output | Independent capillary enrichment; lower transitional-state Fzd4 and inconsistent cycling association | **Exploratory context completed; conditional priority.** Perturbation-linked lineage versus maintenance remains untested; [results](RQ_Specified/A21_fzd4_capillary_function/RESULTS.md) |
 | [A22](#a22) | NKX2-1 loss and actual fibroblast chemokine output beyond source amount | Nb3's focal NKX21 response survives technical sensitivities; the later identity–amount extension adds little target-held-out information and worsens whole-plate prediction | **Proposed, pending retain/reject.** Descriptive follow-up complete; independent identity/composition, secretion and recipient-function evidence needed |
 | [A23](#a23) | SLC34A2 loss: increased transition entry versus delayed exit | Nb3 transition markers rise; the external PAM case lacks coherent transfer and has lower alternative-transporter RNA; flux and timing remain untested | **Proposed, pending retain/reject.** Descriptive follow-up complete; transport, temporal order, within-state and restoration evidence needed |
+| [A24](#a24) | Bladder stromal ageing and urothelial barrier maintenance | Nb5 P01; distinct biological focus reviewed | Proposed; see [dossier](docs/research_dossiers/A24.md) for source, endpoint and acceptance holds |
+| [A25](#a25) | Regional microglial configuration during middle age | Nb5 P02; distinct biological focus reviewed | Proposed; see [dossier](docs/research_dossiers/A25.md) for source, endpoint and acceptance holds |
+| [A26](#a26) | Tissue context of CD8 repertoire ageing | Nb5 P04; distinct biological focus reviewed | Proposed; see [dossier](docs/research_dossiers/A26.md) for source, endpoint and acceptance holds |
+| [A27](#a27) | Within-state and compositional CD8 repertoire ageing | Nb5 P06; distinct biological focus reviewed | Proposed; see [dossier](docs/research_dossiers/A27.md) for source, endpoint and acceptance holds |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -382,6 +394,12 @@ ligand dose and recipient engagement, beyond spatial RNA proximity alone.
 <a id="a3"></a>
 
 ### A3. Does prior injury leave a macrophage programme that differs from normal aging?
+
+**Nb5 extension, 3 October 2026 (proposed):**
+[normal-age macrophage reference](docs/research_dossiers/extensions_2026-10-03/A3_Nb5_age_reference.md)
+addresses the existing age/context rival. It does not nominate a new programme,
+macrophage subset or functional consequence, erase W1 negatives, or establish
+intrinsic memory. Numerical execution requires a new eligible A3 contract.
 
 **Current development scope, 3 October 2026 (proposed).** Prior lung injury may leave a persistent macrophage programme within comparable macrophage origins and states after the current environment has resolved. The additional question concerns history beyond age, origin and continuing tissue stimulation. A programme and independent functional consequence still need nomination; late sampling alone cannot demonstrate biological memory. [A3 evidence dossier](docs/research_dossiers/A3.md) · [Novelty boundary](docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a3). Historical tests below retain their original scope; scientific acceptance is not inferred.
 
@@ -1384,6 +1402,90 @@ in replicated units. Secondary injury, disease stage and cell selection remain
 rivals. No broad identity-retention claim survives the annotation sensitivity,
 and mineral clearance is not epithelial recovery. Acceptance and claim grades
 remain unchanged.
+
+<a id="a24"></a>
+
+### A24. Does bladder stromal ageing alter urothelial barrier maintenance beyond epithelial-intrinsic ageing?
+
+Registered 3 October 2026 as **proposed**, following the owner-authorized
+scientific review and instruction to preserve distinct biological focus and
+cell/context heterogeneity. Codex supplied the bounded scientific review;
+human retain/reject and scientific acceptance remain unrecorded. Registration
+is not a claim of novelty, functional validation or permission to execute an
+unfinished numerical design.
+
+**Hypothesis and biology.** An age-associated change in a specified bladder stromal population reduces urothelial barrier maintenance beyond epithelial age and terminal differentiation alone. This is a proposed intercompartmental contribution, not a conclusion from the atlas. The particular stromal population and mechanism remain open.
+
+**Current evidence.** The exposed Nb5 bladder decomposition has opposing Lmnb1 detection directions in broad urothelial and mesenchymal annotations, while captured-bladder Cdkn2a detection declines. Those RNA summaries do not identify a causal stromal population, absolute abundance, senescence burden or barrier dysfunction. Existing Figures 7 and 8 are contextual evidence only.
+
+**Rival and discriminating outcome.** Epithelial-intrinsic ageing or altered umbrella-cell differentiation explains the functional change, while stromal RNA and captured proportions merely covary with age. Differential survival, tissue sampling and immune or vascular changes can also explain an apparent stromal association. A separately measured barrier difference attributable to stromal context at comparable epithelial starting condition would support the stromal contribution. A difference confined to epithelial age or differentiation would favor the rival. Marker positivity, tissue-average RNA or a ligand-receptor score alone cannot discriminate them.
+
+**Scope and readiness.** Registered as a proposed, developing biological question. Population and functional-endpoint nomination remain necessary; it is not experiment-ready. Its distinct bladder subject is preserved under the owner's context/heterogeneity instruction, without claiming that all sources have been qualified. A13 and A20 concern specified lung fibroblast-to-epithelial recovery or receptor contexts; A22 concerns the reverse epithelial-to-fibroblast output direction. A24 concerns normal bladder stroma and urothelial barrier maintenance. Shared niche biology and decomposition methods do not make those targets or endpoints interchangeable.
+
+[Dossier](docs/research_dossiers/A24.md) · [Workspace](RQ_Specified/A24_bladder_stromal_urothelial_maintenance/README.md) · [Development plan](RQ_Specified/A24_bladder_stromal_urothelial_maintenance/PLAN.md) · [Primary precedents and access](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md).
+
+<a id="a25"></a>
+
+### A25. Does middle-age microglial organization require a regional configuration beyond endpoint mixtures and continuous ageing?
+
+Registered 3 October 2026 as **proposed**, following the owner-authorized
+scientific review and instruction to preserve distinct biological focus and
+cell/context heterogeneity. Codex supplied the bounded scientific review;
+human retain/reject and scientific acceptance remain unrecorded. Registration
+is not a claim of novelty, functional validation or permission to execute an
+unfinished numerical design.
+
+**Hypothesis and biology.** A region- and sex-qualified middle-age microglial distribution contains coherent structure that generalizes across animals and is inadequately represented by endpoint mixtures or a smooth age-response baseline. This is an RNA-organization hypothesis; a discrete cell state or functional role requires additional evidence.
+
+**Current evidence.** Nb5 recovered count-valued official expression, four region labels and exact identities for 13,130 source-labelled microglia. The source has 6/4/4 mice at 3/18/24 months; all 24-month mice are male. No state-versus-mixture model has run. Source clusters and trajectories are outcome-exposed observations, not longitudinal transitions.
+
+**Rival and discriminating outcome.** Changing proportions of existing microglial populations, continuous or nonlinear regulation, regional sampling, processing and sex imbalance explain the apparent intermediate configuration. A mean-profile residual can arise under these alternatives without a new state. Compare animal-held-out predictive adequacy of prespecified endpoint-mixture, continuous and additional-component models with complexity control. Support for an added component must accompany reproducible cell-level coherence. Equivalent or unstable prediction leaves the models unresolved; training fit and embedding separation cannot decide.
+
+**Scope and readiness.** Registered as a proposed model-comparison question. Input recovery is complete, model execution is unrun, and independent transport and biological acceptance remain pending. Exact margins, precision and functional endpoints are not invented. Nb4-P05 concerns identities versus recurring activation in human lung myeloid populations; Nb4-P06 concerns AT2-s discreteness. A1 concerns epithelial regulatory competence and later maturation. They share analytical ideas with A25 but do not own microglial ageing, brain-region heterogeneity or the owner's CNS question.
+
+[Dossier](docs/research_dossiers/A25.md) · [Workspace](RQ_Specified/A25_microglial_midlife_configuration/README.md) · [Development plan](RQ_Specified/A25_microglial_midlife_configuration/PLAN.md) · [Primary precedents and access](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md).
+
+<a id="a26"></a>
+
+### A26. Does age-associated CD8 repertoire concentration differ between spleen and marrow within comparable states?
+
+Registered 3 October 2026 as **proposed**, following the owner-authorized
+scientific review and instruction to preserve distinct biological focus and
+cell/context heterogeneity. Codex supplied the bounded scientific review;
+human retain/reject and scientific acceptance remain unrecorded. Registration
+is not a claim of novelty, functional validation or permission to execute an
+unfinished numerical design.
+
+**Hypothesis and biology.** At a fixed, independently defined CD8 state and comparable sampling scale, the older-versus-younger change in local clone concentration differs between spleen and marrow. This is a tissue-context association hypothesis, not evidence that a particular local niche causes expansion.
+
+**Current evidence.** Nb5 broad T-cell results differ across spleen, marrow and thymus. Tissue-specific common depths preclude direct ranking. The later exact CD4/CD8 follow-up supports spleen only; absent exact marrow CD8 support remains a hold. This proposed spleen/marrow contrast was chosen after exposure to those results, not preregistered.
+
+**Rival and discriminating outcome.** Systemic age effects plus differing differentiation states, recirculating populations and receptor recovery explain the apparent organ difference. A few highly sampled clones or animal-selection differences can produce the same pattern. The target is an age contrast of within-animal spleen-minus-marrow differences at a common state and observation scale. A reproducible tissue-dependent contrast supports context dependence; compatible contrasts support a shared association only with useful precision. Cross-tissue receptor sharing alone does not prove movement or local proliferation.
+
+**Scope and readiness.** Registered as a proposed question with a held source-design gate. A tissue-context focus warrants separate tracking under the owner's heterogeneity instruction; its registration does not make the existing subtype data eligible or certify a novel mechanism. Nb4-P04 tests shared lung-versus-blood RNA programmes across immune lineages. A26 tests receptor-defined CD8 concentration across spleen/marrow with age. A27 instead asks whether within-spleen age changes reflect state redistribution or within-state concentration. Related targets can share evidence without universally covering one another.
+
+[Dossier](docs/research_dossiers/A26.md) · [Workspace](RQ_Specified/A26_tissue_context_cd8_ageing/README.md) · [Development plan](RQ_Specified/A26_tissue_context_cd8_ageing/PLAN.md) · [Primary precedents and access](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md).
+
+<a id="a27"></a>
+
+### A27. How much of the older spleen CD8 repertoire concentration reflects state redistribution versus within-state change?
+
+Registered 3 October 2026 as **proposed**, following the owner-authorized
+scientific review and instruction to preserve distinct biological focus and
+cell/context heterogeneity. Codex supplied the bounded scientific review;
+human retain/reject and scientific acceptance remain unrecorded. Registration
+is not a claim of novelty, functional validation or permission to execute an
+unfinished numerical design.
+
+**Hypothesis and biology.** For specified CD8 states, a measurable component of the spleen age contrast remains within states after composition and receptor ascertainment are accounted for; an alternative is that redistribution accounts for most of the observed difference. Both may contribute. No causal percentage of ageing explained is implied.
+
+**Current evidence.** The Nb5 broad CD8 restriction retains a higher older spleen mean at a conditional depth of only five reconstructed cells per mouse, with 4/3/4 mice at 3/18/24 months. CD4 has no 24-versus-3 difference; its 18-month result depends on one mouse. Neither outcome resolves finer states or receptor recovery.
+
+**Rival and discriminating outcome.** Age-dependent abundance of already concentrated states, annotation shifts, differential receptor reconstruction and sparse sampling produce the apparent within-CD8 contrast without a reproducible within-state change. Estimate state-specific repeated-clone-cell fractions on a common sampling scale and a declared fixed-composition contrast, retaining the aggregate result. If the standardized contrast attenuates and state weights explain the pattern, redistribution is favored. Persistent supported state contrasts motivate quantitative replication; uncertain sparse results remain inconclusive.
+
+**Scope and readiness.** Registered as a proposed descriptive attribution/replication question with source and state-definition work remaining. Scientific value can include reproducible measurement without mechanistic novelty. Human acceptance, precision and functional claims remain pending. A6 concerns IPF macrophage expression; A17 concerns persistent founder effects on mutant epithelial clone growth. A27 concerns TCR-defined spleen CD8 repertoires during ageing. Common mixture reasoning or the word clone cannot collapse distinct cells, clone identities and biological endpoints.
+
+[Dossier](docs/research_dossiers/A27.md) · [Workspace](RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md) · [Development plan](RQ_Specified/A27_cd8_repertoire_state_redistribution/PLAN.md) · [Primary precedents and access](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md).
 
 ## Execution and interpretation rules
 

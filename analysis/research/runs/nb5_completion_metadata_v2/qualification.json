@@ -1,0 +1,33 @@
+{
+  "scope": "metadata qualification only; no biological effects or independent replication",
+  "source_index_unique": true,
+  "ambiguous_join_count": 0,
+  "matched_identity_conflict_count": 0,
+  "brain_cells": 13417,
+  "brain_genes": 22966,
+  "brain_age_cells": {
+    "18m": 4461,
+    "24m": 4424,
+    "3m": 4532
+  },
+  "brain_age_mice": {
+    "18m": 4,
+    "24m": 4,
+    "3m": 6
+  },
+  "brain_join_counts": {
+    "one_assay_suffix": 13417
+  },
+  "case_join_counts": {
+    "exact": 13417,
+    "unmatched": 159
+  },
+  "repertoire_join_counts": {
+    "one_assay_suffix": 5926,
+    "unmatched": 85
+  },
+  "kidney_join_counts": {
+    "one_assay_suffix": 19032,
+    "unmatched": 69
+  }
+}

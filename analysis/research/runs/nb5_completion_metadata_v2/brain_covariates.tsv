@@ -1,0 +1,27 @@
+age	value	cells	mice	field
+18m	Cerebellum 	1188	4	subtissue
+18m	Cortex 	1120	4	subtissue
+18m	Hippocampus 	949	3	subtissue
+18m	Striatum 	1204	4	subtissue
+24m	Cerebellum	1194	4	subtissue
+24m	Cortex	1059	4	subtissue
+24m	Hippocampus	1253	4	subtissue
+24m	Striatum	918	4	subtissue
+3m	Cerebellum	782	4	subtissue
+3m	Cortex	1042	5	subtissue
+3m	Hippocampus	1139	5	subtissue
+3m	Striatum	1569	6	subtissue
+18m	female	2452	2	sex
+18m	male	2009	2	sex
+24m	male	4424	4	sex
+3m	female	2248	3	sex
+3m	male	2284	3	sex
+18m	macrophage	86	4	cell_ontology_class
+18m	microglial cell	4375	4	cell_ontology_class
+24m	macrophage	157	4	cell_ontology_class
+24m	microglial cell	4267	4	cell_ontology_class
+3m	macrophage	44	5	cell_ontology_class
+3m	microglial cell	4488	6	cell_ontology_class
+18m	nan	4461	4	free_annotation
+24m	nan	4424	4	free_annotation
+3m	nan	4532	6	free_annotation

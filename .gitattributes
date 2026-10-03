@@ -153,6 +153,9 @@ RQ_Specified/A22_epithelial_identity_niche_response/tables/**/*.tsv whitespace=c
 "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/runs/**/*.tsv" whitespace=cr-at-eol,-blank-at-eol
 "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/figures/**/*.svg" whitespace=cr-at-eol,-blank-at-eol
 
+# Nb5 source/config files retain exact hashes across checkouts.
+"Research Article/gate2_N4_nabhan_aging_atlas_2020/**" -text whitespace=cr-at-eol
+
 # Preserve exact bytes of newly frozen qualification code and tests.
 analysis/scripts/a17_branching_kernel_v1.py -text whitespace=cr-at-eol
 analysis/scripts/qualify_a17_kernel_v1.py -text whitespace=cr-at-eol

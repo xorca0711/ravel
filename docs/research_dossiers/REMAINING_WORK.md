@@ -59,3 +59,13 @@ The normal checkout remains `codex/workspace-ready` at `76dc9b4` with
 unrelated local work, older worktrees, raw inputs, frozen contracts/receipts and
 negative results are preserved. Raw-data backup and optional worktree retirement
 are not claimed completed. No governance or interpretation gate was weakened.
+
+## Nb5 review and registration continuation
+
+The owner-authorized [Nb5 review](../../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
+now registers proposed A24–A27 and an A3 extension. This adds separate population
+and context questions under the owner's heterogeneity instruction; it does not
+reopen all earlier source holds or select a preferred RQ. Source/function
+nomination, P02 model execution, paired marrow support, fine-state/receptor
+qualification and human scientific acceptance remain as specified in the new
+dossiers. The original 24-package completion remains a historical checkpoint.

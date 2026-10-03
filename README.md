@@ -80,7 +80,7 @@ accepting a scientific interpretation are recorded separately.
 
 **Research questions** have stable identifiers in `RESEARCH_QUESTIONS.md`.
 Their plans, contracts, scripts and results live in `RQ_Specified/`. The current
-register contains A0–A23 and the enabling source-identity question A12-S1;
+register contains A0–A27 and the enabling source-identity question A12-S1;
 registration does not imply validation. Shared measurements and figures have
 explicit links to the questions they support.
 

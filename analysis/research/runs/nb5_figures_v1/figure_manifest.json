@@ -1,0 +1,61 @@
+{
+  "figures": [
+    {
+      "stem": "01_design_and_release",
+      "title": "Design support and source-release concordance",
+      "size_inches": [
+        10.2,
+        7.4
+      ],
+      "png_dpi": 300
+    },
+    {
+      "stem": "02_captured_composition",
+      "title": "Captured-cell composition and sampling sensitivity",
+      "size_inches": [
+        10.2,
+        7.8
+      ],
+      "png_dpi": 300
+    },
+    {
+      "stem": "03_microglial_source_states",
+      "title": "Deposited microglial cluster-label audit and animal-level occupancy",
+      "size_inches": [
+        12.2,
+        7.5
+      ],
+      "png_dpi": 300
+    },
+    {
+      "stem": "04_marker_endpoints",
+      "title": "Marker frequency, conditional expression and composition accounting",
+      "size_inches": [
+        12.2,
+        7.7
+      ],
+      "png_dpi": 300
+    },
+    {
+      "stem": "05_repertoire_sampling",
+      "title": "T-cell clonal-family fractions and sampling sensitivity",
+      "size_inches": [
+        10.2,
+        7.6
+      ],
+      "png_dpi": 300
+    },
+    {
+      "stem": "06_fixed_marker_context",
+      "title": "Within-population marker differences and sex sensitivity",
+      "size_inches": [
+        10.8,
+        6.5
+      ],
+      "png_dpi": 300
+    }
+  ],
+  "source_run": "analysis\\research\\runs\\nb5_descriptive_v1",
+  "style_reference": "Nb4 rq_sequence_v2: white background, labeled panels, mouse points, vector exports; no significance stars",
+  "limits": "Rendering of verified exposed descriptions. No scientific acceptance."
+}

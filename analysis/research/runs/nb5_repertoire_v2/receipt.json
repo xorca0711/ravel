@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P06.repertoire_v2",
+  "owner": "Nb5-P06",
+  "contract": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/repertoire_v2.json",
+  "contract_sha256": "ea855e6b442530d49d98846bcfb73c22164d062709c3fe8025bddffb21934e55",
+  "git_commit": "e23cc5bcbe42e0a099b24e12e57731d54057ae68",
+  "started_at": "2026-10-03T06:58:55.107427+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/03_repertoire_v2.py",
+    "--table",
+    "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_9.xlsx",
+    "--output",
+    "analysis/research/runs/nb5_repertoire_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_9.xlsx",
+      "sha256": "350e02f167659dd03af0e6e22808fcd5ea5f210e8f8828959c68ff2d81439d2e",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/author_clonal_notebook.ipynb",
+      "sha256": "d90cbb70f005083cbe7783ad4ddf749fd4ea566e3d56c1c2a7a89a12c75a29c4",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/03_repertoire_v2.py",
+      "sha256": "7a6fbe4341fe781628fe42fc593942cb9207530f0e66b537ac7a5f6ec449aae2"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_cells.tsv",
+      "sha256": "abeadb6d45f37077f52158cd7c194af35dae7db97d19af83fa9146bdc9feb5a1"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_mouse.tsv",
+      "sha256": "58f11d6d4d0d790795d94ae1cb257316a201ea9ce0668480072b606528ac7354"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_source.tsv",
+      "sha256": "3b775b1624fc3a9dac633fda985420ea202fc93e653925597b89462072e864ec"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_tissue.tsv",
+      "sha256": "d652d38229a7cfa6d5288ffa40a2a928d829b102ef469dc0f395a35a527d1140"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/verification.json",
+      "sha256": "f128f5e573178869c19c37e07f08f55eaac4b4f068269a380a3d7ef53be31074"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T06:59:14.451952+00:00"
+}

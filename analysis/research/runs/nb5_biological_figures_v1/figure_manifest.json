@@ -1,0 +1,61 @@
+{
+  "figures": [
+    {
+      "stem": "07_tissue_rna_accounting",
+      "title": "Composition and within-type RNA contributions",
+      "png_dpi": 300,
+      "caption": "Age-associated RNA differences combine captured composition and within-type changes. Cdkn2a detection rises in lung and falls in bladder. Values are 24 minus 3 months, with equal mouse weighting on common cell types. Four terms sum to the total; they are descriptive accounting, not causal effects. Color scales differ between panels.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "inside_canvas": true,
+        "lines": 3,
+        "words": 50,
+        "font_points": 9
+      }
+    },
+    {
+      "stem": "08_within_type_and_mouse_profiles",
+      "title": "Within-type profiles and fixed-composition animal estimates",
+      "png_dpi": 300,
+      "caption": "Within-type profiles locate age-associated RNA differences; fixed young composition asks whether population redistribution accounts for the tissue summary. A/B: 24 minus 3 months. C/D: connected values from each mouse; black bars, means; triangles, females. Sparse types and finer subtype mixtures remain unresolved. RNA detection does not establish senescence.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "inside_canvas": true,
+        "lines": 3,
+        "words": 48,
+        "font_points": 9
+      }
+    },
+    {
+      "stem": "09_compartment_local_clonality",
+      "title": "Tissue-local T-cell clonality across ages",
+      "png_dpi": 300,
+      "caption": "Local T-cell clone repetition is higher in older thymus and spleen samples; marrow shows a different age pattern. Points are mice and black bars are means. Bottom panels condition on tissue-specific sampling depth, so their magnitudes are not directly comparable across tissues. T-cell subtype, assembly selection and function remain unresolved.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "inside_canvas": true,
+        "lines": 3,
+        "words": 50,
+        "font_points": 9
+      }
+    },
+    {
+      "stem": "10_repertoire_compartment_accounting",
+      "title": "Compartment representation and cross-tissue clone sharing",
+      "png_dpi": 300,
+      "caption": "Older local-clone burden persists after fixing tissue representation in the same mice. A\u2013C use mice with thymus, spleen and marrow; D uses all supported mice per tissue. Shared clones indicate observed distribution across tissues, not migration. Only two young mice support the balanced comparison; subtype and reconstruction selection remain alternatives.",
+      "caption_layout": {
+        "caption_below_panels": true,
+        "inside_canvas": true,
+        "lines": 3,
+        "words": 50,
+        "font_points": 9
+      }
+    }
+  ],
+  "inputs": [
+    "nb5_composition_biological_v1",
+    "nb5_repertoire_biological_v1"
+  ],
+  "limits": "Exposed exploratory observations; all panels use frozen outputs, no new model or biological acceptance."
+}

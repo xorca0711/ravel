@@ -1,0 +1,305 @@
+# Nb5 execution and validation ledger
+
+3 October 2026. This supersedes planning-only status, not frozen outputs.
+Base: fetched `origin/main` `76dc9b47f72e774e51502162b2f8ba9d0dc02f17`.
+Work: `codex/nb5-aging-atlas-plan`, isolated managed worktree. No push, PR,
+merge, scientific acceptance or external service setting change is implied.
+
+## Frozen executions
+
+| Contract | Outcome / correction | Evidence |
+|---|---|---|
+| [metadata_v1](config/metadata_v1.json) | Failed source many-to-one join because merged spreadsheet cells were not decoded | [Original failed receipt, preserved bytes](../../analysis/research/runs/nb5_failed_run_preservation_v1/failed_receipt.json) |
+| [metadata_v2](config/metadata_v2.json) | Explicit merged ranges decoded; no biological filter changed | [Receipt](../../analysis/research/runs/nb5_metadata_v2/receipt.json) |
+| [metadata_v3](config/metadata_v3.json) | Added author Figure 4 object prospectively | [Receipt](../../analysis/research/runs/nb5_metadata_v3/receipt.json) |
+| [descriptive_v1](config/descriptive_v1.json) | Fixed exposed composition, RNA, state, repertoire and source-list descriptions | [Receipt](../../analysis/research/runs/nb5_descriptive_v1/receipt.json) |
+| [repertoire_v2](config/repertoire_v2.json) | Corrected exact young-cell names from author code and partitioned clones within mice; only P06 superseded | [Receipt](../../analysis/research/runs/nb5_repertoire_v2/receipt.json) |
+| [source_audit_v1](config/source_audit_v1.json) | Corrected bidirectional gene-list denominator and audited annotations; original RNA outputs unchanged | [Receipt](../../analysis/research/runs/nb5_source_audit_v1/receipt.json) |
+| [figures_v1](config/figures_v1.json) | Six plates; no biological rerun | [Receipt](../../analysis/research/runs/nb5_figures_v1/receipt.json) |
+| [failed-run preservation](config/failed_run_preservation_v1.json) | Exact archive only; original analysis remains failed | [Preservation receipt](../../analysis/research/runs/nb5_failed_run_preservation_v1/receipt.json) |
+
+Contracts and their code were committed before each execution. All input and
+output hashes remain bound. The complete failed run is archived byte-for-byte
+in the preservation run, with [original paths and hashes](../../analysis/research/runs/nb5_failed_run_preservation_v1/preservation.json).
+The original local files remain unchanged and are also recoverable from commit
+`a0565ea`. Only their duplicate Git index entries are retired in favor of the
+registered archive; no source file is deleted or moved. The original receipt
+still says `execution_failed`. The existing validator only accepts successful
+receipts, so archival success is explicitly separated from scientific execution.
+Governance and validators were not changed.
+
+## Numerical verification and visual inspection
+
+- Every composition count agrees with a separate Counter calculation over
+  source cells. Direct CSR traversal independently reproduces Cdkn2a detection
+  and mean for every mouse in all five general objects.
+- Across 17,777 RNA summaries, unconditional mean equals detected fraction
+  times positive-cell mean (maximum residual 5.69e-14). Zero-positive rows
+  retain a missing conditional mean. All normalized source rows sum to
+  approximately 10,000; none is relabeled as raw counts.
+- Every corrected repertoire animal/clone size agrees between Counter and
+  grouped arithmetic. Source numerators match 55/479/348; denominator and
+  unmatched-row discrepancies remain explicit.
+- Source-list and label audit records 200 unique combined ageing genes and
+  56 overlaps, not a forced match to the manuscript's 55.
+- All six 300-dpi PNG plates were visually inspected: legible labels,
+  nonoverlapping panels, visible unit counts and explicit scales. SVG and
+  individual/combined PDF exports are present. Six-page PDF structure is checked.
+
+These are computational checks using reused data, not biological replication
+or independent scientific acceptance. The full check results are in the
+[descriptive verification](../../analysis/research/runs/nb5_descriptive_v1/verification.json)
+and [repertoire verification](../../analysis/research/runs/nb5_repertoire_v2/verification.json).
+
+## Environment and replay
+
+Python 3.12.14; NumPy 2.4.6; SciPy 1.18.0; pandas 2.3.3; h5py 3.16.0;
+matplotlib 3.11.1; openpyxl 3.1.5. The bundled x64 interpreter used the existing
+scientific dependency directory; no dependency installation was required.
+Receipts store repository-relative commands. Reacquire exact inputs using
+SOURCE_MANIFEST.md, verify their hashes, and use a new run ID. Never replay
+over a frozen run directory. The failed run can be restored from the archive
+mapping if its preservation command must be independently repeated.
+
+## Repository verification
+
+All ten required checks passed against freshly fetched, unchanged `origin/main`
+`76dc9b47f72e774e51502162b2f8ba9d0dc02f17`:
+
+| Required check | Result |
+|---|---|
+| Python compilation | Passed |
+| Evidence/provenance unit tests | 123 tests; one existing skip; passed |
+| Claim contract | 18 numeric bindings; passed |
+| Nb1 frozen evidence | Passed |
+| Nb4 archive | 20 run records and 164 output hashes; passed |
+| A16 archived evidence | 1,867 checks; passed |
+| A23 external analysis archive | Passed |
+| A22/A23 extension evidence | Passed |
+| Repository validation | 7,951 checks; local links, JSON and numeric bindings passed |
+| Research gate against origin/main | Passed; no unregistered scientific assets |
+
+`git diff --check` passed. Every figure PNG has approximately 300-dpi metadata;
+the combined PDF contains six pages. Original failed-run files remain present
+and byte-identical to the registered archive. The two pre-existing primary
+checkout edits retain their original SHA-256 values; `.claude/` and ignored
+source data were not modified. No historical biological analysis was rerun.
+Local commits include the necessary prospective freezes and completed evidence;
+no push, PR or merge was requested. External scientific review, lab access and
+GitHub protection settings remain outside this execution's verified scope.
+
+## Caption edition on 3 October 2026
+
+[Figures v2](config/figures_v2.json) adds full captions inside every PNG, SVG
+and PDF, including rationale, panel definitions, observed results and limits.
+The [verified receipt](../../analysis/research/runs/nb5_figures_v2/receipt.json)
+binds the unchanged numerical inputs and the new renderer/caption module.
+Version 1 remains immutable. An AST comparison confirms that the main panel
+calculations and selections are unchanged, excluding only export metadata.
+
+Every caption passed mechanical checks for canvas bounds and separation from
+plots, title and source attribution. All six PNGs were visually inspected.
+The combined PDF has six pages, each containing extractable rationale and
+results text. No new biological analysis or extension was executed. Current
+repository verification for this edition passed all ten required checks,
+including 123 tests (one existing skip), 7,963 repository checks and the
+research gate. Version 2 is superseded for presentation by version 3 below.
+
+
+## Compact caption edition on 3 October 2026
+
+The owner found the v2 caption paragraphs too long. The committed
+[v3 contract](config/figures_v3.json) therefore limits embedded captions to
+short footnotes modeled on neighboring Nb2/Nb4 figures. Expanded explanations
+remain in the gallery. The [verified receipt](../../analysis/research/runs/nb5_figures_v3/receipt.json)
+binds the new renderer and caption module to unchanged input tables; v1 and v2
+are preserved. The frozen renderer's panel-calculation AST matches v1 exactly,
+excluding export metadata. No biological analysis or extension was rerun.
+
+All six PNGs were visually inspected: captions occupy 2–3 lines at 9 points,
+with 39–51 words. Mechanical bounds and panel-separation checks passed for all
+plates. PNG metadata is 300 dpi, and all six compact captions are extractable
+from the six-page PDF. The layout reuses the existing bottom margin and adds
+only the space necessary; plot physical dimensions are preserved.
+
+The preceding full check suite remains valid for unchanged tests and archived
+analyses. Final checks for the new renderer, registered receipt and gallery
+links are recorded below. Generated SVG path serialization contains trailing
+spaces; immutable SVG output bytes are retained. Whitespace checking is scoped
+to authored Markdown, Python and JSON.
+
+
+Final integration check: `origin/main` advanced to
+`bf7d7166887fb4207eb4582f41925a565a327dbf` (PR #132). Merge `6c247c0`
+retains both branches' exact-byte rules, registry entries and progress records;
+all incoming registry entries were mechanically checked for preservation.
+All ten required checks then passed: compilation, 134 tests (one existing
+skip), 18 numeric claim bindings, Nb1/Nb4/A16/A23/A22–A23 archive verification,
+8,050 repository checks and the research gate against the updated base.
+Authored-file whitespace checks passed. No scientific acceptance, new extension
+execution, push or PR is implied by this presentation update.
+
+
+## Biological extensions on 3 October 2026
+
+Numerical design/code freeze `a44dc24` precedes both executed biological runs;
+figure freeze `8106334` follows explicit outcome exposure. The three new
+registered receipts verify. The [stage report](EXTENSION_RESULTS.md) records
+232 composition contrasts and tissue-local/three-tissue repertoire results.
+Independent count reconstruction, two hand-calculated decomposition toys,
+exact full/deletion identities, source-clone/category partitions and exhaustive
+rarefaction enumeration passed. No raw-count model or held microglial fit ran.
+
+All four PNGs were visually inspected with no caption clipping or overlap.
+Each has 300-dpi metadata, and the combined PDF has four pages with extractable
+compact captions. Figure 10 explicitly distinguishes balanced and all-supported
+mouse sets. Current required repository checks are recorded below once complete.
+
+Visual review prompted a presentation-only v2 label correction, frozen at
+`8087a06`: Figure 10C now says Within tissue. Its
+[receipt](../../analysis/research/runs/nb5_biological_figures_v2/receipt.json)
+verifies; figures 7–9 PNGs are byte-identical to v1. The four-page v2 PDF
+contains every caption and the corrected label; all v2 PNGs retain 300 dpi.
+
+
+Final checks after registering the biological extension and corrected figure
+edition: all ten required checks passed against freshly fetched, unchanged
+`origin/main` `bf7d7166887fb4207eb4582f41925a565a327dbf`. This includes compilation,
+134 tests (one existing skip), 18 numeric claim bindings, Nb1/Nb4/A16/A23 and
+A22–A23 archive checks, 8,132 repository validations and the research gate.
+Authored Markdown/Python/JSON whitespace checks passed. The two unrelated
+primary-checkout metadata files retain their original SHA-256 hashes; ignored
+inputs and private/untracked work were not modified. No frozen evidence was
+overwritten, no claim grade changed, and no push or PR was created.
+
+
+## Unfinished-extension recovery and CD4/CD8 follow-up
+
+The owner asked how unfinished extension jobs could be completed. The
+[completion report](EXTENSION_COMPLETION.md) records what was actually closed
+and what remains unrun or evidence-dependent. Main advanced to `537eec8`
+(PR #133); merge `18999c3` preserved both research and RQ documentation histories.
+
+Qualification v1 was frozen at `279384d`, ran successfully and retained its
+restricted identity rules. Explicit literal assay/alignment naming bridges
+were frozen in v2 at `e25a107`; no fuzzy barcode matching was introduced.
+All known age/mouse/tissue identities agree. The count-valued official brain
+layer was independently checked against deposited n_counts: every row total
+agrees exactly. All 13,130 case-labelled microglia match official brain cells.
+
+The CD4/CD8 design/code freeze `9b2a2c8` precedes its biological run. Its
+[receipt](../../analysis/research/runs/nb5_subtype_biological_v1/receipt.json)
+and both metadata receipts verify. Exactly 6,000 prior mapped repertoire rows
+were retained; two of six tissue/subtype combinations meet the fixed rules.
+Marrow CD4's minimum depth of one and missing label strata remain unfavorable
+eligibility outcomes. There was no failed execution or post-outcome relaxation.
+
+Independent repeated-cell reconstruction, prior clone-size equality, analytic
+conditional-depth bounds and exhaustive enumeration at three toy depths passed.
+Identity unit probes reject ambiguity and age/mouse/tissue conflicts and retain
+unmatched rows. Figure 11 was visually inspected; caption bounds/separation,
+300-dpi PNG metadata and one-page PDF caption extraction passed. The caption
+has 44 words across three lines. Existing scientific figures were not changed.
+
+All ten required checks passed against freshly fetched, unchanged `origin/main`
+`537eec83fe102a7eaa3e3f34a7f6b48cf852be15`: compilation, 137 tests, 18 numeric
+claim bindings, Nb1/Nb4/A16/A23/A22–A23 archive checks, 8,463 repository
+validations and the research gate. The two unrelated primary metadata files
+retain their original SHA-256 values. Frozen historical outputs, raw inputs,
+claim grades and global RQs remain intact; no remote push or PR was created.
+
+## Provisional RQ derivation documentation
+
+3 October 2026. The owner requested the sequence from branch observations to
+provisional questions, novelty/access checks, consequential grounding and
+scientific review. The [derivation package](rq_derivation/README.md) now contains
+eight cards, a primary-source/access ledger, grounding decisions and an unfilled
+scientific review record. No new numerical analysis or plot was executed;
+historical models, tables, figures, contracts and receipts were not changed.
+
+Eight public GEO metadata snapshots and their acquisition manifest are retained
+in ignored raw data. Their bytes and SHA-256 values were verified before writing
+the source ledger. This is source reading, not an independent-cohort analysis or
+a numerical run receipt. A deterministic content check confirms the five required
+derivation sections in all eight cards and each corresponding registry link.
+
+The repository validator passed 8,553 checks after staging the new package;
+Markdown references, JSON and existing numerical bindings passed. The research
+gate passed against freshly fetched `origin/main`
+`537eec83fe102a7eaa3e3f34a7f6b48cf852be15`, already contained in this scoped branch.
+No new remote changes needed reconciliation. Staged whitespace checks passed.
+The previous full scientific/code checks remain applicable because no numerical
+code, scientific output, executable contract or validator changed in this step.
+
+The primary checkout retains its unrelated two modified metadata files and
+untracked private directory. Both file hashes match their pre-existing values.
+No global question, scientific acceptance, preferred RQ or claim-grade change
+was made. P02's state/mixture model remains unrun; independent animal-level
+qualification and scientific review remain pending. No push, PR, external
+reviewer communication or external-setting change occurred.
+
+## Latest main alignment and PR publication
+
+3 October 2026. The owner requested fetch, alignment and a PR. Main advanced
+from `537eec8` to `073a69a758f25f988ecc18402477efa268c00927` (PR #134).
+Merge `dfdbd15` incorporates the canonical RQ specificity changes. The sole
+conflict in PROGRESS.md was resolved by preserving both histories. P03 now
+explicitly links the updated A3 specificity requirement; no canonical question,
+governance rule, validator, claim grade or frozen scientific output was changed.
+
+All ten required checks passed on the aligned branch: compilation, 137 tests,
+18 numeric claim bindings, Nb1/Nb4/A16/A23/A22–A23 verifiers, 8,815 repository
+validations and the research gate against the current integration base.
+These are verification checks, not biological reruns or scientific acceptance.
+No new failure occurred. The earlier failed metadata execution remains retained.
+
+[PR #135](https://github.com/xorca0711/scRNA_seq/pull/135) is open against main;
+the remote branch is `codex/nb5-aging-atlas-plan`. GitHub reported it mergeable
+with checks still running at publication. Review and CI completion are the
+next integration steps; no merge was requested or performed. Public raw input
+caches, unrelated primary-checkout edits and private files were not published.
+The two primary metadata-file hashes remain unchanged. GitHub protection and
+other external settings were not modified or freshly audited.
+
+
+## Scientific review and proposed A24–A27 registration
+
+3 October 2026. Under the owner's requested scientific review and explicit
+instruction to preserve distinct biological targets/cell contexts, Codex screened
+24 canonical cards and 33 prior article candidates against eight Nb5 cards:
+57 prior cards and 456 recorded comparisons. The bounded matrix, targeted
+primary-source review and access limitations are in `rq_review/`. This was an
+agent scientific review, not independent peer review or exhaustive novelty
+certification. The additional 2026 urothelial lead remains abstract-only.
+
+Proposed A24–A27 now cover bladder stromal/barrier maintenance, regional
+microglial middle-age organization, paired spleen/marrow CD8 context and
+within-spleen CD8 state attribution. P03 extends A3's normal-age reference;
+P05/P07/P08 remain explicit supporting branches. A27's within-state precedent,
+A26's outcome-exposed narrowing and missing marrow support, and all other
+source/functional unknowns are preserved. No human retain/reject, preferred RQ,
+claim-grade promotion or new biological computation was performed.
+
+Validation initially passed the research gate and 26 governance tests but failed
+one of 9,006 repository checks: the layout validator still expected A0–A23.
+The explicit expected sequence was advanced to A0–A27; its strict equality and
+order checks remain intact. One adverse test with six cases verifies the valid
+sequence and rejects missing old/new IDs, duplication, reordering and an
+unregistered A28. The existing layout module is now explicitly declared as
+infrastructure in the registry. This change and the governance current-ID wording
+are flagged for explicit PR review; the authoring agent does not supply that
+approval. No scientific asset, frozen contract or archived output was exempted.
+
+All ten required checks then passed: compilation, 138 tests, 18 numeric claim
+bindings, Nb1/Nb4/A16/A23/A22–A23 archive verifiers, 9,006 repository validations
+and the research gate against `origin/main`. The gate covers all staged new
+registrations and the validator change. Checks were rerun because infrastructure
+changed; biological analyses were not rerun. Existing unfavorable outcomes and
+the earlier failed metadata execution remain unchanged.
+
+Main was fetched again before delivery and remains
+`073a69a758f25f988ecc18402477efa268c00927`. PR #135 is the existing integration
+vehicle. The primary checkout's unrelated metadata edits and private files are
+preserved; raw caches and local check logs are excluded. External settings were
+not changed. Publication and CI status are reported with the delivery;
+scientific acceptance and merge remain pending.

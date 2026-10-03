@@ -1,0 +1,11 @@
+dataset	layer	n_cells	n_genes	nonzero	min_nonzero	max_nonzero	finite	nonnegative	all_integer	row_sum_matches_deposited_n_counts	median_row_sum	duplicate_gene_ids	count_scale_supported
+Bladder_droplet	X	8817	19860	25904055	0.04639384523034096	10.0	True	True	False	False	6013.19091796875	0	False
+Bladder_droplet	raw.X	8817	19860	25904055	0.07367242127656937	4179.73095703125	True	True	False	False	10000.0	0	False
+Brain_Myeloid_facs	X	8956	22899	15979574	0.0022790078073740005	10.0	True	True	False	False	4953.536376953125	0	False
+Brain_Myeloid_facs	raw.X	8956	22899	15979574	0.00010030019620899111	9414.65234375	True	True	False	False	10000.0	0	False
+Kidney_droplet	X	19101	19860	44085048	0.03634713217616081	10.0	True	True	False	False	6539.81591796875	0	False
+Kidney_droplet	raw.X	19101	19860	44085048	0.08783178776502609	8051.63818359375	True	True	False	False	10000.0	0	False
+Lung_droplet	X	17491	19860	35977008	0.0699259340763092	10.0	True	True	False	False	5650.40185546875	0	False
+Lung_droplet	raw.X	17491	19860	35977008	0.0954444408416748	8144.5	True	True	False	False	10000.0	0	False
+Lung_facs	X	3532	22899	7385690	0.001122118323110044	10.0	True	True	False	False	4602.6708984375	0	False
+Lung_facs	raw.X	3532	22899	7385690	0.00068363529862836	9959.43359375	True	True	False	False	10000.0	0	False

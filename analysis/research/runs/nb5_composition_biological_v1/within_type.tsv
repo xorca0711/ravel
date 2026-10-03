@@ -1,0 +1,1393 @@
+dataset	sex_scope	gene	endpoint	cell_type	n_3m	n_24m	mean_3m	mean_24m	difference	min_cells_3m	min_cells_24m
+Lung_facs	all_observed_sexes	Apoe	mean_expression	B cell	6	4	3.6151344138761	16.5411750639809	12.9260406501048	2	14
+Lung_facs	all_observed_sexes	Apoe	mean_expression	endothelial cell	6	4	6.43334685443098	5.03886646863717	-1.39448038579381	27	210
+Lung_facs	all_observed_sexes	Apoe	mean_expression	epithelial cell	6	4	21.2429523246798	107.443941233426	86.2009889087464	5	2
+Lung_facs	all_observed_sexes	Apoe	mean_expression	granulocyte	6	4	0.0928238397365379	2.78935878452381	2.69653494478727	1	1
+Lung_facs	all_observed_sexes	Apoe	mean_expression	lymphocyte	6	4	42.3014126968449	11.1632963769904	-31.1381163198546	10	5
+Lung_facs	all_observed_sexes	Apoe	mean_expression	monocyte	6	4	60.000637225058	66.8117882984663	6.8111510734083	5	15
+Lung_facs	all_observed_sexes	Apoe	mean_expression	myeloid cell	6	4	35.4566937432931	48.0885852926246	12.6318915493315	13	28
+Lung_facs	all_observed_sexes	Apoe	mean_expression	stromal cell	6	4	19.1860912853347	51.2615509808171	32.0754596954824	22	33
+Lung_facs	all_observed_sexes	Apoe	detected_fraction	B cell	6	4	0.587654320987654	0.583563954427925	-0.00409036655972927	2	14
+Lung_facs	all_observed_sexes	Apoe	detected_fraction	endothelial cell	6	4	0.666223103119749	0.234885254180227	-0.431337848939522	27	210
+Lung_facs	all_observed_sexes	Apoe	detected_fraction	epithelial cell	6	4	0.817898158402035	0.80186318131257	-0.0160349770894649	5	2
+Lung_facs	all_observed_sexes	Apoe	detected_fraction	granulocyte	6	4	0.728787878787879	0.548582995951417	-0.180204882836462	1	1
+Lung_facs	all_observed_sexes	Apoe	detected_fraction	lymphocyte	6	4	0.934375	0.345277777777778	-0.589097222222222	10	5
+Lung_facs	all_observed_sexes	Apoe	detected_fraction	monocyte	6	4	0.934500392395129	0.851660587975243	-0.082839804419886	5	15
+Lung_facs	all_observed_sexes	Apoe	detected_fraction	myeloid cell	6	4	0.857980557814524	0.740711097328745	-0.117269460485779	13	28
+Lung_facs	all_observed_sexes	Apoe	detected_fraction	stromal cell	6	4	0.744711665146448	0.729523725354847	-0.0151879397916005	22	33
+Lung_facs	all_observed_sexes	B2m	mean_expression	B cell	6	4	29.9106038829427	52.6417219151984	22.7311180322557	2	14
+Lung_facs	all_observed_sexes	B2m	mean_expression	endothelial cell	6	4	39.4106110887294	73.0207090247911	33.6100979360618	27	210
+Lung_facs	all_observed_sexes	B2m	mean_expression	epithelial cell	6	4	3.75339426571966	22.8976205687746	19.144226303055	5	2
+Lung_facs	all_observed_sexes	B2m	mean_expression	granulocyte	6	4	19.9849798004566	55.0177332628393	35.0327534623826	1	1
+Lung_facs	all_observed_sexes	B2m	mean_expression	lymphocyte	6	4	26.337411844825	88.0660141747528	61.7286023299278	10	5
+Lung_facs	all_observed_sexes	B2m	mean_expression	monocyte	6	4	38.6121062727334	66.5544333073283	27.9423270345949	5	15
+Lung_facs	all_observed_sexes	B2m	mean_expression	myeloid cell	6	4	16.3173490255143	22.7630247995689	6.44567577405466	13	28
+Lung_facs	all_observed_sexes	B2m	mean_expression	stromal cell	6	4	26.2206682849669	44.0105025338844	17.7898342489175	22	33
+Lung_facs	all_observed_sexes	B2m	detected_fraction	B cell	6	4	1	0.990384615384615	-0.00961538461538458	2	14
+Lung_facs	all_observed_sexes	B2m	detected_fraction	endothelial cell	6	4	0.974005923174181	0.98284610780683	0.00884018463264979	27	210
+Lung_facs	all_observed_sexes	B2m	detected_fraction	epithelial cell	6	4	0.937626635494852	0.967185761957731	0.0295591264628784	5	2
+Lung_facs	all_observed_sexes	B2m	detected_fraction	granulocyte	6	4	1	1	0	1	1
+Lung_facs	all_observed_sexes	B2m	detected_fraction	lymphocyte	6	4	1	0.993055555555556	-0.00694444444444442	10	5
+Lung_facs	all_observed_sexes	B2m	detected_fraction	monocyte	6	4	1	1	0	5	15
+Lung_facs	all_observed_sexes	B2m	detected_fraction	myeloid cell	6	4	0.983193277310924	0.988137458725694	0.0049441814147696	13	28
+Lung_facs	all_observed_sexes	B2m	detected_fraction	stromal cell	6	4	0.965361305361305	0.973150171355347	0.00778886599404138	22	33
+Lung_facs	all_observed_sexes	Bst2	mean_expression	B cell	6	4	0.440762040111018	2.29090292905347	1.85014088894245	2	14
+Lung_facs	all_observed_sexes	Bst2	mean_expression	endothelial cell	6	4	3.53137200337076	8.42872854769813	4.89735654432737	27	210
+Lung_facs	all_observed_sexes	Bst2	mean_expression	epithelial cell	6	4	0.167316551829204	1.09528089800389	0.927964346174689	5	2
+Lung_facs	all_observed_sexes	Bst2	mean_expression	granulocyte	6	4	0.8171546459198	0.87208552089961	0.0549308749798098	1	1
+Lung_facs	all_observed_sexes	Bst2	mean_expression	lymphocyte	6	4	3.38840593100306	6.49139150969891	3.10298557869585	10	5
+Lung_facs	all_observed_sexes	Bst2	mean_expression	monocyte	6	4	0.757785466797699	1.08102995419006	0.323244487392366	5	15
+Lung_facs	all_observed_sexes	Bst2	mean_expression	myeloid cell	6	4	0.476566033278935	1.54316600486711	1.06659997158818	13	28
+Lung_facs	all_observed_sexes	Bst2	mean_expression	stromal cell	6	4	0.72692074824295	2.18331644419334	1.45639569595039	22	33
+Lung_facs	all_observed_sexes	Bst2	detected_fraction	B cell	6	4	0.103086419753086	0.327928046218487	0.224841626465401	2	14
+Lung_facs	all_observed_sexes	Bst2	detected_fraction	endothelial cell	6	4	0.73052004160767	0.705929001608499	-0.0245910399991711	27	210
+Lung_facs	all_observed_sexes	Bst2	detected_fraction	epithelial cell	6	4	0.303237151880563	0.496074698382818	0.192837546502256	5	2
+Lung_facs	all_observed_sexes	Bst2	detected_fraction	granulocyte	6	4	0.166666666666667	0.289473684210526	0.12280701754386	1	1
+Lung_facs	all_observed_sexes	Bst2	detected_fraction	lymphocyte	6	4	0.737044552669553	0.863611111111111	0.126566558441558	10	5
+Lung_facs	all_observed_sexes	Bst2	detected_fraction	monocyte	6	4	0.480241006556796	0.37298574270557	-0.107255263851226	5	15
+Lung_facs	all_observed_sexes	Bst2	detected_fraction	myeloid cell	6	4	0.381529141846979	0.502707943884414	0.121178802037436	13	28
+Lung_facs	all_observed_sexes	Bst2	detected_fraction	stromal cell	6	4	0.350259788520658	0.502014381310533	0.151754592789875	22	33
+Lung_facs	all_observed_sexes	Cd38	mean_expression	B cell	6	4	2.26203939588511	1.52199836886428	-0.740041027020825	2	14
+Lung_facs	all_observed_sexes	Cd38	mean_expression	endothelial cell	6	4	1.40585859736645	0.343643682393257	-1.0622149149732	27	210
+Lung_facs	all_observed_sexes	Cd38	mean_expression	epithelial cell	6	4	0.0600017877272125	0.174502082425295	0.114500294698083	5	2
+Lung_facs	all_observed_sexes	Cd38	mean_expression	granulocyte	6	4	0.00107172718906603	0.00123581431263128	0.000164087123565242	1	1
+Lung_facs	all_observed_sexes	Cd38	mean_expression	lymphocyte	6	4	0.740889486010757	0.265523318055396	-0.475366167955361	10	5
+Lung_facs	all_observed_sexes	Cd38	mean_expression	monocyte	6	4	0.389737668934427	0.028625324425789	-0.361112344508638	5	15
+Lung_facs	all_observed_sexes	Cd38	mean_expression	myeloid cell	6	4	0.0210319876728229	0.115333560923575	0.0943015732507522	13	28
+Lung_facs	all_observed_sexes	Cd38	mean_expression	stromal cell	6	4	0.193760783466916	0.145020928194805	-0.0487398552721109	22	33
+Lung_facs	all_observed_sexes	Cd38	detected_fraction	B cell	6	4	0.435185185185185	0.399078862314156	-0.0361063228710288	2	14
+Lung_facs	all_observed_sexes	Cd38	detected_fraction	endothelial cell	6	4	0.341858578418891	0.138177065798825	-0.203681512620066	27	210
+Lung_facs	all_observed_sexes	Cd38	detected_fraction	epithelial cell	6	4	0.0330646815142939	0.118785830409857	0.0857211488955632	5	2
+Lung_facs	all_observed_sexes	Cd38	detected_fraction	granulocyte	6	4	0.0359848484848485	0.0323886639676113	-0.00359618451723716	1	1
+Lung_facs	all_observed_sexes	Cd38	detected_fraction	lymphocyte	6	4	0.184059343434343	0.103333333333333	-0.0807260101010101	10	5
+Lung_facs	all_observed_sexes	Cd38	detected_fraction	monocyte	6	4	0.0694805194805195	0.0294871794871794	-0.03999333999334	5	15
+Lung_facs	all_observed_sexes	Cd38	detected_fraction	myeloid cell	6	4	0.0403786783530616	0.027012832159891	-0.0133658461931707	13	28
+Lung_facs	all_observed_sexes	Cd38	detected_fraction	stromal cell	6	4	0.0479078409513192	0.068197122162363	0.0202892812110438	22	33
+Lung_facs	all_observed_sexes	Cdkn1a	mean_expression	B cell	6	4	0.348689135709594	1.07732037125648	0.728631235546882	2	14
+Lung_facs	all_observed_sexes	Cdkn1a	mean_expression	endothelial cell	6	4	9.72215206896214	10.2513443179485	0.529192248986311	27	210
+Lung_facs	all_observed_sexes	Cdkn1a	mean_expression	epithelial cell	6	4	2.22780780723365	5.75284958537546	3.52504177814181	5	2
+Lung_facs	all_observed_sexes	Cdkn1a	mean_expression	granulocyte	6	4	0.588140338014416	3.22318252974646	2.63504219173204	1	1
+Lung_facs	all_observed_sexes	Cdkn1a	mean_expression	lymphocyte	6	4	5.85674983840345	44.666012653668	38.8092628152645	10	5
+Lung_facs	all_observed_sexes	Cdkn1a	mean_expression	monocyte	6	4	6.16961780658038	4.43062228590875	-1.73899552067164	5	15
+Lung_facs	all_observed_sexes	Cdkn1a	mean_expression	myeloid cell	6	4	5.80003320444406	3.71003837112996	-2.0899948333141	13	28
+Lung_facs	all_observed_sexes	Cdkn1a	mean_expression	stromal cell	6	4	1.96027936028884	6.58365369930306	4.62337433901422	22	33
+Lung_facs	all_observed_sexes	Cdkn1a	detected_fraction	B cell	6	4	0.247530864197531	0.223784946670976	-0.0237459175265548	2	14
+Lung_facs	all_observed_sexes	Cdkn1a	detected_fraction	endothelial cell	6	4	0.766940117826401	0.631150637788501	-0.1357894800379	27	210
+Lung_facs	all_observed_sexes	Cdkn1a	detected_fraction	epithelial cell	6	4	0.583935236454616	0.572783862411226	-0.0111513740433902	5	2
+Lung_facs	all_observed_sexes	Cdkn1a	detected_fraction	granulocyte	6	4	0.112121212121212	0.189271255060729	0.0771500429395166	1	1
+Lung_facs	all_observed_sexes	Cdkn1a	detected_fraction	lymphocyte	6	4	0.630438311688312	0.879166666666667	0.248728354978355	10	5
+Lung_facs	all_observed_sexes	Cdkn1a	detected_fraction	monocyte	6	4	0.822595630490367	0.598861626878868	-0.223734003611499	5	15
+Lung_facs	all_observed_sexes	Cdkn1a	detected_fraction	myeloid cell	6	4	0.614484300750904	0.551845114345114	-0.0626391864057898	13	28
+Lung_facs	all_observed_sexes	Cdkn1a	detected_fraction	stromal cell	6	4	0.383798182493835	0.527432200494126	0.143634018000291	22	33
+Lung_facs	all_observed_sexes	Cdkn2a	mean_expression	B cell	6	4	0.0292904986275567	0.0196561056834001	-0.00963439294415661	2	14
+Lung_facs	all_observed_sexes	Cdkn2a	mean_expression	endothelial cell	6	4	0.0112408058101578	0.0187620006324767	0.00752119482231897	27	210
+Lung_facs	all_observed_sexes	Cdkn2a	mean_expression	epithelial cell	6	4	0	0	0	5	2
+Lung_facs	all_observed_sexes	Cdkn2a	mean_expression	granulocyte	6	4	0	0	0	1	1
+Lung_facs	all_observed_sexes	Cdkn2a	mean_expression	lymphocyte	6	4	0	0.311110282043616	0.311110282043616	10	5
+Lung_facs	all_observed_sexes	Cdkn2a	mean_expression	monocyte	6	4	0	0	0	5	15
+Lung_facs	all_observed_sexes	Cdkn2a	mean_expression	myeloid cell	6	4	0	0	0	13	28
+Lung_facs	all_observed_sexes	Cdkn2a	mean_expression	stromal cell	6	4	0.00224604778819613	0.0168281971609183	0.0145821493727222	22	33
+Lung_facs	all_observed_sexes	Cdkn2a	detected_fraction	B cell	6	4	0.0111111111111111	0.0096153846153846	-0.0014957264957265	2	14
+Lung_facs	all_observed_sexes	Cdkn2a	detected_fraction	endothelial cell	6	4	0.0113864622182048	0.0116153256275015	0.000228863409296783	27	210
+Lung_facs	all_observed_sexes	Cdkn2a	detected_fraction	epithelial cell	6	4	0	0	0	5	2
+Lung_facs	all_observed_sexes	Cdkn2a	detected_fraction	granulocyte	6	4	0	0	0	1	1
+Lung_facs	all_observed_sexes	Cdkn2a	detected_fraction	lymphocyte	6	4	0	0.137777777777778	0.137777777777778	10	5
+Lung_facs	all_observed_sexes	Cdkn2a	detected_fraction	monocyte	6	4	0	0	0	5	15
+Lung_facs	all_observed_sexes	Cdkn2a	detected_fraction	myeloid cell	6	4	0	0	0	13	28
+Lung_facs	all_observed_sexes	Cdkn2a	detected_fraction	stromal cell	6	4	0.00666666666666667	0.0287478094382807	0.022081142771614	22	33
+Lung_facs	all_observed_sexes	Clec7a	mean_expression	B cell	6	4	0.000129546628644067	0.0004049857961945	0.000275439167550433	2	14
+Lung_facs	all_observed_sexes	Clec7a	mean_expression	endothelial cell	6	4	0.0122394362467418	0.0666587016086231	0.0544192653618812	27	210
+Lung_facs	all_observed_sexes	Clec7a	mean_expression	epithelial cell	6	4	0.0782346359434576	0.0724299989678047	-0.00580463697565291	5	2
+Lung_facs	all_observed_sexes	Clec7a	mean_expression	granulocyte	6	4	9.05863766038057	15.2213198269011	6.16268216652054	1	1
+Lung_facs	all_observed_sexes	Clec7a	mean_expression	lymphocyte	6	4	0.0001511955210431	0.0054677895454612	0.0053165940244181	10	5
+Lung_facs	all_observed_sexes	Clec7a	mean_expression	monocyte	6	4	3.25328849733052	1.89653613193517	-1.35675236539535	5	15
+Lung_facs	all_observed_sexes	Clec7a	mean_expression	myeloid cell	6	4	1.02091231613552	0.867763292939542	-0.153149023195981	13	28
+Lung_facs	all_observed_sexes	Clec7a	mean_expression	stromal cell	6	4	0.394383128133206	0.286702265513664	-0.107680862619542	22	33
+Lung_facs	all_observed_sexes	Clec7a	detected_fraction	B cell	6	4	0.0111111111111111	0.0078125	-0.0032986111111111	2	14
+Lung_facs	all_observed_sexes	Clec7a	detected_fraction	endothelial cell	6	4	0.0156279181231458	0.0196629633785957	0.00403504525544989	27	210
+Lung_facs	all_observed_sexes	Clec7a	detected_fraction	epithelial cell	6	4	0.02503588860178	0.21307863438008	0.1880427457783	5	2
+Lung_facs	all_observed_sexes	Clec7a	detected_fraction	granulocyte	6	4	0.692045454545455	0.780026990553306	0.0879815360078519	1	1
+Lung_facs	all_observed_sexes	Clec7a	detected_fraction	lymphocyte	6	4	0.00757575757575757	0.0708333333333333	0.0632575757575758	10	5
+Lung_facs	all_observed_sexes	Clec7a	detected_fraction	monocyte	6	4	0.677761322498165	0.510645999115827	-0.167115323382338	5	15
+Lung_facs	all_observed_sexes	Clec7a	detected_fraction	myeloid cell	6	4	0.22485140044438	0.278252153252153	0.0534007528077736	13	28
+Lung_facs	all_observed_sexes	Clec7a	detected_fraction	stromal cell	6	4	0.0895723117462248	0.0775019013041781	-0.0120704104420467	22	33
+Lung_facs	all_observed_sexes	Cst7	mean_expression	B cell	6	4	0	0	0	2	14
+Lung_facs	all_observed_sexes	Cst7	mean_expression	endothelial cell	6	4	0.000158703670006417	0.00857334842154282	0.00841464475153641	27	210
+Lung_facs	all_observed_sexes	Cst7	mean_expression	epithelial cell	6	4	0.000901028162075383	0.0002364060540815	-0.000664622107993883	5	2
+Lung_facs	all_observed_sexes	Cst7	mean_expression	granulocyte	6	4	0	0	0	1	1
+Lung_facs	all_observed_sexes	Cst7	mean_expression	lymphocyte	6	4	0.000285173770010683	0	-0.000285173770010683	10	5
+Lung_facs	all_observed_sexes	Cst7	mean_expression	monocyte	6	4	5.50866790228667e-05	0.0476228090432974	0.0475677223642745	5	15
+Lung_facs	all_observed_sexes	Cst7	mean_expression	myeloid cell	6	4	0	0.164634378478978	0.164634378478978	13	28
+Lung_facs	all_observed_sexes	Cst7	mean_expression	stromal cell	6	4	1.84821898985634	0.194974434817957	-1.65324455503839	22	33
+Lung_facs	all_observed_sexes	Cst7	detected_fraction	B cell	6	4	0	0	0	2	14
+Lung_facs	all_observed_sexes	Cst7	detected_fraction	endothelial cell	6	4	0.00551465018331667	0.0142501776830135	0.00873552749969678	27	210
+Lung_facs	all_observed_sexes	Cst7	detected_fraction	epithelial cell	6	4	0.0444444444444444	0.0166852057842046	-0.0277592386602398	5	2
+Lung_facs	all_observed_sexes	Cst7	detected_fraction	granulocyte	6	4	0	0	0	1	1
+Lung_facs	all_observed_sexes	Cst7	detected_fraction	lymphocyte	6	4	0.0155122655122655	0	-0.0155122655122655	10	5
+Lung_facs	all_observed_sexes	Cst7	detected_fraction	monocyte	6	4	0.00757575757575757	0.0128205128205128	0.00524475524475523	5	15
+Lung_facs	all_observed_sexes	Cst7	detected_fraction	myeloid cell	6	4	0	0.0860940530058176	0.0860940530058176	13	28
+Lung_facs	all_observed_sexes	Cst7	detected_fraction	stromal cell	6	4	0.196718016283234	0.0325484073520814	-0.164169608931152	22	33
+Lung_facs	all_observed_sexes	Fth1	mean_expression	B cell	6	4	26.8403410583918	48.3465598187609	21.5062187603691	2	14
+Lung_facs	all_observed_sexes	Fth1	mean_expression	endothelial cell	6	4	19.7308862294151	27.1222202506132	7.39133402119815	27	210
+Lung_facs	all_observed_sexes	Fth1	mean_expression	epithelial cell	6	4	20.6183168690349	49.9303000957613	29.3119832267263	5	2
+Lung_facs	all_observed_sexes	Fth1	mean_expression	granulocyte	6	4	97.9903247428663	108.583773554354	10.593448811488	1	1
+Lung_facs	all_observed_sexes	Fth1	mean_expression	lymphocyte	6	4	26.3195637835523	29.8364649607738	3.51690117722149	10	5
+Lung_facs	all_observed_sexes	Fth1	mean_expression	monocyte	6	4	23.122691510228	53.2602591512308	30.1375676410028	5	15
+Lung_facs	all_observed_sexes	Fth1	mean_expression	myeloid cell	6	4	30.9632931071703	53.8503134162945	22.8870203091242	13	28
+Lung_facs	all_observed_sexes	Fth1	mean_expression	stromal cell	6	4	18.2056486817885	53.2287942798499	35.0231455980613	22	33
+Lung_facs	all_observed_sexes	Fth1	detected_fraction	B cell	6	4	1	0.990384615384615	-0.00961538461538458	2	14
+Lung_facs	all_observed_sexes	Fth1	detected_fraction	endothelial cell	6	4	0.979521609852943	0.869284218007706	-0.110237391845238	27	210
+Lung_facs	all_observed_sexes	Fth1	detected_fraction	epithelial cell	6	4	1	1	0	5	2
+Lung_facs	all_observed_sexes	Fth1	detected_fraction	granulocyte	6	4	1	1	0	1	1
+Lung_facs	all_observed_sexes	Fth1	detected_fraction	lymphocyte	6	4	0.995238095238095	1	0.00476190476190474	10	5
+Lung_facs	all_observed_sexes	Fth1	detected_fraction	monocyte	6	4	1	1	0	5	15
+Lung_facs	all_observed_sexes	Fth1	detected_fraction	myeloid cell	6	4	1	1	0	13	28
+Lung_facs	all_observed_sexes	Fth1	detected_fraction	stromal cell	6	4	0.979347319347319	0.968333028074311	-0.0110142912730081	22	33
+Lung_facs	all_observed_sexes	H2-D1	mean_expression	B cell	6	4	72.8531786728604	102.756701263537	29.9035225906766	2	14
+Lung_facs	all_observed_sexes	H2-D1	mean_expression	endothelial cell	6	4	104.484709664226	140.77747982853	36.2927701643036	27	210
+Lung_facs	all_observed_sexes	H2-D1	mean_expression	epithelial cell	6	4	25.438943834504	72.4615679070818	47.0226240725778	5	2
+Lung_facs	all_observed_sexes	H2-D1	mean_expression	granulocyte	6	4	139.16639836557	118.273530362589	-20.8928680029812	1	1
+Lung_facs	all_observed_sexes	H2-D1	mean_expression	lymphocyte	6	4	71.9785835317547	145.474162428843	73.495578897088	10	5
+Lung_facs	all_observed_sexes	H2-D1	mean_expression	monocyte	6	4	92.9970825044327	104.437774877693	11.4406923732602	5	15
+Lung_facs	all_observed_sexes	H2-D1	mean_expression	myeloid cell	6	4	39.8569219731138	47.2149203584722	7.35799838535844	13	28
+Lung_facs	all_observed_sexes	H2-D1	mean_expression	stromal cell	6	4	64.273382085791	101.8873146055	37.6139325197093	22	33
+Lung_facs	all_observed_sexes	H2-D1	detected_fraction	B cell	6	4	1	1	0	2	14
+Lung_facs	all_observed_sexes	H2-D1	detected_fraction	endothelial cell	6	4	0.977574670579852	0.984969419818202	0.00739474923835026	27	210
+Lung_facs	all_observed_sexes	H2-D1	detected_fraction	epithelial cell	6	4	1	0.983314794215795	-0.0166852057842046	5	2
+Lung_facs	all_observed_sexes	H2-D1	detected_fraction	granulocyte	6	4	1	1	0	1	1
+Lung_facs	all_observed_sexes	H2-D1	detected_fraction	lymphocyte	6	4	1	1	0	10	5
+Lung_facs	all_observed_sexes	H2-D1	detected_fraction	monocyte	6	4	1	1	0	5	15
+Lung_facs	all_observed_sexes	H2-D1	detected_fraction	myeloid cell	6	4	0.956604730395053	0.972078696343402	0.0154739659483492	13	28
+Lung_facs	all_observed_sexes	H2-D1	detected_fraction	stromal cell	6	4	0.987487922705314	0.972687400318979	-0.0148005223863349	22	33
+Lung_facs	all_observed_sexes	H2-K1	mean_expression	B cell	6	4	38.3612755866422	72.432075132643	34.0707995460007	2	14
+Lung_facs	all_observed_sexes	H2-K1	mean_expression	endothelial cell	6	4	49.4976871916001	89.1910481748279	39.6933609832279	27	210
+Lung_facs	all_observed_sexes	H2-K1	mean_expression	epithelial cell	6	4	10.4353038656541	46.532260723351	36.0969568576969	5	2
+Lung_facs	all_observed_sexes	H2-K1	mean_expression	granulocyte	6	4	12.667524074502	21.5442602502486	8.87673617574662	1	1
+Lung_facs	all_observed_sexes	H2-K1	mean_expression	lymphocyte	6	4	27.6721312408922	78.3712855438645	50.6991543029723	10	5
+Lung_facs	all_observed_sexes	H2-K1	mean_expression	monocyte	6	4	29.9254004016611	47.2724126424433	17.3470122407822	5	15
+Lung_facs	all_observed_sexes	H2-K1	mean_expression	myeloid cell	6	4	14.732986932966	22.2624107284105	7.52942379544453	13	28
+Lung_facs	all_observed_sexes	H2-K1	mean_expression	stromal cell	6	4	39.4186493262714	67.0970661886398	27.6784168623684	22	33
+Lung_facs	all_observed_sexes	H2-K1	detected_fraction	B cell	6	4	0.922222222222222	1	0.0777777777777778	2	14
+Lung_facs	all_observed_sexes	H2-K1	detected_fraction	endothelial cell	6	4	0.965176744192288	0.973767908577414	0.00859116438512542	27	210
+Lung_facs	all_observed_sexes	H2-K1	detected_fraction	epithelial cell	6	4	0.927032320249375	0.991935483870968	0.0649031636215932	5	2
+Lung_facs	all_observed_sexes	H2-K1	detected_fraction	granulocyte	6	4	0.868181818181818	0.684547908232119	-0.183633909949699	1	1
+Lung_facs	all_observed_sexes	H2-K1	detected_fraction	lymphocyte	6	4	0.973710317460318	0.96	-0.0137103174603176	10	5
+Lung_facs	all_observed_sexes	H2-K1	detected_fraction	monocyte	6	4	1	1	0	5	15
+Lung_facs	all_observed_sexes	H2-K1	detected_fraction	myeloid cell	6	4	0.839232802302062	0.923810688516571	0.0845778862145087	13	28
+Lung_facs	all_observed_sexes	H2-K1	detected_fraction	stromal cell	6	4	0.879149690888821	0.953355108476912	0.0742054175880904	22	33
+Lung_facs	all_observed_sexes	Ifi204	mean_expression	B cell	6	4	0	0	0	2	14
+Lung_facs	all_observed_sexes	Ifi204	mean_expression	endothelial cell	6	4	0.105996216341776	0.0119755759185052	-0.0940206404232704	27	210
+Lung_facs	all_observed_sexes	Ifi204	mean_expression	epithelial cell	6	4	0.0027960859989935	0.0222548056425976	0.0194587196436041	5	2
+Lung_facs	all_observed_sexes	Ifi204	mean_expression	granulocyte	6	4	0.348422279129877	0.00083243237951625	-0.347589846750361	1	1
+Lung_facs	all_observed_sexes	Ifi204	mean_expression	lymphocyte	6	4	4.02569874293167e-05	0.00711254030466077	0.00707228331723146	10	5
+Lung_facs	all_observed_sexes	Ifi204	mean_expression	monocyte	6	4	1.81270124518974	0.733243409747112	-1.07945783544263	5	15
+Lung_facs	all_observed_sexes	Ifi204	mean_expression	myeloid cell	6	4	0.264556743255482	0.108004571677242	-0.156552171578241	13	28
+Lung_facs	all_observed_sexes	Ifi204	mean_expression	stromal cell	6	4	0.0856886510016496	0.0422281583242676	-0.0434604926773819	22	33
+Lung_facs	all_observed_sexes	Ifi204	detected_fraction	B cell	6	4	0	0	0	2	14
+Lung_facs	all_observed_sexes	Ifi204	detected_fraction	endothelial cell	6	4	0.07416845519518	0.0183088317809449	-0.0558596234142351	27	210
+Lung_facs	all_observed_sexes	Ifi204	detected_fraction	epithelial cell	6	4	0.00387596899224805	0.0172413793103448	0.0133654103180968	5	2
+Lung_facs	all_observed_sexes	Ifi204	detected_fraction	granulocyte	6	4	0.123484848484848	0.0192307692307692	-0.104254079254079	1	1
+Lung_facs	all_observed_sexes	Ifi204	detected_fraction	lymphocyte	6	4	0.00793650793650793	0.0138888888888889	0.00595238095238094	10	5
+Lung_facs	all_observed_sexes	Ifi204	detected_fraction	monocyte	6	4	0.612635123161439	0.283081896551724	-0.329553226609715	5	15
+Lung_facs	all_observed_sexes	Ifi204	detected_fraction	myeloid cell	6	4	0.135221685862103	0.0520154527507468	-0.0832062331113564	13	28
+Lung_facs	all_observed_sexes	Ifi204	detected_fraction	stromal cell	6	4	0.0437927772710381	0.0330572134183988	-0.0107355638526393	22	33
+Lung_facs	all_observed_sexes	Ifit2	mean_expression	B cell	6	4	0.404805342356364	0.0018904870641349	-0.402914855292229	2	14
+Lung_facs	all_observed_sexes	Ifit2	mean_expression	endothelial cell	6	4	0.151811127096041	0.0382637303190116	-0.113547396777029	27	210
+Lung_facs	all_observed_sexes	Ifit2	mean_expression	epithelial cell	6	4	0	0.00085918076576725	0.00085918076576725	5	2
+Lung_facs	all_observed_sexes	Ifit2	mean_expression	granulocyte	6	4	0	0	0	1	1
+Lung_facs	all_observed_sexes	Ifit2	mean_expression	lymphocyte	6	4	0.200079831107913	0.0346397877567344	-0.165440043351179	10	5
+Lung_facs	all_observed_sexes	Ifit2	mean_expression	monocyte	6	4	0.0893127840468566	0.0276649338075484	-0.0616478502393082	5	15
+Lung_facs	all_observed_sexes	Ifit2	mean_expression	myeloid cell	6	4	0.409709571540493	0.152552866399831	-0.257156705140661	13	28
+Lung_facs	all_observed_sexes	Ifit2	mean_expression	stromal cell	6	4	0.497088354483104	0.0566967066865105	-0.440391647796593	22	33
+Lung_facs	all_observed_sexes	Ifit2	detected_fraction	B cell	6	4	0.0277777777777778	0.0151654411764706	-0.0126123366013072	2	14
+Lung_facs	all_observed_sexes	Ifit2	detected_fraction	endothelial cell	6	4	0.0839406031252227	0.0216263606778139	-0.0623142424474088	27	210
+Lung_facs	all_observed_sexes	Ifit2	detected_fraction	epithelial cell	6	4	0	0.00806451612903225	0.00806451612903225	5	2
+Lung_facs	all_observed_sexes	Ifit2	detected_fraction	granulocyte	6	4	0	0	0	1	1
+Lung_facs	all_observed_sexes	Ifit2	detected_fraction	lymphocyte	6	4	0.0931457431457431	0.0486111111111111	-0.044534632034632	10	5
+Lung_facs	all_observed_sexes	Ifit2	detected_fraction	monocyte	6	4	0.0617123617123617	0.0339080459770115	-0.0278043157353502	5	15
+Lung_facs	all_observed_sexes	Ifit2	detected_fraction	myeloid cell	6	4	0.110695576824609	0.0608883366236307	-0.0498072402009784	13	28
+Lung_facs	all_observed_sexes	Ifit2	detected_fraction	stromal cell	6	4	0.108875038005473	0.0139689236468409	-0.0949061143586319	22	33
+Lung_facs	all_observed_sexes	Ifit3	mean_expression	B cell	6	4	0.607797442821579	0.195483277534446	-0.412314165287132	2	14
+Lung_facs	all_observed_sexes	Ifit3	mean_expression	endothelial cell	6	4	0.810109814636893	0.796681922236455	-0.0134278924004381	27	210
+Lung_facs	all_observed_sexes	Ifit3	mean_expression	epithelial cell	6	4	0.00990306506237693	0.0638988356410813	0.0539957705787043	5	2
+Lung_facs	all_observed_sexes	Ifit3	mean_expression	granulocyte	6	4	0	0.0518802679502047	0.0518802679502047	1	1
+Lung_facs	all_observed_sexes	Ifit3	mean_expression	lymphocyte	6	4	0.304132230971734	0.105090836220317	-0.199041394751417	10	5
+Lung_facs	all_observed_sexes	Ifit3	mean_expression	monocyte	6	4	0.352607444341859	0.104585086039344	-0.248022358302515	5	15
+Lung_facs	all_observed_sexes	Ifit3	mean_expression	myeloid cell	6	4	0.079129192061215	0.418833987112389	0.339704795051174	13	28
+Lung_facs	all_observed_sexes	Ifit3	mean_expression	stromal cell	6	4	0.22613316683334	0.95249721268177	0.72636404584843	22	33
+Lung_facs	all_observed_sexes	Ifit3	detected_fraction	B cell	6	4	0.05	0.0380726809954751	-0.0119273190045249	2	14
+Lung_facs	all_observed_sexes	Ifit3	detected_fraction	endothelial cell	6	4	0.12998768318512	0.13582042793551	0.00583274475039061	27	210
+Lung_facs	all_observed_sexes	Ifit3	detected_fraction	epithelial cell	6	4	0.0100488084984209	0.0247497219132369	0.014700913414816	5	2
+Lung_facs	all_observed_sexes	Ifit3	detected_fraction	granulocyte	6	4	0	0.0192307692307692	0.0192307692307692	1	1
+Lung_facs	all_observed_sexes	Ifit3	detected_fraction	lymphocyte	6	4	0.0909361471861472	0.0408333333333333	-0.0501028138528139	10	5
+Lung_facs	all_observed_sexes	Ifit3	detected_fraction	monocyte	6	4	0.116936280094175	0.0236516357206012	-0.0932846443735736	5	15
+Lung_facs	all_observed_sexes	Ifit3	detected_fraction	myeloid cell	6	4	0.0636387516131349	0.11057146351264	0.0469327118995051	13	28
+Lung_facs	all_observed_sexes	Ifit3	detected_fraction	stromal cell	6	4	0.0645930880713489	0.110843448731091	0.0462503606597418	22	33
+Lung_facs	all_observed_sexes	Ifitm3	mean_expression	B cell	6	4	0.0164574919527189	2.97287404122228	2.95641654926956	2	14
+Lung_facs	all_observed_sexes	Ifitm3	mean_expression	endothelial cell	6	4	18.8842518149563	39.908782649132	21.0245308341757	27	210
+Lung_facs	all_observed_sexes	Ifitm3	mean_expression	epithelial cell	6	4	1.22714332951594	3.12582879714997	1.89868546763403	5	2
+Lung_facs	all_observed_sexes	Ifitm3	mean_expression	granulocyte	6	4	5.20545371625234	7.94847734638725	2.74302363013491	1	1
+Lung_facs	all_observed_sexes	Ifitm3	mean_expression	lymphocyte	6	4	14.8649093138885	15.6241731352349	0.759263821346416	10	5
+Lung_facs	all_observed_sexes	Ifitm3	mean_expression	monocyte	6	4	35.601578214623	41.3173124568091	5.71573424218608	5	15
+Lung_facs	all_observed_sexes	Ifitm3	mean_expression	myeloid cell	6	4	13.6403894193943	17.7285570493902	4.0881676299959	13	28
+Lung_facs	all_observed_sexes	Ifitm3	mean_expression	stromal cell	6	4	7.35367030308338	13.2857074440461	5.93203714096274	22	33
+Lung_facs	all_observed_sexes	Ifitm3	detected_fraction	B cell	6	4	0.254320987654321	0.239925056561086	-0.014395931093235	2	14
+Lung_facs	all_observed_sexes	Ifitm3	detected_fraction	endothelial cell	6	4	0.939699098721006	0.885759174054539	-0.0539399246664666	27	210
+Lung_facs	all_observed_sexes	Ifitm3	detected_fraction	epithelial cell	6	4	0.416160124687256	0.585490288354582	0.169330163667326	5	2
+Lung_facs	all_observed_sexes	Ifitm3	detected_fraction	granulocyte	6	4	0.817045454545455	0.407557354925776	-0.409488099619679	1	1
+Lung_facs	all_observed_sexes	Ifitm3	detected_fraction	lymphocyte	6	4	0.943294552669553	0.864444444444444	-0.0788501082251082	10	5
+Lung_facs	all_observed_sexes	Ifitm3	detected_fraction	monocyte	6	4	1	0.984375	-0.015625	5	15
+Lung_facs	all_observed_sexes	Ifitm3	detected_fraction	myeloid cell	6	4	0.969063431824343	0.961796152972624	-0.00726727885171918	13	28
+Lung_facs	all_observed_sexes	Ifitm3	detected_fraction	stromal cell	6	4	0.683074220465525	0.740393121102819	0.0573189006372941	22	33
+Lung_facs	all_observed_sexes	Il1b	mean_expression	B cell	6	4	0	0.00044385144428815	0.00044385144428815	2	14
+Lung_facs	all_observed_sexes	Il1b	mean_expression	endothelial cell	6	4	0.0358114573214781	0.377005162433402	0.341193705111924	27	210
+Lung_facs	all_observed_sexes	Il1b	mean_expression	epithelial cell	6	4	0.0400991586967233	0.595152687781676	0.555053529084953	5	2
+Lung_facs	all_observed_sexes	Il1b	mean_expression	granulocyte	6	4	115.174002298081	123.419877784616	8.2458754865352	1	1
+Lung_facs	all_observed_sexes	Il1b	mean_expression	lymphocyte	6	4	0.000803699374365517	0.0130390980177455	0.01223539864338	10	5
+Lung_facs	all_observed_sexes	Il1b	mean_expression	monocyte	6	4	3.09683229112964	7.7238403385685	4.62700804743886	5	15
+Lung_facs	all_observed_sexes	Il1b	mean_expression	myeloid cell	6	4	1.56495742086336	1.67222740126035	0.10726998039699	13	28
+Lung_facs	all_observed_sexes	Il1b	mean_expression	stromal cell	6	4	0.194632529974604	0.852120929252947	0.657488399278342	22	33
+Lung_facs	all_observed_sexes	Il1b	detected_fraction	B cell	6	4	0	0.015625	0.015625	2	14
+Lung_facs	all_observed_sexes	Il1b	detected_fraction	endothelial cell	6	4	0.0381118563283821	0.0238852728837018	-0.0142265834446803	27	210
+Lung_facs	all_observed_sexes	Il1b	detected_fraction	epithelial cell	6	4	0.0100488084984209	0.102774450243861	0.0927256417454398	5	2
+Lung_facs	all_observed_sexes	Il1b	detected_fraction	granulocyte	6	4	1	0.934210526315789	-0.0657894736842105	1	1
+Lung_facs	all_observed_sexes	Il1b	detected_fraction	lymphocyte	6	4	0.0525252525252525	0.0138888888888889	-0.0386363636363636	10	5
+Lung_facs	all_observed_sexes	Il1b	detected_fraction	monocyte	6	4	0.483691552112605	0.587505526083112	0.103813973970507	5	15
+Lung_facs	all_observed_sexes	Il1b	detected_fraction	myeloid cell	6	4	0.215613842724848	0.229065846712906	0.0134520039880571	13	28
+Lung_facs	all_observed_sexes	Il1b	detected_fraction	stromal cell	6	4	0.0629863855950812	0.114624516632186	0.0516381310371043	22	33
+Lung_facs	all_observed_sexes	Irf7	mean_expression	B cell	6	4	0.061443054197747	0.394039168183829	0.332596113986082	2	14
+Lung_facs	all_observed_sexes	Irf7	mean_expression	endothelial cell	6	4	0.32847728605715	0.394568068061491	0.0660907820043414	27	210
+Lung_facs	all_observed_sexes	Irf7	mean_expression	epithelial cell	6	4	0.00819154376664232	0.245013537883602	0.23682199411696	5	2
+Lung_facs	all_observed_sexes	Irf7	mean_expression	granulocyte	6	4	0.551974592832002	0.627538190676998	0.0755635978449961	1	1
+Lung_facs	all_observed_sexes	Irf7	mean_expression	lymphocyte	6	4	0.179173918062899	0.0718835454020235	-0.107290372660875	10	5
+Lung_facs	all_observed_sexes	Irf7	mean_expression	monocyte	6	4	1.44248651668501	1.1508000827421	-0.291686433942916	5	15
+Lung_facs	all_observed_sexes	Irf7	mean_expression	myeloid cell	6	4	0.402490310758702	0.331632519586549	-0.0708577911721527	13	28
+Lung_facs	all_observed_sexes	Irf7	mean_expression	stromal cell	6	4	0.585803444759492	0.409410531352844	-0.176392913406648	22	33
+Lung_facs	all_observed_sexes	Irf7	detected_fraction	B cell	6	4	0.0345679012345679	0.148826357466063	0.114258456231495	2	14
+Lung_facs	all_observed_sexes	Irf7	detected_fraction	endothelial cell	6	4	0.122577663055801	0.122130886918789	-0.000446776137011912	27	210
+Lung_facs	all_observed_sexes	Irf7	detected_fraction	epithelial cell	6	4	0.0454585537918871	0.0844207238812355	0.0389621700893484	5	2
+Lung_facs	all_observed_sexes	Irf7	detected_fraction	granulocyte	6	4	0.110984848484848	0.121794871794872	0.0108100233100233	1	1
+Lung_facs	all_observed_sexes	Irf7	detected_fraction	lymphocyte	6	4	0.10748556998557	0.0847222222222222	-0.0227633477633478	10	5
+Lung_facs	all_observed_sexes	Irf7	detected_fraction	monocyte	6	4	0.562418672944989	0.374696065428824	-0.187722607516165	5	15
+Lung_facs	all_observed_sexes	Irf7	detected_fraction	myeloid cell	6	4	0.150478264093065	0.0996173937350407	-0.0508608703580241	13	28
+Lung_facs	all_observed_sexes	Irf7	detected_fraction	stromal cell	6	4	0.174751190838147	0.147236560643315	-0.0275146301948321	22	33
+Lung_facs	all_observed_sexes	Itga1	mean_expression	B cell	6	4	0.000278657095299817	0.0540200024250604	0.0537413453297605	2	14
+Lung_facs	all_observed_sexes	Itga1	mean_expression	endothelial cell	6	4	3.92245637505985	1.21426586472704	-2.70819051033281	27	210
+Lung_facs	all_observed_sexes	Itga1	mean_expression	epithelial cell	6	4	0.110276927545264	0.00264803434793765	-0.107628893197327	5	2
+Lung_facs	all_observed_sexes	Itga1	mean_expression	granulocyte	6	4	0	0	0	1	1
+Lung_facs	all_observed_sexes	Itga1	mean_expression	lymphocyte	6	4	0.253426663821361	0.558313981405421	0.30488731758406	10	5
+Lung_facs	all_observed_sexes	Itga1	mean_expression	monocyte	6	4	0.08767850695144	0.0664544986650696	-0.0212240082863704	5	15
+Lung_facs	all_observed_sexes	Itga1	mean_expression	myeloid cell	6	4	0.233293043844317	0.0639244914407234	-0.169368552403593	13	28
+Lung_facs	all_observed_sexes	Itga1	mean_expression	stromal cell	6	4	2.6379460286772	0.422456500577402	-2.2154895280998	22	33
+Lung_facs	all_observed_sexes	Itga1	detected_fraction	B cell	6	4	0.00617283950617283	0.0307197398190045	0.0245469003128317	2	14
+Lung_facs	all_observed_sexes	Itga1	detected_fraction	endothelial cell	6	4	0.590309902367897	0.350926289604609	-0.239383612763288	27	210
+Lung_facs	all_observed_sexes	Itga1	detected_fraction	epithelial cell	6	4	0.0879547598539846	0.0096153846153846	-0.0783393752386	5	2
+Lung_facs	all_observed_sexes	Itga1	detected_fraction	granulocyte	6	4	0	0	0	1	1
+Lung_facs	all_observed_sexes	Itga1	detected_fraction	lymphocyte	6	4	0.200816197691198	0.300277777777778	0.0994615800865801	10	5
+Lung_facs	all_observed_sexes	Itga1	detected_fraction	monocyte	6	4	0.156727677780309	0.0370662024756852	-0.119661475304624	5	15
+Lung_facs	all_observed_sexes	Itga1	detected_fraction	myeloid cell	6	4	0.13453921684472	0.0355876238229179	-0.0989515930218018	13	28
+Lung_facs	all_observed_sexes	Itga1	detected_fraction	stromal cell	6	4	0.187410898280463	0.127706096613496	-0.0597048016669677	22	33
+Lung_facs	all_observed_sexes	Itgal	mean_expression	B cell	6	4	0.753995357648136	0.254966427317756	-0.49902893033038	2	14
+Lung_facs	all_observed_sexes	Itgal	mean_expression	endothelial cell	6	4	0.00610923073841415	0.167847313934382	0.161738083195968	27	210
+Lung_facs	all_observed_sexes	Itgal	mean_expression	epithelial cell	6	4	0.587677445271206	0.410377627686781	-0.177299817584425	5	2
+Lung_facs	all_observed_sexes	Itgal	mean_expression	granulocyte	6	4	9.5032914194984	2.74134743810153	-6.76194398139687	1	1
+Lung_facs	all_observed_sexes	Itgal	mean_expression	lymphocyte	6	4	0.00115410780541202	0.0005146753004131	-0.000639432504998916	10	5
+Lung_facs	all_observed_sexes	Itgal	mean_expression	monocyte	6	4	5.97142975114538	6.35331572101257	0.381885969867192	5	15
+Lung_facs	all_observed_sexes	Itgal	mean_expression	myeloid cell	6	4	1.16759594983102	0.36179271725665	-0.805803232574367	13	28
+Lung_facs	all_observed_sexes	Itgal	mean_expression	stromal cell	6	4	0.924093590667276	0.606114218294629	-0.317979372372648	22	33
+Lung_facs	all_observed_sexes	Itgal	detected_fraction	B cell	6	4	0.285802469135802	0.162512120232708	-0.123290348903094	2	14
+Lung_facs	all_observed_sexes	Itgal	detected_fraction	endothelial cell	6	4	0.0282098321640181	0.086191691916358	0.0579818597523399	27	210
+Lung_facs	all_observed_sexes	Itgal	detected_fraction	epithelial cell	6	4	0.0698771584430499	0.159664584581159	0.0897874261381086	5	2
+Lung_facs	all_observed_sexes	Itgal	detected_fraction	granulocyte	6	4	0.698863636363636	0.534412955465587	-0.164450680898049	1	1
+Lung_facs	all_observed_sexes	Itgal	detected_fraction	lymphocyte	6	4	0.0203598484848485	0.0569444444444444	0.0365845959595959	10	5
+Lung_facs	all_observed_sexes	Itgal	detected_fraction	monocyte	6	4	0.808664337611706	0.751588748894783	-0.0570755887169225	5	15
+Lung_facs	all_observed_sexes	Itgal	detected_fraction	myeloid cell	6	4	0.258110564324986	0.131654116948235	-0.126456447376751	13	28
+Lung_facs	all_observed_sexes	Itgal	detected_fraction	stromal cell	6	4	0.252165805209283	0.119837388847148	-0.132328416362135	22	33
+Lung_facs	all_observed_sexes	Lmnb1	mean_expression	B cell	6	4	0.0557741614713989	0.153671204105622	0.0978970426342232	2	14
+Lung_facs	all_observed_sexes	Lmnb1	mean_expression	endothelial cell	6	4	0.0481274893725113	0.098178835598424	0.0500513462259126	27	210
+Lung_facs	all_observed_sexes	Lmnb1	mean_expression	epithelial cell	6	4	0.0615526453854346	0.0635141675745835	0.00196152218914894	5	2
+Lung_facs	all_observed_sexes	Lmnb1	mean_expression	granulocyte	6	4	1.68679534934574	0.874960695703824	-0.811834653641916	1	1
+Lung_facs	all_observed_sexes	Lmnb1	mean_expression	lymphocyte	6	4	0.0185640236149134	0	-0.0185640236149134	10	5
+Lung_facs	all_observed_sexes	Lmnb1	mean_expression	monocyte	6	4	0.114560531809342	0.0408745185465843	-0.0736860132627576	5	15
+Lung_facs	all_observed_sexes	Lmnb1	mean_expression	myeloid cell	6	4	0.11970548886333	0.119077320662245	-0.000628168201085091	13	28
+Lung_facs	all_observed_sexes	Lmnb1	mean_expression	stromal cell	6	4	0.0236919823263369	0.16185686438723	0.138164882060894	22	33
+Lung_facs	all_observed_sexes	Lmnb1	detected_fraction	B cell	6	4	0.0802469135802469	0.0674187944408532	-0.0128281191393936	2	14
+Lung_facs	all_observed_sexes	Lmnb1	detected_fraction	endothelial cell	6	4	0.0528985845297998	0.0762746418284517	0.0233760572986519	27	210
+Lung_facs	all_observed_sexes	Lmnb1	detected_fraction	epithelial cell	6	4	0.109900127148189	0.10110592966544	-0.00879419748274891	5	2
+Lung_facs	all_observed_sexes	Lmnb1	detected_fraction	granulocyte	6	4	0.625378787878788	0.37280701754386	-0.252571770334928	1	1
+Lung_facs	all_observed_sexes	Lmnb1	detected_fraction	lymphocyte	6	4	0.06002886002886	0	-0.06002886002886	10	5
+Lung_facs	all_observed_sexes	Lmnb1	detected_fraction	monocyte	6	4	0.161603503708767	0.065511715296198	-0.0960917884125688	5	15
+Lung_facs	all_observed_sexes	Lmnb1	detected_fraction	myeloid cell	6	4	0.139800498363117	0.13494295847237	-0.00485753989074675	13	28
+Lung_facs	all_observed_sexes	Lmnb1	detected_fraction	stromal cell	6	4	0.0633380629032803	0.0972021861797752	0.0338641232764949	22	33
+Lung_facs	all_observed_sexes	Lpl	mean_expression	B cell	6	4	0.00148619848797902	0.102000407967624	0.100514209479645	2	14
+Lung_facs	all_observed_sexes	Lpl	mean_expression	endothelial cell	6	4	4.36803056132373	1.46653864228939	-2.90149191903434	27	210
+Lung_facs	all_observed_sexes	Lpl	mean_expression	epithelial cell	6	4	1.04808298457214	0.828324519557553	-0.219758465014588	5	2
+Lung_facs	all_observed_sexes	Lpl	mean_expression	granulocyte	6	4	0.00286672221722475	0	-0.00286672221722475	1	1
+Lung_facs	all_observed_sexes	Lpl	mean_expression	lymphocyte	6	4	1.05494805673108	0.3898585870743	-0.66508946965678	10	5
+Lung_facs	all_observed_sexes	Lpl	mean_expression	monocyte	6	4	0.423887352068759	0.365712987455012	-0.0581743646137478	5	15
+Lung_facs	all_observed_sexes	Lpl	mean_expression	myeloid cell	6	4	0.873507331120244	0.210093619496151	-0.663413711624093	13	28
+Lung_facs	all_observed_sexes	Lpl	mean_expression	stromal cell	6	4	1.14142761450717	1.2998007172738	0.158373102766624	22	33
+Lung_facs	all_observed_sexes	Lpl	detected_fraction	B cell	6	4	0.0679012345679012	0.135852658371041	0.0679514238031395	2	14
+Lung_facs	all_observed_sexes	Lpl	detected_fraction	endothelial cell	6	4	0.513395029120872	0.266134085213033	-0.24726094390784	27	210
+Lung_facs	all_observed_sexes	Lpl	detected_fraction	epithelial cell	6	4	0.427952093843567	0.339490459484898	-0.0884616343586689	5	2
+Lung_facs	all_observed_sexes	Lpl	detected_fraction	granulocyte	6	4	0.0901515151515151	0	-0.0901515151515151	1	1
+Lung_facs	all_observed_sexes	Lpl	detected_fraction	lymphocyte	6	4	0.419146825396825	0.185	-0.234146825396825	10	5
+Lung_facs	all_observed_sexes	Lpl	detected_fraction	monocyte	6	4	0.25727956254272	0.159902740937224	-0.0973768216054967	5	15
+Lung_facs	all_observed_sexes	Lpl	detected_fraction	myeloid cell	6	4	0.238132337302167	0.135861257184787	-0.10227108011738	13	28
+Lung_facs	all_observed_sexes	Lpl	detected_fraction	stromal cell	6	4	0.234591398939225	0.245403636127307	0.0108122371880817	22	33
+Lung_facs	all_observed_sexes	Oas1a	mean_expression	B cell	6	4	0.318867897842493	0.310014722637954	-0.00885317520453899	2	14
+Lung_facs	all_observed_sexes	Oas1a	mean_expression	endothelial cell	6	4	0.196063030496379	0.371430506213818	0.175367475717439	27	210
+Lung_facs	all_observed_sexes	Oas1a	mean_expression	epithelial cell	6	4	0.0152299765308133	0.168554022871235	0.153324046340422	5	2
+Lung_facs	all_observed_sexes	Oas1a	mean_expression	granulocyte	6	4	0.525412628867409	0	-0.525412628867409	1	1
+Lung_facs	all_observed_sexes	Oas1a	mean_expression	lymphocyte	6	4	0.0874666142676558	0.177896636881762	0.0904300226141063	10	5
+Lung_facs	all_observed_sexes	Oas1a	mean_expression	monocyte	6	4	1.37864676006412	0.584893251139897	-0.793753508924223	5	15
+Lung_facs	all_observed_sexes	Oas1a	mean_expression	myeloid cell	6	4	0.558142470343803	0.242904475704304	-0.315237994639499	13	28
+Lung_facs	all_observed_sexes	Oas1a	mean_expression	stromal cell	6	4	0.161830397059211	0.391486740742346	0.229656343683136	22	33
+Lung_facs	all_observed_sexes	Oas1a	detected_fraction	B cell	6	4	0.0561728395061728	0.106940853264383	0.0507680137582098	2	14
+Lung_facs	all_observed_sexes	Oas1a	detected_fraction	endothelial cell	6	4	0.086612821405113	0.0951024950435791	0.00848967363846609	27	210
+Lung_facs	all_observed_sexes	Oas1a	detected_fraction	epithelial cell	6	4	0.0433821418317542	0.0418734491315136	-0.00150869270024059	5	2
+Lung_facs	all_observed_sexes	Oas1a	detected_fraction	granulocyte	6	4	0.0484848484848485	0	-0.0484848484848485	1	1
+Lung_facs	all_observed_sexes	Oas1a	detected_fraction	lymphocyte	6	4	0.0294372294372294	0.104722222222222	0.0752849927849928	10	5
+Lung_facs	all_observed_sexes	Oas1a	detected_fraction	monocyte	6	4	0.458246626667679	0.223905835543767	-0.234340791123913	5	15
+Lung_facs	all_observed_sexes	Oas1a	detected_fraction	myeloid cell	6	4	0.136322440473294	0.0948097014273484	-0.0415127390459459	13	28
+Lung_facs	all_observed_sexes	Oas1a	detected_fraction	stromal cell	6	4	0.0595986622073578	0.0964812989460686	0.0368826367387107	22	33
+Lung_facs	all_observed_sexes	Oasl2	mean_expression	B cell	6	4	0.0728687707754427	0.0473281845413	-0.0255405862341426	2	14
+Lung_facs	all_observed_sexes	Oasl2	mean_expression	endothelial cell	6	4	1.25622231321543	0.617074510691176	-0.639147802524251	27	210
+Lung_facs	all_observed_sexes	Oasl2	mean_expression	epithelial cell	6	4	0.0433971181533915	0.101837174908664	0.0584400567552724	5	2
+Lung_facs	all_observed_sexes	Oasl2	mean_expression	granulocyte	6	4	2.52865308855068	1.8227126888237	-0.705940399726974	1	1
+Lung_facs	all_observed_sexes	Oasl2	mean_expression	lymphocyte	6	4	0.46166131231446	0.206742869025264	-0.254918443289195	10	5
+Lung_facs	all_observed_sexes	Oasl2	mean_expression	monocyte	6	4	1.25682807687261	0.49991504282262	-0.756913034049989	5	15
+Lung_facs	all_observed_sexes	Oasl2	mean_expression	myeloid cell	6	4	0.627453294374948	0.142618304446109	-0.484834989928839	13	28
+Lung_facs	all_observed_sexes	Oasl2	mean_expression	stromal cell	6	4	0.162319817816027	0.592118450471832	0.429798632655804	22	33
+Lung_facs	all_observed_sexes	Oasl2	detected_fraction	B cell	6	4	0.0623456790123456	0.0605203619909502	-0.00182531702139545	2	14
+Lung_facs	all_observed_sexes	Oasl2	detected_fraction	endothelial cell	6	4	0.277079095679677	0.167892211872966	-0.109186883806711	27	210
+Lung_facs	all_observed_sexes	Oasl2	detected_fraction	epithelial cell	6	4	0.0689912226733932	0.0859715923675879	0.0169803696941947	5	2
+Lung_facs	all_observed_sexes	Oasl2	detected_fraction	granulocyte	6	4	0.228409090909091	0.110323886639676	-0.118085204269415	1	1
+Lung_facs	all_observed_sexes	Oasl2	detected_fraction	lymphocyte	6	4	0.150067640692641	0.254722222222222	0.104654581529582	10	5
+Lung_facs	all_observed_sexes	Oasl2	detected_fraction	monocyte	6	4	0.386078833447254	0.163409040671972	-0.222669792775283	5	15
+Lung_facs	all_observed_sexes	Oasl2	detected_fraction	myeloid cell	6	4	0.155425520083964	0.101562090532679	-0.0538634295512853	13	28
+Lung_facs	all_observed_sexes	Oasl2	detected_fraction	stromal cell	6	4	0.0840431066518023	0.13631165206511	0.0522685454133078	22	33
+Lung_facs	all_observed_sexes	P2ry12	mean_expression	B cell	6	4	0.0059834205706454	0.0006526770234546	-0.0053307435471908	2	14
+Lung_facs	all_observed_sexes	P2ry12	mean_expression	endothelial cell	6	4	0.022951826666908	0.0130202760292751	-0.00993155063763288	27	210
+Lung_facs	all_observed_sexes	P2ry12	mean_expression	epithelial cell	6	4	0.0240300128610225	0.112952399004905	0.088922386143883	5	2
+Lung_facs	all_observed_sexes	P2ry12	mean_expression	granulocyte	6	4	0.00877784883998557	0.00352959177995982	-0.00524825706002574	1	1
+Lung_facs	all_observed_sexes	P2ry12	mean_expression	lymphocyte	6	4	0.00873007940780318	0.0020647756755352	-0.00666530373226798	10	5
+Lung_facs	all_observed_sexes	P2ry12	mean_expression	monocyte	6	4	0.0682026419402384	0.0945030923661155	0.0263004504258771	5	15
+Lung_facs	all_observed_sexes	P2ry12	mean_expression	myeloid cell	6	4	0.0116785275142417	0.0170048280054434	0.00532630049120175	13	28
+Lung_facs	all_observed_sexes	P2ry12	mean_expression	stromal cell	6	4	0.0102204024380782	0.0671105989240255	0.0568901964859473	22	33
+Lung_facs	all_observed_sexes	P2ry12	detected_fraction	B cell	6	4	0.147530864197531	0.00735294117647058	-0.14017792302106	2	14
+Lung_facs	all_observed_sexes	P2ry12	detected_fraction	endothelial cell	6	4	0.202704058289914	0.0219499307971421	-0.180754127492772	27	210
+Lung_facs	all_observed_sexes	P2ry12	detected_fraction	epithelial cell	6	4	0.175653172552397	0.0339265850945495	-0.141726587457848	5	2
+Lung_facs	all_observed_sexes	P2ry12	detected_fraction	granulocyte	6	4	0.29280303030303	0.0131578947368421	-0.279645135566188	1	1
+Lung_facs	all_observed_sexes	P2ry12	detected_fraction	lymphocyte	6	4	0.131074134199134	0.0138888888888889	-0.117185245310245	10	5
+Lung_facs	all_observed_sexes	P2ry12	detected_fraction	monocyte	6	4	0.209782030834662	0.0645833333333333	-0.145198697501329	5	15
+Lung_facs	all_observed_sexes	P2ry12	detected_fraction	myeloid cell	6	4	0.136507386246475	0.0219223344223344	-0.114585051824141	13	28
+Lung_facs	all_observed_sexes	P2ry12	detected_fraction	stromal cell	6	4	0.112371541501976	0.021242458378917	-0.0911290831230593	22	33
+Lung_facs	all_observed_sexes	Rtp4	mean_expression	B cell	6	4	0.370066122296784	1.55194241510561	1.18187629280883	2	14
+Lung_facs	all_observed_sexes	Rtp4	mean_expression	endothelial cell	6	4	1.81171011084548	2.86559325587352	1.05388314502805	27	210
+Lung_facs	all_observed_sexes	Rtp4	mean_expression	epithelial cell	6	4	0.1393542977816	0.712666665749767	0.573312367968167	5	2
+Lung_facs	all_observed_sexes	Rtp4	mean_expression	granulocyte	6	4	1.48189976853177	0.0133031065526761	-1.4685966619791	1	1
+Lung_facs	all_observed_sexes	Rtp4	mean_expression	lymphocyte	6	4	0.663561273409604	2.74376010224637	2.08019882883677	10	5
+Lung_facs	all_observed_sexes	Rtp4	mean_expression	monocyte	6	4	1.45227712472494	0.464263939251259	-0.988013185473683	5	15
+Lung_facs	all_observed_sexes	Rtp4	mean_expression	myeloid cell	6	4	0.327483211647988	0.488202356094017	0.160719144446028	13	28
+Lung_facs	all_observed_sexes	Rtp4	mean_expression	stromal cell	6	4	0.484170312207582	0.96270857190933	0.478538259701748	22	33
+Lung_facs	all_observed_sexes	Rtp4	detected_fraction	B cell	6	4	0.162345679012346	0.150912047511312	-0.0114336315010334	2	14
+Lung_facs	all_observed_sexes	Rtp4	detected_fraction	endothelial cell	6	4	0.304316988229814	0.270198350353496	-0.0341186378763186	27	210
+Lung_facs	all_observed_sexes	Rtp4	detected_fraction	epithelial cell	6	4	0.163286985767606	0.159226063147086	-0.00406092262051941	5	2
+Lung_facs	all_observed_sexes	Rtp4	detected_fraction	granulocyte	6	4	0.470454545454545	0.0263157894736842	-0.444138755980861	1	1
+Lung_facs	all_observed_sexes	Rtp4	detected_fraction	lymphocyte	6	4	0.192762445887446	0.399722222222222	0.206959776334776	10	5
+Lung_facs	all_observed_sexes	Rtp4	detected_fraction	monocyte	6	4	0.354898610161768	0.13273375331565	-0.222164856846118	5	15
+Lung_facs	all_observed_sexes	Rtp4	detected_fraction	myeloid cell	6	4	0.102858724134815	0.18786797463268	0.0850092504978652	13	28
+Lung_facs	all_observed_sexes	Rtp4	detected_fraction	stromal cell	6	4	0.144029255768386	0.181645324793958	0.0376160690255722	22	33
+Lung_facs	all_observed_sexes	Stat1	mean_expression	B cell	6	4	0.955166167395051	0.526213027909086	-0.428953139485966	2	14
+Lung_facs	all_observed_sexes	Stat1	mean_expression	endothelial cell	6	4	1.24607502473043	1.02711033493318	-0.218964689797253	27	210
+Lung_facs	all_observed_sexes	Stat1	mean_expression	epithelial cell	6	4	0.155568158340097	0.224122029315663	0.0685538709755659	5	2
+Lung_facs	all_observed_sexes	Stat1	mean_expression	granulocyte	6	4	1.98889353273041	3.07621769646281	1.08732416373239	1	1
+Lung_facs	all_observed_sexes	Stat1	mean_expression	lymphocyte	6	4	0.750331801316173	0.409876634458908	-0.340455166857265	10	5
+Lung_facs	all_observed_sexes	Stat1	mean_expression	monocyte	6	4	2.1615129462642	1.36049639183509	-0.801016554429113	5	15
+Lung_facs	all_observed_sexes	Stat1	mean_expression	myeloid cell	6	4	0.715666272495197	0.434595747629808	-0.28107052486539	13	28
+Lung_facs	all_observed_sexes	Stat1	mean_expression	stromal cell	6	4	1.37874706958853	0.930618332389088	-0.448128737199446	22	33
+Lung_facs	all_observed_sexes	Stat1	detected_fraction	B cell	6	4	0.318518518518518	0.242142049127343	-0.0763764693911753	2	14
+Lung_facs	all_observed_sexes	Stat1	detected_fraction	endothelial cell	6	4	0.359197861177227	0.300187502337934	-0.0590103588392923	27	210
+Lung_facs	all_observed_sexes	Stat1	detected_fraction	epithelial cell	6	4	0.138911447438579	0.21437280739283	0.0754613599542504	5	2
+Lung_facs	all_observed_sexes	Stat1	detected_fraction	granulocyte	6	4	0.470454545454545	0.302631578947368	-0.167822966507177	1	1
+Lung_facs	all_observed_sexes	Stat1	detected_fraction	lymphocyte	6	4	0.317180735930736	0.231111111111111	-0.0860696248196247	10	5
+Lung_facs	all_observed_sexes	Stat1	detected_fraction	monocyte	6	4	0.700212652844232	0.50582725464191	-0.194385398202322	5	15
+Lung_facs	all_observed_sexes	Stat1	detected_fraction	myeloid cell	6	4	0.284488882401596	0.216940154440154	-0.0675487279614415	13	28
+Lung_facs	all_observed_sexes	Stat1	detected_fraction	stromal cell	6	4	0.321907367994325	0.324991145847181	0.00308377785285624	22	33
+Lung_facs	all_observed_sexes	Tmem119	mean_expression	B cell	6	4	0.0156505639193418	0.00253772027907937	-0.0131128436402624	2	14
+Lung_facs	all_observed_sexes	Tmem119	mean_expression	endothelial cell	6	4	0.308978092515249	0.096877453557442	-0.212100638957807	27	210
+Lung_facs	all_observed_sexes	Tmem119	mean_expression	epithelial cell	6	4	0.0383990028827247	0.506116879463602	0.467717876580877	5	2
+Lung_facs	all_observed_sexes	Tmem119	mean_expression	granulocyte	6	4	0.00157525624769428	0.135727225165618	0.134151968917924	1	1
+Lung_facs	all_observed_sexes	Tmem119	mean_expression	lymphocyte	6	4	1.60092570430013	0.678327806834972	-0.922597897465162	10	5
+Lung_facs	all_observed_sexes	Tmem119	mean_expression	monocyte	6	4	0.0114494445925278	0.0464502233172689	0.0350007787247411	5	15
+Lung_facs	all_observed_sexes	Tmem119	mean_expression	myeloid cell	6	4	3.44944020926487	5.99018425141186	2.54074404214699	13	28
+Lung_facs	all_observed_sexes	Tmem119	mean_expression	stromal cell	6	4	4.74219800712585	3.21778847725865	-1.5244095298672	22	33
+Lung_facs	all_observed_sexes	Tmem119	detected_fraction	B cell	6	4	0.303086419753086	0.0288865546218487	-0.274199865131238	2	14
+Lung_facs	all_observed_sexes	Tmem119	detected_fraction	endothelial cell	6	4	0.28086195502794	0.0355740096509931	-0.245287945376947	27	210
+Lung_facs	all_observed_sexes	Tmem119	detected_fraction	epithelial cell	6	4	0.201186374635987	0.0962608026011808	-0.104925572034806	5	2
+Lung_facs	all_observed_sexes	Tmem119	detected_fraction	granulocyte	6	4	0.0875	0.0263157894736842	-0.0611842105263158	1	1
+Lung_facs	all_observed_sexes	Tmem119	detected_fraction	lymphocyte	6	4	0.586877705627706	0.133333333333333	-0.453544372294372	10	5
+Lung_facs	all_observed_sexes	Tmem119	detected_fraction	monocyte	6	4	0.219834940887572	0.0936035587975243	-0.126231382090048	5	15
+Lung_facs	all_observed_sexes	Tmem119	detected_fraction	myeloid cell	6	4	0.372955952438875	0.469335811247576	0.0963798588087013	13	28
+Lung_facs	all_observed_sexes	Tmem119	detected_fraction	stromal cell	6	4	0.435424141076315	0.334202870222573	-0.101221270853742	22	33
+Lung_facs	all_observed_sexes	Tnf	mean_expression	B cell	6	4	0.00020599210013945	0.0140613755211234	0.013855383420984	2	14
+Lung_facs	all_observed_sexes	Tnf	mean_expression	endothelial cell	6	4	0.0017168760583061	0.00211328490273985	0.00039640884443375	27	210
+Lung_facs	all_observed_sexes	Tnf	mean_expression	epithelial cell	6	4	0	0.029592190452958	0.029592190452958	5	2
+Lung_facs	all_observed_sexes	Tnf	mean_expression	granulocyte	6	4	0.204383707407749	0.606761785653921	0.402378078246172	1	1
+Lung_facs	all_observed_sexes	Tnf	mean_expression	lymphocyte	6	4	0	0	0	10	5
+Lung_facs	all_observed_sexes	Tnf	mean_expression	monocyte	6	4	0.00592215919870527	0.223317059094562	0.217394899895857	5	15
+Lung_facs	all_observed_sexes	Tnf	mean_expression	myeloid cell	6	4	0.00350454448618277	0.0469150068267848	0.043410462340602	13	28
+Lung_facs	all_observed_sexes	Tnf	mean_expression	stromal cell	6	4	0.00528356929620107	0.00589580605385432	0.000612236757653249	22	33
+Lung_facs	all_observed_sexes	Tnf	detected_fraction	B cell	6	4	0.0111111111111111	0.0078125	-0.0032986111111111	2	14
+Lung_facs	all_observed_sexes	Tnf	detected_fraction	endothelial cell	6	4	0.00318910402084658	0.00321980323944185	3.06992185952668e-05	27	210
+Lung_facs	all_observed_sexes	Tnf	detected_fraction	epithelial cell	6	4	0	0.0333704115684093	0.0333704115684093	5	2
+Lung_facs	all_observed_sexes	Tnf	detected_fraction	granulocyte	6	4	0.0303030303030303	0.0192307692307692	-0.0110722610722611	1	1
+Lung_facs	all_observed_sexes	Tnf	detected_fraction	lymphocyte	6	4	0	0	0	10	5
+Lung_facs	all_observed_sexes	Tnf	detected_fraction	monocyte	6	4	0.0315650236702868	0.0306559460654288	-0.000909077604857995	5	15
+Lung_facs	all_observed_sexes	Tnf	detected_fraction	myeloid cell	6	4	0.0157563025210084	0.0313761159349394	0.015619813413931	13	28
+Lung_facs	all_observed_sexes	Tnf	detected_fraction	stromal cell	6	4	0.00444444444444443	0.0149075130810055	0.0104630686365611	22	33
+Lung_facs	all_observed_sexes	Usp18	mean_expression	B cell	6	4	0.610657847077114	0.216281547359969	-0.394376299717145	2	14
+Lung_facs	all_observed_sexes	Usp18	mean_expression	endothelial cell	6	4	0.875664215396984	1.13555007396298	0.259885858565994	27	210
+Lung_facs	all_observed_sexes	Usp18	mean_expression	epithelial cell	6	4	0.885773310283915	1.66807290233337	0.782299592049453	5	2
+Lung_facs	all_observed_sexes	Usp18	mean_expression	granulocyte	6	4	0.0320834813597189	0.0210020397054522	-0.0110814416542667	1	1
+Lung_facs	all_observed_sexes	Usp18	mean_expression	lymphocyte	6	4	0.302837921566972	0.193995690180196	-0.108842231386777	10	5
+Lung_facs	all_observed_sexes	Usp18	mean_expression	monocyte	6	4	0.773151706512245	0.57630454851792	-0.196847157994325	5	15
+Lung_facs	all_observed_sexes	Usp18	mean_expression	myeloid cell	6	4	0.244775204129855	0.254503124033725	0.00972791990386981	13	28
+Lung_facs	all_observed_sexes	Usp18	mean_expression	stromal cell	6	4	0.452023540722569	0.591009287730784	0.138985747008215	22	33
+Lung_facs	all_observed_sexes	Usp18	detected_fraction	B cell	6	4	0.100617283950617	0.0967649078862314	-0.00385237606438589	2	14
+Lung_facs	all_observed_sexes	Usp18	detected_fraction	endothelial cell	6	4	0.17388935245721	0.182460816219654	0.00857146376244369	27	210
+Lung_facs	all_observed_sexes	Usp18	detected_fraction	epithelial cell	6	4	0.172109429473771	0.299467356892273	0.127357927418503	5	2
+Lung_facs	all_observed_sexes	Usp18	detected_fraction	granulocyte	6	4	0.0359848484848485	0.0394736842105263	0.00348883572567782	1	1
+Lung_facs	all_observed_sexes	Usp18	detected_fraction	lymphocyte	6	4	0.105104617604618	0.0555555555555555	-0.0495490620490621	10	5
+Lung_facs	all_observed_sexes	Usp18	detected_fraction	monocyte	6	4	0.212668033720665	0.119338527851459	-0.0933295058692064	5	15
+Lung_facs	all_observed_sexes	Usp18	detected_fraction	myeloid cell	6	4	0.0966337610312942	0.128357632034103	0.0317238710028084	13	28
+Lung_facs	all_observed_sexes	Usp18	detected_fraction	stromal cell	6	4	0.129228066619371	0.133256518018652	0.00402845139928135	22	33
+Lung_facs	male_only	Apoe	mean_expression	B cell	4	4	1.2973205174009	16.5411750639809	15.24385454658	2	14
+Lung_facs	male_only	Apoe	mean_expression	endothelial cell	4	4	8.64951046745376	5.03886646863717	-3.61064399881659	27	210
+Lung_facs	male_only	Apoe	mean_expression	epithelial cell	4	4	25.8897232749689	107.443941233426	81.5542179584573	5	2
+Lung_facs	male_only	Apoe	mean_expression	granulocyte	4	4	0.118156610359438	2.78935878452381	2.67120217416437	1	1
+Lung_facs	male_only	Apoe	mean_expression	lymphocyte	4	4	48.8530526834222	11.1632963769904	-37.6897563064318	10	5
+Lung_facs	male_only	Apoe	mean_expression	monocyte	4	4	35.3646107353517	66.8117882984663	31.4471775631147	5	15
+Lung_facs	male_only	Apoe	mean_expression	myeloid cell	4	4	35.2515725240375	48.0885852926246	12.8370127685871	13	28
+Lung_facs	male_only	Apoe	mean_expression	stromal cell	4	4	17.5453338804505	51.2615509808171	33.7162171003666	22	33
+Lung_facs	male_only	Apoe	detected_fraction	B cell	4	4	0.5	0.583563954427925	0.083563954427925	2	14
+Lung_facs	male_only	Apoe	detected_fraction	endothelial cell	4	4	0.631390831390831	0.234885254180227	-0.396505577210605	27	210
+Lung_facs	male_only	Apoe	detected_fraction	epithelial cell	4	4	0.82962962962963	0.80186318131257	-0.0277664483170601	5	2
+Lung_facs	male_only	Apoe	detected_fraction	granulocyte	4	4	0.8375	0.548582995951417	-0.288917004048583	1	1
+Lung_facs	male_only	Apoe	detected_fraction	lymphocyte	4	4	0.939285714285714	0.345277777777778	-0.594007936507936	10	5
+Lung_facs	male_only	Apoe	detected_fraction	monocyte	4	4	0.940892002734108	0.851660587975243	-0.0892314147588649	5	15
+Lung_facs	male_only	Apoe	detected_fraction	myeloid cell	4	4	0.949260752688172	0.740711097328745	-0.208549655359428	13	28
+Lung_facs	male_only	Apoe	detected_fraction	stromal cell	4	4	0.715980541197933	0.729523725354847	0.0135431841569147	22	33
+Lung_facs	male_only	B2m	mean_expression	B cell	4	4	27.5717730124791	52.6417219151984	25.0699489027193	2	14
+Lung_facs	male_only	B2m	mean_expression	endothelial cell	4	4	29.8134791002384	73.0207090247911	43.2072299245527	27	210
+Lung_facs	male_only	B2m	mean_expression	epithelial cell	4	4	4.28495983894035	22.8976205687746	18.6126607298343	5	2
+Lung_facs	male_only	B2m	mean_expression	granulocyte	4	4	17.5198643868789	55.0177332628393	37.4978688759604	1	1
+Lung_facs	male_only	B2m	mean_expression	lymphocyte	4	4	18.30839384851	88.0660141747528	69.7576203262427	10	5
+Lung_facs	male_only	B2m	mean_expression	monocyte	4	4	36.8202774441373	66.5544333073283	29.7341558631911	5	15
+Lung_facs	male_only	B2m	mean_expression	myeloid cell	4	4	15.9093758700875	22.7630247995689	6.85364892948149	13	28
+Lung_facs	male_only	B2m	mean_expression	stromal cell	4	4	20.8385713956352	44.0105025338844	23.1719311382492	22	33
+Lung_facs	male_only	B2m	detected_fraction	B cell	4	4	1	0.990384615384615	-0.00961538461538458	2	14
+Lung_facs	male_only	B2m	detected_fraction	endothelial cell	4	4	0.965792540792541	0.98284610780683	0.0170535670142896	27	210
+Lung_facs	male_only	B2m	detected_fraction	epithelial cell	4	4	0.956481481481481	0.967185761957731	0.0107042804762494	5	2
+Lung_facs	male_only	B2m	detected_fraction	granulocyte	4	4	1	1	0	1	1
+Lung_facs	male_only	B2m	detected_fraction	lymphocyte	4	4	1	0.993055555555556	-0.00694444444444442	10	5
+Lung_facs	male_only	B2m	detected_fraction	monocyte	4	4	1	1	0	5	15
+Lung_facs	male_only	B2m	detected_fraction	myeloid cell	4	4	1	0.988137458725694	-0.011862541274306	13	28
+Lung_facs	male_only	B2m	detected_fraction	stromal cell	4	4	0.948041958041958	0.973150171355347	0.0251082133133886	22	33
+Lung_facs	male_only	Bst2	mean_expression	B cell	4	4	0.228314518928528	2.29090292905347	2.06258841012494	2	14
+Lung_facs	male_only	Bst2	mean_expression	endothelial cell	4	4	2.49758622071531	8.42872854769813	5.93114232698282	27	210
+Lung_facs	male_only	Bst2	mean_expression	epithelial cell	4	4	0.138985025325652	1.09528089800389	0.95629587267824	5	2
+Lung_facs	male_only	Bst2	mean_expression	granulocyte	4	4	1.2257319688797	0.87208552089961	-0.35364644798009	1	1
+Lung_facs	male_only	Bst2	mean_expression	lymphocyte	4	4	2.07595153871795	6.49139150969891	4.41543997098096	10	5
+Lung_facs	male_only	Bst2	mean_expression	monocyte	4	4	0.58232445380385	1.08102995419006	0.498705500386214	5	15
+Lung_facs	male_only	Bst2	mean_expression	myeloid cell	4	4	0.366961749148298	1.54316600486711	1.17620425571882	13	28
+Lung_facs	male_only	Bst2	mean_expression	stromal cell	4	4	0.541705294809012	2.18331644419334	1.64161114938433	22	33
+Lung_facs	male_only	Bst2	detected_fraction	B cell	4	4	0.0416666666666667	0.327928046218487	0.286261379551821	2	14
+Lung_facs	male_only	Bst2	detected_fraction	endothelial cell	4	4	0.6878626003626	0.705929001608499	0.0180664012458985	27	210
+Lung_facs	male_only	Bst2	detected_fraction	epithelial cell	4	4	0.293518518518519	0.496074698382818	0.2025561798643	5	2
+Lung_facs	male_only	Bst2	detected_fraction	granulocyte	4	4	0.25	0.289473684210526	0.0394736842105263	1	1
+Lung_facs	male_only	Bst2	detected_fraction	lymphocyte	4	4	0.657575757575757	0.863611111111111	0.206035353535354	10	5
+Lung_facs	male_only	Bst2	detected_fraction	monocyte	4	4	0.43122009569378	0.37298574270557	-0.0582343529882097	5	15
+Lung_facs	male_only	Bst2	detected_fraction	myeloid cell	4	4	0.368512200165426	0.502707943884414	0.134195743718989	13	28
+Lung_facs	male_only	Bst2	detected_fraction	stromal cell	4	4	0.274592581331712	0.502014381310533	0.227421799978821	22	33
+Lung_facs	male_only	Cd38	mean_expression	B cell	4	4	2.86893048261603	1.52199836886428	-1.34693211375175	2	14
+Lung_facs	male_only	Cd38	mean_expression	endothelial cell	4	4	1.64397136486953	0.343643682393257	-1.30032768247628	27	210
+Lung_facs	male_only	Cd38	mean_expression	epithelial cell	4	4	0.0893071153649577	0.174502082425295	0.0851949670603374	5	2
+Lung_facs	male_only	Cd38	mean_expression	granulocyte	4	4	0	0.00123581431263128	0.00123581431263128	1	1
+Lung_facs	male_only	Cd38	mean_expression	lymphocyte	4	4	0.647825548401127	0.265523318055396	-0.38230223034573	10	5
+Lung_facs	male_only	Cd38	mean_expression	monocyte	4	4	0.584606503401641	0.028625324425789	-0.555981178975852	5	15
+Lung_facs	male_only	Cd38	mean_expression	myeloid cell	4	4	0.0208071555010974	0.115333560923575	0.0945264054224777	13	28
+Lung_facs	male_only	Cd38	mean_expression	stromal cell	4	4	0.261870520489203	0.145020928194805	-0.116849592294398	22	33
+Lung_facs	male_only	Cd38	detected_fraction	B cell	4	4	0.458333333333333	0.399078862314156	-0.0592544710191769	2	14
+Lung_facs	male_only	Cd38	detected_fraction	endothelial cell	4	4	0.323918673918674	0.138177065798825	-0.185741608119848	27	210
+Lung_facs	male_only	Cd38	detected_fraction	epithelial cell	4	4	0.0259259259259259	0.118785830409857	0.0928599044839312	5	2
+Lung_facs	male_only	Cd38	detected_fraction	granulocyte	4	4	0	0.0323886639676113	0.0323886639676113	1	1
+Lung_facs	male_only	Cd38	detected_fraction	lymphocyte	4	4	0.104437229437229	0.103333333333333	-0.00110389610389611	10	5
+Lung_facs	male_only	Cd38	detected_fraction	monocyte	4	4	0.104220779220779	0.0294871794871794	-0.0747335997335998	5	15
+Lung_facs	male_only	Cd38	detected_fraction	myeloid cell	4	4	0.0413978494623656	0.027012832159891	-0.0143850173024746	13	28
+Lung_facs	male_only	Cd38	detected_fraction	stromal cell	4	4	0.0422240802675585	0.068197122162363	0.0259730418948045	22	33
+Lung_facs	male_only	Cdkn1a	mean_expression	B cell	4	4	0.499909305906234	1.07732037125648	0.577411065350242	2	14
+Lung_facs	male_only	Cdkn1a	mean_expression	endothelial cell	4	4	9.61369474099144	10.2513443179485	0.637649576957019	27	210
+Lung_facs	male_only	Cdkn1a	mean_expression	epithelial cell	4	4	2.02189052213604	5.75284958537546	3.73095906323942	5	2
+Lung_facs	male_only	Cdkn1a	mean_expression	granulocyte	4	4	0.864224337344058	3.22318252974646	2.3589581924024	1	1
+Lung_facs	male_only	Cdkn1a	mean_expression	lymphocyte	4	4	3.89555833123355	44.666012653668	40.7704543224344	10	5
+Lung_facs	male_only	Cdkn1a	mean_expression	monocyte	4	4	7.7058293211485	4.43062228590875	-3.27520703523975	5	15
+Lung_facs	male_only	Cdkn1a	mean_expression	myeloid cell	4	4	6.04521475729356	3.71003837112996	-2.3351763861636	13	28
+Lung_facs	male_only	Cdkn1a	mean_expression	stromal cell	4	4	2.09200341338871	6.58365369930306	4.49165028591435	22	33
+Lung_facs	male_only	Cdkn1a	detected_fraction	B cell	4	4	0.291666666666667	0.223784946670976	-0.0678817199956906	2	14
+Lung_facs	male_only	Cdkn1a	detected_fraction	endothelial cell	4	4	0.738209013209013	0.631150637788501	-0.107058375420512	27	210
+Lung_facs	male_only	Cdkn1a	detected_fraction	epithelial cell	4	4	0.514814814814815	0.572783862411226	0.0579690475964113	5	2
+Lung_facs	male_only	Cdkn1a	detected_fraction	granulocyte	4	4	0.1	0.189271255060729	0.0892712550607287	1	1
+Lung_facs	male_only	Cdkn1a	detected_fraction	lymphocyte	4	4	0.563961038961039	0.879166666666667	0.315205627705628	10	5
+Lung_facs	male_only	Cdkn1a	detected_fraction	monocyte	4	4	0.841216678058783	0.598861626878868	-0.242355051179915	5	15
+Lung_facs	male_only	Cdkn1a	detected_fraction	myeloid cell	4	4	0.634961745244003	0.551845114345114	-0.083116630898889	13	28
+Lung_facs	male_only	Cdkn1a	detected_fraction	stromal cell	4	4	0.35019002736394	0.527432200494126	0.177242173130185	22	33
+Lung_facs	male_only	Cdkn2a	mean_expression	B cell	4	4	0	0.0196561056834001	0.0196561056834001	2	14
+Lung_facs	male_only	Cdkn2a	mean_expression	endothelial cell	4	4	0.0098039333004122	0.0187620006324767	0.00895806733206453	27	210
+Lung_facs	male_only	Cdkn2a	mean_expression	epithelial cell	4	4	0	0	0	5	2
+Lung_facs	male_only	Cdkn2a	mean_expression	granulocyte	4	4	0	0	0	1	1
+Lung_facs	male_only	Cdkn2a	mean_expression	lymphocyte	4	4	0	0.311110282043616	0.311110282043616	10	5
+Lung_facs	male_only	Cdkn2a	mean_expression	monocyte	4	4	0	0	0	5	15
+Lung_facs	male_only	Cdkn2a	mean_expression	myeloid cell	4	4	0	0	0	13	28
+Lung_facs	male_only	Cdkn2a	mean_expression	stromal cell	4	4	0	0.0168281971609183	0.0168281971609183	22	33
+Lung_facs	male_only	Cdkn2a	detected_fraction	B cell	4	4	0	0.0096153846153846	0.0096153846153846	2	14
+Lung_facs	male_only	Cdkn2a	detected_fraction	endothelial cell	4	4	0.0122960372960373	0.0116153256275015	-0.000680711668535724	27	210
+Lung_facs	male_only	Cdkn2a	detected_fraction	epithelial cell	4	4	0	0	0	5	2
+Lung_facs	male_only	Cdkn2a	detected_fraction	granulocyte	4	4	0	0	0	1	1
+Lung_facs	male_only	Cdkn2a	detected_fraction	lymphocyte	4	4	0	0.137777777777778	0.137777777777778	10	5
+Lung_facs	male_only	Cdkn2a	detected_fraction	monocyte	4	4	0	0	0	5	15
+Lung_facs	male_only	Cdkn2a	detected_fraction	myeloid cell	4	4	0	0	0	13	28
+Lung_facs	male_only	Cdkn2a	detected_fraction	stromal cell	4	4	0	0.0287478094382807	0.0287478094382807	22	33
+Lung_facs	male_only	Clec7a	mean_expression	B cell	4	4	0	0.0004049857961945	0.0004049857961945	2	14
+Lung_facs	male_only	Clec7a	mean_expression	endothelial cell	4	4	9.548272937535e-05	0.0666587016086231	0.0665632188792477	27	210
+Lung_facs	male_only	Clec7a	mean_expression	epithelial cell	4	4	0.110607277905499	0.0724299989678047	-0.0381772789376948	5	2
+Lung_facs	male_only	Clec7a	mean_expression	granulocyte	4	4	8.38017907440662	15.2213198269011	6.84114075249448	1	1
+Lung_facs	male_only	Clec7a	mean_expression	lymphocyte	4	4	0.00022679328156465	0.0054677895454612	0.00524099626389655	10	5
+Lung_facs	male_only	Clec7a	mean_expression	monocyte	4	4	3.21590680344775	1.89653613193517	-1.31937067151258	5	15
+Lung_facs	male_only	Clec7a	mean_expression	myeloid cell	4	4	0.962486197486384	0.867763292939542	-0.0947229045468421	13	28
+Lung_facs	male_only	Clec7a	mean_expression	stromal cell	4	4	0.415307907125163	0.286702265513664	-0.128605641611499	22	33
+Lung_facs	male_only	Clec7a	detected_fraction	B cell	4	4	0	0.0078125	0.0078125	2	14
+Lung_facs	male_only	Clec7a	detected_fraction	endothelial cell	4	4	0.00909090909090907	0.0196629633785957	0.0105720542876866	27	210
+Lung_facs	male_only	Clec7a	detected_fraction	epithelial cell	4	4	0.0259259259259259	0.21307863438008	0.187152708454154	5	2
+Lung_facs	male_only	Clec7a	detected_fraction	granulocyte	4	4	0.7	0.780026990553306	0.0800269905533064	1	1
+Lung_facs	male_only	Clec7a	detected_fraction	lymphocyte	4	4	0.0113636363636364	0.0708333333333333	0.059469696969697	10	5
+Lung_facs	male_only	Clec7a	detected_fraction	monocyte	4	4	0.617652084757348	0.510645999115827	-0.107006085641521	5	15
+Lung_facs	male_only	Clec7a	detected_fraction	myeloid cell	4	4	0.193894747725393	0.278252153252153	0.0843574055267603	13	28
+Lung_facs	male_only	Clec7a	detected_fraction	stromal cell	4	4	0.064575858923685	0.0775019013041781	0.0129260423804931	22	33
+Lung_facs	male_only	Cst7	mean_expression	B cell	4	4	0	0	0	2	14
+Lung_facs	male_only	Cst7	mean_expression	endothelial cell	4	4	0	0.00857334842154282	0.00857334842154282	27	210
+Lung_facs	male_only	Cst7	mean_expression	epithelial cell	4	4	0.00135154224311308	0.0002364060540815	-0.00111513618903158	5	2
+Lung_facs	male_only	Cst7	mean_expression	granulocyte	4	4	0	0	0	1	1
+Lung_facs	male_only	Cst7	mean_expression	lymphocyte	4	4	0.000427760655016025	0	-0.000427760655016025	10	5
+Lung_facs	male_only	Cst7	mean_expression	monocyte	4	4	0	0.0476228090432974	0.0476228090432974	5	15
+Lung_facs	male_only	Cst7	mean_expression	myeloid cell	4	4	0	0.164634378478978	0.164634378478978	13	28
+Lung_facs	male_only	Cst7	mean_expression	stromal cell	4	4	1.45618397073521	0.194974434817957	-1.26120953591725	22	33
+Lung_facs	male_only	Cst7	detected_fraction	B cell	4	4	0	0	0	2	14
+Lung_facs	male_only	Cst7	detected_fraction	endothelial cell	4	4	0	0.0142501776830135	0.0142501776830135	27	210
+Lung_facs	male_only	Cst7	detected_fraction	epithelial cell	4	4	0.0666666666666667	0.0166852057842046	-0.049981460882462	5	2
+Lung_facs	male_only	Cst7	detected_fraction	granulocyte	4	4	0	0	0	1	1
+Lung_facs	male_only	Cst7	detected_fraction	lymphocyte	4	4	0.0232683982683983	0	-0.0232683982683983	10	5
+Lung_facs	male_only	Cst7	detected_fraction	monocyte	4	4	0	0.0128205128205128	0.0128205128205128	5	15
+Lung_facs	male_only	Cst7	detected_fraction	myeloid cell	4	4	0	0.0860940530058176	0.0860940530058176	13	28
+Lung_facs	male_only	Cst7	detected_fraction	stromal cell	4	4	0.179352386743691	0.0325484073520814	-0.14680397939161	22	33
+Lung_facs	male_only	Fth1	mean_expression	B cell	4	4	25.8478807794551	48.3465598187609	22.4986790393058	2	14
+Lung_facs	male_only	Fth1	mean_expression	endothelial cell	4	4	21.525883020972	27.1222202506132	5.59633722964127	27	210
+Lung_facs	male_only	Fth1	mean_expression	epithelial cell	4	4	19.1996958497774	49.9303000957613	30.7306042459839	5	2
+Lung_facs	male_only	Fth1	mean_expression	granulocyte	4	4	82.4301804304123	108.583773554354	26.153593123942	1	1
+Lung_facs	male_only	Fth1	mean_expression	lymphocyte	4	4	29.4678846680527	29.8364649607738	0.368580292721088	10	5
+Lung_facs	male_only	Fth1	mean_expression	monocyte	4	4	20.9483858342824	53.2602591512308	32.3118733169484	5	15
+Lung_facs	male_only	Fth1	mean_expression	myeloid cell	4	4	27.5563809652088	53.8503134162945	26.2939324510858	13	28
+Lung_facs	male_only	Fth1	mean_expression	stromal cell	4	4	16.5652078896179	53.2287942798499	36.663586390232	22	33
+Lung_facs	male_only	Fth1	detected_fraction	B cell	4	4	1	0.990384615384615	-0.00961538461538458	2	14
+Lung_facs	male_only	Fth1	detected_fraction	endothelial cell	4	4	0.97755439005439	0.869284218007706	-0.108270172046684	27	210
+Lung_facs	male_only	Fth1	detected_fraction	epithelial cell	4	4	1	1	0	5	2
+Lung_facs	male_only	Fth1	detected_fraction	granulocyte	4	4	1	1	0	1	1
+Lung_facs	male_only	Fth1	detected_fraction	lymphocyte	4	4	1	1	0	10	5
+Lung_facs	male_only	Fth1	detected_fraction	monocyte	4	4	1	1	0	5	15
+Lung_facs	male_only	Fth1	detected_fraction	myeloid cell	4	4	1	1	0	13	28
+Lung_facs	male_only	Fth1	detected_fraction	stromal cell	4	4	0.969020979020979	0.968333028074311	-0.000687950946667848	22	33
+Lung_facs	male_only	H2-D1	mean_expression	B cell	4	4	61.311752303193	102.756701263537	41.444948960344	2	14
+Lung_facs	male_only	H2-D1	mean_expression	endothelial cell	4	4	71.0837604574469	140.77747982853	69.6937193710828	27	210
+Lung_facs	male_only	H2-D1	mean_expression	epithelial cell	4	4	29.2847854684762	72.4615679070818	43.1767824386056	5	2
+Lung_facs	male_only	H2-D1	mean_expression	granulocyte	4	4	145.339876520634	118.273530362589	-27.066346158045	1	1
+Lung_facs	male_only	H2-D1	mean_expression	lymphocyte	4	4	39.0269431778879	145.474162428843	106.447219250955	10	5
+Lung_facs	male_only	H2-D1	mean_expression	monocyte	4	4	84.4164067851071	104.437774877693	20.0213680925857	5	15
+Lung_facs	male_only	H2-D1	mean_expression	myeloid cell	4	4	35.677977839721	47.2149203584722	11.5369425187513	13	28
+Lung_facs	male_only	H2-D1	mean_expression	stromal cell	4	4	53.6407701982461	101.8873146055	48.2465444072542	22	33
+Lung_facs	male_only	H2-D1	detected_fraction	B cell	4	4	1	1	0	2	14
+Lung_facs	male_only	H2-D1	detected_fraction	endothelial cell	4	4	0.967657342657343	0.984969419818202	0.0173120771608595	27	210
+Lung_facs	male_only	H2-D1	detected_fraction	epithelial cell	4	4	1	0.983314794215795	-0.0166852057842046	5	2
+Lung_facs	male_only	H2-D1	detected_fraction	granulocyte	4	4	1	1	0	1	1
+Lung_facs	male_only	H2-D1	detected_fraction	lymphocyte	4	4	1	1	0	10	5
+Lung_facs	male_only	H2-D1	detected_fraction	monocyte	4	4	1	1	0	5	15
+Lung_facs	male_only	H2-D1	detected_fraction	myeloid cell	4	4	0.939371381306865	0.972078696343402	0.0327073150365369	13	28
+Lung_facs	male_only	H2-D1	detected_fraction	stromal cell	4	4	0.99	0.972687400318979	-0.0173125996810208	22	33
+Lung_facs	male_only	H2-K1	mean_expression	B cell	4	4	31.001977622509	72.432075132643	41.4300975101339	2	14
+Lung_facs	male_only	H2-K1	mean_expression	endothelial cell	4	4	33.1218243717919	89.1910481748279	56.069223803036	27	210
+Lung_facs	male_only	H2-K1	mean_expression	epithelial cell	4	4	10.5090056604257	46.532260723351	36.0232550629253	5	2
+Lung_facs	male_only	H2-K1	mean_expression	granulocyte	4	4	9.10972446240485	21.5442602502486	12.4345357878438	1	1
+Lung_facs	male_only	H2-K1	mean_expression	lymphocyte	4	4	13.7054429010536	78.3712855438645	64.6658426428108	10	5
+Lung_facs	male_only	H2-K1	mean_expression	monocyte	4	4	24.8896004391352	47.2724126424433	22.3828122033081	5	15
+Lung_facs	male_only	H2-K1	mean_expression	myeloid cell	4	4	12.1224688283907	22.2624107284105	10.1399419000198	13	28
+Lung_facs	male_only	H2-K1	mean_expression	stromal cell	4	4	31.8490650332024	67.0970661886398	35.2480011554374	22	33
+Lung_facs	male_only	H2-K1	detected_fraction	B cell	4	4	0.916666666666667	1	0.0833333333333334	2	14
+Lung_facs	male_only	H2-K1	detected_fraction	endothelial cell	4	4	0.951651126651127	0.973767908577414	0.022116781926287	27	210
+Lung_facs	male_only	H2-K1	detected_fraction	epithelial cell	4	4	0.923148148148148	0.991935483870968	0.0687873357228196	5	2
+Lung_facs	male_only	H2-K1	detected_fraction	granulocyte	4	4	0.825	0.684547908232119	-0.140452091767881	1	1
+Lung_facs	male_only	H2-K1	detected_fraction	lymphocyte	4	4	0.976190476190476	0.96	-0.0161904761904762	10	5
+Lung_facs	male_only	H2-K1	detected_fraction	monocyte	4	4	1	1	0	5	15
+Lung_facs	male_only	H2-K1	detected_fraction	myeloid cell	4	4	0.788523573200993	0.923810688516571	0.135287115315578	13	28
+Lung_facs	male_only	H2-K1	detected_fraction	stromal cell	4	4	0.828724536333232	0.953355108476912	0.12463057214368	22	33
+Lung_facs	male_only	Ifi204	mean_expression	B cell	4	4	0	0	0	2	14
+Lung_facs	male_only	Ifi204	mean_expression	endothelial cell	4	4	0.154251878099916	0.0119755759185052	-0.14227630218141	27	210
+Lung_facs	male_only	Ifi204	mean_expression	epithelial cell	4	4	0	0.0222548056425976	0.0222548056425976	5	2
+Lung_facs	male_only	Ifi204	mean_expression	granulocyte	4	4	0.517397009767592	0.00083243237951625	-0.516564577388076	1	1
+Lung_facs	male_only	Ifi204	mean_expression	lymphocyte	4	4	6.0385481143975e-05	0.00711254030466077	0.0070521548235168	10	5
+Lung_facs	male_only	Ifi204	mean_expression	monocyte	4	4	1.78760526639485	0.733243409747112	-1.05436185664774	5	15
+Lung_facs	male_only	Ifi204	mean_expression	myeloid cell	4	4	0.348893206224201	0.108004571677242	-0.24088863454696	13	28
+Lung_facs	male_only	Ifi204	mean_expression	stromal cell	4	4	0.0930602062058129	0.0422281583242676	-0.0508320478815453	22	33
+Lung_facs	male_only	Ifi204	detected_fraction	B cell	4	4	0	0	0	2	14
+Lung_facs	male_only	Ifi204	detected_fraction	endothelial cell	4	4	0.0916181041181041	0.0183088317809449	-0.0733092723371592	27	210
+Lung_facs	male_only	Ifi204	detected_fraction	epithelial cell	4	4	0	0.0172413793103448	0.0172413793103448	5	2
+Lung_facs	male_only	Ifi204	detected_fraction	granulocyte	4	4	0.1625	0.0192307692307692	-0.143269230769231	1	1
+Lung_facs	male_only	Ifi204	detected_fraction	lymphocyte	4	4	0.0119047619047619	0.0138888888888889	0.00198412698412697	10	5
+Lung_facs	male_only	Ifi204	detected_fraction	monocyte	4	4	0.579306220095694	0.283081896551724	-0.29622432354397	5	15
+Lung_facs	male_only	Ifi204	detected_fraction	myeloid cell	4	4	0.191015301902399	0.0520154527507468	-0.138999849151652	13	28
+Lung_facs	male_only	Ifi204	detected_fraction	stromal cell	4	4	0.0427181514138035	0.0330572134183988	-0.00966093799540473	22	33
+Lung_facs	male_only	Ifit2	mean_expression	B cell	4	4	0.607208013534546	0.0018904870641349	-0.605317526470411	2	14
+Lung_facs	male_only	Ifit2	mean_expression	endothelial cell	4	4	0.216202250675608	0.0382637303190116	-0.177938520356596	27	210
+Lung_facs	male_only	Ifit2	mean_expression	epithelial cell	4	4	0	0.00085918076576725	0.00085918076576725	5	2
+Lung_facs	male_only	Ifit2	mean_expression	granulocyte	4	4	0	0	0	1	1
+Lung_facs	male_only	Ifit2	mean_expression	lymphocyte	4	4	0.30011974666187	0.0346397877567344	-0.265479958905136	10	5
+Lung_facs	male_only	Ifit2	mean_expression	monocyte	4	4	0.0960299853574146	0.0276649338075484	-0.0683650515498662	5	15
+Lung_facs	male_only	Ifit2	mean_expression	myeloid cell	4	4	0.558748265826956	0.152552866399831	-0.406195399427125	13	28
+Lung_facs	male_only	Ifit2	mean_expression	stromal cell	4	4	0.607777884504233	0.0566967066865105	-0.551081177817722	22	33
+Lung_facs	male_only	Ifit2	detected_fraction	B cell	4	4	0.0416666666666667	0.0151654411764706	-0.0265012254901961	2	14
+Lung_facs	male_only	Ifit2	detected_fraction	endothelial cell	4	4	0.108469308469308	0.0216263606778139	-0.0868429477914946	27	210
+Lung_facs	male_only	Ifit2	detected_fraction	epithelial cell	4	4	0	0.00806451612903225	0.00806451612903225	5	2
+Lung_facs	male_only	Ifit2	detected_fraction	granulocyte	4	4	0	0	0	1	1
+Lung_facs	male_only	Ifit2	detected_fraction	lymphocyte	4	4	0.139718614718615	0.0486111111111111	-0.0911075036075036	10	5
+Lung_facs	male_only	Ifit2	detected_fraction	monocyte	4	4	0.0256493506493506	0.0339080459770115	0.00825869532766085	5	15
+Lung_facs	male_only	Ifit2	detected_fraction	myeloid cell	4	4	0.139257650951199	0.0608883366236307	-0.0783693143275686	13	28
+Lung_facs	male_only	Ifit2	detected_fraction	stromal cell	4	4	0.123312557008209	0.0139689236468409	-0.109343633361368	22	33
+Lung_facs	male_only	Ifit3	mean_expression	B cell	4	4	0.792071183522542	0.195483277534446	-0.596587905988096	2	14
+Lung_facs	male_only	Ifit3	mean_expression	endothelial cell	4	4	0.577580845107309	0.796681922236455	0.219101077129146	27	210
+Lung_facs	male_only	Ifit3	mean_expression	epithelial cell	4	4	0.0104533511179465	0.0638988356410813	0.0534454845231348	5	2
+Lung_facs	male_only	Ifit3	mean_expression	granulocyte	4	4	0	0.0518802679502047	0.0518802679502047	1	1
+Lung_facs	male_only	Ifit3	mean_expression	lymphocyte	4	4	0.227027472616597	0.105090836220317	-0.121936636396279	10	5
+Lung_facs	male_only	Ifit3	mean_expression	monocyte	4	4	0.138235622448993	0.104585086039344	-0.033650536409649	5	15
+Lung_facs	male_only	Ifit3	mean_expression	myeloid cell	4	4	0.0753590065964349	0.418833987112389	0.343474980515954	13	28
+Lung_facs	male_only	Ifit3	mean_expression	stromal cell	4	4	0.16918842034349	0.95249721268177	0.78330879233828	22	33
+Lung_facs	male_only	Ifit3	detected_fraction	B cell	4	4	0.0416666666666667	0.0380726809954751	-0.00359398567119155	2	14
+Lung_facs	male_only	Ifit3	detected_fraction	endothelial cell	4	4	0.101796814296814	0.13582042793551	0.0340236136386961	27	210
+Lung_facs	male_only	Ifit3	detected_fraction	epithelial cell	4	4	0.00925925925925925	0.0247497219132369	0.0154904626539776	5	2
+Lung_facs	male_only	Ifit3	detected_fraction	granulocyte	4	4	0	0.0192307692307692	0.0192307692307692	1	1
+Lung_facs	male_only	Ifit3	detected_fraction	lymphocyte	4	4	0.113636363636364	0.0408333333333333	-0.0728030303030303	10	5
+Lung_facs	male_only	Ifit3	detected_fraction	monocyte	4	4	0.0579801777170198	0.0236516357206012	-0.0343285419964185	5	15
+Lung_facs	male_only	Ifit3	detected_fraction	myeloid cell	4	4	0.067359387923904	0.11057146351264	0.0432120755887359	13	28
+Lung_facs	male_only	Ifit3	detected_fraction	stromal cell	4	4	0.0497157190635451	0.110843448731091	0.0611277296675456	22	33
+Lung_facs	male_only	Ifitm3	mean_expression	B cell	4	4	0.0181530204523975	2.97287404122228	2.95472102076988	2	14
+Lung_facs	male_only	Ifitm3	mean_expression	endothelial cell	4	4	13.6378294152371	39.908782649132	26.2709532338948	27	210
+Lung_facs	male_only	Ifitm3	mean_expression	epithelial cell	4	4	1.51305280884866	3.12582879714997	1.61277598830131	5	2
+Lung_facs	male_only	Ifitm3	mean_expression	granulocyte	4	4	4.48281073067337	7.94847734638725	3.46566661571388	1	1
+Lung_facs	male_only	Ifitm3	mean_expression	lymphocyte	4	4	10.9686166140166	15.6241731352349	4.65555652121825	10	5
+Lung_facs	male_only	Ifitm3	mean_expression	monocyte	4	4	28.6652881868392	41.3173124568091	12.6520242699698	5	15
+Lung_facs	male_only	Ifitm3	mean_expression	myeloid cell	4	4	14.7356859003972	17.7285570493902	2.99287114899299	13	28
+Lung_facs	male_only	Ifitm3	mean_expression	stromal cell	4	4	6.64388376626097	13.2857074440461	6.64182367778515	22	33
+Lung_facs	male_only	Ifitm3	detected_fraction	B cell	4	4	0.25	0.239925056561086	-0.010074943438914	2	14
+Lung_facs	male_only	Ifitm3	detected_fraction	endothelial cell	4	4	0.932569282569283	0.885759174054539	-0.0468101085147434	27	210
+Lung_facs	male_only	Ifitm3	detected_fraction	epithelial cell	4	4	0.424074074074074	0.585490288354582	0.161416214280508	5	2
+Lung_facs	male_only	Ifitm3	detected_fraction	granulocyte	4	4	0.8875	0.407557354925776	-0.479942645074224	1	1
+Lung_facs	male_only	Ifitm3	detected_fraction	lymphocyte	4	4	0.954004329004329	0.864444444444444	-0.0895598845598846	10	5
+Lung_facs	male_only	Ifitm3	detected_fraction	monocyte	4	4	1	0.984375	-0.015625	5	15
+Lung_facs	male_only	Ifitm3	detected_fraction	myeloid cell	4	4	0.991935483870968	0.961796152972624	-0.0301393308983442	13	28
+Lung_facs	male_only	Ifitm3	detected_fraction	stromal cell	4	4	0.654901185770751	0.740393121102819	0.0854919353320679	22	33
+Lung_facs	male_only	Il1b	mean_expression	B cell	4	4	0	0.00044385144428815	0.00044385144428815	2	14
+Lung_facs	male_only	Il1b	mean_expression	endothelial cell	4	4	0.000726514703665775	0.377005162433402	0.376278647729737	27	210
+Lung_facs	male_only	Il1b	mean_expression	epithelial cell	4	4	0.0002400097782137	0.595152687781676	0.594912678003462	5	2
+Lung_facs	male_only	Il1b	mean_expression	granulocyte	4	4	100.673620003462	123.419877784616	22.7462577811539	1	1
+Lung_facs	male_only	Il1b	mean_expression	lymphocyte	4	4	0.0006448705398449	0.0130390980177455	0.0123942274779006	10	5
+Lung_facs	male_only	Il1b	mean_expression	monocyte	4	4	2.92215823907157	7.7238403385685	4.80168209949693	5	15
+Lung_facs	male_only	Il1b	mean_expression	myeloid cell	4	4	1.80533532549799	1.67222740126035	-0.133107924237635	13	28
+Lung_facs	male_only	Il1b	mean_expression	stromal cell	4	4	0.00033176826016805	0.852120929252947	0.851789160992779	22	33
+Lung_facs	male_only	Il1b	detected_fraction	B cell	4	4	0	0.015625	0.015625	2	14
+Lung_facs	male_only	Il1b	detected_fraction	endothelial cell	4	4	0.0213869463869464	0.0238852728837018	0.00249832649675538	27	210
+Lung_facs	male_only	Il1b	detected_fraction	epithelial cell	4	4	0.00925925925925925	0.102774450243861	0.0935151909846014	5	2
+Lung_facs	male_only	Il1b	detected_fraction	granulocyte	4	4	1	0.934210526315789	-0.0657894736842105	1	1
+Lung_facs	male_only	Il1b	detected_fraction	lymphocyte	4	4	0.0573593073593073	0.0138888888888889	-0.0434704184704185	10	5
+Lung_facs	male_only	Il1b	detected_fraction	monocyte	4	4	0.526042378673958	0.587505526083112	0.0614631474091546	5	15
+Lung_facs	male_only	Il1b	detected_fraction	myeloid cell	4	4	0.184765301902399	0.229065846712906	0.0443005448105069	13	28
+Lung_facs	male_only	Il1b	detected_fraction	stromal cell	4	4	0.0213636363636363	0.114624516632186	0.0932608802685492	22	33
+Lung_facs	male_only	Irf7	mean_expression	B cell	4	4	0	0.394039168183829	0.394039168183829	2	14
+Lung_facs	male_only	Irf7	mean_expression	endothelial cell	4	4	0.275700924405695	0.394568068061491	0.118867143655796	27	210
+Lung_facs	male_only	Irf7	mean_expression	epithelial cell	4	4	0.0121690054941508	0.245013537883602	0.232844532389451	5	2
+Lung_facs	male_only	Irf7	mean_expression	granulocyte	4	4	0.141851735115051	0.627538190676998	0.485686455561947	1	1
+Lung_facs	male_only	Irf7	mean_expression	lymphocyte	4	4	0.132466204116903	0.0718835454020235	-0.0605826587148796	10	5
+Lung_facs	male_only	Irf7	mean_expression	monocyte	4	4	1.28245878105621	1.1508000827421	-0.131658698314111	5	15
+Lung_facs	male_only	Irf7	mean_expression	myeloid cell	4	4	0.482922939631188	0.331632519586549	-0.151290420044639	13	28
+Lung_facs	male_only	Irf7	mean_expression	stromal cell	4	4	0.58349163890991	0.409410531352844	-0.174081107557066	22	33
+Lung_facs	male_only	Irf7	detected_fraction	B cell	4	4	0	0.148826357466063	0.148826357466063	2	14
+Lung_facs	male_only	Irf7	detected_fraction	endothelial cell	4	4	0.103839678839679	0.122130886918789	0.0182912080791107	27	210
+Lung_facs	male_only	Irf7	detected_fraction	epithelial cell	4	4	0.0592592592592593	0.0844207238812355	0.0251614646219763	5	2
+Lung_facs	male_only	Irf7	detected_fraction	granulocyte	4	4	0.05	0.121794871794872	0.0717948717948718	1	1
+Lung_facs	male_only	Irf7	detected_fraction	lymphocyte	4	4	0.0942640692640692	0.0847222222222222	-0.00954184704184705	10	5
+Lung_facs	male_only	Irf7	detected_fraction	monocyte	4	4	0.526708817498291	0.374696065428824	-0.152012752069467	5	15
+Lung_facs	male_only	Irf7	detected_fraction	myeloid cell	4	4	0.190265715467328	0.0996173937350407	-0.0906483217322876	13	28
+Lung_facs	male_only	Irf7	detected_fraction	stromal cell	4	4	0.136039829735482	0.147236560643315	0.0111967309078334	22	33
+Lung_facs	male_only	Itga1	mean_expression	B cell	4	4	0	0.0540200024250604	0.0540200024250604	2	14
+Lung_facs	male_only	Itga1	mean_expression	endothelial cell	4	4	5.01731377069176	1.21426586472704	-3.80304790596472	27	210
+Lung_facs	male_only	Itga1	mean_expression	epithelial cell	4	4	0.163861322389157	0.00264803434793765	-0.161213288041219	5	2
+Lung_facs	male_only	Itga1	mean_expression	granulocyte	4	4	0	0	0	1	1
+Lung_facs	male_only	Itga1	mean_expression	lymphocyte	4	4	0.302502367171979	0.558313981405421	0.255811614233442	10	5
+Lung_facs	male_only	Itga1	mean_expression	monocyte	4	4	0.087728862838612	0.0664544986650696	-0.0212743641735424	5	15
+Lung_facs	male_only	Itga1	mean_expression	myeloid cell	4	4	0.240158698811582	0.0639244914407234	-0.176234207370858	13	28
+Lung_facs	male_only	Itga1	mean_expression	stromal cell	4	4	3.67072092835573	0.422456500577402	-3.24826442777832	22	33
+Lung_facs	male_only	Itga1	detected_fraction	B cell	4	4	0	0.0307197398190045	0.0307197398190045	2	14
+Lung_facs	male_only	Itga1	detected_fraction	endothelial cell	4	4	0.603910903910904	0.350926289604609	-0.252984614306295	27	210
+Lung_facs	male_only	Itga1	detected_fraction	epithelial cell	4	4	0.0935185185185185	0.0096153846153846	-0.0839031339031339	5	2
+Lung_facs	male_only	Itga1	detected_fraction	granulocyte	4	4	0	0	0	1	1
+Lung_facs	male_only	Itga1	detected_fraction	lymphocyte	4	4	0.167965367965368	0.300277777777778	0.13231240981241	10	5
+Lung_facs	male_only	Itga1	detected_fraction	monocyte	4	4	0.19595010252905	0.0370662024756852	-0.158883900053365	5	15
+Lung_facs	male_only	Itga1	detected_fraction	myeloid cell	4	4	0.123552522746071	0.0355876238229179	-0.0879648989231532	13	28
+Lung_facs	male_only	Itga1	detected_fraction	stromal cell	4	4	0.196406202493159	0.127706096613496	-0.0687001058796632	22	33
+Lung_facs	male_only	Itgal	mean_expression	B cell	4	4	0.955306594570478	0.254966427317756	-0.700340167252722	2	14
+Lung_facs	male_only	Itgal	mean_expression	endothelial cell	4	4	4.4202897697675e-05	0.167847313934382	0.167803111036685	27	210
+Lung_facs	male_only	Itgal	mean_expression	epithelial cell	4	4	0.880551487711017	0.410377627686781	-0.470173860024236	5	2
+Lung_facs	male_only	Itgal	mean_expression	granulocyte	4	4	10.6656263086945	2.74134743810153	-7.92427887059296	1	1
+Lung_facs	male_only	Itgal	mean_expression	lymphocyte	4	4	0.0016008165072311	0.0005146753004131	-0.001086141206818	10	5
+Lung_facs	male_only	Itgal	mean_expression	monocyte	4	4	6.48469713054242	6.35331572101257	-0.131381409529846	5	15
+Lung_facs	male_only	Itgal	mean_expression	myeloid cell	4	4	1.41819905015733	0.36179271725665	-1.05640633290068	13	28
+Lung_facs	male_only	Itgal	mean_expression	stromal cell	4	4	1.23176544827653	0.606114218294629	-0.625651229981903	22	33
+Lung_facs	male_only	Itgal	detected_fraction	B cell	4	4	0.375	0.162512120232708	-0.212487879767291	2	14
+Lung_facs	male_only	Itgal	detected_fraction	endothelial cell	4	4	0.00454545454545453	0.086191691916358	0.0816462373709035	27	210
+Lung_facs	male_only	Itgal	detected_fraction	epithelial cell	4	4	0.0842592592592593	0.159664584581159	0.0754053253218993	5	2
+Lung_facs	male_only	Itgal	detected_fraction	granulocyte	4	4	0.6875	0.534412955465587	-0.153087044534413	1	1
+Lung_facs	male_only	Itgal	detected_fraction	lymphocyte	4	4	0.0227272727272727	0.0569444444444444	0.0342171717171717	10	5
+Lung_facs	male_only	Itgal	detected_fraction	monocyte	4	4	0.889764183185236	0.751588748894783	-0.138175434290452	5	15
+Lung_facs	male_only	Itgal	detected_fraction	myeloid cell	4	4	0.224875930521092	0.131654116948235	-0.0932218135728572	13	28
+Lung_facs	male_only	Itgal	detected_fraction	stromal cell	4	4	0.240422620857403	0.119837388847148	-0.120585232010255	22	33
+Lung_facs	male_only	Lmnb1	mean_expression	B cell	4	4	0.0583485017220179	0.153671204105622	0.0953227023836042	2	14
+Lung_facs	male_only	Lmnb1	mean_expression	endothelial cell	4	4	0.049382159375045	0.098178835598424	0.0487966762233789	27	210
+Lung_facs	male_only	Lmnb1	mean_expression	epithelial cell	4	4	0.0466479591266424	0.0635141675745835	0.0168662084479411	5	2
+Lung_facs	male_only	Lmnb1	mean_expression	granulocyte	4	4	0.404854274820536	0.874960695703824	0.470106420883288	1	1
+Lung_facs	male_only	Lmnb1	mean_expression	lymphocyte	4	4	0.0251831536392935	0	-0.0251831536392935	10	5
+Lung_facs	male_only	Lmnb1	mean_expression	monocyte	4	4	0.162392242965896	0.0408745185465843	-0.121517724419312	5	15
+Lung_facs	male_only	Lmnb1	mean_expression	myeloid cell	4	4	0.112571387125812	0.119077320662245	0.0065059335364327	13	28
+Lung_facs	male_only	Lmnb1	mean_expression	stromal cell	4	4	0.0276413112260088	0.16185686438723	0.134215553161222	22	33
+Lung_facs	male_only	Lmnb1	detected_fraction	B cell	4	4	0.0833333333333333	0.0674187944408532	-0.0159145388924801	2	14
+Lung_facs	male_only	Lmnb1	detected_fraction	endothelial cell	4	4	0.0441692566692566	0.0762746418284517	0.0321053851591951	27	210
+Lung_facs	male_only	Lmnb1	detected_fraction	epithelial cell	4	4	0.126851851851852	0.10110592966544	-0.0257459221864116	5	2
+Lung_facs	male_only	Lmnb1	detected_fraction	granulocyte	4	4	0.6	0.37280701754386	-0.22719298245614	1	1
+Lung_facs	male_only	Lmnb1	detected_fraction	lymphocyte	4	4	0.0829004329004329	0	-0.0829004329004329	10	5
+Lung_facs	male_only	Lmnb1	detected_fraction	monocyte	4	4	0.1919002050581	0.065511715296198	-0.126388489761902	5	15
+Lung_facs	male_only	Lmnb1	detected_fraction	myeloid cell	4	4	0.0710452853598015	0.13494295847237	0.0638976731125687	13	28
+Lung_facs	male_only	Lmnb1	detected_fraction	stromal cell	4	4	0.0708041958041958	0.0972021861797752	0.0263979903755794	22	33
+Lung_facs	male_only	Lpl	mean_expression	B cell	4	4	0.00185836028928557	0.102000407967624	0.100142047678339	2	14
+Lung_facs	male_only	Lpl	mean_expression	endothelial cell	4	4	5.24159004825165	1.46653864228939	-3.77505140596226	27	210
+Lung_facs	male_only	Lpl	mean_expression	epithelial cell	4	4	1.40292214569549	0.828324519557553	-0.574597626137941	5	2
+Lung_facs	male_only	Lpl	mean_expression	granulocyte	4	4	0.00379532896913588	0	-0.00379532896913588	1	1
+Lung_facs	male_only	Lpl	mean_expression	lymphocyte	4	4	1.473387725491	0.3898585870743	-1.0835291384167	10	5
+Lung_facs	male_only	Lpl	mean_expression	monocyte	4	4	0.361912267883541	0.365712987455012	0.00380071957147099	5	15
+Lung_facs	male_only	Lpl	mean_expression	myeloid cell	4	4	1.03156412570563	0.210093619496151	-0.821470506209477	13	28
+Lung_facs	male_only	Lpl	mean_expression	stromal cell	4	4	1.3932119909926	1.2998007172738	-0.0934112737187995	22	33
+Lung_facs	male_only	Lpl	detected_fraction	B cell	4	4	0.0833333333333333	0.135852658371041	0.0525193250377074	2	14
+Lung_facs	male_only	Lpl	detected_fraction	endothelial cell	4	4	0.548044548044548	0.266134085213033	-0.281910462831515	27	210
+Lung_facs	male_only	Lpl	detected_fraction	epithelial cell	4	4	0.442592592592593	0.339490459484898	-0.103102133107695	5	2
+Lung_facs	male_only	Lpl	detected_fraction	granulocyte	4	4	0.1125	0	-0.1125	1	1
+Lung_facs	male_only	Lpl	detected_fraction	lymphocyte	4	4	0.555952380952381	0.185	-0.370952380952381	10	5
+Lung_facs	male_only	Lpl	detected_fraction	monocyte	4	4	0.204101161995899	0.159902740937224	-0.0441984210586752	5	15
+Lung_facs	male_only	Lpl	detected_fraction	myeloid cell	4	4	0.27579094292804	0.135861257184787	-0.139929685743253	13	28
+Lung_facs	male_only	Lpl	detected_fraction	stromal cell	4	4	0.230003040437823	0.245403636127307	0.0154005956894837	22	33
+Lung_facs	male_only	Oas1a	mean_expression	B cell	4	4	0.217458685239156	0.310014722637954	0.0925560373987982	2	14
+Lung_facs	male_only	Oas1a	mean_expression	endothelial cell	4	4	0.079234251309412	0.371430506213818	0.292196254904406	27	210
+Lung_facs	male_only	Oas1a	mean_expression	epithelial cell	4	4	0.0218611567798588	0.168554022871235	0.146692866091376	5	2
+Lung_facs	male_only	Oas1a	mean_expression	granulocyte	4	4	0.692010831832886	0	-0.692010831832886	1	1
+Lung_facs	male_only	Oas1a	mean_expression	lymphocyte	4	4	0.0295024514198303	0.177896636881762	0.148394185461932	10	5
+Lung_facs	male_only	Oas1a	mean_expression	monocyte	4	4	1.01275077537207	0.584893251139897	-0.42785752423217	5	15
+Lung_facs	male_only	Oas1a	mean_expression	myeloid cell	4	4	0.575380073359577	0.242904475704304	-0.332475597655272	13	28
+Lung_facs	male_only	Oas1a	mean_expression	stromal cell	4	4	0.144787742802531	0.391486740742346	0.246698997939816	22	33
+Lung_facs	male_only	Oas1a	detected_fraction	B cell	4	4	0.0416666666666667	0.106940853264383	0.065274186597716	2	14
+Lung_facs	male_only	Oas1a	detected_fraction	endothelial cell	4	4	0.0648342398342398	0.0951024950435791	0.0302682552093392	27	210
+Lung_facs	male_only	Oas1a	detected_fraction	epithelial cell	4	4	0.0592592592592593	0.0418734491315136	-0.0173858101277456	5	2
+Lung_facs	male_only	Oas1a	detected_fraction	granulocyte	4	4	0.05	0	-0.05	1	1
+Lung_facs	male_only	Oas1a	detected_fraction	lymphocyte	4	4	0.0227272727272727	0.104722222222222	0.0819949494949495	10	5
+Lung_facs	male_only	Oas1a	detected_fraction	monocyte	4	4	0.390652768284347	0.223905835543767	-0.166746932740581	5	15
+Lung_facs	male_only	Oas1a	detected_fraction	myeloid cell	4	4	0.0981286186931348	0.0948097014273484	-0.00331891726578638	13	28
+Lung_facs	male_only	Oas1a	detected_fraction	stromal cell	4	4	0.0304849498327759	0.0964812989460686	0.0659963491132927	22	33
+Lung_facs	male_only	Oasl2	mean_expression	B cell	4	4	0.000465650305462375	0.0473281845413	0.0468625342358377	2	14
+Lung_facs	male_only	Oasl2	mean_expression	endothelial cell	4	4	1.19213859424932	0.617074510691176	-0.575064083558142	27	210
+Lung_facs	male_only	Oasl2	mean_expression	epithelial cell	4	4	0.0143563365184322	0.101837174908664	0.0874808383902317	5	2
+Lung_facs	male_only	Oasl2	mean_expression	granulocyte	4	4	1.64933526217937	1.8227126888237	0.173377426644327	1	1
+Lung_facs	male_only	Oasl2	mean_expression	lymphocyte	4	4	0.324738290167547	0.206742869025264	-0.117995421142282	10	5
+Lung_facs	male_only	Oasl2	mean_expression	monocyte	4	4	0.90811214543604	0.49991504282262	-0.408197102613421	5	15
+Lung_facs	male_only	Oasl2	mean_expression	myeloid cell	4	4	0.810948981053864	0.142618304446109	-0.668330676607755	13	28
+Lung_facs	male_only	Oasl2	mean_expression	stromal cell	4	4	0.0655929267967126	0.592118450471832	0.526525523675119	22	33
+Lung_facs	male_only	Oasl2	detected_fraction	B cell	4	4	0.0416666666666667	0.0605203619909502	0.0188536953242835	2	14
+Lung_facs	male_only	Oasl2	detected_fraction	endothelial cell	4	4	0.260939523439523	0.167892211872966	-0.0930473115665575	27	210
+Lung_facs	male_only	Oasl2	detected_fraction	epithelial cell	4	4	0.0592592592592593	0.0859715923675879	0.0267123331083286	5	2
+Lung_facs	male_only	Oasl2	detected_fraction	granulocyte	4	4	0.1125	0.110323886639676	-0.00217611336032393	1	1
+Lung_facs	male_only	Oasl2	detected_fraction	lymphocyte	4	4	0.128896103896104	0.254722222222222	0.125826118326118	10	5
+Lung_facs	male_only	Oasl2	detected_fraction	monocyte	4	4	0.363209159261791	0.163409040671972	-0.199800118589819	5	15
+Lung_facs	male_only	Oasl2	detected_fraction	myeloid cell	4	4	0.181405086848635	0.101562090532679	-0.0798429963159565	13	28
+Lung_facs	male_only	Oasl2	detected_fraction	stromal cell	4	4	0.0413545150501672	0.13631165206511	0.0949571370149429	22	33
+Lung_facs	male_only	P2ry12	mean_expression	B cell	4	4	0.00284934043884275	0.0006526770234546	-0.00219666341538815	2	14
+Lung_facs	male_only	P2ry12	mean_expression	endothelial cell	4	4	0.00990249374961885	0.0130202760292751	0.0031177822796563	27	210
+Lung_facs	male_only	P2ry12	mean_expression	epithelial cell	4	4	0.0212626151326629	0.112952399004905	0.0916897838722425	5	2
+Lung_facs	male_only	P2ry12	mean_expression	granulocyte	4	4	0.00774377537891265	0.00352959177995982	-0.00421418359895282	1	1
+Lung_facs	male_only	P2ry12	mean_expression	lymphocyte	4	4	0.0102325632893057	0.0020647756755352	-0.00816778761377047	10	5
+Lung_facs	male_only	P2ry12	mean_expression	monocyte	4	4	0.0770953957396938	0.0945030923661155	0.0174076966264217	5	15
+Lung_facs	male_only	P2ry12	mean_expression	myeloid cell	4	4	0.0092811934294439	0.0170048280054434	0.0077236345759995	13	28
+Lung_facs	male_only	P2ry12	mean_expression	stromal cell	4	4	0.0118721207210116	0.0671105989240255	0.0552384782030138	22	33
+Lung_facs	male_only	P2ry12	detected_fraction	B cell	4	4	0.125	0.00735294117647058	-0.117647058823529	2	14
+Lung_facs	male_only	P2ry12	detected_fraction	endothelial cell	4	4	0.161046361046361	0.0219499307971421	-0.139096430249219	27	210
+Lung_facs	male_only	P2ry12	detected_fraction	epithelial cell	4	4	0.251851851851852	0.0339265850945495	-0.217925266757302	5	2
+Lung_facs	male_only	P2ry12	detected_fraction	granulocyte	4	4	0.3	0.0131578947368421	-0.286842105263158	1	1
+Lung_facs	male_only	P2ry12	detected_fraction	lymphocyte	4	4	0.0977272727272727	0.0138888888888889	-0.0838383838383839	10	5
+Lung_facs	male_only	P2ry12	detected_fraction	monocyte	4	4	0.174521531100478	0.0645833333333333	-0.109938197767145	5	15
+Lung_facs	male_only	P2ry12	detected_fraction	myeloid cell	4	4	0.170885028949545	0.0219223344223344	-0.148962694527211	13	28
+Lung_facs	male_only	P2ry12	detected_fraction	stromal cell	4	4	0.136818181818182	0.021242458378917	-0.115575723439265	22	33
+Lung_facs	male_only	Rtp4	mean_expression	B cell	4	4	0.492779552936554	1.55194241510561	1.05916286216905	2	14
+Lung_facs	male_only	Rtp4	mean_expression	endothelial cell	4	4	0.974206331141858	2.86559325587352	1.89138692473167	27	210
+Lung_facs	male_only	Rtp4	mean_expression	epithelial cell	4	4	0.151982706730012	0.712666665749767	0.560683959019755	5	2
+Lung_facs	male_only	Rtp4	mean_expression	granulocyte	4	4	1.64370768845547	0.0133031065526761	-1.63040458190279	1	1
+Lung_facs	male_only	Rtp4	mean_expression	lymphocyte	4	4	0.265323425423015	2.74376010224637	2.47843667682336	10	5
+Lung_facs	male_only	Rtp4	mean_expression	monocyte	4	4	1.08252231002552	0.464263939251259	-0.618258370774258	5	15
+Lung_facs	male_only	Rtp4	mean_expression	myeloid cell	4	4	0.202718640721287	0.488202356094017	0.28548371537273	13	28
+Lung_facs	male_only	Rtp4	mean_expression	stromal cell	4	4	0.553844439934228	0.96270857190933	0.408864131975102	22	33
+Lung_facs	male_only	Rtp4	detected_fraction	B cell	4	4	0.208333333333333	0.150912047511312	-0.0574212858220211	2	14
+Lung_facs	male_only	Rtp4	detected_fraction	endothelial cell	4	4	0.252664465164465	0.270198350353496	0.0175338851890305	27	210
+Lung_facs	male_only	Rtp4	detected_fraction	epithelial cell	4	4	0.168518518518519	0.159226063147086	-0.00929245537143203	5	2
+Lung_facs	male_only	Rtp4	detected_fraction	granulocyte	4	4	0.575	0.0263157894736842	-0.548684210526316	1	1
+Lung_facs	male_only	Rtp4	detected_fraction	lymphocyte	4	4	0.154545454545455	0.399722222222222	0.245176767676768	10	5
+Lung_facs	male_only	Rtp4	detected_fraction	monocyte	4	4	0.305075187969925	0.13273375331565	-0.172341434654275	5	15
+Lung_facs	male_only	Rtp4	detected_fraction	myeloid cell	4	4	0.105443548387097	0.18786797463268	0.0824244262455837	13	28
+Lung_facs	male_only	Rtp4	detected_fraction	stromal cell	4	4	0.123797506840985	0.181645324793958	0.0578478179529733	22	33
+Lung_facs	male_only	Stat1	mean_expression	B cell	4	4	1.37828392034862	0.526213027909086	-0.852070892439536	2	14
+Lung_facs	male_only	Stat1	mean_expression	endothelial cell	4	4	1.53862158520354	1.02711033493318	-0.511511250270364	27	210
+Lung_facs	male_only	Stat1	mean_expression	epithelial cell	4	4	0.0874951030420898	0.224122029315663	0.136626926273573	5	2
+Lung_facs	male_only	Stat1	mean_expression	granulocyte	4	4	2.46395653486252	3.07621769646281	0.612261161600289	1	1
+Lung_facs	male_only	Stat1	mean_expression	lymphocyte	4	4	0.804120897948016	0.409876634458908	-0.394244263489108	10	5
+Lung_facs	male_only	Stat1	mean_expression	monocyte	4	4	2.35918525523415	1.36049639183509	-0.998688863399066	5	15
+Lung_facs	male_only	Stat1	mean_expression	myeloid cell	4	4	0.758296019788991	0.434595747629808	-0.323700272159184	13	28
+Lung_facs	male_only	Stat1	mean_expression	stromal cell	4	4	1.65301659798686	0.930618332389088	-0.722398265597774	22	33
+Lung_facs	male_only	Stat1	detected_fraction	B cell	4	4	0.416666666666667	0.242142049127343	-0.174524617539323	2	14
+Lung_facs	male_only	Stat1	detected_fraction	endothelial cell	4	4	0.377936415436415	0.300187502337934	-0.077748913098481	27	210
+Lung_facs	male_only	Stat1	detected_fraction	epithelial cell	4	4	0.0796296296296296	0.21437280739283	0.1347431777632	5	2
+Lung_facs	male_only	Stat1	detected_fraction	granulocyte	4	4	0.575	0.302631578947368	-0.272368421052632	1	1
+Lung_facs	male_only	Stat1	detected_fraction	lymphocyte	4	4	0.36461038961039	0.231111111111111	-0.133499278499278	10	5
+Lung_facs	male_only	Stat1	detected_fraction	monocyte	4	4	0.728349282296651	0.50582725464191	-0.222522027654741	5	15
+Lung_facs	male_only	Stat1	detected_fraction	myeloid cell	4	4	0.253939205955335	0.216940154440154	-0.0369990515151806	13	28
+Lung_facs	male_only	Stat1	detected_fraction	stromal cell	4	4	0.290469747643661	0.324991145847181	0.0345213982035201	22	33
+Lung_facs	male_only	Tmem119	mean_expression	B cell	4	4	0.016069775292029	0.00253772027907937	-0.0135320550129496	2	14
+Lung_facs	male_only	Tmem119	mean_expression	endothelial cell	4	4	0.369457758719628	0.096877453557442	-0.272580305162186	27	210
+Lung_facs	male_only	Tmem119	mean_expression	epithelial cell	4	4	0.0371530643146899	0.506116879463602	0.468963815148912	5	2
+Lung_facs	male_only	Tmem119	mean_expression	granulocyte	4	4	0.000752179906703525	0.135727225165618	0.134975045258915	1	1
+Lung_facs	male_only	Tmem119	mean_expression	lymphocyte	4	4	2.27661298784438	0.678327806834972	-1.59828518100941	10	5
+Lung_facs	male_only	Tmem119	mean_expression	monocyte	4	4	0.0150437418293059	0.0464502233172689	0.031406481487963	5	15
+Lung_facs	male_only	Tmem119	mean_expression	myeloid cell	4	4	2.18763426808514	5.99018425141186	3.80254998332672	13	28
+Lung_facs	male_only	Tmem119	mean_expression	stromal cell	4	4	4.86576738124429	3.21778847725865	-1.64797890398563	22	33
+Lung_facs	male_only	Tmem119	detected_fraction	B cell	4	4	0.375	0.0288865546218487	-0.346113445378151	2	14
+Lung_facs	male_only	Tmem119	detected_fraction	endothelial cell	4	4	0.276385651385651	0.0355740096509931	-0.240811641734658	27	210
+Lung_facs	male_only	Tmem119	detected_fraction	epithelial cell	4	4	0.287037037037037	0.0962608026011808	-0.190776234435856	5	2
+Lung_facs	male_only	Tmem119	detected_fraction	granulocyte	4	4	0.1	0.0263157894736842	-0.0736842105263158	1	1
+Lung_facs	male_only	Tmem119	detected_fraction	lymphocyte	4	4	0.740584415584416	0.133333333333333	-0.607251082251082	10	5
+Lung_facs	male_only	Tmem119	detected_fraction	monocyte	4	4	0.217378673957621	0.0936035587975243	-0.123775115160097	5	15
+Lung_facs	male_only	Tmem119	detected_fraction	myeloid cell	4	4	0.387427626137304	0.469335811247576	0.0819081851102723	13	28
+Lung_facs	male_only	Tmem119	detected_fraction	stromal cell	4	4	0.460527515962299	0.334202870222573	-0.126324645739725	22	33
+Lung_facs	male_only	Tnf	mean_expression	B cell	4	4	0	0.0140613755211234	0.0140613755211234	2	14
+Lung_facs	male_only	Tnf	mean_expression	endothelial cell	4	4	0	0.00211328490273985	0.00211328490273985	27	210
+Lung_facs	male_only	Tnf	mean_expression	epithelial cell	4	4	0	0.029592190452958	0.029592190452958	5	2
+Lung_facs	male_only	Tnf	mean_expression	granulocyte	4	4	0	0.606761785653921	0.606761785653921	1	1
+Lung_facs	male_only	Tnf	mean_expression	lymphocyte	4	4	0	0	0	10	5
+Lung_facs	male_only	Tnf	mean_expression	monocyte	4	4	0.0084398315671509	0.223317059094562	0.214877227527411	5	15
+Lung_facs	male_only	Tnf	mean_expression	myeloid cell	4	4	0	0.0469150068267848	0.0469150068267848	13	28
+Lung_facs	male_only	Tnf	mean_expression	stromal cell	4	4	0	0.00589580605385432	0.00589580605385432	22	33
+Lung_facs	male_only	Tnf	detected_fraction	B cell	4	4	0	0.0078125	0.0078125	2	14
+Lung_facs	male_only	Tnf	detected_fraction	endothelial cell	4	4	0	0.00321980323944185	0.00321980323944185	27	210
+Lung_facs	male_only	Tnf	detected_fraction	epithelial cell	4	4	0	0.0333704115684093	0.0333704115684093	5	2
+Lung_facs	male_only	Tnf	detected_fraction	granulocyte	4	4	0	0.0192307692307692	0.0192307692307692	1	1
+Lung_facs	male_only	Tnf	detected_fraction	lymphocyte	4	4	0	0	0	10	5
+Lung_facs	male_only	Tnf	detected_fraction	monocyte	4	4	0.0334586466165413	0.0306559460654288	-0.00280270055111253	5	15
+Lung_facs	male_only	Tnf	detected_fraction	myeloid cell	4	4	0	0.0313761159349394	0.0313761159349394	13	28
+Lung_facs	male_only	Tnf	detected_fraction	stromal cell	4	4	0	0.0149075130810055	0.0149075130810055	22	33
+Lung_facs	male_only	Usp18	mean_expression	B cell	4	4	0.80508479475975	0.216281547359969	-0.588803247399781	2	14
+Lung_facs	male_only	Usp18	mean_expression	endothelial cell	4	4	0.823001586306552	1.13555007396298	0.312548487656426	27	210
+Lung_facs	male_only	Usp18	mean_expression	epithelial cell	4	4	0.751733388944908	1.66807290233337	0.91633951338846	5	2
+Lung_facs	male_only	Usp18	mean_expression	granulocyte	4	4	0	0.0210020397054522	0.0210020397054522	1	1
+Lung_facs	male_only	Usp18	mean_expression	lymphocyte	4	4	0.26793416684949	0.193995690180196	-0.0739384766692943	10	5
+Lung_facs	male_only	Usp18	mean_expression	monocyte	4	4	0.101789012847701	0.57630454851792	0.474515535670219	5	15
+Lung_facs	male_only	Usp18	mean_expression	myeloid cell	4	4	0.0421896610461596	0.254503124033725	0.212313462987565	13	28
+Lung_facs	male_only	Usp18	mean_expression	stromal cell	4	4	0.388577365832931	0.591009287730784	0.202431921897853	22	33
+Lung_facs	male_only	Usp18	detected_fraction	B cell	4	4	0.125	0.0967649078862314	-0.0282350921137686	2	14
+Lung_facs	male_only	Usp18	detected_fraction	endothelial cell	4	4	0.150605413105413	0.182460816219654	0.0318554031142405	27	210
+Lung_facs	male_only	Usp18	detected_fraction	epithelial cell	4	4	0.151851851851852	0.299467356892273	0.147615505040422	5	2
+Lung_facs	male_only	Usp18	detected_fraction	granulocyte	4	4	0	0.0394736842105263	0.0394736842105263	1	1
+Lung_facs	male_only	Usp18	detected_fraction	lymphocyte	4	4	0.119264069264069	0.0555555555555555	-0.0637085137085137	10	5
+Lung_facs	male_only	Usp18	detected_fraction	monocyte	4	4	0.12582023239918	0.119338527851459	-0.00648170454772085	5	15
+Lung_facs	male_only	Usp18	detected_fraction	myeloid cell	4	4	0.0593413978494623	0.128357632034103	0.0690162341846403	13	28
+Lung_facs	male_only	Usp18	detected_fraction	stromal cell	4	4	0.114566737610216	0.133256518018652	0.0186897804084364	22	33
+Bladder_droplet	all_observed_sexes	Apoe	mean_expression	bladder cell	3	3	4.60291200936133	7.26943061339743	2.66651860403611	81	118
+Bladder_droplet	all_observed_sexes	Apoe	mean_expression	bladder urothelial cell	3	3	0.297633192220478	0.348093894375221	0.0504607021547431	55	741
+Bladder_droplet	all_observed_sexes	Apoe	mean_expression	endothelial cell	3	3	8.00520839257409	25.1676582063487	17.1624498137746	3	39
+Bladder_droplet	all_observed_sexes	Apoe	mean_expression	leukocyte	3	3	127.58325724105	144.618982146184	17.0357249051332	4	17
+Bladder_droplet	all_observed_sexes	Apoe	detected_fraction	bladder cell	3	3	0.796725269235842	0.653568967893069	-0.143156301342773	81	118
+Bladder_droplet	all_observed_sexes	Apoe	detected_fraction	bladder urothelial cell	3	3	0.455150422412086	0.411447738139135	-0.0437026842729509	55	741
+Bladder_droplet	all_observed_sexes	Apoe	detected_fraction	endothelial cell	3	3	0.814102564102564	0.610229079705824	-0.20387348439674	3	39
+Bladder_droplet	all_observed_sexes	Apoe	detected_fraction	leukocyte	3	3	0.625	0.636738906088751	0.0117389060887513	4	17
+Bladder_droplet	all_observed_sexes	B2m	mean_expression	bladder cell	3	3	13.6776376036568	24.7396235058586	11.0619859022018	81	118
+Bladder_droplet	all_observed_sexes	B2m	mean_expression	bladder urothelial cell	3	3	4.34086099209398	6.21825347219293	1.87739248009895	55	741
+Bladder_droplet	all_observed_sexes	B2m	mean_expression	endothelial cell	3	3	25.3896911833094	29.2561972171551	3.86650603384569	3	39
+Bladder_droplet	all_observed_sexes	B2m	mean_expression	leukocyte	3	3	38.2774412631989	51.6712464401309	13.3938051769321	4	17
+Bladder_droplet	all_observed_sexes	B2m	detected_fraction	bladder cell	3	3	0.998077662437524	1	0.00192233756247606	81	118
+Bladder_droplet	all_observed_sexes	B2m	detected_fraction	bladder urothelial cell	3	3	0.980572458868605	0.978198358027155	-0.0023741008414494	55	741
+Bladder_droplet	all_observed_sexes	B2m	detected_fraction	endothelial cell	3	3	0.925824175824176	0.931064897634665	0.00524072181048929	3	39
+Bladder_droplet	all_observed_sexes	B2m	detected_fraction	leukocyte	3	3	1	1	0	4	17
+Bladder_droplet	all_observed_sexes	Bst2	mean_expression	bladder cell	3	3	0.953476739650188	1.21552853156929	0.262051791919099	81	118
+Bladder_droplet	all_observed_sexes	Bst2	mean_expression	bladder urothelial cell	3	3	0.150880227327178	0.213322253870339	0.0624420265431605	55	741
+Bladder_droplet	all_observed_sexes	Bst2	mean_expression	endothelial cell	3	3	3.20628398092821	2.85891031970284	-0.347373661225364	3	39
+Bladder_droplet	all_observed_sexes	Bst2	mean_expression	leukocyte	3	3	2.41592202385267	2.01141298972621	-0.404509034126454	4	17
+Bladder_droplet	all_observed_sexes	Bst2	detected_fraction	bladder cell	3	3	0.498338784767081	0.493288253705782	-0.00505053106129988	81	118
+Bladder_droplet	all_observed_sexes	Bst2	detected_fraction	bladder urothelial cell	3	3	0.281101617937318	0.31536158513575	0.0342599671984319	55	741
+Bladder_droplet	all_observed_sexes	Bst2	detected_fraction	endothelial cell	3	3	0.655372405372405	0.497204830053667	-0.158167575318738	3	39
+Bladder_droplet	all_observed_sexes	Bst2	detected_fraction	leukocyte	3	3	0.725	0.69281045751634	-0.0321895424836602	4	17
+Bladder_droplet	all_observed_sexes	Cd38	mean_expression	bladder cell	3	3	0.052390492107883	0.0363706173042056	-0.0160198748036775	81	118
+Bladder_droplet	all_observed_sexes	Cd38	mean_expression	bladder urothelial cell	3	3	0.00304121402414673	0.0001798610873147	-0.00286135293683203	55	741
+Bladder_droplet	all_observed_sexes	Cd38	mean_expression	endothelial cell	3	3	0.627144072300349	0.53771437932627	-0.0894296929740783	3	39
+Bladder_droplet	all_observed_sexes	Cd38	mean_expression	leukocyte	3	3	0.43286801079909	0.495350033557411	0.0624820227583209	4	17
+Bladder_droplet	all_observed_sexes	Cd38	detected_fraction	bladder cell	3	3	0.0528290689767044	0.03005669402941	-0.0227723749472945	81	118
+Bladder_droplet	all_observed_sexes	Cd38	detected_fraction	bladder urothelial cell	3	3	0.00939919820244357	0.000357653791130167	-0.0090415444113134	55	741
+Bladder_droplet	all_observed_sexes	Cd38	detected_fraction	endothelial cell	3	3	0.26007326007326	0.194258099781356	-0.0658151602919045	3	39
+Bladder_droplet	all_observed_sexes	Cd38	detected_fraction	leukocyte	3	3	0.158333333333333	0.233574131406949	0.0752407980736154	4	17
+Bladder_droplet	all_observed_sexes	Cdkn1a	mean_expression	bladder cell	3	3	7.17580847756274	10.3332074346392	3.15739895707648	81	118
+Bladder_droplet	all_observed_sexes	Cdkn1a	mean_expression	bladder urothelial cell	3	3	5.62410842533823	6.42510693013137	0.800998504793139	55	741
+Bladder_droplet	all_observed_sexes	Cdkn1a	mean_expression	endothelial cell	3	3	13.9312610154987	26.5612997448402	12.6300387293414	3	39
+Bladder_droplet	all_observed_sexes	Cdkn1a	mean_expression	leukocyte	3	3	5.21870018889507	6.04536625044757	0.826666061552501	4	17
+Bladder_droplet	all_observed_sexes	Cdkn1a	detected_fraction	bladder cell	3	3	0.943609782133427	0.915513100651588	-0.0280966814818392	81	118
+Bladder_droplet	all_observed_sexes	Cdkn1a	detected_fraction	bladder urothelial cell	3	3	0.980863947111411	0.978735940096004	-0.00212800701540772	55	741
+Bladder_droplet	all_observed_sexes	Cdkn1a	detected_fraction	endothelial cell	3	3	0.864163614163614	0.96206022659511	0.0978966124314962	3	39
+Bladder_droplet	all_observed_sexes	Cdkn1a	detected_fraction	leukocyte	3	3	0.875	0.8140694874441	-0.0609305125558995	4	17
+Bladder_droplet	all_observed_sexes	Cdkn2a	mean_expression	bladder cell	3	3	0.0561677914051368	0.0553051797406134	-0.00086261166452347	81	118
+Bladder_droplet	all_observed_sexes	Cdkn2a	mean_expression	bladder urothelial cell	3	3	0.00280718137079477	0.00224169284192337	-0.0005654885288714	55	741
+Bladder_droplet	all_observed_sexes	Cdkn2a	mean_expression	endothelial cell	3	3	0	0	0	3	39
+Bladder_droplet	all_observed_sexes	Cdkn2a	mean_expression	leukocyte	3	3	0	0.0853536964836586	0.0853536964836586	4	17
+Bladder_droplet	all_observed_sexes	Cdkn2a	detected_fraction	bladder cell	3	3	0.0343289958822446	0.0242494931002578	-0.0100795027819868	81	118
+Bladder_droplet	all_observed_sexes	Cdkn2a	detected_fraction	bladder urothelial cell	3	3	0.0083464803545939	0.00524227644849203	-0.00310420390610187	55	741
+Bladder_droplet	all_observed_sexes	Cdkn2a	detected_fraction	endothelial cell	3	3	0	0	0	3	39
+Bladder_droplet	all_observed_sexes	Cdkn2a	detected_fraction	leukocyte	3	3	0	0.0411076711386309	0.0411076711386309	4	17
+Bladder_droplet	all_observed_sexes	Clec7a	mean_expression	bladder cell	3	3	0.0067315916482864	0.00821627155552063	0.00148467990723423	81	118
+Bladder_droplet	all_observed_sexes	Clec7a	mean_expression	bladder urothelial cell	3	3	0.00119451031616093	0.00363917545935653	0.0024446651431956	55	741
+Bladder_droplet	all_observed_sexes	Clec7a	mean_expression	endothelial cell	3	3	0	0.0115222243799103	0.0115222243799103	3	39
+Bladder_droplet	all_observed_sexes	Clec7a	mean_expression	leukocyte	3	3	1.30306087036928	2.86220026342246	1.55913939305319	4	17
+Bladder_droplet	all_observed_sexes	Clec7a	detected_fraction	bladder cell	3	3	0.0060342101864593	0.00348432055749127	-0.00254988962896803	81	118
+Bladder_droplet	all_observed_sexes	Clec7a	detected_fraction	bladder urothelial cell	3	3	0.00245360979640893	0.00798731714470357	0.00553370734829463	55	741
+Bladder_droplet	all_observed_sexes	Clec7a	detected_fraction	endothelial cell	3	3	0	0.00694444444444443	0.00694444444444443	3	39
+Bladder_droplet	all_observed_sexes	Clec7a	detected_fraction	leukocyte	3	3	0.308333333333333	0.562607499140007	0.254274165806674	4	17
+Bladder_droplet	all_observed_sexes	Cst7	mean_expression	bladder cell	3	3	0	0	0	81	118
+Bladder_droplet	all_observed_sexes	Cst7	mean_expression	bladder urothelial cell	3	3	0	0.0003949394915919	0.0003949394915919	55	741
+Bladder_droplet	all_observed_sexes	Cst7	mean_expression	endothelial cell	3	3	0	0	0	3	39
+Bladder_droplet	all_observed_sexes	Cst7	mean_expression	leukocyte	3	3	0.0685476114352544	0.197409480061775	0.128861868626521	4	17
+Bladder_droplet	all_observed_sexes	Cst7	detected_fraction	bladder cell	3	3	0	0	0	81	118
+Bladder_droplet	all_observed_sexes	Cst7	detected_fraction	bladder urothelial cell	3	3	0	0.000715307582260367	0.000715307582260367	55	741
+Bladder_droplet	all_observed_sexes	Cst7	detected_fraction	endothelial cell	3	3	0	0	0	3	39
+Bladder_droplet	all_observed_sexes	Cst7	detected_fraction	leukocyte	3	3	0.0833333333333333	0.0830753353973168	-0.000257997936016538	4	17
+Bladder_droplet	all_observed_sexes	Fth1	mean_expression	bladder cell	3	3	90.8049849344967	92.3451559360596	1.54017100156292	81	118
+Bladder_droplet	all_observed_sexes	Fth1	mean_expression	bladder urothelial cell	3	3	35.8486468036052	38.4178024026898	2.56915559908459	55	741
+Bladder_droplet	all_observed_sexes	Fth1	mean_expression	endothelial cell	3	3	30.9599997758574	60.7611109170388	29.8011111411814	3	39
+Bladder_droplet	all_observed_sexes	Fth1	mean_expression	leukocyte	3	3	100.340363621712	146.525909337466	46.1855457157543	4	17
+Bladder_droplet	all_observed_sexes	Fth1	detected_fraction	bladder cell	3	3	1	1	0	81	118
+Bladder_droplet	all_observed_sexes	Fth1	detected_fraction	bladder urothelial cell	3	3	1	1	0	55	741
+Bladder_droplet	all_observed_sexes	Fth1	detected_fraction	endothelial cell	3	3	1	1	0	3	39
+Bladder_droplet	all_observed_sexes	Fth1	detected_fraction	leukocyte	3	3	1	1	0	4	17
+Bladder_droplet	all_observed_sexes	H2-D1	mean_expression	bladder cell	3	3	8.39317688096148	14.2035700260726	5.81039314511109	81	118
+Bladder_droplet	all_observed_sexes	H2-D1	mean_expression	bladder urothelial cell	3	3	3.99272985521942	5.29675556959691	1.30402571437748	55	741
+Bladder_droplet	all_observed_sexes	H2-D1	mean_expression	endothelial cell	3	3	15.7095912269184	18.0697307102241	2.36013948330579	3	39
+Bladder_droplet	all_observed_sexes	H2-D1	mean_expression	leukocyte	3	3	29.6979702313741	33.2602065394414	3.56223630806733	4	17
+Bladder_droplet	all_observed_sexes	H2-D1	detected_fraction	bladder cell	3	3	0.987178973338143	0.980840174019174	-0.00633879931896919	81	118
+Bladder_droplet	all_observed_sexes	H2-D1	detected_fraction	bladder urothelial cell	3	3	0.987148974532342	0.988708803328392	0.00155982879604999	55	741
+Bladder_droplet	all_observed_sexes	H2-D1	detected_fraction	endothelial cell	3	3	0.926739926739927	0.915573444643212	-0.0111664820967148	3	39
+Bladder_droplet	all_observed_sexes	H2-D1	detected_fraction	leukocyte	3	3	1	1	0	4	17
+Bladder_droplet	all_observed_sexes	H2-K1	mean_expression	bladder cell	3	3	3.73560515080292	6.42172158030907	2.68611642950615	81	118
+Bladder_droplet	all_observed_sexes	H2-K1	mean_expression	bladder urothelial cell	3	3	3.90104423462929	5.32787356330605	1.42682932867676	55	741
+Bladder_droplet	all_observed_sexes	H2-K1	mean_expression	endothelial cell	3	3	8.85495354902904	9.28213334499255	0.427179795963511	3	39
+Bladder_droplet	all_observed_sexes	H2-K1	mean_expression	leukocyte	3	3	11.3672655810912	14.8855729297465	3.51830734865523	4	17
+Bladder_droplet	all_observed_sexes	H2-K1	detected_fraction	bladder cell	3	3	0.914758389960235	0.884668005275694	-0.0300903846845408	81	118
+Bladder_droplet	all_observed_sexes	H2-K1	detected_fraction	bladder urothelial cell	3	3	0.984202539253249	0.989434266407725	0.00523172715447617	55	741
+Bladder_droplet	all_observed_sexes	H2-K1	detected_fraction	endothelial cell	3	3	0.776251526251526	0.755789107533294	-0.0204624187182327	3	39
+Bladder_droplet	all_observed_sexes	H2-K1	detected_fraction	leukocyte	3	3	0.991666666666667	0.990196078431373	-0.00147058823529411	4	17
+Bladder_droplet	all_observed_sexes	Ifi204	mean_expression	bladder cell	3	3	0.015881548326035	0.0830768504579995	0.0671953021319645	81	118
+Bladder_droplet	all_observed_sexes	Ifi204	mean_expression	bladder urothelial cell	3	3	0.000899960253278233	0.00322048808874437	0.00232052783546613	55	741
+Bladder_droplet	all_observed_sexes	Ifi204	mean_expression	endothelial cell	3	3	0.0673009904967996	0.189184027121783	0.121883036624983	3	39
+Bladder_droplet	all_observed_sexes	Ifi204	mean_expression	leukocyte	3	3	0.427327080567678	0.599824423452895	0.172497342885217	4	17
+Bladder_droplet	all_observed_sexes	Ifi204	detected_fraction	bladder cell	3	3	0.0110519702984139	0.0494901474438473	0.0384381771454334	81	118
+Bladder_droplet	all_observed_sexes	Ifi204	detected_fraction	bladder urothelial cell	3	3	0.00245360979640893	0.00516393305629793	0.002710323259889	55	741
+Bladder_droplet	all_observed_sexes	Ifi204	detected_fraction	endothelial cell	3	3	0.0494505494505494	0.0975203736831643	0.0480698242326149	3	39
+Bladder_droplet	all_observed_sexes	Ifi204	detected_fraction	leukocyte	3	3	0.166666666666667	0.232886136910905	0.066219470244238	4	17
+Bladder_droplet	all_observed_sexes	Ifit2	mean_expression	bladder cell	3	3	0.116847424291739	0.0948596600589279	-0.0219877642328107	81	118
+Bladder_droplet	all_observed_sexes	Ifit2	mean_expression	bladder urothelial cell	3	3	0.0046054706280244	0.00153814433899693	-0.00306732628902747	55	741
+Bladder_droplet	all_observed_sexes	Ifit2	mean_expression	endothelial cell	3	3	0.261929859117274	0.240709674258257	-0.0212201848590171	3	39
+Bladder_droplet	all_observed_sexes	Ifit2	mean_expression	leukocyte	3	3	0.0481637944777806	0.0222374445226621	-0.0259263499551185	4	17
+Bladder_droplet	all_observed_sexes	Ifit2	detected_fraction	bladder cell	3	3	0.089337978611335	0.0639874800685052	-0.0253504985428297	81	118
+Bladder_droplet	all_observed_sexes	Ifit2	detected_fraction	bladder urothelial cell	3	3	0.0072370766488413	0.0023699448546786	-0.0048671317941627	55	741
+Bladder_droplet	all_observed_sexes	Ifit2	detected_fraction	endothelial cell	3	3	0.219169719169719	0.0905635062611807	-0.128606212908539	3	39
+Bladder_droplet	all_observed_sexes	Ifit2	detected_fraction	leukocyte	3	3	0.0333333333333333	0.021499828001376	-0.0118335053319574	4	17
+Bladder_droplet	all_observed_sexes	Ifit3	mean_expression	bladder cell	3	3	0.267511333481289	0.264496654078537	-0.00301467940275207	81	118
+Bladder_droplet	all_observed_sexes	Ifit3	mean_expression	bladder urothelial cell	3	3	0.00577059323000677	0.00127318165999103	-0.00449741157001573	55	741
+Bladder_droplet	all_observed_sexes	Ifit3	mean_expression	endothelial cell	3	3	0.375528804766826	0.58576183101039	0.210233026243564	3	39
+Bladder_droplet	all_observed_sexes	Ifit3	mean_expression	leukocyte	3	3	0.0284098386764526	0.13841219331991	0.110002354643457	4	17
+Bladder_droplet	all_observed_sexes	Ifit3	detected_fraction	bladder cell	3	3	0.102674157653012	0.0780783086281225	-0.0245958490248894	81	118
+Bladder_droplet	all_observed_sexes	Ifit3	detected_fraction	bladder urothelial cell	3	3	0.0161434493686014	0.0027275986458088	-0.0134158507227926	55	741
+Bladder_droplet	all_observed_sexes	Ifit3	detected_fraction	endothelial cell	3	3	0.258547008547009	0.173921685549593	-0.084625322997416	3	39
+Bladder_droplet	all_observed_sexes	Ifit3	detected_fraction	leukocyte	3	3	0.0166666666666667	0.0577915376676986	0.041124871001032	4	17
+Bladder_droplet	all_observed_sexes	Ifitm3	mean_expression	bladder cell	3	3	17.042950628041	16.5634778619894	-0.47947276605154	81	118
+Bladder_droplet	all_observed_sexes	Ifitm3	mean_expression	bladder urothelial cell	3	3	1.00855096525837	1.15904155511406	0.150490589855689	55	741
+Bladder_droplet	all_observed_sexes	Ifitm3	mean_expression	endothelial cell	3	3	27.7638651530676	24.699057312459	-3.06480784060855	3	39
+Bladder_droplet	all_observed_sexes	Ifitm3	mean_expression	leukocyte	3	3	12.3691691085696	14.7154330407575	2.34626393218784	4	17
+Bladder_droplet	all_observed_sexes	Ifitm3	detected_fraction	bladder cell	3	3	0.999615532487505	0.997619047619048	-0.00199648486845716	81	118
+Bladder_droplet	all_observed_sexes	Ifitm3	detected_fraction	bladder urothelial cell	3	3	0.782874451069177	0.780140645482681	-0.00273380558649661	55	741
+Bladder_droplet	all_observed_sexes	Ifitm3	detected_fraction	endothelial cell	3	3	1	0.986111111111111	-0.0138888888888888	3	39
+Bladder_droplet	all_observed_sexes	Ifitm3	detected_fraction	leukocyte	3	3	0.791666666666667	0.794633642930857	0.00296697626418996	4	17
+Bladder_droplet	all_observed_sexes	Il1b	mean_expression	bladder cell	3	3	0.108253338252821	0.0539859672632669	-0.0542673709895537	81	118
+Bladder_droplet	all_observed_sexes	Il1b	mean_expression	bladder urothelial cell	3	3	0.0576689632929507	0.0463582858202997	-0.0113106774726511	55	741
+Bladder_droplet	all_observed_sexes	Il1b	mean_expression	endothelial cell	3	3	0	0.0400296327795169	0.0400296327795169	3	39
+Bladder_droplet	all_observed_sexes	Il1b	mean_expression	leukocyte	3	3	32.9071993450324	22.9542750488822	-9.95292429615019	4	17
+Bladder_droplet	all_observed_sexes	Il1b	detected_fraction	bladder cell	3	3	0.0589910501482973	0.0336404259926376	-0.0253506241556597	81	118
+Bladder_droplet	all_observed_sexes	Il1b	detected_fraction	bladder urothelial cell	3	3	0.111737523989045	0.0734437603644547	-0.0382937636245905	55	741
+Bladder_droplet	all_observed_sexes	Il1b	detected_fraction	endothelial cell	3	3	0	0.021640826873385	0.021640826873385	3	39
+Bladder_droplet	all_observed_sexes	Il1b	detected_fraction	leukocyte	3	3	0.691666666666667	0.530099759201926	-0.16156690746474	4	17
+Bladder_droplet	all_observed_sexes	Irf7	mean_expression	bladder cell	3	3	0.356762943910446	0.442186652148304	0.0854237082378587	81	118
+Bladder_droplet	all_observed_sexes	Irf7	mean_expression	bladder urothelial cell	3	3	0.0511100486655477	0.0386045070261769	-0.0125055416393708	55	741
+Bladder_droplet	all_observed_sexes	Irf7	mean_expression	endothelial cell	3	3	0.854806113956321	1.12415104441728	0.269344930460962	3	39
+Bladder_droplet	all_observed_sexes	Irf7	mean_expression	leukocyte	3	3	0.263364476462205	0.45249113271357	0.189126656251365	4	17
+Bladder_droplet	all_observed_sexes	Irf7	detected_fraction	bladder cell	3	3	0.252289747868371	0.204037481052777	-0.0482522668155948	81	118
+Bladder_droplet	all_observed_sexes	Irf7	detected_fraction	bladder urothelial cell	3	3	0.112500939072947	0.0665660749522834	-0.0459348641206637	55	741
+Bladder_droplet	all_observed_sexes	Irf7	detected_fraction	endothelial cell	3	3	0.316239316239316	0.252223712979527	-0.0640156032597893	3	39
+Bladder_droplet	all_observed_sexes	Irf7	detected_fraction	leukocyte	3	3	0.0916666666666667	0.166322669418645	0.0746560027519779	4	17
+Bladder_droplet	all_observed_sexes	Itga1	mean_expression	bladder cell	3	3	0.0380879164976769	0.0093968212205586	-0.0286910952771183	81	118
+Bladder_droplet	all_observed_sexes	Itga1	mean_expression	bladder urothelial cell	3	3	0.00317185999702593	0.00129164186555857	-0.00188021813146737	55	741
+Bladder_droplet	all_observed_sexes	Itga1	mean_expression	endothelial cell	3	3	0.882158408817063	0.500438243786032	-0.381720165031031	3	39
+Bladder_droplet	all_observed_sexes	Itga1	mean_expression	leukocyte	3	3	0.0157754309475422	0.0867141663290029	0.0709387353814608	4	17
+Bladder_droplet	all_observed_sexes	Itga1	detected_fraction	bladder cell	3	3	0.032396597179373	0.00963601645701683	-0.0227605807223561	81	118
+Bladder_droplet	all_observed_sexes	Itga1	detected_fraction	bladder urothelial cell	3	3	0.0075621666291037	0.00250177819860063	-0.00506038843050307	55	741
+Bladder_droplet	all_observed_sexes	Itga1	detected_fraction	endothelial cell	3	3	0.351953601953602	0.239924965215663	-0.112028636737939	3	39
+Bladder_droplet	all_observed_sexes	Itga1	detected_fraction	leukocyte	3	3	0.025	0.0636394908840729	0.0386394908840729	4	17
+Bladder_droplet	all_observed_sexes	Itgal	mean_expression	bladder cell	3	3	0.00727212014932183	0.0041475005266143	-0.00312461962270753	81	118
+Bladder_droplet	all_observed_sexes	Itgal	mean_expression	bladder urothelial cell	3	3	0	0.000912119304568567	0.000912119304568567	55	741
+Bladder_droplet	all_observed_sexes	Itgal	mean_expression	endothelial cell	3	3	0.0599046349525452	0	-0.0599046349525452	3	39
+Bladder_droplet	all_observed_sexes	Itgal	mean_expression	leukocyte	3	3	0.0796074946721395	0.507301535973813	0.427694041301673	4	17
+Bladder_droplet	all_observed_sexes	Itgal	detected_fraction	bladder cell	3	3	0.00976496901141263	0.00232288037166083	-0.0074420886397518	81	118
+Bladder_droplet	all_observed_sexes	Itgal	detected_fraction	bladder urothelial cell	3	3	0	0.0016020930883892	0.0016020930883892	55	741
+Bladder_droplet	all_observed_sexes	Itgal	detected_fraction	endothelial cell	3	3	0.111111111111111	0	-0.111111111111111	3	39
+Bladder_droplet	all_observed_sexes	Itgal	detected_fraction	leukocyte	3	3	0.0583333333333333	0.168386652906777	0.110053319573443	4	17
+Bladder_droplet	all_observed_sexes	Lmnb1	mean_expression	bladder cell	3	3	0.0725209217690403	0.146195605986184	0.0736746842171436	81	118
+Bladder_droplet	all_observed_sexes	Lmnb1	mean_expression	bladder urothelial cell	3	3	0.0988336195005823	0.101497547423559	0.00266392792297705	55	741
+Bladder_droplet	all_observed_sexes	Lmnb1	mean_expression	endothelial cell	3	3	0.0364143597337352	0.0804730877324663	0.044058727998731	3	39
+Bladder_droplet	all_observed_sexes	Lmnb1	mean_expression	leukocyte	3	3	1.46195811778307	1.66007238588548	0.198114268102411	4	17
+Bladder_droplet	all_observed_sexes	Lmnb1	detected_fraction	bladder cell	3	3	0.0620629967035195	0.101585661135062	0.0395226644315421	81	118
+Bladder_droplet	all_observed_sexes	Lmnb1	detected_fraction	bladder urothelial cell	3	3	0.187587846005696	0.172396221157776	-0.0151916248479202	55	741
+Bladder_droplet	all_observed_sexes	Lmnb1	detected_fraction	endothelial cell	3	3	0.0247252747252747	0.0627857284834029	0.0380604537581282	3	39
+Bladder_droplet	all_observed_sexes	Lmnb1	detected_fraction	leukocyte	3	3	0.508333333333333	0.411764705882353	-0.0965686274509803	4	17
+Bladder_droplet	all_observed_sexes	Lpl	mean_expression	bladder cell	3	3	0.603103020923307	0.910807206881908	0.307704185958601	81	118
+Bladder_droplet	all_observed_sexes	Lpl	mean_expression	bladder urothelial cell	3	3	0.0336652131349107	0.00886331422376873	-0.0248018989111419	55	741
+Bladder_droplet	all_observed_sexes	Lpl	mean_expression	endothelial cell	3	3	0.748564896839006	0.691287257927972	-0.0572776389110333	3	39
+Bladder_droplet	all_observed_sexes	Lpl	mean_expression	leukocyte	3	3	0.403266917665799	1.23290570283781	0.829638785172009	4	17
+Bladder_droplet	all_observed_sexes	Lpl	detected_fraction	bladder cell	3	3	0.326563505340899	0.322028976948365	-0.00453452839253349	81	118
+Bladder_droplet	all_observed_sexes	Lpl	detected_fraction	bladder urothelial cell	3	3	0.0719242458390531	0.0143110053204357	-0.0576132405186174	55	741
+Bladder_droplet	all_observed_sexes	Lpl	detected_fraction	endothelial cell	3	3	0.332112332112332	0.1798101769032	-0.152302155209132	3	39
+Bladder_droplet	all_observed_sexes	Lpl	detected_fraction	leukocyte	3	3	0.0666666666666667	0.14000687994496	0.0733402132782937	4	17
+Bladder_droplet	all_observed_sexes	Oas1a	mean_expression	bladder cell	3	3	0.0091007987571827	0.031140668245537	0.0220398694883543	81	118
+Bladder_droplet	all_observed_sexes	Oas1a	mean_expression	bladder urothelial cell	3	3	0.000616329217752333	0.000230343130354533	-0.0003859860873978	55	741
+Bladder_droplet	all_observed_sexes	Oas1a	mean_expression	endothelial cell	3	3	0.0805465856587494	0.0654510717918232	-0.0150955138669261	3	39
+Bladder_droplet	all_observed_sexes	Oas1a	mean_expression	leukocyte	3	3	0.141600566109021	0.246150519195233	0.104549953086211	4	17
+Bladder_droplet	all_observed_sexes	Oas1a	detected_fraction	bladder cell	3	3	0.0052652751614689	0.0180977972007323	0.0128325220392634	81	118
+Bladder_droplet	all_observed_sexes	Oas1a	detected_fraction	bladder urothelial cell	3	3	0.00166929607091873	0.000357653791130167	-0.00131164227978857	55	741
+Bladder_droplet	all_observed_sexes	Oas1a	detected_fraction	endothelial cell	3	3	0.0485347985347985	0.0456792884118465	-0.00285551012295199	3	39
+Bladder_droplet	all_observed_sexes	Oas1a	detected_fraction	leukocyte	3	3	0.075	0.127278981768146	0.0522789817681458	4	17
+Bladder_droplet	all_observed_sexes	Oasl2	mean_expression	bladder cell	3	3	0.247773214334693	0.242441467615821	-0.00533174671887193	81	118
+Bladder_droplet	all_observed_sexes	Oasl2	mean_expression	bladder urothelial cell	3	3	0.0106088233385687	0.003483350024883	-0.00712547331368573	55	741
+Bladder_droplet	all_observed_sexes	Oasl2	mean_expression	endothelial cell	3	3	0.360714299010706	0.194743667191064	-0.165970631819642	3	39
+Bladder_droplet	all_observed_sexes	Oasl2	mean_expression	leukocyte	3	3	0.263090356190999	0.103473773661208	-0.159616582529792	4	17
+Bladder_droplet	all_observed_sexes	Oasl2	detected_fraction	bladder cell	3	3	0.170660362125183	0.146997972401031	-0.0236623897241518	81	118
+Bladder_droplet	all_observed_sexes	Oasl2	detected_fraction	bladder urothelial cell	3	3	0.0251504907083	0.00634378113705713	-0.0188067095712429	55	741
+Bladder_droplet	all_observed_sexes	Oasl2	detected_fraction	endothelial cell	3	3	0.257631257631258	0.103669747565096	-0.153961510066161	3	39
+Bladder_droplet	all_observed_sexes	Oasl2	detected_fraction	leukocyte	3	3	0.191666666666667	0.0400756793945648	-0.151590987272102	4	17
+Bladder_droplet	all_observed_sexes	P2ry12	mean_expression	bladder cell	3	3	0.0004139549225305	0	-0.0004139549225305	81	118
+Bladder_droplet	all_observed_sexes	P2ry12	mean_expression	bladder urothelial cell	3	3	0	0	0	55	741
+Bladder_droplet	all_observed_sexes	P2ry12	mean_expression	endothelial cell	3	3	0	0	0	3	39
+Bladder_droplet	all_observed_sexes	P2ry12	mean_expression	leukocyte	3	3	0.17077079564333	0.177467845172705	0.00669704952937528	4	17
+Bladder_droplet	all_observed_sexes	P2ry12	detected_fraction	bladder cell	3	3	0.000384467512495167	0	-0.000384467512495167	81	118
+Bladder_droplet	all_observed_sexes	P2ry12	detected_fraction	bladder urothelial cell	3	3	0	0	0	55	741
+Bladder_droplet	all_observed_sexes	P2ry12	detected_fraction	endothelial cell	3	3	0	0	0	3	39
+Bladder_droplet	all_observed_sexes	P2ry12	detected_fraction	leukocyte	3	3	0.1	0.111627106983144	0.0116271069831441	4	17
+Bladder_droplet	all_observed_sexes	Rtp4	mean_expression	bladder cell	3	3	0.361078382781391	0.318112978512615	-0.0429654042687757	81	118
+Bladder_droplet	all_observed_sexes	Rtp4	mean_expression	bladder urothelial cell	3	3	0.00811335358750457	0.00388800011172667	-0.0042253534757779	55	741
+Bladder_droplet	all_observed_sexes	Rtp4	mean_expression	endothelial cell	3	3	0.50964804067389	1.037108039837	0.527459999163111	3	39
+Bladder_droplet	all_observed_sexes	Rtp4	mean_expression	leukocyte	3	3	0.0715808649857839	0.267070109578888	0.195489244593104	4	17
+Bladder_droplet	all_observed_sexes	Rtp4	detected_fraction	bladder cell	3	3	0.250494301628481	0.143322703202819	-0.107171598425662	81	118
+Bladder_droplet	all_observed_sexes	Rtp4	detected_fraction	bladder urothelial cell	3	3	0.0182049023022653	0.00830532635588723	-0.0098995759463781	55	741
+Bladder_droplet	all_observed_sexes	Rtp4	detected_fraction	endothelial cell	3	3	0.356532356532357	0.254621347644603	-0.101911008887753	3	39
+Bladder_droplet	all_observed_sexes	Rtp4	detected_fraction	leukocyte	3	3	0.0333333333333333	0.108703130374957	0.0753697970416236	4	17
+Bladder_droplet	all_observed_sexes	Stat1	mean_expression	bladder cell	3	3	0.236975631268299	0.237566263313326	0.000590632045027517	81	118
+Bladder_droplet	all_observed_sexes	Stat1	mean_expression	bladder urothelial cell	3	3	0.117541108045194	0.105964622150169	-0.0115764858950247	55	741
+Bladder_droplet	all_observed_sexes	Stat1	mean_expression	endothelial cell	3	3	0.771588905881613	0.332863879632379	-0.438725026249234	3	39
+Bladder_droplet	all_observed_sexes	Stat1	mean_expression	leukocyte	3	3	0.413038197159767	0.306583829272806	-0.106454367886961	4	17
+Bladder_droplet	all_observed_sexes	Stat1	detected_fraction	bladder cell	3	3	0.188838368769165	0.118471820311423	-0.0703665484577412	81	118
+Bladder_droplet	all_observed_sexes	Stat1	detected_fraction	bladder urothelial cell	3	3	0.209972203440763	0.170314392006412	-0.0396578114343514	55	741
+Bladder_droplet	all_observed_sexes	Stat1	detected_fraction	endothelial cell	3	3	0.468559218559218	0.164045418405883	-0.304513800153335	3	39
+Bladder_droplet	all_observed_sexes	Stat1	detected_fraction	leukocyte	3	3	0.191666666666667	0.175954592363261	-0.0157120743034056	4	17
+Bladder_droplet	all_observed_sexes	Tmem119	mean_expression	bladder cell	3	3	1.22880308386459	0.672030225635636	-0.556772858228957	81	118
+Bladder_droplet	all_observed_sexes	Tmem119	mean_expression	bladder urothelial cell	3	3	0.0493165556464708	0.00198137480776887	-0.0473351808387019	55	741
+Bladder_droplet	all_observed_sexes	Tmem119	mean_expression	endothelial cell	3	3	0.444625904381057	0.230415326049446	-0.214210578331611	3	39
+Bladder_droplet	all_observed_sexes	Tmem119	mean_expression	leukocyte	3	3	0.241381006439527	0.0239272497550786	-0.217453756684448	4	17
+Bladder_droplet	all_observed_sexes	Tmem119	detected_fraction	bladder cell	3	3	0.557824425183133	0.276823362664619	-0.281001062518514	81	118
+Bladder_droplet	all_observed_sexes	Tmem119	detected_fraction	bladder urothelial cell	3	3	0.109361498692127	0.00362728375602023	-0.105734214936107	55	741
+Bladder_droplet	all_observed_sexes	Tmem119	detected_fraction	endothelial cell	3	3	0.321123321123321	0.111657722122838	-0.209465599000483	3	39
+Bladder_droplet	all_observed_sexes	Tmem119	detected_fraction	leukocyte	3	3	0.108333333333333	0.0204678362573099	-0.0878654970760234	4	17
+Bladder_droplet	all_observed_sexes	Tnf	mean_expression	bladder cell	3	3	0.017709148256801	0.0131628925097397	-0.0045462557470613	81	118
+Bladder_droplet	all_observed_sexes	Tnf	mean_expression	bladder urothelial cell	3	3	0.0011611779280083	0.0051045053379113	0.003943327409903	55	741
+Bladder_droplet	all_observed_sexes	Tnf	mean_expression	endothelial cell	3	3	0	0	0	3	39
+Bladder_droplet	all_observed_sexes	Tnf	mean_expression	leukocyte	3	3	1.72881321360668	2.3745679145504	0.645754700943719	4	17
+Bladder_droplet	all_observed_sexes	Tnf	detected_fraction	bladder cell	3	3	0.0138801953488612	0.0063091793145534	-0.0075710160343078	81	118
+Bladder_droplet	all_observed_sexes	Tnf	detected_fraction	bladder urothelial cell	3	3	0.00294643527909243	0.00941707973761253	0.0064706444585201	55	741
+Bladder_droplet	all_observed_sexes	Tnf	detected_fraction	endothelial cell	3	3	0	0	0	3	39
+Bladder_droplet	all_observed_sexes	Tnf	detected_fraction	leukocyte	3	3	0.4	0.407980736154111	0.00798073615411082	4	17
+Bladder_droplet	all_observed_sexes	Usp18	mean_expression	bladder cell	3	3	0.150157252156068	0.0991564884888905	-0.0510007636671776	81	118
+Bladder_droplet	all_observed_sexes	Usp18	mean_expression	bladder urothelial cell	3	3	0.219399040493917	0.127476838165207	-0.0919222023287106	55	741
+Bladder_droplet	all_observed_sexes	Usp18	mean_expression	endothelial cell	3	3	0.176217497213856	0.116164746391231	-0.0600527508226256	3	39
+Bladder_droplet	all_observed_sexes	Usp18	mean_expression	leukocyte	3	3	0.111848158886035	0.126356887507775	0.0145087286217396	4	17
+Bladder_droplet	all_observed_sexes	Usp18	detected_fraction	bladder cell	3	3	0.1109075242101	0.0666213901848461	-0.044286134025254	81	118
+Bladder_droplet	all_observed_sexes	Usp18	detected_fraction	bladder urothelial cell	3	3	0.345843150914145	0.20156559658022	-0.144277554333925	55	741
+Bladder_droplet	all_observed_sexes	Usp18	detected_fraction	endothelial cell	3	3	0.147741147741148	0.0836314847942754	-0.0641096629468722	3	39
+Bladder_droplet	all_observed_sexes	Usp18	detected_fraction	leukocyte	3	3	0.075	0.0459236326109391	-0.0290763673890609	4	17
+Bladder_droplet	male_only	Apoe	mean_expression	bladder cell	2	3	5.70087028491084	7.26943061339743	1.56856032848659	81	118
+Bladder_droplet	male_only	Apoe	mean_expression	bladder urothelial cell	2	3	0.319119264375877	0.348093894375221	0.0289746299993442	55	741
+Bladder_droplet	male_only	Apoe	mean_expression	endothelial cell	2	3	9.44270132214595	25.1676582063487	15.7249568842027	3	39
+Bladder_droplet	male_only	Apoe	mean_expression	leukocyte	2	3	54.8112790822983	144.618982146184	89.8077030638854	4	17
+Bladder_droplet	male_only	Apoe	detected_fraction	bladder cell	2	3	0.828292537058396	0.653568967893069	-0.174723569165327	81	118
+Bladder_droplet	male_only	Apoe	detected_fraction	bladder urothelial cell	2	3	0.443262032085561	0.411447738139135	-0.0318142939464267	55	741
+Bladder_droplet	male_only	Apoe	detected_fraction	endothelial cell	2	3	0.846153846153846	0.610229079705824	-0.235924766448022	3	39
+Bladder_droplet	male_only	Apoe	detected_fraction	leukocyte	2	3	0.6375	0.636738906088751	-0.000761093911248678	4	17
+Bladder_droplet	male_only	B2m	mean_expression	bladder cell	2	3	13.5175525998004	24.7396235058586	11.2220709060582	81	118
+Bladder_droplet	male_only	B2m	mean_expression	bladder urothelial cell	2	3	4.42453363574125	6.21825347219293	1.79371983645168	55	741
+Bladder_droplet	male_only	B2m	mean_expression	endothelial cell	2	3	25.452217565133	29.2561972171551	3.80397965202208	3	39
+Bladder_droplet	male_only	B2m	mean_expression	leukocyte	2	3	32.6135449171066	51.6712464401309	19.0577015230243	4	17
+Bladder_droplet	male_only	B2m	detected_fraction	bladder cell	2	3	0.997116493656286	1	0.00288350634371404	81	118
+Bladder_droplet	male_only	B2m	detected_fraction	bladder urothelial cell	2	3	0.982352941176471	0.978198358027155	-0.00415458314931516	55	741
+Bladder_droplet	male_only	B2m	detected_fraction	endothelial cell	2	3	0.942307692307692	0.931064897634665	-0.0112427946730272	3	39
+Bladder_droplet	male_only	B2m	detected_fraction	leukocyte	2	3	1	1	0	4	17
+Bladder_droplet	male_only	Bst2	mean_expression	bladder cell	2	3	0.981112972280645	1.21552853156929	0.234415559288642	81	118
+Bladder_droplet	male_only	Bst2	mean_expression	bladder urothelial cell	2	3	0.152849597938877	0.213322253870339	0.0604726559314621	55	741
+Bladder_droplet	male_only	Bst2	mean_expression	endothelial cell	2	3	2.86096639510913	2.85891031970284	-0.00205607540628572	3	39
+Bladder_droplet	male_only	Bst2	mean_expression	leukocyte	2	3	1.68951326012611	2.01141298972621	0.321899729600099	4	17
+Bladder_droplet	male_only	Bst2	detected_fraction	bladder cell	2	3	0.490751420393866	0.493288253705782	0.00253683331191606	81	118
+Bladder_droplet	male_only	Bst2	detected_fraction	bladder urothelial cell	2	3	0.268395721925134	0.31536158513575	0.046965863210616	55	741
+Bladder_droplet	male_only	Bst2	detected_fraction	endothelial cell	2	3	0.67948717948718	0.497204830053667	-0.182282349433512	3	39
+Bladder_droplet	male_only	Bst2	detected_fraction	leukocyte	2	3	0.6875	0.69281045751634	0.00531045751633974	4	17
+Bladder_droplet	male_only	Cd38	mean_expression	bladder cell	2	3	0.0418849955765062	0.0363706173042056	-0.00551437827230059	81	118
+Bladder_droplet	male_only	Cd38	mean_expression	bladder urothelial cell	2	3	0.00353934003707555	0.0001798610873147	-0.00335947894976085	55	741
+Bladder_droplet	male_only	Cd38	mean_expression	endothelial cell	2	3	0.419965451726547	0.53771437932627	0.117748927599724	3	39
+Bladder_droplet	male_only	Cd38	mean_expression	leukocyte	2	3	0.155216379463673	0.495350033557411	0.340133654093738	4	17
+Bladder_droplet	male_only	Cd38	detected_fraction	bladder cell	2	3	0.0387030629245162	0.03005669402941	-0.00864636889510619	81	118
+Bladder_droplet	male_only	Cd38	detected_fraction	bladder urothelial cell	2	3	0.0102673796791443	0.000357653791130167	-0.00990972588801413	55	741
+Bladder_droplet	male_only	Cd38	detected_fraction	endothelial cell	2	3	0.211538461538462	0.194258099781356	-0.017280361757106	3	39
+Bladder_droplet	male_only	Cd38	detected_fraction	leukocyte	2	3	0.0625	0.233574131406949	0.171074131406949	4	17
+Bladder_droplet	male_only	Cdkn1a	mean_expression	bladder cell	2	3	6.79051383279222	10.3332074346392	3.542693601847	81	118
+Bladder_droplet	male_only	Cdkn1a	mean_expression	bladder urothelial cell	2	3	4.9906687917891	6.42510693013137	1.43443813834227	55	741
+Bladder_droplet	male_only	Cdkn1a	mean_expression	endothelial cell	2	3	12.0253489353718	26.5612997448402	14.5359508094684	3	39
+Bladder_droplet	male_only	Cdkn1a	mean_expression	leukocyte	2	3	5.78239260390401	6.04536625044757	0.262973646543559	4	17
+Bladder_droplet	male_only	Cdkn1a	detected_fraction	bladder cell	2	3	0.946302704088171	0.915513100651588	-0.0307896034365835	81	118
+Bladder_droplet	male_only	Cdkn1a	detected_fraction	bladder urothelial cell	2	3	0.984705882352941	0.978735940096004	-0.00596994225693748	55	741
+Bladder_droplet	male_only	Cdkn1a	detected_fraction	endothelial cell	2	3	0.814102564102564	0.96206022659511	0.147957662492546	3	39
+Bladder_droplet	male_only	Cdkn1a	detected_fraction	leukocyte	2	3	0.9125	0.8140694874441	-0.0984305125558995	4	17
+Bladder_droplet	male_only	Cdkn2a	mean_expression	bladder cell	2	3	0.0454538107883355	0.0553051797406134	0.00985136895227787	81	118
+Bladder_droplet	male_only	Cdkn2a	mean_expression	bladder urothelial cell	2	3	0.0010788396877401	0.00224169284192337	0.00116285315418327	55	741
+Bladder_droplet	male_only	Cdkn2a	mean_expression	endothelial cell	2	3	0	0	0	3	39
+Bladder_droplet	male_only	Cdkn2a	mean_expression	leukocyte	2	3	0	0.0853536964836586	0.0853536964836586	4	17
+Bladder_droplet	male_only	Cdkn2a	detected_fraction	bladder cell	2	3	0.0321884745183476	0.0242494931002578	-0.00793898141808977	81	118
+Bladder_droplet	male_only	Cdkn2a	detected_fraction	bladder urothelial cell	2	3	0.0029411764705882	0.00524227644849203	0.00230109997790383	55	741
+Bladder_droplet	male_only	Cdkn2a	detected_fraction	endothelial cell	2	3	0	0	0	3	39
+Bladder_droplet	male_only	Cdkn2a	detected_fraction	leukocyte	2	3	0	0.0411076711386309	0.0411076711386309	4	17
+Bladder_droplet	male_only	Clec7a	mean_expression	bladder cell	2	3	0.00696356073795305	0.00821627155552063	0.00125271081756758	81	118
+Bladder_droplet	male_only	Clec7a	mean_expression	bladder urothelial cell	2	3	0.00145873770994295	0.00363917545935653	0.00218043774941358	55	741
+Bladder_droplet	male_only	Clec7a	mean_expression	endothelial cell	2	3	0	0.0115222243799103	0.0115222243799103	3	39
+Bladder_droplet	male_only	Clec7a	mean_expression	leukocyte	2	3	1.14105054289103	2.86220026342246	1.72114972053144	4	17
+Bladder_droplet	male_only	Clec7a	detected_fraction	bladder cell	2	3	0.0051903114186851	0.00348432055749127	-0.00170599086119383	81	118
+Bladder_droplet	male_only	Clec7a	detected_fraction	bladder urothelial cell	2	3	0.0017647058823529	0.00798731714470357	0.00622261126235067	55	741
+Bladder_droplet	male_only	Clec7a	detected_fraction	endothelial cell	2	3	0	0.00694444444444443	0.00694444444444443	3	39
+Bladder_droplet	male_only	Clec7a	detected_fraction	leukocyte	2	3	0.2375	0.562607499140007	0.325107499140007	4	17
+Bladder_droplet	male_only	Cst7	mean_expression	bladder cell	2	3	0	0	0	81	118
+Bladder_droplet	male_only	Cst7	mean_expression	bladder urothelial cell	2	3	0	0.0003949394915919	0.0003949394915919	55	741
+Bladder_droplet	male_only	Cst7	mean_expression	endothelial cell	2	3	0	0	0	3	39
+Bladder_droplet	male_only	Cst7	mean_expression	leukocyte	2	3	0.102821417152882	0.197409480061775	0.0945880629088938	4	17
+Bladder_droplet	male_only	Cst7	detected_fraction	bladder cell	2	3	0	0	0	81	118
+Bladder_droplet	male_only	Cst7	detected_fraction	bladder urothelial cell	2	3	0	0.000715307582260367	0.000715307582260367	55	741
+Bladder_droplet	male_only	Cst7	detected_fraction	endothelial cell	2	3	0	0	0	3	39
+Bladder_droplet	male_only	Cst7	detected_fraction	leukocyte	2	3	0.125	0.0830753353973168	-0.0419246646026832	4	17
+Bladder_droplet	male_only	Fth1	mean_expression	bladder cell	2	3	85.5218568452782	92.3451559360596	6.82329909078142	81	118
+Bladder_droplet	male_only	Fth1	mean_expression	bladder urothelial cell	2	3	35.697277442134	38.4178024026898	2.72052496055575	55	741
+Bladder_droplet	male_only	Fth1	mean_expression	endothelial cell	2	3	33.4613834772355	60.7611109170388	27.2997274398034	3	39
+Bladder_droplet	male_only	Fth1	mean_expression	leukocyte	2	3	102.501985061169	146.525909337466	44.0239242762973	4	17
+Bladder_droplet	male_only	Fth1	detected_fraction	bladder cell	2	3	1	1	0	81	118
+Bladder_droplet	male_only	Fth1	detected_fraction	bladder urothelial cell	2	3	1	1	0	55	741
+Bladder_droplet	male_only	Fth1	detected_fraction	endothelial cell	2	3	1	1	0	3	39
+Bladder_droplet	male_only	Fth1	detected_fraction	leukocyte	2	3	1	1	0	4	17
+Bladder_droplet	male_only	H2-D1	mean_expression	bladder cell	2	3	7.92859849402129	14.2035700260726	6.27497153205128	81	118
+Bladder_droplet	male_only	H2-D1	mean_expression	bladder urothelial cell	2	3	3.99132344206068	5.29675556959691	1.30543212753623	55	741
+Bladder_droplet	male_only	H2-D1	mean_expression	endothelial cell	2	3	17.2896776199341	18.0697307102241	0.780053090290068	3	39
+Bladder_droplet	male_only	H2-D1	mean_expression	leukocyte	2	3	25.9461642742157	33.2602065394414	7.31404226522574	4	17
+Bladder_droplet	male_only	H2-D1	detected_fraction	bladder cell	2	3	0.982698961937716	0.980840174019174	-0.00185878791854266	81	118
+Bladder_droplet	male_only	H2-D1	detected_fraction	bladder urothelial cell	2	3	0.986470588235294	0.988708803328392	0.00223821509309763	55	741
+Bladder_droplet	male_only	H2-D1	detected_fraction	endothelial cell	2	3	0.961538461538462	0.915573444643212	-0.0459650168952496	3	39
+Bladder_droplet	male_only	H2-D1	detected_fraction	leukocyte	2	3	1	1	0	4	17
+Bladder_droplet	male_only	H2-K1	mean_expression	bladder cell	2	3	3.78486182445203	6.42172158030907	2.63685975585703	81	118
+Bladder_droplet	male_only	H2-K1	mean_expression	bladder urothelial cell	2	3	4.14183655383434	5.32787356330605	1.18603700947171	55	741
+Bladder_droplet	male_only	H2-K1	mean_expression	endothelial cell	2	3	9.17170381163939	9.28213334499255	0.110429533353159	3	39
+Bladder_droplet	male_only	H2-K1	mean_expression	leukocyte	2	3	10.6890017494559	14.8855729297465	4.19657118029055	4	17
+Bladder_droplet	male_only	H2-K1	detected_fraction	bladder cell	2	3	0.90881712161989	0.884668005275694	-0.0241491163441953	81	118
+Bladder_droplet	male_only	H2-K1	detected_fraction	bladder urothelial cell	2	3	0.985882352941176	0.989434266407725	0.00355191346654882	55	741
+Bladder_droplet	male_only	H2-K1	detected_fraction	endothelial cell	2	3	0.717948717948718	0.755789107533294	0.0378403895845756	3	39
+Bladder_droplet	male_only	H2-K1	detected_fraction	leukocyte	2	3	0.9875	0.990196078431373	0.00269607843137254	4	17
+Bladder_droplet	male_only	Ifi204	mean_expression	bladder cell	2	3	0.0169571078319134	0.0830768504579995	0.0661197426260861	81	118
+Bladder_droplet	male_only	Ifi204	mean_expression	bladder urothelial cell	2	3	0.00087787002325055	0.00322048808874437	0.00234261806549382	55	741
+Bladder_droplet	male_only	Ifi204	mean_expression	endothelial cell	2	3	0.053558757671943	0.189184027121783	0.13562526944984	3	39
+Bladder_droplet	male_only	Ifi204	mean_expression	leukocyte	2	3	0.181427018344402	0.599824423452895	0.418397405108493	4	17
+Bladder_droplet	male_only	Ifi204	detected_fraction	bladder cell	2	3	0.0107864496561151	0.0494901474438473	0.0387036977877322	81	118
+Bladder_droplet	male_only	Ifi204	detected_fraction	bladder urothelial cell	2	3	0.0017647058823529	0.00516393305629793	0.00339922717394503	55	741
+Bladder_droplet	male_only	Ifi204	detected_fraction	endothelial cell	2	3	0.0384615384615384	0.0975203736831643	0.0590588352216259	3	39
+Bladder_droplet	male_only	Ifi204	detected_fraction	leukocyte	2	3	0.05	0.232886136910905	0.182886136910905	4	17
+Bladder_droplet	male_only	Ifit2	mean_expression	bladder cell	2	3	0.117102748311168	0.0948596600589279	-0.0222430882522405	81	118
+Bladder_droplet	male_only	Ifit2	mean_expression	bladder urothelial cell	2	3	0.0069082059420366	0.00153814433899693	-0.00537006160303967	55	741
+Bladder_droplet	male_only	Ifit2	mean_expression	endothelial cell	2	3	0.206610085872503	0.240709674258257	0.0340995883857533	3	39
+Bladder_droplet	male_only	Ifit2	mean_expression	leukocyte	2	3	0.0570905029773712	0.0222374445226621	-0.0348530584547091	4	17
+Bladder_droplet	male_only	Ifit2	detected_fraction	bladder cell	2	3	0.0838139177239523	0.0639874800685052	-0.0198264376554471	81	118
+Bladder_droplet	male_only	Ifit2	detected_fraction	bladder urothelial cell	2	3	0.0108556149732619	0.0023699448546786	-0.00848567011858335	55	741
+Bladder_droplet	male_only	Ifit2	detected_fraction	endothelial cell	2	3	0.185897435897436	0.0905635062611807	-0.0953339296362552	3	39
+Bladder_droplet	male_only	Ifit2	detected_fraction	leukocyte	2	3	0.025	0.021499828001376	-0.00350017199862403	4	17
+Bladder_droplet	male_only	Ifit3	mean_expression	bladder cell	2	3	0.342969153338513	0.264496654078537	-0.078472499259976	81	118
+Bladder_droplet	male_only	Ifit3	mean_expression	bladder urothelial cell	2	3	0.00778870015539585	0.00127318165999103	-0.00651551849540482	55	741
+Bladder_droplet	male_only	Ifit3	mean_expression	endothelial cell	2	3	0.302180546980638	0.58576183101039	0.283581284029752	3	39
+Bladder_droplet	male_only	Ifit3	mean_expression	leukocyte	2	3	0.0426147580146789	0.13841219331991	0.0957974353052309	4	17
+Bladder_droplet	male_only	Ifit3	detected_fraction	bladder cell	2	3	0.121192703660985	0.0780783086281225	-0.0431143950328625	81	118
+Bladder_droplet	male_only	Ifit3	detected_fraction	bladder urothelial cell	2	3	0.0222994652406416	0.0027275986458088	-0.0195718665948328	55	741
+Bladder_droplet	male_only	Ifit3	detected_fraction	endothelial cell	2	3	0.262820512820513	0.173921685549593	-0.0888988272709203	3	39
+Bladder_droplet	male_only	Ifit3	detected_fraction	leukocyte	2	3	0.025	0.0577915376676986	0.0327915376676986	4	17
+Bladder_droplet	male_only	Ifitm3	mean_expression	bladder cell	2	3	19.1974999973686	16.5634778619894	-2.63402213537919	81	118
+Bladder_droplet	male_only	Ifitm3	mean_expression	bladder urothelial cell	2	3	1.19553391080409	1.15904155511406	-0.0364923556900385	55	741
+Bladder_droplet	male_only	Ifitm3	mean_expression	endothelial cell	2	3	32.4909315323218	24.699057312459	-7.79187421986282	3	39
+Bladder_droplet	male_only	Ifitm3	mean_expression	leukocyte	2	3	12.4695439852774	14.7154330407575	2.24588905548005	4	17
+Bladder_droplet	male_only	Ifitm3	detected_fraction	bladder cell	2	3	0.999423298731257	0.997619047619048	-0.00180425111220961	81	118
+Bladder_droplet	male_only	Ifitm3	detected_fraction	bladder urothelial cell	2	3	0.83331550802139	0.780140645482681	-0.0531748625387097	55	741
+Bladder_droplet	male_only	Ifitm3	detected_fraction	endothelial cell	2	3	1	0.986111111111111	-0.0138888888888888	3	39
+Bladder_droplet	male_only	Ifitm3	detected_fraction	leukocyte	2	3	0.8125	0.794633642930857	-0.0178663570691434	4	17
+Bladder_droplet	male_only	Il1b	mean_expression	bladder cell	2	3	0.158600225893154	0.0539859672632669	-0.104614258629887	81	118
+Bladder_droplet	male_only	Il1b	mean_expression	bladder urothelial cell	2	3	0.0804136702689257	0.0463582858202997	-0.034055384448626	55	741
+Bladder_droplet	male_only	Il1b	mean_expression	endothelial cell	2	3	0	0.0400296327795169	0.0400296327795169	3	39
+Bladder_droplet	male_only	Il1b	mean_expression	leukocyte	2	3	38.0858448207378	22.9542750488822	-15.1315697718557	4	17
+Bladder_droplet	male_only	Il1b	detected_fraction	bladder cell	2	3	0.0846255713614421	0.0336404259926376	-0.0509851453688045	81	118
+Bladder_droplet	male_only	Il1b	detected_fraction	bladder urothelial cell	2	3	0.148449197860963	0.0734437603644547	-0.0750054374965078	55	741
+Bladder_droplet	male_only	Il1b	detected_fraction	endothelial cell	2	3	0	0.021640826873385	0.021640826873385	3	39
+Bladder_droplet	male_only	Il1b	detected_fraction	leukocyte	2	3	0.7375	0.530099759201926	-0.207400240798074	4	17
+Bladder_droplet	male_only	Irf7	mean_expression	bladder cell	2	3	0.402059978534031	0.442186652148304	0.0401266736142736	81	118
+Bladder_droplet	male_only	Irf7	mean_expression	bladder urothelial cell	2	3	0.0626691373075074	0.0386045070261769	-0.0240646302813306	55	741
+Bladder_droplet	male_only	Irf7	mean_expression	endothelial cell	2	3	0.639908684369845	1.12415104441728	0.484242360047438	3	39
+Bladder_droplet	male_only	Irf7	mean_expression	leukocyte	2	3	0.29669910594821	0.45249113271357	0.15579202676536	4	17
+Bladder_droplet	male_only	Irf7	detected_fraction	bladder cell	2	3	0.264535007902943	0.204037481052777	-0.0604975268501667	81	118
+Bladder_droplet	male_only	Irf7	detected_fraction	bladder urothelial cell	2	3	0.132352941176471	0.0665660749522834	-0.0657868662241872	55	741
+Bladder_droplet	male_only	Irf7	detected_fraction	endothelial cell	2	3	0.224358974358974	0.252223712979527	0.0278647386205526	3	39
+Bladder_droplet	male_only	Irf7	detected_fraction	leukocyte	2	3	0.0625	0.166322669418645	0.103822669418645	4	17
+Bladder_droplet	male_only	Itga1	mean_expression	bladder cell	2	3	0.019479821318543	0.0093968212205586	-0.0100830000979844	81	118
+Bladder_droplet	male_only	Itga1	mean_expression	bladder urothelial cell	2	3	0.00091686146224245	0.00129164186555857	0.000374780403316117	55	741
+Bladder_droplet	male_only	Itga1	mean_expression	endothelial cell	2	3	0.510931417728082	0.500438243786032	-0.0104931739420498	3	39
+Bladder_droplet	male_only	Itga1	mean_expression	leukocyte	2	3	0.00594898127019405	0.0867141663290029	0.0807651850588089	4	17
+Bladder_droplet	male_only	Itga1	detected_fraction	bladder cell	2	3	0.0177068648810286	0.00963601645701683	-0.00807084842401177	81	118
+Bladder_droplet	male_only	Itga1	detected_fraction	bladder urothelial cell	2	3	0.0017647058823529	0.00250177819860063	0.000737072316247733	55	741
+Bladder_droplet	male_only	Itga1	detected_fraction	endothelial cell	2	3	0.224358974358974	0.239924965215663	0.0155659908566886	3	39
+Bladder_droplet	male_only	Itga1	detected_fraction	leukocyte	2	3	0.0125	0.0636394908840729	0.0511394908840729	4	17
+Bladder_droplet	male_only	Itgal	mean_expression	bladder cell	2	3	0.00808863658431735	0.0041475005266143	-0.00394113605770305	81	118
+Bladder_droplet	male_only	Itgal	mean_expression	bladder urothelial cell	2	3	0	0.000912119304568567	0.000912119304568567	55	741
+Bladder_droplet	male_only	Itgal	mean_expression	endothelial cell	2	3	0.0898569524288177	0	-0.0898569524288177	3	39
+Bladder_droplet	male_only	Itgal	mean_expression	leukocyte	2	3	0.0978892028331756	0.507301535973813	0.409412333140637	4	17
+Bladder_droplet	male_only	Itgal	detected_fraction	bladder cell	2	3	0.0107864496561151	0.00232288037166083	-0.00846356928445427	81	118
+Bladder_droplet	male_only	Itgal	detected_fraction	bladder urothelial cell	2	3	0	0.0016020930883892	0.0016020930883892	55	741
+Bladder_droplet	male_only	Itgal	detected_fraction	endothelial cell	2	3	0.166666666666667	0	-0.166666666666667	3	39
+Bladder_droplet	male_only	Itgal	detected_fraction	leukocyte	2	3	0.0625	0.168386652906777	0.105886652906777	4	17
+Bladder_droplet	male_only	Lmnb1	mean_expression	bladder cell	2	3	0.073613175133337	0.146195605986184	0.0725824308528469	81	118
+Bladder_droplet	male_only	Lmnb1	mean_expression	bladder urothelial cell	2	3	0.0824972689422694	0.101497547423559	0.0190002784812899	55	741
+Bladder_droplet	male_only	Lmnb1	mean_expression	endothelial cell	2	3	0.0378558429387899	0.0804730877324663	0.0426172447936763	3	39
+Bladder_droplet	male_only	Lmnb1	mean_expression	leukocyte	2	3	1.48063028678298	1.66007238588548	0.1794420991025	4	17
+Bladder_droplet	male_only	Lmnb1	detected_fraction	bladder cell	2	3	0.0602759622367465	0.101585661135062	0.0413096988983152	81	118
+Bladder_droplet	male_only	Lmnb1	detected_fraction	bladder urothelial cell	2	3	0.149197860962567	0.172396221157776	0.0231983601952089	55	741
+Bladder_droplet	male_only	Lmnb1	detected_fraction	endothelial cell	2	3	0.0192307692307692	0.0627857284834029	0.0435549592526337	3	39
+Bladder_droplet	male_only	Lmnb1	detected_fraction	leukocyte	2	3	0.6125	0.411764705882353	-0.200735294117647	4	17
+Bladder_droplet	male_only	Lpl	mean_expression	bladder cell	2	3	0.476235611077874	0.910807206881908	0.434571595804033	81	118
+Bladder_droplet	male_only	Lpl	mean_expression	bladder urothelial cell	2	3	0.0329517250623614	0.00886331422376873	-0.0240884108385926	55	741
+Bladder_droplet	male_only	Lpl	mean_expression	endothelial cell	2	3	0.972620874643326	0.691287257927972	-0.281333616715354	3	39
+Bladder_droplet	male_only	Lpl	mean_expression	leukocyte	2	3	0.307196317613125	1.23290570283781	0.925709385224684	4	17
+Bladder_droplet	male_only	Lpl	detected_fraction	bladder cell	2	3	0.269768037934128	0.322028976948365	0.0522609390142372	81	118
+Bladder_droplet	male_only	Lpl	detected_fraction	bladder urothelial cell	2	3	0.0695721925133689	0.0143110053204357	-0.0552611871929332	55	741
+Bladder_droplet	male_only	Lpl	detected_fraction	endothelial cell	2	3	0.391025641025641	0.1798101769032	-0.211215464122441	3	39
+Bladder_droplet	male_only	Lpl	detected_fraction	leukocyte	2	3	0.05	0.14000687994496	0.0900068799449604	4	17
+Bladder_droplet	male_only	Oas1a	mean_expression	bladder cell	2	3	0.00880588489695265	0.031140668245537	0.0223347833485843	81	118
+Bladder_droplet	male_only	Oas1a	mean_expression	bladder urothelial cell	2	3	0.0002682943028562	0.000230343130354533	-3.79511725016667e-05	55	741
+Bladder_droplet	male_only	Oas1a	mean_expression	endothelial cell	2	3	0.0444744917062612	0.0654510717918232	0.020976580085562	3	39
+Bladder_droplet	male_only	Oas1a	mean_expression	leukocyte	2	3	0.0719271630048751	0.246150519195233	0.174223356190358	4	17
+Bladder_droplet	male_only	Oas1a	detected_fraction	bladder cell	2	3	0.0040369088811995	0.0180977972007323	0.0140608883195328	81	118
+Bladder_droplet	male_only	Oas1a	detected_fraction	bladder urothelial cell	2	3	0.0005882352941176	0.000357653791130167	-0.000230581502987433	55	741
+Bladder_droplet	male_only	Oas1a	detected_fraction	endothelial cell	2	3	0.0192307692307692	0.0456792884118465	0.0264485191810773	3	39
+Bladder_droplet	male_only	Oas1a	detected_fraction	leukocyte	2	3	0.0375	0.127278981768146	0.0897789817681458	4	17
+Bladder_droplet	male_only	Oasl2	mean_expression	bladder cell	2	3	0.235031772741489	0.242441467615821	0.00740969487433207	81	118
+Bladder_droplet	male_only	Oasl2	mean_expression	bladder urothelial cell	2	3	0.0142145534441432	0.003483350024883	-0.0107312034192602	55	741
+Bladder_droplet	male_only	Oasl2	mean_expression	endothelial cell	2	3	0.340220116651975	0.194743667191064	-0.145476449460911	3	39
+Bladder_droplet	male_only	Oasl2	mean_expression	leukocyte	2	3	0.301571875810623	0.103473773661208	-0.198098102149416	4	17
+Bladder_droplet	male_only	Oasl2	detected_fraction	bladder cell	2	3	0.165256952454184	0.146997972401031	-0.0182589800531528	81	118
+Bladder_droplet	male_only	Oasl2	detected_fraction	bladder urothelial cell	2	3	0.0319786096256684	0.00634378113705713	-0.0256348284886113	55	741
+Bladder_droplet	male_only	Oasl2	detected_fraction	endothelial cell	2	3	0.243589743589744	0.103669747565096	-0.139919996024647	3	39
+Bladder_droplet	male_only	Oasl2	detected_fraction	leukocyte	2	3	0.2625	0.0400756793945648	-0.222424320605435	4	17
+Bladder_droplet	male_only	P2ry12	mean_expression	bladder cell	2	3	0.00062093238379575	0	-0.00062093238379575	81	118
+Bladder_droplet	male_only	P2ry12	mean_expression	bladder urothelial cell	2	3	0	0	0	55	741
+Bladder_droplet	male_only	P2ry12	mean_expression	endothelial cell	2	3	0	0	0	3	39
+Bladder_droplet	male_only	P2ry12	mean_expression	leukocyte	2	3	0.134200578182936	0.177467845172705	0.0432672669897692	4	17
+Bladder_droplet	male_only	P2ry12	detected_fraction	bladder cell	2	3	0.00057670126874275	0	-0.00057670126874275	81	118
+Bladder_droplet	male_only	P2ry12	detected_fraction	bladder urothelial cell	2	3	0	0	0	55	741
+Bladder_droplet	male_only	P2ry12	detected_fraction	endothelial cell	2	3	0	0	0	3	39
+Bladder_droplet	male_only	P2ry12	detected_fraction	leukocyte	2	3	0.075	0.111627106983144	0.0366271069831441	4	17
+Bladder_droplet	male_only	Rtp4	mean_expression	bladder cell	2	3	0.373902908531812	0.318112978512615	-0.0557899300191962	81	118
+Bladder_droplet	male_only	Rtp4	mean_expression	bladder urothelial cell	2	3	0.0108855853982787	0.00388800011172667	-0.00699758528655208	55	741
+Bladder_droplet	male_only	Rtp4	mean_expression	endothelial cell	2	3	0.38482900766226	1.037108039837	0.652279032174741	3	39
+Bladder_droplet	male_only	Rtp4	mean_expression	leukocyte	2	3	0.0748826682567596	0.267070109578888	0.192187441322129	4	17
+Bladder_droplet	male_only	Rtp4	detected_fraction	bladder cell	2	3	0.252189328890598	0.143322703202819	-0.108866625687779	81	118
+Bladder_droplet	male_only	Rtp4	detected_fraction	bladder urothelial cell	2	3	0.0234759358288769	0.00830532635588723	-0.0151706094729897	55	741
+Bladder_droplet	male_only	Rtp4	detected_fraction	endothelial cell	2	3	0.32051282051282	0.254621347644603	-0.065891472868217	3	39
+Bladder_droplet	male_only	Rtp4	detected_fraction	leukocyte	2	3	0.025	0.108703130374957	0.0837031303749569	4	17
+Bladder_droplet	male_only	Stat1	mean_expression	bladder cell	2	3	0.211681526705061	0.237566263313326	0.0258847366082656	81	118
+Bladder_droplet	male_only	Stat1	mean_expression	bladder urothelial cell	2	3	0.120176469183223	0.105964622150169	-0.014211847033054	55	741
+Bladder_droplet	male_only	Stat1	mean_expression	endothelial cell	2	3	0.844108863518788	0.332863879632379	-0.51124498388641	3	39
+Bladder_droplet	male_only	Stat1	mean_expression	leukocyte	2	3	0.360823959112167	0.306583829272806	-0.0542401298393611	4	17
+Bladder_droplet	male_only	Stat1	detected_fraction	bladder cell	2	3	0.169357939254133	0.118471820311423	-0.0508861189427096	81	118
+Bladder_droplet	male_only	Stat1	detected_fraction	bladder urothelial cell	2	3	0.192352941176471	0.170314392006412	-0.0220385491700587	55	741
+Bladder_droplet	male_only	Stat1	detected_fraction	endothelial cell	2	3	0.506410256410256	0.164045418405883	-0.342364838004373	3	39
+Bladder_droplet	male_only	Stat1	detected_fraction	leukocyte	2	3	0.2125	0.175954592363261	-0.0365454076367389	4	17
+Bladder_droplet	male_only	Tmem119	mean_expression	bladder cell	2	3	1.29502508850888	0.672030225635636	-0.622994862873243	81	118
+Bladder_droplet	male_only	Tmem119	mean_expression	bladder urothelial cell	2	3	0.06853386954509	0.00198137480776887	-0.0665524947373211	55	741
+Bladder_droplet	male_only	Tmem119	mean_expression	endothelial cell	2	3	0.580708597715084	0.230415326049446	-0.350293271665639	3	39
+Bladder_droplet	male_only	Tmem119	mean_expression	leukocyte	2	3	0.0552923038601875	0.0239272497550786	-0.0313650541051089	4	17
+Bladder_droplet	male_only	Tmem119	detected_fraction	bladder cell	2	3	0.54716134819941	0.276823362664619	-0.270337985534791	81	118
+Bladder_droplet	male_only	Tmem119	detected_fraction	bladder urothelial cell	2	3	0.148716577540107	0.00362728375602023	-0.145089293784087	55	741
+Bladder_droplet	male_only	Tmem119	detected_fraction	endothelial cell	2	3	0.41025641025641	0.111657722122838	-0.298598688133572	3	39
+Bladder_droplet	male_only	Tmem119	detected_fraction	leukocyte	2	3	0.0375	0.0204678362573099	-0.0170321637426901	4	17
+Bladder_droplet	male_only	Tnf	mean_expression	bladder cell	2	3	0.0238972844371292	0.0131628925097397	-0.0107343919273895	81	118
+Bladder_droplet	male_only	Tnf	mean_expression	bladder urothelial cell	2	3	0.0002265754868002	0.0051045053379113	0.0048779298511111	55	741
+Bladder_droplet	male_only	Tnf	mean_expression	endothelial cell	2	3	0	0	0	3	39
+Bladder_droplet	male_only	Tnf	mean_expression	leukocyte	2	3	1.3534748531878	2.3745679145504	1.0210930613626	4	17
+Bladder_droplet	male_only	Tnf	detected_fraction	bladder cell	2	3	0.0169592891622879	0.0063091793145534	-0.0106501098477346	81	118
+Bladder_droplet	male_only	Tnf	detected_fraction	bladder urothelial cell	2	3	0.0005882352941176	0.00941707973761253	0.00882884444349493	55	741
+Bladder_droplet	male_only	Tnf	detected_fraction	endothelial cell	2	3	0	0	0	3	39
+Bladder_droplet	male_only	Tnf	detected_fraction	leukocyte	2	3	0.3	0.407980736154111	0.107980736154111	4	17
+Bladder_droplet	male_only	Usp18	mean_expression	bladder cell	2	3	0.151465332724771	0.0991564884888905	-0.0523088442358806	81	118
+Bladder_droplet	male_only	Usp18	mean_expression	bladder urothelial cell	2	3	0.248665472125625	0.127476838165207	-0.121188633960418	55	741
+Bladder_droplet	male_only	Usp18	mean_expression	endothelial cell	2	3	0.219558032659384	0.116164746391231	-0.103393286268153	3	39
+Bladder_droplet	male_only	Usp18	mean_expression	leukocyte	2	3	0.135283609107137	0.126356887507775	-0.00892672159936181	4	17
+Bladder_droplet	male_only	Usp18	detected_fraction	bladder cell	2	3	0.112307232261096	0.0666213901848461	-0.04568584207625	81	118
+Bladder_droplet	male_only	Usp18	detected_fraction	bladder urothelial cell	2	3	0.365508021390374	0.20156559658022	-0.163942424810154	55	741
+Bladder_droplet	male_only	Usp18	detected_fraction	endothelial cell	2	3	0.185897435897436	0.0836314847942754	-0.10226595110316	3	39
+Bladder_droplet	male_only	Usp18	detected_fraction	leukocyte	2	3	0.0875	0.0459236326109391	-0.0415763673890609	4	17

@@ -2554,3 +2554,28 @@ all RQs, reclassify historical findings or establish acceptance of replacements.
 The application ledger distinguishes fresh source inspection from reused audits
 and records access limits. Documentation changes do not amend frozen designs,
 accept biological hypotheses or weaken governance. No new analysis was run.
+
+## 3 October 2026 Nb5 scientific review and question registration
+
+The owner requested review and potential registration/extension, then specified
+that different biological focus, target and cell/context heterogeneity should
+remain separately registered rather than universally covered by older RQs.
+Codex completed the [bounded review](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
+and applied proposed A24–A27, an A3 extension and explicit supporting mappings.
+These are agent scientific assessments under owner-authorized registration;
+no human retain/reject or scientific-acceptance decision is recorded.
+
+The broad P04 frame is narrowed prospectively to paired spleen/marrow CD8
+context after outcome exposure. A27's generic within-state novelty is constrained
+by older primary evidence. Biological heterogeneity preserves question identity;
+it does not certify novelty or make unsupported data eligible. The governance
+document's current-ID range changes only to reflect registration; no requirement,
+validator, frozen contract or interpretation safeguard is weakened.
+
+
+The layout validator's explicit accepted sequence advances from A0–A23 to
+A0–A27. Exact order/equality is retained, with adverse tests for missing,
+duplicate, reordered and unregistered IDs. Its existing script is declared as
+infrastructure in the registry; scientific assets remain subject to registration.
+This small validator update and the governance current-ID wording require
+explicit PR review. No review approval is claimed by the authoring agent.

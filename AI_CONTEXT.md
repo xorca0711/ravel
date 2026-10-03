@@ -4,10 +4,20 @@ Updated 3 October 2026. Read [AGENTS.md](AGENTS.md),
 [current state](PROGRESS.md) and [research governance](docs/RESEARCH_GOVERNANCE.md).
 This file is navigation, not another scientific status register.
 
-- [Question register](RESEARCH_QUESTIONS.md) owns A0–A23. The
+- [Question register](RESEARCH_QUESTIONS.md) owns A0–A27. The
   [dossiers](docs/research_dossiers/README.md) develop every question without ranking them.
 - [Research registry](analysis/research/registry.json) locates cards, dossiers,
-  evidence and prospective contracts. Nb4-P01–P09 remain article-local candidates.
+  evidence and prospective contracts. Nb4-P01–P09 remain article-local;
+  Nb5 source cards are retained with their current canonical/supporting mappings.
+  [Nb5 current results](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md)
+  and [figures](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md) record the first exposed descriptive pass and its source/design holds.
+  [Biological extensions](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md)
+  add within-type/composition and compartment-local clonality comparisons.
+  [Provisional Nb5 RQ derivations](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/README.md)
+  connect all eight branches to biological discriminators and evidence limits.
+  [Nb5 scientific review and routing](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
+  registers proposed A24–A27 and an A3 extension, while retaining supporting
+  article branches. Human acceptance and execution qualification remain pending.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
 - [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md)

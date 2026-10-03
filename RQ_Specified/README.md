@@ -16,14 +16,14 @@ rival, biological unit/endpoint, current evidence and next decision/hold. Read
 the linked current result before its older plan, then use the dossier and
 conditional package for the full argument and measurement requirements.
 
-[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) owns A0–A23 identities and
+[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) owns A0–A27 identities and
 registered questions; current reports and amendments own the measured results.
 The local summaries communicate proposed development without selecting an RQ,
 changing a claim grade or declaring experimental readiness. Source-library
 labels, analysis execution and package completion do not establish independent
 replication or scientific acceptance.
 
-## All 24 current questions
+## All 28 current questions
 
 Seventeen questions have dedicated execution folders here; seven use existing
 article/shared source contexts. The latter retain their own dossier and package,
@@ -55,6 +55,18 @@ without creating empty execution workspaces or duplicating scientific pipelines.
 | [A21](../RESEARCH_QUESTIONS.md#a21) | Fzd4 vascular integrity linked to gCap renewal and aerocyte output | [RQ folder](A21_fzd4_capillary_function/README.md) | [Dossier](../docs/research_dossiers/A21.md) · [Package](../docs/research_dossiers/packages_2026-10-03/A21.md) |
 | [A22](../RESEARCH_QUESTIONS.md#a22) | NKX2-1 loss and actual fibroblast chemokine output beyond source amount | [RQ folder](A22_epithelial_identity_niche_response/README.md) | [Dossier](../docs/research_dossiers/A22.md) · [Package](../docs/research_dossiers/packages_2026-10-03/A22.md) |
 | [A23](../RESEARCH_QUESTIONS.md#a23) | SLC34A2 loss: increased transition entry versus delayed exit | [RQ folder](A23_slc34a2_transition_homeostasis/README.md) | [Dossier](../docs/research_dossiers/A23.md) · [Package](../docs/research_dossiers/packages_2026-10-03/A23.md) |
+| [A24](../RESEARCH_QUESTIONS.md#a24) | Bladder stromal ageing and urothelial barrier maintenance | [RQ folder](A24_bladder_stromal_urothelial_maintenance/README.md) | [Dossier](../docs/research_dossiers/A24.md) · [Plan](A24_bladder_stromal_urothelial_maintenance/PLAN.md) |
+| [A25](../RESEARCH_QUESTIONS.md#a25) | Regional microglial configuration during middle age | [RQ folder](A25_microglial_midlife_configuration/README.md) | [Dossier](../docs/research_dossiers/A25.md) · [Plan](A25_microglial_midlife_configuration/PLAN.md) |
+| [A26](../RESEARCH_QUESTIONS.md#a26) | Tissue context of CD8 repertoire ageing | [RQ folder](A26_tissue_context_cd8_ageing/README.md) | [Dossier](../docs/research_dossiers/A26.md) · [Plan](A26_tissue_context_cd8_ageing/PLAN.md) |
+| [A27](../RESEARCH_QUESTIONS.md#a27) | Within-state and compositional CD8 repertoire ageing | [RQ folder](A27_cd8_repertoire_state_redistribution/README.md) | [Dossier](../docs/research_dossiers/A27.md) · [Plan](A27_cd8_repertoire_state_redistribution/PLAN.md) |
+
+## Newly registered Nb5 proposals
+
+A24–A27 follow the owner's distinct-focus/subset instruction and the [bounded
+scientific/overlap review](../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md).
+Each has a dossier and an unexecuted development plan. P03 extends A3; other
+supporting Nb5 branches retain their source identities. No mechanism or human
+acceptance is inferred from registration.
 
 ## Shared and article-local work
 

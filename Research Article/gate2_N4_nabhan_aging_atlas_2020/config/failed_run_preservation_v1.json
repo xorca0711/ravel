@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.failed_run_preservation_v1",
+  "owner": "Nb5-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can all bytes and the explicit failure status of metadata_v1 be retained in the repository under the current successful-receipt registry?",
+  "decision": "Archive the failed receipt and every partial output without rerunning or claiming scientific success; preserve original local files and commit history.",
+  "strongest_rival": "Omitting a failed run, changing its status or silently discarding partial files could misrepresent execution and destroy evidence.",
+  "discriminator": "Require the original execution_failed status and exact pre/post-copy SHA-256 equality for every file.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/DATASETS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The original metadata failure, its partial output and corrected v2/v3 results are known. This is deterministic provenance preservation, not new biological analysis.",
+  "biological_unit": "Not applicable: files and source-run identity only.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "Cells, plates, tissues and assays may share mouse IDs; original Tabula Muris contributes reused young data. No external replication is claimed.",
+  "population_and_selection": "Every one of the seven files produced by the failed metadata_v1 execution; no selective archiving.",
+  "contrast": "Original byte stream versus archived copy; no biological contrast.",
+  "endpoint": "Exact file hash equality and preservation of original failure status.",
+  "methods": "Assert original receipt execution_failed; copy all four partial tables, receipt, stdout and stderr into a new run directory. Rename only the copied receipt to failed_receipt.json to avoid the wrapper receipt name. Check SHA-256 equality, export original-to-archive mapping. Do not edit, rerun or delete original files.",
+  "missingness_and_exclusions": "All files present in the failed run are retained; expected outputs never produced by the failed process remain missing, not fabricated.",
+  "multiplicity": "No hypothesis tests or biological inference.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact byte equality, no biological precision question.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Successful preservation is not successful metadata execution or scientific acceptance. failed_receipt.json remains execution_failed.",
+  "stop_rule": "Stop if original status is not execution_failed, any source file is absent or a copied hash differs.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/animals.tsv",
+      "sha256": "335dc592614e33221680799dbb980f075e976c25878e0d0f3daddb2474c8e678",
+      "study_id": "Nb5_metadata_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/cell_metadata.tsv",
+      "sha256": "801e2029dc9797db475ae25db0b5befcce8a50ff3c5a3ae338334a248aec457e",
+      "study_id": "Nb5_metadata_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/coverage.tsv",
+      "sha256": "068414084f3c1edf6ed5bee771c675b0f1f2f87df96250eba62cd4c7c73ea500",
+      "study_id": "Nb5_metadata_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/published_coverage.tsv",
+      "sha256": "cf780bbcd2b4bc6150c82129b1b3d28570d6f6e327fca95a2f8a95ff4d3aae87",
+      "study_id": "Nb5_metadata_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/receipt.json",
+      "sha256": "923259dcc98ba4ef364b951923c72e8bbb1707f9dfc3e7fb0d77b2d1a5d621e4",
+      "study_id": "Nb5_metadata_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/stderr.log",
+      "sha256": "98a688f0cdb7458859e0a2ea46b0b9937bea18288fa2627668a033a3129234c1",
+      "study_id": "Nb5_metadata_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Nb5_metadata_failure",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/06_preserve_failure_v1.py",
+      "sha256": "376cf6fb200d4f7b057a63be2ae0d60328d8161530b53e1d537387381205b110"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/06_preserve_failure_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "animals.tsv",
+    "cell_metadata.tsv",
+    "coverage.tsv",
+    "published_coverage.tsv",
+    "failed_receipt.json",
+    "failed_stderr.log",
+    "failed_stdout.log",
+    "preservation.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Deterministic archive required because the existing validator only registers successful receipts. No governance or validator changes. Original failed files remain local and at Git commit a0565ea."
+}

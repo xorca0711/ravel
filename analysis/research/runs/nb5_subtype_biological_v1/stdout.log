@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "prior_cohort_cells": 6000,
+  "eligible_comparisons": 2,
+  "checks": [
+    "Exact prior within-mouse clone-size reconstruction",
+    "Independent repeated-cell numerator calculation",
+    "Conditional common-depth bounds",
+    "Exhaustive sampling checks for three depths",
+    "Prior analytic decomposition and rarefaction toys"
+  ],
+  "limit": "Repeated reconstructed sequences conditional on source annotation and recovery; no immune-function, absolute-expansion or independent-validation claim."
+}

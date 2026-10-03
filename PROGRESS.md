@@ -2,6 +2,264 @@
 
 **Update this before stopping work, every session.**
 
+## Current Nb5 scientific review and proposed registration on 3 October 2026
+
+The owner authorized scientific review and potential registration, then clarified
+that distinct focus, target and cell/context heterogeneity warrant separate RQs.
+The [bounded review](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
+screens 24 canonical questions and 33 prior article candidates against all eight
+Nb5 cards. Its matrix records 456 comparisons; this is documentation review,
+not new biological computation or exhaustive literature/independent peer review.
+
+Registered **proposed A24–A27**: bladder stromal/barrier maintenance, regional
+middle-age microglial organization, spleen/marrow CD8 context and within-spleen
+CD8 state attribution. P03 has an A3 normal-age reference extension. Marker,
+sex and age-window branches remain supporting tasks unless a separate target
+is specified. Dossiers, workspaces, plans, registry and entrypoints are aligned.
+Earlier source cards, failed/negative results and frozen outputs are preserved.
+
+Close precedents constrain novelty; A27 is initially attribution/replication,
+not discovery of within-state CD8 ageing. P02/A25's model is still unrun; A26's
+exact marrow support is held; A24 source/function nomination and A27 fine-state
+and receptor qualification remain necessary. No human retain/reject decision,
+claim promotion, biological run or laboratory readiness is recorded.
+
+Next: review the proposed registrations and A3 extension, nominate missing
+biological features, then qualify/freeze only the justified execution designs.
+PR #135 remains the open integration vehicle. The fetched main is `073a69a`;
+the primary checkout's unrelated edits/private files and external settings are
+unchanged. All ten required checks pass: 138 tests, 18 numeric bindings and
+9,006 repository validations, with the research gate against the refreshed base.
+The strict layout sequence now covers A0–A27; missing/duplicate/reordered/extra
+IDs remain rejected. This validator update, its infrastructure declaration and
+the governance current-ID wording await explicit PR review. The initial stale
+sequence-check failure is retained in the Nb5 execution ledger. No merge or
+human scientific acceptance is recorded.
+
+## Earlier Nb5 integration and PR checkpoint on 3 October 2026
+
+The owner requested a fresh fetch, alignment and PR. Latest main is `073a69a`
+(PR #134). Its canonical RQ specificity updates are incorporated; Nb5 P03 remains
+consistent with A3's requirement for a nominated macrophage programme and
+functional consequence, both still unresolved. The only merge conflict was this
+progress file; both prior histories are retained below.
+
+The [Nb5 package](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/README.md)
+includes source qualification, completed exploratory extensions, eleven captioned
+figure plates and eight provisional RQ derivations. P02's state/mixture fit and
+independent animal-level qualification remain unfinished; scientific acceptance
+and global RQ registration remain separate. [PR #135](https://github.com/xorca0711/scRNA_seq/pull/135)
+is open against main and attached to the current task. All ten required local
+checks pass: 137 tests, 18 numeric bindings, 8,815 repository validations,
+compilation, archive verifiers and the research gate against `073a69a`.
+GitHub checks were in progress at publication; no merge was requested or performed.
+
+Next: review PR #135 and its CI, then the article-local scientific review packet.
+No biological analysis was rerun for integration. The primary checkout's unrelated
+edits and private files remain unchanged. External protection settings were not
+changed or freshly audited. Historical checkpoints below retain their original scope.
+
+## Earlier Nb5 RQ derivation checkpoint on 3 October 2026
+
+Owner-authorized [provisional derivations](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/README.md)
+now cover all eight article branches. Each records observation, biological gap,
+strongest rival, discriminating prediction, unit, endpoint and interpretation
+limit. A targeted primary-source and deposit review narrows the microglial,
+bladder and CD8 questions. P03 remains an A3 refinement; contextual and
+measurement branches are not automatically separate global questions.
+
+Eight public GEO metadata snapshots were read and hash-recorded. Expression
+archives and independent animal-level effects were not analysed. Prior
+microglial sex differences, pooled repertoire samples and reused bladder data
+constrain novelty and validation. No new biological run or figure was needed;
+existing captioned figures remain the visual evidence. P02 source recovery is
+complete, but its state/mixture model is still unrun and requires the specified
+model choices and a new frozen contract.
+
+Next: use the [scientific review packet](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/REVIEW.md)
+to settle the proposed biological scope and the [grounding decisions](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_derivation/GROUNDING.md)
+to qualify only evidence that can change it. No scientific acceptance, preferred
+RQ, canonical ID, claim promotion or external reviewer communication occurred.
+Public data access does not establish laboratory access or adequate precision.
+Documentation validation passed 8,553 checks and the research gate passed
+against freshly fetched, unchanged `origin/main` `537eec8`; see the article
+execution ledger. All eight card sections and registry links were checked.
+Unrelated primary-checkout work and external settings remain unchanged; no
+push or PR was created.
+
+## Earlier Nb5 extension completion checkpoint on 3 October 2026
+
+The [completion audit](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md)
+now separates completed stages, unrun models and evidence-dependent proposals.
+Official all-age brain expression and exact case-cell identities were recovered;
+the P02 state/mixture fit remains unrun and needs its frozen model specification.
+Official metadata also enabled a completed CD4/CD8 repertoire follow-up: spleen
+CD8 retains a higher older mean at common depth; CD4 has no 24-versus-3 difference.
+Small depths and finer-state/receptor-recovery rivals remain. Figure 11 has a
+compact embedded caption; prior figures and evidence are retained.
+
+Qualification v1/v2 and the subtype biological run completed and their receipts
+verify. No failed execution or relaxed eligibility occurred; unmatched identities
+and unsupported strata are retained. The branch was reconciled with PR #133
+(`origin/main` `537eec8`) while preserving both progress histories. Final checks
+passed: all ten checks, including 137 tests, 8,463 repository validations and
+the research gate. Details are in the article execution ledger. The recommended
+next stage is article-local candidate RQ derivation, alongside a bounded P02
+state/mixture pilot if it can change the question framing or feasibility. Other
+jobs retain the reopening requirements in the completion audit. No RQ/claim promotion, remote push or PR was created.
+Unrelated primary-checkout work, ignored sources and external settings remain
+unchanged; GitHub protection settings were not freshly audited.
+
+## RQ-readiness advisory on 3 October 2026
+
+The owner asked whether RQ derivation or further grounding should come next.
+Recommendation: begin candidate derivation from the current observations and
+rivals; retain P02's unrun model comparison as a focused grounding task. P01/P05
+and P06 can support provisional question cards now. Further computation should
+change a candidate's formulation or feasibility; missing biological evidence
+remains explicit. Review novelty, independent evidence access and biological
+endpoints before any global registration or scientific acceptance.
+
+A limited primary-source precedent check found
+[Mogilenko et al., Immunity 2021](https://pubmed.ncbi.nlm.nih.gov/33271118/)
+on clonal age-associated GZMK-positive CD8 T cells and
+[Hammond et al., Immunity 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6655561/)
+on microglial states across the lifespan and injury. These are starting points
+for a focused novelty review; no complete novelty assessment or source-cohort
+qualification was performed here. No numerical analysis, RQ selection or claim
+promotion occurred. Main was freshly verified unchanged at `537eec8`; this
+checkpoint changes only the handoff recommendation.
+
+<details>
+<summary>Earlier Nb5 descriptive, caption and focus-review checkpoints</summary>
+
+## Current Nb5 biological extensions on 3 October 2026
+
+The owner authorized biologically focused follow-up after the descriptive pass.
+P01 and P06 extensions are complete in isolated `codex/nb5-aging-atlas-plan`:
+[results](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md),
+[four new figures](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_FIGURES.md)
+and [frozen stage design](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_STAGE1.md).
+
+Lung and bladder have different within-type/composition RNA patterns. Older
+local T-cell clone repetition persists under fixed tissue representation in a
+balanced thymus/spleen/marrow subset, but marrow's separate age pattern differs
+and only two young mice support the balanced comparison. Source subtypes,
+receptor recovery, absolute abundance and function remain unresolved. P02's
+state-versus-mixture fit is held for the all-age unintegrated-scale/processing
+gap; whole-kidney accounting is held because common support is immune-only.
+
+Two numerical receipts and the figure receipt verified successfully. Exact
+four-term reconstructions, count-based checks, clone partitions and analytic/
+exhaustive toy checks passed. All four new PNGs were visually inspected; compact
+captions, 300-dpi exports and the four-page PDF were checked. The execution
+ledger records all ten passing required checks: 134 tests (one existing skip),
+8,132 repository validations and the research gate against unchanged
+`origin/main` `bf7d716`. No old output
+was overwritten; no new global RQ, claim grade or scientific acceptance arose.
+
+Next: review the residual biological alternatives and qualify independent,
+population-resolved abundance/RNA or subtype-resolved repertoire evidence;
+recover qualified all-age microglial inputs before the held model comparison.
+All existing RQs remain available. Current verified integration base is
+`origin/main` `bf7d716`; unrelated primary-checkout work and external settings
+were not changed. No push or PR has been created for this branch.
+
+
+
+## Current continuation on 3 October 2026
+
+Nb5 mouse ageing atlas: the owner-authorized first bounded descriptive analysis
+and six article-style figure plates are complete in isolated
+`codex/nb5-aging-atlas-plan`, started from `76dc9b4` and reconciled with
+newly merged `origin/main` `bf7d716` (PR #132).
+[Current results](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md),
+[figure gallery](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md)
+and [execution ledger](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXECUTION_VALIDATION.md)
+own this checkpoint. Nb5-P01–P08 remain article-local development frames;
+A0–A23, historical negative results and claim grades are unchanged.
+
+Five general tissue objects plus the overlapping author brain object were
+qualified. Available expression is normalized/transformed, not raw counts.
+Bladder composition directions persist under equal mouse weighting; corrected
+T-cell clone numerators match the paper but young/old denominators differ.
+The source-defined microglial list overlaps 56 genes versus the reported 55;
+final-paper cluster correspondence remains unresolved. No distinct intermediate
+state, conserved mechanism, disease transfer or functional effect is established.
+
+The initial metadata parser failed on merged spreadsheet cells; its complete
+bytes and failure receipt are preserved in a registered archival run. Corrected
+metadata, source-backed repertoire naming and bidirectional list amendments
+retain previous outcomes. Numerical checks passed; all six PNG plates were
+inspected, with SVG and PDF exports. All ten required checks passed: 123 tests
+(one existing skip), 7,951 repository validations and the research gate against
+freshly fetched, unchanged `origin/main` at `76dc9b4`. The execution ledger
+records verification; no legacy biological analyses were rerun.
+
+Next work is branch-specific: recover final-figure cluster/cell mapping and
+qualified all-age unintegrated expression for P02; resolve repertoire source
+denominators/tissue selection for P06; qualify missing age-sex and compatible
+injury/disease designs before those models. Effect margins, biological precision,
+host access and scientific acceptance remain unresolved. No preferred RQ was
+selected. Primary-checkout unrelated edits and ignored work were preserved;
+GitHub settings, Notion and owner merge decisions are unchanged.
+
+## Figure captions and extension assessment on 3 October 2026
+
+The owner requested biological rationale and results inside each PNG, then
+asked for shorter captions matching established article figures. Current v3
+uses 2–3-line, 39–51-word captions at 9 points; detailed explanations remain in
+the gallery. All six PNG/SVG/PDF plates are updated, with numerical panel logic
+unchanged and v1/v2 preserved. The receipt, layout checks, visual inspection of
+every PNG and six-page PDF caption checks passed. No biological analysis was
+rerun. After preserving newly merged PR #132 updates from `origin/main`
+`bf7d716`, all ten required checks passed: 134 tests (one existing skip),
+8,050 repository validations and the research gate. The execution ledger
+records the current integration check; no push or PR was created.
+
+The article's extension assessment concludes that targeted work is plausible
+before formal RQ derivation: mouse influence, common-denominator composition
+accounting and tissue-aware repertoire sensitivity. Microglial state/mixture
+comparison remains conditional on source and all-age expression qualification.
+These are proposals, not executed extensions or a ranking/promotion of RQs.
+Next: freeze the bounded extension actually pursued, retaining prior exposure
+and the strongest rival. No new biological endpoint, precision or source access
+has been claimed. Current edition checks are in the execution ledger.
+
+## Biological focus review on 3 October 2026
+
+The owner questioned whether proposed Nb5 extensions address biology or only
+artifacts. Review of the current results, extension assessment, branch cards
+and note reconciliation finds substantive biological candidates, but an
+immediate work list weighted toward source and robustness checks. Those checks
+support an extension; completing them alone does not answer its biological
+question. The extension proposals remain unexecuted.
+
+Proposed next framing: P01 distinguishes within-type RNA differences from
+captured population redistribution; P02 distinguishes a reproducible microglial
+expression configuration from changing mixtures; P06 asks about repertoire
+concentration within comparable tissue/subset compartments. Genuine changes in
+population composition are a biological alternative, not automatically an
+artifact. Differential capture remains a separate rival. Each numerical stage
+must connect its measured endpoint and mouse-level comparison to a biological
+decision and the missing independent discriminator. Source holds, functional
+limits and prospective contracts remain unchanged. This is a review finding,
+not a revised frozen design, new result, selected RQ or scientific acceptance.
+No biological analysis or figure was rerun. See the
+[current extension assessment](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_ASSESSMENT.md)
+and [branch cards](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md).
+
+</details>
+
+## Integrated repository checkpoint (PR #133 now merged)
+
+
+Current checkpoint: 3 October 2026. PRs #130–#132 are merged; current integrated
+main is `bf7d7166887fb4207eb4582f41925a565a327dbf`. This documentation follow-up
+uses `codex/rq-readme-alignment`. Scientific acceptance remains separate.
+
+## Integrated RQ specificity history from PR #134
+
 Current checkpoint: 3 October 2026. PRs #130–#133 are merged; refreshed integrated
 main is `537eec83fe102a7eaa3e3f34a7f6b48cf852be15`. The requested novelty/specification
 application uses `codex/rq-novelty-specificity`. Scientific acceptance remains separate.
@@ -248,77 +506,149 @@ or freshly re-audited in this documentation task. Future PR merges remain owner 
 
 ### Earlier pre-merge grounding checkpoints
 
+
 Updated 3 October 2026. Integration base:
+
 `0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f` (main, PR #129).
+
 Repair branch: `codex/research-governance`; [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130), not merged. Check Git before assuming this
 checkpoint is the latest remote revision.
 
+
+
 ## Current objective
 
+
+
 Ground the full research portfolio before choosing a question. All A0–A23 remain
+
 available; nine newly merged Nb4 plans remain article-local candidates. The
+
 owner has not selected a priority RQ or accepted the new scientific refinements.
+
+
 
 ## Repair delivered on this branch
 
+
+
 - [Twenty-four dossiers](docs/research_dossiers/README.md) distinguish source
+
   knowledge, repository evidence, gaps, hypotheses, rivals, discriminating
+
   outcomes and experimental bridges. Canonical cards link each refinement.
+
 - [Governance](docs/RESEARCH_GOVERNANCE.md), agent entry points, a typed contract,
+
   execution wrapper and CI change gate make provenance and analysis structure
+
   checkable. They cannot certify novelty or compel arbitrary local tools.
+
 - [State reconciliation](docs/audits/2026-10-03-repository-repair/REPORT.md)
+
   preserves older checkouts and merges unique reading-readiness decisions into
+
   current main without restoring superseded scientific interpretations.
+
 - The long prior handoffs remain in existing Git history, with locators in
+
   [history](docs/history/2026-10-03-pre-governance/manifest.json).
+
+
 
 ## Scientific boundaries carried forward
 
+
+
 Nb4 reproduction, diagnostics and nine proposals are present from main. Existing
+
 A19–A23 continuations remain in their workspaces. A0 transfer stopped; A13's
+
 proxy model was negative; A16 retains attribution imbalance; A22 transport is
+
 weak; A23's external marker result does not reproduce the screen pattern.
+
 These are not overwritten by new hypotheses. Claim grades and frozen outputs
+
 are unchanged. No new biological fit or laboratory experiment ran in this repair.
 
+
+
 3A/3B reading and the X1–X4 comparison queue remain open. Reading completion,
+
 numerical execution and scientific acceptance are separate decisions.
+
+
 
 ## Verification and external settings
 
+
+
 See [validation receipt](docs/audits/2026-10-03-repository-repair/validation.json)
+
 for actual checks and [repair report](docs/audits/2026-10-03-repository-repair/REPORT.md)
+
 for GitHub integration protection and remaining limitations. Do not infer passed
+
 checks or active server protection from this summary alone. Main protection was applied and read back: both GitHub Actions checks are required on an up-to-date PR, administrators are included, and force pushes/deletion are blocked. There is no independent-review requirement on this single-owner repository.
+
+
 
 ## Scientific review completed on this branch
 
+
+
 The [3 October review](docs/research_dossiers/review_2026-10-03/README.md) records
+
 20 primary-source leads/precedents with access limits, a feasibility gate for
+
 every A0–A23 and a nine-candidate Nb4 crosswalk. Corrections restore A0's stopped
+
 transfer scope, A2's recipient, A7/A9 provenance, A13's signaling direction and
+
 A20's existing pool-maintenance hypothesis. Broad published mechanisms are
+
 separated from possible narrower contributions. This is a bounded review;
+
 exhaustive novelty, A11's lesion-specific comparison and actual lab capabilities
+
 remain unresolved. No new biological calculation or experimental protocol ran.
+
 Stage-specific verification is in the [review validation record](docs/research_dossiers/review_2026-10-03/VALIDATION.md).
+
+
 
 ## Source qualification completed on this branch
 
+
+
 The [qualification report](docs/research_dossiers/qualification_2026-10-03/README.md)
+
 records four executed metadata contracts frozen at `6ef2cf9`, five GEO source
+
 versions, sample identities and independent mechanical verification. MesSTIM
+
 preparation identities, A5 mouse/state joins, A7 biological replication and Nb3
+
 preparation/animal-block mapping remain unresolved. The A7 six-CEBPA/four-AP-1
+
 source split is explicit. A11 has a bounded direct-precedent comparison; exact
+
 residual-component novelty remains provisional. All 24 RQs and nine Nb4
+
 candidates retain their current scope and eligibility boundaries.
 
+
+
 No expression analysis ran. Receipts now use portable commands; a regression
+
 test covers the change. Existing freeze, hash and inference gates remain intact.
+
 Actual laboratory models, assays and access remain unknown. Per-stage checks
+
 are recorded in the [qualification validation](docs/research_dossiers/qualification_2026-10-03/VALIDATION.md).
+
+
 
 ## Follow-up on jobs 2, 3, 4 and 6
 
@@ -362,6 +692,7 @@ scientific development. No RQ or new claim grade was accepted.
 
 ## Next work
 
+
 1. Develop all 24 conditional packages and review the exact discriminators
    against primary precedents. This can proceed without confirmed lab access.
 2. Recover only the still-missing source maps and linked endpoints specified in
@@ -373,6 +704,7 @@ scientific development. No RQ or new claim grade was accepted.
    receipts. Retain holds when inputs cannot identify the intended comparison.
 5. Owner review/merge remains pending. Reconcile the normal review checkout with
    integrated main afterward; retain original work and ignored raw data.
+
 
 The normal checkout now uses `codex/workspace-ready` for the PR state. Original
 edits are preserved on local-only `codex/preserved-primary-20261003`; main remains

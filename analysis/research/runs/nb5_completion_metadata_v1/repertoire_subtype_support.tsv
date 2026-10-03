@@ -1,0 +1,304 @@
+age_months	mouse_id	tissue	join_rule	official_cell_ontology_class	official_free_annotation	cells
+3	3_10_M	BAT	one_assay_suffix	T cell	nan	6
+3	3_10_M	Brain_Non-Myeloid	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	2
+3	3_10_M	GAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	3
+3	3_10_M	Limb_Muscle	one_assay_suffix	T cell	nan	4
+3	3_10_M	Lung	one_assay_suffix	CD4-positive, alpha-beta T cell	CD4+ T	2
+3	3_10_M	Lung	one_assay_suffix	CD8-positive, alpha-beta T cell	CD8+ T	1
+3	3_10_M	Lung	one_assay_suffix	NK cell	Natural Killer	1
+3	3_10_M	Marrow	one_assay_suffix	CD4-positive, alpha-beta T cell	BM CD4 T cell	6
+3	3_10_M	Marrow	one_assay_suffix	NK cell	Klrb1a/b/c(-) NK cell	4
+3	3_10_M	Marrow	one_assay_suffix	NK cell	NK cell	8
+3	3_10_M	Marrow	one_assay_suffix	basophil	basophil	2
+3	3_10_M	Marrow	one_assay_suffix	granulocyte monocyte progenitor cell	granulocyte monocyte progenitor cell	2
+3	3_10_M	Marrow	one_assay_suffix	granulocytopoietic cell	granulocytopoietic cell	1
+3	3_10_M	Marrow	one_assay_suffix	immature B cell	immature B cell	1
+3	3_10_M	Marrow	one_assay_suffix	late pro-B cell	late pro B cell	1
+3	3_10_M	Marrow	one_assay_suffix	macrophage	CD4+ macrophage	2
+3	3_10_M	Marrow	one_assay_suffix	mature alpha-beta T cell	BM CD8 + CD4 T cell	26
+3	3_10_M	Marrow	one_assay_suffix	promonocyte	monocyte + promonocyte	6
+3	3_10_M	Pancreas	one_assay_suffix	pancreatic B cell	nan	1
+3	3_10_M	SCAT	one_assay_suffix	B cell	nan	1
+3	3_10_M	SCAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	3
+3	3_10_M	SCAT	one_assay_suffix	T cell	nan	15
+3	3_10_M	Tongue	one_assay_suffix	basal cell of epidermis	nan	1
+3	3_10_M	Trachea	one_assay_suffix	T cell	nan	2
+3	3_11_M	BAT	one_assay_suffix	T cell	nan	15
+3	3_11_M	BAT	one_assay_suffix	myeloid cell	nan	1
+3	3_11_M	Diaphragm	one_assay_suffix	T cell	nan	4
+3	3_11_M	GAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	1
+3	3_11_M	GAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	2
+3	3_11_M	GAT	one_assay_suffix	T cell	nan	1
+3	3_11_M	GAT	one_assay_suffix	myeloid cell	nan	1
+3	3_11_M	Heart	one_assay_suffix	T cell	T cell	3
+3	3_11_M	Kidney	one_assay_suffix	T cell	T cell	2
+3	3_11_M	Kidney	one_assay_suffix	kidney collecting duct epithelial cell	kidney collecting duct epithelial cell	1
+3	3_11_M	Limb_Muscle	one_assay_suffix	T cell	nan	1
+3	3_11_M	Liver	one_assay_suffix	NK cell	nan	1
+3	3_11_M	Liver	one_assay_suffix	T cell	nan	1
+3	3_11_M	Liver	one_assay_suffix	hepatocyte	nan	1
+3	3_11_M	Liver	one_assay_suffix	mature NK T cell	nan	6
+3	3_11_M	MAT	one_assay_suffix	B cell	nan	1
+3	3_11_M	MAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	20
+3	3_11_M	MAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	15
+3	3_11_M	MAT	one_assay_suffix	macrophage	nan	1
+3	3_11_M	MAT	one_assay_suffix	mesenchymal stem cell of adipose	mesenchymal progenitor	1
+3	3_11_M	SCAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	1
+3	3_11_M	SCAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	1
+3	3_11_M	SCAT	one_assay_suffix	mesenchymal stem cell of adipose	mesenchymal progenitor	1
+3	3_11_M	Spleen	one_assay_suffix	CD4-positive, alpha-beta T cell	Cd3e T cell	32
+3	3_11_M	Spleen	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	1
+3	3_11_M	Spleen	one_assay_suffix	CD8-positive, alpha-beta T cell	Cd3e T cell	15
+3	3_11_M	Spleen	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	2
+3	3_11_M	Thymus	one_assay_suffix	DN4 thymocyte	DN4 thymocyte	119
+3	3_11_M	Thymus	one_assay_suffix	epithelial cell of thymus	TECs	1
+3	3_11_M	Thymus	one_assay_suffix	macrophage	macrophage	1
+3	3_11_M	Thymus	one_assay_suffix	thymocyte	DN to DP transition (most are Cd8+/ Cd4+, some undergoing VDJ recombination)	45
+3	3_11_M	Thymus	one_assay_suffix	thymocyte	proliferating thymocyte; DN to DP transition, dividing (some are Cd8+/ Cd4+, some undergoing VDJ recombination)	22
+3	3_38_F	BAT	one_assay_suffix	T cell	nan	6
+3	3_38_F	Brain_Myeloid	one_assay_suffix	microglial cell	nan	2
+3	3_38_F	Brain_Non-Myeloid	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	7
+3	3_38_F	Brain_Non-Myeloid	one_assay_suffix	T cell	nan	1
+3	3_38_F	Diaphragm	one_assay_suffix	T cell	nan	2
+3	3_38_F	GAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	3
+3	3_38_F	GAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	1
+3	3_38_F	GAT	one_assay_suffix	NK cell	nan	1
+3	3_38_F	GAT	one_assay_suffix	myeloid cell	nan	1
+3	3_38_F	Heart	one_assay_suffix	T cell	T cell	2
+3	3_38_F	Heart	one_assay_suffix	fibroblast of cardiac tissue	fibroblast of cardiac tissue	2
+3	3_38_F	Kidney	one_assay_suffix	T cell	T cell	2
+3	3_38_F	Lung	one_assay_suffix	CD4-positive, alpha-beta T cell	CD4+ T	7
+3	3_38_F	Lung	one_assay_suffix	NK cell	Natural Killer	1
+3	3_38_F	Lung	one_assay_suffix	T cell	T cell	1
+3	3_38_F	Lung	one_assay_suffix	fibroblast of lung	Alveolar Fibroblast	1
+3	3_38_F	Lung	one_assay_suffix	regulatory T cell	Regulatory T	1
+3	3_38_F	Lung	unmatched			10
+3	3_38_F	MAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	5
+3	3_38_F	MAT	one_assay_suffix	endothelial cell	nan	1
+3	3_38_F	Marrow	one_assay_suffix	CD4-positive, alpha-beta T cell	BM CD4 T cell	1
+3	3_38_F	Marrow	one_assay_suffix	mature alpha-beta T cell	BM CD8 + CD4 T cell	4
+3	3_38_F	Marrow	one_assay_suffix	naive B cell	naïve B cell	1
+3	3_38_F	Marrow	one_assay_suffix	promonocyte	monocyte + promonocyte	1
+3	3_38_F	Marrow	unmatched			1
+3	3_38_F	Pancreas	one_assay_suffix	pancreatic A cell	nan	1
+3	3_38_F	SCAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	1
+3	3_38_F	SCAT	one_assay_suffix	NK cell	nan	1
+3	3_38_F	SCAT	one_assay_suffix	T cell	nan	4
+3	3_38_F	Skin	one_assay_suffix	bulge keratinocyte	outer bulge	1
+3	3_38_F	Spleen	one_assay_suffix	B cell	CD79a B cell	1
+3	3_38_F	Spleen	one_assay_suffix	CD4-positive, alpha-beta T cell	Cd3e T cell	27
+3	3_38_F	Spleen	one_assay_suffix	CD8-positive, alpha-beta T cell	Cd3e T cell	27
+3	3_38_F	Spleen	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	9
+3	3_38_F	Thymus	one_assay_suffix	DN4 thymocyte	DN4 thymocyte	271
+3	3_38_F	Thymus	one_assay_suffix	thymocyte	DN to DP transition (most are Cd8+/ Cd4+, some undergoing VDJ recombination)	6
+3	3_38_F	Thymus	one_assay_suffix	thymocyte	proliferating thymocyte; DN to DP transition, dividing (some are Cd8+/ Cd4+, some undergoing VDJ recombination)	3
+3	3_38_F	Trachea	one_assay_suffix	T cell	nan	22
+3	3_39_F	Aorta	one_assay_suffix	aortic endothelial cell	nan	1
+3	3_39_F	Aorta	one_assay_suffix	professional antigen presenting cell	nan	1
+3	3_39_F	Aorta	unmatched			4
+3	3_39_F	BAT	one_assay_suffix	T cell	nan	4
+3	3_39_F	Brain_Myeloid	one_assay_suffix	microglial cell	nan	1
+3	3_39_F	Brain_Non-Myeloid	unmatched			1
+3	3_39_F	Diaphragm	one_assay_suffix	T cell	nan	3
+3	3_39_F	Diaphragm	one_assay_suffix	mesenchymal stem cell	nan	1
+3	3_39_F	GAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	1
+3	3_39_F	GAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	2
+3	3_39_F	GAT	one_assay_suffix	T cell	nan	1
+3	3_39_F	GAT	one_assay_suffix	myeloid cell	nan	1
+3	3_39_F	Heart	one_assay_suffix	T cell	T cell	4
+3	3_39_F	Kidney	one_assay_suffix	T cell	T cell	1
+3	3_39_F	Limb_Muscle	one_assay_suffix	T cell	nan	4
+3	3_39_F	Lung	one_assay_suffix	CD4-positive, alpha-beta T cell	CD4+ T	8
+3	3_39_F	Lung	one_assay_suffix	CD8-positive, alpha-beta T cell	CD8+ T	3
+3	3_39_F	Lung	unmatched			1
+3	3_39_F	MAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	7
+3	3_39_F	Marrow	one_assay_suffix	CD4-positive, alpha-beta T cell	BM CD4 T cell	5
+3	3_39_F	Marrow	one_assay_suffix	NK cell	Klrb1a/b/c(-) NK cell	1
+3	3_39_F	Marrow	one_assay_suffix	NK cell	NK cell	16
+3	3_39_F	Marrow	one_assay_suffix	basophil	basophil	2
+3	3_39_F	Marrow	one_assay_suffix	mature alpha-beta T cell	BM CD8 + CD4 T cell	16
+3	3_39_F	Marrow	one_assay_suffix	promonocyte	monocyte + promonocyte	4
+3	3_39_F	SCAT	one_assay_suffix	B cell	nan	2
+3	3_39_F	SCAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	3
+3	3_39_F	SCAT	one_assay_suffix	NK cell	nan	5
+3	3_39_F	SCAT	one_assay_suffix	T cell	nan	14
+3	3_39_F	SCAT	one_assay_suffix	myeloid cell	nan	1
+3	3_39_F	Spleen	one_assay_suffix	B cell	CD79a B cell	2
+3	3_39_F	Spleen	one_assay_suffix	CD4-positive, alpha-beta T cell	Cd3e T cell	33
+3	3_39_F	Spleen	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	1
+3	3_39_F	Spleen	one_assay_suffix	CD8-positive, alpha-beta T cell	Cd3e T cell	19
+3	3_39_F	Spleen	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	8
+3	3_39_F	Thymus	one_assay_suffix	DN4 thymocyte	DN4 thymocyte	32
+3	3_39_F	Thymus	one_assay_suffix	thymocyte	DN to DP transition (most are Cd8+/ Cd4+, some undergoing VDJ recombination)	267
+3	3_39_F	Thymus	one_assay_suffix	thymocyte	proliferating thymocyte; DN to DP transition, dividing (some are Cd8+/ Cd4+, some undergoing VDJ recombination)	27
+3	3_39_F	Thymus	unmatched			1
+3	3_39_F	Trachea	one_assay_suffix	T cell	nan	2
+3	3_56_F	BAT	one_assay_suffix	NK cell	nan	2
+3	3_56_F	BAT	one_assay_suffix	T cell	nan	13
+3	3_56_F	BAT	one_assay_suffix	myeloid cell	nan	1
+3	3_56_F	Brain_Non-Myeloid	unmatched			1
+3	3_56_F	GAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	2
+3	3_56_F	GAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	8
+3	3_56_F	Heart	one_assay_suffix	T cell	T cell	2
+3	3_56_F	MAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	17
+3	3_56_F	MAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	10
+3	3_56_F	SCAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	1
+3	3_56_F	SCAT	one_assay_suffix	NK cell	nan	1
+3	3_56_F	SCAT	one_assay_suffix	T cell	nan	2
+3	3_8_M	Aorta	one_assay_suffix	fibrocyte	leukocyte	2
+3	3_8_M	Aorta	one_assay_suffix	macrophage	leukocyte	3
+3	3_8_M	Limb_Muscle	one_assay_suffix	T cell	nan	14
+3	3_8_M	Lung	one_assay_suffix	CD4-positive, alpha-beta T cell	CD4+ T	12
+3	3_8_M	Pancreas	one_assay_suffix	leukocyte	nan	3
+3	3_8_M	Thymus	one_assay_suffix	DN4 thymocyte	DN4 thymocyte	32
+3	3_8_M	Thymus	one_assay_suffix	thymocyte	DN to DP transition (most are Cd8+/ Cd4+, some undergoing VDJ recombination)	80
+3	3_8_M	Thymus	one_assay_suffix	thymocyte	proliferating thymocyte; DN to DP transition, dividing (some are Cd8+/ Cd4+, some undergoing VDJ recombination)	31
+3	3_9_M	BAT	one_assay_suffix	T cell	nan	25
+3	3_9_M	Brain_Non-Myeloid	one_assay_suffix	T cell	nan	1
+3	3_9_M	Brain_Non-Myeloid	one_assay_suffix	oligodendrocyte	nan	1
+3	3_9_M	GAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	3
+3	3_9_M	GAT	one_assay_suffix	NK cell	nan	1
+3	3_9_M	GAT	one_assay_suffix	endothelial cell	nan	1
+3	3_9_M	Heart	one_assay_suffix	T cell	T cell	1
+3	3_9_M	Heart	one_assay_suffix	endothelial cell of coronary artery	coronary vascular endothelial cell	1
+3	3_9_M	Limb_Muscle	one_assay_suffix	T cell	nan	8
+3	3_9_M	Lung	one_assay_suffix	CD4-positive, alpha-beta T cell	CD4+ T	5
+3	3_9_M	Lung	unmatched			1
+3	3_9_M	MAT	one_assay_suffix	B cell	nan	1
+3	3_9_M	MAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	20
+3	3_9_M	MAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	3
+3	3_9_M	MAT	one_assay_suffix	macrophage	nan	1
+3	3_9_M	SCAT	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	1
+3	3_9_M	SCAT	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	5
+3	3_9_M	SCAT	one_assay_suffix	NK cell	nan	3
+3	3_9_M	SCAT	one_assay_suffix	T cell	nan	13
+3	3_9_M	SCAT	one_assay_suffix	myeloid cell	nan	1
+3	3_9_M	Spleen	one_assay_suffix	B cell	CD79a B cell	1
+3	3_9_M	Spleen	one_assay_suffix	B cell	nan	1
+3	3_9_M	Spleen	one_assay_suffix	CD4-positive, alpha-beta T cell	Cd3e T cell	28
+3	3_9_M	Spleen	one_assay_suffix	CD4-positive, alpha-beta T cell	nan	1
+3	3_9_M	Spleen	one_assay_suffix	CD8-positive, alpha-beta T cell	Cd3e T cell	22
+3	3_9_M	Spleen	one_assay_suffix	CD8-positive, alpha-beta T cell	nan	3
+3	3_9_M	Thymus	one_assay_suffix	DN4 thymocyte	DN4 thymocyte	90
+3	3_9_M	Thymus	one_assay_suffix	epithelial cell of thymus	TECs	1
+3	3_9_M	Thymus	one_assay_suffix	macrophage	macrophage	2
+3	3_9_M	Thymus	one_assay_suffix	thymocyte	DN to DP transition (most are Cd8+/ Cd4+, some undergoing VDJ recombination)	186
+3	3_9_M	Thymus	one_assay_suffix	thymocyte	proliferating thymocyte; DN to DP transition, dividing (some are Cd8+/ Cd4+, some undergoing VDJ recombination)	38
+18			unmatched			8
+18	18_45_M	BAT	unmatched			5
+18	18_45_M	Brain_Non-Myeloid	unmatched			5
+18	18_45_M	Diaphragm	unmatched			4
+18	18_45_M	GAT	unmatched			22
+18	18_45_M	Kidney	unmatched			4
+18	18_45_M	Limb_Muscle	unmatched			3
+18	18_45_M	Liver	unmatched			1
+18	18_45_M	Lung	unmatched			18
+18	18_45_M	MAT	unmatched			22
+18	18_45_M	Marrow	unmatched			60
+18	18_45_M	Pancreas	unmatched			1
+18	18_45_M	SCAT	unmatched			4
+18	18_45_M	Spleen	unmatched			29
+18	18_45_M	Thymus	unmatched			250
+18	18_45_M	Trachea	unmatched			9
+18	18_46_F	BAT	unmatched			10
+18	18_46_F	Brain_Non-Myeloid	unmatched			33
+18	18_46_F	GAT	unmatched			28
+18	18_46_F	Heart	unmatched			16
+18	18_46_F	Kidney	unmatched			1
+18	18_46_F	Limb_Muscle	unmatched			2
+18	18_46_F	Liver	unmatched			35
+18	18_46_F	Lung	unmatched			8
+18	18_46_F	MAT	unmatched			33
+18	18_46_F	Marrow	unmatched			151
+18	18_46_F	SCAT	unmatched			27
+18	18_46_F	Skin	unmatched			1
+18	18_46_F	Thymus	unmatched			196
+18	18_46_F	Tongue	unmatched			1
+18	18_46_F	Trachea	unmatched			13
+18	18_47_F	BAT	unmatched			12
+18	18_47_F	Brain_Non-Myeloid	unmatched			3
+18	18_47_F	GAT	unmatched			29
+18	18_47_F	Heart	unmatched			11
+18	18_47_F	Limb_Muscle	unmatched			7
+18	18_47_F	Lung	unmatched			19
+18	18_47_F	MAT	unmatched			38
+18	18_47_F	Marrow	unmatched			127
+18	18_47_F	Pancreas	unmatched			2
+18	18_47_F	SCAT	unmatched			28
+18	18_47_F	Spleen	unmatched			82
+18	18_47_F	Thymus	unmatched			236
+18	18_47_F	Trachea	unmatched			12
+18	18_53_M	Aorta	unmatched			1
+18	18_53_M	BAT	unmatched			5
+18	18_53_M	Brain_Non-Myeloid	unmatched			2
+18	18_53_M	Heart	unmatched			34
+18	18_53_M	Kidney	unmatched			1
+18	18_53_M	Limb_Muscle	unmatched			1
+18	18_53_M	Liver	unmatched			2
+18	18_53_M	Lung	unmatched			7
+18	18_53_M	MAT	unmatched			33
+18	18_53_M	Marrow	unmatched			24
+18	18_53_M	Spleen	unmatched			56
+18	18_53_M	Thymus	unmatched			263
+18	18_53_M	Tongue	unmatched			2
+18	18_53_M	Trachea	unmatched			27
+24			unmatched			3
+24	24_58_M	BAT	unmatched			10
+24	24_58_M	Bladder	unmatched			1
+24	24_58_M	Brain_Non-Myeloid	unmatched			1
+24	24_58_M	GAT	unmatched			20
+24	24_58_M	Heart	unmatched			8
+24	24_58_M	Kidney	unmatched			2
+24	24_58_M	Limb_Muscle	unmatched			3
+24	24_58_M	Liver	unmatched			27
+24	24_58_M	Lung	unmatched			15
+24	24_58_M	MAT	unmatched			47
+24	24_58_M	Marrow	unmatched			77
+24	24_58_M	SCAT	unmatched			22
+24	24_58_M	Spleen	unmatched			63
+24	24_58_M	Thymus	unmatched			207
+24	24_58_M	Trachea	unmatched			8
+24	24_59_M	BAT	unmatched			3
+24	24_59_M	Brain_Non-Myeloid	unmatched			1
+24	24_59_M	Diaphragm	unmatched			5
+24	24_59_M	GAT	unmatched			33
+24	24_59_M	Heart	unmatched			7
+24	24_59_M	Kidney	unmatched			20
+24	24_59_M	Limb_Muscle	unmatched			8
+24	24_59_M	Liver	unmatched			74
+24	24_59_M	Lung	unmatched			35
+24	24_59_M	MAT	unmatched			55
+24	24_59_M	Marrow	unmatched			67
+24	24_59_M	SCAT	unmatched			14
+24	24_59_M	Skin	unmatched			2
+24	24_59_M	Spleen	unmatched			37
+24	24_59_M	Thymus	unmatched			225
+24	24_59_M	Trachea	unmatched			22
+24	24_60_M	BAT	unmatched			7
+24	24_60_M	Brain_Non-Myeloid	unmatched			35
+24	24_60_M	Diaphragm	unmatched			3
+24	24_60_M	GAT	unmatched			21
+24	24_60_M	Heart	unmatched			2
+24	24_60_M	Kidney	unmatched			8
+24	24_60_M	Limb_Muscle	unmatched			15
+24	24_60_M	Lung	unmatched			35
+24	24_60_M	MAT	unmatched			23
+24	24_60_M	Marrow	unmatched			56
+24	24_60_M	SCAT	unmatched			11
+24	24_60_M	Spleen	unmatched			66
+24	24_60_M	Thymus	unmatched			93
+24	24_60_M	Trachea	unmatched			11
+24	24_61_M	BAT	unmatched			1
+24	24_61_M	Bladder	unmatched			1
+24	24_61_M	Brain_Myeloid	unmatched			4
+24	24_61_M	Brain_Non-Myeloid	unmatched			8
+24	24_61_M	GAT	unmatched			46
+24	24_61_M	Heart	unmatched			15
+24	24_61_M	Kidney	unmatched			10
+24	24_61_M	Limb_Muscle	unmatched			22
+24	24_61_M	Lung	unmatched			11
+24	24_61_M	Marrow	unmatched			17
+24	24_61_M	SCAT	unmatched			8
+24	24_61_M	Spleen	unmatched			43
+24	24_61_M	Thymus	unmatched			166
+24	24_61_M	Trachea	unmatched			11

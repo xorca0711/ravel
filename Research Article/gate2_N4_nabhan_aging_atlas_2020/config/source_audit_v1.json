@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P02.source_audit_v1",
+  "owner": "Nb5-P02",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does the source-code-defined bidirectional gene list recover the paper overlap, and do deposited annotation and cluster labels support exact Figure 4 correspondence?",
+  "decision": "Correct the source-overlap interpretation and record annotation/cluster version gaps before using published labels to motivate an intermediate-state RQ.",
+  "strongest_rival": "Using one 100-gene direction or arbitrary first 200 disease rows changes the source-list denominator; annotation releases and unverified cluster numbers can create false reproduction claims.",
+  "discriminator": "Reconstruct the exact two-direction list selection specified by pinned author code and audit every deposited annotation/cluster label by age without relabeling clusters from observed effects.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/NOTE_RECONCILIATION.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/REPRODUCTION_SCOPE.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "descriptive_v1 results, the first 100-gene overlap and cluster occupancy mismatch have been seen. The author notebook was then inspected and explicitly concatenates 100 genes from each direction. This is an exposed source-audit correction.",
+  "biological_unit": "Deposited mouse within each assay and tissue; slash-containing lung IDs are explicitly pooled libraries, excluded from mouse-weighted expression contrasts and composition accounting.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated tissue and assay samples and the general versus Figure 4 brain objects reuse mice/cells. IDs use different source formats. No cross-organ independence, canonical cross-assay identity resolution or external replication is asserted.",
+  "population_and_selection": "All cells of the pinned Figure 4 object for annotation counts; source Table 10 old-up and young-up first 100 rows each, full disease list. No expression rerun.",
+  "contrast": "Source-code-defined gene-set arithmetic and annotation-label coverage by age, without biological hypothesis testing.",
+  "endpoint": "Exact union/intersection counts and per-age annotation/cluster cell and mouse-label counts.",
+  "methods": "Read Table 10 second-row headers; concatenate first 100 old-up and first 100 young-up rows as in author notebook; report row and unique-gene counts against the full disease list. Export each original/reannotated cell type, free annotation, Leiden and Louvain label by age. No cluster remapping, new signatures or p-values.",
+  "missingness_and_exclusions": "Missing labels retained as explicit values; no cells excluded from the annotation audit. Source gene lists are used in deposited order.",
+  "multiplicity": "No p-values, significance stars, rankings by effect or confirmatory claims. The fixed descriptive marker family and all contrasts are retained, including null/unfavorable values.",
+  "precision_status": "unknown",
+  "precision_basis": "Show every observed mouse and descriptive means; no biological-effect margin, independent unit variance justification or confirmatory power is available.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Normalized RNA detection is not senescence, secretion, pathway activation or repair. Source UMAP, cluster occupancy and signature overlap cannot establish trajectory, a distinct intermediate state or AD treatment direction. Clonality is conditional on reconstruction and tissue sampling, not immune performance. Broad shared-age signatures have prior art. No claim promotion.",
+  "stop_rule": "Stop on malformed source tables; leave unresolved cluster numbering and paper/release counts as a hold. No inference about intermediate-state identity or disease transfer.",
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_10.xlsx",
+      "sha256": "cacf91aa9d03d41f81733512ffbc94c8308f5ddbefc80206a39f613f2854fadc",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/author_case_notebook.ipynb",
+      "sha256": "886fd525af6a1cb53649811c6e597ac5f1eabae7dbd8d6febb2766f934af94d5",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/facs.Brain_Myeloid.clustered_diversity.h5ad",
+      "sha256": "c157f0865bf39ce43504c674fd4d8f8dfe62644fe6b795b2e901d38c64dc48e3",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/04_source_audit_v1.py",
+      "sha256": "169301daf9342f85e9bb211851d3d2a288108ab2077b440f88e0847d130bb8ff"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/04_source_audit_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "bidirectional_source_overlap.tsv",
+    "case_annotation_audit.tsv",
+    "source_audit.json"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+  "amendment_reason": "P02-only source audit after v1 exposed a 100-versus-200 list ambiguity and cluster-label concordance gap; the pinned source notebook establishes a bidirectional concatenation. Original outputs retained."
+}
