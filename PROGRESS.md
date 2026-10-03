@@ -2,7 +2,39 @@
 
 **Update this before stopping work, every session.**
 
-## Current Nb5 scientific review and proposed registration on 3 October 2026
+## Current literature-scope clarification on 3 October 2026
+
+Verified remote main `82e749a` includes merged PR #135. Earlier statements that
+PR #135 was open below are historical. The owner's question concerns the wider
+published literature, beyond papers already recorded in the repository.
+
+A fresh topic-based search found additional close precedents for A25 and A26:
+[hippocampal intermediate microglial ageing states, 2025](https://doi.org/10.7554/eLife.97671)
+and [Mark et al., 2022](https://doi.org/10.3389/fimmu.2022.939394).
+The former already addresses a defined region, intermediate states and functional
+tests; publisher-indexed Results and PubMed were available, while direct full-page
+retrieval was challenged. The latter's publisher full text compares CD8/CD4 subsets,
+spleen/marrow and young/adult ages. Its 3/12-month schedule and repertoire-structure
+endpoints do not settle A26's proposed 3/24-month concentration contrast, but CD8
+plus paired tissue/state alone cannot establish novelty. Neither source was found
+by exact DOI/title checks in the inspected Nb5 review/dossier paths.
+
+The broader search also reaffirmed established premises in the older lung RQs.
+This is a scope correction and new-source lead record, not a completed systematic
+review of every A0-A27 claim. No RQ has blanket novelty clearance; potential
+extensions, replication aims and missing specifications remain distinct. No
+canonical hypothesis, claim grade, analysis result or scientific acceptance changed.
+
+Next: compare the complete primary figures/supplements and exact proposed endpoints,
+starting with the closer A25/A26 precedents, before revising scientific scope. The
+owner has not requested rejection, ranking, a new analysis or laboratory execution.
+The A0-A23 schematic companion remains pinned to PR #134; its local progress
+commit `681a029` is preserved on `codex/rq-schematic-v2`. This follow-up only records
+the wider-literature clarification; external settings and actual lab access remain
+unconfirmed. Repository validation passed 9,005 checks; the research gate passed
+against refreshed `origin/main`. No biological analysis was rerun.
+
+## Earlier Nb5 scientific review and proposed registration on 3 October 2026
 
 The owner authorized scientific review and potential registration, then clarified
 that distinct focus, target and cell/context heterogeneity warrant separate RQs.
