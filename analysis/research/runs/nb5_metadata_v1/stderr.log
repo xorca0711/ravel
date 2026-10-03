@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\Users\dream\.codex\worktrees\nb5-aging-atlas-plan\scRNA_seq\Research Article\gate2_N4_nabhan_aging_atlas_2020\scripts\01_qualify_metadata.py", line 79, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\dream\.codex\worktrees\nb5-aging-atlas-plan\scRNA_seq\Research Article\gate2_N4_nabhan_aging_atlas_2020\scripts\01_qualify_metadata.py", line 69, in main
+    check=animal.merge(source,on=join,how='left',validate='many_to_one',indicator=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\frame.py", line 10859, in merge
+    return merge(
+           ^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\reshape\merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\reshape\merge.py", line 813, in __init__
+    self._validate_validate_kwd(validate)
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\reshape\merge.py", line 1670, in _validate_validate_kwd
+    raise MergeError(
+pandas.errors.MergeError: Merge keys are not unique in right dataset; not a many-to-one merge
