@@ -2,11 +2,36 @@
 
 **Update this before stopping work, every session.**
 
-Current checkpoint: 3 October 2026. PRs #130–#133 are merged; fetched integrated
-main is `537eec83fe102a7eaa3e3f34a7f6b48cf852be15`. This explanatory follow-up
-uses `codex/rq-visual-explanation`. Scientific acceptance remains separate.
+Current checkpoint: 3 October 2026. PRs #130–#133 are merged; refreshed integrated
+main remains `537eec83fe102a7eaa3e3f34a7f6b48cf852be15`. The requested specificity
+review uses `codex/rq-specificity-review`. Scientific acceptance remains separate.
 
-## Visual explanation companion
+## Current review: one-line framing rejected as too broad
+
+The owner rejected the usefulness of the visual atlas's one-line questions and
+generic assay descriptions. The [specificity review](docs/research_dossiers/RQ_SPECIFICITY_REVIEW_2026-10-03.md)
+confirms that the summaries removed biological details present in several
+original cards and sometimes replaced the organizing hypothesis with a
+measurement or evidence-recovery task. Rendering and schema checks did not
+validate the scientific usefulness of those descriptions.
+
+The review proposes repairs for all 24 questions and works through A4, A19, A20,
+A14 and A23 in detail. Newly proposed narrowings are distinguished from restoring
+existing biology. Canonical questions, source packages, scientific evidence and
+claim grades remain unchanged. This is the requested review/proposal stage; the
+new candidates have not been adopted and no RQ has been selected. The earlier
+atlas remains a historical explanatory draft, not the current hypothesis
+specification. No further figure generation or biological analysis was run.
+
+Next implementation: revise each biological hypothesis and opposing prediction
+from its source evidence, align the dossier and local README, and only then
+redraw the actual contrast. Nominate missing biological features/endpoints rather
+than hiding them behind generic assay names. Preserve negative results and all
+existing evidence/access gates. Actual access remains unconfirmed; a full
+24-question novelty review was not performed in this framing audit.
+
+
+## Earlier visual explanation companion — framing rejected
 
 The owner requested biological schematics because the reframed decision tables
 remained difficult to translate into hypotheses and measurements. A private task
@@ -98,8 +123,10 @@ All ten required local checks passed, including 134 tests with one existing skip
 
 ## Exact next work
 
-1. Use the visual companion to clarify the existing drafts; PR #133 is already merged.
-2. Resume the deferred scientific and A17 technical review only when requested.
+1. Develop the proposed specificity repairs before regenerating the visual
+   companion; PR #133 remains merged and the canonical questions are unchanged.
+2. The owner requested the present framing review; full novelty/assay review
+   and A17 technical execution retain their separately documented scope.
 3. Reopen a mapping hold only for the specific new evidence in the
    [closeout](docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md).
 4. Confirm actual resources and qualify bench-specific designs in the placement
