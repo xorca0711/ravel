@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.biosample_qualification_metadata_v2",
+  "owner": "A5",
+  "contract": "analysis/research/contracts/A5.biosample_qualification_metadata_v2.json",
+  "contract_sha256": "b19ae684f0e5e0b79b40ec63575b8de89a1151010c1aac70f5243dd9bc5f591d",
+  "git_commit": "a2e6d7c9f5fc613ebea68a3b204cb8098d025de5",
+  "started_at": "2026-10-03T02:04:50.669551+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/qualify_biosample_metadata_v1.py",
+    "--soft",
+    "raw_data/source_qualification_20261003/GSE303646_family.soft",
+    "--biosample",
+    "raw_data/source_recovery_20261003/GSE303646_biosample_01.xml",
+    "--output",
+    "analysis/research/runs/a5_biosample_qualification_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/source_qualification_20261003/GSE303646_family.soft",
+      "sha256": "883c3ce7fd185109e3e6b4e42a9aa36f070b3a0ef930e0c4d633cd595dc99a0c",
+      "study_id": "GSE303646",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE303646_biosample_01.xml",
+      "sha256": "1ddabbc04f2a8e0144e6c88c11a59424c117da24995370ceb1b64413298fa1a5",
+      "study_id": "GSE303646",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_biosample_metadata_v1.py",
+      "sha256": "657c5499bf3bdf5b21aa2ed41da8c28889c314d720ef3d2c061258e622a1d909"
+    },
+    {
+      "path": "analysis/scripts/qualify_geo_metadata_v1.py",
+      "sha256": "cf8fb66e45192775e132390fd54bd44c38cca5f598f6bfee1fbdafc1bdcdc5e7"
+    },
+    {
+      "path": "analysis/tests/test_biosample_metadata_qualification.py",
+      "sha256": "809ca25b94ef9ac5b88fde94ec898230ee32bc71143a81a300f5fe1438b4062a"
+    }
+  ],
+  "status": "execution_failed",
+  "outputs": [],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 1,
+  "error": "Missing file: inventory.json",
+  "finished_at": "2026-10-03T02:04:51.028899+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A2.biosample_qualification_metadata_v2",
+  "owner": "A2",
+  "contract": "analysis/research/contracts/A2.biosample_qualification_metadata_v2.json",
+  "contract_sha256": "3f61127af5abba96cc71f6c63c99280cf22c05f6128f0f6a1566abaf884610aa",
+  "git_commit": "a2e6d7c9f5fc613ebea68a3b204cb8098d025de5",
+  "started_at": "2026-10-03T02:04:49.414417+00:00",
+  "argv": [
+    "python",
+    "analysis/scripts/qualify_biosample_metadata_v1.py",
+    "--soft",
+    "raw_data/source_qualification_20261003/GSE169125_family.soft",
+    "--biosample",
+    "raw_data/source_recovery_20261003/GSE169125_biosample_01.xml",
+    "--output",
+    "analysis/research/runs/a2_biosample_qualification_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/source_qualification_20261003/GSE169125_family.soft",
+      "sha256": "5da88907e2e503d6a00e5bdfb84991a8805b9d50439a608a062b560b78ad73c6",
+      "study_id": "GSE169125",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE169125_biosample_01.xml",
+      "sha256": "16690569339d3757209a2eed8b519cccead7b7bf9fe4d4445e2c6a5760d50d79",
+      "study_id": "GSE169125",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/scripts/qualify_biosample_metadata_v1.py",
+      "sha256": "657c5499bf3bdf5b21aa2ed41da8c28889c314d720ef3d2c061258e622a1d909"
+    },
+    {
+      "path": "analysis/scripts/qualify_geo_metadata_v1.py",
+      "sha256": "cf8fb66e45192775e132390fd54bd44c38cca5f598f6bfee1fbdafc1bdcdc5e7"
+    },
+    {
+      "path": "analysis/tests/test_biosample_metadata_qualification.py",
+      "sha256": "809ca25b94ef9ac5b88fde94ec898230ee32bc71143a81a300f5fe1438b4062a"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/a2_biosample_qualification_v2/inventory.json",
+      "sha256": "b80e50dd983b9daf64a54cd5373936ba1c1a9f3ede17be7f81868d0db9508931"
+    },
+    {
+      "path": "analysis/research/runs/a2_biosample_qualification_v2/sample_links.tsv",
+      "sha256": "a6a3bd913288480e83d7ec0d72bfaa418c1371041a8553e040a447a1fb460067"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T02:04:49.932303+00:00"
+}
