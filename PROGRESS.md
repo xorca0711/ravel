@@ -18,11 +18,32 @@ verify. No failed execution or relaxed eligibility occurred; unmatched identitie
 and unsupported strata are retained. The branch was reconciled with PR #133
 (`origin/main` `537eec8`) while preserving both progress histories. Final checks
 passed: all ten checks, including 137 tests, 8,463 repository validations and
-the research gate. Details are in the article execution ledger. Next: specify and execute the P02
-comparison using recovered inputs; other jobs have exact reopening requirements
-in the completion audit. No RQ/claim promotion, remote push or PR was created.
+the research gate. Details are in the article execution ledger. The recommended
+next stage is article-local candidate RQ derivation, alongside a bounded P02
+state/mixture pilot if it can change the question framing or feasibility. Other
+jobs retain the reopening requirements in the completion audit. No RQ/claim promotion, remote push or PR was created.
 Unrelated primary-checkout work, ignored sources and external settings remain
 unchanged; GitHub protection settings were not freshly audited.
+
+## RQ-readiness advisory on 3 October 2026
+
+The owner asked whether RQ derivation or further grounding should come next.
+Recommendation: begin candidate derivation from the current observations and
+rivals; retain P02's unrun model comparison as a focused grounding task. P01/P05
+and P06 can support provisional question cards now. Further computation should
+change a candidate's formulation or feasibility; missing biological evidence
+remains explicit. Review novelty, independent evidence access and biological
+endpoints before any global registration or scientific acceptance.
+
+A limited primary-source precedent check found
+[Mogilenko et al., Immunity 2021](https://pubmed.ncbi.nlm.nih.gov/33271118/)
+on clonal age-associated GZMK-positive CD8 T cells and
+[Hammond et al., Immunity 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6655561/)
+on microglial states across the lifespan and injury. These are starting points
+for a focused novelty review; no complete novelty assessment or source-cohort
+qualification was performed here. No numerical analysis, RQ selection or claim
+promotion occurred. Main was freshly verified unchanged at `537eec8`; this
+checkpoint changes only the handoff recommendation.
 
 <details>
 <summary>Earlier Nb5 descriptive, caption and focus-review checkpoints</summary>
