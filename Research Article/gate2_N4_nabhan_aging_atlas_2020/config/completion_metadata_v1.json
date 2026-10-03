@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P02.completion_metadata_v1",
+  "owner": "Nb5-P02",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can public official atlas inputs close the all-age microglial expression, T-cell annotation and renal annotation gaps left by the first intake?",
+  "decision": "Qualify recovered sources for a subsequent biological stage, or retain a specific evidenced hold; source qualification alone does not complete the proposed biological models.",
+  "strongest_rival": "The apparent missing ages or populations arise from release-specific objects and lost annotation fields; a convenient fuzzy join could falsely bridge unrelated cells.",
+  "discriminator": "Read all official brain expression layers and animal/processing coverage, and audit exact or documented one-assay-suffix joins with mandatory agreement on age, animal and tissue.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P02_microglial_intermediate_state.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/branches/P06_clonality_sampling.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_ASSESSMENT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original atlas outcomes, case-object occupancy, source labels, P01/P06 extension results and missing inputs were seen. Public S3 listing, processing code, file schemas and one FACS ID per age were inspected to define recovery. No recovered numerical biological effect has been fit. This is exposed metadata qualification.",
+  "biological_unit": "Deposited mouse within assay and tissue; cells are nested observations. This run describes source identity and coverage only.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells, plates, tissues and assays may share mouse IDs; original Tabula Muris contributes reused young data. No external replication is claimed.",
+  "population_and_selection": "All recovered official Brain_Myeloid observations; all case-object cells; all frozen v2 repertoire rows; all Kidney_droplet cells in frozen metadata v3. Retain unmatched rows.",
+  "contrast": "Source releases and original versus official annotation, stratified by deposited mouse and age; no population effect test.",
+  "endpoint": "Expression-layer scale and finite/integer support; per-age mouse counts; exact identity joins; annotation and processing coverage.",
+  "methods": "HDF5 layer inspection; sparse row-total audit; unique source-index checks. Candidate identity transforms are exact ID, adding one assay suffix (-1 for FACS, -0 for droplet), or removing that same terminal suffix; author bbknn notebook concatenates droplet then FACS. More than one candidate match stops. All matched age/mouse/tissue fields must agree. No fuzzy or barcode-prefix join, cluster relabeling, effect fitting or imputation.",
+  "missingness_and_exclusions": "Preserve source missing labels and unmatched rows; no unmatched annotation is treated as absent cells. Output all age/animal/annotation strata.",
+  "multiplicity": "No hypothesis tests; counts and file-schema checks only.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Source qualification supplies unit counts but no effect-size margin, variance or confirmatory sample-size justification.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "These are overlapping atlas releases, not replication. A normalized raw.X is not integer counts; an official annotation is not functional validation. Recovering all-age values cannot separate age from cohort, prove a distinct state, or establish subtype-equivalent receptor recovery.",
+  "stop_rule": "Stop on duplicate source identities, multiple candidate matches, or any matched age/mouse/tissue conflict. Missing layer, subtype or processing metadata is reported as a qualification limit; no model is run to bypass it.",
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/official_brain.h5ad",
+      "sha256": "73c1b7c4c4045db26df384fd226c6bd248cfbb822d540d9c968bd8ce6f051f66",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/full_metadata.csv",
+      "sha256": "aa7e2d1b98462e43dec23970cf97dcdbe2b377ef6a8e9c155cf20e1f16ffaed3",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/facs_raw_metadata.csv",
+      "sha256": "d7d5dd1aad2deae320b31686e5cadb4ce539e8d5908c7beeaac87106b36c5c51",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/facs_processing.ipynb",
+      "sha256": "b51c584fe8332daad00ae6bd563e13266a1bcae58a7da3878e055cd19588b099",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/bbknn_processing.ipynb",
+      "sha256": "2990a55a5134fd13faf694b9c1df19480b521322679e26ed07492e62ef9567cc",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/data_objects_listing.xml",
+      "sha256": "5529fa797117e40242b13f797c2ed61ff0620b884a2b7971944399a8d164db80",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/metadata_listing.xml",
+      "sha256": "744571a4947f07bb5d1f90e55d9b28a8afe604cc06ec8299d217ade60c8a2d33",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/acquisition_manifest.json",
+      "sha256": "e7e3f4e4ed70cb1a2409c441433e04e5197c7775834d0f489a3c4b649c574a80",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/facs.Brain_Myeloid.clustered_diversity.h5ad",
+      "sha256": "c157f0865bf39ce43504c674fd4d8f8dfe62644fe6b795b2e901d38c64dc48e3",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_cells.tsv",
+      "sha256": "abeadb6d45f37077f52158cd7c194af35dae7db97d19af83fa9146bdc9feb5a1",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v3/cell_metadata.tsv",
+      "sha256": "78c04b72dfb2b3cbe5ea634a2a4fac7cd21c0bf8686a7f6e74024cbd5a55c01c",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/nb5_io.py",
+      "sha256": "aa9389af487590dac33b302f362a7add6ef2e59d871b5f8a1e2f1a0265ec081a"
+    },
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/12_completion_metadata_v1.py",
+      "sha256": "391a51953b996612a23790d8c69298b9f43b3d4172ff6933b35eb7dfe2ad7231"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/12_completion_metadata_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "brain_cells.tsv",
+    "brain_layers.tsv",
+    "case_brain_join.tsv",
+    "brain_design.tsv",
+    "brain_covariates.tsv",
+    "repertoire_annotation_join.tsv",
+    "repertoire_subtype_support.tsv",
+    "kidney_annotation_join.tsv",
+    "kidney_annotation_support.tsv",
+    "qualification.json"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json",
+  "amendment_reason": "The initial intake missed official S3 tissue objects and full atlas metadata. Reopen the named source holds prospectively using new immutable inputs and exact joins; preserve all prior releases and results."
+}
