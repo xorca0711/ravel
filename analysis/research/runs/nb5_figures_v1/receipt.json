@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.figures_v1",
+  "owner": "Nb5-P01",
+  "contract": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+  "contract_sha256": "110c4399ad70b7a032b4ae026738da4b02c771cebb079006b2936949dba25df7",
+  "git_commit": "b0a943fa9f4545ae10ce06b924ec9bfb94e85387",
+  "started_at": "2026-10-03T07:02:42.588227+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/05_figures_v1.py",
+    "--input",
+    "analysis/research/runs/nb5_descriptive_v1",
+    "--repertoire",
+    "analysis/research/runs/nb5_repertoire_v2",
+    "--output",
+    "analysis/research/runs/nb5_figures_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/design_units.tsv",
+      "sha256": "6a8debb277103a8ab1b149449215634238f052cc0d9a315ff5268f7b4bb37be1",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/release_concordance.tsv",
+      "sha256": "387c67022bc0c3a1a856ab187384dc218a51257d60687d4fd3d3410a0ec1be71",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/composition_mouse.tsv",
+      "sha256": "88e191ef1e6ff69811884fd8e9990a8fc041ed1db14bacb51300ad33d88aa807",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/expression_mouse.tsv",
+      "sha256": "5dafd7b67a17dda8f4bb257580014364d0a8e6efd985995577d33624eab81700",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_state_mouse.tsv",
+      "sha256": "52a87413cecabbc082c34a7d4b88c1c89660fd122236fefecc292a677e5acfdb",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_umap.tsv",
+      "sha256": "fa3688dbccf797ba2f68880f0166a8b52b966f9fb6e9bd98152edccdeebe6a65",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_source_expression.tsv",
+      "sha256": "564a440c1e9c84a496a98f606b124588588c983ebf84cc3d70a60e399e0d002d",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/lung_accounting.tsv",
+      "sha256": "47ccae461388d3f359a42454c3289bcf1e2c6cfbdae6118096e9efcc08f8c135",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/expression_contrasts.tsv",
+      "sha256": "009757d06079a1e39fec0beb8eb0ec3de7b4825f0734c7027336ab6378988219",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_mouse.tsv",
+      "sha256": "58f11d6d4d0d790795d94ae1cb257316a201ea9ce0668480072b606528ac7354",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_source.tsv",
+      "sha256": "3b775b1624fc3a9dac633fda985420ea202fc93e653925597b89462072e864ec",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/05_figures_v1.py",
+      "sha256": "f890adc248a841d2ab9ad80955e21b13eb2e5c4c171462061ed4f4b8ad9b95d4"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/01_design_and_release.png",
+      "sha256": "b3b5ef07804e109cba465d4d606f859165bd7a92a31f0fc606f5680a6b87ed75"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/01_design_and_release.svg",
+      "sha256": "19b46804f53631a0afd8ef718b19cfeeacb34fc418b8ea36f0b31afcd7ef152e"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/01_design_and_release.pdf",
+      "sha256": "f166a6422450786774d7ec2c4e11e62a9c0d3ef5ab29cbd1c9ee0f24b0a3699a"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/02_captured_composition.png",
+      "sha256": "90b67569d82599f7bb1007edc59e56fe88f027214674dfd855afe68d07900d5b"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/02_captured_composition.svg",
+      "sha256": "8456fc24290efecd55dfe6fe43f39e0a289048aa9422f45614b81431353bcfb9"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/02_captured_composition.pdf",
+      "sha256": "30d3d0c37e53d804276f051cd3ef949510f5a140cb182dafec5357d7e61e3baf"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/03_microglial_source_states.png",
+      "sha256": "e3ea1e341ad06453b0460de954a0a231f0ad82509a6c859cb182cbc284e2b10e"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/03_microglial_source_states.svg",
+      "sha256": "df9e4d064e92a3b2738119f26af2d877238b07ced501132d8d08c5e637537db1"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/03_microglial_source_states.pdf",
+      "sha256": "12a58759b3257e7012640dbdb13ec25a78e4f403c961e5ed90b4fc980821024e"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/04_marker_endpoints.png",
+      "sha256": "41feea574cccdb21983721a5243467a856913318a5674496e3b80cf5c8dcd98a"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/04_marker_endpoints.svg",
+      "sha256": "b54def6148c5066068d56dff2de540cdb1d07bf01851fe45459f2327d85af2f6"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/04_marker_endpoints.pdf",
+      "sha256": "df351cff9d5a772e2a5eff77714d18eadc1197596c8d84bead0331c261ea1ac3"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/05_repertoire_sampling.png",
+      "sha256": "2202704504f328bce174aefb9d83b726a7ff0a56eb749d6d2242d7a616e7026c"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/05_repertoire_sampling.svg",
+      "sha256": "d7c29a0038eb210d020b58a7656f1b4510a49eed734b0aec80a7f4b49df87598"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/05_repertoire_sampling.pdf",
+      "sha256": "ebacb378aaf430c6f34b0351d0bffbc5dc8ff7d81787c33410ae3003dfed64fe"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/06_fixed_marker_context.png",
+      "sha256": "5aa81e3edc904b0dace76a38170f218c5f44dc168d78e677a968ea9de35bebe6"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/06_fixed_marker_context.svg",
+      "sha256": "0f3634bc3f3fb03c2c6c4ff4d964c7ca6a22b2aa5ce741563b127ee1af56577c"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/06_fixed_marker_context.pdf",
+      "sha256": "ddea3cd739ac68180cbac61a1c061ccbd2386ec7a5c36510701d587544cc578e"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/nb5_figure_set.pdf",
+      "sha256": "2bbc375a2c8400c0c9a24edceeb4dccd88efa64956da38bfeeb6a5bbd48921de"
+    },
+    {
+      "path": "analysis/research/runs/nb5_figures_v1/figure_manifest.json",
+      "sha256": "876ac5acb8047c6ac9565a12f0ba92760accaf67217e4f7402e0b064e26b2fb0"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T07:03:12.065235+00:00"
+}
