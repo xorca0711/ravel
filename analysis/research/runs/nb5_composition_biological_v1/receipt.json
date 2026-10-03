@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.biological_v1",
+  "owner": "Nb5-P01",
+  "contract": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/composition_biological_v1.json",
+  "contract_sha256": "abd2ab1c72c7f6151a7c3cc8dd6e62998b4838a63aeaf2eba076a401df2bd10d",
+  "git_commit": "a44dc2410d7b91ab1f417ff2ff8e44a3f7a9ab5c",
+  "started_at": "2026-10-03T07:59:54.079484+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/09_biological_extensions_v1.py",
+    "--branch",
+    "composition",
+    "--output",
+    "analysis/research/runs/nb5_composition_biological_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/composition_mouse.tsv",
+      "sha256": "88e191ef1e6ff69811884fd8e9990a8fc041ed1db14bacb51300ad33d88aa807",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/expression_mouse.tsv",
+      "sha256": "5dafd7b67a17dda8f4bb257580014364d0a8e6efd985995577d33624eab81700",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/09_biological_extensions_v1.py",
+      "sha256": "81f5a215ff86c523be8ca5628babfbc8a8ea378e4350d4888e766dde79f18ecc"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/common_type_support.tsv",
+      "sha256": "7f62fe86610530b686eaf75b90683875895e53218b6bf5a47e9004af035703b2"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/coverage.tsv",
+      "sha256": "5f15b08569e6fbdd25879a6729532742cb9e0053cbf4ab713435f1973c3d295d"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/composition_mouse.tsv",
+      "sha256": "e07af82d2c867c738adc2609838091408dee867c6f564892faf62d9fdd0ff017"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/decomposition.tsv",
+      "sha256": "455d6bbacb80515b1b2c22002b1745097033f07ea1481bf9dd812412864f1e2b"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/decomposition_by_type.tsv",
+      "sha256": "9b46f56b0e1f0960429385d12fcfa52760f93ba62244b9643c54500df12e5a23"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/within_type.tsv",
+      "sha256": "553333941685c66976723eab496bfc8c33c6e21c6a8b3c2c52ad7d0c5c3b86e0"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/leave_one_mouse_out.tsv",
+      "sha256": "3673d003508346f2ba4fcbb11f4badc58106870f3f691999e73662aecd8bd6bf"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/verification.json",
+      "sha256": "54398aacb089927d3746cabff8cbd1e891ae8c74be00646944a1db12db319989"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-03T08:00:00.355267+00:00"
+}

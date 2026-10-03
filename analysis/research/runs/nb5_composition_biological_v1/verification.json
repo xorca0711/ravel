@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    "Two hand-calculated decomposition cases, including nonzero interaction and animal covariance",
+    "Exact four-term reconstruction for every full and leave-one-mouse-out contrast",
+    "Independent count-weighted mean reconstruction for every animal and endpoint",
+    "Detection proportion independently reconstructed from positive-cell counts"
+  ],
+  "primary_datasets": [
+    "Lung_facs",
+    "Bladder_droplet"
+  ],
+  "display_genes": [
+    "Cdkn2a",
+    "Cdkn1a",
+    "Lmnb1",
+    "Il1b"
+  ],
+  "contrasts": 232,
+  "biological_limit": "Within annotation is not necessarily cell intrinsic; no absolute abundance, senescence or secretion inference. Kidney held for whole-organ interpretation; its common universe is immune only."
+}

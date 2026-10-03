@@ -1,0 +1,35 @@
+dataset	cell_type	in_common	minimum_cells	stage
+Lung_facs		False	0	executed
+Lung_facs	B cell	True	2	executed
+Lung_facs	T cell	False	0	executed
+Lung_facs	endothelial cell	True	27	executed
+Lung_facs	epithelial cell	True	2	executed
+Lung_facs	glial cell	False	0	executed
+Lung_facs	granulocyte	True	1	executed
+Lung_facs	lymphocyte	True	5	executed
+Lung_facs	macrophage	False	0	executed
+Lung_facs	monocyte	True	5	executed
+Lung_facs	myeloid cell	True	13	executed
+Lung_facs	stromal cell	True	22	executed
+Bladder_droplet	bladder cell	True	81	executed
+Bladder_droplet	bladder urothelial cell	True	55	executed
+Bladder_droplet	endothelial cell	True	3	executed
+Bladder_droplet	leukocyte	True	4	executed
+Kidney_droplet	B cell	True	1	held_whole_kidney_not_supported
+Kidney_droplet	NK cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	T cell	True	3	held_whole_kidney_not_supported
+Kidney_droplet	brush cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	epithelial cell of proximal tubule	False	0	held_whole_kidney_not_supported
+Kidney_droplet	fenestrated cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	fibroblast	False	0	held_whole_kidney_not_supported
+Kidney_droplet	kidney capillary endothelial cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	kidney collecting duct principal cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	kidney cortex artery cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	kidney distal convoluted tubule epithelial cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	kidney loop of Henle thick ascending limb epithelial cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	kidney mesangial cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	kidney proximal convoluted tubule epithelial cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	lymphocyte	True	7	held_whole_kidney_not_supported
+Kidney_droplet	macrophage	True	28	held_whole_kidney_not_supported
+Kidney_droplet	plasma cell	False	0	held_whole_kidney_not_supported
+Kidney_droplet	podocyte	False	0	held_whole_kidney_not_supported

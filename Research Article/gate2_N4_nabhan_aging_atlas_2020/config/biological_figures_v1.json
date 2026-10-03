@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb5-P01.biological_figures_v1",
+  "owner": "Nb5-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do the new tissue RNA and tissue-local clone results distinguish biological alternatives while retaining animal variation and limits?",
+  "decision": "Present four biological extension plates with brief in-image rationale/result captions; preserve original figure editions.",
+  "strongest_rival": "Pooled cells, missing design strata, changing denominators or unverified source labels can look convincing when rendered without unit and selection context.",
+  "discriminator": "Display individual mice, source versus released counts, cell-weighted and mouse-weighted summaries, distinct RNA endpoints, fixed markers and documented repertoire denominators.",
+  "evidence_refs": [
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/NOTE_RECONCILIATION.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/REPRODUCTION_SCOPE.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/RESULTS.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/FIGURES.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_STAGE1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Both biological extension runs and their full displayed-gene and focal-tissue outcomes have been inspected. Rendering is exposed documentation, not validation or a new biological model.",
+  "biological_unit": "Deposited mouse within each assay and tissue; slash-containing lung IDs are explicitly pooled libraries, excluded from mouse-weighted expression contrasts and composition accounting.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated tissue and assay samples and the general versus Figure 4 brain objects reuse mice/cells. IDs use different source formats. No cross-organ independence, canonical cross-assay identity resolution or external replication is asserted.",
+  "population_and_selection": "Frozen composition and repertoire biological_v1 outputs. Display genes Cdkn2a, Cdkn1a, Lmnb1 and Il1b; focal thymus/spleen/marrow fixed before those runs. All marker and tissue outputs remain available.",
+  "contrast": "Original frozen contrasts and endpoints, with percentage-point conversion for detection and clone fractions.",
+  "endpoint": "Four PNG/SVG/PDF plates, combined four-page PDF and figure manifest with compact captions and layout checks.",
+  "methods": "White background, 300-dpi PNG, vector text/axes in SVG/PDF. Four-term RNA accounting; within-type detection; connected per-mouse observed/fixed-reference values; local clone fractions and exact common-depth expectations; tissue composition and shared clones. All values come from frozen outputs, with arithmetic group means only. Show all mice in displayed panels; figure 10 A\u2013C uses balanced mice and D uses all supported tissue mice. Captions in 9-point short footnotes with renderer-wrapped text and bounds checks.",
+  "missingness_and_exclusions": "Inherited fixed common-type universe and balanced tissue selection. No missing value is replaced by a zero; no new cell/model fit.",
+  "multiplicity": "No p-values, significance stars, rankings by effect or confirmatory claims. The fixed descriptive marker family and all contrasts are retained, including null/unfavorable values.",
+  "precision_status": "unknown",
+  "precision_basis": "Show every observed mouse and descriptive means; no biological-effect margin, independent unit variance justification or confirmatory power is available.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No significance, causal component, senescence, secretion, migration, immune function, within-subtype matching or global RQ promotion is inferred from figures.",
+  "stop_rule": "Stop if frozen input hashes fail or plotting/layout assertions fail. Inspect all PNGs; future corrections use a new version.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/decomposition.tsv",
+      "sha256": "455d6bbacb80515b1b2c22002b1745097033f07ea1481bf9dd812412864f1e2b",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/within_type.tsv",
+      "sha256": "553333941685c66976723eab496bfc8c33c6e21c6a8b3c2c52ad7d0c5c3b86e0",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/composition_mouse.tsv",
+      "sha256": "e07af82d2c867c738adc2609838091408dee867c6f564892faf62d9fdd0ff017",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/tissue_mouse.tsv",
+      "sha256": "e7f0fda2c8b79faf76f223c31fd96d9e47522f6c839f24ad35e0ff9cf1acb1b7",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_mouse.tsv",
+      "sha256": "3ce2df1bdffd59b7f2abe72f7a92a1b103bbfd2748e4ee29dbba549cfb02497a",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_tissue.tsv",
+      "sha256": "468240524ee6daf3893e05960b63abe65a1f9da8717e3154a2c8e2b021527737",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_decomposition.tsv",
+      "sha256": "b3b7370b83e8f3eb861139aecd2d18161ad98048f97fb4186578ddd552677053",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/tissue_summary.tsv",
+      "sha256": "90b4adf11142687efbb9d3816ea77a70eb1787adc49a3147f7d2451ac0046f47",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/10_extension_figures_v1.py",
+      "sha256": "53e01ad3c647cbbaee3f5bc545b45332de5fd0ad52b436b97d2c0285c47122d5"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_N4_nabhan_aging_atlas_2020/scripts/10_extension_figures_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "07_tissue_rna_accounting.png",
+    "07_tissue_rna_accounting.svg",
+    "07_tissue_rna_accounting.pdf",
+    "08_within_type_and_mouse_profiles.png",
+    "08_within_type_and_mouse_profiles.svg",
+    "08_within_type_and_mouse_profiles.pdf",
+    "09_compartment_local_clonality.png",
+    "09_compartment_local_clonality.svg",
+    "09_compartment_local_clonality.pdf",
+    "10_repertoire_compartment_accounting.png",
+    "10_repertoire_compartment_accounting.svg",
+    "10_repertoire_compartment_accounting.pdf",
+    "nb5_biological_extensions.pdf",
+    "figure_manifest.json"
+  ],
+  "amendment_of": "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json",
+  "amendment_reason": "New biological extension outputs require additional figures; original figure plates remain archived unchanged."
+}

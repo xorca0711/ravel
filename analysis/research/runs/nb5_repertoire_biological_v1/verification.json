@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "matched_rows": 6000,
+  "unmatched_rows": 11,
+  "focal_tissues": [
+    "Thymus",
+    "Spleen",
+    "Marrow"
+  ],
+  "balanced_mice_by_age": {
+    "3": 2,
+    "18": 3,
+    "24": 4
+  },
+  "checks": [
+    "Independent clone-size partition reproduces frozen within-mouse sizes",
+    "Four cell categories partition every tissue-mouse sample",
+    "Common-depth expectation agrees with exhaustive toy enumeration and never exceeds observed local fraction",
+    "Balanced tissue-weighted fraction equals direct numerator/denominator",
+    "Exact four-term decomposition including animal covariance for both contrasts and all deletions"
+  ],
+  "limits": "T-cell subtype and receptor-assembly selection remain unresolved. Within-tissue restriction is not subset matching. Shared clones do not prove migration; clone size does not measure proliferation, antigen specificity or immune competence."
+}
