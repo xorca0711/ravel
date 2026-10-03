@@ -58,3 +58,12 @@ output hashes in the normal checkout and preserves any unrelated local files.
 
 Final GitHub checks must be read at the PR's actual head. The owner merges the PR;
 passing tests and agent review do not record human scientific acceptance.
+
+The consolidated Windows checkout passed the research gate. All 18 copied
+metadata inputs, six bound code files and eight successful receipt outputs
+matched their recorded hashes; all 62,350 original ignored files and private
+settings remained unchanged. Both push and PR CI checks passed at `b2fd4ca`.
+A final exact-byte check then found Git newline normalization in the separately
+archived failed receipt. Its own exact-byte attribute restores the original
+receipt bytes and SHA-256; this does not change its failed status or any result.
+The final PR checks cover that archival correction as well.

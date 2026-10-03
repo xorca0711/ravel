@@ -2406,3 +2406,5 @@ The owner explicitly authorized remaining jobs 2, 3, 4 and 6, reserved article/c
 | 2026-10-03 | General AT2 flexibility or cancer developmental-program overlap could appear novel | Frank 2016 and direct HPCS/developmental-program precedents already support those broad claims; precise residual comparisons remain open | Codex source-grounded clarification; no question rejected or result promoted |
 
 The old worktrees and their ignored inputs remain retained. No external outreach, expression fit, laboratory work, RQ selection or PR merge occurred.
+
+Final preservation verification also caught newline normalization of the separately archived failed A5 receipt. Codex added an exact-byte attribute for that archive and restored the original receipt bytes/hash from the retained runner output. Its failed status, the successful amendment and all scientific results remain unchanged.
