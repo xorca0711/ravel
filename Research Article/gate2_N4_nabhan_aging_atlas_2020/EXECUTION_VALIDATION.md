@@ -127,3 +127,14 @@ analyses. Final checks for the new renderer, registered receipt and gallery
 links are recorded below. Generated SVG path serialization contains trailing
 spaces; immutable SVG output bytes are retained. Whitespace checking is scoped
 to authored Markdown, Python and JSON.
+
+
+Final integration check: `origin/main` advanced to
+`bf7d7166887fb4207eb4582f41925a565a327dbf` (PR #132). Merge `6c247c0`
+retains both branches' exact-byte rules, registry entries and progress records;
+all incoming registry entries were mechanically checked for preservation.
+All ten required checks then passed: compilation, 134 tests (one existing
+skip), 18 numeric claim bindings, Nb1/Nb4/A16/A23/A22–A23 archive verification,
+8,050 repository checks and the research gate against the updated base.
+Authored-file whitespace checks passed. No scientific acceptance, new extension
+execution, push or PR is implied by this presentation update.

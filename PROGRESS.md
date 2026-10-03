@@ -47,7 +47,10 @@ uses 2–3-line, 39–51-word captions at 9 points; detailed explanations remain
 the gallery. All six PNG/SVG/PDF plates are updated, with numerical panel logic
 unchanged and v1/v2 preserved. The receipt, layout checks, visual inspection of
 every PNG and six-page PDF caption checks passed. No biological analysis was
-rerun; the execution ledger records final verification.
+rerun. After preserving newly merged PR #132 updates from `origin/main`
+`bf7d716`, all ten required checks passed: 134 tests (one existing skip),
+8,050 repository validations and the research gate. The execution ledger
+records the current integration check; no push or PR was created.
 
 The article's extension assessment concludes that targeted work is plausible
 before formal RQ derivation: mouse influence, common-denominator composition
