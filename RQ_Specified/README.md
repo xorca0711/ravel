@@ -1,6 +1,6 @@
 # Research question analyses
 
-**Research development, 3 October 2026:** [all 24 evidence dossiers](../docs/research_dossiers/README.md) and [execution governance](../docs/RESEARCH_GOVERNANCE.md) now define the missing biological discriminator and required analysis contract. All questions remain open for development; a completed analysis is not experimental readiness.
+**Research development, 3 October 2026:** PR #130 is merged. [All 24 conditional packages](../docs/research_dossiers/packages_2026-10-03/README.md) are drafted alongside the [evidence dossiers](../docs/research_dossiers/README.md). Use the [remaining-work ledger](../docs/research_dossiers/REMAINING_WORK.md) for review and qualification, and [execution governance](../docs/RESEARCH_GOVERNANCE.md) for eligible analyses. All questions remain open for development; drafting is not experimental readiness.
 
 **Cross-article integration, 1 October 2026:** [review of all article histories](../docs/audits/2026-10-01-cross-article-rq-review/README.md)
 adds dated conditional candidates under their existing [RQ cards](../RESEARCH_QUESTIONS.md),
@@ -138,7 +138,7 @@ A15–A18 remain proposed pending the owner's retain/reject decision.
 Use the [figure index](FIGURES.md) for tracked figures and their captions,
 [dataset inventory](../docs/DATASETS.md) for input roles and biological units,
 [research architecture](../docs/RESEARCH_ARCHITECTURE.md) for interpretation rules,
-and [execution roadmap](../docs/RESEARCH_ROADMAP.md) for planned work.
+and [remaining-work ledger](../docs/research_dossiers/REMAINING_WORK.md) for planned work.
 The [England candidate extensions](../Research%20Article/gate2_C2_england_2025/CANDIDATE_HYPOTHESES.md)
 are paper-local proposals connected to the relevant A questions; they introduce
 no additional A-numbered workspaces.

@@ -2453,3 +2453,24 @@ No governance, validator, frozen code/output, contract, receipt or claim grade
 was changed. Packages await explicit owner scientific review; no outreach,
 experimental procedure, scientific acceptance or merge occurred.
 See the [stage ledger](docs/research_dossiers/packages_2026-10-03/LEDGER.md).
+
+## 3 October 2026: post-merge documentation reconciliation
+
+GitHub records [PR #130](https://github.com/xorca0711/scRNA_seq/pull/130) merged
+by `xorca0711` (Xorca) at 05:37:38 UTC into `b52ad6b`. This records repository
+integration only; the merge does not supply a separate scientific-acceptance
+decision. Earlier rows retain the status that applied when they were written.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-03 | Integrate research grounding and conditional packages, PR #130 | Codex under owner requests | `xorca0711`, verified GitHub merge actor | Integrated at `b52ad6b`; scientific review remains pending | Establish the repository baseline with unresolved requirements explicit |
+| 2026-10-03 | Reconcile current documentation and private handoff | Codex audit; owner requested fixes | Owner authorized documentation work; new PR review pending | Point entry pages to drafted packages and current remaining work; preserve historical checkpoints | Earlier instructions still requested package drafting and PR #130 integration |
+
+| Date | Proposal changed | Why | Who changed it |
+|---|---|---|---|
+| 2026-10-03 | Current-navigation wording still treated packages as unwritten and the September roadmap as current priorities | Packages were drafted in `4395ecf` and integrated in `b52ad6b`; next work is review and qualification | Codex under the owner's documentation-fix request; no new scientific decision inferred |
+
+The main README retains its general research overview and existing claim-register
+links. No claim table, scientific grading, governance or frozen evidence was
+changed. The normal checkout and all retained inputs remain untouched by this
+documentation revision. Private lab planning stays outside Git.

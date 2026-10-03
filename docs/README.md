@@ -4,9 +4,12 @@ Start current research development with the [dossier index](research_dossiers/RE
 
 Start with the [research questions](../RESEARCH_QUESTIONS.md),
 [paper roadmap](../Research%20Article/README.md) and [dataset inventory](DATASETS.md).
-The [current project state](../PROGRESS.md), [execution roadmap](RESEARCH_ROADMAP.md)
-and [latest gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md) distinguish
-completed work from remaining inputs and decisions.
+The [current project state](../PROGRESS.md), [conditional packages](research_dossiers/packages_2026-10-03/README.md)
+and [remaining-work ledger](research_dossiers/REMAINING_WORK.md) distinguish
+completed drafting from remaining inputs, scientific review and eligibility.
+The [September roadmap](RESEARCH_ROADMAP.md) and
+[28 September gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md) retain
+historical planning and execution context.
 
 The [combined RQ development proposal](audits/2026-09-28-rq-development-proposal/PROPOSAL.md)
 sets out proposed rationale, scope and next-evidence work for each question;

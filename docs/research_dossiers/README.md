@@ -1,5 +1,7 @@
 # Research development index
 
+**Current navigation, after PR #130:** all [24 conditional packages and nine Nb4 supplements](packages_2026-10-03/README.md) are drafted. Use [remaining work](REMAINING_WORK.md) for current status and the [package ledger](packages_2026-10-03/LEDGER.md) for individual eligibility conditions. The dated stage summaries below preserve their original scope; scientific review and actual access remain pending.
+
 All 24 current questions remain available. No RQ is selected by this repair.
 The canonical register owns question identity; these dossiers develop the missing
 scientific discriminator and experimental bridge. A completed computational
