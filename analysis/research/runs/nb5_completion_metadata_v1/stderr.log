@@ -1,0 +1,2 @@
+C:\Users\dream\.codex\worktrees\nb5-aging-atlas-plan\scRNA_seq\Research Article\gate2_N4_nabhan_aging_atlas_2020\scripts\12_completion_metadata_v1.py:88: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+  kidney = pd.read_csv(RUNS/'nb5_metadata_v3/cell_metadata.tsv',sep='\t',keep_default_na=False)
