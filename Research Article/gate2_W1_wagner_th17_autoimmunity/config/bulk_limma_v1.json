@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.bulk_limma_v1",
+  "owner": "Wg-R01",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Which bulk RNA treatment, baseline-lineage and direct genotype-by-treatment effects are supported by a declared source-aligned limma reconstruction?",
+  "decision": "Complete the model-based RNA evidence layer before any RQ derivation; distinguish source-aligned results from exact author reproduction and from cell conversion.",
+  "strongest_rival": "Bulk compositional, survival, proliferation or cell-mixture changes generate apparent lineage-marker shifts without tracked within-cell conversion; genotype baseline and sampling differences can alter apparent responses.",
+  "discriminator": "Estimate animal-blocked contrasts, direct KO-minus-WT treatment interactions, within-study baseline programs and their prespecified definition sensitivity.",
+  "evidence_refs": [
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/REPRODUCTION_SCOPE.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/branches/P03_state_shift_selection.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/branches/P04_jmjd3_endpoint_dependence.md",
+    "analysis/research/runs/wg_bulk_qualification_v1/qualification.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published results, all initial paired CPM outcomes and source matrix qualification are exposed. Supplementary S4-S6 numerical contents remain inaccessible. No limma outcomes or program counts from this new model were examined before freezing. Synthetic limma/edgeR smoke tests passed. No parameters are selected to approach published counts.",
+  "biological_unit": "Source animal label scoped to its GEO series; matched treatment cultures within animal.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "GSE162300: 36 sequencing columns collapse to 18 libraries in three animal labels; GSE162382: 28 libraries in four WT and three conditional-KO labels. Lineages and cultures within animal are repeated measurements. Cross-series identifiers are not paired.",
+  "population_and_selection": "All qualified libraries. Genes retained if raw deposited-gene CPM >=1 in at least three libraries within a series. Twelve display genes unchanged from the prior descriptive contract; a filtered display gene is explicitly labelled, never substituted.",
+  "contrast": "A: three lineage-specific DFMO-minus-control contrasts and four baseline lineage contrasts. B: four lineage/genotype DFMO contrasts, two direct KO-minus-WT DFMO interactions and WT, KO, equally genotype-weighted Th17n-minus-iTreg baseline contrasts. Animal fixed effects absorb genotype main effects.",
+  "endpoint": "TMM/voom-weighted log2 fold changes, conditional moderated model statistics and intervals; baseline-defined program membership, selected-gene PCA and descriptive animal-level program responses.",
+  "methods": "R 4.6.1, limma 3.68.5, edgeR 4.10.5. Sum same-library technical runs in A. Fixed CPM screen; DGEList recomputes totals after filtering, TMM normalization, voom default span/weights. Full-rank design: animal indicators, within-genotype iTreg/Th17p baseline indicators relative to Th17n, and lineage/genotype-specific treatment indicators (A rank 8, B rank 13). contrastAsCoef followed by lmFit and eBayes(trend=FALSE,robust=FALSE) for exact weighted contrasts. Source DEG threshold q<=.05 and abs(log2FC)>=log2(1.5). A program uses equally weighted Th17p/n minus iTreg; sensitivity uses only Th17n. B primary program uses equally genotype-weighted Th17n-minus-iTreg baseline; sensitivity uses WT only because source genotype pooling is not specified. A five-way heuristic follows paper order. A PCA uses union of the three vehicle pairwise lineage DE sets, centered voom logCPM without gene scaling. Program curves are gene distributions; paired program means are source-animal descriptors. Independent Python WLS verification covers 101 evenly spaced genes plus eligible prespecified genes in each series, all contrasts; all-gene p/BH/interval arithmetic is separately checked. Absolute tolerances WLS coefficients/SE 1e-8, p/q 1e-9, interval 1e-7. Preserve all contrasts and program sensitivities.",
+  "missingness_and_exclusions": "No sample removal. Fixed abundance filter is reported. Stop on invalid counts, unmatched libraries, rank failure or independent arithmetic disagreement. Missing display genes are labelled filtered; no substitution.",
+  "multiplicity": "BH separately across every retained gene in each of 16 declared contrasts; no family-wide FDR claim across contrasts. Source thresholds are reconstruction conventions, not biological importance thresholds. No gene-CDF p value treating genes as animals. 95% intervals are conditional moderated model intervals and are not simultaneous.",
+  "precision_status": "unknown",
+  "precision_basis": "Small source-labelled animal groups and model assumptions limit precision. Intervals describe the fitted conditional model, not independently verified biological population precision. No meaningful effect margin, power or equivalence claim.",
+  "validation_scope": "none",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Source-aligned exploratory reconstruction, not exact reproduction: original filtering, voom/trend selection, pairing design, genotype program pooling and author supplementary numerical sets unavailable. Source labels have not been physically audited; inference_scope remains descriptive. Shared vehicle selection induces dependence in subsequent program comparisons. Relative bulk RNA, lineage markers and program shifts do not establish fate, suppressive function, metabolic flux, mediation or independent replication.",
+  "stop_rule": "Stop on source/identity, rank, numeric or arithmetic failure. Keep all unfavorable results and each fixed program sensitivity. No source-count matching or post-result threshold tuning. Do not derive new RQs or promote claims.",
+  "inputs": [
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_est_counts.csv.gz",
+      "sha256": "a1ce2b41c817e7baaee9c159779edfaf5e12b953509d193481ab6caaf70f2548",
+      "study_id": "GSE162300",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_est_counts.csv.gz",
+      "sha256": "d44e8dc30356c682a8b7d8c7cd781c99337a7fe8cadeeee72bc4518c7c157e77",
+      "study_id": "GSE162382",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/source_sample_map.tsv",
+      "sha256": "7f07ac68a229a993ce6c3af91b55dd074fd84fdff0a3a5b567712bed3bfef714",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/library_design.tsv",
+      "sha256": "f6059fece28659d3787b8badf60498b7d2b7baa345ed10dcda68714abc1515a5",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/qualification.json",
+      "sha256": "9756a10c0d28a425da1674fe0cdaf991fc6ce36d50f0c44d3870435d74df88a6",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_package_qualification.csv",
+      "sha256": "6db51b3fa8293678281a1d70c3a9793b83186dde6386d73773f3bba6a5a5fadd",
+      "study_id": "runtime_qualification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_limma_smoke.json",
+      "sha256": "85ddcdf0bbfe929efcc362cd5cf2cbb26af426a9e92375c023cb7195469e1d8e",
+      "study_id": "runtime_qualification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R-4.6.1.md5.txt",
+      "sha256": "77acae7fe06e931749e520a02d49eee45c2503bfc32f60e5407bb86d56fe5835",
+      "study_id": "runtime_qualification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_limma_v1.py",
+      "sha256": "c172474e2defffa0449452db20abe966a657f2d16bf5f9f778fa0ed6ae6a20ef"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_limma_v1.R",
+      "sha256": "28e50ff742f8f3304c115d677c3b273a8affcfba2918aec21e676b14c5d8642c"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_limma_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "all_contrasts.tsv.gz",
+    "contrast_summary.tsv",
+    "gene_programs.tsv",
+    "selected_PCA.tsv",
+    "animal_program_changes.tsv",
+    "model_summary.json",
+    "R_session.txt",
+    "independent_WLS_checks.tsv",
+    "verification.json",
+    "prespecified_gene_models.tsv",
+    "Wagner_R3_limma_figures.pdf",
+    "GSE162300_design.tsv",
+    "GSE162300_contrasts.tsv",
+    "GSE162300_voom_E.tsv.gz",
+    "GSE162300_voom_weights.tsv.gz",
+    "GSE162300_libraries.tsv",
+    "GSE162382_design.tsv",
+    "GSE162382_contrasts.tsv",
+    "GSE162382_voom_E.tsv.gz",
+    "GSE162382_voom_weights.tsv.gz",
+    "GSE162382_libraries.tsv",
+    "figure_6_source_aligned_RNA.png",
+    "figure_6_source_aligned_RNA.pdf",
+    "figure_6_source_aligned_RNA.svg",
+    "figure_7_JMJD3_interactions.png",
+    "figure_7_JMJD3_interactions.pdf",
+    "figure_7_JMJD3_interactions.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New source-aligned model stage supplements rather than replaces the earlier CPM descriptive endpoint."
+}
