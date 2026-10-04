@@ -1,0 +1,66 @@
+{
+  "scope": "Exposed animal-paired descriptive bulk RNA analysis; no differential-expression significance or source-program reconstruction",
+  "series": {
+    "GSE162300": {
+      "genes": 20817,
+      "nonconstant_pca_genes": 18276,
+      "libraries": 18,
+      "explained": [
+        0.38571311049462936,
+        0.1899371128312251
+      ]
+    },
+    "GSE162382": {
+      "genes": 20891,
+      "nonconstant_pca_genes": 19191,
+      "libraries": 28,
+      "explained": [
+        0.3839704319497884,
+        0.20072865304989165
+      ]
+    }
+  },
+  "genes_prespecified": [
+    "ODC1",
+    "SRM",
+    "SMS",
+    "SAT1",
+    "SMOX",
+    "PGAM1",
+    "LDHA",
+    "TPI1",
+    "FOXP3",
+    "RORC",
+    "IL17A",
+    "KDM6B"
+  ],
+  "summary_rows": 166832,
+  "selected_animal_changes": 276,
+  "endpoint": "DFMO minus control in log2(deposited-gene CPM + 1); within-animal pairing, mean and observed spread. Additional untreated Th17p minus Th17n and KO minus WT average-response contrasts.",
+  "biological_unit_limit": "Source animal labels; preparation independence not physically audited. Technical runs never count as animals.",
+  "independent_verification": {
+    "GSE162300": {
+      "count_collapse_verified": true,
+      "maximum_logCPM_absolute_error": 7.105427357601002e-15,
+      "maximum_paired_delta_absolute_error": 5.773159728050814e-15,
+      "tolerance_absolute": 1e-10,
+      "physical_independence_verified": false,
+      "pca_svd_gram_agree": true
+    },
+    "GSE162382": {
+      "count_collapse_verified": true,
+      "maximum_logCPM_absolute_error": 1.2434497875801753e-14,
+      "maximum_paired_delta_absolute_error": 1.5987211554602254e-14,
+      "tolerance_absolute": 1e-10,
+      "physical_independence_verified": false,
+      "pca_svd_gram_agree": true
+    }
+  },
+  "source_limma_reproduction": "not performed; R/limma runtime and exact source analysis choices remain to qualify",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.1"
+  }
+}

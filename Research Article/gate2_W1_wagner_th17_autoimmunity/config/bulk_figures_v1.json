@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.bulk_figures_v1",
+  "owner": "Wg-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Can the verified R3 descriptive outputs be displayed as readable article figures with conditions, actual animal counts and direct paired endpoints?",
+  "decision": "Publish readable local scientific figures with explicit endpoint limits; repair the observed Figure 4 legend/x-label overlap without recalculating RNA results.",
+  "strongest_rival": "Layout collision or ambiguous condition labels prevents the reader from distinguishing samples, paired responses and descriptive means.",
+  "discriminator": "Render only frozen coordinates and individual-animal gene tables; inspect both final PNG plates for readable labels, units and sample counts.",
+  "evidence_refs": [
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/REPRODUCTION_SCOPE.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/branches/P03_state_shift_selection.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/branches/P04_jmjd3_endpoint_dependence.md",
+    "analysis/research/runs/wg_bulk_qualification_v1/qualification.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All R3 descriptive v2 outcomes and original rendered figures are exposed. Figure 4 has an observed x-label/legend collision. This is a layout-only correction.",
+  "biological_unit": "Source animal label scoped to its GEO series; matched treatment cultures within animal.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "GSE162300: 36 sequencing columns collapse to 18 libraries in three animal labels; GSE162382: 28 libraries in four WT and three conditional-KO labels. Lineages and cultures within animal are repeated measurements. Cross-series identifiers are not paired.",
+  "population_and_selection": "All deposited genes and all qualified libraries from both series. Twelve display genes fixed before execution: Odc1,Srm,Sms,Sat1,Smox,Pgam1,Ldha,Tpi1,Foxp3,Rorc,Il17a,Kdm6b. No expression-based sample exclusions or outcome-selected genes.",
+  "contrast": "No new numerical contrast; the same frozen paired response and PCA coordinates are displayed.",
+  "endpoint": "Two article-style plates in PDF, SVG and 300-dpi PNG with captions and combined PDF.",
+  "methods": "Load frozen PCA coordinates, selected individual-animal gene changes and summary variance fractions. Re-render using the original plot logic with only Figure 4 bottom margin increased from 0.21 to 0.29. Figure 5 design is unchanged. Validate input row counts. No raw RNA matrix read and no normalization, PCA or statistical analysis rerun.",
+  "missingness_and_exclusions": "No new sample/gene selections or substitutions; require the original 46 PCA rows and 276 gene-by-animal changes.",
+  "multiplicity": "No new statistical tests; inherited descriptive display limits apply.",
+  "precision_status": "not_applicable",
+  "precision_basis": "A graphical layout correction adds no biological precision or independent evidence.",
+  "validation_scope": "none",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Relative bulk abundance is not absolute RNA, enzymatic activity, metabolic flux, pathogenicity, fate or formal JMJD3 mediation. The +1 CPM offset affects low-abundance magnitudes. CPM is not TPM or TMM/voom; this initial view does not reproduce the paper limma DEG-selected PCA/programs. Kdm6b gene-level abundance does not verify deletion of the functional exon. No independent biological replication is created.",
+  "stop_rule": "Stop on input/hash/row-count failures. Visual collisions require another new render version rather than changing frozen figures.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/results.json",
+      "sha256": "623950531cfcd6c9c0ea212cd53f545f0fe963c23825535130814420dd0f3242",
+      "study_id": "Wagner2021_bulk_descriptive_v2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/prespecified_gene_animal_changes.tsv",
+      "sha256": "971de62b9df5d38d9cba7bbf997e7313461d23f054e024d23db61de3280eff7b",
+      "study_id": "Wagner2021_bulk_descriptive_v2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/pca_coordinates.tsv",
+      "sha256": "83f9447c96778e203059d836abbb741310f65aa014ad623ca6be92e8884c013f",
+      "study_id": "Wagner2021_bulk_descriptive_v2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/CAPTIONS.md",
+      "sha256": "33ea88131a461a624b020fa8d2be56839628094d5bbac5461e89cfcb5f97224a",
+      "study_id": "Wagner2021_bulk_descriptive_v2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/render_bulk_figures_v1.py",
+      "sha256": "ac6a68610cce1ae5ef04328abb5869f1c53b0233c6d3477787246d44c7355751"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_paired_descriptive_v2.py",
+      "sha256": "9d3ce10c53404eb3dcd02321eb5a9f14f14b784fc4e60f3ea43c2e010d02a0bb"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/render_bulk_figures_v1.py",
+  "arguments": [
+    "--source",
+    "analysis/research/runs/wg_bulk_paired_descriptive_v2",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "figure_manifest.json",
+    "CAPTIONS.md",
+    "Wagner_R3_initial_figures.pdf",
+    "figure_4_bulk_context.png",
+    "figure_4_bulk_context.pdf",
+    "figure_4_bulk_context.svg",
+    "figure_5_bulk_paired_genes.png",
+    "figure_5_bulk_paired_genes.pdf",
+    "figure_5_bulk_paired_genes.svg"
+  ],
+  "amendment_of": "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json",
+  "amendment_reason": "Layout-only successor for the figure outputs embedded in descriptive v2: separate Figure 4 legend and x-axis label. Numerical v2 remains current and immutable."
+}
