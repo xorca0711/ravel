@@ -1,0 +1,14 @@
+term	DFMO_JMJD3_KO_Th17n	DFMO_JMJD3_KO_iTreg	DFMO_WT_Th17n	DFMO_WT_iTreg	interaction_KO_minus_WT_Th17n	interaction_KO_minus_WT_iTreg	baseline_WT_Th17n_minus_iTreg	baseline_KO_Th17n_minus_iTreg	baseline_equalGenotype_Th17n_minus_iTreg
+animal_JMJD3CKO1	0	0	0	0	0	0	0	0	0
+animal_JMJD3CKO2	0	0	0	0	0	0	0	0	0
+animal_JMJD3CKO3	0	0	0	0	0	0	0	0	0
+animal_WT1	0	0	0	0	0	0	0	0	0
+animal_WT2	0	0	0	0	0	0	0	0	0
+animal_WT3	0	0	0	0	0	0	0	0	0
+animal_WT4	0	0	0	0	0	0	0	0	0
+baseline_JMJD3_KO_iTreg	0	0	0	0	0	0	0	-1	-0.5
+baseline_WT_iTreg	0	0	0	0	0	0	-1	0	-0.5
+DFMO_JMJD3_KO_Th17n	1	0	0	0	1	0	0	0	0
+DFMO_JMJD3_KO_iTreg	0	1	0	0	0	1	0	0	0
+DFMO_WT_Th17n	0	0	1	0	-1	0	0	0	0
+DFMO_WT_iTreg	0	0	0	1	0	-1	0	0	0
