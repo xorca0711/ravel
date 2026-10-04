@@ -2,7 +2,37 @@
 
 **Update this before stopping work, every session.**
 
-## Wagner pre-derivation review — 4 October 2026
+## Wagner provisional RQ derivation — 4 October 2026
+
+The owner-requested [first derivation pass](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md)
+is complete for Wg-P01–P06, from evidence/review at `1c099f0` on scoped branch
+`codex/wagner-continuation-20261004`. Fresh main remains `a5d4183`; no upstream
+is configured. Four biological cards and two measurement cards specify rivals,
+units, endpoints, informative outcomes, contribution and qualification limits.
+P03 concerns verified recovery and persistent function; P04 distinguishes
+endpoint dependence from timing; P05 nominates early epithelial glycolytic
+relaxation after IL-1β withdrawal; P06 tests the balance between myeloid arginine
+consumption and ornithine delivery to human lung fibroblasts.
+
+P05 is proposed within A1, with A8/A14 companions. Those dossiers and contexts
+link the proposal while retaining their canonical hypotheses and illustrations.
+No new global A ID, preferred question, human decision or claim grade was created.
+Targeted source checks added Carriche's suppression precedent and Lee's OAT/ROS
+alternative, and verified that Wagner already includes a 68–120 h resting interval.
+No biological rerun, measured figure, frozen output or governance change occurred.
+
+Next: review exact scope/contribution, qualify assay linkage, recovery/attribution,
+independent donors/animals and useful precision, then adopt/register as appropriate
+and freeze any new exposed analysis contract. P03/P04 may remain question plus
+companion. Source/runtime R2/R4/R5, PGAM orientation, relevant restricted full texts
+and external laboratory availability remain unresolved. This is a provisional
+derivation, not novelty or execution clearance. Validation passed 9,962 repository
+checks and the research gate against refreshed main with zero errors; unchanged
+scientific checks were reused. Details are recorded in the package validation file.
+No push, PR, merge or external message; unrelated work
+is preserved.
+
+## Historical Wagner pre-derivation review — 4 October 2026
 
 The [review](Research%20Article/gate2_W1_wagner_th17_autoimmunity/pre_rq_review/README.md)
 assesses the completed evidence at `aa99cd1`, on scoped branch

@@ -1,5 +1,27 @@
 # Pre-RQ checkpoint validation — 4 October 2026
 
+## Provisional RQ derivation validation
+
+The first derivation pass adds six article-local question cards, a source ledger,
+an authoring-agent consistency review and navigation. The registry adds evidence
+links only: removing the declared new links gives the exact parsed registry at
+`1c099f0`. Canonical A1/A8/A14 working hypotheses remain unchanged. No numerical
+output, biological script, source contract, claim grade, measured figure or
+governance/validator file changed; no new global question ID was allocated.
+
+- Fresh `origin/main`: `a5d41834395cac0b82b488d48759ceb6fab8f2d5`, unchanged.
+- Repository validator: **9,962 checks passed**, including derivation links.
+- Research gate with `--base origin/main`: **passed, zero errors**.
+- Staged whitespace, documentation-only scope and registry semantic checks: passed.
+- Earlier 143-test/one-skip, compilation, arithmetic, receipt-byte and six
+  claim/archive-verifier passes are reused because their implementations and
+  bound evidence are unchanged. No biological rerun was necessary.
+
+Private logs are `rq_derivation_repository_validation.log` and
+`rq_derivation_research_gate.log` in this session's scratch directory. This
+validation establishes repository integrity, not novelty, laboratory feasibility,
+independent scientific review or human acceptance. The cards remain provisional.
+
 ## Subsequent review-only validation
 
 The extension/overlap/literature review changes Markdown and adds one evidence

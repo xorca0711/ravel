@@ -27,7 +27,10 @@ This file is navigation, not another scientific status register.
   records all six evidence dispositions and explicit R2/R4/R5 source/runtime holds.
   The [pre-derivation review](Research%20Article/gate2_W1_wagner_th17_autoimmunity/pre_rq_review/README.md)
   maps feasible extensions, A0–A27 overlaps and additional primary precedents.
-  Eight formal plates are available. Wg is separate from Niethamer W1; no new RQ added.
+  [Provisional RQ derivation](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md)
+  develops all six branches, including a proposed A1 feature with A8/A14 companions.
+  Four biological cards and two measurement cards remain article-local; no new A ID.
+  Eight formal plates are available. Wg is separate from Niethamer W1.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
 - [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md)

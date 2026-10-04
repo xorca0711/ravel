@@ -1,5 +1,7 @@
 # Neighboring papers and existing questions
 
+**Derivation continuation:** the [six provisional question cards](rq_derivation/README.md) now specify the P05 biochemical feature and P06 source/recipient comparison. [Additional source grounding](rq_derivation/SOURCES_AND_GROUNDING.md) narrows the proposals. This updates development status, not the numerical evidence or scientific acceptance; earlier stage/status statements below are historical.
+
 **Current overlap assessment:** the [all-A0–A27 map](pre_rq_review/EXTENSIONS_AND_OVERLAPS.md) distinguishes direct P05 joins with A1/A8/A14/A19 from methodological analogies and unrelated contexts. No existing RQ is merged, removed or promoted.
 
 Reviewed against fetched main `a5d41834395cac0b82b488d48759ceb6fab8f2d5`,

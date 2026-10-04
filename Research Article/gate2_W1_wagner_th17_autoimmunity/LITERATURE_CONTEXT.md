@@ -1,5 +1,7 @@
 # Wg: literature context for reproduction and branches
 
+**Derivation continuation:** the [six provisional question cards](rq_derivation/README.md) now specify the P05 biochemical feature and P06 source/recipient comparison. [Additional source grounding](rq_derivation/SOURCES_AND_GROUNDING.md) narrows the proposals. This updates development status, not the numerical evidence or scientific acceptance; earlier stage/status statements below are historical.
+
 **Latest pre-derivation review, 4 October 2026:** start with the [review](pre_rq_review/README.md) and [source update](pre_rq_review/LITERATURE_UPDATE.md). They add recent leads, older close precedents and corrections after the model results. The source-specific full-text gaps are explicit; novelty and laboratory feasibility remain unestablished.
 
 **Current continuation, 4 October 2026:** read the

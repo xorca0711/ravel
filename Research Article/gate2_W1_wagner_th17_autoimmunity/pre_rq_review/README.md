@@ -1,5 +1,7 @@
 # Review before RQ derivation
 
+**Subsequent owner-requested stage:** [provisional RQ derivation](../rq_derivation/README.md) now develops all six candidates. This pre-derivation review is preserved as the evidence basis; its stopping boundary is historical.
+
 4 October 2026. Review of the evidence at `aa99cd1`, against fetched main
 `a5d41834395cac0b82b488d48759ceb6fab8f2d5`. This is an outcome-exposed review
 by the authoring agent, not an independent peer review or a human retain/reject

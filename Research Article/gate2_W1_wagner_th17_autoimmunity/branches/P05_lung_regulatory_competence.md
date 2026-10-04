@@ -1,7 +1,8 @@
 # Wg-P05: a conditional lung regulatory-competence bridge
 
-**Current evidence:** see the [pre-RQ disposition](../PRE_RQ_EVIDENCE.md).
-All existing branch questions below remain proposed; no new RQ is derived.
+**Current development:** read the [provisional derivation](../rq_derivation/P05.md) and [current evidence](../PRE_RQ_EVIDENCE.md). The earlier branch definition below is retained as planning history; its pending-run statements are superseded by the completed R1/R3 results. No human scientific acceptance is recorded.
+
+## Historical branch definition
 
 **Updated precedent boundary (4 October):** Choi already tests withdrawal and
 glycolysis, and the AHR organoid study adds stromal response with AT1 spheroid

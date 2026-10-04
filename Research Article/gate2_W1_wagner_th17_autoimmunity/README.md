@@ -1,10 +1,15 @@
 # Wagner 2021: Th17 metabolism and autoimmunity
 
-**4 October 2026: pre-RQ evidence checkpoint reached. R0/R1 and paired plus
-source-aligned model-based R3 analyses have executed; eight formal plates are
-saved. R2/R4/R5 carry explicit source/runtime holds. No new RQ was derived.**
+**4 October 2026: first provisional RQ derivation completed for all six branches.
+Four cards develop biological comparisons; two qualify measurements. P05 proposes
+an A1 extension with A8/A14 companions. No new canonical A ID or human acceptance
+is recorded. R0/R1/R3 and eight formal plates remain unchanged; R2/R4/R5 are held.**
 
-Start with the [pre-derivation review](pre_rq_review/README.md), its
+Start with the [derived questions](rq_derivation/README.md),
+[source grounding](rq_derivation/SOURCES_AND_GROUNDING.md) and
+[scientific review packet](rq_derivation/REVIEW.md).
+
+Earlier evidence: the [pre-derivation review](pre_rq_review/README.md), its
 [extension and RQ overlap map](pre_rq_review/EXTENSIONS_AND_OVERLAPS.md),
 then the [pre-RQ evidence report](PRE_RQ_EVIDENCE.md) and
 [source-aligned RNA results](MODEL_RESULTS.md).

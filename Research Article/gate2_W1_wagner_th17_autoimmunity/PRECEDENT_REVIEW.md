@@ -1,5 +1,7 @@
 # Six-branch precedent review — 4 October 2026
 
+**Derivation continuation:** the [six provisional question cards](rq_derivation/README.md) now specify the P05 biochemical feature and P06 source/recipient comparison. [Additional source grounding](rq_derivation/SOURCES_AND_GROUNDING.md) narrows the proposals. This updates development status, not the numerical evidence or scientific acceptance; earlier stage/status statements below are historical.
+
 **Subsequent source update:** see [the pre-derivation literature update](pre_rq_review/LITERATURE_UPDATE.md) for Hu/Wu, HIVEP1, ALDH5A1, lung JMJD3, a 2023 figure correction, possible SLE cohort overlap and exact access limits. The earlier full-paper work below remains valid within its stated scope.
 
 This continues the interrupted review after planning commit `1527bea`.

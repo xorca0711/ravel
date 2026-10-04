@@ -1,5 +1,7 @@
 # A8: does a maturation component add information about mature AT1 contribution?
 
+**Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a biochemical comparison against this question's unchanged fixed RNA component. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.
+
 <!-- current-rq-framing:start -->
 ## Current biological hypothesis and novelty boundary — 3 October 2026
 

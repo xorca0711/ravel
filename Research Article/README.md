@@ -8,6 +8,9 @@ Owner reading completed 4 October 2026; R0, descriptive R1 and initial paired R3
 include [Figure 3 reaction differences](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-3-which-reaction-scores-differ)
 and [Figure 5 exact axes and symbols](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-5-exact-axes-and-symbols).
 [Source-aligned RNA models](gate2_W1_wagner_th17_autoimmunity/MODEL_RESULTS.md) have executed.
+The [Wagner provisional RQ derivation](gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md)
+develops all six branches and proposes an A1 feature with A8/A14 companions;
+canonical questions and scientific acceptance are unchanged.
 The [pre-derivation review](gate2_W1_wagner_th17_autoimmunity/pre_rq_review/README.md)
 adds extension feasibility, existing-RQ overlaps and updated primary-source limits.
 The [pre-RQ checkpoint](gate2_W1_wagner_th17_autoimmunity/PRE_RQ_EVIDENCE.md)

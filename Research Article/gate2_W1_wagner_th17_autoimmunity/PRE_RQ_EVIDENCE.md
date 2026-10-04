@@ -1,5 +1,7 @@
 # Pre-RQ evidence checkpoint — 4 October 2026
 
+**Derivation continuation:** the [six provisional question cards](rq_derivation/README.md) now specify the P05 biochemical feature and P06 source/recipient comparison. [Additional source grounding](rq_derivation/SOURCES_AND_GROUNDING.md) narrows the proposals. This updates development status, not the numerical evidence or scientific acceptance; earlier stage/status statements below are historical.
+
 **Subsequent review:** the [extension/overlap review](pre_rq_review/README.md) checks these results against A0–A27 and additional primary precedents. It preserves this evidence checkpoint and stops before new RQ derivation.
 
 **The executable analysis and evidence-organization work is complete to this
