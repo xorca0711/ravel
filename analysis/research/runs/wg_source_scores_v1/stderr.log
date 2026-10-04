@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "X:\GitHub\scRNA_seq\.worktrees\wagner-continuation-20261004\Research Article\gate2_W1_wagner_th17_autoimmunity\scripts\source_scores_v1.py", line 196, in <module>
+    run(args.source, args.r0, args.runtime, args.output)
+  File "X:\GitHub\scRNA_seq\.worktrees\wagner-continuation-20261004\Research Article\gate2_W1_wagner_th17_autoimmunity\scripts\source_scores_v1.py", line 145, in run
+    expanded = member[member.tested].set_index('reaction_id').join(meta, on='metareaction_id', validate='many_to_one')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\frame.py", line 10784, in join
+    return merge(
+           ^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\reshape\merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\reshape\merge.py", line 886, in get_result
+    join_index, left_indexer, right_indexer = self._get_join_info()
+                                              ^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\reshape\merge.py", line 1143, in _get_join_info
+    join_index, left_indexer, right_indexer = _left_join_on_index(
+                                              ^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\reshape\merge.py", line 2385, in _left_join_on_index
+    left_key, right_key, count = _factorize_keys(lkey, rkey, sort=sort)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\scRNA_seq\.venv-x64\Lib\site-packages\pandas\core\reshape\merge.py", line 2561, in _factorize_keys
+    llab = rizer.factorize(lk)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/hashtable_class_helper.pxi", line 3045, in pandas._libs.hashtable.Int64Factorizer.factorize
+ValueError: Buffer dtype mismatch, expected 'const int64_t' but got 'int'
