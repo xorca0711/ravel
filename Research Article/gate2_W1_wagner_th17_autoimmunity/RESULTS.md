@@ -1,5 +1,30 @@
 # Current Wagner execution result
 
+**4 October 2026: R1 numerical source-score reconstruction and formal figures completed.**
+
+Read [current numerical findings](SOURCE_SCORE_RESULTS.md), the
+[verification amendment](NUMERICAL_AMENDMENT_v3.md) and [figures/captions](FIGURES.md)
+before the original plan. Wg-R01 owns the run; Wg-P02 gains a bounded descriptive
+pathway-heterogeneity result. R2–R5 and the other biological branches remain
+separately gated, with exact next steps in the [handoff](HANDOFF_2026-10-04.md).
+
+The run covers 290 qualified cells, 6,373 individual reactions and 1,722 tested
+metareactions. Twenty of 53 display pathways have both source-significant
+directions; glycolysis has 19 positive and zero negative groups at the source
+threshold. There are 784 core groups, but 1,912 formed groups versus the paper's
+1,911. Unknown biological nesting and numerical/source-version differences
+preclude an exact manuscript or population-inference claim.
+
+The bundled Python interpreter successfully uses the existing x64 scientific
+packages. No installation was needed. Two failed attempts are preserved and a
+third passed numerical verification. See [validation](VALIDATION.md) for the
+repository gate's handling of those failed records and integration status.
+
+The following section is the preserved earlier R0 checkpoint. Its statements
+about unrun stages and package availability describe that earlier checkpoint.
+
+# Historical R0 source-qualification result
+
 **4 October 2026 — R0 source qualification executed; biological analyses unrun.**
 Read this result and the [continued precedent review](PRECEDENT_REVIEW.md)
 before the initial plan. Owner: **Wg-R01**. The decision is whether exact source

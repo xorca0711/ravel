@@ -1,6 +1,6 @@
 # Wagner R1: source-score reconstruction and pathway heterogeneity
 
-4 October 2026. **Numerical estimates generated; independent verification in progress.**
+4 October 2026. **Numerical execution and independent verification complete; formal figures generated.**
 Owner **Wg-R01**, with supporting evidence for **Wg-P02**. This is an exposed,
 descriptive analysis of the pinned author example, not independent biological
 replication or complete reproduction of the manuscript.
@@ -87,6 +87,20 @@ Deposited single-cell batch labels 7 and 8 contain both conditions; batch 9
 contains 17 Th17n cells only. These are not verified biological replicate labels.
 No batch-adjusted animal model, independent-unit uncertainty or confirmatory
 claim is supplied. Small source-cell q values cannot resolve that missing unit.
+
+## Numerical verification
+
+The independent checker passed for all 6,373 individual reactions, 1,722
+metareactions and 6,353 expanded members. It checks the transformation/common
+shift, scalar effect and rank-test arithmetic, BH correction, within-group
+distance, member expansion and deduplicated pathway counts. Exact diagnostics
+are in [verification.json](../../analysis/research/runs/wg_source_scores_v3/verification.json).
+The v3 numerical tables are byte-identical to the retained v2 tables; the
+correction concerns verification and preservation of exact tested arrays.
+This is numerical verification on reused data, not biological replication.
+
+[Article-style figures and complete captions](FIGURES.md) provide vector
+PDF/SVG and 300-dpi PNG. The source numerical run was frozen at `a8a0341`.
 
 ## Evidence and next decision
 

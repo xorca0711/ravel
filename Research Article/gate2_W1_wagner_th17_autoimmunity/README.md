@@ -1,10 +1,10 @@
 # Wagner 2021: Th17 metabolism and autoimmunity
 
-**4 October 2026: the continued precedent review is saved and the first governed
-R0 source-identity pass has executed. R1 score reproduction and biological
-extensions remain unrun.**
+**4 October 2026: R0 source identity and R1 numerical source-score analysis
+have executed. Four formal figure plates accompany the bounded Wg-P02
+pathway-heterogeneity result; later biological stages retain separate gates.**
 
-Start with [current results](RESULTS.md), the [six-branch precedent review](PRECEDENT_REVIEW.md)
+Start with [current results](RESULTS.md), [figures and captions](FIGURES.md), the [six-branch precedent review](PRECEDENT_REVIEW.md)
 and [finished/remaining jobs and handoff](HANDOFF_2026-10-04.md).
 
 [Wagner et al., Cell 184, 4168-4185.e21 (2021)](https://doi.org/10.1016/j.cell.2021.05.045),

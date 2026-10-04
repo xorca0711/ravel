@@ -1,3 +1,55 @@
+# R1 numerical and figure validation — 4 October 2026
+
+The current numerical and figure receipts verify successfully. This establishes
+execution provenance and the declared numerical calculations, not biological
+replication, exact manuscript reproduction or scientific acceptance.
+
+- R1 v3: 6,373 reaction, 1,722 group and 6,353 expanded-row checks pass.
+  Rank-sum U agrees exactly; maximum p/q discrepancies are 6.66e-16/7.77e-16.
+  Transformation residual is 3.55e-15; effect-size tolerance remains as frozen.
+- The ten numerical result/environment files match v2 byte for byte.
+  Five targeted calculation tests pass; the separate R0 tests remain valid.
+- Figure v2 receipt passes. Four PDF pages were rendered; corrected plates
+  1/2/S1 were inspected. Plate 3 is pixel-identical to the previously inspected
+  render. Labels, scales, counts and legend spacing are readable. All four
+  plates have vector PDF/SVG and 300-dpi PNG versions plus full captions.
+- Eight unchanged repository check groups pass, including 143 unit tests with
+  one existing skip, 18 claim bindings, all required archived-evidence verifiers,
+  and source compilation. New figure code is compiled separately after its edit.
+- Main was refreshed and remains `a5d41834395cac0b82b488d48759ceb6fab8f2d5`.
+  Final link/artifact validation passed **9,684 checks**. Nine of ten required
+  check groups pass; the integration gate reports exactly the three failures
+  below. New figure-code compilation also passes.
+
+## Final integration-gate result
+
+1. `wg_source_scores_v1/receipt.json`: execution unsuccessful.
+2. `wg_source_scores_v1/receipt.json`: expected output list incomplete after the failed join.
+3. `wg_source_scores_v2/receipt.json`: execution unsuccessful after numerical verification failed.
+
+There are no other reported gate errors. Numerical v3 and figure v2 are successful
+and verify independently; the integration gate remains **failed**, not waived.
+
+## Failed-run preservation and integration review
+
+The runner correctly saved v1/v2 as failed. The current registry validator only
+accepts successful receipts. Registering those preserved failed attempts therefore
+causes an integration check failure even though the current numerical and figure
+runs verify. The records remain honest; no gate, schema, allowlist or failed
+status was changed to make this work pass. Integration is pending explicit
+review of how failed attempts should be registered and hash-checked separately
+from successful scientific executions. Deleting failed evidence is not a fix.
+
+Frozen SVG output contains Matplotlib path whitespace, and the first generated
+caption file has a terminal blank line. Scoped Git attributes preserve those
+exact hashed bytes. This formatting treatment does not change scientific
+validation. PDFs are explicitly staged despite the repository's global PDF
+ignore rule so a checkout retains every receipt-bound figure.
+
+Logs and rendered QA images are in this chat's private scratch workspace under
+`validation_r1/` and `figure_qa_v2/`. Earlier checkpoint validation below remains
+historical and must not be read as the current integration status.
+
 # Continuation validation — 4 October 2026
 
 All ten required repository check groups passed against freshly fetched

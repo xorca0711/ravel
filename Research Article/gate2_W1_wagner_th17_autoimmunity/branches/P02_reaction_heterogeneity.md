@@ -13,7 +13,12 @@ reaction/compartment resolution. This is replication and measurement validation.
 **Published starting point:** Wagner Fig. 2C-E reports heterogeneous reaction
 behavior. Wang et al. 2025, Fig. 1-4, supplies a close PGAM precedent; this branch
 cannot claim discovery of a uniformly pro-inflammatory glycolysis exception.
-No local reaction contrasts have been computed.
+The [local R1 result](../SOURCE_SCORE_RESULTS.md) now supplies exposed descriptive
+contrasts: 20/53 display pathways contain both source-significant directions;
+glycolysis contains 19 positive and zero negative groups at that threshold.
+Fatty-acid oxidation and arginine/proline metabolism illustrate aggregation loss.
+This supports reporting reaction/group resolution on the source data; animal-level
+inference, exact historical concordance and extension to PGAM data remain unqualified.
 
 **Hypothesis:** Declared pathway summaries can hide reproducible opposing
 reaction directions. **Strongest rival:** reaction direction/compartment errors,
@@ -34,6 +39,6 @@ polyamine contrasts, including agreement and weak/discordant results.
 **Limit/hold:** This is not proof of carbon routing or an inhibitor's target
 specificity. A comparison with the later PGAM paper must separate its new mouse
 experiments from reused signatures and the human MS cohort; paper count is not replication.
-R1 mapping/concordance is required before extending the result.
+R1 mapping and arithmetic are verified; the 1,912-versus-1,911 group discrepancy and historical implementation equivalence remain unresolved before exact-reproduction claims.
 
 [Shared sources and search limits](../LITERATURE_CONTEXT.md).

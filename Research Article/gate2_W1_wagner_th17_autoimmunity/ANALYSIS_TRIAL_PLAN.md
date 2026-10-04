@@ -1,9 +1,9 @@
 # Execution structure and next handoff
 
-**Current checkpoint:** the first R0 source-identity pass is [executed](RESULTS.md)
-under a [frozen contract](config/source_qualification_v1.json). Its precise remaining
-work is in the [handoff](HANDOFF_2026-10-04.md). The stage table below remains a
-plan; it does not imply that R1–R5 have executed.
+**Current checkpoint:** R0 source qualification and R1 numerical reconstruction
+are [executed](SOURCE_SCORE_RESULTS.md), with [formal figures](FIGURES.md).
+Read the v3 numerical amendment and current [handoff](HANDOFF_2026-10-04.md).
+The stage table is a plan; R2–R5 have not executed.
 
 The original structure below was a documentation-stage plan.
 Do not interpret planned filenames as existing artifacts. The registered owner
