@@ -80,8 +80,9 @@ lowering the floor.
 ## Resolved, 4 October 2026: resolved against the disease interpretation
 
 [Wp-R4](../R4_RESULTS.md) ran this card's discriminating analysis. In CSF no score
-separates MS from idiopathic intracranial hypertension (BH >= 0.93 for every
-module, signature and programme). In blood both modules, three programmes and a
+separates MS from idiopathic intracranial hypertension: nothing reaches BH <= 0.05,
+the modules and signatures all sit at BH 0.93, and the smallest adjusted value is
+programme N3 at BH 0.147 (lower in MS). In blood both modules, three programmes and a
 proliferation set separate the cohorts, the activation set separates them in the
 *opposite* direction, and the activation score correlates with each module across
 the ten blood donors at Spearman -0.61 to -0.87. The deciding measurement -

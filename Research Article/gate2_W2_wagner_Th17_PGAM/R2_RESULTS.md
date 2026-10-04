@@ -5,10 +5,12 @@ Figure 1.** Contract
 [config/compass_sensitivity_v1.json](config/compass_sensitivity_v1.json),
 receipt
 [analysis/research/runs/wp_compass_sensitivity_v1_rerun/receipt.json](../../analysis/research/runs/wp_compass_sensitivity_v1_rerun/receipt.json),
-verified clean. A first attempt under the same contract failed immediately and is
-not kept: it was launched with an interpreter in which Compass is not installed,
-which is a tooling mistake rather than a scientific result. Its only content was
-an import traceback.
+verified clean. A first attempt under the same contract is not kept: it was
+launched with an interpreter in which Compass is not installed, which is a tooling
+mistake rather than a scientific result. It completed its own pooling and wrote
+`pool_scores.csv`, `pool_expression.tsv` and a `results.json` recording
+`status: compass_failed`; the Compass call itself produced only an import
+traceback, so no reaction score exists in it.
 
 Compass's own raw reaction matrix (`reactions.tsv`, 97,121 bytes, sha256
 `8112f133b2abf814931cab518a98b4b4e7f6ae031b6a2fe943ef62eea1dc7e8d`) is not
@@ -47,7 +49,7 @@ Spearman correlation with the pool mean pathogenicity score:
 | PSP_L_pos | phosphoserine phosphatase | −0.258 | 0.046 | 0.18 | 17 |
 | PGK_neg | phosphoglycerate kinase, reverse | −0.241 | 0.064 | 0.24 | 18 |
 | GHMT2r_pos | serine hydroxymethyltransferase | −0.159 | 0.23 | 0.50 | 24 |
-| PGM_neg | 2PG → 3PG | −0.006 | 0.97 | 0.99 | 51 |
+| PGM_neg | 2PG → 3PG | +0.006 | 0.97 | 0.99 | 51 |
 | DPGM_pos | diphosphoglycerate mutase | −0.006 | 0.97 | 0.99 | 47 |
 
 **The published sign reproduces.** Under a different Compass version, a different

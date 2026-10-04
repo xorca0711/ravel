@@ -47,14 +47,16 @@ the Table S3 Th17n-EGCG signature, 36/50 N1 and 85/108 P4 markers.
 | Th17n EGCG (Table S3) | +0.001 | 0.93 | +0.019 | 0.31 |
 | Th17n EGCG (Wp-R3) | +0.005 | 0.93 | +0.042 | 0.086 |
 | Programme N1 | +0.003 | 1.00 | +0.069 | **0.039** |
+| Programme N3 | −0.062 | 0.15 | +0.017 | 0.78 |
 | Programme P1 | −0.042 | 0.93 | +0.005 | 0.55 |
 | Programme P4 | +0.009 | 0.93 | +0.070 | **0.039** |
 | Activation (declared set) | −0.040 | 0.93 | **−0.177** | **0.039** |
 | Proliferation (declared set) | +0.017 | 0.93 | +0.057 | **0.039** |
 
-**In CSF, nothing separates the disease groups** — every score, including both
-modules and both EGCG signatures, is flat (BH ≥ 0.93). The paper's claim that
-both modules are up in MS CSF does not reproduce.
+**In CSF, no score separates the disease groups** — nothing reaches BH ≤ 0.05;
+every module and signature score sits at BH 0.93, and the smallest adjusted value
+anywhere in CSF is programme N3 at BH 0.147 (unadjusted p = 0.0087, *lower* in
+MS). The paper's claim that both modules are up in MS CSF does not reproduce.
 
 **In blood, almost everything separates them** — both modules, three programmes,
 proliferation, and the activation set. Mann-Whitney on 5 versus 5 cannot return a
