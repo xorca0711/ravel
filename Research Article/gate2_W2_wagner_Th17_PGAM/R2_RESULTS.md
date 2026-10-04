@@ -15,7 +15,10 @@ Compass's own raw reaction matrix (`reactions.tsv`, 97,121 bytes, sha256
 tracked in the repository — the run directory keeps the governed analysis outputs
 (`reaction_correlations.csv`, `named_reactions.csv`, `pool_scores.csv`) and the
 raw matrix is held in the local raw cache as
-`wp_compass_sensitivity_v1_rerun_reactions.tsv`.
+`wp_compass_sensitivity_v1_rerun_reactions.tsv`. The pooled input matrix
+(`pool_expression.tsv`, 7,711,146 bytes) is likewise untracked: it is a run
+intermediate rather than a declared output, and it is regenerable from the
+contract's inputs - subject to the pooling defect recorded below.
 
 Four deviations from the published run, all unavoidable or host-imposed:
 
