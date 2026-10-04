@@ -1,5 +1,15 @@
 # Wg: literature context for reproduction and branches
 
+**Current continuation, 4 October 2026:** read the
+[six-branch precedent review](PRECEDENT_REVIEW.md) first. It incorporates the
+recovered full-text/methods/supplement work, exact branch comparisons, version
+links and shared-data audit. It supersedes the depth/status statements below
+where explicitly updated. PGAM's score sign remains unresolved despite inspecting its deposited workbooks.
+The eFPA Appendix was inspected; implementing that external comparison is a
+separate task. Missing PGAM S2/code and exact signature orientation remain holds.
+P05/P06 cannot receive exact novelty judgments while their tuples are unspecified.
+The text below preserves the initial scan and its actual historical coverage.
+
 Review: 4 October 2026, Codex, base `a5d4183`. Purpose: bound a newly read
 paper's reproduction and possible extensions. This is a targeted source review,
 not an exhaustive novelty search or independent scientific acceptance.

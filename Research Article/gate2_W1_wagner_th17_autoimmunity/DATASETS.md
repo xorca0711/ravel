@@ -1,5 +1,11 @@
 # Input families and biological-unit qualification
 
+**Current status:** the [R0 source-identity result](RESULTS.md) supersedes the
+initial access statements below. Both author matrix headers now match all 290
+cells, with exact author-SRX/GEO joins. Bulk/ATAC animal labels were recovered;
+expression values, assay matrix joins and sorted-cell biological units remain
+unqualified. The following catalogue is preserved as the initial intake.
+
 Public GEO brief records were retrieved directly on 4 October 2026. Counts
 below count listed GSM records; they are **not independent animal counts**.
 No expression matrix, peak matrix or individual GSM/BioSample map has been

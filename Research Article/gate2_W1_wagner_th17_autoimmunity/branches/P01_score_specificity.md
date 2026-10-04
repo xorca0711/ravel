@@ -1,5 +1,12 @@
 # Wg-P01: specificity of inferred metabolic state
 
+**Updated precedent boundary (4 October):** eFPA 2025 already compares network
+integration with enzyme-only expression, including a Compass comparator with
+different implementation/sharing choices. This branch is a Th17-specific
+measurement validation; a network-versus-expression comparison alone is not a
+new general contribution. The inspected Appendix S1/S4 changes sharing, penalties and normalization;
+its exact benchmark transfer still needs a faithful implementation specification. See [comparison and source locators](../PRECEDENT_REVIEW.md).
+
 **Question/decision:** Does the Compass representation retain reaction-level
 condition associations beyond simpler expression summaries and measured technical
 or activation differences? Decide whether a network feature merits further

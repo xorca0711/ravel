@@ -1,6 +1,11 @@
 # Execution structure and next handoff
 
-This is a documentation-stage plan, **not executable code or a frozen contract**.
+**Current checkpoint:** the first R0 source-identity pass is [executed](RESULTS.md)
+under a [frozen contract](config/source_qualification_v1.json). Its precise remaining
+work is in the [handoff](HANDOFF_2026-10-04.md). The stage table below remains a
+plan; it does not imply that R1–R5 have executed.
+
+The original structure below was a documentation-stage plan.
 Do not interpret planned filenames as existing artifacts. The registered owner
 for source reproduction is Wg-R01; branch owners are Wg-P01 through Wg-P06.
 
@@ -49,8 +54,8 @@ input availability. No compute cost or runtime estimate is asserted without
 measurement. Later extensions are exposed exploration until independently
 qualified; published functional results are not newly generated endpoints.
 
-**Exact next action:** acquire/hash the pinned author example's metadata and
-input files under an R0 contract, join the 290 intended cells to GSM and
-animal/preparation records, and issue the R1 eligibility decision. Numerical
-supplements, source-unit maps, exact historical environment and local solver
-availability remain open. Host laboratory access is unconfirmed.
+**Exact next action:** qualify the scientific runtime and implement/freeze R1
+source-score reproduction using the already hashed author example and 290 exact
+cell-to-GSM joins. Animal/preparation maps remain unknown for the sorted cells;
+population inference remains held. Full historical environment, source assay
+values and solver availability remain open. Host laboratory access is unconfirmed.

@@ -1,7 +1,14 @@
 # Wg-P03: state shift versus growth and selection
 
-**Question/decision:** Which observed DFMO/polyamine-associated changes support
-a state-specific response beyond altered proliferation, survival or mixture?
+**Updated precedent boundary (4 October):** Puleston S1J–L/S2A and S4A–B
+already test growth and division-stratified lineage-marker changes. The residual
+comparison concerns Wagner's exact drug/condition/endpoint context versus
+genetic Odc/hypusine disruption. Durable suppression and tracked conversion
+remain separate endpoints. [Primary-source comparison](../PRECEDENT_REVIEW.md).
+
+**Question/decision:** In Wagner's exact DFMO conditions, which observed changes
+support a context-specific response beyond altered proliferation, survival or mixture,
+given that a division-independent lineage effect is already a published precedent?
 Decide which additional functional measurement is needed before interpreting
 Treg-like RNA as cell-state reprogramming.
 

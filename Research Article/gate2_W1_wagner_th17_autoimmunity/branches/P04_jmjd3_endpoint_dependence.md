@@ -1,5 +1,12 @@
 # Wg-P04: endpoint-specific JMJD3 dependence
 
+**Updated precedent boundary (4 October):** Li 2014 and Liu 2015 constrain a
+universal direction for JMJD3-dependent differentiation. Their different models
+do not settle Wagner's exact interaction or establish mediation. The R0 run
+recovers genotype/treatment/animal labels in GSE162382; numerical design rank,
+matrix joins and functional source values remain to be qualified.
+[Source comparison](../PRECEDENT_REVIEW.md) · [current result](../RESULTS.md).
+
 **Question/decision:** Do the source data support different genotype-by-DFMO
 effects for selected functional readouts and aggregate RNA programs? Decide
 whether a proposed single JMJD3-mediated mechanism is an adequate summary.

@@ -1,5 +1,11 @@
 # Wg-P02: opposing reactions within a pathway
 
+**Updated precedent boundary (4 October):** the PGAM Results and signature
+Methods specify opposite score subtractions. Freeze no imported pathogenicity
+signature until source code or an authoritative correction resolves the sign.
+Its new mouse datasets differ from the original 2015 cells; the human MS cohort
+is reused by the Treg follow-up. [Audit and access limits](../PRECEDENT_REVIEW.md).
+
 **Question/decision:** Which source-defined reaction associations are obscured
 when summarized as a pathway? Decide whether a proposed metabolic readout needs
 reaction/compartment resolution. This is replication and measurement validation.
@@ -26,8 +32,8 @@ source descriptive reconstruction. Report all prespecified central-carbon and
 polyamine contrasts, including agreement and weak/discordant results.
 
 **Limit/hold:** This is not proof of carbon routing or an inhibitor's target
-specificity. A comparison with the later PGAM paper must audit reused 2015
-inputs separately from its new experiments; paper count is not replication.
+specificity. A comparison with the later PGAM paper must separate its new mouse
+experiments from reused signatures and the human MS cohort; paper count is not replication.
 R1 mapping/concordance is required before extending the result.
 
 [Shared sources and search limits](../LITERATURE_CONTEXT.md).

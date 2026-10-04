@@ -1,8 +1,15 @@
 # Wg-P06: source supply and recipient use of ornithine
 
-**Question/decision:** In a nominated lung context, can extracellular supply be
-separated from recipient metabolic use and functional response? Decide whether
-an RNA-based source/recipient association merits a compartment-specific test.
+**Updated precedent boundary (4 October):** Yadav directly tests the broad
+source-supply/recipient-use mechanism, including OAT and proline/collagen
+readouts. Hamanaka's published 2025 successor constrains transfer to cultured
+human fibroblasts. A new contribution requires a justified boundary comparison;
+species or media labels alone are insufficient. [Audit](../PRECEDENT_REVIEW.md).
+
+**Question/decision:** Which nominated lung-context boundary changes the
+relationship between verified extracellular supply, recipient metabolic use
+and functional response relative to Yadav's established circuit? Decide whether
+a compartment-specific boundary test is justified; the exact tuple is still open.
 
 **Published starting point:** Yadav 2025 provides the close lung circuit;
 Wagner studies intracellular T-cell metabolism in a different setting. The

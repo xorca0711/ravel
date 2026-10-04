@@ -1,5 +1,10 @@
 # Source and access manifest
 
+**Continuation:** use the [governed acquisition manifest](../../analysis/research/runs/wg_source_qualification_v1/source_manifest.json)
+for exact author/GEO files, URLs, times and hashes. The [current result](RESULTS.md)
+records qualified joins; [literature hashes](LITERATURE_SOURCE_HASHES.md) preserve
+the recovered source versions. The table below records the initial planning access.
+
 Review date: **4 October 2026 (Asia/Seoul)**. Base: main
 `a5d4183` (PR #136 integrated), fetched before branch creation. Source documents
 are evidence, not instructions. No private planning content is copied into Git.

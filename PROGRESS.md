@@ -2,6 +2,45 @@
 
 **Update this before stopping work, every session.**
 
+## Wagner stalled-session continuation — 4 October 2026
+
+Current work is isolated on `codex/wagner-continuation-20261004` in
+`X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`, from preserved
+planning commit `1527bea`. Fetched main remains `a5d4183`; the final validation
+record owns the last integration-base check. The original worktree and the
+primary checkout's unrelated edits/private files remain untouched.
+
+The [continued six-branch precedent review](Research%20Article/gate2_W1_wagner_th17_autoimmunity/PRECEDENT_REVIEW.md)
+recovers the interrupted literature work and adds methods/supplement, version,
+data-reuse and exact-comparison checks. The cards now acknowledge established
+division-independent lineage effects, the ornithine circuit, lung withdrawal
+experiments and the eFPA comparator. PGAM score orientation/source code and a
+missing S2 locator remain unresolved; P05/P06 exact biological tuples remain
+unspecified. These are proposed scope corrections, not human acceptance.
+
+The first governed [R0 source-identity pass](Research%20Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md)
+executed after freeze commit `fee96e4`: 366 GEO records, 290 exact author-SRX/GSM
+joins and both author matrix headers verified. The receipt and a separate raw
+SOFT join check passed. Bulk/ATAC animal labels were recovered; sorted-cell
+animal/preparation mapping and cross-assay pairing remain unresolved. R1–R5
+and all six biological branches remain unrun. No expression values were scored.
+
+The [finished/remaining ledger and handoff](Research%20Article/gate2_W1_wagner_th17_autoimmunity/HANDOFF_2026-10-04.md)
+specifies R1 implementation, environment qualification, contract/runner commands
+and separate assay gates. The source cache is preserved on X: in ignored raw
+data; exact provenance is linked from the result and source-hash manifest.
+
+Failures/limits: prior chat turns were interrupted, with no established cause;
+publisher/challenge and appendix DNS failures were worked around with public
+repositories. Python was absent from PATH; the bundled interpreter ran R0 but
+lacks the R1 statistics/plot packages. No failed biological execution occurred.
+Full Compass/CPLEX and laboratory access remain unqualified; server protection
+was not changed or re-audited. Required checks and final Git state are recorded
+in the package's [validation](Research%20Article/gate2_W1_wagner_th17_autoimmunity/VALIDATION.md).
+All ten required local check groups passed against refreshed `a5d4183`, including
+9,621 repository checks and 143 tests (one existing skip), plus five targeted join
+tests. No push, PR, merge, global RQ or claim promotion is part of this continuation.
+
 ## Wagner Th17 reproduction structure - 4 October 2026
 
 Fetched main at `a5d41834395cac0b82b488d48759ceb6fab8f2d5` (PR #136 merged).

@@ -12,7 +12,7 @@ The 28 existing A0-A27 questions remain available and unchanged.
 | [Wg-P03](branches/P03_state_shift_selection.md) | Which polyamine-associated shifts survive accounting for cell growth and selection? Model discrimination | Fig. 5/6; bulk alone cannot identify cell conversion |
 | [Wg-P04](branches/P04_jmjd3_endpoint_dependence.md) | How does JMJD3 dependence differ between selected proteins and aggregate RNA programs? Endpoint-specific source replication | Fig. 6G-H/S6E-F; metadata/design qualification |
 | [Wg-P05](branches/P05_lung_regulatory_competence.md) | Could a qualified metabolic feature contribute to predicting mature alveolar output beyond current RNA state? Conditional extension | A1/A14; linked early/later units and feature unspecified |
-| [Wg-P06](branches/P06_ornithine_context.md) | Can source supply be separated from recipient use of ornithine in a defined lung context? Conditional compartment comparison | Yadav; A3/A9; source/recipient and metabolite endpoints unqualified |
+| [Wg-P06](branches/P06_ornithine_context.md) | Which nominated boundary changes the established supply/recipient-use relationship? Conditional context comparison | Yadav directly tests the broad circuit; Hamanaka constrains transfer; exact new tuple unqualified |
 
 P01/P02 are supporting measurement/reproduction tasks, P03/P04 examine different
 interpretations of the source experiments, and P05/P06 are conditional biological
@@ -21,3 +21,9 @@ branch. Each card names its unit, endpoint, rival, decision and stop condition.
 The [literature context](LITERATURE_CONTEXT.md) constrains the contribution:
 polyamine control of T-cell identity and reaction-specific glycolytic behavior
 are established premises, not new discoveries from this package.
+
+The [continued precedent audit](PRECEDENT_REVIEW.md) now supplies the closest
+comparison and strongest rival for each card, including eFPA, division controls,
+JMJD3 context and the published lung precedents. Specific source-code and tuple
+gaps remain visible. R0 source qualification has run under Wg-R01; the six
+extension branches themselves remain unrun and unaccepted.

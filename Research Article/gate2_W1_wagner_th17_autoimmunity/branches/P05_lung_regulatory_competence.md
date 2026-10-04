@@ -1,5 +1,12 @@
 # Wg-P05: a conditional lung regulatory-competence bridge
 
+**Updated precedent boundary (4 October):** Choi already tests withdrawal and
+glycolysis, and the AHR organoid study adds stromal response with AT1 spheroid
+output. The remaining tuple requires a nominated early feature and linked later
+functional output; spheroids or RNA states alone do not identify that endpoint.
+This specification gap is explicit, not a completed novelty judgment.
+[Source comparison](../PRECEDENT_REVIEW.md).
+
 **Question/decision:** Within a defined alveolar transitional state, could an
 early metabolic/regulatory feature improve prediction of independently measured
 mature output beyond current RNA state? Decide whether the owner's bridge idea

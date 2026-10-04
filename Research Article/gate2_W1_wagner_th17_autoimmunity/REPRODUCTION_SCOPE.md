@@ -1,7 +1,8 @@
 # Wg-R01: staged source reproduction
 
-**Status:** proposed article-local reproduction owner; no execution or frozen
-contract. Published outcomes, annotations and tutorial plots are already exposed.
+**Status:** proposed article-local reproduction owner; the first governed R0
+source-identity pass is [executed](RESULTS.md). Full environment/assay qualification
+and R1–R5 remain pending. Published outcomes, annotations and tutorial plots are already exposed.
 The decision is which source findings can be reconstructed numerically and at
 which level, before extending their biological interpretation.
 

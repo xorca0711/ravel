@@ -1,0 +1,642 @@
+{
+  "author_pin": "31141a8d82872fb09803a0bf66ffc793d1410be8",
+  "sample_record_count": 366,
+  "cell_join_count": 290,
+  "condition_cell_counts": {
+    "Th17p": 139,
+    "Th17n": 151
+  },
+  "matrix_headers": {
+    "reactions.tsv": {
+      "cell_count": 290,
+      "exact_order_match": true
+    },
+    "linear_gene_expression_matrix.tsv": {
+      "cell_count": 290,
+      "exact_order_match": true
+    }
+  },
+  "series": [
+    {
+      "series": "GSE75109",
+      "series_fields": {
+        "Series_title": [
+          "Single-cell transcriptional profiling of Th17 cells, differentiated in vitro for 48h [IL1B_IL6_IL23-48h-IL-17A/GFP+]"
+        ],
+        "Series_last_update_date": [
+          "Jul 02 2019"
+        ],
+        "Series_type": [
+          "Expression profiling by high throughput sequencing"
+        ],
+        "Series_sample_id": [
+          "GSM1943105",
+          "GSM1943106",
+          "GSM1943107",
+          "GSM1943108",
+          "GSM1943109",
+          "GSM1943110",
+          "GSM1943111",
+          "GSM1943112",
+          "GSM1943113",
+          "GSM1943114",
+          "GSM1943115",
+          "GSM1943116",
+          "GSM1943117",
+          "GSM1943118",
+          "GSM1943119",
+          "GSM1943120",
+          "GSM1943121",
+          "GSM1943122",
+          "GSM1943123",
+          "GSM1943124",
+          "GSM1943125",
+          "GSM1943126",
+          "GSM1943127",
+          "GSM1943128",
+          "GSM1943129",
+          "GSM1943130",
+          "GSM1943131",
+          "GSM1943132",
+          "GSM1943133",
+          "GSM1943134",
+          "GSM1943135",
+          "GSM1943136",
+          "GSM1943137",
+          "GSM1943138",
+          "GSM1943139",
+          "GSM1943140",
+          "GSM1943141",
+          "GSM1943142",
+          "GSM1943143",
+          "GSM1943144",
+          "GSM1943145",
+          "GSM1943146",
+          "GSM1943147",
+          "GSM1943148",
+          "GSM1943149",
+          "GSM1943150",
+          "GSM1943151",
+          "GSM1943152",
+          "GSM1943153",
+          "GSM1943154",
+          "GSM1943155",
+          "GSM1943156",
+          "GSM1943157",
+          "GSM1943158",
+          "GSM1943159",
+          "GSM1943160",
+          "GSM1943161",
+          "GSM1943162",
+          "GSM1943163",
+          "GSM1943164",
+          "GSM1943165",
+          "GSM1943166",
+          "GSM1943167",
+          "GSM1943168",
+          "GSM1943169",
+          "GSM1943170",
+          "GSM1943171",
+          "GSM1943172",
+          "GSM1943173",
+          "GSM1943174",
+          "GSM1943175",
+          "GSM1943176",
+          "GSM1943177",
+          "GSM1943178",
+          "GSM1943179",
+          "GSM1943180",
+          "GSM1943181",
+          "GSM1943182",
+          "GSM1943183",
+          "GSM1943184",
+          "GSM1943185",
+          "GSM1943186",
+          "GSM1943187",
+          "GSM1943188",
+          "GSM1943189",
+          "GSM1943190",
+          "GSM1943191",
+          "GSM1943192",
+          "GSM1943193",
+          "GSM1943194",
+          "GSM1943195",
+          "GSM1943196",
+          "GSM1943197",
+          "GSM1943198",
+          "GSM1943199",
+          "GSM1943200",
+          "GSM1943201",
+          "GSM1943202",
+          "GSM1943203",
+          "GSM1943204",
+          "GSM1943205",
+          "GSM1943206",
+          "GSM1943207",
+          "GSM1943208",
+          "GSM1943209",
+          "GSM1943210",
+          "GSM1943211",
+          "GSM1943212",
+          "GSM1943213",
+          "GSM1943214",
+          "GSM1943215",
+          "GSM1943216",
+          "GSM1943217",
+          "GSM1943218",
+          "GSM1943219",
+          "GSM1943220",
+          "GSM1943221",
+          "GSM1943222",
+          "GSM1943223",
+          "GSM1943224",
+          "GSM1943225",
+          "GSM1943226",
+          "GSM1943227",
+          "GSM1943228",
+          "GSM1943229",
+          "GSM1943230",
+          "GSM1943231",
+          "GSM1943232",
+          "GSM1943233",
+          "GSM1943234",
+          "GSM1943235",
+          "GSM1943236",
+          "GSM1943237",
+          "GSM1943238",
+          "GSM1943239",
+          "GSM1943240",
+          "GSM1943241",
+          "GSM1943242",
+          "GSM1943243"
+        ],
+        "Series_supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75109/suppl/GSE75109_RAW.tar"
+        ],
+        "Series_relation": [
+          "SubSeries of: GSE74833",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA302459",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP066320"
+        ]
+      },
+      "sample_record_count": 139,
+      "membership_record_counts": {
+        "GSE74833": 139,
+        "GSE75109": 139
+      },
+      "library_strategy_counts": {
+        "RNA-Seq": 139
+      },
+      "organism_record_counts": {
+        "Mus musculus": 139
+      },
+      "characteristic_key_record_counts": {
+        "cell type": 139,
+        "strain": 139
+      },
+      "biological_unit_count": null,
+      "biological_unit_status": "not_determined_by_parser",
+      "expression_values_read": false,
+      "interpretation": "Counts refer to deposited sample records, not animals, donors, preparations or independent wells."
+    },
+    {
+      "series": "GSE75111",
+      "series_fields": {
+        "Series_title": [
+          "Single-cell transcriptional profiling of Th17 cells, differentiated in vitro for 48h [TGFB1_IL6-48h-IL-17A/GFP+]"
+        ],
+        "Series_last_update_date": [
+          "Jul 02 2019"
+        ],
+        "Series_type": [
+          "Expression profiling by high throughput sequencing"
+        ],
+        "Series_sample_id": [
+          "GSM1943374",
+          "GSM1943375",
+          "GSM1943376",
+          "GSM1943377",
+          "GSM1943378",
+          "GSM1943379",
+          "GSM1943380",
+          "GSM1943381",
+          "GSM1943382",
+          "GSM1943383",
+          "GSM1943384",
+          "GSM1943385",
+          "GSM1943386",
+          "GSM1943387",
+          "GSM1943388",
+          "GSM1943389",
+          "GSM1943390",
+          "GSM1943391",
+          "GSM1943392",
+          "GSM1943393",
+          "GSM1943394",
+          "GSM1943395",
+          "GSM1943396",
+          "GSM1943397",
+          "GSM1943398",
+          "GSM1943399",
+          "GSM1943400",
+          "GSM1943401",
+          "GSM1943402",
+          "GSM1943403",
+          "GSM1943404",
+          "GSM1943405",
+          "GSM1943406",
+          "GSM1943407",
+          "GSM1943408",
+          "GSM1943409",
+          "GSM1943410",
+          "GSM1943411",
+          "GSM1943412",
+          "GSM1943413",
+          "GSM1943414",
+          "GSM1943415",
+          "GSM1943416",
+          "GSM1943417",
+          "GSM1943418",
+          "GSM1943419",
+          "GSM1943420",
+          "GSM1943421",
+          "GSM1943422",
+          "GSM1943423",
+          "GSM1943424",
+          "GSM1943425",
+          "GSM1943426",
+          "GSM1943427",
+          "GSM1943428",
+          "GSM1943429",
+          "GSM1943430",
+          "GSM1943431",
+          "GSM1943432",
+          "GSM1943433",
+          "GSM1943434",
+          "GSM1943435",
+          "GSM1943436",
+          "GSM1943437",
+          "GSM1943438",
+          "GSM1943439",
+          "GSM1943440",
+          "GSM1943441",
+          "GSM1943442",
+          "GSM1943443",
+          "GSM1943444",
+          "GSM1943445",
+          "GSM1943446",
+          "GSM1943447",
+          "GSM1943448",
+          "GSM1943449",
+          "GSM1943450",
+          "GSM1943451",
+          "GSM1943452",
+          "GSM1943453",
+          "GSM1943454",
+          "GSM1943455",
+          "GSM1943456",
+          "GSM1943457",
+          "GSM1943458",
+          "GSM1943459",
+          "GSM1943460",
+          "GSM1943461",
+          "GSM1943462",
+          "GSM1943463",
+          "GSM1943464",
+          "GSM1943465",
+          "GSM1943466",
+          "GSM1943467",
+          "GSM1943468",
+          "GSM1943469",
+          "GSM1943470",
+          "GSM1943471",
+          "GSM1943472",
+          "GSM1943473",
+          "GSM1943474",
+          "GSM1943475",
+          "GSM1943476",
+          "GSM1943477",
+          "GSM1943478",
+          "GSM1943479",
+          "GSM1943480",
+          "GSM1943481",
+          "GSM1943482",
+          "GSM1943483",
+          "GSM1943484",
+          "GSM1943485",
+          "GSM1943486",
+          "GSM1943487",
+          "GSM1943488",
+          "GSM1943489",
+          "GSM1943490",
+          "GSM1943491",
+          "GSM1943492",
+          "GSM1943493",
+          "GSM1943494",
+          "GSM1943495",
+          "GSM1943496",
+          "GSM1943497",
+          "GSM1943498",
+          "GSM1943499",
+          "GSM1943500",
+          "GSM1943501",
+          "GSM1943502",
+          "GSM1943503",
+          "GSM1943504",
+          "GSM1943505",
+          "GSM1943506",
+          "GSM1943507",
+          "GSM1943508",
+          "GSM1943509",
+          "GSM1943510",
+          "GSM1943511",
+          "GSM1943512",
+          "GSM1943513",
+          "GSM1943514",
+          "GSM1943515",
+          "GSM1943516",
+          "GSM1943517",
+          "GSM1943518",
+          "GSM1943519",
+          "GSM1943520",
+          "GSM1943521",
+          "GSM1943522",
+          "GSM1943523",
+          "GSM1943524"
+        ],
+        "Series_supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75111/suppl/GSE75111_RAW.tar"
+        ],
+        "Series_relation": [
+          "SubSeries of: GSE74833",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA302457",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP066322"
+        ]
+      },
+      "sample_record_count": 151,
+      "membership_record_counts": {
+        "GSE74833": 151,
+        "GSE75111": 151
+      },
+      "library_strategy_counts": {
+        "RNA-Seq": 151
+      },
+      "organism_record_counts": {
+        "Mus musculus": 151
+      },
+      "characteristic_key_record_counts": {
+        "cell type": 151,
+        "strain": 151
+      },
+      "biological_unit_count": null,
+      "biological_unit_status": "not_determined_by_parser",
+      "expression_values_read": false,
+      "interpretation": "Counts refer to deposited sample records, not animals, donors, preparations or independent wells."
+    },
+    {
+      "series": "GSE162300",
+      "series_fields": {
+        "Series_title": [
+          "DFMO effect on Th17 and iTreg cells (RNA-Seq)"
+        ],
+        "Series_last_update_date": [
+          "Jul 06 2021"
+        ],
+        "Series_type": [
+          "Expression profiling by high throughput sequencing"
+        ],
+        "Series_sample_id": [
+          "GSM4948772",
+          "GSM4948773",
+          "GSM4948774",
+          "GSM4948775",
+          "GSM4948776",
+          "GSM4948777",
+          "GSM4948778",
+          "GSM4948779",
+          "GSM4948780",
+          "GSM4948781",
+          "GSM4948782",
+          "GSM4948783",
+          "GSM4948784",
+          "GSM4948785",
+          "GSM4948786",
+          "GSM4948787",
+          "GSM4948788",
+          "GSM4948789",
+          "GSM4948790",
+          "GSM4948791",
+          "GSM4948792",
+          "GSM4948793",
+          "GSM4948794",
+          "GSM4948795",
+          "GSM4948796",
+          "GSM4948797",
+          "GSM4948798",
+          "GSM4948799",
+          "GSM4948800",
+          "GSM4948801",
+          "GSM4948802",
+          "GSM4948803",
+          "GSM4948804",
+          "GSM4948805",
+          "GSM4948806",
+          "GSM4948807"
+        ],
+        "Series_supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162300/suppl/GSE162300_DFMO_RNA_TPMs.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162300/suppl/GSE162300_DFMO_RNA_est_counts.csv.gz"
+        ],
+        "Series_relation": [
+          "SubSeries of: GSE164999",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA681345",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP294651"
+        ]
+      },
+      "sample_record_count": 36,
+      "membership_record_counts": {
+        "GSE162300": 36,
+        "GSE164999": 36
+      },
+      "library_strategy_counts": {
+        "RNA-Seq": 36
+      },
+      "organism_record_counts": {
+        "Mus musculus": 36
+      },
+      "characteristic_key_record_counts": {
+        "animal_id": 36,
+        "cell type": 36,
+        "run_id": 36,
+        "strain": 36,
+        "treatment": 36
+      },
+      "biological_unit_count": null,
+      "biological_unit_status": "not_determined_by_parser",
+      "expression_values_read": false,
+      "interpretation": "Counts refer to deposited sample records, not animals, donors, preparations or independent wells."
+    },
+    {
+      "series": "GSE162382",
+      "series_fields": {
+        "Series_title": [
+          "The chromatin regulator JMJD3 partially mediates the polyamine-dependent effect on Th17 cells"
+        ],
+        "Series_last_update_date": [
+          "Jul 06 2021"
+        ],
+        "Series_type": [
+          "Expression profiling by high throughput sequencing"
+        ],
+        "Series_sample_id": [
+          "GSM4950792",
+          "GSM4950793",
+          "GSM4950794",
+          "GSM4950795",
+          "GSM4950796",
+          "GSM4950797",
+          "GSM4950798",
+          "GSM4950799",
+          "GSM4950800",
+          "GSM4950801",
+          "GSM4950802",
+          "GSM4950803",
+          "GSM4950804",
+          "GSM4950805",
+          "GSM4950806",
+          "GSM4950807",
+          "GSM4950808",
+          "GSM4950809",
+          "GSM4950810",
+          "GSM4950811",
+          "GSM4950812",
+          "GSM4950813",
+          "GSM4950814",
+          "GSM4950815",
+          "GSM4950816",
+          "GSM4950817",
+          "GSM4950818",
+          "GSM4950819"
+        ],
+        "Series_supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162382/suppl/GSE162382_DFMO_JMJD3_TPMs.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162382/suppl/GSE162382_DFMO_JMJD3_est_counts.csv.gz"
+        ],
+        "Series_relation": [
+          "SubSeries of: GSE164999",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA681803",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP295329"
+        ]
+      },
+      "sample_record_count": 28,
+      "membership_record_counts": {
+        "GSE162382": 28,
+        "GSE164999": 28
+      },
+      "library_strategy_counts": {
+        "RNA-Seq": 28
+      },
+      "organism_record_counts": {
+        "Mus musculus": 28
+      },
+      "characteristic_key_record_counts": {
+        "animal_id": 28,
+        "differentiation": 28,
+        "genotype": 28,
+        "strain": 28,
+        "treatment": 28
+      },
+      "biological_unit_count": null,
+      "biological_unit_status": "not_determined_by_parser",
+      "expression_values_read": false,
+      "interpretation": "Counts refer to deposited sample records, not animals, donors, preparations or independent wells."
+    },
+    {
+      "series": "GSE165088",
+      "series_fields": {
+        "Series_title": [
+          "DFMO effect on Th17 and iTreg cells (ATAC-Seq)"
+        ],
+        "Series_last_update_date": [
+          "Jul 06 2021"
+        ],
+        "Series_type": [
+          "Genome binding/occupancy profiling by high throughput sequencing"
+        ],
+        "Series_sample_id": [
+          "GSM5025888",
+          "GSM5025889",
+          "GSM5025890",
+          "GSM5025891",
+          "GSM5025892",
+          "GSM5025893",
+          "GSM5025894",
+          "GSM5025895",
+          "GSM5025896",
+          "GSM5025897",
+          "GSM5025898",
+          "GSM5025899"
+        ],
+        "Series_supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165088/suppl/GSE165088_Raw_Count_Data.csv.gz"
+        ],
+        "Series_relation": [
+          "SubSeries of: GSE164999",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA693243",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP302343"
+        ]
+      },
+      "sample_record_count": 12,
+      "membership_record_counts": {
+        "GSE164999": 12,
+        "GSE165088": 12
+      },
+      "library_strategy_counts": {
+        "ATAC-seq": 12
+      },
+      "organism_record_counts": {
+        "Mus musculus": 12
+      },
+      "characteristic_key_record_counts": {
+        "animal_id": 12,
+        "cell type": 12,
+        "strain": 12,
+        "treatment": 12
+      },
+      "biological_unit_count": null,
+      "biological_unit_status": "not_determined_by_parser",
+      "expression_values_read": false,
+      "interpretation": "Counts refer to deposited sample records, not animals, donors, preparations or independent wells."
+    }
+  ],
+  "explicit_animal_labels_within_series": {
+    "GSE75109": [],
+    "GSE75111": [],
+    "GSE162300": [
+      "WT1",
+      "WT2",
+      "WT3"
+    ],
+    "GSE162382": [
+      "JMJD3CKO1",
+      "JMJD3CKO2",
+      "JMJD3CKO3",
+      "WT1",
+      "WT2",
+      "WT3",
+      "WT4"
+    ],
+    "GSE165088": [
+      "WT1",
+      "WT2",
+      "WT3"
+    ]
+  },
+  "expression_values_read": false,
+  "r1_source_score_descriptive_eligibility": "eligible_for_separate_frozen_contract",
+  "r1_population_inference": "hold: sorted-cell animal/preparation identity and allocation unresolved",
+  "r2_full_compass": "hold: historical model/runtime/normalization equivalence and solver not qualified",
+  "r3_r4": "design labels recovered; assay matrix joins, technical-run handling and design rank require separate qualification",
+  "cross_assay_pairing": "not established by repeated WT labels",
+  "interpretation_limit": "SRX links author-labelled SRR cells to GSM. Independent SRA run-to-experiment verification is not performed. Library identity is not biological replication."
+}

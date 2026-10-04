@@ -1,7 +1,11 @@
 # Wagner 2021: Th17 metabolism and autoimmunity
 
-**4 October 2026: owner reading completed; source review and reproduction plan
-prepared. No numerical reproduction, Compass run or biological extension has run.**
+**4 October 2026: the continued precedent review is saved and the first governed
+R0 source-identity pass has executed. R1 score reproduction and biological
+extensions remain unrun.**
+
+Start with [current results](RESULTS.md), the [six-branch precedent review](PRECEDENT_REVIEW.md)
+and [finished/remaining jobs and handoff](HANDOFF_2026-10-04.md).
 
 [Wagner et al., Cell 184, 4168-4185.e21 (2021)](https://doi.org/10.1016/j.cell.2021.05.045),
 *Metabolic modeling of single Th17 cells reveals regulators of autoimmunity*.
@@ -56,9 +60,9 @@ RNA/ATAC analyses are separate stages. All six branches remain available;
 their sequence is a dependency map, not a ranking or scientific acceptance.
 
 Published figures, notes and tutorial outputs have already been viewed. Future
-reanalysis is outcome-exposed. No frozen executable contract exists yet:
-input/code hashes, biological identities and environment qualification must
-precede one. [Governance](../../docs/RESEARCH_GOVERNANCE.md) and the
+reanalysis is outcome-exposed. The first [frozen metadata contract](config/source_qualification_v1.json)
+and [verified result](RESULTS.md) establish exact source membership. Later stages
+require their own frozen code, input hashes, methods and qualified environment. [Governance](../../docs/RESEARCH_GOVERNANCE.md) and the
 [literature workflow](../../docs/LITERATURE_WORKFLOW.md) govern execution.
 No global A identifier, claim grade, laboratory protocol or owner retain/reject
 decision is created here. Private PI/placement planning remains outside Git.
