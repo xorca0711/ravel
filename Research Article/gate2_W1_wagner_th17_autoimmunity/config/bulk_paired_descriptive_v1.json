@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.bulk_paired_descriptive_v1",
+  "owner": "Wg-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What animal-paired changes in deposited bulk transcript abundance are observed after DFMO, separately by lineage and genotype, before source-program reconstruction?",
+  "decision": "Establish an inspectable animal-level baseline for Wg-P03/P04 and identify the exact aggregate RNA endpoint available for further source-aligned models; do not adjudicate mechanism or select a preferred branch.",
+  "strongest_rival": "Bulk compositional, survival, proliferation or cell-mixture changes generate apparent lineage-marker shifts without tracked within-cell conversion; genotype baseline and sampling differences can alter apparent responses.",
+  "discriminator": "Show all within-animal treatment differences on one declared relative-abundance scale, with genotype response differences calculated directly and the actual 4-WT/3-KO allocation retained.",
+  "evidence_refs": [
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/REPRODUCTION_SCOPE.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/branches/P03_state_shift_selection.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/branches/P04_jmjd3_endpoint_dependence.md",
+    "analysis/research/runs/wg_bulk_qualification_v1/qualification.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published bulk RNA figures/methods, source-defined conclusions, R0/R1 results, all matrix headers and R3 numeric-domain/technical-run QC are exposed. No new biological bulk contrast was computed before this freeze. Prespecified display genes derive from known pathway/lineage roles, not this run outcomes.",
+  "biological_unit": "Source animal label scoped to its GEO series; matched treatment cultures within animal.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "GSE162300: 36 sequencing columns collapse to 18 libraries in three animal labels; GSE162382: 28 libraries in four WT and three conditional-KO labels. Lineages and cultures within animal are repeated measurements. Cross-series identifiers are not paired.",
+  "population_and_selection": "All deposited genes and all qualified libraries from both series. Twelve display genes fixed before execution: Odc1,Srm,Sms,Sat1,Smox,Pgam1,Ldha,Tpi1,Foxp3,Rorc,Il17a,Kdm6b. No expression-based sample exclusions or outcome-selected genes.",
+  "contrast": "Within animal DFMO minus control, separately for each lineage and genotype; untreated Th17p minus Th17n in GSE162300; direct mean KO minus mean WT difference of paired treatment responses in GSE162382.",
+  "endpoint": "Difference in log2(deposited-gene CPM + 1), per animal, and unweighted mean/median/SD/observed range. Descriptive PCA context uses all nonconstant genes.",
+  "methods": "Sum same-library technical-run fractional expected counts in GSE162300. Normalize each library by sum of its deposited protein-coding expected counts times one million; transform log2(CPM+1). Retain all genes in contrast tables. Compute paired differences; no model-fit p values or DEGs. Direct genotype response difference uses separate group means without pairing WT to KO. PCA per series centers log values per gene and uses SVD without variance scaling or DEG selection; drops only constant rows from PCA. Render two article-style plates in PNG/PDF/SVG, full captions and combined PDF. Verify counts/normalization/pairing from raw csv with independent scalar arithmetic; verify PCA singular values with Gram eigenvalues. Fixed numerical verification tolerance 1e-10 absolute for log/paired differences, rtol 1e-13 with atol 1e-10 for summed counts, and rtol 1e-10 for leading PCA eigenvalues.",
+  "missingness_and_exclusions": "No sample exclusions; no missing-value imputation or absent-gene substitution. Stop if any named gene is absent, pairs incomplete, source joins disagree or values invalid. Zero/constant genes remain in summary tables and only constant genes leave the PCA.",
+  "multiplicity": "No biological p values or DEG thresholds. All gene estimates are retained; selected figures are descriptive and are not a confirmatory family.",
+  "precision_status": "unknown",
+  "precision_basis": "Observed between-animal spread is reported. Three/four source labels do not justify a chosen biological effect margin, power claim or equivalence conclusion. No confidence interval is interpreted as established population precision.",
+  "validation_scope": "none",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Relative bulk abundance is not absolute RNA, enzymatic activity, metabolic flux, pathogenicity, fate or formal JMJD3 mediation. The +1 CPM offset affects low-abundance magnitudes. CPM is not TPM or TMM/voom; this initial view does not reproduce the paper limma DEG-selected PCA/programs. Kdm6b gene-level abundance does not verify deletion of the functional exon. No independent biological replication is created.",
+  "stop_rule": "Stop on failed unit/join/value/arithmetic checks. Preserve unfavorable patterns and all genes; no post-result display selection. Exact source limma and functional/ATAC stages require their own qualified runtime and contracts.",
+  "inputs": [
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_est_counts.csv.gz",
+      "sha256": "a1ce2b41c817e7baaee9c159779edfaf5e12b953509d193481ab6caaf70f2548",
+      "study_id": "GSE162300",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_est_counts.csv.gz",
+      "sha256": "d44e8dc30356c682a8b7d8c7cd781c99337a7fe8cadeeee72bc4518c7c157e77",
+      "study_id": "GSE162382",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/source_sample_map.tsv",
+      "sha256": "7f07ac68a229a993ce6c3af91b55dd074fd84fdff0a3a5b567712bed3bfef714",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/library_design.tsv",
+      "sha256": "f6059fece28659d3787b8badf60498b7d2b7baa345ed10dcda68714abc1515a5",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/qualification.json",
+      "sha256": "9756a10c0d28a425da1674fe0cdaf991fc6ce36d50f0c44d3870435d74df88a6",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_paired_descriptive_v1.py",
+      "sha256": "58b26f01122c9d29a4fca821071c7cf4c73385529ba0b974b568fff8a17ed991"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/test_bulk_paired_descriptive_v1.py",
+      "sha256": "a601d02bd708134b09726b021665f578a9b9f2c722c591917235baa7c1bd3e4f"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_paired_descriptive_v1.py",
+  "arguments": [
+    "--source",
+    "raw_data/wagner_r3_20261004",
+    "--qualification",
+    "analysis/research/runs/wg_bulk_qualification_v1",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "all_gene_paired_summaries.tsv.gz",
+    "all_gene_genotype_response_differences.tsv.gz",
+    "prespecified_gene_animal_changes.tsv",
+    "prespecified_gene_summaries.tsv",
+    "prespecified_genotype_response_differences.tsv",
+    "prespecified_baseline_p_vs_n.tsv",
+    "pca_coordinates.tsv",
+    "collapsed_library_qc.tsv",
+    "GSE162300_expression_arrays.npz",
+    "GSE162382_expression_arrays.npz",
+    "results.json",
+    "figure_manifest.json",
+    "CAPTIONS.md",
+    "Wagner_R3_initial_figures.pdf",
+    "figure_4_bulk_context.png",
+    "figure_4_bulk_context.pdf",
+    "figure_4_bulk_context.svg",
+    "figure_5_bulk_paired_genes.png",
+    "figure_5_bulk_paired_genes.pdf",
+    "figure_5_bulk_paired_genes.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial descriptive R3 expression stage, following matrix/design qualification; does not replace planned source limma reproduction."
+}

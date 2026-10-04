@@ -1,0 +1,23 @@
+{
+  "passed": false,
+  "single_features_checked": 6373,
+  "meta_features_checked": 1722,
+  "expanded_rows_checked": 6353,
+  "max_absolute_differences": {
+    "d": 3.592869057822412e-11,
+    "U": 683.0,
+    "p": 0.4704310038497787,
+    "q": 0.4784117548461183,
+    "within_group_distance": 0.019949394617427396
+  },
+  "checks": [
+    "scalar pooled variance and effect direction",
+    "manual rank-sum U, tie/continuity correction and normal tail",
+    "independent BH ordering",
+    "all complete-link groups satisfy the declared distance cut",
+    "group-to-member expansion",
+    "unique-group pathway counts",
+    "retained reaction identities"
+  ],
+  "limits": "Same-data numerical verification, not independent biological replication. Complete-link cut checked within groups; it does not recover unknown manuscript curation or historical software."
+}

@@ -1,0 +1,26 @@
+{
+  "source_records": 12,
+  "animal_labels": 3,
+  "lineages": [
+    "Th17n",
+    "iTreg"
+  ],
+  "conditions": [
+    "control",
+    "DFMO"
+  ],
+  "genome": "mm10",
+  "source_time": "68 h, source figure/GEO design",
+  "source_map_independent_join": "12/12 exact to earlier R0 table",
+  "count_matrix_available": false,
+  "expected_filename": "GSE165088_Raw_Count_Data.csv.gz",
+  "expected_bytes": 1128862,
+  "decision": "HOLD peak-level numerical analysis",
+  "blocking_conditions": [
+    "Exact count matrix and peak interval universe not retrieved after public GEO HTTP, FTP and browser attempts.",
+    "S7 values and exact external motif/ChIP annotation universe remain inaccessible.",
+    "DESeq2 package-set process returned abnormal exit -1073741569; no real DESeq2 execution."
+  ],
+  "source_contradiction": "STAR Methods mentions an unpublished Th17p ATAC comparison; the deposited series and S7 legend describe only Th17n/iTreg. No Th17p peak or cross-assay physical pairing is invented.",
+  "unblocking_evidence": "Valid GSE165088 count matrix with peak coordinates, S7 and annotation definitions; qualified DESeq2 process; new frozen numerical contract."
+}

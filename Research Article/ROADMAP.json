@@ -511,16 +511,24 @@
       "doi": "10.1016/j.cell.2021.05.045",
       "pmid": "34216539",
       "pmcid": "PMC8621950",
-      "role": "Compass: immune-metabolic state inference from single-cell RNA; the method behind proposal W1",
+      "role": "Compass: reaction-level metabolic potential from RNA; method background for the separate Niethamer W1 pseudobulk proposal",
       "extract": [
         "how metabolic states are scored from single-cell RNA",
         "what validation the paper required",
         "the Th17 to Treg metabolic axis"
       ],
-      "datasets": [],
-      "folder": null,
-      "note_status": "not started; current comparison queue; owner reading unconfirmed",
-      "trial_status": "Niethamer W1 animal-level aMAC pseudobulk completed 2026-09-22; programme evidence remains correlation-sensitive. Compass flux inference has not run; reading status unchanged.",
+      "datasets": [
+        "GSE74833",
+        "GSE75109",
+        "GSE75111",
+        "GSE164999",
+        "GSE162300",
+        "GSE162382",
+        "GSE165088"
+      ],
+      "folder": "gate2_W1_wagner_th17_autoimmunity",
+      "note_status": "owner reading completed 2026-10-04; source and handmade-note reconciliation prepared",
+      "trial_status": "Wg-R01 reproduction and Wg-P01-P06 branches planned; no Wagner numerical analysis or Compass run. Existing Niethamer W1 pseudobulk remains separate.",
       "added": "2026-09-15"
     },
     {
@@ -686,7 +694,8 @@
   "folder_name_exceptions": {
     "yu_lee_choi_min_2026": "gate2_C3_yu_lee_choi_min_2026: owner-selected branch 2C item 3; stable paper order 13.",
     "england_2025": "gate2_C2_england_2025: branch 2C item 2; stable paper order 12.",
-    "nabhan_2023": "gate2_N1_nabhan_2023: owner-selected branch 2N item 1; stable paper order 6."
+    "nabhan_2023": "gate2_N1_nabhan_2023: owner-selected branch 2N item 1; stable paper order 6.",
+    "wagner_2021_compass": "gate2_W1_wagner_th17_autoimmunity: owner-requested paper folder, stable paper 15 / Gate 2W. Wg identifiers distinguish it from the existing Niethamer W1 analysis."
   },
   "current_reading_queue": {
     "updated": "2026-10-01",

@@ -1,0 +1,34 @@
+{
+  "scope": "Source/matrix/design qualification; no expression contrasts or fitted differential-expression model",
+  "source_sample_records": 64,
+  "independently_verified_gsm_titles": 64,
+  "source_library_labels": 46,
+  "GSE162300": {
+    "records": 36,
+    "libraries": 18,
+    "animal_labels": 3,
+    "technical_records_per_library": 2,
+    "source_processing": "Bowtie2/RSEM; GRCm38.p3"
+  },
+  "GSE162382": {
+    "records": 28,
+    "libraries": 28,
+    "WT_animal_labels": 4,
+    "JMJD3_KO_animal_labels": 3,
+    "Th17p_present": false,
+    "source_processing": "Kallisto; GRCm38.96"
+  },
+  "decision": "PASS exact matrix/source joins, numeric scale and full-rank within-series blocked candidate designs. Eligible for a separate frozen analysis; no model fitted in this run.",
+  "technical_run_decision": "36 run columns represent 18 libraries. Sum expected counts over two same-library runs for count-based analysis; keep 3 animal labels. Do not sum TPMs or treat runs as independent samples.",
+  "genotype_decision": "Animal-fixed-effect models absorb genotype main effects; directly model within-animal treatment effects and genotype-by-treatment terms. Rank is checked from source labels only.",
+  "biological_limits": "Animal identifiers are source labels, not independently audited specimen records. WT identifiers are scoped to each series; no cross-series pairing or independent replication is invented.",
+  "source_discrepancy": "Figure 6H legend states n=4; deposit provides four WT and three KO animal labels. Do not invent a fourth KO.",
+  "acquisition_failures": [],
+  "expression_values_inspected": "Only file integrity, numeric domain, totals, detection and technical-run concordance; no biological contrasts.",
+  "matrix_files": 4,
+  "matrix_columns_verified": 128,
+  "independent_checks": "Raw SOFT vs R0 identity joins; csv vs pandas all matrix values; exact rational vs NumPy SVD design ranks.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.bulk_paired_descriptive_v1",
+  "owner": "Wg-R01",
+  "contract": "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v1.json",
+  "contract_sha256": "26d1b5387d9234cf8a78bebee05b2ea66d2cbfebb84bf0b5aa745621409330d0",
+  "git_commit": "bbd0c6b2fe31ef82c5abc20a2e8550110b7f7603",
+  "started_at": "2026-10-04T09:43:14.564624+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_paired_descriptive_v1.py",
+    "--source",
+    "raw_data/wagner_r3_20261004",
+    "--qualification",
+    "analysis/research/runs/wg_bulk_qualification_v1",
+    "--output",
+    "analysis/research/runs/wg_bulk_paired_descriptive_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_est_counts.csv.gz",
+      "sha256": "a1ce2b41c817e7baaee9c159779edfaf5e12b953509d193481ab6caaf70f2548",
+      "study_id": "GSE162300",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_est_counts.csv.gz",
+      "sha256": "d44e8dc30356c682a8b7d8c7cd781c99337a7fe8cadeeee72bc4518c7c157e77",
+      "study_id": "GSE162382",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/source_sample_map.tsv",
+      "sha256": "7f07ac68a229a993ce6c3af91b55dd074fd84fdff0a3a5b567712bed3bfef714",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/library_design.tsv",
+      "sha256": "f6059fece28659d3787b8badf60498b7d2b7baa345ed10dcda68714abc1515a5",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/qualification.json",
+      "sha256": "9756a10c0d28a425da1674fe0cdaf991fc6ce36d50f0c44d3870435d74df88a6",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_paired_descriptive_v1.py",
+      "sha256": "58b26f01122c9d29a4fca821071c7cf4c73385529ba0b974b568fff8a17ed991"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/test_bulk_paired_descriptive_v1.py",
+      "sha256": "a601d02bd708134b09726b021665f578a9b9f2c722c591917235baa7c1bd3e4f"
+    }
+  ],
+  "status": "execution_failed",
+  "outputs": [],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 1,
+  "error": "Missing file: all_gene_paired_summaries.tsv.gz",
+  "finished_at": "2026-10-04T09:43:17.636619+00:00"
+}

@@ -1,0 +1,5 @@
+series	file	sha256	genes	columns	unique_gene_symbols	all_finite_nonnegative	independent_parser_exact_values	fractional_value_count	zero_gene_rows	matrix_column_join
+GSE162300	GSE162300_DFMO_RNA_TPMs.csv.gz	6d1dac1908a1d7a03d18dd957a828bc4d597cd9eaee7d1b814827fb12e5c984d	20817	36	True	True	True	451133	2543	exact unique titles; all source records represented
+GSE162300	GSE162300_DFMO_RNA_est_counts.csv.gz	a1ce2b41c817e7baaee9c159779edfaf5e12b953509d193481ab6caaf70f2548	20817	36	True	True	True	91200	2541	exact unique titles; all source records represented
+GSE162382	GSE162382_DFMO_JMJD3_TPMs.csv.gz	83598a1cf3c2ffd3b3b1e8c51baa0c229299e73a3d6f504d242119970fa06cf2	20891	28	True	True	True	379603	1700	exact unique titles; all source records represented
+GSE162382	GSE162382_DFMO_JMJD3_est_counts.csv.gz	d44e8dc30356c682a8b7d8c7cd781c99337a7fe8cadeeee72bc4518c7c157e77	20891	28	True	True	True	289672	1700	exact unique titles; all source records represented

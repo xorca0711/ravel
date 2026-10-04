@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.source_scores_v3",
+  "owner": "Wg-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do the pinned Compass penalties reconstruct the documented source condition contrasts, and does pathway aggregation obscure opposing reaction associations?",
+  "decision": "Determine the supported processed-output reproduction label and whether reaction-level resolution is necessary; retain grouping and source-count discrepancies.",
+  "strongest_rival": "Incorrect score orientation, reaction mapping, duplicated metareaction members, near-constant profiles and unknown biological nesting can create apparent metabolic specificity.",
+  "discriminator": "Reconstruct tutorial and metareaction routes separately, verify arithmetic independently, and report all declared source pathways with deduplicated group directions.",
+  "evidence_refs": [
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_ANALYSIS_DESIGN_v1.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/PRECEDENT_REVIEW.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/branches/P02_reaction_heterogeneity.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/NUMERICAL_AMENDMENT_v3.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published outcomes, source tutorial plots, source methods and R0 metadata were viewed before this specification. Expression and reaction values were downloaded in R0; no new numerical contrast was inspected before this freeze. The failed v1 run exposed only the number of retained individual reactions; no effect table was written or inspected. v2 count/verification summaries were inspected: 1912 formed, 1722 tested groups, 784 core groups, 20 bidirectional pathways. The numerical amendment follows this exposure; no confirmatory status is claimed.",
+  "biological_unit": "Independent animal or culture/preparation remains unresolved; the 290 cells are source observations, not independent biological replicates.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "The 2015 source cells are reused by the author example. Related reactions share metareaction estimates, and groups can belong to several pathways. There is no external replication or verified animal split.",
+  "population_and_selection": "All 139 Th17p and 151 Th17n author cells; all deposited penalty rows initially. Fixed source range, core annotation and pathway-display filters; no outcome-based cell selection.",
+  "contrast": "Th17p minus Th17n standardized transformed-score difference, with reaction versus metareaction and member-weighted versus unique-group pathway summaries.",
+  "endpoint": "Transformed-score Cohen d; source-cell U/p/BH q; group membership and source-count discrepancy; unique-group pathway direction and selected score distributions.",
+  "methods": "Negative log1p and range >=0.001. Two-sided asymptotic Mann-Whitney with ties/continuity; BH before annotation filtering. Rank raw nonconstant rows, complete-link Spearman distance cut 0.02, average raw penalties per group then transform/test. Core confidence 0/4 plus EC. Fixed source compartment/display rules and unique-group pathway medians; independent scalar arithmetic verification. Exact choices in SOURCE_ANALYSIS_DESIGN_v1.md.",
+  "missingness_and_exclusions": "Stop on identity, finite-value or mapping failures. Exclude exactly constant rows from undefined clustering and retain all exclusion IDs. Keep zero-variance effects and unavailable named reactions missing. No imputed units or post-result curation.",
+  "multiplicity": "Separate BH families: all range-retained single reactions, and all range-retained metareactions. Core/pathway selection is after correction. Source q<0.1 is a display/reconstruction setting, not new animal-level inference.",
+  "precision_status": "unknown",
+  "precision_basis": "No independent-unit variance or justified effect margin exists. No biological confidence interval, power claim or equivalence test is produced.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Inferred potential-activity scores are not measured flux or function. Cell-level tests reproduce source convention but do not support animal-level inference. No exact numerical manuscript table is available; count/qualitative concordance is not complete paper reproduction.",
+  "stop_rule": "Stop on source/hash/identity/mapping/nonfinite failures or independent arithmetic verification failure. Retain all manuscript-count and directional discrepancies without changing filters. Other stages remain independently gated.",
+  "inputs": [
+    {
+      "path": "raw_data/wagner_r0_20261004/reactions.tsv",
+      "sha256": "409e3a6edfe4a720e399fa74dcb39db9257da967a11bbfb9fbb86c9cd2931c5c",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/cell_metadata.csv",
+      "sha256": "c8e50d3f54793da523c72f600525ec074a57fc2d87eb900d6e30541e7a626531",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/reaction_metadata.csv",
+      "sha256": "8b0dde8f7593192d9111a55cf4b012195817fb51b4802d6b275342ddcd237faf",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/Demo.ipynb",
+      "sha256": "30de951fceff0fbf73ab04f6e1592250861cae470d47d21402a095af39628c6b",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/compass_analysis.py",
+      "sha256": "b78584b2da05620a9c8e9230a3109f0c1912a17c15b3ae7b3639a6c2ef225600",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_qualification_v1/cell_join.tsv",
+      "sha256": "442c66c55dbea9c342f850b8298f0d101c775cceb10389764aed041c735703b2",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_qualification_v1/receipt.json",
+      "sha256": "d1c9946980f4580d6a25a4f5118917b908105292cf6726a7c7a680cfec21c492",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r1_source_20261004/runtime_qualification_v1.json",
+      "sha256": "0e0d14c506667462e32f642dc36245c2b3a3cac9e141f0cfad2c8f2ba9ce6871",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r1_source_20261004/wagner_paper.txt",
+      "sha256": "2311385d4189ffb72a0371581df8f74e6a3a6c843590a39c1682820cafb74f70",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/source_scores_v3.py",
+      "sha256": "0545e3f310b47356a2497cd2d38ed642fba7d5583cae64555d39f0a37f5bd2fc"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/verify_source_scores_v2.py",
+      "sha256": "3a8a7e1d6cec8e45d193743e849923be0cad9a7cd5229440bbb1bfd52db9df59"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/test_source_scores_v3.py",
+      "sha256": "b46bee3913748add0fa0d5be440aec218bbcf0819cabf7949fd759bd22241923"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/source_scores_v3.py",
+  "arguments": [
+    "--source",
+    "raw_data/wagner_r0_20261004",
+    "--r0",
+    "analysis/research/runs/wg_source_qualification_v1",
+    "--runtime",
+    "raw_data/wagner_r1_source_20261004/runtime_qualification_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "reaction_statistics.tsv",
+    "metareaction_statistics.tsv",
+    "metareaction_membership.tsv",
+    "expanded_metareaction_statistics.tsv",
+    "pathway_summary.tsv",
+    "selected_reactions.tsv",
+    "selected_cell_scores.tsv",
+    "exclusions.tsv",
+    "summary.json",
+    "environment.json",
+    "verification.json",
+    "tested_scores.npz"
+  ],
+  "amendment_of": "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+  "amendment_reason": "v2 numerical verification failed because unshifted versus shifted float64 scores and differing sum/log implementations change near-equal ties (20 single and 8 group U discrepancies). Preserve exact tested score arrays. Verify transform/common shift independently to 1e-11, and recompute rank tests on those exact arrays. Statistical estimates, all original tolerances and scientific choices unchanged. See NUMERICAL_AMENDMENT_v3.md."
+}

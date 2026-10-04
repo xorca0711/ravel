@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "single_features_checked": 6373,
+  "meta_features_checked": 1722,
+  "expanded_rows_checked": 6353,
+  "max_absolute_differences": {
+    "d": 3.830377681701691e-11,
+    "U": 0.0,
+    "p": 6.661338147750939e-16,
+    "q": 7.771561172376096e-16,
+    "within_group_distance": 0.019949394617427396
+  },
+  "max_transform_residual": 3.552713678800501e-15,
+  "unshifted_rounding_tie_differences": {
+    "single": 20,
+    "meta": 8
+  },
+  "checks": [
+    "independent transform and common-shift consistency",
+    "scalar pooled variance and effect direction",
+    "manual rank-sum U, tie/continuity correction and normal tail",
+    "independent BH ordering",
+    "all complete-link groups satisfy the declared distance cut",
+    "group-to-member expansion",
+    "unique-group pathway counts",
+    "retained reaction identities"
+  ],
+  "limits": "Same-data numerical verification, not independent biological replication. Complete-link cut checked within groups; it does not recover unknown manuscript curation or historical software."
+}

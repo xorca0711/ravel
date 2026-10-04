@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.bulk_paired_descriptive_v2",
+  "owner": "Wg-R01",
+  "contract": "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json",
+  "contract_sha256": "b187cb1582a6b33136174beb68a1a30195b1659604f21268a53d4af99eeee3e2",
+  "git_commit": "62140a103499ebfb7c25aa28c207e1b11e77cce0",
+  "started_at": "2026-10-04T09:45:36.339136+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_paired_descriptive_v2.py",
+    "--source",
+    "raw_data/wagner_r3_20261004",
+    "--qualification",
+    "analysis/research/runs/wg_bulk_qualification_v1",
+    "--output",
+    "analysis/research/runs/wg_bulk_paired_descriptive_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_est_counts.csv.gz",
+      "sha256": "a1ce2b41c817e7baaee9c159779edfaf5e12b953509d193481ab6caaf70f2548",
+      "study_id": "GSE162300",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_est_counts.csv.gz",
+      "sha256": "d44e8dc30356c682a8b7d8c7cd781c99337a7fe8cadeeee72bc4518c7c157e77",
+      "study_id": "GSE162382",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/source_sample_map.tsv",
+      "sha256": "7f07ac68a229a993ce6c3af91b55dd074fd84fdff0a3a5b567712bed3bfef714",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/library_design.tsv",
+      "sha256": "f6059fece28659d3787b8badf60498b7d2b7baa345ed10dcda68714abc1515a5",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/qualification.json",
+      "sha256": "9756a10c0d28a425da1674fe0cdaf991fc6ce36d50f0c44d3870435d74df88a6",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_paired_descriptive_v2.py",
+      "sha256": "9d3ce10c53404eb3dcd02321eb5a9f14f14b784fc4e60f3ea43c2e010d02a0bb"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/test_bulk_paired_descriptive_v2.py",
+      "sha256": "459655b083a8eb3f4d9144d3c2ef66006b046cccc78d3d24aa2eb441456e295a"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/all_gene_paired_summaries.tsv.gz",
+      "sha256": "4c74c24bbfa7fbc0e55c45cefd8594806d9ce75c6001347247709a83e2408e52"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/all_gene_genotype_response_differences.tsv.gz",
+      "sha256": "e208b9810971adfa6201a31699836b63507d702fc9046e8408aeb88a17009835"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/prespecified_gene_animal_changes.tsv",
+      "sha256": "971de62b9df5d38d9cba7bbf997e7313461d23f054e024d23db61de3280eff7b"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/prespecified_gene_summaries.tsv",
+      "sha256": "1872fa39979c140b3aa3e8ff1652ce6275616b44a69e58e147542bea1efa160e"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/prespecified_genotype_response_differences.tsv",
+      "sha256": "d0cf21777d6fabe1831a2e403090e20e26c3c8fff2a68a1375518635c88d7170"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/prespecified_baseline_p_vs_n.tsv",
+      "sha256": "808415dfb0fb492d3e673bf77c23531b0e12fcf9956ce86509f31d6468cdb0da"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/pca_coordinates.tsv",
+      "sha256": "83f9447c96778e203059d836abbb741310f65aa014ad623ca6be92e8884c013f"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/collapsed_library_qc.tsv",
+      "sha256": "4a6e7c3c2ff54266f497f872d938385fb4fa5ae3d2fa43bcf972273df435fd88"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/GSE162300_expression_arrays.npz",
+      "sha256": "7586bb2c321ce3b9b9f3031f1c83fe56a90fc3581b1f5007424fd70b0e7516ca"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/GSE162382_expression_arrays.npz",
+      "sha256": "ab7114e1cdfb354b0e6ef7b78cab0726e15bb0775bbf3e7a4f3c21cc0b6b4c7d"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/results.json",
+      "sha256": "623950531cfcd6c9c0ea212cd53f545f0fe963c23825535130814420dd0f3242"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/figure_manifest.json",
+      "sha256": "adebdf56cda4fb277cf5014b8c5d3272043a6340e88ca711be4754a388da2c35"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/CAPTIONS.md",
+      "sha256": "33ea88131a461a624b020fa8d2be56839628094d5bbac5461e89cfcb5f97224a"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/Wagner_R3_initial_figures.pdf",
+      "sha256": "6fcb3df7bb55535e500d9f2aa1cd87440829bc78d4c5f28bf2d51a398b9e7127"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/figure_4_bulk_context.png",
+      "sha256": "96f0001e3c1f2e6ad6d99e3a42a9d2dfbd3198f0c11de42fd620030e7003e293"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/figure_4_bulk_context.pdf",
+      "sha256": "367ccf57214e9ba9f46de07ee404e80a36b10bfa8b05df9ea672b5bfc6f68c5c"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/figure_4_bulk_context.svg",
+      "sha256": "8d57d58de6c3885ddc7128a554e01e53d0de4ee59e660d9861ac23597baa0faf"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/figure_5_bulk_paired_genes.png",
+      "sha256": "2bdc15e7ed0a1faa1856ed50caff5da85d81f969b502c871d6f0849698e235e1"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/figure_5_bulk_paired_genes.pdf",
+      "sha256": "fbeb14fb1356d6eac3a4337a3f87b3b1607024b71a82d2fb44415abb73a7eae1"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/figure_5_bulk_paired_genes.svg",
+      "sha256": "d08c06996199a0f5b4e40e49dc32527b6bbfd926e267776044e700a0af7a360d"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/gene_identity_map.tsv",
+      "sha256": "a6dd96b1e38d0b6a06bd6326b0b3811b34bce5d8075b2b23054eefaf0a58f819"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-04T09:46:28.986719+00:00"
+}

@@ -162,3 +162,44 @@ analysis/scripts/qualify_a17_kernel_v1.py -text whitespace=cr-at-eol
 analysis/scripts/qualify_rochelle_metadata_v1.py -text whitespace=cr-at-eol
 analysis/tests/test_a17_branching_kernel_v1.py -text whitespace=cr-at-eol
 analysis/tests/test_rochelle_metadata_v1.py -text whitespace=cr-at-eol
+
+# Preserve exact bytes of Wagner prospective code and contracts.
+"Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/**" -text whitespace=cr-at-eol
+"Research Article/gate2_W1_wagner_th17_autoimmunity/config/**" -text whitespace=cr-at-eol
+# R0 was committed with LF but executed with CRLF; reproduce the recorded bytes
+# on every OS without changing its original Git blob or receipt hash.
+"Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json" text eol=crlf whitespace=cr-at-eol
+analysis/research/runs/wg_source_qualification_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_source_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve immutable Wagner numerical and figure run bytes.
+analysis/research/runs/wg_source_scores_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_source_scores_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_figures_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_source_scores_v2/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_source_scores_v2/*.tsv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_source_scores_v3/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_source_scores_v3/*.tsv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_figures_v2/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_figures_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_figures_v2/*.svg whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_figures_v1/CAPTIONS.md whitespace=cr-at-eol,-blank-at-eof
+
+analysis/research/runs/wg_bulk_qualification_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_bulk_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+
+analysis/research/runs/wg_bulk_paired_descriptive_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_bulk_paired_descriptive_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_bulk_paired_descriptive_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
+
+analysis/research/runs/wg_bulk_paired_descriptive_v2/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_bulk_paired_descriptive_v2/*.tsv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_bulk_paired_descriptive_v2/*.svg whitespace=cr-at-eol,-blank-at-eol
+
+analysis/research/runs/wg_bulk_figures_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_bulk_figures_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
+
+analysis/research/runs/wg_bulk_limma_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_bulk_limma_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_closeout_qualification_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_closeout_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol

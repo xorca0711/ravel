@@ -33,6 +33,7 @@ remaining reproduction inputs. No new scientific model fit or raw-RNA scoring wa
 | Review of intermediate and final outputs | Me |
 | Retain / revise / reject decision on every result | Me |
 | Structuring Nabhan 2026 after reading, including article/supplement/Notion synthesis, existing A10/A2 reuse and eight extension questions | Me (instruction 2026-10-01, corrected folder year to 2026); Codex source review, schema intake and pipeline scaffold. No new biological fit or scientific acceptance decision; proposed analysis contracts remain reviewable |
+| Structuring Wagner 2021 after owner reading, with source reproduction and six article-local branches | Me (instruction 4 October 2026, including folder name and use of handmade notes); Codex source review and proposed structure. No numerical run, global RQ allocation or scientific acceptance |
 | Literature extraction into study notes and reviewable configs (`Research Article/`) | AI-assisted; my review pending |
 | Focused reproductions of the source paper's phase and myeloid claims (`phase_timecourse/`, `myeloid_focus/`) | AI-assisted, rules frozen before each run; my review pending |
 | Repository framing, and what is displaced as established elsewhere | Me (instruction 2026-09-10); AI-assisted execution |

@@ -1,0 +1,39 @@
+{
+  "scope": "exposed source-aligned limma reconstruction; author settings and supplement concordance unavailable",
+  "series": {
+    "GSE162300": {
+      "input_genes": 20817,
+      "filtered_genes": 11512,
+      "excluded_genes": 9305,
+      "libraries": 18,
+      "design_rank": 8,
+      "residual_df": 10,
+      "animals": ["WT1", "WT2", "WT3"],
+      "program_counts": {
+        "NS": 9052,
+        "Th17": 1159,
+        "Treg": 1301
+      },
+      "primary_vs_sensitivity_changed": 1150,
+      "maximum_library_ratio": 1.6836
+    },
+    "GSE162382": {
+      "input_genes": 20891,
+      "filtered_genes": 12668,
+      "excluded_genes": 8223,
+      "libraries": 28,
+      "design_rank": 13,
+      "residual_df": 15,
+      "animals": ["JMJD3CKO1", "JMJD3CKO2", "JMJD3CKO3", "WT1", "WT2", "WT3", "WT4"],
+      "program_counts": {
+        "NS": 9528,
+        "Th17": 1743,
+        "Treg": 1397
+      },
+      "primary_vs_sensitivity_changed": 1034,
+      "maximum_library_ratio": 2.1372
+    }
+  },
+  "R": "R version 4.6.1 (2026-06-24 ucrt)",
+  "packages": ["3.68.5", "4.10.5", "2.0.0"]
+}

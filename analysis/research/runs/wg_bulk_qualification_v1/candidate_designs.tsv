@@ -1,0 +1,9 @@
+series	candidate_model	n_libraries	n_animals	columns	rank	residual_df_if_fitted	full_rank	terms	independent_svd_rank	expression_fit_status
+GSE162300	all_lineages_animal_blocked	18	3	8	8	10	True	intercept;animal_WT2;animal_WT3;lineage_Th17p;lineage_iTreg;DFMO;lineage_Th17p:DFMO;lineage_iTreg:DFMO	8	not_run; qualification only
+GSE162300	Th17n_animal_blocked	6	3	4	4	2	True	intercept;animal_WT2;animal_WT3;DFMO	4	not_run; qualification only
+GSE162300	Th17p_animal_blocked	6	3	4	4	2	True	intercept;animal_WT2;animal_WT3;DFMO	4	not_run; qualification only
+GSE162300	iTreg_animal_blocked	6	3	4	4	2	True	intercept;animal_WT2;animal_WT3;DFMO	4	not_run; qualification only
+GSE162382	all_lineages_animal_blocked	28	7	13	13	15	True	intercept;animal_JMJD3CKO2;animal_JMJD3CKO3;animal_WT1;animal_WT2;animal_WT3;animal_WT4;lineage_iTreg;DFMO;lineage_iTreg:DFMO;KO:DFMO;KO:lineage_iTreg;KO:lineage_iTreg:DFMO	13	not_run; qualification only
+GSE162382	Th17n_animal_blocked	14	7	9	9	5	True	intercept;animal_JMJD3CKO2;animal_JMJD3CKO3;animal_WT1;animal_WT2;animal_WT3;animal_WT4;DFMO;KO:DFMO	9	not_run; qualification only
+GSE162382	iTreg_animal_blocked	14	7	9	9	5	True	intercept;animal_JMJD3CKO2;animal_JMJD3CKO3;animal_WT1;animal_WT2;animal_WT3;animal_WT4;DFMO;KO:DFMO	9	not_run; qualification only
+GSE162382	diagnostic_aliased_genotype_main	28	7	14	13	15	False	intercept;animal_JMJD3CKO2;animal_JMJD3CKO3;animal_WT1;animal_WT2;animal_WT3;animal_WT4;lineage_iTreg;DFMO;lineage_iTreg:DFMO;KO:DFMO;KO:lineage_iTreg;KO:lineage_iTreg:DFMO;KO_main	13	not_run; qualification only

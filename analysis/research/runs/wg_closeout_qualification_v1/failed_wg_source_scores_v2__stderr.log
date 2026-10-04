@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "X:\GitHub\scRNA_seq\.worktrees\wagner-continuation-20261004\Research Article\gate2_W1_wagner_th17_autoimmunity\scripts\source_scores_v2.py", line 196, in <module>
+    run(args.source, args.r0, args.runtime, args.output)
+  File "X:\GitHub\scRNA_seq\.worktrees\wagner-continuation-20261004\Research Article\gate2_W1_wagner_th17_autoimmunity\scripts\source_scores_v2.py", line 185, in run
+    raise ValueError('Independent numerical checks failed')
+ValueError: Independent numerical checks failed

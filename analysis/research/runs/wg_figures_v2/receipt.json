@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.article_figures_v2",
+  "owner": "Wg-R01",
+  "contract": "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json",
+  "contract_sha256": "acbde22c58c24fbe95bb2f998eb17845e4cf8b9eae757cb252cb8c0bf3c7e538",
+  "git_commit": "6594cb14c6bfeb9ebe3cc77c04597fbe8e713e2d",
+  "started_at": "2026-10-04T08:30:45.363641+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/article_figures_v2.py",
+    "--source",
+    "analysis/research/runs/wg_source_scores_v3",
+    "--output",
+    "analysis/research/runs/wg_figures_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/expanded_metareaction_statistics.tsv",
+      "sha256": "d19325b19e09bb5e2a022bb8d19811aebee0193302ab625c412aaaa0c30c7101",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/reaction_statistics.tsv",
+      "sha256": "63af14c9f697a8c7fc35dd3065f1cbb34fa78040628cdee47b4e9e0933326227",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/selected_reactions.tsv",
+      "sha256": "1d5fa3960146fa2b66b84f85a2adec87472d3e67373c29954544679724388b8e",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/selected_cell_scores.tsv",
+      "sha256": "0cd563e3ace00069e419445f22f6545cf822d34017b8b79c907140f8674d02c7",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/pathway_summary.tsv",
+      "sha256": "363f54766bc513808ca1708c54b75fe7db5a467419921e7f48276c6788ea53d8",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/metareaction_membership.tsv",
+      "sha256": "3b3f050c4e0d9036e92ee8455ace8f30cab6520167879d51dcaea2051c44faf4",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/summary.json",
+      "sha256": "ff046b193b592373cb946178ede19cd793a3a68a2be2e9aeac518ea2268acf79",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/environment.json",
+      "sha256": "0e0d14c506667462e32f642dc36245c2b3a3cac9e141f0cfad2c8f2ba9ce6871",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/verification.json",
+      "sha256": "6cec10e6d9a3a4c3db14f8713bc52c359caac438fcfe93a9dd5e58e526da88fd",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/receipt.json",
+      "sha256": "c6853be82b43237ca7c9e07810068e44b99b113f39f42a67e4dc933b93413ac7",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/article_figures_v2.py",
+      "sha256": "f65dd8a54b555b87b2e30945aab8d6e9a638ff8cd11d5c64b4b4b0be8cce5df0"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_1.pdf",
+      "sha256": "bc0fc8a32df4a7a2c7e6576c6cda0d7e9211b5b70258d0cad75c893c4f8c9edb"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_1.svg",
+      "sha256": "1a27f661206c4431e01d8e2d1b7c81695b1c1ea6a9012856356c2a7d80b05578"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_1.png",
+      "sha256": "1d1a694da7d90126c7579203d9e650735606c733f7a8644b024b0a4e06ab6594"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_2.pdf",
+      "sha256": "8158fbbb9baf57a33d477400bc463c95ac9dbb417235e85d469b5c4740c1185d"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_2.svg",
+      "sha256": "6ca3a348199700e15433127065eeb38655720549271df1814c8fb9526ff2dcac"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_2.png",
+      "sha256": "f79abed432b69c472347a8d9c8f8a95671a872c90e4ea11cf44bad78eb483dc8"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_3.pdf",
+      "sha256": "0954feeff67d957bf91fc883b51726782247c98422a82189da6912ce82defdfe"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_3.svg",
+      "sha256": "1e4b298da99c631f3d974ce129a13aba395221685cf20b17ddd7fc01238dbd78"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_3.png",
+      "sha256": "7457a3949eb9c75603508625687447333b17a087f04042b13f870e99deb3c133"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_S1.pdf",
+      "sha256": "33e57ba1bd52d3bcb571c5168bdb163da65956990b3190affae22863183000b9"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_S1.svg",
+      "sha256": "4bed8b40553ba673bd3bd7b51d409a2d59a719fcf6899d11a489a4d2b98328ab"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_S1.png",
+      "sha256": "afd38f2e43cd482492c4e23045191df203e7934d1f8e05aba66cc585cb0e936b"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/Wagner_R1_figures.pdf",
+      "sha256": "75e5a3ed8ebfc2c7e8620eb77c0c532631c2cec9e31f649b783e596d1bb78f0f"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/CAPTIONS.md",
+      "sha256": "7ca969aef09a214f58366693cf735106f0293ea29b2fa0e061ce043301fc6d02"
+    },
+    {
+      "path": "analysis/research/runs/wg_figures_v2/figure_manifest.json",
+      "sha256": "7ce98e296ccc77d804f9eb854a3050116440d0445ebf7a3cff29190e7e65f952"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-04T08:31:39.365126+00:00"
+}

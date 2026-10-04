@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "author_tree.json",
+      "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/31141a8d82872fb09803a0bf66ffc793d1410be8?recursive=1",
+      "bytes": 31205,
+      "sha256": "ce2afc834ff14ffbaca5eb01b93ef0b769edac0e32d21986202764040cbc289d",
+      "retrieved_utc": "2026-10-04T06:59:35.097180+00:00"
+    },
+    {
+      "path": "GSE75109_family.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE75109&targ=all&form=text&view=full",
+      "bytes": 935521,
+      "sha256": "6e128cea652b700e7b3f3c6dc425cd3f1a7b4bb38d47437e7f83b2b2c606299a",
+      "retrieved_utc": "2026-10-04T06:59:40.563297+00:00"
+    },
+    {
+      "path": "GSE75111_family.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE75111&targ=all&form=text&view=full",
+      "bytes": 990503,
+      "sha256": "21d0349045ae5ca7882d973fb9a1eed692f2f5df1aedfae4dd419babeb1444e4",
+      "retrieved_utc": "2026-10-04T06:59:41.578476+00:00"
+    },
+    {
+      "path": "GSE162300_family.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162300&targ=all&form=text&view=full",
+      "bytes": 11736764,
+      "sha256": "9396e71b9d26ed7075cd48b1cd67e7da6174db859b3394ff8164b6fc0974cce4",
+      "retrieved_utc": "2026-10-04T06:59:46.100385+00:00"
+    },
+    {
+      "path": "GSE162382_family.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162382&targ=all&form=text&view=full",
+      "bytes": 11713057,
+      "sha256": "377bc43dc1b8bd142f1bd1a6c69ef1229ea863588aa7f41e9c65cc8df0852bc4",
+      "retrieved_utc": "2026-10-04T06:59:46.114870+00:00"
+    },
+    {
+      "path": "GSE165088_family.soft",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165088&targ=all&form=text&view=full",
+      "bytes": 2455158,
+      "sha256": "9d32dbc61c4e4133dedf0ef6b27f6bdc2d147adb9b6c93a76e5ddb6bf4966565",
+      "retrieved_utc": "2026-10-04T06:59:45.002487+00:00"
+    },
+    {
+      "path": "Demo.ipynb",
+      "upstream_path": "notebooks/Demo.ipynb",
+      "url": "https://raw.githubusercontent.com/YosefLab/Compass/31141a8d82872fb09803a0bf66ffc793d1410be8/notebooks/Demo.ipynb",
+      "bytes": 366938,
+      "sha256": "30de951fceff0fbf73ab04f6e1592250861cae470d47d21402a095af39628c6b",
+      "git_blob_sha1": "21518eda142e18d84c893eaa149ad3c856a2c7ef",
+      "retrieved_utc": "2026-10-04T07:00:59.170999+00:00"
+    },
+    {
+      "path": "compass_analysis.py",
+      "upstream_path": "notebooks/compass_analysis.py",
+      "url": "https://raw.githubusercontent.com/YosefLab/Compass/31141a8d82872fb09803a0bf66ffc793d1410be8/notebooks/compass_analysis.py",
+      "bytes": 5076,
+      "sha256": "b78584b2da05620a9c8e9230a3109f0c1912a17c15b3ae7b3639a6c2ef225600",
+      "git_blob_sha1": "6c8a77c106e336356777fdb869d42a87d06c4d34",
+      "retrieved_utc": "2026-10-04T07:00:58.980583+00:00"
+    },
+    {
+      "path": "reaction_metadata.csv",
+      "upstream_path": "notebooks/extdata/RECON2/reaction_metadata.csv",
+      "url": "https://raw.githubusercontent.com/YosefLab/Compass/31141a8d82872fb09803a0bf66ffc793d1410be8/notebooks/extdata/RECON2/reaction_metadata.csv",
+      "bytes": 1761000,
+      "sha256": "8b0dde8f7593192d9111a55cf4b012195817fb51b4802d6b275342ddcd237faf",
+      "git_blob_sha1": "2175a49574ea04a158ea5ba9676f12670d9f33be",
+      "retrieved_utc": "2026-10-04T07:00:59.359260+00:00"
+    },
+    {
+      "path": "cell_metadata.csv",
+      "upstream_path": "notebooks/extdata/Th17/cell_metadata.csv",
+      "url": "https://raw.githubusercontent.com/YosefLab/Compass/31141a8d82872fb09803a0bf66ffc793d1410be8/notebooks/extdata/Th17/cell_metadata.csv",
+      "bytes": 14981,
+      "sha256": "c8e50d3f54793da523c72f600525ec074a57fc2d87eb900d6e30541e7a626531",
+      "git_blob_sha1": "317a4c8ddf73365ab746a2fdf8bdd7e172b2142e",
+      "retrieved_utc": "2026-10-04T07:00:59.350595+00:00"
+    },
+    {
+      "path": "reactions.tsv",
+      "upstream_path": "notebooks/extdata/Th17/reactions.tsv",
+      "url": "https://raw.githubusercontent.com/YosefLab/Compass/31141a8d82872fb09803a0bf66ffc793d1410be8/notebooks/extdata/Th17/reactions.tsv",
+      "bytes": 38992230,
+      "sha256": "409e3a6edfe4a720e399fa74dcb39db9257da967a11bbfb9fbb86c9cd2931c5c",
+      "git_blob_sha1": "4f42e9526806172300692e270db14f9bd48970c1",
+      "retrieved_utc": "2026-10-04T07:01:03.140665+00:00"
+    },
+    {
+      "path": "linear_gene_expression_matrix.tsv",
+      "upstream_path": "notebooks/extdata/Th17/linear_gene_expression_matrix.tsv",
+      "url": "https://raw.githubusercontent.com/YosefLab/Compass/31141a8d82872fb09803a0bf66ffc793d1410be8/notebooks/extdata/Th17/linear_gene_expression_matrix.tsv",
+      "bytes": 30521336,
+      "sha256": "6e08727b10d752fdde7cce3cbe7de217f66aa503b9cbbd5a3edaa56debfebfcf",
+      "git_blob_sha1": "b449d7dbef73a8304bf01870eccb9b3747175941",
+      "retrieved_utc": "2026-10-04T07:01:03.594916+00:00"
+    }
+  ]
+}

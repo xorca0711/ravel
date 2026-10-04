@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.bulk_qualification_v1",
+  "owner": "Wg-R01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do the deposited bulk RNA matrices have exact source-sample joins, valid numeric scales and identifiable within-animal treatment designs?",
+  "decision": "Qualify separate subsequent bulk analyses only after matrix, technical-library, animal allocation and candidate-design checks pass.",
+  "strongest_rival": "Technical sequencing repeats or genotype/animal aliasing create apparent independent samples or non-identifiable contrasts.",
+  "discriminator": "Exact matrix title to R0/raw SOFT joins, count/TPM gene identity equality, same-library technical-run evidence, and exact design ranks checked independently by SVD.",
+  "evidence_refs": [
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/NUMERICAL_AMENDMENT_v3.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/REPRODUCTION_SCOPE.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/branches/P03_state_shift_selection.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published bulk figures and methods, R0 metadata and prior R1 outcomes are exposed. The four downloaded matrix headers were inspected before this freeze. Biological bulk contrasts and matrix numeric QC have not been computed by this new entrypoint before freezing.",
+  "biological_unit": "Source-labelled animal within each GEO series; original physical preparation records not independently audited.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "GSE162300 has 36 sequencing runs for 18 libraries nested in three animal labels. GSE162382 has 28 libraries in four WT and three KO labels. Same WT labels across series are not paired or claimed independent replication.",
+  "population_and_selection": "All 64 source records, all columns and all deposited gene rows of four processed files; no outcome-based sample selection.",
+  "contrast": "Metadata and design concordance only; no DFMO, lineage or genotype expression contrast is fitted.",
+  "endpoint": "Exact joins, gene uniqueness/order, numeric-domain checks, sample totals/detection, technical-run concordance and candidate model ranks.",
+  "methods": "Validate all gzip hashes against browser acquisition manifest; parse with csv and independently with pandas, requiring exact numeric agreement. Compare raw SOFT and R0 identities. Compute sample numeric summaries and log1p all-gene Pearson correlation for technical run pairs without exclusions. Build animal-blocked lineage-treatment interaction designs and genotype treatment/lineage interactions; compare rational rank with NumPy SVD. Include an intentionally aliased genotype-main-effect model as a diagnostic.",
+  "missingness_and_exclusions": "No samples or genes excluded. Missing/duplicate identifiers, incomplete run pairs, nonfinite/negative values, unequal count/TPM IDs or hashes stop execution. Numeric QC flags do not authorize post-hoc exclusion.",
+  "multiplicity": "No biological hypothesis tests or significance claims; all QC summaries are descriptive.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Design rank is algebraic identifiability, not power or biological effect precision. No meaningful effect margin is invented.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Matrix qualification does not establish model adequacy, physical specimen independence, biological mechanism, fate conversion or exact historical limma reproduction. Published n=4 does not create a fourth deposited KO animal.",
+  "stop_rule": "Stop on identity, numeric-domain, parser, hash or rank-check disagreement. No expression model can run under this contract; a separate frozen analysis is required.",
+  "inputs": [
+    {
+      "path": "raw_data/wagner_r3_20261004/acquisition_v2.json",
+      "sha256": "82fbdb2289924fd5f6ba0e640671988458d877f8232e485b9e8eb60b18c746af",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_qualification_v1/samples.tsv",
+      "sha256": "353f762d6d2896bc758866dce15f6541cffbbe9f15929dc10fe7fb831c8e785e",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/GSE162300_family.soft",
+      "sha256": "9396e71b9d26ed7075cd48b1cd67e7da6174db859b3394ff8164b6fc0974cce4",
+      "study_id": "GSE162300",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/GSE162382_family.soft",
+      "sha256": "377bc43dc1b8bd142f1bd1a6c69ef1229ea863588aa7f41e9c65cc8df0852bc4",
+      "study_id": "GSE162382",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_est_counts.csv.gz",
+      "sha256": "a1ce2b41c817e7baaee9c159779edfaf5e12b953509d193481ab6caaf70f2548",
+      "study_id": "GSE162300",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_TPMs.csv.gz",
+      "sha256": "6d1dac1908a1d7a03d18dd957a828bc4d597cd9eaee7d1b814827fb12e5c984d",
+      "study_id": "GSE162300",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_est_counts.csv.gz",
+      "sha256": "d44e8dc30356c682a8b7d8c7cd781c99337a7fe8cadeeee72bc4518c7c157e77",
+      "study_id": "GSE162382",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_TPMs.csv.gz",
+      "sha256": "83598a1cf3c2ffd3b3b1e8c51baa0c229299e73a3d6f504d242119970fa06cf2",
+      "study_id": "GSE162382",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/qualify_bulk_design_v1.py",
+      "sha256": "519439e273af21151a2261482e2b63d037b7a9417aa76c5574b73e37825ffda6"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/test_qualify_bulk_design_v1.py",
+      "sha256": "1beed28ee72c68aa8dc53ba2ac2733b803304e3a69285fc8bfcac234be64016b"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/qualify_bulk_design_v1.py",
+  "arguments": [
+    "--source",
+    "raw_data/wagner_r0_20261004",
+    "--r0",
+    "analysis/research/runs/wg_source_qualification_v1",
+    "--acquisition",
+    "raw_data/wagner_r3_20261004/acquisition_v2.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_sample_map.tsv",
+    "library_design.tsv",
+    "candidate_designs.tsv",
+    "matrix_inventory.tsv",
+    "candidate_design_matrices.json",
+    "qualification.json",
+    "matrix_sample_qc.tsv",
+    "technical_run_qc.tsv",
+    "matrix_column_join.tsv",
+    "source_manifest.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial R3 matrix/design qualification after browser retry recovered all four requested processed matrices; prior scripted acquisition failures are retained."
+}

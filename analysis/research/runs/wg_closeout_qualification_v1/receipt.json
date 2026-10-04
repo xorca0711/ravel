@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.closeout_qualification_v1",
+  "owner": "Wg-R01",
+  "contract": "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json",
+  "contract_sha256": "11c90540d3fc4daf6b8362341a01559d8aef7cc5536e19da8c1f5338545cbdb6",
+  "git_commit": "3de0860ef2ada75e47536c980fa0c88e5fee3ad9",
+  "started_at": "2026-10-04T10:37:24.437524+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/closeout_qualification_v1.py",
+    "--output",
+    "analysis/research/runs/wg_closeout_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wg_source_scores_v1/receipt.json",
+      "sha256": "078ce896b469e2f5de43f5b960fff5c8c29ad34f32cbfd6ce0089ae243438e93",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v1/stderr.log",
+      "sha256": "c54c4b00b0b32e5c20e983e2bb1bbee7bd0d7772d3cb6498a0a22c04160fb4b8",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v1/stdout.log",
+      "sha256": "eaaa89b48b866f0d7d469f0460238bf8e35c40ccd38c1d3c835b68c54e14e154",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/environment.json",
+      "sha256": "0e0d14c506667462e32f642dc36245c2b3a3cac9e141f0cfad2c8f2ba9ce6871",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/exclusions.tsv",
+      "sha256": "5bbed4b74e600329125cb71820e1aa06fe39889d9cead9ea12ccad124d42e7ce",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/expanded_metareaction_statistics.tsv",
+      "sha256": "d19325b19e09bb5e2a022bb8d19811aebee0193302ab625c412aaaa0c30c7101",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/metareaction_membership.tsv",
+      "sha256": "3b3f050c4e0d9036e92ee8455ace8f30cab6520167879d51dcaea2051c44faf4",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/metareaction_statistics.tsv",
+      "sha256": "0617d03d4857fc010c6bf8656f43dd3ed53889020a8f99980015fcb6374767c9",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/pathway_summary.tsv",
+      "sha256": "363f54766bc513808ca1708c54b75fe7db5a467419921e7f48276c6788ea53d8",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/reaction_statistics.tsv",
+      "sha256": "63af14c9f697a8c7fc35dd3065f1cbb34fa78040628cdee47b4e9e0933326227",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/receipt.json",
+      "sha256": "86ce578cedcf1809815ef05498b3b2c02d1c6adfdd0a1c9737d4a4b67028ec0a",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/selected_cell_scores.tsv",
+      "sha256": "0cd563e3ace00069e419445f22f6545cf822d34017b8b79c907140f8674d02c7",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/selected_reactions.tsv",
+      "sha256": "1d5fa3960146fa2b66b84f85a2adec87472d3e67373c29954544679724388b8e",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/stderr.log",
+      "sha256": "6c570b676d512167690293ac6551383c79ad24b897f1e942196789db21ab67a0",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/stdout.log",
+      "sha256": "eaaa89b48b866f0d7d469f0460238bf8e35c40ccd38c1d3c835b68c54e14e154",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/summary.json",
+      "sha256": "ff046b193b592373cb946178ede19cd793a3a68a2be2e9aeac518ea2268acf79",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/verification.json",
+      "sha256": "d0fd5167162057c00cc24bdc02f1787c9a356cb82db2ff1d5a490801dc010888",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/receipt.json",
+      "sha256": "711a4416709f4780ee6f456ce0ffa320095092515a7cb9b58ae8173a5b8a454b",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/stderr.log",
+      "sha256": "f6e22b5f2caa10b4a25536208c407d3aaaa4fd7841c12965f400de84fab46c73",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/acquisition_initial_v1.json",
+      "sha256": "9c0bd5251669dbbc2a7b77e1180c9c0dbe9735e48319e81a830a1e268fae62d5",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/browser_and_runtime_limits_v1.json",
+      "sha256": "29f88189af8eff91d60d406b747bbc92d506435b3b0fbeb8291f07b6ac75c5cc",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021_commits.json",
+      "sha256": "256f9282b7b0417aeb0386099f34bb1bdbf9fd5f9bf137a7360863c777e7ec69",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021_tree.json",
+      "sha256": "f8c1a3fc3d0e9bdfcf7448d98cac16a78ef159a7f646310aac5086e938e14acc",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_acquisition_v1.json",
+      "sha256": "f8166ee6dd7394dc093e15150345a02f9f852b580d43c8634b9742174724d393",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/europepmc_S2_attempt.json",
+      "sha256": "d8a58bbdc901dadb5dc6c2cb0a0b2e7108e8ae03cfb74112ef2c5855b060ffd6",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/official_alternative_acquisition_v1.json",
+      "sha256": "713797158afe6812e8537d3fdc101e639aa30442bcefc58278879528b9ffaa01",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_launcher_checks.json",
+      "sha256": "5a84aa7e5910eaa954d6a2c5651de3bd43df9290df1b42741e3f194bb3dc435c",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_limma_smoke.json",
+      "sha256": "85ddcdf0bbfe929efcc362cd5cf2cbb26af426a9e92375c023cb7195469e1d8e",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/table_acquisition_v1.json",
+      "sha256": "52dc85b6e3642791aaada1484f61c11ce6efc77e933bae2ed587e354f30409a5",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/LICENSE.md",
+      "sha256": "1a7567132881e23765be35ffbfc0741944d2164d70be548b5189429dba4cfc3d",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/setup.py",
+      "sha256": "d2b5f40c752a72c3eed44cdd16b95a495b352ab625173da24dd17709b301a3d2",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/main.py",
+      "sha256": "0ed2482aa86a34deb27d14fb9fd42bc1a1f5aa35f1db6cf47ec14c4e0cc8ae0f",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/globals.py",
+      "sha256": "69f99d7adcf35c955e189c4e7dc84a96c6090f2005b1b57034a2bc2bef3c7f6b",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/compass/penalties.py",
+      "sha256": "6108c446ed3ea898c9334a686525525e40e2f218c9b78a39bc47e46d71607650",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/recon2_md.zip",
+      "sha256": "d1f97fd7ed0a7eb20198e2d65f7ca2e82c2806c69efdc5e5ebf6699d30756a86",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/gene_md.csv",
+      "sha256": "3f40ddc2861ac727b1341d900ac6f9b8e028ed5122c77201c43bdbbca5da1da0",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/rxn_md.csv",
+      "sha256": "1b5f6cb426e4abc3ee15d7d64cb61f96b4b2eadb3d9d3430a6c00e267f1db1ef",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/met_md.csv",
+      "sha256": "605815e0c7dfec54e2a9b6de6883d21a05dfaa3dc56adc0d0fc477a45445bba8",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/GSE165088_family.soft",
+      "sha256": "9d32dbc61c4e4133dedf0ef6b27f6bdc2d147adb9b6c93a76e5ddb6bf4966565",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/linear_gene_expression_matrix.tsv",
+      "sha256": "6e08727b10d752fdde7cce3cbe7de217f66aa503b9cbbd5a3edaa56debfebfcf",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/reaction_metadata.csv",
+      "sha256": "8b0dde8f7593192d9111a55cf4b012195817fb51b4802d6b275342ddcd237faf",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_qualification_v1/samples.tsv",
+      "sha256": "353f762d6d2896bc758866dce15f6541cffbbe9f15929dc10fe7fb831c8e785e",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r1_source_20261004/wagner_paper.txt",
+      "sha256": "2311385d4189ffb72a0371581df8f74e6a3a6c843590a39c1682820cafb74f70",
+      "study_id": "Wagner_closeout_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/closeout_qualification_v1.py",
+      "sha256": "46630491866653b073863f39b880eaf7f24e4b5f0d6b9058f07d236f9c587f88"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failure_preservation.json",
+      "sha256": "92638e8723c2d91c0aaeddacf04c0cc403c9eab7d1c6850f5d901486acb1e4e1"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/acquisition_records.json",
+      "sha256": "aaec69b0cda0e90ae59f673b2554d5f0d0ac503b4f109acec6db996b81ac0962"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/compass_source_inventory.tsv",
+      "sha256": "a69f658638b86f0a3af8cef687f40615b009c3b269f9a92938603cd8d740d95f"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/R2_qualification.json",
+      "sha256": "d3c746c3a202e625b44b08e7980d95c8f73946278a521696c677bd67cbf4d71a"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/R4_source_samples.tsv",
+      "sha256": "1066c1feb3c40ebed32db2b1c0387754ebf6c233c207d9c08b8659e5047e3754"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/R4_qualification.json",
+      "sha256": "f95cf89a35ed9dba36deff1673fdcc07914ab56a86576b92f7add343bc2c0464"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/R5_availability.tsv",
+      "sha256": "07ae01f9878c3a73b8fa9b0cfdaa3bd9449d26e3cddbbc305e722e54fa12b90b"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/qualification.json",
+      "sha256": "614f77e178ebbe2d9508b85372d739897e5718f5dd55cc8e8e40c257d5440236"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v1__receipt.json",
+      "sha256": "078ce896b469e2f5de43f5b960fff5c8c29ad34f32cbfd6ce0089ae243438e93"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v1__stderr.log",
+      "sha256": "c54c4b00b0b32e5c20e983e2bb1bbee7bd0d7772d3cb6498a0a22c04160fb4b8"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v1__stdout.log",
+      "sha256": "eaaa89b48b866f0d7d469f0460238bf8e35c40ccd38c1d3c835b68c54e14e154"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__environment.json",
+      "sha256": "0e0d14c506667462e32f642dc36245c2b3a3cac9e141f0cfad2c8f2ba9ce6871"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__exclusions.tsv",
+      "sha256": "5bbed4b74e600329125cb71820e1aa06fe39889d9cead9ea12ccad124d42e7ce"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__expanded_metareaction_statistics.tsv",
+      "sha256": "d19325b19e09bb5e2a022bb8d19811aebee0193302ab625c412aaaa0c30c7101"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__metareaction_membership.tsv",
+      "sha256": "3b3f050c4e0d9036e92ee8455ace8f30cab6520167879d51dcaea2051c44faf4"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__metareaction_statistics.tsv",
+      "sha256": "0617d03d4857fc010c6bf8656f43dd3ed53889020a8f99980015fcb6374767c9"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__pathway_summary.tsv",
+      "sha256": "363f54766bc513808ca1708c54b75fe7db5a467419921e7f48276c6788ea53d8"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__reaction_statistics.tsv",
+      "sha256": "63af14c9f697a8c7fc35dd3065f1cbb34fa78040628cdee47b4e9e0933326227"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__receipt.json",
+      "sha256": "86ce578cedcf1809815ef05498b3b2c02d1c6adfdd0a1c9737d4a4b67028ec0a"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__selected_cell_scores.tsv",
+      "sha256": "0cd563e3ace00069e419445f22f6545cf822d34017b8b79c907140f8674d02c7"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__selected_reactions.tsv",
+      "sha256": "1d5fa3960146fa2b66b84f85a2adec87472d3e67373c29954544679724388b8e"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__stderr.log",
+      "sha256": "6c570b676d512167690293ac6551383c79ad24b897f1e942196789db21ab67a0"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__stdout.log",
+      "sha256": "eaaa89b48b866f0d7d469f0460238bf8e35c40ccd38c1d3c835b68c54e14e154"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__summary.json",
+      "sha256": "ff046b193b592373cb946178ede19cd793a3a68a2be2e9aeac518ea2268acf79"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_source_scores_v2__verification.json",
+      "sha256": "d0fd5167162057c00cc24bdc02f1787c9a356cb82db2ff1d5a490801dc010888"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_bulk_paired_descriptive_v1__receipt.json",
+      "sha256": "711a4416709f4780ee6f456ce0ffa320095092515a7cb9b58ae8173a5b8a454b"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_bulk_paired_descriptive_v1__stderr.log",
+      "sha256": "f6e22b5f2caa10b4a25536208c407d3aaaa4fd7841c12965f400de84fab46c73"
+    },
+    {
+      "path": "analysis/research/runs/wg_closeout_qualification_v1/failed_wg_bulk_paired_descriptive_v1__stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-04T10:37:26.188181+00:00"
+}

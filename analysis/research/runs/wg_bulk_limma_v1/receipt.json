@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.bulk_limma_v1",
+  "owner": "Wg-R01",
+  "contract": "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
+  "contract_sha256": "e701f0fefae9285806584ac3401b17a5c4e28d741293470ed7afa0016edd394a",
+  "git_commit": "5a50fb81e8f354e9d0a1af0a0bfa682fb54493d1",
+  "started_at": "2026-10-04T10:30:28.929816+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_limma_v1.py",
+    "--output",
+    "analysis/research/runs/wg_bulk_limma_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_est_counts.csv.gz",
+      "sha256": "a1ce2b41c817e7baaee9c159779edfaf5e12b953509d193481ab6caaf70f2548",
+      "study_id": "GSE162300",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_est_counts.csv.gz",
+      "sha256": "d44e8dc30356c682a8b7d8c7cd781c99337a7fe8cadeeee72bc4518c7c157e77",
+      "study_id": "GSE162382",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/source_sample_map.tsv",
+      "sha256": "7f07ac68a229a993ce6c3af91b55dd074fd84fdff0a3a5b567712bed3bfef714",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/library_design.tsv",
+      "sha256": "f6059fece28659d3787b8badf60498b7d2b7baa345ed10dcda68714abc1515a5",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/qualification.json",
+      "sha256": "9756a10c0d28a425da1674fe0cdaf991fc6ce36d50f0c44d3870435d74df88a6",
+      "study_id": "Wagner2021_bulk_sources",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_package_qualification.csv",
+      "sha256": "6db51b3fa8293678281a1d70c3a9793b83186dde6386d73773f3bba6a5a5fadd",
+      "study_id": "runtime_qualification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_limma_smoke.json",
+      "sha256": "85ddcdf0bbfe929efcc362cd5cf2cbb26af426a9e92375c023cb7195469e1d8e",
+      "study_id": "runtime_qualification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R-4.6.1.md5.txt",
+      "sha256": "77acae7fe06e931749e520a02d49eee45c2503bfc32f60e5407bb86d56fe5835",
+      "study_id": "runtime_qualification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_limma_v1.py",
+      "sha256": "c172474e2defffa0449452db20abe966a657f2d16bf5f9f778fa0ed6ae6a20ef"
+    },
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/bulk_limma_v1.R",
+      "sha256": "28e50ff742f8f3304c115d677c3b273a8affcfba2918aec21e676b14c5d8642c"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/all_contrasts.tsv.gz",
+      "sha256": "d52476b6879ca469ad188293c30061ac033a995ea2ac7e21597a310eef953c05"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/contrast_summary.tsv",
+      "sha256": "cf4b47540ab1f62aa9d0993d518fe0d059ccd373c42991df7c6a3610aca9c3ee"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/gene_programs.tsv",
+      "sha256": "9df805b3603f9c1a0132af69c6667c283689f1e45872791950e1e0778d661e32"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/selected_PCA.tsv",
+      "sha256": "23215356782400ad75aa0f740af81086dfe71301ea2fc619dea5485e60e0b571"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/animal_program_changes.tsv",
+      "sha256": "feff790d2fb45c56afc030467acb891dbafc281c7df71c777d51bbf11385b396"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/model_summary.json",
+      "sha256": "3bf6eebee8aee9484ec995885ae8d94f21ff317780d7f4038f3749823b7f3943"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/R_session.txt",
+      "sha256": "ab848dfe004d1dfe7eab2478ba650e19ca93d2450adfadadab4e1eacc0d7a4a5"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/independent_WLS_checks.tsv",
+      "sha256": "4e3d3958b830f7e8caa37b711877511e4d1243b6ebd089bd735a23eec27dc69c"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/verification.json",
+      "sha256": "11339409a4e7a8378406f69530b39007504ac62118936d6f0ce925dbb4672a96"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/prespecified_gene_models.tsv",
+      "sha256": "5c24a3037d655bb7d56ac602b1ff19020c0614af635ef68108dce5e0f842c8f3"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/Wagner_R3_limma_figures.pdf",
+      "sha256": "f9f8259ea78f19c18253e9c4f43b462868813e6b7a5e2c1a07697831ed23395c"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162300_design.tsv",
+      "sha256": "b2082365f464e8a92ba3adeeea68113de3b591fab1ccf1d610eba97f26530ccd"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162300_contrasts.tsv",
+      "sha256": "23d6af66d4abc44ae806cbae1aa8900b894d40bebf812e786449668b54db38b8"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162300_voom_E.tsv.gz",
+      "sha256": "21474e703e64304eb490b88ea5fe8d91de9135e3ee88ce6fa90451d22e85cd9f"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162300_voom_weights.tsv.gz",
+      "sha256": "3c38b359b2d1a84e32eb7fd934f8b195fba3684325c2d7bca598387a3c7c6a6d"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162300_libraries.tsv",
+      "sha256": "a0f2af6d200b39aa1db24aaef42f1a869ef7747d977b45aee3f5f430fee81373"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162382_design.tsv",
+      "sha256": "1ff1b4f7eeb765bcc5f1bd03dccee6d2bcd5b71bb4880d1a399c18c75017c28e"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162382_contrasts.tsv",
+      "sha256": "d5d7009f3dffa589ab007982eb195e9972c5887bf7f7f4a96a94ac484f518e34"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162382_voom_E.tsv.gz",
+      "sha256": "890887bb3c7a1ed223acc02e658538f61761b6fdedc1a004c8ae722b3f36d972"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162382_voom_weights.tsv.gz",
+      "sha256": "8fec881e53309235db2d4ec9c2f8a32262bbf59932e2b4731269e2f059c3dff3"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/GSE162382_libraries.tsv",
+      "sha256": "1ec3755f3c2991b28db04f9c30748d2b8ca5873960bde3db6d9cbc7cf15eea31"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/figure_6_source_aligned_RNA.png",
+      "sha256": "5e7ba65a6e575dd561a7d142561b7abdfe28f9d18593e841a8095e9f1c86bb00"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/figure_6_source_aligned_RNA.pdf",
+      "sha256": "76d9e367fec4f72f72cd398ce5916c22ea41c409859666c9193513c74f6031cc"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/figure_6_source_aligned_RNA.svg",
+      "sha256": "85d46693335e8903e9600e4db45f60a41df0c74bcf5995d8b87ee7897b99e7fd"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/figure_7_JMJD3_interactions.png",
+      "sha256": "76d397dad0161bf18455a9f244bd066b001008cb0bb61784ca33778f20480ac4"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/figure_7_JMJD3_interactions.pdf",
+      "sha256": "48753efa7f04329b375878e3cc82b97b882bb0e8bd22e86029e3d7e779ff8ce6"
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_limma_v1/figure_7_JMJD3_interactions.svg",
+      "sha256": "bc08a09a485f83941f9e72a661964f7ec757d7ba0514238bc762674f155af3ec"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-04T10:33:28.433286+00:00"
+}

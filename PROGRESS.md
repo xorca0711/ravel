@@ -2,6 +2,236 @@
 
 **Update this before stopping work, every session.**
 
+## Wagner RQ framing audit — 4 October 2026
+
+Reviewed the six cards at `359fd63` against live merged PRs #130/#133–#136 and
+their current standards. Refreshed main remains `a5d4183`; the standards are
+identical here and on main. [Audit and corrections](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/FRAMING_AUDIT_2026-10-04.md):
+P03/P06 contain provisional biological hypotheses; P04 is a model-discrimination
+companion with an unspecified directional endpoint pattern; P05 is a predictive
+companion proposed for A1, whose regulatory scope is not automatically resolved;
+P01/P02 remain measurement support. Entrypoints now state those distinctions and
+expose the proposition summaries. Article-local hypothesis figures are explicitly
+pending, as the merged template permits. Existing results/figures, canonical
+hypotheses, registry and governance are unchanged; no biological rerun or broad
+repeat literature scan was needed. No human acceptance is inferred.
+
+Next: specify P04's expected endpoint pattern without substituting an aggregate
+RNA program for Foxp3 RNA; review P05 as supporting prediction versus a justified
+A1 scope change; qualify source/assay/unit/precision holds before execution.
+Scientific adoption and per-candidate illustrations remain open. Validation passed
+9,993 repository checks and the research gate against refreshed main with zero
+errors; the ten changed files are Markdown and protected evidence is unchanged.
+The owner then requested publication: [PR #137](https://github.com/xorca0711/scRNA_seq/pull/137)
+is open against main for the full Wagner continuation, including numerical work,
+figures, literature review, derivation and this framing audit. Branch
+`codex/wagner-continuation-20261004` now tracks origin. GitHub checks and owner
+review remain separate from local validation and scientific acceptance. No merge
+performed; other checkouts and unrelated work remain untouched.
+
+Initial PR CI exposed an R0 checkout-byte mismatch: its unchanged frozen Git
+contract uses LF, while the execution receipt binds CRLF. A single-path checkout
+attribute restores the recorded representation across OSes; no frozen contract,
+receipt, output or integrity rule is edited. The simulated checkout matches all
+167 receipt-bound hashes across nine runs, and the local repository/research
+checks pass again. Follow the latest PR revision's Linux CI checks; the initial
+failure and its verified cause remain recorded in the package validation log.
+
+## Historical Wagner provisional RQ derivation — 4 October 2026
+
+The owner-requested [first derivation pass](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md)
+is complete for Wg-P01–P06, from evidence/review at `1c099f0` on scoped branch
+`codex/wagner-continuation-20261004`. Fresh main remains `a5d4183`; no upstream
+is configured. Four biological cards and two measurement cards specify rivals,
+units, endpoints, informative outcomes, contribution and qualification limits.
+P03 concerns verified recovery and persistent function; P04 distinguishes
+endpoint dependence from timing; P05 nominates early epithelial glycolytic
+relaxation after IL-1β withdrawal; P06 tests the balance between myeloid arginine
+consumption and ornithine delivery to human lung fibroblasts.
+
+P05 is proposed within A1, with A8/A14 companions. Those dossiers and contexts
+link the proposal while retaining their canonical hypotheses and illustrations.
+No new global A ID, preferred question, human decision or claim grade was created.
+Targeted source checks added Carriche's suppression precedent and Lee's OAT/ROS
+alternative, and verified that Wagner already includes a 68–120 h resting interval.
+No biological rerun, measured figure, frozen output or governance change occurred.
+
+Next: review exact scope/contribution, qualify assay linkage, recovery/attribution,
+independent donors/animals and useful precision, then adopt/register as appropriate
+and freeze any new exposed analysis contract. P03/P04 may remain question plus
+companion. Source/runtime R2/R4/R5, PGAM orientation, relevant restricted full texts
+and external laboratory availability remain unresolved. This is a provisional
+derivation, not novelty or execution clearance. Validation passed 9,962 repository
+checks and the research gate against refreshed main with zero errors; unchanged
+scientific checks were reused. Details are recorded in the package validation file.
+No push, PR, merge or external message; unrelated work
+is preserved.
+
+## Historical Wagner pre-derivation review — 4 October 2026
+
+The [review](Research%20Article/gate2_W1_wagner_th17_autoimmunity/pre_rq_review/README.md)
+assesses the completed evidence at `aa99cd1`, on scoped branch
+`codex/wagner-continuation-20261004`. Main was freshly checked at `a5d4183`.
+All A0–A27 titles were screened, with focused current-evidence review of the
+13 closest dossiers. P05 overlaps A1/A8/A14/A19; the other mapped links are
+conditional biological joins or methodological analogies, not adopted mergers.
+
+Six extension options are specified with unit, endpoint, rival and failure
+interpretation. E1/E2 have local bulk-RNA inputs; E3 needs GPR mapping qualification;
+E4 is held on ATAC/runtime inputs; E5/E6 need exact linked biological comparisons.
+The source update adds Hu/Wu intercellular-metabolism precedents, HIVEP1/ALDH5A1
+abstract-level leads and lung JMJD3 boundaries. It records a 2023 PLOS figure
+correction and possible, unconfirmed overlap between SLE recruitment cohorts.
+No numerical outputs, contracts, scripts, figures, canonical hypotheses, claim
+grades or human decisions changed. No RQ was derived or registered.
+
+Next: use this review before final derivation; resolve source gaps for any
+mechanism adopted, specify P05/P06 tuples, and freeze a new exposed contract before
+an analytical extension. Existing R2/R4/R5 holds remain. Laboratory resources,
+physical sample independence and external protection settings are unestablished.
+Documentation validation passed 9,885 repository checks and the research gate
+against refreshed main with zero errors; unchanged scientific checks were reused.
+Details are recorded in the package validation file. No push,
+PR, merge, external message or laboratory work; other checkout changes preserved.
+
+## Historical Wagner pre-RQ evidence checkpoint — 4 October 2026
+
+Active branch/worktree: `codex/wagner-continuation-20261004` at
+`X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`.
+Fresh main remains `a5d41834395cac0b82b488d48759ceb6fab8f2d5`.
+
+The [pre-RQ evidence report](Research%20Article/gate2_W1_wagner_th17_autoimmunity/PRE_RQ_EVIDENCE.md)
+organizes all six existing branches. RQ derivation has not started. R0/R1 and
+paired plus [source-aligned R3 models](Research%20Article/gate2_W1_wagner_th17_autoimmunity/MODEL_RESULTS.md)
+have executed. The new frozen model fits 16 contrasts, retains direct genotype
+interactions and program sensitivities, and passes independent WLS/p/BH/interval
+checks. Its 3,879 baseline genes differ from the paper's 3,414; exact source
+reproduction is not claimed. The [gallery](Research%20Article/gate2_W1_wagner_th17_autoimmunity/FIGURES.md)
+now has eight plates with conditions, sample units and exact axes.
+
+Remaining stages have explicit source/runtime holds: historical CPLEX and full
+model/configuration fidelity (R2), inaccessible ATAC counts/annotations and an
+unqualified DESeq2 process (R4), and unrecovered functional values/unit maps
+(R5). S1–S7 access and PGAM's signature sign remain unresolved. P05/P06 tuple
+selection belongs to later question development; no lung mechanism is nominated.
+
+Twenty files from three failed runs were copied and verified against original
+bytes and commit `30bf90d`. The existing Nb5 archival pattern replaces failed
+registry entries with a successful preservation receipt; originals stay local
+and in history, failure statuses stay unchanged. No validator or scientific
+acceptance was changed. The research gate passes with zero errors, repository
+validation and 143 unit tests pass (one existing skip), and all 55 new tracked
+outputs match receipt hashes; see [validation](Research%20Article/gate2_W1_wagner_th17_autoimmunity/VALIDATION.md).
+
+Next: retain this stopping boundary until RQ development is requested; reopen
+held numerical stages only with the exact evidence listed in the report.
+No push, PR, merge, external message or laboratory work. Original/primary
+checkout changes are preserved. External protection, licensing and laboratory
+access remain unestablished. [Concise handoff](Research%20Article/gate2_W1_wagner_th17_autoimmunity/HANDOFF_2026-10-04.md).
+
+## Historical Wagner R3 initial execution and figure interpretation — 4 October 2026
+
+Current checkout: `X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`,
+branch `codex/wagner-continuation-20261004`. Fresh main remains `a5d4183`.
+The primary/original checkout work is preserved; no push, PR or merge was made.
+
+[R3 source/matrix qualification and paired RNA estimates](Research%20Article/gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md)
+have executed. Normal GEO browser downloads recovered all four matrices after
+script-route access errors. Exact joins retain 18 libraries/three animals in
+GSE162300 and 28 libraries/four WT plus three KO animals in GSE162382. The
+current numerical version retains all genes and 276 displayed animal-by-gene
+changes; independent scalar/PCA checks pass. It is a descriptive CPM analysis,
+not a limma-selected source-program reproduction or a mechanistic conclusion.
+
+[Six-plate gallery](Research%20Article/gate2_W1_wagner_th17_autoimmunity/FIGURES.md)
+now includes Figure 3's conditions and 14-row effect/q table, two RNA plates,
+and explicit PCA versus paired-response axis definitions. R3 rendering corrects
+one legend overlap without rerunning numerics. The stopped R3 v1 literal-symbol
+check is preserved; v2 explicitly maps the original twelve genes to uppercase
+source identifiers. No outcomes had been computed at that stop.
+
+Next: qualify R/limma and freeze source-aligned gene filtering, models and
+programs. R2 solver/model fidelity, R4 peak/genome joins, R5 functional values,
+and P05/P06 exact biological tuples remain unresolved. Rscript was not found
+in checked standard locations. Failed-receipt integration handling still needs
+explicit review; see [validation](Research%20Article/gate2_W1_wagner_th17_autoimmunity/VALIDATION.md).
+No gate, failed status, claim grade or human acceptance was altered. External
+protection, CPLEX/license and laboratory access remain unestablished.
+
+## Historical R1 checkpoint — 4 October 2026
+
+Work remains isolated on `codex/wagner-continuation-20261004` in
+`X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`.
+Refreshed main is `a5d41834395cac0b82b488d48759ceb6fab8f2d5`.
+The original planning checkout and primary checkout's unrelated work are preserved.
+
+The [R1 numerical result](Research%20Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md)
+is executed and independently verified under the v3 contract frozen at `a8a0341`:
+290 cells, 6,373 individual-reaction tests and 1,722 metareaction tests.
+Twenty of 53 display pathways contain both source-significant directions;
+glycolysis has 19 positive and zero negative groups at that threshold.
+The run forms 1,912 groups versus 1,911 reported, while 784 core groups agree.
+Exact historical reproduction, biological replication and measured flux are
+not established. Wg-P02 gains source-data descriptive evidence; no human
+acceptance, claim promotion or new global RQ is recorded.
+
+[Four article-style figure plates](Research%20Article/gate2_W1_wagner_th17_autoimmunity/FIGURES.md)
+are saved as vector PDF/SVG and 300-dpi PNG. Rendering v2 fixes two layout
+collisions; the earlier render remains frozen. R1 v1 failed on a Windows
+integer join; v2 failed on a floating-point tie assumption in its independent
+checker. Both failed attempts are retained. Numerical v3 passes without
+changing v2 result values or loosening its statistical tolerances.
+
+The bundled Python plus existing x64 packages are qualified; no install was
+needed. The [validation record](Research%20Article/gate2_W1_wagner_th17_autoimmunity/VALIDATION.md)
+distinguishes numerical/figure verification from the integration gate's
+inability to accept registered unsuccessful run receipts. No gate is weakened
+and no failed receipt is relabeled. Nine required check groups pass (9,684
+repository checks; 143 unit tests with one skip); the gate has exactly three
+errors confined to the two failed numerical attempts. Explicit governance review is required for
+that integration issue. Main has not advanced; no push, PR or merge was made.
+
+[Next steps and finished/remaining ledger](Research%20Article/gate2_W1_wagner_th17_autoimmunity/HANDOFF_2026-10-04.md):
+qualify R3 processed matrix columns, technical runs, within-animal allocation
+and design rank before a new frozen RNA analysis. R2 historical model/solver,
+R4 peak/genome/assay joins, R5 functional values and P05/P06 biological tuples
+remain unqualified. PGAM's signature-sign conflict remains unresolved.
+Laboratory access, CPLEX license and remote protection settings are unchanged
+and not established. Do not replay archived scripts for prose/figure edits.
+
+## Wagner Th17 reproduction structure - 4 October 2026
+
+Fetched main at `a5d41834395cac0b82b488d48759ceb6fab8f2d5` (PR #136 merged).
+Created isolated `codex/wagner-th17-plan`; the primary checkout remains
+`codex/workspace-ready` at `76dc9b4`, with its two reported metadata-file edits
+and private `.claude/` content preserved. No prior worktree or ignored input was
+retired, moved or reset.
+
+The owner finished paper 15. The [Wagner package](Research%20Article/gate2_W1_wagner_th17_autoimmunity/README.md)
+contains PDF/handmade-note reconciliation, a figure-to-endpoint map, GEO source
+catalogue, staged reproduction plan, six candidate cards and a bounded current
+literature/neighbor comparison. Wg-R01 and Wg-P01-P06 are article-local;
+A0-A27, claim grades, source outputs, contracts and receipts remain unchanged.
+The paper roadmap now records only paper 15's completed reading. Private planning
+pages were read for context and not copied or edited.
+
+No numerical reproduction or biological analysis ran. Source inspection identified
+the intended 290 sorted cells in GSE75109/GSE75111 and three 2021 bulk/ATAC child
+series; listed libraries are not independent animals. Direct GEO text retrieval
+succeeded after browser challenges. The full historical runtime, exact input
+matrix, numerical supplements and biological-unit joins remain unqualified.
+
+Next: implement/freeze an R0 metadata contract, acquire/hash the pinned author
+example and exact sample maps, then qualify source-output Figures 2C/2E before
+a full Compass rerun. Qualify bulk RNA/ATAC separately. Keep the six branches
+available without selecting a preferred RQ. CPLEX runtime/license, actual lab
+access and server protection settings remain unconfirmed. Local validation
+results and final integration-base check belong in the package's
+[validation record](Research%20Article/gate2_W1_wagner_th17_autoimmunity/VALIDATION.md).
+All ten required local check groups passed (9,572 repository validations,
+18 claim bindings, 143 tests with one skip). The final fetch retained `a5d4183`;
+only this local branch is being delivered, with no push, PR, merge or Notion edit.
+
 ## Current literature-context and schematic integration — 3 October 2026
 
 Remote main `82e749a` was refreshed. Work is isolated on

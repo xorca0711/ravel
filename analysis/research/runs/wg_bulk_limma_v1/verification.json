@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "WLS": [
+    {
+      "series": "GSE162300",
+      "WLS_genes_checked": 113,
+      "maximum_fc_error": 6.039613253960852e-14,
+      "maximum_SE_error": 1.1546319456101628e-14
+    },
+    {
+      "series": "GSE162382",
+      "WLS_genes_checked": 113,
+      "maximum_fc_error": 4.576894419017208e-14,
+      "maximum_SE_error": 7.549516567451064e-15
+    }
+  ],
+  "max_p_error": 4.496403249731884e-15,
+  "max_q_error": 1.4432899320127035e-14,
+  "max_CI_error": 8.881784197001252e-14,
+  "tolerances": {
+    "WLS_absolute": 1e-08,
+    "p_q_absolute": 1e-09,
+    "CI_absolute": 1e-07
+  },
+  "limits": "Arithmetic verification uses the same measurements. Empirical Bayes prior and voom weights remain package estimates; biological independence and exact author settings are not verified."
+}

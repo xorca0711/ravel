@@ -1,0 +1,47 @@
+{
+  "sources": [
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_TPMs.csv.gz",
+      "page_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162300",
+      "link_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162300/suppl/GSE162300%5FDFMO%5FRNA%5FTPMs%2Ecsv%2Egz",
+      "acquisition_method": "Normal GEO page link via Codex browser downloadMedia; no challenge encountered.",
+      "bytes": 1068418,
+      "sha256": "6d1dac1908a1d7a03d18dd957a828bc4d597cd9eaee7d1b814827fb12e5c984d",
+      "retrieved_at": "2026-10-04T09:32:04.386224+00:00",
+      "gzip_crc_verified": true
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_est_counts.csv.gz",
+      "page_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162300",
+      "link_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162300/suppl/GSE162300%5FDFMO%5FRNA%5Fest%5Fcounts%2Ecsv%2Egz",
+      "acquisition_method": "Normal GEO page link via Codex browser downloadMedia; no challenge encountered.",
+      "bytes": 908037,
+      "sha256": "a1ce2b41c817e7baaee9c159779edfaf5e12b953509d193481ab6caaf70f2548",
+      "retrieved_at": "2026-10-04T09:32:04.428772+00:00",
+      "gzip_crc_verified": true
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_TPMs.csv.gz",
+      "page_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162382",
+      "link_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162382/suppl/GSE162382%5FDFMO%5FJMJD3%5FTPMs%2Ecsv%2Egz",
+      "acquisition_method": "Normal GEO page link via Codex browser downloadMedia; no challenge encountered.",
+      "bytes": 1968823,
+      "sha256": "83598a1cf3c2ffd3b3b1e8c51baa0c229299e73a3d6f504d242119970fa06cf2",
+      "retrieved_at": "2026-10-04T09:32:04.495856+00:00",
+      "gzip_crc_verified": true
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_est_counts.csv.gz",
+      "page_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162382",
+      "link_url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162382/suppl/GSE162382%5FDFMO%5FJMJD3%5Fest%5Fcounts%2Ecsv%2Egz",
+      "acquisition_method": "Normal GEO page link via Codex browser downloadMedia; no challenge encountered.",
+      "bytes": 1613844,
+      "sha256": "d44e8dc30356c682a8b7d8c7cd781c99337a7fe8cadeeee72bc4518c7c157e77",
+      "retrieved_at": "2026-10-04T09:32:04.557223+00:00",
+      "gzip_crc_verified": true
+    }
+  ],
+  "failures": [],
+  "supersedes_acquisition_status_only": "acquisition_v1.json retained with failed script-route attempts; all four requested matrices now acquired.",
+  "exposure": "File headers inspected for qualification planning; no expression contrasts evaluated during acquisition."
+}
