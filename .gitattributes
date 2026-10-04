@@ -203,3 +203,10 @@ analysis/research/runs/wg_bulk_limma_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wg_bulk_limma_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
 analysis/research/runs/wg_closeout_qualification_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wg_closeout_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve exact bytes of the Wang 2025 PGAM package code and contracts,
+# which the Wp-R0 contract and its receipt hash on every OS.
+"Research Article/gate2_W2_wagner_Th17_PGAM/scripts/**" -text whitespace=cr-at-eol
+"Research Article/gate2_W2_wagner_Th17_PGAM/config/**" -text whitespace=cr-at-eol
+analysis/research/runs/wp_source_qualification_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_source_qualification_v1/*.csv whitespace=cr-at-eol,-blank-at-eol

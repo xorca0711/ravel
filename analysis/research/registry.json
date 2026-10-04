@@ -662,6 +662,34 @@
         "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md",
         "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P06.md"
       ]
+    },
+    {
+      "id": "Wp-R01",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md"
+    },
+    {
+      "id": "Wp-P01",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P01_score_construction.md"
+    },
+    {
+      "id": "Wp-P02",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md"
+    },
+    {
+      "id": "Wp-P03",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P03_glucose_composition_vs_state.md"
+    },
+    {
+      "id": "Wp-P04",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P04_endpoint_class_dependence.md"
+    },
+    {
+      "id": "Wp-P05",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P05_human_signature_activation.md"
+    },
+    {
+      "id": "Wp-P06",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P06_epithelial_transfer_condition.md"
     }
   ],
   "contracts": [
@@ -704,7 +732,8 @@
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json",
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_figures_v1.json",
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
-    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",

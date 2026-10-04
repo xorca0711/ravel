@@ -60,7 +60,7 @@
     "1": "foundation references with executed analyses; review remaining interpretation questions as needed",
     "2C": "Choi axis: papers 5, 12, 13; synthesize completed analyses and remaining functional questions",
     "2N": "Nabhan: papers 6, 14; owner reading complete, Nb2/Nb3 analyses available with limits",
-    "2W": "Wagner: read paper 16 then 15; W1 pseudobulk complete, Compass not run",
+    "2W": "Wagner: papers 16, 15 and 17; W1 pseudobulk complete, Compass not run. Paper 17 (Wang 2025, PGAM) is read and structured as gate2_W2_wagner_Th17_PGAM",
     "3A": "Saxton: reading open 2026-10-01, papers 8 then 7; analysis gated",
     "3B": "DuPage: reading open 2026-10-01, papers 9 then 11; paper 10 optional next; analysis gated",
     "2X": "cross-field comparison: functional interaction assays, developmental regeneration and immune-state memory; X1–X4"
@@ -76,6 +76,7 @@
     6,
     14,
     15,
+    17,
     16,
     7,
     8,
@@ -553,6 +554,36 @@
       "note_status": "not started; current comparison queue; owner reading unconfirmed",
       "trial_status": "Niethamer W1 animal-level aMAC pseudobulk completed 2026-09-22; programme evidence remains correlation-sensitive. Compass flux inference has not run; reading status unchanged.",
       "added": "2026-09-15"
+    },
+    {
+      "order": 17,
+      "gate": "2W",
+      "key": "wang_2025_pgam",
+      "first_author": "Wang",
+      "year": 2025,
+      "journal": "Cell Reports",
+      "title": "The glycolytic reaction PGAM restrains Th17 pathogenicity and Th17-dependent autoimmunity",
+      "doi": "10.1016/j.celrep.2025.115799",
+      "pmid": "40482033",
+      "pmcid": "",
+      "role": "the Compass-predicted 3PG-to-2PG shunt tested by PGAM perturbation; a reaction inside glycolysis that opposes the pathway's overall association, with glucose-dependent Th17 programmes",
+      "extract": [
+        "which glycolytic reactions oppose the pathway average",
+        "what the EGCG and DHEA perturbations actually measured",
+        "the N1 regulatory programme and its glucose dependence"
+      ],
+      "datasets": [
+        "GSE289733",
+        "GSE290297",
+        "GSE138266 (reused human cohort)"
+      ],
+      "folder": "gate2_W2_wagner_Th17_PGAM",
+      "note_status": "owner read 2026-10-04; package structured the same day",
+      "trial_status": "Wp-R01 ladder specified and Wp-R0 contract frozen; six article-local candidates Wp-P01-P06 registered. No numerical analysis executed. Compass blocked on a solver licence, assay panels have no deposited values, and supplementary tables S1/S3-S6 are unavailable.",
+      "added": "2026-10-04",
+      "analysis_plan": "gate2_W2_wagner_Th17_PGAM/ANALYSIS_TRIAL_PLAN.md",
+      "results": "gate2_W2_wagner_Th17_PGAM/VALIDATION.md",
+      "trial_location": "Research Article/gate2_W2_wagner_Th17_PGAM/README.md"
     }
   ],
   "outside_roadmap_already_in_repository": [
@@ -695,10 +726,11 @@
     "yu_lee_choi_min_2026": "gate2_C3_yu_lee_choi_min_2026: owner-selected branch 2C item 3; stable paper order 13.",
     "england_2025": "gate2_C2_england_2025: branch 2C item 2; stable paper order 12.",
     "nabhan_2023": "gate2_N1_nabhan_2023: owner-selected branch 2N item 1; stable paper order 6.",
-    "wagner_2021_compass": "gate2_W1_wagner_th17_autoimmunity: owner-requested paper folder, stable paper 15 / Gate 2W. Wg identifiers distinguish it from the existing Niethamer W1 analysis."
+    "wagner_2021_compass": "gate2_W1_wagner_th17_autoimmunity: owner-requested paper folder, stable paper 15 / Gate 2W. Wg identifiers distinguish it from the existing Niethamer W1 analysis.",
+    "wang_2025_pgam": "gate2_W2_wagner_Th17_PGAM: owner-requested paper folder, stable paper 17 / Gate 2W item W2. Wp identifiers distinguish it from the 2021 Wagner package's Wg identifiers and from the Niethamer W1 analysis."
   },
   "current_reading_queue": {
-    "updated": "2026-10-01",
+    "updated": "2026-10-04",
     "spine_refresh": [
       14,
       6
@@ -711,6 +743,7 @@
       9
     ],
     "targeted_followup": [
+      17,
       15,
       7,
       11,

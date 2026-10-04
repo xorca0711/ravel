@@ -199,3 +199,20 @@ The existing GSE211335 cohort now has 36 predefined genes, including all ten Fzd
 receptors and Foxf1. It is reused evidence. GSE262927 coarse CAP labels do not
 validate the Godoy major/transitional contrast. A 2026 retinal preprint supplies
 cross-organ literature context only. No joined adult-lung functional test is added.
+
+## Wang 2025 PGAM source intake, 4 October 2026
+
+Intake for [paper 17](../Research%20Article/gate2_W2_wagner_Th17_PGAM/README.md);
+full inventory and limits in its
+[dataset register](../Research%20Article/gate2_W2_wagner_Th17_PGAM/DATASETS.md).
+
+| Accession | Design as deposited | Intended use | Unit and current limit |
+|---|---|---|---|
+| [GSE289733](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289733) | mouse Th17n/Th17p single-cell RNA at 1 mM and 25 mM glucose; 8 sample records, 2 animal labels, one aggregated matrix of 19,203 barcodes x 31,053 genes | Wp-R1 single-cell reconstruction | cells nested in 8 libraries from 2 animals, one animal per condition cell; aggregation suffix-to-GSM order is not declared, and the 5,192-cell analysed set is not deposited. No population inference |
+| [GSE290297](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290297) | mouse Th17n/Th17p population RNA with EGCG, DHEA and solvent controls, split by division gate; 79 libraries joining one-to-one to 79 TPM columns over 20,465 genes | Wp-R3 bulk contrasts | library; no animal or culture field is deposited and the values are TPM, not counts. Div.1 and Total are different gated populations, not replicates |
+| [GSE138266](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138266) | human MS and idiopathic-intracranial-hypertension blood and CSF leukocytes; 22 samples resolving to 12 donor codes, 10 with both tissues | Wp-R4 signature transport | donor, paired across tissue where available; reused cohort from Schafflick 2020, and no age, sex or treatment field is deposited |
+
+Compass reaction scores, LC/MS carbon tracing, cytokine protein and EAE values
+are not deposited anywhere for this paper; those stages are held rather than
+approximated. Raw caches stay ignored under `raw_data/wagner_pgam_w2_20261004/`.
+
