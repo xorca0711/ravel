@@ -22,8 +22,12 @@ A1 scope change; qualify source/assay/unit/precision holds before execution.
 Scientific adoption and per-candidate illustrations remain open. Validation passed
 9,993 repository checks and the research gate against refreshed main with zero
 errors; the ten changed files are Markdown and protected evidence is unchanged.
-No push/PR/merge; other
-checkouts and unrelated work remain untouched.
+The owner then requested publication: [PR #137](https://github.com/xorca0711/scRNA_seq/pull/137)
+is open against main for the full Wagner continuation, including numerical work,
+figures, literature review, derivation and this framing audit. Branch
+`codex/wagner-continuation-20261004` now tracks origin. GitHub checks and owner
+review remain separate from local validation and scientific acceptance. No merge
+performed; other checkouts and unrelated work remain untouched.
 
 ## Historical Wagner provisional RQ derivation — 4 October 2026
 
