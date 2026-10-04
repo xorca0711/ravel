@@ -32,14 +32,15 @@ contract [config/source_qualification_v1.json](config/source_qualification_v1.js
 
 ## Wp-R1: single-cell reconstruction
 
-Only after Wp-R0. This stage is a **reconstruction with declared substitutions**,
-and each must be named in the contract before it runs:
+Only after Wp-R0. Since the supplementary tables were recovered, the module and
+signature definitions are **exact**; what remains substituted is the embedding and
+the cell set. Each choice must still be named in the contract before it runs:
 
-1. **Module gene lists.** Table S1 is unavailable, so the pro-inflammatory and
-   pro-regulatory modules come from the cited 2015 source (Gaublomme et al.,
-   Figure 4B). Record how many genes are recovered and how many survive the
-   paper's highly-variable-gene restriction, which reduced 116 and 68 published
-   genes to the 63 and 30 actually scored.
+1. **Module gene lists — now exact.** Table S1 supplies 116 pro-inflammatory and
+   68 pro-regulatory genes with an `is_HVG` flag marking the 63 and 30 the paper
+   actually scored. Use the authors' flags rather than recomputing variability on
+   a re-derived embedding, and report both the flagged score and a
+   locally-recomputed-HVG variant, since the two differ by construction.
 2. **Score direction.** Fix the sign to pro-inflammatory minus pro-regulatory,
    matching the Results text and figure behaviour, and record that the Methods
    sentence states the opposite.

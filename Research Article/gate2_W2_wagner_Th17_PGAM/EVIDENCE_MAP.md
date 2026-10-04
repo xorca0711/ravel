@@ -24,14 +24,20 @@ observation, not a repository finding.
 
 ## What is not available
 
-The Excel supplements (Tables S1, S3, S4, S5, S6) are not in the supplied
-supplemental PDF, which carries legends and Table S2 only. Those files hold the
-pro-inflammatory and pro-regulatory module gene lists, the differential-expression
-results behind the EGCG/DHEA signatures, the per-gene correlations and the N1–N3
-and P1–P4 marker sets. Without them, every signature in this paper must be
-rebuilt — the modules from the cited 2015 source, the signatures from the
-deposited bulk matrix — which makes Wp-R1 a *reconstruction*, not an exact
-reproduction, and that distinction must appear in every result statement.
+The Excel supplements are not in the supplied supplemental PDF, which carries
+legends and Table S2 only, but **all five were recovered on 4 October 2026** from
+the NIH PMC Cloud open-data package `PMC12443480.1` (see
+[source manifest](SOURCE_MANIFEST.md)): Table S1 the module gene lists with their
+`is_HVG` flags, Table S3 the limma differential expression behind the EGCG and
+DHEA signatures, Table S4 the per-gene correlations, and Tables S5–S6 the
+programme markers. Wp-R1 and Wp-R3 are therefore exact reproductions of the
+published definitions, and each re-derived signature can be compared gene-for-gene
+against the authors' own table rather than only re-estimated.
+
+What remains unavailable is the processed single-cell object: the 5,192-cell
+analysed set, its exclusions and the fitted scVI model are not deposited, so a
+re-derived embedding and its clusters differ from the published ones by
+construction. That limit is independent of the tables.
 
 Two documentation problems are recorded rather than resolved:
 

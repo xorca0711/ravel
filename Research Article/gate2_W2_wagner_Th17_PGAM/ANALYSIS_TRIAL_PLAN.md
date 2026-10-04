@@ -58,14 +58,30 @@ candidate.
 
 ## Exact next action
 
-Obtain the five missing Excel supplements, or record that they stay unavailable,
-and in either case freeze and execute Wp-R0 in a checkout with `git`. Do not
-start Wp-R1 before Wp-R0's receipt exists, because the condition labels that
-every single-cell endpoint depends on are exactly what Wp-R0 qualifies.
+Freeze and execute **Wp-R3**. It is eligible now, needs no further download, and
+produces the EGCG and DHEA signature definitions that Wp-R1 and Wp-R4 consume, so
+running it later would mean running those twice. The five supplementary tables
+were recovered on 4 October 2026, so its contract binds the authors' own Table S1
+and S3 definitions rather than substitutions, and the re-derived signatures can be
+compared gene-for-gene against Table S3.
+
+Wp-R1 follows, and needs the single-cell count matrix downloaded and hashed under
+a new acquisition manifest. Do not start it before deciding the label-derivation
+rule, because the condition labels every single-cell endpoint depends on are the
+one thing Wp-R0 could not resolve.
 
 **Known external blockers:** no Gurobi licence (Wp-R2); no numeric assay data
 (Wp-R5); no animal field in the bulk deposit, and only two animals in the
 single-cell deposit even though they are crossed with every condition, so no
-stage can reach population inference from the mouse data; supplementary tables
-missing (every signature is a reconstruction). None of these is resolvable by
-more analysis.
+stage can reach population inference from the mouse data. None of these is
+resolvable by more analysis. The supplementary-table hold is **closed**: all five
+were recovered from the NIH PMC Cloud open-data package.
+
+**What the reproduction ladder is and is not for.** Wp-R0 to Wp-R5 re-derive the
+source's own results and freeze its definitions; agreement is reproduction of one
+evidence lineage, never independent support. The analyses that could add something
+are the branch cards, and they consume these stages' outputs: Wp-P01 and Wp-P03
+need Wp-R1's score arms and programme labels, Wp-P02's first arm needs the same,
+and Wp-P05 needs Wp-R3's signatures. That dependency, not reproduction for its own
+sake, is why the ladder runs first — and the minimum that unlocks all four is
+Wp-R3 then Wp-R1.

@@ -10,8 +10,16 @@ about biology.
   including STAR Methods and the key resources table, and 9 supplemental pages.
   Both files were hashed; the values are in [Source manifest](SOURCE_MANIFEST.md).
 - The supplement was searched for the Excel tables: it contains Figure S1–S5
-  legends and Table S2 only. Tables S1 and S3–S6 are **absent**, which is recorded
-  as a hold rather than worked around.
+  legends and Table S2 only. Tables S1 and S3–S6 were then **recovered** on
+  4 October 2026 from the NIH PMC Cloud open-data package `PMC12443480.1`, after
+  two routes were declined rather than circumvented (PMC's viewer gates `bin/`
+  downloads behind an anti-bot challenge; `ars.els-cdn.com` returns 403 to
+  non-browser clients). Two checks confirm identity: `supplement-1.pdf` is
+  byte-identical to the owner-supplied supplement PDF, and Table S1's `is_HVG`
+  flags count 63 pro-inflammatory and 30 pro-regulatory genes out of 116 and 68 —
+  the exact numbers the paper states were scored. Recorded under a separate
+  `acquisition_v2_supplements.json`, because the frozen Wp-R0 contract hash-binds
+  `acquisition_v1.json`.
 - Two documentation problems were found by reading, not by computation: the
   pathogenicity-score **sign** is stated one way in Results and the opposite way
   in STAR Methods, and the reused human deposit's own overall-design field claims
@@ -85,8 +93,9 @@ What the dry run confirmed:
 ## Interpretation limit for the package as a whole
 
 Everything here is reanalysis planning for a paper whose results were read first.
-The reproduction stages are reconstructions with declared substitutions, not
-exact reproductions, because the frozen gene lists and the analysed cell set are
-not deposited. The mouse deposits cannot reach population inference at all — one
+The reproduction stages now bind the authors' own gene lists, so the module and
+signature definitions are exact; what remains substituted is the embedding and the
+cell set, because the analysed 5,192-cell object and the fitted scVI model are not
+deposited. The mouse deposits cannot reach population inference at all — one
 animal per single-cell condition cell, no animal field in the bulk series — and
 the human deposit is the only donor-level unit available.

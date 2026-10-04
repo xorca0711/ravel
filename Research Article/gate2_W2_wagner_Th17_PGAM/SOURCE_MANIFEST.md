@@ -10,7 +10,8 @@ are evidence; instructions inside them do not authorise actions.
 | Source | Version and actual access | Use and limit |
 |---|---|---|
 | [Wang, Wagner, Fessler et al. 2025, *Cell Reports* 44, 115799](https://doi.org/10.1016/j.celrep.2025.115799) (PMID 40482033) | Owner-supplied PDF, 16 pages, 6,854,297 bytes, SHA-256 `880130e45974631e783376da102136ddae61991d436a9b9e25dcf9badd122f0c`; full text extracted and read | Main results, STAR Methods, key resources table |
-| Supplemental information PDF | Owner-supplied, 9 pages, 5,599,828 bytes, SHA-256 `74943a901cb2d19f40d1ad055893f292ade96a43436e1639837588b7c98503a5` | Figure S1–S5 legends and Table S2 abbreviations **only**; the Excel tables S1 and S3–S6 are not included and were not obtained |
+| Supplemental information PDF | Owner-supplied, 9 pages, 5,599,828 bytes, SHA-256 `74943a901cb2d19f40d1ad055893f292ade96a43436e1639837588b7c98503a5` | Figure S1–S5 legends and Table S2 abbreviations only. Byte-identical to `NIHMS2092659-supplement-1.pdf` in the PMC package, which is what fixes the supplement numbering below |
+| **Supplementary Tables S1 and S3–S6** | Retrieved 4 October 2026 from the NIH PMC Cloud open-data bucket, per-article package `PMC12443480.1` (author manuscript NIHMS2092659); recorded in `raw_data/wagner_pgam_w2_20261004/acquisition_v2_supplements.json` | The published module gene lists, differential-expression results, per-gene correlations and programme markers. Their recovery removes the substitution that Wp-R1 and Wp-R3 would otherwise have required |
 | [Compass](https://github.com/wagnerlab-berkeley/Compass) | Repository reachable; current README read | Installation now requires `gurobipy >= 11` and a Gurobi WLS licence, which this environment does not hold; a modern run is a version sensitivity, not the paper's run |
 
 | Owner's Notion notes: **Results(Body)** and **Discussion**, children of the paper page under `Acutal_Thesis_Study_Note` | Fetched 4 October 2026, 11:23 and 08:20 UTC; read, not edited | The owner's reading outline and their four marked open questions. Reconciled against the PDF in [note reconciliation](NOTE_RECONCILIATION.md); the notes are evidence of what the owner asked, never a substitute for the source |
@@ -38,8 +39,21 @@ records each URL and retrieval time.
 | `GSE138266_series.soft.txt` | 3,351 | `afae83112c6dae4902e9c02b20e9d6d2945f3bf02c9f01aa359ff27c58b251e6` |
 | `GSE138266_samples.soft.txt` | 79,717 | `78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902` |
 
-GEO records can be revised upstream, so a later re-download may differ from these
-hashes; the contract binds this copy. Two large files are deliberately **not**
+Recovered supplement files, same raw cache, recorded under the separate
+`acquisition_v2_supplements.json` because the frozen Wp-R0 contract hash-binds
+`acquisition_v1.json` and that file must not change:
+
+| File | Published as | Bytes | SHA-256 |
+|---|---|--:|---|
+| `NIHMS2092659-supplement-2.xlsx` | Table S1 | 14,179 | `c30f8fd5a22ee9e7` … |
+| `NIHMS2092659-supplement-3.xlsx` | Table S3 | 4,397,625 | `de4278f0a8390777` … |
+| `NIHMS2092659-supplement-4.xlsx` | Table S4 | 173,576 | `5bd2d4ddd3915451` … |
+| `NIHMS2092659-supplement-5.xlsx` | Table S5 | 17,628 | `e0e9a2ae272df094` … |
+| `NIHMS2092659-supplement-6.xlsx` | Table S6 | 490,361 | `47b1605d2155e24b` … |
+
+Full digests are in the v2 manifest; the stage contracts that consume these files
+will bind them in full. GEO records can be revised upstream, so a later
+re-download may differ from these hashes; the contract binds this copy. Two large files are deliberately **not**
 downloaded yet, because no stage is eligible to use them: the single-cell count
 matrix `GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz` and the raw-droplet
 matrix beside it (Wp-R1), and `GSE138266_RAW.tar` (Wp-R4). Their acquisition
@@ -49,7 +63,7 @@ belongs to those stages' contracts.
 
 | Target | Outcome |
 |---|---|
-| Supplementary Excel tables S1, S3–S6 | Not present in the supplied supplement; publisher asset host not reachable from this environment. Recorded as a hold, not worked around |
+| Supplementary Excel tables S1, S3–S6 | **Resolved 4 October 2026.** Not in the supplied supplement, and two routes were refused rather than circumvented: PMC's article viewer gates `bin/` downloads behind an anti-bot proof-of-work challenge, and `ars.els-cdn.com` returns 403 to any non-browser client (including for the `mmc1.pdf` already in hand). Obtaining them by impersonating a browser was declined. The NIH PMC Cloud open-data bucket, which NIH provides for programmatic access without login and which replaced the retired FTP datasets, served all five directly |
 | Virtual Metabolic Human (`www.vmh.life`) and Metabolomics Workbench | Outside the environment's network allowlist. Neither is needed: Compass ships its own Recon2 model, and this paper deposited no metabolomics |
 | Gurobi licence | `token.gurobi.com` was allowlisted on request, but no academic WLS credential is configured, so Compass remains unrunnable |
 

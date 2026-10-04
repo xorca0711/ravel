@@ -89,6 +89,9 @@ It does not reproduce any published panel, does not establish independent
 biological replication, and does not show that any eligible stage will agree with
 the paper. An `eligible_descriptive` status means a stage may open at descriptive
 level; it is not a statement that its result would license population inference.
-The missing supplementary tables mean every later signature is a reconstruction
-with declared substitutions, as set out in
+The supplementary tables were recovered after this run, so the later stages bind
+the authors' own module and signature definitions; what remains substituted is the
+embedding and the analysed cell set, as set out in
 [Reproduction scope](REPRODUCTION_SCOPE.md#wp-r1-single-cell-reconstruction).
+This run's own outputs are unaffected: it read no gene list and no expression
+value, so its receipt and eligibility table stand unchanged.

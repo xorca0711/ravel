@@ -38,12 +38,21 @@ already holds open), and the reused human deposit's own overall-design field
 claims a five-versus-five cohort while its sample records resolve to six donors
 per group — the deposit's discrepancy, not a claim in the Wang text.
 
-Next: obtain supplementary tables S1 and S3–S6 — absent from the supplied
-supplement, so every later signature is currently a reconstruction from the cited
-2015 modules — or record them as unavailable; then freeze Wp-R3, which produces
-the signature definitions Wp-R1 and Wp-R4 consume. External blockers needing the
-owner: the Excel supplements, a Gurobi academic WLS licence for Wp-R2, and source
-values for the protein and EAE panels. No claim-register row, no A identifier and
+Supplementary tables S1 and S3–S6 were then **recovered** from the NIH PMC Cloud
+open-data package `PMC12443480.1`, after declining two routes that would have
+required impersonating a browser (PMC's viewer gates `bin/` downloads behind an
+anti-bot challenge; `ars.els-cdn.com` refuses non-browser clients). Identity is
+confirmed twice over: `supplement-1.pdf` is byte-identical to the owner-supplied
+supplement PDF, and Table S1's `is_HVG` flags count 63 and 30 genes out of 116 and
+68, the exact numbers the paper states were scored. They are recorded under a
+separate `acquisition_v2_supplements.json`, leaving the frozen Wp-R0 contract's
+`acquisition_v1.json` untouched. Wp-R1 and Wp-R3 are therefore exact reproductions
+of the published definitions.
+
+Next: freeze Wp-R3, which produces the signature definitions Wp-R1 and Wp-R4
+consume. External blockers needing the owner: a Gurobi academic WLS licence for
+Wp-R2 — which stays only partly fixable, since the published scVI-imputed Compass
+input was never deposited — and source values for the protein and EAE panels. No claim-register row, no A identifier and
 no scientific acceptance was created. Local repository and research checks pass;
 GitHub CI and owner review remain separate.
 

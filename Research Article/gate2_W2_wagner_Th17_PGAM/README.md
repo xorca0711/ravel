@@ -70,12 +70,13 @@ serine arm is correct.
 ## Current decision
 
 [Wp-R0 has run](R0_RESULTS.md): Wp-R1, Wp-R3 and Wp-R4 are eligible descriptively,
-while Wp-R2 and Wp-R5 are blocked externally. The single-cell deposit is the pre-QC
+while Wp-R2 and Wp-R5 are blocked externally. The five supplementary tables were
+recovered on 4 October 2026 from the NIH PMC Cloud open-data package, so the
+module and signature definitions are the authors' own rather than substitutions. The single-cell deposit is the pre-QC
 aggregated matrix of 19,203 barcodes, not the 5,192-cell analysed set, and its
-library order is not stated. The frozen numerical supplementary tables (S1, S3–S6)
-are **not** in the supplied supplement, so the published module and signature gene
-lists are unavailable and must be substituted from the cited 2015 source if R1
-proceeds. Compass itself is blocked on a solver licence.
+library order is not stated. Compass itself is blocked on a solver licence **and** on an input that was never
+deposited: the published run used scVI-imputed expression whose model and matrix
+are not in GEO, so Figure 1 cannot be reproduced as published.
 
 The next intellectual step is **not** more scores: it is deciding between the
 paper's serine-shunt direction and the opposite direction reported for Tregs by

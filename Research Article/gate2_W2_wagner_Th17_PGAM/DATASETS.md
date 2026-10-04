@@ -81,9 +81,16 @@ them.
 
 ## Missing inputs
 
+**Resolved 4 October 2026:** Supplementary Tables S1 and S3–S6 were recovered
+from the NIH PMC Cloud open-data package `PMC12443480.1`; see the
+[source manifest](SOURCE_MANIFEST.md). Table S1 carries 116 pro-inflammatory and
+68 pro-regulatory genes with an `is_HVG` flag whose true counts are 63 and 30 —
+exactly the numbers the paper states were scored — so the published score is
+reproducible from the authors' own list rather than substituted. Wp-R1 and Wp-R3
+are therefore exact reproductions of those definitions, not reconstructions.
+
 | Missing | Consequence | Reopening condition |
 |---|---|---|
-| Supplementary Tables S1, S3–S6 (Excel) | Module gene lists, EGCG/DHEA signatures, per-gene correlations and N1–N3/P1–P4 markers all unavailable; Wp-R1 becomes a reconstruction | Owner supplies `mmc2`–`mmc6` from the publisher, or they are obtained from the lead contact |
 | The 5,192-cell analysed set, its exclusions and the fitted scVI model | Exact single-cell reproduction impossible; re-derived embeddings and clusters differ by construction | Author-supplied processed object |
 | Compass outputs for this paper | Fig. 1 cannot be reproduced without rerunning Compass on a re-derived imputed matrix | Author-supplied reaction scores, or a licensed solver plus a declared version sensitivity |
 | Numeric values for flow cytometry, LC/MS 13C, Legendplex, EAE scores and histology | Figures 1C–1G, 3 (13C), 4 and S5 are not reproducible from data | Author-supplied source data; digitisation would be a separate approximate reconstruction with its own uncertainty, never raw data |
