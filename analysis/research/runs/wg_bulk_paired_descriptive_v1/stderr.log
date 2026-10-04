@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "X:\GitHub\scRNA_seq\.worktrees\wagner-continuation-20261004\Research Article\gate2_W1_wagner_th17_autoimmunity\scripts\bulk_paired_descriptive_v1.py", line 218, in <module>
+    p.add_argument('--output',type=Path,required=True);a=p.parse_args();main(a.source,a.qualification,a.output)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "X:\GitHub\scRNA_seq\.worktrees\wagner-continuation-20261004\Research Article\gate2_W1_wagner_th17_autoimmunity\scripts\bulk_paired_descriptive_v1.py", line 135, in main
+    if not set(GENES)<=set(frame.index):raise ValueError('Prespecified gene absent; do not substitute')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Prespecified gene absent; do not substitute
