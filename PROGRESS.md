@@ -29,6 +29,14 @@ figures, literature review, derivation and this framing audit. Branch
 review remain separate from local validation and scientific acceptance. No merge
 performed; other checkouts and unrelated work remain untouched.
 
+Initial PR CI exposed an R0 checkout-byte mismatch: its unchanged frozen Git
+contract uses LF, while the execution receipt binds CRLF. A single-path checkout
+attribute restores the recorded representation across OSes; no frozen contract,
+receipt, output or integrity rule is edited. The simulated checkout matches all
+167 receipt-bound hashes across nine runs, and the local repository/research
+checks pass again. Follow the latest PR revision's Linux CI checks; the initial
+failure and its verified cause remain recorded in the package validation log.
+
 ## Historical Wagner provisional RQ derivation — 4 October 2026
 
 The owner-requested [first derivation pass](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md)

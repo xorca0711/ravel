@@ -1,5 +1,28 @@
 # Pre-RQ checkpoint validation — 4 October 2026
 
+## PR #137 checkout-byte correction
+
+GitHub's initial Linux research-governance job failed for R0 with `Recorded
+contract changed`, despite local passes. The original freeze at `fee96e4` and
+the current Git blob for `config/source_qualification_v1.json` are identical LF
+bytes (9,241 bytes; SHA256
+`e98ec081c2f76d3be62732e9eacc2f8a74cce8fe3aff0ae8d6cb70c36922a6f8`).
+The execution receipt records the Windows CRLF checkout (9,434 bytes; SHA256
+`c90b0a33fd8273a0457ddea7e40b81d552e61de9e414782690134fff7ca35d9c`).
+Replacing LF with CRLF exactly reproduces the recorded bytes; parsed content
+and the original frozen Git blob are unchanged.
+
+A single-path `text eol=crlf` attribute now declares that historical checkout
+representation on every OS. No frozen contract, receipt, hash, output or validator
+is edited, and no analysis is rerun. The earlier blanket `-text` preservation
+rule did not recover CRLF for an already-LF index entry. A staged-index checkout
+with `core.autocrlf=false` and `core.eol=lf` now matches all **167 receipt-bound
+hashes across nine runs / 166 unique contract, code and output files**. The
+original R0 frozen Git blob remains byte-identical. Local repository validation
+again passes **9,993 checks** and the research gate against main passes with zero
+errors. Fresh Linux CI status is recorded on PR #137; its checks remain required.
+Initial failed job: [research-governance](https://github.com/xorca0711/scRNA_seq/actions/runs/37201961118/job/111435323078).
+
 ## Merged-standard framing audit validation
 
 The framing review compares the six cards at `359fd63` with live merged PRs

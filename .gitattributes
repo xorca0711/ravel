@@ -166,6 +166,9 @@ analysis/tests/test_rochelle_metadata_v1.py -text whitespace=cr-at-eol
 # Preserve exact bytes of Wagner prospective code and contracts.
 "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/**" -text whitespace=cr-at-eol
 "Research Article/gate2_W1_wagner_th17_autoimmunity/config/**" -text whitespace=cr-at-eol
+# R0 was committed with LF but executed with CRLF; reproduce the recorded bytes
+# on every OS without changing its original Git blob or receipt hash.
+"Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json" text eol=crlf whitespace=cr-at-eol
 analysis/research/runs/wg_source_qualification_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wg_source_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
 
