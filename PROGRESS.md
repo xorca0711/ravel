@@ -2,7 +2,30 @@
 
 **Update this before stopping work, every session.**
 
-## Wagner provisional RQ derivation — 4 October 2026
+## Wagner RQ framing audit — 4 October 2026
+
+Reviewed the six cards at `359fd63` against live merged PRs #130/#133–#136 and
+their current standards. Refreshed main remains `a5d4183`; the standards are
+identical here and on main. [Audit and corrections](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/FRAMING_AUDIT_2026-10-04.md):
+P03/P06 contain provisional biological hypotheses; P04 is a model-discrimination
+companion with an unspecified directional endpoint pattern; P05 is a predictive
+companion proposed for A1, whose regulatory scope is not automatically resolved;
+P01/P02 remain measurement support. Entrypoints now state those distinctions and
+expose the proposition summaries. Article-local hypothesis figures are explicitly
+pending, as the merged template permits. Existing results/figures, canonical
+hypotheses, registry and governance are unchanged; no biological rerun or broad
+repeat literature scan was needed. No human acceptance is inferred.
+
+Next: specify P04's expected endpoint pattern without substituting an aggregate
+RNA program for Foxp3 RNA; review P05 as supporting prediction versus a justified
+A1 scope change; qualify source/assay/unit/precision holds before execution.
+Scientific adoption and per-candidate illustrations remain open. Validation passed
+9,993 repository checks and the research gate against refreshed main with zero
+errors; the ten changed files are Markdown and protected evidence is unchanged.
+No push/PR/merge; other
+checkouts and unrelated work remain untouched.
+
+## Historical Wagner provisional RQ derivation — 4 October 2026
 
 The owner-requested [first derivation pass](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md)
 is complete for Wg-P01–P06, from evidence/review at `1c099f0` on scoped branch

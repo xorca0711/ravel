@@ -29,7 +29,9 @@ This file is navigation, not another scientific status register.
   maps feasible extensions, A0–A27 overlaps and additional primary precedents.
   [Provisional RQ derivation](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md)
   develops all six branches, including a proposed A1 feature with A8/A14 companions.
-  Four biological cards and two measurement cards remain article-local; no new A ID.
+  The [merged-standard framing audit](Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/FRAMING_AUDIT_2026-10-04.md)
+  distinguishes P03/P06 biological hypotheses, P04's incomplete directional
+  companion, P05's predictive proposal and P01/P02 measurement support; no new A ID.
   Eight formal plates are available. Wg is separate from Niethamer W1.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.

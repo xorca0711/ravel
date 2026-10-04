@@ -1,5 +1,25 @@
 # Pre-RQ checkpoint validation — 4 October 2026
 
+## Merged-standard framing audit validation
+
+The framing review compares the six cards at `359fd63` with live merged PRs
+#130/#133–#136 and current main `a5d41834395cac0b82b488d48759ceb6fab8f2d5`.
+The applicable governance, literature workflow/template and specificity records
+are unchanged between main and this branch. Changes in this audit are Markdown
+only: an audit, visible proposition/role summaries, P04/P05 qualifications,
+pending-illustration status and navigation/progress updates.
+
+No canonical hypothesis, registry, scientific code, measured figure, contract,
+receipt, claim grade or governance/validator changed. The existing numerical and
+unit-test passes remain applicable; no biological analysis was rerun. The repository
+validator passed **9,993 checks**; the research gate against refreshed main passed
+with **zero errors**. Staged whitespace and ten-file Markdown-only scope checks
+passed; protected hypotheses, registry and scientific artifacts are unchanged.
+The scratch logs
+are `framing_audit_repository_validation.log` and `framing_audit_research_gate.log`.
+Passing them cannot resolve the scientific specification gaps identified by the
+[framing audit](rq_derivation/FRAMING_AUDIT_2026-10-04.md).
+
 ## Provisional RQ derivation validation
 
 The first derivation pass adds six article-local question cards, a source ledger,

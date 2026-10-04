@@ -4,6 +4,13 @@
 to start RQ derivation. This is an authoring-agent consistency review, not an
 independent review or a human decision. No preferred question is selected.
 
+**Subsequent framing check:** [comparison with merged PRs #130/#133–#136](FRAMING_AUDIT_2026-10-04.md)
+qualifies the first-pass completeness statement. P04 lacks an explicit directional
+endpoint pattern; P05 is a predictive companion with A1 adoption/scope unresolved.
+P01/P02 remain measurement support and P03/P06 remain provisional biological
+hypotheses. The table below records the initial consistency pass, not a blanket
+framing or novelty clearance.
+
 ## Consequential checks applied
 
 | Check | Finding / action in this derivation |
@@ -11,7 +18,7 @@ independent review or a human decision. No preferred question is selected.
 | Does each proposal identify what the current evidence actually measures? | P01/P02 are score/RNA measurements; P03/P04 add missing functional/temporal outcomes; P05/P06 explicitly have no new local lung evidence |
 | Is the proposed increment already broad published knowledge? | General polyamine lineage effects, suppression assays, glycolysis/withdrawal, ARG1 supply and OAT/collagen mechanisms are precedents. Cards use narrower persistence, timing, linked prediction and joint nutrient-balance comparisons |
 | Is unfavorable evidence retained? | Program sensitivity, null fixed-gene BH interactions, source mismatches, missing units and negative neighboring RQ results remain unchanged |
-| Are hypotheses distinct enough to justify separate questions? | P03 asks persistence/function; P04 asks dependency versus kinetics and can remain its companion. P01/P02 are measurement questions. P05 belongs within A1; A8/A14 contribute comparators. P06 has a different recipient/function and stays separate from Th17 |
+| Are hypotheses distinct enough to justify separate questions? | P03 asks persistence/function; P04 asks dependency versus kinetics and can remain its companion. P01/P02 are measurement questions. P05 is proposed as an A1 companion, with scope/adoption unresolved; A8/A14 contribute comparators. P06 has a different recipient/function and stays separate from Th17 |
 | Are proposed measurements falsely described as ready? | Epithelial biochemical attribution, pharmacodynamic recovery, common-time paired assays, donor crossing and source-specific manipulation are explicit qualification gaps |
 | Is a predictor being called a cause or a null being called equivalence? | P05 remains prediction; P04 needs direct interactions and useful precision. Neither a score nor lack of significance determines mechanism |
 | Is source exposure being confused with recipient metabolism? | P06 separates the two and does not treat Yadav/Hamanaka as contradictory. It allows the compensation hypothesis to fail within the actual exposure range |

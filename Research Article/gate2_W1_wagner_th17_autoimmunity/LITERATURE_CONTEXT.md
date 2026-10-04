@@ -1,5 +1,11 @@
 # Wg: literature context for reproduction and branches
 
+**Framing audit:** [the merged-standard comparison](rq_derivation/FRAMING_AUDIT_2026-10-04.md)
+qualifies P04's directional specification and P05's predictive/A1-scope status.
+The same-day primary-source review below is reused; no new biological scope or
+novelty clearance is adopted. Candidate-specific hypothesis figures are explicitly
+pending in the derivation index.
+
 **Derivation continuation:** the [six provisional question cards](rq_derivation/README.md) now specify the P05 biochemical feature and P06 source/recipient comparison. [Additional source grounding](rq_derivation/SOURCES_AND_GROUNDING.md) narrows the proposals. This updates development status, not the numerical evidence or scientific acceptance; earlier stage/status statements below are historical.
 
 **Latest pre-derivation review, 4 October 2026:** start with the [review](pre_rq_review/README.md) and [source update](pre_rq_review/LITERATURE_UPDATE.md). They add recent leads, older close precedents and corrections after the model results. The source-specific full-text gaps are explicit; novelty and laboratory feasibility remain unestablished.

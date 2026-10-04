@@ -1,13 +1,16 @@
 # Wagner 2021: Th17 metabolism and autoimmunity
 
-**4 October 2026: first provisional RQ derivation completed for all six branches.
-Four cards develop biological comparisons; two qualify measurements. P05 proposes
-an A1 extension with A8/A14 companions. No new canonical A ID or human acceptance
-is recorded. R0/R1/R3 and eight formal plates remain unchanged; R2/R4/R5 are held.**
+**4 October 2026: six provisional derivation cards drafted and checked against
+the recent merged framing standards. P03/P06 are biological hypotheses; P04 is a
+model-discrimination companion with a directional gap; P05 is a predictive
+companion proposed for A1; P01/P02 qualify measurements. No new canonical A ID or
+human acceptance is recorded. R0/R1/R3 and eight formal plates remain unchanged;
+R2/R4/R5 are held.**
 
 Start with the [derived questions](rq_derivation/README.md),
 [source grounding](rq_derivation/SOURCES_AND_GROUNDING.md) and
-[scientific review packet](rq_derivation/REVIEW.md).
+[scientific review packet](rq_derivation/REVIEW.md), with the
+[current framing audit and remaining gaps](rq_derivation/FRAMING_AUDIT_2026-10-04.md).
 
 Earlier evidence: the [pre-derivation review](pre_rq_review/README.md), its
 [extension and RQ overlap map](pre_rq_review/EXTENSIONS_AND_OVERLAPS.md),
