@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-R01.article_figures_v2",
+  "owner": "Wg-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do the frozen source-score results display reaction heterogeneity, selected cell distributions and reconstruction limits?",
+  "decision": "Render all prespecified reaction and pathway results in article-style figures without new statistical fitting or biological acceptance.",
+  "strongest_rival": "Visual selection, duplicate group members, hidden null effects or unlabeled cell nesting could overstate pathway specificity.",
+  "discriminator": "Display all 14 named reactions and all 53 source-display pathways, deduplicate groups within pathways, and include source-count and batch diagnostics.",
+  "evidence_refs": [
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_ANALYSIS_DESIGN_v1.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/NUMERICAL_AMENDMENT_v3.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All R1 table summaries and selected effects were inspected before this rendering contract. This is an explicitly exposed visualization stage with no new inferential tests.",
+  "biological_unit": "Independent animal or culture/preparation remains unresolved; the 290 cells are source observations, not independent biological replicates.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "The 2015 source cells are reused by the author example. Related reactions share metareaction estimates, and groups can belong to several pathways. There is no external replication or verified animal split.",
+  "population_and_selection": "All 139 Th17p and 151 Th17n author cells; all deposited penalty rows initially. Fixed source range, core annotation and pathway-display filters; no outcome-based cell selection.",
+  "contrast": "Th17p minus Th17n standardized transformed-score difference, with reaction versus metareaction and member-weighted versus unique-group pathway summaries.",
+  "endpoint": "Four figure plates: effect contrasts, pathway heterogeneity, selected cell distributions, and source/grouping diagnostics.",
+  "methods": "Render frozen TSV values using matplotlib. Fixed source-named reaction list; all pathways sorted by median; per-pathway unique groups; deterministic visual jitter seed 471; cell boxplots show median/IQR and 1.5-IQR whiskers, not confidence intervals. Source q<0.1 is labeled. PDF/SVG vector and PNG 300 dpi outputs; inspect PDF renderings.",
+  "missingness_and_exclusions": "Stop on identity, finite-value or mapping failures. Exclude exactly constant rows from undefined clustering and retain all exclusion IDs. Keep zero-variance effects and unavailable named reactions missing. No imputed units or post-result curation.",
+  "multiplicity": "No new tests or multiplicity family; display only frozen source-cell q values.",
+  "precision_status": "unknown",
+  "precision_basis": "No independent-unit variance or justified effect margin exists. No biological confidence interval, power claim or equivalence test is produced.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Inferred potential-activity scores are not measured flux or function. Cell-level tests reproduce source convention but do not support animal-level inference. No exact numerical manuscript table is available; count/qualitative concordance is not complete paper reproduction.",
+  "stop_rule": "Stop on failed numerical verification, changed runtime, missing prespecified rows or rendering errors. Do not silently omit results.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/expanded_metareaction_statistics.tsv",
+      "sha256": "d19325b19e09bb5e2a022bb8d19811aebee0193302ab625c412aaaa0c30c7101",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/reaction_statistics.tsv",
+      "sha256": "63af14c9f697a8c7fc35dd3065f1cbb34fa78040628cdee47b4e9e0933326227",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/selected_reactions.tsv",
+      "sha256": "1d5fa3960146fa2b66b84f85a2adec87472d3e67373c29954544679724388b8e",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/selected_cell_scores.tsv",
+      "sha256": "0cd563e3ace00069e419445f22f6545cf822d34017b8b79c907140f8674d02c7",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/pathway_summary.tsv",
+      "sha256": "363f54766bc513808ca1708c54b75fe7db5a467419921e7f48276c6788ea53d8",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/metareaction_membership.tsv",
+      "sha256": "3b3f050c4e0d9036e92ee8455ace8f30cab6520167879d51dcaea2051c44faf4",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/summary.json",
+      "sha256": "ff046b193b592373cb946178ede19cd793a3a68a2be2e9aeac518ea2268acf79",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/environment.json",
+      "sha256": "0e0d14c506667462e32f642dc36245c2b3a3cac9e141f0cfad2c8f2ba9ce6871",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/verification.json",
+      "sha256": "6cec10e6d9a3a4c3db14f8713bc52c359caac438fcfe93a9dd5e58e526da88fd",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/receipt.json",
+      "sha256": "c6853be82b43237ca7c9e07810068e44b99b113f39f42a67e4dc933b93413ac7",
+      "study_id": "Wagner2021_reused_2015_Th17",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/article_figures_v2.py",
+      "sha256": "f65dd8a54b555b87b2e30945aab8d6e9a638ff8cd11d5c64b4b4b0be8cce5df0"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W1_wagner_th17_autoimmunity/scripts/article_figures_v2.py",
+  "arguments": [
+    "--source",
+    "analysis/research/runs/wg_source_scores_v3",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "figure_1.pdf",
+    "figure_1.svg",
+    "figure_1.png",
+    "figure_2.pdf",
+    "figure_2.svg",
+    "figure_2.png",
+    "figure_3.pdf",
+    "figure_3.svg",
+    "figure_3.png",
+    "figure_S1.pdf",
+    "figure_S1.svg",
+    "figure_S1.png",
+    "Wagner_R1_figures.pdf",
+    "CAPTIONS.md",
+    "figure_manifest.json"
+  ],
+  "amendment_of": "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+  "amendment_reason": "Visual QA found a Figure 1 legend/axis-label overlap and a Figure 2 panel-letter/title overlap. Use fixed-point panel-letter placement and increase Figure 1 bottom spacing. No data, statistics, selection or caption changes."
+}
