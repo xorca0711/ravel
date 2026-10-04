@@ -1,0 +1,21 @@
+{
+  "cell_counts": {
+    "Th17n": 151,
+    "Th17p": 139
+  },
+  "raw_reactions": 10211,
+  "raw_constant_reactions": 3647,
+  "tested_single_reactions": 6373,
+  "formed_metareactions": 1912,
+  "tested_metareactions": 1722,
+  "core_expanded_reactions": 1838,
+  "core_metareactions_any_core_member": 784,
+  "source_paper_reported_metareactions": 1911,
+  "source_paper_reported_core_metareactions": 784,
+  "source_count_comparison_is_not_equivalence": true,
+  "display_pathways": 53,
+  "pathways_with_both_source_significant_directions": 20,
+  "selected_missing": [],
+  "constant_rule": "Exactly constant raw rows excluded from undefined Spearman clustering; all excluded identities retained. Source helper has no explicit constant-row guard.",
+  "scope": "Author processed-output reconstruction and exposed aggregation sensitivity. Cells are observations; independent animal/preparation counts are unknown. No measured flux or population inference."
+}
