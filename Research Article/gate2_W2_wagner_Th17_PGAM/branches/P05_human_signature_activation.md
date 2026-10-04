@@ -76,3 +76,29 @@ Freeze the CD4 definition, inclusion floors, activation score and model before
 any disease contrast is computed. If fewer than four donors per group survive the
 inclusion floor in a tissue, report that tissue as not assessable rather than
 lowering the floor.
+
+## Resolved, 4 October 2026: resolved against the disease interpretation
+
+[Wp-R4](../R4_RESULTS.md) ran this card's discriminating analysis. In CSF no score
+separates MS from idiopathic intracranial hypertension (BH >= 0.93 for every
+module, signature and programme). In blood both modules, three programmes and a
+proliferation set separate the cohorts, the activation set separates them in the
+*opposite* direction, and the activation score correlates with each module across
+the ten blood donors at Spearman -0.61 to -0.87. The deciding measurement -
+1,000 random gene sets of matched size, scored identically - puts the
+pro-inflammatory module (observed +0.055, null interval +0.004 to +0.070,
+empirical p = 0.29), the pro-regulatory module (p = 0.19), programme N1
+(p = 0.10) and proliferation (p = 0.40) inside the null, and the Table S3 EGCG
+signature *below* it (p = 0.000). Only the activation set (p = 0.001), programme
+P4 in blood (p = 0.020) and programme P1 in CSF (p = 0.003) exceed their null.
+
+**Conclusion.** The human dataset does not provide module-specific support for
+the pathogenicity claim; the Figure S4 blood result is a donor-level axis that
+moves any gene set of comparable size. The axis itself is unidentifiable because
+GSE138266 deposits no batch, run or processing field. What survives is a
+disease-independent compartment effect: the pro-inflammatory module, the
+pathogenicity score and both EGCG signatures are higher in CSF than in the same
+donor's blood (9-10 of 10 paired donors, Wilcoxon p 0.002-0.006), alongside a
+rise in the activation score. This card is closed as **resolved in the negative**
+for the disease reading; the compartment effect is handed to Wp-P01 as a question
+about what the score measures, not to a new human card.

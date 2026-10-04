@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.singlecell_reproduction_v1",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json",
+  "contract_sha256": "4210dd388612f37da8c27e52495423065ee6f490e244ad6719d3aa4937aecaba",
+  "git_commit": "f691cf49c54ee0becc1ae78e9cff9b07cd31137c",
+  "started_at": "2026-10-04T16:01:57.815652+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/singlecell_reproduction_v1.py",
+    "--data-root",
+    "raw_data/wagner_pgam_w2_20261004",
+    "--r3-run",
+    "analysis/research/runs/wp_bulk_contrasts_v1",
+    "--output",
+    "analysis/research/runs/wp_singlecell_reproduction_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+      "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v2_supplements.json",
+      "sha256": "a34292407209abe916a6145d2b423e101b3d0614eddf0a91daccc87335c3f37c",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+      "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz",
+      "sha256": "80f6675b4922f7316f205afea2d4a52d612f7cc3ab830343b4f19e8f50261fe3",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+      "sha256": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+      "sha256": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_samples.soft.txt",
+      "sha256": "ec0db0447c9f99d005eba594ab59c0d34732f8e2afbe7bb0569cc7df03886638",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+      "sha256": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+      "study_id": "Wang2025_TableS1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-3.xlsx",
+      "sha256": "de4278f0a8390777cd0faa3117edff6928bb07bcd2fbcc92d2bc17d4de7a3a1d",
+      "study_id": "Wang2025_TableS3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-4.xlsx",
+      "sha256": "5bd2d4ddd3915451c5f51e7dd0fa734813a5e2a38fffa6a302d211ebc57203a3",
+      "study_id": "Wang2025_TableS4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+      "sha256": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+      "study_id": "Wang2025_TableS5",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/signatures.csv",
+      "sha256": "e354f368578b45a1fabbe89655fbe63aabc5530db22f90e5f2ff47bd3531284e",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/singlecell_reproduction_v1.py",
+      "sha256": "f19f77ba20ecf2a8c06147cde9b5d37a2437cfc5c1462a98defede294bf715ea"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/results.json",
+      "sha256": "693b639d300027efc920bded2fc0cc8b9fb16a30dc807385797f5fc175c6ee31"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/library_labels.csv",
+      "sha256": "e829bb20338bf4181724d74af325f00b064c15bc305509e060b5faf71c447b72"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/library_score_means.csv",
+      "sha256": "9d4e7950aea6c86b542dad55a0f9962bcbb9ffc71ee4d4bd1258eea01ecf2b6f"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/glucose_paired_differences.csv",
+      "sha256": "b832bc17492a879271c5a96a689a0a9b6bf689a380bb455fa4967943b7ccd4f7"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/programme_composition.csv",
+      "sha256": "92b42d9737b09c07853cf58b79c88157002c0a74197d3e5a3699d9c97a99d63c"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/programme_composition_excl_overlap.csv",
+      "sha256": "7078a92d7c24860e8e91040a14c27aeffa2328b111414dc594078282c5579d58"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/programme_scores_by_library.csv",
+      "sha256": "3430ff3177052d4bcc34e9ab82f231aeaf731ed9adb0baaeeeb444e4087763c4"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/n1_lowest_checks.csv",
+      "sha256": "f606fb15307b2df4f556946680f136651ad7623204fa719bd6b137937475f0ae"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/signature_pathogenicity_correlations.csv",
+      "sha256": "01d28441bc63f9c8e340c1c0db7e07a8ef11680ff1c876e53650b84243b0fb90"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/tableS4_concordance.csv",
+      "sha256": "d349620b5f16aa4c3be1c74a357c66b248e730e88ab49106581f1c98a0394098"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/fig3d_named_genes.csv",
+      "sha256": "03d69d3da8a2ffd37ab33be74db271b67be3940c961956be39193f7fb86857f2"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/cell_scores.csv.gz",
+      "sha256": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/glucose_interaction_pseudobulk.csv.gz",
+      "sha256": "c778d9154b824e036221e251df202e1846e4bea4f1f2e0f3d21991d3488ea3dd"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-04T16:03:40.794691+00:00"
+}

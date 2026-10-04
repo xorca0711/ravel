@@ -55,3 +55,22 @@ Two documentation problems are recorded rather than resolved:
    samples across 6 MS and 6 control donor codes. This is the deposit's
    discrepancy, not a statement in the Wang text, which describes the cohort only
    in general terms. See [Datasets](DATASETS.md#human-reuse-cohort).
+
+## Reproduction outcomes recorded 4 October 2026
+
+Four stages have executed under the governed runner. The claim-by-claim outcome
+table lives in [REPRODUCTION_SCOPE.md](REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026);
+the stage reports are [R0](R0_RESULTS.md), [R3](R3_RESULTS.md), [R1](R1_RESULTS.md)
+and [R4](R4_RESULTS.md). Three findings change how rows above should be read.
+
+1. **Fig. 2 (bulk, Th17n EGCG).** The contrast reproduces against Table S3 on the
+   first-division gate, but at module level the EGCG effect in Th17n is not
+   selective for the pro-inflammatory group once the global shift is centred out.
+   The single-gene claims (IL17A, IL17F) do reproduce.
+2. **Fig. S4 (human).** Not module-specific. A matched-size random gene set
+   separates the two blood cohorts as well as the modules do, and nothing
+   separates the CSF cohorts at all.
+3. **EAE incidence p value.** The deposited table (10/12 versus 0/12) gives
+   two-sided Fisher p = 6.7e-5 against the published 1.1e-4. Ours is the smaller
+   value, so the published figure is more conservative and the conclusion stands;
+   the test used is not stated in the paper.

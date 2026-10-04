@@ -131,3 +131,16 @@ cited full texts are read and what they measured is recorded; a stress module
 scored first and justified afterwards is exactly the move this card refuses. If the association is inconsistent in sign across
 libraries, report it as inconclusive and stop; do not add conditions, change the
 module or pool libraries until a sign appears.
+
+## Evidence added 4 October 2026
+
+[Wp-R3](../R3_RESULTS.md) supplies the transcript-level half of this card from the
+authors' own bulk libraries: every measured serine-synthesis and one-carbon gene
+falls under EGCG in both cultures (PHGDH -0.46 in Th17n and -0.65 in Th17p, SHMT2
+-0.51 and -0.73, PSAT1, SHMT1, MTHFD2, all BH <= 0.05 where marked), and falls
+under DHEA as well. PGAM inhibition is expected to *raise* 3-phosphoglycerate, so
+a coordinated transcriptional decrease is compatible with feedback to substrate
+excess or with a genuinely reduced pathway, and it does not discriminate between
+this paper's serine-shunt sign and the opposite direction reported for Tregs by
+Godfrey et al. 2025. The discriminating measurement named on this card is
+unchanged: labelled serine and formate flux under PGAM inhibition, not expression.

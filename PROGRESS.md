@@ -49,12 +49,37 @@ separate `acquisition_v2_supplements.json`, leaving the frozen Wp-R0 contract's
 `acquisition_v1.json` untouched. Wp-R1 and Wp-R3 are therefore exact reproductions
 of the published definitions.
 
-Next: freeze Wp-R3, which produces the signature definitions Wp-R1 and Wp-R4
-consume. External blockers needing the owner: a Gurobi academic WLS licence for
-Wp-R2 — which stays only partly fixable, since the published scVI-imputed Compass
-input was never deposited — and source values for the protein and EAE panels. No claim-register row, no A identifier and
-no scientific acceptance was created. Local repository and research checks pass;
-GitHub CI and owner review remain separate.
+**Wp-R3, Wp-R1 and Wp-R4 then executed and verified under the runner** (receipts
+`wp_bulk_contrasts_v1`, `wp_singlecell_reproduction_v1`,
+`wp_human_signature_transfer_v1` and its v2 amendment), each with an independent
+arithmetic check from a second output file. The
+[claim-by-claim outcome table](Research%20Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026)
+records all of it; three results matter.
+
+1. The undeclared single-cell library order **is** recoverable: marker-derived
+   cell type and TXNIP-derived glucose agree with the GEO order in 8/8 libraries,
+   and the pathogenicity score then rises at low glucose in 4/4 animal-paired
+   comparisons through loss of the pro-regulatory arm, exactly as published,
+   with N1 least pathogenic in 12/12 checks even after removing shared marker genes.
+2. The bulk contrasts reproduce Table S3 on the first-division gate (log2FC
+   r 0.83–0.92), but **the Th17n EGCG module shift is not selective**: both gene
+   groups rise by similar amounts on a global shift (between-group Mann-Whitney
+   p = 0.97), while the single genes the paper names do move as described.
+   Th17n EGCG is also the weakest reproduction (recall 0.405 of 926 genes).
+3. The human claim does not survive its own null. In CSF nothing separates MS
+   from the comparison cohort; in blood both modules and three programmes do, but
+   **1,000 matched-size random gene sets separate the cohorts just as well**
+   (pro-inflammatory empirical p = 0.29), so Figure S4's blood result is a
+   donor-level axis. Wp-P05 is closed in the negative; a disease-independent
+   CSF-versus-blood compartment effect is what remains.
+
+Wp-R5 is **closed, not executed**: the owner judged author contact implausible and
+declined digitisation, so the non-RNA panels stay as cited evidence. Wp-R2 is
+unblocked on the licence (Gurobi WLS verified; Compass 1.0.0 from the authors' own
+fork installed) but can only ever be a version-and-input sensitivity, since the
+published scVI-imputed input was never deposited. No claim-register row, no A
+identifier and no scientific acceptance was created. Local repository and research
+checks pass; GitHub CI and owner review remain separate.
 
 ## Wagner RQ framing audit — 4 October 2026
 

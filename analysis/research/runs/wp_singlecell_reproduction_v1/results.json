@@ -1,0 +1,354 @@
+{
+  "cells_by_condition": [
+    {
+      "cell_type": "Th17n",
+      "glucose": "1mM",
+      "n": 4112
+    },
+    {
+      "cell_type": "Th17n",
+      "glucose": "25mM",
+      "n": 4599
+    },
+    {
+      "cell_type": "Th17p",
+      "glucose": "1mM",
+      "n": 2887
+    },
+    {
+      "cell_type": "Th17p",
+      "glucose": "25mM",
+      "n": 4232
+    }
+  ],
+  "genes_scored": {
+    "Th17n_DHEA_S3_all": 925,
+    "Th17n_DHEA_S3_local": 437,
+    "Th17n_Div_1_DHEA_R3_all": 694,
+    "Th17n_Div_1_DHEA_R3_local": 347,
+    "Th17n_Div_1_EGCG_R3_all": 446,
+    "Th17n_Div_1_EGCG_R3_local": 220,
+    "Th17n_EGCG_S3_all": 893,
+    "Th17n_EGCG_S3_local": 395,
+    "proinflammatory_all": 110,
+    "proinflammatory_authors": 63,
+    "proinflammatory_local": 62,
+    "proliferation": 18,
+    "proregulatory_all": 67,
+    "proregulatory_authors": 30,
+    "proregulatory_local": 28
+  },
+  "glucose_interaction": {
+    "expression_floor_cpm": 1.0,
+    "min_fraction_libraries": 0.5,
+    "n_bh_0.05": 0,
+    "n_expressed_genes": 10732,
+    "n_p_lt_0.001": 69,
+    "residual_df": 3
+  },
+  "inputs_verified": [
+    {
+      "file": "GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+      "match": true
+    },
+    {
+      "file": "GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+      "match": true
+    },
+    {
+      "file": "GSE289733_samples.soft.txt",
+      "match": true
+    },
+    {
+      "file": "GSE290297_collected_inhibitors_tpm_4geo.csv.gz",
+      "match": true
+    },
+    {
+      "file": "GSE290297_samples.soft.txt",
+      "match": true
+    },
+    {
+      "file": "NIHMS2092659-supplement-2.xlsx",
+      "match": true
+    },
+    {
+      "file": "NIHMS2092659-supplement-3.xlsx",
+      "match": true
+    },
+    {
+      "file": "NIHMS2092659-supplement-4.xlsx",
+      "match": true
+    },
+    {
+      "file": "NIHMS2092659-supplement-5.xlsx",
+      "match": true
+    },
+    {
+      "file": "GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz",
+      "match": true
+    }
+  ],
+  "interpretation_limit": "Reproduction of the source's own single-cell analysis on its deposit. Labels are derived; animal identity is a prior; the analysed 5,192-cell set and scVI model are not deposited, so cell membership differs. Two animals cannot support population inference and agreement is not independent replication.",
+  "label_derivation": {
+    "all_libraries_agree_with_prior": true,
+    "glucose_gaps": {
+      "Th17n": {
+        "between": 1.9128782749176025,
+        "within_max": 0.5167455673217773
+      },
+      "Th17p": {
+        "between": 3.80234956741333,
+        "within_max": 0.3923830986022949
+      }
+    },
+    "labels": [
+      {
+        "agrees_with_prior": true,
+        "animal_label": "Mo1",
+        "animal_status": "prior_only_untested",
+        "derived_cell_type": "Th17n",
+        "derived_glucose": "1mM",
+        "library": "1",
+        "prior_animal": "Mo1",
+        "prior_cell_type": "Th17n",
+        "prior_glucose": "1mM",
+        "th17p_minus_th17n_marker_score": -3.74430513381958,
+        "txnip_log2cpm": 3.23919415473938
+      },
+      {
+        "agrees_with_prior": true,
+        "animal_label": "Mo1",
+        "animal_status": "prior_only_untested",
+        "derived_cell_type": "Th17n",
+        "derived_glucose": "25mM",
+        "library": "2",
+        "prior_animal": "Mo1",
+        "prior_cell_type": "Th17n",
+        "prior_glucose": "25mM",
+        "th17p_minus_th17n_marker_score": -3.3317503929138184,
+        "txnip_log2cpm": 5.66881799697876
+      },
+      {
+        "agrees_with_prior": true,
+        "animal_label": "Mo2",
+        "animal_status": "prior_only_untested",
+        "derived_cell_type": "Th17n",
+        "derived_glucose": "1mM",
+        "library": "3",
+        "prior_animal": "Mo2",
+        "prior_cell_type": "Th17n",
+        "prior_glucose": "1mM",
+        "th17p_minus_th17n_marker_score": -3.44578218460083,
+        "txnip_log2cpm": 2.9199516773223877
+      },
+      {
+        "agrees_with_prior": true,
+        "animal_label": "Mo2",
+        "animal_status": "prior_only_untested",
+        "derived_cell_type": "Th17n",
+        "derived_glucose": "25mM",
+        "library": "4",
+        "prior_animal": "Mo2",
+        "prior_cell_type": "Th17n",
+        "prior_glucose": "25mM",
+        "th17p_minus_th17n_marker_score": -3.7663211822509766,
+        "txnip_log2cpm": 5.152072429656982
+      },
+      {
+        "agrees_with_prior": true,
+        "animal_label": "Mo1",
+        "animal_status": "prior_only_untested",
+        "derived_cell_type": "Th17p",
+        "derived_glucose": "1mM",
+        "library": "5",
+        "prior_animal": "Mo1",
+        "prior_cell_type": "Th17p",
+        "prior_glucose": "1mM",
+        "th17p_minus_th17n_marker_score": 1.5401592254638672,
+        "txnip_log2cpm": 2.5539536476135254
+      },
+      {
+        "agrees_with_prior": true,
+        "animal_label": "Mo1",
+        "animal_status": "prior_only_untested",
+        "derived_cell_type": "Th17p",
+        "derived_glucose": "25mM",
+        "library": "6",
+        "prior_animal": "Mo1",
+        "prior_cell_type": "Th17p",
+        "prior_glucose": "25mM",
+        "th17p_minus_th17n_marker_score": 1.9082427024841309,
+        "txnip_log2cpm": 6.853635787963867
+      },
+      {
+        "agrees_with_prior": true,
+        "animal_label": "Mo2",
+        "animal_status": "prior_only_untested",
+        "derived_cell_type": "Th17p",
+        "derived_glucose": "1mM",
+        "library": "7",
+        "prior_animal": "Mo2",
+        "prior_cell_type": "Th17p",
+        "prior_glucose": "1mM",
+        "th17p_minus_th17n_marker_score": 1.5773718357086182,
+        "txnip_log2cpm": 2.658903121948242
+      },
+      {
+        "agrees_with_prior": true,
+        "animal_label": "Mo2",
+        "animal_status": "prior_only_untested",
+        "derived_cell_type": "Th17p",
+        "derived_glucose": "25mM",
+        "library": "8",
+        "prior_animal": "Mo2",
+        "prior_cell_type": "Th17p",
+        "prior_glucose": "25mM",
+        "th17p_minus_th17n_marker_score": 1.7810897827148438,
+        "txnip_log2cpm": 6.461252689361572
+      }
+    ],
+    "th17n_markers_used": [
+      "IL10",
+      "MAF",
+      "IKZF3",
+      "CD5L",
+      "FOXP3",
+      "CTLA4"
+    ],
+    "th17p_markers_used": [
+      "IL23R",
+      "TBX21",
+      "CSF2",
+      "GZMB",
+      "IL22",
+      "IFNG"
+    ],
+    "type_gap_between_groups": 4.8719096183776855,
+    "type_max_gap_within_groups": 0.29852294921875
+  },
+  "n_cells_after_qc": 15830,
+  "n_genes_after_qc": 18500,
+  "n_local_hvg": 3542,
+  "programme_assignment_agreement_after_overlap_removal": 0.8616550852811118,
+  "programme_marker_overlap": {
+    "N1": {
+      "n_in_EGCG_signature": 16,
+      "n_in_S1_modules": 9,
+      "n_markers": 50
+    },
+    "N2": {
+      "n_in_EGCG_signature": 22,
+      "n_in_S1_modules": 0,
+      "n_markers": 89
+    },
+    "N3": {
+      "n_in_EGCG_signature": 14,
+      "n_in_S1_modules": 7,
+      "n_markers": 26
+    },
+    "P1": {
+      "n_in_EGCG_signature": 12,
+      "n_in_S1_modules": 10,
+      "n_markers": 29
+    },
+    "P2": {
+      "n_in_EGCG_signature": 18,
+      "n_in_S1_modules": 1,
+      "n_markers": 92
+    },
+    "P3": {
+      "n_in_EGCG_signature": 16,
+      "n_in_S1_modules": 2,
+      "n_markers": 51
+    },
+    "P4": {
+      "n_in_EGCG_signature": 26,
+      "n_in_S1_modules": 13,
+      "n_markers": 108
+    }
+  },
+  "qc": [
+    {
+      "library": "1",
+      "median_genes": 3333.5,
+      "median_mito_frac": 0.019151993095874786,
+      "median_umi": 15480.5,
+      "n_barcodes": 2890,
+      "n_pass_qc": 2349
+    },
+    {
+      "library": "2",
+      "median_genes": 3634.5,
+      "median_mito_frac": 0.014458414167165756,
+      "median_umi": 15548.0,
+      "n_barcodes": 2676,
+      "n_pass_qc": 2404
+    },
+    {
+      "library": "3",
+      "median_genes": 3484.0,
+      "median_mito_frac": 0.018688222393393517,
+      "median_umi": 15629.0,
+      "n_barcodes": 2147,
+      "n_pass_qc": 1763
+    },
+    {
+      "library": "4",
+      "median_genes": 3709.0,
+      "median_mito_frac": 0.013070918619632721,
+      "median_umi": 15802.0,
+      "n_barcodes": 2583,
+      "n_pass_qc": 2195
+    },
+    {
+      "library": "5",
+      "median_genes": 3214.0,
+      "median_mito_frac": 0.020968204364180565,
+      "median_umi": 15978.0,
+      "n_barcodes": 1595,
+      "n_pass_qc": 1239
+    },
+    {
+      "library": "6",
+      "median_genes": 3097.5,
+      "median_mito_frac": 0.019678538665175438,
+      "median_umi": 10633.5,
+      "n_barcodes": 2502,
+      "n_pass_qc": 2036
+    },
+    {
+      "library": "7",
+      "median_genes": 3340.0,
+      "median_mito_frac": 0.02220967411994934,
+      "median_umi": 16175.0,
+      "n_barcodes": 2077,
+      "n_pass_qc": 1648
+    },
+    {
+      "library": "8",
+      "median_genes": 3440.0,
+      "median_mito_frac": 0.020976200699806213,
+      "median_umi": 13688.0,
+      "n_barcodes": 2733,
+      "n_pass_qc": 2196
+    }
+  ],
+  "s1_authors_hvg_flags_recovered_as_local_hvg": {
+    "pro-inflammatory": 53,
+    "pro-regulatory": 23
+  },
+  "schema": "wp_r1_singlecell/v1",
+  "signature_S1_overlap": {
+    "DHEA_signature_local": 33,
+    "DHEA_signature_local_total": 437,
+    "EGCG_signature_local": 43,
+    "EGCG_signature_local_total": 395
+  },
+  "tableS4_concordance": {
+    "n_genes": 1428,
+    "pearson_partial_rho": 0.9214979479355021,
+    "pearson_rho": 0.8081812711678745,
+    "sign_agreement_rho": 0.8256302521008403
+  },
+  "unit": "library (8) nested in animal (2); animals crossed with all four conditions"
+}

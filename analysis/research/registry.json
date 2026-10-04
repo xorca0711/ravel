@@ -733,7 +733,12 @@
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_figures_v1.json",
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json",
-    "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/bulk_contrasts_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -771,7 +776,12 @@
     "analysis/research/runs/wg_bulk_figures_v1/receipt.json",
     "analysis/research/runs/wg_bulk_limma_v1/receipt.json",
     "analysis/research/runs/wg_closeout_qualification_v1/receipt.json",
-    "analysis/research/runs/wp_source_qualification_v1/receipt.json"
+    "analysis/research/runs/wp_source_qualification_v1/receipt.json",
+    "analysis/research/runs/wp_bulk_contrasts_v1/receipt.json",
+    "analysis/research/runs/wp_singlecell_reproduction_v1/receipt.json",
+    "analysis/research/runs/wp_human_signature_transfer_v1/receipt.json",
+    "analysis/research/runs/wp_human_signature_transfer_v2/receipt.json",
+    "analysis/research/runs/wp_compass_sensitivity_v1_rerun/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

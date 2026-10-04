@@ -69,14 +69,27 @@ serine arm is correct.
 
 ## Current decision
 
-[Wp-R0 has run](R0_RESULTS.md): Wp-R1, Wp-R3 and Wp-R4 are eligible descriptively,
-while Wp-R2 and Wp-R5 are blocked externally. The five supplementary tables were
+[Four stages have run](REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026):
+Wp-R0, [Wp-R3](R3_RESULTS.md), [Wp-R1](R1_RESULTS.md) and [Wp-R4](R4_RESULTS.md).
+Wp-R1 recovers the undeclared library order from markers (8/8) and reproduces the
+low-glucose pathogenicity rise through the pro-regulatory arm in 4/4 animal-paired
+comparisons. Wp-R4 closes [Wp-P05](branches/P05_human_signature_activation.md) in
+the negative: a matched-size random gene set separates the human blood cohorts as
+well as the modules do, and nothing separates the CSF cohorts. Wp-R3
+reproduces the authors' deposited bulk statistics on the first-division gate
+(log2FC *r* 0.83-0.92) but recovers only 0.405 of their Th17n EGCG signature, and
+finds the Th17n EGCG module shift **not** selective for the pro-inflammatory
+group once the global shift is centred out. Wp-R2 runs only as a declared
+version-and-input sensitivity, because the published scVI-imputed input was never
+deposited; Wp-R5 is closed, the owner having declined author contact and figure
+digitisation. The five supplementary tables were
 recovered on 4 October 2026 from the NIH PMC Cloud open-data package, so the
 module and signature definitions are the authors' own rather than substitutions. The single-cell deposit is the pre-QC
 aggregated matrix of 19,203 barcodes, not the 5,192-cell analysed set, and its
-library order is not stated. Compass itself is blocked on a solver licence **and** on an input that was never
-deposited: the published run used scVI-imputed expression whose model and matrix
-are not in GEO, so Figure 1 cannot be reproduced as published.
+library order is not stated. Compass itself now runs - licence obtained, authors' own fork installed - but on
+an input that was never deposited: the published run used scVI-imputed expression
+whose model and matrix are not in GEO, so Figure 1 cannot be reproduced as
+published and Wp-R2 is labelled a sensitivity throughout.
 
 The next intellectual step is **not** more scores: it is deciding between the
 paper's serine-shunt direction and the opposite direction reported for Tregs by

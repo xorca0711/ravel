@@ -86,3 +86,17 @@ cannot adjudicate that.
 discipline applied across the lung questions; see the
 [repository context](../REPOSITORY_CONTEXT.md). Nothing about the Th17
 compartment makes it exempt.
+
+## Evidence added 4 October 2026
+
+[Wp-R1](../R1_RESULTS.md) separates the two mechanisms this card distinguishes.
+**Within-state change:** the pathogenicity score rises at 1 mM glucose in 4/4
+animal-paired library comparisons, and in all four the pro-regulatory arm falls
+while the pro-inflammatory arm does not rise. **Composition change:** the
+marker-assigned programme composition shifts drastically with glucose - in Th17n,
+N2 is 58-65 % of cells at 1 mM and 1-5 % at 25 mM, with N1 and N3 taking its
+place. Both are present, so the card's premise holds; what the deposit cannot
+settle is which is primary, because the programme labels here are marker-score
+assignments rather than the authors' clusters, and proliferation also differs by
+condition (higher at 25 mM in 4/4 pairs). A sorted-population experiment, not a
+reanalysis, is the discriminating measurement.

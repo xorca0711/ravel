@@ -72,13 +72,31 @@ What the dry run confirmed:
 - **Only Wp-R0 has run under the governed runner**, on 4 October 2026: contract
   frozen and committed, receipt verified with no errors, outputs and receipt
   registered, and every endpoint recomputed by a second route with all twelve
-  comparisons agreeing. See the [result](R0_RESULTS.md). Wp-R1 to Wp-R5 have no
-  contract and have not run.
-- No expression value from any deposit has been read, so no statement in this
-  package is a numerical reproduction of any published panel.
-- Compass was not installed or run. Its current repository requires a Gurobi
-  licence, which this environment does not have; `token.gurobi.com` was
-  allowlisted but no academic credential is configured.
+  comparisons agreeing. See the [result](R0_RESULTS.md).
+- **Wp-R3, Wp-R1 and Wp-R4 have since executed and verified** (receipts
+  `wp_bulk_contrasts_v1`, `wp_singlecell_reproduction_v1`,
+  `wp_human_signature_transfer_v1` and the v2 amendment). Each has an independent
+  arithmetic check computed from a different output file than the one being
+  checked: Wp-R3 recomputed one contrast's log2FC from the TPM matrix with the
+  library annotation re-parsed from the GEO SOFT records (max deviation
+  4.4e-16 over 11,181 genes, BH count identical); Wp-R1 recomputed library means
+  from the per-cell table and animal-paired differences from the library means
+  (2.8e-8 and 3.2e-8, CSV rounding); Wp-R4 recomputed donor means from the
+  per-cell table (9.8e-17) and reproduced the v2 null to the digit.
+- Wp-R2 is frozen and running as a **declared version-and-input sensitivity**.
+  Its result may not be described as a reproduction of Figure 1.
+- Wp-R5 is **closed, not executed**: the owner declined author contact and figure
+  digitisation on 4 October 2026.
+- Expression values have now been read for Wp-R1, Wp-R3 and Wp-R4, so those three
+  stages are numerical reproductions of published panels, within their stated
+  limits. Wp-R5's panels remain cited evidence only.
+- Compass 1.0.0 (the authors' wagnerlab-berkeley fork) is now installed and runs
+  with the Gurobi WLS licence the owner supplied on 4 October 2026 (licence
+  verified by solving a test LP to its exact known optimum). Two execution facts
+  are recorded: Compass's own kNN micropooling did not complete on this host
+  within 35 minutes of CPU on 8,711 cells, and `multiprocessing.Pool` is denied
+  by the sandbox (`CreateNamedPipe`, WinError 5), so the run uses a declared
+  serial pool shim and self-computed micropools.
 - No figure exists in this package, and no hypothesis schematic is registered.
   The [literature context](LITERATURE_CONTEXT.md#hypothesis-schematic) carries an
   explicit pending-figure note instead.
