@@ -1,5 +1,8 @@
 # Wg-P01: specificity of inferred metabolic state
 
+**Current evidence:** see the [pre-RQ disposition](../PRE_RQ_EVIDENCE.md).
+All existing branch questions below remain proposed; no new RQ is derived.
+
 **Updated precedent boundary (4 October):** eFPA 2025 already compares network
 integration with enzyme-only expression, including a Compass comparator with
 different implementation/sharing choices. This branch is a Th17-specific

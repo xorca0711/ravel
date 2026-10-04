@@ -1,30 +1,29 @@
 # Current Wagner execution result
 
-**4 October 2026: R1 reconstruction and initial R3 paired bulk RNA analysis executed.**
+**4 October 2026: analysis evidence is organized to the checkpoint before RQ derivation.**
 
-The [current R3 result](BULK_RESULTS.md) records recovered matrices, exact
-column/design qualification, all-gene paired descriptive estimates and two new
-[RNA figures](FIGURES.md#figure-4-bulk-rna-context). It retains the actual
-three-WT and four-WT/three-KO allocations. Exact limma-selected source programs
-remain pending; R3 descriptive execution does not finish Wg-P03/P04.
+Read the [pre-RQ evidence report](PRE_RQ_EVIDENCE.md), [source-aligned RNA
+models](MODEL_RESULTS.md) and [eight-plate gallery](FIGURES.md) first.
+R0 source qualification, R1 processed-score reconstruction, and paired plus
+model-based R3 RNA stages have executed. New RNA numerics passed independent
+weighted-model, p-value, BH and interval checks. No new RQ was derived.
 
-Read [current numerical findings](SOURCE_SCORE_RESULTS.md), the
-[verification amendment](NUMERICAL_AMENDMENT_v3.md) and [figures/captions](FIGURES.md)
-before the original plan. Wg-R01 owns the run; Wg-P02 gains a bounded descriptive
-pathway-heterogeneity result. R2, remaining R3, R4/R5 and biological adjudication remain
-separately gated, with exact next steps in the [handoff](HANDOFF_2026-10-04.md).
+The [R1 result](SOURCE_SCORE_RESULTS.md) retains its 1,912-versus-1,911 source
+group discrepancy. R3 selects 3,879 baseline genes versus the paper's 3,414;
+source-aligned reconstruction is distinct from exact author reproduction.
+The [initial CPM result](BULK_RESULTS.md) remains a separate endpoint.
 
-The run covers 290 qualified cells, 6,373 individual reactions and 1,722 tested
-metareactions. Twenty of 53 display pathways have both source-significant
-directions; glycolysis has 19 positive and zero negative groups at the source
-threshold. There are 784 core groups, but 1,912 formed groups versus the paper's
-1,911. Unknown biological nesting and numerical/source-version differences
-preclude an exact manuscript or population-inference claim.
+Historical Compass/CPLEX, ATAC matrix/annotations/runtime and functional raw
+values remain explicit holds. Their source eligibility audit is complete to
+available evidence; their biological analyses are not claimed as executed.
+The [branch disposition](PRE_RQ_EVIDENCE.md#evidence-to-branch-disposition-before-deriving-questions)
+retains all six candidates, strongest rivals and missing discriminators.
 
-The bundled Python interpreter successfully uses the existing x64 scientific
-packages. No installation was needed. Two failed attempts are preserved and a
-third passed numerical verification. See [validation](VALIDATION.md) for the
-repository gate's handling of those failed records and integration status.
+The three failed attempts remain failed. All twenty files are preserved in a
+[hash-verified archive](../../analysis/research/runs/wg_closeout_qualification_v1/failure_preservation.json),
+with originals retained locally and in earlier Git commits. The existing Nb5
+archival workflow resolves registration without weakening the gate; see
+[validation](VALIDATION.md) for the actual final integration check.
 
 The following section is the preserved earlier R0 checkpoint. Its statements
 about unrun stages and package availability describe that earlier checkpoint.

@@ -9,6 +9,11 @@ scientific figures from frozen tables, not illustrative simulations.
 The [initial R3 bulk RNA analysis](BULK_RESULTS.md) adds Figures 4–5 below,
 with its own [two-plate PDF](../../analysis/research/runs/wg_bulk_figures_v1/Wagner_R3_initial_figures.pdf).
 
+The [source-aligned RNA models](MODEL_RESULTS.md) add Figures 6–7 and a
+[new two-plate PDF](../../analysis/research/runs/wg_bulk_limma_v1/Wagner_R3_limma_figures.pdf).
+The gallery now contains eight plates (1–7 and S1). See the
+[pre-RQ checkpoint](PRE_RQ_EVIDENCE.md) for completed analyses and explicit holds.
+
 ## Experimental context for R1 Figures 1–3 and S1
 
 **Experimental comparison.** C57BL/6 mouse CD4 T cells from the original
@@ -203,3 +208,62 @@ the Compass scores in Figure 3.
 The current R3 rendering fixes the Figure 4 legend overlap. Earlier generated
 plates remain preserved, and no numerical analysis was repeated for this edit.
 [Rendering contract](config/bulk_figures_v1.json) · [Receipt](../../analysis/research/runs/wg_bulk_figures_v1/receipt.json).
+
+## Figure 6: source-aligned RNA programs
+
+![Figure 6: baseline-selected RNA PCA and DFMO gene-program distributions](../../analysis/research/runs/wg_bulk_limma_v1/figure_6_source_aligned_RNA.png)
+
+[PDF](../../analysis/research/runs/wg_bulk_limma_v1/figure_6_source_aligned_RNA.pdf) ·
+[SVG](../../analysis/research/runs/wg_bulk_limma_v1/figure_6_source_aligned_RNA.svg) ·
+[model methods/results](MODEL_RESULTS.md)
+
+**Conditions and units.** Mouse CD4 T-cell cultures, RNA at 68 hours.
+Study A = GSE162300, three WT animal labels, Th17p/Th17n/iTreg × vehicle/DFMO;
+paired technical sequencing runs are collapsed. Study B = GSE162382, four WT
+and three JMJD3 conditional-KO labels, Th17n/iTreg × control/DFMO, no Th17p.
+Neither experiment supplies tracked within-cell conversion. Source labels do
+not establish cross-study or RNA–ATAC physical pairing.
+
+| Panel | Exact axes and symbols | Interpretation limit |
+|---|---|---|
+| A | x/y = sample PC1/PC2 scores from centered, unscaled voom log-CPM for 3,879 genes selected by the union of vehicle lineage DE contrasts. PC1 = 45.1%, PC2 = 17.7% of selected-gene variance. Colors denote lineage; open = vehicle, filled = DFMO; lines connect cultures from one animal within lineage. PCA uses no gene z-scoring or voom precision weighting. | PC signs are arbitrary. This is a standard PCA on a selected gene space, distinct from Figure 4's all-gene log2(CPM+1) PCA and from the paper's 3,414-gene set. Distance is not a fate or differentiation probability. |
+| B | A-study Th17n WT, n=3 animal labels. x = fitted DFMO-minus-vehicle log2 fold change; y = cumulative fraction of genes in each baseline-defined program. Orange = Th17 (1,159 genes), purple = Treg (1,301). | Each curve step is a gene; gene counts are not biological sample sizes. |
+| C/D | Same axes for B-study Th17n WT (n=4) and KO (n=3). Programs use equally genotype-weighted baseline Th17n-minus-iTreg contrasts: 1,743 Th17 genes and 1,397 Treg genes. | WT and KO use the same B-study program labels. Shared baseline selection induces dependence. Similar curves do not prove equal responses or universal JMJD3 independence. |
+
+Programs use the source convention BH q ≤ 0.05 and |log2FC| ≥ log2(1.5).
+Positive x means higher relative RNA after DFMO, negative x lower RNA.
+Curves display gene-wise model estimates, not cell scores or enzyme activity.
+The [gene assignments](../../analysis/research/runs/wg_bulk_limma_v1/gene_programs.tsv)
+retain the fixed Th17n-only (A) and WT-only (B) sensitivity definitions;
+1,150 and 1,034 genes respectively change category. No exact supplement-table
+concordance or independent validation is claimed.
+
+## Figure 7: direct JMJD3-by-DFMO RNA interactions
+
+![Figure 7: genotype-by-treatment contrasts for twelve prespecified genes](../../analysis/research/runs/wg_bulk_limma_v1/figure_7_JMJD3_interactions.png)
+
+[PDF](../../analysis/research/runs/wg_bulk_limma_v1/figure_7_JMJD3_interactions.pdf) ·
+[SVG](../../analysis/research/runs/wg_bulk_limma_v1/figure_7_JMJD3_interactions.svg) ·
+[exact estimates and q values](../../analysis/research/runs/wg_bulk_limma_v1/prespecified_gene_models.tsv)
+
+**Conditions.** GSE162382, 68-hour bulk RNA; four WT and three JMJD3
+conditional-KO animal labels with paired vehicle/DFMO cultures. Panel A = Th17n;
+panel B = iTreg. The twelve genes were specified before the earlier descriptive
+run and were retained here without selecting them for interaction significance.
+
+**x-axis:** (DFMO − vehicle)KO − (DFMO − vehicle)WT on the fitted log2 RNA
+scale. It is a direct difference of treatment responses, **not PC1**, a genotype
+baseline difference, or a comparison of two p values. Positive means a more
+positive/less negative response in KO; negative means the reverse. Panel x-axis
+ranges differ. **y-axis:** the twelve gene identities, with their order shared
+between panels; these are gene-abundance endpoints, not estimated enzyme activity.
+
+Dots are fitted interactions; horizontal lines are conditional 95% moderated
+model intervals. Filled dots would indicate BH q ≤ 0.05 over all 12,668 retained
+genes in that interaction; every displayed dot is open in this run. The interval
+bars are not multiplicity-adjusted, so a bar may exclude zero despite q > 0.05.
+No equivalence margin is defined. The wide iTreg Il17a interval is retained.
+Kdm6b gene abundance does not verify deletion of the functional exon.
+
+These RNA interactions do not establish JMJD3 mediation or substitute for the
+source's later functional/protein endpoints. See the [pre-RQ evidence limits](PRE_RQ_EVIDENCE.md).

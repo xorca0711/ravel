@@ -2,7 +2,9 @@
 
 **All four processed matrices were recovered; source/matrix qualification and
 an initial animal-paired descriptive analysis are complete.** Exact reconstruction
-of the paper's limma-selected genes and programs is still pending. Read the
+of the paper's exact limma-selected genes remains unresolved. The subsequent
+[source-aligned limma reconstruction](MODEL_RESULTS.md) has now executed; this
+page preserves the distinct initial CPM endpoint. Read the
 [identifier amendment](BULK_AMENDMENT_v2.md) before the original analysis contract.
 
 Wg-R01 owns this stage. It supplies an aggregate RNA endpoint for Wg-P03/P04:

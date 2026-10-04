@@ -1,5 +1,8 @@
 # Wg-P03: state shift versus growth and selection
 
+**Current evidence:** see the [pre-RQ disposition](../PRE_RQ_EVIDENCE.md).
+All existing branch questions below remain proposed; no new RQ is derived.
+
 **Updated precedent boundary (4 October):** Puleston S1J–L/S2A and S4A–B
 already test growth and division-stratified lineage-marker changes. The residual
 comparison concerns Wagner's exact drug/condition/endpoint context versus

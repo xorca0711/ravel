@@ -1,8 +1,11 @@
 # Wagner 2021: Th17 metabolism and autoimmunity
 
-**4 October 2026: R0/R1 and the initial R3 animal-paired bulk RNA analysis
-have executed. Six formal plates include explicit experimental conditions.
-Exact R3 source-program reconstruction and other assay stages remain gated.**
+**4 October 2026: pre-RQ evidence checkpoint reached. R0/R1 and paired plus
+source-aligned model-based R3 analyses have executed; eight formal plates are
+saved. R2/R4/R5 carry explicit source/runtime holds. No new RQ was derived.**
+
+Start with the [pre-RQ evidence report](PRE_RQ_EVIDENCE.md) and
+[source-aligned RNA results](MODEL_RESULTS.md).
 
 Start with [current results](RESULTS.md), [figures and captions](FIGURES.md),
 [initial bulk RNA findings](BULK_RESULTS.md),
@@ -56,10 +59,10 @@ history-linked measurements are missing for the lung bridge.
 
 ## Current decision
 
-Begin with source/metadata qualification, then the author's precomputed-score
-reproduction of Figures 2C/2E. A full expression-to-Compass rerun and the bulk
-RNA/ATAC analyses are separate stages. All six branches remain available;
-their sequence is a dependency map, not a ranking or scientific acceptance.
+The executed evidence and all six branch dispositions are organized in the
+[pre-RQ report](PRE_RQ_EVIDENCE.md). Stop before deriving new questions. Exact
+manuscript concordance and held assay stages require the specified missing
+sources or runtime; all branches remain available without ranking or acceptance.
 
 Published figures, notes and tutorial outputs have already been viewed. Future
 reanalysis is outcome-exposed. The first [frozen metadata contract](config/source_qualification_v1.json)

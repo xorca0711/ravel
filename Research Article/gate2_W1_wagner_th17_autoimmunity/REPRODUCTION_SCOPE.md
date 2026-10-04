@@ -1,9 +1,10 @@
 # Wg-R01: staged source reproduction
 
-**Status:** article-local reproduction owner; R0 identity and the exposed R1
-processed-output analysis have [executed](SOURCE_SCORE_RESULTS.md), with
-[figures](FIGURES.md). Exact historical reproduction remains unresolved; R2–R5
-remain pending. Published outcomes and local R1 results are already exposed.
+**Status:** pre-RQ checkpoint. R0/R1 and [paired plus source-aligned model R3](MODEL_RESULTS.md)
+have executed, with [eight figure plates](FIGURES.md). R2/R4/R5 source eligibility
+is documented with explicit numerical holds in the [current disposition](PRE_RQ_EVIDENCE.md).
+Exact historical reproduction remains unresolved; published and local outcomes
+are exposed. The specifications below remain the stage contract requirements.
 The decision is which source findings can be reconstructed numerically and at
 which level, before extending their biological interpretation.
 

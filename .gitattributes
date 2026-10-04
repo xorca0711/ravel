@@ -195,3 +195,8 @@ analysis/research/runs/wg_bulk_paired_descriptive_v2/*.svg whitespace=cr-at-eol,
 
 analysis/research/runs/wg_bulk_figures_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wg_bulk_figures_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
+
+analysis/research/runs/wg_bulk_limma_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_bulk_limma_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_closeout_qualification_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_closeout_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol

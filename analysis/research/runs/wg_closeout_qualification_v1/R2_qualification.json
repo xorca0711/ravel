@@ -1,0 +1,36 @@
+{
+  "historical_candidate_commit": "d70793595ab6a3c897a07f3bd638b65c461ee47d",
+  "historical_source_files_verified": 9,
+  "model_zip_members": [
+    "gene_md.csv",
+    "__MACOSX/._gene_md.csv",
+    "met_md.csv",
+    "__MACOSX/._met_md.csv",
+    "rxn_md.csv",
+    "__MACOSX/._rxn_md.csv"
+  ],
+  "undirected_reactions_historical": 7440,
+  "undirected_reactions_example": 7440,
+  "shared_reaction_ids": 7440,
+  "historical_only": [],
+  "example_only": [],
+  "expression_features": 8813,
+  "expression_columns": 290,
+  "cplex_python_available": false,
+  "cplex_on_path": null,
+  "decision": "HOLD historical expression-to-score execution",
+  "reasons": [
+    "Historical CPLEX Python API/runtime and license are not qualified; no solver smoke or full run performed.",
+    "Published-era code commit is a candidate, not proven manuscript execution identity.",
+    "Exact preprocessing/ortholog, neighborhood, medium and solver settings remain incompletely reconstructed."
+  ],
+  "observed_historical_defaults": {
+    "model": "RECON2_mat",
+    "species": "required argument",
+    "lambda_smoothing": 0,
+    "paper_typical_sharing_not_default": 0.25,
+    "AND_function": "mean",
+    "beta": 0.95
+  },
+  "limit": "Reaction-ID overlap does not establish equal stoichiometry, bounds, model provenance, numerical penalties or the missing S2 metareaction grouping. No modern-solver substitution."
+}

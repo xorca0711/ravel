@@ -1,9 +1,9 @@
 # Execution structure and next handoff
 
-**Current checkpoint:** R0 source qualification and R1 numerical reconstruction
-are [executed](SOURCE_SCORE_RESULTS.md), with [formal figures](FIGURES.md).
-Read the v3 numerical amendment and current [handoff](HANDOFF_2026-10-04.md).
-The stage table is a plan; R2–R5 have not executed.
+**Current checkpoint:** R0/R1 and paired plus model-based R3 have executed.
+Read the [pre-RQ evidence disposition](PRE_RQ_EVIDENCE.md), [model results](MODEL_RESULTS.md)
+and [handoff](HANDOFF_2026-10-04.md). R2/R4/R5 qualification closes with numerical
+holds. The table below is the historical plan, not the current execution ledger.
 
 The original structure below was a documentation-stage plan.
 Do not interpret planned filenames as existing artifacts. The registered owner

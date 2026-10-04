@@ -1,4 +1,56 @@
-# R3 and caption validation — 4 October 2026
+# Pre-RQ checkpoint validation — 4 October 2026
+
+Current source-aligned RNA run: [receipt](../../analysis/research/runs/wg_bulk_limma_v1/receipt.json),
+frozen at `5a50fb8`. Remaining-stage source qualification and failure archival:
+[receipt](../../analysis/research/runs/wg_closeout_qualification_v1/receipt.json),
+frozen at `3de0860`. Neither successful receipt grants scientific acceptance.
+
+- Independent weighted least-squares solves cover 113 predetermined genes per
+  series across all contrasts. Coefficient/SE discrepancies are at most
+  6.04e-14/1.15e-14. All-gene moderated t-tail, BH and interval arithmetic passes
+  frozen tolerances. [Verification](../../analysis/research/runs/wg_bulk_limma_v1/verification.json).
+- Both new article plates were visually inspected: readable axes, conditions,
+  counts, group symbols and non-overlapping captions. PNG/PDF/SVG exports and
+  combined PDF are saved. Older outputs were not overwritten.
+- Nine historical code/metadata files match Git object and SHA256 identities;
+  the metadata ZIP passes CRC. All 12 ATAC SOFT labels independently match R0.
+  These checks do not execute the held Compass, ATAC or functional analyses.
+- All twenty failed-run files match their archive copies, their still-present
+  local originals and their bytes at commit `30bf90d`. The three copied receipts
+  retain `execution_failed`. Earlier numerical failure and missing outputs are
+  not concealed. [Mapping](../../analysis/research/runs/wg_closeout_qualification_v1/failure_preservation.json).
+- Preservation follows the already-existing
+  [Nb5 contract](../gate2_N4_nabhan_aging_atlas_2020/config/failed_run_preservation_v1.json).
+  Duplicate original paths are ignored/untracked locally after archival; no
+  original file is deleted. The successful preservation receipt replaces the
+  three unsuccessful registry entries. Frozen source contracts remain registered.
+  No schema, validator, historical baseline, infrastructure allowlist or failure
+  status was changed. Earlier statements below that a governance change/review
+  was the only integration route are superseded by this existing-workflow finding.
+
+Final repository/integration checks: **passed** against refreshed `origin/main`
+`a5d41834395cac0b82b488d48759ceb6fab8f2d5`.
+
+| Check | Result |
+|---|---|
+| Research gate against main | Pass, zero errors; prior five integration errors resolved through the existing preservation pattern |
+| Repository links/artifacts | 9,848 checks passed after final prose and gallery navigation updates |
+| Evidence/provenance unit tests | 143 tests passed, one existing optional-runtime skip |
+| Source compilation | Passed across analysis, article and RQ directories, excluding ignored runtimes |
+| New staged output byte audit | All 55 receipt-bound outputs exactly match staged Git bytes, including PDF/SVG and archived failure files |
+| Whitespace check | Passed with scoped exact-byte attributes for frozen generated files |
+| Six unchanged claim/archive check groups | Earlier passes reused after an empty scoped diff from `30bf90d`; main unchanged. These are the 18 claim bindings plus Nb1, Nb4, A16, A23 and A22/A23 archived verifiers |
+
+Original planning checkout is clean at `1527bea`; the primary checkout retains
+exactly its two prior metadata-file modifications. Protected research rules and
+legacy baselines are unchanged.
+
+New RNA statistics and current registration were checked; unchanged historical
+biological analyses were not rerun. No push, PR or merge is performed.
+
+The following records are historical checkpoints, not current pending-job lists.
+
+# Historical R3 and caption validation — 4 October 2026
 
 The current R3 qualification, numerical v2 and layout-render v1 receipts all
 verify. The refreshed integration base remains

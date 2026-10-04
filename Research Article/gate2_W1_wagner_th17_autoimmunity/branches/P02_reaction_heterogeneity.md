@@ -1,5 +1,8 @@
 # Wg-P02: opposing reactions within a pathway
 
+**Current evidence:** see the [pre-RQ disposition](../PRE_RQ_EVIDENCE.md).
+All existing branch questions below remain proposed; no new RQ is derived.
+
 **Updated precedent boundary (4 October):** the PGAM Results and signature
 Methods specify opposite score subtractions. Freeze no imported pathogenicity
 signature until source code or an authoritative correction resolves the sign.

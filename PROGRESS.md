@@ -2,7 +2,42 @@
 
 **Update this before stopping work, every session.**
 
-## Wagner R3 initial execution and figure interpretation — 4 October 2026
+## Wagner pre-RQ evidence checkpoint — 4 October 2026
+
+Active branch/worktree: `codex/wagner-continuation-20261004` at
+`X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`.
+Fresh main remains `a5d41834395cac0b82b488d48759ceb6fab8f2d5`.
+
+The [pre-RQ evidence report](Research%20Article/gate2_W1_wagner_th17_autoimmunity/PRE_RQ_EVIDENCE.md)
+organizes all six existing branches. RQ derivation has not started. R0/R1 and
+paired plus [source-aligned R3 models](Research%20Article/gate2_W1_wagner_th17_autoimmunity/MODEL_RESULTS.md)
+have executed. The new frozen model fits 16 contrasts, retains direct genotype
+interactions and program sensitivities, and passes independent WLS/p/BH/interval
+checks. Its 3,879 baseline genes differ from the paper's 3,414; exact source
+reproduction is not claimed. The [gallery](Research%20Article/gate2_W1_wagner_th17_autoimmunity/FIGURES.md)
+now has eight plates with conditions, sample units and exact axes.
+
+Remaining stages have explicit source/runtime holds: historical CPLEX and full
+model/configuration fidelity (R2), inaccessible ATAC counts/annotations and an
+unqualified DESeq2 process (R4), and unrecovered functional values/unit maps
+(R5). S1–S7 access and PGAM's signature sign remain unresolved. P05/P06 tuple
+selection belongs to later question development; no lung mechanism is nominated.
+
+Twenty files from three failed runs were copied and verified against original
+bytes and commit `30bf90d`. The existing Nb5 archival pattern replaces failed
+registry entries with a successful preservation receipt; originals stay local
+and in history, failure statuses stay unchanged. No validator or scientific
+acceptance was changed. The research gate passes with zero errors, repository
+validation and 143 unit tests pass (one existing skip), and all 55 new tracked
+outputs match receipt hashes; see [validation](Research%20Article/gate2_W1_wagner_th17_autoimmunity/VALIDATION.md).
+
+Next: retain this stopping boundary until RQ development is requested; reopen
+held numerical stages only with the exact evidence listed in the report.
+No push, PR, merge, external message or laboratory work. Original/primary
+checkout changes are preserved. External protection, licensing and laboratory
+access remain unestablished. [Concise handoff](Research%20Article/gate2_W1_wagner_th17_autoimmunity/HANDOFF_2026-10-04.md).
+
+## Historical Wagner R3 initial execution and figure interpretation — 4 October 2026
 
 Current checkout: `X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`,
 branch `codex/wagner-continuation-20261004`. Fresh main remains `a5d4183`.

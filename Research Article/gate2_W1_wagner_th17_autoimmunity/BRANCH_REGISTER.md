@@ -1,6 +1,9 @@
 # Article-local development branches
 
-All entries remain **proposed and outcome-exposed**, 4 October 2026. Wg-P02 now has supporting [R1 descriptive evidence](SOURCE_SCORE_RESULTS.md); other branch analyses are unrun. They
+All entries remain **proposed and outcome-exposed**, 4 October 2026. Wg-P02 has
+[R1 descriptive evidence](SOURCE_SCORE_RESULTS.md); Wg-P03/P04 have
+[source-aligned RNA evidence](MODEL_RESULTS.md). Read the current
+[pre-RQ disposition for all six branches](PRE_RQ_EVIDENCE.md). They
 are registered for navigation and future contract ownership, not as accepted
 global questions. Wg-R01 owns [source reproduction](REPRODUCTION_SCOPE.md).
 The 28 existing A0-A27 questions remain available and unchanged.
@@ -25,5 +28,5 @@ are established premises, not new discoveries from this package.
 The [continued precedent audit](PRECEDENT_REVIEW.md) now supplies the closest
 comparison and strongest rival for each card, including eFPA, division controls,
 JMJD3 context and the published lung precedents. Specific source-code and tuple
-gaps remain visible. R0 source qualification and R1 source-score analysis have run under Wg-R01.
-Wg-P02 gains descriptive evidence; no branch has a recorded human acceptance decision.
+gaps remain visible. R0/R1 and paired/model-based R3 have run under Wg-R01.
+No branch has a recorded human acceptance decision and no new RQ was derived.

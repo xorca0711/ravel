@@ -1,0 +1,2425 @@
+{
+  "acquisition_initial_v1.json": {
+    "sources": [
+      {
+        "path": "raw_data/wagner_closeout_20261004/wagner_full.html",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8621950/",
+        "bytes": 408833,
+        "sha256": "c1b8ec6bf0d37f255d8e1497504c9b7c01d3410cf57191a0bfefec35bf1383c4",
+        "retrieved_at": "2026-10-04T10:07:42.757601+00:00"
+      },
+      {
+        "path": "raw_data/wagner_closeout_20261004/cran_windows.html",
+        "url": "https://cran.r-project.org/bin/windows/base/",
+        "bytes": 2967,
+        "sha256": "554a9a38237be48f2c863c280c10cbc29fefa783b117d369d7fc924717847fcf",
+        "retrieved_at": "2026-10-04T10:07:43.393255+00:00"
+      },
+      {
+        "path": "raw_data/wagner_closeout_20261004/R-4.6.1.md5.txt",
+        "url": "https://cran.r-project.org/bin/windows/base/md5sum.R-4.6.1.txt",
+        "bytes": 49,
+        "sha256": "77acae7fe06e931749e520a02d49eee45c2503bfc32f60e5407bb86d56fe5835",
+        "retrieved_at": "2026-10-04T10:07:43.612577+00:00"
+      },
+      {
+        "path": "raw_data/wagner_closeout_20261004/compass_2021_commits.json",
+        "url": "https://api.github.com/repos/YosefLab/Compass/commits?until=2021-08-05T23:59:59Z&per_page=1",
+        "bytes": 3264,
+        "sha256": "256f9282b7b0417aeb0386099f34bb1bdbf9fd5f9bf137a7360863c777e7ec69",
+        "retrieved_at": "2026-10-04T10:07:43.949653+00:00"
+      },
+      {
+        "path": "raw_data/wagner_closeout_20261004/compass_current_readme.md",
+        "url": "https://raw.githubusercontent.com/wagnerlab-berkeley/Compass/master/README.md",
+        "bytes": 8252,
+        "sha256": "04147119f9aa24971577cba74a381d3010f4491ba87cb62c0afdb9d16e66eab2",
+        "retrieved_at": "2026-10-04T10:07:43.934727+00:00"
+      },
+      {
+        "path": "raw_data/wagner_closeout_20261004/R-4.6.1-win.exe",
+        "url": "https://cran.r-project.org/bin/windows/base/R-4.6.1-win.exe",
+        "bytes": 91749976,
+        "sha256": "c5424c40cd70ef85765a55d2ff96bb602b5f30ed536938ff004f14db5db3c2df",
+        "retrieved_at": "2026-10-04T10:10:25.462332+00:00"
+      }
+    ],
+    "failures": [
+      {
+        "file": "wagner_full.xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8621950/fullTextXML",
+        "error": "HTTP Error 500: "
+      },
+      {
+        "file": "limma_manual.pdf",
+        "url": "https://bioconductor.org/packages/3.23/bioc/vignettes/limma/inst/doc/usersguide.pdf",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  },
+  "browser_and_runtime_limits_v1.json": {
+    "utc": "2026-10-04T10:33:02.527017+00:00",
+    "supplement_browser": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8621950/bin/NIHMS1720171-supplement-Table_S2.xlsx",
+      "status": "HTML preparation page, not XLSX; direct navigation blocked by client",
+      "bytes": 1817,
+      "sha256": "fcb26bf11eb5e45323d0a5f983aaf52c40f7b4923197cebf7a11f16d95a7d1bf"
+    },
+    "atac_browser": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165088/suppl/GSE165088%5FRaw%5FCount%5FData%2Ecsv%2Egz",
+      "status": "HTTP 403 displayed after exact GEO file link"
+    },
+    "EuropePMC_archive": "Official API says article is not open access; XML error retained in supplementaryFiles.zip. This filename is not a valid zip archive.",
+    "DESeq2_runtime": "Package imports and synthetic limma calculation completed but process loading DESeq2 exited -1073741569. Limma/edgeR-only process exits 0. No real DESeq2 result produced."
+  },
+  "compass_2021_commits.json": [
+    {
+      "sha": "d70793595ab6a3c897a07f3bd638b65c461ee47d",
+      "node_id": "MDY6Q29tbWl0ODA3NzgxNTk6ZDcwNzkzNTk1YWI2YTNjODk3YTA3ZjNiZDYzOGI2NWM0NjFlZTQ3ZA==",
+      "commit": {
+        "author": {
+          "name": "Brandon",
+          "email": "schel337@berkeley.edu",
+          "date": "2021-07-15T05:02:38Z"
+        },
+        "committer": {
+          "name": "Brandon",
+          "email": "schel337@berkeley.edu",
+          "date": "2021-07-15T05:02:38Z"
+        },
+        "message": "Added cast to string for processes gene names.",
+        "tree": {
+          "sha": "068880a9a7e34764e1104ace37c28cb816ae1ed1",
+          "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/068880a9a7e34764e1104ace37c28cb816ae1ed1"
+        },
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/commits/d70793595ab6a3c897a07f3bd638b65c461ee47d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YosefLab/Compass/commits/d70793595ab6a3c897a07f3bd638b65c461ee47d",
+      "html_url": "https://github.com/YosefLab/Compass/commit/d70793595ab6a3c897a07f3bd638b65c461ee47d",
+      "comments_url": "https://api.github.com/repos/YosefLab/Compass/commits/d70793595ab6a3c897a07f3bd638b65c461ee47d/comments",
+      "author": {
+        "login": "schel337",
+        "id": 57027835,
+        "node_id": "MDQ6VXNlcjU3MDI3ODM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/57027835?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/schel337",
+        "html_url": "https://github.com/schel337",
+        "followers_url": "https://api.github.com/users/schel337/followers",
+        "following_url": "https://api.github.com/users/schel337/following{/other_user}",
+        "gists_url": "https://api.github.com/users/schel337/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/schel337/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/schel337/subscriptions",
+        "organizations_url": "https://api.github.com/users/schel337/orgs",
+        "repos_url": "https://api.github.com/users/schel337/repos",
+        "events_url": "https://api.github.com/users/schel337/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/schel337/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "schel337",
+        "id": 57027835,
+        "node_id": "MDQ6VXNlcjU3MDI3ODM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/57027835?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/schel337",
+        "html_url": "https://github.com/schel337",
+        "followers_url": "https://api.github.com/users/schel337/followers",
+        "following_url": "https://api.github.com/users/schel337/following{/other_user}",
+        "gists_url": "https://api.github.com/users/schel337/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/schel337/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/schel337/subscriptions",
+        "organizations_url": "https://api.github.com/users/schel337/orgs",
+        "repos_url": "https://api.github.com/users/schel337/repos",
+        "events_url": "https://api.github.com/users/schel337/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/schel337/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4b2909e6005c143fcce457b1c8fc0564731dbc08",
+          "url": "https://api.github.com/repos/YosefLab/Compass/commits/4b2909e6005c143fcce457b1c8fc0564731dbc08",
+          "html_url": "https://github.com/YosefLab/Compass/commit/4b2909e6005c143fcce457b1c8fc0564731dbc08"
+        }
+      ]
+    }
+  ],
+  "compass_2021_tree.json": {
+    "sha": "d70793595ab6a3c897a07f3bd638b65c461ee47d",
+    "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/d70793595ab6a3c897a07f3bd638b65c461ee47d",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b2b8b12de537c1a06ea02dffb94bc21483aa98d",
+        "size": 1089,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/5b2b8b12de537c1a06ea02dffb94bc21483aa98d"
+      },
+      {
+        "path": "LICENSE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b14f5d271ea9106400ba7b4c125c7ba196800968",
+        "size": 1516,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/b14f5d271ea9106400ba7b4c125c7ba196800968"
+      },
+      {
+        "path": "MANIFEST.in",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a8747a1de32adf00976fecfd237afb105f21fd6",
+        "size": 85,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/5a8747a1de32adf00976fecfd237afb105f21fd6"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f43255c42d1bfb2380ad2ce32411312a3221ab5f",
+        "size": 645,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f43255c42d1bfb2380ad2ce32411312a3221ab5f"
+      },
+      {
+        "path": "compass",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0989e89947f0d5fa96f648b27325f30bdde43810",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/0989e89947f0d5fa96f648b27325f30bdde43810"
+      },
+      {
+        "path": "compass/Resources",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dffa2859af25929882fc0046597312d031485776",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/dffa2859af25929882fc0046597312d031485776"
+      },
+      {
+        "path": "compass/Resources/COMPASS",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0c4202ac9af3ee07e5c33f998473034e69cb4c6b",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/0c4202ac9af3ee07e5c33f998473034e69cb4c6b"
+      },
+      {
+        "path": "compass/Resources/COMPASS/RECON2.2",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "044d27096c1ab04992a8d7b63033716ca3bc987d",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/044d27096c1ab04992a8d7b63033716ca3bc987d"
+      },
+      {
+        "path": "compass/Resources/COMPASS/RECON2.2/NoMedia",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4b572d0cdd55507f0508d7eb691e609d3a266fa2",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/4b572d0cdd55507f0508d7eb691e609d3a266fa2"
+      },
+      {
+        "path": "compass/Resources/COMPASS/RECON2.2/NoMedia/preprocess.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca6184a4d452d7aa86ffba8b6228f049ee010746",
+        "size": 674064,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/ca6184a4d452d7aa86ffba8b6228f049ee010746"
+      },
+      {
+        "path": "compass/Resources/COMPASS/RECON2_mat",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dced3ee3dbdaed316701450eaddfb65daa9dd7bf",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/dced3ee3dbdaed316701450eaddfb65daa9dd7bf"
+      },
+      {
+        "path": "compass/Resources/COMPASS/RECON2_mat/NoMedia",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4843cb234e31d5147b4660582131211416b0e78e",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/4843cb234e31d5147b4660582131211416b0e78e"
+      },
+      {
+        "path": "compass/Resources/COMPASS/RECON2_mat/NoMedia/preprocess.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3ddca9c20ee3f5a9b5a088c5c21476229a81610",
+        "size": 645959,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/c3ddca9c20ee3f5a9b5a088c5c21476229a81610"
+      },
+      {
+        "path": "compass/Resources/COMPASS/RECON2_mat/media1",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4afdd69ffc8faf9d4bb304cff64c7ecf21159864",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/4afdd69ffc8faf9d4bb304cff64c7ecf21159864"
+      },
+      {
+        "path": "compass/Resources/COMPASS/RECON2_mat/media1/preprocess.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a350b35296080ce0175af012d4597038951061e",
+        "size": 499164,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1a350b35296080ce0175af012d4597038951061e"
+      },
+      {
+        "path": "compass/Resources/Genes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "193c834c997e62020d48b63ca7d1e5ff09d961e5",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/193c834c997e62020d48b63ca7d1e5ff09d961e5"
+      },
+      {
+        "path": "compass/Resources/Genes/HGNC.json.gz",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73b0e53001aef8715d1e5374106e6cd6d4b60db6",
+        "size": 3356833,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/73b0e53001aef8715d1e5374106e6cd6d4b60db6"
+      },
+      {
+        "path": "compass/Resources/Genes/HOM_MouseHumanSequence.rpt.gz",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f374c4ee5db93240787115f00286a55b9d3e7c3a",
+        "size": 2656388,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f374c4ee5db93240787115f00286a55b9d3e7c3a"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a80bda5499d112e19a61eccc3e2338ddd5b0fdf2",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/a80bda5499d112e19a61eccc3e2338ddd5b0fdf2"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "855c411e5aa7d59f1f0c3fbfc625e29aaca22c4a",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/855c411e5aa7d59f1f0c3fbfc625e29aaca22c4a"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ba4394af84f4af4ad4207cfba46046c885b46b12",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/ba4394af84f4af4ad4207cfba46046c885b46b12"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.S.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2461da06496d37bc73ba6682fc077f0fb6ea740b",
+        "size": 401341,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/2461da06496d37bc73ba6682fc077f0fb6ea740b"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.genes.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a3ea305e76b203c18cc3ae892a789fa42434b67",
+        "size": 27158,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/5a3ea305e76b203c18cc3ae892a789fa42434b67"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.lb.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce558f2f4bdd888d081f38af6371273053c407e3",
+        "size": 31164,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/ce558f2f4bdd888d081f38af6371273053c407e3"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.metFormulas.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa5169916eaa49215067da7ce26d5acfdfcb5ae2",
+        "size": 52358,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/aa5169916eaa49215067da7ce26d5acfdfcb5ae2"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.metNames.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2786c57df257c1bbf77a3419c54a3ec9006c36e5",
+        "size": 91680,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/2786c57df257c1bbf77a3419c54a3ec9006c36e5"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.mets.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f73d9379a2c9d9ad382006411349648bf3ed39ec",
+        "size": 52294,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f73d9379a2c9d9ad382006411349648bf3ed39ec"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.rev.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1bb111acab6c0497f7f5868c4cbac3f15b3660de",
+        "size": 26518,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1bb111acab6c0497f7f5868c4cbac3f15b3660de"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.rules.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a984bdd5035f1f219922f9b0a47a09e56f5152a2",
+        "size": 160753,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/a984bdd5035f1f219922f9b0a47a09e56f5152a2"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.rxnNames.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cbe7a07811bb6d7c1beb91b271c9d00b55b5772",
+        "size": 172720,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1cbe7a07811bb6d7c1beb91b271c9d00b55b5772"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.rxns.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0f5d512ad2113cddf6e8f6939aedbf8ffd82848",
+        "size": 68583,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f0f5d512ad2113cddf6e8f6939aedbf8ffd82848"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.subSystems.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3d93aebcdec8794f2323eaab460b3816814ce7d6",
+        "size": 108181,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/3d93aebcdec8794f2323eaab460b3816814ce7d6"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/model/model.ub.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34721fd4b3d685e77926a6bcf0b87f76f8475114",
+        "size": 37069,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/34721fd4b3d685e77926a6bcf0b87f76f8475114"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/mouseSynonyms.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1dd2a58da32dbd2a90b08edad2e89b344dfa2e43",
+        "size": 51730,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1dd2a58da32dbd2a90b08edad2e89b344dfa2e43"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/non2uniqueEntrez.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df6b68f5b9f2777cfb3dc5663e4e8445d44f72ba",
+        "size": 17619,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/df6b68f5b9f2777cfb3dc5663e4e8445d44f72ba"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/uniqueEntrez2Non.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a9aea8abebe6d8c5b029e5b6aed97cf5163e6ac",
+        "size": 14084,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/4a9aea8abebe6d8c5b029e5b6aed97cf5163e6ac"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/uniqueHumanEntrez.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4e2cdc9a582d6922958f8e93677982dc0f187ee",
+        "size": 18357,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f4e2cdc9a582d6922958f8e93677982dc0f187ee"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/uniqueHumanGeneSymbol.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b43831e2e693aa5c90c761518f12df979f046be",
+        "size": 19397,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7b43831e2e693aa5c90c761518f12df979f046be"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/uniqueMouseGeneSymbol.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0db71631c12208a7c7f305b80ef332bf4e11157d",
+        "size": 19451,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/0db71631c12208a7c7f305b80ef332bf4e11157d"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_mat/uniqueMouseGeneSymbol_all.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e996626c65fc1b80f5b561fcfc4b364550eb76b8",
+        "size": 24228,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e996626c65fc1b80f5b561fcfc4b364550eb76b8"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_xml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "feaef418ea75f5daa99f5c381fd9753f416cf52b",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/feaef418ea75f5daa99f5c381fd9753f416cf52b"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON1_xml/RECON1.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "522536c5e1806fe2b722de3b514cf5db392bed8a",
+        "size": 12752770,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/522536c5e1806fe2b722de3b514cf5db392bed8a"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2.2",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "56d346f12042deec07893d91efe00d3b69fee639",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/56d346f12042deec07893d91efe00d3b69fee639"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2.2/MODEL1603150001.xml.gz",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "29c6fb5ce667b0f93508434c5e1e070b0e91b81e",
+        "size": 2769135,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/29c6fb5ce667b0f93508434c5e1e070b0e91b81e"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "471ce22406f1f4293d60a095f63d7f188bca537f",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/471ce22406f1f4293d60a095f63d7f188bca537f"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/media",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1fa14fdf34d1ad1c302e5756684a87dd0b39c351",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/1fa14fdf34d1ad1c302e5756684a87dd0b39c351"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/media/media1.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf33f60a851a421709cda6f67fba6b0e82e00784",
+        "size": 37555,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/cf33f60a851a421709cda6f67fba6b0e82e00784"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c599260871aa79c30cb7f9dc969abd1f1ed394df",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/c599260871aa79c30cb7f9dc969abd1f1ed394df"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/metMeta.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24dcb0fa9447deec5d94fa89e586404b863c9629",
+        "size": 906302,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/24dcb0fa9447deec5d94fa89e586404b863c9629"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.S.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27eb2d5859fae2be324c1b2c3d3c26c2209577f7",
+        "size": 868732,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/27eb2d5859fae2be324c1b2c3d3c26c2209577f7"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.genes.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c7ed08c9844cab25de4cd9fd26635e03c3b6135",
+        "size": 30620,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7c7ed08c9844cab25de4cd9fd26635e03c3b6135"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.lb.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2dcee65c5d462deaac115c003f38f24d07c56fe2",
+        "size": 63896,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/2dcee65c5d462deaac115c003f38f24d07c56fe2"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.metFormulas.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6b22ef66d9963ddfa74ad77250ee862a5464c52",
+        "size": 92414,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/c6b22ef66d9963ddfa74ad77250ee862a5464c52"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.metKeggID.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ac2295086b649a5dd4b31e376782d267c977ed5",
+        "size": 56106,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/0ac2295086b649a5dd4b31e376782d267c977ed5"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.metNames.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44c80d094e57f2e0dcb0df5773b01fafead2a070",
+        "size": 170555,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/44c80d094e57f2e0dcb0df5773b01fafead2a070"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.mets.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "73b1d20c91ebeb476de08ba88aef6f716eaefac6",
+        "size": 90990,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/73b1d20c91ebeb476de08ba88aef6f716eaefac6"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.rev.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4f7dac6c4041371d57d209cc24fcb958ed45511",
+        "size": 52082,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/a4f7dac6c4041371d57d209cc24fcb958ed45511"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.rules.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a2e9304db6fb0e107471501f29c06e8b4fce638",
+        "size": 232389,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7a2e9304db6fb0e107471501f29c06e8b4fce638"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.rxnECNumbers.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6733851d255afe14f2f6e9b3ee51fcb23378237",
+        "size": 82417,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e6733851d255afe14f2f6e9b3ee51fcb23378237"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.rxnKeggID.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ecd6453e9d2fd26c9e433547f5d00a2d0cbc6d0",
+        "size": 59534,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1ecd6453e9d2fd26c9e433547f5d00a2d0cbc6d0"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.rxnNames.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c5584804e5c414810b79389d70d4d7fea5bc200",
+        "size": 324177,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/6c5584804e5c414810b79389d70d4d7fea5bc200"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.rxns.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c74859f08c3a5f06a3101ee85bdf9838558906fe",
+        "size": 115700,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/c74859f08c3a5f06a3101ee85bdf9838558906fe"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.subSystems.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce514f710c54356db67ccd743412cebe344cbaed",
+        "size": 230282,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/ce514f710c54356db67ccd743412cebe344cbaed"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/model.ub.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7230fd81e302bef3dccb47b19e32f383787b11a1",
+        "size": 72731,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7230fd81e302bef3dccb47b19e32f383787b11a1"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/model/rxnMeta.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3102642eb5148dd629d78ee864ac373c25ac99c3",
+        "size": 1035701,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/3102642eb5148dd629d78ee864ac373c25ac99c3"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/mouseSynonyms.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "634f52aa3484ef56ffa8de35fca2f1b2b86bd7f6",
+        "size": 53848,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/634f52aa3484ef56ffa8de35fca2f1b2b86bd7f6"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/non2uniqueEntrez.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f95c64111e820642dc094d443f651fbd6a927326",
+        "size": 20015,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f95c64111e820642dc094d443f651fbd6a927326"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/uniqueEntrez2Non.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f0084b07e35a606f995f5ea37d10de3e9d846e9",
+        "size": 16467,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1f0084b07e35a606f995f5ea37d10de3e9d846e9"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/uniqueHumanEntrez.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a50632182a2cc1aba5c27a05c0eabdbdbce3480",
+        "size": 21375,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/8a50632182a2cc1aba5c27a05c0eabdbdbce3480"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/uniqueHumanGeneSymbol.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b59cf2be8f4fe09981466b634a7fa774f2563e3",
+        "size": 21287,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1b59cf2be8f4fe09981466b634a7fa774f2563e3"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/uniqueMouseGeneSymbol.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "095af3a6d33d4470b7c083a4637dcce950e7cc9e",
+        "size": 21341,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/095af3a6d33d4470b7c083a4637dcce950e7cc9e"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/RECON2_mat/uniqueMouseGeneSymbol_all.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f431998493e0cf76f20ba9c9260626a6fbe4f564",
+        "size": 26353,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f431998493e0cf76f20ba9c9260626a6fbe4f564"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/iHepatocytes2322_xml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3bebbbabd24e05610b376e5622e6a628cf61561c",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/3bebbbabd24e05610b376e5622e6a628cf61561c"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/iHepatocytes2322_xml/iHepatocytes2322.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe44b29612d64b4b96e913ab5b15e909bcd930e9",
+        "size": 17585810,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/fe44b29612d64b4b96e913ab5b15e909bcd930e9"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/iND750_xml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "60b18de00eacfad5d6eae1afc8f01ccc3abd4246",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/60b18de00eacfad5d6eae1afc8f01ccc3abd4246"
+      },
+      {
+        "path": "compass/Resources/Metabolic Models/iND750_xml/iND750.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1cd3700e638163baf49ca9efca6a56c6eddbfa4",
+        "size": 1024367,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/b1cd3700e638163baf49ca9efca6a56c6eddbfa4"
+      },
+      {
+        "path": "compass/Resources/Queue Templates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f7cc11fbe489edfe1a4c4d4c160dd414f3c7e38b",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/f7cc11fbe489edfe1a4c4d4c160dd414f3c7e38b"
+      },
+      {
+        "path": "compass/Resources/Queue Templates/CompassCollect.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c03a49e39d7c196f9de6e12f0153be4fa1289bbd",
+        "size": 470,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/c03a49e39d7c196f9de6e12f0153be4fa1289bbd"
+      },
+      {
+        "path": "compass/Resources/Queue Templates/CompassSingleSample.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "832db5c8e0df19540fcf17c01bb754e53bbe8fa5",
+        "size": 599,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/832db5c8e0df19540fcf17c01bb754e53bbe8fa5"
+      },
+      {
+        "path": "compass/Resources/Recon2_export",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b3b1a5fb30f57e4412a341d5f49c2733b90c9fd9",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/b3b1a5fb30f57e4412a341d5f49c2733b90c9fd9"
+      },
+      {
+        "path": "compass/Resources/Recon2_export/central_carbon_rxns.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9fef9bdac38f815b0462ba807251630a1085df8",
+        "size": 259,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d9fef9bdac38f815b0462ba807251630a1085df8"
+      },
+      {
+        "path": "compass/Resources/Recon2_export/define_reaction_subsets.R",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3966138128fb7446a980d28f2da24354294f9aef",
+        "size": 1183,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/3966138128fb7446a980d28f2da24354294f9aef"
+      },
+      {
+        "path": "compass/Resources/Recon2_export/exchange_rxns.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c5de7fd7c9a94618b8403fb3070e7e60a3a932e",
+        "size": 8872,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7c5de7fd7c9a94618b8403fb3070e7e60a3a932e"
+      },
+      {
+        "path": "compass/Resources/Recon2_export/gene_md.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1956f9966bb37ff525f24dece5d990506eb1294",
+        "size": 74643,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/c1956f9966bb37ff525f24dece5d990506eb1294"
+      },
+      {
+        "path": "compass/Resources/Recon2_export/met_md.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f773894e8523c06b779e76ed330773443aa8be4a",
+        "size": 402590,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f773894e8523c06b779e76ed330773443aa8be4a"
+      },
+      {
+        "path": "compass/Resources/Recon2_export/recon2_md.zip",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49846e6773465eb69cb3194e9118cc70f42d890d",
+        "size": 368098,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/49846e6773465eb69cb3194e9118cc70f42d890d"
+      },
+      {
+        "path": "compass/Resources/Recon2_export/rxn_md.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e532e89cf0935d42ef16a1d87af7d1af247a6bf8",
+        "size": 1791749,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e532e89cf0935d42ef16a1d87af7d1af247a6bf8"
+      },
+      {
+        "path": "compass/Resources/Test-Data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c57a1b2a81fea9d94951057ba6cc3a677a625d84",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/c57a1b2a81fea9d94951057ba6cc3a677a625d84"
+      },
+      {
+        "path": "compass/Resources/Test-Data/mtx_format",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "911c11d289977a4f1165c402d0be85f3e83217bf",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/911c11d289977a4f1165c402d0be85f3e83217bf"
+      },
+      {
+        "path": "compass/Resources/Test-Data/mtx_format/barcodes.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d68e52108c3e77633cba33ada0e57853acf3c281",
+        "size": 1017,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d68e52108c3e77633cba33ada0e57853acf3c281"
+      },
+      {
+        "path": "compass/Resources/Test-Data/mtx_format/genes.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee69dd419a43f9ee9c6bec14e2755cee4a06b850",
+        "size": 356712,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/ee69dd419a43f9ee9c6bec14e2755cee4a06b850"
+      },
+      {
+        "path": "compass/Resources/Test-Data/mtx_format/matrix.mtx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "991f1e32af50fd09ae47b9f5ba6a9fc88675df9c",
+        "size": 22895565,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/991f1e32af50fd09ae47b9f5ba6a9fc88675df9c"
+      },
+      {
+        "path": "compass/Resources/Test-Data/tsv_format",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "512069a496b56dc37a390cf14f0d25f75ab04b37",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/512069a496b56dc37a390cf14f0d25f75ab04b37"
+      },
+      {
+        "path": "compass/Resources/Test-Data/tsv_format/expression.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af830291fbefe51b11f9e102438f682b7c4249a4",
+        "size": 7789413,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/af830291fbefe51b11f9e102438f682b7c4249a4"
+      },
+      {
+        "path": "compass/Resources/Test-Data/tsv_format/knn.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6dc0128efb437733c19dbfe43e9f5e80dfa2dcd",
+        "size": 2128,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d6dc0128efb437733c19dbfe43e9f5e80dfa2dcd"
+      },
+      {
+        "path": "compass/Resources/Test-Data/tsv_format/knn_distances.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "faf5d1ed9e30cf8416ffa93822b7627e8e19195f",
+        "size": 8375,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/faf5d1ed9e30cf8416ffa93822b7627e8e19195f"
+      },
+      {
+        "path": "compass/Resources/Test-Data/tsv_format/random_latent.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "489f3410f6e2b0861de218f25cc592a18eedae8d",
+        "size": 8359,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/489f3410f6e2b0861de218f25cc592a18eedae8d"
+      },
+      {
+        "path": "compass/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a6b29207fae328bc186b943354918dd7b5e80fc",
+        "size": 22,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1a6b29207fae328bc186b943354918dd7b5e80fc"
+      },
+      {
+        "path": "compass/_version.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4260cfce373695f73c1509fcac796773867cac95",
+        "size": 123,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/4260cfce373695f73c1509fcac796773867cac95"
+      },
+      {
+        "path": "compass/compass",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cfb9406fdeab8a63e69ae558d4a69860c29d888c",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/cfb9406fdeab8a63e69ae558d4a69860c29d888c"
+      },
+      {
+        "path": "compass/compass/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5195344d713bb417838065fc04697e49439b1bd2",
+        "size": 91,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/5195344d713bb417838065fc04697e49439b1bd2"
+      },
+      {
+        "path": "compass/compass/algorithm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d620da7a39f19311bfe3af0e0a6974e23c508259",
+        "size": 33715,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d620da7a39f19311bfe3af0e0a6974e23c508259"
+      },
+      {
+        "path": "compass/compass/algorithm_t.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8fcbe6e2ba9069281e8496785fde066cf1b760a",
+        "size": 12008,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f8fcbe6e2ba9069281e8496785fde066cf1b760a"
+      },
+      {
+        "path": "compass/compass/cache.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ab5e02de2d9b73e1de782bbdaef65d15da43699",
+        "size": 1883,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7ab5e02de2d9b73e1de782bbdaef65d15da43699"
+      },
+      {
+        "path": "compass/compass/extensions",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0c63a5e0fa2fca286d6615c8900e35ea67c5719f",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/0c63a5e0fa2fca286d6615c8900e35ea67c5719f"
+      },
+      {
+        "path": "compass/compass/extensions/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "compass/compass/extensions/tsne_utils.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd08279e2781d30d81274c90612fd3cf35ba2178",
+        "size": 349802,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/bd08279e2781d30d81274c90612fd3cf35ba2178"
+      },
+      {
+        "path": "compass/compass/extensions/tsne_utils.pyx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea626cda3f7ebe5ac9748e7e2e77f098646980ca",
+        "size": 10245,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/ea626cda3f7ebe5ac9748e7e2e77f098646980ca"
+      },
+      {
+        "path": "compass/compass/microclustering.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b49a9bfb07908ec7387b1e6a2108b045e4220ed3",
+        "size": 7683,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/b49a9bfb07908ec7387b1e6a2108b045e4220ed3"
+      },
+      {
+        "path": "compass/compass/penalties.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99f5db34464f633f6c7ac11f63b4a81ae47e4104",
+        "size": 13262,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/99f5db34464f633f6c7ac11f63b4a81ae47e4104"
+      },
+      {
+        "path": "compass/compass/torque.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d79ef0b334e52eddfe500f6f33556dd304d3f642",
+        "size": 3698,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d79ef0b334e52eddfe500f6f33556dd304d3f642"
+      },
+      {
+        "path": "compass/globals.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21b79e019f0d9b71e9eac5f1d8ac1ddeecc4dfaa",
+        "size": 1333,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/21b79e019f0d9b71e9eac5f1d8ac1ddeecc4dfaa"
+      },
+      {
+        "path": "compass/main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "356db5752ba9a77db0a3192df0d01787af0afbad",
+        "size": 35638,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/356db5752ba9a77db0a3192df0d01787af0afbad"
+      },
+      {
+        "path": "compass/models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9e714852dee84ebf000452bad08ff72b5e77067a",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/9e714852dee84ebf000452bad08ff72b5e77067a"
+      },
+      {
+        "path": "compass/models/MetabolicModel.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fa6902d6688070e5f7990a33e49a40b6f84774d",
+        "size": 17252,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/4fa6902d6688070e5f7990a33e49a40b6f84774d"
+      },
+      {
+        "path": "compass/models/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98f2f9cb033e9722fcb50fc7c29e638b3598b353",
+        "size": 2183,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/98f2f9cb033e9722fcb50fc7c29e638b3598b353"
+      },
+      {
+        "path": "compass/models/geneSymbols.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "405fb371b07b0b6d137b200cfff71d0ca88ffc40",
+        "size": 5917,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/405fb371b07b0b6d137b200cfff71d0ca88ffc40"
+      },
+      {
+        "path": "compass/models/importCommon.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "625d1a68092a660fedca191beffa29e3ab622317",
+        "size": 1826,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/625d1a68092a660fedca191beffa29e3ab622317"
+      },
+      {
+        "path": "compass/models/importMATLAB.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa6131cbda5dab6e7e4a895a6f790034fca300a2",
+        "size": 8612,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/aa6131cbda5dab6e7e4a895a6f790034fca300a2"
+      },
+      {
+        "path": "compass/models/importSBML2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63999ba1270e238f1c4355f9555517eb26987944",
+        "size": 6412,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/63999ba1270e238f1c4355f9555517eb26987944"
+      },
+      {
+        "path": "compass/models/importSBML3.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "389c2ba6ff5c8cb71ca54921b7c702212f2f7f7f",
+        "size": 4168,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/389c2ba6ff5c8cb71ca54921b7c702212f2f7f7f"
+      },
+      {
+        "path": "compass/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c637802770a1a6095483d1a8f77012b9746fa8f6",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/c637802770a1a6095483d1a8f77012b9746fa8f6"
+      },
+      {
+        "path": "compass/tests/Network1.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2134af6ed4b8844bfa764ca252c8eb634723e9b1",
+        "size": 4955,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/2134af6ed4b8844bfa764ca252c8eb634723e9b1"
+      },
+      {
+        "path": "compass/tests/Network2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cbd9d4e342e866269f586471b241e97987b2723",
+        "size": 6327,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/8cbd9d4e342e866269f586471b241e97987b2723"
+      },
+      {
+        "path": "compass/tests/Network3.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38dc7016920f197d3203fa43152418ebaa194b69",
+        "size": 9442,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/38dc7016920f197d3203fa43152418ebaa194b69"
+      },
+      {
+        "path": "compass/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e75cee41410ff11f3c7acce01c673427a1e1be7",
+        "size": 3710,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/9e75cee41410ff11f3c7acce01c673427a1e1be7"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "107974380d8177a54522d72058d37c2aa1d55258",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/107974380d8177a54522d72058d37c2aa1d55258"
+      },
+      {
+        "path": "docs/.buildinfo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b17c15e7278088dd648a6e5ad245ea7cf6dc924e",
+        "size": 230,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/b17c15e7278088dd648a6e5ad245ea7cf6dc924e"
+      },
+      {
+        "path": "docs/.doctrees",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "28eef33edfec9d55528c109979eea0ba36f66f99",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/28eef33edfec9d55528c109979eea0ba36f66f99"
+      },
+      {
+        "path": "docs/.doctrees/AWS-tutorial.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be1054156c7bfc1c2d4e841588f6fc61cdeb245d",
+        "size": 66543,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/be1054156c7bfc1c2d4e841588f6fc61cdeb245d"
+      },
+      {
+        "path": "docs/.doctrees/Compass-Postprocessing-Tutorial.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19cca0dcb8495bbb2524d2b8206a1d059115f0d3",
+        "size": 10186,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/19cca0dcb8495bbb2524d2b8206a1d059115f0d3"
+      },
+      {
+        "path": "docs/.doctrees/Compass-Settings.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "baa10201c32ecf8e889a17ae81a2a34b5d088e4d",
+        "size": 63684,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/baa10201c32ecf8e889a17ae81a2a34b5d088e4d"
+      },
+      {
+        "path": "docs/.doctrees/aaa",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e077bd1e7cebaaad37ca43e872936cbccb21c1a8",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/e077bd1e7cebaaad37ca43e872936cbccb21c1a8"
+      },
+      {
+        "path": "docs/.doctrees/aaa/micropooling.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7779276e1baa58cfa88c4699383665cc54832760",
+        "size": 14786,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7779276e1baa58cfa88c4699383665cc54832760"
+      },
+      {
+        "path": "docs/.doctrees/environment.pickle",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da9c2029cc84348b28732807ef6e131ad5e567a5",
+        "size": 37526,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/da9c2029cc84348b28732807ef6e131ad5e567a5"
+      },
+      {
+        "path": "docs/.doctrees/index.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecbf42dad4835d137f8c7422f1de6a6c9f2299f8",
+        "size": 6371,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/ecbf42dad4835d137f8c7422f1de6a6c9f2299f8"
+      },
+      {
+        "path": "docs/.doctrees/install.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8455eb4fe23ea7fb3143c0a141c46d1438ba1163",
+        "size": 25924,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/8455eb4fe23ea7fb3143c0a141c46d1438ba1163"
+      },
+      {
+        "path": "docs/.doctrees/micropooling.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2f84127b3406ff0cc6a6aea12c6f4a6c14835e8",
+        "size": 14782,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d2f84127b3406ff0cc6a6aea12c6f4a6c14835e8"
+      },
+      {
+        "path": "docs/.doctrees/tutorial.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "016626d9d1265d8b7a3e36016765920d1be14ca2",
+        "size": 25390,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/016626d9d1265d8b7a3e36016765920d1be14ca2"
+      },
+      {
+        "path": "docs/.doctrees/user-guide.doctree",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64d87b3a79924e506be463ba7575f038280e929c",
+        "size": 11501,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/64d87b3a79924e506be463ba7575f038280e929c"
+      },
+      {
+        "path": "docs/.nojekyll",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "docs/AWS-tutorial.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35070a8d22e3c3ae9897c09fff0ffa1479d72333",
+        "size": 40889,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/35070a8d22e3c3ae9897c09fff0ffa1479d72333"
+      },
+      {
+        "path": "docs/Compass-Postprocessing-Tutorial.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "905807addce818e68cd6c3568eb45303613f5174",
+        "size": 8688,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/905807addce818e68cd6c3568eb45303613f5174"
+      },
+      {
+        "path": "docs/Compass-Settings.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0510c668bffe3798d39b7b83bc0b0cfea87ad34c",
+        "size": 23886,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/0510c668bffe3798d39b7b83bc0b0cfea87ad34c"
+      },
+      {
+        "path": "docs/_images",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a1285541522913e31e5839faf60bd47ab444d66e",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/a1285541522913e31e5839faf60bd47ab444d66e"
+      },
+      {
+        "path": "docs/_images/input_ex.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "840b043efc315777028ad5870df1ba5863cbb834",
+        "size": 233089,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/840b043efc315777028ad5870df1ba5863cbb834"
+      },
+      {
+        "path": "docs/_images/output_ex.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f46ecd8d89fc7ea1d2d8ab6d1465999b18641e28",
+        "size": 382255,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f46ecd8d89fc7ea1d2d8ab6d1465999b18641e28"
+      },
+      {
+        "path": "docs/_sources",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4ed8f784f5ef236c113cf6e97d90b10be470e1dc",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/4ed8f784f5ef236c113cf6e97d90b10be470e1dc"
+      },
+      {
+        "path": "docs/_sources/AWS-tutorial.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4287d31bd198db74eec2650ffc8e3b00df530791",
+        "size": 16517,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/4287d31bd198db74eec2650ffc8e3b00df530791"
+      },
+      {
+        "path": "docs/_sources/Compass-Postprocessing-Tutorial.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c7d13ce8e3ce02c7356a3aec22cbdfe45d54546",
+        "size": 2225,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1c7d13ce8e3ce02c7356a3aec22cbdfe45d54546"
+      },
+      {
+        "path": "docs/_sources/Compass-Settings.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "919e805ce8eac9df1399106f26f2202fd13b9f3b",
+        "size": 11546,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/919e805ce8eac9df1399106f26f2202fd13b9f3b"
+      },
+      {
+        "path": "docs/_sources/Tutorial.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00c6630ec68c3ecca796efa12e74e39a02a948c1",
+        "size": 6042,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/00c6630ec68c3ecca796efa12e74e39a02a948c1"
+      },
+      {
+        "path": "docs/_sources/aaa",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "888e6df7479b130e30070f4c6888d9d2253b882a",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/888e6df7479b130e30070f4c6888d9d2253b882a"
+      },
+      {
+        "path": "docs/_sources/aaa/micropooling.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "777292938dc8f6c60e4972a4d58d9ca97808c88a",
+        "size": 4307,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/777292938dc8f6c60e4972a4d58d9ca97808c88a"
+      },
+      {
+        "path": "docs/_sources/index.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "806654c944c5c355d3e3dd64f7d1aa4df56f71d3",
+        "size": 1202,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/806654c944c5c355d3e3dd64f7d1aa4df56f71d3"
+      },
+      {
+        "path": "docs/_sources/install.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07cd4548220c2c9e0e058c0b7e326921b615f43d",
+        "size": 5436,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/07cd4548220c2c9e0e058c0b7e326921b615f43d"
+      },
+      {
+        "path": "docs/_sources/micropooling.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a098f4f4a76181cc2d846d659b5002ed804af2a6",
+        "size": 4673,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/a098f4f4a76181cc2d846d659b5002ed804af2a6"
+      },
+      {
+        "path": "docs/_sources/user-guide.rst.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6cc90d1bda5694811a56ac773adf9449bf84db0c",
+        "size": 1768,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/6cc90d1bda5694811a56ac773adf9449bf84db0c"
+      },
+      {
+        "path": "docs/_static",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "49b6e6bb96e0bd52d47775f46613fff5fad2f3bc",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/49b6e6bb96e0bd52d47775f46613fff5fad2f3bc"
+      },
+      {
+        "path": "docs/_static/basic.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb51eb711395af2a5414abdb89c8346e236c3519",
+        "size": 13647,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/fb51eb711395af2a5414abdb89c8346e236c3519"
+      },
+      {
+        "path": "docs/_static/css",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bd16f7407b55421db6c16b18e92d72d5712e9b86",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/bd16f7407b55421db6c16b18e92d72d5712e9b86"
+      },
+      {
+        "path": "docs/_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "948a8bf154649c55fe87de3964ad941805509d95",
+        "size": 151277,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/948a8bf154649c55fe87de3964ad941805509d95"
+      },
+      {
+        "path": "docs/_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "655656dbdfcdb6f4d990f30a44941715151e29c3",
+        "size": 155940,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/655656dbdfcdb6f4d990f30a44941715151e29c3"
+      },
+      {
+        "path": "docs/_static/css/theme.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f6e79dabd078e4965561070ecedd099da2de64b",
+        "size": 4714,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/3f6e79dabd078e4965561070ecedd099da2de64b"
+      },
+      {
+        "path": "docs/_static/doctools.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d88f807dc9ad9d1b5a320f2e27daa2f5196d875",
+        "size": 9416,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7d88f807dc9ad9d1b5a320f2e27daa2f5196d875"
+      },
+      {
+        "path": "docs/_static/documentation_options.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d647a9f37580d03a08b0d133fb60023cd13174ea",
+        "size": 353,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d647a9f37580d03a08b0d133fb60023cd13174ea"
+      },
+      {
+        "path": "docs/_static/file.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a858a410e4faa62ce324d814e4b816fff83a6fb3",
+        "size": 286,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/a858a410e4faa62ce324d814e4b816fff83a6fb3"
+      },
+      {
+        "path": "docs/_static/jquery-3.5.1.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50937333b99a5e168ac9e8292b22edd7e96c3e6a",
+        "size": 287630,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/50937333b99a5e168ac9e8292b22edd7e96c3e6a"
+      },
+      {
+        "path": "docs/_static/jquery.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0614034ad3a95e4ae9f53c2b015eeb3e8d68bde",
+        "size": 89476,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/b0614034ad3a95e4ae9f53c2b015eeb3e8d68bde"
+      },
+      {
+        "path": "docs/_static/js",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c916e943c9252f1f40e457a29a27bdd66e86e1bb",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/c916e943c9252f1f40e457a29a27bdd66e86e1bb"
+      },
+      {
+        "path": "docs/_static/js/index.1c5a1a01449ed65a7b51.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b71f7fcc2b339b44ae56c66d59c730ff9865e5d4",
+        "size": 83757,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/b71f7fcc2b339b44ae56c66d59c730ff9865e5d4"
+      },
+      {
+        "path": "docs/_static/js/index.3da636dd464baa7582d2.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "083f2a2c45487932f644321c87ce0656cbe821cf",
+        "size": 83308,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/083f2a2c45487932f644321c87ce0656cbe821cf"
+      },
+      {
+        "path": "docs/_static/language_data.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2b4ee91b0da7308cf5693804779c7b18c26252a",
+        "size": 10847,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d2b4ee91b0da7308cf5693804779c7b18c26252a"
+      },
+      {
+        "path": "docs/_static/minus.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d96755fdaf8bb2214971e0db9c1fd3077d7c419d",
+        "size": 90,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d96755fdaf8bb2214971e0db9c1fd3077d7c419d"
+      },
+      {
+        "path": "docs/_static/plus.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7107cec93a979b9a5f64843235a16651d563ce2d",
+        "size": 90,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7107cec93a979b9a5f64843235a16651d563ce2d"
+      },
+      {
+        "path": "docs/_static/pygments.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0ec841f5cbfb0722b687c813e7389eaa8e7041e",
+        "size": 5009,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/b0ec841f5cbfb0722b687c813e7389eaa8e7041e"
+      },
+      {
+        "path": "docs/_static/searchtools.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261ecaa92829538b506bc4794a14df56b151690e",
+        "size": 16323,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/261ecaa92829538b506bc4794a14df56b151690e"
+      },
+      {
+        "path": "docs/_static/underscore-1.12.0.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3af6352e613132675a354b5fc76d03e258fe229e",
+        "size": 67692,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/3af6352e613132675a354b5fc76d03e258fe229e"
+      },
+      {
+        "path": "docs/_static/underscore-1.3.1.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "208d4cd890c3183d946092ebe982738ade565061",
+        "size": 35168,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/208d4cd890c3183d946092ebe982738ade565061"
+      },
+      {
+        "path": "docs/_static/underscore.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b55f32beaca186f84cca115514f02cddbd1bbd5",
+        "size": 12140,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/5b55f32beaca186f84cca115514f02cddbd1bbd5"
+      },
+      {
+        "path": "docs/_static/vendor",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ba7166216c6b430c8859a1933bad155d04cdc69b",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/ba7166216c6b430c8859a1933bad155d04cdc69b"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "37ec0201ce8adcf96597d7300426c343b6bf2aef",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/37ec0201ce8adcf96597d7300426c343b6bf2aef"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "aa2e06c2408fd0deacc4b3178f53f1f4a0ae9e6d",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/aa2e06c2408fd0deacc4b3178f53f1f4a0ae9e6d"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/LICENSE.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f31bef92b64e9d493204176354b2d7f83d8d7eae",
+        "size": 1548,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f31bef92b64e9d493204176354b2d7f83d8d7eae"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/css",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2b3b4eebbf543610a46d993f2c0e2a5663b32f9c",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/2b3b4eebbf543610a46d993f2c0e2a5663b32f9c"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/css/all.min.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3d28ab203d74dbf017e364252f166e50c674ad0d",
+        "size": 58578,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/3d28ab203d74dbf017e364252f166e50c674ad0d"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "89e0cdae9d4800bbf2ce766c3df9b7114eec3bb8",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/89e0cdae9d4800bbf2ce766c3df9b7114eec3bb8"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.eot",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1bc094ab14d8c7d84d8c59aa511de9e69440d0a",
+        "size": 133034,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/a1bc094ab14d8c7d84d8c59aa511de9e69440d0a"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46ad237a6191a5cd8518e0bb24379a1a111249c9",
+        "size": 715890,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/46ad237a6191a5cd8518e0bb24379a1a111249c9"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "948a2a6cc76a4d7cb692d0d08e352f126ec48a9d",
+        "size": 132728,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/948a2a6cc76a4d7cb692d0d08e352f126ec48a9d"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a89d521e3fadb6ad3bc1738830a2c039bc57272",
+        "size": 89824,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/2a89d521e3fadb6ad3bc1738830a2c039bc57272"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "141a90a9e0a4b5a794557efa098a5c52320fb226",
+        "size": 76612,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/141a90a9e0a4b5a794557efa098a5c52320fb226"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.eot",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38cf2517a4da71a05f8e83723cdffce45ebc3319",
+        "size": 34390,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/38cf2517a4da71a05f8e83723cdffce45ebc3319"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "48634a9ab4743ba0fff2870a383792030877671d",
+        "size": 144322,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/48634a9ab4743ba0fff2870a383792030877671d"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "abe99e20c38a23e95295917d6a5cdb49a8489eb8",
+        "size": 34092,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/abe99e20c38a23e95295917d6a5cdb49a8489eb8"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24de566a5c97289a86ce0c238a195da0d3251263",
+        "size": 16800,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/24de566a5c97289a86ce0c238a195da0d3251263"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-regular-400.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e0118e526eb53511cb57e7cfaf515784fee4345",
+        "size": 13584,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7e0118e526eb53511cb57e7cfaf515784fee4345"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.eot",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3b77c223afc9a0a1af914936219da2b001a010f",
+        "size": 202902,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d3b77c223afc9a0a1af914936219da2b001a010f"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7742838b4481a6d678c7fb51417e84da69707ec2",
+        "size": 897426,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7742838b4481a6d678c7fb51417e84da69707ec2"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b979039ab28aaae305074541fe39258753ba624",
+        "size": 202616,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/5b979039ab28aaae305074541fe39258753ba624"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "beec79178427adba9f767e1c1d2bd205044a85da",
+        "size": 103300,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/beec79178427adba9f767e1c1d2bd205044a85da"
+      },
+      {
+        "path": "docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "978a681a10ff0478581436eaca5c5695c97445d4",
+        "size": 79444,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/978a681a10ff0478581436eaca5c5695c97445d4"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2afc43b4f103bc3020e2332fe0fe8ba0f5eacfa3",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/2afc43b4f103bc3020e2332fe0fe8ba0f5eacfa3"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5551c6eb45f0f7beae4cdc5a9dfff34f291c515e",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/5551c6eb45f0f7beae4cdc5a9dfff34f291c515e"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/LICENSE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89bc0f2b69c21c10690340531c6ceddb59bcf732",
+        "size": 1054,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/89bc0f2b69c21c10690340531c6ceddb59bcf732"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5e36c5d2689d02ec000c2b201ef115f0f05d5a8a",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/5e36c5d2689d02ec000c2b201ef115f0f05d5a8a"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-100-italic.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c644b48ee28525eddff6431066d5e2820cbd09fe",
+        "size": 23416,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/c644b48ee28525eddff6431066d5e2820cbd09fe"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-100-italic.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96fd2f9a0d6e499aeec7a3eff768fe2735e55a8c",
+        "size": 18228,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/96fd2f9a0d6e499aeec7a3eff768fe2735e55a8c"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-100.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2dc7e182ad5ce6e61c62e9573efd8e93aacc977f",
+        "size": 29264,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/2dc7e182ad5ce6e61c62e9573efd8e93aacc977f"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-100.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e13d4a58a9096ffc797778b12dbbbf0a70d6e044",
+        "size": 23300,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e13d4a58a9096ffc797778b12dbbbf0a70d6e044"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-300-italic.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb6fea6587a3d41debaed7b96370bd6828a97158",
+        "size": 24056,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/eb6fea6587a3d41debaed7b96370bd6828a97158"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-300-italic.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e430c45cb5df6f74fd99cb19c85917f72cd4ba19",
+        "size": 18868,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e430c45cb5df6f74fd99cb19c85917f72cd4ba19"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-300.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46d42447577cea6a6a9b4b7d56ff9a934c79dc8c",
+        "size": 32196,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/46d42447577cea6a6a9b4b7d56ff9a934c79dc8c"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-300.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1c62e09961c8bd00cd3cbcc8cf6dded19a7f534",
+        "size": 24836,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f1c62e09961c8bd00cd3cbcc8cf6dded19a7f534"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-400-italic.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "509f8e238aed85d36ce85dbeee34ac62208cb0fc",
+        "size": 32220,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/509f8e238aed85d36ce85dbeee34ac62208cb0fc"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-400-italic.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75f438eaf6ad181b12986b4c2c1da090a17f5a9d",
+        "size": 26312,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/75f438eaf6ad181b12986b4c2c1da090a17f5a9d"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6d3d1d9dee498895d1478a79170a922507bcf25",
+        "size": 30924,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/c6d3d1d9dee498895d1478a79170a922507bcf25"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-400.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4153a8259ff1645aae19265e136a24a661c3987c",
+        "size": 25320,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/4153a8259ff1645aae19265e136a24a661c3987c"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-700-italic.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e48d3f7297c60547ec8bb83a5c9dcbe0ac5882c",
+        "size": 32564,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/9e48d3f7297c60547ec8bb83a5c9dcbe0ac5882c"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-700-italic.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82e86ca3202baf6de810ac3001343335e0f40d68",
+        "size": 26344,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/82e86ca3202baf6de810ac3001343335e0f40d68"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-700.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8d62dd0a37ee1fae6eb58e0efd0b5eb206bf74b",
+        "size": 30356,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e8d62dd0a37ee1fae6eb58e0efd0b5eb206bf74b"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-700.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ba583e88bd15ddf67ec94dea0c65109de9800a9",
+        "size": 24712,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/5ba583e88bd15ddf67ec94dea0c65109de9800a9"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-900-italic.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76100cc348912df595fec13e59cc4aa4d578b3a0",
+        "size": 31260,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/76100cc348912df595fec13e59cc4aa4d578b3a0"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-900-italic.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "997ce9577bf3e6c8f04f657231cc2951b4c206aa",
+        "size": 25636,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/997ce9577bf3e6c8f04f657231cc2951b4c206aa"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-900.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d07cde1b47d0438c2ca34e338eb7bfc489d23b7",
+        "size": 29700,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/7d07cde1b47d0438c2ca34e338eb7bfc489d23b7"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/files/lato-latin-ext-900.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8bcda08ff3f1ba1cacf901ae26d07e99b82b4fb",
+        "size": 24344,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f8bcda08ff3f1ba1cacf901ae26d07e99b82b4fb"
+      },
+      {
+        "path": "docs/_static/vendor/lato_latin-ext/1.44.1/index.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d170b50c72da2ec2d83397750b194aebaa0ad24b",
+        "size": 4176,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d170b50c72da2ec2d83397750b194aebaa0ad24b"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "025f40093f1336fed9ebb89ba6874c579da23c13",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/025f40093f1336fed9ebb89ba6874c579da23c13"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all/1.44.1",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2bec37031fa56c952ff3350f06ebcbcfdccff2fb",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/2bec37031fa56c952ff3350f06ebcbcfdccff2fb"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all/1.44.1/LICENSE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89bc0f2b69c21c10690340531c6ceddb59bcf732",
+        "size": 1054,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/89bc0f2b69c21c10690340531c6ceddb59bcf732"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all/1.44.1/files",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4e725876621708681f845209e20be06eccc11ea2",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/4e725876621708681f845209e20be06eccc11ea2"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all/1.44.1/files/open-sans-all-400-italic.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34f3eae8627b57d4aead03e683bce20cc76d3528",
+        "size": 53024,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/34f3eae8627b57d4aead03e683bce20cc76d3528"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all/1.44.1/files/open-sans-all-400-italic.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "398b68a0853fbf6368758deb1da49d347e3e7d89",
+        "size": 41076,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/398b68a0853fbf6368758deb1da49d347e3e7d89"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all/1.44.1/files/open-sans-all-400.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "799305af214a8c7a212521f5c53a25dda73e9a7a",
+        "size": 55268,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/799305af214a8c7a212521f5c53a25dda73e9a7a"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all/1.44.1/files/open-sans-all-400.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8383e94c65478622baf43553262e0e31b8725e2b",
+        "size": 43236,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/8383e94c65478622baf43553262e0e31b8725e2b"
+      },
+      {
+        "path": "docs/_static/vendor/open-sans_all/1.44.1/index.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a1e73b990093aa4ccf1d111060988fa179affc9",
+        "size": 4302,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/2a1e73b990093aa4ccf1d111060988fa179affc9"
+      },
+      {
+        "path": "docs/_static/webpack-macros.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50acc79f50ca9418d11f4abebaac6d3a63beed06",
+        "size": 1225,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/50acc79f50ca9418d11f4abebaac6d3a63beed06"
+      },
+      {
+        "path": "docs/genindex.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1e28304aa7de200b506164d494975c0b53ee76b",
+        "size": 4284,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f1e28304aa7de200b506164d494975c0b53ee76b"
+      },
+      {
+        "path": "docs/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ff82075cb6af5e8e4eaa2a19cb8a12fab55f144",
+        "size": 6411,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/3ff82075cb6af5e8e4eaa2a19cb8a12fab55f144"
+      },
+      {
+        "path": "docs/install.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5879b421fc9319cf57bb6336278ee062cca52a88",
+        "size": 15097,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/5879b421fc9319cf57bb6336278ee062cca52a88"
+      },
+      {
+        "path": "docs/micropooling.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1a3d32759dc075747526b27c565f6fe108c9d48",
+        "size": 12505,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f1a3d32759dc075747526b27c565f6fe108c9d48"
+      },
+      {
+        "path": "docs/objects.inv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "637e93ea19161b04ca2c39ba7f868b339c2fd209",
+        "size": 393,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/637e93ea19161b04ca2c39ba7f868b339c2fd209"
+      },
+      {
+        "path": "docs/search.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b10bf610ab3147fafad4a839e0ee49849e4e13be",
+        "size": 4966,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/b10bf610ab3147fafad4a839e0ee49849e4e13be"
+      },
+      {
+        "path": "docs/searchindex.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddf3c3d5053ceddc209dbe55076c40bbcd3caad4",
+        "size": 11541,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/ddf3c3d5053ceddc209dbe55076c40bbcd3caad4"
+      },
+      {
+        "path": "docs/tutorial.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e87b22f69a008cedc56b3df8c8e35b3bb5cd94b6",
+        "size": 16875,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/e87b22f69a008cedc56b3df8c8e35b3bb5cd94b6"
+      },
+      {
+        "path": "docs/user-guide.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b61785c5d75aed99bd68d7db6e1fecce815914e",
+        "size": 9599,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/2b61785c5d75aed99bd68d7db6e1fecce815914e"
+      },
+      {
+        "path": "docs_source",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "14742a818e9f309e8fd1e9e806ad0f6b5d19bb0d",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/14742a818e9f309e8fd1e9e806ad0f6b5d19bb0d"
+      },
+      {
+        "path": "docs_source/.vscode",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e60eb3091c199445af44639192f44b25d87d1b8b",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/e60eb3091c199445af44639192f44b25d87d1b8b"
+      },
+      {
+        "path": "docs_source/.vscode/settings.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab3eb0a76f10add6488f5e969f4e446c4569979e",
+        "size": 65,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/ab3eb0a76f10add6488f5e969f4e446c4569979e"
+      },
+      {
+        "path": "docs_source/Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98ccfd3a5d08145a8a06fac593ffe758b68a9e6b",
+        "size": 688,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/98ccfd3a5d08145a8a06fac593ffe758b68a9e6b"
+      },
+      {
+        "path": "docs_source/make.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9534b018135ed7d5caed6298980c55e8b1d2ec82",
+        "size": 764,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/9534b018135ed7d5caed6298980c55e8b1d2ec82"
+      },
+      {
+        "path": "docs_source/source",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0f10ecdb61a5ab6c54e118a5604850c7f1715238",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/0f10ecdb61a5ab6c54e118a5604850c7f1715238"
+      },
+      {
+        "path": "docs_source/source/AWS-tutorial.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4287d31bd198db74eec2650ffc8e3b00df530791",
+        "size": 16517,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/4287d31bd198db74eec2650ffc8e3b00df530791"
+      },
+      {
+        "path": "docs_source/source/Compass-Postprocessing-Tutorial.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c7d13ce8e3ce02c7356a3aec22cbdfe45d54546",
+        "size": 2225,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/1c7d13ce8e3ce02c7356a3aec22cbdfe45d54546"
+      },
+      {
+        "path": "docs_source/source/Compass-Settings.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "919e805ce8eac9df1399106f26f2202fd13b9f3b",
+        "size": 11546,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/919e805ce8eac9df1399106f26f2202fd13b9f3b"
+      },
+      {
+        "path": "docs_source/source/conf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d324a06b39fccf6c813194d2efe7082751d8709c",
+        "size": 1893,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/d324a06b39fccf6c813194d2efe7082751d8709c"
+      },
+      {
+        "path": "docs_source/source/images",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a1285541522913e31e5839faf60bd47ab444d66e",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/a1285541522913e31e5839faf60bd47ab444d66e"
+      },
+      {
+        "path": "docs_source/source/images/input_ex.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "840b043efc315777028ad5870df1ba5863cbb834",
+        "size": 233089,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/840b043efc315777028ad5870df1ba5863cbb834"
+      },
+      {
+        "path": "docs_source/source/images/output_ex.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f46ecd8d89fc7ea1d2d8ab6d1465999b18641e28",
+        "size": 382255,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f46ecd8d89fc7ea1d2d8ab6d1465999b18641e28"
+      },
+      {
+        "path": "docs_source/source/index.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "806654c944c5c355d3e3dd64f7d1aa4df56f71d3",
+        "size": 1202,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/806654c944c5c355d3e3dd64f7d1aa4df56f71d3"
+      },
+      {
+        "path": "docs_source/source/install.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07cd4548220c2c9e0e058c0b7e326921b615f43d",
+        "size": 5436,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/07cd4548220c2c9e0e058c0b7e326921b615f43d"
+      },
+      {
+        "path": "docs_source/source/micropooling.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a098f4f4a76181cc2d846d659b5002ed804af2a6",
+        "size": 4673,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/a098f4f4a76181cc2d846d659b5002ed804af2a6"
+      },
+      {
+        "path": "docs_source/source/tutorial.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00c6630ec68c3ecca796efa12e74e39a02a948c1",
+        "size": 6042,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/00c6630ec68c3ecca796efa12e74e39a02a948c1"
+      },
+      {
+        "path": "docs_source/source/user-guide.rst",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6cc90d1bda5694811a56ac773adf9449bf84db0c",
+        "size": 1768,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/6cc90d1bda5694811a56ac773adf9449bf84db0c"
+      },
+      {
+        "path": "setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "805ce3ec4c25a341c2669e67d32704928c8d7ba4",
+        "size": 1770,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/805ce3ec4c25a341c2669e67d32704928c8d7ba4"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a50322242f211180135ccffa3a2ab4f6cacf095c",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/a50322242f211180135ccffa3a2ab4f6cacf095c"
+      },
+      {
+        "path": "tests/test_models.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4eab603bc79c3131fc8efe12de8acfc371774a2",
+        "size": 1037,
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/blobs/f4eab603bc79c3131fc8efe12de8acfc371774a2"
+      }
+    ],
+    "truncated": false
+  },
+  "compass_acquisition_v1.json": {
+    "utc": "2026-10-04T10:24:39.533791+00:00",
+    "pin": "d70793595ab6a3c897a07f3bd638b65c461ee47d",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/LICENSE.md",
+        "source_path": "LICENSE.md",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/LICENSE.md",
+        "sha256": "1a7567132881e23765be35ffbfc0741944d2164d70be548b5189429dba4cfc3d",
+        "git_blob_sha": "b14f5d271ea9106400ba7b4c125c7ba196800968",
+        "bytes": 1516
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/setup.py",
+        "source_path": "setup.py",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/setup.py",
+        "sha256": "d2b5f40c752a72c3eed44cdd16b95a495b352ab625173da24dd17709b301a3d2",
+        "git_blob_sha": "805ce3ec4c25a341c2669e67d32704928c8d7ba4",
+        "bytes": 1770
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/compass/main.py",
+        "source_path": "compass/main.py",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/main.py",
+        "sha256": "0ed2482aa86a34deb27d14fb9fd42bc1a1f5aa35f1db6cf47ec14c4e0cc8ae0f",
+        "git_blob_sha": "356db5752ba9a77db0a3192df0d01787af0afbad",
+        "bytes": 35638
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/compass/globals.py",
+        "source_path": "compass/globals.py",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/globals.py",
+        "sha256": "69f99d7adcf35c955e189c4e7dc84a96c6090f2005b1b57034a2bc2bef3c7f6b",
+        "git_blob_sha": "21b79e019f0d9b71e9eac5f1d8ac1ddeecc4dfaa",
+        "bytes": 1333
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/compass/compass/penalties.py",
+        "source_path": "compass/compass/penalties.py",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/compass/penalties.py",
+        "sha256": "6108c446ed3ea898c9334a686525525e40e2f218c9b78a39bc47e46d71607650",
+        "git_blob_sha": "99f5db34464f633f6c7ac11f63b4a81ae47e4104",
+        "bytes": 13262
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/compass/Resources/Recon2_export/recon2_md.zip",
+        "source_path": "compass/Resources/Recon2_export/recon2_md.zip",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/recon2_md.zip",
+        "sha256": "d1f97fd7ed0a7eb20198e2d65f7ca2e82c2806c69efdc5e5ebf6699d30756a86",
+        "git_blob_sha": "49846e6773465eb69cb3194e9118cc70f42d890d",
+        "bytes": 368098
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/compass/Resources/Recon2_export/gene_md.csv",
+        "source_path": "compass/Resources/Recon2_export/gene_md.csv",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/gene_md.csv",
+        "sha256": "3f40ddc2861ac727b1341d900ac6f9b8e028ed5122c77201c43bdbbca5da1da0",
+        "git_blob_sha": "c1956f9966bb37ff525f24dece5d990506eb1294",
+        "bytes": 74643
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/compass/Resources/Recon2_export/rxn_md.csv",
+        "source_path": "compass/Resources/Recon2_export/rxn_md.csv",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/rxn_md.csv",
+        "sha256": "1b5f6cb426e4abc3ee15d7d64cb61f96b4b2eadb3d9d3430a6c00e267f1db1ef",
+        "git_blob_sha": "e532e89cf0935d42ef16a1d87af7d1af247a6bf8",
+        "bytes": 1791749
+      },
+      {
+        "url": "https://raw.githubusercontent.com/YosefLab/Compass/d70793595ab6a3c897a07f3bd638b65c461ee47d/compass/Resources/Recon2_export/met_md.csv",
+        "source_path": "compass/Resources/Recon2_export/met_md.csv",
+        "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/met_md.csv",
+        "sha256": "605815e0c7dfec54e2a9b6de6883d21a05dfaa3dc56adc0d0fc477a45445bba8",
+        "git_blob_sha": "f773894e8523c06b779e76ed330773443aa8be4a",
+        "bytes": 402590
+      }
+    ],
+    "cplex_executable_on_path": null,
+    "cplex_python_available": false,
+    "gurobipy_python_available": false
+  },
+  "europepmc_S2_attempt.json": {
+    "url": "https://europepmc.org/articles/PMC8621950/bin/NIHMS1720171-supplement-Table_S2.xlsx",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "official_alternative_acquisition_v1.json": {
+    "utc": "2026-10-04T10:21:34.713034+00:00",
+    "results": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8621950/supplementaryFiles",
+        "error": "File is not a zip file"
+      },
+      {
+        "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165088/suppl/GSE165088_Raw_Count_Data.csv.gz",
+        "error": "550 /geo/series/GSE165nnn/GSE165088/suppl/GSE165088_Raw_Count_Data.csv.gz: Cannot allocate memory"
+      }
+    ]
+  },
+  "R_launcher_checks.json": [
+    {
+      "exe": ".tools\\R-4.6.1\\bin\\Rscript.exe",
+      "returncode": 0,
+      "stderr": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \n",
+      "stdout": "minimal smoke\n"
+    },
+    {
+      "exe": ".tools\\R-4.6.1\\bin\\x64\\Rscript.exe",
+      "returncode": 0,
+      "stderr": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \n",
+      "stdout": "minimal smoke\n"
+    },
+    {
+      "exe": ".tools\\R-4.6.1\\bin\\x64\\Rterm.exe",
+      "returncode": 0,
+      "stderr": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \n",
+      "stdout": "\nR version 4.6.1 (2026-06-24 ucrt) -- \"Happy Hop\"\nCopyright (C) 2026 The R Foundation for Statistical Computing\nPlatform: x86_64-w64-mingw32/x64\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> cat(\"minimal smoke\\n\");quit(save=\"no\",status=0,runLast=FALSE)\nminimal smoke\n"
+    }
+  ],
+  "R_limma_smoke.json": {
+    "returncode": 0,
+    "stdout": "   limma    edgeR jsonlite \n\"3.68.5\" \"4.10.5\"  \"2.0.0\" \n[1] \"synthetic smoke PASS\"\n",
+    "stderr": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \ncalcNormFactors has been renamed to normLibSizes\n"
+  },
+  "table_acquisition_v1.json": {
+    "sources": [
+      {
+        "path": "raw_data/wagner_closeout_20261004/compass_2021_tree.json",
+        "url": "https://api.github.com/repos/YosefLab/Compass/git/trees/d70793595ab6a3c897a07f3bd638b65c461ee47d?recursive=1",
+        "bytes": 67107,
+        "sha256": "f8c1a3fc3d0e9bdfcf7448d98cac16a78ef159a7f646310aac5086e938e14acc",
+        "retrieved_at": "2026-10-04T10:11:08.051873+00:00"
+      }
+    ],
+    "failures": [
+      {
+        "name": "NIHMS1720171-supplement-Table_S2.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8621950/bin/NIHMS1720171-supplement-Table_S2.xlsx",
+        "error": "File is not a zip file"
+      },
+      {
+        "name": "NIHMS1720171-supplement-Table_S1.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8621950/bin/NIHMS1720171-supplement-Table_S1.xlsx",
+        "error": "File is not a zip file"
+      },
+      {
+        "name": "NIHMS1720171-supplement-Table_S3.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8621950/bin/NIHMS1720171-supplement-Table_S3.xlsx",
+        "error": "File is not a zip file"
+      },
+      {
+        "name": "NIHMS1720171-supplement-Table_S6.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8621950/bin/NIHMS1720171-supplement-Table_S6.xlsx",
+        "error": "File is not a zip file"
+      },
+      {
+        "name": "NIHMS1720171-supplement-Table_S5.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8621950/bin/NIHMS1720171-supplement-Table_S5.xlsx",
+        "error": "File is not a zip file"
+      },
+      {
+        "name": "NIHMS1720171-supplement-Table_S4.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8621950/bin/NIHMS1720171-supplement-Table_S4.xlsx",
+        "error": "File is not a zip file"
+      },
+      {
+        "name": "NIHMS1720171-supplement-Table_S7.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/8621950/bin/NIHMS1720171-supplement-Table_S7.xlsx",
+        "error": "File is not a zip file"
+      },
+      {
+        "name": "GSE165088_Raw_Count_Data.csv.gz",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165088&file=GSE165088_Raw_Count_Data.csv.gz&format=file",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  }
+}

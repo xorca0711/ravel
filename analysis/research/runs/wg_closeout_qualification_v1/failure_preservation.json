@@ -1,0 +1,127 @@
+{
+  "status": "byte_preservation_verified",
+  "original_git_checkpoint": "30bf90d",
+  "files": [
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v1/receipt.json",
+      "archive_file": "failed_wg_source_scores_v1__receipt.json",
+      "sha256": "078ce896b469e2f5de43f5b960fff5c8c29ad34f32cbfd6ce0089ae243438e93",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v1/stderr.log",
+      "archive_file": "failed_wg_source_scores_v1__stderr.log",
+      "sha256": "c54c4b00b0b32e5c20e983e2bb1bbee7bd0d7772d3cb6498a0a22c04160fb4b8",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v1/stdout.log",
+      "archive_file": "failed_wg_source_scores_v1__stdout.log",
+      "sha256": "eaaa89b48b866f0d7d469f0460238bf8e35c40ccd38c1d3c835b68c54e14e154",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/environment.json",
+      "archive_file": "failed_wg_source_scores_v2__environment.json",
+      "sha256": "0e0d14c506667462e32f642dc36245c2b3a3cac9e141f0cfad2c8f2ba9ce6871",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/exclusions.tsv",
+      "archive_file": "failed_wg_source_scores_v2__exclusions.tsv",
+      "sha256": "5bbed4b74e600329125cb71820e1aa06fe39889d9cead9ea12ccad124d42e7ce",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/expanded_metareaction_statistics.tsv",
+      "archive_file": "failed_wg_source_scores_v2__expanded_metareaction_statistics.tsv",
+      "sha256": "d19325b19e09bb5e2a022bb8d19811aebee0193302ab625c412aaaa0c30c7101",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/metareaction_membership.tsv",
+      "archive_file": "failed_wg_source_scores_v2__metareaction_membership.tsv",
+      "sha256": "3b3f050c4e0d9036e92ee8455ace8f30cab6520167879d51dcaea2051c44faf4",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/metareaction_statistics.tsv",
+      "archive_file": "failed_wg_source_scores_v2__metareaction_statistics.tsv",
+      "sha256": "0617d03d4857fc010c6bf8656f43dd3ed53889020a8f99980015fcb6374767c9",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/pathway_summary.tsv",
+      "archive_file": "failed_wg_source_scores_v2__pathway_summary.tsv",
+      "sha256": "363f54766bc513808ca1708c54b75fe7db5a467419921e7f48276c6788ea53d8",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/reaction_statistics.tsv",
+      "archive_file": "failed_wg_source_scores_v2__reaction_statistics.tsv",
+      "sha256": "63af14c9f697a8c7fc35dd3065f1cbb34fa78040628cdee47b4e9e0933326227",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/receipt.json",
+      "archive_file": "failed_wg_source_scores_v2__receipt.json",
+      "sha256": "86ce578cedcf1809815ef05498b3b2c02d1c6adfdd0a1c9737d4a4b67028ec0a",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/selected_cell_scores.tsv",
+      "archive_file": "failed_wg_source_scores_v2__selected_cell_scores.tsv",
+      "sha256": "0cd563e3ace00069e419445f22f6545cf822d34017b8b79c907140f8674d02c7",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/selected_reactions.tsv",
+      "archive_file": "failed_wg_source_scores_v2__selected_reactions.tsv",
+      "sha256": "1d5fa3960146fa2b66b84f85a2adec87472d3e67373c29954544679724388b8e",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/stderr.log",
+      "archive_file": "failed_wg_source_scores_v2__stderr.log",
+      "sha256": "6c570b676d512167690293ac6551383c79ad24b897f1e942196789db21ab67a0",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/stdout.log",
+      "archive_file": "failed_wg_source_scores_v2__stdout.log",
+      "sha256": "eaaa89b48b866f0d7d469f0460238bf8e35c40ccd38c1d3c835b68c54e14e154",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/summary.json",
+      "archive_file": "failed_wg_source_scores_v2__summary.json",
+      "sha256": "ff046b193b592373cb946178ede19cd793a3a68a2be2e9aeac518ea2268acf79",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_source_scores_v2/verification.json",
+      "archive_file": "failed_wg_source_scores_v2__verification.json",
+      "sha256": "d0fd5167162057c00cc24bdc02f1787c9a356cb82db2ff1d5a490801dc010888",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/receipt.json",
+      "archive_file": "failed_wg_bulk_paired_descriptive_v1__receipt.json",
+      "sha256": "711a4416709f4780ee6f456ce0ffa320095092515a7cb9b58ae8173a5b8a454b",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/stderr.log",
+      "archive_file": "failed_wg_bulk_paired_descriptive_v1__stderr.log",
+      "sha256": "f6e22b5f2caa10b4a25536208c407d3aaaa4fd7841c12965f400de84fab46c73",
+      "original_status": "execution_failed"
+    },
+    {
+      "original_path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/stdout.log",
+      "archive_file": "failed_wg_bulk_paired_descriptive_v1__stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_status": "execution_failed"
+    }
+  ],
+  "limit": "Successful metadata/archive execution does not change any failed scientific status. Originals remain byte-identical locally and in earlier commits. Successful wrapper copies replace unsuccessful registry entries using the existing Nb5 preservation pattern; no validator changes."
+}

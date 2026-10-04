@@ -1,5 +1,8 @@
 # Wg-P06: source supply and recipient use of ornithine
 
+**Current evidence:** see the [pre-RQ disposition](../PRE_RQ_EVIDENCE.md).
+All existing branch questions below remain proposed; no new RQ is derived.
+
 **Updated precedent boundary (4 October):** Yadav directly tests the broad
 source-supply/recipient-use mechanism, including OAT and proline/collagen
 readouts. Hamanaka's published 2025 successor constrains transfer to cultured
