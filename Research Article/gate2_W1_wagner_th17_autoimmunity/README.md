@@ -4,7 +4,9 @@
 source-aligned model-based R3 analyses have executed; eight formal plates are
 saved. R2/R4/R5 carry explicit source/runtime holds. No new RQ was derived.**
 
-Start with the [pre-RQ evidence report](PRE_RQ_EVIDENCE.md) and
+Start with the [pre-derivation review](pre_rq_review/README.md), its
+[extension and RQ overlap map](pre_rq_review/EXTENSIONS_AND_OVERLAPS.md),
+then the [pre-RQ evidence report](PRE_RQ_EVIDENCE.md) and
 [source-aligned RNA results](MODEL_RESULTS.md).
 
 Start with [current results](RESULTS.md), [figures and captions](FIGURES.md),

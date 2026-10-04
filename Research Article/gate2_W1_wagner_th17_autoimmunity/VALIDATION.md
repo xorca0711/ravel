@@ -1,5 +1,29 @@
 # Pre-RQ checkpoint validation — 4 October 2026
 
+## Subsequent review-only validation
+
+The extension/overlap/literature review changes Markdown and adds one evidence
+pointer to each of seven Wg registry entries. A semantic comparison with
+`aa99cd1` confirms every other registry field is unchanged. All A0–A27 IDs are
+accounted for in the overlap map; its stated depth distinguishes title screening
+from focused dossier review. No numerical output, script, contract, canonical
+hypothesis, claim grade, figure or governance/validator file changed.
+
+- Fresh `origin/main`: `a5d41834395cac0b82b488d48759ceb6fab8f2d5`, unchanged.
+- Repository validator: **9,885 checks passed**, including the new review links.
+- Research gate with `--base origin/main`: **passed, zero errors**.
+- Staged whitespace and documentation-only scope checks: passed.
+- Earlier 143-test/one-skip, compilation, arithmetic, receipt-byte and six
+  claim/archive-verifier passes below are reused: their implementations and
+  bound evidence are unchanged. No biological rerun was necessary.
+
+Private check logs are `review_repository_validation.log` and
+`review_research_gate.log` in this session's scratch directory. These checks
+validate repository integrity; they do not certify novelty, the inspected
+papers' conclusions, laboratory feasibility or human scientific acceptance.
+
+## Numerical checkpoint validation (unchanged)
+
 Current source-aligned RNA run: [receipt](../../analysis/research/runs/wg_bulk_limma_v1/receipt.json),
 frozen at `5a50fb8`. Remaining-stage source qualification and failure archival:
 [receipt](../../analysis/research/runs/wg_closeout_qualification_v1/receipt.json),

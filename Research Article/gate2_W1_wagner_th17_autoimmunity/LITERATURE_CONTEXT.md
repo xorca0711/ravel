@@ -1,5 +1,7 @@
 # Wg: literature context for reproduction and branches
 
+**Latest pre-derivation review, 4 October 2026:** start with the [review](pre_rq_review/README.md) and [source update](pre_rq_review/LITERATURE_UPDATE.md). They add recent leads, older close precedents and corrections after the model results. The source-specific full-text gaps are explicit; novelty and laboratory feasibility remain unestablished.
+
 **Current continuation, 4 October 2026:** read the
 [six-branch precedent review](PRECEDENT_REVIEW.md) first. It incorporates the
 recovered full-text/methods/supplement work, exact branch comparisons, version

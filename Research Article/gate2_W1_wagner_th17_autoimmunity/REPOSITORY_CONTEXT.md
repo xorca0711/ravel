@@ -1,5 +1,7 @@
 # Neighboring papers and existing questions
 
+**Current overlap assessment:** the [all-A0–A27 map](pre_rq_review/EXTENSIONS_AND_OVERLAPS.md) distinguishes direct P05 joins with A1/A8/A14/A19 from methodological analogies and unrelated contexts. No existing RQ is merged, removed or promoted.
+
 Reviewed against fetched main `a5d41834395cac0b82b488d48759ceb6fab8f2d5`,
 4 October 2026. The registry contains **A0-A27**, not the older A0-A23 snapshot
 in the initial checkout. Current results/dossiers take precedence over older plans.

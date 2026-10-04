@@ -1,5 +1,7 @@
 # Pre-RQ evidence checkpoint — 4 October 2026
 
+**Subsequent review:** the [extension/overlap review](pre_rq_review/README.md) checks these results against A0–A27 and additional primary precedents. It preserves this evidence checkpoint and stops before new RQ derivation.
+
 **The executable analysis and evidence-organization work is complete to this
 checkpoint. RQ derivation has not started.** Several source-reproduction stages
 finish with explicit holds; the whole paper is not numerically reproduced.

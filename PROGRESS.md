@@ -2,7 +2,34 @@
 
 **Update this before stopping work, every session.**
 
-## Wagner pre-RQ evidence checkpoint — 4 October 2026
+## Wagner pre-derivation review — 4 October 2026
+
+The [review](Research%20Article/gate2_W1_wagner_th17_autoimmunity/pre_rq_review/README.md)
+assesses the completed evidence at `aa99cd1`, on scoped branch
+`codex/wagner-continuation-20261004`. Main was freshly checked at `a5d4183`.
+All A0–A27 titles were screened, with focused current-evidence review of the
+13 closest dossiers. P05 overlaps A1/A8/A14/A19; the other mapped links are
+conditional biological joins or methodological analogies, not adopted mergers.
+
+Six extension options are specified with unit, endpoint, rival and failure
+interpretation. E1/E2 have local bulk-RNA inputs; E3 needs GPR mapping qualification;
+E4 is held on ATAC/runtime inputs; E5/E6 need exact linked biological comparisons.
+The source update adds Hu/Wu intercellular-metabolism precedents, HIVEP1/ALDH5A1
+abstract-level leads and lung JMJD3 boundaries. It records a 2023 PLOS figure
+correction and possible, unconfirmed overlap between SLE recruitment cohorts.
+No numerical outputs, contracts, scripts, figures, canonical hypotheses, claim
+grades or human decisions changed. No RQ was derived or registered.
+
+Next: use this review before final derivation; resolve source gaps for any
+mechanism adopted, specify P05/P06 tuples, and freeze a new exposed contract before
+an analytical extension. Existing R2/R4/R5 holds remain. Laboratory resources,
+physical sample independence and external protection settings are unestablished.
+Documentation validation passed 9,885 repository checks and the research gate
+against refreshed main with zero errors; unchanged scientific checks were reused.
+Details are recorded in the package validation file. No push,
+PR, merge, external message or laboratory work; other checkout changes preserved.
+
+## Historical Wagner pre-RQ evidence checkpoint — 4 October 2026
 
 Active branch/worktree: `codex/wagner-continuation-20261004` at
 `X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`.

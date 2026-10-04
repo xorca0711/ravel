@@ -1,5 +1,7 @@
 # Six-branch precedent review — 4 October 2026
 
+**Subsequent source update:** see [the pre-derivation literature update](pre_rq_review/LITERATURE_UPDATE.md) for Hu/Wu, HIVEP1, ALDH5A1, lung JMJD3, a 2023 figure correction, possible SLE cohort overlap and exact access limits. The earlier full-paper work below remains valid within its stated scope.
+
 This continues the interrupted review after planning commit `1527bea`.
 Published-source interpretation is separated from the repository's
 [first metadata result](RESULTS.md). All six branches remain proposed; this
