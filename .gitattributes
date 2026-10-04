@@ -168,3 +168,8 @@ analysis/tests/test_rochelle_metadata_v1.py -text whitespace=cr-at-eol
 "Research Article/gate2_W1_wagner_th17_autoimmunity/config/**" -text whitespace=cr-at-eol
 analysis/research/runs/wg_source_qualification_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wg_source_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve immutable Wagner numerical and figure run bytes.
+analysis/research/runs/wg_source_scores_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_source_scores_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_figures_v1/** -text whitespace=cr-at-eol
