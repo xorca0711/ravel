@@ -1,6 +1,6 @@
 # Agent entry point
 
-Updated 3 October 2026. Read [AGENTS.md](AGENTS.md),
+Updated 4 October 2026. Read [AGENTS.md](AGENTS.md),
 [current state](PROGRESS.md) and [research governance](docs/RESEARCH_GOVERNANCE.md).
 This file is navigation, not another scientific status register.
 
@@ -20,6 +20,9 @@ This file is navigation, not another scientific status register.
   [Nb5 scientific review and routing](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
   registers proposed A24–A27 and an A3 extension, while retaining supporting
   article branches. Human acceptance and execution qualification remain pending.
+- [Wagner Th17/Compass package](Research%20Article/gate2_W1_wagner_th17_autoimmunity/README.md)
+  records owner reading on 4 October, source-grounded reproduction planning and
+  six unrun article-local branches. Wg is separate from Niethamer W1; no global RQ added.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
 - [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md)

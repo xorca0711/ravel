@@ -2,6 +2,39 @@
 
 **Update this before stopping work, every session.**
 
+## Wagner Th17 reproduction structure - 4 October 2026
+
+Fetched main at `a5d41834395cac0b82b488d48759ceb6fab8f2d5` (PR #136 merged).
+Created isolated `codex/wagner-th17-plan`; the primary checkout remains
+`codex/workspace-ready` at `76dc9b4`, with its two reported metadata-file edits
+and private `.claude/` content preserved. No prior worktree or ignored input was
+retired, moved or reset.
+
+The owner finished paper 15. The [Wagner package](Research%20Article/gate2_W1_wagner_th17_autoimmunity/README.md)
+contains PDF/handmade-note reconciliation, a figure-to-endpoint map, GEO source
+catalogue, staged reproduction plan, six candidate cards and a bounded current
+literature/neighbor comparison. Wg-R01 and Wg-P01-P06 are article-local;
+A0-A27, claim grades, source outputs, contracts and receipts remain unchanged.
+The paper roadmap now records only paper 15's completed reading. Private planning
+pages were read for context and not copied or edited.
+
+No numerical reproduction or biological analysis ran. Source inspection identified
+the intended 290 sorted cells in GSE75109/GSE75111 and three 2021 bulk/ATAC child
+series; listed libraries are not independent animals. Direct GEO text retrieval
+succeeded after browser challenges. The full historical runtime, exact input
+matrix, numerical supplements and biological-unit joins remain unqualified.
+
+Next: implement/freeze an R0 metadata contract, acquire/hash the pinned author
+example and exact sample maps, then qualify source-output Figures 2C/2E before
+a full Compass rerun. Qualify bulk RNA/ATAC separately. Keep the six branches
+available without selecting a preferred RQ. CPLEX runtime/license, actual lab
+access and server protection settings remain unconfirmed. Local validation
+results and final integration-base check belong in the package's
+[validation record](Research%20Article/gate2_W1_wagner_th17_autoimmunity/VALIDATION.md).
+All ten required local check groups passed (9,572 repository validations,
+18 claim bindings, 143 tests with one skip). The final fetch retained `a5d4183`;
+only this local branch is being delivered, with no push, PR, merge or Notion edit.
+
 ## Current literature-context and schematic integration — 3 October 2026
 
 Remote main `82e749a` was refreshed. Work is isolated on
