@@ -663,7 +663,8 @@
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json",
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json",
-    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json"
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -697,7 +698,8 @@
     "analysis/research/runs/wg_source_scores_v2/receipt.json",
     "analysis/research/runs/wg_source_scores_v3/receipt.json",
     "analysis/research/runs/wg_figures_v1/receipt.json",
-    "analysis/research/runs/wg_figures_v2/receipt.json"
+    "analysis/research/runs/wg_figures_v2/receipt.json",
+    "analysis/research/runs/wg_bulk_qualification_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

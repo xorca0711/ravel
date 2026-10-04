@@ -184,3 +184,7 @@ analysis/research/runs/wg_figures_v1/CAPTIONS.md whitespace=cr-at-eol,-blank-at-
 
 analysis/research/runs/wg_bulk_qualification_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wg_bulk_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+
+analysis/research/runs/wg_bulk_paired_descriptive_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wg_bulk_paired_descriptive_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wg_bulk_paired_descriptive_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
