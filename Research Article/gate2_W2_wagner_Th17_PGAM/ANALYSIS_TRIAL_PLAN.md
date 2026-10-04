@@ -64,7 +64,8 @@ start Wp-R1 before Wp-R0's receipt exists, because the condition labels that
 every single-cell endpoint depends on are exactly what Wp-R0 qualifies.
 
 **Known external blockers:** no Gurobi licence (Wp-R2); no numeric assay data
-(Wp-R5); no animal field in the bulk deposit and one animal per single-cell
-condition cell (no stage can reach population inference from the mouse data);
-supplementary tables missing (every signature is a reconstruction). None of these
-is resolvable by more analysis.
+(Wp-R5); no animal field in the bulk deposit, and only two animals in the
+single-cell deposit even though they are crossed with every condition, so no
+stage can reach population inference from the mouse data; supplementary tables
+missing (every signature is a reconstruction). None of these is resolvable by
+more analysis.

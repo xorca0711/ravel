@@ -14,8 +14,9 @@ about biology.
   as a hold rather than worked around.
 - Two documentation problems were found by reading, not by computation: the
   pathogenicity-score **sign** is stated one way in Results and the opposite way
-  in STAR Methods, and the human cohort is described as five-versus-five while
-  the deposit resolves to six donors per group. Both are recorded in
+  in STAR Methods, and the reused human deposit's own overall-design field claims
+  a five-versus-five cohort while its sample records resolve to six donors per
+  group. Both are recorded in
   [Evidence map](EVIDENCE_MAP.md#what-is-not-available) and
   [Datasets](DATASETS.md#human-reuse-cohort). Neither is resolved here.
 

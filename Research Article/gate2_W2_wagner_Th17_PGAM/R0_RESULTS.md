@@ -15,7 +15,7 @@ to a published figure, and nothing here supports population inference.
 |---|---|
 | Sample records | 8 |
 | Animal labels | `Mo1`, `Mo2` |
-| Condition combinations | Th17n and Th17p × 1 mM and 25 mM glucose |
+| Condition combinations | Th17n and Th17p × 1 mM and 25 mM glucose, fully crossed: both animals in all four, two libraries each |
 | Per-sample supplementary matrices | 0 |
 | Barcodes in the deposited aggregated matrix | 19,203, all unique |
 | Aggregation suffixes | 8 (`-1` … `-8`), with 2,890 / 2,676 / 2,147 / 2,583 / 1,595 / 2,502 / 2,077 / 2,733 barcodes |
@@ -57,15 +57,16 @@ normalised data rather than counts.
 
 This is the only donor-level unit available anywhere in the paper, which is why
 Wp-R4 is worth running despite transporting an exposed signature. It also
-contradicts the published description of a five-versus-five design; the
+contradicts GSE138266's own overall-design field, which claims a five-versus-five
+design with two samples per donor; the Wang text makes no such claim. The
 discrepancy is recorded in [Datasets](DATASETS.md#human-reuse-cohort) and the
-population is defined from the deposit.
+population is defined from the sample records.
 
 ## Stage eligibility decided by this run
 
 | Stage | Status | Binding reason |
 |---|---|---|
-| Wp-R1 single cell | eligible, descriptive only | suffix-to-GSM order undeclared; labels must be derived; 2 animals, one per condition cell |
+| Wp-R1 single cell | eligible, descriptive only | suffix-to-GSM order undeclared, so labels must be derived; 2 animals crossed with all four conditions, two libraries per condition |
 | Wp-R2 Compass | blocked, external | no solver licence; the published run's imputed input and fitted model are not deposited |
 | Wp-R3 bulk | eligible, descriptive only | clean join, but TPM-only and no animal field |
 | Wp-R4 human | eligible, descriptive only | donor unit exists; CD4 identity, pseudobulk rule and covariates must be re-derived or stay unknown |

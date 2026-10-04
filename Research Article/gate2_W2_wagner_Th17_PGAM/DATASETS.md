@@ -36,11 +36,14 @@ condition-contrasting endpoints instead of being assigned by majority vote.
 
 ## Units, and what cannot be claimed with them
 
-- **Single cell:** cells are nested in 2 animals and 8 libraries. One animal per
-  condition cell. No condition contrast in this deposit can support population
-  inference; a cell-wise p value here describes the libraries, not mice. The
-  published p < 10⁻³³ for the glucose effect on the pathogenicity score is a
-  cell-wise statistic of exactly this kind.
+- **Single cell:** cells are nested in 8 libraries from 2 animals, and the
+  design is **fully crossed** — both `Mo1` and `Mo2` contribute to all four
+  cell-type-by-glucose conditions, two libraries per condition. Animal is
+  therefore not confounded with condition, and a within-animal paired contrast
+  across glucose or differentiation does exist; with n = 2 it cannot support
+  population inference. A cell-wise p value here describes the libraries, not
+  mice: the published p < 10⁻³³ for the glucose effect on the pathogenicity
+  score is a cell-wise statistic of exactly this kind.
 - **Bulk:** five libraries per group with no animal field. The paper states
   3–6 biological replicates per in-vitro group and 2–3 mice per RNA-seq group,
   so some of these five are plausibly separate mice and some plausibly split
@@ -60,12 +63,16 @@ condition-contrasting endpoints instead of being assigned by majority vote.
 
 ## Human reuse cohort
 
-The text describes the reused cohort as a five-versus-five case-control design
-with two samples per donor; the deposit resolves to 6 MS and 6 control donor
-codes with 22 samples, because one donor in each group contributes CSF only. The
-paper may be describing the subset that passed its own CD4 filtering, which is
-not deposited. Record the discrepancy and define the Wp-R4 population from the
-deposit, not from the sentence.
+The discrepancy here is **internal to the reused deposit**, not something the
+Wang text asserts: that paper only says it reanalysed a previously published
+dataset of blood and CSF from MS patients and an idiopathic-intracranial-hypertension
+control cohort. GSE138266's own `!Series_overall_design` field describes a
+five-versus-five case-control design with two samples per donor, which would give
+20 samples; its sample records resolve to 6 MS and 6 control donor codes with 22
+samples, because one donor in each group contributes CSF only. Define the Wp-R4
+population from the sample records, not from either summary sentence, and note
+that neither tells us which donors passed the published CD4 filtering, which is
+not deposited.
 
 No donor characteristic field exists: donor identity is recovered from sample
 titles (`MS19270_CSF`, `MS19270_PBMC`, …). Age, sex, treatment status and disease

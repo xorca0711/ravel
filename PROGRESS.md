@@ -14,9 +14,9 @@ off main `9a49d26a`. The package is paper **17**, Gate **2W** item **W2**, with
 executed and verified under the runner (receipt `wp_source_qualification_v1`), and
 every endpoint was recomputed by a second route with all twelve comparisons
 agreeing. What the deposits actually contain: GSE289733 is one pre-QC aggregated
-matrix of 19,203 barcodes × 31,053 genes for 8 libraries from 2 animals, and the
-suffix-to-GSM order is **not declared**, so single-cell condition labels must be
-re-derived; GSE290297 joins 79 libraries one-to-one to 79 TPM columns over 20,465
+matrix of 19,203 barcodes × 31,053 genes for 8 libraries from 2 animals crossed
+with all four conditions (two libraries each), and the suffix-to-GSM order is
+**not declared**, so single-cell condition labels must be re-derived; GSE290297 joins 79 libraries one-to-one to 79 TPM columns over 20,465
 genes with **no animal field** and no counts; GSE138266 gives 12 donor codes
 (6 MS, 6 control, 10 with paired CSF and blood), the only donor-level unit in the
 paper. Stage eligibility: Wp-R1, Wp-R3 and Wp-R4 eligible descriptively; Wp-R2
@@ -34,8 +34,9 @@ metabolism. Same enzyme, same phenotypic direction, opposite mechanism.
 Two source problems are recorded, not resolved: the pathogenicity score's sign is
 stated one way in Results and the opposite way in STAR Methods (the same conflict
 the [2021 package](Research%20Article/gate2_W1_wagner_th17_autoimmunity/HANDOFF_2026-10-04.md)
-already holds open), and the human cohort is described as five-versus-five while
-the deposit resolves to six donors per group.
+already holds open), and the reused human deposit's own overall-design field
+claims a five-versus-five cohort while its sample records resolve to six donors
+per group — the deposit's discrepancy, not a claim in the Wang text.
 
 Next: obtain supplementary tables S1 and S3–S6 — absent from the supplied
 supplement, so every later signature is currently a reconstruction from the cited

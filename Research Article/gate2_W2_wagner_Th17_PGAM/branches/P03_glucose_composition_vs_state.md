@@ -52,8 +52,9 @@ cluster-boundary rival is visible rather than assumed away.
 
 ## Unit, endpoint, limit
 
-Unit: cells within 8 libraries from **2 animals**, one animal per condition cell.
-This caps the result at descriptive — there is no between-animal test available,
+Unit: cells within 8 libraries from **2 animals**, crossed so that both animals
+appear in all four conditions with two libraries each. A within-animal paired
+contrast is therefore available, but at n = 2 it caps the result at descriptive,
 and the published cell-wise p value has the same ceiling. Endpoint: the
 composition and within-state terms as proportions of the total score difference,
 reported per library so that library-to-library consistency is visible. Limit: a
