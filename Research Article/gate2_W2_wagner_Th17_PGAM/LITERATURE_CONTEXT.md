@@ -28,6 +28,30 @@ because the two entries that matter most — Toriyama and Godfrey — are each p
 concordant and partly contradictory, and splitting them into "support" and
 "contradiction" would misrepresent both.
 
+## Two citation checks prompted by the owner's notes
+
+The owner's Discussion note repeats the source's proposed mechanism chain —
+glycolysis blockade, cellular stress, TGF-β, PGAM — and asks for the connection
+between serine biosynthesis, cellular stress and Th17 pathogenicity. Checking the
+two references that chain rests on, at **abstract level only**, 4 October 2026:
+
+- [Brucklacher-Waldert et al. 2017](https://doi.org/10.1016/j.celrep.2017.05.052)
+  (PMID 28614720) is cited for 2-DG promoting Th17 effector function "by
+  activating cellular stress transforming growth factor (TGF)-ß signaling
+  networks". Its own title and abstract state that cell stress in an inflammatory
+  environment supports Th17 differentiation **in the absence of** TGF-β
+  signalling. The citing sentence and the cited abstract characterise TGF-β's
+  role differently.
+- [Huang et al. 2019](https://doi.org/10.1016/j.cmet.2019.09.014) (PMID 31607564)
+  is cited for PGAM being essential for TGF-β signalling in cancer cells. It is an
+  allosteric PGAM1-inhibitor study in non-small-cell lung cancer, and its abstract
+  does not mention TGF-β.
+
+Neither full text was read, so neither check refutes anything. Both mean the
+TGF-β leg is an **unverified premise**, which is how
+[Wp-P02](branches/P02_serine_one_carbon_direction.md) now carries it. Reading the
+two full texts is the cheapest next literature action in this package.
+
 ## Repository observation
 
 Nothing has been computed in this package. Wp-R0's entrypoint has been dry-run

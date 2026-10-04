@@ -3,6 +3,13 @@
 **Status:** proposed, outcome-exposed. Transport of an exposed signature with a
 competing explanation in the same model.
 
+**Owner's framing, 4 October 2026.** The Results note marks the two-module result
+in MS with "Verification? And extensions?" — and reads it, correctly, as a higher
+activation level spanning multiple T-helper programs. That reading is the rival
+this card puts into the model rather than into a caveat, so the note's question
+and the card's design are the same thing. See
+[note reconciliation](../NOTE_RECONCILIATION.md#the-owners-own-marked-questions-and-where-each-one-lives).
+
 ## Proposition, stated so it can fail
 
 In donor-level CD4 pseudobulk from MS and control cerebrospinal fluid and blood,

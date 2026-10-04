@@ -3,6 +3,14 @@
 **Status:** proposed, outcome-exposed. Model discrimination between two published
 directions. This is the highest-information candidate in the package.
 
+**Scope note, 4 October 2026.** The owner's Discussion note marks the open
+question as the connection between *serine biosynthesis, cellular stress
+(TGF-β) and Th17 pathogenicity* — the same three-way question the source's own
+Discussion closes on. This card originally covered only the serine arm. The
+stress and TGF-β leg is added below as a **separate, weaker arm**, because its
+cited support does not survive an abstract-level check; see
+[note reconciliation](../NOTE_RECONCILIATION.md#source-checks-on-the-notes-content).
+
 ## The conflict
 
 Both statements are published, and they point opposite ways.
@@ -68,6 +76,35 @@ inhibition *reverses* the PGAM-inhibition phenotype; the Compass reading predict
 it does not, or deepens it. One two-by-two factorial with a labelling arm
 separates them, and it is a culture experiment, not an animal study.
 
+## The second arm: cellular stress and TGF-β
+
+The source proposes a molecular link — PGAM is said to be essential for TGF-β
+signalling in cancer cells, and glycolysis blockade with 2-DG is said to promote
+Th17 effector function by activating cellular-stress TGF-β signalling networks —
+and concludes that the PGAM, serine, stress and pathogenicity connection needs
+further study. Before that chain is used as a premise, two things must be true,
+and at abstract level neither is established:
+
+1. The stress study cited for the 2-DG effect reports that cell stress supports
+   Th17 differentiation **in the absence of** TGF-β signalling, which is not the
+   same claim as TGF-β networks being activated.
+2. The reference cited for PGAM's role in TGF-β signalling is an allosteric
+   PGAM1-inhibitor study in non-small-cell lung cancer whose abstract does not
+   mention TGF-β.
+
+Neither full text was read in this pass, so this is a **flag, not a refutation**.
+The consequence for the design is concrete: the stress arm cannot be entered as
+an assumed mechanism. The cheap first step is to read both full texts and record
+what each actually measured; only then is a stress readout worth adding. If it
+is, the measurable form in deposited data is an integrated-stress-response and
+TGF-β-target module (for example *Atf4, Ddit3, Trib3, Sesn2, Eif4ebp1* against
+*Smad7, Skil, Serpine1, Tgfb1*) scored per cell within library and compared
+across the glucose arms, where the low-glucose condition is itself a nutrient
+stressor. That is an association, and it cannot separate stress-driven TGF-β
+signalling from TGF-β-independent stress effects — which is precisely why the
+decisive version is a perturbation with a signalling readout (phospho-SMAD2/3 or
+a TGF-β reporter) rather than another transcript module.
+
 ## Decision this would inform
 
 Whether PGAM is a candidate target because of what it *removes* (2PG and
@@ -89,6 +126,8 @@ whether the wet experiment is worth running.
 ## Stop condition
 
 Freeze the module gene list, the covariates and the within-library design before
-looking at any association. If the association is inconsistent in sign across
+looking at any association. The stress arm does not open at all until the two
+cited full texts are read and what they measured is recorded; a stress module
+scored first and justified afterwards is exactly the move this card refuses. If the association is inconsistent in sign across
 libraries, report it as inconclusive and stop; do not add conditions, change the
 module or pool libraries until a sign appears.

@@ -34,6 +34,7 @@ FOXP3/SGK1-high, least pathogenic Th17n program N1.
 | Document | Purpose |
 |---|---|
 | [Wp-R0 result](R0_RESULTS.md) | What the deposits contain, the stage eligibility it decided and its independent check |
+| [Note reconciliation](NOTE_RECONCILIATION.md) | The owner's two Notion notes against the source: where each marked question is specified, and what the notes' shorthand should not be read as |
 | [Evidence map](EVIDENCE_MAP.md) | What each figure measures, what can be reproduced and the interpretation limit |
 | [Datasets](DATASETS.md) | Verified deposit inventory, units, joins and the unresolved aggregation order |
 | [Source manifest](SOURCE_MANIFEST.md) | Exact files, URLs, bytes, SHA-256 and what is missing |
@@ -80,7 +81,10 @@ The next intellectual step is **not** more scores: it is deciding between the
 paper's serine-shunt direction and the opposite direction reported for Tregs by
 [Godfrey et al. 2025](LITERATURE_CONTEXT.md#directional-conflict-on-the-serine-arm).
 That contrast is the reason this package is worth executing, and it is specified
-as [Wp-P02](branches/P02_serine_one_carbon_direction.md).
+as [Wp-P02](branches/P02_serine_one_carbon_direction.md), whose second arm —
+cellular stress and TGF-β — comes from the owner's own Discussion note and from
+the source's closing sentence, with the TGF-β leg flagged as an unverified
+premise in the [note reconciliation](NOTE_RECONCILIATION.md).
 
 [Governance](../../docs/RESEARCH_GOVERNANCE.md) and the
 [literature workflow](../../docs/LITERATURE_WORKFLOW.md) govern execution. No

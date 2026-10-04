@@ -2,6 +2,12 @@
 
 **Status:** proposed, outcome-exposed. Decomposition of a published aggregate.
 
+**Owner's framing, 4 October 2026.** The Discussion note marks this as "a role
+for PGAM in maintaining a niche pro-regulatory state in Th17n cells?" The
+decomposition below is the measurable form of *maintaining*: a maintenance claim
+needs the N1 population to persist, not merely the condition average to move.
+See [note reconciliation](../NOTE_RECONCILIATION.md#the-owners-own-marked-questions-and-where-each-one-lives).
+
 ## Proposition, stated so it can fail
 
 The higher Th17n pathogenicity score under 1 mM glucose is produced mainly by a

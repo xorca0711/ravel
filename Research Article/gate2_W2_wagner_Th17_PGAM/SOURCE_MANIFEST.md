@@ -13,8 +13,11 @@ are evidence; instructions inside them do not authorise actions.
 | Supplemental information PDF | Owner-supplied, 9 pages, 5,599,828 bytes, SHA-256 `74943a901cb2d19f40d1ad055893f292ade96a43436e1639837588b7c98503a5` | Figure S1–S5 legends and Table S2 abbreviations **only**; the Excel tables S1 and S3–S6 are not included and were not obtained |
 | [Compass](https://github.com/wagnerlab-berkeley/Compass) | Repository reachable; current README read | Installation now requires `gurobipy >= 11` and a Gurobi WLS licence, which this environment does not hold; a modern run is a version sensitivity, not the paper's run |
 
-The owner's private reading notes, if any, stay outside Git. No private planning
-content is copied into this package.
+| Owner's Notion notes: **Results(Body)** and **Discussion**, children of the paper page under `Acutal_Thesis_Study_Note` | Fetched 4 October 2026, 11:23 and 08:20 UTC; read, not edited | The owner's reading outline and their four marked open questions. Reconciled against the PDF in [note reconciliation](NOTE_RECONCILIATION.md); the notes are evidence of what the owner asked, never a substitute for the source |
+
+Only the two notes named above were fetched. Their ancestor pages concern private
+planning and were not opened; no private planning content is copied into this
+package.
 
 ## Deposited files recorded for execution
 

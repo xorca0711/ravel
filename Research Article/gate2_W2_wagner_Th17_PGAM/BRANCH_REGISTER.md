@@ -1,6 +1,9 @@
 # Article-local development branches
 
-All six entries are **proposed and outcome-exposed**, 4 October 2026. They are
+All six entries are **proposed and outcome-exposed**, 4 October 2026. Four of them
+carry a question the owner marked in their own reading notes; the
+[note reconciliation](NOTE_RECONCILIATION.md#the-owners-own-marked-questions-and-where-each-one-lives)
+maps each marked passage to its card. They are
 registered for navigation and future contract ownership, not as accepted
 questions, and none is ranked as preferred. Wp-R01 owns
 [source reproduction](REPRODUCTION_SCOPE.md). The existing A0–A27 questions
@@ -9,7 +12,7 @@ remain available and unchanged; nothing here allocates a global A identifier.
 | Candidate | Question and contribution | Unit and endpoint | Current gate |
 |---|---|---|---|
 | [Wp-P01](branches/P01_score_construction.md) | Is the pathogenicity ranking a property of the cells or of how the score was built? Measurement validation | Cells within library; score arms and their gene-list sensitivity | Needs Wp-R1; module lists substituted |
-| [Wp-P02](branches/P02_serine_one_carbon_direction.md) | Does the 3PG serine arm run with or against the regulatory program? Model discrimination against an independent 2025 result | Cells within library for RNA; the discriminating experiment needs cultures and animals | Needs Wp-R1/R3; direction conflict stated in the literature context |
+| [Wp-P02](branches/P02_serine_one_carbon_direction.md) | Does the 3PG serine arm run with or against the regulatory program, and does cellular stress or TGF-β belong in the chain? Model discrimination against an independent 2025 result | Cells within library for RNA; the discriminating experiment needs cultures and animals | Needs Wp-R1/R3; direction conflict stated in the literature context, stress arm held pending two full texts |
 | [Wp-P03](branches/P03_glucose_composition_vs_state.md) | Is the low-glucose pathogenicity shift composition or within-state change? Decomposition of a published aggregate | Cells within 8 libraries, 2 animals; within-cluster score versus cluster proportion | Needs Wp-R1; two animals cap this at descriptive |
 | [Wp-P04](branches/P04_endpoint_class_dependence.md) | Which endpoint class does PGAM inhibition actually move — RNA program, secreted protein, or disease? Endpoint separation | Culture for protein, animal for disease; no deposited values | Blocked for reanalysis; usable as a design constraint |
 | [Wp-P05](branches/P05_human_signature_activation.md) | Does the EGCG/N1 signature separate MS from control donors beyond generalised T-cell activation? Transport with a competing explanation | Donor, paired across tissue where available | Needs Wp-R4; signature exposed |

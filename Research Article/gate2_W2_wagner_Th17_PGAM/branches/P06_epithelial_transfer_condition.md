@@ -5,6 +5,16 @@ exists to state the conditions under which the transfer would become a question,
 and to prevent an unqualified metabolic score from being imported into the lung
 questions.
 
+**Owner's framing, 4 October 2026.** The Discussion note closes by asking whether
+within-pathway opposition "may be applied to universal context? other cells,
+subsets?" That question splits in two, and only the second half belongs here: the
+*general* claim that reactions in one pathway can act in opposing directions is
+already owned by [Wg-P02](../../gate2_W1_wagner_th17_autoimmunity/branches/P02_reaction_heterogeneity.md),
+for which this paper is a worked instance; the *transfer to a specific other
+compartment* is this card, and it stays conditional. Generalisation is earned by
+repeating the reaction-level analysis in a compartment that has its own
+functional endpoint, not by scoring more datasets.
+
 ## The tempting inference, and why it is not yet a question
 
 This paper shows that one reaction inside glycolysis can run against the
