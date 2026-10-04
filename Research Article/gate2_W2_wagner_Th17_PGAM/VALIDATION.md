@@ -60,11 +60,11 @@ What the dry run confirmed:
 
 ## Not done
 
-- **Nothing has run under the governed runner.** No receipt, no registered
-  output, no results report. The contract
-  [config/source_qualification_v1.json](config/source_qualification_v1.json) is
-  frozen but its execution and registration are the next step in the
-  [plan](ANALYSIS_TRIAL_PLAN.md#before-the-first-substantive-run).
+- **Only Wp-R0 has run under the governed runner**, on 4 October 2026: contract
+  frozen and committed, receipt verified with no errors, outputs and receipt
+  registered, and every endpoint recomputed by a second route with all twelve
+  comparisons agreeing. See the [result](R0_RESULTS.md). Wp-R1 to Wp-R5 have no
+  contract and have not run.
 - No expression value from any deposit has been read, so no statement in this
   package is a numerical reproduction of any published panel.
 - Compass was not installed or run. Its current repository requires a Gurobi

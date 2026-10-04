@@ -1,7 +1,8 @@
 # Wp-R01: staged source reproduction
 
-**Status:** specified, not executed. Wp-R0 has a drafted contract and a dry-run
-entrypoint; Wp-R1 to Wp-R5 are specified here and have no contract yet.
+**Status:** [Wp-R0 executed 4 October 2026](R0_RESULTS.md) under the governed
+runner, with a verified receipt. Wp-R1 to Wp-R5 are specified here and have no
+contract yet; Wp-R0's result decided which of them may open.
 
 **Decision this ladder serves:** which of the paper's findings can be
 reconstructed from what was deposited, at which evidential level, before any of
@@ -26,6 +27,8 @@ expression value is read.
 explicit `unresolved` marker where they do not, and a stage eligibility table.
 Entrypoint [scripts/qualify_sources_v1.py](scripts/qualify_sources_v1.py),
 contract [config/source_qualification_v1.json](config/source_qualification_v1.json).
+**Done:** see the [result](R0_RESULTS.md) and its
+[receipt](../../analysis/research/runs/wp_source_qualification_v1/receipt.json).
 
 ## Wp-R1: single-cell reconstruction
 

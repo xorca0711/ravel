@@ -1,0 +1,6 @@
+stage,target,status,reason
+Wp-R1,single-cell signature and state reproduction,eligible_descriptive,"the aggregated matrix carries 8 suffixes for 8 declared libraries and 0 per-sample matrices; the deposit states no suffix-to-GSM order, so condition labels must be re-derived. Animal labels present: Mo1, Mo2"
+Wp-R2,Compass reaction scores,blocked_external,"Compass needs a solver licence, and the published run used scVI-imputed input with lambda 0 and no meta-reactions; neither the fitted model nor the imputed matrix is deposited"
+Wp-R3,bulk EGCG and DHEA contrasts,eligible_descriptive,"79 matrix columns against 79 sample records with 0 unmatched; the deposit supplies TPM only and no animal field, so the library is the only verifiable unit"
+Wp-R4,human MS signature transport,eligible_descriptive,"22 sample records resolve to 12 donor codes recovered from sample titles (10 with both tissues); donors are the unit, but CD4 identity, pseudobulk construction and any clinical covariate must be re-derived or remain unknown"
+Wp-R5,"flow cytometry, 13C tracing, Legendplex, EAE and histology",blocked_no_deposit,no numerical assay values are deposited for these panels; only figure images exist

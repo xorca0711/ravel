@@ -1,0 +1,189 @@
+{
+  "bulk": {
+    "animal_labels": [],
+    "design_counts": {
+      "Th17n|DHEA|Div.1": 5,
+      "Th17n|DHEA|Total": 5,
+      "Th17n|DMSO|Div.1": 5,
+      "Th17n|DMSO|Total": 5,
+      "Th17n|EGCG|Div.1": 5,
+      "Th17n|EGCG|Total": 5,
+      "Th17n|Methanol|Div.1": 5,
+      "Th17n|Methanol|Total": 5,
+      "Th17p|DHEA|Div.1": 5,
+      "Th17p|DHEA|Total": 5,
+      "Th17p|DMSO|Div.1": 4,
+      "Th17p|DMSO|Total": 5,
+      "Th17p|EGCG|Div.1": 5,
+      "Th17p|EGCG|Total": 5,
+      "Th17p|Methanol|Div.1": 5,
+      "Th17p|Methanol|Total": 5
+    },
+    "n_genes_in_matrix": 20465,
+    "n_matrix_columns": 79,
+    "n_sample_records": 79,
+    "unmatched_joins": [],
+    "value_scale": "TPM as deposited; no estimated or raw counts"
+  },
+  "human": {
+    "design_counts": {
+      "Multiple Sclerosis|Cerebrospinal fluid": 6,
+      "Multiple Sclerosis|peripheral blood mononuclear cell": 5,
+      "idiopathic intracranial hypertension|Cerebrospinal fluid": 6,
+      "idiopathic intracranial hypertension|peripheral blood mononuclear cell": 5
+    },
+    "donor_id_source": "recovered from sample titles; the deposit declares no donor characteristic field",
+    "donors_per_disease": {
+      "Multiple Sclerosis": 6,
+      "idiopathic intracranial hypertension": 6
+    },
+    "donors_with_both_tissues": 10,
+    "n_donor_codes": 12,
+    "n_sample_records": 22
+  },
+  "inputs_verified": [
+    {
+      "bytes": 79717,
+      "file": "GSE138266_samples.soft.txt",
+      "match": true,
+      "observed_sha256": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+      "recorded_sha256": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138266&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 3351,
+      "file": "GSE138266_series.soft.txt",
+      "match": true,
+      "observed_sha256": "afae83112c6dae4902e9c02b20e9d6d2945f3bf02c9f01aa359ff27c58b251e6",
+      "recorded_sha256": "afae83112c6dae4902e9c02b20e9d6d2945f3bf02c9f01aa359ff27c58b251e6",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138266&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 102321,
+      "file": "GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+      "match": true,
+      "observed_sha256": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+      "recorded_sha256": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE289nnn/GSE289733/suppl/GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz"
+    },
+    {
+      "bytes": 279361,
+      "file": "GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+      "match": true,
+      "observed_sha256": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+      "recorded_sha256": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE289nnn/GSE289733/suppl/GSE289733_filtered_feature_bc_matrix_features.tsv.gz"
+    },
+    {
+      "bytes": 16160,
+      "file": "GSE289733_samples.soft.txt",
+      "match": true,
+      "observed_sha256": "ec0db0447c9f99d005eba594ab59c0d34732f8e2afbe7bb0569cc7df03886638",
+      "recorded_sha256": "ec0db0447c9f99d005eba594ab59c0d34732f8e2afbe7bb0569cc7df03886638",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289733&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 2628,
+      "file": "GSE289733_series.soft.txt",
+      "match": true,
+      "observed_sha256": "20adca92a1ebeda014ed492da920ccecfb6dbff3fc21ec121b463e9acbd1ea98",
+      "recorded_sha256": "20adca92a1ebeda014ed492da920ccecfb6dbff3fc21ec121b463e9acbd1ea98",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289733&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 5345399,
+      "file": "GSE290297_collected_inhibitors_tpm_4geo.csv.gz",
+      "match": true,
+      "observed_sha256": "2d62d1a0ac7fd0145089efe92a02ef3a8fcaff38516289fb61f727c508f99c86",
+      "recorded_sha256": "2d62d1a0ac7fd0145089efe92a02ef3a8fcaff38516289fb61f727c508f99c86",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE290nnn/GSE290297/suppl/GSE290297_collected_inhibitors_tpm_4geo.csv.gz"
+    },
+    {
+      "bytes": 171351,
+      "file": "GSE290297_samples.soft.txt",
+      "match": true,
+      "observed_sha256": "f138b1636c252374abe6ad7df263dd80a07adce7aeb2a22ff63ed53cfee4bdbe",
+      "recorded_sha256": "f138b1636c252374abe6ad7df263dd80a07adce7aeb2a22ff63ed53cfee4bdbe",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290297&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 4310,
+      "file": "GSE290297_series.soft.txt",
+      "match": true,
+      "observed_sha256": "a780dd781aa1413b34a62de7c1aadd7990800c24b4bb4ec38226321a9932f322",
+      "recorded_sha256": "a780dd781aa1413b34a62de7c1aadd7990800c24b4bb4ec38226321a9932f322",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE290297&targ=self&form=text&view=full"
+    }
+  ],
+  "interpretation_limit": "Source identity and design inventory only. Nothing here establishes independent biological replication, metabolic flux, protein-level effects or agreement with the published figures.",
+  "schema": "wp_r0_source_qualification/v1",
+  "series": {
+    "GSE138266": "human MS/control blood and CSF leukocytes, reused by the source paper",
+    "GSE289733": "single-cell RNA-seq, Th17n/Th17p at 25 mM and 1 mM glucose",
+    "GSE290297": "population RNA-seq, Th17n/Th17p with EGCG, DHEA and solvent controls"
+  },
+  "single_cell": {
+    "animal_labels": [
+      "Mo1",
+      "Mo2"
+    ],
+    "barcodes_per_suffix": {
+      "1": 2890,
+      "2": 2676,
+      "3": 2147,
+      "4": 2583,
+      "5": 1595,
+      "6": 2502,
+      "7": 2077,
+      "8": 2733
+    },
+    "conditions": [
+      "Th17n|1mM",
+      "Th17n|25mM",
+      "Th17p|1mM",
+      "Th17p|25mM"
+    ],
+    "feature_types": {
+      "Gene Expression": 31053
+    },
+    "n_aggr_suffixes": 8,
+    "n_barcodes_in_aggregated_matrix": 19203,
+    "n_features": 31053,
+    "n_sample_records": 8,
+    "n_unique_barcodes": 19203,
+    "per_sample_supplementary_matrices": 0,
+    "suffix_to_gsm_mapping": "not stated in the deposit"
+  },
+  "stage_eligibility": [
+    {
+      "reason": "the aggregated matrix carries 8 suffixes for 8 declared libraries and 0 per-sample matrices; the deposit states no suffix-to-GSM order, so condition labels must be re-derived. Animal labels present: Mo1, Mo2",
+      "stage": "Wp-R1",
+      "status": "eligible_descriptive",
+      "target": "single-cell signature and state reproduction"
+    },
+    {
+      "reason": "Compass needs a solver licence, and the published run used scVI-imputed input with lambda 0 and no meta-reactions; neither the fitted model nor the imputed matrix is deposited",
+      "stage": "Wp-R2",
+      "status": "blocked_external",
+      "target": "Compass reaction scores"
+    },
+    {
+      "reason": "79 matrix columns against 79 sample records with 0 unmatched; the deposit supplies TPM only and no animal field, so the library is the only verifiable unit",
+      "stage": "Wp-R3",
+      "status": "eligible_descriptive",
+      "target": "bulk EGCG and DHEA contrasts"
+    },
+    {
+      "reason": "22 sample records resolve to 12 donor codes recovered from sample titles (10 with both tissues); donors are the unit, but CD4 identity, pseudobulk construction and any clinical covariate must be re-derived or remain unknown",
+      "stage": "Wp-R4",
+      "status": "eligible_descriptive",
+      "target": "human MS signature transport"
+    },
+    {
+      "reason": "no numerical assay values are deposited for these panels; only figure images exist",
+      "stage": "Wp-R5",
+      "status": "blocked_no_deposit",
+      "target": "flow cytometry, 13C tracing, Legendplex, EAE and histology"
+    }
+  ]
+}

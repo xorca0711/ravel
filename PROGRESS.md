@@ -2,6 +2,50 @@
 
 **Update this before stopping work, every session.**
 
+## Wang 2025 PGAM package opened — 4 October 2026
+
+The owner read [Wang, Wagner, Fessler et al., *Cell Reports* 2025](https://doi.org/10.1016/j.celrep.2025.115799)
+(PGAM restrains Th17 pathogenicity) and asked for its analysis to be structured as
+`Research Article/gate2_W2_wagner_Th17_PGAM`. Branch `codex/wagner-pgam-w2-20261004`
+off main `9a49d26a`. The package is paper **17**, Gate **2W** item **W2**, with
+**Wp** identifiers kept separate from Wg (paper 15) and the Niethamer W1 analysis.
+
+[Wp-R0 source qualification](Research%20Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md)
+executed and verified under the runner (receipt `wp_source_qualification_v1`), and
+every endpoint was recomputed by a second route with all twelve comparisons
+agreeing. What the deposits actually contain: GSE289733 is one pre-QC aggregated
+matrix of 19,203 barcodes × 31,053 genes for 8 libraries from 2 animals, and the
+suffix-to-GSM order is **not declared**, so single-cell condition labels must be
+re-derived; GSE290297 joins 79 libraries one-to-one to 79 TPM columns over 20,465
+genes with **no animal field** and no counts; GSE138266 gives 12 donor codes
+(6 MS, 6 control, 10 with paired CSF and blood), the only donor-level unit in the
+paper. Stage eligibility: Wp-R1, Wp-R3 and Wp-R4 eligible descriptively; Wp-R2
+blocked without a Gurobi licence and without the published imputed input; Wp-R5
+blocked because no numerical assay values are deposited.
+
+Six article-local candidates Wp-P01–P06 are registered, none preferred.
+[Wp-P02](Research%20Article/gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md)
+is the one that could change a conclusion: this paper's Compass prediction puts the
+3PG serine shunt with the pro-regulatory program, while
+[Godfrey et al. 2025](https://doi.org/10.7554/eLife.104423) report that PGAM
+inhibition suppresses Treg character *through* 3PG-derived serine and one-carbon
+metabolism. Same enzyme, same phenotypic direction, opposite mechanism.
+
+Two source problems are recorded, not resolved: the pathogenicity score's sign is
+stated one way in Results and the opposite way in STAR Methods (the same conflict
+the [2021 package](Research%20Article/gate2_W1_wagner_th17_autoimmunity/HANDOFF_2026-10-04.md)
+already holds open), and the human cohort is described as five-versus-five while
+the deposit resolves to six donors per group.
+
+Next: obtain supplementary tables S1 and S3–S6 — absent from the supplied
+supplement, so every later signature is currently a reconstruction from the cited
+2015 modules — or record them as unavailable; then freeze Wp-R3, which produces
+the signature definitions Wp-R1 and Wp-R4 consume. External blockers needing the
+owner: the Excel supplements, a Gurobi academic WLS licence for Wp-R2, and source
+values for the protein and EAE panels. No claim-register row, no A identifier and
+no scientific acceptance was created. Local repository and research checks pass;
+GitHub CI and owner review remain separate.
+
 ## Wagner RQ framing audit — 4 October 2026
 
 Reviewed the six cards at `359fd63` against live merged PRs #130/#133–#136 and

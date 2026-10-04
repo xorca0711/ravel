@@ -1,9 +1,10 @@
 # Execution structure and next handoff
 
-**Current state, 4 October 2026:** structuring complete, nothing executed under
-the runner. Wp-R0 has a drafted contract and an entrypoint that has been dry-run
-outside the governed runner. The registered owner for source reproduction is
-**Wp-R01**; branch owners are **Wp-P01** to **Wp-P06**.
+**Current state, 4 October 2026:** structuring complete and [Wp-R0 executed](R0_RESULTS.md)
+under the governed runner, with its contract, receipt and the six branch owners
+registered. The registered owner for source reproduction is **Wp-R01**; branch
+owners are **Wp-P01** to **Wp-P06**. Steps 1 and 2 below are therefore done; they
+are retained because they are the prerequisites every later stage repeats.
 
 Planned filenames in this document are not existing artifacts.
 

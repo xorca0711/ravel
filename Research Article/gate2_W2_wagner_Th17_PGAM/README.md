@@ -1,9 +1,10 @@
 # Wang, Wagner et al. 2025: PGAM restrains Th17 pathogenicity
 
 **4 October 2026: package opened at the owner's request after reading the paper.
-This is a structuring pass. The source deposits are inventoried and hash-recorded,
-the reproduction ladder Wp-R0 to Wp-R5 is specified, and six article-local
-development branches are registered. No numerical result, claim grade, research
+The source deposits are inventoried and hash-recorded, [Wp-R0 has executed under
+the governed runner](R0_RESULTS.md) and decided stage eligibility, the ladder
+Wp-R0 to Wp-R5 is specified, and six article-local development branches are
+registered. No expression value has been analysed, and no claim grade, research
 question identifier or scientific acceptance is created here.**
 
 [Wang, Wagner, Fessler et al., *Cell Reports* 44, 115799 (2025)](https://doi.org/10.1016/j.celrep.2025.115799),
@@ -32,6 +33,7 @@ FOXP3/SGK1-high, least pathogenic Th17n program N1.
 
 | Document | Purpose |
 |---|---|
+| [Wp-R0 result](R0_RESULTS.md) | What the deposits contain, the stage eligibility it decided and its independent check |
 | [Evidence map](EVIDENCE_MAP.md) | What each figure measures, what can be reproduced and the interpretation limit |
 | [Datasets](DATASETS.md) | Verified deposit inventory, units, joins and the unresolved aggregation order |
 | [Source manifest](SOURCE_MANIFEST.md) | Exact files, URLs, bytes, SHA-256 and what is missing |
@@ -66,8 +68,9 @@ serine arm is correct.
 
 ## Current decision
 
-Structuring only. The three deposits are reachable and recorded; the single-cell
-deposit is the pre-QC aggregated matrix, not the 5,192-cell analysed set, and its
+[Wp-R0 has run](R0_RESULTS.md): Wp-R1, Wp-R3 and Wp-R4 are eligible descriptively,
+while Wp-R2 and Wp-R5 are blocked externally. The single-cell deposit is the pre-QC
+aggregated matrix of 19,203 barcodes, not the 5,192-cell analysed set, and its
 library order is not stated. The frozen numerical supplementary tables (S1, S3–S6)
 are **not** in the supplied supplement, so the published module and signature gene
 lists are unavailable and must be substituted from the cited 2015 source if R1
