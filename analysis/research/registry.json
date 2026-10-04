@@ -549,7 +549,8 @@
         "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md",
         "Research Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md",
         "Research Article/gate2_W1_wagner_th17_autoimmunity/FIGURES.md",
-        "Research Article/gate2_W1_wagner_th17_autoimmunity/NUMERICAL_AMENDMENT_v3.md"
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/NUMERICAL_AMENDMENT_v3.md",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md"
       ]
     },
     {
@@ -588,7 +589,8 @@
         "Research Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_MANIFEST.md",
         "Research Article/gate2_W1_wagner_th17_autoimmunity/LITERATURE_CONTEXT.md",
         "Research Article/gate2_W1_wagner_th17_autoimmunity/PRECEDENT_REVIEW.md",
-        "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md"
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md"
       ]
     },
     {
@@ -600,7 +602,8 @@
         "Research Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_MANIFEST.md",
         "Research Article/gate2_W1_wagner_th17_autoimmunity/LITERATURE_CONTEXT.md",
         "Research Article/gate2_W1_wagner_th17_autoimmunity/PRECEDENT_REVIEW.md",
-        "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md"
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/RESULTS.md",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md"
       ]
     },
     {
@@ -703,7 +706,8 @@
     "analysis/research/runs/wg_figures_v2/receipt.json",
     "analysis/research/runs/wg_bulk_qualification_v1/receipt.json",
     "analysis/research/runs/wg_bulk_paired_descriptive_v1/receipt.json",
-    "analysis/research/runs/wg_bulk_paired_descriptive_v2/receipt.json"
+    "analysis/research/runs/wg_bulk_paired_descriptive_v2/receipt.json",
+    "analysis/research/runs/wg_bulk_figures_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

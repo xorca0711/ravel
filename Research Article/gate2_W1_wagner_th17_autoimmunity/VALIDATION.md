@@ -1,4 +1,53 @@
-# R1 numerical and figure validation — 4 October 2026
+# R3 and caption validation — 4 October 2026
+
+The current R3 qualification, numerical v2 and layout-render v1 receipts all
+verify. The refreshed integration base remains
+`a5d41834395cac0b82b488d48759ceb6fab8f2d5`. Original and primary checkout
+preservation checks confirm only the primary's two pre-existing metadata edits;
+the original planning worktree remains clean.
+
+- Four synthetic qualification tests and two current paired-arithmetic tests
+  pass. They cover duplicate identities, incomplete technical pairs, metadata
+  conflicts, invalid matrices, genotype aliasing, fractional count aggregation
+  and animal pairing independent of row order. New-code compilation passes.
+- All four gzip files match GEO's advertised sizes and pass CRC validation.
+  All 128 matrix-column occurrences match source records; independent parsers
+  agree on all values. Exact rational and SVD model ranks agree.
+- Independent scalar calculations match current expression normalization and
+  paired differences to at most 1.60e-14 (frozen tolerance 1e-10); PCA singular
+  values agree with Gram eigenvalues. These are numerical checks, not biological
+  replication or exact historical limma reproduction.
+- Both RNA PNG plates were visually inspected. The current Figure 4 render
+  separates its x-label and legend. Figure 5 is pixel-identical to the inspected
+  original. PNG/PDF/SVG and combined PDF outputs are saved; original numerical
+  and graphical evidence remains immutable.
+- The added Figure 3 caption matches all 14 frozen d/q rows at its declared
+  rounding. Existing R1 PNGs and numerical outputs are unchanged. Figure 5 now
+  has a separate gallery table defining both axes, CPM, the offset, group labels,
+  animal dots, means and unequal panel scales; Figure 4 defines PC scores and
+  explained variance.
+- The repository link/artifact validator passes. Seven unchanged check groups
+  (claim bindings, five archived-evidence verifiers and repository unit tests)
+  retain their documented R1 passes; their code/inputs and main base did not
+  change. New source compilation and current run checks were performed. No
+  biological analysis was rerun for caption or layout updates.
+
+## Current integration hold
+
+The research gate reports exactly **five** errors, all confined to preserved
+failed attempts: unsuccessful receipt plus incomplete output list for R1 v1;
+unsuccessful receipt for R1 v2; unsuccessful receipt plus incomplete output
+list for R3 descriptive v1. The latter stopped at literal gene-name matching
+before any biological contrast. Its explicit source-case correction is
+[documented separately](BULK_AMENDMENT_v2.md); current R3 v2 passes.
+
+No gate/schema/allowlist, failed status or scientific acceptance was changed.
+Integration remains pending explicit review of failed-run retention handling.
+The current successful receipts do not erase failed evidence. No push, PR or
+merge was made. Logs are in this session's private scratch `validation_r3/`;
+hash-bound execution checks and results are linked from [BULK_RESULTS.md](BULK_RESULTS.md).
+
+# Historical R1 numerical and figure validation — 4 October 2026
 
 The current numerical and figure receipts verify successfully. This establishes
 execution provenance and the declared numerical calculations, not biological

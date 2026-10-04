@@ -22,7 +22,7 @@ This file is navigation, not another scientific status register.
   article branches. Human acceptance and execution qualification remain pending.
 - [Wagner Th17/Compass package](Research%20Article/gate2_W1_wagner_th17_autoimmunity/README.md)
   records owner reading on 4 October, the continued precedent review, an executed
-  R0 identity pass and [R1 numerical results/figures](Research%20Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md), supporting Wg-P02. Other branches remain unrun. Wg is separate from Niethamer W1; no global RQ added.
+  R0 identity pass, [R1 scores](Research%20Article/gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md) and [initial paired R3 RNA](Research%20Article/gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md). Exact source-program reproduction and branch adjudication remain pending. Wg is separate from Niethamer W1; no global RQ added.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
 - [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md)

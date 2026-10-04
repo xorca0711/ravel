@@ -1,10 +1,12 @@
 # Input families and biological-unit qualification
 
-**Current status:** the [R0 source-identity result](RESULTS.md) supersedes the
-initial access statements below. Both author matrix headers now match all 290
-cells, with exact author-SRX/GEO joins. Bulk/ATAC animal labels were recovered;
-expression values, assay matrix joins and sorted-cell biological units remain
-unqualified. The following catalogue is preserved as the initial intake.
+**Current status:** [R0/R1](RESULTS.md) and [initial R3](BULK_RESULTS.md) supersede
+the initial intake below. Both author matrix headers match all 290 cells. All four
+bulk matrices are acquired and exactly joined; 36 GSE162300 records are technical
+runs of 18 libraries in three animal labels. GSE162382 has four WT and three KO
+labels. Initial paired RNA estimates have executed. ATAC matrix joins and
+sorted-cell biological independence remain unresolved. The following catalogue
+is preserved as historical initial intake, not current acquisition status.
 
 Public GEO brief records were retrieved directly on 4 October 2026. Counts
 below count listed GSM records; they are **not independent animal counts**.

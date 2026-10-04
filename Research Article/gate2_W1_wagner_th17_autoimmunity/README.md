@@ -1,10 +1,12 @@
 # Wagner 2021: Th17 metabolism and autoimmunity
 
-**4 October 2026: R0 source identity and R1 numerical source-score analysis
-have executed. Four formal figure plates accompany the bounded Wg-P02
-pathway-heterogeneity result; later biological stages retain separate gates.**
+**4 October 2026: R0/R1 and the initial R3 animal-paired bulk RNA analysis
+have executed. Six formal plates include explicit experimental conditions.
+Exact R3 source-program reconstruction and other assay stages remain gated.**
 
-Start with [current results](RESULTS.md), [figures and captions](FIGURES.md), the [six-branch precedent review](PRECEDENT_REVIEW.md)
+Start with [current results](RESULTS.md), [figures and captions](FIGURES.md),
+[initial bulk RNA findings](BULK_RESULTS.md),
+[Figure 3 conditions and reaction-by-reaction differences](FIGURES.md#figure-3-which-reaction-scores-differ), the [six-branch precedent review](PRECEDENT_REVIEW.md)
 and [finished/remaining jobs and handoff](HANDOFF_2026-10-04.md).
 
 [Wagner et al., Cell 184, 4168-4185.e21 (2021)](https://doi.org/10.1016/j.cell.2021.05.045),

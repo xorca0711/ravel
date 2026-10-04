@@ -1,11 +1,17 @@
 # Current Wagner execution result
 
-**4 October 2026: R1 numerical source-score reconstruction and formal figures completed.**
+**4 October 2026: R1 reconstruction and initial R3 paired bulk RNA analysis executed.**
+
+The [current R3 result](BULK_RESULTS.md) records recovered matrices, exact
+column/design qualification, all-gene paired descriptive estimates and two new
+[RNA figures](FIGURES.md#figure-4-bulk-rna-context). It retains the actual
+three-WT and four-WT/three-KO allocations. Exact limma-selected source programs
+remain pending; R3 descriptive execution does not finish Wg-P03/P04.
 
 Read [current numerical findings](SOURCE_SCORE_RESULTS.md), the
 [verification amendment](NUMERICAL_AMENDMENT_v3.md) and [figures/captions](FIGURES.md)
 before the original plan. Wg-R01 owns the run; Wg-P02 gains a bounded descriptive
-pathway-heterogeneity result. R2–R5 and the other biological branches remain
+pathway-heterogeneity result. R2, remaining R3, R4/R5 and biological adjudication remain
 separately gated, with exact next steps in the [handoff](HANDOFF_2026-10-04.md).
 
 The run covers 290 qualified cells, 6,373 individual reactions and 1,722 tested

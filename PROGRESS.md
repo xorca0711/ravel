@@ -2,7 +2,36 @@
 
 **Update this before stopping work, every session.**
 
-## Wagner R1 numerical execution — 4 October 2026
+## Wagner R3 initial execution and figure interpretation — 4 October 2026
+
+Current checkout: `X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`,
+branch `codex/wagner-continuation-20261004`. Fresh main remains `a5d4183`.
+The primary/original checkout work is preserved; no push, PR or merge was made.
+
+[R3 source/matrix qualification and paired RNA estimates](Research%20Article/gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md)
+have executed. Normal GEO browser downloads recovered all four matrices after
+script-route access errors. Exact joins retain 18 libraries/three animals in
+GSE162300 and 28 libraries/four WT plus three KO animals in GSE162382. The
+current numerical version retains all genes and 276 displayed animal-by-gene
+changes; independent scalar/PCA checks pass. It is a descriptive CPM analysis,
+not a limma-selected source-program reproduction or a mechanistic conclusion.
+
+[Six-plate gallery](Research%20Article/gate2_W1_wagner_th17_autoimmunity/FIGURES.md)
+now includes Figure 3's conditions and 14-row effect/q table, two RNA plates,
+and explicit PCA versus paired-response axis definitions. R3 rendering corrects
+one legend overlap without rerunning numerics. The stopped R3 v1 literal-symbol
+check is preserved; v2 explicitly maps the original twelve genes to uppercase
+source identifiers. No outcomes had been computed at that stop.
+
+Next: qualify R/limma and freeze source-aligned gene filtering, models and
+programs. R2 solver/model fidelity, R4 peak/genome joins, R5 functional values,
+and P05/P06 exact biological tuples remain unresolved. Rscript was not found
+in checked standard locations. Failed-receipt integration handling still needs
+explicit review; see [validation](Research%20Article/gate2_W1_wagner_th17_autoimmunity/VALIDATION.md).
+No gate, failed status, claim grade or human acceptance was altered. External
+protection, CPLEX/license and laboratory access remain unestablished.
+
+## Historical R1 checkpoint — 4 October 2026
 
 Work remains isolated on `codex/wagner-continuation-20261004` in
 `X:/GitHub/scRNA_seq/.worktrees/wagner-continuation-20261004`.

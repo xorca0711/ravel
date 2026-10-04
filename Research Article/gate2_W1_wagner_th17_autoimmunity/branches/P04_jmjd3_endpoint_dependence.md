@@ -3,8 +3,10 @@
 **Updated precedent boundary (4 October):** Li 2014 and Liu 2015 constrain a
 universal direction for JMJD3-dependent differentiation. Their different models
 do not settle Wagner's exact interaction or establish mediation. The R0 run
-recovers genotype/treatment/animal labels in GSE162382; numerical design rank,
-matrix joins and functional source values remain to be qualified.
+recovers genotype/treatment/animal labels in GSE162382. [Initial R3](../BULK_RESULTS.md)
+now verifies matrix joins/design rank and reports paired RNA responses and direct
+genotype-response differences. Source limma programs and functional values remain
+to be qualified; these point estimates do not adjudicate mediation.
 [Source comparison](../PRECEDENT_REVIEW.md) · [current result](../RESULTS.md).
 
 **Question/decision:** Do the source data support different genotype-by-DFMO

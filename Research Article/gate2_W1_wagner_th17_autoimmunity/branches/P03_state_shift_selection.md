@@ -10,12 +10,14 @@ remain separate endpoints. [Primary-source comparison](../PRECEDENT_REVIEW.md).
 support a context-specific response beyond altered proliferation, survival or mixture,
 given that a division-independent lineage effect is already a published precedent?
 Decide which additional functional measurement is needed before interpreting
-Treg-like RNA as cell-state reprogramming.
+Treg-like RNA as cell-state reprogramming. The [initial R3 result](../BULK_RESULTS.md)
+now supplies animal-paired descriptive bulk responses; it does not resolve selection.
 
 **Published starting point:** Wagner Fig. 5/S5 and Fig. 6 contain perturbation,
 rescue, growth/viability controls and bulk RNA. Puleston 2021 provides a close
 lineage-fidelity precedent and cautions against a universal tolerogenic reading
-of polyamine depletion. This package has no new biological result.
+of polyamine depletion. This package now contains a descriptive reanalysis of
+source bulk RNA; it adds no new biological experiment or tracked conversion.
 
 **Hypothesis:** Some state-associated changes persist within comparable viable
 cell/division strata. **Strongest rival:** selective recovery of pre-existing
