@@ -19,7 +19,7 @@ precedents below, except where a full text was read; that is stated per entry.
 | [Toriyama et al. 2020, *Communications Biology* 3:394](https://doi.org/10.1038/s42003-020-01122-w) (PMID 32709928) | Abstract read in full | T-cell-specific *Pgam1* deletion attenuates both CD4 and CD8 responses and ameliorates helper-T-dependent inflammation — the opposite phenotypic direction from partial inhibition, and the paper's own cited reason for distinguishing complete ablation from dose effects |
 | [Wagner et al. 2021, *Cell* 184:4168](https://doi.org/10.1016/j.cell.2021.05.045) (PMID 34216539) | Held in this repository as [paper 15](../gate2_W1_wagner_th17_autoimmunity/README.md) | Compass itself, its validation requirements and its scoring conventions. Shared authors and a shared method: this is one evidence lineage with the source, not independent support |
 | [Gaublomme et al. 2015, *Cell* 163:1400](https://doi.org/10.1016/j.cell.2015.11.009) (PMID 26607794) | Cited by the source for the modules; not re-read in this pass | Origin of the pro-inflammatory and pro-regulatory modules. Becomes a required input if Table S1 stays unavailable |
-| [Brucklacher-Waldert et al. 2017, *Cell Reports* 19:2357](https://doi.org/10.1016/j.celrep.2017.05.052) | Cited by the source; not re-read | Glycolysis blockade with 2-DG *promotes* Th17 differentiation through stress and TGF-β-independent routes — the established precedent that glycolysis inhibition is not uniformly anti-inflammatory |
+| [Brucklacher-Waldert et al. 2017, *Cell Reports* 19:2357](https://doi.org/10.1016/j.celrep.2017.05.052) (PMID 28614720) | **Full text read 5 October 2026** | Glycolysis blockade with 2-DG (and with 3-bromopyruvate) *promotes* Th17 differentiation — the established precedent that glycolysis inhibition is not uniformly anti-inflammatory. Its mechanism is sustained cytoplasmic calcium with a partial XBP1 contribution, and its central claim is that stress **substitutes for** TGF-β, tested against neutralising anti-TGF-β. The source's Discussion reads it as stress *activating* TGF-β networks, which inverts it; see [Wp-P02](branches/P02_serine_one_carbon_direction.md) |
 | [Wu et al. 2020, *Cell* 182:641](https://doi.org/10.1016/j.cell.2020.06.014) (PMID 32615085) | Abstract-level | Niche-selective inhibition of pathogenic Th17 cells by targeting metabolic redundancy: the nearest precedent for "which metabolic step, in which niche", and the reason reaction-level selectivity is a live question rather than a novelty claim |
 | [Li et al. 2017, *Front. Pharmacol.* 8:325](https://doi.org/10.3389/fphar.2017.00325) (PMID 28611670); [Huang et al. 2019, *Cell Metab.* 30:1107](https://doi.org/10.1016/j.cmet.2019.09.014) (PMID 31607564) | Cited by the source; abstract-level | EGCG as a PGAM1 inhibitor, and a separate allosteric PGAM1 inhibitor class. The existence of selective tool compounds is what makes the paper's EGCG-only chemistry a stated limitation rather than a necessity |
 
@@ -47,10 +47,20 @@ two references that chain rests on, at **abstract level only**, 4 October 2026:
   allosteric PGAM1-inhibitor study in non-small-cell lung cancer, and its abstract
   does not mention TGF-β.
 
-Neither full text was read, so neither check refutes anything. Both mean the
-TGF-β leg is an **unverified premise**, which is how
-[Wp-P02](branches/P02_serine_one_carbon_direction.md) now carries it. Reading the
-two full texts is the cheapest next literature action in this package.
+**Update, 5 October 2026 — both texts pursued.** Brucklacher-Waldert's full text
+was read and the first check is now **confirmed, not merely flagged**: the paper
+is titled for TGF-β-*independent* Th17 differentiation, its highlights state that
+stress "can substitute for TGF-β", the stress inducers are tested against
+neutralising anti-TGF-β, and the mechanism advanced is sustained cytoplasmic
+calcium with a partial XBP1 contribution. 2-DG and 3-bromopyruvate both enhance
+Th17 polarisation, so the phenotypic direction the source cites is right while
+the TGF-β attribution inverts the source's claim. Huang 2019 is not open access
+and no legitimate route returned the full text, so the second check stays at
+abstract level and remains a flag; the owner can resolve it by supplying the PDF.
+
+The TGF-β leg is therefore an **unverified premise whose one readable support
+contradicts it**, which is how
+[Wp-P02](branches/P02_serine_one_carbon_direction.md) carries it.
 
 ## Repository observation
 

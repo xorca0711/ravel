@@ -94,3 +94,24 @@ therefore not reporting a selective module shift in the condition the paper's
 thesis rests on. This is the sharpest open version of this card's question: a
 module score built from two arms that move together is measuring something other
 than the arms' contrast.
+
+## Executed 5 October 2026 — see [P01_RESULTS.md](../P01_RESULTS.md)
+
+Outcome, against this card's three informative outcomes: the ranking is stable
+within a sensitivity envelope (Spearman 0.92 against the unfiltered module lists,
+0.96 against locally recomputed HVGs, 0.999 against arm standardisation), so
+reaction and programme claims carry over provided they do not turn on tercile
+membership — a fifth of cells cross a tercile when the HVG filter is dropped.
+Neither arm substitutes for the score (0.82 and 0.84 alone), and the arms are
+negatively correlated across cells (-0.41 pooled), so the third informative
+outcome — arms moving independently — is not what happens *within* a condition,
+even though Wp-R3 shows them moving together *under EGCG*. N1 stays the lowest
+programme under every sign-preserving variant (48/48 checks). The glucose effect
+keeps its sign but shrinks about tenfold without the HVG filter, and the
+pro-inflammatory arm alone is sign-inconsistent across the two animals.
+
+The card's reaction-ranking consequence remains untestable: Wp-R2 scored
+micropools and did not save pool membership, so no variant score can be projected
+onto the reactions. Re-running Compass with membership saved is the one step that
+would close it, and it is worth taking only if a reaction-level claim from this
+paper is about to be carried elsewhere.

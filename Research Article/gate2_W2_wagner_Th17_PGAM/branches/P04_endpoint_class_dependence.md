@@ -69,3 +69,20 @@ Remains blocked unless the lead contact supplies source values for Figures 1C–
 4 and S5, or the owner authorises a separately labelled digitisation with stated
 extraction uncertainty. A digitised series is never described as raw data and
 never enters a claim as a measurement.
+
+## Status check, 5 October 2026
+
+The stop condition names two routes out: source values from the lead contact, or
+an owner-authorised digitisation. The owner judged author contact implausible on
+4 October 2026 and declined digitisation, which closed Wp-R5. **This card is
+therefore blocked permanently for reanalysis, not pending**, and its function is
+now entirely the endpoint-separation constraint it places on the other cards.
+
+That constraint earned its keep twice in the executed work. [Wp-R3](../R3_RESULTS.md)
+found the RNA module shift under EGCG in Th17n non-selective once the global
+shift is centred out, while the single cytokine transcripts moved as published —
+a disagreement *within* the RNA class that would have been invisible if the
+module score had been allowed to stand for effector output. And
+[Wp-R4](../R4_RESULTS.md) found the human module separation non-specific against
+matched random gene sets. Both are instances of this card's rule: an RNA
+programme is not a protein endpoint and not a disease endpoint.

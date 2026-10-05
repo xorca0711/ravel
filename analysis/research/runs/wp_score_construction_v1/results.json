@@ -1,0 +1,218 @@
+{
+ "downstream_not_testable": "Per-cell Compass reaction scores do not exist: Wp-R2 scored micropools and did not save pool membership, and the pooling is not bit-reproducible. The card's reaction-ranking consequence therefore cannot be re-evaluated under these variants; the two downstream statements above are the ones this deposit can condition.",
+ "glucose_direction_Th17n": [
+  {
+   "max_difference": 0.013354496836978313,
+   "min_difference": 0.010766314827519254,
+   "n_pairs": 2,
+   "n_positive": 2,
+   "variant": "all_genes"
+  },
+  {
+   "max_difference": 0.39405411586201633,
+   "min_difference": 0.3464089516537915,
+   "n_pairs": 2,
+   "n_positive": 2,
+   "variant": "arm_standardised"
+  },
+  {
+   "max_difference": 0.094679290909044,
+   "min_difference": 0.07415620249270607,
+   "n_pairs": 2,
+   "n_positive": 2,
+   "variant": "local_hvg"
+  },
+  {
+   "max_difference": -0.10895999329486773,
+   "min_difference": -0.13333597261760516,
+   "n_pairs": 2,
+   "n_positive": 0,
+   "variant": "methods_sign"
+  },
+  {
+   "max_difference": 0.019558169980083768,
+   "min_difference": -0.053292781111998325,
+   "n_pairs": 2,
+   "n_positive": 1,
+   "variant": "proinflammatory"
+  },
+  {
+   "max_difference": 0.18662875514844066,
+   "min_difference": 0.08940182287835323,
+   "n_pairs": 2,
+   "n_positive": 2,
+   "variant": "proregulatory_neg"
+  },
+  {
+   "max_difference": 0.13333597261760516,
+   "min_difference": 0.10895999329486773,
+   "n_pairs": 2,
+   "n_positive": 2,
+   "variant": "reference"
+  }
+ ],
+ "inputs_verified": {
+  "wp_singlecell_reproduction_v1/cell_scores.csv.gz": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf"
+ },
+ "interpretation_limit": "Internal stability of a measurement computed on one deposit's cells. A stable ranking does not show that the score measures pathogenicity, which is a functional claim. Variants differ only in gene selection, weighting and sign; they share the same expression matrix, so agreement between them is not independent evidence.",
+ "n1_lowest_counts": [
+  {
+   "labelling": "programme",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "all_genes"
+  },
+  {
+   "labelling": "programme",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "arm_standardised"
+  },
+  {
+   "labelling": "programme",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "local_hvg"
+  },
+  {
+   "labelling": "programme",
+   "n_checks": 4,
+   "n_lowest": 0,
+   "variant": "methods_sign"
+  },
+  {
+   "labelling": "programme",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "proinflammatory"
+  },
+  {
+   "labelling": "programme",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "proregulatory_neg"
+  },
+  {
+   "labelling": "programme",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "reference"
+  },
+  {
+   "labelling": "programme_excl_overlap",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "all_genes"
+  },
+  {
+   "labelling": "programme_excl_overlap",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "arm_standardised"
+  },
+  {
+   "labelling": "programme_excl_overlap",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "local_hvg"
+  },
+  {
+   "labelling": "programme_excl_overlap",
+   "n_checks": 4,
+   "n_lowest": 0,
+   "variant": "methods_sign"
+  },
+  {
+   "labelling": "programme_excl_overlap",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "proinflammatory"
+  },
+  {
+   "labelling": "programme_excl_overlap",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "proregulatory_neg"
+  },
+  {
+   "labelling": "programme_excl_overlap",
+   "n_checks": 4,
+   "n_lowest": 4,
+   "variant": "reference"
+  }
+ ],
+ "n_cells": {
+  "Th17n": 8711,
+  "Th17p": 7119,
+  "all_cells": 15830
+ },
+ "per_library_spearman_range": {
+  "all_genes": [
+   0.9129677314616337,
+   0.9445548276018538
+  ],
+  "arm_standardised": [
+   0.9990177897298989,
+   0.9999595618679649
+  ],
+  "local_hvg": [
+   0.9480193047120645,
+   0.9694543889744124
+  ],
+  "methods_sign": [
+   -1.0,
+   -0.9999999999999998
+  ],
+  "proinflammatory": [
+   0.8029152739616574,
+   0.8552660466100136
+  ],
+  "proregulatory_neg": [
+   0.8167141167809556,
+   0.8618822528694047
+  ]
+ },
+ "pooled_Th17n_agreement": [
+  {
+   "fraction_changing_tercile": 0.20789805992423374,
+   "spearman_vs_reference": 0.9236510233036774,
+   "variant": "all_genes"
+  },
+  {
+   "fraction_changing_tercile": 0.14831821834462175,
+   "spearman_vs_reference": 0.959868614206969,
+   "variant": "local_hvg"
+  },
+  {
+   "fraction_changing_tercile": 0.021352313167259787,
+   "spearman_vs_reference": 0.9992756361331737,
+   "variant": "arm_standardised"
+  },
+  {
+   "fraction_changing_tercile": 0.31190448857766045,
+   "spearman_vs_reference": 0.8166329958467178,
+   "variant": "proinflammatory"
+  },
+  {
+   "fraction_changing_tercile": 0.2954884628630467,
+   "spearman_vs_reference": 0.8386973642163179,
+   "variant": "proregulatory_neg"
+  },
+  {
+   "fraction_changing_tercile": 0.6667431982550798,
+   "spearman_vs_reference": -0.9999999999999998,
+   "variant": "methods_sign"
+  }
+ ],
+ "schema": "wp_p01_score_construction/v1",
+ "unit": "cell, nested in 8 libraries and 2 animals; no population claim",
+ "variants": [
+  "reference",
+  "all_genes",
+  "local_hvg",
+  "arm_standardised",
+  "proinflammatory",
+  "proregulatory_neg",
+  "methods_sign"
+ ]
+}

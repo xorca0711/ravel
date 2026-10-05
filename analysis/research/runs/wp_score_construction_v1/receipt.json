@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-P01.score_construction_v1",
+  "owner": "Wp-P01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/score_construction_v1.json",
+  "contract_sha256": "756e6cd44a3d16d6e14a893f41626f5223aee7e47126ed0819f6f11e72cd1aa3",
+  "git_commit": "3af14d2b41ed32eb1c42be3dfec151d91eea5e47",
+  "started_at": "2026-10-05T00:09:21.616914+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/score_construction_v1.py",
+    "--r1-run",
+    "analysis/research/runs/wp_singlecell_reproduction_v1",
+    "--output",
+    "analysis/research/runs/wp_score_construction_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/cell_scores.csv.gz",
+      "sha256": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/score_construction_v1.py",
+      "sha256": "8adc461d470a9747348a29a089107bd7ad96427aa77ce9753cb824d0137ef7d4"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/results.json",
+      "sha256": "5b179c78fb0421ec97444753b3279c50535a8eb13d12d81a658c7f57b9116a2d"
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/variant_agreement.csv",
+      "sha256": "17a62e43e24a76f44fa60044e2df453cbd8f6fbc8476d46a7cec23e7677a0a09"
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/arm_independence.csv",
+      "sha256": "360e8d0e9d248d39c2b72c72bf1602e45def95853b54c5ab7048c0a3d0cfd2ca"
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/n1_lowest_by_variant.csv",
+      "sha256": "3d4227faa35e065e0f3a914142052c04d2496fe5cf1fe97f69cced86c44a35e7"
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/glucose_direction_by_variant.csv",
+      "sha256": "e820937229b0cdef45949bc2acb279aae275ffb68dbcd95c44a4820a8549ed6d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-05T00:09:27.892033+00:00"
+}

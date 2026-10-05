@@ -1,0 +1,69 @@
+{
+ "schema_version": 1,
+ "analysis_id": "Wp-P01.score_construction_v1",
+ "owner": "Wp-P01",
+ "status": "frozen",
+ "analysis_type": "descriptive",
+ "question": "Is the ordering of Th17n cells by the published pathogenicity score - the outcome variable every Figure 1 reaction correlation is computed against - stable to the choices made in building that score?",
+ "decision": "Whether reaction-level and programme-level statements from this paper can be carried into other analyses as they stand or must travel with a sensitivity envelope, and whether the arm decomposition Wp-P03 uses is legitimate.",
+ "strongest_rival": "The ranking is robust and these are implementation details. That outcome is informative and would strengthen the paper's Figure 1.",
+ "discriminator": "Spearman correlation of each pre-specified variant score against the reference score, pooled and within library, with the fraction of cells changing score tercile; plus two downstream statements re-evaluated under every variant - whether N1 stays the lowest-median programme and whether the pathogenicity score still rises at 1 mM glucose in each animal-paired comparison.",
+ "evidence_refs": [
+  "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P01_score_construction.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md"
+ ],
+ "prior_outcome_exposure": "exposed",
+ "exposure_record": "Fully exposed. Figure 1's conclusions, Table S1 and the Wp-R1/R2/R3 results were read first; Wp-R1 already reported that the EGCG signature and the pathogenicity score correlate at 0.66 and that the score correlates only weakly with proliferation and depth. The variant list in the card was fixed on 4 October 2026 before any variant was computed and is reproduced verbatim in the entrypoint docstring. One dry run of this entrypoint was executed outside the governed runner on 5 October 2026; no variant, threshold or endpoint was added or changed after it.",
+ "biological_unit": "Cell, nested in 8 libraries and 2 animals. This analysis makes no population claim and needs none: it asks whether a measurement is internally stable.",
+ "unit_status": "verified",
+ "nesting_and_overlap": "Every variant is computed on the same cells and the same expression matrix, so agreement between variants is not independent evidence - it is the absence of a gene-selection artefact. Cells are nested in libraries; correlations are reported pooled and within library so that library structure is visible.",
+ "population_and_selection": "All 15,830 cells passing Wp-R1 QC, analysed within cell type (8,711 Th17n, 7,119 Th17p) and pooled. No selection on any score value.",
+ "contrast": "Each variant score against the reference score (pro-inflammatory minus pro-regulatory on the authors' Table S1 HVG flags), within scope and within library.",
+ "endpoint": "Spearman and Pearson correlation against the reference and the fraction of cells changing score tercile, per variant and per library; the rank correlation between the two score arms and their standard deviations; the N1-lowest indicator per library per variant under both Wp-R1 programme labellings; and the animal-paired 1 mM minus 25 mM difference per variant.",
+ "methods": "Variants fixed in advance: reference; full published module lists without the HVG filter; locally recomputed HVGs; the two arms z-scaled across the scored cells before subtraction; each arm alone, with the pro-regulatory arm negated so the high end stays comparable; and the STAR Methods subtraction order, whose rank correlation with the reference is exactly -1 by construction and is reported to make the documented sign conflict explicit. Terciles are computed within the scope being summarised.",
+ "missingness_and_exclusions": "No cell is excluded. Programmes with fewer than 20 cells in a library are skipped in the N1 check and the count of compared programmes is reported.",
+ "multiplicity": "No hypothesis test is performed: every endpoint is a descriptive agreement statistic or an indicator, so no p value and no adjustment arises.",
+ "precision_status": "not_applicable",
+ "precision_basis": "No interval is reported. The quantities are agreement statistics on a fixed set of cells, not estimates of a population parameter.",
+ "validation_scope": "none",
+ "design_identifiability": "unknown",
+ "inference_scope": "descriptive",
+ "interpretation_limit": "Internal stability of a measurement on one deposit's cells. A stable ranking does not show that the score measures pathogenicity - that is a functional claim requiring the transfer experiments the paper reports, not a better gene list. Per-cell Compass reaction scores do not exist, so the card's reaction-ranking consequence cannot be re-evaluated here.",
+ "stop_rule": "Stop when the pre-specified variant list is exhausted. Do not search for a variant that produces a preferred result, and do not drop a variant whose agreement is low.",
+ "inputs": [
+  {
+   "path": "analysis/research/runs/wp_singlecell_reproduction_v1/cell_scores.csv.gz",
+   "sha256": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf",
+   "study_id": "Wp-R1",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  }
+ ],
+ "code": [
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/score_construction_v1.py",
+   "sha256": "8adc461d470a9747348a29a089107bd7ad96427aa77ce9753cb824d0137ef7d4"
+  }
+ ],
+ "runtime": "python",
+ "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/score_construction_v1.py",
+ "arguments": [
+  "--r1-run",
+  "analysis/research/runs/wp_singlecell_reproduction_v1",
+  "--output",
+  "{run_dir}"
+ ],
+ "expected_outputs": [
+  "results.json",
+  "variant_agreement.csv",
+  "arm_independence.csv",
+  "n1_lowest_by_variant.csv",
+  "glucose_direction_by_variant.csv"
+ ],
+ "amendment_of": "",
+ "amendment_reason": "Initial prospective execution version for Wp-P01."
+}

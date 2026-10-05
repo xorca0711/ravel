@@ -144,3 +144,63 @@ excess or with a genuinely reduced pathway, and it does not discriminate between
 this paper's serine-shunt sign and the opposite direction reported for Tregs by
 Godfrey et al. 2025. The discriminating measurement named on this card is
 unchanged: labelled serine and formate flux under PGAM inhibition, not expression.
+
+## Stress-arm prerequisite discharged, 5 October 2026
+
+The card held the stress and TGF-β arm closed until the two cited texts were read
+and what each actually measured was recorded. That step is now done, and the
+flag raised at abstract level is **confirmed for the first citation and
+unresolved for the second**.
+
+**1. Brucklacher-Waldert et al. 2017, *Cell Reports* 20:2357 (PMID 28614720),
+full text read.** Its title is "Cellular Stress in the Context of an Inflammatory
+Environment Supports **TGF-β-Independent** T Helper-17 Differentiation". The
+paper's own highlights state that cellular stress "can substitute for TGF-β in
+Th17 cell differentiation", and the stress inducers are tested explicitly against
+neutralising anti-TGF-β. On glycolysis specifically, 2-deoxyglucose and the
+GAPDH inhibitor 3-bromopyruvate both *enhance* Th17 polarisation, and the
+mechanism the paper advances is sustained cytoplasmic calcium with a partial
+contribution from XBP1 — not activation of TGF-β signalling. So the chain "2-DG
+promotes Th17 effector function by activating cellular-stress TGF-β signalling
+networks" inverts this source's claim: stress substitutes for TGF-β rather than
+activating it.
+
+**2. Huang et al. 2019, *Cell Metabolism* 30:1107 (PMID 31607564), full text not
+obtained** — the article is not open access and no legitimate route returned the
+text. From the abstract, the allosteric PGAM1 inhibitor HKB99 acts through the
+PGAM1-ACTA2 interaction and shifts JNK/c-Jun, AKT and ERK signalling with raised
+oxidative stress, in non-small-cell lung cancer. TGF-β does not appear. This
+remains a **flag, not a refutation**: a TGF-β result could sit in the body of the
+paper. Resolving it needs the PDF, which the owner can supply.
+
+**Consequence for the design, unchanged in substance but now evidenced.** The
+stress arm cannot be entered as an assumed mechanism, and the specific premise
+the source's Discussion rests on — stress acting *through* TGF-β networks — is
+contradicted by the one text that can be read in full. The integrated-stress and
+TGF-β-target module scored across the glucose arms remains available as an
+association, but the decisive version is still a perturbation with a signalling
+readout (phospho-SMAD2/3 or a TGF-β reporter), and the low-glucose arm of this
+deposit is itself a nutrient stressor, which makes the association confounded by
+design.
+
+## RNA arm: answered as far as deposited data allow, 5 October 2026
+
+Two executed stages have now delivered the transcript- and reaction-level
+evidence this card specified, and they agree with each other and with the
+paper's sign: [Wp-R3](../R3_RESULTS.md) shows every serine-synthesis and
+one-carbon transcript falling under EGCG in both cultures, and
+[Wp-R2](../R2_RESULTS.md) shows the 3PG-to-serine reactions (PGCD, PSERT, PSP_L,
+rho -0.26) associating negatively with the pathogenicity score, i.e. with the
+pro-regulatory side, alongside PGAM itself at -0.29.
+
+That is the Compass direction, not Godfrey's. It does **not** resolve the
+conflict, for the reason the card already gave: reaction scores and transcript
+modules are two summaries of the same transcriptome, and PGAM inhibition is
+expected to *raise* 3-phosphoglycerate, so a coordinated transcriptional
+decrease is equally compatible with feedback to substrate excess. A further
+per-cell module score would restate the same evidence a third time and is
+therefore **not worth running**; the card's RNA arm is closed as
+uninformative-for-discrimination rather than unexecuted. The decisive
+measurement is unchanged and is now the single highest-value open step in this
+package: the PGAM x PHGDH-inhibitor two-by-two in Th17n culture with Foxp3 and
+IL-17 protein readout and 13C serine/glycine labelling from [U-13C]glucose.

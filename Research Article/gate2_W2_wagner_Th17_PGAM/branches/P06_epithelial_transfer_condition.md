@@ -35,10 +35,12 @@ repository rather than new:
    defined cytokines at 25 mM or 1 mM glucose. Alveolar epithelium sits in a
    niche with unknown local glucose, lactate and serine availability. A reaction
    association fitted in one does not transfer to the other by name.
-3. **Score status.** Compass potential activity is not flux, and the one stage of
-   this package that would produce such scores (Wp-R2) is blocked on a solver
-   licence. Importing an unqualified score into a lung question would add a
-   number without adding evidence.
+3. **Score status.** Compass potential activity is not flux. Wp-R2 has since run
+   as a declared version-and-input sensitivity (the published scVI-imputed input
+   was never deposited), and it found PGAM 11th of 83 reactions rather than
+   distinctive — so the scores this package can produce are *less* suitable for
+   transfer than when this card was written, not more. Importing an unqualified
+   score into a lung question would add a number without adding evidence.
 
 ## What would make it a question
 
@@ -78,3 +80,11 @@ running Compass on lung data to see what appears.
 which proposed the same bridge from the 2021 paper and is held for the same
 missing linkage. Keeping one conditional card per package, cross-referenced,
 avoids two questions that would need the same unavailable dataset.
+
+## Status check, 5 October 2026
+
+Still closed; none of the four conditions is met. Condition 4 moved further out
+rather than closer: [Wp-R2](../R2_RESULTS.md) and [Wp-R3](../R3_RESULTS.md) both
+bear on the 3PG arm's direction and neither resolves it, so the sign this card
+refuses to import is still unresolved and now known to need labelled flux rather
+than more reanalysis.

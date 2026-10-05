@@ -1,0 +1,77 @@
+{
+ "schema_version": 1,
+ "analysis_id": "Wp-P03.glucose_decomposition_v1",
+ "owner": "Wp-P03",
+ "status": "frozen",
+ "analysis_type": "descriptive",
+ "question": "Is the higher Th17n pathogenicity score at 1 mM glucose produced mainly by a change in the mixture of programmes, or by the same programme shifting its score?",
+ "decision": "Whether the testable consequence of PGAM inhibition is 'the N1 population shrinks' or 'cells within N1 move' - distinguishable at the bench by a Foxp3-reporter time course with division tracking, and implying different readouts for any intervention aimed at preserving the regulatory programme.",
+ "strongest_rival": "Pure within-state change: every programme's score rises at low glucose and the cluster redistribution is a secondary consequence of cutting a continuous shift into discrete labels. Two further rivals are addressed directly: proliferation differs by glucose condition, and programmes defined on the same expression as the score can absorb the condition effect.",
+ "discriminator": "A Kitagawa decomposition of the animal-paired glucose difference into a composition term and a within-programme term, recomputed under both available programme labellings and inside within-library proliferation strata, with each arm of the score decomposed separately.",
+ "evidence_refs": [
+  "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P03_glucose_composition_vs_state.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P01_score_construction.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md"
+ ],
+ "prior_outcome_exposure": "exposed",
+ "exposure_record": "Fully exposed. The paper's Figure 3 conclusions and the Wp-R1 result were read first, and Wp-R1 already reported both components separately - the score rises at 1 mM in 4/4 animal pairs through the pro-regulatory arm, and Th17n programme composition shifts from 58-65 % N2 at 1 mM to 1-5 % at 25 mM. Before freezing, those published library-level proportions and within-programme medians were recombined by hand, recovering about +0.126 and +0.111 of the observed +0.133 and +0.109, which suggested composition would dominate; that arithmetic is recorded as exposure and no estimator, threshold, stratum or labelling was chosen in response to it. One dry run of this entrypoint was executed outside the governed runner on 5 October 2026 with the estimator already fixed; nothing was changed after it.",
+ "biological_unit": "Cells within 8 libraries from 2 animals, crossed so that both animals appear in all four conditions with two libraries each. A within-animal paired contrast exists, but n = 2 caps the result at descriptive.",
+ "unit_status": "verified",
+ "nesting_and_overlap": "Each animal contributes one library per condition, so the paired contrast is one number per animal per cell type. Programme labels are derived from the same expression that defines the score, so a composition term is partly guaranteed by construction; this is the card's clustering-artefact rival and is why the labelling and stratum sensitivities, not the bare term size, carry the information.",
+ "population_and_selection": "All Wp-R1 QC-passing cells, analysed within cell type. Programmes with fewer than 20 cells in either glucose condition for a given animal are pooled into an 'other' category rather than dropped, so proportions still sum to one and the total difference is reproduced exactly.",
+ "contrast": "1 mM minus 25 mM glucose, within animal and within cell type.",
+ "endpoint": "Total animal-paired difference in mean score decomposed into a within-programme term (pooled proportions), a composition term (pooled within-programme means) and the residual interaction, with each term also expressed as a share of the total; computed for the pathogenicity score and for each arm separately, under both programme labellings, and again inside within-library proliferation terciles with stratum weights. Per-programme proportions and means are reported so the reader can see which programme carries each term.",
+ "methods": "Kitagawa decomposition: within = sum_k pbar_k [m_k(low) - m_k(high)], composition = sum_k [p_k(low) - p_k(high)] mbar_k, with pbar and mbar the pooled-condition proportion and mean; interaction is the residual. Two declared substitutions, both forced by the deposit: the authors' Leiden clustering is not deposited, so Wp-R1's Table S5 marker assignments are used and the two available labellings replace the card's coarser-and-finer resolution sweep; cell-cycle phase is not deposited, so the Wp-R1 proliferation score cut into within-library terciles is the stratum.",
+ "missingness_and_exclusions": "No cell excluded; small programmes pooled into 'other' as described, with the number pooled reported per decomposition.",
+ "multiplicity": "No hypothesis test is performed; all quantities are decomposition terms and shares.",
+ "precision_status": "unknown",
+ "precision_basis": "Two animals. Each term is two numbers; no interval or p value is computed, and sign agreement across the two animals is reported instead.",
+ "validation_scope": "none",
+ "design_identifiability": "unknown",
+ "inference_scope": "descriptive",
+ "interpretation_limit": "A decomposition on derived programme labels cannot establish that a cell changed state or that a programme was lost; both require lineage or time-resolved measurement, which this deposit does not contain. The labels are not the authors' clusters, so the composition term is not comparable to their figure.",
+ "stop_rule": "The estimator, the labellings to be reported and the covariate treatment are fixed here before any term is computed. If the composition and within-state terms disagree in sign across the two animals, report that term inconclusive and stop; two animals cannot adjudicate it, and no further labelling, stratum or resolution may be added to resolve it.",
+ "inputs": [
+  {
+   "path": "analysis/research/runs/wp_singlecell_reproduction_v1/cell_scores.csv.gz",
+   "sha256": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf",
+   "study_id": "Wp-R1",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_singlecell_reproduction_v1/programme_composition.csv",
+   "sha256": "92b42d9737b09c07853cf58b79c88157002c0a74197d3e5a3699d9c97a99d63c",
+   "study_id": "Wp-R1",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  }
+ ],
+ "code": [
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/glucose_decomposition_v1.py",
+   "sha256": "37d4f8a50cf46d8eabae5656793fd7725cb7d7ff377d6c74a508a35df0538f22"
+  }
+ ],
+ "runtime": "python",
+ "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/glucose_decomposition_v1.py",
+ "arguments": [
+  "--r1-run",
+  "analysis/research/runs/wp_singlecell_reproduction_v1",
+  "--output",
+  "{run_dir}"
+ ],
+ "expected_outputs": [
+  "results.json",
+  "decomposition.csv",
+  "decomposition_proliferation_strata.csv",
+  "programme_detail.csv"
+ ],
+ "amendment_of": "",
+ "amendment_reason": "Initial prospective execution version for Wp-P03."
+}

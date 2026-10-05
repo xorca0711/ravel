@@ -738,7 +738,9 @@
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json",
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
-    "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json"
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/score_construction_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/glucose_decomposition_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -781,7 +783,9 @@
     "analysis/research/runs/wp_singlecell_reproduction_v1/receipt.json",
     "analysis/research/runs/wp_human_signature_transfer_v1/receipt.json",
     "analysis/research/runs/wp_human_signature_transfer_v2/receipt.json",
-    "analysis/research/runs/wp_compass_sensitivity_v1_rerun/receipt.json"
+    "analysis/research/runs/wp_compass_sensitivity_v1_rerun/receipt.json",
+    "analysis/research/runs/wp_score_construction_v1/receipt.json",
+    "analysis/research/runs/wp_glucose_decomposition_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

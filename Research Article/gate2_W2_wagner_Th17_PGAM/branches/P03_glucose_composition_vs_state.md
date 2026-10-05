@@ -100,3 +100,26 @@ settle is which is primary, because the programme labels here are marker-score
 assignments rather than the authors' clusters, and proliferation also differs by
 condition (higher at 25 mM in 4/4 pairs). A sorted-population experiment, not a
 reanalysis, is the discriminating measurement.
+
+## Executed 5 October 2026 — see [P03_RESULTS.md](../P03_RESULTS.md)
+
+Outcome: **composition**, with the within-state term **inconclusive** under this
+card's own stop condition. The composition term is positive in both animals and
+under every labelling and stratification (share 0.68 to 3.45); the within term is
++0.034 in Mo1 and -0.037 in Mo2 under the primary labelling, so the card's rule —
+report inconclusive if the terms disagree in sign across the two animals — fires
+and no further labelling or stratum was added. Proliferation stratification moves
+the split by less than 0.02 of share, which addresses rival 3 directly. Rival 4,
+the clustering artefact, is not defeated: programmes are assigned on the same
+expression that defines the score, so some composition term is guaranteed by
+construction, and the informative content is the term's stability across
+labellings rather than its size.
+
+Two substitutions were forced by the deposit and are declared in the contract:
+marker-assigned programmes instead of the authors' undeposited Leiden clusters
+(so the two available labellings replace the resolution sweep), and
+within-library proliferation terciles instead of cell-cycle phase.
+
+The Foxp3-reporter time course with division tracking that this card names is now
+better motivated, because the deposited data favour the population reading and
+the within-state term is not estimable at n = 2.

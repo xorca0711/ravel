@@ -82,7 +82,13 @@ finds the Th17n EGCG module shift **not** selective for the pro-inflammatory
 group once the global shift is centred out. Wp-R2 runs only as a declared
 version-and-input sensitivity, because the published scVI-imputed input was never
 deposited; Wp-R5 is closed, the owner having declined author contact and figure
-digitisation. The five supplementary tables were
+digitisation. On the branch side, [Wp-P01](P01_RESULTS.md) and
+[Wp-P03](P03_RESULTS.md) have now executed: the cell ranking is stable to gene
+selection but the glucose effect shrinks about tenfold without the HVG filter,
+and the low-glucose score rise is a composition change with the within-state term
+inconclusive at two animals. Wp-P05 is closed in the negative, Wp-P04 is blocked
+permanently, Wp-P06 stays conditional, and Wp-P02 is the only card a new
+measurement could still move. The five supplementary tables were
 recovered on 4 October 2026 from the NIH PMC Cloud open-data package, so the
 module and signature definitions are the authors' own rather than substitutions. The single-cell deposit is the pre-QC
 aggregated matrix of 19,203 barcodes, not the 5,192-cell analysed set, and its

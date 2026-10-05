@@ -222,3 +222,7 @@ analysis/research/runs/wp_compass_sensitivity_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wp_compass_sensitivity_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
 analysis/research/runs/wp_compass_sensitivity_v1_rerun/** -text whitespace=cr-at-eol
 analysis/research/runs/wp_compass_sensitivity_v1_rerun/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_score_construction_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_score_construction_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_glucose_decomposition_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_glucose_decomposition_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
