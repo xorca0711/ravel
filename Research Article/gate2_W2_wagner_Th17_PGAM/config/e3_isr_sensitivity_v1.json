@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.e3_isr_sensitivity_v1",
+  "owner": "Wp-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Wp-E3 found the integrated stress response the most downward-shifted of fifteen programmes under EGCG in Th17n, and serine/one-carbon also falling. The two declared sets share members, because canonical ATF4 targets include serine-pathway enzymes. Does either shift survive removing the shared genes?",
+  "decision": "Whether the Wp-E3 stress result may be used as evidence about cellular stress in the Wp-P02 branch card, or must instead be recorded there as a restatement of the serine-pathway decrease already reported by Wp-R3.",
+  "strongest_rival": "The two results are one result. A small number of genes belonging to both lists - ATF4 targets that are also serine enzymes - carry both medians, so 'the stress response falls' and 'serine synthesis falls' are the same observation counted twice.",
+  "discriminator": "Recompute both programmes with the intersection removed, under Wp-E3's construction unchanged: same frozen input tables, same global-shift base, same seed, same 1,000 draws, same expression-decile null. The shared genes are additionally scored alone. If the reduced ISR set stays outside its expression-matched null in the same direction, the shift is not carried by the shared members; if it does not, it is.",
+  "evidence_refs": [
+    "Research Article/gate2_W2_wagner_Th17_PGAM/E3_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The full-set values are exposed: Wp-E3's integrated-stress-response and serine/one-carbon shifts are read and reported in E3_RESULTS.md, and the Wp-E3 contract already disclosed the overlap under nesting_and_overlap, naming MTHFD2 and SHMT2. The reduced-set values, the shared-genes-only values and their nulls are not exposed: no variant of this computation has been executed, inside or outside the governed runner, and the stop rule below was written before any reduced-set value existed. The shared gene list is not hardcoded in the entrypoint; it is computed from the Wp-E3 membership table, so the contract does not depend on the overlap being the two genes the Wp-E3 contract happened to name.",
+  "biological_unit": "Library. GSE290297 declares no animal field.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Every quantity comes from the same frozen contrast table as Wp-E3, so this is not independent evidence and cannot confirm Wp-E3 - it can only establish which genes carry a value Wp-E3 already reported. Removing shared members makes the two lists disjoint; it does not make the programmes biologically independent, because ATF4 output and serine synthesis are coupled in the biology as well as in the lists.",
+  "population_and_selection": "The two Wp-E3 programmes as that run actually scored them, read from its committed membership table rather than re-derived, in all four division-1 arms. No gene is selected by its fold change.",
+  "contrast": "Median centred log2 fold change of each variant - ISR full, ISR minus shared, serine full, serine minus shared, shared genes alone - in each of the four division-1 arms.",
+  "endpoint": "Per variant and arm: centred median, expression-matched null interval and empirical p, set median AveExpr, and the global-shift base. Plus every member gene's log2 fold change, centred value, AveExpr and adjusted p, so each median can be checked by hand.",
+  "methods": "Wp-E3's construction, unchanged and re-executed rather than re-derived: global shift is the median of genes in neither pathogenicity group; the null is 1,000 draws at seed 20261005 matching the set's own AveExpr-decile composition over ten deciles. The run asserts that the full-set variants reproduce the Wp-E3 values to within 1e-12 and fails if they do not, so a recomputation error cannot be mistaken for a sensitivity result.",
+  "missingness_and_exclusions": "Genes absent from an arm's fitted universe are dropped from that arm and the mapped count is reported.",
+  "multiplicity": "Each variant is tested against its own matched null. This is a decomposition of one reported value, not a family of hypotheses, and no conclusion rests on an empirical p near 0.05.",
+  "precision_status": "unknown",
+  "precision_basis": "Five libraries per arm with no animal field; empirical p values describe the gene-set draw, not sampling of mice.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Library-level descriptive readout of frozen tables on deposited TPM, so no animal-level or causal inference, and no independence from Wp-E3. Transcript abundance of ISR target genes is a downstream proxy for a response set by eIF2-alpha phosphorylation and ATF4 translation, so nothing here measures stress-response activity. A surviving shift licenses the observation as a transcript-level association only.",
+  "stop_rule": "Report all five variants in all four arms whichever way the focal result falls. If the Th17n EGCG ISR shift does not remain outside its expression-matched null in the same direction after the shared genes are removed, the ISR observation does not enter the Wp-P02 card as evidence about cellular stress and the card records that it is carried by the serine-pathway members instead. Do not redefine a set, change the null or add an arm after seeing a value.",
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e3_isr_sensitivity_v1.py",
+  "arguments": [
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "results.json",
+    "isr_serine_sensitivity.csv",
+    "member_gene_logfc.csv"
+  ],
+  "amendment_of": "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_global_shift_v1.json",
+  "amendment_reason": "Discharges the overlap limitation the Wp-E3 contract disclosed but did not resolve, because the Wp-P02 card now depends on which genes carry the stress shift.",
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e3_isr_sensitivity_v1.py",
+      "sha256": "1f284723adc6f0c0079e06a0e24d1e60a239cbc7e332468fa1f9b4c3ce7a2dfa"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+      "sha256": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/partition_Div1.csv.gz",
+      "sha256": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_e3_global_shift_v1/programme_membership.csv",
+      "sha256": "18a630e854437adcf6900c5da6099b70d56537406fe2084b953fee38998f9230",
+      "study_id": "Wp-E3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_e3_global_shift_v1/programme_shift.csv",
+      "sha256": "dee8cbbdd93aec6b8572c2cb92a062c36f5e5697bd727d9410a0c87dbaae7e5d",
+      "study_id": "Wp-E3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ]
+}

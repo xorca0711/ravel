@@ -204,3 +204,118 @@ uninformative-for-discrimination rather than unexecuted. The decisive
 measurement is unchanged and is now the single highest-value open step in this
 package: the PGAM x PHGDH-inhibitor two-by-two in Th17n culture with Foxp3 and
 IL-17 protein readout and 13C serine/glycine labelling from [U-13C]glucose.
+
+## Stress arm modulated and the E3 evidence recorded, 5 October 2026
+
+The stress arm is modulated rather than opened as the card originally framed it.
+Three changes, each with its basis.
+
+### 1. The card's own stress readout is retired as confounded
+
+The card proposed, conditionally, an integrated-stress-response and
+TGF-β-target module "scored per cell within library and compared **across the
+glucose arms**", and conceded in the same sentence that the low-glucose
+condition is itself a nutrient stressor, so the association would be confounded
+by design. That readout is withdrawn. It cannot distinguish a stress response to
+PGAM inhibition from a stress response to glucose withdrawal, which is the only
+contrast it looks at.
+
+### 2. It is replaced by the drug-arm readout already executed
+
+[Wp-E3](../E3_RESULTS.md) scored a declared ISR set across the **drug** arms of
+the bulk deposit, against a null matched on expression decile. That contrast
+carries no nutrient-stress confound, because glucose is held at the culture
+concentration in every library it compares. In Th17n division-1 libraries under
+EGCG:
+
+| Stress axis | Genes | Centred median | Expression-matched null p |
+|---|---|---|---|
+| Integrated stress response | 13 | **−0.491** | 0.000 |
+| Unfolded protein response (incl. *XBP1*) | 13 | +0.063 | 0.121 |
+| NRF2 oxidative stress | 13 | −0.069 | 0.419 |
+| Heat shock | 56 | +0.025 | 0.372 |
+
+All four axes either fall or do not move. The UPR row bears directly on the
+citation chain examined above: Brucklacher-Waldert's mechanism was sustained
+cytoplasmic calcium with a partial XBP1 contribution, and *XBP1* sits in that
+flat set.
+
+### 3. The overlap limitation is discharged
+
+The Wp-E3 contract disclosed that its stress and serine sets share members —
+ATF4 targets that are also serine enzymes — without resolving it. Because this
+card now depends on which genes carry the stress shift,
+[a sensitivity was frozen and executed](../../../analysis/research/runs/wp_e3_isr_sensitivity_v1/results.json)
+under its own contract, with the stop rule written before any reduced-set value
+existed: if the shift did not survive removal of the shared genes, the ISR
+observation would not enter this card.
+
+The shared genes are *MTHFD2* and *SHMT2*, computed from the Wp-E3 membership
+table rather than assumed. Removing them:
+
+| Variant | Genes | Centred median | Null p |
+|---|---|---|---|
+| ISR, as Wp-E3 scored it | 13 | −0.491 | 0.000 |
+| **ISR minus shared** | 11 | **−0.491** | 0.000 |
+| Serine/one-carbon, as scored | 13 | −0.299 | 0.000 |
+| Serine/one-carbon minus shared | 11 | −0.262 | 0.004 |
+| Shared genes alone | 2 | −0.474 | 0.034 |
+
+The ISR median is unchanged to four decimals, because it falls on *EIF4EBP1*
+whether the two shared genes are present or not. The stop rule is therefore not
+triggered: the stress shift is not an artefact of double-counting serine genes,
+and the serine decrease is not an artefact of counting ATF4 targets. The run
+asserts that its full-set recomputation reproduces Wp-E3 exactly, which it does
+(worst absolute difference 0.0).
+
+### What the ISR set actually does, gene by gene
+
+The median conceals real heterogeneity, and the card records it rather than the
+summary alone. In Th17n + EGCG the canonical ATF4 output falls hard — *CHAC1*
+−2.03, *TRIB3* −1.75, *NUPR1* −1.28, *DDIT3* −1.11, *ASNS* −0.87 — while *ATF4*
+itself barely moves (−0.19, adjusted p 0.77), which is what a translationally
+regulated transcription factor should do. Two members move the other way, and
+one of them is among the most significant genes in the set: *SESN2* +1.53
+(adjusted p 0.0004) and *ATF3* +0.21. So the set is not moving as one block, and
+the correct statement is that ATF4 *output* falls while two stress-inducible
+genes rise.
+
+### The arm asymmetry
+
+The ISR is **−0.491 under EGCG and +0.412 under DHEA** in the same Th17n
+division-1 libraries (both null p ≤ 0.001, after removing the shared genes).
+The paper reads EGCG and DHEA as two routes to one pathogenic state; at the
+level of ATF4 output they move in opposite directions. Whatever the two
+inhibitors share, it is not a common stress response.
+
+### Consequence for the decisive experiment
+
+The experiment named on this card is unchanged — PGAM × PHGDH inhibition
+two-by-two in Th17n with Foxp3 and IL-17 protein and ¹³C serine/glycine
+labelling from [U-¹³C]glucose, mouse as the unit. What changes is the status of
+one readout on it. The card previously held a stress readout as worth adding
+only if the cited texts supported the premise; they do not, and the authors'
+own libraries move ATF4 output the wrong way. A phospho-eIF2α and ATF4 protein
+panel therefore moves from an optional addition to a **falsifiable prediction
+with a stated direction**: if PGAM inhibition raises pathogenicity through
+cellular stress, ATF4 output should rise under EGCG in Th17n; the deposited
+transcriptome predicts it will not. On arms the experiment already runs, this is
+one blot or one flow panel.
+
+### What none of this does
+
+It does not touch the paper's phenotype. PGAM inhibition raising Th17
+pathogenicity, and the adoptive-transfer EAE result, are reproduced as far as
+the deposits allow ([Wp-R1](../R1_RESULTS.md), [Wp-R3](../R3_RESULTS.md)); the
+evidence here bears on the Discussion's proposed *mechanism*, not on that
+phenotype.
+
+It does not resolve the Compass-versus-Godfrey conflict, and it does not reopen
+the RNA arm. Wp-E3 and this sensitivity are further summaries of the same
+transcriptome that closed that arm, and the limits stated there hold here:
+library-level bulk TPM with no animal field, so descriptive only; and transcript
+abundance of ISR target genes is a downstream proxy for a response set by
+eIF2α phosphorylation and ATF4 translation, so no value above measures
+stress-response activity. The evidence lowers the prior on the stress
+explanation. It does not settle it, and only the perturbation with a protein
+readout can.

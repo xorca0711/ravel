@@ -1,0 +1,366 @@
+{
+ "all_arms": [
+  {
+   "contrast": "Th17n.Div.1.EGCG",
+   "expr_null_mean": -0.009624364786877762,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.14321193584068742,
+   "expr_null_q975": 0.12794513195320467,
+   "global_shift_base": 0.0917961035895551,
+   "median_AveExpr_of_set": 4.013700046894813,
+   "n_genes": 13,
+   "observed_centred_median": -0.4909160577679978,
+   "removed_genes": "",
+   "variant": "integrated_stress_response__full"
+  },
+  {
+   "contrast": "Th17n.Div.1.EGCG",
+   "expr_null_mean": 0.0030572058834073728,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.13878398459514207,
+   "expr_null_q975": 0.16513147518078686,
+   "global_shift_base": 0.0917961035895551,
+   "median_AveExpr_of_set": 3.843012459599708,
+   "n_genes": 11,
+   "observed_centred_median": -0.4909160577679978,
+   "removed_genes": "MTHFD2;SHMT2",
+   "variant": "integrated_stress_response__minus_shared"
+  },
+  {
+   "contrast": "Th17n.Div.1.EGCG",
+   "expr_null_mean": -0.04631178341486174,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.16615393534242137,
+   "expr_null_q975": 0.07554883997410927,
+   "global_shift_base": 0.0917961035895551,
+   "median_AveExpr_of_set": 7.213727370420455,
+   "n_genes": 13,
+   "observed_centred_median": -0.2987627225780107,
+   "removed_genes": "",
+   "variant": "serine_one_carbon__full"
+  },
+  {
+   "contrast": "Th17n.Div.1.EGCG",
+   "expr_null_mean": -0.03859522006233918,
+   "expr_null_p": 0.004,
+   "expr_null_q025": -0.17520215381926926,
+   "expr_null_q975": 0.11784882362308328,
+   "global_shift_base": 0.0917961035895551,
+   "median_AveExpr_of_set": 7.061437606097373,
+   "n_genes": 11,
+   "observed_centred_median": -0.26176434265055,
+   "removed_genes": "MTHFD2;SHMT2",
+   "variant": "serine_one_carbon__minus_shared"
+  },
+  {
+   "contrast": "Th17n.Div.1.EGCG",
+   "expr_null_mean": -0.048201223862088596,
+   "expr_null_p": 0.034,
+   "expr_null_q025": -0.3382452953249745,
+   "expr_null_q975": 0.4120530406289755,
+   "global_shift_base": 0.0917961035895551,
+   "median_AveExpr_of_set": 7.743262859474427,
+   "n_genes": 2,
+   "observed_centred_median": -0.47371261394421044,
+   "removed_genes": "",
+   "variant": "shared_genes_only"
+  },
+  {
+   "contrast": "Th17n.Div.1.DHEA",
+   "expr_null_mean": -0.003967668678920436,
+   "expr_null_p": 0.001,
+   "expr_null_q025": -0.16999566352026213,
+   "expr_null_q975": 0.16880950158320157,
+   "global_shift_base": 0.0470668746989688,
+   "median_AveExpr_of_set": 4.260758347076775,
+   "n_genes": 13,
+   "observed_centred_median": 0.3393378075498348,
+   "removed_genes": "",
+   "variant": "integrated_stress_response__full"
+  },
+  {
+   "contrast": "Th17n.Div.1.DHEA",
+   "expr_null_mean": 0.017777992868960556,
+   "expr_null_p": 0.001,
+   "expr_null_q025": -0.15311283351316443,
+   "expr_null_q975": 0.19347180263747302,
+   "global_shift_base": 0.0470668746989688,
+   "median_AveExpr_of_set": 3.4379825177847847,
+   "n_genes": 11,
+   "observed_centred_median": 0.41228219669034877,
+   "removed_genes": "MTHFD2;SHMT2",
+   "variant": "integrated_stress_response__minus_shared"
+  },
+  {
+   "contrast": "Th17n.Div.1.DHEA",
+   "expr_null_mean": -0.06864570445092298,
+   "expr_null_p": 0.211,
+   "expr_null_q025": -0.20338685533282475,
+   "expr_null_q975": 0.0659270282541532,
+   "global_shift_base": 0.0470668746989688,
+   "median_AveExpr_of_set": 7.054705602771122,
+   "n_genes": 13,
+   "observed_centred_median": -0.1525454357488373,
+   "removed_genes": "",
+   "variant": "serine_one_carbon__full"
+  },
+  {
+   "contrast": "Th17n.Div.1.DHEA",
+   "expr_null_mean": -0.0642876766009099,
+   "expr_null_p": 0.291,
+   "expr_null_q025": -0.2250274985659864,
+   "expr_null_q975": 0.09068254088768264,
+   "global_shift_base": 0.0470668746989688,
+   "median_AveExpr_of_set": 7.013665109452615,
+   "n_genes": 11,
+   "observed_centred_median": -0.1525454357488373,
+   "removed_genes": "MTHFD2;SHMT2",
+   "variant": "serine_one_carbon__minus_shared"
+  },
+  {
+   "contrast": "Th17n.Div.1.DHEA",
+   "expr_null_mean": -0.07923303730353909,
+   "expr_null_p": 0.293,
+   "expr_null_q025": -0.41374886183957177,
+   "expr_null_q975": 0.3433011160438543,
+   "global_shift_base": 0.0470668746989688,
+   "median_AveExpr_of_set": 7.6967666827293275,
+   "n_genes": 2,
+   "observed_centred_median": -0.2473861237008833,
+   "removed_genes": "",
+   "variant": "shared_genes_only"
+  },
+  {
+   "contrast": "Th17p.Div.1.EGCG",
+   "expr_null_mean": -0.005798177673843181,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.1874435524312558,
+   "expr_null_q975": 0.1857195531911626,
+   "global_shift_base": 0.1157967691555761,
+   "median_AveExpr_of_set": 4.521619185785544,
+   "n_genes": 13,
+   "observed_centred_median": -0.5997892437540377,
+   "removed_genes": "",
+   "variant": "integrated_stress_response__full"
+  },
+  {
+   "contrast": "Th17p.Div.1.EGCG",
+   "expr_null_mean": 0.00772919423651276,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.20524203300932287,
+   "expr_null_q975": 0.2460375866525299,
+   "global_shift_base": 0.1157967691555761,
+   "median_AveExpr_of_set": 4.090841826041804,
+   "n_genes": 11,
+   "observed_centred_median": -0.5997892437540377,
+   "removed_genes": "MTHFD2;SHMT2",
+   "variant": "integrated_stress_response__minus_shared"
+  },
+  {
+   "contrast": "Th17p.Div.1.EGCG",
+   "expr_null_mean": -0.05884885277275268,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.25151921874546346,
+   "expr_null_q975": 0.1326423382389912,
+   "global_shift_base": 0.1157967691555761,
+   "median_AveExpr_of_set": 7.560283568237782,
+   "n_genes": 13,
+   "observed_centred_median": -0.5041371337044688,
+   "removed_genes": "",
+   "variant": "serine_one_carbon__full"
+  },
+  {
+   "contrast": "Th17p.Div.1.EGCG",
+   "expr_null_mean": -0.05363878630464892,
+   "expr_null_p": 0.003,
+   "expr_null_q025": -0.24742856064690802,
+   "expr_null_q975": 0.15122852435358808,
+   "global_shift_base": 0.1157967691555761,
+   "median_AveExpr_of_set": 7.310879165024108,
+   "n_genes": 11,
+   "observed_centred_median": -0.3710211552881759,
+   "removed_genes": "MTHFD2;SHMT2",
+   "variant": "serine_one_carbon__minus_shared"
+  },
+  {
+   "contrast": "Th17p.Div.1.EGCG",
+   "expr_null_mean": -0.07238762755050351,
+   "expr_null_p": 0.025,
+   "expr_null_q025": -0.5146930112498846,
+   "expr_null_q975": 0.4881158795013513,
+   "global_shift_base": 0.1157967691555761,
+   "median_AveExpr_of_set": 7.883269618775015,
+   "n_genes": 2,
+   "observed_centred_median": -0.6731086452682038,
+   "removed_genes": "",
+   "variant": "shared_genes_only"
+  },
+  {
+   "contrast": "Th17p.Div.1.DHEA",
+   "expr_null_mean": -0.005872690744204443,
+   "expr_null_p": 0.076,
+   "expr_null_q025": -0.15327656411541707,
+   "expr_null_q975": 0.1623306574102162,
+   "global_shift_base": 0.0047198808387349,
+   "median_AveExpr_of_set": 4.622781847506476,
+   "n_genes": 13,
+   "observed_centred_median": -0.1498028566487249,
+   "removed_genes": "",
+   "variant": "integrated_stress_response__full"
+  },
+  {
+   "contrast": "Th17p.Div.1.DHEA",
+   "expr_null_mean": 0.009137396933337458,
+   "expr_null_p": 0.101,
+   "expr_null_q025": -0.16427736142330954,
+   "expr_null_q975": 0.203925863844876,
+   "global_shift_base": 0.0047198808387349,
+   "median_AveExpr_of_set": 3.654288914991544,
+   "n_genes": 11,
+   "observed_centred_median": -0.14589418643139979,
+   "removed_genes": "MTHFD2;SHMT2",
+   "variant": "integrated_stress_response__minus_shared"
+  },
+  {
+   "contrast": "Th17p.Div.1.DHEA",
+   "expr_null_mean": -0.06733971060461533,
+   "expr_null_p": 0.219,
+   "expr_null_q025": -0.20287142710683556,
+   "expr_null_q975": 0.065034466356768,
+   "global_shift_base": 0.0047198808387349,
+   "median_AveExpr_of_set": 7.76208533864582,
+   "n_genes": 13,
+   "observed_centred_median": -0.1508548758340583,
+   "removed_genes": "",
+   "variant": "serine_one_carbon__full"
+  },
+  {
+   "contrast": "Th17p.Div.1.DHEA",
+   "expr_null_mean": -0.06544936079126609,
+   "expr_null_p": 0.415,
+   "expr_null_q025": -0.20975211377402572,
+   "expr_null_q975": 0.09267938279894038,
+   "global_shift_base": 0.0047198808387349,
+   "median_AveExpr_of_set": 7.311870889982875,
+   "n_genes": 11,
+   "observed_centred_median": -0.1288028770084829,
+   "removed_genes": "MTHFD2;SHMT2",
+   "variant": "serine_one_carbon__minus_shared"
+  },
+  {
+   "contrast": "Th17p.Div.1.DHEA",
+   "expr_null_mean": -0.05903016129670984,
+   "expr_null_p": 0.09,
+   "expr_null_q025": -0.3604398173032195,
+   "expr_null_q975": 0.39496297497838395,
+   "global_shift_base": 0.0047198808387349,
+   "median_AveExpr_of_set": 8.126876890559933,
+   "n_genes": 2,
+   "observed_centred_median": -0.35308548844704685,
+   "removed_genes": "",
+   "variant": "shared_genes_only"
+  }
+ ],
+ "focal": {
+  "integrated_stress_response__full": {
+   "centred_median": -0.4909160577679978,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.14321193584068742,
+   "expr_null_q975": 0.12794513195320467,
+   "n_genes": 13
+  },
+  "integrated_stress_response__minus_shared": {
+   "centred_median": -0.4909160577679978,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.13878398459514207,
+   "expr_null_q975": 0.16513147518078686,
+   "n_genes": 11
+  },
+  "serine_one_carbon__full": {
+   "centred_median": -0.2987627225780107,
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.16615393534242137,
+   "expr_null_q975": 0.07554883997410927,
+   "n_genes": 13
+  },
+  "serine_one_carbon__minus_shared": {
+   "centred_median": -0.26176434265055,
+   "expr_null_p": 0.004,
+   "expr_null_q025": -0.17520215381926926,
+   "expr_null_q975": 0.11784882362308328,
+   "n_genes": 11
+  },
+  "shared_genes_only": {
+   "centred_median": -0.47371261394421044,
+   "expr_null_p": 0.034,
+   "expr_null_q025": -0.3382452953249745,
+   "expr_null_q975": 0.4120530406289755,
+   "n_genes": 2
+  }
+ },
+ "focal_arm": "Th17n.Div.1.EGCG",
+ "inputs_verified": {
+  "bulk_contrasts": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+  "bulk_partition": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+  "e3_membership": "18a630e854437adcf6900c5da6099b70d56537406fe2084b953fee38998f9230",
+  "e3_shift": "dee8cbbdd93aec6b8572c2cb92a062c36f5e5697bd727d9410a0c87dbaae7e5d"
+ },
+ "interpretation_limit": "Library-level descriptive readout of frozen contrast tables on deposited TPM, with no animal field, so no animal-level or causal inference. Removing shared members makes the two gene sets disjoint; it does not make the programmes biologically independent, because ATF4 output and serine synthesis are coupled in the biology as well as in the lists. Transcript abundance of ISR target genes is a downstream proxy for a response set by eIF2-alpha phosphorylation and ATF4 translation, so no value here measures stress-response activity.",
+ "isr_shift_survives_removal_in_focal_arm": true,
+ "n_shared": 2,
+ "question": "Does the Wp-E3 integrated-stress-response shift survive removing the genes it shares with the serine/one-carbon set, and vice versa?",
+ "recomputation_check": {
+  "Th17n.Div.1.DHEA|integrated_stress_response": {
+   "abs_diff": 0.0,
+   "ours": 0.3393378075498348,
+   "wp_e3": 0.3393378075498348
+  },
+  "Th17n.Div.1.DHEA|serine_one_carbon": {
+   "abs_diff": 0.0,
+   "ours": -0.1525454357488373,
+   "wp_e3": -0.1525454357488373
+  },
+  "Th17n.Div.1.EGCG|integrated_stress_response": {
+   "abs_diff": 0.0,
+   "ours": -0.4909160577679978,
+   "wp_e3": -0.4909160577679978
+  },
+  "Th17n.Div.1.EGCG|serine_one_carbon": {
+   "abs_diff": 0.0,
+   "ours": -0.2987627225780107,
+   "wp_e3": -0.2987627225780107
+  },
+  "Th17p.Div.1.DHEA|integrated_stress_response": {
+   "abs_diff": 0.0,
+   "ours": -0.1498028566487249,
+   "wp_e3": -0.1498028566487249
+  },
+  "Th17p.Div.1.DHEA|serine_one_carbon": {
+   "abs_diff": 0.0,
+   "ours": -0.1508548758340583,
+   "wp_e3": -0.1508548758340583
+  },
+  "Th17p.Div.1.EGCG|integrated_stress_response": {
+   "abs_diff": 0.0,
+   "ours": -0.5997892437540377,
+   "wp_e3": -0.5997892437540377
+  },
+  "Th17p.Div.1.EGCG|serine_one_carbon": {
+   "abs_diff": 0.0,
+   "ours": -0.5041371337044688,
+   "wp_e3": -0.5041371337044688
+  }
+ },
+ "schema": "wp_e3_isr_sensitivity/v1",
+ "shared_genes": [
+  "MTHFD2",
+  "SHMT2"
+ ],
+ "stop_rule_outcome": "ISR shift remains outside its expression-matched null after removing the shared genes; the observation may be used as evidence about cellular stress, within the transcript-level limits below.",
+ "thresholds": {
+  "n_deciles": 10,
+  "n_draws": 1000,
+  "seed": 20261005
+ },
+ "unit": "library; GSE290297 declares no animal field"
+}

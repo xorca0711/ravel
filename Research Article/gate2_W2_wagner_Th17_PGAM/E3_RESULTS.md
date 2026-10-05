@@ -122,16 +122,58 @@ back from the run's own membership file and the centring base recomputed from
 the partition table: −0.49091606 against the run's −0.49091606, difference
 exactly 0, over 13 mapped genes with base +0.091796.
 
+## Overlap sensitivity, executed 5 October 2026
+
+The stress and serine sets share two genes, which left open whether "the stress
+response falls" and "serine synthesis falls" were one observation counted
+twice. Because the [Wp-P02 card](branches/P02_serine_one_carbon_direction.md)
+came to depend on it, the question was settled under its own contract
+([config/e3_isr_sensitivity_v1.json](config/e3_isr_sensitivity_v1.json),
+receipt
+[analysis/research/runs/wp_e3_isr_sensitivity_v1/receipt.json](../../analysis/research/runs/wp_e3_isr_sensitivity_v1/receipt.json)),
+with the stop rule fixed before any reduced-set value existed and the shared
+gene list computed from this run's membership table rather than assumed.
+
+| Variant | Genes | Centred median | Expression-matched null p |
+|---|---|---|---|
+| ISR, as scored above | 13 | −0.491 | 0.000 |
+| **ISR minus shared** | 11 | **−0.491** | 0.000 |
+| Serine/one-carbon, as scored | 13 | −0.299 | 0.000 |
+| Serine/one-carbon minus shared | 11 | −0.262 | 0.004 |
+| Shared genes alone (*MTHFD2*, *SHMT2*) | 2 | −0.474 | 0.034 |
+
+Neither result is carried by the shared members. The ISR median does not move
+at all to four decimals, because it falls on *EIF4EBP1* either way. The run
+asserts that its recomputation of the full sets reproduces the values above and
+fails otherwise; the worst absolute difference across all eight full-set
+recomputations was 0.0.
+
+**Gene-level detail, Th17n + EGCG.** The median conceals heterogeneity worth
+recording. Canonical ATF4 output falls hard — *CHAC1* −2.03, *TRIB3* −1.75,
+*NUPR1* −1.28, *DDIT3* −1.11, *ASNS* −0.87 — while *ATF4* itself barely moves
+(−0.19, adjusted p 0.77), as a translationally regulated factor should. Two
+members rise, one of them among the most significant in the set: *SESN2* +1.53
+(adjusted p 0.0004) and *ATF3* +0.21. The defensible statement is that ATF4
+output falls, not that every stress gene falls. After removing the shared genes
+the arm asymmetry is if anything sharper: −0.491 under EGCG against +0.412
+under DHEA, both p ≤ 0.001.
+
 ## Limits
 
 - Library-level on deposited TPM with no animal field; no animal-level or causal
   inference.
-- Programme membership is a declared gene list, not measured pathway activity,
-  and the sets overlap by design (MTHFD2 and SHMT2 sit in both the stress and
-  serine sets); the overlap is reported, not resolved.
+- Programme membership is a declared gene list, not measured pathway activity.
+  The sets overlap by design: *MTHFD2* and *SHMT2* sit in both the stress and
+  serine sets. **That overlap has since been resolved** — see the sensitivity
+  section below.
 - A transcript shift is not flux or protein. The ISR result constrains the
   stress arm's premise; it does not measure signalling.
 - The expression-matched null absorbs a compositional effect but cannot exclude
   a genuine global response that is itself expression-dependent.
 - Five libraries per arm; empirical p values describe the gene-set draw, not
   sampling of mice.
+- The sensitivity above is not independent evidence. It reads the same frozen
+  table and can only establish which genes carry a value already reported.
+- Transcript abundance of ISR target genes is a downstream proxy for a response
+  set by eIF2α phosphorylation and ATF4 translation. Nothing here measures
+  stress-response activity.

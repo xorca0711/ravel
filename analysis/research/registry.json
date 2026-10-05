@@ -745,7 +745,8 @@
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_global_shift_v1.json",
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/e5_external_screen_v1.json",
-    "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -795,7 +796,8 @@
     "analysis/research/runs/wp_metadata_phenotypes_v1/receipt.json",
     "analysis/research/runs/wp_e3_global_shift_v1/receipt.json",
     "analysis/research/runs/wp_e5_external_screen_v1/receipt.json",
-    "analysis/research/runs/wp_figures_v2/receipt.json"
+    "analysis/research/runs/wp_figures_v2/receipt.json",
+    "analysis/research/runs/wp_e3_isr_sensitivity_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
