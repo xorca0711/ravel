@@ -41,7 +41,7 @@ So `divisions` and `tissue` are unexploited, and `treatment` has never been read
 as a **drug-class** variable — EGCG and DHEA were each compared to their own
 solvent and never to each other. Those are the three analyses below.
 
-## Wp-M1. Both inhibitors abolish the transcriptional distinction between first-division cells and the bulk population
+## Wp-M1. Both inhibitors restructure, rather than remove, the transcriptional distinction between first-division cells and the bulk population
 
 The paper gates on division-1 cells to control for proliferation. Treating that
 gate as a readout instead: within one treatment arm, Div.1 minus Total is a
@@ -70,14 +70,17 @@ below the vehicle ceiling.
 This is the clean form of the result, and it is not what the first draft of the
 analysis said. The original metrics correlated the drug effect, and the
 drug-minus-vehicle interaction, against the vehicle gate signature, and returned
-−0.31 to −0.82. Those quantities **share solvent libraries** with the vehicle
+−0.06 to −0.82. Those quantities **share solvent libraries** with the vehicle
 gate signature, so a large negative correlation was partly algebraic. Every
 correlation above is built from disjoint library groups, and the interaction term
 is reported as a distribution only (SD 0.26–0.31 log₂ units). The correction is
 recorded in the contract's exposure record.
 
 **Reading.** Division history leaves a reproducible transcriptional mark in
-vehicle-treated Th17 cultures, and PGAM inhibition or G6PD inhibition erases it.
+vehicle-treated Th17 cultures, and PGAM inhibition or G6PD inhibition replaces it
+with a different one. The signature does not shrink — its spread under drug
+(SD 0.146-0.187) is comparable to vehicle (0.176-0.232); what falls to
+approximately zero is its agreement with the vehicle signature.
 The drug effect itself is *not* gate-specific — the EGCG effect in Div.1 and in
 Total correlate at 0.57 (Th17n) and 0.80 (Th17p), with comparable median
 magnitudes — so the inhibitors are not acting only on recently divided cells.
@@ -119,8 +122,10 @@ EGCG, that selectively raises the pathogenic gene group; in the already
 pathogenic culture it is EGCG, not DHEA. Each inhibitor's module-level
 selectivity appears in the cell type where the other's does not.
 
-This matters for the paper's thesis, which rests on EGCG in Th17n — the one cell
-of this 2 × 2 where the module-level effect is *not* selective
+This matters for the paper's thesis, which rests on EGCG in Th17n, one of the
+two cells of this 2 × 2 where the module-level effect is *not* selective — the
+other being DHEA in Th17p (+0.082 on Th17p-associated genes against +0.217 on
+Th17n-associated, i.e. reversed)
 ([Wp-R3](R3_RESULTS.md), [Figure 2](FIGURES.md#figure-2-in-th17n-pgam-inhibition-moves-both-gene-groups)).
 The single genes still move as published; it is the module readout that does not
 distinguish EGCG's effect in Th17n from a transcriptome-wide shift, while DHEA's
@@ -137,16 +142,20 @@ that test on the ten paired donors:
 
 | Gene set | Genes | CSF − blood | Donors up | Random-set 95 % | Empirical p |
 |---|---|---|---|---|---|
-| **Pro-inflammatory (S1 HVG)** | 58 | **+0.061** | 10/10 | −0.005 to +0.046 | **0.003** |
-| **Programme N3** | 25 | **+0.081** | 10/10 | −0.018 to +0.058 | **0.007** |
-| **Activation set** | 10 | **+0.109** | 8/10 | −0.035 to +0.079 | **0.013** |
-| Pro-inflammatory (all genes) | 101 | +0.041 | 9/10 | +0.002 to +0.040 | 0.043 |
+| Pro-inflammatory (S1 HVG) | 58 | +0.061 | 10/10 | −0.005 to +0.046 | **0.003** |
+| Programme N3 | 25 | +0.081 | 10/10 | −0.018 to +0.058 | **0.007** |
+| Activation set | 10 | +0.109 | 8/10 | −0.035 to +0.079 | **0.013** |
+| Pro-inflammatory (all genes) | 101 | +0.041 | 9/10 | +0.002 to +0.040 | **0.043** |
 | Programme P1 | 27 | +0.059 | 10/10 | −0.018 to +0.058 | 0.052 |
-| Th17n EGCG signature (Table S3) | 805 | +0.021 | 8/10 | +0.019 to +0.027 | 0.30 |
-| **Pro-regulatory (S1 HVG)** | 25 | +0.007 | 6/10 | −0.019 to +0.059 | 0.39 |
-| Programme N1 | 37 | +0.026 | 7/10 | −0.009 to +0.052 | 0.80 |
-| Programme P4 | 85 | +0.022 | 8/10 | +0.002 to +0.042 | 0.90 |
-| Proliferation set | 10 | −0.013 | 4/10 | −0.044 to +0.079 | 0.24 |
+| Proliferation set | 10 | −0.013 | 4/10 | −0.044 to +0.079 | 0.235 |
+| Th17n EGCG signature (Table S3) | 805 | +0.021 | 8/10 | +0.019 to +0.027 | 0.297 |
+| Programme N2 | 78 | +0.010 | 8/10 | −0.001 to +0.042 | 0.302 |
+| Pro-regulatory (S1 HVG) | 25 | +0.007 | 6/10 | −0.019 to +0.059 | 0.394 |
+| Programme P2 | 81 | +0.013 | 6/10 | +0.001 to +0.044 | 0.399 |
+| Programme P3 | 45 | +0.019 | 7/10 | −0.006 to +0.050 | 0.795 |
+| Programme N1 | 37 | +0.026 | 7/10 | −0.009 to +0.052 | 0.795 |
+| Programme P4 | 85 | +0.022 | 8/10 | +0.002 to +0.041 | 0.904 |
+| Pro-regulatory (all genes) | 58 | +0.022 | 7/10 | −0.002 to +0.045 | 0.931 |
 
 **This is the first module-specific result in the package.** The
 pro-inflammatory arm exceeds its own matched-size null (p = 0.003) and rises in
@@ -156,6 +165,11 @@ glucose experiment, where the pro-regulatory arm fell and the pro-inflammatory
 arm did not rise ([Wp-R1](R1_RESULTS.md)) — both are arm-asymmetric, but in
 different arms, which is a statement about two different perturbations rather
 than a contradiction.
+
+All fourteen gene sets the run scored are listed, ordered by empirical p, as
+the contract requires. Bold marks p ≤ 0.05 against the matched null. Note that
+the pro-regulatory arm fails on both definitions — the authors' HVG set
+(p = 0.394) and all 58 mapped genes (p = 0.931).
 
 Note also what fails: the Table S3 EGCG signature, 805 mapped genes, sits inside
 its null (p = 0.30). A large transported signature does not separate the

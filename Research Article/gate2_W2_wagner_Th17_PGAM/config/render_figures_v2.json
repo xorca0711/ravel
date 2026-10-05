@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.render_figures_v2",
+  "owner": "Wp-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Re-render the figure gallery with two presentation defects corrected: the Figure 2 explanatory note overprinted by the panel letters, and the Figure 4 caption's undisclosed omission of five of the fifteen scored gene sets.",
+  "decision": "What the package shows a reader, and which claims are safe to put in a figure title before any RQ is derived from them.",
+  "strongest_rival": "A plate overstates its run - by titling a claim its own axis contradicts, by hiding a global shift behind a group median, or by presenting a sensitivity as a reproduction.",
+  "discriminator": "Each claim title is checked against every category it draws; each plate names its design in the subtitle and its interpretation limit in the footer; the Compass plate is labelled a sensitivity in its own subtitle.",
+  "evidence_refs": [
+    "Research Article/gate2_W2_wagner_Th17_PGAM/FIGURES.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Fully exposed by construction: every input is an output of an executed Wp run whose result has been read and reported. Rendering was iterated outside the governed runner on 5 October 2026 for layout only - panel letters, footer wrapping, label collisions and one legend position - and twice for correctness: the human plate initially tried to draw a pathogenicity row that has no matched random-set comparator, and the Compass plate initially computed its own ranks instead of reading the run's tie-aware ranks. No value, threshold or claim was changed to improve a figure. Re-rendered on 5 October 2026 after review: the Figure 2 note, previously drawn as free figure text at y = 0.80, collided with the bold panel letters B, C and D and was moved into the plate footer verbatim; nothing else in any plate changed. The Figure 4 omission was a caption defect, not a plot defect, and is corrected in FIGURES.md rather than in the render. No value, threshold or claim was changed.",
+  "biological_unit": "Inherited per plate: library for the bulk plates, library nested in animal for the single-cell plates, donor for the human plate, micropool for the Compass plate.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Nothing is pooled across plates and no plate combines units of different kinds on one axis. Plate 6 places Wp-P01 and Wp-P03 side by side; both use the same cells, which the footer states.",
+  "population_and_selection": "Every row drawn comes from a committed table of a governed run. No plate selects genes, cells or donors by outcome: the gene panels are the deposit's own partition, the human panel draws ten of the fifteen scored gene sets, omitting programmes N2, P2 and P3 and the all-gene forms of the two modules for legibility, which the caption now states and the run's own table carries in full, and the Compass panel shows all 83 scored reaction directions.",
+  "contrast": "Display only; each plate renders a contrast already computed and reported by its source run.",
+  "endpoint": "Six plates as PNG at 300 dpi, PDF and SVG, plus a combined PDF, a figure manifest recording the sha256 of every input table, and captions.",
+  "methods": "Layout-only rendering with matplotlib from frozen tracked CSVs. The only data operations are joins and groupings needed to place marks: attaching the Wp-R3 partition label to each gene's contrast row, and taking medians of values the source tables already contain. No statistic is recomputed and no new test is performed. Colour is bound once and reused: Th17n purple, Th17p blue, one alarm hue for marks outside a null or flagged in text. Jitter in plate 2 is cosmetic and seeded.",
+  "missingness_and_exclusions": "Plate 4 omits the pathogenicity score because it is a difference of two gene sets and therefore has no matched-size random comparator; the omission is stated in the plate footer. Plate 5 draws the 83 reaction directions with non-zero variance across pools, which is what the source run scored.",
+  "multiplicity": "No test is performed; adjusted p values shown as symbols are the source runs' own BH values.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No interval is drawn except the matched random-set interval in plate 4, which is the source run's own.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "These are generated scientific figures from frozen tables, not illustrative simulations and not reproductions of the published figures. Each plate inherits its run's limits, which its footer states: library-level bulk contrasts with no animal field, two mice in the single-cell deposit, donor-level transport of exposed signatures in the human reuse, and a version-and-input sensitivity for the Compass plate.",
+  "stop_rule": "Render the six plates as specified. Do not add a plate, drop a category, change an axis range or soften a claim title after seeing a rendering; if a title is contradicted by its own axis, the title is corrected or downgraded, never the data. Outputs refuse to overwrite.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/source_concordance.csv",
+      "sha256": "082f8892135d99ee438802d25c475b813ef703ec15864e43bcf15fa15e73525b",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+      "sha256": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/partition_Div1.csv.gz",
+      "sha256": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/library_score_means.csv",
+      "sha256": "9d4e7950aea6c86b542dad55a0f9962bcbb9ffc71ee4d4bd1258eea01ecf2b6f",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/glucose_paired_differences.csv",
+      "sha256": "b832bc17492a879271c5a96a689a0a9b6bf689a380bb455fa4967943b7ccd4f7",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/random_set_null.csv",
+      "sha256": "76f94b2f6570161183c81eaf51c9ac794d5e31223a8d9f4f8cd6a8292978516f",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v1_rerun/reaction_correlations.csv",
+      "sha256": "99579245dc129bbe2bf317db344f1841428e6bb6e4a3aae7f3c7216fca5d91db",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v1_rerun/named_reactions.csv",
+      "sha256": "3fdd4beaf2db4889042d983db4cbb283d26ece9cf81c28e96c8b2e2b5fdbaf72",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/variant_agreement.csv",
+      "sha256": "17a62e43e24a76f44fa60044e2df453cbd8f6fbc8476d46a7cec23e7677a0a09",
+      "study_id": "Wp-P01",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/glucose_direction_by_variant.csv",
+      "sha256": "e820937229b0cdef45949bc2acb279aae275ffb68dbcd95c44a4820a8549ed6d",
+      "study_id": "Wp-P01",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_glucose_decomposition_v1/decomposition.csv",
+      "sha256": "a64fb88f0a640a0af037e89688b909f7eb3d525e597dafecd88edd9cb7dbe42d",
+      "study_id": "Wp-P03",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_figures_v2.py",
+      "sha256": "751026e618eb23945ede0fec93adf5cd1f0488aab1d212e1b87ce8bef81c26c6"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_figures_v2.py",
+  "arguments": [
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "figure_manifest.json",
+    "Wang_PGAM_figures.pdf",
+    "figure_1_gate_concordance.png",
+    "figure_1_gate_concordance.pdf",
+    "figure_1_gate_concordance.svg",
+    "figure_2_module_selectivity.png",
+    "figure_2_module_selectivity.pdf",
+    "figure_2_module_selectivity.svg",
+    "figure_3_glucose_arms.png",
+    "figure_3_glucose_arms.pdf",
+    "figure_3_glucose_arms.svg",
+    "figure_4_human_random_null.png",
+    "figure_4_human_random_null.pdf",
+    "figure_4_human_random_null.svg",
+    "figure_5_compass_reactions.png",
+    "figure_5_compass_reactions.pdf",
+    "figure_5_compass_reactions.svg",
+    "figure_6_branch_sensitivity.png",
+    "figure_6_branch_sensitivity.pdf",
+    "figure_6_branch_sensitivity.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective execution version for the Wp figure gallery."
+}

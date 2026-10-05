@@ -109,7 +109,9 @@ under every labelling and stratification (share 0.68 to 3.45); the within term i
 +0.034 in Mo1 and -0.037 in Mo2 under the primary labelling, so the card's rule —
 report inconclusive if the terms disagree in sign across the two animals — fires
 and no further labelling or stratum was added. Proliferation stratification moves
-the split by less than 0.02 of share, which addresses rival 3 directly. Rival 4,
+the decomposition terms by less than 0.006 in score units (the composition share
+itself moves up to 0.05, from 1.34 to 1.29 in Mo2), which addresses rival 3
+directly. Rival 4,
 the clustering artefact, is not defeated: programmes are assigned on the same
 expression that defines the score, so some composition term is guaranteed by
 construction, and the informative content is the term's stability across

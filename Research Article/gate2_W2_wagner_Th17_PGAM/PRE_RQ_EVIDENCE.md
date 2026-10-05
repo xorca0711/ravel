@@ -57,6 +57,14 @@ carried by deposited metadata. The triage:
 | E4 name the human batch axis | technical artefact identification, and blocked | excluded |
 | E5 independent dataset | biological; needs a dataset search with a frozen inclusion rule | **screen executed 5 Oct** ([E5_RESULTS.md](E5_RESULTS.md)) |
 | E6 wet 2 x 2 with labelling | the discriminating experiment | not reanalysis |
+| E7 re-grade the paper's conclusion | not an analysis; refused as out of scope | refused |
+| E8 search for an alternative PGAM mechanism | open-ended; no pre-specifiable endpoint | refused |
+| E9 extrapolate to human autoimmunity | the data cannot support it | refused |
+
+All nine listed candidates are dispositioned above. The owner's instruction
+covered the first six; E7 to E9 were named in section 4 as ideas to be refused
+rather than revisited, and are repeated here so the table accounts for the full
+list.
 
 **Correction, same day.** E3's exclusion was wrong. Its reason — that a negative
 would be uninterpretable because TPM renormalisation can produce a
@@ -70,8 +78,10 @@ biological fields were never used as variables at all?** Two were not —
 `divisions` in GSE290297, which entered only as a gate sensitivity, and `tissue`
 in GSE138266, reported but never tested for specificity — and `treatment` had
 never been read as a drug-class variable. [Wp-M](METADATA_PHENOTYPES_RESULTS.md) executed those
-three and found: both inhibitors abolish the vehicle-measurable distinction
-between first-division cells and the bulk population; PGAM and G6PD inhibition
+three and found: both inhibitors restructure rather than remove the
+vehicle-measurable distinction between first-division cells and the bulk
+population, leaving a signature of comparable spread that no longer agrees with
+the vehicle one; PGAM and G6PD inhibition
 do not converge and their module-level selectivity is reciprocal across cell
 types; and in human CSF the pro-inflammatory arm is specifically elevated over
 the same donor's blood while the pro-regulatory arm is not.

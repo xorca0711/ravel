@@ -152,7 +152,7 @@ and what each actually measured was recorded. That step is now done, and the
 flag raised at abstract level is **confirmed for the first citation and
 unresolved for the second**.
 
-**1. Brucklacher-Waldert et al. 2017, *Cell Reports* 20:2357 (PMID 28614720),
+**1. Brucklacher-Waldert et al. 2017, *Cell Reports* 19:2357 (PMID 28614720),
 full text read.** Its title is "Cellular Stress in the Context of an Inflammatory
 Environment Supports **TGF-β-Independent** T Helper-17 Differentiation". The
 paper's own highlights state that cellular stress "can substitute for TGF-β in
