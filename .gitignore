@@ -144,3 +144,5 @@ analysis/research/runs/wp_compass_sensitivity_v1*/compass_temp/
 analysis/research/runs/wp_compass_sensitivity_v1*/compass/
 analysis/research/runs/wp_compass_sensitivity_v1/
 analysis/research/runs/wp_compass_sensitivity_v1*/pool_expression.tsv
+# Wp generated figure PDFs are receipt-declared outputs; source papers stay ignored.
+!analysis/research/runs/wp_figures_v1/*.pdf

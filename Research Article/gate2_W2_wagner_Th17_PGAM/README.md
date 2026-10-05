@@ -88,7 +88,10 @@ selection but the glucose effect shrinks about tenfold without the HVG filter,
 and the low-glucose score rise is a composition change with the within-state term
 inconclusive at two animals. Wp-P05 is closed in the negative, Wp-P04 is blocked
 permanently, Wp-P06 stays conditional, and Wp-P02 is the only card a new
-measurement could still move. The five supplementary tables were
+measurement could still move. A [six-plate figure gallery](FIGURES.md) renders
+the executed results, and the [pre-RQ checkpoint](PRE_RQ_EVIDENCE.md) lists the
+extension candidates and the three asymmetries a derivation could start from.
+No research question has been derived. The five supplementary tables were
 recovered on 4 October 2026 from the NIH PMC Cloud open-data package, so the
 module and signature definitions are the authors' own rather than substitutions. The single-cell deposit is the pre-QC
 aggregated matrix of 19,203 barcodes, not the 5,192-cell analysed set, and its
