@@ -361,6 +361,54 @@
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
         "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md"
       ]
+    },
+    {
+      "id": "A28",
+      "card": "RESEARCH_QUESTIONS.md#a28",
+      "dossier": "docs/research_dossiers/A28.md",
+      "evidence": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/Q1_arm_asymmetry.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/METADATA_PHENOTYPES_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/SOURCES_AND_GROUNDING.md",
+        "RQ_Specified/A28_th17_arm_asymmetry/README.md",
+        "RQ_Specified/A28_th17_arm_asymmetry/PLAN.md"
+      ]
+    },
+    {
+      "id": "A29",
+      "card": "RESEARCH_QUESTIONS.md#a29",
+      "dossier": "docs/research_dossiers/A29.md",
+      "evidence": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/Q2_biosynthetic_demand.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/E3_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md",
+        "RQ_Specified/A29_pgam_effector_mechanism/README.md",
+        "RQ_Specified/A29_pgam_effector_mechanism/PLAN.md"
+      ]
+    },
+    {
+      "id": "A30",
+      "card": "RESEARCH_QUESTIONS.md#a30",
+      "dossier": "docs/research_dossiers/A30.md",
+      "evidence": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/Q3_csf_compartment.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/METADATA_PHENOTYPES_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/E5_RESULTS.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/SOURCES_AND_GROUNDING.md",
+        "RQ_Specified/A30_csf_compartment_effector_state/README.md",
+        "RQ_Specified/A30_csf_compartment_effector_state/PLAN.md"
+      ]
     }
   ],
   "article_candidates": [
@@ -662,6 +710,34 @@
         "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/README.md",
         "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P06.md"
       ]
+    },
+    {
+      "id": "Wp-R01",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md"
+    },
+    {
+      "id": "Wp-P01",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P01_score_construction.md"
+    },
+    {
+      "id": "Wp-P02",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md"
+    },
+    {
+      "id": "Wp-P03",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P03_glucose_composition_vs_state.md"
+    },
+    {
+      "id": "Wp-P04",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P04_endpoint_class_dependence.md"
+    },
+    {
+      "id": "Wp-P05",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P05_human_signature_activation.md"
+    },
+    {
+      "id": "Wp-P06",
+      "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P06_epithelial_transfer_condition.md"
     }
   ],
   "contracts": [
@@ -704,7 +780,21 @@
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json",
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_figures_v1.json",
     "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
-    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/bulk_contrasts_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/score_construction_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/glucose_decomposition_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_global_shift_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/e5_external_screen_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -741,7 +831,21 @@
     "analysis/research/runs/wg_bulk_paired_descriptive_v2/receipt.json",
     "analysis/research/runs/wg_bulk_figures_v1/receipt.json",
     "analysis/research/runs/wg_bulk_limma_v1/receipt.json",
-    "analysis/research/runs/wg_closeout_qualification_v1/receipt.json"
+    "analysis/research/runs/wg_closeout_qualification_v1/receipt.json",
+    "analysis/research/runs/wp_source_qualification_v1/receipt.json",
+    "analysis/research/runs/wp_bulk_contrasts_v1/receipt.json",
+    "analysis/research/runs/wp_singlecell_reproduction_v1/receipt.json",
+    "analysis/research/runs/wp_human_signature_transfer_v1/receipt.json",
+    "analysis/research/runs/wp_human_signature_transfer_v2/receipt.json",
+    "analysis/research/runs/wp_compass_sensitivity_v1_rerun/receipt.json",
+    "analysis/research/runs/wp_score_construction_v1/receipt.json",
+    "analysis/research/runs/wp_glucose_decomposition_v1/receipt.json",
+    "analysis/research/runs/wp_figures_v1/receipt.json",
+    "analysis/research/runs/wp_metadata_phenotypes_v1/receipt.json",
+    "analysis/research/runs/wp_e3_global_shift_v1/receipt.json",
+    "analysis/research/runs/wp_e5_external_screen_v1/receipt.json",
+    "analysis/research/runs/wp_figures_v2/receipt.json",
+    "analysis/research/runs/wp_e3_isr_sensitivity_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
@@ -1035,6 +1139,36 @@
       "source_revision": "82e749aba099172583447beb26a27365ccf80772",
       "schematic_sha256": "bdcd3ec1537bed9706bb269b05fe47721095e483c9adcf1d3dd97a181633699d",
       "hypothesis_sha256": "172eec5093e9235c06b3302c0748ae1f39cf19e10740cd45f6f2e4b8c8538770"
+    },
+    {
+      "question": "A28",
+      "context": "RQ_Specified/A28_th17_arm_asymmetry/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A28_th17_arm_asymmetry/README.md",
+      "schematic": "RQ_Specified/A28_th17_arm_asymmetry/schematics/hypothesis_v1.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "924999dca7bad11b9da6feddadc87dfc6a312db7",
+      "schematic_sha256": "e028d65c8b4c3643a144eb97e92a5b1fc0f307e89108b2e37050e91b71d286a0",
+      "hypothesis_sha256": "8dde08c3f5461b8325dbc72f4ebe84cf783d88fe478fa969e0c28c33730ae156"
+    },
+    {
+      "question": "A29",
+      "context": "RQ_Specified/A29_pgam_effector_mechanism/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A29_pgam_effector_mechanism/README.md",
+      "schematic": "RQ_Specified/A29_pgam_effector_mechanism/schematics/hypothesis_v1.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "924999dca7bad11b9da6feddadc87dfc6a312db7",
+      "schematic_sha256": "caa755f1f71e8c9fe12c8a09371f236032d75b7e4452ac948ab316061a077d83",
+      "hypothesis_sha256": "0fe379b292037b1938bfd5dec31caa299bb8a2b6fd4daca01dd3ec674a8edeb5"
+    },
+    {
+      "question": "A30",
+      "context": "RQ_Specified/A30_csf_compartment_effector_state/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A30_csf_compartment_effector_state/README.md",
+      "schematic": "RQ_Specified/A30_csf_compartment_effector_state/schematics/hypothesis_v1.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "924999dca7bad11b9da6feddadc87dfc6a312db7",
+      "schematic_sha256": "384d10d1378ee6130084ef986edf7985bd24008386a054b0baf6b6a412758fd7",
+      "hypothesis_sha256": "e6b2fe259b9cd77907cc5140cdf091073ce422341b206e971b2048e7411d1fb1"
     }
   ]
 }

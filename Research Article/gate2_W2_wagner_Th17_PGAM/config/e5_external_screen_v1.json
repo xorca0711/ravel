@@ -1,0 +1,65 @@
+{
+ "schema_version": 1,
+ "analysis_id": "Wp-R01.e5_external_screen_v1",
+ "owner": "Wp-R01",
+ "status": "frozen",
+ "analysis_type": "descriptive",
+ "question": "Does an independent Th17 dataset exist that could test whether the pro-regulatory arm falls under nutrient restriction, as Wp-R1 found at low glucose in two mice?",
+ "decision": "Whether the Wp-R1 glucose result can be taken to an independent dataset at all, and if so which candidate records must be inspected next. A screen returning nothing admissible closes that route explicitly rather than leaving it as an open intention.",
+ "strongest_rival": "No admissible dataset exists, and the apparent candidates are drug perturbations, differently polarised populations, or deposits without expression values - in which case the Wp-R1 finding cannot be externally examined with public data.",
+ "discriminator": "A six-rule inclusion test written before any candidate was opened, applied to GEO DataSets summary records. Only the rules decidable from a summary are applied; the rest defer the candidate to record inspection rather than passing it.",
+ "evidence_refs": [
+  "Research Article/gate2_W2_wagner_Th17_PGAM/PRE_RQ_EVIDENCE.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/DATASETS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md"
+ ],
+ "prior_outcome_exposure": "exposed",
+ "exposure_record": "The Wp-R1 result this screen would test is read and reported, which is why the inclusion rule is written into the entrypoint before any search runs. The six rules and all six queries were fixed before execution. One dry run was executed outside the governed runner on 5 October 2026; no rule, query or term list was changed after seeing its output. One limitation of the frozen term list was visible in that output and is reported rather than fixed: `media` and `medium` are generic culture words that match a Methods sentence, so they inflate the shortlist, and the report separates candidates matching only those from candidates matching a specific nutrient term.",
+ "biological_unit": "Not applicable: the screened objects are GEO series records, not biological samples. Rule R4 requires two biological units per arm of any candidate that proceeds, where a unit is an animal, a donor or a verified independent culture.",
+ "unit_status": "not_applicable",
+ "nesting_and_overlap": "Several shortlisted series belong to one study and are not independent of each other; the screen reports them separately and does not treat them as separate candidates for rule R6. The bound input is the Wp-R1 paired glucose result this screen would seek an independent test of; the screen does not read it, and it is declared because the screen has no meaning without it.",
+ "population_and_selection": "GEO DataSets records returned by six fixed queries, deduplicated by accession. The search is not exhaustive: it covers the query terms declared, not the whole archive.",
+ "contrast": "Not applicable; this is a record-level eligibility screen.",
+ "endpoint": "Per candidate: accession, title, organism, sample count, which nutrient terms matched, screen status and the rules failed. Per run: counts of records seen, failed and deferred, with the full query log.",
+ "methods": "NCBI E-utilities esearch and esummary against db=gds, with a contact email supplied by the platform. Rules R1, R2, R6 and a weak sample-count form of R4 are decided from the summary text; R3, R5 and the biological-unit form of R4 cannot be, so surviving candidates are marked needs_record_inspection and never passed.",
+ "missingness_and_exclusions": "A query that errors is logged with its error kind and contributes no candidates. A record without an accession is skipped.",
+ "multiplicity": "No hypothesis test is performed.",
+ "precision_status": "not_applicable",
+ "precision_basis": "No estimate is produced.",
+ "validation_scope": "none",
+ "design_identifiability": "unknown",
+ "inference_scope": "descriptive",
+ "interpretation_limit": "A metadata screen over GEO summaries. It cannot establish that an admissible dataset exists, only that candidates do or do not survive the record-level rules, and a summary that omits a nutrient contrast does not prove the experiment lacked one. No expression value is read, and no candidate may enter the Wp-R1 comparison until its sample records and file list are inspected under a successor contract.",
+ "stop_rule": "Report every candidate the fixed queries return, with its rule failures, including the ones the generic culture terms admitted. Do not add a query, narrow a term list, or promote a candidate to a pass after seeing the output; a candidate can only be promoted by the successor contract that inspects its records.",
+ "inputs": [
+  {
+   "path": "analysis/research/runs/wp_singlecell_reproduction_v1/glucose_paired_differences.csv",
+   "sha256": "b832bc17492a879271c5a96a689a0a9b6bf689a380bb455fa4967943b7ccd4f7",
+   "study_id": "Wp-R1",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  }
+ ],
+ "code": [
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e5_external_screen_v1.py",
+   "sha256": "6c0e8df93a5e6977beac54890667b242963e1959840c4cd2fafdda413f2d461b"
+  }
+ ],
+ "runtime": "python",
+ "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e5_external_screen_v1.py",
+ "arguments": [
+  "--output",
+  "{run_dir}"
+ ],
+ "expected_outputs": [
+  "results.json",
+  "candidates.csv",
+  "query_log.csv"
+ ],
+ "amendment_of": "",
+ "amendment_reason": "Initial prospective execution version for the Wp-E5 eligibility screen."
+}

@@ -1,0 +1,180 @@
+{
+ "schema_version": 1,
+ "analysis_id": "Wp-R01.singlecell_reproduction_v1",
+ "owner": "Wp-R01",
+ "status": "frozen",
+ "analysis_type": "descriptive",
+ "question": "Does the deposited GSE289733 aggregated matrix reproduce the paper's single-cell results: the library-to-condition assignment, the rise of the pathogenicity score at low glucose through loss of the pro-regulatory arm, the N1 programme as least pathogenic, the gene-level glucose-by-condition interaction, and the correlation between the EGCG signature and the pathogenicity score?",
+ "decision": "Decide which of the paper's single-cell claims survive re-derivation from the only deposited matrix, and whether the pathogenicity score behaves as a programme readout or tracks proliferation and activation; this settles what Wp-P01, Wp-P03 and the Wp-P02 expression arm may assume.",
+ "strongest_rival": "The score ranks cells by proliferation, nutrient exposure or activation rather than by a pathogenicity programme, and the programme ordering follows marker-gene overlap between the score and the programme definitions rather than cell state.",
+ "discriminator": "Library-level and animal-paired score differences with the two modules decomposed; the same comparisons for a proliferation score; the N1-lowest check repeated after removing genes shared between the programme markers and the score; the signature-score correlation recomputed after removing genes shared with Table S1; agreement of derived condition labels with the GEO sample order.",
+ "evidence_refs": [
+  "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/DATASETS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/EVIDENCE_MAP.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/LITERATURE_CONTEXT.md"
+ ],
+ "prior_outcome_exposure": "exposed",
+ "exposure_record": "Fully exposed. The paper's Figure 3 conclusions, Tables S1, S4 and S5 and the Wp-R3 result were read before this contract. Two dry runs of this entrypoint were executed outside the governed runner on 4 October 2026. The first used a 10 CPM expression floor for the interaction model, which silently excluded four of the ten genes Figure 3D names (TBX21, CCL5, IL23R, FOXP3); the floor was lowered to 1 CPM in at least half the libraries on principle, because a filter that removes cell-type-restricted transcripts cannot test a claim about them, and the per-gene median CPM is now reported so any exclusion is auditable. No threshold, score definition or endpoint was changed in response to an outcome; the derived labels, the glucose direction and the N1 check were identical in both runs.",
+ "biological_unit": "Library (8), nested in animal (2). The two animals are crossed with all four cell-type x glucose conditions, one library each, so animal-paired differences exist at n = 2.",
+ "unit_status": "verified",
+ "nesting_and_overlap": "19,203 barcodes in one pre-QC aggregated matrix with eight aggregation suffixes; the deposit does not state which suffix is which library, so condition labels are derived from the data and the GEO order is treated as a prior to be tested. Animal identity cannot be derived and is carried as prior-only. Cells are nested in libraries; no cell-wise p value is treated as population inference. The Wp-R3 signature file is the same evidence lineage as this deposit's authors' analysis and is used as a secondary signature definition only.",
+ "population_and_selection": "All barcodes passing per-library QC: at least 500 detected genes, mitochondrial fraction at most 10 per cent, and log UMI within 3 median absolute deviations of the per-library median. Genes detected in at least three cells. The paper's analysed 5,192-cell set and its scVI model are not deposited, so cell membership necessarily differs and is reported rather than matched.",
+ "contrast": "Within cell type: 1 mM versus 25 mM glucose, computed per animal as a paired library difference. Between programmes: N1 versus the other N programmes within Th17n and P1-P4 within Th17p. Gene level: the glucose-by-cell-type interaction on library pseudobulk with animal as a covariate.",
+ "endpoint": "Library mean and cell-level distribution of the pro-inflammatory, pro-regulatory, pathogenicity (pro-inflammatory minus pro-regulatory) and proliferation scores; animal-paired low-minus-high glucose differences for each; programme composition and per-programme score medians with the N1-lowest indicator; Spearman and Pearson correlation of EGCG and DHEA signature scores with the pathogenicity score, with and without genes shared with Table S1; the interaction coefficient, t and p per gene; agreement of derived labels with the GEO order; agreement with the authors' Table S4 correlations.",
+ "methods": "Counts streamed from the deposited Matrix Market file, CP10K normalised and log1p transformed. Scores use the paper's method: per-gene z-scaling of log expression across the scored cells, multiplied by the module sign, then averaged. Module genes and HVG flags come from the authors' Table S1, reported in three variants (authors' HVG flags, locally recomputed Seurat-flavour HVG with library batches, and all module genes); programme markers from Table S5; EGCG and DHEA signatures from Table S3 and, as a secondary definition, from the frozen Wp-R3 run. Condition labels are derived from library pseudobulk: cell type from a Th17p-minus-Th17n marker contrast, glucose from TXNIP. The interaction is ordinary least squares on log2 CPM library pseudobulk with animal, cell type, glucose and their product, 3 residual degrees of freedom, for genes reaching 1 CPM in at least half the libraries.",
+ "missingness_and_exclusions": "Barcodes failing QC are excluded and counted per library. Genes absent from the matrix are dropped from any score and the count of scored genes is reported. If a derived label disagrees with the GEO order, the animal covariate is withheld and the interaction model is not fitted.",
+ "multiplicity": "BH within the gene-wise interaction. The paper's own threshold (unadjusted p < 0.001) is reported alongside it for comparability. No claim depends on a single unadjusted per-gene p value.",
+ "precision_status": "unknown",
+ "precision_basis": "Two animals. Animal-paired differences are reported as four paired values without a p value; cell-level standard errors describe cells within these libraries, not mice.",
+ "validation_scope": "none",
+ "design_identifiability": "unknown",
+ "inference_scope": "descriptive",
+ "interpretation_limit": "Reproduction of the source's own single-cell analysis on its own deposit. Labels are derived, animal identity is a prior, the analysed cell set differs, and two animals cannot support population inference. Agreement is not independent replication.",
+ "stop_rule": "Report all score variants, both overlap-exclusion sensitivities and all ten Figure 3D genes as computed. Do not change the expression floor, the QC thresholds, the score definition or the marker panels after execution.",
+ "inputs": [
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+   "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v2_supplements.json",
+   "sha256": "a34292407209abe916a6145d2b423e101b3d0614eddf0a91daccc87335c3f37c",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+   "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz",
+   "sha256": "80f6675b4922f7316f205afea2d4a52d612f7cc3ab830343b4f19e8f50261fe3",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+   "sha256": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+   "sha256": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_samples.soft.txt",
+   "sha256": "ec0db0447c9f99d005eba594ab59c0d34732f8e2afbe7bb0569cc7df03886638",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+   "sha256": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+   "study_id": "Wang2025_TableS1",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-3.xlsx",
+   "sha256": "de4278f0a8390777cd0faa3117edff6928bb07bcd2fbcc92d2bc17d4de7a3a1d",
+   "study_id": "Wang2025_TableS3",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-4.xlsx",
+   "sha256": "5bd2d4ddd3915451c5f51e7dd0fa734813a5e2a38fffa6a302d211ebc57203a3",
+   "study_id": "Wang2025_TableS4",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+   "sha256": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+   "study_id": "Wang2025_TableS5",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_bulk_contrasts_v1/signatures.csv",
+   "sha256": "e354f368578b45a1fabbe89655fbe63aabc5530db22f90e5f2ff47bd3531284e",
+   "study_id": "Wp-R3",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  }
+ ],
+ "code": [
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/singlecell_reproduction_v1.py",
+   "sha256": "f19f77ba20ecf2a8c06147cde9b5d37a2437cfc5c1462a98defede294bf715ea"
+  }
+ ],
+ "runtime": "python",
+ "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/singlecell_reproduction_v1.py",
+ "arguments": [
+  "--data-root",
+  "raw_data/wagner_pgam_w2_20261004",
+  "--r3-run",
+  "analysis/research/runs/wp_bulk_contrasts_v1",
+  "--output",
+  "{run_dir}"
+ ],
+ "expected_outputs": [
+  "results.json",
+  "library_labels.csv",
+  "library_score_means.csv",
+  "glucose_paired_differences.csv",
+  "programme_composition.csv",
+  "programme_composition_excl_overlap.csv",
+  "programme_scores_by_library.csv",
+  "n1_lowest_checks.csv",
+  "signature_pathogenicity_correlations.csv",
+  "tableS4_concordance.csv",
+  "fig3d_named_genes.csv",
+  "cell_scores.csv.gz",
+  "glucose_interaction_pseudobulk.csv.gz"
+ ],
+ "amendment_of": "",
+ "amendment_reason": "Initial prospective execution version for Wp-R1."
+}

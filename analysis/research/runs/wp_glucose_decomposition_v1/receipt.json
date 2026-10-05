@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-P03.glucose_decomposition_v1",
+  "owner": "Wp-P03",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/glucose_decomposition_v1.json",
+  "contract_sha256": "16675ae3342e6d9f2de6de889ca23949838c94ccfe96741df677584f9d011b38",
+  "git_commit": "3af14d2b41ed32eb1c42be3dfec151d91eea5e47",
+  "started_at": "2026-10-05T00:09:28.837146+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/glucose_decomposition_v1.py",
+    "--r1-run",
+    "analysis/research/runs/wp_singlecell_reproduction_v1",
+    "--output",
+    "analysis/research/runs/wp_glucose_decomposition_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/cell_scores.csv.gz",
+      "sha256": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/programme_composition.csv",
+      "sha256": "92b42d9737b09c07853cf58b79c88157002c0a74197d3e5a3699d9c97a99d63c",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/glucose_decomposition_v1.py",
+      "sha256": "37d4f8a50cf46d8eabae5656793fd7725cb7d7ff377d6c74a508a35df0538f22"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_glucose_decomposition_v1/results.json",
+      "sha256": "94275f7d997f3367d906586a39fbc0bcc4612b19a02807d62c840ad94870edfc"
+    },
+    {
+      "path": "analysis/research/runs/wp_glucose_decomposition_v1/decomposition.csv",
+      "sha256": "a64fb88f0a640a0af037e89688b909f7eb3d525e597dafecd88edd9cb7dbe42d"
+    },
+    {
+      "path": "analysis/research/runs/wp_glucose_decomposition_v1/decomposition_proliferation_strata.csv",
+      "sha256": "68c7c4780d5e59ad7dc34c1e4a251aee23ab64ef7f7d44e52ec9c6867a559158"
+    },
+    {
+      "path": "analysis/research/runs/wp_glucose_decomposition_v1/programme_detail.csv",
+      "sha256": "866fdb854e0fe80e3fc8daec9350d6b1ecd5ec12b96c290b6f51d81d0de31435"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-05T00:09:34.513136+00:00"
+}

@@ -203,3 +203,37 @@ analysis/research/runs/wg_bulk_limma_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wg_bulk_limma_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
 analysis/research/runs/wg_closeout_qualification_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wg_closeout_qualification_v1/*.tsv whitespace=cr-at-eol,-blank-at-eol
+
+# Preserve exact bytes of the Wang 2025 PGAM package code and contracts,
+# which the Wp-R0 contract and its receipt hash on every OS.
+"Research Article/gate2_W2_wagner_Th17_PGAM/scripts/**" -text whitespace=cr-at-eol
+"Research Article/gate2_W2_wagner_Th17_PGAM/config/**" -text whitespace=cr-at-eol
+analysis/research/runs/wp_source_qualification_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_source_qualification_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_bulk_contrasts_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_bulk_contrasts_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_singlecell_reproduction_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_singlecell_reproduction_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_human_signature_transfer_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_human_signature_transfer_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_human_signature_transfer_v2/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_human_signature_transfer_v2/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_compass_sensitivity_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_compass_sensitivity_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_compass_sensitivity_v1_rerun/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_compass_sensitivity_v1_rerun/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_score_construction_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_score_construction_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_glucose_decomposition_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_glucose_decomposition_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_figures_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_figures_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_figures_v2/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_figures_v2/*.svg whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_metadata_phenotypes_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_metadata_phenotypes_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_e3_global_shift_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_e3_isr_sensitivity_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_e3_global_shift_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_e5_external_screen_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_e5_external_screen_v1/*.csv whitespace=cr-at-eol,-blank-at-eol

@@ -228,6 +228,7 @@ Robson MJ, et al. *Generation and characterization of mice expressing a conditio
 | 14 | 2N | Nabhan AN, et al. Mapping the dialogue: decoding alveolar stem-niche interactions. *PNAS* 2026 | [10.1073/pnas.2606113123](https://doi.org/10.1073/pnas.2606113123) | 42418498 |
 | 15 | 2W | Wagner A, et al. Metabolic modeling of single Th17 cells reveals regulators of autoimmunity. *Cell* 2021 | [10.1016/j.cell.2021.05.045](https://doi.org/10.1016/j.cell.2021.05.045) | 34216539 |
 | 16 | 2W | Yadav P, et al. Myeloid-mesenchymal crosstalk drives ARG1-dependent profibrotic metabolism via ornithine in lung fibrosis. *Journal of Clinical Investigation* 2025 | [10.1172/JCI188734](https://doi.org/10.1172/JCI188734) | 40875483 |
+| 17 | 2W | Wang C, Wagner A, Fessler J, et al. The glycolytic reaction PGAM restrains Th17 pathogenicity and Th17-dependent autoimmunity. *Cell Reports* 2025 | [10.1016/j.celrep.2025.115799](https://doi.org/10.1016/j.celrep.2025.115799) | 40482033 |
 
 ### Methods references for the analysis (added 2026-09-15)
 

@@ -16,6 +16,22 @@ adds extension feasibility, existing-RQ overlaps and updated primary-source limi
 The [pre-RQ checkpoint](gate2_W1_wagner_th17_autoimmunity/PRE_RQ_EVIDENCE.md)
 retains exact-reproduction and R2/R4/R5 holds; no RQ derivation. Wg is separate from Niethamer W1.
 
+**Wang/Wagner, Gate 2W paper 17:** [PGAM and Th17 pathogenicity package](gate2_W2_wagner_Th17_PGAM/README.md),
+its [evidence map](gate2_W2_wagner_Th17_PGAM/EVIDENCE_MAP.md),
+[verified deposit inventory](gate2_W2_wagner_Th17_PGAM/DATASETS.md) and
+[Wp-R0 to Wp-R5 ladder](gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md).
+Owner read 2026-10-04; structured the same day. Six article-local candidates
+[Wp-P01 to Wp-P06](gate2_W2_wagner_Th17_PGAM/BRANCH_REGISTER.md) are registered, with
+[Wp-P02](gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md)
+carrying a directional conflict against an independent 2025 Treg result.
+Seven stages have executed and been verified, with a
+[claim-by-claim outcome table](gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026),
+a [six-plate figure gallery](gate2_W2_wagner_Th17_PGAM/FIGURES.md) and a
+[pre-RQ checkpoint](gate2_W2_wagner_Th17_PGAM/PRE_RQ_EVIDENCE.md) listing extension candidates.
+Wp-P05 is resolved in the negative, Wp-P04 and Wp-R5 are permanently blocked, and
+[what was and was not checked](gate2_W2_wagner_Th17_PGAM/VALIDATION.md) is recorded. No RQ has been derived.
+Wp is separate from Wg (paper 15) and from the Niethamer W1 analysis.
+
 **Nb5, Gate 2N N4:** [mouse ageing atlas](gate2_N4_nabhan_aging_atlas_2020/README.md) · [analysis plan](gate2_N4_nabhan_aging_atlas_2020/ANALYSIS_TRIAL_PLAN.md) · [handwritten-note reconciliation](gate2_N4_nabhan_aging_atlas_2020/NOTE_RECONCILIATION.md).
 Owner reading completed 3 October 2026. [Eight article-local candidates](gate2_N4_nabhan_aging_atlas_2020/BRANCH_REGISTER.md) are
 structured separately from source reproduction. [First analysis results](gate2_N4_nabhan_aging_atlas_2020/RESULTS.md)
@@ -126,6 +142,7 @@ linked in each study's gallery.
 
 | Study and biological context | Analysis claims and evidence | Figures |
 |---|---|---|
+| [Wang 2025: PGAM and Th17 pathogenicity](gate2_W2_wagner_Th17_PGAM/README.md) | [Claim-by-claim reproduction outcome](gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026) across seven governed runs: single cell ([Wp-R1](gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md)), bulk ([Wp-R3](gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md)), human reuse ([Wp-R4](gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md)), a Compass version-and-input sensitivity ([Wp-R2](gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md)) and the branch pair ([Wp-P01](gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md), [Wp-P03](gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md)). | [Six-plate gallery](gate2_W2_wagner_Th17_PGAM/FIGURES.md) |
 | [Wagner 2021: Th17 differentiation and metabolic scores](gate2_W1_wagner_th17_autoimmunity/README.md) | [R1 scores](gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md): 48-hour IL-17A–GFP-positive mouse cells, Th17p (IL-1β/IL-6/IL-23) versus Th17n (TGF-β1/IL-6). [Initial R3 RNA](gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md): paired control/DFMO cultures at 68 hours. | [Eight-plate gallery](gate2_W1_wagner_th17_autoimmunity/FIGURES.md); [Figure 3 d/q table](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-3-which-reaction-scores-differ); [Figure 5 axis guide](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-5-exact-axes-and-symbols); [source-aligned PCA/programs](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-6-source-aligned-rna-programs); [direct genotype interactions](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-7-direct-jmjd3-by-dfmo-rna-interactions) |
 | [Niethamer 2025: viral injury and repair](gate1_01_niethamer_2025/README.md) | [Atlas report](gate1_01_niethamer_2025/GSE262927/README.md); [follow-up outcomes](gate1_01_niethamer_2025/ANALYSIS_TRIAL_PLAN.md) | [Gallery](gate1_01_niethamer_2025/README.md#figure-gallery) |
 | [Choi 2020: AT2–DATP–AT1 transition](gate1_02_choi_2020/README.md) | [Trial outcomes](gate1_02_choi_2020/ANALYSIS_TRIAL_PLAN.md); [follow-up branches](gate1_02_choi_2020/README.md#branches-of-this-paper) | [State maps and branch galleries](gate1_02_choi_2020/README.md#figure-gallery) |
@@ -161,6 +178,7 @@ remain in the roadmap below.
 | 14 | 2N | Nabhan et al. 2026, *PNAS* | [10.1073/pnas.2606113123](https://doi.org/10.1073/pnas.2606113123) | 42418498 | an alveolosphere screen of 201 genes with chimeric RNA-seq of stem-cell effects on the fibroblast niche | [`gate2_N2_nabhan_2026/`](gate2_N2_nabhan_2026/README.md) | owner finished reading 2026-10-01; source synthesis prepared | **Nb3:** [source-informed reproduction](gate2_N2_nabhan_2026/reports/REPRODUCTION_REVIEW.md) and [descriptive extensions](gate2_N2_nabhan_2026/reports/EXTENSION_REVIEW.md); exact-source/spatial gates retained; prior A10/A2 preserved |
 | 15 | 2W | Wagner et al. 2021, *Cell* | [10.1016/j.cell.2021.05.045](https://doi.org/10.1016/j.cell.2021.05.045) | 34216539 | Reaction-level metabolic potential; separate from Niethamer W1 | [paper package](gate2_W1_wagner_th17_autoimmunity/README.md) | owner read 2026-10-04; notes reconciled | R0/R1 and paired/model-based R3 executed; eight plates with condition/axis captions; pre-RQ evidence disposition complete, explicit source/runtime holds retained |
 | 16 | 2W | Yadav et al. 2025, *JCI* | [10.1172/JCI188734](https://doi.org/10.1172/JCI188734) | 40875483 | the lung-fibrosis myeloid-to-mesenchymal ARG1 and ornithine circuit, with Wagner as co-author; the comparison proposal W1 names | not started | not started; current comparison queue; owner reading unconfirmed | W1 pseudobulk completed; Compass flux analysis not run (Stage 2 of paper 1's plan) |
+| 17 | 2W | Wang, Wagner et al. 2025, *Cell Reports* | [10.1016/j.celrep.2025.115799](https://doi.org/10.1016/j.celrep.2025.115799) | 40482033 | PGAM as a glycolytic reaction opposing the pathway average in Th17 cells; glucose-dependent effector programmes | [paper package](gate2_W2_wagner_Th17_PGAM/README.md) | owner read 2026-10-04; package structured the same day | [Wp-R0 executed and verified](gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md); Wp-R1/R3/R4 eligible descriptively, Wp-R2 and Wp-R5 blocked externally. Six Wp candidates registered; no expression value analysed. [Validation limits](gate2_W2_wagner_Th17_PGAM/VALIDATION.md) |
 | 7 | 3A | Saxton et al. 2021, *Science* | [10.1126/science.abc8433](https://doi.org/10.1126/science.abc8433) | 33737461 | structure-based decoupling of IL-10 pro- and anti-inflammatory functions | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started; reading open 2026-10-01; analysis remains gated | not started |
 | 8 | 3A | Saxton et al. 2021, *Immunity* | [10.1016/j.immuni.2021.03.008](https://doi.org/10.1016/j.immuni.2021.03.008) | 33852830 | IL-22 tissue-protective vs pro-inflammatory functions decoupled | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started; reading open 2026-10-01; analysis remains gated | not started |
 | 9 | 3B | DuPage et al. 2015, *Immunity* | [10.1016/j.immuni.2015.01.007](https://doi.org/10.1016/j.immuni.2015.01.007) | 25680271 | Ezh2 maintains regulatory T cell identity after activation | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
@@ -170,7 +188,8 @@ remain in the roadmap below.
 The `#` is a stable identifier assigned when a paper enters the roadmap, and
 folder names normally carry it. England uses branch 2C item 2 (`gate2_C2`, stable order 12),
 and Yu uses branch 2C item 3 (`gate2_C3`, stable order 13). The row order above is the reading order. Papers 12 to
-16 were added on 2026-09-15 (see the re-ranking bullet below).
+16 were added on 2026-09-15 (see the re-ranking bullet below), and paper 17 on 2026-10-04
+at the owner's request after reading it.
 
 ### Methods references, read at the backbone step that uses them
 

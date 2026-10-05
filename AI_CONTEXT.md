@@ -33,6 +33,16 @@ This file is navigation, not another scientific status register.
   distinguishes P03/P06 biological hypotheses, P04's incomplete directional
   companion, P05's predictive proposal and P01/P02 measurement support; no new A ID.
   Eight formal plates are available. Wg is separate from Niethamer W1.
+- [Wang 2025 PGAM package](Research%20Article/gate2_W2_wagner_Th17_PGAM/README.md)
+  is the newest Gate 2W paper (17), read and structured 2026-10-04. It holds a verified
+  [deposit inventory](Research%20Article/gate2_W2_wagner_Th17_PGAM/DATASETS.md), the
+  [Wp-R0 to Wp-R5 ladder](Research%20Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md),
+  six article-local candidates Wp-P01-P06 and an executed, verified
+  [Wp-R0 source qualification](Research%20Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md):
+  Wp-R1/R3/R4 eligible descriptively, Wp-R2 and Wp-R5 blocked externally. No
+  expression value has been analysed; see its
+  [validation limits](Research%20Article/gate2_W2_wagner_Th17_PGAM/VALIDATION.md).
+  Wp is separate from Wg (paper 15) and from the Niethamer W1 analysis.
 - [Paper roadmap](Research%20Article/README.md) separates reading from analysis.
   3A/3B reading is open; Niethamer/S1 and D1 remain unrun and gated.
 - [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md)

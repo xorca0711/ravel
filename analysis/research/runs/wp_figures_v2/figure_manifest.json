@@ -1,0 +1,68 @@
+{
+ "inputs_verified": {
+  "bulk_concordance": "082f8892135d99ee438802d25c475b813ef703ec15864e43bcf15fa15e73525b",
+  "bulk_contrasts": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+  "bulk_partition": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+  "compass_corr": "99579245dc129bbe2bf317db344f1841428e6bb6e4a3aae7f3c7216fca5d91db",
+  "compass_named": "3fdd4beaf2db4889042d983db4cbb283d26ece9cf81c28e96c8b2e2b5fdbaf72",
+  "human_null": "76f94b2f6570161183c81eaf51c9ac794d5e31223a8d9f4f8cd6a8292978516f",
+  "p01_agreement": "17a62e43e24a76f44fa60044e2df453cbd8f6fbc8476d46a7cec23e7677a0a09",
+  "p01_glucose": "e820937229b0cdef45949bc2acb279aae275ffb68dbcd95c44a4820a8549ed6d",
+  "p03_decomposition": "a64fb88f0a640a0af037e89688b909f7eb3d525e597dafecd88edd9cb7dbe42d",
+  "sc_library_means": "9d4e7950aea6c86b542dad55a0f9962bcbb9ffc71ee4d4bd1258eea01ecf2b6f",
+  "sc_paired": "b832bc17492a879271c5a96a689a0a9b6bf689a380bb455fa4967943b7ccd4f7"
+ },
+ "interpretation_limit": "Every plate renders values from a governed run with a verified receipt. The plates inherit each run's limits: library-level bulk contrasts with no animal field, two mice in the single-cell deposit, donor-level transport of exposed signatures in the human reuse, and a version-and-input sensitivity rather than a reproduction for the Compass plate.",
+ "plates": [
+  {
+   "figure": "figure_1_gate_concordance",
+   "files": [
+    "figure_1_gate_concordance.png",
+    "figure_1_gate_concordance.pdf",
+    "figure_1_gate_concordance.svg"
+   ]
+  },
+  {
+   "figure": "figure_2_module_selectivity",
+   "files": [
+    "figure_2_module_selectivity.png",
+    "figure_2_module_selectivity.pdf",
+    "figure_2_module_selectivity.svg"
+   ]
+  },
+  {
+   "figure": "figure_3_glucose_arms",
+   "files": [
+    "figure_3_glucose_arms.png",
+    "figure_3_glucose_arms.pdf",
+    "figure_3_glucose_arms.svg"
+   ]
+  },
+  {
+   "figure": "figure_4_human_random_null",
+   "files": [
+    "figure_4_human_random_null.png",
+    "figure_4_human_random_null.pdf",
+    "figure_4_human_random_null.svg"
+   ]
+  },
+  {
+   "figure": "figure_5_compass_reactions",
+   "files": [
+    "figure_5_compass_reactions.png",
+    "figure_5_compass_reactions.pdf",
+    "figure_5_compass_reactions.svg"
+   ]
+  },
+  {
+   "figure": "figure_6_branch_sensitivity",
+   "files": [
+    "figure_6_branch_sensitivity.png",
+    "figure_6_branch_sensitivity.pdf",
+    "figure_6_branch_sensitivity.svg"
+   ]
+  }
+ ],
+ "rendering": "layout only; joins and medians for placement, no new statistics",
+ "schema": "wp_figures/v1"
+}

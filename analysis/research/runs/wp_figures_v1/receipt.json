@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.render_figures_v1",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+  "contract_sha256": "396cf46a66bac4c95d54d99da4b5310312566ad236a1aea96c257b809c5ef83a",
+  "git_commit": "2b2aeac81011afce26366c70d938a5ba8ab5592a",
+  "started_at": "2026-10-05T00:53:54.669063+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_figures_v1.py",
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "analysis/research/runs/wp_figures_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/source_concordance.csv",
+      "sha256": "082f8892135d99ee438802d25c475b813ef703ec15864e43bcf15fa15e73525b",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+      "sha256": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/partition_Div1.csv.gz",
+      "sha256": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/library_score_means.csv",
+      "sha256": "9d4e7950aea6c86b542dad55a0f9962bcbb9ffc71ee4d4bd1258eea01ecf2b6f",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/glucose_paired_differences.csv",
+      "sha256": "b832bc17492a879271c5a96a689a0a9b6bf689a380bb455fa4967943b7ccd4f7",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/random_set_null.csv",
+      "sha256": "76f94b2f6570161183c81eaf51c9ac794d5e31223a8d9f4f8cd6a8292978516f",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v1_rerun/reaction_correlations.csv",
+      "sha256": "99579245dc129bbe2bf317db344f1841428e6bb6e4a3aae7f3c7216fca5d91db",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v1_rerun/named_reactions.csv",
+      "sha256": "3fdd4beaf2db4889042d983db4cbb283d26ece9cf81c28e96c8b2e2b5fdbaf72",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/variant_agreement.csv",
+      "sha256": "17a62e43e24a76f44fa60044e2df453cbd8f6fbc8476d46a7cec23e7677a0a09",
+      "study_id": "Wp-P01",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/glucose_direction_by_variant.csv",
+      "sha256": "e820937229b0cdef45949bc2acb279aae275ffb68dbcd95c44a4820a8549ed6d",
+      "study_id": "Wp-P01",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_glucose_decomposition_v1/decomposition.csv",
+      "sha256": "a64fb88f0a640a0af037e89688b909f7eb3d525e597dafecd88edd9cb7dbe42d",
+      "study_id": "Wp-P03",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_figures_v1.py",
+      "sha256": "333c55b1d2ba93f7cf6c2eac11076a5e47656bb2ecfac66f823188d606a8801e"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_manifest.json",
+      "sha256": "8cbf4d34f94d3ec7f0476fec790e79b0ada339b45b2d3cc24d75c2250d364092"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/Wang_PGAM_figures.pdf",
+      "sha256": "06871a8ef407b88f668e7ebafa2b44f28dcb264c40af932125a9755f4f803e52"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_1_gate_concordance.png",
+      "sha256": "f16d5cef93f9d938006ecaad1ec6c33953347c93e18b535b399259fe99e4df7e"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_1_gate_concordance.pdf",
+      "sha256": "30257b128187640aab0e1710d29ec58b9aafa60f253cd2d83311329600bd75f7"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_1_gate_concordance.svg",
+      "sha256": "01b2b8dd7d0b8b61a3d8cedbe5dcb8b4364260387141067de96d1e1a7de3f343"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_2_module_selectivity.png",
+      "sha256": "1fae6051c0f699ed9eaf004c097553020a546f6c535368f00bea661a59ff070b"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_2_module_selectivity.pdf",
+      "sha256": "76309fbcad823808a56cb7de6082d49f02361ef60847b8e1e05ede8df77c1bd9"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_2_module_selectivity.svg",
+      "sha256": "b938d7a8df395bb17a0d0c61faacee5f68aaf423f33d449b561af1d645085285"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_3_glucose_arms.png",
+      "sha256": "d4f308b9ac5e65b13a9a964088d6a1e77bb37434ecc7128d4c43362834ec7e00"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_3_glucose_arms.pdf",
+      "sha256": "a84d35214aac1eff615780c16f8cbefe9785f795263ef982dc7f448ef596d9f0"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_3_glucose_arms.svg",
+      "sha256": "c6c0510ec6f27c485328be9b4f4c44a1c52f3d7f589994fe6a4c12c5fe34a8ed"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_4_human_random_null.png",
+      "sha256": "6f77db79dff4b3dd424b0dd351526078033d9c008cdaf559ef9b7fa9730b4905"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_4_human_random_null.pdf",
+      "sha256": "ec8ccd4f8bc101ba299f6a53232822027591579facf58094293b79a28ea56675"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_4_human_random_null.svg",
+      "sha256": "b7ab7d36d76d03ddea78e0a3d550a09b968029e9611ab2037466853a5a5d7081"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_5_compass_reactions.png",
+      "sha256": "29b7344d66a22ed38959c46918a8a6d062d24ca24fa1c165aeecee7f186610b0"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_5_compass_reactions.pdf",
+      "sha256": "fec9b2f775a580cf58cec207dbcf088f7ebffe59836a25adec46264e6eb48e43"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_5_compass_reactions.svg",
+      "sha256": "a2a1d80ec9de7bcc850d8878c21e53b95e2efa6aeaf332b1d71f6c5093180ed2"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_6_branch_sensitivity.png",
+      "sha256": "856962f9bfed148ac54db855a92e5f04cca0b02c0ebc7c1debe47b77f6002bbf"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_6_branch_sensitivity.pdf",
+      "sha256": "a180062574aee322bffd821c4583e399ea2eba30923d60a3c87efc4dfec3d5fd"
+    },
+    {
+      "path": "analysis/research/runs/wp_figures_v1/figure_6_branch_sensitivity.svg",
+      "sha256": "81b03f69d652d1ce58169e9c7581db5ffb349996bf0405fd5cac6ab349af76f4"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-05T00:54:26.980318+00:00"
+}

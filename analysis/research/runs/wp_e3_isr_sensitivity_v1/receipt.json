@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.e3_isr_sensitivity_v1",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json",
+  "contract_sha256": "3976814c0803373e10d20ed1326404dc9bcfc6b7b5c1822d1d9630e735fff6ac",
+  "git_commit": "582ce132f5f5ccc418e3072252834080b6312069",
+  "started_at": "2026-10-05T02:20:49.926588+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e3_isr_sensitivity_v1.py",
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "analysis/research/runs/wp_e3_isr_sensitivity_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+      "sha256": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/partition_Div1.csv.gz",
+      "sha256": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_e3_global_shift_v1/programme_membership.csv",
+      "sha256": "18a630e854437adcf6900c5da6099b70d56537406fe2084b953fee38998f9230",
+      "study_id": "Wp-E3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_e3_global_shift_v1/programme_shift.csv",
+      "sha256": "dee8cbbdd93aec6b8572c2cb92a062c36f5e5697bd727d9410a0c87dbaae7e5d",
+      "study_id": "Wp-E3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e3_isr_sensitivity_v1.py",
+      "sha256": "1f284723adc6f0c0079e06a0e24d1e60a239cbc7e332468fa1f9b4c3ce7a2dfa"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_e3_isr_sensitivity_v1/results.json",
+      "sha256": "dc87d216b7ffcd1bc66da219895573b464cd8bf89f617129d03e869a1127d317"
+    },
+    {
+      "path": "analysis/research/runs/wp_e3_isr_sensitivity_v1/isr_serine_sensitivity.csv",
+      "sha256": "4b0329e240aed744b008d49220bd672654b811dcf2845373aa06b687ad04d95a"
+    },
+    {
+      "path": "analysis/research/runs/wp_e3_isr_sensitivity_v1/member_gene_logfc.csv",
+      "sha256": "97cdd7c502a440d0bf690ad8f4c076fc35b7d6a82a13cbc7b7ff6555de81aa0c"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-05T02:21:31.924155+00:00"
+}

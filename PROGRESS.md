@@ -2,6 +2,85 @@
 
 **Update this before stopping work, every session.**
 
+## Wang 2025 PGAM package opened — 4 October 2026
+
+The owner read [Wang, Wagner, Fessler et al., *Cell Reports* 2025](https://doi.org/10.1016/j.celrep.2025.115799)
+(PGAM restrains Th17 pathogenicity) and asked for its analysis to be structured as
+`Research Article/gate2_W2_wagner_Th17_PGAM`. Branch `codex/wagner-pgam-w2-20261004`
+off main `9a49d26a`. The package is paper **17**, Gate **2W** item **W2**, with
+**Wp** identifiers kept separate from Wg (paper 15) and the Niethamer W1 analysis.
+
+[Wp-R0 source qualification](Research%20Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md)
+executed and verified under the runner (receipt `wp_source_qualification_v1`), and
+every endpoint was recomputed by a second route with all twelve comparisons
+agreeing. What the deposits actually contain: GSE289733 is one pre-QC aggregated
+matrix of 19,203 barcodes × 31,053 genes for 8 libraries from 2 animals crossed
+with all four conditions (two libraries each), and the suffix-to-GSM order is
+**not declared**, so single-cell condition labels must be re-derived; GSE290297 joins 79 libraries one-to-one to 79 TPM columns over 20,465
+genes with **no animal field** and no counts; GSE138266 gives 12 donor codes
+(6 MS, 6 control, 10 with paired CSF and blood), the only donor-level unit in the
+paper. Stage eligibility: Wp-R1, Wp-R3 and Wp-R4 eligible descriptively; Wp-R2
+blocked without a Gurobi licence and without the published imputed input; Wp-R5
+blocked because no numerical assay values are deposited.
+
+Six article-local candidates Wp-P01–P06 are registered, none preferred.
+[Wp-P02](Research%20Article/gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md)
+is the one that could change a conclusion: this paper's Compass prediction puts the
+3PG serine shunt with the pro-regulatory program, while
+[Godfrey et al. 2025](https://doi.org/10.7554/eLife.104423) report that PGAM
+inhibition suppresses Treg character *through* 3PG-derived serine and one-carbon
+metabolism. Same enzyme, same phenotypic direction, opposite mechanism.
+
+Two source problems are recorded, not resolved: the pathogenicity score's sign is
+stated one way in Results and the opposite way in STAR Methods (the same conflict
+the [2021 package](Research%20Article/gate2_W1_wagner_th17_autoimmunity/HANDOFF_2026-10-04.md)
+already holds open), and the reused human deposit's own overall-design field
+claims a five-versus-five cohort while its sample records resolve to six donors
+per group — the deposit's discrepancy, not a claim in the Wang text.
+
+Supplementary tables S1 and S3–S6 were then **recovered** from the NIH PMC Cloud
+open-data package `PMC12443480.1`, after declining two routes that would have
+required impersonating a browser (PMC's viewer gates `bin/` downloads behind an
+anti-bot challenge; `ars.els-cdn.com` refuses non-browser clients). Identity is
+confirmed twice over: `supplement-1.pdf` is byte-identical to the owner-supplied
+supplement PDF, and Table S1's `is_HVG` flags count 63 and 30 genes out of 116 and
+68, the exact numbers the paper states were scored. They are recorded under a
+separate `acquisition_v2_supplements.json`, leaving the frozen Wp-R0 contract's
+`acquisition_v1.json` untouched. Wp-R1 and Wp-R3 are therefore exact reproductions
+of the published definitions.
+
+**Wp-R3, Wp-R1 and Wp-R4 then executed and verified under the runner** (receipts
+`wp_bulk_contrasts_v1`, `wp_singlecell_reproduction_v1`,
+`wp_human_signature_transfer_v1` and its v2 amendment), each with an independent
+arithmetic check from a second output file. The
+[claim-by-claim outcome table](Research%20Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026)
+records all of it; three results matter.
+
+1. The undeclared single-cell library order **is** recoverable: marker-derived
+   cell type and TXNIP-derived glucose agree with the GEO order in 8/8 libraries,
+   and the pathogenicity score then rises at low glucose in 4/4 animal-paired
+   comparisons through loss of the pro-regulatory arm, exactly as published,
+   with N1 least pathogenic in 12/12 checks even after removing shared marker genes.
+2. The bulk contrasts reproduce Table S3 on the first-division gate (log2FC
+   r 0.83–0.92), but **the Th17n EGCG module shift is not selective**: both gene
+   groups rise by similar amounts on a global shift (between-group Mann-Whitney
+   p = 0.97), while the single genes the paper names do move as described.
+   Th17n EGCG is also the weakest reproduction (recall 0.405 of 926 genes).
+3. The human claim does not survive its own null. In CSF nothing separates MS
+   from the comparison cohort; in blood both modules and three programmes do, but
+   **1,000 matched-size random gene sets separate the cohorts just as well**
+   (pro-inflammatory empirical p = 0.29), so Figure S4's blood result is a
+   donor-level axis. Wp-P05 is closed in the negative; a disease-independent
+   CSF-versus-blood compartment effect is what remains.
+
+Wp-R5 is **closed, not executed**: the owner judged author contact implausible and
+declined digitisation, so the non-RNA panels stay as cited evidence. Wp-R2 is
+unblocked on the licence (Gurobi WLS verified; Compass 1.0.0 from the authors' own
+fork installed) but can only ever be a version-and-input sensitivity, since the
+published scVI-imputed input was never deposited. No claim-register row, no A
+identifier and no scientific acceptance was created. Local repository and research
+checks pass; GitHub CI and owner review remain separate.
+
 ## Wagner RQ framing audit — 4 October 2026
 
 Reviewed the six cards at `359fd63` against live merged PRs #130/#133–#136 and

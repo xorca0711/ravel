@@ -1,0 +1,110 @@
+{
+ "declared_substitutions": [
+  "programme labels are Wp-R1 Table S5 marker assignments, not the authors' Leiden clusters; the two available labellings replace the card's coarser/finer resolution sweep",
+  "cell-cycle phase is not deposited; within-library proliferation-score terciles are the stratum"
+ ],
+ "estimator": "Kitagawa: within uses pooled proportions, composition uses pooled within-programme means",
+ "exposure_note": "Before freezing, library-level programme proportions and within-programme medians from the Wp-R1 outputs were recombined by hand, which recovered roughly +0.126 and +0.111 of the +0.133 and +0.109 observed differences and suggested composition would dominate. That arithmetic is recorded as exposure; no estimator, threshold or stratum was chosen in response to it.",
+ "inputs_verified": {
+  "wp_singlecell_reproduction_v1/cell_scores.csv.gz": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf",
+  "wp_singlecell_reproduction_v1/programme_composition.csv": "92b42d9737b09c07853cf58b79c88157002c0a74197d3e5a3699d9c97a99d63c"
+ },
+ "interpretation_limit": "A decomposition on derived programme labels cannot establish that a cell changed state or that a programme was lost; both need lineage or time-resolved measurement, which this deposit does not contain. Programmes are defined from the same expression as the score, so a composition term is partly guaranteed by construction - this is the card's own clustering-artefact rival, and the informative content is how the term moves between labellings and strata, not its bare size. Two animals cap the result at descriptive.",
+ "min_cells_per_programme_per_condition": 20,
+ "primary_decomposition": [
+  {
+   "animal": "Mo1",
+   "cell_type": "Th17n",
+   "composition_share": 0.7418044671698643,
+   "composition_term": 0.0989092201221782,
+   "interaction_term": -6.938893903907228e-17,
+   "total_difference": 0.13333597261760516,
+   "within_share": 0.2581955328301363,
+   "within_term": 0.034426752495427024
+  },
+  {
+   "animal": "Mo2",
+   "cell_type": "Th17n",
+   "composition_share": 1.338198108390338,
+   "composition_term": 0.14581005691741591,
+   "interaction_term": 2.7755575615628914e-17,
+   "total_difference": 0.10895999329486773,
+   "within_share": -0.3381981083903384,
+   "within_term": -0.036850063622548224
+  },
+  {
+   "animal": "Mo1",
+   "cell_type": "Th17p",
+   "composition_share": 3.450142544190145,
+   "composition_term": 0.15012753321556024,
+   "interaction_term": 2.7755575615628914e-17,
+   "total_difference": 0.04351342916783742,
+   "within_share": -2.450142544190145,
+   "within_term": -0.10661410404772284
+  },
+  {
+   "animal": "Mo2",
+   "cell_type": "Th17p",
+   "composition_share": 1.895308510243704,
+   "composition_term": 0.11095365522509748,
+   "interaction_term": -2.7755575615628914e-17,
+   "total_difference": 0.05854121090335354,
+   "within_share": -0.8953085102437034,
+   "within_term": -0.052412444321743905
+  }
+ ],
+ "schema": "wp_p03_glucose_decomposition/v1",
+ "sign_consistency_across_animals": {
+  "programme": {
+   "composition_sign_agrees_across_animals": true,
+   "within_sign_agrees_across_animals": false
+  },
+  "programme_excl_overlap": {
+   "composition_sign_agrees_across_animals": true,
+   "within_sign_agrees_across_animals": true
+  }
+ },
+ "stratified_decomposition": [
+  {
+   "animal": "Mo1",
+   "cell_type": "Th17n",
+   "composition_share": 0.7280676666739871,
+   "composition_term": 0.09709163782455935,
+   "interaction_term": -2.0829820791278834e-17,
+   "total_difference": 0.13335523917454073,
+   "within_share": 0.271932333326013,
+   "within_term": 0.0362636013499814
+  },
+  {
+   "animal": "Mo2",
+   "cell_type": "Th17n",
+   "composition_share": 1.2922705633879141,
+   "composition_term": 0.1408121478558857,
+   "interaction_term": 2.776960066647056e-17,
+   "total_difference": 0.10896491171842677,
+   "within_share": -0.2922705633879142,
+   "within_term": -0.03184723613745893
+  },
+  {
+   "animal": "Mo1",
+   "cell_type": "Th17p",
+   "composition_share": 2.527136865275456,
+   "composition_term": 0.10994270176068104,
+   "interaction_term": -9.241971056135368e-18,
+   "total_difference": 0.04350484663943889,
+   "within_share": -1.5271368652754553,
+   "within_term": -0.06643785512124213
+  },
+  {
+   "animal": "Mo2",
+   "cell_type": "Th17p",
+   "composition_share": 0.6794697581010001,
+   "composition_term": 0.03979446758355301,
+   "interaction_term": -1.677907220611178e-17,
+   "total_difference": 0.058566944457942666,
+   "within_share": 0.32053024189900003,
+   "within_term": 0.01877247687438966
+  }
+ ],
+ "unit": "cells within 8 libraries from 2 animals, crossed over all four conditions"
+}

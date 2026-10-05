@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "analysis_id": "Wp-R01.compass_sensitivity_v1",
+ "owner": "Wp-R01",
+ "status": "frozen",
+ "analysis_type": "descriptive",
+ "question": "Under a modern Compass, a restricted reaction set and micropooled rather than scVI-imputed input, does the PGAM reaction (3PG to 2PG) still show a negative association with the Th17n pathogenicity score, as Figure 1 reports?",
+ "decision": "Decide whether the paper's central prediction is robust to the Compass version and to the input that is actually available, which is the only part of Figure 1 that can be examined at all.",
+ "strongest_rival": "The sign of the PGAM association is an artefact of the scVI imputation step or of the specific Compass version, or every glycolytic reaction in the subsystem shows the same association, making the PGAM result unremarkable within its own pathway.",
+ "discriminator": "Spearman correlation across micropools between each reaction's Compass score and the pool mean pathogenicity score, with PGM and DPGM named in advance and the whole scored reaction set reported so that PGAM's position within its own subsystem is visible.",
+ "evidence_refs": [
+  "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/EVIDENCE_MAP.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P01_score_construction.md"
+ ],
+ "prior_outcome_exposure": "exposed",
+ "exposure_record": "Fully exposed: Figure 1's conclusion was read first. Pilot runs on 4 October 2026 established that Compass's own kNN micropooling does not complete on this host, that multiprocessing pools are denied by the sandbox (WinError 5) so a serial shim is required, and that a two-pool run over four subsystems takes 125 s per pool. No pilot produced a correlation with any score; the reaction set and pool count were set for runtime, not for an outcome.",
+ "biological_unit": "Micropool of about 50 Th17n cells, nested in library (4 Th17n libraries) and animal (2). The pool is a computational construct, not a biological replicate.",
+ "unit_status": "verified",
+ "nesting_and_overlap": "Pools are disjoint sets of cells from a single library, so pools within a library share the animal and the culture. Correlations across pools therefore describe within-deposit variation and are not replicated observations.",
+ "population_and_selection": "Wp-R1's QC-passing Th17n cells (8,711). Pools with at least 20 cells are eligible; a stratified subsample of 60 eligible pools, equal share per library, seed 20261004, is scored because each pool costs about a minute of solver time.",
+ "contrast": "Across pools: each reaction's Compass score against the pool mean pathogenicity score, and against the pro-inflammatory arm, the pro-regulatory arm, the Table S3 Th17n EGCG signature and a proliferation score.",
+ "endpoint": "Per-reaction Spearman rho and p against each pool-level score, BH-adjusted across reactions for the pathogenicity endpoint; the named PGAM reactions (PGM, DPGM) with their rank among all scored reactions; the ten most negative and ten most positive reactions.",
+ "methods": "Compass 1.0.0 (wagnerlab-berkeley fork), RECON2_mat, mus_musculus, lambda 0, no meta-reactions, Gurobi optimiser, reaction scope restricted to glycolysis/gluconeogenesis and glycine/serine/alanine/threonine metabolism. Input is the mean CP10K expression of each micropool. Pools come from a 20-component truncated SVD of log1p CP10K within each library followed by k-means with k = n/50, seed 20261004. Execution uses a serial pool shim that calls the same functions in the same order as a single-worker multiprocessing pool.",
+ "missingness_and_exclusions": "Reactions with zero variance across pools are dropped and the count reported. Pools below 20 cells are ineligible. If Compass fails, the run records status compass_failed and no correlation.",
+ "multiplicity": "BH across reactions for the pathogenicity endpoint; other score endpoints are reported unadjusted as descriptive.",
+ "precision_status": "unknown",
+ "precision_basis": "Pools within a library are not independent of each other, so the nominal degrees of freedom of a 60-pool correlation overstate the information; no confidence statement is made.",
+ "validation_scope": "none",
+ "design_identifiability": "unknown",
+ "inference_scope": "descriptive",
+ "interpretation_limit": "Version-and-input sensitivity, never a reproduction of Figure 1: the published input was not deposited and the reaction scope is restricted, so the published reaction ranking is out of scope. Supports a statement about the sign and relative size of the PGAM association under these substitutions only.",
+ "stop_rule": "Report the sign and rank of the named reactions as computed, including a null or opposite result. Do not extend the reaction set, change the pool size or add pools after seeing the correlation.",
+ "inputs": [
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+   "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz",
+   "sha256": "80f6675b4922f7316f205afea2d4a52d612f7cc3ab830343b4f19e8f50261fe3",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+   "sha256": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+   "sha256": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_singlecell_reproduction_v1/cell_scores.csv.gz",
+   "sha256": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf",
+   "study_id": "Wp-R1",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  }
+ ],
+ "code": [
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_sensitivity_v1.py",
+   "sha256": "2341d57a0c9421a95a88b729ca973fe50fc7bf4fc36f653dccd3472e1343dd26"
+  },
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_serial_runner_v1.py",
+   "sha256": "c3ef20eaf970dd52a15b31963e9a71cb1975ced20e45d913953bcd2b593749e3"
+  }
+ ],
+ "runtime": "python",
+ "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_sensitivity_v1.py",
+ "arguments": [
+  "--data-root",
+  "raw_data/wagner_pgam_w2_20261004",
+  "--r1-run",
+  "analysis/research/runs/wp_singlecell_reproduction_v1",
+  "--output",
+  "{run_dir}"
+ ],
+ "expected_outputs": [
+  "results.json",
+  "pool_scores.csv",
+  "reaction_correlations.csv",
+  "named_reactions.csv",
+  "compass_stdout.log"
+ ],
+ "amendment_of": "",
+ "amendment_reason": "Initial prospective execution version for Wp-R2 as a declared sensitivity."
+}

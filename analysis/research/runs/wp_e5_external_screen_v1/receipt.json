@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.e5_external_screen_v1",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/e5_external_screen_v1.json",
+  "contract_sha256": "613da7c8e1d7fcaa935752ddbad63dffec40dcb582bf4030bbfac3d3b59b2ad5",
+  "git_commit": "23e328678dd48decbeccd687af322c850e47b2fd",
+  "started_at": "2026-10-05T01:50:46.950007+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e5_external_screen_v1.py",
+    "--output",
+    "analysis/research/runs/wp_e5_external_screen_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/glucose_paired_differences.csv",
+      "sha256": "b832bc17492a879271c5a96a689a0a9b6bf689a380bb455fa4967943b7ccd4f7",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e5_external_screen_v1.py",
+      "sha256": "6c0e8df93a5e6977beac54890667b242963e1959840c4cd2fafdda413f2d461b"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_e5_external_screen_v1/results.json",
+      "sha256": "95da5e626ba6f5d68ed71bedef962aea9bbc1c3f693305f40369cb4816c1497d"
+    },
+    {
+      "path": "analysis/research/runs/wp_e5_external_screen_v1/candidates.csv",
+      "sha256": "ec051ba2d5721713aca6aa1b224ecfb3bd11dca5cb738681f13dcf736d413f2b"
+    },
+    {
+      "path": "analysis/research/runs/wp_e5_external_screen_v1/query_log.csv",
+      "sha256": "cd16c8e16b0413381e60df849508167f855a106644fb6de8a409e66f8d87b8fb"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-05T01:51:05.376780+00:00"
+}
