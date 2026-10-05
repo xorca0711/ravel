@@ -1,0 +1,86 @@
+{
+ "schema_version": 1,
+ "analysis_id": "Wp-R01.e3_global_shift_v1",
+ "owner": "Wp-R01",
+ "status": "frozen",
+ "analysis_type": "descriptive",
+ "question": "The Wp-R3 finding that EGCG raises both pathogenicity gene groups in Th17n sits on top of a transcriptome-wide upward shift. What carries that shift: a coherent biological programme, or a compositional consequence of TPM renormalisation?",
+ "decision": "Whether the non-selective Th17n EGCG module result reflects a identifiable cellular response - which would be a biological finding and would bear on the Wp-P02 stress arm - or a scale artefact, which would make the module-level readout uninterpretable rather than merely non-selective.",
+ "strongest_rival": "The shift is compositional. TPM renormalises to a fixed total, so if a subset of transcripts rises the remainder must fall, and the apparent global move is a function of expression level rather than of any programme.",
+ "discriminator": "A null drawn to match each gene set's own AveExpr-decile composition. A compositional effect is a function of expression level, so an expression-matched null absorbs it; a programme exceeding that null is not a renormalisation artefact, and one inside it is uninformative rather than confounded. The shift is also profiled directly against expression decile, where a monotone relation is the compositional signature.",
+ "evidence_refs": [
+  "Research Article/gate2_W2_wagner_Th17_PGAM/PRE_RQ_EVIDENCE.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/FIGURES.md"
+ ],
+ "prior_outcome_exposure": "exposed",
+ "exposure_record": "Fully exposed: the Wp-R3 result that motivates this analysis is read and reported. This analysis was listed as candidate E3 in the pre-RQ checkpoint and EXCLUDED there, on the ground that a negative result would be uninterpretable without counts or spike-ins. That exclusion was wrong and this contract is its correction: the confound is a function of expression level and is absorbed by an expression-matched null, the same construction that produced the one specific result in the human tissue analysis. One dry run was executed outside the governed runner on 5 October 2026 with the gene sets and both nulls already fixed; no set, threshold or endpoint was changed after it.",
+ "biological_unit": "Library. GSE290297 declares no animal field.",
+ "unit_status": "verified",
+ "nesting_and_overlap": "All quantities come from one frozen contrast table, so the programme comparisons share the libraries that produced it and are not independent of each other. Gene sets overlap by design - serine and one-carbon genes appear in the stress set, MTHFD2 and SHMT2 in both - and the overlap is reported rather than resolved.",
+ "population_and_selection": "All genes with finite logFC and AveExpr in each division-1 contrast of the frozen Wp-R3 table. Gene sets are declared in the entrypoint before execution; sets with fewer than five mapped genes are skipped and the mapped count is reported.",
+ "contrast": "Each programme's median log2 fold change minus the median of the genes in neither pathogenicity group, in each of the four division-1 arms.",
+ "endpoint": "Per programme and arm: the centred median, its size-matched null interval and empirical p, its expression-matched null interval and empirical p, and the set's median AveExpr against the universe's. Per arm: the median log2 fold change by expression decile and the Spearman correlation between decile rank and median.",
+ "methods": "Programme sets are explicit lists, or prefix families where nomenclature defines the family (ribosomal proteins, OXPHOS subunits, mitochondrially encoded genes, histones, heat-shock genes). Nulls are 1,000 draws, seed 20261005; the expression-matched null draws the same number of genes from the same AveExpr deciles as the observed set. No statistic from Wp-R3 is recomputed.",
+ "missingness_and_exclusions": "Genes absent from an arm's fitted universe are dropped from that arm; sets below five mapped genes are skipped.",
+ "multiplicity": "Each set is tested against its own matched null, which is a specificity question rather than a family of hypotheses; no cross-set adjustment is applied and no claim rests on a single empirical p near 0.05.",
+ "precision_status": "unknown",
+ "precision_basis": "Five libraries per arm with no animal field; empirical p values describe the gene-set draw, not sampling of mice.",
+ "validation_scope": "none",
+ "design_identifiability": "unknown",
+ "inference_scope": "descriptive",
+ "interpretation_limit": "Library-level descriptive readout of a frozen contrast table on deposited TPM, so no animal-level or causal inference. Programme membership is a declared gene list, not measured pathway activity, and a transcript shift is not flux or protein. The expression-matched null addresses the compositional confound but cannot exclude a genuine global response that is itself expression-dependent.",
+ "stop_rule": "Report every declared programme in all four arms with both nulls, including sets that fall inside their null. Do not add, drop or redefine a gene set after seeing a result, and do not reclassify the focal arm.",
+ "inputs": [
+  {
+   "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+   "sha256": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+   "study_id": "Wp-R3",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_bulk_contrasts_v1/partition_Div1.csv.gz",
+   "sha256": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+   "study_id": "Wp-R3",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_bulk_contrasts_v1/group_logfc_distributions.csv",
+   "sha256": "70b0e2883f3bdc62aa3a1fef6f627da219b2d7752ec5b4dea15458ce52caed0d",
+   "study_id": "Wp-R3",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  }
+ ],
+ "code": [
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e3_global_shift_v1.py",
+   "sha256": "be44ca54294c35f11a6febed1a7e69114a9490260b3a113e575ee2bea2e5c31c"
+  }
+ ],
+ "runtime": "python",
+ "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/e3_global_shift_v1.py",
+ "arguments": [
+  "--runs-root",
+  "analysis/research/runs",
+  "--output",
+  "{run_dir}"
+ ],
+ "expected_outputs": [
+  "results.json",
+  "programme_shift.csv",
+  "expression_decile_profile.csv",
+  "programme_membership.csv"
+ ],
+ "amendment_of": "",
+ "amendment_reason": "Initial prospective execution version for Wp-E3."
+}

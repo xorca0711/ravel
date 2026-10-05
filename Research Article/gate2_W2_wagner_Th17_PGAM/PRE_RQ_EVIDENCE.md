@@ -53,16 +53,23 @@ carried by deposited metadata. The triage:
 |---|---|---|
 | E1 reaction-ranking sensitivity | validation of a method choice | excluded |
 | E2 label-boundary artefact | technical artefact check | excluded |
-| E3 what carries the global shift | hybrid; negative uninterpretable without counts or spike-ins | excluded |
+| E3 what carries the global shift | biological; the exclusion reason below was wrong | **executed 5 Oct** ([E3_RESULTS.md](E3_RESULTS.md)) |
 | E4 name the human batch axis | technical artefact identification, and blocked | excluded |
-| E5 independent dataset | needs a dataset search with a frozen inclusion rule | not opened |
+| E5 independent dataset | biological; needs a dataset search with a frozen inclusion rule | **screen executed 5 Oct** ([E5_RESULTS.md](E5_RESULTS.md)) |
 | E6 wet 2 x 2 with labelling | the discriminating experiment | not reanalysis |
 
-What replaced them was a question the list had not asked: **which deposited
+**Correction, same day.** E3's exclusion was wrong. Its reason — that a negative
+would be uninterpretable because TPM renormalisation can produce a
+transcriptome-wide shift — overlooked that the confound is a function of
+expression level and is therefore absorbed by a null matched on expression
+decile. E3 and E5 have since both been executed under their own contracts, and
+the work below was separate from the E list rather than a substitute for it.
+
+Alongside them, a question the list had not asked: **which deposited
 biological fields were never used as variables at all?** Two were not —
 `divisions` in GSE290297, which entered only as a gate sensitivity, and `tissue`
 in GSE138266, reported but never tested for specificity — and `treatment` had
-never been read as a drug-class variable. [Wp-E](E_RESULTS.md) executed those
+never been read as a drug-class variable. [Wp-M](METADATA_PHENOTYPES_RESULTS.md) executed those
 three and found: both inhibitors abolish the vehicle-measurable distinction
 between first-division cells and the bulk population; PGAM and G6PD inhibition
 do not converge and their module-level selectivity is reciprocal across cell
@@ -185,7 +192,7 @@ them yet a question:
    ranking.** What the paper selected PGAM *for* is the part that does not
    reproduce under substituted input.
 4. **The two inhibitors are selective in opposite cell types, and both erase the
-   division-linked signature.** From [Wp-E](E_RESULTS.md): DHEA is the selective
+   division-linked signature.** From [Wp-M](METADATA_PHENOTYPES_RESULTS.md): DHEA is the selective
    one in Th17n and EGCG in Th17p, and neither preserves what distinguishes a
    first-division cell under vehicle. A shared downstream constraint that is not
    branch-specific would explain the second half; it would not explain the

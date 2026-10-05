@@ -1,0 +1,197 @@
+{
+ "decile_trend_per_arm": {
+  "Th17n.Div.1.DHEA": {
+   "centred_median_highest_decile": -0.1054354601818378,
+   "centred_median_lowest_decile": 0.008837137546340898,
+   "spearman_decile_vs_median": -0.8060606060606059
+  },
+  "Th17n.Div.1.EGCG": {
+   "centred_median_highest_decile": -0.0684752128960935,
+   "centred_median_lowest_decile": -0.027192338631888205,
+   "spearman_decile_vs_median": -0.5757575757575757
+  },
+  "Th17p.Div.1.DHEA": {
+   "centred_median_highest_decile": -0.0820904316270398,
+   "centred_median_lowest_decile": 0.05213502369118719,
+   "spearman_decile_vs_median": -0.9151515151515152
+  },
+  "Th17p.Div.1.EGCG": {
+   "centred_median_highest_decile": -0.1011493428918362,
+   "centred_median_lowest_decile": -0.0383032005494877,
+   "spearman_decile_vs_median": -0.5757575757575757
+  }
+ },
+ "focal_all_programmes": [
+  {
+   "expr_null_p": 0.0,
+   "n_genes": 13,
+   "observed_centred_median": -0.4909160577679978,
+   "programme": "integrated_stress_response",
+   "size_null_p": 0.0
+  },
+  {
+   "expr_null_p": 0.0,
+   "n_genes": 61,
+   "observed_centred_median": -0.46492486007358547,
+   "programme": "histones",
+   "size_null_p": 0.0
+  },
+  {
+   "expr_null_p": 0.001,
+   "n_genes": 13,
+   "observed_centred_median": -0.2987627225780107,
+   "programme": "serine_one_carbon",
+   "size_null_p": 0.0
+  },
+  {
+   "expr_null_p": 0.0,
+   "n_genes": 16,
+   "observed_centred_median": -0.25989947798871327,
+   "programme": "cell_cycle",
+   "size_null_p": 0.0
+  },
+  {
+   "expr_null_p": 0.0,
+   "n_genes": 93,
+   "observed_centred_median": -0.20511960952368818,
+   "programme": "ribosomal_proteins",
+   "size_null_p": 0.0
+  },
+  {
+   "expr_null_p": 0.358,
+   "n_genes": 9,
+   "observed_centred_median": -0.0746058446237132,
+   "programme": "amino_acid_transport",
+   "size_null_p": 0.323
+  },
+  {
+   "expr_null_p": 0.419,
+   "n_genes": 13,
+   "observed_centred_median": -0.0691941658913198,
+   "programme": "nrf2_oxidative_stress",
+   "size_null_p": 0.328
+  },
+  {
+   "expr_null_p": 0.903,
+   "n_genes": 15,
+   "observed_centred_median": -0.049238774964202,
+   "programme": "glycolysis",
+   "size_null_p": 0.406
+  },
+  {
+   "expr_null_p": 0.218,
+   "n_genes": 97,
+   "observed_centred_median": -0.0275453005211279,
+   "programme": "oxphos_subunits",
+   "size_null_p": 0.281
+  },
+  {
+   "expr_null_p": 0.372,
+   "n_genes": 56,
+   "observed_centred_median": 0.02459013439878134,
+   "programme": "heat_shock",
+   "size_null_p": 0.478
+  },
+  {
+   "expr_null_p": 0.121,
+   "n_genes": 13,
+   "observed_centred_median": 0.06282996424964439,
+   "programme": "unfolded_protein_response",
+   "size_null_p": 0.402
+  },
+  {
+   "expr_null_p": 0.062,
+   "n_genes": 12,
+   "observed_centred_median": 0.11224142891558973,
+   "programme": "cholesterol_srebp",
+   "size_null_p": 0.139
+  },
+  {
+   "expr_null_p": 0.103,
+   "n_genes": 9,
+   "observed_centred_median": 0.12616544702275162,
+   "programme": "hypoxia_hif",
+   "size_null_p": 0.191
+  },
+  {
+   "expr_null_p": 0.0,
+   "n_genes": 9,
+   "observed_centred_median": 0.5440912137199647,
+   "programme": "th17_effector",
+   "size_null_p": 0.0
+  }
+ ],
+ "focal_arm": "Th17n.Div.1.EGCG",
+ "focal_programmes_exceeding_expression_matched_null": [
+  {
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.14634979926997496,
+   "expr_null_q975": 0.13737891279105924,
+   "n_genes": 13,
+   "observed_centred_median": -0.4909160577679978,
+   "programme": "integrated_stress_response"
+  },
+  {
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.05179867477584225,
+   "expr_null_q975": 0.08418875882150957,
+   "n_genes": 61,
+   "observed_centred_median": -0.46492486007358547,
+   "programme": "histones"
+  },
+  {
+   "expr_null_p": 0.001,
+   "expr_null_q025": -0.16803559034443474,
+   "expr_null_q975": 0.0899807898999709,
+   "n_genes": 13,
+   "observed_centred_median": -0.2987627225780107,
+   "programme": "serine_one_carbon"
+  },
+  {
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.16622819217144152,
+   "expr_null_q975": 0.025779782857775588,
+   "n_genes": 16,
+   "observed_centred_median": -0.25989947798871327,
+   "programme": "cell_cycle"
+  },
+  {
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.106430154151372,
+   "expr_null_q975": -0.020702490937119206,
+   "n_genes": 93,
+   "observed_centred_median": -0.20511960952368818,
+   "programme": "ribosomal_proteins"
+  },
+  {
+   "expr_null_p": 0.0,
+   "expr_null_q025": -0.17848000061272096,
+   "expr_null_q975": 0.17512900891833663,
+   "n_genes": 9,
+   "observed_centred_median": 0.5440912137199647,
+   "programme": "th17_effector"
+  }
+ ],
+ "global_shift_per_arm": {
+  "Th17n.Div.1.DHEA": 0.0470668746989688,
+  "Th17n.Div.1.EGCG": 0.0917961035895551,
+  "Th17p.Div.1.DHEA": 0.0047198808387349,
+  "Th17p.Div.1.EGCG": 0.1157967691555761
+ },
+ "inputs_verified": {
+  "bulk_contrasts": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+  "bulk_partition": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+  "group_distributions": "70b0e2883f3bdc62aa3a1fef6f627da219b2d7752ec5b4dea15458ce52caed0d"
+ },
+ "interpretation_limit": "Library-level descriptive readout of a frozen contrast table on deposited TPM, with no animal field, so no animal-level or causal inference. Programme membership is a declared gene list, not a measured pathway activity, and a transcript-level shift is not flux or protein. The expression-matched null addresses the compositional confound but cannot exclude a genuine global biological response that happens to be expression-dependent.",
+ "question": "What carries the transcriptome-wide upward shift under EGCG in Th17n division-1 libraries?",
+ "schema": "wp_e3_global_shift/v1",
+ "thresholds": {
+  "min_genes_per_set": 5,
+  "n_deciles": 10,
+  "n_draws": 1000,
+  "seed": 20261005
+ },
+ "unit": "library; GSE290297 declares no animal field",
+ "why_the_expression_matched_null": "A compositional consequence of TPM renormalisation is a function of a gene's expression level, so a null drawn with the gene set's own AveExpr-decile composition absorbs it. A programme exceeding that null is not a renormalisation artefact; a programme inside it is uninformative rather than confounded. This is the correction to the pre-RQ checkpoint's reason for excluding this analysis."
+}

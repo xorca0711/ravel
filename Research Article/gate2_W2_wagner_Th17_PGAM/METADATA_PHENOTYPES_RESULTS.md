@@ -1,4 +1,11 @@
-# Wp-E result: three phenotypes in metadata the package had not used
+# Wp-M result: three phenotypes in metadata the package had not used
+
+> **Naming correction, 5 October 2026.** This work was first committed as
+> `E_RESULTS.md` with sections labelled E-B1 to E-B3, which wrongly implied the
+> extension candidates E1 to E9 of the
+> [pre-RQ checkpoint](PRE_RQ_EVIDENCE.md) had been executed. They had not. This
+> is separate work on unused metadata fields, now labelled **Wp-M1 to Wp-M3**;
+> the real [E3](E3_RESULTS.md) and [E5](E5_RESULTS.md) were executed afterwards.
 
 Executed 5 October 2026 under the governed runner. Contract
 [config/metadata_phenotypes_v1.json](config/metadata_phenotypes_v1.json),
@@ -7,17 +14,19 @@ receipt
 [analysis/research/runs/wp_metadata_phenotypes_v1/receipt.json](../../analysis/research/runs/wp_metadata_phenotypes_v1/receipt.json).
 `verify` returned `{"ok": true, "errors": []}`.
 
-## Why these three, and not the others
+## Why these three, and how they relate to the E list
 
 The [pre-RQ checkpoint](PRE_RQ_EVIDENCE.md) listed nine candidates. Three of
 them — E1 (does score instability reach the reaction ranking), E2 (is the
 composition term a label-boundary artefact) and E4 (name the human batch axis) —
 are **validation or technical-artefact work**: each asks whether a number we
-already reported is an artefact of a method choice. They were excluded here, and
-the reason matters: a package that keeps auditing its own estimators stops
-producing biology. E3 was excluded on a different ground — its negative outcome
-would be uninterpretable, because TPM renormalisation alone can produce a
-transcriptome-wide shift and the deposit has neither counts nor spike-ins.
+already reported is an artefact of a method choice. They were excluded, and the
+reason matters: a package that keeps auditing its own estimators stops producing
+biology. **E3 was also excluded here and that was wrong** — the exclusion
+argued its negative would be uninterpretable because TPM renormalisation can
+produce a transcriptome-wide shift, but that confound is a function of
+expression level and is absorbed by an expression-matched null. E3 has since
+been executed under its own contract; see [E3_RESULTS.md](E3_RESULTS.md).
 
 What is left is the question of which **deposited metadata fields were never
 used as biological variables at all**. The deposits declare exactly these:
@@ -32,7 +41,7 @@ So `divisions` and `tissue` are unexploited, and `treatment` has never been read
 as a **drug-class** variable — EGCG and DHEA were each compared to their own
 solvent and never to each other. Those are the three analyses below.
 
-## E-B1. Both inhibitors abolish the transcriptional distinction between first-division cells and the bulk population
+## Wp-M1. Both inhibitors abolish the transcriptional distinction between first-division cells and the bulk population
 
 The paper gates on division-1 cells to control for proliferation. Treating that
 gate as a readout instead: within one treatment arm, Div.1 minus Total is a
@@ -80,7 +89,7 @@ This also qualifies the paper's own design choice. Gating on division 1 is only
 a control for proliferation if the gate means the same thing in treated and
 untreated cultures, and in this deposit it does not.
 
-## E-B2. PGAM and G6PD inhibition do not converge, and their cell-type selectivity is reciprocal
+## Wp-M2. PGAM and G6PD inhibition do not converge, and their cell-type selectivity is reciprocal
 
 EGCG (PGAM) and DHEA (G6PD) block two branches leaving the same
 hexose-phosphate pool. Comparing their effects directly, within cell type and
@@ -119,7 +128,7 @@ in the same cells does. The caveat is that the two drugs have different solvents
 (DMSO and methanol), so a solvent-specific contribution cannot be excluded from
 the comparison.
 
-## E-B3. In human CSF, the pro-inflammatory arm is specifically elevated — and the pro-regulatory arm is not
+## Wp-M3. In human CSF, the pro-inflammatory arm is specifically elevated — and the pro-regulatory arm is not
 
 [Wp-R4](R4_RESULTS.md) found several scores higher in CSF than in the same
 donor's blood, and recorded that this paired contrast had never been tested
@@ -173,14 +182,14 @@ run's 0.06144131 (deviation 3.5 × 10⁻¹⁷), over 58 mapped genes.
 
 ## Limits
 
-- E-B1 and E-B2 are library-level on deposited TPM with no animal field;
+- M1 and M2 are library-level on deposited TPM with no animal field;
   neither supports animal-level or causal inference.
 - Div.1 and Total are overlapping sorted populations of the same cultures with
   no pairing field, so every gate quantity is attenuated and describes two gated
   populations rather than a cell's division history.
 - EGCG and DHEA have different solvents; a solvent-specific contribution to
   their agreement cannot be excluded.
-- E-B3 is donor-level and paired — the strongest unit in the package — but the
+- M3 is donor-level and paired — the strongest unit in the package — but the
   signatures are the mouse study's own and the cohort was collected for another
   purpose. A compartment difference is not evidence about disease, and
   activation cannot be separated from the module here.

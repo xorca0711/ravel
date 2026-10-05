@@ -1,0 +1,7 @@
+query,n_uids,n_records,status
+"(""Th17""[All Fields]) AND (""glucose""[All Fields]) AND ""gse""[Filter]",23,23,ok
+"(""Th17""[All Fields]) AND (""nutrient""[All Fields]) AND ""gse""[Filter]",11,11,ok
+"(""Th17""[All Fields]) AND (""glutamine""[All Fields]) AND ""gse""[Filter]",60,60,ok
+"(""T helper 17""[All Fields]) AND (""metabolic""[All Fields]) AND ""gse""[Filter]",15,15,ok
+"(""Th17""[All Fields]) AND (""amino acid""[All Fields]) AND ""gse""[Filter]",15,15,ok
+"(""CD4""[All Fields]) AND (""Th17""[All Fields]) AND (""restriction""[All Fields]) AND ""gse""[Filter]",11,11,ok

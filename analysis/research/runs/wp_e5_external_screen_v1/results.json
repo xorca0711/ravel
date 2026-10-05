@@ -1,0 +1,557 @@
+{
+ "frozen_inclusion_rule": {
+  "R1": "CD4 T cells polarised toward Th17, or a Th17-containing CD4 population, mouse or human",
+  "R2": "an explicit nutrient or metabolic-environment contrast within the experiment; a drug-only perturbation does not satisfy this",
+  "R3": "deposited expression values, not a figure or summary table only",
+  "R4": "at least two biological units per arm, where a unit is an animal, a donor or a verified independent culture",
+  "R5": "the nutrient contrast crossed with or held constant across the Th17 polarisation condition",
+  "R6": "independent of this paper's own deposits"
+ },
+ "interpretation_limit": "A metadata screen over GEO DataSets summaries. It cannot establish that an admissible dataset exists - only that candidates do or do not survive the record-level rules - and a GEO summary that omits a nutrient contrast does not prove the experiment lacked one. Nothing here analyses expression, and no candidate may be used for the Wp-R1 comparison until its records are inspected and the result of that inspection is recorded under this contract's successor.",
+ "n_failed_on_record": 64,
+ "n_needing_record_inspection": 50,
+ "n_unique_series_seen": 114,
+ "queries": [
+  "(\"Th17\"[All Fields]) AND (\"glucose\"[All Fields]) AND \"gse\"[Filter]",
+  "(\"Th17\"[All Fields]) AND (\"nutrient\"[All Fields]) AND \"gse\"[Filter]",
+  "(\"Th17\"[All Fields]) AND (\"glutamine\"[All Fields]) AND \"gse\"[Filter]",
+  "(\"T helper 17\"[All Fields]) AND (\"metabolic\"[All Fields]) AND \"gse\"[Filter]",
+  "(\"Th17\"[All Fields]) AND (\"amino acid\"[All Fields]) AND \"gse\"[Filter]",
+  "(\"CD4\"[All Fields]) AND (\"Th17\"[All Fields]) AND (\"restriction\"[All Fields]) AND \"gse\"[Filter]"
+ ],
+ "query_log": [
+  {
+   "n_records": 23,
+   "n_uids": 23,
+   "query": "(\"Th17\"[All Fields]) AND (\"glucose\"[All Fields]) AND \"gse\"[Filter]",
+   "status": "ok"
+  },
+  {
+   "n_records": 11,
+   "n_uids": 11,
+   "query": "(\"Th17\"[All Fields]) AND (\"nutrient\"[All Fields]) AND \"gse\"[Filter]",
+   "status": "ok"
+  },
+  {
+   "n_records": 60,
+   "n_uids": 60,
+   "query": "(\"Th17\"[All Fields]) AND (\"glutamine\"[All Fields]) AND \"gse\"[Filter]",
+   "status": "ok"
+  },
+  {
+   "n_records": 15,
+   "n_uids": 15,
+   "query": "(\"T helper 17\"[All Fields]) AND (\"metabolic\"[All Fields]) AND \"gse\"[Filter]",
+   "status": "ok"
+  },
+  {
+   "n_records": 15,
+   "n_uids": 15,
+   "query": "(\"Th17\"[All Fields]) AND (\"amino acid\"[All Fields]) AND \"gse\"[Filter]",
+   "status": "ok"
+  },
+  {
+   "n_records": 11,
+   "n_uids": 11,
+   "query": "(\"CD4\"[All Fields]) AND (\"Th17\"[All Fields]) AND (\"restriction\"[All Fields]) AND \"gse\"[Filter]",
+   "status": "ok"
+  }
+ ],
+ "schema": "wp_e5_external_screen/v1",
+ "screen_semantics": "Only R1, R2, R6 and a weak form of R4 are decidable from a GEO summary record. Candidates surviving those are reported as needs_record_inspection, never as passes: R3, R5 and the biological-unit form of R4 require the sample records and the supplementary file list, which this screen does not open.",
+ "searched": "NCBI GEO DataSets (db=gds) via E-utilities",
+ "shortlist": [
+  {
+   "accession": "GSE337240",
+   "n_samples": 8,
+   "nutrient_terms_found": [
+    "glucose",
+    "amino acid",
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "GDP-Driven purine metabolic rewiring promotes Th17-like polarization of CD4\u207a T cells and reveals a RANBP1-associated nucleo-metabolic program"
+  },
+  {
+   "accession": "GSE334206",
+   "n_samples": 20,
+   "nutrient_terms_found": [
+    "glucose",
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "STK25 m6A modification regulates CD4+ T cell glycolysis mediated immune imbalance in systemic lupus erythematosus"
+  },
+  {
+   "accession": "GSE314698",
+   "n_samples": 83,
+   "nutrient_terms_found": [
+    "glucose",
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Pancreatic volume and immunological biomarkers predict checkpoint inhibitor-associated autoimmune diabetes in humans."
+  },
+  {
+   "accession": "GSE275152",
+   "n_samples": 42,
+   "nutrient_terms_found": [
+    "glucose",
+    "nutrient",
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "GLUT1 overexpression in CAR-T cells induces metabolic reprogramming and enhances potency"
+  },
+  {
+   "accession": "GSE241099",
+   "n_samples": 42,
+   "nutrient_terms_found": [
+    "glucose",
+    "amino acid"
+   ],
+   "taxon": "Mus musculus",
+   "title": "The lysine acetyltransferase KAT6A epigenetically facilitates glucose metabolic programming and CD4+ T-cell responses in autoimmunity"
+  },
+  {
+   "accession": "GSE222881",
+   "n_samples": 16,
+   "nutrient_terms_found": [
+    "glucose",
+    "lipid"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Pyruvate dehydrogenase fuels a critical citrate pool that is essential for Th17 cell effector functions (RNA-Seq II)"
+  },
+  {
+   "accession": "GSE222880",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "glucose",
+    "lipid"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Pyruvate dehydrogenase fuels a critical citrate pool that is essential for Th17 cell effector functions (RNA-Seq I)"
+  },
+  {
+   "accession": "GSE222878",
+   "n_samples": 10,
+   "nutrient_terms_found": [
+    "glucose",
+    "lipid"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Pyruvate dehydrogenase fuels a critical citrate pool that is essential for Th17 cell effector functions (ATAC-Seq)"
+  },
+  {
+   "accession": "GSE185478",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "glutamine",
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "OXPHOS Promotes Apoptotic Resistance and Persistence in T\u00adH17 cells"
+  },
+  {
+   "accession": "GSE127768",
+   "n_samples": 20,
+   "nutrient_terms_found": [
+    "glucose",
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Inhibition of glycolysis in pathogenic TH17 cells through targeting a miR-21-Peli1-c-Rel pathway prevents autoimmunity"
+  },
+  {
+   "accession": "GSE129028",
+   "n_samples": 24,
+   "nutrient_terms_found": [
+    "glucose",
+    "2-deoxy"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Glycosylation-dependent modulation of the IL-2 signaling axis determines Th17 differentiation and IL-10 production"
+  },
+  {
+   "accession": "GSE128008",
+   "n_samples": 15,
+   "nutrient_terms_found": [
+    "glucose",
+    "amino acid",
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Histone H3K27 demethylases regulate human Th17 cell maturation and effector functions by impacting on metabolism [III]"
+  },
+  {
+   "accession": "GSE127766",
+   "n_samples": 9,
+   "nutrient_terms_found": [
+    "glucose",
+    "amino acid",
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Histone H3K27 demethylases regulate human Th17 cell maturation and effector functions by impacting on metabolism [II]"
+  },
+  {
+   "accession": "GSE126991",
+   "n_samples": 7,
+   "nutrient_terms_found": [
+    "glucose",
+    "amino acid",
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Histone H3K27 demethylases regulate human Th17 cell maturation and effector functions by impacting on metabolism [I]"
+  },
+  {
+   "accession": "GSE335775",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "nutrient",
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Single-cell RNA sequencing reveals endothelial STING-dependent immune remodeling in murine metabolic dysfunction-associated steatohepatitis"
+  },
+  {
+   "accession": "GSE277067",
+   "n_samples": 7,
+   "nutrient_terms_found": [
+    "nutrient",
+    "fatty acid",
+    "lipid"
+   ],
+   "taxon": "Mus musculus",
+   "title": "T cell cholesterol transport links intestinal immune responses to dietary lipid absorption"
+  },
+  {
+   "accession": "GSE166430",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "nutrient",
+    "glutamine"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Expression data from TH17 cells cultured in the presence or absence of glutamine"
+  },
+  {
+   "accession": "GSE207602",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "nutrient",
+    "restriction"
+   ],
+   "taxon": "Mus musculus",
+   "title": "An LKB1-mitochondria axis controls Th17 effector function [ATAC-Seq]"
+  },
+  {
+   "accession": "GSE207601",
+   "n_samples": 12,
+   "nutrient_terms_found": [
+    "nutrient",
+    "restriction"
+   ],
+   "taxon": "Mus musculus",
+   "title": "An LKB1-mitochondria axis controls Th17 effector function [RNA-Seq 2]"
+  },
+  {
+   "accession": "GSE156742",
+   "n_samples": 8,
+   "nutrient_terms_found": [
+    "nutrient",
+    "restriction"
+   ],
+   "taxon": "Mus musculus",
+   "title": "An LKB1-mitochondria axis controls Th17 effector function [RNA-Seq 1]"
+  },
+  {
+   "accession": "GSE143321",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "nutrient",
+    "media",
+    "restriction"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Methionine metabolism shapes T helper cell responses through regulation of epigenetic reprogramming [ChIP-Seq]"
+  },
+  {
+   "accession": "GSE143320",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "nutrient",
+    "media",
+    "restriction"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Methionine metabolism shapes T helper cell responses through regulation of epigenetic reprogramming [RNA-Seq]"
+  },
+  {
+   "accession": "GSE144813",
+   "n_samples": 14,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Exosomal Transfer of Mitochondria Reprograms T Helper Cell Function In Chronic Airway Inflammation"
+  },
+  {
+   "accession": "GSE291839",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Impact of RORgt in regulating CD4 T cells primed under Th17 conditions"
+  },
+  {
+   "accession": "GSE285363",
+   "n_samples": 8,
+   "nutrient_terms_found": [
+    "glutamine",
+    "media",
+    "hypoxia"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Effects of NorUDCA on the Transcriptomic Landscape of Differentiating Murine Pathogenic Th17 Cells In Vitro"
+  },
+  {
+   "accession": "GSE240979",
+   "n_samples": 4,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Deciphering the role of IRF4 and its interacting proteins in differentiated regulatory and T helper 17 cells"
+  },
+  {
+   "accession": "GSE241823",
+   "n_samples": 12,
+   "nutrient_terms_found": [
+    "glutamine",
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Effect of androgen receptor signaling on H3K27 trimethylation in Th17 cells"
+  },
+  {
+   "accession": "GSE243062",
+   "n_samples": 50,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "RORA proximal enhancer regulates its expression during early human Th17 cell differentiation [ChIP]"
+  },
+  {
+   "accession": "GSE243058",
+   "n_samples": 22,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "RORA proximal enhancer regulates its expression during early human Th17 cell differentiation [ATAC]"
+  },
+  {
+   "accession": "GSE175470",
+   "n_samples": 12,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Soluble adenylyl cyclase induces type 17 inflammation and is a potential therapeutic target in psoriasis"
+  },
+  {
+   "accession": "GSE171188",
+   "n_samples": 9,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "BMI1 Maintains the Regulatory T cell Epigenomic Landscape to Prevent Inflammatory Bowel Disease (ChIP-Seq)"
+  },
+  {
+   "accession": "GSE137229",
+   "n_samples": 12,
+   "nutrient_terms_found": [
+    "glutamine",
+    "medium",
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Body fluid from the parasitic worm Ascaris suum inhibits broad-acting pro-inflammatory programs in dendritic cells"
+  },
+  {
+   "accession": "GSE112244",
+   "n_samples": 12,
+   "nutrient_terms_found": [
+    "glutamine",
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Th1 and T17 activation with and without CB839 treatment"
+  },
+  {
+   "accession": "GSE102045",
+   "n_samples": 24,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "G-Protein-Coupled Receptor 68 Negatively Regulates IL-22 Production in Human Th17 Cells"
+  },
+  {
+   "accession": "GSE307907",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "media",
+    "hypoxia"
+   ],
+   "taxon": "Mus musculus",
+   "title": "A Human ROR\u03b3t Mutant Enhances Th17-Mediated Inflammation via Increased HIF-1\u03b1 Recruitment"
+  },
+  {
+   "accession": "GSE303700",
+   "n_samples": 36,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Autoimmune Disease Risk Gene ANKRD55 Promotes Th17 Effector Function Through Metabolic Modulation [ATAC-Seq]"
+  },
+  {
+   "accession": "GSE303699",
+   "n_samples": 60,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Autoimmune Disease Risk Gene ANKRD55 Promotes Th17 Effector Function Through Metabolic Modulation [RNA-Seq]"
+  },
+  {
+   "accession": "GSE164959",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "media"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Glycolysis Promotes Phosphoinositide 3-Kinase Signaling In Support of T Helper 17 Cell-Mediated Autoimmunity"
+  },
+  {
+   "accession": "GSE310711",
+   "n_samples": 15,
+   "nutrient_terms_found": [
+    "amino acid"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Bifidobacteria infantis and human milk oligosaccharides have independent effects on immune response and amino acid metabolism in germ-free mouse models"
+  },
+  {
+   "accession": "GSE190131",
+   "n_samples": 12,
+   "nutrient_terms_found": [
+    "amino acid"
+   ],
+   "taxon": "Mus musculus",
+   "title": "In vivo CRISPR screening in autoimmune disease model reveals differential dependence of Th1 and Th17 cells on amino acid transporter SNAT1"
+  },
+  {
+   "accession": "GSE237555",
+   "n_samples": 15,
+   "nutrient_terms_found": [
+    "amino acid"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Boosting NAD preferentially blunts TH17 inflammation via arginine biosynthesis and redox regulatory control in control and psoriasis subjects [NR or placebo]"
+  },
+  {
+   "accession": "GSE237552",
+   "n_samples": 32,
+   "nutrient_terms_found": [
+    "amino acid"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Boosting NAD preferentially blunts TH17 inflammation via arginine biosynthesis and redox regulatory control in control and psoriasis subjects [healthy or psoriasis]"
+  },
+  {
+   "accession": "GSE135428",
+   "n_samples": 26,
+   "nutrient_terms_found": [
+    "media",
+    "fatty acid"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Physiomimetic model of the human Gut-Liver axis for studies of inflammatory diseases"
+  },
+  {
+   "accession": "GSE145007",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "amino acid"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Single residue in CD28-costimulated CAR-T cells limits long-term persistence and antitumor durability "
+  },
+  {
+   "accession": "GSE15624",
+   "n_samples": 12,
+   "nutrient_terms_found": [
+    "amino acid",
+    "starvation"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Regulation of T cell gene expression by Halofuginone (HF)"
+  },
+  {
+   "accession": "GSE290580",
+   "n_samples": 9,
+   "nutrient_terms_found": [
+    "media",
+    "restriction"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Restriction of innate Tgd17 cell plasticity by an AP-1 regulatory axis [CUT&Run]"
+  },
+  {
+   "accession": "GSE252771",
+   "n_samples": 28,
+   "nutrient_terms_found": [
+    "restriction"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "Persistent dysfunction of Th17 cells in people with HIV on ART and in elite controllers"
+  },
+  {
+   "accession": "GSE243096",
+   "n_samples": 96,
+   "nutrient_terms_found": [
+    "restriction"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "HELIOS identifies an HLA-E-restricted CD8 T cell population and is associated with low effector functions."
+  },
+  {
+   "accession": "GSE174521",
+   "n_samples": 6,
+   "nutrient_terms_found": [
+    "media",
+    "restriction"
+   ],
+   "taxon": "Mus musculus",
+   "title": "Aire+ Cell Depletioin Results in Expansion of Activated T Cells in Pregnant Mice"
+  },
+  {
+   "accession": "GSE147045",
+   "n_samples": 16,
+   "nutrient_terms_found": [
+    "media",
+    "restriction"
+   ],
+   "taxon": "Homo sapiens",
+   "title": "IL-17A Promotes HIV-1 Dissemination/Replication and abrogates the Interferon-Mediated Antiviral Immunity in Intestinal Epithelial Cells"
+  }
+ ]
+}

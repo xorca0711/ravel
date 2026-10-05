@@ -142,4 +142,19 @@ prediction that motivates the whole study sits in the one stage that is blocked.
 | Both modules up in MS CSF (Fig. S4) | Wp-R4 | **Not reproduced** — every score flat in CSF (BH >= 0.93) |
 | Both modules up in MS blood; N1/P1/P4 higher | Wp-R4 | Numerically reproduced for the modules, N1 and P4 (not P1), but **a matched-size random gene set separates the cohorts equally well**, so the effect is a donor-level axis, not the module |
 | Compass reaction-level prediction (Fig. 1) | Wp-R2 | Not reproducible as published (input never deposited). As a declared sensitivity ([R2_RESULTS.md](R2_RESULTS.md)) the **sign reproduces** - PGAM forward rho -0.29 against pathogenicity, serine arm -0.26 - but PGAM ranks 11/83 and fails BH, while lactate dehydrogenase reaches rho -0.52 |
-| Flow cytometry, 13C labelling, Legendplex, EAE courses, histology | Wp-R5 | Closed; no numeric values deposited |
+| Flow cytometry, 13C labelling, Legendplex, EAE courses, histology | Wp-R5 | Closed; no numeric values deposited |
+
+## Extension work, 5 October 2026
+
+Separate from the reproduction ladder and from the Wp-P branch cards. None of it
+carries a claim grade or an owner decision.
+
+| Analysis | Outcome |
+|---|---|
+| [Wp-M](METADATA_PHENOTYPES_RESULTS.md) | three phenotypes from metadata fields the package had not used as variables |
+| [Wp-E3](E3_RESULTS.md) | the transcriptome-wide EGCG shift is effector gain against biosynthetic loss; the integrated stress response moves down, which weighs against the Wp-P02 stress premise |
+| [Wp-E5](E5_RESULTS.md) | eligibility screen for an independent Th17 nutrient dataset: 114 series seen, 50 deferred to record inspection, none admissible yet |
+
+Candidates E1, E2 and E4 of the [pre-RQ checkpoint](PRE_RQ_EVIDENCE.md) remain
+excluded as validation or technical-artefact work; E6 is the wet experiment and
+E7 to E9 are refusals.
