@@ -228,3 +228,5 @@ analysis/research/runs/wp_glucose_decomposition_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wp_glucose_decomposition_v1/*.csv whitespace=cr-at-eol,-blank-at-eol
 analysis/research/runs/wp_figures_v1/** -text whitespace=cr-at-eol
 analysis/research/runs/wp_figures_v1/*.svg whitespace=cr-at-eol,-blank-at-eol
+analysis/research/runs/wp_metadata_phenotypes_v1/** -text whitespace=cr-at-eol
+analysis/research/runs/wp_metadata_phenotypes_v1/*.csv whitespace=cr-at-eol,-blank-at-eol

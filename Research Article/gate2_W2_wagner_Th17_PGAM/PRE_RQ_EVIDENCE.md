@@ -43,7 +43,33 @@ mechanism, because none measures flux and PGAM inhibition is expected to raise
 experiment: PGAM and PHGDH inhibition alone and together in Th17n, with Foxp3
 and IL-17 protein and ¹³C serine/glycine labelling from [U-¹³C]glucose.
 
-## 3. Extension candidates, ranked by information per unit of effort
+## 3. Triage applied 5 October 2026, and what was run
+
+The owner asked which candidates are **strict validation or technical-artefact
+work** and excluded those, directing the effort at a biological phenotype
+carried by deposited metadata. The triage:
+
+| Candidate | Kind | Decision |
+|---|---|---|
+| E1 reaction-ranking sensitivity | validation of a method choice | excluded |
+| E2 label-boundary artefact | technical artefact check | excluded |
+| E3 what carries the global shift | hybrid; negative uninterpretable without counts or spike-ins | excluded |
+| E4 name the human batch axis | technical artefact identification, and blocked | excluded |
+| E5 independent dataset | needs a dataset search with a frozen inclusion rule | not opened |
+| E6 wet 2 x 2 with labelling | the discriminating experiment | not reanalysis |
+
+What replaced them was a question the list had not asked: **which deposited
+biological fields were never used as variables at all?** Two were not —
+`divisions` in GSE290297, which entered only as a gate sensitivity, and `tissue`
+in GSE138266, reported but never tested for specificity — and `treatment` had
+never been read as a drug-class variable. [Wp-E](E_RESULTS.md) executed those
+three and found: both inhibitors abolish the vehicle-measurable distinction
+between first-division cells and the bulk population; PGAM and G6PD inhibition
+do not converge and their module-level selectivity is reciprocal across cell
+types; and in human CSF the pro-inflammatory arm is specifically elevated over
+the same donor's blood while the pro-regulatory arm is not.
+
+## 4. Extension candidates as first listed, ranked by information per unit of effort
 
 None of these is authorised. Each states what it would change, what it needs,
 and why it might not be worth running. **E1–E3 are reanalysis of deposited data.
@@ -144,9 +170,9 @@ would be proposed is not distinctive even in its own compartment.
 The owner declined this on 4 October 2026. A digitised series is never raw data
 and never enters a claim as a measurement.
 
-## 4. What a derivation should start from
+## 5. What a derivation should start from
 
-Three asymmetries in what the package found, each a candidate seed and none of
+Four asymmetries in what the package found, each a candidate seed and none of
 them yet a question:
 
 1. **The score's two arms behave differently depending on the contrast.** They
@@ -158,6 +184,12 @@ them yet a question:
 3. **The published reaction prediction survives as a sign but not as a
    ranking.** What the paper selected PGAM *for* is the part that does not
    reproduce under substituted input.
+4. **The two inhibitors are selective in opposite cell types, and both erase the
+   division-linked signature.** From [Wp-E](E_RESULTS.md): DHEA is the selective
+   one in Th17n and EGCG in Th17p, and neither preserves what distinguishes a
+   first-division cell under vehicle. A shared downstream constraint that is not
+   branch-specific would explain the second half; it would not explain the
+   first.
 
 Any derived question should name which of these it is about, which unit it would
 use, and what result would make it fail — and should be checked against the

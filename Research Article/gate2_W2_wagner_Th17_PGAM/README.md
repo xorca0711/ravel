@@ -91,7 +91,12 @@ permanently, Wp-P06 stays conditional, and Wp-P02 is the only card a new
 measurement could still move. A [six-plate figure gallery](FIGURES.md) renders
 the executed results, and the [pre-RQ checkpoint](PRE_RQ_EVIDENCE.md) lists the
 extension candidates and the three asymmetries a derivation could start from.
-No research question has been derived. The five supplementary tables were
+No research question has been derived. [Wp-E](E_RESULTS.md) then
+exploited the two deposited metadata fields the package had never used as
+variables: both inhibitors abolish the vehicle-measurable division signature,
+the two inhibitors' module selectivity is reciprocal across cell types, and in
+human CSF the pro-inflammatory arm is specifically elevated over paired blood
+while the pro-regulatory arm is not. The five supplementary tables were
 recovered on 4 October 2026 from the NIH PMC Cloud open-data package, so the
 module and signature definitions are the authors' own rather than substitutions. The single-cell deposit is the pre-QC
 aggregated matrix of 19,203 barcodes, not the 5,192-cell analysed set, and its
