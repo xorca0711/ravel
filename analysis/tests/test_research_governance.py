@@ -228,15 +228,15 @@ class CanonicalSequenceTests(unittest.TestCase):
                 self.passed = actual == expected
                 raise SequenceChecked
 
-        canonical = [f'A{i}' for i in range(28)]
+        canonical = [f'A{i}' for i in range(31)]
         reordered = canonical.copy()
-        reordered[24], reordered[25] = reordered[25], reordered[24]
+        reordered[28], reordered[29] = reordered[29], reordered[28]
         cases = {
             'registered_sequence': (canonical, True),
-            'missing_new_question': ([q for q in canonical if q != 'A24'], False),
-            'duplicate_new_question': (canonical[:26] + ['A25'] + canonical[26:], False),
+            'missing_new_question': ([q for q in canonical if q != 'A29'], False),
+            'duplicate_new_question': (canonical[:29] + ['A28'] + canonical[29:], False),
             'reordered_new_questions': (reordered, False),
-            'unregistered_question': (canonical + ['A28'], False),
+            'unregistered_question': (canonical + ['A31'], False),
             'missing_historical_question': (canonical[1:], False),
         }
         with tempfile.TemporaryDirectory() as tmp:

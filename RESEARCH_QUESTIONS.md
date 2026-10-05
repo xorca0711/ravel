@@ -1,5 +1,16 @@
 # Research questions
 
+**Wp derivation, 5 October 2026:** the
+[Wang PGAM package derivation](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md)
+proposes **A28, A29 and A30** from its executed reproduction ladder, branch cards,
+metadata phenotypes and extension analyses. Each has a biological hypothesis, named
+rivals and a discriminating readout; the
+[overlap screen](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md)
+compares them against A0–A27 and the
+[literature record](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md)
+states the searches actually run. These are post-analysis, outcome-exposed proposals
+pending retain/reject; they grade nothing, add no claim row and certify no novelty.
+
 **Nb5 review and proposed registrations, 3 October 2026:** the
 [scientific review and overlap matrix](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md)
 screen A0–A23 and 33 prior article candidates. Under the owner's explicit
@@ -53,7 +64,7 @@ of markers or analysis tools.
 
 **Rewritten 25 September 2026; A0 registered 26 September.** All A1–A14 identifiers remain; A12-S1 remains an
 enabling source-identity question. There is no fixed number of “surviving” RQs.
-**A15 is proposed on 27 September 2026, and A16, A17 and A18 on 28 September 2026, each pending the owner's retain or reject**;
+**A15 is proposed on 27 September 2026, A16, A17 and A18 on 28 September 2026, and A28, A29 and A30 on 5 October 2026, each pending the owner's retain or reject**;
 until that decision they grade nothing and add no claim row. A16, A17 and A18 derive from the
 [England re-analysis follow-up](Research%20Article/gate2_C2_england_2025/RESULTS_FOLLOWUP.md);
 A16 connects to the existing A8 and A11 identity and lesion-programme questions, A17 to the A4 lineage question,
@@ -112,6 +123,9 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A25](#a25) | Regional microglial configuration during middle age | Nb5 P02; distinct biological focus reviewed | Proposed; see [dossier](docs/research_dossiers/A25.md) for source, endpoint and acceptance holds |
 | [A26](#a26) | Tissue context of CD8 repertoire ageing | Nb5 P04; distinct biological focus reviewed | Proposed; see [dossier](docs/research_dossiers/A26.md) for source, endpoint and acceptance holds |
 | [A27](#a27) | Within-state and compositional CD8 repertoire ageing | Nb5 P06; distinct biological focus reviewed | Proposed; see [dossier](docs/research_dossiers/A27.md) for source, endpoint and acceptance holds |
+| [A28](#a28) | Th17 score arm asymmetry: losing regulatory versus gaining effector competence | Wp derivation; executed reproduction, branch, metadata and extension evidence | Proposed; see [dossier](docs/research_dossiers/A28.md) for source, endpoint and acceptance holds |
+| [A29](#a29) | Mechanism of the Th17 effector gain under PGAM restriction | Wp derivation; executed reproduction, branch, metadata and extension evidence | Proposed; see [dossier](docs/research_dossiers/A29.md) for source, endpoint and acceptance holds |
+| [A30](#a30) | CSF compartment state versus local activation in human CD4 T cells | Wp derivation; executed reproduction, branch, metadata and extension evidence | Proposed; see [dossier](docs/research_dossiers/A30.md) for source, endpoint and acceptance holds |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -1486,6 +1500,69 @@ unfinished numerical design.
 **Scope and readiness.** Registered as a proposed descriptive attribution/replication question with source and state-definition work remaining. Scientific value can include reproducible measurement without mechanistic novelty. Human acceptance, precision and functional claims remain pending. A6 concerns IPF macrophage expression; A17 concerns persistent founder effects on mutant epithelial clone growth. A27 concerns TCR-defined spleen CD8 repertoires during ageing. Common mixture reasoning or the word clone cannot collapse distinct cells, clone identities and biological endpoints.
 
 [Dossier](docs/research_dossiers/A27.md) · [Workspace](RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md) · [Development plan](RQ_Specified/A27_cd8_repertoire_state_redistribution/PLAN.md) · [Primary precedents and access](Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md).
+
+<a id="a28"></a>
+
+### A28. Does Th17 pathogenic transition lose regulatory competence or gain effector competence?
+
+Registered 5 October 2026 as **proposed**, derived from the executed Wp
+reproduction ladder, branch cards, metadata phenotypes and extension analyses of
+Wang et al. 2025 in [gate2_W2](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+The derivation supplied a bounded scientific review; human retain/reject and
+scientific acceptance remain unrecorded. Registration is not a claim of novelty,
+functional validation or permission to execute an unfinished numerical design.
+
+**Hypothesis and biology.** Regulatory and effector competence are separately regulated within the same Th17 cell rather than two ends of one axis, so a perturbation can remove one without adding the other. Nutrient restriction is predicted to lower per-cell Foxp3 and CTLA4 protein with IL-17 unchanged, and a pathogenic cytokine condition to raise IL-17 with Foxp3 and CTLA4 unchanged. A single latent axis predicts that both perturbations move both proteins reciprocally. No causal claim about which competence is upstream is implied.
+
+**Current evidence.** The published pathogenicity score is a difference of two gene modules, and the Wp reproduction found it moves one-sidedly — but in opposite arms under different perturbations. At 1 mM versus 25 mM glucose the score rises in 4 of 4 animal-paired comparisons through the pro-regulatory arm falling, with the pro-inflammatory arm flat; the two arms are anti-correlated across 15,830 cells at Spearman −0.389 to −0.503. In ten paired human donors the CSF-minus-blood contrast moves the pro-inflammatory arm instead (+0.061, 10/10 donors, empirical p 0.003) while the pro-regulatory arm does not move (p 0.394 and 0.931). The mouse evidence rests on two animals and the questions were written after these results were read.
+
+**Rival and discriminating outcome.** One latent axis: the modules were derived from opposing polarisation conditions, so a one-sided move may be a property of the gene lists rather than of cells, and no analysis of the same transcriptome can separate them. Composition rather than within-cell state — the Wp decomposition found the composition term positive in both animals while the within-state term disagreed in sign and its stop rule fired. Proliferation, since low glucose slows division and cycle phase was regressed out of the published latent space. In the human leg, local activation, which exceeds its own matched null in the same direction. The discriminating measurement is a per-cell joint protein readout of Foxp3, CTLA4, IL-17A and IL-17F with a division tracker, mouse as unit: the endpoint is whether the cells losing regulatory protein are the cells gaining effector protein, which two marginal means cannot show.
+
+**Scope and readiness.** Registered as a proposed model-discrimination question whose decisive measurement is a culture experiment this project does not currently hold. No effect margin is nominated, because two mice and no admissible independent dataset give no honest basis for one; the Wp external screen deferred 50 candidate series to record inspection and admitted none. A1 asks whether regulatory programmes distinguish RNA-similar transitional states in lung epithelium with chromatin and lineage as discriminators; A28 asks whether two arms of one score move independently in cytokine-polarised CD4 T cells. A6 and A22 share the within-state-versus-mixture and identity-versus-amount reasoning, which here is a rival to defeat rather than the question asked.
+
+[Dossier](docs/research_dossiers/A28.md) · [Workspace](RQ_Specified/A28_th17_arm_asymmetry/README.md) · [Development plan](RQ_Specified/A28_th17_arm_asymmetry/PLAN.md) · [Derivation, overlap and literature record](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+
+<a id="a29"></a>
+
+### A29. Which mechanism raises Th17 effector output when PGAM is restricted?
+
+Registered 5 October 2026 as **proposed**, derived from the executed Wp
+reproduction ladder, branch cards, metadata phenotypes and extension analyses of
+Wang et al. 2025 in [gate2_W2](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+The derivation supplied a bounded scientific review; human retain/reject and
+scientific acceptance remain unrecorded. Registration is not a claim of novelty,
+functional validation or permission to execute an unfinished numerical design.
+
+**Hypothesis and biology.** PGAM restriction raises Th17 effector output by lowering the phosphoenolpyruvate pool and relieving PEP-mediated inhibition of the JunB/BATF/IRF4 complex, rather than by inducing a stress response; relief of biosynthetic and proliferative demand is a third, separable possibility. The PEP route predicts that the PEP pool falls under PGAM inhibition and that PEP supplementation abolishes the effector gain; the demand route predicts that matched growth slowing without PGAM inhibition reproduces it. No mechanism here is proposed as new, and a transcript-level observation cannot establish any of them.
+
+**Current evidence.** Against an expression-decile-matched null — the construction that absorbs the TPM compositional confound — PGAM inhibition in Th17n raises the Th17 effector programme (+0.544, p 0.000) while histones (−0.465), serine and one-carbon (−0.299), cell cycle (−0.260) and ribosomal proteins (−0.205) fall and the integrated stress response is the most downward-shifted set (−0.491, p 0.000); the UPR set containing XBP1, NRF2 and heat shock do not move. A frozen sensitivity shows the stress result is not carried by the two genes shared with the serine set. ATF4 output falls (CHAC1 −2.03, TRIB3 −1.75, DDIT3 −1.11) while ATF4 itself does not move and SESN2 rises. Th17n under PGAM inhibition is the only one of four drug-by-cell-type arms where the effector programme rises.
+
+**Rival and discriminating outcome.** PEP is genuinely unchanged, as the source's own ¹³C labelling would imply, which eliminates the primary route — but a 15-minute label ratio cannot distinguish a steady pool from a falling one. Further rivals: ISR-independent stress through sustained cytoplasmic calcium, which no transcript module sees; a per-cell-RNA-content compositional effect; division-rate dilution; and off-target action of EGCG, for which the Wp Compass sensitivity gives no reassurance (PGAM ranks 11th of 83 and fails BH). The discriminating design measures absolute PEP, 2PG and 3PG pools under PGAM restriction, with a PEP-supplementation rescue arm, a matched growth-slowing arm that does not touch PGAM, and phospho-eIF2α and ATF4 protein. A falling pool with supplementation abolishing the IL-17 increase supports the metabolite route; an unchanged pool eliminates it.
+
+**Scope and readiness.** Registered as a proposed model-discrimination question among three published or published-adjacent mechanisms, none proposed here as new: stress substituting for TGF-β (doi:10.1016/j.celrep.2017.05.052), PEP release from JunB/BATF/IRF4 inhibition (doi:10.1016/j.celrep.2023.112205), and demand competition. Two boundary findings constrain all three: complete T-cell Pgam1 deletion attenuates CD4 and CD8 responses, so genetic reduction must be titrated; and 2-DG reduces IL-17A in lung Th17 tissue-resident memory cells, so the direction is context-dependent. The decisive measurement shares cultures with the Wp-P02 branch card's PGAM-by-PHGDH design. A23 is the nearest metabolic question in the register and shares neither population, perturbation nor endpoint. No effect margin is nominated.
+
+[Dossier](docs/research_dossiers/A29.md) · [Workspace](RQ_Specified/A29_pgam_effector_mechanism/README.md) · [Development plan](RQ_Specified/A29_pgam_effector_mechanism/PLAN.md) · [Derivation, overlap and literature record](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+
+<a id="a30"></a>
+
+### A30. Is the elevated pro-inflammatory programme in CSF T cells compartment-specific or a correlate of activation?
+
+Registered 5 October 2026 as **proposed**, derived from the executed Wp
+reproduction ladder, branch cards, metadata phenotypes and extension analyses of
+Wang et al. 2025 in [gate2_W2](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+The derivation supplied a bounded scientific review; human retain/reject and
+scientific acceptance remain unrecorded. Registration is not a claim of novelty,
+functional validation or permission to execute an unfinished numerical design.
+
+**Hypothesis and biology.** The cerebrospinal fluid compartment imposes an effector state on CD4-lineage T cells that is not reducible to local activation, with regulatory competence unchanged rather than suppressed. The prediction is that within matched activation strata the paired CSF-minus-blood elevation of the pro-inflammatory module persists while the pro-regulatory arm still does not move; an activation-only explanation predicts the elevation collapses. Compartment association is not evidence that the compartment caused the state.
+
+**Current evidence.** The source's published human claim does not reproduce. Nothing separates the disease groups in CSF at BH ≤ 0.05, the smallest adjusted value being programme N3 at BH 0.147; in blood the modules separate the cohorts but 1,000 matched-size random gene sets separate them as well (p 0.29), and the activation set separates them in the opposite direction while correlating with every module at Spearman −0.61 to −0.87. The contrast that survives a matched null is paired within donor: pro-inflammatory +0.061 in 10/10 donors (p 0.003), programme N3 +0.081 (p 0.007), activation +0.109 (p 0.013), while pro-regulatory is +0.007 (p 0.394) and +0.022 (p 0.931) and the 805-gene transported signature sits inside its null. The deposit carries no age, sex, treatment or disease-duration field.
+
+**Rival and discriminating outcome.** Local activation, a measured competitor rather than a hypothetical one. Tissue residency or recirculation, since CSF samples a migratory population and a paired contrast cannot show that the same cell would have scored lower in blood. Composition, now with a named candidate in the CSF-enriched CCR5-high Th17.1 cluster (doi:10.1016/j.ebiom.2026.106324). The reanalysis leg repeats the paired contrast within activation strata defined from genes disjoint from both modules, reports both arms against the same matched null, and decomposes the paired difference into composition and within-state terms: persistence within strata with the regulatory arm still flat supports a compartment-imposed state, collapse supports activation, a dominant composition term indicates a mixture shift. Residency needs shared-clone comparison across compartments, which this deposit cannot supply.
+
+**Scope and readiness.** Registered as a proposed measurement-validation and boundary-extension question. The reanalysis leg is executable in this package under a new prospective contract and is the only executable leg among the three Wp-derived questions; its limits are declared in advance, since it cannot defeat residency and ten donors make it precision-limited. Reanalysis of this deposit shares one evidence lineage with both the source paper and Schafflick et al. 2020, so neither supplies independent validation, and the reproduction's negative result on the published human claim stands whatever this question returns. A26 contrasts murine spleen against marrow for TCR repertoire concentration with the animal as unit; A27 is the nearest reasoning neighbour, being a redistribution-versus-within-state attribution, and remains distinct in population, tissue, endpoint and unit. No effect margin is nominated.
+
+[Dossier](docs/research_dossiers/A30.md) · [Workspace](RQ_Specified/A30_csf_compartment_effector_state/README.md) · [Development plan](RQ_Specified/A30_csf_compartment_effector_state/PLAN.md) · [Derivation, overlap and literature record](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
 
 ## Execution and interpretation rules
 

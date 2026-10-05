@@ -16,9 +16,10 @@ def check_research_layout(root: Path, result) -> None:
     ids = re.findall(r'^### (A\d+)\.', questions, flags=re.M)
     # A15-A18 retain their prior proposed status; A19-A21 are post-analysis Nb2
     # hypotheses; A22-A23 are post-analysis Nb3 hypotheses; A24-A27 are
-    # proposed Nb5 questions after bounded review. Registration checks exact
-    # identity/order, not biological acceptance.
-    result.equal(ids, [f'A{i}' for i in range(28)], 'canonical question sequence')
+    # proposed Nb5 questions after bounded review; A28-A30 are proposed Wp
+    # questions derived from the executed Wang PGAM package. Registration checks
+    # exact identity/order, not biological acceptance.
+    result.equal(ids, [f'A{i}' for i in range(31)], 'canonical question sequence')
     result.require(not (paper / 'DERIVED_RESEARCH_QUESTIONS.md').exists(),
                    'duplicate current paper-local RQ register')
     roadmap = json.loads((root / 'Research Article/ROADMAP.json').read_text(encoding='utf-8'))
