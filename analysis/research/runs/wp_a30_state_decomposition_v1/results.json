@@ -1,0 +1,54 @@
+{
+ "cell_recovery_vs_wp_R4_v2": {
+  "per_unit_identical": true,
+  "prior_cells": 35928,
+  "this_run_cells": 35928
+ },
+ "clustering": "Leiden resolution 1.0 on 285 highly variable genes selected from 295 genes outside both modules and outside the activation panel; 30 PCs, exact scikit-learn neighbours, seed 20261005, all thread pools pinned to one worker",
+ "decomposition_summary": [
+  {
+   "basis": "de_novo_state",
+   "comp_sign_agree": 9,
+   "composition": 0.007204821794956644,
+   "max_residual": 4.5930773073799003e-10,
+   "n_donors": 10,
+   "score": "proinflammatory_authors",
+   "total": 0.070979050388456,
+   "within": 0.05200848673768992,
+   "within_sign_agree": 10
+  },
+  {
+   "basis": "de_novo_state",
+   "comp_sign_agree": 8,
+   "composition": 0.006354111597340808,
+   "max_residual": 7.160074165513119e-10,
+   "n_donors": 10,
+   "score": "proregulatory_authors",
+   "total": 0.010736181105956397,
+   "within": 0.007007428957711991,
+   "within_sign_agree": 5
+  }
+ ],
+ "discharges": "the de novo state basis declared by wp_a30_activation_stratified_v2 and recorded there as not executed",
+ "inputs_verified": {
+  "GSE138266_RAW.tar": "b573289bb13f0054092448eb1ab5685f2b7030cd2c08359f0cf04e995dc853a5",
+  "GSE138266_samples.soft.txt": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+  "NIHMS2092659-supplement-2.xlsx": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+  "NIHMS2092659-supplement-5.xlsx": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+  "acquisition_v1.json": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+  "acquisition_v3_matrices.json": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+  "wp_human_signature_transfer_v2/cell_scores.csv.gz": "1a89e1ddec6d39fb3f58690282a5074cc44266039016810686a5720ab1ebd990",
+  "wp_human_signature_transfer_v2/sample_qc.csv": "2edd4afb78e9be3df179bb94184d555b13fc386a807563ee85f41713d2235e0a"
+ },
+ "interpretation_limit": "Clusters are a partition of this deposit's cells, not independently validated cell types, and the decomposition is descriptive: a composition term says the mixture differs, not why. Ten paired donors with no covariate fields. A state absent from one compartment of a donor is carried at its pooled mean so the identity stays exact, which attributes that state's whole contribution to the composition term. Residency is not addressed here.",
+ "n_states": 32,
+ "question": "Does the paired CSF-minus-blood difference in the pro-inflammatory module arise from a shift in the mixture of cell states, or from a change within states?",
+ "schema": "wp_a30_state_decomposition/v1",
+ "thresholds": {
+  "leiden_resolution": 1.0,
+  "n_hvg": 2000,
+  "n_pcs": 30,
+  "seed": 20261005
+ },
+ "unit": "donor, paired; cells are observations within donor"
+}

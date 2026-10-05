@@ -794,7 +794,13 @@
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_global_shift_v1.json",
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/e5_external_screen_v1.json",
     "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json",
-    "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json"
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v1.json",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v2.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -845,7 +851,13 @@
     "analysis/research/runs/wp_e3_global_shift_v1/receipt.json",
     "analysis/research/runs/wp_e5_external_screen_v1/receipt.json",
     "analysis/research/runs/wp_figures_v2/receipt.json",
-    "analysis/research/runs/wp_e3_isr_sensitivity_v1/receipt.json"
+    "analysis/research/runs/wp_e3_isr_sensitivity_v1/receipt.json",
+    "analysis/research/runs/wp_a30_activation_stratified_v1/receipt.json",
+    "analysis/research/runs/wp_a30_activation_stratified_v2/receipt.json",
+    "analysis/research/runs/wp_a30_state_decomposition_v1/receipt.json",
+    "analysis/research/runs/wp_a30_state_decomposition_v2/receipt.json",
+    "analysis/research/runs/wp_a30_figure_v1/receipt.json",
+    "analysis/research/runs/wp_a30_figure_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

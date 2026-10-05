@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.render_a30_figure_v1",
+  "owner": "Wp-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Can the A30 reanalysis be presented in one plate whose title is true of every category it draws?",
+  "decision": "What the A30 workspace shows a reader about the activation and composition rivals.",
+  "strongest_rival": "A plate overstates its run, by titling a claim its own axis contradicts or by hiding that the primary does not clear its matched null after correction.",
+  "discriminator": "Each claim title is checked against every category drawn; the matched-null interval is drawn behind the observed donors rather than described, and the BH outcome is stated in the footer.",
+  "evidence_refs": [
+    "RQ_Specified/A30_csf_compartment_effector_state/RESULTS.md",
+    "RQ_Specified/A30_csf_compartment_effector_state/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Fully exposed by construction: every input is an output of an executed A30 run whose result has been read and reported. Rendering is layout only; no value, threshold or claim changes.",
+  "biological_unit": "Donor, paired. Ten donors contribute both compartments; cells are observations within donor.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Display only; both panels draw the same ten donors and the same total difference.",
+  "population_and_selection": "Panel A draws every donor that each stratum supports under the declared floor, and both module arms in every stratum. Panel B draws the pro-inflammatory arm on both declared decomposition bases.",
+  "contrast": "Display only; each panel renders a contrast already computed and reported by its source run.",
+  "endpoint": "One plate as PNG at 300 dpi, PDF and SVG, plus a manifest recording input and output hashes.",
+  "methods": "Matplotlib, layout only. Outputs refuse to overwrite.",
+  "missingness_and_exclusions": "One unit falls below the 50-cell floor (PST95809 CSF in act1, 42 cells), so that stratum draws nine donors rather than ten; the count is visible as the number of dots.",
+  "multiplicity": "No test is performed; the BH values shown are the source run's own.",
+  "precision_status": "unknown",
+  "precision_basis": "No interval is drawn except the source run's matched random-set interval.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A generated scientific figure from frozen tables, not a reproduction of any published figure. It inherits the run's limits: ten donors, no covariate fields, RNA not protein, and no statement about residency.",
+  "stop_rule": "Render the plate as specified. Do not drop a category, change an axis range or soften a title after seeing the rendering; if a title is contradicted by its own axis, the title is corrected.",
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_a30_figure_v1.py",
+  "arguments": [
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "figure_manifest.json",
+    "figure_a30_activation_and_composition.png",
+    "figure_a30_activation_and_composition.pdf",
+    "figure_a30_activation_and_composition.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial rendering version for the A30 reanalysis plate.",
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_a30_figure_v1.py",
+      "sha256": "acc1b87f1d51665364e795dfb7ccfb6a6979bd61973b5271ce05fe870e26ce9f"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/stratified_contrasts.csv",
+      "sha256": "e69d3fb8fcafc0f804d88fa89e2b231c4b44ab58f1e4ad5e7d27fefc347f7b99",
+      "study_id": "Wp-A30",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/per_donor_differences.csv",
+      "sha256": "d41df4d6ba89075ae5781133bf61298b844dac7378261b79e9803fa3509f17ee",
+      "study_id": "Wp-A30",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/decomposition_summary.csv",
+      "sha256": "7b045eb06cc51dcd80afecf8e6551ad3c793cea6d2e56d0dee268d65e718df3f",
+      "study_id": "Wp-A30",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v2/decomposition_summary.csv",
+      "sha256": "60aa7584b99a154a00696a80e822a85e3278bb84b4bd59d10c27e5496eaf7f50",
+      "study_id": "Wp-A30",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ]
+}

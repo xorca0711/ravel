@@ -1,0 +1,278 @@
+{
+ "activation_panel": [
+  "CD69",
+  "JUN",
+  "JUNB",
+  "FOS",
+  "FOSB",
+  "DUSP1",
+  "NR4A1",
+  "NR4A2",
+  "IER2",
+  "EGR1",
+  "KLF6",
+  "NFKBIA",
+  "CD38",
+  "HLA-DRA",
+  "HLA-DRB1",
+  "IL2RA",
+  "ICOS",
+  "TNFRSF9",
+  "TNFRSF4",
+  "CD27",
+  "TNFAIP3"
+ ],
+ "activation_panel_disjoint_from_modules": true,
+ "cell_recovery_vs_wp_R4_v2": {
+  "per_unit_identical": true,
+  "prior_cells": 35928,
+  "this_run_cells": 35928
+ },
+ "clustering": "de novo clustering unavailable: PermissionError: [WinError 5] \uc561\uc138\uc2a4\uac00 \uac70\ubd80\ub418\uc5c8\uc2b5\ub2c8\ub2e4",
+ "context_results": [
+  {
+   "empirical_two_sided_p": 0.05,
+   "median_difference": 0.04471748694777489,
+   "n_donors": 9,
+   "score": "proinflammatory_all",
+   "stratum": "act1"
+  },
+  {
+   "empirical_two_sided_p": 0.098,
+   "median_difference": 0.04620041698217392,
+   "n_donors": 9,
+   "score": "proregulatory_all",
+   "stratum": "act1"
+  },
+  {
+   "empirical_two_sided_p": 0.778,
+   "median_difference": 0.009273111820220947,
+   "n_donors": 9,
+   "score": "activation_disjoint",
+   "stratum": "act1"
+  },
+  {
+   "empirical_two_sided_p": 0.035,
+   "median_difference": 0.06928697228431702,
+   "n_donors": 9,
+   "score": "programme_N3",
+   "stratum": "act1"
+  },
+  {
+   "empirical_two_sided_p": 0.435,
+   "median_difference": -0.012562143616378307,
+   "n_donors": 9,
+   "score": "proliferation",
+   "stratum": "act1"
+  },
+  {
+   "empirical_two_sided_p": 0.074,
+   "median_difference": 0.04170948266983032,
+   "n_donors": 10,
+   "score": "proinflammatory_all",
+   "stratum": "act2"
+  },
+  {
+   "empirical_two_sided_p": 0.288,
+   "median_difference": 0.035379812121391296,
+   "n_donors": 10,
+   "score": "proregulatory_all",
+   "stratum": "act2"
+  },
+  {
+   "empirical_two_sided_p": 0.662,
+   "median_difference": 0.0059952810406684875,
+   "n_donors": 10,
+   "score": "activation_disjoint",
+   "stratum": "act2"
+  },
+  {
+   "empirical_two_sided_p": 0.017,
+   "median_difference": 0.07441439479589462,
+   "n_donors": 10,
+   "score": "programme_N3",
+   "stratum": "act2"
+  },
+  {
+   "empirical_two_sided_p": 0.645,
+   "median_difference": 0.0021459516137838364,
+   "n_donors": 10,
+   "score": "proliferation",
+   "stratum": "act2"
+  },
+  {
+   "empirical_two_sided_p": 0.036,
+   "median_difference": 0.04335016384720802,
+   "n_donors": 10,
+   "score": "proinflammatory_all",
+   "stratum": "act3"
+  },
+  {
+   "empirical_two_sided_p": 0.994,
+   "median_difference": 0.017558928579092026,
+   "n_donors": 10,
+   "score": "proregulatory_all",
+   "stratum": "act3"
+  },
+  {
+   "empirical_two_sided_p": 0.923,
+   "median_difference": 0.01526428759098053,
+   "n_donors": 10,
+   "score": "activation_disjoint",
+   "stratum": "act3"
+  },
+  {
+   "empirical_two_sided_p": 0.033,
+   "median_difference": 0.06819871813058853,
+   "n_donors": 10,
+   "score": "programme_N3",
+   "stratum": "act3"
+  },
+  {
+   "empirical_two_sided_p": 0.212,
+   "median_difference": -0.029291056096553802,
+   "n_donors": 10,
+   "score": "proliferation",
+   "stratum": "act3"
+  }
+ ],
+ "decomposition_summary": [
+  {
+   "basis": "activation_stratum",
+   "comp_sign_agree": 9,
+   "composition": 0.00569481169048604,
+   "max_residual": 1.707372215831171e-09,
+   "n_donors": 10,
+   "score": "proinflammatory_all",
+   "total": 0.05333445040832031,
+   "within": 0.04917894668574903,
+   "within_sign_agree": 8
+  },
+  {
+   "basis": "activation_stratum",
+   "comp_sign_agree": 9,
+   "composition": 0.006291128200089361,
+   "max_residual": 1.6300561039850336e-09,
+   "n_donors": 10,
+   "score": "proinflammatory_authors",
+   "total": 0.07097904880614564,
+   "within": 0.05948827587840859,
+   "within_sign_agree": 10
+  },
+  {
+   "basis": "activation_stratum",
+   "comp_sign_agree": 9,
+   "composition": 0.00503140052288151,
+   "max_residual": 1.864827778308431e-09,
+   "n_donors": 10,
+   "score": "proregulatory_all",
+   "total": 0.03658960166428415,
+   "within": 0.03711757707888509,
+   "within_sign_agree": 6
+  },
+  {
+   "basis": "activation_stratum",
+   "comp_sign_agree": 8,
+   "composition": 0.004696071174998687,
+   "max_residual": 1.756874623212723e-09,
+   "n_donors": 10,
+   "score": "proregulatory_authors",
+   "total": 0.010736180797399934,
+   "within": 0.01013553052159514,
+   "within_sign_agree": 6
+  }
+ ],
+ "inputs_verified": {
+  "GSE138266_RAW.tar": "b573289bb13f0054092448eb1ab5685f2b7030cd2c08359f0cf04e995dc853a5",
+  "GSE138266_samples.soft.txt": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+  "NIHMS2092659-supplement-2.xlsx": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+  "NIHMS2092659-supplement-5.xlsx": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+  "acquisition_v1.json": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+  "acquisition_v3_matrices.json": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+  "wp_human_signature_transfer_v2/cell_scores.csv.gz": "1a89e1ddec6d39fb3f58690282a5074cc44266039016810686a5720ab1ebd990",
+  "wp_human_signature_transfer_v2/sample_qc.csv": "2edd4afb78e9be3df179bb94184d555b13fc386a807563ee85f41713d2235e0a"
+ },
+ "interpretation_limit": "Ten paired donors with no age, sex, treatment or disease-duration field, so no covariate adjustment is possible and a null is precision-limited rather than evidence of absence. Module scores are RNA, not protein, secretion or regulatory function. Stratifying on activation addresses the activation rival only; residency and recirculation are not addressed by any output here, because that needs shared-clone comparison across compartments which this deposit cannot supply. Reanalysis of this deposit shares one evidence lineage with the source paper and with Schafflick et al. 2020 and is never independent replication.",
+ "module_union_size": 184,
+ "primary_family": [
+  "proinflammatory_authors",
+  "proregulatory_authors"
+ ],
+ "primary_results": [
+  {
+   "bh_within_family": 0.068,
+   "empirical_two_sided_p": 0.034,
+   "median_difference": 0.05489249899983406,
+   "n_donors": 9,
+   "n_donors_positive": 9,
+   "score": "proinflammatory_authors",
+   "stratum": "act1",
+   "wilcoxon_p": 0.00390625
+  },
+  {
+   "bh_within_family": 0.8610000000000001,
+   "empirical_two_sided_p": 0.861,
+   "median_difference": 0.02149168774485588,
+   "n_donors": 9,
+   "n_donors_positive": 7,
+   "score": "proregulatory_authors",
+   "stratum": "act1",
+   "wilcoxon_p": 0.42578125
+  },
+  {
+   "bh_within_family": 0.063,
+   "empirical_two_sided_p": 0.018,
+   "median_difference": 0.056104421615600586,
+   "n_donors": 10,
+   "n_donors_positive": 10,
+   "score": "proinflammatory_authors",
+   "stratum": "act2",
+   "wilcoxon_p": 0.001953125
+  },
+  {
+   "bh_within_family": 0.8610000000000001,
+   "empirical_two_sided_p": 0.735,
+   "median_difference": 0.010766807943582535,
+   "n_donors": 10,
+   "n_donors_positive": 6,
+   "score": "proregulatory_authors",
+   "stratum": "act2",
+   "wilcoxon_p": 0.431640625
+  },
+  {
+   "bh_within_family": 0.063,
+   "empirical_two_sided_p": 0.021,
+   "median_difference": 0.05511464551091194,
+   "n_donors": 10,
+   "n_donors_positive": 10,
+   "score": "proinflammatory_authors",
+   "stratum": "act3",
+   "wilcoxon_p": 0.001953125
+  },
+  {
+   "bh_within_family": 0.6315,
+   "empirical_two_sided_p": 0.421,
+   "median_difference": -0.0021819351240992546,
+   "n_donors": 10,
+   "n_donors_positive": 4,
+   "score": "proregulatory_authors",
+   "stratum": "act3",
+   "wilcoxon_p": 0.921875
+  }
+ ],
+ "question": "Does the paired CSF-minus-blood elevation of the pro-inflammatory module survive stratification on an activation score built from genes disjoint from both modules?",
+ "schema": "wp_a30_activation_stratified/v1",
+ "strata": {
+  "basis": "global tertiles of the disjoint activation score",
+  "floor_cells_per_unit": 50,
+  "n": 3
+ },
+ "thresholds": {
+  "leiden_resolution": 1.0,
+  "n_draws": 1000,
+  "n_hvg": 2000,
+  "n_pcs": 30,
+  "seed": 20261005
+ },
+ "unit": "donor, paired; cells are observations within donor"
+}

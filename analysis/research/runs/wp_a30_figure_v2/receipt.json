@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.render_a30_figure_v2",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v2.json",
+  "contract_sha256": "8c7e26f753ccc1fa286a7cd5124eee2a5560db978e91ccad1fd65774c7de8a89",
+  "git_commit": "b869717d9cda1cb1755a5313d364aebfabe595f2",
+  "started_at": "2026-10-05T14:23:12.278389+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_a30_figure_v2.py",
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "analysis/research/runs/wp_a30_figure_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/stratified_contrasts.csv",
+      "sha256": "e69d3fb8fcafc0f804d88fa89e2b231c4b44ab58f1e4ad5e7d27fefc347f7b99",
+      "study_id": "Wp-A30",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/per_donor_differences.csv",
+      "sha256": "d41df4d6ba89075ae5781133bf61298b844dac7378261b79e9803fa3509f17ee",
+      "study_id": "Wp-A30",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/decomposition_summary.csv",
+      "sha256": "7b045eb06cc51dcd80afecf8e6551ad3c793cea6d2e56d0dee268d65e718df3f",
+      "study_id": "Wp-A30",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v2/decomposition_summary.csv",
+      "sha256": "60aa7584b99a154a00696a80e822a85e3278bb84b4bd59d10c27e5496eaf7f50",
+      "study_id": "Wp-A30",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_a30_figure_v2.py",
+      "sha256": "7618f4e0f36d48fd9bf91b90c3b9092e5d258d2efa9a5dc9d5fa9dbfdaa75fc2"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_figure_v2/figure_manifest.json",
+      "sha256": "715abcdcb476b321b9faa4311ee3d9a7cf8e458e62ea7ad0d97cf6d612ec7843"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_figure_v2/figure_a30_activation_and_composition.png",
+      "sha256": "f5ad0d68ed3eb8eb3b82d224423df724e969802f1b7705249107e31c7602227f"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_figure_v2/figure_a30_activation_and_composition.pdf",
+      "sha256": "a13efea0d4775788fb7b0978d7c563947c7bb2ec816e9ea5273cf11d97f5510b"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_figure_v2/figure_a30_activation_and_composition.svg",
+      "sha256": "7c00004be4c2e80a1877d94edeac3a2a837ece9823eeb2a6dec652eff8447f2e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-05T14:23:17.668686+00:00"
+}
