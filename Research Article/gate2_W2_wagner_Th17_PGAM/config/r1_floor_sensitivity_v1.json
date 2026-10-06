@@ -1,0 +1,142 @@
+{
+ "schema_version": 1,
+ "analysis_id": "Wp-R01.r1_floor_sensitivity_v1",
+ "owner": "Wp-R01",
+ "status": "frozen",
+ "analysis_type": "descriptive",
+ "question": "Wp-R1 keeps a gene at 1 CPM in at least half of the eight libraries, a floor lowered from 10 CPM during a dry run after the higher floor silently removed FOXP3, TBX21, CCL5 and IL23R, four of the ten genes Figure 3D names. What does that choice cost and buy across the floor range, and how much of the Figure 3D reproduction is attributable to the floor rather than to the data?",
+ "decision": "Whether the Wp-R1 Figure 3D reproduction can be reported as a property of the deposit, or must be reported as conditional on a gene-inclusion threshold chosen with knowledge of which genes it admits.",
+ "strongest_rival": "The floor is doing the work. Because the floor was lowered after seeing which genes a higher floor removed, the reproduction could be an artefact of a threshold selected to admit the genes the paper names. A second rival runs the other way: with no floor at all, genes whose residual variance is numerically zero across eight libraries can dominate the ranking and make the table appear to carry signal it does not.",
+ "discriminator": "Refit the declared interaction model at seven floors from 0 to 20 CPM and separate three things the floor can change: which named genes remain testable, the per-gene estimates, and the size of the tested universe that sets the BH correction. If per-gene estimates are floor-invariant, the floor cannot have created any individual effect and its whole influence is inclusion and multiplicity, which is then measurable. At floor 0 the genes reaching BH 0.05 are listed with their library CPM, so an unfiltered universe can be inspected directly rather than argued about.",
+ "evidence_refs": [
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+ ],
+ "prior_outcome_exposure": "exposed",
+ "exposure_record": "FULLY EXPOSED. The frozen floor's own outcome is reported in R1_RESULTS.md, the dry-run observation that a 10 CPM floor drops four named genes is recorded there, and a workspace sweep of all seven floors was run and read before this contract was frozen. The sweep found per-gene estimates exactly floor-invariant, the universe falling from 18,500 genes at floor 0 to 5,374 at 20 CPM, and 18 genes at BH 0.05 only at floor 0, of which 16 are never detected at 1 CPM in any library. This contract puts that on the governed record; it discovers nothing and carries no confirmatory weight.",
+ "biological_unit": "Library (8) nested in animal (2); animals crossed with all four conditions.",
+ "unit_status": "verified",
+ "nesting_and_overlap": "Eight libraries from two animals, each animal contributing all four condition combinations, so the animal term is estimable and the interaction rests on four residual degrees of freedom. The same deposit underlies Wp-R1 and the source paper; this is reanalysis of one evidence lineage and never independent replication.",
+ "population_and_selection": "Cells passing the Wp-R1 QC unchanged: at least 500 detected genes, mitochondrial fraction at most 0.10, and library size within three median absolute deviations of its own library's median on the log10 scale. Genes never detected after QC are dropped and duplicate upper-case symbols collapsed to the first occurrence, as in Wp-R1. Library condition labels are taken from the frozen Wp-R1 run and are not varied.",
+ "contrast": "Per gene, the glucose x cell-type interaction on log2(CPM + 1) library pseudobulk with an animal covariate, refit at each candidate expression floor.",
+ "endpoint": "Per floor: the number of genes tested, the number at raw p below 0.001, the number at BH 0.05, and for each of the ten Figure 3D genes whether it remains testable with its effect, raw p and BH q. Plus the per-gene spread of effect and raw p across floors, which must be zero, and at floor 0 the full list of genes at BH 0.05 with their library CPM.",
+ "methods": "QC, pseudobulk, CPM, log2 and the design matrix are the Wp-R1 entrypoint's, unchanged. Only the inclusion floor varies, over 0, 0.5, 1, 2, 5, 10 and 20 CPM at the same requirement of at least half the libraries. Benjamini-Hochberg is applied within each floor's own universe, which is the point of the comparison. The run asserts that no per-gene effect or raw p moves by more than 1e-9 across floors and fails otherwise, since any drift would mean the sweep is not isolating inclusion.",
+ "missingness_and_exclusions": "A named gene absent from a floor's universe is recorded as not testable at that floor rather than imputed or carried forward. No library is excluded beyond Wp-R1's QC.",
+ "multiplicity": "No new inferential family is declared. BH is recomputed inside each floor's universe for descriptive comparison, and the comparison between floors is the result; no test is performed on the differences between floors.",
+ "precision_status": "unknown",
+ "precision_basis": "Four residual degrees of freedom per gene. At floor 0 a gene with numerically zero residual variance yields a t statistic bounded only by floating point, so p values there are not interpretable as evidence and are reported to show that.",
+ "validation_scope": "none",
+ "design_identifiability": "supported",
+ "inference_scope": "descriptive",
+ "interpretation_limit": "A parameter sensitivity record, not a biological result, and not a recommendation of any floor other than the one the Wp-R1 contract declares. It bounds how much of the Figure 3D reproduction is attributable to gene inclusion; it says nothing about whether the published effects are real, and the per-gene estimates it reports are Wp-R1's own.",
+ "stop_rule": "Report every floor including those that remove named genes and those that admit implausible ones. Do not nominate a new floor for Wp-R1 on the basis of these values, and do not re-grade any Wp-R1 claim; if the sweep shows the reproduction depends on the floor, that dependence is recorded as a limitation of Wp-R1 rather than used to revise it.",
+ "inputs": [
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+   "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v2_supplements.json",
+   "sha256": "a34292407209abe916a6145d2b423e101b3d0614eddf0a91daccc87335c3f37c",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+   "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz",
+   "sha256": "80f6675b4922f7316f205afea2d4a52d612f7cc3ab830343b4f19e8f50261fe3",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+   "sha256": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+   "sha256": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_samples.soft.txt",
+   "sha256": "ec0db0447c9f99d005eba594ab59c0d34732f8e2afbe7bb0569cc7df03886638",
+   "study_id": "GSE289733",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_singlecell_reproduction_v1/library_labels.csv",
+   "sha256": "e829bb20338bf4181724d74af325f00b064c15bc305509e060b5faf71c447b72",
+   "study_id": "wp_singlecell_reproduction_v1",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_singlecell_reproduction_v1/fig3d_named_genes.csv",
+   "sha256": "03d69d3da8a2ffd37ab33be74db271b67be3940c961956be39193f7fb86857f2",
+   "study_id": "wp_singlecell_reproduction_v1",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  }
+ ],
+ "code": [
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/r1_floor_sensitivity_v1.py",
+   "sha256": "36e06c1afe2b1f35cb64d2e24e778fd0cea083f5889d013ab80ba2a14d1934ee"
+  }
+ ],
+ "runtime": "python",
+ "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/r1_floor_sensitivity_v1.py",
+ "arguments": [
+  "--data-root",
+  "raw_data/wagner_pgam_w2_20261004",
+  "--r1-run",
+  "analysis/research/runs/wp_singlecell_reproduction_v1",
+  "--output",
+  "{run_dir}"
+ ],
+ "expected_outputs": [
+  "results.json",
+  "floor_sweep_named_genes.csv",
+  "floor_sweep_universe.csv",
+  "per_gene_floor_invariance.csv",
+  "unfiltered_bh_hits.csv"
+ ],
+ "amendment_of": "",
+ "amendment_reason": "Not an amendment. This is a new descriptive sensitivity entrypoint recording what the Wp-R1 expression floor costs and buys; the Wp-R1 contract and its run are untouched and no Wp-R1 value is revised."
+}

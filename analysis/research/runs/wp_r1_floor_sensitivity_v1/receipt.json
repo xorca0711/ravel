@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.r1_floor_sensitivity_v1",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json",
+  "contract_sha256": "4df0460f58ba10b95d19a05250f434f65215cdc5804791ee27c6551644789d77",
+  "git_commit": "cf9bc4399e3bbd9cc1b535686f940f6397317402",
+  "started_at": "2026-10-06T08:44:26.102269+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/r1_floor_sensitivity_v1.py",
+    "--data-root",
+    "raw_data/wagner_pgam_w2_20261004",
+    "--r1-run",
+    "analysis/research/runs/wp_singlecell_reproduction_v1",
+    "--output",
+    "analysis/research/runs/wp_r1_floor_sensitivity_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+      "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v2_supplements.json",
+      "sha256": "a34292407209abe916a6145d2b423e101b3d0614eddf0a91daccc87335c3f37c",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+      "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz",
+      "sha256": "80f6675b4922f7316f205afea2d4a52d612f7cc3ab830343b4f19e8f50261fe3",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+      "sha256": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+      "sha256": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_samples.soft.txt",
+      "sha256": "ec0db0447c9f99d005eba594ab59c0d34732f8e2afbe7bb0569cc7df03886638",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/library_labels.csv",
+      "sha256": "e829bb20338bf4181724d74af325f00b064c15bc305509e060b5faf71c447b72",
+      "study_id": "wp_singlecell_reproduction_v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/fig3d_named_genes.csv",
+      "sha256": "03d69d3da8a2ffd37ab33be74db271b67be3940c961956be39193f7fb86857f2",
+      "study_id": "wp_singlecell_reproduction_v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/r1_floor_sensitivity_v1.py",
+      "sha256": "36e06c1afe2b1f35cb64d2e24e778fd0cea083f5889d013ab80ba2a14d1934ee"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_r1_floor_sensitivity_v1/results.json",
+      "sha256": "f49c3990abfdc60e28a6a5b2c90c6477a00bdfd091fd3cf181e4dff1f074fa5b"
+    },
+    {
+      "path": "analysis/research/runs/wp_r1_floor_sensitivity_v1/floor_sweep_named_genes.csv",
+      "sha256": "68306e1284f422c682c4735545706b467b7564f98c48db4c4bc0c6cac0404311"
+    },
+    {
+      "path": "analysis/research/runs/wp_r1_floor_sensitivity_v1/floor_sweep_universe.csv",
+      "sha256": "9eb3523da7579615549226dae62bf0fac0b51fcb5733ae4d959b9c919253bc8d"
+    },
+    {
+      "path": "analysis/research/runs/wp_r1_floor_sensitivity_v1/per_gene_floor_invariance.csv",
+      "sha256": "2b412a55eba2f44fdf74244cbf9c67659e112e5124f629b617bbea408f01553b"
+    },
+    {
+      "path": "analysis/research/runs/wp_r1_floor_sensitivity_v1/unfiltered_bh_hits.csv",
+      "sha256": "9e917cb79b3da6a79842f2b943f35ffcfedb28cefdb7e79fc284b5223aebebbf"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-06T08:47:52.216085+00:00"
+}

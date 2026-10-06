@@ -1,5 +1,17 @@
 # A30 reanalysis leg: the elevation is not activation, and it is not only composition
 
+> **Superseded in part — read
+> [A30_ERRATUM.md](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md)
+> first.** The v2 runs below divided each cell by the row sum of the loaded gene
+> subset instead of its all-gene library size, and drew only 1,000 matched random
+> sets, which gives a Monte-Carlo standard error larger than the distance from
+> the reported BH values to 0.05. Corrected and re-run at 10,000 draws as
+> `wp_a30_activation_stratified_v3` and `wp_a30_state_decomposition_v3`, the
+> pro-inflammatory arm is at **BH 0.032, 0.037, 0.032 — below 0.05 in all three
+> strata**, and the activation positive control is flat on the matched null but
+> marginal on Wilcoxon in two of three strata. §1 and §5 below are the v2 record
+> and are kept unchanged; the erratum carries the current values.
+
 Executed 5 October 2026 under the governed runner. Two outcome rows of the
 question card fire together, which the card did not anticipate, and the honest
 reading is weaker than either row alone.
@@ -137,6 +149,15 @@ parse changed the loaded set and moved the act1 pro-inflammatory value from
 binds it and because changing it would break comparability with Wp-M3, but it
 should be fixed before any future run, and the two values are reported here
 rather than only the later one.
+
+**Resolved 6 October 2026.** It was fixed, and it mattered: see
+[A30_ERRATUM.md](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md).
+Correcting the denominator moved the pro-inflammatory BH values from 0.063–0.068
+to 0.032–0.037 with the effect size essentially unchanged, so the §1 conclusion
+that the primary "does not clear its matched null" was an artefact of this
+convention compounded by an under-powered null. The judgement recorded above —
+that comparability with Wp-M3 outweighed correctness — was the wrong call, and
+is recorded as such rather than edited away.
 
 ## 6. Next useful step
 

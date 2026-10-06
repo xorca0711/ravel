@@ -1,0 +1,140 @@
+{
+ "schema_version": 1,
+ "analysis_id": "Wp-R01.a30_activation_stratified_v3",
+ "owner": "Wp-R01",
+ "status": "frozen",
+ "analysis_type": "descriptive",
+ "question": "Wp-M3 found the pro-inflammatory module higher in CSF than in the same donor's blood in 10/10 paired donors (+0.061, empirical p 0.003 against a matched random-set null) with the pro-regulatory arm flat, but the declared activation set moves in the same direction (+0.109, p 0.013). Does the pro-inflammatory elevation survive stratification on an activation score built from genes disjoint from both modules, and does the paired difference decompose into a composition or a within-state term?",
+ "decision": "Whether registered question A30 can describe a compartment-associated effector state in CSF CD4-lineage T cells, or must record the Wp-M3 elevation as an activation correlate or a mixture shift.",
+ "strongest_rival": "Local activation. CSF T cells are more activated than blood T cells, the declared activation set exceeds its own matched null in the same direction, and in blood it correlates with every module at Spearman -0.61 to -0.87. A second rival is composition: a CSF-enriched Th17-lineage subset would raise an effector module through mixture without any cell changing state.",
+ "discriminator": "Stratify cells on an activation score whose genes are disjoint from both modules, so the stratifier cannot carry the endpoint, and re-run the paired donor-level contrast inside each stratum against the same matched random-set null. Separately, split the paired difference by the symmetric Kitagawa identity into composition and within-state terms over two bases: the activation strata, and cell states clustered de novo from genes outside both modules and outside the activation panel.",
+ "evidence_refs": [
+  "RQ_Specified/A30_csf_compartment_effector_state/PLAN.md",
+  "RQ_Specified/A30_csf_compartment_effector_state/README.md",
+  "docs/research_dossiers/A30.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/METADATA_PHENOTYPES_RESULTS.md",
+  "Research Article/gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md"
+ ],
+ "prior_outcome_exposure": "exposed",
+ "exposure_record": "FULLY EXPOSED. v2's stratified primary-family values were read, reported to the owner and used to write A30_RESULTS.md before this amendment was conceived, and a workspace rescan of the corrected denominator and a second null seed was run and read before this contract was frozen. The direction of the correction is therefore known in advance: the rescan moved the pro-inflammatory BH values from 0.063-0.068 to 0.027-0.042 at 1,000 draws. This contract exists to put that correction on the governed record at adequate precision, not to discover it. Because the outcome is exposed, v3's values carry no confirmatory weight and the stop rule below is binding: the result is reported whichever side of 0.05 it falls, and A30's grade remains the owner's and is not proposed here.",
+ "biological_unit": "Donor, paired. Ten donors contribute both compartments; cells are observations within donor.",
+ "unit_status": "verified",
+ "nesting_and_overlap": "Cells are nested in unit, unit in donor, and the two compartments of a donor are paired, which the contrast respects by differencing within donor. Strata are cut on a score computed from the same cells, so strata are not independent samples. The analysis reuses the GSE138266 deposit already analysed by Wp-R4 and by Schafflick et al. 2020; it shares one evidence lineage with both and is never independent replication.",
+ "population_and_selection": "CD4-lineage T cells recovered under the Wp-R4 v2 gate, QC and deposit fixes, unchanged: a 500-UMI floor on the one library deposited unfiltered at 737,280 barcodes, and a summed panel-signal lineage comparison rather than hard-zero exclusion. The run asserts that per-unit cell recovery is identical to Wp-R4 v2 and fails otherwise, so the stratification attaches to the analysed cells. A unit enters a stratum only with at least 50 cells there, and a donor enters a stratum only when both of its units clear that floor; units and donors lost at the floor are reported per stratum.",
+ "contrast": "Per activation stratum, the paired CSF-minus-blood difference of donor-level mean score across the donors that stratum supports.",
+ "endpoint": "Per stratum and score: median paired difference, donors positive, Wilcoxon signed-rank p, and an empirical two-sided p against 10,000 matched-size random gene sets scored identically. Plus per-donor differences, and composition and within-state terms per donor on both decomposition bases.",
+ "methods": "Scoring follows the Wp-R4 v2 convention with one correction: CP10K is taken over the all-gene library size rather than the loaded gene subset's row sum, log1p, pooled z-scaling across all cells, mean signed z over mapped genes. Strata are three tertiles of the disjoint activation score cut on global quantiles, so a low-activation CSF cell is compared against a low-activation blood cell rather than against its own compartment's distribution. Null draws are shared across strata for gene sets of equal mapped size and aggregated to the per-stratum paired median inside the draw loop. The decomposition is the symmetric Kitagawa identity, whose residual is reported per donor and must be zero. De novo states are Leiden at resolution 1.0 on 2,000 highly variable genes selected from genes outside both modules and outside the activation panel, 30 PCs, seed 20261005. The activation score is additionally reported with its Wilcoxon signed-rank p per stratum, not only its empirical p, because the positive control is what licenses the claim that stratification worked.",
+ "missingness_and_exclusions": "Genes absent from the shared feature space are dropped and the mapped count reported per score. Units below 20 cells do not enter at all, as in Wp-R4 v2. Donors with only one compartment contribute to no paired contrast.",
+ "multiplicity": "The declared primary family is the two authors' HVG module arms crossed with the three strata, six tests, BH-adjusted within that family. The all-gene module forms, the activation score, programme N3 and proliferation are reported outside the family as context, the activation score serving as a positive control that the stratification worked.",
+ "precision_status": "unknown",
+ "precision_basis": "Ten paired donors with no age, sex, treatment or disease-duration field. A stratified contrast has less power than the unstratified one it checks, so a null is precision-limited by construction and no effect margin is nominated.",
+ "validation_scope": "none",
+ "design_identifiability": "unknown",
+ "inference_scope": "descriptive",
+ "interpretation_limit": "Donor-level module scores are RNA, not protein, secretion or regulatory function, and the modules are mouse-derived and transported by symbol identity. A compartment association is not evidence that the compartment caused the state. Stratifying on activation addresses the activation rival only: residency and recirculation are not addressed by any output here, because that needs shared-clone comparison across compartments which this deposit cannot supply. A failure to separate the hypotheses is precision-limited, never evidence of absence.",
+ "stop_rule": "Report every stratum and both module arms including null results, whichever way the primary falls. Do not drop a stratum, change the cell floor, change the number of strata or change the clustering resolution after seeing a value. If the elevation does not survive stratification, A30 records the Wp-M3 result as an activation correlate and the arm-asymmetry reading is withdrawn; if the composition term carries the paired difference, A30 records a mixture shift. Both outcomes are reported as results. Because the corrected outcome is exposed (see exposure_record), v3 carries no confirmatory weight: it is a precision-and-correctness re-run whose values supersede v2's for reporting but do not raise A30's evidential standing, and the positive control is reported on both tests even when they disagree.",
+ "runtime": "python",
+ "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/a30_activation_stratified_v3.py",
+ "arguments": [
+  "--data-root",
+  "raw_data/wagner_pgam_w2_20261004",
+  "--r4-run",
+  "analysis/research/runs/wp_human_signature_transfer_v2",
+  "--output",
+  "{run_dir}"
+ ],
+ "expected_outputs": [
+  "results.json",
+  "sample_qc.csv",
+  "gene_mapping.csv",
+  "cell_strata.csv.gz",
+  "stratum_support.csv",
+  "stratified_contrasts.csv",
+  "per_donor_differences.csv",
+  "null_draw_sample.csv",
+  "decomposition.csv",
+  "decomposition_summary.csv"
+ ],
+ "amendment_of": "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+ "amendment_reason": "Corrects one execution defect found AFTER v2's values were read and reported, and raises the Monte-Carlo precision. (1) Denominator: v1 and v2 formed CP10K by dividing each cell by the row sum of the LOADED gene subset rather than by its all-gene library size, so a score depended on which other scores were loaded in the same run; the all-gene library size was already computed in the first pass and is now used. The defect was declared in the v2 run record and is corrected here rather than silently. (2) Draws: 1,000 matched random sets give a Monte-Carlo standard error of about 0.006 at the observed empirical p, which is larger than the distance from the reported value to 0.05, so the v2 BH values could not adjudicate the threshold in either direction. N_DRAWS is raised to 10,000, giving a standard error near 0.002. The design, activation panel, strata, cell floor, primary family, multiplicity and stop rule are UNCHANGED. v2 and v1 are preserved with their receipts; v3 does not replace their records.",
+ "code": [
+  {
+   "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/a30_activation_stratified_v3.py",
+   "sha256": "9717be93ba1317f5ca7e54e4a26f2de04247898f0763da73b64e6d76c0b08d8f"
+  }
+ ],
+ "inputs": [
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+   "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+   "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+   "study_id": "wagner_pgam_w2_acquisition",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_RAW.tar",
+   "sha256": "b573289bb13f0054092448eb1ab5685f2b7030cd2c08359f0cf04e995dc853a5",
+   "study_id": "GSE138266",
+   "unit_ids": [],
+   "role": "discovery",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_samples.soft.txt",
+   "sha256": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+   "study_id": "GSE138266",
+   "unit_ids": [],
+   "role": "metadata",
+   "independence": "unknown",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+   "sha256": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+   "study_id": "Wang2025_TableS1",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+   "sha256": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+   "study_id": "Wang2025_TableS5",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_human_signature_transfer_v2/cell_scores.csv.gz",
+   "sha256": "1a89e1ddec6d39fb3f58690282a5074cc44266039016810686a5720ab1ebd990",
+   "study_id": "Wp-R4",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  },
+  {
+   "path": "analysis/research/runs/wp_human_signature_transfer_v2/sample_qc.csv",
+   "sha256": "2edd4afb78e9be3df179bb94184d555b13fc386a807563ee85f41713d2235e0a",
+   "study_id": "Wp-R4",
+   "unit_ids": [],
+   "role": "context",
+   "independence": "not_applicable",
+   "exposure": "exposed"
+  }
+ ]
+}
