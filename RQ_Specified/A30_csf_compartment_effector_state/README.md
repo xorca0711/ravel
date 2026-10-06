@@ -25,6 +25,23 @@ keep their article-run ownership. No analysis has been executed under this RQ;
 shared inputs remain shared biological evidence and never become independent
 replication.
 
+## Executed result, 5 October 2026
+
+The reanalysis leg has run. [RESULTS.md](RESULTS.md) reports it in full:
+activation is excluded as the explanation (the elevation is +0.055 to +0.056 at
+every activation level, and the activation score itself is flat within strata),
+but the primary does not clear its matched null after BH correction
+(0.063 to 0.068), and about 39 % of the paired difference is a cell-mixture
+shift once states are clustered independently. The working hypothesis is
+neither refuted nor established.
+
+![A30 stratified contrast and decomposition](../../analysis/research/runs/wp_a30_figure_v2/figure_a30_activation_and_composition.png)
+
+*Panel A: per-donor paired CSF-minus-blood difference in each activation
+stratum, both module arms, against the matched random-set interval. Panel B:
+the Kitagawa split of the same total on two bases. Generated from frozen run
+tables; see RESULTS.md for what this does and does not settle.*
+
 <!-- literature-visual-context:start -->
 ## Literature context and visual hypothesis
 

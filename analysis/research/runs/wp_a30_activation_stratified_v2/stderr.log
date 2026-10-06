@@ -1,0 +1,6 @@
+C:\Users\dream\.claude-science\conda\envs\wagner-pgam\Lib\functools.py:912: ImplicitModificationWarning: Transforming to str index.
+  return dispatch(args[0].__class__)(*args, **kw)
+C:\Users\dream\.claude-science\orgs\904daff3-1325-4774-a850-0038620def64\workspaces\9b7bf895-e403-4619-99a2-ca3be742aa44\ck8\Research Article\gate2_W2_wagner_Th17_PGAM\scripts\a30_activation_stratified_v2.py:516: UserWarning: `n_top_genes` (=295) > number of normalized dispersions (=285), returning all genes with normalized dispersions.
+  sc_.pp.highly_variable_genes(A, n_top_genes=N_HVG)
+C:\Users\dream\.claude-science\conda\envs\wagner-pgam\Lib\functools.py:912: UserWarning: zero-centering a sparse array/matrix densifies it.
+  return dispatch(args[0].__class__)(*args, **kw)
