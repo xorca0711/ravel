@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.compass_sensitivity_v2",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v2.json",
+  "contract_sha256": "7db24c0d192fa77f483b01b547f78c5d6c6d7b5b550f4b187df2bacab9fe86fe",
+  "git_commit": "0829f1081aa4b9a76649289834a4ac0c8b724963",
+  "started_at": "2026-10-06T09:51:12.220316+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_sensitivity_v2.py",
+    "--data-root",
+    "raw_data/wagner_pgam_w2_20261004",
+    "--r1-run",
+    "analysis/research/runs/wp_singlecell_reproduction_v1",
+    "--output",
+    "analysis/research/runs/wp_compass_sensitivity_v2_rerun"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+      "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz",
+      "sha256": "80f6675b4922f7316f205afea2d4a52d612f7cc3ab830343b4f19e8f50261fe3",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+      "sha256": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+      "sha256": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+      "study_id": "GSE289733",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/cell_scores.csv.gz",
+      "sha256": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf",
+      "study_id": "Wp-R1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_sensitivity_v2.py",
+      "sha256": "18d5de762af3b61112661ddb3f386799d7800eef7c4c4939a184d30921620494"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/results.json",
+      "sha256": "f9552e9aabd695a2d7724a764573f7da467480bd0c3f21b3e1537608fce0772b"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/pool_scores.csv",
+      "sha256": "1f3b17f908ef7f54591dc38ca4454826fddf2417b007b46093d74a9d5e7e00be"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/reaction_correlations.csv",
+      "sha256": "8e710826826da7973e9bba4f74487eec068e90c756930b1316487eded457fd3d"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/named_reactions.csv",
+      "sha256": "3fdd4beaf2db4889042d983db4cbb283d26ece9cf81c28e96c8b2e2b5fdbaf72"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/compass_stdout.log",
+      "sha256": "d90f2137e0b84494503dddb79a0142a359fd81f96a2771d8941b90b1e85ffbde"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-06T10:54:27.655126+00:00"
+}

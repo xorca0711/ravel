@@ -107,6 +107,39 @@ because the code hash is bound to this receipt. Any future rerun of this contrac
 should be treated as a *new* sampling of pools, not a replication of these
 numbers.
 
+### Resolved 6 October 2026 — and the v1 numbers are vindicated
+
+The defect was measured rather than assumed. Three repeats of the v1 pooling
+code: **one of two repeat pairs differed**, at adjusted Rand 0.989 against an
+identical count of 146 eligible pools, so the unseeded start moves a handful of
+cells between micropools rather than reorganising them. Three repeats with a
+fixed constant unit start vector were bit-identical.
+
+`compass_sensitivity_v2`
+([config](config/compass_sensitivity_v2.json) ·
+[receipt](../../analysis/research/runs/wp_compass_sensitivity_v2_rerun/receipt.json),
+`verify` clean) passes that start vector and changes nothing else — same seed,
+pool size, eligibility floor, pool target, reaction scope, Compass 1.0.0
+wagnerlab-berkeley fork and Gurobi.
+
+**v2 reproduces v1 exactly.** All 83 reactions across all 16 numeric columns
+agree to 0.000 × 10⁰, and the 60 scored pool identifiers are the same set. PGAM
+(`PGM_pos`) is ρ −0.2912, p 0.0240, BH 0.1808, rank 11 of 83 in both.
+
+Two consequences, and the second matters more:
+
+1. The caution above — treat any rerun as a new sampling of pools — **no longer
+   applies**. The contract is re-derivable, and these numbers have now been
+   independently re-derived rather than merely re-asserted.
+2. The v1 run happened to land on the same pooling the seeded code reaches, so
+   **the defect never affected the reported values**. That is luck, not design:
+   the probe shows a different draw was available, and a reader on a different
+   BLAS build had no way to know which they would get. The fix converts a number
+   that was right by chance into one that is right by construction.
+
+v1's run and receipt are preserved. v2 supersedes it for reporting only; no
+Wp-R2 conclusion changes, because no value did.
+
 ## Limits
 
 - Pools are not independent replicates; the correlation describes this deposit.

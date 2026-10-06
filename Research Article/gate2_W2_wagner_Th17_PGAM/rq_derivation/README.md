@@ -59,3 +59,4 @@ are not question material, and the reasons differ:
 - [OVERLAP_MATRIX.md](OVERLAP_MATRIX.md) — each candidate against all 28 registered questions.
 - [SOURCES_AND_GROUNDING.md](SOURCES_AND_GROUNDING.md) — published finding to repository output to proposed question, with receipt-level locators and exposure labels.
 - [LITERATURE_UPDATE.md](LITERATURE_UPDATE.md) — the searches actually run, with dates, queries, access record and what each source changes.
+- [JOINT_EXPERIMENT.md](JOINT_EXPERIMENT.md) — whether A28, A29 and Wp-P02 can share one preparation. A29 and P02 share a perturbation axis and should be one factorial; A28's primary is a glucose titration and shares only the mice, harvest, division gate and stain. Decision open.
