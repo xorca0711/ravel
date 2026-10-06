@@ -9,8 +9,12 @@
 > `wp_a30_activation_stratified_v3` and `wp_a30_state_decomposition_v3`, the
 > pro-inflammatory arm is at **BH 0.032, 0.037, 0.032 — below 0.05 in all three
 > strata**, and the activation positive control is flat on the matched null but
-> marginal on Wilcoxon in two of three strata. §1 and §5 below are the v2 record
-> and are kept unchanged; the erratum carries the current values.
+> marginal on Wilcoxon in two of three strata. **Everything below is the v2
+> record, kept unchanged; the erratum carries the current values.** The
+> conclusions that reverse are in §1 (the primary clears BH after all), §2 (the
+> totals move; the composition *shares* do not), §3 (two of the four
+> pre-declared decision rows read differently) and §5 (the limitation is
+> resolved). Each is flagged in place below.
 
 Executed 5 October 2026 under the governed runner. Two outcome rows of the
 question card fire together, which the card did not anticipate, and the honest
@@ -89,6 +93,14 @@ A majority of the difference is still within-state, and that term is positive
 in 8 of 10 donors, so this is not purely composition either. Both mechanisms
 contribute.
 
+> **v3 update.** The corrected denominator lowers both totals (+0.0710 → +0.0618
+> on the activation-stratum basis, +0.0710 → +0.0618 on the de novo basis) but
+> leaves the **shares essentially identical**: composition 38.7 % → 38.8 % and
+> within-state 56.3 % → 60.5 % over the same 23 states, within sign 8/10
+> unchanged. The v3 contract predicted this before execution, because the
+> clustering matrix was already normalised over all genes and only the means it
+> carried were wrong. **This section's conclusion is unaffected.**
+
 ### The version that would have misled
 
 The first state decomposition clustered on the 285 genes the scoring pass
@@ -121,6 +133,25 @@ A30's working hypothesis — a compartment-imposed effector state with regulator
 competence unchanged — is **not refuted and not established**. The regulatory
 half of it holds up well; the effector half is attenuated by composition and
 left short of the threshold by precision.
+
+> **v3 update — two of the four rows read differently, and the concluding
+> paragraph above is withdrawn.** With the corrected denominator and 10,000
+> draws:
+>
+> | Pre-declared row | v2 reading | v3 reading |
+> |---|---|---|
+> | Elevation persists within matched activation strata, pro-regulatory flat | Partly — does not clear its matched null | **Fires.** BH 0.032, 0.037, 0.032, below 0.05 in all three strata, regulatory arm flat at BH 0.82 |
+> | Elevation collapses once activation is held → activation correlate | No | **No**, unchanged |
+> | Composition term carries the paired difference | Partly, 39 % | **Partly, 39 %**, unchanged |
+> | Ten donors cannot separate the strata → precision-limited | Yes, in part | **No longer the binding limit** for the primary; it remains the limit for any covariate adjustment and for the residual activation difference, whose two tests disagree |
+>
+> The statement this leg supports is therefore: *the CSF pro-inflammatory
+> elevation clears the package's own matched-null threshold inside every
+> activation stratum, the regulatory arm is flat, about 39 % of it is a mixture
+> shift, and activation is reduced but — on the Wilcoxon test — not eliminated.*
+> The effector half of the hypothesis is **supported with a residual activation
+> caveat** rather than left short of threshold. A30's grade remains the owner's
+> and is still `not_assessed`.
 
 ## 4. What this does not address
 
