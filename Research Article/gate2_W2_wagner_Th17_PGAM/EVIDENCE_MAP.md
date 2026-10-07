@@ -1,5 +1,7 @@
 # Published evidence and reproduction targets
 
+**Current execution and interpretation — 7 October 2026:** see [corrections](CORRECTIONS_2026-10-07.md) and [the current README](README.md). Dated stage plans, intake states and derivation counts below remain historical. A28–A30 are now registered; the full portfolio is A0–A30.
+
 Source: [Wang, Wagner, Fessler et al. 2025](https://doi.org/10.1016/j.celrep.2025.115799),
 owner-supplied PDF (16 pages, main text with STAR Methods) and the supplemental
 information PDF (9 pages, legends plus Table S2). Page numbers below are PDF

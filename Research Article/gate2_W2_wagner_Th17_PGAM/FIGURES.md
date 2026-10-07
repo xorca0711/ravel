@@ -1,5 +1,7 @@
 # Wang 2025 PGAM figure gallery
 
+**Current figures — 7 October 2026:** use the [corrected score panels](../../analysis/research/runs/wp_correction_figures_v4/corrected_scores.png) and [correction report](CORRECTIONS_2026-10-07.md). The old Compass and human-transfer plates in `wp_figures_v2` are superseded; the six-plate PDF is a historical package and must not be shared as fully current. Other unchanged panels retain their recorded scope.
+
 Six plates, one per executed stage plus one for the branch pair. Every value
 drawn comes from a committed table of a governed run with a verified receipt;
 the rendering step performs no biological calculation. These are generated

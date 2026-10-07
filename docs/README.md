@@ -1,5 +1,7 @@
 # Documentation Index
 
+**Current repository audit:** [findings and corrections](audits/2026-10-07-repository-readiness/REPORT.md), [all-question review](audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md), and [return checklist](audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md).
+
 Start current research development with the [dossier index](research_dossiers/README.md), [governance](RESEARCH_GOVERNANCE.md) and [reconciliation report](audits/2026-10-03-repository-repair/REPORT.md).
 
 Start with the [research questions](../RESEARCH_QUESTIONS.md),

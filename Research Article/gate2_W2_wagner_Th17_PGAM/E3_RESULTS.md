@@ -1,4 +1,6 @@
-# Wp-E3 result: the global shift is not a stress response — it is effector gain against biosynthetic loss
+# Wp-E3 result: relative effector enrichment with lower biosynthetic and ISR transcripts
+
+**Interpretation qualification — 7 October 2026:** expression-decile matching addresses expression-dependent null behavior; it does not remove TPM compositional ambiguity or establish absolute per-cell output. Empirical values printed as 0.000 mean zero exceedances among the finite null draws, not zero probability. The frozen numerical outputs are unchanged. See [the current correction report](CORRECTIONS_2026-10-07.md).
 
 Executed 5 October 2026 under the governed runner. Contract
 [config/e3_global_shift_v1.json](config/e3_global_shift_v1.json), entrypoint
@@ -9,10 +11,10 @@ Executed 5 October 2026 under the governed runner. Contract
 **This candidate was wrongly excluded.** The [pre-RQ checkpoint](PRE_RQ_EVIDENCE.md)
 dropped E3 on the ground that a negative result would be uninterpretable,
 because TPM renormalisation alone can produce a transcriptome-wide shift and the
-deposit has neither counts nor spike-ins. That reason does not hold: a
-compositional effect is a **function of a gene's expression level**, so a null
-drawn with the gene set's own expression-decile composition absorbs it. The
-analysis below is the corrected version.
+deposit has neither counts nor spike-ins. The executed analysis can describe
+relative gene-set behavior against an expression-decile-matched null, but that
+null does not resolve the compositional ambiguity or identify absolute output.
+The earlier assertion that it absorbs the confound is superseded.
 
 Unit: library. GSE290297 declares no animal field, so nothing here is
 animal-level inference.
@@ -56,7 +58,7 @@ decile:
 | **Histones** | 61 | **−0.47** | −0.05 to +0.08 | **0.000** |
 | **Integrated stress response** | 13 | **−0.49** | −0.15 to +0.14 | **0.000** |
 
-**The global shift is not a stress programme.** The integrated stress response
+**The scored ISR transcript set decreases; stress activity is not excluded.** The integrated stress response
 is the single most *downregulated* programme (−0.49), and the unfolded protein
 response, NRF2 and heat-shock sets do not move at all. The one programme moving
 up beyond its null is the Th17 effector set itself (+0.54), against a
@@ -168,7 +170,7 @@ under DHEA, both p ≤ 0.001.
   section below.
 - A transcript shift is not flux or protein. The ISR result constrains the
   stress arm's premise; it does not measure signalling.
-- The expression-matched null absorbs a compositional effect but cannot exclude
+- The expression-matched null does not remove compositional ambiguity and cannot exclude
   a genuine global response that is itself expression-dependent.
 - Five libraries per arm; empirical p values describe the gene-set draw, not
   sampling of mice.

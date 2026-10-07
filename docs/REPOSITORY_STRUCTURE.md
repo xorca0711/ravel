@@ -1,12 +1,14 @@
 # Repository structure and label scope
 
-Updated 28 September 2026 (project navigation, dataset inventory and current execution links). This contract follows the existing shared-analysis
+**Current scope — 7 October 2026:** 31 canonical questions (A0–A30). A24–A27 derive from Nb5; A28–A30 from Wp. Wg is the 2021 Wagner/Compass paper, Wp is Wang/Wagner 2025 PGAM, and Niethamer W1 is a separate macrophage analysis. The [readiness audit](audits/2026-10-07-repository-readiness/REPORT.md) reconciles current execution and historical plans.
+
+Updated 7 October 2026; September layout conventions retained. This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
 protocols, original trial names and immutable run records remain historical evidence.
 
 | Material | Canonical location | Rule |
 |---|---|---|
-| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A23; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
+| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A30; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
 | Question-specific plans and analyses | `RQ_Specified/A<id>_<topic>/` | Prospective plan, source metadata, configuration, scripts, tables, reports and gallery; reference the root question register |
 | Shared question figures | [analysis/figures/rq/README.md](../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
 | Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
@@ -23,11 +25,11 @@ protocols, original trial names and immutable run records remain historical evid
 | Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |
 
-See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 24 questions; the registry locates their evidence and the nine article-local Nb4 candidates.
+See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 31 questions; the registry locates their evidence and the 31 article-local candidates across Nb4, Nb5, Wg and Wp.
 
 ## Identifier namespaces
 
-- `A0`–`A23` identify the current repository-wide question cards. A15–A18
+- `A0`–`A30` identify the current repository-wide question cards. A15–A18
   retain their pending proposals; A19–A21 derive from Nb2 and A22–A23 from Nb3.
   Registration is not biological acceptance or confirmatory readiness.
   Figures use the associated question ID, with panel/group suffixes where needed.
@@ -40,7 +42,7 @@ See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and im
   `Sikkema/S1`, `Choi/D1`, `Yu/N1`, `Yu/U5`, `Yu/F01`. Equal short labels do
   not mean equal analyses. Existing historical scripts are not renamed solely
   to make all short labels globally unique.
-- `W1` is the historical Wagner-branch myeloid pseudobulk trial label. It is
+- `W1` is the historical Niethamer macrophage pseudobulk trial label. It is
   neither a statistical evidence grade nor evidence that Compass flux modelling ran.
 - The former Yu follow-ups `RQ1`–`RQ4` are now `A11`–`A14`.
   Display labels D1, D2a–c, D0 and D4 map to A11, A12a–c, A12-S1 and A14.

@@ -1,5 +1,7 @@
 # Repository-grounding completion and deferred work
 
+**Current checkpoint — 7 October 2026:** PR #145 is merged. The [readiness audit](../audits/2026-10-07-repository-readiness/REPORT.md) and [return checklist](../audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md) supersede older integration instructions below. The original nine jobs retain their historical scope; Wp/A28–A30 are later developments. No portfolio question is selected or retired by the audit.
+
 Current accounting: 3 October 2026. PRs #130–#133 are merged; latest fetched main is `537eec8`. The owner subsequently requested specificity/novelty review and application: see the [current revision](NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md). This resumes that bounded scientific documentation task; it does not confirm actual access or accept a hypothesis. [PROGRESS.md](../../PROGRESS.md) owns the live session summary.
 
 The owner requested completion of recoverable source-mapping work, while

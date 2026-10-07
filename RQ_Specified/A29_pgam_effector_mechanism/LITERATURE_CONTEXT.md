@@ -1,5 +1,7 @@
 # A29: literature context and hypothesis schematic
 
+**Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
+
 Reviewed 5 October 2026. This note connects published findings to the current
 proposed question. It is a bounded synthesis, not novelty clearance and not
 scientific acceptance. The searches actually executed, their hit counts and
@@ -20,7 +22,7 @@ Three published mechanisms could produce the source's phenotype, and a fourth re
 
 ## Repository observation
 
-Against an expression-decile-matched null, EGCG in Th17n raises the Th17 effector programme (+0.544, p 0.000) while histones, serine/one-carbon, cell cycle and ribosomal proteins fall and the integrated stress response is the most downward-shifted set (−0.491, p 0.000); UPR, NRF2 and heat shock do not move. A frozen sensitivity shows the ISR result is not carried by the two genes shared with the serine set. ATF4 output falls while ATF4 itself does not move and SESN2 rises.
+Against an expression-decile-matched null, EGCG in Th17n raises the Th17 effector programme (+0.544, 0/1,000 null draws as extreme; not an exact zero p value) while histones, serine/one-carbon, cell cycle and ribosomal proteins fall and the integrated stress response is the most downward-shifted set (−0.491, 0/1,000 null draws as extreme; not an exact zero p value); UPR, NRF2 and heat shock show no detected set-specific departure (not equivalence). A frozen sensitivity shows the ISR result is not carried by the two genes shared with the serine set. ATF4 output falls while ATF4 transcript shows no detected difference and SESN2 rises.
 
 Exact current result locators:
 
@@ -38,17 +40,17 @@ Determine which published mechanism produces this paper's phenotype. The source'
 
 PGAM restriction raises Th17 effector output by lowering the phosphoenolpyruvate pool and relieving PEP-mediated inhibition of the JunB/BATF/IRF4 complex, rather than by inducing a stress response; relief of biosynthetic and proliferative demand is a third, separable possibility. The PEP route predicts that the PEP pool falls under PGAM inhibition and that PEP supplementation abolishes the effector gain; the demand route predicts that matched growth slowing without PGAM inhibition reproduces it. No mechanism here is proposed as new, and a transcript-level observation cannot establish any of them.
 
-**Strongest rival:** PEP is genuinely unchanged, as the source's own ¹³C labelling would imply, which eliminates the primary route. Further rivals: ISR-independent stress through sustained cytoplasmic calcium that no transcript module sees; a per-cell-RNA-content compositional effect; division-rate dilution; and off-target action of EGCG.
+**Strongest rival:** Absolute PEP might remain stable, which would challenge the proposed bulk-pool route; the reported isotope-label ratio does not establish that stability. Further rivals: ISR-independent stress through sustained cytoplasmic calcium that no transcript module sees; a per-cell-RNA-content compositional effect; division-rate dilution; and off-target action of EGCG.
 
 ## What the comparison would teach
 
-Absolute PEP, 2PG and 3PG pools under PGAM inhibition, with a PEP-supplementation rescue arm, a matched growth-slowing arm that does not touch PGAM, and phospho-eIF2α/ATF4 protein. A falling pool with supplementation abolishing the IL-17 increase supports the metabolite route; an unchanged pool eliminates it; matched growth slowing reproducing the gain supports demand relief; rising phospho-eIF2α despite falling target transcripts would show transcript modules mis-read the response. The pool measurement is decisive precisely because the published 15-minute label ratio cannot distinguish a steady pool from a falling one.
+Absolute PEP, 2PG and 3PG pools under PGAM inhibition, with a PEP-supplementation rescue arm, a matched growth-slowing arm that does not touch PGAM, and phospho-eIF2α/ATF4 protein. A falling pool with supplementation abolishing the IL-17 increase supports the metabolite route; a precisely bounded absence of a relevant pool decrease would argue against this bulk-pool route, without excluding compartmental or transient effects; matched growth slowing reproducing the gain supports demand relief; rising phospho-eIF2α despite falling target transcripts would show transcript modules mis-read the response. The pool measurement is decisive precisely because the published 15-minute label ratio cannot distinguish a steady pool from a falling one.
 
 ## Hypothesis schematic
 
-![A29: proposed comparison and strongest rival](schematics/hypothesis_v1.svg)
+![A29: proposed comparison and strongest rival](schematics/hypothesis_v2.svg)
 
-[Editable hypothesis schematic](schematics/hypothesis_v1.svg). Original
+[Editable hypothesis schematic](schematics/hypothesis_v2.svg). Original
 explanatory artwork. Dashed arrows denote the labelled proposal or rival;
 shapes, colours and any counts are qualitative, not observations. The readout
 cards explain which uncertainty a measurement could resolve. Missing features

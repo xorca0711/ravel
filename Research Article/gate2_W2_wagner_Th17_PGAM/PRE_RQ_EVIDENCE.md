@@ -1,5 +1,7 @@
 # Pre-RQ checkpoint: what is settled, and the extension candidates worth weighing
 
+**Supersession — 7 October 2026:** the [versioned correction report](CORRECTIONS_2026-10-07.md) owns current Compass and human-score interpretation. The numerical values and conclusions below describe the earlier run and must not be reused as current corrected evidence. Original contracts, scripts, receipts and tables are preserved.
+
 Dated 5 October 2026. **No research question is derived here and no candidate
 below is authorised.** This document exists so that the eventual derivation
 starts from an explicit account of what the executed work established, what it

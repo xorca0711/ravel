@@ -4,8 +4,8 @@
     "origin": "the owner's reading order; the reading notes are kept privately",
     "reading_order_last_checked": "2026-10-01",
     "ids_verified_against_pubmed_on": "2026-09-09 (papers 1 to 11); 2026-09-15 (papers 12 to 16 and M1 to M7)",
-    "analysis_status_updated": "2026-10-01",
-    "analysis_status_basis": "docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md; Nb3 updates linked in paper 14; other reading statuses and reading order preserved",
+    "analysis_status_updated": "2026-10-07",
+    "analysis_status_basis": "PROGRESS.md; docs/audits/2026-10-07-repository-readiness/REPORT.md; current linked Wg/Wp result reports; owner reading statuses unchanged",
     "nabhan_2023_status_updated": "2026-09-29; Nb2 source and branch analyses remain under Research Article; specified RQs deferred to evidence-driven derivation",
     "nb3_status_updated": "2026-10-01; owner read; partial reproduction, descriptive follow-up and E5 pilot completed; A22/A23 proposed",
     "reconciled_with_main": "2026-10-03; 0e03fa296eac2ddc4e8f02f5389d85c0f1058c2f",
@@ -60,7 +60,7 @@
     "1": "foundation references with executed analyses; review remaining interpretation questions as needed",
     "2C": "Choi axis: papers 5, 12, 13; synthesize completed analyses and remaining functional questions",
     "2N": "Nabhan: papers 6, 14; owner reading complete, Nb2/Nb3 analyses available with limits",
-    "2W": "Wagner: papers 16, 15 and 17; W1 pseudobulk complete, Compass not run. Paper 17 (Wang 2025, PGAM) is read and structured as gate2_W2_wagner_Th17_PGAM",
+    "2W": "Wagner branch: papers 16, 15 and 17. Wg (2021) source/RNA analyses and Wp (2025 PGAM) R0–R4 have run within declared limits. Wp corrected current reports supersede affected raw-penalty and human-normalization summaries. Niethamer W1 remains a separate analysis.",
     "3A": "Saxton: reading open 2026-10-01, papers 8 then 7; analysis gated",
     "3B": "DuPage: reading open 2026-10-01, papers 9 then 11; paper 10 optional next; analysis gated",
     "2X": "cross-field comparison: functional interaction assays, developmental regeneration and immune-state memory; X1–X4"
@@ -529,7 +529,7 @@
       ],
       "folder": "gate2_W1_wagner_th17_autoimmunity",
       "note_status": "owner reading completed 2026-10-04; source and handmade-note reconciliation prepared",
-      "trial_status": "Wg-R01 reproduction and Wg-P01-P06 branches planned; no Wagner numerical analysis or Compass run. Existing Niethamer W1 pseudobulk remains separate.",
+      "trial_status": "Wg-R0 identity, R1 source scores and source-aligned R3 RNA models executed. R2/R4/R5 remain source/runtime holds; see PRE_RQ_EVIDENCE.md. Six provisional branch derivations, no new global A ID. Separate from Niethamer W1 and Wp.",
       "added": "2026-09-15"
     },
     {
@@ -579,10 +579,10 @@
       ],
       "folder": "gate2_W2_wagner_Th17_PGAM",
       "note_status": "owner read 2026-10-04; package structured the same day",
-      "trial_status": "Wp-R0 source qualification executed and verified (receipt wp_source_qualification_v1); Wp-R1/R3/R4 eligible descriptively, Wp-R2 blocked on a solver licence, Wp-R5 has no deposited values. Six article-local candidates Wp-P01-P06 registered. No expression value analysed; supplementary tables S1/S3-S6 unavailable.",
+      "trial_status": "Wp-R0–R4 and selected follow-ups executed; R2 is substituted-input sensitivity, not published Figure 1 reproduction. Versioned 7 October corrections address Compass penalty orientation and Wp-R4/M3 normalization. R5 closed without execution. A28–A30 registered proposals; no scientific acceptance.",
       "added": "2026-10-04",
       "analysis_plan": "gate2_W2_wagner_Th17_PGAM/ANALYSIS_TRIAL_PLAN.md",
-      "results": "gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md",
+      "results": "gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md",
       "trial_location": "Research Article/gate2_W2_wagner_Th17_PGAM/README.md"
     }
   ],

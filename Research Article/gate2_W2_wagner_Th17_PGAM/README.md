@@ -1,12 +1,6 @@
 # Wang, Wagner et al. 2025: PGAM restrains Th17 pathogenicity
 
-**Current status, 7 October 2026:** Wp-R0–R4, metadata follow-ups and selected
-extensions have executed; Wp-R5 remains closed without numerical execution.
-A28–A30 are registered proposals. Read the [PR140 audit](../../docs/audits/2026-10-07-pr140/REPORT.md)
-for the artifact/QC review and paper-to-question map. **Wp-R2 has a score-direction
-defect**; A30's corrected v3 tables support a bounded RNA association, not activation
-exclusion or preserved regulatory function. The historical stage reports below
-retain their original values and limitations; no claim acceptance is added.
+**Current status — 7 October 2026:** R0–R4 and selected extensions have executed; R5 is closed without numerical execution. A28–A30 are registered proposals. The [current correction report](CORRECTIONS_2026-10-07.md) supersedes the affected Compass and human-score summaries. A30 v3 remains a bounded RNA association, not activation exclusion, residency or preserved regulatory function.
 
 [Wang, Wagner, Fessler et al., *Cell Reports* 44, 115799 (2025)](https://doi.org/10.1016/j.celrep.2025.115799),
 *The glycolytic reaction PGAM restrains Th17 pathogenicity and Th17-dependent
@@ -46,7 +40,7 @@ FOXP3/SGK1-high, least pathogenic Th17n program N1.
 | [Literature context](LITERATURE_CONTEXT.md) | Precedents, the directional conflict with Godfrey 2025, and the bounded search log |
 | [Validation](VALIDATION.md) | What was actually checked in this pass and what was not |
 
-## Evidence logic
+## Published paper’s evidence logic
 
 ```mermaid
 flowchart LR
@@ -68,58 +62,30 @@ this with 13C labelling restricted to 2PG and with an sgRNA perturbation; neithe
 addresses whether the *ranking* was informative or whether the direction of the
 serine arm is correct.
 
-## Current decision
+## Current decision and extension baseline
 
-[Four stages have run](REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026):
-Wp-R0, [Wp-R3](R3_RESULTS.md), [Wp-R1](R1_RESULTS.md) and [Wp-R4](R4_RESULTS.md).
-Wp-R1 recovers the undeclared library order from markers (8/8) and reproduces the
-low-glucose pathogenicity rise through the pro-regulatory arm in 4/4 animal-paired
-comparisons. Wp-R4 closes [Wp-P05](branches/P05_human_signature_activation.md) in
-the negative: a matched-size random gene set separates the human blood cohorts as
-well as the modules do, and nothing separates the CSF cohorts. Wp-R3
-reproduces the authors' deposited bulk statistics on the first-division gate
-(log2FC *r* 0.83-0.92) but recovers only 0.405 of their Th17n EGCG signature, and
-finds the Th17n EGCG module shift **not** selective for the pro-inflammatory
-group once the global shift is centred out. Wp-R2 runs only as a declared
-version-and-input sensitivity, because the published scVI-imputed input was never
-deposited; Wp-R5 is closed, the owner having declined author contact and figure
-digitisation. On the branch side, [Wp-P01](P01_RESULTS.md) and
-[Wp-P03](P03_RESULTS.md) have now executed: the cell ranking is stable to gene
-selection but the glucose effect shrinks about tenfold without the HVG filter,
-and the low-glucose score rise is a composition change with the within-state term
-inconclusive at two animals. Wp-P05 is closed in the negative, Wp-P04 is blocked
-permanently, Wp-P06 stays conditional, and Wp-P02 is the only card a new
-measurement could still move. A [six-plate figure gallery](FIGURES.md) renders
-the executed results, and the [pre-RQ checkpoint](PRE_RQ_EVIDENCE.md) lists the
-extension candidates and the three asymmetries a derivation could start from.
-No research question has been derived. [Wp-M](METADATA_PHENOTYPES_RESULTS.md) then
-exploited the two deposited metadata fields the package had never used as
-variables: both inhibitors abolish the vehicle-measurable division signature,
-the two inhibitors' module selectivity is reciprocal across cell types, and in
-human CSF the pro-inflammatory arm is specifically elevated over paired blood
-while the pro-regulatory arm is not. The two biological extension candidates then ran under
-their own contracts: [Wp-E3](E3_RESULTS.md) finds the transcriptome-wide EGCG
-shift is effector gain against biosynthetic loss with the stress response moving
-**down**, and [Wp-E5](E5_RESULTS.md) screens GEO for an independent nutrient
-contrast in Th17 cells, leaving the route open but no candidate yet admissible. The five supplementary tables were
-recovered on 4 October 2026 from the NIH PMC Cloud open-data package, so the
-module and signature definitions are the authors' own rather than substitutions. The single-cell deposit is the pre-QC
-aggregated matrix of 19,203 barcodes, not the 5,192-cell analysed set, and its
-library order is not stated. Compass itself now runs - licence obtained, authors' own fork installed - but on
-an input that was never deposited: the published run used scVI-imputed expression
-whose model and matrix are not in GEO, so Figure 1 cannot be reproduced as
-published and Wp-R2 is labelled a sensitivity throughout.
+Read [the correction report](CORRECTIONS_2026-10-07.md) first, then the
+[stage map](REPRODUCTION_SCOPE.md), [figure gallery](FIGURES.md) and
+[repository readiness audit](../../docs/audits/2026-10-07-repository-readiness/REPORT.md).
 
-The next intellectual step is **not** more scores: it is deciding between the
-paper's serine-shunt direction and the opposite direction reported for Tregs by
-[Godfrey et al. 2025](LITERATURE_CONTEXT.md#directional-conflict-on-the-serine-arm).
-That contrast is the reason this package is worth executing, and it is specified
-as [Wp-P02](branches/P02_serine_one_carbon_direction.md), whose second arm —
-cellular stress and TGF-β — comes from the owner's own Discussion note and from
-the source's closing sentence, with the TGF-β leg flagged as an unverified
-premise in the [note reconciliation](NOTE_RECONCILIATION.md).
+- **R1 / P01 / P03:** deposited mouse RNA supports descriptive score and
+  composition comparisons, with two animals. The HVG definition matters and the
+  [floor sensitivity](R1_RESULTS.md) changes the tested universe and BH family,
+  while per-gene effects and raw p values remain invariant.
+- **R2:** corrected expression-consistency scores reverse the prior sign
+  interpretation. The modern, restricted, micropooled analysis does not reproduce
+  the paper's PGAM negative association; it does not refute the perturbation data.
+- **R3 / M1 / M2 / E3:** bulk contrasts remain library-level TPM descriptions.
+  Missing animal identity, compositional ambiguity and distinct drug vehicles
+  restrict inference. Expression-matched gene sets do not remove those limits.
+- **R4 / M3:** full-library normalization now replaces subset-denominator scores.
+  Use the new donor summaries, not the old human figure or empirical null values.
+  The loaded-gene, size-only null cannot establish genome-wide specificity.
+- **A28–A30:** available for development without selecting a preferred question.
+  RNA arms are not measured protein competence; A29 requires a metabolite/functional
+  discriminator; A30 requires overlap, QC and null qualification before stronger
+  interpretation. Use each current dossier and A30's versioned extension baseline.
 
-[Governance](../../docs/RESEARCH_GOVERNANCE.md) and the
-[literature workflow](../../docs/LITERATURE_WORKFLOW.md) govern execution. No
-global A identifier, claim promotion, laboratory protocol or owner retain/reject
-decision is created by this package.
+Reading and design development can continue. New numerical work requires an
+eligible comparison and a new frozen contract. Source reuse is not independent
+replication, and no owner retain/reject or claim-grade decision is inferred.

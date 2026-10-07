@@ -1,5 +1,7 @@
 # Wp-R01: staged source reproduction
 
+**Current execution and interpretation — 7 October 2026:** see [corrections](CORRECTIONS_2026-10-07.md) and [the current README](README.md). Dated stage plans, intake states and derivation counts below remain historical. A28–A30 are now registered; the full portfolio is A0–A30.
+
 **Status (4 October 2026).** Four stages have run under the governed runner with
 verified receipts: [Wp-R0](R0_RESULTS.md), [Wp-R3](R3_RESULTS.md),
 [Wp-R1](R1_RESULTS.md) and [Wp-R4](R4_RESULTS.md) (v1 plus a v2 amendment).

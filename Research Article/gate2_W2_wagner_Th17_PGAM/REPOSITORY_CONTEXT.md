@@ -1,5 +1,7 @@
 # Neighbouring packages and existing questions
 
+**Current execution and interpretation — 7 October 2026:** see [corrections](CORRECTIONS_2026-10-07.md) and [the current README](README.md). Dated stage plans, intake states and derivation counts below remain historical. A28–A30 are now registered; the full portfolio is A0–A30.
+
 Reviewed against fetched `main` `9a49d26a79f4f9a32142bb07281ac062c62cb1a4`,
 4 October 2026, which already contains the merged 2021 Wagner package (PR #137).
 The question register holds **A0–A27**; this package adds none and changes none.

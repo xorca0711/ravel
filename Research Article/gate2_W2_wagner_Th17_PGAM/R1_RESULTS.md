@@ -1,5 +1,7 @@
 # Wp-R1 result: the single-cell claims, re-derived from the only deposited matrix
 
+**Latest qualification — 6 October run, reviewed 7 October:** the [expression-floor sensitivity](../../analysis/research/runs/wp_r1_floor_sensitivity_v1/results.json) verifies invariant per-gene effects/raw p values while the tested universe and BH correction change. The floor was selected after outcome exposure; two animals and four residual degrees of freedom still limit inference. See [the audit](../../docs/audits/2026-10-07-pr140/REPORT.md#wp-r1-floor-sensitivity-is-internally-coherent-but-exploratory).
+
 Executed 4 October 2026 under the governed runner. Contract
 [config/singlecell_reproduction_v1.json](config/singlecell_reproduction_v1.json),
 script [scripts/singlecell_reproduction_v1.py](scripts/singlecell_reproduction_v1.py),

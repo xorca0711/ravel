@@ -1,5 +1,7 @@
 # Execution structure and next handoff
 
+**Current execution and interpretation — 7 October 2026:** see [corrections](CORRECTIONS_2026-10-07.md) and [the current README](README.md). Dated stage plans, intake states and derivation counts below remain historical. A28–A30 are now registered; the full portfolio is A0–A30.
+
 **Current state, 4 October 2026:** structuring complete and [Wp-R0 executed](R0_RESULTS.md)
 under the governed runner, with its contract, receipt and the six branch owners
 registered. The registered owner for source reproduction is **Wp-R01**; branch

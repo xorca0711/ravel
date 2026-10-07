@@ -2,13 +2,7 @@
 
 **Specificity and novelty applied:** [current source comparison](../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
 
-**Current alignment — 3 October 2026.** Main `82e749a` includes PRs #130–#135
-and all 28 registered questions. Twenty-four conditional packages and four newer
-development plans remain proposals. The [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md)
-connects published premises, repository observations, possible contributions and
-measurement decisions. This bounded application adds closer A25/A26 precedents;
-it does not certify novelty or reopen deferred bench work. See [current state](../PROGRESS.md)
-and [remaining work](../docs/research_dossiers/REMAINING_WORK.md).
+**Current alignment — 7 October 2026.** Main `cc5ce7e` includes PR #145 and all 31 registered questions. A28–A30 now have Wp-derived workspaces. The 24 conditional packages retain their dated scope; newer plans remain proposals. Read the [current state](../PROGRESS.md), [readiness audit](../docs/audits/2026-10-07-repository-readiness/REPORT.md) and [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md) before extending an analysis.
 
 ## Reading order and authority
 
@@ -19,16 +13,16 @@ rival, biological unit/endpoint, current evidence and next decision/hold. Read
 the linked current result before its older plan, then use the dossier and
 conditional package for the full argument and measurement requirements.
 
-[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) owns A0–A27 identities and
+[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) owns A0–A30 identities and
 registered questions; current reports and amendments own the measured results.
 The local summaries communicate proposed development without selecting an RQ,
 changing a claim grade or declaring experimental readiness. Source-library
 labels, analysis execution and package completion do not establish independent
 replication or scientific acceptance.
 
-## All 28 current questions
+## All 31 current questions
 
-Twenty-one questions have dedicated execution folders here; seven use existing
+Twenty-four questions have dedicated execution folders here; seven use existing
 article/shared source contexts. The latter retain their own dossier and package,
 without creating empty execution workspaces or duplicating scientific pipelines.
 
@@ -62,6 +56,9 @@ without creating empty execution workspaces or duplicating scientific pipelines.
 | [A25](../RESEARCH_QUESTIONS.md#a25) | Regional microglial configuration during middle age | [RQ folder](A25_microglial_midlife_configuration/README.md) | [Dossier](../docs/research_dossiers/A25.md) · [Plan](A25_microglial_midlife_configuration/PLAN.md) |
 | [A26](../RESEARCH_QUESTIONS.md#a26) | Tissue context of CD8 repertoire ageing | [RQ folder](A26_tissue_context_cd8_ageing/README.md) | [Dossier](../docs/research_dossiers/A26.md) · [Plan](A26_tissue_context_cd8_ageing/PLAN.md) |
 | [A27](../RESEARCH_QUESTIONS.md#a27) | Within-state and compositional CD8 repertoire ageing | [RQ folder](A27_cd8_repertoire_state_redistribution/README.md) | [Dossier](../docs/research_dossiers/A27.md) · [Plan](A27_cd8_repertoire_state_redistribution/PLAN.md) |
+| [A28](../RESEARCH_QUESTIONS.md#a28) | Regulatory and inflammatory RNA arms versus functional competence | [RQ folder](A28_th17_arm_asymmetry/README.md) | [Dossier](../docs/research_dossiers/A28.md) |
+| [A29](../RESEARCH_QUESTIONS.md#a29) | PGAM perturbation, biosynthetic demand and effector output | [RQ folder](A29_pgam_effector_mechanism/README.md) | [Dossier](../docs/research_dossiers/A29.md) |
+| [A30](../RESEARCH_QUESTIONS.md#a30) | CSF-associated effector state: composition versus within-state association | [RQ folder](A30_csf_compartment_effector_state/README.md) | [Dossier](../docs/research_dossiers/A30.md) |
 
 ## Newly registered Nb5 proposals
 

@@ -1,5 +1,7 @@
 # Wp-P02 — Does the 3PG serine arm run with or against the regulatory program?
 
+**Current evidence:** [7 October corrections](../CORRECTIONS_2026-10-07.md) supersede the older Compass sign and human-score summaries cited below. Retain source-paper premises separately from the corrected repository results; the source study and its reanalysis are not independent replication.
+
 **Status:** proposed, outcome-exposed. Model discrimination between two published
 directions. This is the highest-information candidate in the package.
 

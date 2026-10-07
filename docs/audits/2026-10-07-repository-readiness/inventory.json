@@ -1,0 +1,1826 @@
+{
+  "scope": "All tracked paths; all MD/Python/R/JSON/YAML/TOML text; all registered contract input paths. No raw-data completeness or scientific-truth certification.",
+  "tracked_files": 5967,
+  "extensions": {
+    "(none)": 9,
+    ".cff": 1,
+    ".csv": 923,
+    ".gz": 49,
+    ".html": 1,
+    ".in": 2,
+    ".json": 1190,
+    ".log": 174,
+    ".md": 783,
+    ".npz": 3,
+    ".pdf": 178,
+    ".png": 513,
+    ".ps1": 1,
+    ".py": 601,
+    ".r": 36,
+    ".source": 2,
+    ".svg": 256,
+    ".tsv": 681,
+    ".txt": 560,
+    ".yml": 2,
+    ".zip": 2
+  },
+  "text_files_scanned": 2612,
+  "json_files_parsed": 1190,
+  "questions": 31,
+  "article_candidates": 31,
+  "contracts": 69,
+  "receipts": 64,
+  "contracts_without_successful_receipt": [
+    "analysis/research/contracts/A5.biosample_qualification_metadata_v2.json",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v1.json"
+  ],
+  "unique_input_paths": 214,
+  "inputs_present": 100,
+  "input_availability": [
+    {
+      "path": "analysis/research/configs/A17.kernel_synthetic_v1.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "analysis/research/contracts/A17.kernel_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/repertoire_annotation_join.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/subtype_biological_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/composition_mouse.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/decomposition.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_composition_biological_v1/within_type.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/composition_mouse.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/composition_biological_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/design_units.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/expression_contrasts.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/expression_mouse.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/composition_biological_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/lung_accounting.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_source_expression.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_state_mouse.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/microglia_umap.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_descriptive_v1/release_concordance.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/animals.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/failed_run_preservation_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/cell_metadata.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/failed_run_preservation_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/coverage.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/failed_run_preservation_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/published_coverage.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/failed_run_preservation_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/receipt.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/failed_run_preservation_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/stderr.log",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/failed_run_preservation_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v1/stdout.log",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/failed_run_preservation_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v3/animals.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v3/cell_metadata.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_metadata_v3/source_concordance.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_decomposition.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_mouse.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/balanced_tissue.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/tissue_mouse.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_biological_v1/tissue_summary.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/biological_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_cells.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/repertoire_biological_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_mouse.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/nb5_repertoire_v2/repertoire_source.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/figures_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/receipt.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/stderr.log",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v1/stdout.log",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/CAPTIONS.md",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_figures_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/pca_coordinates.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_figures_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/prespecified_gene_animal_changes.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_figures_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_paired_descriptive_v2/results.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_figures_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/library_design.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/qualification.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_bulk_qualification_v1/source_sample_map.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_qualification_v1/cell_join.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_qualification_v1/receipt.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_qualification_v1/samples.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v1/receipt.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v1/stderr.log",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v1/stdout.log",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/environment.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/exclusions.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/expanded_metareaction_statistics.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/metareaction_membership.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/metareaction_statistics.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/pathway_summary.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/reaction_statistics.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/receipt.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/selected_cell_scores.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/selected_reactions.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/stderr.log",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/stdout.log",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/summary.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v2/verification.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/environment.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/expanded_metareaction_statistics.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/metareaction_membership.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/pathway_summary.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/reaction_statistics.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/receipt.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/selected_cell_scores.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/selected_reactions.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/summary.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wg_source_scores_v3/verification.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/article_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/decomposition_summary.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/per_donor_differences.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v2/stratified_contrasts.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v2/decomposition_summary.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_a30_figure_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_global_shift_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/group_logfc_distributions.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_global_shift_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/partition_Div1.csv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_global_shift_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/signatures.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/source_concordance.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_orientation_v3/named_reactions.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_correction_figures_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_correction_figures_v4.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v1_rerun/named_reactions.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v1_rerun/reaction_correlations.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/named_reactions.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_orientation_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/pool_scores.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_orientation_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/reaction_correlations.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_orientation_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_e3_global_shift_v1/programme_membership.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_e3_global_shift_v1/programme_shift.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/e3_isr_sensitivity_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_glucose_decomposition_v1/decomposition.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/cell_scores.csv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/donor_gene_mean_z.csv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/donor_scores.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/gene_mapping.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/random_set_null.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/sample_qc.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/donor_gene_mean_z.csv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/donor_scores.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_correction_figures_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_correction_figures_v4.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/gene_mapping.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/paired_tissue.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_correction_figures_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_correction_figures_v4.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/glucose_direction_by_variant.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_score_construction_v1/variant_agreement.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/cell_scores.csv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/glucose_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/score_construction_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/fig3d_named_genes.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/glucose_paired_differences.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/e5_external_screen_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/library_labels.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/library_score_means.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_figures_v2.json"
+      ]
+    },
+    {
+      "path": "analysis/research/runs/wp_singlecell_reproduction_v1/programme_composition.csv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/glucose_decomposition_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/research_qualification_20261003/GSE306194_family.soft.gz",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A8.rochelle_metadata_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/research_qualification_20261003/GSE306714_family.soft.gz",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A8.rochelle_metadata_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_qualification_20261003/GSE169125_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A2.biosample_qualification_metadata_v2.json",
+        "analysis/research/contracts/A2.source_qualification_metadata_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_qualification_20261003/GSE247130_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A7.biosample_qualification_metadata_v2.json",
+        "analysis/research/contracts/A7.source_qualification_metadata_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_qualification_20261003/GSE303646_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A5.biosample_qualification_metadata_v2.json",
+        "analysis/research/contracts/A5.biosample_qualification_metadata_v3.json",
+        "analysis/research/contracts/A5.source_qualification_metadata_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_qualification_20261003/GSE307351_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json",
+        "analysis/research/contracts/A22.source_qualification_metadata_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_qualification_20261003/GSE310539_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A7.biosample_qualification_metadata_v2.json",
+        "analysis/research/contracts/A7.source_qualification_metadata_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE169125_biosample_01.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A2.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE247130_biosample_01.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A7.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE303646_biosample_01.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A5.biosample_qualification_metadata_v2.json",
+        "analysis/research/contracts/A5.biosample_qualification_metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_01.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_02.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_03.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_04.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_05.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_06.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_07.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_08.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE307351_biosample_09.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A22.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/source_recovery_20261003/GSE310539_biosample_01.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "analysis/research/contracts/A7.biosample_qualification_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/acquisition_manifest.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/case_study_v1/facs.Brain_Myeloid.clustered_diversity.h5ad",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/source_audit_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/acquisition_manifest.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/bbknn_processing.ipynb",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/data_objects_listing.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/facs_processing.ipynb",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/facs_raw_metadata.csv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/full_metadata.csv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/metadata_listing.xml",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/official_brain.h5ad",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/completion_metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Bladder_droplet.h5ad",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Brain_Myeloid_facs.h5ad",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Kidney_droplet.h5ad",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Lung_droplet.h5ad",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/Lung_facs.h5ad",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/acquisition_manifest.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/author_case_notebook.ipynb",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/source_audit_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/author_clonal_notebook.ipynb",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/repertoire_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_1.xlsx",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_10.xlsx",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/source_audit_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_2.xlsx",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_4.xlsx",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_5.xlsx",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_6.xlsx",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/tabula_muris_senis_2020/intake_v1/supplement_table_9.xlsx",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/descriptive_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v1.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v2.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/metadata_v3.json",
+        "Research Article/gate2_N4_nabhan_aging_atlas_2020/config/repertoire_v2.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R-4.6.1.md5.txt",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_launcher_checks.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_limma_smoke.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/R_package_qualification.csv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/acquisition_initial_v1.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/browser_and_runtime_limits_v1.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/LICENSE.md",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/gene_md.csv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/met_md.csv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/recon2_md.zip",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/Resources/Recon2_export/rxn_md.csv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/compass/penalties.py",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/globals.py",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/compass/main.py",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021/setup.py",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021_commits.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_2021_tree.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/compass_acquisition_v1.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/europepmc_S2_attempt.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/official_alternative_acquisition_v1.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_closeout_20261004/table_acquisition_v1.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_RAW.tar",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_samples.soft.txt",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_series.soft.txt",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_features.tsv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_samples.soft.txt",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE289733_series.soft.txt",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE290297_collected_inhibitors_tpm_4geo.csv.gz",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/bulk_contrasts_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE290297_samples.soft.txt",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/bulk_contrasts_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE290297_series.soft.txt",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-3.xlsx",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/bulk_contrasts_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-4.xlsx",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/bulk_contrasts_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v2_supplements.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/bulk_contrasts_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v3.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/r1_floor_sensitivity_v1.json",
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/singlecell_reproduction_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/wp_compass_sensitivity_v1_rerun_reactions.tsv",
+      "present_in_audit_checkout": true,
+      "contracts": [
+        "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_orientation_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/Demo.ipynb",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/GSE162300_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/GSE162382_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/GSE165088_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/GSE75109_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/GSE75111_family.soft",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/acquisition_v1.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/author_acquisition_v1.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/author_tree.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/cell_metadata.csv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/compass_analysis.py",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/linear_gene_expression_matrix.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/reaction_metadata.csv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r0_20261004/reactions.tsv",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r1_source_20261004/runtime_qualification_v1.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r1_source_20261004/wagner_paper.txt",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/closeout_qualification_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/source_scores_v3.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_TPMs.csv.gz",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162300_DFMO_RNA_est_counts.csv.gz",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_TPMs.csv.gz",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/GSE162382_DFMO_JMJD3_est_counts.csv.gz",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_limma_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v1.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_paired_descriptive_v2.json",
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json"
+      ]
+    },
+    {
+      "path": "raw_data/wagner_r3_20261004/acquisition_v2.json",
+      "present_in_audit_checkout": false,
+      "contracts": [
+        "Research Article/gate2_W1_wagner_th17_autoimmunity/config/bulk_qualification_v1.json"
+      ]
+    }
+  ],
+  "errors": []
+}

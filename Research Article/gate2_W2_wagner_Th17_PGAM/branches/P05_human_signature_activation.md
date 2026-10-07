@@ -1,5 +1,7 @@
 # Wp-P05 — Does the human signature separate disease beyond generalised activation?
 
+**Current evidence:** [7 October corrections](../CORRECTIONS_2026-10-07.md) supersede the older Compass sign and human-score summaries cited below. Retain source-paper premises separately from the corrected repository results; the source study and its reanalysis are not independent replication.
+
 **Status:** proposed, outcome-exposed. Transport of an exposed signature with a
 competing explanation in the same model.
 

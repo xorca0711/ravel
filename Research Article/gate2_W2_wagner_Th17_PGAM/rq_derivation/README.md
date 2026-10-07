@@ -1,5 +1,7 @@
 # Wp question derivation, 5 October 2026
 
+**Historical derivation:** the [7 October correction report](../CORRECTIONS_2026-10-07.md) and current A28–A30 dossiers supersede affected Compass/human values and inference wording below. Retain this record of what was known when the questions were proposed.
+
 Derived after the reproduction ladder (Wp-R0 to Wp-R4), the eligible branch
 cards (Wp-P01, Wp-P03), the metadata phenotypes (Wp-M1 to Wp-M3) and the two
 extension analyses (Wp-E3, Wp-E5) had all executed under the governed runner

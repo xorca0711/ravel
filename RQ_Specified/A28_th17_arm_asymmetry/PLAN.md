@@ -1,5 +1,7 @@
 # A28 development plan
 
+**Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
+
 Draft after outcome exposure; **no executable contract is frozen**. The
 elements below are what a prospective contract must fix before any value is
 computed, in the order the repository's execution rules require.

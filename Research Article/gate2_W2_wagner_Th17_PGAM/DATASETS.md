@@ -1,5 +1,7 @@
 # Input deposits, units and unresolved joins
 
+**Current execution and interpretation — 7 October 2026:** see [corrections](CORRECTIONS_2026-10-07.md) and [the current README](README.md). Dated stage plans, intake states and derivation counts below remain historical. A28–A30 are now registered; the full portfolio is A0–A30.
+
 Retrieved and verified on **4 October 2026 (Asia/Seoul)** from NCBI GEO. Every
 count below was read from the deposited records and file headers by
 [scripts/qualify_sources_v1.py](scripts/qualify_sources_v1.py) in a dry run
