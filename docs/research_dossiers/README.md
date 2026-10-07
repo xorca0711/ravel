@@ -1,14 +1,16 @@
 # Research development index
 
+**Current evidence:** use the [7 October readiness review](../audits/2026-10-07-repository-readiness/REPORT.md) and [31-question review ledger](../audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md). Wp score corrections supersede affected earlier summaries; registration is not acceptance.
+
 **Specificity and novelty applied:** [current source comparison](NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
 
-**Current navigation, after PR #130:** all [24 conditional packages and nine Nb4 supplements](packages_2026-10-03/README.md) are drafted. Use [remaining work](REMAINING_WORK.md) for current status and the [package ledger](packages_2026-10-03/LEDGER.md) for individual eligibility conditions. The dated stage summaries below preserve their original scope; scientific review and actual access remain pending.
+**Package history (3 October 2026):** all [24 conditional packages and nine Nb4 supplements](packages_2026-10-03/README.md) are drafted. Use [remaining work](REMAINING_WORK.md) for current status and the [package ledger](packages_2026-10-03/LEDGER.md) for individual eligibility conditions. The dated stage summaries below preserve their original scope; scientific review and actual access remain pending.
 
 The [source-mapping closeout](source_mapping_closeout_2026-10-03/README.md) settles
 the bounded recovery task. Later scientific/technical review and placement work
 are deferred; unavailable evidence remains held rather than silently qualified.
 
-All 28 current questions remain available; A24–A27 are newly proposed Nb5 questions. No RQ is selected by this repair.
+All 31 current questions remain available; A24–A27 derive from Nb5 and A28–A30 from Wp. No RQ is selected by this repair.
 The canonical register owns question identity; these dossiers develop the missing
 scientific discriminator and experimental bridge. A completed computational
 analysis is not an experiment-ready hypothesis. Published background and
@@ -55,6 +57,9 @@ scientific-design level; they are not laboratory procedures.
 | A25 | Regional microglial configuration during middle age; proposed | [Evidence and next discriminator](A25.md) |
 | A26 | Tissue context of CD8 repertoire ageing; proposed | [Evidence and next discriminator](A26.md) |
 | A27 | Within-state and compositional CD8 repertoire ageing; proposed | [Evidence and next discriminator](A27.md) |
+| A28 | Regulatory and inflammatory RNA arms versus functional competence; proposed | [Evidence and next discriminator](A28.md) |
+| A29 | PGAM perturbation, biosynthetic demand and effector output; proposed | [Evidence and next discriminator](A29.md) |
+| A30 | CSF-associated effector state: composition versus within-state association; proposed | [Evidence and next discriminator](A30.md) |
 
 ## Nb5 review and proposed registrations
 

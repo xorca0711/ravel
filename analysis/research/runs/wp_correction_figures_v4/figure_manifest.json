@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "wp_compass_orientation_v3\\named_reactions.csv": "f53524b9906f737bab523d80fc6976a6efcb913a506cc2744e07bfe61bde5ccb",
+    "wp_human_signature_transfer_v3\\donor_scores.csv": "90f01e2724b05d0fc7f9c977e70ee86d9a96665fa084495db39c61b9b9e6185d",
+    "wp_human_signature_transfer_v3\\paired_tissue.csv": "35c6f6ccf81eea60f8620bf431f4037ef3a1154b778d8f68a0bf1c2c0cc39bee"
+  },
+  "outputs": {
+    "corrected_scores.pdf": "05499a967a0decda9daf425e29c8f00b461f8d013a7f151f37f7383becceab9f",
+    "corrected_scores.png": "d1f24df2a0d1d7edd7e0711fac616758fbb0cee7a7ecf60ff2d3358f31dcbd5e",
+    "corrected_scores.svg": "cb6e54ae6f354efa0bb792716ffc8a529251b6549414b5a64f891fcbc3befa4c"
+  },
+  "limit": "Generated from corrected repository tables, not a reproduction of a published figure."
+}

@@ -1,5 +1,7 @@
 # Wp-Q1 — Does the pathogenic shift proceed by losing regulatory competence rather than by gaining effector competence?
 
+**Historical derivation:** the [7 October correction report](../CORRECTIONS_2026-10-07.md) and current A28–A30 dossiers supersede affected Compass/human values and inference wording below. Retain this record of what was known when the questions were proposed.
+
 **Wp-Q1 · Proposed biological question · Outcome-exposed.**
 [Derivation index](README.md) · [Overlap](OVERLAP_MATRIX.md) ·
 [Grounding](SOURCES_AND_GROUNDING.md).

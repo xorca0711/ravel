@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.compass_orientation_v3",
+  "owner": "Wp-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What is the direction of expression-consistency association after transforming recovered raw Compass penalties correctly?",
+  "decision": "Replace the mistaken sign interpretation, conditional on full reproduction of stored v2 summaries from the recovered v1 cache.",
+  "strongest_rival": "The recovered cache may not support the stored v2 pool labels or reaction statistics; an input or version mismatch could invalidate correction.",
+  "discriminator": "Fail unless every numeric column for all 83 nonconstant reactions matches v2 within rtol 1e-9 and atol 1e-12; then verify rho sign reversal and unchanged nominal p values for all six scores.",
+  "evidence_refs": [
+    "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/EVIDENCE_MAP.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P01_score_construction.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Fully exposed: prior v1/v2 summaries and orientation warning were read. A preliminary audit checked PGM/PGCD sign reversal and equality of saved v1/v2 tables before freezing. This correction is not independent validation or a new solver run.",
+  "biological_unit": "Micropool of about 50 Th17n cells, nested in library (4 Th17n libraries) and animal (2). The pool is a computational construct, not a biological replicate.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Pools are disjoint sets of cells from a single library, so pools within a library share the animal and the culture. Correlations across pools therefore describe within-deposit variation and are not replicated observations.",
+  "population_and_selection": "Wp-R1's QC-passing Th17n cells (8,711). Pools with at least 20 cells are eligible; a stratified subsample of 60 eligible pools, equal share per library, seed 20261004, is scored because each pool costs about a minute of solver time.",
+  "contrast": "Across pools: each reaction's Compass score against the pool mean pathogenicity score, and against the pro-inflammatory arm, the pro-regulatory arm, the Table S3 Th17n EGCG signature and a proliferation score.",
+  "endpoint": "All six pool-score Spearman associations, nominal p values and pathogenicity BH across the same 83 nonconstant reactions, with corrected consistency scale and named reaction ranks.",
+  "methods": "Use hash-bound v1 raw penalty cache and v2 pool scores. Verify all 83 saved reaction summaries including means, standard deviations, six correlations and their nominal p values, and BH. Transform consistency=-log1p(penalty). Recompute the same reaction universe and BH family; rank ascending signed rho explicitly. Report transformed means and SDs separately from raw penalty means and SDs.",
+  "missingness_and_exclusions": "Reactions with zero variance across pools are dropped and the count reported. Pools below 20 cells are ineligible. If Compass fails, the run records status compass_failed and no correlation.",
+  "multiplicity": "BH across reactions for the pathogenicity endpoint; other score endpoints are reported unadjusted as descriptive.",
+  "precision_status": "unknown",
+  "precision_basis": "Pools within a library are not independent of each other, so the nominal degrees of freedom of a 60-pool correlation overstate the information; no confidence statement is made.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Descriptive exposed version/input sensitivity, not published Figure 1 reproduction. Recovered v1 cache is accepted only through full v2 summary verification; original v2 solver file is not recovered. Four libraries and two animals; pool p values are not animal-level inference. Corrected positive PGAM association would not reproduce the published negative sign and does not refute intervention evidence or establish flux.",
+  "stop_rule": "Stop on any nonfinite/negative penalty, duplicate identity, differing pool/reaction set or failed cache verification. Do not invoke the solver or alter pools, reaction scope or endpoints.",
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/wp_compass_sensitivity_v1_rerun_reactions.tsv",
+      "sha256": "8112f133b2abf814931cab518a98b4b4e7f6ae031b6a2fe943ef62eea1dc7e8d",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/pool_scores.csv",
+      "sha256": "1f3b17f908ef7f54591dc38ca4454826fddf2417b007b46093d74a9d5e7e00be",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/reaction_correlations.csv",
+      "sha256": "8e710826826da7973e9bba4f74487eec068e90c756930b1316487eded457fd3d",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/named_reactions.csv",
+      "sha256": "3fdd4beaf2db4889042d983db4cbb283d26ece9cf81c28e96c8b2e2b5fdbaf72",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_orientation_v3.py",
+      "sha256": "ed42e0afd883de6e96432dabef7620f5ccd51dd03e197775c31776a5adbc55e3"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_orientation_v3.py",
+  "arguments": [
+    "--penalties",
+    "raw_data/wagner_pgam_w2_20261004/wp_compass_sensitivity_v1_rerun_reactions.tsv",
+    "--previous",
+    "analysis/research/runs/wp_compass_sensitivity_v2_rerun",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "results.json",
+    "pool_scores.csv",
+    "reaction_correlations.csv",
+    "named_reactions.csv",
+    "cache_verification.csv"
+  ],
+  "amendment_of": "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_sensitivity_v2.json",
+  "amendment_reason": "v1/v2 treated reactions.tsv raw penalties as already negative-log transformed. Correct scale and direction; preserve historical artifacts. Reuse recovered cache only after exhaustive agreement with saved v2 summaries."
+}

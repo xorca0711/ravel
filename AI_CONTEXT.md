@@ -11,7 +11,9 @@ each study's specific questions and limits. See the
 [rename record](docs/migrations/2026-10-07-ravel/README.md).
 
 - [Agent decision workflow](docs/AGENT_DECISION_WORKFLOW.md) routes work by purpose; alternatives do not mandate extra experimental arms.
-- [PR140 audit](docs/audits/2026-10-07-pr140/REPORT.md) is current for Wp/A30 interpretation: Compass orientation remains a correction task; A30 is a bounded association.
+- [Repository readiness audit](docs/audits/2026-10-07-repository-readiness/REPORT.md) owns the 7 October correction and synchronization checkpoint.
+- [Return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md) records checkout, runtime, raw-input preflight and how to start the next paper/RQ.
+- [Wp current corrections](Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) replace raw-penalty Compass signs and R4/M3 subset-denominator human scores; A30 v3 remains a bounded association.
 - [Literature workflow](docs/LITERATURE_WORKFLOW.md) connects primary findings and branch results to RQs.
   [Illustrated context notes](docs/research_dossiers/literature_context_2026-10-03/README.md) index all 31 registered questions; use their access limits and exact proposed increments.
 - [Question register](RESEARCH_QUESTIONS.md) owns the current question identities. The

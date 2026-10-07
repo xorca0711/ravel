@@ -1,5 +1,7 @@
 # A29 development plan
 
+**Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
+
 Draft after outcome exposure; **no executable contract is frozen**. The
 elements below are what a prospective contract must fix before any value is
 computed, in the order the repository's execution rules require.
@@ -42,7 +44,7 @@ Absolute pools, not label ratios: the published ¹³C result cannot distinguish 
 
 ## Strongest rival to defeat
 
-PEP is genuinely unchanged, as the source's own ¹³C labelling would imply, which eliminates the primary route. Further rivals: ISR-independent stress through sustained cytoplasmic calcium that no transcript module sees; a per-cell-RNA-content compositional effect; division-rate dilution; and off-target action of EGCG.
+Absolute PEP might remain stable, which would challenge the proposed bulk-pool route; the reported isotope-label ratio does not establish that stability. Further rivals: ISR-independent stress through sustained cytoplasmic calcium that no transcript module sees; a per-cell-RNA-content compositional effect; division-rate dilution; and off-target action of EGCG.
 
 ## Stop and interpretation rules
 

@@ -1,5 +1,7 @@
 # Reproducibility guide
 
+**Return after a break:** follow the [resume checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md). The CI workflows are the complete required-check list; saved-output verification does not need raw data. New numerical work additionally needs the selected contract’s exact inputs and dependencies.
+
 Prospective substantive analyses now follow [research governance](docs/RESEARCH_GOVERNANCE.md). Run `python analysis/scripts/research_gate.py check` and, against an integration base, `python analysis/scripts/research_gate.py check --base origin/main`. Historical scripts retain their original dependencies and may overwrite outputs; use their archived evidence for verification.
 
 This repository supports three levels of verification. The first two use only
@@ -12,8 +14,8 @@ original two-atlas pipeline described below.
 Start with the [question register](RESEARCH_QUESTIONS.md),
 [paper index](Research%20Article/README.md) and [dataset inventory](docs/DATASETS.md),
 then follow the relevant figure to its tracked table and report. The
-[current execution ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
-identifies later corrections and data gates. [`docs/PIPELINE_AS_RUN.md`](docs/PIPELINE_AS_RUN.md)
+[current execution state](PROGRESS.md)
+identifies later corrections and data gates. The [28 September ledger](docs/roadmap_runs/2026-09-28-gap-fill/RESULTS.md) remains historical. [`docs/PIPELINE_AS_RUN.md`](docs/PIPELINE_AS_RUN.md)
 is the record of the original atlas pipeline, not every later trial. It is generated from the decision
 logs rather than maintained as a second handwritten method description.
 
@@ -24,10 +26,11 @@ Python 3.12 is recommended; no third-party package is needed:
 ```bash
 python analysis/scripts/validate_repository.py
 python analysis/scripts/claim_contract.py --check
+python analysis/scripts/research_gate.py check
 python "Research Article/gate1_03_nabhan_2018/nb1/verify_outputs.py"
 python RQ_Specified/A16_cd177_state_attribution/scripts/verify_stage1_evidence.py
 python -m unittest discover -s analysis/tests -q
-python -m compileall -q analysis "Research Article" RQ_Specified
+python -m compileall -q -x '[/\\]\.tools[/\\]' analysis "Research Article" RQ_Specified
 ```
 
 The validator checks local documentation links, parses every tracked JSON
@@ -79,8 +82,9 @@ of the same architecture as the binary packages. The lock file documents the
 rebuild commands; a temporary interpreter location should not be used as the
 base of a durable environment.
 
-In the reviewed checkout, both old venv launchers pointed to unavailable base
-interpreters. A compatible working CPython 3.12 x64 successfully reused the
+In the September review, both old venv launchers pointed to unavailable base
+interpreters. This is historical recovery context. On 7 October the ARM64 `.venv`
+launcher works; `.venv-x64` still has a missing base. See the current return checklist. A compatible working CPython 3.12 x64 successfully reused the
 existing `.venv-x64/Lib/site-packages`, without reinstalling the analysis stack.
 The reusable launcher is explicit about this recovery:
 

@@ -1,5 +1,7 @@
 # Validation: what was actually checked in this pass
 
+**Current execution and interpretation — 7 October 2026:** see [corrections](CORRECTIONS_2026-10-07.md) and [the current README](README.md). Dated stage plans, intake states and derivation counts below remain historical. A28–A30 are now registered; the full portfolio is A0–A30.
+
 4 October 2026. This records checks that were performed, their outcome and their
 limits. A passing check here is evidence about provenance and structure, never
 about biology.

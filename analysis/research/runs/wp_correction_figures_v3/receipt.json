@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.render_correction_figures_v3",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_correction_figures_v3.json",
+  "contract_sha256": "5928aa8516612c34f8711a60126d960d60b91b61935c5dfe6d4860c10131000e",
+  "git_commit": "569e5e8f7899ed350f89c158c64fd3dabbf3be6f",
+  "started_at": "2026-10-07T07:13:31.747110+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_correction_figures_v3.py",
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "analysis/research/runs/wp_correction_figures_v3"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_compass_orientation_v3/named_reactions.csv",
+      "sha256": "f53524b9906f737bab523d80fc6976a6efcb913a506cc2744e07bfe61bde5ccb",
+      "study_id": "wp_compass_orientation_v3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/donor_scores.csv",
+      "sha256": "90f01e2724b05d0fc7f9c977e70ee86d9a96665fa084495db39c61b9b9e6185d",
+      "study_id": "wp_human_signature_transfer_v3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/paired_tissue.csv",
+      "sha256": "35c6f6ccf81eea60f8620bf431f4037ef3a1154b778d8f68a0bf1c2c0cc39bee",
+      "study_id": "wp_human_signature_transfer_v3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_correction_figures_v3.py",
+      "sha256": "d3a55999beeff71c21c34a53c31c04905bbb084f96b5967dbeb0fba85410ec4d"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_correction_figures_v3/corrected_scores.png",
+      "sha256": "52da7e4a91686072892607b2ee72ab25d71d013f706ba115ee03ac58137f3a85"
+    },
+    {
+      "path": "analysis/research/runs/wp_correction_figures_v3/corrected_scores.svg",
+      "sha256": "939f6701d9f129227c9c9a67bb657c8148180c41ad5086fd655e14b72f8242df"
+    },
+    {
+      "path": "analysis/research/runs/wp_correction_figures_v3/corrected_scores.pdf",
+      "sha256": "1eb822490662af7e93c5fe144e15dabe8f6c134e6c206f0920fed814b2d71885"
+    },
+    {
+      "path": "analysis/research/runs/wp_correction_figures_v3/figure_manifest.json",
+      "sha256": "960c36fe3e2aec32ea41b31e001fb11580aa9ad9568d2a11455522ff3d87141e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T07:13:34.716631+00:00"
+}

@@ -2618,3 +2618,28 @@ existing questions by topic, supplied descriptive navigation labels and direct
 diagram links, and included all 31 registered guides. Grouping does not rank
 questions or revise hypotheses; the underlying context, figures and scientific
 acceptance remain unchanged. Implementation is prepared for PR review.
+
+
+## Repository readiness audit and numerical corrections — 7 October 2026
+
+Codex performed the owner-requested full-repository audit, implemented versioned
+Wp corrections, synchronized current documentation and prepared a return checklist.
+No subagent was used. Existing PR145 merge is an integration fact; it is not
+scientific acceptance of every interpretation. This new audit is proposed for
+review, with no human retain/reject decision or claim-grade promotion recorded.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-07 | Full repo audit, fixes and two-week handoff | Owner request | Owner (scope authorization) | Execute audit and preserve evidence | Explicit request to reconcile text, QC, pipelines and latest Wagner/Wang analysis |
+| 2026-10-07 | Versioned Compass, R4/M3 and documentation corrections | Codex | Owner review pending | Implemented on scoped audit branch | Reproducible sign/denominator defects and stale current indexes |
+
+| Date | Rejected or substantially modified AI output | Reason | Rejected/reworked by |
+|---|---|---|---|
+| 2026-10-07 | Wp R2 claim that the negative PGAM association survives | Raw penalties were labelled as transformed consistency; corrected rho is positive | Codex audit; biological acceptance remains with owner |
+| 2026-10-07 | R4 v1/v2 full-CP10K description and dependent M3 summaries | Scoring denominator used selected genes; replaced by full-gene v3/v2 corrections | Codex audit |
+| 2026-10-07 | Regulatory non-movement, TPM-confound removal and definitive mechanism labels in A28/A29 | Null contrasts do not establish equivalence, matching does not solve composition, and proposed outcomes do not uniquely identify mechanisms | Codex audit; hypotheses preserved and interpretation narrowed |
+| 2026-10-07 | Correction figure v3 layout | Footer overlapped x-axis label during visual QA; v4 changes layout only | Codex visual review |
+
+Evidence: [readiness audit](docs/audits/2026-10-07-repository-readiness/REPORT.md),
+[correction report](Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md),
+and [return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md).

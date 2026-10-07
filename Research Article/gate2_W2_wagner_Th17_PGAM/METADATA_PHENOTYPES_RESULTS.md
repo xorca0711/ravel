@@ -1,5 +1,7 @@
 # Wp-M result: three phenotypes in metadata the package had not used
 
+**Supersession — 7 October 2026:** the [versioned correction report](CORRECTIONS_2026-10-07.md) owns current Compass and human-score interpretation. The numerical values and conclusions below describe the earlier run and must not be reused as current corrected evidence. Original contracts, scripts, receipts and tables are preserved.
+
 > **Naming correction, 5 October 2026.** This work was first committed as
 > `E_RESULTS.md` with sections labelled E-B1 to E-B3, which wrongly implied the
 > extension candidates E1 to E9 of the

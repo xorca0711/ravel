@@ -1,0 +1,459 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "retained cell identities",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "full-library normalization invariant to selected columns",
+      "values": 4,
+      "passed": true
+    },
+    {
+      "check": "all donor score means",
+      "values": 374,
+      "passed": true
+    },
+    {
+      "check": "all donor cell counts",
+      "values": 22,
+      "passed": true
+    },
+    {
+      "check": "proinflammatory_authors: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "proinflammatory_all: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "proregulatory_authors: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "proregulatory_all: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "activation: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "proliferation: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "S3_Th17n_EGCG: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "R3_Th17n_Div1_EGCG: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "programme_N1: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "programme_N2: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "programme_N3: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "programme_P1: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "programme_P2: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "programme_P3: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "programme_P4: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "pathogenicity_authors: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "pathogenicity_all: paired median, positive count and Wilcoxon",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "CSF/proinflammatory_authors: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/proinflammatory_all: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/proregulatory_authors: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/proregulatory_all: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/activation: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/proliferation: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/S3_Th17n_EGCG: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/R3_Th17n_Div1_EGCG: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/programme_N1: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/programme_N2: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/programme_N3: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/programme_P1: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/programme_P2: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/programme_P3: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/programme_P4: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/pathogenicity_authors: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF/pathogenicity_all: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "CSF: disease BH family",
+      "values": 17,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/proinflammatory_authors: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/proinflammatory_all: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/proregulatory_authors: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/proregulatory_all: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/activation: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/proliferation: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/S3_Th17n_EGCG: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/R3_Th17n_Div1_EGCG: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/programme_N1: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/programme_N2: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/programme_N3: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/programme_P1: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/programme_P2: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/programme_P3: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/programme_P4: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/pathogenicity_authors: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs/pathogenicity_all: disease difference and p",
+      "values": 2,
+      "passed": true
+    },
+    {
+      "check": "PBMCs: disease BH family",
+      "values": 17,
+      "passed": true
+    },
+    {
+      "check": "all original QC selections preserved",
+      "values": 1,
+      "passed": true
+    },
+    {
+      "check": "Compass orientation rho_pathogenicity_authors",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass unchanged p_pathogenicity_authors",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass orientation rho_proinflammatory_authors",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass unchanged p_proinflammatory_authors",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass orientation rho_proregulatory_authors",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass unchanged p_proregulatory_authors",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass orientation rho_Th17n_EGCG_S3_local",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass unchanged p_Th17n_EGCG_S3_local",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass orientation rho_Th17n_EGCG_S3_all",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass unchanged p_Th17n_EGCG_S3_all",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass orientation rho_proliferation",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass unchanged p_proliferation",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass unchanged bh_pathogenicity",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "Compass ascending rank",
+      "values": 83,
+      "passed": true
+    },
+    {
+      "check": "M1/M2 unchanged: division_gate_arm_agreement.csv",
+      "passed": true
+    },
+    {
+      "check": "M1/M2 unchanged: division_gate_named_genes.csv",
+      "passed": true
+    },
+    {
+      "check": "M1/M2 unchanged: division_gate_signatures.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "M1/M2 unchanged: division_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "M1/M2 unchanged: drug_convergence_genes.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "M1/M2 unchanged: drug_convergence_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "M1/M2 unchanged: drug_named_genes.csv",
+      "passed": true
+    },
+    {
+      "check": "GSM4104130: raw dimensions",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "GSM4104130: full raw denominators",
+      "values": 338,
+      "passed": true
+    },
+    {
+      "check": "GSM4104130: detected genes",
+      "values": 338,
+      "passed": true
+    },
+    {
+      "check": "GSM4104130: mitochondrial fraction",
+      "values": 338,
+      "passed": true
+    },
+    {
+      "check": "GSM4104143: raw dimensions",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "GSM4104143: full raw denominators",
+      "values": 750,
+      "passed": true
+    },
+    {
+      "check": "GSM4104143: detected genes",
+      "values": 750,
+      "passed": true
+    },
+    {
+      "check": "GSM4104143: mitochondrial fraction",
+      "values": 750,
+      "passed": true
+    },
+    {
+      "check": "M3 gene arithmetic proinflammatory_all",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "M3 gene arithmetic proinflammatory_authors",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "M3 gene arithmetic proregulatory_all",
+      "values": 3,
+      "passed": true
+    },
+    {
+      "check": "M3 gene arithmetic proregulatory_authors",
+      "values": 3,
+      "passed": true
+    }
+  ],
+  "raw_libraries_checked": [
+    "GSM4104130",
+    "GSM4104143"
+  ],
+  "raw_scope": "two smallest libraries, one per tissue; all 22 library selections compared with v2; not all raw matrices independently reconstructed",
+  "independence": "Independent arithmetic on reused data, not biological replication."
+}

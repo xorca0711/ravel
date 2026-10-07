@@ -1,5 +1,7 @@
 # Article-local development branches
 
+**Current execution and interpretation — 7 October 2026:** see [corrections](CORRECTIONS_2026-10-07.md) and [the current README](README.md). Dated stage plans, intake states and derivation counts below remain historical. A28–A30 are now registered; the full portfolio is A0–A30.
+
 All six entries were proposed and outcome-exposed on 4 October 2026. **Status as of
 5 October 2026:** Wp-P01 and Wp-P03 have executed under the governed runner;
 Wp-P05 is resolved in the negative and closed; Wp-P04 is permanently blocked for

@@ -1,0 +1,262 @@
+{
+ "cells_per_unit": [
+  {
+   "disease": "MS",
+   "donor": "MS19270",
+   "n_cells": 2588,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS19270",
+   "n_cells": 2439,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS49131",
+   "n_cells": 823,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS49131",
+   "n_cells": 2054,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS58637",
+   "n_cells": 1767,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS60249",
+   "n_cells": 4258,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS60249",
+   "n_cells": 1356,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS71658",
+   "n_cells": 2041,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS71658",
+   "n_cells": 869,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS74594",
+   "n_cells": 514,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "MS",
+   "donor": "MS74594",
+   "n_cells": 2957,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PST45044",
+   "n_cells": 4369,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PST83775",
+   "n_cells": 623,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PST83775",
+   "n_cells": 1485,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PST95809",
+   "n_cells": 338,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PST95809",
+   "n_cells": 724,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PTC32190",
+   "n_cells": 1664,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PTC32190",
+   "n_cells": 1438,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PTC41540",
+   "n_cells": 575,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PTC41540",
+   "n_cells": 1464,
+   "tissue": "PBMCs"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PTC85037",
+   "n_cells": 832,
+   "tissue": "CSF"
+  },
+  {
+   "disease": "IIH",
+   "donor": "PTC85037",
+   "n_cells": 750,
+   "tissue": "PBMCs"
+  }
+ ],
+ "doublet_detection": "not performed; lineage signal dominance is not a doublet detector",
+ "gate": {
+  "cd8_markers": [
+   "CD8A",
+   "CD8B"
+  ],
+  "label": "CD4-lineage (non-CD8) T cell; CD4 transcript not required",
+  "lineage_panels": {
+   "B": [
+    "MS4A1",
+    "CD79A",
+    "CD79B"
+   ],
+   "NK": [
+    "GNLY",
+    "NKG7",
+    "KLRD1"
+   ],
+   "ery_plt": [
+    "HBB",
+    "HBA1",
+    "PPBP"
+   ],
+   "myeloid": [
+    "LYZ",
+    "CD14",
+    "FCN1",
+    "AIF1"
+   ]
+  },
+  "t_markers": [
+   "CD3D",
+   "CD3E",
+   "CD3G",
+   "TRAC",
+   "TRBC2"
+  ]
+ },
+ "gene_mapping": {
+  "R3_Th17n_Div1_EGCG": [
+   463,
+   407
+  ],
+  "S3_Th17n_EGCG": [
+   928,
+   781
+  ],
+  "activation": [
+   10,
+   10
+  ],
+  "programme_N1": [
+   50,
+   36
+  ],
+  "programme_N2": [
+   89,
+   73
+  ],
+  "programme_N3": [
+   26,
+   25
+  ],
+  "programme_P1": [
+   29,
+   27
+  ],
+  "programme_P2": [
+   92,
+   78
+  ],
+  "programme_P3": [
+   51,
+   44
+  ],
+  "programme_P4": [
+   108,
+   85
+  ],
+  "proinflammatory_all": [
+   116,
+   100
+  ],
+  "proinflammatory_authors": [
+   63,
+   57
+  ],
+  "proliferation": [
+   10,
+   10
+  ],
+  "proregulatory_all": [
+   68,
+   57
+  ],
+  "proregulatory_authors": [
+   30,
+   24
+  ]
+ },
+ "inputs_verified": {
+  "GSE138266_RAW.tar": "b573289bb13f0054092448eb1ab5685f2b7030cd2c08359f0cf04e995dc853a5",
+  "GSE138266_samples.soft.txt": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+  "NIHMS2092659-supplement-2.xlsx": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+  "NIHMS2092659-supplement-3.xlsx": "de4278f0a8390777cd0faa3117edff6928bb07bcd2fbcc92d2bc17d4de7a3a1d",
+  "NIHMS2092659-supplement-5.xlsx": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+  "acquisition_v1.json": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+  "acquisition_v3_matrices.json": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+  "wp_bulk_contrasts_v1/signatures.csv": "e354f368578b45a1fabbe89655fbe63aabc5530db22f90e5f2ff47bd3531284e"
+ },
+ "interpretation_limit": "Donor-level descriptive transport of exposed mouse-derived signatures into a human dataset collected for a different purpose. Six donors per group; disease groups differ in more than disease. Mouse-to-human mapping is symbol identity only. Supports a statement about whether the signature separates these donors, not about mechanism in human disease.",
+ "n_cells_retained": 35928,
+ "n_units": 22,
+ "normalization": "CP10K using all deposited genes before scoring-column selection",
+ "null_limit": "1000 size-only unsigned draws from loaded nonconstant scoring genes; no expression/detection matching or genome-wide specificity claim",
+ "qc": {
+  "mad_k": 3.0,
+  "max_mito_frac": 0.1,
+  "min_cells": 20,
+  "min_genes": 200,
+  "raw_barcode_limit": 100000,
+  "raw_umi_floor": 500
+ },
+ "schema": "wp_r4_human_transfer/v3",
+ "unit": "donor (12; 6 MS and 6 IIH), with tissue nested within donor for the 10 paired donors",
+ "units_excluded_below_min_cells": []
+}

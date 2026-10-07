@@ -1,5 +1,7 @@
 # Wp-R4 result: the human claim is a donor-level axis, not the module
 
+**Supersession — 7 October 2026:** the [versioned correction report](CORRECTIONS_2026-10-07.md) owns current Compass and human-score interpretation. The numerical values and conclusions below describe the earlier run and must not be reused as current corrected evidence. Original contracts, scripts, receipts and tables are preserved.
+
 Executed 4 October 2026 under the governed runner, twice. Contract v1
 [config/human_signature_transfer_v1.json](config/human_signature_transfer_v1.json)
 → receipt

@@ -31,6 +31,20 @@ Previously named `scRNA_seq`; the
 [migration record](docs/migrations/2026-10-07-ravel/README.md) documents the rename
 and preservation of historical evidence.
 
+## Current evidence checkpoint
+
+| Claim | Status | Evidence | Notes |
+|---|---|---|---|
+| Earlier Wp Compass negative-sign interpretation | Retracted-superseded | [Orientation correction](Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md#compass-the-sign-changes) | Raw penalties had been mistaken for consistency scores |
+| Corrected Wp Compass and human compartment scores | Descriptive only | [Versioned results and limits](Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) | Two mouse units for Compass; ten paired human donors; scores are not functional assays |
+| Functional competence or causal mechanism inferred from these corrected scores | Not established | [All-question review](docs/audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md) | Proposed experiments retain their endpoint and precision requirements |
+
+This is a current correction summary, not a replacement for the full
+[claim register](CLAIMS.md) or an upgrade of its recorded grades. The
+[readiness audit](docs/audits/2026-10-07-repository-readiness/REPORT.md) and
+[return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md)
+locate the state to resume from.
+
 ## How it works
 
 The research moves through six stages. Findings can revise an earlier question,

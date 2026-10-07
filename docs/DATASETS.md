@@ -1,5 +1,7 @@
 # Dataset inventory and eligibility
 
+**7 October update:** Wp R0–R4 and selected extensions have executed. The [current correction report](../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) records corrected Compass orientation and full-library human normalization. The dated intake rows below describe original availability, not present execution status. Published scVI inputs remain unavailable even though the repository’s substituted Compass run executed.
+
 Synchronized from tracked execution records on **28 September 2026**, after the
 gap-fill work merged in PR #107. This is a map of repository use, not a new
 survey of public availability. Linked run records retain exact URLs, versions,

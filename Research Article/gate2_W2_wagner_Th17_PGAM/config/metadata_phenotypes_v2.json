@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.metadata_phenotypes_v2",
+  "owner": "Wp-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Two biological fields the deposits declare were never used as variables: `divisions` in GSE290297, which entered only as a gate sensitivity, and `tissue` in GSE138266, whose compartment effect was reported but never tested for specificity. What phenotype does each carry, and do PGAM and G6PD inhibition converge on one Th17 state?",
+  "decision": "Which biological observations in this package are strong enough to seed a research question, as against the methodological sensitivities that are already closed.",
+  "strongest_rival": "Each apparent phenotype is a measurement limit rather than biology: a division signature that is unmeasurable at five libraries would show no agreement between arms for trivial reasons; two drugs sharing a transcriptome-wide shift would correlate without converging; and a compartment difference in a gene set of n genes is expected to exceed zero when any set of n genes would.",
+  "discriminator": "For the division phenotype, the agreement between the two independent vehicle arms is the measurement ceiling against which drug-versus-vehicle disagreement is read, and every correlation uses disjoint library groups. For drug class, the concordant and discordant gene counts and the centred group medians separate convergence from a shared global shift. For tissue, 1,000 matched-size random gene sets scored identically on the same paired donors.",
+  "evidence_refs": [
+    "Research Article/gate2_W2_wagner_Th17_PGAM/PRE_RQ_EVIDENCE.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/DATASETS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Fully exposed: M1\u2013M3 v1, A30 v3, and the R4 normalization defect were read before freezing. R4 v3 executed first so its output hashes can be fixed here. This is a correction, not confirmatory validation.",
+  "biological_unit": "Library for the two bulk analyses, because GSE290297 declares no animal field. Donor for the tissue analysis, paired across tissue within donor - the strongest unit available anywhere in this package.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Div.1 and Total are different sorted populations of the same cultures with no pairing field declared, and Total plausibly contains the Div.1 cells, so every gate quantity is attenuated and is an association between two gated populations rather than a measurement of what a dividing cell does. EGCG and DHEA have different solvents, so a shared solvent effect cannot be excluded from their agreement. The ten paired donors contribute one CSF and one blood library each.",
+  "population_and_selection": "All 79 GSE290297 libraries and all ten GSE138266 donors with both tissues. No selection on any outcome; the pathogenicity gene groups are the deposit's own DMSO partition from Wp-R3.",
+  "contrast": "Div.1 minus Total within each treatment arm, and the drug effect in each gate separately; EGCG versus DHEA per cell type and gate; CSF minus blood within donor.",
+  "endpoint": "Pairwise correlation of all four arms' gate signatures per cell type, classified as vehicle-versus-vehicle, drug-versus-vehicle or drug-versus-drug; per-gene gate signatures and their interaction; EGCG-versus-DHEA correlation with concordant and discordant gene counts and centred group medians; and for each gene set the paired CSF-minus-blood median with its Wilcoxon p and its matched random-set interval and empirical p.",
+  "methods": "Gate signatures are mean differences of log2(TPM + 1) between the Div.1 and Total libraries of one treatment arm, reported without a test because no pairing field exists. Drug effects are read from the frozen Wp-R3 contrast table and are not recomputed. The tissue analysis uses the Wp-R4 donor-level gene z-matrix, so each gene set's donor score is a mean over its mapped genes and the random-set null draws the same number of genes from the same usable universe, seed 20261005, 1,000 draws. Human inputs now use R4 v3 all-gene CP10K. The M3 random-set universe is still restricted to loaded genes, size-only and not expression/detection matched; no genome-wide specificity claim.",
+  "missingness_and_exclusions": "Gene sets with fewer than five mapped genes are skipped in the tissue analysis and the mapped count is reported for each. Genes absent from a contrast's universe are dropped from that comparison.",
+  "multiplicity": "The tissue analysis reports each gene set's empirical p against its own matched null, which is a specificity test rather than a family of hypotheses; the Wilcoxon p is reported beside it unadjusted and is interpreted descriptively. The bulk analyses report no p values.",
+  "precision_status": "unknown",
+  "precision_basis": "Five libraries per bulk group with no animal field, and ten paired donors. A Wilcoxon signed-rank test on ten pairs cannot fall below p = 0.002, which several scores attain.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Library-level descriptive contrasts on deposited TPM for the bulk analyses, so neither supports animal-level or causal inference. The division phenotype describes two gated populations, not a cell's division history. The drug comparison cannot exclude a shared solvent effect. The tissue result is donor-level and paired, but the signatures transported are the mouse study's own and the cohort was collected for another purpose, so a compartment difference is not evidence about disease.",
+  "stop_rule": "Report all four arm-pair classes, both cell types, both gates and every gene set as computed, including null results. Do not add a gene set, drop an arm, or reclassify a correlation after seeing it. If the vehicle-versus-vehicle agreement is no better than drug-versus-vehicle, the division phenotype is reported as unmeasurable at this library count rather than as an absence of structure.",
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+      "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE290297_collected_inhibitors_tpm_4geo.csv.gz",
+      "sha256": "2d62d1a0ac7fd0145089efe92a02ef3a8fcaff38516289fb61f727c508f99c86",
+      "study_id": "GSE290297",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE290297_samples.soft.txt",
+      "sha256": "f138b1636c252374abe6ad7df263dd80a07adce7aeb2a22ff63ed53cfee4bdbe",
+      "study_id": "GSE290297",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+      "sha256": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+      "study_id": "Wang2025_TableS1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-3.xlsx",
+      "sha256": "de4278f0a8390777cd0faa3117edff6928bb07bcd2fbcc92d2bc17d4de7a3a1d",
+      "study_id": "Wang2025_TableS3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+      "sha256": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+      "study_id": "Wang2025_TableS5",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+      "sha256": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/partition_Div1.csv.gz",
+      "sha256": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/donor_gene_mean_z.csv.gz",
+      "sha256": "1f59cf69a5e681db9ae428935a122ee2e65c61ed0e84c05ad997de00d904efa2",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/donor_scores.csv",
+      "sha256": "90f01e2724b05d0fc7f9c977e70ee86d9a96665fa084495db39c61b9b9e6185d",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/gene_mapping.csv",
+      "sha256": "65c707a5a5f0789641537d6e13e6b90578f4dc7fd36a09224e2073a0b98ea79d",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/metadata_phenotypes_v2.py",
+      "sha256": "eed30cd6ac07e12f690c600aad955662aea6a99b2008742967deecb6ed87b2ec"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/metadata_phenotypes_v2.py",
+  "arguments": [
+    "--data-root",
+    "raw_data/wagner_pgam_w2_20261004",
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "results.json",
+    "division_summary.csv",
+    "division_gate_arm_agreement.csv",
+    "division_gate_signatures.csv.gz",
+    "division_gate_named_genes.csv",
+    "drug_convergence_summary.csv",
+    "drug_convergence_genes.csv.gz",
+    "drug_named_genes.csv",
+    "tissue_specificity_null.csv"
+  ],
+  "amendment_of": "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v1.json",
+  "amendment_reason": "Propagate the human full-library normalization correction from R4 v3 into M3. M1/M2 bulk inputs, methods and outputs are retained for equality checking; all seeds, gene sets and null construction unchanged."
+}

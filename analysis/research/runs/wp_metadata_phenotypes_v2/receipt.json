@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.metadata_phenotypes_v2",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/metadata_phenotypes_v2.json",
+  "contract_sha256": "962f06fde807ae11598529465ae2cc92a1be4dd5234f4c97ba296081ffa7248e",
+  "git_commit": "6937767ab66541a4cb4224b245f919af3963d697",
+  "started_at": "2026-10-07T07:09:00.403430+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/metadata_phenotypes_v2.py",
+    "--data-root",
+    "raw_data/wagner_pgam_w2_20261004",
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "analysis/research/runs/wp_metadata_phenotypes_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+      "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE290297_collected_inhibitors_tpm_4geo.csv.gz",
+      "sha256": "2d62d1a0ac7fd0145089efe92a02ef3a8fcaff38516289fb61f727c508f99c86",
+      "study_id": "GSE290297",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE290297_samples.soft.txt",
+      "sha256": "f138b1636c252374abe6ad7df263dd80a07adce7aeb2a22ff63ed53cfee4bdbe",
+      "study_id": "GSE290297",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+      "sha256": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+      "study_id": "Wang2025_TableS1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-3.xlsx",
+      "sha256": "de4278f0a8390777cd0faa3117edff6928bb07bcd2fbcc92d2bc17d4de7a3a1d",
+      "study_id": "Wang2025_TableS3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+      "sha256": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+      "study_id": "Wang2025_TableS5",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/bulk_contrasts.csv.gz",
+      "sha256": "5286d453557ca2e216bb616199ce00f7b3eecc204b17f13f2f39212a7143d34e",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/partition_Div1.csv.gz",
+      "sha256": "8f0099ada900f957bcd6f1e645fda5344976a252129228c4b7c8ad5b39880771",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/donor_gene_mean_z.csv.gz",
+      "sha256": "1f59cf69a5e681db9ae428935a122ee2e65c61ed0e84c05ad997de00d904efa2",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/donor_scores.csv",
+      "sha256": "90f01e2724b05d0fc7f9c977e70ee86d9a96665fa084495db39c61b9b9e6185d",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/gene_mapping.csv",
+      "sha256": "65c707a5a5f0789641537d6e13e6b90578f4dc7fd36a09224e2073a0b98ea79d",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/metadata_phenotypes_v2.py",
+      "sha256": "eed30cd6ac07e12f690c600aad955662aea6a99b2008742967deecb6ed87b2ec"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/results.json",
+      "sha256": "4d2a994a350b788ca44b81fd3373bdf97c573ea284a2d3ae764efda3a3f4c3a0"
+    },
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/division_summary.csv",
+      "sha256": "5755cf2fba66845e273f12c188c38ebd29f1a046efee01f566cbf64d2995845d"
+    },
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/division_gate_arm_agreement.csv",
+      "sha256": "07b7403b8fe63add0dc2e7922944b95d57751623ea132877c28d26c216e4fcff"
+    },
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/division_gate_signatures.csv.gz",
+      "sha256": "7201a214602f9cf1a14d793913753744e17adee85cd7001cd829b570b9496a29"
+    },
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/division_gate_named_genes.csv",
+      "sha256": "14f6647aaf86ac66d6801a1e702950944a7bd93054d01bc7a0c4c749615c1f29"
+    },
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/drug_convergence_summary.csv",
+      "sha256": "e9b6c24533aa9583abbf6706f8c32a6f673dc5277a0d5e845f93cc1c87485d4e"
+    },
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/drug_convergence_genes.csv.gz",
+      "sha256": "6b2b246b434339f046229c85f3266b0dd325d83cbe54fb70b65023236e46ec19"
+    },
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/drug_named_genes.csv",
+      "sha256": "e738b85b9677b27dcade2b1e21900cdcdd8bf807e932eb518f0d6915c7088e2c"
+    },
+    {
+      "path": "analysis/research/runs/wp_metadata_phenotypes_v2/tissue_specificity_null.csv",
+      "sha256": "d4f5f7caf6faed6625cedb1adccbf2464c927b4ae744cbcdc7346f8a15489f4e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T07:09:10.623798+00:00"
+}

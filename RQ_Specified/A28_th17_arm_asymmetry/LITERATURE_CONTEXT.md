@@ -1,5 +1,7 @@
 # A28: literature context and hypothesis schematic
 
+**Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
+
 Reviewed 5 October 2026. This note connects published findings to the current
 proposed question. It is a bounded synthesis, not novelty clearance and not
 scientific acceptance. The searches actually executed, their hit counts and
@@ -20,7 +22,7 @@ Abstract-level inspection is not a figure and methods audit. Published-source ev
 
 ## Repository observation
 
-At 1 mM versus 25 mM glucose the score rises in 4/4 animal-paired comparisons through the pro-regulatory arm falling, with the pro-inflammatory arm flat; the two arms are anti-correlated across 15,830 cells at Spearman −0.389 to −0.503. In ten paired human donors the CSF-minus-blood contrast moves the opposite arm (pro-inflammatory +0.061, 10/10 donors, empirical p 0.003) while the pro-regulatory arm does not move (p 0.394 and 0.931). The mouse evidence rests on two animals.
+At 1 mM versus 25 mM glucose the score rises in 4/4 animal-paired comparisons through the pro-regulatory arm falling, with the pro-inflammatory arm not consistently increasing across the two animals; the two arms are anti-correlated across 15,830 cells at Spearman −0.389 to −0.503. In ten paired human donors, corrected R4 v3 gives an inflammatory CSF-minus-blood median of +0.061825 (10/10 positive) and a regulatory median of +0.006024 (6/10 positive; nominal paired p=0.232422). M3 v2 uses a slightly different finite-gene universe: its inflammatory median is +0.060759 (3/1,000 null draws as extreme), while regulatory authors/all-gene null fractions are 0.292/0.884. These restricted size-only nulls do not establish genome-wide specificity or regulatory equivalence. The mouse evidence rests on two animals.
 
 Exact current result locators:
 
@@ -46,9 +48,9 @@ A per-cell joint protein readout — Foxp3, CTLA4, IL-17A, IL-17F with a divisio
 
 ## Hypothesis schematic
 
-![A28: proposed comparison and strongest rival](schematics/hypothesis_v1.svg)
+![A28: proposed comparison and strongest rival](schematics/hypothesis_v2.svg)
 
-[Editable hypothesis schematic](schematics/hypothesis_v1.svg). Original
+[Editable hypothesis schematic](schematics/hypothesis_v2.svg). Original
 explanatory artwork. Dashed arrows denote the labelled proposal or rival;
 shapes, colours and any counts are qualitative, not observations. The readout
 cards explain which uncertainty a measurement could resolve. Missing features

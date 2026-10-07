@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.render_correction_figures_v4",
+  "owner": "Wp-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Display the corrected Compass direction and full-library human paired scores without reusing superseded panels.",
+  "decision": "Provide current shareable figures that preserve units and interpretation limits.",
+  "strongest_rival": "A plotted title, sign, scale or denominator could repeat the superseded interpretation.",
+  "discriminator": "Show the raw-penalty sign beside corrected consistency and all ten paired donor differences for both human score arms.",
+  "evidence_refs": [
+    "RQ_Specified/A30_csf_compartment_effector_state/RESULTS.md",
+    "RQ_Specified/A30_csf_compartment_effector_state/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Fully exposed rendering of completed correction outputs. No new biological analysis or hypothesis test.",
+  "biological_unit": "Panel A computational micropools nested in four libraries and two animals; panel B ten paired donors.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "The two panels use different source cohorts; each reuses its underlying correction run, not independent replication.",
+  "population_and_selection": "Same named PGM_pos and PGCD_pos reactions and all ten paired human donors; no outcome-based selection.",
+  "contrast": "Penalty versus consistency correlation; paired donor CSF-minus-blood score for authors inflammatory and regulatory modules.",
+  "endpoint": "One plate as PNG at 300 dpi, PDF and SVG, plus a manifest recording input and output hashes.",
+  "methods": "Matplotlib layout from frozen source tables. The donor differences are direct display arithmetic; the median bars come from saved paired_tissue.csv. No new testing.",
+  "missingness_and_exclusions": "Only donors with both CSF and blood appear, ten of twelve. Reaction p values describe pools, not animal replication.",
+  "multiplicity": "No test is performed; the BH values shown are the source run's own.",
+  "precision_status": "unknown",
+  "precision_basis": "No interval is drawn except the source run's matched random-set interval.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "RNA-derived scores, not measured flux, protein, lineage or causal effect. No regulatory equivalence; modern substituted Compass inputs are not a reproduction of published Figure 1.",
+  "stop_rule": "Render the plate as specified. Do not drop a category, change an axis range or soften a title after seeing the rendering; if a title is contradicted by its own axis, the title is corrected.",
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_correction_figures_v4.py",
+  "arguments": [
+    "--runs-root",
+    "analysis/research/runs",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "corrected_scores.png",
+    "corrected_scores.svg",
+    "corrected_scores.pdf",
+    "figure_manifest.json"
+  ],
+  "amendment_of": "Research Article/gate2_W2_wagner_Th17_PGAM/config/render_correction_figures_v3.json",
+  "amendment_reason": "Visual QA found footer overlap with the x-axis label in v3. Increase canvas height and bottom margin and lower footer. Same inputs, data, labels and tests; v3 remains preserved as superseded layout.",
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/render_correction_figures_v4.py",
+      "sha256": "4ce8f06cf21e4c2b5668133baef1fdea7ad42c04e030c56dda5fa525dda6b9ac"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_compass_orientation_v3/named_reactions.csv",
+      "sha256": "f53524b9906f737bab523d80fc6976a6efcb913a506cc2744e07bfe61bde5ccb",
+      "study_id": "wp_compass_orientation_v3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/donor_scores.csv",
+      "sha256": "90f01e2724b05d0fc7f9c977e70ee86d9a96665fa084495db39c61b9b9e6185d",
+      "study_id": "wp_human_signature_transfer_v3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/paired_tissue.csv",
+      "sha256": "35c6f6ccf81eea60f8620bf431f4037ef3a1154b778d8f68a0bf1c2c0cc39bee",
+      "study_id": "wp_human_signature_transfer_v3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ]
+}

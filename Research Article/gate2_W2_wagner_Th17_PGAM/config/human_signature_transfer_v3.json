@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.human_signature_transfer_v3",
+  "owner": "Wp-R01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do the mouse-derived pro-inflammatory, pro-regulatory, EGCG-signature and N1-P4 programme scores separate multiple sclerosis from idiopathic intracranial hypertension donors in GSE138266 CD4-lineage T cells, as Figure S4 claims, and does a generalised activation score explain whatever separation appears?",
+  "decision": "Decide whether the paper's only donor-level human result supports a disease association or a compartment and activation effect, which is what Wp-P05 turns on.",
+  "strongest_rival": "The scores track generalised T-cell activation and the CSF-versus-blood compartment rather than disease; both modules moving in the same direction would be the signature of that rival.",
+  "discriminator": "Donor-level score differences between disease groups within each tissue, the same contrast with the activation score as a covariate, the within-donor paired CSF-minus-blood difference for the 10 paired donors, and whether the two modules move together or in opposite directions. Each contrast is additionally compared with 1,000 random gene sets of the same mapped size drawn from the same gene universe and scored identically (seed 20261004).",
+  "evidence_refs": [
+    "Research Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/DATASETS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/EVIDENCE_MAP.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P05_human_signature_activation.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Fully exposed: v1/v2 human scores, M3 summaries and A30 v3 were read before correction. The audit found that v2 sums selected scoring genes for its CP10K denominator, despite using all-gene totals for QC. A30 v3 independently corrects its own denominator. No confirmatory or unexposed claim.",
+  "biological_unit": "Donor (12: 6 multiple sclerosis, 6 idiopathic intracranial hypertension), with tissue nested within donor for the 10 donors sampled in both CSF and blood.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "One library per donor per tissue. Donor identity and tissue come from the deposited file names; Wp-R0 recovered the same 12 donors from the GEO titles. CSF and blood from one donor are paired, never treated as independent. The signature definitions come from the mouse study, so this is transport of an exposed signature and not independent validation of it.",
+  "population_and_selection": "All 22 deposited libraries. Cells retained are CD4-lineage (non-CD8) T cells passing per-sample QC with at least 20 such cells per donor-tissue unit; units below the floor are excluded and listed.",
+  "contrast": "Within tissue: MS versus idiopathic intracranial hypertension at donor level, unadjusted and with the activation score as a covariate. Within donor: CSF minus blood for the 10 paired donors, and whether that paired difference differs between diseases.",
+  "endpoint": "Donor-level mean of each score: pro-inflammatory and pro-regulatory modules (authors' Table S1 HVG flags and all module genes), pathogenicity as their difference, the Table S3 and Wp-R3 Th17n EGCG signatures, the seven Table S5 programme marker sets, and the declared activation and proliferation sets. Mann-Whitney p with BH within tissue, the activation-adjusted disease coefficient, and Wilcoxon signed-rank for the paired contrast. Plus the observed MS-minus-IIH median difference against the matched-size random gene-set null, reported as an empirical two-sided p value per score and tissue.",
+  "methods": "Same v2 QC, cell selection, scores, donor comparisons, symbol mapping, pooled z scaling, seed and 1000-draw size-only null. Correct CP10K to use all deposited gene counts per retained barcode, before selecting scoring columns. Export original barcode, matrix column and full-gene QC totals; refuse inconsistent feature order or matrix dimensions. The null is restricted to loaded scoring genes, unsigned, and not expression/detection matched.",
+  "missingness_and_exclusions": "Two donors have no blood library (MS58637, PST45044); they contribute to the CSF contrast only. Genes not mapping by symbol are dropped from the score and counted. Barcodes failing QC are excluded and counted per sample.",
+  "multiplicity": "BH across scores within each tissue for the disease contrast. The paired contrast is reported per score without adjustment and is interpreted as descriptive.",
+  "precision_status": "unknown",
+  "precision_basis": "Six donors per group, five per group in blood. A Mann-Whitney test on 5 versus 5 cannot return a p value below 0.0079, so the smallest attainable p is reported as such and no effect is called precise.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Donor-level descriptive transport of exposed mouse-derived signatures into a human dataset collected for another purpose. The disease groups differ in more than disease, the control group is an intracranial-hypertension cohort rather than healthy donors, and symbol-identity orthology loses renamed and one-to-many orthologs. Supports a statement about whether these scores separate these donors, not about mechanism in human disease.",
+  "stop_rule": "Report every score, both tissues and the paired contrast as computed, including null results. Do not add a score, change the gate or drop a donor after execution.",
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+      "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+      "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_RAW.tar",
+      "sha256": "b573289bb13f0054092448eb1ab5685f2b7030cd2c08359f0cf04e995dc853a5",
+      "study_id": "GSE138266",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_samples.soft.txt",
+      "sha256": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+      "study_id": "GSE138266",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+      "sha256": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+      "study_id": "Wang2025_TableS1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-3.xlsx",
+      "sha256": "de4278f0a8390777cd0faa3117edff6928bb07bcd2fbcc92d2bc17d4de7a3a1d",
+      "study_id": "Wang2025_TableS3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+      "sha256": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+      "study_id": "Wang2025_TableS5",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_bulk_contrasts_v1/signatures.csv",
+      "sha256": "e354f368578b45a1fabbe89655fbe63aabc5530db22f90e5f2ff47bd3531284e",
+      "study_id": "Wp-R3",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/human_signature_transfer_v3.py",
+      "sha256": "0c0dd7a3e3a4b37b8781ce809e2f6d1afdf26a76ec9fc0a57a71ebfa17330bba"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/human_signature_transfer_v3.py",
+  "arguments": [
+    "--data-root",
+    "raw_data/wagner_pgam_w2_20261004",
+    "--r3-run",
+    "analysis/research/runs/wp_bulk_contrasts_v1",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "results.json",
+    "sample_qc.csv",
+    "donor_scores.csv",
+    "disease_contrasts.csv",
+    "paired_tissue.csv",
+    "gene_mapping.csv",
+    "cell_scores.csv.gz",
+    "random_set_null.csv",
+    "donor_gene_mean_z.csv.gz",
+    "cell_identity_qc.csv.gz"
+  ],
+  "amendment_of": "Research Article/gate2_W2_wagner_Th17_PGAM/config/human_signature_transfer_v2.json",
+  "amendment_reason": "Fix the subset-denominator normalization defect and add cell-identity/QC provenance. Preserve v2. No gate, score, null or donor threshold tuning."
+}
