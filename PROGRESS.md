@@ -27,9 +27,11 @@ Validation passed: 10,703 repository checks, 145 unit tests (one skip), the
 research gate against main, all required archive verifiers, claim bindings and
 Python compilation. Tests first failed because the sandbox temporary directory
 was inaccessible; the same suite passed with TEMP/TMP in this worktree.
-Remote main and PR140 remain at the audited revisions. Publication is being
-prepared as a draft that includes the still-open PR140 dependency; no merge or
-scientific acceptance is performed.
+Remote main and PR140 remain at the audited revisions. [Draft PR #145](https://github.com/xorca0711/ravel/pull/145)
+is open and includes the still-open PR140 dependency. Implementation commit
+`e6d4e33` passed both GitHub workflows (repository validation and research
+governance, push and PR runs). No merge or scientific acceptance is performed.
+This progress-only update records that verified checkpoint.
 The bundled scientific runtime lacks SciPy; the existing project Python supplied
 it. A stale x64 virtualenv was not repaired or used. No raw biological rerun ran.
 
