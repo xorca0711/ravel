@@ -2,16 +2,38 @@
 
 **Update this before stopping work, every session.**
 
+## README follow-up — 7 October 2026
+
+PR #147 merged at `8469e390f634f214b64184d4b67048956b954a93`.
+The documentation follow-up is on `codex/readme-readability-20261007` in the
+scoped checkout below. The owner clarified that dated evidence checkpoints
+belong outside the root README. All seven evidence rows were preserved in the
+[dated report](docs/portfolio_extensions/2026-10-07/EVIDENCE_CHECKPOINT.md),
+linked from the documentation and portfolio indexes. The root README now leads
+with project identity and navigation, has a shorter workflow, and avoids repeated
+status prose. The structure guide records this placement and the 32-question count.
+
+Proposed GitHub topic additions: `multi-omics`, `transcriptomics`, `epigenomics`,
+`data-reanalysis`. Proposed removals: `seurat`, `slingshot`, `soupx`, `scrublet`,
+`tradeseq`, `trajectory-inference`. Retain the existing domain, single-cell,
+public-data and reproducibility topics. GitHub topics have not been changed.
+
+Validation: 11,080 repository checks and the research gate passed. A direct
+comparison confirms preservation of all seven evidence rows with only link
+paths rebased. GitHub's GFM renderer confirms the two-column navigation table,
+six-step list and two code blocks. No numerical analysis or historical evidence
+was modified. Remote CI will be reported by the follow-up PR.
+
 ## Portfolio checkpoint — 7 October 2026
 
 PR #146 is merged at `55e7cdeb679a103c570421279959b33be922331b`.
 The subsequent owner-authorized portfolio scan is on
 `codex/portfolio-extensions-20261007` in
 `X:\GitHub\scRNA_seq\.worktrees\ravel-rename-20261007`.
-Review and merge route: [PR #147](https://github.com/xorca0711/ravel/pull/147),
-opened ready for review (not draft), targeting `main`.
+The portfolio work was delivered through
+[PR #147](https://github.com/xorca0711/ravel/pull/147), now merged into `main`.
 The primary checkout and unrelated local metadata changes remain separately
-preserved. No new merge was performed by this task.
+preserved. The agent did not perform the merge.
 
 - [Integrated results and decisions](docs/portfolio_extensions/2026-10-07/SYNTHESIS.md)
 - [All-paper/RQ/candidate coverage and pipeline](docs/portfolio_extensions/2026-10-07/README.md)

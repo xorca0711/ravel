@@ -25,7 +25,7 @@ protocols, original trial names and immutable run records remain historical evid
 | Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |
 
-See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 31 questions; the registry locates their evidence and the 31 article-local candidates across Nb4, Nb5, Wg and Wp.
+See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 32 questions; the registry locates their evidence and the 31 article-local candidates across Nb4, Nb5, Wg and Wp.
 
 ## Identifier namespaces
 
@@ -81,6 +81,8 @@ Older plans and first-batch reports do not override a completed continuation.
 identities, independent validation, spatial regions or causal endpoints are resolved.
 
 The main README provides universal repository context and shared navigation.
+Dated analysis checkpoints belong with their report packages and are linked
+from the documentation index; they do not form sections of the root README.
 Its Start here section links to repository-wide indexes, not individual papers
 or paper-specific results, branches or derived RQs. Those links belong in the
 research-article and question indexes. The main README links to galleries without

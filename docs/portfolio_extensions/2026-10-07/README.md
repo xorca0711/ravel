@@ -10,7 +10,7 @@ This pass starts from merged PR #146, main revision
 accounts for all 15 analysis-bearing article packages, the source-only Primary
 archive, 31 canonical RQs, 31 article candidates and the unexecuted reading queue.
 
-[Integrated results and question decisions](SYNTHESIS.md) · [Return checklist](RETURN_CHECKLIST.md) · [Validation](VALIDATION.md)
+[Integrated results and question decisions](SYNTHESIS.md) · [Selected evidence checkpoint](EVIDENCE_CHECKPOINT.md) · [Return checklist](RETURN_CHECKLIST.md) · [Validation](VALIDATION.md)
 
 ## Groups and decisions
 

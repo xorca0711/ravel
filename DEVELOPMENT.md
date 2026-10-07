@@ -2674,3 +2674,16 @@ remain visible. No CLAIMS grade, protected validator, governance requirement,
 human acceptance or laboratory feasibility was manufactured. See the
 [portfolio synthesis](docs/portfolio_extensions/2026-10-07/SYNTHESIS.md) and
 [validation record](docs/portfolio_extensions/2026-10-07/VALIDATION.md).
+
+## Root README placement and readability — 7 October 2026
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-07 | Move the current evidence checkpoint out of the root README | Owner clarification | Owner (placement instruction); PR review pending | Preserve all seven rows in the dated portfolio report and index them from docs | The root README should present project scope, workflow and navigation; dated analysis status belongs with its reports |
+
+| Date | Rejected or substantially modified AI output | Reason | Reworked by |
+|---|---|---|---|
+| 2026-10-07 | Initial readability edit that retained a shortened checkpoint in the root README | Owner explicitly requested moving the section out of the root; that preference overrides the shared skeleton's default table placement | Codex relocated the original evidence rows and shortened the general overview |
+
+This follow-up changes documentation placement and navigation only. No evidence
+grade, scientific result, governance validator or numerical output changed.
