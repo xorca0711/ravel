@@ -11,11 +11,14 @@ The [roadmap execution record](roadmap_runs/2026-09-27/README.md) supplies the l
 
 Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. Current question scope is A0–A21 plus A12-S1. A19–A21 were proposed from the [Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) on 29 September. A19 now has an [exploratory RNA/context analysis](../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md), completed 30 September; A20 also has an [exploratory fibroblast context analysis](../RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md). A21 now has an [independent capillary context analysis](../RQ_Specified/A21_fzd4_capillary_function/RESULTS.md). Their direct functional tests remain unexecuted. The dated ledgers above retain their original scope.
 
-The purpose is to generate and discriminate biological hypotheses about lung
-repair and remodelling from public data. The organizing question is not yet an
-answer: no common measured repair outcome links all these cohorts. A0 extends
-the lung programme into a bounded cross-tissue test; it does not redefine the
-whole project as a search for one universal signature.
+**Project scope, updated 7 October 2026:** Ravel develops and discriminates
+biological hypotheses through paper reading and public-data reanalysis across
+relevant tissues, organisms and experimental contexts. The dated checkpoints
+above describe their original scope; the current register and project state own
+current identities and status. Lung repair remains a study context. Its cohorts
+do not share a common measured repair outcome, and A0's cross-tissue comparison
+retains its bounded design. Broader coverage does not establish a universal
+signature or make distinct studies independent replication.
 
 ## One evidence chain, with question-specific designs
 

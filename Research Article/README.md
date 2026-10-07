@@ -1,5 +1,10 @@
 # Research article roadmap
 
+Ravel's paper studies can cover any biological context relevant to the questions
+developed from the reading. This roadmap records study-specific scope, evidence
+and status; recent additions do not establish a permanent topic priority. The
+[project workflow](../README.md#how-it-works) applies across studies.
+
 **Wagner, Gate 2W paper 15:** [Th17/Compass package](gate2_W1_wagner_th17_autoimmunity/README.md),
 [reproduction scope](gate2_W1_wagner_th17_autoimmunity/REPRODUCTION_SCOPE.md) and
 [six proposed branches](gate2_W1_wagner_th17_autoimmunity/BRANCH_REGISTER.md).

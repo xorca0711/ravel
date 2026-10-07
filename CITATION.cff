@@ -1,23 +1,24 @@
 cff-version: 1.2.0
 message: "If this analysis helps your work, cite this repository and the source datasets listed in REFERENCES.md."
 type: software
-title: "Hypothesis generation from public lung single-cell and multiome data"
+title: "Ravel: Paper-driven biological research across molecular layers"
 authors:
   - family-names: "Xorca"
-repository-code: "https://github.com/xorca0711/scRNA_seq"
-url: "https://github.com/xorca0711/scRNA_seq"
+repository-code: "https://github.com/xorca0711/ravel"
+url: "https://github.com/xorca0711/ravel"
 abstract: >-
-  An analysis log whose purpose is hypothesis generation from an integrative
-  reanalysis of public lung single-cell and multiome data. Deposited count
-  matrices are re-analysed with frameworks newer than the source papers, with
-  the authors' annotations held out, to surface phenotypes and data
-  distributions, within the theme of which epithelial and immune-state
-  programmes distinguish productive lung repair from persistent remodelling
-  after injury.
+  A computational research project developing testable biological questions
+  through critical reading of published studies, reproduction of accessible
+  findings and reanalysis of public omics and complementary experimental data.
+  Papers and questions define the relevant tissues, organisms, biological units
+  and methods. Source evidence, analytical results, competing explanations and
+  interpretation limits are retained in a traceable research record.
 keywords:
   - single-cell RNA-seq
   - scanpy
-  - lung repair
-  - macrophage and monocyte states
+  - multiomics
+  - public data reanalysis
+  - literature-guided research
+  - hypothesis development
   - lineage tracing
 date-released: 2026-09-10

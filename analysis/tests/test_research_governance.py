@@ -178,6 +178,26 @@ class GovernanceTests(unittest.TestCase):
             with self.subTest(guides=guides):
                 altered=copy.deepcopy(self.index); altered['question_guides']=guides
                 self.assertTrue(question_guide_errors(self.root,altered)[0])
+
+    def test_repository_rename_accepts_current_and_historical_source_links(self):
+        for repository in ('ravel', 'scRNA_seq'):
+            with self.subTest(repository=repository):
+                url=f'https://github.com/xorca0711/{repository}/blob/{"a" * 40}/README.md'
+                self.write(self.guide_svg,self.guide_xml.replace('</svg>',f'<a href="{url}"><text>Source</text></a></svg>'))
+                self.index['question_guides'][0]['schematic_sha256']=sha256(self.root/self.guide_svg)
+                self.assertEqual(question_guide_errors(self.root,self.index)[0],[])
+
+    def test_repository_rename_does_not_accept_other_source_locations(self):
+        for prefix in ('https://github.com/other/ravel/blob/',
+                       'https://github.com/xorca0711/ravel-copy/blob/',
+                       'https://github.com/xorca0711/scRNA_seq-copy/blob/',
+                       'https://github.com/xorca0711/ravel/issues/',
+                       'http://github.com/xorca0711/ravel/blob/',
+                       'https://github.com.evil.example/xorca0711/ravel/blob/'):
+            with self.subTest(prefix=prefix):
+                self.write(self.guide_svg,self.guide_xml.replace('</svg>',f'<a href="{prefix}{"a" * 40}/README.md"><text>Source</text></a></svg>'))
+                self.index['question_guides'][0]['schematic_sha256']=sha256(self.root/self.guide_svg)
+                self.assertTrue(any('SVG links' in e for e in question_guide_errors(self.root,self.index)[0]))
     def test_missing_context_and_embed_rejected(self):
         self.write('context.md','An incomplete reading note.')
         self.assertTrue(any('context section' in e for e in question_guide_errors(self.root,self.index)[0]))

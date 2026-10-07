@@ -2,6 +2,28 @@
 
 **Update this before stopping work, every session.**
 
+## Ravel migration — 7 October 2026
+
+Owner requested the repository rename to **Ravel** (`ravel`) and a paper-driven
+mission across biological contexts, without elevating a recent study topic into
+the project-wide focus. [Stages and preservation review](docs/migrations/2026-10-07-ravel/README.md)
+record the baseline, narrow source-link compatibility change and acceptance
+criteria. [GitHub is renamed](https://github.com/xorca0711/ravel); the old URL
+redirects correctly. [PR #141](https://github.com/xorca0711/ravel/pull/141) carries
+the identity/navigation changes and source-link compatibility tests from base
+`744996d`. All ten local checks passed: 145 unit tests (one optional skip),
+10,586 repository checks and the research gate; required CI also passed on the
+initial implementation. Final integration follows the final PR checks.
+
+Local access is available at `X:\GitHub\ravel` through a junction. A process lock
+blocked the physical directory rename; all seven worktrees and 59 changed or
+untracked files passed preservation checks. The recovered x64 environment and
+raw-data paths work through the alias. Exact remaining steps are in the migration
+record: edit the desktop project's name/folder, then run the guarded completion
+script after closing applications holding the directory. The original branch,
+unrelated edits, historical evidence and recovery payloads remain preserved.
+The requested LinkedIn text is a local proposal only; no profile was updated.
+
 ## Wang 2025 PGAM package opened — 4 October 2026
 
 The owner read [Wang, Wagner, Fessler et al., *Cell Reports* 2025](https://doi.org/10.1016/j.celrep.2025.115799)
