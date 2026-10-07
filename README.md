@@ -1,30 +1,35 @@
-# Ravel
+# Ravel: Public Omics Reanalysis of Cellular States, Tissue Homeostasis and Disease
 
 [![Repository checks](https://github.com/xorca0711/ravel/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/xorca0711/ravel/actions/workflows/repository-checks.yml)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
-**Paper-driven biological research across molecular layers.**
+Ravel is an ongoing computational research project combining critical appraisal
+of primary literature with reproduction of accessible findings and integrative
+reanalysis of publicly available biological datasets. It investigates cell-state
+variation and molecular programmes associated with tissue homeostasis, injury
+responses, repair, ageing and disease, and develops testable hypotheses from
+concordant, conflicting and unresolved findings across studies.
 
-Ravel develops testable biological questions through critical reading of research
-articles, reproduction of accessible findings and reanalysis of public omics and
-complementary experimental data. Studies can span tissues, organisms and disease
-contexts; the source paper, available evidence and question determine the scope
-and suitable methods.
+The project originated in lung single-cell and multiome research. Its scope now
+follows questions arising from the papers under investigation across relevant
+tissues, organisms and experimental contexts. Current work includes single-cell
+and bulk RNA sequencing, RNA–chromatin comparisons, and study-specific spatial,
+imaging, perturbation and clonal measurements where accessible. Dataset selection
+and analytical methods follow each question's biological unit, measured endpoint
+and source-design constraints.
 
-The project began with lung single-cell and multiome studies. Its continuing
-workflow connects published findings, repository observations, competing
-explanations and the next informative test. No individual tissue, cell type or
-recently read paper defines the whole programme. Cross-study comparisons retain
-their source-specific biological units and interpretation limits.
+Analyses combine quality control and annotation, sample-level statistical
+comparisons, pathway and ligand–receptor analyses, and targeted sensitivity checks.
+Study reports connect published results and repository observations to competing
+explanations and the next discriminating analysis or experiment. Source
+measurements, computational inferences and mechanistic hypotheses are documented
+separately; molecular associations and inferred scores alone do not establish
+cell fate or causal mechanisms. Reused datasets remain shared evidence, and
+negative results, limitations and corrections are retained.
 
-Ravel is a name, not an acronym. The repository was previously named `scRNA_seq`;
-the [migration record](docs/migrations/2026-10-07-ravel/README.md) explains how
-historical evidence and links are preserved.
-
-The work connects source-paper evidence, question-specific analyses and hypothesis
-tests in a traceable research record. Molecular associations, independently
-measured outcomes and proposed mechanisms retain their own evidence requirements.
-Negative and inconclusive results help narrow the next question.
+Previously named `scRNA_seq`; the
+[migration record](docs/migrations/2026-10-07-ravel/README.md) documents the rename
+and preservation of historical evidence.
 
 ## How it works
 

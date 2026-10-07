@@ -1,17 +1,19 @@
 cff-version: 1.2.0
 message: "If this analysis helps your work, cite this repository and the source datasets listed in REFERENCES.md."
 type: software
-title: "Ravel: Paper-driven biological research across molecular layers"
+title: "Ravel: Public Omics Reanalysis of Cellular States, Tissue Homeostasis and Disease"
 authors:
   - family-names: "Xorca"
 repository-code: "https://github.com/xorca0711/ravel"
 url: "https://github.com/xorca0711/ravel"
 abstract: >-
-  A computational research project developing testable biological questions
-  through critical reading of published studies, reproduction of accessible
-  findings and reanalysis of public omics and complementary experimental data.
-  Papers and questions define the relevant tissues, organisms, biological units
-  and methods. Source evidence, analytical results, competing explanations and
+  A computational research project combining critical appraisal of primary
+  literature, reproduction of accessible findings and integrative reanalysis
+  of public omics and complementary experimental data. The project investigates
+  cellular states and molecular programmes associated with tissue homeostasis,
+  injury responses, repair, ageing and disease. Questions arising from published
+  studies determine the relevant biological contexts, measurements and methods.
+  Source evidence, computational inferences, competing explanations and
   interpretation limits are retained in a traceable research record.
 keywords:
   - single-cell RNA-seq
