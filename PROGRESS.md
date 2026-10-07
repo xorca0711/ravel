@@ -2,6 +2,21 @@
 
 **Update this before stopping work, every session.**
 
+## PR #143 governance CI correction — 7 October 2026
+
+CI rejected the changed negative-results generator and generated claims manifest
+as unregistered scientific assets. The earlier local validation covered the
+repository workflow but omitted the separate governance workflow; that omission
+is corrected here. Both files perform documentation/indexing, not a biological
+analysis, so their two exact paths are added to the existing infrastructure
+registry. The generator selects existing claim rows; the manifest is checked
+against CLAIMS.md by the ordinary validator. No wildcard exemption, validator,
+claim grade, frozen artifact, contract or receipt changes are introduced.
+This infrastructure classification is explicit in PR #143 for owner review;
+no independent approval or scientific acceptance is claimed. Governance checks
+against main and the previous PR head, rejection tests and CI are pending.
+Physical folder and desktop project settings remain outstanding as below.
+
 ## Negative-results index relocation — 7 October 2026
 
 Owner requested removal of the generated negative-results document from the

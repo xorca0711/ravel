@@ -863,6 +863,8 @@
     "analysis/lib/research_governance.py",
     "analysis/scripts/research_gate.py",
     "analysis/scripts/validate_repository.py",
+    "analysis/scripts/14_write_negative_results.py",
+    "analysis/claims/manifest.json",
     "analysis/tests/test_research_governance.py",
     "analysis/research/registry.json",
     "analysis/research/legacy_artifacts.json",
