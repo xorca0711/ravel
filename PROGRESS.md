@@ -8,12 +8,21 @@ Owner requested the repository rename to **Ravel** (`ravel`) and a paper-driven
 mission across biological contexts, without elevating a recent study topic into
 the project-wide focus. [Stages and preservation review](docs/migrations/2026-10-07-ravel/README.md)
 record the baseline, narrow source-link compatibility change and acceptance
-criteria. Identity/navigation edits and regression tests are prepared on
-`codex/ravel-rename-20261007` from `744996d`. All ten required checks passed,
-including 145 unit tests (one optional skip), 10,586 repository checks and the
-research gate. Publication and local path migration are in progress. Existing questions, scientific evidence and
-unrelated working-tree changes remain preserved. The requested LinkedIn text
-will be supplied as a proposal, without updating the profile.
+criteria. [GitHub is renamed](https://github.com/xorca0711/ravel); the old URL
+redirects correctly. [PR #141](https://github.com/xorca0711/ravel/pull/141) carries
+the identity/navigation changes and source-link compatibility tests from base
+`744996d`. All ten local checks passed: 145 unit tests (one optional skip),
+10,586 repository checks and the research gate; required CI also passed on the
+initial implementation. Final integration follows the final PR checks.
+
+Local access is available at `X:\GitHub\ravel` through a junction. A process lock
+blocked the physical directory rename; all seven worktrees and 59 changed or
+untracked files passed preservation checks. The recovered x64 environment and
+raw-data paths work through the alias. Exact remaining steps are in the migration
+record: edit the desktop project's name/folder, then run the guarded completion
+script after closing applications holding the directory. The original branch,
+unrelated edits, historical evidence and recovery payloads remain preserved.
+The requested LinkedIn text is a local proposal only; no profile was updated.
 
 ## Wang 2025 PGAM package opened — 4 October 2026
 

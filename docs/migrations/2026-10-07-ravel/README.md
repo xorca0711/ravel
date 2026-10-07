@@ -67,5 +67,61 @@ The first sandbox test attempt could not write Windows temporary directories;
 the complete suite passed with isolated X-drive temporary storage outside that
 sandbox restriction. No test or governance requirement was weakened.
 
-Publication and local migration are in progress. Final results and external
-settings will be recorded before delivery.
+## Publication and local outcome
+
+- GitHub identity is now [xorca0711/ravel](https://github.com/xorca0711/ravel),
+  retaining repository ID `1324737606`. The old URL redirects to that same
+  repository. Description and topics reflect the broader paper-driven mission;
+  there is no GitHub Pages site to migrate.
+- [PR #141](https://github.com/xorca0711/ravel/pull/141) carries this migration.
+  Both required checks (`validate`, `research-governance`) passed for the initial
+  implementation; final integration remains subject to the checks on the final
+  PR revision. Branch protections were retained. The unrelated open PR #140 was
+  not changed.
+- Windows refused the physical folder rename because another process holds the
+  directory open. `X:\GitHub\ravel` is currently a junction to the original
+  physical directory `X:\GitHub\scRNA_seq`. Both paths work and no dataset copy
+  was made. This is usable compatibility access, not a completed physical move.
+- Before/after comparisons passed for all seven registered worktrees: identical
+  HEADs, index hashes, working-tree status and SHA-256 values for 59 changed or
+  untracked files. The existing primary branch and its two unrelated edits were
+  preserved. Updated project documentation is in this migration branch/main;
+  old research checkouts keep their own historical revisions.
+- The recovered Python 3.12 x64 environment successfully imports NumPy, SciPy,
+  pandas, h5py and anndata through the new path. This checks continued access;
+  it does not claim that either pre-existing venv launcher was repaired or that
+  every scientific dependency was rebuilt.
+- Existing Codex project trust was retained and the same trust was added for the
+  new path, with a local configuration backup. Available task tools cannot edit
+  the desktop project's display name/folder registration.
+- A relocation-aware `Restore-Worktree-Ravel.ps1` was added beside the retained
+  recovery packages; its preview verifies the Nb5 payload archive and resolves
+  the new destination. Original scripts, manifests and payloads are unchanged.
+- A proposed LinkedIn title/description is saved locally with the migration
+  evidence. It removes stale output counts and the lung-only mission, retains
+  the original start date, and does not privilege a recent study topic. No
+  profile update or external message was sent.
+
+## Exact remaining local steps
+
+1. In the desktop project menu, use **Edit project** to name the project Ravel
+   and select `X:\GitHub\ravel` as its primary folder. The current old-path
+   registration remains usable through the compatibility arrangement.
+2. To complete the physical directory rename, close applications/terminals using
+   either path. From a separate PowerShell session in `X:\GitHub`, run:
+
+   ```powershell
+   & 'X:\GitHub\scRNA_seq\tmp\ravel-migration-20261007\finish-local-move.ps1' -Apply
+   ```
+
+   The script previews without `-Apply`. It verifies both exact paths and the
+   junction target, snapshots current work, removes only the junction, attempts
+   the directory rename, installs the reverse legacy alias, repairs Git worktree
+   connections and verifies preservation. If the directory is still locked,
+   compatibility access is restored. Its local `location-result.json` records
+   the actual outcome; this dated report describes the initial migration.
+
+Keep the legacy alias until older tasks, environments and operational references
+have been migrated. The local validation logs, path audit, completion script and
+LinkedIn draft are under `tmp/ravel-migration-20261007/` on X: and are intentionally
+not published as research evidence.
