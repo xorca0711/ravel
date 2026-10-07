@@ -83,7 +83,7 @@ the historical planning context.
 | Datasets, their roles, biological units and eligibility limits | [Dataset inventory](docs/DATASETS.md) |
 | Current results, remaining gaps and next decisions | [Current project state](PROGRESS.md) and [remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
 | Figures and the reports that interpret them | [Question figure index](RQ_Specified/FIGURES.md) and [paper galleries](Research%20Article/README.md#figure-galleries) |
-| Evidence grades, corrections and negative results | [Claim register](CLAIMS.md), [generated summary](docs/CLAIM_SUMMARY.md) and [negative-results index](NEGATIVE_RESULTS.md) |
+| Evidence grades, corrections and negative results | [Claim register](CLAIMS.md), [generated summary](docs/CLAIM_SUMMARY.md) and [negative-results index](docs/NEGATIVE_RESULTS.md) |
 | Reproduce the work or inspect analytical decisions | [Reproducibility guide](REPRODUCIBILITY.md), [documentation index](docs/README.md) and [decision record](DEVELOPMENT.md) |
 | Develop a research question or contribute an analysis | [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md), [evidence dossiers](docs/research_dossiers/README.md) and [research governance](docs/RESEARCH_GOVERNANCE.md) |
 

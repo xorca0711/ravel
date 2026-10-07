@@ -15,6 +15,10 @@ The [combined RQ development proposal](audits/2026-09-28-rq-development-proposal
 sets out proposed rationale, scope and next-evidence work for each question;
 it does not replace the current register or executed-result ledger.
 
+Evidence summaries: [claim register](../CLAIMS.md), [claim summary](CLAIM_SUMMARY.md)
+and [negative-results index](NEGATIVE_RESULTS.md). The summaries are generated
+from the register; corrections belong in their source records.
+
 Repository guides: [structure and label scope](REPOSITORY_STRUCTURE.md),
 [research architecture](RESEARCH_ARCHITECTURE.md),
 [reproducibility](../REPRODUCIBILITY.md) and [portfolio summary](PORTFOLIO_SUMMARY.md).
