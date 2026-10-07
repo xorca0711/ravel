@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.compass_orientation_v3",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/compass_orientation_v3.json",
+  "contract_sha256": "c224911c870b93072c40f3ebe64dd360b0988412aa3985ba9f1aa994ec4a0ff6",
+  "git_commit": "60f21ee24be19a1dac7ddb649aaa98565c921dda",
+  "started_at": "2026-10-07T07:02:42.263225+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_orientation_v3.py",
+    "--penalties",
+    "raw_data/wagner_pgam_w2_20261004/wp_compass_sensitivity_v1_rerun_reactions.tsv",
+    "--previous",
+    "analysis/research/runs/wp_compass_sensitivity_v2_rerun",
+    "--output",
+    "analysis/research/runs/wp_compass_orientation_v3"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/wp_compass_sensitivity_v1_rerun_reactions.tsv",
+      "sha256": "8112f133b2abf814931cab518a98b4b4e7f6ae031b6a2fe943ef62eea1dc7e8d",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/pool_scores.csv",
+      "sha256": "1f3b17f908ef7f54591dc38ca4454826fddf2417b007b46093d74a9d5e7e00be",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/reaction_correlations.csv",
+      "sha256": "8e710826826da7973e9bba4f74487eec068e90c756930b1316487eded457fd3d",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_sensitivity_v2_rerun/named_reactions.csv",
+      "sha256": "3fdd4beaf2db4889042d983db4cbb283d26ece9cf81c28e96c8b2e2b5fdbaf72",
+      "study_id": "Wp-R2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/compass_orientation_v3.py",
+      "sha256": "ed42e0afd883de6e96432dabef7620f5ccd51dd03e197775c31776a5adbc55e3"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_compass_orientation_v3/results.json",
+      "sha256": "d09b9d81ccd734c1d65db37e193b982c4c02704ee11e3844704db8cc82c06068"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_orientation_v3/pool_scores.csv",
+      "sha256": "07ef73992b3107d9108936a395a06f2d2b1311bdcb5077567e08d550c79eb8ee"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_orientation_v3/reaction_correlations.csv",
+      "sha256": "1850aa266425ebf13be9095bd5a844038382f34f56eea11dc1586e439ae17671"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_orientation_v3/named_reactions.csv",
+      "sha256": "f53524b9906f737bab523d80fc6976a6efcb913a506cc2744e07bfe61bde5ccb"
+    },
+    {
+      "path": "analysis/research/runs/wp_compass_orientation_v3/cache_verification.csv",
+      "sha256": "6415ea90a8fa92e3e71f25a0d2d1ac04d807ef969188bd6e79b372f1c5302ea5"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T07:02:46.240833+00:00"
+}
