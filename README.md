@@ -1,18 +1,25 @@
-# Integrative reanalysis of public lung single-cell and multiome data
+# Ravel
 
-[![Repository checks](https://github.com/xorca0711/scRNA_seq/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/xorca0711/scRNA_seq/actions/workflows/repository-checks.yml)
+[![Repository checks](https://github.com/xorca0711/ravel/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/xorca0711/ravel/actions/workflows/repository-checks.yml)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
-This repository develops testable biological hypotheses through critical reading
-of research articles and reanalysis of public lung single-cell RNA, multiome and
-complementary experimental data. The aim is to connect observations across studies,
-identify recurring molecular phenotypes and explain which differences could matter
-for epithelial plasticity, injury repair and persistent tissue remodelling.
+**Paper-driven biological research across molecular layers.**
 
-Its organizing biological question is:
+Ravel develops testable biological questions through critical reading of research
+articles, reproduction of accessible findings and reanalysis of public omics and
+complementary experimental data. Studies can span tissues, organisms and disease
+contexts; the source paper, available evidence and question determine the scope
+and suitable methods.
 
-> Which epithelial and immune-state programmes distinguish productive lung
-> repair from persistent remodelling after injury?
+The project began with lung single-cell and multiome studies. Its continuing
+workflow connects published findings, repository observations, competing
+explanations and the next informative test. No individual tissue, cell type or
+recently read paper defines the whole programme. Cross-study comparisons retain
+their source-specific biological units and interpretation limits.
+
+Ravel is a name, not an acronym. The repository was previously named `scRNA_seq`;
+the [migration record](docs/migrations/2026-10-07-ravel/README.md) explains how
+historical evidence and links are preserved.
 
 The work connects source-paper evidence, question-specific analyses and hypothesis
 tests in a traceable research record. Molecular associations, independently
@@ -83,7 +90,7 @@ accepting a scientific interpretation are recorded separately.
 
 **Research questions** have stable identifiers in `RESEARCH_QUESTIONS.md`.
 Their plans, contracts, scripts and results live in `RQ_Specified/`. The current
-register contains A0–A27 and the enabling source-identity question A12-S1;
+register owns the current questions, including enabling source-identity work;
 registration does not imply validation. Shared measurements and figures have
 explicit links to the questions they support.
 

@@ -1,12 +1,18 @@
 # Agent entry point
 
-Updated 4 October 2026. Read [AGENTS.md](AGENTS.md),
+Updated 7 October 2026. Read [AGENTS.md](AGENTS.md),
 [current state](PROGRESS.md) and [research governance](docs/RESEARCH_GOVERNANCE.md).
 This file is navigation, not another scientific status register.
 
+**Project identity:** Ravel (`ravel`), previously `scRNA_seq`. The scope is
+paper-driven biological research across relevant tissues, organisms and molecular
+layers. Individual study topics do not define the project-wide mission. Preserve
+each study's specific questions and limits. See the
+[rename record](docs/migrations/2026-10-07-ravel/README.md).
+
 - [Literature workflow](docs/LITERATURE_WORKFLOW.md) connects primary findings and branch results to RQs.
   [Illustrated context notes](docs/research_dossiers/literature_context_2026-10-03/README.md) cover all 28 questions; use their access limits and exact proposed increments.
-- [Question register](RESEARCH_QUESTIONS.md) owns A0–A27. The
+- [Question register](RESEARCH_QUESTIONS.md) owns the current question identities. The
   [dossiers](docs/research_dossiers/README.md) develop every question without ranking them.
 - [Research registry](analysis/research/registry.json) locates cards, dossiers,
   evidence and prospective contracts. Nb4-P01–P09 remain article-local;

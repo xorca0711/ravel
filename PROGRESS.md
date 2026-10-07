@@ -2,6 +2,19 @@
 
 **Update this before stopping work, every session.**
 
+## Ravel migration — 7 October 2026
+
+Owner requested the repository rename to **Ravel** (`ravel`) and a paper-driven
+mission across biological contexts, without elevating a recent study topic into
+the project-wide focus. [Stages and preservation review](docs/migrations/2026-10-07-ravel/README.md)
+record the baseline, narrow source-link compatibility change and acceptance
+criteria. Identity/navigation edits and regression tests are prepared on
+`codex/ravel-rename-20261007` from `744996d`. All ten required checks passed,
+including 145 unit tests (one optional skip), 10,586 repository checks and the
+research gate. Publication and local path migration are in progress. Existing questions, scientific evidence and
+unrelated working-tree changes remain preserved. The requested LinkedIn text
+will be supplied as a proposal, without updating the profile.
+
 ## Wang 2025 PGAM package opened — 4 October 2026
 
 The owner read [Wang, Wagner, Fessler et al., *Cell Reports* 2025](https://doi.org/10.1016/j.celrep.2025.115799)

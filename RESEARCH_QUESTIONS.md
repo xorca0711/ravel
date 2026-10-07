@@ -1,5 +1,10 @@
 # Research questions
 
+Ravel develops questions from published studies and their reanalysis across
+relevant biological contexts. Each card retains its own tissue, organism,
+endpoint, rival and interpretation limits. The broader project identity does not
+generalize existing results or change question IDs and scientific acceptance.
+
 **Wp derivation, 5 October 2026:** the
 [Wang PGAM package derivation](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md)
 proposes **A28, A29 and A30** from its executed reproduction ladder, branch cards,
