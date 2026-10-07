@@ -2,6 +2,20 @@
 
 **Update this before stopping work, every session.**
 
+## Formal project description — 7 October 2026
+
+Owner requested wording with the specificity and formal tone of the original
+project title. README and citation metadata now use **Ravel: Public Omics
+Reanalysis of Cellular States, Tissue Homeostasis and Disease**. The introduction
+names the current data types, biological questions, analytical approach and
+interpretation limits while retaining scope driven by the papers under study.
+A matching LinkedIn proposal is revised locally; no profile publication is
+requested. This follow-up changes presentation only: no scientific evidence,
+question identities, interpretation safeguards or numerical analyses are changed.
+Documentation validation passed 10,586 checks; normal protected PR integration
+requires the final CI checks. The local folder lock/UI follow-ups below remain
+outstanding.
+
 ## Ravel migration — 7 October 2026
 
 Owner requested the repository rename to **Ravel** (`ravel`) and a paper-driven
