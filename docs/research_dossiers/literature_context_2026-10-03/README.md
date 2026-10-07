@@ -84,7 +84,7 @@ of its outcome.
 |---|---|
 | **A28** · [Regulatory versus effector competence in Th17 transition](../../../RQ_Specified/A28_th17_arm_asymmetry/README.md) | [Diagram](../../../RQ_Specified/A28_th17_arm_asymmetry/schematics/hypothesis_v1.svg) · [Context](../../../RQ_Specified/A28_th17_arm_asymmetry/LITERATURE_CONTEXT.md) |
 | **A29** · [Mechanisms of increased Th17 effector output under PGAM restriction](../../../RQ_Specified/A29_pgam_effector_mechanism/README.md) | [Diagram](../../../RQ_Specified/A29_pgam_effector_mechanism/schematics/hypothesis_v1.svg) · [Context](../../../RQ_Specified/A29_pgam_effector_mechanism/LITERATURE_CONTEXT.md) |
-| **A30** · [CSF-specific T-cell programmes versus activation](../../../RQ_Specified/A30_csf_compartment_effector_state/README.md) | [Diagram](../../../RQ_Specified/A30_csf_compartment_effector_state/schematics/hypothesis_v1.svg) · [Context](../../../RQ_Specified/A30_csf_compartment_effector_state/LITERATURE_CONTEXT.md) |
+| **A30** · [Inflammatory RNA in paired CSF and blood CD4 T cells](../../../RQ_Specified/A30_csf_compartment_effector_state/README.md) | [Diagram](../../../RQ_Specified/A30_csf_compartment_effector_state/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A30_csf_compartment_effector_state/LITERATURE_CONTEXT.md) |
 
 ## Scope and provenance
 

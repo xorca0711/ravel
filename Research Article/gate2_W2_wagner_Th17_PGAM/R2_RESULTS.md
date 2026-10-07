@@ -1,5 +1,7 @@
 # Wp-R2 result: the PGAM sign survives, its distinctiveness does not
 
+> **Interpretation correction, 7 October 2026:** the current v2 script correlates raw Compass penalties, whose direction is opposite to consistency scores. The claim that the PGAM sign survives is unsupported. See the [artifact audit](../../docs/audits/2026-10-07-pr140/REPORT.md#p1--wp-r2-interprets-penalties-with-the-wrong-direction). Frozen values below are retained; a new governed correction is still required.
+
 **This is a declared version-and-input sensitivity, not a reproduction of
 Figure 1.** Contract
 [config/compass_sensitivity_v1.json](config/compass_sensitivity_v1.json),

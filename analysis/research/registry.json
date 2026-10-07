@@ -407,7 +407,9 @@
         "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md",
         "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/SOURCES_AND_GROUNDING.md",
         "RQ_Specified/A30_csf_compartment_effector_state/README.md",
-        "RQ_Specified/A30_csf_compartment_effector_state/PLAN.md"
+        "RQ_Specified/A30_csf_compartment_effector_state/PLAN.md",
+        "docs/audits/2026-10-07-pr140/REPORT.md",
+        "RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md"
       ]
     }
   ],
@@ -1186,11 +1188,11 @@
       "question": "A30",
       "context": "RQ_Specified/A30_csf_compartment_effector_state/LITERATURE_CONTEXT.md",
       "entrypoint": "RQ_Specified/A30_csf_compartment_effector_state/README.md",
-      "schematic": "RQ_Specified/A30_csf_compartment_effector_state/schematics/hypothesis_v1.svg",
+      "schematic": "RQ_Specified/A30_csf_compartment_effector_state/schematics/hypothesis_v2.svg",
       "kind": "qualitative_hypothesis",
-      "source_revision": "924999dca7bad11b9da6feddadc87dfc6a312db7",
-      "schematic_sha256": "384d10d1378ee6130084ef986edf7985bd24008386a054b0baf6b6a412758fd7",
-      "hypothesis_sha256": "e6b2fe259b9cd77907cc5140cdf091073ce422341b206e971b2048e7411d1fb1"
+      "source_revision": "48ad9377982a0d941624e4d530f60de4a80eb2cc",
+      "schematic_sha256": "2049d19c1c7c38f6ce879cefd1796151cc5fd5f19f595b84bd3428acf9be7d84",
+      "hypothesis_sha256": "2d186e4ae210a563cfc776a35ede166dc27038efb8a065f849f35243aeb05e5c"
     }
   ]
 }

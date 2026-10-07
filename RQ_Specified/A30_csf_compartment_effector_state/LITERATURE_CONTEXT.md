@@ -1,72 +1,85 @@
 # A30: literature context and hypothesis schematic
 
-Reviewed 5 October 2026. This note connects published findings to the current
-proposed question. It is a bounded synthesis, not novelty clearance and not
-scientific acceptance. The searches actually executed, their hit counts and
-their coverage limits are recorded in the
-[package literature update](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md).
+Revised 7 October 2026 during the PR140 audit at the owner's request. This bounded
+update replaces the 5 October framing; the earlier record remains in Git and the
+[source derivation](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+Outcomes were exposed. Scientific acceptance remains unrecorded.
 
 ## Published starting point
 
-CSF compartmentalisation in multiple sclerosis is established, and a CSF-enriched Th17-lineage subset has since been described. Both are premises; the first is also the deposit this question would reanalyse.
-
-| Primary source | Inspected locator and access record |
+| Primary study and inspected locator | Consequence for A30 |
 |---|---|
-| [Schafflick et al. 2020, *Nat Commun* 11:247](https://doi.org/10.1038/s41467-019-14118-w) (PMID 31937773) | Abstract inspected 5 October 2026; the GSE138266 deposit reused by the source and by Wp-R4/Wp-M3. Location-associated CSF leukocyte composition and transcriptome; MS increases CSF cell-type diversity including cytotoxic T helper cells. **Same evidence lineage, not independent support.** |
-| [EBioMedicine 2026, 106324](https://doi.org/10.1016/j.ebiom.2026.106324) (PMID 42250325) | Abstract inspected 5 October 2026; a CCR5-high Th17.1 cluster enriched in CSF versus paired blood, pre-cytotoxic, reduced after natalizumab. Supplies a named candidate population for the composition rival. |
+| [Wang, Wagner, Fessler et al., Cell Reports 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12443480/), human-MS Results, Figure S4 and STAR Methods | The human analysis transports mouse-derived programmes to GSE138266 and compares disease groups. A30 asks a different, paired compartment question; it does not test the murine PGAM mechanism. |
+| [Schafflick et al., Nature Communications 2020](https://doi.org/10.1038/s41467-019-14118-w), abstract and GSE138266 identity; full text inaccessible in this pass | CSF-associated composition and expression were already described. This is the same dataset, not independent replication. No new full-methods verification is claimed. |
+| [van Puijfelik et al., EBioMedicine 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13264205/), indexed full-text Results/Figures 2–3 and functional-assay sections | A CCR5-high Th17.1 population is enriched in paired CSF. Post-natalizumab reduction concerns **blood**, not longitudinal CSF. This supports a concrete trafficking/composition alternative. Its IFN-γ/GM-CSF and cytotoxic features make an IL-17-only follow-up incomplete for this subset. |
+| [Hayashi, Mittl et al., Nature Immunology 2026](https://www.nature.com/articles/s41590-025-02412-3), Figure 1 and paired RNA/TCR methods | Paired repertoire measurements address clonal overlap. The major antigen-specific work concerns CD8 cells and does not validate A30's CD4 programme. Check reused-cohort provenance before claiming independent validation. |
+
+Compartmentalisation is a premise. The remaining question is whether the RNA
+association persists after credible adjustment for activation and cell state.
+Shared TCR does not demonstrate residence, migration direction or local induction.
 
 ## Repository observation
 
-The source's published disease comparison does not reproduce: nothing separates the disease groups in CSF at BH ≤ 0.05, and in blood matched-size random gene sets separate the cohorts as well as the modules do (p 0.29). The surviving contrast is paired within donor: pro-inflammatory +0.061 in 10/10 donors (p 0.003), pro-regulatory +0.007 (p 0.394) and +0.022 (p 0.931), activation +0.109 (p 0.013). No donor covariate fields exist in the deposit.
+Read the [v3 erratum](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md)
+and [artifact audit](../../docs/audits/2026-10-07-pr140/REPORT.md) before the original
+plan. Corrected pro-inflammatory contrasts are +0.0558/+0.0498/+0.0570 with BH
+0.0321/0.0368/0.0321 against the implemented size-only null. Residual activation
+persists. Regulatory non-significance does not show equivalence. The decomposition
+is descriptive and depends on common-state support.
 
-Exact current result locators:
-
-- [A30 workspace](README.md) and [development plan](PLAN.md)
-- [Derivation card](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/Q3_csf_compartment.md)
-- [Overlap screen against A0 to A27](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md)
-- [Grounding and exposure record](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/SOURCES_AND_GROUNDING.md)
-- [Reproduction scope and claim-by-claim outcome](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md)
+The earlier Wp-R4 disease contrast did not reproduce the published pattern under
+this repository's gate and scoring implementation. That is a bounded reproduction
+result, not a refutation of all human findings or of the paper's mouse mechanism.
 
 ## What this question could add
 
-Test whether a transported module's one-sided elevation in CSF is distinguishable from local activation — which the source never tested, because it reported a disease contrast that does not reproduce. The reanalysis leg is executable in this package and its limits are known in advance, so a negative is as informative as a positive.
+A measurement-validation and biological-context extension: determine whether a
+CSF-associated programme has information beyond measured activation and subset
+mixing in a donor-paired comparison. A robust association, attenuation after
+adjustment or an unresolved estimate can each be informative. A new causal
+mechanism or treatment claim is not required to make the comparison useful.
 
 ## Current hypothesis and rival
 
-The cerebrospinal fluid compartment imposes an effector state on CD4-lineage T cells that is not reducible to local activation, with regulatory competence unchanged rather than suppressed. The prediction is that within matched activation strata the paired CSF-minus-blood elevation of the pro-inflammatory module persists while the pro-regulatory arm still does not move; an activation-only explanation predicts the elevation collapses. Compartment association is not evidence that the compartment caused the state.
+In paired CSF and blood, the inflammatory RNA programme remains higher in CSF
+within comparable CD4 T-cell states after accounting for measured activation and
+composition. Regulatory-associated RNA is evaluated separately, without presuming
+unchanged regulatory function.
 
-**Strongest rival:** Local activation, which exceeds its own matched null in the same direction (+0.109, p 0.013) and is therefore a measured competitor rather than a hypothetical one. Tissue residency or recirculation, and composition — now with a named candidate in the CSF-enriched CCR5-high Th17.1 cluster.
+Residual activation and selective trafficking/subset or clonal composition are
+biological alternatives; gating, depth and module/null construction are measurement
+threats. These can coexist. Comparison tuple: human putative CD4 T cells; paired
+CSF/PBMC samples; compartment contrast rather than intervention; timing incompletely
+qualified; donor as unit; RNA programme difference as endpoint. A new cohort must
+establish CD4 identity, paired timing, clinical covariates and assay validity.
 
 ## What the comparison would teach
 
-Repeating the paired within-donor contrast inside activation strata defined from genes disjoint from both modules, with both arms reported against the same matched random-set null and the paired difference decomposed into composition and within-state terms. Persistence within strata with the pro-regulatory arm still flat supports a compartment-specific state; collapse supports activation; a dominant composition term indicates a mixture shift. Shared-clone comparison across compartments would be needed to address residency, and that requires samples this project does not hold.
+| Outcome | Permitted interpretation |
+|---|---|
+| Difference persists with good activation balance, lineage and common-state support | Residual association beyond measured adjustment; unmeasured confounding and trafficking remain. |
+| Difference attenuates after adjustment | Measured activation/composition accounts for part of the contrast under that model; no sole cause is established. |
+| Estimate is unstable or imprecise | Unresolved, not no effect or equal regulatory function. |
+| Paired protein/TCR supports a within-subset pattern | Better phenotypic/clonal resolution; shared clones still do not prove residence or induction. |
+| A justified later intervention changes a functional endpoint | Causal inference limited to that intervention/model and its controls. |
+
+Conditioning on activation may remove a mediator as well as confounding: adjusted
+and total compartment associations are distinct estimands. Neither RNA contrast
+identifies the effect of moving the same cell between compartments.
 
 ## Hypothesis schematic
 
-![A30: proposed comparison and strongest rival](schematics/hypothesis_v1.svg)
+![A30 proposed comparison and conditional extensions](schematics/hypothesis_v2.svg)
 
-[Editable hypothesis schematic](schematics/hypothesis_v1.svg). Original
-explanatory artwork. Dashed arrows denote the labelled proposal or rival;
-shapes, colours and any counts are qualitative, not observations. The readout
-cards explain which uncertainty a measurement could resolve. Missing features
-and endpoints remain marked. This figure depicts a proposed question, not a
-completed analysis.
+[Editable v2 SVG](schematics/hypothesis_v2.svg) supersedes the framing in
+[v1](schematics/hypothesis_v1.svg), which is preserved. Shapes/arrows are qualitative.
+Existing observations and conditional measurements are separated; no measured
+figure is recategorized as an explanatory schematic.
 
 ## Next literature check
 
-Planned, not reported as newly executed: forward citations of the closest
-inspected primary sources above, and the queries recorded as pending in the
-[package literature update](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md).
-Expand to synonyms and contrary findings using the
-[literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact
-population, comparison, timing, unit and endpoint before making any stronger
-contribution claim.
-
-**Current unresolved specification:** Repeat the paired contrast within independently defined activation strata, reporting both arms against the same matched null and decomposing the paired difference into composition and within-state terms, with the stratification fixed before any value is inspected. This leg is executable in the package; the residency question needs paired samples with protein and TCR readouts that this project does not hold.
-
-**Interpretation limit:** Module scores are RNA, not protein, secretion or
-function. Reanalysis of the source deposits shares one evidence lineage with
-the source paper and never becomes independent replication. No search
-certifies novelty and no absence of a hit is evidence of a first.
-
-[Current dossier](../../docs/research_dossiers/A30.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a30)
+The [search/access log](../../docs/audits/2026-10-07-pr140/LITERATURE_SCAN.md) records
+actual queries, versions, locators and failures. The 5 October scan is reused for
+unchanged premises. Full Schafflick methods access, 2026 cohort-overlap qualification,
+and assay/perturbation review for a chosen extension remain pending. No exhaustive
+search, novelty certification or laboratory readiness is claimed.

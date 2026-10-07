@@ -1,0 +1,917 @@
+{
+  "audit_head": "74d6bd6b1c0ee411c929efbf473b5fd39dcce243",
+  "mode": "saved-artifact verification; no scientific fits or source-data reruns",
+  "receipt_count": 24,
+  "receipt_failures": {},
+  "checks": [
+    {
+      "check": "act1/proinflammatory_authors: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act1/proregulatory_authors: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act1/proinflammatory_all: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act1/proregulatory_all: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act1/activation_disjoint: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act1/programme_N3: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act1/proliferation: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act2/proinflammatory_authors: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act2/proregulatory_authors: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act2/proinflammatory_all: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act2/proregulatory_all: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act2/activation_disjoint: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act2/programme_N3: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act2/proliferation: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act3/proinflammatory_authors: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act3/proregulatory_authors: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act3/proinflammatory_all: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act3/proregulatory_all: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act3/activation_disjoint: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act3/programme_N3: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "act3/proliferation: donor median, signs, Wilcoxon",
+      "passed": true
+    },
+    {
+      "check": "A30 primary BH arithmetic",
+      "passed": true
+    },
+    {
+      "check": "QC counts sum to exported cells",
+      "passed": true
+    },
+    {
+      "check": "Stratum support equals saved cells",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/MS19270: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/MS49131: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/MS60249: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/MS71658: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/MS74594: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/PST83775: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/PST95809: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/PTC32190: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/PTC41540: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_authors/PTC85037: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/MS19270: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/MS49131: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/MS60249: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/MS71658: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/MS74594: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/PST83775: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/PST95809: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/PTC32190: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/PTC41540: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_authors/PTC85037: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/MS19270: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/MS49131: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/MS60249: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/MS71658: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/MS74594: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/PST83775: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/PST95809: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/PTC32190: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/PTC41540: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proinflammatory_all/PTC85037: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/MS19270: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/MS49131: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/MS60249: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/MS71658: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/MS74594: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/PST83775: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/PST95809: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/PTC32190: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/PTC41540: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_activation_stratified_v3/proregulatory_all/PTC85037: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/MS19270: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/MS49131: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/MS60249: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/MS71658: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/MS74594: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/PST83775: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/PST95809: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/PTC32190: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/PTC41540: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proinflammatory_authors/PTC85037: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/MS19270: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/MS49131: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/MS60249: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/MS71658: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/MS74594: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/PST83775: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/PST95809: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/PTC32190: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/PTC41540: decomposition",
+      "passed": true
+    },
+    {
+      "check": "wp_a30_state_decomposition_v3/proregulatory_authors/PTC85037: decomposition",
+      "passed": true
+    },
+    {
+      "check": "R1 floor-invariant named-gene effects and raw p",
+      "passed": true
+    }
+  ],
+  "a30_primary": [
+    {
+      "stratum": "act1",
+      "score": "proinflammatory_authors",
+      "n_genes_mapped": 57,
+      "n_donors": 9,
+      "n_donors_positive": 9,
+      "median_difference": 0.0558346807956695,
+      "wilcoxon_p": 0.00390625,
+      "null_mean": 0.0164865816059813,
+      "null_q025": -0.0145504991756752,
+      "null_q975": 0.0444095857441425,
+      "empirical_two_sided_p": 0.0098,
+      "in_primary_family": true,
+      "bh_within_family": 0.0321
+    },
+    {
+      "stratum": "act1",
+      "score": "proregulatory_authors",
+      "n_genes_mapped": 24,
+      "n_donors": 9,
+      "n_donors_positive": 6,
+      "median_difference": 0.0066393362358212,
+      "wilcoxon_p": 0.1640625,
+      "null_mean": 0.0164055687220563,
+      "null_q025": -0.032368083205074,
+      "null_q975": 0.0579979014582931,
+      "empirical_two_sided_p": 0.6473,
+      "in_primary_family": true,
+      "bh_within_family": 0.8174
+    },
+    {
+      "stratum": "act2",
+      "score": "proinflammatory_authors",
+      "n_genes_mapped": 57,
+      "n_donors": 10,
+      "n_donors_positive": 10,
+      "median_difference": 0.0497618876397609,
+      "wilcoxon_p": 0.001953125,
+      "null_mean": 0.0163805201026523,
+      "null_q025": -0.0120274648070335,
+      "null_q975": 0.0432445572689175,
+      "empirical_two_sided_p": 0.0184,
+      "in_primary_family": true,
+      "bh_within_family": 0.0368
+    },
+    {
+      "stratum": "act2",
+      "score": "proregulatory_authors",
+      "n_genes_mapped": 24,
+      "n_donors": 10,
+      "n_donors_positive": 7,
+      "median_difference": 0.0115021131932735,
+      "wilcoxon_p": 0.13085938,
+      "null_mean": 0.0163225764222617,
+      "null_q025": -0.0293001666199415,
+      "null_q975": 0.0583079165779053,
+      "empirical_two_sided_p": 0.8174,
+      "in_primary_family": true,
+      "bh_within_family": 0.8174
+    },
+    {
+      "stratum": "act3",
+      "score": "proinflammatory_authors",
+      "n_genes_mapped": 57,
+      "n_donors": 9,
+      "n_donors_positive": 9,
+      "median_difference": 0.0570009648799896,
+      "wilcoxon_p": 0.00390625,
+      "null_mean": 0.0151680660487269,
+      "null_q025": -0.0167663109023123,
+      "null_q975": 0.0453573732636868,
+      "empirical_two_sided_p": 0.0107,
+      "in_primary_family": true,
+      "bh_within_family": 0.0321
+    },
+    {
+      "stratum": "act3",
+      "score": "proregulatory_authors",
+      "n_genes_mapped": 24,
+      "n_donors": 9,
+      "n_donors_positive": 6,
+      "median_difference": 0.0048713982105255,
+      "wilcoxon_p": 1.0,
+      "null_mean": 0.0142340613291948,
+      "null_q025": -0.0365540277212858,
+      "null_q975": 0.0618353456258773,
+      "empirical_two_sided_p": 0.695,
+      "in_primary_family": true,
+      "bh_within_family": 0.8174
+    }
+  ],
+  "a30_activation_control": [
+    {
+      "stratum": "act1",
+      "score": "activation_disjoint",
+      "n_genes_mapped": 21,
+      "n_donors": 9,
+      "n_donors_positive": 8,
+      "median_difference": 0.0084479004144668,
+      "wilcoxon_p": 0.0390625,
+      "null_mean": 0.0169968850638979,
+      "null_q025": -0.0341592069715261,
+      "null_q975": 0.0601619767025112,
+      "empirical_two_sided_p": 0.7017,
+      "in_primary_family": false,
+      "bh_within_family": NaN
+    },
+    {
+      "stratum": "act2",
+      "score": "activation_disjoint",
+      "n_genes_mapped": 21,
+      "n_donors": 10,
+      "n_donors_positive": 8,
+      "median_difference": 0.0089725572615861,
+      "wilcoxon_p": 0.037109375,
+      "null_mean": 0.0168666568935994,
+      "null_q025": -0.032008979935199,
+      "null_q975": 0.0598718443885445,
+      "empirical_two_sided_p": 0.7124,
+      "in_primary_family": false,
+      "bh_within_family": NaN
+    },
+    {
+      "stratum": "act3",
+      "score": "activation_disjoint",
+      "n_genes_mapped": 21,
+      "n_donors": 9,
+      "n_donors_positive": 7,
+      "median_difference": 0.027910441160202,
+      "wilcoxon_p": 0.1640625,
+      "null_mean": 0.014653697728319,
+      "null_q025": -0.0387247780337929,
+      "null_q975": 0.0645582808181643,
+      "empirical_two_sided_p": 0.5929,
+      "in_primary_family": false,
+      "bh_within_family": NaN
+    }
+  ],
+  "cellsets": {
+    "wp_a30_activation_stratified_v3": {
+      "rows": 35928,
+      "has_barcode_column": false,
+      "counts_by_donor_tissue": [
+        {
+          "donor": "MS19270",
+          "tissue": "CSF",
+          "n_cells": 2588
+        },
+        {
+          "donor": "MS19270",
+          "tissue": "PBMCs",
+          "n_cells": 2439
+        },
+        {
+          "donor": "MS49131",
+          "tissue": "CSF",
+          "n_cells": 823
+        },
+        {
+          "donor": "MS49131",
+          "tissue": "PBMCs",
+          "n_cells": 2054
+        },
+        {
+          "donor": "MS58637",
+          "tissue": "CSF",
+          "n_cells": 1767
+        },
+        {
+          "donor": "MS60249",
+          "tissue": "CSF",
+          "n_cells": 4258
+        },
+        {
+          "donor": "MS60249",
+          "tissue": "PBMCs",
+          "n_cells": 1356
+        },
+        {
+          "donor": "MS71658",
+          "tissue": "CSF",
+          "n_cells": 2041
+        },
+        {
+          "donor": "MS71658",
+          "tissue": "PBMCs",
+          "n_cells": 869
+        },
+        {
+          "donor": "MS74594",
+          "tissue": "CSF",
+          "n_cells": 514
+        },
+        {
+          "donor": "MS74594",
+          "tissue": "PBMCs",
+          "n_cells": 2957
+        },
+        {
+          "donor": "PST83775",
+          "tissue": "CSF",
+          "n_cells": 623
+        },
+        {
+          "donor": "PST83775",
+          "tissue": "PBMCs",
+          "n_cells": 1485
+        },
+        {
+          "donor": "PST95809",
+          "tissue": "CSF",
+          "n_cells": 338
+        },
+        {
+          "donor": "PST95809",
+          "tissue": "PBMCs",
+          "n_cells": 724
+        },
+        {
+          "donor": "PTC32190",
+          "tissue": "CSF",
+          "n_cells": 1664
+        },
+        {
+          "donor": "PTC32190",
+          "tissue": "PBMCs",
+          "n_cells": 1438
+        },
+        {
+          "donor": "PTC41540",
+          "tissue": "CSF",
+          "n_cells": 575
+        },
+        {
+          "donor": "PTC41540",
+          "tissue": "PBMCs",
+          "n_cells": 1464
+        },
+        {
+          "donor": "PTC45044",
+          "tissue": "CSF",
+          "n_cells": 4369
+        },
+        {
+          "donor": "PTC85037",
+          "tissue": "CSF",
+          "n_cells": 832
+        },
+        {
+          "donor": "PTC85037",
+          "tissue": "PBMCs",
+          "n_cells": 750
+        }
+      ]
+    },
+    "wp_a30_state_decomposition_v3": {
+      "rows": 35928,
+      "has_barcode_column": false,
+      "counts_by_donor_tissue": [
+        {
+          "donor": "MS19270",
+          "tissue": "CSF",
+          "n_cells": 2588
+        },
+        {
+          "donor": "MS19270",
+          "tissue": "PBMCs",
+          "n_cells": 2439
+        },
+        {
+          "donor": "MS49131",
+          "tissue": "CSF",
+          "n_cells": 823
+        },
+        {
+          "donor": "MS49131",
+          "tissue": "PBMCs",
+          "n_cells": 2054
+        },
+        {
+          "donor": "MS58637",
+          "tissue": "CSF",
+          "n_cells": 1767
+        },
+        {
+          "donor": "MS60249",
+          "tissue": "CSF",
+          "n_cells": 4258
+        },
+        {
+          "donor": "MS60249",
+          "tissue": "PBMCs",
+          "n_cells": 1356
+        },
+        {
+          "donor": "MS71658",
+          "tissue": "CSF",
+          "n_cells": 2041
+        },
+        {
+          "donor": "MS71658",
+          "tissue": "PBMCs",
+          "n_cells": 869
+        },
+        {
+          "donor": "MS74594",
+          "tissue": "CSF",
+          "n_cells": 514
+        },
+        {
+          "donor": "MS74594",
+          "tissue": "PBMCs",
+          "n_cells": 2957
+        },
+        {
+          "donor": "PST83775",
+          "tissue": "CSF",
+          "n_cells": 623
+        },
+        {
+          "donor": "PST83775",
+          "tissue": "PBMCs",
+          "n_cells": 1485
+        },
+        {
+          "donor": "PST95809",
+          "tissue": "CSF",
+          "n_cells": 338
+        },
+        {
+          "donor": "PST95809",
+          "tissue": "PBMCs",
+          "n_cells": 724
+        },
+        {
+          "donor": "PTC32190",
+          "tissue": "CSF",
+          "n_cells": 1664
+        },
+        {
+          "donor": "PTC32190",
+          "tissue": "PBMCs",
+          "n_cells": 1438
+        },
+        {
+          "donor": "PTC41540",
+          "tissue": "CSF",
+          "n_cells": 575
+        },
+        {
+          "donor": "PTC41540",
+          "tissue": "PBMCs",
+          "n_cells": 1464
+        },
+        {
+          "donor": "PTC45044",
+          "tissue": "CSF",
+          "n_cells": 4369
+        },
+        {
+          "donor": "PTC85037",
+          "tissue": "CSF",
+          "n_cells": 832
+        },
+        {
+          "donor": "PTC85037",
+          "tissue": "PBMCs",
+          "n_cells": 750
+        }
+      ]
+    }
+  },
+  "decomposition": {
+    "wp_a30_activation_stratified_v3": {
+      "donors": 10,
+      "median_total": 0.06182457802787545,
+      "median_composition": 0.00693980978718275,
+      "median_within": 0.0496039205948426,
+      "ratio_of_medians": 0.1122500146147982,
+      "median_donor_share": 0.13804930331416432,
+      "one_compartment_support": [
+        {
+          "donor": "MS19270",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "MS49131",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "MS60249",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "MS71658",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "MS74594",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "PST83775",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "PST95809",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "PTC32190",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "PTC41540",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        },
+        {
+          "donor": "PTC85037",
+          "one_compartment_states": 0,
+          "csf_fraction_in_unmatched_states": 0.0,
+          "blood_fraction_in_unmatched_states": 0.0
+        }
+      ]
+    },
+    "wp_a30_state_decomposition_v3": {
+      "donors": 10,
+      "median_total": 0.0618245795349862,
+      "median_composition": 0.0239925648769225,
+      "median_within": 0.03743136174672395,
+      "ratio_of_medians": 0.38807485723934826,
+      "median_donor_share": 0.33260745729558455,
+      "one_compartment_support": [
+        {
+          "donor": "MS19270",
+          "one_compartment_states": 6,
+          "csf_fraction_in_unmatched_states": 0.0007727975270479134,
+          "blood_fraction_in_unmatched_states": 0.0963509635096351
+        },
+        {
+          "donor": "MS49131",
+          "one_compartment_states": 7,
+          "csf_fraction_in_unmatched_states": 0.02187120291616039,
+          "blood_fraction_in_unmatched_states": 0.05160662122687439
+        },
+        {
+          "donor": "MS60249",
+          "one_compartment_states": 13,
+          "csf_fraction_in_unmatched_states": 0.0063410051667449506,
+          "blood_fraction_in_unmatched_states": 0.09292035398230088
+        },
+        {
+          "donor": "MS71658",
+          "one_compartment_states": 7,
+          "csf_fraction_in_unmatched_states": 0.04409603135717785,
+          "blood_fraction_in_unmatched_states": 0.13003452243958574
+        },
+        {
+          "donor": "MS74594",
+          "one_compartment_states": 9,
+          "csf_fraction_in_unmatched_states": 0.005836575875486381,
+          "blood_fraction_in_unmatched_states": 0.04599256002705445
+        },
+        {
+          "donor": "PST83775",
+          "one_compartment_states": 5,
+          "csf_fraction_in_unmatched_states": 0.019261637239165328,
+          "blood_fraction_in_unmatched_states": 0.014141414141414142
+        },
+        {
+          "donor": "PST95809",
+          "one_compartment_states": 11,
+          "csf_fraction_in_unmatched_states": 0.0591715976331361,
+          "blood_fraction_in_unmatched_states": 0.013812154696132596
+        },
+        {
+          "donor": "PTC32190",
+          "one_compartment_states": 5,
+          "csf_fraction_in_unmatched_states": 0.043870192307692304,
+          "blood_fraction_in_unmatched_states": 0.04798331015299027
+        },
+        {
+          "donor": "PTC41540",
+          "one_compartment_states": 9,
+          "csf_fraction_in_unmatched_states": 0.8226086956521739,
+          "blood_fraction_in_unmatched_states": 0.06693989071038252
+        },
+        {
+          "donor": "PTC85037",
+          "one_compartment_states": 9,
+          "csf_fraction_in_unmatched_states": 0.019230769230769232,
+          "blood_fraction_in_unmatched_states": 0.04133333333333333
+        }
+      ]
+    }
+  },
+  "r1_floor_universes": [
+    {
+      "floor_cpm": 0.0,
+      "n_universe": 18500,
+      "n_p_lt_0.001": 163,
+      "n_bh_0.05": 18
+    },
+    {
+      "floor_cpm": 0.5,
+      "n_universe": 11492,
+      "n_p_lt_0.001": 73,
+      "n_bh_0.05": 0
+    },
+    {
+      "floor_cpm": 1.0,
+      "n_universe": 10732,
+      "n_p_lt_0.001": 69,
+      "n_bh_0.05": 0
+    },
+    {
+      "floor_cpm": 2.0,
+      "n_universe": 9960,
+      "n_p_lt_0.001": 64,
+      "n_bh_0.05": 0
+    },
+    {
+      "floor_cpm": 5.0,
+      "n_universe": 8678,
+      "n_p_lt_0.001": 58,
+      "n_bh_0.05": 0
+    },
+    {
+      "floor_cpm": 10.0,
+      "n_universe": 7226,
+      "n_p_lt_0.001": 52,
+      "n_bh_0.05": 0
+    },
+    {
+      "floor_cpm": 20.0,
+      "n_universe": 5374,
+      "n_p_lt_0.001": 40,
+      "n_bh_0.05": 0
+    }
+  ],
+  "r1_unfiltered_hits": 18,
+  "r1_hits_never_reaching_1cpm": 16,
+  "compass_pgm_penalty_rho": -0.2912475687691026,
+  "compass_pgm_monotonic_consistency_rho": 0.2912475687691026,
+  "compass_note": "Sign inversion follows a strictly decreasing -log1p transformation of nonnegative penalties. Raw reactions.tsv is not tracked; no solver re-execution claimed.",
+  "limits": [
+    "Empirical null tails cannot be independently re-counted: null_draw_sample.csv saves summaries, not 10000 draw statistics.",
+    "No raw-input or barcode-level QC replay; cell exports lack original barcode IDs.",
+    "No equivalence, biological acceptance, causal inference or independent replication established."
+  ]
+}

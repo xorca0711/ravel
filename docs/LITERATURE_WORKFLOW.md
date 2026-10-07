@@ -51,7 +51,7 @@ source/model, a contradiction, or an extension worth testing. Record shared
 datasets/animals and avoid treating paper count as independent support.
 
 Then trace **published finding → repository observation → unresolved contrast →
-proposed hypothesis/rival → informative outcomes**. State what either result would
+proposed comparison (hypothesis and alternatives where applicable) → informative outcomes**. State what the possible results would
 teach beyond the nearest published experiment. A changed gene label, dataset or
 age bin is not by itself a scientific increment; explain why the changed biology
 or comparison matters. Distinct tissues and cell populations can justify distinct
@@ -78,9 +78,16 @@ and do not manufacture human acceptance. Link the context from the next numerica
 contract's `evidence_refs`; all existing eligibility/exposure rules still apply.
 
 Use an explanatory schematic when it clarifies the contrast. Include the full
-hypothesis, strongest rival, readout-to-decision mapping, evidence limits and
+question or hypothesis, relevant alternative/validity threat, readout-to-decision mapping, evidence limits and
 missing specifications. Mark proposed arrows and qualitative counts. A pretty
 diagram must not convert a score into fate, secretion or function.
+
+Keep the existing template headings for navigation and validation. Under
+`Current hypothesis and rival`, descriptive or predictive work may state its
+estimand or prediction target and main validity threat. A genotype comparison
+does not require a rescue or second perturbation merely to populate this section.
+Preserve the biological purpose without forcing every question into mutually
+exclusive mechanisms or assuming that mixed explanations cannot coexist.
 
 ## Refresh proportionately and state the limits
 
@@ -103,5 +110,5 @@ checks do not verify that a search was performed or that a source supports a
 claim. Source interpretation and governance changes require explicit review;
 protected integration remains an external setting, not a property of prose.
 
-[Current A0–A27 context index](research_dossiers/literature_context_2026-10-03/README.md)
+[Current question context index](research_dossiers/literature_context_2026-10-03/README.md)
 contains the applied example and its honest search/access limits.

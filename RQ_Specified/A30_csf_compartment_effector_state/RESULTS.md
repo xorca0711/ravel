@@ -1,5 +1,7 @@
 # A30 reanalysis leg: the elevation is not activation, and it is not only composition
 
+> **Current interpretation, 7 October 2026:** read the [PR140 audit](../../docs/audits/2026-10-07-pr140/REPORT.md) and [revised extension baseline](EXTENSION_BASELINE_V2.md). The historical text below is retained; activation exclusion, regulatory equivalence and TCR-based residency claims are not supported.
+
 > **Superseded in part — read
 > [A30_ERRATUM.md](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md)
 > first.** The v2 runs below divided each cell by the row sum of the loaded gene

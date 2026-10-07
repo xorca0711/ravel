@@ -1,5 +1,7 @@
 # Can A28, A29 and Wp-P02 be run as one preparation?
 
+> **Design clarification, 7 October 2026:** shared preparation is optional. The five listed A29/P02 arms do not constitute a complete PGAM × PHGDH × PEP factorial, and a PEP rescue interpretation needs an explicit control strategy. Each question keeps its own estimand and unit; A30's human compartment comparison is not part of this mouse preparation. See the [audit](../../../docs/audits/2026-10-07-pr140/REPORT.md).
+
 A screen of what the three cards actually require, written because an earlier
 summary asserted they share a perturbation. **They do not.** This records the
 corrected overlap and what it is worth, so the owner can decide whether to
@@ -21,7 +23,8 @@ merge them. It proposes no contract and changes no registered question.
 A29 and Wp-P02 **do** share a perturbation axis: both restrict PGAM in Th17n
 culture and both need a metabolite measurement from parallel wells of the same
 preparation. P02's 2×2 is PGAM × PHGDH; A29 is PGAM ± PEP add-back. These are
-two halves of one factorial and should not be run as separate experiments.
+compatible perturbation blocks that may share a preparation; they need not be
+run together and do not, as listed, form a complete three-factor design.
 
 A28's primary comparison is **glucose 1 mM versus 25 mM**, with polarisation as
 its second. It shares the culture system, the animal, the harvest time point,

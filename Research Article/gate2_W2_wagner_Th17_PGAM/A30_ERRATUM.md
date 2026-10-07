@@ -1,5 +1,7 @@
 # A30 erratum: the CP10K denominator, and a null too coarse to decide 0.05
 
+> **Interpretation review, 7 October 2026:** the saved v3 values verify, but the Monte Carlo/BH argument, regulatory-equivalence wording and composition percentage require the qualifications in the [PR140 audit](../../docs/audits/2026-10-07-pr140/REPORT.md). Counts match; barcode identity was not verified. This historical erratum is retained and does not override the [current A30 baseline](../../RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md).
+
 This supersedes the **reported values** of `wp_a30_activation_stratified_v2` and
 `wp_a30_state_decomposition_v2`. It does not withdraw them, change A30's
 registered design, or propose a grade. Both predecessor runs and their receipts

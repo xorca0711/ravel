@@ -1,53 +1,72 @@
-# A30: Compartment-specific effector state versus local activation in CSF T cells
+# A30: Inflammatory RNA programmes in paired CSF and blood CD4 T cells
 
-Registered 5 October 2026 as **proposed**, derived from the executed Wp
-reproduction ladder, branch cards, metadata phenotypes and extension analyses
-of Wang et al. 2025. The derivation supplied a bounded scientific review; human
-retain/reject and scientific acceptance remain unrecorded. Registration is not
-a claim of novelty, functional validation or permission to execute an
-unfinished numerical design.
+**Question:** Does the CSF-associated inflammatory RNA difference persist within
+comparable CD4 T-cell states after accounting for measured activation and composition?
 
-**Question:** In human CNS autoimmunity, is the elevated pro-inflammatory programme in CSF T cells a compartment-specific state, or a correlate of local activation that any activation-adjacent gene set would show?
+**Working hypothesis:** In paired CSF and blood, the inflammatory RNA programme
+remains higher in CSF within comparable CD4 T-cell states after accounting for
+measured activation and composition. Regulatory-associated RNA is evaluated
+separately, without presuming unchanged regulatory function.
 
-**Hypothesis:** The cerebrospinal fluid compartment imposes an effector state on CD4-lineage T cells that is not reducible to local activation, with regulatory competence unchanged rather than suppressed. The prediction is that within matched activation strata the paired CSF-minus-blood elevation of the pro-inflammatory module persists while the pro-regulatory arm still does not move; an activation-only explanation predicts the elevation collapses. Compartment association is not evidence that the compartment caused the state.
+Residual activation, selective trafficking and subset or clonal composition can
+coexist. Technical and lineage-gating effects also need assessment. This is an
+observational association question; it does not establish that CSF induces a
+state or that the cells are tissue-resident.
 
-**Strongest rival:** Local activation, which exceeds its own matched null in the same direction (+0.109, p 0.013) and is therefore a measured competitor rather than a hypothetical one. Tissue residency or recirculation, and composition — now with a named candidate in the CSF-enriched CCR5-high Th17.1 cluster.
+## Current evidence and audit
 
-**Current evidence:** The source's published disease comparison does not reproduce: nothing separates the disease groups in CSF at BH ≤ 0.05, and in blood matched-size random gene sets separate the cohorts as well as the modules do (p 0.29). The surviving contrast is paired within donor: pro-inflammatory +0.061 in 10/10 donors (p 0.003), pro-regulatory +0.007 (p 0.394) and +0.022 (p 0.931), activation +0.109 (p 0.013). No donor covariate fields exist in the deposit.
+The [v3 denominator erratum](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md)
+corrects the earlier subset-based CP10K denominator. Saved v3 pro-inflammatory
+contrasts are **+0.0558, +0.0498 and +0.0570**, with 9, 10 and 9 eligible donors
+and empirical BH values **0.0321, 0.0368 and 0.0321** across six primary tests.
+These are exploratory results against the implemented size-only gene-set null.
 
-**Next decision:** Repeat the paired contrast within independently defined activation strata, reporting both arms against the same matched null and decomposing the paired difference into composition and within-state terms, with the stratification fixed before any value is inspected. This leg is executable in the package; the residency question needs paired samples with protein and TCR readouts that this project does not hold.
+The [PR140 artifact audit](../../docs/audits/2026-10-07-pr140/REPORT.md) verifies
+saved arithmetic but changes the interpretation:
 
-[Dossier](../../docs/research_dossiers/A30.md) · [Development plan](PLAN.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a30) · [Derivation and overlap screen](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+- Activation remains different within the broad tertiles; it is **not excluded**.
+- Regulatory-module BH 0.8174 is not equivalence or preserved regulatory function.
+- The 38.8% composition summary is a **ratio of donor medians**; the median donor
+  fraction is 33.3%. Neither estimates a causal fraction. Missing state support
+  makes the split dependent on an imputation convention.
+- The putative CD4 gate, restricted null universe and missing barcode-level QC
+  export need qualification before a stronger conclusion.
 
-This workspace owns future question-specific planning. The executed reproduction
-runs, frozen tables, receipts and branch cards remain in the article package and
-keep their article-run ownership. No analysis has been executed under this RQ;
-shared inputs remain shared biological evidence and never become independent
-replication.
+Article-owned runs contain 35,928 cells from 22 retained libraries; the paired
+contrast uses ten donors, with fewer donors in two strata. Cells are not
+independent replicates. GSE138266 is shared with Wang and Schafflick et al.; this
+is not independent replication. The separate Wp-R2 Compass direction error does
+not change A30 arithmetic but cannot support a metabolic interpretation of it.
 
-## Executed result, 5 October 2026
+## Next investigation
 
-The reanalysis leg has run. [RESULTS.md](RESULTS.md) reports it in full:
-activation is excluded as the explanation (the elevation is +0.055 to +0.056 at
-every activation level, and the activation score itself is flat within strata),
-but the primary does not clear its matched null after BH correction
-(0.063 to 0.068), and about 39 % of the paired difference is a cell-mixture
-shift once states are clustered independently. The working hypothesis is
-neither refuted nor established.
+Use the [revised extension baseline](EXTENSION_BASELINE_V2.md): qualify lineage,
+activation balance, null construction and common-state support before another
+governed sensitivity analysis. Protein/TCR measurements are conditional
+extensions, not prerequisites for reporting the bounded RNA association.
+Feasibility, functional endpoints and precision remain unspecified.
 
-![A30 stratified contrast and decomposition](../../analysis/research/runs/wp_a30_figure_v2/figure_a30_activation_and_composition.png)
+[Dossier](../../docs/research_dossiers/A30.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a30)
+· [Source derivation](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md)
 
-*Panel A: per-donor paired CSF-minus-blood difference in each activation
-stratum, both module arms, against the matched random-set interval. Panel B:
-the Kitagawa split of the same total on two bases. Generated from frozen run
-tables; see RESULTS.md for what this does and does not settle.*
+Registered as **proposed**. No human retain/reject decision, claim promotion,
+novelty certification or new numerical execution is recorded by this revision.
 
 <!-- literature-visual-context:start -->
 ## Literature context and visual hypothesis
 
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+[Primary studies, rationale and interpretation limits](LITERATURE_CONTEXT.md).
 
-![A30: proposed hypothesis and rival explanation](schematics/hypothesis_v1.svg)
+![A30 hypothesis illustration: paired comparison and conditional extensions](schematics/hypothesis_v2.svg)
 
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+*Qualitative proposal, not measured results. Sample symbols do not encode observed
+counts. Extensions require their own qualified designs.*
 <!-- literature-visual-context:end -->
+
+## Historical records
+
+[Original plan](PLAN.md), [v2 result record](RESULTS.md),
+[v2 measured figure](../../analysis/research/runs/wp_a30_figure_v2/figure_a30_activation_and_composition.png)
+and [v1 hypothesis illustration](schematics/hypothesis_v1.svg) are preserved.
+The measured figure uses superseded normalization and is not the current v3 plot.
+The v2 schematic supersedes the earlier causal and regulatory-function framing.

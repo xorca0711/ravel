@@ -2,6 +2,45 @@
 
 **Update this before stopping work, every session.**
 
+## PR140 audit, A30 baseline and agent design guidance — 7 October 2026
+
+Completed the [Wp/PR140 artifact audit](docs/audits/2026-10-07-pr140/REPORT.md):
+24 Wp receipts and 85 saved-table checks pass. A confirmed Compass raw-penalty
+orientation defect reverses the current biological sign interpretation. A30 v3
+arithmetic verifies, but activation independence, regulatory equivalence and
+TCR-based residency do not follow. Null calibration, barcode/QC provenance and
+common-state support remain qualified limitations; one donor has 82.3% of CSF
+cells in states absent from paired blood. No frozen numerical artifact was changed.
+
+Updated the [A30 illustrated workspace](RQ_Specified/A30_csf_compartment_effector_state/README.md),
+dossier, canonical card and primary-source context; added a versioned schematic
+and [extension baseline](RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md).
+The [agent-policy audit/workflow](docs/AGENT_DECISION_WORKFLOW.md) clarifies that
+alternatives are not compulsory experimental groups and that a justified
+mutant/control effect question need not resolve every mechanism. Revised AGENTS,
+governance, literature guidance and the universal-mechanism rule accordingly.
+No schema, validator, frozen contract or human acceptance was changed.
+
+Base: PR140 `74d6bd6` plus fetched main `32174c9`, integrated as `48ad937` in
+`codex/pr140-artifact-audit-20261007`. Both SVGs rendered and visually checked.
+Validation passed: 10,703 repository checks, 145 unit tests (one skip), the
+research gate against main, all required archive verifiers, claim bindings and
+Python compilation. Tests first failed because the sandbox temporary directory
+was inaccessible; the same suite passed with TEMP/TMP in this worktree.
+Remote main and PR140 remain at the audited revisions. Publication is being
+prepared as a draft that includes the still-open PR140 dependency; no merge or
+scientific acceptance is performed.
+The bundled scientific runtime lacks SciPy; the existing project Python supplied
+it. A stale x64 virtualenv was not repaired or used. No raw biological rerun ran.
+
+Next: review the policy/framing diff; recover Compass raw penalties and issue a
+new governed signed-score correction; qualify A30 QC/null/common-state sensitivity
+before further numerical analysis. Public-source access limits are logged; full
+Schafflick methods and candidate-cohort independence remain unresolved. GitHub
+protection settings, clinical feasibility and scientific acceptance were not
+changed or certified. Physical checkout rename remains an unrelated prior task.
+
+
 ## Illustrated question guide readability — 7 October 2026
 
 Reworked the illustrated guide into six topic groups with descriptive question
