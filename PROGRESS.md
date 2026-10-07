@@ -2,6 +2,16 @@
 
 **Update this before stopping work, every session.**
 
+## PR145 ready for review — 7 October 2026
+
+At the owner's explicit request, PR #145 is now ready for review rather than
+draft. Its head `a172559` was conflict-free against main and all four push/PR
+CI jobs passed when the draft flag was removed. The merge route remains
+`codex/pr140-artifact-audit-20261007` → `main`; PR #140 is closed as superseded.
+This changes review status only: the documented Compass correction and A30
+qualification work remain outstanding, and no merge or scientific acceptance
+is recorded. The PR description is updated to remove the stale draft wording.
+
 ## PR140 and PR145 consolidation — 7 October 2026
 
 At the owner's request, retain [PR #145](https://github.com/xorca0711/ravel/pull/145)
