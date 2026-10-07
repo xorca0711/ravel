@@ -9,7 +9,10 @@ PR #140 is closed as superseded. This subsequent audit is on
 `codex/repo-readiness-audit-20261007`, in
 `X:\GitHub\scRNA_seq\.worktrees\ravel-rename-20261007`.
 The primary checkout has been safely fast-forwarded to that main revision;
-the audit itself still requires its own PR review and merge.
+the audit is in [PR #146](https://github.com/xorca0711/ravel/pull/146),
+ready for review and conflict-free when opened. Merge route:
+`codex/repo-readiness-audit-20261007` → `main`. No merge was performed.
+Use the PR’s current checks for remote CI status.
 
 - [Full audit and limitations](docs/audits/2026-10-07-repository-readiness/REPORT.md)
 - [Return checklist for approximately 21 October](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md)

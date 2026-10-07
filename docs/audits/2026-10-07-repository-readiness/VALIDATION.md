@@ -3,7 +3,9 @@
 Integration base: freshly fetched `origin/main` at
 `cc5ce7e09bc03df49a982569236d572407ecb195`; PR #145 confirmed merged at
 06:12:10 UTC. Tests ran on the scoped audit branch with the current staged
-implementation. GitHub CI will independently check the submitted commit.
+implementation. GitHub CI independently checks [PR #146](https://github.com/xorca0711/ravel/pull/146);
+its live check rollup is authoritative for the submitted head. The PR was opened
+ready for review and conflict-free, with no merge performed.
 
 | Check | Result |
 |---|---|
