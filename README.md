@@ -45,6 +45,9 @@ This is a current correction summary, not a replacement for the full
 [return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md)
 locate the state to resume from.
 
+The subsequent [portfolio scan and extensions](docs/portfolio_extensions/2026-10-07/README.md)
+connect all current papers and RQs to eligible new analyses and explicit remaining measurements.
+
 ## How it works
 
 The research moves through six stages. Findings can revise an earlier question,

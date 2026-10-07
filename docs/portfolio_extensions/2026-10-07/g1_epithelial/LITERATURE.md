@@ -73,6 +73,26 @@ previous outcome exposure and the absence of matched non-neoplastic injury
 prevent diagnostic, causal, prospective-fate or cancer-specific interpretation.
 Contribution: **measurement qualification of existing A11**, not a new RQ.
 
+### Prospective amendment after the first predictive result
+
+The executed first comparison improved paired log loss, while both baseline
+and augmented models already ordered every pair correctly. Before interpreting
+this as additional information, a concrete modelling alternative needs testing:
+duplicating a baseline feature leaves the linear predictor space unchanged but
+lets ridge regression distribute one coefficient over two penalized columns.
+For a fixed combined coefficient, equal splitting halves that coordinate's
+penalty. A gain can therefore arise from regularization geometry alone.
+
+A separately exposed amendment duplicates each of the four fixed baseline
+features one at a time under all three already declared penalties and folds.
+It uses the saved per-library scores, introduces no gene, changes no population,
+and reports all controls without tuning. Comparable gains from an unchanged
+predictor space would limit the biological-information reading; better residual
+performance than those controls would still only support the bounded internal
+measurement comparison. This mathematical control is not a new RQ, new
+biological hypothesis or literature-novelty claim. Its script and synthetic
+penalty-equivalence test are frozen separately before those controls are run.
+
 ## A17: published finding to fit-for-purpose comparison
 
 | Primary source / version | Exact inspected locator and finding | Consequence |

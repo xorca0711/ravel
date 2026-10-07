@@ -1,5 +1,7 @@
 # A30 extension baseline v2 — 7 October 2026
 
+**Execution update — 7 October 2026:** [common-state and continuous-activation sensitivity](../../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) is now complete under a separate exposed contract. Restricted support, donor losses and floor-five uncertainty remain explicit. Other raw-QC/null/functional stages are unexecuted; this earlier baseline is not overwritten as if all stages completed.
+
 This replaces the future-development framing of [PLAN.md](PLAN.md), not its
 historical design or outputs. The [v3 runs](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md)
 have executed. All motivating outcomes are exposed. This is an agent-proposed

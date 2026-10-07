@@ -1,5 +1,7 @@
 # Research questions
 
+**Portfolio extension, 7 October 2026:** [grouped audit and new runs](docs/portfolio_extensions/2026-10-07/README.md) review all earlier questions. Proposed [A31](#a31) develops a distinct GRIA1 acute-response endpoint from Nb4-P09; the original 31 questions and article candidates remain preserved.
+
 Ravel develops questions from published studies and their reanalysis across
 relevant biological contexts. Each card retains its own tissue, organism,
 endpoint, rival and interpretation limits. The broader project identity does not
@@ -1573,7 +1575,7 @@ need a separately justified endpoint and design.
 
 **Scope and readiness.** The RNA reanalysis has executed on shared GSE138266;
 it is not independent replication or a test of the paper's mouse PGAM mechanism.
-Further QC/null/common-state qualification needs a new exposed-data amendment.
+The [new common-state/activation sensitivity](docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) is executed and limits support to restricted populations. Further raw QC/null qualification needs its own exposed-data amendment.
 Protein/TCR and intervention stages are conditional; no assay feasibility, effect
 margin or sample size is invented. A26/A27 remain distinct questions in their
 own population, tissue, endpoint and unit.
@@ -1581,6 +1583,40 @@ own population, tissue, endpoint and unit.
 [Dossier](docs/research_dossiers/A30.md) · [Illustrated workspace](RQ_Specified/A30_csf_compartment_effector_state/README.md)
 · [Revised extension baseline](RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md)
 · [Original derivation](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+
+<a id="a31"></a>
+
+### A31. Does GRIA1 contribute to an acute glutamate response in adult alveolar fibroblasts?
+
+Registered 7 October 2026 as **proposed**, from the executed Nb4-P09
+expression-specificity extension and the owner's portfolio-development request.
+This is an exposed context/functional-endpoint proposal; human scientific
+acceptance and laboratory readiness remain unrecorded.
+
+**Hypothesis and biology.** Independently identified adult human alveolar fibroblasts exhibit an acute glutamate-evoked response with a GRIA1-dependent component: qualified GRIA1 perturbation reduces the challenge-minus-vehicle response relative to matched control preparations under the same exposure.
+
+**Current evidence.** Fixed GRIA1 and SCN7A RNA contrasts are concordant across
+qualified source and external fibroblast comparisons. Repeated assays reuse
+donors; joint detection is assay/depth-sensitive. Published GRIA1-rich fibroblast
+populations are prior knowledge. No receptor or acute response was measured.
+
+**Comparison and baseline.** Independently identify adult human fibroblasts;
+compare challenge-minus-vehicle response in matched GRIA1 perturbation and
+control preparations. Donor is the biological unit; repeated cultures/wells/cells
+are nested. Select a calibrated primary response, timing, engagement criteria,
+meaningful effect and precision before a numerical experiment. Viability and
+identity are qualification/outcome measurements, not automatic post-treatment
+adjustment or survivor-selection gates.
+
+**Alternatives and limits.** RNA may not imply functional receptor; other
+receptors, neural admixture or altered viability/identity can contribute. No
+mandatory double-positive SCN7A gate, rescue arm, sensory-cell identity or repair
+mechanism is assumed. A9/A20/A22 have different ligands and downstream endpoints.
+Nb4-P09 retains ownership of the expression run; no existing question is retired.
+
+[Dossier](docs/research_dossiers/A31.md) · [Illustrated workspace](RQ_Specified/A31_gria1_fibroblast_response/README.md) ·
+[Development plan](RQ_Specified/A31_gria1_fibroblast_response/PLAN.md) ·
+[Source/overlap review](docs/portfolio_extensions/2026-10-07/g2_niche/NEW_QUESTION_CANDIDATE.md).
 
 ## Execution and interpretation rules
 

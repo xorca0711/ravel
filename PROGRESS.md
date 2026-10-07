@@ -2,62 +2,59 @@
 
 **Update this before stopping work, every session.**
 
-## Readiness checkpoint — 7 October 2026
+## Portfolio extension checkpoint — 7 October 2026
 
-PR #145 is merged into main at `cc5ce7e09bc03df49a982569236d572407ecb195`.
-PR #140 is closed as superseded. This subsequent audit is on
-`codex/repo-readiness-audit-20261007`, in
+PR #146 is merged at `55e7cdeb679a103c570421279959b33be922331b`.
+The owner then authorized three subagents to scan every paper/RQ, run eligible
+extensions, and derive distinct research proposals where justified. Work is on
+`codex/portfolio-extensions-20261007` in
 `X:\GitHub\scRNA_seq\.worktrees\ravel-rename-20261007`.
-The primary checkout has been safely fast-forwarded to that main revision;
-the audit is in [PR #146](https://github.com/xorca0711/ravel/pull/146),
-ready for review and conflict-free when opened. Merge route:
-`codex/repo-readiness-audit-20261007` → `main`. No merge was performed.
-Use the PR’s current checks for remote CI status.
+The primary checkout remains separately preserved; do not infer its state from
+this worktree or overwrite unrelated metadata changes.
 
-- [Full audit and limitations](docs/audits/2026-10-07-repository-readiness/REPORT.md)
-- [Return checklist for approximately 21 October](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md)
-- [All 31 question baselines](docs/audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md)
+- [Portfolio pipeline and coverage](docs/portfolio_extensions/2026-10-07/README.md)
+- [Coverage manifest](docs/portfolio_extensions/2026-10-07/COVERAGE.md)
+- [Source-only publications and new data leads](docs/portfolio_extensions/2026-10-07/SOURCE_ONLY_REVIEW.md)
+- [Merged readiness audit and correction evidence](docs/audits/2026-10-07-repository-readiness/REPORT.md)
 - [Current Wang/Wagner 2025 corrections](Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md)
-- [Validation record](docs/audits/2026-10-07-repository-readiness/VALIDATION.md)
 
-## Completed
+## Completed and running
 
-Whole-repository text/structure/provenance scan and current-index reconciliation;
-all-question rationale review; new governed Compass orientation v3, human
-full-library normalization v3 and dependent M3 v2 corrections. Independent checks
-cover 4,999 values. Original outputs remain preserved. Current figure v4 and
-A28/A29 schematic v2 interpretations replace affected earlier panels/labels.
-R4 cell gates are unchanged (35,928 cells); A30 v3 was already full-gene normalized
-and was not rerun. No new claim grade or human scientific acceptance was created.
+All 15 analysis-bearing article packages, Primary source archive, 31 canonical
+RQs and 31 registered article candidates are assigned to nonoverlapping audit
+groups. Four new exposed contracts are reviewed, frozen and committed: Nb4-P09
+expression specificity, A30 common-state support, A11 patient-held-out paired
+prediction, and A17 source-model ascertainment. A17 has executed and passed its
+independent numerical checks; the other governed runs and group reports are in
+progress. A25 region/age source-label qualification is under preparation.
 
-Validation: 148 unit tests, all required archive verifiers, claim bindings,
-compilation and the research gate passed. The final repository validator
-passed 10,762 checks. See the validation record for scope and final CI status.
+No historical output, claim grade or human scientific decision has changed.
+The earlier audit's corrected Compass/R4/M3 results remain current. New evidence
+will be linked through the registry only after receipt and arithmetic checks.
 
-## Next analysis and remaining qualifications
+## Exact next steps
 
-Select the paper/RQ from the owner's next question; no portfolio ranking is
-implied. Read its current results, amendment and literature context before its
-plan. Qualify biological units, endpoint, comparisons and available inputs;
-then commit a new exposed/frozen contract before a numerical run.
+1. Complete the frozen runs, verify receipts and all unfavorable/sensitivity
+   outcomes, and integrate each group's complete paper/RQ/candidate ledger.
+2. Review synthesis and overlap before any new global question registration;
+   maintain experimental unit, endpoint and interpretation boundaries.
+3. Synchronize current entrypoints, run targeted and required repository checks,
+   fetch the latest main, and prepare a ready-for-review PR without merging it.
 
-For continued Wp work, the correction report owns current signs and values.
-A30 still needs justified null/QC/common-state qualification for stronger claims;
-A28 needs functional evidence beyond marker proteins; A29 needs a metabolite and
-functional discriminator. Other RQs retain the source, unit, precision and
-technical holds listed in the review ledger, including A17 implementation.
-These are explicit requirements for future work, not positive results in waiting.
+## Runtime and remaining qualifications
 
-The X-drive ARM64 Python environment works; the x64 launcher remains unavailable.
-Raw data are not all present in every worktree: use contract input preflight.
-The Wp cache is exposed by hard links in the audit worktree; never modify raw
-inputs in place. An old empty Git lock was preserved and removed from the active
-lock name; no user data or worktree was deleted. Remote protection settings and
-human scientific/bench approvals were not changed or certified.
+Use the primary X-drive ARM64 `.venv` Python. The x64 launcher remains unavailable.
+Raw inputs are not present in every checkout: run contract input preflight.
+Needed caches are hard-linked into this worktree; never modify raw inputs in
+place. No cache/worktree cleanup or new bulk download is part of this pass.
+Missing lineage, protein, metabolite, functional or independently linked outcome
+measurements remain explicit holds; extra RNA scoring does not supply them.
+Remote protection settings and human scientific/bench approvals are unchanged.
 
 ## Historical checkpoints
 
-The previous long PROGRESS file is preserved at the exact
-[pre-audit revision](https://github.com/xorca0711/ravel/blob/cc5ce7e09bc03df49a982569236d572407ecb195/PROGRESS.md).
-Its draft/ready/open PR statements describe their dated checkpoints and are not
-current instructions. Earlier dated audits and frozen evidence remain in place.
+The merged [7 October audit](docs/audits/2026-10-07-repository-readiness/REPORT.md)
+and its [validation record](docs/audits/2026-10-07-repository-readiness/VALIDATION.md)
+retain the prior 148-test/10,762-check checkpoint. Its PR-open language records
+that earlier delivery, not the present PR state. Earlier long progress is retained
+at the [pre-audit revision](https://github.com/xorca0711/ravel/blob/cc5ce7e09bc03df49a982569236d572407ecb195/PROGRESS.md).

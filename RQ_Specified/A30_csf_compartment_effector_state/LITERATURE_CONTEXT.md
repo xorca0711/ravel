@@ -1,5 +1,7 @@
 # A30: literature context and hypothesis schematic
 
+**Execution update — 7 October 2026:** [common-state and continuous-activation sensitivity](../../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) is now complete under a separate exposed contract. Restricted support, donor losses and floor-five uncertainty remain explicit. Other raw-QC/null/functional stages are unexecuted; this earlier baseline is not overwritten as if all stages completed.
+
 Revised 7 October 2026 during the PR140 audit at the owner's request. This bounded
 update replaces the 5 October framing; the earlier record remains in Git and the
 [source derivation](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
