@@ -5,7 +5,8 @@
 ## README follow-up — 7 October 2026
 
 PR #147 merged at `8469e390f634f214b64184d4b67048956b954a93`.
-The documentation follow-up is on `codex/readme-readability-20261007` in the
+The documentation follow-up is [PR #148](https://github.com/xorca0711/ravel/pull/148),
+ready for review from `codex/readme-readability-20261007` into `main` in the
 scoped checkout below. The owner clarified that dated evidence checkpoints
 belong outside the root README. All seven evidence rows were preserved in the
 [dated report](docs/portfolio_extensions/2026-10-07/EVIDENCE_CHECKPOINT.md),
