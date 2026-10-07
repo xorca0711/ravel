@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb4-P09.expression_specificity_v1",
+  "owner": "Nb4-P09",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do SCN7A and GRIA1 separately and jointly mark source-labelled alveolar fibroblasts across donor, assay and study contexts?",
+  "decision": "Determine whether the proposed two-gene phenotype warrants independent localization, needs narrowing to one component/context, or remains detection-limited; no global RQ promotion.",
+  "strongest_rival": "Separate expressing populations, neural contamination, source-label circularity and anatomy/assay/depth differences can create a sensory phenotype from RNA alone.",
+  "discriminator": "Same-cell intersection and separate gene effects, fixed neural-flag sensitivity, full-compartment/source and external neural comparators, depth halves and count-threshold diagnostics; none establishes function or removes ambient RNA.",
+  "evidence_refs": [
+    "docs/portfolio_extensions/2026-10-07/g2_niche/LITERATURE.md",
+    "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/proposals/P09_fibroblast_sensory.md",
+    "Research Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Existing Nb4 source and external C3/chemokine/MYRF findings and P09 candidate/literature known. Metadata, feature presence and stored source labels inspected on 7 October 2026. No candidate numerical expression calculation performed before this specification; source-defined hypotheses remain exposed.",
+  "biological_unit": "Human donor; source P1 P2 P3 and external A26 A32 A37 A40 A41 A42 A43 A44 A47 A48. Cells, region/protocol strata and repeated assays are nested observations.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Travaglini SS2 and 10x reuse the same three donors. Madissoon is a separate study, already exposed for other endpoints; repeated cell/nucleus assays and locations do not add donors. Do not pool cohorts or assays.",
+  "population_and_selection": "Source lung cells across regions for specificity, source distal only for matched fibroblast contrast. External normal records exclude mixed anatomical samples for specificity; matched contrasts restricted to Lower Left Lobe and Upper left lobe. Preserve authored labels; no outcome-driven relabeling.",
+  "contrast": "Alveolar minus adventitial fibroblast donor effects within exact region/assay/protocol. Primary >=20 cells in each arm, inherited >=10 sensitivity. All other available source populations and external stromal/neural labels described by separate strata.",
+  "endpoint": "SCN7A and GRIA1 detection >0, raw-count sum/full-library CPM transformed log2(CPM+1), same-cell joint detection at >=1 and >=2 counts, fibroblast-marker co-detection, and neural-flag prevalence.",
+  "methods": "Raw CSR integer counts, full measured-gene library sums. Equal mean of eligible within-donor stratum differences by cohort/assay. Genes analyzed separately. Neural flag SOX10>0 and (S100B>0 or PLP1>0); sensitivity exclusion only. Depth halves deterministic by library then cell identifier within stratum and sensitivity. COL1A1 or PDGFRA detection is a diagnostic, not identity proof. All strata shown; no biological p values.",
+  "missingness_and_exclusions": "Absent or nonunique candidate/diagnostic genes, invalid libraries/counts or mismatched cell join cause stop. Exclude blood, external non-normal and mixed anatomy from the declared populations; retain sparse strata with eligibility flags. Original labels may depend on candidate genes; label independence and raw-droplet ambient correction are unavailable.",
+  "multiplicity": "Two fixed candidate genes and their joint detection; all contexts and sensitivities reported, no significance testing, gene selection or threshold optimization.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Bounded donor descriptive transport, not confirmation or population equivalence. Existing 20/10-cell floors are coverage conventions, not power calculations. No meaningful effect margin is invented.",
+  "validation_scope": "external",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Independent-study expression transport is exploratory and exposed. Cells/nuclei are repeated assays, not donors. SCN7A/GRIA1 RNA cannot establish sensory response, sodium sensing, receptor activity, membrane protein, excitability or epithelial repair. No ambient/doublet/label independence claim.",
+  "stop_rule": "Abort missing/hash-mismatched inputs, invalid raw count domain, nonunique gene IDs/cells, missing stratum identities or failed verification. No additional genes or lower eligibility floors to obtain a positive result. No functional fit without linked independent response.",
+  "inputs": [
+    {
+      "path": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "study_id": "Madissoon2023",
+      "unit_ids": [
+        "A26",
+        "A32",
+        "A37",
+        "A40",
+        "A41",
+        "A42",
+        "A43",
+        "A44",
+        "A47",
+        "A48"
+      ],
+      "role": "validation",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/prepared/cell_metadata.tsv",
+      "sha256": "95d849c51ef9c1922f4399a80cad04390a3d06b67ddd6195dfa904ad841221cb",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g2_niche/sensory_v1.py",
+      "sha256": "90a3d8e3ed2e9ca93aea97c73a472fc5163c043bfb9dbc5bd4c1a32d2f7ed1b5"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g2_niche/test_sensory_v1.py",
+      "sha256": "6e58c6440a4ce32fcb2aa0adcb9a2c18dc40eaf42fa6123a7d5ac0e0ce6b0bdd"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/portfolio_extensions/2026-10-07/g2_niche/sensory_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_count_evidence.tsv.gz",
+    "stratum_gene.tsv",
+    "joint_detection.tsv",
+    "pair_effects.tsv",
+    "donor_effects.tsv",
+    "summary.json",
+    "verification.json",
+    "sensory_v1.png",
+    "sensory_v1.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First executed stage of the existing article-local P09 plan; exposed descriptive specification, no change to previous frozen Nb4 evidence."
+}
