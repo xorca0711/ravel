@@ -38,6 +38,10 @@ and preservation of historical evidence.
 | Earlier Wp Compass negative-sign interpretation | Retracted-superseded | [Orientation correction](Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md#compass-the-sign-changes) | Raw penalties had been mistaken for consistency scores |
 | Corrected Wp Compass and human compartment scores | Descriptive only | [Versioned results and limits](Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) | Two mouse units for Compass; ten paired human donors; scores are not functional assays |
 | Functional competence or causal mechanism inferred from these corrected scores | Not established | [All-question review](docs/audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md) | Proposed experiments retain their endpoint and precision requirements |
+| Nb4-P09 fixed-gene expression transport | Descriptive only | [Donor/assay results](docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md) | Separate genes and assay-sensitive joint detection; no sensory function |
+| A11 unique lesion information from improved held-out loss | Not established | [Capacity qualification](docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) | Duplicating existing p53 information can match or exceed the gain |
+| A25 regional occupancy and A30 observed-support contrasts | Descriptive only | [Portfolio synthesis](docs/portfolio_extensions/2026-10-07/SYNTHESIS.md) | Region/sex coverage and restricted target populations remain material |
+| A31 GRIA1-dependent acute fibroblast response | Not established | [Proposed experiment](RQ_Specified/A31_gria1_fibroblast_response/README.md) | Registered question and schematic; no functional experiment yet |
 
 This is a current correction summary, not a replacement for the full
 [claim register](CLAIMS.md) or an upgrade of its recorded grades. The

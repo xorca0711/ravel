@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A11.g1_capacity_qualification_v1",
+  "owner": "A11",
+  "contract": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A11.g1_capacity_qualification_v1.json",
+  "contract_sha256": "8a2c569cd97bc3a8bd0a40b50af6cfc6762dd5e32de9499e90164522f04b0f13",
+  "git_commit": "46af8e0c6ea9c658d5aba37545b4486917f038d9",
+  "started_at": "2026-10-07T09:26:34.635258+00:00",
+  "argv": [
+    "python",
+    "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_capacity_qualification_v1.py",
+    "--output",
+    "analysis/research/runs/g1_a11_capacity_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/module_scores.tsv",
+      "sha256": "2216703e123178e59948aebb41ff298d705f7069077f3ddf0f73f933c1100b1f",
+      "study_id": "GSE131907_reused_A11_v1",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/coefficients.tsv",
+      "sha256": "39595f34edb7f251bcf6065b48af2579394499a032ece8a2fdb8a56608cb0445",
+      "study_id": "GSE131907_reused_A11_v1",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/heldout_predictions.tsv",
+      "sha256": "6c9a02442fa36f881abfae3d059004a98c898fb6a48272819d2ae3d694d8fd1e",
+      "study_id": "GSE131907_reused_A11_v1",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/comparisons.tsv",
+      "sha256": "1ac2ace81f98d218f022c4d20c6b584542bdd350d3d9f7e3096ba8d92bf56908",
+      "study_id": "GSE131907_reused_A11_v1",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_capacity_qualification_v1.py",
+      "sha256": "8b2cc906b46cebe8a4329ed6c84c6e74f7205b7662d3d207239fc8e5edc82d4d"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_paired_prediction_v1.py",
+      "sha256": "110e9ad0576c7cf4c9dd9f9ae524c6df255da21d7fe07565f7ca8f7a21ccc465"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/test_a11_capacity_v1.py",
+      "sha256": "07ac3807cd84f7d278fac63a3afebc8e9b6292842826a00f2513b12b8c92a896"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/g1_a11_capacity_qualification_v1/duplicate_predictions.tsv",
+      "sha256": "3ad6f15a60fe7f6345602b173ec6411f0066bc4f3a7ce78e15ad3f580f96ec9b"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_capacity_qualification_v1/capacity_comparisons.tsv",
+      "sha256": "5c9471c8a9b0d1281ce89ebb145faa56a23882714ca5272873ad980211b318e7"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_capacity_qualification_v1/verification.json",
+      "sha256": "7891fa3537bb54aafa3e73b7a7a9e014e04cca13090903a67f981d7d6281c234"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T09:26:37.332752+00:00"
+}

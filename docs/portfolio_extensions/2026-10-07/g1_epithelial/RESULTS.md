@@ -4,6 +4,9 @@
 at `95b0118f8374950baca6f74e9a459bebe312002b` before either numerical run.
 Both use existing owners; no A ID, claim grade or human acceptance is created.
 See [scope and prior evidence](AUDIT.md) and [primary-source review](LITERATURE.md).
+The subsequent A11 regularization diagnostic was separately frozen at
+`46af8e0c6ea9c658d5aba37545b4486917f038d9` after inspecting the first result and
+before calculating any duplicate-feature controls.
 
 ## A17: founder, retained-clone and cell denominators differ substantially
 
@@ -56,7 +59,7 @@ and tail qualification, ascertainment sensitivities and recoverability under
 the actual mouse schedule. Terminal cohorts cannot supply clone extinction or
 longitudinal transitions without the missing founder/detection denominator.
 
-## A11: lower internal log loss, with a regularization alternative to qualify
+## A11: lower log loss does not establish distinct residual information
 
 The primary fixed-penalty model improves mean paired log loss from **0.226980
 to 0.191987 nats** after adding the fixed lesion component, a gain of **0.034993**.
@@ -91,14 +94,49 @@ retain the run. Historical signed-rank outcomes, including beyond-shared
 BH q=0.0547, remain unchanged because they concern a different estimand and
 scale. The original injury-specificity limit also remains.
 
-**Qualification pending:** a fifth correlated column can distribute the L2
-penalty and increase confidence without adding a new linear predictor. The
-separate exposed `A11.g1_capacity_qualification_v1` amendment tests exact
-duplicates of all four baseline columns under the unchanged folds/penalties.
-Its rationale and frozen-before-control-execution boundary are in the
-[literature/amendment record](LITERATURE.md). Until evaluated, the positive
-gain does not establish that the residual adds information beyond this
-regularization alternative.
+**The capacity diagnostic changes the interpretation.** At the primary penalty,
+duplicating the existing p53 feature gives mean log loss **0.190882**, slightly
+lower than **0.191987** with the lesion component. The duplicate adds no new
+predictor information: it only changes the L2 penalty geometry. Its gain over
+baseline is **0.036098**, versus **0.034993** for the lesion component. It also
+has lower loss than the lesion model in five of eight held-out patients. This
+demonstrates that a similar aggregate confidence gain can arise without a new
+biological feature; the first model comparison therefore does **not** establish
+distinct residual information beyond the fixed baseline.
+
+All four controls and all penalties were fixed before their calculations:
+
+| Penalty | Duplicated existing feature | Duplicate mean loss | Duplicate gain over baseline | Lesion gain over duplicate |
+|---|---|---:|---:|---:|
+| 1, primary | Shared remodelling | 0.222949 | 0.004031 | +0.030962 |
+| 1, primary | p53 | 0.190882 | 0.036098 | -0.001105 |
+| 1, primary | Hypoxia | 0.193235 | 0.033745 | +0.001248 |
+| 1, primary | Inflammatory response | 0.217190 | 0.009790 | +0.025203 |
+| 0.1 | Shared remodelling | 0.070663 | -0.001123 | +0.014926 |
+| 0.1 | p53 | 0.052631 | 0.016909 | -0.003106 |
+| 0.1 | Hypoxia | 0.056853 | 0.012687 | +0.001116 |
+| 0.1 | Inflammatory response | 0.073853 | -0.004313 | +0.018117 |
+| 10 | Shared remodelling | 0.510073 | 0.014065 | +0.022597 |
+| 10 | p53 | 0.488344 | 0.035795 | +0.000868 |
+| 10 | Hypoxia | 0.490583 | 0.033555 | +0.003107 |
+| 10 | Inflammatory response | 0.500492 | 0.023646 | +0.013016 |
+
+Positive final-column values favor the lesion model; negative values favor
+the no-new-information duplicate. Penalty 1 remains primary. The lambda 10
+and stress-excluded sensitivities are not selected to rescue a biological
+reading. This does not prove the lesion genes are biologically uninformative
+or that p53 is the causal explanation: duplicated features are a mathematical
+control, and no formal equivalence test was performed.
+
+The [capacity comparisons](../../../../analysis/research/runs/g1_a11_capacity_qualification_v1/capacity_comparisons.tsv)
+and [96 control predictions](../../../../analysis/research/runs/g1_a11_capacity_qualification_v1/duplicate_predictions.tsv)
+retain all results. The [independent verification](../../../../analysis/research/runs/g1_a11_capacity_qualification_v1/verification.json)
+reconstructs all 72 original predictions and six aggregate gains from saved
+scores/coefficients with standard-library arithmetic; maximum error is
+`2.2205e-16`. Duplicate-model Newton/BFGS agreement is within `7.2809e-9`.
+The [receipt](../../../../analysis/research/runs/g1_a11_capacity_qualification_v1/receipt.json)
+passes verification. This diagnostic is an explicitly exposed amendment; the
+[rationale](LITERATURE.md) and original positive outputs remain preserved.
 
 Regardless of that diagnostic, Kim outcomes informed the choice to do this
 follow-up. This is internal conditional reuse performance, not untouched
@@ -106,6 +144,12 @@ confirmation or validation of the historical feature-discovery pipeline.
 Normal-AT2 versus author tumour-epithelial composition remains a consequential
 alternative. No malignancy, future fate, mechanism, injury specificity or
 clinical utility is established.
+
+**Decision:** retain the original lesion association and this numerical
+qualification, but do not promote a claim of distinct residual information.
+Further model tuning on these same eight patients is not the next biological
+experiment. A new independent comparison would need the population/endpoint
+qualification below and a prospective model/control specification.
 
 ## Conditional experimental baseline
 

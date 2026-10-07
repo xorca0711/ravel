@@ -140,3 +140,10 @@ repository experiments. The four X references are source-only comparisons.
 | X2 | [Dhillon-Richardson 2025](https://doi.org/10.1073/pnas.2423697122) | literature comparison; no analysis workspace or global RQ assigned |
 | X3 | [Mu 2026](https://doi.org/10.1038/s43587-026-01175-2) | literature comparison; no analysis workspace or global RQ assigned |
 | X4 | [Ma 2025](https://doi.org/10.1126/science.adj3020) | literature comparison; no analysis workspace or global RQ assigned |
+
+## Subsequent proposed registration
+
+The baseline scan covers A0-A30. After the Nb4-P09 result and overlap review,
+[A31](../../../RQ_Specified/A31_gria1_fibroblast_response/README.md) adds a proposed
+GRIA1 acute-response experiment. Current coverage is 32 questions; this does not
+retroactively count the new question as one of the 31 baseline audit subjects.

@@ -717,6 +717,8 @@ design before another model-selection cycle.
 
 ### A11. Which lesion-associated programmes add to a shared epithelial plasticity component?
 
+**7 October executed extension:** [held-out and capacity results](docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) improve primary log loss with the lesion score, but a duplicated p53 baseline does slightly better without new information. Distinct residual information remains unestablished.
+
 **Current development scope, 3 October 2026 (proposed).** The frozen lesion-associated residual component may contain reproducible lesion-context information beyond the specified shared developmental/injury and stress explanations. It is a set-defined measurement, not an identified cancer-specific state or mechanism. The paired-patient beyond-shared criterion remains unresolved, and no lesion-relevant functional mediator is nominated. [A11 evidence dossier](docs/research_dossiers/A11.md) · [Novelty boundary](docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a11). Historical tests below retain their original scope; scientific acceptance is not inferred.
 
 **Hypothesis.** Neoplasia-associated epithelial states contain a shared
@@ -1063,6 +1065,8 @@ separate maturation and second-hit hypotheses from marker transfer.
 <a id="a17"></a>
 
 ### A17. Do persistent founder differences help explain unequal mutant clone growth?
+
+**7 October executed extension:** [source-model ascertainment](docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) separates founder prevalence from retained-clone and expected-cell fractions. It is not a cohort fit or a resolution of switching.
 
 **Current development scope, 3 October 2026 (proposed).** Persistent differences inherited from founder lineages may contribute to unequal mutant clone growth beyond reversible state switching and observation effects. A fitted founder class is a latent model term, not a discovered cell type. The current comparison concerns detected clone-size distributions until ascertainment and longitudinal linkage are qualified; numerical solver and identifiability work remain unfinished. [A17 evidence dossier](docs/research_dossiers/A17.md) · [Novelty boundary](docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a17). Historical tests below retain their original scope; scientific acceptance is not inferred.
 
@@ -1449,6 +1453,8 @@ unfinished numerical design.
 
 ### A25. Does middle-age microglial organization require a regional configuration beyond endpoint mixtures and continuous ageing?
 
+**7 October executed extension:** [region and sex occupancy](docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) qualifies source-cluster proportions and coverage. The distinct-state/mixture model remains unrun.
+
 Registered 3 October 2026 as **proposed**, following the owner-authorized
 scientific review and instruction to preserve distinct biological focus and
 cell/context heterogeneity. Codex supplied the bounded scientific review;
@@ -1553,6 +1559,8 @@ functional validation or permission to execute an unfinished numerical design.
 <a id="a30"></a>
 
 ### A30. Does the CSF-associated inflammatory RNA difference persist within comparable CD4 T-cell states?
+
+**7 October executed extension:** [common-state support and activation sensitivity](docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) retain a restricted association with substantial donor/cell exclusions and a floor-five interval crossing zero. The pooled target and raw-QC/null/functional limits remain separate.
 
 Registered 5 October 2026 as **proposed** from the Wang 2025 Wp package. Revised
 7 October after PR140 artifact/literature review. Human retain/reject and

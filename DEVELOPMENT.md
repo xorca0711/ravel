@@ -2643,3 +2643,34 @@ review, with no human retain/reject decision or claim-grade promotion recorded.
 Evidence: [readiness audit](docs/audits/2026-10-07-repository-readiness/REPORT.md),
 [correction report](Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md),
 and [return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md).
+
+
+## Portfolio scan, six governed extensions and proposed A31 — 7 October 2026
+
+The owner explicitly requested subagents grouped by shared biological logic.
+Codex coordinated G1 epithelial/lineage/chromatin, G2 niche/stromal/vascular and
+G3 immune/metabolism/ageing reviews. Subagents owned nonoverlapping analysis and
+documentation paths; the main agent reviewed specifications, managed freeze
+commits, shared registries, source-only coverage and integration. G3 additionally
+performed a bounded independent review of the main agent's A31 draft. These
+roles are AI assistance, not independent human scientific acceptance.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-07 | Grouped all-paper/RQ scan and eligible extension execution | Owner request | Owner (scope authorization) | Three group audits, five initial governed runs and one bounded A11 qualification | Surface plausible measured phenotypes and preserve explicit source/endpoint holds |
+| 2026-10-07 | Proposed A31 GRIA1 acute-response comparison | G2 evidence/overlap review; main agent canonical drafting | Owner authorized derivation/registration; scientific retain/reject pending | Register proposed question, dossier, experimental baseline and qualitative guide | Distinct functional endpoint beyond exposed atlas expression; no functional or novelty claim |
+| 2026-10-07 | Exact-byte attributes for new code/contracts/runs | Codex | Implementation within authorized reproducibility scope; PR review pending | Preserve SHA-bound bytes across Windows/Linux checkouts | No relaxation of research gates or scientific criteria |
+| 2026-10-07 | Explicit canonical layout sequence A0–A31 | Main agent | Bounded independent G3 code review; human PR review pending | Synchronize registered A31 and retain exact-ID/order rejection with missing-A31/unregistered-A32 tests | Fix the single final structure-validation failure without accepting arbitrary questions |
+
+| Date | Rejected or substantially modified AI interpretation/design | Reason | Reworked by |
+|---|---|---|---|
+| 2026-10-07 | Inferring unique lesion information from A11's positive held-out loss gain | Duplicating p53 baseline information performs slightly better at the primary penalty | G1 proposed bounded diagnostic; main agent reviewed/froze and propagated qualification |
+| 2026-10-07 | Assuming intersecting activation percentile bounds guarantee an observed common prediction target | Discrete retained ranges need an explicit target-support check | Main code review; G3 fixed before A30 freeze and added a synthetic case |
+| 2026-10-07 | Treating source-only RNA co-detection as a dual-positive functional sensory class | Joint detection varies by assay/context and direct function is missing | G2/main synthesis; A31 narrowed to a qualified GRIA1 acute response |
+| 2026-10-07 | A31 donor/preparation slash wording and unspecified post-challenge response contrast | Repeated cultures could be counted as independent donors; basal signal could masquerade as evoked response | Independent G3 review; main agent specified donor nesting, challenge-minus-vehicle response and no automatic survivor adjustment |
+
+All unfavorable results, thresholds, fixed sensitivities and original evidence
+remain visible. No CLAIMS grade, protected validator, governance requirement,
+human acceptance or laboratory feasibility was manufactured. See the
+[portfolio synthesis](docs/portfolio_extensions/2026-10-07/SYNTHESIS.md) and
+[validation record](docs/portfolio_extensions/2026-10-07/VALIDATION.md).

@@ -1,6 +1,6 @@
 # Portfolio scan and governed extensions
 
-**Date:** 7 October 2026. **Status:** analysis in progress; scientific review pending.
+**Date:** 7 October 2026. **Status:** six governed runs executed; proposed A31 registered; scientific review pending.
 
 The owner requested a scan of every paper package and RQ, grouped by biological
 logic, followed by eligible dry analyses and evidence-based question development.
@@ -10,13 +10,15 @@ This pass starts from merged PR #146, main revision
 accounts for all 15 analysis-bearing article packages, the source-only Primary
 archive, 31 canonical RQs, 31 article candidates and the unexecuted reading queue.
 
+[Integrated results and question decisions](SYNTHESIS.md) · [Return checklist](RETURN_CHECKLIST.md) · [Validation](VALIDATION.md)
+
 ## Groups and decisions
 
-| Group | Biological logic | Audit scope | Eligible extension under preparation |
+| Group | Biological logic | Audit scope | Executed extension |
 |---|---|---|---|
-| G1 | Epithelial identity, lineage, chromatin and plasticity | 7 packages; 12 RQs | A11 paired patient-held-out incremental discrimination; A17 founder versus retained-clone/cell contribution under source-parameter size laws |
+| G1 | Epithelial identity, lineage, chromatin and plasticity | 7 packages; 12 RQs | A11 paired patient-held-out discrimination and separate capacity diagnostic; A17 founder versus retained-clone/cell contribution under source-parameter size laws |
 | G2 | Niche communication, stromal/vascular response and repair | 5 packages; 12 RQs; Nb4 candidates; A3 age bridge | Nb4-P09 sensory-gene expression specificity and external transport, with separate genes and joint detection |
-| G3 | Immune states, metabolism, ageing and compartment | 3 packages; 7 RQs; Nb5/Wg/Wp candidates | A30 observed common-state and activation-support sensitivity; A25 source-qualified descriptive age stage if eligible |
+| G3 | Immune states, metabolism, ageing and compartment | 3 packages; 7 RQs; Nb5/Wg/Wp candidates | A30 observed common-state and activation-support sensitivity; A25 source-qualified region/sex occupancy stage |
 
 Assignments prevent overlapping runs, not scientific connections. Niethamer,
 human fibrosis/lesion atlases and other reused deposits remain shared sources.
@@ -61,5 +63,9 @@ pass. Numerical reruns are limited to a concrete unresolved comparison rather
 than replaying every historical pipeline.
 
 The main agent owns shared registries, integration and delivery. Three explicitly
-authorized subagents own nonoverlapping group directories. Their reports and
-run receipts will be linked here after verification.
+authorized subagents own nonoverlapping group directories. All reports and receipts are available in the [G1](g1_epithelial/README.md),
+[G2](g2_niche/README.md) and [G3](g3_immune/README.md) reports. Five initial
+extensions and one A11 qualification ran; existing questions retain their owners.
+The baseline 31 RQs are now joined by proposed [A31](../../../RQ_Specified/A31_gria1_fibroblast_response/README.md),
+with a canonical card, dossier, conventional experiment baseline and registered
+qualitative schematic. No functional experiment was run.
