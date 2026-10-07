@@ -1,5 +1,7 @@
 # Research questions
 
+**Portfolio extension, 7 October 2026:** [grouped audit and new runs](docs/portfolio_extensions/2026-10-07/README.md) review all earlier questions. Proposed [A31](#a31) develops a distinct GRIA1 acute-response endpoint from Nb4-P09; the original 31 questions and article candidates remain preserved.
+
 Ravel develops questions from published studies and their reanalysis across
 relevant biological contexts. Each card retains its own tissue, organism,
 endpoint, rival and interpretation limits. The broader project identity does not
@@ -715,6 +717,8 @@ design before another model-selection cycle.
 
 ### A11. Which lesion-associated programmes add to a shared epithelial plasticity component?
 
+**7 October executed extension:** [held-out and capacity results](docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) improve primary log loss with the lesion score, but a duplicated p53 baseline does slightly better without new information. Distinct residual information remains unestablished.
+
 **Current development scope, 3 October 2026 (proposed).** The frozen lesion-associated residual component may contain reproducible lesion-context information beyond the specified shared developmental/injury and stress explanations. It is a set-defined measurement, not an identified cancer-specific state or mechanism. The paired-patient beyond-shared criterion remains unresolved, and no lesion-relevant functional mediator is nominated. [A11 evidence dossier](docs/research_dossiers/A11.md) · [Novelty boundary](docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a11). Historical tests below retain their original scope; scientific acceptance is not inferred.
 
 **Hypothesis.** Neoplasia-associated epithelial states contain a shared
@@ -1061,6 +1065,8 @@ separate maturation and second-hit hypotheses from marker transfer.
 <a id="a17"></a>
 
 ### A17. Do persistent founder differences help explain unequal mutant clone growth?
+
+**7 October executed extension:** [source-model ascertainment](docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) separates founder prevalence from retained-clone and expected-cell fractions. It is not a cohort fit or a resolution of switching.
 
 **Current development scope, 3 October 2026 (proposed).** Persistent differences inherited from founder lineages may contribute to unequal mutant clone growth beyond reversible state switching and observation effects. A fitted founder class is a latent model term, not a discovered cell type. The current comparison concerns detected clone-size distributions until ascertainment and longitudinal linkage are qualified; numerical solver and identifiability work remain unfinished. [A17 evidence dossier](docs/research_dossiers/A17.md) · [Novelty boundary](docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md#a17). Historical tests below retain their original scope; scientific acceptance is not inferred.
 
@@ -1447,6 +1453,8 @@ unfinished numerical design.
 
 ### A25. Does middle-age microglial organization require a regional configuration beyond endpoint mixtures and continuous ageing?
 
+**7 October executed extension:** [region and sex occupancy](docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) qualifies source-cluster proportions and coverage. The distinct-state/mixture model remains unrun.
+
 Registered 3 October 2026 as **proposed**, following the owner-authorized
 scientific review and instruction to preserve distinct biological focus and
 cell/context heterogeneity. Codex supplied the bounded scientific review;
@@ -1552,6 +1560,8 @@ functional validation or permission to execute an unfinished numerical design.
 
 ### A30. Does the CSF-associated inflammatory RNA difference persist within comparable CD4 T-cell states?
 
+**7 October executed extension:** [common-state support and activation sensitivity](docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) retain a restricted association with substantial donor/cell exclusions and a floor-five interval crossing zero. The pooled target and raw-QC/null/functional limits remain separate.
+
 Registered 5 October 2026 as **proposed** from the Wang 2025 Wp package. Revised
 7 October after PR140 artifact/literature review. Human retain/reject and
 scientific acceptance remain unrecorded.
@@ -1573,7 +1583,7 @@ need a separately justified endpoint and design.
 
 **Scope and readiness.** The RNA reanalysis has executed on shared GSE138266;
 it is not independent replication or a test of the paper's mouse PGAM mechanism.
-Further QC/null/common-state qualification needs a new exposed-data amendment.
+The [new common-state/activation sensitivity](docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) is executed and limits support to restricted populations. Further raw QC/null qualification needs its own exposed-data amendment.
 Protein/TCR and intervention stages are conditional; no assay feasibility, effect
 margin or sample size is invented. A26/A27 remain distinct questions in their
 own population, tissue, endpoint and unit.
@@ -1581,6 +1591,40 @@ own population, tissue, endpoint and unit.
 [Dossier](docs/research_dossiers/A30.md) · [Illustrated workspace](RQ_Specified/A30_csf_compartment_effector_state/README.md)
 · [Revised extension baseline](RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md)
 · [Original derivation](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+
+<a id="a31"></a>
+
+### A31. Does GRIA1 contribute to an acute glutamate response in adult alveolar fibroblasts?
+
+Registered 7 October 2026 as **proposed**, from the executed Nb4-P09
+expression-specificity extension and the owner's portfolio-development request.
+This is an exposed context/functional-endpoint proposal; human scientific
+acceptance and laboratory readiness remain unrecorded.
+
+**Hypothesis and biology.** Independently identified adult human alveolar fibroblasts exhibit an acute glutamate-evoked response with a GRIA1-dependent component: qualified GRIA1 perturbation reduces the challenge-minus-vehicle response relative to matched control preparations under the same exposure.
+
+**Current evidence.** Fixed GRIA1 and SCN7A RNA contrasts are concordant across
+qualified source and external fibroblast comparisons. Repeated assays reuse
+donors; joint detection is assay/depth-sensitive. Published GRIA1-rich fibroblast
+populations are prior knowledge. No receptor or acute response was measured.
+
+**Comparison and baseline.** Independently identify adult human fibroblasts;
+compare challenge-minus-vehicle response in matched GRIA1 perturbation and
+control preparations. Donor is the biological unit; repeated cultures/wells/cells
+are nested. Select a calibrated primary response, timing, engagement criteria,
+meaningful effect and precision before a numerical experiment. Viability and
+identity are qualification/outcome measurements, not automatic post-treatment
+adjustment or survivor-selection gates.
+
+**Alternatives and limits.** RNA may not imply functional receptor; other
+receptors, neural admixture or altered viability/identity can contribute. No
+mandatory double-positive SCN7A gate, rescue arm, sensory-cell identity or repair
+mechanism is assumed. A9/A20/A22 have different ligands and downstream endpoints.
+Nb4-P09 retains ownership of the expression run; no existing question is retired.
+
+[Dossier](docs/research_dossiers/A31.md) · [Illustrated workspace](RQ_Specified/A31_gria1_fibroblast_response/README.md) ·
+[Development plan](RQ_Specified/A31_gria1_fibroblast_response/PLAN.md) ·
+[Source/overlap review](docs/portfolio_extensions/2026-10-07/g2_niche/NEW_QUESTION_CANDIDATE.md).
 
 ## Execution and interpretation rules
 

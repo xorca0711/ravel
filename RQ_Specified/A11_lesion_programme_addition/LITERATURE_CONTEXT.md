@@ -1,5 +1,7 @@
 # A11: literature context and hypothesis schematic
 
+**7 October refresh:** [current comparison and targeted primary-source review](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/LITERATURE.md), with [executed results and capacity qualification](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md). The fixed genes remain unchanged; no novelty or untouched validation claim is made.
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point

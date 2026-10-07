@@ -1,5 +1,7 @@
 # Nb4-P09: SCN7A/GRIA1-associated fibroblast phenotype
 
+**7 October execution:** the [first expression-specificity/transport stage](../../../../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md) is complete. Its separate genes and assay-sensitive joint detection motivate proposed [A31](../../../../RQ_Specified/A31_gria1_fibroblast_response/README.md); functional sensory response remains unmeasured. This article-local proposal retains the source evidence and its remaining stages.
+
 **Status: planned; functional interpretation requires additional evidence.**
 [Master contract](README.md) · [source ledger](SOURCES.md).
 S01 source discovery; the existing S03 fibroblast subset can support a

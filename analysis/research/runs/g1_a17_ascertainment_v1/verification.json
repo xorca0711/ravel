@@ -1,0 +1,190 @@
+{
+  "source_parameters": {
+    "pi": 0.08,
+    "renewal": 0.7,
+    "fast_net_rates_per_week": [
+      3.1,
+      0.5
+    ],
+    "slow_net_rates_per_week": [
+      0.9000000000000001,
+      0.01
+    ],
+    "switch_week": 2
+  },
+  "rows": 36,
+  "checks": [
+    {
+      "variant": "source_script",
+      "week": 1.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 2.4005480116235803e-12
+    },
+    {
+      "variant": "source_script",
+      "week": 1.0,
+      "early_rate": 0.9000000000000001,
+      "late_rate": 0.01,
+      "max_error": 2.0701719561520383e-14
+    },
+    {
+      "variant": "source_script",
+      "week": 2.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 4.757783229521519e-12
+    },
+    {
+      "variant": "source_script",
+      "week": 2.0,
+      "early_rate": 0.9000000000000001,
+      "late_rate": 0.01,
+      "max_error": 1.4093059221071508e-14
+    },
+    {
+      "variant": "source_script",
+      "week": 4.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 4.762786835641348e-12
+    },
+    {
+      "variant": "source_script",
+      "week": 4.0,
+      "early_rate": 0.9000000000000001,
+      "late_rate": 0.01,
+      "max_error": 1.5261392960765673e-14
+    },
+    {
+      "variant": "pi_only_sensitivity",
+      "week": 1.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 2.4005480116235803e-12
+    },
+    {
+      "variant": "pi_only_sensitivity",
+      "week": 1.0,
+      "early_rate": 0.9000000000000001,
+      "late_rate": 0.01,
+      "max_error": 2.0701719561520383e-14
+    },
+    {
+      "variant": "pi_only_sensitivity",
+      "week": 2.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 4.757783229521519e-12
+    },
+    {
+      "variant": "pi_only_sensitivity",
+      "week": 2.0,
+      "early_rate": 0.9000000000000001,
+      "late_rate": 0.01,
+      "max_error": 1.4093059221071508e-14
+    },
+    {
+      "variant": "pi_only_sensitivity",
+      "week": 4.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 4.762786835641348e-12
+    },
+    {
+      "variant": "pi_only_sensitivity",
+      "week": 4.0,
+      "early_rate": 0.9000000000000001,
+      "late_rate": 0.01,
+      "max_error": 1.5261392960765673e-14
+    },
+    {
+      "variant": "slow_only_sensitivity",
+      "week": 1.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 2.4005480116235803e-12
+    },
+    {
+      "variant": "slow_only_sensitivity",
+      "week": 1.0,
+      "early_rate": 1.1,
+      "late_rate": 0.01,
+      "max_error": 3.186340080674199e-14
+    },
+    {
+      "variant": "slow_only_sensitivity",
+      "week": 2.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 4.757783229521519e-12
+    },
+    {
+      "variant": "slow_only_sensitivity",
+      "week": 2.0,
+      "early_rate": 1.1,
+      "late_rate": 0.01,
+      "max_error": 2.907142720514133e-14
+    },
+    {
+      "variant": "slow_only_sensitivity",
+      "week": 4.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 4.762786835641348e-12
+    },
+    {
+      "variant": "slow_only_sensitivity",
+      "week": 4.0,
+      "early_rate": 1.1,
+      "late_rate": 0.01,
+      "max_error": 2.3056184320580198e-14
+    },
+    {
+      "variant": "both_sensitivity",
+      "week": 1.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 2.4005480116235803e-12
+    },
+    {
+      "variant": "both_sensitivity",
+      "week": 1.0,
+      "early_rate": 1.1,
+      "late_rate": 0.01,
+      "max_error": 3.186340080674199e-14
+    },
+    {
+      "variant": "both_sensitivity",
+      "week": 2.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 4.757783229521519e-12
+    },
+    {
+      "variant": "both_sensitivity",
+      "week": 2.0,
+      "early_rate": 1.1,
+      "late_rate": 0.01,
+      "max_error": 2.907142720514133e-14
+    },
+    {
+      "variant": "both_sensitivity",
+      "week": 4.0,
+      "early_rate": 3.1,
+      "late_rate": 0.5,
+      "max_error": 4.762786835641348e-12
+    },
+    {
+      "variant": "both_sensitivity",
+      "week": 4.0,
+      "early_rate": 1.1,
+      "late_rate": 0.01,
+      "max_error": 2.3056184320580198e-14
+    }
+  ],
+  "max_verification_error": 4.762786835641348e-12,
+  "manuscript_variants": "0.16 founder fraction and 1.1 early slow net rate are separate sensitivities; published-curve provenance unresolved",
+  "model": "two no-switching linear birth-death founder laws; corrected event semantics; not the literal archived MATLAB implementation",
+  "cohort_fit": false
+}

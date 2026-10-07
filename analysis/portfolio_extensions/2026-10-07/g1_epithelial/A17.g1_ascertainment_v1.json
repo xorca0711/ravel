@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "frozen",
+  "prior_outcome_exposure": "exposed",
+  "precision_status": "not_applicable",
+  "precision_basis": "Deterministic arithmetic tolerance1e-7 qualifies numerical calculations only. No biological sample size, precision or effect threshold is inferred.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "runtime": "python",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New exposed extension; earlier frozen outputs and scientific criteria remain unchanged.",
+  "analysis_id": "A17.g1_ascertainment_v1",
+  "owner": "A17",
+  "analysis_type": "descriptive",
+  "question": "Under the corrected no-switching source-script model, how do initial founder fractions differ from retained-clone and cell-contribution fractions?",
+  "decision": "Quantify whether size-based ascertainment materially separates model fractions before any biological likelihood fit; this calculation does not select founder versus switching mechanisms.",
+  "strongest_rival": "Size-dependent retention and unequal clone growth can create apparent dominance without a corresponding large starting founder fraction; source-script and manuscript parameter variants remain unresolved.",
+  "discriminator": "Evaluate exact source-parameter birth-death distributions at weeks 1,2,4; compare initial fast fraction to its fraction of retained clones, retained cells and all living cells at floors 1,2,5.",
+  "evidence_refs": [
+    "docs/portfolio_extensions/2026-10-07/g1_epithelial/LITERATURE.md",
+    "docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md",
+    "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/REPORT.md"
+  ],
+  "exposure_record": "Source parameter trace, model audit and historical mouse summaries were already read. Parameters are fixed from source-code evidence; no current clone outcomes are fitted or used to select variants.",
+  "biological_unit": "Not applicable to deterministic model qualification; later cohort inference would require source-indexed mice with nested clones.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "Rows are mathematical model conditions, never biological samples. Original 11-mouse cohort is context only and is not fitted.",
+  "population_and_selection": "Two latent no-switching founder laws with source renewal=.7, fast net rates 3.1 then .5/week and slow .9 then .01/week, changing at week2; initial fast fraction .08. Four fixed parameter variants at weeks1,2,4 and floors1,2,5.",
+  "contrast": "Primary source-script parameters with floor2. Sensitivities: initial fast fraction .16 alone, early slow rate1.1 alone, or both; floors1 and5. These transcribed variants are not labelled source reproduction or chosen by fit.",
+  "endpoint": "Analytic extinction/retention probabilities and initial/retained-clone/retained-cell/all-living-cell fast fractions; independent probability and truncated-first-moment errors.",
+  "methods": "Closed-form linear birth-death law under constant renewal ratio and integrated piecewise net rates. Geometric tail gives retention and truncated first moment without finite-support renormalization. Independent backward PGF coefficient RK4 ODE for p0 through p4 and mean, fixed step<=.001week, verifies thresholds1,2,5; maximum absolute probability or relative first-moment error must be <=1e-7.",
+  "missingness_and_exclusions": "No observed clones read, excluded or substituted. Fail on changed source parameters or arithmetic verification; all four variants and all time/floor combinations retained.",
+  "multiplicity": "Thirty-six deterministic model rows; no biological p-values or multiplicity claim. Source-script floor2 primary, all sensitivities named without selection.",
+  "interpretation_limit": "Conditional model predictions, not observed founder prevalence, extinction, state identity, parameter estimation or fitted competition between founder and switching models. Corrected event semantics do not reproduce the archived literal MATLAB defect.",
+  "stop_rule": "Stop on source-trace mismatch or any analytic-versus-independent-ODE error over1e-7. Do not fit observed histograms or reinterpret a favorable variant as a published-curve reproduction.",
+  "inputs": [
+    {
+      "path": "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/mutant_parameter_trace.json",
+      "sha256": "84a2b3ea950d6e27fa23e9fe53ebb56e816a17241372314bdb8103725604addc",
+      "study_id": "England2025_source_script",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a17_ascertainment_v1.py",
+      "sha256": "897aab3d3efc86eeca9def48e88aae224ddc17d5473a704e7994756f2a4a305e"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_paired_prediction_v1.py",
+      "sha256": "110e9ad0576c7cf4c9dd9f9ae524c6df255da21d7fe07565f7ca8f7a21ccc465"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/test_g1_extensions_v1.py",
+      "sha256": "f029c184b2d233a758a59844601754093e7ea49a527acafcc9681fc8d08c5f88"
+    }
+  ],
+  "entrypoint": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a17_ascertainment_v1.py",
+  "expected_outputs": [
+    "ascertainment.tsv",
+    "verification.json"
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A11.g1_paired_prediction_v1",
+  "owner": "A11",
+  "contract": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A11.g1_paired_prediction_v1.json",
+  "contract_sha256": "18730fe9df161bc2c9be9de97980aa6e90356c4300bf0fe59ec33c33eeb418e7",
+  "git_commit": "95b0118f8374950baca6f74e9a459bebe312002b",
+  "started_at": "2026-10-07T09:05:56.287298+00:00",
+  "argv": [
+    "python",
+    "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_paired_prediction_v1.py",
+    "--output",
+    "analysis/research/runs/g1_a11_paired_prediction_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/GSE131907/GSE131907_Lung_Cancer_raw_UMI_matrix.txt.gz",
+      "sha256": "b44a9c6635d0b59ec66b5eb6b40b40e7292c3a75aaf8afc4f933eb0550a26372",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE131907/GSE131907_Lung_Cancer_cell_annotation.txt.gz",
+      "sha256": "9d017652a31a489c1f62cacc436936d48a5b07bb554fc0dbe602da7474532205",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/test_v2/units.tsv",
+      "sha256": "7774cff95b0455c2a81f7440876c2302919afea0f8d8f33ce8361f599d0bb9bd",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/kim_pairing.tsv",
+      "sha256": "af63aab1d692f2dcfbd05773aeaa9761cd36db5396d6ea3a28594ac8b70e821d",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/config/kim2020_test_contract.json",
+      "sha256": "426b1b1e24a18332c11ba3c0323ee914f1cbe3413c027c58678087e9c5b33300",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/test_v2/normalization.tsv",
+      "sha256": "61053529c9312b2d766b60bb5e0de3b80ecc0266192dca37e4064aa90751d824",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/test_v2/human_module_genes.tsv",
+      "sha256": "6032c6baf2801f5e574650ccac7dbbe93306bc8392232d00f7e9f1978ace8a89",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_paired_prediction_v1.py",
+      "sha256": "110e9ad0576c7cf4c9dd9f9ae524c6df255da21d7fe07565f7ca8f7a21ccc465"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a17_ascertainment_v1.py",
+      "sha256": "897aab3d3efc86eeca9def48e88aae224ddc17d5473a704e7994756f2a4a305e"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/test_g1_extensions_v1.py",
+      "sha256": "f029c184b2d233a758a59844601754093e7ea49a527acafcc9681fc8d08c5f88"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/pseudobulk_counts.tsv.gz",
+      "sha256": "c56b9805887e9fadbf5c1de95abffefe0373fc6e106a5e64dfc8ad10e9e49df5"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/module_scores.tsv",
+      "sha256": "2216703e123178e59948aebb41ff298d705f7069077f3ddf0f73f933c1100b1f"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/heldout_predictions.tsv",
+      "sha256": "6c9a02442fa36f881abfae3d059004a98c898fb6a48272819d2ae3d694d8fd1e"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/coefficients.tsv",
+      "sha256": "39595f34edb7f251bcf6065b48af2579394499a032ece8a2fdb8a56608cb0445"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/comparisons.tsv",
+      "sha256": "1ac2ace81f98d218f022c4d20c6b584542bdd350d3d9f7e3096ba8d92bf56908"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/verification.json",
+      "sha256": "b24aa8c316929ad567deefd0320e1c8034b460f50e747ba17c2b718ee602d0f0"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T09:18:34.855710+00:00"
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A30.common_support_v1",
+  "owner": "A30",
+  "contract": "analysis/portfolio_extensions/2026-10-07/g3_immune/a30_common_support_v1.json",
+  "contract_sha256": "09631df28141d8fb39abcab03d2c711b352f1571d6e52fdd2198b9f361f3d32d",
+  "git_commit": "95b0118f8374950baca6f74e9a459bebe312002b",
+  "started_at": "2026-10-07T09:05:17.164734+00:00",
+  "argv": [
+    "python",
+    "analysis/portfolio_extensions/2026-10-07/g3_immune/a30_common_support_v1.py",
+    "--input",
+    "analysis/research/runs/wp_a30_state_decomposition_v3/cell_states.csv.gz",
+    "--output",
+    "analysis/research/runs/a30_common_support_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/cell_states.csv.gz",
+      "sha256": "975ff310fdbcf776835fcca55599255f9a1c4f337bd79a227ebd5163d9400741",
+      "study_id": "GSE138266",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g3_immune/a30_common_support_v1.py",
+      "sha256": "cb8845b543707084efb03af94081a047324d99be8cb3b13fe898d5c8a4cd0021"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/a30_common_support_v1/state_support.csv",
+      "sha256": "4922471a3a8b485242dd9b7a1b47528350aa922152429715ffcb6d275cfd6bb4"
+    },
+    {
+      "path": "analysis/research/runs/a30_common_support_v1/state_estimates.csv",
+      "sha256": "fa65ab652042180084885e20c5636ab47288baa95ad64ace3d39f94a5da6c0d1"
+    },
+    {
+      "path": "analysis/research/runs/a30_common_support_v1/donor_estimates.csv",
+      "sha256": "016d6b039502696f9066681274be1a593c6576b20c85c5fa480839cfc3422c5c"
+    },
+    {
+      "path": "analysis/research/runs/a30_common_support_v1/summary.csv",
+      "sha256": "fe7e2387a11cafbad7f94747b12ef114e20d632aa65f5c42cd5088a7884cb3d7"
+    },
+    {
+      "path": "analysis/research/runs/a30_common_support_v1/verification.json",
+      "sha256": "d9d91a164a4464871032743bec4430e5a11f4e55c256c4324bdc977b3e92ffbb"
+    },
+    {
+      "path": "analysis/research/runs/a30_common_support_v1/results.json",
+      "sha256": "e1b4dbb443e8bc62663053ea2ea88e85d2e0b738cc3f8cf43acfa9163d963aa1"
+    },
+    {
+      "path": "analysis/research/runs/a30_common_support_v1/common_support.png",
+      "sha256": "dc963b46079a97c921d94d5f2a0b7dbf182c296751d6298bc7a66e1970c5de6f"
+    },
+    {
+      "path": "analysis/research/runs/a30_common_support_v1/common_support.svg",
+      "sha256": "26ec88ea57939f94d23905fc1c6f2bb42a20990994f0efc019e8908560ccb3ea"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T09:05:26.661889+00:00"
+}

@@ -1,6 +1,6 @@
 # Illustrated research question guide
 
-Explore the **31 registered questions (A0–A30)** by biological topic. Each row
+Explore the **32 registered questions (A0–A31)** by biological topic. Each row
 links to the current question page, its explanatory diagram and the literature
 context behind it. Topic groups are for navigation, not a priority ranking.
 
@@ -52,6 +52,7 @@ of its outcome.
 | **A20** · [Fzd2 versus Fzd1 in fibroblast support of alveolar repair](../../../RQ_Specified/A20_fibroblast_fzd_context/README.md) | [Diagram](../../../RQ_Specified/A20_fibroblast_fzd_context/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A20_fibroblast_fzd_context/LITERATURE_CONTEXT.md) |
 | **A21** · [Fzd4-dependent vascular integrity and capillary repair](../../../RQ_Specified/A21_fzd4_capillary_function/README.md) | [Diagram](../../../RQ_Specified/A21_fzd4_capillary_function/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A21_fzd4_capillary_function/LITERATURE_CONTEXT.md) |
 | **A22** · [Epithelial identity versus amount in fibroblast chemokine competence](../../../RQ_Specified/A22_epithelial_identity_niche_response/README.md) | [Diagram](../../../RQ_Specified/A22_epithelial_identity_niche_response/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A22_epithelial_identity_niche_response/LITERATURE_CONTEXT.md) |
+| **A31** · [GRIA1-dependent acute response in adult alveolar fibroblasts](../../../RQ_Specified/A31_gria1_fibroblast_response/README.md) | [Diagram](../../../RQ_Specified/A31_gria1_fibroblast_response/schematics/hypothesis_v1.svg) · [Context](../../../RQ_Specified/A31_gria1_fibroblast_response/LITERATURE_CONTEXT.md) |
 
 ## Macrophage history and disease context
 

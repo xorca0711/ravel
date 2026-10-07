@@ -1,0 +1,12 @@
+{
+  "patients": 8,
+  "units": 16,
+  "cells": 7490,
+  "genes": 29634,
+  "library_totals_exact_match": true,
+  "independent_optimizer_max_coefficient_error": 7.025332204868562e-09,
+  "normalization": "per-library full-count log2(CPM+1); fixed offset; no TMM",
+  "historical_scores_used_for_fit": false,
+  "all_feature_scaling_training_only": true,
+  "no_patient_outcome_centering": true
+}

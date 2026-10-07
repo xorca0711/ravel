@@ -1,5 +1,7 @@
 # Research article roadmap
 
+**Subsequent portfolio pass:** [three group audits and governed extensions](../docs/portfolio_extensions/2026-10-07/README.md) cover every analysis package and registered RQ. Nb4-P09 supplies expression evidence for proposed A31; A11/A17/A25/A30 remain existing questions. Read the linked current result and its limits before an older plan.
+
 **Current execution checkpoint — 7 October 2026:** the [readiness audit](../docs/audits/2026-10-07-repository-readiness/REPORT.md) and [Wp corrections](gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) supersede earlier execution summaries. The owner’s reading queue and dated reading history are preserved; they do not direct automatic RQ selection.
 
 Ravel's paper studies can cover any biological context relevant to the questions

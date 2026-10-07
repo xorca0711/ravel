@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "status": "frozen",
+  "prior_outcome_exposure": "exposed",
+  "precision_status": "unknown",
+  "precision_basis": "Computational arithmetic tolerances only: endpoint1e-12 and coefficient1e-6. No biological effect margin, sample-size or precision claim is inferred.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "prediction",
+  "runtime": "python",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "amendment_of": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A11.g1_paired_prediction_v1.json",
+  "amendment_reason": "The first exposed gain could reflect extra regularization flexibility; this separate bounded diagnostic tests that concrete alternative using unchanged predictor spaces and already saved scores.",
+  "analysis_id": "A11.g1_capacity_qualification_v1",
+  "owner": "A11",
+  "analysis_type": "exploratory",
+  "question": "Does the observed residual-associated paired log-loss gain exceed gains obtainable by duplicating a fixed baseline feature without adding predictor information?",
+  "decision": "Qualify whether regularization geometry is a sufficient explanation for the first exposed internal gain before attributing incremental biological information to the lesion residual.",
+  "strongest_rival": "Under fixed L2, correlated or duplicate features distribute coefficients across penalties and can increase predictive confidence even when the linear predictor space is unchanged.",
+  "discriminator": "Duplicate each of the four baseline columns one at a time, retaining exactly the existing leave-one-patient-out folds, training-only scales and lambda=1 primary/.1/10 sensitivities. Compare all controls directly to the frozen residual result.",
+  "evidence_refs": [
+    "docs/portfolio_extensions/2026-10-07/g1_epithelial/LITERATURE.md",
+    "RQ_Specified/A11_lesion_programme_addition/README.md",
+    "RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md"
+  ],
+  "exposure_record": "The A11 paired-prediction v1 gain and all patients being correctly ordered were inspected before this diagnostic. The control calculations remain unexecuted at freeze. This is an exposed qualification amendment, not confirmation.",
+  "biological_unit": "Eight source-supported paired patients; each contains normal-AT2 and author-labelled tumour epithelial pseudobulks.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Cells form pseudobulks nested in samples and patients. Eight folds share training patients and are not independent model-training experiments. This reuses the original Kim cohort.",
+  "population_and_selection": "Exactly the saved eight patient pairs and fixed shared_remodelling/p53/hypoxia/inflammatory-response scores from g1_a11_paired_prediction_v1. No raw reprocessing, new gene, new biological score or sample selection.",
+  "contrast": "Same four-feature baseline versus the same baseline with one of its four columns duplicated; compare each five-column control to the existing five-column lesion-augmented model. Display all four controls, all three penalties and all eight patients.",
+  "endpoint": "Equal-patient mean held-out paired log loss and control gain over baseline; lesion gain relative to each duplicate control. Counts of patients better under each control remain descriptive.",
+  "methods": "Reuse the frozen fit function and saved per-library scores. Train-only scaling and paired L2 logistic fit with the same optimizer checks. A synthetic test verifies that duplicating a column equals halving that coordinate penalty without expanding the linear predictor space. Independently reconstruct all prior 72 probabilities/losses and six aggregate gains with standard-library arithmetic from saved scores and coefficients; tolerance1e-12.",
+  "missingness_and_exclusions": "No exclusions or tuning. Fail if the original endpoint arithmetic, optimizer agreement or paired design checks fail. All96 control predictions and12 aggregate comparisons are retained.",
+  "multiplicity": "All four duplicates are equally reported controls, not biological hypotheses or a search for the most favorable baseline. Lambda=1 stays primary; .1/10 stay sensitivity. No p-values or biological CIs.",
+  "interpretation_limit": "A duplicate gain is a property of penalty geometry, not biology. Residual superiority over these controls would still be exposed internal measurement evidence, not mechanism, cancer specificity, prospective fate or an independently validated biomarker.",
+  "stop_rule": "Stop on failed endpoint/coefficient checks. Preserve the original positive result, every control and any ambiguity; do not tune penalties or nominate alternate genes to restore a favored reading.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/module_scores.tsv",
+      "sha256": "2216703e123178e59948aebb41ff298d705f7069077f3ddf0f73f933c1100b1f",
+      "study_id": "GSE131907_reused_A11_v1",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/coefficients.tsv",
+      "sha256": "39595f34edb7f251bcf6065b48af2579394499a032ece8a2fdb8a56608cb0445",
+      "study_id": "GSE131907_reused_A11_v1",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/heldout_predictions.tsv",
+      "sha256": "6c9a02442fa36f881abfae3d059004a98c898fb6a48272819d2ae3d694d8fd1e",
+      "study_id": "GSE131907_reused_A11_v1",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/g1_a11_paired_prediction_v1/comparisons.tsv",
+      "sha256": "1ac2ace81f98d218f022c4d20c6b584542bdd350d3d9f7e3096ba8d92bf56908",
+      "study_id": "GSE131907_reused_A11_v1",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_capacity_qualification_v1.py",
+      "sha256": "8b2cc906b46cebe8a4329ed6c84c6e74f7205b7662d3d207239fc8e5edc82d4d"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_paired_prediction_v1.py",
+      "sha256": "110e9ad0576c7cf4c9dd9f9ae524c6df255da21d7fe07565f7ca8f7a21ccc465"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/test_a11_capacity_v1.py",
+      "sha256": "07ac3807cd84f7d278fac63a3afebc8e9b6292842826a00f2513b12b8c92a896"
+    }
+  ],
+  "entrypoint": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_capacity_qualification_v1.py",
+  "expected_outputs": [
+    "duplicate_predictions.tsv",
+    "capacity_comparisons.tsv",
+    "verification.json"
+  ]
+}

@@ -1,5 +1,7 @@
 # A11: lesion-associated programme beyond shared plasticity
 
+**Subsequent evidence — 7 October 2026:** [patient-held-out prediction and capacity qualification](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) preserve the positive log-loss gain but show that a duplicated p53 baseline feature can do slightly better. Unique lesion information is unestablished; this is exposed internal paired discrimination, not independent validation or later outcome prediction.
+
 <!-- current-rq-framing:start -->
 ## Current biological hypothesis and novelty boundary — 3 October 2026
 

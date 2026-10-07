@@ -1,0 +1,85 @@
+cohort	assay	donor	sensitivity	gene	floor	delta_log2cpm	delta_detection	n_strata
+Madissoon	Madissoon cell	A26	all	GRIA1	10	4.25403836574	0.0880966417772	4
+Madissoon	Madissoon cell	A26	all	GRIA1	20	4.25403836574	0.0880966417772	4
+Madissoon	Madissoon cell	A26	all	SCN7A	10	2.81591509274	0.275608799508	4
+Madissoon	Madissoon cell	A26	all	SCN7A	20	2.81591509274	0.275608799508	4
+Madissoon	Madissoon cell	A26	exclude_neural_flag	GRIA1	10	4.25403836574	0.0880966417772	4
+Madissoon	Madissoon cell	A26	exclude_neural_flag	GRIA1	20	4.25403836574	0.0880966417772	4
+Madissoon	Madissoon cell	A26	exclude_neural_flag	SCN7A	10	2.81591509274	0.275608799508	4
+Madissoon	Madissoon cell	A26	exclude_neural_flag	SCN7A	20	2.81591509274	0.275608799508	4
+Madissoon	Madissoon cell	A37	all	GRIA1	10	2.78270605519	0.0232558139535	1
+Madissoon	Madissoon cell	A37	all	GRIA1	20	2.78270605519	0.0232558139535	1
+Madissoon	Madissoon cell	A37	all	SCN7A	10	1.58824218012	0.0836689619332	1
+Madissoon	Madissoon cell	A37	all	SCN7A	20	1.58824218012	0.0836689619332	1
+Madissoon	Madissoon cell	A37	exclude_neural_flag	GRIA1	10	2.78270605519	0.0232558139535	1
+Madissoon	Madissoon cell	A37	exclude_neural_flag	GRIA1	20	2.78270605519	0.0232558139535	1
+Madissoon	Madissoon cell	A37	exclude_neural_flag	SCN7A	10	1.58824218012	0.0836689619332	1
+Madissoon	Madissoon cell	A37	exclude_neural_flag	SCN7A	20	1.58824218012	0.0836689619332	1
+Madissoon	Madissoon cell	A43	all	GRIA1	10	3.247623693	0.0615344812086	2
+Madissoon	Madissoon cell	A43	all	GRIA1	20	3.247623693	0.0615344812086	2
+Madissoon	Madissoon cell	A43	all	SCN7A	10	1.94555199903	0.220810776297	2
+Madissoon	Madissoon cell	A43	all	SCN7A	20	1.94555199903	0.220810776297	2
+Madissoon	Madissoon cell	A43	exclude_neural_flag	GRIA1	10	3.247623693	0.0615344812086	2
+Madissoon	Madissoon cell	A43	exclude_neural_flag	GRIA1	20	3.247623693	0.0615344812086	2
+Madissoon	Madissoon cell	A43	exclude_neural_flag	SCN7A	10	1.94555199903	0.220810776297	2
+Madissoon	Madissoon cell	A43	exclude_neural_flag	SCN7A	20	1.94555199903	0.220810776297	2
+Madissoon	Madissoon cell	A44	all	GRIA1	10	4.11699093961	0.18947858473	2
+Madissoon	Madissoon cell	A44	all	GRIA1	20	4.11699093961	0.18947858473	2
+Madissoon	Madissoon cell	A44	all	SCN7A	10	1.82327110567	0.292148735508	2
+Madissoon	Madissoon cell	A44	all	SCN7A	20	1.82327110567	0.292148735508	2
+Madissoon	Madissoon cell	A44	exclude_neural_flag	GRIA1	10	4.11699093961	0.18947858473	2
+Madissoon	Madissoon cell	A44	exclude_neural_flag	GRIA1	20	4.11699093961	0.18947858473	2
+Madissoon	Madissoon cell	A44	exclude_neural_flag	SCN7A	10	1.82327110567	0.292148735508	2
+Madissoon	Madissoon cell	A44	exclude_neural_flag	SCN7A	20	1.82327110567	0.292148735508	2
+Madissoon	Madissoon nucleus	A26	all	GRIA1	10	2.47439774266	0.474013605442	1
+Madissoon	Madissoon nucleus	A26	all	GRIA1	20	2.47439774266	0.474013605442	1
+Madissoon	Madissoon nucleus	A26	all	SCN7A	10	2.22935577894	0.326802721088	1
+Madissoon	Madissoon nucleus	A26	all	SCN7A	20	2.22935577894	0.326802721088	1
+Madissoon	Madissoon nucleus	A26	exclude_neural_flag	GRIA1	10	2.47439774266	0.474013605442	1
+Madissoon	Madissoon nucleus	A26	exclude_neural_flag	GRIA1	20	2.47439774266	0.474013605442	1
+Madissoon	Madissoon nucleus	A26	exclude_neural_flag	SCN7A	10	2.22935577894	0.326802721088	1
+Madissoon	Madissoon nucleus	A26	exclude_neural_flag	SCN7A	20	2.22935577894	0.326802721088	1
+Madissoon	Madissoon nucleus	A48	all	GRIA1	10	3.19459654278	0.563824884793	1
+Madissoon	Madissoon nucleus	A48	all	GRIA1	20	3.19459654278	0.563824884793	1
+Madissoon	Madissoon nucleus	A48	all	SCN7A	10	0.947660327828	0.258294930876	1
+Madissoon	Madissoon nucleus	A48	all	SCN7A	20	0.947660327828	0.258294930876	1
+Madissoon	Madissoon nucleus	A48	exclude_neural_flag	GRIA1	10	3.19459654278	0.563824884793	1
+Madissoon	Madissoon nucleus	A48	exclude_neural_flag	GRIA1	20	3.19459654278	0.563824884793	1
+Madissoon	Madissoon nucleus	A48	exclude_neural_flag	SCN7A	10	0.947660327828	0.258294930876	1
+Madissoon	Madissoon nucleus	A48	exclude_neural_flag	SCN7A	20	0.947660327828	0.258294930876	1
+Travaglini	10x	P1	all	GRIA1	10	3.94328485502	0.0444444444444	1
+Travaglini	10x	P1	all	GRIA1	20	3.94328485502	0.0444444444444	1
+Travaglini	10x	P1	all	SCN7A	10	1.95890064613	0.34269005848	1
+Travaglini	10x	P1	all	SCN7A	20	1.95890064613	0.34269005848	1
+Travaglini	10x	P1	exclude_neural_flag	GRIA1	10	3.94328485502	0.0444444444444	1
+Travaglini	10x	P1	exclude_neural_flag	GRIA1	20	3.94328485502	0.0444444444444	1
+Travaglini	10x	P1	exclude_neural_flag	SCN7A	10	1.95890064613	0.34269005848	1
+Travaglini	10x	P1	exclude_neural_flag	SCN7A	20	1.95890064613	0.34269005848	1
+Travaglini	10x	P2	all	GRIA1	10	5.59977626388	0.115702479339	1
+Travaglini	10x	P2	all	SCN7A	10	2.1848952986	0.30303030303	1
+Travaglini	10x	P2	exclude_neural_flag	GRIA1	10	5.59977626388	0.115702479339	1
+Travaglini	10x	P2	exclude_neural_flag	SCN7A	10	2.1848952986	0.30303030303	1
+Travaglini	10x	P3	all	GRIA1	10	3.35687783677	0.0795866674342	1
+Travaglini	10x	P3	all	GRIA1	20	3.35687783677	0.0795866674342	1
+Travaglini	10x	P3	all	SCN7A	10	3.49838887264	0.535432617581	1
+Travaglini	10x	P3	all	SCN7A	20	3.49838887264	0.535432617581	1
+Travaglini	10x	P3	exclude_neural_flag	GRIA1	10	3.35687783677	0.0795866674342	1
+Travaglini	10x	P3	exclude_neural_flag	GRIA1	20	3.35687783677	0.0795866674342	1
+Travaglini	10x	P3	exclude_neural_flag	SCN7A	10	3.49838887264	0.535432617581	1
+Travaglini	10x	P3	exclude_neural_flag	SCN7A	20	3.49838887264	0.535432617581	1
+Travaglini	SS2	P1	all	GRIA1	10	6.32537881153	0.387962962963	1
+Travaglini	SS2	P1	all	GRIA1	20	6.32537881153	0.387962962963	1
+Travaglini	SS2	P1	all	SCN7A	10	2.89185561208	0.129166666667	1
+Travaglini	SS2	P1	all	SCN7A	20	2.89185561208	0.129166666667	1
+Travaglini	SS2	P1	exclude_neural_flag	GRIA1	10	6.32537881153	0.387962962963	1
+Travaglini	SS2	P1	exclude_neural_flag	GRIA1	20	6.32537881153	0.387962962963	1
+Travaglini	SS2	P1	exclude_neural_flag	SCN7A	10	2.89185561208	0.129166666667	1
+Travaglini	SS2	P1	exclude_neural_flag	SCN7A	20	2.89185561208	0.129166666667	1
+Travaglini	SS2	P3	all	GRIA1	10	6.23765474721	0.335714285714	1
+Travaglini	SS2	P3	all	GRIA1	20	6.23765474721	0.335714285714	1
+Travaglini	SS2	P3	all	SCN7A	10	1.54258156988	0.302895752896	1
+Travaglini	SS2	P3	all	SCN7A	20	1.54258156988	0.302895752896	1
+Travaglini	SS2	P3	exclude_neural_flag	GRIA1	10	6.23765474721	0.335714285714	1
+Travaglini	SS2	P3	exclude_neural_flag	GRIA1	20	6.23765474721	0.335714285714	1
+Travaglini	SS2	P3	exclude_neural_flag	SCN7A	10	1.54258156988	0.302895752896	1
+Travaglini	SS2	P3	exclude_neural_flag	SCN7A	20	1.54258156988	0.302895752896	1

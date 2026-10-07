@@ -1,5 +1,7 @@
 # Question figure gallery
 
+**7 October extensions:** [A25 regional occupancy](../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) and [A30 common-support sensitivity](../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) have new measured figures. [A31](A31_gria1_fibroblast_response/README.md) has a qualitative proposal schematic; its source RNA figure belongs to [Nb4-P09](../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md).
+
 ## Hypothesis illustrations for all 28 questions
 
 The [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md)

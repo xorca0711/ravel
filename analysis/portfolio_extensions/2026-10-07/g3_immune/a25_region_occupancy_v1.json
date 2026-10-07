@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A25.region_occupancy_v1",
+  "owner": "A25",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How much do regional capture and sex support influence the exposed age differences in deposited microglial cluster occupancy?",
+  "decision": "Qualify regional and sex context before A25 state-versus-mixture modeling; determine whether fixed regional representation materially changes the descriptive source-cluster occupancy contrasts without claiming a new state.",
+  "strongest_rival": "Age-associated whole-brain cluster occupancy partly reflects changing regional capture or sex composition; source clustering and processing can also structure the same cells.",
+  "discriminator": "Estimate every deposited source cluster within each qualified mouse-region and compare equal-region versus captured-cell pooled fractions in the same complete-region mice. Retain all-sex, male-only and female-only support, including held old-female contrasts.",
+  "evidence_refs": [
+    "docs/portfolio_extensions/2026-10-07/g3_immune/A25_CONTEXT.md",
+    "RQ_Specified/A25_microglial_midlife_configuration/PLAN.md",
+    "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Exposed. Published atlas source occupancy and Nb5 descriptive/completion results were read. Existing case bridge, brain metadata and UMAP table headers/first rows were inspected. Source microglia and age/sex/region support are already public saved results. No new region-specific cluster contrast was computed before freeze; synthetic pure-region-mixture test only.",
+  "biological_unit": "Deposited mouse; brain regions and cells are nested observations.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Repeated regions share mice and all outputs reuse Tabula Muris Senis animals. No new cohort, independent replication, longitudinal transition or cell-level population inference.",
+  "population_and_selection": "All 13,130 exact-bridged case-object cells labelled microglial cell in both case and official annotations. Require source cell IDs unique and all joined age/mouse/sex/region labels concordant; strip terminal whitespace from region names only. Retain every source Leiden cluster. Each mouse-region needs 20 captured microglia; equal-region standardization requires all four named regions in that mouse.",
+  "contrast": "18-minus-3 and 24-minus-3-month equal-mouse mean cluster-fraction differences for cortex, cerebellum, hippocampus, striatum, pooled-all mice, pooled-complete-region mice and equal-region-complete mice; all, male, female scopes. Each contrast needs at least two mice at both ages solely for defined deletion sensitivity.",
+  "endpoint": "Captured source-Leiden cluster fractions, per mouse/region and whole mouse; age mean differences in fraction units and leave-one-mouse-out ranges; complete-region unit identities and every failed eligibility cell.",
+  "methods": "Count all source cluster IDs with zero counts retained within an observed qualified mouse-region. All-cell pooled fractions weight captured cells. Equal-region fractions average the four within-region fractions at weight 1/4 in mice qualified for all regions; compare with pooled fractions from those same mice. Age means weight mice equally. Enumerate all clusters and fixed scopes. Compute deletion ranges omitting each mouse in either age group; no resampled cells or significance tests. Independently reconstruct fractions from Python Counters and verify per-mouse/basis fractions sum to one.",
+  "missingness_and_exclusions": "Record missing/under-20 mouse-regions and held comparisons with fewer than two mice at either age. Missing regions are never zero occupancy. Cluster absence within an observed eligible region is a zero. No relabeling of source clusters as published intermediate states or merging of ages/sexes to obtain eligibility.",
+  "multiplicity": "No p values, ranking or significance labels; every cluster, sex scope, region basis and declared age comparison is retained.",
+  "precision_status": "unknown",
+  "precision_basis": "At most 6/4/4 mice and all old mice male; missing regions reduce support. Two mice and twenty cells are descriptive eligibility conventions, not precision or power justification. Deletion ranges are not confidence intervals.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "This describes captured proportions on exposed source cluster labels, not absolute cell abundance, functional microglial states, validated paper-state correspondence, independent replication, within-cell ageing transitions or an age effect adjusted for sex. A25 held-out state-versus-mixture model remains unrun.",
+  "stop_rule": "Stop on duplicate cell IDs, discordant source annotations or age/mouse/sex/region joins, unexpected source microglia count, non-prespecified region or age labels. Preserve all failed support and unfavorable changes. Do not change cluster labels or floor after outcomes.",
+  "runtime": "python",
+  "entrypoint": "analysis/portfolio_extensions/2026-10-07/g3_immune/a25_region_occupancy_v1.py",
+  "arguments": [
+    "--input",
+    "analysis/research/runs/nb5_completion_metadata_v2/case_brain_join.tsv",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "region_support.csv",
+    "mouse_cluster_fractions.csv",
+    "age_contrasts.csv",
+    "verification.json",
+    "results.json",
+    "region_occupancy.png",
+    "region_occupancy.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New exposed descriptive extension qualifying region and sex context; preserves original source-occupancy reports and does not supersede their populations or complete A25 model design.",
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g3_immune/a25_region_occupancy_v1.py",
+      "sha256": "b7ca690f6d6be727cf80c9686fb11b6aaf27fb261c418f83805be0baab1c9665"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/case_brain_join.tsv",
+      "sha256": "825bcff756c6f334b548ad709f3693970f6944fae0a225e3edcb9cc2b33f5f2d",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ]
+}

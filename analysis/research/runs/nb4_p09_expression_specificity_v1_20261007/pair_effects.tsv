@@ -1,0 +1,185 @@
+cohort	assay	donor	region	protocol	sensitivity	gene	floor	n_alveolar	n_adventitial	eligible	delta_log2cpm	delta_detection
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	all	GRIA1	20	169	319	True	4.90482005412	0.132607445605
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	all	GRIA1	10	169	319	True	4.90482005412	0.132607445605
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	all	SCN7A	20	169	319	True	4.67408402657	0.548385301701
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	all	SCN7A	10	169	319	True	4.67408402657	0.548385301701
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	exclude_neural_flag	GRIA1	20	169	319	True	4.90482005412	0.132607445605
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	exclude_neural_flag	GRIA1	10	169	319	True	4.90482005412	0.132607445605
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	exclude_neural_flag	SCN7A	20	169	319	True	4.67408402657	0.548385301701
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	exclude_neural_flag	SCN7A	10	169	319	True	4.67408402657	0.548385301701
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	all	GRIA1	20	610	493	True	3.30980944705	0.0537924383999
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	all	GRIA1	10	610	493	True	3.30980944705	0.0537924383999
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	all	SCN7A	20	610	493	True	2.29522909534	0.147421274898
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	all	SCN7A	10	610	493	True	2.29522909534	0.147421274898
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	exclude_neural_flag	GRIA1	20	610	493	True	3.30980944705	0.0537924383999
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	exclude_neural_flag	GRIA1	10	610	493	True	3.30980944705	0.0537924383999
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	exclude_neural_flag	SCN7A	20	610	493	True	2.29522909534	0.147421274898
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	exclude_neural_flag	SCN7A	10	610	493	True	2.29522909534	0.147421274898
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	all	GRIA1	20	69	66	True	4.76770668259	0.0434782608696
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	all	GRIA1	10	69	66	True	4.76770668259	0.0434782608696
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	all	SCN7A	20	69	66	True	2.43309628838	0.16534914361
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	all	SCN7A	10	69	66	True	2.43309628838	0.16534914361
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	exclude_neural_flag	GRIA1	20	69	66	True	4.76770668259	0.0434782608696
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	exclude_neural_flag	GRIA1	10	69	66	True	4.76770668259	0.0434782608696
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	exclude_neural_flag	SCN7A	20	69	66	True	2.43309628838	0.16534914361
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	exclude_neural_flag	SCN7A	10	69	66	True	2.43309628838	0.16534914361
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	all	GRIA1	20	416	274	True	4.03381727919	0.122508422235
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	all	GRIA1	10	416	274	True	4.03381727919	0.122508422235
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	all	SCN7A	20	416	274	True	1.86125096068	0.241279477821
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	all	SCN7A	10	416	274	True	1.86125096068	0.241279477821
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	exclude_neural_flag	GRIA1	20	416	274	True	4.03381727919	0.122508422235
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	exclude_neural_flag	GRIA1	10	416	274	True	4.03381727919	0.122508422235
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	exclude_neural_flag	SCN7A	20	416	274	True	1.86125096068	0.241279477821
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	exclude_neural_flag	SCN7A	10	416	274	True	1.86125096068	0.241279477821
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	all	GRIA1	20	4	38	False	7.94997309837	0.25
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	all	GRIA1	10	4	38	False	7.94997309837	0.25
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	all	SCN7A	20	4	38	False	2.45178599424	0.434210526316
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	all	SCN7A	10	4	38	False	2.45178599424	0.434210526316
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	exclude_neural_flag	GRIA1	20	4	38	False	7.94997309837	0.25
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	exclude_neural_flag	GRIA1	10	4	38	False	7.94997309837	0.25
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	exclude_neural_flag	SCN7A	20	4	38	False	2.45178599424	0.434210526316
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	exclude_neural_flag	SCN7A	10	4	38	False	2.45178599424	0.434210526316
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	20	43	179	True	2.78270605519	0.0232558139535
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	10	43	179	True	2.78270605519	0.0232558139535
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	20	43	179	True	1.58824218012	0.0836689619332
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	10	43	179	True	1.58824218012	0.0836689619332
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	20	43	179	True	2.78270605519	0.0232558139535
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	10	43	179	True	2.78270605519	0.0232558139535
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	20	43	179	True	1.58824218012	0.0836689619332
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	10	43	179	True	1.58824218012	0.0836689619332
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	20	6	27	False	4.94081881875	0.12962962963
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	10	6	27	False	4.94081881875	0.12962962963
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	20	6	27	False	1.52567461288	-0.12962962963
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	10	6	27	False	1.52567461288	-0.12962962963
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	20	6	27	False	4.94081881875	0.12962962963
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	10	6	27	False	4.94081881875	0.12962962963
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	20	6	27	False	1.52567461288	-0.12962962963
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	10	6	27	False	1.52567461288	-0.12962962963
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	20	1	6	False	0	0
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	10	1	6	False	0	0
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	20	1	6	False	-5.01481426893	-0.166666666667
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	10	1	6	False	-5.01481426893	-0.166666666667
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	20	1	6	False	0	0
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	10	1	6	False	0	0
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	20	1	6	False	-5.01481426893	-0.166666666667
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	10	1	6	False	-5.01481426893	-0.166666666667
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	20	542	430	True	2.57796431246	0.0718784862267
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	10	542	430	True	2.57796431246	0.0718784862267
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	20	542	430	True	1.23684500211	0.23709774307
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	10	542	430	True	1.23684500211	0.23709774307
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	20	542	430	True	2.57796431246	0.0718784862267
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	10	542	430	True	2.57796431246	0.0718784862267
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	20	542	430	True	1.23684500211	0.23709774307
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	10	542	430	True	1.23684500211	0.23709774307
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	20	175	168	True	3.91728307353	0.0511904761905
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	10	175	168	True	3.91728307353	0.0511904761905
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	20	175	168	True	2.65425899596	0.204523809524
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	10	175	168	True	2.65425899596	0.204523809524
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	20	175	168	True	3.91728307353	0.0511904761905
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	10	175	168	True	3.91728307353	0.0511904761905
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	20	175	168	True	2.65425899596	0.204523809524
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	10	175	168	True	2.65425899596	0.204523809524
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	20	179	105	True	2.52560095602	0.164671455174
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	10	179	105	True	2.52560095602	0.164671455174
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	20	179	105	True	1.21628037847	0.249428039372
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	10	179	105	True	1.21628037847	0.249428039372
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	20	179	105	True	2.52560095602	0.164671455174
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	10	179	105	True	2.52560095602	0.164671455174
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	20	179	105	True	1.21628037847	0.249428039372
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	10	179	105	True	1.21628037847	0.249428039372
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	all	GRIA1	20	1	10	False	0	0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	all	GRIA1	10	1	10	False	0	0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	all	SCN7A	20	1	10	False	3.72397178845	0.5
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	all	SCN7A	10	1	10	False	3.72397178845	0.5
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	exclude_neural_flag	GRIA1	20	1	10	False	0	0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	exclude_neural_flag	GRIA1	10	1	10	False	0	0
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	exclude_neural_flag	SCN7A	20	1	10	False	3.72397178845	0.5
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	exclude_neural_flag	SCN7A	10	1	10	False	3.72397178845	0.5
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	20	42	93	True	5.70838092319	0.214285714286
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	GRIA1	10	42	93	True	5.70838092319	0.214285714286
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	20	42	93	True	2.43026183287	0.334869431644
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	all	SCN7A	10	42	93	True	2.43026183287	0.334869431644
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	20	42	93	True	5.70838092319	0.214285714286
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	GRIA1	10	42	93	True	5.70838092319	0.214285714286
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	20	42	93	True	2.43026183287	0.334869431644
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	exclude_neural_flag	SCN7A	10	42	93	True	2.43026183287	0.334869431644
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	all	GRIA1	20	2	1	False	0	0
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	all	GRIA1	10	2	1	False	0	0
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	all	SCN7A	20	2	1	False	0	0
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	all	SCN7A	10	2	1	False	0	0
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	exclude_neural_flag	GRIA1	20	2	1	False	0	0
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	exclude_neural_flag	GRIA1	10	2	1	False	0	0
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	exclude_neural_flag	SCN7A	20	2	1	False	0	0
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	exclude_neural_flag	SCN7A	10	2	1	False	0	0
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	all	GRIA1	20	1	23	False	0	0
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	all	GRIA1	10	1	23	False	0	0
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	all	SCN7A	20	1	23	False	-8.26638000075	-0.0869565217391
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	all	SCN7A	10	1	23	False	-8.26638000075	-0.0869565217391
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	exclude_neural_flag	GRIA1	20	1	23	False	0	0
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	exclude_neural_flag	GRIA1	10	1	23	False	0	0
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	exclude_neural_flag	SCN7A	20	1	23	False	-8.26638000075	-0.0869565217391
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	exclude_neural_flag	SCN7A	10	1	23	False	-8.26638000075	-0.0869565217391
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	all	GRIA1	20	245	75	True	2.47439774266	0.474013605442
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	all	GRIA1	10	245	75	True	2.47439774266	0.474013605442
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	all	SCN7A	20	245	75	True	2.22935577894	0.326802721088
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	all	SCN7A	10	245	75	True	2.22935577894	0.326802721088
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	exclude_neural_flag	GRIA1	20	245	75	True	2.47439774266	0.474013605442
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	exclude_neural_flag	GRIA1	10	245	75	True	2.47439774266	0.474013605442
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	exclude_neural_flag	SCN7A	20	245	75	True	2.22935577894	0.326802721088
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	exclude_neural_flag	SCN7A	10	245	75	True	2.22935577894	0.326802721088
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	all	GRIA1	20	310	28	True	3.19459654278	0.563824884793
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	all	GRIA1	10	310	28	True	3.19459654278	0.563824884793
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	all	SCN7A	20	310	28	True	0.947660327828	0.258294930876
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	all	SCN7A	10	310	28	True	0.947660327828	0.258294930876
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	exclude_neural_flag	GRIA1	20	310	28	True	3.19459654278	0.563824884793
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	exclude_neural_flag	GRIA1	10	310	28	True	3.19459654278	0.563824884793
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	exclude_neural_flag	SCN7A	20	310	28	True	0.947660327828	0.258294930876
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	exclude_neural_flag	SCN7A	10	310	28	True	0.947660327828	0.258294930876
+Travaglini	10x	P1	distal	10x	all	GRIA1	20	45	133	True	3.94328485502	0.0444444444444
+Travaglini	10x	P1	distal	10x	all	GRIA1	10	45	133	True	3.94328485502	0.0444444444444
+Travaglini	10x	P1	distal	10x	all	SCN7A	20	45	133	True	1.95890064613	0.34269005848
+Travaglini	10x	P1	distal	10x	all	SCN7A	10	45	133	True	1.95890064613	0.34269005848
+Travaglini	10x	P1	distal	10x	exclude_neural_flag	GRIA1	20	45	133	True	3.94328485502	0.0444444444444
+Travaglini	10x	P1	distal	10x	exclude_neural_flag	GRIA1	10	45	133	True	3.94328485502	0.0444444444444
+Travaglini	10x	P1	distal	10x	exclude_neural_flag	SCN7A	20	45	133	True	1.95890064613	0.34269005848
+Travaglini	10x	P1	distal	10x	exclude_neural_flag	SCN7A	10	45	133	True	1.95890064613	0.34269005848
+Travaglini	10x	P2	distal	10x	all	GRIA1	20	121	15	False	5.59977626388	0.115702479339
+Travaglini	10x	P2	distal	10x	all	GRIA1	10	121	15	True	5.59977626388	0.115702479339
+Travaglini	10x	P2	distal	10x	all	SCN7A	20	121	15	False	2.1848952986	0.30303030303
+Travaglini	10x	P2	distal	10x	all	SCN7A	10	121	15	True	2.1848952986	0.30303030303
+Travaglini	10x	P2	distal	10x	exclude_neural_flag	GRIA1	20	121	15	False	5.59977626388	0.115702479339
+Travaglini	10x	P2	distal	10x	exclude_neural_flag	GRIA1	10	121	15	True	5.59977626388	0.115702479339
+Travaglini	10x	P2	distal	10x	exclude_neural_flag	SCN7A	20	121	15	False	2.1848952986	0.30303030303
+Travaglini	10x	P2	distal	10x	exclude_neural_flag	SCN7A	10	121	15	True	2.1848952986	0.30303030303
+Travaglini	10x	P3	distal	10x	all	GRIA1	20	599	58	True	3.35687783677	0.0795866674342
+Travaglini	10x	P3	distal	10x	all	GRIA1	10	599	58	True	3.35687783677	0.0795866674342
+Travaglini	10x	P3	distal	10x	all	SCN7A	20	599	58	True	3.49838887264	0.535432617581
+Travaglini	10x	P3	distal	10x	all	SCN7A	10	599	58	True	3.49838887264	0.535432617581
+Travaglini	10x	P3	distal	10x	exclude_neural_flag	GRIA1	20	599	58	True	3.35687783677	0.0795866674342
+Travaglini	10x	P3	distal	10x	exclude_neural_flag	GRIA1	10	599	58	True	3.35687783677	0.0795866674342
+Travaglini	10x	P3	distal	10x	exclude_neural_flag	SCN7A	20	599	58	True	3.49838887264	0.535432617581
+Travaglini	10x	P3	distal	10x	exclude_neural_flag	SCN7A	10	599	58	True	3.49838887264	0.535432617581
+Travaglini	SS2	P1	distal	SS2	all	GRIA1	20	80	54	True	6.32537881153	0.387962962963
+Travaglini	SS2	P1	distal	SS2	all	GRIA1	10	80	54	True	6.32537881153	0.387962962963
+Travaglini	SS2	P1	distal	SS2	all	SCN7A	20	80	54	True	2.89185561208	0.129166666667
+Travaglini	SS2	P1	distal	SS2	all	SCN7A	10	80	54	True	2.89185561208	0.129166666667
+Travaglini	SS2	P1	distal	SS2	exclude_neural_flag	GRIA1	20	80	54	True	6.32537881153	0.387962962963
+Travaglini	SS2	P1	distal	SS2	exclude_neural_flag	GRIA1	10	80	54	True	6.32537881153	0.387962962963
+Travaglini	SS2	P1	distal	SS2	exclude_neural_flag	SCN7A	20	80	54	True	2.89185561208	0.129166666667
+Travaglini	SS2	P1	distal	SS2	exclude_neural_flag	SCN7A	10	80	54	True	2.89185561208	0.129166666667
+Travaglini	SS2	P2	distal	SS2	all	GRIA1	20	28	4	False	7.24864711538	0.321428571429
+Travaglini	SS2	P2	distal	SS2	all	GRIA1	10	28	4	False	7.24864711538	0.321428571429
+Travaglini	SS2	P2	distal	SS2	all	SCN7A	20	28	4	False	2.21904744936	-0.0357142857143
+Travaglini	SS2	P2	distal	SS2	all	SCN7A	10	28	4	False	2.21904744936	-0.0357142857143
+Travaglini	SS2	P2	distal	SS2	exclude_neural_flag	GRIA1	20	28	4	False	7.24864711538	0.321428571429
+Travaglini	SS2	P2	distal	SS2	exclude_neural_flag	GRIA1	10	28	4	False	7.24864711538	0.321428571429
+Travaglini	SS2	P2	distal	SS2	exclude_neural_flag	SCN7A	20	28	4	False	2.21904744936	-0.0357142857143
+Travaglini	SS2	P2	distal	SS2	exclude_neural_flag	SCN7A	10	28	4	False	2.21904744936	-0.0357142857143
+Travaglini	SS2	P3	distal	SS2	all	GRIA1	20	140	37	True	6.23765474721	0.335714285714
+Travaglini	SS2	P3	distal	SS2	all	GRIA1	10	140	37	True	6.23765474721	0.335714285714
+Travaglini	SS2	P3	distal	SS2	all	SCN7A	20	140	37	True	1.54258156988	0.302895752896
+Travaglini	SS2	P3	distal	SS2	all	SCN7A	10	140	37	True	1.54258156988	0.302895752896
+Travaglini	SS2	P3	distal	SS2	exclude_neural_flag	GRIA1	20	140	37	True	6.23765474721	0.335714285714
+Travaglini	SS2	P3	distal	SS2	exclude_neural_flag	GRIA1	10	140	37	True	6.23765474721	0.335714285714
+Travaglini	SS2	P3	distal	SS2	exclude_neural_flag	SCN7A	20	140	37	True	1.54258156988	0.302895752896
+Travaglini	SS2	P3	distal	SS2	exclude_neural_flag	SCN7A	10	140	37	True	1.54258156988	0.302895752896

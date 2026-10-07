@@ -1,5 +1,7 @@
 # A30: Inflammatory RNA programmes in paired CSF and blood CD4 T cells
 
+**Subsequent evidence — 7 October 2026:** The [observed-support extension](../../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) has executed. Primary common-state support retains 8 donors (inflammatory median +0.03900); activation-standardized support retains 7 (+0.03810). Median coverage is 67.7% CSF / 33.0% blood after trimming; the floor-five interval crosses zero. These restricted estimands cannot replace the pooled result or exclude activation/trafficking. Raw lineage/doublet, barcode, null and functional qualifications remain.
+
 **Question:** Does the CSF-associated inflammatory RNA difference persist within
 comparable CD4 T-cell states after accounting for measured activation and composition?
 

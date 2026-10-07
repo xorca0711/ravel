@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A30.common_support_v1",
+  "owner": "A30",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Among observed cross-compartment states of a paired donor, does the inflammatory RNA association remain after support restriction and a continuous activation sensitivity?",
+  "decision": "Determine the scope over which the current A30 association is observed rather than assigned by absent-state filling; retain original and restricted target populations separately.",
+  "strongest_rival": "Apparent within-state support is sparse or missing in one compartment; residual activation, selective trafficking and broad-state mixtures can contribute to the RNA difference.",
+  "discriminator": "Estimate donor contrasts using only states observed in both compartments, report coverage, then separately restrict to continuous activation overlap and standardize by within-compartment linear slopes. No unobserved opposite-compartment means are filled.",
+  "evidence_refs": [
+    "docs/portfolio_extensions/2026-10-07/g3_immune/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Fully exposed. Original A30 v3 effects, current corrected reports and PTC41540 unsupported-state coverage were read. The saved cell table header and first row were inspected for schema. No new common-state or continuous-activation contrast was calculated before this contract; synthetic checks only. A later freeze does not erase exposure.",
+  "biological_unit": "Donor, paired. Ten donors contribute both compartments; cells are observations within donor.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Cells are nested in unit, unit in donor, and the two compartments of a donor are paired, which the contrast respects by differencing within donor. Strata are cut on a score computed from the same cells, so strata are not independent samples. The analysis reuses the GSE138266 deposit already analysed by Wp-R4 and by Schafflick et al. 2020; it shares one evidence lineage with both and is never independent replication.",
+  "population_and_selection": "Reuse the complete saved A30 v3 cell-state table. Ten paired donors. For each donor, common states require at least 20 cells per compartment; 5 and 50 are fixed sensitivity floors, not power calculations. Unpaired donors remain excluded. State labels and endpoint genes are unchanged. No raw barcode join or new QC gate is performed.",
+  "contrast": "Original pooled CSF-minus-PBMC difference and three separate restricted estimands: shared-state overlap-weighted difference; difference after trimming each shared state to intersecting compartment 5th-95th activation percentiles; compartment-specific linear predictions standardized to the mean of the two trimmed activation means.",
+  "endpoint": "Both authors inflammatory and regulatory mean z-score arms and the disjoint measured activation score, per donor. State overlap weights proportional to the smaller compartment cell count; coverage, eligibility, activation mean gap, bootstrap median intervals and donor-deletion ranges.",
+  "methods": "Fixed floors 20 primary and 5/50 sensitivity. No new clustering/scoring. State weights normalize min(n_CSF,n_blood) over each donor eligible state set and are identical for both compartments and all endpoints. Continuous-support trimming applies identical lower=max(q05_CSF,q05_blood) and upper=min(q95_CSF,q95_blood) bounds; retain the same floor after trimming. Separate ordinary least-squares slopes within each donor/state/compartment standardize to the mean of the two compartment activation means. Hold a state if either centered activation sum of squares is below 1e-10. No cell-level inference. Donor medians use 5000 donor bootstrap resamples, seed 20261007, and leave-one-donor-out sensitivity. Independent arithmetic uses raw-row sums and numpy least-squares fits. For linear standardization require the common target to lie between the actually retained minimum and maximum activation value in each compartment; intersecting percentile bounds alone does not establish observed support. Otherwise hold as linear_target_outside_observed_support.",
+  "missingness_and_exclusions": "Report every donor-state-floor eligibility including absent states, support failure and zero activation variance. No absent-state imputation. Report held donor/mode combinations and both compartment coverage; different restrictions define different populations. Stop on nonfinite scores or unexpected tissue/paired donor universe. Explicitly report a linear target outside either retained observed activation range as a held state.",
+  "multiplicity": "No p values, gene null or significance labels. All three endpoints and all fixed floors/modes are retained. Bootstrap intervals are descriptive pointwise sensitivity with only ten donors, not simultaneous or confirmatory intervals.",
+  "precision_status": "unknown",
+  "precision_basis": "At most ten exposed paired donors; coverage may reduce support. Floors define a computable state mean/slope and do not justify population precision. No biological effect margin or sample-size recommendation.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Saved RNA scores and de novo states remain operational. Restricted contrasts cannot replace the original all-cell estimand or identify local induction, trafficking, residency, protein function or causality. Activation adjustment may remove mediators, assumes local linearity, and cannot exclude unmeasured activation. No doublet/QC/null recalibration or independent biological replication is supplied.",
+  "stop_rule": "Keep every endpoint, floor, support exclusion and null/unfavorable contrast. No thresholds, state labels, slopes or score lists change after outcomes. Stop on nonfinite values, altered tissue labels or paired donor count other than ten. No new RQ or claim grade follows automatically.",
+  "runtime": "python",
+  "entrypoint": "analysis/portfolio_extensions/2026-10-07/g3_immune/a30_common_support_v1.py",
+  "arguments": [
+    "--input",
+    "analysis/research/runs/wp_a30_state_decomposition_v3/cell_states.csv.gz",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "state_support.csv",
+    "state_estimates.csv",
+    "donor_estimates.csv",
+    "summary.csv",
+    "verification.json",
+    "results.json",
+    "common_support.png",
+    "common_support.svg"
+  ],
+  "amendment_of": "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json",
+  "amendment_reason": "New exposed support sensitivity changes the target population and adds separately labelled continuous activation standardization; preserves all original v3 scores, states, pooled effects and absent-state decomposition.",
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g3_immune/a30_common_support_v1.py",
+      "sha256": "cb8845b543707084efb03af94081a047324d99be8cb3b13fe898d5c8a4cd0021"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/cell_states.csv.gz",
+      "sha256": "975ff310fdbcf776835fcca55599255f9a1c4f337bd79a227ebd5163d9400741",
+      "study_id": "GSE138266",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ]
+}

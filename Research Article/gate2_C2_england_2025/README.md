@@ -1,5 +1,7 @@
 # England et al. 2025: mutant AT2 cells and the repair programme
 
+**Subsequent evidence — 7 October 2026:** The [source-parameter ascertainment extension](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) now separates founder, retained-clone and expected-cell fractions. At week 4, 8% fast founders yield 8.24% of retained size>=2 clones and 95.01% of expected retained cells under the fixed model. This is a mathematical ratio of expectations, not measured tissue composition or a fitted founder-versus-switching result.
+
 [England et al., *Cell Stem Cell* 32, 375–390.e9](https://doi.org/10.1016/j.stem.2025.01.011).
 *Sustained NF-kB activation allows mutant alveolar stem cells to co-opt a
 regeneration program for tumor initiation.* Reading branch 2C, item 2; stable

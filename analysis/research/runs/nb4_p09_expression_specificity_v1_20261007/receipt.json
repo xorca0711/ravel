@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Nb4-P09.expression_specificity_v1",
+  "owner": "Nb4-P09",
+  "contract": "analysis/portfolio_extensions/2026-10-07/g2_niche/contract_v1.json",
+  "contract_sha256": "d1295cfb9bbaab28f8fb549108930e03fd52cd3d3476f967ead797ac69d61f95",
+  "git_commit": "95b0118f8374950baca6f74e9a459bebe312002b",
+  "started_at": "2026-10-07T09:07:11.806089+00:00",
+  "argv": [
+    "python",
+    "analysis/portfolio_extensions/2026-10-07/g2_niche/sensory_v1.py",
+    "--output",
+    "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "study_id": "Madissoon2023",
+      "unit_ids": [
+        "A26",
+        "A32",
+        "A37",
+        "A40",
+        "A41",
+        "A42",
+        "A43",
+        "A44",
+        "A47",
+        "A48"
+      ],
+      "role": "validation",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/prepared/cell_metadata.tsv",
+      "sha256": "95d849c51ef9c1922f4399a80cad04390a3d06b67ddd6195dfa904ad841221cb",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g2_niche/sensory_v1.py",
+      "sha256": "90a3d8e3ed2e9ca93aea97c73a472fc5163c043bfb9dbc5bd4c1a32d2f7ed1b5"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g2_niche/test_sensory_v1.py",
+      "sha256": "6e58c6440a4ce32fcb2aa0adcb9a2c18dc40eaf42fa6123a7d5ac0e0ce6b0bdd"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/cell_count_evidence.tsv.gz",
+      "sha256": "11a63e766fc7426850b6ca4b6416be2b9545f6f3ea3500a1faaa513bac0d863b"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/stratum_gene.tsv",
+      "sha256": "fc83bef12c01d847df67036f6b839a0f498a38d2f106a487a739b3aa3205fb50"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/joint_detection.tsv",
+      "sha256": "d8b3aef07c28f6fa825cc613b83f456961b1c70555fb485c17c281e816e4c531"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/pair_effects.tsv",
+      "sha256": "be8b377c4775356e588216959e356d0c0ee3533bbb532c42c4de33b1b5cb0fbd"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/donor_effects.tsv",
+      "sha256": "571581a07b20abb5a4b5dc3aa0f70d0f01ec6cf8a2d238508354f9caa1a9c3cd"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/summary.json",
+      "sha256": "e757981a8424db4fccd78ece90e667f3444125e8959ea79716878e670d16a270"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/verification.json",
+      "sha256": "60d4f4f4d47583bd00ef1fe87770cfc046def29b009c072e5db7ace143231514"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/sensory_v1.png",
+      "sha256": "7a56dbecf7da7e80b334d2dd47c69e663e3f3f86ec5440d7e339094f17a6ece7"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/sensory_v1.svg",
+      "sha256": "5fb0002d2403e107b71323cd1ecc5472f34907d2a664fc3008620f470b035323"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T09:07:46.802151+00:00"
+}

@@ -1,5 +1,7 @@
 # Nb4: Travaglini, Nabhan et al. 2020 human lung atlas
 
+**7 October P09 extension:** [fixed sensory-gene expression and transport](../../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md) is executed. Separate-gene enrichment and assay-sensitive co-detection support proposed [A31](../../RQ_Specified/A31_gria1_fibroblast_response/README.md); acute glutamate response remains unmeasured. [Full package/candidate audit](../../docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md).
+
 **Gate 2N, item N3 · source analysis complete; broader proposal plans structured 3 October 2026.**
 The requested folder name is preserved. **Nb4** is the owner-selected analysis
 label; early immutable `TN2020` records belong to this same analysis. Nb3 remains
