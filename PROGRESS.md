@@ -8,6 +8,8 @@ PR #146 is merged at `55e7cdeb679a103c570421279959b33be922331b`.
 The subsequent owner-authorized portfolio scan is on
 `codex/portfolio-extensions-20261007` in
 `X:\GitHub\scRNA_seq\.worktrees\ravel-rename-20261007`.
+Review and merge route: [PR #147](https://github.com/xorca0711/ravel/pull/147),
+opened ready for review (not draft), targeting `main`.
 The primary checkout and unrelated local metadata changes remain separately
 preserved. No new merge was performed by this task.
 
