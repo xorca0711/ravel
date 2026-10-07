@@ -2,6 +2,27 @@
 
 **Update this before stopping work, every session.**
 
+## PR140 and PR145 consolidation — 7 October 2026
+
+At the owner's request, retain [PR #145](https://github.com/xorca0711/ravel/pull/145)
+as the single combined PR and close [PR #140](https://github.com/xorca0711/ravel/pull/140)
+as superseded, preserving both branches and all commits. Ancestry verification
+shows #145 head `3496143` contains all of #140 (`74d6bd6`) and freshly fetched
+main `32174c9`. The existing integration commit `48ad937` already resolved the
+registry conflict; no rebase, force push, cherry-pick or scientific rerun is needed.
+
+Merge route: `codex/pr140-artifact-audit-20261007` → `main` through #145.
+Do not merge #140 separately. GitHub reports the combined branch mergeable and
+its prior head passed all CI; the progress-only consolidation commit will receive
+normal CI. The PR description now covers all four original governed runs plus
+the artifact/source audit, A30 baseline/schematic and agent-policy clarification.
+
+Draft status is retained: the known Compass orientation correction remains a
+versioned numerical follow-up, and A30 QC/null/common-state qualifications remain
+explicit. Consolidation is not scientific acceptance or a merge into main.
+Remote PR status and the final commit's CI are checked before handoff; protection
+settings and unresolved scientific requirements are unchanged.
+
 ## PR140 audit, A30 baseline and agent design guidance — 7 October 2026
 
 Completed the [Wp/PR140 artifact audit](docs/audits/2026-10-07-pr140/REPORT.md):
