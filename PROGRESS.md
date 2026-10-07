@@ -28,8 +28,8 @@ R4 cell gates are unchanged (35,928 cells); A30 v3 was already full-gene normali
 and was not rerun. No new claim grade or human scientific acceptance was created.
 
 Validation: 148 unit tests, all required archive verifiers, claim bindings,
-compilation and the research gate passed. The pre-inventory repository validator
-passed 10,757 checks. See the validation record for scope and final CI status.
+compilation and the research gate passed. The final repository validator
+passed 10,762 checks. See the validation record for scope and final CI status.
 
 ## Next analysis and remaining qualifications
 

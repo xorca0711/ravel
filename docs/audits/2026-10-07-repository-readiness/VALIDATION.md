@@ -10,7 +10,7 @@ implementation. GitHub CI will independently check the submitted commit.
 | Whole tracked-file inventory | 5,967 files, 783 Markdown, 1,190 parsed JSON, 2,612 scanned code/document/config text files; no missing tracked files, conflict markers or malformed JSON |
 | Registry coverage | 31 questions, 31 article candidates, 69 contracts, 64 registered receipts |
 | Research gate against current main | Passed, no errors; receipt hashes, frozen code, historical artifacts and guide declarations checked |
-| Repository validator | 10,757 checks passed before adding the generated inventory itself |
+| Repository validator | 10,762 checks passed on committed audit `af4f80a`, including the inventory and final R1 links |
 | Unit tests | 148 passed, no skips; task-local TEMP/TMP used |
 | Python source compilation | Passed for analysis, article and RQ trees; `.tools` excluded as in CI |
 | Claim bindings and generated summaries | Passed |
