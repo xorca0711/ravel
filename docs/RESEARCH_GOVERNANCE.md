@@ -6,7 +6,7 @@ requirements, not historical results, claim grades or scientific acceptance.
 
 ## Authority and scope
 
-`RESEARCH_QUESTIONS.md` owns the current A0–A27 questions. The dossiers under
+`RESEARCH_QUESTIONS.md` owns the current canonical question identities. The dossiers under
 `docs/research_dossiers/` develop their rationale, rivals and experimental bridges;
 they do not create additional global questions. `analysis/research/registry.json`
 locates each card, dossier, current evidence and future contract. Article-local
@@ -28,15 +28,23 @@ scores, more elaborate models, mechanistic wording or a new RQ identifier.
 
 Read the canonical card, dossier and current result together. Establish the
 published result, this repository's additional evidence, prior exposure and the
-precise remaining gap. Assess the leading explanation against the strongest
-rival. A source paper's conclusion, its reanalysis and a reused atlas are not
+precise remaining gap. Match the comparison to the research purpose. For a
+hypothesis-driven study, assess the leading explanation and relevant alternatives;
+for descriptive, replication or predictive work, identify the principal validity
+threat instead of inventing a molecular mechanism. A source paper's conclusion,
+its reanalysis and a reused atlas are not
 independent evidence. A literature gap is provisional until a targeted primary
 source review examines the actual proposed discriminator.
 
 The dossier names a next investigation and experimental bridge. It need not
 invent a molecular mediator before there is evidence. A useful first experiment
 can discriminate population selection from within-state change, or continued
-input from persistence after withdrawal. Endpoint choices must distinguish fate,
+input from persistence after withdrawal. These are examples, not compulsory
+designs. A mutant-versus-control experiment is sufficient to estimate a genotype
+effect when the unit, comparator, allocation/background, assay and precision
+support that inference. It need not isolate the entire causal pathway. Additional
+arms are justified by the intended claim, not by the presence of a rival field.
+Endpoint choices must distinguish fate,
 growth, survival, secretion and activity rather than exchange these labels.
 
 Assay choice, biological effect margin and sample-size justification may be
@@ -93,6 +101,15 @@ input/code SHA-256 values, study and biological-unit identities, exclusions,
 methods, multiplicity, interpretation limit and stop rule. References are portable
 repository-relative paths. Raw inputs may live in ignored `raw_data/`; they must
 be available and hash-matched at execution, but need not ship in the repository.
+
+The existing `strongest_rival` field records the consequential alternative or
+validity threat; `discriminator` records the comparison/check and what it cannot
+resolve. Neither field requires a second mechanistic hypothesis or extra arm.
+For metadata work, a mistaken source/sample identity is a legitimate threat.
+For descriptive estimation, selection or measurement bias may be the relevant
+threat. Explain an inapplicable item or unknown honestly rather than fabricate a
+biological rival. Existing schema, exposure, precision and execution checks remain
+in force. See the [decision workflow](AGENT_DECISION_WORKFLOW.md).
 
 Register the contract in `analysis/research/registry.json`. The owner is either an
 existing A identifier or a registered article-local candidate. To add a genuinely

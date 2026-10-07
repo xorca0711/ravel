@@ -21,12 +21,14 @@ Explain why it matters beyond the closest experiment and what remains unspecifie
 
 ## Current hypothesis and rival
 
-Full current hypothesis and strongest alternative, with comparison tuple and
-source-to-observation-to-question reasoning. Do not replace them with a broad label.
+Full current hypothesis and relevant alternative, or the estimand/prediction target
+and main validity threat for non-mechanistic work, with comparison tuple and
+source-to-observation-to-question reasoning. An alternative explanation is not
+a compulsory experimental arm. Do not invent a mechanism to complete this heading.
 
 ## What the comparison would teach
 
-Outcomes favoring either explanation, inconclusive outcomes, biological unit,
+Possible informative outcomes (including coexistence of explanations), inconclusive outcomes, biological unit,
 endpoint validity and interpretation limits. Missing laboratory facts stay open.
 
 ## Hypothesis schematic

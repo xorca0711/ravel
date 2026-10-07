@@ -1,5 +1,23 @@
 # A30 reanalysis leg: the elevation is not activation, and it is not only composition
 
+> **Current interpretation, 7 October 2026:** read the [PR140 audit](../../docs/audits/2026-10-07-pr140/REPORT.md) and [revised extension baseline](EXTENSION_BASELINE_V2.md). The historical text below is retained; activation exclusion, regulatory equivalence and TCR-based residency claims are not supported.
+
+> **Superseded in part — read
+> [A30_ERRATUM.md](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md)
+> first.** The v2 runs below divided each cell by the row sum of the loaded gene
+> subset instead of its all-gene library size, and drew only 1,000 matched random
+> sets, which gives a Monte-Carlo standard error larger than the distance from
+> the reported BH values to 0.05. Corrected and re-run at 10,000 draws as
+> `wp_a30_activation_stratified_v3` and `wp_a30_state_decomposition_v3`, the
+> pro-inflammatory arm is at **BH 0.032, 0.037, 0.032 — below 0.05 in all three
+> strata**, and the activation positive control is flat on the matched null but
+> marginal on Wilcoxon in two of three strata. **Everything below is the v2
+> record, kept unchanged; the erratum carries the current values.** The
+> conclusions that reverse are in §1 (the primary clears BH after all), §2 (the
+> totals move; the composition *shares* do not), §3 (two of the four
+> pre-declared decision rows read differently) and §5 (the limitation is
+> resolved). Each is flagged in place below.
+
 Executed 5 October 2026 under the governed runner. Two outcome rows of the
 question card fire together, which the card did not anticipate, and the honest
 reading is weaker than either row alone.
@@ -77,6 +95,14 @@ A majority of the difference is still within-state, and that term is positive
 in 8 of 10 donors, so this is not purely composition either. Both mechanisms
 contribute.
 
+> **v3 update.** The corrected denominator lowers both totals (+0.0710 → +0.0618
+> on the activation-stratum basis, +0.0710 → +0.0618 on the de novo basis) but
+> leaves the **shares essentially identical**: composition 38.7 % → 38.8 % and
+> within-state 56.3 % → 60.5 % over the same 23 states, within sign 8/10
+> unchanged. The v3 contract predicted this before execution, because the
+> clustering matrix was already normalised over all genes and only the means it
+> carried were wrong. **This section's conclusion is unaffected.**
+
 ### The version that would have misled
 
 The first state decomposition clustered on the 285 genes the scoring pass
@@ -110,6 +136,25 @@ competence unchanged — is **not refuted and not established**. The regulatory
 half of it holds up well; the effector half is attenuated by composition and
 left short of the threshold by precision.
 
+> **v3 update — two of the four rows read differently, and the concluding
+> paragraph above is withdrawn.** With the corrected denominator and 10,000
+> draws:
+>
+> | Pre-declared row | v2 reading | v3 reading |
+> |---|---|---|
+> | Elevation persists within matched activation strata, pro-regulatory flat | Partly — does not clear its matched null | **Fires.** BH 0.032, 0.037, 0.032, below 0.05 in all three strata, regulatory arm flat at BH 0.82 |
+> | Elevation collapses once activation is held → activation correlate | No | **No**, unchanged |
+> | Composition term carries the paired difference | Partly, 39 % | **Partly, 39 %**, unchanged |
+> | Ten donors cannot separate the strata → precision-limited | Yes, in part | **No longer the binding limit** for the primary; it remains the limit for any covariate adjustment and for the residual activation difference, whose two tests disagree |
+>
+> The statement this leg supports is therefore: *the CSF pro-inflammatory
+> elevation clears the package's own matched-null threshold inside every
+> activation stratum, the regulatory arm is flat, about 39 % of it is a mixture
+> shift, and activation is reduced but — on the Wilcoxon test — not eliminated.*
+> The effector half of the hypothesis is **supported with a residual activation
+> caveat** rather than left short of threshold. A30's grade remains the owner's
+> and is still `not_assessed`.
+
 ## 4. What this does not address
 
 - **Residency.** Nothing here distinguishes a state the compartment imposes
@@ -137,6 +182,15 @@ parse changed the loaded set and moved the act1 pro-inflammatory value from
 binds it and because changing it would break comparability with Wp-M3, but it
 should be fixed before any future run, and the two values are reported here
 rather than only the later one.
+
+**Resolved 6 October 2026.** It was fixed, and it mattered: see
+[A30_ERRATUM.md](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md).
+Correcting the denominator moved the pro-inflammatory BH values from 0.063–0.068
+to 0.032–0.037 with the effect size essentially unchanged, so the §1 conclusion
+that the primary "does not clear its matched null" was an artefact of this
+convention compounded by an under-powered null. The judgement recorded above —
+that comparability with Wp-M3 outweighed correctness — was the wrong call, and
+is recorded as such rather than edited away.
 
 ## 6. Next useful step
 

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.a30_state_decomposition_v3",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_state_decomposition_v3.json",
+  "contract_sha256": "7eaa0017bdd7c6fd9f3a02a7d44fc82bec263d49b2ac60e00ccc96816d69b3b7",
+  "git_commit": "cf9bc4399e3bbd9cc1b535686f940f6397317402",
+  "started_at": "2026-10-06T08:31:09.334043+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/a30_state_decomposition_v3.py",
+    "--data-root",
+    "raw_data/wagner_pgam_w2_20261004",
+    "--r4-run",
+    "analysis/research/runs/wp_human_signature_transfer_v2",
+    "--output",
+    "analysis/research/runs/wp_a30_state_decomposition_v3"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+      "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+      "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_RAW.tar",
+      "sha256": "b573289bb13f0054092448eb1ab5685f2b7030cd2c08359f0cf04e995dc853a5",
+      "study_id": "GSE138266",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_samples.soft.txt",
+      "sha256": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+      "study_id": "GSE138266",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+      "sha256": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+      "study_id": "Wang2025_TableS1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+      "sha256": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+      "study_id": "Wang2025_TableS5",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/cell_scores.csv.gz",
+      "sha256": "1a89e1ddec6d39fb3f58690282a5074cc44266039016810686a5720ab1ebd990",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/sample_qc.csv",
+      "sha256": "2edd4afb78e9be3df179bb94184d555b13fc386a807563ee85f41713d2235e0a",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/a30_state_decomposition_v3.py",
+      "sha256": "dab3cf4477d8a3efc8e9c9db19a289a025f0675c58e3e73b7ac0e1a028bad6d4"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/results.json",
+      "sha256": "c255ed128df422894484b74a5141249fed0458515fc0909cf0a3ae1a5cf8ee8b"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/sample_qc.csv",
+      "sha256": "e7f5f5bab063c6447d49a124a458f0c4e3613a03b1bbde09711d8e4abbe640c9"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/gene_mapping.csv",
+      "sha256": "a33bf74d57e824b5e3eb035c9bd5333cb666ab676dfe74b6d879a408f099d923"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/cell_states.csv.gz",
+      "sha256": "975ff310fdbcf776835fcca55599255f9a1c4f337bd79a227ebd5163d9400741"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/state_composition.csv",
+      "sha256": "4748329e78f4d9a7f832f46e4749216b142a3f5746c3b597a5c3fea967188bd3"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/decomposition.csv",
+      "sha256": "8d5cb529f4ce288be08e0603a6d83d2e093c5f3004a17aeecc1aaa36affaed23"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/decomposition_summary.csv",
+      "sha256": "127050d7b1da0032abd400ce06179e587d38f57e69708dfddd41449a035a9a02"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-06T08:43:54.198876+00:00"
+}

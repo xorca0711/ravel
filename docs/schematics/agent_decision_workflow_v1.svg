@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="1660" viewBox="0 0 1480 1660">
+<title>Agent decision workflow</title><desc>Declared repository workflow. Design follows purpose; alternative explanations do not mandate experimental arms. Instructions, runtime checks and human judgment have different roles.</desc>
+<rect width="1480" height="1660" fill="#FFFFFF"/>
+<text x="60" y="65" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#247F7B">RAVEL  /  AGENT DECISION WORKFLOW</text>
+<text x="60" y="113" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="600" fill="#283E49">Choose the design for the question and the intended inference</text>
+<text x="60" y="153" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#566A74">Proposed clarification • 7 October 2026 • No validator or frozen evidence changed</text>
+<rect x="60" y="193" width="1360" height="90" rx="14" fill="#F5F9FA" stroke="#DDE7EB" stroke-width="2"/>
+<text x="84" y="227" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" fill="#283E49">1  Establish scope and current state</text>
+<text x="84" y="261" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#566A74">User request → Git/base/working tree → registry → current result and amendment</text>
+<rect x="60" y="309" width="1360" height="90" rx="14" fill="#F5F9FA" stroke="#DDE7EB" stroke-width="2"/>
+<text x="84" y="343" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" fill="#283E49">2  Classify the purpose</text>
+<text x="84" y="377" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#566A74">Reading/docs • metadata • description/exploration • prediction • confirmation</text>
+<line x1="740" y1="283" x2="740" y2="309" stroke="#247F7B" stroke-width="3"/>
+<polygon points="740,309 733,297 747,297" fill="#247F7B"/>
+<line x1="380" y1="399" x2="380" y2="440" stroke="#247F7B" stroke-width="3"/>
+<polygon points="380,440 373,428 387,428" fill="#247F7B"/>
+<line x1="1045" y1="399" x2="1045" y2="440" stroke="#247F7B" stroke-width="3"/>
+<polygon points="1045,440 1038,428 1052,428" fill="#247F7B"/>
+<rect x="60" y="440" width="600" height="245" rx="14" fill="#EAF5F3" stroke="#C0DDD7" stroke-width="2"/>
+<text x="85" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#247F7B">READING / DOCUMENTATION</text>
+<text x="85" y="525" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">Inspect sources, correct current wording,</text>
+<text x="85" y="559" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">preserve historical records and align the</text>
+<text x="85" y="593" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">diagram.</text>
+<text x="85" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#283E49">No biological rerun solely for a wording</text>
+<text x="85" y="671" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#283E49">fix.</text>
+<rect x="695" y="440" width="725" height="245" rx="14" fill="#F5F9FA" stroke="#DDE7EB" stroke-width="2"/>
+<text x="720" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#247F7B">METADATA / NUMERICAL WORK</text>
+<text x="720" y="525" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">Specify purpose, unit, endpoint, comparator or</text>
+<text x="720" y="559" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">estimand, outcome exposure and interpretation</text>
+<text x="720" y="593" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">limit.</text>
+<text x="720" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#283E49">Add a prediction for hypothesis-driven work.</text>
+<line x1="1045" y1="685" x2="1045" y2="727" stroke="#247F7B" stroke-width="3"/>
+<polygon points="1045,727 1038,715 1052,715" fill="#247F7B"/>
+<rect x="695" y="727" width="725" height="157" rx="14" fill="#FFFFFF" stroke="#DDE7EB" stroke-width="2"/>
+<text x="720" y="767" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" fill="#283E49">3  Assess a relevant alternative or validity threat</text>
+<text x="720" y="809" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">Mutant versus control may suffice. Additional arms</text>
+<text x="720" y="842" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">must earn their place through the intended claim.</text>
+<line x1="1045" y1="884" x2="1045" y2="924" stroke="#247F7B" stroke-width="3"/>
+<polygon points="1045,924 1038,912 1052,912" fill="#247F7B"/>
+<rect x="695" y="924" width="725" height="171" rx="14" fill="#EAF5F3" stroke="#C0DDD7" stroke-width="2"/>
+<text x="720" y="965" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#247F7B">4  Qualify → freeze → execute → verify</text>
+<text x="720" y="1007" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">Resolve decision-relevant gaps; register/freeze a</text>
+<text x="720" y="1039" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">contract, preflight inputs, use the runner, then</text>
+<text x="720" y="1071" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">verify receipts plus independent arithmetic/QC.</text>
+<rect x="60" y="727" width="600" height="368" rx="14" fill="#FFFFFF" stroke="#DDE7EB" stroke-width="2"/>
+<text x="85" y="767" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#247F7B">IF ESSENTIAL EVIDENCE IS MISSING</text>
+<text x="85" y="814" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">Hold only the dependent numerical step.</text>
+<text x="85" y="849" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">Record the unknown and continue</text>
+<text x="85" y="884" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">independent reading, metadata recovery or</text>
+<text x="85" y="919" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">design work.</text>
+<text x="85" y="1000" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">Do not invent a mechanism, sample size or</text>
+<text x="85" y="1033" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">human approval to complete a template.</text>
+<line x1="695" y1="947" x2="660" y2="947" stroke="#247F7B" stroke-width="3"/>
+<polygon points="660,947 672,940 672,954" fill="#247F7B"/>
+<line x1="1045" y1="1095" x2="1045" y2="1133" stroke="#247F7B" stroke-width="3"/>
+<polygon points="1045,1133 1038,1121 1052,1121" fill="#247F7B"/>
+<line x1="360" y1="1095" x2="360" y2="1247" stroke="#247F7B" stroke-width="3"/>
+<polygon points="360,1247 353,1235 367,1235" fill="#247F7B"/>
+<rect x="695" y="1133" width="725" height="90" rx="14" fill="#F5F9FA" stroke="#DDE7EB" stroke-width="2"/>
+<text x="720" y="1168" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" fill="#283E49">5  Interpret the actual endpoint</text>
+<text x="720" y="1202" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#566A74">Effects, uncertainty, mixed outcomes and limits</text>
+<line x1="1045" y1="1223" x2="1045" y2="1247" stroke="#247F7B" stroke-width="3"/>
+<polygon points="1045,1247 1038,1235 1052,1235" fill="#247F7B"/>
+<line x1="60" y1="560" x2="30" y2="560" stroke="#247F7B" stroke-width="3"/>
+<line x1="30" y1="560" x2="30" y2="1275" stroke="#247F7B" stroke-width="3"/>
+<line x1="30" y1="1275" x2="60" y2="1275" stroke="#247F7B" stroke-width="3"/>
+<polygon points="60,1275 48,1268 48,1282" fill="#247F7B"/>
+<rect x="60" y="1247" width="1360" height="120" rx="14" fill="#F5F9FA" stroke="#DDE7EB" stroke-width="2"/>
+<text x="85" y="1286" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="600" fill="#283E49">6  Deliver reviewable work</text>
+<text x="85" y="1318" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">Current docs + PROGRESS + required checks against the current base. Preserve unfavorable results and</text>
+<text x="85" y="1350" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#283E49">earlier versions.</text>
+<line x1="740" y1="1367" x2="740" y2="1395" stroke="#247F7B" stroke-width="3"/>
+<polygon points="740,1395 733,1383 747,1383" fill="#247F7B"/>
+<rect x="60" y="1395" width="1360" height="183" rx="14" fill="#EAF5F3" stroke="#C0DDD7" stroke-width="2"/>
+<text x="85" y="1436" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#247F7B">THREE DIFFERENT AUTHORITIES</text>
+<text x="85" y="1478" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">Instructions guide an agent. Runtime/CI checks test declared structure and provenance.</text>
+<text x="85" y="1519" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#283E49">Scientific acceptance and protected policy decisions require their recorded authority.</text>
+<text x="85" y="1554" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#566A74">A successful run, p-value or schematic does not establish a mechanism or human approval.</text>
+<text x="60" y="1621" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#566A74">This is a documented workflow, not an OS sandbox or a claim to expose private model reasoning.</text>
+</svg>

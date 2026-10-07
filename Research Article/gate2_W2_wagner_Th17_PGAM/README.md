@@ -1,11 +1,12 @@
 # Wang, Wagner et al. 2025: PGAM restrains Th17 pathogenicity
 
-**4 October 2026: package opened at the owner's request after reading the paper.
-The source deposits are inventoried and hash-recorded, [Wp-R0 has executed under
-the governed runner](R0_RESULTS.md) and decided stage eligibility, the ladder
-Wp-R0 to Wp-R5 is specified, and six article-local development branches are
-registered. No expression value has been analysed, and no claim grade, research
-question identifier or scientific acceptance is created here.**
+**Current status, 7 October 2026:** Wp-R0–R4, metadata follow-ups and selected
+extensions have executed; Wp-R5 remains closed without numerical execution.
+A28–A30 are registered proposals. Read the [PR140 audit](../../docs/audits/2026-10-07-pr140/REPORT.md)
+for the artifact/QC review and paper-to-question map. **Wp-R2 has a score-direction
+defect**; A30's corrected v3 tables support a bounded RNA association, not activation
+exclusion or preserved regulatory function. The historical stage reports below
+retain their original values and limitations; no claim acceptance is added.
 
 [Wang, Wagner, Fessler et al., *Cell Reports* 44, 115799 (2025)](https://doi.org/10.1016/j.celrep.2025.115799),
 *The glycolytic reaction PGAM restrains Th17 pathogenicity and Th17-dependent

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wp-R01.a30_activation_stratified_v3",
+  "owner": "Wp-R01",
+  "contract": "Research Article/gate2_W2_wagner_Th17_PGAM/config/a30_activation_stratified_v3.json",
+  "contract_sha256": "cdc73e6a8cfd34fa770ad782f3b402caac27f14edc61ee4a1b6961677613fe33",
+  "git_commit": "1cf2c80a48d27ea43aa294160d3061c3af33f8ac",
+  "started_at": "2026-10-06T07:57:01.005302+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/a30_activation_stratified_v3.py",
+    "--data-root",
+    "raw_data/wagner_pgam_w2_20261004",
+    "--r4-run",
+    "analysis/research/runs/wp_human_signature_transfer_v2",
+    "--output",
+    "analysis/research/runs/wp_a30_activation_stratified_v3"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v1.json",
+      "sha256": "4d433f97de2dfaf8899edfc19e4521d96930cbd25d3681029a6bc08d9abfda4a",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/acquisition_v3_matrices.json",
+      "sha256": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+      "study_id": "wagner_pgam_w2_acquisition",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_RAW.tar",
+      "sha256": "b573289bb13f0054092448eb1ab5685f2b7030cd2c08359f0cf04e995dc853a5",
+      "study_id": "GSE138266",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/GSE138266_samples.soft.txt",
+      "sha256": "78b828d613f706cb1f685b926465f37af04f7a78bcb692afbffbd212873c8902",
+      "study_id": "GSE138266",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-2.xlsx",
+      "sha256": "c30f8fd5a22ee9e75f7487175967bb989ef24e91d7915775518e404ba27977e9",
+      "study_id": "Wang2025_TableS1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/wagner_pgam_w2_20261004/NIHMS2092659-supplement-5.xlsx",
+      "sha256": "e0e9a2ae272df09474f6cee6459ba7284633905379ae135ef2220e5dd27ca247",
+      "study_id": "Wang2025_TableS5",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/cell_scores.csv.gz",
+      "sha256": "1a89e1ddec6d39fb3f58690282a5074cc44266039016810686a5720ab1ebd990",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v2/sample_qc.csv",
+      "sha256": "2edd4afb78e9be3df179bb94184d555b13fc386a807563ee85f41713d2235e0a",
+      "study_id": "Wp-R4",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W2_wagner_Th17_PGAM/scripts/a30_activation_stratified_v3.py",
+      "sha256": "9717be93ba1317f5ca7e54e4a26f2de04247898f0763da73b64e6d76c0b08d8f"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/results.json",
+      "sha256": "6e6d2b701a9deda5f7063fd004c546ed74919150cdde17d73ecf16711cfca11d"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/sample_qc.csv",
+      "sha256": "e7f5f5bab063c6447d49a124a458f0c4e3613a03b1bbde09711d8e4abbe640c9"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/gene_mapping.csv",
+      "sha256": "a33bf74d57e824b5e3eb035c9bd5333cb666ab676dfe74b6d879a408f099d923"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/cell_strata.csv.gz",
+      "sha256": "e08ecabf1f5a259c0e6042994bfcd9dfd3e1bac7467b9815dbce5ed24490c7f4"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/stratum_support.csv",
+      "sha256": "e38ff5aff7e0d612dd126e18db4152e48e90ee5d969b649125ee438edb930250"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/stratified_contrasts.csv",
+      "sha256": "6b62628afcf9d918ba0939af0f90aa9119d82f5a9ce82c43f92d1f59639a2198"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/per_donor_differences.csv",
+      "sha256": "9a0f6de018695154d79741642561215611c403b261e2d458dd1687cedd157fb0"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/null_draw_sample.csv",
+      "sha256": "42a03287467574f877f12df84733279f58c638d9ec5e1036f902236abc7764c7"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/decomposition.csv",
+      "sha256": "7fecc6132237bc9c343ac8cda81f2ceb5695040de0b1b5b3ec55423d1a587094"
+    },
+    {
+      "path": "analysis/research/runs/wp_a30_activation_stratified_v3/decomposition_summary.csv",
+      "sha256": "fa28247af292658da52861ff2902725965b1d9148c7e93507b37cae26f980059"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-06T08:30:09.356808+00:00"
+}

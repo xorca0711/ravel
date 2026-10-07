@@ -1550,44 +1550,60 @@ functional validation or permission to execute an unfinished numerical design.
 
 <a id="a30"></a>
 
-### A30. Is the elevated pro-inflammatory programme in CSF T cells compartment-specific or a correlate of activation?
+### A30. Does the CSF-associated inflammatory RNA difference persist within comparable CD4 T-cell states?
 
-Registered 5 October 2026 as **proposed**, derived from the executed Wp
-reproduction ladder, branch cards, metadata phenotypes and extension analyses of
-Wang et al. 2025 in [gate2_W2](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
-The derivation supplied a bounded scientific review; human retain/reject and
-scientific acceptance remain unrecorded. Registration is not a claim of novelty,
-functional validation or permission to execute an unfinished numerical design.
+Registered 5 October 2026 as **proposed** from the Wang 2025 Wp package. Revised
+7 October after PR140 artifact/literature review. Human retain/reject and
+scientific acceptance remain unrecorded.
 
-**Hypothesis and biology.** The cerebrospinal fluid compartment imposes an effector state on CD4-lineage T cells that is not reducible to local activation, with regulatory competence unchanged rather than suppressed. The prediction is that within matched activation strata the paired CSF-minus-blood elevation of the pro-inflammatory module persists while the pro-regulatory arm still does not move; an activation-only explanation predicts the elevation collapses. Compartment association is not evidence that the compartment caused the state.
+**Hypothesis and biology.** In paired CSF and blood, the inflammatory RNA programme remains higher in CSF within comparable CD4 T-cell states after accounting for measured activation and composition. Regulatory-associated RNA is evaluated separately, without presuming unchanged regulatory function.
 
-**Current evidence.** The source's published human claim does not reproduce. Nothing separates the disease groups in CSF at BH ≤ 0.05, the smallest adjusted value being programme N3 at BH 0.147; in blood the modules separate the cohorts but 1,000 matched-size random gene sets separate them as well (p 0.29), and the activation set separates them in the opposite direction while correlating with every module at Spearman −0.61 to −0.87. The contrast that survives a matched null is paired within donor: pro-inflammatory +0.061 in 10/10 donors (p 0.003), programme N3 +0.081 (p 0.007), activation +0.109 (p 0.013), while pro-regulatory is +0.007 (p 0.394) and +0.022 (p 0.931) and the 805-gene transported signature sits inside its null. The deposit carries no age, sex, treatment or disease-duration field.
+**Current evidence.** Corrected v3 median contrasts are +0.0558/+0.0498/+0.0570
+with empirical BH 0.0321/0.0368/0.0321 against the implemented size-only null.
+Activation is not excluded. Regulatory BH 0.8174 is not equivalence or preserved
+function. The 38.8% composition summary is a ratio of medians, sensitive to missing
+state support. [Audit and numerical verification](docs/audits/2026-10-07-pr140/REPORT.md).
 
-**Rival and discriminating outcome.** Local activation, a measured competitor rather than a hypothetical one. Tissue residency or recirculation, since CSF samples a migratory population and a paired contrast cannot show that the same cell would have scored lower in blood. Composition, now with a named candidate in the CSF-enriched CCR5-high Th17.1 cluster (doi:10.1016/j.ebiom.2026.106324). The reanalysis leg repeats the paired contrast within activation strata defined from genes disjoint from both modules, reports both arms against the same matched null, and decomposes the paired difference into composition and within-state terms: persistence within strata with the regulatory arm still flat supports a compartment-imposed state, collapse supports activation, a dominant composition term indicates a mixture shift. Residency needs shared-clone comparison across compartments, which this deposit cannot supply.
+**Alternatives and informative outcomes.** Residual activation, trafficking,
+subset/clonal composition and technical gating can coexist. Persistence after
+credible adjustment supports an association beyond the measured features;
+attenuation supports their contribution. Neither establishes local induction.
+Shared TCR clones do not establish residency. Functional or causal extensions
+need a separately justified endpoint and design.
 
-**Executed, 5 October 2026.** The reanalysis leg has run under its own frozen contracts ([results](RQ_Specified/A30_csf_compartment_effector_state/RESULTS.md)). Activation is excluded: the elevation is +0.055 to +0.056 in every activation tertile and the activation score itself is flat within strata. But the primary does not clear its matched random-set null after BH correction within the declared family (0.063 to 0.068), and once cell states are clustered independently of both modules about 39 % of the paired difference is a mixture shift rather than a within-state change. The working hypothesis is neither refuted nor established; the regulatory half holds, the effector half is attenuated. No claim grade is recorded and human acceptance remains unrecorded.
+**Scope and readiness.** The RNA reanalysis has executed on shared GSE138266;
+it is not independent replication or a test of the paper's mouse PGAM mechanism.
+Further QC/null/common-state qualification needs a new exposed-data amendment.
+Protein/TCR and intervention stages are conditional; no assay feasibility, effect
+margin or sample size is invented. A26/A27 remain distinct questions in their
+own population, tissue, endpoint and unit.
 
-**Scope and readiness.** Registered as a proposed measurement-validation and boundary-extension question. The reanalysis leg is executable in this package under a new prospective contract and is the only executable leg among the three Wp-derived questions; its limits are declared in advance, since it cannot defeat residency and ten donors make it precision-limited. Reanalysis of this deposit shares one evidence lineage with both the source paper and Schafflick et al. 2020, so neither supplies independent validation, and the reproduction's negative result on the published human claim stands whatever this question returns. A26 contrasts murine spleen against marrow for TCR repertoire concentration with the animal as unit; A27 is the nearest reasoning neighbour, being a redistribution-versus-within-state attribution, and remains distinct in population, tissue, endpoint and unit. No effect margin is nominated.
-
-[Dossier](docs/research_dossiers/A30.md) · [Workspace](RQ_Specified/A30_csf_compartment_effector_state/README.md) · [Development plan](RQ_Specified/A30_csf_compartment_effector_state/PLAN.md) · [Derivation, overlap and literature record](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
+[Dossier](docs/research_dossiers/A30.md) · [Illustrated workspace](RQ_Specified/A30_csf_compartment_effector_state/README.md)
+· [Revised extension baseline](RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md)
+· [Original derivation](Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
 
 ## Execution and interpretation rules
 
-**Biological-hypothesis rule (owner clarification, 29 September 2026).** Every
-RQ must propose a plausible biological process, state its causal or directional
-prediction, identify competing biological explanations, and name a discriminating
-outcome. Explain how the result motivates that mechanism and where the inferential
-step remains untested. Marker disagreement, batch effects, score robustness or
-measurement artifacts belong in eligibility/controls and can revise a question;
-they are not sufficient as its organizing biological hypothesis. Statistical
-interactions and prediction gains do not by themselves establish a mechanism.
+**Fit-for-purpose question framing (7 October 2026 review).** A biological
+purpose remains necessary, but description, replication, prediction and estimation
+of a perturbation effect need not invent a molecular mechanism. Hypothesis-driven
+questions state their prediction and consequential alternatives. Mutant-versus-control
+can be sufficient for its effect estimand when design and assay support it; rescue
+or factorial arms are required only by the intended stronger inference. Relevant
+measurement threats can be recorded as such. Mixed explanations and imprecise
+outcomes need not be forced into a binary winner.
 
+This clarification replaces the universal causal/directional-process requirement
+of 29 September while retaining endpoint validity and interpretation limits. No
+existing question is retired or automatically promoted. See the
+[instruction review and decision workflow](docs/AGENT_DECISION_WORKFLOW.md).
 
-Before a new fit, freeze its estimand, biological unit, eligible observations,
-primary comparison, multiplicity family, meaningful effect/prediction margin
-and validation split in the question-specific plan. Sample floors are eligibility
-rules, not power guarantees. Separate confirmation, exploratory discovery and
-tests left inconclusive by inadequate data.
+Before a new substantive fit, freeze its estimand, biological unit, eligibility,
+primary comparison, multiplicity and exposure in the appropriate contract. State
+inapplicable validation splits and unresolved margins honestly; justified precision
+and unexposed outcomes remain required for confirmation. Sample floors are not
+power calculations. Distinguish exploratory results from confirmation and studies
+left inconclusive by inadequate evidence.
 
 Reuse completed measurement checks within their recorded scope; repeat only if
 inputs, estimands or a concrete unresolved risk change. Do not broaden a

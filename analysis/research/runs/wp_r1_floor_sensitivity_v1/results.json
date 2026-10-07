@@ -1,0 +1,165 @@
+{
+ "agreement_with_frozen_wp_R1": {
+  "glucose_effect_25mM_minus_1mM": 5.551115123125783e-17,
+  "median_library_cpm": 0.0,
+  "n_rows_compared": 10,
+  "p_interaction": 9.020562075079397e-17
+ },
+ "floors": [
+  0.0,
+  0.5,
+  1.0,
+  2.0,
+  5.0,
+  10.0,
+  20.0
+ ],
+ "frozen_floor_cpm": 1.0,
+ "inputs_verified": {
+  "GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+  "GSE289733_filtered_feature_bc_matrix_features.tsv.gz": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+  "GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz": "80f6675b4922f7316f205afea2d4a52d612f7cc3ab830343b4f19e8f50261fe3",
+  "wp_singlecell_reproduction_v1/fig3d_named_genes.csv": "03d69d3da8a2ffd37ab33be74db271b67be3940c961956be39193f7fb86857f2",
+  "wp_singlecell_reproduction_v1/library_labels.csv": "e829bb20338bf4181724d74af325f00b064c15bc305509e060b5faf71c447b72"
+ },
+ "interpretation_limit": "This is a parameter sensitivity record, not a new biological result. The floor changes which genes are tested and therefore the BH correction; it does not change any per-gene estimate, which is asserted above. The eight libraries are two animals crossed with four conditions, so a per-gene interaction rests on four residual degrees of freedom and an unfiltered universe admits genes whose residual variance is numerically zero. No floor is endorsed here beyond the one the Wp-R1 contract already declares.",
+ "max_per_gene_drift": 0.0,
+ "min_fraction_libraries": 0.5,
+ "named_genes_lost_by_floor": {
+  "0": [],
+  "0.5": [],
+  "1": [],
+  "10": [
+   "CCL5",
+   "FOXP3",
+   "IL23R",
+   "TBX21"
+  ],
+  "2": [],
+  "20": [
+   "CCL5",
+   "FOXP3",
+   "IL23R",
+   "TBX21"
+  ],
+  "5": [
+   "FOXP3",
+   "IL23R"
+  ]
+ },
+ "per_gene_estimates_floor_invariant": true,
+ "qc": [
+  {
+   "library": "1",
+   "n_barcodes": 2890,
+   "n_pass_qc": 2349
+  },
+  {
+   "library": "2",
+   "n_barcodes": 2676,
+   "n_pass_qc": 2404
+  },
+  {
+   "library": "3",
+   "n_barcodes": 2147,
+   "n_pass_qc": 1763
+  },
+  {
+   "library": "4",
+   "n_barcodes": 2583,
+   "n_pass_qc": 2195
+  },
+  {
+   "library": "5",
+   "n_barcodes": 1595,
+   "n_pass_qc": 1239
+  },
+  {
+   "library": "6",
+   "n_barcodes": 2502,
+   "n_pass_qc": 2036
+  },
+  {
+   "library": "7",
+   "n_barcodes": 2077,
+   "n_pass_qc": 1648
+  },
+  {
+   "library": "8",
+   "n_barcodes": 2733,
+   "n_pass_qc": 2196
+  }
+ ],
+ "question": "What does the Wp-R1 expression floor cost and buy? Which of the ten genes Figure 3D names leave the tested universe at each floor, and how does the floor change the multiplicity correction for the whole table?",
+ "schema": "wp_r1_floor_sensitivity/v1",
+ "unfiltered_hits": {
+  "genes": [
+   "HOXD3OS1",
+   "GM43464",
+   "MRVI1",
+   "GM30928",
+   "SPIC",
+   "GM28905",
+   "GM45752",
+   "GPRIN2",
+   "GM11027",
+   "GM49087",
+   "RAP1GAP2",
+   "GM11541",
+   "GM48770",
+   "GM17103",
+   "CALHM3",
+   "CMKLR1",
+   "CSF2",
+   "MYO1C"
+  ],
+  "n_bh_0.05": 18,
+  "n_median_library_cpm_below_1": 16,
+  "n_never_detected_at_1cpm": 16
+ },
+ "unit": "library (8) nested in animal (2); animals crossed with all four conditions",
+ "universe_by_floor": [
+  {
+   "floor_cpm": 0.0,
+   "n_bh_0.05": 18,
+   "n_p_lt_0.001": 163,
+   "n_universe": 18500
+  },
+  {
+   "floor_cpm": 0.5,
+   "n_bh_0.05": 0,
+   "n_p_lt_0.001": 73,
+   "n_universe": 11492
+  },
+  {
+   "floor_cpm": 1.0,
+   "n_bh_0.05": 0,
+   "n_p_lt_0.001": 69,
+   "n_universe": 10732
+  },
+  {
+   "floor_cpm": 2.0,
+   "n_bh_0.05": 0,
+   "n_p_lt_0.001": 64,
+   "n_universe": 9960
+  },
+  {
+   "floor_cpm": 5.0,
+   "n_bh_0.05": 0,
+   "n_p_lt_0.001": 58,
+   "n_universe": 8678
+  },
+  {
+   "floor_cpm": 10.0,
+   "n_bh_0.05": 0,
+   "n_p_lt_0.001": 52,
+   "n_universe": 7226
+  },
+  {
+   "floor_cpm": 20.0,
+   "n_bh_0.05": 0,
+   "n_p_lt_0.001": 40,
+   "n_universe": 5374
+  }
+ ]
+}

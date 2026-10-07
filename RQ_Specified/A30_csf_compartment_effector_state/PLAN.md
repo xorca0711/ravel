@@ -1,5 +1,7 @@
 # A30 development plan
 
+> **Current interpretation, 7 October 2026:** read the [PR140 audit](../../docs/audits/2026-10-07-pr140/REPORT.md) and [revised extension baseline](EXTENSION_BASELINE_V2.md). The historical text below is retained; activation exclusion, regulatory equivalence and TCR-based residency claims are not supported.
+
 Draft after outcome exposure; **no executable contract is frozen**. The
 elements below are what a prospective contract must fix before any value is
 computed, in the order the repository's execution rules require.

@@ -114,6 +114,58 @@ FOXP3 — the four lowest-expressed genes in the list. The floor was lowered to
 column so any future exclusion is visible. This is recorded in the contract's
 exposure record.
 
+### 4a. What the expression floor costs and buys
+
+Because that floor was chosen *knowing* which genes a higher one removes, it was
+swept across its whole range under its own contract
+([config](config/r1_floor_sensitivity_v1.json) ·
+[receipt](../../analysis/research/runs/wp_r1_floor_sensitivity_v1/receipt.json),
+`verify` clean). The sweep reproduces the table above at the frozen floor to
+6 × 10⁻¹⁷.
+
+**The floor changes nothing about any individual gene.** Every per-gene effect
+and raw interaction p is *exactly* floor-invariant — maximum drift 0.0 across
+seven floors, asserted by the run, which fails if it is not. The floor's entire
+influence is which genes are testable and how large the multiplicity correction
+is:
+
+| Floor (CPM) | Genes tested | p < 0.001 | BH ≤ 0.05 | Named genes lost |
+|---|---|---|---|---|
+| 0 | 18,500 | 163 | **18** | — |
+| 0.5 | 11,492 | 73 | 0 | — |
+| **1 (frozen)** | **10,732** | **69** | **0** | **—** |
+| 2 | 9,960 | 64 | 0 | — |
+| 5 | 8,678 | 58 | 0 | FOXP3, IL23R |
+| 10 | 7,226 | 52 | 0 | + CCL5, TBX21 |
+| 20 | 5,374 | 40 | 0 | + CCL5, TBX21 |
+
+Two things follow, in opposite directions.
+
+**Raising the floor erases the reproduction without touching the data.** At
+5 CPM two of the ten named genes become untestable and at 10 CPM four do. A run
+at 10 CPM would have reported 6 of 10 genes "not expressed" and the Figure 3D
+reproduction as 60 % complete, when the four missing genes are present,
+directionally correct, and simply below an arbitrary line. No gene ever changes
+*direction* with the floor, which distinguishes this from a genuinely unstable
+estimate.
+
+**Removing the floor manufactures significance.** At floor 0 the universe grows
+by 7,768 genes and **18 cross BH ≤ 0.05, of which 16 are never detected at 1 CPM
+in any of the eight libraries** (median library CPM exactly 0.000 — mostly `Gm*`
+predicted loci). With four residual degrees of freedom their residual variance
+is numerically zero, so their p values are zero to floating point. Their mass of
+near-zero p values then makes BH less conservative for everything else, dragging
+the two genuinely expressed genes in the list across the threshold: CSF2 from
+BH 0.112 at the frozen floor to 0.011, and MYO1C to 0.041.
+
+So the honest statement about §4 is not "no gene survives BH correction" but
+**"no gene survives BH correction at any defensible floor, and the only
+configuration that produces hits is the one that admits undetected genes."** The
+full list is in
+[`unfiltered_bh_hits.csv`](../../analysis/research/runs/wp_r1_floor_sensitivity_v1/unfiltered_bh_hits.csv).
+The frozen 1 CPM floor is retained; no new floor is nominated and no Wp-R1 value
+is revised.
+
 ## 5. Is the EGCG signature just the pathogenicity score?
 
 Within Th17n cells, the Table S3 Th17n-EGCG signature score correlates with the

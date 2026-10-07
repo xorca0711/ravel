@@ -1,0 +1,395 @@
+{
+ "deviations_from_published_run": [
+  "input is micropooled CP10K counts, not the scVI-imputed matrix (never deposited)",
+  "reaction scope restricted to 2 subsystems, so Figure 1A's ranking is out of scope",
+  "Compass 1.0.0 (wagnerlab-berkeley fork) with Gurobi, not the published version",
+  "serial pool shim because this host denies multiprocessing pipes"
+ ],
+ "inputs_verified": {
+  "GSE289733_filtered_feature_bc_matrix_barcodes.tsv.gz": "eae0cfafb244b886b40ad0d240807e47bf804ec8e574ded39fdf90d83e82525d",
+  "GSE289733_filtered_feature_bc_matrix_features.tsv.gz": "39e6b92c7196738078745a8088627b7e7ef7237424c4f40af9efca653740051e",
+  "GSE289733_filtered_feature_bc_matrix_matrix.mtx.gz": "80f6675b4922f7316f205afea2d4a52d612f7cc3ab830343b4f19e8f50261fe3",
+  "acquisition_v3_matrices.json": "c2ecb5db2e8dc1eb61fef1a2229d71fd763249bcb7a1ac55cef10b2bc45ce9e1",
+  "wp_singlecell_reproduction_v1/cell_scores.csv.gz": "17f3274fa5af06a7f8d26347a7c1aa60f4a68278e67a449590ed56b5d05035bf"
+ },
+ "interpretation_limit": "Version-and-input sensitivity, not a reproduction of Figure 1. Supports a statement about whether the PGAM reaction's association with the pathogenicity score has the published sign under a modern Compass, a restricted reaction set and pooled rather than imputed input; supports no claim about the published reaction ranking, and no animal-level or causal inference.",
+ "most_negative": [
+  {
+   "bh_pathogenicity": 0.00048337013797520825,
+   "p_pathogenicity_authors": 7.554617999912955e-06,
+   "reaction": "THRD_L_pos",
+   "rho_pathogenicity_authors": -0.5424840233398167
+  },
+  {
+   "bh_pathogenicity": 0.00048337013797520825,
+   "p_pathogenicity_authors": 1.747120980633283e-05,
+   "reaction": "LDH_L_pos",
+   "rho_pathogenicity_authors": -0.5238121700472355
+  },
+  {
+   "bh_pathogenicity": 0.00048337013797520825,
+   "p_pathogenicity_authors": 1.747120980633283e-05,
+   "reaction": "r0173_neg",
+   "rho_pathogenicity_authors": -0.5238121700472355
+  },
+  {
+   "bh_pathogenicity": 0.000528063203757693,
+   "p_pathogenicity_authors": 4.189442875302863e-05,
+   "reaction": "LDH_L_neg",
+   "rho_pathogenicity_authors": -0.5030841900527925
+  },
+  {
+   "bh_pathogenicity": 0.000528063203757693,
+   "p_pathogenicity_authors": 4.453545091932351e-05,
+   "reaction": "r0202_neg",
+   "rho_pathogenicity_authors": -0.5015837732703531
+  },
+  {
+   "bh_pathogenicity": 0.000528063203757693,
+   "p_pathogenicity_authors": 4.453545091932351e-05,
+   "reaction": "r0202_pos",
+   "rho_pathogenicity_authors": -0.5015837732703531
+  },
+  {
+   "bh_pathogenicity": 0.000528063203757693,
+   "p_pathogenicity_authors": 4.453545091932351e-05,
+   "reaction": "r0173_pos",
+   "rho_pathogenicity_authors": -0.5015837732703531
+  },
+  {
+   "bh_pathogenicity": 0.07578479143706063,
+   "p_pathogenicity_authors": 0.008217627987151152,
+   "reaction": "2AMACHYD_pos",
+   "rho_pathogenicity_authors": -0.3382050569602668
+  },
+  {
+   "bh_pathogenicity": 0.07578479143706063,
+   "p_pathogenicity_authors": 0.008217627987151152,
+   "reaction": "SERHL_pos",
+   "rho_pathogenicity_authors": -0.3382050569602668
+  },
+  {
+   "bh_pathogenicity": 0.18080971354883787,
+   "p_pathogenicity_authors": 0.022458606249284183,
+   "reaction": "SPTix_pos",
+   "rho_pathogenicity_authors": -0.29430397332592395
+  }
+ ],
+ "most_positive": [
+  {
+   "bh_pathogenicity": 0.3571433806546043,
+   "p_pathogenicity_authors": 0.129066152815058,
+   "reaction": "PGMT_neg",
+   "rho_pathogenicity_authors": 0.19816615726590725
+  },
+  {
+   "bh_pathogenicity": 0.3571433806546043,
+   "p_pathogenicity_authors": 0.12613481441428656,
+   "reaction": "ACSm_pos",
+   "rho_pathogenicity_authors": 0.1996665740483468
+  },
+  {
+   "bh_pathogenicity": 0.3571433806546043,
+   "p_pathogenicity_authors": 0.123254250604829,
+   "reaction": "PGI_neg",
+   "rho_pathogenicity_authors": 0.20116699083078635
+  },
+  {
+   "bh_pathogenicity": 0.2981014601299068,
+   "p_pathogenicity_authors": 0.08978959642467073,
+   "reaction": "CHOLD2m_pos",
+   "rho_pathogenicity_authors": 0.22095026396221176
+  },
+  {
+   "bh_pathogenicity": 0.2981014601299068,
+   "p_pathogenicity_authors": 0.08978959642467073,
+   "reaction": "BETALDHxm_pos",
+   "rho_pathogenicity_authors": 0.22095026396221176
+  },
+  {
+   "bh_pathogenicity": 0.2558260026930157,
+   "p_pathogenicity_authors": 0.07089154291493206,
+   "reaction": "G3PD2m_pos",
+   "rho_pathogenicity_authors": 0.2348430119477633
+  },
+  {
+   "bh_pathogenicity": 0.18339985494030137,
+   "p_pathogenicity_authors": 0.04453367214425708,
+   "reaction": "CAT2p_pos",
+   "rho_pathogenicity_authors": 0.26035009724923597
+  },
+  {
+   "bh_pathogenicity": 0.18339985494030137,
+   "p_pathogenicity_authors": 0.04415809624200421,
+   "reaction": "GLYATm_pos",
+   "rho_pathogenicity_authors": 0.26079466518477357
+  },
+  {
+   "bh_pathogenicity": 0.18339985494030137,
+   "p_pathogenicity_authors": 0.04415809624200421,
+   "reaction": "AACTOOR_pos",
+   "rho_pathogenicity_authors": 0.26079466518477357
+  },
+  {
+   "bh_pathogenicity": 0.18339985494030137,
+   "p_pathogenicity_authors": 0.04415809624200421,
+   "reaction": "AOBUTDsm_pos",
+   "rho_pathogenicity_authors": 0.26079466518477357
+  }
+ ],
+ "n_cells_pooled": 3355,
+ "n_reactions_scored": 83,
+ "named_reaction_correlations": [
+  {
+   "bh_pathogenicity": 0.18080971354883787,
+   "mean_score": 11178.47733302369,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.11173873482503506,
+   "p_Th17n_EGCG_S3_local": 0.5700378474859273,
+   "p_pathogenicity_authors": 0.02396273312093032,
+   "p_proinflammatory_authors": 0.06666953903106891,
+   "p_proliferation": 1.5742667695377947e-06,
+   "p_proregulatory_authors": 0.057600124518871455,
+   "rank_of_rho": 11,
+   "reaction": "PGM_pos",
+   "rho_Th17n_EGCG_S3_all": 0.20744651292025565,
+   "rho_Th17n_EGCG_S3_local": 0.07479855515420952,
+   "rho_pathogenicity_authors": -0.2912475687691026,
+   "rho_proinflammatory_authors": -0.23834398444012228,
+   "rho_proliferation": -0.5746596276743541,
+   "rho_proregulatory_authors": 0.24651292025562663,
+   "sd_score": 382.2552219788042
+  },
+  {
+   "bh_pathogenicity": 0.18339985494030137,
+   "mean_score": 5920.915876967981,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.06505107177679767,
+   "p_Th17n_EGCG_S3_local": 0.45541769748996497,
+   "p_pathogenicity_authors": 0.046402372936702754,
+   "p_proinflammatory_authors": 0.22286896249017776,
+   "p_proliferation": 0.0004880832283336772,
+   "p_proregulatory_authors": 0.02945967222364085,
+   "rank_of_rho": 17,
+   "reaction": "PGCD_pos",
+   "rho_Th17n_EGCG_S3_all": 0.23973325923867747,
+   "rho_Th17n_EGCG_S3_local": 0.09819394276187833,
+   "rho_pathogenicity_authors": -0.2581828285634899,
+   "rho_proinflammatory_authors": -0.15971103084190058,
+   "rho_proliferation": -0.43656571269797173,
+   "rho_proregulatory_authors": 0.2813003612114477,
+   "sd_score": 275.3166838836821
+  },
+  {
+   "bh_pathogenicity": 0.18339985494030137,
+   "mean_score": 5920.915876967981,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.06505107177679767,
+   "p_Th17n_EGCG_S3_local": 0.45541769748996497,
+   "p_pathogenicity_authors": 0.046402372936702754,
+   "p_proinflammatory_authors": 0.22286896249017776,
+   "p_proliferation": 0.0004880832283336772,
+   "p_proregulatory_authors": 0.02945967222364085,
+   "rank_of_rho": 17,
+   "reaction": "PSP_L_pos",
+   "rho_Th17n_EGCG_S3_all": 0.23973325923867747,
+   "rho_Th17n_EGCG_S3_local": 0.09819394276187833,
+   "rho_pathogenicity_authors": -0.2581828285634899,
+   "rho_proinflammatory_authors": -0.15971103084190058,
+   "rho_proliferation": -0.43656571269797173,
+   "rho_proregulatory_authors": 0.2813003612114477,
+   "sd_score": 275.3166838836821
+  },
+  {
+   "bh_pathogenicity": 0.18339985494030137,
+   "mean_score": 5920.915876967981,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.06505107177679767,
+   "p_Th17n_EGCG_S3_local": 0.45541769748996497,
+   "p_pathogenicity_authors": 0.046402372936702754,
+   "p_proinflammatory_authors": 0.22286896249017776,
+   "p_proliferation": 0.0004880832283336772,
+   "p_proregulatory_authors": 0.02945967222364085,
+   "rank_of_rho": 17,
+   "reaction": "PSERT_pos",
+   "rho_Th17n_EGCG_S3_all": 0.23973325923867747,
+   "rho_Th17n_EGCG_S3_local": 0.09819394276187833,
+   "rho_pathogenicity_authors": -0.2581828285634899,
+   "rho_proinflammatory_authors": -0.15971103084190058,
+   "rho_proliferation": -0.43656571269797173,
+   "rho_proregulatory_authors": 0.2813003612114477,
+   "sd_score": 275.3166838836821
+  },
+  {
+   "bh_pathogenicity": 0.24181386007567188,
+   "mean_score": 5790.082095273475,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.29348343096725,
+   "p_Th17n_EGCG_S3_local": 0.0963441826747589,
+   "p_pathogenicity_authors": 0.0640952400200576,
+   "p_proinflammatory_authors": 0.03027128800968246,
+   "p_proliferation": 0.698374212964088,
+   "p_proregulatory_authors": 0.20435340214554812,
+   "rank_of_rho": 18,
+   "reaction": "PGK_neg",
+   "rho_Th17n_EGCG_S3_all": -0.13787163100861355,
+   "rho_Th17n_EGCG_S3_local": -0.21667129758266188,
+   "rho_pathogenicity_authors": -0.24056682411781055,
+   "rho_proinflammatory_authors": -0.27996665740483473,
+   "rho_proliferation": -0.05106974159488748,
+   "rho_proregulatory_authors": 0.16621283689913868,
+   "sd_score": 176.9362244994632
+  },
+  {
+   "bh_pathogenicity": 0.4047142999790419,
+   "mean_score": 6537.467310387229,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.12452826310637015,
+   "p_Th17n_EGCG_S3_local": 0.3283331986967908,
+   "p_pathogenicity_authors": 0.15603442890758243,
+   "p_proinflammatory_authors": 0.24045411692906551,
+   "p_proliferation": 3.2139826314453316e-06,
+   "p_proregulatory_authors": 0.3385667982457896,
+   "rank_of_rho": 22,
+   "reaction": "PGK_pos",
+   "rho_Th17n_EGCG_S3_all": 0.2005001389274799,
+   "rho_Th17n_EGCG_S3_local": 0.12836899138649627,
+   "rho_pathogenicity_authors": -0.18544040011114202,
+   "rho_proinflammatory_authors": -0.1538760766879689,
+   "rho_proliferation": -0.5604334537371493,
+   "rho_proregulatory_authors": 0.1257015837732704,
+   "sd_score": 185.59371893684022
+  },
+  {
+   "bh_pathogenicity": 0.49575514161365386,
+   "mean_score": 27374.170407017642,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.5199872674008426,
+   "p_Th17n_EGCG_S3_local": 0.12474156742214597,
+   "p_pathogenicity_authors": 0.22647708996338714,
+   "p_proinflammatory_authors": 0.001014959324156734,
+   "p_proliferation": 3.9044941785658926e-08,
+   "p_proregulatory_authors": 0.2671900836396579,
+   "rank_of_rho": 24,
+   "reaction": "GHMT2r_pos",
+   "rho_Th17n_EGCG_S3_all": -0.08469019171992222,
+   "rho_Th17n_EGCG_S3_local": -0.20038899694359547,
+   "rho_pathogenicity_authors": -0.15848846901917205,
+   "rho_proinflammatory_authors": -0.4137816060016672,
+   "rho_proliferation": -0.639066407335371,
+   "rho_proregulatory_authors": -0.14554042789663796,
+   "sd_score": 493.7289055784499
+  },
+  {
+   "bh_pathogenicity": 0.7009611329523749,
+   "mean_score": 14475.230877149605,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.018327161090123806,
+   "p_Th17n_EGCG_S3_local": 0.10578185692491905,
+   "p_pathogenicity_authors": 0.3840171513122798,
+   "p_proinflammatory_authors": 0.5419257330143469,
+   "p_proliferation": 6.019186089040896e-08,
+   "p_proregulatory_authors": 0.49769739151326303,
+   "rank_of_rho": 26,
+   "reaction": "ENO_neg",
+   "rho_Th17n_EGCG_S3_all": 0.3036954709641568,
+   "rho_Th17n_EGCG_S3_local": 0.21089191442067243,
+   "rho_pathogenicity_authors": -0.11442067240900254,
+   "rho_proinflammatory_authors": -0.08030008335648793,
+   "rho_proliferation": -0.6322311753264798,
+   "rho_proregulatory_authors": 0.08924701305918313,
+   "sd_score": 318.43721537029285
+  },
+  {
+   "bh_pathogenicity": 0.7909940226413201,
+   "mean_score": 7925.508985711777,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.002785658731308503,
+   "p_Th17n_EGCG_S3_local": 0.0585949024827163,
+   "p_pathogenicity_authors": 0.5186139242678066,
+   "p_proinflammatory_authors": 0.2657158367569669,
+   "p_proliferation": 1.0438893273365993e-14,
+   "p_proregulatory_authors": 0.9328323971123987,
+   "rank_of_rho": 28,
+   "reaction": "GHMT2r_neg",
+   "rho_Th17n_EGCG_S3_all": 0.379494303973326,
+   "rho_Th17n_EGCG_S3_local": 0.24556821339260906,
+   "rho_pathogenicity_authors": -0.08496804667963324,
+   "rho_proinflammatory_authors": -0.14598499583217564,
+   "rho_proliferation": -0.8039455404278968,
+   "rho_proregulatory_authors": -0.011114198388441236,
+   "sd_score": 472.35895726249873
+  },
+  {
+   "bh_pathogenicity": 0.9902485736478613,
+   "mean_score": 5365.1261436005325,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.0015477569448652851,
+   "p_Th17n_EGCG_S3_local": 0.005966689086925407,
+   "p_pathogenicity_authors": 0.9663871622346598,
+   "p_proinflammatory_authors": 0.29901776895909166,
+   "p_proliferation": 0.000102868280576903,
+   "p_proregulatory_authors": 0.5677412363190713,
+   "rank_of_rho": 47,
+   "reaction": "DPGM_pos",
+   "rho_Th17n_EGCG_S3_all": -0.3998888580161157,
+   "rho_Th17n_EGCG_S3_local": -0.3509863851069742,
+   "rho_pathogenicity_authors": -0.005557099194220618,
+   "rho_proinflammatory_authors": -0.13631564323423176,
+   "rho_proliferation": 0.48030008335648794,
+   "rho_proregulatory_authors": -0.07524312308974718,
+   "sd_score": 157.97127371594078
+  },
+  {
+   "bh_pathogenicity": 0.9902485736478613,
+   "mean_score": 5424.267891253675,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.00046254398918661233,
+   "p_Th17n_EGCG_S3_local": 0.002540809525335475,
+   "p_pathogenicity_authors": 0.9660512304922695,
+   "p_proinflammatory_authors": 0.29486069904018875,
+   "p_proliferation": 3.7710354461078845e-06,
+   "p_proregulatory_authors": 0.5093238451834834,
+   "rank_of_rho": 51,
+   "reaction": "ENO_pos",
+   "rho_Th17n_EGCG_S3_all": -0.4381772714642957,
+   "rho_Th17n_EGCG_S3_local": -0.38277299249791613,
+   "rho_pathogenicity_authors": 0.005612670186162825,
+   "rho_proinflammatory_authors": -0.13748263406501807,
+   "rho_proliferation": 0.5571547652125591,
+   "rho_proregulatory_authors": -0.08685746040566825,
+   "sd_score": 215.15139939553012
+  },
+  {
+   "bh_pathogenicity": 0.9902485736478613,
+   "mean_score": 5424.509132141814,
+   "n_pools": 60,
+   "p_Th17n_EGCG_S3_all": 0.00046254398918661233,
+   "p_Th17n_EGCG_S3_local": 0.002540809525335475,
+   "p_pathogenicity_authors": 0.9660512304922695,
+   "p_proinflammatory_authors": 0.29486069904018875,
+   "p_proliferation": 3.7710354461078845e-06,
+   "p_proregulatory_authors": 0.5093238451834834,
+   "rank_of_rho": 51,
+   "reaction": "PGM_neg",
+   "rho_Th17n_EGCG_S3_all": -0.4381772714642957,
+   "rho_Th17n_EGCG_S3_local": -0.38277299249791613,
+   "rho_pathogenicity_authors": 0.005612670186162825,
+   "rho_proinflammatory_authors": -0.13748263406501807,
+   "rho_proliferation": 0.5571547652125591,
+   "rho_proregulatory_authors": -0.08685746040566825,
+   "sd_score": 215.175612159162
+  }
+ ],
+ "pooling": {
+  "eligible_pools": 146,
+  "min_cells": 20,
+  "scored_pools": 60,
+  "seed": 20261004,
+  "svd_start_vector": "fixed constant unit vector; v1 used an unseeded ARPACK start",
+  "target_cells_per_pool": 50
+ },
+ "schema": "wp_r2_compass_sensitivity/v2",
+ "status": "executed",
+ "unit": "micropool of Th17n cells, nested in library (4) and animal (2)"
+}

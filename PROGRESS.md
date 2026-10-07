@@ -2,6 +2,78 @@
 
 **Update this before stopping work, every session.**
 
+## PR145 ready for review — 7 October 2026
+
+At the owner's explicit request, PR #145 is now ready for review rather than
+draft. Its head `a172559` was conflict-free against main and all four push/PR
+CI jobs passed when the draft flag was removed. The merge route remains
+`codex/pr140-artifact-audit-20261007` → `main`; PR #140 is closed as superseded.
+This changes review status only: the documented Compass correction and A30
+qualification work remain outstanding, and no merge or scientific acceptance
+is recorded. The PR description is updated to remove the stale draft wording.
+
+## PR140 and PR145 consolidation — 7 October 2026
+
+At the owner's request, retain [PR #145](https://github.com/xorca0711/ravel/pull/145)
+as the single combined PR and close [PR #140](https://github.com/xorca0711/ravel/pull/140)
+as superseded, preserving both branches and all commits. Ancestry verification
+shows #145 head `3496143` contains all of #140 (`74d6bd6`) and freshly fetched
+main `32174c9`. The existing integration commit `48ad937` already resolved the
+registry conflict; no rebase, force push, cherry-pick or scientific rerun is needed.
+
+Merge route: `codex/pr140-artifact-audit-20261007` → `main` through #145.
+Do not merge #140 separately. GitHub reports the combined branch mergeable and
+its prior head passed all CI; the progress-only consolidation commit will receive
+normal CI. The PR description now covers all four original governed runs plus
+the artifact/source audit, A30 baseline/schematic and agent-policy clarification.
+
+Draft status is retained: the known Compass orientation correction remains a
+versioned numerical follow-up, and A30 QC/null/common-state qualifications remain
+explicit. Consolidation is not scientific acceptance or a merge into main.
+Remote PR status and the final commit's CI are checked before handoff; protection
+settings and unresolved scientific requirements are unchanged.
+
+## PR140 audit, A30 baseline and agent design guidance — 7 October 2026
+
+Completed the [Wp/PR140 artifact audit](docs/audits/2026-10-07-pr140/REPORT.md):
+24 Wp receipts and 85 saved-table checks pass. A confirmed Compass raw-penalty
+orientation defect reverses the current biological sign interpretation. A30 v3
+arithmetic verifies, but activation independence, regulatory equivalence and
+TCR-based residency do not follow. Null calibration, barcode/QC provenance and
+common-state support remain qualified limitations; one donor has 82.3% of CSF
+cells in states absent from paired blood. No frozen numerical artifact was changed.
+
+Updated the [A30 illustrated workspace](RQ_Specified/A30_csf_compartment_effector_state/README.md),
+dossier, canonical card and primary-source context; added a versioned schematic
+and [extension baseline](RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md).
+The [agent-policy audit/workflow](docs/AGENT_DECISION_WORKFLOW.md) clarifies that
+alternatives are not compulsory experimental groups and that a justified
+mutant/control effect question need not resolve every mechanism. Revised AGENTS,
+governance, literature guidance and the universal-mechanism rule accordingly.
+No schema, validator, frozen contract or human acceptance was changed.
+
+Base: PR140 `74d6bd6` plus fetched main `32174c9`, integrated as `48ad937` in
+`codex/pr140-artifact-audit-20261007`. Both SVGs rendered and visually checked.
+Validation passed: 10,703 repository checks, 145 unit tests (one skip), the
+research gate against main, all required archive verifiers, claim bindings and
+Python compilation. Tests first failed because the sandbox temporary directory
+was inaccessible; the same suite passed with TEMP/TMP in this worktree.
+Remote main and PR140 remain at the audited revisions. [Draft PR #145](https://github.com/xorca0711/ravel/pull/145)
+is open and includes the still-open PR140 dependency. Implementation commit
+`e6d4e33` passed both GitHub workflows (repository validation and research
+governance, push and PR runs). No merge or scientific acceptance is performed.
+This progress-only update records that verified checkpoint.
+The bundled scientific runtime lacks SciPy; the existing project Python supplied
+it. A stale x64 virtualenv was not repaired or used. No raw biological rerun ran.
+
+Next: review the policy/framing diff; recover Compass raw penalties and issue a
+new governed signed-score correction; qualify A30 QC/null/common-state sensitivity
+before further numerical analysis. Public-source access limits are logged; full
+Schafflick methods and candidate-cohort independence remain unresolved. GitHub
+protection settings, clinical feasibility and scientific acceptance were not
+changed or certified. Physical checkout rename remains an unrelated prior task.
+
+
 ## Illustrated question guide readability — 7 October 2026
 
 Reworked the illustrated guide into six topic groups with descriptive question
