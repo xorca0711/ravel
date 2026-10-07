@@ -17,6 +17,11 @@ import sys
 from datetime import datetime, timezone
 
 SCIENTIFIC_ROOTS = ('analysis/', 'Research Article/', 'RQ_Specified/')
+# Keep the historical repository identity for hash-bound illustrations.
+REPOSITORY_SOURCE_PREFIXES = (
+    'https://github.com/xorca0711/ravel/blob/',
+    'https://github.com/xorca0711/scRNA_seq/blob/',
+)
 ASSET_SUFFIXES = {'.py', '.r', '.ipynb', '.json', '.csv', '.tsv', '.png', '.svg', '.pdf', '.rds', '.h5ad', '.parquet'}
 DOSSIER_SECTIONS = ('Biological problem', 'Established knowledge', 'Repository evidence',
                     'Unresolved gap', 'Working hypothesis', 'Competing explanations',
@@ -352,7 +357,7 @@ def question_guide_errors(root: Path, index: dict) -> tuple[list[str], set[str]]
                     name = key.split('}')[-1].lower()
                     if name.startswith('on') or name == 'style' or 'url(' in value.lower():
                         raise ResearchError('SVG active content is not allowed')
-                    if name == 'href' and not value.startswith('https://github.com/xorca0711/scRNA_seq/blob/'):
+                    if name == 'href' and not value.startswith(REPOSITORY_SOURCE_PREFIXES):
                         raise ResearchError('SVG links must reference pinned repository sources')
             if 'hypothesis illustration' not in ''.join(tree.itertext()).lower():
                 raise ResearchError('SVG must label its illustrative purpose')

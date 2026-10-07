@@ -1,23 +1,26 @@
 cff-version: 1.2.0
 message: "If this analysis helps your work, cite this repository and the source datasets listed in REFERENCES.md."
 type: software
-title: "Hypothesis generation from public lung single-cell and multiome data"
+title: "Ravel: Public Omics Reanalysis of Cellular States, Tissue Homeostasis and Disease"
 authors:
   - family-names: "Xorca"
-repository-code: "https://github.com/xorca0711/scRNA_seq"
-url: "https://github.com/xorca0711/scRNA_seq"
+repository-code: "https://github.com/xorca0711/ravel"
+url: "https://github.com/xorca0711/ravel"
 abstract: >-
-  An analysis log whose purpose is hypothesis generation from an integrative
-  reanalysis of public lung single-cell and multiome data. Deposited count
-  matrices are re-analysed with frameworks newer than the source papers, with
-  the authors' annotations held out, to surface phenotypes and data
-  distributions, within the theme of which epithelial and immune-state
-  programmes distinguish productive lung repair from persistent remodelling
-  after injury.
+  A computational research project combining critical appraisal of primary
+  literature, reproduction of accessible findings and integrative reanalysis
+  of public omics and complementary experimental data. The project investigates
+  cellular states and molecular programmes associated with tissue homeostasis,
+  injury responses, repair, ageing and disease. Questions arising from published
+  studies determine the relevant biological contexts, measurements and methods.
+  Source evidence, computational inferences, competing explanations and
+  interpretation limits are retained in a traceable research record.
 keywords:
   - single-cell RNA-seq
   - scanpy
-  - lung repair
-  - macrophage and monocyte states
+  - multiomics
+  - public data reanalysis
+  - literature-guided research
+  - hypothesis development
   - lineage tracing
 date-released: 2026-09-10

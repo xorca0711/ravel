@@ -1,23 +1,35 @@
-# Integrative reanalysis of public lung single-cell and multiome data
+# Ravel: Public Omics Reanalysis of Cellular States, Tissue Homeostasis and Disease
 
-[![Repository checks](https://github.com/xorca0711/scRNA_seq/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/xorca0711/scRNA_seq/actions/workflows/repository-checks.yml)
+[![Repository checks](https://github.com/xorca0711/ravel/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/xorca0711/ravel/actions/workflows/repository-checks.yml)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
-This repository develops testable biological hypotheses through critical reading
-of research articles and reanalysis of public lung single-cell RNA, multiome and
-complementary experimental data. The aim is to connect observations across studies,
-identify recurring molecular phenotypes and explain which differences could matter
-for epithelial plasticity, injury repair and persistent tissue remodelling.
+Ravel is an ongoing computational research project combining critical appraisal
+of primary literature with reproduction of accessible findings and integrative
+reanalysis of publicly available biological datasets. It investigates cell-state
+variation and molecular programmes associated with tissue homeostasis, injury
+responses, repair, ageing and disease, and develops testable hypotheses from
+concordant, conflicting and unresolved findings across studies.
 
-Its organizing biological question is:
+The project originated in lung single-cell and multiome research. Its scope now
+follows questions arising from the papers under investigation across relevant
+tissues, organisms and experimental contexts. Current work includes single-cell
+and bulk RNA sequencing, RNA–chromatin comparisons, and study-specific spatial,
+imaging, perturbation and clonal measurements where accessible. Dataset selection
+and analytical methods follow each question's biological unit, measured endpoint
+and source-design constraints.
 
-> Which epithelial and immune-state programmes distinguish productive lung
-> repair from persistent remodelling after injury?
+Analyses combine quality control and annotation, sample-level statistical
+comparisons, pathway and ligand–receptor analyses, and targeted sensitivity checks.
+Study reports connect published results and repository observations to competing
+explanations and the next discriminating analysis or experiment. Source
+measurements, computational inferences and mechanistic hypotheses are documented
+separately; molecular associations and inferred scores alone do not establish
+cell fate or causal mechanisms. Reused datasets remain shared evidence, and
+negative results, limitations and corrections are retained.
 
-The work connects source-paper evidence, question-specific analyses and hypothesis
-tests in a traceable research record. Molecular associations, independently
-measured outcomes and proposed mechanisms retain their own evidence requirements.
-Negative and inconclusive results help narrow the next question.
+Previously named `scRNA_seq`; the
+[migration record](docs/migrations/2026-10-07-ravel/README.md) documents the rename
+and preservation of historical evidence.
 
 ## How it works
 
@@ -65,13 +77,13 @@ the historical planning context.
 
 | To explore | Start with |
 |---|---|
-| Understand each hypothesis, rival and readout visually | [Illustrated RQ context guide](docs/research_dossiers/literature_context_2026-10-03/README.md) |
+| Explore research questions, competing explanations and key measurements | [Illustrated research question guide](docs/research_dossiers/literature_context_2026-10-03/README.md) |
 | Biological questions and the evidence needed to answer them | [Research-question register](RESEARCH_QUESTIONS.md) and [question workspaces](RQ_Specified/README.md) |
 | Source studies, reading status and paper-specific analyses | [Research article roadmap](Research%20Article/README.md) |
 | Datasets, their roles, biological units and eligibility limits | [Dataset inventory](docs/DATASETS.md) |
 | Current results, remaining gaps and next decisions | [Current project state](PROGRESS.md) and [remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
 | Figures and the reports that interpret them | [Question figure index](RQ_Specified/FIGURES.md) and [paper galleries](Research%20Article/README.md#figure-galleries) |
-| Evidence grades, corrections and negative results | [Claim register](CLAIMS.md), [generated summary](docs/CLAIM_SUMMARY.md) and [negative-results index](NEGATIVE_RESULTS.md) |
+| Evidence grades, corrections and negative results | [Claim register](CLAIMS.md), [generated summary](docs/CLAIM_SUMMARY.md) and [negative-results index](docs/NEGATIVE_RESULTS.md) |
 | Reproduce the work or inspect analytical decisions | [Reproducibility guide](REPRODUCIBILITY.md), [documentation index](docs/README.md) and [decision record](DEVELOPMENT.md) |
 | Develop a research question or contribute an analysis | [Conditional packages](docs/research_dossiers/packages_2026-10-03/README.md), [evidence dossiers](docs/research_dossiers/README.md) and [research governance](docs/RESEARCH_GOVERNANCE.md) |
 
@@ -83,7 +95,7 @@ accepting a scientific interpretation are recorded separately.
 
 **Research questions** have stable identifiers in `RESEARCH_QUESTIONS.md`.
 Their plans, contracts, scripts and results live in `RQ_Specified/`. The current
-register contains A0–A27 and the enabling source-identity question A12-S1;
+register owns the current questions, including enabling source-identity work;
 registration does not imply validation. Shared measurements and figures have
 explicit links to the questions they support.
 

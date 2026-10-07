@@ -2,6 +2,159 @@
 
 **Update this before stopping work, every session.**
 
+## Illustrated question guide readability — 7 October 2026
+
+Reworked the illustrated guide into six topic groups with descriptive question
+labels, direct diagram links and literature-context links. All 31 registered
+guides are included exactly once, adding the previously omitted A28–A30. The
+README navigation now says research questions, competing explanations and key
+measurements; AI_CONTEXT points to the full current guide. The reading sequence
+explains hypothesis, rival and readout and directs readers to current evidence
+before older context notes. No hypothesis, source note, schematic or scientific
+status is changed. Coverage verification passed for 31 unique questions, 93
+registry-matched links and six topic anchors. Repository validation passed
+10,655 checks; the research gate passed against current main. PR integration
+remains pending; GitHub checks are the final integration verification.
+
+Base: fetched main at `fe27867`, which merged PR #143 after all CI passed.
+The earlier pending-CI and relocation notes below are historical checkpoints.
+Physical folder rename and desktop project settings remain outstanding.
+
+## PR #143 governance CI correction — 7 October 2026
+
+CI rejected the changed negative-results generator and generated claims manifest
+as unregistered scientific assets. The earlier local validation covered the
+repository workflow but omitted the separate governance workflow; that omission
+is corrected here. Both files perform documentation/indexing, not a biological
+analysis, so their two exact paths are added to the existing infrastructure
+registry. The generator selects existing claim rows; the manifest is checked
+against CLAIMS.md by the ordinary validator. No wildcard exemption, validator,
+claim grade, frozen artifact, contract or receipt changes are introduced.
+This infrastructure classification is explicit in PR #143 for owner review;
+no independent approval or scientific acceptance is claimed. Governance checks
+against main and the previous PR head, rejection tests and CI are pending.
+Physical folder and desktop project settings remain outstanding as below.
+
+## Negative-results index relocation — 7 October 2026
+
+Owner requested removal of the generated negative-results document from the
+repository root. Its current location is [docs/NEGATIVE_RESULTS.md](docs/NEGATIVE_RESULTS.md).
+The generator now writes there and links back to the root claim register;
+README, the register, the documentation index and structure guide route readers
+to the new location. Historical source snapshots and dated narrative references
+remain unchanged. Claim text, grades, row ordering and selection are preserved.
+This follows the audit below; the other proposed audit corrections are still
+unapplied. All nine repository workflow checks passed (145 tests, one optional
+skip); the initial sandbox-only temporary Git fixture permission failures were
+resolved by running checks with the required filesystem access. Generation
+preserves all 162 rows; the claim manifest changes only its source digest.
+The relocation is prepared for PR review; it is not yet integrated into main.
+The physical folder rename and desktop project settings remain outstanding.
+
+## Document authority audit and LinkedIn media review — 7 October 2026
+
+Read-only audit of the 12 root Markdown files and 186 Markdown files under
+`docs`, against fetched `origin/main` at `9fb090d` (PR #142 merged). The four
+repository handoff documents exist. File inventory and link validation are
+mechanical coverage; this is not scientific revalidation of all 198 documents.
+Only this required session handoff is edited; the proposed corrections below
+remain unapplied on `codex/document-authority-audit-20261007`.
+
+Confirmed navigation corrections: the [registry](analysis/research/registry.json)
+contains 31 questions, A0–A30, while AI_CONTEXT, RESEARCH_GOVERNANCE,
+REPOSITORY_STRUCTURE and the dossier index retain 24/28-question language.
+RESEARCH_ARCHITECTURE still calls the 28 September ledger the latest authority.
+Date historical coverage explicitly and route current scope through the registry.
+The formal-description/migration checkpoints below precede integration: PR #141
+merged at `c073d58`, and PR #142 at `9fb090d`; their pending-CI wording is stale.
+`docs/SCDS.md` incorrectly says no doublet detection was performed, contradicted
+by the generated [as-run pipeline](docs/PIPELINE_AS_RUN.md), which records Scrublet.
+`docs/README.md` says no PDFs are stored, but Git tracks 176 PDFs. The portfolio
+summaries retain lung-specific project framing and need either case-study labels
+or the broader Ravel description. Generated summaries require producer updates,
+not manual correction of derived outputs.
+
+Historical documents and the work they locate:
+
+- [FINDINGS](FINDINGS.md): original lung analyses; retain its historical label.
+- [September roadmap](docs/RESEARCH_ROADMAP.md): old priority order; current
+  question development is located by the [dossiers](docs/research_dossiers/README.md)
+  and [registry](analysis/research/registry.json). The nine-job
+  [remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) is stage-specific.
+- [Next dataset gate](docs/NEXT_DATASET_GATE.md): follow through to
+  [A10 results](RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md)
+  and [source-design recovery](docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md).
+- [Register gate audit](docs/audits/2026-09-27-register-gate-audit/REPORT.md):
+  corrected by the [expanded candidate audit](docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md).
+- [Earlier handoffs](docs/history/2026-10-03-pre-governance/README.md): exact Git
+  history locators, not current instructions. Dated migrations, audits and runs
+  remain provenance; age alone is not a reason for deletion.
+- [Figure correction record](docs/FIGURE_CLAIM_CORRECTIONS_2026-09-29.md):
+  distinguishes current presentations from retained superseded figures.
+
+LinkedIn media: visually reviewed the corrected
+[RNA/ATAC diagnostic figure](analysis/figures/rq/rq_a1_chromatin.png) against its
+[current caption](analysis/figures/rq/README.md). The owner confirmed this panel is already included on LinkedIn, so it is not
+recommended as an additional upload. Its paired single-nucleus RNA/promoter
+accessibility caption (GSE310539) needs sequencing depth and lack of
+between-animal replication explicit. It does not establish
+chromatin closure, reversibility or fate. The older
+[epigenetics gallery](Research%20Article/gate1_02_choi_2020/datp_epigenetics/README.md)
+still describes a withdrawn figure title and needs caption synchronization.
+The [Tsutsui companion](RQ_Specified/A1_transitional_epithelial_state_distinction/figures/regulatory_fate/tsutsui_capacity_and_response.png)
+is a source-data reanalysis of culture/knockdown endpoints, not an ATAC or
+CUT&Tag plot. Distinct epigenetics media were subsequently located and visually reviewed:
+[verified promoter histone heatmap](RQ_Specified/A1_transitional_epithelial_state_distinction/figures/second_batch_verified/a1_histone_promoters.png)
+and [alternative-TSS sensitivity](RQ_Specified/A1_transitional_epithelial_state_distinction/figures/robustness_2026-09-25/a1_histone_tss_robustness.png).
+Recommend the heatmap first: three histone modifications normalized to H3,
+23 loci, two preparations per state from one iPSC line. The sensitivity panel
+qualifies gene-boundary-TSS conclusions; its ranges are not confidence intervals.
+Use `second_batch_verified`, not the superseded `second_batch` presentation.
+No figure, source measurement or LinkedIn profile was modified.
+
+Validation: the documentation/artefact validator passed 10,606 checks after
+the media-location additions; no biological analyses were rerun.
+
+Next: apply the bounded navigation/caption corrections in a reviewed documentation
+change, preserving dated scientific statements and generated-file provenance.
+Physical folder rename and desktop project label/path remain unresolved as below.
+
+## Formal project description — 7 October 2026
+
+Owner requested wording with the specificity and formal tone of the original
+project title. README and citation metadata now use **Ravel: Public Omics
+Reanalysis of Cellular States, Tissue Homeostasis and Disease**. The introduction
+names the current data types, biological questions, analytical approach and
+interpretation limits while retaining scope driven by the papers under study.
+A matching LinkedIn proposal is revised locally; no profile publication is
+requested. This follow-up changes presentation only: no scientific evidence,
+question identities, interpretation safeguards or numerical analyses are changed.
+Documentation validation passed 10,586 checks; normal protected PR integration
+requires the final CI checks. The local folder lock/UI follow-ups below remain
+outstanding.
+
+## Ravel migration — 7 October 2026
+
+Owner requested the repository rename to **Ravel** (`ravel`) and a paper-driven
+mission across biological contexts, without elevating a recent study topic into
+the project-wide focus. [Stages and preservation review](docs/migrations/2026-10-07-ravel/README.md)
+record the baseline, narrow source-link compatibility change and acceptance
+criteria. [GitHub is renamed](https://github.com/xorca0711/ravel); the old URL
+redirects correctly. [PR #141](https://github.com/xorca0711/ravel/pull/141) carries
+the identity/navigation changes and source-link compatibility tests from base
+`744996d`. All ten local checks passed: 145 unit tests (one optional skip),
+10,586 repository checks and the research gate; required CI also passed on the
+initial implementation. Final integration follows the final PR checks.
+
+Local access is available at `X:\GitHub\ravel` through a junction. A process lock
+blocked the physical directory rename; all seven worktrees and 59 changed or
+untracked files passed preservation checks. The recovered x64 environment and
+raw-data paths work through the alias. Exact remaining steps are in the migration
+record: edit the desktop project's name/folder, then run the guarded completion
+script after closing applications holding the directory. The original branch,
+unrelated edits, historical evidence and recovery payloads remain preserved.
+The requested LinkedIn text is a local proposal only; no profile was updated.
+
 ## Wang 2025 PGAM package opened — 4 October 2026
 
 The owner read [Wang, Wagner, Fessler et al., *Cell Reports* 2025](https://doi.org/10.1016/j.celrep.2025.115799)

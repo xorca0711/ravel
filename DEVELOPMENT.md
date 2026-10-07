@@ -2595,3 +2595,26 @@ explicit PR review. No review approval is claimed by the authoring agent.
 No human retain/reject decision, novelty clearance, claim promotion, model access
 or laboratory readiness is inferred. The 24 earlier v2 drawings remain preserved;
 four new qualitative companions cover the subsequently registered questions.
+
+## 7 October 2026: negative-results documentation placement
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-07 | Move the generated negative-results index under docs | Owner requested root cleanup; Codex selected the docs destination | Owner requested implementation; PR integration pending | Update the generator and current navigation; preserve all 162 entries and historical snapshots | Keep root entrypoints concise while retaining visible access to negative evidence |
+
+### PR #143 CI correction
+
+The initial local checklist omitted the separate research-governance workflow.
+CI exposed two unregistered documentation assets: the negative-results renderer
+and generated claims manifest. Codex classifies these exact paths through the
+existing infrastructure registry for explicit owner review in PR #143; no
+scientific receipt, independent approval or claim promotion is invented. The
+validator, immutable baseline and all biological asset requirements are unchanged.
+
+## 7 October 2026: illustrated-guide readability
+
+Owner requested a more readable illustrated-question entrypoint. Codex grouped
+existing questions by topic, supplied descriptive navigation labels and direct
+diagram links, and included all 31 registered guides. Grouping does not rank
+questions or revise hypotheses; the underlying context, figures and scientific
+acceptance remain unchanged. Implementation is prepared for PR review.
