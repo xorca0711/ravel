@@ -2,6 +2,24 @@
 
 **Update this before stopping work, every session.**
 
+## Illustrated question guide readability — 7 October 2026
+
+Reworked the illustrated guide into six topic groups with descriptive question
+labels, direct diagram links and literature-context links. All 31 registered
+guides are included exactly once, adding the previously omitted A28–A30. The
+README navigation now says research questions, competing explanations and key
+measurements; AI_CONTEXT points to the full current guide. The reading sequence
+explains hypothesis, rival and readout and directs readers to current evidence
+before older context notes. No hypothesis, source note, schematic or scientific
+status is changed. Coverage verification passed for 31 unique questions, 93
+registry-matched links and six topic anchors. Repository validation passed
+10,655 checks; the research gate passed against current main. PR integration
+remains pending; GitHub checks are the final integration verification.
+
+Base: fetched main at `fe27867`, which merged PR #143 after all CI passed.
+The earlier pending-CI and relocation notes below are historical checkpoints.
+Physical folder rename and desktop project settings remain outstanding.
+
 ## PR #143 governance CI correction — 7 October 2026
 
 CI rejected the changed negative-results generator and generated claims manifest

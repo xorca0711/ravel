@@ -77,7 +77,7 @@ the historical planning context.
 
 | To explore | Start with |
 |---|---|
-| Understand each hypothesis, rival and readout visually | [Illustrated RQ context guide](docs/research_dossiers/literature_context_2026-10-03/README.md) |
+| Explore research questions, competing explanations and key measurements | [Illustrated research question guide](docs/research_dossiers/literature_context_2026-10-03/README.md) |
 | Biological questions and the evidence needed to answer them | [Research-question register](RESEARCH_QUESTIONS.md) and [question workspaces](RQ_Specified/README.md) |
 | Source studies, reading status and paper-specific analyses | [Research article roadmap](Research%20Article/README.md) |
 | Datasets, their roles, biological units and eligibility limits | [Dataset inventory](docs/DATASETS.md) |

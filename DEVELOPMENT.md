@@ -2610,3 +2610,11 @@ and generated claims manifest. Codex classifies these exact paths through the
 existing infrastructure registry for explicit owner review in PR #143; no
 scientific receipt, independent approval or claim promotion is invented. The
 validator, immutable baseline and all biological asset requirements are unchanged.
+
+## 7 October 2026: illustrated-guide readability
+
+Owner requested a more readable illustrated-question entrypoint. Codex grouped
+existing questions by topic, supplied descriptive navigation labels and direct
+diagram links, and included all 31 registered guides. Grouping does not rank
+questions or revise hypotheses; the underlying context, figures and scientific
+acceptance remain unchanged. Implementation is prepared for PR review.
