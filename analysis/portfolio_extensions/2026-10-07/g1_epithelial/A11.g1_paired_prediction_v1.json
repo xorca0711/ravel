@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "status": "frozen",
+  "prior_outcome_exposure": "exposed",
+  "precision_status": "unknown",
+  "precision_basis": "No biological effect margin or sample-size guarantee is invented; show every unit and sensitivity without a confirmation threshold.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "prediction",
+  "runtime": "python",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New exposed extension; earlier frozen outputs and scientific criteria remain unchanged.",
+  "analysis_id": "A11.g1_paired_prediction_v1",
+  "owner": "A11",
+  "analysis_type": "predictive",
+  "question": "Does the fixed lesion residual add internal patient-held-out paired tissue discrimination beyond fixed shared-remodelling and stress modules?",
+  "decision": "Evaluate internal conditional measurement utility before considering any further independent validation; retain no-gain and instability outcomes.",
+  "strongest_rival": "Residual performance may reflect changed epithelial composition, generic stress or historical outcome-informed choices rather than lesion-specific biology.",
+  "discriminator": "Leave one whole patient pair out, using the identical fixed baseline with and without the residual; no cells or specimens from that patient enter scaling or coefficient estimation.",
+  "evidence_refs": [
+    "docs/portfolio_extensions/2026-10-07/g1_epithelial/LITERATURE.md",
+    "RQ_Specified/A11_lesion_programme_addition/README.md",
+    "RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md"
+  ],
+  "exposure_record": "Kim outcomes and original signed-rank results were read before this comparison was selected. Fixed gene lists originated in distinct 23-patient GSE308103 discovery before the original Kim score run, but this is not untouched confirmation or validation of the historical feature-discovery pipeline.",
+  "biological_unit": "Eight source-supported paired patients; each contains normal-AT2 and author-labelled tumour epithelial pseudobulks.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Cells form pseudobulks nested in samples and patients. Eight folds share training patients and are not independent model-training experiments. This reuses the original Kim cohort.",
+  "population_and_selection": "Exactly the eight original test_v2 patient pairs, author labels, selected cell counts and 29634-gene universe; no new subtype or cell-floor selection.",
+  "contrast": "Paired conditional logistic baseline shared_remodelling plus HALLMARK_P53_PATHWAY, HALLMARK_HYPOXIA, HALLMARK_INFLAMMATORY_RESPONSE versus addition of lesion_specific. Separate addition of stress_excluded is sensitivity.",
+  "endpoint": "Equal-patient mean held-out pair log loss, baseline minus augmented gain, all patient gains, and chance log(2) reference; contemporaneous tissue discrimination, not later outcome.",
+  "methods": "Rebuild fixed pseudobulk counts from raw UMI and annotations; require original library-size parity. Scores are fixed-module mean log2(CPM+1) with full per-sample count denominator. No cross-patient TMM. Fit paired conditional logistic regression without intercept, L2 penalty lambda=1 primary and 0.1/10 sensitivities; training-only population SD across fourteen training samples, zero SD replaced by one; BFGS gradient tolerance 1e-7 with independent Newton coefficients agreeing within 1e-6. No feature search, held-out centering or tuning.",
+  "missingness_and_exclusions": "Fail on duplicate/missing cells, changed group counts, missing/empty/duplicate module genes, altered full-gene universe/library totals, nonfinite scores or failed optimization. Retain all eight patients and all penalties.",
+  "multiplicity": "One primary baseline-versus-lesion comparison at lambda=1; stress-excluded and lambda=.1/10 are displayed sensitivities. No p-values, biological CIs or model selection by favorable sensitivity.",
+  "interpretation_limit": "Internal prediction conditional on exposed choices and fixed features. Normal AT2 versus author tumour epithelium changes population composition. No cancer specificity, future fate, malignant identity, causation or external transport claim.",
+  "stop_rule": "Fail closed on input/identity/arithmetic/optimizer checks. Report all outcomes including worse-than-baseline or chance; do not change features, penalty, patient set or scoring after exposure.",
+  "inputs": [
+    {
+      "path": "raw_data/GSE131907/GSE131907_Lung_Cancer_raw_UMI_matrix.txt.gz",
+      "sha256": "b44a9c6635d0b59ec66b5eb6b40b40e7292c3a75aaf8afc4f933eb0550a26372",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE131907/GSE131907_Lung_Cancer_cell_annotation.txt.gz",
+      "sha256": "9d017652a31a489c1f62cacc436936d48a5b07bb554fc0dbe602da7474532205",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/test_v2/units.tsv",
+      "sha256": "7774cff95b0455c2a81f7440876c2302919afea0f8d8f33ce8361f599d0bb9bd",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/kim_pairing.tsv",
+      "sha256": "af63aab1d692f2dcfbd05773aeaa9761cd36db5396d6ea3a28594ac8b70e821d",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/config/kim2020_test_contract.json",
+      "sha256": "426b1b1e24a18332c11ba3c0323ee914f1cbe3413c027c58678087e9c5b33300",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/test_v2/normalization.tsv",
+      "sha256": "61053529c9312b2d766b60bb5e0de3b80ecc0266192dca37e4064aa90751d824",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A11_lesion_programme_addition/tables/test_v2/human_module_genes.tsv",
+      "sha256": "6032c6baf2801f5e574650ccac7dbbe93306bc8392232d00f7e9f1978ace8a89",
+      "study_id": "GSE131907",
+      "unit_ids": [
+        "P0006",
+        "P0018",
+        "P0019",
+        "P0020",
+        "P0028",
+        "P0030",
+        "P0031",
+        "P0034"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_paired_prediction_v1.py",
+      "sha256": "110e9ad0576c7cf4c9dd9f9ae524c6df255da21d7fe07565f7ca8f7a21ccc465"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a17_ascertainment_v1.py",
+      "sha256": "897aab3d3efc86eeca9def48e88aae224ddc17d5473a704e7994756f2a4a305e"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/test_g1_extensions_v1.py",
+      "sha256": "f029c184b2d233a758a59844601754093e7ea49a527acafcc9681fc8d08c5f88"
+    }
+  ],
+  "entrypoint": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_paired_prediction_v1.py",
+  "expected_outputs": [
+    "pseudobulk_counts.tsv.gz",
+    "module_scores.tsv",
+    "heldout_predictions.tsv",
+    "coefficients.tsv",
+    "comparisons.tsv",
+    "verification.json"
+  ]
+}
