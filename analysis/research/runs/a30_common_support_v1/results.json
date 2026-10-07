@@ -1,0 +1,140 @@
+{
+  "question": "A30 observed common-state association and activation sensitivity",
+  "paired_donors": [
+    "MS19270",
+    "MS49131",
+    "MS60249",
+    "MS71658",
+    "MS74594",
+    "PST83775",
+    "PST95809",
+    "PTC32190",
+    "PTC41540",
+    "PTC85037"
+  ],
+  "n_saved_cells": 35928,
+  "primary_floor": 20,
+  "floor_sensitivities": [
+    5,
+    50
+  ],
+  "bootstrap_draws": 5000,
+  "limits": "Restricted observed support changes the target population. State labels and RNA scores are reused exposed measurements. No barcode join, raw QC rerun, doublet detection, calibrated gene null, causality, protein function or independent replication.",
+  "held_donor_modes": [
+    {
+      "donor": "MS60249",
+      "mode": "common_state",
+      "floor": 20
+    },
+    {
+      "donor": "MS60249",
+      "mode": "common_state",
+      "floor": 50
+    },
+    {
+      "donor": "MS60249",
+      "mode": "activation_overlap",
+      "floor": 20
+    },
+    {
+      "donor": "MS60249",
+      "mode": "activation_overlap",
+      "floor": 50
+    },
+    {
+      "donor": "MS60249",
+      "mode": "activation_linear",
+      "floor": 20
+    },
+    {
+      "donor": "MS60249",
+      "mode": "activation_linear",
+      "floor": 50
+    },
+    {
+      "donor": "MS71658",
+      "mode": "common_state",
+      "floor": 50
+    },
+    {
+      "donor": "MS71658",
+      "mode": "activation_overlap",
+      "floor": 50
+    },
+    {
+      "donor": "MS71658",
+      "mode": "activation_linear",
+      "floor": 50
+    },
+    {
+      "donor": "PST83775",
+      "mode": "common_state",
+      "floor": 50
+    },
+    {
+      "donor": "PST83775",
+      "mode": "activation_overlap",
+      "floor": 20
+    },
+    {
+      "donor": "PST83775",
+      "mode": "activation_overlap",
+      "floor": 50
+    },
+    {
+      "donor": "PST83775",
+      "mode": "activation_linear",
+      "floor": 20
+    },
+    {
+      "donor": "PST83775",
+      "mode": "activation_linear",
+      "floor": 50
+    },
+    {
+      "donor": "PTC41540",
+      "mode": "common_state",
+      "floor": 20
+    },
+    {
+      "donor": "PTC41540",
+      "mode": "common_state",
+      "floor": 50
+    },
+    {
+      "donor": "PTC41540",
+      "mode": "activation_overlap",
+      "floor": 20
+    },
+    {
+      "donor": "PTC41540",
+      "mode": "activation_overlap",
+      "floor": 50
+    },
+    {
+      "donor": "PTC41540",
+      "mode": "activation_linear",
+      "floor": 20
+    },
+    {
+      "donor": "PTC41540",
+      "mode": "activation_linear",
+      "floor": 50
+    },
+    {
+      "donor": "PTC85037",
+      "mode": "common_state",
+      "floor": 50
+    },
+    {
+      "donor": "PTC85037",
+      "mode": "activation_overlap",
+      "floor": 50
+    },
+    {
+      "donor": "PTC85037",
+      "mode": "activation_linear",
+      "floor": 50
+    }
+  ]
+}

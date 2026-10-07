@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A25.region_occupancy_v1",
+  "owner": "A25",
+  "contract": "analysis/portfolio_extensions/2026-10-07/g3_immune/a25_region_occupancy_v1.json",
+  "contract_sha256": "d22c8da1c820c46c5c54e459226bd39846256376129256aafe670761a5be8793",
+  "git_commit": "ec16e2bce2765f8b15b0559019b63fa8ea8d0bd5",
+  "started_at": "2026-10-07T09:11:13.719005+00:00",
+  "argv": [
+    "python",
+    "analysis/portfolio_extensions/2026-10-07/g3_immune/a25_region_occupancy_v1.py",
+    "--input",
+    "analysis/research/runs/nb5_completion_metadata_v2/case_brain_join.tsv",
+    "--output",
+    "analysis/research/runs/a25_region_occupancy_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/case_brain_join.tsv",
+      "sha256": "825bcff756c6f334b548ad709f3693970f6944fae0a225e3edcb9cc2b33f5f2d",
+      "study_id": "Tabula_Muris_Senis_2020",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "verified",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g3_immune/a25_region_occupancy_v1.py",
+      "sha256": "b7ca690f6d6be727cf80c9686fb11b6aaf27fb261c418f83805be0baab1c9665"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/a25_region_occupancy_v1/region_support.csv",
+      "sha256": "8a73881a636ecadc31eb1dd0341973a24bd5edf39d58d1ca0160368b2276cb2a"
+    },
+    {
+      "path": "analysis/research/runs/a25_region_occupancy_v1/mouse_cluster_fractions.csv",
+      "sha256": "2c19156bd73228910d66380c275fda25fd6aeeba612a3500986098a6d3220da8"
+    },
+    {
+      "path": "analysis/research/runs/a25_region_occupancy_v1/age_contrasts.csv",
+      "sha256": "894bd33796b12b9419dfe96d850067f2e35ef44664d632ed01d31d7e46552c93"
+    },
+    {
+      "path": "analysis/research/runs/a25_region_occupancy_v1/verification.json",
+      "sha256": "225be7bb2652dabe02d8ee52a45bd0cb9d90f4d54d4b8b6c370954db24314a55"
+    },
+    {
+      "path": "analysis/research/runs/a25_region_occupancy_v1/results.json",
+      "sha256": "bb8e8dfd6b93af3998cf8838b33292e7e82d09d4e10eb9395318face9ed78316"
+    },
+    {
+      "path": "analysis/research/runs/a25_region_occupancy_v1/region_occupancy.png",
+      "sha256": "1fd4d04a122707df4286fe0b4dd75048881ae2008aa266b9cdf2686e78c445d7"
+    },
+    {
+      "path": "analysis/research/runs/a25_region_occupancy_v1/region_occupancy.svg",
+      "sha256": "ef2ffcb97243b6a621341d31b468374918b9dbc861f5278d9080231b1d880e0e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T09:11:20.192390+00:00"
+}

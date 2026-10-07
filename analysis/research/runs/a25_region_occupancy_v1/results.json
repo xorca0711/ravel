@@ -1,0 +1,169 @@
+{
+  "unit": "mouse; regions and cells nested",
+  "cells": 13130,
+  "mice": 14,
+  "source_clusters": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+  ],
+  "complete_region_mice": [
+    {
+      "mouse_id": "18_47_F",
+      "age_months": 18,
+      "sex": "female"
+    },
+    {
+      "mouse_id": "18_46_F",
+      "age_months": 18,
+      "sex": "female"
+    },
+    {
+      "mouse_id": "18_45_M",
+      "age_months": 18,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "24_60_M",
+      "age_months": 24,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "24_59_M",
+      "age_months": 24,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "24_58_M",
+      "age_months": 24,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "3_38_F",
+      "age_months": 3,
+      "sex": "female"
+    },
+    {
+      "mouse_id": "3_8_M",
+      "age_months": 3,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "3_9_M",
+      "age_months": 3,
+      "sex": "male"
+    },
+    {
+      "mouse_id": "3_10_M",
+      "age_months": 3,
+      "sex": "male"
+    }
+  ],
+  "held_comparisons": [
+    {
+      "sex_scope": "male",
+      "basis": "Hippocampus",
+      "older_months": 18,
+      "n_young": 3,
+      "n_older": 1
+    },
+    {
+      "sex_scope": "male",
+      "basis": "pooled_complete",
+      "older_months": 18,
+      "n_young": 3,
+      "n_older": 1
+    },
+    {
+      "sex_scope": "male",
+      "basis": "equal_region",
+      "older_months": 18,
+      "n_young": 3,
+      "n_older": 1
+    },
+    {
+      "sex_scope": "female",
+      "basis": "Cerebellum",
+      "older_months": 18,
+      "n_young": 1,
+      "n_older": 2
+    },
+    {
+      "sex_scope": "female",
+      "basis": "Cerebellum",
+      "older_months": 24,
+      "n_young": 1,
+      "n_older": 0
+    },
+    {
+      "sex_scope": "female",
+      "basis": "Cortex",
+      "older_months": 24,
+      "n_young": 2,
+      "n_older": 0
+    },
+    {
+      "sex_scope": "female",
+      "basis": "Hippocampus",
+      "older_months": 24,
+      "n_young": 2,
+      "n_older": 0
+    },
+    {
+      "sex_scope": "female",
+      "basis": "Striatum",
+      "older_months": 24,
+      "n_young": 3,
+      "n_older": 0
+    },
+    {
+      "sex_scope": "female",
+      "basis": "pooled_all",
+      "older_months": 24,
+      "n_young": 3,
+      "n_older": 0
+    },
+    {
+      "sex_scope": "female",
+      "basis": "pooled_complete",
+      "older_months": 18,
+      "n_young": 1,
+      "n_older": 2
+    },
+    {
+      "sex_scope": "female",
+      "basis": "pooled_complete",
+      "older_months": 24,
+      "n_young": 1,
+      "n_older": 0
+    },
+    {
+      "sex_scope": "female",
+      "basis": "equal_region",
+      "older_months": 18,
+      "n_young": 1,
+      "n_older": 2
+    },
+    {
+      "sex_scope": "female",
+      "basis": "equal_region",
+      "older_months": 24,
+      "n_young": 1,
+      "n_older": 0
+    }
+  ],
+  "limit": "Source Leiden occupancy, not final-paper state correspondence, state discovery, within-cell transition, absolute abundance, sex-adjusted age effect, distinct-state model test, disease mechanism or function."
+}

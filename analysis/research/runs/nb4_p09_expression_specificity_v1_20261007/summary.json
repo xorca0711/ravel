@@ -1,0 +1,151 @@
+{
+  "scope": "Exposed descriptive expression check; no sensory, repair or causal inference",
+  "cells": 83255,
+  "gene_mapping": {
+    "SS2": {
+      "SCN7A": 1919,
+      "GRIA1": 7267,
+      "COL1A1": 7281,
+      "PDGFRA": 17951,
+      "SOX10": 22385,
+      "S100B": 50119,
+      "PLP1": 49337
+    },
+    "10x": {
+      "SCN7A": 5148,
+      "GRIA1": 11468,
+      "COL1A1": 13726,
+      "PDGFRA": 11518,
+      "SOX10": 1408,
+      "S100B": 8628,
+      "PLP1": 2454
+    },
+    "Madissoon": {
+      "SCN7A": 4538,
+      "GRIA1": 9484,
+      "COL1A1": 26903,
+      "PDGFRA": 7317,
+      "SOX10": 31593,
+      "S100B": 32344,
+      "PLP1": 13500
+    }
+  },
+  "primary": [
+    {
+      "cohort": "Madissoon",
+      "assay": "Madissoon cell",
+      "gene": "GRIA1",
+      "donors": [
+        "A26",
+        "A37",
+        "A43",
+        "A44"
+      ],
+      "n_donors": 4,
+      "mean_delta_log2cpm": 3.6003397633827747,
+      "min": 2.782706055187147,
+      "max": 4.254038365740168,
+      "n_positive": 4
+    },
+    {
+      "cohort": "Madissoon",
+      "assay": "Madissoon cell",
+      "gene": "SCN7A",
+      "donors": [
+        "A26",
+        "A37",
+        "A43",
+        "A44"
+      ],
+      "n_donors": 4,
+      "mean_delta_log2cpm": 2.0432450943924,
+      "min": 1.588242180122971,
+      "max": 2.815915092743232,
+      "n_positive": 4
+    },
+    {
+      "cohort": "Madissoon",
+      "assay": "Madissoon nucleus",
+      "gene": "GRIA1",
+      "donors": [
+        "A26",
+        "A48"
+      ],
+      "n_donors": 2,
+      "mean_delta_log2cpm": 2.8344971427180106,
+      "min": 2.4743977426560404,
+      "max": 3.1945965427799807,
+      "n_positive": 2
+    },
+    {
+      "cohort": "Madissoon",
+      "assay": "Madissoon nucleus",
+      "gene": "SCN7A",
+      "donors": [
+        "A26",
+        "A48"
+      ],
+      "n_donors": 2,
+      "mean_delta_log2cpm": 1.5885080533826565,
+      "min": 0.9476603278282063,
+      "max": 2.229355778937107,
+      "n_positive": 2
+    },
+    {
+      "cohort": "Travaglini",
+      "assay": "10x",
+      "gene": "GRIA1",
+      "donors": [
+        "P1",
+        "P3"
+      ],
+      "n_donors": 2,
+      "mean_delta_log2cpm": 3.650081345896313,
+      "min": 3.356877836770055,
+      "max": 3.943284855022571,
+      "n_positive": 2
+    },
+    {
+      "cohort": "Travaglini",
+      "assay": "10x",
+      "gene": "SCN7A",
+      "donors": [
+        "P1",
+        "P3"
+      ],
+      "n_donors": 2,
+      "mean_delta_log2cpm": 2.728644759385632,
+      "min": 1.9589006461279777,
+      "max": 3.498388872643286,
+      "n_positive": 2
+    },
+    {
+      "cohort": "Travaglini",
+      "assay": "SS2",
+      "gene": "GRIA1",
+      "donors": [
+        "P1",
+        "P3"
+      ],
+      "n_donors": 2,
+      "mean_delta_log2cpm": 6.281516779369564,
+      "min": 6.237654747211543,
+      "max": 6.325378811527585,
+      "n_positive": 2
+    },
+    {
+      "cohort": "Travaglini",
+      "assay": "SS2",
+      "gene": "SCN7A",
+      "donors": [
+        "P1",
+        "P3"
+      ],
+      "n_donors": 2,
+      "mean_delta_log2cpm": 2.2172185909822684,
+      "min": 1.5425815698846037,
+      "max": 2.891855612079933,
+      "n_positive": 2
+    }
+  ]
+}

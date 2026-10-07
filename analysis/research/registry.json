@@ -885,7 +885,11 @@
     "analysis/research/runs/wp_human_signature_transfer_v3/receipt.json",
     "analysis/research/runs/wp_metadata_phenotypes_v2/receipt.json",
     "analysis/research/runs/wp_correction_figures_v3/receipt.json",
-    "analysis/research/runs/wp_correction_figures_v4/receipt.json"
+    "analysis/research/runs/wp_correction_figures_v4/receipt.json",
+    "analysis/research/runs/g1_a17_ascertainment_v1/receipt.json",
+    "analysis/research/runs/a30_common_support_v1/receipt.json",
+    "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/receipt.json",
+    "analysis/research/runs/a25_region_occupancy_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

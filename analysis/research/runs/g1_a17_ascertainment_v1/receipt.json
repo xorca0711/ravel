@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A17.g1_ascertainment_v1",
+  "owner": "A17",
+  "contract": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A17.g1_ascertainment_v1.json",
+  "contract_sha256": "64c78471fcf39874b52e37482c4ea9ad5c5e6e23d89866f2556171dfb16a7145",
+  "git_commit": "95b0118f8374950baca6f74e9a459bebe312002b",
+  "started_at": "2026-10-07T09:05:47.964870+00:00",
+  "argv": [
+    "python",
+    "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a17_ascertainment_v1.py",
+    "--output",
+    "analysis/research/runs/g1_a17_ascertainment_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/mutant_parameter_trace.json",
+      "sha256": "84a2b3ea950d6e27fa23e9fe53ebb56e816a17241372314bdb8103725604addc",
+      "study_id": "England2025_source_script",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a17_ascertainment_v1.py",
+      "sha256": "897aab3d3efc86eeca9def48e88aae224ddc17d5473a704e7994756f2a4a305e"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/a11_paired_prediction_v1.py",
+      "sha256": "110e9ad0576c7cf4c9dd9f9ae524c6df255da21d7fe07565f7ca8f7a21ccc465"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/test_g1_extensions_v1.py",
+      "sha256": "f029c184b2d233a758a59844601754093e7ea49a527acafcc9681fc8d08c5f88"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/g1_a17_ascertainment_v1/ascertainment.tsv",
+      "sha256": "50ee37b52eb8352556abf8436a07ee7648644556a36bd6e65209e227008eb23c"
+    },
+    {
+      "path": "analysis/research/runs/g1_a17_ascertainment_v1/verification.json",
+      "sha256": "ca9f7ea322f68f36cee01b2602960256d6e76a69ee4f15e78b6595c7f1d0810e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T09:05:52.329119+00:00"
+}
