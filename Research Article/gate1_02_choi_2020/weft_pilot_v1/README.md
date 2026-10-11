@@ -12,6 +12,18 @@ until multipart output qualification and a new verified before-dispatch checkpoi
 memory readiness only; full-workload memory remains to be measured.
 The exact manual checkpoint and committed source must be bound before dispatch.
 
+## Current execution hold
+
+Figure1 preparation stopped before numerical execution: 16.56 GiB available
+host memory is below the frozen 20 GiB floor. The worker reports 17.59 GiB total
+host memory and a visible 16 GiB cgroup cap; ancestor/Docker scope is unverified.
+The stopped clone and same preparation reservation are preserved in a verified
+private held-state checkpoint. No output, preflight or numerical container exists.
+The [resource revision proposal](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/docs/FIGURE1_RESOURCE_REVISION.md)
+is unapplied and awaits the owner's choice. Original contract and outputs remain
+unchanged. An amended resource packet and new verified before-dispatch checkpoint
+would be required before any start.
+
 ## Stages and inputs
 
 [Metadata contract](config/metadata.contract.json) precedes the separate

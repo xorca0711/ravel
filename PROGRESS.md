@@ -16,8 +16,12 @@ The separate Figure1 plan proposes 4 CPUs/16 GiB/3,600 seconds and unchanged
 methods. Its contract is frozen after root review. A 16 MiB part readback failed; a
 separate 4 MiB+7 synthetic roundtrip passed. The explicit
 [operational transfer amendment](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/ARTIFACT_TRANSFER_AMENDMENT.md)
-preserves all frozen files and changes only external archive transport. Mir is
-preparing a new unique packet/checkpoint; numerical dispatch awaits root release. No metadata rerun, new RQ or scientific acceptance.
+preserves all frozen files and changes only external archive transport. Figure1 preparation stopped at the host-memory gate (16.56 GiB available versus
+20 GiB required). Read-only diagnosis reports 17.59 GiB host total and a visible
+16 GiB cgroup cap. No numerical container/preflight/output was created. The
+PREPARATION_HELD ledger checkpoint is verified, retaining the same reservation.
+[Resource revision proposal](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/docs/FIGURE1_RESOURCE_REVISION.md)
+is pending an owner choice; no resource gate or frozen file was changed. No metadata rerun, new RQ or scientific acceptance.
 
 ## P001 root review corrections — 11 October 2026
 
