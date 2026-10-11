@@ -2754,3 +2754,17 @@ The published single-host NCBI update passed one fresh proxied HEAD. Git is miss
 from the initial numerical image; runtime revision qualification remains required.
 Neither draft contract, scientific acceptance, registry question IDs nor historical
 evidence was promoted by these checks.
+
+## 2026-10-11 — Candidate runtime qualified; source binding remains pending
+
+The separate cloud worker reports image
+sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc
+passed synthetic numerical, committed-source, Ravel runner and launcher-loss checks.
+Git2.47.3 and its official Debian dependencies were hash-verified from signed indexes;
+final build was offline. The existing committed pilot recipe is unchanged pending
+review of the prepared sanitized archive. Weft PR2 owns the detailed runtime receipt.
+
+That archive’s Drive export is awaiting direct user approval after automatic review
+rejected relayed authorization. No input download, biological computation, contract
+freeze or scientific acceptance occurred. Next: verify export/readback, bind the
+exact candidate runtime, freeze metadata-only execution and its manual checkpoint.

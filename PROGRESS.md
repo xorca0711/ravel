@@ -28,9 +28,10 @@ state/library UMAP panels and explicit cross-library feature-order checks.
 
 The approved NCBI-only environment update is published; a fresh cloud HEAD returned
 HTTP 200 with the expected 349,204,480 bytes. The earlier worker's proxy 403 remains
-a historical observation. The numerical image lacks Git, required by the unchanged
-committed-source runner. A versioned official-package image correction is being
-qualified before either draft contract is frozen. No biological data or analysis
+a historical observation. The committed numerical recipe still lacks Git. A separately prepared Git-equipped
+image has now passed synthetic numerical, source-commit, runner and launcher-loss
+checks, but its sanitized qualification archive awaits direct Drive export approval.
+Review and bind that exact recipe/lock before either draft contract is frozen. No biological data or analysis
 has run in this new pilot. See [the pilot](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md).
 
 ## Weft P001 source preparation — 11 October 2026
