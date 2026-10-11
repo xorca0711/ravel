@@ -1,0 +1,130 @@
+{
+  "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+  "extracts": [
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "PAPER_FILTER",
+      "segment_sha256": "594998a2895e03a985244a078f4ab8c53b7deac07c66d66855b5591cbf987f2b"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "FLOOR_FILTER",
+      "segment_sha256": "115a52679cf4920db1ac8404f9d332e79b077e29ae7ddff261ad4c9f5eeaeeb8"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "PAPER_SCRUBLET",
+      "segment_sha256": "86b42510364ad784dd271a561b69194d7f57ba414956b89642aa5766fea7fb98"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "STATE_SETS",
+      "segment_sha256": "a7bd839c041e50d3f6c1e88fe879d7db408bf91b1b180aadb2cc86b531ce5ce6"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "CONTAMINANT_SETS",
+      "segment_sha256": "d5380cd6b777864ddcca6436c5e0d9a5035c7911992a0bbc85c1037ac0239171"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "STATE_ORDER",
+      "segment_sha256": "3b8e7c50be511ece81bd0930651f8b276bdae8882019dc956610138609767b63"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "ANNOTATION_THRESHOLDS",
+      "segment_sha256": "bae87fb35785f80a5d667202593f5f3dbd027b7a3598a13ad8d4f753b742e19d"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "RESOLUTIONS",
+      "segment_sha256": "f657f935595cd7e37321d179eeb568dcdd7f58816bd7aaf90bd30c7f79286ed1"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "detection",
+      "segment_sha256": "a1c08c91a754c3fa58d9a86f7f02fe4077d60dc10febb407fd058415fe95c73a"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "cluster_detection_table",
+      "segment_sha256": "fcc88ea73298d9c3a30f9e8bd41514a2128d644d77245b44d418777ce14bf69f"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "annotate_clusters",
+      "segment_sha256": "10c8913df9196c13417733d6c1b573148d348265c57bc78858c57b066f5ae241"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "annotate_clusters_b",
+      "segment_sha256": "053f072212752b090c480adba2c2be916e99b8a2c2a074349b0382e45dc58b5f"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "dispersed_presence",
+      "segment_sha256": "c5b959f642a0f1c8fd99d7ebc22dbb217b68e86da08acea2751eaaa256e883bf"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "mad_bounds",
+      "segment_sha256": "768019cd4a1209460ede94a683084056de255a61f7ec74fff953afa94755c886"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "same_library_enrichment",
+      "segment_sha256": "6a4b7cc03021856924f94045e1d2b99709ba78004d8a654ff77c0420fa6af1a1"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc.py",
+      "legacy_sha256": "365c2bbb8fa6553e051cf37f7786835ced8416b3c3def43a7bf4e0c93c07a40d",
+      "name": "RULES",
+      "segment_sha256": "81cf5943f61cf93d4c0b1fa5292566137c9f1142ecd628d7a28f1f7f598edae0"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc.py",
+      "legacy_sha256": "365c2bbb8fa6553e051cf37f7786835ced8416b3c3def43a7bf4e0c93c07a40d",
+      "name": "call_and_qc",
+      "segment_sha256": "74777a9191eb64cd99ec4562c0ee6ac39842d3c3056a4a675630f63a88ccd00f"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/d2_state_recovery.py",
+      "legacy_sha256": "bb81b73e2ccd5086a859a6936ed1ffb13931ed04b0a6f9dfaa48e6249967362a",
+      "name": "embed",
+      "segment_sha256": "203889a6b1cdb39fb4e779fc93aa646ddab5c482f98909634ead7ba17a974c09"
+    },
+    {
+      "legacy_path": "Research Article/gate1_04_sikkema_2023_hlca/trials/trial_utils.py",
+      "legacy_sha256": "b845f0af123b50f3ad4e550dbc7e7dce533402ca97c41118293f266c3a14d367",
+      "name": "qc_metrics",
+      "segment_sha256": "aecbb403eb83df5dad7508c989351cbaf3523a912bdddaa3fd57bcd9cdab7d71"
+    }
+  ],
+  "additional_legacy_dependencies": [
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation.py",
+      "sha256": "29e1bd7a6ba589ec49cd23a27d9b471a90c89f854d7ea6ef688c4f9af9e9ee43"
+    },
+    {
+      "path": "analysis/lib/provenance.py",
+      "sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556"
+    }
+  ],
+  "D2b_conditional_block": "d2b_corrected_annotation.py main, DATP subclustering only when pAT2 absent and DATP present; neighbors 30, igraph 0.5, n_iterations 2, seed 0; restrict relabel to pAT2/DATP"
+}

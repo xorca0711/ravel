@@ -1,0 +1,8 @@
+{
+  "image_id": "sha256:c9c7fb60b86d4608c2420d662d386bab33dde70b3b4fa9cd01e7ca8bdc9e6902",
+  "platform": "linux/amd64",
+  "python": "3.12.15",
+  "base_image": "python@sha256:a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1",
+  "qualified_scope": "synthetic only; full-data loader/memory and biological results not qualified",
+  "wall_watchdog": "GNU timeout --signal=TERM --kill-after=1s <reviewed-deadline>s; tested 6s synthetic case after launcher SIGKILL"
+}

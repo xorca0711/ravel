@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A0.P001_choi_metadata_v1",
+  "owner": "A0",
+  "status": "draft",
+  "analysis_type": "metadata",
+  "question": "Can the selected GSE145031 Tomato-positive triplets support a strict sparse source check and a bounded descriptive Figure 1B-D pass under fixed methods?",
+  "decision": "Root reviews input integrity, sparse-memory readiness and the descriptive adapter before any frozen checkpointed manual job. This does not authorize a biological run.",
+  "strongest_rival": "Source/cell selection and annotation artifacts can change descriptive composition; one pooled library per condition cannot separate time from library or identify a mechanism.",
+  "discriminator": "Exact compressed and order hashes, sparse coordinates, QC partitions and marker detection audit measurement artifacts; they do not establish animal-level replication, fate or causal IL-1beta effects.",
+  "evidence_refs": [
+    "docs/research_dossiers/A0.md",
+    "docs/research_dossiers/A1.md",
+    "Research Article/gate1_02_choi_2020/ANALYSIS_TRIAL_PLAN.md",
+    "Research Article/gate1_02_choi_2020/weft_pilot_v1/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Pinned Choi D1/D2/D2b outcomes and corrections at bfe26b876221cf6c6fa6f9b16a90cfb516b5998d already inspected. The benchmark is exposed; a later freeze will not erase this exposure.",
+  "biological_unit": "One pooled two-mouse library per condition; individual mice are not independently identifiable. Cells/barcodes are nested observations, not replicates.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "PBS, day 14 and day 28 each have one Tomato-positive pooled library. This is the same published source and historical reanalysis, not independent replication.",
+  "population_and_selection": "Only GSM4304609, GSM4304611 and GSM4304613 Tomato-positive raw whitelist triplets; paper thresholds applied directly to raw barcodes, followed by frozen per-library MAD and doublet rules.",
+  "contrast": "Metadata stage has no biological contrast. Descriptive stage presents PBS/day-14/day-28 library compositions and marker detection without treating cells as animal replicates.",
+  "endpoint": "Metadata: compressed/CRC/order/coordinate integrity, sparse dimensions, nnz, elapsed time and peak memory. Figure1: QC counts, assigned/unassigned/contaminant states, library fractions and marker detection evidence.",
+  "methods": "Sequential strict sparse validation only; no calling, QC, clustering or inference. Research Article/gate1_02_choi_2020/weft_pilot_v1/config/inputs.json binds nine selected triplets.",
+  "missingness_and_exclusions": "Reject malformed/hash-mismatched inputs, duplicate coordinates, zeros/non-integer counts, duplicate feature IDs/barcodes, changed feature order or dimension mismatch. No silent repair/sum/dense raw conversion. D1 doublets excluded; contaminants excluded from alveolar denominator, unassigned retained and shown. Missing markers explicitly recorded.",
+  "multiplicity": "No biological significance testing or p-values. Declared resolution sensitivities describe measurement choices; they are not independent replications.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact software count/partition/fraction invariants are not biological reproduction tolerances. No effect margin or animal-level precision is claimed or invented.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Exposed descriptive benchmark; one pooled library per condition. Fresh numerical differences are reported without thresholding into biological reproduction success; no mechanism or animal-level p-values. A1 is context only, no new question ID.",
+  "stop_rule": "Remain draft pending root review and bound manual checkpoint. Hold on provider access, raw hashes/structure, sparse peak-memory readiness, missing cells, method failures or resource/deadline breach. Do not tune thresholds/resolutions to recover five states. Refuse nonempty/non-scoped output paths and retained/subcluster cells insufficient for the fixed 30-neighbor settings; no automatic parameter rescue.",
+  "inputs": [
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304609_PBS_AT2_Tomato.mtx.gz",
+      "sha256": "a5be8f5140f266d9fae46b24e0d9a4080b4a0cc8936c788c8f4017aaac179e83",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304609:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304609_PBS_AT2_Tomato_barcodes.tsv.gz",
+      "sha256": "64962a074f58f25f40174708ed8667f19b09ecee4f71d1ec560a5383f3b12a4f",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304609:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304609_PBS_AT2_Tomato_gene.tsv.gz",
+      "sha256": "33fc0e6ab2bb2bf434979ab0c5bb06f3284af33dcef51c4f8a9ef7e40bb356da",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304609:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304611_Day14_AT2_Tomato.mtx.gz",
+      "sha256": "557897d017666670409f2c597677fdac919b59e32936c5fa4d781d28826a5886",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304611:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304611_Day14_AT2_Tomato_barcodes.tsv.gz",
+      "sha256": "ecfe174a445b81c44e7c1d22173df453abbacc5bc087a643521ff196d7d016a8",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304611:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304611_Day14_AT2_Tomato_gene.tsv.gz",
+      "sha256": "9ad3244c380b46b082e1647cad76c110f8d22fb3216f0443efa25ee1189b7d19",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304611:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304613_Day28_AT2_Tomato.mtx.gz",
+      "sha256": "809952999675d7036c4c2c39e3c4eab1a1c7c07a80b583f726484c2c335797da",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304613:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304613_Day28_AT2_Tomato_barcodes.tsv.gz",
+      "sha256": "7d7aa42f8f0d80f66ffb985038b89aaaf594c2fb07f4d76e7a30945264e83845",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304613:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304613_Day28_AT2_Tomato_gene.tsv.gz",
+      "sha256": "54cd77dac4862132c4ebe8ae823cf7114b7f5f281dd68ed5c48d1da8256b1221",
+      "study_id": "GSE145031",
+      "unit_ids": [
+        "GSM4304613:pooled_library"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/inputs.json",
+      "sha256": "9dabd1d6c15959ad0deb5276aa7128f070b9a4bda6905754ffdfb1e5996f93d3"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/preparation-checks.json",
+      "sha256": "dd167b055b7e745463b262c75a9b70c69598ce6451f03634b108c6accf47b749"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/source-bindings.json",
+      "sha256": "a1c5c8eeae867db8addd585e01cf48238f569ad64abed9833da518b89f9729fe"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/watchdog-qualification.json",
+      "sha256": "312fdd1a7f041c33f7cd030919a91883a75463eecd969a871a81016e5e5f5d2a"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/Dockerfile",
+      "sha256": "5e6147431c0dee38b523ecd819bd7a94f39cded0b90e3eabc2b80f8398a8e809"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/dependency-route.json",
+      "sha256": "003bc3d59a63ec30cb2e046ae8189825f0f1ba7d8869f3842039578154b77401"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/gnu-timeout-identity.txt",
+      "sha256": "992ffa2de35e3447998bb1ed1f71993ba5a36d5df854648e21b0520a1f22e275"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/identity.json",
+      "sha256": "25f9915ae8892ea3726f8ed532262a5dbe34cb887ff82c11a48e278b9e49e13c"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/launch_and_interrupt.py",
+      "sha256": "b4ce18f27181300c92b5b84b0c8d44c1a7e3c5e167a2fd6a3e08fdf8efc196ad"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/requirements.lock",
+      "sha256": "c2c215c65cbd1d75505755bbf0a252b6af47e755a6894c68e84ed76db54ed9ae"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/synthetic.py",
+      "sha256": "33306aaf622ec403255c3a1fb57c08b0daca94f60fc13f9bc60e0bc4c423877c"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/watchdog_case.py",
+      "sha256": "517e1313e10a4fd76c79e8ea71ccede5b17b4c43059b1b61831d0e1210b9b470"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/watchdog_launcher.py",
+      "sha256": "903ffa9a6b8dc8340135b6f3145b952587e5e63ab6bea83f44262ae4f6ed08b0"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/watchdog_observer.py",
+      "sha256": "f305bfb14597708fbc6d804af5e8df166026e486c71c5c8a04b071333ee74459"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/wheel-manifest.json",
+      "sha256": "1a40ff9246beaeec793d678d64a49f5cacd4f0ee7d32a4cd0c1a868e35b7f7d5"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/wheel-provenance.json",
+      "sha256": "414ed4362ca416802106ba1059705d3fc84a010f3228690ae597d5abbb3496fa"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/common.py",
+      "sha256": "4060921f9401936919bdb4e530c99064defefeac3b8e6bd2cba21027edf39a62"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/figure1.py",
+      "sha256": "ccb3dde81ab24bed1dda68b87494df593e1f765c698322cad76b22eb58919b6d"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/frozen_methods.py",
+      "sha256": "198422fdddd118ebaf071c15e0b5604b55677866ef7929e70642b3271c052302"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/metadata.py",
+      "sha256": "62bf1d5fad66b2f375288d06252810ff7d53c57034e46acd55b4b72abd706f15"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/sparse_input.py",
+      "sha256": "60c9a83005b76ec0487810cd5485bcf39f34e23f63d305c46b9e4f15e4434a56"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/test_synthetic.py",
+      "sha256": "b86f50e77beb08eec9a2c13080c80d8fda47ad286a862ab48f84ab6bf08cae67"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc.py",
+      "sha256": "365c2bbb8fa6553e051cf37f7786835ced8416b3c3def43a7bf4e0c93c07a40d"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2_state_recovery.py",
+      "sha256": "bb81b73e2ccd5086a859a6936ed1ffb13931ed04b0a6f9dfaa48e6249967362a"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation.py",
+      "sha256": "29e1bd7a6ba589ec49cd23a27d9b471a90c89f854d7ea6ef688c4f9af9e9ee43"
+    },
+    {
+      "path": "Research Article/gate1_04_sikkema_2023_hlca/trials/trial_utils.py",
+      "sha256": "b845f0af123b50f3ad4e550dbc7e7dce533402ca97c41118293f266c3a14d367"
+    },
+    {
+      "path": "analysis/lib/provenance.py",
+      "sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "fc9cb4ca6602feca4612532a98cc13960d3dd002da23ce5910c8de59d1b31df6"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/metadata.py",
+  "arguments": [
+    "--output",
+    "{run_dir}",
+    "--reviewed-job",
+    "raw_data/GSE145031/weft_pilot_v1/checkpoints/metadata-job-v1.json"
+  ],
+  "expected_outputs": [
+    "input-readiness.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New versioned exposed checkpointed pilot; historical contracts, outputs, validators and scientific grades remain frozen."
+}

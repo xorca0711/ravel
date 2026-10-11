@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "image": "sha256:c9c7fb60b86d4608c2420d662d386bab33dde70b3b4fa9cd01e7ca8bdc9e6902",
+  "watchdog": "official GNU timeout --signal=TERM --kill-after=1s 6s",
+  "deadline_seconds": 6,
+  "kill_after_seconds": 1,
+  "actual_container_seconds": 7.10437,
+  "controls": {
+    "NetworkMode": "none",
+    "NanoCpus": 1000000000,
+    "Memory": 268435456,
+    "MemorySwap": 268435456,
+    "PidsLimit": 32,
+    "ReadonlyRootfs": true,
+    "CapDrop": [
+      "ALL"
+    ],
+    "SecurityOpt": [
+      "no-new-privileges:true"
+    ]
+  },
+  "user": "65534:65534",
+  "host_timeout_used_as_proof": false,
+  "launcher_killed_seconds_after_container_start": 0.2241370677947998,
+  "failures": [
+    {
+      "attempt": 1,
+      "failure": "controller readiness wait (5s including container creation) elapsed before identity file arrived; no interruption proof claimed",
+      "repair": "20s readiness allowance; deadline still 6s from container start"
+    },
+    {
+      "attempt": 2,
+      "failure": "container image creation exceeded 20s readiness allowance; no successful interruption proof claimed",
+      "repair": "120s readiness allowance covers pre-start creation; worker deadline remains 6s plus 1s kill-after"
+    }
+  ],
+  "captured_host_process_identity_count": 4,
+  "all_captured_identities_absent": true,
+  "namespace_roles": [
+    "parent",
+    "child",
+    "grandchild"
+  ],
+  "shared_process_group": true,
+  "exit_code": 137,
+  "OOMKilled": false,
+  "host_launcher_SIGKILL": true,
+  "new_process_observer": true
+}

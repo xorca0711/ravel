@@ -1,0 +1,34 @@
+{
+  "status": "source_preparation_only",
+  "frozen_ast_segments_verified": 19,
+  "selected_input_files": 9,
+  "contracts": "draft",
+  "source_schema_preflight": "both passed; code hashes verified by unchanged gate",
+  "input_preflight": "HOLD: nine absent real triplets for each contract",
+  "provider_HEAD": "HOLD: proxy tunnel 403 Forbidden, no payload or redirect",
+  "full_repository_gate": "not claimed; sparse source checkout cannot satisfy all unrelated historical paths. Root must run unchanged gate and repository checks in complete integration checkout.",
+  "targeted_tests": {
+    "passed": 11,
+    "biological_inputs": false,
+    "duration_seconds": 0.062,
+    "tests": [
+      "strict sparse format/hash/CRC/order/duplicates",
+      "frozen QC and expected-rate routing with mocked Scrublet",
+      "corrected Sftpc annotation condition",
+      "exact denominators including unassigned",
+      "draft checkpoint and fresh-output refusal"
+    ]
+  },
+  "failures": [
+    {
+      "attempt": "synthetic source harness 1",
+      "failure": "mount depth omitted repository root; IndexError before tests",
+      "repair": "read-only mount at actual repository depth; no scientific method change"
+    }
+  ],
+  "biological_download": false,
+  "biological_execution": false,
+  "historical_output_changes": false,
+  "validator_policy_changes": false,
+  "private_backup_identifiers_in_public_receipts": false
+}

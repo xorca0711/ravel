@@ -1,5 +1,26 @@
 # Current project state
 
+## Weft P001 source preparation — 11 October 2026
+
+Owner authorized a new draft metadata/sparse-loader stage and a separate exposed
+descriptive Choi Figure 1B-D adapter under
+[weft_pilot_v1](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md),
+owned by A0 with A1 context. Nine input hashes, inert frozen D1/D2/D2b helpers,
+exact numerical lock and independent worker watchdog proof are bound. Fixed primary
+Leiden1.0 and declared sensitivities do not tune toward five states. Contracts remain
+draft pending root review/checkpoint; no biological download, loader benchmark or
+analysis occurred. Historical evidence, validators, claims and policies unchanged.
+
+The exact provider HEAD was blocked by the proxy (403 tunnel). Root must review
+code/watchdog, request concrete provider access if needed, independently verify
+triplets and loader peak memory, then freeze and bind one manual checkpointed job.
+Private backup locators and identities stay outside public scientific receipts.
+Validation: 11 targeted synthetic tests and both source/schema preflights passed;
+each real-input preflight holds on nine absent triplets. The scoped commit is
+recorded in the handoff. Synthetic tests establish
+software behavior only, not biological acceptance or animal-level precision.
+
+
 **Update this before stopping work, every session.**
 
 ## README follow-up — 7 October 2026
