@@ -2787,3 +2787,17 @@ versioned runtime_git_v3 and retained the original runtime. Reviewed recipe,
 source checks and current-image watchdog; bound execution limits and froze only
 the metadata contract. Scientific methods, validators and interpretation limits
 are unchanged. Figure 1 remains draft until real-input/memory review.
+
+## 2026-10-11 — Metadata run reported verified; export hold retained
+
+The reviewed single attempt executed at90c02ba. Worker-reported verification,
+loader/resource measurements and result hashes are recorded in METADATA_STATUS.md.
+Direct worker approval for the earlier runtime archive did not cover the new
+64,399-byte evidence export; automatic review denied it. No retry or alternate
+route. Root result/memory review, after-run recovery and Figure1 remain gated.
+No numerical receipt is fabricated from the chat report. This status-only update
+preserves all frozen code/contracts and prior outputs.
+
+The subsequent after-run EXPORT_HELD checkpoint passed coordinator upload/readback
+and read-only restore plus independent root byte/ancestry/integrity checks. Exactly
+one attempt remains recorded; result evidence readback and Figure1 remain held.

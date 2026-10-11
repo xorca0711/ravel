@@ -18,18 +18,21 @@ No biological download, loader benchmark or analysis was performed.
 
 # Current project state
 
-## Weft P001 runtime verified; metadata contract frozen
+## Weft P001 metadata executed; evidence export held
 
-Direct worker approval succeeded. Root independently verified the private runtime
-archive hash, ZIP CRC and all 28 manifest entries; sharing remains owner-only.
-The exact Git-equipped recipe and reports are preserved as runtime_git_v3.
-[Runtime review](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/RUNTIME_REVIEW.md)
-binds an offline 4-CPU/8-GiB metadata job with a worker deadline. The metadata
-contract is frozen; Figure 1 stays draft. Next: commit/gate, verified per-job
-checkpoint, input download/hash checks and sparse-loader run, then memory review.
-No biological result or successful real-input run is claimed yet.
+The frozen metadata stage ran once at 90c02ba. The worker reports all nine selected
+inputs and three libraries passed integrity/order checks, 190.460 seconds of loader
+work and 945,848 KiB cumulative peak RSS; exit 0, no OOM, captured processes absent.
+[Metadata status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/METADATA_STATUS.md)
+records precise scope and reported hashes. Root verified the before-dispatch
+checkpoint but has not yet read the numerical result bytes.
 
-The earlier entries below record the preparation and approval holds at their time.
+Automatic review blocked the new 64,399-byte evidence archive upload because the
+prior direct worker approval covered the runtime archive. No retry or alternate
+transfer. The private after-run EXPORT_HELD checkpoint is now verified; root independently
+checked its bytes, ancestry, integrity and single-attempt state. Next: direct
+approval in the existing worker, exact evidence readback, then root memory review. Figure1 remains draft/unrun; no scientific
+acceptance or new question. Earlier preparation entries below are historical.
 
 ## Weft P001 root review — 11 October 2026
 
