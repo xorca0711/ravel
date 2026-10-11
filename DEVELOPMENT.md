@@ -2740,3 +2740,17 @@ Root will rematerialize clean pilot blobs and rerun the unchanged full gate.
 Numeric image tool check: GNU timeout 9.7 available; git --version fails 127
 (git not found). Execution remains HOLD pending a reviewed/qualified image with
 git for unchanged committed-source checks. No bypass or image alteration.
+
+## 2026-10-11 — Independent root review of Weft P001 draft
+
+Full tracked-source governance passed on Windows at 47a2fe5 against bfe26b8.
+Only clean new pilot files were rematerialized from exact Git blobs after scoped
+byte-preservation attributes were added; no content change or historical rewrite.
+Independent checks matched nine Weft input hashes, six historical Git blob hashes
+and 19 inert AST source segments. Two Linux CI workflows also passed the earlier
+review correction. Private Drive 16 MiB synthetic upload/readback passed separately.
+
+The published single-host NCBI update passed one fresh proxied HEAD. Git is missing
+from the initial numerical image; runtime revision qualification remains required.
+Neither draft contract, scientific acceptance, registry question IDs nor historical
+evidence was promoted by these checks.

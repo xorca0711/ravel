@@ -18,6 +18,21 @@ No biological download, loader benchmark or analysis was performed.
 
 # Current project state
 
+## Weft P001 root review — 11 October 2026
+
+The complete unchanged research gate passes on Windows against origin/main at
+bfe26b8, after preserving exact bytes in the new pilot only. Root independently
+verified all nine selected input hashes, six historical source blobs and 19 inert
+method extracts. Review corrected per-resolution state summaries, added adapted
+state/library UMAP panels and explicit cross-library feature-order checks.
+
+The approved NCBI-only environment update is published; a fresh cloud HEAD returned
+HTTP 200 with the expected 349,204,480 bytes. The earlier worker's proxy 403 remains
+a historical observation. The numerical image lacks Git, required by the unchanged
+committed-source runner. A versioned official-package image correction is being
+qualified before either draft contract is frozen. No biological data or analysis
+has run in this new pilot. See [the pilot](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md).
+
 ## Weft P001 source preparation — 11 October 2026
 
 Owner authorized a new draft metadata/sparse-loader stage and a separate exposed
