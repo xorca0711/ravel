@@ -161,3 +161,7 @@ actual inert adapter and runtime materials. Committed-source checks remain requi
 **Resolved runtime hold:** the original image lacked Git. The reviewed Git-equipped
 revision and exact transfer evidence are in [RUNTIME_REVIEW.md](RUNTIME_REVIEW.md).
 The unchanged runner committed-source checks remain mandatory.
+
+The [artifact recovery amendment](ARTIFACT_TRANSFER_AMENDMENT.md) records the
+failed 16 MiB trial and successful 4 MiB alternative. It changes only external
+artifact transfer; the frozen scientific source and contract remain unchanged.

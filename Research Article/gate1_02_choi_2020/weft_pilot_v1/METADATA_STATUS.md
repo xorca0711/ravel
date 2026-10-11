@@ -41,3 +41,7 @@ Figure1 is frozen after root review; dispatch remains held for verified multipar
 transport and a new before-dispatch checkpoint. Metadata checkpoint closure passed.
 No QC filtering, embedding, Figure1 result, biological inference or scientific
 acceptance is claimed.
+
+The [artifact recovery amendment](ARTIFACT_TRANSFER_AMENDMENT.md) records the
+failed 16 MiB trial and successful 4 MiB alternative. It changes only external
+artifact transfer; the frozen scientific source and contract remain unchanged.

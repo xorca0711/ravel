@@ -13,8 +13,11 @@ loader prerequisite; full Figure1 memory is not yet measured.
 records the resolved direct-approval export hold and exact evidence. Mir closed
 that same attempt after verifying a descendant of the preserved EXPORT_HELD checkpoint.
 The separate Figure1 plan proposes 4 CPUs/16 GiB/3,600 seconds and unchanged
-methods. Its contract is frozen after root review; dispatch remains held for multipart
-transport qualification and a newly verified before-dispatch checkpoint. No metadata rerun, new RQ or scientific acceptance.
+methods. Its contract is frozen after root review. A 16 MiB part readback failed; a
+separate 4 MiB+7 synthetic roundtrip passed. The explicit
+[operational transfer amendment](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/ARTIFACT_TRANSFER_AMENDMENT.md)
+preserves all frozen files and changes only external archive transport. Mir is
+preparing a new unique packet/checkpoint; numerical dispatch awaits root release. No metadata rerun, new RQ or scientific acceptance.
 
 ## P001 root review corrections — 11 October 2026
 
