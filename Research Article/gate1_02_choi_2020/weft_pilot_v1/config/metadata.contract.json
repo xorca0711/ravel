@@ -22,7 +22,7 @@
   "population_and_selection": "Only GSM4304609, GSM4304611 and GSM4304613 Tomato-positive raw whitelist triplets; paper thresholds applied directly to raw barcodes, followed by frozen per-library MAD and doublet rules.",
   "contrast": "Metadata stage has no biological contrast. Descriptive stage presents PBS/day-14/day-28 library compositions and marker detection without treating cells as animal replicates.",
   "endpoint": "Metadata: compressed/CRC/order/coordinate integrity, sparse dimensions, nnz, elapsed time and peak memory. Figure1: QC counts, assigned/unassigned/contaminant states, library fractions and marker detection evidence.",
-  "methods": "Sequential strict sparse validation only; no calling, QC, clustering or inference. Research Article/gate1_02_choi_2020/weft_pilot_v1/config/inputs.json binds nine selected triplets.",
+  "methods": "Sequential strict sparse validation only; no calling, QC, clustering or inference. Research Article/gate1_02_choi_2020/weft_pilot_v1/config/inputs.json binds nine selected triplets. Explicit cross-library feature ID/order equality checked before release of each sparse library.",
   "missingness_and_exclusions": "Reject malformed/hash-mismatched inputs, duplicate coordinates, zeros/non-integer counts, duplicate feature IDs/barcodes, changed feature order or dimension mismatch. No silent repair/sum/dense raw conversion. D1 doublets excluded; contaminants excluded from alveolar denominator, unassigned retained and shown. Missing markers explicitly recorded.",
   "multiplicity": "No biological significance testing or p-values. Declared resolution sensitivities describe measurement choices; they are not independent replications.",
   "precision_status": "not_applicable",
@@ -140,11 +140,11 @@
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/preparation-checks.json",
-      "sha256": "dd167b055b7e745463b262c75a9b70c69598ce6451f03634b108c6accf47b749"
+      "sha256": "aed3247f6aad55ec9541e052bc1d50457c1ac0d8e085056eb90f6cf5091076b9"
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/source-bindings.json",
-      "sha256": "a1c5c8eeae867db8addd585e01cf48238f569ad64abed9833da518b89f9729fe"
+      "sha256": "886d500960cdfeb302cae77090c586060fce7b11a211d0b7f088d289d38eb871"
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/watchdog-qualification.json",
@@ -204,7 +204,7 @@
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/figure1.py",
-      "sha256": "ccb3dde81ab24bed1dda68b87494df593e1f765c698322cad76b22eb58919b6d"
+      "sha256": "6b0707f6ef95193ffc0a0019c607e77f9e9f8a137a1e96ee357dfebc7068fc4f"
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/frozen_methods.py",
@@ -212,7 +212,7 @@
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/metadata.py",
-      "sha256": "62bf1d5fad66b2f375288d06252810ff7d53c57034e46acd55b4b72abd706f15"
+      "sha256": "699c9766bc00c18f85a8cbb5dad6f6d511bffeb6aef77733f44e28b1a57f63ab"
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/sparse_input.py",
@@ -220,7 +220,7 @@
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/test_synthetic.py",
-      "sha256": "b86f50e77beb08eec9a2c13080c80d8fda47ad286a862ab48f84ab6bf08cae67"
+      "sha256": "e5b13bac40bb92240ba46c6baa268f72b103e37ec975d91163d079b0b59018f3"
     },
     {
       "path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",

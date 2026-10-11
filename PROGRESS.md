@@ -1,3 +1,21 @@
+
+## P001 root review corrections — 11 October 2026
+
+Corrected d779520's overwritten resolution-state dictionary and explicitly checked
+metadata cross-library feature ID/order. Added final-state and library/timepoint
+UMAPs; retained counts as qc_cell_counts.png. These are adapted descriptive panels;
+Figure 1D detection fractions are not the published expression heatmap. Primary
+Leiden 1.0 is analyst-fixed/predeclared. No methods or thresholds were tuned.
+Thirteen targeted synthetic tests passed (1.504 s), including describe tables,
+plots and JSON with absent pAT2/unassigned/contaminants. Synthetic coordinates
+and conditional DATP graph mocks are disclosed. Source/output bindings updated;
+both contracts remain draft. Earlier failure/Drive evidence preserved.
+The published NCBI-only update awaits independent readiness review; no network
+check or active-runtime change here. Before execution root must review code and
+watchdog, complete repository checks, establish independent input readiness and
+loader-memory acceptance, freeze contracts, and bind manual backup/job receipts.
+No biological download, loader benchmark or analysis was performed.
+
 # Current project state
 
 ## Weft P001 source preparation — 11 October 2026

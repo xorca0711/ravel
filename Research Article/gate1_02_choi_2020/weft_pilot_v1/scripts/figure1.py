@@ -8,16 +8,16 @@ import numpy as np,pandas as pd,anndata as ad,scanpy as sc
 import frozen_methods as fm
 
 def describe(a,out):
- annotations={};assigned={}
+ annotations={};assigned_by_resolution={}
  for resolution in (0.3,0.5,1.0):
   key=f'leiden_{resolution}';table=fm.annotate_clusters_b(fm.cluster_detection_table(a,key));table.to_csv(out/f'clusters_{resolution}.csv',index=False)
-  assigned[str(resolution)]=sorted(set(table.state)&set(fm.STATE_ORDER));annotations[resolution]=table
+  assigned_by_resolution[str(resolution)]=sorted(set(table.state)&set(fm.STATE_ORDER));annotations[resolution]=table
   a.obs[f'state_b_{resolution}']=a.obs[key].astype(str).map(dict(zip(table.cluster,table.state)))
- # Owner-fixed primary, distinct from historical outcome-dependent selection.
+ # Analyst-fixed/predeclared primary, distinct from historical outcome-dependent selection.
  primary=1.0;a.obs['state_before_subcluster']=a.obs['state_b_1.0'].astype(str);a.obs['state']=a.obs['state_before_subcluster'];a.obs['cluster']=a.obs['leiden_1.0'].astype(str)
  subrecord={'triggered':False}
  pd.DataFrame(columns=['cluster','n_cells','state','rule']).to_csv(out/'datp_subclusters.csv',index=False)
- if 'pAT2' not in assigned['1.0'] and 'DATP' in assigned['1.0']:
+ if 'pAT2' not in assigned_by_resolution['1.0'] and 'DATP' in assigned_by_resolution['1.0']:
   mask=(a.obs.state=='DATP').to_numpy()
   if mask.sum()<=30:raise ValueError('HOLD: DATP subset cannot support frozen 30-neighbor setting')
   sub=a[mask].copy()
@@ -30,9 +30,9 @@ def describe(a,out):
   subrecord={'triggered':True,'cells':int(mask.sum()),'resolution':.5,'mapped_states':mapping,'non_pAT2_DATP_substates_retained_as_DATP':True}
  denominators={}
  for library,group in a.obs.groupby('library',observed=True):
-  vc=group.state.astype(str).value_counts();cont=sum(int(v) for k,v in vc.items() if k.startswith('contaminant_'));unassigned=int(vc.get('unassigned',0));assigned=sum(int(vc.get(k,0)) for k in fm.STATE_ORDER)
-  assert assigned+unassigned+cont==len(group)
-  denominators[str(library)]={'total_post_doublet':len(group),'assigned':assigned,'unassigned':unassigned,'contaminant':cont,'non_contaminant_including_unassigned':len(group)-cont,'states':{k:int(vc.get(k,0)) for k in fm.STATE_ORDER}}
+  vc=group.state.astype(str).value_counts();cont=sum(int(v) for k,v in vc.items() if k.startswith('contaminant_'));unassigned=int(vc.get('unassigned',0));assigned_count=sum(int(vc.get(k,0)) for k in fm.STATE_ORDER)
+  assert assigned_count+unassigned+cont==len(group)
+  denominators[str(library)]={'total_post_doublet':len(group),'assigned':assigned_count,'unassigned':unassigned,'contaminant':cont,'non_contaminant_including_unassigned':len(group)-cont,'states':{k:int(vc.get(k,0)) for k in fm.STATE_ORDER}}
  composition=counts_and_fractions(a.obs);pd.DataFrame(composition).to_csv(out/'composition.csv',index=False)
  marker_rows=[];availability={}
  sets={**fm.STATE_SETS,**fm.CONTAMINANT_SETS}
@@ -48,11 +48,23 @@ def describe(a,out):
  a.obs[['library','gsm','timepoint','state_before_subcluster','state','cluster']].to_csv(out/'cell_states.csv',index_label='sample_prefixed_cell_id')
  # Fresh descriptive panels; no published-number matching or inference.
  import matplotlib;matplotlib.use('Agg');import matplotlib.pyplot as plt
- totals=a.obs.groupby('library',observed=True).size();fig,ax=plt.subplots(figsize=(7,4));totals.plot.bar(ax=ax);ax.set_ylabel('Cells after D1 QC and doublet removal');fig.tight_layout();fig.savefig(out/'figure1B_counts.png',dpi=150);plt.close(fig)
+ totals=a.obs.groupby('library',observed=True).size();fig,ax=plt.subplots(figsize=(7,4));totals.plot.bar(ax=ax);ax.set_ylabel('Cells after D1 QC and doublet removal');fig.tight_layout();fig.savefig(out/'qc_cell_counts.png',dpi=150);plt.close(fig)
+ # All observed categories remain visible, including unassigned and contaminants.
+ coordinates=np.asarray(a.obsm['X_umap'])
+ if coordinates.shape!=(a.n_obs,2) or not np.isfinite(coordinates).all():raise ValueError('invalid two-dimensional UMAP')
+ def embedding(ax,labels,title):
+  labels=labels.astype(str);categories=sorted(labels.unique())
+  colors=plt.get_cmap('tab20',max(len(categories),1))
+  for i,label in enumerate(categories):
+   mask=(labels==label).to_numpy();ax.scatter(coordinates[mask,0],coordinates[mask,1],s=7,color=colors(i),label=label)
+  ax.set(xlabel='UMAP 1',ylabel='UMAP 2',title=title);ax.legend(fontsize=7,markerscale=2)
+ fig,ax=plt.subplots(figsize=(8,5));embedding(ax,a.obs.state,'Adapted descriptive Fig. 1B: final states');fig.tight_layout();fig.savefig(out/'figure1B_state_umap.png',dpi=150);plt.close(fig)
+ fig,axes=plt.subplots(1,2,figsize=(12,5))
+ embedding(axes[0],a.obs.library,'Library mixing');embedding(axes[1],a.obs.timepoint,'Timepoint mixing');fig.tight_layout();fig.savefig(out/'qc_library_timepoint_umap.png',dpi=150);plt.close(fig)
  comp=pd.DataFrame(composition);pivot=comp[~comp.state.str.startswith('contaminant_')].pivot(index='library',columns='state',values='fraction_alveolar').fillna(0)
  fig,ax=plt.subplots(figsize=(7,4));pivot.plot.bar(stacked=True,ax=ax);ax.set_ylabel('Fraction of non-contaminant cells, including unassigned');fig.tight_layout();fig.savefig(out/'figure1C_composition.png',dpi=150);plt.close(fig)
  heat=markers.groupby(['state','marker_set'],observed=True).detection_fraction.mean().unstack();fig,ax=plt.subplots(figsize=(10,4));im=ax.imshow(heat.to_numpy(),aspect='auto',vmin=0,vmax=1);ax.set_yticks(range(len(heat)),heat.index);ax.set_xticks(range(len(heat.columns)),heat.columns,rotation=90);fig.colorbar(im,ax=ax,label='Mean marker detection fraction');fig.tight_layout();fig.savefig(out/'figure1D_marker_detection.png',dpi=150);plt.close(fig)
- return {'primary_resolution':primary,'denominators_by_library':denominators,'states_assigned_before_subclustering':assigned,'final_pAT2_cells':int((a.obs.state=='pAT2').sum()),'pAT2_absent':bool(not (a.obs.state=='pAT2').any()),'DATP_subclustering':subrecord,'cell_level_pAT2_like_among_hAT2':{'denominator':int(h.sum()),'count':int(like.sum()),'fraction':float(like.mean()) if len(like) else None},'marker_availability':availability,'same_library_knn_enrichment':fm.same_library_enrichment(a),'composition':composition,'interpretation':'exposed descriptive benchmark; one pooled library per condition; no animal-level p-values, mechanism inference or biological success tolerance'}
+ return {'primary_resolution':primary,'denominators_by_library':denominators,'states_assigned_before_subclustering':assigned_by_resolution,'final_pAT2_cells':int((a.obs.state=='pAT2').sum()),'pAT2_absent':bool(not (a.obs.state=='pAT2').any()),'DATP_subclustering':subrecord,'cell_level_pAT2_like_among_hAT2':{'denominator':int(h.sum()),'count':int(like.sum()),'fraction':float(like.mean()) if len(like) else None},'marker_availability':availability,'same_library_knn_enrichment':fm.same_library_enrichment(a),'composition':composition,'panel_description':{'figure1B':'adapted descriptive final-state UMAP; all observed categories retained','mixing':'library/timepoint UMAP diagnostic','figure1D':'marker detection fractions, not the published expression heatmap'},'interpretation':'exposed descriptive benchmark; one pooled library per condition; no animal-level p-values, mechanism inference or biological success tolerance'}
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--output',required=True);p.add_argument('--reviewed-job');args=p.parse_args();job=require_reviewed_job(args.reviewed_job,'figure1');out=fresh_output(args.output,'figure1')

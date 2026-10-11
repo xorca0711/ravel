@@ -19,7 +19,8 @@ The loader fully reads gzip streams (CRC), rechecks compressed hashes, validates
 MatrixMarket integer/general dimensions, line counts, coordinate bounds and positive
 integers, and rejects duplicate coordinates **before** sparse CSR construction.
 Feature IDs and barcodes must be unique, lengths match axes, and exact uncompressed
-feature/barcode hashes bind their order. Duplicate gene symbols use frozen D1 ID/index
+feature/barcode hashes bind their order. Both stages explicitly require identical
+feature ID/order across libraries, independently of those per-file hashes. Duplicate gene symbols use frozen D1 ID/index
 handling. Cells use GSM-prefixed barcode IDs. Raw whitelists are never densified or
 silently summed. One raw library is loaded/validated/QC-filtered and released before
 the next; only QC-retained cells are combined. Metadata separately measures each
@@ -38,7 +39,7 @@ trigger a new fallback. Missing or unusable cells stop the job.
 Normalization target 10,000, log1p, seurat_v3 HVGs (2,000 on counts), HVG-only scaling
 max10, PCA30, neighbors30, igraph Leiden n_iterations2 and seed0 follow D2.
 Scaling densifies the retained HVG embedding only; full-data peak memory still needs
-qualification. Fixed primary resolution **1.0** differs explicitly from historical
+qualification. Analyst-fixed/predeclared primary resolution **1.0** differs explicitly from historical
 outcome-dependent primary selection. Sensitivities 0.3/0.5/1.0 are all reported.
 D2b DATP subclustering at 0.5 occurs only if pAT2 is absent and DATP present; states
 other than pAT2/DATP inside this subcluster remain DATP, as in D2b. No thresholds,
@@ -116,10 +117,27 @@ these tests use only newly generated tiny fixtures. Contract preflight without
 triplets are independently available and checked. Full repository checks need a
 complete tracked source checkout; no historical analysis is replayed.
 
-The one permitted provider HTTPS HEAD failed at the managed proxy with
-`Tunnel connection failed: 403 Forbidden`; no payload or redirect was read.
-Root must request HTTPS allowlisting for `ftp.ncbi.nlm.nih.gov` in the published
-cloud environment through the supported configuration workflow if needed, then
-review connectivity and input readiness. No alternate endpoint, routing, credentials
-or policy change was used here. Retention guarantees and literal desktop-power-off
-testing remain separate from demonstrated private Drive recovery.
+The earlier permitted provider HEAD was blocked (proxy tunnel 403); that evidence
+is retained. The owner reports the NCBI-only environment update is now published,
+and a fresh independent task checks readiness. No network check was repeated and
+this active runtime was not changed. Root must review that independent result.
+Retention guarantees and literal desktop-power-off testing remain separate from
+ demonstrated private Drive recovery.
+
+## Review corrections to d779520
+
+The resolution-to-state dictionary is retained separately from per-library assigned
+counts. `qc_cell_counts.png` is a diagnostic. `figure1B_state_umap.png` is an
+adapted descriptive state embedding showing every observed category, including
+unassigned and contaminants; `qc_library_timepoint_umap.png` exposes mixing.
+Figure 1C composition and Figure 1D marker detection are adapted descriptive panels.
+The detection-fraction panel is not the published expression heatmap. Primary 1.0
+is analyst-fixed/predeclared, not personally selected by the owner. No tuning occurred.
+
+The bounded synthetic describe integration reaches real frozen annotation,
+denominators, marker tables, all plots and JSON serialization with absent pAT2,
+unassigned and an immune contaminant. Coordinates/connectivities are synthetic;
+only conditional DATP neighbors/Leiden are mocked, with exact arguments checked.
+It does not validate graph construction, biological embeddings or scientific results.
+Thirteen targeted tests passed in 1.504 seconds. Synthetic output hashes are recorded
+in source bindings separately from biological outputs, which do not yet exist.

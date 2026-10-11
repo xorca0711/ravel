@@ -68,6 +68,35 @@ class MethodTests(unittest.TestCase):
     out=common.fresh_output(root/'analysis/research/runs/p001_metadata_v1_test','metadata');(out/'old.csv').write_text('preserve')
     with self.assertRaisesRegex(ValueError,'already'):common.fresh_output(out,'metadata')
     self.assertEqual((out/'old.csv').read_text(),'preserve')
+ def test_metadata_feature_id_order(self):
+  from metadata import check_feature_order
+  v=pd.DataFrame({'gene_id':['ID1','ID2']});reference=check_feature_order(None,v);self.assertEqual(check_feature_order(reference,v),reference)
+  for ids in [['ID2','ID1'],['ID1','ID3']]:
+   with self.assertRaisesRegex(ValueError,'feature ID/order'):check_feature_order(reference,pd.DataFrame({'gene_id':ids}))
+ def test_describe_synthetic_serialization_and_panels(self):
+  import anndata as ad,figure1
+  genes=sorted({g for group in list(fm.STATE_SETS.values())+list(fm.CONTAMINANT_SETS.values()) for g in group})
+  clusters=['datp']*31+['hat2','at1','immune','empty'];X=np.zeros((len(clusters),len(genes)),dtype=np.int64)
+  for i,cl in enumerate(clusters):
+   selected={'datp':fm.STATE_SETS['DATP'],'hat2':['Sftpc']+fm.STATE_SETS['AT2_identity'],'at1':fm.STATE_SETS['AT1_canonical'],'immune':fm.CONTAMINANT_SETS['immune'],'empty':[]}[cl]
+   for g in selected:X[i,genes.index(g)]=3
+  obs=pd.DataFrame({'library':['L'+str(i%3) for i in range(len(clusters))],'gsm':['S'+str(i%3) for i in range(len(clusters))],'timepoint':[['PBS','day 14','day 28'][i%3] for i in range(len(clusters))]},index=['S::'+str(i) for i in range(len(clusters))])
+  for resolution in (.3,.5,1.):obs[f'leiden_{resolution}']=clusters
+  a=ad.AnnData(sp.csr_matrix(X),obs=obs,var=pd.DataFrame(index=genes));a.layers['counts']=a.X.copy()
+  # Synthetic coordinates/connectivities, not a biological embedding or graph qualification.
+  a.obsm['X_umap']=np.random.default_rng(0).normal(size=(a.n_obs,2));a.obsm['X_pca']=np.zeros((a.n_obs,30));a.obsp['connectivities']=sp.eye(a.n_obs,format='csr')
+  def leiden(sub,**kw):
+   self.assertEqual(kw,{'resolution':.5,'key_added':'sub','flavor':'igraph','n_iterations':2,'random_state':0});sub.obs['sub']='0'
+  with tempfile.TemporaryDirectory() as t,patch.object(figure1.sc.pp,'neighbors') as neighbors,patch.object(figure1.sc.tl,'leiden',leiden):
+   out=pathlib.Path(t);summary=figure1.describe(a,out);common.write_json(out/'descriptive-summary.json',summary);loaded=json.loads((out/'descriptive-summary.json').read_text())
+   self.assertEqual(set(loaded['states_assigned_before_subclustering']),{'0.3','0.5','1.0'})
+   for states in loaded['states_assigned_before_subclustering'].values():self.assertEqual(states,['AT1','DATP','hAT2'])
+   self.assertTrue(loaded['pAT2_absent']);self.assertTrue(loaded['DATP_subclustering']['triggered']);self.assertIn('unassigned',a.obs.state.values);self.assertIn('contaminant_immune',a.obs.state.values)
+   self.assertEqual(sum(d['total_post_doublet'] for d in loaded['denominators_by_library'].values()),35);self.assertEqual(sum(d['unassigned'] for d in loaded['denominators_by_library'].values()),1)
+   self.assertEqual(neighbors.call_args.kwargs,{'n_neighbors':30,'use_rep':'X_pca','random_state':0})
+   for name in ['qc_cell_counts.png','figure1B_state_umap.png','qc_library_timepoint_umap.png','figure1C_composition.png','figure1D_marker_detection.png']:self.assertEqual((out/name).read_bytes()[:8],b'\x89PNG\r\n\x1a\n')
+   self.assertFalse((out/'figure1B_counts.png').exists());self.assertGreater(len(pd.read_csv(out/'marker_evidence.csv')),0)
+   print('SYNTHETIC_DESCRIBE_OUTPUT_HASHES '+json.dumps({x.name:hashlib.sha256(x.read_bytes()).hexdigest() for x in sorted(out.iterdir())}))
  def test_draft_job_hold(self):
   with self.assertRaisesRegex(ValueError,'reviewed'):require_reviewed_job(None,'metadata')
 if __name__=='__main__':unittest.main()

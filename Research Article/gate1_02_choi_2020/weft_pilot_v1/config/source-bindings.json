@@ -126,5 +126,30 @@
       "sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556"
     }
   ],
-  "D2b_conditional_block": "d2b_corrected_annotation.py main, DATP subclustering only when pAT2 absent and DATP present; neighbors 30, igraph 0.5, n_iterations 2, seed 0; restrict relabel to pAT2/DATP"
+  "D2b_conditional_block": "d2b_corrected_annotation.py main, DATP subclustering only when pAT2 absent and DATP present; neighbors 30, igraph 0.5, n_iterations 2, seed 0; restrict relabel to pAT2/DATP",
+  "review_corrections": {
+    "base_commit": "d779520f58c8b0fb1f36d4c471390c74ccaec139",
+    "adapter_sources": {
+      "figure1.py": "6b0707f6ef95193ffc0a0019c607e77f9e9f8a137a1e96ee357dfebc7068fc4f",
+      "metadata.py": "699c9766bc00c18f85a8cbb5dad6f6d511bffeb6aef77733f44e28b1a57f63ab",
+      "test_synthetic.py": "e5b13bac40bb92240ba46c6baa268f72b103e37ec975d91163d079b0b59018f3"
+    },
+    "synthetic_describe_output_sha256": {
+      "cell_states.csv": "d4b249853c2fc5de98af1ebaeaeddb7f91a258af269fcec49d497a4143a102dc",
+      "clusters_0.3.csv": "eab0876512ad842b90ed87ead90cc6bd91c8b6b25d629905816cd30bbb3badfe",
+      "clusters_0.5.csv": "eab0876512ad842b90ed87ead90cc6bd91c8b6b25d629905816cd30bbb3badfe",
+      "clusters_1.0.csv": "eab0876512ad842b90ed87ead90cc6bd91c8b6b25d629905816cd30bbb3badfe",
+      "composition.csv": "ac7f2430c12aa03e3e4de998c6386225fa20ace692b6f5609542d6b8d596ae39",
+      "datp_subclusters.csv": "f85a7d94d28b879e97c324484b2677dfce4d4978ba6a68b39d91344f16bfdce2",
+      "descriptive-summary.json": "172c7c4218d9f8f3865e0051cc746273e5f0af72a6e08873051e3e141ea69ce1",
+      "figure1B_state_umap.png": "8a48c5266135cda4fac9f9b22bb616fa1a2f6efe5f0c0d42a7a4909dc0fafaeb",
+      "figure1C_composition.png": "2345c8a5f003900c8740c9b93c296f91d76ed5d9d1f46a9e9b4364ee66e6d87f",
+      "figure1D_marker_detection.png": "761210df3be0c83c9ab65cacd670fb5d41b52ead6feee94b504bde1f93a2dcfa",
+      "marker_evidence.csv": "e817911fe6f4ff0cf14599404939eac2bec5b13937b1622c2597d20c80f1adb1",
+      "qc_cell_counts.png": "033dbcbd29b6b4a3acaaf329e3f283b566cfc975e092ceef4832e92d13d2b1c7",
+      "qc_library_timepoint_umap.png": "b0a4dc3664dca5024a1e73c7b3c07d7192f38a6a159a987814d8e3947ee5a36e"
+    },
+    "output_scope": "synthetic fixture only; biological outputs absent; figure1B state UMAP, counts QC diagnostic, figure1D detection not expression",
+    "graph_scope": "synthetic coordinates/connectivities, conditional DATP neighbors/Leiden mocked; annotation/tables/plots/serialization real"
+  }
 }
