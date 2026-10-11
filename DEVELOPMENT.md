@@ -2768,3 +2768,13 @@ That archive’s Drive export is awaiting direct user approval after automatic r
 rejected relayed authorization. No input download, biological computation, contract
 freeze or scientific acceptance occurred. Next: verify export/readback, bind the
 exact candidate runtime, freeze metadata-only execution and its manual checkpoint.
+
+## 2026-10-11 — Runtime export authorization boundary
+
+The owner approved the exact final archive export in the root chat, but automatic
+review denied the resulting child upload because that authorization arrived as
+relayed transcript evidence. No upload/readback occurred. The prepared image and
+archive remain preserved; the direct worker chat is available for owner approval.
+No retry, alternative transfer, biological work or contract freeze was performed.
+This documentation-only status correction does not invalidate the passing source
+and research-governance checks.

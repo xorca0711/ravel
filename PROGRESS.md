@@ -30,7 +30,10 @@ The approved NCBI-only environment update is published; a fresh cloud HEAD retur
 HTTP 200 with the expected 349,204,480 bytes. The earlier worker's proxy 403 remains
 a historical observation. The committed numerical recipe still lacks Git. A separately prepared Git-equipped
 image has now passed synthetic numerical, source-commit, runner and launcher-loss
-checks, but its sanitized qualification archive awaits direct Drive export approval.
+checks. The owner approved its exact sanitized archive export in the root chat,
+but the executing cloud worker's automatic review rejected the forwarded approval
+as untrusted transcript evidence. No upload/readback occurred; direct user approval
+in that existing worker chat is now required. No retry or alternate transfer is underway.
 Review and bind that exact recipe/lock before either draft contract is frozen. No biological data or analysis
 has run in this new pilot. See [the pilot](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md).
 
