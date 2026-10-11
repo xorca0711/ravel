@@ -21,7 +21,11 @@ preserves all frozen files and changes only external archive transport. Figure1 
 16 GiB cgroup cap. No numerical container/preflight/output was created. The
 PREPARATION_HELD ledger checkpoint is verified, retaining the same reservation.
 [Resource revision proposal](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/docs/FIGURE1_RESOURCE_REVISION.md)
-is pending an owner choice; no resource gate or frozen file was changed. No metadata rerun, new RQ or scientific acceptance.
+records the owner-selected 8 GiB analysis cap and 12 GiB host floor. This is an
+explicit operational amendment; frozen scientific files remain unchanged. The
+16 GiB Pro VM is consistent with official specifications; root's earlier 20 GiB
+host requirement was an oversized planning assumption. The same unstarted
+reservation is resuming preparation; numerical release awaits a verified packet. No metadata rerun, new RQ or scientific acceptance.
 
 ## P001 root review corrections — 11 October 2026
 

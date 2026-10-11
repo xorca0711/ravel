@@ -20,9 +20,12 @@ host memory and a visible 16 GiB cgroup cap; ancestor/Docker scope is unverified
 The stopped clone and same preparation reservation are preserved in a verified
 private held-state checkpoint. No output, preflight or numerical container exists.
 The [resource revision proposal](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/docs/FIGURE1_RESOURCE_REVISION.md)
-is unapplied and awaits the owner's choice. Original contract and outputs remain
-unchanged. An amended resource packet and new verified before-dispatch checkpoint
-would be required before any start.
+now records the owner-selected 8 GiB analysis cap with a 12 GiB host floor. The
+current 16 GiB Pro VM matches official capacity; the earlier 20 GiB floor was a
+root planning error. Original scientific contract and outputs remain unchanged.
+The same unstarted reservation resumes preparation under the explicit operational
+amendment; a complete reviewed packet and verified before-checkpoint still
+precede any numerical start.
 
 ## Stages and inputs
 
