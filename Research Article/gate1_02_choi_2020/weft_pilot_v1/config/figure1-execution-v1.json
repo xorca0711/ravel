@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "stage": "figure1",
+  "scope": "Exposed descriptive Figure1B-D adapter with fixed D1/D2/D2b methods; no animal-level inference or scientific acceptance",
+  "image_id": "sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc",
+  "qualification_archive_sha256": "40acb134342e3aab355d1537f64cf796e7d488dbf0733bcd6bc817955ca0a7b4",
+  "runtime_recipe": "runtime_git_v3/recipe/Dockerfile",
+  "historical_runtime": "runtime/ is preserved historical provenance; its Git-less image must not execute this job",
+  "container": {
+    "network": "none",
+    "cpus": 4,
+    "memory_bytes": 17179869184,
+    "memory_swap_bytes": 17179869184,
+    "pids_limit": 256,
+    "read_only_rootfs": true,
+    "source_inputs_git_read_only": true,
+    "nonroot_user": "existing source owner UID/GID; never root",
+    "cap_drop": [
+      "ALL"
+    ],
+    "no_new_privileges": true,
+    "tmpfs_bytes": 536870912,
+    "deadline_seconds": 3600,
+    "kill_after_seconds": 1,
+    "watchdog": "GNU timeout --signal=TERM --kill-after=1s 3600s",
+    "output": "one fresh allocated parent mounted at analysis/research/runs; runner creates unique p001_figure1_v1_<attempt> directory",
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "GIT_OPTIONAL_LOCKS": "0"
+    }
+  },
+  "before_dispatch": [
+    "exact committed frozen contract and source hashes",
+    "one authoritative coordinator ledger with unique attempt and immutable packet",
+    "verified private checkpoint and source/packet recovery material",
+    "reviewed-job receipt bound to actual contract hash",
+    "real-input preflight",
+    "completed metadata after-run checkpoint and root memory acceptance",
+    "qualified two-part synthetic Drive upload/readback/reassembly with exact external hashes",
+    "frozen Figure1 contract, immutable packet and new verified before-dispatch checkpoint; no prior metadata reservation reused"
+  ],
+  "after_run": [
+    "verify unchanged Ravel receipt and every declared output",
+    "verify container exit/OOM state, PID zero and captured process identities absent",
+    "hash and privately export full outputs/logs plus packet/source bindings; verify downloaded bytes",
+    "verify after-run ledger checkpoint"
+  ],
+  "memory_review": "Record full descriptive stage cumulative process peak and sampled cgroup peak separately; no inference from metadata alone.",
+  "failure": "Preserve failed attempt/outputs/logs and checkpoint terminal or uncertain state. No automatic retry, parameter rescue, new RQ, claim promotion, merge or subsequent analysis.",
+  "inputs": "Reuse the nine retained files from the completed metadata attempt; rehash before execution. No download, regeneration or metadata rerun.",
+  "metadata_review": "config/metadata-root-review-v1.json",
+  "resource_basis": "Sparse loader observed ~924 MiB cumulative peak. Figure QC retains only filtered cells before concatenation; only retained 2000-HVG embedding is densified. 16 GiB/4CPU/3600s is a bounded first full-workload budget, not predicted need or a guarantee. Hold rather than rescue on OOM/deadline/method failure.",
+  "host_preflight": {
+    "minimum_available_memory_bytes": 21474836480,
+    "minimum_free_disk_bytes": 10737418240,
+    "cpus": 4,
+    "concurrency": "one scientific attempt; no overlapping qualification containers"
+  },
+  "artifacts": {
+    "format": "Preserve exact outputs and Ravel receipt/logs; ZIP DEFLATE outside offline scientific container; no H5AD rewriting. Private runtime routing stays outside public Git.",
+    "multipart_helper_revision": "4188424425ab37fb2e57c741b4839affbbd23b7f",
+    "part_bytes": 16777216,
+    "maximum_parts": 256,
+    "maximum_archive_bytes": 4294967296,
+    "verification": "Record external archive+manifest hashes; upload each part/manifest once to existing owner-only folder, retrieve exact bytes, verify per-part and reconstructed whole SHA, then ZIP CRC and every manifest entry. Unknown or denied uploads hold; no bypass or blind retries.",
+    "publication": "Public-source result files and summaries only after content review; private checkpoints/task/process/source staging locators never published."
+  }
+}

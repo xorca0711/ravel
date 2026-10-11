@@ -1,3 +1,20 @@
+# Current project state
+
+## Weft P001 metadata independently verified — 11 October 2026
+
+The approved private evidence archive has passed root size/SHA/CRC, all 46 member
+hashes and nine exact source Git-blob checks. Preserved the original run receipt,
+readiness output and logs; registered the receipt; unchanged verification passes.
+Three libraries pass integrity/order checks, with 46,423,890 combined nonzero
+entries. Loader peak is ~924 MiB cumulative process RSS. Root accepts this sparse
+loader prerequisite; full Figure1 memory is not yet measured.
+
+[Metadata status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/METADATA_STATUS.md)
+records the resolved direct-approval export hold and exact evidence. Mir closed
+that same attempt after verifying a descendant of the preserved EXPORT_HELD checkpoint.
+The separate Figure1 plan proposes 4 CPUs/16 GiB/3,600 seconds and unchanged
+methods. Its contract is frozen after root review; dispatch remains held for multipart
+transport qualification and a newly verified before-dispatch checkpoint. No metadata rerun, new RQ or scientific acceptance.
 
 ## P001 root review corrections — 11 October 2026
 
@@ -15,24 +32,6 @@ check or active-runtime change here. Before execution root must review code and
 watchdog, complete repository checks, establish independent input readiness and
 loader-memory acceptance, freeze contracts, and bind manual backup/job receipts.
 No biological download, loader benchmark or analysis was performed.
-
-# Current project state
-
-## Weft P001 metadata executed; evidence export held
-
-The frozen metadata stage ran once at 90c02ba. The worker reports all nine selected
-inputs and three libraries passed integrity/order checks, 190.460 seconds of loader
-work and 945,848 KiB cumulative peak RSS; exit 0, no OOM, captured processes absent.
-[Metadata status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/METADATA_STATUS.md)
-records precise scope and reported hashes. Root verified the before-dispatch
-checkpoint but has not yet read the numerical result bytes.
-
-Automatic review blocked the new 64,399-byte evidence archive upload because the
-prior direct worker approval covered the runtime archive. No retry or alternate
-transfer. The private after-run EXPORT_HELD checkpoint is now verified; root independently
-checked its bytes, ancestry, integrity and single-attempt state. Next: direct
-approval in the existing worker, exact evidence readback, then root memory review. Figure1 remains draft/unrun; no scientific
-acceptance or new question. Earlier preparation entries below are historical.
 
 ## Weft P001 root review — 11 October 2026
 

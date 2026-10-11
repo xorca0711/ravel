@@ -2,10 +2,10 @@
   "schema_version": 1,
   "analysis_id": "A0.P001_choi_figure1_v1",
   "owner": "A0",
-  "status": "draft",
+  "status": "frozen",
   "analysis_type": "descriptive",
   "question": "Can the selected GSE145031 Tomato-positive triplets support a strict sparse source check and a bounded descriptive Figure 1B-D pass under fixed methods?",
-  "decision": "Root reviews input integrity, sparse-memory readiness and the descriptive adapter before any frozen checkpointed manual job. This does not authorize a biological run.",
+  "decision": "Run one separately checkpointed exposed descriptive pass after verified metadata/root memory review, qualified output transfer, committed frozen contract and verified before-dispatch checkpoint. Review QC, annotation, composition and deviations without animal-level inference.",
   "strongest_rival": "Source/cell selection and annotation artifacts can change descriptive composition; one pooled library per condition cannot separate time from library or identify a mechanism.",
   "discriminator": "Exact compressed and order hashes, sparse coordinates, QC partitions and marker detection audit measurement artifacts; they do not establish animal-level replication, fate or causal IL-1beta effects.",
   "evidence_refs": [
@@ -31,7 +31,7 @@
   "design_identifiability": "unsupported",
   "inference_scope": "descriptive",
   "interpretation_limit": "Exposed descriptive benchmark; one pooled library per condition. Fresh numerical differences are reported without thresholding into biological reproduction success; no mechanism or animal-level p-values. A1 is context only, no new question ID.",
-  "stop_rule": "Remain draft pending root review and bound manual checkpoint. Hold on provider access, raw hashes/structure, sparse peak-memory readiness, missing cells, method failures or resource/deadline breach. Do not tune thresholds/resolutions to recover five states. Refuse nonempty/non-scoped output paths and retained/subcluster cells insufficient for the fixed 30-neighbor settings; no automatic parameter rescue.",
+  "stop_rule": "Hold until frozen, root-reviewed immutable packet and private before-checkpoint are verified. Hold on input/hash/structure failure, missing cells, method failure, insufficient cells for fixed 30-neighbor settings, resource/deadline breach, or unverifiable artifacts. No automatic retries, parameter rescue or tuning to recover five states.",
   "inputs": [
     {
       "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304609_PBS_AT2_Tomato.mtx.gz",
@@ -349,6 +349,14 @@
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/watchdog.json",
       "sha256": "ab517a0456c81f48c0b3c20e9515484f82f6ffce3e83220bb6f2bbb743375755"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/metadata-root-review-v1.json",
+      "sha256": "813b2696123cf7f6e50c104dc495772674707e715edc03f8ed40fd6396108d0f"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/figure1-execution-v1.json",
+      "sha256": "72b536156c9ec2c84efdc73b4c3e9d3a7261e0dc1929196d146f70e437544815"
     }
   ],
   "runtime": "python",

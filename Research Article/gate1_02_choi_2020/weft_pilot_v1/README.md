@@ -2,12 +2,14 @@
 
 Owner A0, with A1 context. Base Ravel bfe26b876221cf6c6fa6f9b16a90cfb516b5998d;
 input inventory from Weft d031cef02ab4a417760bca46e90a63917d215d31.
-No new question or biological analysis was performed. The metadata-only run has
-executed once; [current status and export hold](METADATA_STATUS.md) distinguish
-worker-reported results from pending independent readback.
+The metadata-only run executed once and its exact outputs passed independent root
+readback and unchanged receipt verification. [Current metadata review](METADATA_STATUS.md)
+records scope, resource observations and the resolved export hold. No new question
+or biological interpretation is claimed.
 The metadata contract is **frozen** after [runtime review](RUNTIME_REVIEW.md);
-the descriptive contract remains **draft**. Its execution is held pending metadata
-evidence export, checkpoint completion and root review.
+the descriptive contract is **frozen** after root review. Dispatch remains held
+until multipart output qualification and a new verified before-dispatch checkpoint. Root has accepted sparse-loader
+memory readiness only; full-workload memory remains to be measured.
 The exact manual checkpoint and committed source must be bound before dispatch.
 
 ## Stages and inputs
@@ -19,7 +21,7 @@ Fresh inputs belong in ignored `raw_data/GSE145031/weft_pilot_v1/inputs/`.
 The existing archive has a recorded local digest, while the provider publishes no
 content digest; the accepted Weft member hashes are the integrity authority for this
 pilot. The metadata worker has now verified the archive and selected inputs; see current
-status above for the pending result-export boundary.
+status above for independent result readback and review.
 
 The loader fully reads gzip streams (CRC), rechecks compressed hashes, validates
 MatrixMarket integer/general dimensions, line counts, coordinate bounds and positive
@@ -31,7 +33,8 @@ handling. Cells use GSM-prefixed barcode IDs. Raw whitelists are never densified
 silently summed. One raw library is loaded/validated/QC-filtered and released before
 the next; only QC-retained cells are combined. Metadata separately measures each
 library's loader time and the cumulative process peak RSS after each load.
-The completed worker report is linked above; raw result readback remains pending.
+The preserved metadata receipt and raw readiness output are registered in Ravel;
+root verified their original bytes. Private runtime locators remain outside Git.
 
 ## Fixed methods and exposure
 

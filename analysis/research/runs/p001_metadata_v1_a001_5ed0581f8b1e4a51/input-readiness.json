@@ -1,0 +1,79 @@
+{
+  "stage": "metadata",
+  "job_id": "fe0d28ffe502d26d6bd47ccdf6420d17661ac36fa923c333158c0ca22a2389c8",
+  "libraries": [
+    {
+      "gsm": "GSM4304609",
+      "orientation": "cells x genes; source genes x cells",
+      "shape": [
+        737280,
+        27998
+      ],
+      "stored_entries": 16264525,
+      "duplicates": 0,
+      "explicit_zeros": 0,
+      "feature_order_sha256": "403776a42aec61b6c9524010877f0ac66ff94d3d127c1f15b991e8ea57e5fe99",
+      "barcode_order_sha256": "e28353c088bf3b4d660220377a5f5fcc64839fb9e307cea47afe4e23fce2edc2",
+      "compressed_hashes": {
+        "matrix": "a5be8f5140f266d9fae46b24e0d9a4080b4a0cc8936c788c8f4017aaac179e83",
+        "barcodes": "64962a074f58f25f40174708ed8667f19b09ecee4f71d1ec560a5383f3b12a4f",
+        "features": "33fc0e6ab2bb2bf434979ab0c5bb06f3284af33dcef51c4f8a9ef7e40bb356da"
+      },
+      "cell_id_prefix": "GSM4304609::",
+      "gzip_crc": "verified by complete EOF reads",
+      "cross_library_feature_id_order": "reference",
+      "load_seconds": 66.8807178069992,
+      "process_peak_rss_kib": 945848
+    },
+    {
+      "gsm": "GSM4304611",
+      "orientation": "cells x genes; source genes x cells",
+      "shape": [
+        737280,
+        27998
+      ],
+      "stored_entries": 14798870,
+      "duplicates": 0,
+      "explicit_zeros": 0,
+      "feature_order_sha256": "403776a42aec61b6c9524010877f0ac66ff94d3d127c1f15b991e8ea57e5fe99",
+      "barcode_order_sha256": "e28353c088bf3b4d660220377a5f5fcc64839fb9e307cea47afe4e23fce2edc2",
+      "compressed_hashes": {
+        "matrix": "557897d017666670409f2c597677fdac919b59e32936c5fa4d781d28826a5886",
+        "barcodes": "ecfe174a445b81c44e7c1d22173df453abbacc5bc087a643521ff196d7d016a8",
+        "features": "9ad3244c380b46b082e1647cad76c110f8d22fb3216f0443efa25ee1189b7d19"
+      },
+      "cell_id_prefix": "GSM4304611::",
+      "gzip_crc": "verified by complete EOF reads",
+      "cross_library_feature_id_order": "equal",
+      "load_seconds": 66.57774699400034,
+      "process_peak_rss_kib": 945848
+    },
+    {
+      "gsm": "GSM4304613",
+      "orientation": "cells x genes; source genes x cells",
+      "shape": [
+        737280,
+        27998
+      ],
+      "stored_entries": 15360495,
+      "duplicates": 0,
+      "explicit_zeros": 0,
+      "feature_order_sha256": "403776a42aec61b6c9524010877f0ac66ff94d3d127c1f15b991e8ea57e5fe99",
+      "barcode_order_sha256": "e28353c088bf3b4d660220377a5f5fcc64839fb9e307cea47afe4e23fce2edc2",
+      "compressed_hashes": {
+        "matrix": "809952999675d7036c4c2c39e3c4eab1a1c7c07a80b583f726484c2c335797da",
+        "barcodes": "7d7aa42f8f0d80f66ffb985038b89aaaf594c2fb07f4d76e7a30945264e83845",
+        "features": "54cd77dac4862132c4ebe8ae823cf7114b7f5f281dd68ed5c48d1da8256b1221"
+      },
+      "cell_id_prefix": "GSM4304613::",
+      "gzip_crc": "verified by complete EOF reads",
+      "cross_library_feature_id_order": "equal",
+      "load_seconds": 56.985611521000465,
+      "process_peak_rss_kib": 945848
+    }
+  ],
+  "cross_library_feature_id_order_equal": true,
+  "elapsed_seconds": 190.45992044299965,
+  "scope": "integrity and sparse loader only; no cell QC or biology",
+  "full_data_memory": "observed stage-specific peak, requires reviewer acceptance"
+}
