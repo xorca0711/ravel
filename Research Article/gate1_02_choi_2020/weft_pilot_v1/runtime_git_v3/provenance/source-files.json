@@ -1,0 +1,104 @@
+[
+  {
+    "path": "AGENTS.md",
+    "size_bytes": 6131,
+    "sha256": "dee03d2565f983546e564eb73f72154642c3bcda836eb77d072d101e50b04de8",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "AI_CONTEXT.md",
+    "size_bytes": 6555,
+    "sha256": "9e0a739be875a4737e74a7f6f70f6ac182fa5eded1ff3755c433cbe71c3be227",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "PROGRESS.md",
+    "size_bytes": 8980,
+    "sha256": "0edf8b414a76b1e9a46cf93763a741a7e6d728704fb65a599d19e84f84578e55",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "docs/RESEARCH_GOVERNANCE.md",
+    "size_bytes": 11951,
+    "sha256": "1b5b1c04f3d47dadf20a9445c512637dbd1388c30f4afa30e5ae5946488fd7a6",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "analysis/scripts/research_gate.py",
+    "size_bytes": 1779,
+    "sha256": "941d8ccf61c0356529bae8b164b754b801032ca4f94a64154e2624786903bf9f",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "analysis/lib/research_governance.py",
+    "size_bytes": 25764,
+    "sha256": "03a3e6ec61822dd6558fda2420e32eb1a1f4acb411ed107cd26efeefa543fe8c",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "analysis/tests/test_research_governance.py",
+    "size_bytes": 18869,
+    "sha256": "978e9bc2ad2dda917d789053c7f54e81ba1dda30a56393ff97f169de6d7ebb91",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/Dockerfile",
+    "size_bytes": 568,
+    "sha256": "5e6147431c0dee38b523ecd819bd7a94f39cded0b90e3eabc2b80f8398a8e809",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/requirements.lock",
+    "size_bytes": 6025,
+    "sha256": "c2c215c65cbd1d75505755bbf0a252b6af47e755a6894c68e84ed76db54ed9ae",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/synthetic.py",
+    "size_bytes": 3646,
+    "sha256": "33306aaf622ec403255c3a1fb57c08b0daca94f60fc13f9bc60e0bc4c423877c",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/wheel-manifest.json",
+    "size_bytes": 54113,
+    "sha256": "1a40ff9246beaeec793d678d64a49f5cacd4f0ee7d32a4cd0c1a868e35b7f7d5",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/wheel-provenance.json",
+    "size_bytes": 80458,
+    "sha256": "414ed4362ca416802106ba1059705d3fc84a010f3228690ae597d5abbb3496fa",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/identity.json",
+    "size_bytes": 477,
+    "sha256": "25f9915ae8892ea3726f8ed532262a5dbe34cb887ff82c11a48e278b9e49e13c",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/watchdog_case.py",
+    "size_bytes": 465,
+    "sha256": "517e1313e10a4fd76c79e8ea71ccede5b17b4c43059b1b61831d0e1210b9b470",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/watchdog_launcher.py",
+    "size_bytes": 1399,
+    "sha256": "903ffa9a6b8dc8340135b6f3145b952587e5e63ab6bea83f44262ae4f6ed08b0",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/watchdog_observer.py",
+    "size_bytes": 2427,
+    "sha256": "f305bfb14597708fbc6d804af5e8df166026e486c71c5c8a04b071333ee74459",
+    "exact_committed_bytes_match": true
+  },
+  {
+    "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime/launch_and_interrupt.py",
+    "size_bytes": 671,
+    "sha256": "b4ce18f27181300c92b5b84b0c8d44c1a7e3c5e167a2fd6a3e08fdf8efc196ad",
+    "exact_committed_bytes_match": true
+  }
+]

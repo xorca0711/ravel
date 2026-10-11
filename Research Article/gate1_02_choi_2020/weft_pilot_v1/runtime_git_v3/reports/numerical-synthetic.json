@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "fixture": {
+    "seed": 731,
+    "shape": [
+      240,
+      2400
+    ],
+    "nnz": 100557,
+    "csr_sha256": "fe70dab0b7c298bf9e134d8db85bbf470893885b52c0b0767eb6bec842e2f767"
+  },
+  "qc": {
+    "total_counts": {
+      "median": 6.861187505964509,
+      "mad": 0.04964120412109971,
+      "within_5mad": 240
+    },
+    "n_genes_by_counts": {
+      "median": 6.042632833682381,
+      "mad": 0.04166831631899292,
+      "within_5mad": 240
+    },
+    "pct_mt_upper": 2.41729244217691
+  },
+  "hvg_count": 2000,
+  "pca_shape": [
+    240,
+    30
+  ],
+  "umap_shape": [
+    240,
+    2
+  ],
+  "leiden_clusters": {
+    "leiden_igraph": 3,
+    "leiden_leidenalg": 3
+  },
+  "scanpy_scrublet_finite_scores": true,
+  "external_scrublet": "excluded: pinned D1 uses the self-contained official scanpy.pp.scrublet API",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "anndata": "0.13.4",
+    "scanpy": "1.12.4",
+    "scikit-learn": "1.9.1",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "matplotlib": "3.11.2",
+    "scikit-image": "0.26.0",
+    "scikit-misc": "0.5.3"
+  },
+  "python": "3.12.15",
+  "elapsed_seconds": 28.844734179999932,
+  "process_peak_rss_kib": 646252,
+  "cgroup": {
+    "cpu.max": "400000 100000",
+    "memory.max": "3221225472",
+    "memory.swap.max": "0",
+    "pids.max": "128",
+    "memory.peak": "484880384"
+  },
+  "scientific_results": false,
+  "full_data_memory_qualified": false,
+  "author_method_equivalence": false
+}

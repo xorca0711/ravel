@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Exact archive member list and all text inspected; only minimal source recipes, pinned locks, public provenance, package inventories and synthetic command outcomes retained.",
+  "excluded": [
+    "raw .deb files",
+    "wheel bytes",
+    "generated synthetic datasets or plots",
+    "credentials",
+    "proxy settings and addresses",
+    "session/task identifiers",
+    "host process IDs and container IDs",
+    "personal/unrelated files",
+    "raw network logs"
+  ],
+  "public_keyring_only": true,
+  "uploaded": false
+}

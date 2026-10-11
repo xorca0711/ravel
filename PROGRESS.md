@@ -18,6 +18,19 @@ No biological download, loader benchmark or analysis was performed.
 
 # Current project state
 
+## Weft P001 runtime verified; metadata contract frozen
+
+Direct worker approval succeeded. Root independently verified the private runtime
+archive hash, ZIP CRC and all 28 manifest entries; sharing remains owner-only.
+The exact Git-equipped recipe and reports are preserved as runtime_git_v3.
+[Runtime review](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/RUNTIME_REVIEW.md)
+binds an offline 4-CPU/8-GiB metadata job with a worker deadline. The metadata
+contract is frozen; Figure 1 stays draft. Next: commit/gate, verified per-job
+checkpoint, input download/hash checks and sparse-loader run, then memory review.
+No biological result or successful real-input run is claimed yet.
+
+The earlier entries below record the preparation and approval holds at their time.
+
 ## Weft P001 root review — 11 October 2026
 
 The complete unchanged research gate passes on Windows against origin/main at

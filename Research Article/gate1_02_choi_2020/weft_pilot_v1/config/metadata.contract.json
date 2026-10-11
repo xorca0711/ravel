@@ -2,10 +2,10 @@
   "schema_version": 1,
   "analysis_id": "A0.P001_choi_metadata_v1",
   "owner": "A0",
-  "status": "draft",
+  "status": "frozen",
   "analysis_type": "metadata",
   "question": "Can the selected GSE145031 Tomato-positive triplets support a strict sparse source check and a bounded descriptive Figure 1B-D pass under fixed methods?",
-  "decision": "Root reviews input integrity, sparse-memory readiness and the descriptive adapter before any frozen checkpointed manual job. This does not authorize a biological run.",
+  "decision": "Run only the reviewed input-integrity and sparse-loader stage after the exact committed contract, isolated runtime and verified manual before-dispatch checkpoint are bound. Use the observed input integrity and memory results to decide whether to freeze the separate descriptive stage; this contract does not authorize Figure 1 or biological inference.",
   "strongest_rival": "Source/cell selection and annotation artifacts can change descriptive composition; one pooled library per condition cannot separate time from library or identify a mechanism.",
   "discriminator": "Exact compressed and order hashes, sparse coordinates, QC partitions and marker detection audit measurement artifacts; they do not establish animal-level replication, fate or causal IL-1beta effects.",
   "evidence_refs": [
@@ -21,7 +21,7 @@
   "nesting_and_overlap": "PBS, day 14 and day 28 each have one Tomato-positive pooled library. This is the same published source and historical reanalysis, not independent replication.",
   "population_and_selection": "Only GSM4304609, GSM4304611 and GSM4304613 Tomato-positive raw whitelist triplets; paper thresholds applied directly to raw barcodes, followed by frozen per-library MAD and doublet rules.",
   "contrast": "Metadata stage has no biological contrast. Descriptive stage presents PBS/day-14/day-28 library compositions and marker detection without treating cells as animal replicates.",
-  "endpoint": "Metadata: compressed/CRC/order/coordinate integrity, sparse dimensions, nnz, elapsed time and peak memory. Figure1: QC counts, assigned/unassigned/contaminant states, library fractions and marker detection evidence.",
+  "endpoint": "Per-library compressed/CRC/order/coordinate integrity, sparse dimensions and nnz, load time, process peak RSS and cross-library feature-order equality. No cell filtering, QC phenotype, embedding or biological inference.",
   "methods": "Sequential strict sparse validation only; no calling, QC, clustering or inference. Research Article/gate1_02_choi_2020/weft_pilot_v1/config/inputs.json binds nine selected triplets. Explicit cross-library feature ID/order equality checked before release of each sparse library.",
   "missingness_and_exclusions": "Reject malformed/hash-mismatched inputs, duplicate coordinates, zeros/non-integer counts, duplicate feature IDs/barcodes, changed feature order or dimension mismatch. No silent repair/sum/dense raw conversion. D1 doublets excluded; contaminants excluded from alveolar denominator, unassigned retained and shown. Missing markers explicitly recorded.",
   "multiplicity": "No biological significance testing or p-values. Declared resolution sensitivities describe measurement choices; they are not independent replications.",
@@ -31,7 +31,7 @@
   "design_identifiability": "unsupported",
   "inference_scope": "descriptive",
   "interpretation_limit": "Exposed descriptive benchmark; one pooled library per condition. Fresh numerical differences are reported without thresholding into biological reproduction success; no mechanism or animal-level p-values. A1 is context only, no new question ID.",
-  "stop_rule": "Remain draft pending root review and bound manual checkpoint. Hold on provider access, raw hashes/structure, sparse peak-memory readiness, missing cells, method failures or resource/deadline breach. Do not tune thresholds/resolutions to recover five states. Refuse nonempty/non-scoped output paths and retained/subcluster cells insufficient for the fixed 30-neighbor settings; no automatic parameter rescue.",
+  "stop_rule": "Hold on source/input/hash/structure mismatch, missing verified manual checkpoint, runtime identity/control mismatch, resource or worker deadline breach. Preserve all failed output. No automatic retries or descriptive-stage dispatch. Execution bounds are bound in config/metadata-execution-v1.json.",
   "inputs": [
     {
       "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304609_PBS_AT2_Tomato.mtx.gz",
@@ -229,6 +229,126 @@
     {
       "path": ".gitattributes",
       "sha256": "7d8c3f661fc051fd893696c376480870de6498ac49ea8937427735572f097614"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/metadata-execution-v1.json",
+      "sha256": "d2d4044b8522c8fcd444eaa054b5c918dafd64b7a355293262ef44ab4fd5900a"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/locks/debian-packages.lock.json",
+      "sha256": "87b188ee60572bceeae477b94d79064b014a3ccdfefff6ee820b7d4852846693"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/locks/debian-SHA256SUMS",
+      "sha256": "a345d40268bdaff87ba97cbb9e94c3f8d56403d7867e54fccea19bb3e982a7e0"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/locks/requirements.lock",
+      "sha256": "c2c215c65cbd1d75505755bbf0a252b6af47e755a6894c68e84ed76db54ed9ae"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/MANIFEST.sha256",
+      "sha256": "230528b8080f43bd4f6fcb892fed4b0aa1aa8de72da19d1376619c20372af185"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/debian-hash-chain.json",
+      "sha256": "346ba8322fe21b79b41af1ec252229f85c5252be25d8a670510cd39284181c7f"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/debian-indices.json",
+      "sha256": "cb7a41b711f84a77c5ac6c18c3a2c9cebae3f6ef1333e45928f5c1cebcb13d40"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/debian-package-records.json",
+      "sha256": "686ec2a6f4796755bce53b883d2683a2f2f409f8751b3330406a9f782004786e"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/debian-public-keyring.pgp",
+      "sha256": "506b815cbb32d9b6066b4a2aa524071e071761e7e7f68c3ac74f3061ba852017"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/debian-sources.sources",
+      "sha256": "720ec2b8dd6b9480dbc5dabd7eaed51f059cc97356cb8e035934d55a1efdae30"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/releases/trixie-security.InRelease",
+      "sha256": "7b9edb9ce81edb7bb0fcde19cfc18ab7a8320a39d0e0738c4abeda00935e1337"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/releases/trixie-updates.InRelease",
+      "sha256": "2e46cba49868bedbe4d0151b8f4614b7d4e55667176c236b2258c045d992cdd2"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/releases/trixie.InRelease",
+      "sha256": "0584fba32e13e0ab8285fb16c27adea1ec03a73669c18702821094fd6ca86675"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/source-files.json",
+      "sha256": "6cda4bd836e96fa86cf905a9d4fffa9b32730dd3c9f4baad8ca50aa5ad3171b1"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/provenance/wheels.json",
+      "sha256": "121946295435ae724390f6606ce86e4c9e38a53d0f52ad002f0306593cc4b64b"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/qualification/qualify-source-owner.py",
+      "sha256": "0a62eb614f969f6e51f5d179d9d09773ce84bc9c6fec888081d404e5094c44ed"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/qualification/watchdog-qualification.py",
+      "sha256": "0f6868abb96055b6e8cc1950a95e59b23883d9d1a8eb9db603a25022633c9d56"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/qualification/watchdog_case.py",
+      "sha256": "517e1313e10a4fd76c79e8ea71ccede5b17b4c43059b1b61831d0e1210b9b470"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/README.txt",
+      "sha256": "0c0da4814e8d96cf4420d9fa87b793ba4c9fa036a6ab926bae245357b8099ebc"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/recipe/Dockerfile",
+      "sha256": "0b64420c3715b6c07ffe2f467b1835369620241cb6369138b8e5a1a1b0c8e4d1"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/recipe/synthetic.py",
+      "sha256": "33306aaf622ec403255c3a1fb57c08b0daca94f60fc13f9bc60e0bc4c423877c"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/recipe/verify_os.py",
+      "sha256": "c2318a9b8c2fe680707c62dfe06d2e75c9ee26db4210fdbb2a30fc94e019fe36"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/installed-inventory.json",
+      "sha256": "3f0fb2d99a8a58186f54bee588e215b539d0ac2d33055d143fa3f4988695e0db"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/numerical-synthetic.json",
+      "sha256": "64ce001d4efcc34c1b4bf2b9f63079a59d21e03be7f3a99dd69714a2c933434f"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/privacy-review.json",
+      "sha256": "ac1b1d96b724f0131d81f4627e8e3accf27ece8f9f3a3a0d9b467e232d90bd65"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/qualification.json",
+      "sha256": "4762221d4b777e7971277056b855455708ab540660afad20038afc08bbfef699"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/ravel-runner-test.txt",
+      "sha256": "01ea3ce05c65a071b16df1696af750218b7168afc9a09d0dcde0562590f63c84"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/summary.json",
+      "sha256": "961b7707dcfd67fc4d505e93c9e793c07aaad779f9680494cfe4023c09a734a0"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/versions-and-pip-check.txt",
+      "sha256": "bb8bddb8db42aeeea4ffbc7fe014cff71cf416ac29a31cffa37153f5aa1d9712"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/runtime_git_v3/reports/watchdog.json",
+      "sha256": "ab517a0456c81f48c0b3c20e9515484f82f6ffce3e83220bb6f2bbb743375755"
     }
   ],
   "runtime": "python",

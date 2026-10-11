@@ -1,9 +1,11 @@
-# P001 Choi Figure 1B-D: draft checkpointed manual pilot
+# P001 Choi Figure 1B-D: checkpointed manual pilot
 
 Owner A0, with A1 context. Base Ravel bfe26b876221cf6c6fa6f9b16a90cfb516b5998d;
 input inventory from Weft d031cef02ab4a417760bca46e90a63917d215d31.
 No new question, raw download, loader benchmark or biological run was performed.
-Both registered contracts remain **draft** pending root review.
+The metadata contract is **frozen** after [runtime review](RUNTIME_REVIEW.md);
+the descriptive contract remains **draft**. No real-input run is yet claimed.
+The exact manual checkpoint and committed source must be bound before dispatch.
 
 ## Stages and inputs
 
@@ -102,10 +104,12 @@ insufficient. [Worker case](runtime/watchdog_case.py) is synthetic and has no bi
 
 ## Rebuild and validation
 
-[Exact lock](runtime/requirements.lock), [wheel provenance](runtime/wheel-provenance.json),
-[recipe](runtime/Dockerfile), [synthetic fixture](runtime/synthetic.py) and
-[image identity](runtime/identity.json) bind the qualified Linux amd64 Python3.12.15
-stack. Download only locked binary wheels from PyPI with `--require-hashes`, TLS
+[Current exact lock](runtime_git_v3/locks/requirements.lock), [wheel provenance](runtime_git_v3/provenance/wheels.json),
+[recipe](runtime_git_v3/recipe/Dockerfile), [synthetic fixture](runtime_git_v3/recipe/synthetic.py) and
+[image identity](runtime_git_v3/reports/summary.json) bind the qualified Linux amd64 Python3.12.15
+stack including Git. The build context also needs the 31 verified Debian packages,
+SHA256SUMS and package lock as named in the recipe; see the runtime archive README.
+Package/wheel binaries are excluded from Git. Download only locked binary wheels from PyPI with `--require-hashes`, TLS
 verification and managed proxy/CA trust into `runtime/wheels/`; no wheel binaries
 are committed. Build the recipe with `--platform=linux/amd64 --network=none` after
 wheel retrieval. Runtime synthetic compatibility does not qualify full-data memory,
@@ -117,10 +121,9 @@ these tests use only newly generated tiny fixtures. Contract preflight without
 triplets are independently available and checked. Full repository checks need a
 complete tracked source checkout; no historical analysis is replayed.
 
-The earlier permitted provider HEAD was blocked (proxy tunnel 403); that evidence
-is retained. The owner reports the NCBI-only environment update is now published,
-and a fresh independent task checks readiness. No network check was repeated and
-this active runtime was not changed. Root must review that independent result.
+The earlier provider HEAD failure is preserved. The approved NCBI-only update
+is published; the fresh cloud check returned HTTP 200 and the expected
+349,204,480-byte archive length. Source bytes still require verification on download.
 Retention guarantees and literal desktop-power-off testing remain separate from
  demonstrated private Drive recovery.
 
@@ -147,6 +150,6 @@ Legacy modules are never imported: source bindings preserve their pinned Git
 blob identities and extraction hashes as provenance, while contracts bind the
 actual inert adapter and runtime materials. Committed-source checks remain required.
 
-**Runner HOLD:** qualified numerical image provides GNU timeout 9.7 but lacks
-`git` (exit 127). Before execution qualify and bind a reviewed image revision
-with Git; never bypass the unchanged runner committed-source checks.
+**Resolved runtime hold:** the original image lacked Git. The reviewed Git-equipped
+revision and exact transfer evidence are in [RUNTIME_REVIEW.md](RUNTIME_REVIEW.md).
+The unchanged runner committed-source checks remain mandatory.

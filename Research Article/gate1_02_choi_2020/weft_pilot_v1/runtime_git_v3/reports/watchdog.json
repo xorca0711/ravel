@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "image": "sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc",
+  "watchdog": "GNU timeout --signal=TERM --kill-after=1s 6s",
+  "deadline_seconds": 6,
+  "kill_after_seconds": 1,
+  "launcher_exit_code": -9,
+  "launcher_killed_after_all_three_fixture_processes_observed": true,
+  "observer_is_separate_process_from_launcher": true,
+  "fixture_roles": [
+    "child",
+    "grandchild",
+    "parent"
+  ],
+  "fixture_processes_share_process_group": true,
+  "captured_process_identity_count": 4,
+  "all_original_process_identities_absent": true,
+  "container_running": false,
+  "container_exit_code": 137,
+  "container_pid_zero": true,
+  "oom_killed": false,
+  "actual_container_seconds": 7.14428,
+  "controls": {
+    "NetworkMode": "none",
+    "NanoCpus": 1000000000,
+    "Memory": 268435456,
+    "MemorySwap": 268435456,
+    "PidsLimit": 32,
+    "ReadonlyRootfs": true,
+    "CapDrop": [
+      "ALL"
+    ],
+    "SecurityOpt": [
+      "no-new-privileges:true"
+    ]
+  },
+  "host_timeout_used_as_proof": false,
+  "limits": [
+    "Tiny synthetic process tree only; does not qualify biological workloads, host power loss, or daemon failure."
+  ]
+}

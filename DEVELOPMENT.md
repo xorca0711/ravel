@@ -2778,3 +2778,12 @@ archive remain preserved; the direct worker chat is available for owner approval
 No retry, alternative transfer, biological work or contract freeze was performed.
 This documentation-only status correction does not invalidate the passing source
 and research-governance checks.
+
+## 2026-10-11 — Verified runtime binding and metadata freeze
+
+The exact approved runtime export passed worker and independent root readback,
+all manifest hashes and owner-only metadata. Preserved the archive contents in
+versioned runtime_git_v3 and retained the original runtime. Reviewed recipe,
+source checks and current-image watchdog; bound execution limits and froze only
+the metadata contract. Scientific methods, validators and interpretation limits
+are unchanged. Figure 1 remains draft until real-input/memory review.

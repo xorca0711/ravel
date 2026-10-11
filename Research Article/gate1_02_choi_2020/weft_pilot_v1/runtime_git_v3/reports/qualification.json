@@ -1,0 +1,180 @@
+[
+  {
+    "case": "identity",
+    "image": "sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc",
+    "deadline_seconds": 30,
+    "kill_after_seconds": 5,
+    "controls": {
+      "NetworkMode": "none",
+      "NanoCpus": 2000000000,
+      "Memory": 1073741824,
+      "MemorySwap": 1073741824,
+      "PidsLimit": 128,
+      "ReadonlyRootfs": true,
+      "CapDrop": [
+        "ALL"
+      ],
+      "SecurityOpt": [
+        "no-new-privileges:true"
+      ]
+    },
+    "source_mount_readonly": true,
+    "source_commit": "47a2fe5bd07742ddddbd0c5aa5f3e0a4b21172e6",
+    "command": [
+      "sh",
+      "-c",
+      "git --version && timeout --version && python -m pip check"
+    ],
+    "output_sha256": "bb8bddb8db42aeeea4ffbc7fe014cff71cf416ac29a31cffa37153f5aa1d9712",
+    "terminal_state": {
+      "Status": "exited",
+      "Running": false,
+      "OOMKilled": false,
+      "ExitCode": 0
+    },
+    "terminal_pid_zero": true
+  },
+  {
+    "case": "inventory",
+    "image": "sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc",
+    "deadline_seconds": 30,
+    "kill_after_seconds": 5,
+    "controls": {
+      "NetworkMode": "none",
+      "NanoCpus": 2000000000,
+      "Memory": 1073741824,
+      "MemorySwap": 1073741824,
+      "PidsLimit": 128,
+      "ReadonlyRootfs": true,
+      "CapDrop": [
+        "ALL"
+      ],
+      "SecurityOpt": [
+        "no-new-privileges:true"
+      ]
+    },
+    "source_mount_readonly": true,
+    "source_commit": "47a2fe5bd07742ddddbd0c5aa5f3e0a4b21172e6",
+    "command": [
+      "python",
+      "-I",
+      "-c",
+      "import subprocess,importlib.metadata,json;print(json.dumps({'os_packages_tsv':subprocess.check_output(['dpkg-query','-W','-f=${binary:Package}\\t${Version}\\t${Architecture}\\n'],text=True),'python_packages':sorted([{'name':p.metadata['Name'],'version':p.version} for p in importlib.metadata.distributions()],key=lambda x:x['name'])},indent=2))"
+    ],
+    "output_sha256": "3f0fb2d99a8a58186f54bee588e215b539d0ac2d33055d143fa3f4988695e0db",
+    "terminal_state": {
+      "Status": "exited",
+      "Running": false,
+      "OOMKilled": false,
+      "ExitCode": 0
+    },
+    "terminal_pid_zero": true
+  },
+  {
+    "case": "numerical-synthetic",
+    "image": "sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc",
+    "deadline_seconds": 300,
+    "kill_after_seconds": 5,
+    "controls": {
+      "NetworkMode": "none",
+      "NanoCpus": 4000000000,
+      "Memory": 3221225472,
+      "MemorySwap": 3221225472,
+      "PidsLimit": 128,
+      "ReadonlyRootfs": true,
+      "CapDrop": [
+        "ALL"
+      ],
+      "SecurityOpt": [
+        "no-new-privileges:true"
+      ]
+    },
+    "source_mount_readonly": true,
+    "source_commit": "47a2fe5bd07742ddddbd0c5aa5f3e0a4b21172e6",
+    "command": [
+      "python",
+      "-I",
+      "/synthetic.py"
+    ],
+    "output_sha256": "64ce001d4efcc34c1b4bf2b9f63079a59d21e03be7f3a99dd69714a2c933434f",
+    "terminal_state": {
+      "Status": "exited",
+      "Running": false,
+      "OOMKilled": false,
+      "ExitCode": 0
+    },
+    "terminal_pid_zero": true
+  },
+  {
+    "case": "committed-source",
+    "image": "sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc",
+    "deadline_seconds": 30,
+    "kill_after_seconds": 5,
+    "controls": {
+      "NetworkMode": "none",
+      "NanoCpus": 2000000000,
+      "Memory": 1073741824,
+      "MemorySwap": 1073741824,
+      "PidsLimit": 128,
+      "ReadonlyRootfs": true,
+      "CapDrop": [
+        "ALL"
+      ],
+      "SecurityOpt": [
+        "no-new-privileges:true"
+      ]
+    },
+    "source_mount_readonly": true,
+    "source_commit": "47a2fe5bd07742ddddbd0c5aa5f3e0a4b21172e6",
+    "command": [
+      "python",
+      "-I",
+      "-c",
+      "import pathlib,sys,json;sys.path.insert(0,'/repo/analysis');from lib.research_governance import committed,git;root=pathlib.Path('/repo');assert git(root,'rev-parse','HEAD').decode().strip()=='47a2fe5bd07742ddddbd0c5aa5f3e0a4b21172e6';paths=['analysis/scripts/research_gate.py','analysis/lib/research_governance.py','analysis/tests/test_research_governance.py'];assert all(committed(root,p) for p in paths);print(json.dumps({'status':'PASS','committed_source_checks':paths,'git_commit':git(root,'rev-parse','HEAD').decode().strip()}))"
+    ],
+    "output_sha256": "2ccccdc301c51671ea6c6b948743871d2f3798194c427ac88dd6b7f0ac23c2ad",
+    "terminal_state": {
+      "Status": "exited",
+      "Running": false,
+      "OOMKilled": false,
+      "ExitCode": 0
+    },
+    "terminal_pid_zero": true
+  },
+  {
+    "case": "ravel-synthetic-runner",
+    "image": "sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc",
+    "deadline_seconds": 60,
+    "kill_after_seconds": 5,
+    "controls": {
+      "NetworkMode": "none",
+      "NanoCpus": 2000000000,
+      "Memory": 1073741824,
+      "MemorySwap": 1073741824,
+      "PidsLimit": 128,
+      "ReadonlyRootfs": true,
+      "CapDrop": [
+        "ALL"
+      ],
+      "SecurityOpt": [
+        "no-new-privileges:true"
+      ]
+    },
+    "source_mount_readonly": true,
+    "source_commit": "47a2fe5bd07742ddddbd0c5aa5f3e0a4b21172e6",
+    "command": [
+      "python",
+      "-B",
+      "/repo/analysis/tests/test_research_governance.py",
+      "GovernanceTests.test_runner_receipt_overwrite_and_output_integrity"
+    ],
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "terminal_state": {
+      "Status": "exited",
+      "Running": false,
+      "OOMKilled": false,
+      "ExitCode": 0
+    },
+    "terminal_pid_zero": true
+  }
+]
