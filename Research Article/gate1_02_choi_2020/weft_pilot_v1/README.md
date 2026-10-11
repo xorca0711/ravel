@@ -141,3 +141,12 @@ only conditional DATP neighbors/Leiden are mocked, with exact arguments checked.
 It does not validate graph construction, biological embeddings or scientific results.
 Thirteen targeted tests passed in 1.504 seconds. Synthetic output hashes are recorded
 in source bindings separately from biological outputs, which do not yet exist.
+
+The scoped `.gitattributes` rule preserves exact pilot bytes on Windows/Linux.
+Legacy modules are never imported: source bindings preserve their pinned Git
+blob identities and extraction hashes as provenance, while contracts bind the
+actual inert adapter and runtime materials. Committed-source checks remain required.
+
+**Runner HOLD:** qualified numerical image provides GNU timeout 9.7 but lacks
+`git` (exit 127). Before execution qualify and bind a reviewed image revision
+with Git; never bypass the unchanged runner committed-source checks.

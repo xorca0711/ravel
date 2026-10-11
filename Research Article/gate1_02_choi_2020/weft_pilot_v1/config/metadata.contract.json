@@ -140,11 +140,11 @@
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/preparation-checks.json",
-      "sha256": "aed3247f6aad55ec9541e052bc1d50457c1ac0d8e085056eb90f6cf5091076b9"
+      "sha256": "9218e9e2080a97f5bedf0e1d017fc3b79172043046accfcfc7489b94cdc3559a"
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/source-bindings.json",
-      "sha256": "886d500960cdfeb302cae77090c586060fce7b11a211d0b7f088d289d38eb871"
+      "sha256": "8e2afbe76e0a539fa2bd6802dc60ad1101b850b4d95ec0fefc5d7abd8ef85683"
     },
     {
       "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/watchdog-qualification.json",
@@ -223,32 +223,12 @@
       "sha256": "e5b13bac40bb92240ba46c6baa268f72b103e37ec975d91163d079b0b59018f3"
     },
     {
-      "path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
-      "sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5"
-    },
-    {
-      "path": "Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc.py",
-      "sha256": "365c2bbb8fa6553e051cf37f7786835ced8416b3c3def43a7bf4e0c93c07a40d"
-    },
-    {
-      "path": "Research Article/gate1_02_choi_2020/trials/d2_state_recovery.py",
-      "sha256": "bb81b73e2ccd5086a859a6936ed1ffb13931ed04b0a6f9dfaa48e6249967362a"
-    },
-    {
-      "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation.py",
-      "sha256": "29e1bd7a6ba589ec49cd23a27d9b471a90c89f854d7ea6ef688c4f9af9e9ee43"
-    },
-    {
-      "path": "Research Article/gate1_04_sikkema_2023_hlca/trials/trial_utils.py",
-      "sha256": "b845f0af123b50f3ad4e550dbc7e7dce533402ca97c41118293f266c3a14d367"
-    },
-    {
-      "path": "analysis/lib/provenance.py",
-      "sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556"
-    },
-    {
       "path": ".gitignore",
       "sha256": "fc9cb4ca6602feca4612532a98cc13960d3dd002da23ce5910c8de59d1b31df6"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "7d8c3f661fc051fd893696c376480870de6498ac49ea8937427735572f097614"
     }
   ],
   "runtime": "python",

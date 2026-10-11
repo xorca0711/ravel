@@ -116,16 +116,6 @@
       "segment_sha256": "aecbb403eb83df5dad7508c989351cbaf3523a912bdddaa3fd57bcd9cdab7d71"
     }
   ],
-  "additional_legacy_dependencies": [
-    {
-      "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation.py",
-      "sha256": "29e1bd7a6ba589ec49cd23a27d9b471a90c89f854d7ea6ef688c4f9af9e9ee43"
-    },
-    {
-      "path": "analysis/lib/provenance.py",
-      "sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556"
-    }
-  ],
   "D2b_conditional_block": "d2b_corrected_annotation.py main, DATP subclustering only when pAT2 absent and DATP present; neighbors 30, igraph 0.5, n_iterations 2, seed 0; restrict relabel to pAT2/DATP",
   "review_corrections": {
     "base_commit": "d779520f58c8b0fb1f36d4c471390c74ccaec139",
@@ -151,5 +141,66 @@
     },
     "output_scope": "synthetic fixture only; biological outputs absent; figure1B state UMAP, counts QC diagnostic, figure1D detection not expression",
     "graph_scope": "synthetic coordinates/connectivities, conditional DATP neighbors/Leiden mocked; annotation/tables/plots/serialization real"
-  }
+  },
+  "historical_sources": [
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "b159af0e6221e23a09bb1c9b58e1edb4c86b507b",
+      "git_object_format": "sha1",
+      "blob_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "4949652bcba34ec25f83b13a9719e4ac99586dab",
+      "git_object_format": "sha1",
+      "blob_sha256": "365c2bbb8fa6553e051cf37f7786835ced8416b3c3def43a7bf4e0c93c07a40d",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2_state_recovery.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "f708d454369f73b434044aeae19a01222145102c",
+      "git_object_format": "sha1",
+      "blob_sha256": "bb81b73e2ccd5086a859a6936ed1ffb13931ed04b0a6f9dfaa48e6249967362a",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "13a4b4048a0ca311e338638ac636625da47b1871",
+      "git_object_format": "sha1",
+      "blob_sha256": "29e1bd7a6ba589ec49cd23a27d9b471a90c89f854d7ea6ef688c4f9af9e9ee43",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "Research Article/gate1_04_sikkema_2023_hlca/trials/trial_utils.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "5b23be220c44537f079e5e5b2d896504d9cfdaa2",
+      "git_object_format": "sha1",
+      "blob_sha256": "b845f0af123b50f3ad4e550dbc7e7dce533402ca97c41118293f266c3a14d367",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "analysis/lib/provenance.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "291eb340832fd76e2a72ab3688950e4d11e83800",
+      "git_object_format": "sha1",
+      "blob_sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    }
+  ],
+  "additional_legacy_provenance": [
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation.py",
+      "sha256": "29e1bd7a6ba589ec49cd23a27d9b471a90c89f854d7ea6ef688c4f9af9e9ee43"
+    },
+    {
+      "path": "analysis/lib/provenance.py",
+      "sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556"
+    }
+  ],
+  "binding_policy": "Live contracts bind inert frozen_methods.py and actual pilot helpers/configs/tests/runtime materials. Legacy files are identified by pinned Git blobs and unchanged extraction hashes; no checkout-EOL-dependent runtime binding."
 }

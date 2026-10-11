@@ -2725,3 +2725,18 @@ check or active-runtime change here. Before execution root must review code and
 watchdog, complete repository checks, establish independent input readiness and
 loader-memory acceptance, freeze contracts, and bind manual backup/job receipts.
 No biological download, loader benchmark or analysis was performed.
+
+### P001 cross-platform byte binding correction
+
+Root full tracked Windows checkout reported exactly 56 new pilot code-hash
+errors from CRLF conversion and zero unrelated errors. Added only the quoted
+pilot subtree -text/whitespace=cr-at-eol rule; historical files, contracts,
+validator semantics and global EOL policy unchanged. Six unused legacy modules
+now retain exact pinned Git blob identities/SHA-256 and all 19 extraction hashes
+as historical provenance, rather than live runtime code bindings. Actual inert
+helper/config/test/recipe/lock bindings remain exact. Both contracts remain draft.
+Root will rematerialize clean pilot blobs and rerun the unchanged full gate.
+
+Numeric image tool check: GNU timeout 9.7 available; git --version fails 127
+(git not found). Execution remains HOLD pending a reviewed/qualified image with
+git for unchanged committed-source checks. No bypass or image alteration.

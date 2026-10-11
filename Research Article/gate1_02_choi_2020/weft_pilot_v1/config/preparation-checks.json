@@ -38,5 +38,24 @@
   "historical_output_changes": false,
   "validator_policy_changes": false,
   "private_backup_identifiers_in_public_receipts": false,
-  "review_corrections": "d779520 summary variable, descriptive UMAP endpoints, analyst-fixed attribution and metadata equality corrected without tuning"
+  "review_corrections": "d779520 summary variable, descriptive UMAP endpoints, analyst-fixed attribution and metadata equality corrected without tuning",
+  "cross_platform_review": {
+    "root_report": "full tracked Windows checkout, no LFS, research_gate check --base origin/main: 56 new pilot CRLF code-hash errors, zero unrelated",
+    "correction": "scoped quoted pilot subtree -text whitespace=cr-at-eol; six unused legacy bindings replaced by exact Git blob provenance",
+    "legacy_blobs_verified": 6,
+    "unchanged_extraction_hashes_verified": 19
+  },
+  "numeric_runner_tools": {
+    "image": "sha256:c9c7fb60b86d4608c2420d662d386bab33dde70b3b4fa9cd01e7ca8bdc9e6902",
+    "git": {
+      "available": false,
+      "exit_code": 127,
+      "error": "git: not found"
+    },
+    "timeout": {
+      "available": true,
+      "version": "GNU coreutils 9.7, Debian 9.7-3"
+    },
+    "execution_readiness": "HOLD: image lacks git required by unchanged runner committed-source checks; qualify an explicitly reviewed image revision containing git before execution; no bypass or image change performed"
+  }
 }
