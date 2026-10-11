@@ -8,24 +8,30 @@ records scope, resource observations and the resolved export hold. No new questi
 or biological interpretation is claimed.
 The metadata contract is **frozen** after [runtime review](RUNTIME_REVIEW.md);
 the descriptive contract is **frozen** after root review. Dispatch remains held
-until multipart output qualification and a new verified before-dispatch checkpoint. Root has accepted sparse-loader
+pending final packet review and a new verified before-dispatch checkpoint.
+Multipart transport qualified at 4 MiB; root has accepted sparse-loader
 memory readiness only; full-workload memory remains to be measured.
 The exact manual checkpoint and committed source must be bound before dispatch.
 
-## Current execution hold
+## Current execution readiness
 
-Figure1 preparation stopped before numerical execution: 16.56 GiB available
-host memory is below the frozen 20 GiB floor. The worker reports 17.59 GiB total
-host memory and a visible 16 GiB cgroup cap; ancestor/Docker scope is unverified.
-The stopped clone and same preparation reservation are preserved in a verified
-private held-state checkpoint. No output, preflight or numerical container exists.
-The [resource revision proposal](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/docs/FIGURE1_RESOURCE_REVISION.md)
-now records the owner-selected 8 GiB analysis cap with a 12 GiB host floor. The
-current 16 GiB Pro VM matches official capacity; the earlier 20 GiB floor was a
-root planning error. Original scientific contract and outputs remain unchanged.
-The same unstarted reservation resumes preparation under the explicit operational
-amendment; a complete reviewed packet and verified before-checkpoint still
-precede any numerical start.
+The owner-selected 8 GiB analysis cap and 12 GiB host floor passed the memory
+check. Pro provides a documented 16 GiB VM; root's earlier 20 GiB host requirement
+was a planning error. Frozen scientific files remain unchanged. All 56 code
+bindings, three frozen-file hashes and nine retained inputs matched.
+
+After repairing ignored mount placeholders, Docker VFS container allocations
+caused a disk hold. The owner approved retirement of the two audited containers;
+about 4.2 GiB was recovered, preserving source, inputs, image and all evidence.
+The existing second container passed offline preflight once before retirement:
+ok=true, exit 0, no OOM, 0.616 seconds. Exact process identities were not captured
+in that short run; its terminal Docker evidence is retained without claiming
+exact disappearance proof. Numerical-job process evidence remains required.
+
+[Current preparation evidence](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/records/choi-figure1-resumed-preparation-20261011.json)
+records failures, explicit cleanup approval, cgroup-v2 field review and root-verified
+held-checkpoint ancestry. Figure1 has not started. Final packet review, actual
+numerical-container controls/capacity and a verified before-checkpoint precede release.
 
 ## Stages and inputs
 

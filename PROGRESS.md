@@ -1,31 +1,26 @@
 # Current project state
 
-## Weft P001 metadata independently verified — 11 October 2026
+## Weft P001 — metadata verified; Figure1 preflight passed — 11 October 2026
 
-The approved private evidence archive has passed root size/SHA/CRC, all 46 member
-hashes and nine exact source Git-blob checks. Preserved the original run receipt,
-readiness output and logs; registered the receipt; unchanged verification passes.
-Three libraries pass integrity/order checks, with 46,423,890 combined nonzero
-entries. Loader peak is ~924 MiB cumulative process RSS. Root accepts this sparse
-loader prerequisite; full Figure1 memory is not yet measured.
+The original metadata receipt, exact output bytes, all 46 exported member hashes
+and nine source blobs are independently verified. Three libraries pass integrity
+and feature-order checks; loader peak is approximately 924 MiB cumulative RSS.
+[Metadata status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/METADATA_STATUS.md).
 
-[Metadata status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/METADATA_STATUS.md)
-records the resolved direct-approval export hold and exact evidence. Mir closed
-that same attempt after verifying a descendant of the preserved EXPORT_HELD checkpoint.
-The separate Figure1 plan proposes 4 CPUs/16 GiB/3,600 seconds and unchanged
-methods. Its contract is frozen after root review. A 16 MiB part readback failed; a
-separate 4 MiB+7 synthetic roundtrip passed. The explicit
-[operational transfer amendment](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/ARTIFACT_TRANSFER_AMENDMENT.md)
-preserves all frozen files and changes only external archive transport. Figure1 preparation stopped at the host-memory gate (16.56 GiB available versus
-20 GiB required). Read-only diagnosis reports 17.59 GiB host total and a visible
-16 GiB cgroup cap. No numerical container/preflight/output was created. The
-PREPARATION_HELD ledger checkpoint is verified, retaining the same reservation.
-[Resource revision proposal](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/docs/FIGURE1_RESOURCE_REVISION.md)
-records the owner-selected 8 GiB analysis cap and 12 GiB host floor. This is an
-explicit operational amendment; frozen scientific files remain unchanged. The
-16 GiB Pro VM is consistent with official specifications; root's earlier 20 GiB
-host requirement was an oversized planning assumption. The same unstarted
-reservation is resuming preparation; numerical release awaits a verified packet. No metadata rerun, new RQ or scientific acceptance.
+The owner-selected 8 GiB container cap / 12 GiB host floor passed. Pro's documented
+VM has 16 GiB; root's earlier 20 GiB requirement was a planning error. Frozen source
+b656d06 remains unchanged, and 4 MiB multipart recovery is qualified. Following
+an ignored mount-placeholder repair, VFS container allocations hit the disk floor.
+The owner approved exact retirement of two audited containers. That recovered
+about 4.2 GiB; all source, inputs, image and evidence are preserved. The existing
+second container passed offline preflight once (0.616 seconds, exit 0, no OOM)
+before retirement. Missed process-identity polling is disclosed, not filled in.
+
+The [pilot status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md)
+links full preparation evidence and verified held-checkpoint ancestry. Figure1
+remains unstarted. Next: final packet and actual numerical-container checks,
+verified before-checkpoint, then one root-released run. No metadata rerun, new RQ,
+scientific acceptance or merge.
 
 ## P001 root review corrections — 11 October 2026
 
