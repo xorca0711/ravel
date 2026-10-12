@@ -2878,3 +2878,17 @@ repository checks; the unchanged research gate was rerun after the correction.
 | Date | Proposed output | Why rejected or changed | Rejected/changed by |
 |---|---|---|---|
 | 2026-10-12 | Clarify ignored-public-output comments in `.gitignore` | The file is frozen input/code provenance; even comment changes break its hash | Existing Linux CI rejected it; Codex restored the original exact bytes |
+
+## 2026-10-12 — Owner retention and integration decision
+
+After public recovery and all four clean-checkout checks passed, the owner
+explicitly selected “Retain the bounded result and merge both PRs,” referring to
+Ravel #149 and Weft #9. [The disposition](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/REVIEW_DISPOSITION.md)
+retains Choi as an adapted descriptive discrepancy benchmark, without a new RQ,
+causal claim or claim-grade promotion. This is recorded human authority rather
+than an inference from execution or publication. B4 and the private coordinator
+reservation remain held; no additional analysis or schedule is authorized.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-12 | Retain Choi descriptive benchmark and integrate Ravel #149 / Weft #9 | Codex presented review and passing qualification | Owner explicitly selected retention and merge | Retain only the bounded discrepancy record; approve both merges after current checks | Preserve recoverable unfavorable findings while rejecting exact-reproduction and causal interpretations |

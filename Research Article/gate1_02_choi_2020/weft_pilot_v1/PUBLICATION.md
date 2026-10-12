@@ -2,9 +2,10 @@
 
 **12 October 2026: public publication and independent recovery verified.**
 The owner approved this exact output-only package and its CI restoration route.
-PR #149 proposes registration of the unchanged original receipt and a narrow
-restoration step. Engineering integration and human scientific review remain
-separate; no analysis reran, claim grade changed or new RQ was admitted.
+PR #149 registers the unchanged original receipt and adds a narrow restoration
+step. The owner [retained the bounded descriptive result and approved integration](REVIEW_DISPOSITION.md)
+after recovery and CI qualification. No analysis reran, claim grade changed or
+new RQ was admitted.
 
 The [public prerelease](https://github.com/xorca0711/ravel/releases/tag/choi-p001-figure1-v1)
 is pinned to reviewed source `714945697b007f4a0046834b34251392c1cfbe5a`.
@@ -63,6 +64,7 @@ research gate are required for PR integration; check PR #149's latest runs.
 The [scientific review](SCIENTIFIC_REVIEW.md) remains descriptive: one pooled
 library per condition, no recovered pAT2 label, condition-dependent exclusions
 and resolution/subcluster limitations. Publication does not resolve those limits
-or record human scientific acceptance. The private coordinator retains its held
+or establish a mechanism. The human disposition is explicitly limited to retaining
+the descriptive discrepancy benchmark. The private coordinator retains its held
 reservation and last verified checkpoint; reconcile it before another job. Weft
 B4 remains on hold and is not part of this publication.

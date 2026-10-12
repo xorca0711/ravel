@@ -11,9 +11,9 @@ the descriptive contract is **frozen** after root review. Figure1 subsequently
 executed once under the selected 8 GiB amendment. Its complete archive passed
 independent byte verification. [Scientific and figure review](SCIENTIFIC_REVIEW.md)
 is complete, with annotation and denominator limitations. [Complete-output
-publication and independent recovery](PUBLICATION.md) are now verified; PR #149
-proposes receipt/CI integration, with human review still open. The analysis must
-not be rerun.
+publication and independent recovery](PUBLICATION.md) are now verified. The owner
+[retained the descriptive benchmark and approved PR #149 integration](REVIEW_DISPOSITION.md)
+without a new RQ, causal claim or claim-grade promotion. The analysis must not be rerun.
 
 ## Current execution status
 

@@ -1,6 +1,8 @@
 # Figure1 execution status — 12 October 2026
 
-**Artifact QC, scientific/figure interpretation and complete-output publication/recovery are complete; integration and human review remain open.**
+**Artifact QC, scientific/figure interpretation and complete-output publication/recovery are complete. The owner retained the bounded descriptive benchmark and approved integration.**
+See the [human disposition](REVIEW_DISPOSITION.md); no new RQ, causal claim or
+claim-grade promotion is authorized.
 See [publication and CI restoration](PUBLICATION.md) for the separate M5 engineering step.
 See the [scientific review](SCIENTIFIC_REVIEW.md) for verified denominators, paper comparison, annotation limits and the no-new-RQ disposition.
 The same frozen source b656d06 and original contract were used once, under Weft's
@@ -60,11 +62,10 @@ is unknown and persistent coordinator storage is not guaranteed.
 owns packet, recovery and transfer evidence. [Earlier preparation](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/records/choi-figure1-resumed-preparation-20261011.json)
 preserves the mount failure, disk hold and owner-approved cleanup.
 
-Next: review the proposed complete-output receipt/CI integration in PR #149 and
-the documented scientific limitations. Publication and independent recovery are
-verified, with no rerun or validator change. The bounded discrepancy and
-no-new-RQ review remain unchanged; no scientific acceptance or coordinator-ledger
-transition is implied.
+Next: integrate the owner-approved complete-output receipt/CI change in PR #149
+after the latest checks. Publication and independent recovery are verified, with
+no rerun or validator change. The owner's descriptive-only retention leaves all
+scientific limitations unchanged; no coordinator-ledger transition is implied.
 
 ## Publication dependency
 

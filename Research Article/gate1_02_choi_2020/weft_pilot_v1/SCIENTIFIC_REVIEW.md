@@ -3,10 +3,13 @@
 **12 October 2026: artifact-based review complete; descriptive findings only.**
 The recovered run is internally consistent, but does not recover the paper's
 five-state partition or establish its mechanism. No analysis was rerun, label
-changed, output redrawn, claim grade promoted or human acceptance recorded.
+changed, output redrawn or claim grade promoted. The owner subsequently
+[retained the bounded descriptive discrepancy benchmark](REVIEW_DISPOSITION.md);
+this does not endorse exact reproduction or a mechanism.
 [Complete-output publication](PUBLICATION.md) subsequently passed independent
 public recovery. PR #149 now proposes registration of the unchanged numerical
-receipt with restoration before CI; integration and human review remain open.
+receipt with restoration before CI; the owner approved integration after passing
+checks, with the stated descriptive-only disposition.
 
 ## Scope and evidence
 
@@ -204,7 +207,8 @@ or mechanisms, and cannot be supplied by additional clustering of these librarie
 All **15** outputs, including the 385,675,968-byte H5AD, now have a
 [public release and verified recovery route](PUBLICATION.md). PR #149 proposes
 the unchanged original receipt's registration and hash-locked CI restoration.
-Engineering integration and human scientific review remain open. No partial
+The owner's [bounded retention and integration decision](REVIEW_DISPOSITION.md)
+is recorded separately from execution/publication checks. No partial
 receipt, automatic acceptance, new dispatch, scheduling or reservation release
 follows from publication.
 
