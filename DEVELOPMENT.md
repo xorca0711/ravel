@@ -2892,3 +2892,15 @@ reservation remain held; no additional analysis or schedule is authorized.
 | Date | Item | Proposed by | Decided by | Decision | Reason |
 |---|---|---|---|---|---|
 | 2026-10-12 | Retain Choi descriptive benchmark and integrate Ravel #149 / Weft #9 | Codex presented review and passing qualification | Owner explicitly selected retention and merge | Retain only the bounded discrepancy record; approve both merges after current checks | Preserve recoverable unfavorable findings while rejecting exact-reproduction and causal interpretations |
+
+## 2026-10-12 — Weft trial intake and dossier migration
+
+Codex relocated three Choi scientific documents from Weft into the separate
+versioned intake, retaining navigation stubs and five exact public receipt
+snapshots. The manifest records transfer hashes and original evidence locators.
+This is documentation organization; no scientific run, gate semantics, claim
+grade, canonical question or frozen result changed.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-12 | Separate Weft intake, Choi dossier migration and root README trial note | Owner | Owner requested this organization | Implement reviewed trial collection while preserving Ravel identity and existing evidence paths | Make the trial handoff visible without conflating automation qualification with research acceptance |

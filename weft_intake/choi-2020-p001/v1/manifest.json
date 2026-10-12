@@ -1,0 +1,121 @@
+{
+  "format_version": 1,
+  "kind": "documentary_trial_handoff_not_runtime_gate_receipt",
+  "package_id": "choi-2020-p001-v1",
+  "recorded_date": "2026-10-12",
+  "paper": {
+    "doi": "10.1016/j.stem.2020.06.020",
+    "pmid": "32750316",
+    "pmcid": "PMC7487779",
+    "execution_accession": "GSE145031"
+  },
+  "migration_authority": "Owner requested separate Ravel intake and migration of Choi trial material; Ravel identity unchanged.",
+  "weft_source_head_at_migration": "1186ac694fc9f5db9affb1291d464268654cf19f",
+  "source_snapshot_note": "Hashes record exact working files at transfer; scientific-review summary includes the uncommitted owner-authorized M5 closeout. Historical receipts copied unchanged.",
+  "ravel_base_commit": "34675134a5581989d028102a93ae51eebc84a501",
+  "assessment": {
+    "G0_G1": "bounded qualification recorded",
+    "G2": "previously read; outcome-exposed benchmark",
+    "G3": "descriptive use only; no animal-level treatment inference",
+    "G4": "qualified for completed attempt",
+    "G5": "adapted descriptive run with discrepancies; not exact reproduction",
+    "G6": "no extension performed",
+    "G7": "no new canonical RQ",
+    "G8": "bounded owner retention; Ravel PR149 merged; main CI passed"
+  },
+  "frozen_evidence": [
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/README.md",
+      "git_blob_sha256": "30728891c1b959596365dc1a6868b29a3224e2b366bf300bbaec101b717764e1"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/SCIENTIFIC_REVIEW.md",
+      "git_blob_sha256": "250925c5b7f5442e36963de357e4ebd2c81049e8f1a66c94b090faea6deb4e62"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/PUBLICATION.md",
+      "git_blob_sha256": "39afc629be2ac1702e60be477b9b75080b0eadd76d50dec85f27f74251f2a904"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/REVIEW_DISPOSITION.md",
+      "git_blob_sha256": "1cbb3392bffb9cd18e8b1dc9987ddab440b2e87cd96ac2a95324e77b28bc37e6"
+    },
+    {
+      "path": "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json",
+      "git_blob_sha256": "24aaaaef907519391ba3c8650f96795ebe2dff4a27cd4ad9e9977852cdc5974b"
+    },
+    {
+      "path": "analysis/research/published_outputs/choi_figure1_v1.json",
+      "git_blob_sha256": "fec86dbc7d9da5eacfcb889c33b82671e83bd63af9faa17b796f41dc79f5ba37"
+    }
+  ],
+  "transferred_materials": [
+    {
+      "weft_source": "records/pilot-reading-20261011.json",
+      "destination": "weft_intake/choi-2020-p001/v1/records/pilot-reading-20261011.json",
+      "source_sha256": "9d82068e71965157982993f9ec638fee58a5d4f9345a1661863d7fabed8be7ba",
+      "destination_sha256": "9d82068e71965157982993f9ec638fee58a5d4f9345a1661863d7fabed8be7ba",
+      "mode": "byte-identical historical receipt; original retained for Weft audit ancestry"
+    },
+    {
+      "weft_source": "records/pilot-inputs-20261011.json",
+      "destination": "weft_intake/choi-2020-p001/v1/records/pilot-inputs-20261011.json",
+      "source_sha256": "ba22b5e9ab3df1a30a18b35f97ed8e94d226a7782f4700a0c365e6f68f244c9e",
+      "destination_sha256": "ba22b5e9ab3df1a30a18b35f97ed8e94d226a7782f4700a0c365e6f68f244c9e",
+      "mode": "byte-identical historical receipt; original retained for Weft audit ancestry"
+    },
+    {
+      "weft_source": "records/pilot-review-20261011.json",
+      "destination": "weft_intake/choi-2020-p001/v1/records/pilot-review-20261011.json",
+      "source_sha256": "6b0d1bfecc894205ff4830e2dc76bde770fc6f147ebd0ed162bbf8765b444f72",
+      "destination_sha256": "6b0d1bfecc894205ff4830e2dc76bde770fc6f147ebd0ed162bbf8765b444f72",
+      "mode": "byte-identical historical receipt; original retained for Weft audit ancestry"
+    },
+    {
+      "weft_source": "records/pilot-review-validation-20261011.json",
+      "destination": "weft_intake/choi-2020-p001/v1/records/pilot-review-validation-20261011.json",
+      "source_sha256": "6f6a898a06335520ebaf7723f52ca06d3c7c2fa757c8c530b20a27affb0992f0",
+      "destination_sha256": "6f6a898a06335520ebaf7723f52ca06d3c7c2fa757c8c530b20a27affb0992f0",
+      "mode": "byte-identical historical receipt; original retained for Weft audit ancestry"
+    },
+    {
+      "weft_source": "records/choi-scientific-review-20261012.json",
+      "destination": "weft_intake/choi-2020-p001/v1/records/choi-scientific-review-20261012.json",
+      "source_sha256": "2f74714b4b335b23c12afcf5e5b7ead3a97849667f2782012d091e8d0306166d",
+      "destination_sha256": "2f74714b4b335b23c12afcf5e5b7ead3a97849667f2782012d091e8d0306166d",
+      "mode": "byte-identical historical receipt; original retained for Weft audit ancestry"
+    },
+    {
+      "weft_source": "docs/PILOT_CHOI_2020.md",
+      "destination": "weft_intake/choi-2020-p001/v1/PILOT_CHOI_2020.md",
+      "source_sha256": "4d22757580654e0b6f7ed03e47fdbf8eb0df3e74ea1811026668b426509f17ea",
+      "destination_sha256": "6f708e2800e5015c5efd489e52522ec06f6154629a51de0017b89c194a6be298",
+      "mode": "scientific dossier relocated; portable links and current-status preface updated; source becomes navigation stub"
+    },
+    {
+      "weft_source": "docs/PILOT_CHOI_REVIEW.md",
+      "destination": "weft_intake/choi-2020-p001/v1/PILOT_CHOI_REVIEW.md",
+      "source_sha256": "27f7f6f30b923b17fc906a125dd8068dd6753d01c45a0db5c0949f11e787f180",
+      "destination_sha256": "c42e02785c6693bb12c05ae8950bd6fdb7072d5d6ab971d25741c3e499f1c54b",
+      "mode": "scientific dossier relocated; portable links and current-status preface updated; source becomes navigation stub"
+    },
+    {
+      "weft_source": "docs/PILOT_CHOI_SCIENTIFIC_REVIEW.md",
+      "destination": "weft_intake/choi-2020-p001/v1/PILOT_CHOI_SCIENTIFIC_REVIEW.md",
+      "source_sha256": "bc9eaa52c6036e5e2be2d234bf0a019565009a90da1c07c370821385b1974f2c",
+      "destination_sha256": "24014816f906dcd798a80a7e038afc028fcb8a87ecbc8e80617f99c7fb4bbcac",
+      "mode": "scientific dossier relocated; portable links and current-status preface updated; source becomes navigation stub"
+    }
+  ],
+  "public_release": "https://github.com/xorca0711/ravel/releases/tag/choi-p001-figure1-v1",
+  "archive_sha256": "6e10afc432fdffb32ece7a3692c8dbb302c74604e9e67e27793c8d1856de21e2",
+  "new_rq": false,
+  "analysis_rerun": false,
+  "automatic_importer_implemented": false,
+  "limits": [
+    "Trial-pilot dossier, not general fresh-paper workflow qualification",
+    "Historical receipt statuses remain historical",
+    "No new claim grade, causal claim or execution authorization",
+    "Large frozen outputs retain their original paths; no restricted source files or private checkpoint records transferred"
+  ]
+}

@@ -10,6 +10,7 @@ layers. Individual study topics do not define the project-wide mission. Preserve
 each study's specific questions and limits. See the
 [rename record](docs/migrations/2026-10-07-ravel/README.md).
 
+- [Weft intake](weft_intake/README.md) owns reviewed trial handoffs; Choi's scientific dossier moved from Weft, while original frozen analysis paths remain unchanged. No automatic admission or new RQ.
 - [Portfolio extensions](docs/portfolio_extensions/2026-10-07/README.md) owns the subsequent grouped scan, new exposed runs and cross-question synthesis; consult PROGRESS for execution status.
 - [Agent decision workflow](docs/AGENT_DECISION_WORKFLOW.md) routes work by purpose; alternatives do not mandate extra experimental arms.
 - [Repository readiness audit](docs/audits/2026-10-07-repository-readiness/REPORT.md) owns the 7 October correction and synchronization checkpoint.

@@ -25,6 +25,7 @@ and preservation of historical evidence.
 |---|---|
 | Questions, biological rationale and proposed comparisons | [Illustrated question guide](docs/research_dossiers/literature_context_2026-10-03/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
 | Source papers, reading status and article analyses | [Research article roadmap](Research%20Article/README.md) |
+| Reviewed materials from the ongoing Weft trial | [Weft intake](weft_intake/README.md) |
 | Datasets, biological units and eligibility | [Dataset inventory](docs/DATASETS.md) |
 | Current results and remaining work | [Project state](PROGRESS.md) · [Remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
 | Figures and their interpretation | [Question figures](RQ_Specified/FIGURES.md) · [Paper galleries](Research%20Article/README.md#figure-galleries) |
@@ -68,6 +69,27 @@ question register owns stable A-series identities, while question workspaces and
 The research registry locates prospective contracts, execution receipts and
 versioned outputs. Registration or successful execution does not imply scientific
 acceptance; dated reports preserve earlier results and corrections.
+
+## Weft trial integration
+
+[Weft](https://github.com/xorca0711/weft) is the separate automation project for
+literature discovery, screening and bounded analysis coordination. Its connection
+to Ravel is currently a **trial-pilot integration**. The [Weft intake](weft_intake/README.md)
+collects reviewed handoffs, starting with Choi's migrated pilot plan, source and
+dataset review, scientific summary and evidence inventory. Ravel's research
+mission, canonical questions and existing evidence hierarchy remain unchanged.
+
+```mermaid
+flowchart LR
+    W["Weft: discovery and review"] --> I["Ravel / weft_intake: reviewed trial package"]
+    I -. "Separate scientific review and authorization" .-> R["Ravel article analyses and RQs"]
+```
+
+Choi was retained as a bounded descriptive discrepancy benchmark, with no new RQ
+or claim promotion. Fresh-paper material review remains held. Arrival in the
+intake does not imply scientific acceptance or permission to run an analysis.
+See the [frontend/backend workflow](https://github.com/xorca0711/weft/blob/main/docs/WORKFLOW_AND_STORAGE.md)
+for interfaces, compute, storage and current qualification limits.
 
 ## Datasets
 
