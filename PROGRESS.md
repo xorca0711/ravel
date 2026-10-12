@@ -1,6 +1,24 @@
 # Current project state
 
-## Weft P001 — Figure1 executed; export held — 12 October 2026
+## Weft P001 — export independently verified; scientific review pending — 12 October 2026
+
+The existing cloud worker completed the original approved export without rerunning
+analysis. Worker and independent root downloads/reconstruction verified all 26
+parts, the transfer manifest, the exact 105,848,914-byte archive, ZIP CRC and all
+99 manifest entries. The original numerical receipt is unchanged. Root verified
+all 27 Drive files' sizes, original folder and owner-only permissions, plus the
+final 30-event checkpoint and unchanged two scientific rows through fresh read-only
+restoration. Earlier approval, usage, disconnect and optional streaming-proxy
+failures remain preserved; no network settings or frozen source changed.
+
+[Figure1 status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/FIGURE1_STATUS.md)
+links exact verification evidence. Next: review receipt/QC/denominators/markers
+and figures, write bounded discrepancies and candidate/no-candidate conclusions,
+and review a durable publication route for every declared output, including the
+385,675,968-byte H5AD. No numerical receipt is partially registered, validator
+weakened, claim promoted or scientific acceptance inferred from archive integrity.
+
+## Historical P001 execution and initial export hold — 12 October 2026
 
 The single Figure1 attempt at frozen b656d06 executed under the approved 8 GiB cap.
 The worker reports exit 0/no OOM, 196.03 seconds, 2,448,296 KiB peak process RSS,

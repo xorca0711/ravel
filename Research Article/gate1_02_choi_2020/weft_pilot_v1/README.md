@@ -8,16 +8,18 @@ records scope, resource observations and the resolved export hold. No new questi
 or biological interpretation is claimed.
 The metadata contract is **frozen** after [runtime review](RUNTIME_REVIEW.md);
 the descriptive contract is **frozen** after root review. Figure1 subsequently
-executed once under the selected 8 GiB amendment. Its evidence export is held;
-independent result and figure review remain pending. The analysis must not be rerun.
+executed once under the selected 8 GiB amendment. Its complete archive passed
+independent byte verification; scientific and figure review remain pending. The
+analysis must not be rerun.
 
 ## Current execution status
 
 [Figure1 status](FIGURE1_STATUS.md) distinguishes the successful worker report
-from pending independent readback. The worker reports 196.03 seconds, approximately
+from completed artifact readback and pending scientific review. The worker reports 196.03 seconds, approximately
 2.33 GiB peak process RSS and 11,683 post-QC cells; final pAT2 was absent.
-Automatic review rejected the new evidence upload because prior approvals covered
-different archives. Root verified the separate EXPORT_HELD ledger checkpoint.
+After the owner approved the exact archive, the same worker completed all parts.
+Root independently verified reconstruction, all 99 entries and the final 30-event
+checkpoint. Earlier holds and their recovery ancestry remain preserved.
 
 The owner-approved cleanup recovered about 4.2 GiB and preserved source, inputs,
 image and evidence. Pro's documented VM has 16 GiB; the initial 20 GiB host floor

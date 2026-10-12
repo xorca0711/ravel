@@ -2817,3 +2817,16 @@ before a complete verified transfer. Approval is retained; resumption requires
 original-worker and per-file/remote-outcome reconciliation, not an analysis rerun.
 The local Codex usage endpoint reporting availability does not clear the observed
 cloud-specific failure. No account switch, purchase or quota workaround was made.
+
+## 2026-10-12 — Choi Figure1 export recovery verified
+
+Codex synchronized the pilot README, Figure1 status and current handoff after the
+same cloud worker completed the approved multipart export. Root independently
+verified the exact archive, all 99 manifest entries, original numerical receipt
+hash, remote ownership and 27→30 checkpoint ancestry. Earlier failures and source
+pins remain preserved. This is documentation-only bookkeeping; no scientific
+source, contract, output, registry, claim, validator or acceptance decision changed.
+QC/figure interpretation and a complete-output publication route remain pending.
+
+Validation: unchanged research gate passed against origin/main bfe26b8;
+repository validation passed 11,135 checks. No numerical analysis was rerun.
