@@ -1,0 +1,157 @@
+{
+  "weft_commit": "d031cef02ab4a417760bca46e90a63917d215d31",
+  "inventory_sha256": "315b632bdeb815f4f027ba12d1d99a4626fb50e18379e63131784b9007b7bccc",
+  "inventory_locator": "https://github.com/xorca0711/weft/blob/d031cef02ab4a417760bca46e90a63917d215d31/records/pilot-inputs-20261011.json",
+  "provider_archive": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE145nnn/GSE145031/suppl/GSE145031_RAW.tar",
+  "provider_digest_available": false,
+  "inventory_archive": {
+    "relative_ravel_path": "raw_data/GSE145031/GSE145031_RAW.tar",
+    "bytes": 349204480,
+    "sha256": "c1476faed13366ad22d481dac52feb17e3c696a80ab2bfe359a4377afb12cf57"
+  },
+  "samples": [
+    {
+      "gsm": "GSM4304609",
+      "title": "PBS_AT2_Tomato",
+      "pilot_include": true,
+      "rows": 27998,
+      "columns": 737280,
+      "stored_entries": 16264525
+    },
+    {
+      "gsm": "GSM4304611",
+      "title": "Day14_AT2_Tomato",
+      "pilot_include": true,
+      "rows": 27998,
+      "columns": 737280,
+      "stored_entries": 14798870
+    },
+    {
+      "gsm": "GSM4304613",
+      "title": "Day28_AT2_Tomato",
+      "pilot_include": true,
+      "rows": 27998,
+      "columns": 737280,
+      "stored_entries": 15360495
+    }
+  ],
+  "files": [
+    {
+      "filename": "GSM4304609_PBS_AT2_Tomato.mtx.gz",
+      "bytes": 54411056,
+      "sha256": "a5be8f5140f266d9fae46b24e0d9a4080b4a0cc8936c788c8f4017aaac179e83",
+      "gsm": "GSM4304609",
+      "title": "PBS_AT2_Tomato",
+      "pilot_include": true,
+      "matrix_market": "%%MatrixMarket matrix coordinate integer general",
+      "rows": 27998,
+      "columns": 737280,
+      "stored_entries": 16264525,
+      "gzip_crc_verified": true,
+      "entry_line_count": 16264525,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304609_PBS_AT2_Tomato.mtx.gz"
+    },
+    {
+      "filename": "GSM4304609_PBS_AT2_Tomato_barcodes.tsv.gz",
+      "bytes": 2280358,
+      "sha256": "64962a074f58f25f40174708ed8667f19b09ecee4f71d1ec560a5383f3b12a4f",
+      "gsm": "GSM4304609",
+      "title": "PBS_AT2_Tomato",
+      "pilot_include": true,
+      "lines": 737280,
+      "uncompressed_sha256": "e28353c088bf3b4d660220377a5f5fcc64839fb9e307cea47afe4e23fce2edc2",
+      "gzip_crc_verified": true,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304609_PBS_AT2_Tomato_barcodes.tsv.gz"
+    },
+    {
+      "filename": "GSM4304609_PBS_AT2_Tomato_gene.tsv.gz",
+      "bytes": 217851,
+      "sha256": "33fc0e6ab2bb2bf434979ab0c5bb06f3284af33dcef51c4f8a9ef7e40bb356da",
+      "gsm": "GSM4304609",
+      "title": "PBS_AT2_Tomato",
+      "pilot_include": true,
+      "lines": 27998,
+      "uncompressed_sha256": "403776a42aec61b6c9524010877f0ac66ff94d3d127c1f15b991e8ea57e5fe99",
+      "gzip_crc_verified": true,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304609_PBS_AT2_Tomato_gene.tsv.gz"
+    },
+    {
+      "filename": "GSM4304611_Day14_AT2_Tomato.mtx.gz",
+      "bytes": 49308225,
+      "sha256": "557897d017666670409f2c597677fdac919b59e32936c5fa4d781d28826a5886",
+      "gsm": "GSM4304611",
+      "title": "Day14_AT2_Tomato",
+      "pilot_include": true,
+      "matrix_market": "%%MatrixMarket matrix coordinate integer general",
+      "rows": 27998,
+      "columns": 737280,
+      "stored_entries": 14798870,
+      "gzip_crc_verified": true,
+      "entry_line_count": 14798870,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304611_Day14_AT2_Tomato.mtx.gz"
+    },
+    {
+      "filename": "GSM4304611_Day14_AT2_Tomato_barcodes.tsv.gz",
+      "bytes": 2280360,
+      "sha256": "ecfe174a445b81c44e7c1d22173df453abbacc5bc087a643521ff196d7d016a8",
+      "gsm": "GSM4304611",
+      "title": "Day14_AT2_Tomato",
+      "pilot_include": true,
+      "lines": 737280,
+      "uncompressed_sha256": "e28353c088bf3b4d660220377a5f5fcc64839fb9e307cea47afe4e23fce2edc2",
+      "gzip_crc_verified": true,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304611_Day14_AT2_Tomato_barcodes.tsv.gz"
+    },
+    {
+      "filename": "GSM4304611_Day14_AT2_Tomato_gene.tsv.gz",
+      "bytes": 217853,
+      "sha256": "9ad3244c380b46b082e1647cad76c110f8d22fb3216f0443efa25ee1189b7d19",
+      "gsm": "GSM4304611",
+      "title": "Day14_AT2_Tomato",
+      "pilot_include": true,
+      "lines": 27998,
+      "uncompressed_sha256": "403776a42aec61b6c9524010877f0ac66ff94d3d127c1f15b991e8ea57e5fe99",
+      "gzip_crc_verified": true,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304611_Day14_AT2_Tomato_gene.tsv.gz"
+    },
+    {
+      "filename": "GSM4304613_Day28_AT2_Tomato.mtx.gz",
+      "bytes": 51261187,
+      "sha256": "809952999675d7036c4c2c39e3c4eab1a1c7c07a80b583f726484c2c335797da",
+      "gsm": "GSM4304613",
+      "title": "Day28_AT2_Tomato",
+      "pilot_include": true,
+      "matrix_market": "%%MatrixMarket matrix coordinate integer general",
+      "rows": 27998,
+      "columns": 737280,
+      "stored_entries": 15360495,
+      "gzip_crc_verified": true,
+      "entry_line_count": 15360495,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304613_Day28_AT2_Tomato.mtx.gz"
+    },
+    {
+      "filename": "GSM4304613_Day28_AT2_Tomato_barcodes.tsv.gz",
+      "bytes": 2280360,
+      "sha256": "7d7aa42f8f0d80f66ffb985038b89aaaf594c2fb07f4d76e7a30945264e83845",
+      "gsm": "GSM4304613",
+      "title": "Day28_AT2_Tomato",
+      "pilot_include": true,
+      "lines": 737280,
+      "uncompressed_sha256": "e28353c088bf3b4d660220377a5f5fcc64839fb9e307cea47afe4e23fce2edc2",
+      "gzip_crc_verified": true,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304613_Day28_AT2_Tomato_barcodes.tsv.gz"
+    },
+    {
+      "filename": "GSM4304613_Day28_AT2_Tomato_gene.tsv.gz",
+      "bytes": 217853,
+      "sha256": "54cd77dac4862132c4ebe8ae823cf7114b7f5f281dd68ed5c48d1da8256b1221",
+      "gsm": "GSM4304613",
+      "title": "Day28_AT2_Tomato",
+      "pilot_include": true,
+      "lines": 27998,
+      "uncompressed_sha256": "403776a42aec61b6c9524010877f0ac66ff94d3d127c1f15b991e8ea57e5fe99",
+      "gzip_crc_verified": true,
+      "path": "raw_data/GSE145031/weft_pilot_v1/inputs/GSM4304613_Day28_AT2_Tomato_gene.tsv.gz"
+    }
+  ]
+}

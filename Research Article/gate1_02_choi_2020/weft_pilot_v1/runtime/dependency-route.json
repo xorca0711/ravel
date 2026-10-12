@@ -1,0 +1,35 @@
+{
+  "scanpy_version": "1.12.4",
+  "standalone_scrublet_installed": false,
+  "metadata_requires_standalone_scrublet_or_annoy": false,
+  "route": "scanpy.pp.scrublet -> scanpy.preprocessing._scrublet.core.Scrublet",
+  "threshold_extra": "scikit-image: core imports skimage.filters.threshold_minimum",
+  "excluded_packages": [
+    "scrublet",
+    "annoy",
+    "cython (only standalone Scrublet dependency)"
+  ],
+  "hvg_extra": "scikit-misc required for flavor=seurat_v3",
+  "pinned_D1_call": "sc.pp.scrublet(adata, random_state=0, verbose=False, expected_doublet_rate=expected)",
+  "pinned_D2_route": {
+    "HVG": {
+      "flavor": "seurat_v3",
+      "n_top_genes": 2000,
+      "layer": "counts"
+    },
+    "scale_max_value": 10,
+    "PCA_components": 30,
+    "neighbors": 30,
+    "Leiden": {
+      "flavor": "igraph",
+      "n_iterations": 2,
+      "resolutions": [
+        0.3,
+        0.5,
+        1.0
+      ]
+    },
+    "seed": 0
+  },
+  "outcome_read": "Pinned ANALYSIS_TRIAL_PLAN D2b: four states, pAT2 unassigned; descriptive only, one pooled library per condition"
+}

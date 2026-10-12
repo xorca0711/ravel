@@ -1,0 +1,6 @@
+SANITIZED LOCAL RUNTIME QUALIFICATION EVIDENCE — SYNTHETIC ONLY
+Source and image identities are in reports/summary.json. All raw packages, wheels, generated synthetic datasets, private routing, session identifiers and credentials are excluded. The Debian public keyring is a public signature-verification trust anchor, not a private key.
+APT verified signed InRelease records with its base-provided Debian keyring and sqv. Decoded package-index SHA-256/size values matched the signed releases. Every downloaded .deb hash/size matched authenticated package stanzas. Full package indexes and .deb bytes are excluded; hashes, public locators, signed releases and verification outcomes are retained.
+All 61 wheels retain prior live PyPI verification records and were byte-hash/size checked again against the exact current source lock before this offline build.
+The recipe requires the verified .deb files in debs/ and verified wheels in wheels/; they are deliberately excluded from this small evidence archive. Synthetic harnesses expect a pinned source checkout adjacent to their working area. No source/governance patch was required. All qualification containers had no network, read-only root/source, resource limits, dropped capabilities and no-new-privileges.
+This archive is local only. It grants no scientific dispatch authority.

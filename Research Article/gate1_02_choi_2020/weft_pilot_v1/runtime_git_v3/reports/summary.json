@@ -1,0 +1,54 @@
+{
+  "version": "ravel-numeric-git-v3-20261011",
+  "source_repository": "https://github.com/xorca0711/ravel",
+  "source_commit": "47a2fe5bd07742ddddbd0c5aa5f3e0a4b21172e6",
+  "source_clean": true,
+  "base_reference": "python@sha256:a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1",
+  "image_id": "sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc",
+  "platform": "linux/amd64",
+  "image_proxy_environment_embedded": false,
+  "debian_packages": 31,
+  "git_debian_version": "1:2.47.3-0+deb13u1",
+  "wheels": 61,
+  "hashes_reverified_before_build": true,
+  "final_build_network": "none",
+  "build_result": "PASS",
+  "build_checks": [
+    "all .deb SHA-256s",
+    "dpkg package installation",
+    "APT dependency check",
+    "all locked Debian versions",
+    "empty dpkg audit",
+    "61 wheel hash-required offline installation",
+    "pip check"
+  ],
+  "runtime_qualification": "PASS for bounded synthetic scope only",
+  "numeric_fixture": "unchanged runtime/synthetic.py from pinned source; newly generated synthetic counts only",
+  "ravel_runner_check": "Unmodified GovernanceTests.test_runner_receipt_overwrite_and_output_integrity; disposable synthetic Git fixture, normal committed-source and hash checks; no scientific contract frozen.",
+  "watchdog": "launcher SIGKILL followed by worker-side 6s TERM + 1s KILL, container exit 137 without OOM; all four captured process identities absent",
+  "prior_failures_preserved": [
+    "APT failed when explicit outer-only proxy environment replaced Docker client defaults; corrected by removing those overrides.",
+    "Original Buildx default path read-only; command-scoped BUILDX_CONFIG fixed bookkeeping without changing Docker configuration.",
+    "Offline apt-get local .deb install hit internal pathname error; same verified set installed with dpkg, then dependency/version/audit checks passed.",
+    "First numeric fixture could not traverse private checkout as image default UID; rerun as existing non-root source owner with read-only source and Git mounts."
+  ],
+  "documentation_limits": [
+    "Requested cloud-environment docker.md/networking.md and environment_status tool unavailable in this runtime/catalog.",
+    "Supported proxy setup grounded in supplied guidance and independently observed Docker default configuration; no addresses, proxy values or auth readouts included."
+  ],
+  "scientific_dispatch": "HOLD",
+  "biological_data_or_execution": false,
+  "source_edits_or_pushes": false,
+  "scientific_contract_freeze": false,
+  "coordinator_ledger_changes": false,
+  "auxiliary_source_patch": null,
+  "unqualified": [
+    "real input loading",
+    "full-data memory",
+    "biological conclusions",
+    "daemon/host loss",
+    "desktop power-off",
+    "distributed leases"
+  ],
+  "upload_attempted_for_this_archive": false
+}

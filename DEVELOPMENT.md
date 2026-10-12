@@ -2687,3 +2687,208 @@ human acceptance or laboratory feasibility was manufactured. See the
 
 This follow-up changes documentation placement and navigation only. No evidence
 grade, scientific result, governance validator or numerical output changed.
+
+## Weft P001 source preparation — 11 October 2026
+
+Owner authorized a new draft metadata/sparse-loader stage and a separate exposed
+descriptive Choi Figure 1B-D adapter under
+[weft_pilot_v1](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md),
+owned by A0 with A1 context. Nine input hashes, inert frozen D1/D2/D2b helpers,
+exact numerical lock and independent worker watchdog proof are bound. Fixed primary
+Leiden1.0 and declared sensitivities do not tune toward five states. Contracts remain
+draft pending root review/checkpoint; no biological download, loader benchmark or
+analysis occurred. Historical evidence, validators, claims and policies unchanged.
+
+The exact provider HEAD was blocked by the proxy (403 tunnel). Root must review
+code/watchdog, request concrete provider access if needed, independently verify
+triplets and loader peak memory, then freeze and bind one manual checkpointed job.
+Private backup locators and identities stay outside public scientific receipts.
+Validation: 11 targeted synthetic tests and both source/schema preflights passed;
+each real-input preflight holds on nine absent triplets. The scoped commit is
+recorded in the handoff. Synthetic tests establish
+software behavior only, not biological acceptance or animal-level precision.
+
+
+## P001 root review corrections — 11 October 2026
+
+Corrected d779520's overwritten resolution-state dictionary and explicitly checked
+metadata cross-library feature ID/order. Added final-state and library/timepoint
+UMAPs; retained counts as qc_cell_counts.png. These are adapted descriptive panels;
+Figure 1D detection fractions are not the published expression heatmap. Primary
+Leiden 1.0 is analyst-fixed/predeclared. No methods or thresholds were tuned.
+Thirteen targeted synthetic tests passed (1.504 s), including describe tables,
+plots and JSON with absent pAT2/unassigned/contaminants. Synthetic coordinates
+and conditional DATP graph mocks are disclosed. Source/output bindings updated;
+both contracts remain draft. Earlier failure/Drive evidence preserved.
+The published NCBI-only update awaits independent readiness review; no network
+check or active-runtime change here. Before execution root must review code and
+watchdog, complete repository checks, establish independent input readiness and
+loader-memory acceptance, freeze contracts, and bind manual backup/job receipts.
+No biological download, loader benchmark or analysis was performed.
+
+### P001 cross-platform byte binding correction
+
+Root full tracked Windows checkout reported exactly 56 new pilot code-hash
+errors from CRLF conversion and zero unrelated errors. Added only the quoted
+pilot subtree -text/whitespace=cr-at-eol rule; historical files, contracts,
+validator semantics and global EOL policy unchanged. Six unused legacy modules
+now retain exact pinned Git blob identities/SHA-256 and all 19 extraction hashes
+as historical provenance, rather than live runtime code bindings. Actual inert
+helper/config/test/recipe/lock bindings remain exact. Both contracts remain draft.
+Root will rematerialize clean pilot blobs and rerun the unchanged full gate.
+
+Numeric image tool check: GNU timeout 9.7 available; git --version fails 127
+(git not found). Execution remains HOLD pending a reviewed/qualified image with
+git for unchanged committed-source checks. No bypass or image alteration.
+
+## 2026-10-11 — Independent root review of Weft P001 draft
+
+Full tracked-source governance passed on Windows at 47a2fe5 against bfe26b8.
+Only clean new pilot files were rematerialized from exact Git blobs after scoped
+byte-preservation attributes were added; no content change or historical rewrite.
+Independent checks matched nine Weft input hashes, six historical Git blob hashes
+and 19 inert AST source segments. Two Linux CI workflows also passed the earlier
+review correction. Private Drive 16 MiB synthetic upload/readback passed separately.
+
+The published single-host NCBI update passed one fresh proxied HEAD. Git is missing
+from the initial numerical image; runtime revision qualification remains required.
+Neither draft contract, scientific acceptance, registry question IDs nor historical
+evidence was promoted by these checks.
+
+## 2026-10-11 — Candidate runtime qualified; source binding remains pending
+
+The separate cloud worker reports image
+sha256:253c1935ee7245153d8a4d88197e3f2b47055a2fcf743eaf4f00d255efde6ecc
+passed synthetic numerical, committed-source, Ravel runner and launcher-loss checks.
+Git2.47.3 and its official Debian dependencies were hash-verified from signed indexes;
+final build was offline. The existing committed pilot recipe is unchanged pending
+review of the prepared sanitized archive. Weft PR2 owns the detailed runtime receipt.
+
+That archive’s Drive export is awaiting direct user approval after automatic review
+rejected relayed authorization. No input download, biological computation, contract
+freeze or scientific acceptance occurred. Next: verify export/readback, bind the
+exact candidate runtime, freeze metadata-only execution and its manual checkpoint.
+
+## 2026-10-11 — Runtime export authorization boundary
+
+The owner approved the exact final archive export in the root chat, but automatic
+review denied the resulting child upload because that authorization arrived as
+relayed transcript evidence. No upload/readback occurred. The prepared image and
+archive remain preserved; the direct worker chat is available for owner approval.
+No retry, alternative transfer, biological work or contract freeze was performed.
+This documentation-only status correction does not invalidate the passing source
+and research-governance checks.
+
+## 2026-10-11 — Verified runtime binding and metadata freeze
+
+The exact approved runtime export passed worker and independent root readback,
+all manifest hashes and owner-only metadata. Preserved the archive contents in
+versioned runtime_git_v3 and retained the original runtime. Reviewed recipe,
+source checks and current-image watchdog; bound execution limits and froze only
+the metadata contract. Scientific methods, validators and interpretation limits
+are unchanged. Figure 1 remains draft until real-input/memory review.
+
+## 2026-10-11 — Metadata run reported verified; export hold retained
+
+The reviewed single attempt executed at90c02ba. Worker-reported verification,
+loader/resource measurements and result hashes are recorded in METADATA_STATUS.md.
+Direct worker approval for the earlier runtime archive did not cover the new
+64,399-byte evidence export; automatic review denied it. No retry or alternate
+route. Root result/memory review, after-run recovery and Figure1 remain gated.
+No numerical receipt is fabricated from the chat report. This status-only update
+preserves all frozen code/contracts and prior outputs.
+
+The subsequent after-run EXPORT_HELD checkpoint passed coordinator upload/readback
+and read-only restore plus independent root byte/ancestry/integrity checks. Exactly
+one attempt remains recorded; result evidence readback and Figure1 remain held.
+
+## 2026-10-12 — Figure1 execution report and export hold
+
+Codex recorded one worker-reported successful run of frozen b656d06, with the
+approved operational amendments and unchanged scientific files. The new evidence
+export was rejected by automatic review; prior approvals covered different archives.
+The analysis was not retried. Root verified the after-run held ledger checkpoint
+and recovery ancestry, while independent result receipt/table/figure review remains
+pending. These status-only changes create no new RQ, claim grade or partial receipt.
+
+The owner then approved the exact Figure1 payload directly in the existing worker.
+Its local archive/part recheck passed, but the cloud turn stopped at a usage limit
+before a complete verified transfer. Approval is retained; resumption requires
+original-worker and per-file/remote-outcome reconciliation, not an analysis rerun.
+The local Codex usage endpoint reporting availability does not clear the observed
+cloud-specific failure. No account switch, purchase or quota workaround was made.
+
+## 2026-10-12 — Choi Figure1 export recovery verified
+
+Codex synchronized the pilot README, Figure1 status and current handoff after the
+same cloud worker completed the approved multipart export. Root independently
+verified the exact archive, all 99 manifest entries, original numerical receipt
+hash, remote ownership and 27→30 checkpoint ancestry. Earlier failures and source
+pins remain preserved. This is documentation-only bookkeeping; no scientific
+source, contract, output, registry, claim, validator or acceptance decision changed.
+QC/figure interpretation and a complete-output publication route remain pending.
+
+Validation: unchanged research gate passed against origin/main bfe26b8;
+repository validation passed 11,135 checks. No numerical analysis was rerun.
+
+## 2026-10-12 — Choi P001 artifact-based scientific review
+
+At the owner's request, Codex reviewed the recovered frozen outputs without
+rerunning analysis. A read-only reader reconciled the original receipt, saved
+H5AD, counts, annotation tables and markers (1,497 assertions); all five figures
+were visually inspected against the audited Fig. 1 and S1/source methods.
+The [review](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/SCIENTIFIC_REVIEW.md)
+records missing pAT2, condition-dependent QC/exclusion, DATP subcluster retention,
+historical D2b differences and plot presentation/terminology limitations. No new
+RQ or mechanistic claim was proposed. The owner retains scientific authority.
+Frozen methods, contract, outputs, registry and validators were not modified;
+numerical receipt publication and human review remain open. No private payload
+or full paper was added to Git. The unchanged research gate and repository validator
+passed (11,149 checks); the original output hashes and frozen source remain intact.
+
+
+## 2026-10-12 — Choi complete-output publication and CI restoration
+
+The owner explicitly approved publishing the exact output-only ZIP as a public
+Ravel prerelease and qualifying its recovery/CI route. Codex used verified GitHub
+identity xorca0711, published the approved bytes at tag choi-p001-figure1-v1,
+verified draft download and unauthenticated public recovery, and preserved all
+15 outputs and the original receipt. Private recovery records were excluded.
+The release tag retains reviewed source 714945697b007f4a0046834b34251392c1cfbe5a;
+executed source b656d06 and numerical methods remain unchanged.
+
+PR #149 proposes a hash-locked bounded restorer, rejection/preservation tests,
+receipt registration and restoration before both existing CI suites. These are
+explicitly reviewable infrastructure changes; no validator semantics, historical
+contract, scientific grades or human acceptance decisions were modified. Large
+output bytes remain outside ordinary Git history. The private coordinator and
+B4 hold are unchanged. See the [publication record](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/PUBLICATION.md).
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-12 | Exact Choi output package public release and restoration qualification | Codex | Owner explicitly approved the named package, size and SHA-256 | Publish package; propose complete receipt and bounded CI restoration | Make every declared output recoverable without weakening the scientific gate or rerunning analysis |
+
+Initial Linux CI passed artifact restoration, then correctly rejected a
+comment-only `.gitignore` edit because that file is hash-bound by both Choi
+contracts. Codex restored its exact original bytes and retained the failed check
+history. No contract, receipt or validator was changed to accommodate the edit.
+Local qualification passed 158 tests (two host/optional skips) and 11,161
+repository checks; the unchanged research gate was rerun after the correction.
+
+| Date | Proposed output | Why rejected or changed | Rejected/changed by |
+|---|---|---|---|
+| 2026-10-12 | Clarify ignored-public-output comments in `.gitignore` | The file is frozen input/code provenance; even comment changes break its hash | Existing Linux CI rejected it; Codex restored the original exact bytes |
+
+## 2026-10-12 — Owner retention and integration decision
+
+After public recovery and all four clean-checkout checks passed, the owner
+explicitly selected “Retain the bounded result and merge both PRs,” referring to
+Ravel #149 and Weft #9. [The disposition](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/REVIEW_DISPOSITION.md)
+retains Choi as an adapted descriptive discrepancy benchmark, without a new RQ,
+causal claim or claim-grade promotion. This is recorded human authority rather
+than an inference from execution or publication. B4 and the private coordinator
+reservation remain held; no additional analysis or schedule is authorized.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-12 | Retain Choi descriptive benchmark and integrate Ravel #149 / Weft #9 | Codex presented review and passing qualification | Owner explicitly selected retention and merge | Retain only the bounded discrepancy record; approve both merges after current checks | Preserve recoverable unfavorable findings while rejecting exact-reproduction and causal interpretations |

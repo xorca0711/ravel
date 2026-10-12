@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Restore hash-locked published Choi outputs
+        run: python analysis/scripts/restore_published_outputs.py
       - name: Check research contracts and historical integrity
         run: python analysis/scripts/research_gate.py check
       - name: Check changed scientific assets

@@ -15,6 +15,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Restore hash-locked published Choi outputs
+        run: python analysis/scripts/restore_published_outputs.py
       - name: Compile Python sources
         run: python -m compileall -q -x '[/\\]\.tools[/\\]' analysis "Research Article" RQ_Specified
       - name: Test evidence and provenance contracts

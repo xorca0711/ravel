@@ -1,5 +1,147 @@
 # Current project state
 
+## Choi M5 — published complete outputs and proposed CI restoration — 12 October 2026
+
+The owner approved the exact 105,582,086-byte output package as a public Ravel
+prerelease. [Publication and restoration](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/PUBLICATION.md)
+records tag/source/asset identities and hashes. Draft readback and independent
+unauthenticated public recovery passed. All 15 unchanged outputs are available,
+and the original numerical receipt is registered in this PR with a checked-in
+asset lock. Both CI workflows restore bytes before existing scientific checks.
+The research validator, frozen methods and output bytes are unchanged.
+
+The owner subsequently [retained the bounded descriptive benchmark](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/REVIEW_DISPOSITION.md)
+and approved merging Ravel #149 and Weft #9 after their passing clean-checkout
+checks. No new RQ, causal claim or claim-grade promotion is approved. No biological
+rerun, coordinator transition or reservation release occurred. B4 is still held.
+Verify CI for the disposition update before merging; reconcile the existing
+private coordinator before any subsequent job. Weft owns the merge receipt and
+next backend roadmap state.
+
+Local qualification passed 158 tests (two host/optional skips) and 11,161
+repository checks. Initial Linux CI restored the archive successfully but caught
+a comment-only `.gitignore` change bound by the frozen Choi contracts. The exact
+original bytes were restored; contracts and validators were not edited. Fresh
+CI passed this correction on both push and PR workflows.
+
+## Historical Weft P001 — scientific QC and paper comparison reviewed — 12 October 2026
+
+[Scientific review](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/SCIENTIFIC_REVIEW.md)
+reconciles all 15 original outputs with the saved H5AD (1,497 assertions), inspects
+all five PNGs and compares Fig. 1B-D/S1 with the audited paper. No analysis reran.
+The 11,683 post-doublet cells yield 10,399 composition cells after 1,284 pipeline
+contaminant labels. Four states are recovered; pAT2 remains absent. Day-28
+exclusions (28.06%), strong resolution dependence and 520/917 DATP cells retained
+despite hAT2 subcluster labels restrict interpretation. Coarse injury-associated
+patterns agree, but this is not exact five-state or mechanistic reproduction.
+
+No new RQ, claim promotion or human decision. A0/A1 limits remain unchanged.
+Next: review the findings and choose/qualify complete-output publication, including
+the 385,675,968-byte H5AD. Keep PR #149 draft and the original numerical receipt
+unregistered. The private coordinator's last verified 30-event checkpoint and
+reservation were not changed by this local review. Research gate and 11,149
+repository checks passed; private audit copies and frozen outputs are preserved.
+
+## Historical Weft P001 checkpoint — export independently verified; scientific review pending — 12 October 2026
+
+The existing cloud worker completed the original approved export without rerunning
+analysis. Worker and independent root downloads/reconstruction verified all 26
+parts, the transfer manifest, the exact 105,848,914-byte archive, ZIP CRC and all
+99 manifest entries. The original numerical receipt is unchanged. Root verified
+all 27 Drive files' sizes, original folder and owner-only permissions, plus the
+final 30-event checkpoint and unchanged two scientific rows through fresh read-only
+restoration. Earlier approval, usage, disconnect and optional streaming-proxy
+failures remain preserved; no network settings or frozen source changed.
+
+[Figure1 status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/FIGURE1_STATUS.md)
+links exact verification evidence. Next: review receipt/QC/denominators/markers
+and figures, write bounded discrepancies and candidate/no-candidate conclusions,
+and review a durable publication route for every declared output, including the
+385,675,968-byte H5AD. No numerical receipt is partially registered, validator
+weakened, claim promoted or scientific acceptance inferred from archive integrity.
+
+## Historical P001 execution and initial export hold — 12 October 2026
+
+The single Figure1 attempt at frozen b656d06 executed under the approved 8 GiB cap.
+The worker reports exit 0/no OOM, 196.03 seconds, 2,448,296 KiB peak process RSS,
+11,683 post-QC cells and absent final pAT2. Original worker-side verification passed;
+independent result readback and figure review remain pending. These descriptive
+reports do not establish animal-level effects or scientific acceptance.
+
+[Figure1 status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/FIGURE1_STATUS.md)
+records the exact archive and next steps. Automatic review rejected the new
+105,848,914-byte export because earlier approvals covered different archives.
+There were no successful uploads or retries. Root verified the separate 24-event
+EXPORT_HELD checkpoint and its unchanged 21-event parent prefix. Before execution,
+stale coordinator state required explicit operator recovery after exact worker
+reconciliation; the old state remains preserved and its cause is unknown.
+
+The owner subsequently approved this exact export directly in the worker. After
+rechecking archive/part hashes, the cloud turn failed at its usage limit. Next:
+restore execution access, reconcile upload receipts and remote metadata, resume
+the same export without duplicates, then receipt/member verification, QC and
+figure review and a bounded
+discrepancy and candidate/no-candidate report. Preserve all frozen files; do not
+rerun the job or weaken receipt checks for publication. Metadata remains independently
+verified. No new RQ, claim promotion or merge.
+
+## P001 root review corrections — 11 October 2026
+
+Corrected d779520's overwritten resolution-state dictionary and explicitly checked
+metadata cross-library feature ID/order. Added final-state and library/timepoint
+UMAPs; retained counts as qc_cell_counts.png. These are adapted descriptive panels;
+Figure 1D detection fractions are not the published expression heatmap. Primary
+Leiden 1.0 is analyst-fixed/predeclared. No methods or thresholds were tuned.
+Thirteen targeted synthetic tests passed (1.504 s), including describe tables,
+plots and JSON with absent pAT2/unassigned/contaminants. Synthetic coordinates
+and conditional DATP graph mocks are disclosed. Source/output bindings updated;
+both contracts remain draft. Earlier failure/Drive evidence preserved.
+The published NCBI-only update awaits independent readiness review; no network
+check or active-runtime change here. Before execution root must review code and
+watchdog, complete repository checks, establish independent input readiness and
+loader-memory acceptance, freeze contracts, and bind manual backup/job receipts.
+No biological download, loader benchmark or analysis was performed.
+
+## Weft P001 root review — 11 October 2026
+
+The complete unchanged research gate passes on Windows against origin/main at
+bfe26b8, after preserving exact bytes in the new pilot only. Root independently
+verified all nine selected input hashes, six historical source blobs and 19 inert
+method extracts. Review corrected per-resolution state summaries, added adapted
+state/library UMAP panels and explicit cross-library feature-order checks.
+
+The approved NCBI-only environment update is published; a fresh cloud HEAD returned
+HTTP 200 with the expected 349,204,480 bytes. The earlier worker's proxy 403 remains
+a historical observation. The committed numerical recipe still lacks Git. A separately prepared Git-equipped
+image has now passed synthetic numerical, source-commit, runner and launcher-loss
+checks. The owner approved its exact sanitized archive export in the root chat,
+but the executing cloud worker's automatic review rejected the forwarded approval
+as untrusted transcript evidence. No upload/readback occurred; direct user approval
+in that existing worker chat is now required. No retry or alternate transfer is underway.
+Review and bind that exact recipe/lock before either draft contract is frozen. No biological data or analysis
+has run in this new pilot. See [the pilot](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md).
+
+## Weft P001 source preparation — 11 October 2026
+
+Owner authorized a new draft metadata/sparse-loader stage and a separate exposed
+descriptive Choi Figure 1B-D adapter under
+[weft_pilot_v1](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md),
+owned by A0 with A1 context. Nine input hashes, inert frozen D1/D2/D2b helpers,
+exact numerical lock and independent worker watchdog proof are bound. Fixed primary
+Leiden1.0 and declared sensitivities do not tune toward five states. Contracts remain
+draft pending root review/checkpoint; no biological download, loader benchmark or
+analysis occurred. Historical evidence, validators, claims and policies unchanged.
+
+The exact provider HEAD was blocked by the proxy (403 tunnel). Root must review
+code/watchdog, request concrete provider access if needed, independently verify
+triplets and loader peak memory, then freeze and bind one manual checkpointed job.
+Private backup locators and identities stay outside public scientific receipts.
+Validation: 11 targeted synthetic tests and both source/schema preflights passed;
+each real-input preflight holds on nine absent triplets. The scoped commit is
+recorded in the handoff. Synthetic tests establish
+software behavior only, not biological acceptance or animal-level precision.
+
+
 **Update this before stopping work, every session.**
 
 ## README follow-up — 7 October 2026
@@ -95,3 +237,18 @@ The merged [readiness audit](docs/audits/2026-10-07-repository-readiness/REPORT.
 retains the prior correction and 10,762-check checkpoint. Its PR-open wording
 is historical. Earlier long progress remains at the
 [pre-audit revision](https://github.com/xorca0711/ravel/blob/cc5ce7e09bc03df49a982569236d572407ecb195/PROGRESS.md).
+
+### P001 cross-platform byte binding correction
+
+Root full tracked Windows checkout reported exactly 56 new pilot code-hash
+errors from CRLF conversion and zero unrelated errors. Added only the quoted
+pilot subtree -text/whitespace=cr-at-eol rule; historical files, contracts,
+validator semantics and global EOL policy unchanged. Six unused legacy modules
+now retain exact pinned Git blob identities/SHA-256 and all 19 extraction hashes
+as historical provenance, rather than live runtime code bindings. Actual inert
+helper/config/test/recipe/lock bindings remain exact. Both contracts remain draft.
+Root will rematerialize clean pilot blobs and rerun the unchanged full gate.
+
+Numeric image tool check: GNU timeout 9.7 available; git --version fails 127
+(git not found). Execution remains HOLD pending a reviewed/qualified image with
+git for unchanged committed-source checks. No bypass or image alteration.

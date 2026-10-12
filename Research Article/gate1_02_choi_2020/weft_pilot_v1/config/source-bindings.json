@@ -1,0 +1,206 @@
+{
+  "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+  "extracts": [
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "PAPER_FILTER",
+      "segment_sha256": "594998a2895e03a985244a078f4ab8c53b7deac07c66d66855b5591cbf987f2b"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "FLOOR_FILTER",
+      "segment_sha256": "115a52679cf4920db1ac8404f9d332e79b077e29ae7ddff261ad4c9f5eeaeeb8"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "PAPER_SCRUBLET",
+      "segment_sha256": "86b42510364ad784dd271a561b69194d7f57ba414956b89642aa5766fea7fb98"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "STATE_SETS",
+      "segment_sha256": "a7bd839c041e50d3f6c1e88fe879d7db408bf91b1b180aadb2cc86b531ce5ce6"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "CONTAMINANT_SETS",
+      "segment_sha256": "d5380cd6b777864ddcca6436c5e0d9a5035c7911992a0bbc85c1037ac0239171"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "STATE_ORDER",
+      "segment_sha256": "3b8e7c50be511ece81bd0930651f8b276bdae8882019dc956610138609767b63"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "ANNOTATION_THRESHOLDS",
+      "segment_sha256": "bae87fb35785f80a5d667202593f5f3dbd027b7a3598a13ad8d4f753b742e19d"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "RESOLUTIONS",
+      "segment_sha256": "f657f935595cd7e37321d179eeb568dcdd7f58816bd7aaf90bd30c7f79286ed1"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "detection",
+      "segment_sha256": "a1c08c91a754c3fa58d9a86f7f02fe4077d60dc10febb407fd058415fe95c73a"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "cluster_detection_table",
+      "segment_sha256": "fcc88ea73298d9c3a30f9e8bd41514a2128d644d77245b44d418777ce14bf69f"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "annotate_clusters",
+      "segment_sha256": "10c8913df9196c13417733d6c1b573148d348265c57bc78858c57b066f5ae241"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "annotate_clusters_b",
+      "segment_sha256": "053f072212752b090c480adba2c2be916e99b8a2c2a074349b0382e45dc58b5f"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "dispersed_presence",
+      "segment_sha256": "c5b959f642a0f1c8fd99d7ebc22dbb217b68e86da08acea2751eaaa256e883bf"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "mad_bounds",
+      "segment_sha256": "768019cd4a1209460ede94a683084056de255a61f7ec74fff953afa94755c886"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "legacy_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "name": "same_library_enrichment",
+      "segment_sha256": "6a4b7cc03021856924f94045e1d2b99709ba78004d8a654ff77c0420fa6af1a1"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc.py",
+      "legacy_sha256": "365c2bbb8fa6553e051cf37f7786835ced8416b3c3def43a7bf4e0c93c07a40d",
+      "name": "RULES",
+      "segment_sha256": "81cf5943f61cf93d4c0b1fa5292566137c9f1142ecd628d7a28f1f7f598edae0"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc.py",
+      "legacy_sha256": "365c2bbb8fa6553e051cf37f7786835ced8416b3c3def43a7bf4e0c93c07a40d",
+      "name": "call_and_qc",
+      "segment_sha256": "74777a9191eb64cd99ec4562c0ee6ac39842d3c3056a4a675630f63a88ccd00f"
+    },
+    {
+      "legacy_path": "Research Article/gate1_02_choi_2020/trials/d2_state_recovery.py",
+      "legacy_sha256": "bb81b73e2ccd5086a859a6936ed1ffb13931ed04b0a6f9dfaa48e6249967362a",
+      "name": "embed",
+      "segment_sha256": "203889a6b1cdb39fb4e779fc93aa646ddab5c482f98909634ead7ba17a974c09"
+    },
+    {
+      "legacy_path": "Research Article/gate1_04_sikkema_2023_hlca/trials/trial_utils.py",
+      "legacy_sha256": "b845f0af123b50f3ad4e550dbc7e7dce533402ca97c41118293f266c3a14d367",
+      "name": "qc_metrics",
+      "segment_sha256": "aecbb403eb83df5dad7508c989351cbaf3523a912bdddaa3fd57bcd9cdab7d71"
+    }
+  ],
+  "D2b_conditional_block": "d2b_corrected_annotation.py main, DATP subclustering only when pAT2 absent and DATP present; neighbors 30, igraph 0.5, n_iterations 2, seed 0; restrict relabel to pAT2/DATP",
+  "review_corrections": {
+    "base_commit": "d779520f58c8b0fb1f36d4c471390c74ccaec139",
+    "adapter_sources": {
+      "figure1.py": "6b0707f6ef95193ffc0a0019c607e77f9e9f8a137a1e96ee357dfebc7068fc4f",
+      "metadata.py": "699c9766bc00c18f85a8cbb5dad6f6d511bffeb6aef77733f44e28b1a57f63ab",
+      "test_synthetic.py": "e5b13bac40bb92240ba46c6baa268f72b103e37ec975d91163d079b0b59018f3"
+    },
+    "synthetic_describe_output_sha256": {
+      "cell_states.csv": "d4b249853c2fc5de98af1ebaeaeddb7f91a258af269fcec49d497a4143a102dc",
+      "clusters_0.3.csv": "eab0876512ad842b90ed87ead90cc6bd91c8b6b25d629905816cd30bbb3badfe",
+      "clusters_0.5.csv": "eab0876512ad842b90ed87ead90cc6bd91c8b6b25d629905816cd30bbb3badfe",
+      "clusters_1.0.csv": "eab0876512ad842b90ed87ead90cc6bd91c8b6b25d629905816cd30bbb3badfe",
+      "composition.csv": "ac7f2430c12aa03e3e4de998c6386225fa20ace692b6f5609542d6b8d596ae39",
+      "datp_subclusters.csv": "f85a7d94d28b879e97c324484b2677dfce4d4978ba6a68b39d91344f16bfdce2",
+      "descriptive-summary.json": "172c7c4218d9f8f3865e0051cc746273e5f0af72a6e08873051e3e141ea69ce1",
+      "figure1B_state_umap.png": "8a48c5266135cda4fac9f9b22bb616fa1a2f6efe5f0c0d42a7a4909dc0fafaeb",
+      "figure1C_composition.png": "2345c8a5f003900c8740c9b93c296f91d76ed5d9d1f46a9e9b4364ee66e6d87f",
+      "figure1D_marker_detection.png": "761210df3be0c83c9ab65cacd670fb5d41b52ead6feee94b504bde1f93a2dcfa",
+      "marker_evidence.csv": "e817911fe6f4ff0cf14599404939eac2bec5b13937b1622c2597d20c80f1adb1",
+      "qc_cell_counts.png": "033dbcbd29b6b4a3acaaf329e3f283b566cfc975e092ceef4832e92d13d2b1c7",
+      "qc_library_timepoint_umap.png": "b0a4dc3664dca5024a1e73c7b3c07d7192f38a6a159a987814d8e3947ee5a36e"
+    },
+    "output_scope": "synthetic fixture only; biological outputs absent; figure1B state UMAP, counts QC diagnostic, figure1D detection not expression",
+    "graph_scope": "synthetic coordinates/connectivities, conditional DATP neighbors/Leiden mocked; annotation/tables/plots/serialization real"
+  },
+  "historical_sources": [
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/choi_utils.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "b159af0e6221e23a09bb1c9b58e1edb4c86b507b",
+      "git_object_format": "sha1",
+      "blob_sha256": "3390fbd1a6a767dbcbcf12ad1761c3e023a87f4088d9840c0148232b7df37ff5",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d1_cells_and_qc.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "4949652bcba34ec25f83b13a9719e4ac99586dab",
+      "git_object_format": "sha1",
+      "blob_sha256": "365c2bbb8fa6553e051cf37f7786835ced8416b3c3def43a7bf4e0c93c07a40d",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2_state_recovery.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "f708d454369f73b434044aeae19a01222145102c",
+      "git_object_format": "sha1",
+      "blob_sha256": "bb81b73e2ccd5086a859a6936ed1ffb13931ed04b0a6f9dfaa48e6249967362a",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "13a4b4048a0ca311e338638ac636625da47b1871",
+      "git_object_format": "sha1",
+      "blob_sha256": "29e1bd7a6ba589ec49cd23a27d9b471a90c89f854d7ea6ef688c4f9af9e9ee43",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "Research Article/gate1_04_sikkema_2023_hlca/trials/trial_utils.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "5b23be220c44537f079e5e5b2d896504d9cfdaa2",
+      "git_object_format": "sha1",
+      "blob_sha256": "b845f0af123b50f3ad4e550dbc7e7dce533402ca97c41118293f266c3a14d367",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    },
+    {
+      "path": "analysis/lib/provenance.py",
+      "source_commit": "bfe26b876221cf6c6fa6f9b16a90cfb516b5998d",
+      "git_blob_oid": "291eb340832fd76e2a72ab3688950e4d11e83800",
+      "git_object_format": "sha1",
+      "blob_sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556",
+      "role": "historical provenance only; not imported or read by pilot runtime"
+    }
+  ],
+  "additional_legacy_provenance": [
+    {
+      "path": "Research Article/gate1_02_choi_2020/trials/d2b_corrected_annotation.py",
+      "sha256": "29e1bd7a6ba589ec49cd23a27d9b471a90c89f854d7ea6ef688c4f9af9e9ee43"
+    },
+    {
+      "path": "analysis/lib/provenance.py",
+      "sha256": "ead2ad9d5550207e87b366e241c265d2d9d489fe9e7b977af2b342ea0b4f5556"
+    }
+  ],
+  "binding_policy": "Live contracts bind inert frozen_methods.py and actual pilot helpers/configs/tests/runtime materials. Legacy files are identified by pinned Git blobs and unchanged extraction hashes; no checkout-EOL-dependent runtime binding."
+}

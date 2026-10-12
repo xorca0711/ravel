@@ -867,7 +867,9 @@
     "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A11.g1_paired_prediction_v1.json",
     "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A17.g1_ascertainment_v1.json",
     "analysis/portfolio_extensions/2026-10-07/g3_immune/a25_region_occupancy_v1.json",
-    "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A11.g1_capacity_qualification_v1.json"
+    "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A11.g1_capacity_qualification_v1.json",
+    "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/metadata.contract.json",
+    "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/figure1.contract.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -939,7 +941,9 @@
     "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/receipt.json",
     "analysis/research/runs/a25_region_occupancy_v1/receipt.json",
     "analysis/research/runs/g1_a11_paired_prediction_v1/receipt.json",
-    "analysis/research/runs/g1_a11_capacity_qualification_v1/receipt.json"
+    "analysis/research/runs/g1_a11_capacity_qualification_v1/receipt.json",
+    "analysis/research/runs/p001_metadata_v1_a001_5ed0581f8b1e4a51/receipt.json",
+    "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
@@ -953,7 +957,10 @@
     "analysis/research/contract.schema.json",
     "analysis/research/contract.template.json",
     "Research Article/ROADMAP.json",
-    "analysis/lib/research_layout.py"
+    "analysis/lib/research_layout.py",
+    "analysis/scripts/restore_published_outputs.py",
+    "analysis/tests/test_published_output_restore.py",
+    "analysis/research/published_outputs/choi_figure1_v1.json"
   ],
   "question_guides": [
     {
