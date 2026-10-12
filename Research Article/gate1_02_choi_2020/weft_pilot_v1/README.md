@@ -9,14 +9,20 @@ or biological interpretation is claimed.
 The metadata contract is **frozen** after [runtime review](RUNTIME_REVIEW.md);
 the descriptive contract is **frozen** after root review. Figure1 subsequently
 executed once under the selected 8 GiB amendment. Its complete archive passed
-independent byte verification; scientific and figure review remain pending. The
-analysis must not be rerun.
+independent byte verification. [Scientific and figure review](SCIENTIFIC_REVIEW.md)
+is complete, with annotation and denominator limitations; publication and human
+review remain open. The analysis must not be rerun.
 
 ## Current execution status
 
 [Figure1 status](FIGURE1_STATUS.md) distinguishes the successful worker report
-from completed artifact readback and pending scientific review. The worker reports 196.03 seconds, approximately
-2.33 GiB peak process RSS and 11,683 post-QC cells; final pAT2 was absent.
+from completed artifact readback and scientific review. Saved-matrix/table audit
+confirms 11,683 post-QC cells, 10,399 non-contaminant cells and absent pAT2. The
+worker reports 196.03 seconds and approximately 2.33 GiB peak process RSS. Day-28
+contaminant labels and DATP subcluster heterogeneity limit interpretation; no new
+RQ or mechanism is proposed. Published Fig. 1D is a relative-expression/detection
+dot plot; the pilot emits a marker-set detection heatmap. The review corrects
+earlier plot-type wording while leaving frozen source/contract bytes intact.
 After the owner approved the exact archive, the same worker completed all parts.
 Root independently verified reconstruction, all 99 entries and the final 30-event
 checkpoint. Earlier holds and their recovery ancestry remain preserved.

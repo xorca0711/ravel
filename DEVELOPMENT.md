@@ -2830,3 +2830,18 @@ QC/figure interpretation and a complete-output publication route remain pending.
 
 Validation: unchanged research gate passed against origin/main bfe26b8;
 repository validation passed 11,135 checks. No numerical analysis was rerun.
+
+## 2026-10-12 — Choi P001 artifact-based scientific review
+
+At the owner's request, Codex reviewed the recovered frozen outputs without
+rerunning analysis. A read-only reader reconciled the original receipt, saved
+H5AD, counts, annotation tables and markers (1,497 assertions); all five figures
+were visually inspected against the audited Fig. 1 and S1/source methods.
+The [review](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/SCIENTIFIC_REVIEW.md)
+records missing pAT2, condition-dependent QC/exclusion, DATP subcluster retention,
+historical D2b differences and plot presentation/terminology limitations. No new
+RQ or mechanistic claim was proposed. The owner retains scientific authority.
+Frozen methods, contract, outputs, registry and validators were not modified;
+numerical receipt publication and human review remain open. No private payload
+or full paper was added to Git. The unchanged research gate and repository validator
+passed (11,149 checks); the original output hashes and frozen source remain intact.

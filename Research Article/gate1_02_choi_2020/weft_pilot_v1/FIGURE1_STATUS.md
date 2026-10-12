@@ -1,6 +1,7 @@
 # Figure1 execution status — 12 October 2026
 
-**Evidence export and independent byte verification complete; scientific review pending.**
+**Artifact QC and scientific/figure interpretation review complete; publication and human review remain open.**
+See the [scientific review](SCIENTIFIC_REVIEW.md) for verified denominators, paper comparison, annotation limits and the no-new-RQ disposition.
 The same frozen source b656d06 and original contract were used once, under Weft's
 explicit 8 GiB resource and 4 MiB transfer amendments. No methods were changed.
 Run: `p001_figure1_v1_f001_d56ee41e13cd4327`.
@@ -11,9 +12,11 @@ different measurement scope and may miss peaks. Direct cgroup files were
 inaccessible. Terminal PID was 0 and all three captured process identities were
 absent. The original Ravel result verifier passed in the worker.
 
-Reported post-QC cells: PBS 4,319; day 14 3,790; day 28 3,574; total 11,683.
-Final pAT2 was absent. These are **worker reports, not independently verified
-scientific results**. The output tables and images remain unreviewed by root.
+Independent saved-matrix/table reconciliation confirms post-QC cells: PBS 4,319;
+day 14 3,790; day 28 3,574; total 11,683. All 1,497 audit assertions passed and all
+five figures were inspected. Final pAT2 was absent; 1,284 contaminant-labelled cells
+leave 10,399 cells in composition denominators. Day-28 exclusions and DATP
+subcluster heterogeneity materially limit state interpretation.
 Each timepoint is one pooled library; these descriptive outputs cannot establish
 animal-level treatment effects, lineage or a mechanism. No claim grade or RQ changed.
 
@@ -38,8 +41,9 @@ disconnects remain historical evidence rather than current transfer blockers.
 The final recovery checkpoint passed independent verification at 144,270 bytes,
 SHA-256 `c8ac521d56b683517d6a5db84e4fcc3b74bf3cd8d2b28ee76cd34e5ca91cdc27`.
 The 27→28→29→30 event prefixes, same two scientific rows, database/schema/integrity
-and fresh read-only restores all matched. The same reservation remains held for
-scientific review; byte integrity does not establish biological validity.
+and fresh read-only restores all matched. The checkpoint records a reservation held for scientific review. The subsequent
+local scientific review has not modified or released that coordinator reservation;
+byte integrity and agent review do not establish biological validity or acceptance.
 
 Historical recovery context: Root independently verified the separate after-run ledger backup, its unchanged
 21-event parent prefix, all 24 events, two scientific rows including the earlier
@@ -55,11 +59,11 @@ is unknown and persistent coordinator storage is not guaranteed.
 owns packet, recovery and transfer evidence. [Earlier preparation](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/records/choi-figure1-resumed-preparation-20261011.json)
 preserves the mount failure, disk hold and owner-approved cleanup.
 
-Next: review the original receipt's scientific interpretation, reconcile
-QC/denominator/marker tables, inspect the figures, and resolve publication of
-every declared output under existing governance. Then record the bounded
-discrepancy and candidate/no-candidate review. Do not rerun analysis, fabricate a
-partial receipt, weaken validators or mark scientific review complete.
+Next: review the documented scientific limitations and qualify durable publication
+of every declared output under existing governance. The bounded discrepancy and
+no-new-RQ review are complete; no scientific acceptance or coordinator-ledger
+transition is implied. Do not rerun analysis, fabricate a partial receipt or weaken
+validators. Keep the numerical receipt unregistered and PR #149 draft.
 
 ## Publication dependency
 
@@ -69,4 +73,4 @@ Ravel's unchanged receipt validator requires every declared output to be availab
 and hash-matched. With independent archive recovery complete, choose and review a durable
 publication route before registering this numerical receipt in a clean-clone CI
 workflow. No large file was force-added, LFS storage enabled, frozen output omitted
-or validator weakened. Private archive recovery is complete; publication and scientific review remain open.
+or validator weakened. Private archive recovery and agent scientific review are complete; publication and human review remain open.

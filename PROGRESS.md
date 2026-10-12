@@ -1,6 +1,24 @@
 # Current project state
 
-## Weft P001 — export independently verified; scientific review pending — 12 October 2026
+## Weft P001 — scientific QC and paper comparison reviewed — 12 October 2026
+
+[Scientific review](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/SCIENTIFIC_REVIEW.md)
+reconciles all 15 original outputs with the saved H5AD (1,497 assertions), inspects
+all five PNGs and compares Fig. 1B-D/S1 with the audited paper. No analysis reran.
+The 11,683 post-doublet cells yield 10,399 composition cells after 1,284 pipeline
+contaminant labels. Four states are recovered; pAT2 remains absent. Day-28
+exclusions (28.06%), strong resolution dependence and 520/917 DATP cells retained
+despite hAT2 subcluster labels restrict interpretation. Coarse injury-associated
+patterns agree, but this is not exact five-state or mechanistic reproduction.
+
+No new RQ, claim promotion or human decision. A0/A1 limits remain unchanged.
+Next: review the findings and choose/qualify complete-output publication, including
+the 385,675,968-byte H5AD. Keep PR #149 draft and the original numerical receipt
+unregistered. The private coordinator's last verified 30-event checkpoint and
+reservation were not changed by this local review. Research gate and 11,149
+repository checks passed; private audit copies and frozen outputs are preserved.
+
+## Historical Weft P001 checkpoint — export independently verified; scientific review pending — 12 October 2026
 
 The existing cloud worker completed the original approved export without rerunning
 analysis. Worker and independent root downloads/reconstruction verified all 26
