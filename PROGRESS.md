@@ -1,6 +1,29 @@
 # Current project state
 
-## Choi M5 — published complete outputs and proposed CI restoration — 12 October 2026
+## Weft trial intake and Choi dossier relocation — 12 October 2026
+
+The owner requested a separate collection of reviewed Weft materials and migration
+of Choi's trial dossier. [Weft intake](weft_intake/README.md) now contains three
+scientific documents and five byte-identical public review/input receipt snapshots,
+with a manifest recording original and transferred hashes. Weft retains navigation
+stubs, operational records and historical receipt ancestry. No raw dataset,
+restricted full text or private recovery record was moved or published.
+
+Ravel's root README identifies this as an ongoing trial integration and links
+the frontend/backend map. Its research mission, RQs and existing hierarchy are
+unchanged. Frozen Choi scripts, contracts, receipts, figures and matrix paths
+remain untouched. Ravel #149 is merged at
+`34675134a5581989d028102a93ae51eebc84a501` with both main CI checks passed; the
+owner retained only the descriptive discrepancy benchmark. No analysis reran.
+
+Validation passed: eight transferred files match their staged hashes, five
+receipt snapshots match Weft bytes, six canonical evidence blobs are unchanged,
+intake links resolve, 11,199 repository checks pass and the unchanged research
+gate passes against main. Clean-checkout CI remains the integration check.
+Keep B4 held and reconcile the private coordinator before any future job.
+The primary local checkout's unrelated changes remain preserved.
+
+## Historical Choi M5 publication preparation — 12 October 2026
 
 The owner approved the exact 105,582,086-byte output package as a public Ravel
 prerelease. [Publication and restoration](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/PUBLICATION.md)
