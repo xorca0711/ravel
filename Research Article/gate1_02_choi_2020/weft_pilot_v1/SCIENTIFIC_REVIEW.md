@@ -4,8 +4,9 @@
 The recovered run is internally consistent, but does not recover the paper's
 five-state partition or establish its mechanism. No analysis was rerun, label
 changed, output redrawn, claim grade promoted or human acceptance recorded.
-The complete numerical receipt remains unregistered pending the
-[publication dependency](FIGURE1_STATUS.md#publication-dependency).
+[Complete-output publication](PUBLICATION.md) subsequently passed independent
+public recovery. PR #149 now proposes registration of the unchanged numerical
+receipt with restoration before CI; integration and human review remain open.
 
 ## Scope and evidence
 
@@ -200,11 +201,12 @@ require a new amended analysis and exposure record; none ran here. Independent
 biological units or appropriate perturbation/lineage assays are needed for effects
 or mechanisms, and cannot be supplied by additional clustering of these libraries.
 
-The immediate remaining engineering decision is durable availability of **all**
-15 outputs, including the 385,675,968-byte H5AD, under the unchanged receipt
-validator. Keep PR #149 draft and the numerical receipt unregistered until that
-route and the review are resolved. Private recovery is verified. No partial receipt,
-automatic acceptance, new dispatch, scheduling or reservation release follows.
+All **15** outputs, including the 385,675,968-byte H5AD, now have a
+[public release and verified recovery route](PUBLICATION.md). PR #149 proposes
+the unchanged original receipt's registration and hash-locked CI restoration.
+Engineering integration and human scientific review remain open. No partial
+receipt, automatic acceptance, new dispatch, scheduling or reservation release
+follows from publication.
 
 ## Exact audit anchors
 

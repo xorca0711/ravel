@@ -147,6 +147,7 @@ analysis/research/runs/wp_compass_sensitivity_v1*/pool_expression.tsv
 # Wp generated figure PDFs are receipt-declared outputs; source papers stay ignored.
 !analysis/research/runs/wp_figures_v1/*.pdf
 
-# New checkpointed P001 attempt outputs stay private/ignored until reviewed.
+# P001 output directories stay ignored; reviewed receipts are explicitly tracked.
+# Published Figure1 outputs restore from the hash-locked release before CI.
 /analysis/research/runs/p001_metadata_v1_*/
 /analysis/research/runs/p001_figure1_v1_*/

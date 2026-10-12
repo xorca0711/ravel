@@ -1,6 +1,7 @@
 # Figure1 execution status — 12 October 2026
 
-**Artifact QC and scientific/figure interpretation review complete; publication and human review remain open.**
+**Artifact QC, scientific/figure interpretation and complete-output publication/recovery are complete; integration and human review remain open.**
+See [publication and CI restoration](PUBLICATION.md) for the separate M5 engineering step.
 See the [scientific review](SCIENTIFIC_REVIEW.md) for verified denominators, paper comparison, annotation limits and the no-new-RQ disposition.
 The same frozen source b656d06 and original contract were used once, under Weft's
 explicit 8 GiB resource and 4 MiB transfer amendments. No methods were changed.
@@ -59,13 +60,20 @@ is unknown and persistent coordinator storage is not guaranteed.
 owns packet, recovery and transfer evidence. [Earlier preparation](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/records/choi-figure1-resumed-preparation-20261011.json)
 preserves the mount failure, disk hold and owner-approved cleanup.
 
-Next: review the documented scientific limitations and qualify durable publication
-of every declared output under existing governance. The bounded discrepancy and
-no-new-RQ review are complete; no scientific acceptance or coordinator-ledger
-transition is implied. Do not rerun analysis, fabricate a partial receipt or weaken
-validators. Keep the numerical receipt unregistered and PR #149 draft.
+Next: review the proposed complete-output receipt/CI integration in PR #149 and
+the documented scientific limitations. Publication and independent recovery are
+verified, with no rerun or validator change. The bounded discrepancy and
+no-new-RQ review remain unchanged; no scientific acceptance or coordinator-ledger
+transition is implied.
 
 ## Publication dependency
+
+**Resolved by the owner-approved [release route](PUBLICATION.md).** All 15
+original outputs and the unchanged receipt are available; public recovery passed.
+The new restoration mechanism supplies bytes before the existing validator.
+PR integration and human scientific review remain separate.
+
+Historical dependency, preserved for provenance:
 
 The worker's inventory reports a 385,675,968-byte H5AD output. This exceeds
 [GitHub's ordinary 100 MiB file limit](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).

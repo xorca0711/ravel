@@ -1,6 +1,23 @@
 # Current project state
 
-## Weft P001 — scientific QC and paper comparison reviewed — 12 October 2026
+## Choi M5 — published complete outputs and proposed CI restoration — 12 October 2026
+
+The owner approved the exact 105,582,086-byte output package as a public Ravel
+prerelease. [Publication and restoration](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/PUBLICATION.md)
+records tag/source/asset identities and hashes. Draft readback and independent
+unauthenticated public recovery passed. All 15 unchanged outputs are available,
+and the original numerical receipt is registered in this PR with a checked-in
+asset lock. Both CI workflows restore bytes before existing scientific checks.
+The research validator, frozen methods and output bytes are unchanged.
+
+PR #149 remains separate and requires engineering review/integration and human
+scientific disposition. No new RQ or claim grade, biological rerun, coordinator
+transition or reservation release occurred. B4 is still on hold. Next: confirm
+clean-checkout CI, review the restoration mechanism and documented scientific
+limits, then record integration and scientific decisions separately. Reconcile
+the existing private coordinator before any subsequent job.
+
+## Historical Weft P001 — scientific QC and paper comparison reviewed — 12 October 2026
 
 [Scientific review](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/SCIENTIFIC_REVIEW.md)
 reconciles all 15 original outputs with the saved H5AD (1,497 assertions), inspects

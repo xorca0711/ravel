@@ -942,7 +942,8 @@
     "analysis/research/runs/a25_region_occupancy_v1/receipt.json",
     "analysis/research/runs/g1_a11_paired_prediction_v1/receipt.json",
     "analysis/research/runs/g1_a11_capacity_qualification_v1/receipt.json",
-    "analysis/research/runs/p001_metadata_v1_a001_5ed0581f8b1e4a51/receipt.json"
+    "analysis/research/runs/p001_metadata_v1_a001_5ed0581f8b1e4a51/receipt.json",
+    "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
@@ -956,7 +957,10 @@
     "analysis/research/contract.schema.json",
     "analysis/research/contract.template.json",
     "Research Article/ROADMAP.json",
-    "analysis/lib/research_layout.py"
+    "analysis/lib/research_layout.py",
+    "analysis/scripts/restore_published_outputs.py",
+    "analysis/tests/test_published_output_restore.py",
+    "analysis/research/published_outputs/choi_figure1_v1.json"
   ],
   "question_guides": [
     {

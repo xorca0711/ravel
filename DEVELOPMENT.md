@@ -2845,3 +2845,25 @@ Frozen methods, contract, outputs, registry and validators were not modified;
 numerical receipt publication and human review remain open. No private payload
 or full paper was added to Git. The unchanged research gate and repository validator
 passed (11,149 checks); the original output hashes and frozen source remain intact.
+
+
+## 2026-10-12 — Choi complete-output publication and CI restoration
+
+The owner explicitly approved publishing the exact output-only ZIP as a public
+Ravel prerelease and qualifying its recovery/CI route. Codex used verified GitHub
+identity xorca0711, published the approved bytes at tag choi-p001-figure1-v1,
+verified draft download and unauthenticated public recovery, and preserved all
+15 outputs and the original receipt. Private recovery records were excluded.
+The release tag retains reviewed source 714945697b007f4a0046834b34251392c1cfbe5a;
+executed source b656d06 and numerical methods remain unchanged.
+
+PR #149 proposes a hash-locked bounded restorer, rejection/preservation tests,
+receipt registration and restoration before both existing CI suites. These are
+explicitly reviewable infrastructure changes; no validator semantics, historical
+contract, scientific grades or human acceptance decisions were modified. Large
+output bytes remain outside ordinary Git history. The private coordinator and
+B4 hold are unchanged. See the [publication record](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/PUBLICATION.md).
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-12 | Exact Choi output package public release and restoration qualification | Codex | Owner explicitly approved the named package, size and SHA-256 | Publish package; propose complete receipt and bounded CI restoration | Make every declared output recoverable without weakening the scientific gate or rerunning analysis |
