@@ -17,6 +17,12 @@ clean-checkout CI, review the restoration mechanism and documented scientific
 limits, then record integration and scientific decisions separately. Reconcile
 the existing private coordinator before any subsequent job.
 
+Local qualification passed 158 tests (two host/optional skips) and 11,161
+repository checks. Initial Linux CI restored the archive successfully but caught
+a comment-only `.gitignore` change bound by the frozen Choi contracts. The exact
+original bytes were restored; contracts and validators were not edited. Fresh
+CI checks this correction before integration.
+
 ## Historical Weft P001 — scientific QC and paper comparison reviewed — 12 October 2026
 
 [Scientific review](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/SCIENTIFIC_REVIEW.md)

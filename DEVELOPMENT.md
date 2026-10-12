@@ -2867,3 +2867,14 @@ B4 hold are unchanged. See the [publication record](Research%20Article/gate1_02_
 | Date | Item | Proposed by | Decided by | Decision | Reason |
 |---|---|---|---|---|---|
 | 2026-10-12 | Exact Choi output package public release and restoration qualification | Codex | Owner explicitly approved the named package, size and SHA-256 | Publish package; propose complete receipt and bounded CI restoration | Make every declared output recoverable without weakening the scientific gate or rerunning analysis |
+
+Initial Linux CI passed artifact restoration, then correctly rejected a
+comment-only `.gitignore` edit because that file is hash-bound by both Choi
+contracts. Codex restored its exact original bytes and retained the failed check
+history. No contract, receipt or validator was changed to accommodate the edit.
+Local qualification passed 158 tests (two host/optional skips) and 11,161
+repository checks; the unchanged research gate was rerun after the correction.
+
+| Date | Proposed output | Why rejected or changed | Rejected/changed by |
+|---|---|---|---|
+| 2026-10-12 | Clarify ignored-public-output comments in `.gitignore` | The file is frozen input/code provenance; even comment changes break its hash | Existing Linux CI rejected it; Codex restored the original exact bytes |
