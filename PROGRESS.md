@@ -1,26 +1,29 @@
 # Current project state
 
-## Weft P001 — metadata verified; Figure1 preflight passed — 11 October 2026
+## Weft P001 — Figure1 executed; export held — 12 October 2026
 
-The original metadata receipt, exact output bytes, all 46 exported member hashes
-and nine source blobs are independently verified. Three libraries pass integrity
-and feature-order checks; loader peak is approximately 924 MiB cumulative RSS.
-[Metadata status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/METADATA_STATUS.md).
+The single Figure1 attempt at frozen b656d06 executed under the approved 8 GiB cap.
+The worker reports exit 0/no OOM, 196.03 seconds, 2,448,296 KiB peak process RSS,
+11,683 post-QC cells and absent final pAT2. Original worker-side verification passed;
+independent result readback and figure review remain pending. These descriptive
+reports do not establish animal-level effects or scientific acceptance.
 
-The owner-selected 8 GiB container cap / 12 GiB host floor passed. Pro's documented
-VM has 16 GiB; root's earlier 20 GiB requirement was a planning error. Frozen source
-b656d06 remains unchanged, and 4 MiB multipart recovery is qualified. Following
-an ignored mount-placeholder repair, VFS container allocations hit the disk floor.
-The owner approved exact retirement of two audited containers. That recovered
-about 4.2 GiB; all source, inputs, image and evidence are preserved. The existing
-second container passed offline preflight once (0.616 seconds, exit 0, no OOM)
-before retirement. Missed process-identity polling is disclosed, not filled in.
+[Figure1 status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/FIGURE1_STATUS.md)
+records the exact archive and next steps. Automatic review rejected the new
+105,848,914-byte export because earlier approvals covered different archives.
+There were no successful uploads or retries. Root verified the separate 24-event
+EXPORT_HELD checkpoint and its unchanged 21-event parent prefix. Before execution,
+stale coordinator state required explicit operator recovery after exact worker
+reconciliation; the old state remains preserved and its cause is unknown.
 
-The [pilot status](Research%20Article/gate1_02_choi_2020/weft_pilot_v1/README.md)
-links full preparation evidence and verified held-checkpoint ancestry. Figure1
-remains unstarted. Next: final packet and actual numerical-container checks,
-verified before-checkpoint, then one root-released run. No metadata rerun, new RQ,
-scientific acceptance or merge.
+The owner subsequently approved this exact export directly in the worker. After
+rechecking archive/part hashes, the cloud turn failed at its usage limit. Next:
+restore execution access, reconcile upload receipts and remote metadata, resume
+the same export without duplicates, then receipt/member verification, QC and
+figure review and a bounded
+discrepancy and candidate/no-candidate report. Preserve all frozen files; do not
+rerun the job or weaken receipt checks for publication. Metadata remains independently
+verified. No new RQ, claim promotion or merge.
 
 ## P001 root review corrections — 11 October 2026
 

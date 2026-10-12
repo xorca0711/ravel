@@ -2801,3 +2801,19 @@ preserves all frozen code/contracts and prior outputs.
 The subsequent after-run EXPORT_HELD checkpoint passed coordinator upload/readback
 and read-only restore plus independent root byte/ancestry/integrity checks. Exactly
 one attempt remains recorded; result evidence readback and Figure1 remain held.
+
+## 2026-10-12 — Figure1 execution report and export hold
+
+Codex recorded one worker-reported successful run of frozen b656d06, with the
+approved operational amendments and unchanged scientific files. The new evidence
+export was rejected by automatic review; prior approvals covered different archives.
+The analysis was not retried. Root verified the after-run held ledger checkpoint
+and recovery ancestry, while independent result receipt/table/figure review remains
+pending. These status-only changes create no new RQ, claim grade or partial receipt.
+
+The owner then approved the exact Figure1 payload directly in the existing worker.
+Its local archive/part recheck passed, but the cloud turn stopped at a usage limit
+before a complete verified transfer. Approval is retained; resumption requires
+original-worker and per-file/remote-outcome reconciliation, not an analysis rerun.
+The local Codex usage endpoint reporting availability does not clear the observed
+cloud-specific failure. No account switch, purchase or quota workaround was made.

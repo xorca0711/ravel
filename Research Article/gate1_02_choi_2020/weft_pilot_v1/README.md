@@ -7,31 +7,23 @@ readback and unchanged receipt verification. [Current metadata review](METADATA_
 records scope, resource observations and the resolved export hold. No new question
 or biological interpretation is claimed.
 The metadata contract is **frozen** after [runtime review](RUNTIME_REVIEW.md);
-the descriptive contract is **frozen** after root review. Dispatch remains held
-pending final packet review and a new verified before-dispatch checkpoint.
-Multipart transport qualified at 4 MiB; root has accepted sparse-loader
-memory readiness only; full-workload memory remains to be measured.
-The exact manual checkpoint and committed source must be bound before dispatch.
+the descriptive contract is **frozen** after root review. Figure1 subsequently
+executed once under the selected 8 GiB amendment. Its evidence export is held;
+independent result and figure review remain pending. The analysis must not be rerun.
 
-## Current execution readiness
+## Current execution status
 
-The owner-selected 8 GiB analysis cap and 12 GiB host floor passed the memory
-check. Pro provides a documented 16 GiB VM; root's earlier 20 GiB host requirement
-was a planning error. Frozen scientific files remain unchanged. All 56 code
-bindings, three frozen-file hashes and nine retained inputs matched.
+[Figure1 status](FIGURE1_STATUS.md) distinguishes the successful worker report
+from pending independent readback. The worker reports 196.03 seconds, approximately
+2.33 GiB peak process RSS and 11,683 post-QC cells; final pAT2 was absent.
+Automatic review rejected the new evidence upload because prior approvals covered
+different archives. Root verified the separate EXPORT_HELD ledger checkpoint.
 
-After repairing ignored mount placeholders, Docker VFS container allocations
-caused a disk hold. The owner approved retirement of the two audited containers;
-about 4.2 GiB was recovered, preserving source, inputs, image and all evidence.
-The existing second container passed offline preflight once before retirement:
-ok=true, exit 0, no OOM, 0.616 seconds. Exact process identities were not captured
-in that short run; its terminal Docker evidence is retained without claiming
-exact disappearance proof. Numerical-job process evidence remains required.
-
-[Current preparation evidence](https://github.com/xorca0711/weft/blob/codex/cloud-job-controls-20261011/records/choi-figure1-resumed-preparation-20261011.json)
-records failures, explicit cleanup approval, cgroup-v2 field review and root-verified
-held-checkpoint ancestry. Figure1 has not started. Final packet review, actual
-numerical-container controls/capacity and a verified before-checkpoint precede release.
+The owner-approved cleanup recovered about 4.2 GiB and preserved source, inputs,
+image and evidence. Pro's documented VM has 16 GiB; the initial 20 GiB host floor
+was a planning error. The selected 8 GiB cap governs the analysis container.
+Explicit continuity recovery preceded the single start; there was no retry or
+scientific acceptance. Full preparation and recovery records are linked in status.
 
 ## Stages and inputs
 
