@@ -1,5 +1,48 @@
 # Current project state
 
+## Current-summary synchronization — 25 October 2026
+
+Updated the live portfolio, architecture, question index, reproducibility scope,
+remaining-work navigation and agent/documentation entry points against fetched
+main `7840089dc78a42c25679e2083541c5df1507cfc6`. The
+[synchronization record](docs/audits/2026-10-25-summary-synchronization/REPORT.md)
+identifies corrected superseded statements and preserved historical contracts.
+Nb2/Nb3 reproductions and completed A10/A22 work now appear in the portfolio;
+poor transport, unresolved biological units and functional limits remain visible.
+No analysis, RQ hypothesis, scientific decision, grade or validator changed.
+
+Validation passed: 11,233 repository checks and the research gate against the
+unchanged freshly fetched integration base. Prior passing code/archive checks
+remain applicable; no code or numerical evidence changed.
+Next: review and integrate the scoped documentation branch after remote CI.
+Private research-direction drafting is kept outside tracked files. Actual
+resources, human scientific acceptance and external settings remain unresolved.
+
+## Research orientation review — 25 October 2026
+
+Reviewed the current registry, portfolio synthesis and source-linked evidence,
+with focused reading of Nb3 and A1/A10/A19/A22/A23. Fetched `origin/main` and
+verified the baseline at `7840089dc78a42c25679e2083541c5df1507cfc6`.
+The review preserves A22's failed broad-predictor transport, A10's weak absolute
+plate portability, A19's CHIR-versus-Fzd boundary and A23's external mismatch.
+These support question development, not a newly accepted mechanism or an
+experiment-ready design. No biological analysis or frozen artifact was changed.
+
+Next: develop a research-direction narrative using the existing dossiers as
+supporting examples. A later specific comparison should reuse its conditional
+package, refresh the relevant literature, and qualify its primary endpoint,
+independent biological units and actual model/assay access before specification.
+Private planning remains outside the repository. Human scientific decisions and
+external access/protection settings remain unconfirmed and unchanged.
+Validation passed: 11,198 repository checks, compilation, 161 tests (one skip),
+claim bindings and required Nb1/Nb4/A16/A23/A22 evidence verifiers. The initial
+research gate found the expected absent published Choi outputs in the fresh
+checkout; the standard restorer verified 16 archive members and restored 15
+missing outputs without analysis or overwrite. The research gate then passed
+against the unchanged fetched integration base.
+This entry is isolated on `codex/research-orientation-20261025` and has not been
+published or merged.
+
 ## Weft trial intake and Choi dossier relocation — 12 October 2026
 
 The owner requested a separate collection of reviewed Weft materials and migration

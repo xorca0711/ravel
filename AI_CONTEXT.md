@@ -1,8 +1,12 @@
 # Agent entry point
 
-Updated 7 October 2026. Read [AGENTS.md](AGENTS.md),
+Updated 25 October 2026. Read [AGENTS.md](AGENTS.md),
 [current state](PROGRESS.md) and [research governance](docs/RESEARCH_GOVERNANCE.md).
 This file is navigation, not another scientific status register.
+
+- [25 October summary synchronization](docs/audits/2026-10-25-summary-synchronization/REPORT.md)
+  records corrected current navigation and portfolio prose. Historical contracts,
+  interpretations and evidence remain preserved.
 
 **Project identity:** Ravel (`ravel`), previously `scRNA_seq`. The scope is
 paper-driven biological research across relevant tissues, organisms and molecular

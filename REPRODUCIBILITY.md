@@ -230,7 +230,7 @@ so the scientific claims remain auditable without recomputing the analysis.
 
 ## Shared research-question figures
 
-[Questions A1–A14](RESEARCH_QUESTIONS.md) are the authored canonical register;
+[Questions A0–A31](RESEARCH_QUESTIONS.md) form the current canonical register;
 [measurement contracts](docs/RQ_MEASUREMENT_CONTRACTS.md) index the relevant
 design checks. The [shared gallery](analysis/figures/rq/README.md) owns curated
 captions and distinguishes observations, diagnostics and proposed designs.

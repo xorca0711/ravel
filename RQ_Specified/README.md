@@ -2,7 +2,7 @@
 
 **Specificity and novelty applied:** [current source comparison](../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
 
-**Current alignment — 7 October 2026.** PR #146 is merged at main `55e7cde`; the subsequent portfolio pass registers proposed A31, bringing the current branch to 32 questions. A28–A30 retain their Wp-derived workspaces. The 24 conditional packages retain their dated scope; newer plans remain proposals. Read the [current state](../PROGRESS.md), [readiness audit](../docs/audits/2026-10-07-repository-readiness/REPORT.md) and [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md) before extending an analysis.
+**Current alignment — 25 October 2026.** Fetched main `7840089` includes the merged portfolio pass and proposed A31, for 32 questions (A0–A31). A28–A30 retain their Wp-derived workspaces. The 24 conditional packages retain their dated scope; newer plans remain proposals. Read the [current state](../PROGRESS.md), [readiness audit](../docs/audits/2026-10-07-repository-readiness/REPORT.md) and [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md) before extending an analysis.
 
 ## Reading order and authority
 

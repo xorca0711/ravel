@@ -1,15 +1,21 @@
 # Research architecture and interpretation authority
 
-**Latest execution authority:** the [28 September gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
+**Current navigation, 25 October 2026:** the [registry](../analysis/research/registry.json)
+locates all 32 canonical questions, A0–A31. Read [PROGRESS](../PROGRESS.md), the
+[October portfolio synthesis](portfolio_extensions/2026-10-07/SYNTHESIS.md) and
+[Weft intake](../weft_intake/README.md) for subsequent developments. The
+September execution checkpoints below retain their original scope.
+
+**Historical execution checkpoint:** the [28 September gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md)
 records A15 correction, corrected A16 C1, A17 source accounting and independent
 A5/A12 data gates across all 20 question entries. The earlier
 [follow-through](roadmap_runs/2026-09-27-followthrough/README.md) retains the A12/A13
 exploratory pilots. Historical run hashes remain snapshots; living-context
 changes do not rewrite earlier measurements.
 
-The [roadmap execution record](roadmap_runs/2026-09-27/README.md) supplies the latest P1 source facts and P4 accounting evidence. Completed feasibility work does not imply its biological gate has passed.
+The [roadmap execution record](roadmap_runs/2026-09-27/README.md) supplies the P1 source facts and P4 accounting evidence recorded at that checkpoint. Completed feasibility work does not imply its biological gate has passed.
 
-Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. Current question scope is A0–A21 plus A12-S1. A19–A21 were proposed from the [Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) on 29 September. A19 now has an [exploratory RNA/context analysis](../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md), completed 30 September; A20 also has an [exploratory fibroblast context analysis](../RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md). A21 now has an [independent capillary context analysis](../RQ_Specified/A21_fzd4_capillary_function/RESULTS.md). Their direct functional tests remain unexecuted. The dated ledgers above retain their original scope.
+Architecture baseline: 27 September 2026 after the [A0–A15 rationale audit](audits/2026-09-27-rq-rationale/REPORT.md); execution pointers synchronized 28 September. The subsequent September question scope was A0–A21 plus A12-S1. A19–A21 were proposed from the [Nb2 synthesis](../Research%20Article/gate2_N1_nabhan_2023/RQ_DERIVATION.md) on 29 September. A19 now has an [exploratory RNA/context analysis](../RQ_Specified/A19_fzd_response_reversibility/RESULTS.md), completed 30 September; A20 also has an [exploratory fibroblast context analysis](../RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md). A21 now has an [independent capillary context analysis](../RQ_Specified/A21_fzd4_capillary_function/RESULTS.md). Their direct functional tests remain unexecuted. The dated ledgers above retain their original scope.
 
 **Project scope, updated 7 October 2026:** Ravel develops and discriminates
 biological hypotheses through paper reading and public-data reanalysis across

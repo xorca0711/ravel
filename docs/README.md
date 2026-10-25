@@ -1,6 +1,11 @@
 # Documentation Index
 
-**Latest portfolio checkpoint:** [integrated results](portfolio_extensions/2026-10-07/SYNTHESIS.md), [selected evidence statuses](portfolio_extensions/2026-10-07/EVIDENCE_CHECKPOINT.md), and [return checklist](portfolio_extensions/2026-10-07/RETURN_CHECKLIST.md).
+**Current entry points:** [project state](../PROGRESS.md), [portfolio summary](PORTFOLIO_SUMMARY.md)
+and [25 October summary synchronization](audits/2026-10-25-summary-synchronization/REPORT.md).
+The [12 October Weft intake](../weft_intake/README.md) is a reviewed trial handoff;
+it does not supersede the existing question portfolio.
+
+**Latest portfolio analysis checkpoint:** [integrated results](portfolio_extensions/2026-10-07/SYNTHESIS.md), [selected evidence statuses](portfolio_extensions/2026-10-07/EVIDENCE_CHECKPOINT.md), and [return checklist](portfolio_extensions/2026-10-07/RETURN_CHECKLIST.md).
 
 **Preceding repository audit:** [findings and corrections](audits/2026-10-07-repository-readiness/REPORT.md) and [all-question review](audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md).
 
