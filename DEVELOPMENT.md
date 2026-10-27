@@ -2904,3 +2904,17 @@ grade, canonical question or frozen result changed.
 | Date | Item | Proposed by | Decided by | Decision | Reason |
 |---|---|---|---|---|---|
 | 2026-10-12 | Separate Weft intake, Choi dossier migration and root README trial note | Owner | Owner requested this organization | Implement reviewed trial collection while preserving Ravel identity and existing evidence paths | Make the trial handoff visible without conflating automation qualification with research acceptance |
+
+## 2026-10-25 — Current summary synchronization
+
+Codex corrected stale live navigation and portfolio summaries using the current
+registry and result reports. Historical evidence and inherited contracts remain
+preserved. Private planning is not included in these repository changes.
+
+| Date | Item | Proposed by | Decided by | Decision | Reason |
+|---|---|---|---|---|---|
+| 2026-10-25 | Correct superseded current summaries | Owner | Owner requested the update | Refresh documentation against the fetched integration base; no scientific acceptance or merge decision inferred | Completed analyses and later question scope should not be presented as future work or an old branch snapshot |
+
+| Date | Prior output | Why revised | Review authority |
+|---|---|---|---|
+| 2026-10-25 | Prematurely organizing research-interest discussion around selection of a fully specified RQ | The owner clarified that motivation, effort and paper reproduction can support a developing research direction; an accepted experiment is not required for that discussion | Owner clarification; execution and interpretation requirements remain unchanged |

@@ -1,9 +1,9 @@
 # Portfolio reading guide
 
-For a short entry point, use the [one-page summary and four figures](PORTFOLIO_SUMMARY.md).
+For a short entry point, use the [current portfolio summary](PORTFOLIO_SUMMARY.md).
 
-This project demonstrates independent computational work on public lung data:
-atlas recovery, measurement correction, sample-aware analysis and an explicit
+This project documents paper-driven, AI-assisted research using public data:
+atlas recovery, paper reproduction, measurement correction, sample-aware analysis and an explicit
 record of conclusions that did not survive scrutiny. Its contribution is the
 reproducible analysis and reasoning; the public datasets belong to their source
 studies. [Development and scientific ownership](../DEVELOPMENT.md) discloses
@@ -59,6 +59,24 @@ The connected [epithelial specificity project](../Research%20Article/epithelial_
 adds explicit injury, development and genotype contrasts, source-defined gene
 sets and an external-study eligibility assessment. It does not infer cellular
 fate from a chromatin proxy.
+
+## Case study 4: connect epithelial perturbations to niche and imaging readouts
+
+**Question:** how do epithelial perturbations relate to organoid measurements
+and the surrounding fibroblast RNA response?
+
+**Work:** [Nb2](../Research%20Article/gate2_N1_nabhan_2023/README.md) reconstructs
+accessible receptor-agonist RNA comparisons; [Nb3](../Research%20Article/gate2_N2_nabhan_2026/README.md)
+reconstructs selected imaging and compartment-specific RNA results and tests
+descriptive extensions. [A10](../RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md)
+and [A22](../RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md)
+provide completed outcome and generalization diagnostics.
+
+**What follows:** a focal NKX2-1 response motivates a recipient-output question,
+while poor broad-predictor transfer limits generalization. Imaging area is not
+mature fate, fibroblast RNA is not secretion, and technical wells are not
+independent biological preparations. These distinctions inform the next
+biological question without turning reproduction into a new mechanism.
 
 ## How to assess the work
 
