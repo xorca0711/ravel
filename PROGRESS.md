@@ -1,5 +1,23 @@
 # Current project state
 
+## NAM source-v2 metadata correction freeze — 29 October 2026
+
+The owner authorized only the bounded source-label and feature-identifier
+correction in [the DY1 amendment](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_AMENDMENT.md).
+The isolated `codex/nam-source-metadata-v2-20261029` branch starts at exact handoff
+`d62612b`; freshly fetched main remains `78320a1`. Twenty small public metadata
+inputs (1,199,598 bytes) match the v1 input hashes. Nine synthetic parser tests
+and the v2 input preflight pass. V1 code, contract, outputs and receipt are
+byte-identical to the preserved execution checkout. Existing ignored inputs and
+all other worktrees remain untouched.
+
+The new exposed amendment is frozen for commit before running through the
+unchanged research gate. Next: execute only source_v2, register/verify its receipt,
+record independently checked labels and feature membership, update the partial
+stage-0 ledger and run repository validation. No cells are assigned and no
+biological comparison, RQ output or scientific decision is authorized here.
+Stages 1–8 remain unexecuted. No external-service writes or settings changes.
+
 ## NAM review handoff — 29 October 2026
 
 The owner requested a fresh review chat. The [artifact-based handoff](Research%20Article/gate2_DY1_damani_yokota_2026/REVIEW_HANDOFF.md)
