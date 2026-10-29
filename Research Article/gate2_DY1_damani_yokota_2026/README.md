@@ -54,4 +54,13 @@ execution integrity from scientific interpretation.
 
 The canonical directory is `Research Article/`. Existing A1/A2/A8/A14/A19/A22 retain their hypotheses, negative results and output authorities. Directly relevant RQ analyses belong in those existing folders; article outputs are not duplicated there. Unlinked omics and functional cohorts cannot support mediation. The missing untrained Arg1-cKO comparator prevents a training-specific interaction. A single later endpoint cannot establish kinetics.
 
+The coordinating [human review](../../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md)
+and RQ-local contextual notes explain the connections without duplicating results:
+[A1](../../RQ_Specified/A1_transitional_epithelial_state_distinction/DY1_CONTEXT_2026-10-29.md),
+[A2](../../RQ_Specified/A2_areg_source_delivery/DY1_CONTEXT_2026-10-29.md),
+[A8](../../RQ_Specified/A8_maturation_component_at1_contribution/DY1_CONTEXT_2026-10-29.md),
+[A14](../../RQ_Specified/A14_withdrawal_recovery_and_reception/DY1_CONTEXT_2026-10-29.md),
+[A19](../../RQ_Specified/A19_fzd_response_reversibility/DY1_CONTEXT_2026-10-29.md),
+[A22](../../RQ_Specified/A22_epithelial_identity_niche_response/DY1_CONTEXT_2026-10-29.md).
+
 See [literature context](LITERATURE_CONTEXT.md), [source-v2 results](SOURCE_V2_RESULTS.md), [v2 contract](config/source_v2.json), the preserved [v1 contract](config/source_v1.json) and [governance](../../docs/RESEARCH_GOVERNANCE.md).

@@ -1,5 +1,35 @@
 # Current project state
 
+## Human continuation integrated and independently reviewed — 29 October 2026
+
+Stable analysis handoff `0fb28f0` is integrated into the scoped review branch.
+The [independent review](docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md)
+checks the primary 78-donor and external 21-donor human runs, their frozen code,
+output hashes and interpretation. The [article ledger](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+owns stage status. Six reviewed contextual notes now live in A1/A2/A8/A14/A19/A22;
+numerical results remain in the article/run folders.
+
+Higher matrix-panel RNA is directionally consistent across the two exposed
+cohorts. FABP4 depends on annotation; pooled recipient associations are not stable
+within disease; ARG1 is sparse. No regulatory chain, mediation, functional repair,
+new canonical RQ or human scientific acceptance is established.
+
+The failed qualification and source-discovery records are preserved byte-for-byte
+under the existing archival convention. Original local copies/history remain;
+root ignore rules and governance are unchanged. Source validation passed 161
+repository tests (one skip), 27 targeted tests, all required evidence verifiers,
+11,432 repository checks and the base-aware gate. Final integration passed 11,482 repository checks and the base-aware gate;
+all 32 canonical question/guide records and protected governance files match main.
+
+Original mouse numerical stages and full mechanistic integration remain
+unexecuted under the platform restriction. Exact NAM/model reproduction, qualified
+animal/pool joins, relevant source count semantics and the stated human eligibility
+limits remain unresolved; none is relabeled completed. No additional permitted
+analysis is queued. Reopen only for a specified qualified comparison or newly
+available evidence, within the applicable execution limits. Latest fetched main:
+`78320a186b6f52426e7c7c5349a2f26492b718b7`. Other worktrees and primary-checkout
+changes are preserved; no external publication occurred.
+
 ## Human atlas stage 7: primary and bounded external computations complete — 29 October 2026
 
 [Primary results](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_RESULTS.md)

@@ -2918,3 +2918,28 @@ preserved. Private planning is not included in these repository changes.
 | Date | Prior output | Why revised | Review authority |
 |---|---|---|---|
 | 2026-10-25 | Prematurely organizing research-interest discussion around selection of a fully specified RQ | The owner clarified that motivation, effort and paper reproduction can support a developing research direction; an accepted experiment is not required for that discussion | Owner clarification; execution and interpretation requirements remain unchanged |
+
+
+## 2026-10-29 — DY1 analysis/review coordination and human continuation
+
+The owner requested a separate analysis chat and continuing review against the
+article README. The analysis chat produced the permitted primary and external
+human observations; this coordinating chat reviewed prospective code/contracts,
+frozen provenance, saved arithmetic, figures and interpretation, then integrated
+stable handoff `0fb28f0`. Six contextual RQ notes preserve existing hypotheses,
+negative evidence and endpoint requirements. See the [review record](docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md)
+and [analysis validation](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md).
+Execution and technical review are not human scientific acceptance.
+
+| Date | Item | Proposed by | Review / authority | Disposition and reason |
+|---|---|---|---|---|
+| 2026-10-29 | Separate execution and coordinating review | Owner | Owner explicitly requested both chats and continuation | Completed the permitted human scope; original restricted numerical work remains explicitly unexecuted |
+| 2026-10-29 | Clinical adjustment and donor preservation | Coordinating reviewer; analysis chat implemented | Pre-execution technical review | Recover exact age/sex joins and separate adjusted complete cases from the unadjusted primary donor set |
+| 2026-10-29 | External RNA comparison | Analysis chat | Coordinating review before freeze and after execution | Use verified outcome genes, exact donor/annotation/site definitions and retained eligibility holds; no exact NAM or unexposed-confirmation claim |
+| 2026-10-29 | RQ-local contextual routing | Coordinating reviewer | Separate analysis chat reviewed all six notes without a blocking finding | Preserve article ownership of numerical outputs and all canonical RQ definitions |
+
+| Date | Failed or revised item | Reason and retained evidence | Technical disposition |
+|---|---|---|---|
+| 2026-10-29 | External qualification v1 | Historical preparation script hash differed after a directory-path change | Preserve failure; v2 binds the exact historical Git blob and reaggregates current raw assay counts |
+| 2026-10-29 | Failed receipt in success-only registry | Existing gate correctly rejected execution failure as a successful run | Use the existing Nb5 byte-preservation convention; register archival success only, retaining failed status and seven exact diagnostic/source files |
+| 2026-10-29 | Original duplicate diagnostic paths | Tracked duplicate JSON assets need an honest output authority | After archive verification, untrack only duplicate originals and use two exact local Git excludes; preserve every local byte and commit. Root .gitignore, validators, schemas and governance remain unchanged |

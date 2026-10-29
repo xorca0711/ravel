@@ -1,10 +1,12 @@
 # Research article roadmap
 
-**NAM paper checkpoint — 29 October 2026:** [Damani-Yokota 2026](gate2_DY1_damani_yokota_2026/README.md)
-has a reviewed analysis plan and an executed source-metadata audit with
-[documented corrections](gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md).
-Numerical analyses remain unexecuted after a platform restriction; this is not
-completion or a blanket data-limitation finding. [Review handoff](gate2_DY1_damani_yokota_2026/REVIEW_HANDOFF.md).
+**NAM paper update — 29 October 2026:** [Damani-Yokota 2026](gate2_DY1_damani_yokota_2026/README.md)
+now includes completed [78-donor human observations](gate2_DY1_damani_yokota_2026/HUMAN_RESULTS.md)
+and a [21-donor external RNA comparison](gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md),
+with [independent review](../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md).
+The article ledger separates these adapted descriptions from exact-reproduction
+limits and the original mouse numerical stages stopped by the platform restriction.
+No mechanistic conclusion, RQ promotion or scientific acceptance follows from completion.
 
 **Subsequent portfolio pass:** [three group audits and governed extensions](../docs/portfolio_extensions/2026-10-07/README.md) cover every analysis package and registered RQ. Nb4-P09 supplies expression evidence for proposed A31; A11/A17/A25/A30 remain existing questions. Read the linked current result and its limits before an older plan.
 

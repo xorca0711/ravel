@@ -1,5 +1,7 @@
 # A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
 
+**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
+
 <!-- current-rq-framing:start -->
 ## Current biological hypothesis and novelty boundary — 3 October 2026
 

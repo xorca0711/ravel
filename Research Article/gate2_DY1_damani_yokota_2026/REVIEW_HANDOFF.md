@@ -1,5 +1,7 @@
 # Review handoff — 29 October 2026
 
+**Historical role/source handoff.** The [current human validation](HUMAN_VALIDATION.md) and [stage ledger](README.md) supersede the execution-status snapshot below. The earlier restriction and original evidence are retained.
+
 ## Authorized scope
 
 The owner requested a new review chat with the prior verified context. Its initial
