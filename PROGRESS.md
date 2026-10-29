@@ -1,5 +1,21 @@
 # Current project state
 
+## Human atlas stage 7: primary execution complete — 29 October 2026
+
+The frozen donor-aware GSE136831 analysis executed at `aad1d86`; the
+[receipt](analysis/research/runs/DY1_human_observational_v1/receipt.json) and
+27,545 independent arithmetic checks passed. All692,789,348 sparse entries were
+read; cell RNA totals and detected-gene counts exactly match the source metadata.
+The78donors remain the biological units. Results are exposed and descriptive;
+the article report will retain annotation/floor sensitivity, ARG1 sparsity and
+pooled-versus-within-disease differences. No scientific acceptance was recorded.
+
+Next: qualify the separate exposed GSE135893 source using a newly frozen assay
+audit; current raw selected-gene aggregates and all-gene denominators must match
+the saved donor/annotation cache before any external fit. Then complete the
+bounded report, contextual-note review and repository validation. Restricted
+mouse/infection work remains stopped. No external settings or publication changed.
+
 ## Human atlas stage 7: numerical freeze — 29 October 2026
 
 The separate non-infectious human continuation has qualified 78 GSE136831 donors,

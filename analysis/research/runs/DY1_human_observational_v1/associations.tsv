@@ -1,0 +1,473 @@
+population	floor	disease	x	y	n_donors	rho	ci_low	ci_high	bootstrap_valid_fraction	bootstrap_requested	bootstrap_valid_replicates	bootstrap_constant_replicates	ci_status	partial_rho	partial_status	partial_residual_df	partial_n_donors	status
+Proxy2	10	Control	FABP4_panel	matrix_mac_panel	26	0.011282051282051281	-0.36583530825169275	0.411321728964375	1.0	1000	1000	0	pointwise_percentile	-0.2881431695372371	estimated_no_interval	19	26	estimated
+Proxy2	10	Control	FABP4_panel	aberrant_fraction	22					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	10	Control	FABP4_panel	at2_fraction	22	0.0942970073404856	-0.3464825302742591	0.4895395110858442	1.0	1000	1000	0	pointwise_percentile	-0.31150087711716445	estimated_no_interval	15	22	estimated
+Proxy2	10	Control	FABP4_panel	fibro_matrix_panel	16	-0.28529411764705886	-0.7441211273666093	0.2550301547067563	1.0	1000	1000	0	pointwise_percentile	-0.36043207339647265	estimated_no_interval	9	16	estimated
+Proxy2	10	Control	FABP4_panel	fibro_only_matrix_panel	15	-0.30357142857142855	-0.7696840618248296	0.3287351945993309	1.0	1000	1000	0	pointwise_percentile	0.3887356145841771	estimated_no_interval	8	15	estimated
+Proxy2	10	Control	matrix_mac_panel	aberrant_fraction	22					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	10	Control	matrix_mac_panel	at2_fraction	22	0.41276115189158674	-0.02689103170101468	0.6885358193705712	1.0	1000	1000	0	pointwise_percentile	0.3901632817686675	estimated_no_interval	15	22	estimated
+Proxy2	10	Control	matrix_mac_panel	fibro_matrix_panel	16	0.31764705882352945	-0.20441113476031753	0.7099817378364972	1.0	1000	1000	0	pointwise_percentile	0.39088402451541054	estimated_no_interval	9	16	estimated
+Proxy2	10	Control	matrix_mac_panel	fibro_only_matrix_panel	15	0.049999999999999996	-0.5319209701369411	0.6361612851662403	1.0	1000	1000	0	pointwise_percentile	-0.23450180048303026	estimated_no_interval	8	15	estimated
+Proxy2	10	Control	ARG1_logCPM	aberrant_fraction	22					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	10	Control	ARG1_logCPM	at2_fraction	22	0.2901793482871197	-0.1708164380633129	0.6819535398682378	1.0	1000	1000	0	pointwise_percentile	0.1449667455666633	estimated_no_interval	15	22	estimated
+Proxy2	10	Control	ARG1_logCPM	fibro_matrix_panel	16	-0.36838201808817145	-0.786870567071444	0.2716236109183697	1.0	1000	1000	0	pointwise_percentile	-0.49143072514557207	estimated_no_interval	9	16	estimated
+Proxy2	10	Control	ARG1_logCPM	fibro_only_matrix_panel	15	-0.09669875568304562	-0.5974471774097053	0.4556932346110107	1.0	1000	1000	0	pointwise_percentile	0.18540970350781028	estimated_no_interval	8	15	estimated
+Proxy2	10	IPF	FABP4_panel	matrix_mac_panel	32	-0.4721407624633431	-0.710030238965945	-0.11405254155159499	1.0	1000	1000	0	pointwise_percentile	-0.47364809056829843	estimated_no_interval	25	32	estimated
+Proxy2	10	IPF	FABP4_panel	aberrant_fraction	32	0.13564292972375402	-0.20792607349966197	0.4487816122955797	1.0	1000	1000	0	pointwise_percentile	0.07096616520004838	estimated_no_interval	25	32	estimated
+Proxy2	10	IPF	FABP4_panel	at2_fraction	32	0.26853634060175624	-0.09734976391557806	0.5991006008643728	1.0	1000	1000	0	pointwise_percentile	0.3876204242735682	estimated_no_interval	25	32	estimated
+Proxy2	10	IPF	FABP4_panel	fibro_matrix_panel	27	-0.08302808302808302	-0.47791823899133845	0.3445256828220816	1.0	1000	1000	0	pointwise_percentile	0.10175512547027603	estimated_no_interval	20	27	estimated
+Proxy2	10	IPF	FABP4_panel	fibro_only_matrix_panel	26	-0.18017094017094015	-0.5368186738115939	0.21230834819529282	1.0	1000	1000	0	pointwise_percentile	0.12039516930832632	estimated_no_interval	19	26	estimated
+Proxy2	10	IPF	matrix_mac_panel	aberrant_fraction	32	-0.39299789368611965	-0.6954293214035274	-0.0440203432027515	1.0	1000	1000	0	pointwise_percentile	-0.40894409483958116	estimated_no_interval	25	32	estimated
+Proxy2	10	IPF	matrix_mac_panel	at2_fraction	32	-0.2965814328284243	-0.5999720026772152	0.07109078572876183	1.0	1000	1000	0	pointwise_percentile	-0.37821905787479815	estimated_no_interval	25	32	estimated
+Proxy2	10	IPF	matrix_mac_panel	fibro_matrix_panel	27	-0.1746031746031746	-0.5545332334398235	0.2450352436408212	1.0	1000	1000	0	pointwise_percentile	-0.16978966758208658	estimated_no_interval	20	27	estimated
+Proxy2	10	IPF	matrix_mac_panel	fibro_only_matrix_panel	26	0.02427350427350427	-0.41255714208218647	0.44479839212773764	1.0	1000	1000	0	pointwise_percentile	-0.22701661203959028	estimated_no_interval	19	26	estimated
+Proxy2	10	IPF	ARG1_logCPM	aberrant_fraction	32	-0.012647050744383492	-0.35401125134614253	0.39782296607573076	1.0	1000	1000	0	pointwise_percentile	-0.11609555709329362	estimated_no_interval	25	32	estimated
+Proxy2	10	IPF	ARG1_logCPM	at2_fraction	32	-0.2475660183213068	-0.5409843548611549	0.09342962234350766	1.0	1000	1000	0	pointwise_percentile	-0.32509125159493146	estimated_no_interval	25	32	estimated
+Proxy2	10	IPF	ARG1_logCPM	fibro_matrix_panel	27	-0.1642522104305784	-0.5525656246271148	0.2826214648690004	1.0	1000	1000	0	pointwise_percentile	-0.26677838674360654	estimated_no_interval	20	27	estimated
+Proxy2	10	IPF	ARG1_logCPM	fibro_only_matrix_panel	26	0.016348953094564408	-0.38701095970753724	0.41316335090701073	1.0	1000	1000	0	pointwise_percentile	-0.058027011066709176	estimated_no_interval	19	26	estimated
+Proxy2	10	COPD	FABP4_panel	matrix_mac_panel	17	-0.5073529411764706	-0.8466118886324723	0.021094589012804598	1.0	1000	1000	0	pointwise_percentile	-0.2175098684977348	estimated_no_interval	10	17	estimated
+Proxy2	10	COPD	FABP4_panel	aberrant_fraction	17	0.43216127377265695	-0.05725733770753761	0.8002066156840728	1.0	1000	1000	0	pointwise_percentile	0.36084196729519197	estimated_no_interval	10	17	estimated
+Proxy2	10	COPD	FABP4_panel	at2_fraction	17	-0.2720588235294118	-0.7684094022415939	0.273902196409376	1.0	1000	1000	0	pointwise_percentile	0.08565343159904612	estimated_no_interval	10	17	estimated
+Proxy2	10	COPD	FABP4_panel	fibro_matrix_panel	13	0.39560439560439564	-0.20134667835573739	0.7752954281286323	1.0	1000	1000	0	pointwise_percentile	0.43084053267964856	estimated_no_interval	6	13	estimated
+Proxy2	10	COPD	FABP4_panel	fibro_only_matrix_panel	10	0.09090909090909088	-0.6125100806451613	0.7610436320754718	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	10	COPD	matrix_mac_panel	aberrant_fraction	17	0.011645064263335066	-0.5176979490123341	0.5324530757935003	1.0	1000	1000	0	pointwise_percentile	0.06131508518905215	estimated_no_interval	10	17	estimated
+Proxy2	10	COPD	matrix_mac_panel	at2_fraction	17	0.46323529411764713	-0.04850784799669557	0.8932330502596981	1.0	1000	1000	0	pointwise_percentile	0.42521357165551543	estimated_no_interval	10	17	estimated
+Proxy2	10	COPD	matrix_mac_panel	fibro_matrix_panel	13	0.2802197802197803	-0.40347792526101345	0.8028582107168148	1.0	1000	1000	0	pointwise_percentile	0.4915434553466949	estimated_no_interval	6	13	estimated
+Proxy2	10	COPD	matrix_mac_panel	fibro_only_matrix_panel	10	-0.406060606060606	-0.9869281045751634	0.4252240566037734	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	10	COPD	ARG1_logCPM	aberrant_fraction	17	0.0826760631988667	-0.3553543286561426	0.5078933267024964	0.96	1000	960	40	pointwise_percentile	-0.16535294898689112	estimated_no_interval	10	17	estimated
+Proxy2	10	COPD	ARG1_logCPM	at2_fraction	17	-0.04606184486934243	-0.5621255465743611	0.48637719290528814	0.968	1000	968	32	pointwise_percentile	0.03151170514764399	estimated_no_interval	10	17	estimated
+Proxy2	10	COPD	ARG1_logCPM	fibro_matrix_panel	13	0.15724272550828777			0.887	1000	887	113	too_many_undefined_resamples	0.3346128349743161	estimated_no_interval	6	13	estimated
+Proxy2	10	COPD	ARG1_logCPM	fibro_only_matrix_panel	10	-0.35464951900691605			0.889	1000	889	111	too_many_undefined_resamples		fewer_than_6_residual_df	3	10	estimated
+Proxy2	10	pooled_diagnostic	FABP4_panel	matrix_mac_panel	75	-0.26671408250355616	-0.4749498376515884	-0.0524466122624073	1.0	1000	1000	0	pointwise_percentile	-0.33958681686136316	estimated_no_interval	66	75	estimated
+Proxy2	10	pooled_diagnostic	FABP4_panel	aberrant_fraction	71	0.0803038622154723	-0.155411389938861	0.30597903959433337	1.0	1000	1000	0	pointwise_percentile	0.10890381823900165	estimated_no_interval	62	71	estimated
+Proxy2	10	pooled_diagnostic	FABP4_panel	at2_fraction	71	0.17330941165098318	-0.05142057976036131	0.3843164755392848	1.0	1000	1000	0	pointwise_percentile	0.08688117946129416	estimated_no_interval	62	71	estimated
+Proxy2	10	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	56	-0.1775803144224197	-0.4349425474121302	0.08528345778419709	1.0	1000	1000	0	pointwise_percentile	-0.016271564119048634	estimated_no_interval	47	56	estimated
+Proxy2	10	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	51	-0.29565610859728503	-0.5267849854048009	-0.021097486802418124	1.0	1000	1000	0	pointwise_percentile	-0.1821672995159222	estimated_no_interval	42	51	estimated
+Proxy2	10	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	71	0.3598809229362831	0.12368180193918744	0.567735357420713	1.0	1000	1000	0	pointwise_percentile	-0.20278299646399733	estimated_no_interval	62	71	estimated
+Proxy2	10	pooled_diagnostic	matrix_mac_panel	at2_fraction	71	-0.42068109799840536	-0.5937278123142863	-0.2084041493165432	1.0	1000	1000	0	pointwise_percentile	0.08433491356030738	estimated_no_interval	62	71	estimated
+Proxy2	10	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	56	0.522898154477102	0.314061382540444	0.6869526090335537	1.0	1000	1000	0	pointwise_percentile	0.1831534059723439	estimated_no_interval	47	56	estimated
+Proxy2	10	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	51	0.31457013574660625	0.05939575480836505	0.5625109780834957	1.0	1000	1000	0	pointwise_percentile	0.04252832701698533	estimated_no_interval	42	51	estimated
+Proxy2	10	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	71	0.011754809933653333	-0.21221374318824424	0.2258957036162587	1.0	1000	1000	0	pointwise_percentile	-0.02910818065573682	estimated_no_interval	62	71	estimated
+Proxy2	10	pooled_diagnostic	ARG1_logCPM	at2_fraction	71	-0.0527949319392871	-0.2894775861813942	0.1936064052420438	1.0	1000	1000	0	pointwise_percentile	-0.09463110898885982	estimated_no_interval	62	71	estimated
+Proxy2	10	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	56	-0.04958635432328948	-0.35536249014933874	0.24370186693672033	1.0	1000	1000	0	pointwise_percentile	-0.06973493840628703	estimated_no_interval	47	56	estimated
+Proxy2	10	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	51	-0.044684389783224844	-0.3229014085855614	0.26107943894764124	1.0	1000	1000	0	pointwise_percentile	-0.09288134999859732	estimated_no_interval	42	51	estimated
+Proxy2	20	Control	FABP4_panel	matrix_mac_panel	25	0.02692307692307692	-0.3604293062546127	0.43183523984244315	1.0	1000	1000	0	pointwise_percentile	-0.3309592289407707	estimated_no_interval	18	25	estimated
+Proxy2	20	Control	FABP4_panel	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	20	Control	FABP4_panel	at2_fraction	18	-0.007223942208462332	-0.5189827405857741	0.4717010674754796	1.0	1000	1000	0	pointwise_percentile	-0.44423772572469633	estimated_no_interval	11	18	estimated
+Proxy2	20	Control	FABP4_panel	fibro_matrix_panel	13	-0.47802197802197804	-0.8817230962375927	0.16172170956775028	1.0	1000	1000	0	pointwise_percentile	-0.3464409457548292	estimated_no_interval	6	13	estimated
+Proxy2	20	Control	FABP4_panel	fibro_only_matrix_panel	10	-0.17575757575757575	-0.8013894299441631	0.6561591154909264	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	20	Control	matrix_mac_panel	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	20	Control	matrix_mac_panel	at2_fraction	18	0.4613003095975232	-0.02835171884713569	0.7377911672377536	1.0	1000	1000	0	pointwise_percentile	0.4163362069731281	estimated_no_interval	11	18	estimated
+Proxy2	20	Control	matrix_mac_panel	fibro_matrix_panel	13	0.1758241758241758	-0.3927363896848137	0.714507667473769	1.0	1000	1000	0	pointwise_percentile	0.20858146789494234	estimated_no_interval	6	13	estimated
+Proxy2	20	Control	matrix_mac_panel	fibro_only_matrix_panel	10	-0.07878787878787878	-0.6732475490196079	0.7251442307692306	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	20	Control	ARG1_logCPM	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	20	Control	ARG1_logCPM	at2_fraction	18	0.22658965739659617	-0.25443392426070405	0.6583846609161416	1.0	1000	1000	0	pointwise_percentile	0.11117533263265797	estimated_no_interval	11	18	estimated
+Proxy2	20	Control	ARG1_logCPM	fibro_matrix_panel	13	-0.36022025792967266	-0.8158507697462404	0.2983037312718317	0.994	1000	994	6	pointwise_percentile	-0.5371883703855702	estimated_no_interval	6	13	estimated
+Proxy2	20	Control	ARG1_logCPM	fibro_only_matrix_panel	10	0.020483662259967565	-0.6554754197435432	0.7028231859569816	0.994	1000	994	6	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	20	IPF	FABP4_panel	matrix_mac_panel	32	-0.4721407624633431	-0.7193637534776366	-0.14381773235688836	1.0	1000	1000	0	pointwise_percentile	-0.47364809056829843	estimated_no_interval	25	32	estimated
+Proxy2	20	IPF	FABP4_panel	aberrant_fraction	32	0.13564292972375402	-0.2002822909142496	0.448950790387754	1.0	1000	1000	0	pointwise_percentile	0.07096616520004838	estimated_no_interval	25	32	estimated
+Proxy2	20	IPF	FABP4_panel	at2_fraction	32	0.26853634060175624	-0.08408568858947145	0.5876753899920687	1.0	1000	1000	0	pointwise_percentile	0.3876204242735682	estimated_no_interval	25	32	estimated
+Proxy2	20	IPF	FABP4_panel	fibro_matrix_panel	26	-0.094017094017094	-0.49829893359632754	0.31936513144471995	1.0	1000	1000	0	pointwise_percentile	0.1526492232446283	estimated_no_interval	19	26	estimated
+Proxy2	20	IPF	FABP4_panel	fibro_only_matrix_panel	21	-0.3090909090909091	-0.6512410189418681	0.13493813835722243	1.0	1000	1000	0	pointwise_percentile	0.10710898930275685	estimated_no_interval	14	21	estimated
+Proxy2	20	IPF	matrix_mac_panel	aberrant_fraction	32	-0.39299789368611965	-0.677615839178351	0.0007096491724327933	1.0	1000	1000	0	pointwise_percentile	-0.40894409483958116	estimated_no_interval	25	32	estimated
+Proxy2	20	IPF	matrix_mac_panel	at2_fraction	32	-0.2965814328284243	-0.5878222716942237	0.10951386329196866	1.0	1000	1000	0	pointwise_percentile	-0.37821905787479815	estimated_no_interval	25	32	estimated
+Proxy2	20	IPF	matrix_mac_panel	fibro_matrix_panel	26	-0.16786324786324786	-0.556101971557873	0.21455882621010905	1.0	1000	1000	0	pointwise_percentile	-0.20153855165774667	estimated_no_interval	19	26	estimated
+Proxy2	20	IPF	matrix_mac_panel	fibro_only_matrix_panel	21	0.059740259740259746	-0.4402913321362124	0.5413826998689383	1.0	1000	1000	0	pointwise_percentile	-0.2205616345207521	estimated_no_interval	14	21	estimated
+Proxy2	20	IPF	ARG1_logCPM	aberrant_fraction	32	-0.012647050744383492	-0.3749935563732684	0.380672704674945	1.0	1000	1000	0	pointwise_percentile	-0.11609555709329362	estimated_no_interval	25	32	estimated
+Proxy2	20	IPF	ARG1_logCPM	at2_fraction	32	-0.2475660183213068	-0.563672196229425	0.09800764313690785	1.0	1000	1000	0	pointwise_percentile	-0.32509125159493146	estimated_no_interval	25	32	estimated
+Proxy2	20	IPF	ARG1_logCPM	fibro_matrix_panel	26	-0.1615884898881366	-0.5364938981801692	0.26995311746514156	1.0	1000	1000	0	pointwise_percentile	-0.25122504862587397	estimated_no_interval	19	26	estimated
+Proxy2	20	IPF	ARG1_logCPM	fibro_only_matrix_panel	21	0.021587985915726256	-0.41852345243702366	0.45850689405703354	1.0	1000	1000	0	pointwise_percentile	0.01613321896618002	estimated_no_interval	14	21	estimated
+Proxy2	20	COPD	FABP4_panel	matrix_mac_panel	16	-0.5058823529411764	-0.8425760869320876	-0.04040761574100174	1.0	1000	1000	0	pointwise_percentile	-0.14874064525107852	estimated_no_interval	9	16	estimated
+Proxy2	20	COPD	FABP4_panel	aberrant_fraction	16	0.4513366272874624	-0.07709685909732265	0.8067751340067633	1.0	1000	1000	0	pointwise_percentile	0.41191610313989496	estimated_no_interval	9	16	estimated
+Proxy2	20	COPD	FABP4_panel	at2_fraction	16	-0.2823529411764706	-0.8025734245794126	0.299643268977888	1.0	1000	1000	0	pointwise_percentile	0.07553315427294331	estimated_no_interval	9	16	estimated
+Proxy2	20	COPD	FABP4_panel	fibro_matrix_panel	10	0.4666666666666666	-0.2751511437908497	0.8385093167701864	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	20	COPD	FABP4_panel	fibro_only_matrix_panel	8	0.14285714285714288	-0.6790123456790124	0.9240506329113924	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+Proxy2	20	COPD	matrix_mac_panel	aberrant_fraction	16	-0.0552657094637709	-0.544651700182145	0.48180673273515	1.0	1000	1000	0	pointwise_percentile	0.000991519283018531	estimated_no_interval	9	16	estimated
+Proxy2	20	COPD	matrix_mac_panel	at2_fraction	16	0.5970588235294118	0.011342389847171362	0.9431243382477245	1.0	1000	1000	0	pointwise_percentile	0.4906065643183891	estimated_no_interval	9	16	estimated
+Proxy2	20	COPD	matrix_mac_panel	fibro_matrix_panel	10	0.16363636363636364	-0.49044585987261147	0.7453030485117973	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	20	COPD	matrix_mac_panel	fibro_only_matrix_panel	8	-0.4761904761904762	-1.0	0.5384615384615384	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+Proxy2	20	COPD	ARG1_logCPM	aberrant_fraction	16	0.0540474745331175	-0.3781612690114241	0.5102028198576466	0.965	1000	965	35	pointwise_percentile	-0.11738588136619812	estimated_no_interval	9	16	estimated
+Proxy2	20	COPD	ARG1_logCPM	at2_fraction	16	0.004314515146930197	-0.5786433285230593	0.5234501857807583	0.971	1000	971	29	pointwise_percentile	-0.011883128929815733	estimated_no_interval	9	16	estimated
+Proxy2	20	COPD	ARG1_logCPM	fibro_matrix_panel	10	0.5222329678670935			0.662	1000	662	338	too_many_undefined_resamples		fewer_than_6_residual_df	3	10	estimated
+Proxy2	20	COPD	ARG1_logCPM	fibro_only_matrix_panel	8	-0.41239304942116123			0.664	1000	664	336	too_many_undefined_resamples		fewer_than_6_residual_df	1	8	estimated
+Proxy2	20	pooled_diagnostic	FABP4_panel	matrix_mac_panel	73	-0.26749352091817846	-0.48455984980052264	-0.041012537446681735	1.0	1000	1000	0	pointwise_percentile	-0.32761043473914275	estimated_no_interval	64	73	estimated
+Proxy2	20	pooled_diagnostic	FABP4_panel	aberrant_fraction	66	0.020654009453576597	-0.21324944401757037	0.2714756219351692	1.0	1000	1000	0	pointwise_percentile	0.1442819431063843	estimated_no_interval	57	66	estimated
+Proxy2	20	pooled_diagnostic	FABP4_panel	at2_fraction	66	0.22814140635212357	-0.024858745862654782	0.4552548002619158	1.0	1000	1000	0	pointwise_percentile	0.06491306491598108	estimated_no_interval	57	66	estimated
+Proxy2	20	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	49	-0.21244897959183673	-0.48657915070223845	0.08572317798084335	1.0	1000	1000	0	pointwise_percentile	-0.015373664637796073	estimated_no_interval	40	49	estimated
+Proxy2	20	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	39	-0.31417004048582997	-0.6032608449182869	-0.02135592283109109	1.0	1000	1000	0	pointwise_percentile	-0.19497055401019714	estimated_no_interval	30	39	estimated
+Proxy2	20	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	66	0.28969681322582047	0.0474746594217045	0.5283347801592093	1.0	1000	1000	0	pointwise_percentile	-0.2317636082589366	estimated_no_interval	57	66	estimated
+Proxy2	20	pooled_diagnostic	matrix_mac_panel	at2_fraction	66	-0.397373941926894	-0.5898223301228233	-0.17090718578278885	1.0	1000	1000	0	pointwise_percentile	0.09809754301067924	estimated_no_interval	57	66	estimated
+Proxy2	20	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	49	0.4147959183673469	0.16800360772814796	0.6143075580241826	1.0	1000	1000	0	pointwise_percentile	0.045040743917222875	estimated_no_interval	40	49	estimated
+Proxy2	20	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	39	0.1439271255060729	-0.20825164147827316	0.47266008446871033	1.0	1000	1000	0	pointwise_percentile	0.002005473374338454	estimated_no_interval	30	39	estimated
+Proxy2	20	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	66	-0.04721530306850394	-0.2817449716939753	0.19489015669046555	1.0	1000	1000	0	pointwise_percentile	-0.019642787494807	estimated_no_interval	57	66	estimated
+Proxy2	20	pooled_diagnostic	ARG1_logCPM	at2_fraction	66	-0.013890247932206206	-0.28865293228330036	0.2596114397452659	1.0	1000	1000	0	pointwise_percentile	-0.13319229477416883	estimated_no_interval	57	66	estimated
+Proxy2	20	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	49	0.020840844599707177	-0.27011757790042257	0.3258735180127036	1.0	1000	1000	0	pointwise_percentile	0.041851611727978744	estimated_no_interval	40	49	estimated
+Proxy2	20	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	39	0.012262786789699318	-0.3109063605361451	0.33165956651971795	1.0	1000	1000	0	pointwise_percentile	-0.10826257444940376	estimated_no_interval	30	39	estimated
+Proxy2	50	Control	FABP4_panel	matrix_mac_panel	18	0.10835913312693499	-0.3977673390800653	0.554416507576793	1.0	1000	1000	0	pointwise_percentile	-0.47030818966153415	estimated_no_interval	11	18	estimated
+Proxy2	50	Control	FABP4_panel	aberrant_fraction	14					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	50	Control	FABP4_panel	at2_fraction	14	-0.02857142857142857	-0.6927548902034688	0.558632625914505	1.0	1000	1000	0	pointwise_percentile	-0.43464620876023563	estimated_no_interval	7	14	estimated
+Proxy2	50	Control	FABP4_panel	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	Control	FABP4_panel	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	Control	matrix_mac_panel	aberrant_fraction	14					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	50	Control	matrix_mac_panel	at2_fraction	14	0.4241758241758242	-0.04911820302445302	0.6920859930510664	1.0	1000	1000	0	pointwise_percentile	0.45772328012506613	estimated_no_interval	7	14	estimated
+Proxy2	50	Control	matrix_mac_panel	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	Control	matrix_mac_panel	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	Control	ARG1_logCPM	aberrant_fraction	14					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Proxy2	50	Control	ARG1_logCPM	at2_fraction	14	0.19958192136811007	-0.43511816883282506	0.7434083993214824	1.0	1000	1000	0	pointwise_percentile	0.15551712186310204	estimated_no_interval	7	14	estimated
+Proxy2	50	Control	ARG1_logCPM	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	Control	ARG1_logCPM	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	IPF	FABP4_panel	matrix_mac_panel	29	-0.4275862068965517	-0.6936496529700574	-0.06530246388080437	1.0	1000	1000	0	pointwise_percentile	-0.45790532301904113	estimated_no_interval	22	29	estimated
+Proxy2	50	IPF	FABP4_panel	aberrant_fraction	29	0.06354679802955664	-0.31354890747522757	0.4440533970777366	1.0	1000	1000	0	pointwise_percentile	0.12162614884047335	estimated_no_interval	22	29	estimated
+Proxy2	50	IPF	FABP4_panel	at2_fraction	29	0.24313339265588274	-0.17213174050866803	0.6053226761632597	1.0	1000	1000	0	pointwise_percentile	0.3920730639449201	estimated_no_interval	22	29	estimated
+Proxy2	50	IPF	FABP4_panel	fibro_matrix_panel	17	0.10049019607843139	-0.5420383718997117	0.6168215309078319	1.0	1000	1000	0	pointwise_percentile	0.09244603208888248	estimated_no_interval	10	17	estimated
+Proxy2	50	IPF	FABP4_panel	fibro_only_matrix_panel	10	-0.17575757575757575	-0.677028651572831	0.6079595588235293	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	50	IPF	matrix_mac_panel	aberrant_fraction	29	-0.31724137931034474	-0.6644280672643276	0.07457505637809422	1.0	1000	1000	0	pointwise_percentile	-0.4149901223455827	estimated_no_interval	22	29	estimated
+Proxy2	50	IPF	matrix_mac_panel	at2_fraction	29	-0.32565587141953084	-0.6434469892985004	0.0829515764585986	1.0	1000	1000	0	pointwise_percentile	-0.3859952406165597	estimated_no_interval	22	29	estimated
+Proxy2	50	IPF	matrix_mac_panel	fibro_matrix_panel	17	-0.10049019607843139	-0.5750309023485785	0.4042672425213958	1.0	1000	1000	0	pointwise_percentile	0.2927448747018187	estimated_no_interval	10	17	estimated
+Proxy2	50	IPF	matrix_mac_panel	fibro_only_matrix_panel	10	0.17575757575757575	-0.5541755130927105	0.8101564365894435	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	50	IPF	ARG1_logCPM	aberrant_fraction	29	-0.11297449720222166	-0.5005964310151299	0.2584063737457833	1.0	1000	1000	0	pointwise_percentile	-0.17869494614641246	estimated_no_interval	22	29	estimated
+Proxy2	50	IPF	ARG1_logCPM	at2_fraction	29	-0.28357335820021107	-0.5786255298282182	0.06636114627055992	1.0	1000	1000	0	pointwise_percentile	-0.354520228961871	estimated_no_interval	22	29	estimated
+Proxy2	50	IPF	ARG1_logCPM	fibro_matrix_panel	17	0.09467024849508944	-0.4602409380008603	0.5879132625260619	1.0	1000	1000	0	pointwise_percentile	-0.04835484492025222	estimated_no_interval	10	17	estimated
+Proxy2	50	IPF	ARG1_logCPM	fibro_only_matrix_panel	10	-0.00682788741998919	-0.6704138306899842	0.6609028541482118	0.995	1000	995	5	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Proxy2	50	COPD	FABP4_panel	matrix_mac_panel	12	-0.4825174825174825	-0.8933527287840611	0.1739652173913043	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	5	12	estimated
+Proxy2	50	COPD	FABP4_panel	aberrant_fraction	11	0.3527811580208691	-0.3613273962187986	0.8547103550485275	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	4	11	estimated
+Proxy2	50	COPD	FABP4_panel	at2_fraction	11	-0.16363636363636366	-0.8611271121351767	0.5307150595882988	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	4	11	estimated
+Proxy2	50	COPD	FABP4_panel	fibro_matrix_panel	6					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	COPD	FABP4_panel	fibro_only_matrix_panel	0					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	COPD	matrix_mac_panel	aberrant_fraction	11	0.11441551070947109	-0.48919627274617133	0.7400468734111249	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	4	11	estimated
+Proxy2	50	COPD	matrix_mac_panel	at2_fraction	11	0.4727272727272727	-0.2536441526649605	0.9816177466696768	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	4	11	estimated
+Proxy2	50	COPD	matrix_mac_panel	fibro_matrix_panel	6					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	COPD	matrix_mac_panel	fibro_only_matrix_panel	0					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	COPD	ARG1_logCPM	aberrant_fraction	11	0.20615528128088306	-0.4051999072147159	0.8257228238447705	0.966	1000	966	34	pointwise_percentile		fewer_than_6_residual_df	4	11	estimated
+Proxy2	50	COPD	ARG1_logCPM	at2_fraction	11	-0.034687296754716025	-0.6810763901055499	0.575464409663263	0.978	1000	978	22	pointwise_percentile		fewer_than_6_residual_df	4	11	estimated
+Proxy2	50	COPD	ARG1_logCPM	fibro_matrix_panel	6					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	COPD	ARG1_logCPM	fibro_only_matrix_panel	0					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Proxy2	50	pooled_diagnostic	FABP4_panel	matrix_mac_panel	59	-0.2736411455289305	-0.5184673127676103	-0.014192672635462976	1.0	1000	1000	0	pointwise_percentile	-0.34433264711832934	estimated_no_interval	50	59	estimated
+Proxy2	50	pooled_diagnostic	FABP4_panel	aberrant_fraction	54	-0.04905843945224959	-0.3050582602778691	0.2206313462737632	1.0	1000	1000	0	pointwise_percentile	0.1057944392709652	estimated_no_interval	45	54	estimated
+Proxy2	50	pooled_diagnostic	FABP4_panel	at2_fraction	54	0.21486973264303852	-0.03968385518664959	0.4614683058674069	1.0	1000	1000	0	pointwise_percentile	0.09957701701655294	estimated_no_interval	45	54	estimated
+Proxy2	50	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	27	-0.14713064713064714	-0.569382712058763	0.33262196477242967	1.0	1000	1000	0	pointwise_percentile	0.16525673165091112	estimated_no_interval	18	27	estimated
+Proxy2	50	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	14	-0.3362637362637363	-0.8479334677419355	0.32591658386200917	1.0	1000	1000	0	pointwise_percentile		constant_covariate	0	14	estimated
+Proxy2	50	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	54	0.3337460502130313	0.07432270832418186	0.5608977170997202	1.0	1000	1000	0	pointwise_percentile	-0.20220408778585586	estimated_no_interval	45	54	estimated
+Proxy2	50	pooled_diagnostic	matrix_mac_panel	at2_fraction	54	-0.4460157427099864	-0.6309307238632248	-0.2069014727369577	1.0	1000	1000	0	pointwise_percentile	-0.00809796176529866	estimated_no_interval	45	54	estimated
+Proxy2	50	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	27	0.45726495726495725	0.09251566864227809	0.7185928877988964	1.0	1000	1000	0	pointwise_percentile	0.3414679970105316	estimated_no_interval	18	27	estimated
+Proxy2	50	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	14	0.5692307692307692	0.027037337662337676	0.8926234419942474	1.0	1000	1000	0	pointwise_percentile		constant_covariate	0	14	estimated
+Proxy2	50	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	54	-0.03735901790515705	-0.29359753506990954	0.22399780237144162	1.0	1000	1000	0	pointwise_percentile	-0.036542112744914715	estimated_no_interval	45	54	estimated
+Proxy2	50	pooled_diagnostic	ARG1_logCPM	at2_fraction	54	-0.05948150669204678	-0.3472979058437228	0.22551078710417127	1.0	1000	1000	0	pointwise_percentile	-0.18042035348060148	estimated_no_interval	45	54	estimated
+Proxy2	50	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	27	0.17471982112190232	-0.2569791860673669	0.559429259975864	1.0	1000	1000	0	pointwise_percentile	0.3047172393425472	estimated_no_interval	18	27	estimated
+Proxy2	50	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	14	-0.15577125570193956	-0.6873827091242368	0.45903535218158165	1.0	1000	1000	0	pointwise_percentile		constant_covariate	0	14	estimated
+Macrophage	10	Control	FABP4_panel	matrix_mac_panel	28	-0.0049261083743842365	-0.40962148520288555	0.4394056744384114	1.0	1000	1000	0	pointwise_percentile	-0.13853202198534872	estimated_no_interval	21	28	estimated
+Macrophage	10	Control	FABP4_panel	aberrant_fraction	24					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	10	Control	FABP4_panel	at2_fraction	24	0.1417391304347826	-0.2602653053424173	0.4938554355758512	1.0	1000	1000	0	pointwise_percentile	0.10230844893427711	estimated_no_interval	17	24	estimated
+Macrophage	10	Control	FABP4_panel	fibro_matrix_panel	16	-0.03529411764705882	-0.5354506800251141	0.5158983448867613	1.0	1000	1000	0	pointwise_percentile	0.021272709189235597	estimated_no_interval	9	16	estimated
+Macrophage	10	Control	FABP4_panel	fibro_only_matrix_panel	15	-0.07142857142857141	-0.6831081486819192	0.5029675263065676	1.0	1000	1000	0	pointwise_percentile	0.18420611179739274	estimated_no_interval	8	15	estimated
+Macrophage	10	Control	matrix_mac_panel	aberrant_fraction	24					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	10	Control	matrix_mac_panel	at2_fraction	24	0.03217391304347826	-0.40198311947943044	0.40674488695663846	1.0	1000	1000	0	pointwise_percentile	-0.14688208185195045	estimated_no_interval	17	24	estimated
+Macrophage	10	Control	matrix_mac_panel	fibro_matrix_panel	16	0.08823529411764705	-0.3850282718367129	0.563906939439519	1.0	1000	1000	0	pointwise_percentile	0.20692553963938565	estimated_no_interval	9	16	estimated
+Macrophage	10	Control	matrix_mac_panel	fibro_only_matrix_panel	15	-0.06428571428571428	-0.610998959056211	0.5118029957916104	1.0	1000	1000	0	pointwise_percentile	-0.1015333979147586	estimated_no_interval	8	15	estimated
+Macrophage	10	Control	ARG1_logCPM	aberrant_fraction	24					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	10	Control	ARG1_logCPM	at2_fraction	24	0.17058318035784428	-0.24021045304056515	0.5381783638048653	1.0	1000	1000	0	pointwise_percentile	0.17433550362083505	estimated_no_interval	17	24	estimated
+Macrophage	10	Control	ARG1_logCPM	fibro_matrix_panel	16	-0.1250920132623678	-0.639399812364211	0.4224984498900072	1.0	1000	1000	0	pointwise_percentile	-0.19457765308557654	estimated_no_interval	9	16	estimated
+Macrophage	10	Control	ARG1_logCPM	fibro_only_matrix_panel	15	-0.3	-0.7060267686805111	0.310276003649635	1.0	1000	1000	0	pointwise_percentile	-0.1374254265686	estimated_no_interval	8	15	estimated
+Macrophage	10	IPF	FABP4_panel	matrix_mac_panel	32	-0.6242668621700879	-0.809601872655863	-0.35941244603548334	1.0	1000	1000	0	pointwise_percentile	-0.6273886635373277	estimated_no_interval	25	32	estimated
+Macrophage	10	IPF	FABP4_panel	aberrant_fraction	32	-0.07698652768104956	-0.4041630596238128	0.2516561551192255	1.0	1000	1000	0	pointwise_percentile	-0.0860024704669183	estimated_no_interval	25	32	estimated
+Macrophage	10	IPF	FABP4_panel	at2_fraction	32	0.280634223523064	-0.046743903679959474	0.5803966307806058	1.0	1000	1000	0	pointwise_percentile	0.26502428743826856	estimated_no_interval	25	32	estimated
+Macrophage	10	IPF	FABP4_panel	fibro_matrix_panel	27	-0.08974358974358974	-0.49423954410917315	0.3191178162044695	1.0	1000	1000	0	pointwise_percentile	-0.04299270968231181	estimated_no_interval	20	27	estimated
+Macrophage	10	IPF	FABP4_panel	fibro_only_matrix_panel	26	-0.14256410256410257	-0.5585957832975663	0.2668361660629701	1.0	1000	1000	0	pointwise_percentile	0.08531765701627783	estimated_no_interval	19	26	estimated
+Macrophage	10	IPF	matrix_mac_panel	aberrant_fraction	32	-0.26212079662833543	-0.5853927228566139	0.1364648157159177	1.0	1000	1000	0	pointwise_percentile	-0.228037313699793	estimated_no_interval	25	32	estimated
+Macrophage	10	IPF	matrix_mac_panel	at2_fraction	32	-0.28723306875286825	-0.6031218203928866	0.09146535395128212	1.0	1000	1000	0	pointwise_percentile	-0.2922300710417599	estimated_no_interval	25	32	estimated
+Macrophage	10	IPF	matrix_mac_panel	fibro_matrix_panel	27	-0.07997557997557997	-0.46509398392654705	0.3057821984284623	1.0	1000	1000	0	pointwise_percentile	-0.08045232283563529	estimated_no_interval	20	27	estimated
+Macrophage	10	IPF	matrix_mac_panel	fibro_only_matrix_panel	26	0.03111111111111111	-0.39379259692307544	0.45462517193947727	1.0	1000	1000	0	pointwise_percentile	-0.09795318923486364	estimated_no_interval	19	26	estimated
+Macrophage	10	IPF	ARG1_logCPM	aberrant_fraction	32	-0.22407628976338045	-0.5592378518896414	0.18682437997759183	1.0	1000	1000	0	pointwise_percentile	-0.2634091217309429	estimated_no_interval	25	32	estimated
+Macrophage	10	IPF	ARG1_logCPM	at2_fraction	32	-0.0781149749911621	-0.43434436577345	0.3064388630772453	1.0	1000	1000	0	pointwise_percentile	-0.07962917192280147	estimated_no_interval	25	32	estimated
+Macrophage	10	IPF	ARG1_logCPM	fibro_matrix_panel	27	-0.3561393456188535	-0.6341550528062229	0.041512175531624236	1.0	1000	1000	0	pointwise_percentile	-0.3976126653295069	estimated_no_interval	20	27	estimated
+Macrophage	10	IPF	ARG1_logCPM	fibro_only_matrix_panel	26	-0.08108110006089927	-0.4333308037524476	0.28153494677787255	1.0	1000	1000	0	pointwise_percentile	-0.1609561278244352	estimated_no_interval	19	26	estimated
+Macrophage	10	COPD	FABP4_panel	matrix_mac_panel	18	-0.16615067079463364	-0.6691833465889007	0.48757883404233004	1.0	1000	1000	0	pointwise_percentile	-0.0911659348629005	estimated_no_interval	11	18	estimated
+Macrophage	10	COPD	FABP4_panel	aberrant_fraction	18	0.35831717656123846	-0.11280711689525548	0.7365691819812206	1.0	1000	1000	0	pointwise_percentile	-0.001067176792248845	estimated_no_interval	11	18	estimated
+Macrophage	10	COPD	FABP4_panel	at2_fraction	18	-0.2198142414860681	-0.6974328095813647	0.3642264848720605	1.0	1000	1000	0	pointwise_percentile	-0.06266865427447402	estimated_no_interval	11	18	estimated
+Macrophage	10	COPD	FABP4_panel	fibro_matrix_panel	13	0.2747252747252747	-0.3428226180758951	0.7696742218778251	1.0	1000	1000	0	pointwise_percentile	0.3308730741089474	estimated_no_interval	6	13	estimated
+Macrophage	10	COPD	FABP4_panel	fibro_only_matrix_panel	10	-0.17575757575757575	-0.7610436320754718	0.5977987421383645	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	10	COPD	matrix_mac_panel	aberrant_fraction	18	-0.19735007570603597	-0.6177140414883263	0.3254451677961849	1.0	1000	1000	0	pointwise_percentile	-0.2029188118909836	estimated_no_interval	11	18	estimated
+Macrophage	10	COPD	matrix_mac_panel	at2_fraction	18	0.6676986584107326	0.2312650154663402	0.898276209317208	1.0	1000	1000	0	pointwise_percentile	0.7412354886740691	estimated_no_interval	11	18	estimated
+Macrophage	10	COPD	matrix_mac_panel	fibro_matrix_panel	13	0.33516483516483514	-0.22625066396252835	0.7135032102728731	1.0	1000	1000	0	pointwise_percentile	0.7515140794182888	estimated_no_interval	6	13	estimated
+Macrophage	10	COPD	matrix_mac_panel	fibro_only_matrix_panel	10	-0.2121212121212121	-0.851984126984127	0.6078986311505733	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	10	COPD	ARG1_logCPM	aberrant_fraction	18	0.2964671945111753	-0.18018147207105908	0.7489934409939488	1.0	1000	1000	0	pointwise_percentile	0.08930398282616589	estimated_no_interval	11	18	estimated
+Macrophage	10	COPD	ARG1_logCPM	at2_fraction	18	0.09565464531228472	-0.4791969841269393	0.597407307740509	1.0	1000	1000	0	pointwise_percentile	0.0654954985472553	estimated_no_interval	11	18	estimated
+Macrophage	10	COPD	ARG1_logCPM	fibro_matrix_panel	13	0.5265134638735808	-0.02587072218510952	0.9041671087646439	1.0	1000	1000	0	pointwise_percentile	0.33816043658453665	estimated_no_interval	6	13	estimated
+Macrophage	10	COPD	ARG1_logCPM	fibro_only_matrix_panel	10	0.1533857797849622	-0.7778076765989902	0.8563253391021295	0.999	1000	999	1	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	10	pooled_diagnostic	FABP4_panel	matrix_mac_panel	78	-0.17970636957978728	-0.4165388179068388	0.08125155392113849	1.0	1000	1000	0	pointwise_percentile	-0.29446871736294916	estimated_no_interval	69	78	estimated
+Macrophage	10	pooled_diagnostic	FABP4_panel	aberrant_fraction	74	0.0771275264001401	-0.14306006261589907	0.2914523825567465	1.0	1000	1000	0	pointwise_percentile	-0.011129915204300218	estimated_no_interval	65	74	estimated
+Macrophage	10	pooled_diagnostic	FABP4_panel	at2_fraction	74	0.11588729690641436	-0.13465145690221575	0.3343696618527259	1.0	1000	1000	0	pointwise_percentile	0.10264800366150706	estimated_no_interval	65	74	estimated
+Macrophage	10	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	56	-0.03349282296650718	-0.3113891980815867	0.25901252309587347	1.0	1000	1000	0	pointwise_percentile	0.0177876957923283	estimated_no_interval	47	56	estimated
+Macrophage	10	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	51	-0.10479638009049773	-0.411062044982327	0.20048740710602309	1.0	1000	1000	0	pointwise_percentile	-0.06842919475032669	estimated_no_interval	42	51	estimated
+Macrophage	10	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	74	0.4206856328298403	0.21709693142612776	0.6053724092599104	1.0	1000	1000	0	pointwise_percentile	-0.2194309477005888	estimated_no_interval	65	74	estimated
+Macrophage	10	pooled_diagnostic	matrix_mac_panel	at2_fraction	74	-0.4293235591079931	-0.6121646931135841	-0.18504793495832061	1.0	1000	1000	0	pointwise_percentile	0.07216881049058282	estimated_no_interval	65	74	estimated
+Macrophage	10	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	56	0.5385509227614491	0.321608477709249	0.7112227748003194	1.0	1000	1000	0	pointwise_percentile	0.11301518113903483	estimated_no_interval	47	56	estimated
+Macrophage	10	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	51	0.3635294117647059	0.09022536271956949	0.608962276525138	1.0	1000	1000	0	pointwise_percentile	0.037040531818098264	estimated_no_interval	42	51	estimated
+Macrophage	10	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	74	-0.14231030623767957	-0.3721058807785584	0.10055632759646914	1.0	1000	1000	0	pointwise_percentile	-0.001057726159486938	estimated_no_interval	65	74	estimated
+Macrophage	10	pooled_diagnostic	ARG1_logCPM	at2_fraction	74	0.22642692760135366	0.004873805520435895	0.42677555323220334	1.0	1000	1000	0	pointwise_percentile	0.07019538231966417	estimated_no_interval	65	74	estimated
+Macrophage	10	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	56	-0.18602778998214423	-0.45607609157307394	0.08700184926911243	1.0	1000	1000	0	pointwise_percentile	-0.03681419746878951	estimated_no_interval	47	56	estimated
+Macrophage	10	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	51	-0.17950358771273148	-0.4438987501651372	0.12198683595145052	1.0	1000	1000	0	pointwise_percentile	-0.0023649847355928814	estimated_no_interval	42	51	estimated
+Macrophage	20	Control	FABP4_panel	matrix_mac_panel	28	-0.0049261083743842365	-0.4149494318465781	0.4066660611178758	1.0	1000	1000	0	pointwise_percentile	-0.13853202198534872	estimated_no_interval	21	28	estimated
+Macrophage	20	Control	FABP4_panel	aberrant_fraction	20					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	20	Control	FABP4_panel	at2_fraction	20	0.05563909774436089	-0.4468504190844616	0.4843601271905419	1.0	1000	1000	0	pointwise_percentile	0.07084465773911801	estimated_no_interval	13	20	estimated
+Macrophage	20	Control	FABP4_panel	fibro_matrix_panel	13	-0.11538461538461539	-0.7333333333333333	0.5638196815250639	1.0	1000	1000	0	pointwise_percentile	0.014815263587314165	estimated_no_interval	6	13	estimated
+Macrophage	20	Control	FABP4_panel	fibro_only_matrix_panel	10	-0.0303030303030303	-0.8634368530020704	0.7437106918238993	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	20	Control	matrix_mac_panel	aberrant_fraction	20					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	20	Control	matrix_mac_panel	at2_fraction	20	0.03458646616541353	-0.42872340425531913	0.43053934967148416	1.0	1000	1000	0	pointwise_percentile	-0.02255815014890849	estimated_no_interval	13	20	estimated
+Macrophage	20	Control	matrix_mac_panel	fibro_matrix_panel	13	0.09890109890109891	-0.46723689961633724	0.6825687430945674	1.0	1000	1000	0	pointwise_percentile	0.26951621205388215	estimated_no_interval	6	13	estimated
+Macrophage	20	Control	matrix_mac_panel	fibro_only_matrix_panel	10	-0.0303030303030303	-0.7232704402515723	0.7107370283018867	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	20	Control	ARG1_logCPM	aberrant_fraction	20					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	20	Control	ARG1_logCPM	at2_fraction	20	0.3358437543592421	-0.07918256975383177	0.6615891017074594	1.0	1000	1000	0	pointwise_percentile	0.29056332266344664	estimated_no_interval	13	20	estimated
+Macrophage	20	Control	ARG1_logCPM	fibro_matrix_panel	13	-0.3131868131868132	-0.8186972980136838	0.4032617992075009	1.0	1000	1000	0	pointwise_percentile	-0.42031035236027414	estimated_no_interval	6	13	estimated
+Macrophage	20	Control	ARG1_logCPM	fibro_only_matrix_panel	10	0.1515151515151515	-0.6604828313605999	0.7766750776397513	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	20	IPF	FABP4_panel	matrix_mac_panel	32	-0.6242668621700879	-0.804377806799092	-0.3386296585830235	1.0	1000	1000	0	pointwise_percentile	-0.6273886635373277	estimated_no_interval	25	32	estimated
+Macrophage	20	IPF	FABP4_panel	aberrant_fraction	32	-0.07698652768104956	-0.36380636105196656	0.23860067033468538	1.0	1000	1000	0	pointwise_percentile	-0.0860024704669183	estimated_no_interval	25	32	estimated
+Macrophage	20	IPF	FABP4_panel	at2_fraction	32	0.280634223523064	-0.07873371370221197	0.6196901339334934	1.0	1000	1000	0	pointwise_percentile	0.26502428743826856	estimated_no_interval	25	32	estimated
+Macrophage	20	IPF	FABP4_panel	fibro_matrix_panel	26	-0.09128205128205127	-0.47254177217530624	0.30755917795854226	1.0	1000	1000	0	pointwise_percentile	-0.016638924668587022	estimated_no_interval	19	26	estimated
+Macrophage	20	IPF	FABP4_panel	fibro_only_matrix_panel	21	-0.11688311688311687	-0.4948084614423197	0.301535452205375	1.0	1000	1000	0	pointwise_percentile	0.2814134418540855	estimated_no_interval	14	21	estimated
+Macrophage	20	IPF	matrix_mac_panel	aberrant_fraction	32	-0.26212079662833543	-0.5991708946085716	0.10454925334522551	1.0	1000	1000	0	pointwise_percentile	-0.228037313699793	estimated_no_interval	25	32	estimated
+Macrophage	20	IPF	matrix_mac_panel	at2_fraction	32	-0.28723306875286825	-0.6032103596521106	0.06826917862374544	1.0	1000	1000	0	pointwise_percentile	-0.2922300710417599	estimated_no_interval	25	32	estimated
+Macrophage	20	IPF	matrix_mac_panel	fibro_matrix_panel	26	-0.07282051282051281	-0.43155027396897666	0.3026930477098618	1.0	1000	1000	0	pointwise_percentile	-0.09256319322488421	estimated_no_interval	19	26	estimated
+Macrophage	20	IPF	matrix_mac_panel	fibro_only_matrix_panel	21	-0.032467532467532464	-0.48399663388843744	0.4633579144680528	1.0	1000	1000	0	pointwise_percentile	-0.28395982908015777	estimated_no_interval	14	21	estimated
+Macrophage	20	IPF	ARG1_logCPM	aberrant_fraction	32	-0.22407628976338045	-0.5472104735221044	0.19533429593485405	1.0	1000	1000	0	pointwise_percentile	-0.2634091217309429	estimated_no_interval	25	32	estimated
+Macrophage	20	IPF	ARG1_logCPM	at2_fraction	32	-0.0781149749911621	-0.4415153532135767	0.35740368282638285	1.0	1000	1000	0	pointwise_percentile	-0.07962917192280147	estimated_no_interval	25	32	estimated
+Macrophage	20	IPF	ARG1_logCPM	fibro_matrix_panel	26	-0.3383510884397864	-0.6297973483075621	0.03144131918743317	1.0	1000	1000	0	pointwise_percentile	-0.3743680732818308	estimated_no_interval	19	26	estimated
+Macrophage	20	IPF	ARG1_logCPM	fibro_only_matrix_panel	21	0.13835661658583467	-0.31270847573489696	0.5511331754229358	1.0	1000	1000	0	pointwise_percentile	0.11794715553811912	estimated_no_interval	14	21	estimated
+Macrophage	20	COPD	FABP4_panel	matrix_mac_panel	17	-0.303921568627451	-0.7310087173100872	0.3176028476135284	1.0	1000	1000	0	pointwise_percentile	-0.047462784019188624	estimated_no_interval	10	17	estimated
+Macrophage	20	COPD	FABP4_panel	aberrant_fraction	17	0.309241150993009	-0.19956663004330114	0.7025325600430917	1.0	1000	1000	0	pointwise_percentile	0.001951022083961604	estimated_no_interval	10	17	estimated
+Macrophage	20	COPD	FABP4_panel	at2_fraction	17	-0.303921568627451	-0.75466200412644	0.28964391095243347	1.0	1000	1000	0	pointwise_percentile	-0.04779421428219554	estimated_no_interval	10	17	estimated
+Macrophage	20	COPD	FABP4_panel	fibro_matrix_panel	10	0.6121212121212121	-0.05092958860759492	0.8996140651801027	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	20	COPD	FABP4_panel	fibro_only_matrix_panel	8	0.09523809523809526	-0.7722925457102672	0.8461538461538461	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+Macrophage	20	COPD	matrix_mac_panel	aberrant_fraction	17	-0.29242050261263614	-0.7195479448409197	0.2383658513427498	1.0	1000	1000	0	pointwise_percentile	-0.16058887114936451	estimated_no_interval	10	17	estimated
+Macrophage	20	COPD	matrix_mac_panel	at2_fraction	17	0.6372549019607844	0.15526285218630442	0.9031145839739253	1.0	1000	1000	0	pointwise_percentile	0.6666484920526385	estimated_no_interval	10	17	estimated
+Macrophage	20	COPD	matrix_mac_panel	fibro_matrix_panel	10	0.49090909090909085	-0.3039069341612929	0.8272331154684095	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	20	COPD	matrix_mac_panel	fibro_only_matrix_panel	8	-0.2142857142857143	-0.9265277777777777	0.6153846153846154	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+Macrophage	20	COPD	ARG1_logCPM	aberrant_fraction	17	0.25152963135459416	-0.24272555701049287	0.7570175803121122	1.0	1000	1000	0	pointwise_percentile	0.10129326511449929	estimated_no_interval	10	17	estimated
+Macrophage	20	COPD	ARG1_logCPM	at2_fraction	17	0.07444741749862122	-0.5029297675197437	0.5793609013463508	1.0	1000	1000	0	pointwise_percentile	0.0850587405446893	estimated_no_interval	10	17	estimated
+Macrophage	20	COPD	ARG1_logCPM	fibro_matrix_panel	10	0.3865321650581048	-0.3885191841165505	0.8064516129032258	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	20	COPD	ARG1_logCPM	fibro_only_matrix_panel	8	0.34156502553198664	-0.7261293792191177	0.9612755239323388	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+Macrophage	20	pooled_diagnostic	FABP4_panel	matrix_mac_panel	77	-0.21228771228771226	-0.42702769869827495	0.04610558957726898	1.0	1000	1000	0	pointwise_percentile	-0.31013563717243636	estimated_no_interval	68	77	estimated
+Macrophage	20	pooled_diagnostic	FABP4_panel	aberrant_fraction	69	-0.017790281575461333	-0.25958321903173665	0.19820545503100387	1.0	1000	1000	0	pointwise_percentile	-0.011493783708454254	estimated_no_interval	60	69	estimated
+Macrophage	20	pooled_diagnostic	FABP4_panel	at2_fraction	69	0.17713471457620109	-0.06603946278747808	0.41369137529642486	1.0	1000	1000	0	pointwise_percentile	0.11831086935937438	estimated_no_interval	60	69	estimated
+Macrophage	20	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	49	-0.02704081632653061	-0.3177293541390227	0.2774605985643039	1.0	1000	1000	0	pointwise_percentile	0.07672084936389395	estimated_no_interval	40	49	estimated
+Macrophage	20	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	39	-0.06761133603238867	-0.3956134540170754	0.2866562958716501	1.0	1000	1000	0	pointwise_percentile	0.06948053608599748	estimated_no_interval	30	39	estimated
+Macrophage	20	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	69	0.3616213184122445	0.11902196342624831	0.5693244068535998	1.0	1000	1000	0	pointwise_percentile	-0.22572317964418384	estimated_no_interval	60	69	estimated
+Macrophage	20	pooled_diagnostic	matrix_mac_panel	at2_fraction	69	-0.42613906272735835	-0.6208204271254267	-0.19527488255001255	1.0	1000	1000	0	pointwise_percentile	0.0646939329923985	estimated_no_interval	60	69	estimated
+Macrophage	20	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	49	0.4853061224489796	0.23046700874547452	0.6808742210071942	1.0	1000	1000	0	pointwise_percentile	0.04900677565826643	estimated_no_interval	40	49	estimated
+Macrophage	20	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	39	0.20607287449392714	-0.11019544970283109	0.5025384546404041	1.0	1000	1000	0	pointwise_percentile	-0.06812517952921622	estimated_no_interval	30	39	estimated
+Macrophage	20	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	69	-0.10546654737139678	-0.34933055954234954	0.13238471737946753	1.0	1000	1000	0	pointwise_percentile	-0.010428842922044823	estimated_no_interval	60	69	estimated
+Macrophage	20	pooled_diagnostic	ARG1_logCPM	at2_fraction	69	0.20077655112052628	-0.06311956800627802	0.416621188833585	1.0	1000	1000	0	pointwise_percentile	0.07497631243328068	estimated_no_interval	60	69	estimated
+Macrophage	20	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	49	-0.28469270907433136	-0.5431727033854584	0.011907468173600695	1.0	1000	1000	0	pointwise_percentile	-0.1529868696323399	estimated_no_interval	40	49	estimated
+Macrophage	20	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	39	0.12583036285338595	-0.22752622631142497	0.41042051361796755	1.0	1000	1000	0	pointwise_percentile	0.20640252239479587	estimated_no_interval	30	39	estimated
+Macrophage	50	Control	FABP4_panel	matrix_mac_panel	27	-0.01587301587301587	-0.4366527292229461	0.4251793490791148	1.0	1000	1000	0	pointwise_percentile	-0.16091588197574727	estimated_no_interval	20	27	estimated
+Macrophage	50	Control	FABP4_panel	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	50	Control	FABP4_panel	at2_fraction	18	-0.1455108359133127	-0.6645576213080169	0.41153943676813437	1.0	1000	1000	0	pointwise_percentile	-0.15139248994802418	estimated_no_interval	11	18	estimated
+Macrophage	50	Control	FABP4_panel	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	Control	FABP4_panel	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	Control	matrix_mac_panel	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	50	Control	matrix_mac_panel	at2_fraction	18	-0.06501547987616099	-0.5109400220282022	0.393195545674543	1.0	1000	1000	0	pointwise_percentile	0.06815145777855942	estimated_no_interval	11	18	estimated
+Macrophage	50	Control	matrix_mac_panel	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	Control	matrix_mac_panel	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	Control	ARG1_logCPM	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+Macrophage	50	Control	ARG1_logCPM	at2_fraction	18	0.21579765395152098	-0.2813496056913629	0.6384712948887239	1.0	1000	1000	0	pointwise_percentile	0.12945880931837062	estimated_no_interval	11	18	estimated
+Macrophage	50	Control	ARG1_logCPM	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	Control	ARG1_logCPM	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	IPF	FABP4_panel	matrix_mac_panel	32	-0.6242668621700879	-0.7998758100644563	-0.36336999647313595	1.0	1000	1000	0	pointwise_percentile	-0.6273886635373277	estimated_no_interval	25	32	estimated
+Macrophage	50	IPF	FABP4_panel	aberrant_fraction	32	-0.07698652768104956	-0.37142151313420335	0.24629127837321593	1.0	1000	1000	0	pointwise_percentile	-0.0860024704669183	estimated_no_interval	25	32	estimated
+Macrophage	50	IPF	FABP4_panel	at2_fraction	32	0.280634223523064	-0.0731200744236848	0.6108556887969906	1.0	1000	1000	0	pointwise_percentile	0.26502428743826856	estimated_no_interval	25	32	estimated
+Macrophage	50	IPF	FABP4_panel	fibro_matrix_panel	18	-0.27347781217750256	-0.6846665369986169	0.2448189517681345	1.0	1000	1000	0	pointwise_percentile	-0.30409394066611684	estimated_no_interval	11	18	estimated
+Macrophage	50	IPF	FABP4_panel	fibro_only_matrix_panel	10	-0.38181818181818183	-0.8134837962962962	0.30784313725490137	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	50	IPF	matrix_mac_panel	aberrant_fraction	32	-0.26212079662833543	-0.6002559007703688	0.08408613258652717	1.0	1000	1000	0	pointwise_percentile	-0.228037313699793	estimated_no_interval	25	32	estimated
+Macrophage	50	IPF	matrix_mac_panel	at2_fraction	32	-0.28723306875286825	-0.5975633317279583	0.07506135884553403	1.0	1000	1000	0	pointwise_percentile	-0.2922300710417599	estimated_no_interval	25	32	estimated
+Macrophage	50	IPF	matrix_mac_panel	fibro_matrix_panel	18	0.07533539731682146	-0.3451549429458925	0.46222209213646137	1.0	1000	1000	0	pointwise_percentile	0.26292900097641825	estimated_no_interval	11	18	estimated
+Macrophage	50	IPF	matrix_mac_panel	fibro_only_matrix_panel	10	-0.13939393939393938	-0.860803006329114	0.5629279458598723	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	50	IPF	ARG1_logCPM	aberrant_fraction	32	-0.22407628976338045	-0.5636673186347853	0.1602583275981721	1.0	1000	1000	0	pointwise_percentile	-0.2634091217309429	estimated_no_interval	25	32	estimated
+Macrophage	50	IPF	ARG1_logCPM	at2_fraction	32	-0.0781149749911621	-0.430515705853588	0.30436481554898187	1.0	1000	1000	0	pointwise_percentile	-0.07962917192280147	estimated_no_interval	25	32	estimated
+Macrophage	50	IPF	ARG1_logCPM	fibro_matrix_panel	18	-0.20785980341983645	-0.5834966319817028	0.32077470399625996	1.0	1000	1000	0	pointwise_percentile	-0.05886750687512146	estimated_no_interval	11	18	estimated
+Macrophage	50	IPF	ARG1_logCPM	fibro_only_matrix_panel	10	0.1515151515151515	-0.6604828313605999	0.720046357615894	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+Macrophage	50	COPD	FABP4_panel	matrix_mac_panel	17	-0.303921568627451	-0.7429226328033228	0.28915718499789267	1.0	1000	1000	0	pointwise_percentile	-0.047462784019188624	estimated_no_interval	10	17	estimated
+Macrophage	50	COPD	FABP4_panel	aberrant_fraction	15	0.2484646732989441	-0.2816790856393632	0.6965689113858253	1.0	1000	1000	0	pointwise_percentile	0.026240282087786258	estimated_no_interval	8	15	estimated
+Macrophage	50	COPD	FABP4_panel	at2_fraction	15	-0.2071428571428571	-0.6954007167018319	0.4432508735797096	1.0	1000	1000	0	pointwise_percentile	-0.08529529079840985	estimated_no_interval	8	15	estimated
+Macrophage	50	COPD	FABP4_panel	fibro_matrix_panel	8	0.4285714285714286	-0.4492794486215538	0.8987341772151899	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+Macrophage	50	COPD	FABP4_panel	fibro_only_matrix_panel	1					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	COPD	matrix_mac_panel	aberrant_fraction	15	-0.39528470752104744	-0.791419966721619	0.13470005749519418	1.0	1000	1000	0	pointwise_percentile	-0.29462023073464316	estimated_no_interval	8	15	estimated
+Macrophage	50	COPD	matrix_mac_panel	at2_fraction	15	0.8178571428571428	0.5027194621344531	0.94573814229249	1.0	1000	1000	0	pointwise_percentile	0.8840373126599903	estimated_no_interval	8	15	estimated
+Macrophage	50	COPD	matrix_mac_panel	fibro_matrix_panel	8	0.4761904761904762	-0.3333333333333333	0.8987341772151899	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+Macrophage	50	COPD	matrix_mac_panel	fibro_only_matrix_panel	1					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	COPD	ARG1_logCPM	aberrant_fraction	15	0.3872034527420988	-0.15776529381426696	0.8290951593485452	1.0	1000	1000	0	pointwise_percentile	0.2644032852247661	estimated_no_interval	8	15	estimated
+Macrophage	50	COPD	ARG1_logCPM	at2_fraction	15	-0.06910233190806425	-0.6319927150167768	0.5727551106329116	1.0	1000	1000	0	pointwise_percentile	-0.010771210944478263	estimated_no_interval	8	15	estimated
+Macrophage	50	COPD	ARG1_logCPM	fibro_matrix_panel	8	0.26837252006084666	-0.7476851049072307	0.8109408561216669	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+Macrophage	50	COPD	ARG1_logCPM	fibro_only_matrix_panel	1					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+Macrophage	50	pooled_diagnostic	FABP4_panel	matrix_mac_panel	76	-0.22859876965140122	-0.4826503551975383	0.03186065831271467	1.0	1000	1000	0	pointwise_percentile	-0.3076881986793569	estimated_no_interval	67	76	estimated
+Macrophage	50	pooled_diagnostic	FABP4_panel	aberrant_fraction	65	-0.07420917219022508	-0.3142259775959821	0.184501612760402	1.0	1000	1000	0	pointwise_percentile	-0.011474006349676501	estimated_no_interval	56	65	estimated
+Macrophage	50	pooled_diagnostic	FABP4_panel	at2_fraction	65	0.16300440346693637	-0.11264094616557466	0.3960035031922539	1.0	1000	1000	0	pointwise_percentile	0.09458781104610493	estimated_no_interval	56	65	estimated
+Macrophage	50	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	30	-0.09365962180200223	-0.45246596741798706	0.34075457193924624	1.0	1000	1000	0	pointwise_percentile	-0.058343639017165966	estimated_no_interval	21	30	estimated
+Macrophage	50	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	15	-0.04642857142857142	-0.5846745826709062	0.5315372541325355	1.0	1000	1000	0	pointwise_percentile	-0.08910906822780146	estimated_no_interval	6	15	estimated
+Macrophage	50	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	65	0.33825048717757233	0.0948344260263339	0.5594663741977054	1.0	1000	1000	0	pointwise_percentile	-0.2348390346021737	estimated_no_interval	56	65	estimated
+Macrophage	50	pooled_diagnostic	matrix_mac_panel	at2_fraction	65	-0.48062151031617256	-0.6560292629356967	-0.24771575971283413	1.0	1000	1000	0	pointwise_percentile	0.03346260955617624	estimated_no_interval	56	65	estimated
+Macrophage	50	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	30	0.5016685205784205	0.1641129820361323	0.7357985183730866	1.0	1000	1000	0	pointwise_percentile	0.392263560747855	estimated_no_interval	21	30	estimated
+Macrophage	50	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	15	0.48214285714285704	-0.08090572759660179	0.8175605179595035	1.0	1000	1000	0	pointwise_percentile	-0.08434365127904012	estimated_no_interval	6	15	estimated
+Macrophage	50	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	65	-0.13235020538596234	-0.37348231121890907	0.12673383832249177	1.0	1000	1000	0	pointwise_percentile	0.028705206557623958	estimated_no_interval	56	65	estimated
+Macrophage	50	pooled_diagnostic	ARG1_logCPM	at2_fraction	65	0.13755303816870942	-0.13742301544916743	0.3916568542998299	1.0	1000	1000	0	pointwise_percentile	-0.05223679139747543	estimated_no_interval	56	65	estimated
+Macrophage	50	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	30	-0.10096459820898182	-0.4562800193550791	0.2762475430965823	1.0	1000	1000	0	pointwise_percentile	-0.050065441308756134	estimated_no_interval	21	30	estimated
+Macrophage	50	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	15	0.1894549460712256	-0.4398745893218765	0.7289489000325993	1.0	1000	1000	0	pointwise_percentile	0.35306358227997114	estimated_no_interval	6	15	estimated
+AllMacrophages	10	Control	FABP4_panel	matrix_mac_panel	28	-0.5703338806787082	-0.7485560591412631	-0.24450276808348595	1.0	1000	1000	0	pointwise_percentile	-0.5830938914047339	estimated_no_interval	21	28	estimated
+AllMacrophages	10	Control	FABP4_panel	aberrant_fraction	24					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	10	Control	FABP4_panel	at2_fraction	24	0.07043478260869565	-0.3857946323800068	0.4932498105323882	1.0	1000	1000	0	pointwise_percentile	-0.1409669804851161	estimated_no_interval	17	24	estimated
+AllMacrophages	10	Control	FABP4_panel	fibro_matrix_panel	16	-0.24705882352941175	-0.7451274362818591	0.36872355289421116	1.0	1000	1000	0	pointwise_percentile	-0.23605525682145034	estimated_no_interval	9	16	estimated
+AllMacrophages	10	Control	FABP4_panel	fibro_only_matrix_panel	15	-0.37857142857142856	-0.7978399882680345	0.1994391977508512	1.0	1000	1000	0	pointwise_percentile	0.004764568139819845	estimated_no_interval	8	15	estimated
+AllMacrophages	10	Control	matrix_mac_panel	aberrant_fraction	24					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	10	Control	matrix_mac_panel	at2_fraction	24	-0.09043478260869564	-0.5513246312654487	0.35301658928578256	1.0	1000	1000	0	pointwise_percentile	-0.10915494126204284	estimated_no_interval	17	24	estimated
+AllMacrophages	10	Control	matrix_mac_panel	fibro_matrix_panel	16	0.055882352941176466	-0.5338456966880977	0.6236774398115643	1.0	1000	1000	0	pointwise_percentile	0.3371624247386449	estimated_no_interval	9	16	estimated
+AllMacrophages	10	Control	matrix_mac_panel	fibro_only_matrix_panel	15	-0.017857142857142853	-0.6230538243236743	0.6349131704163171	1.0	1000	1000	0	pointwise_percentile	-0.2960789342843961	estimated_no_interval	8	15	estimated
+AllMacrophages	10	Control	ARG1_logCPM	aberrant_fraction	24					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	10	Control	ARG1_logCPM	at2_fraction	24	0.03652173913043478	-0.45813774889862097	0.5100724083088564	1.0	1000	1000	0	pointwise_percentile	0.027461681697713583	estimated_no_interval	17	24	estimated
+AllMacrophages	10	Control	ARG1_logCPM	fibro_matrix_panel	16	-0.18529411764705883	-0.7040798512783267	0.41372134861407245	1.0	1000	1000	0	pointwise_percentile	-0.046783394859775576	estimated_no_interval	9	16	estimated
+AllMacrophages	10	Control	ARG1_logCPM	fibro_only_matrix_panel	15	-0.2607142857142857	-0.7707749627421758	0.41179043712810753	1.0	1000	1000	0	pointwise_percentile	-0.07530726741021959	estimated_no_interval	8	15	estimated
+AllMacrophages	10	IPF	FABP4_panel	matrix_mac_panel	32	-0.7441348973607038	-0.8589040515228367	-0.553081086391227	1.0	1000	1000	0	pointwise_percentile	-0.7321679716814719	estimated_no_interval	25	32	estimated
+AllMacrophages	10	IPF	FABP4_panel	aberrant_fraction	32	-0.1613051056174372	-0.4498319748433408	0.16578315642583105	1.0	1000	1000	0	pointwise_percentile	-0.2028527296255994	estimated_no_interval	25	32	estimated
+AllMacrophages	10	IPF	FABP4_panel	at2_fraction	32	0.15085693400358044	-0.21026955115220833	0.5008730503016339	1.0	1000	1000	0	pointwise_percentile	0.19113348986799134	estimated_no_interval	25	32	estimated
+AllMacrophages	10	IPF	FABP4_panel	fibro_matrix_panel	27	-0.1398046398046398	-0.5721719061113263	0.30823694760588255	1.0	1000	1000	0	pointwise_percentile	-0.0006406207714070932	estimated_no_interval	20	27	estimated
+AllMacrophages	10	IPF	FABP4_panel	fibro_only_matrix_panel	26	-0.23965811965811962	-0.6053141015374759	0.1780148628964971	1.0	1000	1000	0	pointwise_percentile	0.08445058939316553	estimated_no_interval	19	26	estimated
+AllMacrophages	10	IPF	matrix_mac_panel	aberrant_fraction	32	-0.15470626038763294	-0.4493145117462793	0.1929562117778776	1.0	1000	1000	0	pointwise_percentile	-0.09870220067158723	estimated_no_interval	25	32	estimated
+AllMacrophages	10	IPF	matrix_mac_panel	at2_fraction	32	-0.34405645823173814	-0.5925932731996225	-0.004593749561457956	1.0	1000	1000	0	pointwise_percentile	-0.41467022676909215	estimated_no_interval	25	32	estimated
+AllMacrophages	10	IPF	matrix_mac_panel	fibro_matrix_panel	27	-0.05128205128205128	-0.5075900212379593	0.3876852304450926	1.0	1000	1000	0	pointwise_percentile	-0.12380880746631301	estimated_no_interval	20	27	estimated
+AllMacrophages	10	IPF	matrix_mac_panel	fibro_only_matrix_panel	26	0.1275213675213675	-0.3280721919149135	0.5637783991565748	1.0	1000	1000	0	pointwise_percentile	-0.13720047305249605	estimated_no_interval	19	26	estimated
+AllMacrophages	10	IPF	ARG1_logCPM	aberrant_fraction	32	-0.01924663192026239	-0.39857741536219593	0.3728586919786379	1.0	1000	1000	0	pointwise_percentile	-0.031833220728505536	estimated_no_interval	25	32	estimated
+AllMacrophages	10	IPF	ARG1_logCPM	at2_fraction	32	0.1514068377727308	-0.24204691947013943	0.5272515545451977	1.0	1000	1000	0	pointwise_percentile	0.23331072736816527	estimated_no_interval	25	32	estimated
+AllMacrophages	10	IPF	ARG1_logCPM	fibro_matrix_panel	27	-0.20024420024420023	-0.5651780789947762	0.2107840535851386	1.0	1000	1000	0	pointwise_percentile	-0.22568485589207493	estimated_no_interval	20	27	estimated
+AllMacrophages	10	IPF	ARG1_logCPM	fibro_only_matrix_panel	26	0.027692307692307693	-0.3465556235758256	0.41029409397209327	1.0	1000	1000	0	pointwise_percentile	0.08400146793682761	estimated_no_interval	19	26	estimated
+AllMacrophages	10	COPD	FABP4_panel	matrix_mac_panel	18	-0.1413828689370485	-0.6093982267982588	0.38663651901438534	1.0	1000	1000	0	pointwise_percentile	0.4560217936839303	estimated_no_interval	11	18	estimated
+AllMacrophages	10	COPD	FABP4_panel	aberrant_fraction	18	0.10914892455250033	-0.3901827048488512	0.592666715823894	1.0	1000	1000	0	pointwise_percentile	-0.15152266002859077	estimated_no_interval	11	18	estimated
+AllMacrophages	10	COPD	FABP4_panel	at2_fraction	18	0.08565531475748193	-0.4043161997885835	0.5724459512578615	1.0	1000	1000	0	pointwise_percentile	0.5156590972697689	estimated_no_interval	11	18	estimated
+AllMacrophages	10	COPD	FABP4_panel	fibro_matrix_panel	13	0.19780219780219782	-0.3872408573457238	0.6704650958044531	1.0	1000	1000	0	pointwise_percentile	0.6710408849951054	estimated_no_interval	6	13	estimated
+AllMacrophages	10	COPD	FABP4_panel	fibro_only_matrix_panel	10	-0.13939393939393938	-0.7610987791342952	0.6030286413295647	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	10	COPD	matrix_mac_panel	aberrant_fraction	18	-0.4421082701570973	-0.7239990298784691	-0.027192750945534715	1.0	1000	1000	0	pointwise_percentile	-0.2958764210412165	estimated_no_interval	11	18	estimated
+AllMacrophages	10	COPD	matrix_mac_panel	at2_fraction	18	0.5479876160990712	0.12725003331408521	0.7683013804938298	1.0	1000	1000	0	pointwise_percentile	0.5018975104260401	estimated_no_interval	11	18	estimated
+AllMacrophages	10	COPD	matrix_mac_panel	fibro_matrix_panel	13	-0.15934065934065936	-0.7470974367400591	0.43181534452220993	1.0	1000	1000	0	pointwise_percentile	0.16840800915140916	estimated_no_interval	6	13	estimated
+AllMacrophages	10	COPD	matrix_mac_panel	fibro_only_matrix_panel	10	-0.11515151515151514	-0.7777777777777778	0.5385416666666666	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	10	COPD	ARG1_logCPM	aberrant_fraction	18	0.2414506512828038	-0.2687603761395608	0.6448012642781925	1.0	1000	1000	0	pointwise_percentile	0.084767539537806	estimated_no_interval	11	18	estimated
+AllMacrophages	10	COPD	ARG1_logCPM	at2_fraction	18	-0.04231166150670795	-0.5088586936450592	0.4289276674454828	1.0	1000	1000	0	pointwise_percentile	-0.4559724005646712	estimated_no_interval	11	18	estimated
+AllMacrophages	10	COPD	ARG1_logCPM	fibro_matrix_panel	13	-0.10989010989010989	-0.5955302582298443	0.4160833813833386	1.0	1000	1000	0	pointwise_percentile	-0.585541782534218	estimated_no_interval	6	13	estimated
+AllMacrophages	10	COPD	ARG1_logCPM	fibro_only_matrix_panel	10	0.09090909090909088	-0.7654320987654321	0.9017928756782255	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	10	pooled_diagnostic	FABP4_panel	matrix_mac_panel	78	-0.6780434755118299	-0.7696449359720605	-0.5524528634240674	1.0	1000	1000	0	pointwise_percentile	-0.5481857061711083	estimated_no_interval	69	78	estimated
+AllMacrophages	10	pooled_diagnostic	FABP4_panel	aberrant_fraction	74	-0.2113372525421098	-0.4134684858289423	-0.0015779461664226675	1.0	1000	1000	0	pointwise_percentile	-0.13507555777192823	estimated_no_interval	65	74	estimated
+AllMacrophages	10	pooled_diagnostic	FABP4_panel	at2_fraction	74	0.36402680612903066	0.14564678336587455	0.5498084947358242	1.0	1000	1000	0	pointwise_percentile	0.0756823890277629	estimated_no_interval	65	74	estimated
+AllMacrophages	10	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	56	-0.43465481886534524	-0.6320350225264539	-0.17467364494334103	1.0	1000	1000	0	pointwise_percentile	-0.08163692123177868	estimated_no_interval	47	56	estimated
+AllMacrophages	10	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	51	-0.5198190045248868	-0.6987185492953483	-0.2912501090767352	1.0	1000	1000	0	pointwise_percentile	-0.21003269682034717	estimated_no_interval	42	51	estimated
+AllMacrophages	10	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	74	0.31670050078985446	0.07611342529273417	0.5352944440259505	1.0	1000	1000	0	pointwise_percentile	-0.16002836990434963	estimated_no_interval	65	74	estimated
+AllMacrophages	10	pooled_diagnostic	matrix_mac_panel	at2_fraction	74	-0.4985597396878636	-0.6581466097396522	-0.3041173588120028	1.0	1000	1000	0	pointwise_percentile	-0.07186740194943238	estimated_no_interval	65	74	estimated
+AllMacrophages	10	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	56	0.5000683526999317	0.3067693247445564	0.6746709881940914	1.0	1000	1000	0	pointwise_percentile	0.021120236596601342	estimated_no_interval	47	56	estimated
+AllMacrophages	10	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	51	0.45936651583710403	0.19320403989331364	0.6645581107801241	1.0	1000	1000	0	pointwise_percentile	0.04117895334967778	estimated_no_interval	42	51	estimated
+AllMacrophages	10	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	74	-0.18988389488496135	-0.40044877961082975	0.022542191612504935	1.0	1000	1000	0	pointwise_percentile	0.0027588118452443605	estimated_no_interval	65	74	estimated
+AllMacrophages	10	pooled_diagnostic	ARG1_logCPM	at2_fraction	74	0.2935339594309183	0.0636317036220443	0.5090386343065968	1.0	1000	1000	0	pointwise_percentile	0.10839505746487617	estimated_no_interval	65	74	estimated
+AllMacrophages	10	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	56	-0.29309637730690363	-0.5142086269325957	-0.042768887075467193	1.0	1000	1000	0	pointwise_percentile	-0.1324293100019511	estimated_no_interval	47	56	estimated
+AllMacrophages	10	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	51	-0.1706787330316742	-0.45309802090031814	0.13583113725745863	1.0	1000	1000	0	pointwise_percentile	0.01208879993156307	estimated_no_interval	42	51	estimated
+AllMacrophages	20	Control	FABP4_panel	matrix_mac_panel	28	-0.5703338806787082	-0.7545550706863277	-0.25869981235716677	1.0	1000	1000	0	pointwise_percentile	-0.5830938914047339	estimated_no_interval	21	28	estimated
+AllMacrophages	20	Control	FABP4_panel	aberrant_fraction	20					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	20	Control	FABP4_panel	at2_fraction	20	0.004511278195488721	-0.5078101903178122	0.46437032114586474	1.0	1000	1000	0	pointwise_percentile	-0.18671921981501796	estimated_no_interval	13	20	estimated
+AllMacrophages	20	Control	FABP4_panel	fibro_matrix_panel	13	-0.4230769230769231	-0.9155280714759471	0.30688004688720993	1.0	1000	1000	0	pointwise_percentile	-0.08489305519721599	estimated_no_interval	6	13	estimated
+AllMacrophages	20	Control	FABP4_panel	fibro_only_matrix_panel	10	-0.32121212121212117	-0.8390743616287094	0.45809089064719005	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	20	Control	matrix_mac_panel	aberrant_fraction	20					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	20	Control	matrix_mac_panel	at2_fraction	20	-0.06616541353383458	-0.5362774829416225	0.4138377887745573	1.0	1000	1000	0	pointwise_percentile	-0.06837660587219124	estimated_no_interval	13	20	estimated
+AllMacrophages	20	Control	matrix_mac_panel	fibro_matrix_panel	13	0.12087912087912088	-0.5755293178724004	0.7134875153499796	1.0	1000	1000	0	pointwise_percentile	0.21740137431891887	estimated_no_interval	6	13	estimated
+AllMacrophages	20	Control	matrix_mac_panel	fibro_only_matrix_panel	10	-0.05454545454545454	-0.8598792926818405	0.691358024691358	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	20	Control	ARG1_logCPM	aberrant_fraction	20					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	20	Control	ARG1_logCPM	at2_fraction	20	0.18796992481203004	-0.3679308262914477	0.6375626768305075	1.0	1000	1000	0	pointwise_percentile	0.1370966792801743	estimated_no_interval	13	20	estimated
+AllMacrophages	20	Control	ARG1_logCPM	fibro_matrix_panel	13	-0.2857142857142857	-0.7889624835676003	0.31680788982259545	1.0	1000	1000	0	pointwise_percentile	-0.14153337614446834	estimated_no_interval	6	13	estimated
+AllMacrophages	20	Control	ARG1_logCPM	fibro_only_matrix_panel	10	0.2606060606060606	-0.5253125	0.8490566037735849	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	20	IPF	FABP4_panel	matrix_mac_panel	32	-0.7441348973607038	-0.8574787977404088	-0.544712486477491	1.0	1000	1000	0	pointwise_percentile	-0.7321679716814719	estimated_no_interval	25	32	estimated
+AllMacrophages	20	IPF	FABP4_panel	aberrant_fraction	32	-0.1613051056174372	-0.4734561517420003	0.17770797527853668	1.0	1000	1000	0	pointwise_percentile	-0.2028527296255994	estimated_no_interval	25	32	estimated
+AllMacrophages	20	IPF	FABP4_panel	at2_fraction	32	0.15085693400358044	-0.1965323987239393	0.4998388278856843	1.0	1000	1000	0	pointwise_percentile	0.19113348986799134	estimated_no_interval	25	32	estimated
+AllMacrophages	20	IPF	FABP4_panel	fibro_matrix_panel	26	-0.14393162393162393	-0.5509035638450447	0.2837140033777754	1.0	1000	1000	0	pointwise_percentile	0.057614562712411166	estimated_no_interval	19	26	estimated
+AllMacrophages	20	IPF	FABP4_panel	fibro_only_matrix_panel	21	-0.35584415584415585	-0.7100020252933773	0.12349566743352777	1.0	1000	1000	0	pointwise_percentile	0.06548208592127552	estimated_no_interval	14	21	estimated
+AllMacrophages	20	IPF	matrix_mac_panel	aberrant_fraction	32	-0.15470626038763294	-0.4897776478649869	0.20567991231645474	1.0	1000	1000	0	pointwise_percentile	-0.09870220067158723	estimated_no_interval	25	32	estimated
+AllMacrophages	20	IPF	matrix_mac_panel	at2_fraction	32	-0.34405645823173814	-0.5857760234908417	-0.024232535656681736	1.0	1000	1000	0	pointwise_percentile	-0.41467022676909215	estimated_no_interval	25	32	estimated
+AllMacrophages	20	IPF	matrix_mac_panel	fibro_matrix_panel	26	-0.05299145299145299	-0.4975024468037923	0.38870321219436416	1.0	1000	1000	0	pointwise_percentile	-0.1778191058876446	estimated_no_interval	19	26	estimated
+AllMacrophages	20	IPF	matrix_mac_panel	fibro_only_matrix_panel	21	0.12337662337662336	-0.37813712454488324	0.5749491029939112	1.0	1000	1000	0	pointwise_percentile	-0.2610668925909294	estimated_no_interval	14	21	estimated
+AllMacrophages	20	IPF	ARG1_logCPM	aberrant_fraction	32	-0.01924663192026239	-0.38901529406849966	0.35368997411523173	1.0	1000	1000	0	pointwise_percentile	-0.031833220728505536	estimated_no_interval	25	32	estimated
+AllMacrophages	20	IPF	ARG1_logCPM	at2_fraction	32	0.1514068377727308	-0.2408121909896583	0.5151776640798774	1.0	1000	1000	0	pointwise_percentile	0.23331072736816527	estimated_no_interval	25	32	estimated
+AllMacrophages	20	IPF	ARG1_logCPM	fibro_matrix_panel	26	-0.16444444444444445	-0.5351481251516579	0.30815680842717125	1.0	1000	1000	0	pointwise_percentile	-0.16998666111411145	estimated_no_interval	19	26	estimated
+AllMacrophages	20	IPF	ARG1_logCPM	fibro_only_matrix_panel	21	0.09220779220779221	-0.36888928190163484	0.5238282346337356	1.0	1000	1000	0	pointwise_percentile	0.12908897855727286	estimated_no_interval	14	21	estimated
+AllMacrophages	20	COPD	FABP4_panel	matrix_mac_panel	17	-0.09558823529411767	-0.6015844962287792	0.4442866634757087	1.0	1000	1000	0	pointwise_percentile	0.339519948830867	estimated_no_interval	10	17	estimated
+AllMacrophages	20	COPD	FABP4_panel	aberrant_fraction	17	0.02587792058518904	-0.5298363770864539	0.4642300985184855	1.0	1000	1000	0	pointwise_percentile	-0.09027570605032688	estimated_no_interval	10	17	estimated
+AllMacrophages	20	COPD	FABP4_panel	at2_fraction	17	0.03186274509803922	-0.48705943655448247	0.5669013974182228	1.0	1000	1000	0	pointwise_percentile	0.39518896258506203	estimated_no_interval	10	17	estimated
+AllMacrophages	20	COPD	FABP4_panel	fibro_matrix_panel	10	0.4787878787878787	-0.20761326763610144	0.8462264150943396	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	20	COPD	FABP4_panel	fibro_only_matrix_panel	8	-0.023809523809523815	-0.726297764960346	0.7948717948717948	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+AllMacrophages	20	COPD	matrix_mac_panel	aberrant_fraction	17	-0.42827958568487856	-0.7318472486189269	0.01745011508090545	1.0	1000	1000	0	pointwise_percentile	-0.27840392928656993	estimated_no_interval	10	17	estimated
+AllMacrophages	20	COPD	matrix_mac_panel	at2_fraction	17	0.5833333333333334	0.12862400020027287	0.8030487918779828	1.0	1000	1000	0	pointwise_percentile	0.32640311602883987	estimated_no_interval	10	17	estimated
+AllMacrophages	20	COPD	matrix_mac_panel	fibro_matrix_panel	10	-0.24848484848484845	-0.6981132075471698	0.4304693097683305	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	20	COPD	matrix_mac_panel	fibro_only_matrix_panel	8	-0.28571428571428575	-0.8987658227848101	0.6296296296296297	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+AllMacrophages	20	COPD	ARG1_logCPM	aberrant_fraction	17	0.1669125877744693	-0.3659439556034194	0.6277410445968215	1.0	1000	1000	0	pointwise_percentile	0.04569693376145547	estimated_no_interval	10	17	estimated
+AllMacrophages	20	COPD	ARG1_logCPM	at2_fraction	17	-0.13235294117647062	-0.5901357774831151	0.3916883527417051	1.0	1000	1000	0	pointwise_percentile	-0.393181995196032	estimated_no_interval	10	17	estimated
+AllMacrophages	20	COPD	ARG1_logCPM	fibro_matrix_panel	10	-0.406060606060606	-0.7664175447194316	0.29559748427672955	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	20	COPD	ARG1_logCPM	fibro_only_matrix_panel	8	0.3333333333333334	-0.7721518987341772	1.0	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+AllMacrophages	20	pooled_diagnostic	FABP4_panel	matrix_mac_panel	77	-0.6959619328040381	-0.7829145911387785	-0.5702692564204648	1.0	1000	1000	0	pointwise_percentile	-0.563704582796325	estimated_no_interval	68	77	estimated
+AllMacrophages	20	pooled_diagnostic	FABP4_panel	aberrant_fraction	69	-0.2762165261544832	-0.49131058513719367	-0.048346292094413046	1.0	1000	1000	0	pointwise_percentile	-0.13760672022305379	estimated_no_interval	60	69	estimated
+AllMacrophages	20	pooled_diagnostic	FABP4_panel	at2_fraction	69	0.3969089118071931	0.17055176336813244	0.590879703261991	1.0	1000	1000	0	pointwise_percentile	0.07442423093914663	estimated_no_interval	60	69	estimated
+AllMacrophages	20	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	49	-0.39867346938775505	-0.6416093709738322	-0.1177826472387235	1.0	1000	1000	0	pointwise_percentile	-0.057163398119409174	estimated_no_interval	40	49	estimated
+AllMacrophages	20	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	39	-0.5052631578947369	-0.7119480081517519	-0.21140647642041868	1.0	1000	1000	0	pointwise_percentile	-0.22517754505534926	estimated_no_interval	30	39	estimated
+AllMacrophages	20	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	69	0.2877334930050498	0.043462406456124605	0.5079328206831187	1.0	1000	1000	0	pointwise_percentile	-0.1582784863407774	estimated_no_interval	60	69	estimated
+AllMacrophages	20	pooled_diagnostic	matrix_mac_panel	at2_fraction	69	-0.5018086159219359	-0.6571970274019825	-0.30718043954958074	1.0	1000	1000	0	pointwise_percentile	-0.0984214944274514	estimated_no_interval	60	69	estimated
+AllMacrophages	20	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	49	0.44806122448979585	0.2291096795082726	0.6525788986584719	1.0	1000	1000	0	pointwise_percentile	-0.043426616040960944	estimated_no_interval	40	49	estimated
+AllMacrophages	20	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	39	0.34979757085020247	0.05832406034444161	0.6183696998699727	1.0	1000	1000	0	pointwise_percentile	-0.028481440735243457	estimated_no_interval	30	39	estimated
+AllMacrophages	20	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	69	-0.1786845966169862	-0.40183723812658434	0.05653320820603548	1.0	1000	1000	0	pointwise_percentile	-0.010524923737366475	estimated_no_interval	60	69	estimated
+AllMacrophages	20	pooled_diagnostic	ARG1_logCPM	at2_fraction	69	0.29741678561268087	0.05325720327720757	0.5243782077939131	1.0	1000	1000	0	pointwise_percentile	0.13942712456037137	estimated_no_interval	60	69	estimated
+AllMacrophages	20	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	49	-0.3156122448979592	-0.5556367527527182	-0.022869383133427984	1.0	1000	1000	0	pointwise_percentile	-0.17423851840565893	estimated_no_interval	40	49	estimated
+AllMacrophages	20	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	39	0.06275303643724696	-0.25529555525538755	0.3748869049154681	1.0	1000	1000	0	pointwise_percentile	0.17292955550012654	estimated_no_interval	30	39	estimated
+AllMacrophages	50	Control	FABP4_panel	matrix_mac_panel	27	-0.5354090354090354	-0.7552957500864584	-0.1872955189144124	1.0	1000	1000	0	pointwise_percentile	-0.5861436164265569	estimated_no_interval	20	27	estimated
+AllMacrophages	50	Control	FABP4_panel	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	50	Control	FABP4_panel	at2_fraction	18	-0.19504643962848298	-0.6745523890184346	0.29526461608051563	1.0	1000	1000	0	pointwise_percentile	-0.4183894171158832	estimated_no_interval	11	18	estimated
+AllMacrophages	50	Control	FABP4_panel	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	Control	FABP4_panel	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	Control	matrix_mac_panel	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	50	Control	matrix_mac_panel	at2_fraction	18	0.023735810113519093	-0.49788202077866817	0.533045102530541	1.0	1000	1000	0	pointwise_percentile	0.02245662597505951	estimated_no_interval	11	18	estimated
+AllMacrophages	50	Control	matrix_mac_panel	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	Control	matrix_mac_panel	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	Control	ARG1_logCPM	aberrant_fraction	18					1000	0	0	not_evaluated		not_evaluated	0	0	constant_variable
+AllMacrophages	50	Control	ARG1_logCPM	at2_fraction	18	-0.007223942208462332	-0.5498662377521377	0.5151459063650987	1.0	1000	1000	0	pointwise_percentile	-0.15070387364434684	estimated_no_interval	11	18	estimated
+AllMacrophages	50	Control	ARG1_logCPM	fibro_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	Control	ARG1_logCPM	fibro_only_matrix_panel	4					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	IPF	FABP4_panel	matrix_mac_panel	32	-0.7441348973607038	-0.8615509651164274	-0.5604976322916355	1.0	1000	1000	0	pointwise_percentile	-0.7321679716814719	estimated_no_interval	25	32	estimated
+AllMacrophages	50	IPF	FABP4_panel	aberrant_fraction	32	-0.1613051056174372	-0.47494098575607063	0.1590036490992653	1.0	1000	1000	0	pointwise_percentile	-0.2028527296255994	estimated_no_interval	25	32	estimated
+AllMacrophages	50	IPF	FABP4_panel	at2_fraction	32	0.15085693400358044	-0.23117657592685983	0.48600915669876116	1.0	1000	1000	0	pointwise_percentile	0.19113348986799134	estimated_no_interval	25	32	estimated
+AllMacrophages	50	IPF	FABP4_panel	fibro_matrix_panel	18	-0.04437564499484004	-0.6416333321273353	0.5220624729192106	1.0	1000	1000	0	pointwise_percentile	0.05754940310321915	estimated_no_interval	11	18	estimated
+AllMacrophages	50	IPF	FABP4_panel	fibro_only_matrix_panel	10	-0.28484848484848485	-0.8040158371040724	0.43756249999999997	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	50	IPF	matrix_mac_panel	aberrant_fraction	32	-0.15470626038763294	-0.4749150792073586	0.21699557851775064	1.0	1000	1000	0	pointwise_percentile	-0.09870220067158723	estimated_no_interval	25	32	estimated
+AllMacrophages	50	IPF	matrix_mac_panel	at2_fraction	32	-0.34405645823173814	-0.5941810775195134	-0.010978463281941778	1.0	1000	1000	0	pointwise_percentile	-0.41467022676909215	estimated_no_interval	25	32	estimated
+AllMacrophages	50	IPF	matrix_mac_panel	fibro_matrix_panel	18	-0.13106295149638802	-0.5821347139271942	0.36465354071049105	1.0	1000	1000	0	pointwise_percentile	0.031613587129069955	estimated_no_interval	11	18	estimated
+AllMacrophages	50	IPF	matrix_mac_panel	fibro_only_matrix_panel	10	0.01818181818181818	-0.7987735849056604	0.6667218543046357	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	50	IPF	ARG1_logCPM	aberrant_fraction	32	-0.01924663192026239	-0.3883772640403423	0.36363303864121427	1.0	1000	1000	0	pointwise_percentile	-0.031833220728505536	estimated_no_interval	25	32	estimated
+AllMacrophages	50	IPF	ARG1_logCPM	at2_fraction	32	0.1514068377727308	-0.27294961382861344	0.5602002311307791	1.0	1000	1000	0	pointwise_percentile	0.23331072736816527	estimated_no_interval	25	32	estimated
+AllMacrophages	50	IPF	ARG1_logCPM	fibro_matrix_panel	18	-0.025799793601651185	-0.5016702214225705	0.49286622045242723	1.0	1000	1000	0	pointwise_percentile	0.03774910233608321	estimated_no_interval	11	18	estimated
+AllMacrophages	50	IPF	ARG1_logCPM	fibro_only_matrix_panel	10	-0.06666666666666665	-0.776432022084196	0.568834841628959	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	3	10	estimated
+AllMacrophages	50	COPD	FABP4_panel	matrix_mac_panel	17	-0.09558823529411767	-0.5734109411737675	0.4417218939635899	1.0	1000	1000	0	pointwise_percentile	0.339519948830867	estimated_no_interval	10	17	estimated
+AllMacrophages	50	COPD	FABP4_panel	aberrant_fraction	15	-0.022587697572631283	-0.6014934226522841	0.5186991633140164	1.0	1000	1000	0	pointwise_percentile	-0.11948398672290866	estimated_no_interval	8	15	estimated
+AllMacrophages	50	COPD	FABP4_panel	at2_fraction	15	0.24285714285714283	-0.35027354268903926	0.640081081081081	1.0	1000	1000	0	pointwise_percentile	0.47270913924436075	estimated_no_interval	8	15	estimated
+AllMacrophages	50	COPD	FABP4_panel	fibro_matrix_panel	8	0.4761904761904762	-0.40044303797468356	0.9726027397260274	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+AllMacrophages	50	COPD	FABP4_panel	fibro_only_matrix_panel	1					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	COPD	matrix_mac_panel	aberrant_fraction	15	-0.42916625387999435	-0.7655382642505206	0.032962219169480035	1.0	1000	1000	0	pointwise_percentile	-0.5781106438666008	estimated_no_interval	8	15	estimated
+AllMacrophages	50	COPD	matrix_mac_panel	at2_fraction	15	0.5964285714285712	0.13862188191344205	0.7874585797370607	1.0	1000	1000	0	pointwise_percentile	0.6119137048628198	estimated_no_interval	8	15	estimated
+AllMacrophages	50	COPD	matrix_mac_panel	fibro_matrix_panel	8	-0.11904761904761905	-0.8421052631578947	0.620253164556962	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+AllMacrophages	50	COPD	matrix_mac_panel	fibro_only_matrix_panel	1					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	COPD	ARG1_logCPM	aberrant_fraction	15	0.1919954293673659	-0.41729680279910236	0.685549492310685	1.0	1000	1000	0	pointwise_percentile	0.12619213963098902	estimated_no_interval	8	15	estimated
+AllMacrophages	50	COPD	ARG1_logCPM	at2_fraction	15	-0.1714285714285714	-0.6740054249547921	0.37575547800790005	1.0	1000	1000	0	pointwise_percentile	-0.5253895687857932	estimated_no_interval	8	15	estimated
+AllMacrophages	50	COPD	ARG1_logCPM	fibro_matrix_panel	8	-0.261904761904762	-0.9231012658227848	0.5698859196749491	1.0	1000	1000	0	pointwise_percentile		fewer_than_6_residual_df	1	8	estimated
+AllMacrophages	50	COPD	ARG1_logCPM	fibro_only_matrix_panel	1					1000	0	0	not_evaluated		not_evaluated	0	0	fewer_than_8_donors
+AllMacrophages	50	pooled_diagnostic	FABP4_panel	matrix_mac_panel	76	-0.6991660970608339	-0.7881418337892531	-0.5702523251001709	1.0	1000	1000	0	pointwise_percentile	-0.5667429206279733	estimated_no_interval	67	76	estimated
+AllMacrophages	50	pooled_diagnostic	FABP4_panel	aberrant_fraction	65	-0.33516599835792976	-0.540320449891991	-0.09735593996503009	1.0	1000	1000	0	pointwise_percentile	-0.10096069504376717	estimated_no_interval	56	65	estimated
+AllMacrophages	50	pooled_diagnostic	FABP4_panel	at2_fraction	65	0.3820845944786051	0.16641021739357717	0.5771760781403314	1.0	1000	1000	0	pointwise_percentile	0.01984905529263384	estimated_no_interval	56	65	estimated
+AllMacrophages	50	pooled_diagnostic	FABP4_panel	fibro_matrix_panel	30	-0.3815350389321468	-0.7111599844764007	0.014389071188868447	1.0	1000	1000	0	pointwise_percentile	0.13860481027733082	estimated_no_interval	21	30	estimated
+AllMacrophages	50	pooled_diagnostic	FABP4_panel	fibro_only_matrix_panel	15	-0.5785714285714285	-0.8681318681318682	-0.04921705168688729	1.0	1000	1000	0	pointwise_percentile	-0.0033185743617463346	estimated_no_interval	6	15	estimated
+AllMacrophages	50	pooled_diagnostic	matrix_mac_panel	aberrant_fraction	65	0.32042395620522607	0.07044051235775972	0.5388735786905091	1.0	1000	1000	0	pointwise_percentile	-0.17044790626605616	estimated_no_interval	56	65	estimated
+AllMacrophages	50	pooled_diagnostic	matrix_mac_panel	at2_fraction	65	-0.5132267616866872	-0.6633328229581347	-0.30783065704828955	1.0	1000	1000	0	pointwise_percentile	-0.09884453269734063	estimated_no_interval	56	65	estimated
+AllMacrophages	50	pooled_diagnostic	matrix_mac_panel	fibro_matrix_panel	30	0.403781979977753	0.03272903005764865	0.7037090954336195	1.0	1000	1000	0	pointwise_percentile	-0.07591956551738044	estimated_no_interval	21	30	estimated
+AllMacrophages	50	pooled_diagnostic	matrix_mac_panel	fibro_only_matrix_panel	15	0.5928571428571427	0.10535949563888379	0.8378991514200225	1.0	1000	1000	0	pointwise_percentile	-0.1390036634861027	estimated_no_interval	6	15	estimated
+AllMacrophages	50	pooled_diagnostic	ARG1_logCPM	aberrant_fraction	65	-0.2290686549881642	-0.46362383917283717	0.01823544850783033	1.0	1000	1000	0	pointwise_percentile	0.03087033110438231	estimated_no_interval	56	65	estimated
+AllMacrophages	50	pooled_diagnostic	ARG1_logCPM	at2_fraction	65	0.2574328828047339	0.003400661722151055	0.48998244101176897	1.0	1000	1000	0	pointwise_percentile	-0.00665501392658638	estimated_no_interval	56	65	estimated
+AllMacrophages	50	pooled_diagnostic	ARG1_logCPM	fibro_matrix_panel	30	-0.16929922135706338	-0.4995045774116635	0.22786099832324921	1.0	1000	1000	0	pointwise_percentile	-0.07302606648902242	estimated_no_interval	21	30	estimated
+AllMacrophages	50	pooled_diagnostic	ARG1_logCPM	fibro_only_matrix_panel	15	-0.3	-0.6819926873857405	0.20966633043108915	1.0	1000	1000	0	pointwise_percentile	0.030438789846597418	estimated_no_interval	6	15	estimated
+Proxy2	0	Control	proxy_fraction_macrophages	mean_UMI	28	0.18555008210180626	-0.25791400666305986	0.5878065178626553	1.0	1000	1000	0	pointwise_percentile	0.21863984029944586	estimated_no_interval	25	28	estimated
+Proxy2	0	IPF	proxy_fraction_macrophages	mean_UMI	32	0.22910557184750727	-0.16097501852138302	0.5579326381558848	1.0	1000	1000	0	pointwise_percentile	0.16301361820301552	estimated_no_interval	29	32	estimated
+Proxy2	0	COPD	proxy_fraction_macrophages	mean_UMI	18	0.31475748194014447	-0.19376011221294365	0.6580354731449872	1.0	1000	1000	0	pointwise_percentile	0.11808334163247278	estimated_no_interval	15	18	estimated
+Proxy2	0	pooled_diagnostic	proxy_fraction_macrophages	mean_UMI	78	0.2147346324561514	0.010590556275961581	0.42116656148047005	1.0	1000	1000	0	pointwise_percentile	0.2166186876186188	estimated_no_interval	75	78	estimated
