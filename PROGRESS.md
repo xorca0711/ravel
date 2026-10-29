@@ -1,6 +1,49 @@
 # Current project state
 
-## Current NAM session roles — 29 October 2026
+## NAM source-v2 reviewed and integrated — 29 October 2026
+
+The separate analysis session completed the bounded metadata correction; this
+reviewer checked its contract, code, saved results and provenance. Commits
+`015b339` and `fbe3407` are integrated locally with both histories preserved.
+[Results and exact limits](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md)
+record the corrected source labels and tag-presence inventory. All v1 evidence
+and existing RQs remain unchanged; no scientific acceptance was recorded.
+
+Stage 0 remains partial. Numerical components of stages 1–7 and result-based
+stage 8 remain unfinished under the platform restriction; the owner's broader
+request remains authorized. No broader run is queued. The source session's
+passing checks are retained; integration changes only progress-note reconciliation.
+Next: retain the source provenance and explicit unresolved units in any permitted
+future work. Preserve all checkouts and ignored inputs; no publication occurred.
+
+## NAM source-v2 metadata correction — 29 October 2026
+
+The authorized [source-v2 correction](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md)
+executed from frozen commit `015b339` under a new exposed amendment. It recovers
+exact reference labels and inventories feature-table tag identifiers. The runner
+receipt and separate computation passed: 18 reference rows, 24 feature tags,
+72 membership checks and eight accession records. The cooperating reviewer
+found no blocking issue in implementation or saved results. V1 remains intact.
+
+Stage 0 stays partial; animal/pool identities, assigned cells and actual
+condition-by-library support remain unknown. Numerical stages 1–7 and
+results-based stage 8 remain unfinished after the prior platform restriction;
+completed source reading/design audits remain review work. No restricted
+analysis was retried, RQ result generated or scientific acceptance created.
+
+[Validation](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_VALIDATION.md)
+passed: nine targeted regressions, 161 repository tests (one skip), 11,348
+repository checks, claim/evidence verifiers and the base-aware research gate.
+All nine v1 files match handoff Git blobs; all 32 global questions are unchanged.
+Next: reviewer reconciliation of the local execution commits with its separate
+`436b6cf` progress note. The bounded correction is complete. The broader owner
+request remains authorized but unfulfilled; the platform restriction and current
+metadata-only scope prevent resumption here. No repeat authorization is needed.
+Fresh `origin/main` remains `78320a1`. Other worktrees and ignored inputs are
+preserved; no external-service writes or settings changes occurred. Earlier
+Code Ocean access limits were not retested. No broader analysis is queued.
+
+## NAM session-role assignment checkpoint — 29 October 2026
 
 This chat remains the coordinating reviewer. The owner clarified that the stopped
 chat was the execution session and requested a separate analysis chat cooperating

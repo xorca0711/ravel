@@ -795,6 +795,7 @@
       "id": "DY1-P01",
       "plan": "Research Article/gate2_DY1_damani_yokota_2026/README.md",
       "evidence": [
+        "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md",
         "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md",
         "Research Article/gate2_DY1_damani_yokota_2026/CLOSEOUT.md"
       ]
@@ -878,7 +879,8 @@
     "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A11.g1_capacity_qualification_v1.json",
     "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/metadata.contract.json",
     "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/figure1.contract.json",
-    "Research Article/gate2_DY1_damani_yokota_2026/config/source_v1.json"
+    "Research Article/gate2_DY1_damani_yokota_2026/config/source_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/source_v2.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -953,7 +955,8 @@
     "analysis/research/runs/g1_a11_capacity_qualification_v1/receipt.json",
     "analysis/research/runs/p001_metadata_v1_a001_5ed0581f8b1e4a51/receipt.json",
     "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json",
-    "analysis/research/runs/DY1_source_v1/receipt.json"
+    "analysis/research/runs/DY1_source_v1/receipt.json",
+    "analysis/research/runs/DY1_source_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

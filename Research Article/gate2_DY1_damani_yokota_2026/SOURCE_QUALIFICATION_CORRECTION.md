@@ -4,7 +4,10 @@
 [source_v1 output](../../analysis/research/runs/DY1_source_v1/source_qualification.json).
 The [contract](config/source_v1.json), [script](scripts/qualify_sources_v1.py),
 [receipt](../../analysis/research/runs/DY1_source_v1/receipt.json) and every frozen
-output remain byte-for-byte preserved. No v2 run occurred.
+output remain byte-for-byte preserved. No v2 run had occurred when this
+documentary correction was written. The later authorized
+[source-v2 metadata audit](SOURCE_V2_RESULTS.md) now verifies these two corrections
+under a separate frozen contract and receipt; no broader analysis resumed.
 
 ## Two corrections
 
@@ -12,8 +15,8 @@ output remain byte-for-byte preserved. No v2 run occurred.
    `GSM9964564_feature_reference.csv` header is `multiplexed_sample ` with a trailing
    space. V1 looked up `multiplexed_sample` without stripping header whitespace.
    Direct CSV inspection shows the condition label `Naive`, with CMO301-303.
-   The trained baseline reference lists CMO304-306. The future parser correction
-   would trim headers and values in a new version, never overwrite v1.
+   The trained baseline reference lists CMO304-306. The subsequently executed [v2 parser](scripts/qualify_sources_v2.py)
+   trims headers and values under a new contract; it does not overwrite v1.
 2. **Condition-library confounding is unresolved, not established by GSM titles.**
    V1's `scRNA_condition_batch` field says one expression GSM per condition and
    asserts confounding. Both baseline feature tables contain CMO301-306; that

@@ -18,14 +18,18 @@ analysed. Previously completed source reading and design audits remain review-on
 work, including the regulatory precedents, ARG1 comparator limitation and proposed
 epithelial discriminator in the original review. This is an incomplete execution task with a preserved metadata checkpoint.
 
+The subsequently authorized [source-v2 correction](SOURCE_V2_RESULTS.md) executed
+only a label and feature-identifier audit. It does not complete the broader stages;
+previous source reading and design audits remain completed review work.
+
 | Stage | Actual work and remaining status |
 |---|---|
-| 0: Source and units | Structural metadata run executed and receipt verified; qualification is partial. The [superseding correction](SOURCE_QUALIFICATION_CORRECTION.md) fixes two interpretations without altering frozen outputs. Animal/pool identities and actual tag assignments remain unresolved. |
+| 0: Source and units | V1 and the bounded [source-v2 correction](SOURCE_V2_RESULTS.md) executed with verified receipts; qualification remains partial. V2 recovers the true reference labels and inventories tag presence, preserving v1. Animal/pool identities, actual cell assignments and condition-by-library support remain unknown. |
 | 1: Bulk RNA/ATAC QC | Unexecuted due to platform restriction. Processed inputs saved. Exon-bin semantics, ATAC pipeline discrepancy, absent deposited consensus read counts and unidentified source outlier constrain exact reproduction. |
 | 2: RNA/accessibility discordance | Unexecuted due to platform restriction. No cross-assay effect matrix or stable discordance estimate produced. |
 | 3: Composition/within-state RNA | Unexecuted due to platform restriction. Matrices include CMO counts, but assignments and NAM/state annotation were not computed. |
 | 4: Regulatory associations | Unexecuted due to platform restriction. No target-set enrichment, motif scan, binding overlap or activity estimate produced. |
-| 5: History-by-condition response | Unexecuted due to platform restriction. No interaction estimate; title-level condition labels and library structure remain unresolved pending tag-count qualification. |
+| 5: History-by-condition response | Unexecuted due to platform restriction. No interaction estimate. V2 verifies reference labels and feature-row presence only; actual condition-by-library support remains unresolved. No tag-count analysis ran or is queued by this correction. |
 | 6: ARG1/context | Numerical work unexecuted due to platform restriction. Existing reviewed functional-design limits are retained; no RNA attribution or mediation fit produced. |
 | 7: Human/recipient context | Unexecuted due to platform restriction. Existing GSE136831 cache copied locally for the runner; no new donor-aware contrast or recipient association produced. |
 | 8: Remaining discriminator | Integrated result-based decision not completed because stages 1-7 did not run. The earlier proposal remains a proposal; no mechanism, experiment-readiness or scientific acceptance decision was made. |
@@ -38,4 +42,4 @@ execution integrity from scientific interpretation.
 
 The canonical directory is `Research Article/`. Existing A1/A2/A8/A14/A19/A22 retain their hypotheses, negative results and output authorities. Directly relevant RQ analyses belong in those existing folders; article outputs are not duplicated there. Unlinked omics and functional cohorts cannot support mediation. The missing untrained Arg1-cKO comparator prevents a training-specific interaction. A single later endpoint cannot establish kinetics.
 
-See [literature context](LITERATURE_CONTEXT.md), [source qualification contract](config/source_v1.json) and [governance](../../docs/RESEARCH_GOVERNANCE.md).
+See [literature context](LITERATURE_CONTEXT.md), [source-v2 results](SOURCE_V2_RESULTS.md), [v2 contract](config/source_v2.json), the preserved [v1 contract](config/source_v1.json) and [governance](../../docs/RESEARCH_GOVERNANCE.md).
