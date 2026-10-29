@@ -1,5 +1,20 @@
 # Current project state
 
+## NAM execution: source freeze - 29 October 2026
+
+The [DY1 paper package](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+starts from reviewed commit `a0e7472` in the managed `nam-memory-execution-20261029`
+worktree on `codex/nam-memory-execution-20261029`. Main was freshly fetched at
+`78320a1`. Public processed RNA matrices and ATAC peak files are available in ignored
+storage. Stage 0's frozen metadata contract retains prior source-outcome exposure.
+The GEO/paper ATAC pipeline discrepancy and bulk exon-bin count semantics require
+explicit qualification. Animal/pool and CMO-to-cell mapping remain unresolved.
+No A-series hypothesis, negative result, policy or scientific acceptance changed.
+Next: execute and verify source qualification, then freeze each eligible numerical
+stage separately; continue independent stages when one comparison is held.
+Code Ocean public access remains HTTP 403. No external settings changed.
+
+
 ## NAM immune-history paper review and staged proposal - 29 October 2026
 
 Reviewed the supplied paper, presentation, owner notes and current Ravel evidence.

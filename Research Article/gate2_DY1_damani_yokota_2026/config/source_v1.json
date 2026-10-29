@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.source_v1",
+  "owner": "DY1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which deposited measurements and biological units can support each of the reviewed NAM source-reproduction stages?",
+  "decision": "Choose eligible library-level descriptions and identify missing counts, labels or independent units before numerical biological comparisons.",
+  "strongest_rival": "Incorrect source version or treating library/tag identifiers as independent animals would create false replication and invalid joins.",
+  "discriminator": "Compare accession fields, feature types, matrix headers, exon-bin identifiers and CMO reference labels; unknown animal/pool identity remains unknown.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/LITERATURE_CONTEXT.md",
+    "docs/research_reviews/2026-10-29-nam-memory/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper figures, selected TF/ARG1 outcomes, reviewed source metadata and first file-header rows were inspected before freeze; no new outcome test has run.",
+  "biological_unit": "Deposited library or metadata record; animal and independently collected pool identities unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells nest in condition-level GSM libraries. CMO tags do not establish animal identity. RNA and ATAC are separate experiments, without a verified paired map.",
+  "population_and_selection": "All available GSE280183/GSE343897 sample records and public processed files retrieved on 29 October 2026; no outcome-based exclusion.",
+  "contrast": "Structural qualification across assay types and history/condition labels; no estimated biological contrast in this run.",
+  "endpoint": "Source fields, dimensions, identifier uniqueness, feature types and availability of unit-to-measurement linkage.",
+  "methods": "Parse GEO fields and compressed file headers/identifiers; enumerate feature classes and CMO labels; hash processed inputs; retain contradictory processing narratives.",
+  "missingness_and_exclusions": "Missing animal map, CMO assignments, excluded ATAC identity and consensus read counts are explicit. No undocumented sample exclusion.",
+  "multiplicity": "No hypothesis tests or multiple-testing claims.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata census of available files; no population uncertainty or power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Structural availability does not establish animal independence, exact source pipeline, mechanistic validity or scientific acceptance.",
+  "stop_rule": "Do not infer biological replication from tags/lanes or estimate biological effects in this metadata run; missing mappings hold dependent inference.",
+  "inputs": [
+    {
+      "path": "raw_data/nam_memory_2026/GSE136831.txt",
+      "sha256": "5a39406aca27ee75af258d84d5cd55aafa002f392fffbfbb11e987990453cfa0",
+      "study_id": "public_source_inventory",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSE280183.txt",
+      "sha256": "33c37d5c1a4992e733b0b8cee5a8e2ee4e384e7f87ad1db27f75c1da05561af6",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSE343897.txt",
+      "sha256": "06374a137cfbcd8efd8676f2ef50520447b21b76bbd8df201ba303b1f97b4c06",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591248.txt",
+      "sha256": "503526a6a8c3acb4e537cf1e179d0d3bbf85a277c6e618c8dd3ae621ba0b8894",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591248_GRCm38.p6-SS-NAM-1_peaks.narrowPeak.gz",
+      "sha256": "dc1e0390a28d84779e8c81c3c0445416054ad65191eb5a911a76237592f0ca9f",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591249.txt",
+      "sha256": "a21c56fbb56a3cb6e5ece8891b6963f89081f91746b4f566938375669be10c79",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591249_GRCm38.p6-SS-NAM-2_peaks.narrowPeak.gz",
+      "sha256": "2b422b98cd900e13ab02d1dca2fbb6a02415e05d8346c819e90b87e1b1d4bdac",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591250.txt",
+      "sha256": "930e2fe73f2186329c45cf0412fbc940ff7adb7e2f0b52244e52e9cc96701142",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591250_GRCm38.p6-SS-NAM-3_peaks.narrowPeak.gz",
+      "sha256": "82a350c422bc97c19051644a8b6f77f9e3c0336f0bfb0c95acca2566abccc43f",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591251.txt",
+      "sha256": "b4128a05e042766468f04b23f0992c3df5766956bef0e7002c69ff5383d98050",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591251_GRCm38.p6-SS-NAM-4_peaks.narrowPeak.gz",
+      "sha256": "f516cf4f9b048bb13f9ecaf038aaa7ec368a371f7bb9de69ded59b1b71390270",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591252.txt",
+      "sha256": "0393cb9f0dff2a25aaf78b872d2525fbd017d616e46e72e0cb8e68f028097a6f",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591252_GRCm38.p6-Tr-NAM-1_peaks.narrowPeak.gz",
+      "sha256": "d3caba9509d8f3b03e245443b2b1214c10512aa10d4189c073070a65cfc23c2a",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591253.txt",
+      "sha256": "6cefe53b17128fb01ecb68f29fe02edfa025f0a4e0659ae83fbfa75fcb6da37b",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591253_GRCm38.p6-Tr-NAM-2_peaks.narrowPeak.gz",
+      "sha256": "f72bfc91e76397d494513c3a256047005570c25188d1728b72e766c11591cbb8",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591254.txt",
+      "sha256": "2c9bb3692e08443554e47dbd2ab70f68165923b4bf6416f34b296211ced1b337",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591254_GRCm38.p6-Tr-NAM-3_peaks.narrowPeak.gz",
+      "sha256": "aa62192d44347287daddd2e7bca4c6c994c0a9a29ef1701e90de1ab013445ddd",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591255.txt",
+      "sha256": "0e8d5a4ca68540fb9da9b3ea9a88e819350f900c25d5315ad040bd63e3e88f3c",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM8591255_GRCm38.p6-Tr-NAM-4_peaks.narrowPeak.gz",
+      "sha256": "92d80e055178f936f453f3a0ca45d87814439f0f0f6526b523f008dc557f44c8",
+      "study_id": "GSE280183",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964554.txt",
+      "sha256": "3dfdeb68a1800e9118cdabda7f9397dcb889d19256f5b0e52489460186589395",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964554_TP10-1_S8-ExonCounts.txt.gz",
+      "sha256": "0ce695008d9659142adb709c78f464497e20838797550cb6f542f75a4923f3c7",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964555.txt",
+      "sha256": "d0e2c7b141cfda42fa103b0cfb48d2e73be5320f40ebb071e4b23744625fe2a4",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964555_TP10-2_S9-ExonCounts.txt.gz",
+      "sha256": "03faa49fa8f55c3febbcd5da0065e3a414281a1371862f4089db17b4cc25617d",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964556.txt",
+      "sha256": "8004b6f7fc6cfaca31c2d33ecd1b1db209993e8aff31b8151a7339b65e1a4787",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964556_TP10-3_S14-ExonCounts.txt.gz",
+      "sha256": "a61e82a82b224566ed190d55981363941914a3b573d775f60fa924e8fe35a384",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964557.txt",
+      "sha256": "01ad099b1381c486841ac58ba04cd093a5b21b279e7155bc5b66e7404f3aeead",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964557_XP10-1_S3-ExonCounts.txt.gz",
+      "sha256": "4ccdbe095d69af46d7670c7ae0b3e6af0efdac798de9fd789e704b98c0402819",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964558.txt",
+      "sha256": "b389ed742b246ff29e2f045772455f1af9a695206d738a14ad8b6603ee7e0024",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964558_XP10-2_S4-ExonCounts.txt.gz",
+      "sha256": "49862630d9542e68e285b2d208f471a375119cb4d7b95cfc6b407e958c731131",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964559.txt",
+      "sha256": "0e0dbcd4266db21f1a177ca018688f3adbc85165303d20d9988ad71cd88aee61",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964559_XP10-3_S12-ExonCounts.txt.gz",
+      "sha256": "18f843d9e17a8e5a31b9f48fe9a4e9d02d6d45b51604c614fcbd422dee4bd414",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964560.txt",
+      "sha256": "78353e7b46db7e1570fabd6760e6a92097770081d328233d8bb5ef64ba07440c",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964560_count1_barcodes.tsv.gz",
+      "sha256": "87be6f756c21f5b401eed4d0bd714c9452d549bc81142b3aa343994cc1facdc7",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964560_count1_features.tsv.gz",
+      "sha256": "ff74df75623a1850bcd079bff4751fe4059ca5a075cad5cf5dc084188a5d84c1",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964560_count1_matrix.mtx.gz",
+      "sha256": "1bfbe01cea1058a0c5e32bff2b80627490fa0bea26dfbfbf5e1cefedc755c426",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964561.txt",
+      "sha256": "7f8596311741d2890b4dc76e5493477269d15f0031b43a7b96747afb9b5eb641",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964561_count2_barcodes.tsv.gz",
+      "sha256": "34c626d9e94bc624d08f6f4b55ea75a99e78eeba8ebe3c8fdfbe01532de86d78",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964561_count2_features.tsv.gz",
+      "sha256": "001f66eeb590520c649efc13a88f7dfcf090ed7042b8d9099943f99b31f8c995",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964561_count2_matrix.mtx.gz",
+      "sha256": "9888f2bdf36cf01c1cbcb536520d605671e063b5760e90896d5dff312fcbc149",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964562.txt",
+      "sha256": "6e765de9a7eeab10c8d5712ac716ac77f999e3f76b319da7ea26dfa2858d8acb",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964562_count6_barcodes.tsv.gz",
+      "sha256": "1425dfda035334b11b99e09557ef697817c24cf25f1a8aa88249376c8f231aab",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964562_count6_features.tsv.gz",
+      "sha256": "f91890c3727471ceb06ec7fc5074e9a4b052eb70ca0dcdff9815b33ffeea4d66",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964562_count6_matrix.mtx.gz",
+      "sha256": "83a3ef75c232076f9ac41518244e7507e6968331b8ced659171e4468c601a53b",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964563.txt",
+      "sha256": "37a7e258fa80222532b5ff8a8fefc4c75cd922b9cf304bbc3b91d34460e1d00d",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964563_count5_barcodes.tsv.gz",
+      "sha256": "aa268b51d34ea71c6b8f47bd34c0952d9356b9e7e0f2007620fb217629738cc7",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964563_count5_features.tsv.gz",
+      "sha256": "c3924d7e003a9b99cce7c0abaf9163f0c5758c151c5330ad0aa9a637c6edcd44",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964563_count5_matrix.mtx.gz",
+      "sha256": "2ae555a9f11804729971c4d5795f16547fc5d61eb05191796145f82e9f0df320",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964564.txt",
+      "sha256": "dd3acb2568202bf1a52f5076608fbb3bc5c0a4adf2ed6949668eece938828d5e",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964564_feature_reference.csv",
+      "sha256": "f65c853e2679350c1e2ee3db11010b0ce6da365ab6fc0de413609cd29e413c79",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964564_feature_reference_1.csv.gz",
+      "sha256": "cfdf5df8147df476fbde07fe0d846cdd83349f4c2dfe37eb8b273eaa62333631",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964565.txt",
+      "sha256": "7d36b0b315a4faf038f8a50dd23a29a2a7997b6fb0b9297fda4f9e410e483feb",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964565_feature_reference.csv",
+      "sha256": "5dd8156aa55484c16b861d110f611467d1729fc1d71ddac7c7b9274317cc656c",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964565_feature_reference_2.csv.gz",
+      "sha256": "adf8e96a86645d984368634ed86746cb5fbaaf8b7dc9b7b4178140a113c2b4eb",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964566.txt",
+      "sha256": "137ae28fdec87c92f093aae47dbe72351d1852dff6ea74db7350ae902531cc7b",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964566_feature_reference.csv",
+      "sha256": "181d1a98a325703f81aa041a110e4022b70b45db15dce064e51c2b0272df7aca",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964566_feature_reference_5.csv.gz",
+      "sha256": "48c426b516a25380830731b2d593baa06ba33ea2b8eaa12db8ac749088198489",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964567.txt",
+      "sha256": "2146eaaa1ce9d3ff6ac751c748d95a980127560d05c1788b6740bbacd9850514",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964567_feature_reference.csv",
+      "sha256": "00dd60bf172c55aa3b48f74d84907e8de552406193eb2dc99625d0fd082d871e",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964567_feature_reference_6.csv.gz",
+      "sha256": "bdd9a586aba7c67bbd4471222001193c1e8523c9571348ad33b9b6f49af225d4",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/access_recovery.json",
+      "sha256": "481b8711d1ef0c113ede8f6c978887f5aa8879ab3a4ca7f2d122efd9d79ce339",
+      "study_id": "public_source_inventory",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/downloads.json",
+      "sha256": "a03bb6d2927a5d24d464b05dae82446fcfd699f1db96b14ffd605ada2d67f16b",
+      "study_id": "public_source_inventory",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_sources_v1.py",
+      "sha256": "be09d3bb389529c97bf21be509d914a1f7d3569531e17052a8f94d40d3337115"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_sources_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_map.tsv",
+    "source_qualification.json",
+    "retrieval_manifest.json",
+    "access_recovery.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed metadata execution follows reviewed stages; source-version and exon-bin discrepancies explicitly qualified."
+}
