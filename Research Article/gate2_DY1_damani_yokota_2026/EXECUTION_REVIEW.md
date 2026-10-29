@@ -1,5 +1,9 @@
 # NAM execution checkpoint review
 
+Historical v1 checkpoint. The subsequent bounded [source-v2 results](SOURCE_V2_RESULTS.md)
+and [validation](SOURCE_V2_VALIDATION.md) record the authorized metadata correction.
+The original checkpoint below is retained with its original scope and date.
+
 **Date:** 29 October 2026
 **Status:** source checkpoint reviewed; requested biological analyses remain unfinished
 

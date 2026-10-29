@@ -1,5 +1,9 @@
 # Documentation close-out and validation
 
+Historical v1 checkpoint. The subsequent bounded [source-v2 results](SOURCE_V2_RESULTS.md)
+and [validation](SOURCE_V2_VALIDATION.md) record the authorized metadata correction.
+The original checkpoint below is retained with its original scope and date.
+
 29 October 2026. The coordinating review reported a platform biology-content
 restriction and requested a documentation-only close-out. No attempt was made to
 retry the restricted numerical work through another workflow. The original
