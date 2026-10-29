@@ -1,5 +1,29 @@
 # Current project state
 
+## Current NAM session roles — 29 October 2026
+
+This chat remains the coordinating reviewer. The owner clarified that the stopped
+chat was the execution session and requested a separate analysis chat cooperating
+with this reviewer. The new active analysis chat is
+`01a18788-cbe1-7021-84d1-40c92813beb4`, working from handoff `d62612b` in
+`C:/Users/dream/.codex/worktrees/nam-source-metadata-v2-20261029/ravel`.
+It is preparing a bounded, versioned metadata correction: trim reference CSV
+headers/values and inventory reference labels and feature-table tag identifiers.
+No prior chat deep link or transcript was sent, and it was instructed not to scan
+previous chats. The original broader numerical work remains on hold after the
+platform restriction; this new task does not retry that work.
+
+The initial extra review-chat creation returned an ID but subsequently became
+unavailable to read/wait tools; its continuing state could not be established.
+It is not the designated active analysis session. The earlier role-transfer
+entries below record their original stages; this entry owns current coordination.
+
+Next: the analysis chat will send its frozen metadata-v2 checkpoint, receipt and
+checks to this reviewer. Review labels, joins, inference limits and preservation
+of v1 before integrating its results. The reviewed handoff and final checks are
+in the DY1 package; primary-checkout notes and old worktrees remain untouched.
+No new scientific effect, claim grade or acceptance has been recorded.
+
 ## NAM review handoff — 29 October 2026
 
 The owner requested a fresh review chat. The [artifact-based handoff](Research%20Article/gate2_DY1_damani_yokota_2026/REVIEW_HANDOFF.md)
