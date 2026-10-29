@@ -4,7 +4,9 @@
 The source qualification at `952ea40` recovered 312,928 cells, 78 donors
 (28 Control, 32 IPF, 18 COPD), 107 libraries and exact barcode order. Libraries
 are combined within donor. No clinical age, sex, smoking, treatment, lung-function
-or tissue-region fields are present in the supplied metadata. No neutrophil
+or tissue-region fields are present in the supplied cell metadata. The separate
+GEO clinical supplement recovered exact age and recorded-sex joins for all 78
+donors and 107 libraries before numerical freeze. No neutrophil
 annotation is present. These limitations remain even if expression estimates
 are numerically precise. Numerical execution awaits technical reviewer inspection
 and a committed, hash-bound contract.
@@ -86,10 +88,16 @@ validation. No pathway activity or causal biological role is inferred.
   pooled diagnostics additionally include disease indicators. Report only with
   full-rank design and at least six residual degrees of freedom. This is a
   descriptive sensitivity estimate without a causal interpretation or separate
-  confidence interval. Fibroblast and Myofibroblast counts and union shares are
+  confidence interval. Age and recorded sex are additionally included when
+  complete; only exact clinical-supplement joins are used. Fibroblast and Myofibroblast counts and union shares are
   reported; each recipient association also has a Fibroblast-only panel sensitivity
-  under the same floor. Clinical covariates remain uncontrolled. Proxy abundance
+  under the same floor. Smoking, treatment, lung function and region remain uncontrolled. Proxy abundance
   versus mean UMI is reported as a detection-bias diagnostic.
+
+Age/recorded-sex-adjusted sensitivity for every disease contrast uses descriptive
+OLS (outcome ~ group + centered age + recorded sex), with at least three donors
+per group, full design rank and at least six residual degrees of freedom. No
+adjusted CI or causal effect is claimed. Unadjusted contrasts remain primary.
 
 Bootstrap requested/valid/constant replicate counts are retained. Correlation
 intervals require at least 95% defined replicates; excessive constant-variable

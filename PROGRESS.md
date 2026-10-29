@@ -1,16 +1,20 @@
 # Current project state
 
-## Human atlas stage 7 resumed — 29 October 2026
+## Human atlas stage 7: numerical freeze — 29 October 2026
 
-The owner reiterated continuation and authorized the separate non-infectious
-human GSE136831 observational stage. [The prospective plan](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_STAGE7_PLAN.md)
-keeps it article-local and preserves the completed source-v2 correction and all
-restricted mouse/infection holds. Initial donor/assay qualification is frozen
-for commit; numerical fitting awaits qualification and technical contract review.
-Next: execute qualification, specify and review donor-level comparisons, then
-compute eligible descriptions and within-disease associations. Existing caches
-are reused without external downloads. Other RQs, decisions and worktrees are
-preserved. No external-service write or settings change.
+The separate non-infectious human continuation has qualified 78 GSE136831 donors,
+107 nested libraries and exact age/recorded-sex joins. The reviewer cleared the
+[prospective numerical specification](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md)
+after fixes to primary/adjusted donor separation and discovery-input unit bindings.
+Primary narration is fixed to deposited Macrophage at20 cells; proxies and other
+labels remain declared sensitivities. Numerical execution is next through the
+unchanged research gate. No expression result is yet claimed.
+
+Next: one-pass human aggregation and descriptive fits, independent arithmetic
+checks, results/plots and final validation; qualify conditional external evidence
+separately without assuming source equivalence. Mouse/infection work stays stopped.
+All prior frozen evidence and RQs remain intact. No external publication or
+settings change. The owner need not repeat settled authorization.
 
 ## NAM source-v2 reviewed and integrated — 29 October 2026
 

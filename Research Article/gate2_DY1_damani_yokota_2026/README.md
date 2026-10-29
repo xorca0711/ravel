@@ -12,8 +12,9 @@ The paper, selected figures and prior Ravel results were exposed before these co
 ## Completion ledger: documentation close-out
 
 The platform restricted the analysis turn; the coordinating review chat then
-requested a documentation-only close-out. **Numerical components of stages 1-7 and result-based integration in stage 8
-are unexecuted, not completed or adjudicated as data-limited.** Available processed data were not biologically
+requested a documentation-only close-out. **At the original close-out, numerical components of stages 1-7 and result-based
+integration in stage 8 were unexecuted.** The separately authorized human stage 7
+continuation is tracked below; other restricted numerical stages remain stopped. Available processed data were not biologically
 analysed. Previously completed source reading and design audits remain review-only
 work, including the regulatory precedents, ARG1 comparator limitation and proposed
 epithelial discriminator in the original review. This is an incomplete execution task with a preserved metadata checkpoint.
@@ -31,7 +32,7 @@ previous source reading and design audits remain completed review work.
 | 4: Regulatory associations | Unexecuted due to platform restriction. No target-set enrichment, motif scan, binding overlap or activity estimate produced. |
 | 5: History-by-condition response | Unexecuted due to platform restriction. No interaction estimate. V2 verifies reference labels and feature-row presence only; actual condition-by-library support remains unresolved. No tag-count analysis ran or is queued by this correction. |
 | 6: ARG1/context | Numerical work unexecuted due to platform restriction. Existing reviewed functional-design limits are retained; no RNA attribution or mediation fit produced. |
-| 7: Human/recipient context | Unexecuted due to platform restriction. Existing GSE136831 cache copied locally for the runner; no new donor-aware contrast or recipient association produced. |
+| 7: Human/recipient context | The independently permitted non-infectious human continuation has qualified 78 donors/107 libraries and exact age/recorded-sex joins. The reviewed [numerical plan](HUMAN_NUMERICAL_PLAN.md) is frozen for execution; no human expression result is claimed yet. Restricted mouse/infection work remains stopped. |
 | 8: Remaining discriminator | Integrated result-based decision not completed because stages 1-7 did not run. The earlier proposal remains a proposal; no mechanism, experiment-readiness or scientific acceptance decision was made. |
 
 [Saved-artifact inventory](ARTIFACT_INVENTORY.md) records the contract, receipt,

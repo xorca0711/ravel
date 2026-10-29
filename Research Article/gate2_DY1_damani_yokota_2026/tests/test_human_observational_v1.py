@@ -3,7 +3,7 @@ from pathlib import Path
 import unittest
 import numpy as np
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from human_stats_v1 import log_cpm,mean_difference,correlation_summary
+from human_stats_v1 import log_cpm,mean_difference,correlation_summary,clinical_difference
 
 class HumanObservationTests(unittest.TestCase):
     def test_uses_full_gene_denominator(self):
@@ -32,5 +32,17 @@ class HumanObservationTests(unittest.TestCase):
         x=np.arange(20);y=x**2;z=np.random.default_rng(7).normal(size=(20,1))
         a=correlation_summary(x,y,z,np.random.default_rng(1));b=correlation_summary(x,y,z,np.random.default_rng(1))
         self.assertAlmostEqual(a['rho'],1);self.assertEqual(a['ci_low'],b['ci_low'])
+    def test_adjusted_contrast_known_coefficient(self):
+        rng=np.random.default_rng(3);group=np.repeat([0,1],10);age=rng.normal(50,10,20);sex=np.tile([0,1],10)
+        result=clinical_difference(3*group+.2*age+2*sex,group,age,sex)
+        self.assertAlmostEqual(result['clinical_adjusted_difference'],3,places=10)
+    def test_adjusted_rank_failure_retained(self):
+        result=clinical_difference(np.arange(20),np.repeat([0,1],10),np.arange(20),np.ones(20))
+        self.assertEqual(result['clinical_adjustment_status'],'rank_deficient')
+    def test_missing_covariate_preserves_unadjusted_donors(self):
+        x=np.arange(20);y=x**2;cov=np.random.default_rng(7).normal(size=(20,1));cov[:2]=np.nan
+        result=correlation_summary(x,y,cov,np.random.default_rng(1))
+        self.assertEqual(result['n_donors'],20);self.assertEqual(result['partial_n_donors'],18)
+        self.assertAlmostEqual(result['rho'],1)
 
 if __name__=='__main__':unittest.main()

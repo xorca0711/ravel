@@ -7,7 +7,7 @@ from pathlib import Path
 import time
 import numpy as np
 import pandas as pd
-from human_stats_v1 import log_cpm,mean_difference,correlation_summary
+from human_stats_v1 import log_cpm,mean_difference,correlation_summary,clinical_difference
 from verify_human_observational_v1 import verify
 
 RAW=Path('raw_data/GSE136831')
@@ -94,16 +94,19 @@ def aggregate(meta,selected,total,symbols,panels):
     return table,np.asarray(counts),pd.DataFrame(donor_rows),pd.DataFrame(abundance),masks
 
 
-def contrasts(table,abundance,panels,rng):
+def contrasts(table,abundance,panels,clinical,rng):
     result=[]
     def compare(frame,measure,context):
         for first,second in [('IPF','Control'),('COPD','Control'),('IPF','COPD')]:
             a=frame.loc[frame.disease==first,measure].dropna().to_numpy();b=frame.loc[frame.disease==second,measure].dropna().to_numpy()
             interval=mean_difference(a,b,rng)
+            adjusted_frame=frame[frame.disease.isin([first,second])].merge(clinical[['donor','age','recorded_sex']],on='donor',validate='one_to_one')
+            adjusted=clinical_difference(adjusted_frame[measure],(adjusted_frame.disease==first).astype(int),
+                                         adjusted_frame.age,adjusted_frame.recorded_sex.map({'F':0,'M':1}))
             result.append(dict(context,measure=measure,contrast=first+'-'+second,n_first=len(a),n_second=len(b),
                                mean_first=float(a.mean()) if len(a) else np.nan,mean_second=float(b.mean()) if len(b) else np.nan,
                                median_first=float(np.median(a)) if len(a) else np.nan,median_second=float(np.median(b)) if len(b) else np.nan,
-                               mean_difference=float(a.mean()-b.mean()) if len(a) and len(b) else np.nan,**interval,
+                               mean_difference=float(a.mean()-b.mean()) if len(a) and len(b) else np.nan,**interval,**adjusted,
                                status='estimated_pointwise' if min(len(a),len(b))>=3 else 'fewer_than_3_donors_for_interval'))
     for (scope,denom),frame in abundance.groupby(['population','denominator'],sort=True):
         compare(frame,'fraction',{'population':scope,'floor':0,'denominator':denom,'kind':'abundance'})
@@ -137,7 +140,7 @@ def associations(table,donors,abundance,rng):
                     if y=='fibro_matrix_panel':f=f[f.fibro_cells>=floor]
                     if y=='fibro_only_matrix_panel':f=f[f.fibro_only_cells>=floor]
                     f=f.dropna(subset=[x,y])
-                    cov=np.column_stack([np.log1p(f.n_captured),f.mean_UMI,f.macrophage_fraction])
+                    cov=np.column_stack([np.log1p(f.n_captured),f.mean_UMI,f.macrophage_fraction,f.age,f.recorded_sex.map({'F':0,'M':1})])
                     if disease=='pooled_diagnostic':cov=np.column_stack([cov,(f.disease=='IPF').astype(int),(f.disease=='COPD').astype(int)])
                     summary=correlation_summary(f[x],f[y],cov,rng)
                     results.append(dict(population=scope,floor=floor,disease=disease,x=x,y=y,**summary))
@@ -197,6 +200,9 @@ def main(out):
         hit=genes.index[genes.HGNC_EnsemblAlt_GeneID==symbol].tolist()
         if len(hit)!=1 or genes.loc[hit[0],'Ensembl_GeneID']!=panels['ensembl_ids'][symbol]:raise ValueError('Missing/ambiguous/changed human symbol: '+symbol)
         gene_indices.append(hit[0])
+    clinical=pd.read_csv('analysis/research/runs/DY1_human_clinical_v2/donor_clinical.tsv',sep='\t',dtype={'donor':str})
+    if len(clinical)!=78 or set(clinical.donor)!=set(meta.Subject_Identity) or clinical.donor.duplicated().any():raise ValueError('Clinical donor set changed')
+    if not np.isfinite(clinical.age.to_numpy()).all() or not clinical.recorded_sex.isin(['F','M']).all():raise ValueError('Qualified complete clinical coverage changed')
     selected,total,detected,nnz=stream_counts(RAW/'GSE136831_RawCounts_Sparse.mtx.gz',len(meta),len(genes),gene_indices)
     np.savez_compressed(out/'selected_cell_counts.npz',counts=selected,all_gene_counts=total,symbols=np.asarray(symbols),barcodes=np.asarray(barcodes))
     audit={'matrix_nnz':nnz,'n_cells':len(meta),'raw_UMI_mismatched_cells':int((total!=meta.nUMI.to_numpy()).sum()),
@@ -206,6 +212,8 @@ def main(out):
     if not np.array_equal(total,meta.nUMI.to_numpy()):raise ValueError('Raw all-gene UMI totals disagree with source nUMI')
     if not np.array_equal(detected,meta.nGene.to_numpy()):raise ValueError('Raw detected-gene counts disagree with source nGene')
     table,pb,donors,abundance,masks=aggregate(meta,selected,total,symbols,panels)
+    donors=donors.merge(clinical[['donor','disease','age','recorded_sex']],on=['donor','disease'],validate='one_to_one')
+    if len(donors)!=meta.Subject_Identity.nunique():raise ValueError('Clinical donor join lost records')
     for scope,key in [('Fibroblast','fibroblast_cells'),('Myofibroblast','myofibroblast_cells')]:
         lookup=table[table.population==scope].set_index('donor').n_cells
         donors[key]=donors.donor.map(lookup)
@@ -213,7 +221,7 @@ def main(out):
     write(out,'donor_expression.tsv.gz',table);write(out,'donor_context.tsv',donors);write(out,'donor_abundance.tsv',abundance)
     np.savez_compressed(out/'donor_selected_counts.npz',counts=pb,symbols=np.asarray(symbols),donors=table.donor.to_numpy(dtype=str),populations=table.population.to_numpy(dtype=str))
     rng=np.random.default_rng(20261029)
-    effects=contrasts(table,abundance,panels,rng);assoc=associations(table,donors,abundance,rng)
+    effects=contrasts(table,abundance,panels,clinical,rng);assoc=associations(table,donors,abundance,rng)
     write(out,'contrasts.tsv',effects);write(out,'associations.tsv',assoc)
     arg1=table[table.population.isin(meta.Manuscript_Identity.unique())][['donor','disease','population','n_cells','all_gene_counts','ARG1_positive_cells','ARG1_detection_fraction','ARG1_logCPM']].copy()
     arg1['ARG1_raw_counts']=pb[table.population.isin(meta.Manuscript_Identity.unique()),symbols.index('ARG1')]
