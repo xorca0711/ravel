@@ -967,9 +967,9 @@
     "analysis/research/runs/DY1_human_qualification_v1/receipt.json",
     "analysis/research/runs/DY1_human_clinical_v2/receipt.json",
     "analysis/research/runs/DY1_human_observational_v1/receipt.json",
-    "analysis/research/runs/DY1_external_human_qualification_v1/receipt.json",
     "analysis/research/runs/DY1_external_human_qualification_v2/receipt.json",
-    "analysis/research/runs/DY1_external_human_observational_v1/receipt.json"
+    "analysis/research/runs/DY1_external_human_observational_v1/receipt.json",
+    "analysis/research/runs/DY1_human_evidence_preservation_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

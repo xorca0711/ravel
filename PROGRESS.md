@@ -17,9 +17,15 @@ Exact NAM/model reproduction and sparse within-disease recipient fits remain hel
 The original mouse/infection numerical stages remain stopped under platform
 restriction; their incompletion is not a biological data failure.
 
-Next: finish required repository checks and send the stable local handoff for the
-coordinating review's integration of its six contextual RQ notes. No additional
-analysis or cohort expansion is queued. All canonical RQs and prior frozen evidence
+Validation completed:161repository tests with1skip,27targeted human tests,
+all required evidence verifiers,11,432repository checks and the base-aware gate
+passed against freshly fetched main `78320a1`. The failed diagnostic and discovery
+records are byte-preserved in a registered archive; original local copies remain
+under two exact local Git exclude entries. No validator or tracked ignore changed.
+
+Next: coordinating review integrates the stable local handoff with its six
+reviewed contextual RQ notes and validates those documentation changes. No
+additional analysis or cohort expansion is queued. All canonical RQs and prior frozen evidence
 remain intact; no external publication or settings change occurred. See the
 [validation record](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md).
 

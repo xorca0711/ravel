@@ -1,0 +1,4 @@
+Name: "ILD_annotated_fullsize.rds"
+MD5: "b168b74fa052cba5661d74de2e2ffa40"
+Description: "Annotated Seurat Object"
+Data Processing: "Individual sample output files from CellRanger Count v3.0.2 (GRCh38) were read into Seurat v3 and combined into one Seurat object. Cells containing less than 1,000 nFeature_RNA and more than 25% percentage of mitochondrial genes were filtered out. SCTransform with default parameters was used to normalize and scale the data, and dimensionality reduction was performed using PCA and UMAP. To group cells into clusters, FindClusters function was used with a resolution of 0.01, resulting in six major clusters."

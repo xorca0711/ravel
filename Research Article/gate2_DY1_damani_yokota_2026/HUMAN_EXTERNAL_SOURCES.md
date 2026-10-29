@@ -81,3 +81,13 @@ The metadata download is 3,354,014 bytes, SHA-256
 The 642-byte README has SHA-256
 `a7f878eb36efe4e549ae00538973da7c51de2cdbcf855058ba5d1ff9fdc788ab`.
 Source metadata exposure must be recorded in any later prospective contract.
+
+
+## Canonical preservation archive
+
+All four discovery records are preserved byte-for-byte in the registered
+[human evidence archive](../../analysis/research/runs/DY1_human_evidence_preservation_v1/preservation.json).
+The original copied JSON remains locally and in Git commit `d4ee3cb`; the
+canonical [discovery record](../../analysis/research/runs/DY1_human_evidence_preservation_v1/independent_human_candidates.json)
+is now a receipt-bound archive output. The three original text records also
+remain tracked at `source_metadata/external_human_v1/`. No source content changed.

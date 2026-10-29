@@ -90,3 +90,13 @@ Primary source files reused from an older worktree are immutable hardlinks;
 external public inputs are copies. Never modify the linked primary files.
 No raw input, old worktree or historical evidence was removed. The source-v1/v2
 contracts, receipts and results remain unchanged.
+
+
+The original failed-run directory remains locally and in commit `9982774`, but
+is not listed as a successful receipt. Every byte is preserved in the registered
+`analysis/research/runs/DY1_human_evidence_preservation_v1` archive, including
+`failed_receipt.json` whose status remains `execution_failed`. The same archive
+binds all four discovery records. Its `preservation.json` gives original/archive
+paths, exact hashes and sizes. Exact local Git exclude entries retain the original
+duplicate failed directory and source-discovery JSON without deleting files;
+root `.gitignore`, validators, governance and frozen numerical code are unchanged.

@@ -14,7 +14,7 @@ Control and eight other fibrotic diagnoses. The 43 distinct `orig.ident` labels
 are source metadata identifiers, not proof of 43 independent biological libraries;
 they also differ from the 34 GEO sample records. Sample_Name is the donor unit.
 
-[Qualification v1](../../analysis/research/runs/DY1_external_human_qualification_v1/receipt.json)
+[Qualification v1](../../analysis/research/runs/DY1_human_evidence_preservation_v1/failed_receipt.json)
 failed before raw reading because the current preparation script hash differed
 from its historical record. Git blob `02ff8b6:analysis/corrections/statistics/prepare_counts.py`
 exactly matches SHA-256 `01b44d4aa5dd977c1a997a49e03edd8a227860b7b18cb65bcdf2add66e83271c`;
