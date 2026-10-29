@@ -1,5 +1,9 @@
 # Saved artifacts at documentation close-out
 
+Historical v1 checkpoint. The subsequent bounded [source-v2 results](SOURCE_V2_RESULTS.md)
+and [validation](SOURCE_V2_VALIDATION.md) record the authorized metadata correction.
+The original checkpoint below is retained with its original scope and date.
+
 The canonical article package is `Research Article/gate2_DY1_damani_yokota_2026/`.
 Worktree: `C:/Users/dream/.codex/worktrees/nam-memory-execution-20261029/ravel`.
 Branch: `codex/nam-memory-execution-20261029`.
@@ -44,3 +48,23 @@ No stage 1-8 contract, biological effect table, enrichment, regulatory network,
 human contrast or measured figure exists. No new A-series ID or RQ output was
 created. Existing RQ folders retain their canonical work unchanged. The execution
 worktree and ignored inputs are preserved; no cleanup, archive or deletion ran.
+
+## Source-v2 metadata correction
+
+New worktree: `C:/Users/dream/.codex/worktrees/nam-source-metadata-v2-20261029/ravel`.
+Branch: `codex/nam-source-metadata-v2-20261029`; source freeze: `015b339`.
+The original worktrees and their ignored inputs remain preserved.
+
+| Artifact | Purpose |
+|---|---|
+| [Amendment](SOURCE_V2_AMENDMENT.md) and [contract](config/source_v2.json) | Exposed metadata-only correction; predecessor preserved |
+| [Parser](scripts/qualify_sources_v2.py), [verifier](scripts/verify_sources_v2.py), [tests](tests/test_sources_v2.py) | Hash-bound implementation, separate calculation and nine synthetic regressions |
+| [Receipt](../../analysis/research/runs/DY1_source_v2/receipt.json) | Successful execution at the frozen source commit |
+| [Reference labels](../../analysis/research/runs/DY1_source_v2/reference_labels.tsv) and [feature tags](../../analysis/research/runs/DY1_source_v2/feature_tags.tsv) | Exact record-local labels and per-table identifiers |
+| [Membership](../../analysis/research/runs/DY1_source_v2/reference_presence.tsv) | All reference/tag by feature-table string matches; no cell assignments |
+| [Structured result](../../analysis/research/runs/DY1_source_v2/source_qualification.json) and [verification](../../analysis/research/runs/DY1_source_v2/verification.json) | Two explicit supersessions, input hashes and independent computational checks |
+| [Results](SOURCE_V2_RESULTS.md) and [validation](SOURCE_V2_VALIDATION.md) | Current interpretation and delivery checks |
+
+The new checkout contains only 20 small DY1 metadata inputs in ignored storage.
+No DY1 expression matrix, sequencing read or large biological input was copied.
+Run stdout and empty stderr are retained beside the immutable receipt.
