@@ -1,6 +1,6 @@
 # NAM execution checkpoint review
 
-**Date:** 29 October 2026  
+**Date:** 29 October 2026
 **Status:** source checkpoint reviewed; requested biological analyses remain unfinished
 
 ## Summary
