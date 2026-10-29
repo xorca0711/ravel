@@ -1,5 +1,17 @@
 # Current project state
 
+## Human atlas stage 7 resumed — 29 October 2026
+
+The owner reiterated continuation and authorized the separate non-infectious
+human GSE136831 observational stage. [The prospective plan](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_STAGE7_PLAN.md)
+keeps it article-local and preserves the completed source-v2 correction and all
+restricted mouse/infection holds. Initial donor/assay qualification is frozen
+for commit; numerical fitting awaits qualification and technical contract review.
+Next: execute qualification, specify and review donor-level comparisons, then
+compute eligible descriptions and within-disease associations. Existing caches
+are reused without external downloads. Other RQs, decisions and worktrees are
+preserved. No external-service write or settings change.
+
 ## NAM source-v2 reviewed and integrated — 29 October 2026
 
 The separate analysis session completed the bounded metadata correction; this
