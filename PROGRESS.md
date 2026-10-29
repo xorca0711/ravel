@@ -1,5 +1,28 @@
 # Current project state
 
+## Human atlas stage 7: primary and bounded external computations complete — 29 October 2026
+
+[Primary results](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_RESULTS.md)
+cover78GSE136831donors, exact clinical joins and the frozen population/floor
+sensitivities. [External results](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md)
+cover12IPF/9Control GSE135893donors after current-raw assay verification. Matrix-panel
+RNA differences share a direction; FABP4 contrasts depend on annotation, pooled
+recipient associations weaken within disease, and ARG1 remains sparse. All
+results are exposed descriptions, without scientific acceptance or RQ promotion.
+
+External qualification v1 failed a historical-code hash check; v2 binds the exact
+old Git blob and preserves the failure. The full external marker set retains a
+SELENOP mapping hold; nine outcome genes support the bounded completed analysis.
+Exact NAM/model reproduction and sparse within-disease recipient fits remain held.
+The original mouse/infection numerical stages remain stopped under platform
+restriction; their incompletion is not a biological data failure.
+
+Next: finish required repository checks and send the stable local handoff for the
+coordinating review's integration of its six contextual RQ notes. No additional
+analysis or cohort expansion is queued. All canonical RQs and prior frozen evidence
+remain intact; no external publication or settings change occurred. See the
+[validation record](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md).
+
 ## Human atlas stage 7: primary execution complete — 29 October 2026
 
 The frozen donor-aware GSE136831 analysis executed at `aad1d86`; the

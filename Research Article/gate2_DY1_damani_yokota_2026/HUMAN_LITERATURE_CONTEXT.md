@@ -61,3 +61,15 @@ proxies cannot replace it because they look stronger. Clinical adjustment remain
 descriptive and incomplete. These measurements cannot establish secretion,
 matrix production, spatial signaling, human immune history, mature repair or
 causation, and do not test A1/A22's remaining discriminators.
+
+
+## External continuation disposition
+
+The coordinating review's actual29October searches, access history and primary
+source locators are preserved in [external discovery](HUMAN_EXTERNAL_SOURCES.md),
+with archived source records under `source_metadata/external_human_v1/`.
+The [prospective external plan](HUMAN_EXTERNAL_PLAN.md) records the raw-assay
+qualification, published separate-collection evidence and nine-gene scope;
+[results](HUMAN_EXTERNAL_RESULTS.md) retain source/annotation sensitivity and
+imprecision. GSE122960 was not fitted to seek a favorable result. These updates
+do not convert exposed comparisons into confirmation or certify novelty.

@@ -68,3 +68,25 @@ The original worktrees and their ignored inputs remain preserved.
 The new checkout contains only 20 small DY1 metadata inputs in ignored storage.
 No DY1 expression matrix, sequencing read or large biological input was copied.
 Run stdout and empty stderr are retained beside the immutable receipt.
+
+
+## Human continuation, 29 October 2026
+
+| Stage | Contract | Saved run |
+|---|---|---|
+| Donor/assay qualification | `config/human_qualification_v1.json` | `analysis/research/runs/DY1_human_qualification_v1` |
+| Public age/sex joins | `config/human_clinical_v2.json` | `analysis/research/runs/DY1_human_clinical_v2` |
+| Primary donor-level RNA | `config/human_observational_v1.json` | `analysis/research/runs/DY1_human_observational_v1` |
+| External historical-code failure, preserved | `config/external_human_qualification_v1.json` | `analysis/research/runs/DY1_external_human_qualification_v1` |
+| External current-raw assay audit | `config/external_human_qualification_v2.json` | `analysis/research/runs/DY1_external_human_qualification_v2` |
+| Exposed external RNA description | `config/external_human_observational_v1.json` | `analysis/research/runs/DY1_external_human_observational_v1` |
+
+Paths in the saved-run column are repository-relative. Each directory preserves
+its receipt and logs. Successful runs retain tables, arrays and declared plots;
+the failed qualification retains its actual failure, not fabricated outputs.
+Primary inputs are ignored under `raw_data/GSE136831`; external source/cache and
+exact historical preparation evidence are under `raw_data/DY1_human_external_v1`.
+Primary source files reused from an older worktree are immutable hardlinks;
+external public inputs are copies. Never modify the linked primary files.
+No raw input, old worktree or historical evidence was removed. The source-v1/v2
+contracts, receipts and results remain unchanged.

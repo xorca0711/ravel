@@ -135,6 +135,6 @@ Exact age/recorded-sex joins cover all 78 donors, but smoking, treatment, lung
 function and tissue region remain unqualified. Control ages span 20–80 years,
 IPF 54–78 and COPD 55–73; adjustment cannot remove all sampling differences.
 Shared data remain shared data. Existing A1/A2/A8/A14/A19/A22 endpoints, adverse
-results and claim authorities remain unchanged. The conditional external source
-and its supported comparison are recorded separately; no new canonical RQ or
+results and claim authorities remain unchanged. The [qualified external source and bounded comparison](HUMAN_EXTERNAL_RESULTS.md)
+are recorded separately; no new canonical RQ or
 human retain/reject decision is created here.
