@@ -4,7 +4,7 @@
 
 The separate analysis session completed the bounded metadata correction; this
 reviewer checked its contract, code, saved results and provenance. Commits
-`015b339` and `fbe3407` are integrated locally with both histories preserved.
+`015b339` and final handoff `a1b1117` are integrated locally with both histories preserved.
 [Results and exact limits](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md)
 record the corrected source labels and tag-presence inventory. All v1 evidence
 and existing RQs remain unchanged; no scientific acceptance was recorded.
@@ -12,7 +12,10 @@ and existing RQs remain unchanged; no scientific acceptance was recorded.
 Stage 0 remains partial. Numerical components of stages 1–7 and result-based
 stage 8 remain unfinished under the platform restriction; the owner's broader
 request remains authorized. No broader run is queued. The source session's
-passing checks are retained; integration changes only progress-note reconciliation.
+passing checks are retained. Integration passed 11,349 repository checks and the
+base-aware research gate against freshly fetched main 78320a1; the final source
+revision only clarified that 161 tests ran with one skipped. No code or saved
+result changed during integration.
 Next: retain the source provenance and explicit unresolved units in any permitted
 future work. Preserve all checkouts and ignored inputs; no publication occurred.
 

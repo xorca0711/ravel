@@ -35,7 +35,7 @@ integration base:
 | Check | Result |
 |---|---|
 | Python compilation | Passed |
-| Repository unit suite | 161 tests passed, one skip |
+| Repository unit suite | Passed: 161 tests run, one skipped |
 | Source-v2 synthetic regressions | Nine passed before freeze; unchanged tests/code reused |
 | Claim contract | 18 numeric bindings passed |
 | Saved Nb1, Nb4, A16, A23 and A22/A23-extension evidence | All passed; no biological rerun |
