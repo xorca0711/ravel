@@ -793,7 +793,11 @@
     },
     {
       "id": "DY1-P01",
-      "plan": "Research Article/gate2_DY1_damani_yokota_2026/README.md"
+      "plan": "Research Article/gate2_DY1_damani_yokota_2026/README.md",
+      "evidence": [
+        "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/CLOSEOUT.md"
+      ]
     }
   ],
   "contracts": [
@@ -948,7 +952,8 @@
     "analysis/research/runs/g1_a11_paired_prediction_v1/receipt.json",
     "analysis/research/runs/g1_a11_capacity_qualification_v1/receipt.json",
     "analysis/research/runs/p001_metadata_v1_a001_5ed0581f8b1e4a51/receipt.json",
-    "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json"
+    "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json",
+    "analysis/research/runs/DY1_source_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

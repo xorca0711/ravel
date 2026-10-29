@@ -9,19 +9,30 @@ Can deposited bulk and single-cell measurements reproduce the reported persisten
 
 The paper, selected figures and prior Ravel results were exposed before these contracts. Unknown independence permits descriptive library comparisons only. Exact reproduction, bounded substitutes and holds remain separate.
 
-## Completion ledger
+## Completion ledger: documentation close-out
 
-| Stage | Current disposition |
+The platform restricted the analysis turn; the coordinating review chat then
+requested a documentation-only close-out. **Numerical components of stages 1-7 and result-based integration in stage 8
+are unexecuted, not completed or adjudicated as data-limited.** Available processed data were not biologically
+analysed. Previously completed source reading and design audits remain review-only
+work, including the regulatory precedents, ARG1 comparator limitation and proposed
+epithelial discriminator in the original review. This is an incomplete execution task with a preserved metadata checkpoint.
+
+| Stage | Actual work and remaining status |
 |---|---|
-| 0: Source and units | Metadata qualification in progress |
-| 1: Bulk RNA/ATAC QC | Processed files available; exon-bin versus gene-count and ATAC processing discrepancies under review |
-| 2: RNA/accessibility discordance | Dependent on qualified assay measurements |
-| 3: Composition/within-state RNA | Four expression matrices available; unit mapping unresolved |
-| 4: Regulatory associations | Independent-target qualification pending |
-| 5: History-by-condition response | Four condition libraries; animal inference unresolved |
-| 6: ARG1/context | RNA description and functional-design audit pending |
-| 7: Human/recipient context | Existing GSE136831 cache available; shared lineage retained |
-| 8: Remaining discriminator | Integration follows results and explicit holds |
+| 0: Source and units | Structural metadata run executed and receipt verified; qualification is partial. The [superseding correction](SOURCE_QUALIFICATION_CORRECTION.md) fixes two interpretations without altering frozen outputs. Animal/pool identities and actual tag assignments remain unresolved. |
+| 1: Bulk RNA/ATAC QC | Unexecuted due to platform restriction. Processed inputs saved. Exon-bin semantics, ATAC pipeline discrepancy, absent deposited consensus read counts and unidentified source outlier constrain exact reproduction. |
+| 2: RNA/accessibility discordance | Unexecuted due to platform restriction. No cross-assay effect matrix or stable discordance estimate produced. |
+| 3: Composition/within-state RNA | Unexecuted due to platform restriction. Matrices include CMO counts, but assignments and NAM/state annotation were not computed. |
+| 4: Regulatory associations | Unexecuted due to platform restriction. No target-set enrichment, motif scan, binding overlap or activity estimate produced. |
+| 5: History-by-condition response | Unexecuted due to platform restriction. No interaction estimate; title-level condition labels and library structure remain unresolved pending tag-count qualification. |
+| 6: ARG1/context | Numerical work unexecuted due to platform restriction. Existing reviewed functional-design limits are retained; no RNA attribution or mediation fit produced. |
+| 7: Human/recipient context | Unexecuted due to platform restriction. Existing GSE136831 cache copied locally for the runner; no new donor-aware contrast or recipient association produced. |
+| 8: Remaining discriminator | Integrated result-based decision not completed because stages 1-7 did not run. The earlier proposal remains a proposal; no mechanism, experiment-readiness or scientific acceptance decision was made. |
+
+[Saved-artifact inventory](ARTIFACT_INVENTORY.md) records the contract, receipt,
+outputs and ignored inputs. [Validation and handoff](CLOSEOUT.md) separates
+execution integrity from scientific interpretation.
 
 ## Architecture and evidence boundaries
 

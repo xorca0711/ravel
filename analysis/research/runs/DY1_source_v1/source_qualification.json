@@ -1,0 +1,235 @@
+{
+  "analysis": "metadata only",
+  "sample_records": 22,
+  "features": [
+    {
+      "file": "GSM9964560_count1_features.tsv.gz",
+      "rows": 32291,
+      "feature_types": [
+        "Antibody Capture",
+        "Gene Expression"
+      ],
+      "sha256": "ff74df75623a1850bcd079bff4751fe4059ca5a075cad5cf5dc084188a5d84c1"
+    },
+    {
+      "file": "GSM9964561_count2_features.tsv.gz",
+      "rows": 32291,
+      "feature_types": [
+        "Antibody Capture",
+        "Gene Expression"
+      ],
+      "sha256": "001f66eeb590520c649efc13a88f7dfcf090ed7042b8d9099943f99b31f8c995"
+    },
+    {
+      "file": "GSM9964562_count6_features.tsv.gz",
+      "rows": 32291,
+      "feature_types": [
+        "Antibody Capture",
+        "Gene Expression"
+      ],
+      "sha256": "f91890c3727471ceb06ec7fc5074e9a4b052eb70ca0dcdff9815b33ffeea4d66"
+    },
+    {
+      "file": "GSM9964563_count5_features.tsv.gz",
+      "rows": 32291,
+      "feature_types": [
+        "Antibody Capture",
+        "Gene Expression"
+      ],
+      "sha256": "c3924d7e003a9b99cce7c0abaf9163f0c5758c151c5330ad0aa9a637c6edcd44"
+    }
+  ],
+  "matrices": [
+    {
+      "file": "GSM9964560_count1_matrix.mtx.gz",
+      "features": 32291,
+      "barcodes": 22282,
+      "nonzero_entries": 44168578,
+      "sha256": "1bfbe01cea1058a0c5e32bff2b80627490fa0bea26dfbfbf5e1cefedc755c426"
+    },
+    {
+      "file": "GSM9964561_count2_matrix.mtx.gz",
+      "features": 32291,
+      "barcodes": 19629,
+      "nonzero_entries": 23814921,
+      "sha256": "9888f2bdf36cf01c1cbcb536520d605671e063b5760e90896d5dff312fcbc149"
+    },
+    {
+      "file": "GSM9964562_count6_matrix.mtx.gz",
+      "features": 32291,
+      "barcodes": 18808,
+      "nonzero_entries": 40452955,
+      "sha256": "83a3ef75c232076f9ac41518244e7507e6968331b8ced659171e4468c601a53b"
+    },
+    {
+      "file": "GSM9964563_count5_matrix.mtx.gz",
+      "features": 32291,
+      "barcodes": 23591,
+      "nonzero_entries": 51571607,
+      "sha256": "2ae555a9f11804729971c4d5795f16547fc5d61eb05191796145f82e9f0df320"
+    }
+  ],
+  "bulk_exon_bins": [
+    {
+      "file": "GSM9964554_TP10-1_S8-ExonCounts.txt.gz",
+      "rows": 406855,
+      "distinct_ids": 406855,
+      "ensembl_bin_rows": 406850,
+      "gene_prefixes": 47911,
+      "non_gene_ids": [
+        "_ambiguous",
+        "_ambiguous_readpair_position",
+        "_empty",
+        "_lowaqual",
+        "_notaligned"
+      ],
+      "sha256": "0ce695008d9659142adb709c78f464497e20838797550cb6f542f75a4923f3c7"
+    },
+    {
+      "file": "GSM9964555_TP10-2_S9-ExonCounts.txt.gz",
+      "rows": 406855,
+      "distinct_ids": 406855,
+      "ensembl_bin_rows": 406850,
+      "gene_prefixes": 47911,
+      "non_gene_ids": [
+        "_ambiguous",
+        "_ambiguous_readpair_position",
+        "_empty",
+        "_lowaqual",
+        "_notaligned"
+      ],
+      "sha256": "03faa49fa8f55c3febbcd5da0065e3a414281a1371862f4089db17b4cc25617d"
+    },
+    {
+      "file": "GSM9964556_TP10-3_S14-ExonCounts.txt.gz",
+      "rows": 406855,
+      "distinct_ids": 406855,
+      "ensembl_bin_rows": 406850,
+      "gene_prefixes": 47911,
+      "non_gene_ids": [
+        "_ambiguous",
+        "_ambiguous_readpair_position",
+        "_empty",
+        "_lowaqual",
+        "_notaligned"
+      ],
+      "sha256": "a61e82a82b224566ed190d55981363941914a3b573d775f60fa924e8fe35a384"
+    },
+    {
+      "file": "GSM9964557_XP10-1_S3-ExonCounts.txt.gz",
+      "rows": 406855,
+      "distinct_ids": 406855,
+      "ensembl_bin_rows": 406850,
+      "gene_prefixes": 47911,
+      "non_gene_ids": [
+        "_ambiguous",
+        "_ambiguous_readpair_position",
+        "_empty",
+        "_lowaqual",
+        "_notaligned"
+      ],
+      "sha256": "4ccdbe095d69af46d7670c7ae0b3e6af0efdac798de9fd789e704b98c0402819"
+    },
+    {
+      "file": "GSM9964558_XP10-2_S4-ExonCounts.txt.gz",
+      "rows": 406855,
+      "distinct_ids": 406855,
+      "ensembl_bin_rows": 406850,
+      "gene_prefixes": 47911,
+      "non_gene_ids": [
+        "_ambiguous",
+        "_ambiguous_readpair_position",
+        "_empty",
+        "_lowaqual",
+        "_notaligned"
+      ],
+      "sha256": "49862630d9542e68e285b2d208f471a375119cb4d7b95cfc6b407e958c731131"
+    },
+    {
+      "file": "GSM9964559_XP10-3_S12-ExonCounts.txt.gz",
+      "rows": 406855,
+      "distinct_ids": 406855,
+      "ensembl_bin_rows": 406850,
+      "gene_prefixes": 47911,
+      "non_gene_ids": [
+        "_ambiguous",
+        "_ambiguous_readpair_position",
+        "_empty",
+        "_lowaqual",
+        "_notaligned"
+      ],
+      "sha256": "18f843d9e17a8e5a31b9f48fe9a4e9d02d6d45b51604c614fcbd422dee4bd414"
+    }
+  ],
+  "cmo_references": [
+    {
+      "file": "GSM9964564_feature_reference.csv",
+      "rows": 3,
+      "columns": [
+        "id",
+        "name",
+        "read",
+        "pattern",
+        "sequence",
+        "feature_type",
+        "multiplexed_sample "
+      ],
+      "labels": [
+        ""
+      ]
+    },
+    {
+      "file": "GSM9964565_feature_reference.csv",
+      "rows": 3,
+      "columns": [
+        "id",
+        "name",
+        "read",
+        "pattern",
+        "sequence",
+        "feature_type",
+        "multiplexed_sample"
+      ],
+      "labels": [
+        "Day 35 post nb infection"
+      ]
+    },
+    {
+      "file": "GSM9964566_feature_reference.csv",
+      "rows": 6,
+      "columns": [
+        "id",
+        "name",
+        "read",
+        "pattern",
+        "sequence",
+        "feature_type",
+        "multiplexed_sample"
+      ],
+      "labels": [
+        "Day 35 post nb infection + IAV, 3dpi"
+      ]
+    },
+    {
+      "file": "GSM9964567_feature_reference.csv",
+      "rows": 6,
+      "columns": [
+        "id",
+        "name",
+        "read",
+        "pattern",
+        "sequence",
+        "feature_type",
+        "multiplexed_sample"
+      ],
+      "labels": [
+        "Naive + IAV,3dpi"
+      ]
+    }
+  ],
+  "animal_independence": "unresolved",
+  "atac_counts": "not deposited among inspected supplementary files; peak calls are not read counts",
+  "source_methods": "GEO ATAC processing and paper methods disagree; no silent version reconciliation",
+  "scRNA_condition_batch": "one expression GSM per condition; condition and library confounded",
+  "biological_acceptance": "not_assessed"
+}

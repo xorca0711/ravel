@@ -1,5 +1,44 @@
 # Current project state
 
+## NAM review handoff — 29 October 2026
+
+The owner requested a fresh review chat. The [artifact-based handoff](Research%20Article/gate2_DY1_damani_yokota_2026/REVIEW_HANDOFF.md)
+transfers verified state without the earlier deep link or full transcript.
+The execution chat stopped twice with a platform biology-content restriction,
+including during documentation close-out. The coordinating reviewer preserved
+its saved documentation and metadata receipt and added an independent review.
+Only documentation/provenance review is being transferred; restricted numerical
+work is not being retried. The original all-stage objective remains incomplete.
+No historical biological analysis or current RQ result was changed.
+
+Final checkpoint checks passed: 161 tests (one skip), 11,300 repository checks,
+claim/evidence verifiers, research gate and source receipt verification against
+fresh origin/main 78320a1. No biological analysis was rerun.
+Next: review the committed checkpoint using the recorded passing checks; preserve
+both worktrees and ignored inputs.
+External settings are unchanged; no GitHub publication occurred.
+
+## NAM execution stopped at metadata checkpoint - 29 October 2026
+
+The [DY1 ledger](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+records partial stage 0, unexecuted numerical components of stages 1-7 and no result-based integration for stage 8. The platform restricted the
+analysis turn; the review chat requested documentation-only close-out. This is
+not completion of the original execution objective or a finding that all later
+stages lack data. The frozen source metadata run at `a2ae09e` is preserved with
+its receipt. A [superseding note](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md)
+corrects a trailing-space CSV header artifact and an unsupported categorical
+condition/library-confounding statement. No v2 or biological analysis ran.
+
+Processed mouse files and reused human inputs remain ignored; no raw-read
+reprocessing, RQ result, new A ID or scientific acceptance was created. Existing
+portfolio evidence and other worktrees remain unchanged. See [inventory and
+handoff](Research%20Article/gate2_DY1_damani_yokota_2026/CLOSEOUT.md).
+Next: parent review of the preserved checkpoint; no numerical run is queued.
+Code Ocean remains HTTP 403; external settings and GitHub state are unchanged.
+Validation details and the freshly verified integration revision are recorded
+in the close-out report after checks complete.
+
+
 ## NAM execution: source freeze - 29 October 2026
 
 The [DY1 paper package](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "biosample_bulk",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN62406955&retmode=xml",
+    "status": 200,
+    "bytes": 2234,
+    "date_utc": "2026-10-29T11:30:03Z"
+  },
+  {
+    "name": "biosample_scrna",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN62406949&retmode=xml",
+    "status": 200,
+    "bytes": 2210,
+    "date_utc": "2026-10-29T11:30:04Z"
+  },
+  {
+    "name": "sra_cmo",
+    "url": "https://www.ncbi.nlm.nih.gov/sra/SRX34806787?report=full&retmode=xml",
+    "status": 200,
+    "bytes": 50153,
+    "date_utc": "2026-10-29T11:30:04Z"
+  },
+  {
+    "name": "codeocean5968231",
+    "url": "https://codeocean.com/capsule/5968231/tree",
+    "error": "HTTP Error 403: Forbidden",
+    "date_utc": "2026-10-29T11:30:04Z"
+  },
+  {
+    "name": "codeocean7939720",
+    "url": "https://codeocean.com/capsule/7939720/tree",
+    "error": "HTTP Error 403: Forbidden",
+    "date_utc": "2026-10-29T11:30:04Z"
+  },
+  {
+    "name": "nature",
+    "url": "https://www.nature.com/articles/s41586-026-11060-y",
+    "status": 200,
+    "bytes": 3038,
+    "date_utc": "2026-10-29T11:30:04Z"
+  }
+]
