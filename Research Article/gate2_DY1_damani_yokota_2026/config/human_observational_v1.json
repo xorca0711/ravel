@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.human_observational_v1",
+  "owner": "DY1-P01",
+  "status": "draft",
+  "analysis_type": "descriptive",
+  "question": "How do donor-level captured macrophage annotations, prespecified human transcript panels and same-donor epithelial/fibroblast context vary across Control, IPF and COPD and within each disease?",
+  "decision": "Describe which observed panel differences and within-disease associations persist across prespecified annotation/coverage sensitivities, without validating NAM identity or a causal/functional mechanism.",
+  "strongest_rival": "Disease, capture depth, macrophage/recipient composition, inherited RNA annotations and unmeasured clinical covariates explain pooled associations; same-source panels are not independent evidence.",
+  "discriminator": "Primary deposited Macrophage at20cells; all-macrophage, alveolar and source-five-marker detection proxies as sensitivities. Report all donor contrasts, within-disease versus pooled covariance and Fibroblast-only recipient sensitivity with support/constant-variable holds.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_STAGE7_PLAN.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/LITERATURE_CONTEXT.md",
+    "analysis/research/runs/DY1_human_qualification_v1/qualification.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Exposed atlas papers, prior Ravel GSE136831 results, metadata/donor coverage and source labels. Public primary Apte and Liu panel definitions and reviewer-inspected DY1 human figure markers were read before freeze. No new expression contrast was inspected before this numerical specification; this is not confirmatory.",
+  "biological_unit": "78 source-defined human donors;107 deposited libraries and cells nested within donors. No library or cell is treated as an independent human replicate.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Repeated libraries are summed within each Subject_Identity. Same donors/source reused throughout Ravel and the Apte panel selection remain one evidence lineage, not independent replication. No anatomical NAM or recipient lineage identity is inferred.",
+  "population_and_selection": "All312928 deposited cells from28Control,32IPF,18COPD donors; Multiplet label excluded from analytical denominators but retained in audits. Exact source annotation/category sets and30native human gene IDs are bound in human_panels_v1.json. Primary Macrophage population and20cell floor fixed before outcomes;10/50cell and proxy1/2/3 sensitivities retained.",
+  "contrast": "IPF-Control, COPD-Control and IPF-COPD donor contrasts. Within-disease and diagnostic pooled panel coupling and macrophage-to-recipient RNA/composition associations. ARG1 distribution only among captured annotations.",
+  "endpoint": "Donor captured-cell fractions; gene and panel mean-log2(all-gene CPM+1); ARG1 detection fractions; disease mean differences; Spearman and composition/depth-sensitive partial rank correlations. No activity, secretion, flux, human training or causal mediation endpoint.",
+  "methods": "One chunked integer-matrix pass retains exact declared native-human genes and all-gene cell totals. Check nUMI/nGene parity, barcode order and positive integer/dimension/entry-count validity. Aggregate donor-by-population. Bootstrap donor mean differences2000times (>=3donors/group) and paired-donor Spearman1000times (>=8varying donors); seed20261029. Withhold correlation CI if <95%valid resamples and mean-difference CI if bootstrap distribution constant; record replicate counts. Partial ranks use log1p(totalcaptured),meanUMI,macrophage fraction and pooled disease indicators only at full rank and residualdf>=6. Fibroblast-only recipients and composition shares supplement unions. Exact comparison rules are in the bound code and prospective plan.",
+  "missingness_and_exclusions": "No outcome-dependent exclusion. Missing or ambiguous native symbols hold affected analysis; all30symbols are unique before freeze. Zero abundance numerator retained; absent denominator missing. All below-floor values retained. Sparse/constant comparisons and missing clinical covariates explicit. Neutrophils are not annotated; no tissue-wide ARG1 attribution.",
+  "multiplicity": "No p-values or significance labels. All predefined comparisons and sensitivities retained; bootstrap95%intervals are pointwise descriptive, not simultaneous or multiplicity-controlled claims.",
+  "precision_status": "unknown",
+  "precision_basis": "Cell floors are eligibility diagnostics, not power. Donors resampled as units; percentile intervals do not address unmeasured confounding, atlas selection or ascertainment. Sparse/undefined resamples reported, not rescued.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "association",
+  "interpretation_limit": "Observed human atlas RNA/annotation descriptions only. A five-marker proxy is not a validated NAM identity or exact author-cluster reproduction. Pooled disease separation is not within-disease coupling. Captured cells cannot establish tissue-wide ARG1 dominance, spatial signaling, mature repair, protein output, activity or causal effects; A1/A22 remain contextual links.",
+  "stop_rule": "Stop and retain receipts on hash/identity/count-semantic/independent-arithmetic disagreement. No marker or floor adjustment after outcomes, restricted mouse/infection work, governance change or biological engineering. Retain nulls and explicit unsupported comparisons.",
+  "inputs": [
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.Samples.CellType.MetadataTable.txt.gz",
+      "sha256": "147bdd11d720ed30736a459ba62a3d8e2f3f9028a8430e0eb714484f0456049b",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.GeneIDs.txt.gz",
+      "sha256": "e43b3008945c87a6875d4fb1a99a791fdaefeeb3c5a72a5d17589f621eb83af8",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.cellBarcodes.txt.gz",
+      "sha256": "0efbb89de618a429e2db0399e25f9b2a0f7cd3b6d6ee9a3da71dfc9318cf1ddc",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_RawCounts_Sparse.mtx.gz",
+      "sha256": "266133a964b5c45bf02394acaaff4ea4eb66096ec5a051d92f93dd2747b5850b",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/human_stats_v1.py",
+      "sha256": "6666277a9b3948f9d665bdede8f0de27318bf2b1e67ba1ee56fc483ecfd8a8b2"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/human_observational_v1.py",
+      "sha256": "28dd3feba1c2fe2249442d85fc13985295a2cf4f9d16710ce441ce48943cfd17"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/verify_human_observational_v1.py",
+      "sha256": "bafa97bf213a9a11b1db794cb4244c8a6ca5439b58a7c1b1b73e87ccbb705c03"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_human_observational_v1.py",
+      "sha256": "e5c15127843b51a7f0d618c8cf4f96241960f1637a6877fbd1f88ca16db7d15b"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/human_panels_v1.json",
+      "sha256": "97570df4b2d90d5dd7755075df3ea0bbe115674c278530ac27d2324b3a3d9c65"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/human_observational_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "selected_cell_counts.npz",
+    "matrix_audit.json",
+    "donor_expression.tsv.gz",
+    "donor_context.tsv",
+    "donor_abundance.tsv",
+    "donor_selected_counts.npz",
+    "contrasts.tsv",
+    "associations.tsv",
+    "arg1_by_annotation.tsv",
+    "verification.json",
+    "human_overview.png",
+    "human_associations.png",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separate prospective numerical human observational stage after donor qualification; primary source-label description and explicit marker-proxy adaptations replace unsupported exact NAM-reproduction wording without resuming restricted analyses."
+}

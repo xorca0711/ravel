@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.human_clinical_v2",
+  "owner": "DY1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can public GEO sample age and recorded sex be joined exactly to the qualified GSE136831 donors and their repeated libraries?",
+  "decision": "Qualify clinical covariate availability before the human numerical freeze; do not treat fields absent from the supplied cell file as absent from all public source records.",
+  "strongest_rival": "Inexact title matching, subject collisions or conflicting sample/library records would misattribute clinical covariates and distort confounding sensitivity.",
+  "discriminator": "Exact title suffix removal to Subject_Identity, one-to-one donor/disease matching and many-to-one repeated-library joining; independently parse sample lines and compare clinical values.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_STAGE7_PLAN.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/LITERATURE_CONTEXT.md",
+    "docs/research_reviews/2026-10-29-nam-memory/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Qualification_v1 metadata coverage is exposed. Reviewer identified one sample with age and sex; this session inspected the family metadata title format and characteristic field names before freeze. No new expression fits have run.",
+  "biological_unit": "Deposited Subject_Identity donor, with Library_Identity and captured cells nested; mappings are to be verified.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells and any repeated libraries nest within source-defined subjects. GSE136831 has already been reused in Ravel; no independent cohort validation is claimed.",
+  "population_and_selection": "All78GEO sample records in the bounded family SOFT metadata and all78qualified source subjects/107libraries; no fuzzy matching or outcome-driven selection.",
+  "contrast": "Source-record clinical metadata consistency and coverage; no disease expression contrast.",
+  "endpoint": "Exact donor/library joins, available age and recorded sex, missingness and conflicts.",
+  "methods": "Parse GEO family SOFT sample titles and characteristics; exact title-to-subject matching; assert donor and disease sets; independently verify with a separate line-state parser. Preserve raw age/sex values and missing fields.",
+  "missingness_and_exclusions": "Unknown clinical values remain missing; no imputation or inferred sex/age. Smoking,treatment,lung_function,tissue_region remain unqualified. Missing/ambiguous identity joins stop execution.",
+  "multiplicity": "No hypothesis tests or multiple-testing claims.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata census of available files; no population uncertainty or power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Clinical fields permit descriptive adjustment only; qualification_v1 remains preserved and correct about the supplied cell file. No complete confounder control or biological acceptance.",
+  "stop_rule": "Stop on hash/order/identity/dimension conflicts and preserve failure records. No expression fits, mouse/infection analysis, engineering protocol or biological intervention in this qualification.",
+  "inputs": [
+    {
+      "path": "raw_data/GSE136831/GSE136831_family.soft.gz",
+      "sha256": "5ae2464947cfb8d8ff933965797bf17734bf030072e7ce797b0b1a0c1ca20fc3",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/clinical_retrieval_v1.json",
+      "sha256": "2e4c8232857aed2f9f0cbb0963925beeba5ba04337629a19ac0041a67d021957",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/donors.tsv",
+      "sha256": "0525d15449a0670fcde5d5eac15b780359db77979aece1d29e008360efbab81f",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/libraries.tsv",
+      "sha256": "e61691e8a8a565693cdaeb467b796385cd8b516750699c3633dbe69d6e6d7918",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_clinical_v2.py",
+      "sha256": "d3e3360e6af5d417527447462eff13c9cad03f3680178887535c644370ef598b"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_human_clinical_v2.py",
+      "sha256": "e588dfd8e573188b5bd8f8380ac0e5c0fd840e82612279e35e553a21c3541188"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_clinical_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "donor_clinical.tsv",
+    "library_clinical.tsv",
+    "clinical_coverage.tsv",
+    "qualification.json"
+  ],
+  "amendment_of": "Research Article/gate2_DY1_damani_yokota_2026/config/human_qualification_v1.json",
+  "amendment_reason": "Reviewer recovered age and recorded sex in GEO sample records despite their absence from the supplied cell metadata file. Add exact clinical joins prospectively before numerical fits; preserve qualification_v1 and its receipt."
+}

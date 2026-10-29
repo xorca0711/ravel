@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.human_qualification_v1",
+  "owner": "DY1-P01",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/config/human_qualification_v1.json",
+  "contract_sha256": "f45b59b4107d13437de4dde3cd03701e1979927fa96621e3d25cc4af06191ab8",
+  "git_commit": "952ea4041663a1b6d87486a166bad27a4e3747a4",
+  "started_at": "2026-10-29T12:52:58.350785+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_human_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.Samples.CellType.MetadataTable.txt.gz",
+      "sha256": "147bdd11d720ed30736a459ba62a3d8e2f3f9028a8430e0eb714484f0456049b",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.GeneIDs.txt.gz",
+      "sha256": "e43b3008945c87a6875d4fb1a99a791fdaefeeb3c5a72a5d17589f621eb83af8",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.cellBarcodes.txt.gz",
+      "sha256": "0efbb89de618a429e2db0399e25f9b2a0f7cd3b6d6ee9a3da71dfc9318cf1ddc",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_RawCounts_Sparse.mtx.gz",
+      "sha256": "266133a964b5c45bf02394acaaff4ea4eb66096ec5a051d92f93dd2747b5850b",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_v1.py",
+      "sha256": "40cb4b823ce5c28099e980d84c8c1bdbc6e29162f1c07c767431ac6dec419a95"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_human_qualification_v1.py",
+      "sha256": "bcf86653c57399ef5005a1383c33f3c287105de90c9d404dfd7572164f7b0c05"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/donors.tsv",
+      "sha256": "0525d15449a0670fcde5d5eac15b780359db77979aece1d29e008360efbab81f"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/annotation_coverage.tsv",
+      "sha256": "2d656f0c1afa2fa27b75cde1f145a2e307f2702762c96f8b06eb8902aee5d1ab"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/libraries.tsv",
+      "sha256": "e61691e8a8a565693cdaeb467b796385cd8b516750699c3633dbe69d6e6d7918"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/panel_gene_mapping.tsv",
+      "sha256": "0482f853b91d9f283e927e419bad2a6de270702b7714f9de6c3208332a2c34b9"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/qualification.json",
+      "sha256": "9fff647cdce077577c33ba0bfca4fb32512ecf6f56f2ca40f5ee60e82a19cc39"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-29T12:53:17.607783+00:00"
+}
