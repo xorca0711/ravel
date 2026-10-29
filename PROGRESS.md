@@ -1,5 +1,31 @@
 # Current project state
 
+## NAM immune-history paper review and staged proposal - 29 October 2026
+
+Reviewed the supplied paper, presentation, owner notes and current Ravel evidence.
+The [paper review](docs/research_reviews/2026-10-29-nam-memory/README.md) proposes
+source qualification, molecular reproduction, RNA/accessibility comparison,
+NAM composition and response analysis, STAT6-EGR2-PPARgamma-RXRA regulatory
+association, ARG1 context, and a conditional epithelial-repair bridge.
+The [literature context](docs/research_reviews/2026-10-29-nam-memory/LITERATURE_CONTEXT.md)
+records close precedents, contrary findings and source access.
+
+Public GEO records and CMO references are available, but animal/pool identities,
+assay linkage and the excluded ATAC sample require qualification. Code Ocean
+returned HTTP 403. No biological analysis, new canonical RQ, claim grade or human
+scientific decision was made. Private PI planning and supplied files remain
+outside the repository. Primary-checkout notes and other worktrees are preserved.
+
+Next: qualify the selected article-local candidate's units and source files under
+a prospective metadata contract before numerical reanalysis. A new freeze must
+retain prior exposure. Activity, mediation, memory maintenance and mature epithelial
+function remain distinct unmeasured endpoints. External settings are unchanged.
+Fetched main and review base are 78320a1. Validation passed: 11,251 repository
+checks, the base-aware research gate, compilation, 158 tests (two skips), claim
+bindings and required saved-evidence verifiers. Fifteen missing historical Choi
+outputs were copied from existing local evidence only after source SHA-256
+verification; destination hashes matched. No historical analysis was rerun.
+
 ## Current-summary synchronization — 25 October 2026
 
 Updated the live portfolio, architecture, question index, reproducibility scope,
