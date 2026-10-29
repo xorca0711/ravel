@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.external_human_qualification_v2",
+  "owner": "DY1-P01",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_qualification_v2.json",
+  "contract_sha256": "529a0ca44ee209678a4780e4e032e3b6ab1fea53fc3ab3044e41aa2b77a3c8de",
+  "git_commit": "9982774f06ca65b89961c61731805af28da73c0f",
+  "started_at": "2026-10-29T14:02:58.434781+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_external_human_v2.py",
+    "--output",
+    "analysis/research/runs/DY1_external_human_qualification_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_barcodes.tsv.gz",
+      "sha256": "37a9a98a95d59bb4333c8181c14bb2b384701e6fda1c409e79f3e41c681430d4",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_genes.tsv.gz",
+      "sha256": "7e8612e72f033ef214de101bb782ab1cb60b8c887be2d3e8a0d637de067b0233",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_IPF_metadata.csv.gz",
+      "sha256": "5c67b3717375859aafc4463024847cf30d7af7bb9d5f4ad9a5364ee6d7726bf5",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_matrix.mtx.gz",
+      "sha256": "036987d06ed9625a71f5e5be0717c2598e914a6c9cad0628f61a8ebb66e695a6",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_subtypes.npz",
+      "sha256": "1c85a3940082c80759f6f8743eb6fb1eeed2f61fdaf9aab84a575a47e5f704fb",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_subtypes_counts.csv.gz",
+      "sha256": "b7a902ca81a5f5c3196bd8122dea703205ad5d9d26d86e7f53886e25b46d2f8f",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_subtypes_units.csv",
+      "sha256": "e3d7f848a64c28dedd5710d6a89eb6c567bf079fec2de629338a593fa071a358",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/corrections/statistics/GSE135893_subtypes_preparation.json",
+      "sha256": "3e8108f02bd148d42ca39b33981faf29460b151b17ed923e27d7e9f5f21e7965",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/human_panels_v1.json",
+      "sha256": "97570df4b2d90d5dd7755075df3ea0bbe115674c278530ac27d2324b3a3d9c65",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/prepare_counts_02ff8b6.py.txt",
+      "sha256": "01b44d4aa5dd977c1a997a49e03edd8a227860b7b18cb65bcdf2add66e83271c",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_external_human_v2.py",
+      "sha256": "6e8e61767913a3f57dcd07f376eb8549dc9c68e480c315c9fba320c3437aa2a0"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_external_qualification_v2.py",
+      "sha256": "31a04aafd3ed1dd9cbbe59f057bd2b3b0155c955dd821eae9cfcad85299300be"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v2/donor_coverage.tsv",
+      "sha256": "c7deb963f526538b7630cd5f8286d6f31fc96985ca9d360249d44fc1fcdd4701"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v2/aggregate_audit.tsv",
+      "sha256": "f0fe1f14e2398ac52aee806be57314ab94b39e744f64ffcb235a4fdb0f99433d"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v2/gene_mapping.tsv",
+      "sha256": "e256444ec3509aa1683e073188d9a276c271e6c5afd68733a85859fdb9120e79"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v2/direct_selected_counts.npz",
+      "sha256": "491dcb9cb65f6bb2e71209432fd7f9d5d0cf113605dedef044ad17ccf903ebee"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v2/qualification.json",
+      "sha256": "1dd3bafa0353583e2f4ea821a52098c14b74be71d57d5410bcf3a8cd52059959"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-29T14:07:08.717619+00:00"
+}
