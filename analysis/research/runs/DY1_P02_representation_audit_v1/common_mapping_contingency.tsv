@@ -1,0 +1,12 @@
+distance_subset	common_regions	ensembl_only_regions	nearest_only_regions	same_gene	ensembl_class	nearest_class	regions
+all_author_annotated	61541	921	661	False	opposite	opposite	20
+all_author_annotated	61541	921	661	False	opposite	same	2
+all_author_annotated	61541	921	661	False	same	opposite	4
+all_author_annotated	61541	921	661	False	same	same	18
+all_author_annotated	61541	921	661	True	opposite	opposite	27144
+all_author_annotated	61541	921	661	True	same	same	34353
+within_2kb_of_nearest_tss	8575	137	90	False	opposite	opposite	4
+within_2kb_of_nearest_tss	8575	137	90	False	same	opposite	1
+within_2kb_of_nearest_tss	8575	137	90	False	same	same	1
+within_2kb_of_nearest_tss	8575	137	90	True	opposite	opposite	3175
+within_2kb_of_nearest_tss	8575	137	90	True	same	same	5394

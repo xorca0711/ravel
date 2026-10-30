@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.genotype_reference_v1",
+  "owner": "DY1-P02",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/genotype_reference_v1.json",
+  "contract_sha256": "6500e77ed18b517a88dfa322ad3277b0b42b8a16ca113e99244a80ad0538aaee",
+  "git_commit": "2f74c6c0454b4d05c5f23b4dd6aeeb59c45f8771",
+  "started_at": "2026-10-30T07:34:24.505509+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/genotype_reference_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_P02_genotype_reference_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE247223_countMatrixUpdated.tsv.gz",
+      "sha256": "5a8bc01d332386e221337d0a866875ef31130deab432cadd5c64715052f19ca3",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE248042_Chinenov_Deochand_submission_ATACseq_peak_count_matrix.csv.gz",
+      "sha256": "5d39fe421adced7aa67c7cf92d82c478492e11ee0650e07621803b79d8ba5372",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/sample_map.tsv",
+      "sha256": "a09cc08c3690c3e564a1c5622573668f6f97404f2e76c6ebc6fda1e95148ccbe",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/author_annotation_map.tsv",
+      "sha256": "9fc8c70701d52d7802c00a2556fe9c7ba59b16450eb8aca2ab98bc635ca7454d",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/qualification.json",
+      "sha256": "9d72eb31b6c2b0261f179c864c308304e4e7aaec1af64097498adf6fbfb6c3a5",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/genotype_reference_parameters_v1.json",
+      "sha256": "d41bf8642790e4269418182c5affe511a81f28cf3178c162be545c561b147a2c",
+      "study_id": "GSE247223_GSE248042",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/genotype_reference_v1.py",
+      "sha256": "544c6d98a293a9a2a6b3f202884ab09bb8da6112993bdf7b4bef3a2900bbeb22"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_genotype_reference_v1.py",
+      "sha256": "3947836be46daae5ed6745a85e630e9e3ab41489c5e82389caf18cee2d229b52"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/genotype_reference_parameters_v1.json",
+      "sha256": "d41bf8642790e4269418182c5affe511a81f28cf3178c162be545c561b147a2c"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/selected_source_samples.tsv",
+      "sha256": "e7e7ff9ea89415217c743f6500065f748623b1643c8ea2e2c331e6263a07184b"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/rna_genotype_effects.tsv.gz",
+      "sha256": "8b4f0e182930d7b5ea0db4eda14c4facf1e0634240acf3bdfc1ab0be27ccd674"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/atac_genotype_effects.tsv.gz",
+      "sha256": "aa64149fac73dd3049ff1db2887e2fc450094028cbaf29b0916b02c98f114caa"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_membership.tsv.gz",
+      "sha256": "31004cf4372cf35b7d385ffefbfb49490da05893e262e45ad3f812accae65d5f"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/feature_eligibility.tsv",
+      "sha256": "117055397c1a2113de401287addf097eaccc6310dbf9ac0cf655773171fb4de7"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/library_denominators.tsv",
+      "sha256": "43e757517728f541bbb56dbd39c795d5996d24d2312120bcae97cbc5f4558185"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/feature_summary.tsv",
+      "sha256": "3df956eada459171fc4291b4264043beaf8832e0be66f8acb852f671f4098f5a"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "sha256": "a7819f3ab30905720fff35b35817e6b2a06c11c460cfc19cc1547c58068a2ccc"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/genotype_reference.png",
+      "sha256": "a667cae9cc9356a291d86637a6e9eee98481508d73c5c9a1fcd0cef1f612b5a4"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/verification.json",
+      "sha256": "1b86d35503fbe24b682894dea45a28739f39e21d4a234a5227a8733f6e944a08"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/summary.json",
+      "sha256": "3e48dfcbd4a563517129ec11cd62cec03233152a424d4475ea5276bcf8251aa1"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T07:34:48.667073+00:00"
+}
