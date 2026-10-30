@@ -1,0 +1,224 @@
+[
+  {
+    "gsm": "GSM7764752",
+    "title": "Fib alone 1",
+    "characteristics": [
+      "tissue: Lung",
+      "cell type: Fibroblasts",
+      "genotype: WT",
+      "treatment: Bleomycin"
+    ],
+    "relations": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN37307453",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX21653362"
+    ],
+    "files": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764752/suppl/GSM7764752_fib1alone_barcodes.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764752/suppl/GSM7764752_fib1alone_features.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764752/suppl/GSM7764752_fib1alone_matrix.mtx.gz"
+    ],
+    "biosample": "SAMN37307453",
+    "srs": "SRS18821793",
+    "attributes": {
+      "source_name": "Lung",
+      "tissue": "Lung",
+      "cell type": "Fibroblasts",
+      "genotype": "WT",
+      "treatment": "Bleomycin",
+      "geo_loc_name": "missing",
+      "collection_date": "missing"
+    },
+    "srx": "SRX21653362",
+    "pool_elements": 0,
+    "animal_ids": null,
+    "preparation_ids": null,
+    "independent_biological_replicates": null,
+    "pooling": "not reported; missing XML pool elements do not prove no pooling",
+    "pairing": "unknown; suffixes and accessions do not establish pairing"
+  },
+  {
+    "gsm": "GSM7764753",
+    "title": "Fib + Mac 1",
+    "characteristics": [
+      "tissue: Lung",
+      "cell type: Fibroblasts and Cd11b+ Macrophages",
+      "genotype: WT",
+      "treatment: Bleomycin"
+    ],
+    "relations": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN37307452",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX21653363"
+    ],
+    "files": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764753/suppl/GSM7764753_fib+mac1_barcodes.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764753/suppl/GSM7764753_fib+mac1_features.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764753/suppl/GSM7764753_fib+mac1_matrix.mtx.gz"
+    ],
+    "biosample": "SAMN37307452",
+    "srs": "SRS18821794",
+    "attributes": {
+      "source_name": "Lung",
+      "tissue": "Lung",
+      "cell type": "Fibroblasts and Cd11b+ Macrophages",
+      "genotype": "WT",
+      "treatment": "Bleomycin",
+      "geo_loc_name": "missing",
+      "collection_date": "missing"
+    },
+    "srx": "SRX21653363",
+    "pool_elements": 0,
+    "animal_ids": null,
+    "preparation_ids": null,
+    "independent_biological_replicates": null,
+    "pooling": "not reported; missing XML pool elements do not prove no pooling",
+    "pairing": "unknown; suffixes and accessions do not establish pairing"
+  },
+  {
+    "gsm": "GSM7764754",
+    "title": "P2rx4KO Fib + Mac 1",
+    "characteristics": [
+      "tissue: Lung",
+      "cell type: Fibroblasts and Cd11b+ Macrophages",
+      "genotype: WT Macrophages and P2rx4KO fibroblasts",
+      "treatment: Bleomycin"
+    ],
+    "relations": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN37307451",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX21653364"
+    ],
+    "files": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764754/suppl/GSM7764754_fibKO+mac1_barcodes.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764754/suppl/GSM7764754_fibKO+mac1_features.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764754/suppl/GSM7764754_fibKO+mac1_matrix.mtx.gz"
+    ],
+    "biosample": "SAMN37307451",
+    "srs": "SRS18821795",
+    "attributes": {
+      "source_name": "Lung",
+      "tissue": "Lung",
+      "cell type": "Fibroblasts and Cd11b+ Macrophages",
+      "genotype": "WT Macrophages and P2rx4KO fibroblasts",
+      "treatment": "Bleomycin",
+      "geo_loc_name": "missing",
+      "collection_date": "missing"
+    },
+    "srx": "SRX21653364",
+    "pool_elements": 0,
+    "animal_ids": null,
+    "preparation_ids": null,
+    "independent_biological_replicates": null,
+    "pooling": "not reported; missing XML pool elements do not prove no pooling",
+    "pairing": "unknown; suffixes and accessions do not establish pairing"
+  },
+  {
+    "gsm": "GSM7764755",
+    "title": "Fib alone 2",
+    "characteristics": [
+      "tissue: Lung",
+      "cell type: Fibroblasts",
+      "genotype: WT",
+      "treatment: Bleomycin"
+    ],
+    "relations": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN37307450",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX21653365"
+    ],
+    "files": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764755/suppl/GSM7764755_fib2alone_barcodes.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764755/suppl/GSM7764755_fib2alone_features.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764755/suppl/GSM7764755_fib2alone_matrix.mtx.gz"
+    ],
+    "biosample": "SAMN37307450",
+    "srs": "SRS18821796",
+    "attributes": {
+      "source_name": "Lung",
+      "tissue": "Lung",
+      "cell type": "Fibroblasts",
+      "genotype": "WT",
+      "treatment": "Bleomycin",
+      "geo_loc_name": "missing",
+      "collection_date": "missing"
+    },
+    "srx": "SRX21653365",
+    "pool_elements": 0,
+    "animal_ids": null,
+    "preparation_ids": null,
+    "independent_biological_replicates": null,
+    "pooling": "not reported; missing XML pool elements do not prove no pooling",
+    "pairing": "unknown; suffixes and accessions do not establish pairing"
+  },
+  {
+    "gsm": "GSM7764756",
+    "title": "Fib + Mac 2",
+    "characteristics": [
+      "tissue: Lung",
+      "cell type: Fibroblasts and Cd11b+ Macrophages",
+      "genotype: WT",
+      "treatment: Bleomycin"
+    ],
+    "relations": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN37307449",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX21653366"
+    ],
+    "files": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764756/suppl/GSM7764756_fib+mac2_barcodes.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764756/suppl/GSM7764756_fib+mac2_features.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764756/suppl/GSM7764756_fib+mac2_matrix.mtx.gz"
+    ],
+    "biosample": "SAMN37307449",
+    "srs": "SRS18821797",
+    "attributes": {
+      "source_name": "Lung",
+      "tissue": "Lung",
+      "cell type": "Fibroblasts and Cd11b+ Macrophages",
+      "genotype": "WT",
+      "treatment": "Bleomycin",
+      "geo_loc_name": "missing",
+      "collection_date": "missing"
+    },
+    "srx": "SRX21653366",
+    "pool_elements": 0,
+    "animal_ids": null,
+    "preparation_ids": null,
+    "independent_biological_replicates": null,
+    "pooling": "not reported; missing XML pool elements do not prove no pooling",
+    "pairing": "unknown; suffixes and accessions do not establish pairing"
+  },
+  {
+    "gsm": "GSM7764757",
+    "title": "P2rx4KO Fib + Mac 2",
+    "characteristics": [
+      "tissue: Lung",
+      "cell type: Fibroblasts and Cd11b+ Macrophages",
+      "genotype: WT Macrophages and P2rx4KO fibroblasts",
+      "treatment: Bleomycin"
+    ],
+    "relations": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN37307448",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX21653367"
+    ],
+    "files": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764757/suppl/GSM7764757_fibKO+mac2_barcodes.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764757/suppl/GSM7764757_fibKO+mac2_features.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7764nnn/GSM7764757/suppl/GSM7764757_fibKO+mac2_matrix.mtx.gz"
+    ],
+    "biosample": "SAMN37307448",
+    "srs": "SRS18821798",
+    "attributes": {
+      "source_name": "Lung",
+      "tissue": "Lung",
+      "cell type": "Fibroblasts and Cd11b+ Macrophages",
+      "genotype": "WT Macrophages and P2rx4KO fibroblasts",
+      "treatment": "Bleomycin",
+      "geo_loc_name": "missing",
+      "collection_date": "missing"
+    },
+    "srx": "SRX21653367",
+    "pool_elements": 0,
+    "animal_ids": null,
+    "preparation_ids": null,
+    "independent_biological_replicates": null,
+    "pooling": "not reported; missing XML pool elements do not prove no pooling",
+    "pairing": "unknown; suffixes and accessions do not establish pairing"
+  }
+]

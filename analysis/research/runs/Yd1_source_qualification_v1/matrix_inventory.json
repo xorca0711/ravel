@@ -1,0 +1,247 @@
+{
+  "members": [
+    {
+      "file": "GSM7764752_fib1alone_barcodes.tsv.gz",
+      "bytes": 9859,
+      "sha256": "b694e8b8d77a0f83e33fbff9ced9b01c923b56c3d2f5d653352d0bfc981a86ac",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764752_fib1alone_features.tsv.gz",
+      "bytes": 255416,
+      "sha256": "9147d9a56020ef261cb27435e0edcb3c8a81706741f494c941e8ae201206b958",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764752_fib1alone_matrix.mtx.gz",
+      "bytes": 31021365,
+      "sha256": "1241f91b9730a249799bbf1b0581646c54c59c729e2f5543dff2ff9a29c603ea",
+      "inspection": "header only; expression entries not analyzed or exhaustively validated"
+    },
+    {
+      "file": "GSM7764753_fib+mac1_barcodes.tsv.gz",
+      "bytes": 8016,
+      "sha256": "b458ee44fde99f0bd6df85bbb6d31319d869fb7d81f37fc75c0de71a3ca35bfe",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764753_fib+mac1_features.tsv.gz",
+      "bytes": 255416,
+      "sha256": "ccdb4633c38d9377da36e4512dd5c6cb1ee65411e96dd298460e461a103e3c68",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764753_fib+mac1_matrix.mtx.gz",
+      "bytes": 36900625,
+      "sha256": "c77b809574292ef5b557c94c73b4e58d0c2981d07de869e09831d6091b9b17bf",
+      "inspection": "header only; expression entries not analyzed or exhaustively validated"
+    },
+    {
+      "file": "GSM7764754_fibKO+mac1_barcodes.tsv.gz",
+      "bytes": 10985,
+      "sha256": "715eaeac3f03c81c2bebd183f1a658755bfee6925e9935febb7a91bbf3cd33ca",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764754_fibKO+mac1_features.tsv.gz",
+      "bytes": 255416,
+      "sha256": "e260267e174938f237c620cf305c6b5070ca4c01637216900a95fe9bf22bfdbd",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764754_fibKO+mac1_matrix.mtx.gz",
+      "bytes": 46349295,
+      "sha256": "50cd8be10bd0936620d4aa90d036f4b0a033445d7a59c584c54c6261d2343503",
+      "inspection": "header only; expression entries not analyzed or exhaustively validated"
+    },
+    {
+      "file": "GSM7764755_fib2alone_barcodes.tsv.gz",
+      "bytes": 8923,
+      "sha256": "c116060142ba5dcae7328202cd24e6c509b3e59e3ea109f9f465da67db51158b",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764755_fib2alone_features.tsv.gz",
+      "bytes": 255416,
+      "sha256": "9575147058d4a52095c02e01d9de1dc1cb69f7c8024128af0dec2a696f619662",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764755_fib2alone_matrix.mtx.gz",
+      "bytes": 36167572,
+      "sha256": "768dc52cf475e07649349173b7bfd2153b4237009cbc103da45880b3c2af5eab",
+      "inspection": "header only; expression entries not analyzed or exhaustively validated"
+    },
+    {
+      "file": "GSM7764756_fib+mac2_barcodes.tsv.gz",
+      "bytes": 9417,
+      "sha256": "2d6ea692be53402a4920d4e96039023825fc9d9b28d653c676e01af70fb0db36",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764756_fib+mac2_features.tsv.gz",
+      "bytes": 255416,
+      "sha256": "29d82d1f80642a483792d4d52b150a12ccab9a4f7d3255aa56741c741fe747fd",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764756_fib+mac2_matrix.mtx.gz",
+      "bytes": 27303480,
+      "sha256": "2eb271b066a94d27078aa8bbaa43aa64d327115e2cd08aa1ac68c85fc61ab06c",
+      "inspection": "header only; expression entries not analyzed or exhaustively validated"
+    },
+    {
+      "file": "GSM7764757_fibKO+mac2_barcodes.tsv.gz",
+      "bytes": 12106,
+      "sha256": "dad336d6b0e59cd3f2a76eebf122e75f8ba21240a6f6aaee960bf6a40354ef38",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764757_fibKO+mac2_features.tsv.gz",
+      "bytes": 255416,
+      "sha256": "92363f03e2e0e1a3c530110a63470cd6c7dcdc425e64c6f25ec7643cf9b9a722",
+      "inspection": "all identifiers read; unique IDs verified"
+    },
+    {
+      "file": "GSM7764757_fibKO+mac2_matrix.mtx.gz",
+      "bytes": 33750700,
+      "sha256": "3adb78e31afebe7deb9facc5c0ab5a55e03c089df5b5d7a2845a9f7731d0ea9e",
+      "inspection": "header only; expression entries not analyzed or exhaustively validated"
+    }
+  ],
+  "libraries": {
+    "GSM7764752": {
+      "barcode_rows": 2081,
+      "feature_rows": 32285,
+      "feature_columns": [
+        3
+      ],
+      "arg1_il6_features": [
+        [
+          "ENSMUSG00000025746",
+          "Il6",
+          "protein_coding"
+        ],
+        [
+          "ENSMUSG00000019987",
+          "Arg1",
+          "protein_coding"
+        ]
+      ],
+      "features": 32285,
+      "barcodes": 2081,
+      "declared_nonzero_entries": 9999055
+    },
+    "GSM7764753": {
+      "barcode_rows": 1674,
+      "feature_rows": 32285,
+      "feature_columns": [
+        3
+      ],
+      "arg1_il6_features": [
+        [
+          "ENSMUSG00000025746",
+          "Il6",
+          "protein_coding"
+        ],
+        [
+          "ENSMUSG00000019987",
+          "Arg1",
+          "protein_coding"
+        ]
+      ],
+      "features": 32285,
+      "barcodes": 1674,
+      "declared_nonzero_entries": 11863958
+    },
+    "GSM7764754": {
+      "barcode_rows": 2333,
+      "feature_rows": 32285,
+      "feature_columns": [
+        3
+      ],
+      "arg1_il6_features": [
+        [
+          "ENSMUSG00000025746",
+          "Il6",
+          "protein_coding"
+        ],
+        [
+          "ENSMUSG00000019987",
+          "Arg1",
+          "protein_coding"
+        ]
+      ],
+      "features": 32285,
+      "barcodes": 2333,
+      "declared_nonzero_entries": 14990426
+    },
+    "GSM7764755": {
+      "barcode_rows": 1856,
+      "feature_rows": 32285,
+      "feature_columns": [
+        3
+      ],
+      "arg1_il6_features": [
+        [
+          "ENSMUSG00000025746",
+          "Il6",
+          "protein_coding"
+        ],
+        [
+          "ENSMUSG00000019987",
+          "Arg1",
+          "protein_coding"
+        ]
+      ],
+      "features": 32285,
+      "barcodes": 1856,
+      "declared_nonzero_entries": 11652083
+    },
+    "GSM7764756": {
+      "barcode_rows": 1984,
+      "feature_rows": 32285,
+      "feature_columns": [
+        3
+      ],
+      "arg1_il6_features": [
+        [
+          "ENSMUSG00000025746",
+          "Il6",
+          "protein_coding"
+        ],
+        [
+          "ENSMUSG00000019987",
+          "Arg1",
+          "protein_coding"
+        ]
+      ],
+      "features": 32285,
+      "barcodes": 1984,
+      "declared_nonzero_entries": 8899349
+    },
+    "GSM7764757": {
+      "barcode_rows": 2591,
+      "feature_rows": 32285,
+      "feature_columns": [
+        3
+      ],
+      "arg1_il6_features": [
+        [
+          "ENSMUSG00000025746",
+          "Il6",
+          "protein_coding"
+        ],
+        [
+          "ENSMUSG00000019987",
+          "Arg1",
+          "protein_coding"
+        ]
+      ],
+      "features": 32285,
+      "barcodes": 2591,
+      "declared_nonzero_entries": 11030952
+    }
+  },
+  "scope": "Deposited count-file structure only; no cell QC, annotation or biological inference."
+}

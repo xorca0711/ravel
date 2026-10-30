@@ -3,8 +3,11 @@
 Prepared 30 October 2026 against fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
 Stable reading ID **16**, Gate **2W**. Reading was recorded complete by 29 October
 and reconfirmed by the owner on 30 October; the exact completion day was not supplied.
-This is a documentation proposal. No Yadav numerical analysis, new registered
-candidate, canonical RQ change or scientific acceptance is implied.
+**Current checkpoint:** [source qualification and job eligibility](SOURCE_QUALIFICATION.md)
+completed steps 1-2 under metadata owner Yd1-P01. Seven inputs, all workbook sheets
+and six GEO libraries are inventoried in a frozen governed run. No effect analysis,
+canonical RQ change or scientific acceptance is implied. Read that checkpoint
+before the original six-step proposal below.
 
 [Paper](https://doi.org/10.1172/JCI188734) ·
 [Supplement](https://www.jci.org/articles/view/188734/sd/1) ·
@@ -79,8 +82,8 @@ outcomes are already viewed; future reconstruction remains outcome-exposed.
 
 | Source | Confirmed now | Needed before execution |
 | --- | --- | --- |
-| GSE242510 | Official indexed GEO lists six libraries: Fib alone 1/2, Fib + Mac 1/2, P2rx4KO Fib + Mac 1/2 (GSM7764752-57), with MTX/TSV files | Download/hash; verify source animals, pooling, preparations and pairing. Numeric suffixes do not establish independent specimens or matching. |
-| Supporting Data Values workbook | Official article links it | Valid workbook, sheet/panel map, units and donor/preparation labels. Contents remain uninspected here. |
+| GSE242510 | Six hashed MTX/TSV triplets and joined GEO/BioSample/experiment records, GSM7764752-57 | Animal/pooling/preparation/pair maps remain absent. Numeric suffixes do not establish independence or matching; see the current qualification. |
+| Supporting Data Values workbook | Recovered and inventoried: 34 sheets with cell locators | Two donor groups are labeled for human coculture; PCLS row-to-patient maps and culture preparation IDs remain absent. See the current qualification. |
 | Human PCLS/cocultures | Fig. 3B/D uses three patients; Fig. 5A has three patients with three slices per condition per patient. Fig. 5D-F/6G identifies two donor combinations | Slice/well IDs, treatment matching and source/recipient donor pairings. Technical repeats do not add patients. |
 | MIBI/Xenium | Five IPF lungs in Fig. 2; nine patients in Fig. 5B | Raw images/counts, segmentation, fields, coordinates and patient maps. These are not assumed to reside in GSE242510. |
 | Reused studies | GSE70867/GPL14550 BAL microarray, Strunz/Tsukui time courses, Salcher NSCLC atlas | Exact files/versions, units and overlap with Ravel; these are separate cohorts, not matched multi-omics. |
@@ -207,11 +210,10 @@ older-rival lookup, not systematic forward-citation review. Reviews/conference
 abstracts were discovery leads, not new mechanistic validation. No absent hit
 is used to establish novelty.
 
-Direct GEO pages were challenged; the official indexed listing supplies only
-the library inventory. The supplement exceeded the web viewer limit, then was
-retrieved through the public publisher URL. Workbook web retrieval failed;
-its contents remain uninspected. Raw scRNA/spatial inputs were not downloaded
-or hash-qualified. No biological analysis ran.
+At the initial proposal, direct GEO pages were challenged, the supplement was
+retrieved, and workbook retrieval failed. The subsequent [qualification](SOURCE_QUALIFICATION.md)
+recovered/hash-locked the workbook, GEO metadata and count archive. Raw spatial
+inputs remain unavailable. Only metadata qualification has run.
 
 ## Execution boundary and next action
 
@@ -223,6 +225,6 @@ limit and stop rule; use the gated runner and preserve every result. A later
 freeze cannot erase prior outcome exposure. Existing RQs and frozen evidence
 remain intact.
 
-**Next:** recover the Supporting Data Values workbook and replicate map,
-alongside GSE242510 specimen/preparation metadata, then select the first
-qualified numerical comparison. No scientific acceptance or policy change is requested.
+**Next:** review the [completed qualification and eligible-job ledger](SOURCE_QUALIFICATION.md),
+then select and freeze the first bounded functional/RNA jobs. Missing unit maps
+remain holds. No scientific acceptance or policy change is requested.

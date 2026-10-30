@@ -1,5 +1,38 @@
 # Current project state
 
+## Yadav first source-qualification checkpoint - 30 October 2026
+
+Completed steps 1-2 in the isolated execution worktree. The
+[source qualification report](Research%20Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md)
+records the claim/assay map, all source locators, per-job eligibility and exact
+remaining unit holds. Frozen metadata run Yd1_source_qualification_v1 executed
+from commit `6753251515c1c2f1b0aea18997b526b30c107d5c`; scientific acceptance is
+unassessed. The registry adds only article-local Yd1-P01, its contract and receipt,
+with all unrelated records and formatting preserved.
+
+Recovered seven hashed inputs, 34 workbook sheets and six GEO count triplets.
+Independent reading verified all 1,429 populated workbook cells. Panel and workbook
+resolve S3C as a coculture rescue while retaining its conflicting legend. Fig. 3K
+remains metabolite abundance. Donor-pair labels support bounded human coculture
+description; PCLS patient maps and GEO independent preparations/pooling/pairing
+remain unknown. Spatial raw inputs and a duplicated Methods cell-class label hold
+raw spatial reconstruction. Fig. 5D's missing donor-1 monoculture point is retained.
+
+No dependent effect analysis, canonical RQ, existing result, governance or acceptance
+status changed. Inputs remain in ignored `raw_data/Yd1_source_v1` in the execution
+worktree; preserve it. Original checkout PROGRESS edits and review worktree are
+untouched. No remote write or external setting changed. Next: review this checkpoint,
+select bounded eligible jobs, then freeze separate numerical contracts. Do not
+infer missing units from rows, library suffixes or accessions.
+
+Validation passed: 11,683 repository checks, the base-aware research gate,
+158 tests (two skips), compilation, claim bindings and every required saved-evidence
+verifier. Receipt verification and independent workbook checks passed. The first
+base-aware gate rejected a root-attributes addition because historical Choi
+contracts hash that file; exact bytes were restored and new attributes scoped to
+Yadav only. The affected checks then passed. Fresh main remains
+`28fb61015f9b921f591e41ff26010a960c305947`; no scientific run was repeated.
+
 ## Yadav reading synthesis and analysis proposal — 30 October 2026
 
 Checked current main, the supplied article/supplement and owner-provided reading
