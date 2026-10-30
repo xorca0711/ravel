@@ -2991,3 +2991,26 @@ The analysis chat's narrow review corrected two framing errors before delivery:
 nonsignificance alone does not establish imprecision, and RNA-composition
 sensitivity does not resolve the separate bulk-ATAC mixture. Both corrections
 were adopted; numerical work and source-access claims remain unchanged.
+
+## 2026-10-30 — DY1-P02 eligible extension execution and review
+
+The owner authorized source qualification and every eligible extension through
+the existing analysis chat. That chat implemented and ran five frozen contracts;
+the coordinating reviewer reviewed numerical designs before execution and saved
+receipts, hashes, arithmetic and figures afterward. The article and DY1-P02
+READMEs now own current completion/hold navigation. Details are in the
+[execution review](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md).
+No human scientific acceptance or canonical-RQ promotion was created.
+
+| Item | Responsible work | Review / authority | Disposition |
+|---|---|---|---|
+| E1 source and E6 temporal qualification | Existing analysis chat | Owner authorization; coordinating source/result review | Completed audits with exact count, overlap, timing, annotation and assay-coverage limits |
+| E2 benchmark, E3 synthetic diagnostic, E6 RNA-only description | Existing analysis chat | Prospective contract/code review and independent post-run review | Completed; mixed and unfavorable findings retained; source-specific descriptive estimands only |
+| Current README and interpretation | Coordinating review | Owner's explicit README/update request; source results and frozen evidence | Report completed jobs and exact remaining holds; preserve original NAM and RQ evidence |
+
+| Revised item | Reason | Technical disposition |
+|---|---|---|
+| Initial E2 annotated-only ATAC effect export | Annotation coverage should not silently restrict the deposited effect universe | Corrected before freeze/run; all non-all-zero regions exported, annotation used at joining |
+| Blanket temporal numerical hold | Repeated-stimulation RNA group averages support a bounded point description despite absent replicate variance | Execute RNA-only arithmetic; retain uncertainty and matched RNA-ATAC holds |
+| Source flag interpretation | Exact contingency differs from an assumed retained/dropped meaning | Keep True/False values and annotation coverage; no inferred filter semantics |
+| Earlier feasibility-only summaries | Owner subsequently authorized and completed eligible runs | Preserve the framing history; supersede current navigation with reviewed execution results |

@@ -1,5 +1,44 @@
 # Current project state
 
+## DY1-P02 extensions integrated and independently reviewed — 30 October 2026
+
+Integrated stable analysis handoff `ebedcde8e2d7de1906f41b30dade3a4f178f93ec`
+into the scoped review worktree. The [article README](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+and [E1-E6 ledger](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+now link five completed frozen runs, mixed results and exact remaining holds.
+The [independent review](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md)
+checked 21 frozen/current contract-code entries, 31 input hashes, 37 output hashes,
+all saved verification results and three figures. Technical review is complete;
+human scientific acceptance remains unassessed.
+
+Source qualification, the descriptive RNA-ATAC benchmark, synthetic diagnostic,
+temporal qualification and RNA-only source-average arithmetic are complete. E4/E5
+remain held on original NAM count/processing/unit/state/regulatory prerequisites.
+Population inference in the reference remains limited by timing, annotation,
+overlap/pairing and batch uncertainty. Temporal RNA-ATAC claims lack qualified
+matched coverage; averaged RNA cannot recover replicate variance. No local
+regulatory-axis or ARG1 mediation claim follows. No eligible extension is queued.
+
+Plan corrections retained every eligible ATAC region, restricted annotation only
+at joining, and separated feasible RNA-only arithmetic from unsupported temporal
+claims. The unrelated muscle subseries was not substituted. All original negative
+findings, canonical RQs, source failures and frozen outputs remain preserved.
+
+Source validation passed 19 targeted tests, 161 repository tests (one skip),
+compileall, required evidence verifiers, 11,618 repository checks and the base-aware
+research gate. Integrated documentation passed 11,647 repository checks and the
+base-aware gate; a trailing-blank-line formatting finding was corrected. All 32
+canonical questions/guides and infrastructure match main, and no protected or RQ
+path changed in this pass. No biological rerun was needed. Freshly fetched main remains
+`78320a186b6f52426e7c7c5349a2f26492b718b7`.
+
+No external setting changed. Ignored immutable input caches remain in the analysis
+worktree (`raw_data/DY1_P02_reference_source_v1` and
+`raw_data/DY1_P02_temporal_source_v1`); do not retire it without preserving them.
+The primary checkout's pre-existing PROGRESS changes and other worktrees are intact.
+Next: no eligible extension remains queued. Held estimands reopen only on their
+stated new evidence with a prospective versioned contract.
+
 ## DY1-P02 supported extensions executed — 30 October 2026
 
 Five governed runs completed external source qualification (E1), the descriptive

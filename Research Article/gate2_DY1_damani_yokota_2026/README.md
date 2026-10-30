@@ -10,7 +10,7 @@ scRNA, STAT6–EGR2–PPARγ/RXRA associations, ARG1 and human disease context.
 The [job-by-job assessment](JOB_ASSESSMENT_2026-10-30.md) records each completed
 substep and the specific reason for every remaining hold.
 
-Three new [baseline diagnostics](BASELINE_QC_RESULTS_2026-10-30.md) are complete:
+Three existing [baseline diagnostics](BASELINE_QC_RESULTS_2026-10-30.md) are complete:
 six exon-file/eight peak-file structural QC, full baseline sparse integrity and
 CMO signal inventory, and an adapted six-library exon-profile PCA. Previously
 completed [78-donor human observations](HUMAN_RESULTS.md) and
@@ -40,8 +40,8 @@ within-state RNA; it does not supply within-state ATAC in those separate samples
 The earlier platform rejection is a historical execution event, preserved in
 [CLOSEOUT](CLOSEOUT.md). It does not establish that all mouse-data tasks are
 prohibited. The current assessment separates permissible completed work, missing
-data/design prerequisites and inference limits. No supported job remains queued
-in this pass; the original numerical sequence is not claimed fully reproduced.
+data/design prerequisites and inference limits. No qualified original job remains queued; the original numerical sequence is not
+claimed fully reproduced. Newly completed DY1-P02 extensions are listed separately below.
 
 | Stage | Completed | Specific remaining hold |
 |---|---|---|
@@ -67,18 +67,34 @@ FABP4 depends on annotation; pooled recipient coupling is not stable within
 disease; ARG1 is sparse. Donors, not cells, are the units. See the
 [independent human review](../../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md).
 
-## Additional proposed question: DY1-P02
+## DY1-P02: executed reference extensions and original holds
 
-The owner-requested [RNA–ATAC discordance dossier](rq_discordance/README.md)
+The owner-requested [RNA-ATAC discordance dossier](rq_discordance/README.md)
 asks whether the late baseline pattern is interpretable under measurement/mapping
-and RNA-composition sensitivity, and consistent with independent STAT6–EGR2–PPARγ/RXRA
-evidence. Separate bulk-ATAC composition remains unresolved. Its
-[30 October literature refresh](rq_discordance/LITERATURE_CONTEXT.md) identifies
-an external non-infectious RNA/ATAC count-matrix lead. Source qualification and
-a methodological reference benchmark are proposed extensions; no new numerical
-run, NAM-memory validation or canonical RQ promotion has occurred. Original
-stages retain their completed/held dispositions; the new E1–E6 possibilities
-have separate prerequisites and are not silently counted as completed work.
+and RNA-composition sensitivity, and consistent with independent STAT6-EGR2-PPARgamma/RXRA
+evidence. Separate bulk-ATAC composition remains unresolved.
+
+The analysis chat completed five frozen runs: external count/source qualification,
+a descriptive RNA-ATAC benchmark, a synthetic detection-label diagnostic,
+temporal-source qualification and an RNA-only source-average description.
+The [full results](rq_discordance/EXTENSION_RESULTS_2026-10-30.md) preserve all outcomes.
+The coordinating [review](rq_discordance/REVIEW.md) checked their designs,
+receipts, hashes, saved arithmetic and figures. The [E1-E6 ledger](rq_discordance/README.md#extension-execution-and-remaining-holds)
+records every completion and exact remaining limitation.
+
+The reference has mixed RNA-ATAC directions (about 56% same sign over full mapped
+rows, about 63% in the nearest-TSS subset). Synthetic examples show substantial
+detection-label mismatch even with equal truths. Repeated-stimulation RNA averages
+also retain mixed responses and provide no replicate variance. These results
+strengthen measurement discipline; they do not validate NAM memory, the regulatory
+axis or ARG1 mediation. Original count/unit/state holds remain, and no canonical
+RQ or scientific acceptance is created.
+
+The [literature context](rq_discordance/LITERATURE_CONTEXT.md) now links successful
+source qualification and the [assay-specific temporal review](rq_discordance/E6_SOURCE_REVIEW.md).
+Plan changes kept all eligible ATAC regions and separated supported RNA-only
+arithmetic from missing matched temporal evidence. No eligible extension is left
+queued in the current assessment.
 
 ## Architecture and evidence boundaries
 

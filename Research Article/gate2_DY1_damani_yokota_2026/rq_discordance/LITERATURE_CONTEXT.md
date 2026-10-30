@@ -119,3 +119,24 @@ Reopen the search when the reference comparison passes source qualification or
 when the exact NAM assay/identity holds resolve. Full primary methods and
 resource-specific dependence must be audited before using a binding/target set
 numerically. Literature leads remain distinct from completed analysis.
+
+## Source-qualification update after extension authorization
+
+The owner subsequently authorized E1-E6 execution on 30 October 2026. The source
+lead/access statements above describe the earlier framing pass. Public bulk
+retrieval subsequently succeeded, with immutable bytes and hashes. The
+[E1 qualification](../../../analysis/research/runs/DY1_P02_reference_source_v1/qualification.json)
+audits every RNA/ATAC column and the available author annotations; the
+[source-method note](SOURCE_METHODS_2026-10-30.md) records primary-method access,
+24h/25h timing conflict, unknown preparation reuse/batch/pairing and annotation
+version ambiguity. These findings permit bounded source-labelled description;
+they do not supply missing original NAM identities or measurements.
+
+The [additional temporal-source review](E6_SOURCE_REVIEW.md) distinguishes the
+muscle-injury RNA subseries from repeated-stimulation BMDM RNA and distinguishes
+early ChIP/qPCR from baseline/24-hour RNA/ATAC. The analysis chat qualifies actual
+files before numerical use. Published mechanisms remain premises, and repeated
+use of these source data remains shared-source reanalysis. See the
+[current dossier](README.md) and [independent review](REVIEW.md) for execution
+status and remaining inference limits; the earlier feasibility language is not
+the current run ledger.

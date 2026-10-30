@@ -84,22 +84,65 @@ precision; no such margin is invented here. Exact thresholds,
 annotation resources, model and precision requirements remain prospective numerical
 contract decisions, not post hoc choices made to maximize discordance.
 
-## Additional extension work: feasibility, not completed numerical results
+## Extension execution and remaining holds
 
-| Extension | What can start / required input | What it can answer | Current status |
-|---|---|---|---|
-| E1. External reference qualification | Inspect the listed gene-count matrix in GSE247223 and peak-count matrix in GSE248042; verify bytes, feature semantics, biological preparations, genotype/condition and batch labels, and cross-assay pairing separately | Whether a non-infectious macrophage dataset supports a defensible RNA–ATAC measurement benchmark | New source lead identified from primary paper/GEO records; qualification can start. Files have not been downloaded or hash-validated in this pass |
-| E2. Cross-assay reference benchmark | E1 must pass; freeze a bounded comparison on the qualified reference counts with explicit mappings and uncertainty | How robust a concordance/discordance classification is to mapping and measurement choices in that reference | Feasible in principle after qualification, not execution-ready. Different macrophages and ongoing stimulation do not test NAM persistence or memory |
-| E3. Uncertainty/threshold diagnostic | Prospectively specified synthetic data and realistic measurement scenarios, with any parameters estimated from real data disclosed | Whether significance thresholding alone can produce an apparent accessibility–RNA split | Technically feasible as a methodological extension; no biological result or demonstration that this explains the NAM paper |
-| E4. Original NAM gene/region association | Recover qualified RNA counting semantics, ATAC common-region counts, source/pipeline/outlier information and fit-specific units | Whether the published baseline discrepancy survives defensible processing and annotation | Existing data/measurement hold remains; new external data do not repair it |
-| E5. Composition and observational regulatory association | Qualified cell assignments/states/units, eligible contrasts, independent regulatory resources and valid backgrounds | Whether RNA mixture accounts for the pattern and whether a remaining association fits existing regulatory evidence | Conditional follow-up; no within-state ATAC, TF activity or causal mediation inferred |
-| E6. Temporal regulatory evidence | Independently qualified external time-resolved datasets, with same-source reuse recorded | Whether a published temporal explanation is supported in its original reference context | Literature/metadata qualification only at present; no temporal reconstruction from the late NAM snapshot |
+The owner authorized external qualification and every eligible E1-E6 extension.
+The separate analysis chat completed five frozen runs. Its
+[full results report](EXTENSION_RESULTS_2026-10-30.md) preserves every outcome. The coordinating
+[review](REVIEW.md) checked prospective numerical designs, code, receipts, all
+input/output hashes and saved results. No currently qualified extension is queued.
+Completed reference work does not complete the held original NAM comparisons.
 
-E1 is the most concrete new computational starting point: the external deposit
-lists the type of peak-count matrix currently missing from the NAM package.
-It is an additional reference analysis, not completion of the held original
-reproduction. A successful source check must precede a new frozen numerical
-contract and independent verification. No new numerical run was launched here.
+| Extension | Completed work | Specific remaining hold / reopening requirement |
+|---|---|---|
+| E1. External source qualification | GSE247223/GSE248042 counts, all 51 source-column joins, BioSample fields and author annotation audited; 259 structural checks pass | Across-condition preparation reuse, cross-assay pairing and batch labels remain unknown; ATAC vehicle title says 24h but characteristic says 25 hours; exact GENCODE annotation file/version is unresolved. These limit inference, not the completed audit |
+| E2. Cross-assay reference benchmark | WT source-labelled IL4 versus vehicle: 25,802 RNA features and all 144,411 ATAC regions, two offsets, two mapping rules and a nearest-TSS distance subset; 1,608 arithmetic/category checks pass | Conditional Welch/all-pairing envelopes are not unconditional population CIs; partial overlap and batch are unqualified. Causal duration-matched effects, exact author replay and NAM persistence are not established |
+| E3. Uncertainty/threshold diagnostic | Five fixed synthetic scenarios, 200,000 draws each; all 75 analytic checks pass | No empirical calibration to NAM RNA/ATAC, biological equivalence margin or demonstrated explanation of the original discrepancy |
+| E4. Original NAM gene/region association | Existing file QC and adapted sample profile preserved; requirements reassessed | Need qualified RNA gene-count semantics, ATAC common-region counts/read-level QC, reconciled pipeline/annotation and author-excluded sample identity/rationale, plus fit-specific independent-pool/overlap evidence |
+| E5. Composition/regulatory association | Existing CMO inventory, published regulatory premises and measurement boundaries preserved | Need validated cell-to-source assignments, state labels, biological units, condition/batch/common-state support and qualified regulatory resources/backgrounds. Separate bulk ATAC cannot identify within-state accessibility; external binding is not NAM occupancy |
+| E6. Temporal reference | Six-deposit metadata audit (278 occurrences, 217 unique GSMs; 34 checks), then complete WT source-average RNA description (187,360 arithmetic checks and four partitions) | GSE115504 supplies averaged CPM without replicate variance or effective n; GSE151015 RNA/ATAC are baseline/24h while early evidence is other assays. No qualified matched temporal RNA-ATAC panel or common-region chromatin counts. Need appropriate time/assay coverage and preparation mapping for those claims |
+
+ARG1 remains a separate downstream candidate. Neither external reference supplies
+linked NAM RNA, occupancy, enzyme activity and functional-outcome measurements for
+mediation. Published functional observations are retained; an unlinked molecular
+association cannot establish the STAT6-EGR2-PPARgamma/RXRA-ARG1 causal chain.
+
+## What the completed extensions show
+
+- **Reference measurement benchmark:** about 56% of full mapped gene-region rows
+  share a direction; about 63% do in the source nearest-TSS distance subset.
+  Fixed offsets 1 and 0.5 change these proportions little. Both same and opposite
+  directions remain. These are pair-weighted descriptions with repeated genes,
+  not independent-trial proportions or a test against 50%. Only about 6% of rows
+  have both declared sensitivity envelopes exclude zero; this alone establishes
+  neither unchanged biology nor insufficient power.
+- **Synthetic diagnostic:** equal nonzero truths yield 50.1145% detection-label
+  mismatch with equal SE and 83.025% with unequal SE. Opposite truths also yield
+  about 50% mismatch. Detection labels alone cannot identify biological agreement
+  or disagreement. The assumptions are illustrative, not measured NAM properties.
+- **RNA-only reference:** all 23,420 source rows are retained; 16,253 have a nonzero
+  WT group average. At offset 1, second-minus-first log ratios are positive in
+  9,484 rows and negative in 6,769. The median is 0.05265 (0.08296 at offset 0.5).
+  These summarize ratios of group averages, not individual responses, uncertainty
+  or a causal history effect. Mixed results and zero-response categories remain.
+
+![External RNA-ATAC descriptive benchmark and conditional sensitivity](../../../analysis/research/runs/DY1_P02_reference_benchmark_v1/reference_benchmark.png)
+
+Evidence: [E1 qualification](../../../analysis/research/runs/DY1_P02_reference_source_v1/qualification.json),
+[E2 mapping table](../../../analysis/research/runs/DY1_P02_reference_benchmark_v1/mapping_sensitivity.tsv),
+[E3 diagnostic](../../../analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/synthetic_diagnostic.png),
+[E6 qualification](../../../analysis/research/runs/DY1_P02_temporal_source_v1/qualification.json),
+[E6 RNA table](../../../analysis/research/runs/DY1_P02_source_average_response_v1/offset_sensitivity.tsv)
+and [E6 figure](../../../analysis/research/runs/DY1_P02_source_average_response_v1/source_average_response.png).
+
+Plan adjustments were evidence-driven: retain the complete ATAC effect universe
+and apply annotation only during joining; distinguish a source-defined descriptive
+comparison from unknown pairing/batch inference; separate eligible RNA-only E6
+arithmetic from unavailable matched temporal evidence. The unrelated muscle RNA
+subseries was not substituted for cultured memory RNA. The
+[source-method assessment](SOURCE_METHODS_2026-10-30.md),
+[temporal input assessment](TEMPORAL_INPUTS_2026-10-30.md) and
+[temporal literature review](E6_SOURCE_REVIEW.md) retain exact qualifications.
 
 ## What the possible outcomes would teach
 
@@ -136,11 +179,12 @@ source/delivery/recipient-output requirements; A19 retains functional reserve.
 Their hypotheses and negative evidence are unchanged. The [article README](../README.md)
 links their existing notes. This candidate does not supply their missing endpoints.
 
-The owner requested framing and feasibility assessment. No human retain/reject
-or scientific acceptance is recorded. The original DY1-P01 checklist stays closed
-at its documented completed/held dispositions; E1–E6 are newly proposed extensions.
-Stop numerical progression where a required source/assay/identity relationship
-remains unknown, and keep published findings separate from future repository results.
+The owner subsequently authorized qualification and eligible extension execution.
+The five completed runs and remaining E4/E5 or inference holds are recorded above.
+The original DY1-P01 checklist keeps its documented completed/held dispositions.
+Reopen a held estimand only when its missing evidence is qualified, using a new
+prospective versioned contract. No human retain/reject decision, scientific
+acceptance, canonical-RQ promotion or mechanistic validation is recorded.
 
 ## Technical framing review
 
@@ -151,3 +195,7 @@ composition. The review found no circular ARG1 validation, unjustified ready-to-
 claim or omitted qualified numerical job. It did not independently audit the
 external papers/files; their access limits remain recorded. No numerical result
 or human scientific acceptance was created.
+
+The earlier technical framing review remains historical. The subsequent
+[execution review](REVIEW.md) covers all five newly completed runs and preserves
+their stated biological limits.
