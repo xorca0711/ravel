@@ -108,8 +108,65 @@ Exact evidence: [feature eligibility](../../../analysis/research/runs/DY1_P02_ge
 
 ## F2: panel and donor robustness
 
-The draft package is under independent review before freeze/execution. No
-F2 numerical result is asserted in this checkpoint.
+**Question:** do single components or donors dominate the fixed macrophage RNA
+panel differences and within-disease panel association? The biological unit is
+the donor. The relevant alternatives are concentrated component/donor influence,
+with annotation/site differences and observational confounding still unresolved.
+This is robustness of reused exposed cohorts, not independent panel validation.
+
+The full panels and donor sets are retained. Each component omission takes the
+mean of the other three genes; in the panel association, only one panel changes
+at a time. Each donor omission uses both full panels. These two diagnostics are
+not crossed, and no favorable reduced panel or donor-excluded result replaces
+the original analysis. Missing/nonfinite components fail explicitly.
+
+The primary population remains Macrophage with ≥20 cells. The existing
+AllMacrophages ≥50 comparator is also retained. External source-adapted union
+and Macrophages-only use the original ≥50 floor, all-source and Vanderbilt
+scopes, exact donors and site labels. New external component reaggregation
+matches independently raw-reaggregated selected counts and all-gene totals;
+full scores, point estimates and donor n reproduce the frozen results. Original
+pointwise bootstrap intervals are copied with provenance, not recomputed.
+
+| Population / IPF−Control panel | Full estimate | Leave one component out range | Leave one donor out range |
+|---|---:|---:|---:|
+| Primary Macrophage20, FABP4 | +0.172 | −0.114 to +0.351 | +0.096 to +0.229 |
+| Primary Macrophage20, matrix-associated | +1.139 | +0.650 to +1.424 | +1.079 to +1.195 |
+| External union50, FABP4 | −0.891 | −1.120 to −0.668 | −1.104 to −0.684 |
+| External union50, matrix-associated | +2.230 | +1.764 to +2.475 | +2.006 to +2.459 |
+
+Ranges are **observed influence diagnostics, not confidence intervals**. The
+primary small positive FABP4-panel difference changes sign when FABP4 is omitted
+(−0.114), but remains positive after every individual donor omission. The
+original full-data pointwise interval already spans zero (−0.250 to +0.591).
+Neither stable donor-omission signs nor component sensitivity changes that
+sampling-uncertainty result. The
+matrix-associated difference remains positive through every single component
+and donor omission in these two displayed populations. These statements concern
+the fixed RNA summaries, not matrix production or a repair phenotype.
+
+Within IPF, the primary panel correlation is −0.624; its component-omission range
+is −0.675 to −0.470 and donor-omission range −0.690 to −0.587. The external union
+correlation is −0.545, with corresponding ranges −0.741 to −0.329 and −0.755 to
+−0.409. Their signs are stable under these individual omissions; the original
+external interval still spans zero (−0.889 to +0.090), and cohort differences
+remain. Omission stability does not establish statistical significance, causality
+or independent replication. All Control/COPD
+and prespecified population/site diagnostics are in the complete tables.
+
+The run retains 1,195 rows including 34 full estimates; 62 rows fail the unchanged
+eight-donor association floor. Vanderbilt within-disease correlations remain
+held, and comparisons to an unavailable full estimate are NA, not zero sign
+reversals. External SELENOP remains unmapped; no alias/proxy substitution,
+recipient-correlation fit, clinical/depth/floor rerun or new single-gene contrast
+was performed. No donor was excluded from the primary result.
+
+Exact evidence: [full estimates and original intervals](../../../analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv),
+[every omission](../../../analysis/research/runs/DY1_human_panel_robustness_v1/all_omissions.tsv),
+[all influence summaries](../../../analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv),
+[external component reaggregation](../../../analysis/research/runs/DY1_human_panel_robustness_v1/external_reaggregated_components.tsv).
+
+![Observed panel component and donor omission ranges](../../../analysis/research/runs/DY1_human_panel_robustness_v1/human_panel_robustness.png)
 
 ## F3: public-source qualification remains held
 
@@ -127,6 +184,7 @@ support remain prerequisites to a numerical contract.
 |---|---|---|---:|
 | F1 | `757d03f` | [receipt](../../../analysis/research/runs/DY1_P02_representation_audit_v1/receipt.json) | 429,215 checks |
 | F4 | `2f74c6c` | [receipt](../../../analysis/research/runs/DY1_P02_genotype_reference_v1/receipt.json) | 1,458 checks |
+| F2 | `446b023` | [receipt](../../../analysis/research/runs/DY1_human_panel_robustness_v1/receipt.json) | 2,493 checks |
 
 F1 and F4 each passed four targeted synthetic tests before execution and passed
 receipt verification afterward. F4 had two **draft preflight** hash failures
@@ -134,5 +192,29 @@ for the newly written parameter file: an exact Windows line-ending mismatch,
 then an incomplete correction. The final file was saved with LF bytes and both
 prospective input/code hashes matched. No governed run was created by those
 draft failures, and they are not biological analysis failures. No governance
-check was weakened. Final repository/integration checks remain pending while
-the requested F2 package is reviewed.
+check was weakened. F2 passed six tests after pre-freeze review required explicit
+missing-component rejection and unavailable-reference comparison handling;
+both corrections were tested before its sole governed run. The reviewer also
+corrected F3's preprocessing/analysis repository distinction before delivery.
+All three governed runs succeeded and passed receipt verification.
+
+Parent F1 post-run review independently checked arithmetic/partitions against
+frozen E2, provenance/freeze identity and the figure. The two annotation rules
+largely coincide on common support; agreement between them is not independent
+annotation validation. Parent F4 review passed 447 independent source/arithmetic
+checks and 24 provenance/freeze checks. Parent F2 review passed 2,897 independent
+checks reconstructing all 1,195 diagnostic rows, summary ranges/counts and eight
+external components for 42 donor/population rows, plus 27 provenance/freeze
+checks. F4/F2 figures were inspected and readable. These are independent technical
+calculations on shared data, not biological replication or human acceptance.
+
+Compileall, claim contract, Nb1/Nb4, A16, A23 and A22–A23 checks passed. The required
+analysis suite initially failed because the Windows sandbox blocked creation and
+cleanup of its temporary Git directories; its authorized retry passed 161 tests
+with one skip. This environmental test failure did not create or alter a
+biological run. Canonical 32-question registry entries, guides and infrastructure
+are unchanged. Repository validation passed 11,702 checks, and the research gate
+passed against freshly fetched `origin/main` at
+`28fb61015f9b921f591e41ff26010a960c305947`. No remote change required reconciliation.
+Only these scoped follow-ups and current summaries changed; ignored source caches
+and earlier frozen evidence remain preserved. No external setting changed.

@@ -1008,7 +1008,8 @@
     "analysis/research/runs/DY1_P02_temporal_source_v1/receipt.json",
     "analysis/research/runs/DY1_P02_source_average_response_v1/receipt.json",
     "analysis/research/runs/DY1_P02_representation_audit_v1/receipt.json",
-    "analysis/research/runs/DY1_P02_genotype_reference_v1/receipt.json"
+    "analysis/research/runs/DY1_P02_genotype_reference_v1/receipt.json",
+    "analysis/research/runs/DY1_human_panel_robustness_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

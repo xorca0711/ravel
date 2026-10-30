@@ -1,5 +1,38 @@
 # Current project state
 
+## DY1 reviewed follow-ups executed — 30 October 2026
+
+Completed new exposed F1, F4 and F2 contracts/runs after independent pre-freeze
+technical review. The [results and exact evidence](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md)
+record small weighting shifts in F1, weak global mapped RNA/ATAC genotype
+association in F4, and component fragility of the primary FABP4-panel difference
+in F2. Matrix-panel differences and within-IPF negative panel associations retain
+their signs under the displayed single omissions. All outputs, zero/held cases,
+original panels/donors and earlier frozen evidence remain; no scientific
+acceptance, target selection or original-study hold resolution is implied.
+All three post-run independent technical reviews passed. The original primary
+FABP4 and external within-IPF correlation intervals still span zero; omission
+stability does not upgrade their statistical or causal interpretation.
+
+F3 remains an access/source-qualification hold. The exact public analysis URL
+timed out; public matrix absence is not established. Controlled files, rights,
+preparation identity and pairing remain unqualified. No request/contact,
+external write or external setting changed. The source/model note distinguishes
+the preprocessing and analysis repositories.
+
+All three receipts verify; targeted tests passed (4 F1, 4 F4, 6 F2). Required
+161-test suite passed with one skip after a sandbox temporary-Git-directory
+failure; compileall and claim/Nb1/Nb4/A16/A23/A22–A23 checks passed. F4's two draft
+hash-preflight failures and F2's pre-freeze review corrections are recorded in
+the report. Canonical 32 RQs, guides and governance remain unchanged. Freshly
+fetched main is `28fb61015f9b921f591e41ff26010a960c305947`.
+Repository validation passed 11,702 checks and the research gate passed against
+that fresh base. No remote change required reconciliation.
+
+Next: parent integration of the bounded summaries, README/literature navigation
+and final review record. Preserve all source caches;
+F3 numerical work awaits qualified access/files/units rather than another retry.
+
 ## DY1 follow-up feasibility assessed after merge — 30 October 2026
 
 PR #152 is merged. This scoped assessment starts from fetched main

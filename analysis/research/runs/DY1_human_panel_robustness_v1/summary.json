@@ -1,0 +1,13 @@
+{
+  "analysis_id": "DY1-P01.human_panel_robustness_v1",
+  "rows": 1195,
+  "full_rows": 34,
+  "status_counts": {
+    "estimated": 1133,
+    "fewer_than_8_donors": 62
+  },
+  "missing_symbol": "SELENOP remains unavailable externally; no identity/proxy analysis or substitution",
+  "scope": "Two fixed macrophage panels; separate one-component or one-donor omissions, never combined; no reduced panel or excluded donor replaces primary",
+  "other_holds": "External Vanderbilt within-disease correlations and fibroblast recipient correlations remain unsupported; no clinical/depth/floor rerun",
+  "scientific_acceptance": "not_assessed"
+}
