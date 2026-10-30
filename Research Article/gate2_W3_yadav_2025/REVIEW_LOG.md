@@ -62,3 +62,75 @@ finding. The unrelated histories were both preserved when resolving PROGRESS.
 Integrated validation passed 11,686 repository checks and the base-aware research
 gate against unchanged fetched main 28fb610. The executor has started the next
 authorized checkpoint. Scientific acceptance remains unassessed.
+
+## Second functional/RNA checkpoint — 30 October 2026
+
+Execution: `d7e3dd78eecde213387e14e40142fa595c209177`.
+Integration base re-fetched: `28fb61015f9b921f591e41ff26010a960c305947`.
+[Results and run/freeze map](TECHNICAL_RESULTS.md) · [Design](EXECUTION_DESIGN.md).
+
+Reviewed the functional, count-integrity, conservative-annotation, RNA and independent
+RNA-reader code; contracts/specifications and explicit unit/exposure limits; source
+maps and saved verification records. All 101 unique input/contract/code/output hashes
+across ten receipts passed, as did 35 frozen contract/code byte comparisons and
+tracking of all 70 declared outputs. Independently recalculated all 24 condition
+contrasts and 96 crossed differences from the saved library tables. Reused the
+executor's independent workbook check of 230 slots/53 groups/35 contrasts, F3
+interval arithmetic, six-library raw target/count-vector checks and 24 scalar
+endpoint summaries. No biological pipeline was rerun.
+
+Inspected F3, annotation and R1 pixels. The figures preserve raw zero values,
+conditional interval assumptions, ambiguity/composition and library units.
+All 123 changed paths are scoped. Unrelated registry records, canonical questions,
+governance, validators and root attributes are unchanged. Registry differences
+are one Yd1 evidence link plus nine contracts and nine receipts. The first reviewer
+guard assumed no candidate-link changes and then a Yd1 prefix for contract paths;
+both assumptions were corrected against the exact diff. No repository gate changed.
+
+Disposition: technically approved for local integration, without human scientific
+acceptance. F1/F2 remain slice/well or donor-combination descriptions, not population
+replication. F3's hydroxyproline Welch mean-difference interval includes zero; its
+estimand differs from the published rank test and supplies no equivalence evidence.
+F4 retains endpoint-specific rescue/OAT contrasts; F5 remains abundance, not flux.
+R1 shows consistent lower core macrophage-like Arg1 in KO cocultures and higher
+core fibroblast-like Il6 in WT coculture versus alone, but mixed Il6 KO-versus-WT
+crossed differences. These remain fixed-class descriptions. Macrophage-like cells
+in fibroblast-alone libraries, 518 mixed cells in WT co1, unknown preparations,
+capture/selection and ambient-RNA alternatives prevent purity or causal claims.
+Additional label tuning is not justified by the bounded descriptive aim.
+
+### Next authorized checkpoint and remaining holds
+
+- S1: bounded primary-source availability/definition audit; preserve the duplicated
+  IL6+ Methods category. A useful, unambiguous Fig. 5B source-marginal summary may
+  run under its own exposed contract, with no inferred row pairing or intervals.
+  Raw spatial reconstruction requires actual expression/coordinate/segmentation
+  inputs, patient/field joins and unambiguous executable categories/statistic.
+- C1: primary-source portability matrix for the paper's reused BAL, Strunz/Tsukui
+  and NSCLC contexts as applicable, with accessions, disease, capture/detection,
+  donor coverage, reuse/overlap and allowed inference. No arbitrary atlas scan;
+  a necessary new numerical comparison returns for design review first.
+- Step 6: article-local Wg-P06/thesis synthesis preserving current hypothesis/rival
+  and canonical RQs; separate published premise, source reanalysis and unresolved
+  substrate balance/epithelial-function bridge. No novelty or bench-readiness claim.
+- Return a complete F1-F5/R1/S1/C1/synthesis ledger, including all failed attempts,
+  exact external/design reopening evidence and any feasible authorized work left.
+
+Patient slice/row maps and independent coculture preparation identities remain
+required for their population-level analyses. Raw assay normalizers, actual
+substrate exposures/routing measurements and repair endpoints remain required for
+stronger corresponding claims. One held branch does not close independent work.
+Both worktrees, ignored immutable sources and every frozen v1/v2 output are retained.
+PROGRESS conflict resolution preserves both incoming and review histories.
+
+Integration validation passed: 11,789 repository checks and the base-aware
+research gate (`ok: true`, no errors) against unchanged fetched main 28fb610. Existing 158 tests (two skips), compilation,
+claim bindings and saved-evidence verifiers are reused because their inputs and
+implementation are unchanged by this local integration. Only repository navigation
+validation and the current-main base gate need repeating after the merge.
+
+Staged whitespace inspection reports one whitespace-only line in the frozen
+count-integrity stderr log. It is retained as execution evidence, not edited for
+cosmetics. No unresolved merge paths remain. The next executor checkpoint is
+active (cursor `51593419-65e5-454d-96df-3e67caaaccb8:13`); the reported spatial
+source finding is not accepted here before artifact review.

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.annotation_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Which GSE242510 barcodes support conservative fibroblast-like or macrophage-like annotation under two fixed technical QC masks, without using Arg1 or Il6?",
+  "decision": "Qualify library-by-class coverage and held-out marker compatibility before subsequent descriptive Arg1/Il6 endpoints; retain unresolved classes and technical exclusions.",
+  "strongest_rival": "Ambient RNA, mixed cells, broad markers, culture activation and QC-based selection may mimic a clean cell identity; compatible markers are not validated lineage or doublet exclusion.",
+  "discriminator": "Use prespecified multi-marker and alternative-lineage rules, keep mixed/unassigned cells, display independent-of-label held-out marker compatibility and both QC masks, then apply a fixed coverage floor.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/ANNOTATION_STRATEGY.md",
+    "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md",
+    "Research Article/gate2_W3_yadav_2025/EXECUTION_DESIGN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published outcomes, functional reconstructions and full-library technical QC are exposed. No local cell-class Arg1/Il6 result has been calculated. Marker rules and endpoint-independent coverage criteria freeze before endpoint extraction.",
+  "biological_unit": "Animals for whole-lung panels; human donor pairs or patients for human assays; coculture preparation identity and pooling remain unknown for GSE242510.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Slices and wells nest in source patients or donor combinations; cells nest in libraries. Numeric library suffixes do not prove preparation pairing. Source panels and deposited data are reused published evidence, not independent replication.",
+  "population_and_selection": "The official JCI188734 supporting-values workbook and six GSE242510 libraries, with linked public BioSample and sequencing records. Source-selected published panels; no new cohort.",
+  "contrast": "Six separate libraries and two prespecified QC masks; no genotype expression effect is estimated in this annotation run.",
+  "endpoint": "Conservative raw-count marker-compatible labels, retained and excluded class counts, marker detection fractions, held-out compatibility and library/class eligibility.",
+  "methods": "Use the exact annotation_spec_v1.json multi-marker count rules and two QC masks. Join the frozen cell-QC table by GSM and barcode; verify total-count consistency. At least 20 cells and at least 50% with one held-out marker at >=2 counts qualify a library/class for descriptive endpoint work.",
+  "missingness_and_exclusions": "Keep every barcode in outputs; preserve mixed, other-or-mixed, unassigned and QC-excluded states. Missing or duplicate required marker symbols stops the run. No endpoint-driven retuning or condition-label override.",
+  "multiplicity": "No hypothesis tests, differential expression or primary-endpoint selection.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Technical source checks do not estimate population precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Marker-compatible core classes only, not exact SingleR/DoubletFinder reproduction, validated lineage, pure populations or independent preparations. Coverage threshold is not a power calculation.",
+  "stop_rule": "Stop after endpoint-free annotation and technical class support. Only qualifying library/classes proceed under a separate frozen endpoint contract; retain every failed class or source dependency.",
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_RAW.tar",
+      "sha256": "006b9c931cbd44aa498ce26e3d0d66e36faef6884b15aeda2496250e46a1351e",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/geo_library_qualification.json",
+      "sha256": "ba17f81c4dffbc794869ac6c059542ff17cb47ffd080932764c9cd2b8ba20037",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_count_integrity_v1/cell_qc.csv",
+      "sha256": "232b643f7a1ee18b4fe818979940c0953f274300edd04df815cc0a1ebcf31df4",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/annotate_coculture_v1.py",
+      "sha256": "cf00faa4ae7373bca7d2014b244d85cc59aae87baa96b17a28f50b4dab4fb35c"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/count_integrity_v1.py",
+      "sha256": "c36e2fe6fa30e9adbffbe88a4253a076c88cb8e192839773d4382533c1ef2cdd"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/config/annotation_spec_v1.json",
+      "sha256": "f7635b86fa08c0a98776240d3b9a34c930f2080338c233be76c38df9657cba88"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/scripts/annotate_coculture_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_labels.csv",
+    "composition.csv",
+    "class_eligibility.csv",
+    "marker_support.csv",
+    "annotation.png",
+    "annotation.pdf",
+    "runtime.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial endpoint-free conservative annotation adaptation after full-entry integrity qualification."
+}

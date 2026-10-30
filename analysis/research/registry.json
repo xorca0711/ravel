@@ -819,7 +819,8 @@
       "id": "Yd1-P01",
       "plan": "Research Article/gate2_W3_yadav_2025/README.md",
       "evidence": [
-        "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md"
+        "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md",
+        "Research Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md"
       ]
     }
   ],
@@ -918,7 +919,16 @@
     "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_benchmark_v1.json",
     "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/temporal_source_v1.json",
     "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_response_v1.json",
-    "Research Article/gate2_W3_yadav_2025/config/source_qualification_v1.json"
+    "Research Article/gate2_W3_yadav_2025/config/source_qualification_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/functional_f1_contract_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/functional_f2_contract_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/functional_f3_contract_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/functional_f4_contract_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/functional_f5_contract_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/count_integrity_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/annotation_contract_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/rna_endpoints_contract_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/figure_display_v2.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1009,7 +1019,16 @@
     "analysis/research/runs/DY1_P02_reference_benchmark_v1/receipt.json",
     "analysis/research/runs/DY1_P02_temporal_source_v1/receipt.json",
     "analysis/research/runs/DY1_P02_source_average_response_v1/receipt.json",
-    "analysis/research/runs/Yd1_source_qualification_v1/receipt.json"
+    "analysis/research/runs/Yd1_source_qualification_v1/receipt.json",
+    "analysis/research/runs/Yd1_functional_f1_v1/receipt.json",
+    "analysis/research/runs/Yd1_functional_f2_v1/receipt.json",
+    "analysis/research/runs/Yd1_functional_f3_v1/receipt.json",
+    "analysis/research/runs/Yd1_functional_f4_v1/receipt.json",
+    "analysis/research/runs/Yd1_functional_f5_v1/receipt.json",
+    "analysis/research/runs/Yd1_count_integrity_v1/receipt.json",
+    "analysis/research/runs/Yd1_annotation_v1/receipt.json",
+    "analysis/research/runs/Yd1_rna_endpoints_v1/receipt.json",
+    "analysis/research/runs/Yd1_figure_display_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

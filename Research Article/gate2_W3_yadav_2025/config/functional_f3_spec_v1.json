@@ -1,0 +1,101 @@
+{
+  "job": "F3",
+  "title": "Mouse lung: source-animal group contrasts",
+  "footnote": "Welch 95% intervals assume independent source animals. Allocation/batch remain unknown; no pairing or mediation claim.",
+  "welch": true,
+  "panels": [
+    {
+      "id": "3B_mouse",
+      "sheet": "3b",
+      "title": "Fig. 3B | Lung ornithine",
+      "unit": "Ornithine (micromolar)",
+      "groups": [
+        {
+          "id": "control",
+          "label": "Untreated",
+          "cells": [
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "cb",
+          "label": "CB-1158",
+          "cells": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "cb",
+          "control"
+        ]
+      ],
+      "limit": "Eight reported mice per group; no allocation or batch map."
+    },
+    {
+      "id": "3E",
+      "sheet": "3e",
+      "title": "Fig. 3E | Lung hydroxyproline",
+      "unit": "Hydroxyproline (mg/mL)",
+      "groups": [
+        {
+          "id": "control",
+          "label": "Arg1 floxed\ncontrols",
+          "cells": [
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9",
+            "A10",
+            "A11"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "ko",
+          "label": "Lysm-Cre\nArg1 floxed",
+          "cells": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9",
+            "B10"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "ko",
+          "control"
+        ]
+      ],
+      "limit": "10 vs 9 mice; figure key assigns groups omitted in workbook. Controls pool fl/fl or fl/+; allocation/batch and individual genotype unknown."
+    }
+  ]
+}

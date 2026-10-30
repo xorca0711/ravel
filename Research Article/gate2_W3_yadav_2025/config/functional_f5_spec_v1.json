@@ -1,0 +1,77 @@
+{
+  "job": "F5",
+  "title": "Fibroblast metabolites after coculture: relative abundance",
+  "footnote": "Dots are supplied replicate abundances; bars are means. Raw normalization inputs and isotope measurements are absent.",
+  "panels": [
+    {
+      "id": "3K_proline",
+      "sheet": "3k",
+      "title": "Fig. 3K | Proline",
+      "unit": "Relative abundance",
+      "groups": [
+        {
+          "id": "control",
+          "label": "Untreated",
+          "cells": [
+            "B2",
+            "C2",
+            "D2"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "cb",
+          "label": "CB-1158",
+          "cells": [
+            "E2",
+            "F2",
+            "G2"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "cb",
+          "control"
+        ]
+      ],
+      "limit": "Three author-described biological replicates; identities/pairing and raw normalization missing. Not flux."
+    },
+    {
+      "id": "3K_hydroxyproline",
+      "sheet": "3k",
+      "title": "Fig. 3K | Hydroxyproline",
+      "unit": "Relative abundance",
+      "groups": [
+        {
+          "id": "control",
+          "label": "Untreated",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "cb",
+          "label": "CB-1158",
+          "cells": [
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "cb",
+          "control"
+        ]
+      ],
+      "limit": "Relative metabolite abundance, not isotope incorporation or synthesis rate."
+    }
+  ]
+}

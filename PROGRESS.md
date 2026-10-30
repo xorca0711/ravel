@@ -1,5 +1,72 @@
 # Current project state
 
+## Yadav functional/RNA checkpoint reviewed; final context jobs authorized — 30 October 2026
+
+Reviewed execution commit `d7e3dd78eecde213387e14e40142fa595c209177`.
+F1-F5 retain 230 source slots (229 values and the 5D D2 blank), 53 groups and
+35 fixed contrasts. Full count integrity and fixed conservative annotation cover
+12,519 barcodes in six libraries. R1 reports only library-level Arg1/Il6
+descriptions; macrophage-like Arg1 is lower in KO cocultures, whereas fibroblast-like
+Il6 KO-versus-WT crossed differences have both signs. Unknown preparations and
+large mixed/other fractions prevent population or mechanistic inference. The
+mouse hydroxyproline Welch mean-difference interval includes zero; it estimates a
+different quantity from the published rank test and does not establish equivalence.
+
+Review verified 101 unique receipt-linked hashes, 35 frozen contract/code byte
+comparisons, 70 tracked outputs, all 24 RNA contrasts and 96 crossed differences.
+The original workbook/raw-vector checks and required tests remain valid and were
+reused. All 123 checkpoint paths are scoped; only Yd1 registry evidence/contracts/
+receipts changed. See the [review ledger](Research%20Article/gate2_W3_yadav_2025/REVIEW_LOG.md)
+and [results](Research%20Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md).
+
+Next authorized checkpoint: bounded S1 spatial source/definition qualification
+and, if informative and label-qualified, separately frozen marginal Fig. 5B
+source summaries; C1 source-reuse/portability matrix; article-local Wg-P06/thesis
+synthesis and complete per-job dispositions. Raw spatial reconstruction, patient
+pairing/precision, independent-preparation RNA effects, substrate routing and
+epithelial repair retain explicit evidence/design holds. No new atlas scan or
+canonical question change is authorized. Preserve both worktrees and the immutable
+source cache. No external write or scientific acceptance occurred.
+
+Current main was re-fetched at `28fb61015f9b921f591e41ff26010a960c305947`.
+Integration passed 11,789 repository checks and the current-main research gate.
+The next execution checkpoint is active (cursor
+`51593419-65e5-454d-96df-3e67caaaccb8:13`).
+
+## Yadav functional and RNA technical checkpoint - 30 October 2026
+
+Completed the selected F1-F5 source reconstructions, full-entry integrity for all
+six GSE242510 libraries, conservative annotation and the fixed R1 RNA descriptions.
+[Results and current job ledger](Research%20Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md)
+link all frozen contracts, receipts, source values, contrasts and
+[figures](Research%20Article/gate2_W3_yadav_2025/FIGURES.md). No canonical RQ,
+governance rule, claim grade or scientific acceptance changed.
+
+All 230 functional source slots are retained (229 values, one missing 5D D2).
+The mouse hydroxyproline mean-difference interval spans zero. All 12,519 RNA
+barcodes remain in saved labels/QC data. Both fixed masks retain lower
+macrophage-like Arg1 in KO versus WT coculture libraries, while fibroblast Il6
+KO-minus-WT differences vary across libraries. Preparation/pooling/pairing remain
+unknown; mixed cells and macrophage-compatible cells in fibroblast-only libraries
+limit interpretation. These are source/library descriptions, not independent
+replication or population DE.
+
+Independent workbook arithmetic and all-cell RNA target-vector checks passed.
+A display-only v2 run fixes crowded labels and tick marks without overwriting
+original figures or rerunning biological analyses. Validation passed: 11,782
+repository checks, 158 tests (two skips), compilation, claim bindings, all required
+saved-evidence verifiers and the base-aware research gate. All 70 declared Yadav
+outputs, including PDFs, are tracked; current article links resolve. Fresh main
+remains 28fb61015f9b921f591e41ff26010a960c305947. Frozen receipts/code/output
+hashes passed; no historical biological analysis was rerun.
+
+S1 spatial, C1 reused-context qualification and final Wg-P06/thesis synthesis
+remain pending review, not abandoned. Next: review this checkpoint and select the
+next bounded step; resolve the documented source dependencies before stronger
+inference. No external settings changed. Original and review worktrees are
+untouched; preserve this execution worktree and its ignored raw-data cache.
+No push, PR, merge, Notion write or other-chat message was sent.
+
 ## Yadav source checkpoint reviewed and next jobs approved — 30 October 2026
 
 Reviewed execution commit `d1d367735cea9b3830546bf4440b8efc304c77f0`

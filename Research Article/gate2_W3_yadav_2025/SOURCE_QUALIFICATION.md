@@ -1,5 +1,9 @@
 # Yadav source qualification: first review checkpoint
 
+> Retained first-checkpoint record. Current execution and job status are in
+> [TECHNICAL_RESULTS.md](TECHNICAL_RESULTS.md); time-specific statements below
+> describe the source-qualification checkpoint, before dependent analyses.
+
 **30 October 2026 (Asia/Seoul). Steps 1-2 complete to the available-source boundary.**
 Metadata owner **Yd1-P01** supports the existing [Wg-P06 question](../gate2_W1_wagner_th17_autoimmunity/rq_derivation/P06.md).
 It creates no canonical A ID, revised hypothesis or scientific acceptance.

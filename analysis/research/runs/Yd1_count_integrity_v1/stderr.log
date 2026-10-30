@@ -1,0 +1,8 @@
+C:\Users\dream\.codex\worktrees\yadav-technical-analysis-20261030\ravel\Research Article\gate2_W3_yadav_2025\scripts\count_integrity_v1.py:28: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  matrix=mmread(f)
