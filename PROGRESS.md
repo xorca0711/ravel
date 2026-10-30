@@ -7,22 +7,24 @@ review: a readable F1 replacement plus human contrasts, within-IPF uncertainty
 versus omission ranges, and GRIP1/NCOA2 cross-modal correlations. The
 [render note](Research%20Article/gate2_DY1_damani_yokota_2026/PRESENTATION_RENDER_NOTE_2026-10-30.md)
 links the four-page vector PDF bundle, receipt and hash/value/layout records.
-Each plate also has genuine vector SVG/PDF and300-dpiPNG. Original10PNGs,
+Each plate also has genuine vector SVG/PDF and 300-dpi PNG. All 10 original PNGs,
 frozen analyses, tables, scripts and source caches remain unchanged.
 
-Five synthetic tests,378 scalar source/value checks, all4 layout/export checks
-and receipt verification passed. Inspected all4PNGs and4Poppler-rendered PDF
+Five synthetic tests, 378 scalar source/value checks, all four layout/export checks
+and receipt verification passed. Inspected all four PNGs and four Poppler-rendered PDF
 pages. Additional PDF checks found zero embedded raster images, all text within
-page bounds and all62 recorded labels present. No source-data render failed;
+page bounds and all 62 recorded labels present. No source-data render failed;
 two pre-freeze fixture overlaps were corrected. No biological refit, new
 inferential statistic, claim promotion or external setting change occurred.
 
 Parent independent saved-value and PDF visual review passed. Repository validation
-passed11,751 checks and the research gate passed against fresh main`28fb610`;
-integration branch remained`4af89c8`. Source/docs have no whitespace warnings;
-319native SVG path-format notices remain in frozen exports and are documented.
-Canonical32RQ/guides/protected paths are unchanged. Valid biological checks were
+passed 11,751 checks and the research gate passed against fresh main `28fb610`;
+integration branch remained `4af89c8`. Source/docs have no whitespace warnings;
+319 native SVG path-format notices remain in frozen exports and are documented.
+Canonical 32 RQs, guides and protected paths are unchanged. Valid biological checks were
 reused because their code/evidence are unchanged.
+The general PDF ignore rule required explicitly tracking the five new PDF
+exports; all 16 declared outputs are now tracked, with frozen bytes unchanged.
 
 Next: integrate the stable render handoff into the parent-owned inventory,
 gallery and navigation updates. No push, external setting change or cache cleanup

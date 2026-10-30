@@ -89,6 +89,12 @@ trailing-whitespace notices and no non-SVG warnings. These are retained as exact
 frozen export bytes; SVG parsing, vector/text parity, visual checks and receipt
 hashes pass. No validator, policy or frozen file was changed to suppress them.
 
+The repository's general PDF ignore rule initially excluded the five new PDFs
+from directory staging. A packaging audit caught this before handoff; those
+exact requested exports were explicitly added without changing the ignore rule
+or any artifact bytes. All 16 declared outputs are tracked. Repository and
+base-aware gate checks were repeated for the complete packaged set.
+
 No biological analysis or inferential statistic was recomputed. Valid earlier
 biological tests and source verifiers are reused because their code, inputs and
 evidence are unchanged; the new renderer has its own targeted tests and export
