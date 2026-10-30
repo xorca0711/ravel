@@ -1,5 +1,32 @@
 # Current project state
 
+## Yadav reading synthesis and analysis proposal — 30 October 2026
+
+Checked current main, the supplied article/supplement and owner-provided reading
+context. Added the [Yadav evidence card and six-step plan](Research%20Article/gate2_W3_yadav_2025/README.md),
+and reconciled stable paper 16's roadmap status with confirmed completed reading.
+The plan starts with source/biological-unit qualification, then selected functional
+reconstruction, bounded coculture RNA and conditional spatial/context comparison.
+It connects to existing Wg-P06 without changing its hypothesis or any canonical RQ.
+
+Source limits include few independent human donors, unknown GEO specimen/pooling
+maps, unavailable raw spatial inputs, and the distinction between Fig. 3K metabolite
+abundance and unverified tracer/flux language. Workbook contents remain uninspected
+after a failed web retrieval; the supplement was successfully retrieved and checked.
+All prior source results, unfavorable findings and acceptance statuses are preserved.
+No biological analysis ran, and no Notion page or external setting was changed.
+
+The original checkout remains at `78320a1` with its pre-existing PROGRESS edit intact.
+This scoped proposal starts from fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
+Validation passed 11,661 repository checks, the base-aware research gate, claim
+and required saved-evidence verifiers, compilation and 158 tests (two skips).
+Hash-locked published Choi outputs were restored without an analysis rerun.
+Main was re-fetched and remains `28fb610`; changes are local and uncommitted.
+Next: recover the supporting-values replicate map and GSE242510
+specimen/preparation metadata, then qualify the first
+numerical contrast under a versioned research contract. Execution is proposed,
+not completed or automatically accepted.
+
 ## DY1 draft PR opened — 30 October 2026
 
 At the owner's request, published the reviewed branch and opened
