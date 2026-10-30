@@ -28,6 +28,9 @@ source remains numerically held on access/files/identities. The
 [follow-up results](rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md) preserve all
 mixed and unfavorable findings; original-stage holds below remain unchanged.
 
+The [complete analysis inventory and synthesis](ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
+connects reproduction, human branches and extensions to the remaining question.
+
 ## Candidate DY1-P01
 
 Can deposited bulk and single-cell measurements reproduce persistent NAM

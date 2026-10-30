@@ -1,5 +1,17 @@
 # Current project state
 
+## DY1 follow-up PR preparation and overall synthesis — 30 October 2026
+
+The owner requested publication of the reviewed follow-ups and an overall analysis
+inventory/implication. Added the [cross-stage synthesis](Research%20Article/gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md),
+linking original diagnostic limits, human branches, E1–E6 and F1–F4 without new
+biological computation or claim promotion. Current main remains `28fb610`; no
+remote changes invalidate the previous numerical verification. Both CLI and
+connector GitHub identities are verified as `xorca0711`; no duplicate PR exists
+for this branch. Final documentation passed 11,734 repository checks and the
+base-aware research gate; publication is the remaining step.
+
+
 ## DY1 follow-ups integrated and independently reviewed — 30 October 2026
 
 Integrated stable technical handoff `cee8466dc82bbf4ce3a12e840cd575b55864c7f8`.
