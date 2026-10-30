@@ -1,5 +1,30 @@
 # Current project state
 
+## DY1 figure gallery integrated — 31 October 2026
+
+Integrated reviewed rendering handoff `5aa6e08cb89e4df9a866d757c8f6afe6ad1023be`
+from the existing technical chat. The [figure gallery](Research%20Article/gate2_DY1_damani_yokota_2026/FIGURES.md)
+contains thirteen current plates and links all ten original PNGs. Four new
+presentation derivatives (one F1 replacement and three summaries) have PNG300,
+vector SVG/PDF and a four-page bundle. Article/DY1-P02 and central study navigation
+now link the gallery; no canonical RQ or biological result changed.
+
+The [independent review](Research%20Article/gate2_DY1_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md)
+passed 461 source/hash/value/coordinate checks, plus all four PNG/PDF-page visual
+reviews and PDF text bounds. The technical package passed five targeted tests,
+11,751 repository checks and the base-aware gate against unchanged main
+`28fb610`. All sixteen declared outputs, including five PDFs initially missed
+by the ignore rule, are tracked. Generated SVG whitespace notices are recorded;
+frozen exports and original evidence remain intact.
+
+Integrated gallery documentation passed 11,873 repository checks and the
+base-aware research gate against freshly fetched unchanged main `28fb610`.
+Delivery uses the existing [PR #153](https://github.com/xorca0711/ravel/pull/153);
+human scientific review and merge remain pending. The owner explicitly approved
+the integration retry on 31 October; the earlier automatic-approval hold is
+resolved. Source/data/design holds remain unchanged, with no additional
+biological analysis queued by this gallery work or unresolved external setting.
+
 ## DY1 presentation derivatives rendered — 30 October 2026
 
 Completed four frozen-table presentation plates after independent pre-freeze

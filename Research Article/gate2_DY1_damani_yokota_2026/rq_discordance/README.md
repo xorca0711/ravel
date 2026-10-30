@@ -5,6 +5,11 @@ This develops the unresolved regulatory question in DY1-P01 into a specific
 baseline measurement/model-discrimination question. It is not a new canonical
 A-series RQ, a discovery of the STAT6–PPARγ pathway, or a claim of novelty.
 
+The [article figure gallery](../FIGURES.md) links the reference, synthetic,
+representation, cofactor and human-sensitivity figures to their frozen data.
+Its four new presentation plates change display only; the completion and hold
+ledger below remains the authority for eligible analysis.
+
 ## Research question
 
 **Does the late bulk RNA–ATAC pattern in lung NAMs remain interpretable under

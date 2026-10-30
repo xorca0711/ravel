@@ -3037,3 +3037,27 @@ specific numerical hold. Human scientific acceptance remains unassessed.
 | F4 draft parameter hash checks | Windows line-ending mismatch and incomplete first correction | Two failed draft preflights retained; exact LF bytes/hashes qualified before sole run |
 | Initial repository test environment | Sandbox temporary-Git creation/cleanup failed | Authorized retry passed; no biological run affected |
 | F1 frozen plot layout | Crowded long x-axis labels | Retain frozen evidence; exact table primary, plot supplemental |
+
+## 2026-10-31 — DY1 figure gallery and reviewed presentation derivatives
+
+The owner requested a generated-figure inventory and gallery matching neighboring
+paper packages. The existing technical chat implemented a frozen rendering
+contract; the coordinating reviewer reviewed inputs/code before execution and
+values, PNGs and PDF pages afterward. The owner authorized this work; no human
+scientific acceptance or claim promotion is recorded.
+
+| Item | Responsible work | Review / authority | Disposition |
+|---|---|---|---|
+| Four presentation plates and export bundle | Existing technical chat | Owner request; coordinating pre-freeze and output review | Governed render complete; original evidence preserved |
+| Thirteen-plate gallery, archive inventory and navigation | Coordinating reviewer | Owner's gallery/organization request | Local article owns figures; source owners and limits remain explicit |
+
+| Revised or failed item | Reason | Technical disposition |
+|---|---|---|
+| Crowded original F1 labels | Existing frozen plot was hard to read | New presentation version; old PNG and numerical result retained |
+| Two synthetic draft layout overlaps and axis wording | Legend/title spacing and the weighting denominator needed clarity | Corrected before real-data freeze/render; no frozen output overwritten |
+| Initial PDF staging | Repository ignore rule excluded the requested PDF exports | Exactly five PDFs explicitly added; sixteen-output tracked inventory and required checks passed |
+| Automatic approval timeouts | Capacity/deadline failures in coordination and Git access | No unsafe-action finding; scoped retries, with explicit owner reconfirmation where required |
+| Native SVG path whitespace notices | Matplotlib-generated vector syntax | Recorded 319 notices; preserved frozen export hashes; no validator or governance relaxation |
+
+See the [gallery review](Research%20Article/gate2_DY1_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md)
+for exact scope, checks and remaining interpretation limits.
