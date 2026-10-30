@@ -1,0 +1,89 @@
+{
+  "source": "Original immutable cached GSE343897 exon files and GSE280183 called-peak files; exact source_v1 hashes verified. N.brasiliensis-history/IAV-study context preserved.",
+  "files": [
+    {
+      "kind": "exon_counts",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964554_TP10-1_S8-ExonCounts.txt.gz",
+      "sha256": "0ce695008d9659142adb709c78f464497e20838797550cb6f542f75a4923f3c7",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM9964554_TP10-1_S8-ExonCounts.txt.gz"
+    },
+    {
+      "kind": "exon_counts",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964555_TP10-2_S9-ExonCounts.txt.gz",
+      "sha256": "03faa49fa8f55c3febbcd5da0065e3a414281a1371862f4089db17b4cc25617d",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM9964555_TP10-2_S9-ExonCounts.txt.gz"
+    },
+    {
+      "kind": "exon_counts",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964556_TP10-3_S14-ExonCounts.txt.gz",
+      "sha256": "a61e82a82b224566ed190d55981363941914a3b573d775f60fa924e8fe35a384",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM9964556_TP10-3_S14-ExonCounts.txt.gz"
+    },
+    {
+      "kind": "exon_counts",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964557_XP10-1_S3-ExonCounts.txt.gz",
+      "sha256": "4ccdbe095d69af46d7670c7ae0b3e6af0efdac798de9fd789e704b98c0402819",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM9964557_XP10-1_S3-ExonCounts.txt.gz"
+    },
+    {
+      "kind": "exon_counts",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964558_XP10-2_S4-ExonCounts.txt.gz",
+      "sha256": "49862630d9542e68e285b2d208f471a375119cb4d7b95cfc6b407e958c731131",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM9964558_XP10-2_S4-ExonCounts.txt.gz"
+    },
+    {
+      "kind": "exon_counts",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964559_XP10-3_S12-ExonCounts.txt.gz",
+      "sha256": "18f843d9e17a8e5a31b9f48fe9a4e9d02d6d45b51604c614fcbd422dee4bd414",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM9964559_XP10-3_S12-ExonCounts.txt.gz"
+    },
+    {
+      "kind": "narrowPeak",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM8591248_GRCm38.p6-SS-NAM-1_peaks.narrowPeak.gz",
+      "sha256": "dc1e0390a28d84779e8c81c3c0445416054ad65191eb5a911a76237592f0ca9f",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM8591248_GRCm38.p6-SS-NAM-1_peaks.narrowPeak.gz"
+    },
+    {
+      "kind": "narrowPeak",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM8591249_GRCm38.p6-SS-NAM-2_peaks.narrowPeak.gz",
+      "sha256": "2b422b98cd900e13ab02d1dca2fbb6a02415e05d8346c819e90b87e1b1d4bdac",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM8591249_GRCm38.p6-SS-NAM-2_peaks.narrowPeak.gz"
+    },
+    {
+      "kind": "narrowPeak",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM8591250_GRCm38.p6-SS-NAM-3_peaks.narrowPeak.gz",
+      "sha256": "82a350c422bc97c19051644a8b6f77f9e3c0336f0bfb0c95acca2566abccc43f",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM8591250_GRCm38.p6-SS-NAM-3_peaks.narrowPeak.gz"
+    },
+    {
+      "kind": "narrowPeak",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM8591251_GRCm38.p6-SS-NAM-4_peaks.narrowPeak.gz",
+      "sha256": "f516cf4f9b048bb13f9ecaf038aaa7ec368a371f7bb9de69ded59b1b71390270",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM8591251_GRCm38.p6-SS-NAM-4_peaks.narrowPeak.gz"
+    },
+    {
+      "kind": "narrowPeak",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM8591252_GRCm38.p6-Tr-NAM-1_peaks.narrowPeak.gz",
+      "sha256": "d3caba9509d8f3b03e245443b2b1214c10512aa10d4189c073070a65cfc23c2a",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM8591252_GRCm38.p6-Tr-NAM-1_peaks.narrowPeak.gz"
+    },
+    {
+      "kind": "narrowPeak",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM8591253_GRCm38.p6-Tr-NAM-2_peaks.narrowPeak.gz",
+      "sha256": "f72bfc91e76397d494513c3a256047005570c25188d1728b72e766c11591cbb8",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM8591253_GRCm38.p6-Tr-NAM-2_peaks.narrowPeak.gz"
+    },
+    {
+      "kind": "narrowPeak",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM8591254_GRCm38.p6-Tr-NAM-3_peaks.narrowPeak.gz",
+      "sha256": "aa62192d44347287daddd2e7bca4c6c994c0a9a29ef1701e90de1ab013445ddd",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM8591254_GRCm38.p6-Tr-NAM-3_peaks.narrowPeak.gz"
+    },
+    {
+      "kind": "narrowPeak",
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM8591255_GRCm38.p6-Tr-NAM-4_peaks.narrowPeak.gz",
+      "sha256": "92d80e055178f936f453f3a0ca45d87814439f0f0f6526b523f008dc557f44c8",
+      "source_v1_path": "raw_data/nam_memory_2026/GSM8591255_GRCm38.p6-Tr-NAM-4_peaks.narrowPeak.gz"
+    }
+  ]
+}

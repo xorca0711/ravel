@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "checks": [
+    "All six exact source-label/feature joins",
+    "Qualified all-zero feature count and positive exon-hit denominators",
+    "Full deterministic SVD versus covariance eigenvalues",
+    "All-component coordinate Gram reconstruction",
+    "Feature centering"
+  ],
+  "floating_tolerances": "rtol1e-10/atol1e-7 for covariance checks; centering atol1e-10; numerical-constant guard scales with machine epsilon.",
+  "limit": "Arithmetic on the same transformed files, not author-PCA replication or biological independence."
+}

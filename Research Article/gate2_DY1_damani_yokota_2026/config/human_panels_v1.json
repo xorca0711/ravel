@@ -1,0 +1,164 @@
+{
+  "identity_markers": [
+    "SLC40A1",
+    "FOLR2",
+    "F13A1",
+    "STAB1",
+    "SELENOP"
+  ],
+  "panels": {
+    "FABP4_panel": [
+      "ATP10A",
+      "FABP4",
+      "SERPING1",
+      "SVIL"
+    ],
+    "matrix_mac_panel": [
+      "MMP9",
+      "LGMN",
+      "PLA2G7",
+      "RGS1"
+    ],
+    "fibro_matrix_panel": [
+      "COL1A1",
+      "COL1A2",
+      "COL3A1",
+      "COL6A1",
+      "COL6A2",
+      "FN1",
+      "ACTA2"
+    ]
+  },
+  "highlighted_genes": [
+    "FN1",
+    "CCL18",
+    "SPP1",
+    "APOE",
+    "LPL",
+    "TREM2",
+    "CD9",
+    "MERTK",
+    "CD59",
+    "FABP5"
+  ],
+  "primary_population": "Macrophage",
+  "primary_floor": 20,
+  "floors": [
+    10,
+    20,
+    50
+  ],
+  "identity_source": "Damani-Yokota 2026 human Fig5j/ED9b; parent inspected supplied paper; proxy threshold is analyst-defined, not author cluster assignment.",
+  "panel_sources": {
+    "FABP4_panel": "Apte2023 DOI10.3390/ijms242015104 Results2.1/Fig1C",
+    "matrix_mac_panel": "Apte2023 DOI10.3390/ijms242015104 Results2.1/Fig1C",
+    "fibro_matrix_panel": "Liu2024 DOI10.1165/rcmb.2023-0363OC Fig4B"
+  },
+  "highlight_source": "Damani-Yokota2026 Fig5n/ED9c; individual human highlighted genes, not a functional score.",
+  "score_method": "Analyst adaptation: mean gene log2(1+1e6*pseudobulk_count/all_gene_pseudobulk_count). Native human symbols; no cross-species mapping.",
+  "category_labels": {
+    "Myeloid": [
+      "DC_Langerhans",
+      "DC_Mature",
+      "Macrophage",
+      "Macrophage_Alveolar",
+      "Mast",
+      "cDC1",
+      "cDC2",
+      "cMonocyte",
+      "ncMonocyte",
+      "pDC"
+    ],
+    "Epithelial": [
+      "ATI",
+      "ATII",
+      "Aberrant_Basaloid",
+      "Basal",
+      "Ciliated",
+      "Club",
+      "Goblet",
+      "Ionocyte",
+      "Mesothelial",
+      "PNEC"
+    ]
+  },
+  "macrophage_labels": [
+    "Macrophage",
+    "Macrophage_Alveolar"
+  ],
+  "fibroblast_labels": [
+    "Fibroblast",
+    "Myofibroblast"
+  ],
+  "recipient_labels": [
+    "Aberrant_Basaloid",
+    "ATII"
+  ],
+  "excluded_labels": [
+    "Multiplet"
+  ],
+  "symbols": [
+    "ACTA2",
+    "APOE",
+    "ARG1",
+    "ATP10A",
+    "CCL18",
+    "CD59",
+    "CD9",
+    "COL1A1",
+    "COL1A2",
+    "COL3A1",
+    "COL6A1",
+    "COL6A2",
+    "F13A1",
+    "FABP4",
+    "FABP5",
+    "FN1",
+    "FOLR2",
+    "LGMN",
+    "LPL",
+    "MERTK",
+    "MMP9",
+    "PLA2G7",
+    "RGS1",
+    "SELENOP",
+    "SERPING1",
+    "SLC40A1",
+    "SPP1",
+    "STAB1",
+    "SVIL",
+    "TREM2"
+  ],
+  "ensembl_ids": {
+    "ACTA2": "ENSG00000107796",
+    "APOE": "ENSG00000130203",
+    "ARG1": "ENSG00000118520",
+    "ATP10A": "ENSG00000206190",
+    "CCL18": "ENSG00000275385",
+    "CD59": "ENSG00000085063",
+    "CD9": "ENSG00000010278",
+    "COL1A1": "ENSG00000108821",
+    "COL1A2": "ENSG00000164692",
+    "COL3A1": "ENSG00000168542",
+    "COL6A1": "ENSG00000142156",
+    "COL6A2": "ENSG00000142173",
+    "F13A1": "ENSG00000124491",
+    "FABP4": "ENSG00000170323",
+    "FABP5": "ENSG00000164687",
+    "FN1": "ENSG00000115414",
+    "FOLR2": "ENSG00000165457",
+    "LGMN": "ENSG00000100600",
+    "LPL": "ENSG00000175445",
+    "MERTK": "ENSG00000153208",
+    "MMP9": "ENSG00000100985",
+    "PLA2G7": "ENSG00000146070",
+    "RGS1": "ENSG00000090104",
+    "SELENOP": "ENSG00000250722",
+    "SERPING1": "ENSG00000149131",
+    "SLC40A1": "ENSG00000138449",
+    "SPP1": "ENSG00000118785",
+    "STAB1": "ENSG00000010327",
+    "SVIL": "ENSG00000197321",
+    "TREM2": "ENSG00000095970"
+  }
+}

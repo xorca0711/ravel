@@ -1,0 +1,15 @@
+{
+  "seed": 20261030,
+  "draws_per_scenario": 200000,
+  "alpha": 0.05,
+  "monte_carlo_standard_errors": 6,
+  "monte_carlo_count_allowance": 2,
+  "assumptions": "Independent normal estimates with known fixed standard errors in illustrative dimensionless units. Equal latent effects are a synthetic assumption, not a comparison of real RNA/ATAC scales. No biological margin, empirical calibration or equivalence test.",
+  "scenarios": [
+    {"id": "null_equal", "label": "Both null; equal precision", "truth_a": 0.0, "truth_b": 0.0, "se_a": 0.25, "se_b": 0.25},
+    {"id": "equal_effect_equal", "label": "Equal nonzero truth; equal precision", "truth_a": 0.5, "truth_b": 0.5, "se_a": 0.25, "se_b": 0.25},
+    {"id": "equal_effect_unequal", "label": "Equal nonzero truth; unequal precision", "truth_a": 0.5, "truth_b": 0.5, "se_a": 0.1, "se_b": 0.5},
+    {"id": "null_unequal", "label": "Both null; unequal precision", "truth_a": 0.0, "truth_b": 0.0, "se_a": 0.02, "se_b": 0.5},
+    {"id": "opposite_effect_equal", "label": "Opposite truth; equal precision", "truth_a": 0.5, "truth_b": -0.5, "se_a": 0.25, "se_b": 0.25}
+  ]
+}

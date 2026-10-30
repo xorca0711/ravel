@@ -1,0 +1,52 @@
+{
+  "original_status": "execution_failed",
+  "archive_status": "byte_preservation_verified",
+  "preserved_files": 7,
+  "original_failure_commit": "9982774",
+  "discovery_copy_commit": "d4ee3cb",
+  "files": [
+    {
+      "original_path": "analysis/research/runs/DY1_external_human_qualification_v1/receipt.json",
+      "archive_file": "failed_receipt.json",
+      "sha256": "2d13d61fa79fa959407dfeb482077e17cca802fac9e294528a1a2ddac04cb970",
+      "bytes": 4614
+    },
+    {
+      "original_path": "analysis/research/runs/DY1_external_human_qualification_v1/stdout.log",
+      "archive_file": "failed_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "original_path": "analysis/research/runs/DY1_external_human_qualification_v1/stderr.log",
+      "archive_file": "failed_stderr.log",
+      "sha256": "07ef3b186f93abd38fcb6ba5b8deae90e493f0fa1c2929cfb7e111ad9e77ed20",
+      "bytes": 889
+    },
+    {
+      "original_path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/independent_human_candidates.json",
+      "archive_file": "independent_human_candidates.json",
+      "sha256": "87f0734e790521025cfa62067d431b692030894470dbba58037f451286575454",
+      "bytes": 4691
+    },
+    {
+      "original_path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_candidate.txt",
+      "archive_file": "GSE135893_candidate.txt",
+      "sha256": "c2ed634ecaf3f32b2e19b896d02a19aeb6d941133b718311c2b601aa9c4fed28",
+      "bytes": 5399
+    },
+    {
+      "original_path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE122960_candidate.txt",
+      "archive_file": "GSE122960_candidate.txt",
+      "sha256": "1d3cc1b794e9ff163d03a869de968eb8385fcde19f7929a5959083ec5a1c1f1f",
+      "bytes": 4556
+    },
+    {
+      "original_path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+      "archive_file": "GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+      "sha256": "a7f878eb36efe4e549ae00538973da7c51de2cdbcf855058ba5d1ff9fdc788ab",
+      "bytes": 642
+    }
+  ],
+  "interpretation": "Success applies only to exact archival copying. Failed qualification remains failed; source discovery is not an assay or biological result. Original local bytes and Git history remain preserved. No validator changes or scientific acceptance."
+}

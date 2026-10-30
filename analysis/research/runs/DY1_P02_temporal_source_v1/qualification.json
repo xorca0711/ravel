@@ -1,0 +1,29 @@
+{
+  "series": 6,
+  "source_record_occurrences": 278,
+  "unique_gsm_records": 217,
+  "shared_gsm_record_conflicts": [],
+  "memory_table": {
+    "rows": 23420,
+    "columns": 8,
+    "nonnegative_finite": true,
+    "all_zero_rows": 6808,
+    "semantics": "Source-labelled averaged CPM from two title-labelled records per group; no recoverable per-replicate variance or effective biological n inferred.",
+    "eligible": "Point description of the four WT group averages with disclosed offset sensitivity; no genotype screen, confidence interval or independent replication."
+  },
+  "rna2020": {
+    "rows": 55450,
+    "columns": 12,
+    "all_zero_rows": 24238,
+    "source_timing": "Control versus 24-hour RNA groups only; early ChIP time points are not RNA or ATAC time points.",
+    "eligible": "Assay-specific endpoint counts qualified structurally; not an early-to-late RNA trajectory or a matched temporal multi-assay panel."
+  },
+  "exclusions": [
+    "GSE115502 muscle-injury RNA is a different source context and is not substituted for cultured memory RNA.",
+    "Superseries/subseries duplicates are one source lineage, not extra replication.",
+    "Chromatin BEDGRAPH/bigWig files are normalized signals, not qualified common-region raw counts; no large raw archives acquired.",
+    "No cross-assay preparation pairing or within-condition independence is manufactured from repeated rep labels."
+  ],
+  "verification_checks": 34,
+  "verified": true
+}

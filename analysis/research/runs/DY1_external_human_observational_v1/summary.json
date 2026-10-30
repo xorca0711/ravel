@@ -1,0 +1,27 @@
+{
+  "analysis_id": "DY1-P01.external_human_observational_v1",
+  "eligible_donors": {
+    "Control": 9,
+    "IPF": 12
+  },
+  "qualified_outcome_symbols": [
+    "ARG1",
+    "ATP10A",
+    "FABP4",
+    "LGMN",
+    "MMP9",
+    "PLA2G7",
+    "RGS1",
+    "SERPING1",
+    "SVIL"
+  ],
+  "unmapped_identity_marker": "SELENOP; not needed or substituted for this bounded analysis",
+  "contrasts": 12,
+  "association_status": {
+    "estimated": 4,
+    "fewer_than_8_donors": 4
+  },
+  "clinical_adjustment": "not performed; unqualified external age/sex and other clinical fields",
+  "scope": "Exposed source-adapted transport description; different annotations, same gene formulas. No NAM, proxy, COPD or recipient mechanism claim.",
+  "scientific_acceptance": "not_assessed"
+}

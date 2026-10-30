@@ -1,0 +1,20 @@
+{
+  "analysis": "human clinical metadata supplement",
+  "donors": 78,
+  "libraries": 107,
+  "exact_subject_and_disease_joins": true,
+  "independent_line_state_verification": true,
+  "available_covariates": [
+    "age",
+    "recorded_sex"
+  ],
+  "remaining_unqualified": [
+    "smoking",
+    "treatment",
+    "lung_function",
+    "tissue_region"
+  ],
+  "supersedes": "Qualification_v1 accurately reports fields absent from the supplied cell table; this supplement recovers age and recorded sex from separate public GEO sample records.",
+  "interpretation_limit": "Recorded donor covariates permit descriptive sensitivity only; no causal identification or comprehensive confounder control.",
+  "scientific_acceptance": "not_assessed"
+}

@@ -1,0 +1,49 @@
+{
+  "context": "Two baseline triplets only from the N.brasiliensis-history/later-IAV-challenge study; no challenge triplet, tag assignment or animal identity inference.",
+  "libraries": [
+    {
+      "accession": "GSM9964560",
+      "files": {
+        "matrix": {
+          "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_matrix.mtx.gz",
+          "sha256": "1bfbe01cea1058a0c5e32bff2b80627490fa0bea26dfbfbf5e1cefedc755c426"
+        },
+        "features": {
+          "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_features.tsv.gz",
+          "sha256": "ff74df75623a1850bcd079bff4751fe4059ca5a075cad5cf5dc084188a5d84c1"
+        },
+        "barcodes": {
+          "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_barcodes.tsv.gz",
+          "sha256": "87be6f756c21f5b401eed4d0bd714c9452d549bc81142b3aa343994cc1facdc7"
+        }
+      },
+      "source_v1_dimensions": [
+        32291,
+        22282,
+        44168578
+      ]
+    },
+    {
+      "accession": "GSM9964561",
+      "files": {
+        "matrix": {
+          "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_matrix.mtx.gz",
+          "sha256": "9888f2bdf36cf01c1cbcb536520d605671e063b5760e90896d5dff312fcbc149"
+        },
+        "features": {
+          "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_features.tsv.gz",
+          "sha256": "001f66eeb590520c649efc13a88f7dfcf090ed7042b8d9099943f99b31f8c995"
+        },
+        "barcodes": {
+          "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_barcodes.tsv.gz",
+          "sha256": "34c626d9e94bc624d08f6f4b55ea75a99e78eeba8ebe3c8fdfbe01532de86d78"
+        }
+      },
+      "source_v1_dimensions": [
+        32291,
+        19629,
+        23814921
+      ]
+    }
+  ]
+}

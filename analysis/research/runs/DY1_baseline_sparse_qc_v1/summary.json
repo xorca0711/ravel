@@ -1,0 +1,8 @@
+{
+  "analysis_id": "DY1-P01.baseline_sparse_qc_v1",
+  "libraries": 2,
+  "stored_entries": 67983499,
+  "scope": "Baseline host-file integrity and per-source CMO signal inventory in the full N.brasiliensis-history/later-IAV-challenge study. No gene/tag ranking, thresholds, cell assignment, biological subsetting or contrast.",
+  "inference_limit": "Nonzero antibody-tag counts do not establish assigned conditions or animal/pool identities. Barcode uniqueness and tag IDs are library-local. Tag totals sum all stored entries; positive barcode counts deduplicate coordinates; maximum is the maximum stored entry, not a per-cell aggregate. Gene Expression entries are not certified unique coordinates.",
+  "scientific_acceptance": "not_assessed"
+}

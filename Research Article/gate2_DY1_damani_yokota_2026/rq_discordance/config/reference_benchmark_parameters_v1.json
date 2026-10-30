@@ -1,0 +1,13 @@
+{
+  "genotype": "WT",
+  "condition": "IL4",
+  "comparator": "CTRL",
+  "offsets": [1.0, 0.5],
+  "interval_level": 0.95,
+  "numerical_se_tolerance": 1e-12,
+  "distance_sensitivity_bp": 2000,
+  "mapping_rules": ["author_ensembl", "author_nearest_tss_symbol"],
+  "verification_features_per_assay": 40,
+  "context": "Descriptive source-labelled cultured-macrophage measurement benchmark only. CPM is compositional and does not establish absolute output. Original NAM N. brasiliensis-history/later-IAV context remains separate. No genotype effect, target ranking, infection-response analysis or mechanistic validation.",
+  "uncertainty": "Independent-Welch and all possible one-to-one within-assay pairings are alternative design assumptions, not recovered identities. Their envelope is a sensitivity envelope, not an unconditional population confidence interval and not exhaustive of partial overlap or batch confounding. Zero estimated-variance models are flagged as degenerate, not certain."
+}

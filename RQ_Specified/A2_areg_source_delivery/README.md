@@ -1,5 +1,7 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
+**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
+
 <!-- current-rq-framing:start -->
 ## Current biological hypothesis and novelty boundary — 3 October 2026
 

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.reference_benchmark_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How sensitive are source-labelled separate RNA and ATAC transformed-mean contrast directions and conditional precision to explicit mapping, offset and within-assay dependence assumptions in the qualified external reference?",
+  "decision": "Provide a bounded measurement benchmark over deposited feature universes without claiming an exact author replay, NAM validation, TF activity or a genotype/target screen.",
+  "strongest_rival": "Compositional normalization, low-count offsets, one-to-many mapping, annotation selection, unknown dependence/timing/batches and invalid precision interpretations can generate apparent cross-assay differences.",
+  "discriminator": "All non-all-zero deposited features, two fixed offsets, two auditable source mappings, explicit nearest-TSS distance sensitivity, and separate independent-Welch/all-pairing conditional intervals with exact eligibility denominators.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md",
+    "analysis/research/runs/DY1_P02_reference_source_v1/qualification.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Anchor NAM paper with N. brasiliensis-history/later-IAV context and repository outcomes are exposed. Reference paper outcomes, source metadata, matrix headers/first rows and annotation schema are exposed. No reference count effects have been computed; this is a prospective descriptive benchmark after E1 qualification of a non-infectious cultured-macrophage reference. E1 qualification outputs and annotation coverage are exposed. E2 descriptive contrasts have not been computed.",
+  "biological_unit": "Source-reported mouse/preparation biological replicates within each assay group; exact across-condition reuse and cross-assay pairing are unknown. Gene-region rows and repeated gene mappings are not independent biological units.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Separate source-labelled WT IL4 versus vehicle groups: three RNA libraries per condition and four ATAC libraries per condition. No within- or cross-assay pairing is asserted. Alternative full-pairing and independence assumptions do not exhaust partial-overlap or batch structures.",
+  "population_and_selection": "WT source-labelled IL4 and vehicle columns only. Every non-all-zero deposited feature in these selected groups receives a descriptive contrast, including unannotated ATAC regions. All source rows stay in each library denominator. Annotation is used only at the cross-assay join stage.",
+  "contrast": "Separate assay-specific condition-minus-control mean log2(CPM+offset) differences, offsets 1 and .5. These are compositional descriptive transformed-mean contrasts, not count-model log fold changes or absolute-output differences.",
+  "endpoint": "Sample spread, conditional model intervals, all-pairing sensitivity envelope, full feature eligibility and mapped-pair-weighted sign/directional-envelope summaries. No subtraction of RNA and ATAC effect scales.",
+  "methods": "Use all-source-feature library totals for CPM; retain all non-all-zero selected-group rows. Compute independent-Welch intervals and all 6 RNA/24 ATAC possible one-to-one pairing intervals. Numerical SE <=1e-12 is degenerate, not certainty. Envelope is a sensitivity bound over these declared models only. Join by exact author Ensembl IDs and exact nearest-TSS symbols; summarize both complete author mappings and absolute nearest-TSS distance <=2000bp. This distance refers to the source nearest TSS, not necessarily the gene in the different author-Ensembl mapping. Verify 40 evenly spaced source-order feature positions per assay/offset using scalar Python arithmetic and all pairings.",
+  "missingness_and_exclusions": "Only all-zero selected-group features excluded from effect calculation; no expression/variance/outcome-based threshold, outlier or locus selection. Retain all zero/undefined precision cases and unmapped-region effect results. Source annotation universe and author filtered flag are reported separately. No guessed annotation version, duration correction, animal identity or recovered batch.",
+  "multiplicity": "No biological p-values, FDR decisions, equivalence labels or locus ranking. Mapping fractions are dependent pair-row descriptive summaries; no binomial confidence intervals over genes/peaks.",
+  "precision_status": "unknown",
+  "precision_basis": "95-percent model-conditional intervals assume normal transformed sample observations and the specified dependence model. Unknown pairing/partial overlap/batches prevent unconditional population-CI claims. No biological effect margin or power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Published outcomes and source tables are exposed. Source 24h/25h conflict, annotation-version ambiguity and unknown preparation/batch dependence remain. No causal duration-matched interpretation, exact edgeR reproduction, global absolute-output inference, activity/occupancy/mediation result or original NAM hold resolution.",
+  "stop_rule": "Stop on source/hash/eligibility/verification disagreement. Retain all outcomes and degenerate models. Do not tune offsets, mapping rules or source exclusions after exposure, and do not expand to genotype or selected-axis analyses.",
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE247223_countMatrixUpdated.tsv.gz",
+      "sha256": "5a8bc01d332386e221337d0a866875ef31130deab432cadd5c64715052f19ca3",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE248042_Chinenov_Deochand_submission_ATACseq_peak_count_matrix.csv.gz",
+      "sha256": "5d39fe421adced7aa67c7cf92d82c478492e11ee0650e07621803b79d8ba5372",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/sample_map.tsv",
+      "sha256": "a09cc08c3690c3e564a1c5622573668f6f97404f2e76c6ebc6fda1e95148ccbe",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/author_annotation_map.tsv",
+      "sha256": "9fc8c70701d52d7802c00a2556fe9c7ba59b16450eb8aca2ab98bc635ca7454d",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/qualification.json",
+      "sha256": "9d72eb31b6c2b0261f179c864c308304e4e7aaec1af64097498adf6fbfb6c3a5",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_benchmark_parameters_v1.json",
+      "sha256": "11ca35007987565d1a494cfde17786789f0d7586b8bef22c647962b863ac6d67",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/reference_benchmark_v1.py",
+      "sha256": "15167d2c723b820f09547a14cea418f3f223e8f20d2b1d44d5b4d746b94585c3"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/verify_reference_benchmark_v1.py",
+      "sha256": "7b240a1374b67cd858cf51420841b2b757cc13e5ed8d7c85b8cbd9a96a54c0ba"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_reference_benchmark_v1.py",
+      "sha256": "b397ba685ca55e37bb96844f7dec18741661ea9e5fa9e50e62803daeb574c40b"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_benchmark_parameters_v1.json",
+      "sha256": "11ca35007987565d1a494cfde17786789f0d7586b8bef22c647962b863ac6d67"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/reference_benchmark_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "selected_source_samples.tsv",
+    "rna_descriptive_effects.tsv.gz",
+    "atac_descriptive_effects.tsv.gz",
+    "mapping_membership.tsv.gz",
+    "annotation_flag_contingency.tsv",
+    "library_denominators.tsv",
+    "feature_eligibility.tsv",
+    "mapping_sensitivity.tsv",
+    "verification.json",
+    "reference_benchmark.png",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New owner-authorized E2 descriptive reference benchmark after E1; preserves all earlier frozen sources and NAM holds."
+}

@@ -1,0 +1,165 @@
+{
+  "populations": {
+    "external_macrophage_union": {
+      "IPF": [
+        "TILD001",
+        "TILD006",
+        "TILD010",
+        "TILD015",
+        "TILD028",
+        "VUILD53",
+        "VUILD59",
+        "VUILD60",
+        "VUILD61",
+        "VUILD63",
+        "VUILD64",
+        "VUILD65"
+      ],
+      "Control": [
+        "THD0001",
+        "THD0002",
+        "THD0005",
+        "VUHD071",
+        "VUHD65",
+        "VUHD66",
+        "VUHD67",
+        "VUHD68",
+        "VUHD70"
+      ]
+    },
+    "external_Macrophages_only": {
+      "IPF": [
+        "TILD001",
+        "TILD006",
+        "TILD010",
+        "TILD015",
+        "TILD028",
+        "VUILD53",
+        "VUILD59",
+        "VUILD60",
+        "VUILD61",
+        "VUILD63",
+        "VUILD64",
+        "VUILD65"
+      ],
+      "Control": [
+        "THD0001",
+        "THD0002",
+        "THD0005",
+        "VUHD071",
+        "VUHD65",
+        "VUHD66",
+        "VUHD67",
+        "VUHD68",
+        "VUHD70"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "Sample_Name": "THD0001",
+      "Diagnosis": "Control",
+      "Sample_Source": "DNA"
+    },
+    {
+      "Sample_Name": "THD0002",
+      "Diagnosis": "Control",
+      "Sample_Source": "DNA"
+    },
+    {
+      "Sample_Name": "THD0005",
+      "Diagnosis": "Control",
+      "Sample_Source": "DNA"
+    },
+    {
+      "Sample_Name": "TILD001",
+      "Diagnosis": "IPF",
+      "Sample_Source": "NTI"
+    },
+    {
+      "Sample_Name": "TILD006",
+      "Diagnosis": "IPF",
+      "Sample_Source": "NTI"
+    },
+    {
+      "Sample_Name": "TILD010",
+      "Diagnosis": "IPF",
+      "Sample_Source": "NTI"
+    },
+    {
+      "Sample_Name": "TILD015",
+      "Diagnosis": "IPF",
+      "Sample_Source": "NTI"
+    },
+    {
+      "Sample_Name": "TILD028",
+      "Diagnosis": "IPF",
+      "Sample_Source": "NTI"
+    },
+    {
+      "Sample_Name": "VUHD071",
+      "Diagnosis": "Control",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUHD65",
+      "Diagnosis": "Control",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUHD66",
+      "Diagnosis": "Control",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUHD67",
+      "Diagnosis": "Control",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUHD68",
+      "Diagnosis": "Control",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUHD70",
+      "Diagnosis": "Control",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUILD53",
+      "Diagnosis": "IPF",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUILD59",
+      "Diagnosis": "IPF",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUILD60",
+      "Diagnosis": "IPF",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUILD61",
+      "Diagnosis": "IPF",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUILD63",
+      "Diagnosis": "IPF",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUILD64",
+      "Diagnosis": "IPF",
+      "Sample_Source": "Vanderbilt"
+    },
+    {
+      "Sample_Name": "VUILD65",
+      "Diagnosis": "IPF",
+      "Sample_Source": "Vanderbilt"
+    }
+  ]
+}

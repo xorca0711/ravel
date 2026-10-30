@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.human_qualification_v1",
+  "owner": "DY1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which donor, library, annotation and assay identities and coverage support bounded observational description of the GSE136831 human lung atlas?",
+  "decision": "Qualify source joins and coverage before a separate reviewed numerical contract; do not infer a validated NAM identity from generic macrophage labels.",
+  "strongest_rival": "Barcode misalignment, repeated libraries treated as independent donors, absent clinical covariates and capture-limited cell populations can create invalid comparisons or source attribution.",
+  "discriminator": "Check exact barcode order, source donor-disease/library-donor mappings and metadata coverage independently; inspect matrix header and native human gene mapping without fitting expression outcomes.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_STAGE7_PLAN.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/LITERATURE_CONTEXT.md",
+    "docs/research_reviews/2026-10-29-nam-memory/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Exposed to the atlas publications, prior Ravel GSE136831 summaries, three source metadata/header rows and the matrix dimensions before freeze. This is qualification, not unexposed confirmation. No new human expression comparison has yet run.",
+  "biological_unit": "Deposited Subject_Identity donor, with Library_Identity and captured cells nested; mappings are to be verified.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells and any repeated libraries nest within source-defined subjects. GSE136831 has already been reused in Ravel; no independent cohort validation is claimed.",
+  "population_and_selection": "All four cached public GSE136831 files for Control, IPF and COPD. No outcome-based cell/donor exclusions; metadata identities and annotations are audited as deposited.",
+  "contrast": "Source-label, unit and assay qualification only; no disease expression or functional effect is estimated.",
+  "endpoint": "Donor/library/annotation coverage, barcode order, matrix dimensions, native human gene-ID mapping and missing clinical covariates.",
+  "methods": "Pandas metadata census and grouping, independent standard-library CSV Counter coverage check; inspect integer MatrixMarket header only; check candidate exact human-symbol uniqueness without orthologue imputation.",
+  "missingness_and_exclusions": "Missing source identities or inconsistent joins stop execution. Absent annotated neutrophils or scarce cells restrict ARG1 attribution to captured populations. Unrecorded clinical covariates remain unavailable.",
+  "multiplicity": "No hypothesis tests or multiple-testing claims.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata census of available files; no population uncertainty or power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A public donor identity and passing joins permit description, not causal independence from disease/capture/covariates, validated human NAM identity, tissue-wide transcript source dominance or biological acceptance.",
+  "stop_rule": "Stop on hash/order/identity/dimension conflicts and preserve failure records. No expression fits, mouse/infection analysis, engineering protocol or biological intervention in this qualification.",
+  "inputs": [
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.Samples.CellType.MetadataTable.txt.gz",
+      "sha256": "147bdd11d720ed30736a459ba62a3d8e2f3f9028a8430e0eb714484f0456049b",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.GeneIDs.txt.gz",
+      "sha256": "e43b3008945c87a6875d4fb1a99a791fdaefeeb3c5a72a5d17589f621eb83af8",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_AllCells.cellBarcodes.txt.gz",
+      "sha256": "0efbb89de618a429e2db0399e25f9b2a0f7cd3b6d6ee9a3da71dfc9318cf1ddc",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/GSE136831_RawCounts_Sparse.mtx.gz",
+      "sha256": "266133a964b5c45bf02394acaaff4ea4eb66096ec5a051d92f93dd2747b5850b",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_v1.py",
+      "sha256": "40cb4b823ce5c28099e980d84c8c1bdbc6e29162f1c07c767431ac6dec419a95"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_human_qualification_v1.py",
+      "sha256": "bcf86653c57399ef5005a1383c33f3c287105de90c9d404dfd7572164f7b0c05"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "donors.tsv",
+    "annotation_coverage.tsv",
+    "libraries.tsv",
+    "panel_gene_mapping.tsv",
+    "qualification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New separately authorized human observational continuation after completed source-v2 metadata correction; this qualification does not resume restricted mouse/infection analyses."
+}

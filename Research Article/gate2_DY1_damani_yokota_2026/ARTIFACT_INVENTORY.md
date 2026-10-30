@@ -1,0 +1,102 @@
+# Saved artifacts at documentation close-out
+
+Historical v1 checkpoint. The subsequent bounded [source-v2 results](SOURCE_V2_RESULTS.md)
+and [validation](SOURCE_V2_VALIDATION.md) record the authorized metadata correction.
+The original checkpoint below is retained with its original scope and date.
+
+The canonical article package is `Research Article/gate2_DY1_damani_yokota_2026/`.
+Worktree: `C:/Users/dream/.codex/worktrees/nam-memory-execution-20261029/ravel`.
+Branch: `codex/nam-memory-execution-20261029`.
+Reviewed starting commit: `a0e7472e1fb24f4892a6084f486e9bef9e973b08`.
+Frozen source checkpoint: `a2ae09e12f604e4926dc9b510558c3442cdc9445`.
+
+## Committed evidence
+
+| Artifact | Purpose |
+|---|---|
+| [source_v1 contract](config/source_v1.json) | Frozen exposed metadata specification and exact input/code hashes |
+| [qualification script](scripts/qualify_sources_v1.py) | Historical executed parser; known label/interpretation limitations retained |
+| [receipt](../../analysis/research/runs/DY1_source_v1/receipt.json) | Successful metadata execution at a2ae09e; acceptance not assessed |
+| [sample map](../../analysis/research/runs/DY1_source_v1/sample_map.tsv) | 22 source sample records; animal/pool mapping explicitly unknown |
+| [structural qualification](../../analysis/research/runs/DY1_source_v1/source_qualification.json) | Matrix dimensions, feature types, exon-bin identifiers and CMO references; read with the correction note |
+| [retrieval manifest](../../analysis/research/runs/DY1_source_v1/retrieval_manifest.json) | Processed-file URLs, retrieval times, byte counts and SHA-256 values |
+| [access recovery](../../analysis/research/runs/DY1_source_v1/access_recovery.json) | Public access attempts, including Code Ocean 403 and publisher challenge described in the correction |
+| [superseding note](SOURCE_QUALIFICATION_CORRECTION.md) | Documentary correction; preserves v1 bytes and does not imply a v2 execution |
+
+The run directory also retains its original stdout and empty stderr logs.
+Its receipt's original `verification: pending` field is unchanged; subsequent
+hash verification is documented in [CLOSEOUT](CLOSEOUT.md), not edited into history.
+
+## Ignored local inputs and preparation
+
+- `raw_data/nam_memory_2026/`: cached public GEO records, four small CMO
+  references, eight narrowPeak files, six exon-count files, four matrix/feature/
+  barcode triplets, compressed source CMO references and retrieval/access logs.
+  Exact frozen inputs are enumerated in source_v1 and its receipt.
+- The same ignored folder contains subsequent preparation only: two BioSample
+  records, an SRA record, publisher client-challenge response, reused mm10 RefGene
+  annotation and public literature lookup/BioC files. These were not inputs to a
+  later executed run or qualified regulatory target set.
+- `raw_data/GSE136831/`: four existing public atlas files copied from Ravel's
+  established local cache to satisfy the runner's repository-relative input
+  boundary. No repeat download or human analysis occurred; original cache unchanged.
+- Supplied private paper/slides and pre-existing review extracts remain in their
+  original private locations. No supplied full-text document or private PI,
+  Notion, placement or identity content is included in tracked outputs.
+
+No stage 1-8 contract, biological effect table, enrichment, regulatory network,
+human contrast or measured figure exists. No new A-series ID or RQ output was
+created. Existing RQ folders retain their canonical work unchanged. The execution
+worktree and ignored inputs are preserved; no cleanup, archive or deletion ran.
+
+## Source-v2 metadata correction
+
+New worktree: `C:/Users/dream/.codex/worktrees/nam-source-metadata-v2-20261029/ravel`.
+Branch: `codex/nam-source-metadata-v2-20261029`; source freeze: `015b339`.
+The original worktrees and their ignored inputs remain preserved.
+
+| Artifact | Purpose |
+|---|---|
+| [Amendment](SOURCE_V2_AMENDMENT.md) and [contract](config/source_v2.json) | Exposed metadata-only correction; predecessor preserved |
+| [Parser](scripts/qualify_sources_v2.py), [verifier](scripts/verify_sources_v2.py), [tests](tests/test_sources_v2.py) | Hash-bound implementation, separate calculation and nine synthetic regressions |
+| [Receipt](../../analysis/research/runs/DY1_source_v2/receipt.json) | Successful execution at the frozen source commit |
+| [Reference labels](../../analysis/research/runs/DY1_source_v2/reference_labels.tsv) and [feature tags](../../analysis/research/runs/DY1_source_v2/feature_tags.tsv) | Exact record-local labels and per-table identifiers |
+| [Membership](../../analysis/research/runs/DY1_source_v2/reference_presence.tsv) | All reference/tag by feature-table string matches; no cell assignments |
+| [Structured result](../../analysis/research/runs/DY1_source_v2/source_qualification.json) and [verification](../../analysis/research/runs/DY1_source_v2/verification.json) | Two explicit supersessions, input hashes and independent computational checks |
+| [Results](SOURCE_V2_RESULTS.md) and [validation](SOURCE_V2_VALIDATION.md) | Current interpretation and delivery checks |
+
+The new checkout contains only 20 small DY1 metadata inputs in ignored storage.
+No DY1 expression matrix, sequencing read or large biological input was copied.
+Run stdout and empty stderr are retained beside the immutable receipt.
+
+
+## Human continuation, 29 October 2026
+
+| Stage | Contract | Saved run |
+|---|---|---|
+| Donor/assay qualification | `config/human_qualification_v1.json` | `analysis/research/runs/DY1_human_qualification_v1` |
+| Public age/sex joins | `config/human_clinical_v2.json` | `analysis/research/runs/DY1_human_clinical_v2` |
+| Primary donor-level RNA | `config/human_observational_v1.json` | `analysis/research/runs/DY1_human_observational_v1` |
+| External historical-code failure, preserved | `config/external_human_qualification_v1.json` | `analysis/research/runs/DY1_external_human_qualification_v1` |
+| External current-raw assay audit | `config/external_human_qualification_v2.json` | `analysis/research/runs/DY1_external_human_qualification_v2` |
+| Exposed external RNA description | `config/external_human_observational_v1.json` | `analysis/research/runs/DY1_external_human_observational_v1` |
+
+Paths in the saved-run column are repository-relative. Each directory preserves
+its receipt and logs. Successful runs retain tables, arrays and declared plots;
+the failed qualification retains its actual failure, not fabricated outputs.
+Primary inputs are ignored under `raw_data/GSE136831`; external source/cache and
+exact historical preparation evidence are under `raw_data/DY1_human_external_v1`.
+Primary source files reused from an older worktree are immutable hardlinks;
+external public inputs are copies. Never modify the linked primary files.
+No raw input, old worktree or historical evidence was removed. The source-v1/v2
+contracts, receipts and results remain unchanged.
+
+
+The original failed-run directory remains locally and in commit `9982774`, but
+is not listed as a successful receipt. Every byte is preserved in the registered
+`analysis/research/runs/DY1_human_evidence_preservation_v1` archive, including
+`failed_receipt.json` whose status remains `execution_failed`. The same archive
+binds all four discovery records. Its `preservation.json` gives original/archive
+paths, exact hashes and sizes. Exact local Git exclude entries retain the original
+duplicate failed directory and source-discovery JSON without deleting files;
+root `.gitignore`, validators, governance and frozen numerical code are unchanged.

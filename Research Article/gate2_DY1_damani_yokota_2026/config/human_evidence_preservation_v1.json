@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.human_evidence_preservation_v1",
+  "owner": "DY1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can all failed external qualification bytes and source-discovery records be preserved under the existing successful-receipt registry?",
+  "decision": "Archive the failed receipt and every partial output without rerunning or claiming scientific success; preserve original local files and commit history.",
+  "strongest_rival": "Omitting a failed run, changing its status or silently discarding partial files could misrepresent execution and destroy evidence.",
+  "discriminator": "Require the original execution_failed status and exact pre/post-copy SHA-256 equality for every file.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_PLAN.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The failed qualification, successful v2 audit, external results and source discovery are exposed. This is deterministic provenance preservation only.",
+  "biological_unit": "Not applicable: files and source-run identity only.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "No biological units or independent replication are created. The original records describe exposed human cohorts and a failed metadata execution.",
+  "population_and_selection": "All three files in the failed run and all four copied public discovery records; no selective archiving.",
+  "contrast": "Original byte stream versus archived copy; no biological contrast.",
+  "endpoint": "Exact file hash equality and preservation of original failure status.",
+  "methods": "Follow existing Nb5 failed-run preservation convention: assert original execution_failed status, exact file set and failure cause; copy original receipt/logs and discovery records into a new run; compare source/destination SHA256 before and after. Rename only copied receipt/logs to avoid the wrapper files. Never execute historical preparation scripts.",
+  "missingness_and_exclusions": "All files present in the failed run are retained; expected outputs never produced by the failed process remain missing, not fabricated.",
+  "multiplicity": "No hypothesis tests or biological inference.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact byte equality, no biological precision question.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Successful preservation is not successful metadata execution or scientific acceptance. failed_receipt.json remains execution_failed.",
+  "stop_rule": "Stop on changed failure status/cause, unexpected original files, changed discovery accession set or any byte mismatch.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v1/receipt.json",
+      "sha256": "2d13d61fa79fa959407dfeb482077e17cca802fac9e294528a1a2ddac04cb970",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v1/stderr.log",
+      "sha256": "07ef3b186f93abd38fcb6ba5b8deae90e493f0fa1c2929cfb7e111ad9e77ed20",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE122960_candidate.txt",
+      "sha256": "1d3cc1b794e9ff163d03a869de968eb8385fcde19f7929a5959083ec5a1c1f1f",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_candidate.txt",
+      "sha256": "c2ed634ecaf3f32b2e19b896d02a19aeb6d941133b718311c2b601aa9c4fed28",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+      "sha256": "a7f878eb36efe4e549ae00538973da7c51de2cdbcf855058ba5d1ff9fdc788ab",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/independent_human_candidates.json",
+      "sha256": "87f0734e790521025cfa62067d431b692030894470dbba58037f451286575454",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/preserve_human_evidence_v1.py",
+      "sha256": "1d44f89af2c5b50484ed74b8f7501f1b86014c37413fb88d31e006822231ee38"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/preserve_human_evidence_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "failed_receipt.json",
+    "failed_stdout.log",
+    "failed_stderr.log",
+    "independent_human_candidates.json",
+    "GSE135893_candidate.txt",
+    "GSE122960_candidate.txt",
+    "GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+    "preservation.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Existing validator registers successful receipts only. Use reviewed existing preservation convention without changing validators or relabeling failure. Original local bytes remain, with failure Git commit9982774 and discovery copy d4ee3cb. Exact originals may leave the current index only after successful byte-preserving archival."
+}

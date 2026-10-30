@@ -1,0 +1,9 @@
+population	scope	disease	x	y	n_donors	rho	ci_low	ci_high	bootstrap_valid_fraction	bootstrap_requested	bootstrap_valid_replicates	bootstrap_constant_replicates	ci_status	status
+external_macrophage_union	all_sources	Control	FABP4_panel	matrix_mac_panel	9	-0.5333333333333333	-0.8520467836257309	0.17873677248677233	1.0	1000	1000	0	pointwise_percentile	estimated
+external_macrophage_union	all_sources	IPF	FABP4_panel	matrix_mac_panel	12	-0.5454545454545455	-0.8893191679169539	0.09031781846312527	1.0	1000	1000	0	pointwise_percentile	estimated
+external_macrophage_union	Vanderbilt	Control	FABP4_panel	matrix_mac_panel	6					1000	0	0	not_evaluated	fewer_than_8_donors
+external_macrophage_union	Vanderbilt	IPF	FABP4_panel	matrix_mac_panel	7					1000	0	0	not_evaluated	fewer_than_8_donors
+external_Macrophages_only	all_sources	Control	FABP4_panel	matrix_mac_panel	9	-0.5333333333333333	-0.878274044795784	0.3219238832446369	1.0	1000	1000	0	pointwise_percentile	estimated
+external_Macrophages_only	all_sources	IPF	FABP4_panel	matrix_mac_panel	12	-0.5454545454545455	-0.9069500039243388	0.15229813664596262	1.0	1000	1000	0	pointwise_percentile	estimated
+external_Macrophages_only	Vanderbilt	Control	FABP4_panel	matrix_mac_panel	6					1000	0	0	not_evaluated	fewer_than_8_donors
+external_Macrophages_only	Vanderbilt	IPF	FABP4_panel	matrix_mac_panel	7					1000	0	0	not_evaluated	fewer_than_8_donors

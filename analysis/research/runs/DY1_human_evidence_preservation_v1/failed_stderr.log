@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\dream\.codex\worktrees\nam-source-metadata-v2-20261029\ravel\Research Article\gate2_DY1_damani_yokota_2026\scripts\qualify_external_human_v1.py", line 89, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);main(p.parse_args().output)
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dream\.codex\worktrees\nam-source-metadata-v2-20261029\ravel\Research Article\gate2_DY1_damani_yokota_2026\scripts\qualify_external_human_v1.py", line 44, in main
+    if code_hash!=prep['preparation_code_sha256']:raise ValueError('Historical preparation code changed')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Historical preparation code changed

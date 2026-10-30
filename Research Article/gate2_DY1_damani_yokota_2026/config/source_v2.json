@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.source_v2",
+  "owner": "DY1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "What exact condition labels and tag identifiers occur in the four deposited reference CSVs and feature tables after whitespace normalization?",
+  "decision": "Correct the two documented source_v1 metadata interpretations; retain unknown cell assignments and animal/pool identities without qualifying biological analyses.",
+  "strongest_rival": "Whitespace-sensitive parsing and a global join on reused tag identifiers can create false labels or imply unverified sample identities.",
+  "discriminator": "Trim CSV headers and values; enumerate each feature table separately; check reference-file/tag-ID membership across every table without interpreting overlap as condition support or biological pairing.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_AMENDMENT.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Exposed before this freeze: source_v1 output, coordinating review corrections, and the four reference CSV labels and tag lists. Prior reviewers inspected feature-table CMO rows. This session read the source labels before freezing; the later freeze does not erase this exposure. No biological outcome comparison is planned or executed.",
+  "biological_unit": "Source reference record or deposited feature table; animal and independently collected pool identities remain unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Reused tag names are record-local identifiers. All reference-file/tag-ID by feature-file membership checks are descriptive string matches, not cell assignments, biological pairing or independent replication.",
+  "population_and_selection": "Exactly four reference CSVs, their four compressed originals, four feature tables and eight associated accession records from the hash-verified local public-source cache; no matrices, barcodes, counts or outcome-based selection.",
+  "contrast": "Reference label and feature-identifier census, with a separate computational comparison to compressed references; no biological contrast.",
+  "endpoint": "Whitespace-normalized source labels, source accession/title fields, feature types and per-table tag-ID membership.",
+  "methods": "Standard-library CSV and gzip readers; trim header/value boundaries while retaining label spelling and internal punctuation; reject missing required headers/values, duplicate normalized headers and duplicate tag IDs. Independently verify labels using a positional reader on compressed source references and verify all feature inventories and membership rows using a separate line/set calculation.",
+  "missingness_and_exclusions": "Malformed or missing required metadata fields fail the run rather than creating blank labels. No reference row or table is selectively excluded. Animal/pool identity, assigned cells and actual condition-by-library support remain unknown.",
+  "multiplicity": "No hypothesis tests or multiple-testing claims.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata census of available files; no population uncertainty or power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Reference labels and feature presence do not establish cell conditions, animal/pool identity, independence, condition/library confounding, absence of confounding or any biological effect. Stage 0 remains partial; stages 1-8 remain unexecuted.",
+  "stop_rule": "Stop on input hash mismatch, missing/malformed metadata or independent verification mismatch; preserve failure records. Do not inspect count matrices, assign cells, infer animals, estimate expression differences, scan motifs or derive mechanisms.",
+  "inputs": [
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964560.txt",
+      "sha256": "78353e7b46db7e1570fabd6760e6a92097770081d328233d8bb5ef64ba07440c",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964560_count1_features.tsv.gz",
+      "sha256": "ff74df75623a1850bcd079bff4751fe4059ca5a075cad5cf5dc084188a5d84c1",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964561.txt",
+      "sha256": "7f8596311741d2890b4dc76e5493477269d15f0031b43a7b96747afb9b5eb641",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964561_count2_features.tsv.gz",
+      "sha256": "001f66eeb590520c649efc13a88f7dfcf090ed7042b8d9099943f99b31f8c995",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964562.txt",
+      "sha256": "6e765de9a7eeab10c8d5712ac716ac77f999e3f76b319da7ea26dfa2858d8acb",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964562_count6_features.tsv.gz",
+      "sha256": "f91890c3727471ceb06ec7fc5074e9a4b052eb70ca0dcdff9815b33ffeea4d66",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964563.txt",
+      "sha256": "37a7e258fa80222532b5ff8a8fefc4c75cd922b9cf304bbc3b91d34460e1d00d",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964563_count5_features.tsv.gz",
+      "sha256": "c3924d7e003a9b99cce7c0abaf9163f0c5758c151c5330ad0aa9a637c6edcd44",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964564.txt",
+      "sha256": "dd3acb2568202bf1a52f5076608fbb3bc5c0a4adf2ed6949668eece938828d5e",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964564_feature_reference.csv",
+      "sha256": "f65c853e2679350c1e2ee3db11010b0ce6da365ab6fc0de413609cd29e413c79",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964564_feature_reference_1.csv.gz",
+      "sha256": "cfdf5df8147df476fbde07fe0d846cdd83349f4c2dfe37eb8b273eaa62333631",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964565.txt",
+      "sha256": "7d36b0b315a4faf038f8a50dd23a29a2a7997b6fb0b9297fda4f9e410e483feb",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964565_feature_reference.csv",
+      "sha256": "5dd8156aa55484c16b861d110f611467d1729fc1d71ddac7c7b9274317cc656c",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964565_feature_reference_2.csv.gz",
+      "sha256": "adf8e96a86645d984368634ed86746cb5fbaaf8b7dc9b7b4178140a113c2b4eb",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964566.txt",
+      "sha256": "137ae28fdec87c92f093aae47dbe72351d1852dff6ea74db7350ae902531cc7b",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964566_feature_reference.csv",
+      "sha256": "181d1a98a325703f81aa041a110e4022b70b45db15dce064e51c2b0272df7aca",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964566_feature_reference_5.csv.gz",
+      "sha256": "48c426b516a25380830731b2d593baa06ba33ea2b8eaa12db8ac749088198489",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964567.txt",
+      "sha256": "2146eaaa1ce9d3ff6ac751c748d95a980127560d05c1788b6740bbacd9850514",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964567_feature_reference.csv",
+      "sha256": "00dd60bf172c55aa3b48f74d84907e8de552406193eb2dc99625d0fd082d871e",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/nam_memory_2026/GSM9964567_feature_reference_6.csv.gz",
+      "sha256": "bdd9a586aba7c67bbd4471222001193c1e8523c9571348ad33b9b6f49af225d4",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_sources_v2.py",
+      "sha256": "fb97ee5f8576cffe953e0782419e45b4df93bc46371889594435b4f17aadcf6c"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/verify_sources_v2.py",
+      "sha256": "09c28f1a2d81d22a29592743ed9e4bda744e561b57b73aea9cd363096d9b4c3b"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_sources_v2.py",
+      "sha256": "c3892e16a0fc481aac93a3bb7b75591288c19fdbf02f941d729f0242be06adb2"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_sources_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "reference_labels.tsv",
+    "feature_tags.tsv",
+    "reference_presence.tsv",
+    "source_qualification.json",
+    "verification.json"
+  ],
+  "amendment_of": "Research Article/gate2_DY1_damani_yokota_2026/config/source_v1.json",
+  "amendment_reason": "New metadata-only version corrects the documented trailing-space header artifact and replaces unsupported categorical condition/library confounding with an unresolved statement. Preserves all source_v1 code, contract, outputs and receipt; does not rerun other v1 measurements or broaden biological scope."
+}

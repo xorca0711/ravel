@@ -790,6 +790,30 @@
     {
       "id": "Wp-P06",
       "plan": "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P06_epithelial_transfer_condition.md"
+    },
+    {
+      "id": "DY1-P01",
+      "plan": "Research Article/gate2_DY1_damani_yokota_2026/README.md",
+      "evidence": [
+        "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/CLOSEOUT.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/BASELINE_QC_RESULTS_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md"
+      ]
+    },
+    {
+      "id": "DY1-P02",
+      "plan": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+      "evidence": [
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md"
+      ]
     }
   ],
   "contracts": [
@@ -869,7 +893,24 @@
     "analysis/portfolio_extensions/2026-10-07/g3_immune/a25_region_occupancy_v1.json",
     "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A11.g1_capacity_qualification_v1.json",
     "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/metadata.contract.json",
-    "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/figure1.contract.json"
+    "Research Article/gate1_02_choi_2020/weft_pilot_v1/config/figure1.contract.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/source_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/source_v2.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/human_qualification_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/human_observational_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/human_clinical_v2.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_qualification_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_qualification_v2.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_observational_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/human_evidence_preservation_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_file_qc_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_sparse_qc_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_exon_profile_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_uncertainty_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_source_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_benchmark_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/temporal_source_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_response_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -943,7 +984,23 @@
     "analysis/research/runs/g1_a11_paired_prediction_v1/receipt.json",
     "analysis/research/runs/g1_a11_capacity_qualification_v1/receipt.json",
     "analysis/research/runs/p001_metadata_v1_a001_5ed0581f8b1e4a51/receipt.json",
-    "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json"
+    "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json",
+    "analysis/research/runs/DY1_source_v1/receipt.json",
+    "analysis/research/runs/DY1_source_v2/receipt.json",
+    "analysis/research/runs/DY1_human_qualification_v1/receipt.json",
+    "analysis/research/runs/DY1_human_clinical_v2/receipt.json",
+    "analysis/research/runs/DY1_human_observational_v1/receipt.json",
+    "analysis/research/runs/DY1_external_human_qualification_v2/receipt.json",
+    "analysis/research/runs/DY1_external_human_observational_v1/receipt.json",
+    "analysis/research/runs/DY1_human_evidence_preservation_v1/receipt.json",
+    "analysis/research/runs/DY1_baseline_file_qc_v1/receipt.json",
+    "analysis/research/runs/DY1_baseline_sparse_qc_v1/receipt.json",
+    "analysis/research/runs/DY1_baseline_exon_profile_v1/receipt.json",
+    "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/receipt.json",
+    "analysis/research/runs/DY1_P02_reference_source_v1/receipt.json",
+    "analysis/research/runs/DY1_P02_reference_benchmark_v1/receipt.json",
+    "analysis/research/runs/DY1_P02_temporal_source_v1/receipt.json",
+    "analysis/research/runs/DY1_P02_source_average_response_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

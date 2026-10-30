@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "aggregate_checks": 152,
+  "method": "Numpy mask/integer sums compared per chunk with pandas groupby size/sum; feature/barcode dimensions checked independently of coordinates; tag barcode Boolean occupancy versus sets; one sparse-input parsing pass.",
+  "limit": "Independent arithmetic on a shared parser and same source; no independent biology or cell assignment. Duplicate stored tag coordinates counted; Gene Expression coordinate duplication not audited."
+}

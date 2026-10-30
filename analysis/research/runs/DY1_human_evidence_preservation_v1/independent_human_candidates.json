@@ -1,0 +1,36 @@
+[
+  {
+    "accession": "GSE122960",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122960&targ=self&form=text&view=full",
+    "retrieved_utc": "2026-10-29T12:55:44.332841+00:00",
+    "sample_records": 17,
+    "fields": [
+      "!Series_title = Single-Cell Transcriptomic Analysis of Human Lung Reveals Complex Multicellular Changes During Pulmonary Fibrosis II",
+      "!Series_pubmed_id = 30554520",
+      "!Series_summary = Pulmonary fibrosis is a heterogeneous syndrome in which fibrotic scar replaces normal lung tissue. We performed massively parallel single-cell RNA-Seq on lung tissue from eight lung transplant donors and eight patients with pulmonary fibrosis. Combined with in situ RNA hybridization, with amplification, these data provide a molecular atlas of disease pathobiology. We identified a distinct, novel population of profibrotic alveolar macrophages exclusively in patients with fibrosis. Within epithelial cells, the expression of genes involved in Wnt secretion and response was restricted to non-overlapping cells. We identified rare cell populations including airway stem cells and senescent cells emerging during pulmonary fibrosis. Analysis of a cryobiopsy specimen from a patient with early disease supports the clinical application of single-cell RNA-Seq to develop personalized approaches to therapy.",
+      "!Series_overall_design = Single-cell suspensions from eight donor lungs and nine lungs from patients with various forms of pulmonary fibrosis were prepared and single cell RNA-seq libraries were generated using 3' V2 chemistry kit on Chromium Single cell controller (10x Genomics). This GEO submission contains only processed data (raw counts tables in HDF5 format), raw data (FASTQ files) available from dbGaP/SRA (phs001750.v1.p1).",
+      "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122960/suppl/GSE122960_RAW.tar",
+      "!Series_relation = BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA507000"
+    ]
+  },
+  {
+    "accession": "GSE135893",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135893&targ=self&form=text&view=full",
+    "retrieved_utc": "2026-10-29T12:55:44.396010+00:00",
+    "sample_records": 34,
+    "fields": [
+      "!Series_title = Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+      "!Series_pubmed_id = 32832598",
+      "!Series_summary = Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis.",
+      "!Series_overall_design = We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs",
+      "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_ILD_annotated_fullsize.rds.gz",
+      "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_IPF_metadata.csv.gz",
+      "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_barcodes.tsv.gz",
+      "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_genes.tsv.gz",
+      "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_matrix.mtx.gz",
+      "!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE135nnn/GSE135893/suppl/GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+      "!Series_relation = BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA560492",
+      "!Series_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP218543"
+    ]
+  }
+]

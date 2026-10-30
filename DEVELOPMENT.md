@@ -2918,3 +2918,99 @@ preserved. Private planning is not included in these repository changes.
 | Date | Prior output | Why revised | Review authority |
 |---|---|---|---|
 | 2026-10-25 | Prematurely organizing research-interest discussion around selection of a fully specified RQ | The owner clarified that motivation, effort and paper reproduction can support a developing research direction; an accepted experiment is not required for that discussion | Owner clarification; execution and interpretation requirements remain unchanged |
+
+
+## 2026-10-29 — DY1 analysis/review coordination and human continuation
+
+The owner requested a separate analysis chat and continuing review against the
+article README. The analysis chat produced the permitted primary and external
+human observations; this coordinating chat reviewed prospective code/contracts,
+frozen provenance, saved arithmetic, figures and interpretation, then integrated
+stable handoff `0fb28f0`. Six contextual RQ notes preserve existing hypotheses,
+negative evidence and endpoint requirements. See the [review record](docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md)
+and [analysis validation](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md).
+Execution and technical review are not human scientific acceptance.
+
+| Date | Item | Proposed by | Review / authority | Disposition and reason |
+|---|---|---|---|---|
+| 2026-10-29 | Separate execution and coordinating review | Owner | Owner explicitly requested both chats and continuation | Completed the permitted human scope; original restricted numerical work remains explicitly unexecuted |
+| 2026-10-29 | Clinical adjustment and donor preservation | Coordinating reviewer; analysis chat implemented | Pre-execution technical review | Recover exact age/sex joins and separate adjusted complete cases from the unadjusted primary donor set |
+| 2026-10-29 | External RNA comparison | Analysis chat | Coordinating review before freeze and after execution | Use verified outcome genes, exact donor/annotation/site definitions and retained eligibility holds; no exact NAM or unexposed-confirmation claim |
+| 2026-10-29 | RQ-local contextual routing | Coordinating reviewer | Separate analysis chat reviewed all six notes without a blocking finding | Preserve article ownership of numerical outputs and all canonical RQ definitions |
+
+| Date | Failed or revised item | Reason and retained evidence | Technical disposition |
+|---|---|---|---|
+| 2026-10-29 | External qualification v1 | Historical preparation script hash differed after a directory-path change | Preserve failure; v2 binds the exact historical Git blob and reaggregates current raw assay counts |
+| 2026-10-29 | Failed receipt in success-only registry | Existing gate correctly rejected execution failure as a successful run | Use the existing Nb5 byte-preservation convention; register archival success only, retaining failed status and seven exact diagnostic/source files |
+| 2026-10-29 | Original duplicate diagnostic paths | Tracked duplicate JSON assets need an honest output authority | After archive verification, untrack only duplicate originals and use two exact local Git excludes; preserve every local byte and commit. Root .gitignore, validators, schemas and governance remain unchanged |
+
+## 2026-10-30 — DY1 job-by-job reassessment and technical diagnostics
+
+The owner requested job-by-job completion, an updated README and coordination
+with the existing analysis chat. The analysis chat executed three separately
+frozen baseline technical jobs; this chat reviewed their contracts/code before
+execution and their saved hashes, arithmetic and figure afterward. The analysis
+chat then cross-checked the [current job ledger](Research%20Article/gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
+against the original sequence without finding a blocking completion/hold error
+or an omitted currently qualified original job. This is technical review, not a
+human retain/reject decision or scientific acceptance.
+
+| Date | Item | Proposed by | Review / authority | Disposition and reason |
+|---|---|---|---|---|
+| 2026-10-30 | Per-job assessment with full study context | Owner | Owner explicitly requested continued analysis/review coordination | Complete the independently supported work and record specific input/design or inference limits for the rest |
+| 2026-10-30 | Separate structural QC, sparse/CMO inventory and adapted sample geometry | Coordinating review with analysis-chat implementation | Prospective contract/code review; independently checked saved results | Three successful frozen runs; none is a biological effect, exact author PCA or assigned animal identity |
+| 2026-10-30 | Current-evidence synthesis and established RQ routing | Coordinating review | Analysis chat reviewed published boundaries and final job ledger | Complete evidence synthesis while preserving existing questions, negative results and missing endpoint requirements |
+
+| Date | Failed or revised item | Reason and retained evidence | Technical disposition |
+|---|---|---|---|
+| 2026-10-30 | Blanket present-tense mouse-stage restriction in earlier summaries | A historical broad platform rejection does not establish the disposition of every independent job | Preserve the historical event; replace current navigation with per-job completed work and specific data/design/inference holds. Do not hide paper context or retry the blocked pipeline under another label |
+| 2026-10-30 | Conflating the original stage 5 interaction with susceptibility prediction | The original estimand is an exploratory host-RNA history-by-condition contrast | Retain that estimand and its unmet source/unit/state/batch prerequisites; unrequested pathogen optimization and intervention prioritization are not original checklist jobs |
+| 2026-10-30 | Exact author PCA versus an exon-hit profile | The gene-count semantics, low-count rule and exact author preparation were not recovered | Label the completed fixed transformation/full SVD as an adaptation; preserve the exact-reproduction hold and retain all six libraries |
+
+## 2026-10-30 — DY1-P02 question framing and extension feasibility
+
+The owner requested an additional RQ about the unresolved RNA–ATAC discrepancy
+and STAT6–PPARγ/RXRA axis, plus an assessment of further analyses. Codex framed
+DY1-P02 as article-local baseline measurement/model discrimination, retained
+EGR2 and cofactor/context alternatives, and performed a bounded primary-literature
+refresh. The [dossier](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+records what each prospective extension could measure and its prerequisites.
+
+| Date | Item | Proposed by | Authority and disposition |
+|---|---|---|---|
+| 2026-10-30 | Additional baseline-discordance question | Owner request; Codex wording | Register DY1-P02 in the article namespace; preserve all 32 canonical hypotheses and prior negative results |
+| 2026-10-30 | External measurement reference | Codex literature/feasibility assessment | GSE247223/GSE248042 list relevant count matrices; qualification is a next job, not a successful download or computed result |
+| 2026-10-30 | Distinguish reference calibration from NAM memory | Codex interpretation | Different cells and stimulation context cannot validate NAM persistence, occupancy or mediation; maintain the original input holds |
+
+No numerical contract, run receipt, new effect estimate or human scientific
+acceptance is created by this question-framing pass. Reviews and final validation
+are recorded in PROGRESS. Publication and source access depth remain explicit
+in the dated local literature context.
+
+The analysis chat's narrow review corrected two framing errors before delivery:
+nonsignificance alone does not establish imprecision, and RNA-composition
+sensitivity does not resolve the separate bulk-ATAC mixture. Both corrections
+were adopted; numerical work and source-access claims remain unchanged.
+
+## 2026-10-30 — DY1-P02 eligible extension execution and review
+
+The owner authorized source qualification and every eligible extension through
+the existing analysis chat. That chat implemented and ran five frozen contracts;
+the coordinating reviewer reviewed numerical designs before execution and saved
+receipts, hashes, arithmetic and figures afterward. The article and DY1-P02
+READMEs now own current completion/hold navigation. Details are in the
+[execution review](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md).
+No human scientific acceptance or canonical-RQ promotion was created.
+
+| Item | Responsible work | Review / authority | Disposition |
+|---|---|---|---|
+| E1 source and E6 temporal qualification | Existing analysis chat | Owner authorization; coordinating source/result review | Completed audits with exact count, overlap, timing, annotation and assay-coverage limits |
+| E2 benchmark, E3 synthetic diagnostic, E6 RNA-only description | Existing analysis chat | Prospective contract/code review and independent post-run review | Completed; mixed and unfavorable findings retained; source-specific descriptive estimands only |
+| Current README and interpretation | Coordinating review | Owner's explicit README/update request; source results and frozen evidence | Report completed jobs and exact remaining holds; preserve original NAM and RQ evidence |
+
+| Revised item | Reason | Technical disposition |
+|---|---|---|
+| Initial E2 annotated-only ATAC effect export | Annotation coverage should not silently restrict the deposited effect universe | Corrected before freeze/run; all non-all-zero regions exported, annotation used at joining |
+| Blanket temporal numerical hold | Repeated-stimulation RNA group averages support a bounded point description despite absent replicate variance | Execute RNA-only arithmetic; retain uncertainty and matched RNA-ATAC holds |
+| Source flag interpretation | Exact contingency differs from an assumed retained/dropped meaning | Keep True/False values and annotation coverage; no inferred filter semantics |
+| Earlier feasibility-only summaries | Owner subsequently authorized and completed eligible runs | Preserve the framing history; supersede current navigation with reviewed execution results |

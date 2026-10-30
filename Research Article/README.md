@@ -1,5 +1,15 @@
 # Research article roadmap
 
+**NAM paper update — 30 October 2026:** [Damani-Yokota 2026](gate2_DY1_damani_yokota_2026/README.md)
+now includes three completed baseline technical diagnostics alongside the reviewed
+78-donor primary and 21-donor external human descriptions. The
+[job-by-job assessment](gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
+separates completed work from exact data/design and inference holds, retaining the
+full immune-history study context and the earlier platform event as history.
+No mechanistic conclusion, RQ promotion or scientific acceptance follows from execution.
+The additional [DY1-P02 baseline discordance question](gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+now records a bounded literature refresh and conditional extension options.
+
 **Subsequent portfolio pass:** [three group audits and governed extensions](../docs/portfolio_extensions/2026-10-07/README.md) cover every analysis package and registered RQ. Nb4-P09 supplies expression evidence for proposed A31; A11/A17/A25/A30 remain existing questions. Read the linked current result and its limits before an older plan.
 
 **Current execution checkpoint — 7 October 2026:** the [readiness audit](../docs/audits/2026-10-07-repository-readiness/REPORT.md) and [Wp corrections](gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) supersede earlier execution summaries. The owner’s reading queue and dated reading history are preserved; they do not direct automatic RQ selection.

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.human_clinical_v2",
+  "owner": "DY1-P01",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/config/human_clinical_v2.json",
+  "contract_sha256": "ff97740c4e5362dcdc0eb8ec014275ccb8825e680e73bb3b2c304fcfcc48ccdd",
+  "git_commit": "8ddc8e090789fa62724e2154c284bb0c16fa7d9c",
+  "started_at": "2026-10-29T13:34:59.838281+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_clinical_v2.py",
+    "--output",
+    "analysis/research/runs/DY1_human_clinical_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/GSE136831/GSE136831_family.soft.gz",
+      "sha256": "5ae2464947cfb8d8ff933965797bf17734bf030072e7ce797b0b1a0c1ca20fc3",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/GSE136831/clinical_retrieval_v1.json",
+      "sha256": "2e4c8232857aed2f9f0cbb0963925beeba5ba04337629a19ac0041a67d021957",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/donors.tsv",
+      "sha256": "0525d15449a0670fcde5d5eac15b780359db77979aece1d29e008360efbab81f",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_qualification_v1/libraries.tsv",
+      "sha256": "e61691e8a8a565693cdaeb467b796385cd8b516750699c3633dbe69d6e6d7918",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/qualify_human_clinical_v2.py",
+      "sha256": "d3e3360e6af5d417527447462eff13c9cad03f3680178887535c644370ef598b"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_human_clinical_v2.py",
+      "sha256": "e588dfd8e573188b5bd8f8380ac0e5c0fd840e82612279e35e553a21c3541188"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_human_clinical_v2/donor_clinical.tsv",
+      "sha256": "27129d987ab31ce1d48189d963a89bfda0488d81954861652e2c2daafcf65647"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_clinical_v2/library_clinical.tsv",
+      "sha256": "13aee6833f6b4144e25993d03f6378f7f7ac74e8f184a432e1fdb4925bc1ae20"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_clinical_v2/clinical_coverage.tsv",
+      "sha256": "27da3c5d4a27f0e2443ba6211e3b4ea030348574b72a30fa8a10c98b10f00433"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_clinical_v2/qualification.json",
+      "sha256": "4ae1bf4538b35b081528e434cc2f865c045abf5c27cd3c567db290636a5ee7cc"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-29T13:35:01.062036+00:00"
+}

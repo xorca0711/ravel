@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.baseline_sparse_qc_v1",
+  "owner": "DY1-P01",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_sparse_qc_v1.json",
+  "contract_sha256": "c4c0019f33349c0b818d3b57e7badb49d399a17313402ebecc109ae79d021ec4",
+  "git_commit": "edc5e60a6ac230a471f066f5f28234553c84f713",
+  "started_at": "2026-10-30T01:21:37.963162+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_sparse_qc_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_baseline_sparse_qc_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_matrix.mtx.gz",
+      "sha256": "1bfbe01cea1058a0c5e32bff2b80627490fa0bea26dfbfbf5e1cefedc755c426",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_features.tsv.gz",
+      "sha256": "ff74df75623a1850bcd079bff4751fe4059ca5a075cad5cf5dc084188a5d84c1",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_barcodes.tsv.gz",
+      "sha256": "87be6f756c21f5b401eed4d0bd714c9452d549bc81142b3aa343994cc1facdc7",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_matrix.mtx.gz",
+      "sha256": "9888f2bdf36cf01c1cbcb536520d605671e063b5760e90896d5dff312fcbc149",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_features.tsv.gz",
+      "sha256": "001f66eeb590520c649efc13a88f7dfcf090ed7042b8d9099943f99b31f8c995",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_barcodes.tsv.gz",
+      "sha256": "34c626d9e94bc624d08f6f4b55ea75a99e78eeba8ebe3c8fdfbe01532de86d78",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_sparse_qc_v1.py",
+      "sha256": "d84cccb9bed5256d53320fcb77d598f6b558f9c905c7512da071853c6b459043"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_baseline_sparse_qc_v1.py",
+      "sha256": "d7dd606023784a758ae5ffa80b7ca2df824dc4807acde77d7c96b9740f6f4da3"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_sparse_qc_inputs_v1.json",
+      "sha256": "827d0e7ecc508955e5b7d69cad3d340016bca30bbb185ed87091be194fc1169e"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_baseline_sparse_qc_v1/libraries.tsv",
+      "sha256": "b2d6c1caaac71c8bb1c917665abcfe1047891ae3f23002f2fad3b4023e160048"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_sparse_qc_v1/feature_type_accounting.tsv",
+      "sha256": "036a3b0af655da5ec601f3e1c86d6c9de4552c7dc32348689ab14b358f22022a"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_sparse_qc_v1/cmo_signal_inventory.tsv",
+      "sha256": "371e0b4dedb080b64cf73597963d5196dad8ea4241df928db6c3e294a29329ac"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_sparse_qc_v1/verification.json",
+      "sha256": "1e45b6aa8784fa184fe4bc1d63cac4a4a0c0b9763868dab8af057bb505607c90"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_sparse_qc_v1/summary.json",
+      "sha256": "61b1a40efe97c1f56758f24083c8f0a079cad825a0b6aa0f8e6ae5698e512010"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T01:23:34.171634+00:00"
+}

@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.baseline_exon_profile_v1",
+  "owner": "DY1-P01",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_exon_profile_v1.json",
+  "contract_sha256": "1f64cdc5e1d495c0af6f9b6afe958f274058b32943e230ea7ee77cbe377ac693",
+  "git_commit": "d7f0f828d86b920880012f588b69b2c2fc0238fc",
+  "started_at": "2026-10-30T01:22:15.581140+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_exon_profile_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_baseline_exon_profile_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964554_TP10-1_S8-ExonCounts.txt.gz",
+      "sha256": "0ce695008d9659142adb709c78f464497e20838797550cb6f542f75a4923f3c7",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964555_TP10-2_S9-ExonCounts.txt.gz",
+      "sha256": "03faa49fa8f55c3febbcd5da0065e3a414281a1371862f4089db17b4cc25617d",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964556_TP10-3_S14-ExonCounts.txt.gz",
+      "sha256": "a61e82a82b224566ed190d55981363941914a3b573d775f60fa924e8fe35a384",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964557_XP10-1_S3-ExonCounts.txt.gz",
+      "sha256": "4ccdbe095d69af46d7670c7ae0b3e6af0efdac798de9fd789e704b98c0402819",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964558_XP10-2_S4-ExonCounts.txt.gz",
+      "sha256": "49862630d9542e68e285b2d208f471a375119cb4d7b95cfc6b407e958c731131",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964559_XP10-3_S12-ExonCounts.txt.gz",
+      "sha256": "18f843d9e17a8e5a31b9f48fe9a4e9d02d6d45b51604c614fcbd422dee4bd414",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_file_qc_v1/exon_universe.json",
+      "sha256": "023bc8a8247693914098a8e4334628499c770aa3398a77596a75e9ac7906fdf3",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_file_qc_v1/receipt.json",
+      "sha256": "1018a20c9140224e72b1be0824565ff1ef38e16470212a2f3a66750f4e531cb0",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_source_v1/sample_map.tsv",
+      "sha256": "0ad8365b79c40944fc4da3f42b00a813f13654e56e877b662045d0a42120a5a9",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_exon_profile_v1.py",
+      "sha256": "ad26bed68dda60c5dc21606e2c8fd4a88286b7db6052063f48d27d4a9ff972d9"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_baseline_exon_profile_v1.py",
+      "sha256": "a8362b03eb159640dbad432cf1c0b72a6e4730c407e892c3d3b349474fb53900"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_file_qc_inputs_v1.json",
+      "sha256": "bb0c68d679a87d10f1c0e71cc53d1204f5fb107afdeadc7af309ce2bf289beae"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_baseline_exon_profile_v1/sample_coordinates.tsv",
+      "sha256": "660a73fbf89a6bfdddec700de0e6e89f3dd2c0a59ce311ac0d7e83786aa328fc"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_exon_profile_v1/variance.tsv",
+      "sha256": "fcb52c738aef6e333fbeed771a2bd23b9c8cd4fad96e3d3e380286150124ead9"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_exon_profile_v1/sample_profile.png",
+      "sha256": "3ce5e5527a9cb6fc412da8007cbfa011ce6b7f47d5ab9ee2d4463b5db82c919d"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_exon_profile_v1/verification.json",
+      "sha256": "5452637c7e13cb2088f0eb3510b067ebddca4bfb960fc82f2e778ba5b87c989f"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_exon_profile_v1/summary.json",
+      "sha256": "80be969f00e0dca09a204fa868b756140fb18ad60f53d0cd3d4b72acb19f559d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T01:22:21.853681+00:00"
+}

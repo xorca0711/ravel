@@ -1,0 +1,18 @@
+{
+  "analysis_id": "DY1-P01.baseline_file_qc_v1",
+  "context": "N. brasiliensis-history / later IAV-challenge study; these files are baseline host measurements, not history-free controls.",
+  "exon_files": 6,
+  "peak_files": 8,
+  "exon_count_format_eligible": true,
+  "peak_basic_format_eligible": true,
+  "peak_check_limit": "Only listed field, finite/nonnegative numeric, interval ordering and summit/strand checks. Score integer0..1000 conformance, chromosome-size/build concordance, full BED specification, read depth and FRiP are not checked.",
+  "scope": "Per-file structural/count-format QC only; no group effects, selected loci, enrichment, infection-response prediction or intervention prioritization.",
+  "unresolved": [
+    "Animal/pool identity and independence",
+    "Unique gene/fragment count semantics",
+    "Common-region ATAC read counts and read-level QC",
+    "Source/article ATAC pipeline and documented exclusion identity",
+    "Cross-assay/functional-cohort linkage"
+  ],
+  "scientific_acceptance": "not_assessed"
+}

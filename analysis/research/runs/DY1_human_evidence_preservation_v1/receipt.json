@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.human_evidence_preservation_v1",
+  "owner": "DY1-P01",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/config/human_evidence_preservation_v1.json",
+  "contract_sha256": "146acecc7901515de17f9d0e88dc8724674cc22180f43547bf3f3ebad7e77708",
+  "git_commit": "4683a365db9a468c5b60c38652f1f655dbb147f9",
+  "started_at": "2026-10-29T14:25:34.292788+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/scripts/preserve_human_evidence_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_human_evidence_preservation_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v1/receipt.json",
+      "sha256": "2d13d61fa79fa959407dfeb482077e17cca802fac9e294528a1a2ddac04cb970",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v1/stderr.log",
+      "sha256": "07ef3b186f93abd38fcb6ba5b8deae90e493f0fa1c2929cfb7e111ad9e77ed20",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v1/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE122960_candidate.txt",
+      "sha256": "1d3cc1b794e9ff163d03a869de968eb8385fcde19f7929a5959083ec5a1c1f1f",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_candidate.txt",
+      "sha256": "c2ed634ecaf3f32b2e19b896d02a19aeb6d941133b718311c2b601aa9c4fed28",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+      "sha256": "a7f878eb36efe4e549ae00538973da7c51de2cdbcf855058ba5d1ff9fdc788ab",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/source_metadata/external_human_v1/independent_human_candidates.json",
+      "sha256": "87f0734e790521025cfa62067d431b692030894470dbba58037f451286575454",
+      "study_id": "DY1_human_diagnostic_and_source_records",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/preserve_human_evidence_v1.py",
+      "sha256": "1d44f89af2c5b50484ed74b8f7501f1b86014c37413fb88d31e006822231ee38"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_human_evidence_preservation_v1/failed_receipt.json",
+      "sha256": "2d13d61fa79fa959407dfeb482077e17cca802fac9e294528a1a2ddac04cb970"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_evidence_preservation_v1/failed_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_evidence_preservation_v1/failed_stderr.log",
+      "sha256": "07ef3b186f93abd38fcb6ba5b8deae90e493f0fa1c2929cfb7e111ad9e77ed20"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_evidence_preservation_v1/independent_human_candidates.json",
+      "sha256": "87f0734e790521025cfa62067d431b692030894470dbba58037f451286575454"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_evidence_preservation_v1/GSE135893_candidate.txt",
+      "sha256": "c2ed634ecaf3f32b2e19b896d02a19aeb6d941133b718311c2b601aa9c4fed28"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_evidence_preservation_v1/GSE122960_candidate.txt",
+      "sha256": "1d3cc1b794e9ff163d03a869de968eb8385fcde19f7929a5959083ec5a1c1f1f"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_evidence_preservation_v1/GSE135893_readme_for_ILD_annotated_fullsize.rds.txt",
+      "sha256": "a7f878eb36efe4e549ae00538973da7c51de2cdbcf855058ba5d1ff9fdc788ab"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_evidence_preservation_v1/preservation.json",
+      "sha256": "d3822e8947c40da66f723a3d9447352372cf169e5630a2cf1a560ac06a3f6fc9"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-29T14:25:34.705982+00:00"
+}

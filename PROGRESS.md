@@ -1,5 +1,442 @@
 # Current project state
 
+## DY1 draft PR opened — 30 October 2026
+
+At the owner's request, published the reviewed branch and opened
+[draft PR #152](https://github.com/xorca0711/ravel/pull/152) against main, using
+verified GitHub identity `xorca0711`. The PR covers the complete DY1 article
+package, prior baseline/human descriptions and the five reviewed DY1-P02 runs.
+The body records exposure, units, validation and exact remaining data/inference
+holds. Scientific acceptance remains unassessed; no merge is requested.
+
+A transient GitHub DNS failure delayed the first remote check; a bounded retry
+succeeded. Fresh main remains `78320a186b6f52426e7c7c5349a2f26492b718b7`, matching
+the completed local validation. This publication checkpoint changes no analysis,
+frozen evidence or interpretation. CI status is separate from the prior local
+checks; no external protection setting or unrelated checkout changed.
+
+Next: PR review and CI. Preserve the analysis worktree's ignored source caches
+and the existing original-study holds.
+
+## DY1-P02 extensions integrated and independently reviewed — 30 October 2026
+
+Integrated stable analysis handoff `ebedcde8e2d7de1906f41b30dade3a4f178f93ec`
+into the scoped review worktree. The [article README](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+and [E1-E6 ledger](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+now link five completed frozen runs, mixed results and exact remaining holds.
+The [independent review](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/REVIEW.md)
+checked 21 frozen/current contract-code entries, 31 input hashes, 37 output hashes,
+all saved verification results and three figures. Technical review is complete;
+human scientific acceptance remains unassessed.
+
+Source qualification, the descriptive RNA-ATAC benchmark, synthetic diagnostic,
+temporal qualification and RNA-only source-average arithmetic are complete. E4/E5
+remain held on original NAM count/processing/unit/state/regulatory prerequisites.
+Population inference in the reference remains limited by timing, annotation,
+overlap/pairing and batch uncertainty. Temporal RNA-ATAC claims lack qualified
+matched coverage; averaged RNA cannot recover replicate variance. No local
+regulatory-axis or ARG1 mediation claim follows. No eligible extension is queued.
+
+Plan corrections retained every eligible ATAC region, restricted annotation only
+at joining, and separated feasible RNA-only arithmetic from unsupported temporal
+claims. The unrelated muscle subseries was not substituted. All original negative
+findings, canonical RQs, source failures and frozen outputs remain preserved.
+
+Source validation passed 19 targeted tests, 161 repository tests (one skip),
+compileall, required evidence verifiers, 11,618 repository checks and the base-aware
+research gate. Integrated documentation passed 11,647 repository checks and the
+base-aware gate; a trailing-blank-line formatting finding was corrected. All 32
+canonical questions/guides and infrastructure match main, and no protected or RQ
+path changed in this pass. No biological rerun was needed. Freshly fetched main remains
+`78320a186b6f52426e7c7c5349a2f26492b718b7`.
+
+No external setting changed. Ignored immutable input caches remain in the analysis
+worktree (`raw_data/DY1_P02_reference_source_v1` and
+`raw_data/DY1_P02_temporal_source_v1`); do not retire it without preserving them.
+The primary checkout's pre-existing PROGRESS changes and other worktrees are intact.
+Next: no eligible extension remains queued. Held estimands reopen only on their
+stated new evidence with a prospective versioned contract.
+
+## DY1-P02 supported extensions executed — 30 October 2026
+
+Five governed runs completed external source qualification (E1), the descriptive
+RNA/ATAC reference benchmark (E2), the synthetic diagnostic (E3), and temporal
+source qualification plus an RNA-only source-average description (E6). The
+[extension results](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md)
+link exact receipts, all outcomes, figures and remaining holds. No canonical RQ
+or human scientific acceptance changed; original NAM evidence remains intact.
+
+The benchmark retains mixed signs and reports mapping/offset/dependence sensitivity,
+with no unconditional population-CI or exact-author claim. Synthetic detection
+labels differ under equal truth as well as opposite truth. The temporal source
+supports a WT group-average RNA description; no replicate variance, causal
+trajectory or matched RNA–ATAC panel was reconstructed. E4/E5 original count,
+unit/state and assay-linkage holds remain separate and unchanged.
+
+All 19 targeted tests and 161 repository tests (one skip) passed, together with
+compilation, required evidence verifiers, 11,618 repository checks and the
+base-aware research gate. No governed run failed.
+An initial missing-requests download utility failure is preserved; standard-library
+downloads succeeded. No runtime install or external setting changed.
+
+Next: integrate the stable execution handoff into the review branch's README/ledger.
+No additional numerical job is queued. The scoped branch began at `a6559e4`;
+freshly fetched main remains
+`78320a186b6f52426e7c7c5349a2f26492b718b7`. Original worktrees, frozen artifacts,
+governance and all 32 canonical questions are preserved.
+
+## DY1-P02 baseline-discordance question proposed — 30 October 2026
+
+At the owner's request, added an article-local question on whether the late
+RNA–ATAC pattern remains interpretable under measurement/mapping and measured
+RNA-composition sensitivity, and fits independent STAT6–EGR2–PPARγ/RXRA evidence.
+Separate bulk-ATAC composition remains unresolved. The [dossier](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+and literature context separate biological hypotheses, alternatives, measured
+endpoints and E1–E6 extension prerequisites. No A-series question changed.
+
+A bounded primary-literature refresh identified GSE247223 RNA and GSE248042
+ATAC count-matrix listings from a non-infectious macrophage reference study.
+Direct page opens were challenged; indexed source listings are not downloaded,
+hash-qualified inputs. This is a new source lead, not an executed benchmark or
+NAM memory validation. All prior outcomes remain exposed; original holds persist.
+
+Next executable work is prospective source qualification if this extension is
+pursued, then a separately frozen reference comparison only if its inputs/units
+qualify. The original NAM effects still require their own missing count, unit,
+annotation and processing evidence. No numerical run or acceptance occurred.
+The analysis chat's narrow review yielded two adopted corrections: nonsignificance
+is not itself poor precision, and RNA-mixture assessment cannot resolve bulk-ATAC
+composition. Validation passed 11,569 repository checks and the base-aware research
+gate; final wording-only corrections changed no links or numerical artifacts.
+All 32 canonical questions/guides and protected governance remain unchanged.
+Latest fetched main remains `78320a186b6f52426e7c7c5349a2f26492b718b7`; the primary
+checkout and existing worktrees are preserved. No external setting changed.
+
+
+## DY1 result-synthesis review — 30 October 2026
+
+Inspected the integrated baseline diagnostics, primary/external human reports,
+saved numerical tables, receipts and six existing RQ-context notes at `8904b79`.
+The human matrix-panel difference is directionally consistent; FABP4 contrasts
+remain annotation-sensitive, recipient coupling is not stable within disease,
+and ARG1 is sparse. Mouse diagnostics establish their stated technical properties,
+not the regulatory chain or mediation. Published premises and computed results
+remain separate. No numerical rerun, new RQ, hypothesis change or acceptance
+occurred; the existing job ledger still owns every hold and reopening condition.
+This checkpoint records the requested synthesis only. Existing execution checks
+remain valid; no new external setting or additional analysis is pending.
+
+## DY1 job-by-job assessment integrated — 30 October 2026
+
+Stable analysis handoff `9f058bf3f77fede8ab43cfdf162df0bff78d2511` is integrated
+in the scoped review worktree. The [updated article README](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+and [job ledger](Research%20Article/gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
+now distinguish completed substeps from specific data/design and inference holds,
+retaining the full immune-history/IAV context. Older broad-restriction statements
+below remain historical checkpoints, superseded for current status by this ledger.
+
+Three new frozen runs completed: six-exon/eight-peak basic structural QC, full
+baseline sparse integrity/CMO inventory (67,983,499 entries), and a fixed six-library
+exon-profile SVD adaptation. The reviewer checked prospective code/contracts,
+13 frozen/current contract-code entries, all 16 output hashes, saved arithmetic
+and the figure. The analysis chat cross-checked the published-boundary review and
+job ledger without a blocking completion/hold error or omitted qualified job.
+The existing primary/external human analyses remain valid and were not rerun.
+
+Current-evidence synthesis is complete. Exact gene-level/ATAC effects, numerical
+cross-assay/state/regulatory comparisons and the descriptive history-by-condition
+interaction remain held for the specific count, source, independent-pool,
+assignment, state and batch prerequisites in the ledger. ARG1 mediation lacks
+linked measurements; exact human NAM/model reproduction, SELENOP mapping and
+sparse subgroup eligibility remain limited. No mechanistic conclusion, new RQ,
+scientific acceptance, extra intervention screen or threshold relaxation follows.
+Existing A1/A2/A8/A14/A19/A22 notes and all unfavorable evidence are preserved.
+
+Source validation passed 161 repository tests (one skip), 12 targeted tests,
+required evidence verifiers, 11,535 repository checks and the base-aware research
+gate. Final integration passed 11,553 repository checks and the base-aware gate.
+All 32 canonical questions/guides, infrastructure registry and protected governance
+match main; no RQ file changed in this pass. Latest fetched main remains
+`78320a186b6f52426e7c7c5349a2f26492b718b7`.
+
+Next: no supported analysis job is left queued. A held comparison reopens only
+with its specified
+new evidence and a prospective versioned contract. Raw caches, other worktrees
+and the primary checkout's pre-existing PROGRESS changes remain preserved.
+No external publication or service setting changed.
+
+
+## DY1 baseline diagnostics completed — 30 October 2026
+
+Three separately frozen jobs completed: six-exon/eight-peak structural QC,
+baseline sparse integrity/raw CMO inventory, and the fixed six-library exon-hit
+profile. The [results](Research%20Article/gate2_DY1_damani_yokota_2026/BASELINE_QC_RESULTS_2026-10-30.md)
+link receipts and outputs. The [methods/input assessment](Research%20Article/gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
+records current job-specific holds with the full N. brasiliensis-history/IAV
+context. This current assessment supersedes earlier blanket current-status wording;
+historical execution events remain recorded below and in the article closeout.
+
+The checks covered 406,850 aligned exon features and 67,983,499 baseline sparse
+entries; all six libraries remain in the adapted profile. This does not reproduce
+the author's exact gene-level PCA/effects or assign cells, conditions or units.
+Distinct independent pools can be valid units without constituent mouse names;
+the source-specific library/tag-to-pool and overlap evidence remains unresolved.
+
+Validation passed: 12 targeted tests, 161 repository tests (one skip), standard
+evidence verifiers, 11,535 repository checks and the base-aware research gate.
+An initial sandbox temporary-directory test failure passed on approved execution;
+no new analysis run failed. Original files and frozen evidence remain preserved;
+governance, validators, root ignore rules and all 32 canonical RQs are unchanged.
+The scoped branch began at reviewed integration `22125b2`; fetched main remains
+`78320a186b6f52426e7c7c5349a2f26492b718b7`.
+
+Next: integrate the stable execution handoff into the review branch and its final
+README/job ledger. No additional numerical job is queued. Source/count/model,
+unit/state and assay-linkage holds remain specific to their jobs. Author code
+access is unverified after the recorded 29 October failure; no external setting
+changed, and this source branch has no configured upstream.
+
+## Human continuation integrated and independently reviewed — 29 October 2026
+
+Stable analysis handoff `0fb28f0` is integrated into the scoped review branch.
+The [independent review](docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md)
+checks the primary 78-donor and external 21-donor human runs, their frozen code,
+output hashes and interpretation. The [article ledger](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+owns stage status. Six reviewed contextual notes now live in A1/A2/A8/A14/A19/A22;
+numerical results remain in the article/run folders.
+
+Higher matrix-panel RNA is directionally consistent across the two exposed
+cohorts. FABP4 depends on annotation; pooled recipient associations are not stable
+within disease; ARG1 is sparse. No regulatory chain, mediation, functional repair,
+new canonical RQ or human scientific acceptance is established.
+
+The failed qualification and source-discovery records are preserved byte-for-byte
+under the existing archival convention. Original local copies/history remain;
+root ignore rules and governance are unchanged. Source validation passed 161
+repository tests (one skip), 27 targeted tests, all required evidence verifiers,
+11,432 repository checks and the base-aware gate. Final integration passed 11,482 repository checks and the base-aware gate;
+all 32 canonical question/guide records and protected governance files match main.
+
+Original mouse numerical stages and full mechanistic integration remain
+unexecuted under the platform restriction. Exact NAM/model reproduction, qualified
+animal/pool joins, relevant source count semantics and the stated human eligibility
+limits remain unresolved; none is relabeled completed. No additional permitted
+analysis is queued. Reopen only for a specified qualified comparison or newly
+available evidence, within the applicable execution limits. Latest fetched main:
+`78320a186b6f52426e7c7c5349a2f26492b718b7`. Other worktrees and primary-checkout
+changes are preserved; no external publication occurred.
+
+## Human atlas stage 7: primary and bounded external computations complete — 29 October 2026
+
+[Primary results](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_RESULTS.md)
+cover78GSE136831donors, exact clinical joins and the frozen population/floor
+sensitivities. [External results](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md)
+cover12IPF/9Control GSE135893donors after current-raw assay verification. Matrix-panel
+RNA differences share a direction; FABP4 contrasts depend on annotation, pooled
+recipient associations weaken within disease, and ARG1 remains sparse. All
+results are exposed descriptions, without scientific acceptance or RQ promotion.
+
+External qualification v1 failed a historical-code hash check; v2 binds the exact
+old Git blob and preserves the failure. The full external marker set retains a
+SELENOP mapping hold; nine outcome genes support the bounded completed analysis.
+Exact NAM/model reproduction and sparse within-disease recipient fits remain held.
+The original mouse/infection numerical stages remain stopped under platform
+restriction; their incompletion is not a biological data failure.
+
+Validation completed:161repository tests with1skip,27targeted human tests,
+all required evidence verifiers,11,432repository checks and the base-aware gate
+passed against freshly fetched main `78320a1`. The failed diagnostic and discovery
+records are byte-preserved in a registered archive; original local copies remain
+under two exact local Git exclude entries. No validator or tracked ignore changed.
+
+Next: coordinating review integrates the stable local handoff with its six
+reviewed contextual RQ notes and validates those documentation changes. No
+additional analysis or cohort expansion is queued. All canonical RQs and prior frozen evidence
+remain intact; no external publication or settings change occurred. See the
+[validation record](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_VALIDATION.md).
+
+## Human atlas stage 7: primary execution complete — 29 October 2026
+
+The frozen donor-aware GSE136831 analysis executed at `aad1d86`; the
+[receipt](analysis/research/runs/DY1_human_observational_v1/receipt.json) and
+27,545 independent arithmetic checks passed. All692,789,348 sparse entries were
+read; cell RNA totals and detected-gene counts exactly match the source metadata.
+The78donors remain the biological units. Results are exposed and descriptive;
+the article report will retain annotation/floor sensitivity, ARG1 sparsity and
+pooled-versus-within-disease differences. No scientific acceptance was recorded.
+
+Next: qualify the separate exposed GSE135893 source using a newly frozen assay
+audit; current raw selected-gene aggregates and all-gene denominators must match
+the saved donor/annotation cache before any external fit. Then complete the
+bounded report, contextual-note review and repository validation. Restricted
+mouse/infection work remains stopped. No external settings or publication changed.
+
+## Human atlas stage 7: numerical freeze — 29 October 2026
+
+The separate non-infectious human continuation has qualified 78 GSE136831 donors,
+107 nested libraries and exact age/recorded-sex joins. The reviewer cleared the
+[prospective numerical specification](Research%20Article/gate2_DY1_damani_yokota_2026/HUMAN_NUMERICAL_PLAN.md)
+after fixes to primary/adjusted donor separation and discovery-input unit bindings.
+Primary narration is fixed to deposited Macrophage at20 cells; proxies and other
+labels remain declared sensitivities. Numerical execution is next through the
+unchanged research gate. No expression result is yet claimed.
+
+Next: one-pass human aggregation and descriptive fits, independent arithmetic
+checks, results/plots and final validation; qualify conditional external evidence
+separately without assuming source equivalence. Mouse/infection work stays stopped.
+All prior frozen evidence and RQs remain intact. No external publication or
+settings change. The owner need not repeat settled authorization.
+
+## NAM source-v2 reviewed and integrated — 29 October 2026
+
+The separate analysis session completed the bounded metadata correction; this
+reviewer checked its contract, code, saved results and provenance. Commits
+`015b339` and final handoff `a1b1117` are integrated locally with both histories preserved.
+[Results and exact limits](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md)
+record the corrected source labels and tag-presence inventory. All v1 evidence
+and existing RQs remain unchanged; no scientific acceptance was recorded.
+
+Stage 0 remains partial. Numerical components of stages 1–7 and result-based
+stage 8 remain unfinished under the platform restriction; the owner's broader
+request remains authorized. No broader run is queued. The source session's
+passing checks are retained. Integration passed 11,349 repository checks and the
+base-aware research gate against freshly fetched main 78320a1; the final source
+revision only clarified that 161 tests ran with one skipped. No code or saved
+result changed during integration.
+Next: retain the source provenance and explicit unresolved units in any permitted
+future work. Preserve all checkouts and ignored inputs; no publication occurred.
+
+## NAM source-v2 metadata correction — 29 October 2026
+
+The authorized [source-v2 correction](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md)
+executed from frozen commit `015b339` under a new exposed amendment. It recovers
+exact reference labels and inventories feature-table tag identifiers. The runner
+receipt and separate computation passed: 18 reference rows, 24 feature tags,
+72 membership checks and eight accession records. The cooperating reviewer
+found no blocking issue in implementation or saved results. V1 remains intact.
+
+Stage 0 stays partial; animal/pool identities, assigned cells and actual
+condition-by-library support remain unknown. Numerical stages 1–7 and
+results-based stage 8 remain unfinished after the prior platform restriction;
+completed source reading/design audits remain review work. No restricted
+analysis was retried, RQ result generated or scientific acceptance created.
+
+[Validation](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_VALIDATION.md)
+passed: nine targeted regressions, 161 repository tests (one skip), 11,348
+repository checks, claim/evidence verifiers and the base-aware research gate.
+All nine v1 files match handoff Git blobs; all 32 global questions are unchanged.
+Next: reviewer reconciliation of the local execution commits with its separate
+`436b6cf` progress note. The bounded correction is complete. The broader owner
+request remains authorized but unfulfilled; the platform restriction and current
+metadata-only scope prevent resumption here. No repeat authorization is needed.
+Fresh `origin/main` remains `78320a1`. Other worktrees and ignored inputs are
+preserved; no external-service writes or settings changes occurred. Earlier
+Code Ocean access limits were not retested. No broader analysis is queued.
+
+## NAM session-role assignment checkpoint — 29 October 2026
+
+This chat remains the coordinating reviewer. The owner clarified that the stopped
+chat was the execution session and requested a separate analysis chat cooperating
+with this reviewer. The new active analysis chat is
+`01a18788-cbe1-7021-84d1-40c92813beb4`, working from handoff `d62612b` in
+`C:/Users/dream/.codex/worktrees/nam-source-metadata-v2-20261029/ravel`.
+It is preparing a bounded, versioned metadata correction: trim reference CSV
+headers/values and inventory reference labels and feature-table tag identifiers.
+No prior chat deep link or transcript was sent, and it was instructed not to scan
+previous chats. The original broader numerical work remains on hold after the
+platform restriction; this new task does not retry that work.
+
+The initial extra review-chat creation returned an ID but subsequently became
+unavailable to read/wait tools; its continuing state could not be established.
+It is not the designated active analysis session. The earlier role-transfer
+entries below record their original stages; this entry owns current coordination.
+
+Next: the analysis chat will send its frozen metadata-v2 checkpoint, receipt and
+checks to this reviewer. Review labels, joins, inference limits and preservation
+of v1 before integrating its results. The reviewed handoff and final checks are
+in the DY1 package; primary-checkout notes and old worktrees remain untouched.
+No new scientific effect, claim grade or acceptance has been recorded.
+
+## NAM review handoff — 29 October 2026
+
+The owner requested a fresh review chat. The [artifact-based handoff](Research%20Article/gate2_DY1_damani_yokota_2026/REVIEW_HANDOFF.md)
+transfers verified state without the earlier deep link or full transcript.
+The execution chat stopped twice with a platform biology-content restriction,
+including during documentation close-out. The coordinating reviewer preserved
+its saved documentation and metadata receipt and added an independent review.
+Only documentation/provenance review is being transferred; restricted numerical
+work is not being retried. The original all-stage objective remains incomplete.
+No historical biological analysis or current RQ result was changed.
+
+Final checkpoint checks passed: 161 tests (one skip), 11,300 repository checks,
+claim/evidence verifiers, research gate and source receipt verification against
+fresh origin/main 78320a1. No biological analysis was rerun.
+Next: review the committed checkpoint using the recorded passing checks; preserve
+both worktrees and ignored inputs.
+External settings are unchanged; no GitHub publication occurred.
+
+## NAM execution stopped at metadata checkpoint - 29 October 2026
+
+The [DY1 ledger](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+records partial stage 0, unexecuted numerical components of stages 1-7 and no result-based integration for stage 8. The platform restricted the
+analysis turn; the review chat requested documentation-only close-out. This is
+not completion of the original execution objective or a finding that all later
+stages lack data. The frozen source metadata run at `a2ae09e` is preserved with
+its receipt. A [superseding note](Research%20Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md)
+corrects a trailing-space CSV header artifact and an unsupported categorical
+condition/library-confounding statement. No v2 or biological analysis ran.
+
+Processed mouse files and reused human inputs remain ignored; no raw-read
+reprocessing, RQ result, new A ID or scientific acceptance was created. Existing
+portfolio evidence and other worktrees remain unchanged. See [inventory and
+handoff](Research%20Article/gate2_DY1_damani_yokota_2026/CLOSEOUT.md).
+Next: parent review of the preserved checkpoint; no numerical run is queued.
+Code Ocean remains HTTP 403; external settings and GitHub state are unchanged.
+Validation details and the freshly verified integration revision are recorded
+in the close-out report after checks complete.
+
+
+## NAM execution: source freeze - 29 October 2026
+
+The [DY1 paper package](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+starts from reviewed commit `a0e7472` in the managed `nam-memory-execution-20261029`
+worktree on `codex/nam-memory-execution-20261029`. Main was freshly fetched at
+`78320a1`. Public processed RNA matrices and ATAC peak files are available in ignored
+storage. Stage 0's frozen metadata contract retains prior source-outcome exposure.
+The GEO/paper ATAC pipeline discrepancy and bulk exon-bin count semantics require
+explicit qualification. Animal/pool and CMO-to-cell mapping remain unresolved.
+No A-series hypothesis, negative result, policy or scientific acceptance changed.
+Next: execute and verify source qualification, then freeze each eligible numerical
+stage separately; continue independent stages when one comparison is held.
+Code Ocean public access remains HTTP 403. No external settings changed.
+
+
+## NAM immune-history paper review and staged proposal - 29 October 2026
+
+Reviewed the supplied paper, presentation, owner notes and current Ravel evidence.
+The [paper review](docs/research_reviews/2026-10-29-nam-memory/README.md) proposes
+source qualification, molecular reproduction, RNA/accessibility comparison,
+NAM composition and response analysis, STAT6-EGR2-PPARgamma-RXRA regulatory
+association, ARG1 context, and a conditional epithelial-repair bridge.
+The [literature context](docs/research_reviews/2026-10-29-nam-memory/LITERATURE_CONTEXT.md)
+records close precedents, contrary findings and source access.
+
+Public GEO records and CMO references are available, but animal/pool identities,
+assay linkage and the excluded ATAC sample require qualification. Code Ocean
+returned HTTP 403. No biological analysis, new canonical RQ, claim grade or human
+scientific decision was made. Private PI planning and supplied files remain
+outside the repository. Primary-checkout notes and other worktrees are preserved.
+
+Next: qualify the selected article-local candidate's units and source files under
+a prospective metadata contract before numerical reanalysis. A new freeze must
+retain prior exposure. Activity, mediation, memory maintenance and mature epithelial
+function remain distinct unmeasured endpoints. External settings are unchanged.
+Fetched main and review base are 78320a1. Validation passed: 11,251 repository
+checks, the base-aware research gate, compilation, 158 tests (two skips), claim
+bindings and required saved-evidence verifiers. Fifteen missing historical Choi
+outputs were copied from existing local evidence only after source SHA-256
+verification; destination hashes matched. No historical analysis was rerun.
+
 ## Current-summary synchronization — 25 October 2026
 
 Updated the live portfolio, architecture, question index, reproducibility scope,

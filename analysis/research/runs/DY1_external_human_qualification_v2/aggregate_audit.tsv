@@ -1,0 +1,86 @@
+donor	label	compartment	disease	cells	aggregate_total	metadata_RNA_total	metadata_SCT_total	matches_RNA	matches_SCT	matches_current_raw_total
+THD0001	AT2	AT2	Control	1219	16705137	16705137	9048754	True	False	True
+THD0002	AT2	AT2	Control	1044	10935829	10935829	7560958	True	False	True
+TILD028	AT2	AT2	IPF	61	317620	317620	370948	True	False	True
+VUHD071	AT2	AT2	Control	98	410461	410461	581099	True	False	True
+VUHD65	AT2	AT2	Control	328	4592587	4592587	2309837	True	False	True
+VUHD66	AT2	AT2	Control	504	5838787	5838787	3471759	True	False	True
+VUHD67	AT2	AT2	Control	1120	17080238	17080238	8070877	True	False	True
+VUILD53	AT2	AT2	IPF	109	587813	587813	669962	True	False	True
+VUILD59	AT2	AT2	IPF	1838	12300163	12300163	11806018	True	False	True
+VUILD60	AT2	AT2	IPF	137	1029209	1029209	901068	True	False	True
+VUILD61	AT2	AT2	IPF	395	3653653	3653653	2631922	True	False	True
+VUILD63	AT2	AT2	IPF	99	454961	454961	600756	True	False	True
+VUILD64	AT2	AT2	IPF	428	1980747	1980747	2559251	True	False	True
+VUILD65	AT2	AT2	IPF	72	442811	442811	453788	True	False	True
+TILD001	Fibroblasts	fibroblasts	IPF	7	42907	42907	44283	True	False	True
+TILD001	HAS1 High Fibroblasts	fibroblasts	IPF	179	2585307	2585307	1407082	True	False	True
+TILD001	Myofibroblasts	fibroblasts	IPF	53	388558	388558	355189	True	False	True
+TILD001	PLIN2+ Fibroblasts	fibroblasts	IPF	830	6380753	6380753	5642183	True	False	True
+TILD006	Fibroblasts	fibroblasts	IPF	40	151111	151111	230015	True	False	True
+TILD006	Myofibroblasts	fibroblasts	IPF	117	464447	464447	680321	True	False	True
+TILD006	PLIN2+ Fibroblasts	fibroblasts	IPF	4	17511	17511	23574	True	False	True
+TILD010	Fibroblasts	fibroblasts	IPF	8	35060	35060	46816	True	False	True
+TILD010	Myofibroblasts	fibroblasts	IPF	47	228510	228510	275349	True	False	True
+TILD010	PLIN2+ Fibroblasts	fibroblasts	IPF	2	5737	5737	10771	True	False	True
+TILD015	Fibroblasts	fibroblasts	IPF	29	301403	301403	217958	True	False	True
+TILD015	Myofibroblasts	fibroblasts	IPF	94	833916	833916	655123	True	False	True
+TILD015	PLIN2+ Fibroblasts	fibroblasts	IPF	7	72099	72099	47558	True	False	True
+TILD028	Fibroblasts	fibroblasts	IPF	13	70462	70462	79396	True	False	True
+TILD028	Myofibroblasts	fibroblasts	IPF	104	505101	505101	607289	True	False	True
+TILD028	PLIN2+ Fibroblasts	fibroblasts	IPF	27	143350	143350	163038	True	False	True
+VUHD65	Fibroblasts	fibroblasts	Control	19	341196	341196	143708	True	False	True
+VUHD65	Myofibroblasts	fibroblasts	Control	36	275940	275940	224980	True	False	True
+VUHD65	PLIN2+ Fibroblasts	fibroblasts	Control	2	39381	39381	15276	True	False	True
+VUHD66	Fibroblasts	fibroblasts	Control	57	467924	467924	387311	True	False	True
+VUHD66	Myofibroblasts	fibroblasts	Control	56	453591	453591	366384	True	False	True
+VUHD67	Fibroblasts	fibroblasts	Control	22	181624	181624	139295	True	False	True
+VUHD67	Myofibroblasts	fibroblasts	Control	30	142968	142968	170915	True	False	True
+VUILD53	Fibroblasts	fibroblasts	IPF	1	5670	5670	6056	True	False	True
+VUILD53	Myofibroblasts	fibroblasts	IPF	26	104990	104990	147104	True	False	True
+VUILD53	PLIN2+ Fibroblasts	fibroblasts	IPF	39	165044	165044	227175	True	False	True
+VUILD59	Fibroblasts	fibroblasts	IPF	38	213373	213373	235153	True	False	True
+VUILD59	Myofibroblasts	fibroblasts	IPF	324	1446858	1446858	1892240	True	False	True
+VUILD59	PLIN2+ Fibroblasts	fibroblasts	IPF	250	1537104	1537104	1591600	True	False	True
+THD0001	Macrophages	macrophages	Control	292	3158898	3158898	2014541	True	False	True
+THD0001	Proliferating Macrophages	macrophages	Control	3	30117	30117	20043	True	False	True
+THD0002	Macrophages	macrophages	Control	748	6311427	6311427	5046149	True	False	True
+THD0002	Proliferating Macrophages	macrophages	Control	7	77607	77607	51387	True	False	True
+THD0005	Macrophages	macrophages	Control	958	6607378	6607378	6098540	True	False	True
+THD0005	Proliferating Macrophages	macrophages	Control	11	81019	81019	71621	True	False	True
+TILD001	Macrophages	macrophages	IPF	431	3039162	3039162	2772525	True	False	True
+TILD001	Proliferating Macrophages	macrophages	IPF	4	57393	57393	28323	True	False	True
+TILD006	Macrophages	macrophages	IPF	2122	13185016	13185016	13527181	True	False	True
+TILD006	Proliferating Macrophages	macrophages	IPF	78	915132	915132	542765	True	False	True
+TILD010	Macrophages	macrophages	IPF	741	5006411	5006411	4803911	True	False	True
+TILD010	Proliferating Macrophages	macrophages	IPF	33	310737	310737	228374	True	False	True
+TILD015	Macrophages	macrophages	IPF	2422	26232205	26232205	16720109	True	False	True
+TILD015	Proliferating Macrophages	macrophages	IPF	18	324217	324217	131989	True	False	True
+TILD028	Macrophages	macrophages	IPF	1799	14508554	14508554	11805555	True	False	True
+TILD028	Proliferating Macrophages	macrophages	IPF	25	313715	313715	182416	True	False	True
+VUHD071	Macrophages	macrophages	Control	1923	7367400	7367400	11530311	True	False	True
+VUHD071	Proliferating Macrophages	macrophages	Control	11	54423	54423	67572	True	False	True
+VUHD65	Macrophages	macrophages	Control	791	14111851	14111851	5458958	True	False	True
+VUHD65	Proliferating Macrophages	macrophages	Control	39	1059662	1059662	280528	True	False	True
+VUHD66	Macrophages	macrophages	Control	169	2322725	2322725	1160143	True	False	True
+VUHD66	Proliferating Macrophages	macrophages	Control	11	303582	303582	79920	True	False	True
+VUHD67	Macrophages	macrophages	Control	2073	25868711	25868711	14341949	True	False	True
+VUHD67	Proliferating Macrophages	macrophages	Control	9	196451	196451	63996	True	False	True
+VUHD68	Macrophages	macrophages	Control	4492	54127245	54127245	30914969	True	False	True
+VUHD68	Proliferating Macrophages	macrophages	Control	98	1585465	1585465	698644	True	False	True
+VUHD70	Macrophages	macrophages	Control	538	7197221	7197221	3746982	True	False	True
+VUHD70	Proliferating Macrophages	macrophages	Control	11	198885	198885	79988	True	False	True
+VUILD53	Macrophages	macrophages	IPF	380	2517932	2517932	2409220	True	False	True
+VUILD53	Proliferating Macrophages	macrophages	IPF	9	88078	88078	62069	True	False	True
+VUILD59	Macrophages	macrophages	IPF	5372	64089980	64089980	37216951	True	False	True
+VUILD59	Proliferating Macrophages	macrophages	IPF	497	7903662	7903662	3578884	True	False	True
+VUILD60	Macrophages	macrophages	IPF	1011	9461370	9461370	6778022	True	False	True
+VUILD60	Proliferating Macrophages	macrophages	IPF	51	803951	803951	367824	True	False	True
+VUILD61	Macrophages	macrophages	IPF	971	10596772	10596772	6566421	True	False	True
+VUILD61	Proliferating Macrophages	macrophages	IPF	22	408341	408341	155107	True	False	True
+VUILD63	Macrophages	macrophages	IPF	322	3854116	3854116	2199525	True	False	True
+VUILD63	Proliferating Macrophages	macrophages	IPF	24	524162	524162	171915	True	False	True
+VUILD64	Macrophages	macrophages	IPF	135	912290	912290	868526	True	False	True
+VUILD64	Proliferating Macrophages	macrophages	IPF	6	44373	44373	39546	True	False	True
+VUILD65	Macrophages	macrophages	IPF	801	5985965	5985965	5187051	True	False	True
+VUILD65	Proliferating Macrophages	macrophages	IPF	46	478508	478508	312481	True	False	True

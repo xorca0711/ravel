@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.source_average_response_v1",
+  "owner": "DY1-P02",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_response_v1.json",
+  "contract_sha256": "234db56594d32819f147a4f1e9b1d1ef9d3fef6be69d34c1b7b5200b95426c10",
+  "git_commit": "218f063d6dcd7d9deffbbd99246ef968db6644ac",
+  "started_at": "2026-10-30T03:11:59.321948+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/source_average_response_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_P02_source_average_response_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115504_memory_averaged.cpm.table.tsv.gz",
+      "sha256": "ca54ef1ffbaf066ec5745a08cc518b0b0ad976528a407ffb34376afff870f75a",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_temporal_source_v1/qualification.json",
+      "sha256": "6b681d492270ead148bc5ef03fe2e5e708abe3031007b59c7270592ea3c148d3",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_temporal_source_v1/rna_column_source_links.tsv",
+      "sha256": "2bfcbe093ac86f80eb1bb5c1154bbab38f3484a87de5916dfd691985addb1c1f",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json",
+      "sha256": "bc781f2a714ec1bd77f70994ad7867fe666e7f77fc7406960b0b8c1de53a92eb",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/source_average_response_v1.py",
+      "sha256": "a560be077c61e9b2ba91cf58021a3aa88be20bc78cde040e962858de40747cb7"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_source_average_v1.py",
+      "sha256": "7df1064fdbc21d7a4090e0027c2fec0054e255862cec43fea1b0dd0b44eb9a54"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json",
+      "sha256": "bc781f2a714ec1bd77f70994ad7867fe666e7f77fc7406960b0b8c1de53a92eb"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_P02_source_average_response_v1/source_average_contrasts.tsv.gz",
+      "sha256": "056d76f72d1d7d4c54760a9b85e3ac0bb748e382ae6e81f5af7968be9b0e2d1f"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_source_average_response_v1/offset_sensitivity.tsv",
+      "sha256": "776bf630c66a4256f58925405b596e853c0f6aff12355990abb22fe82c61cc21"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_source_average_response_v1/verification.json",
+      "sha256": "54a9219dff23a5faf05641768163bef230c5a1331b8e7061fa8385f54548cc13"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_source_average_response_v1/source_average_response.png",
+      "sha256": "bf2e97588c1d77ce1bdf745238a82ea091d977a6edf6f192eba74399f582d0eb"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_source_average_response_v1/summary.json",
+      "sha256": "4eff1b0ff35f2e359f0e01ec4747c9353d23c8fe71b17fc0720a8c2f876c4c8b"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T03:12:24.336867+00:00"
+}
