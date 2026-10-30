@@ -1,6 +1,6 @@
 # Current project state
 
-## DY1 follow-up PR preparation and overall synthesis — 30 October 2026
+## DY1 follow-up PR opened and overall synthesis — 30 October 2026
 
 The owner requested publication of the reviewed follow-ups and an overall analysis
 inventory/implication. Added the [cross-stage synthesis](Research%20Article/gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md),
@@ -8,8 +8,11 @@ linking original diagnostic limits, human branches, E1–E6 and F1–F4 without 
 biological computation or claim promotion. Current main remains `28fb610`; no
 remote changes invalidate the previous numerical verification. Both CLI and
 connector GitHub identities are verified as `xorca0711`; no duplicate PR exists
-for this branch. Final documentation passed 11,734 repository checks and the
-base-aware research gate; publication is the remaining step.
+for this branch. Opened [PR #153](https://github.com/xorca0711/ravel/pull/153)
+against main with the completed analyses, context updates and synthesis. Final
+documentation passed 11,734 repository checks and the base-aware research gate.
+CI is separate from those local checks; human scientific acceptance and merge
+remain pending. No protected setting or source cache changed.
 
 
 ## DY1 follow-ups integrated and independently reviewed — 30 October 2026
