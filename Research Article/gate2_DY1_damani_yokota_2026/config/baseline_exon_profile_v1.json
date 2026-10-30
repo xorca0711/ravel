@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.baseline_exon_profile_v1",
+  "owner": "DY1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What is the fixed six-library geometry of a declared exon-hit transformation after structural input qualification, without interpreting source labels as independent animal effects?",
+  "decision": "Complete a bounded technical sample-profile diagnostic from the original PCA subjob while retaining its difference from author gene-level VST/plotPCA and leaving biological comparisons unestimated.",
+  "strongest_rival": "Exon counting semantics, library composition/depth and unknown pool linkage can drive sample-profile structure; a plot can be mistaken for a biological effect or author outlier decision.",
+  "discriminator": "Fixed all-feature transformation and full SVD, all six samples retained, source labels preserved, independent covariance/Gram arithmetic; no group test, variable-feature selection or gene loading output.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper, source metadata, human results and structural QC are exposed. Structural run confirms same406850exon features and143437all-zero rows. This prospective diagnostic has not yet been fitted to real source profiles; synthetic tests only before freeze.",
+  "biological_unit": "Measured entities are six deposited libraries. Animal or independently collected pool identities/overlap remain unknown; no animal-level or pool-effect inference.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Rows nest in libraries; source-labeled libraries may contain pooled/overlapping material. No library or row is promoted to an independent animal.",
+  "population_and_selection": "All six baseline exon-count libraries GSM9964554\u2013GSM9964559. Retain every non-summary exon-bin row except rows zero across all six libraries. No low-count/HVG/condition-based filter, group selection or sample exclusion.",
+  "contrast": "No biological group contrast. Sample coordinates and fractions of transformed variance only.",
+  "endpoint": "Six-library coordinates from feature-centered log2(1+1e6*bin count/sum of all non-summary exon-bin counts), with full deterministic SVD and transformed variance fractions.",
+  "methods": "Use only the structurally qualified fixed exon universe. Remove all-zero rows only. Normalize each library by all exon-bin hits, take log2(1+CPM), center each feature across all six libraries, compute full SVD; sign convention makes the largest absolute sample coordinate positive. Independently check covariance eigenvalues, all-component Gram reconstruction and feature centering. Export coordinates/variance/plot only; do not export gene loadings or ranks.",
+  "missingness_and_exclusions": "Five underscore count-summary categories do not enter exon-hit denominator. All-zero feature removal is fixed and checked against QC. No library exclusion or altered cutoff. Stop unqualified/nonpositive/negative/misaligned or numerically constant profiles; do not rescue by selecting features.",
+  "multiplicity": "No hypothesis tests, confidence intervals or biological group effects. Variance fractions are technical properties of this fixed transformation.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Floating-point verification only, not population precision or an effect margin.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "This is an exon-bin technical adaptation. Author Methods specify unspecified low-overall-count filtering, DESeq2v1.48.2 VST and plotPCA; it is not their exact gene-level PCA or a recovered outlier rule. Exon-hit sums are not unique fragments; unknown independent units and full N.brasiliensis-history/later-IAV context remain explicit. No infection-response prediction, named-target loading/ranking or intervention prioritization.",
+  "stop_rule": "Stop failure of structural qualification, input/hash/axis/source-label agreement, nonpositive denominator, invalid integer count or independent arithmetic. Preserve any failure rather than change filters or remove samples.",
+  "inputs": [
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964554_TP10-1_S8-ExonCounts.txt.gz",
+      "sha256": "0ce695008d9659142adb709c78f464497e20838797550cb6f542f75a4923f3c7",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964555_TP10-2_S9-ExonCounts.txt.gz",
+      "sha256": "03faa49fa8f55c3febbcd5da0065e3a414281a1371862f4089db17b4cc25617d",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964556_TP10-3_S14-ExonCounts.txt.gz",
+      "sha256": "a61e82a82b224566ed190d55981363941914a3b573d775f60fa924e8fe35a384",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964557_XP10-1_S3-ExonCounts.txt.gz",
+      "sha256": "4ccdbe095d69af46d7670c7ae0b3e6af0efdac798de9fd789e704b98c0402819",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964558_XP10-2_S4-ExonCounts.txt.gz",
+      "sha256": "49862630d9542e68e285b2d208f471a375119cb4d7b95cfc6b407e958c731131",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_file_qc_v1/GSM9964559_XP10-3_S12-ExonCounts.txt.gz",
+      "sha256": "18f843d9e17a8e5a31b9f48fe9a4e9d02d6d45b51604c614fcbd422dee4bd414",
+      "study_id": "GSE343897",
+      "unit_ids": [
+        "GSM9964554",
+        "GSM9964555",
+        "GSM9964556",
+        "GSM9964557",
+        "GSM9964558",
+        "GSM9964559"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_file_qc_v1/exon_universe.json",
+      "sha256": "023bc8a8247693914098a8e4334628499c770aa3398a77596a75e9ac7906fdf3",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_baseline_file_qc_v1/receipt.json",
+      "sha256": "1018a20c9140224e72b1be0824565ff1ef38e16470212a2f3a66750f4e531cb0",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_source_v1/sample_map.tsv",
+      "sha256": "0ad8365b79c40944fc4da3f42b00a813f13654e56e877b662045d0a42120a5a9",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_exon_profile_v1.py",
+      "sha256": "ad26bed68dda60c5dc21606e2c8fd4a88286b7db6052063f48d27d4a9ff972d9"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_baseline_exon_profile_v1.py",
+      "sha256": "a8362b03eb159640dbad432cf1c0b72a6e4730c407e892c3d3b349474fb53900"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_file_qc_inputs_v1.json",
+      "sha256": "bb0c68d679a87d10f1c0e71cc53d1204f5fb107afdeadc7af309ce2bf289beae"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_exon_profile_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_coordinates.tsv",
+    "variance.tsv",
+    "sample_profile.png",
+    "verification.json",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separate prospective descriptive technical diagnostic cleared after structural QC; does not extend the metadata run into biological effects or claim author-PCA reproduction."
+}
