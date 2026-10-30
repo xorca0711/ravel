@@ -924,7 +924,8 @@
     "Research Article/gate2_W3_yadav_2025/config/functional_f3_contract_v1.json",
     "Research Article/gate2_W3_yadav_2025/config/functional_f4_contract_v1.json",
     "Research Article/gate2_W3_yadav_2025/config/functional_f5_contract_v1.json",
-    "Research Article/gate2_W3_yadav_2025/config/count_integrity_v1.json"
+    "Research Article/gate2_W3_yadav_2025/config/count_integrity_v1.json",
+    "Research Article/gate2_W3_yadav_2025/config/annotation_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1020,7 +1021,8 @@
     "analysis/research/runs/Yd1_functional_f2_v1/receipt.json",
     "analysis/research/runs/Yd1_functional_f3_v1/receipt.json",
     "analysis/research/runs/Yd1_functional_f4_v1/receipt.json",
-    "analysis/research/runs/Yd1_functional_f5_v1/receipt.json"
+    "analysis/research/runs/Yd1_functional_f5_v1/receipt.json",
+    "analysis/research/runs/Yd1_count_integrity_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
