@@ -5,3 +5,9 @@ config/source_qualification_v1.json -text whitespace=cr-at-eol
 # Frozen functional reconstruction sources and per-job specifications.
 scripts/reconstruct_functional_v1.py -text whitespace=cr-at-eol
 config/functional_*_v1.json -text whitespace=cr-at-eol
+
+# Byte-preserved count integrity qualification.
+scripts/count_integrity_v1.py -text whitespace=cr-at-eol
+config/count_integrity_v1.json -text whitespace=cr-at-eol
+# Retain the already frozen functional script terminal newline bytes.
+scripts/reconstruct_functional_v1.py whitespace=cr-at-eol,-blank-at-eof

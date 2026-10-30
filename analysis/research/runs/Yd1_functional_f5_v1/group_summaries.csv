@@ -1,0 +1,5 @@
+job,panel,donor,condition,n_expected,n_observed,mean,sd,minimum,maximum,unit
+F5,3K_proline,source,control,3,3,1.0000000033333334,0.03946803271189777,0.95448743,1.02480076,Relative abundance
+F5,3K_proline,source,cb,3,3,0.54110809,0.00782800080060676,0.53640191,0.55014448,Relative abundance
+F5,3K_hydroxyproline,source,control,3,3,1.0,0.06430992329232635,0.92588205,1.04101667,Relative abundance
+F5,3K_hydroxyproline,source,cb,3,3,0.23445873333333334,0.00558794222567067,0.22923325,0.24034956,Relative abundance
