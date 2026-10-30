@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.representation_audit_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does the saved WT external RNA/accessibility direction summary depend on unequal regions-per-gene representation or mapping assignments on common region support?",
+  "decision": "Bound the representation and annotation explanation of the saved benchmark; no biological independence or mechanism conclusion.",
+  "strongest_rival": "Genes with many annotated regions disproportionately determine pair-weighted agreement; changing annotation coverage or assignment can change the summary.",
+  "discriminator": "Equal-gene mean of within-gene agreement versus saved pair-weighted agreement; all within-gene mixed ATAC directions; mapping assignments and direction classes on the exact common region intersection.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md",
+    "analysis/research/runs/DY1_P02_reference_source_v1/qualification.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original Nb-history/later-IAV paper context, all E1/E2 source qualification and transformed-mean results, human reports and follow-up feasibility are exposed. F1 newly summarizes the frozen non-infectious external WT benchmark; no outcome-unexposed confirmation.",
+  "biological_unit": "Original source preparations within separate assays remain the biological units. Genes and regions are dependent descriptive features, not new biological replicates.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "All results reuse the same frozen WT libraries and effects. Multiple mapped regions share genes, RNA effects and source libraries. Source preparation overlap and cross-assay pairing remain unqualified.",
+  "population_and_selection": "Exactly the E2 offset1 eligible mapped membership under both frozen mapping rules and both existing distance subsets. No new distance, offset, expression or outcome selection.",
+  "contrast": "Pair-weighted same-nonzero-direction fraction versus unweighted mean of each represented gene’s fraction; subtract pair-weighted fraction from equal-gene fraction. Separately compare assigned gene and same/opposite/zero direction class for common region IDs.",
+  "endpoint": "Within-gene mapped-region counts, positive/negative/zero ATAC directions, same/opposite/zero fractions, mixed positive-and-negative ATAC indicator, aggregate weighting difference, exact common-support mapping contingency and annotation coverage.",
+  "methods": "Read offset1 effects and saved membership only. Each gene’s agreement denominator includes all its mapped rows, including zero in either assay; such rows are classified zero, not agreeing. Equal-gene summary averages over represented genes. Report all candidate/eligible/mapped counts and all existing mapping/subset combinations. Compare mapping rules on region intersections separately by subset and report unique-to-rule counts. Independently verify with scalar dictionary counts and compare saved pair summaries exactly. Plot weighting and regions-per-gene empirical CDF without gene labels or ranking.",
+  "missingness_and_exclusions": "No new exclusion or missing-as-zero. Stop on missing/nonfinite or duplicated effect keys, duplicated region keys within a mapping/subset, or lost membership joins. Keep zero and mixed directions. Source nearest-TSS subset is not proof of promoter mapping for the different Ensembl-assigned gene.",
+  "multiplicity": "All four fixed mapping/subset summaries reported; no binomial tests, gene/peak independent-trial confidence intervals, locus ranking or selected targets.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite-set descriptive fractions over frozen dependent features. No sampling uncertainty inferred from numbers of genes or regions.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "This bounds representation sensitivity within reused exposed external measurements. No independent replication, causal RNA-accessibility relationship, TF activity, absolute-output scale or original-study hold resolution.",
+  "stop_rule": "Stop on hash, join, scalar verification or saved-summary discrepancy. Do not tune mappings, subsets or zero handling after new output exposure.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/mapping_membership.tsv.gz",
+      "sha256": "d42bab98789c7e5219d51128b9ee1b16afeeaa762d49a716a295482f94260858",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/rna_descriptive_effects.tsv.gz",
+      "sha256": "9add4c34919227115434318ca2f23a08eb4cc3fef5a44d01feaa1da53c927d0c",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/atac_descriptive_effects.tsv.gz",
+      "sha256": "fc8dc66929bad643992ee548aef55afa8370655f047534add96ec40a53964b2e",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/feature_eligibility.tsv",
+      "sha256": "452c99c530876fb351253bb1a7e3568bbee2defae0209241ba1e27b12b57ca33",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/mapping_sensitivity.tsv",
+      "sha256": "ae5674e1207f70dbb35fcb6d3a81791c37fc62a132977c44a57770a0fcb7e4fa",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/representation_audit_v1.py",
+      "sha256": "79c9bd47e04f856536928fda4b7f6c3f8631baffb8e432ffb4d023558ecbf78e"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_representation_audit_v1.py",
+      "sha256": "9c13cc4b7cde259b372fbb13b19600abb1d218f14856ed1b7544c3a3e1932768"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/representation_audit_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "gene_representation.tsv.gz",
+    "weighting_summary.tsv",
+    "common_mapping_membership.tsv.gz",
+    "common_mapping_contingency.tsv",
+    "annotation_coverage.tsv",
+    "representation_audit.png",
+    "verification.json",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-authorized F1 adds representation diagnostics without changing or rerunning E2."
+}
