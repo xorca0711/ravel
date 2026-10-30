@@ -51,6 +51,45 @@ F1 axis wording to cover both weighting rules and split the human-contrast axis
 labels over two lines. These are pre-freeze layout changes, not failed biological
 or governed source-data runs.
 
-Execution, export verification and final integration-check results will be
-recorded after pre-freeze review and the governed render. No biological analysis
-or inferential statistic is being recomputed.
+## Execution and export review
+
+Pre-freeze independent review cleared the exact 11 input/code hash bindings.
+The package froze at `06be8fda7bf5cff615c85bbd2df5928bbae065b4`, then completed
+its sole governed render successfully. The
+[receipt](../../analysis/research/runs/DY1_presentation_figures_v1/receipt.json)
+verifies. No source-data render failed and no frozen output was overwritten.
+
+- [Four-page vector PDF bundle](../../analysis/research/runs/DY1_presentation_figures_v1/DY1_presentation_plates_v1.pdf)
+- [Export inventory and hashes](../../analysis/research/runs/DY1_presentation_figures_v1/render_inventory.tsv)
+- [Render record and caption/layout checks](../../analysis/research/runs/DY1_presentation_figures_v1/render_record.json)
+- [Source-value, label and coordinate verification](../../analysis/research/runs/DY1_presentation_figures_v1/data_label_verification.json)
+
+All 378 scalar checks passed for 126 source-value records. All four canvases
+passed visible-text bounds, overlap and caption-clearance checks. SVG exports
+retain vector text with every recorded label; PNGs are 3540-by-2400 pixels at
+300 dpi. Independent PDF inspection with pypdf/pdfplumber confirmed four
+single-page PDFs plus the four-page bundle, no embedded raster images, all
+character bounds within pages, and all 62 recorded labels in the bundle text.
+
+The executor visually inspected all four final PNGs and all four bundle pages
+rendered with Poppler at 120 dpi. Labels, intervals, values and captions are
+readable without clipping or collisions. In particular, the six human scopes
+retain distinct n/site/annotation labels and the external original correlation
+interval visibly crosses zero. The coordinating reviewer independently confirmed
+saved-value parity and readable, in-bounds rendering of all four PDF pages.
+
+The new script compiles, repository validation passed 11,751 checks, and the
+research gate passed against freshly fetched `origin/main`
+`28fb61015f9b921f591e41ff26010a960c305947`. The integration branch remained at
+`4af89c8df3b234b2f4e005cf4d12d014343ab7d4`; no remote change required reconciliation.
+Canonical 32-question records, guides and protected infrastructure are unchanged.
+
+The broad Git whitespace check reports 319 native Matplotlib SVG path-data
+trailing-whitespace notices and no non-SVG warnings. These are retained as exact
+frozen export bytes; SVG parsing, vector/text parity, visual checks and receipt
+hashes pass. No validator, policy or frozen file was changed to suppress them.
+
+No biological analysis or inferential statistic was recomputed. Valid earlier
+biological tests and source verifiers are reused because their code, inputs and
+evidence are unchanged; the new renderer has its own targeted tests and export
+verification. Gallery, README and literature navigation are outside this package.

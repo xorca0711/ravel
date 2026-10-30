@@ -1,0 +1,3284 @@
+{
+  "status": "passed",
+  "independent_value_checks": 378,
+  "values": [
+    {
+      "id": "value_0000",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "pair_weighted_same",
+      "source_value": 0.5590759181582402,
+      "factor": 100,
+      "visual_value": 55.90759181582402,
+      "format": ".3f",
+      "label": "55.908"
+    },
+    {
+      "id": "value_0001",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "equal_gene_same",
+      "source_value": 0.562478373676297,
+      "factor": 100,
+      "visual_value": 56.24783736762971,
+      "format": ".3f",
+      "label": "56.248"
+    },
+    {
+      "id": "value_0002",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "equal_gene_minus_pair_weighted",
+      "source_value": 0.0034024555180568,
+      "factor": 100,
+      "visual_value": 0.34024555180568,
+      "format": "+.3f",
+      "label": "+0.340"
+    },
+    {
+      "id": "value_0003",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "mixed_atac_gene_fraction",
+      "source_value": 0.5636671077782679,
+      "factor": 100,
+      "visual_value": 56.36671077782679,
+      "format": ".2f",
+      "label": "56.37"
+    },
+    {
+      "id": "value_0004",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "mixed_atac_genes",
+      "source_value": 7667.0,
+      "factor": 1,
+      "visual_value": 7667.0,
+      "format": ",.0f",
+      "label": "7,667"
+    },
+    {
+      "id": "value_0005",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "genes",
+      "source_value": 13602.0,
+      "factor": 1,
+      "visual_value": 13602.0,
+      "format": ",.0f",
+      "label": "13,602"
+    },
+    {
+      "id": "value_0006",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "pair_weighted_same",
+      "source_value": 0.6289026629935721,
+      "factor": 100,
+      "visual_value": 62.89026629935721,
+      "format": ".3f",
+      "label": "62.890"
+    },
+    {
+      "id": "value_0007",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "equal_gene_same",
+      "source_value": 0.6310480637705769,
+      "factor": 100,
+      "visual_value": 63.104806377057685,
+      "format": ".3f",
+      "label": "63.105"
+    },
+    {
+      "id": "value_0008",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "equal_gene_minus_pair_weighted",
+      "source_value": 0.0021454007770047,
+      "factor": 100,
+      "visual_value": 0.21454007770047,
+      "format": "+.3f",
+      "label": "+0.215"
+    },
+    {
+      "id": "value_0009",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "mixed_atac_gene_fraction",
+      "source_value": 0.0894297438800056,
+      "factor": 100,
+      "visual_value": 8.942974388000561,
+      "format": ".2f",
+      "label": "8.94"
+    },
+    {
+      "id": "value_0010",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "mixed_atac_genes",
+      "source_value": 632.0,
+      "factor": 1,
+      "visual_value": 632.0,
+      "format": ",.0f",
+      "label": "632"
+    },
+    {
+      "id": "value_0011",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "genes",
+      "source_value": 7067.0,
+      "factor": 1,
+      "visual_value": 7067.0,
+      "format": ",.0f",
+      "label": "7,067"
+    },
+    {
+      "id": "value_0012",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "pair_weighted_same",
+      "source_value": 0.5585833252950065,
+      "factor": 100,
+      "visual_value": 55.85833252950066,
+      "format": ".3f",
+      "label": "55.858"
+    },
+    {
+      "id": "value_0013",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "equal_gene_same",
+      "source_value": 0.5625420158431447,
+      "factor": 100,
+      "visual_value": 56.254201584314465,
+      "format": ".3f",
+      "label": "56.254"
+    },
+    {
+      "id": "value_0014",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "equal_gene_minus_pair_weighted",
+      "source_value": 0.0039586905481381,
+      "factor": 100,
+      "visual_value": 0.39586905481381,
+      "format": "+.3f",
+      "label": "+0.396"
+    },
+    {
+      "id": "value_0015",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "mixed_atac_gene_fraction",
+      "source_value": 0.5638493847174121,
+      "factor": 100,
+      "visual_value": 56.38493847174121,
+      "format": ".2f",
+      "label": "56.38"
+    },
+    {
+      "id": "value_0016",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "mixed_atac_genes",
+      "source_value": 7652.0,
+      "factor": 1,
+      "visual_value": 7652.0,
+      "format": ",.0f",
+      "label": "7,652"
+    },
+    {
+      "id": "value_0017",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated"
+      },
+      "column": "genes",
+      "source_value": 13571.0,
+      "factor": 1,
+      "visual_value": 13571.0,
+      "format": ",.0f",
+      "label": "13,571"
+    },
+    {
+      "id": "value_0018",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "pair_weighted_same",
+      "source_value": 0.6289671090594345,
+      "factor": 100,
+      "visual_value": 62.89671090594345,
+      "format": ".3f",
+      "label": "62.897"
+    },
+    {
+      "id": "value_0019",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "equal_gene_same",
+      "source_value": 0.6309300563527016,
+      "factor": 100,
+      "visual_value": 63.09300563527016,
+      "format": ".3f",
+      "label": "63.093"
+    },
+    {
+      "id": "value_0020",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "equal_gene_minus_pair_weighted",
+      "source_value": 0.001962947293267,
+      "factor": 100,
+      "visual_value": 0.1962947293267,
+      "format": "+.3f",
+      "label": "+0.196"
+    },
+    {
+      "id": "value_0021",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "mixed_atac_gene_fraction",
+      "source_value": 0.0883648245489416,
+      "factor": 100,
+      "visual_value": 8.83648245489416,
+      "format": ".2f",
+      "label": "8.84"
+    },
+    {
+      "id": "value_0022",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "mixed_atac_genes",
+      "source_value": 622.0,
+      "factor": 1,
+      "visual_value": 622.0,
+      "format": ",.0f",
+      "label": "622"
+    },
+    {
+      "id": "value_0023",
+      "source": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss"
+      },
+      "column": "genes",
+      "source_value": 7039.0,
+      "factor": 1,
+      "visual_value": 7039.0,
+      "format": ",.0f",
+      "label": "7,039"
+    },
+    {
+      "id": "value_0024",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 32.0,
+      "factor": 1,
+      "visual_value": 32.0,
+      "format": ".0f",
+      "label": "32"
+    },
+    {
+      "id": "value_0025",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 28.0,
+      "factor": 1,
+      "visual_value": 28.0,
+      "format": ".0f",
+      "label": "28"
+    },
+    {
+      "id": "value_0026",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "estimate",
+      "source_value": 0.1716978867073741,
+      "factor": 1,
+      "visual_value": 0.1716978867073741,
+      "format": "+.3f",
+      "label": "+0.172"
+    },
+    {
+      "id": "value_0027",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": -0.2495944196450068,
+      "factor": 1,
+      "visual_value": -0.2495944196450068,
+      "format": "+.3f",
+      "label": "-0.250"
+    },
+    {
+      "id": "value_0028",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 0.5911228520244542,
+      "factor": 1,
+      "visual_value": 0.5911228520244542,
+      "format": "+.3f",
+      "label": "+0.591"
+    },
+    {
+      "id": "value_0029",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "estimate",
+      "source_value": 1.1391839400937045,
+      "factor": 1,
+      "visual_value": 1.1391839400937045,
+      "format": "+.3f",
+      "label": "+1.139"
+    },
+    {
+      "id": "value_0030",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": 0.824438506946953,
+      "factor": 1,
+      "visual_value": 0.824438506946953,
+      "format": "+.3f",
+      "label": "+0.824"
+    },
+    {
+      "id": "value_0031",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 1.4593450504530894,
+      "factor": 1,
+      "visual_value": 1.4593450504530894,
+      "format": "+.3f",
+      "label": "+1.459"
+    },
+    {
+      "id": "value_0032",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 32.0,
+      "factor": 1,
+      "visual_value": 32.0,
+      "format": ".0f",
+      "label": "32"
+    },
+    {
+      "id": "value_0033",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 27.0,
+      "factor": 1,
+      "visual_value": 27.0,
+      "format": ".0f",
+      "label": "27"
+    },
+    {
+      "id": "value_0034",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "estimate",
+      "source_value": -0.4868584855961311,
+      "factor": 1,
+      "visual_value": -0.4868584855961311,
+      "format": "+.3f",
+      "label": "-0.487"
+    },
+    {
+      "id": "value_0035",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": -0.9986681736432168,
+      "factor": 1,
+      "visual_value": -0.9986681736432168,
+      "format": "+.3f",
+      "label": "-0.999"
+    },
+    {
+      "id": "value_0036",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 0.044152568258598,
+      "factor": 1,
+      "visual_value": 0.044152568258598,
+      "format": "+.3f",
+      "label": "+0.044"
+    },
+    {
+      "id": "value_0037",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "estimate",
+      "source_value": 1.282672552121732,
+      "factor": 1,
+      "visual_value": 1.282672552121732,
+      "format": "+.3f",
+      "label": "+1.283"
+    },
+    {
+      "id": "value_0038",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": 0.8925833541095303,
+      "factor": 1,
+      "visual_value": 0.8925833541095303,
+      "format": "+.3f",
+      "label": "+0.893"
+    },
+    {
+      "id": "value_0039",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 1.6477405935553868,
+      "factor": 1,
+      "visual_value": 1.6477405935553868,
+      "format": "+.3f",
+      "label": "+1.648"
+    },
+    {
+      "id": "value_0040",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 12.0,
+      "factor": 1,
+      "visual_value": 12.0,
+      "format": ".0f",
+      "label": "12"
+    },
+    {
+      "id": "value_0041",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 9.0,
+      "factor": 1,
+      "visual_value": 9.0,
+      "format": ".0f",
+      "label": "9"
+    },
+    {
+      "id": "value_0042",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "estimate",
+      "source_value": -0.891084907988624,
+      "factor": 1,
+      "visual_value": -0.891084907988624,
+      "format": "+.3f",
+      "label": "-0.891"
+    },
+    {
+      "id": "value_0043",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": -1.688394052876712,
+      "factor": 1,
+      "visual_value": -1.688394052876712,
+      "format": "+.3f",
+      "label": "-1.688"
+    },
+    {
+      "id": "value_0044",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": -0.0695246664935854,
+      "factor": 1,
+      "visual_value": -0.0695246664935854,
+      "format": "+.3f",
+      "label": "-0.070"
+    },
+    {
+      "id": "value_0045",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "estimate",
+      "source_value": 2.230232274155636,
+      "factor": 1,
+      "visual_value": 2.230232274155636,
+      "format": "+.3f",
+      "label": "+2.230"
+    },
+    {
+      "id": "value_0046",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": 1.3941721010988342,
+      "factor": 1,
+      "visual_value": 1.3941721010988342,
+      "format": "+.3f",
+      "label": "+1.394"
+    },
+    {
+      "id": "value_0047",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 3.110736866419754,
+      "factor": 1,
+      "visual_value": 3.110736866419754,
+      "format": "+.3f",
+      "label": "+3.111"
+    },
+    {
+      "id": "value_0048",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 7.0,
+      "factor": 1,
+      "visual_value": 7.0,
+      "format": ".0f",
+      "label": "7"
+    },
+    {
+      "id": "value_0049",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 6.0,
+      "factor": 1,
+      "visual_value": 6.0,
+      "format": ".0f",
+      "label": "6"
+    },
+    {
+      "id": "value_0050",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "estimate",
+      "source_value": -0.8405468709116084,
+      "factor": 1,
+      "visual_value": -0.8405468709116084,
+      "format": "+.3f",
+      "label": "-0.841"
+    },
+    {
+      "id": "value_0051",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": -1.935687012941518,
+      "factor": 1,
+      "visual_value": -1.935687012941518,
+      "format": "+.3f",
+      "label": "-1.936"
+    },
+    {
+      "id": "value_0052",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 0.4462787451966913,
+      "factor": 1,
+      "visual_value": 0.4462787451966913,
+      "format": "+.3f",
+      "label": "+0.446"
+    },
+    {
+      "id": "value_0053",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "estimate",
+      "source_value": 2.5087082431935563,
+      "factor": 1,
+      "visual_value": 2.5087082431935563,
+      "format": "+.3f",
+      "label": "+2.509"
+    },
+    {
+      "id": "value_0054",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": 1.33658420912727,
+      "factor": 1,
+      "visual_value": 1.33658420912727,
+      "format": "+.3f",
+      "label": "+1.337"
+    },
+    {
+      "id": "value_0055",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 3.6616604175092777,
+      "factor": 1,
+      "visual_value": 3.6616604175092777,
+      "format": "+.3f",
+      "label": "+3.662"
+    },
+    {
+      "id": "value_0056",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 12.0,
+      "factor": 1,
+      "visual_value": 12.0,
+      "format": ".0f",
+      "label": "12"
+    },
+    {
+      "id": "value_0057",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 9.0,
+      "factor": 1,
+      "visual_value": 9.0,
+      "format": ".0f",
+      "label": "9"
+    },
+    {
+      "id": "value_0058",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "estimate",
+      "source_value": -0.9194687395745388,
+      "factor": 1,
+      "visual_value": -0.9194687395745388,
+      "format": "+.3f",
+      "label": "-0.919"
+    },
+    {
+      "id": "value_0059",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": -1.710179033573204,
+      "factor": 1,
+      "visual_value": -1.710179033573204,
+      "format": "+.3f",
+      "label": "-1.710"
+    },
+    {
+      "id": "value_0060",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": -0.0564992537954194,
+      "factor": 1,
+      "visual_value": -0.0564992537954194,
+      "format": "+.3f",
+      "label": "-0.056"
+    },
+    {
+      "id": "value_0061",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "estimate",
+      "source_value": 2.23336524614749,
+      "factor": 1,
+      "visual_value": 2.23336524614749,
+      "format": "+.3f",
+      "label": "+2.233"
+    },
+    {
+      "id": "value_0062",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": 1.3341081079720911,
+      "factor": 1,
+      "visual_value": 1.3341081079720911,
+      "format": "+.3f",
+      "label": "+1.334"
+    },
+    {
+      "id": "value_0063",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 3.0831321837867485,
+      "factor": 1,
+      "visual_value": 3.0831321837867485,
+      "format": "+.3f",
+      "label": "+3.083"
+    },
+    {
+      "id": "value_0064",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 7.0,
+      "factor": 1,
+      "visual_value": 7.0,
+      "format": ".0f",
+      "label": "7"
+    },
+    {
+      "id": "value_0065",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 6.0,
+      "factor": 1,
+      "visual_value": 6.0,
+      "format": ".0f",
+      "label": "6"
+    },
+    {
+      "id": "value_0066",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "estimate",
+      "source_value": -0.8783853220734104,
+      "factor": 1,
+      "visual_value": -0.8783853220734104,
+      "format": "+.3f",
+      "label": "-0.878"
+    },
+    {
+      "id": "value_0067",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": -1.913197266654328,
+      "factor": 1,
+      "visual_value": -1.913197266654328,
+      "format": "+.3f",
+      "label": "-1.913"
+    },
+    {
+      "id": "value_0068",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 0.2939859204890578,
+      "factor": 1,
+      "visual_value": 0.2939859204890578,
+      "format": "+.3f",
+      "label": "+0.294"
+    },
+    {
+      "id": "value_0069",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "estimate",
+      "source_value": 2.529920369834967,
+      "factor": 1,
+      "visual_value": 2.529920369834967,
+      "format": "+.3f",
+      "label": "+2.530"
+    },
+    {
+      "id": "value_0070",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_low",
+      "source_value": 1.3774874862341435,
+      "factor": 1,
+      "visual_value": 1.3774874862341435,
+      "format": "+.3f",
+      "label": "+1.377"
+    },
+    {
+      "id": "value_0071",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "matrix_mac_panel"
+      },
+      "column": "original_ci_high",
+      "source_value": 3.618180259248864,
+      "factor": 1,
+      "visual_value": 3.618180259248864,
+      "format": "+.3f",
+      "label": "+3.618"
+    },
+    {
+      "id": "value_0072",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 32.0,
+      "factor": 1,
+      "visual_value": 32.0,
+      "format": ".0f",
+      "label": "32"
+    },
+    {
+      "id": "value_0073",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 28.0,
+      "factor": 1,
+      "visual_value": 28.0,
+      "format": ".0f",
+      "label": "28"
+    },
+    {
+      "id": "value_0074",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 32.0,
+      "factor": 1,
+      "visual_value": 32.0,
+      "format": ".0f",
+      "label": "32"
+    },
+    {
+      "id": "value_0075",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "AllMacrophages",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 27.0,
+      "factor": 1,
+      "visual_value": 27.0,
+      "format": ".0f",
+      "label": "27"
+    },
+    {
+      "id": "value_0076",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 12.0,
+      "factor": 1,
+      "visual_value": 12.0,
+      "format": ".0f",
+      "label": "12"
+    },
+    {
+      "id": "value_0077",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 9.0,
+      "factor": 1,
+      "visual_value": 9.0,
+      "format": ".0f",
+      "label": "9"
+    },
+    {
+      "id": "value_0078",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 7.0,
+      "factor": 1,
+      "visual_value": 7.0,
+      "format": ".0f",
+      "label": "7"
+    },
+    {
+      "id": "value_0079",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 6.0,
+      "factor": 1,
+      "visual_value": 6.0,
+      "format": ".0f",
+      "label": "6"
+    },
+    {
+      "id": "value_0080",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 12.0,
+      "factor": 1,
+      "visual_value": 12.0,
+      "format": ".0f",
+      "label": "12"
+    },
+    {
+      "id": "value_0081",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 9.0,
+      "factor": 1,
+      "visual_value": 9.0,
+      "format": ".0f",
+      "label": "9"
+    },
+    {
+      "id": "value_0082",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_first",
+      "source_value": 7.0,
+      "factor": 1,
+      "visual_value": 7.0,
+      "format": ".0f",
+      "label": "7"
+    },
+    {
+      "id": "value_0083",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_Macrophages_only",
+        "floor": 50,
+        "scope": "Vanderbilt",
+        "kind": "contrast",
+        "group": "IPF-Control",
+        "measure": "FABP4_panel"
+      },
+      "column": "n_second",
+      "source_value": 6.0,
+      "factor": 1,
+      "visual_value": 6.0,
+      "format": ".0f",
+      "label": "6"
+    },
+    {
+      "id": "value_0084",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "estimate",
+      "source_value": -0.6242668621700879,
+      "factor": 1,
+      "visual_value": -0.6242668621700879,
+      "format": "+.3f",
+      "label": "-0.624"
+    },
+    {
+      "id": "value_0085",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "n_first",
+      "source_value": 32.0,
+      "factor": 1,
+      "visual_value": 32.0,
+      "format": ".0f",
+      "label": "32"
+    },
+    {
+      "id": "value_0086",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "original_ci_low",
+      "source_value": -0.804377806799092,
+      "factor": 1,
+      "visual_value": -0.804377806799092,
+      "format": "+.3f",
+      "label": "-0.804"
+    },
+    {
+      "id": "value_0087",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "original_ci_high",
+      "source_value": -0.3386296585830235,
+      "factor": 1,
+      "visual_value": -0.3386296585830235,
+      "format": "+.3f",
+      "label": "-0.339"
+    },
+    {
+      "id": "value_0088",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_component_out"
+      },
+      "column": "minimum",
+      "source_value": -0.6748533724340176,
+      "factor": 1,
+      "visual_value": -0.6748533724340176,
+      "format": "+.3f",
+      "label": "-0.675"
+    },
+    {
+      "id": "value_0089",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_component_out"
+      },
+      "column": "maximum",
+      "source_value": -0.469941348973607,
+      "factor": 1,
+      "visual_value": -0.469941348973607,
+      "format": "+.3f",
+      "label": "-0.470"
+    },
+    {
+      "id": "value_0090",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_component_out"
+      },
+      "column": "reference",
+      "source_value": -0.6242668621700879,
+      "factor": 1,
+      "visual_value": -0.6242668621700879,
+      "format": "+.3f",
+      "label": "-0.624"
+    },
+    {
+      "id": "value_0091",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_donor_out"
+      },
+      "column": "minimum",
+      "source_value": -0.6895161290322581,
+      "factor": 1,
+      "visual_value": -0.6895161290322581,
+      "format": "+.3f",
+      "label": "-0.690"
+    },
+    {
+      "id": "value_0092",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_donor_out"
+      },
+      "column": "maximum",
+      "source_value": -0.5870967741935484,
+      "factor": 1,
+      "visual_value": -0.5870967741935484,
+      "format": "+.3f",
+      "label": "-0.587"
+    },
+    {
+      "id": "value_0093",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_donor_out"
+      },
+      "column": "reference",
+      "source_value": -0.6242668621700879,
+      "factor": 1,
+      "visual_value": -0.6242668621700879,
+      "format": "+.3f",
+      "label": "-0.624"
+    },
+    {
+      "id": "value_0094",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "estimate",
+      "source_value": -0.5454545454545455,
+      "factor": 1,
+      "visual_value": -0.5454545454545455,
+      "format": "+.3f",
+      "label": "-0.545"
+    },
+    {
+      "id": "value_0095",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "n_first",
+      "source_value": 12.0,
+      "factor": 1,
+      "visual_value": 12.0,
+      "format": ".0f",
+      "label": "12"
+    },
+    {
+      "id": "value_0096",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "original_ci_low",
+      "source_value": -0.8893191679169539,
+      "factor": 1,
+      "visual_value": -0.8893191679169539,
+      "format": "+.3f",
+      "label": "-0.889"
+    },
+    {
+      "id": "value_0097",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "original_ci_high",
+      "source_value": 0.0903178184631252,
+      "factor": 1,
+      "visual_value": 0.0903178184631252,
+      "format": "+.3f",
+      "label": "+0.090"
+    },
+    {
+      "id": "value_0098",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_component_out"
+      },
+      "column": "minimum",
+      "source_value": -0.7412587412587414,
+      "factor": 1,
+      "visual_value": -0.7412587412587414,
+      "format": "+.3f",
+      "label": "-0.741"
+    },
+    {
+      "id": "value_0099",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_component_out"
+      },
+      "column": "maximum",
+      "source_value": -0.3286713286713286,
+      "factor": 1,
+      "visual_value": -0.3286713286713286,
+      "format": "+.3f",
+      "label": "-0.329"
+    },
+    {
+      "id": "value_0100",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_component_out"
+      },
+      "column": "reference",
+      "source_value": -0.5454545454545455,
+      "factor": 1,
+      "visual_value": -0.5454545454545455,
+      "format": "+.3f",
+      "label": "-0.545"
+    },
+    {
+      "id": "value_0101",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_donor_out"
+      },
+      "column": "minimum",
+      "source_value": -0.7545454545454545,
+      "factor": 1,
+      "visual_value": -0.7545454545454545,
+      "format": "+.3f",
+      "label": "-0.755"
+    },
+    {
+      "id": "value_0102",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_donor_out"
+      },
+      "column": "maximum",
+      "source_value": -0.4090909090909091,
+      "factor": 1,
+      "visual_value": -0.4090909090909091,
+      "format": "+.3f",
+      "label": "-0.409"
+    },
+    {
+      "id": "value_0103",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix",
+        "diagnostic": "leave_donor_out"
+      },
+      "column": "reference",
+      "source_value": -0.5454545454545455,
+      "factor": 1,
+      "visual_value": -0.5454545454545455,
+      "format": "+.3f",
+      "label": "-0.545"
+    },
+    {
+      "id": "value_0104",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE136831",
+        "population": "Macrophage",
+        "floor": 20,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "n_first",
+      "source_value": 32.0,
+      "factor": 1,
+      "visual_value": 32.0,
+      "format": ".0f",
+      "label": "32"
+    },
+    {
+      "id": "value_0105",
+      "source": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "key": {
+        "cohort": "GSE135893",
+        "population": "external_macrophage_union",
+        "floor": 50,
+        "scope": "all_sources",
+        "kind": "association",
+        "group": "IPF",
+        "measure": "FABP4_vs_matrix"
+      },
+      "column": "n_first",
+      "source_value": 12.0,
+      "factor": 1,
+      "visual_value": 12.0,
+      "format": ".0f",
+      "label": "12"
+    },
+    {
+      "id": "value_0106",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated",
+        "condition": "IL4"
+      },
+      "column": "pair_rows",
+      "source_value": 63592.0,
+      "factor": 1,
+      "visual_value": 63592.0,
+      "format": ",.0f",
+      "label": "63,592"
+    },
+    {
+      "id": "value_0107",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated",
+        "condition": "CTRL"
+      },
+      "column": "pair_rows",
+      "source_value": 63592.0,
+      "factor": 1,
+      "visual_value": 63592.0,
+      "format": ",.0f",
+      "label": "63,592"
+    },
+    {
+      "id": "value_0108",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated",
+        "condition": "IL4"
+      },
+      "column": "mapped_row_spearman",
+      "source_value": 0.0164157366034217,
+      "factor": 1,
+      "visual_value": 0.0164157366034217,
+      "format": "+.5f",
+      "label": "+0.01642"
+    },
+    {
+      "id": "value_0109",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated",
+        "condition": "CTRL"
+      },
+      "column": "mapped_row_spearman",
+      "source_value": 0.0524260097187687,
+      "factor": 1,
+      "visual_value": 0.0524260097187687,
+      "format": "+.5f",
+      "label": "+0.05243"
+    },
+    {
+      "id": "value_0110",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "IL4"
+      },
+      "column": "pair_rows",
+      "source_value": 8834.0,
+      "factor": 1,
+      "visual_value": 8834.0,
+      "format": ",.0f",
+      "label": "8,834"
+    },
+    {
+      "id": "value_0111",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "CTRL"
+      },
+      "column": "pair_rows",
+      "source_value": 8834.0,
+      "factor": 1,
+      "visual_value": 8834.0,
+      "format": ",.0f",
+      "label": "8,834"
+    },
+    {
+      "id": "value_0112",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "IL4"
+      },
+      "column": "mapped_row_spearman",
+      "source_value": -0.0013509263659227,
+      "factor": 1,
+      "visual_value": -0.0013509263659227,
+      "format": "+.5f",
+      "label": "-0.00135"
+    },
+    {
+      "id": "value_0113",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "CTRL"
+      },
+      "column": "mapped_row_spearman",
+      "source_value": 0.0424458687128898,
+      "factor": 1,
+      "visual_value": 0.0424458687128898,
+      "format": "+.5f",
+      "label": "+0.04245"
+    },
+    {
+      "id": "value_0114",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated",
+        "condition": "IL4"
+      },
+      "column": "pair_rows",
+      "source_value": 63346.0,
+      "factor": 1,
+      "visual_value": 63346.0,
+      "format": ",.0f",
+      "label": "63,346"
+    },
+    {
+      "id": "value_0115",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated",
+        "condition": "CTRL"
+      },
+      "column": "pair_rows",
+      "source_value": 63346.0,
+      "factor": 1,
+      "visual_value": 63346.0,
+      "format": ",.0f",
+      "label": "63,346"
+    },
+    {
+      "id": "value_0116",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated",
+        "condition": "IL4"
+      },
+      "column": "mapped_row_spearman",
+      "source_value": 0.0160520711092975,
+      "factor": 1,
+      "visual_value": 0.0160520711092975,
+      "format": "+.5f",
+      "label": "+0.01605"
+    },
+    {
+      "id": "value_0117",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated",
+        "condition": "CTRL"
+      },
+      "column": "mapped_row_spearman",
+      "source_value": 0.0510348984444096,
+      "factor": 1,
+      "visual_value": 0.0510348984444096,
+      "format": "+.5f",
+      "label": "+0.05103"
+    },
+    {
+      "id": "value_0118",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "IL4"
+      },
+      "column": "pair_rows",
+      "source_value": 8785.0,
+      "factor": 1,
+      "visual_value": 8785.0,
+      "format": ",.0f",
+      "label": "8,785"
+    },
+    {
+      "id": "value_0119",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "CTRL"
+      },
+      "column": "pair_rows",
+      "source_value": 8785.0,
+      "factor": 1,
+      "visual_value": 8785.0,
+      "format": ",.0f",
+      "label": "8,785"
+    },
+    {
+      "id": "value_0120",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "IL4"
+      },
+      "column": "mapped_row_spearman",
+      "source_value": -0.0010754930521142,
+      "factor": 1,
+      "visual_value": -0.0010754930521142,
+      "format": "+.5f",
+      "label": "-0.00108"
+    },
+    {
+      "id": "value_0121",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "CTRL"
+      },
+      "column": "mapped_row_spearman",
+      "source_value": 0.0437822459851419,
+      "factor": 1,
+      "visual_value": 0.0437822459851419,
+      "format": "+.5f",
+      "label": "+0.04378"
+    },
+    {
+      "id": "value_0122",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "all_author_annotated",
+        "condition": "IL4"
+      },
+      "column": "pair_rows",
+      "source_value": 63592.0,
+      "factor": 1,
+      "visual_value": 63592.0,
+      "format": ",.0f",
+      "label": "63,592"
+    },
+    {
+      "id": "value_0123",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_ensembl",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "IL4"
+      },
+      "column": "pair_rows",
+      "source_value": 8834.0,
+      "factor": 1,
+      "visual_value": 8834.0,
+      "format": ",.0f",
+      "label": "8,834"
+    },
+    {
+      "id": "value_0124",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "all_author_annotated",
+        "condition": "IL4"
+      },
+      "column": "pair_rows",
+      "source_value": 63346.0,
+      "factor": 1,
+      "visual_value": 63346.0,
+      "format": ",.0f",
+      "label": "63,346"
+    },
+    {
+      "id": "value_0125",
+      "source": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "key": {
+        "mapping_rule": "author_nearest_tss_symbol",
+        "distance_subset": "within_2kb_of_nearest_tss",
+        "condition": "IL4"
+      },
+      "column": "pair_rows",
+      "source_value": 8785.0,
+      "factor": 1,
+      "visual_value": 8785.0,
+      "format": ",.0f",
+      "label": "8,785"
+    }
+  ],
+  "labels": [
+    {
+      "id": "label_0000",
+      "text": "55.908",
+      "value_ids": [
+        "value_0000"
+      ]
+    },
+    {
+      "id": "label_0001",
+      "text": "56.248",
+      "value_ids": [
+        "value_0001"
+      ]
+    },
+    {
+      "id": "label_0002",
+      "text": "+0.340 pp",
+      "value_ids": [
+        "value_0002"
+      ]
+    },
+    {
+      "id": "label_0003",
+      "text": "7,667 / 13,602 genes",
+      "value_ids": [
+        "value_0004",
+        "value_0005"
+      ]
+    },
+    {
+      "id": "label_0004",
+      "text": "56.37%",
+      "value_ids": [
+        "value_0003"
+      ]
+    },
+    {
+      "id": "label_0005",
+      "text": "62.890",
+      "value_ids": [
+        "value_0006"
+      ]
+    },
+    {
+      "id": "label_0006",
+      "text": "63.105",
+      "value_ids": [
+        "value_0007"
+      ]
+    },
+    {
+      "id": "label_0007",
+      "text": "+0.215 pp",
+      "value_ids": [
+        "value_0008"
+      ]
+    },
+    {
+      "id": "label_0008",
+      "text": "632 / 7,067 genes",
+      "value_ids": [
+        "value_0010",
+        "value_0011"
+      ]
+    },
+    {
+      "id": "label_0009",
+      "text": "8.94%",
+      "value_ids": [
+        "value_0009"
+      ]
+    },
+    {
+      "id": "label_0010",
+      "text": "55.858",
+      "value_ids": [
+        "value_0012"
+      ]
+    },
+    {
+      "id": "label_0011",
+      "text": "56.254",
+      "value_ids": [
+        "value_0013"
+      ]
+    },
+    {
+      "id": "label_0012",
+      "text": "+0.396 pp",
+      "value_ids": [
+        "value_0014"
+      ]
+    },
+    {
+      "id": "label_0013",
+      "text": "7,652 / 13,571 genes",
+      "value_ids": [
+        "value_0016",
+        "value_0017"
+      ]
+    },
+    {
+      "id": "label_0014",
+      "text": "56.38%",
+      "value_ids": [
+        "value_0015"
+      ]
+    },
+    {
+      "id": "label_0015",
+      "text": "62.897",
+      "value_ids": [
+        "value_0018"
+      ]
+    },
+    {
+      "id": "label_0016",
+      "text": "63.093",
+      "value_ids": [
+        "value_0019"
+      ]
+    },
+    {
+      "id": "label_0017",
+      "text": "+0.196 pp",
+      "value_ids": [
+        "value_0020"
+      ]
+    },
+    {
+      "id": "label_0018",
+      "text": "622 / 7,039 genes",
+      "value_ids": [
+        "value_0022",
+        "value_0023"
+      ]
+    },
+    {
+      "id": "label_0019",
+      "text": "8.84%",
+      "value_ids": [
+        "value_0021"
+      ]
+    },
+    {
+      "id": "label_0020",
+      "text": "Region weight",
+      "value_ids": []
+    },
+    {
+      "id": "label_0021",
+      "text": "Equal gene weight",
+      "value_ids": []
+    },
+    {
+      "id": "label_0022",
+      "text": "Shift (pp)",
+      "value_ids": []
+    },
+    {
+      "id": "label_0023",
+      "text": "+0.172 [-0.250, +0.591]",
+      "value_ids": [
+        "value_0026",
+        "value_0027",
+        "value_0028"
+      ]
+    },
+    {
+      "id": "label_0024",
+      "text": "+1.139 [+0.824, +1.459]",
+      "value_ids": [
+        "value_0029",
+        "value_0030",
+        "value_0031"
+      ]
+    },
+    {
+      "id": "label_0025",
+      "text": "-0.487 [-0.999, +0.044]",
+      "value_ids": [
+        "value_0034",
+        "value_0035",
+        "value_0036"
+      ]
+    },
+    {
+      "id": "label_0026",
+      "text": "+1.283 [+0.893, +1.648]",
+      "value_ids": [
+        "value_0037",
+        "value_0038",
+        "value_0039"
+      ]
+    },
+    {
+      "id": "label_0027",
+      "text": "-0.891 [-1.688, -0.070]",
+      "value_ids": [
+        "value_0042",
+        "value_0043",
+        "value_0044"
+      ]
+    },
+    {
+      "id": "label_0028",
+      "text": "+2.230 [+1.394, +3.111]",
+      "value_ids": [
+        "value_0045",
+        "value_0046",
+        "value_0047"
+      ]
+    },
+    {
+      "id": "label_0029",
+      "text": "-0.841 [-1.936, +0.446]",
+      "value_ids": [
+        "value_0050",
+        "value_0051",
+        "value_0052"
+      ]
+    },
+    {
+      "id": "label_0030",
+      "text": "+2.509 [+1.337, +3.662]",
+      "value_ids": [
+        "value_0053",
+        "value_0054",
+        "value_0055"
+      ]
+    },
+    {
+      "id": "label_0031",
+      "text": "-0.919 [-1.710, -0.056]",
+      "value_ids": [
+        "value_0058",
+        "value_0059",
+        "value_0060"
+      ]
+    },
+    {
+      "id": "label_0032",
+      "text": "+2.233 [+1.334, +3.083]",
+      "value_ids": [
+        "value_0061",
+        "value_0062",
+        "value_0063"
+      ]
+    },
+    {
+      "id": "label_0033",
+      "text": "-0.878 [-1.913, +0.294]",
+      "value_ids": [
+        "value_0066",
+        "value_0067",
+        "value_0068"
+      ]
+    },
+    {
+      "id": "label_0034",
+      "text": "+2.530 [+1.377, +3.618]",
+      "value_ids": [
+        "value_0069",
+        "value_0070",
+        "value_0071"
+      ]
+    },
+    {
+      "id": "label_0035",
+      "text": "GSE136831 | Macrophage >=20 cells\nAll sources\n32 IPF / 28 Control donors",
+      "value_ids": [
+        "value_0072",
+        "value_0073"
+      ]
+    },
+    {
+      "id": "label_0036",
+      "text": "GSE136831 | AllMacrophages >=50\nAll sources\n32 IPF / 27 Control donors",
+      "value_ids": [
+        "value_0074",
+        "value_0075"
+      ]
+    },
+    {
+      "id": "label_0037",
+      "text": "GSE135893 | macrophage union >=50\nAll sources\n12 IPF / 9 Control donors",
+      "value_ids": [
+        "value_0076",
+        "value_0077"
+      ]
+    },
+    {
+      "id": "label_0038",
+      "text": "GSE135893 | macrophage union >=50\nVanderbilt only\n7 IPF / 6 Control donors",
+      "value_ids": [
+        "value_0078",
+        "value_0079"
+      ]
+    },
+    {
+      "id": "label_0039",
+      "text": "GSE135893 | Macrophages only >=50\nAll sources\n12 IPF / 9 Control donors",
+      "value_ids": [
+        "value_0080",
+        "value_0081"
+      ]
+    },
+    {
+      "id": "label_0040",
+      "text": "GSE135893 | Macrophages only >=50\nVanderbilt only\n7 IPF / 6 Control donors",
+      "value_ids": [
+        "value_0082",
+        "value_0083"
+      ]
+    },
+    {
+      "id": "label_0041",
+      "text": "-0.624 [-0.804, -0.339]",
+      "value_ids": [
+        "value_0084",
+        "value_0086",
+        "value_0087"
+      ]
+    },
+    {
+      "id": "label_0042",
+      "text": "-0.624 [-0.675, -0.470]",
+      "value_ids": [
+        "value_0084",
+        "value_0088",
+        "value_0089"
+      ]
+    },
+    {
+      "id": "label_0043",
+      "text": "-0.624 [-0.690, -0.587]",
+      "value_ids": [
+        "value_0084",
+        "value_0091",
+        "value_0092"
+      ]
+    },
+    {
+      "id": "label_0044",
+      "text": "-0.545 [-0.889, +0.090]",
+      "value_ids": [
+        "value_0094",
+        "value_0096",
+        "value_0097"
+      ]
+    },
+    {
+      "id": "label_0045",
+      "text": "-0.545 [-0.741, -0.329]",
+      "value_ids": [
+        "value_0094",
+        "value_0098",
+        "value_0099"
+      ]
+    },
+    {
+      "id": "label_0046",
+      "text": "-0.545 [-0.755, -0.409]",
+      "value_ids": [
+        "value_0094",
+        "value_0101",
+        "value_0102"
+      ]
+    },
+    {
+      "id": "label_0047",
+      "text": "Primary Macrophage >=20 cells\nGSE136831 | 32 IPF donors",
+      "value_ids": [
+        "value_0104"
+      ]
+    },
+    {
+      "id": "label_0048",
+      "text": "External macrophage union >=50\nGSE135893 | 12 IPF donors",
+      "value_ids": [
+        "value_0105"
+      ]
+    },
+    {
+      "id": "label_0049",
+      "text": "Black points: unchanged full estimate in every panel",
+      "value_ids": []
+    },
+    {
+      "id": "label_0050",
+      "text": "+0.01642",
+      "value_ids": [
+        "value_0108"
+      ]
+    },
+    {
+      "id": "label_0051",
+      "text": "+0.05243",
+      "value_ids": [
+        "value_0109"
+      ]
+    },
+    {
+      "id": "label_0052",
+      "text": "-0.00135",
+      "value_ids": [
+        "value_0112"
+      ]
+    },
+    {
+      "id": "label_0053",
+      "text": "+0.04245",
+      "value_ids": [
+        "value_0113"
+      ]
+    },
+    {
+      "id": "label_0054",
+      "text": "+0.01605",
+      "value_ids": [
+        "value_0116"
+      ]
+    },
+    {
+      "id": "label_0055",
+      "text": "+0.05103",
+      "value_ids": [
+        "value_0117"
+      ]
+    },
+    {
+      "id": "label_0056",
+      "text": "-0.00108",
+      "value_ids": [
+        "value_0120"
+      ]
+    },
+    {
+      "id": "label_0057",
+      "text": "+0.04378",
+      "value_ids": [
+        "value_0121"
+      ]
+    },
+    {
+      "id": "label_0058",
+      "text": "Ensembl | all annotated\n63,592 mapped rows",
+      "value_ids": [
+        "value_0122"
+      ]
+    },
+    {
+      "id": "label_0059",
+      "text": "Ensembl | nearest TSS <=2 kb\n8,834 mapped rows",
+      "value_ids": [
+        "value_0123"
+      ]
+    },
+    {
+      "id": "label_0060",
+      "text": "Nearest symbol | all annotated\n63,346 mapped rows",
+      "value_ids": [
+        "value_0124"
+      ]
+    },
+    {
+      "id": "label_0061",
+      "text": "Nearest symbol | TSS <=2 kb\n8,785 mapped rows",
+      "value_ids": [
+        "value_0125"
+      ]
+    }
+  ],
+  "coordinates": [
+    {
+      "id": "coordinate_0000",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0000"
+      ],
+      "observed": [
+        55.90759181582402
+      ]
+    },
+    {
+      "id": "coordinate_0001",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0001"
+      ],
+      "observed": [
+        56.24783736762971
+      ]
+    },
+    {
+      "id": "coordinate_0002",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0003"
+      ],
+      "observed": [
+        56.36671077782679
+      ]
+    },
+    {
+      "id": "coordinate_0003",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0006"
+      ],
+      "observed": [
+        62.89026629935721
+      ]
+    },
+    {
+      "id": "coordinate_0004",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0007"
+      ],
+      "observed": [
+        63.104806377057685
+      ]
+    },
+    {
+      "id": "coordinate_0005",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0009"
+      ],
+      "observed": [
+        8.942974388000561
+      ]
+    },
+    {
+      "id": "coordinate_0006",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0012"
+      ],
+      "observed": [
+        55.85833252950066
+      ]
+    },
+    {
+      "id": "coordinate_0007",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0013"
+      ],
+      "observed": [
+        56.254201584314465
+      ]
+    },
+    {
+      "id": "coordinate_0008",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0015"
+      ],
+      "observed": [
+        56.38493847174121
+      ]
+    },
+    {
+      "id": "coordinate_0009",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0018"
+      ],
+      "observed": [
+        62.89671090594345
+      ]
+    },
+    {
+      "id": "coordinate_0010",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0019"
+      ],
+      "observed": [
+        63.09300563527016
+      ]
+    },
+    {
+      "id": "coordinate_0011",
+      "kind": "bar_width",
+      "value_ids": [
+        "value_0021"
+      ],
+      "observed": [
+        8.83648245489416
+      ]
+    },
+    {
+      "id": "coordinate_0012",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0027",
+        "value_0028"
+      ],
+      "observed": [
+        -0.2495944196450068,
+        0.5911228520244542
+      ]
+    },
+    {
+      "id": "coordinate_0013",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0026"
+      ],
+      "observed": [
+        0.1716978867073741
+      ]
+    },
+    {
+      "id": "coordinate_0014",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0030",
+        "value_0031"
+      ],
+      "observed": [
+        0.824438506946953,
+        1.4593450504530894
+      ]
+    },
+    {
+      "id": "coordinate_0015",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0029"
+      ],
+      "observed": [
+        1.1391839400937045
+      ]
+    },
+    {
+      "id": "coordinate_0016",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0035",
+        "value_0036"
+      ],
+      "observed": [
+        -0.9986681736432168,
+        0.044152568258598
+      ]
+    },
+    {
+      "id": "coordinate_0017",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0034"
+      ],
+      "observed": [
+        -0.4868584855961311
+      ]
+    },
+    {
+      "id": "coordinate_0018",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0038",
+        "value_0039"
+      ],
+      "observed": [
+        0.8925833541095303,
+        1.6477405935553868
+      ]
+    },
+    {
+      "id": "coordinate_0019",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0037"
+      ],
+      "observed": [
+        1.282672552121732
+      ]
+    },
+    {
+      "id": "coordinate_0020",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0043",
+        "value_0044"
+      ],
+      "observed": [
+        -1.688394052876712,
+        -0.0695246664935854
+      ]
+    },
+    {
+      "id": "coordinate_0021",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0042"
+      ],
+      "observed": [
+        -0.891084907988624
+      ]
+    },
+    {
+      "id": "coordinate_0022",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0046",
+        "value_0047"
+      ],
+      "observed": [
+        1.3941721010988342,
+        3.110736866419754
+      ]
+    },
+    {
+      "id": "coordinate_0023",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0045"
+      ],
+      "observed": [
+        2.230232274155636
+      ]
+    },
+    {
+      "id": "coordinate_0024",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0051",
+        "value_0052"
+      ],
+      "observed": [
+        -1.935687012941518,
+        0.4462787451966913
+      ]
+    },
+    {
+      "id": "coordinate_0025",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0050"
+      ],
+      "observed": [
+        -0.8405468709116084
+      ]
+    },
+    {
+      "id": "coordinate_0026",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0054",
+        "value_0055"
+      ],
+      "observed": [
+        1.33658420912727,
+        3.6616604175092777
+      ]
+    },
+    {
+      "id": "coordinate_0027",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0053"
+      ],
+      "observed": [
+        2.5087082431935563
+      ]
+    },
+    {
+      "id": "coordinate_0028",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0059",
+        "value_0060"
+      ],
+      "observed": [
+        -1.710179033573204,
+        -0.0564992537954194
+      ]
+    },
+    {
+      "id": "coordinate_0029",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0058"
+      ],
+      "observed": [
+        -0.9194687395745388
+      ]
+    },
+    {
+      "id": "coordinate_0030",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0062",
+        "value_0063"
+      ],
+      "observed": [
+        1.3341081079720911,
+        3.0831321837867485
+      ]
+    },
+    {
+      "id": "coordinate_0031",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0061"
+      ],
+      "observed": [
+        2.23336524614749
+      ]
+    },
+    {
+      "id": "coordinate_0032",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0067",
+        "value_0068"
+      ],
+      "observed": [
+        -1.913197266654328,
+        0.2939859204890578
+      ]
+    },
+    {
+      "id": "coordinate_0033",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0066"
+      ],
+      "observed": [
+        -0.8783853220734104
+      ]
+    },
+    {
+      "id": "coordinate_0034",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0070",
+        "value_0071"
+      ],
+      "observed": [
+        1.3774874862341435,
+        3.618180259248864
+      ]
+    },
+    {
+      "id": "coordinate_0035",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0069"
+      ],
+      "observed": [
+        2.529920369834967
+      ]
+    },
+    {
+      "id": "coordinate_0036",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0086",
+        "value_0087"
+      ],
+      "observed": [
+        -0.804377806799092,
+        -0.3386296585830235
+      ]
+    },
+    {
+      "id": "coordinate_0037",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0084"
+      ],
+      "observed": [
+        -0.6242668621700879
+      ]
+    },
+    {
+      "id": "coordinate_0038",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0088",
+        "value_0089"
+      ],
+      "observed": [
+        -0.6748533724340176,
+        -0.469941348973607
+      ]
+    },
+    {
+      "id": "coordinate_0039",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0084"
+      ],
+      "observed": [
+        -0.6242668621700879
+      ]
+    },
+    {
+      "id": "coordinate_0040",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0091",
+        "value_0092"
+      ],
+      "observed": [
+        -0.6895161290322581,
+        -0.5870967741935484
+      ]
+    },
+    {
+      "id": "coordinate_0041",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0084"
+      ],
+      "observed": [
+        -0.6242668621700879
+      ]
+    },
+    {
+      "id": "coordinate_0042",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0096",
+        "value_0097"
+      ],
+      "observed": [
+        -0.8893191679169539,
+        0.0903178184631252
+      ]
+    },
+    {
+      "id": "coordinate_0043",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0094"
+      ],
+      "observed": [
+        -0.5454545454545455
+      ]
+    },
+    {
+      "id": "coordinate_0044",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0098",
+        "value_0099"
+      ],
+      "observed": [
+        -0.7412587412587414,
+        -0.3286713286713286
+      ]
+    },
+    {
+      "id": "coordinate_0045",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0094"
+      ],
+      "observed": [
+        -0.5454545454545455
+      ]
+    },
+    {
+      "id": "coordinate_0046",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0101",
+        "value_0102"
+      ],
+      "observed": [
+        -0.7545454545454545,
+        -0.4090909090909091
+      ]
+    },
+    {
+      "id": "coordinate_0047",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0094"
+      ],
+      "observed": [
+        -0.5454545454545455
+      ]
+    },
+    {
+      "id": "coordinate_0048",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0108"
+      ],
+      "observed": [
+        0.0164157366034217
+      ]
+    },
+    {
+      "id": "coordinate_0049",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0109"
+      ],
+      "observed": [
+        0.0524260097187687
+      ]
+    },
+    {
+      "id": "coordinate_0050",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0112"
+      ],
+      "observed": [
+        -0.0013509263659227
+      ]
+    },
+    {
+      "id": "coordinate_0051",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0113"
+      ],
+      "observed": [
+        0.0424458687128898
+      ]
+    },
+    {
+      "id": "coordinate_0052",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0116"
+      ],
+      "observed": [
+        0.0160520711092975
+      ]
+    },
+    {
+      "id": "coordinate_0053",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0117"
+      ],
+      "observed": [
+        0.0510348984444096
+      ]
+    },
+    {
+      "id": "coordinate_0054",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0120"
+      ],
+      "observed": [
+        -0.0010754930521142
+      ]
+    },
+    {
+      "id": "coordinate_0055",
+      "kind": "line_x",
+      "value_ids": [
+        "value_0121"
+      ],
+      "observed": [
+        0.0437822459851419
+      ]
+    }
+  ]
+}
