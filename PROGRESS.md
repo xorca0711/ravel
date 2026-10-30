@@ -1,5 +1,31 @@
 # Current project state
 
+## Yadav execution chat and continuing review launched — 30 October 2026
+
+The owner authorized a separate technical chat and continuing stepwise review
+until all scoped jobs are completed or have concrete evidence-backed holds with
+no feasible authorized work remaining. The validated proposal is committed at
+`90273d0a1f5a0b23c6fa65a8b320d7efdb349070`; fetched main remains `28fb610`.
+
+Execution chat: `01a18ba9-2ee9-72d0-a6f0-2c77bf838a75` (local). It is active and
+was instructed to create its own scoped worktree from that exact handoff, preserve
+the original/review checkouts, and return a stable source-qualification checkpoint
+before dependent effect analyses. The first review requires the supporting-values
+workbook/replicate map, GEO specimen/preparation evidence, ambiguity resolutions,
+and a per-job eligible/held ledger with contracts and receipts where required.
+
+Heartbeat `review-yadav-analysis-checkpoints` is active every ten minutes in this
+review chat. It checks progress, reviews exact artifacts, sends authorized feedback
+and successive bounded jobs, and continues independent eligible work despite
+branch-specific holds. It reports meaningful changes only and pauses on final
+reviewed disposition. Last execution cursor: `51593419-65e5-454d-96df-3e67caaaccb8:1`.
+
+No numerical result has yet been delivered or accepted. Next: review the executor's
+first committed checkpoint, then authorize eligible reconstruction jobs or request
+specific repairs. Previous proposal validations remain valid; this coordination
+entry changes no analysis, scientific claim or governance. No remote publication,
+Notion write or external message outside the authorized execution chat occurred.
+
 ## Yadav reading synthesis and analysis proposal — 30 October 2026
 
 Checked current main, the supplied article/supplement and owner-provided reading
