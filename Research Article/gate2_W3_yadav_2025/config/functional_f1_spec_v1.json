@@ -1,0 +1,160 @@
+{
+  "job": "F1",
+  "title": "Human lung slices: published source values",
+  "footnote": "Dots are slices; horizontal bars are means. Donor maps are missing: no patient effects or intervals.",
+  "panels": [
+    {
+      "id": "3B_PCLS",
+      "sheet": "3b",
+      "title": "Fig. 3B | PCLS ornithine",
+      "unit": "Relative to untreated",
+      "groups": [
+        {
+          "id": "control",
+          "label": "Untreated",
+          "cells": [
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7",
+            "D8",
+            "D9",
+            "D10",
+            "D11",
+            "D12",
+            "D13",
+            "D14",
+            "D15",
+            "D16",
+            "D17"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "cb",
+          "label": "CB-1158",
+          "cells": [
+            "E2",
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "E7",
+            "E8",
+            "E9",
+            "E10",
+            "E11",
+            "E12",
+            "E13",
+            "E14",
+            "E15",
+            "E16",
+            "E17"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "cb",
+          "control"
+        ]
+      ],
+      "limit": "16 slices per arm from three reported patients; patient and normalization maps missing."
+    },
+    {
+      "id": "3D",
+      "sheet": "3d",
+      "title": "Fig. 3D | COL1A1 / GAPDH",
+      "unit": "Relative to untreated",
+      "groups": [
+        {
+          "id": "control",
+          "label": "Untreated",
+          "cells": [
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "cb",
+          "label": "CB-1158",
+          "cells": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "cb",
+          "control"
+        ]
+      ],
+      "limit": "Eight source values per arm; three patients; slice-to-patient and raw denominator maps absent."
+    },
+    {
+      "id": "5A",
+      "sheet": "5a",
+      "title": "Fig. 5A | PCLS ARG1",
+      "unit": "ARG1 (pg/mL)",
+      "groups": [
+        {
+          "id": "control",
+          "label": "Untreated",
+          "cells": [
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9",
+            "A10"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "toci",
+          "label": "Tocilizumab",
+          "cells": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9",
+            "B10"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "toci",
+          "control"
+        ]
+      ],
+      "limit": "Nine slices per arm; three patients; do not assign consecutive triples to patients."
+    }
+  ]
+}

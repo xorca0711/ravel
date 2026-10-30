@@ -1,0 +1,347 @@
+{
+  "job": "F2",
+  "title": "Human cocultures: donor-combination source descriptions",
+  "footnote": "Dots are technical/culture values; bars are donor-combination means. Shared endpoints are dependent; no well pairing.",
+  "panels": [
+    {
+      "id": "5D",
+      "sheet": "5d",
+      "title": "Fig. 5D | COL1A1",
+      "unit": "COL1A1 MFI",
+      "groups": [
+        {
+          "id": "fib",
+          "label": "Fib alone",
+          "cells": [
+            "B2",
+            "C2",
+            "D2"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "co",
+          "label": "Coculture",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "block",
+          "label": "Tocilizumab",
+          "cells": [
+            "B4",
+            "C4",
+            "D4"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "fib",
+          "label": "Fib alone",
+          "cells": [
+            "E2",
+            "F2",
+            "G2"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "co",
+          "label": "Coculture",
+          "cells": [
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "block",
+          "label": "Tocilizumab",
+          "cells": [
+            "E4",
+            "F4",
+            "G4"
+          ],
+          "donor": "Donor 2"
+        }
+      ],
+      "pairs": [
+        [
+          "co",
+          "fib"
+        ],
+        [
+          "block",
+          "co"
+        ]
+      ],
+      "limit": "Two donor combinations; same cocultures for D-F; 5d D2 missing. No well matching."
+    },
+    {
+      "id": "5E",
+      "sheet": "5e",
+      "title": "Fig. 5E | ARG1",
+      "unit": "ARG1 (pg/mL)",
+      "groups": [
+        {
+          "id": "fib",
+          "label": "Fib alone",
+          "cells": [
+            "B2",
+            "C2",
+            "D2"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "co",
+          "label": "Coculture",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "block",
+          "label": "Tocilizumab",
+          "cells": [
+            "B4",
+            "C4",
+            "D4"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "fib",
+          "label": "Fib alone",
+          "cells": [
+            "E2",
+            "F2",
+            "G2"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "co",
+          "label": "Coculture",
+          "cells": [
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "block",
+          "label": "Tocilizumab",
+          "cells": [
+            "E4",
+            "F4",
+            "G4"
+          ],
+          "donor": "Donor 2"
+        }
+      ],
+      "pairs": [
+        [
+          "co",
+          "fib"
+        ],
+        [
+          "block",
+          "co"
+        ]
+      ],
+      "limit": "Two donor combinations; same cocultures for D-F; 5d D2 missing. No well matching."
+    },
+    {
+      "id": "5F",
+      "sheet": "5f",
+      "title": "Fig. 5F | Ornithine",
+      "unit": "Ornithine (micromolar)",
+      "groups": [
+        {
+          "id": "fib",
+          "label": "Fib alone",
+          "cells": [
+            "B2",
+            "C2",
+            "D2"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "co",
+          "label": "Coculture",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "block",
+          "label": "Tocilizumab",
+          "cells": [
+            "B4",
+            "C4",
+            "D4"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "fib",
+          "label": "Fib alone",
+          "cells": [
+            "E2",
+            "F2",
+            "G2"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "co",
+          "label": "Coculture",
+          "cells": [
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "block",
+          "label": "Tocilizumab",
+          "cells": [
+            "E4",
+            "F4",
+            "G4"
+          ],
+          "donor": "Donor 2"
+        }
+      ],
+      "pairs": [
+        [
+          "co",
+          "fib"
+        ],
+        [
+          "block",
+          "co"
+        ]
+      ],
+      "limit": "Two donor combinations; same cocultures for D-F; 5d D2 missing. No well matching."
+    },
+    {
+      "id": "6G",
+      "sheet": "6g",
+      "title": "Fig. 6G | IL-6",
+      "unit": "IL-6 (pg/mL)",
+      "groups": [
+        {
+          "id": "fib",
+          "label": "Fib alone",
+          "cells": [
+            "B2",
+            "C2",
+            "D2"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "neut",
+          "label": "Neutrophils\nalone",
+          "cells": [
+            "B3",
+            "C3",
+            "D3"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "co",
+          "label": "Coculture",
+          "cells": [
+            "B4",
+            "C4",
+            "D4"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "block",
+          "label": "P2RX4\ninhibitor",
+          "cells": [
+            "B5",
+            "C5",
+            "D5"
+          ],
+          "donor": "Donor 1"
+        },
+        {
+          "id": "fib",
+          "label": "Fib alone",
+          "cells": [
+            "E2",
+            "F2",
+            "G2"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "neut",
+          "label": "Neutrophils\nalone",
+          "cells": [
+            "E3",
+            "F3",
+            "G3"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "co",
+          "label": "Coculture",
+          "cells": [
+            "E4",
+            "F4",
+            "G4"
+          ],
+          "donor": "Donor 2"
+        },
+        {
+          "id": "block",
+          "label": "P2RX4\ninhibitor",
+          "cells": [
+            "E5",
+            "F5",
+            "G5"
+          ],
+          "donor": "Donor 2"
+        }
+      ],
+      "pairs": [
+        [
+          "co",
+          "fib"
+        ],
+        [
+          "co",
+          "neut"
+        ],
+        [
+          "block",
+          "co"
+        ]
+      ],
+      "limit": "Two donor combinations; technical replicates; donor overlap with Fig.5 not established."
+    }
+  ]
+}

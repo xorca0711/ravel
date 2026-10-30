@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.functional_f3_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Reconstruct F3 published source-value condition contrasts within their qualified units and original measured endpoints.",
+  "decision": "Assess numerical concordance with the source figures and identify observed direction, donor heterogeneity and unresolved design limits before later biological synthesis.",
+  "strongest_rival": "Nested measurements, normalization, culture selection, source-label ambiguity and unknown assignment can create apparent effects that are not independent population responses.",
+  "discriminator": "Use only fixed panel/cell ranges and contrasts, preserve every condition and missing value, distinguish technical spread from biological-unit uncertainty, and verify against the original workbook.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md",
+    "Research Article/gate2_W3_yadav_2025/EXECUTION_DESIGN.md",
+    "Research Article/gate2_W3_yadav_2025/README.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All publication outcomes and source workbook values were viewed during source qualification before this freeze. This is an exposed source reconstruction, never independent replication or confirmation.",
+  "biological_unit": "Reported source animals, independently treated as unpaired groups for conditional interval estimation; anonymous source identities and allocation remain unavailable.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "No inferred row/well/sample pairing. F1 slices nest in unidentified patients; F2 technical values nest in two donor combinations with shared endpoints; F4/F5 preparation identities are unknown. Source panels are reused published data.",
+  "population_and_selection": "Every value in the frozen per-job cell-range specification from official JCI188734 Supporting Data Values; no outcome-based selection.",
+  "contrast": "{\"3B_mouse\": [[\"cb\", \"control\"]], \"3E\": [[\"ko\", \"control\"]]}",
+  "endpoint": "3B_mouse: Fig. 3B | Lung ornithine [Ornithine (micromolar)]; 3E: Fig. 3E | Lung hydroxyproline [Hydroxyproline (mg/mL)]",
+  "methods": "Fixed cell-range extraction from the hash-locked metadata view of the official workbook; observed counts, arithmetic mean, SD and range; target minus reference mean differences; raw-point/mean plots. Unpaired Welch-Satterthwaite two-sided 95% t intervals for the two reported animal-group differences, no p-values.",
+  "missingness_and_exclusions": "Retain every listed value and real zero. 5d D2 alone is an allowed source blank; never impute it. Unexpected missing source cells or nonnumeric/nonfinite values stop the run. No de-normalization of source values.",
+  "multiplicity": "No hypothesis tests, significance filtering or equivalence decisions. Every prespecified contrast retained.",
+  "precision_status": "unknown",
+  "precision_basis": "Welch intervals describe conditional sampling uncertainty assuming independent source animals; no biological margin, power, batch or allocation qualification is invented.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Outcome-exposed source arithmetic only. No independent replication, patient effect from unassigned slices, source-cell mediation, flux, repair function or scientific acceptance. Panel-specific limits stay attached to figures and results.",
+  "stop_rule": "Stop after the fixed functional source summaries and plots. Preserve unfavorable directions, blanks and failures. RNA integrity and annotation require separate frozen contracts.",
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/JCI188734.sdval.xlsx",
+      "sha256": "7e8e08ec935c23bcee3fc7a4059f4a13913dd04932759968c73d47d33ac80759",
+      "study_id": "Yadav2025_JCI188734",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/workbook_cells.tsv",
+      "sha256": "a2b843f27989b3068b6d5cf39dcc710bb19437e76dd1bc4f77bac3139b0e6e29",
+      "study_id": "Yadav2025_JCI188734",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/reconstruct_functional_v1.py",
+      "sha256": "dcd3c6c2433c60f51df1552754d2b3da8935b4372afb519d64a4aece909bf530"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/config/functional_f3_spec_v1.json",
+      "sha256": "69e9615fc8c62b9b33f5ed91d6ae731747b85e02b11178e2e292b2110eb58a6c"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/scripts/reconstruct_functional_v1.py",
+  "arguments": [
+    "--spec",
+    "Research Article/gate2_W3_yadav_2025/config/functional_f3_spec_v1.json",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "observations.csv",
+    "group_summaries.csv",
+    "contrasts.csv",
+    "figure.png",
+    "figure.pdf",
+    "runtime.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed functional source reconstruction following the reviewed metadata checkpoint."
+}
