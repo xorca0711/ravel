@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.presentation_figures_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Can four readable presentation derivatives communicate the already reviewed F1, F2 and F4 results without changing numerical evidence or conflating sampling intervals with omission ranges?",
+  "decision": "Replace only the presentation role of the crowded F1 plot and add three fixed summaries to the parent-owned gallery; preserve all10 original PNGs and every frozen numerical output.",
+  "strongest_rival": "Crowded labels, changing source definitions, truncated correlation scales or treating deterministic omission ranges as confidence intervals can misrepresent the exposed evidence.",
+  "discriminator": "Exact source-row/value/label/coordinate parity, six fixed human scopes with n/annotation/floor/site labels, separate original uncertainty and omission-range panels, full Spearman scale, compact purpose/result/limit footers and four-page visual/bounds review.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All displayed F1/F2/F4 outcomes and original figures are exposed and independently technically reviewed. This package is an outcome-exposed presentation derivative, not a new numerical analysis, statistical validation, biological replication or scientific acceptance.",
+  "biological_unit": "Original human donor for F2; source mouse/preparation groups for F1/F4 with unresolved pairing/batch identities. Mapped genes/regions remain dependent features; the renderer adds no units.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "All plates reuse frozen tables and underlying source libraries/donors. Six human scopes overlap; primary panel derivation reused its source atlas. Related annotation rules largely coincide. No independent replication from multiple panels/plots.",
+  "population_and_selection": "F1 all four existing mapping/subset rows. F2 IPF-Control two fixed panels over all six existing cohort/annotation/site scopes; within-IPF coupling for primary Macrophage20 and external union50 all_sources only. F4 both source-labelled IL4/CTRL across all four existing mapping/subsets. No new selection by outcome.",
+  "contrast": "Copy saved pair/equal-gene fractions and pp shifts; full IPF-Control donor contrasts with original intervals/n; full within-IPF correlations alongside separate saved LOCO/LODO ranges; mapped-row RNA/ATAC correlations for separate within-condition cKO-WT effects.",
+  "endpoint": "Four plates in genuine vector SVG/PDF and300-dpiPNG; four-page PDF bundle; render inventory/record with input/code hashes; deterministic source/value/label/artist-coordinate verification and caption/text bounds.",
+  "methods": "Matplotlib white background, restrained palette, short horizontal row labels, meaningful A/B/C panel labels and2-3-line footnotes <=65words at9pt. Percentage conversion and formatting only. Source CSV scalar verification is independent of pandas row selection; verify artist x coordinates/bar widths and exported SVG text. Require no embedded SVG/PDF raster images, exact PNG DPI/pixels, four PDF pages and all visible text inside canvas without overlap. Original F2 bootstrap intervals are copied, never recomputed. Separate omission ranges from intervals and retain external interval spanning zero. F4 uses full[-1,+1] scale, exact small values, dependent-row caveat and GRIP1/NCOA2 context. Parent and executor inspect all PNG/PDF pages after execution.",
+  "missingness_and_exclusions": "Stop on nonunique or unavailable requested source values, source-reference mismatch, missing labels or failed layout/export checks. No omissions of unfavorable estimates, missing-as-zero, new donors or biological thresholds. Existing held analyses stay held and are not rendered as null results.",
+  "multiplicity": "No new p-values, intervals, significance stars, effect tests, target ranking or biological fits; all fixed displayed scopes retained.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No new uncertainty estimate. Copy original pointwise95%bootstrap intervals and label deterministic single-omission ranges separately; rendering does not change their scientific precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Presentation derivatives do not narrow intervals, establish transport/causality, infer pathway activity/repair/secretion, validate an original infection-context mechanism or change scientific acceptance. F1 replacement is editorial only; no numerical contract/result is superseded.",
+  "stop_rule": "Stop on input/hash/value/label/coordinate/layout/vector/export disagreement. Freeze before rendering real source tables. Retain failed run/version if a governed iteration is needed; never overwrite original or frozen figures.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "sha256": "fd8df7a78df502a718d920bdb4f15b15c84bb27c6a228afe2d2cb32d267b09ad",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "sha256": "5a1ffd702321066c0469c6affda7a3dba48d97e92b0ae59ee285c67c4c0f0b63",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "sha256": "b55f8fdd40de8366b0a296586772f37cf0a3e728ae4f33e7587d9c574577d7be",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "sha256": "a7819f3ab30905720fff35b35817e6b2a06c11c460cfc19cc1547c58068a2ccc",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/receipt.json",
+      "sha256": "9e422fd25938a9c0ff43f9ba3b6384475f08a9c6c25b1df8e983d274b19ef718",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/receipt.json",
+      "sha256": "e918132f9fb74ee29ac946ce989c003fd1b2dae465e1ac7d51c45aa7d0973b71",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/receipt.json",
+      "sha256": "f66ded2882b77b41bd0ba902ae77cec6f8b49bd70419a93ad5b35afacdb1e12d",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/presentation_parameters_v1.json",
+      "sha256": "7fb3fe1049c80d7dde13d6f8437182bd1392e9f416365065fa22e6130f61edfc",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/presentation_figures_v1.py",
+      "sha256": "32da0f167fa615f94917b538e6f70c9b304078ee02676a89cbfd74b8b6cba2eb"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/presentation_parameters_v1.json",
+      "sha256": "7fb3fe1049c80d7dde13d6f8437182bd1392e9f416365065fa22e6130f61edfc"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_presentation_figures_v1.py",
+      "sha256": "ca725e85025375d1e4578b2d61bd3c0d40baa7077c14f4747e34b23cb5abe3a6"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/presentation_figures_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "01_representation_weighting_v1.png",
+    "01_representation_weighting_v1.svg",
+    "01_representation_weighting_v1.pdf",
+    "02_human_contrasts_v1.png",
+    "02_human_contrasts_v1.svg",
+    "02_human_contrasts_v1.pdf",
+    "03_human_coupling_v1.png",
+    "03_human_coupling_v1.svg",
+    "03_human_coupling_v1.pdf",
+    "04_cofactor_correlations_v1.png",
+    "04_cofactor_correlations_v1.svg",
+    "04_cofactor_correlations_v1.pdf",
+    "DY1_presentation_plates_v1.pdf",
+    "render_record.json",
+    "render_inventory.tsv",
+    "data_label_verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-requested new versioned rendering package: one presentation replacement plus three summaries from reviewed frozen evidence; no biological refitting."
+}
