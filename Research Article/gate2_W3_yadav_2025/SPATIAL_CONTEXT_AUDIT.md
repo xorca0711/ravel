@@ -6,11 +6,12 @@ acceptance. The [first source audit](SOURCE_QUALIFICATION.md) and its seven hash
 inputs remain valid. New retrievals below are small source metadata, article XML,
 supplemental tables and versioned library code, never new atlas expression scans.
 The separate S1 marginal contract is exposed source description, not raw spatial
-reconstruction.
+reconstruction. Its [executed result and current disposition](CONTEXT_AND_SYNTHESIS.md)
+supersede prospective wording in the marginal-design section below.
 
 ## S1 availability and definitions
 
-The supplied final article (Fig. 5B; Methods p.14; Data availability p.15) and
+The supplied final article (Fig. 5B; Methods p.14; Data availability p.14) and
 [public final text](https://www.jci.org/articles/view/188734) identify Xenium
 centroids/counts, analyzer-derived boundaries, low-count filtering and marker
 groups. A cell-boundary algorithm version, author AnnData object, segmentation
@@ -65,11 +66,8 @@ was inspected at _occur_count, _co_occurrence_helper and co_occurrence:
   then averaged. n_splits can be chosen automatically; it therefore belongs in
   a faithful execution record, alongside the five subsample masks/seeds.
 
-The paper's verbal per-center averaging and the tagged aggregation are not
-silently reconciled here. No claim is made that the published values used an
-incorrect implementation. Resolving the actual call, data subset, grouping,
-distance/index and aggregation is required before a faithful raw reconstruction.
-No Squidpy install, toy null, spatial simulation or result replay was run.
+The verbal averaging and tagged aggregation remain unreconciled. Author execution
+records are needed before judging fidelity. No Squidpy or spatial-null run occurred.
 
 ## S1 available marginal description and raw hold
 
@@ -123,6 +121,18 @@ Tsukui's Europe PMC XML request returned HTTP 500; its GEO design/README and
 indexed primary data-availability section were inspected instead. Salcher and
 Strunz targeted primary Results/Methods were read via Europe PMC XML. No external
 account sign-in or author contact was attempted.
+
+Browser failures on 30 October 2026 occurred at these exact routes; they are
+access outcomes rather than evidence that the underlying source does not exist.
+
+| Browser route | Observed outcome / resolution |
+| --- | --- |
+| [GSE70867 page](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70867) | Challenge page; direct GEO text retrieval succeeded. |
+| [GSE210341 text](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE210341&targ=self&form=text&view=full), [GSE70867 text](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70867&targ=self&form=text&view=full), [GSE141259 text](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141259&targ=self&form=text&view=full) | Browser inaccessible; direct HTTPS metadata retrieval succeeded. |
+| [Salcher PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9767679/), [Tsukui PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12088911/) | Challenge pages; Salcher XML succeeded, Tsukui XML failed as recorded below. |
+| [Tsukui publisher DOI](https://doi.org/10.1038/s41586-024-07660-1), [Salcher publisher DOI](https://doi.org/10.1016/j.ccell.2022.10.008) | Nature sign-in redirect inaccessible; Cell returned 403. |
+| [Squidpy tag API](https://api.github.com/repos/scverse/squidpy/git/ref/tags/v1.5.0), [PR 816](https://github.com/scverse/squidpy/pull/816) | Browser API inaccessible / PR cache miss; direct GitHub API succeeded. |
+| [Supplemental XLSX](https://dm5migu4zj3pb.cloudfront.net/manuscripts/188000/188734/JCI188734.sdt1-3.xlsx) | Browser cache miss; direct publisher retrieval and workbook inspection succeeded. |
 
 Retrieved records live in ignored raw_data/Yd1_context_audit_20261030. Exact URLs,
 UTC attempts, status and hashes follow; HTTP success alone was followed by content

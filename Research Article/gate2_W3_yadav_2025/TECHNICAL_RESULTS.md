@@ -5,6 +5,10 @@ F1-F5, complete count integrity, conservative annotation and the fixed R1 RNA
 descriptions have executed under committed contracts. This is exposed reuse of
 published evidence, not independent biological replication or scientific acceptance.
 
+Steps 5-6 are now complete to their source-feasibility boundary; read the
+[current spatial/context and synthesis checkpoint](CONTEXT_AND_SYNTHESIS.md) for
+the full completion/hold ledger.
+
 Read this result before the [prospective designs](EXECUTION_DESIGN.md),
 [annotation strategy](ANNOTATION_STRATEGY.md) and [RNA endpoint design](RNA_ENDPOINT_DESIGN.md).
 The [first checkpoint](SOURCE_QUALIFICATION.md) retains exact source/assay locators,
@@ -23,9 +27,9 @@ sample-identity limits and discrepancies. [All figures](FIGURES.md) include PNG 
 | Count integrity | Every deposited matrix entry parsed in all six libraries; barcode/feature joins and QC saved. | Technical validity does not establish biological independence. |
 | Annotation | Two fixed QC masks; core marker classes plus mixed, other, unassigned and excluded states. | Adapted markers, not author SingleR/DoubletFinder reproduction, validated lineage or pure populations. |
 | R1 / coculture RNA | Macrophage-like Arg1 and fibroblast-like Il6, three fixed comparisons, two QC masks. | Library descriptions only; no cell-based population tests, suffix pairing, Compass or CellChat. |
-| S1 / spatial | **Pending review**, with original source hold retained. | Raw coordinates, segmentation, counts, patient/FOV maps and category clarification are missing; optional marginal-value work needs selected scope. |
-| C1 / reused contexts | **Pending review**; no new context analysis. | Qualify one specified cohort/comparison and its donor/source reuse before execution. |
-| Wg-P06 / thesis synthesis | **Pending review**, not abandoned or declared complete. | Review this checkpoint before deciding how it informs arginine/ornithine balance or subsequent question development. |
+| S1 / spatial | **Completed** source/definition audit and all 18 published marginal values; [current result](CONTEXT_AND_SYNTHESIS.md). | Raw reconstruction remains held on spatial inputs, definitions, patient/field/result joins and exact execution details. |
+| C1 / reused contexts | **Completed** seven-context provenance/portability matrix; no new expression scans were needed. | Any stronger numerical comparison requires exact files, capture/units/reuse qualification and a selected prospective design. |
+| Wg-P06 / thesis synthesis | **Completed** article-local synthesis; current hypothesis, rival and scientific decisions unchanged. | Joint substrate/routing/functional measurements and the epithelial-regeneration bridge remain unmeasured. |
 
 ## Functional source reconstruction
 
@@ -242,5 +246,6 @@ execution/provenance consistency, not biological truth or human acceptance.
 No governance, validator, canonical RQ, claim grade or human decision was changed.
 The original checkout and review worktree are preserved; no push, PR, merge,
 Notion write or external account setting changed. Keep the execution worktree and
-ignored raw source cache for review. Next work is checkpoint review, then a
-separately specified spatial/context or Wg-P06 synthesis step if selected.
+ignored raw source cache for review. The selected spatial/context and synthesis work is now recorded in
+[the article closeout](CONTEXT_AND_SYNTHESIS.md); stronger jobs reopen only with
+the specified evidence or newly selected scope.

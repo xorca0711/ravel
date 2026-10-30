@@ -1,15 +1,18 @@
-# Yadav 2025: reading synthesis and proposed analysis sequence
+# Yadav 2025: source evidence and article-local synthesis
 
 Prepared 30 October 2026 against fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
 Stable reading ID **16**, Gate **2W**. Reading was recorded complete by 29 October
 and reconfirmed by the owner on 30 October; the exact completion day was not supplied.
-**Current checkpoint:** [functional and RNA results / job ledger](TECHNICAL_RESULTS.md)
-complete the selected F1-F5 reconstructions, six-library integrity checks,
-conservative annotation and bounded R1 descriptions under Yd1-P01.
-[Figures](FIGURES.md) and [first source qualification](SOURCE_QUALIFICATION.md)
-retain the evidence and limitations. S1 spatial, C1 reused contexts and final
-Wg-P06/thesis synthesis remain pending review. No canonical RQ or scientific
-acceptance changed. Read the current result before the original proposal below.
+**Current checkpoint:** [completed source-feasibility sequence and synthesis](CONTEXT_AND_SYNTHESIS.md).
+F1-F5/R1 reconstructions, S1 published marginals, C1 portability qualification and
+article-local Wg-P06/thesis synthesis are complete within the authorized scope.
+Raw spatial reconstruction and stronger population/functional claims retain
+explicit evidence holds; no scientific acceptance or canonical RQ change follows.
+[Functional/RNA results](TECHNICAL_RESULTS.md), [source audit](SPATIAL_CONTEXT_AUDIT.md)
+and [figures](FIGURES.md) preserve exact evidence. Read the current result before
+the historical proposal below.
+
+![Published spatial marginals; not raw reconstruction](../../analysis/research/runs/Yd1_spatial_marginals_v1/spatial_marginals.png)
 
 [Paper](https://doi.org/10.1172/JCI188734) ·
 [Supplement](https://www.jci.org/articles/view/188734/sd/1) ·

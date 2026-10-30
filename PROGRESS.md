@@ -1,5 +1,40 @@
 # Current project state
 
+## Yadav spatial/context and synthesis checkpoint - 30 October 2026
+
+Completed the remaining bounded steps 5-6 after technical approval of d7e3dd7.
+[Current article closeout and full job ledger](Research%20Article/gate2_W3_yadav_2025/CONTEXT_AND_SYNTHESIS.md)
+record completed S1 marginal description, C1 provenance/portability and the
+unchanged Wg-P06/thesis synthesis. All F1-F5/R1 results and mixed-cell/unit limits
+remain. No canonical RQ, hypothesis, rival, claim grade or scientific decision changed.
+
+S1 retained all 18 Fig. 5B workbook values under a new frozen contract at 294a28b:
+marginal means 1.024680 and 0.877634; difference 0.147046. Independent original-XLSX
+checks passed. No pairing, patient-effect precision, spatial statistic or null
+was inferred. The [source audit](Research%20Article/gate2_W3_yadav_2025/SPATIAL_CONTEXT_AUDIT.md)
+records actual primary URLs/date/outcomes/hashes, recovered participant/probe
+tables, Squidpy 1.5.0 cumulative radius and aggregation details, unresolved
+category/legend conflicts and exact raw-reconstruction reopening conditions.
+
+C1 separates seven source contexts. Strunz whole-lung and epithelial data,
+Tsukui's mesenchymal enrichment/pooled tagged libraries, BAL mixtures and Salcher
+capture/version/parent-source reuse cannot substitute for matched Yadav evidence.
+Browser failures and a Tsukui XML HTTP 500 remain logged; alternative primary
+metadata recovered usable definitions. No new atlas counts or expression scans.
+No feasible work remains inside this authorized checkpoint; raw spatial,
+stronger population/context effects and joint substrate/epithelial-function
+questions remain held on the specific evidence listed in the current ledger.
+
+Validation passed: 11,818 repository checks, base-aware research gate, S1 receipt
+verification, new-script compilation and independent workbook arithmetic. All 76
+declared Yadav outputs are tracked, including PDFs. Fresh main remains
+28fb61015f9b921f591e41ff26010a960c305947. The approved d7e3dd7 regression suite
+(158 tests, two skips) and saved-evidence verifiers were reused: shared code,
+earlier numerical outputs and governance are unchanged.
+Preserve this worktree and both ignored raw source caches. Review branch integration
+is handled separately; no rebase, Notion write, push, PR, remote merge, account
+setting change or external message was performed here.
+
 ## Yadav functional and RNA technical checkpoint - 30 October 2026
 
 Completed the selected F1-F5 source reconstructions, full-entry integrity for all
