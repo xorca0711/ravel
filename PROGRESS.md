@@ -1,5 +1,23 @@
 # Current project state
 
+## DY1 draft PR opened — 30 October 2026
+
+At the owner's request, published the reviewed branch and opened
+[draft PR #152](https://github.com/xorca0711/ravel/pull/152) against main, using
+verified GitHub identity `xorca0711`. The PR covers the complete DY1 article
+package, prior baseline/human descriptions and the five reviewed DY1-P02 runs.
+The body records exposure, units, validation and exact remaining data/inference
+holds. Scientific acceptance remains unassessed; no merge is requested.
+
+A transient GitHub DNS failure delayed the first remote check; a bounded retry
+succeeded. Fresh main remains `78320a186b6f52426e7c7c5349a2f26492b718b7`, matching
+the completed local validation. This publication checkpoint changes no analysis,
+frozen evidence or interpretation. CI status is separate from the prior local
+checks; no external protection setting or unrelated checkout changed.
+
+Next: PR review and CI. Preserve the analysis worktree's ignored source caches
+and the existing original-study holds.
+
 ## DY1-P02 extensions integrated and independently reviewed — 30 October 2026
 
 Integrated stable analysis handoff `ebedcde8e2d7de1906f41b30dade3a4f178f93ec`
