@@ -1,12 +1,12 @@
 # Research article roadmap
 
-**NAM paper update — 29 October 2026:** [Damani-Yokota 2026](gate2_DY1_damani_yokota_2026/README.md)
-now includes completed [78-donor human observations](gate2_DY1_damani_yokota_2026/HUMAN_RESULTS.md)
-and a [21-donor external RNA comparison](gate2_DY1_damani_yokota_2026/HUMAN_EXTERNAL_RESULTS.md),
-with [independent review](../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md).
-The article ledger separates these adapted descriptions from exact-reproduction
-limits and the original mouse numerical stages stopped by the platform restriction.
-No mechanistic conclusion, RQ promotion or scientific acceptance follows from completion.
+**NAM paper update — 30 October 2026:** [Damani-Yokota 2026](gate2_DY1_damani_yokota_2026/README.md)
+now includes three completed baseline technical diagnostics alongside the reviewed
+78-donor primary and 21-donor external human descriptions. The
+[job-by-job assessment](gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
+separates completed work from exact data/design and inference holds, retaining the
+full immune-history study context and the earlier platform event as history.
+No mechanistic conclusion, RQ promotion or scientific acceptance follows from execution.
 
 **Subsequent portfolio pass:** [three group audits and governed extensions](../docs/portfolio_extensions/2026-10-07/README.md) cover every analysis package and registered RQ. Nb4-P09 supplies expression evidence for proposed A31; A11/A17/A25/A30 remain existing questions. Read the linked current result and its limits before an older plan.
 

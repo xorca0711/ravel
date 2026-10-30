@@ -1,5 +1,45 @@
 # Current project state
 
+## DY1 job-by-job assessment integrated — 30 October 2026
+
+Stable analysis handoff `9f058bf3f77fede8ab43cfdf162df0bff78d2511` is integrated
+in the scoped review worktree. The [updated article README](Research%20Article/gate2_DY1_damani_yokota_2026/README.md)
+and [job ledger](Research%20Article/gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
+now distinguish completed substeps from specific data/design and inference holds,
+retaining the full immune-history/IAV context. Older broad-restriction statements
+below remain historical checkpoints, superseded for current status by this ledger.
+
+Three new frozen runs completed: six-exon/eight-peak basic structural QC, full
+baseline sparse integrity/CMO inventory (67,983,499 entries), and a fixed six-library
+exon-profile SVD adaptation. The reviewer checked prospective code/contracts,
+13 frozen/current contract-code entries, all 16 output hashes, saved arithmetic
+and the figure. The analysis chat cross-checked the published-boundary review and
+job ledger without a blocking completion/hold error or omitted qualified job.
+The existing primary/external human analyses remain valid and were not rerun.
+
+Current-evidence synthesis is complete. Exact gene-level/ATAC effects, numerical
+cross-assay/state/regulatory comparisons and the descriptive history-by-condition
+interaction remain held for the specific count, source, independent-pool,
+assignment, state and batch prerequisites in the ledger. ARG1 mediation lacks
+linked measurements; exact human NAM/model reproduction, SELENOP mapping and
+sparse subgroup eligibility remain limited. No mechanistic conclusion, new RQ,
+scientific acceptance, extra intervention screen or threshold relaxation follows.
+Existing A1/A2/A8/A14/A19/A22 notes and all unfavorable evidence are preserved.
+
+Source validation passed 161 repository tests (one skip), 12 targeted tests,
+required evidence verifiers, 11,535 repository checks and the base-aware research
+gate. Final integration passed 11,553 repository checks and the base-aware gate.
+All 32 canonical questions/guides, infrastructure registry and protected governance
+match main; no RQ file changed in this pass. Latest fetched main remains
+`78320a186b6f52426e7c7c5349a2f26492b718b7`.
+
+Next: no supported analysis job is left queued. A held comparison reopens only
+with its specified
+new evidence and a prospective versioned contract. Raw caches, other worktrees
+and the primary checkout's pre-existing PROGRESS changes remain preserved.
+No external publication or service setting changed.
+
+
 ## DY1 baseline diagnostics completed — 30 October 2026
 
 Three separately frozen jobs completed: six-exon/eight-peak structural QC,

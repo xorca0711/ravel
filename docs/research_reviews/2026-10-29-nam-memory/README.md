@@ -1,6 +1,6 @@
 # NAM immune history and repair: proposed analysis sequence
 
-**Execution update, 29 October 2026:** The [human-context review](HUMAN_REVIEW.md) records the completed donor-aware run and its limits. The [article completion ledger](../../../Research%20Article/gate2_DY1_damani_yokota_2026/README.md) owns current stage status. The stepwise proposal below remains the original scope; it is not an execution-completion claim.
+**Execution update, 30 October 2026:** The [job-by-job assessment](../../../Research%20Article/gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md) adds three completed baseline technical diagnostics and specific data/inference holds. The [human-context review](HUMAN_REVIEW.md) records the completed donor-aware runs and their limits. The [article completion ledger](../../../Research%20Article/gate2_DY1_damani_yokota_2026/README.md) owns current stage status. The stepwise proposal below remains the original scope; it is not an execution-completion claim.
 
 29 October 2026. Paper review and prospective design, based on Ravel main
 `78320a186b6f52426e7c7c5349a2f26492b718b7`. This is an article-local proposal;

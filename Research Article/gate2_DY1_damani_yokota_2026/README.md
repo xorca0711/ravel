@@ -1,66 +1,92 @@
 # DY1: NAM immune-history source reproduction
 
-29 October 2026. Execution of the [reviewed stages 0-8](../../docs/research_reviews/2026-10-29-nam-memory/README.md), starting at `a0e7472`.
-This article package owns paper reproduction and article-local descriptions. It creates no canonical A-series question or scientific acceptance.
+30 October 2026. Current disposition of the [original stages 0–8](../../docs/research_reviews/2026-10-29-nam-memory/README.md).
+This article package owns paper reproduction and article-local descriptions; it
+creates no canonical A-series question or scientific acceptance.
 
-The separately permitted non-infectious human continuation is now computed:
-[primary human results](HUMAN_RESULTS.md), [external transport description](HUMAN_EXTERNAL_RESULTS.md)
-and [validation/handoff](HUMAN_VALIDATION.md). Donors, not cells, are the units.
-Higher matrix-panel RNA transports directionally; FABP4 depends on annotation,
-recipient coupling is not stable within disease, and ARG1 is sparse. These are
-exposed RNA descriptions, not NAM validation, functional effects or acceptance.
+The study concerns N. brasiliensis-associated type-2 immune history in lung
+macrophages, separate baseline bulk RNA/ATAC, baseline and later IAV-challenge
+scRNA, STAT6–EGR2–PPARγ/RXRA associations, ARG1 and human disease context.
+The [job-by-job assessment](JOB_ASSESSMENT_2026-10-30.md) records each completed
+substep and the specific reason for every remaining hold.
 
-![Primary donor-level RNA observations](../../analysis/research/runs/DY1_human_observational_v1/human_overview.png)
+Three new [baseline diagnostics](BASELINE_QC_RESULTS_2026-10-30.md) are complete:
+six exon-file/eight peak-file structural QC, full baseline sparse integrity and
+CMO signal inventory, and an adapted six-library exon-profile PCA. Previously
+completed [78-donor human observations](HUMAN_RESULTS.md) and
+[21-donor external descriptions](HUMAN_EXTERNAL_RESULTS.md) remain reviewed evidence.
+The [published evidence matrix](PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md)
+separates paper findings from repository observations and mechanistic claims.
 
+![Fixed six-library exon-bin diagnostic, not author PCA or biological effect inference](../../analysis/research/runs/DY1_baseline_exon_profile_v1/sample_profile.png)
 
 ## Candidate DY1-P01
 
-Can deposited bulk and single-cell measurements reproduce the reported persistent NAM RNA/accessibility associations and distinguish RNA composition from within-state differences? History versus control is compared at baseline and the separate later endpoint. Principal threats are sample/pool identity, processing-version mismatch, state definition and technical confounding. Endpoints are RNA counts, called chromatin intervals and donor/cell annotations; none is TF activity, secretion, fate or mature repair function.
+Can deposited bulk and single-cell measurements reproduce persistent NAM
+RNA/accessibility associations and distinguish RNA composition from within-state
+differences? The baseline and separate later-condition comparisons have unresolved
+source-specific unit, state and technical support. Libraries, cells, exon bins
+and peaks are measured objects, not automatically independent biological units.
+Qualified independently collected pools can be units without naming each mouse.
 
-The paper, selected figures and prior Ravel results were exposed before these contracts. Unknown independence permits descriptive library comparisons only. Exact reproduction, bounded substitutes and holds remain separate.
+The paper, figures and prior repository results were exposed before these
+contracts. Endpoints remain RNA counts, called intervals and annotations; none
+alone is TF activity, secretion, fate or mature repair function. The key published
+discrepancy is bulk RNA versus separate bulk ATAC. scRNA addresses composition and
+within-state RNA; it does not supply within-state ATAC in those separate samples.
 
-## Completion ledger: documentation close-out
+## Completion ledger
 
-The platform restricted the analysis turn; the coordinating review chat then
-requested a documentation-only close-out. **At the original close-out, numerical components of stages 1-7 and result-based
-integration in stage 8 were unexecuted.** The separately authorized human stage 7
-continuation is tracked below; other restricted numerical stages remain stopped. At that original checkpoint, available processed data were not biologically
-analysed. Previously completed source reading and design audits remain review-only
-work, including the regulatory precedents, ARG1 comparator limitation and proposed
-epithelial discriminator in the original review. The broader original execution remains incomplete; the human continuation below is a separately completed bounded analysis.
+The earlier platform rejection is a historical execution event, preserved in
+[CLOSEOUT](CLOSEOUT.md). It does not establish that all mouse-data tasks are
+prohibited. The current assessment separates permissible completed work, missing
+data/design prerequisites and inference limits. No supported job remains queued
+in this pass; the original numerical sequence is not claimed fully reproduced.
 
-The subsequently authorized [source-v2 correction](SOURCE_V2_RESULTS.md) executed
-only a label and feature-identifier audit. It does not complete the broader stages;
-previous source reading and design audits remain completed review work.
+| Stage | Completed | Specific remaining hold |
+|---|---|---|
+| 0: Source and units | V1 provenance, V2 corrected labels, source-local feature records, current baseline file hashes and raw CMO signal inventory | Deposited-library/tag → independent-pool and overlap map, validated cell assignments and condition/library/batch support are unresolved. Published pooling statements do not supply the crosswalk. |
+| 1: Baseline RNA/ATAC QC | Six exon files share 406,850 ordered features; 143,437 all-zero rows. Eight peak files pass limited basic format checks. Fixed six-library logCPM/SVD diagnostic completed. | Exact gene-count semantics and author filtering/VST/PCA remain unresolved. ATAC lacks qualified common-region counts/read-level QC, reconciled pipeline version and author-excluded sample identity/rationale. No gene/peak effects or outlier removal. |
+| 2: RNA/accessibility discordance | Assay distinction and published-direction evidence matrix completed | Numerical discordance requires qualified assay effects/uncertainty, compatible annotation and declared peak→gene rules. No paired RNA–ATAC map; significance mismatch alone is not poising. |
+| 3: Composition/within-state RNA | Both baseline matrices fully scanned: 67,983,499 entries; sparse accounting and 12 CMO signal rows checked | Raw signal is not cell assignment or pool identity. Qualified state labels, biological units, denominator and common-state/condition support remain missing; no decomposition fitted. |
+| 4: Regulatory association | Primary precedents and STAT6/EGR2/PPARγ/RXRA measurement boundaries reviewed | Motif/target tests depend on qualified effects, annotation/backgrounds and context-qualified target/binding resources. Late RNA, motifs and external ChIP do not establish activity, local occupancy or a temporal relay. |
+| 5: History-by-condition host-RNA response | Original descriptive interaction estimand and separate-unit design retained | Data/design hold: unresolved cell/condition/unit/batch support, eligible shared states and target sets. No interaction estimate. A single later endpoint cannot distinguish kinetics or supply individual longitudinal linkage. |
+| 6: ARG1/context | Published functional-design limits, context-dependent literature and captured-human RNA attribution completed | Mouse state attribution depends on held contrasts. Unlinked omics/functional cohorts cannot support mediation; genotype effect in trained animals is distinct from a training-specific interaction. NAM/AM targeting and enzyme/output limits remain. |
+| 7: Human/recipient context | Primary 78-donor and external 12-IPF/9-control exposed descriptions, clinical/annotation/source sensitivities and negative/imprecise findings completed | Exact author NAM/model unavailable; external SELENOP mapping absent; subsets below frozen donor minimum remain non-estimable. RNA/composition is not activity, spatial signaling or recovery. |
+| 8: Current-evidence synthesis | Paper/repository evidence and missing discriminators integrated; existing RQ notes retained | Complete synthesis does not establish the regulatory–ARG1–epithelial causal chain, laboratory readiness or scientific acceptance. Required linked functional endpoints remain missing. |
 
-| Stage | Actual work and remaining status |
-|---|---|
-| 0: Source and units | Human78-donor/107-library and external raw-assay qualification are complete for the bounded continuation. For the original mouse sources, V1 and the bounded [source-v2 correction](SOURCE_V2_RESULTS.md) executed with verified receipts; qualification remains partial. V2 recovers the true reference labels and inventories tag presence, preserving v1. Animal/pool identities, actual cell assignments and condition-by-library support remain unknown. |
-| 1: Bulk RNA/ATAC QC | Unexecuted due to platform restriction. Processed inputs saved. Exon-bin semantics, ATAC pipeline discrepancy, absent deposited consensus read counts and unidentified source outlier constrain exact reproduction. |
-| 2: RNA/accessibility discordance | Unexecuted due to platform restriction. No cross-assay effect matrix or stable discordance estimate produced. |
-| 3: Composition/within-state RNA | Unexecuted due to platform restriction. Matrices include CMO counts, but assignments and NAM/state annotation were not computed. |
-| 4: Regulatory associations | Unexecuted due to platform restriction. No target-set enrichment, motif scan, binding overlap or activity estimate produced. |
-| 5: History-by-condition response | Unexecuted due to platform restriction. No interaction estimate. V2 verifies reference labels and feature-row presence only; actual condition-by-library support remains unresolved. No tag-count analysis ran or is queued by this correction. |
-| 6: ARG1/context | Original mouse ARG1 numerical work and mediation remain unexecuted due to platform restriction. Existing functional-design limits are retained. Captured-human RNA attribution is completed separately under [stage7](HUMAN_RESULTS.md#arg1-capture-and-interpretation). |
-| 7: Human/recipient context | [Primary computation](HUMAN_RESULTS.md) completed for78donors/107nested libraries, including age/sex sensitivity, source-label/proxy/floor checks, sparse ARG1 and same-donor recipient context. [External description](HUMAN_EXTERNAL_RESULTS.md) completed for12IPF/9Control donors after raw-assay qualification; site/annotation sensitivities and non-estimable rows retained. Exact NAM/author-model reproduction, full external identity panel and recipient correlation below the prespecified donor minimum remain explicit holds. |
-| 8: Remaining discriminator | Human-context interpretation is integrated in the linked reports: RNA contrast transport does not resolve source-to-recipient mechanism. Full mechanistic integration remains incomplete because original stages1–6 remain unexecuted. The earlier proposal remains a proposal; no experiment-readiness or scientific acceptance decision was made. |
+The [detailed ledger](JOB_ASSESSMENT_2026-10-30.md) supplies job-level requirements,
+receipt hashes and review evidence. The [methods/input assessment](METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
+records source availability. The plan changed only to separate technical QC,
+biological effect estimation and current-evidence synthesis because they have
+different evidentiary requirements. No missing effect was replaced with a proxy
+claim or inferred independent replicate.
 
-[Saved-artifact inventory](ARTIFACT_INVENTORY.md) records the contract, receipt,
-outputs and ignored inputs. [Historical/source close-out](CLOSEOUT.md) records the earlier checkpoint.
-[Current human validation and handoff](HUMAN_VALIDATION.md) separates completed
-execution integrity from scientific interpretation.
+Human results remain mixed: higher matrix-panel RNA transports directionally;
+FABP4 depends on annotation; pooled recipient coupling is not stable within
+disease; ARG1 is sparse. Donors, not cells, are the units. See the
+[independent human review](../../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md).
 
 ## Architecture and evidence boundaries
 
-The canonical directory is `Research Article/`. Existing A1/A2/A8/A14/A19/A22 retain their hypotheses, negative results and output authorities. Directly relevant RQ analyses belong in those existing folders; article outputs are not duplicated there. Unlinked omics and functional cohorts cannot support mediation. The missing untrained Arg1-cKO comparator prevents a training-specific interaction. A single later endpoint cannot establish kinetics.
-
-The coordinating [human review](../../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md)
-and RQ-local contextual notes explain the connections without duplicating results:
+The canonical directory is `Research Article/`. Article numerical outputs remain
+here and in registered run folders. Existing A1/A2/A8/A14/A19/A22 retain their
+hypotheses, negative results and output authorities; relevant contextual notes
+live in their own folders:
 [A1](../../RQ_Specified/A1_transitional_epithelial_state_distinction/DY1_CONTEXT_2026-10-29.md),
 [A2](../../RQ_Specified/A2_areg_source_delivery/DY1_CONTEXT_2026-10-29.md),
 [A8](../../RQ_Specified/A8_maturation_component_at1_contribution/DY1_CONTEXT_2026-10-29.md),
 [A14](../../RQ_Specified/A14_withdrawal_recovery_and_reception/DY1_CONTEXT_2026-10-29.md),
 [A19](../../RQ_Specified/A19_fzd_response_reversibility/DY1_CONTEXT_2026-10-29.md),
 [A22](../../RQ_Specified/A22_epithelial_identity_niche_response/DY1_CONTEXT_2026-10-29.md).
+No RQ is promoted or retired; article observations do not supply their missing
+fate, delivery, cessation/reception, reserve or focal protein-output endpoints.
 
-See [literature context](LITERATURE_CONTEXT.md), [source-v2 results](SOURCE_V2_RESULTS.md), [v2 contract](config/source_v2.json), the preserved [v1 contract](config/source_v1.json) and [governance](../../docs/RESEARCH_GOVERNANCE.md).
+## Completion ledger: documentation close-out
+
+This historical heading preserves earlier links. The original close-out is
+[CLOSEOUT](CLOSEOUT.md); current status is the completion ledger above, followed
+by the [job assessment](JOB_ASSESSMENT_2026-10-30.md). Historical outputs remain
+unchanged. See also [artifact inventory](ARTIFACT_INVENTORY.md),
+[human validation](HUMAN_VALIDATION.md), [literature context](LITERATURE_CONTEXT.md),
+[source-v2 results](SOURCE_V2_RESULTS.md) and [governance](../../docs/RESEARCH_GOVERNANCE.md).

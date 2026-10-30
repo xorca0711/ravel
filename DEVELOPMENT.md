@@ -2943,3 +2943,26 @@ Execution and technical review are not human scientific acceptance.
 | 2026-10-29 | External qualification v1 | Historical preparation script hash differed after a directory-path change | Preserve failure; v2 binds the exact historical Git blob and reaggregates current raw assay counts |
 | 2026-10-29 | Failed receipt in success-only registry | Existing gate correctly rejected execution failure as a successful run | Use the existing Nb5 byte-preservation convention; register archival success only, retaining failed status and seven exact diagnostic/source files |
 | 2026-10-29 | Original duplicate diagnostic paths | Tracked duplicate JSON assets need an honest output authority | After archive verification, untrack only duplicate originals and use two exact local Git excludes; preserve every local byte and commit. Root .gitignore, validators, schemas and governance remain unchanged |
+
+## 2026-10-30 — DY1 job-by-job reassessment and technical diagnostics
+
+The owner requested job-by-job completion, an updated README and coordination
+with the existing analysis chat. The analysis chat executed three separately
+frozen baseline technical jobs; this chat reviewed their contracts/code before
+execution and their saved hashes, arithmetic and figure afterward. The analysis
+chat then cross-checked the [current job ledger](Research%20Article/gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md)
+against the original sequence without finding a blocking completion/hold error
+or an omitted currently qualified original job. This is technical review, not a
+human retain/reject decision or scientific acceptance.
+
+| Date | Item | Proposed by | Review / authority | Disposition and reason |
+|---|---|---|---|---|
+| 2026-10-30 | Per-job assessment with full study context | Owner | Owner explicitly requested continued analysis/review coordination | Complete the independently supported work and record specific input/design or inference limits for the rest |
+| 2026-10-30 | Separate structural QC, sparse/CMO inventory and adapted sample geometry | Coordinating review with analysis-chat implementation | Prospective contract/code review; independently checked saved results | Three successful frozen runs; none is a biological effect, exact author PCA or assigned animal identity |
+| 2026-10-30 | Current-evidence synthesis and established RQ routing | Coordinating review | Analysis chat reviewed published boundaries and final job ledger | Complete evidence synthesis while preserving existing questions, negative results and missing endpoint requirements |
+
+| Date | Failed or revised item | Reason and retained evidence | Technical disposition |
+|---|---|---|---|
+| 2026-10-30 | Blanket present-tense mouse-stage restriction in earlier summaries | A historical broad platform rejection does not establish the disposition of every independent job | Preserve the historical event; replace current navigation with per-job completed work and specific data/design/inference holds. Do not hide paper context or retry the blocked pipeline under another label |
+| 2026-10-30 | Conflating the original stage 5 interaction with susceptibility prediction | The original estimand is an exploratory host-RNA history-by-condition contrast | Retain that estimand and its unmet source/unit/state/batch prerequisites; unrequested pathogen optimization and intervention prioritization are not original checklist jobs |
+| 2026-10-30 | Exact author PCA versus an exon-hit profile | The gene-count semantics, low-count rule and exact author preparation were not recovered | Label the completed fixed transformation/full SVD as an adaptation; preserve the exact-reproduction hold and retain all six libraries |
