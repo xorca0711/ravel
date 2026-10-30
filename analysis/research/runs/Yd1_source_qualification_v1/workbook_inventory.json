@@ -1,0 +1,736 @@
+{
+  "sheets": [
+    {
+      "sheet": "1c",
+      "dimension": "A1:B14",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 6,
+        "B": 6
+      },
+      "labels": {
+        "A1": "Inside COL1-GFP area",
+        "B1": "Outside COL1-GFP area",
+        "A11": "Inside COL1-GFP area",
+        "B11": "Outside COL1-GFP area"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "1d",
+      "dimension": "A1:B113",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 20,
+        "B": 112
+      },
+      "labels": {
+        "A1": "Healthy",
+        "B1": "IPF "
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "1e",
+      "dimension": "A1:B7",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 4,
+        "B": 6
+      },
+      "labels": {
+        "A1": "Healthy",
+        "B1": "IPF "
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3a",
+      "dimension": "A1:E11",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 5,
+        "B": 6,
+        "D": 9,
+        "E": 10
+      },
+      "labels": {
+        "A1": "Uninjured",
+        "B1": "14d post Bleo",
+        "D1": "Healthy",
+        "E1": "IPF"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3b",
+      "dimension": "A1:E17",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 8,
+        "B": 8,
+        "D": 16,
+        "E": 16
+      },
+      "labels": {
+        "A1": "Untreated",
+        "B1": "CB-1158",
+        "D1": "IPF",
+        "E1": "IPF + CB-1158"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3c",
+      "dimension": "A1:C9",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 6,
+        "B": 7,
+        "C": 8
+      },
+      "labels": {
+        "A1": "Uninjured",
+        "B1": "Bleomycin/Vehicle",
+        "C1": "Bleomycin/CB-1158"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3d",
+      "dimension": "A1:B9",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 8,
+        "B": 8
+      },
+      "labels": {
+        "A1": "IPF",
+        "B1": "IPF + CB1158"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3e",
+      "dimension": "A1:B11",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 10,
+        "B": 9
+      },
+      "labels": {
+        "A1": "Bleomycin",
+        "B1": "Bleomycin"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3f",
+      "dimension": "A1:E5",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 3,
+        "B": 3,
+        "D": 3,
+        "E": 3
+      },
+      "labels": {
+        "A1": "Murine Fib monoculture ",
+        "D1": "Human Fib monoculture",
+        "A2": "Control ",
+        "B2": "Ornithine ",
+        "D2": "Control ",
+        "E2": "Ornithine "
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3g",
+      "dimension": "A1:D9",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 7,
+        "B": 8,
+        "C": 8,
+        "D": 7
+      },
+      "labels": {
+        "A1": "Uninjured",
+        "B1": "Uninjured + Ornithine",
+        "C1": "Bleomycin",
+        "D1": "Bleomycin + Ornithine "
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3i",
+      "dimension": "A1:F5",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 3,
+        "B": 3,
+        "C": 3,
+        "D": 3,
+        "E": 3,
+        "F": 3
+      },
+      "labels": {
+        "A1": "Fib monoculture",
+        "B1": "WT coculture",
+        "C1": "WT coculture + CB-1158",
+        "D1": "WT coculture + Ornithine",
+        "E1": "WT mac-P2rx4KO Fib ",
+        "F1": "WT mac-P2rx4KO Fib + Ornithine"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3j",
+      "dimension": "A1:D4",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 3,
+        "B": 3,
+        "C": 3,
+        "D": 3
+      },
+      "labels": {
+        "A1": "Fib",
+        "B1": "Fib + Mac",
+        "C1": "Fib + Mac",
+        "D1": "Fib + Mac + CB-1158"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "3k",
+      "dimension": "A1:G3",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "B": 2,
+        "C": 2,
+        "D": 2,
+        "E": 2,
+        "F": 2,
+        "G": 2
+      },
+      "labels": {
+        "B1": "untreated",
+        "E1": "CB1158",
+        "A2": "Proline",
+        "A3": "Hydroxy-proline"
+      },
+      "formula_cells": [],
+      "merged_ranges": [
+        "B1:D1",
+        "E1:G1"
+      ]
+    },
+    {
+      "sheet": "4c",
+      "dimension": "A1:E6",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 3,
+        "B": 3,
+        "D": 3,
+        "E": 3
+      },
+      "labels": {
+        "A1": "Supernatant",
+        "D1": "Lysate",
+        "A3": "Untreated",
+        "B3": "IL6 (50 ng/ml)",
+        "D3": "Untreated",
+        "E3": "IL6 (50 ng/ml)"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "4d",
+      "dimension": "A1:E8",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 5,
+        "B": 5,
+        "D": 5,
+        "E": 5
+      },
+      "labels": {
+        "A1": "BAL ARG1 Elisa ",
+        "D1": "qPCR",
+        "A3": "WT",
+        "B3": "IL-6 KO",
+        "D3": "WT",
+        "E3": "IL6KO "
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "5a",
+      "dimension": "A1:B10",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 9,
+        "B": 9
+      },
+      "labels": {
+        "A1": "Untreated",
+        "B1": "Tocilizumab"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "5b",
+      "dimension": "A1:B11",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 9,
+        "B": 9
+      },
+      "labels": {
+        "A1": "IL6+ Fibroblast",
+        "B1": "IL6- Fibroblast"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "5d",
+      "dimension": "A1:G4",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "B": 3,
+        "C": 3,
+        "E": 3,
+        "F": 3,
+        "G": 3,
+        "D": 2
+      },
+      "labels": {
+        "B1": "Donor 1",
+        "E1": "Donor 2",
+        "A2": "Fibroblasts Alone",
+        "A3": "Coculture",
+        "A4": "Coculture + Tocilizumab"
+      },
+      "formula_cells": [],
+      "merged_ranges": [
+        "B1:D1",
+        "E1:G1"
+      ]
+    },
+    {
+      "sheet": "5e",
+      "dimension": "A1:G4",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "B": 3,
+        "C": 3,
+        "D": 3,
+        "E": 3,
+        "F": 3,
+        "G": 3
+      },
+      "labels": {
+        "B1": "Donor 1",
+        "E1": "Donor 2",
+        "A2": "Fibroblasts Alone",
+        "A3": "Coculture",
+        "A4": "Coculture + Tocilizumab"
+      },
+      "formula_cells": [],
+      "merged_ranges": [
+        "B1:D1",
+        "E1:G1"
+      ]
+    },
+    {
+      "sheet": "5f",
+      "dimension": "A1:G4",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "B": 3,
+        "C": 3,
+        "D": 3,
+        "E": 3,
+        "F": 3,
+        "G": 3
+      },
+      "labels": {
+        "B1": "Donor 1",
+        "E1": "Donor 2",
+        "A2": "Fibroblasts Alone",
+        "A3": "Coculture",
+        "A4": "Coculture + Toci"
+      },
+      "formula_cells": [],
+      "merged_ranges": [
+        "B1:D1",
+        "E1:G1"
+      ]
+    },
+    {
+      "sheet": "6c",
+      "dimension": "A1:D6",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 5,
+        "B": 5,
+        "C": 5,
+        "D": 5
+      },
+      "labels": {
+        "A1": "Fib ",
+        "B1": "Fib",
+        "C1": "Fib + Mac",
+        "D1": "Fib + Mac"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "6d",
+      "dimension": "A1:D10",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 8,
+        "B": 8,
+        "C": 5,
+        "D": 3
+      },
+      "labels": {
+        "A1": "Untreated",
+        "B1": "ATPγS",
+        "C1": "ATPγS + p38 inh",
+        "D1": "ATPγS / P2rx4 KO"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "6e",
+      "dimension": "A1:C10",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 7,
+        "B": 7,
+        "C": 6
+      },
+      "labels": {
+        "A1": "Uninjured",
+        "B1": "Bleomycin",
+        "C1": "Bleomycin"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "6f",
+      "dimension": "A2:G7",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 3,
+        "B": 3,
+        "C": 3,
+        "F": 3,
+        "G": 3
+      },
+      "labels": {
+        "A2": "IL6 ELISA ",
+        "F2": "qPCR",
+        "A4": "Scr RNA ",
+        "B4": "ScrRNA + ATPγS",
+        "C4": "siRNA P2rx4 + ATPγS",
+        "F4": "NTsiRNA ",
+        "G4": "P2rx4siRNA "
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "6g",
+      "dimension": "A1:G5",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "B": 4,
+        "C": 4,
+        "D": 4,
+        "E": 4,
+        "F": 4,
+        "G": 4
+      },
+      "labels": {
+        "B1": "Donor 1",
+        "E1": "Donor 2",
+        "A2": "Fibroblasts Alone",
+        "A3": "Neutrophils Alone",
+        "A4": "Coculture",
+        "A5": "Coculture + P2rx4 Inh"
+      },
+      "formula_cells": [],
+      "merged_ranges": [
+        "B1:D1",
+        "E1:G1"
+      ]
+    },
+    {
+      "sheet": "S1g",
+      "dimension": "A1:C22",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "C": 21
+      },
+      "labels": {
+        "A1": "Gene",
+        "B1": "GeneList",
+        "C1": "AverageExpression",
+        "A2": "Cd14",
+        "B2": "RecMac",
+        "A3": "Fn1",
+        "B3": "RecMac",
+        "A4": "Ccr2",
+        "B4": "RecMac",
+        "A5": "Il1b",
+        "B5": "RecMac",
+        "A6": "Plac8",
+        "B6": "RecMac",
+        "A7": "Ctsz",
+        "B7": "nc.IM",
+        "A8": "Ctsd",
+        "B8": "nc.IM",
+        "A9": "Esd",
+        "B9": "nc.IM",
+        "A10": "Mmp12",
+        "B10": "nc.IM",
+        "A11": "Slc7a11",
+        "B11": "nc.IM",
+        "A12": "Lgals3",
+        "B12": "nc.IM",
+        "A13": "AA467197",
+        "B13": "nc.IM",
+        "A14": "Cd9",
+        "B14": "nc.IM",
+        "A15": "Fabp1",
+        "B15": "Alveolar Macrophage",
+        "A16": "Krt79",
+        "B16": "Alveolar Macrophage",
+        "A17": "Marco",
+        "B17": "Alveolar Macrophage",
+        "A18": "Fabp4",
+        "B18": "Alveolar Macrophage",
+        "A19": "Plet1",
+        "B19": "Alveolar Macrophage",
+        "A20": "Car4",
+        "B20": "Alveolar Macrophage",
+        "A21": "Chil4",
+        "B21": "Alveolar Macrophage",
+        "A22": "Ear10",
+        "B22": "Alveolar Macrophage"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "S2c",
+      "dimension": "A1:J12",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "B": 11,
+        "C": 11,
+        "D": 11,
+        "E": 11,
+        "F": 11,
+        "G": 11,
+        "H": 11,
+        "I": 11
+      },
+      "labels": {
+        "B1": "Bleomycin D10",
+        "E1": "Naive Lung",
+        "H1": "Bleomycin D10 WT",
+        "A2": "moMac",
+        "A3": "AM",
+        "A4": "Ly6G+CD64+CD11c+",
+        "A5": "B cells",
+        "A6": "Eosinophils",
+        "A7": "CCR2+ DC",
+        "A8": "CCR2+ Monocytes",
+        "A9": "cDC2",
+        "A10": "cDC1 ",
+        "A11": "PMN",
+        "A12": "CD11b+ Other Myeloids"
+      },
+      "formula_cells": [],
+      "merged_ranges": [
+        "B1:D1",
+        "E1:G1",
+        "H1:J1"
+      ]
+    },
+    {
+      "sheet": "S2e",
+      "dimension": "A1:D3",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "B": 2,
+        "C": 2,
+        "D": 2
+      },
+      "labels": {
+        "B1": "Bleomycin D10",
+        "A2": "moMacs",
+        "A3": "Ly6G+CD64+CD11c+"
+      },
+      "formula_cells": [],
+      "merged_ranges": [
+        "B1:D1"
+      ]
+    },
+    {
+      "sheet": "S2f",
+      "dimension": "A1:Y22",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 21,
+        "B": 21,
+        "C": 21,
+        "D": 21,
+        "E": 21,
+        "F": 21,
+        "G": 21,
+        "J": 21,
+        "K": 21,
+        "L": 21,
+        "M": 21,
+        "N": 13,
+        "O": 21,
+        "P": 21,
+        "Q": 21,
+        "R": 21,
+        "S": 21,
+        "T": 21,
+        "U": 21,
+        "V": 21,
+        "W": 21,
+        "X": 21,
+        "Y": 21
+      },
+      "labels": {
+        "A1": "Days ",
+        "B1": "Uninjured ",
+        "J1": "Injured",
+        "R1": "Injured + CB1158 "
+      },
+      "formula_cells": [],
+      "merged_ranges": [
+        "B1:I1",
+        "J1:Q1",
+        "R1:Y1"
+      ]
+    },
+    {
+      "sheet": "S3b",
+      "dimension": "A1:B4",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 3,
+        "B": 3
+      },
+      "labels": {
+        "A1": "LysmCre- Arg1fl/fl",
+        "B1": "LysmCre+ Arg1fl/fl"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "S3c",
+      "dimension": "A1:E4",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 3,
+        "B": 3,
+        "C": 3,
+        "D": 3,
+        "E": 3
+      },
+      "labels": {
+        "A1": "Monoculture ",
+        "B1": "Coculture",
+        "C1": "Coculture + CB-1158",
+        "D1": "Coculture + CB-1158 + ornithine",
+        "E1": "Coculture + OAT inh "
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "S3d",
+      "dimension": "A1:D4",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 3,
+        "B": 3,
+        "C": 3,
+        "D": 3
+      },
+      "labels": {
+        "A1": "Monoculture ",
+        "B1": "Coculture",
+        "C1": "Coculture + ornithine",
+        "D1": "Coculture + OAT inh "
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "S3e",
+      "dimension": "A1:B7",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 5,
+        "B": 5
+      },
+      "labels": {
+        "A1": "WT",
+        "B1": "IL-6 KO"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    },
+    {
+      "sheet": "S3f",
+      "dimension": "A1:C9",
+      "state": "visible",
+      "numeric_cells_by_column": {
+        "A": 5,
+        "B": 8,
+        "C": 3
+      },
+      "labels": {
+        "A1": "WT Uninj",
+        "B1": "WT Bleo",
+        "C1": "IL-6 KO Bleo"
+      },
+      "formula_cells": [],
+      "merged_ranges": []
+    }
+  ],
+  "extra_parts": []
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.source_qualification_v1",
+  "owner": "Yd1-P01",
+  "contract": "Research Article/gate2_W3_yadav_2025/config/source_qualification_v1.json",
+  "contract_sha256": "94a8733ecc38f083ba144366cf1b83626f168422fa9c34466ecef6e59b196f33",
+  "git_commit": "6753251515c1c2f1b0aea18997b526b30c107d5c",
+  "started_at": "2026-10-30T07:28:49.160504+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W3_yadav_2025/scripts/qualify_sources_v1.py",
+    "--output",
+    "analysis/research/runs/Yd1_source_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/article.pdf",
+      "sha256": "24726f3ae547d22fe4d7074ef240eacbb476e702e069c0bfcef59e2b75e41cb7",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/biosamples.xml",
+      "sha256": "f049f50fca541b16f34cdbdb03599ff20fd929c3a9eacf17ce58793b516250c3",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/experiments.xml",
+      "sha256": "c9494e364482538ac6bf8fa2035a6b31aa93fc2e7bdc5d77861b5f7bf47ab744",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_family.soft.gz",
+      "sha256": "1ee58d4026596ed7622ab6cfb54fb3b77bb1b7e5269b88c063f123a9f50775d0",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_RAW.tar",
+      "sha256": "006b9c931cbd44aa498ce26e3d0d66e36faef6884b15aeda2496250e46a1351e",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/JCI188734.sdval.xlsx",
+      "sha256": "7e8e08ec935c23bcee3fc7a4059f4a13913dd04932759968c73d47d33ac80759",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/supplement.pdf",
+      "sha256": "9d9ac9009a1cace6b5e656e260476ab91b9549253a7ee41c0e82e44b491f7b68",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/qualify_sources_v1.py",
+      "sha256": "76540e2962c990e1b8b3aa99f2d77e8b448d53674e0c7fcff177b17949ea5886"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/input_inventory.json",
+      "sha256": "fb3ba562733b00a9d96ecce28bd64c2b3208d46ef6d2b5da6f1390091dd73b30"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/workbook_inventory.json",
+      "sha256": "8266af55c2e0296a6ab356d48907c7fc568e340076f1c5532b7d0083b45d7506"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/workbook_cells.tsv",
+      "sha256": "a2b843f27989b3068b6d5cf39dcc710bb19437e76dd1bc4f77bac3139b0e6e29"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/geo_library_qualification.json",
+      "sha256": "ba17f81c4dffbc794869ac6c059542ff17cb47ffd080932764c9cd2b8ba20037"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/matrix_inventory.json",
+      "sha256": "97598713b60190b7259c45f49996bff1116eca48767c939bda6bec91a05909cd"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/qualification_checks.json",
+      "sha256": "cfbba8068b6b6caf99a9331836a02054e720de3e1076861bc56acef2f21a03fa"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T07:28:55.306530+00:00"
+}

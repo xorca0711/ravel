@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.source_qualification_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which Yadav JCI188734 source panels and GSE242510 libraries support a bounded descriptive reconstruction, and which biological-unit or assay prerequisites remain unknown?",
+  "decision": "Qualify source identity and per-job eligibility for review before any functional effect or coculture RNA contrast is executed.",
+  "strongest_rival": "Treating slices, wells, cell barcodes, library suffixes or accession IDs as independent animals, preparations or donors would create pseudoreplication or false pairing.",
+  "discriminator": "Join GEO, BioSample and sequencing accessions; inspect workbook labels and source panel legends; validate count-file structure without treating missing identifiers as evidence of independence.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/README.md",
+    "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md",
+    "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P06.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published outcomes, supplied final article, supplement and workbook values were viewed before this metadata contract. Library labels and linked BioSample/experiment records were inspected. No local biological effect or RNA contrast has run. Freezing does not erase this exposure.",
+  "biological_unit": "Animals for whole-lung panels; human donor pairs or patients for human assays; coculture preparation identity and pooling remain unknown for GSE242510.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Slices and wells nest in source patients or donor combinations; cells nest in libraries. Numeric library suffixes do not prove preparation pairing. Source panels and deposited data are reused published evidence, not independent replication.",
+  "population_and_selection": "The official JCI188734 supporting-values workbook and six GSE242510 libraries, with linked public BioSample and sequencing records. Source-selected published panels; no new cohort.",
+  "contrast": "Metadata and source eligibility only: functional panels 3B/D/E/J/K, 5A/D-F, S3C-D; WT versus P2rx4-KO fibroblast coculture and fibroblast monoculture library inventories; optional spatial source availability.",
+  "endpoint": "Source-file hashes, workbook sheet/cell labels and numeric occupancy, library/accession joins, matrix header dimensions and identifier uniqueness. No biological effect endpoint estimated.",
+  "methods": "Standard-library OOXML parsing retains all source values and cell coordinates, labels, style IDs, merges and formula presence. Parse SOFT/XML joins; inventory compressed archive members without extraction; compare matrix header dimensions to unique feature/barcode rows. Manual primary-source qualification is recorded separately.",
+  "missingness_and_exclusions": "Keep blank source cells blank, zeros zero and unnamed specimen/pooling/pairing fields unknown. Include all workbook sheets and six libraries. Do not infer donor assignment from row order. Stop on source-join or matrix-identifier mismatch.",
+  "multiplicity": "Not applicable: no hypothesis tests or biological effect estimates in this metadata run.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata inventory has no population precision claim. Unknown or sparse biological units constrain future effect analyses.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "File-format and accession agreement do not establish biological independence, patient pairing, valid cell annotation or scientific acceptance. Metabolite abundance is not flux; source reconstruction is not replication.",
+  "stop_rule": "Stop after inventory and source qualification. Dependent effect analyses await the review checkpoint and separate prospective contracts. Missing biological units or spatial inputs remain explicit holds.",
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/article.pdf",
+      "sha256": "24726f3ae547d22fe4d7074ef240eacbb476e702e069c0bfcef59e2b75e41cb7",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/biosamples.xml",
+      "sha256": "f049f50fca541b16f34cdbdb03599ff20fd929c3a9eacf17ce58793b516250c3",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/experiments.xml",
+      "sha256": "c9494e364482538ac6bf8fa2035a6b31aa93fc2e7bdc5d77861b5f7bf47ab744",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_family.soft.gz",
+      "sha256": "1ee58d4026596ed7622ab6cfb54fb3b77bb1b7e5269b88c063f123a9f50775d0",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_RAW.tar",
+      "sha256": "006b9c931cbd44aa498ce26e3d0d66e36faef6884b15aeda2496250e46a1351e",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/JCI188734.sdval.xlsx",
+      "sha256": "7e8e08ec935c23bcee3fc7a4059f4a13913dd04932759968c73d47d33ac80759",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/supplement.pdf",
+      "sha256": "9d9ac9009a1cace6b5e656e260476ab91b9549253a7ee41c0e82e44b491f7b68",
+      "study_id": "Yadav2025_JCI188734_GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/qualify_sources_v1.py",
+      "sha256": "76540e2962c990e1b8b3aa99f2d77e8b448d53674e0c7fcff177b17949ea5886"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/scripts/qualify_sources_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "input_inventory.json",
+    "workbook_inventory.json",
+    "workbook_cells.tsv",
+    "geo_library_qualification.json",
+    "matrix_inventory.json",
+    "qualification_checks.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed metadata execution contract; no effect estimation and no scientific acceptance."
+}

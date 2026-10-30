@@ -1,5 +1,63 @@
 # Current project state
 
+## Yadav source checkpoint reviewed and next jobs approved — 30 October 2026
+
+Reviewed execution commit `d1d367735cea9b3830546bf4440b8efc304c77f0`
+against the exact contract/code, receipt, source labels and source-qualification
+report. Fourteen input/code/output hashes and two frozen contract/code checks
+passed; unrelated registry records, canonical questions and protected paths are
+unchanged. The scoped Git attributes preserve bytes/empty TSV fields and do not
+alter research gates. The spatial Methods category duplication was independently
+confirmed against the supplied PDF pixels.
+
+The [review ledger](Research%20Article/gate2_W3_yadav_2025/REVIEW_LOG.md)
+records technical approval for bounded source-value reconstruction and subsequent
+library-level RNA description. Patient slice maps, independent preparation/pooling
+identities, raw normalizers and raw spatial inputs retain their specific holds.
+No scientific acceptance or mechanism/flux conclusion follows.
+
+Integration passed 11,686 repository checks and the base-aware research gate.
+The executor's required tests/evidence verifiers remain valid and were not repeated.
+Its next turn is active (cursor `51593419-65e5-454d-96df-3e67caaaccb8:6`).
+Next executor checkpoint: separately
+frozen functional source reconstructions (F1-F5, including F2 donor combinations
+and optional 6G) followed by full count-entry QC and bounded R1 description if
+annotation qualifies. Preserve every value/blank and report failures; no population
+inference from wells, slices, cells or unverified preparations. No external write.
+
+## Yadav first source-qualification checkpoint - 30 October 2026
+
+Completed steps 1-2 in the isolated execution worktree. The
+[source qualification report](Research%20Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md)
+records the claim/assay map, all source locators, per-job eligibility and exact
+remaining unit holds. Frozen metadata run Yd1_source_qualification_v1 executed
+from commit `6753251515c1c2f1b0aea18997b526b30c107d5c`; scientific acceptance is
+unassessed. The registry adds only article-local Yd1-P01, its contract and receipt,
+with all unrelated records and formatting preserved.
+
+Recovered seven hashed inputs, 34 workbook sheets and six GEO count triplets.
+Independent reading verified all 1,429 populated workbook cells. Panel and workbook
+resolve S3C as a coculture rescue while retaining its conflicting legend. Fig. 3K
+remains metabolite abundance. Donor-pair labels support bounded human coculture
+description; PCLS patient maps and GEO independent preparations/pooling/pairing
+remain unknown. Spatial raw inputs and a duplicated Methods cell-class label hold
+raw spatial reconstruction. Fig. 5D's missing donor-1 monoculture point is retained.
+
+No dependent effect analysis, canonical RQ, existing result, governance or acceptance
+status changed. Inputs remain in ignored `raw_data/Yd1_source_v1` in the execution
+worktree; preserve it. Original checkout PROGRESS edits and review worktree are
+untouched. No remote write or external setting changed. Next: review this checkpoint,
+select bounded eligible jobs, then freeze separate numerical contracts. Do not
+infer missing units from rows, library suffixes or accessions.
+
+Validation passed: 11,683 repository checks, the base-aware research gate,
+158 tests (two skips), compilation, claim bindings and every required saved-evidence
+verifier. Receipt verification and independent workbook checks passed. The first
+base-aware gate rejected a root-attributes addition because historical Choi
+contracts hash that file; exact bytes were restored and new attributes scoped to
+Yadav only. The affected checks then passed. Fresh main remains
+`28fb61015f9b921f591e41ff26010a960c305947`; no scientific run was repeated.
+
 ## Yadav source checkpoint interrupted and resumed — 30 October 2026
 
 The execution chat stopped with a model-capacity system error before delivering
