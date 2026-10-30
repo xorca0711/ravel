@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.synthetic_uncertainty_v1",
+  "owner": "DY1-P02",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_uncertainty_v1.json",
+  "contract_sha256": "d8a4c344e9360f281408c9e999b9fd691e2772cb0473a36870fc0975d3988e71",
+  "git_commit": "48292daaa8482f4de701db4469350e428853ce91",
+  "started_at": "2026-10-30T02:39:22.918327+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/synthetic_uncertainty_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_parameters_v1.json",
+      "sha256": "e9f74576722772106f53f7cd5b9d9f635640c909dc8ef156bce0fbb256bdc800",
+      "study_id": "synthetic_DY1_P02_v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/synthetic_uncertainty_v1.py",
+      "sha256": "25e744fabeea661a87b0e42cee5f6580990a558d7d0e6a85dd270581e44812cf"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/verify_synthetic_v1.py",
+      "sha256": "181807420053e5dbb71adbb25b5a3b472a06256863b00de04d2454e96d63b9e6"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_synthetic_v1.py",
+      "sha256": "064c930609337feab0d0285d95ca513f626b2fe3c9168077e31418fc8448acc0"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_parameters_v1.json",
+      "sha256": "e9f74576722772106f53f7cd5b9d9f635640c909dc8ef156bce0fbb256bdc800"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/scenario_summary.tsv",
+      "sha256": "0e6f6ed9ed57da5e7980c878bad9d87a5df03296929b1c2fda2ef0af34fef1a3"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/event_frequencies.tsv",
+      "sha256": "4403a3baf73440b1b6bb09791565febe6c48e09b41e080a321146a9d269599c2"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/analytic_expectations.tsv",
+      "sha256": "01f365241e05ba4ba943d87f1c72eac4d59e116379da8f248b113ec5c3dd03f3"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/verification.json",
+      "sha256": "adecdee40feea5e9492fd0f0a78aa361c3c72cc3dfb25b505fee9572466febe4"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/synthetic_diagnostic.png",
+      "sha256": "73f581237088acf2a4b7cee9cdb3cc71365a0a21d2ba55f2da49317072f7de38"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/summary.json",
+      "sha256": "d61b48647f9eefe3f1031c7cdff8724a1b184361ae7d830a5b6523f9808a14ac"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T02:39:28.339696+00:00"
+}

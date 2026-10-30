@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.reference_source_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do public GSE247223 RNA and GSE248042 ATAC matrices, metadata and author annotation support an explicitly bounded separate-assay measurement benchmark?",
+  "decision": "Qualify source bytes, count semantics, column/sample joins and annotation coverage; identify rather than erase unit, timing, dependence and version holds before a new descriptive contract.",
+  "strongest_rival": "False source joins, unqualified preparation reuse, ambiguous annotation versions and treating source labels as verified pairing can produce misleading cross-assay conclusions.",
+  "discriminator": "All-column source/title cross-checks, full count-format accounting and independent CSV arithmetic, author annotation-to-count coordinate/identifier joins, and BioSample attribute inspection without biological contrasts.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Anchor NAM paper with N. brasiliensis-history/later-IAV context and repository outcomes are exposed. Reference paper outcomes, source metadata, matrix headers/first rows and annotation schema are exposed. No reference count effects have been computed; this is metadata qualification of a non-infectious cultured-macrophage reference.",
+  "biological_unit": "Files, sample records, feature identifiers and raw counts are technical audit units. Published biological replicates inform later qualification; cross-condition preparation reuse and cross-assay pairing remain unresolved.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "RNA and ATAC records are separate assays. Source-local replicate labels and distinct accession IDs do not establish animal-level independence or pairing across conditions/assays.",
+  "population_and_selection": "All 27 RNA and 24 ATAC source columns, complete corresponding SOFT/BioSample records, and all rows of the public count matrices. Author annotation fields are read from the differential table without reading or selecting effect/significance fields.",
+  "contrast": "Exact source/sample/count/annotation correspondence; no genotype, stimulus, target or infection-response contrast.",
+  "endpoint": "Column-to-GSM/BioSample mapping, count validity/totals/zero rows, feature uniqueness, peak-coordinate conventions, author annotation coverage, timing contradictions and explicit unknown dependence/batch/annotation provenance.",
+  "methods": "Pandas/numpy audit of matrices and selected annotation columns; independent streaming CSV integer arithmetic; characteristics-derived genotype/condition versus title-derived labels; exact one-to-one peak joins. BioSample attributes retained as provenance, not inferred animal identities.",
+  "missingness_and_exclusions": "Retain every matrix column and audit all rows. Do not silently normalize the vehicle 24h/25h conflict, missing KO RNA IL4 rep3, annotation gaps or author filtered flags. Invalid count/identifier or verification conflicts stop the run.",
+  "multiplicity": "No biological hypothesis tests or selected-locus comparisons. All structural checks retained.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact file/record accounting; no biological precision or power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Technical qualification does not repair original NAM inputs, establish assay pairing, prove independence across conditions, equate assays, infer temporal persistence or rank interventions. GENCODE release wording and source timing differences remain unresolved unless supported by additional exact evidence.",
+  "stop_rule": "Stop on input/code hash, parse, count-integrity or independent arithmetic conflict; retain failed receipts and partial evidence. Missing scientific identity/annotation details produce explicit holds, not invented repairs.",
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/biosample_records.xml",
+      "sha256": "f8f55246ccaa174a6edb2096a5b67c594cecb221a0d7fe982e6f2fc81b5ace0c",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE247223_countMatrixUpdated.tsv.gz",
+      "sha256": "5a8bc01d332386e221337d0a866875ef31130deab432cadd5c64715052f19ca3",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE247223_family.soft.gz",
+      "sha256": "dd0a0dee99f28120eda9e3218280512d8caf7198b45d1090dcc4a033f57deb72",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE248042_Chinenov_Deochand_submission_ATACseq_differential_peak_analysis_.csv.gz",
+      "sha256": "84e7b99d88b8db5a957e47767a14e9b6b62c4cd9af6ee53ddf96ca210d40e94b",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE248042_Chinenov_Deochand_submission_ATACseq_peak_count_matrix.csv.gz",
+      "sha256": "5d39fe421adced7aa67c7cf92d82c478492e11ee0650e07621803b79d8ba5372",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE248042_family.soft.gz",
+      "sha256": "4f24882ec8e1e655bac91589f1e5e23b2d937eb5b81ad2edfea8daa4038faf21",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/retrieval_annotation_v1.json",
+      "sha256": "41fdb61bbe1ee59fccf3e52cd4aef8d67f8022f93d581a767ce762fee8712dff",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/retrieval_biosample_v1.json",
+      "sha256": "d89bfec6cfbb62bfb0dcf8126cc421274c468f434b6c84ef090e7aaff9022df8",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/retrieval_v1.json",
+      "sha256": "8b9c45075e201a4f0ea0ab2fba9ee08f6f18ef69d4f0cfcabab036fde4343801",
+      "study_id": "GSE247223_GSE248042_source_v1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/reference_source_v1.py",
+      "sha256": "e34853b1ea829c81ff4363c8fcc44e2240b00673b85d6956fe5be103bbb18162"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_reference_source_v1.py",
+      "sha256": "7548da695e6400630e5f182a71421570a5b7b60ce7a9a3a65315f2db40be6c0c"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/reference_source_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_map.tsv",
+    "count_qc.tsv",
+    "biosample_attributes.tsv",
+    "author_annotation_map.tsv",
+    "source_series.json",
+    "qualification.json",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-authorized E1 source qualification for new DY1-P02; distinct from original NAM sources and all frozen previous outputs."
+}

@@ -1,0 +1,521 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "scenario": "null_equal",
+      "check": "detect_a",
+      "passed": true,
+      "error": 0.00017999999999973593,
+      "tolerance": 0.0029340383034426967
+    },
+    {
+      "scenario": "null_equal",
+      "check": "detect_b",
+      "passed": true,
+      "error": 0.0002700000000002631,
+      "tolerance": 0.0029340383034426967
+    },
+    {
+      "scenario": "null_equal",
+      "check": "both_detect",
+      "passed": true,
+      "error": 9.999999999973572e-06,
+      "tolerance": 0.0006799813430238224
+    },
+    {
+      "scenario": "null_equal",
+      "check": "only_a",
+      "passed": true,
+      "error": 0.00016999999999976062,
+      "tolerance": 0.0028637475361356053
+    },
+    {
+      "scenario": "null_equal",
+      "check": "only_b",
+      "passed": true,
+      "error": 0.0002800000000002384,
+      "tolerance": 0.0028637475361356053
+    },
+    {
+      "scenario": "null_equal",
+      "check": "neither_detect",
+      "passed": true,
+      "error": 0.00010000000000043308,
+      "tolerance": 0.0039898084124741565
+    },
+    {
+      "scenario": "null_equal",
+      "check": "detection_label_mismatch",
+      "passed": true,
+      "error": 0.00011000000000047083,
+      "tolerance": 0.003943891203376126
+    },
+    {
+      "scenario": "null_equal",
+      "check": "same_sign",
+      "passed": true,
+      "error": 0.0005749999999999922,
+      "tolerance": 0.006718203932499369
+    },
+    {
+      "scenario": "null_equal",
+      "check": "opposite_sign",
+      "passed": true,
+      "error": 0.0005749999999999922,
+      "tolerance": 0.006718203932499369
+    },
+    {
+      "scenario": "null_equal",
+      "check": "coverage_a",
+      "passed": true,
+      "error": 0.00017999999999995797,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "null_equal",
+      "check": "coverage_b",
+      "passed": true,
+      "error": 0.00026999999999999247,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "null_equal",
+      "check": "mean_a",
+      "passed": true,
+      "error": 0.0008133664882017413,
+      "tolerance": 0.0033541019662496844
+    },
+    {
+      "scenario": "null_equal",
+      "check": "interval_width_a",
+      "passed": true,
+      "expected": 0.9799819922700268
+    },
+    {
+      "scenario": "null_equal",
+      "check": "mean_b",
+      "passed": true,
+      "error": 0.0009252891462405543,
+      "tolerance": 0.0033541019662496844
+    },
+    {
+      "scenario": "null_equal",
+      "check": "interval_width_b",
+      "passed": true,
+      "expected": 0.9799819922700268
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "detect_a",
+      "passed": true,
+      "error": 0.0007147260238250519,
+      "tolerance": 0.006714766186593725
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "detect_b",
+      "passed": true,
+      "error": 0.0017897260238251,
+      "tolerance": 0.006714766186593725
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "both_detect",
+      "passed": true,
+      "error": 0.0004235572287726863,
+      "tolerance": 0.00594008698381652
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "only_a",
+      "passed": true,
+      "error": 0.0002911687950524211,
+      "tolerance": 0.005817489388402186
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "only_b",
+      "passed": true,
+      "error": 0.0013661687950524137,
+      "tolerance": 0.005817489388402186
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "neither_detect",
+      "passed": true,
+      "error": 0.002080894818877521,
+      "tolerance": 0.0056922472981363525
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "detection_label_mismatch",
+      "passed": true,
+      "error": 0.0016573375901047793,
+      "tolerance": 0.006718200410828144
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "same_sign",
+      "passed": true,
+      "error": 6.487311096092796e-05,
+      "tolerance": 0.0027754721637291025
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "opposite_sign",
+      "passed": true,
+      "error": 6.48731109609696e-05,
+      "tolerance": 0.0027754721637291025
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "coverage_a",
+      "passed": true,
+      "error": 0.0004899999999999904,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "coverage_b",
+      "passed": true,
+      "error": 0.00034999999999996145,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "mean_a",
+      "passed": true,
+      "error": 0.0001453989829701685,
+      "tolerance": 0.0033541019662496844
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "interval_width_a",
+      "passed": true,
+      "expected": 0.9799819922700268
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "mean_b",
+      "passed": true,
+      "error": 0.0007421585194623548,
+      "tolerance": 0.0033541019662496844
+    },
+    {
+      "scenario": "equal_effect_equal",
+      "check": "interval_width_b",
+      "passed": true,
+      "expected": 0.9799819922700268
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "detect_a",
+      "passed": true,
+      "error": 7.250703504491085e-06,
+      "tolerance": 0.0004711323802418251
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "detect_b",
+      "passed": true,
+      "error": 0.00099504575308762,
+      "tolerance": 0.005050527196805023
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "both_detect",
+      "passed": true,
+      "error": 0.0010538896123717112,
+      "tolerance": 0.005048155934790068
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "only_a",
+      "passed": true,
+      "error": 0.0010466389088672479,
+      "tolerance": 0.0050620617311086325
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "only_b",
+      "passed": true,
+      "error": 5.8843859284089947e-05,
+      "tolerance": 0.0002002651356558348
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "neither_detect",
+      "passed": true,
+      "error": 5.159315577962331e-05,
+      "tolerance": 0.00043013489919085165
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "detection_label_mismatch",
+      "passed": true,
+      "error": 0.0011054827681513668,
+      "tolerance": 0.005059702923907344
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "same_sign",
+      "passed": true,
+      "error": 0.0014854496254729233,
+      "tolerance": 0.004911744753384263
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "opposite_sign",
+      "passed": true,
+      "error": 0.001485449625472951,
+      "tolerance": 0.004911744753384263
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "coverage_a",
+      "passed": true,
+      "error": 0.0002749999999999142,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "coverage_b",
+      "passed": true,
+      "error": 0.0003149999999999542,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "mean_a",
+      "passed": true,
+      "error": 0.0002623140463880458,
+      "tolerance": 0.001341640786499874
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "interval_width_a",
+      "passed": true,
+      "expected": 0.39199279690801075
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "mean_b",
+      "passed": true,
+      "error": 0.0008079809024972295,
+      "tolerance": 0.006708203932499369
+    },
+    {
+      "scenario": "equal_effect_unequal",
+      "check": "interval_width_b",
+      "passed": true,
+      "expected": 1.9599639845400536
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "detect_a",
+      "passed": true,
+      "error": 1.5000000000264802e-05,
+      "tolerance": 0.0029340383034426967
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "detect_b",
+      "passed": true,
+      "error": 0.00048000000000026494,
+      "tolerance": 0.0029340383034426967
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "both_detect",
+      "passed": true,
+      "error": 7.999999999997332e-05,
+      "tolerance": 0.0006799813430238224
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "only_a",
+      "passed": true,
+      "error": 9.500000000023379e-05,
+      "tolerance": 0.0028637475361356053
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "only_b",
+      "passed": true,
+      "error": 0.0005600000000002339,
+      "tolerance": 0.0028637475361356053
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "neither_detect",
+      "passed": true,
+      "error": 0.0005750000000004363,
+      "tolerance": 0.0039898084124741565
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "detection_label_mismatch",
+      "passed": true,
+      "error": 0.0006550000000004746,
+      "tolerance": 0.003943891203376126
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "same_sign",
+      "passed": true,
+      "error": 0.0012650000000000161,
+      "tolerance": 0.006718203932499369
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "opposite_sign",
+      "passed": true,
+      "error": 0.0012649999999999606,
+      "tolerance": 0.006718203932499369
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "coverage_a",
+      "passed": true,
+      "error": 1.5000000000098268e-05,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "coverage_b",
+      "passed": true,
+      "error": 0.00048000000000003595,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "mean_a",
+      "passed": true,
+      "error": 3.7620688230804096e-05,
+      "tolerance": 0.00026832815729997477
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "interval_width_a",
+      "passed": true,
+      "expected": 0.07839855938160215
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "mean_b",
+      "passed": true,
+      "error": 0.00045631084892347104,
+      "tolerance": 0.006708203932499369
+    },
+    {
+      "scenario": "null_unequal",
+      "check": "interval_width_b",
+      "passed": true,
+      "expected": 1.9599639845400536
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "detect_a",
+      "passed": true,
+      "error": 0.0009997260238251426,
+      "tolerance": 0.006714766186593725
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "detect_b",
+      "passed": true,
+      "error": 0.0009747260238248678,
+      "tolerance": 0.006714766186593725
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "both_detect",
+      "passed": true,
+      "error": 0.0005535572287725943,
+      "tolerance": 0.005940086983816521
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "only_a",
+      "passed": true,
+      "error": 0.00044616879505254836,
+      "tolerance": 0.005817489388402186
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "only_b",
+      "passed": true,
+      "error": 0.00042116879505232907,
+      "tolerance": 0.0058174893884021875
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "neither_detect",
+      "passed": true,
+      "error": 0.0014208948188773884,
+      "tolerance": 0.005692247298136352
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "detection_label_mismatch",
+      "passed": true,
+      "error": 0.0008673375901048219,
+      "tolerance": 0.006718200410828144
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "same_sign",
+      "passed": true,
+      "error": 0.00023012688903913114,
+      "tolerance": 0.0027754721637291055
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "opposite_sign",
+      "passed": true,
+      "error": 0.00023012688903911727,
+      "tolerance": 0.002775472163729106
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "coverage_a",
+      "passed": true,
+      "error": 0.0005350000000000632,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "coverage_b",
+      "passed": true,
+      "error": 0.0004149999999999432,
+      "tolerance": 0.0029340383034426906
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "mean_a",
+      "passed": true,
+      "error": 0.00043104774196978113,
+      "tolerance": 0.0033541019662496844
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "interval_width_a",
+      "passed": true,
+      "expected": 0.9799819922700268
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "mean_b",
+      "passed": true,
+      "error": 0.00040447638062801605,
+      "tolerance": 0.0033541019662496844
+    },
+    {
+      "scenario": "opposite_effect_equal",
+      "check": "interval_width_b",
+      "passed": true,
+      "expected": 0.9799819922700268
+    }
+  ],
+  "method": "Independent normal-CDF probabilities and known-SE interval widths; six binomial standard errors plus two counts for each event. Same synthetic specification, not biological replication."
+}

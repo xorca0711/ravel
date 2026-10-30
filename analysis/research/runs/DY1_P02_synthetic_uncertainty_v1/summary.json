@@ -1,0 +1,8 @@
+{
+  "scenarios": 5,
+  "draws_per_scenario": 200000,
+  "checks": 75,
+  "verified": true,
+  "limit": "Independent normal estimates with known fixed standard errors in illustrative dimensionless units. Equal latent effects are a synthetic assumption, not a comparison of real RNA/ATAC scales. No biological margin, empirical calibration or equivalence test.",
+  "context": "Methodological extension to DY1-P02, whose original context includes N. brasiliensis history and later IAV challenge. This run uses synthetic data only."
+}

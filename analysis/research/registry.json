@@ -903,7 +903,8 @@
     "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_file_qc_v1.json",
     "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_sparse_qc_v1.json",
     "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_exon_profile_v1.json",
-    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_uncertainty_v1.json"
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_uncertainty_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/reference_source_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -988,7 +989,8 @@
     "analysis/research/runs/DY1_human_evidence_preservation_v1/receipt.json",
     "analysis/research/runs/DY1_baseline_file_qc_v1/receipt.json",
     "analysis/research/runs/DY1_baseline_sparse_qc_v1/receipt.json",
-    "analysis/research/runs/DY1_baseline_exon_profile_v1/receipt.json"
+    "analysis/research/runs/DY1_baseline_exon_profile_v1/receipt.json",
+    "analysis/research/runs/DY1_P02_synthetic_uncertainty_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
