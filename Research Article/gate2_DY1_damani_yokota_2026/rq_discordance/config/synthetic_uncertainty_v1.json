@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.synthetic_uncertainty_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Under explicitly illustrative independent normal measurements, how do detection-label mismatch, sign agreement and interval precision differ when synthetic truth and known standard errors change?",
+  "decision": "Demonstrate and numerically verify statistical behavior that prevents interpreting unequal detection labels as biological assay discordance; do not fit or explain NAM outcomes.",
+  "strongest_rival": "Conflating a detection cutoff with estimate precision, sign disagreement or a genuine difference in underlying biological effects.",
+  "discriminator": "Five fixed synthetic scenarios, separate sign/detection/interval endpoints, and independently calculated normal-CDF probabilities with prespecified Monte Carlo tolerance.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original paper and completed repository outcomes, including N. brasiliensis-history/later-IAV context, are exposed. These mathematical scenarios are newly authored illustrative assumptions, not empirically calibrated or unexposed biological validation.",
+  "biological_unit": "Not applicable: independent computational draws from a fixed illustrative normal model, not biological samples.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "Two independent estimates per draw in five separate seeded scenarios. Independence and common dimensionless effects are synthetic assumptions only; real RNA and ATAC scales are not equated.",
+  "population_and_selection": "All five fixed scenarios with 200000 draws each and SeedSequence(20261030).spawn(5); no result-dependent scenario selection.",
+  "contrast": "Known null/equal/opposite synthetic effects under equal or unequal known standard errors; no biological comparison.",
+  "endpoint": "Detection-label mismatch, each detection status, sign agreement/opposition, interval coverage, sample mean and fixed 95-percent interval width.",
+  "methods": "Generate independent normal estimates using numpy with prespecified seed; two-sided alpha .05 detection uses scipy ndtri. Verify probabilities using statistics.NormalDist CDF formulas independent of random draws; known-SE widths and means checked separately.",
+  "missingness_and_exclusions": "No filtering or exclusion of draws/scenarios. Invalid assumptions or any failed analytic check stops execution while preserving outputs.",
+  "multiplicity": "Eleven event checks plus mean/width checks per scenario, all retained. Pointwise alpha .05 is a simulated detection rule, not a multiple-testing decision about biological features.",
+  "precision_status": "justified",
+  "precision_basis": "Prespecified event tolerance 6*sqrt(p*(1-p)/200000)+2/200000; mean tolerance six known standard errors. This is Monte Carlo accuracy, not biological power or an effect margin.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "No real source counts, biological margin, equivalence claim, NAM-mechanism explanation, intervention ranking or infection-response model. Known fixed SEs imply fixed interval widths within each scenario; a nonsignificant result can still be precise.",
+  "stop_rule": "Stop on invalid parameters, hash mismatch or any prespecified analytic tolerance failure. Retain every scenario and failure; never tune assumptions or tolerance to rescue a result.",
+  "inputs": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_parameters_v1.json",
+      "sha256": "e9f74576722772106f53f7cd5b9d9f635640c909dc8ef156bce0fbb256bdc800",
+      "study_id": "synthetic_DY1_P02_v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/synthetic_uncertainty_v1.py",
+      "sha256": "25e744fabeea661a87b0e42cee5f6580990a558d7d0e6a85dd270581e44812cf"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/verify_synthetic_v1.py",
+      "sha256": "181807420053e5dbb71adbb25b5a3b472a06256863b00de04d2454e96d63b9e6"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_synthetic_v1.py",
+      "sha256": "064c930609337feab0d0285d95ca513f626b2fe3c9168077e31418fc8448acc0"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/synthetic_parameters_v1.json",
+      "sha256": "e9f74576722772106f53f7cd5b9d9f635640c909dc8ef156bce0fbb256bdc800"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/synthetic_uncertainty_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "scenario_summary.tsv",
+    "event_frequencies.tsv",
+    "analytic_expectations.tsv",
+    "verification.json",
+    "synthetic_diagnostic.png",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New owner-authorized synthetic measurement extension E3; does not amend or repeat original NAM or external biological analyses."
+}
