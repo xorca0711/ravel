@@ -819,7 +819,8 @@
       "id": "Yd1-P01",
       "plan": "Research Article/gate2_W3_yadav_2025/README.md",
       "evidence": [
-        "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md"
+        "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md",
+        "Research Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md"
       ]
     }
   ],
@@ -1025,7 +1026,9 @@
     "analysis/research/runs/Yd1_functional_f4_v1/receipt.json",
     "analysis/research/runs/Yd1_functional_f5_v1/receipt.json",
     "analysis/research/runs/Yd1_count_integrity_v1/receipt.json",
-    "analysis/research/runs/Yd1_annotation_v1/receipt.json"
+    "analysis/research/runs/Yd1_annotation_v1/receipt.json",
+    "analysis/research/runs/Yd1_rna_endpoints_v1/receipt.json",
+    "analysis/research/runs/Yd1_figure_display_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.rna_endpoints_v1",
+  "owner": "Yd1-P01",
+  "contract": "Research Article/gate2_W3_yadav_2025/config/rna_endpoints_contract_v1.json",
+  "contract_sha256": "84ded95c7690c7f3fcc5f5643ccf58f8f573d5a0782c07dba716a29e6ad59bf0",
+  "git_commit": "088e6b2faa345dea3eff44052fee0ef715a397ea",
+  "started_at": "2026-10-30T08:25:46.673807+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W3_yadav_2025/scripts/rna_endpoints_v1.py",
+    "--output",
+    "analysis/research/runs/Yd1_rna_endpoints_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_RAW.tar",
+      "sha256": "006b9c931cbd44aa498ce26e3d0d66e36faef6884b15aeda2496250e46a1351e",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/geo_library_qualification.json",
+      "sha256": "ba17f81c4dffbc794869ac6c059542ff17cb47ffd080932764c9cd2b8ba20037",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/cell_labels.csv",
+      "sha256": "949aa1ec8ee1b02f0edf2c72718d87e4b3b6d2ebcf7e535e5ca1f21f54a3da50",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/class_eligibility.csv",
+      "sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/rna_endpoints_v1.py",
+      "sha256": "59d7eaca13d0b4013692262b22a999f988e77a5767becb477623dbb8780a0c64"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/verify_rna_counts_v1.py",
+      "sha256": "23d4c7039925c2f8f10a2f0152ca56bcf7864733b0a841e6bcb16a2f5ebb6d99"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/count_integrity_v1.py",
+      "sha256": "c36e2fe6fa30e9adbffbe88a4253a076c88cb8e192839773d4382533c1ef2cdd"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/config/rna_endpoints_spec_v1.json",
+      "sha256": "edc6f2ba6538aa473544bf945b0ebafec8bb0492b13f68478714c08707155dea"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/cell_endpoints.csv",
+      "sha256": "d114ce4220e5ac75628513a3e8afd362822ffe06bbb0f29a39b7ceb25c842826"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/library_endpoints.csv",
+      "sha256": "dbe5a2de6a96d6502ffaf5477f9230dedcd38e3d0e86d4b2a07701425111835a"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/condition_contrasts.csv",
+      "sha256": "f0c2822e9bdcad3b639088852a14fd97eb22daf968904959057b40d498f55879"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/crossed_library_differences.csv",
+      "sha256": "7709c9a249c5ca6a31139892364afb4ae7f156b73a7397fd2eeaf0a586da7d33"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/independent_verification.json",
+      "sha256": "ebcd3dbcd6f263e22fb3ca2a697147b74c1c7b43996a811e968e9b03aaf34428"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/rna.png",
+      "sha256": "8dc7e9d7af9c675e25f0a3b47f9ca9887be86337c92eec417859c9bd6c6d4b00"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/rna.pdf",
+      "sha256": "85838e86f9378164d9f538ac99695dfc2c949d719e2a08461a0064f6a742388f"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/runtime.json",
+      "sha256": "d819404b907a373e2eca0a968f3672c278290277cc4fe13b6e6506ed7b0e714b"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T08:29:59.759352+00:00"
+}

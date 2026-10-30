@@ -3,11 +3,13 @@
 Prepared 30 October 2026 against fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
 Stable reading ID **16**, Gate **2W**. Reading was recorded complete by 29 October
 and reconfirmed by the owner on 30 October; the exact completion day was not supplied.
-**Current checkpoint:** [source qualification and job eligibility](SOURCE_QUALIFICATION.md)
-completed steps 1-2 under metadata owner Yd1-P01. Seven inputs, all workbook sheets
-and six GEO libraries are inventoried in a frozen governed run. No effect analysis,
-canonical RQ change or scientific acceptance is implied. Read that checkpoint
-before the original six-step proposal below.
+**Current checkpoint:** [functional and RNA results / job ledger](TECHNICAL_RESULTS.md)
+complete the selected F1-F5 reconstructions, six-library integrity checks,
+conservative annotation and bounded R1 descriptions under Yd1-P01.
+[Figures](FIGURES.md) and [first source qualification](SOURCE_QUALIFICATION.md)
+retain the evidence and limitations. S1 spatial, C1 reused contexts and final
+Wg-P06/thesis synthesis remain pending review. No canonical RQ or scientific
+acceptance changed. Read the current result before the original proposal below.
 
 [Paper](https://doi.org/10.1172/JCI188734) ·
 [Supplement](https://www.jci.org/articles/view/188734/sd/1) ·
