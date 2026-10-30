@@ -820,7 +820,9 @@
       "plan": "Research Article/gate2_W3_yadav_2025/README.md",
       "evidence": [
         "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md",
-        "Research Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md"
+        "Research Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md",
+        "Research Article/gate2_W3_yadav_2025/SPATIAL_CONTEXT_AUDIT.md",
+        "Research Article/gate2_W3_yadav_2025/CONTEXT_AND_SYNTHESIS.md"
       ]
     }
   ],
@@ -928,7 +930,8 @@
     "Research Article/gate2_W3_yadav_2025/config/count_integrity_v1.json",
     "Research Article/gate2_W3_yadav_2025/config/annotation_contract_v1.json",
     "Research Article/gate2_W3_yadav_2025/config/rna_endpoints_contract_v1.json",
-    "Research Article/gate2_W3_yadav_2025/config/figure_display_v2.json"
+    "Research Article/gate2_W3_yadav_2025/config/figure_display_v2.json",
+    "Research Article/gate2_W3_yadav_2025/config/spatial_marginals_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1028,7 +1031,8 @@
     "analysis/research/runs/Yd1_count_integrity_v1/receipt.json",
     "analysis/research/runs/Yd1_annotation_v1/receipt.json",
     "analysis/research/runs/Yd1_rna_endpoints_v1/receipt.json",
-    "analysis/research/runs/Yd1_figure_display_v2/receipt.json"
+    "analysis/research/runs/Yd1_figure_display_v2/receipt.json",
+    "analysis/research/runs/Yd1_spatial_marginals_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

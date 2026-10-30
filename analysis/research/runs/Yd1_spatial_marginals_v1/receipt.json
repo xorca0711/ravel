@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.spatial_marginals_v1",
+  "owner": "Yd1-P01",
+  "contract": "Research Article/gate2_W3_yadav_2025/config/spatial_marginals_contract_v1.json",
+  "contract_sha256": "56993a9398b3e04750f7349cee08cd9faa655fb75201113551d02a04f23ab28f",
+  "git_commit": "294a28bc7dae81637efa6ad3e44b4ddd6b39fd71",
+  "started_at": "2026-10-30T09:08:43.169001+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W3_yadav_2025/scripts/spatial_marginals_v1.py",
+    "--output",
+    "analysis/research/runs/Yd1_spatial_marginals_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/workbook_cells.tsv",
+      "sha256": "a2b843f27989b3068b6d5cf39dcc710bb19437e76dd1bc4f77bac3139b0e6e29",
+      "study_id": "JCI188734_Fig5B",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/JCI188734.sdval.xlsx",
+      "sha256": "7e8e08ec935c23bcee3fc7a4059f4a13913dd04932759968c73d47d33ac80759",
+      "study_id": "JCI188734_Fig5B",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/spatial_marginals_v1.py",
+      "sha256": "5febabe63649bbebc29e0faf30a566c5769a112703955b7cefefaa50eaac6cba"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/config/spatial_marginals_spec_v1.json",
+      "sha256": "8a4bf33e7d49b51f4241ba068e5d6b1fc97ac0b14c6d67e7be1c86027028c2c8"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Yd1_spatial_marginals_v1/observations.csv",
+      "sha256": "3db0a586ecb0b85796cf6c3528d6cf1207677a60a2d935796eed932e0ce5ae2c"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_spatial_marginals_v1/marginal_summaries.csv",
+      "sha256": "f2aa5efe91665751d258b27ac569f01f3144ecd4a831a10a897a3185d992f392"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_spatial_marginals_v1/contrast.csv",
+      "sha256": "9526b7b03c1dab4debaae8007e061f630d39a5878da88ec61904e5b5e4b314ce"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_spatial_marginals_v1/spatial_marginals.png",
+      "sha256": "cbe0e5785dabdd1f3569d626e33d52c95489afadc5ce74ef9de893e814aac7e5"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_spatial_marginals_v1/spatial_marginals.pdf",
+      "sha256": "67f97c2f7875006fb26c21deef351753a61c2e78244420960e830b165e96648c"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_spatial_marginals_v1/runtime.json",
+      "sha256": "6747caf21f5ec90dec32c26f7ca602d9935685502a2e8e3844f225b4b3873f61"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T09:08:46.986202+00:00"
+}

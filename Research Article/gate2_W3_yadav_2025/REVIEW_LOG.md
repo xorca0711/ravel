@@ -134,3 +134,74 @@ count-integrity stderr log. It is retained as execution evidence, not edited for
 cosmetics. No unresolved merge paths remain. The next executor checkpoint is
 active (cursor `51593419-65e5-454d-96df-3e67caaaccb8:13`); the reported spatial
 source finding is not accepted here before artifact review.
+
+## Final spatial/context/synthesis checkpoint — 30 October 2026
+
+Execution: `54daedccfab6be75ec5e378dfa3b3819502bffdd`.
+S1 freeze: `294a28b` (full revision in its receipt).
+Current fetched main: `28fb61015f9b921f591e41ff26010a960c305947`.
+[Final job ledger](CONTEXT_AND_SYNTHESIS.md) · [Source audit](SPATIAL_CONTEXT_AUDIT.md).
+
+Reviewed the complete source audit, portability matrix, synthesis and F1-F5/R1/S1/
+C1 dispositions against the original six-step scope and unchanged Wg-P06 card.
+Read the frozen 48-line S1 script, specification and contract, including prior
+exposure and anonymous source units. Eleven input/contract/code/output hashes,
+three frozen contract/code byte comparisons and all twelve new cached source
+hashes passed. An independent ZIP/XML workbook reader matched all eighteen values,
+both means/medians/extrema and the fixed marginal mean difference 0.1470456667.
+Inspected the figure; it has no inferred pair connections or uncertainty interval.
+
+Independent supplemental-table inspection confirms nine Xenium participant rows
+and ID 1 shared with MIBI. Read the exact tagged Squidpy 1.5.0 implementation:
+cumulative positive distances, pair-count normalization and averaging separately
+normalized splits support the recorded aggregation/call uncertainty. Read the
+primary GEO/author-XML records for BAL, Strunz, Tsukui and Salcher, including the
+mesenchymal enrichment/tag map, whole-lung versus epithelial distinction, weak
+neutrophil capture, 298/318 atlas descriptions and Adams/Habermann parent reuse.
+The report preserves Yadav's different cohort description without inventing the
+missing subset/version. Primary source snapshots and access failures are logged.
+
+All twenty changed checkpoint paths are scoped. Registry changes add only two
+Yd1 evidence links, one contract and one receipt. Canonical questions, other
+candidates, governance, validators and all earlier frozen runs are unchanged.
+The original source and new context caches remain in the execution worktree.
+The PROGRESS integration preserves both histories, with no reset or cleanup.
+
+Disposition: final checkpoint technically approved. The six-step authorized task
+is complete to its explicitly scoped evidence boundary. S1 is description of
+published marginal ratios, not raw spatial reproduction; C1 is provenance and
+portability qualification, not a new expression scan. Neither supplies independent
+biological replication. The existing Wg-P06 hypothesis/rival is unchanged; no
+new discriminator or experiment package was introduced, so its valid prior
+literature review was reused without a novelty claim.
+
+### Exact remaining holds and reopening conditions
+
+- F1/F2/F4/R1 population inference: qualified patient/donor/preparation/pooling/
+  batch identities, relevant pairings/normalizers, sufficient independent units
+  and class validity for the selected estimand. No suffix or row-order inference.
+- F3 stronger causal claims: allocation, batch, control-genotype and targeting
+  records. Its conditional descriptive intervals remain retained as executed.
+- F5/routing: appropriate tracer and normalization evidence for flux or absolute
+  synthesis; current metabolite abundance is not incorporation.
+- Raw S1: versioned counts, centroids, segmentation, panel/analyzer and coordinate
+  units; resolved Boolean classes/exclusions; patient/section/FOV/result joins;
+  executable version/call, threshold index, splitting/aggregation and subsample
+  masks/seeds, followed by a prospective reconstruction design.
+- C1 numerical reuse: an informative selected comparison, exact versioned input,
+  donor/capture/detection qualification and overlap audit, then prospective review.
+- Wg-P06/thesis: measured joint substrate exposure/routing and suitable functional
+  output; separate epithelial differentiation/tissue function for regeneration.
+  Physiological range, effect margin, precision and bench feasibility remain unknown.
+
+No feasible authorized job is left. External contacts, Notion writes, remote push,
+PR or remote merge were not performed. Human scientific acceptance remains separate.
+All artifacts and unfavorable findings are preserved; further work needs the
+specific missing evidence or a newly authorized comparison, not relaxed gates.
+
+Integration validation passed: 11,829 repository checks and the current-main
+research gate (`ok: true`, no errors). Staged whitespace and unresolved-merge
+checks passed. The previously approved regression tests and evidence checks
+remain valid and were reused. Final executor cursor:
+`51593419-65e5-454d-96df-3e67caaaccb8:16`. No further execution job is requested;
+scheduled checkpoint review can be paused after this local integration.
