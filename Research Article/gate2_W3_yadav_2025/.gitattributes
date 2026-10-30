@@ -21,3 +21,6 @@ config/rna_endpoints_*_v1.json -text whitespace=cr-at-eol
 
 scripts/render_figures_v2.py -text whitespace=cr-at-eol
 config/figure_display_v2.json -text whitespace=cr-at-eol
+
+scripts/spatial_marginals_v1.py -text whitespace=cr-at-eol
+config/spatial_marginals_*_v1.json -text whitespace=cr-at-eol
