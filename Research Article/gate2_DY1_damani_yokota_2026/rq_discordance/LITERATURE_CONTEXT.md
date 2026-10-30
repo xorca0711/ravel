@@ -140,3 +140,13 @@ use of these source data remains shared-source reanalysis. See the
 [current dossier](README.md) and [independent review](REVIEW.md) for execution
 status and remaining inference limits; the earlier feasibility language is not
 the current run ledger.
+
+## Post-extension feasibility refresh — 30 October 2026
+
+The [follow-up assessment](FOLLOWUP_FEASIBILITY_2026-10-30.md) records the actual
+paper/notes/results reconciliation, new primary-source searches, SUM-seq Fig. 2
+and EGA accession, access failures and exact proposed comparisons. It adds a
+paired-modality source lead, two bounded robustness questions and a cofactor
+reference comparison after outcome exposure. F4 retains the Fig. 5c/deposited
+IL4 RNA replicate-count distinction and requires a new contrast contract. It does not qualify controlled files, infer independent duplicates,
+claim novelty or supersede completed E1–E6 evidence.

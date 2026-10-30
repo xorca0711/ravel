@@ -171,6 +171,18 @@ flowchart TD
 This is a qualitative reasoning map. Arrows are not estimated effects. A
 registered canonical SVG is pending any authorized canonical development.
 
+## Additional feasibility assessment after E1–E6
+
+The [paper/notes/results cross-check](FOLLOWUP_FEASIBILITY_2026-10-30.md) identifies
+four prospective additions: F1 equal-gene/region-representation sensitivity with
+qualified external inputs; F2 leave-one-component/donor panel robustness using
+primary human inputs (external components require reaggregation); and F3 a
+paired-modality macrophage time-course source whose EGA data require access and
+identity qualification; plus F4 a descriptive NCOA2/GRIP1 cKO reference comparison
+from existing counts, with group-specific provenance/model checks. None is a completed new run or a canonical RQ promotion.
+The additions address measurement and interpretation gaps exposed by the completed
+work; the original E1–E6 outcomes and inference limits are unchanged.
+
 ## Relation to existing RQs and stopping rule
 
 A1/A8 motivate separating regulatory/RNA state from later mature output; A14

@@ -20,6 +20,11 @@ separates paper findings from repository observations and mechanistic claims.
 
 ![Fixed six-library exon-bin diagnostic, not author PCA or biological effect inference](../../analysis/research/runs/DY1_baseline_exon_profile_v1/sample_profile.png)
 
+The [post-extension feasibility assessment](rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md)
+cross-checks the paper, notes and results, and identifies two further robustness
+analyses, a cofactor reference comparison using existing counts, and a paired-modality
+source needing access and qualification. These are proposals; the completed/held ledger below is unchanged.
+
 ## Candidate DY1-P01
 
 Can deposited bulk and single-cell measurements reproduce persistent NAM

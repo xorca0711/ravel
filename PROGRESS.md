@@ -1,5 +1,30 @@
 # Current project state
 
+## DY1 follow-up feasibility assessed after merge — 30 October 2026
+
+PR #152 is merged. This scoped assessment starts from fetched main
+`28fb61015f9b921f591e41ff26010a960c305947`; the prior publication checkpoint below
+is historical. Cross-checked the original paper, presentation, owner notes and
+completed reproduction/human/P02 reports. The
+[assessment](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md)
+proposes a region-weighting audit, human-panel fragility diagnostics, a cofactor
+reference comparison from existing counts, and a closer paired-modality time-course
+source. The first two have bounded uses of existing inputs; external human component results require reaggregation. Individual human
+gene contrasts and annotation/depth checks were already done and are not new jobs.
+
+New source EGAD50000001206 is controlled-access; independent preparation identity,
+paired files and processed matrices are unqualified. Its public analysis repository
+timed out. Original author capsules were inaccessible to the web reader. No data
+access request, external write, biological rerun, new canonical RQ or scientific
+acceptance occurred. Original counts/unit/ATAC/mediation holds remain explicit.
+
+Next: a prospective exposed contract for F1; F4 after its group/provenance and
+contrast model checks; F2 if panel robustness is pursued; source access/metadata
+qualification before F3. Keep all frozen evidence and source caches. Final
+validation passed 11,663 repository checks and the research gate against freshly
+fetched main `28fb610`; no biological rerun was needed. No external setting changed.
+
+
 ## DY1 draft PR opened — 30 October 2026
 
 At the owner's request, published the reviewed branch and opened
