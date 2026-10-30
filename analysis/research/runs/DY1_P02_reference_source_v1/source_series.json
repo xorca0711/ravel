@@ -1,0 +1,214 @@
+{
+  "GSE247223": {
+    "title": [
+      "Epigenomic and Functional Convergence Between Glucocorticoid- and IL4-Driven Macrophage Programming"
+    ],
+    "geo_accession": [
+      "GSE247223"
+    ],
+    "status": [
+      "Public on Sep 03 2024"
+    ],
+    "submission_date": [
+      "Nov 07 2023"
+    ],
+    "last_update_date": [
+      "Nov 22 2024"
+    ],
+    "pubmed_id": [
+      "39424780"
+    ],
+    "summary": [
+      "Macrophage polarization is implicated in acute and chronic inflammatory settings, and central to diseases such as obesity, atherosclerosis and cancer. However, the transcription programs driving macrophage polarization are only partially known. Macrophage phenotypes exist on a spectrum, with anti-inflammatory (M2-like) and pro-inflammatory (M1-like) states viewed as polar opposite and relatively stable phenotype. The main driver of the M2-like program in response to IL4 is the Krüppel-like factor 4(KLF4), which uses transcriptional coregulator GRIP1 as a co-activator. Coincidentally, glucocorticoid hormone (GC)-activated GC receptor (GR) also induces the M2-like state, and GRIP1 is a well-known co-factor of GR. We are investigating if GRIP1 facilitates transcriptional and phenotypic convergence of the M2-like state via the GR and KLF4-regulated pathways. Using RNA-seq on bone marrow-derived macrophages (BMDMs) from WT and GRIP1-cKO mice, we have shown that GR and KLF4-regulated pathways share common and distinct transcriptomes. A lot of the key M2 genes are GRIP1-dependent, and some key pro-inflammatory targets need GRIP1 for suppression in the M2–like state. Similarly, H3K27ac ChIP and ATAC-seq, which profile active and open chromatin regions respectively, revealed both specific and shared enhancers for these two pathways in the M2-like state. GR recruitment to the genomic binding sites was shown to be strictly GC-specific, whereas GRIP1 is recruited in both signal-specific and combinatorial manner. It is plausible that GRIP1 facilitates the binding of GR and KLF4 to the shared enhancers, thus leading to overlapping changes in gene expression. At the cellular level, GC- and particularly IL4-polarized GRIP1-cKO BMDMs exhibit reduced phagocytosis, an M2-characteristic activity, compared to the WT. Furthermore, in vivo, in the acute inflammatory setting of DSS-induced colitis, GRIP1-cKO mice exhibit greater colonic inflammation and tissue destruction, and fail to up-regulate M2 genes to the same degree as the WT. GRIP1 is therefore a crucial regulator of macrophage polarization to the anti-inflammatory state. The specific contribution of GRIP1 to the shared transcriptional phenotype is currently being assessed."
+    ],
+    "overall_design": [
+      "Mouse primary bone marrow-derived macrophages from BL6(wild type) and LysM-Cre+/+; GRIP1fl/fl  mice  were exposed to IL4 or glucocorticoids corticosterone  and dexamethasone  for 24 h"
+    ],
+    "type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "contributor": [
+      "Dinesh,K,Deochand",
+      "Marija,,Dacic",
+      "Yurii,,Chinenov",
+      "Inez,,Rogatsky"
+    ],
+    "sample_id": [
+      "GSM7885431",
+      "GSM7885432",
+      "GSM7885433",
+      "GSM7885434",
+      "GSM7885435",
+      "GSM7885436",
+      "GSM7885437",
+      "GSM7885438",
+      "GSM7885439",
+      "GSM7885440",
+      "GSM7885441",
+      "GSM7885442",
+      "GSM7885443",
+      "GSM7885444",
+      "GSM7885445",
+      "GSM7885446",
+      "GSM7885447",
+      "GSM7885448",
+      "GSM7885449",
+      "GSM7885450",
+      "GSM7885451",
+      "GSM7885452",
+      "GSM7885453",
+      "GSM7885454",
+      "GSM7885455",
+      "GSM7885456",
+      "GSM7885457"
+    ],
+    "contact_name": [
+      "Yurii,,Chinenov"
+    ],
+    "contact_laboratory": [
+      "HSS Genomics Center"
+    ],
+    "contact_department": [
+      "Research Division"
+    ],
+    "contact_institute": [
+      "Hospital for special surgery"
+    ],
+    "contact_address": [
+      "535 E 71 str, Hospital for Special Surgery"
+    ],
+    "contact_city": [
+      "New york"
+    ],
+    "contact_state": [
+      "New York"
+    ],
+    "contact_zip/postal_code": [
+      "11361"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247223/suppl/GSE247223_countMatrixUpdated.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247223/suppl/GSE247223_edgeR_DEGs_2021-06-22.xlsx"
+    ],
+    "platform_id": [
+      "GPL24247"
+    ],
+    "platform_taxid": [
+      "10090"
+    ],
+    "sample_taxid": [
+      "10090"
+    ],
+    "relation": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1036655"
+    ]
+  },
+  "GSE248042": {
+    "title": [
+      "Epigenomic and Functional Convergence Between Glucocorticoid- and IL4-Driven Macrophage Programming [ATAC-seq]"
+    ],
+    "geo_accession": [
+      "GSE248042"
+    ],
+    "status": [
+      "Public on Sep 03 2024"
+    ],
+    "submission_date": [
+      "Nov 16 2023"
+    ],
+    "last_update_date": [
+      "Nov 22 2024"
+    ],
+    "pubmed_id": [
+      "39424780"
+    ],
+    "summary": [
+      "Macrophages adopt distinct phenotypes in response to environmental cues, with type-2 cytokine interleukin-4 (IL4) promoting a tissue-repair homeostatic state (M2IL4). Glucocorticoids - widely used anti-inflammatory therapeutics - reportedly impart a similar phenotype (M2GC), however how or to what extent these populations functionally converge is unknown. We show that M2IL4 and M2GC transcriptomes share a striking overlap mirrored by a shift in chromatin landscape in both common and signal-specific gene subsets. This core homeostatic program is enacted by transcriptional effectors KLF4 and the GC receptor (GR), whose genome-wide occupancy and actions are integrated in a stimulus-specific manner by the nuclear receptor cofactor GRIP1. Indeed, 35% of the shared IL4- vs. GC-elicited transcriptomic changes were GRIP1-dependent. Consistently, GRIP1 loss attenuated M2IL4 and M2GC phagocytic activity in vitro and macrophage tissue-repair properties in the murine colitis model in vivo. These findings provide a mechanistic framework for homeostatic macrophage programming by distinct signals, to better inform GR-targeting drug design."
+    ],
+    "overall_design": [
+      "Mouse primary bone marrow-derived macrophages from C57BL/6  mice  were exposed to IL4 or Dexamethasone  for 24 h"
+    ],
+    "type": [
+      "Genome binding/occupancy profiling by high throughput sequencing"
+    ],
+    "contributor": [
+      "Dinesh,K,Deochand",
+      "Marija,,Dacic",
+      "Yurii,,Chinenov",
+      "Inez,,Rogatsky"
+    ],
+    "sample_id": [
+      "GSM7905114",
+      "GSM7905115",
+      "GSM7905116",
+      "GSM7905117",
+      "GSM7905118",
+      "GSM7905119",
+      "GSM7905120",
+      "GSM7905121",
+      "GSM7905122",
+      "GSM7905123",
+      "GSM7905124",
+      "GSM7905125",
+      "GSM7905126",
+      "GSM7905127",
+      "GSM7905128",
+      "GSM7905129",
+      "GSM7905130",
+      "GSM7905131",
+      "GSM7905132",
+      "GSM7905133",
+      "GSM7905134",
+      "GSM7905135",
+      "GSM7905136",
+      "GSM7905137"
+    ],
+    "contact_name": [
+      "Yurii,,Chinenov"
+    ],
+    "contact_laboratory": [
+      "HSS Genomics Center"
+    ],
+    "contact_department": [
+      "Research Division"
+    ],
+    "contact_institute": [
+      "Hospital for special surgery"
+    ],
+    "contact_address": [
+      "535 E 71 str, Hospital for Special Surgery"
+    ],
+    "contact_city": [
+      "New york"
+    ],
+    "contact_state": [
+      "New York"
+    ],
+    "contact_zip/postal_code": [
+      "11361"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE248nnn/GSE248042/suppl/GSE248042_Chinenov_Deochand_submission_ATACseq_differential_peak_analysis_.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE248nnn/GSE248042/suppl/GSE248042_Chinenov_Deochand_submission_ATACseq_peak_count_matrix.csv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE248nnn/GSE248042/suppl/GSE248042_RAW.tar"
+    ],
+    "platform_id": [
+      "GPL24247"
+    ],
+    "platform_taxid": [
+      "10090"
+    ],
+    "sample_taxid": [
+      "10090"
+    ],
+    "relation": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1041449"
+    ]
+  }
+}

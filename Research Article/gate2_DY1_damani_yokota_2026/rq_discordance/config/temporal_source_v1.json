@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.temporal_source_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which assay/time/context coverage and RNA table semantics do the existing Daniel 2018/2020 source deposits actually support for the bounded E6 extension?",
+  "decision": "Qualify an RNA-only source-average description if supported, while distinguishing assay-specific endpoint data, unqualified temporal joins and unrelated muscle sources.",
+  "strongest_rival": "Combining different cell systems or assay-specific time labels into a false matched trajectory, double-counting superseries records, or reconstructing replicate variance from published group averages.",
+  "discriminator": "Exact SOFT source membership and titles, deduplicated GSM inventory, all listed files, full normalized/raw RNA format arithmetic and exact source-column joins.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original NAM N. brasiliensis-history/later-IAV context, published Daniel findings, metadata and table headers/first rows are exposed. No temporal-reference biological contrast has been computed.",
+  "biological_unit": "Technical source records and table rows. Published group averages cannot recover replicate-level values, variance, effective n, sample pairing or animal independence.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "Superseries and subseries repeat GSM records; report occurrences and deduplicated identities. Assay-specific time labels and repeated replicate names are not cross-assay joins.",
+  "population_and_selection": "SOFT for GSE115505/GSE115085/GSE115504/GSE115502/GSE110465/GSE151015, GSE115504 memory averaged-CPM table, and GSE151015 raw RNA matrix. Audit every table row and column; no genotype contrast or biological selection.",
+  "contrast": "Source/context/time-label coverage and table arithmetic only; no biological temporal estimate.",
+  "endpoint": "Unique/overlapping GSM inventory, file listings, RNA column-to-source groups, average versus raw-count semantics, counts/zeros and explicit eligibility limits.",
+  "methods": "Parse exact source fields with frozen E1 parser; do not convert hour tokens into a trajectory. Join memory columns to first/second-stimulation labels; inspect all group means. Audit raw RNA counts with explicit missing first-header handling. Verify whole-file totals by independent CSV/Python fsum/integer accounting.",
+  "missingness_and_exclusions": "Retain every source record; superseries duplication is reported, not additional replication. Exclude unrelated muscle context from a prospective cultured-memory comparison. Do not invent per-replicate values, source durations, identities or missing peak counts.",
+  "multiplicity": "No biological hypothesis tests or selected-locus comparisons. All structural checks retained.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact file/record accounting; no biological precision or power claim.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Metadata qualification supports only its stated subsequent descriptive possibilities; no matched RNA-ATAC time course, early-to-late RNA curve, causal persistence or NAM validation. No large archives, intervention ranking or infection response outputs.",
+  "stop_rule": "Stop on input/code hash, parse, count-integrity or independent arithmetic conflict; retain failed receipts and partial evidence. Missing scientific identity/annotation details produce explicit holds, not invented repairs.",
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE110465_family.soft.gz",
+      "sha256": "a4eef631612aa101dc0edebe60fa8f426c9a54965d373e1bc5583423b49feae4",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115085_family.soft.gz",
+      "sha256": "c2821f109db3c35f1089cdbb525bd37e5bb32d1b3aed6147e3672d1ef5905bbc",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115502_family.soft.gz",
+      "sha256": "d0c6deab62be44b4b69122d08ae3e1c2b9fe95694c9aadd802ac3747a41498bd",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115504_family.soft.gz",
+      "sha256": "0c23f6c8bbb03f4cdc494dc9abb1df814da1ae76b1ccc873fed7216563ecf0d1",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115504_memory_averaged.cpm.table.tsv.gz",
+      "sha256": "ca54ef1ffbaf066ec5745a08cc518b0b0ad976528a407ffb34376afff870f75a",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115505_family.soft.gz",
+      "sha256": "8d0f32e573cf50aeaac16f5d99f3a127989316ee908f6dc1266b328ac6593c60",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE151015_family.soft.gz",
+      "sha256": "c3707458f978445e282f1420f21767b491ece879bc5bb2eb638589c8f919a119",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE151015_mm_BMDM_Egr2_RNAseq_raw_counts.txt.gz",
+      "sha256": "c485c0da4e036ebfe379a62cd7d178d195390c0aedf76327a020bd4cf942f782",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/retrieval_memory_v1.json",
+      "sha256": "a84659f0886b2bf14d45aaa63260582712db4f85644d8bb606c620b47eaed843",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/retrieval_v1.json",
+      "sha256": "a324181874974b6bd74b3cd58f5319a8fc112e1fac8742eec346c34bb2cf85bc",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/retrieval_v2.json",
+      "sha256": "4e13ef5a9b803c03299df4552872eeb748ab3665ba87918bdbebb24dbf2c907e",
+      "study_id": "Daniel2018_2020_temporal_source_metadata",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/temporal_source_v1.py",
+      "sha256": "f40e913d6359390deb4af72b05e07fb589c4bda75d6bda9f9338542c22213895"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/reference_source_v1.py",
+      "sha256": "e34853b1ea829c81ff4363c8fcc44e2240b00673b85d6956fe5be103bbb18162"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_temporal_source_v1.py",
+      "sha256": "6d30275b576716cda3736eb8824fefd659faf79c2dfaee09a63de77561595116"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/temporal_source_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "series_sample_membership.tsv",
+    "unique_sample_inventory.tsv",
+    "listed_files.tsv",
+    "rna_column_source_links.tsv",
+    "rna2020_count_qc.tsv",
+    "source_series.json",
+    "qualification.json",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-authorized E6 bounded metadata qualification of existing temporal-reference leads; separate from the E1 2024 source and all historical runs."
+}

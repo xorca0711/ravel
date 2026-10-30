@@ -1,0 +1,49 @@
+{
+  "rna": {
+    "rows": 29872,
+    "columns": 27,
+    "all_zero_rows": 0,
+    "duplicate_gene_names": 0
+  },
+  "atac": {
+    "rows": 144411,
+    "columns": 24,
+    "all_zero_rows": 0,
+    "author_filtered_flag_counts": {
+      "True": 72540,
+      "False": 71871
+    },
+    "inclusive_length_consistent": true
+  },
+  "annotation": {
+    "rows": 71942,
+    "joined_to_count": 71942,
+    "coordinate_agreement": {
+      "Chr": true,
+      "Start": true,
+      "End": true,
+      "Length": true
+    },
+    "ensembl_in_rna": 64757,
+    "nearest_symbol_in_rna": 64581,
+    "count_rows_without_annotation": 72469
+  },
+  "source_timing_conflict_samples": [
+    "GSM7905114",
+    "GSM7905117",
+    "GSM7905120",
+    "GSM7905123",
+    "GSM7905126",
+    "GSM7905129",
+    "GSM7905132",
+    "GSM7905135"
+  ],
+  "within_assay_condition_pairing": "unknown; source-local rep labels are not identities",
+  "cross_assay_pairing": "unknown",
+  "batch": "not specified",
+  "source_annotation_version": "RNA says GENCODE release 27 and mm10; exact file unresolved. Official mouse M27 is GRCm39. Author-provided IDs/annotations are audited, not repaired.",
+  "unit_qualification": "Published biological replicate meaning supports group-local replication; exact cross-condition preparation reuse is unqualified. No numerical population inference in this metadata run.",
+  "inference_limit": "File/count/annotation joins are technical eligibility only. No NAM validation, selected gene effect, genotype comparison or regulatory target ranking.",
+  "verification_passed": true,
+  "verification_checks": 259
+}
