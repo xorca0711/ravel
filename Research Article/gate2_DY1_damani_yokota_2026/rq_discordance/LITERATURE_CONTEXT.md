@@ -150,3 +150,27 @@ paired-modality source lead, two bounded robustness questions and a cofactor
 reference comparison after outcome exposure. F4 retains the Fig. 5c/deposited
 IL4 RNA replicate-count distinction and requires a new contrast contract. It does not qualify controlled files, infer independent duplicates,
 claim novelty or supersede completed E1–E6 evidence.
+
+## Authorized follow-up results and their implications
+
+The [F1/F4/F2 results](FOLLOWUP_RESULTS_2026-10-30.md) and
+[independent review](FOLLOWUP_REVIEW_2026-10-30.md) supersede proposal-only execution
+status. The existing same-day source reads and close precedents above remain the
+literature basis; no additional literature sweep or new mechanistic framing was
+claimed during this numerical review.
+
+F1 finds little change under equal-gene weighting, narrowing that representation
+explanation while leaving annotation, mixture and measurement alternatives.
+Common-support assignments mostly coincide, so two similar summaries are not
+independent regulatory-mapping evidence. F4's weak global cross-modal associations
+use the full eligible universe and a different descriptive endpoint from the
+source paper's selected-feature/count-model analysis. They neither contradict
+that published cofactor mechanism nor establish it in NAMs. F2 strengthens the
+robustness description of the matrix-associated RNA difference and exposes the
+primary FABP4-panel component dependence; no repair/function interpretation follows.
+
+The remaining discriminator is qualified within-state paired measurement and,
+for persistence, actual cessation/temporal evidence. F3's controlled accession
+and inaccessible analysis repository still prevent numerical source qualification.
+ARG1 transcript association, enzyme output and causal mediation stay separate.
+No canonical hypothesis, target priority or novelty claim is added.

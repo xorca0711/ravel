@@ -1,5 +1,32 @@
 # Current project state
 
+## DY1 follow-ups integrated and independently reviewed — 30 October 2026
+
+Integrated stable technical handoff `cee8466dc82bbf4ce3a12e840cd575b55864c7f8`.
+F1 representation, F4 cofactor reference and F2 human-panel robustness (including
+external component reaggregation) completed under reviewed frozen contracts.
+The [current README ledger](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md#authorized-follow-ups-after-e1e6),
+[results](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md)
+and [independent review](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md)
+record exact outcomes, source limits and pre-freeze corrections. Parent verification
+passed 3,366 arithmetic/support checks and 69 provenance/freeze checks; all three
+figures inspected. F1's table is primary because plot labels are crowded.
+
+F3 public-source assessment is complete; numerical work remains held on controlled
+access, unqualified processed files/rights, paired barcodes, preparation identities
+and common-state support. The exact analysis repository timed out. Original NAM
+count/unit/state/temporal/mediation holds are unchanged. No eligible F1–F4 numerical
+job remains queued; no human scientific acceptance or new canonical RQ was created.
+Six existing RQ context notes now link the article evidence without duplicating it.
+
+The technical handoff passed 14 targeted tests, 161 repository tests (one skip),
+required verifiers, 11,702 repository checks and the base-aware research gate.
+Integrated documentation passed 11,727 repository checks and the research gate
+against freshly fetched unchanged main `28fb610`. Source caches and unrelated worktrees
+remain preserved. No remote publication or external setting changed. Next: obtain
+qualified F3/original-source evidence before reopening the specifically held jobs.
+
+
 ## DY1 reviewed follow-ups executed — 30 October 2026
 
 Completed new exposed F1, F4 and F2 contracts/runs after independent pre-freeze

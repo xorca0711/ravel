@@ -171,17 +171,24 @@ flowchart TD
 This is a qualitative reasoning map. Arrows are not estimated effects. A
 registered canonical SVG is pending any authorized canonical development.
 
-## Additional feasibility assessment after E1–E6
+## Authorized follow-ups after E1–E6
 
-The [paper/notes/results cross-check](FOLLOWUP_FEASIBILITY_2026-10-30.md) identifies
-four prospective additions: F1 equal-gene/region-representation sensitivity with
-qualified external inputs; F2 leave-one-component/donor panel robustness using
-primary human inputs (external components require reaggregation); and F3 a
-paired-modality macrophage time-course source whose EGA data require access and
-identity qualification; plus F4 a descriptive NCOA2/GRIP1 cKO reference comparison
-from existing counts, with group-specific provenance/model checks. None is a completed new run or a canonical RQ promotion.
-The additions address measurement and interpretation gaps exposed by the completed
-work; the original E1–E6 outcomes and inference limits are unchanged.
+The owner subsequently authorized the [feasibility proposals](FOLLOWUP_FEASIBILITY_2026-10-30.md)
+through the existing technical chat. Three numerical jobs are complete; public-source
+assessment of F3 is complete with a specific numerical hold. See the
+[results](FOLLOWUP_RESULTS_2026-10-30.md) and [independent review](FOLLOWUP_REVIEW_2026-10-30.md).
+
+| Step | Current status | Finding or exact remaining requirement |
+|---|---|---|
+| F1: representation | Completed, reviewed | Equal-gene weighting shifts agreement only +0.196 to +0.396 percentage points; mixed ATAC directions and annotation/measurement limits remain |
+| F4: cofactor reference | Completed, reviewed | Full mapped-row RNA/ATAC correlations are weak; conditional genotype descriptions do not identify a NAM mechanism, interaction or TF activity |
+| F2: human panel robustness | Completed, reviewed, including external components | Matrix-associated IPF direction survives individual component/donor omissions in the displayed primary/external populations; primary FABP4 sign depends on its FABP4 component; all held/negative cases retained |
+| F3: paired time-course source | Public assessment complete; numerical hold | Controlled EGA access; analysis repository timed out; processed files/rights, paired barcodes, independent preparations and common-state support remain unqualified |
+
+![Human panel omission diagnostics; ranges are not confidence intervals](../../../analysis/research/runs/DY1_human_panel_robustness_v1/human_panel_robustness.png)
+
+No original E1–E6 or canonical-RQ decision changed. F1–F4 have no remaining
+eligible numerical job queued; held estimands require their stated new evidence.
 
 ## Relation to existing RQs and stopping rule
 
@@ -192,7 +199,8 @@ Their hypotheses and negative evidence are unchanged. The [article README](../RE
 links their existing notes. This candidate does not supply their missing endpoints.
 
 The owner subsequently authorized qualification and eligible extension execution.
-The five completed runs and remaining E4/E5 or inference holds are recorded above.
+The five E1–E6 runs and three later F1/F4/F2 runs are recorded above, together
+with the original E4/E5 and new F3 numerical holds.
 The original DY1-P01 checklist keeps its documented completed/held dispositions.
 Reopen a held estimand only when its missing evidence is qualified, using a new
 prospective versioned contract. No human retain/reject decision, scientific
@@ -208,6 +216,7 @@ claim or omitted qualified numerical job. It did not independently audit the
 external papers/files; their access limits remain recorded. No numerical result
 or human scientific acceptance was created.
 
-The earlier technical framing review remains historical. The subsequent
-[execution review](REVIEW.md) covers all five newly completed runs and preserves
-their stated biological limits.
+The earlier technical framing review remains historical. The
+[E1–E6 execution review](REVIEW.md) covers its five runs; the later
+[F1–F4 review](FOLLOWUP_REVIEW_2026-10-30.md) covers the three additional runs and
+F3 source assessment. Both preserve their stated biological limits.

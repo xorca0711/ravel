@@ -3014,3 +3014,26 @@ No human scientific acceptance or canonical-RQ promotion was created.
 | Blanket temporal numerical hold | Repeated-stimulation RNA group averages support a bounded point description despite absent replicate variance | Execute RNA-only arithmetic; retain uncertainty and matched RNA-ATAC holds |
 | Source flag interpretation | Exact contingency differs from an assumed retained/dropped meaning | Keep True/False values and annotation coverage; no inferred filter semantics |
 | Earlier feasibility-only summaries | Owner subsequently authorized and completed eligible runs | Preserve the framing history; supersede current navigation with reviewed execution results |
+
+## 2026-10-30 — DY1 follow-up execution through the existing technical chat
+
+The owner authorized the [four assessed follow-ups](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md)
+through the existing technical chat. It implemented/froze/executed F1, F4 and F2;
+the coordinating reviewer inspected contracts/code before execution and inputs,
+receipts, arithmetic and figures afterward. F3 public qualification retains its
+specific numerical hold. Human scientific acceptance remains unassessed.
+
+| Item | Responsible work | Review / authority | Disposition |
+|---|---|---|---|
+| F1 representation, F4 cofactor reference, F2 human robustness | Existing technical chat | Owner execution authorization; independent coordinating technical review | Three successful frozen runs; all unfavorable/held cases retained |
+| F3 paired source | Technical source check and reviewer correction | Owner source-qualification scope only | Controlled access and unqualified files/units; no access application or external contact |
+| README, interpretation and RQ context routing | Coordinating reviewer | Owner's continuing organization/review request | Article owns numerical outputs; six existing RQ context notes link the results without changing canonical hypotheses/decisions |
+
+| Revised or failed item | Reason | Technical disposition |
+|---|---|---|
+| F2 implicit missing-component averaging | Could silently change the declared panel | Rejected before freeze; explicit finite-value check and test added |
+| F2 zero reversals when reference unavailable | Could misrepresent an unsupported comparison as stability | Rejected before freeze; comparison fields NA/status with targeted test |
+| F3 preprocessing link used as analysis-files link | Distinct source repositories | Corrected; exact analysis URL bounded retry timed out, absence not inferred |
+| F4 draft parameter hash checks | Windows line-ending mismatch and incomplete first correction | Two failed draft preflights retained; exact LF bytes/hashes qualified before sole run |
+| Initial repository test environment | Sandbox temporary-Git creation/cleanup failed | Authorized retry passed; no biological run affected |
+| F1 frozen plot layout | Crowded long x-axis labels | Retain frozen evidence; exact table primary, plot supplemental |

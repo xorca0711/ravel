@@ -20,10 +20,13 @@ separates paper findings from repository observations and mechanistic claims.
 
 ![Fixed six-library exon-bin diagnostic, not author PCA or biological effect inference](../../analysis/research/runs/DY1_baseline_exon_profile_v1/sample_profile.png)
 
-The [post-extension feasibility assessment](rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md)
-cross-checks the paper, notes and results, and identifies two further robustness
-analyses, a cofactor reference comparison using existing counts, and a paired-modality
-source needing access and qualification. These are proposals; the completed/held ledger below is unchanged.
+The subsequent [F1–F4 follow-ups](rq_discordance/README.md#authorized-follow-ups-after-e1e6)
+are now assessed through the existing technical chat: representation, cofactor
+reference and human-panel robustness runs completed and passed
+[independent review](rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md). The paired
+source remains numerically held on access/files/identities. The
+[follow-up results](rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md) preserve all
+mixed and unfavorable findings; original-stage holds below remain unchanged.
 
 ## Candidate DY1-P01
 
