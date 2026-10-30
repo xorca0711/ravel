@@ -1,5 +1,33 @@
 # Current project state
 
+## DY1-P02 supported extensions executed — 30 October 2026
+
+Five governed runs completed external source qualification (E1), the descriptive
+RNA/ATAC reference benchmark (E2), the synthetic diagnostic (E3), and temporal
+source qualification plus an RNA-only source-average description (E6). The
+[extension results](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md)
+link exact receipts, all outcomes, figures and remaining holds. No canonical RQ
+or human scientific acceptance changed; original NAM evidence remains intact.
+
+The benchmark retains mixed signs and reports mapping/offset/dependence sensitivity,
+with no unconditional population-CI or exact-author claim. Synthetic detection
+labels differ under equal truth as well as opposite truth. The temporal source
+supports a WT group-average RNA description; no replicate variance, causal
+trajectory or matched RNA–ATAC panel was reconstructed. E4/E5 original count,
+unit/state and assay-linkage holds remain separate and unchanged.
+
+All 19 targeted tests and 161 repository tests (one skip) passed, together with
+compilation, required evidence verifiers, 11,618 repository checks and the
+base-aware research gate. No governed run failed.
+An initial missing-requests download utility failure is preserved; standard-library
+downloads succeeded. No runtime install or external setting changed.
+
+Next: integrate the stable execution handoff into the review branch's README/ledger.
+No additional numerical job is queued. The scoped branch began at `a6559e4`;
+freshly fetched main remains
+`78320a186b6f52426e7c7c5349a2f26492b718b7`. Original worktrees, frozen artifacts,
+governance and all 32 canonical questions are preserved.
+
 ## DY1-P02 baseline-discordance question proposed — 30 October 2026
 
 At the owner's request, added an article-local question on whether the late

@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "arithmetic": [
+    {
+      "offset": 1.0,
+      "checks": 93680,
+      "max_absolute_error": 2.9698465908722937e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "offset": 0.5,
+      "checks": 93680,
+      "max_absolute_error": 2.942091015256665e-15,
+      "tolerance": 1e-11,
+      "passed": true
+    }
+  ],
+  "partitions_checked": 4,
+  "method": "Every feature and both offsets: numpy log differences versus Python math.log2 ratios/product ratio, plus exhaustive category partitions. Same source averages, not biological replication."
+}
