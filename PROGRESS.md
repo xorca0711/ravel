@@ -1,5 +1,23 @@
 # Current project state
 
+## Yadav source checkpoint interrupted and resumed — 30 October 2026
+
+The execution chat stopped with a model-capacity system error before delivering
+its first source-qualification checkpoint. Its separate worktree exists at
+`C:/Users/dream/.codex/worktrees/yadav-technical-analysis-20261030/ravel` on
+`codex/yadav-technical-analysis-20261030`, still based on `90273d0`.
+The chat reports recovered public workbook/count inputs and a prepared metadata
+contract with passing preflight; these are partial, not yet reviewed results.
+
+Sent an authorized continuation with unchanged model/settings, preserving all
+inputs and partial work. Requested a scoped registry diff instead of formatting
+churn, inspection for existing runs before retry, and a committed qualification
+report/eligibility ledger before effect analyses. No scientific result was
+integrated or accepted. Next: inspect that stable checkpoint and actual evidence.
+The heartbeat remains active. Last observed cursor:
+`51593419-65e5-454d-96df-3e67caaaccb8:2`. No repository analysis or tests were
+rerun for this coordination-only entry; previous checks remain valid.
+
 ## Yadav execution chat and continuing review launched — 30 October 2026
 
 The owner authorized a separate technical chat and continuing stepwise review
