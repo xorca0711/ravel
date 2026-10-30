@@ -1,0 +1,37 @@
+{
+  "verified": true,
+  "arithmetic_checks": 1608,
+  "eligible_features": [
+    {
+      "assay": "RNA",
+      "source_features": 29872,
+      "all_zero_selected_group_rows": 4070,
+      "eligible_features": 25802,
+      "control_libraries": 3,
+      "condition_libraries": 3,
+      "pairing_models": 6,
+      "library_denominator": "all source count-matrix rows, including unannotated regions"
+    },
+    {
+      "assay": "ATAC",
+      "source_features": 144411,
+      "all_zero_selected_group_rows": 0,
+      "eligible_features": 144411,
+      "control_libraries": 4,
+      "condition_libraries": 4,
+      "pairing_models": 24,
+      "library_denominator": "all source count-matrix rows, including unannotated regions"
+    }
+  ],
+  "context": "Descriptive source-labelled cultured-macrophage measurement benchmark only. CPM is compositional and does not establish absolute output. Original NAM N. brasiliensis-history/later-IAV context remains separate. No genotype effect, target ranking, infection-response analysis or mechanistic validation.",
+  "uncertainty": "Independent-Welch and all possible one-to-one within-assay pairings are alternative design assumptions, not recovered identities. Their envelope is a sensitivity envelope, not an unconditional population confidence interval and not exhaustive of partial overlap or batch confounding. Zero estimated-variance models are flagged as degenerate, not certain.",
+  "source_holds": [
+    "ATAC vehicle 24h title versus 25 hours characteristic",
+    "Within-assay across-condition preparation reuse unknown",
+    "Cross-assay pairing unknown",
+    "Batch labels unavailable",
+    "Exact annotation version unresolved; author mappings used as exposed association rules",
+    "Source matrices/annotation are author-selected deposited universes, not unbiased whole genomes"
+  ],
+  "endpoint": "Separate mean log2(CPM+offset) condition-minus-control differences; not count-model log fold changes, p-values, TF activity, target rank or causal effects."
+}

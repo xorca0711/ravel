@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.source_average_response_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do source-labelled WT RNA group-average log ratios differ between the first and second stimulation stages in the qualified GSE115504 reference table, and how sensitive is this point description to two fixed offsets?",
+  "decision": "Complete the eligible RNA-only E6 description without inventing per-replicate values, uncertainty, genotype effects or a matched temporal RNA-ATAC panel.",
+  "strongest_rival": "Averaged normalized values, source stage/control differences, low-expression offsets and absent replicate information can create a misleading impression of an individual history response or mechanistic persistence.",
+  "discriminator": "Four exact WT source-average columns; separate within-stage log ratios, baseline shift and second-minus-first contrast; retain all rows and distinguish all-zero WT rows. Two prespecified offsets and independent full-table scalar arithmetic.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md",
+    "analysis/research/runs/DY1_P02_temporal_source_v1/qualification.json"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original NAM N. brasiliensis-history/later-IAV context, published Daniel findings and E6 metadata/table headers are exposed. These source-average contrasts have not been computed. Same published source is one evidence lineage, not independent validation.",
+  "biological_unit": "Published group-average RNA measurements, not individual samples; two title-labelled records per group do not recover per-replicate values or effective biological n.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "The first/second-stage source columns are group averages. Across-stage animal/preparation overlap and averaging details are unqualified. Feature rows are not independent biological replicates.",
+  "population_and_selection": "All 23420 source feature rows, exact four WT columns. KO columns are unused. All-zero WT rows remain in outputs and are counted separately; summaries of nonzero WT rows have an explicit denominator. No abundance threshold, chosen axis gene or outcome-dependent exclusion.",
+  "contrast": "For offset c in {1,.5}: first=log2((WT_ctrl_3h_IL4+c)/(WT_ctrl_0h+c)); second=log2((WT_IL4_pre_3h_IL4+c)/(WT_IL4_pre_0h+c)); change=second-first; baseline=log2((WT_IL4_pre_0h+c)/(WT_ctrl_0h+c)). These describe source group averages, not means of individual log responses or a causal interaction.",
+  "endpoint": "Unranked row-level source-average contrasts; same/opposite/zero direction counts and descriptive across-row quantiles, by fixed offset. No variance, confidence intervals, p-values or effective n.",
+  "methods": "Read only the four qualified WT columns; no re-normalization of source-labelled averaged CPM. Compute numpy log differences and independently verify every value with Python math.log2 ratios/product ratios at absolute tolerance 1e-11. Retain all source rows; separate all-zero WT rows from the nonzero-row denominator. Plot unlabelled feature-density geometry, no selected loci.",
+  "missingness_and_exclusions": "Invalid nonfinite/negative averages or changed source headers stop. No genotype contrast, no recovered individual values, no ambiguous time-course interpolation, and no exclusion to align results with a regulatory axis.",
+  "multiplicity": "No hypothesis tests or population claims. Across-row proportions and quantiles describe this table; they are not independent biological replication or uncertainty.",
+  "precision_status": "unknown",
+  "precision_basis": "Replicate-level measurements are absent from the group-average table. Biological variance and precision remain unknown; numerical tolerance verifies floating-point arithmetic only.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "The table is author-labelled averaged CPM with unverified normalization details. Point ratios can describe those averages, but not individual temporal responses, biological uncertainty, post-cessation NAM memory, activity, binding, enzyme output or mechanistic causation. No matching to unrelated ATAC or muscle samples.",
+  "stop_rule": "Stop and preserve failure on source/hash/column/number/arithmetic conflicts. Keep both offset outcomes and all mixed/zero directions; do not add targets, genotypes or thresholds to obtain an appealing pattern.",
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115504_memory_averaged.cpm.table.tsv.gz",
+      "sha256": "ca54ef1ffbaf066ec5745a08cc518b0b0ad976528a407ffb34376afff870f75a",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_temporal_source_v1/qualification.json",
+      "sha256": "6b681d492270ead148bc5ef03fe2e5e708abe3031007b59c7270592ea3c148d3",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_temporal_source_v1/rna_column_source_links.tsv",
+      "sha256": "2bfcbe093ac86f80eb1bb5c1154bbab38f3484a87de5916dfd691985addb1c1f",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json",
+      "sha256": "bc781f2a714ec1bd77f70994ad7867fe666e7f77fc7406960b0b8c1de53a92eb",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/source_average_response_v1.py",
+      "sha256": "a560be077c61e9b2ba91cf58021a3aa88be20bc78cde040e962858de40747cb7"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_source_average_v1.py",
+      "sha256": "7df1064fdbc21d7a4090e0027c2fec0054e255862cec43fea1b0dd0b44eb9a54"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json",
+      "sha256": "bc781f2a714ec1bd77f70994ad7867fe666e7f77fc7406960b0b8c1de53a92eb"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/source_average_response_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_average_contrasts.tsv.gz",
+    "offset_sensitivity.tsv",
+    "verification.json",
+    "source_average_response.png",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-authorized RNA-only E6 point description after exact source qualification; all temporal/cross-assay and biological inference limits remain explicit."
+}

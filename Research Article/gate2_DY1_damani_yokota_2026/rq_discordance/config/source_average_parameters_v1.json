@@ -1,0 +1,7 @@
+{
+  "columns": ["WT_ctrl_0h", "WT_ctrl_3h_IL4", "WT_IL4_pre_0h", "WT_IL4_pre_3h_IL4"],
+  "offsets": [1.0, 0.5],
+  "semantics": "Four source-reported WT group-averaged CPM columns, not individual samples or reconstructed raw counts. No re-normalization, effective biological n, variance, confidence interval, p-value, genotype screen or target ranking.",
+  "endpoint": "Log2 ratios of author group averages within each source-defined stage; second-minus-first log-ratio is a descriptive contrast of source averages, not a causal interaction or a trajectory.",
+  "context": "RNA-only non-infectious cultured-macrophage reference. Original NAM N. brasiliensis-history/later-IAV context stays separate; no paired RNA-ATAC, memory mechanism or infection-response claim."
+}

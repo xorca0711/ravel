@@ -1,0 +1,764 @@
+{
+  "GSE115505": {
+    "title": [
+      "Ligand-insensitive PPARγ controls progressive or reinforcing macrophage polarization as an epigenomic ratchet of transcriptional memory"
+    ],
+    "geo_accession": [
+      "GSE115505"
+    ],
+    "status": [
+      "Public on Jun 20 2018"
+    ],
+    "submission_date": [
+      "Jun 08 2018"
+    ],
+    "last_update_date": [
+      "Mar 21 2019"
+    ],
+    "summary": [
+      "This SuperSeries is composed of the SubSeries listed below."
+    ],
+    "overall_design": [
+      "Refer to individual Series"
+    ],
+    "type": [
+      "Expression profiling by high throughput sequencing",
+      "Genome binding/occupancy profiling by high throughput sequencing"
+    ],
+    "sample_id": [
+      "GSM3164883",
+      "GSM3164884",
+      "GSM3164885",
+      "GSM3164886",
+      "GSM3164887",
+      "GSM3164888",
+      "GSM3164889",
+      "GSM3164890",
+      "GSM3164891",
+      "GSM3164892",
+      "GSM3164893",
+      "GSM3164894",
+      "GSM3164895",
+      "GSM3164896",
+      "GSM3164897",
+      "GSM3164898",
+      "GSM3164899",
+      "GSM3164900",
+      "GSM3164901",
+      "GSM3164902",
+      "GSM3164903",
+      "GSM3164904",
+      "GSM3164905",
+      "GSM3164906",
+      "GSM3164907",
+      "GSM3164908",
+      "GSM3164909",
+      "GSM3164910",
+      "GSM3164911",
+      "GSM3164912",
+      "GSM3164915",
+      "GSM3164916",
+      "GSM3164917",
+      "GSM3164918",
+      "GSM3164919",
+      "GSM3164920",
+      "GSM3164921",
+      "GSM3164922",
+      "GSM3164923",
+      "GSM3164924",
+      "GSM3164925",
+      "GSM3164926",
+      "GSM3164927",
+      "GSM3164928",
+      "GSM3164929",
+      "GSM3164930",
+      "GSM3164931",
+      "GSM3164932",
+      "GSM3164933",
+      "GSM3164934",
+      "GSM3179648",
+      "GSM3179649",
+      "GSM3179650",
+      "GSM3179651",
+      "GSM3179652",
+      "GSM3179653",
+      "GSM3179654",
+      "GSM3179655",
+      "GSM3179656",
+      "GSM3179657",
+      "GSM3179658",
+      "GSM3179659",
+      "GSM3179660",
+      "GSM3179661",
+      "GSM3179662",
+      "GSM3179663",
+      "GSM3179664",
+      "GSM3179671",
+      "GSM3179672",
+      "GSM3179673",
+      "GSM3179674",
+      "GSM3179675",
+      "GSM3179676",
+      "GSM3179677",
+      "GSM3179678",
+      "GSM3179679",
+      "GSM3179680",
+      "GSM3179681",
+      "GSM3179682",
+      "GSM3179683",
+      "GSM3179684",
+      "GSM3179685",
+      "GSM3179686",
+      "GSM3179687",
+      "GSM3179688",
+      "GSM3179689",
+      "GSM3179690",
+      "GSM3179691",
+      "GSM3179692",
+      "GSM3179693",
+      "GSM3179694"
+    ],
+    "contact_name": [
+      "Bence,,Daniel"
+    ],
+    "contact_email": [
+      "daniel.dote@gmail.com, daniel.bence@gene.com"
+    ],
+    "contact_phone": [
+      "407-242-7384"
+    ],
+    "contact_laboratory": [
+      "Daniel Lab"
+    ],
+    "contact_department": [
+      "Department Proteomic and Genomic Technologies"
+    ],
+    "contact_institute": [
+      "Genentech Inc."
+    ],
+    "contact_address": [
+      "1 DNA Way"
+    ],
+    "contact_city": [
+      "South San Francisco"
+    ],
+    "contact_state": [
+      "CA"
+    ],
+    "contact_zip/postal_code": [
+      "94080"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115505/suppl/GSE115505_RAW.tar"
+    ],
+    "platform_id": [
+      "GPL17021"
+    ],
+    "platform_taxid": [
+      "10090"
+    ],
+    "sample_taxid": [
+      "10090"
+    ],
+    "relation": [
+      "SuperSeries of: GSE115083",
+      "SuperSeries of: GSE115085",
+      "SuperSeries of: GSE115502",
+      "SuperSeries of: GSE115504",
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA476688"
+    ]
+  },
+  "GSE115085": {
+    "title": [
+      "Ligand-insensitive PPARγ controls progressive or reinforcing macrophage polarization as an epigenomic ratchet of transcriptional memory [ATAC-seq]"
+    ],
+    "geo_accession": [
+      "GSE115085"
+    ],
+    "status": [
+      "Public on Jun 20 2018"
+    ],
+    "submission_date": [
+      "May 30 2018"
+    ],
+    "last_update_date": [
+      "Mar 21 2019"
+    ],
+    "summary": [
+      "Macrophages change their phenotype in response to complex (reinforcing or opposing) environmental cues. The molecular components providing the epigenomic basis of progressive or reinforcing polarization are largely unknown. Here we show that the normally ligand-activated nuclear receptor, Peroxisome Proliferator-Activated Receptor gamma (PPARγ), is a predominantly ligand-insensitive, epigenomic driver of a robust phenotypic change in macrophages uniquely upon repeated/reinforcing IL-4 stimulation. Ligand-insensitive PPARγ recruits P300, RAD21 and establishes a permissive chromatin environment, conferring transcriptional memory by facilitating the binding of STAT6 and RNAPII leading to more robust eRNA production upon IL-4 restimulation. PPARγ-mediated transcriptional memory allows the progressive, functional transition of macrophages upon repeated cytokine exposure by controlling the expression of an extracellular matrix remodeling related gene network, also expressed in macrophages from a mouse model of muscle regeneration and show progressive upregulation during the course of regeneration after muscle injury, coinciding with the appearance of IL-4 and PPARγ. Collectively, in contrast to the current prevailing view, alternative polarization gives rise to a predominantly ligand-insensitive PPARγ:RXR cistrome, regulating progressive/reinforcing macrophage polarization."
+    ],
+    "overall_design": [
+      "PRJNA318630 and SRP073648"
+    ],
+    "type": [
+      "Genome binding/occupancy profiling by high throughput sequencing"
+    ],
+    "contributor": [
+      "Bence,,Daniel",
+      "Laszlo,,Nagy"
+    ],
+    "sample_id": [
+      "GSM3164915",
+      "GSM3164916",
+      "GSM3164917",
+      "GSM3164918",
+      "GSM3164919",
+      "GSM3164920",
+      "GSM3164921",
+      "GSM3164922",
+      "GSM3164923",
+      "GSM3164924",
+      "GSM3164925",
+      "GSM3164926",
+      "GSM3164927",
+      "GSM3164928",
+      "GSM3164929",
+      "GSM3164930",
+      "GSM3164931",
+      "GSM3164932",
+      "GSM3164933",
+      "GSM3164934"
+    ],
+    "contact_name": [
+      "Bence,,Daniel"
+    ],
+    "contact_email": [
+      "daniel.dote@gmail.com, daniel.bence@gene.com"
+    ],
+    "contact_phone": [
+      "407-242-7384"
+    ],
+    "contact_laboratory": [
+      "Daniel Lab"
+    ],
+    "contact_department": [
+      "Department Proteomic and Genomic Technologies"
+    ],
+    "contact_institute": [
+      "Genentech Inc."
+    ],
+    "contact_address": [
+      "1 DNA Way"
+    ],
+    "contact_city": [
+      "South San Francisco"
+    ],
+    "contact_state": [
+      "CA"
+    ],
+    "contact_zip/postal_code": [
+      "94080"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115085/suppl/GSE115085_RAW.tar"
+    ],
+    "platform_id": [
+      "GPL17021"
+    ],
+    "platform_taxid": [
+      "10090"
+    ],
+    "sample_taxid": [
+      "10090"
+    ],
+    "relation": [
+      "SubSeries of: GSE115505",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP073648"
+    ]
+  },
+  "GSE115504": {
+    "title": [
+      "Ligand-insensitive PPARγ controls progressive or reinforcing macrophage polarization as an epigenomic ratchet of transcriptional memory [RNA-Seq2]"
+    ],
+    "geo_accession": [
+      "GSE115504"
+    ],
+    "status": [
+      "Public on Jun 20 2018"
+    ],
+    "submission_date": [
+      "Jun 08 2018"
+    ],
+    "last_update_date": [
+      "Mar 21 2019"
+    ],
+    "summary": [
+      "Macrophages change their phenotype in response to complex (reinforcing or opposing) environmental cues. The molecular components providing the epigenomic basis of progressive or reinforcing polarization are largely unknown. Here we show that the normally ligand-activated nuclear receptor, Peroxisome Proliferator-Activated Receptor gamma (PPARγ), is a predominantly ligand-insensitive, epigenomic driver of a robust phenotypic change in macrophages uniquely upon repeated/reinforcing IL-4 stimulation. Ligand-insensitive PPARγ recruits P300, RAD21 and establishes a permissive chromatin environment, conferring transcriptional memory by facilitating the binding of STAT6 and RNAPII leading to more robust eRNA production upon IL-4 restimulation. PPARγ-mediated transcriptional memory allows the progressive, functional transition of macrophages upon repeated cytokine exposure by controlling the expression of an extracellular matrix remodeling related gene network, also expressed in macrophages from a mouse model of muscle regeneration and show progressive upregulation during the course of regeneration after muscle injury, coinciding with the appearance of IL-4 and PPARγ. Collectively, in contrast to the current prevailing view, alternative polarization gives rise to a predominantly ligand-insensitive PPARγ:RXR cistrome, regulating progressive/reinforcing macrophage polarization."
+    ],
+    "overall_design": [
+      "PRJNA318630 and SRP073648"
+    ],
+    "type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "contributor": [
+      "Bence,,Daniel",
+      "Laszlo,,Nagy"
+    ],
+    "sample_id": [
+      "GSM3179671",
+      "GSM3179672",
+      "GSM3179673",
+      "GSM3179674",
+      "GSM3179675",
+      "GSM3179676",
+      "GSM3179677",
+      "GSM3179678",
+      "GSM3179679",
+      "GSM3179680",
+      "GSM3179681",
+      "GSM3179682",
+      "GSM3179683",
+      "GSM3179684",
+      "GSM3179685",
+      "GSM3179686",
+      "GSM3179687",
+      "GSM3179688",
+      "GSM3179689",
+      "GSM3179690",
+      "GSM3179691",
+      "GSM3179692",
+      "GSM3179693",
+      "GSM3179694"
+    ],
+    "contact_name": [
+      "Bence,,Daniel"
+    ],
+    "contact_email": [
+      "daniel.dote@gmail.com, daniel.bence@gene.com"
+    ],
+    "contact_phone": [
+      "407-242-7384"
+    ],
+    "contact_laboratory": [
+      "Daniel Lab"
+    ],
+    "contact_department": [
+      "Department Proteomic and Genomic Technologies"
+    ],
+    "contact_institute": [
+      "Genentech Inc."
+    ],
+    "contact_address": [
+      "1 DNA Way"
+    ],
+    "contact_city": [
+      "South San Francisco"
+    ],
+    "contact_state": [
+      "CA"
+    ],
+    "contact_zip/postal_code": [
+      "94080"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115504/suppl/GSE115504_antagonist_averaged.cpm.table.tsv.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115504/suppl/GSE115504_memory_averaged.cpm.table.tsv.gz"
+    ],
+    "platform_id": [
+      "GPL17021"
+    ],
+    "platform_taxid": [
+      "10090"
+    ],
+    "sample_taxid": [
+      "10090"
+    ],
+    "relation": [
+      "SubSeries of: GSE115505",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP073648"
+    ]
+  },
+  "GSE115502": {
+    "title": [
+      "Ligand-insensitive PPARγ controls progressive or reinforcing macrophage polarization as an epigenomic ratchet of transcriptional memory [RNA-Seq]"
+    ],
+    "geo_accession": [
+      "GSE115502"
+    ],
+    "status": [
+      "Public on Jun 20 2018"
+    ],
+    "submission_date": [
+      "Jun 08 2018"
+    ],
+    "last_update_date": [
+      "Mar 21 2019"
+    ],
+    "summary": [
+      "Macrophages change their phenotype in response to complex (reinforcing or opposing) environmental cues. The molecular components providing the epigenomic basis of progressive or reinforcing polarization are largely unknown. Here we show that the normally ligand-activated nuclear receptor, Peroxisome Proliferator-Activated Receptor gamma (PPARγ), is a predominantly ligand-insensitive, epigenomic driver of a robust phenotypic change in macrophages uniquely upon repeated/reinforcing IL-4 stimulation. Ligand-insensitive PPARγ recruits P300, RAD21 and establishes a permissive chromatin environment, conferring transcriptional memory by facilitating the binding of STAT6 and RNAPII leading to more robust eRNA production upon IL-4 restimulation. PPARγ-mediated transcriptional memory allows the progressive, functional transition of macrophages upon repeated cytokine exposure by controlling the expression of an extracellular matrix remodeling related gene network, also expressed in macrophages from a mouse model of muscle regeneration and show progressive upregulation during the course of regeneration after muscle injury, coinciding with the appearance of IL-4 and PPARγ. Collectively, in contrast to the current prevailing view, alternative polarization gives rise to a predominantly ligand-insensitive PPARγ:RXR cistrome, regulating progressive/reinforcing macrophage polarization."
+    ],
+    "overall_design": [
+      "PRJNA471894 and SRP148276"
+    ],
+    "type": [
+      "Expression profiling by high throughput sequencing"
+    ],
+    "contributor": [
+      "Bence,,Daniel",
+      "Laszlo,,Nagy"
+    ],
+    "sample_id": [
+      "GSM3179648",
+      "GSM3179649",
+      "GSM3179650",
+      "GSM3179651",
+      "GSM3179652",
+      "GSM3179653",
+      "GSM3179654",
+      "GSM3179655",
+      "GSM3179656",
+      "GSM3179657",
+      "GSM3179658",
+      "GSM3179659",
+      "GSM3179660",
+      "GSM3179661",
+      "GSM3179662",
+      "GSM3179663",
+      "GSM3179664"
+    ],
+    "contact_name": [
+      "Bence,,Daniel"
+    ],
+    "contact_email": [
+      "daniel.dote@gmail.com, daniel.bence@gene.com"
+    ],
+    "contact_phone": [
+      "407-242-7384"
+    ],
+    "contact_laboratory": [
+      "Daniel Lab"
+    ],
+    "contact_department": [
+      "Department Proteomic and Genomic Technologies"
+    ],
+    "contact_institute": [
+      "Genentech Inc."
+    ],
+    "contact_address": [
+      "1 DNA Way"
+    ],
+    "contact_city": [
+      "South San Francisco"
+    ],
+    "contact_state": [
+      "CA"
+    ],
+    "contact_zip/postal_code": [
+      "94080"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115502/suppl/GSE115502_DBA2J_muscle_MFs_RNA-seq_normalized_values.tsv.gz"
+    ],
+    "platform_id": [
+      "GPL17021"
+    ],
+    "platform_taxid": [
+      "10090"
+    ],
+    "sample_taxid": [
+      "10090"
+    ],
+    "relation": [
+      "SubSeries of: GSE115505",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP148276"
+    ]
+  },
+  "GSE110465": {
+    "title": [
+      "The IL-4/STAT6/PPARγ signaling axis is driving the extension of the RXR heterodimer cistrome, providing complex ligand responsiveness in macrophages"
+    ],
+    "geo_accession": [
+      "GSE110465"
+    ],
+    "status": [
+      "Public on Feb 12 2018"
+    ],
+    "submission_date": [
+      "Feb 12 2018"
+    ],
+    "last_update_date": [
+      "Dec 10 2021"
+    ],
+    "pubmed_id": [
+      "29506156",
+      "34846534"
+    ],
+    "summary": [
+      "This SuperSeries is composed of the SubSeries listed below."
+    ],
+    "overall_design": [
+      "Refer to individual Series"
+    ],
+    "type": [
+      "Genome binding/occupancy profiling by high throughput sequencing",
+      "Other"
+    ],
+    "sample_id": [
+      "GSM2867715",
+      "GSM2867716",
+      "GSM2867717",
+      "GSM2867718",
+      "GSM2867719",
+      "GSM2867720",
+      "GSM2867721",
+      "GSM2867722",
+      "GSM2867723",
+      "GSM2867724",
+      "GSM2867725",
+      "GSM2867726",
+      "GSM2867727",
+      "GSM2867728",
+      "GSM2867729",
+      "GSM2867730",
+      "GSM2867731",
+      "GSM2867732",
+      "GSM2867733",
+      "GSM2867734",
+      "GSM2867735",
+      "GSM2867736",
+      "GSM2867737",
+      "GSM2867738",
+      "GSM2867739",
+      "GSM2867740",
+      "GSM2867741",
+      "GSM2867742",
+      "GSM2867743",
+      "GSM2867744",
+      "GSM2867745",
+      "GSM2867746",
+      "GSM2867747",
+      "GSM2867748",
+      "GSM2867749",
+      "GSM2867750",
+      "GSM2867751",
+      "GSM2867752",
+      "GSM2867753",
+      "GSM2867754",
+      "GSM2867755",
+      "GSM2867756",
+      "GSM2867757",
+      "GSM2867758",
+      "GSM2867759",
+      "GSM2867760",
+      "GSM2867761",
+      "GSM2867762",
+      "GSM2867763",
+      "GSM2991601",
+      "GSM2991602",
+      "GSM2991603",
+      "GSM2991604",
+      "GSM2991605"
+    ],
+    "contact_name": [
+      "Gergely,,Nagy"
+    ],
+    "contact_department": [
+      "Department of Biochemistry and Molecular Biology"
+    ],
+    "contact_institute": [
+      "University of Debrecen"
+    ],
+    "contact_address": [
+      "Egyetem ter 1."
+    ],
+    "contact_city": [
+      "Debrecen"
+    ],
+    "contact_zip/postal_code": [
+      "4032"
+    ],
+    "contact_country": [
+      "Hungary"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE110nnn/GSE110465/suppl/GSE110465_RAW.tar"
+    ],
+    "platform_id": [
+      "GPL17021"
+    ],
+    "platform_taxid": [
+      "10090"
+    ],
+    "sample_taxid": [
+      "10090"
+    ],
+    "relation": [
+      "SuperSeries of: GSE107455",
+      "SuperSeries of: GSE107456",
+      "SuperSeries of: GSE110464",
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA433822"
+    ]
+  },
+  "GSE151015": {
+    "title": [
+      "The transcription factor EGR2 is the molecular linchpin connecting STAT6 activation to the stable epigenomic program of alternative macrophage polarization"
+    ],
+    "geo_accession": [
+      "GSE151015"
+    ],
+    "status": [
+      "Public on Sep 15 2020"
+    ],
+    "submission_date": [
+      "May 21 2020"
+    ],
+    "last_update_date": [
+      "Jul 11 2025"
+    ],
+    "pubmed_id": [
+      "33060136"
+    ],
+    "summary": [
+      "Macrophages polarize into functionally distinct subtypes while responding to microenvironmental cues. The identity of proximal transcription factors (TFs) downstream of the polarization signals are known, but their activity is typically transient, failing to explain the long-term, stable epigenomic programs developed. Here, we mapped the early and late epigenomic changes of interleukin-4 (IL-4)-induced alternative macrophage polarization. We identified the TF, Early Growth Response 2 (EGR2), bridging the early-transient and late-stable gene expression program of polarization. EGR2 is a direct target of IL-4-activated STAT6, having broad action indispensable for 77% of the induced gene signature of alternative polarization, including its autoregulation and a robust, downstream TF cascade involving PPARG. Mechanistically, EGR2 binding results in chromatin opening and the recruitment of chromatin remodelers and RNA-polymerase II. Egr2 induction is evolutionarily conserved during alternative polarization of mouse and human macrophages. In the context of tissue resident macrophages, Egr2 expression is most prominent in the lung of a variety of species. Thus, EGR2 is an example of an essential and evolutionarily conserved broad acting factor, linking transient polarization signals to stable epigenomic and transcriptional changes in macrophages."
+    ],
+    "overall_design": [
+      "Transcriptomic and epigenetic profiling of IL-4 treated bone-marrow derived macrophages (BMDMs), using high throughput sequencing (RNA-seq, ChIP-seq and ATAC-seq)."
+    ],
+    "type": [
+      "Expression profiling by high throughput sequencing",
+      "Genome binding/occupancy profiling by high throughput sequencing"
+    ],
+    "contributor": [
+      "Laszlo,,Halasz",
+      "Laszlo,,Nagy"
+    ],
+    "sample_id": [
+      "GSM4564251",
+      "GSM4564252",
+      "GSM4564253",
+      "GSM4564254",
+      "GSM4564255",
+      "GSM4564256",
+      "GSM4564257",
+      "GSM4564258",
+      "GSM4564259",
+      "GSM4564260",
+      "GSM4564261",
+      "GSM4564262",
+      "GSM4564263",
+      "GSM4564264",
+      "GSM4564265",
+      "GSM4564266",
+      "GSM4564267",
+      "GSM4564268",
+      "GSM4564269",
+      "GSM4564270",
+      "GSM4564271",
+      "GSM4564272",
+      "GSM4564273",
+      "GSM4564274",
+      "GSM4564275",
+      "GSM4564276",
+      "GSM4564277",
+      "GSM4564278",
+      "GSM4564279",
+      "GSM4564280",
+      "GSM4564281",
+      "GSM4564282",
+      "GSM4564283",
+      "GSM4564284",
+      "GSM4564285",
+      "GSM4564286",
+      "GSM4564287",
+      "GSM4564288",
+      "GSM4564289",
+      "GSM4564290",
+      "GSM4564291",
+      "GSM4564292",
+      "GSM4564293",
+      "GSM4564294",
+      "GSM4564295",
+      "GSM4564296",
+      "GSM4564297",
+      "GSM4564298",
+      "GSM4564299",
+      "GSM4564300",
+      "GSM4564301",
+      "GSM4564302",
+      "GSM4564303",
+      "GSM4564304",
+      "GSM4564305",
+      "GSM4564306",
+      "GSM4564307",
+      "GSM4564308",
+      "GSM4564309",
+      "GSM4564310",
+      "GSM4564311",
+      "GSM4564312",
+      "GSM4564313",
+      "GSM4564314",
+      "GSM4564315",
+      "GSM4564316",
+      "GSM4564317",
+      "GSM4564318",
+      "GSM4564319",
+      "GSM4564320",
+      "GSM4564321",
+      "GSM4564322"
+    ],
+    "contact_name": [
+      "Laszlo,,Halasz"
+    ],
+    "contact_email": [
+      "laszlo.halasz@mssm.edu"
+    ],
+    "contact_phone": [
+      "+17276416811"
+    ],
+    "contact_laboratory": [
+      "Dr. Miriam Merad"
+    ],
+    "contact_department": [
+      "Department of Oncological Sciences"
+    ],
+    "contact_institute": [
+      "Mount Sinai Icahn School of Medicine"
+    ],
+    "contact_address": [
+      "1470 Madison Avenue"
+    ],
+    "contact_city": [
+      "New York"
+    ],
+    "contact_state": [
+      "NY"
+    ],
+    "contact_zip/postal_code": [
+      "10029"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151015/suppl/GSE151015_RAW.tar",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151015/suppl/GSE151015_mm_BMDM_Egr2_RNAseq_CPM_counts.txt.gz",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE151nnn/GSE151015/suppl/GSE151015_mm_BMDM_Egr2_RNAseq_raw_counts.txt.gz"
+    ],
+    "platform_id": [
+      "GPL19057"
+    ],
+    "platform_taxid": [
+      "10090"
+    ],
+    "sample_taxid": [
+      "10090"
+    ],
+    "relation": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA634372",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP262690"
+    ]
+  }
+}

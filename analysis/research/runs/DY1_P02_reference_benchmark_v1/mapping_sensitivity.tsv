@@ -1,0 +1,9 @@
+mapping_rule	distance_subset	offset	candidate_rows	unique_genes	unique_regions	pair_rows	same_nonzero_sign	opposite_nonzero_sign	one_or_both_zero	both_directional_under_declared_models	same_sign_and_both_directional	opposite_sign_and_both_directional
+author_ensembl	all_author_annotated	1.0	71942	13602	62462	62462	34921	27541	0	4053	3012	1041
+author_ensembl	all_author_annotated	0.5	71942	13602	62462	62462	34907	27555	0	4029	2999	1030
+author_ensembl	within_2kb_of_nearest_tss	1.0	9480	7067	8712	8712	5479	3233	0	524	443	81
+author_ensembl	within_2kb_of_nearest_tss	0.5	9480	7067	8712	8712	5479	3233	0	523	442	81
+author_nearest_tss_symbol	all_author_annotated	1.0	71942	13571	62202	62202	34745	27457	0	4001	2967	1034
+author_nearest_tss_symbol	all_author_annotated	0.5	71942	13571	62202	62202	34730	27472	0	3977	2954	1023
+author_nearest_tss_symbol	within_2kb_of_nearest_tss	1.0	9480	7039	8665	8665	5450	3215	0	517	437	80
+author_nearest_tss_symbol	within_2kb_of_nearest_tss	0.5	9480	7039	8665	8665	5450	3215	0	516	436	80
