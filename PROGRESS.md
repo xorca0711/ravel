@@ -1,5 +1,18 @@
 # Current project state
 
+## DY1 result-synthesis review — 30 October 2026
+
+Inspected the integrated baseline diagnostics, primary/external human reports,
+saved numerical tables, receipts and six existing RQ-context notes at `8904b79`.
+The human matrix-panel difference is directionally consistent; FABP4 contrasts
+remain annotation-sensitive, recipient coupling is not stable within disease,
+and ARG1 is sparse. Mouse diagnostics establish their stated technical properties,
+not the regulatory chain or mediation. Published premises and computed results
+remain separate. No numerical rerun, new RQ, hypothesis change or acceptance
+occurred; the existing job ledger still owns every hold and reopening condition.
+This checkpoint records the requested synthesis only. Existing execution checks
+remain valid; no new external setting or additional analysis is pending.
+
 ## DY1 job-by-job assessment integrated — 30 October 2026
 
 Stable analysis handoff `9f058bf3f77fede8ab43cfdf162df0bff78d2511` is integrated
