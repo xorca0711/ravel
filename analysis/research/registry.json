@@ -888,7 +888,8 @@
     "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_qualification_v2.json",
     "Research Article/gate2_DY1_damani_yokota_2026/config/external_human_observational_v1.json",
     "Research Article/gate2_DY1_damani_yokota_2026/config/human_evidence_preservation_v1.json",
-    "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_file_qc_v1.json"
+    "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_file_qc_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_sparse_qc_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -970,7 +971,8 @@
     "analysis/research/runs/DY1_human_observational_v1/receipt.json",
     "analysis/research/runs/DY1_external_human_qualification_v2/receipt.json",
     "analysis/research/runs/DY1_external_human_observational_v1/receipt.json",
-    "analysis/research/runs/DY1_human_evidence_preservation_v1/receipt.json"
+    "analysis/research/runs/DY1_human_evidence_preservation_v1/receipt.json",
+    "analysis/research/runs/DY1_baseline_file_qc_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

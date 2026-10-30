@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.baseline_sparse_qc_v1",
+  "owner": "DY1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do the two deposited baseline sparse triplets have consistent dimensions, keys, positive integer entries and technical feature-type/tag-signal accounting?",
+  "decision": "Close a neutral input-integrity prerequisite and distinguish feature presence from observed tag signal, without cell assignments or biological effects.",
+  "strongest_rival": "Mismatched feature/barcode axes, malformed entries or treating nonzero tag signal as assigned biological identity would misstate what the files support.",
+  "discriminator": "Exact triplet hashes/dimensions/keys, coordinate/integer/entry-count validation, independent per-type arithmetic and explicit tag-coordinate duplicate accounting.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_V2_RESULTS.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/SOURCE_QUALIFICATION_CORRECTION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Paper and source_v1/v2 metadata plus completed human analyses are exposed. Original baseline files were previously downloaded/inventoried; this new job computes structural format diagnostics only. The full paper includes N.brasiliensis history and later IAV challenge; baseline is not absence of infection history.",
+  "biological_unit": "Not applicable to this technical audit: files and rows. Mouse animal/pool identities and independence remain unknown.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "Rows nest in libraries; source-labeled libraries may contain pooled/overlapping material. No library or row is promoted to an independent animal.",
+  "population_and_selection": "Only GSM9964560/count1 and GSM9964561/count2 baseline triplets. No later IAV-challenge matrix, no biological cell subset, no marker-based selection.",
+  "contrast": "Exact file/row consistency and parser agreement only; no biological contrast.",
+  "endpoint": "Dimensions, unique barcode and feature keys, positive integer/bounded stored coordinates, declared entry-count parity; technical counts by Gene Expression/Antibody Capture; per exact source CMO ID raw count sum, stored-entry count, unique positive barcode count and maximum stored entry.",
+  "methods": "Read features/barcodes; stream each baseline sparse matrix once. Compare numpy integer/mask sums with pandas groupby. Tag unique positive-barcode counts use Boolean occupancy and independent sets; explicitly report stored-entry minus unique-coordinate duplication. Sum every stored tag entry, never infer an assignment. No ranking, thresholds, cell-to-condition/animal calls, group effects or infection-response models.",
+  "missingness_and_exclusions": "No source rows/cells removed. Stop invalid/missing dimensions/keys/counts or coordinate violations. Tags with no entries remain zero rows. Duplicate stored tag coordinates remain included in total counts and are reported; positive barcode counts deduplicate them. Gene Expression coordinate duplication is not audited.",
+  "multiplicity": "No hypothesis tests, p-values or biological inference.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Exact structural accounting on deposited files, not population precision or power.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Passing file-format checks cannot establish unique gene/fragment semantics, biological independence, author-model equivalence, ATAC read-level QC, temporal mechanism or safety clearance of another task.",
+  "stop_rule": "Stop exact-hash, axis/key, count/index, declared-entry or independent arithmetic conflicts; preserve partial outputs and failed receipt. Never turn technical tag signal into a condition or animal/pool crosswalk.",
+  "inputs": [
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_matrix.mtx.gz",
+      "sha256": "1bfbe01cea1058a0c5e32bff2b80627490fa0bea26dfbfbf5e1cefedc755c426",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_features.tsv.gz",
+      "sha256": "ff74df75623a1850bcd079bff4751fe4059ca5a075cad5cf5dc084188a5d84c1",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964560_count1_barcodes.tsv.gz",
+      "sha256": "87be6f756c21f5b401eed4d0bd714c9452d549bc81142b3aa343994cc1facdc7",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_matrix.mtx.gz",
+      "sha256": "9888f2bdf36cf01c1cbcb536520d605671e063b5760e90896d5dff312fcbc149",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_features.tsv.gz",
+      "sha256": "001f66eeb590520c649efc13a88f7dfcf090ed7042b8d9099943f99b31f8c995",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_baseline_sparse_qc_v1/GSM9964561_count2_barcodes.tsv.gz",
+      "sha256": "34c626d9e94bc624d08f6f4b55ea75a99e78eeba8ebe3c8fdfbe01532de86d78",
+      "study_id": "GSE343897",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_sparse_qc_v1.py",
+      "sha256": "d84cccb9bed5256d53320fcb77d598f6b558f9c905c7512da071853c6b459043"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_baseline_sparse_qc_v1.py",
+      "sha256": "d7dd606023784a758ae5ffa80b7ca2df824dc4807acde77d7c96b9740f6f4da3"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/baseline_sparse_qc_inputs_v1.json",
+      "sha256": "827d0e7ecc508955e5b7d69cad3d340016bca30bbb185ed87091be194fc1169e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/scripts/baseline_sparse_qc_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "libraries.tsv",
+    "feature_type_accounting.tsv",
+    "cmo_signal_inventory.tsv",
+    "verification.json",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Separately scoped neutral baseline sparse-integrity and tag-signal inventory, prospectively requested by reviewer; full study context and source identity holds retained."
+}
