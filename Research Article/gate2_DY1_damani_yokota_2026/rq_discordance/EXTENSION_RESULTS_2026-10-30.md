@@ -140,7 +140,7 @@ Both offsets yield 10,730 same-sign and 3,809 opposite-sign nonzero stage ratios
 1,319 rows have a zero first-stage ratio only and 395 a zero second-stage ratio
 only. At offset 1, 9,484 second-minus-first values are positive and 6,769 negative;
 at offset 0.5, the counts are 9,482 and 6,771. The median changes from 0.05265 to
-0.08296 illustrative log-ratio units. These are mixed source-table descriptions,
+0.08296 log2-ratio units. These are mixed source-table descriptions,
 not evidence of an overall biological amplification or a PPARγ-dependent effect.
 
 ![RNA-only source-average description](../../../analysis/research/runs/DY1_P02_source_average_response_v1/source_average_response.png)
