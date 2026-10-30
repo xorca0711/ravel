@@ -1,24 +1,34 @@
 # Current project state
 
-## DY1 independent-job assessment and neutral QC — 30 October 2026
+## DY1 baseline diagnostics completed — 30 October 2026
 
-The owner requested job-specific scope review and completion of permissible work.
-The [methods/input assessment](Research%20Article/gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
-separates source, unit, measurement, inference and runtime limits while retaining
-the N.brasiliensis-history/IAV-challenge context. Clean source worktree fast-forwarded
-to reviewed integration `22125b2`; fetched main remains `78320a1`.
+Three separately frozen jobs completed: six-exon/eight-peak structural QC,
+baseline sparse integrity/raw CMO inventory, and the fixed six-library exon-hit
+profile. The [results](Research%20Article/gate2_DY1_damani_yokota_2026/BASELINE_QC_RESULTS_2026-10-30.md)
+link receipts and outputs. The [methods/input assessment](Research%20Article/gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
+records current job-specific holds with the full N. brasiliensis-history/IAV
+context. This current assessment supersedes earlier blanket current-status wording;
+historical execution events remain recorded below and in the article closeout.
 
-Six exon-count and eight called-peak files are copied immutably with original
-source hashes. Reviewer-cleared structural QC is frozen for the unchanged runner;
-no biological contrast, selected locus or infection-response model is authorized
-by this file audit. Baseline sparse integrity/tag-signal inventory is separately
-in technical review. A fixed exon-bin profile diagnostic is conditional on file
-eligibility and its own prospective review. Original unit/model holds remain;
-independent pools may be valid units without every constituent mouse name.
+The checks covered 406,850 aligned exon features and 67,983,499 baseline sparse
+entries; all six libraries remain in the adapted profile. This does not reproduce
+the author's exact gene-level PCA/effects or assign cells, conditions or units.
+Distinct independent pools can be valid units without constituent mouse names;
+the source-specific library/tag-to-pool and overlap evidence remains unresolved.
 
-Next: execute cleared versioned QC, record precise results/limits, complete the
-remaining separately reviewed neutral jobs and return the bounded handoff. No
-governance change, intervention ranking or restricted pipeline retry is queued.
+Validation passed: 12 targeted tests, 161 repository tests (one skip), standard
+evidence verifiers, 11,535 repository checks and the base-aware research gate.
+An initial sandbox temporary-directory test failure passed on approved execution;
+no new analysis run failed. Original files and frozen evidence remain preserved;
+governance, validators, root ignore rules and all 32 canonical RQs are unchanged.
+The scoped branch began at reviewed integration `22125b2`; fetched main remains
+`78320a186b6f52426e7c7c5349a2f26492b718b7`.
+
+Next: integrate the stable execution handoff into the review branch and its final
+README/job ledger. No additional numerical job is queued. Source/count/model,
+unit/state and assay-linkage holds remain specific to their jobs. Author code
+access is unverified after the recorded 29 October failure; no external setting
+changed, and this source branch has no configured upstream.
 
 ## Human continuation integrated and independently reviewed — 29 October 2026
 
