@@ -2966,3 +2966,28 @@ human retain/reject decision or scientific acceptance.
 | 2026-10-30 | Blanket present-tense mouse-stage restriction in earlier summaries | A historical broad platform rejection does not establish the disposition of every independent job | Preserve the historical event; replace current navigation with per-job completed work and specific data/design/inference holds. Do not hide paper context or retry the blocked pipeline under another label |
 | 2026-10-30 | Conflating the original stage 5 interaction with susceptibility prediction | The original estimand is an exploratory host-RNA history-by-condition contrast | Retain that estimand and its unmet source/unit/state/batch prerequisites; unrequested pathogen optimization and intervention prioritization are not original checklist jobs |
 | 2026-10-30 | Exact author PCA versus an exon-hit profile | The gene-count semantics, low-count rule and exact author preparation were not recovered | Label the completed fixed transformation/full SVD as an adaptation; preserve the exact-reproduction hold and retain all six libraries |
+
+## 2026-10-30 — DY1-P02 question framing and extension feasibility
+
+The owner requested an additional RQ about the unresolved RNA–ATAC discrepancy
+and STAT6–PPARγ/RXRA axis, plus an assessment of further analyses. Codex framed
+DY1-P02 as article-local baseline measurement/model discrimination, retained
+EGR2 and cofactor/context alternatives, and performed a bounded primary-literature
+refresh. The [dossier](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+records what each prospective extension could measure and its prerequisites.
+
+| Date | Item | Proposed by | Authority and disposition |
+|---|---|---|---|
+| 2026-10-30 | Additional baseline-discordance question | Owner request; Codex wording | Register DY1-P02 in the article namespace; preserve all 32 canonical hypotheses and prior negative results |
+| 2026-10-30 | External measurement reference | Codex literature/feasibility assessment | GSE247223/GSE248042 list relevant count matrices; qualification is a next job, not a successful download or computed result |
+| 2026-10-30 | Distinguish reference calibration from NAM memory | Codex interpretation | Different cells and stimulation context cannot validate NAM persistence, occupancy or mediation; maintain the original input holds |
+
+No numerical contract, run receipt, new effect estimate or human scientific
+acceptance is created by this question-framing pass. Reviews and final validation
+are recorded in PROGRESS. Publication and source access depth remain explicit
+in the dated local literature context.
+
+The analysis chat's narrow review corrected two framing errors before delivery:
+nonsignificance alone does not establish imprecision, and RNA-composition
+sensitivity does not resolve the separate bulk-ATAC mixture. Both corrections
+were adopted; numerical work and source-access claims remain unchanged.

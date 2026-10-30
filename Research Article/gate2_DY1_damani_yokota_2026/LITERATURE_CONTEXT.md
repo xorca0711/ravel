@@ -14,3 +14,11 @@ The [29 October human source/context audit](HUMAN_LITERATURE_CONTEXT.md) records
 exact native-human panel provenance, source access, clinical metadata recovery
 and limits of deposited labels and the analyst-defined five-marker proxy. It
 does not modify the prior mouse/infection interpretation or resume those runs.
+
+## Additional baseline question, 30 October 2026
+
+The [DY1-P02 question and feasibility dossier](rq_discordance/README.md) and
+[bounded literature refresh](rq_discordance/LITERATURE_CONTEXT.md) develop the
+requested RNA–ATAC discrepancy/axis question. The new external count-matrix
+lead remains unqualified; this literature update executes no numerical analysis
+and preserves the original evidence and all canonical hypotheses.

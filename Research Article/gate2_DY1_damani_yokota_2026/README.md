@@ -67,6 +67,19 @@ FABP4 depends on annotation; pooled recipient coupling is not stable within
 disease; ARG1 is sparse. Donors, not cells, are the units. See the
 [independent human review](../../docs/research_reviews/2026-10-29-nam-memory/HUMAN_REVIEW.md).
 
+## Additional proposed question: DY1-P02
+
+The owner-requested [RNA–ATAC discordance dossier](rq_discordance/README.md)
+asks whether the late baseline pattern is interpretable under measurement/mapping
+and RNA-composition sensitivity, and consistent with independent STAT6–EGR2–PPARγ/RXRA
+evidence. Separate bulk-ATAC composition remains unresolved. Its
+[30 October literature refresh](rq_discordance/LITERATURE_CONTEXT.md) identifies
+an external non-infectious RNA/ATAC count-matrix lead. Source qualification and
+a methodological reference benchmark are proposed extensions; no new numerical
+run, NAM-memory validation or canonical RQ promotion has occurred. Original
+stages retain their completed/held dispositions; the new E1–E6 possibilities
+have separate prerequisites and are not silently counted as completed work.
+
 ## Architecture and evidence boundaries
 
 The canonical directory is `Research Article/`. Article numerical outputs remain

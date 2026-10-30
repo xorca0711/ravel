@@ -1,5 +1,33 @@
 # Current project state
 
+## DY1-P02 baseline-discordance question proposed — 30 October 2026
+
+At the owner's request, added an article-local question on whether the late
+RNA–ATAC pattern remains interpretable under measurement/mapping and measured
+RNA-composition sensitivity, and fits independent STAT6–EGR2–PPARγ/RXRA evidence.
+Separate bulk-ATAC composition remains unresolved. The [dossier](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+and literature context separate biological hypotheses, alternatives, measured
+endpoints and E1–E6 extension prerequisites. No A-series question changed.
+
+A bounded primary-literature refresh identified GSE247223 RNA and GSE248042
+ATAC count-matrix listings from a non-infectious macrophage reference study.
+Direct page opens were challenged; indexed source listings are not downloaded,
+hash-qualified inputs. This is a new source lead, not an executed benchmark or
+NAM memory validation. All prior outcomes remain exposed; original holds persist.
+
+Next executable work is prospective source qualification if this extension is
+pursued, then a separately frozen reference comparison only if its inputs/units
+qualify. The original NAM effects still require their own missing count, unit,
+annotation and processing evidence. No numerical run or acceptance occurred.
+The analysis chat's narrow review yielded two adopted corrections: nonsignificance
+is not itself poor precision, and RNA-mixture assessment cannot resolve bulk-ATAC
+composition. Validation passed 11,569 repository checks and the base-aware research
+gate; final wording-only corrections changed no links or numerical artifacts.
+All 32 canonical questions/guides and protected governance remain unchanged.
+Latest fetched main remains `78320a186b6f52426e7c7c5349a2f26492b718b7`; the primary
+checkout and existing worktrees are preserved. No external setting changed.
+
+
 ## DY1 result-synthesis review — 30 October 2026
 
 Inspected the integrated baseline diagnostics, primary/external human reports,

@@ -7,6 +7,8 @@ now includes three completed baseline technical diagnostics alongside the review
 separates completed work from exact data/design and inference holds, retaining the
 full immune-history study context and the earlier platform event as history.
 No mechanistic conclusion, RQ promotion or scientific acceptance follows from execution.
+The additional [DY1-P02 baseline discordance question](gate2_DY1_damani_yokota_2026/rq_discordance/README.md)
+now records a bounded literature refresh and conditional extension options.
 
 **Subsequent portfolio pass:** [three group audits and governed extensions](../docs/portfolio_extensions/2026-10-07/README.md) cover every analysis package and registered RQ. Nb4-P09 supplies expression evidence for proposed A31; A11/A17/A25/A30 remain existing questions. Read the linked current result and its limits before an older plan.
 
