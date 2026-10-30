@@ -14,3 +14,7 @@ scripts/reconstruct_functional_v1.py whitespace=cr-at-eol,-blank-at-eof
 
 scripts/annotate_coculture_v1.py -text whitespace=cr-at-eol
 config/annotation_*_v1.json -text whitespace=cr-at-eol
+
+scripts/rna_endpoints_v1.py -text whitespace=cr-at-eol
+scripts/verify_rna_counts_v1.py -text whitespace=cr-at-eol
+config/rna_endpoints_*_v1.json -text whitespace=cr-at-eol

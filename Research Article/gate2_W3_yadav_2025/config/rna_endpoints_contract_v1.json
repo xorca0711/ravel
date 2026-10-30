@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.rna_endpoints_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What library-specific macrophage-like Arg1 and fibroblast-like Il6 descriptions accompany P2rx4-KO versus WT fibroblast coculture, and fibroblast Il6 in WT coculture versus fibroblast alone?",
+  "decision": "Assess descriptive consistency and heterogeneity for the three source-linked RNA endpoints before further review; no population effect or scientific acceptance.",
+  "strongest_rival": "Unknown preparation/batch and class selection, ambient RNA and mixed cells may explain library differences without an identifiable genotype or within-state biological effect.",
+  "discriminator": "Separate per-library/class transcript summaries from composition, retain both fixed QC masks and every crossed library difference; this cannot remove preparation or selection confounding.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/RNA_ENDPOINT_DESIGN.md",
+    "Research Article/gate2_W3_yadav_2025/ANNOTATION_STRATEGY.md",
+    "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published findings, functional reconstructions, technical QC and conservative annotation are exposed. Local class-specific Arg1/Il6 endpoints have not been calculated; neither gene was used for annotation or coverage qualification.",
+  "biological_unit": "Coculture preparation/animal pooling and biological independence are unknown; report libraries, with cells nested within libraries.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Slices and wells nest in source patients or donor combinations; cells nest in libraries. Numeric library suffixes do not prove preparation pairing. Source panels and deposited data are reused published evidence, not independent replication.",
+  "population_and_selection": "All six public GSE242510 libraries, their frozen conservative core classes and both fixed QC masks; mixed, other and unassigned cells remain in saved data.",
+  "contrast": "Three fixed endpoint contrasts: macrophage-like Arg1 KO versus WT coculture; fibroblast-like Il6 KO versus WT coculture and WT coculture versus Fib alone. Equal-weight library means, no suffix pairing.",
+  "endpoint": "Primary class/library mean log1p counts per 10000; companion detection fraction, arithmetic mean per 10000 and pseudobulk CPM. Arg1/Il6 raw counts retained for all barcodes.",
+  "methods": "Exact rna_endpoints_spec_v1.json; frozen annotation/class eligibility; two QC masks; all four crossed library differences per contrast. Independent stream reader checks all target vectors and library summary arithmetic.",
+  "missingness_and_exclusions": "Keep all barcode target counts and frozen labels/QC flags. Only eligible core library/classes enter summaries; no retuning. Require both libraries per condition; failed joins or verification stop execution.",
+  "multiplicity": "Three prespecified descriptive comparisons, four metrics, two QC masks. No p-values, population tests, confidence intervals or endpoint selection.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Technical source checks do not estimate population precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Library descriptions on adapted marker classes, not pure lineages, biological replicates, secretion, arginase activity, flux, causal genotype effects or mediation.",
+  "stop_rule": "Stop after the three frozen RNA comparisons and independent numerical checks. No cell-based DE, inferred pairing, new genes, Compass, CellChat, spatial reconstruction or thesis promotion.",
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_RAW.tar",
+      "sha256": "006b9c931cbd44aa498ce26e3d0d66e36faef6884b15aeda2496250e46a1351e",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/geo_library_qualification.json",
+      "sha256": "ba17f81c4dffbc794869ac6c059542ff17cb47ffd080932764c9cd2b8ba20037",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/cell_labels.csv",
+      "sha256": "949aa1ec8ee1b02f0edf2c72718d87e4b3b6d2ebcf7e535e5ca1f21f54a3da50",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/class_eligibility.csv",
+      "sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/rna_endpoints_v1.py",
+      "sha256": "59d7eaca13d0b4013692262b22a999f988e77a5767becb477623dbb8780a0c64"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/verify_rna_counts_v1.py",
+      "sha256": "23d4c7039925c2f8f10a2f0152ca56bcf7864733b0a841e6bcb16a2f5ebb6d99"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/count_integrity_v1.py",
+      "sha256": "c36e2fe6fa30e9adbffbe88a4253a076c88cb8e192839773d4382533c1ef2cdd"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/config/rna_endpoints_spec_v1.json",
+      "sha256": "edc6f2ba6538aa473544bf945b0ebafec8bb0492b13f68478714c08707155dea"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/scripts/rna_endpoints_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "cell_endpoints.csv",
+    "library_endpoints.csv",
+    "condition_contrasts.csv",
+    "crossed_library_differences.csv",
+    "independent_verification.json",
+    "rna.png",
+    "rna.pdf",
+    "runtime.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial frozen R1 endpoints after functional reconstruction, full-entry integrity and conservative annotation."
+}
