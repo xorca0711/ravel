@@ -1,5 +1,25 @@
 # Current project state
 
+## DY1 independent-job assessment and neutral QC — 30 October 2026
+
+The owner requested job-specific scope review and completion of permissible work.
+The [methods/input assessment](Research%20Article/gate2_DY1_damani_yokota_2026/METHODS_AND_INPUT_ASSESSMENT_2026-10-30.md)
+separates source, unit, measurement, inference and runtime limits while retaining
+the N.brasiliensis-history/IAV-challenge context. Clean source worktree fast-forwarded
+to reviewed integration `22125b2`; fetched main remains `78320a1`.
+
+Six exon-count and eight called-peak files are copied immutably with original
+source hashes. Reviewer-cleared structural QC is frozen for the unchanged runner;
+no biological contrast, selected locus or infection-response model is authorized
+by this file audit. Baseline sparse integrity/tag-signal inventory is separately
+in technical review. A fixed exon-bin profile diagnostic is conditional on file
+eligibility and its own prospective review. Original unit/model holds remain;
+independent pools may be valid units without every constituent mouse name.
+
+Next: execute cleared versioned QC, record precise results/limits, complete the
+remaining separately reviewed neutral jobs and return the bounded handoff. No
+governance change, intervention ranking or restricted pipeline retry is queued.
+
 ## Human continuation integrated and independently reviewed — 29 October 2026
 
 Stable analysis handoff `0fb28f0` is integrated into the scoped review branch.
