@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.representation_audit_v1",
+  "owner": "DY1-P02",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/representation_audit_v1.json",
+  "contract_sha256": "5f6d15d0f8c67f176e36d63bff5d229fb4d5428648076f5d95c1d6fb2d5ea2b3",
+  "git_commit": "757d03f2ba2f43ba7eddb47c1897c378a394267f",
+  "started_at": "2026-10-30T07:31:39.358298+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/representation_audit_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_P02_representation_audit_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/mapping_membership.tsv.gz",
+      "sha256": "d42bab98789c7e5219d51128b9ee1b16afeeaa762d49a716a295482f94260858",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/rna_descriptive_effects.tsv.gz",
+      "sha256": "9add4c34919227115434318ca2f23a08eb4cc3fef5a44d01feaa1da53c927d0c",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/atac_descriptive_effects.tsv.gz",
+      "sha256": "fc8dc66929bad643992ee548aef55afa8370655f047534add96ec40a53964b2e",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/feature_eligibility.tsv",
+      "sha256": "452c99c530876fb351253bb1a7e3568bbee2defae0209241ba1e27b12b57ca33",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/mapping_sensitivity.tsv",
+      "sha256": "ae5674e1207f70dbb35fcb6d3a81791c37fc62a132977c44a57770a0fcb7e4fa",
+      "study_id": "GSE247223_GSE248042_reused_E2",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/representation_audit_v1.py",
+      "sha256": "79c9bd47e04f856536928fda4b7f6c3f8631baffb8e432ffb4d023558ecbf78e"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_representation_audit_v1.py",
+      "sha256": "9c13cc4b7cde259b372fbb13b19600abb1d218f14856ed1b7544c3a3e1932768"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/gene_representation.tsv.gz",
+      "sha256": "7ef91bfea8aeeb2421c5e4a1f050c0791dac5c3e77a5523345f8f9466768e5ce"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "sha256": "fd8df7a78df502a718d920bdb4f15b15c84bb27c6a228afe2d2cb32d267b09ad"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/common_mapping_membership.tsv.gz",
+      "sha256": "c8e7e41ea6278dc97c9b9327c5ffb9c3db1dd21f44a2a61ffabd6aa199fac844"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/common_mapping_contingency.tsv",
+      "sha256": "8cc1d80f65f8da78befe3ab70d820eeab0241a9ec88f8b067f01843c3b81d499"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/annotation_coverage.tsv",
+      "sha256": "e34def3918aa95e307c5db6eed0f8670ec632de8793879fb3b61bd8e28d80cdb"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/representation_audit.png",
+      "sha256": "9721856440cf7d15c81127e04406601c5d3509d7f96243977b439060bedc57d1"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/verification.json",
+      "sha256": "3e15af16f5c10b093d84798a2f34ea669f7cd73ef76ef8dd3e54052afdf095f5"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/summary.json",
+      "sha256": "22fb05943cd8a9f3ce714634a53928d90160d876443d9ee99c8e7496fde6e7b8"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T07:31:48.853566+00:00"
+}

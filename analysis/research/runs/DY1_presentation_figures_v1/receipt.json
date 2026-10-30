@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.presentation_figures_v1",
+  "owner": "DY1-P02",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/config/presentation_figures_v1.json",
+  "contract_sha256": "d72fcdb45d3d98b769ec466c94cb2ac837a2b37e96da4ad100b87659a72e8268",
+  "git_commit": "06be8fda7bf5cff615c85bbd2df5928bbae065b4",
+  "started_at": "2026-10-30T08:49:32.448924+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/scripts/presentation_figures_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_presentation_figures_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+      "sha256": "fd8df7a78df502a718d920bdb4f15b15c84bb27c6a228afe2d2cb32d267b09ad",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "sha256": "5a1ffd702321066c0469c6affda7a3dba48d97e92b0ae59ee285c67c4c0f0b63",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "sha256": "b55f8fdd40de8366b0a296586772f37cf0a3e728ae4f33e7587d9c574577d7be",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv",
+      "sha256": "a7819f3ab30905720fff35b35817e6b2a06c11c460cfc19cc1547c58068a2ccc",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_representation_audit_v1/receipt.json",
+      "sha256": "9e422fd25938a9c0ff43f9ba3b6384475f08a9c6c25b1df8e983d274b19ef718",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/receipt.json",
+      "sha256": "e918132f9fb74ee29ac946ce989c003fd1b2dae465e1ac7d51c45aa7d0973b71",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/receipt.json",
+      "sha256": "f66ded2882b77b41bd0ba902ae77cec6f8b49bd70419a93ad5b35afacdb1e12d",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/presentation_parameters_v1.json",
+      "sha256": "7fb3fe1049c80d7dde13d6f8437182bd1392e9f416365065fa22e6130f61edfc",
+      "study_id": "DY1_reviewed_F1_F2_F4_reused_outputs",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/scripts/presentation_figures_v1.py",
+      "sha256": "32da0f167fa615f94917b538e6f70c9b304078ee02676a89cbfd74b8b6cba2eb"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/presentation_parameters_v1.json",
+      "sha256": "7fb3fe1049c80d7dde13d6f8437182bd1392e9f416365065fa22e6130f61edfc"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/tests/test_presentation_figures_v1.py",
+      "sha256": "ca725e85025375d1e4578b2d61bd3c0d40baa7077c14f4747e34b23cb5abe3a6"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/01_representation_weighting_v1.png",
+      "sha256": "4abd5773bc36e7f0bd40546d00831d7008b4dcbe632b0746db258982222b50fb"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/01_representation_weighting_v1.svg",
+      "sha256": "9b2cf5e1af55a34cae86cba4f0420b4c70f38d9362fc9b41c3aeb0d6baf534d2"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/01_representation_weighting_v1.pdf",
+      "sha256": "493e697a1a5353a13541400ab9cc7388417a9dbbd190c12c59ca5f2a51ddaa9d"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/02_human_contrasts_v1.png",
+      "sha256": "140c79ad61a0adaf39da8a4cb6894aba183715d9015ab93b4faedc84d6c4a463"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/02_human_contrasts_v1.svg",
+      "sha256": "c45849f77c809e7d0b1a3b05dd3a696784d0de60714e33a3c0fc501e9becadb5"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/02_human_contrasts_v1.pdf",
+      "sha256": "d76a1d7de7ddff7de334ce8e0855d59f221bf9f862dd6c51d732a659a6790c64"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/03_human_coupling_v1.png",
+      "sha256": "132fce939f111ef1fde1d78e47faeaf6f22bca1f524dee9f94de2a0ce4c0dd91"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/03_human_coupling_v1.svg",
+      "sha256": "7630b3bb89660deb80d0986532d53ea7a82bee8abd69cb361cff15bab4319b98"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/03_human_coupling_v1.pdf",
+      "sha256": "def79df55258d2e3d59d4a3ec02a0a06cb1d0ed6a31096faf83fc340ff1e19da"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/04_cofactor_correlations_v1.png",
+      "sha256": "265cf99474735000eec250f9feaf41b4e42efbb9d547a5b739c719b2e426eb3c"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/04_cofactor_correlations_v1.svg",
+      "sha256": "fe10d2ccebcaacfc23368e833337632a310b80f5c6f83f044374b29a36f245e4"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/04_cofactor_correlations_v1.pdf",
+      "sha256": "08159c42e144c3c57b33514c31c1fef5d4fb915d8f73903381febd128e110fb4"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/DY1_presentation_plates_v1.pdf",
+      "sha256": "b90102bc080e03e8410e4c87beeebf373e80f4e6fca3520d64825dffde7f98ab"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/render_record.json",
+      "sha256": "68cc3901fd3865e4c22134f77e3dee1d8af347a7466df3dc471f26bd73f1093d"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/render_inventory.tsv",
+      "sha256": "61f41d933d7cc3e9a4ca23abf838b54c7714d68042bba4720994cb3a3960c70e"
+    },
+    {
+      "path": "analysis/research/runs/DY1_presentation_figures_v1/data_label_verification.json",
+      "sha256": "363adb811aa2a6fcbb80fa30befedba25ca60cf875a06d1f77ff5ccb94167137"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T08:49:47.047986+00:00"
+}

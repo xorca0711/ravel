@@ -1,5 +1,160 @@
 # Current project state
 
+## DY1 figure gallery integrated — 31 October 2026
+
+Integrated reviewed rendering handoff `5aa6e08cb89e4df9a866d757c8f6afe6ad1023be`
+from the existing technical chat. The [figure gallery](Research%20Article/gate2_DY1_damani_yokota_2026/FIGURES.md)
+contains thirteen current plates and links all ten original PNGs. Four new
+presentation derivatives (one F1 replacement and three summaries) have PNG300,
+vector SVG/PDF and a four-page bundle. Article/DY1-P02 and central study navigation
+now link the gallery; no canonical RQ or biological result changed.
+
+The [independent review](Research%20Article/gate2_DY1_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md)
+passed 461 source/hash/value/coordinate checks, plus all four PNG/PDF-page visual
+reviews and PDF text bounds. The technical package passed five targeted tests,
+11,751 repository checks and the base-aware gate against unchanged main
+`28fb610`. All sixteen declared outputs, including five PDFs initially missed
+by the ignore rule, are tracked. Generated SVG whitespace notices are recorded;
+frozen exports and original evidence remain intact.
+
+Integrated gallery documentation passed 11,873 repository checks and the
+base-aware research gate against freshly fetched unchanged main `28fb610`.
+Delivery uses the existing [PR #153](https://github.com/xorca0711/ravel/pull/153);
+human scientific review and merge remain pending. The owner explicitly approved
+the integration retry on 31 October; the earlier automatic-approval hold is
+resolved. Source/data/design holds remain unchanged, with no additional
+biological analysis queued by this gallery work or unresolved external setting.
+
+## DY1 presentation derivatives rendered — 30 October 2026
+
+Completed four frozen-table presentation plates after independent pre-freeze
+review: a readable F1 replacement plus human contrasts, within-IPF uncertainty
+versus omission ranges, and GRIP1/NCOA2 cross-modal correlations. The
+[render note](Research%20Article/gate2_DY1_damani_yokota_2026/PRESENTATION_RENDER_NOTE_2026-10-30.md)
+links the four-page vector PDF bundle, receipt and hash/value/layout records.
+Each plate also has genuine vector SVG/PDF and 300-dpi PNG. All 10 original PNGs,
+frozen analyses, tables, scripts and source caches remain unchanged.
+
+Five synthetic tests, 378 scalar source/value checks, all four layout/export checks
+and receipt verification passed. Inspected all four PNGs and four Poppler-rendered PDF
+pages. Additional PDF checks found zero embedded raster images, all text within
+page bounds and all 62 recorded labels present. No source-data render failed;
+two pre-freeze fixture overlaps were corrected. No biological refit, new
+inferential statistic, claim promotion or external setting change occurred.
+
+Parent independent saved-value and PDF visual review passed. Repository validation
+passed 11,751 checks and the research gate passed against fresh main `28fb610`;
+integration branch remained `4af89c8`. Source/docs have no whitespace warnings;
+319 native SVG path-format notices remain in frozen exports and are documented.
+Canonical 32 RQs, guides and protected paths are unchanged. Valid biological checks were
+reused because their code/evidence are unchanged.
+The general PDF ignore rule required explicitly tracking the five new PDF
+exports; all 16 declared outputs are now tracked, with frozen bytes unchanged.
+
+Next: integrate the stable render handoff into the parent-owned inventory,
+gallery and navigation updates. No push, external setting change or cache cleanup
+was performed by the rendering chat.
+
+## DY1 follow-up PR opened and overall synthesis — 30 October 2026
+
+The owner requested publication of the reviewed follow-ups and an overall analysis
+inventory/implication. Added the [cross-stage synthesis](Research%20Article/gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md),
+linking original diagnostic limits, human branches, E1–E6 and F1–F4 without new
+biological computation or claim promotion. Current main remains `28fb610`; no
+remote changes invalidate the previous numerical verification. Both CLI and
+connector GitHub identities are verified as `xorca0711`; no duplicate PR exists
+for this branch. Opened [PR #153](https://github.com/xorca0711/ravel/pull/153)
+against main with the completed analyses, context updates and synthesis. Final
+documentation passed 11,734 repository checks and the base-aware research gate.
+CI is separate from those local checks; human scientific acceptance and merge
+remain pending. No protected setting or source cache changed.
+
+
+## DY1 follow-ups integrated and independently reviewed — 30 October 2026
+
+Integrated stable technical handoff `cee8466dc82bbf4ce3a12e840cd575b55864c7f8`.
+F1 representation, F4 cofactor reference and F2 human-panel robustness (including
+external component reaggregation) completed under reviewed frozen contracts.
+The [current README ledger](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md#authorized-follow-ups-after-e1e6),
+[results](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md)
+and [independent review](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md)
+record exact outcomes, source limits and pre-freeze corrections. Parent verification
+passed 3,366 arithmetic/support checks and 69 provenance/freeze checks; all three
+figures inspected. F1's table is primary because plot labels are crowded.
+
+F3 public-source assessment is complete; numerical work remains held on controlled
+access, unqualified processed files/rights, paired barcodes, preparation identities
+and common-state support. The exact analysis repository timed out. Original NAM
+count/unit/state/temporal/mediation holds are unchanged. No eligible F1–F4 numerical
+job remains queued; no human scientific acceptance or new canonical RQ was created.
+Six existing RQ context notes now link the article evidence without duplicating it.
+
+The technical handoff passed 14 targeted tests, 161 repository tests (one skip),
+required verifiers, 11,702 repository checks and the base-aware research gate.
+Integrated documentation passed 11,727 repository checks and the research gate
+against freshly fetched unchanged main `28fb610`. Source caches and unrelated worktrees
+remain preserved. No remote publication or external setting changed. Next: obtain
+qualified F3/original-source evidence before reopening the specifically held jobs.
+
+
+## DY1 reviewed follow-ups executed — 30 October 2026
+
+Completed new exposed F1, F4 and F2 contracts/runs after independent pre-freeze
+technical review. The [results and exact evidence](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md)
+record small weighting shifts in F1, weak global mapped RNA/ATAC genotype
+association in F4, and component fragility of the primary FABP4-panel difference
+in F2. Matrix-panel differences and within-IPF negative panel associations retain
+their signs under the displayed single omissions. All outputs, zero/held cases,
+original panels/donors and earlier frozen evidence remain; no scientific
+acceptance, target selection or original-study hold resolution is implied.
+All three post-run independent technical reviews passed. The original primary
+FABP4 and external within-IPF correlation intervals still span zero; omission
+stability does not upgrade their statistical or causal interpretation.
+
+F3 remains an access/source-qualification hold. The exact public analysis URL
+timed out; public matrix absence is not established. Controlled files, rights,
+preparation identity and pairing remain unqualified. No request/contact,
+external write or external setting changed. The source/model note distinguishes
+the preprocessing and analysis repositories.
+
+All three receipts verify; targeted tests passed (4 F1, 4 F4, 6 F2). Required
+161-test suite passed with one skip after a sandbox temporary-Git-directory
+failure; compileall and claim/Nb1/Nb4/A16/A23/A22–A23 checks passed. F4's two draft
+hash-preflight failures and F2's pre-freeze review corrections are recorded in
+the report. Canonical 32 RQs, guides and governance remain unchanged. Freshly
+fetched main is `28fb61015f9b921f591e41ff26010a960c305947`.
+Repository validation passed 11,702 checks and the research gate passed against
+that fresh base. No remote change required reconciliation.
+
+Next: parent integration of the bounded summaries, README/literature navigation
+and final review record. Preserve all source caches;
+F3 numerical work awaits qualified access/files/units rather than another retry.
+
+## DY1 follow-up feasibility assessed after merge — 30 October 2026
+
+PR #152 is merged. This scoped assessment starts from fetched main
+`28fb61015f9b921f591e41ff26010a960c305947`; the prior publication checkpoint below
+is historical. Cross-checked the original paper, presentation, owner notes and
+completed reproduction/human/P02 reports. The
+[assessment](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md)
+proposes a region-weighting audit, human-panel fragility diagnostics, a cofactor
+reference comparison from existing counts, and a closer paired-modality time-course
+source. The first two have bounded uses of existing inputs; external human component results require reaggregation. Individual human
+gene contrasts and annotation/depth checks were already done and are not new jobs.
+
+New source EGAD50000001206 is controlled-access; independent preparation identity,
+paired files and processed matrices are unqualified. Its public analysis repository
+timed out. Original author capsules were inaccessible to the web reader. No data
+access request, external write, biological rerun, new canonical RQ or scientific
+acceptance occurred. Original counts/unit/ATAC/mediation holds remain explicit.
+
+Next: a prospective exposed contract for F1; F4 after its group/provenance and
+contrast model checks; F2 if panel robustness is pursued; source access/metadata
+qualification before F3. Keep all frozen evidence and source caches. Final
+validation passed 11,663 repository checks and the research gate against freshly
+fetched main `28fb610`; no biological rerun was needed. No external setting changed.
+
+
 ## DY1 draft PR opened — 30 October 2026
 
 At the owner's request, published the reviewed branch and opened

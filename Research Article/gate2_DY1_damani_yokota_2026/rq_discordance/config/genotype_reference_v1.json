@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.genotype_reference_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What are the separate RNA and accessibility source-labelled cKO-minus-WT transformed-mean differences within IL4, with the within-CTRL differences as baseline context?",
+  "decision": "Describe external cofactor-reference measurement patterns across complete eligible features; no exact author reproduction, interaction, original NAM mechanism or selected-target conclusion.",
+  "strongest_rival": "Baseline genotype differences, compositional normalization, author feature/mapping selection and unknown preparation/litter/batch structure can explain apparent cross-assay differences.",
+  "discriminator": "Separate within-IL4 and within-CTRL genotype descriptions using one common eligible feature universe per assay, all samples as deposited, actual unequal group sizes and fixed source mappings.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md",
+    "analysis/research/runs/DY1_P02_reference_source_v1/qualification.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_SOURCE_MODELS_2026-10-30.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original Nb-history/later-IAV context, published Deochand genotype outcomes, all prior DY1/E1/E2 results and feasibility are exposed. New cKO count-derived contrasts have not run. This is an exposed non-infectious external descriptive reference, not confirmation.",
+  "biological_unit": "Source-reported mouse/preparation replicates within each source-labelled genotype/condition/assay; exact animal, litter and batch identifiers are unqualified. Mapped features are not biological replicates.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "RNA WT IL4/CTRL3 each; cKO IL4 rep1,2,4 (3 libraries), CTRL4. ATAC4 in all four groups. Different genotype labels preclude identical genotype-specific animals but do not verify within-group independence or matched batches/litters. No pairing from rep labels; cross-assay/condition reuse unknown.",
+  "population_and_selection": "Deposited WT and cKO IL4/CTRL groups only, exact columns bound in parameters. Common assay universe is every feature not all-zero across all four selected groups. All source rows remain in library denominators. Retain condition-specific all-zero rows and report them.",
+  "contrast": "cKO minus WT mean log2(1+CPM), separately within source-labelled IL4 and CTRL, separately RNA/ATAC. No stimulus-by-genotype interaction or RNA-minus-ATAC effect-scale subtraction.",
+  "endpoint": "Full-universe mean contrast, sample SDs, n and independent-Welch conditional intervals; dependent mapped-row same/opposite/zero fractions, equal-gene agreement and descriptive Spearman associations.",
+  "methods": "All-source-feature CPM, offset1 only. Unequal-n Welch uses variance/n for each group and Satterthwaite df; 95% intervals are conditional on independent normal transformed observations. SE<=1e-12 is degenerate with unavailable interval. Exact author Ensembl and nearest-TSS symbol mappings; all annotated and absolute source-nearest-TSS distance<=2000bp. Independently verify 40 evenly spaced source-order features/assay/condition with scalar logarithms/statistics; verify all mapped sign partitions and Spearman using Pearson of ranks. No locus ranking.",
+  "missingness_and_exclusions": "Only all-zero across all four selected groups excluded from common effect universe. No expression/variance/direction filtering. Missing cKO IL4 RNA rep3 is not imputed; Fig5c cKO n4 caption discrepancy retained. Unknown annotation version, vehicle24/25h, batch/litter/animal matching remain.",
+  "multiplicity": "All conditions, assays and mappings reported without discovery p-values or FDR, equivalence claims, peak-independent intervals or selected targets.",
+  "precision_status": "unknown",
+  "precision_basis": "Conditional independent-observation Welch 95% intervals illustrate sample variability under normality and independence; no verified population-CI, meaningful effect margin or power claim. Genotype labels alone do not certify these assumptions.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Exposed source-labelled transformed-mean genotype associations. Baseline context is not an interaction estimate. No verified causal genotype effect, exact published analysis, global absolute output, regulatory activity/mediation, post-withdrawal memory or original NAM hold resolution.",
+  "stop_rule": "Stop on hash/sample/universe/identifier/verification disagreement. Preserve all degenerate/zero/opposite outcomes. No sample invention, pair matching by labels or favorable selected-feature follow-up.",
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE247223_countMatrixUpdated.tsv.gz",
+      "sha256": "5a8bc01d332386e221337d0a866875ef31130deab432cadd5c64715052f19ca3",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_P02_reference_source_v1/GSE248042_Chinenov_Deochand_submission_ATACseq_peak_count_matrix.csv.gz",
+      "sha256": "5d39fe421adced7aa67c7cf92d82c478492e11ee0650e07621803b79d8ba5372",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/sample_map.tsv",
+      "sha256": "a09cc08c3690c3e564a1c5622573668f6f97404f2e76c6ebc6fda1e95148ccbe",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/author_annotation_map.tsv",
+      "sha256": "9fc8c70701d52d7802c00a2556fe9c7ba59b16450eb8aca2ab98bc635ca7454d",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_source_v1/qualification.json",
+      "sha256": "9d72eb31b6c2b0261f179c864c308304e4e7aaec1af64097498adf6fbfb6c3a5",
+      "study_id": "GSE247223_GSE248042_E1_qualified_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/genotype_reference_parameters_v1.json",
+      "sha256": "d41bf8642790e4269418182c5affe511a81f28cf3178c162be545c561b147a2c",
+      "study_id": "GSE247223_GSE248042",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/genotype_reference_v1.py",
+      "sha256": "544c6d98a293a9a2a6b3f202884ab09bb8da6112993bdf7b4bef3a2900bbeb22"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_genotype_reference_v1.py",
+      "sha256": "3947836be46daae5ed6745a85e630e9e3ab41489c5e82389caf18cee2d229b52"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/genotype_reference_parameters_v1.json",
+      "sha256": "d41bf8642790e4269418182c5affe511a81f28cf3178c162be545c561b147a2c"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/genotype_reference_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "selected_source_samples.tsv",
+    "rna_genotype_effects.tsv.gz",
+    "atac_genotype_effects.tsv.gz",
+    "mapping_membership.tsv.gz",
+    "feature_eligibility.tsv",
+    "library_denominators.tsv",
+    "feature_summary.tsv",
+    "mapping_summary.tsv",
+    "genotype_reference.png",
+    "verification.json",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-authorized F4 conditional genotype description from E1 counts, separately scoped from frozen WT-only E2."
+}
