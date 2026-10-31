@@ -1,5 +1,24 @@
 # Follow-up execution and review ledger
 
+## T1-B dispatched and active — 31 October 2026
+
+Reviewed integration `2a0f32c32cd180bc6e58c252ff0531dd00a8252a` was dispatched
+to the sole authorized technical chat. Snapshot confirms active turn
+`01a19080-1ffa-76d2-9917-3f79f78aa45b`, cursor
+`51593419-65e5-454d-96df-3e67caaaccb8:43`.
+
+[REVIEW_T1A](REVIEW_T1A.md) owns the exact R1 reported-channel amendment and
+R2 numerical authorization. All v1 vector holds and closure rules remain;
+the source-declared percentage endpoint is separate. B1 and T2 are reviewed
+complete within their descriptive/design scopes. Remaining empirical questions
+retain their exact data/model/assay holds. Next: review T1-B's exact committed
+artifacts and combined disposition before deciding scoped completion.
+
+The Notion plan page now records reviewed T1-A/T2, the unchanged v1 holds and
+active T1-B. The existing heartbeat remains ACTIVE with current stage authority.
+Only dispatch/status prose followed the 12,463-check and research-gate pass;
+those checks remain valid. No scientific acceptance or owner action is required.
+
 ## T1-A reviewed; T1-B prepared — 31 October 2026
 
 Exact return `bc17da15f9e62fb657ba06642c65542517b857c0` passes

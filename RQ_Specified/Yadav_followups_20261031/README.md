@@ -1,7 +1,7 @@
 # Yadav follow-up research plans
 
 **Current review, 31 October 2026:** [T1-A passed technical review](REVIEW_T1A.md).
-Its frozen vector holds remain. The next checkpoint T1-B separately describes
+Its frozen vector holds remain. Active checkpoint T1-B separately describes
 source-reported channels and the reviewed R2 whitelist. [T2](T2_DISPOSITION.md)
 design qualification is reviewed complete; empirical effects remain held.
 

@@ -20,8 +20,10 @@ scientific acceptance, canonical RQ change, outreach or bench work follows.
 Local integration preserves both worktrees and all frozen evidence; status-only
 merge conflicts were reconciled with both ledger histories retained. Fresh main
 is `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Integration passed 12,463
-repository checks and the research gate (`ok: true`, no errors). Technical
-dispatch is next; the review heartbeat remains ACTIVE.
+repository checks and the research gate (`ok: true`, no errors). T1-B was
+dispatched from `2a0f32c32cd180bc6e58c252ff0531dd00a8252a`; the technical chat
+is confirmed active (cursor `:43`). Notion and the ACTIVE heartbeat are aligned.
+Next: review the exact T1-B return and combined disposition before closeout.
 
 ## Yadav T1-A completed; review pending — 31 October 2026
 
