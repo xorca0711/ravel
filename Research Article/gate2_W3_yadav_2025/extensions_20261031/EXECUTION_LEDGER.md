@@ -27,3 +27,17 @@ and current-base integration checks need repeating for these new documents/links
 
 External actions remain unchanged: no Notion write, remote push, PR, remote merge
 or author contact. Preserve all worktrees, original sources and frozen outputs.
+
+## Plan validation and integration
+
+Initial extension-plan commit: a484867. Before dispatch, fetched main advanced
+to 8cb50dd15a12a41abc6d5edb36349d33fc512661, merging the already inspected DY1
+follow-ups. Local integration retained both progress histories and all parent
+registry entries; deterministic checks confirmed unchanged canonical questions
+and complete contract/receipt unions (109 contracts, 103 receipts). An optional
+evidence-field assumption in that check was corrected; no research gate changed.
+
+Validation passed 12,069 repository checks and the research gate against that
+current main (`ok: true`, no errors). Existing biological tests remain valid;
+no frozen biological analysis was rerun. X0/X1/X2 are eligible for checkpoint-A
+dispatch, with X3-X5 limited to qualification and prospective design proposals.

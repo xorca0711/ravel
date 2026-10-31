@@ -800,7 +800,10 @@
         "Research Article/gate2_DY1_damani_yokota_2026/CLOSEOUT.md",
         "Research Article/gate2_DY1_damani_yokota_2026/BASELINE_QC_RESULTS_2026-10-30.md",
         "Research Article/gate2_DY1_damani_yokota_2026/JOB_ASSESSMENT_2026-10-30.md",
-        "Research Article/gate2_DY1_damani_yokota_2026/PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md"
+        "Research Article/gate2_DY1_damani_yokota_2026/PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md"
       ]
     },
     {
@@ -812,7 +815,12 @@
         "Research Article/gate2_DY1_damani_yokota_2026/PUBLISHED_EVIDENCE_BOUNDARIES_2026-10-30.md",
         "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/SOURCE_METHODS_2026-10-30.md",
         "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/TEMPORAL_INPUTS_2026-10-30.md",
-        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md"
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/EXTENSION_RESULTS_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_FEASIBILITY_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/PRESENTATION_RENDER_NOTE_2026-10-30.md"
       ]
     },
     {
@@ -935,7 +943,11 @@
     "Research Article/gate2_W3_yadav_2025/config/annotation_contract_v1.json",
     "Research Article/gate2_W3_yadav_2025/config/rna_endpoints_contract_v1.json",
     "Research Article/gate2_W3_yadav_2025/config/figure_display_v2.json",
-    "Research Article/gate2_W3_yadav_2025/config/spatial_marginals_contract_v1.json"
+    "Research Article/gate2_W3_yadav_2025/config/spatial_marginals_contract_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/representation_audit_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/genotype_reference_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/human_panel_robustness_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/config/presentation_figures_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1036,7 +1048,11 @@
     "analysis/research/runs/Yd1_annotation_v1/receipt.json",
     "analysis/research/runs/Yd1_rna_endpoints_v1/receipt.json",
     "analysis/research/runs/Yd1_figure_display_v2/receipt.json",
-    "analysis/research/runs/Yd1_spatial_marginals_v1/receipt.json"
+    "analysis/research/runs/Yd1_spatial_marginals_v1/receipt.json",
+    "analysis/research/runs/DY1_P02_representation_audit_v1/receipt.json",
+    "analysis/research/runs/DY1_P02_genotype_reference_v1/receipt.json",
+    "analysis/research/runs/DY1_human_panel_robustness_v1/receipt.json",
+    "analysis/research/runs/DY1_presentation_figures_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

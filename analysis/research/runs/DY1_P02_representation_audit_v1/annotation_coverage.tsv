@@ -1,0 +1,5 @@
+mapping_rule	distance_subset	pair_rows	genes	candidate_rows	unique_regions	same_nonzero_sign	opposite_nonzero_sign	one_or_both_zero	eligible_atac_regions	eligible_rna_genes	mapped_fraction_of_eligible_atac	mapped_fraction_of_eligible_rna	eligible_pair_fraction_of_candidates
+author_ensembl	all_author_annotated	62462	13602	71942	62462	34921	27541	0	144411	25802	0.4325293779559729	0.5271684365553058	0.8682271830085346
+author_ensembl	within_2kb_of_nearest_tss	8712	7067	9480	8712	5479	3233	0	144411	25802	0.06032781436317178	0.27389349662816836	0.9189873417721519
+author_nearest_tss_symbol	all_author_annotated	62202	13571	71942	62202	34745	27457	0	144411	25802	0.4307289610902217	0.5259669793039299	0.8646131606015958
+author_nearest_tss_symbol	within_2kb_of_nearest_tss	8665	7039	9480	8665	5450	3215	0	144411	25802	0.060002354391285984	0.27280830943337725	0.9140295358649789

@@ -20,6 +20,23 @@ separates paper findings from repository observations and mechanistic claims.
 
 ![Fixed six-library exon-bin diagnostic, not author PCA or biological effect inference](../../analysis/research/runs/DY1_baseline_exon_profile_v1/sample_profile.png)
 
+The subsequent [F1–F4 follow-ups](rq_discordance/README.md#authorized-follow-ups-after-e1e6)
+are now assessed through the existing technical chat: representation, cofactor
+reference and human-panel robustness runs completed and passed
+[independent review](rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md). The paired
+source remains numerically held on access/files/identities. The
+[follow-up results](rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md) preserve all
+mixed and unfavorable findings; original-stage holds below remain unchanged.
+
+The [complete analysis inventory and synthesis](ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md)
+connects reproduction, human branches and extensions to the remaining question.
+
+The [figure gallery](FIGURES.md) organizes thirteen current plates by question,
+with all ten original PNGs preserved. Four new presentation derivatives include
+[vector formats and a four-page PDF](../../analysis/research/runs/DY1_presentation_figures_v1/DY1_presentation_plates_v1.pdf).
+The [figure review](FIGURE_REVIEW_2026-10-30.md) records source parity, layout checks
+and the distinction between technical completion and scientific acceptance.
+
 ## Candidate DY1-P01
 
 Can deposited bulk and single-cell measurements reproduce persistent NAM

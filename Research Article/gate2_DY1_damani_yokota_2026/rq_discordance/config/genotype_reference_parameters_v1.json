@@ -1,0 +1,59 @@
+{
+  "sample_columns": {
+    "GSE247223": [
+      "WT_CTRL_rep1",
+      "WT_CTRL_rep2",
+      "WT_CTRL_rep3",
+      "WT_IL4_rep1",
+      "WT_IL4_rep2",
+      "WT_IL4_rep3",
+      "KO_CTRL_rep1",
+      "KO_CTRL_rep2",
+      "KO_CTRL_rep3",
+      "KO_CTRL_rep4",
+      "KO_IL4_rep1",
+      "KO_IL4_rep2",
+      "KO_IL4_rep4"
+    ],
+    "GSE248042": [
+      "KO_C_Rep1",
+      "KO_IL4_Rep1",
+      "KO_C_Rep2",
+      "KO_IL4_Rep2",
+      "KO_C_Rep3",
+      "KO_IL4_Rep3",
+      "KO_C_Rep4",
+      "KO_IL4_Rep4",
+      "WT_C_Rep1",
+      "WT_IL4_Rep1",
+      "WT_C_Rep2",
+      "WT_IL4_Rep2",
+      "WT_C_Rep3",
+      "WT_IL4_Rep3",
+      "WT_C_Rep4",
+      "WT_IL4_Rep4"
+    ]
+  },
+  "group_sizes": {
+    "RNA": {
+      "IL4": [
+        3,
+        3
+      ],
+      "CTRL": [
+        3,
+        4
+      ]
+    },
+    "ATAC": {
+      "IL4": [
+        4,
+        4
+      ],
+      "CTRL": [
+        4,
+        4
+      ]
+    }
+  }
+}

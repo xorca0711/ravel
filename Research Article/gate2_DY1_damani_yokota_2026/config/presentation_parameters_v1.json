@@ -1,0 +1,69 @@
+{
+  "sources": {
+    "weighting": "analysis/research/runs/DY1_P02_representation_audit_v1/weighting_summary.tsv",
+    "full": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+    "robustness": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+    "mapping": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_summary.tsv"
+  },
+  "mappings": [
+    {"mapping_rule":"author_ensembl","distance_subset":"all_author_annotated","label":"Ensembl | all annotated"},
+    {"mapping_rule":"author_ensembl","distance_subset":"within_2kb_of_nearest_tss","label":"Ensembl | nearest TSS <=2 kb"},
+    {"mapping_rule":"author_nearest_tss_symbol","distance_subset":"all_author_annotated","label":"Nearest symbol | all annotated"},
+    {"mapping_rule":"author_nearest_tss_symbol","distance_subset":"within_2kb_of_nearest_tss","label":"Nearest symbol | TSS <=2 kb"}
+  ],
+  "human_scopes": [
+    {"cohort":"GSE136831","population":"Macrophage","floor":20,"scope":"all_sources","label":"GSE136831 | Macrophage >=20 cells\nAll sources","coupling_label":"Primary Macrophage >=20 cells"},
+    {"cohort":"GSE136831","population":"AllMacrophages","floor":50,"scope":"all_sources","label":"GSE136831 | AllMacrophages >=50\nAll sources"},
+    {"cohort":"GSE135893","population":"external_macrophage_union","floor":50,"scope":"all_sources","label":"GSE135893 | macrophage union >=50\nAll sources","coupling_label":"External macrophage union >=50"},
+    {"cohort":"GSE135893","population":"external_macrophage_union","floor":50,"scope":"Vanderbilt","label":"GSE135893 | macrophage union >=50\nVanderbilt only"},
+    {"cohort":"GSE135893","population":"external_Macrophages_only","floor":50,"scope":"all_sources","label":"GSE135893 | Macrophages only >=50\nAll sources"},
+    {"cohort":"GSE135893","population":"external_Macrophages_only","floor":50,"scope":"Vanderbilt","label":"GSE135893 | Macrophages only >=50\nVanderbilt only"}
+  ],
+  "plates": [
+    {
+      "stem":"01_representation_weighting_v1",
+      "title":"RNA-accessibility agreement: representation sensitivity",
+      "subtitle":"Frozen external WT IL4-versus-control contrasts | F1 presentation replacement | offset 1",
+      "source_tables":["weighting"],
+      "presentation_supersedes":"analysis/research/runs/DY1_P02_representation_audit_v1/representation_audit.png",
+      "caption":[
+        "Equal-gene weighting changes agreement only slightly; mixed ATAC directions remain common in the broad mapped universe.",
+        "Rows and genes share source libraries. No independent-trial inference; similar mappings are not independent validation.",
+        "All mapped rows remain in denominators. Distance is to the source nearest TSS, not necessarily the Ensembl-assigned gene."
+      ]
+    },
+    {
+      "stem":"02_human_contrasts_v1",
+      "title":"Human macrophage panels: IPF-Control contrasts",
+      "subtitle":"Six fixed cohort / annotation / source scopes | original donor estimates and pointwise 95% bootstrap intervals",
+      "source_tables":["full"],
+      "caption":[
+        "Compare the same two RNA summaries across source definitions: matrix-associated estimates are positive; FABP4-panel direction varies.",
+        "Points, intervals and donor counts are copied from frozen results. Annotations, cell floors and source-site composition differ.",
+        "The primary FABP4 interval spans zero. RNA panels do not measure matrix production, secretion or repair."
+      ]
+    },
+    {
+      "stem":"03_human_coupling_v1",
+      "title":"Within-IPF coupling of the two macrophage RNA panels",
+      "subtitle":"Primary Macrophage20 and external union50, all sources | no bootstrap recomputation",
+      "source_tables":["full","robustness"],
+      "caption":[
+        "Compare original uncertainty with observed sensitivity: single-component and single-donor omission ranges remain negative.",
+        "Only panel A shows a 95% bootstrap interval; panels B/C show influence ranges, not confidence intervals.",
+        "The external original interval spans zero. Omission stability does not establish significance, causality or independent replication."
+      ]
+    },
+    {
+      "stem":"04_cofactor_correlations_v1",
+      "title":"GRIP1/NCOA2 reference: RNA-accessibility correlation",
+      "subtitle":"Separate within-condition cKO-minus-WT transformed-mean effects | all four frozen mapping/subset summaries",
+      "source_tables":["mapping"],
+      "caption":[
+        "Compare mapped-row associations on the full Spearman scale: the saved global RNA-accessibility correlations are weak.",
+        "Mapped rows share genes and source libraries; no confidence interval or p-value is inferred from their count.",
+        "Separate source-labelled IL4/CTRL comparisons are not an interaction, causal mechanism or evidence of true absence."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+mapping_rule	distance_subset	pair_rows	genes	same	opposite	zero	pair_weighted_same	equal_gene_same	equal_gene_minus_pair_weighted	mixed_atac_genes	mixed_atac_gene_fraction	regions_per_gene_min	regions_per_gene_median	regions_per_gene_max	single_region_genes
+author_ensembl	all_author_annotated	62462	13602	34921	27541	0	0.5590759181582402	0.562478373676297	0.003402455518056846	7667	0.5636671077782679	1	3.0	65	3364
+author_ensembl	within_2kb_of_nearest_tss	8712	7067	5479	3233	0	0.6289026629935721	0.6310480637705769	0.002145400777004758	632	0.08942974388000566	1	1.0	6	5747
+author_nearest_tss_symbol	all_author_annotated	62202	13571	34745	27457	0	0.5585833252950065	0.5625420158431447	0.003958690548138133	7652	0.5638493847174121	1	3.0	65	3351
+author_nearest_tss_symbol	within_2kb_of_nearest_tss	8665	7039	5450	3215	0	0.6289671090594345	0.6309300563527016	0.00196294729326707	622	0.08836482454894161	1	1.0	6	5733

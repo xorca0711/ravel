@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P01.human_panel_robustness_v1",
+  "owner": "DY1-P01",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/human_panel_robustness_v1.json",
+  "contract_sha256": "ca042d7815a7c01b5449e6560b887e204c9c7a087856f9a737a1d973455e00a7",
+  "git_commit": "446b023408a9b5d294a46a594221e5f3945fdb39",
+  "started_at": "2026-10-30T07:39:53.804095+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/human_panel_robustness_v1.py",
+    "--output",
+    "analysis/research/runs/DY1_human_panel_robustness_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_subtypes.npz",
+      "sha256": "1c85a3940082c80759f6f8743eb6fb1eeed2f61fdaf9aab84a575a47e5f704fb",
+      "study_id": "GSE135893",
+      "unit_ids": [
+        "THD0001",
+        "THD0002",
+        "THD0005",
+        "TILD001",
+        "TILD006",
+        "TILD010",
+        "TILD015",
+        "TILD028",
+        "VUHD071",
+        "VUHD65",
+        "VUHD66",
+        "VUHD67",
+        "VUHD68",
+        "VUHD70",
+        "VUILD53",
+        "VUILD59",
+        "VUILD60",
+        "VUILD61",
+        "VUILD63",
+        "VUILD64",
+        "VUILD65"
+      ],
+      "role": "validation",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_subtypes_units.csv",
+      "sha256": "e3d7f848a64c28dedd5710d6a89eb6c567bf079fec2de629338a593fa071a358",
+      "study_id": "GSE135893",
+      "unit_ids": [
+        "THD0001",
+        "THD0002",
+        "THD0005",
+        "TILD001",
+        "TILD006",
+        "TILD010",
+        "TILD015",
+        "TILD028",
+        "VUHD071",
+        "VUHD65",
+        "VUHD66",
+        "VUHD67",
+        "VUHD68",
+        "VUHD70",
+        "VUILD53",
+        "VUILD59",
+        "VUILD60",
+        "VUILD61",
+        "VUILD63",
+        "VUILD64",
+        "VUILD65"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/DY1_human_external_v1/GSE135893_IPF_metadata.csv.gz",
+      "sha256": "5c67b3717375859aafc4463024847cf30d7af7bb9d5f4ad9a5364ee6d7726bf5",
+      "study_id": "GSE135893",
+      "unit_ids": [
+        "THD0001",
+        "THD0002",
+        "THD0005",
+        "TILD001",
+        "TILD006",
+        "TILD010",
+        "TILD015",
+        "TILD028",
+        "VUHD071",
+        "VUHD65",
+        "VUHD66",
+        "VUHD67",
+        "VUHD68",
+        "VUHD70",
+        "VUILD53",
+        "VUILD59",
+        "VUILD60",
+        "VUILD61",
+        "VUILD63",
+        "VUILD64",
+        "VUILD65"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v2/qualification.json",
+      "sha256": "1dd3bafa0353583e2f4ea821a52098c14b74be71d57d5410bcf3a8cd52059959",
+      "study_id": "GSE135893",
+      "unit_ids": [
+        "THD0001",
+        "THD0002",
+        "THD0005",
+        "TILD001",
+        "TILD006",
+        "TILD010",
+        "TILD015",
+        "TILD028",
+        "VUHD071",
+        "VUHD65",
+        "VUHD66",
+        "VUHD67",
+        "VUHD68",
+        "VUHD70",
+        "VUILD53",
+        "VUILD59",
+        "VUILD60",
+        "VUILD61",
+        "VUILD63",
+        "VUILD64",
+        "VUILD65"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v2/gene_mapping.tsv",
+      "sha256": "e256444ec3509aa1683e073188d9a276c271e6c5afd68733a85859fdb9120e79",
+      "study_id": "GSE135893",
+      "unit_ids": [
+        "THD0001",
+        "THD0002",
+        "THD0005",
+        "TILD001",
+        "TILD006",
+        "TILD010",
+        "TILD015",
+        "TILD028",
+        "VUHD071",
+        "VUHD65",
+        "VUHD66",
+        "VUHD67",
+        "VUHD68",
+        "VUHD70",
+        "VUILD53",
+        "VUILD59",
+        "VUILD60",
+        "VUILD61",
+        "VUILD63",
+        "VUILD64",
+        "VUILD65"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_qualification_v2/direct_selected_counts.npz",
+      "sha256": "491dcb9cb65f6bb2e71209432fd7f9d5d0cf113605dedef044ad17ccf903ebee",
+      "study_id": "GSE135893",
+      "unit_ids": [
+        "THD0001",
+        "THD0002",
+        "THD0005",
+        "TILD001",
+        "TILD006",
+        "TILD010",
+        "TILD015",
+        "TILD028",
+        "VUHD071",
+        "VUHD65",
+        "VUHD66",
+        "VUHD67",
+        "VUHD68",
+        "VUHD70",
+        "VUILD53",
+        "VUILD59",
+        "VUILD60",
+        "VUILD61",
+        "VUILD63",
+        "VUILD64",
+        "VUILD65"
+      ],
+      "role": "metadata",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/human_panels_v1.json",
+      "sha256": "97570df4b2d90d5dd7755075df3ea0bbe115674c278530ac27d2324b3a3d9c65",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/config/external_selection_v1.json",
+      "sha256": "615b31d03beba8811544f261093765b030e50fc2492e387a013cd10a0fecc26c",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_observational_v1/donor_expression.tsv.gz",
+      "sha256": "22d8ac6bb255c2de3b031cb6c612c953d8895a3f6e81ab2b0fdfbbef672958c3",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_observational_v1/contrasts.tsv",
+      "sha256": "d716d24397265df03e5760a43db2f1ed682d2b835184a76ef9ecd2c5f16c702f",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_observational_v1/associations.tsv",
+      "sha256": "359f047893e33fe554260340704d2a625b8107aa2adb12a9d34666b7ce2bacea",
+      "study_id": "GSE136831",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_observational_v1/donor_expression.tsv",
+      "sha256": "51c4f8d91733ce3ee1ccd635b2a07cc957ce1baccd702ff23999558310c505ab",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_observational_v1/contrasts.tsv",
+      "sha256": "3f4afab4da32017efd8a526af8d984f7aa2b7d33f0128efa8b5e3cab24febec7",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_external_human_observational_v1/associations.tsv",
+      "sha256": "a0eb27c4f3a62e0a45c093086c851410ae60154bbf8c8d0ce3b2b99fbca5a665",
+      "study_id": "GSE135893",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/human_panel_robustness_v1.py",
+      "sha256": "dcd0ee3e7abd9bf0106627e9d4eb994abf820e0f39af25376854a16f9ffea076"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/tests/test_human_panel_robustness_v1.py",
+      "sha256": "fc84008801a84729b92828d2086e2872a6aa6dd76d0b7f84fa12fdd2e5538193"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/donor_components.tsv.gz",
+      "sha256": "dd2231f53666ef86138dc316a32822bd7254ea85aab0c4ddaca54729def2021d"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/external_reaggregated_components.tsv",
+      "sha256": "3dc4fd936594a3946cb6d92fcf7df68f8d9883b1f050bb8621a68744bf660ae7"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/all_omissions.tsv",
+      "sha256": "86c7c22ab884600a83ca57a0d2bb12f78875626f4e2b6913ef07adb3196012c2"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/full_estimates.tsv",
+      "sha256": "5a1ffd702321066c0469c6affda7a3dba48d97e92b0ae59ee285c67c4c0f0b63"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/robustness_summary.tsv",
+      "sha256": "b55f8fdd40de8366b0a296586772f37cf0a3e728ae4f33e7587d9c574577d7be"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/human_panel_robustness.png",
+      "sha256": "142326caac2599405e753bc972c3534d5a6b2081ccb280dee2df4287cbbae986"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/verification.json",
+      "sha256": "333f23499651ecd99b30eca80ed678bbc911da676ba5aa7bca6a2d8d3eb9a1e6"
+    },
+    {
+      "path": "analysis/research/runs/DY1_human_panel_robustness_v1/summary.json",
+      "sha256": "de040313ffdf95eeb1bcfed4c0710bd4fd464f2068c533fb67b6d4ba36c38b98"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T07:40:00.607145+00:00"
+}

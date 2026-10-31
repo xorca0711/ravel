@@ -15,6 +15,8 @@ This is not a fresh numerical audit of all 32 questions or a portfolio ranking.
 - The pre-integration registry contains 32 canonical questions, 34 article candidates, 105
   contracts and 99 receipts. Contract/receipt totals include historical and held
   specifications; they are not a count of independent experiments or accepted claims.
+  After local integration of fetched main, counts are 32 questions, 34 article
+  candidates, 109 contracts and 103 receipts; all parent entries are preserved.
 - The primary checkout remains `78320a1` on codex/comprehensive-portfolio-20261026
   with a modified PROGRESS.md. It is not the current integration base; leave it alone.
 - Local DY1 follow-up review is `f0dbb6358e7250afcf854435f248ed71a422200a`,
