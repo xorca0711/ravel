@@ -261,3 +261,7 @@ analysis/research/runs/g1_a11_capacity_qualification_v1/** -text
 
 # Preserve exact draft Weft pilot source/config/runtime bytes across platforms.
 "Research Article/gate1_02_choi_2020/weft_pilot_v1/**" -text whitespace=cr-at-eol
+
+# Sx22 exact prospective bytes and immutable evidence.
+"Research Article/gate3_08_saxton_2021_il22/**" -text
+analysis/research/runs/sx22_*/** -text
