@@ -888,6 +888,13 @@
         "RQ_Specified/Yadav_followups_20261031/REVIEW_T1B_FINAL.md",
         "RQ_Specified/Yadav_followups_20261031/REVIEW_T1B_INTEGRITY.md"
       ]
+    },
+    {
+      "id": "Sx22-P01",
+      "plan": "Research Article/gate3_08_saxton_2021_il22/README.md",
+      "evidence": [
+        "Research Article/gate3_08_saxton_2021_il22/SOURCE_AUDIT.md"
+      ]
     }
   ],
   "contracts": [
@@ -1012,7 +1019,8 @@
     "RQ_Specified/Yadav_followups_20261031/config/t1a_b1_contract_v1.json",
     "RQ_Specified/Yadav_followups_20261031/config/t1b_r1_contract_v1.json",
     "RQ_Specified/Yadav_followups_20261031/config/t1b_r2_contract_v1.json",
-    "RQ_Specified/Yadav_followups_20261031/config/t1b_figures_contract_v2.json"
+    "RQ_Specified/Yadav_followups_20261031/config/t1b_figures_contract_v2.json",
+    "Research Article/gate3_08_saxton_2021_il22/config/r1_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",

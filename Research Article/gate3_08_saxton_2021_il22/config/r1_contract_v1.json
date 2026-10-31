@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.R1_v1",
+  "owner": "Sx22-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do deposited GSE160217 sample identities and matrices qualify the planned acute colon contrasts?",
+  "decision": "Qualify the RNA input and determine whether count-model reconstruction can proceed.",
+  "strongest_rival": "Incorrect label mapping, duplicate libraries or technical rather than biological replication.",
+  "discriminator": "Join GEO attributes to all six table columns; check integer counts, identifiers and reported biological units without estimating treatment effects.",
+  "evidence_refs": [
+    "Research Article/gate3_08_saxton_2021_il22/README.md",
+    "Research Article/gate3_08_saxton_2021_il22/SOURCE_AUDIT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published Fig. 6 and main source methods read; GEO sample titles and headers inspected before freeze. No expression contrast has been calculated.",
+  "biological_unit": "Source-reported independent colon sample; metadata records are not new biological units.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Six libraries reuse the paper samples. qPCR technical triplicates supply no independent RNA-seq units.",
+  "population_and_selection": "All six GSE160217 deposited libraries, two per named treatment; no selection by expression.",
+  "contrast": "Metadata qualification of WT, B3 and PBS column mapping; no biological contrast in this stage.",
+  "endpoint": "Source identity, integer count validity, library totals, symbol ambiguity and zero rows.",
+  "methods": "Standard-library gzip/CSV parser; exact column and annotation joins; fail on duplicate Ensembl IDs, negative/nonfinite/noninteger counts or unexpected group sizes.",
+  "missingness_and_exclusions": "No sample exclusions; missing metadata recorded explicitly; ambiguous symbols retained for later qualification.",
+  "multiplicity": "No significance tests in metadata work.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No biological estimate or uncertainty interval is computed.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Matrix and metadata validity do not establish independence beyond the original report or causal identification.",
+  "stop_rule": "Fail on schema/count/join defects; preserve run failure and amend prospectively.",
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_family.soft.gz",
+      "sha256": "dd5c728e3a8a4128d3c64674ff56b54a24ed3585e3bc9707f33245dbe6a0b273",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_readcount_genename.xls.gz",
+      "sha256": "26a63db90cbb1c65614205b05a1a957b37f0783b67df72ad4801b48c5bc0646d",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_fpkm_genename.xls.gz",
+      "sha256": "69dd439dc048fe6ff0e4d343d403e2fe277ea004beb4bc10b80c2f0daa7027f1",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/scripts/r1_audit_v1.py",
+      "sha256": "3903e4eddfc53830db35ccc93dc249d880c50325a7d367e32d1b1d1844de7bf0"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_08_saxton_2021_il22/scripts/r1_audit_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "samples.csv",
+    "library_qc.csv",
+    "gene_qc.csv",
+    "summary.json",
+    "environment.txt"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed source/matrix qualification; no original outcome is hidden."
+}
