@@ -1,9 +1,11 @@
 # RQ3 — matrix reduction and mature epithelial recovery
 
-**T1-A checkpoint, 31 October 2026.** T2 design/access qualification is complete. No eligible joint ARG1–matrix–absolute mature-function source or confirmed host model is documented; empirical execution remains held.
-See [T1-A results](T1A_RESULTS.md), [R2 design](R2_DESIGN.md) and
-[T2 disposition](T2_DISPOSITION.md). Review is pending; the question and prior
-evidence below are retained.
+**Final technical review, 31 October 2026.** T2 design/access qualification is reviewed complete and reused. No eligible joint ARG1–matrix–absolute mature-function source or confirmed host model is documented; empirical execution remains held.
+See [T1-B results](T1B_RESULTS.md) and
+[final review](REVIEW_T1B_FINAL.md). All feasible authorized support work is
+complete; empirical analysis requires the exact reopening evidence in the
+[combined disposition](FOLLOWUP_DISPOSITION_T1B.md). The question and prior
+evidence below remain unchanged.
 
 **Proposed article-local candidate Yd1-P02.** Purpose: estimate joint functional
 consequences of a qualified source ARG1 intervention, not presume that less

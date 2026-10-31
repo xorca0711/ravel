@@ -1,0 +1,21 @@
+{
+  "job": "r2",
+  "endpoint": "literal reported channels; not validated normalized composition",
+  "source_sha256": "d8d3365b226323d3ebe7300c481625049ae1cae3f78948938956240b8ea79f4f",
+  "literal_cells": 2072,
+  "measure_blocks": 27,
+  "summaries": 548,
+  "held_summaries": 84,
+  "invalid_cells": 332,
+  "vector_qc_observations": 94,
+  "complete_vectors": 48,
+  "scope_holds": [
+    "Figure 3F argininosuccinate percentages X16:AQ23 remain held: AP15/AQ15 duplicate M+14/M+15. No extraction or header repair.",
+    "All Figure 4B putrescine rows 63:70 remain held: shifted metadata and no dedicated isotope/unit header. No extraction.",
+    "Figure 4F has three supplied labels per condition versus published n=4/SEM and S5 n=4/SD; no fourth observation or uncertainty reconstruction.",
+    "Figure 3F D4-citrulline sample/panel wording versus Methods 13C5-citrulline discrepancy remains unresolved.",
+    "No raw-MS, flux, calibrated pool, source ARG1 effect, collagen incorporation or mature repair."
+  ],
+  "old_v1_qc_sha256": "",
+  "limit": "No old hold erased, normalization validation, calibrated pool, raw correction, flux, source ARG1 effect, collagen incorporation or mature repair."
+}

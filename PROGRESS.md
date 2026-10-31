@@ -1,5 +1,53 @@
 # Current project state
 
+## Yadav follow-up scope reviewed complete with empirical holds — 31 October 2026
+
+The [final review](RQ_Specified/Yadav_followups_20261031/REVIEW_T1B_FINAL.md)
+dispositions all three follow-up tracks. T1-B return
+`a5677d43662816aea64f4e5b6229b33495973ce4` passes provenance, endpoint and
+figure review: 160/180 R1 and 464/548 R2 channel summaries qualify. All original
+vector, missing-value, ambiguous-map and replicate-identity limits remain.
+T0, B1 and T2 are reviewed complete; no biological pipeline was rerun.
+
+No feasible authorized job remains. Actual source ARG1 effects, transfer/flux
+and joint mature epithelial recovery require the exact linked data, source keys
+or confirmed model/assay access in the [combined disposition](RQ_Specified/Yadav_followups_20261031/FOLLOWUP_DISPOSITION_T1B.md).
+Original spatial/human/X3–X5 holds and all 32 canonical questions remain unchanged.
+Scientific acceptance is a separate human decision; no bench readiness is claimed.
+
+Fresh main is `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Local integration
+preserves both worktrees and all frozen outputs. Current-base validation passed
+12,534 repository checks and the research gate (`ok: true`, no errors), after
+correcting the review-only audit document format. Scientific artifacts and
+gates were unchanged. Final Notion synchronization and heartbeat pause are next. No remote
+publication or outreach is authorized; host access/oversight and protected
+integration settings remain unverified. Earlier status entries are historical.
+
+## Yadav T1-B executed; review pending — 31 October 2026
+
+[T1-B results](RQ_Specified/Yadav_followups_20261031/T1B_RESULTS.md) complete
+the authorized reported-channel companion and exact R2 source descriptions.
+The new endpoint qualifies 160/180 R1 and 464/548 R2 summaries; missing target
+cells remain held. All original T1-A summary/vector holds are unchanged.
+Numerical code/contracts froze at `53a5f8f3cee36ed67eb87afdbf53017324ee6c74`.
+Independent source/arithmetic verification passed 17,841 checks.
+Final repository validation passed 12,519 checks; the current-main research
+gate passed with no errors. All 25 expected outputs and three receipts verify.
+
+Initial figure-layout issues were corrected in a separately frozen presentation
+run using unchanged tables; original figures remain. The
+[combined disposition](RQ_Specified/Yadav_followups_20261031/FOLLOWUP_DISPOSITION_T1B.md)
+reuses reviewed B1/T2 completion and retains exact source-key, ambiguous-map,
+collagen/Lee, flux, source ARG1, joint mature-repair and original spatial/human/
+X3–X5 holds. Actual host access and linked functional data remain unconfirmed.
+
+Next: reviewer inspection of the exact T1-B return before overall closeout.
+No scientific acceptance, portfolio change, new search, remote/Notion write,
+outreach or bench execution. Required final checks are recorded in the
+[execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
+Earlier entries are historical checkpoints; external model/assay/oversight and
+protected integration settings remain unverified.
+
 ## Yadav T1-A reviewed; reported-channel follow-up authorized — 31 October 2026
 
 Exact technical return `bc17da15f9e62fb657ba06642c65542517b857c0` passes

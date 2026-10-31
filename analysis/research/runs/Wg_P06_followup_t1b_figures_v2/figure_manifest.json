@@ -1,0 +1,71 @@
+[
+  {
+    "job": "r1",
+    "measure": "reported_channel_percent",
+    "stem": "r1_reported_percent_channels_v2",
+    "panels": 15,
+    "held_map_panels": 0,
+    "source_tables": [
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/source_values.csv",
+        "sha256": "f4675b02fb5623236b845b602904b7cedcae12be90d6c1c67075eae48d04568c"
+      },
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/summaries.csv",
+        "sha256": "a13f7f82f0d096f59d3943a80178efcf7e27977e5d46fc134b1d2eab163d919d"
+      },
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/vector_qc.csv",
+        "sha256": "372445c19f1ca92f81702885b149051785b9688e890ac59de417af747b820850"
+      }
+    ],
+    "supersedes_figure": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/reported_percent_channels.png",
+    "change": "Layout only: wrapped/multiline panel titles, fixed subplot spacing, padded x limits for held marks, annotation outside data region. No source/summary/QC changes."
+  },
+  {
+    "job": "r2",
+    "measure": "reported_channel_percent",
+    "stem": "r2_reported_percent_channels_v2",
+    "panels": 14,
+    "held_map_panels": 1,
+    "source_tables": [
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/source_values.csv",
+        "sha256": "067ac065b8d53446efd43d22250af5ed490ecef4471f2b0c46e02b9bb3106f12"
+      },
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/summaries.csv",
+        "sha256": "3bc0c5e3f1d0ce273ccaca6fe502492cf546d04cab8776beb70fabfd1859b589"
+      },
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/vector_qc.csv",
+        "sha256": "5dbb701f7c97cb3813303b3873c3df2ac2bde291c2bccbc44308eab8c25bea39"
+      }
+    ],
+    "supersedes_figure": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/reported_percent_channels.png",
+    "change": "Layout only: wrapped/multiline panel titles, fixed subplot spacing, padded x limits for held marks, annotation outside data region. No source/summary/QC changes."
+  },
+  {
+    "job": "r2",
+    "measure": "reported_area",
+    "stem": "r2_native_area_channels_v2",
+    "panels": 14,
+    "held_map_panels": 0,
+    "source_tables": [
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/source_values.csv",
+        "sha256": "067ac065b8d53446efd43d22250af5ed490ecef4471f2b0c46e02b9bb3106f12"
+      },
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/summaries.csv",
+        "sha256": "3bc0c5e3f1d0ce273ccaca6fe502492cf546d04cab8776beb70fabfd1859b589"
+      },
+      {
+        "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/vector_qc.csv",
+        "sha256": "5dbb701f7c97cb3813303b3873c3df2ac2bde291c2bccbc44308eab8c25bea39"
+      }
+    ],
+    "supersedes_figure": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/native_area_channels.png",
+    "change": "Layout only: wrapped/multiline panel titles, fixed subplot spacing, padded x limits for held marks, annotation outside data region. No source/summary/QC changes."
+  }
+]

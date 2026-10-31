@@ -1,5 +1,75 @@
 # Follow-up execution and review ledger
 
+## Final T1-B review and scope disposition — 31 October 2026
+
+Exact return `a5677d43662816aea64f4e5b6229b33495973ce4` passes
+[review](REVIEW_T1B_FINAL.md). The mechanical audit verifies three receipts,
+26 input references, nine code references and 25 outputs. Independent 17,841
+checks and 15 synthetic checks were reused. Three corrected plots were inspected;
+all 120 original R1 QC records and earlier frozen work remain unchanged.
+
+R1 qualifies 160/180 channel summaries; R2 qualifies 464/548. Missing target
+channels and all ambiguous mappings remain held. T0, B1 and T2 were already
+reviewed complete. Each RQ's empirical work has explicit data/model/assay
+requirements in the combined disposition. No feasible authorized job remains;
+T3 is a scoped disposition, not an empirical result or scientific acceptance.
+
+Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Two status-only
+conflicts were reconciled while preserving both ledger histories; no scientific
+file conflicted. The first integration gate rejected the reviewer's new JSON
+audit copy as an unregistered scientific asset. It was documented as a Markdown
+review receipt instead; the original staged JSON and scientific assets are
+preserved, with no gate change. Current-base revalidation passed 12,534
+repository checks and the research gate (`ok: true`, no errors). Only final
+completion-log prose followed those checks; all scientific artifacts remain
+unchanged. Final Notion sync and heartbeat pause are next. Technical chat is idle; latest completed cursor is
+`51593419-65e5-454d-96df-3e67caaaccb8:46`.
+
+## T1-B execution return — 31 October 2026
+
+Adopted reviewed integration `2a0f32c32cd180bc6e58c252ff0531dd00a8252a` by
+fast-forward from a clean scoped branch; caches and all earlier evidence remain.
+The branch has no upstream. Contracts/code/maps were frozen at
+`53a5f8f3cee36ed67eb87afdbf53017324ee6c74`, followed by two successful runs.
+
+[T1-B results](T1B_RESULTS.md) retain all 720 R1 and 2,072 R2 source cells.
+The new endpoint qualifies 160/180 R1 and 464/548 R2 summaries; all other target
+summaries remain held for missing cells. The original T1-A 95 summary and 59
+vector holds remain unchanged, including all failed closure diagnostics.
+[Independent verification](T1B_VERIFICATION.md) passed 17,841 checks; fifteen
+new synthetic endpoint checks passed before freeze. Prior valid parser tests,
+reviewed R1 areas/B1 and T2 qualification were reused without reruns.
+
+Visual QA found crowded initial R2 titles/edge markers. Original figures and
+successful numerical runs were preserved. The presentation-only correction
+was frozen at `a89b42c3b3c6a66adb71a327d3dea94e0d77b32e`, then run from stored
+tables without workbook extraction or numerical recalculation. Three corrected
+PDFs were rendered and inspected; all table references remained hash-identical.
+Three receipts cover 25 expected outputs including preserved initial figures.
+
+[Combined disposition](FOLLOWUP_DISPOSITION_T1B.md) records completed source
+and design work, precise remaining evidence requirements and the review stop.
+No entire-scope completion, human retain/reject, grade or hypothesis change is
+claimed. No governance/validator edit, original Yadav rerun, raw-MS work,
+Atg5 search, new proxy, outreach, bench action, remote publication or Notion write.
+Review automation was not modified by the executor. Host model/assay access,
+precision/oversight and protected integration settings remain unverified here.
+
+Repository validation passed 12,519 checks. All three receipts verify, and all
+25 expected output hashes match both files and staged Git bytes. Preservation
+against reviewed integration confirms all 119 prior contracts, 113 prior
+receipts and 1,240 prior run files unchanged, with canonical questions/guides
+and infrastructure declarations preserved. Registry additions are three
+contracts/receipts (122/116 now) and owner evidence links only.
+Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+Logs `t1b_repository_validation.log`, `t1b_research_gate.log`,
+`t1b_independent_verification.json` and `t1b_preservation.json` are in the
+local staging directory named in T1B_VERIFICATION.md. The current-main research
+gate passed (`ok: true`, no errors) on the complete staged checkpoint. Only
+completion-log prose was added after successful checks; scientific content and
+all verified artifacts remained unchanged. Next: reviewer inspection of the exact T1-B checkpoint and disposition;
+no further scientific execution is released by this return.
+
 ## T1-B dispatched and active — 31 October 2026
 
 Reviewed integration `2a0f32c32cd180bc6e58c252ff0531dd00a8252a` was dispatched

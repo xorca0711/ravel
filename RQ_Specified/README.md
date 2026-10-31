@@ -3,8 +3,8 @@
 **New article-local follow-up workspace, 31 October 2026:**
 [Yadav follow-up research plans](Yadav_followups_20261031/README.md) contains
 three separate plans: existing Wg-P06 substrate balance, its routing/signaling
-arm, and proposed Yd1-P02 matrix versus mature repair. T0 qualifies actual sources,
-units and endpoints before numerical design review. The 32 canonical questions
+arm, and proposed Yd1-P02 matrix versus mature repair. [Final technical review](Yadav_followups_20261031/REVIEW_T1B_FINAL.md)
+closes feasible source/design work; empirical tests remain specifically held. The 32 canonical questions
 below and all prior evidence remain unchanged.
 
 **Specificity and novelty applied:** [current source comparison](../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.

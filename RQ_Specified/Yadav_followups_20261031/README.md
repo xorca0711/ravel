@@ -1,9 +1,9 @@
 # Yadav follow-up research plans
 
-**Current review, 31 October 2026:** [T1-A passed technical review](REVIEW_T1A.md).
-Its frozen vector holds remain. Active checkpoint T1-B separately describes
-source-reported channels and the reviewed R2 whitelist. [T2](T2_DISPOSITION.md)
-design qualification is reviewed complete; empirical effects remain held.
+**Current review, 31 October 2026:** [Follow-up scope dispositioned](REVIEW_T1B_FINAL.md).
+All feasible source descriptions and design qualification are reviewed complete;
+empirical tests of the three questions remain held on exact data/model/assay
+requirements. Original vector, mapping, spatial and human-source holds remain.
 
 31 October 2026, Asia/Seoul. The owner requested three research plans, linked
 Notion updates and execution through the existing technical chat. This is a new
@@ -11,7 +11,7 @@ scope after the original and X0-X6 closeouts. Those closeouts and their holds
 remain valid. The starting review branch is `9fe9e79`; fetched main is
 `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
 
-| Plan | Ownership and purpose | First feasible work |
+| Plan | Ownership and purpose | Initial work (now dispositioned) |
 | --- | --- | --- |
 | [RQ1: substrate balance](RQ1_SUBSTRATE_BALANCE.md) | Existing **Wg-P06**; arginine preservation versus lost ornithine delivery | Qualify Hamanaka source panels and donor/assay/context maps alongside reviewed Yadav evidence |
 | [RQ2: routing versus signaling](RQ2_ROUTING_VS_SIGNALING.md) | Mechanistic arm of Wg-P06; not a duplicate canonical RQ | Qualify existing tracing endpoints and Lee OAT/ROS evidence; identify what can distinguish transfer, flux and functional contribution |
@@ -23,23 +23,24 @@ bench-ready protocols. Registration of Yd1-P02 records a question, not human
 retain/reject. All 32 canonical RQs and their registered guides remain unchanged.
 [Literature and overlap](LITERATURE_CONTEXT.md) · [execution/review ledger](EXECUTION_LEDGER.md).
 
-## Reviewed checkpoint: T1-A complete, T1-B authorized
+## Final reviewed checkpoint: T1-B complete; empirical work held
 
-[T1-A results and figures](T1A_RESULTS.md) report the authorized 15-block R1
-source description and all 36 native-label B1 pool summaries. All 1,584 literal
-source cells are retained; R1 holds 95 summaries because of missing channels or
-strict fraction-closure failures. B1's prefix-to-medium key remains unresolved.
-[Independent verification](T1A_VERIFICATION.md) passed 6,306 checks.
+[T1-B results and corrected figures](T1B_RESULTS.md) describe 720 R1 percentage
+cells and 2,072 R2 cells under the exact [review authorization](REVIEW_T1A.md).
+The new channel endpoint qualifies 160/180 R1 and 464/548 R2 summaries; missing
+target cells remain held. Original T1-A vector/summary holds remain unchanged.
+[Independent verification](T1B_VERIFICATION.md) passed 17,841 checks.
 
-[R2 exact design](R2_DESIGN.md) proposes 14 area and 13 fraction blocks without
-numerical execution. [T2 disposition](T2_DISPOSITION.md) completes design/access
-qualification for all three questions; actual linked biological experiments
-remain held. No source ARG1 effect, collagen transfer, flux or mature repair
-conclusion follows. The [review](REVIEW_T1A.md) authorizes a separate reported-
-channel description and exact R2 work; it does not relax frozen vector holds.
+The R2 design's 14 area/13 percentage blocks have now executed. Ambiguous 3F
+argininosuccinate percentages and all 4B putrescine remain held; 4F keeps its
+three actual labels and published n/SD/SEM disagreement. B1 and T2 were already
+reviewed complete and were not rerun. Actual source ARG1, flux, collagen transfer
+and joint mature-repair effects remain held under the
+[combined disposition](FOLLOWUP_DISPOSITION_T1B.md).
 
-[T0 evidence](T0_RESULTS.md), [T0 review/authorization](REVIEW_T0.md) and the
-original [T1 designs](T1_DESIGNS.md) remain available and unchanged in meaning.
+[T0](T0_RESULTS.md), [T1-A](T1A_RESULTS.md) and their frozen outputs remain
+available. [Final review](REVIEW_T1B_FINAL.md) confirms no feasible authorized
+job remains; reopening requires the specific evidence in the combined disposition.
 
 ## Scientific logic — qualitative, not measured effects
 
@@ -58,16 +59,16 @@ Arrows describe proposed comparisons and published premises, not a demonstrated
 complete causal chain. Source and recipient donors, preparations and time remain
 distinct from wells, cells, images and repeated measurements.
 
-## Stepwise execution and review gates
+## Original stepwise plan and review gates (historical authorization)
 
 | Stage | Work and deliverables | Gate / permitted next step |
 | --- | --- | --- |
-| **T0 — now authorized** | Three bounded source/endpoint qualification jobs below; immutable source manifests, sample/replicate maps, eligibility decisions and exact proposed T1 designs | Read-only primary retrieval and metadata work; new numerical expression or source-effect estimation waits for review of actual inputs/design |
+| **T0 — source qualification** | Three bounded source/endpoint qualification jobs below; immutable source manifests, sample/replicate maps, eligibility decisions and exact proposed T1 designs | Read-only primary retrieval and metadata work; new numerical expression or source-effect estimation waits for review of actual inputs/design |
 | **T1 — conditional reconstruction** | Source-value descriptions or qualified tracing reconstruction that answer RQ1/RQ2 support questions; RQ3 published endpoint descriptions only if independently worthwhile and qualified | New exposed contracts/code frozen before numerical execution; no cross-study pooled effect, fabricated pairing, or new raw-expression search |
 | **T2 — joint-design qualification** | Identify actual model/assay access, donor crossing, measured exposure range, validity controls and precision needs for each RQ | If no linked empirical data/capabilities exist, return exact design/resource holds; do not simulate unmeasured evidence or label RNA scores as function |
 | **T3 — eligible analysis or scoped disposition** | Execute only the separately reviewed bounded design on qualified supplied/public data; update question-specific interpretation and informative negative outcomes | All branches either reviewed complete or specifically held; scientific acceptance remains human |
 
-### Checkpoint T0: jobs for the technical chat
+### Original checkpoint T0 jobs (completed)
 
 **T0-B (owner Wg-P06):** use the published Hamanaka 2025 version,
 DOI 10.1042/BCJ20253033, Results Figs. 3-6 and relevant supplements, with the
