@@ -1,5 +1,55 @@
 # Current project state
 
+## Yadav T1-A reviewed; reported-channel follow-up authorized — 31 October 2026
+
+Exact technical return `bc17da15f9e62fb657ba06642c65542517b857c0` passes
+[review](RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md) of its frozen
+calculations. All 36 B1 native-label pool summaries are reviewed complete;
+the missing nutrient key remains. R1's 95 held summaries reflect missing
+channels and strict complete-vector closure rules, not a biological failure.
+Explicit source percent headers support a separate literal-channel description
+without repairing missing values or changing the frozen closure rule.
+
+Next T1-B executes that exposed R1 companion and the exact reviewed R2 whitelist
+(14 area/13 percentage blocks), retaining ambiguous blocks and the 4F n/SD/SEM
+disagreement. [T2 disposition](RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md)
+is reviewed complete for design/access; actual source ARG1, flux and mature
+repair effects remain held on specified model/data/assay requirements. No
+scientific acceptance, canonical RQ change, outreach or bench work follows.
+
+Local integration preserves both worktrees and all frozen evidence; status-only
+merge conflicts were reconciled with both ledger histories retained. Fresh main
+is `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Integration passed 12,463
+repository checks and the research gate (`ok: true`, no errors). Technical
+dispatch is next; the review heartbeat remains ACTIVE.
+
+## Yadav T1-A completed; review pending — 31 October 2026
+
+[T1-A results](RQ_Specified/Yadav_followups_20261031/T1A_RESULTS.md) complete the
+authorized 15-block processed-tracing and native-label pool descriptions.
+Both contracts/code were frozen at `5e1d7dbbfac8ae3ba41046b1b3542e1cec5d716c`.
+All 1,584 source cells remain; R1 has 95 held summaries from missing channels
+or strict numerical closure, while all 36 B1 summaries qualify. Independent
+source/arithmetic verification passed 6,306 checks; figures were inspected.
+Repository validation passed 12,457 checks and the final current-main research
+gate passed with no errors. All 13 expected outputs are included and hash-matched.
+
+[R2 design](RQ_Specified/Yadav_followups_20261031/R2_DESIGN.md) proposes exact
+14-area/13-fraction maps without a numerical run.
+[T2 disposition](RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md)
+completes capability/design qualification for all three questions. Actual host
+access, linked source exposure/collagen and mature-functional-output data remain
+unconfirmed; no causal ARG1, flux or repair conclusion follows.
+
+Next: reviewer assessment of the exact T1-A return and R2 proposal. Existing
+source/spatial/human/X3–X5, collagen/Lee and joint repair holds persist.
+Final current-main/preservation checks are recorded in the
+[execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
+No prior evidence, canonical question or grade changed; no remote write,
+Notion update, outreach or bench execution. External laboratory/oversight and
+protected integration settings remain unverified. Earlier entries below are
+historical checkpoints, not the current numerical authorization.
+
 ## Yadav T0 reviewed; bounded T1-A next — 31 October 2026
 
 Exact execution return `6aced292888d51821a4cd8b876c13f3954a1de65` passes

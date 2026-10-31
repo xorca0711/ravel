@@ -1,5 +1,66 @@
 # Follow-up execution and review ledger
 
+## T1-A reviewed; T1-B prepared — 31 October 2026
+
+Exact return `bc17da15f9e62fb657ba06642c65542517b857c0` passes
+[technical review](REVIEW_T1A.md). Both receipts, 12 input references, eight code
+references and 13 output hashes were checked; 6,306 valid independent checks
+were reused. Canonical questions, older frozen evidence and non-scope files
+remain unchanged. Two current-status merge conflicts were resolved while
+retaining both ledger histories; no scientific file conflicted.
+
+R1's 95 held summaries remain valid frozen outcomes of its complete-vector
+rule. Explicit source percent headers justify a separately reviewed literal-
+channel endpoint; no tolerance is relaxed or blank filled. T1-B authorizes that
+R1 companion and R2's exact 14-area/13-percentage map with explicit mapping
+holds. B1 is reviewed complete. T2 design/access disposition is reviewed complete;
+the three empirical questions remain held on its exact model/data requirements.
+Current-main integration passed 12,463 repository checks and the research gate
+(`ok: true`, no errors). Dispatch is next. Latest completed
+cursor is `51593419-65e5-454d-96df-3e67caaaccb8:42`; heartbeat stays ACTIVE.
+
+## T1-A execution return — 31 October 2026
+
+Adopted reviewed integration `43e6f2602b577cfa13002053eb21603750658951` by
+fast-forward from the clean T0 return. Existing scoped worktree/branch and all
+caches were preserved. No upstream is configured for this local branch.
+New exposed contracts/code were frozen at
+`5e1d7dbbfac8ae3ba41046b1b3542e1cec5d716c` before both successful runner jobs.
+
+[T1-A results](T1A_RESULTS.md) link both receipts and all 13 expected outputs.
+R1 retains 1,440 literal cells, with 95/360 summaries held; B1 retains 144 cells
+and 36/36 qualified native-label summaries. All 160 invalid R1 cells are missing,
+not negative; strict closure failures are retained without tuning tolerance.
+[Independent verification](T1A_VERIFICATION.md) passed 6,306 checks; ten
+pre-freeze synthetic checks passed. Both PNG/PDF figure versions were inspected.
+
+[R2](R2_DESIGN.md) supplies exact 14-area/13-fraction proposed maps without
+numerical execution. [T2](T2_DISPOSITION.md) completes access/design disposition
+for all three questions; actual host access and a joint mature-output dataset
+remain unconfirmed. No proxy, repeat Atg5 search, outreach or bench run occurred.
+
+Repository validation passed 12,457 checks; both receipt verifications passed.
+Preservation against reviewed integration confirms all 117 prior contracts,
+111 prior receipts, canonical questions/guides and existing run files unchanged.
+Registry additions total two contracts and two receipts (119/113 now), with
+owner evidence links only. Fresh main remains
+`8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+Logs are `t1a_repository_validation.log`, `t1a_research_gate_final.log`,
+`t1a_independent_verification.json` and `t1a_preservation.json` in the local
+staging directory named in T1A_VERIFICATION.md. The final current-main research
+gate passed (`ok: true`, no errors), including the complete staged artifact set.
+All 13 expected outputs match their receipt hashes and staged bytes, including
+the two generated PDFs explicitly added through the repository's PDF ignore
+rule. The initial gate also passed; only the final artifact-set check was
+repeated after adding those files. No scientific run was repeated.
+Only completion-log prose was added after the successful checks. Next: reviewer inspection of this exact checkpoint and R2 proposal.
+No further numerical work is released. All prior spatial/human/X3–X5,
+collagen/Lee, raw-MS/flux and joint ARG1/mature-repair holds remain. No canonical
+question, grade, governance or human scientific decision changed. Notion and
+the review heartbeat were not modified by the executor. External laboratory
+access, assay validity/precision, oversight and protected integration settings
+remain unverified here; no remote publication is authorized.
+
 ## T1-A dispatched and active — 31 October 2026
 
 Reviewed integration/dispatch commit `43e6f2602b577cfa13002053eb21603750658951`

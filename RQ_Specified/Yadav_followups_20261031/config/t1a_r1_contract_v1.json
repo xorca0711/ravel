@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-P06.followup_t1a_r1_v1",
+  "owner": "Wg-P06",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What do the 15 approved Hamanaka processed isotope blocks show in their literal source fractions/areas under the two reported conditions?",
+  "decision": "Return a bounded source description with complete source-cell provenance and independent arithmetic validation; preserve local holds and stop for T1-A review.",
+  "strongest_rival": "Source-label, scale, header or missing-value errors masquerading as biological effects; unknown preparation/donor nesting or prefix meaning incorrectly treated as known.",
+  "discriminator": "Exact coordinate/header/sample checks against the reviewed whitelist; scale closure from numerical representation; literal-value retention and independent source/arithmetic verification. No new mechanism or independent replication is identified.",
+  "evidence_refs": [
+    "RQ_Specified/Yadav_followups_20261031/REVIEW_T0.md",
+    "RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md",
+    "RQ_Specified/Yadav_followups_20261031/T1_DESIGNS.md",
+    "RQ_Specified/Yadav_followups_20261031/LITERATURE_CONTEXT.md",
+    "RQ_Specified/Yadav_followups_20261031/RQ1_SUBSTRATE_BALANCE.md",
+    "RQ_Specified/Yadav_followups_20261031/RQ2_ROUTING_VS_SIGNALING.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "T0 published outcomes/figures and workbook text headers/sample labels were exposed. The reviewer authorized these exact ranges after that source review. New numerical source summaries have not been computed before this freeze. Synthetic boundary tests use invented arithmetic fixtures only; no R2 numerical work is authorized.",
+  "biological_unit": "Deposited Hamanaka fibroblast sample labels, four supplied suffix observations per condition/group. Biological donor/preparation/well identity, independence and pairing remain unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Multiple isotope channels and metabolites repeat each sample label. Source workbook and article are one evidence lineage. Matching suffixes are not pairs; no donor population inference or cross-medium pooled effect.",
+  "population_and_selection": "Exactly Fig3B/3D/3H/4D, 15 specified metabolite blocks, eight labels/block and all specified isotope channels. Header-qualified inclusion chosen before numerical outcomes; all supplied labels retained.",
+  "contrast": "Per-block/per-isotope native-unit UT/TGF means and explicitly descriptive difference TGF minus UT. No inferred pairing or cross-medium pooling.",
+  "endpoint": "Literal corrected peak areas and reported isotope fractions; counts, unweighted mean and observed range per isotope/condition. Fraction scale qualified as1 or100 by complete channel sums and source percent headers; measured figures use percent conversion only.",
+  "methods": "Parse only approved worksheet cells from XLSX XML, retain raw serialization/source type/formula/coordinate/header/label. Use Decimal arithmetic for means/min/max and R1 differences. Fraction closure uses64*n*binary64_ulp(candidate scale), a frozen conservative numerical representation allowance, not an outcome-fit biological margin. Invalid or negative measurements remain literal but affected derived summaries are held without reducing n. No inferred zero fill, clipping, normalization or data-dependent inclusion. Independent openpyxl/math.fsum verification and synthetic invalid/missing/scale boundary tests.",
+  "missingness_and_exclusions": "No source observations excluded. Missing/nonnumeric/nonfinite/formula/negative cells are retained and flagged. Means/ranges require every supplied observation valid. Mixed/ambiguous fraction scales hold affected fractions; independently valid areas/blocks continue. R2, collagen/Lee, raw-MS and mature repair are outside numerical scope.",
+  "multiplicity": "Not applicable: no biological hypothesis tests, significance selection or population confidence intervals.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed range describes the four deposited labels; it is not sampling uncertainty or power. Biological variance, margins and independent unit counts remain unknown.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "These are exposed processed source descriptions, not independent biological replication or raw-MS validation. No donor/paired/population inference, exact replay of unspecified abundance normalization, source ARG1 effect, semantic B1 nutrient effect, necessity, transfer to collagen, kinetic flux or mature repair conclusion.",
+  "stop_rule": "Execute only authorized R1/B1 descriptions and independent validation. Keep R2 at exact design and T2 at capability/design disposition. Stop T1-A for review, preserving failures and affected calculation holds. No original Yadav rerun, external write, outreach, bench work, raw processing or new proxy.",
+  "inputs": [
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_metabolomics_v1.xlsx",
+      "sha256": "d8d3365b226323d3ebe7300c481625049ae1cae3f78948938956240b8ea79f4f",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_figshare_listing.json",
+      "sha256": "e7fc9d1789cb3ea78e8c927c750ed3499358b90ecd19d4e1de45e188ff27adc4",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka.xml",
+      "sha256": "a98f4a62e44198bb46123122642c29516703c1c70aad6b123aecc0354a49c82e",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_bcj-482-12-BCJ20253033-supp1.pdf",
+      "sha256": "a06be2576610b0cea3ca62a8951c3794a05e8921c8b813c5025783100cfeed0d",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t0_br_v1/workbook_layout.json",
+      "sha256": "f10db5e28ab90bd98a108fd79b191657f557371eca8b81a0a0fefdd3de51db00",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/REVIEW_T0.md",
+      "sha256": "936b2226884a19ff3cfa40e1f56e5827e02d8c0c223d7bae49a06925d455a78e",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/t1a_common_v1.py",
+      "sha256": "434753a96d066eb5c097937f7fac072a56d4aa70c72105654f90a0824c1acdc5"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/describe_t1a_v1.py",
+      "sha256": "56f51d09a48099466ec917dec18c56c8329423aca8c1992ce04398345f409c3b"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/verify_t1a_v1.py",
+      "sha256": "98cff259d0bba92a6cfae5e05f369449425782f0ff4499b5cfd4ca9727c47960"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t1a_r1_spec_v1.json",
+      "sha256": "ce7a7864add40dd584ff143c918c0ed4c5c980981fdd37b253b516a33f1cf8dd"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/Yadav_followups_20261031/scripts/describe_t1a_v1.py",
+  "arguments": [
+    "--job",
+    "r1",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_values.csv",
+    "observation_qc.csv",
+    "block_units.csv",
+    "summaries.csv",
+    "descriptive_differences.csv",
+    "tracer_source_description.png",
+    "tracer_source_description.pdf",
+    "disposition.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New explicitly authorized T1-A descriptive work at reviewed integration43e6f2602b577cfa13002053eb21603750658951; preserves T0 and all historical evidence."
+}

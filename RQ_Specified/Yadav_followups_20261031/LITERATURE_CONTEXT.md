@@ -1,5 +1,15 @@
 # Literature context and overlap for the three follow-ups
 
+## T1-A continuation — 31 October 2026
+
+[T1-A](T1A_RESULTS.md) describes the same Hamanaka source lineage qualified
+below; no additional search or novelty claim was made. [R2](R2_DESIGN.md)
+records exact remaining source maps without numerical execution, and
+[T2](T2_DISPOSITION.md) reuses the existing capability/endpoint records.
+Published mechanisms remain premises; these source descriptions do not supply
+a source-ARG1 or mature-function effect. Existing contrary and negative evidence,
+prior outcome exposure and the three questions' interpretation limits remain.
+
 ## T0 source qualification update — 31 October 2026
 
 The completed [T0 read and source review](T0_RESULTS.md) supersedes the pending

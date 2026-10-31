@@ -1,0 +1,647 @@
+{
+  "owner": "Wg-P06",
+  "job": "T1-R1",
+  "blocks": [
+    {
+      "id": "3B_Arginine",
+      "sheet": "Figure 3B",
+      "metabolite": "Arginine",
+      "rows": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "header_row": 3,
+      "metabolite_column": "B",
+      "group_column": "C",
+      "area_columns": [
+        "D",
+        "J"
+      ],
+      "fraction_columns": [
+        "K",
+        "Q"
+      ],
+      "sample_labels": [
+        "Pos_13C6_Arg_01",
+        "Pos_13C6_Arg_02",
+        "Pos_13C6_Arg_03",
+        "Pos_13C6_Arg_04",
+        "Pos_13C6_Arg_TGFb_01",
+        "Pos_13C6_Arg_TGFb_02",
+        "Pos_13C6_Arg_TGFb_03",
+        "Pos_13C6_Arg_TGFb_04"
+      ],
+      "groups": {
+        "Pos_13C6_Arg": "UT",
+        "Pos_13C6_Arg_TGFb": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "13C6-Arg"
+    },
+    {
+      "id": "3B_Ornithine",
+      "sheet": "Figure 3B",
+      "metabolite": "Ornithine",
+      "rows": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "header_row": 14,
+      "metabolite_column": "B",
+      "group_column": "C",
+      "area_columns": [
+        "D",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "O"
+      ],
+      "sample_labels": [
+        "Pos_13C6_Arg_01",
+        "Pos_13C6_Arg_02",
+        "Pos_13C6_Arg_03",
+        "Pos_13C6_Arg_04",
+        "Pos_13C6_Arg_TGFb_01",
+        "Pos_13C6_Arg_TGFb_02",
+        "Pos_13C6_Arg_TGFb_03",
+        "Pos_13C6_Arg_TGFb_04"
+      ],
+      "groups": {
+        "Pos_13C6_Arg": "UT",
+        "Pos_13C6_Arg_TGFb": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "13C6-Arg"
+    },
+    {
+      "id": "3B_Citrulline",
+      "sheet": "Figure 3B",
+      "metabolite": "Citrulline",
+      "rows": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "header_row": 25,
+      "metabolite_column": "B",
+      "group_column": "C",
+      "area_columns": [
+        "D",
+        "J"
+      ],
+      "fraction_columns": [
+        "K",
+        "Q"
+      ],
+      "sample_labels": [
+        "Pos_13C6_Arg_01",
+        "Pos_13C6_Arg_02",
+        "Pos_13C6_Arg_03",
+        "Pos_13C6_Arg_04",
+        "Pos_13C6_Arg_TGFb_01",
+        "Pos_13C6_Arg_TGFb_02",
+        "Pos_13C6_Arg_TGFb_03",
+        "Pos_13C6_Arg_TGFb_04"
+      ],
+      "groups": {
+        "Pos_13C6_Arg": "UT",
+        "Pos_13C6_Arg_TGFb": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "13C6-Arg"
+    },
+    {
+      "id": "3B_Argininosuccinate",
+      "sheet": "Figure 3B",
+      "metabolite": "Argininosuccinate",
+      "rows": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "header_row": 36,
+      "metabolite_column": "B",
+      "group_column": "C",
+      "area_columns": [
+        "D",
+        "N"
+      ],
+      "fraction_columns": [
+        "O",
+        "Y"
+      ],
+      "sample_labels": [
+        "Pos_13C6_Arg_01",
+        "Pos_13C6_Arg_02",
+        "Pos_13C6_Arg_03",
+        "Pos_13C6_Arg_04",
+        "Pos_13C6_Arg_TGFb_01",
+        "Pos_13C6_Arg_TGFb_02",
+        "Pos_13C6_Arg_TGFb_03",
+        "Pos_13C6_Arg_TGFb_04"
+      ],
+      "groups": {
+        "Pos_13C6_Arg": "UT",
+        "Pos_13C6_Arg_TGFb": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "13C6-Arg"
+    },
+    {
+      "id": "3B_Dimethylarginine",
+      "sheet": "Figure 3B",
+      "metabolite": "Dimethylarginine",
+      "rows": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "header_row": 47,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "D",
+        "L"
+      ],
+      "fraction_columns": [
+        "M",
+        "U"
+      ],
+      "sample_labels": [
+        "Pos_13C6_Arg_01",
+        "Pos_13C6_Arg_02",
+        "Pos_13C6_Arg_03",
+        "Pos_13C6_Arg_04",
+        "Pos_13C6_Arg_TGFb_01",
+        "Pos_13C6_Arg_TGFb_02",
+        "Pos_13C6_Arg_TGFb_03",
+        "Pos_13C6_Arg_TGFb_04"
+      ],
+      "groups": {
+        "Pos_13C6_Arg": "UT",
+        "Pos_13C6_Arg_TGFb": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "13C6-Arg"
+    },
+    {
+      "id": "3D_Arginine",
+      "sheet": "Figure 3D",
+      "metabolite": "Arginine",
+      "rows": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "HP_15N2_Arg_01",
+        "HP_15N2_Arg_02",
+        "HP_15N2_Arg_03",
+        "HP_15N2_Arg_04",
+        "HP_TG_15N2_Arg_01",
+        "HP_TG_15N2_Arg_02",
+        "HP_TG_15N2_Arg_03",
+        "HP_TG_15N2_Arg_04"
+      ],
+      "groups": {
+        "HP_15N2_Arg": "UT",
+        "HP_TG_15N2_Arg": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "guanido-15N2-Arg"
+    },
+    {
+      "id": "3D_Argininosuccinate",
+      "sheet": "Figure 3D",
+      "metabolite": "Argininosuccinate",
+      "rows": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "HP_15N2_Arg_01",
+        "HP_15N2_Arg_02",
+        "HP_15N2_Arg_03",
+        "HP_15N2_Arg_04",
+        "HP_TG_15N2_Arg_01",
+        "HP_TG_15N2_Arg_02",
+        "HP_TG_15N2_Arg_03",
+        "HP_TG_15N2_Arg_04"
+      ],
+      "groups": {
+        "HP_15N2_Arg": "UT",
+        "HP_TG_15N2_Arg": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "guanido-15N2-Arg"
+    },
+    {
+      "id": "3D_Citrulline",
+      "sheet": "Figure 3D",
+      "metabolite": "Citrulline",
+      "rows": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "HP_15N2_Arg_01",
+        "HP_15N2_Arg_02",
+        "HP_15N2_Arg_03",
+        "HP_15N2_Arg_04",
+        "HP_TG_15N2_Arg_01",
+        "HP_TG_15N2_Arg_02",
+        "HP_TG_15N2_Arg_03",
+        "HP_TG_15N2_Arg_04"
+      ],
+      "groups": {
+        "HP_15N2_Arg": "UT",
+        "HP_TG_15N2_Arg": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "guanido-15N2-Arg"
+    },
+    {
+      "id": "3H_Ornithine",
+      "sheet": "Figure 3H",
+      "metabolite": "Ornithine",
+      "rows": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "HP_15N2_Orn_01",
+        "HP_15N2_Orn_02",
+        "HP_15N2_Orn_03",
+        "HP_15N2_Orn_04",
+        "HP_TG_15N2_Orn_01",
+        "HP_TG_15N2_Orn_02",
+        "HP_TG_15N2_Orn_03",
+        "HP_TG_15N2_Orn_04"
+      ],
+      "groups": {
+        "HP_15N2_Orn": "UT",
+        "HP_TG_15N2_Orn": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "15N2-Orn"
+    },
+    {
+      "id": "3H_Citrulline",
+      "sheet": "Figure 3H",
+      "metabolite": "Citrulline",
+      "rows": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "HP_15N2_Orn_01",
+        "HP_15N2_Orn_02",
+        "HP_15N2_Orn_03",
+        "HP_15N2_Orn_04",
+        "HP_TG_15N2_Orn_01",
+        "HP_TG_15N2_Orn_02",
+        "HP_TG_15N2_Orn_03",
+        "HP_TG_15N2_Orn_04"
+      ],
+      "groups": {
+        "HP_15N2_Orn": "UT",
+        "HP_TG_15N2_Orn": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "15N2-Orn"
+    },
+    {
+      "id": "3H_Proline",
+      "sheet": "Figure 3H",
+      "metabolite": "Proline",
+      "rows": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "HP_15N2_Orn_01",
+        "HP_15N2_Orn_02",
+        "HP_15N2_Orn_03",
+        "HP_15N2_Orn_04",
+        "HP_TG_15N2_Orn_01",
+        "HP_TG_15N2_Orn_02",
+        "HP_TG_15N2_Orn_03",
+        "HP_TG_15N2_Orn_04"
+      ],
+      "groups": {
+        "HP_15N2_Orn": "UT",
+        "HP_TG_15N2_Orn": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "15N2-Orn"
+    },
+    {
+      "id": "3H_Putrescine",
+      "sheet": "Figure 3H",
+      "metabolite": "Putrescine",
+      "rows": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "Pos_HP_15N2_Orn_01",
+        "Pos_HP_15N2_Orn_02",
+        "Pos_HP_15N2_Orn_03",
+        "Pos_HP_15N2_Orn_04",
+        "Pos_HP_TG_15N2_Orn_01",
+        "Pos_HP_TG_15N2_Orn_02",
+        "Pos_HP_TG_15N2_Orn_03",
+        "Pos_HP_TG_15N2_Orn_04"
+      ],
+      "groups": {
+        "Pos_HP_15N2_Orn": "UT",
+        "Pos_HP_TG_15N2_Orn": "TGF-beta"
+      },
+      "medium": "HPLM",
+      "tracer": "15N2-Orn"
+    },
+    {
+      "id": "4D_Arginine",
+      "sheet": "Figure 4D",
+      "metabolite": "Arginine",
+      "rows": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "DM_15N2_Arg_01",
+        "DM_15N2_Arg_02",
+        "DM_15N2_Arg_03",
+        "DM_15N2_Arg_04",
+        "DM_TG_15N2_Arg_01",
+        "DM_TG_15N2_Arg_02",
+        "DM_TG_15N2_Arg_03",
+        "DM_TG_15N2_Arg_04"
+      ],
+      "groups": {
+        "DM_15N2_Arg": "UT",
+        "DM_TG_15N2_Arg": "TGF-beta"
+      },
+      "medium": "DMEM",
+      "tracer": "guanido-15N2-Arg"
+    },
+    {
+      "id": "4D_Argininosuccinate",
+      "sheet": "Figure 4D",
+      "metabolite": "Argininosuccinate",
+      "rows": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "DM_15N2_Arg_01",
+        "DM_15N2_Arg_02",
+        "DM_15N2_Arg_03",
+        "DM_15N2_Arg_04",
+        "DM_TG_15N2_Arg_01",
+        "DM_TG_15N2_Arg_02",
+        "DM_TG_15N2_Arg_03",
+        "DM_TG_15N2_Arg_04"
+      ],
+      "groups": {
+        "DM_15N2_Arg": "UT",
+        "DM_TG_15N2_Arg": "TGF-beta"
+      },
+      "medium": "DMEM",
+      "tracer": "guanido-15N2-Arg"
+    },
+    {
+      "id": "4D_Citrulline",
+      "sheet": "Figure 4D",
+      "metabolite": "Citrulline",
+      "rows": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "header_row": 2,
+      "metabolite_column": "C",
+      "group_column": "B",
+      "area_columns": [
+        "E",
+        "I"
+      ],
+      "fraction_columns": [
+        "J",
+        "N"
+      ],
+      "sample_labels": [
+        "DM_15N2_Arg_01",
+        "DM_15N2_Arg_02",
+        "DM_15N2_Arg_03",
+        "DM_15N2_Arg_04",
+        "DM_TG_15N2_Arg_01",
+        "DM_TG_15N2_Arg_02",
+        "DM_TG_15N2_Arg_03",
+        "DM_TG_15N2_Arg_04"
+      ],
+      "groups": {
+        "DM_15N2_Arg": "UT",
+        "DM_TG_15N2_Arg": "TGF-beta"
+      },
+      "medium": "DMEM",
+      "tracer": "guanido-15N2-Arg"
+    }
+  ],
+  "rules": {
+    "fraction_scale_candidates": [
+      1,
+      100
+    ],
+    "closure_tolerance": "64 * number_of_channels * binary64_ulp(candidate_scale); covers binary64 arithmetic and conservative 15-digit spreadsheet serialization, not biological variation. Not fitted to outcomes.",
+    "invalid_rule": "Preserve raw values and mark missing/nonnumeric/nonfinite/formula/negative. No clipping, filling or forced normalization. A summary needs all supplied observations valid; no reduced-n mean.",
+    "scale_rule": "Each complete nonnegative row must close at one candidate scale. A block uses the unique scale across singly classified rows. Mixed scales hold all fraction calculations. Non-closing/invalid rows stay held; other blocks and area measurands continue.",
+    "estimates": "Native units, counts, unweighted means and observed min/max only; R1 difference of independent source group means is descriptive. No CI/p-value/paired estimator/cross-medium pooling.",
+    "figures": "R1 source fractions converted to percent only by confirmed unit scale, not normalized by measured sum. Complete blocks plotted as all dots/mean/range; incomplete fraction blocks marked held. B1 native areas plotted separately by sheet/metabolite."
+  }
+}
