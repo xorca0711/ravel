@@ -209,3 +209,63 @@ No expression comparison or scientific acceptance is authorized. Checkpoint C
 returns one qualified source/design or evidence-backed holds. Integration passed
 12,211 repository checks and the current-main research gate; C is eligible
 for dispatch. B metadata completion does not close X5 or X6.
+
+## Checkpoint C: two-source metadata and held design — 31 October 2026
+
+Adopted reviewed integration `0c24535344e214f888405dcb2755b0f7faa5699d` by
+fast-forward from a clean tree. Final fetch confirms main remains
+`8cb50dd15a12a41abc6d5edb36349d33fc512661`; no new remote changes need integration.
+The scoped branch still has no upstream; no push, PR or remote merge occurred.
+
+The new C contract/code/specification froze at
+`68bbfe582039d9bb1007cc4a78b106ef40355379`, with 53 source inputs and four code/spec
+references. The governed `Yd1_extension_c_v1` run completed, preserving eight new
+metadata outputs and a receipt. [Results, maps and conditional design](CHECKPOINT_C_RESULTS.md)
+return Gupta first and Wigerblad as the sole checked fallback. The
+[X6 matrix](PROVISIONAL_X6_MATRIX.md) changes only actual source eligibility.
+
+| Job | Current disposition | Remaining action |
+| --- | --- | --- |
+| X0 | Reviewed source qualification complete; B/C add metadata only | Preserve inherited source identities and missing-unit limits |
+| X1 | Reviewed fixed-inclusion descriptions complete | Retain assignment-sensitive Il6 genotype mean and unknown preparation/ambient limits |
+| X2 | Reviewed workbook marginals complete | Keep 4C workbook/PDF amplitude discrepancy, absent arms and unlinked RNA/protein units |
+| X3 | Author-code labels recovered; actual object/retention/support held | Small state/barcode export or a qualified reader/memory route, then actual sample/state support review |
+| X4 | Culture/native and stage comparisons held | Exact culture files/donors, assay/probe/normalization and early-IPF specimen joins |
+| X5 | Two-lead metadata pass executed; conditional Gupta description held | Author retained-neutrophil/state/target-zero denominator export and participant/preparation qualification; Wigerblad also needs separate target feature support and explicit chosen preparation |
+| X6 | Reviewed provisional synthesis, with C eligibility addendum | Technical review of C; no new expression, substrate route or epithelial-function evidence inferred |
+
+Recovered exact Gupta superseries/subseries relation, 26 GEO/BioSample/SRA joins,
+seven original feature references, 52 target-support rows (14 with feature files),
+and 42 listed file/size records. Both targets have one entry in every Gupta
+reference. This is feature membership, not detection. Both sources lack recovered
+author retention/state/zero-denominator exports; metadata blanks remain unknown.
+Distinct accessions do not exclude participant overlap. Wigerblad's nineteen GEO
+libraries remain unjoined to SCAHN's eighteen reported samples.
+
+Failures/access limits are retained: PMC web challenges, publisher loading HTML,
+BioC Gupta HTTP200 error/no result and Wigerblad HTTP429. Indexed primary passages,
+GEO SOFT, BioSample XML, SRA run-info and the seven small feature exports succeeded.
+Neither complete paper/supplement is claimed as freshly read. All attempts, query
+scope, timestamps, bytes and hashes remain in the ignored C cache and frozen
+contract. No author contact, matrix/H5, archive, raw sequencing reads, atlas,
+target-expression query, new classifier or other study expansion occurred.
+
+Validation:
+- Contract/input preflight, C receipt verification and both new Python source
+  compilations passed. Independent raw-source checks verified all 26 sample and
+  26 run rows, all 52 feature-support rows, all 42 sizes and blank denominators.
+- Repository validation passed 12,238 checks before this ledger-only update.
+- The inherited 158 tests/two documented skips and claim/archive verifiers remain
+  valid; no shared runtime, validator, claim or archived-output code changed.
+  They were reused rather than redundantly rerun.
+- Current-main research gate passed: `ok: true`, no errors. Preservation retained
+  all 114 parent contracts, 108 parent receipts and 112 inherited Yadav recorded
+  outputs; only one contract, receipt and Yd1 evidence link were added. Canonical
+  questions/guides, claims and governance are unchanged. Staged whitespace passed.
+
+No canonical RQ, claim grade, governance, human decision or old frozen output
+changed. Current summaries link the new return and preserve old ledgers/caches.
+Next is technical review of C's precise holds/conditional design. Actual source
+exports and a separately reviewed numerical/resource contract are required
+before expression acquisition or execution. This is not final scientific or
+extension acceptance.

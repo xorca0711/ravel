@@ -5,10 +5,13 @@ repository-wide status scan, additional plausible branches, a finalized stepwise
 plan and execution through the existing technical chat. This opens a new bounded
 extension sequence; the original six-step closeout remains valid for its scope.
 
-**Current checkpoint:** [B metadata results](CHECKPOINT_B_RESULTS.md) and the
-[provisional X6 matrix](PROVISIONAL_X6_MATRIX.md) passed [bounded review](REVIEW_B.md).
-Checkpoint C qualifies two specific healthy-blood source leads for one proposed
-X5 comparison; no target expression calculation is yet authorized.
+**Current checkpoint:** [C source maps and held design](CHECKPOINT_C_RESULTS.md)
+are returned for technical review. Gupta original feature coverage and both
+studies’ GEO/BioSample/SRA joins are recovered; retained-neutrophil/state/zero-cell
+denominators and participant/preparation joins still hold X5 expression.
+[B metadata and provisional synthesis](CHECKPOINT_B_RESULTS.md) passed
+[bounded review](REVIEW_B.md); the [X6 matrix](PROVISIONAL_X6_MATRIX.md) remains
+provisional with only source eligibility updated.
 Tsukui author-code labels are recovered; actual object retention/state support
 remains held on export/runtime qualification. SCAHN Table S1 and FAQ are recovered;
 source/donor/preparation and gene-measurement joins still hold expression. X4
@@ -45,7 +48,7 @@ output attribution (A13), and the separation of matrix, support and mature outpu
 | X2 | What do the unanalysed IL-6/ARG1 protein and qPCR source panels actually show, alongside R1? | Reported animal/preparation/well, kept panel-specific; unlinked cohorts and normalization | Reviewed source marginals complete; 4C plot amplitudes and missing units/arms remain restricted |
 | X3 | Does Il6/P2rx4 RNA vary with injury time within author-defined fibroblast states, separately from changing state abundance? | Qualified mouse/tagged sample; time, state selection and capture | Author-code labels recovered; actual retained states/support held; expression awaits review |
 | X4 | How comparable are cultured fibroblasts, native tissue and early-versus-late disease contexts for this question? | Donor, lobe, preparation and culture passage; assay/site/specimen confounding | Held: culture/donor/protocol joins and early-stage specimen design unresolved |
-| X5 | How do assay capture and source-state definitions affect human ARG1/IL6R evidence? | Donor/sample/study; expression-conditioned selection and reused atlas parents | Table S1/FAQ recovered; donor/preparation/measurement-mask/raw-count joins held |
+| X5 | How do assay capture and source-state definitions affect human ARG1/IL6R evidence? | Donor/sample/study; expression-conditioned selection and reused atlas parents | C qualifies Gupta/Wigerblad metadata; exact retained/state/zero-denominator and participant joins still held |
 | X6 | Which evidence distinguishes Wg-P06 substrate balance, signaling/viability alternatives and a separate epithelial-repair consequence? | Future qualified source/recipient donors and measured outputs | Provisional matrix returned; pending X3/X5 and functional discriminators retained |
 
 ## Step 1 — X0: qualify without replaying completed work

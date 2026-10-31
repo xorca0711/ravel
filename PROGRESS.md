@@ -1,5 +1,31 @@
 # Current project state
 
+## Yadav checkpoint C returned for review — 31 October 2026
+
+[Two-source results and held design](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_C_RESULTS.md)
+verify Gupta GSE145230 within GSE145231 and map all 26 Gupta/Wigerblad samples to
+BioSample/SRA records. ARG1 and IL6R each have one entry in all seven acquired
+Gupta feature references. Wigerblad's features remain embedded in unaccessed H5.
+Neither source supplies a recovered retained-neutrophil/state/target-zero
+denominator export. Participant overlap and processing joins remain unresolved.
+
+The first-source Gupta description is conditional; Wigerblad is the sole checked
+fallback. No expression input, raw sequencing read, new classifier or target
+outcome was accessed. X3/X4 holds and all prior unfavorable findings are retained;
+the [X6 matrix](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/PROVISIONAL_X6_MATRIX.md)
+changes only source eligibility and remains provisional.
+
+C froze at `68bbfe582039d9bb1007cc4a78b106ef40355379`; the metadata receipt and
+independent source verification passed. Next: review C's exact source holds and
+conditional design before any new numerical acquisition/execution. The
+[ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md)
+records final validation, preservation, base and external settings. No scientific
+acceptance or final extension closeout is claimed.
+
+Validation passed: 12,238 repository checks, the C receipt and current-main gate
+against freshly fetched unchanged `8cb50dd`. All 112 inherited Yadav recorded
+outputs, 114 parent contracts and 108 parent receipts remain preserved.
+
 ## Yadav checkpoint B reviewed; bounded X5 qualification remains — 31 October 2026
 
 Reviewed execution 023699bc8ccd4105b3a2375ff2191c097ca53904. The

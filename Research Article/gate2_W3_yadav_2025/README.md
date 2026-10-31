@@ -3,7 +3,7 @@
 Prepared 30 October 2026 against fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
 Stable reading ID **16**, Gate **2W**. Reading was recorded complete by 29 October
 and reconfirmed by the owner on 30 October; the exact completion day was not supplied.
-**Current work, 31 October 2026:** [Checkpoint B metadata](extensions_20261031/CHECKPOINT_B_RESULTS.md) and the [provisional synthesis](extensions_20261031/PROVISIONAL_X6_MATRIX.md) passed [bounded review](extensions_20261031/REVIEW_B.md). Checkpoint C qualifies specific healthy-blood source leads; X3/X4 retain exact holds. The [extension ledger](extensions_20261031/EXECUTION_LEDGER.md) records next jobs and the original scope below remains closed with its evidence holds preserved.
+**Current work, 31 October 2026:** [Checkpoint B metadata](extensions_20261031/CHECKPOINT_B_RESULTS.md) and the [provisional synthesis](extensions_20261031/PROVISIONAL_X6_MATRIX.md) passed [bounded review](extensions_20261031/REVIEW_B.md). [Checkpoint C](extensions_20261031/CHECKPOINT_C_RESULTS.md) returns two-source metadata and a conditional X5 design with retained-state/denominator holds; X3/X4 holds remain unchanged. The [extension ledger](extensions_20261031/EXECUTION_LEDGER.md) records next jobs and the original scope below remains closed with its evidence holds preserved.
 
 **Original-scope checkpoint:** [completed source-feasibility sequence and synthesis](CONTEXT_AND_SYNTHESIS.md).
 F1-F5/R1 reconstructions, S1 published marginals, C1 portability qualification and
