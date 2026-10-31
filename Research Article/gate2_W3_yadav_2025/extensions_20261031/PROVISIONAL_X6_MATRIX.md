@@ -1,5 +1,8 @@
 # Provisional X6 evidence-to-decision matrix
 
+**Superseded as the current synthesis by [FINAL_SYNTHESIS.md](FINAL_SYNTHESIS.md),
+prepared in checkpoint D for final review. This provisional record is retained.**
+
 31 October 2026. Owner **Yd1-P01**. This is the authorized B3 synthesis of
 [reviewed X1/X2](REVIEW_A.md), original Yadav results and current question evidence.
 It leaves Wg-P06 and every canonical RQ unchanged. X3 and X5 provide metadata
