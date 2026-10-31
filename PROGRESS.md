@@ -1,5 +1,34 @@
 # Current project state
 
+## Yadav extension plan authorized — 31 October 2026
+
+The owner requested an overall repo scan, additional plausible extensions and
+launch through the existing technical chat. The [new X0-X6 plan](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/README.md)
+preserves the original six-step closeout and every canonical question. A ledger-level
+scan covers all 32 RQs with targeted current-result reads, including local
+DY1/Niethamer evidence; no unrelated branch or primary-checkout changes were made.
+The final fetch now includes the inspected DY1 checkpoint through PR #153 on main.
+The [scan](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/REPO_SCAN.md)
+records exact revisions, duplication checks and limits. The
+[literature context](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/LITERATURE_CONTEXT.md)
+records actual primary-source searches, two 2026 preprints, the SCAHN source lead,
+retrieval receipts and unresolved donor/assay/source overlap.
+
+X0 source qualification, X1 fixed mixed-class RNA inclusion sensitivity and X2
+previously unreconstructed IL-6/ARG1 source panels are ready for frozen contracts.
+X3-X5 may qualify source metadata now; each external numerical comparison returns
+for design review before extraction. X6 retains Wg-P06 substrate balance and a
+separate epithelial-output bridge. No new result, mechanism, human acceptance,
+canonical RQ, threshold or governance change is claimed. Existing source and
+spatial holds remain; one held branch does not stop independent feasible work.
+
+Planning starts from reviewed f3828f6; the final fetched main is
+8cb50dd15a12a41abc6d5edb36349d33fc512661. Local base integration and required
+repository/current-base checks are pending before dispatch. Biological analyses were not rerun for this plan.
+Exact jobs and reopening conditions are in the
+[execution/review ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md).
+No Notion write, remote push/PR/merge or author contact is authorized.
+
 ## Yadav scoped analysis and coordination complete — 30 October 2026
 
 Final execution checkpoint `54daedccfab6be75ec5e378dfa3b3819502bffdd` passed

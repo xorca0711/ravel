@@ -3,7 +3,9 @@
 Prepared 30 October 2026 against fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
 Stable reading ID **16**, Gate **2W**. Reading was recorded complete by 29 October
 and reconfirmed by the owner on 30 October; the exact completion day was not supplied.
-**Current checkpoint:** [completed source-feasibility sequence and synthesis](CONTEXT_AND_SYNTHESIS.md).
+**Current work, 31 October 2026:** the owner authorized the [stepwise extension sequence](extensions_20261031/README.md), informed by the [repo scan](extensions_20261031/REPO_SCAN.md) and [primary-source refresh](extensions_20261031/LITERATURE_CONTEXT.md). X1/X2 add fixed RNA inclusion and protein-panel reconstruction; X3-X5 first qualify state, culture and human-source contexts. [Execution/review ledger](extensions_20261031/EXECUTION_LEDGER.md). The original scope below remains closed with its evidence holds preserved.
+
+**Original-scope checkpoint:** [completed source-feasibility sequence and synthesis](CONTEXT_AND_SYNTHESIS.md).
 F1-F5/R1 reconstructions, S1 published marginals, C1 portability qualification and
 article-local Wg-P06/thesis synthesis are complete within the authorized scope.
 Raw spatial reconstruction and stronger population/functional claims retain
