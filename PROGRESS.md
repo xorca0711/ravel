@@ -1,5 +1,20 @@
 # Current project state
 
+## Saxton reviewed recovery PR opened — 31 October 2026
+
+The owner requested publication. CLI and connector identities were verified as
+`xorca0711`; the reviewed branch is published in
+[PR #155](https://github.com/xorca0711/ravel/pull/155), targeting main `4df267d`.
+The description separates completed R1 QC/source review from unexecuted biological
+analyses and their platform/data/design holds. At reviewed head `128b2f7`, both
+`validate` and `research-governance` CI checks passed and the PR is mergeable.
+It remains open and unmerged; this status-only entry does not rerun analyses.
+
+The owner also requested implications and plausible extensions through a technical
+chat. Any new bounded source-audit work will use a separate local extension branch;
+it is not included as an executed result in this recovery PR. Original execution
+holds, frozen evidence and human scientific acceptance remain unchanged.
+
 ## Saxton replacement handoff independently reviewed and integrated — 31 October 2026
 
 Launched **Saxton source audit and status reconciliation**, chat
