@@ -137,3 +137,75 @@ Latest wait cursor: `51593419-65e5-454d-96df-3e67caaaccb8:22`.
 The existing heartbeat remains active; no new automation or unrelated message.
 The next review checks the exact committed metadata/source/synthesis artifacts
 before any further external expression comparison is authorized.
+
+## Checkpoint B metadata and provisional synthesis returned — 31 October 2026
+
+Adopted reviewed integration `dc908350a73a28714ec1df6456fafaf661db76b3` by
+fast-forward before new work. Final fetch confirms main remains
+`8cb50dd15a12a41abc6d5edb36349d33fc512661`; no new remote changes require integration.
+The scoped local branch has no upstream; no push, PR or remote merge occurred.
+
+B1/B2 contracts and code froze at
+`e7498beb8058f9fef5bc1e6cbe437f0a9104f07d`. Both governed metadata runs executed,
+with receipts `Yd1_extension_b1_v1` and `Yd1_extension_b2_v1`. Results are in
+[checkpoint B](CHECKPOINT_B_RESULTS.md); B3 is the
+[provisional X6 matrix](PROVISIONAL_X6_MATRIX.md). Scientific acceptance remains
+unassessed and this is not a final extension closeout.
+
+| Job | Checkpoint-B disposition | Exact reopening/review requirement |
+| --- | --- | --- |
+| B1 / X3 | Intended author-code state labels recovered; actual retention/occupancy held | Small author `meta.txt` or a qualified metadata-only RDS reader/memory route; then all retained/dropped barcode, sample/day, state and ambiguity joins |
+| B2 / X5 | FAQ and all forty Table S1 source rows recovered; source-table access hold superseded | Exact accession/version, donor/sample/preparation/cell crosswalk, measurement mask and suitable raw counts for one reviewed comparison |
+| X4 | Existing culture/native and disease-stage holds retained | Matched culture files/donors, protocol/probe/normalization joins and early-IPF specimen identity; no native-only substitute |
+| B3 / X6 | Provisional substrate and separate epithelial evidence matrices returned | Technical review; pending external state/expression and direct substrate/epithelial discriminators remain pending |
+
+B1 independently checked eleven code-vector positions and all 36 requested
+sample/state rows; retained/state/ambiguity fields remain blank, never zero.
+B2 openpyxl independently matched all 400 Table S1 fields and row locators against
+OOXML extraction. Reported totals match the app: 1,053,128 cells and 781 samples.
+These are source metadata, not new expression or independent biological evidence.
+
+Source/resource outcomes: direct SCAHN HTTP 403 and PMC challenge pages were
+retained as failed access. Normal browser Home/FAQ, SCAHN Europe PMC XML and the
+direct publisher workbook succeeded. Tsukui XML returned HTTP 500; linked author
+code and the complete repository tree succeeded, but the small export was absent.
+C had 3,508,690,944 free bytes and available RAM was 1,858,854,912 bytes; X had
+138,724,839,424 free bytes. No Rscript was found in the inspected runtime locations.
+The actual RDS memory requirement and metadata-only reader are unqualified;
+storage availability on X alone does not remove that hold. No RDS download or
+deserialization occurred. No expression page/query, atlas, separate matrix or RAW
+bundle was accessed. New and inherited ignored caches remain in place.
+
+Validation:
+- Both contract/input preflights, both receipt verifications and compilation of
+  the three new Python files passed.
+- Independent B source rereads passed as above. Repository validation passed
+  12,206 checks before this ledger-only update.
+- The inherited 158 tests/two documented skips and claim/archive verifiers from
+  reviewed checkpoint A remain valid: no test, shared runtime, validator, claim
+  or archived-output code changed. They were not redundantly rerun.
+- Preservation audit retained all 112 parent contracts and 106 parent receipts;
+  only two contracts, two receipts and two Yd1 evidence links were added.
+  All 104 inherited Yadav recorded outputs (76 original plus 28 checkpoint-A)
+  remain unchanged. Canonical RQs/guides, claims and governance are unchanged.
+- Current-base research gate passed against freshly fetched main: `ok: true`,
+  no errors. The first staged whitespace check caught extra EOF blank lines in
+  the two new reports; those were removed. Final staged whitespace checks passed.
+
+No scientific acceptance, governance change, Notion write, external outreach,
+unrelated-chat message or biological rerun occurred. Next is checkpoint-B review;
+actual X3 state support and a specifically qualified external design are required
+before any expression extraction. No sample, label or support-rule relaxation is
+authorized by the resource/source holds.
+
+## Checkpoint B reviewed — 31 October 2026
+
+Execution `023699bc8ccd4105b3a2375ff2191c097ca53904` passed metadata review;
+the X6 matrix passed as provisional synthesis. [Review and checkpoint C](REVIEW_B.md)
+record hash/source checks, independent FAQ confirmation, exact X3 resource/reader
+and X4 source holds, and the still-feasible X5 qualification of Gupta2020 and
+Wigerblad2022. All 104 inherited outputs and canonical questions are preserved.
+No expression comparison or scientific acceptance is authorized. Checkpoint C
+returns one qualified source/design or evidence-backed holds. Integration passed
+12,211 repository checks and the current-main research gate; C is eligible
+for dispatch. B metadata completion does not close X5 or X6.

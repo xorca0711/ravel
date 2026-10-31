@@ -120,3 +120,55 @@ code/parent-source limits. [X1/X2 results](CHECKPOINT_A_RESULTS.md) distinguish
 Il6 inclusion sensitivity from source protein descriptions. This is a bounded
 follow-up to the search record above; no novelty, scientific acceptance or new
 external expression comparison is claimed.
+
+## Checkpoint-B source access update — 31 October 2026
+
+[Metadata results](CHECKPOINT_B_RESULTS.md) now supersede only the earlier
+Tsukui code-export and SCAHN source-table access gaps. The unchanged P06 comparison
+uses the valid Hamanaka/Lee/Yadav reads above; this is neither a new hypothesis
+scan nor an experiment-readiness package. Canonical dossiers/guides are unchanged.
+
+Actual new targeted queries were `"s41586-024-07660-1" "code" "data"` and
+`"GSE210341" "metadata" "github"`, plus Europe PMC exact-DOI lookups for
+10.1038/s41586-024-07660-1 and 10.1038/s41590-026-02671-8. Coverage was confined to
+the linked author repository, public SCAHN Home/FAQ, primary article and directly
+linked supplement. No unbounded atlas/source search or target-expression query.
+
+- **Tsukui:** publisher code availability led to
+  [AlveolarLineage revision 0001f032](https://github.com/TatsuyaTsukui/AlveolarLineage/tree/0001f0329d5abdcd61635d17cf60e0cb5ba48586).
+  Complete tree plus README, initial-processing and integration code were read.
+  Integration lines 91–106 bind named annotations to runtime levels, save the
+  cleaned object and export `meta.txt`; the export is absent from the inspected
+  tree/GEO listing. These are intended code labels, not actual retained-cell
+  assignments. The publisher's September 2024 change note corrects figure
+  callouts; it does not supply the missing cell metadata. Europe PMC XML failed
+  (HTTP 500); PMC returned a challenge page. Indexed publisher text and linked
+  code supplied the successful reading route.
+- **SCAHN:** [FAQ](https://scahn.khatrilab.org/FAQ) and Home were read in the normal
+  browser after automatic loading; direct HTTP access failed (403).
+  [Europe PMC XML](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13710163/fullTextXML)
+  succeeded, SHA-256
+  `c516304208f59bd792334288b62b171c4f973ebf402bb49287488c845542f06a`.
+  Read scope: Methods Sec11 **Dataset collection, curation and integration**,
+  data/code availability and supplement links. Publisher link MOESM3 supplied the
+  XLSX; **Table S1 only** was extracted and independently verified. Source rows
+  8/33 are healthy peripheral-blood leads; rows 9/25 confirm Habermann/Salcher
+  inclusion. Exact accession/donor/cell overlap, whole-blood preparation and
+  gene-measurement masks remain missing. No full supplement-expression or atlas
+  analysis is represented as a completed read.
+
+Exact URLs, UTC times, byte sizes and hashes are preserved in
+`raw_data/Yd1_checkpoint_b_20261031/access_v1.json` through `access_v4.json`,
+`github_retrievals_v1.json` and the browser observation record, bound by the
+[B1](config/b1_contract_v1.json)/[B2](config/b2_contract_v1.json) contracts.
+The structured FAQ record is an accessibility-snapshot transcription, not a
+downloaded server metadata export. No RDS acquisition, expression extraction,
+new independence claim or novelty promotion occurred.
+
+## Checkpoint-B review and remaining X5 source leads
+
+[Review B](REVIEW_B.md) records independent FAQ/source verification and a bounded
+qualification of the Table S1 Gupta2020 and Wigerblad2022 healthy-blood leads.
+It includes actual lookup queries, primary locators and failed full-text routes.
+These are prospective source-design decisions; neither target expression nor
+novelty was assessed. X3 remains held on actual metadata/runtime qualification.
