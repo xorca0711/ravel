@@ -1,0 +1,79 @@
+library,gsm,timepoint,stratum_kind,pipeline_label_or_aggregate,gene,status,n_cells,n_detected,detection_fraction,gene_count_sum,total_count_sum,counts_per_million_stratum_counts,n_count_zero,n_count_one,n_count_ge_two
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,hAT2,Il22ra1,observed_cells,4166,0,0.0,0,21336346,0.0,4166,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,hAT2,Il10rb,observed_cells,4166,1040,0.24963994239078252,1269,21336346,59.475975877031615,3126,851,189
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,cAT2,Il22ra1,observed_cells,5,0,0.0,0,43458,0.0,5,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,cAT2,Il10rb,observed_cells,5,1,0.2,2,43458,46.021445993833126,4,0,1
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,pAT2,Il22ra1,empty_stratum,0,,,,,,,,
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,pAT2,Il10rb,empty_stratum,0,,,,,,,,
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,DATP,Il22ra1,observed_cells,17,0,0.0,0,105981,0.0,17,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,DATP,Il10rb,observed_cells,17,6,0.35294117647058826,7,105981,66.0495749238071,11,5,1
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,AT1,Il22ra1,observed_cells,48,0,0.0,0,244575,0.0,48,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,AT1,Il10rb,observed_cells,48,19,0.3958333333333333,26,244575,106.30685883675764,29,15,4
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,unassigned,Il22ra1,empty_stratum,0,,,,,,,,
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,unassigned,Il10rb,empty_stratum,0,,,,,,,,
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_ciliated,Il22ra1,observed_cells,48,0,0.0,0,304238,0.0,48,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_ciliated,Il10rb,observed_cells,48,21,0.4375,29,304238,95.32011122870911,27,15,6
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_club_or_airway,Il22ra1,observed_cells,23,0,0.0,0,169322,0.0,23,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_club_or_airway,Il10rb,observed_cells,23,7,0.30434782608695654,9,169322,53.153163794427186,16,5,2
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_endothelium,Il22ra1,empty_stratum,0,,,,,,,,
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_endothelium,Il10rb,empty_stratum,0,,,,,,,,
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_immune,Il22ra1,observed_cells,8,0,0.0,0,26985,0.0,8,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_immune,Il10rb,observed_cells,8,3,0.375,3,26985,111.17287381878822,5,3,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_mesenchyme,Il22ra1,observed_cells,4,0,0.0,0,18988,0.0,4,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,literal_label,contaminant_mesenchyme,Il10rb,observed_cells,4,1,0.25,2,18988,105.32968190436065,3,0,1
+PBS_AT2_Tomato,GSM4304609,PBS,aggregate,ALL_RETAINED,Il22ra1,observed_cells,4319,0,0.0,0,22249893,0.0,4319,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,aggregate,ALL_RETAINED,Il10rb,observed_cells,4319,1098,0.2542255151655476,1347,22249893,60.53961697703445,3221,894,204
+PBS_AT2_Tomato,GSM4304609,PBS,aggregate,NON_CONTAMINANT,Il22ra1,observed_cells,4236,0,0.0,0,21730360,0.0,4236,0,0
+PBS_AT2_Tomato,GSM4304609,PBS,aggregate,NON_CONTAMINANT,Il10rb,observed_cells,4236,1066,0.2516525023607177,1304,21730360,60.00820971212626,3170,871,195
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,hAT2,Il22ra1,observed_cells,2555,0,0.0,0,22284845,0.0,2555,0,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,hAT2,Il10rb,observed_cells,2555,795,0.3111545988258317,1101,22284845,49.405773295708364,1760,576,219
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,cAT2,Il22ra1,observed_cells,265,0,0.0,0,3616371,0.0,265,0,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,cAT2,Il10rb,observed_cells,265,103,0.3886792452830189,149,3616371,41.201524954159844,162,69,34
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,pAT2,Il22ra1,empty_stratum,0,,,,,,,,
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,pAT2,Il10rb,empty_stratum,0,,,,,,,,
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,DATP,Il22ra1,observed_cells,672,1,0.001488095238095238,1,6175585,0.16192797929265001,671,1,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,DATP,Il10rb,observed_cells,672,308,0.4583333333333333,524,6175585,84.8502611493486,364,179,129
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,AT1,Il22ra1,observed_cells,100,0,0.0,0,624586,0.0,100,0,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,AT1,Il10rb,observed_cells,100,41,0.41,59,624586,94.4625720076979,59,29,12
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,unassigned,Il22ra1,empty_stratum,0,,,,,,,,
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,unassigned,Il10rb,empty_stratum,0,,,,,,,,
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_ciliated,Il22ra1,observed_cells,71,1,0.014084507042253521,1,704639,1.4191664100340742,70,1,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_ciliated,Il10rb,observed_cells,71,42,0.5915492957746479,90,704639,127.72497690306668,29,18,24
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_club_or_airway,Il22ra1,observed_cells,96,0,0.0,0,957449,0.0,96,0,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_club_or_airway,Il10rb,observed_cells,96,33,0.34375,46,957449,48.04433447630109,63,23,10
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_endothelium,Il22ra1,empty_stratum,0,,,,,,,,
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_endothelium,Il10rb,empty_stratum,0,,,,,,,,
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_immune,Il22ra1,observed_cells,25,0,0.0,0,94227,0.0,25,0,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_immune,Il10rb,observed_cells,25,3,0.12,3,94227,31.83800821420612,22,3,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_mesenchyme,Il22ra1,observed_cells,6,0,0.0,0,63911,0.0,6,0,0
+Day14_AT2_Tomato,GSM4304611,day 14,literal_label,contaminant_mesenchyme,Il10rb,observed_cells,6,2,0.3333333333333333,4,63911,62.58703509567993,4,0,2
+Day14_AT2_Tomato,GSM4304611,day 14,aggregate,ALL_RETAINED,Il22ra1,observed_cells,3790,2,0.0005277044854881266,2,34521613,0.05793472048945106,3788,2,0
+Day14_AT2_Tomato,GSM4304611,day 14,aggregate,ALL_RETAINED,Il10rb,observed_cells,3790,1327,0.350131926121372,1976,34521613,57.239503843577644,2463,897,430
+Day14_AT2_Tomato,GSM4304611,day 14,aggregate,NON_CONTAMINANT,Il22ra1,observed_cells,3592,1,0.00027839643652561246,1,32701387,0.03057974268797834,3591,1,0
+Day14_AT2_Tomato,GSM4304611,day 14,aggregate,NON_CONTAMINANT,Il10rb,observed_cells,3592,1247,0.34716035634743875,1833,32701387,56.0526683470643,2345,853,394
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,hAT2,Il22ra1,observed_cells,2109,0,0.0,0,15549085,0.0,2109,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,hAT2,Il10rb,observed_cells,2109,636,0.3015647226173542,777,15549085,49.970786062331,1473,516,120
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,cAT2,Il22ra1,observed_cells,47,0,0.0,0,541883,0.0,47,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,cAT2,Il10rb,observed_cells,47,17,0.3617021276595745,23,541883,42.444586746585514,30,13,4
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,pAT2,Il22ra1,empty_stratum,0,,,,,,,,
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,pAT2,Il10rb,empty_stratum,0,,,,,,,,
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,DATP,Il22ra1,observed_cells,228,0,0.0,0,1982649,0.0,228,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,DATP,Il10rb,observed_cells,228,101,0.44298245614035087,159,1982649,80.1957381261131,127,68,33
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,AT1,Il22ra1,observed_cells,187,0,0.0,0,891556,0.0,187,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,AT1,Il10rb,observed_cells,187,60,0.32085561497326204,81,891556,90.85239738165635,127,42,18
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,unassigned,Il22ra1,empty_stratum,0,,,,,,,,
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,unassigned,Il10rb,empty_stratum,0,,,,,,,,
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_ciliated,Il22ra1,observed_cells,86,0,0.0,0,708550,0.0,86,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_ciliated,Il10rb,observed_cells,86,59,0.686046511627907,111,708550,156.6579634464752,27,30,29
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_club_or_airway,Il22ra1,observed_cells,907,0,0.0,0,8698615,0.0,907,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_club_or_airway,Il10rb,observed_cells,907,322,0.35501653803748623,423,8698615,48.62843107782101,585,239,83
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_endothelium,Il22ra1,empty_stratum,0,,,,,,,,
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_endothelium,Il10rb,empty_stratum,0,,,,,,,,
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_immune,Il22ra1,observed_cells,7,0,0.0,0,19060,0.0,7,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_immune,Il10rb,observed_cells,7,1,0.14285714285714285,1,19060,52.46589716684155,6,1,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_mesenchyme,Il22ra1,observed_cells,3,0,0.0,0,19912,0.0,3,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,literal_label,contaminant_mesenchyme,Il10rb,observed_cells,3,1,0.3333333333333333,2,19912,100.44194455604661,2,0,1
+Day28_AT2_Tomato,GSM4304613,day 28,aggregate,ALL_RETAINED,Il22ra1,observed_cells,3574,0,0.0,0,28411310,0.0,3574,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,aggregate,ALL_RETAINED,Il10rb,observed_cells,3574,1197,0.3349188584219362,1577,28411310,55.506064310304595,2377,909,288
+Day28_AT2_Tomato,GSM4304613,day 28,aggregate,NON_CONTAMINANT,Il22ra1,observed_cells,2571,0,0.0,0,18965173,0.0,2571,0,0
+Day28_AT2_Tomato,GSM4304613,day 28,aggregate,NON_CONTAMINANT,Il10rb,observed_cells,2571,814,0.3166083236094905,1040,18965173,54.837358984281344,1757,639,175

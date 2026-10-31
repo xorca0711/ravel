@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.E1a_render_v2",
+  "owner": "Sx22-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How can the fixed descriptive figure preserve the distinction between small positive values, exact zero and unavailable empty strata?",
+  "decision": "Correct rounded-zero presentation without changing numerical results or their interpretation.",
+  "strongest_rival": "One-decimal rounding can make a positive measured value appear to be an exact zero.",
+  "discriminator": "Use NA, exact 0 and <0.1 distinctly; bind the original stratum table and audit each displayed number.",
+  "evidence_refs": [
+    "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/README.md",
+    "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/RENDER_AMENDMENT_V2.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The complete v1 figure and numerical table were inspected after successful frozen execution. The originating reviewer identified the small-positive display risk after freeze, and actual figure inspection confirmed it. This is fully outcome-exposed rendering correction, not a numerical rerun.",
+  "biological_unit": "Retained cell is the measurement unit. Each saved library pools two mice; animal-level observations are unavailable.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells nest in three saved pooled libraries with one library per condition. Labels and both transcripts reuse these same cells. All-retained and non-contaminant aggregates overlap label strata; no independent animal replication.",
+  "population_and_selection": "All 11683 retained cells and all 27998 saved feature counts from the exact frozen Choi matrix. Preserve literal labels, including contaminants. Add explicit empty rows for pAT2, unassigned and contaminant_endothelium, which are declared by the source rule but absent here.",
+  "contrast": "No new contrast; preserve the exact existing rows and numerical values.",
+  "endpoint": "Display strings and a corrected scientific figure derived from the immutable original stratum table.",
+  "methods": "Read strata.csv only. Preserve fixed gene/label/library ordering and all denominators. Display detection as percent and abundance on its original scale. Render NA for unavailable values, 0 for exact zeros, <0.1 for strictly positive displayed values below 0.1, otherwise one decimal. Preserve original color scales and log1p display transform; write the display audit CSV.",
+  "missingness_and_exclusions": "No exclusions or substitutions. Empty strata remain NA and n_cells=0. Exact zeros and small positive values remain distinguishable.",
+  "multiplicity": "Two prespecified genes in fixed order; no tests, confidence intervals, target selection or multiple-testing procedure.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite saved-cell descriptive counts only. No cell bootstrap, animal-level confidence interval or population precision claim; sparse groups retain their explicit denominators.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Saved counts do not establish receptor protein, signaling, cytokine responsiveness, cell identity, memory, lineage, repair, intervention effects or animal-level variation. Shared-source reanalysis is not independent replication; non-detection is not biological absence. All original Saxton biological execution holds remain unchanged.",
+  "stop_rule": "Stop on changed input hashes, unexpected table shape or missingness, invalid display values or existing output artifacts. Do not alter the original run or recalculate biological endpoints.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/sx22_e1a_recipient_description_v1/strata.csv",
+      "sha256": "5b24bf8ce248c02479e89f40f94b0d3550aa115504a8aec3285db2c5f279e8f9",
+      "study_id": "GSE145031/P001_saved_benchmark/E1a_v1",
+      "unit_ids": [
+        "GSM4304609",
+        "GSM4304611",
+        "GSM4304613"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_e1a_recipient_description_v1/receipt.json",
+      "sha256": "e492b84d8191e9014221a93b175e4bc17f7cd7380d0bdc7fa27c13c3a7ab82fd",
+      "study_id": "GSE145031/P001_saved_benchmark/E1a_v1",
+      "unit_ids": [
+        "GSM4304609",
+        "GSM4304611",
+        "GSM4304613"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/scripts/render_v2.py",
+      "sha256": "37e372e5ab3c63a7b7bd629ca86ac9553c1e81a8656b379388ae92baaf891ddc"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/scripts/describe_v1.py",
+      "sha256": "4d7aeb869f266f4879089cac502428672b17251b8bed844667387c74b215476c"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/tests/test_render_v2.py",
+      "sha256": "13b1ef8a57a6636628fc41b108136472bdd550b9bb4c275fa9794f974dc46d58"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/scripts/render_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "recipient_transcripts_v2.png",
+    "recipient_transcripts_v2.svg",
+    "display_values.csv",
+    "render_summary.json"
+  ],
+  "amendment_of": "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/config/description_contract_v1.json",
+  "amendment_reason": "Post-exposure rendering correction: one-decimal v1 annotations obscure small positives; preserve original numerical run and figures, and supersede only figure presentation."
+}

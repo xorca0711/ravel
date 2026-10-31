@@ -1,0 +1,32 @@
+{
+  "scope": "Observed-cell transcript description only; shared-source reanalysis",
+  "genes": [
+    "Il22ra1",
+    "Il10rb"
+  ],
+  "gene_columns_zero_based": {
+    "Il22ra1": 7863,
+    "Il10rb": 24495
+  },
+  "cells": 11683,
+  "features": 27998,
+  "stratum_gene_rows": 78,
+  "empty_stratum_gene_rows": 18,
+  "count_layer": "layers/counts",
+  "abundance_scale": "1e6 * sum(gene counts) / sum(all saved feature counts in the same stratum)",
+  "weighting": "Ratio of sums, not mean of per-cell normalized values; deeper cells contribute more counts",
+  "denominator_rule": "All labels retained; NON_CONTAMINANT excludes only labels beginning contaminant_",
+  "checks": [
+    "Original ordered metadata join",
+    "Saved composition and all denominators",
+    "Canonical sparse positive integer entries",
+    "Every saved cell total equals count-row sum"
+  ],
+  "runtime": {
+    "h5py": "3.16.0",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1"
+  },
+  "scientific_acceptance": "not_assessed"
+}
