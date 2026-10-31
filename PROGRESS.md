@@ -12,10 +12,16 @@ gate and no scientific eligibility requirement was relaxed.
 
 Main advanced to `4df267d`, adding merged Yadav PR #154. Integrated that base while
 preserving the prior Saxton reading record and both progress histories. Private
-planning links were excluded from the research record. No numerical work has run.
-Next: validate and commit the plan, launch the isolated technical chat, and verify
-that source qualification starts. The technical ledger must state exact data or
-design reasons for every held numerical subtask. No external settings changed.
+planning links were excluded from the research record. Plan commit `1f9eb0b` passed
+12,558 repository checks and the base-aware research gate against main `4df267d`.
+
+Created **Saxton IL-22 technical analysis**, local chat
+`01a19140-3fcb-7012-9c02-b8744eab73c7`, from that exact handoff. A fresh app snapshot
+confirms an active turn and repository verification before isolated-checkout setup.
+No Saxton numerical result is claimed at this launch checkpoint. Next: inspect
+the technical source/contract return and independently review its results. Its
+ledger must state exact data/design reasons and reopening evidence for every held
+subtask. No external service settings or publication changed.
 
 ## Saxton IL-22 reading and research fit — 31 October 2026
 
