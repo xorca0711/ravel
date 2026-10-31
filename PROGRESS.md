@@ -19,7 +19,10 @@ Fresh main is `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Local integration
 preserves both worktrees and all frozen outputs. Current-base validation passed
 12,534 repository checks and the research gate (`ok: true`, no errors), after
 correcting the review-only audit document format. Scientific artifacts and
-gates were unchanged. Final Notion synchronization and heartbeat pause are next. No remote
+gates were unchanged. Reviewed integration is `e01d5e8b8eed8100b40cae4fe5e8dc7322c51f8a`.
+The reading plan, Yadav notes/discussion and Notion follow-up plan are synchronized;
+the review heartbeat is confirmed PAUSED. No technical job remains active.
+Reopen only on the specific new evidence or a newly authorized scope. No remote
 publication or outreach is authorized; host access/oversight and protected
 integration settings remain unverified. Earlier status entries are historical.
 

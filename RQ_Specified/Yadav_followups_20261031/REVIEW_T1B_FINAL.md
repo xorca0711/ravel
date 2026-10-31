@@ -92,6 +92,9 @@ its identical audit is now Markdown documentation, with the original staged
 JSON preserved. No scientific asset or gate was changed. Final validation logs
 are `t1b_review_repository_validation_final.log` and
 `t1b_review_research_gate_final.log` in the review staging directory.
-Notion synchronization and pausing the review heartbeat follow this validated
-local checkpoint. No remote push, PR, remote merge,
+Local review integration is `e01d5e8b8eed8100b40cae4fe5e8dc7322c51f8a`.
+The reading plan, Yadav notes/discussion and follow-up plan are synchronized;
+the heartbeat is confirmed PAUSED. [Synchronization record](NOTION_SYNC.md)
+records the targeted updates and resolved selection/formatting issues. Only
+status prose followed the passing integration checks; no scientific files changed. No remote push, PR, remote merge,
 outreach, bench execution or human retain/reject decision is part of closeout.

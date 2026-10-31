@@ -7,7 +7,8 @@ question, and proposed article-local **Yd1-P02** matrix versus mature epithelial
 repair. Each has a separate analysis plan and source/endpoint gate. This adds
 navigation and one article-local proposal, without changing A0–A31, their
 hypotheses or scientific acceptance. The original Yadav and X0–X6 closeouts
-remain valid; this is a newly authorized scope.
+remain valid. Feasible follow-up source/design work is now technically reviewed
+complete; the three empirical tracks retain exact linked-data/model/assay holds.
 
 **Portfolio extension, 7 October 2026:** [grouped audit and new runs](docs/portfolio_extensions/2026-10-07/README.md) review all earlier questions. Proposed [A31](#a31) develops a distinct GRIA1 acute-response endpoint from Nb4-P09; the original 31 questions and article candidates remain preserved.
 
