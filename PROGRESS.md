@@ -1,5 +1,26 @@
 # Current project state
 
+## Saxton technical recovery scoped after platform restriction — 31 October 2026
+
+The user requested a replacement technical chat and review through a disposition
+of every eligible step. The original chat reports an explicit biological-content
+safety restriction, including on its follow-up turn; no exact triggering item is
+provided. This is distinct from an approval timeout or scientific data failure.
+The [recovery scope](Research%20Article/gate3_08_saxton_2021_il22/RECOVERY_SCOPE_2026-10-31.md)
+limits replacement work to integrity/metadata checks, saved-result review,
+source-only feasibility and documentation. Blocked biological execution is not
+replayed through the replacement.
+
+Merged committed technical checkpoint `ff09fab`; preserved three raw inputs and
+eight untracked R1 run files byte-for-byte in the review checkout and registered
+the receipt. Receipt verification passed. The original checkout/caches remain
+unchanged. The saved QC reports six libraries and 35,275 rows; no treatment
+contrast exists. Counts are available, so R2/R3 are not mislabeled data-access
+holds. Figure 5's caption/panel mismatch requires a documentary correction.
+Next: launch the bounded replacement, review its handoff, and update each README
+stage with completed work or specific policy/data/design status. Main remains
+`4df267d`; no publication, external setting change or claim promotion occurred.
+
 ## Saxton IL-22 technical sequence authorized — 31 October 2026
 
 The owner requested a stepwise plan and launch through a technical chat. The

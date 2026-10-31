@@ -1,5 +1,25 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
+**Recovery update, 31 October 2026:** the original technical chat stopped with an
+explicit biological-content safety restriction after completing the R1 metadata/QC
+run. Its source files and outputs are preserved and the original receipt verifies.
+The [replacement scope](RECOVERY_SCOPE_2026-10-31.md) permits source integrity,
+review of saved results, source-only feasibility and documentation; it does not
+resume the blocked biological execution. The original plan below is retained as
+history. Numerical and source-review status must be reported separately.
+
+| Step | Current execution/review state |
+|---|---|
+| R0 | RNA source mapping recovered; remaining panel/source audit under review |
+| R1 | Metadata/QC executed at `ff09fab`; outputs recovered byte-for-byte, receipt verified; independent content review pending |
+| R2 | No treatment model executed; platform-policy execution hold. Count files are available |
+| R3 | No response-program analysis executed; platform-policy execution hold |
+| R4 | Source-location/measurement audit can proceed; raw curve values and replicate keys not qualified; blocked biological fitting not resumed |
+| R5 | Source/endpoint audit can proceed; raw-unit/nesting and panel-label limitations remain; blocked biological effect estimation not resumed |
+| E1 | Source-only feasibility pending; biological scoring/modeling is outside replacement scope |
+| E2 | Existing literature review available; linked withdrawal/recovery source qualification pending; no persistence or recovery effect executed |
+| D1 | Saved-result review, exact hold ledger and metadata/QC gallery reconciliation pending |
+
 31 October 2026. Stable reading ID **8**, Gate **3A**; execution namespace
 **Sx22** (checked absent from the current registry). The owner explicitly requested
 a stepwise plan and a separate technical session to launch the analysis. The
