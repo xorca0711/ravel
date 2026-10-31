@@ -1,0 +1,57 @@
+{
+  "scope": "Checkpoint B metadata only; X3 expression-bearing RDS not acquired because a qualified metadata-only runtime and sufficient memory are not established; X5 only Table S1 and FAQ/source metadata.",
+  "nominated_states": [
+    "Alveolar",
+    "Inflammatory",
+    "Fibrotic"
+  ],
+  "retained_X3_design": {
+    "genes": [
+      "Il6",
+      "P2rx4",
+      "Col1a1",
+      "Acta2"
+    ],
+    "primary_gene": "Il6",
+    "contrasts": [
+      "Day7 - Day0",
+      "Day14 - Day0",
+      "Day21 - Day0"
+    ],
+    "weighting": "equal reported sample weights, not cells or lanes",
+    "support": "all three samples per compared day have nonempty nominated author state; otherwise show available samples but hold group expression contrast",
+    "zero_state": "zero composition if a verified state is absent; expression undefined; missing metadata never interpreted as zero",
+    "forbidden": [
+      "expression extraction",
+      "reclustering",
+      "relabeling",
+      "support-rule relaxation",
+      "suffix pairing",
+      "population tests",
+      "separate matrix or RAW download"
+    ]
+  },
+  "X3_code": "raw_data/Yd1_checkpoint_b_20261031/Tsukui_integrate_by_MNN.R",
+  "X3_repository_tree": "raw_data/Yd1_checkpoint_b_20261031/Tsukui_repository_tree.json",
+  "X5_sheet": "Table S1",
+  "X5_header_row": 2,
+  "X5_columns": [
+    "pid",
+    "n_cells",
+    "n_samples",
+    "used in figures",
+    "tissue",
+    "group",
+    "technique",
+    "title",
+    "journal",
+    "DOI"
+  ],
+  "X5_screen": "Source-level metadata only: flag lung/peripheral-blood and healthy labels, never infer their sample-level joint distribution; no gene query.",
+  "publication_reuse": [
+    "Salcher2022",
+    "Adams2020",
+    "Habermann2020"
+  ],
+  "X5_zero_rule": "FAQ states unmeasured genes are encoded as zero; must recover dataset-by-gene measurement mask before expression interpretation."
+}
