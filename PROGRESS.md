@@ -1,5 +1,22 @@
 # Current project state
 
+## Saxton IL-22 technical sequence authorized — 31 October 2026
+
+The owner requested a stepwise plan and launch through a technical chat. The
+[Sx22 plan](Research%20Article/gate3_08_saxton_2021_il22/README.md) specifies R0–R5,
+E1/E2 and D1: source/unit qualification, RNA reproduction, response robustness,
+conditional signaling/functional reconstruction, recipient-state qualification,
+persistence/recovery source assessment and a reviewed figure/results handoff.
+Paper-local eligible analysis is now authorized; Niethamer/S1 retains its separate
+gate and no scientific eligibility requirement was relaxed.
+
+Main advanced to `4df267d`, adding merged Yadav PR #154. Integrated that base while
+preserving the prior Saxton reading record and both progress histories. Private
+planning links were excluded from the research record. No numerical work has run.
+Next: validate and commit the plan, launch the isolated technical chat, and verify
+that source qualification starts. The technical ledger must state exact data or
+design reasons for every held numerical subtask. No external settings changed.
+
 ## Saxton IL-22 reading and research fit — 31 October 2026
 
 Reviewed the corrected IL-22 paper, supplied Notion research/PI notes and reading
