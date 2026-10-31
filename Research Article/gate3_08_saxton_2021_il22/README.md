@@ -16,6 +16,11 @@ completed X1 annotation metadata, X2 all-six-record provenance and X3 companion
 supplement/endpoint-linkage review. Their [separate ledger](extensions_20261031/README.md)
 retains annotation, animal-key and functional-link limits. They leave the original
 recovery dispositions below unchanged and do not resume held biological analyses.
+The extension [originating review](extensions_20261031/REVIEW.md) passed and the
+work is integrated on a separate local branch. See the
+[implication note](extensions_20261031/IMPLICATIONS.md) for conditional research
+directions. [PR #155](https://github.com/xorca0711/ravel/pull/155) contains the
+reviewed recovery only; the subsequent extensions remain local.
 
 | Step | Current source-review / execution disposition |
 |---|---|

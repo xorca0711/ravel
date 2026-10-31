@@ -1,5 +1,12 @@
 # E1/E2 source-only feasibility closeout
 
+**Later source qualification, 31 October 2026:** the
+[X3 follow-up](extensions_20261031/X3_SOURCE_LINKAGE.md) now inspects the companion
+Supplementary Fig. 5e/caption, reporting-summary sections and workbook index.
+It supersedes the "not assessed" coverage below only for those named items;
+unit-level cessation/function linkage remains unqualified. The original review
+record is retained below.
+
 31 October 2026. Owner: Sx22-P01. Purpose: inventory identifiers, time/cessation
 labels and endpoint linkage available in already-qualified sources. Comparison:
 source fields against the historical E1/E2 documentation requirements, not a

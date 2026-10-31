@@ -10,6 +10,9 @@ It does not reopen the held biological sequence or create a canonical RQ.
 **Completed at bounded source-review coverage, 31 October 2026.**
 [Results](RESULTS.md) · [Source/access manifest](SOURCE_MANIFEST.md) ·
 [X3 endpoint linkage](X3_SOURCE_LINKAGE.md) · [Validation and handoff](VALIDATION.md).
+[Originating review](REVIEW.md) passed and the handoff is integrated locally.
+[Implications and conditional scientific branches](IMPLICATIONS.md) distinguish
+the published findings, completed audits and unexecuted biological questions.
 The prospective ledger below retains its initial readiness labels as history.
 
 | Job | Completed work | Remaining limit |
@@ -23,8 +26,8 @@ resulting runs retain their original receipts. Documentary X3 reading has no
 invented numerical receipt. R1, root
 attributes, governance, canonical hypotheses and the original recovery ledger
 remain unchanged. R2/R3 and the other excluded biological analyses remain held.
-The originating chat's final handoff review and human scientific acceptance are
-separate from this technical completion. No push or PR mutation occurred here.
+The originating chat's final handoff review passed; human scientific acceptance
+remains unassessed. No extension push or PR mutation occurred here.
 
 ## Why these extensions
 

@@ -16,9 +16,10 @@ viability and mature tissue function from being treated as interchangeable.
 
 This is a useful readiness and interpretation result. It is not evidence that
 the repository has reproduced the published separation of inflammatory and
-protective outcomes. The new [source-readiness jobs](README.md) address specific
-remaining metadata and linkage questions; their eventual results must be judged
-at that same level.
+protective outcomes. The completed [source-readiness jobs](RESULTS.md) characterize
+the symbol-to-ID ambiguities, reconcile six public metadata chains and inspect
+the companion withdrawal source. They recover no separate animal key or qualified
+link to later function. These results remain source-readiness findings.
 
 ## Biological implication of the paper
 

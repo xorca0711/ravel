@@ -1,5 +1,34 @@
 # Current project state
 
+## Saxton extensions reviewed and integrated locally — 31 October 2026
+
+The existing technical chat completed handoff `7d88aa3`, following frozen
+metadata specification `1f7b0d5`. The [originating review](Research%20Article/gate3_08_saxton_2021_il22/extensions_20261031/REVIEW.md)
+passed; local merge `7d99489` integrates the work on
+`codex/saxton-source-extensions-20261031`. All X1/X2/X3 jobs have a completed
+bounded audit and explicit surviving limits. The [implication note](Research%20Article/gate3_08_saxton_2021_il22/extensions_20261031/IMPLICATIONS.md)
+separates source readiness from the paper's biological findings and conditional
+recipient-context, persistence and later-function questions. No canonical RQ changed.
+
+Independent review confirmed both contract hashes, 20 bound file hashes, all
+35,275 annotation rows, 52 repeated-symbol groups, six sample/run chains and four
+companion-source hashes. Figure S5e/caption was independently checked. The new
+source access removes the previous uninspected status only at named locators;
+it supplies no qualified animal/preparation-to-later-function join. Original
+platform holds remain, with no newly inferred cause for the service restriction.
+
+Technical checks passed 12,687 repository checks, the base-aware gate, eight
+targeted tests, 158 shared tests (two skips), compilation and required archives.
+Final integration passed 12,703 repository checks and the base-aware research gate
+with zero errors. No permitted audit job remains pending; reopening biological
+work requires its documented scope and source qualifications. Unchanged analyses
+and code tests were not rerun. Freshly fetched main is still
+`4df267d`. [PR #155](https://github.com/xorca0711/ravel/pull/155) remains open with
+passing checks at `f4878c1`, containing reviewed recovery only. The later extension
+work is local, not published. No external setting, Notion edit, author contact,
+main merge or human scientific acceptance occurred. All prior worktrees/caches
+are preserved; the three new X2 metadata inputs were copied without overwrite.
+
 ## Saxton source extensions executed locally - 31 October 2026
 
 The bounded [X1/X2/X3 technical return](Research%20Article/gate3_08_saxton_2021_il22/extensions_20261031/RESULTS.md)
