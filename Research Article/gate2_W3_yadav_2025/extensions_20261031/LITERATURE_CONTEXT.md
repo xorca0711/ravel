@@ -172,3 +172,36 @@ qualification of the Table S1 Gupta2020 and Wigerblad2022 healthy-blood leads.
 It includes actual lookup queries, primary locators and failed full-text routes.
 These are prospective source-design decisions; neither target expression nor
 novelty was assessed. X3 remains held on actual metadata/runtime qualification.
+
+## Checkpoint-C two-source qualification — 31 October 2026
+
+[Source maps and conditional design](CHECKPOINT_C_RESULTS.md) follow the exact
+[reviewed scope](REVIEW_B.md): Gupta2020 first, Wigerblad2022 only for provenance
+and fallback. No other atlas study was pursued; unrelated search results and a
+third-party reannotation repository were discarded. The biological comparison
+and Wg-P06 premises did not change, so the valid prior literature review was
+reused rather than replaced by a new novelty or experiment-readiness scan.
+
+| Source/version | Actual read scope and locators | Qualification result |
+| --- | --- | --- |
+| [Gupta 2020](https://doi.org/10.1073/pnas.2003603117), PNAS version; PMID32601182 / PMC7368314 | Indexed primary data availability; Results **Enhanced Type I IFN Signature…**, Fig.2 and **IFN Signature…Distinct Subset**, Fig.3. Direct GSE145231/GSE145230 records, all seven GSMs, BioSample/SRA metadata and gene-feature exports; GEO records updated 18 November 2025 | Whole-blood leukocytes after RBC depletion; single-cell subseries verified. Original target reference coverage qualifies; actual retained neutrophil/state/zero-denominator exports and participant/processing joins remain unknown. |
+| [Wigerblad 2022](https://doi.org/10.4049/jimmunol.2200154), J Immunol version; PMID35858733 / PMC9712146 | Indexed **Cell purification**, **scRNA-Seq**, **A modified analysis pipeline…** and **Human circulating neutrophils…**, Fig.2E–F. Direct GSE188288 and nineteen GSMs, BioSample/SRA metadata/file listing; series updated 30 September 2026 | Mixed purification contexts, published Nh0–Nh3 in purified neutrophils and an explicit raw/called-cell distinction. No accessible small feature/state/retention export qualified; exact donor reuse and SCAHN inclusion remain unresolved. |
+
+Search date was 31 October 2026, Asia/Seoul. Queries remained confined to the two
+DOIs/titles, GSE188288, and source terms such as `GSE145230 neutrophils methods`,
+`accession data availability`, `github`, `whole blood`, `Subjects`,
+`Data analysis`, `previously` and `Seurat filter`. Exact full queries, read scopes
+and failed attempts are preserved in
+`raw_data/Yd1_checkpoint_c_20261031/source_access_scope_v1.json`, hash-bound in
+the [C contract](config/c_contract_v1.json). Indexed passages were cached with
+source URLs; complete paper/supplement access was not achieved and is not claimed.
+
+Direct PMC/GEO web-text views returned challenges; Wigerblad's publisher PDF
+returned loading content; the BioC route returned HTTP200 with a no-result error
+for Gupta and HTTP429 for Wigerblad. Those were failed reads, not article text.
+Direct GEO SOFT, BioSample XML, SRA run-info and seven listed small Gupta
+gene-feature exports succeeded; exact URLs/UTC times/bytes/hashes are in
+`retrievals_v1.json`–`retrievals_v3.json` in the same preserved cache.
+No expression or sequencing reads were acquired. Missing author exports were
+not replaced with classifiers, marker signatures, default cell calls or assumed
+donor independence. This is source qualification, not biological replication.

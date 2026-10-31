@@ -92,3 +92,20 @@ hold; B2 recovered source table with exact donor/preparation/measurement holds;
 B3 this provisional matrix. Review of actual X3 state support and any specific
 external numerical contract remains a prerequisite for expression. X4 remains
 held. No canonical question, threshold, unfavorable result or claim grade changed.
+
+## Checkpoint-C source eligibility update — 31 October 2026
+
+[The bounded two-lead pass](CHECKPOINT_C_RESULTS.md) verifies Gupta GSE145230 as
+the single-cell subseries of GSE145231 and its RBC-depleted whole-blood context.
+ARG1 and IL6R each occur once in every acquired Gupta feature reference; no
+expression was inspected. Wigerblad GSE188288 contains mixed preparation
+libraries, with target features embedded in unaccessed H5 files. Both have exact
+GEO/BioSample/SRA maps, but neither has recovered retained-neutrophil/state and
+target-zero denominator exports. Participant overlap, preparation timing and
+SCAHN cell/subset joins remain unresolved. Gupta stays the first conditional
+source and Wigerblad the sole fallback; no source was selected by target outcome.
+
+This changes source eligibility only. The substrate and epithelial matrices
+above, X3/X4 holds, unfavorable findings and canonical questions are unchanged.
+C returns a conditional description and explicit holds, not a new RNA result or
+evidence for/against the substrate or repair hypotheses.
