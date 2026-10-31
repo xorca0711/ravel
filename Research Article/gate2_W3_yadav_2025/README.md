@@ -1,5 +1,13 @@
 # Yadav 2025: source evidence and article-local synthesis
 
+**New follow-up scope, 31 October 2026:** the owner authorized the
+[three-plan research workspace](../../RQ_Specified/Yadav_followups_20261031/README.md)
+after the original/extension closeouts below. Wg-P06 substrate balance and its
+routing/signaling arm remain separate from proposed Yd1-P02 mature epithelial
+repair. T0 source/endpoint qualification is eligible; numerical work requires
+review of an exact design. The earlier statement that no feasible authorized
+job remained applies to the original and X0–X6 scopes, not these new jobs.
+
 Prepared 30 October 2026 against fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
 Stable reading ID **16**, Gate **2W**. Reading was recorded complete by 29 October
 and reconfirmed by the owner on 30 October; the exact completion day was not supplied.

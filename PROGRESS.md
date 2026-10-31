@@ -1,5 +1,28 @@
 # Current project state
 
+## Yadav follow-up plans and Notion alignment — 31 October 2026
+
+The owner opened a new scope after the reviewed original and X0–X6 closeouts.
+[Three plans](RQ_Specified/Yadav_followups_20261031/README.md) now cover unchanged
+Wg-P06 substrate balance, its routing/signaling arm and proposed article-local
+Yd1-P02 matrix versus mature epithelial repair. The current RQ list, folder index
+and registry link the plans; all A0–A31 questions/guides and frozen evidence are
+preserved. No scientific acceptance, claim-grade change or bench readiness follows.
+
+[Notion updates](RQ_Specified/Yadav_followups_20261031/NOTION_SYNC.md) are complete:
+reading plan, Yadav notes, Discussion and current RQ navigation now link a new
+three-plan page. Historical notes and the recommended next reading order remain.
+
+First checkpoint T0-B/R/E qualifies Hamanaka source/exposure units, tracing and
+Lee signaling assays, and joint matrix/epithelial endpoint coverage including
+the bounded Atg5 precedent. New numerical work awaits exact design review;
+human-source/X3–X5 holds remain and do not block independent feasible work.
+See the [execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
+The plan integration passed 12,331 repository checks and the current-main
+research gate (`ok: true`, no errors); no biological analyses were rerun.
+Technical dispatch is next. Freshly fetched main remains
+`8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+
 ## Yadav extensions technically reviewed and fully dispositioned — 31 October 2026
 
 [Final synthesis](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md)
