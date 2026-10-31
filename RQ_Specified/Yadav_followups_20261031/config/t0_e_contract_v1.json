@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P02.followup_t0_e_v1",
+  "owner": "Yd1-P02",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do the Atg5 precedent and preserved A13/A20/A8/A19/A22 results provide jointly linked matrix and mature epithelial endpoints for the proposed ARG1 effect question?",
+  "decision": "Return source/replicate and endpoint maps, exact T1 eligibility or holds, and bounded capability requirements; stop at T0 for review.",
+  "strongest_rival": "Misidentifying source sample labels, assay denominators or related-study outcomes as independent donors, paired preparations, flux or mature functional repair.",
+  "discriminator": "Read published figures/legends/methods/supplements and current repository results; preserve source-specific units and unknown joins. Verify metadata against exact acquired primary files without new effect estimation.",
+  "evidence_refs": [
+    "RQ_Specified/Yadav_followups_20261031/README.md",
+    "RQ_Specified/Yadav_followups_20261031/LITERATURE_CONTEXT.md",
+    "RQ_Specified/Yadav_followups_20261031/RQ3_MATRIX_AND_REPAIR.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_D.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published outcomes, figures, legends, methods and supplements; repository results; GEO metadata; Figshare workbook text headers/sample labels and visibly plotted outcomes were read before freeze. Workbook numeric measurements were not extracted or analyzed. All source acquisition preceded freeze. Initial GEO targ=all request exceeded a 5 MB cap and was discarded unread; successful header-only sample records contain zero data rows. No expression matrix, raw MS, kinetic flux, new classifier or new biological effect analysis.",
+  "biological_unit": "Published Atg5 mice/fibroblast preparations and AT2 organoid cultures. Mouse-to-well/AT2-source/colony/image joins and cross-matrix endpoints unresolved; source n labels are not assumed independent wells.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated samples, metabolites, wells, images and cells nest within biological units. Hamanaka publication, Figshare and GEO are one study; reanalysis is not replication. Atg5, Lee and Yadav are separate interventions/contexts and cannot be joined into one causal contrast.",
+  "population_and_selection": "Authorized Atg5 Figs2/6 and relevant methods/S5-S9, plus current A13/A20/A8/A19/A22 results and reviewed Yadav endpoints. Full6L-M included to avoid omitting the staining evidence.",
+  "contrast": "Source availability, declared unit/normalizer/time, sample-label and endpoint coverage only. No cross-study numerical effect or population inference.",
+  "endpoint": "Exact endpoint/denominator/unit/timing coverage and missing matrix-to-mature-output linkage; source access/hash records.",
+  "methods": "Frozen curated primary-source map plus deterministic source-access verification. BR parses only XLSX string labels and GEO headers, and records file sizes; E exports the source-grounded endpoint map. Independent openpyxl/XML/GEO reread and figure/PDF visual inspection precede interpretation.",
+  "missingness_and_exclusions": "Retain unknown donor/preparation/pairing, timing, calibration, denominator and source values. Keep negative/media-specific results and disagreements. Reject HTML challenge responses as PDFs; do not repair ambiguous isotope headers, invent a fourth4F sample, join unrelated assays or fill missing measurements with zero.",
+  "multiplicity": "Not applicable: metadata qualification; no effect tests or screening.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No biological effect estimated; metadata counts are not sample-size or power justification.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Processed isotope pools/fractions are not kinetic flux, collagen incorporation or functional necessity. Relative proteins, organoid count/diameter, RNA and marker ratios are not absolute lineage-linked mature epithelial repair. Atg5 is not ARG1; separate sources do not establish a joint effect. Execution confers no novelty, laboratory readiness, claim promotion or human acceptance.",
+  "stop_rule": "Stop after T0 source/metadata qualification and exact T1 design/hold review. No source-value effect estimation, expression processing, raw-MS correction/flux, cross-study joint effect, new classifier, raw reads, large acquisition, bench execution, outreach or Notion/remote writes.",
+  "inputs": [
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5.xml",
+      "sha256": "6cb5d352884e95c674ea61330b2c1991737e0e8f558a88c8db02b04aeb24cc06",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5_fig2.jpg",
+      "sha256": "d53c5a3ae6a76bb0d708b695b2ab9a73f0621bc5ec05c1d350a6f409af3923e3",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5_fig6.jpg",
+      "sha256": "d92fc0778b623616095c12b10569ebe9e678c34def2563d2a583158e028c353d",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5_supp_attempt.pdf",
+      "sha256": "9cbcab2efb7cc4e08c428682f1f363263c52a12d604378cea157965004942868",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5_supp_elsevier.pdf",
+      "sha256": "dee88a9e5082b48c7280fe5bda864877e1c996111006bc426d3d1559f22d1dc6",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v1.json",
+      "sha256": "1c83cb93dbbec656d94c84d7fd0bf160dcc438bfce962cdd06674cb815c85723",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v2.json",
+      "sha256": "24048cce6f58338e44106ba90b2d35ab0c3024b82e7e67dcf22dce1885e23a99",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "sha256": "9a42edfecf0548c40706d631d5629faa65bb8739f3f8c8c1f26a89d9d9a9cec8",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "sha256": "5161e753fe511f071a8563479037d22a109a61948ac739f37e26dab52de8d358",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v5.json",
+      "sha256": "b2b8a1b328f54de9a3dabd34af5ab6dfbc5db851ad2adac179cf7ca953661f71",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v6.json",
+      "sha256": "41be8557b2c35e626be81f585f7f7a18cffe9bbe4e749a75ed4db13f69010573",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v7.json",
+      "sha256": "05f6ca096a59b0d161702ce86c17349a6a77ed720ab12a4e234e8b73b80322ba",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/web_access_log_v1.json",
+      "sha256": "595269ae86a5d526d12189052ca93b157594dc6abc980040ac841b2abdd7429c",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md",
+      "sha256": "a70bffbb6f3755a2ad1cd8f9ac9c14e403ccecc02d8186812ed46d167b561d0a",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_D.md",
+      "sha256": "470e3be978d3169025b3f91b14e9bcf8e3bd59d42734507cfcee53a9e40f8368",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_dossiers/A13.md",
+      "sha256": "ae5479b9d27558b4eb9905ba454c1884c604f6cd5f4937868f6d1991255a1e62",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md",
+      "sha256": "1fb9ad8fc26c1b14543184dee15d6e6ea55b9c22a5fdfaa6bf89a824345e9cce",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md",
+      "sha256": "41fe4ecc8b749007efeb242f4a63d4e35960b16bf1708598448263b06c3aa477",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md",
+      "sha256": "9339e9491e5255d96dcd8788895d8c064d3bd0f4ea1eb8e783a4a9e2cd091212",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/RESULTS.md",
+      "sha256": "c088da2dc6801a25ed47b9788a289615633e9a25a36d86f2033c5d68a12de08e",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+      "sha256": "bbabcf7bff9798c84151f03d5f2faa5bb758897b382e572cbddbc3c4c23e1a5d",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A19_fzd_response_reversibility/RESULTS.md",
+      "sha256": "6757f68de85d1f21cea203718c90f5eb70f6af9edb5022b1350ebe02bc4d5330",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md",
+      "sha256": "451206fa6b9eb644a04e702bb549f4e17826e0773eeba071b0f12e2d9ba778c1",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/qualify_t0_v1.py",
+      "sha256": "ef5ffb109b3f959f0cdcd1ea137ba59af970bdfbdfd4c3e94fb5014496df764c"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/verify_t0_v1.py",
+      "sha256": "e3a167ac22b10f5c258fb119e5a29994dac5e2d8eade0960db1d0041c41d9855"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t0_e_spec_v1.json",
+      "sha256": "2aabf11571329dd7f9586ea57ab72b53e14aa935ec1d746471f79b51833abe57"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/Yadav_followups_20261031/scripts/qualify_t0_v1.py",
+  "arguments": [
+    "--job",
+    "e",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_access.json",
+    "t1_disposition.json",
+    "endpoint_unit_map.csv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New authorized T0 follow-up from reviewed plan1473ad87d1246d336402d2ea5f6a2881bc51d774; retains all earlier contracts, receipts, source evidence and holds."
+}

@@ -1,0 +1,11 @@
+id,locator,finding,consequence
+H01,Figure4F all five metabolite blocks; Fig4 legend; S5 legend,Source has 01-03 per condition; legends say four biologic replicates; SEM versus SD differs,Describe three supplied labels only after review; exact published n/error-bar reproduction held.
+H02,Figure3F!AL15: AQ15,AP15/AQ15 repeat M+14/M+15 after M+16/M+17,Hold ambiguous argininosuccinate fraction channels; no relabel to M+18/M+19.
+H03,Figure4B!A63:X70,Putrescine metadata repeat in P:S; numeric fraction-like cells T:X have no dedicated isotope header,Hold putrescine isotopologue assignment; keep other metabolite blocks independent.
+H04,Methods LC-MS; Fig3F/S4C; Figure3F sheet,Methods mention 13C5 citrulline whereas catalogue/figure/sheet identify D4 citrulline,Use D4 as panel-labelled identity with explicit text discrepancy; source clarification needed for exact raw-method reproduction.
+H05,Fig3-4 Methods/legends; source workbook,"Tracer pulse duration, isotope-purity/correction settings, viable cell/protein denominator, donor/preparation joins unavailable","No kinetic flux, calibrated pool size, population inference or paired testing."
+H06,Figshare v1 workbook tabs; published Fig1B,Workbook tab Figure1A contains metabolite pools but published1A is schematic,"Apparent prepublication numbering mismatch; retain tab name, no automatic renumbering."
+H07,Fig6D/F sample prefixes,"Five/three exposure groups match semantic prefixes, but no explicit per-sample exposure manifest or well/donor key supplied",Acknowledge inferred map; review a frozen mapping or obtain an explicit source key before condition-effect estimates.
+H08,Fig5E image; Fig6C/G-H; S7,"Preserve HPLM SERPINE1 NS, Orn-only non-rescue, ASS1 dispensability with Arg, retained IPF Cit rescue and S7 TGF-treated NS comparisons",Do not select only supportive conditions or infer equivalence.
+L01,Lee Fig6; Methods Sec6 versus Sec16; S3,ROS method 3 days versus generic48h; S3 viability model differs from MRC5 target,Retain assay-specific timing and model; no universal non-cytotoxicity claim.
+G01,GSE273882 header-only records; Figshare workbook,RNA labels (three per clone/condition) and metabolite labels (four in clone panel) have no explicit preparation join,"Same study, different assays; shared clone tokens do not establish paired aliquots or independent donors."

@@ -1,5 +1,11 @@
 # Yadav follow-up research plans
 
+**Current review, 31 October 2026:** [T0 passed technical review](REVIEW_T0.md).
+The next checkpoint is T1-A: exact processed tracing and native-label pool
+descriptions, remaining-block design qualification and capability disposition.
+Missing units, source keys, flux and mature-function endpoints retain explicit
+holds. New numerical work must follow the reviewed scope and new frozen contracts.
+
 31 October 2026, Asia/Seoul. The owner requested three research plans, linked
 Notion updates and execution through the existing technical chat. This is a new
 scope after the original and X0-X6 closeouts. Those closeouts and their holds
@@ -17,6 +23,16 @@ The plans are post-exposure proposals, not accepted scientific conclusions or
 bench-ready protocols. Registration of Yd1-P02 records a question, not human
 retain/reject. All 32 canonical RQs and their registered guides remain unchanged.
 [Literature and overlap](LITERATURE_CONTEXT.md) · [execution/review ledger](EXECUTION_LEDGER.md).
+
+## Current checkpoint: T0 complete, T1 awaiting review
+
+[T0 results and source-fidelity review](T0_RESULTS.md) provide separate owner
+contracts/receipts and exact source, sample and endpoint maps. Hamanaka's small
+processed metabolomics workbook supports a bounded isotope description after
+review; source-header/replicate conflicts and unknown preparation joins remain.
+Atg5 supplies organoid and staining endpoints, not the proposed absolute mature
+functional output or a joint ARG1 effect. [Exact T1 designs and capability holds](T1_DESIGNS.md)
+identify independent feasible work. No numerical T1 job has started.
 
 ## Scientific logic — qualitative, not measured effects
 

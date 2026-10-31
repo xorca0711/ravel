@@ -1,5 +1,49 @@
 # Current project state
 
+## Yadav T0 reviewed; bounded T1-A next — 31 October 2026
+
+Exact execution return `6aced292888d51821a4cd8b876c13f3954a1de65` passes
+[source/endpoint review](RQ_Specified/Yadav_followups_20261031/REVIEW_T0.md).
+The local integration preserves both worktrees, hash-checked source caches,
+all old outputs/contracts/receipts and A0–A31. No biological effect was rerun.
+
+Hamanaka processed tracing is eligible for a fixed descriptive reconstruction;
+Fig. 6D/F pools can be described under native labels while their condition key
+stays unresolved. Atg5 includes staining ratios, which still do not provide
+absolute lineage-linked mature output or a joint ARG1 effect. The 4F three-versus-
+four-label discrepancy and ambiguous isotope headers remain. T1-A will run the
+reviewed R1/B1 descriptions, qualify the next R2 block design and disposition
+capability requirements for all three RQs. Numerical flux, linked repair,
+collagen-effect and original spatial/X3–X5 work remain specifically held.
+
+Current-main integration passed 12,381 repository checks and the research gate
+(`ok: true`, no errors). Technical dispatch is next. Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`; no remote publication,
+outreach or scientific acceptance is authorized or implied.
+
+## Yadav follow-up T0 source qualification — 31 October 2026
+
+[T0 results](RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md) complete the
+authorized Hamanaka/Yadav substrate and tracer qualification, Lee signaling
+review, and Atg5/current-RQ endpoint map. Separate Wg-P06 and Yd1-P02 metadata
+contracts were frozen at `33c39eed1903cd56bc50de64fd048498b53a6d3b`; both runner
+receipts and 26 independent source checks passed. No new biological effect,
+expression, flux or joint repair analysis was run.
+
+[Exact T1 designs and capability holds](RQ_Specified/Yadav_followups_20261031/T1_DESIGNS.md)
+offer an unambiguous processed-tracing subset for review. Hamanaka source n/header
+conflicts, missing collagen source/unit joins and the absence of a joint ARG1
+matrix–absolute mature-function endpoint remain explicit. T1 numerical work is
+not yet authorized. No canonical hypothesis, grade, prior frozen evidence or
+spatial/X3–X5 hold changed; Notion remains untouched.
+
+Current main is freshly verified at `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+Final validation passed 12,376 repository checks and the current-main research
+gate (`ok: true`, no errors); see the
+[execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
+Next: reviewer assessment of T0 and selection of an exact eligible T1 job.
+Actual laboratory access, model/assay validity, precision and external protected
+integration settings are not established by this local return.
+
 ## Yadav follow-up plans and Notion alignment — 31 October 2026
 
 The owner opened a new scope after the reviewed original and X0–X6 closeouts.

@@ -1,5 +1,39 @@
 # Literature context and overlap for the three follow-ups
 
+## T0 source qualification update — 31 October 2026
+
+The completed [T0 read and source review](T0_RESULTS.md) supersedes the pending
+supplement/unit audits in the launch record below. It retains the same questions
+and contribution limits. All three primary full texts, necessary figures and
+supplements were inspected, with Hamanaka acquisition shared by B/R. The Atg5
+review includes Fig6L–M to preserve the staining evidence and its denominators.
+Contracts record prior outcome exposure; neither the freeze nor this source
+pass turns published results into unexposed or independent evidence.
+
+Actual additional web queries on 31 October 2026 were
+`"10.1042/BCJ20253033" supplementary data`,
+`"10.1038/s12276-024-01170-w" PMC source data`, and `"PMC13385427" Atg5`.
+Direct primary PMC/publisher pages, Europe PMC JATS/supplement archives,
+Figshare, GEO headers/listing and the author's pinned GitHub README/tree were
+then followed. This was targeted source qualification following the same-day
+broader planning scan, not another comprehensive novelty search. Forward
+citation coverage was not expanded. No new unrelated cohort was selected.
+
+Acquisition receipts record UTC attempts from 04:26:35 through 04:38:07 on
+31 October 2026 and SHA-256 values. Web-tool exact request times were not
+recorded; the saved web-log capture time is labelled separately. Failed
+publisher/PMC routes and the capped GEO all-record request are retained;
+successful alternatives are distinguished from HTML challenges. Full details
+and versions are in the T0 source table and frozen access manifests.
+
+The source-to-question bridge remains: recipient Arg requirement and
+context-specific intracellular routes motivate a source-ARG1 exposure/effect
+comparison; they do not establish it. Atg5 supplies a model-specific niche
+precedent but no linked ARG1/mature-function outcome. The [T1 designs](T1_DESIGNS.md)
+state informative outcomes, unit/endpoint restrictions and actual capability
+unknowns. No new mechanism, novelty, assay validity or human acceptance is claimed.
+
+
 Search/reconciliation date: 31 October 2026, Asia/Seoul. This reuses the reviewed
 [Yadav extension scan](../../Research%20Article/gate2_W3_yadav_2025/extensions_20261031/LITERATURE_CONTEXT.md)
 and [P06 source review](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/SOURCES_AND_GROUNDING.md),
