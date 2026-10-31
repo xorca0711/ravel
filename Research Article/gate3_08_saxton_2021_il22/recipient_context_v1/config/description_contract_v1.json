@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.E1a_recipient_description_v1",
+  "owner": "Sx22-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What Il22ra1 and Il10rb transcript detection and count-derived abundance occur in retained Choi cells within each saved library and literal pipeline label?",
+  "decision": "Qualify the saved benchmark as a descriptive transcript source, including sparse coverage and empty labels; do not select interventions or infer response.",
+  "strongest_rival": "Sparse capture, ambient signal, library/time confounding, cell selection and annotation error can shape observed transcript patterns without receptor activity or valid biological-state attribution.",
+  "discriminator": "Report two fixed transcripts for every source label/library, preserving absent labels and transparent cell/count denominators; arithmetic checks cannot distinguish ambient RNA from cell-intrinsic signal.",
+  "evidence_refs": [
+    "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/README.md",
+    "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/C0_QUALIFICATION.md",
+    "Research Article/gate1_02_choi_2020/weft_pilot_v1/SCIENTIFIC_REVIEW.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Prior source outcomes, labels, composition and marker evidence were reviewed. C0 inspected H5AD schema, exact feature identities and ordered metadata joins without reading count data, X or feature means/variances. The two transcript values were not inspected during C0; historical exposure is not erased. Only synthetic values were used for code/tests and figure-layout review before freeze.",
+  "biological_unit": "Retained cell is the measurement unit. Each saved library pools two mice; animal-level observations are unavailable.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells nest in three saved pooled libraries with one library per condition. Labels and both transcripts reuse these same cells. All-retained and non-contaminant aggregates overlap label strata; no independent animal replication.",
+  "population_and_selection": "All 11683 retained cells and all 27998 saved feature counts from the exact frozen Choi matrix. Preserve literal labels, including contaminants. Add explicit empty rows for pAT2, unassigned and contaminant_endothelium, which are declared by the source rule but absent here.",
+  "contrast": "No condition, time, gene-ranking or treatment contrast. Descriptive tabulation within each saved library and literal label, plus separate ALL_RETAINED and NON_CONTAMINANT aggregates.",
+  "endpoint": "For each fixed gene and stratum: n cells, n with count >0, detection fraction, summed gene counts, summed counts across all saved features, and 1e6 * gene-count sum / all-feature-count sum. Count bins 0, 1 and >=2 qualify sparsity only.",
+  "methods": "Read only layers/counts CSR and saved metadata using h5py, NumPy and SciPy. Require canonical finite positive integer sparse entries and exact per-cell totals. Exact symbol mapping uses Il22ra1 then Il10rb. Summed counts use int64. Abundance is a ratio of sums over the same cells, not a mean of per-cell normalized values and not normalization to all cells outside the stratum. Display all 11 source labels followed by two aggregates, in the three predefined library columns. Plot detection on a common 0-100 percent scale; abundance colors use log10(1+counts per million), with raw values annotated. Display cell denominators and literal labels; no trajectories or response scores.",
+  "missingness_and_exclusions": "No additional cell or gene exclusions, source preprocessing or label changes. NON_CONTAMINANT uses only not state.startswith(contaminant_); unassigned remains included. Empty strata have n_cells=0 and all count/detection/abundance endpoints unavailable (CSV blanks), not biological zeros. Populated strata with no detection retain measured zero counts. No small-stratum threshold or pseudocount in numerical endpoints; plot transform is display-only.",
+  "multiplicity": "Two prespecified genes in fixed order; no tests, confidence intervals, target selection or multiple-testing procedure.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite saved-cell descriptive counts only. No cell bootstrap, animal-level confidence interval or population precision claim; sparse groups retain their explicit denominators.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Saved counts do not establish receptor protein, signaling, cytokine responsiveness, cell identity, memory, lineage, repair, intervention effects or animal-level variation. Shared-source reanalysis is not independent replication; non-detection is not biological absence. All original Saxton biological execution holds remain unchanged.",
+  "stop_rule": "Stop on input/hash mismatch, missing/ambiguous fixed symbols, unsupported schema, missing metadata, incorrect ordered joins, altered source denominators, noncanonical/noninteger counts, saved-total disagreement or existing output artifacts. Preserve failed receipts and use a versioned amendment for corrections. Stop affected scope on any new content restriction; no replacement session, excluded analysis or target expansion.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/figure1_descriptive.h5ad",
+      "sha256": "6d2ab27a98543d3f03c941907729af69ca9ce22295e51cff67e329ce8c1644ca",
+      "study_id": "GSE145031/P001_saved_benchmark",
+      "unit_ids": [
+        "GSM4304609",
+        "GSM4304611",
+        "GSM4304613"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/cell_states.csv",
+      "sha256": "642e97141d8e7baef60600cc2cdb94e8cfb52c0343483cfeb111533a0d3bf7ff",
+      "study_id": "GSE145031/P001_saved_benchmark",
+      "unit_ids": [
+        "GSM4304609",
+        "GSM4304611",
+        "GSM4304613"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/composition.csv",
+      "sha256": "f821a94e83d8516c27fb6c67d3b13d6d8ec574f9e23a8a16bd463192f3b00da3",
+      "study_id": "GSE145031/P001_saved_benchmark",
+      "unit_ids": [
+        "GSM4304609",
+        "GSM4304611",
+        "GSM4304613"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/p001_figure1_v1_f001_d56ee41e13cd4327/receipt.json",
+      "sha256": "24aaaaef907519391ba3c8650f96795ebe2dff4a27cd4ad9e9977852cdc5974b",
+      "study_id": "GSE145031/P001_saved_benchmark",
+      "unit_ids": [
+        "GSM4304609",
+        "GSM4304611",
+        "GSM4304613"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate1_02_choi_2020/weft_pilot_v1/scripts/frozen_methods.py",
+      "sha256": "198422fdddd118ebaf071c15e0b5604b55677866ef7929e70642b3271c052302",
+      "study_id": "GSE145031/P001_saved_benchmark",
+      "unit_ids": [
+        "GSM4304609",
+        "GSM4304611",
+        "GSM4304613"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/scripts/describe_v1.py",
+      "sha256": "4d7aeb869f266f4879089cac502428672b17251b8bed844667387c74b215476c"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/tests/test_describe.py",
+      "sha256": "36d35b3eaffcced32431dd7b048b3ea3dfe431f6636125d0e41a00c31404440e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/scripts/describe_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "strata.csv",
+    "cell_counts.csv",
+    "summary.json",
+    "recipient_transcripts.png",
+    "recipient_transcripts.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New bounded exposed descriptive question E1a under the reviewed plan; not a restart or amendment of held R2/R3 biological analyses. Source outputs remain immutable."
+}
