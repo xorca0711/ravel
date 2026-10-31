@@ -1,5 +1,38 @@
 # Current project state
 
+## Yadav package opened for PR review — 31 October 2026
+
+The owner requested an overall summary and PR publication. GitHub CLI and
+connector identities were verified as `xorca0711`. The reviewed branch is now
+published in [PR #154](https://github.com/xorca0711/ravel/pull/154), targeting
+`main` at `8cb50dd15a12a41abc6d5edb36349d33fc512661`. The PR is open for
+review and has not been merged. Earlier no-publication statements below record
+the preceding scope, before this explicit delivery authorization.
+
+The PR includes the original Yadav reconstruction, X0–X6 disposition and
+three follow-up plans with frozen sources/outputs and exact holds. The scientific
+conclusion is bounded source-level support for the profibrotic circuit, with
+inclusion-sensitive Il6 RNA, imprecise knockout hydroxyproline and unresolved
+mapping/replicate limits. It does not establish source-to-collagen flux,
+arginine compensation or mature epithelial recovery. No canonical question,
+claim grade or human acceptance decision changed.
+
+Publication checkpoint `1714a52708dd1b5cbad6cd21ee25b93f58efb861` passed
+12,535 repository checks, 158 tests (two Windows symlink-privilege skips),
+compilation, the 18-binding claim check, all required archive verifiers and the
+research gate against freshly fetched main. Push CI's `validate` and
+`research-governance` jobs passed on that checkpoint; PR-triggered jobs were
+running at this delivery record. This subsequent commit changes status prose
+only. No biological analysis was rerun. Two whole-branch whitespace findings in
+frozen source code/run stderr remain unchanged to preserve hashes.
+
+All feasible authorized scientific source/design jobs remain complete or
+specifically held, as detailed in the final review below. Both worktrees and
+raw caches remain preserved, and the analysis heartbeat remains PAUSED. Next:
+PR review and any resulting bounded corrections; empirical work requires the
+recorded qualifying data/model/assay evidence. Opening the PR does not authorize
+merging it or conducting the held experiments.
+
 ## Yadav follow-up scope reviewed complete with empirical holds — 31 October 2026
 
 The [final review](RQ_Specified/Yadav_followups_20261031/REVIEW_T1B_FINAL.md)
