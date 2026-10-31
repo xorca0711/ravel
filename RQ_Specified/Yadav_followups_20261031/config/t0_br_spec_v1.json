@@ -1,0 +1,283 @@
+{
+  "owner": "Wg-P06",
+  "assays": [
+    {
+      "source": "Hamanaka2025",
+      "locator": "Results: Expression of arginine metabolic enzymes; Methods: Lung fibroblast culture; Fig1C/E; S1",
+      "comparison": "HPLM versus DMEM and treated versus untreated within medium",
+      "biological_unit": "Primary human lung fibroblast cultures; four biologic replicates stated for Figs3-5, but donor/preparation/well/pairing identities not supplied for those panels. Three control and three IPF clones belong to specified clone panels, not automatically every experiment.",
+      "exposure_and_time": "HPLM Arg/Orn/Cit 0.11/0.07/0.04 mM; DMEM Arg 0.4 mM without added Orn/Cit; TGF-beta 1 ng/ml after 24 h serum starvation",
+      "measured_endpoint": "Recipient metabolite pools, protein and RNA measured separately",
+      "normalization": "Peak areas; Fig1/S1 clone-level summaries; no source-conditioned extracellular exposure",
+      "source_values": "Figshare v1 includes Figure1A (apparent published1B), Figure1C; GEO RNA metadata; no donor manifest",
+      "interpretation_limit": "Media differ in more than arginine. RNA libraries, clone labels and LC-MS samples lack an explicit cross-assay join."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig5A-D; S6A-B; Methods: Western blotting",
+      "comparison": "Arg present versus absent within HPLM or DMEM; TGF-beta time series",
+      "biological_unit": "Primary human lung fibroblast cultures; four biologic replicates stated for Figs3-5, but donor/preparation/well/pairing identities not supplied for those panels. Three control and three IPF clones belong to specified clone panels, not automatically every experiment.",
+      "exposure_and_time": "Fig5A/B 0,24,48 h; Fig5C/D 0,30,60,90,120 min",
+      "measured_endpoint": "Cell-lysate collagen1/alpha-SMA; phospho-S6K/GCN2; phospho-SMAD2/3 and receptors",
+      "normalization": "Displayed total proteins and GAPDH; no viable-cell denominator",
+      "source_values": "Published blot images; no Fig5 numeric sheet in Figshare workbook",
+      "interpretation_limit": "Intracellular protein expression is not deposited collagen or net synthesis. Stress/translation, viability and receptor changes remain alternatives."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig5E-F legend and image",
+      "comparison": "Arg dropout versus Arg-replete, each with or without TGF-beta",
+      "biological_unit": "Primary human lung fibroblast cultures; four biologic replicates stated for Figs3-5, but donor/preparation/well/pairing identities not supplied for those panels. Three control and three IPF clones belong to specified clone panels, not automatically every experiment.",
+      "exposure_and_time": "24 h",
+      "measured_endpoint": "COL1A1/ACTA2/CTGF/SERPINE1 qPCR",
+      "normalization": "Relative to Arg-replete untreated; reference-gene/DeltaCt denominator not specified in inspected qPCR method",
+      "source_values": "Published bars; no Fig5 qPCR source table recovered",
+      "interpretation_limit": "HPLM SERPINE1 Arg-replete versus deprived under TGF-beta is labelled NS; preserve media-specific responses, not universal deprivation blockade."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig6A-C/E/G-H; Fig6 Results; S6C",
+      "comparison": "Arg titration with/without Orn/Cit; single amino-acid add-back; ASS1 knockdown",
+      "biological_unit": "Primary human lung fibroblast cultures; four biologic replicates stated for Figs3-5, but donor/preparation/well/pairing identities not supplied for those panels. Three control and three IPF clones belong to specified clone panels, not automatically every experiment.",
+      "exposure_and_time": "6A/B: 24/48 h, Arg 0-0.11 mM; 6C:0/24/48 h; Cit rescue at 0.1 mM; 6H 48 h in three control/three IPF clones",
+      "measured_endpoint": "Cell-lysate collagen1/alpha-SMA and signaling proteins",
+      "normalization": "Blot/GAPDH references; cell viability and secreted/deposited collagen not jointly measured",
+      "source_values": "Images only for these blots; no numerical densitometry source recovered",
+      "interpretation_limit": "Orn-only does not rescue complete dropout; Cit/ASS1 rescue is context dependent; IPF clones retain rescue. Neither proves a source-ARG1 compensation effect."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig6D; S7; workbook Figure6D!H1:AU4",
+      "comparison": "Five Arg/Orn/Cit availability groups with untreated/TGF-beta",
+      "biological_unit": "Primary human lung fibroblast cultures; four biologic replicates stated for Figs3-5, but donor/preparation/well/pairing identities not supplied for those panels. Three control and three IPF clones belong to specified clone panels, not automatically every experiment.",
+      "exposure_and_time": "48 h; standard HPLM amino acids when present",
+      "measured_endpoint": "Intracellular Arg, Cit and Orn LC-MS peak areas",
+      "normalization": "Uncalibrated peak areas; no cell-count/internal-standard denominator reported for these pools",
+      "source_values": "Three metabolite rows; 40 sample columns with UT/A/O/C/AOC prefixes and 01-04 labels",
+      "interpretation_limit": "Four labels per condition do not establish four donors. Prefix-to-condition interpretation is not a supplied sample key. No extracellular supply, absolute concentration, synthesis or flux."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig6F; workbook Figure6F!F1:AC2",
+      "comparison": "Arg only / Cit only / neither with untreated/TGF-beta",
+      "biological_unit": "Primary human lung fibroblast cultures; four biologic replicates stated for Figs3-5, but donor/preparation/well/pairing identities not supplied for those panels. Three control and three IPF clones belong to specified clone panels, not automatically every experiment.",
+      "exposure_and_time": "48 h; Arg 0.11 mM or Cit 0.1 mM",
+      "measured_endpoint": "Intracellular arginine peak area",
+      "normalization": "Uncalibrated peak area",
+      "source_values": "24 columns labelled A/C/unprefixed, four suffixes per condition",
+      "interpretation_limit": "Low intracellular pool can coexist with protein rescue. Pool abundance is not rate; prefix mapping and unit identities need qualification."
+    },
+    {
+      "source": "Lee2024",
+      "locator": "Fig6a-b; Methods Sec6/Sec10/Sec15; S1",
+      "comparison": "OAT knockdown or stable overexpression versus corresponding vector/scramble controls",
+      "biological_unit": "MRC5 cell line; n=4 stated, culture/preparation independence and cross-panel pairing unknown",
+      "exposure_and_time": "General stimulation method 48 h; DMEM/0.1% BSA with BLM or TGF-beta; panel-specific conditions retained",
+      "measured_endpoint": "Lysate proline ELISA (axis ug/ml); PRODH immunoblot",
+      "normalization": "PRODH fold change with beta-actin; no viable-cell proline denominator documented",
+      "source_values": "Figures and supplement; no linked numerical source-value table recovered",
+      "interpretation_limit": "Proline ELISA measures abundance, not biosynthetic flux; expression is not PRODH catalytic rate. OAT manipulation is not source ARG1 restriction."
+    },
+    {
+      "source": "Lee2024",
+      "locator": "Fig6c-d; Methods Sec16",
+      "comparison": "OAT conditions and PRODH siRNA within OAT-overexpression/vector backgrounds",
+      "biological_unit": "MRC5 cultures; n=4 legend, donor/preparation joins unknown",
+      "exposure_and_time": "ROS-specific method: 3 days +/- BLM; differs from generic 48 h stimulation",
+      "measured_endpoint": "MitoSOX fluorescence and flow-positive percentage",
+      "normalization": "Displayed MitoSOX-positive percent; cell gating/viability denominator not fully specified",
+      "source_values": "Published figure images only",
+      "interpretation_limit": "Perturbation supports a PRODH-dependent fluorescence route in this context; does not quantify mitochondrial ROS species or precursor contribution to collagen."
+    },
+    {
+      "source": "Lee2024",
+      "locator": "Fig5b/d-e; Fig7b/e-g; S3-S4; Methods Sec14/Sec17/Sec20",
+      "comparison": "Cell OAT perturbations; separate mouse BLM +/- L-canaline comparison",
+      "biological_unit": "Mouse n=8/group; individual-mouse joint endpoint linkage unavailable; cell and animal experiments are different units",
+      "exposure_and_time": "L-canaline days8-12; lung collection day21",
+      "measured_endpoint": "Active TGF-beta ELISA; lung hydroxyproline; OAT; inflammatory cell counts",
+      "normalization": "Hydroxyproline ug/mg tissue; TGF-beta pg/ug and OAT ng/ug axes; bulk tissue denominators",
+      "source_values": "Figures; S3 cytotoxicity is in cells named C57MG (not MRC5), 24 h LDH, one representative of four experiments",
+      "interpretation_limit": "Does not isolate fibroblast-specific OAT mediation or mature epithelial repair. Cytotoxicity evidence does not establish viability in the nominated primary coculture."
+    },
+    {
+      "source": "Yadav2025",
+      "locator": "Reviewed FINAL_SYNTHESIS.md; original Fig3K and Fig3/S3,5D-F,6G",
+      "comparison": "Source macrophage/neutrophil contexts and recipient OAT/rescue panels",
+      "biological_unit": "Reviewed mouse units and human donor combinations; missing preparation and reuse joins remain",
+      "exposure_and_time": "Use original reviewed media/exposure fields; do not import Hamanaka/Lee conditions",
+      "measured_endpoint": "Relative Pro/Hyp; protein/collagen and coculture observations",
+      "normalization": "Original reviewed relative denominators preserved",
+      "source_values": "Existing frozen outputs and source workbook; no rerun",
+      "interpretation_limit": "Fig3K is relative abundance, not isotope flux. Shared-source reanalysis is not replication; human blood neutrophils are not IPF tissue neutrophils."
+    }
+  ],
+  "tracers": [
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig3B; S4; workbook Figure 3B",
+      "medium": "HPLM",
+      "tracer": "13C6 arginine",
+      "compartment": "Intracellular metabolite extracts, not isolated collagen or extracellular conditioned medium",
+      "products": "Arg, Orn, Cit, argininosuccinate, dimethylarginine",
+      "sample_labels_per_condition": "4",
+      "layout": "D4:J11 / K4:Q11 and downstream metabolite blocks; dimethylarginine header swaps Group/Metabolite",
+      "correction": "Methods name IsoCor natural-abundance correction; most sheet headings explicitly corrected. 4F labels only Peak Area/Percent. Source raw files and correction parameters not deposited here.",
+      "precursor_enrichment": "Intracellular precursor labeling is reported in panels; no independently calibrated extracellular enrichment trajectory or isotope-purity manifest recovered.",
+      "time": "Exact panel3/4 pulse duration unresolved in inspected Methods, legends, supplement and workbook; no longitudinal tracing series.",
+      "limits": "No substantial Arg-to-Orn/Cit label reported in HPLM despite high precursor labeling; retain this negative."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig3D; S4; workbook Figure 3D",
+      "medium": "HPLM",
+      "tracer": "guanido-15N2 arginine",
+      "compartment": "Intracellular metabolite extracts, not isolated collagen or extracellular conditioned medium",
+      "products": "Arg, argininosuccinate, Cit",
+      "sample_labels_per_condition": "4",
+      "layout": "E3:I28 corrected areas; J3:N28 corrected fractions, separated by metabolite rows",
+      "correction": "Methods name IsoCor natural-abundance correction; most sheet headings explicitly corrected. 4F labels only Peak Area/Percent. Source raw files and correction parameters not deposited here.",
+      "precursor_enrichment": "Intracellular precursor labeling is reported in panels; no independently calibrated extracellular enrichment trajectory or isotope-purity manifest recovered.",
+      "time": "Exact panel3/4 pulse duration unresolved in inspected Methods, legends, supplement and workbook; no longitudinal tracing series.",
+      "limits": "M+2 argininosuccinate supports reverse-ASL interpretation; no flux estimate."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig3F; S4; workbook Figure 3F",
+      "medium": "HPLM",
+      "tracer": "4,4,5,5-D4 citrulline",
+      "compartment": "Intracellular metabolite extracts, not isolated collagen or extracellular conditioned medium",
+      "products": "Cit, argininosuccinate, Arg",
+      "sample_labels_per_condition": "4",
+      "layout": "Cit rows4-11; argininosuccinate16-23; Arg28-35; duplicated high-mass fraction headers in row15",
+      "correction": "Methods name IsoCor natural-abundance correction; most sheet headings explicitly corrected. 4F labels only Peak Area/Percent. Source raw files and correction parameters not deposited here.",
+      "precursor_enrichment": "Intracellular precursor labeling is reported in panels; no independently calibrated extracellular enrichment trajectory or isotope-purity manifest recovered.",
+      "time": "Exact panel3/4 pulse duration unresolved in inspected Methods, legends, supplement and workbook; no longitudinal tracing series.",
+      "limits": "Argininosuccinate fraction AP15/AQ15 repeat M+14/M+15; no silent correction."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig3H; S4; workbook Figure 3H",
+      "medium": "HPLM",
+      "tracer": "15N2 ornithine",
+      "compartment": "Intracellular metabolite extracts, not isolated collagen or extracellular conditioned medium",
+      "products": "Orn, Cit, Pro, putrescine",
+      "sample_labels_per_condition": "4",
+      "layout": "E3:I40 corrected areas; J3:N40 corrected fractions, separated by metabolite rows",
+      "correction": "Methods name IsoCor natural-abundance correction; most sheet headings explicitly corrected. 4F labels only Peak Area/Percent. Source raw files and correction parameters not deposited here.",
+      "precursor_enrichment": "Intracellular precursor labeling is reported in panels; no independently calibrated extracellular enrichment trajectory or isotope-purity manifest recovered.",
+      "time": "Exact panel3/4 pulse duration unresolved in inspected Methods, legends, supplement and workbook; no longitudinal tracing series.",
+      "limits": "Pro label small and putrescine label prominent; no Cit label reported; pools are not collagen."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig4B; S5; workbook Figure 4B",
+      "medium": "DMEM",
+      "tracer": "13C6 arginine",
+      "compartment": "Intracellular metabolite extracts, not isolated collagen or extracellular conditioned medium",
+      "products": "Arg, argininosuccinate, Cit, dimethylarginine, Orn, Pro, putrescine",
+      "sample_labels_per_condition": "4",
+      "layout": "E3:O60 areas / P3:Z60 fractions; putrescine rows63-70 have separate unlabeled E:I and T:X blocks",
+      "correction": "Methods name IsoCor natural-abundance correction; most sheet headings explicitly corrected. 4F labels only Peak Area/Percent. Source raw files and correction parameters not deposited here.",
+      "precursor_enrichment": "Intracellular precursor labeling is reported in panels; no independently calibrated extracellular enrichment trajectory or isotope-purity manifest recovered.",
+      "time": "Exact panel3/4 pulse duration unresolved in inspected Methods, legends, supplement and workbook; no longitudinal tracing series.",
+      "limits": "No Pro label reported; small Orn/putrescine label. Hold putrescine isotope-column assignment until explicit mapping."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig4D; S5; workbook Figure 4D",
+      "medium": "DMEM",
+      "tracer": "guanido-15N2 arginine",
+      "compartment": "Intracellular metabolite extracts, not isolated collagen or extracellular conditioned medium",
+      "products": "Arg, argininosuccinate, Cit",
+      "sample_labels_per_condition": "4",
+      "layout": "E3:I30 corrected areas / J3:N30 corrected fractions",
+      "correction": "Methods name IsoCor natural-abundance correction; most sheet headings explicitly corrected. 4F labels only Peak Area/Percent. Source raw files and correction parameters not deposited here.",
+      "precursor_enrichment": "Intracellular precursor labeling is reported in panels; no independently calibrated extracellular enrichment trajectory or isotope-purity manifest recovered.",
+      "time": "Exact panel3/4 pulse duration unresolved in inspected Methods, legends, supplement and workbook; no longitudinal tracing series.",
+      "limits": "Keep DMEM separate from HPLM, including Cit labeling differences."
+    },
+    {
+      "source": "Hamanaka2025",
+      "locator": "Fig4F; S5; workbook Figure 4F",
+      "medium": "DMEM",
+      "tracer": "13C5 glutamine",
+      "compartment": "Intracellular metabolite extracts, not isolated collagen or extracellular conditioned medium",
+      "products": "Glu, P5C, Orn, Pro, putrescine",
+      "sample_labels_per_condition": "3",
+      "layout": "C3:H40 peak areas / I3:N40 Percent; three labels per condition in all five blocks",
+      "correction": "Methods name IsoCor natural-abundance correction; most sheet headings explicitly corrected. 4F labels only Peak Area/Percent. Source raw files and correction parameters not deposited here.",
+      "precursor_enrichment": "Intracellular precursor labeling is reported in panels; no independently calibrated extracellular enrichment trajectory or isotope-purity manifest recovered.",
+      "time": "Exact panel3/4 pulse duration unresolved in inspected Methods, legends, supplement and workbook; no longitudinal tracing series.",
+      "limits": "Legend Fig4/S5 says four; source has three. S5 SD versus Fig4 SEM. No fourth sample imputation."
+    }
+  ],
+  "issues": [
+    {
+      "id": "H01",
+      "locator": "Figure4F all five metabolite blocks; Fig4 legend; S5 legend",
+      "finding": "Source has 01-03 per condition; legends say four biologic replicates; SEM versus SD differs",
+      "consequence": "Describe three supplied labels only after review; exact published n/error-bar reproduction held."
+    },
+    {
+      "id": "H02",
+      "locator": "Figure3F!AL15: AQ15",
+      "finding": "AP15/AQ15 repeat M+14/M+15 after M+16/M+17",
+      "consequence": "Hold ambiguous argininosuccinate fraction channels; no relabel to M+18/M+19."
+    },
+    {
+      "id": "H03",
+      "locator": "Figure4B!A63:X70",
+      "finding": "Putrescine metadata repeat in P:S; numeric fraction-like cells T:X have no dedicated isotope header",
+      "consequence": "Hold putrescine isotopologue assignment; keep other metabolite blocks independent."
+    },
+    {
+      "id": "H04",
+      "locator": "Methods LC-MS; Fig3F/S4C; Figure3F sheet",
+      "finding": "Methods mention 13C5 citrulline whereas catalogue/figure/sheet identify D4 citrulline",
+      "consequence": "Use D4 as panel-labelled identity with explicit text discrepancy; source clarification needed for exact raw-method reproduction."
+    },
+    {
+      "id": "H05",
+      "locator": "Fig3-4 Methods/legends; source workbook",
+      "finding": "Tracer pulse duration, isotope-purity/correction settings, viable cell/protein denominator, donor/preparation joins unavailable",
+      "consequence": "No kinetic flux, calibrated pool size, population inference or paired testing."
+    },
+    {
+      "id": "H06",
+      "locator": "Figshare v1 workbook tabs; published Fig1B",
+      "finding": "Workbook tab Figure1A contains metabolite pools but published1A is schematic",
+      "consequence": "Apparent prepublication numbering mismatch; retain tab name, no automatic renumbering."
+    },
+    {
+      "id": "H07",
+      "locator": "Fig6D/F sample prefixes",
+      "finding": "Five/three exposure groups match semantic prefixes, but no explicit per-sample exposure manifest or well/donor key supplied",
+      "consequence": "Acknowledge inferred map; review a frozen mapping or obtain an explicit source key before condition-effect estimates."
+    },
+    {
+      "id": "H08",
+      "locator": "Fig5E image; Fig6C/G-H; S7",
+      "finding": "Preserve HPLM SERPINE1 NS, Orn-only non-rescue, ASS1 dispensability with Arg, retained IPF Cit rescue and S7 TGF-treated NS comparisons",
+      "consequence": "Do not select only supportive conditions or infer equivalence."
+    },
+    {
+      "id": "L01",
+      "locator": "Lee Fig6; Methods Sec6 versus Sec16; S3",
+      "finding": "ROS method 3 days versus generic48h; S3 viability model differs from MRC5 target",
+      "consequence": "Retain assay-specific timing and model; no universal non-cytotoxicity claim."
+    },
+    {
+      "id": "G01",
+      "locator": "GSE273882 header-only records; Figshare workbook",
+      "finding": "RNA labels (three per clone/condition) and metabolite labels (four in clone panel) have no explicit preparation join",
+      "consequence": "Same study, different assays; shared clone tokens do not establish paired aliquots or independent donors."
+    }
+  ],
+  "decisions": {
+    "T0": "metadata only; exposed sources; stop for review",
+    "T1_R": "Eligible for a separately frozen descriptive reconstruction of unambiguous processed isotope blocks; no raw correction, population tests, kinetic flux or collagen transfer claim. Exact whitelist/ranges and holds in T1_DESIGNS.md.",
+    "T1_B": "Processed Fig6D/F pools available; condition map requires explicit review/source key; numerical collagen-source reconstruction held because blot/qPCR values and unit/viability joins absent.",
+    "T1_E": "Owned separately by Yd1-P02; no combined numerical contrast."
+  }
+}

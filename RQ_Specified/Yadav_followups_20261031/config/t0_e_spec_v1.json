@@ -1,0 +1,171 @@
+{
+  "owner": "Yd1-P02",
+  "endpoints": [
+    {
+      "source": "Atg5_2026",
+      "locator": "Fig2D-K; Methods lung processing; Fig2 image",
+      "comparison": "Tbx4CreER;Atg5f/f versus Tbx4CreER in BLM injury",
+      "biological_unit": "Mice; Fig2H/I n=8 control,6 mutant; Fig2F n=8/5; Fig2J-K n=3/3; pooled three experiments",
+      "measured_endpoint": "Fibrotic area, tissue hydroxyproline, collagen/FN RNA and protein",
+      "denominator": "Fig2F area percent; Fig2H hydroxyproline ug/g; relative qPCR/protein, GAPDH blot reference",
+      "timing": "BLM model; body-weight/survival plots through14d; exact Fig2 assay harvest time not specified separately in inspected legend/method",
+      "joint_endpoint_linkage": "No animal-to-organoid or cross-panel raw-value key recovered",
+      "interpretation_limit": "Tissue matrix content is not collagen synthesis rate or paired evidence that changing matrix causes epithelial recovery."
+    },
+    {
+      "source": "Atg5_2026",
+      "locator": "Fig6A-E; Results mesenchymal loss/AT2 section",
+      "comparison": "Fibroblasts from BLM-injured mesenchymal Atg5 deletion versus control",
+      "biological_unit": "Published mouse n=6/6 Tgf-beta1/Bmp4/Fgf10;3/3 Fgf2;4/4 Hgf; three experiments",
+      "measured_endpoint": "Fibroblast Tgf-beta1, Bmp4, Fgf2, Fgf10, Hgf RNA",
+      "denominator": "Relative qPCR; no matched secreted-factor concentrations",
+      "timing": "Two weeks after BLM stated for A/B and Results context",
+      "joint_endpoint_linkage": "No protein secretion or matched exposure-organoid manifest",
+      "interpretation_limit": "Hgf difference NS; transcripts do not establish altered secretion or one sufficient mediator."
+    },
+    {
+      "source": "Atg5_2026",
+      "locator": "Fig6F-G image/legend; FACS method",
+      "comparison": "BLM-injured deletion versus control",
+      "biological_unit": "Mouse n=9/7; fields/cells nested",
+      "measured_endpoint": "Flow-identified AT2 abundance",
+      "denominator": "AT2/Epi percent",
+      "timing": "BLM context; lineage/recovery series unavailable",
+      "joint_endpoint_linkage": "No individual-mouse map to matrix or organoid outputs",
+      "interpretation_limit": "Relative epithelial composition is not absolute AT2 survival or lineage-linked mature output."
+    },
+    {
+      "source": "Atg5_2026",
+      "locator": "Fig6H-I; FACS and organoid methods",
+      "comparison": "AT2 coculture supported by mutant versus control BLM-injured primary fibroblasts",
+      "biological_unit": "Legend labels mice n=5/group, three experiments; fibroblast mouse/well/AT2-source crossing not provided",
+      "measured_endpoint": "Organoid-forming efficiency",
+      "denominator": "CFE/OFE percent; stated starting AT2 input20,000/well and fibroblasts200,000/well; operational colony threshold and per-well source counts unavailable",
+      "timing": "Day10, with SB431542 until day10",
+      "joint_endpoint_linkage": "Passage2 fibroblasts; no matched per-preparation matrix readout or source-to-recipient donor key",
+      "interpretation_limit": "Initial equal input does not control later viability/selection. Colony formation measures initiation/expansion, not mature AT1 repair."
+    },
+    {
+      "source": "Atg5_2026",
+      "locator": "Fig6J image/legend",
+      "comparison": "Same coculture support comparison",
+      "biological_unit": "Legend n=5/group; organoids nested in wells/preparations",
+      "measured_endpoint": "Organoid diameter",
+      "denominator": "Micrometers, labelled colony size",
+      "timing": "Day10",
+      "joint_endpoint_linkage": "Same figure comparison; individual colony/well matching unavailable",
+      "interpretation_limit": "Reported NS diameter difference does not establish equivalence or preserved repair."
+    },
+    {
+      "source": "Atg5_2026",
+      "locator": "Fig6K; FACS/organoid and qPCR methods",
+      "comparison": "Same support comparison after removing SB431542",
+      "biological_unit": "Legend mouse n=3/group, three experiments; pooled-culture/preparation identity unresolved",
+      "measured_endpoint": "T1alpha RNA",
+      "denominator": "Relative qPCR, not number of lineage-labelled AT1 cells",
+      "timing": "SB removed after day10; exact later harvest day not supplied in inspected method/legend",
+      "joint_endpoint_linkage": "No per-starting-input absolute count or matched matrix key",
+      "interpretation_limit": "AT1-associated RNA can change with cell composition or expression; not a functional maturity endpoint."
+    },
+    {
+      "source": "Atg5_2026",
+      "locator": "Fig6L-M image/legend",
+      "comparison": "Same support comparison",
+      "biological_unit": "Legend n=4/group, three experiments; image/organoid/well/animal hierarchy unresolved",
+      "measured_endpoint": "SPC and PDPN immunostaining ratios",
+      "denominator": "Image axes: SPC+/DAPI+ (%) and PDPN+/SPC+ (%); retain denominator exactly",
+      "timing": "Post-day10 differentiation phase; exact collection time unknown",
+      "joint_endpoint_linkage": "Not the n=5 formation or n=3 RNA units by assumption",
+      "interpretation_limit": "SPC ratio NS and PDPN/SPC ratio lower are marker evidence; neither yields absolute mature descendants per initial AT2 or barrier/gas-exchange function."
+    },
+    {
+      "source": "Atg5_2026",
+      "locator": "Methods Quantification; Fig5; S6/S9",
+      "comparison": "Deletion versus control mouse scRNA-seq",
+      "biological_unit": "Three mice pooled before library preparation; one sequencing library per group",
+      "measured_endpoint": "Cell proportions, RNA, module scores",
+      "denominator": "Cells within one pooled library/group",
+      "timing": "Two weeks after BLM",
+      "joint_endpoint_linkage": "No replicate-aware library-level inference; no individual lineage link",
+      "interpretation_limit": "Published scores and cell counts cannot supply independent biological replication or repair function; no new classifier run."
+    },
+    {
+      "source": "A13",
+      "locator": "docs/research_dossiers/A13.md; RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md",
+      "comparison": "Fibroblast output beyond shared inflammation",
+      "biological_unit": "Existing triad/sample units; strict coverage holds unchanged",
+      "measured_endpoint": "Failed TGF-hallmark/HPCS proxy prediction",
+      "denominator": "Inherited proxies and fixed coverage rules",
+      "timing": "Existing exposed result",
+      "joint_endpoint_linkage": "No selected mediator or actual joint mature outcome",
+      "interpretation_limit": "Keep negative pilot and coverage failure; Atg5 read does not rescue it or nominate an ARG1 mediator."
+    },
+    {
+      "source": "A20",
+      "locator": "RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md; RESULTS.md; extensions/extension_v1/RESULTS.md",
+      "comparison": "Fzd2 versus Fzd1 in AF1-like adult context",
+      "biological_unit": "Original mouse/sample units; human RNA and organoid cohorts not matched",
+      "measured_endpoint": "Support/ECM RNA and separate organoid formation precedent",
+      "denominator": "Primary desired endpoint remains absolute lineage-linked mature output per initial population",
+      "timing": "Early supported AT2 pool versus later maturation must be distinguished",
+      "joint_endpoint_linkage": "No paired human RNA-to-function join",
+      "interpretation_limit": "Source survival, support activity and matrix can differ. Fzd2/Fzd1 remains its own question, not an inferred ARG1 mediator."
+    },
+    {
+      "source": "A8",
+      "locator": "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+      "comparison": "Early frozen component predicting later mature AT1 output",
+      "biological_unit": "Missing independent early-to-later lineage-defined unit link",
+      "measured_endpoint": "Overlap/MYRF measurement diagnostic",
+      "denominator": "Desired absolute mature descendants per starting input",
+      "timing": "Early-to-later timing absent",
+      "joint_endpoint_linkage": "No measured functional target",
+      "interpretation_limit": "No proxy update or classifier; marker score is not fate or mature function."
+    },
+    {
+      "source": "A19",
+      "locator": "RQ_Specified/A19_fzd_response_reversibility/RESULTS.md",
+      "comparison": "Defined input withdrawal versus continuation",
+      "biological_unit": "Source donor lines and organoid cultures, not individual tracked cells",
+      "measured_endpoint": "CHIR-context RNA and transient SFTPC changes",
+      "denominator": "Original RNA normalizers",
+      "timing": "Passage/time changes; lineage selection unresolved",
+      "joint_endpoint_linkage": "No receptor-specific withdrawal plus mature output/AT2 reserve dataset",
+      "interpretation_limit": "Keep conversion-versus-selection uncertainty; no durable functional reserve inferred."
+    },
+    {
+      "source": "A22",
+      "locator": "RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md",
+      "comparison": "Epithelial identity and fibroblast chemokine proxies",
+      "biological_unit": "Wells/targets are not independent donor preparations",
+      "measured_endpoint": "Weak target-holdout gain, failure after NKX2-1 exclusion and plate shift",
+      "denominator": "Inherited RNA/amount proxies",
+      "timing": "Concurrent/post-perturbation variables",
+      "joint_endpoint_linkage": "No measured secreted-protein or lineage endpoint",
+      "interpretation_limit": "Retain unfavorable generalization; C3/identity does not measure secretion or nominate a primary mediator."
+    },
+    {
+      "source": "Yadav2025",
+      "locator": "Research Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md; REVIEW_D.md",
+      "comparison": "Original ARG1-associated matrix/coculture comparisons",
+      "biological_unit": "Existing reviewed mouse/human units; missing joins preserved",
+      "measured_endpoint": "Matrix/protein/relative metabolites",
+      "denominator": "Original source normalizers",
+      "timing": "Original reviewed context",
+      "joint_endpoint_linkage": "No lineage-linked mature epithelial recovery endpoint",
+      "interpretation_limit": "Atg5 is mesenchymal autophagy perturbation, not myeloid ARG1. Separate studies cannot form one joint matrix-repair effect."
+    }
+  ],
+  "decisions": {
+    "T0": "Complete source/endpoint qualification only; exposed literature and repository outcomes",
+    "T1_E": "No numerical joint matrix-versus-mature-repair effect is eligible. Exact conditions for descriptive source reconstruction and new joint design are in T1_DESIGNS.md.",
+    "eligible_independent_work": "Source-key qualification and bounded capability/design specification only, following review; do not infer laboratory access.",
+    "holds": [
+      "Atg5 source-value and animal/preparation/well links unavailable",
+      "AT2 source crossing and mature-function endpoint/time not qualified",
+      "Matrix and mature epithelial outcomes are not jointly linked under ARG1 perturbation",
+      "No justified meaningful-effect margin, biological-unit variance or sample size"
+    ],
+    "accepted_scientific_claim": false
+  }
+}
