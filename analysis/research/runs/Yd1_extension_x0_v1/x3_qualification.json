@@ -1,0 +1,75 @@
+{
+  "metadata_columns": [
+    "",
+    "orig.ident",
+    "nCount_RNA",
+    "nFeature_RNA",
+    "sample",
+    "Day",
+    "treatment"
+  ],
+  "barcode_rows": 50785,
+  "metadata_rows": 50785,
+  "unique_sample_labels": 12,
+  "barcode_set_match": true,
+  "barcode_order_match": true,
+  "feature_rows": 32286,
+  "feature_support": {
+    "Il6": [
+      [
+        "Il6",
+        "Il6"
+      ]
+    ],
+    "P2rx4": [
+      [
+        "P2rx4",
+        "P2rx4"
+      ]
+    ],
+    "Col1a1": [
+      [
+        "Col1a1",
+        "Col1a1"
+      ]
+    ],
+    "Acta2": [
+      [
+        "Acta2",
+        "Acta2"
+      ]
+    ]
+  },
+  "state_annotation_present": false,
+  "known_state_fields": [],
+  "expression_read": false,
+  "cmotag_day_groups": {
+    "Day0": [
+      301,
+      302,
+      303
+    ],
+    "Day7": [
+      304,
+      305,
+      306
+    ],
+    "Day14": [
+      307,
+      308,
+      309
+    ],
+    "Day21": [
+      310,
+      311,
+      312
+    ]
+  },
+  "cmo_to_csv_sample_suffix": "not explicitly mapped; do not infer tag from suffix",
+  "remaining": [
+    "author post-QC retained barcodes and state labels",
+    "demultiplex assignment confidence/ambiguity status",
+    "independent animal/preparation identity",
+    "subset/export of author object and raw matrix after design review"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "method": "Separate CSV reads and Python integers/math.fsum/log1p; no NumPy or main-analysis function reuse",
+  "library_values_checked": 288,
+  "attribution_rows_checked": 120,
+  "contrasts_checked": 48,
+  "crossed_differences_checked": 192,
+  "all_barcode_memberships_checked": 12519,
+  "passed": true,
+  "replication": false,
+  "core_saved_value_checks": 168,
+  "all_barcode_label_QC_count_joins": true
+}

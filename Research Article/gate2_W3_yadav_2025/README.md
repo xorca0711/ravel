@@ -3,7 +3,7 @@
 Prepared 30 October 2026 against fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
 Stable reading ID **16**, Gate **2W**. Reading was recorded complete by 29 October
 and reconfirmed by the owner on 30 October; the exact completion day was not supplied.
-**Current work, 31 October 2026:** the owner authorized the [stepwise extension sequence](extensions_20261031/README.md), informed by the [repo scan](extensions_20261031/REPO_SCAN.md) and [primary-source refresh](extensions_20261031/LITERATURE_CONTEXT.md). X1/X2 add fixed RNA inclusion and protein-panel reconstruction; X3-X5 first qualify state, culture and human-source contexts. [Execution/review ledger](extensions_20261031/EXECUTION_LEDGER.md). The original scope below remains closed with its evidence holds preserved.
+**Current work, 31 October 2026:** [Checkpoint A results and figures](extensions_20261031/CHECKPOINT_A_RESULTS.md) and [X3–X5 source/design holds](extensions_20261031/EXTERNAL_FEASIBILITY.md) have passed [bounded technical review](extensions_20261031/REVIEW_A.md), with source holds preserved and checkpoint-B metadata/synthesis jobs authorized. The [extension plan](extensions_20261031/README.md) and [execution ledger](extensions_20261031/EXECUTION_LEDGER.md) retain scope and next steps. The original scope below remains closed with its evidence holds preserved.
 
 **Original-scope checkpoint:** [completed source-feasibility sequence and synthesis](CONTEXT_AND_SYNTHESIS.md).
 F1-F5/R1 reconstructions, S1 published marginals, C1 portability qualification and

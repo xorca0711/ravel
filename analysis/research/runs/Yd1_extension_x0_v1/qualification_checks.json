@@ -1,0 +1,78 @@
+{
+  "prior_receipts": [
+    {
+      "receipt": "analysis/research/runs/Yd1_annotation_v1/receipt.json",
+      "sha256": "6c8f600ee4d2818f9dc348f213d70a872f21406fddb0a4f7b8e2a6e4b04d4c77",
+      "outputs_verified": 7,
+      "git_commit": "4d5b68f601588b43e98204e793bb7a3fd50bd35f"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_count_integrity_v1/receipt.json",
+      "sha256": "23ebad2aab2ae7dbf404dceed54759cefc0216ec01926fa4e11e788aa05edbe8",
+      "outputs_verified": 6,
+      "git_commit": "8748bf9c34eeb02a0d9c7d1dbbdd0bed136b4ea0"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_figure_display_v2/receipt.json",
+      "sha256": "78309f0e676632c33807cf534cc31e703f7f81d629d4472a414866a8936f9504",
+      "outputs_verified": 13,
+      "git_commit": "f2e75aafa93299b089b39727f0055274b239665c"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_functional_f1_v1/receipt.json",
+      "sha256": "ab6367385f5c9d90c39ac0145c4850f91e4605bf473aacbf0ac0d6649962f647",
+      "outputs_verified": 6,
+      "git_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_functional_f2_v1/receipt.json",
+      "sha256": "92f0aafa91785f6e80679aa993b569da265140366be48bee2c75b72a691a1f37",
+      "outputs_verified": 6,
+      "git_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_functional_f3_v1/receipt.json",
+      "sha256": "cb90ab704b99c8325df4824438ec7ba156d0ff456b5494ef7426b9f7b51c68c8",
+      "outputs_verified": 6,
+      "git_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_functional_f4_v1/receipt.json",
+      "sha256": "9b4fd9bd3a9bb39c4725f8f84a8d3ea75ff8ab779b573cd0252b1e63c57daff7",
+      "outputs_verified": 6,
+      "git_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_functional_f5_v1/receipt.json",
+      "sha256": "e3fa6568654d135bb9b5a6e8397400b77928905b6822153a480b2576a9a28ba7",
+      "outputs_verified": 6,
+      "git_commit": "920765c7fdca143d38ce37a0b88b995a0e8baf40"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_rna_endpoints_v1/receipt.json",
+      "sha256": "da7913f2d46390290271804b52b2653e9bafcab1cc16b2405cf9eb22c2481c3d",
+      "outputs_verified": 8,
+      "git_commit": "088e6b2faa345dea3eff44052fee0ef715a397ea"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_source_qualification_v1/receipt.json",
+      "sha256": "9807234df0860f2c88f5a8f8a5a7e63d0ec0f2f43325f931e7657a9c50303321",
+      "outputs_verified": 6,
+      "git_commit": "6753251515c1c2f1b0aea18997b526b30c107d5c"
+    },
+    {
+      "receipt": "analysis/research/runs/Yd1_spatial_marginals_v1/receipt.json",
+      "sha256": "dd9bc59794c7392317a6ccfd6231cbdca994aa8da8427ed7c8c1dc82dc482126",
+      "outputs_verified": 6,
+      "git_commit": "294a28bc7dae81637efa6ad3e44b4ddd6b39fd71"
+    }
+  ],
+  "prior_outputs_unchanged": true,
+  "panel_mapping": "all numeric occupied cells mapped; all rectangular blanks preserved",
+  "x3_barcode_join": "passed",
+  "x3_expression_extraction": false,
+  "x4_expression_extraction": false,
+  "x5_expression_extraction": false,
+  "scientific_acceptance": "not assessed",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]"
+}

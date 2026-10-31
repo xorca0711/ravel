@@ -5,6 +5,12 @@ repository-wide status scan, additional plausible branches, a finalized stepwise
 plan and execution through the existing technical chat. This opens a new bounded
 extension sequence; the original six-step closeout remains valid for its scope.
 
+**Current checkpoint:** [X0–X2 results/figures](CHECKPOINT_A_RESULTS.md) passed
+[technical review](REVIEW_A.md). Checkpoint B authorizes X3 state/retention recovery,
+a bounded X5 source-access pass and provisional X6 synthesis. X4 remains held.
+[External feasibility](EXTERNAL_FEASIBILITY.md) preserves exact source/design gaps;
+no new external expression comparison is yet authorized.
+
 [Repository scan](REPO_SCAN.md) · [Literature context](LITERATURE_CONTEXT.md) ·
 [Execution/review ledger](EXECUTION_LEDGER.md) ·
 [Original results](../TECHNICAL_RESULTS.md) · [Original synthesis](../CONTEXT_AND_SYNTHESIS.md).
@@ -147,8 +153,9 @@ IL-6 secretion, a causal state transition or a regenerative function.
 and GSE331144, especially native fixed-RNA versus cultured passage-1/passage-6
 assays. The public series currently describes native tissue; availability of
 culture matrices and matched donor/preparation identities is not yet established.
-Do not join bulk culture and single-cell native values as a paired effect without
-valid measurement/normalization support. The May 2026 early-IPF preprint is a
+Checkpoint-A source inspection identifies fixed-RNA profiling for both native
+and cultured material. Do not treat tissue FFPE and fixed cultured cells as a
+paired comparable effect without valid donor/assay/normalization support. The May 2026 early-IPF preprint is a
 second lead; cryobiopsy-versus-explant/site differences confound a simple stage
 contrast. GSE286182 is a referenced cohort, not automatically the full deposited
 early-IPF study. Both records remain preprints in this scan. Return one justified

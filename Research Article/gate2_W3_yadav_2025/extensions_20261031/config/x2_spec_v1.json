@@ -1,0 +1,517 @@
+{
+  "source_pdf": "raw_data/Yd1_source_v1/article.pdf",
+  "source_workbook": "raw_data/Yd1_source_v1/JCI188734.sdval.xlsx",
+  "source_inventory": "analysis/research/runs/Yd1_source_qualification_v1/workbook_cells.tsv",
+  "source_pages": {
+    "4c": 7,
+    "4d": 7,
+    "6c": 9,
+    "6d": 9,
+    "6e": 9,
+    "6f": 9
+  },
+  "rectangles": {
+    "4c": [
+      6,
+      5
+    ],
+    "4d": [
+      8,
+      5
+    ],
+    "6c": [
+      6,
+      4
+    ],
+    "6d": [
+      10,
+      4
+    ],
+    "6e": [
+      10,
+      3
+    ],
+    "6f": [
+      7,
+      7
+    ]
+  },
+  "panels": [
+    {
+      "id": "4C_supernatant",
+      "sheet": "4c",
+      "title": "4C · Mouse macrophage medium",
+      "endpoint": "ARG1 (pg/mL)",
+      "biological_unit": "Reported biological replicate; preparation/animal identity unknown",
+      "groups": [
+        {
+          "id": "untreated",
+          "label": "Untreated",
+          "cells": [
+            "A4",
+            "A5",
+            "A6"
+          ],
+          "note": ""
+        },
+        {
+          "id": "IL6",
+          "label": "IL-6 treated",
+          "cells": [
+            "B4",
+            "B5",
+            "B6"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "IL6_minus_untreated",
+          "target": "IL6",
+          "reference": "untreated"
+        }
+      ],
+      "limit": "72 h medium accumulation, not secretion rate or arginase activity. Workbook amplitudes visibly differ from supplied PDF in untreated group; exact plot reproduction held."
+    },
+    {
+      "id": "4C_lysate",
+      "sheet": "4c",
+      "title": "4C · Mouse macrophage lysate",
+      "endpoint": "ARG1 (pg/mL)",
+      "biological_unit": "Reported biological replicate; preparation/animal identity unknown",
+      "groups": [
+        {
+          "id": "untreated",
+          "label": "Untreated",
+          "cells": [
+            "D4",
+            "D5",
+            "D6"
+          ],
+          "note": ""
+        },
+        {
+          "id": "IL6",
+          "label": "IL-6 treated",
+          "cells": [
+            "E4",
+            "E5",
+            "E6"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "IL6_minus_untreated",
+          "target": "IL6",
+          "reference": "untreated"
+        }
+      ],
+      "limit": "Lysate abundance, not activity. Workbook amplitudes visibly differ from supplied PDF; exact plot reproduction held."
+    },
+    {
+      "id": "4D_BAL",
+      "sheet": "4d",
+      "title": "4D · Day-14 mouse lavage",
+      "endpoint": "BAL ARG1 / CD11b+CD64+ macrophages\n(supplied normalized pg/mL)",
+      "biological_unit": "Reported mouse, 5 per group; cross-assay animal IDs unknown",
+      "groups": [
+        {
+          "id": "WT",
+          "label": "WT",
+          "cells": [
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8"
+          ],
+          "note": ""
+        },
+        {
+          "id": "IL6_KO",
+          "label": "Il6 KO",
+          "cells": [
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "KO_minus_WT",
+          "target": "IL6_KO",
+          "reference": "WT"
+        }
+      ],
+      "limit": "Supplied macrophage-count normalization retained; raw protein numerator and pairing cannot be recovered."
+    },
+    {
+      "id": "4D_qPCR",
+      "sheet": "4d",
+      "title": "4D · Sorted mouse macrophages",
+      "endpoint": "Arg1 mRNA relative to Gapdh",
+      "biological_unit": "Reported mouse, 5 per group; cross-assay animal IDs unknown",
+      "groups": [
+        {
+          "id": "WT",
+          "label": "WT",
+          "cells": [
+            "D4",
+            "D5",
+            "D6",
+            "D7",
+            "D8"
+          ],
+          "note": ""
+        },
+        {
+          "id": "IL6_KO",
+          "label": "Il6 KO",
+          "cells": [
+            "E4",
+            "E5",
+            "E6",
+            "E7",
+            "E8"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "KO_minus_WT",
+          "target": "IL6_KO",
+          "reference": "WT"
+        }
+      ],
+      "limit": "Sorted CD11b+CD64+ cells; zero retained. No assumed pairing to BAL."
+    },
+    {
+      "id": "6C_IL6",
+      "sheet": "6c",
+      "title": "6C · Mouse fibroblast / coculture",
+      "endpoint": "IL-6 (pg/mL)",
+      "biological_unit": "Reported biological replicate, 5 per group; preparation IDs unknown",
+      "groups": [
+        {
+          "id": "WT_alone",
+          "label": "WT\nalone",
+          "cells": [
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6"
+          ],
+          "note": ""
+        },
+        {
+          "id": "KO_alone",
+          "label": "KO\nalone",
+          "cells": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6"
+          ],
+          "note": ""
+        },
+        {
+          "id": "WT_co",
+          "label": "WT\ncoculture",
+          "cells": [
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6"
+          ],
+          "note": ""
+        },
+        {
+          "id": "KO_co",
+          "label": "KO\ncoculture",
+          "cells": [
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "KO_minus_WT_alone",
+          "target": "KO_alone",
+          "reference": "WT_alone"
+        },
+        {
+          "id": "KO_minus_WT_co",
+          "target": "KO_co",
+          "reference": "WT_co"
+        },
+        {
+          "id": "co_minus_alone_WT",
+          "target": "WT_co",
+          "reference": "WT_alone"
+        },
+        {
+          "id": "co_minus_alone_KO",
+          "target": "KO_co",
+          "reference": "KO_alone"
+        }
+      ],
+      "limit": "Figure color order resolves duplicated sheet headers. P2rx4fl/fl WT control versus Pdgfrb-Cre P2rx4fl/fl; no RNA/protein preparation matching."
+    },
+    {
+      "id": "6D_IL6",
+      "sheet": "6d",
+      "title": "6D · Mouse fibroblast stimulation",
+      "endpoint": "IL-6 (pg/mL)",
+      "biological_unit": "Reported biological replicates n=8,8,5,3; preparation IDs unknown",
+      "groups": [
+        {
+          "id": "WT_untreated",
+          "label": "WT\nuntreated",
+          "cells": [
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9"
+          ],
+          "note": ""
+        },
+        {
+          "id": "WT_ATP",
+          "label": "WT\nATP",
+          "cells": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9"
+          ],
+          "note": ""
+        },
+        {
+          "id": "WT_ATP_p38i",
+          "label": "WT ATP\n+ p38 inh",
+          "cells": [
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6"
+          ],
+          "note": ""
+        },
+        {
+          "id": "KO_ATP",
+          "label": "KO\nATP",
+          "cells": [
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "ATP_minus_untreated_WT",
+          "target": "WT_ATP",
+          "reference": "WT_untreated"
+        },
+        {
+          "id": "p38i_minus_WT_ATP",
+          "target": "WT_ATP_p38i",
+          "reference": "WT_ATP"
+        },
+        {
+          "id": "KO_minus_WT_ATP",
+          "target": "KO_ATP",
+          "reference": "WT_ATP"
+        }
+      ],
+      "limit": "ATP means ATPgammaS; no KO untreated group. Unequal blank tails are structural; no full genotype-by-stimulation interaction."
+    },
+    {
+      "id": "6E_IL6",
+      "sheet": "6e",
+      "title": "6E · Mouse lavage",
+      "endpoint": "IL-6 relative to uninjured\n(supplied normalization)",
+      "biological_unit": "Reported biological replicates n=7,7,6 from mouse BAL; IDs unknown",
+      "groups": [
+        {
+          "id": "WT_uninjured",
+          "label": "WT\nuninjured",
+          "cells": [
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8"
+          ],
+          "note": ""
+        },
+        {
+          "id": "WT_injured",
+          "label": "WT\ninjured",
+          "cells": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8"
+          ],
+          "note": ""
+        },
+        {
+          "id": "KO_injured",
+          "label": "KO\ninjured",
+          "cells": [
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "KO_minus_WT_injured",
+          "target": "KO_injured",
+          "reference": "WT_injured"
+        },
+        {
+          "id": "injured_minus_uninjured_WT",
+          "target": "WT_injured",
+          "reference": "WT_uninjured"
+        }
+      ],
+      "limit": "Figure color order maps groups. Relative normalization, not recovered absolute pg/mL; no KO uninjured arm, no full injury interaction."
+    },
+    {
+      "id": "6F_IL6",
+      "sheet": "6f",
+      "title": "6F · Human fibroblast medium",
+      "endpoint": "IL-6 (pg/mL)",
+      "biological_unit": "Three supplied observations per group; donor/preparation independence unknown",
+      "groups": [
+        {
+          "id": "NT",
+          "label": "NT siRNA",
+          "cells": [
+            "A5",
+            "A6",
+            "A7"
+          ],
+          "note": ""
+        },
+        {
+          "id": "NT_ATP",
+          "label": "NT siRNA\n+ ATP",
+          "cells": [
+            "B5",
+            "B6",
+            "B7"
+          ],
+          "note": ""
+        },
+        {
+          "id": "KD_ATP",
+          "label": "P2RX4 siRNA\n+ ATP",
+          "cells": [
+            "C5",
+            "C6",
+            "C7"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "KD_minus_NT_ATP",
+          "target": "KD_ATP",
+          "reference": "NT_ATP"
+        },
+        {
+          "id": "ATP_minus_baseline_NT",
+          "target": "NT_ATP",
+          "reference": "NT"
+        }
+      ],
+      "limit": "ScrRNA maps to NT siRNA in final figure. No KD unstimulated arm; n=3 does not establish three donors. ATP means ATPgammaS."
+    },
+    {
+      "id": "6F_qPCR",
+      "sheet": "6f",
+      "title": "6F · Human knockdown validation",
+      "endpoint": "P2RX4 mRNA relative to 18S rRNA",
+      "biological_unit": "Three supplied observations per group; donor/preparation independence unknown",
+      "groups": [
+        {
+          "id": "NT",
+          "label": "NT siRNA",
+          "cells": [
+            "F5",
+            "F6",
+            "F7"
+          ],
+          "note": ""
+        },
+        {
+          "id": "KD",
+          "label": "P2RX4 siRNA",
+          "cells": [
+            "G5",
+            "G6",
+            "G7"
+          ],
+          "note": ""
+        }
+      ],
+      "contrasts": [
+        {
+          "id": "KD_minus_NT",
+          "target": "KD",
+          "reference": "NT"
+        }
+      ],
+      "limit": "Separate qPCR assay; no assumed pairing to protein or original RNA libraries."
+    }
+  ],
+  "all_blanks": "Structural/header spacing or unequal group tails; preserved as blanks, never zero. Absent experimental arms are separately held.",
+  "aggregation": "Unpaired source marginals: n, arithmetic mean, sample SD, min, max and target mean minus reference mean. No SEM, CI, p-values, pooled biological effects or population inference.",
+  "exposure": "All supplied sheet values and PDF panels inspected during mapping; old R1/F1-F5/S1 outcomes exposed. No new local X2 summaries yet calculated.",
+  "holds": [
+    "4C exact figure amplitude concordance unresolved: workbook reconstructed explicitly, no digitized correction",
+    "6D full genotype-by-stimulation interaction lacks KO untreated",
+    "6E full genotype-by-injury interaction lacks KO uninjured",
+    "6F KD effect at baseline and stimulation effect within KD lack KD unstimulated"
+  ]
+}
