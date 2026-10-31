@@ -1,5 +1,9 @@
 # RQ2 — ornithine precursor routing versus signaling
 
+**T0 completed 31 October 2026.** Unambiguous processed tracing blocks are eligible for descriptive T1 review. Raw-MS/flux, ambiguous isotope headers and exact published n/error bars retain holds.
+See [source/endpoint results](T0_RESULTS.md) and [exact T1 designs](T1_DESIGNS.md).
+T1 awaits review; the question and prior evidence below are retained.
+
 **Owner: Wg-P06, mechanistic arm.** This is a bounded discriminator for RQ1,
 not a separate canonical question or an assertion that the routes are exclusive.
 [Shared plan](README.md) · [RQ1](RQ1_SUBSTRATE_BALANCE.md) · [literature](LITERATURE_CONTEXT.md).

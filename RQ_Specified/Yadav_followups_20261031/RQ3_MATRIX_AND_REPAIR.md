@@ -1,5 +1,9 @@
 # RQ3 — matrix reduction and mature epithelial recovery
 
+**T0 completed 31 October 2026.** Atg5 formation/RNA/staining evidence is mapped, including its exact ratio denominators. A joint ARG1–matrix–absolute mature repair analysis remains held.
+See [source/endpoint results](T0_RESULTS.md) and [exact T1 designs](T1_DESIGNS.md).
+T1 awaits review; the question and prior evidence below are retained.
+
 **Proposed article-local candidate Yd1-P02.** Purpose: estimate joint functional
 consequences of a qualified source ARG1 intervention, not presume that less
 collagen means more repair. This connects to, but does not replace, canonical

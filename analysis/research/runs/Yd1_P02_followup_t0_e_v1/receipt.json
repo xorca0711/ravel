@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P02.followup_t0_e_v1",
+  "owner": "Yd1-P02",
+  "contract": "RQ_Specified/Yadav_followups_20261031/config/t0_e_contract_v1.json",
+  "contract_sha256": "cd0fbd5cfb27b73d12c42703c31d86a40250dfb59481479474094e8648a0727f",
+  "git_commit": "33c39eed1903cd56bc50de64fd048498b53a6d3b",
+  "started_at": "2026-10-31T04:42:01.653538+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/Yadav_followups_20261031/scripts/qualify_t0_v1.py",
+    "--job",
+    "e",
+    "--output",
+    "analysis/research/runs/Yd1_P02_followup_t0_e_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5.xml",
+      "sha256": "6cb5d352884e95c674ea61330b2c1991737e0e8f558a88c8db02b04aeb24cc06",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5_fig2.jpg",
+      "sha256": "d53c5a3ae6a76bb0d708b695b2ab9a73f0621bc5ec05c1d350a6f409af3923e3",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5_fig6.jpg",
+      "sha256": "d92fc0778b623616095c12b10569ebe9e678c34def2563d2a583158e028c353d",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5_supp_attempt.pdf",
+      "sha256": "9cbcab2efb7cc4e08c428682f1f363263c52a12d604378cea157965004942868",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/atg5_supp_elsevier.pdf",
+      "sha256": "dee88a9e5082b48c7280fe5bda864877e1c996111006bc426d3d1559f22d1dc6",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v1.json",
+      "sha256": "1c83cb93dbbec656d94c84d7fd0bf160dcc438bfce962cdd06674cb815c85723",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v2.json",
+      "sha256": "24048cce6f58338e44106ba90b2d35ab0c3024b82e7e67dcf22dce1885e23a99",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "sha256": "9a42edfecf0548c40706d631d5629faa65bb8739f3f8c8c1f26a89d9d9a9cec8",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "sha256": "5161e753fe511f071a8563479037d22a109a61948ac739f37e26dab52de8d358",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v5.json",
+      "sha256": "b2b8a1b328f54de9a3dabd34af5ab6dfbc5db851ad2adac179cf7ca953661f71",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v6.json",
+      "sha256": "41be8557b2c35e626be81f585f7f7a18cffe9bbe4e749a75ed4db13f69010573",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v7.json",
+      "sha256": "05f6ca096a59b0d161702ce86c17349a6a77ed720ab12a4e234e8b73b80322ba",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/web_access_log_v1.json",
+      "sha256": "595269ae86a5d526d12189052ca93b157594dc6abc980040ac841b2abdd7429c",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md",
+      "sha256": "a70bffbb6f3755a2ad1cd8f9ac9c14e403ccecc02d8186812ed46d167b561d0a",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_D.md",
+      "sha256": "470e3be978d3169025b3f91b14e9bcf8e3bd59d42734507cfcee53a9e40f8368",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_dossiers/A13.md",
+      "sha256": "ae5479b9d27558b4eb9905ba454c1884c604f6cd5f4937868f6d1991255a1e62",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md",
+      "sha256": "1fb9ad8fc26c1b14543184dee15d6e6ea55b9c22a5fdfaa6bf89a824345e9cce",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md",
+      "sha256": "41fe4ecc8b749007efeb242f4a63d4e35960b16bf1708598448263b06c3aa477",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md",
+      "sha256": "9339e9491e5255d96dcd8788895d8c064d3bd0f4ea1eb8e783a4a9e2cd091212",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A20_fibroblast_fzd_context/extensions/extension_v1/RESULTS.md",
+      "sha256": "c088da2dc6801a25ed47b9788a289615633e9a25a36d86f2033c5d68a12de08e",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+      "sha256": "bbabcf7bff9798c84151f03d5f2faa5bb758897b382e572cbddbc3c4c23e1a5d",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A19_fzd_response_reversibility/RESULTS.md",
+      "sha256": "6757f68de85d1f21cea203718c90f5eb70f6af9edb5022b1350ebe02bc4d5330",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md",
+      "sha256": "451206fa6b9eb644a04e702bb549f4e17826e0773eeba071b0f12e2d9ba778c1",
+      "study_id": "Atg5_2026_and_repository",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/qualify_t0_v1.py",
+      "sha256": "ef5ffb109b3f959f0cdcd1ea137ba59af970bdfbdfd4c3e94fb5014496df764c"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/verify_t0_v1.py",
+      "sha256": "e3a167ac22b10f5c258fb119e5a29994dac5e2d8eade0960db1d0041c41d9855"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t0_e_spec_v1.json",
+      "sha256": "2aabf11571329dd7f9586ea57ab72b53e14aa935ec1d746471f79b51833abe57"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Yd1_P02_followup_t0_e_v1/source_access.json",
+      "sha256": "19982471ef0fafff3fa4eb54df84d8c51b116b8f15c593189c07cc8db2799a12"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_P02_followup_t0_e_v1/t1_disposition.json",
+      "sha256": "a29c1ec1afb372ed4f224b9304ce789fbbf93fa53f9fa27607cfa98f3439046a"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_P02_followup_t0_e_v1/endpoint_unit_map.csv",
+      "sha256": "bbbe660760ddfb342def4daa92cae33b35990354534c325b3ad7bda221e63bf0"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-31T04:42:02.761039+00:00"
+}
