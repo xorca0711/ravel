@@ -209,3 +209,13 @@ No expression comparison or scientific acceptance is authorized. Checkpoint C
 returns one qualified source/design or evidence-backed holds. Integration passed
 12,211 repository checks and the current-main research gate; C is eligible
 for dispatch. B metadata completion does not close X5 or X6.
+
+## Checkpoint C dispatched — 31 October 2026
+
+The sole authorized execution chat received reviewed integration
+`0c24535344e214f888405dcb2755b0f7faa5699d` and the complete Gupta/Wigerblad
+metadata/design handoff. It is confirmed active in turn
+`01a18fb1-86b4-7f01-866e-1c4ceaab2f8d` on host `local`.
+Latest wait cursor: `51593419-65e5-454d-96df-3e67caaaccb8:27`.
+Checkpoint review remains active. No external expression comparison is authorized;
+the next review decides one specific eligible design or records precise holds.

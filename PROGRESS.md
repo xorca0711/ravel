@@ -22,7 +22,9 @@ The X6 matrix retains substrate balance and mature epithelial function separatel
 Fresh main is unchanged at 8cb50dd15a12a41abc6d5edb36349d33fc512661. Integration
 retains both appended ledgers. Integration passed 12,211 repository checks and
 the current-main research gate (`ok: true`, no errors). Valid prior tests were
-reused; no biological analysis was rerun for this integration. New primary-paper full-text lookups returned access
+reused; no biological analysis was rerun for this integration.
+Checkpoint C was dispatched from 0c24535344e214f888405dcb2755b0f7faa5699d;
+the technical chat is confirmed active and scheduled artifact review continues. New primary-paper full-text lookups returned access
 challenges/HTTP 500; only indexed primary leads are claimed as read in this review.
 
 ## Yadav checkpoint B returned for review — 31 October 2026
