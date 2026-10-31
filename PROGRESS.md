@@ -21,8 +21,9 @@ D was documentation only. Review verified all 120 output hashes, unchanged 115
 contracts/109 receipts and canonical questions/guides, and preservation of the
 provisional matrix. Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
 Final integration passed 12,298 repository checks and the current-main research
-gate (`ok: true`, no errors), reusing valid inherited tests. The heartbeat will
-be paused after this local delivery; no remote publication or outreach occurred.
+gate (`ok: true`, no errors), reusing valid inherited tests. Reviewed integration
+is `1fe927d9b73e9cd1dada0d4a93043f6b678794c5`. The heartbeat is confirmed
+**PAUSED**; no remote publication or outreach occurred.
 
 ## Yadav checkpoint D final synthesis returned for review — 31 October 2026
 
