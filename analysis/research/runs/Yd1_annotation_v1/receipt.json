@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.annotation_v1",
+  "owner": "Yd1-P01",
+  "contract": "Research Article/gate2_W3_yadav_2025/config/annotation_contract_v1.json",
+  "contract_sha256": "7e6096443ff2d9e693b6dd2d51dba18bc63f363591b5b5e74fba5c3abc763875",
+  "git_commit": "4d5b68f601588b43e98204e793bb7a3fd50bd35f",
+  "started_at": "2026-10-30T08:14:08.821562+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W3_yadav_2025/scripts/annotate_coculture_v1.py",
+    "--output",
+    "analysis/research/runs/Yd1_annotation_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_RAW.tar",
+      "sha256": "006b9c931cbd44aa498ce26e3d0d66e36faef6884b15aeda2496250e46a1351e",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/geo_library_qualification.json",
+      "sha256": "ba17f81c4dffbc794869ac6c059542ff17cb47ffd080932764c9cd2b8ba20037",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_count_integrity_v1/cell_qc.csv",
+      "sha256": "232b643f7a1ee18b4fe818979940c0953f274300edd04df815cc0a1ebcf31df4",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/annotate_coculture_v1.py",
+      "sha256": "cf00faa4ae7373bca7d2014b244d85cc59aae87baa96b17a28f50b4dab4fb35c"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/count_integrity_v1.py",
+      "sha256": "c36e2fe6fa30e9adbffbe88a4253a076c88cb8e192839773d4382533c1ef2cdd"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/config/annotation_spec_v1.json",
+      "sha256": "f7635b86fa08c0a98776240d3b9a34c930f2080338c233be76c38df9657cba88"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/cell_labels.csv",
+      "sha256": "949aa1ec8ee1b02f0edf2c72718d87e4b3b6d2ebcf7e535e5ca1f21f54a3da50"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/composition.csv",
+      "sha256": "3f36fb7692d4bade1fd3eb548b26aee7e5a8d698689d43112bb84ba49eed5639"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/class_eligibility.csv",
+      "sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/marker_support.csv",
+      "sha256": "07a893e88399f7e43ea7c703f6885456440070bc157a7f10eb15c099ed1d693a"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/annotation.png",
+      "sha256": "f6a678950f16a1465f8fa76ab7351e4aa00dba08243d5399ae4c38ba170e402e"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/annotation.pdf",
+      "sha256": "7906bf9b8da924367e78c5d490d89959951bdb031ab7fdfce5e42c7636ebcb9e"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/runtime.json",
+      "sha256": "46cabaf2878a097721d0f841508cb555157285f9c650e18b7707c6e5994677e6"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T08:14:22.589567+00:00"
+}

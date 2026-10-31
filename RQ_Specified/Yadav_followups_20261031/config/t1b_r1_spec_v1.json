@@ -1,0 +1,1091 @@
+{
+  "owner": "Wg-P06",
+  "job": "r1",
+  "endpoint": "source-reported isotope-channel percentage; not validated normalized composition",
+  "blocks": [
+    {
+      "id": "3B_Arginine",
+      "sheet": "Figure 3B",
+      "metabolite": "Arginine",
+      "metabolite_column": "B",
+      "group_column": "C",
+      "header_row": 3,
+      "observations": [
+        {
+          "row": 4,
+          "sample_label": "Pos_13C6_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 5,
+          "sample_label": "Pos_13C6_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 6,
+          "sample_label": "Pos_13C6_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 7,
+          "sample_label": "Pos_13C6_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 8,
+          "sample_label": "Pos_13C6_Arg_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 9,
+          "sample_label": "Pos_13C6_Arg_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 10,
+          "sample_label": "Pos_13C6_Arg_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 11,
+          "sample_label": "Pos_13C6_Arg_TGFb_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "13C6-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "K",
+            "Q"
+          ],
+          "unit_cell": "K2",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "K3": "M+0",
+            "L3": "M+1",
+            "M3": "M+2",
+            "N3": "M+3",
+            "O3": "M+4",
+            "P3": "M+5",
+            "Q3": "M+6"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3B_Ornithine",
+      "sheet": "Figure 3B",
+      "metabolite": "Ornithine",
+      "metabolite_column": "B",
+      "group_column": "C",
+      "header_row": 14,
+      "observations": [
+        {
+          "row": 15,
+          "sample_label": "Pos_13C6_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 16,
+          "sample_label": "Pos_13C6_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 17,
+          "sample_label": "Pos_13C6_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 18,
+          "sample_label": "Pos_13C6_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 19,
+          "sample_label": "Pos_13C6_Arg_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 20,
+          "sample_label": "Pos_13C6_Arg_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 21,
+          "sample_label": "Pos_13C6_Arg_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 22,
+          "sample_label": "Pos_13C6_Arg_TGFb_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "13C6-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "O"
+          ],
+          "unit_cell": "J13",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J14": "M+0",
+            "K14": "M+1",
+            "L14": "M+2",
+            "M14": "M+3",
+            "N14": "M+4",
+            "O14": "M+5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3B_Citrulline",
+      "sheet": "Figure 3B",
+      "metabolite": "Citrulline",
+      "metabolite_column": "B",
+      "group_column": "C",
+      "header_row": 25,
+      "observations": [
+        {
+          "row": 26,
+          "sample_label": "Pos_13C6_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 27,
+          "sample_label": "Pos_13C6_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 28,
+          "sample_label": "Pos_13C6_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 29,
+          "sample_label": "Pos_13C6_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 30,
+          "sample_label": "Pos_13C6_Arg_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 31,
+          "sample_label": "Pos_13C6_Arg_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 32,
+          "sample_label": "Pos_13C6_Arg_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 33,
+          "sample_label": "Pos_13C6_Arg_TGFb_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "13C6-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "K",
+            "Q"
+          ],
+          "unit_cell": "K24",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "K25": "M+0",
+            "L25": "M+1",
+            "M25": "M+2",
+            "N25": "M+3",
+            "O25": "M+4",
+            "P25": "M+5",
+            "Q25": "M+6"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3B_Argininosuccinate",
+      "sheet": "Figure 3B",
+      "metabolite": "Argininosuccinate",
+      "metabolite_column": "B",
+      "group_column": "C",
+      "header_row": 36,
+      "observations": [
+        {
+          "row": 37,
+          "sample_label": "Pos_13C6_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 38,
+          "sample_label": "Pos_13C6_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 39,
+          "sample_label": "Pos_13C6_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 40,
+          "sample_label": "Pos_13C6_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 41,
+          "sample_label": "Pos_13C6_Arg_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 42,
+          "sample_label": "Pos_13C6_Arg_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 43,
+          "sample_label": "Pos_13C6_Arg_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 44,
+          "sample_label": "Pos_13C6_Arg_TGFb_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "13C6-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "O",
+            "Y"
+          ],
+          "unit_cell": "O35",
+          "unit_literal": "Natural abundance corrected percentage",
+          "isotope_headers": {
+            "O36": "M+0",
+            "P36": "M+1",
+            "Q36": "M+2",
+            "R36": "M+3",
+            "S36": "M+4",
+            "T36": "M+5",
+            "U36": "M+6",
+            "V36": "M+7",
+            "W36": "M+8",
+            "X36": "M+9",
+            "Y36": "M+10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3B_Dimethylarginine",
+      "sheet": "Figure 3B",
+      "metabolite": "Dimethylarginine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 47,
+      "observations": [
+        {
+          "row": 48,
+          "sample_label": "Pos_13C6_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 49,
+          "sample_label": "Pos_13C6_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 50,
+          "sample_label": "Pos_13C6_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 51,
+          "sample_label": "Pos_13C6_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 52,
+          "sample_label": "Pos_13C6_Arg_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 53,
+          "sample_label": "Pos_13C6_Arg_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 54,
+          "sample_label": "Pos_13C6_Arg_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 55,
+          "sample_label": "Pos_13C6_Arg_TGFb_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "13C6-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "M",
+            "U"
+          ],
+          "unit_cell": "M46",
+          "unit_literal": "Natural abundance corrected percentage",
+          "isotope_headers": {
+            "M47": "M+0",
+            "N47": "M+1",
+            "O47": "M+2",
+            "P47": "M+3",
+            "Q47": "M+4",
+            "R47": "M+5",
+            "S47": "M+6",
+            "T47": "M+7",
+            "U47": "M+8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3D_Arginine",
+      "sheet": "Figure 3D",
+      "metabolite": "Arginine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 3,
+          "sample_label": "HP_15N2_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 4,
+          "sample_label": "HP_15N2_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 5,
+          "sample_label": "HP_15N2_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 6,
+          "sample_label": "HP_15N2_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 7,
+          "sample_label": "HP_TG_15N2_Arg_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 8,
+          "sample_label": "HP_TG_15N2_Arg_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 9,
+          "sample_label": "HP_TG_15N2_Arg_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 10,
+          "sample_label": "HP_TG_15N2_Arg_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "guanido-15N2-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3D_Argininosuccinate",
+      "sheet": "Figure 3D",
+      "metabolite": "Argininosuccinate",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 12,
+          "sample_label": "HP_15N2_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 13,
+          "sample_label": "HP_15N2_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 14,
+          "sample_label": "HP_15N2_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 15,
+          "sample_label": "HP_15N2_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 16,
+          "sample_label": "HP_TG_15N2_Arg_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 17,
+          "sample_label": "HP_TG_15N2_Arg_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 18,
+          "sample_label": "HP_TG_15N2_Arg_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 19,
+          "sample_label": "HP_TG_15N2_Arg_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "guanido-15N2-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3D_Citrulline",
+      "sheet": "Figure 3D",
+      "metabolite": "Citrulline",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 21,
+          "sample_label": "HP_15N2_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 22,
+          "sample_label": "HP_15N2_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 23,
+          "sample_label": "HP_15N2_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 24,
+          "sample_label": "HP_15N2_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 25,
+          "sample_label": "HP_TG_15N2_Arg_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 26,
+          "sample_label": "HP_TG_15N2_Arg_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 27,
+          "sample_label": "HP_TG_15N2_Arg_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 28,
+          "sample_label": "HP_TG_15N2_Arg_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "guanido-15N2-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3H_Ornithine",
+      "sheet": "Figure 3H",
+      "metabolite": "Ornithine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 3,
+          "sample_label": "HP_15N2_Orn_01",
+          "condition": "UT"
+        },
+        {
+          "row": 4,
+          "sample_label": "HP_15N2_Orn_02",
+          "condition": "UT"
+        },
+        {
+          "row": 5,
+          "sample_label": "HP_15N2_Orn_03",
+          "condition": "UT"
+        },
+        {
+          "row": 6,
+          "sample_label": "HP_15N2_Orn_04",
+          "condition": "UT"
+        },
+        {
+          "row": 7,
+          "sample_label": "HP_TG_15N2_Orn_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 8,
+          "sample_label": "HP_TG_15N2_Orn_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 9,
+          "sample_label": "HP_TG_15N2_Orn_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 10,
+          "sample_label": "HP_TG_15N2_Orn_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "15N2-Orn",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3H_Citrulline",
+      "sheet": "Figure 3H",
+      "metabolite": "Citrulline",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 13,
+          "sample_label": "HP_15N2_Orn_01",
+          "condition": "UT"
+        },
+        {
+          "row": 14,
+          "sample_label": "HP_15N2_Orn_02",
+          "condition": "UT"
+        },
+        {
+          "row": 15,
+          "sample_label": "HP_15N2_Orn_03",
+          "condition": "UT"
+        },
+        {
+          "row": 16,
+          "sample_label": "HP_15N2_Orn_04",
+          "condition": "UT"
+        },
+        {
+          "row": 17,
+          "sample_label": "HP_TG_15N2_Orn_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 18,
+          "sample_label": "HP_TG_15N2_Orn_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 19,
+          "sample_label": "HP_TG_15N2_Orn_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 20,
+          "sample_label": "HP_TG_15N2_Orn_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "15N2-Orn",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3H_Proline",
+      "sheet": "Figure 3H",
+      "metabolite": "Proline",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 23,
+          "sample_label": "HP_15N2_Orn_01",
+          "condition": "UT"
+        },
+        {
+          "row": 24,
+          "sample_label": "HP_15N2_Orn_02",
+          "condition": "UT"
+        },
+        {
+          "row": 25,
+          "sample_label": "HP_15N2_Orn_03",
+          "condition": "UT"
+        },
+        {
+          "row": 26,
+          "sample_label": "HP_15N2_Orn_04",
+          "condition": "UT"
+        },
+        {
+          "row": 27,
+          "sample_label": "HP_TG_15N2_Orn_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 28,
+          "sample_label": "HP_TG_15N2_Orn_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 29,
+          "sample_label": "HP_TG_15N2_Orn_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 30,
+          "sample_label": "HP_TG_15N2_Orn_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "15N2-Orn",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3H_Putrescine",
+      "sheet": "Figure 3H",
+      "metabolite": "Putrescine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 33,
+          "sample_label": "Pos_HP_15N2_Orn_01",
+          "condition": "UT"
+        },
+        {
+          "row": 34,
+          "sample_label": "Pos_HP_15N2_Orn_02",
+          "condition": "UT"
+        },
+        {
+          "row": 35,
+          "sample_label": "Pos_HP_15N2_Orn_03",
+          "condition": "UT"
+        },
+        {
+          "row": 36,
+          "sample_label": "Pos_HP_15N2_Orn_04",
+          "condition": "UT"
+        },
+        {
+          "row": 37,
+          "sample_label": "Pos_HP_TG_15N2_Orn_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 38,
+          "sample_label": "Pos_HP_TG_15N2_Orn_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 39,
+          "sample_label": "Pos_HP_TG_15N2_Orn_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 40,
+          "sample_label": "Pos_HP_TG_15N2_Orn_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "HPLM",
+      "tracer": "15N2-Orn",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4D_Arginine",
+      "sheet": "Figure 4D",
+      "metabolite": "Arginine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 3,
+          "sample_label": "DM_15N2_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 4,
+          "sample_label": "DM_15N2_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 5,
+          "sample_label": "DM_15N2_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 6,
+          "sample_label": "DM_15N2_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 7,
+          "sample_label": "DM_TG_15N2_Arg_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 8,
+          "sample_label": "DM_TG_15N2_Arg_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 9,
+          "sample_label": "DM_TG_15N2_Arg_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 10,
+          "sample_label": "DM_TG_15N2_Arg_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "DMEM",
+      "tracer": "guanido-15N2-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4D_Argininosuccinate",
+      "sheet": "Figure 4D",
+      "metabolite": "Argininosuccinate",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 13,
+          "sample_label": "DM_15N2_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 14,
+          "sample_label": "DM_15N2_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 15,
+          "sample_label": "DM_15N2_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 16,
+          "sample_label": "DM_15N2_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 17,
+          "sample_label": "DM_TG_15N2_Arg_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 18,
+          "sample_label": "DM_TG_15N2_Arg_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 19,
+          "sample_label": "DM_TG_15N2_Arg_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 20,
+          "sample_label": "DM_TG_15N2_Arg_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "DMEM",
+      "tracer": "guanido-15N2-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4D_Citrulline",
+      "sheet": "Figure 4D",
+      "metabolite": "Citrulline",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 23,
+          "sample_label": "DM_15N2_Arg_01",
+          "condition": "UT"
+        },
+        {
+          "row": 24,
+          "sample_label": "DM_15N2_Arg_02",
+          "condition": "UT"
+        },
+        {
+          "row": 25,
+          "sample_label": "DM_15N2_Arg_03",
+          "condition": "UT"
+        },
+        {
+          "row": 26,
+          "sample_label": "DM_15N2_Arg_04",
+          "condition": "UT"
+        },
+        {
+          "row": 27,
+          "sample_label": "DM_TG_15N2_Arg_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 28,
+          "sample_label": "DM_TG_15N2_Arg_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 29,
+          "sample_label": "DM_TG_15N2_Arg_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 30,
+          "sample_label": "DM_TG_15N2_Arg_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "medium": "DMEM",
+      "tracer": "guanido-15N2-Arg",
+      "measures": [
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "J",
+            "N"
+          ],
+          "unit_cell": "J1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "J2": "M+0",
+            "K2": "M+1",
+            "L2": "M+2",
+            "M2": "M+3",
+            "N2": "M+4"
+          }
+        }
+      ]
+    }
+  ],
+  "scope_holds": [
+    "All original T1-A vector/summary holds remain unchanged; this is a distinct literal-channel endpoint.",
+    "No R1 areas or B1 rerun; no raw-MS, flux, collagen transfer or source ARG1 effect."
+  ]
+}

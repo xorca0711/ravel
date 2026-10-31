@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.spatial_marginals_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What range and marginal mean separation are present in the two explicitly labeled columns of the published Fig. 5B probability ratio?",
+  "decision": "Complete the available source-level spatial description while retaining an evidence-backed raw-reconstruction and patient-inference hold.",
+  "strongest_rival": "Published ratios depend on unavailable spatial inputs, class definitions and aggregation; category/denominator mismatch or tissue structure can explain apparent proximity without biological interaction.",
+  "discriminator": "Preserve every source value and coordinate, identify only the two published marginal distributions and their mean difference, and state the raw data/definition/pairing gaps. No new spatial statistic or causal inference.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/SPATIAL_CONTEXT_AUDIT.md",
+    "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All 18 workbook values, headers, published Fig. 5B outcome and spatial Methods have been viewed before this freeze. The existing F1-F5/R1 results are exposed. This is transparent descriptive reuse.",
+  "biological_unit": "Nine patients are reported in Fig. 5B; local reporting units are anonymous published source-statistic values. Patient/FOV and paired-column joins are unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Fields/cells/subsamples are nested within patients; exact joins are missing. The two columns may share patients as the legend states a paired design, but row correspondence is not inferred. Table S1 also marks one participant for both Xenium and MIBI.",
+  "population_and_selection": "All 18 published Fig. 5B workbook values in columns A/B rows 2-10, with published IL6-positive/negative fibroblast labels. Selected published source tissue, no new cohort.",
+  "contrast": "Arithmetic mean of IL6-positive fibroblast ratios minus mean of IL6-negative fibroblast ratios. This is a marginal source contrast, not a recovered paired patient effect.",
+  "endpoint": "Already computed published probability ratio at 25 micrometres; n, mean, median, minimum and maximum per labeled column, plus one fixed mean difference.",
+  "methods": "Exact spatial_marginals_spec_v1.json mapping; verify original headers and all source values; display unlinked points/means and ratio-one reference line. No probability-ratio recalculation.",
+  "missingness_and_exclusions": "Require all nine numeric values in each declared range and exact normalized header labels. Missingness/header mismatch stops the run. No exclusions, pairing or invented identities.",
+  "multiplicity": "One prespecified descriptive mean difference; no significance tests, intervals, nulls or radius selection.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Patient-effect precision cannot be estimated without source-to-patient and paired-column qualification; no interval is constructed.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Published marginal descriptions only, not raw spatial reconstruction, validated category semantics, independent patient replication, transfer, signaling or epithelial regeneration.",
+  "stop_rule": "Stop after all 18 values, two marginal summaries and one mean difference are retained. Raw reconstruction and patient effects remain held pending the explicit evidence in SPATIAL_CONTEXT_AUDIT.md.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/workbook_cells.tsv",
+      "sha256": "a2b843f27989b3068b6d5cf39dcc710bb19437e76dd1bc4f77bac3139b0e6e29",
+      "study_id": "JCI188734_Fig5B",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/JCI188734.sdval.xlsx",
+      "sha256": "7e8e08ec935c23bcee3fc7a4059f4a13913dd04932759968c73d47d33ac80759",
+      "study_id": "JCI188734_Fig5B",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/spatial_marginals_v1.py",
+      "sha256": "5febabe63649bbebc29e0faf30a566c5769a112703955b7cefefaa50eaac6cba"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/config/spatial_marginals_spec_v1.json",
+      "sha256": "8a4bf33e7d49b51f4241ba068e5d6b1fc97ac0b14c6d67e7be1c86027028c2c8"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/scripts/spatial_marginals_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "observations.csv",
+    "marginal_summaries.csv",
+    "contrast.csv",
+    "spatial_marginals.png",
+    "spatial_marginals.pdf",
+    "runtime.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed S1 marginal description; separate from unavailable raw spatial reconstruction."
+}

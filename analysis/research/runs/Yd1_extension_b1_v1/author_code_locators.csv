@@ -1,0 +1,20 @@
+line,text
+14,"d0@meta.data$Day <- ""Day0"""
+23,"d7@meta.data$Day <- ""Day7"""
+32,"d14@meta.data$Day <- ""Day14"""
+41,"d21@meta.data$Day <- ""Day21"""
+43,"d0@meta.data$treatment <- ""Untreated"""
+44,"d7@meta.data$treatment <- ""Bleomycin"""
+45,"d14@meta.data$treatment <- ""Bleomycin"""
+46,"d21@meta.data$treatment <- ""Bleomycin"""
+57,"MG <- FindClusters(MG, resolution = 0.8)"
+60,"saveRDS(MG, file = ""MG.rds"")"
+78,"MG <- subset(MG, idents = c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16))"
+87,"MG <- FindClusters(MG, resolution = 0.3)"
+93,names(annotation) <- levels(MG)
+94,"MG <- RenameIdents(MG, annotation)"
+95,"saveRDS(MG, file = ""MGcleaned.rds"")"
+100,"saveRDS(MG, file = ""MGcleaned.rds"")"
+104,meta$sample <- MG@meta.data$sample
+106,"write.table(meta, file=""meta.txt"")"
+123,"saveRDS(MG.markers, ""MGmarkers.rds"")"

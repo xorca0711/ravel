@@ -1,0 +1,22 @@
+{
+  "original_spec": "Research Article/gate2_W3_yadav_2025/config/rna_endpoints_spec_v1.json",
+  "labels": [
+    "fibroblast_like",
+    "macrophage_like",
+    "mixed_fibroblast_macrophage",
+    "other_or_mixed",
+    "unassigned"
+  ],
+  "inclusion_sets": [
+    "core",
+    "core_plus_mixed"
+  ],
+  "mixed_label": "mixed_fibroblast_macrophage",
+  "expected_barcodes": 12519,
+  "primary_metric": "mean_log1p_per10k",
+  "attribution": "Per GSM, original QC and original label: n, raw target total, detection fraction, share of ALL QC-retained Arg1 or Il6 raw target counts. Empty class detection undefined; total target zero share undefined.",
+  "eligibility": "Original core eligibility is mandatory in both sets; never rescued by mixed. No threshold tuning or relabeling.",
+  "comparisons": "Unchanged original three contrasts, equal weight for two libraries each, all four crossed differences. Both sets and QC masks overlap.",
+  "limits": "Mixed inclusion is an assignment sensitivity, not true lineage reassignment, an ambient correction, contamination bound, independent replication or a population interval.",
+  "exposure": "All original core outcomes and mixed-cell composition exposed. New mixed-inclusive outcomes not yet calculated at freeze."
+}

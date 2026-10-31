@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-P06.followup_t1b_r1_v1",
+  "owner": "Wg-P06",
+  "contract": "RQ_Specified/Yadav_followups_20261031/config/t1b_r1_contract_v1.json",
+  "contract_sha256": "297201931d9cb7f9c2e8d0bf29999fd0e3981f58463f4f3c4fa4fa43473aeee9",
+  "git_commit": "53a5f8f3cee36ed67eb87afdbf53017324ee6c74",
+  "started_at": "2026-10-31T05:54:48.659079+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/Yadav_followups_20261031/scripts/describe_t1b_v1.py",
+    "--job",
+    "r1",
+    "--output",
+    "analysis/research/runs/Wg_P06_followup_t1b_r1_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_metabolomics_v1.xlsx",
+      "sha256": "d8d3365b226323d3ebe7300c481625049ae1cae3f78948938956240b8ea79f4f",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_figshare_listing.json",
+      "sha256": "e7fc9d1789cb3ea78e8c927c750ed3499358b90ecd19d4e1de45e188ff27adc4",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka.xml",
+      "sha256": "a98f4a62e44198bb46123122642c29516703c1c70aad6b123aecc0354a49c82e",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_bcj-482-12-BCJ20253033-supp1.pdf",
+      "sha256": "a06be2576610b0cea3ca62a8951c3794a05e8921c8b813c5025783100cfeed0d",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t0_br_v1/workbook_layout.json",
+      "sha256": "f10db5e28ab90bd98a108fd79b191657f557371eca8b81a0a0fefdd3de51db00",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md",
+      "sha256": "2b464a865908671edf306c56963984c4d46def9dbda40f03565886297250a86e",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/R2_DESIGN.md",
+      "sha256": "3b3dd6432ccb254793ae83897b6c81a4d15f3f24511960901d7c5b3e3cb1dcff",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1a_r1_v1/observation_qc.csv",
+      "sha256": "4825eb176120fb0ceb755a7bdd7e20ece7622cba74aff0a1acb73a4b8d15c47d",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/t1a_common_v1.py",
+      "sha256": "434753a96d066eb5c097937f7fac072a56d4aa70c72105654f90a0824c1acdc5"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/describe_t1b_v1.py",
+      "sha256": "0cab110c7d21b254597c0aafa47770251364e70f9879b88073567730563ed5ca"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/verify_t1b_v1.py",
+      "sha256": "9c40dfe26c0110377bb17026a19a642f6a314c9900ad5fe87436ded9e141e86d"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t1b_r1_spec_v1.json",
+      "sha256": "5cd4d3a41a7906ba89eeba41cda1ea66ef89fcecfdfdd83d0b1c87b4d01f34dc"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/source_values.csv",
+      "sha256": "f4675b02fb5623236b845b602904b7cedcae12be90d6c1c67075eae48d04568c"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/unit_and_header_map.csv",
+      "sha256": "e7817f2a34310d8f1eb1bc172601bfa00526762546829e880e976e45bd02904a"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/vector_qc.csv",
+      "sha256": "372445c19f1ca92f81702885b149051785b9688e890ac59de417af747b820850"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/summaries.csv",
+      "sha256": "a13f7f82f0d096f59d3943a80178efcf7e27977e5d46fc134b1d2eab163d919d"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/descriptive_differences.csv",
+      "sha256": "b93ec3e7cf7ca7ace7d3843fbade5005ac8416b4c8d67f460517fd8e6acbb97d"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/reported_percent_channels.png",
+      "sha256": "c764597a97b52f4b86d697c30326ef68a29a43c7849aeaff82263d26fc287ec2"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/reported_percent_channels.pdf",
+      "sha256": "e77a780f56570cb4153dc762db7abeb0636892ed5a15f62a6fce640970f3fcd6"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/disposition.json",
+      "sha256": "d0324758c6271d59808d47ace963daac63a9f57ed951d73af14829d10e7af114"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-31T05:55:01.510503+00:00"
+}

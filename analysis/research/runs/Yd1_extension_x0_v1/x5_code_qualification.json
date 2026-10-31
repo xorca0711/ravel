@@ -1,0 +1,38 @@
+{
+  "repository": "Khatri-Lab/SCAHN",
+  "revision": "a767278972b09ce991d86fde53bb1332bb194c35",
+  "tree_truncated": false,
+  "dependencies": [
+    {
+      "path": "data/samplemeta.csv",
+      "present_in_tree": false
+    },
+    {
+      "path": "results/annotation/SCAHN.cellmeta.csv",
+      "present_in_tree": false
+    },
+    {
+      "path": "results/annotation/SCAHN.subsetproportion.rds",
+      "present_in_tree": false
+    },
+    {
+      "path": "data/cellnumber.rds",
+      "present_in_tree": false
+    },
+    {
+      "path": "results/tables/SCAHN.tableS1.csv",
+      "present_in_tree": false
+    },
+    {
+      "path": "results/annotation/SCAHN.selectedgenes.mat.expr.integrated.rds",
+      "present_in_tree": false
+    }
+  ],
+  "source_table_status": "generator available; generated table absent from repository tree",
+  "donor_identity_status": "sampleid.pid joins sample and publication ID; neither proves donor identity",
+  "author_sample_filter": "01_load_data.R lines 47-49 retains >=30 cells/sample",
+  "author_pid_normalization": "01_load_data.R line 55 strips a/b/c/d suffixes; preserve original source identifiers before overlap assessment",
+  "raw_gene_counts": "not qualified; integrated selected-gene matrix cannot substitute",
+  "publisher_access": "HTTP 200 client challenge, not article content",
+  "expression_read": false
+}

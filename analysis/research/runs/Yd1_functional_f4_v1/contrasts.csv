@@ -1,0 +1,11 @@
+job,panel,donor,target,reference,mean_difference,standard_error,welch_df,t_critical,ci95_lower,ci95_upper,interval_scope,unit
+F4,S3C,source,co,mono,33234.666666666664,,,,,,not estimated,COL1A1 MFI
+F4,S3C,source,cb,co,-26267.333333333332,,,,,,not estimated,COL1A1 MFI
+F4,S3C,source,rescue,cb,15834.0,,,,,,not estimated,COL1A1 MFI
+F4,S3C,source,oat,co,-29600.0,,,,,,not estimated,COL1A1 MFI
+F4,S3D,source,co,mono,19033.333333333336,,,,,,not estimated,Alpha-SMA MFI
+F4,S3D,source,orn,co,33.33333333333576,,,,,,not estimated,Alpha-SMA MFI
+F4,S3D,source,oat,co,-4866.666666666668,,,,,,not estimated,Alpha-SMA MFI
+F4,3J,source,wt,mono,13396.333333333334,,,,,,not estimated,COL1A1 MFI
+F4,3J,source,ko,wt,-10133.333333333334,,,,,,not estimated,COL1A1 MFI
+F4,3J,source,ko_cb,ko,-466.66666666666606,,,,,,not estimated,COL1A1 MFI

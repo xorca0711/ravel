@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "marker_count_min": 2,
+  "minimum_class_cells": 20,
+  "minimum_heldout_fraction": 0.5,
+  "fibroblast_markers": [
+    "Col1a1",
+    "Col1a2",
+    "Col3a1",
+    "Dcn",
+    "Lum",
+    "Pdgfra"
+  ],
+  "fibroblast_core": [
+    "Col1a1",
+    "Col1a2",
+    "Dcn",
+    "Lum"
+  ],
+  "macrophage_markers": [
+    "Csf1r",
+    "Adgre1",
+    "Fcgr1",
+    "Cd68",
+    "Aif1",
+    "Lyz2",
+    "Ptprc"
+  ],
+  "macrophage_anchors": [
+    "Csf1r",
+    "Adgre1",
+    "Fcgr1"
+  ],
+  "heldout": {
+    "fibroblast_like": [
+      "Col6a1",
+      "Sparc",
+      "Pdgfrb"
+    ],
+    "macrophage_like": [
+      "Mertk",
+      "Tyrobp",
+      "Lst1"
+    ]
+  },
+  "other_pairs": [
+    [
+      "Epcam",
+      "Krt8"
+    ],
+    [
+      "Epcam",
+      "Krt18"
+    ],
+    [
+      "Pecam1",
+      "Cdh5"
+    ],
+    [
+      "Rgs5",
+      "Cspg4"
+    ],
+    [
+      "Myh11",
+      "Tagln"
+    ],
+    [
+      "Ly6g",
+      "Csf3r"
+    ],
+    [
+      "Flt3",
+      "Zbtb46"
+    ]
+  ],
+  "qc_primary": {
+    "minimum_genes": 200,
+    "maximum_genes": 10000,
+    "maximum_mitochondrial_percent": 5
+  },
+  "qc_broad": {
+    "minimum_genes": 200,
+    "maximum_genes": null,
+    "maximum_mitochondrial_percent": 10
+  },
+  "labels": [
+    "fibroblast_like",
+    "macrophage_like",
+    "mixed_fibroblast_macrophage",
+    "other_or_mixed",
+    "unassigned"
+  ],
+  "endpoint_genes_excluded_from_annotation": [
+    "Arg1",
+    "Il6"
+  ],
+  "interpretation": "Conservative marker compatibility, not exact SingleR, validated lineage, doublet exclusion or independent preparations."
+}

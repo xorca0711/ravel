@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.extension_x2_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What do all mapped Fig4C-D/6C-F workbook ARG1/IL6 protein and qPCR marginals show for the prespecified source comparisons?",
+  "decision": "Qualify directions and source contexts alongside R1 without treating unlinked RNA/protein preparations as a matched experiment.",
+  "strongest_rival": "Source graph/workbook discrepancy, unknown preparation/donor/animal identity, differing assays and supplied normalization may explain apparent agreement or disagreement.",
+  "discriminator": "Reconstruct every mapped workbook value with exact coordinate, condition and endpoint; separately flag 4C plot amplitude discrepancy, missing interaction arms and unknown pairing.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/README.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All selected workbook values, PDF panels and old R1 results were exposed during qualification. X0 mapped cells and blanks before this numerical freeze. No new X2 group summaries yet computed.",
+  "biological_unit": "Panel-specific: reported mouse or biological preparation; human 6F observations have unknown donor independence. Source rows are observations, not inferred donor pairs.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Published panels are reused source data; row order does not establish pairing. No mapped animal/preparation/donor joins across assays or to R1.",
+  "population_and_selection": "All numeric observations in the mapped rectangles for sheets4c,4d,6c,6d,6e,6f, grouped exactly by final figure labels and workbook map.",
+  "contrast": "Nine assay/compartment panels with 16 prespecified target-minus-reference comparisons in x2_spec_v1.json; only supplied arms.",
+  "endpoint": "ARG1 medium/lysate concentration; macrophage-count-normalized BAL ARG1; sorted-cell Arg1/Gapdh qPCR; IL6 medium concentration; BAL IL6 relative to uninjured; human P2RX4/18S qPCR.",
+  "methods": "NumPy n, means, sample SD, min/max and unpaired differences from X0 mapped source CSV. Independent direct workbook OOXML and Decimal45 arithmetic verifies all source cells, blanks and numerical outputs.",
+  "missingness_and_exclusions": "Retain all source values including qPCR zero, structural blanks and unequal group tails. Missing KO untreated, KO uninjured and KD unstimulated arms remain missing; no inferred pairing. 4C eligible only as workbook-value reconstruction; exact graph reproduction held.",
+  "multiplicity": "All supplied groups and prespecified comparisons shown; no hypothesis tests, confidence intervals, SEM-based inference or result selection.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Source-marginal descriptions do not justify a population interval; preparation/donor IDs and pairing are unresolved.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Protein accumulation is not secretion rate or metabolic flux; transcript measurements and normalization retain their own meaning. 4C workbook/graph amplitude mismatch unresolved; 6E is relative normalization, not absolute recovered pg/mL.",
+  "stop_rule": "Stop after mapped source descriptions, figures and independent arithmetic. No imputed arm, figure digitization adjustment, matching to RNA, mediation or external expression extraction.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/Yd1_extension_x0_v1/panel_cells.csv",
+      "sha256": "f6f6636859726524db4fd957f9b868f74eaac659b311160adaa941b75f430f32",
+      "study_id": "JCI188734_Fig4C-D_6C-F",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_extension_x0_v1/panel_groups.csv",
+      "sha256": "41db2477ba433e40f050f06254cf7dce0d4beb9c9228623cb109d1d4939fc195",
+      "study_id": "JCI188734_Fig4C-D_6C-F",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_extension_x0_v1/receipt.json",
+      "sha256": "9275bfcc27f0420f2fc9e965c023a793e5e1a491a770d1ba8c6ff447c860261c",
+      "study_id": "JCI188734_Fig4C-D_6C-F",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/JCI188734.sdval.xlsx",
+      "sha256": "7e8e08ec935c23bcee3fc7a4059f4a13913dd04932759968c73d47d33ac80759",
+      "study_id": "JCI188734_Fig4C-D_6C-F",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_source_v1/article.pdf",
+      "sha256": "24726f3ae547d22fe4d7074ef240eacbb476e702e069c0bfcef59e2b75e41cb7",
+      "study_id": "JCI188734_Fig4C-D_6C-F",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/common_v1.py",
+      "sha256": "fb8f25fc1c9cfacbbbb91ae94f33bb381737f9ec74fc80861affae0cd117ffbc"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/source_marginals_v1.py",
+      "sha256": "95db98da37a09c36a8d3e8c54ec3422b22e78d512227e4d48575385a76e124b9"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/verify_x2_v1.py",
+      "sha256": "9e6929f30c25b2e1c8c562e6ea1fd81762d5da6195d8b31f0ddb3e56590291f9"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/config/x2_spec_v1.json",
+      "sha256": "60c48291b253bb7cf9e05e04cc8cfc60dbbd5445c6831ee6c0f32ab84c26e18e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/source_marginals_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "observations.csv",
+    "group_summaries.csv",
+    "contrasts.csv",
+    "independent_verification.json",
+    "arg1_panels.png",
+    "arg1_panels.pdf",
+    "il6_panels.png",
+    "il6_panels.pdf",
+    "runtime.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New owner-authorized extension. Original analysis unchanged."
+}

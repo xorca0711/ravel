@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-P06.followup_t0_br_v1",
+  "owner": "Wg-P06",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which Hamanaka/Yadav source contexts, units and processed tracing measurands support bounded Wg-P06 substrate/routing follow-up, and what do Lee OAT/PRODH/ROS endpoints actually measure?",
+  "decision": "Return source/replicate and endpoint maps, exact T1 eligibility or holds, and bounded capability requirements; stop at T0 for review.",
+  "strongest_rival": "Misidentifying source sample labels, assay denominators or related-study outcomes as independent donors, paired preparations, flux or mature functional repair.",
+  "discriminator": "Read published figures/legends/methods/supplements and current repository results; preserve source-specific units and unknown joins. Verify metadata against exact acquired primary files without new effect estimation.",
+  "evidence_refs": [
+    "RQ_Specified/Yadav_followups_20261031/README.md",
+    "RQ_Specified/Yadav_followups_20261031/LITERATURE_CONTEXT.md",
+    "RQ_Specified/Yadav_followups_20261031/RQ1_SUBSTRATE_BALANCE.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_D.md",
+    "RQ_Specified/Yadav_followups_20261031/RQ2_ROUTING_VS_SIGNALING.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published outcomes, figures, legends, methods and supplements; repository results; GEO metadata; Figshare workbook text headers/sample labels and visibly plotted outcomes were read before freeze. Workbook numeric measurements were not extracted or analyzed. All source acquisition preceded freeze. Initial GEO targ=all request exceeded a 5 MB cap and was discarded unread; successful header-only sample records contain zero data rows. No expression matrix, raw MS, kinetic flux, new classifier or new biological effect analysis.",
+  "biological_unit": "Primary human fibroblast cultures and specified clones; Lee MRC5 cultures and mice; Yadav previously reviewed units. Exact donor/preparation/well/cross-assay maps unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Repeated samples, metabolites, wells, images and cells nest within biological units. Hamanaka publication, Figshare and GEO are one study; reanalysis is not replication. Atg5, Lee and Yadav are separate interventions/contexts and cannot be joined into one causal contrast.",
+  "population_and_selection": "Authorized Hamanaka Figs3-6/S1/S4-S7, all eleven processed workbook sheet schemas, all52 GSE273882 metadata records and listing, pinned author README/tree, Lee Figs5-7/S1/S3-S4 and reviewed Yadav source evidence.",
+  "contrast": "Source availability, declared unit/normalizer/time, sample-label and endpoint coverage only. No cross-study numerical effect or population inference.",
+  "endpoint": "Source access/hash records, processed-workbook text layout/sample labels, GEO source/library attributes, file listings, assay/tracer/unit map and explicit source conflicts.",
+  "methods": "Frozen curated primary-source map plus deterministic source-access verification. BR parses only XLSX string labels and GEO headers, and records file sizes; E exports the source-grounded endpoint map. Independent openpyxl/XML/GEO reread and figure/PDF visual inspection precede interpretation.",
+  "missingness_and_exclusions": "Retain unknown donor/preparation/pairing, timing, calibration, denominator and source values. Keep negative/media-specific results and disagreements. Reject HTML challenge responses as PDFs; do not repair ambiguous isotope headers, invent a fourth4F sample, join unrelated assays or fill missing measurements with zero.",
+  "multiplicity": "Not applicable: metadata qualification; no effect tests or screening.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No biological effect estimated; metadata counts are not sample-size or power justification.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Processed isotope pools/fractions are not kinetic flux, collagen incorporation or functional necessity. Relative proteins, organoid count/diameter, RNA and marker ratios are not absolute lineage-linked mature epithelial repair. Atg5 is not ARG1; separate sources do not establish a joint effect. Execution confers no novelty, laboratory readiness, claim promotion or human acceptance.",
+  "stop_rule": "Stop after T0 source/metadata qualification and exact T1 design/hold review. No source-value effect estimation, expression processing, raw-MS correction/flux, cross-study joint effect, new classifier, raw reads, large acquisition, bench execution, outreach or Notion/remote writes.",
+  "inputs": [
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/GSE273882.txt",
+      "sha256": "a38171169f63f30ab17aa7c6afa6c020182c60bb9b5586310dee5a2f7c9b2043",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/GSE273882_filelist.txt",
+      "sha256": "a09cb29eae3fffcb8365ba33690672f2b852b07426923f7cc02b7024d4bdd3a6",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/GSE273882_sample_metadata.txt",
+      "sha256": "e2823a376dcea819525984bd6af2cb1dac27705c6d43a36a0c3421822a17e56a",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka.xml",
+      "sha256": "a98f4a62e44198bb46123122642c29516703c1c70aad6b123aecc0354a49c82e",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_bcj-482-12-BCJ20253033-supp1.pdf",
+      "sha256": "a06be2576610b0cea3ca62a8951c3794a05e8921c8b813c5025783100cfeed0d",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_bcj-482-12-BCJ20253033.03.jpg",
+      "sha256": "937c97ea8e934558e93531d61a03f96d957167d0ed0f0093b9501fd781cee9bb",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_bcj-482-12-BCJ20253033.04.jpg",
+      "sha256": "fe0e8090595e3dcfd4621128fc4e632df1d2220024790f34c0286822dc946235",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_bcj-482-12-BCJ20253033.05.jpg",
+      "sha256": "69bb26419d19891017ede0f67d4435c4bedc06512f70dfed2ad3254f6ddebfdf",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_bcj-482-12-BCJ20253033.06.jpg",
+      "sha256": "1753b3cb4b4693253f8eb37e4d4c76b746ba2b094052eb99ce6ecf2d52114198",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_code_contents.json",
+      "sha256": "bf3afdb30bc90cfde08d8c9f726f5e67db16001b9687e59f11a9fc983bd4f9e7",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_code_head.json",
+      "sha256": "7f6558b1583f5f36e8e3c8c88efdf5e0bbc886fca16cfe8436c3cf8e87c3954a",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_code_listing.json",
+      "sha256": "ad3be10275b6c3903aa793e694b54d935a7c51fd4417828ba199d0f03d16a057",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_code_tree.json",
+      "sha256": "a8dde1e319519ea0a27104f0d677708df8dd14f1f63beffeeb1544b489b1c871",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_figshare_listing.json",
+      "sha256": "e7fc9d1789cb3ea78e8c927c750ed3499358b90ecd19d4e1de45e188ff27adc4",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_metabolomics_v1.xlsx",
+      "sha256": "d8d3365b226323d3ebe7300c481625049ae1cae3f78948938956240b8ea79f4f",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_README.md",
+      "sha256": "d74f490d3cc053e0445b510246d9ecd5935b46cee7cf0d451d7663e18f11874f",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_supp_attempt.pdf",
+      "sha256": "68ced812621cb4820528d5a257efa5416d6d634d16085194655260b29882a88c",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_supplementary.zip",
+      "sha256": "d29e165b50c87fc4509ec32671844ecf890756bc90c4f4b17608bd2b885735b8",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/lee.xml",
+      "sha256": "440138238394d45db05f07c592fb9b23362488ca943c2d7009888536a83c4586",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/lee_12276_2024_1170_Fig6_HTML.jpg",
+      "sha256": "2c1ccbbf3b034be71b41e69638e4fce294d8574e38468247778e3480f29930b1",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/lee_12276_2024_1170_Fig7_HTML.jpg",
+      "sha256": "466deb7c7d0a6050bc0ba89902fe10403a2abd32dca4edbdddd64269ddabd834",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/lee_12276_2024_1170_MOESM1_ESM.pdf",
+      "sha256": "75cef544d79b9325bb42cc89fdc81462757e61a6ca497ec4908635fcd2f1cd24",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/lee_epmc_search.json",
+      "sha256": "529f8a2b5e4e9e2d6135d4b7d6f05ee875068dab8e57118d4a373adb9f149b2d",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/lee_supplementary.zip",
+      "sha256": "f75561faf246b5319b9a36bd5c1af4e083d99951a4de37af4d95a9767003195e",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v1.json",
+      "sha256": "1c83cb93dbbec656d94c84d7fd0bf160dcc438bfce962cdd06674cb815c85723",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v2.json",
+      "sha256": "24048cce6f58338e44106ba90b2d35ab0c3024b82e7e67dcf22dce1885e23a99",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "sha256": "9a42edfecf0548c40706d631d5629faa65bb8739f3f8c8c1f26a89d9d9a9cec8",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "sha256": "5161e753fe511f071a8563479037d22a109a61948ac739f37e26dab52de8d358",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v5.json",
+      "sha256": "b2b8a1b328f54de9a3dabd34af5ab6dfbc5db851ad2adac179cf7ca953661f71",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v6.json",
+      "sha256": "41be8557b2c35e626be81f585f7f7a18cffe9bbe4e749a75ed4db13f69010573",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/retrievals_v7.json",
+      "sha256": "05f6ca096a59b0d161702ce86c17349a6a77ed720ab12a4e234e8b73b80322ba",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/web_access_log_v1.json",
+      "sha256": "595269ae86a5d526d12189052ca93b157594dc6abc980040ac841b2abdd7429c",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md",
+      "sha256": "a70bffbb6f3755a2ad1cd8f9ac9c14e403ccecc02d8186812ed46d167b561d0a",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_D.md",
+      "sha256": "470e3be978d3169025b3f91b14e9bcf8e3bd59d42734507cfcee53a9e40f8368",
+      "study_id": "Hamanaka2025_Lee2024_Yadav_reviewed",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/qualify_t0_v1.py",
+      "sha256": "ef5ffb109b3f959f0cdcd1ea137ba59af970bdfbdfd4c3e94fb5014496df764c"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/verify_t0_v1.py",
+      "sha256": "e3a167ac22b10f5c258fb119e5a29994dac5e2d8eade0960db1d0041c41d9855"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t0_br_spec_v1.json",
+      "sha256": "1543f3f353edff7086016abffbdf0612ce91cf6b7b90a571dcc7be46bcbc84dd"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/Yadav_followups_20261031/scripts/qualify_t0_v1.py",
+  "arguments": [
+    "--job",
+    "br",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_access.json",
+    "t1_disposition.json",
+    "assay_unit_map.csv",
+    "tracer_map.csv",
+    "source_issues.csv",
+    "geo_sample_map.csv",
+    "workbook_layout.json",
+    "workbook_sample_map.csv",
+    "file_inventory.csv"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New authorized T0 follow-up from reviewed plan1473ad87d1246d336402d2ea5f6a2881bc51d774; retains all earlier contracts, receipts, source evidence and holds."
+}

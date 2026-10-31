@@ -1,0 +1,4 @@
+job,panel,donor,target,reference,mean_difference,standard_error,welch_df,t_critical,ci95_lower,ci95_upper,interval_scope,unit
+F1,3B_PCLS,source,cb,control,-0.8930823356250001,,,,,,not estimated,Relative to untreated
+F1,3D,source,cb,control,-0.605424513125,,,,,,not estimated,Relative to untreated
+F1,5A,source,toci,control,-516.8339555555556,,,,,,not estimated,ARG1 (pg/mL)

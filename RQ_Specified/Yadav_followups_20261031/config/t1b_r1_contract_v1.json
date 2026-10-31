@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-P06.followup_t1b_r1_v1",
+  "owner": "Wg-P06",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What literal isotope-channel percentages are supplied in the existing 15 R1 blocks, separately from vector completeness/closure?",
+  "decision": "Return the reviewed bounded source descriptions and combined disposition for T1-B inspection; no declaration of whole-scope completion or scientific acceptance.",
+  "strongest_rival": "Conflating unobserved/invalid target channels, declared units and complete-vector normalization; incorrect source maps or treating unknown sample-label independence as biological replication.",
+  "discriminator": "Exact frozen source coordinates, unit/isotope literals and full sample maps; independent target-channel domain/full-n checks; separate completeness/subtotal/unchanged numerical closure diagnostics. No mechanism is identified.",
+  "evidence_refs": [
+    "RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md",
+    "RQ_Specified/Yadav_followups_20261031/REVIEW_T0.md",
+    "RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md",
+    "RQ_Specified/Yadav_followups_20261031/T1A_RESULTS.md",
+    "RQ_Specified/Yadav_followups_20261031/R2_DESIGN.md",
+    "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md",
+    "RQ_Specified/Yadav_followups_20261031/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All T0 published outcomes/figures and metadata and all T1-A numerical source values, summaries, figures, missing channels and strict closure holds are exposed. The reviewer explicitly authorized a literal-channel endpoint after this exposure. R2 text headers/sample maps and published figures were exposed, but no R2 numerical extraction/summary was performed before this new freeze. Synthetic endpoint tests contain invented values. Neither amendment nor freeze creates confirmation or independent replication.",
+  "biological_unit": "Deposited Hamanaka fibroblast source sample strings: four supplied suffix observations per condition, except Figure 4F three. Biological donor/preparation/well identity, independence and pairing remain unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Multiple isotope channels and metabolites repeat each sample label. Source workbook and article are one evidence lineage. Matching suffixes are not pairs; no donor population inference or cross-medium pooled effect.",
+  "population_and_selection": "Exactly the existing 15 R1 fraction blocks in Figures 3B/3D/3H/4D, 720 cells; no R1 areas or B1 rerun.",
+  "contrast": "Per-isotope/condition unweighted source means and observed ranges; descriptive TGF-beta minus UT only when both full supplied-n channel summaries qualify. Percentage differences use percentage points; areas retain native source units. No pairing or cross-medium/metabolite pooling.",
+  "endpoint": "Literal source-reported isotope-channel percentage in explicit declared percent units, independently of vector normalization. R2 additionally describes native peak areas. 4F wording is Peak Area/Percent, not explicitly corrected. Counts/means/ranges only; missing other channels do not invalidate a fully supplied target channel.",
+  "methods": "Reuse the frozen T1-A XLSX-XML reader; retain original raw/type/formula/value, unit/isotope/sample/group cell provenance. Numeric finite percentages must lie in [0,100]; native areas must be nonnegative. Full supplied n (4, or 3 for 4F) and all exact headers/labels are required for each channel summary. Decimal arithmetic. Vector QC is separate: complete sums/residuals versus explicitly incomplete valid-channel subtotals; unchanged 64*n*binary64_ulp(100) diagnostic only, with no normalization validation or rescaling. R1 retains every original v1 vector diagnostic verbatim as JSON records and its file hash. Unstacked supplied dots, full-n means/ranges, held annotations; no partial-n means. Independent openpyxl/math.fsum verification plus new endpoint boundary tests; reuse prior valid parser/tests.",
+  "missingness_and_exclusions": "Keep every whitelisted cell including missing, nonnumeric/nonfinite/formula, negative and out-of-domain values. Hold the affected target-channel summary, never reduce supplied n or impute/clip/renormalize. A missing neighbor leaves target-channel description possible but full-vector completeness unresolved. Unit/sample/isotope mismatch holds the affected block. R2 source-map exclusions and 4F n/SD/SEM plus D4/Methods tracer conflicts persist.",
+  "multiplicity": "Not applicable: no biological hypothesis tests, significance selection or population confidence intervals.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed ranges describe supplied source labels, not population uncertainty or power. Fixed vector diagnostic tolerance is unchanged from T1-A and unrelated to biological margins; no precision inferred from decimal length or tuning to outcomes. Actual independent-unit variance/margins/sample size remain unknown.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Exposed shared-source description, not validated normalized composition, independent biological replication, calibrated concentration, exact unspecified abundance/error-bar replay, source ARG1 effect, collagen incorporation/transfer, flux, necessity or mature repair. All original T1-A vector/summary holds remain unchanged. Native B1 nutrient key, collagen/Lee values and original spatial/human/X3-X5 holds persist.",
+  "stop_rule": "Execute only newly authorized R1 reported-channel companion and exact R2 descriptions; independently verify and return combined disposition for T1-B review. Do not rerun reviewed R1 areas/B1, T2/Atg5 searches, original Yadav analyses, raw-MS, proxies, outreach or bench work. No remote/Notion writes or whole-scope completion before review.",
+  "inputs": [
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_metabolomics_v1.xlsx",
+      "sha256": "d8d3365b226323d3ebe7300c481625049ae1cae3f78948938956240b8ea79f4f",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_figshare_listing.json",
+      "sha256": "e7fc9d1789cb3ea78e8c927c750ed3499358b90ecd19d4e1de45e188ff27adc4",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka.xml",
+      "sha256": "a98f4a62e44198bb46123122642c29516703c1c70aad6b123aecc0354a49c82e",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yadav_followups_T0_20261031/hamanaka_bcj-482-12-BCJ20253033-supp1.pdf",
+      "sha256": "a06be2576610b0cea3ca62a8951c3794a05e8921c8b813c5025783100cfeed0d",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t0_br_v1/workbook_layout.json",
+      "sha256": "f10db5e28ab90bd98a108fd79b191657f557371eca8b81a0a0fefdd3de51db00",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md",
+      "sha256": "2b464a865908671edf306c56963984c4d46def9dbda40f03565886297250a86e",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/R2_DESIGN.md",
+      "sha256": "3b3dd6432ccb254793ae83897b6c81a4d15f3f24511960901d7c5b3e3cb1dcff",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1a_r1_v1/observation_qc.csv",
+      "sha256": "4825eb176120fb0ceb755a7bdd7e20ece7622cba74aff0a1acb73a4b8d15c47d",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/t1a_common_v1.py",
+      "sha256": "434753a96d066eb5c097937f7fac072a56d4aa70c72105654f90a0824c1acdc5"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/describe_t1b_v1.py",
+      "sha256": "0cab110c7d21b254597c0aafa47770251364e70f9879b88073567730563ed5ca"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/verify_t1b_v1.py",
+      "sha256": "9c40dfe26c0110377bb17026a19a642f6a314c9900ad5fe87436ded9e141e86d"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t1b_r1_spec_v1.json",
+      "sha256": "5cd4d3a41a7906ba89eeba41cda1ea66ef89fcecfdfdd83d0b1c87b4d01f34dc"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/Yadav_followups_20261031/scripts/describe_t1b_v1.py",
+  "arguments": [
+    "--job",
+    "r1",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_values.csv",
+    "unit_and_header_map.csv",
+    "vector_qc.csv",
+    "summaries.csv",
+    "descriptive_differences.csv",
+    "reported_percent_channels.png",
+    "reported_percent_channels.pdf",
+    "disposition.json"
+  ],
+  "amendment_of": "RQ_Specified/Yadav_followups_20261031/config/t1a_r1_contract_v1.json",
+  "amendment_reason": "Reviewed endpoint companion/scope amendment: source-declared channel percentages can be described without treating an incomplete/nonclosing vector as validated. Supersedes only the earlier limitation on describing valid channels; original T1-A contract, 95 held summaries, 59 held vectors and every output are preserved unchanged."
+}

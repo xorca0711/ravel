@@ -1,0 +1,61 @@
+{
+  "endpoints": [
+    {
+      "id": "macrophage_Arg1",
+      "cell_class": "macrophage_like",
+      "gene": "Arg1"
+    },
+    {
+      "id": "fibroblast_Il6",
+      "cell_class": "fibroblast_like",
+      "gene": "Il6"
+    }
+  ],
+  "conditions": {
+    "Fib_alone": [
+      "GSM7764752",
+      "GSM7764755"
+    ],
+    "WT_coculture": [
+      "GSM7764753",
+      "GSM7764756"
+    ],
+    "KO_coculture": [
+      "GSM7764754",
+      "GSM7764757"
+    ]
+  },
+  "comparisons": [
+    {
+      "id": "Arg1_KO_vs_WT",
+      "endpoint": "macrophage_Arg1",
+      "target": "KO_coculture",
+      "reference": "WT_coculture"
+    },
+    {
+      "id": "Il6_KO_vs_WT",
+      "endpoint": "fibroblast_Il6",
+      "target": "KO_coculture",
+      "reference": "WT_coculture"
+    },
+    {
+      "id": "Il6_WT_co_vs_alone",
+      "endpoint": "fibroblast_Il6",
+      "target": "WT_coculture",
+      "reference": "Fib_alone"
+    }
+  ],
+  "qc_modes": [
+    "primary",
+    "broad"
+  ],
+  "primary_metric": "mean_log1p_per10k",
+  "companion_metrics": [
+    "detection_fraction",
+    "mean_per10k",
+    "pseudobulk_cpm"
+  ],
+  "normalization": "Per-cell counts divided by all-gene cell total times 10000; log1p for primary metric; zeros retained. Pseudobulk CPM uses class/library gene sum over class/library total.",
+  "aggregation": "Equal-weight library summary means, never inferred suffix pairing. All four crossed library differences retained; their min/max are a descriptive range, not a confidence interval.",
+  "minimum_eligible_libraries_per_condition": 2
+}
