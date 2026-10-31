@@ -17,7 +17,9 @@ planning links were excluded from the research record. Plan commit `1f9eb0b` pas
 
 Created **Saxton IL-22 technical analysis**, local chat
 `01a19140-3fcb-7012-9c02-b8744eab73c7`, from that exact handoff. A fresh app snapshot
-confirms an active turn and repository verification before isolated-checkout setup.
+confirms its isolated checkout is ready and PDF/figure/GEO source qualification
+has started. The GEO view still shows a browser challenge; the executor is trying
+ordinary public download interfaces and continuing other source audits.
 No Saxton numerical result is claimed at this launch checkpoint. Next: inspect
 the technical source/contract return and independently review its results. Its
 ledger must state exact data/design reasons and reopening evidence for every held
