@@ -1,5 +1,20 @@
 # Research article roadmap
 
+**Saxton recovery reviewed — 31 October 2026:** the
+[saved metadata/QC results](gate3_08_saxton_2021_il22/RESULTS.md) and bounded source
+assessment passed [originating review](gate3_08_saxton_2021_il22/REVIEW_2026-10-31.md).
+All nine stages have a [current disposition](gate3_08_saxton_2021_il22/COMPLETION_LEDGER.md).
+The original biological sequence remains incomplete: platform-policy execution
+holds are distinguished from missing raw measurements, unit keys and endpoint
+links. The [evidence index](gate3_08_saxton_2021_il22/FIGURES.md) contains saved QC
+tables; no treatment-effect figures or new biological conclusions are claimed.
+
+**Saxton IL-22 analysis authorization — 31 October 2026:** the owner requested
+the [Sx22 stepwise technical sequence](gate3_08_saxton_2021_il22/README.md).
+Paper-local source qualification and eligible reproduction/extensions are authorized;
+numerical work awaits its source/unit checks and frozen contracts. This supersedes
+paper 8's older reading-only queue status, while Niethamer/S1 remains separately gated.
+
 **Yadav reading update — 30 October 2026:** reading is complete. The
 [evidence card and six-step analysis proposal](gate2_W3_yadav_2025/README.md)
 connect the paper to Wg-P06 and distinguish functional evidence, RNA, spatial
@@ -206,7 +221,7 @@ remain in the roadmap below.
 | 16 | 2W | Yadav et al. 2025, *JCI* | [10.1172/JCI188734](https://doi.org/10.1172/JCI188734) | 40875483 | myeloid-to-fibroblast ARG1/ornithine circuit; mouse/human source identity and functional evidence | [evidence card and proposed sequence](gate2_W3_yadav_2025/README.md) | owner reading complete by 29 October, reconfirmed 30 October 2026; exact day unspecified | Dedicated numerical analysis unrun; source/replicate qualification first. Wg-P06 is an existing proposed connection, not a Yadav reproduction. |
 | 17 | 2W | Wang, Wagner et al. 2025, *Cell Reports* | [10.1016/j.celrep.2025.115799](https://doi.org/10.1016/j.celrep.2025.115799) | 40482033 | PGAM as a glycolytic reaction opposing the pathway average in Th17 cells; glucose-dependent effector programmes | [paper package](gate2_W2_wagner_Th17_PGAM/README.md) | owner read 2026-10-04; package structured the same day | R0–R4 and selected extensions executed; R2 uses substituted inputs, R5 closed without execution. [7 October corrections](gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) supersede affected Compass/human summaries. A28–A30 registered proposals; no scientific acceptance. |
 | 7 | 3A | Saxton et al. 2021, *Science* | [10.1126/science.abc8433](https://doi.org/10.1126/science.abc8433) | 33737461 | structure-based decoupling of IL-10 pro- and anti-inflammatory functions | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started; reading open 2026-10-01; analysis remains gated | not started |
-| 8 | 3A | Saxton et al. 2021, *Immunity* | [10.1016/j.immuni.2021.03.008](https://doi.org/10.1016/j.immuni.2021.03.008) | 33852830 | IL-22 tissue-protective vs pro-inflammatory functions decoupled | paused (Gate 3A paused 2026-09-15; opens if proposal S1 separates repair phases at the animal level) | not started; reading open 2026-10-01; analysis remains gated | not started |
+| 8 | 3A | Saxton et al. 2021, *Immunity* | [10.1016/j.immuni.2021.03.008](https://doi.org/10.1016/j.immuni.2021.03.008) | 33852830 | Context-dependent IL-22 signaling, transcription and measured protective/inflammatory outcomes | [Sx22 results and ledger](gate3_08_saxton_2021_il22/README.md) | abstract/introduction/discussion read; results reading not certified complete | R1 metadata/QC executed and reviewed; bounded recovery complete; biological numerical work retains explicit platform-policy/data/design dispositions; Niethamer/S1 remains separately gated |
 | 9 | 3B | DuPage et al. 2015, *Immunity* | [10.1016/j.immuni.2015.01.007](https://doi.org/10.1016/j.immuni.2015.01.007) | 25680271 | Ezh2 maintains regulatory T cell identity after activation | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
 | 10 | 3B | Wang et al. 2018, *Cell Reports* | [10.1016/j.celrep.2018.05.050](https://doi.org/10.1016/j.celrep.2018.05.050) | 29898397 | targeting EZH2 reprograms intratumoral Tregs | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |
 | 11 | 3B | Zhang et al. 2026, *Science Immunology* | [10.1126/sciimmunol.adx4411](https://doi.org/10.1126/sciimmunol.adx4411) | 41961946 | intratumoral Treg ablation elicits NK-mediated control | paused (Gate 3B paused 2026-09-15; opens if proposal D1 finds Tregs separable in an external series) | not started; reading open 2026-10-01; analysis remains gated | not started |

@@ -1,0 +1,13 @@
+{
+  "n_rows": 35275,
+  "sample_count": 6,
+  "duplicates_ensembl": 0,
+  "duplicate_nonempty_symbols": 52,
+  "all_zero_rows": 12935,
+  "count_scale": "nonnegative integers",
+  "annotation": "deposited mm10; exact release unknown",
+  "group_mapping": "GEO treatment attributes",
+  "independence": "two biological samples per group reported in Methods; no separate mouse IDs/batch",
+  "numerical_model_eligible": "conditional on source-reported independent biological units; no verified pairing",
+  "exclusions": "none"
+}

@@ -1,5 +1,149 @@
 # Current project state
 
+## Saxton reviewed recovery PR opened — 31 October 2026
+
+The owner requested publication. CLI and connector identities were verified as
+`xorca0711`; the reviewed branch is published in
+[PR #155](https://github.com/xorca0711/ravel/pull/155), targeting main `4df267d`.
+The description separates completed R1 QC/source review from unexecuted biological
+analyses and their platform/data/design holds. At reviewed head `128b2f7`, both
+`validate` and `research-governance` CI checks passed and the PR is mergeable.
+It remains open and unmerged; this status-only entry does not rerun analyses.
+
+The owner also requested implications and plausible extensions through a technical
+chat. Any new bounded source-audit work will use a separate local extension branch;
+it is not included as an executed result in this recovery PR. Original execution
+holds, frozen evidence and human scientific acceptance remain unchanged.
+
+## Saxton replacement handoff independently reviewed and integrated — 31 October 2026
+
+Launched **Saxton source audit and status reconciliation**, chat
+`01a191d5-e0e2-70d2-92e0-97272f85ce11`, and coordinated through completed handoff
+`27e58e25d1a8acaa49db69e2e77f5dac8383133f`. The
+[originating review](Research%20Article/gate3_08_saxton_2021_il22/REVIEW_2026-10-31.md)
+passes the bounded metadata/source/documentation work. Integrated locally and
+updated the article/central README and roadmap. Every original stage has a linked
+disposition; no permitted recovery work remains queued.
+
+The R1 output is preserved and independently verified: six libraries, 35,275 gene
+rows, 52 repeated nonempty symbol labels spanning 122 rows, and 12,935 all-zero
+rows. Animal identities/pairing remain unverified. Figure 5/7 caption conflicts
+and the unsupported pairing interpretation are corrected in separate documentation.
+The root attribute file now exactly matches the historical Weft binding; Saxton's
+rule is local. All old contracts, code and run bytes remain unchanged.
+
+Original biological execution is not complete. R2/R3 retain the explicit platform
+restriction despite recovered counts. R4/R5 also require raw values and replicate/
+nesting/panel provenance; E1's selected cohort has pooled units, and E2 lacks a
+qualified cessation-to-function join. Uninspected material is labeled unassessed.
+The evidence index links QC tables; it does not claim new biological figures.
+
+Technical validation passed 12,630 checks, the base-aware gate, 158 shared tests
+(two Windows skips), three source tests and required archive/claim checks. Parent
+review confirmed the final diff, source limitations and exact byte preservation.
+Fresh main remains `4df267d`. Integrated documentation passed 12,641 repository
+checks and the base-aware research gate with zero errors. Final whitespace checks
+passed; unchanged biological analyses and passing code tests were not rerun.
+Both technical checkouts and caches are preserved. No publication, external setting
+change, canonical RQ change or human scientific acceptance occurred.
+
+## Saxton bounded recovery reviewed locally - 31 October 2026
+
+The isolated recovery from `c60848a` completed the permitted metadata/source
+review and [all-stage disposition ledger](Research%20Article/gate3_08_saxton_2021_il22/COMPLETION_LEDGER.md).
+R1 input/code/output hashes, all eight run files, matrix format/dimensions,
+identifier diagnostics, sample joins and saved QC arithmetic agree independently.
+There are 52 repeated nonempty symbol labels spanning 122 gene rows; `paired=no`
+does not verify unpaired animals. Source-reported n=2/group remains distinct from
+verified animal identity. Frozen outputs, receipt fields and failed preflights
+are unchanged.
+
+The [source correction](Research%20Article/gate3_08_saxton_2021_il22/SOURCE_CORRECTION_2026-10-31.md)
+places receptor qPCR at Fig. 5H, figure-labeled HepG2 blots at F/G and the
+receptor-expression comparison at I. Fig. 7 image/main text say G liver/H skin;
+the caption reverses them. E1/E2 source assessment and the saved-evidence index
+are complete at documented coverage; uninspected supplements remain not assessed.
+R2/R3 remain unexecuted on a platform-policy execution hold despite recovered
+counts. R4/R5 numerical work also retains raw-unit/replicate/panel-identity limits.
+The original biological sequence is not claimed complete.
+
+Corrected the inherited root `.gitattributes` preservation defect: restored its
+exact main bytes and scoped the Saxton source rule locally. Historical Weft
+contracts/receipts and all validators remain unchanged. Required checks and
+local commit details are recorded in the [handoff](Research%20Article/gate3_08_saxton_2021_il22/VALIDATION.md).
+Validation passed 12,630 repository checks, the base-aware gate against freshly
+fetched main `4df267d`, 158 tests (two Windows symlink-privilege skips), three
+Saxton tests, compilation, 18 claim bindings and all required archive verifiers.
+Next: originating chat independently reviews this handoff and its exact bytes;
+held biological work is not resumed. No push, PR, merge, external setting,
+Notion edit, author contact, bench work or scientific acceptance occurred.
+
+
+## Saxton technical recovery scoped after platform restriction — 31 October 2026
+
+The user requested a replacement technical chat and review through a disposition
+of every eligible step. The original chat reports an explicit biological-content
+safety restriction, including on its follow-up turn; no exact triggering item is
+provided. This is distinct from an approval timeout or scientific data failure.
+The [recovery scope](Research%20Article/gate3_08_saxton_2021_il22/RECOVERY_SCOPE_2026-10-31.md)
+limits replacement work to integrity/metadata checks, saved-result review,
+source-only feasibility and documentation. Blocked biological execution is not
+replayed through the replacement.
+
+Merged committed technical checkpoint `ff09fab`; preserved three raw inputs and
+eight untracked R1 run files byte-for-byte in the review checkout and registered
+the receipt. Receipt verification passed. The original checkout/caches remain
+unchanged. The saved QC reports six libraries and 35,275 rows; no treatment
+contrast exists. Counts are available, so R2/R3 are not mislabeled data-access
+holds. Figure 5's caption/panel mismatch requires a documentary correction.
+Next: launch the bounded replacement, review its handoff, and update each README
+stage with completed work or specific policy/data/design status. Main remains
+`4df267d`; no publication, external setting change or claim promotion occurred.
+
+## Saxton IL-22 technical sequence authorized — 31 October 2026
+
+The owner requested a stepwise plan and launch through a technical chat. The
+[Sx22 plan](Research%20Article/gate3_08_saxton_2021_il22/README.md) specifies R0–R5,
+E1/E2 and D1: source/unit qualification, RNA reproduction, response robustness,
+conditional signaling/functional reconstruction, recipient-state qualification,
+persistence/recovery source assessment and a reviewed figure/results handoff.
+Paper-local eligible analysis is now authorized; Niethamer/S1 retains its separate
+gate and no scientific eligibility requirement was relaxed.
+
+Main advanced to `4df267d`, adding merged Yadav PR #154. Integrated that base while
+preserving the prior Saxton reading record and both progress histories. Private
+planning links were excluded from the research record. Plan commit `1f9eb0b` passed
+12,558 repository checks and the base-aware research gate against main `4df267d`.
+
+Created **Saxton IL-22 technical analysis**, local chat
+`01a19140-3fcb-7012-9c02-b8744eab73c7`, from that exact handoff. A fresh app snapshot
+confirms its isolated checkout is ready and PDF/figure/GEO source qualification
+has started. The GEO view still shows a browser challenge; the executor is trying
+ordinary public download interfaces and continuing other source audits.
+No Saxton numerical result is claimed at this launch checkpoint. Next: inspect
+the technical source/contract return and independently review its results. Its
+ledger must state exact data/design reasons and reopening evidence for every held
+subtask. No external service settings or publication changed.
+
+## Saxton IL-22 reading and research fit — 31 October 2026
+
+Reviewed the corrected IL-22 paper, supplied Notion research/PI notes and reading
+order against freshly fetched main `8cb50dd`, which includes merged DY1 PR #153.
+The [reading assessment](docs/research_reviews/2026-10-31-saxton-il22/README.md)
+maps the biological evidence to A19/A14/A22 and distinguishes recipient context,
+proximal signaling, transcription and functional recovery. The 2025 IL-22–OSM
+companion constrains a universal “STAT3 means protection” interpretation; the
+older priming precedent prevents presenting context dependence as new.
+
+This documentation-only review creates no canonical RQ or numerical result.
+Niethamer S1 remains unrun/gated; reading remains open. Suggested RNA-seq follow-up
+requires source/animal qualification and its own contract. Direct GSE160217 access
+returned a browser challenge; indexed metadata and the paper identify the deposit,
+but files/sample identities were not verified. No external settings changed.
+Next: finish the figure-focused reading; qualify that source only if a reproduction
+is chosen. Repository validation passed 11,883 checks; the base-aware research
+gate passed against main `8cb50dd`. No biological analysis was rerun.
+
 ## Yadav package opened for PR review — 31 October 2026
 
 The owner requested an overall summary and PR publication. GitHub CLI and
