@@ -17,7 +17,11 @@ capability requirements for all three RQs. Numerical flux, linked repair,
 collagen-effect and original spatial/X3–X5 work remain specifically held.
 
 Current-main integration passed 12,381 repository checks and the research gate
-(`ok: true`, no errors). Technical dispatch is next. Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`; no remote publication,
+(`ok: true`, no errors). T1-A was dispatched from reviewed integration
+`43e6f2602b577cfa13002053eb21603750658951` and the technical chat is confirmed
+active (cursor `:38`). Notion status and the ACTIVE review heartbeat are aligned.
+Next: review the exact committed T1-A return before authorizing R2 numerical work.
+Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`; no remote publication,
 outreach or scientific acceptance is authorized or implied.
 
 ## Yadav follow-up T0 source qualification — 31 October 2026

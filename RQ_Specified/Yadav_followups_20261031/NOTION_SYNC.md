@@ -19,3 +19,13 @@ available. The new plan page now records confirmed active T0 dispatch from local
 commit `1473ad87d1246d336402d2ea5f6a2881bc51d774` and resumed review coordination.
 A status-only search mismatch caused by normalized bold markup was resolved
 using the freshly fetched exact text; the final update succeeded without warnings.
+
+
+## Reviewed T0 and active T1-A — 31 October 2026
+
+The existing follow-up plan page was fetched and the signed-in human identity
+rechecked. Targeted updates now record reviewed T0, active T1-A from local
+integration `43e6f2602b577cfa13002053eb21603750658951`, native-label-only pool
+interpretation and the remaining unit/flux/mature-repair holds. The update
+completed without warnings. Historical plans and other Notion pages were not
+rewritten; no unpublished file is represented as a remote GitHub artifact.

@@ -1,5 +1,20 @@
 # Follow-up execution and review ledger
 
+## T1-A dispatched and active — 31 October 2026
+
+Reviewed integration/dispatch commit `43e6f2602b577cfa13002053eb21603750658951`
+was sent to the sole authorized technical chat. Compact snapshot confirms
+active turn `01a19057-719e-7961-a58b-b5c59c75d77c`, cursor
+`51593419-65e5-454d-96df-3e67caaaccb8:38`.
+
+The [T0 review](REVIEW_T0.md) owns exact R1/B1 numerical authorization, R2
+design-only work and T2 capability disposition. No R2 numerical run is released.
+The Notion follow-up page now records reviewed T0 and active T1-A; the existing
+ACTIVE heartbeat has been updated with this review/commit/cursor. Next action:
+inspect the committed T1-A return and authorize eligible remaining work. No user
+action, new scientific acceptance or weakening of held endpoints is required.
+Integration checks remain valid; subsequent edits only record dispatch/status.
+
 ## T0 reviewed; T1-A prepared — 31 October 2026
 
 Exact technical return `6aced292888d51821a4cd8b876c13f3954a1de65` passes

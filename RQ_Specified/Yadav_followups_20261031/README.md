@@ -1,7 +1,7 @@
 # Yadav follow-up research plans
 
 **Current review, 31 October 2026:** [T0 passed technical review](REVIEW_T0.md).
-The next checkpoint is T1-A: exact processed tracing and native-label pool
+T1-A is active: exact processed tracing and native-label pool
 descriptions, remaining-block design qualification and capability disposition.
 Missing units, source keys, flux and mature-function endpoints retain explicit
 holds. New numerical work must follow the reviewed scope and new frozen contracts.
