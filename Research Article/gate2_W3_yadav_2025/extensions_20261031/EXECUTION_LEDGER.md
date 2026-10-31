@@ -307,3 +307,79 @@ Await the committed final synthesis/disposition before final review and closeout
 No new numerical analysis, scientific acceptance or external action is implied.
 The review log-recording helper initially assumed UTF-16; corrected to actual
 UTF-8 and reused the successful validation logs. No check or analysis failed.
+
+## Checkpoint D: final documentary synthesis returned — 31 October 2026
+
+Adopted reviewed integration `95ef6722759e0506015e8a9354c79baad4e67fc0` by
+fast-forward from a clean worktree. D creates
+[FINAL_SYNTHESIS.md](FINAL_SYNTHESIS.md) as the current X6 synthesis and X0–X6
+disposition. The provisional matrix is preserved with a supersession link.
+Current extension/parent READMEs, PROGRESS and the registry evidence pointer are
+synchronized; no numerical contract or receipt is invented for documentation.
+
+X0–X2 remain reviewed complete within source/diagnostic limits. X3–X5 metadata
+qualification is complete within the authorized passes and numerical comparisons
+retain their exact source/design holds. X6 documentation is delivered for final
+technical review; reviewer confirmation of scoped completion is pending.
+Scientific acceptance and future empirical work remain separate human decisions.
+
+The final synthesis retains assignment-sensitive Il6 genotype RNA, stable bounded
+Arg1 and WT-coculture Il6 directions, source protein/qPCR marginals, the unresolved
+4C workbook/PDF amplitudes, missing arms/units and the imprecise original mouse
+hydroxyproline contrast. It preserves unchanged Wg-P06, OAT/PRODH/ROS and
+cytokine/viability alternatives, the separate A13/A20/A8/A19 epithelial bridge,
+unfavorable A13/A22 findings and every original six-step hold. Source reuse is not
+independent replication; the earlier repo scan remains a ledger/status scan,
+not a new numerical audit or portfolio ranking.
+
+Reopening requirements remain explicit:
+- X3: actual retained/barcode/state/sample/ambiguity support, with a qualified
+  reader/runtime/memory route if an object is needed, then fixed-design review.
+- X4: culture files and donor/lobe/passage/protocol/probe/normalization joins;
+  actual early-IPF deposit and donor/specimen/assay identity for stage work.
+- X5: retained-neutrophil/state and complete target-zero denominator exports plus
+  participant/preparation/state-sex joins. Wigerblad H5 feature access alone would
+  not fix this; a removed state question still needs qualified neutrophils.
+  Atlas comparison additionally needs actual inclusion and measurement masks.
+- Original source, spatial and population/functional holds remain enumerated in
+  the final synthesis and their original authority records.
+
+No feasible authorized execution job is identified as omitted. Final D review
+remains outstanding; new source acquisition, expression, classifier, experiment
+or additional portfolio branch is not authorized by this document. No biology
+was rerun, new source acquired, worktree/cache removed, Notion changed, external
+message sent or remote repository write made.
+
+Validation and preservation:
+- The reviewed C integration's 12,238 checks/current-main gate and inherited
+  158 tests/two skips and claim/archive verifiers remain valid for their scope.
+  No scientific code, runtime, validator or claim changed, so those tests and
+  biological/source pipelines were not redundantly rerun.
+- D repository validation passed 12,291 checks. The current-main research gate
+  returned `ok: true`, no errors, against freshly fetched unchanged main
+  `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+- Deterministic Git/registry checks confirmed all 115 prior contracts and 109
+  receipts unchanged, with all 120 recorded Yadav output files untouched. The
+  provisional body is unchanged apart from its supersession link; eight headline
+  numerical transcriptions match the reviewed reports. Canonical questions/guides,
+  claims and governance remain unchanged; the sole registry addition is the final
+  synthesis evidence link. Final staged whitespace checks passed.
+- No D access, execution or biological failure occurred. Earlier access failures
+  and external/source holds remain preserved in their original records.
+
+## Checkpoint D reviewed; scoped extension work dispositioned — 31 October 2026
+
+Reviewed execution `5a74cb112d9ebf3936da0efa9beb06f9161a8933` passes final
+technical review. [Review D](REVIEW_D.md) records the exact seven-file scope,
+unchanged registry except the intended evidence link, preserved provisional body
+and 120 verified output hashes. X0-X2 and X6 are complete within scope; X3-X5
+metadata passes are complete and numerical work has exact source/design holds.
+No feasible authorized execution job remains. Scientific acceptance is separate.
+
+Reviewer clarified the P2rx4 versus Arg1 perturbation labels without changing
+measurements. Original source/spatial holds, all questions, frozen evidence and
+both ledger histories remain. Current main is unchanged at
+`8cb50dd15a12a41abc6d5edb36349d33fc512661`. Final integration passed 12,298
+repository checks and the current-main research gate (`ok: true`, no errors).
+Valid prior tests were reused. Pause the heartbeat after this delivery; no new
+job dispatched. No final-review execution or scientific failure occurred.

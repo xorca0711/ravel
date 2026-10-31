@@ -3,7 +3,7 @@
 Prepared 30 October 2026 against fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
 Stable reading ID **16**, Gate **2W**. Reading was recorded complete by 29 October
 and reconfirmed by the owner on 30 October; the exact completion day was not supplied.
-**Current work, 31 October 2026:** [Checkpoint C source qualification](extensions_20261031/CHECKPOINT_C_RESULTS.md) passed [review](extensions_20261031/REVIEW_C.md). X0-X2 are reviewed; X3-X5 retain exact source/design holds. Checkpoint D completes the final X6 documentary synthesis and disposition. The [extension ledger](extensions_20261031/EXECUTION_LEDGER.md) records next work; the original scope below remains closed with its holds preserved.
+**Current work, 31 October 2026:** The [final extension synthesis](extensions_20261031/FINAL_SYNTHESIS.md) passed [technical review](extensions_20261031/REVIEW_D.md). X0–X2 and X6 are complete; X3–X5 numerical work is held on exact source/design gaps, with metadata qualification complete. No feasible authorized execution job remains. Original six-step holds and scientific acceptance remain separate; see the [ledger](extensions_20261031/EXECUTION_LEDGER.md).
 
 **Original-scope checkpoint:** [completed source-feasibility sequence and synthesis](CONTEXT_AND_SYNTHESIS.md).
 F1-F5/R1 reconstructions, S1 published marginals, C1 portability qualification and

@@ -1,5 +1,54 @@
 # Current project state
 
+## Yadav extensions technically reviewed and fully dispositioned — 31 October 2026
+
+[Final synthesis](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md)
+passed [review D](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_D.md)
+at execution `5a74cb112d9ebf3936da0efa9beb06f9161a8933`. X0–X2 and X6 are
+complete within scope; X3–X5 metadata passes are complete and numerical
+comparisons have exact evidence-backed holds. No feasible authorized job remains.
+
+Reopen X3 with actual retained-cell/state/sample support and a qualified
+reader/resource route if needed; X4 with culture/donor/assay joins and the actual
+early-IPF cohort/specimen source; X5 with retained-neutrophil/state/target-zero
+denominators and participant/preparation joins, plus atlas inclusion/measurement
+masks when applicable. Original spatial/unit/source holds remain intact.
+The synthesis keeps unchanged Wg-P06 substrate balance separate from mature
+epithelial function. Scientific acceptance and future empirical work are human
+decisions; no claim grade, canonical RQ or gate changed.
+
+D was documentation only. Review verified all 120 output hashes, unchanged 115
+contracts/109 receipts and canonical questions/guides, and preservation of the
+provisional matrix. Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+Final integration passed 12,298 repository checks and the current-main research
+gate (`ok: true`, no errors), reusing valid inherited tests. The heartbeat will
+be paused after this local delivery; no remote publication or outreach occurred.
+
+## Yadav checkpoint D final synthesis returned for review — 31 October 2026
+
+[Final synthesis and X0–X6 disposition](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md)
+separate reproduced source values, bounded robustness and biological uncertainty.
+X0–X2 remain reviewed complete. X3–X5 metadata qualification is complete within
+the authorized passes; numerical work retains exact source/design holds.
+X6 documentation is delivered; reviewer confirmation of scoped completion is
+pending. No scientific acceptance, new biological result or bench readiness follows.
+
+The synthesis retains assignment-sensitive Il6, stable bounded Arg1/WT-coculture
+directions, the 4C workbook/PDF discrepancy, missing arms/units and imprecise
+hydroxyproline. Unchanged Wg-P06, separate epithelial-function questions,
+unfavorable A13/A22 findings and original six-step holds are preserved.
+The provisional matrix remains with a supersession link.
+
+D is documentation only: no new source acquisition, expression, classifier or
+pipeline rerun. No feasible authorized execution job is identified as omitted;
+final review and evidence-dependent future jobs remain. Exact base, preservation
+and documentation/integration checks are in the
+[ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md).
+
+Validation passed: 12,291 repository checks and current-main gate against freshly
+fetched unchanged `8cb50dd`. All 115 contracts, 109 receipts and 120 recorded
+Yadav outputs remain unchanged; only documentation and one evidence link changed.
+
 ## Yadav checkpoint C reviewed; final X6 synthesis remains — 31 October 2026
 
 Reviewed execution `619fc57a86236a2cadf0a6eb263a3dbeb2e2e3d6`.
