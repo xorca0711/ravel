@@ -771,7 +771,10 @@
         "RQ_Specified/Yadav_followups_20261031/T1A_RESULTS.md",
         "RQ_Specified/Yadav_followups_20261031/T1A_VERIFICATION.md",
         "RQ_Specified/Yadav_followups_20261031/R2_DESIGN.md",
-        "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md"
+        "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md",
+        "RQ_Specified/Yadav_followups_20261031/T1B_RESULTS.md",
+        "RQ_Specified/Yadav_followups_20261031/T1B_VERIFICATION.md",
+        "RQ_Specified/Yadav_followups_20261031/FOLLOWUP_DISPOSITION_T1B.md"
       ]
     },
     {
@@ -878,7 +881,8 @@
         "docs/research_dossiers/A22.md",
         "RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md",
         "RQ_Specified/Yadav_followups_20261031/T1_DESIGNS.md",
-        "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md"
+        "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md",
+        "RQ_Specified/Yadav_followups_20261031/FOLLOWUP_DISPOSITION_T1B.md"
       ]
     }
   ],
@@ -1121,7 +1125,8 @@
     "analysis/research/runs/Wg_P06_followup_t1a_r1_v1/receipt.json",
     "analysis/research/runs/Wg_P06_followup_t1a_b1_v1/receipt.json",
     "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/receipt.json",
-    "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/receipt.json"
+    "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/receipt.json",
+    "analysis/research/runs/Wg_P06_followup_t1b_figures_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

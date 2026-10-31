@@ -1,9 +1,9 @@
 # Yadav follow-up research plans
 
-**Current review, 31 October 2026:** [T1-A passed technical review](REVIEW_T1A.md).
-Its frozen vector holds remain. The next checkpoint T1-B separately describes
-source-reported channels and the reviewed R2 whitelist. [T2](T2_DISPOSITION.md)
-design qualification is reviewed complete; empirical effects remain held.
+**Current checkpoint, 31 October 2026:** [T1-B is returned for review](T1B_RESULTS.md).
+Its reported-channel descriptions preserve all original vector holds.
+[Combined disposition](FOLLOWUP_DISPOSITION_T1B.md) separates completed source
+and design work from empirical holds. Overall closeout awaits the reviewer.
 
 31 October 2026, Asia/Seoul. The owner requested three research plans, linked
 Notion updates and execution through the existing technical chat. This is a new
@@ -23,23 +23,23 @@ bench-ready protocols. Registration of Yd1-P02 records a question, not human
 retain/reject. All 32 canonical RQs and their registered guides remain unchanged.
 [Literature and overlap](LITERATURE_CONTEXT.md) · [execution/review ledger](EXECUTION_LEDGER.md).
 
-## Reviewed checkpoint: T1-A complete, T1-B authorized
+## Current checkpoint: T1-B executed, review pending
 
-[T1-A results and figures](T1A_RESULTS.md) report the authorized 15-block R1
-source description and all 36 native-label B1 pool summaries. All 1,584 literal
-source cells are retained; R1 holds 95 summaries because of missing channels or
-strict fraction-closure failures. B1's prefix-to-medium key remains unresolved.
-[Independent verification](T1A_VERIFICATION.md) passed 6,306 checks.
+[T1-B results and corrected figures](T1B_RESULTS.md) describe 720 R1 percentage
+cells and 2,072 R2 cells under the exact [review authorization](REVIEW_T1A.md).
+The new channel endpoint qualifies 160/180 R1 and 464/548 R2 summaries; missing
+target cells remain held. Original T1-A vector/summary holds remain unchanged.
+[Independent verification](T1B_VERIFICATION.md) passed 17,841 checks.
 
-[R2 exact design](R2_DESIGN.md) proposes 14 area and 13 fraction blocks without
-numerical execution. [T2 disposition](T2_DISPOSITION.md) completes design/access
-qualification for all three questions; actual linked biological experiments
-remain held. No source ARG1 effect, collagen transfer, flux or mature repair
-conclusion follows. The [review](REVIEW_T1A.md) authorizes a separate reported-
-channel description and exact R2 work; it does not relax frozen vector holds.
+The R2 design's 14 area/13 percentage blocks have now executed. Ambiguous 3F
+argininosuccinate percentages and all 4B putrescine remain held; 4F keeps its
+three actual labels and published n/SD/SEM disagreement. B1 and T2 were already
+reviewed complete and were not rerun. Actual source ARG1, flux, collagen transfer
+and joint mature-repair effects remain held under the
+[combined disposition](FOLLOWUP_DISPOSITION_T1B.md).
 
-[T0 evidence](T0_RESULTS.md), [T0 review/authorization](REVIEW_T0.md) and the
-original [T1 designs](T1_DESIGNS.md) remain available and unchanged in meaning.
+[T0](T0_RESULTS.md), [T1-A](T1A_RESULTS.md) and their frozen outputs remain
+available. Stop at T1-B for reviewer inspection before any overall closeout.
 
 ## Scientific logic — qualitative, not measured effects
 

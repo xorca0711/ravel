@@ -1,9 +1,9 @@
 # RQ2 — ornithine precursor routing versus signaling
 
-**T1-A checkpoint, 31 October 2026.** T1-A approved tracing descriptions are complete, retaining missing-channel and closure holds. R2 exact mapping is proposed for review; no raw-MS/flux or collagen-transfer estimate was run.
-See [T1-A results](T1A_RESULTS.md), [R2 design](R2_DESIGN.md) and
-[T2 disposition](T2_DISPOSITION.md). Review is pending; the question and prior
-evidence below are retained.
+**T1-B checkpoint, 31 October 2026.** T1-B reported-channel companion and exact R2 descriptions are executed and verified. Original vector holds, ambiguous maps and 4F sample/uncertainty conflicts remain. No flux or collagen-transfer effect was estimated.
+See [T1-B results](T1B_RESULTS.md) and
+[combined disposition](FOLLOWUP_DISPOSITION_T1B.md). The checkpoint awaits
+review; the question and prior evidence below remain unchanged.
 
 **Owner: Wg-P06, mechanistic arm.** This is a bounded discriminator for RQ1,
 not a separate canonical question or an assertion that the routes are exclusive.

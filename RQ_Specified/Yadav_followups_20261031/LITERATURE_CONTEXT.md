@@ -1,5 +1,15 @@
 # Literature context and overlap for the three follow-ups
 
+## T1-B continuation — 31 October 2026
+
+[T1-B](T1B_RESULTS.md) uses the same exposed Hamanaka source lineage and the
+[reviewed literal-channel amendment](REVIEW_T1A.md). Explicit source percent
+headers support channel descriptions separately from vector normalization;
+no mechanism, novelty claim or RQ was reframed. No additional literature or
+Atg5 search occurred. [Combined disposition](FOLLOWUP_DISPOSITION_T1B.md)
+reuses the reviewed T2 access/endpoint requirements. Earlier continuation
+entries below retain their historical execution status and exposure record.
+
 ## T1-A continuation — 31 October 2026
 
 [T1-A](T1A_RESULTS.md) describes the same Hamanaka source lineage qualified

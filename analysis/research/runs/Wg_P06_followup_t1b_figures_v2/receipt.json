@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-P06.followup_t1b_figures_v2",
+  "owner": "Wg-P06",
+  "contract": "RQ_Specified/Yadav_followups_20261031/config/t1b_figures_contract_v2.json",
+  "contract_sha256": "5a5fa75eb2dfb1a47720bc2ec0de126e29b0e5b9fd3f35486cf7eb0ddf9d8eb8",
+  "git_commit": "a89b42c3b3c6a66adb71a327d3dea94e0d77b32e",
+  "started_at": "2026-10-31T05:58:17.338021+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/Yadav_followups_20261031/scripts/plot_t1b_v2.py",
+    "--output",
+    "analysis/research/runs/Wg_P06_followup_t1b_figures_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md",
+      "sha256": "2b464a865908671edf306c56963984c4d46def9dbda40f03565886297250a86e",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t1b_r1_spec_v1.json",
+      "sha256": "5cd4d3a41a7906ba89eeba41cda1ea66ef89fcecfdfdd83d0b1c87b4d01f34dc",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/source_values.csv",
+      "sha256": "f4675b02fb5623236b845b602904b7cedcae12be90d6c1c67075eae48d04568c",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/summaries.csv",
+      "sha256": "a13f7f82f0d096f59d3943a80178efcf7e27977e5d46fc134b1d2eab163d919d",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/vector_qc.csv",
+      "sha256": "372445c19f1ca92f81702885b149051785b9688e890ac59de417af747b820850",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/receipt.json",
+      "sha256": "c2b2c5a275dbd41bf0f9173218e15cc0fe4f7c3106348e7954341843bb02da65",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t1b_r2_spec_v1.json",
+      "sha256": "52afeafeff87658b3369612fd337d38a5d88b2e2bb4b97e1db0dde36983dd800",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/source_values.csv",
+      "sha256": "067ac065b8d53446efd43d22250af5ed490ecef4471f2b0c46e02b9bb3106f12",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/summaries.csv",
+      "sha256": "3bc0c5e3f1d0ce273ccaca6fe502492cf546d04cab8776beb70fabfd1859b589",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/vector_qc.csv",
+      "sha256": "5dbb701f7c97cb3813303b3873c3df2ac2bde291c2bccbc44308eab8c25bea39",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/receipt.json",
+      "sha256": "1c063c02f66fd1717bca4bbd05e38f01e68e308b59ae44df7ca0380c6cb96c95",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/plot_t1b_v2.py",
+      "sha256": "64f9d44aacaafd2501acb18e141f96abfee276e8a747e8b6ca6add3fc586f7dc"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_figures_v2/r1_reported_percent_channels_v2.png",
+      "sha256": "486be1675193cb21ebb5f07f2725f27e5c5bdba5e184b38d7b371f288de89b70"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_figures_v2/r1_reported_percent_channels_v2.pdf",
+      "sha256": "27882a65be862d23a32cddd5e3baed9d4cb50e8c723b5a50489577fd5a32fd45"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_figures_v2/r2_reported_percent_channels_v2.png",
+      "sha256": "e943437ede36c2c8cff2267681f9dbecd66373cee471e87a5cff640d9c84af02"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_figures_v2/r2_reported_percent_channels_v2.pdf",
+      "sha256": "c6eefbc977b67d4b24f76d1908a0f219c249308dddfb04189a36106961d260f3"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_figures_v2/r2_native_area_channels_v2.png",
+      "sha256": "08b827bf6bcb9aba141f21709fa449bed0cd677a605ee0ffd9a18be02ac40e71"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_figures_v2/r2_native_area_channels_v2.pdf",
+      "sha256": "a12a9ec61571b0fc0c31de76a531889bf4cfddd637fc031ae92842eba0bbfeb1"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_figures_v2/figure_manifest.json",
+      "sha256": "bc16cee55f7730e624debf2667c7115a34fbe56075d4f59b821b698188603ded"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-31T05:58:41.785754+00:00"
+}
