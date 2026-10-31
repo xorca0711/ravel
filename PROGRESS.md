@@ -1,5 +1,24 @@
 # Current project state
 
+## Saxton IL-22 reading and research fit — 31 October 2026
+
+Reviewed the corrected IL-22 paper, supplied Notion research/PI notes and reading
+order against freshly fetched main `8cb50dd`, which includes merged DY1 PR #153.
+The [reading assessment](docs/research_reviews/2026-10-31-saxton-il22/README.md)
+maps the biological evidence to A19/A14/A22 and distinguishes recipient context,
+proximal signaling, transcription and functional recovery. The 2025 IL-22–OSM
+companion constrains a universal “STAT3 means protection” interpretation; the
+older priming precedent prevents presenting context dependence as new.
+
+This documentation-only review creates no canonical RQ or numerical result.
+Niethamer S1 remains unrun/gated; reading remains open. Suggested RNA-seq follow-up
+requires source/animal qualification and its own contract. Direct GSE160217 access
+returned a browser challenge; indexed metadata and the paper identify the deposit,
+but files/sample identities were not verified. No external settings changed.
+Next: finish the figure-focused reading; qualify that source only if a reproduction
+is chosen. Repository validation passed 11,883 checks; the base-aware research
+gate passed against main `8cb50dd`. No biological analysis was rerun.
+
 ## DY1 figure gallery integrated — 31 October 2026
 
 Integrated reviewed rendering handoff `5aa6e08cb89e4df9a866d757c8f6afe6ad1023be`
