@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.X2_provenance_v1",
+  "owner": "Sx22-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do all six linked GEO, BioSample and SRA metadata records expose additional explicit biological-unit or technical-run keys?",
+  "decision": "Document exact source cross-references and item-specific unit-field availability without certifying animal independence or resuming treatment analysis.",
+  "strongest_rival": "Database sample/run identifiers, paired-end layout or SRA Pool membership are mistaken for animal identity, biological pairing or pooling.",
+  "discriminator": "Join all six GEO titles and links to BioSample/SRA reverse references and run members, preserving explicit attributes and distinguishing technical records from animals.",
+  "evidence_refs": [
+    "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/README.md",
+    "Research Article/gate3_08_saxton_2021_il22/R1_REVIEW.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All six raw BioSample/SRA metadata records were retrieved and their schemas, attributes and linked run accessions inspected before this freeze. Prior R1 and published outcomes remain exposed; no sequence or biological effect is analyzed.",
+  "biological_unit": "Public metadata record; underlying source animal/preparation identity remains unknown unless explicitly deposited.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "GEO, BioSample, SRA sample, experiment and run records refer to reused source material; database layers do not create replicates.",
+  "population_and_selection": "All six GEO samples GSM4869228 through GSM4869233 and their exact linked BioSample/SRA records; no record selected by biological outcome.",
+  "contrast": "Cross-database identity and source-field availability only; no biological contrast.",
+  "endpoint": "Exact sample/experiment/run joins, source-reported attributes, candidate unit keys and technical sequencing layout.",
+  "methods": "Standard-library SOFT and XML parsers; strict cross-reference and source-attribute checks; preserve per-record field inventories and source-access metadata.",
+  "missingness_and_exclusions": "No samples excluded. Missing biological-unit fields remain unknown. Attribute-name screening is paired with documentary review of narrative fields.",
+  "multiplicity": "No biological tests or significance calculations; deterministic metadata checks only.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No biological estimate or precision claim is computed.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Separate records/runs do not prove separate animals; sequencing PAIRED and Pool/Member are not biological pairing or animal-pooling evidence.",
+  "stop_rule": "Reject duplicated records, incomplete six-sample coverage, contradictory cross-references or source attributes. No reads/sequences, inferred units or biological modeling.",
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_family.soft.gz",
+      "sha256": "dd5c728e3a8a4128d3c64674ff56b54a24ed3585e3bc9707f33245dbe6a0b273",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/extensions_20261031/biosamples.xml",
+      "sha256": "8a66251613a05fa38bdfe9a45b6eccfb2547e76a8079f6ddb77e3b5d5967f6fd",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/extensions_20261031/sra_packages.xml",
+      "sha256": "17ea82a07b7f0e1332acde84b0e75d075385ae776852e6ec75fc7619544cc840",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/extensions_20261031/acquisition_v1.json",
+      "sha256": "25be4b3479844bb59f8840d5dbe159af05265d8e02d008d737aa4d7fe95e4b98",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/annotation_v1.py",
+      "sha256": "c295c2477a51ca20def95095eb9ebf912c775f4f7024baa73e67ad16e5b6b10d"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/provenance_v1.py",
+      "sha256": "d47e205fa99b19e4e05bc7ee9cf295b6c8bfa05859b1bd3203bb72901498c539"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/tests/test_metadata.py",
+      "sha256": "2dc78439fff351033ed261c99fda4e88a7b882fd230a28ffe18e31ff9ccfe70a"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/provenance_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "sample_provenance.csv",
+    "field_inventory.csv",
+    "record_metadata.json",
+    "source_access.json",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective source-only extension; R1 remains immutable and biological execution holds remain unchanged."
+}
