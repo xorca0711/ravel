@@ -1,5 +1,32 @@
 # Current project state
 
+## Yadav checkpoint B returned for review — 31 October 2026
+
+[Metadata results](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_B_RESULTS.md)
+recover Tsukui's intended author-code state names and SCAHN Table S1/FAQ.
+Actual X3 retained-cell/state assignments remain unknown: the small export is
+absent from inspected sources, and an RDS reader/memory route is unqualified.
+No RDS or external expression was accessed. X5 now has forty source-study rows,
+including Salcher and Habermann, but exact donor/preparation/cell and
+gene-measurement joins remain held. Unmeasured atlas genes can be encoded as zero.
+
+The [provisional X6 matrix](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/PROVISIONAL_X6_MATRIX.md)
+keeps Wg-P06 substrate balance, signaling/cytokine/viability alternatives and the
+A13/A20/A8/A19 epithelial bridge separate. Negative A13/A22 evidence remains.
+X4 holds are unchanged. Next: technical review of B; actual X3 support recovery
+and one specifically qualified external design before any expression comparison.
+This is not a bench-ready package, scientific acceptance or final closeout.
+
+B1/B2 froze at `e7498beb8058f9fef5bc1e6cbe437f0a9104f07d`; both metadata receipts
+executed. Independent checks matched eleven annotation positions, 36 blank
+support rows and all 400 Table S1 source fields. Exact base/preservation/checks
+and external resource/source holds are in the
+[ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md).
+
+Repository validation passed 12,206 checks; both new receipts and the current-base
+research gate passed against freshly fetched, unchanged main `8cb50dd`. The 104
+inherited Yadav outputs and all canonical RQs/guides remain unchanged.
+
 ## Yadav checkpoint A reviewed; targeted follow-ups authorized — 31 October 2026
 
 Reviewed execution commit 49f2023be3eba264d45020d2fe9060acf730100c.
