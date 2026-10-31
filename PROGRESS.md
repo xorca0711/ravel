@@ -1,5 +1,22 @@
 # Current project state
 
+## Saxton source-readiness extensions scoped — 31 October 2026
+
+The owner requested implications and further eligible work through a technical
+chat after opening recovery PR #155. The separate local branch
+`codex/saxton-source-extensions-20261031` starts at `f4878c1`. Its
+[prospective plan](Research%20Article/gate3_08_saxton_2021_il22/extensions_20261031/README.md)
+defines X1 annotation ambiguity, X2 all-six-sample provenance and X3 companion
+withdrawal-source linkage audits. These address specific gaps in the completed
+source review; none is a rerun of the held biological analyses. Execution and
+originating review are pending. PR #155 retains only reviewed recovery work.
+
+The existing bounded technical chat is the intended executor. New numerical
+metadata audits require new contracts/receipts; old outputs and hypotheses remain
+unchanged. Exact next step: dispatch this plan, review its source evidence and
+every-job disposition, then integrate eligible local results. Policy holds remain
+distinct from missing data or access failures; no external setting changes.
+
 ## Saxton reviewed recovery PR opened — 31 October 2026
 
 The owner requested publication. CLI and connector identities were verified as
