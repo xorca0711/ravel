@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.X1_annotation_v1",
+  "owner": "Sx22-P01",
+  "contract": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/config/x1_contract_v1.json",
+  "contract_sha256": "682850ee84138ae21bac605ede6078c15c13421f44651b25310d754d8d8a304f",
+  "git_commit": "1f7b0d54a66e821039ff09ef103d2c1fab04af60",
+  "started_at": "2026-10-31T13:29:52.527202+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/annotation_v1.py",
+    "--output",
+    "analysis/research/runs/sx22_x1_annotation_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_readcount_genename.xls.gz",
+      "sha256": "26a63db90cbb1c65614205b05a1a957b37f0783b67df72ad4801b48c5bc0646d",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_fpkm_genename.xls.gz",
+      "sha256": "69dd439dc048fe6ff0e4d343d403e2fe277ea004beb4bc10b80c2f0daa7027f1",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/annotation_v1.py",
+      "sha256": "c295c2477a51ca20def95095eb9ebf912c775f4f7024baa73e67ad16e5b6b10d"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/provenance_v1.py",
+      "sha256": "d47e205fa99b19e4e05bc7ee9cf295b6c8bfa05859b1bd3203bb72901498c539"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/tests/test_metadata.py",
+      "sha256": "2dc78439fff351033ed261c99fda4e88a7b882fd230a28ffe18e31ff9ccfe70a"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/sx22_x1_annotation_v1/annotations.csv",
+      "sha256": "296fd67719ec066dd4f10d6bb03fb027f127b3b0c65168874bc6b30b764b15bb"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x1_annotation_v1/repeated_symbols.csv",
+      "sha256": "2a08160ed1ca9e440aa02948572fdfb5f9fa4d79f3bd96aed6cd69a4132d555f"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x1_annotation_v1/summary.json",
+      "sha256": "83a8d461c9962e4971dc091913d29ffe1544da6df951116a393177f3f62dea58"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-31T13:29:54.083646+00:00"
+}

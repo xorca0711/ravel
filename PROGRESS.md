@@ -1,5 +1,35 @@
 # Current project state
 
+## Saxton source extensions executed locally - 31 October 2026
+
+The bounded [X1/X2/X3 technical return](Research%20Article/gate3_08_saxton_2021_il22/extensions_20261031/RESULTS.md)
+is complete at its documented source coverage on `codex/saxton-source-audit-20261031`,
+in the reused clean recovery worktree. Frozen metadata commit `1f7b0d5` precedes
+both new immutable runner receipts. X1 retains all 35,275 annotation rows: all
+52 repeated symbols map to distinct stable IDs, with no version suffixes; exact
+annotation release remains unknown. X2 reconciles all six GEO/BioSample/SRA
+chains and six public run records, without recovering animal/preparation/pool/
+batch keys. Sequencing pairing and SRA member labels do not establish animals.
+
+X3 retrieved the companion supplement, reporting summary and table workbook
+through ordinary public sources. Figure S5e supplies withdrawal-time/transcript
+labels and two source-reported experiments; per-time units, measured cessation
+and later functional linkage remain unqualified. S5c/d mouse counts are separate.
+The [manifest](Research%20Article/gate3_08_saxton_2021_il22/extensions_20261031/SOURCE_MANIFEST.md)
+distinguishes failed access routes, inspected files and unassessed material.
+
+Both receipts, every annotation row/group and six provenance chains passed
+independent checks; the originating reviewer independently confirmed them and
+the S5e source locator. Validation passed 12,687 repository checks, the current-main
+gate, 158 shared tests (two skips), compilation and required claim/archive checks.
+The bounded diff preserves historical evidence and canonical registry state;
+exact validation and the checked base are recorded in the
+[handoff](Research%20Article/gate3_08_saxton_2021_il22/extensions_20261031/VALIDATION.md).
+Next: final originating review and any explicitly authorized integration. R1,
+root attributes, governance and canonical hypotheses remain unchanged. All
+original biological execution holds remain; no push, PR mutation, merge,
+author contact, Notion edit, external setting or scientific acceptance occurred.
+
 ## Saxton source-readiness extensions scoped — 31 October 2026
 
 The owner requested implications and further eligible work through a technical

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "raw_data/Sx22/extensions_20261031/biosamples.xml",
+    "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN16563502,SAMN16563631,SAMN16563630,SAMN16563629,SAMN16563628,SAMN16563627&retmode=xml",
+    "accessed_utc": "2026-10-31T13:21:52.732333+00:00",
+    "expected_format": "xml",
+    "http_status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN16563502,SAMN16563631,SAMN16563630,SAMN16563629,SAMN16563628,SAMN16563627&retmode=xml",
+    "content_type": "text/xml; charset=UTF-8",
+    "bytes": 10130,
+    "sha256": "8a66251613a05fa38bdfe9a45b6eccfb2547e76a8079f6ddb77e3b5d5967f6fd",
+    "format_valid": "BioSampleSet"
+  },
+  {
+    "path": "raw_data/Sx22/extensions_20261031/sra_packages.xml",
+    "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=SRX9372917,SRX9372918,SRX9372919,SRX9372920,SRX9372921,SRX9372922&retmode=xml",
+    "accessed_utc": "2026-10-31T13:21:53.956464+00:00",
+    "expected_format": "xml",
+    "http_status": 200,
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=SRX9372917,SRX9372918,SRX9372919,SRX9372920,SRX9372921,SRX9372922&retmode=xml",
+    "content_type": "text/xml",
+    "bytes": 47276,
+    "sha256": "17ea82a07b7f0e1332acde84b0e75d075385ae776852e6ec75fc7619544cc840",
+    "format_valid": "EXPERIMENT_PACKAGE_SET"
+  }
+]
