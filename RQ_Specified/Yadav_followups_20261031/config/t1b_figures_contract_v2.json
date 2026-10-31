@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Wg-P06.followup_t1b_figures_v2",
+  "owner": "Wg-P06",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Can the already verified T1-B channels be shown with readable separate titles and fully visible held markers?",
+  "decision": "Replace only the initial T1-B figure layout after visual QA, preserving all numerical outputs and original figures for review.",
+  "strongest_rival": "Crowded or clipped labels/held markers obscuring source completeness and unit limits.",
+  "discriminator": "Use only frozen source/summary/vector tables; inspect corrected PNG and PDF renders and verify unchanged source-table hashes.",
+  "evidence_refs": [
+    "RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md",
+    "RQ_Specified/Yadav_followups_20261031/REVIEW_T0.md",
+    "RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md",
+    "RQ_Specified/Yadav_followups_20261031/T1A_RESULTS.md",
+    "RQ_Specified/Yadav_followups_20261031/R2_DESIGN.md",
+    "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md",
+    "RQ_Specified/Yadav_followups_20261031/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "T0, T1-A and all newly executed T1-B results and figures are exposed. Arithmetic verification passed 17,841 checks before this presentation-only freeze; this is no confirmatory analysis.",
+  "biological_unit": "Deposited Hamanaka fibroblast source sample strings: four supplied suffix observations per condition, except Figure 4F three. Biological donor/preparation/well identity, independence and pairing remain unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Multiple isotope channels and metabolites repeat each sample label. Source workbook and article are one evidence lineage. Matching suffixes are not pairs; no donor population inference or cross-medium pooled effect.",
+  "population_and_selection": "Exactly the same R1 15 fraction blocks and R2 14 area/13 percentage blocks; no new source cells or outcomes.",
+  "contrast": "Per-isotope/condition unweighted source means and observed ranges; descriptive TGF-beta minus UT only when both full supplied-n channel summaries qualify. Percentage differences use percentage points; areas retain native source units. No pairing or cross-medium/metabolite pooling.",
+  "endpoint": "The same stored dots, full-n means and observed ranges, and vector/missingness annotations; no numerical estimation.",
+  "methods": "Plot frozen CSV values and stored summary endpoints only. Wrap/split titles, pad x limits, separate panel spacing and move held-count annotations above axes. No workbook access, statistical arithmetic, rescaling or source/QC edits.",
+  "missingness_and_exclusions": "Reuse every stored held status, original sample count and source-map exclusion. Plot held markers distinctly from numeric zero.",
+  "multiplicity": "Not applicable: no biological hypothesis tests, significance selection or population confidence intervals.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Observed ranges describe supplied source labels, not population uncertainty or power. Fixed vector diagnostic tolerance is unchanged from T1-A and unrelated to biological margins; no precision inferred from decimal length or tuning to outcomes. Actual independent-unit variance/margins/sample size remain unknown.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Exposed shared-source description, not validated normalized composition, independent biological replication, calibrated concentration, exact unspecified abundance/error-bar replay, source ARG1 effect, collagen incorporation/transfer, flux, necessity or mature repair. All original T1-A vector/summary holds remain unchanged. Native B1 nutrient key, collagen/Lee values and original spatial/human/X3-X5 holds persist.",
+  "stop_rule": "Generate three layout-corrected figures, visually inspect PNG/PDF, retain original figures and tables, and return T1-B for review.",
+  "inputs": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md",
+      "sha256": "2b464a865908671edf306c56963984c4d46def9dbda40f03565886297250a86e",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t1b_r1_spec_v1.json",
+      "sha256": "5cd4d3a41a7906ba89eeba41cda1ea66ef89fcecfdfdd83d0b1c87b4d01f34dc",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/source_values.csv",
+      "sha256": "f4675b02fb5623236b845b602904b7cedcae12be90d6c1c67075eae48d04568c",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/summaries.csv",
+      "sha256": "a13f7f82f0d096f59d3943a80178efcf7e27977e5d46fc134b1d2eab163d919d",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/vector_qc.csv",
+      "sha256": "372445c19f1ca92f81702885b149051785b9688e890ac59de417af747b820850",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r1_v1/receipt.json",
+      "sha256": "c2b2c5a275dbd41bf0f9173218e15cc0fe4f7c3106348e7954341843bb02da65",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/config/t1b_r2_spec_v1.json",
+      "sha256": "52afeafeff87658b3369612fd337d38a5d88b2e2bb4b97e1db0dde36983dd800",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/source_values.csv",
+      "sha256": "067ac065b8d53446efd43d22250af5ed490ecef4471f2b0c46e02b9bb3106f12",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/summaries.csv",
+      "sha256": "3bc0c5e3f1d0ce273ccaca6fe502492cf546d04cab8776beb70fabfd1859b589",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/vector_qc.csv",
+      "sha256": "5dbb701f7c97cb3813303b3873c3df2ac2bde291c2bccbc44308eab8c25bea39",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Wg_P06_followup_t1b_r2_v1/receipt.json",
+      "sha256": "1c063c02f66fd1717bca4bbd05e38f01e68e308b59ae44df7ca0380c6cb96c95",
+      "study_id": "Hamanaka2025_Figshare28087574v1",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/Yadav_followups_20261031/scripts/plot_t1b_v2.py",
+      "sha256": "64f9d44aacaafd2501acb18e141f96abfee276e8a747e8b6ca6add3fc586f7dc"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/Yadav_followups_20261031/scripts/plot_t1b_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "r1_reported_percent_channels_v2.png",
+    "r1_reported_percent_channels_v2.pdf",
+    "r2_reported_percent_channels_v2.png",
+    "r2_reported_percent_channels_v2.pdf",
+    "r2_native_area_channels_v2.png",
+    "r2_native_area_channels_v2.pdf",
+    "figure_manifest.json"
+  ],
+  "amendment_of": "RQ_Specified/Yadav_followups_20261031/config/t1b_r1_contract_v1.json",
+  "amendment_reason": "Visual QA of successful T1-B runs found crowded R2 titles and last-channel held marks; this version supersedes only presentation of all three R1/R2 figures. Original v1 figures, contracts, receipts, tables and 17,841 independent numerical checks are retained."
+}

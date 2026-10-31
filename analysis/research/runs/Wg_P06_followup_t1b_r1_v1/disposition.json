@@ -1,0 +1,18 @@
+{
+  "job": "r1",
+  "endpoint": "literal reported channels; not validated normalized composition",
+  "source_sha256": "d8d3365b226323d3ebe7300c481625049ae1cae3f78948938956240b8ea79f4f",
+  "literal_cells": 720,
+  "measure_blocks": 15,
+  "summaries": 180,
+  "held_summaries": 20,
+  "invalid_cells": 80,
+  "vector_qc_observations": 120,
+  "complete_vectors": 72,
+  "scope_holds": [
+    "All original T1-A vector/summary holds remain unchanged; this is a distinct literal-channel endpoint.",
+    "No R1 areas or B1 rerun; no raw-MS, flux, collagen transfer or source ARG1 effect."
+  ],
+  "old_v1_qc_sha256": "4825eb176120fb0ceb755a7bdd7e20ece7622cba74aff0a1acb73a4b8d15c47d",
+  "limit": "No old hold erased, normalization validation, calibrated pool, raw correction, flux, source ARG1 effect, collagen incorporation or mature repair."
+}
