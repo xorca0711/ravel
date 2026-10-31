@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.extension_x1_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How sensitive are the three original Arg1/Il6 library descriptions to inclusion of the frozen mixed fibroblast/macrophage class?",
+  "decision": "Limit or retain the core-class description according to fixed inclusion sensitivity; do not reassign mixed cells to a true lineage.",
+  "strongest_rival": "Unknown preparation/batch and class selection, ambient RNA and mixed cells may explain library differences without an identifiable genotype or within-state biological effect.",
+  "discriminator": "Compare original core to core plus the frozen mixed label using the same two QC masks and equal library weights; retain all original labels in target-count attribution.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/README.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Original R1 endpoints, annotation, composition and source outcomes exposed. No mixed-inclusive target summaries calculated before this freeze.",
+  "biological_unit": "Coculture preparation/animal pooling and biological independence are unknown; report libraries, with cells nested within libraries.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Slices and wells nest in source patients or donor combinations; cells nest in libraries. Numeric library suffixes do not prove preparation pairing. Source panels and deposited data are reused published evidence, not independent replication.",
+  "population_and_selection": "All 12519 frozen barcodes, unchanged five labels and two QC masks. Other/unassigned remain in attribution; core eligibility required in both inclusion sets.",
+  "contrast": "Original three comparisons by two overlapping cell sets, two overlapping QC masks and four frozen metrics; all four crossed-library differences.",
+  "endpoint": "Primary library mean log1p per10000; detection fraction, mean per10000 and pseudobulk CPM companions. Per-label raw count totals/detection/share of all retained target counts.",
+  "methods": "Frozen saved-table joins only; NumPy aggregation with independently reread CSV/math.fsum verification and equality checks against saved core summaries. No raw matrix reload.",
+  "missingness_and_exclusions": "Original core eligibility mandatory, unchanged QC masks and labels. Undefined shares when total target count is zero; empty-label detection undefined. No failed core rescued by mixed cells.",
+  "multiplicity": "All 48 contrast rows and 192 crossed differences, no tests/CI/bootstrap or outcome-driven selection.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Technical source checks do not estimate population precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Library-level assignment sensitivity; neither true lineage reassignment, validated contamination bound nor biological uncertainty. Unknown preparation, ambient signals and composition confounding persist.",
+  "stop_rule": "Stop after fixed inclusion/attribution tables, figures and independent arithmetic. No relabeling, new classifier, correction of ambient RNA or external expression extraction.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/cell_labels.csv",
+      "sha256": "949aa1ec8ee1b02f0edf2c72718d87e4b3b6d2ebcf7e535e5ca1f21f54a3da50",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/composition.csv",
+      "sha256": "3f36fb7692d4bade1fd3eb548b26aee7e5a8d698689d43112bb84ba49eed5639",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_annotation_v1/class_eligibility.csv",
+      "sha256": "42eba11dab153a87043ce5405b8d8814a43af79b42db69d0cab7399df0e5686c",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/cell_endpoints.csv",
+      "sha256": "d114ce4220e5ac75628513a3e8afd362822ffe06bbb0f29a39b7ceb25c842826",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_rna_endpoints_v1/library_endpoints.csv",
+      "sha256": "dbe5a2de6a96d6502ffaf5477f9230dedcd38e3d0e86d4b2a07701425111835a",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/config/rna_endpoints_spec_v1.json",
+      "sha256": "edc6f2ba6538aa473544bf945b0ebafec8bb0492b13f68478714c08707155dea",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/common_v1.py",
+      "sha256": "fb8f25fc1c9cfacbbbb91ae94f33bb381737f9ec74fc80861affae0cd117ffbc"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/inclusion_v1.py",
+      "sha256": "256bc78055b6c0325308ad88223ee8639a4aca5c2514440c72a1ba36fdb28da4"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/verify_x1_v1.py",
+      "sha256": "d363ecabf01a8e070a81b54a12c7f82e6ccdc71a7f2f289c4721c159750377c6"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/config/x1_spec_v1.json",
+      "sha256": "27adea0c1fef763168e3122235c7f7839f798d5c3fa95bc24800c227612db0e3"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/inclusion_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "barcode_membership.csv",
+    "target_attribution.csv",
+    "library_endpoints.csv",
+    "condition_contrasts.csv",
+    "crossed_library_differences.csv",
+    "independent_verification.json",
+    "inclusion.png",
+    "inclusion.pdf",
+    "attribution.png",
+    "attribution.pdf",
+    "runtime.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New owner-authorized extension. Original analysis unchanged."
+}

@@ -1,0 +1,214 @@
+sheet,cell,role,source_value,source_type,panel,group,blank_rule
+4c,A1,source_label,Supernatant,s,,,
+4c,B1,blank,,,,,structural spacing/unequal tail; not zero
+4c,C1,blank,,,,,structural spacing/unequal tail; not zero
+4c,D1,source_label,Lysate,s,,,
+4c,E1,blank,,,,,structural spacing/unequal tail; not zero
+4c,A2,blank,,,,,structural spacing/unequal tail; not zero
+4c,B2,blank,,,,,structural spacing/unequal tail; not zero
+4c,C2,blank,,,,,structural spacing/unequal tail; not zero
+4c,D2,blank,,,,,structural spacing/unequal tail; not zero
+4c,E2,blank,,,,,structural spacing/unequal tail; not zero
+4c,A3,source_label,Untreated,s,,,
+4c,B3,source_label,IL6 (50 ng/ml),s,,,
+4c,C3,blank,,,,,structural spacing/unequal tail; not zero
+4c,D3,source_label,Untreated,s,,,
+4c,E3,source_label,IL6 (50 ng/ml),s,,,
+4c,A4,observation,140.91050000000001,n,4C_supernatant,untreated,
+4c,B4,observation,404.35070000000002,n,4C_supernatant,IL6,
+4c,C4,blank,,,,,structural spacing/unequal tail; not zero
+4c,D4,observation,984.50019999999995,n,4C_lysate,untreated,
+4c,E4,observation,2248.4319999999998,n,4C_lysate,IL6,
+4c,A5,observation,121.5399,n,4C_supernatant,untreated,
+4c,B5,observation,411.13040000000001,n,4C_supernatant,IL6,
+4c,C5,blank,,,,,structural spacing/unequal tail; not zero
+4c,D5,observation,976.75189999999998,n,4C_lysate,untreated,
+4c,E5,observation,2083.7820000000002,n,4C_lysate,IL6,
+4c,A6,observation,110.8861,n,4C_supernatant,untreated,
+4c,B6,observation,440.18630000000002,n,4C_supernatant,IL6,
+4c,C6,blank,,,,,structural spacing/unequal tail; not zero
+4c,D6,observation,1074.5730000000001,n,4C_lysate,untreated,
+4c,E6,observation,2388.8690000000001,n,4C_lysate,IL6,
+4d,A1,source_label,BAL ARG1 Elisa ,s,,,
+4d,B1,blank,,,,,structural spacing/unequal tail; not zero
+4d,C1,blank,,,,,structural spacing/unequal tail; not zero
+4d,D1,source_label,qPCR,s,,,
+4d,E1,blank,,,,,structural spacing/unequal tail; not zero
+4d,A2,blank,,,,,structural spacing/unequal tail; not zero
+4d,B2,blank,,,,,structural spacing/unequal tail; not zero
+4d,C2,blank,,,,,structural spacing/unequal tail; not zero
+4d,D2,blank,,,,,structural spacing/unequal tail; not zero
+4d,E2,blank,,,,,structural spacing/unequal tail; not zero
+4d,A3,source_label,WT,s,,,
+4d,B3,source_label,IL-6 KO,s,,,
+4d,C3,blank,,,,,structural spacing/unequal tail; not zero
+4d,D3,source_label,WT,s,,,
+4d,E3,source_label,IL6KO ,s,,,
+4d,A4,observation,1.94433E-3,n,4D_BAL,WT,
+4d,B4,observation,9.5193000000000003E-4,n,4D_BAL,IL6_KO,
+4d,C4,blank,,,,,structural spacing/unequal tail; not zero
+4d,D4,observation,0.20241480000000001,n,4D_qPCR,WT,
+4d,E4,observation,5.5593600000000002E-3,n,4D_qPCR,IL6_KO,
+4d,A5,observation,1.7185499999999999E-3,n,4D_BAL,WT,
+4d,B5,observation,7.1305000000000001E-4,n,4D_BAL,IL6_KO,
+4d,C5,blank,,,,,structural spacing/unequal tail; not zero
+4d,D5,observation,8.6890159999999994E-2,n,4D_qPCR,WT,
+4d,E5,observation,4.3615499999999996E-3,n,4D_qPCR,IL6_KO,
+4d,A6,observation,1.4316000000000001E-3,n,4D_BAL,WT,
+4d,B6,observation,1.19837E-3,n,4D_BAL,IL6_KO,
+4d,C6,blank,,,,,structural spacing/unequal tail; not zero
+4d,D6,observation,8.6436769999999996E-2,n,4D_qPCR,WT,
+4d,E6,observation,2.1853500000000001E-2,n,4D_qPCR,IL6_KO,
+4d,A7,observation,1.73055E-3,n,4D_BAL,WT,
+4d,B7,observation,1.0011499999999999E-3,n,4D_BAL,IL6_KO,
+4d,C7,blank,,,,,structural spacing/unequal tail; not zero
+4d,D7,observation,3.5786579999999998E-2,n,4D_qPCR,WT,
+4d,E7,observation,1.5105100000000001E-3,n,4D_qPCR,IL6_KO,
+4d,A8,observation,1.10154E-3,n,4D_BAL,WT,
+4d,B8,observation,9.257E-4,n,4D_BAL,IL6_KO,
+4d,C8,blank,,,,,structural spacing/unequal tail; not zero
+4d,D8,observation,0.14597162,n,4D_qPCR,WT,
+4d,E8,observation,0,n,4D_qPCR,IL6_KO,
+6c,A1,source_label,Fib ,s,,,
+6c,B1,source_label,Fib,s,,,
+6c,C1,source_label,Fib + Mac,s,,,
+6c,D1,source_label,Fib + Mac,s,,,
+6c,A2,observation,151.24770000000001,n,6C_IL6,WT_alone,
+6c,B2,observation,109.8348,n,6C_IL6,KO_alone,
+6c,C2,observation,356.30835000000002,n,6C_IL6,WT_co,
+6c,D2,observation,113.8425,n,6C_IL6,KO_co,
+6c,A3,observation,186.64904999999999,n,6C_IL6,WT_alone,
+6c,B3,observation,179.96955,n,6C_IL6,KO_alone,
+6c,C3,observation,367.6635,n,6C_IL6,WT_co,
+6c,D3,observation,81.780900000000003,n,6C_IL6,KO_co,
+6c,A4,observation,196.00035,n,6C_IL6,WT_alone,
+6c,B4,observation,146.57204999999999,n,6C_IL6,KO_alone,
+6c,C4,observation,364.32375000000002,n,6C_IL6,WT_co,
+6c,D4,observation,93.804000000000002,n,6C_IL6,KO_co,
+6c,A5,observation,192.66059999999999,n,6C_IL6,WT_alone,
+6c,B5,observation,116.51430000000001,n,6C_IL6,KO_alone,
+6c,C5,observation,526.63559999999995,n,6C_IL6,WT_co,
+6c,D5,observation,97.143749999999997,n,6C_IL6,KO_co,
+6c,A6,observation,206.68754999999999,n,6C_IL6,WT_alone,
+6c,B6,observation,134.54894999999999,n,6C_IL6,KO_alone,
+6c,C6,observation,572.05619999999999,n,6C_IL6,WT_co,
+6c,D6,observation,100.48350000000001,n,6C_IL6,KO_co,
+6d,A1,source_label,Untreated,s,,,
+6d,B1,source_label,ATPγS,s,,,
+6d,C1,source_label,ATPγS + p38 inh,s,,,
+6d,D1,source_label,ATPγS / P2rx4 KO,s,,,
+6d,A2,observation,272.00720000000001,n,6D_IL6,WT_untreated,
+6d,B2,observation,926.81550000000004,n,6D_IL6,WT_ATP,
+6d,C2,observation,914.86080000000004,n,6D_IL6,WT_ATP_p38i,
+6d,D2,observation,715.31209999999999,n,6D_IL6,KO_ATP,
+6d,A3,observation,676.92399999999998,n,6D_IL6,WT_untreated,
+6d,B3,observation,1243.807,n,6D_IL6,WT_ATP,
+6d,C3,observation,803.41229999999996,n,6D_IL6,WT_ATP_p38i,
+6d,D3,observation,957.55370000000005,n,6D_IL6,KO_ATP,
+6d,A4,observation,748.26649999999995,n,6D_IL6,WT_untreated,
+6d,B4,observation,1190.9749999999999,n,6D_IL6,WT_ATP,
+6d,C4,observation,571.26,n,6D_IL6,WT_ATP_p38i,
+6d,D4,observation,991.07640000000004,n,6D_IL6,KO_ATP,
+6d,A5,observation,613.94494999999995,n,6D_IL6,WT_untreated,
+6d,B5,observation,1229.7606499999999,n,6D_IL6,WT_ATP,
+6d,C5,observation,682.28359999999998,n,6D_IL6,WT_ATP_p38i,
+6d,D5,blank,,,,,structural spacing/unequal tail; not zero
+6d,A6,observation,534.08855000000005,n,6D_IL6,WT_untreated,
+6d,B6,observation,1201.3502000000001,n,6D_IL6,WT_ATP,
+6d,C6,observation,784.40764999999999,n,6D_IL6,WT_ATP_p38i,
+6d,D6,blank,,,,,structural spacing/unequal tail; not zero
+6d,A7,observation,687.37649999999996,n,6D_IL6,WT_untreated,
+6d,B7,observation,1071.2909999999999,n,6D_IL6,WT_ATP,
+6d,C7,blank,,,,,structural spacing/unequal tail; not zero
+6d,D7,blank,,,,,structural spacing/unequal tail; not zero
+6d,A8,observation,672.2115,n,6D_IL6,WT_untreated,
+6d,B8,observation,1401.73,n,6D_IL6,WT_ATP,
+6d,C8,blank,,,,,structural spacing/unequal tail; not zero
+6d,D8,blank,,,,,structural spacing/unequal tail; not zero
+6d,A9,observation,228.03540000000001,n,6D_IL6,WT_untreated,
+6d,B9,observation,1380.1790000000001,n,6D_IL6,WT_ATP,
+6d,C9,blank,,,,,structural spacing/unequal tail; not zero
+6d,D9,blank,,,,,structural spacing/unequal tail; not zero
+6d,A10,blank,,,,,structural spacing/unequal tail; not zero
+6d,B10,blank,,,,,structural spacing/unequal tail; not zero
+6d,C10,blank,,,,,structural spacing/unequal tail; not zero
+6d,D10,blank,,,,,structural spacing/unequal tail; not zero
+6e,A1,source_label,Uninjured,s,,,
+6e,B1,source_label,Bleomycin,s,,,
+6e,C1,source_label,Bleomycin,s,,,
+6e,A2,observation,0.94527357999999995,n,6E_IL6,WT_uninjured,
+6e,B2,observation,2.0066334600000002,n,6E_IL6,WT_injured,
+6e,C2,observation,2.2470974799999999,n,6E_IL6,KO_injured,
+6e,A3,observation,1.07794352,n,6E_IL6,WT_uninjured,
+6e,B3,observation,10.796019599999999,n,6E_IL6,WT_injured,
+6e,C3,observation,3.08457698,n,6E_IL6,KO_injured,
+6e,A4,observation,0.98673308000000004,n,6E_IL6,WT_uninjured,
+6e,B4,observation,15.5472622,n,6E_IL6,WT_injured,
+6e,C4,observation,2.3548919499999998,n,6E_IL6,KO_injured,
+6e,A5,observation,0.98673308000000004,n,6E_IL6,WT_uninjured,
+6e,B5,observation,6.5339941899999996,n,6E_IL6,WT_injured,
+6e,C5,observation,1.9734657799999999,n,6E_IL6,KO_injured,
+6e,A6,observation,1.0033167300000001,n,6E_IL6,WT_uninjured,
+6e,B6,observation,5.0912115800000004,n,6E_IL6,WT_injured,
+6e,C6,observation,0.96875,n,6E_IL6,KO_injured,
+6e,A7,observation,1.046875,n,6E_IL6,WT_uninjured,
+6e,B7,observation,3.9375,n,6E_IL6,WT_injured,
+6e,C7,observation,1.046875,n,6E_IL6,KO_injured,
+6e,A8,observation,1.04918033,n,6E_IL6,WT_uninjured,
+6e,B8,observation,3.890625,n,6E_IL6,WT_injured,
+6e,C8,blank,,,,,structural spacing/unequal tail; not zero
+6e,A9,blank,,,,,structural spacing/unequal tail; not zero
+6e,B9,blank,,,,,structural spacing/unequal tail; not zero
+6e,C9,blank,,,,,structural spacing/unequal tail; not zero
+6e,A10,blank,,,,,structural spacing/unequal tail; not zero
+6e,B10,blank,,,,,structural spacing/unequal tail; not zero
+6e,C10,blank,,,,,structural spacing/unequal tail; not zero
+6f,A1,blank,,,,,structural spacing/unequal tail; not zero
+6f,B1,blank,,,,,structural spacing/unequal tail; not zero
+6f,C1,blank,,,,,structural spacing/unequal tail; not zero
+6f,D1,blank,,,,,structural spacing/unequal tail; not zero
+6f,E1,blank,,,,,structural spacing/unequal tail; not zero
+6f,F1,blank,,,,,structural spacing/unequal tail; not zero
+6f,G1,blank,,,,,structural spacing/unequal tail; not zero
+6f,A2,source_label,IL6 ELISA ,s,,,
+6f,B2,blank,,,,,structural spacing/unequal tail; not zero
+6f,C2,blank,,,,,structural spacing/unequal tail; not zero
+6f,D2,blank,,,,,structural spacing/unequal tail; not zero
+6f,E2,blank,,,,,structural spacing/unequal tail; not zero
+6f,F2,source_label,qPCR,s,,,
+6f,G2,blank,,,,,structural spacing/unequal tail; not zero
+6f,A3,blank,,,,,structural spacing/unequal tail; not zero
+6f,B3,blank,,,,,structural spacing/unequal tail; not zero
+6f,C3,blank,,,,,structural spacing/unequal tail; not zero
+6f,D3,blank,,,,,structural spacing/unequal tail; not zero
+6f,E3,blank,,,,,structural spacing/unequal tail; not zero
+6f,F3,blank,,,,,structural spacing/unequal tail; not zero
+6f,G3,blank,,,,,structural spacing/unequal tail; not zero
+6f,A4,source_label,Scr RNA ,s,,,
+6f,B4,source_label,ScrRNA + ATPγS,s,,,
+6f,C4,source_label,siRNA P2rx4 + ATPγS,s,,,
+6f,D4,blank,,,,,structural spacing/unequal tail; not zero
+6f,E4,blank,,,,,structural spacing/unequal tail; not zero
+6f,F4,source_label,NTsiRNA ,s,,,
+6f,G4,source_label,P2rx4siRNA ,s,,,
+6f,A5,observation,185.0934,n,6F_IL6,NT,
+6f,B5,observation,501.55829999999997,n,6F_IL6,NT_ATP,
+6f,C5,observation,341.59739999999999,n,6F_IL6,KD_ATP,
+6f,D5,blank,,,,,structural spacing/unequal tail; not zero
+6f,E5,blank,,,,,structural spacing/unequal tail; not zero
+6f,F5,observation,8.2577000000000006E-6,n,6F_qPCR,NT,
+6f,G5,observation,6.5290999999999999E-7,n,6F_qPCR,KD,
+6f,A6,observation,219.34829999999999,n,6F_IL6,NT,
+6f,B6,observation,537.69880000000001,n,6F_IL6,NT_ATP,
+6f,C6,observation,354.79649999999998,n,6F_IL6,KD_ATP,
+6f,D6,blank,,,,,structural spacing/unequal tail; not zero
+6f,E6,blank,,,,,structural spacing/unequal tail; not zero
+6f,F6,observation,7.7780000000000007E-6,n,6F_qPCR,NT,
+6f,G6,observation,3.0689999999999998E-7,n,6F_qPCR,KD,
+6f,A7,observation,248.57499999999999,n,6F_IL6,NT,
+6f,B7,observation,559.69730000000004,n,6F_IL6,NT_ATP,
+6f,C7,observation,322.42720000000003,n,6F_IL6,KD_ATP,
+6f,D7,blank,,,,,structural spacing/unequal tail; not zero
+6f,E7,blank,,,,,structural spacing/unequal tail; not zero
+6f,F7,observation,6.2678999999999997E-6,n,6F_qPCR,NT,
+6f,G7,observation,1.3334E-7,n,6F_qPCR,KD,
