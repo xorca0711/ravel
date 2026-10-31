@@ -6,6 +6,24 @@ scope follows [their reviewed results](../extensions_20261031/RESULTS.md).
 It is a descriptive measurement extension, not a reproduction of a cytokine
 intervention, an animal-level effect study or a new accepted canonical RQ.
 
+## Current disposition
+
+**C0–C3 completed locally, 31 October 2026.** [Results](RESULTS.md) ·
+[Figure/table gallery](FIGURES.md) · [Source qualification](C0_QUALIFICATION.md) ·
+[Validation and handoff](VALIDATION.md).
+
+| Step | Completed work and retained limit |
+|---|---|
+| C0 | Exact H5AD/source hashes, two unique symbols, all 11,683 ordered metadata joins and source composition qualified; original pooled-unit/label limits remain |
+| C1 | New contract/code committed before one descriptive numerical run; all 78 fixed stratum/gene rows retained |
+| C2 | All cell counts, denominators, count sums and sparsity bins independently checked; 18 empty rows remain unavailable. Il22ra1 has only two observed single counts; no biological absence or response conclusion |
+| C3 | Tables and current static v2 figure complete. A separately frozen rendering amendment distinguishes small positives from exact zeros; original numerical output and v1 figure are preserved |
+
+The original scope below remains the prospective record. Both transcripts retain
+their fixed order. No new targets or cohorts were added after seeing sparse
+capture. Original E1/R2/R3 and persistence/function holds remain unchanged.
+Originating review/integration and human scientific acceptance are separate.
+
 ## Question, purpose and interpretation
 
 What Il22ra1 and Il10rb transcript measurements are observed within the retained

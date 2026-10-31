@@ -1,5 +1,35 @@
 # Current project state
 
+## Saxton E1a descriptive extension executed locally — 31 October 2026
+
+The scoped [E1a result](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/RESULTS.md)
+completed C0–C3 on `codex/saxton-recipient-description-20261031`, starting from
+plan `19b6a9c`. Exact source bytes and all metadata joins qualified. Numerical
+contract/code freeze `5fbe78f` preceded one immutable descriptive run over the
+11,683 retained cells and two fixed transcripts; no preprocessing was repeated.
+
+Il22ra1 has only two observed single counts, one within the predefined
+non-contaminant aggregate. This is sparse observed capture, not biological absence,
+responsiveness or a cell-state claim. Il10rb remains a separate measurement.
+All 78 stratum/gene rows and 18 empty rows were independently verified from the
+raw CSR buffers; the originating reviewer separately confirmed the arithmetic.
+Pooled animals, one library per condition, selection and annotation limits remain.
+
+The [current figure](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/FIGURES.md)
+uses a separately frozen rendering amendment at `56da56e` to distinguish small
+positives from exact zeros; original numerical output and v1 figures are preserved.
+All 156 display annotations were checked. Exact runtime, checks and the reviewed
+generated-SVG whitespace exception are recorded in the
+[handoff](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/VALIDATION.md).
+Validation passed 12,752 repository checks, the current-main research gate,
+158 shared tests (two skips), compilation and required claim/archive checks.
+Twelve targeted tests and both receipt checks passed. The originating reviewer
+also passed the numerical and corrected-figure review; final handoff review remains.
+Next: originating review and any authorized local integration. Original Saxton
+WT/variant analyses, R2/R3 service holds and unqualified persistence/function joins
+remain untouched. No canonical RQ, source review, root attribute, validator,
+external setting or human scientific acceptance changed; no push or PR mutation.
+
 ## Saxton recipient-transcript description requested — 31 October 2026
 
 After the completed X1–X3 audits, the owner requested extension analysis.

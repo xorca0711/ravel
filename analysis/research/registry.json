@@ -896,7 +896,8 @@
         "Research Article/gate3_08_saxton_2021_il22/SOURCE_AUDIT.md",
         "Research Article/gate3_08_saxton_2021_il22/SOURCE_CORRECTION_2026-10-31.md",
         "Research Article/gate3_08_saxton_2021_il22/RESULTS.md",
-        "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/RESULTS.md"
+        "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/RESULTS.md",
+        "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/RESULTS.md"
       ]
     }
   ],
@@ -1150,7 +1151,8 @@
     "analysis/research/runs/sx22_r1_v2/receipt.json",
     "analysis/research/runs/sx22_x1_annotation_v1/receipt.json",
     "analysis/research/runs/sx22_x2_provenance_v1/receipt.json",
-    "analysis/research/runs/sx22_e1a_recipient_description_v1/receipt.json"
+    "analysis/research/runs/sx22_e1a_recipient_description_v1/receipt.json",
+    "analysis/research/runs/sx22_e1a_render_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

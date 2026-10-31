@@ -22,6 +22,12 @@ work is integrated on a separate local branch. See the
 directions. [PR #155](https://github.com/xorca0711/ravel/pull/155) contains the
 reviewed recovery only; the subsequent extensions remain local.
 
+The separately scoped [E1a transcript description](recipient_context_v1/RESULTS.md)
+now reports the two fixed transcript measurements in the saved Choi benchmark.
+Its [figure/table gallery](recipient_context_v1/FIGURES.md) preserves literal labels,
+pooled-library limits and empty strata. Sparse Il22ra1 capture supplies no response
+or biological-absence conclusion; the historical E1/R2/R3 dispositions remain intact.
+
 | Step | Current source-review / execution disposition |
 |---|---|
 | R0 | Main source/endpoint audit reviewed; supplementary/raw-source access and assessment limits documented |
