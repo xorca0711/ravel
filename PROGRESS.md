@@ -1,5 +1,37 @@
 # Current project state
 
+## Saxton bounded recovery reviewed locally - 31 October 2026
+
+The isolated recovery from `c60848a` completed the permitted metadata/source
+review and [all-stage disposition ledger](Research%20Article/gate3_08_saxton_2021_il22/COMPLETION_LEDGER.md).
+R1 input/code/output hashes, all eight run files, matrix format/dimensions,
+identifier diagnostics, sample joins and saved QC arithmetic agree independently.
+There are 52 repeated nonempty symbol labels spanning 122 gene rows; `paired=no`
+does not verify unpaired animals. Source-reported n=2/group remains distinct from
+verified animal identity. Frozen outputs, receipt fields and failed preflights
+are unchanged.
+
+The [source correction](Research%20Article/gate3_08_saxton_2021_il22/SOURCE_CORRECTION_2026-10-31.md)
+places receptor qPCR at Fig. 5H, figure-labeled HepG2 blots at F/G and the
+receptor-expression comparison at I. Fig. 7 image/main text say G liver/H skin;
+the caption reverses them. E1/E2 source assessment and the saved-evidence index
+are complete at documented coverage; uninspected supplements remain not assessed.
+R2/R3 remain unexecuted on a platform-policy execution hold despite recovered
+counts. R4/R5 numerical work also retains raw-unit/replicate/panel-identity limits.
+The original biological sequence is not claimed complete.
+
+Corrected the inherited root `.gitattributes` preservation defect: restored its
+exact main bytes and scoped the Saxton source rule locally. Historical Weft
+contracts/receipts and all validators remain unchanged. Required checks and
+local commit details are recorded in the [handoff](Research%20Article/gate3_08_saxton_2021_il22/VALIDATION.md).
+Validation passed 12,630 repository checks, the base-aware gate against freshly
+fetched main `4df267d`, 158 tests (two Windows symlink-privilege skips), three
+Saxton tests, compilation, 18 claim bindings and all required archive verifiers.
+Next: originating chat independently reviews this handoff and its exact bytes;
+held biological work is not resumed. No push, PR, merge, external setting,
+Notion edit, author contact, bench work or scientific acceptance occurred.
+
+
 ## Saxton technical recovery scoped after platform restriction — 31 October 2026
 
 The user requested a replacement technical chat and review through a disposition

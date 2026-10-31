@@ -1,24 +1,28 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
-**Recovery update, 31 October 2026:** the original technical chat stopped with an
-explicit biological-content safety restriction after completing the R1 metadata/QC
-run. Its source files and outputs are preserved and the original receipt verifies.
-The [replacement scope](RECOVERY_SCOPE_2026-10-31.md) permits source integrity,
-review of saved results, source-only feasibility and documentation; it does not
-resume the blocked biological execution. The original plan below is retained as
-history. Numerical and source-review status must be reported separately.
+**Recovery closeout, 31 October 2026:** the bounded metadata/source/documentation
+review is complete. The original biological sequence is not completed. The
+[recovery scope](RECOVERY_SCOPE_2026-10-31.md) governs current work; the original
+plan below remains historical, including its broader authorization language.
 
-| Step | Current execution/review state |
+[Results](RESULTS.md) | [Complete hold ledger](COMPLETION_LEDGER.md) |
+[Independent R1 review](R1_REVIEW.md) | [Source correction](SOURCE_CORRECTION_2026-10-31.md) |
+[E1/E2 source feasibility](SOURCE_FEASIBILITY.md) | [Evidence index](FIGURES.md) |
+[Validation and handoff](VALIDATION.md).
+
+| Step | Current source-review / execution disposition |
 |---|---|
-| R0 | RNA source mapping recovered; remaining panel/source audit under review |
-| R1 | Metadata/QC executed at `ff09fab`; outputs recovered byte-for-byte, receipt verified; independent content review pending |
-| R2 | No treatment model executed; platform-policy execution hold. Count files are available |
-| R3 | No response-program analysis executed; platform-policy execution hold |
-| R4 | Source-location/measurement audit can proceed; raw curve values and replicate keys not qualified; blocked biological fitting not resumed |
-| R5 | Source/endpoint audit can proceed; raw-unit/nesting and panel-label limitations remain; blocked biological effect estimation not resumed |
-| E1 | Source-only feasibility pending; biological scoring/modeling is outside replacement scope |
-| E2 | Existing literature review available; linked withdrawal/recovery source qualification pending; no persistence or recovery effect executed |
-| D1 | Saved-result review, exact hold ledger and metadata/QC gallery reconciliation pending |
+| R0 | Main source/endpoint audit reviewed; supplementary/raw-source access and assessment limits documented |
+| R1 | Original v2 executed; independent hashes, formats, dimensions, joins and QC arithmetic pass; animal identities remain unverified |
+| R2 | Unexecuted; platform-policy execution hold, despite recovered count files |
+| R3 | Unexecuted; platform-policy execution hold; no response scoring/modeling |
+| R4 | Source audit complete with Figure 5 correction; numerical reconstruction held by policy scope and raw-value/replicate/identity limits |
+| R5 | Endpoint/source audit complete; Figure 7 G/H caption conflict retained; numerical reconstruction held by policy scope and unit/nesting limits |
+| E1 | Bounded existing-source assessment complete; numerical extension unexecuted; pooled-unit and endpoint-linkage limits recorded |
+| E2 | Bounded literature/source assessment complete; no linked persistence/recovery analysis; uninspected sources remain not assessed |
+| D1 | Results, evidence index, exact ledger and local handoff complete; originating review and scientific acceptance remain separate |
+
+## Historical plan (retained verbatim below)
 
 31 October 2026. Stable reading ID **8**, Gate **3A**; execution namespace
 **Sx22** (checked absent from the current registry). The owner explicitly requested
