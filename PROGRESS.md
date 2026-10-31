@@ -20,7 +20,12 @@ human-source/X3–X5 holds remain and do not block independent feasible work.
 See the [execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
 The plan integration passed 12,331 repository checks and the current-main
 research gate (`ok: true`, no errors); no biological analyses were rerun.
-Technical dispatch is next. Freshly fetched main remains
+T0-B/R/E was dispatched from reviewed plan commit
+`1473ad87d1246d336402d2ea5f6a2881bc51d774`; the technical chat is confirmed active.
+The existing review heartbeat is **ACTIVE** for this new scope, and the Notion
+plan page reflects launch. Next: review the exact T0 source/unit/endpoint return
+and authorize eligible bounded T1 designs. Latest cursor ends `:34`; the full
+cursor and scope are in the execution ledger. Freshly fetched main remains
 `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
 
 ## Yadav extensions technically reviewed and fully dispositioned — 31 October 2026

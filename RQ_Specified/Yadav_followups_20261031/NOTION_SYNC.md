@@ -15,5 +15,7 @@ targeted edits preserved historical notes, reading order and child pages.
 
 All five creation/update responses completed without warnings. Local paths are
 identified as repository paths; no unpublished commit is represented as remotely
-available. The new plan page initially records dispatch pending. Update that
-one status after the technical chat's launch is confirmed.
+available. The new plan page now records confirmed active T0 dispatch from local plan
+commit `1473ad87d1246d336402d2ea5f6a2881bc51d774` and resumed review coordination.
+A status-only search mismatch caused by normalized bold markup was resolved
+using the freshly fetched exact text; the final update succeeded without warnings.
