@@ -1,0 +1,440 @@
+[
+  {
+    "gsm": "GSM4869228",
+    "source_attributes": {
+      "GEO": {
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "PBS"
+        ],
+        "source_name": [
+          "mouse colon tissue"
+        ]
+      },
+      "BioSample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "PBS"
+        ]
+      },
+      "SRA_sample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "PBS"
+        ]
+      },
+      "SRA_run_SRR12908235": {}
+    },
+    "unit_attribute_candidates": [],
+    "runs": [
+      {
+        "accession": "SRR12908235",
+        "alias": "GSM4869228_r1",
+        "public": "true",
+        "sample_members": [
+          {
+            "accession": "SRS7594489",
+            "sample_name": "GSM4869228",
+            "sample_title": "PBS_1",
+            "member_name": ""
+          }
+        ],
+        "attributes": {}
+      }
+    ],
+    "instrument": "Illumina NovaSeq 6000",
+    "submission": {
+      "accession": "SRA1148800",
+      "alias": "GEO: GSE160217",
+      "center_name": "GEO",
+      "lab_name": ""
+    },
+    "library_layout": "PAIRED"
+  },
+  {
+    "gsm": "GSM4869229",
+    "source_attributes": {
+      "GEO": {
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "PBS"
+        ],
+        "source_name": [
+          "mouse colon tissue"
+        ]
+      },
+      "BioSample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "PBS"
+        ]
+      },
+      "SRA_sample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "PBS"
+        ]
+      },
+      "SRA_run_SRR12908236": {}
+    },
+    "unit_attribute_candidates": [],
+    "runs": [
+      {
+        "accession": "SRR12908236",
+        "alias": "GSM4869229_r1",
+        "public": "true",
+        "sample_members": [
+          {
+            "accession": "SRS7594490",
+            "sample_name": "GSM4869229",
+            "sample_title": "PBS_2",
+            "member_name": ""
+          }
+        ],
+        "attributes": {}
+      }
+    ],
+    "instrument": "Illumina NovaSeq 6000",
+    "submission": {
+      "accession": "SRA1148800",
+      "alias": "GEO: GSE160217",
+      "center_name": "GEO",
+      "lab_name": ""
+    },
+    "library_layout": "PAIRED"
+  },
+  {
+    "gsm": "GSM4869230",
+    "source_attributes": {
+      "GEO": {
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "WT IL-22"
+        ],
+        "source_name": [
+          "mouse colon tissue"
+        ]
+      },
+      "BioSample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "WT IL-22"
+        ]
+      },
+      "SRA_sample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "WT IL-22"
+        ]
+      },
+      "SRA_run_SRR12908237": {}
+    },
+    "unit_attribute_candidates": [],
+    "runs": [
+      {
+        "accession": "SRR12908237",
+        "alias": "GSM4869230_r1",
+        "public": "true",
+        "sample_members": [
+          {
+            "accession": "SRS7594491",
+            "sample_name": "GSM4869230",
+            "sample_title": "LH5_1",
+            "member_name": ""
+          }
+        ],
+        "attributes": {}
+      }
+    ],
+    "instrument": "Illumina NovaSeq 6000",
+    "submission": {
+      "accession": "SRA1148800",
+      "alias": "GEO: GSE160217",
+      "center_name": "GEO",
+      "lab_name": ""
+    },
+    "library_layout": "PAIRED"
+  },
+  {
+    "gsm": "GSM4869231",
+    "source_attributes": {
+      "GEO": {
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "WT IL-22"
+        ],
+        "source_name": [
+          "mouse colon tissue"
+        ]
+      },
+      "BioSample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "WT IL-22"
+        ]
+      },
+      "SRA_sample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "WT IL-22"
+        ]
+      },
+      "SRA_run_SRR12908238": {}
+    },
+    "unit_attribute_candidates": [],
+    "runs": [
+      {
+        "accession": "SRR12908238",
+        "alias": "GSM4869231_r1",
+        "public": "true",
+        "sample_members": [
+          {
+            "accession": "SRS7594492",
+            "sample_name": "GSM4869231",
+            "sample_title": "LH5_2",
+            "member_name": ""
+          }
+        ],
+        "attributes": {}
+      }
+    ],
+    "instrument": "Illumina NovaSeq 6000",
+    "submission": {
+      "accession": "SRA1148800",
+      "alias": "GEO: GSE160217",
+      "center_name": "GEO",
+      "lab_name": ""
+    },
+    "library_layout": "PAIRED"
+  },
+  {
+    "gsm": "GSM4869232",
+    "source_attributes": {
+      "GEO": {
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "22-B3"
+        ],
+        "source_name": [
+          "mouse colon tissue"
+        ]
+      },
+      "BioSample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "22-B3"
+        ]
+      },
+      "SRA_sample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "22-B3"
+        ]
+      },
+      "SRA_run_SRR12908239": {}
+    },
+    "unit_attribute_candidates": [],
+    "runs": [
+      {
+        "accession": "SRR12908239",
+        "alias": "GSM4869232_r1",
+        "public": "true",
+        "sample_members": [
+          {
+            "accession": "SRS7594493",
+            "sample_name": "GSM4869232",
+            "sample_title": "LH30_1",
+            "member_name": ""
+          }
+        ],
+        "attributes": {}
+      }
+    ],
+    "instrument": "Illumina NovaSeq 6000",
+    "submission": {
+      "accession": "SRA1148800",
+      "alias": "GEO: GSE160217",
+      "center_name": "GEO",
+      "lab_name": ""
+    },
+    "library_layout": "PAIRED"
+  },
+  {
+    "gsm": "GSM4869233",
+    "source_attributes": {
+      "GEO": {
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "22-B3"
+        ],
+        "source_name": [
+          "mouse colon tissue"
+        ]
+      },
+      "BioSample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "22-B3"
+        ]
+      },
+      "SRA_sample": {
+        "source_name": [
+          "mouse colon tissue"
+        ],
+        "tissue": [
+          "colon"
+        ],
+        "strain": [
+          "C57BL/6"
+        ],
+        "treatment": [
+          "22-B3"
+        ]
+      },
+      "SRA_run_SRR12908240": {}
+    },
+    "unit_attribute_candidates": [],
+    "runs": [
+      {
+        "accession": "SRR12908240",
+        "alias": "GSM4869233_r1",
+        "public": "true",
+        "sample_members": [
+          {
+            "accession": "SRS7594494",
+            "sample_name": "GSM4869233",
+            "sample_title": "LH30_2",
+            "member_name": ""
+          }
+        ],
+        "attributes": {}
+      }
+    ],
+    "instrument": "Illumina NovaSeq 6000",
+    "submission": {
+      "accession": "SRA1148800",
+      "alias": "GEO: GSE160217",
+      "center_name": "GEO",
+      "lab_name": ""
+    },
+    "library_layout": "PAIRED"
+  }
+]

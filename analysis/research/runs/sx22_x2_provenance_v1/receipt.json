@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.X2_provenance_v1",
+  "owner": "Sx22-P01",
+  "contract": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/config/x2_contract_v1.json",
+  "contract_sha256": "a5070072b2ca07783c06b71a88233b5475e60bfce7a067c52902c4f73f9c2586",
+  "git_commit": "1f7b0d54a66e821039ff09ef103d2c1fab04af60",
+  "started_at": "2026-10-31T13:29:54.910470+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/provenance_v1.py",
+    "--output",
+    "analysis/research/runs/sx22_x2_provenance_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_family.soft.gz",
+      "sha256": "dd5c728e3a8a4128d3c64674ff56b54a24ed3585e3bc9707f33245dbe6a0b273",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/extensions_20261031/biosamples.xml",
+      "sha256": "8a66251613a05fa38bdfe9a45b6eccfb2547e76a8079f6ddb77e3b5d5967f6fd",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/extensions_20261031/sra_packages.xml",
+      "sha256": "17ea82a07b7f0e1332acde84b0e75d075385ae776852e6ec75fc7619544cc840",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/extensions_20261031/acquisition_v1.json",
+      "sha256": "25be4b3479844bb59f8840d5dbe159af05265d8e02d008d737aa4d7fe95e4b98",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/annotation_v1.py",
+      "sha256": "c295c2477a51ca20def95095eb9ebf912c775f4f7024baa73e67ad16e5b6b10d"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/provenance_v1.py",
+      "sha256": "d47e205fa99b19e4e05bc7ee9cf295b6c8bfa05859b1bd3203bb72901498c539"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/tests/test_metadata.py",
+      "sha256": "2dc78439fff351033ed261c99fda4e88a7b882fd230a28ffe18e31ff9ccfe70a"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/sx22_x2_provenance_v1/sample_provenance.csv",
+      "sha256": "248bc0b0f250ec8475ea6986a309f7f4f9a03a4da8a6946e1a828bb8bf7a30d3"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x2_provenance_v1/field_inventory.csv",
+      "sha256": "b4ee69799d6bd7fd3b92eabc5ab5019a0a9dcb6fb406004d8b3a3c54b5802bd3"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x2_provenance_v1/record_metadata.json",
+      "sha256": "ee718e57e626ade4a13f5c572689af493eb52fb3522cadf645b59c527b375238"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x2_provenance_v1/source_access.json",
+      "sha256": "fae96e9e66f97a4ec2c2852bed0b46cf9f85ee96f3e061a86eaeda9eea000647"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x2_provenance_v1/summary.json",
+      "sha256": "2ac6cde9f30a2dddbc802375dbaadb5b2f1842700ad9ca3c7e68876e16c40c6a"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-31T13:29:55.328480+00:00"
+}

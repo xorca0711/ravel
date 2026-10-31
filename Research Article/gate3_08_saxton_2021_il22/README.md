@@ -11,6 +11,12 @@ plan below remains historical, including its broader authorization language.
 [E1/E2 source feasibility](SOURCE_FEASIBILITY.md) | [Evidence index](FIGURES.md) |
 [Validation and handoff](VALIDATION.md).
 
+The later [source-readiness extensions](extensions_20261031/RESULTS.md) report
+completed X1 annotation metadata, X2 all-six-record provenance and X3 companion
+supplement/endpoint-linkage review. Their [separate ledger](extensions_20261031/README.md)
+retains annotation, animal-key and functional-link limits. They leave the original
+recovery dispositions below unchanged and do not resume held biological analyses.
+
 | Step | Current source-review / execution disposition |
 |---|---|
 | R0 | Main source/endpoint audit reviewed; supplementary/raw-source access and assessment limits documented |

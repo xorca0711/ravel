@@ -5,6 +5,27 @@ separate, exposed metadata/documentary follow-up to the reviewed recovery in
 [PR #155](https://github.com/xorca0711/ravel/pull/155), starting at `f4878c1`.
 It does not reopen the held biological sequence or create a canonical RQ.
 
+## Current disposition
+
+**Completed at bounded source-review coverage, 31 October 2026.**
+[Results](RESULTS.md) · [Source/access manifest](SOURCE_MANIFEST.md) ·
+[X3 endpoint linkage](X3_SOURCE_LINKAGE.md) · [Validation and handoff](VALIDATION.md).
+The prospective ledger below retains its initial readiness labels as history.
+
+| Job | Completed work | Remaining limit |
+|---|---|---|
+| X1 | Frozen metadata run and independent check: all 35,275 annotation rows retained, exact cross-file annotation agreement, all 52 repeated labels characterized | All 52 labels map to distinct stable IDs; no version suffixes. Exact annotation release/external reconciliation unknown; no remapping or expression analysis |
+| X2 | Frozen metadata run and independent check: all six GEO/BioSample/SRA chains and six run links reconcile | No explicit animal/preparation/pool/batch key recovered. Sequencing layout and database member records do not establish animal relationships |
+| X3 | Supplement S5e/caption, reporting-summary sections and workbook index inspected; successful files and failed access routes recorded | Transcript time labels and two source-reported experiments are documented; per-time biological-unit keys, verified cessation and later functional linkage remain unqualified. Other advertised files remain explicitly unassessed |
+
+Both metadata contracts and their code were committed before execution; the
+resulting runs retain their original receipts. Documentary X3 reading has no
+invented numerical receipt. R1, root
+attributes, governance, canonical hypotheses and the original recovery ledger
+remain unchanged. R2/R3 and the other excluded biological analyses remain held.
+The originating chat's final handoff review and human scientific acceptance are
+separate from this technical completion. No push or PR mutation occurred here.
+
 ## Why these extensions
 
 The [reviewed results](../RESULTS.md) establish intact source files and a
@@ -26,7 +47,7 @@ The new work addresses three concrete gaps left by recovery. It is deliberately
 limited to source identity, annotation and endpoint linkage. These audits can
 support a feasibility decision even when an effect analysis cannot proceed.
 
-## Prospective job ledger
+## Prospective job ledger (historical initial status)
 
 | Job | Question and increment | Unit / measured endpoint | Completion rule and limit | Initial status |
 |---|---|---|---|---|
