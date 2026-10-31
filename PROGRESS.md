@@ -1,5 +1,37 @@
 # Current project state
 
+## Saxton replacement handoff independently reviewed and integrated — 31 October 2026
+
+Launched **Saxton source audit and status reconciliation**, chat
+`01a191d5-e0e2-70d2-92e0-97272f85ce11`, and coordinated through completed handoff
+`27e58e25d1a8acaa49db69e2e77f5dac8383133f`. The
+[originating review](Research%20Article/gate3_08_saxton_2021_il22/REVIEW_2026-10-31.md)
+passes the bounded metadata/source/documentation work. Integrated locally and
+updated the article/central README and roadmap. Every original stage has a linked
+disposition; no permitted recovery work remains queued.
+
+The R1 output is preserved and independently verified: six libraries, 35,275 gene
+rows, 52 repeated nonempty symbol labels spanning 122 rows, and 12,935 all-zero
+rows. Animal identities/pairing remain unverified. Figure 5/7 caption conflicts
+and the unsupported pairing interpretation are corrected in separate documentation.
+The root attribute file now exactly matches the historical Weft binding; Saxton's
+rule is local. All old contracts, code and run bytes remain unchanged.
+
+Original biological execution is not complete. R2/R3 retain the explicit platform
+restriction despite recovered counts. R4/R5 also require raw values and replicate/
+nesting/panel provenance; E1's selected cohort has pooled units, and E2 lacks a
+qualified cessation-to-function join. Uninspected material is labeled unassessed.
+The evidence index links QC tables; it does not claim new biological figures.
+
+Technical validation passed 12,630 checks, the base-aware gate, 158 shared tests
+(two Windows skips), three source tests and required archive/claim checks. Parent
+review confirmed the final diff, source limitations and exact byte preservation.
+Fresh main remains `4df267d`. Integrated documentation passed 12,641 repository
+checks and the base-aware research gate with zero errors. Final whitespace checks
+passed; unchanged biological analyses and passing code tests were not rerun.
+Both technical checkouts and caches are preserved. No publication, external setting
+change, canonical RQ change or human scientific acceptance occurred.
+
 ## Saxton bounded recovery reviewed locally - 31 October 2026
 
 The isolated recovery from `c60848a` completed the permitted metadata/source

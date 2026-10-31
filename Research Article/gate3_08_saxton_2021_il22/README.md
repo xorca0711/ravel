@@ -1,7 +1,8 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
-**Recovery closeout, 31 October 2026:** the bounded metadata/source/documentation
-review is complete. The original biological sequence is not completed. The
+**Reviewed recovery closeout, 31 October 2026:** the bounded metadata/source/documentation
+review passed [originating review](REVIEW_2026-10-31.md) and is integrated locally.
+The original biological sequence is not completed. The
 [recovery scope](RECOVERY_SCOPE_2026-10-31.md) governs current work; the original
 plan below remains historical, including its broader authorization language.
 
@@ -20,7 +21,7 @@ plan below remains historical, including its broader authorization language.
 | R5 | Endpoint/source audit complete; Figure 7 G/H caption conflict retained; numerical reconstruction held by policy scope and unit/nesting limits |
 | E1 | Bounded existing-source assessment complete; numerical extension unexecuted; pooled-unit and endpoint-linkage limits recorded |
 | E2 | Bounded literature/source assessment complete; no linked persistence/recovery analysis; uninspected sources remain not assessed |
-| D1 | Results, evidence index, exact ledger and local handoff complete; originating review and scientific acceptance remain separate |
+| D1 | Results, evidence index, exact ledger, local integration and originating technical/source review complete; human scientific acceptance remains unassessed |
 
 ## Historical plan (retained verbatim below)
 
