@@ -4,12 +4,12 @@
 Original Yadav work remains closed at its documented scope; the entries below
 are new jobs, not retroactive changes to those contracts or scientific acceptance.
 
-| Job | Initial status | Next deliverable / reopening condition |
+| Job | Current status | Next deliverable / reopening condition |
 | --- | --- | --- |
 | Repo scan and literature refresh | Complete, planning only | Exact scope, revisions and sources in companion records |
-| X0 qualification | Ready to dispatch | Source/assay/unit/overlap map; precise missing fields and independent feasible jobs |
-| X1 fixed RNA inclusion | Ready to dispatch | Frozen contract/code, all prespecified results and independent saved-table checks |
-| X2 protein/output source panels | Ready to dispatch | Qualified panel maps, frozen contracts, all supplied values/contrasts; hold ambiguous panels individually |
+| X0 qualification | Dispatched for checkpoint A | Source/assay/unit/overlap map; precise missing fields and independent feasible jobs |
+| X1 fixed RNA inclusion | Dispatched for checkpoint A | Frozen contract/code, all prespecified results and independent saved-table checks |
+| X2 protein/output source panels | Dispatched for checkpoint A | Qualified panel maps, frozen contracts, all supplied values/contrasts; hold ambiguous panels individually |
 | X3 state/time | Source qualification authorized | Return exact sample/state join and bounded numerical design for review |
 | X4 culture/native/stage | Source qualification authorized | Confirm culture/native availability, donors, assay compatibility and specimen/site confounding |
 | X5 human source/capture | Source qualification authorized | Parent-source overlap, donor/capture/all-zero support and one bounded design |
@@ -41,3 +41,19 @@ Validation passed 12,069 repository checks and the research gate against that
 current main (`ok: true`, no errors). Existing biological tests remain valid;
 no frozen biological analysis was rerun. X0/X1/X2 are eligible for checkpoint-A
 dispatch, with X3-X5 limited to qualification and prospective design proposals.
+
+## Checkpoint A dispatched — 31 October 2026
+
+Reviewed integration/launch commit: `653b3761fe77124ef6de619f9a3a608fe42b2844`.
+The existing technical chat `01a18ba9-2ee9-72d0-a6f0-2c77bf838a75` on host
+`local` received the complete handoff and was confirmed active. Authorized work
+is X0/X1/X2 plus metadata qualification/design proposals for X3-X5. New external
+expression comparisons remain pending specific design review. This dispatch is
+execution authorization, not a scientific result or acceptance decision.
+
+Execution turn: `01a18f48-46e0-7833-a08c-97855708b7d7`.
+Latest compact-wait cursor: `51593419-65e5-454d-96df-3e67caaaccb8:18`.
+Heartbeat `review-yadav-analysis-checkpoints` is ACTIVE with the new X0-X6 scope,
+every 10 minutes, quiet for unchanged/non-actionable states. It reviews exact
+artifacts, advances eligible independent jobs, records specific holds and pauses
+only after the complete extension disposition. No unrelated chat was contacted.

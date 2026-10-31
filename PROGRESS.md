@@ -15,7 +15,10 @@ records actual primary-source searches, two 2026 preprints, the SCAHN source lea
 retrieval receipts and unresolved donor/assay/source overlap.
 
 X0 source qualification, X1 fixed mixed-class RNA inclusion sensitivity and X2
-previously unreconstructed IL-6/ARG1 source panels are ready for frozen contracts.
+previously unreconstructed IL-6/ARG1 source panels were dispatched for frozen
+contracts from reviewed commit 653b3761fe77124ef6de619f9a3a608fe42b2844. The
+existing technical chat is confirmed active; checkpoint review is resumed every
+10 minutes under the updated extension scope, quiet while unchanged.
 X3-X5 may qualify source metadata now; each external numerical comparison returns
 for design review before extraction. X6 retains Wg-P06 substrate balance and a
 separate epithelial-output bridge. No new result, mechanism, human acceptance,
