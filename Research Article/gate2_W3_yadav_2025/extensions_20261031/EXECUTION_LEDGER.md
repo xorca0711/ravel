@@ -126,3 +126,14 @@ access, and B3/X6 provisional evidence-to-decision matrix. X4 remains held with
 explicit culture/donor/assay and early-cohort/specimen reopening requirements.
 No external expression comparison is yet authorized. Checkpoint B is eligible for dispatch after integrated validation passed
 12,153 repository checks and the current-main research gate (`ok: true`). The source caches and every original result remain.
+
+## Checkpoint B dispatched — 31 October 2026
+
+The authorized technical chat received reviewed integration
+`dc908350a73a28714ec1df6456fafaf661db76b3` and the complete B1/X3, B2/X5 and
+B3/X6 handoff. It is confirmed active in turn
+`01a18f8b-058f-7721-a568-79dfce983dde` on host `local`.
+Latest wait cursor: `51593419-65e5-454d-96df-3e67caaaccb8:22`.
+The existing heartbeat remains active; no new automation or unrelated message.
+The next review checks the exact committed metadata/source/synthesis artifacts
+before any further external expression comparison is authorized.

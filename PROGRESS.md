@@ -28,6 +28,8 @@ Integrated validation passed 12,153 repository checks and the current-main
 research gate (`ok: true`, no errors); prior 158 tests/two skips remain valid.
 The only merge conflict was the append-only execution/review ledger; both
 histories were retained. No biological analysis was rerun during integration.
+Checkpoint B was dispatched from dc908350a73a28714ec1df6456fafaf661db76b3;
+the existing technical chat is confirmed active and scheduled review continues.
 
 ## Yadav extension checkpoint A executed — 31 October 2026
 
