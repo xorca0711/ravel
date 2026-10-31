@@ -11,6 +11,7 @@ intervention, an animal-level effect study or a new accepted canonical RQ.
 **C0–C3 completed locally, 31 October 2026.** [Results](RESULTS.md) ·
 [Figure/table gallery](FIGURES.md) · [Source qualification](C0_QUALIFICATION.md) ·
 [Validation and handoff](VALIDATION.md).
+[Originating review](REVIEW.md) passed; the completed handoff is integrated locally.
 
 | Step | Completed work and retained limit |
 |---|---|
@@ -22,7 +23,7 @@ intervention, an animal-level effect study or a new accepted canonical RQ.
 The original scope below remains the prospective record. Both transcripts retain
 their fixed order. No new targets or cohorts were added after seeing sparse
 capture. Original E1/R2/R3 and persistence/function holds remain unchanged.
-Originating review/integration and human scientific acceptance are separate.
+Human scientific acceptance remains unassessed; local review is not publication.
 
 ## Question, purpose and interpretation
 

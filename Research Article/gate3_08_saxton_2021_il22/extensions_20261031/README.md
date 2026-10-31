@@ -5,6 +5,11 @@ separate, exposed metadata/documentary follow-up to the reviewed recovery in
 [PR #155](https://github.com/xorca0711/ravel/pull/155), starting at `f4878c1`.
 It does not reopen the held biological sequence or create a canonical RQ.
 
+The owner's subsequent request produced a separately scoped, reviewed
+[E1a observed-transcript description](../recipient_context_v1/README.md).
+X1–X3 remain completed source audits; E1a does not convert their results into
+an animal-level response or functional-recovery comparison.
+
 ## Current disposition
 
 **Completed at bounded source-review coverage, 31 October 2026.**

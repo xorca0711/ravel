@@ -27,6 +27,9 @@ now reports the two fixed transcript measurements in the saved Choi benchmark.
 Its [figure/table gallery](recipient_context_v1/FIGURES.md) preserves literal labels,
 pooled-library limits and empty strata. Sparse Il22ra1 capture supplies no response
 or biological-absence conclusion; the historical E1/R2/R3 dispositions remain intact.
+Its [originating review](recipient_context_v1/REVIEW.md) passed and the completed
+C0–C3 handoff is integrated locally; no new scientific acceptance or publication
+is implied.
 
 | Step | Current source-review / execution disposition |
 |---|---|

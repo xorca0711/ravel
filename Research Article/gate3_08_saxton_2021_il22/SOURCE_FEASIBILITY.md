@@ -7,6 +7,11 @@ It supersedes the "not assessed" coverage below only for those named items;
 unit-level cessation/function linkage remains unqualified. The original review
 record is retained below.
 
+The separately scoped [E1a description](recipient_context_v1/RESULTS.md) now
+qualifies two transcript measurements in the retained Choi benchmark. It does
+not qualify an animal-level IL-22 response or functional outcome; the historical
+E1 inference limits below remain intact.
+
 31 October 2026. Owner: Sx22-P01. Purpose: inventory identifiers, time/cessation
 labels and endpoint linkage available in already-qualified sources. Comparison:
 source fields against the historical E1/E2 documentation requirements, not a

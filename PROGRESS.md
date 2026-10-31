@@ -1,5 +1,37 @@
 # Current project state
 
+## Saxton E1a reviewed and integrated locally — 31 October 2026
+
+Technical handoff `b3c6e72` completed the newly requested C0–C3 description.
+The [originating review](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/REVIEW.md)
+passed, and it is integrated on `codex/saxton-recipient-context-20261031`.
+All 23,366 selected counts, 11,683 cell totals, 78 stratum/gene rows, 18 empty rows
+and 156 display annotations were independently reconciled. Both receipt/contract
+bindings and the corrected figure passed. The [gallery](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/FIGURES.md)
+retains v1 and makes v2 current without rerunning numerical analysis.
+
+Il22ra1 has two observed single counts, only one under the original non-contaminant
+rule. This source cannot establish a state-specific receptor pattern, biological
+absence or responsiveness. Il10rb is a separate descriptive endpoint. The original
+pooled-library, selection and label limits remain. No target/cohort was added to
+obtain a positive result. Original Saxton treatment/response analyses and linked
+persistence/function comparisons retain their documented service or data limits.
+
+Technical validation passed 12,752 repository checks, the current-base research
+gate, 12 targeted tests, 158 shared tests (two Windows skips), compilation and
+required receipt/claim/archive checks. Final integration passed 12,765 repository
+checks and the base-aware research gate with zero errors; unchanged numerical
+and code tests were reused.
+The only scope adjustment was a separate render version to distinguish small
+positive values from exact zero. Both frozen SVGs retain their reviewed Matplotlib
+whitespace exception; no root attributes, validators or old evidence changed.
+
+No eligible E1a job remains pending. Reopening the held biological comparisons
+requires the specific source/scope qualifications recorded in their ledgers. Fresh
+main is `4df267d`; PR #155 remains the separate recovery PR. This extension is
+local and unpublished. No main merge, Notion edit, author contact, external setting
+change, canonical RQ change or human scientific acceptance occurred.
+
 ## Saxton E1a descriptive extension executed locally — 31 October 2026
 
 The scoped [E1a result](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/RESULTS.md)

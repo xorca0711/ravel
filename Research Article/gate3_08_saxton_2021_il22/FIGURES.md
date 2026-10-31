@@ -1,8 +1,13 @@
 # Saved metadata/QC evidence index
 
+**Later descriptive extension:** the reviewed [E1a figure/table gallery](recipient_context_v1/FIGURES.md)
+now displays two observed transcripts in the retained Choi benchmark. Its separate
+[review](recipient_context_v1/REVIEW.md) qualifies sparse capture and pooled units.
+The R1 recovery index below retains its original scope.
+
 31 October 2026. This index covers the existing **R1 technical evidence**, not a
-biological reproduction gallery. No new measured plot, densitometry, digitization,
-response program or functional figure was generated. Tables are directly readable
+biological reproduction gallery. That recovery generated no measured plot,
+densitometry, digitization, response program or functional figure. Tables are directly readable
 and avoid implying biological comparisons that were never executed.
 
 | Evidence item | Frozen source | What can be read / caption limit |
