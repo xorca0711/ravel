@@ -1,5 +1,36 @@
 # Current project state
 
+## Yadav extension checkpoint A executed — 31 October 2026
+
+[Results and figures](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_A_RESULTS.md)
+return X0–X2 for technical review. X1 preserves all 12,519 barcodes and shows that
+the primary fibroblast Il6 KO–WT difference flips sign with fixed mixed-class
+inclusion under both QC masks. Macrophage Arg1 remains lower in KO coculture;
+fibroblast Il6 remains higher in WT coculture than alone. X2 reconstructs all
+111 supplied values across nine readouts and 16 fixed contrasts, with independent
+workbook/Decimal checks. Figure 4C workbook-versus-PDF amplitudes remain unresolved;
+6E retains relative normalization and absent arms remain absent.
+
+[External feasibility](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXTERNAL_FEASIBILITY.md)
+returns a conditional X3 design and X4/X5 source/identity holds. X3's 50,785
+metadata barcodes join across 12 sample labels, but author state/QC mapping remains
+missing. X4 lacks matched culture files/donor joins; X5 lacks the source/donor/raw
+count inputs needed for a bounded human comparison. No external expression
+extraction occurred. X6 awaits eligible reviewed evidence.
+
+Freeze commits: X0 `01ad6f8451109bf423c931fd2a9136c451f3eba0`;
+X1/X2 `dd2da0b68d6c089e5c78cc1192bc789316de6026`.
+Original analyses, 11 receipts, caches, all canonical RQs and unfavorable findings
+are preserved. New receipts and exact validation/base status are in the
+[execution ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md).
+Validation passed: 158 tests (two skips), 12,148 repository checks, claim/archive
+verifiers, all three new receipts and the research gate against freshly fetched,
+unchanged main `8cb50dd`. A sandbox fixture-permission failure was resolved by
+rerunning only the test suite with approved local access.
+No scientific acceptance, governance change, Notion write, outreach or remote
+push/PR/merge occurred. Next: review checkpoint A and the specific X3 proposal
+before any new external numerical work.
+
 ## Yadav extension plan authorized — 31 October 2026
 
 The owner requested an overall repo scan, additional plausible extensions and

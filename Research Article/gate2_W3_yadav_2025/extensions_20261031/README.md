@@ -5,6 +5,11 @@ repository-wide status scan, additional plausible branches, a finalized stepwise
 plan and execution through the existing technical chat. This opens a new bounded
 extension sequence; the original six-step closeout remains valid for its scope.
 
+**Current checkpoint:** [X0–X2 results/figures](CHECKPOINT_A_RESULTS.md) and
+[X3–X5 feasibility/design return](EXTERNAL_FEASIBILITY.md) are ready for technical
+review. X6 awaits eligible reviewed evidence; no external expression extraction
+has been performed.
+
 [Repository scan](REPO_SCAN.md) · [Literature context](LITERATURE_CONTEXT.md) ·
 [Execution/review ledger](EXECUTION_LEDGER.md) ·
 [Original results](../TECHNICAL_RESULTS.md) · [Original synthesis](../CONTEXT_AND_SYNTHESIS.md).

@@ -111,3 +111,12 @@ then coordinator review. X6 requires the closest experiment comparisons and actu
 resource/measurement qualification before any bench-readiness claim. Further
 unbounded atlas searches, arbitrary signature proliferation and reruns of old
 negative models are outside this sequence.
+
+## Checkpoint-A qualification update
+
+The [source/design return](EXTERNAL_FEASIBILITY.md) records the new exact sample/file
+lookups, 50,785-barcode X3 join, X4 fixed-RNA methods clarification, and SCAHN
+code/parent-source limits. [X1/X2 results](CHECKPOINT_A_RESULTS.md) distinguish
+Il6 inclusion sensitivity from source protein descriptions. This is a bounded
+follow-up to the search record above; no novelty, scientific acceptance or new
+external expression comparison is claimed.

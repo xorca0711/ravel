@@ -834,7 +834,9 @@
         "Research Article/gate2_W3_yadav_2025/extensions_20261031/README.md",
         "Research Article/gate2_W3_yadav_2025/extensions_20261031/REPO_SCAN.md",
         "Research Article/gate2_W3_yadav_2025/extensions_20261031/LITERATURE_CONTEXT.md",
-        "Research Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md"
+        "Research Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md",
+        "Research Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_A_RESULTS.md",
+        "Research Article/gate2_W3_yadav_2025/extensions_20261031/EXTERNAL_FEASIBILITY.md"
       ]
     }
   ],
@@ -1056,7 +1058,9 @@
     "analysis/research/runs/DY1_P02_genotype_reference_v1/receipt.json",
     "analysis/research/runs/DY1_human_panel_robustness_v1/receipt.json",
     "analysis/research/runs/DY1_presentation_figures_v1/receipt.json",
-    "analysis/research/runs/Yd1_extension_x0_v1/receipt.json"
+    "analysis/research/runs/Yd1_extension_x0_v1/receipt.json",
+    "analysis/research/runs/Yd1_extension_x1_v1/receipt.json",
+    "analysis/research/runs/Yd1_extension_x2_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

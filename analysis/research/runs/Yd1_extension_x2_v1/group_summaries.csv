@@ -1,0 +1,25 @@
+panel,group,n,mean,sd,min,max,endpoint,biological_unit
+4C_supernatant,untreated,3,124.4455,15.221630410701747,110.8861,140.9105,ARG1 (pg/mL),Reported biological replicate; preparation/animal identity unknown
+4C_supernatant,IL6,3,418.55580000000003,19.036805948215157,404.3507,440.1863,ARG1 (pg/mL),Reported biological replicate; preparation/animal identity unknown
+4C_lysate,untreated,3,1011.9417,54.3784777553584,976.7519,1074.573,ARG1 (pg/mL),Reported biological replicate; preparation/animal identity unknown
+4C_lysate,IL6,3,2240.3610000000003,152.70355324287644,2083.782,2388.869,ARG1 (pg/mL),Reported biological replicate; preparation/animal identity unknown
+4D_BAL,WT,5,0.0015853140000000002,0.00032611466254984606,0.00110154,0.00194433,BAL ARG1 / CD11b+CD64+ macrophages (supplied normalized pg/mL),"Reported mouse, 5 per group; cross-assay animal IDs unknown"
+4D_BAL,IL6_KO,5,0.00095804,0.000173724126706684,0.00071305,0.00119837,BAL ARG1 / CD11b+CD64+ macrophages (supplied normalized pg/mL),"Reported mouse, 5 per group; cross-assay animal IDs unknown"
+4D_qPCR,WT,5,0.111499986,0.06407051805514437,0.03578658,0.2024148,Arg1 mRNA relative to Gapdh,"Reported mouse, 5 per group; cross-assay animal IDs unknown"
+4D_qPCR,IL6_KO,5,0.006656984,0.0087779485764175,0.0,0.0218535,Arg1 mRNA relative to Gapdh,"Reported mouse, 5 per group; cross-assay animal IDs unknown"
+6C_IL6,WT_alone,5,186.64905000000002,21.085436971788127,151.2477,206.68755,IL-6 (pg/mL),"Reported biological replicate, 5 per group; preparation IDs unknown"
+6C_IL6,KO_alone,5,137.48793,27.840777789121656,109.8348,179.96955,IL-6 (pg/mL),"Reported biological replicate, 5 per group; preparation IDs unknown"
+6C_IL6,WT_co,5,437.39748,103.53074171481988,356.30835,572.0562,IL-6 (pg/mL),"Reported biological replicate, 5 per group; preparation IDs unknown"
+6C_IL6,KO_co,5,97.41093000000001,11.584648743574403,81.7809,113.8425,IL-6 (pg/mL),"Reported biological replicate, 5 per group; preparation IDs unknown"
+6D_IL6,WT_untreated,8,554.106825,197.98111871255009,228.0354,748.2665,IL-6 (pg/mL),"Reported biological replicates n=8,8,5,3; preparation IDs unknown"
+6D_IL6,WT_ATP,8,1205.73854375,154.4482431985121,926.8155,1401.73,IL-6 (pg/mL),"Reported biological replicates n=8,8,5,3; preparation IDs unknown"
+6D_IL6,WT_ATP_p38i,5,751.2448699999999,130.13607634782525,571.26,914.8608,IL-6 (pg/mL),"Reported biological replicates n=8,8,5,3; preparation IDs unknown"
+6D_IL6,KO_ATP,3,887.9807333333333,150.4718762982749,715.3121,991.0764,IL-6 (pg/mL),"Reported biological replicates n=8,8,5,3; preparation IDs unknown"
+6E_IL6,WT_uninjured,7,1.0137221885714285,0.04606350264589905,0.94527358,1.07794352,IL-6 relative to uninjured (supplied normalization),"Reported biological replicates n=7,7,6 from mouse BAL; IDs unknown"
+6E_IL6,WT_injured,7,6.829035147142856,4.745213662970338,2.00663346,15.5472622,IL-6 relative to uninjured (supplied normalization),"Reported biological replicates n=7,7,6 from mouse BAL; IDs unknown"
+6E_IL6,KO_injured,6,1.9459428650000001,0.8146665006286476,0.96875,3.08457698,IL-6 relative to uninjured (supplied normalization),"Reported biological replicates n=7,7,6 from mouse BAL; IDs unknown"
+6F_IL6,NT,3,217.6722333333333,31.773971804660068,185.0934,248.575,IL-6 (pg/mL),Three supplied observations per group; donor/preparation independence unknown
+6F_IL6,NT_ATP,3,532.9848000000001,29.354764132079175,501.5583,559.6973,IL-6 (pg/mL),Three supplied observations per group; donor/preparation independence unknown
+6F_IL6,KD_ATP,3,339.6070333333334,16.276180916398435,322.4272,354.7965,IL-6 (pg/mL),Three supplied observations per group; donor/preparation independence unknown
+6F_qPCR,NT,3,7.434533333333334e-06,1.038413705289628e-06,6.2679e-06,8.2577e-06,P2RX4 mRNA relative to 18S rRNA,Three supplied observations per group; donor/preparation independence unknown
+6F_qPCR,KD,3,3.643833333333333e-07,2.6451180773896146e-07,1.3334e-07,6.5291e-07,P2RX4 mRNA relative to 18S rRNA,Three supplied observations per group; donor/preparation independence unknown
