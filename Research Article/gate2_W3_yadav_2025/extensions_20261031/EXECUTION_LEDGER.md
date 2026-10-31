@@ -296,3 +296,14 @@ research gate (`ok: true`, no errors), against unchanged fetched main
 `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Valid inherited tests were reused.
 D is ready for dispatch. This review does not grant scientific acceptance or
 final extension closeout.
+
+## Checkpoint D dispatched — 31 October 2026
+
+The authorized technical chat `01a18ba9-2ee9-72d0-a6f0-2c77bf838a75` on local
+received the exact documentation-only job from reviewed integration
+`95ef6722759e0506015e8a9354c79baad4e67fc0`. Compact wait confirms an active turn
+`01a18fcd-5827-7971-8487-2a8531cdd227`; saved cursor ends `:31`.
+Await the committed final synthesis/disposition before final review and closeout.
+No new numerical analysis, scientific acceptance or external action is implied.
+The review log-recording helper initially assumed UTF-16; corrected to actual
+UTF-8 and reused the successful validation logs. No check or analysis failed.

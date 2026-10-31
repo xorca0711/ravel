@@ -16,8 +16,9 @@ X5 on retained-neutrophil/state/target-zero denominators and participant joins.
 No qualified numerical context comparison remains from current inputs. Failed
 primary access attempts and limits on the bounded search are preserved.
 Checkpoint D is the remaining feasible job: final X6 synthesis and exact X0-X6
-disposition, keeping Wg-P06 and epithelial function separate. It awaits dispatch
-after validation; final scoped completion and scientific acceptance are not claimed.
+disposition, keeping Wg-P06 and epithelial function separate. Dispatched from
+`95ef6722759e0506015e8a9354c79baad4e67fc0`; the technical chat is confirmed active.
+Final scoped completion and scientific acceptance are not claimed.
 
 Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Local integration
 preserves both ledger histories. Integration passed 12,238 repository checks and
