@@ -1,8 +1,9 @@
 # RQ1 — source ARG1 and the balance of arginine consumption and ornithine delivery
 
-**T0 completed 31 October 2026.** Processed intracellular pools are available; numerical collagen-source and source-ARG1 compensation effects remain unqualified.
-See [source/endpoint results](T0_RESULTS.md) and [exact T1 designs](T1_DESIGNS.md).
-T1 awaits review; the question and prior evidence below are retained.
+**T1-A checkpoint, 31 October 2026.** T1-A native-label pool description is complete; the nutrient key, calibrated source exposure and collagen/source-ARG1 effect remain held.
+See [T1-A results](T1A_RESULTS.md), [R2 design](R2_DESIGN.md) and
+[T2 disposition](T2_DISPOSITION.md). Review is pending; the question and prior
+evidence below are retained.
 
 **Owner: existing Wg-P06.** This operationalizes the [current P06 card](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P06.md)
 without changing its hypothesis or adopting scientific acceptance.

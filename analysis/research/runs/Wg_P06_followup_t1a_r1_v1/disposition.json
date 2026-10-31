@@ -1,0 +1,11 @@
+{
+  "job": "T1-R1",
+  "source_sha256": "d8d3365b226323d3ebe7300c481625049ae1cae3f78948938956240b8ea79f4f",
+  "blocks": 15,
+  "sample_metabolite_observations": 120,
+  "literal_measurements": 1440,
+  "held_fraction_observations": 59,
+  "held_summaries": 95,
+  "invalid_values": 160,
+  "limit": "Processed source description only; no raw correction, flux, causal/source-transfer or population inference."
+}

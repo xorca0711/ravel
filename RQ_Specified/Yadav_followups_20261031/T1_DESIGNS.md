@@ -1,5 +1,12 @@
 # Exact next-stage designs and holds after T0
 
+**Historical T0 proposal, now superseded in execution status.**
+[REVIEW_T0](REVIEW_T0.md) authorized bounded T1-A; [results](T1A_RESULTS.md)
+complete R1/B1 within that scope. [R2_DESIGN](R2_DESIGN.md) is the exact next
+proposal and remains numerical-work pending review. [T2_DISPOSITION](T2_DISPOSITION.md)
+completes capability/design qualification while retaining empirical holds.
+The original design rationale and source limitations below remain preserved.
+
 31 October 2026. **For review, not execution.** These are post-exposure designs
 under the existing Wg-P06 and proposed Yd1-P02 questions. T0 has stopped.
 Any approved numerical job needs a new frozen contract bound to the exact
