@@ -1,0 +1,49 @@
+{
+  "source": "analysis/research/runs/Yd1_source_qualification_v1/workbook_cells.tsv",
+  "sheet": "5b",
+  "groups": [
+    {
+      "id": "IL6_positive_fibroblast",
+      "header": "A1",
+      "source_label": "IL6+ Fibroblast",
+      "cells": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "IL6_negative_fibroblast",
+      "header": "B1",
+      "source_label": "IL6- Fibroblast",
+      "cells": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "target": "IL6_positive_fibroblast",
+  "reference": "IL6_negative_fibroblast",
+  "marginal_statistics": [
+    "n",
+    "mean",
+    "median",
+    "minimum",
+    "maximum"
+  ],
+  "pairing": "Not inferred from row order or anonymous Table S1 IDs; retain no paired effect/test/interval.",
+  "endpoint": "Published probability ratio at 25 micrometres, not regenerated spatial statistics."
+}

@@ -1,0 +1,436 @@
+{
+  "requests": [
+    {
+      "file": "hamanaka.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12235046/fullTextXML",
+      "retrieved_at_utc": "2026-10-31T04:26:35.098443+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12235046/fullTextXML",
+      "bytes": 141058,
+      "sha256": "a98f4a62e44198bb46123122642c29516703c1c70aad6b123aecc0354a49c82e",
+      "content_type": "application/xml",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v1.json",
+      "content_verified": true
+    },
+    {
+      "file": "lee_epmc_search.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s12276-024-01170-w&format=json&resultType=core",
+      "retrieved_at_utc": "2026-10-31T04:26:35.099840+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s12276-024-01170-w&format=json&resultType=core",
+      "bytes": 10711,
+      "sha256": "529f8a2b5e4e9e2d6135d4b7d6f05ee875068dab8e57118d4a373adb9f149b2d",
+      "content_type": "application/json;charset=UTF-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v1.json",
+      "content_verified": true
+    },
+    {
+      "file": "GSE273882.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE273882&targ=self&form=text&view=full",
+      "retrieved_at_utc": "2026-10-31T04:26:36.614496+00:00",
+      "status": 200,
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE273882&targ=self&form=text&view=full",
+      "bytes": 3645,
+      "sha256": "a38171169f63f30ab17aa7c6afa6c020182c60bb9b5586310dee5a2f7c9b2043",
+      "content_type": "geo/text",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v1.json",
+      "content_verified": true
+    },
+    {
+      "file": "GSE273882_filelist.txt",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE273nnn/GSE273882/suppl/filelist.txt",
+      "retrieved_at_utc": "2026-10-31T04:26:37.355950+00:00",
+      "status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE273nnn/GSE273882/suppl/filelist.txt",
+      "bytes": 4052,
+      "sha256": "a09cb29eae3fffcb8365ba33690672f2b852b07426923f7cc02b7024d4bdd3a6",
+      "content_type": "text/plain; charset=utf-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v1.json",
+      "content_verified": true
+    },
+    {
+      "file": "lee.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10907606/fullTextXML",
+      "retrieved_at_utc": "2026-10-31T04:30:23.383269+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10907606/fullTextXML",
+      "bytes": 138643,
+      "sha256": "440138238394d45db05f07c592fb9b23362488ca943c2d7009888536a83c4586",
+      "content_type": "application/xml",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v2.json",
+      "content_verified": true
+    },
+    {
+      "file": "GSE273882_all_metadata.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE273882&targ=all&form=text&view=full",
+      "retrieved_at_utc": "2026-10-31T04:30:23.383773+00:00",
+      "error": "5 MB cap exceeded",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v2.json",
+      "content_verified": false
+    },
+    {
+      "file": "hamanaka_oa.xml",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12235046",
+      "retrieved_at_utc": "2026-10-31T04:30:23.384619+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v2.json",
+      "content_verified": false
+    },
+    {
+      "file": "lee_oa.xml",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC10907606",
+      "retrieved_at_utc": "2026-10-31T04:30:24.715368+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v2.json",
+      "content_verified": false
+    },
+    {
+      "file": "GSE273882_sample_metadata.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE273882&targ=gsm&form=text&view=brief",
+      "retrieved_at_utc": "2026-10-31T04:31:21.646172+00:00",
+      "status": 200,
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE273882&targ=gsm&form=text&view=brief",
+      "bytes": 135162,
+      "sha256": "e2823a376dcea819525984bd6af2cb1dac27705c6d43a36a0c3421822a17e56a",
+      "content_type": "geo/text",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "content_verified": true
+    },
+    {
+      "file": "hamanaka_oa_current.xml",
+      "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12235046",
+      "retrieved_at_utc": "2026-10-31T04:31:21.646172+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "content_verified": false
+    },
+    {
+      "file": "lee_oa_current.xml",
+      "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC10907606",
+      "retrieved_at_utc": "2026-10-31T04:31:21.981506+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "content_verified": false
+    },
+    {
+      "file": "hamanaka_supp_attempt.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12235046/bin/bcj-482-12-BCJ20253033-supp1.pdf",
+      "retrieved_at_utc": "2026-10-31T04:31:22.311458+00:00",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12235046/bin/bcj-482-12-BCJ20253033-supp1.pdf",
+      "bytes": 21504,
+      "sha256": "68ced812621cb4820528d5a257efa5416d6d634d16085194655260b29882a88c",
+      "content_type": "text/html; charset=utf-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "content_verified": false,
+      "interpretation": "Access response is not the requested content; never use as PDF evidence."
+    },
+    {
+      "file": "lee_supp.pdf",
+      "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs12276-024-01170-w/MediaObjects/12276_2024_1170_MOESM1_ESM.pdf",
+      "retrieved_at_utc": "2026-10-31T04:31:22.541316+00:00",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "content_verified": false
+    },
+    {
+      "file": "hamanaka_figshare_listing.json",
+      "url": "https://api.figshare.com/v2/articles/28087574",
+      "retrieved_at_utc": "2026-10-31T04:32:00.965440+00:00",
+      "status": 200,
+      "final_url": "https://api.figshare.com/v2/articles/28087574",
+      "bytes": 2530,
+      "sha256": "e7fc9d1789cb3ea78e8c927c750ed3499358b90ecd19d4e1de45e188ff27adc4",
+      "content_type": "application/json",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "content_verified": true
+    },
+    {
+      "file": "hamanaka_code_listing.json",
+      "url": "https://api.github.com/users/MutluHamanakaLab/repos?per_page=100",
+      "retrieved_at_utc": "2026-10-31T04:32:00.966491+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/users/MutluHamanakaLab/repos?per_page=100",
+      "bytes": 28902,
+      "sha256": "ad3be10275b6c3903aa793e694b54d935a7c51fd4417828ba199d0f03d16a057",
+      "content_type": "application/json; charset=utf-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "content_verified": true
+    },
+    {
+      "file": "hamanaka_supplementary.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12235046/supplementaryFiles",
+      "retrieved_at_utc": "2026-10-31T04:32:00.966491+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12235046/supplementaryFiles",
+      "bytes": 1899112,
+      "sha256": "d29e165b50c87fc4509ec32671844ecf890756bc90c4f4b17608bd2b885735b8",
+      "content_type": "application/zip",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "content_verified": true
+    },
+    {
+      "file": "lee_supplementary.zip",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10907606/supplementaryFiles",
+      "retrieved_at_utc": "2026-10-31T04:32:01.677428+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10907606/supplementaryFiles",
+      "bytes": 1210583,
+      "sha256": "f75561faf246b5319b9a36bd5c1af4e083d99951a4de37af4d95a9767003195e",
+      "content_type": "application/zip",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "content_verified": true
+    },
+    {
+      "file": "hamanaka_metabolomics_v1.xlsx",
+      "url": "https://ndownloader.figshare.com/files/51364382",
+      "retrieved_at_utc": "2026-10-31T04:32:43.641519+00:00",
+      "status": 200,
+      "final_url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/51364382/SupplementalTable.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIYCQYOYV5JSSROOA/20261031/eu-west-1/s3/aws4_request&X-Amz-Date=20261031T043246Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=5249d5d8497b9ad92c93118e1e7adf58a9704ada370b3d35016f00627fbfd1c6",
+      "bytes": 56247,
+      "sha256": "d8d3365b226323d3ebe7300c481625049ae1cae3f78948938956240b8ea79f4f",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v5.json",
+      "content_verified": true
+    },
+    {
+      "file": "hamanaka_code_contents.json",
+      "url": "https://api.github.com/repos/MutluHamanakaLab/Arginine/contents",
+      "retrieved_at_utc": "2026-10-31T04:32:43.642574+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/MutluHamanakaLab/Arginine/contents",
+      "bytes": 2265,
+      "sha256": "bf3afdb30bc90cfde08d8c9f726f5e67db16001b9687e59f11a9fc983bd4f9e7",
+      "content_type": "application/json; charset=utf-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v5.json",
+      "content_verified": true
+    },
+    {
+      "file": "hamanaka_code_head.json",
+      "url": "https://api.github.com/repos/MutluHamanakaLab/Arginine/commits?per_page=1",
+      "retrieved_at_utc": "2026-10-31T04:32:43.643574+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/MutluHamanakaLab/Arginine/commits?per_page=1",
+      "bytes": 4504,
+      "sha256": "7f6558b1583f5f36e8e3c8c88efdf5e0bbc886fca16cfe8436c3cf8e87c3954a",
+      "content_type": "application/json; charset=utf-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v5.json",
+      "content_verified": true
+    },
+    {
+      "file": "hamanaka_epmc.pdf",
+      "url": "https://europepmc.org/articles/PMC12235046?pdf=render",
+      "retrieved_at_utc": "2026-10-31T04:32:44.172229+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v5.json",
+      "content_verified": false
+    },
+    {
+      "file": "hamanaka_README.md",
+      "url": "https://raw.githubusercontent.com/MutluHamanakaLab/Arginine/3e1f22fa215cd8d7176f499c297e1cf33ed8ff3c/README.md",
+      "retrieved_at_utc": "2026-10-31T04:33:54.544702+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/MutluHamanakaLab/Arginine/3e1f22fa215cd8d7176f499c297e1cf33ed8ff3c/README.md",
+      "bytes": 815,
+      "sha256": "d74f490d3cc053e0445b510246d9ecd5935b46cee7cf0d451d7663e18f11874f",
+      "content_type": "text/plain; charset=utf-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v6.json",
+      "content_verified": true
+    },
+    {
+      "file": "hamanaka_code_tree.json",
+      "url": "https://api.github.com/repos/MutluHamanakaLab/Arginine/git/trees/3e1f22fa215cd8d7176f499c297e1cf33ed8ff3c?recursive=1",
+      "retrieved_at_utc": "2026-10-31T04:33:54.546703+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/MutluHamanakaLab/Arginine/git/trees/3e1f22fa215cd8d7176f499c297e1cf33ed8ff3c?recursive=1",
+      "bytes": 1581,
+      "sha256": "a8dde1e319519ea0a27104f0d677708df8dd14f1f63beffeeb1544b489b1c871",
+      "content_type": "application/json; charset=utf-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v6.json",
+      "content_verified": true
+    }
+  ],
+  "archive_members": [
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.02.jpg",
+      "bytes": 96985,
+      "sha256": "84136aadcfdfb2a7cf240cea9aa23e312cee0bbe7ebc493ae0fe477b18e7efa9"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.05.jpg",
+      "bytes": 148408,
+      "sha256": "69bb26419d19891017ede0f67d4435c4bedc06512f70dfed2ad3254f6ddebfdf"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.06.jpg",
+      "bytes": 179093,
+      "sha256": "1753b3cb4b4693253f8eb37e4d4c76b746ba2b094052eb99ce6ecf2d52114198"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.01.jpg",
+      "bytes": 102530,
+      "sha256": "7361c0b50eabacda5806fb7240fc4eb4030f83413c24e650313a4252f248f4fc"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033-supp1.pdf",
+      "bytes": 1311768,
+      "sha256": "a06be2576610b0cea3ca62a8951c3794a05e8921c8b813c5025783100cfeed0d"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.02.gif",
+      "bytes": 10726,
+      "sha256": "09dcbd85365eea10d465fc615eb1620f1eaf9fa92f1dc52e2680b2126e76f80f"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.04.gif",
+      "bytes": 10469,
+      "sha256": "780b24f5d3dd59da8c505bc56f97d3407ba65dd1e75a6992b8812c674f0c99ef"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.03.jpg",
+      "bytes": 91455,
+      "sha256": "937c97ea8e934558e93531d61a03f96d957167d0ed0f0093b9501fd781cee9bb"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.03.gif",
+      "bytes": 10628,
+      "sha256": "9b3459b6539bab120827d0324c527d4fbbf6050bbd083443a7a2494f7e5a4342"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.06.gif",
+      "bytes": 14258,
+      "sha256": "b46c80e95bda9d47ccb57862471f564464a00cb25abe67341b09e058b487a936"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.04.jpg",
+      "bytes": 73459,
+      "sha256": "fe0e8090595e3dcfd4621128fc4e632df1d2220024790f34c0286822dc946235"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.05.gif",
+      "bytes": 12910,
+      "sha256": "d8d9404d822a9dca17f608a84337353455b98a00572b18db526f7fefbf0cd854"
+    },
+    {
+      "archive": "hamanaka_supplementary.zip",
+      "member": "bcj-482-12-BCJ20253033.01.gif",
+      "bytes": 11615,
+      "sha256": "6420a1a2bf2d67789706803d29e4ae50b0420af3b5435b56f39ace0b18613502"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig1_HTML.gif",
+      "bytes": 6304,
+      "sha256": "ad622223c696fbd84496661d68a21f85df4ab206f3c7829a8056f0a9ccc4ebe2"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig7_HTML.jpg",
+      "bytes": 164123,
+      "sha256": "466deb7c7d0a6050bc0ba89902fe10403a2abd32dca4edbdddd64269ddabd834"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig6_HTML.gif",
+      "bytes": 4875,
+      "sha256": "e78e2d6b12cbaf29a3ef292d505697723b3a3eea4138fdaae0564709739c26c7"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig5_HTML.jpg",
+      "bytes": 87874,
+      "sha256": "f465a25075f0d66270bc3a1d90de015e2005504d42dca20a338e61cea434ba4e"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig4_HTML.gif",
+      "bytes": 4365,
+      "sha256": "d8f72af7e15e8378a23c9d99d608cfe22081104c5fa2c7799fcce5f43aec35ae"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig2_HTML.jpg",
+      "bytes": 91611,
+      "sha256": "b589ef84fd058f4221e61d14da5c58d884caa1b64cc0ee5d7f56fe08886ffbcd"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig5_HTML.gif",
+      "bytes": 3988,
+      "sha256": "34a6f61ab5cab7bffd40c914540af51d992dbb745e5138f17dbb4b204add83b2"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig8_HTML.jpg",
+      "bytes": 163884,
+      "sha256": "8c73c5da6c1e8a12767d119e7079169c54429ff2f653fc9022217f5b94d9e720"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_MOESM1_ESM.pdf",
+      "bytes": 413356,
+      "sha256": "75cef544d79b9325bb42cc89fdc81462757e61a6ca497ec4908635fcd2f1cd24"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig1_HTML.jpg",
+      "bytes": 106652,
+      "sha256": "98768123d1e1f53ca973ed4f61214b57c09bf8730ff19dea755f9ed2740261ae"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig6_HTML.jpg",
+      "bytes": 134165,
+      "sha256": "2c1ccbbf3b034be71b41e69638e4fce294d8574e38468247778e3480f29930b1"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig2_HTML.gif",
+      "bytes": 4768,
+      "sha256": "65641087f944952ea3738904bb5524280838254e3e8ac009fac2bc68465f5c66"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig7_HTML.gif",
+      "bytes": 5234,
+      "sha256": "89ab7334a8ae9ec009659398809f6ac89e01ee80bde924e1f0c9a53b7552964e"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig3_HTML.jpg",
+      "bytes": 58414,
+      "sha256": "8d43fc7bb9242874f1e8003e8ad90030fe2e7a0ea6c84452d1435b12a4294b8d"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig3_HTML.gif",
+      "bytes": 2623,
+      "sha256": "45be1eee4e93010eb36d893d561826dd75077f2cffec4626ee500db4bd6ea433"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig8_HTML.gif",
+      "bytes": 6405,
+      "sha256": "904fd0ce15f2da4a97e13f856bf5507776d11b885958c299e766f68dab768ab6"
+    },
+    {
+      "archive": "lee_supplementary.zip",
+      "member": "12276_2024_1170_Fig4_HTML.jpg",
+      "bytes": 67654,
+      "sha256": "b3138506f74759a2b3386181ef19b6150257109e55b5d6391a144b85dd62ae51"
+    }
+  ],
+  "limit": "Acquired primary sources and metadata only; access is not scientific validation."
+}

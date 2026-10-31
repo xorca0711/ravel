@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.count_integrity_v1",
+  "owner": "Yd1-P01",
+  "contract": "Research Article/gate2_W3_yadav_2025/config/count_integrity_v1.json",
+  "contract_sha256": "25108219a819862c0f9e49900f595355136269fde970f7334383431af1732c6f",
+  "git_commit": "8748bf9c34eeb02a0d9c7d1dbbdd0bed136b4ea0",
+  "started_at": "2026-10-30T08:05:50.528894+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W3_yadav_2025/scripts/count_integrity_v1.py",
+    "--output",
+    "analysis/research/runs/Yd1_count_integrity_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_RAW.tar",
+      "sha256": "006b9c931cbd44aa498ce26e3d0d66e36faef6884b15aeda2496250e46a1351e",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/geo_library_qualification.json",
+      "sha256": "ba17f81c4dffbc794869ac6c059542ff17cb47ffd080932764c9cd2b8ba20037",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/count_integrity_v1.py",
+      "sha256": "c36e2fe6fa30e9adbffbe88a4253a076c88cb8e192839773d4382533c1ef2cdd"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Yd1_count_integrity_v1/library_integrity.csv",
+      "sha256": "b8d797ef1cce15ef82ba0e4a4e3ff79176f1629d9018cf5efcdeaf926663a510"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_count_integrity_v1/library_qc.csv",
+      "sha256": "18954893e340ec7716bf72e6990d662b0eff8917694da8a5f23e4207c0da62eb"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_count_integrity_v1/cell_qc.csv",
+      "sha256": "232b643f7a1ee18b4fe818979940c0953f274300edd04df815cc0a1ebcf31df4"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_count_integrity_v1/qc.png",
+      "sha256": "1b08dacd823d8b2741cd880e60681b4393322a20efd2eece4b241fab6033ad14"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_count_integrity_v1/qc.pdf",
+      "sha256": "7d45d06582ef767373c3fd1cbec04b550db1cdb3ed47d0852525cf37b9d2cf06"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_count_integrity_v1/runtime.json",
+      "sha256": "c2378567e9e73ecdb91a5c10e1cb20e79fa001072ba7acde939f07c61df2763c"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-30T08:06:04.429119+00:00"
+}

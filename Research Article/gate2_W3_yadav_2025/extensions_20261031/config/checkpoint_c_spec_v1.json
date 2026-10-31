@@ -1,0 +1,54 @@
+{
+  "scope": "Checkpoint C: only Gupta2020 and Wigerblad2022 metadata. No expression matrix, H5, atlas, sequencing reads, target outcomes or new classifier.",
+  "sources": [
+    {
+      "study": "Gupta2020",
+      "doi": "10.1073/pnas.2003603117",
+      "series": "GSE145230",
+      "parent": "GSE145231",
+      "role": "first source",
+      "state_labels": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "state_context": "Published neutrophil subset labels, Results Fig3/SI TableS4; no actual barcode assignments recovered",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7368314/"
+    },
+    {
+      "study": "Wigerblad2022",
+      "doi": "10.4049/jimmunol.2200154",
+      "series": "GSE188288",
+      "parent": "",
+      "role": "provenance and sole fallback; Gupta retained-cell/state export unresolved",
+      "state_labels": [
+        "Nh0",
+        "Nh1",
+        "Nh2",
+        "Nh3"
+      ],
+      "state_context": "Published purified-neutrophil states, Results Fig2E-F; not a label transfer to other preparations",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9712146/"
+    }
+  ],
+  "targets": [
+    "ARG1",
+    "IL6R"
+  ],
+  "selection_rule": "Gupta first by source, unit and assay completeness; Wigerblad only provenance/fallback, never selected by target outcomes. No pooling.",
+  "unknowns": "Blank retained cells/state assignment/zero denominator are unknown, not zero. Title tokens are unverified donor clues; distinct accession IDs do not establish participant independence.",
+  "proposed_description": {
+    "status": "Conditional Gupta design held for author retained neutrophil/state barcode export, donor mapping and processing qualification; not execution authorization",
+    "unit": "reported source donor; sample/GSM and sequencing runs nested. Exactly seven reported whole-blood samples; donor-to-GSM identity must qualify.",
+    "population": "All author-retained neutrophils from RBC-depleted whole-blood leukocytes, including ARG1-zero and IL6R-zero cells; retain reported male/female sample metadata. No expression-positive selection.",
+    "states": "author subset labels 0,1,2,3 only after actual barcode-label joins; no alignment to Wigerblad Nh labels or SCAHN states",
+    "endpoints": "Within each sample/state, target nonzero-count fraction and mean log1p(10000 * raw target UMI / all-gene raw RNA UMI total); ARG1 and IL6R separate. Target count/total retained for audit.",
+    "denominator": "Complete verified author-retained sample/state cell list, including target-zero cells. Empty verified state: composition zero, expression undefined; missing state/feature: unavailable.",
+    "comparisons": "Descriptive paired within-donor state contrasts against author subset0 for each target/metric, contingent on both states present. Report every sample; no group contrast if support differs. Sex is reported annotation, not a new inferential sex effect.",
+    "weighting": "Equal donor weights for complete support summaries; no cell weighting. Require all seven mapped donors for a combined state contrast; otherwise per-donor available results only. Threshold is reporting support, not power.",
+    "normalization": "All RNA features in original raw count source, not the SCAHN 16711-gene subset; positive total RNA counts required by verified author retention. No imputation, integration, refiltering or classifier.",
+    "reduced_question": "Not silently adopted. Removing state stratification would still require author-retained neutrophil identity and a complete target-zero denominator; review required.",
+    "limits": "Source reuse, observational state selection, capture and preparation effects; no population tests, secretion, competence, suppressive function, lineage equivalence or IPF repair."
+  }
+}

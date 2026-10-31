@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.extension_b2_v1",
+  "owner": "Yd1-P01",
+  "contract": "Research Article/gate2_W3_yadav_2025/extensions_20261031/config/b2_contract_v1.json",
+  "contract_sha256": "2292e660404294b3fecae7ad5cbd22603ed46c1ac69bf1653fe1a7152242765f",
+  "git_commit": "e7498beb8058f9fef5bc1e6cbe437f0a9104f07d",
+  "started_at": "2026-10-31T01:36:06.201930+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/qualify_b2_v1.py",
+    "--output",
+    "analysis/research/runs/Yd1_extension_b2_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/SCAHN_supplementary_tables.xlsx",
+      "sha256": "3eadd6386874f3464cec0eaabaf5d1349566add4a04c51ee1552493c3441af1a",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/scahn.xml",
+      "sha256": "c516304208f59bd792334288b62b171c4f973ebf402bb49287488c845542f06a",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/scahn_browser_observation_v1.json",
+      "sha256": "91d9cc2ba01407868fbd7956b2bed8521c3845c6dd3341e1176a0ca12cdd4eab",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/scahn_epmc_search.json",
+      "sha256": "63a11c14e7af9b009632aa31a8e191612ff62933af21deb8149e69ff48b3a0db",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/scahn_pmc.html",
+      "sha256": "47cc6e88f47313d10cdc27881c1c8fbe933b570eee4e9d08fc6eb5729ccc6571",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/access_v1.json",
+      "sha256": "2dbeddb342a30b27861d16e4248cb1b05b55bbd6d5fce442d92387574ce68ec2",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/access_v2.json",
+      "sha256": "dfb6ea6094b19c6acd3ba29fc110b68182a15037819b9e1ecd46584e0d346555",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/access_v3.json",
+      "sha256": "73c28ffbd2ab3b6e2bd45076d11a1ac2d7b20d81b7304c24865f9919cfcfadd1",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_b_20261031/access_v4.json",
+      "sha256": "d8d23cdccf8a79827d480a75b53660e510180f11b7328c246df787715f674b31",
+      "study_id": "Yd1_checkpoint_B_b2",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/qualify_b2_v1.py",
+      "sha256": "6f4f288e6332e6a3e1965d2afeb5a80c0ecac9b61699b0a623f1b5479a00a265"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/common_v1.py",
+      "sha256": "fb8f25fc1c9cfacbbbb91ae94f33bb381737f9ec74fc80861affae0cd117ffbc"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/verify_checkpoint_b_v1.py",
+      "sha256": "b91da3c25c0f9b00d93d1eff18be87c852a82c477b5ee13a5779e952db661704"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/config/checkpoint_b_spec_v1.json",
+      "sha256": "94d26be6c7598502cd517c1a398135d51db4b4bd1426c590102292a6c7b9af5a"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/Yd1_extension_b2_v1/scahn_source_table.csv",
+      "sha256": "d90e263a0a0ba46ad2e8ecffb0ba3eb7962be0af1ad3c79b98c1123e9bdd5ac4"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_extension_b2_v1/lung_blood_source_screen.csv",
+      "sha256": "4125ea2456f74b0a297883205d3baa460fea34984e6fb1cbd5a16b2015ad7c43"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_extension_b2_v1/parent_overlap_map.csv",
+      "sha256": "549a24af938eaecf7ee3c55d9472535658a291f67732030dc9369d9f36584490"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_extension_b2_v1/source_qualification.json",
+      "sha256": "5e8d7a52bf6e1da5f8a5f14466ce2e981765d533cb49869f730123799bce017d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-31T01:36:08.171584+00:00"
+}

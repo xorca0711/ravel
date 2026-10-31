@@ -1,0 +1,1277 @@
+{
+  "owner": "Wg-P06",
+  "job": "r2",
+  "endpoint": "literal source area and percentage channel descriptions",
+  "blocks": [
+    {
+      "id": "3F_Citrulline",
+      "sheet": "Figure 3F",
+      "metabolite": "Citrulline",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 3,
+      "observations": [
+        {
+          "row": 4,
+          "sample_label": "Pos_D4_Citrln_01",
+          "condition": "UT"
+        },
+        {
+          "row": 5,
+          "sample_label": "Pos_D4_Citrln_02",
+          "condition": "UT"
+        },
+        {
+          "row": 6,
+          "sample_label": "Pos_D4_Citrln_03",
+          "condition": "UT"
+        },
+        {
+          "row": 7,
+          "sample_label": "Pos_D4_Citrln_04",
+          "condition": "UT"
+        },
+        {
+          "row": 8,
+          "sample_label": "Pos_D4_Citrln_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 9,
+          "sample_label": "Pos_D4_Citrln_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 10,
+          "sample_label": "Pos_D4_Citrln_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 11,
+          "sample_label": "Pos_D4_Citrln_TGFb_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "D",
+            "R"
+          ],
+          "unit_cell": "D2",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "D3": "M+0",
+            "E3": "M+1",
+            "F3": "M+2",
+            "G3": "M+3",
+            "H3": "M+4",
+            "I3": "M+5",
+            "J3": "M+6",
+            "K3": "M+7",
+            "L3": "M+8",
+            "M3": "M+9",
+            "N3": "M+10",
+            "O3": "M+11",
+            "P3": "M+12",
+            "Q3": "M+13",
+            "R3": "M+14"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "S",
+            "AG"
+          ],
+          "unit_cell": "S2",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "S3": "M+0",
+            "T3": "M+1",
+            "U3": "M+2",
+            "V3": "M+3",
+            "W3": "M+4",
+            "X3": "M+5",
+            "Y3": "M+6",
+            "Z3": "M+7",
+            "AA3": "M+8",
+            "AB3": "M+9",
+            "AC3": "M+10",
+            "AD3": "M+11",
+            "AE3": "M+12",
+            "AF3": "M+13",
+            "AG3": "M+14"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3F_Argininosuccinate",
+      "sheet": "Figure 3F",
+      "metabolite": "Argininosuccinate",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 15,
+      "observations": [
+        {
+          "row": 16,
+          "sample_label": "Pos_D4_Citrln_01",
+          "condition": "UT"
+        },
+        {
+          "row": 17,
+          "sample_label": "Pos_D4_Citrln_02",
+          "condition": "UT"
+        },
+        {
+          "row": 18,
+          "sample_label": "Pos_D4_Citrln_03",
+          "condition": "UT"
+        },
+        {
+          "row": 19,
+          "sample_label": "Pos_D4_Citrln_04",
+          "condition": "UT"
+        },
+        {
+          "row": 20,
+          "sample_label": "Pos_D4_Citrln_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 21,
+          "sample_label": "Pos_D4_Citrln_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 22,
+          "sample_label": "Pos_D4_Citrln_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 23,
+          "sample_label": "Pos_D4_Citrln_TGFb_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "D",
+            "W"
+          ],
+          "unit_cell": "D14",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "D15": "M+0",
+            "E15": "M+1",
+            "F15": "M+2",
+            "G15": "M+3",
+            "H15": "M+4",
+            "I15": "M+5",
+            "J15": "M+6",
+            "K15": "M+7",
+            "L15": "M+8",
+            "M15": "M+9",
+            "N15": "M+10",
+            "O15": "M+11",
+            "P15": "M+12",
+            "Q15": "M+13",
+            "R15": "M+14",
+            "S15": "M+15",
+            "T15": "M+16",
+            "U15": "M+17",
+            "V15": "M+18",
+            "W15": "M+19"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3F_Arginine",
+      "sheet": "Figure 3F",
+      "metabolite": "Arginine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 27,
+      "observations": [
+        {
+          "row": 28,
+          "sample_label": "Pos_D4_Citrln_01",
+          "condition": "UT"
+        },
+        {
+          "row": 29,
+          "sample_label": "Pos_D4_Citrln_02",
+          "condition": "UT"
+        },
+        {
+          "row": 30,
+          "sample_label": "Pos_D4_Citrln_03",
+          "condition": "UT"
+        },
+        {
+          "row": 31,
+          "sample_label": "Pos_D4_Citrln_04",
+          "condition": "UT"
+        },
+        {
+          "row": 32,
+          "sample_label": "Pos_D4_Citrln_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 33,
+          "sample_label": "Pos_D4_Citrln_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 34,
+          "sample_label": "Pos_D4_Citrln_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 35,
+          "sample_label": "Pos_D4_Citrln_TGFb_04",
+          "condition": "TGF-beta"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "D",
+            "S"
+          ],
+          "unit_cell": "D26",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "D27": "M+0",
+            "E27": "M+1",
+            "F27": "M+2",
+            "G27": "M+3",
+            "H27": "M+4",
+            "I27": "M+5",
+            "J27": "M+6",
+            "K27": "M+7",
+            "L27": "M+8",
+            "M27": "M+9",
+            "N27": "M+10",
+            "O27": "M+11",
+            "P27": "M+12",
+            "Q27": "M+13",
+            "R27": "M+14",
+            "S27": "M+15"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "T",
+            "AI"
+          ],
+          "unit_cell": "T26",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "T27": "M+0",
+            "U27": "M+1",
+            "V27": "M+2",
+            "W27": "M+3",
+            "X27": "M+4",
+            "Y27": "M+5",
+            "Z27": "M+6",
+            "AA27": "M+7",
+            "AB27": "M+8",
+            "AC27": "M+9",
+            "AD27": "M+10",
+            "AE27": "M+11",
+            "AF27": "M+12",
+            "AG27": "M+13",
+            "AH27": "M+14",
+            "AI27": "M+15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4B_Arginine",
+      "sheet": "Figure 4B",
+      "metabolite": "Arginine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 3,
+          "sample_label": "TG_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 4,
+          "sample_label": "TG_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 5,
+          "sample_label": "TG_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 6,
+          "sample_label": "TG_04",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 7,
+          "sample_label": "untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 8,
+          "sample_label": "untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 9,
+          "sample_label": "untreated_03",
+          "condition": "UT"
+        },
+        {
+          "row": 10,
+          "sample_label": "untreated_04",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "E",
+            "O"
+          ],
+          "unit_cell": "E1",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "E2": "M+0",
+            "F2": "M+1",
+            "G2": "M+2",
+            "H2": "M+3",
+            "I2": "M+4",
+            "J2": "M+5",
+            "K2": "M+6",
+            "L2": "M+7",
+            "M2": "M+8",
+            "N2": "M+9",
+            "O2": "M+10"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "P",
+            "Z"
+          ],
+          "unit_cell": "P1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "P2": "M+0",
+            "Q2": "M+1",
+            "R2": "M+2",
+            "S2": "M+3",
+            "T2": "M+4",
+            "U2": "M+5",
+            "V2": "M+6",
+            "W2": "M+7",
+            "X2": "M+8",
+            "Y2": "M+9",
+            "Z2": "M+10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4B_Argininosuccinate",
+      "sheet": "Figure 4B",
+      "metabolite": "Argininosuccinate",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 13,
+          "sample_label": "TG_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 14,
+          "sample_label": "TG_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 15,
+          "sample_label": "TG_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 16,
+          "sample_label": "TG_04",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 17,
+          "sample_label": "untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 18,
+          "sample_label": "untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 19,
+          "sample_label": "untreated_03",
+          "condition": "UT"
+        },
+        {
+          "row": 20,
+          "sample_label": "untreated_04",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "E",
+            "O"
+          ],
+          "unit_cell": "E1",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "E2": "M+0",
+            "F2": "M+1",
+            "G2": "M+2",
+            "H2": "M+3",
+            "I2": "M+4",
+            "J2": "M+5",
+            "K2": "M+6",
+            "L2": "M+7",
+            "M2": "M+8",
+            "N2": "M+9",
+            "O2": "M+10"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "P",
+            "Z"
+          ],
+          "unit_cell": "P1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "P2": "M+0",
+            "Q2": "M+1",
+            "R2": "M+2",
+            "S2": "M+3",
+            "T2": "M+4",
+            "U2": "M+5",
+            "V2": "M+6",
+            "W2": "M+7",
+            "X2": "M+8",
+            "Y2": "M+9",
+            "Z2": "M+10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4B_Citrulline",
+      "sheet": "Figure 4B",
+      "metabolite": "Citrulline",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 23,
+          "sample_label": "TG_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 24,
+          "sample_label": "TG_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 25,
+          "sample_label": "TG_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 26,
+          "sample_label": "TG_04",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 27,
+          "sample_label": "untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 28,
+          "sample_label": "untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 29,
+          "sample_label": "untreated_03",
+          "condition": "UT"
+        },
+        {
+          "row": 30,
+          "sample_label": "untreated_04",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "E",
+            "O"
+          ],
+          "unit_cell": "E1",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "E2": "M+0",
+            "F2": "M+1",
+            "G2": "M+2",
+            "H2": "M+3",
+            "I2": "M+4",
+            "J2": "M+5",
+            "K2": "M+6",
+            "L2": "M+7",
+            "M2": "M+8",
+            "N2": "M+9",
+            "O2": "M+10"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "P",
+            "Z"
+          ],
+          "unit_cell": "P1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "P2": "M+0",
+            "Q2": "M+1",
+            "R2": "M+2",
+            "S2": "M+3",
+            "T2": "M+4",
+            "U2": "M+5",
+            "V2": "M+6",
+            "W2": "M+7",
+            "X2": "M+8",
+            "Y2": "M+9",
+            "Z2": "M+10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4B_Dimethylarginine",
+      "sheet": "Figure 4B",
+      "metabolite": "Dimethylarginine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 33,
+          "sample_label": "TG_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 34,
+          "sample_label": "TG_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 35,
+          "sample_label": "TG_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 36,
+          "sample_label": "TG_04",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 37,
+          "sample_label": "untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 38,
+          "sample_label": "untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 39,
+          "sample_label": "untreated_03",
+          "condition": "UT"
+        },
+        {
+          "row": 40,
+          "sample_label": "untreated_04",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "E",
+            "O"
+          ],
+          "unit_cell": "E1",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "E2": "M+0",
+            "F2": "M+1",
+            "G2": "M+2",
+            "H2": "M+3",
+            "I2": "M+4",
+            "J2": "M+5",
+            "K2": "M+6",
+            "L2": "M+7",
+            "M2": "M+8",
+            "N2": "M+9",
+            "O2": "M+10"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "P",
+            "Z"
+          ],
+          "unit_cell": "P1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "P2": "M+0",
+            "Q2": "M+1",
+            "R2": "M+2",
+            "S2": "M+3",
+            "T2": "M+4",
+            "U2": "M+5",
+            "V2": "M+6",
+            "W2": "M+7",
+            "X2": "M+8",
+            "Y2": "M+9",
+            "Z2": "M+10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4B_Ornithine",
+      "sheet": "Figure 4B",
+      "metabolite": "Ornithine",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 43,
+          "sample_label": "TG_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 44,
+          "sample_label": "TG_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 45,
+          "sample_label": "TG_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 46,
+          "sample_label": "TG_04",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 47,
+          "sample_label": "untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 48,
+          "sample_label": "untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 49,
+          "sample_label": "untreated_03",
+          "condition": "UT"
+        },
+        {
+          "row": 50,
+          "sample_label": "untreated_04",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "E",
+            "O"
+          ],
+          "unit_cell": "E1",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "E2": "M+0",
+            "F2": "M+1",
+            "G2": "M+2",
+            "H2": "M+3",
+            "I2": "M+4",
+            "J2": "M+5",
+            "K2": "M+6",
+            "L2": "M+7",
+            "M2": "M+8",
+            "N2": "M+9",
+            "O2": "M+10"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "P",
+            "Z"
+          ],
+          "unit_cell": "P1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "P2": "M+0",
+            "Q2": "M+1",
+            "R2": "M+2",
+            "S2": "M+3",
+            "T2": "M+4",
+            "U2": "M+5",
+            "V2": "M+6",
+            "W2": "M+7",
+            "X2": "M+8",
+            "Y2": "M+9",
+            "Z2": "M+10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4B_Proline",
+      "sheet": "Figure 4B",
+      "metabolite": "Proline",
+      "metabolite_column": "C",
+      "group_column": "B",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 53,
+          "sample_label": "TG_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 54,
+          "sample_label": "TG_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 55,
+          "sample_label": "TG_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 56,
+          "sample_label": "TG_04",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 57,
+          "sample_label": "untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 58,
+          "sample_label": "untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 59,
+          "sample_label": "untreated_03",
+          "condition": "UT"
+        },
+        {
+          "row": 60,
+          "sample_label": "untreated_04",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 4,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "E",
+            "O"
+          ],
+          "unit_cell": "E1",
+          "unit_literal": "Natural abundance corrected peak area",
+          "isotope_headers": {
+            "E2": "M+0",
+            "F2": "M+1",
+            "G2": "M+2",
+            "H2": "M+3",
+            "I2": "M+4",
+            "J2": "M+5",
+            "K2": "M+6",
+            "L2": "M+7",
+            "M2": "M+8",
+            "N2": "M+9",
+            "O2": "M+10"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "P",
+            "Z"
+          ],
+          "unit_cell": "P1",
+          "unit_literal": "Natural abundance corrected percentages",
+          "isotope_headers": {
+            "P2": "M+0",
+            "Q2": "M+1",
+            "R2": "M+2",
+            "S2": "M+3",
+            "T2": "M+4",
+            "U2": "M+5",
+            "V2": "M+6",
+            "W2": "M+7",
+            "X2": "M+8",
+            "Y2": "M+9",
+            "Z2": "M+10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4F_Glutamate",
+      "sheet": "Figure 4F",
+      "metabolite": "Glutamate",
+      "metabolite_column": "B",
+      "group_column": "",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 3,
+          "sample_label": "13C5Q_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 4,
+          "sample_label": "13C5Q_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 5,
+          "sample_label": "13C5Q_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 6,
+          "sample_label": "13C5Q_untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 7,
+          "sample_label": "13C5Q_untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 8,
+          "sample_label": "13C5Q_untreated_03",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 3,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "C",
+            "H"
+          ],
+          "unit_cell": "C1",
+          "unit_literal": "Peak Area",
+          "isotope_headers": {
+            "C2": "M+0",
+            "D2": "M+1",
+            "E2": "M+2",
+            "F2": "M+3",
+            "G2": "M+4",
+            "H2": "M+5"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "I",
+            "N"
+          ],
+          "unit_cell": "I1",
+          "unit_literal": "Percent",
+          "isotope_headers": {
+            "I2": "M+0",
+            "J2": "M+1",
+            "K2": "M+2",
+            "L2": "M+3",
+            "M2": "M+4",
+            "N2": "M+5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4F_P5C",
+      "sheet": "Figure 4F",
+      "metabolite": "P5C",
+      "metabolite_column": "B",
+      "group_column": "",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 11,
+          "sample_label": "13C5Q_TGFb_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 12,
+          "sample_label": "13C5Q_TGFb_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 13,
+          "sample_label": "13C5Q_TGFb_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 14,
+          "sample_label": "13C5Q_untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 15,
+          "sample_label": "13C5Q_untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 16,
+          "sample_label": "13C5Q_untreated_03",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 3,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "C",
+            "H"
+          ],
+          "unit_cell": "C1",
+          "unit_literal": "Peak Area",
+          "isotope_headers": {
+            "C2": "M+0",
+            "D2": "M+1",
+            "E2": "M+2",
+            "F2": "M+3",
+            "G2": "M+4",
+            "H2": "M+5"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "I",
+            "N"
+          ],
+          "unit_cell": "I1",
+          "unit_literal": "Percent",
+          "isotope_headers": {
+            "I2": "M+0",
+            "J2": "M+1",
+            "K2": "M+2",
+            "L2": "M+3",
+            "M2": "M+4",
+            "N2": "M+5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4F_Ornithine",
+      "sheet": "Figure 4F",
+      "metabolite": "Ornithine",
+      "metabolite_column": "B",
+      "group_column": "",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 19,
+          "sample_label": "Pos_13C5Q_TGFB_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 20,
+          "sample_label": "Pos_13C5Q_TGFB_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 21,
+          "sample_label": "Pos_13C5Q_TGFB_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 22,
+          "sample_label": "Pos_13C5Q_Untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 23,
+          "sample_label": "Pos_13C5Q_Untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 24,
+          "sample_label": "Pos_13C5Q_Untreated_03",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 3,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "C",
+            "H"
+          ],
+          "unit_cell": "C1",
+          "unit_literal": "Peak Area",
+          "isotope_headers": {
+            "C2": "M+0",
+            "D2": "M+1",
+            "E2": "M+2",
+            "F2": "M+3",
+            "G2": "M+4",
+            "H2": "M+5"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "I",
+            "N"
+          ],
+          "unit_cell": "I1",
+          "unit_literal": "Percent",
+          "isotope_headers": {
+            "I2": "M+0",
+            "J2": "M+1",
+            "K2": "M+2",
+            "L2": "M+3",
+            "M2": "M+4",
+            "N2": "M+5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4F_Proline",
+      "sheet": "Figure 4F",
+      "metabolite": "Proline",
+      "metabolite_column": "B",
+      "group_column": "",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 27,
+          "sample_label": "Pos_13C5Q_TGFB_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 28,
+          "sample_label": "Pos_13C5Q_TGFB_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 29,
+          "sample_label": "Pos_13C5Q_TGFB_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 30,
+          "sample_label": "Pos_13C5Q_Untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 31,
+          "sample_label": "Pos_13C5Q_Untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 32,
+          "sample_label": "Pos_13C5Q_Untreated_03",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 3,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "C",
+            "H"
+          ],
+          "unit_cell": "C1",
+          "unit_literal": "Peak Area",
+          "isotope_headers": {
+            "C2": "M+0",
+            "D2": "M+1",
+            "E2": "M+2",
+            "F2": "M+3",
+            "G2": "M+4",
+            "H2": "M+5"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "I",
+            "N"
+          ],
+          "unit_cell": "I1",
+          "unit_literal": "Percent",
+          "isotope_headers": {
+            "I2": "M+0",
+            "J2": "M+1",
+            "K2": "M+2",
+            "L2": "M+3",
+            "M2": "M+4",
+            "N2": "M+5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4F_Putrescine",
+      "sheet": "Figure 4F",
+      "metabolite": "Putrescine",
+      "metabolite_column": "B",
+      "group_column": "",
+      "header_row": 2,
+      "observations": [
+        {
+          "row": 35,
+          "sample_label": "Pos_13C5Q_TGFB_01",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 36,
+          "sample_label": "Pos_13C5Q_TGFB_02",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 37,
+          "sample_label": "Pos_13C5Q_TGFB_03",
+          "condition": "TGF-beta"
+        },
+        {
+          "row": 38,
+          "sample_label": "Pos_13C5Q_Untreated_01",
+          "condition": "UT"
+        },
+        {
+          "row": 39,
+          "sample_label": "Pos_13C5Q_Untreated_02",
+          "condition": "UT"
+        },
+        {
+          "row": 40,
+          "sample_label": "Pos_13C5Q_Untreated_03",
+          "condition": "UT"
+        }
+      ],
+      "n_per_condition": 3,
+      "measures": [
+        {
+          "name": "reported_area",
+          "columns": [
+            "C",
+            "H"
+          ],
+          "unit_cell": "C1",
+          "unit_literal": "Peak Area",
+          "isotope_headers": {
+            "C2": "M+0",
+            "D2": "M+1",
+            "E2": "M+2",
+            "F2": "M+3",
+            "G2": "M+4",
+            "H2": "M+5"
+          }
+        },
+        {
+          "name": "reported_channel_percent",
+          "columns": [
+            "I",
+            "N"
+          ],
+          "unit_cell": "I1",
+          "unit_literal": "Percent",
+          "isotope_headers": {
+            "I2": "M+0",
+            "J2": "M+1",
+            "K2": "M+2",
+            "L2": "M+3",
+            "M2": "M+4",
+            "N2": "M+5"
+          }
+        }
+      ]
+    }
+  ],
+  "scope_holds": [
+    "Figure 3F argininosuccinate percentages X16:AQ23 remain held: AP15/AQ15 duplicate M+14/M+15. No extraction or header repair.",
+    "All Figure 4B putrescine rows 63:70 remain held: shifted metadata and no dedicated isotope/unit header. No extraction.",
+    "Figure 4F has three supplied labels per condition versus published n=4/SEM and S5 n=4/SD; no fourth observation or uncertainty reconstruction.",
+    "Figure 3F D4-citrulline sample/panel wording versus Methods 13C5-citrulline discrepancy remains unresolved.",
+    "No raw-MS, flux, calibrated pool, source ARG1 effect, collagen incorporation or mature repair."
+  ]
+}

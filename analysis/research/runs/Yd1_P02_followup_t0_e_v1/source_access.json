@@ -1,0 +1,83 @@
+{
+  "requests": [
+    {
+      "file": "atg5.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13385427/fullTextXML",
+      "retrieved_at_utc": "2026-10-31T04:26:35.099840+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13385427/fullTextXML",
+      "bytes": 161433,
+      "sha256": "6cb5d352884e95c674ea61330b2c1991737e0e8f558a88c8db02b04aeb24cc06",
+      "content_type": "application/xml",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v1.json",
+      "content_verified": true
+    },
+    {
+      "file": "atg5_oa.xml",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC13385427",
+      "retrieved_at_utc": "2026-10-31T04:30:24.075664+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v2.json",
+      "content_verified": false
+    },
+    {
+      "file": "atg5_oa_current.xml",
+      "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC13385427",
+      "retrieved_at_utc": "2026-10-31T04:31:21.649172+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "content_verified": false
+    },
+    {
+      "file": "atg5_supp_attempt.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13385427/bin/mmc1.pdf",
+      "retrieved_at_utc": "2026-10-31T04:31:21.982996+00:00",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13385427/bin/mmc1.pdf",
+      "bytes": 21442,
+      "sha256": "9cbcab2efb7cc4e08c428682f1f363263c52a12d604378cea157965004942868",
+      "content_type": "text/html; charset=utf-8",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v3.json",
+      "content_verified": false,
+      "interpretation": "Access response is not the requested content; never use as PDF evidence."
+    },
+    {
+      "file": "atg5_supp_elsevier.pdf",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213671126001906-mmc1.pdf",
+      "retrieved_at_utc": "2026-10-31T04:32:02.168880+00:00",
+      "status": 200,
+      "final_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213671126001906-mmc1.pdf",
+      "bytes": 3121752,
+      "sha256": "dee88a9e5082b48c7280fe5bda864877e1c996111006bc426d3d1559f22d1dc6",
+      "content_type": "application/pdf",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "content_verified": true
+    },
+    {
+      "file": "atg5_fig6.jpg",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213671126001906-gr6.jpg",
+      "retrieved_at_utc": "2026-10-31T04:32:03.453024+00:00",
+      "status": 200,
+      "final_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213671126001906-gr6.jpg",
+      "bytes": 199413,
+      "sha256": "d92fc0778b623616095c12b10569ebe9e678c34def2563d2a583158e028c353d",
+      "content_type": "image/jpeg",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v4.json",
+      "content_verified": true
+    },
+    {
+      "file": "atg5_fig2.jpg",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213671126001906-gr2.jpg",
+      "retrieved_at_utc": "2026-10-31T04:38:07.352700+00:00",
+      "status": 200,
+      "final_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213671126001906-gr2.jpg",
+      "bytes": 210933,
+      "sha256": "d53c5a3ae6a76bb0d708b695b2ab9a73f0621bc5ec05c1d350a6f409af3923e3",
+      "content_type": "image/jpeg",
+      "acquisition_receipt": "raw_data/Yadav_followups_T0_20261031/retrievals_v7.json",
+      "content_verified": true
+    }
+  ],
+  "archive_members": [],
+  "limit": "Acquired primary sources and metadata only; access is not scientific validation."
+}

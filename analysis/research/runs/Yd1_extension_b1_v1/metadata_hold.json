@@ -1,0 +1,101 @@
+{
+  "author_code_reference": "0001f0329d5abdcd61635d17cf60e0cb5ba48586",
+  "code_sha256": "6582da7292e65ebb7cd1130e34d1bd7287760f8e6ca7d68c977c81a215971427",
+  "repository_files": [
+    "README.md",
+    "Rcodes",
+    "Rcodes/1_initial_processing_doublet removal.R",
+    "Rcodes/2_integrate_by_MNN.R",
+    "Rcodes/3_pseudotime_analysis_mouse.R",
+    "Rcodes/4_Human_Tsukui_re_analysis.R",
+    "Rcodes/5_human_combine_3datasets.R"
+  ],
+  "author_export": "meta.txt is written by code lines103-106 but absent from inspected repository tree and GEO listings",
+  "small_export_in_tree": false,
+  "named_labels_from_code": [
+    "Adventitial",
+    "Alveolar",
+    "Fibrotic",
+    "Inflammatory",
+    "Mesothelial",
+    "Peribronchial",
+    "Pericyte",
+    "Proliferating",
+    "Smooth muscle",
+    "Stress-activated"
+  ],
+  "nominated_mapping": {
+    "Alveolar": {
+      "author_code_label": "Alveolar",
+      "saved_object_field": null,
+      "verified": false
+    },
+    "Inflammatory": {
+      "author_code_label": "Inflammatory",
+      "saved_object_field": null,
+      "verified": false
+    },
+    "Fibrotic": {
+      "author_code_label": "Fibrotic",
+      "saved_object_field": null,
+      "verified": false
+    }
+  },
+  "retention": "unknown; code exclusions cannot establish deposited-object retained barcodes",
+  "resource_assessment": {
+    "observed_date": "2026-10-31 Asia/Seoul",
+    "disk_C": {
+      "total": 260805300224,
+      "used": 257296609280,
+      "free": 3508690944
+    },
+    "disk_X": {
+      "total": 248515653632,
+      "used": 109790814208,
+      "free": 138724839424
+    },
+    "RAM_total": 16758542336,
+    "RAM_available": 1858854912,
+    "page_commit_total": 27495960576,
+    "page_commit_available": 5993070592,
+    "Rscript_on_PATH": null,
+    "R_C_Program_Files": false,
+    "R_user_programs": false,
+    "rdata_default_python": false,
+    "pyreadr_default_python": false,
+    "listed_RDS_bytes": 1553376346,
+    "decision": "Do not download until a metadata-only deserialization route and adequate memory are qualified; do not stage an unusable expression-bearing container on low-free-space C."
+  },
+  "expression_bearing_container_accessed": false,
+  "RDS_acquired": false,
+  "expression_extracted": false,
+  "occupancy_estimated": false,
+  "decision": "Hold actual author-state/retention recovery pending a small exported meta.txt or qualified metadata-only runtime/memory for the specifically authorized object",
+  "unchanged_conditional_design": {
+    "genes": [
+      "Il6",
+      "P2rx4",
+      "Col1a1",
+      "Acta2"
+    ],
+    "primary_gene": "Il6",
+    "contrasts": [
+      "Day7 - Day0",
+      "Day14 - Day0",
+      "Day21 - Day0"
+    ],
+    "weighting": "equal reported sample weights, not cells or lanes",
+    "support": "all three samples per compared day have nonempty nominated author state; otherwise show available samples but hold group expression contrast",
+    "zero_state": "zero composition if a verified state is absent; expression undefined; missing metadata never interpreted as zero",
+    "forbidden": [
+      "expression extraction",
+      "reclustering",
+      "relabeling",
+      "support-rule relaxation",
+      "suffix pairing",
+      "population tests",
+      "separate matrix or RAW download"
+    ]
+  },
+  "scientific_acceptance": "not_assessed"
+}

@@ -1,0 +1,30 @@
+{
+  "workbook_sha256": "3eadd6386874f3464cec0eaabaf5d1349566add4a04c51ee1552493c3441af1a",
+  "sheet_read": "Table S1",
+  "other_sheets_values_read": false,
+  "workbook_sheet_names": [
+    "Table S1",
+    "Table S2",
+    "Table S3",
+    "Table S4",
+    "Table S5",
+    "Table S6",
+    "Table S7"
+  ],
+  "study_rows": 40,
+  "reported_cell_sum": 1053128,
+  "reported_sample_sum": 781,
+  "screened_lung_or_blood_rows": 30,
+  "nonstudy_rows": [],
+  "FAQ_source": "https://scahn.khatrilab.org/FAQ",
+  "source_table_recovered": true,
+  "source_table_contains_accession_column": false,
+  "individual_sample_or_donor_crosswalk": false,
+  "gene_measurement_mask_available": false,
+  "all_zero_cells_qualified": false,
+  "unmeasured_gene_encoding": "FAQ: a gene not measured in a source is encoded as zero for all source cells",
+  "healthy_whole_blood_design": "not executable until specific source/preparation/donor/measurement-mask/raw-count joins qualify; no expression query run",
+  "atlas_downloaded": false,
+  "expression_values_extracted": false,
+  "scientific_acceptance": "not_assessed"
+}

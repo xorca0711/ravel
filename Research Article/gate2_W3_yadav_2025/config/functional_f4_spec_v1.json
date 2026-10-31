@@ -1,0 +1,210 @@
+{
+  "job": "F4",
+  "title": "Mouse cultures: source specificity, rescue and endpoint distinction",
+  "footnote": "Dots are supplied culture values; bars are means. Preparation independence is unknown; no population intervals.",
+  "panels": [
+    {
+      "id": "S3C",
+      "sheet": "S3c",
+      "title": "Fig. S3C | COL1A1 rescue",
+      "unit": "COL1A1 MFI",
+      "groups": [
+        {
+          "id": "mono",
+          "label": "Mono",
+          "cells": [
+            "A2",
+            "A3",
+            "A4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "co",
+          "label": "Co",
+          "cells": [
+            "B2",
+            "B3",
+            "B4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "cb",
+          "label": "Co + CB",
+          "cells": [
+            "C2",
+            "C3",
+            "C4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "rescue",
+          "label": "Co + CB\n+ ornithine",
+          "cells": [
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "oat",
+          "label": "Co + OAT\ninhibitor",
+          "cells": [
+            "E2",
+            "E3",
+            "E4"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "co",
+          "mono"
+        ],
+        [
+          "cb",
+          "co"
+        ],
+        [
+          "rescue",
+          "cb"
+        ],
+        [
+          "oat",
+          "co"
+        ]
+      ],
+      "limit": "Panel/workbook support coculture labels despite monoculture legend; independent preparations unknown."
+    },
+    {
+      "id": "S3D",
+      "sheet": "S3d",
+      "title": "Fig. S3D | Alpha-SMA",
+      "unit": "Alpha-SMA MFI",
+      "groups": [
+        {
+          "id": "mono",
+          "label": "Mono",
+          "cells": [
+            "A2",
+            "A3",
+            "A4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "co",
+          "label": "Co",
+          "cells": [
+            "B2",
+            "B3",
+            "B4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "orn",
+          "label": "Co +\nornithine",
+          "cells": [
+            "C2",
+            "C3",
+            "C4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "oat",
+          "label": "Co + OAT\ninhibitor",
+          "cells": [
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "co",
+          "mono"
+        ],
+        [
+          "orn",
+          "co"
+        ],
+        [
+          "oat",
+          "co"
+        ]
+      ],
+      "limit": "Separate alpha-SMA endpoint; small differences are not equivalence or proof of no change."
+    },
+    {
+      "id": "3J",
+      "sheet": "3j",
+      "title": "Fig. 3J | Macrophage Arg1 genotype",
+      "unit": "COL1A1 MFI",
+      "groups": [
+        {
+          "id": "mono",
+          "label": "Fib alone",
+          "cells": [
+            "A2",
+            "A3",
+            "A4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "wt",
+          "label": "WT Mac\ncoculture",
+          "cells": [
+            "B2",
+            "B3",
+            "B4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "ko",
+          "label": "Arg1 KO Mac\ncoculture",
+          "cells": [
+            "C2",
+            "C3",
+            "C4"
+          ],
+          "donor": "source"
+        },
+        {
+          "id": "ko_cb",
+          "label": "KO co\n+ CB-1158",
+          "cells": [
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "donor": "source"
+        }
+      ],
+      "pairs": [
+        [
+          "wt",
+          "mono"
+        ],
+        [
+          "ko",
+          "wt"
+        ],
+        [
+          "ko_cb",
+          "ko"
+        ]
+      ],
+      "limit": "Genotypes restored from actual Fig.3J; source cultures not independent qualified preparations."
+    }
+  ]
+}

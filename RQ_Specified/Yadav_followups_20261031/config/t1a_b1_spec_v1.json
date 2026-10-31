@@ -1,0 +1,103 @@
+{
+  "owner": "Wg-P06",
+  "job": "T1-B1",
+  "panels": [
+    {
+      "sheet": "Figure 6D",
+      "rows": {
+        "2": "Arginine",
+        "3": "Citrulline",
+        "4": "Ornithine"
+      },
+      "sample_headers": {
+        "H": "Area: UT_01.raw (F20)",
+        "I": "Area: UT_02.raw (F42)",
+        "J": "Area: UT_03.raw (F8)",
+        "K": "Area: UT_04.raw (F26)",
+        "L": "Area: TGFb_01.raw (F10)",
+        "M": "Area: TGFb_02.raw (F21)",
+        "N": "Area: TGFb_03.raw (F39)",
+        "O": "Area: TGFb_04.raw (F41)",
+        "P": "Area: A_UT_01.raw (F43)",
+        "Q": "Area: A_UT_02.raw (F34)",
+        "R": "Area: A_UT_03.raw (F46)",
+        "S": "Area: A_UT_04.raw (F22)",
+        "T": "Area: A_TGFb_01.raw (F31)",
+        "U": "Area: A_TGFb_02.raw (F35)",
+        "V": "Area: A_TGFb_03.raw (F5)",
+        "W": "Area: A_TGFb_04.raw (F44)",
+        "X": "Area: O_UT_01.raw (F16)",
+        "Y": "Area: O_UT_02.raw (F15)",
+        "Z": "Area: O_UT_03.raw (F30)",
+        "AA": "Area: O_UT_04.raw (F45)",
+        "AB": "Area: O_TGFb_01.raw (F23)",
+        "AC": "Area: O_TGFb_02.raw (F9)",
+        "AD": "Area: O_TGFb_03.raw (F13)",
+        "AE": "Area: O_TGFb_04.raw (F4)",
+        "AF": "Area: C_UT_01.raw (F18)",
+        "AG": "Area: C_UT_02.raw (F33)",
+        "AH": "Area: C_UT_03.raw (F19)",
+        "AI": "Area: C_UT_04.raw (F27)",
+        "AJ": "Area: C_TGFb_01.raw (F32)",
+        "AK": "Area: C_TGFb_02.raw (F28)",
+        "AL": "Area: C_TGFb_03.raw (F11)",
+        "AM": "Area: C_TGFb_04.raw (F7)",
+        "AN": "Area: AOC_UT_01.raw (F24)",
+        "AO": "Area: AOC_UT_02.raw (F29)",
+        "AP": "Area: AOC_UT_03.raw (F6)",
+        "AQ": "Area: AOC_UT_04.raw (F40)",
+        "AR": "Area: AOC_TGFb_01.raw (F37)",
+        "AS": "Area: AOC_TGFb_02.raw (F12)",
+        "AT": "Area: AOC_TGFb_03.raw (F17)",
+        "AU": "Area: AOC_TGFb_04.raw (F38)"
+      },
+      "header_regex": "Area: (?P<group>.+)_(?P<suffix>\\d{2})\\.raw \\(F\\d+\\)"
+    },
+    {
+      "sheet": "Figure 6F",
+      "rows": {
+        "2": "Arginine"
+      },
+      "sample_headers": {
+        "F": "A_TGFB_01",
+        "G": "A_TGFB_02",
+        "H": "A_TGFB_03",
+        "I": "A_TGFB_04",
+        "J": "A_Untreated_01",
+        "K": "A_Untreated_02",
+        "L": "A_Untreated_03",
+        "M": "A_Untreated_04",
+        "N": "C_TGFB_01",
+        "O": "C_TGFB_02",
+        "P": "C_TGFB_03",
+        "Q": "C_TGFB_04",
+        "R": "C_Untreated_01",
+        "S": "C_Untreated_02",
+        "T": "C_Untreated_03",
+        "U": "C_Untreated_04",
+        "V": "TGFB_01",
+        "W": "TGFB_02",
+        "X": "TGFB_03",
+        "Y": "TGFB_04",
+        "Z": "Untreated_01",
+        "AA": "Untreated_02",
+        "AB": "Untreated_03",
+        "AC": "Untreated_04"
+      },
+      "header_regex": "(?P<group>.+)_(?P<suffix>\\d{2})"
+    }
+  ],
+  "rules": {
+    "fraction_scale_candidates": [
+      1,
+      100
+    ],
+    "closure_tolerance": "64 * number_of_channels * binary64_ulp(candidate_scale); covers binary64 arithmetic and conservative 15-digit spreadsheet serialization, not biological variation. Not fitted to outcomes.",
+    "invalid_rule": "Preserve raw values and mark missing/nonnumeric/nonfinite/formula/negative. No clipping, filling or forced normalization. A summary needs all supplied observations valid; no reduced-n mean.",
+    "scale_rule": "Each complete nonnegative row must close at one candidate scale. A block uses the unique scale across singly classified rows. Mixed scales hold all fraction calculations. Non-closing/invalid rows stay held; other blocks and area measurands continue.",
+    "estimates": "Native units, counts, unweighted means and observed min/max only; R1 difference of independent source group means is descriptive. No CI/p-value/paired estimator/cross-medium pooling.",
+    "figures": "R1 source fractions converted to percent only by confirmed unit scale, not normalized by measured sum. Complete blocks plotted as all dots/mean/range; incomplete fraction blocks marked held. B1 native areas plotted separately by sheet/metabolite."
+  },
+  "condition_key": "held; do not assign native prefixes to amino-acid media",
+  "contrasts": "none; within-native-group description only"
+}

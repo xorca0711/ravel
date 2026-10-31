@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.count_integrity_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do all six deposited GSE242510 count matrices satisfy complete entry integrity and what technical QC ranges inform a subsequent frozen conservative annotation strategy?",
+  "decision": "Permit the next annotation contract only after full source entry integrity succeeds; keep biological preparation identities unknown.",
+  "strongest_rival": "Treating slices, wells, cell barcodes, library suffixes or accession IDs as independent animals, preparations or donors would create pseudoreplication or false pairing.",
+  "discriminator": "Join GEO, BioSample and sequencing accessions; inspect workbook labels and source panel legends; validate count-file structure without treating missing identifiers as evidence of independence.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md",
+    "Research Article/gate2_W3_yadav_2025/EXECUTION_DESIGN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Publication outcomes, source labels and workbook contrasts were already exposed. Only count headers and feature/barcode identifiers were inspected before this freeze; no local Arg1/Il6 cell-class contrast has run.",
+  "biological_unit": "Animals for whole-lung panels; human donor pairs or patients for human assays; coculture preparation identity and pooling remain unknown for GSE242510.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Slices and wells nest in source patients or donor combinations; cells nest in libraries. Numeric library suffixes do not prove preparation pairing. Source panels and deposited data are reused published evidence, not independent replication.",
+  "population_and_selection": "The official JCI188734 supporting-values workbook and six GSE242510 libraries, with linked public BioSample and sequencing records. Source-selected published panels; no new cohort.",
+  "contrast": "Library-by-library technical integrity and QC summaries; no expression comparison or biological effect.",
+  "endpoint": "Actual matrix entry count, integer/nonnegative values, index bounds, duplicate coordinates, unique feature/barcode counts, total counts, detected genes and mitochondrial count proportion per deposited barcode.",
+  "methods": "Fully decompress and parse each matrix with scipy.io.mmread; compare declared/actual entries and dimensions; enforce unique coordinate/feature/barcode identities and integer nonnegative values; reconcile count totals; save per-barcode QC and all-library diagnostic plots.",
+  "missingness_and_exclusions": "No cell filtering or class assignment. Explicit zero entries are counted then excluded from detected-gene totals; negative/noninteger data, duplicates, index errors, truncated data or identifier mismatches stop execution.",
+  "multiplicity": "No hypothesis tests or biological effect estimation.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Technical source checks do not estimate population precision.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Passing matrix integrity does not validate cell identity, doublet/ambient removal, biological independence, preparation pairing or population expression inference.",
+  "stop_rule": "Stop after full-entry integrity and technical QC; freeze a distinct annotation/QC and descriptive expression contract only after reviewing this output.",
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_source_v1/GSE242510_RAW.tar",
+      "sha256": "006b9c931cbd44aa498ce26e3d0d66e36faef6884b15aeda2496250e46a1351e",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/Yd1_source_qualification_v1/geo_library_qualification.json",
+      "sha256": "ba17f81c4dffbc794869ac6c059542ff17cb47ffd080932764c9cd2b8ba20037",
+      "study_id": "GSE242510",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/scripts/count_integrity_v1.py",
+      "sha256": "c36e2fe6fa30e9adbffbe88a4253a076c88cb8e192839773d4382533c1ef2cdd"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/scripts/count_integrity_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "library_integrity.csv",
+    "library_qc.csv",
+    "cell_qc.csv",
+    "qc.png",
+    "qc.pdf",
+    "runtime.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial full-entry technical integrity pass after approved source qualification and functional reconstruction."
+}

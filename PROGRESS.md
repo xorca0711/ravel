@@ -1,5 +1,733 @@
 # Current project state
 
+## Yadav package opened for PR review — 31 October 2026
+
+The owner requested an overall summary and PR publication. GitHub CLI and
+connector identities were verified as `xorca0711`. The reviewed branch is now
+published in [PR #154](https://github.com/xorca0711/ravel/pull/154), targeting
+`main` at `8cb50dd15a12a41abc6d5edb36349d33fc512661`. The PR is open for
+review and has not been merged. Earlier no-publication statements below record
+the preceding scope, before this explicit delivery authorization.
+
+The PR includes the original Yadav reconstruction, X0–X6 disposition and
+three follow-up plans with frozen sources/outputs and exact holds. The scientific
+conclusion is bounded source-level support for the profibrotic circuit, with
+inclusion-sensitive Il6 RNA, imprecise knockout hydroxyproline and unresolved
+mapping/replicate limits. It does not establish source-to-collagen flux,
+arginine compensation or mature epithelial recovery. No canonical question,
+claim grade or human acceptance decision changed.
+
+Publication checkpoint `1714a52708dd1b5cbad6cd21ee25b93f58efb861` passed
+12,535 repository checks, 158 tests (two Windows symlink-privilege skips),
+compilation, the 18-binding claim check, all required archive verifiers and the
+research gate against freshly fetched main. Push CI's `validate` and
+`research-governance` jobs passed on that checkpoint; PR-triggered jobs were
+running at this delivery record. This subsequent commit changes status prose
+only. No biological analysis was rerun. Two whole-branch whitespace findings in
+frozen source code/run stderr remain unchanged to preserve hashes.
+
+All feasible authorized scientific source/design jobs remain complete or
+specifically held, as detailed in the final review below. Both worktrees and
+raw caches remain preserved, and the analysis heartbeat remains PAUSED. Next:
+PR review and any resulting bounded corrections; empirical work requires the
+recorded qualifying data/model/assay evidence. Opening the PR does not authorize
+merging it or conducting the held experiments.
+
+## Yadav follow-up scope reviewed complete with empirical holds — 31 October 2026
+
+The [final review](RQ_Specified/Yadav_followups_20261031/REVIEW_T1B_FINAL.md)
+dispositions all three follow-up tracks. T1-B return
+`a5677d43662816aea64f4e5b6229b33495973ce4` passes provenance, endpoint and
+figure review: 160/180 R1 and 464/548 R2 channel summaries qualify. All original
+vector, missing-value, ambiguous-map and replicate-identity limits remain.
+T0, B1 and T2 are reviewed complete; no biological pipeline was rerun.
+
+No feasible authorized job remains. Actual source ARG1 effects, transfer/flux
+and joint mature epithelial recovery require the exact linked data, source keys
+or confirmed model/assay access in the [combined disposition](RQ_Specified/Yadav_followups_20261031/FOLLOWUP_DISPOSITION_T1B.md).
+Original spatial/human/X3–X5 holds and all 32 canonical questions remain unchanged.
+Scientific acceptance is a separate human decision; no bench readiness is claimed.
+
+Fresh main is `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Local integration
+preserves both worktrees and all frozen outputs. Current-base validation passed
+12,534 repository checks and the research gate (`ok: true`, no errors), after
+correcting the review-only audit document format. Scientific artifacts and
+gates were unchanged. Reviewed integration is `e01d5e8b8eed8100b40cae4fe5e8dc7322c51f8a`.
+The reading plan, Yadav notes/discussion and Notion follow-up plan are synchronized;
+the review heartbeat is confirmed PAUSED. No technical job remains active.
+Reopen only on the specific new evidence or a newly authorized scope. No remote
+publication or outreach is authorized; host access/oversight and protected
+integration settings remain unverified. Earlier status entries are historical.
+
+## Yadav T1-B executed; review pending — 31 October 2026
+
+[T1-B results](RQ_Specified/Yadav_followups_20261031/T1B_RESULTS.md) complete
+the authorized reported-channel companion and exact R2 source descriptions.
+The new endpoint qualifies 160/180 R1 and 464/548 R2 summaries; missing target
+cells remain held. All original T1-A summary/vector holds are unchanged.
+Numerical code/contracts froze at `53a5f8f3cee36ed67eb87afdbf53017324ee6c74`.
+Independent source/arithmetic verification passed 17,841 checks.
+Final repository validation passed 12,519 checks; the current-main research
+gate passed with no errors. All 25 expected outputs and three receipts verify.
+
+Initial figure-layout issues were corrected in a separately frozen presentation
+run using unchanged tables; original figures remain. The
+[combined disposition](RQ_Specified/Yadav_followups_20261031/FOLLOWUP_DISPOSITION_T1B.md)
+reuses reviewed B1/T2 completion and retains exact source-key, ambiguous-map,
+collagen/Lee, flux, source ARG1, joint mature-repair and original spatial/human/
+X3–X5 holds. Actual host access and linked functional data remain unconfirmed.
+
+Next: reviewer inspection of the exact T1-B return before overall closeout.
+No scientific acceptance, portfolio change, new search, remote/Notion write,
+outreach or bench execution. Required final checks are recorded in the
+[execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
+Earlier entries are historical checkpoints; external model/assay/oversight and
+protected integration settings remain unverified.
+
+## Yadav T1-A reviewed; reported-channel follow-up authorized — 31 October 2026
+
+Exact technical return `bc17da15f9e62fb657ba06642c65542517b857c0` passes
+[review](RQ_Specified/Yadav_followups_20261031/REVIEW_T1A.md) of its frozen
+calculations. All 36 B1 native-label pool summaries are reviewed complete;
+the missing nutrient key remains. R1's 95 held summaries reflect missing
+channels and strict complete-vector closure rules, not a biological failure.
+Explicit source percent headers support a separate literal-channel description
+without repairing missing values or changing the frozen closure rule.
+
+Next T1-B executes that exposed R1 companion and the exact reviewed R2 whitelist
+(14 area/13 percentage blocks), retaining ambiguous blocks and the 4F n/SD/SEM
+disagreement. [T2 disposition](RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md)
+is reviewed complete for design/access; actual source ARG1, flux and mature
+repair effects remain held on specified model/data/assay requirements. No
+scientific acceptance, canonical RQ change, outreach or bench work follows.
+
+Local integration preserves both worktrees and all frozen evidence; status-only
+merge conflicts were reconciled with both ledger histories retained. Fresh main
+is `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Integration passed 12,463
+repository checks and the research gate (`ok: true`, no errors). T1-B was
+dispatched from `2a0f32c32cd180bc6e58c252ff0531dd00a8252a`; the technical chat
+is confirmed active (cursor `:43`). Notion and the ACTIVE heartbeat are aligned.
+Next: review the exact T1-B return and combined disposition before closeout.
+
+## Yadav T1-A completed; review pending — 31 October 2026
+
+[T1-A results](RQ_Specified/Yadav_followups_20261031/T1A_RESULTS.md) complete the
+authorized 15-block processed-tracing and native-label pool descriptions.
+Both contracts/code were frozen at `5e1d7dbbfac8ae3ba41046b1b3542e1cec5d716c`.
+All 1,584 source cells remain; R1 has 95 held summaries from missing channels
+or strict numerical closure, while all 36 B1 summaries qualify. Independent
+source/arithmetic verification passed 6,306 checks; figures were inspected.
+Repository validation passed 12,457 checks and the final current-main research
+gate passed with no errors. All 13 expected outputs are included and hash-matched.
+
+[R2 design](RQ_Specified/Yadav_followups_20261031/R2_DESIGN.md) proposes exact
+14-area/13-fraction maps without a numerical run.
+[T2 disposition](RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md)
+completes capability/design qualification for all three questions. Actual host
+access, linked source exposure/collagen and mature-functional-output data remain
+unconfirmed; no causal ARG1, flux or repair conclusion follows.
+
+Next: reviewer assessment of the exact T1-A return and R2 proposal. Existing
+source/spatial/human/X3–X5, collagen/Lee and joint repair holds persist.
+Final current-main/preservation checks are recorded in the
+[execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
+No prior evidence, canonical question or grade changed; no remote write,
+Notion update, outreach or bench execution. External laboratory/oversight and
+protected integration settings remain unverified. Earlier entries below are
+historical checkpoints, not the current numerical authorization.
+
+## Yadav T0 reviewed; bounded T1-A next — 31 October 2026
+
+Exact execution return `6aced292888d51821a4cd8b876c13f3954a1de65` passes
+[source/endpoint review](RQ_Specified/Yadav_followups_20261031/REVIEW_T0.md).
+The local integration preserves both worktrees, hash-checked source caches,
+all old outputs/contracts/receipts and A0–A31. No biological effect was rerun.
+
+Hamanaka processed tracing is eligible for a fixed descriptive reconstruction;
+Fig. 6D/F pools can be described under native labels while their condition key
+stays unresolved. Atg5 includes staining ratios, which still do not provide
+absolute lineage-linked mature output or a joint ARG1 effect. The 4F three-versus-
+four-label discrepancy and ambiguous isotope headers remain. T1-A will run the
+reviewed R1/B1 descriptions, qualify the next R2 block design and disposition
+capability requirements for all three RQs. Numerical flux, linked repair,
+collagen-effect and original spatial/X3–X5 work remain specifically held.
+
+Current-main integration passed 12,381 repository checks and the research gate
+(`ok: true`, no errors). T1-A was dispatched from reviewed integration
+`43e6f2602b577cfa13002053eb21603750658951` and the technical chat is confirmed
+active (cursor `:38`). Notion status and the ACTIVE review heartbeat are aligned.
+Next: review the exact committed T1-A return before authorizing R2 numerical work.
+Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`; no remote publication,
+outreach or scientific acceptance is authorized or implied.
+
+## Yadav follow-up T0 source qualification — 31 October 2026
+
+[T0 results](RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md) complete the
+authorized Hamanaka/Yadav substrate and tracer qualification, Lee signaling
+review, and Atg5/current-RQ endpoint map. Separate Wg-P06 and Yd1-P02 metadata
+contracts were frozen at `33c39eed1903cd56bc50de64fd048498b53a6d3b`; both runner
+receipts and 26 independent source checks passed. No new biological effect,
+expression, flux or joint repair analysis was run.
+
+[Exact T1 designs and capability holds](RQ_Specified/Yadav_followups_20261031/T1_DESIGNS.md)
+offer an unambiguous processed-tracing subset for review. Hamanaka source n/header
+conflicts, missing collagen source/unit joins and the absence of a joint ARG1
+matrix–absolute mature-function endpoint remain explicit. T1 numerical work is
+not yet authorized. No canonical hypothesis, grade, prior frozen evidence or
+spatial/X3–X5 hold changed; Notion remains untouched.
+
+Current main is freshly verified at `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+Final validation passed 12,376 repository checks and the current-main research
+gate (`ok: true`, no errors); see the
+[execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
+Next: reviewer assessment of T0 and selection of an exact eligible T1 job.
+Actual laboratory access, model/assay validity, precision and external protected
+integration settings are not established by this local return.
+
+## Yadav follow-up plans and Notion alignment — 31 October 2026
+
+The owner opened a new scope after the reviewed original and X0–X6 closeouts.
+[Three plans](RQ_Specified/Yadav_followups_20261031/README.md) now cover unchanged
+Wg-P06 substrate balance, its routing/signaling arm and proposed article-local
+Yd1-P02 matrix versus mature epithelial repair. The current RQ list, folder index
+and registry link the plans; all A0–A31 questions/guides and frozen evidence are
+preserved. No scientific acceptance, claim-grade change or bench readiness follows.
+
+[Notion updates](RQ_Specified/Yadav_followups_20261031/NOTION_SYNC.md) are complete:
+reading plan, Yadav notes, Discussion and current RQ navigation now link a new
+three-plan page. Historical notes and the recommended next reading order remain.
+
+First checkpoint T0-B/R/E qualifies Hamanaka source/exposure units, tracing and
+Lee signaling assays, and joint matrix/epithelial endpoint coverage including
+the bounded Atg5 precedent. New numerical work awaits exact design review;
+human-source/X3–X5 holds remain and do not block independent feasible work.
+See the [execution ledger](RQ_Specified/Yadav_followups_20261031/EXECUTION_LEDGER.md).
+The plan integration passed 12,331 repository checks and the current-main
+research gate (`ok: true`, no errors); no biological analyses were rerun.
+T0-B/R/E was dispatched from reviewed plan commit
+`1473ad87d1246d336402d2ea5f6a2881bc51d774`; the technical chat is confirmed active.
+The existing review heartbeat is **ACTIVE** for this new scope, and the Notion
+plan page reflects launch. Next: review the exact T0 source/unit/endpoint return
+and authorize eligible bounded T1 designs. Latest cursor ends `:34`; the full
+cursor and scope are in the execution ledger. Freshly fetched main remains
+`8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+
+## Yadav extensions technically reviewed and fully dispositioned — 31 October 2026
+
+[Final synthesis](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md)
+passed [review D](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_D.md)
+at execution `5a74cb112d9ebf3936da0efa9beb06f9161a8933`. X0–X2 and X6 are
+complete within scope; X3–X5 metadata passes are complete and numerical
+comparisons have exact evidence-backed holds. No feasible authorized job remains.
+
+Reopen X3 with actual retained-cell/state/sample support and a qualified
+reader/resource route if needed; X4 with culture/donor/assay joins and the actual
+early-IPF cohort/specimen source; X5 with retained-neutrophil/state/target-zero
+denominators and participant/preparation joins, plus atlas inclusion/measurement
+masks when applicable. Original spatial/unit/source holds remain intact.
+The synthesis keeps unchanged Wg-P06 substrate balance separate from mature
+epithelial function. Scientific acceptance and future empirical work are human
+decisions; no claim grade, canonical RQ or gate changed.
+
+D was documentation only. Review verified all 120 output hashes, unchanged 115
+contracts/109 receipts and canonical questions/guides, and preservation of the
+provisional matrix. Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`.
+Final integration passed 12,298 repository checks and the current-main research
+gate (`ok: true`, no errors), reusing valid inherited tests. Reviewed integration
+is `1fe927d9b73e9cd1dada0d4a93043f6b678794c5`. The heartbeat is confirmed
+**PAUSED**; no remote publication or outreach occurred.
+
+## Yadav checkpoint D final synthesis returned for review — 31 October 2026
+
+[Final synthesis and X0–X6 disposition](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/FINAL_SYNTHESIS.md)
+separate reproduced source values, bounded robustness and biological uncertainty.
+X0–X2 remain reviewed complete. X3–X5 metadata qualification is complete within
+the authorized passes; numerical work retains exact source/design holds.
+X6 documentation is delivered; reviewer confirmation of scoped completion is
+pending. No scientific acceptance, new biological result or bench readiness follows.
+
+The synthesis retains assignment-sensitive Il6, stable bounded Arg1/WT-coculture
+directions, the 4C workbook/PDF discrepancy, missing arms/units and imprecise
+hydroxyproline. Unchanged Wg-P06, separate epithelial-function questions,
+unfavorable A13/A22 findings and original six-step holds are preserved.
+The provisional matrix remains with a supersession link.
+
+D is documentation only: no new source acquisition, expression, classifier or
+pipeline rerun. No feasible authorized execution job is identified as omitted;
+final review and evidence-dependent future jobs remain. Exact base, preservation
+and documentation/integration checks are in the
+[ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md).
+
+Validation passed: 12,291 repository checks and current-main gate against freshly
+fetched unchanged `8cb50dd`. All 115 contracts, 109 receipts and 120 recorded
+Yadav outputs remain unchanged; only documentation and one evidence link changed.
+
+## Yadav checkpoint C reviewed; final X6 synthesis remains — 31 October 2026
+
+Reviewed execution `619fc57a86236a2cadf0a6eb263a3dbeb2e2e3d6`.
+[Review C and final job](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_C.md)
+accept bounded metadata qualification: 53 input/four code/eight output hashes,
+all 26 sample/run joins, 52 feature-support rows, 42 file sizes and 130 independent
+BioSample attribute comparisons pass. All 112 inherited outputs and canonical
+questions/guides remain unchanged. Original feature entries are qualified for
+Gupta ARG1/IL6R; this does not establish expression or retained neutrophil states.
+
+X0-X2 remain reviewed complete. X3 holds on actual retained-state support and
+reader/resources; X4 on culture/donor/assay and early-stage specimen sources;
+X5 on retained-neutrophil/state/target-zero denominators and participant joins.
+No qualified numerical context comparison remains from current inputs. Failed
+primary access attempts and limits on the bounded search are preserved.
+Checkpoint D is the remaining feasible job: final X6 synthesis and exact X0-X6
+disposition, keeping Wg-P06 and epithelial function separate. Dispatched from
+`95ef6722759e0506015e8a9354c79baad4e67fc0`; the technical chat is confirmed active.
+Final scoped completion and scientific acceptance are not claimed.
+
+Fresh main remains `8cb50dd15a12a41abc6d5edb36349d33fc512661`. Local integration
+preserves both ledger histories. Integration passed 12,238 repository checks and
+the current-main research gate (`ok: true`, no errors). Valid prior tests were
+reused and no biological pipeline was rerun.
+
+## Yadav checkpoint C returned for review — 31 October 2026
+
+[Two-source results and held design](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_C_RESULTS.md)
+verify Gupta GSE145230 within GSE145231 and map all 26 Gupta/Wigerblad samples to
+BioSample/SRA records. ARG1 and IL6R each have one entry in all seven acquired
+Gupta feature references. Wigerblad's features remain embedded in unaccessed H5.
+Neither source supplies a recovered retained-neutrophil/state/target-zero
+denominator export. Participant overlap and processing joins remain unresolved.
+
+The first-source Gupta description is conditional; Wigerblad is the sole checked
+fallback. No expression input, raw sequencing read, new classifier or target
+outcome was accessed. X3/X4 holds and all prior unfavorable findings are retained;
+the [X6 matrix](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/PROVISIONAL_X6_MATRIX.md)
+changes only source eligibility and remains provisional.
+
+C froze at `68bbfe582039d9bb1007cc4a78b106ef40355379`; the metadata receipt and
+independent source verification passed. Next: review C's exact source holds and
+conditional design before any new numerical acquisition/execution. The
+[ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md)
+records final validation, preservation, base and external settings. No scientific
+acceptance or final extension closeout is claimed.
+
+Validation passed: 12,238 repository checks, the C receipt and current-main gate
+against freshly fetched unchanged `8cb50dd`. All 112 inherited Yadav recorded
+outputs, 114 parent contracts and 108 parent receipts remain preserved.
+
+## Yadav checkpoint B reviewed; bounded X5 qualification remains — 31 October 2026
+
+Reviewed execution 023699bc8ccd4105b3a2375ff2191c097ca53904. The
+[review and next jobs](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_B.md)
+approve B1/B2 metadata and the provisional X6 matrix within scope. Checks verified
+24 input/eight code/eight new output hash references and both freeze bundles;
+independent source rereads matched eleven code labels, 36 unknown-support rows
+and all 400 Table S1 fields. The reviewer independently read the live FAQ:
+unmeasured genes can be zero-filled; cross-study detection needs measurement masks.
+All 104 inherited outputs, canonical questions/guides and parent entries remain.
+
+X3 has intended code labels but no actual retained-state mapping; the recorded
+reader/memory route remains unqualified. X4 keeps its culture/donor/assay and
+early-cohort/specimen holds. X5 has two concrete healthy-blood leads, so checkpoint
+C now qualifies Gupta2020 and Wigerblad2022 metadata for one prospective source
+description, with exact donor/preparation/measurement/overlap and state support.
+No external expression analysis, new canonical RQ or scientific acceptance follows.
+The X6 matrix retains substrate balance and mature epithelial function separately.
+
+Fresh main is unchanged at 8cb50dd15a12a41abc6d5edb36349d33fc512661. Integration
+retains both appended ledgers. Integration passed 12,211 repository checks and
+the current-main research gate (`ok: true`, no errors). Valid prior tests were
+reused; no biological analysis was rerun for this integration.
+Checkpoint C was dispatched from 0c24535344e214f888405dcb2755b0f7faa5699d;
+the technical chat is confirmed active and scheduled artifact review continues. New primary-paper full-text lookups returned access
+challenges/HTTP 500; only indexed primary leads are claimed as read in this review.
+
+## Yadav checkpoint B returned for review — 31 October 2026
+
+[Metadata results](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_B_RESULTS.md)
+recover Tsukui's intended author-code state names and SCAHN Table S1/FAQ.
+Actual X3 retained-cell/state assignments remain unknown: the small export is
+absent from inspected sources, and an RDS reader/memory route is unqualified.
+No RDS or external expression was accessed. X5 now has forty source-study rows,
+including Salcher and Habermann, but exact donor/preparation/cell and
+gene-measurement joins remain held. Unmeasured atlas genes can be encoded as zero.
+
+The [provisional X6 matrix](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/PROVISIONAL_X6_MATRIX.md)
+keeps Wg-P06 substrate balance, signaling/cytokine/viability alternatives and the
+A13/A20/A8/A19 epithelial bridge separate. Negative A13/A22 evidence remains.
+X4 holds are unchanged. Next: technical review of B; actual X3 support recovery
+and one specifically qualified external design before any expression comparison.
+This is not a bench-ready package, scientific acceptance or final closeout.
+
+B1/B2 froze at `e7498beb8058f9fef5bc1e6cbe437f0a9104f07d`; both metadata receipts
+executed. Independent checks matched eleven annotation positions, 36 blank
+support rows and all 400 Table S1 source fields. Exact base/preservation/checks
+and external resource/source holds are in the
+[ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md).
+
+Repository validation passed 12,206 checks; both new receipts and the current-base
+research gate passed against freshly fetched, unchanged main `8cb50dd`. The 104
+inherited Yadav outputs and all canonical RQs/guides remain unchanged.
+
+## Yadav checkpoint A reviewed; targeted follow-ups authorized — 31 October 2026
+
+Reviewed execution commit 49f2023be3eba264d45020d2fe9060acf730100c.
+[Review and next jobs](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_A.md)
+approve X0-X2 within their descriptive scope. Independent checks verified 65 input,
+11 code and 28 new output hash references, all three frozen specifications,
+X1 saved-table arithmetic and all 111 X2 source values/16 contrasts. Direct X3
+metadata rereads confirmed the 50,785-barcode/twelve-sample join. All four figures
+and source PDF pages 7/9 were inspected. All 76 original Yadav outputs and every
+canonical RQ/guide remain unchanged; no scientific acceptance was recorded.
+
+Fibroblast Il6 KO-WT mean direction changes with fixed mixed-class inclusion;
+macrophage-like Arg1 and the WT coculture Il6 directions remain stable under that
+diagnostic. Protein source descriptions remain separate from unlinked RNA.
+Figure 4C workbook/PDF amplitudes disagree, so only workbook reconstruction passes.
+No rescaling, inferred donor pairing, missing arm or causal explanation was added.
+
+Checkpoint B authorizes X3 author-state/retention metadata recovery (including the
+identified 1.55 GB object only if a small export is unavailable and local resources
+support metadata extraction), one bounded X5 app/supplement source-access pass,
+and provisional X6 substrate/epithelial evidence synthesis. X4 retains exact
+source/design holds. External expression extraction still needs design review.
+The existing technical chat remains the sole message destination. Fresh main is
+8cb50dd15a12a41abc6d5edb36349d33fc512661; local integration preserves both ledgers.
+Integrated validation passed 12,153 repository checks and the current-main
+research gate (`ok: true`, no errors); prior 158 tests/two skips remain valid.
+The only merge conflict was the append-only execution/review ledger; both
+histories were retained. No biological analysis was rerun during integration.
+Checkpoint B was dispatched from dc908350a73a28714ec1df6456fafaf661db76b3;
+the existing technical chat is confirmed active and scheduled review continues.
+
+## Yadav extension checkpoint A executed — 31 October 2026
+
+[Results and figures](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_A_RESULTS.md)
+return X0–X2 for technical review. X1 preserves all 12,519 barcodes and shows that
+the primary fibroblast Il6 KO–WT difference flips sign with fixed mixed-class
+inclusion under both QC masks. Macrophage Arg1 remains lower in KO coculture;
+fibroblast Il6 remains higher in WT coculture than alone. X2 reconstructs all
+111 supplied values across nine readouts and 16 fixed contrasts, with independent
+workbook/Decimal checks. Figure 4C workbook-versus-PDF amplitudes remain unresolved;
+6E retains relative normalization and absent arms remain absent.
+
+[External feasibility](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXTERNAL_FEASIBILITY.md)
+returns a conditional X3 design and X4/X5 source/identity holds. X3's 50,785
+metadata barcodes join across 12 sample labels, but author state/QC mapping remains
+missing. X4 lacks matched culture files/donor joins; X5 lacks the source/donor/raw
+count inputs needed for a bounded human comparison. No external expression
+extraction occurred. X6 awaits eligible reviewed evidence.
+
+Freeze commits: X0 `01ad6f8451109bf423c931fd2a9136c451f3eba0`;
+X1/X2 `dd2da0b68d6c089e5c78cc1192bc789316de6026`.
+Original analyses, 11 receipts, caches, all canonical RQs and unfavorable findings
+are preserved. New receipts and exact validation/base status are in the
+[execution ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md).
+Validation passed: 158 tests (two skips), 12,148 repository checks, claim/archive
+verifiers, all three new receipts and the research gate against freshly fetched,
+unchanged main `8cb50dd`. A sandbox fixture-permission failure was resolved by
+rerunning only the test suite with approved local access.
+No scientific acceptance, governance change, Notion write, outreach or remote
+push/PR/merge occurred. Next: review checkpoint A and the specific X3 proposal
+before any new external numerical work.
+
+## Yadav extension plan authorized — 31 October 2026
+
+The owner requested an overall repo scan, additional plausible extensions and
+launch through the existing technical chat. The [new X0-X6 plan](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/README.md)
+preserves the original six-step closeout and every canonical question. A ledger-level
+scan covers all 32 RQs with targeted current-result reads, including local
+DY1/Niethamer evidence; no unrelated branch or primary-checkout changes were made.
+The final fetch now includes the inspected DY1 checkpoint through PR #153 on main.
+The [scan](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/REPO_SCAN.md)
+records exact revisions, duplication checks and limits. The
+[literature context](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/LITERATURE_CONTEXT.md)
+records actual primary-source searches, two 2026 preprints, the SCAHN source lead,
+retrieval receipts and unresolved donor/assay/source overlap.
+
+X0 source qualification, X1 fixed mixed-class RNA inclusion sensitivity and X2
+previously unreconstructed IL-6/ARG1 source panels were dispatched for frozen
+contracts from reviewed commit 653b3761fe77124ef6de619f9a3a608fe42b2844. The
+existing technical chat is confirmed active; checkpoint review is resumed every
+10 minutes under the updated extension scope, quiet while unchanged.
+X3-X5 may qualify source metadata now; each external numerical comparison returns
+for design review before extraction. X6 retains Wg-P06 substrate balance and a
+separate epithelial-output bridge. No new result, mechanism, human acceptance,
+canonical RQ, threshold or governance change is claimed. Existing source and
+spatial holds remain; one held branch does not stop independent feasible work.
+
+Planning starts from reviewed f3828f6; the final fetched main is
+8cb50dd15a12a41abc6d5edb36349d33fc512661. Local integration preserves both
+progress histories, every parent contract/receipt and unchanged canonical RQs.
+The integrated plan passed 12,069 repository checks and the research gate
+against current main (`ok: true`, no errors). Additive PROGRESS/registry
+conflicts were resolved by preserving both parent histories and all entries;
+the preservation check was corrected for optional evidence fields. No
+biological analysis was rerun for this planning/integration change.
+Exact jobs and reopening conditions are in the
+[execution/review ledger](Research%20Article/gate2_W3_yadav_2025/extensions_20261031/EXECUTION_LEDGER.md).
+No Notion write, remote push/PR/merge or author contact is authorized.
+
+## Yadav scoped analysis and coordination complete — 30 October 2026
+
+Final execution checkpoint `54daedccfab6be75ec5e378dfa3b3819502bffdd` passed
+technical review. The [current synthesis and full job ledger](Research%20Article/gate2_W3_yadav_2025/CONTEXT_AND_SYNTHESIS.md)
+close all six planned steps to the available-evidence boundary: claim/source
+qualification, F1-F5 functional reconstructions, R1 descriptive RNA, S1 published
+spatial marginals, C1 portability and the unchanged Wg-P06/thesis synthesis.
+The [review ledger](Research%20Article/gate2_W3_yadav_2025/REVIEW_LOG.md)
+records exact source commits, frozen evidence, independent checks and integration.
+
+Final review verified 11 S1 receipt-linked hashes, three frozen contract/code
+comparisons and all 12 newly cached source hashes. An independent OOXML read
+matched all 18 spatial values, both summaries and the 0.1470457 marginal mean
+difference. Supplemental participant rows independently confirm shared imaging
+source material. Tagged Squidpy code and primary context records support the
+documented limits. Earlier reviewed evidence and tests remain valid and retained.
+
+Held work has specific reopening requirements: patient/field/paired-result maps
+and exact raw spatial objects/categories/code; independent donor/preparation and
+normalization records for stronger population effects; qualified versioned inputs
+and a selected design for context analyses; actual joint substrate/routing and
+functional measurements for Wg-P06; separate epithelial/tissue-function evidence
+for regeneration. These are evidence/design holds, not failed eligibility made
+to pass. No feasible authorized job remains. Scientific acceptance is unassessed;
+canonical RQs and claim grades are unchanged. No remote publication or Notion write.
+
+Both worktrees, both ignored execution source caches and all frozen outputs are
+preserved. Main was freshly fetched at 28fb61015f9b921f591e41ff26010a960c305947.
+Final integration passed 11,829 repository checks and the current-main research
+gate (`ok: true`, no errors). Scheduled checkpoint review can now be paused.
+
+## Yadav spatial/context and synthesis checkpoint - 30 October 2026
+
+Completed the remaining bounded steps 5-6 after technical approval of d7e3dd7.
+[Current article closeout and full job ledger](Research%20Article/gate2_W3_yadav_2025/CONTEXT_AND_SYNTHESIS.md)
+record completed S1 marginal description, C1 provenance/portability and the
+unchanged Wg-P06/thesis synthesis. All F1-F5/R1 results and mixed-cell/unit limits
+remain. No canonical RQ, hypothesis, rival, claim grade or scientific decision changed.
+
+S1 retained all 18 Fig. 5B workbook values under a new frozen contract at 294a28b:
+marginal means 1.024680 and 0.877634; difference 0.147046. Independent original-XLSX
+checks passed. No pairing, patient-effect precision, spatial statistic or null
+was inferred. The [source audit](Research%20Article/gate2_W3_yadav_2025/SPATIAL_CONTEXT_AUDIT.md)
+records actual primary URLs/date/outcomes/hashes, recovered participant/probe
+tables, Squidpy 1.5.0 cumulative radius and aggregation details, unresolved
+category/legend conflicts and exact raw-reconstruction reopening conditions.
+
+C1 separates seven source contexts. Strunz whole-lung and epithelial data,
+Tsukui's mesenchymal enrichment/pooled tagged libraries, BAL mixtures and Salcher
+capture/version/parent-source reuse cannot substitute for matched Yadav evidence.
+Browser failures and a Tsukui XML HTTP 500 remain logged; alternative primary
+metadata recovered usable definitions. No new atlas counts or expression scans.
+No feasible work remains inside this authorized checkpoint; raw spatial,
+stronger population/context effects and joint substrate/epithelial-function
+questions remain held on the specific evidence listed in the current ledger.
+
+Validation passed: 11,818 repository checks, base-aware research gate, S1 receipt
+verification, new-script compilation and independent workbook arithmetic. All 76
+declared Yadav outputs are tracked, including PDFs. Fresh main remains
+28fb61015f9b921f591e41ff26010a960c305947. The approved d7e3dd7 regression suite
+(158 tests, two skips) and saved-evidence verifiers were reused: shared code,
+earlier numerical outputs and governance are unchanged.
+Preserve this worktree and both ignored raw source caches. Review branch integration
+is handled separately; no rebase, Notion write, push, PR, remote merge, account
+setting change or external message was performed here.
+
+## Yadav functional/RNA checkpoint reviewed; final context jobs authorized — 30 October 2026
+
+Reviewed execution commit `d7e3dd78eecde213387e14e40142fa595c209177`.
+F1-F5 retain 230 source slots (229 values and the 5D D2 blank), 53 groups and
+35 fixed contrasts. Full count integrity and fixed conservative annotation cover
+12,519 barcodes in six libraries. R1 reports only library-level Arg1/Il6
+descriptions; macrophage-like Arg1 is lower in KO cocultures, whereas fibroblast-like
+Il6 KO-versus-WT crossed differences have both signs. Unknown preparations and
+large mixed/other fractions prevent population or mechanistic inference. The
+mouse hydroxyproline Welch mean-difference interval includes zero; it estimates a
+different quantity from the published rank test and does not establish equivalence.
+
+Review verified 101 unique receipt-linked hashes, 35 frozen contract/code byte
+comparisons, 70 tracked outputs, all 24 RNA contrasts and 96 crossed differences.
+The original workbook/raw-vector checks and required tests remain valid and were
+reused. All 123 checkpoint paths are scoped; only Yd1 registry evidence/contracts/
+receipts changed. See the [review ledger](Research%20Article/gate2_W3_yadav_2025/REVIEW_LOG.md)
+and [results](Research%20Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md).
+
+Next authorized checkpoint: bounded S1 spatial source/definition qualification
+and, if informative and label-qualified, separately frozen marginal Fig. 5B
+source summaries; C1 source-reuse/portability matrix; article-local Wg-P06/thesis
+synthesis and complete per-job dispositions. Raw spatial reconstruction, patient
+pairing/precision, independent-preparation RNA effects, substrate routing and
+epithelial repair retain explicit evidence/design holds. No new atlas scan or
+canonical question change is authorized. Preserve both worktrees and the immutable
+source cache. No external write or scientific acceptance occurred.
+
+Current main was re-fetched at `28fb61015f9b921f591e41ff26010a960c305947`.
+Integration passed 11,789 repository checks and the current-main research gate.
+The next execution checkpoint is active (cursor
+`51593419-65e5-454d-96df-3e67caaaccb8:13`).
+
+## Yadav functional and RNA technical checkpoint - 30 October 2026
+
+Completed the selected F1-F5 source reconstructions, full-entry integrity for all
+six GSE242510 libraries, conservative annotation and the fixed R1 RNA descriptions.
+[Results and current job ledger](Research%20Article/gate2_W3_yadav_2025/TECHNICAL_RESULTS.md)
+link all frozen contracts, receipts, source values, contrasts and
+[figures](Research%20Article/gate2_W3_yadav_2025/FIGURES.md). No canonical RQ,
+governance rule, claim grade or scientific acceptance changed.
+
+All 230 functional source slots are retained (229 values, one missing 5D D2).
+The mouse hydroxyproline mean-difference interval spans zero. All 12,519 RNA
+barcodes remain in saved labels/QC data. Both fixed masks retain lower
+macrophage-like Arg1 in KO versus WT coculture libraries, while fibroblast Il6
+KO-minus-WT differences vary across libraries. Preparation/pooling/pairing remain
+unknown; mixed cells and macrophage-compatible cells in fibroblast-only libraries
+limit interpretation. These are source/library descriptions, not independent
+replication or population DE.
+
+Independent workbook arithmetic and all-cell RNA target-vector checks passed.
+A display-only v2 run fixes crowded labels and tick marks without overwriting
+original figures or rerunning biological analyses. Validation passed: 11,782
+repository checks, 158 tests (two skips), compilation, claim bindings, all required
+saved-evidence verifiers and the base-aware research gate. All 70 declared Yadav
+outputs, including PDFs, are tracked; current article links resolve. Fresh main
+remains 28fb61015f9b921f591e41ff26010a960c305947. Frozen receipts/code/output
+hashes passed; no historical biological analysis was rerun.
+
+S1 spatial, C1 reused-context qualification and final Wg-P06/thesis synthesis
+remain pending review, not abandoned. Next: review this checkpoint and select the
+next bounded step; resolve the documented source dependencies before stronger
+inference. No external settings changed. Original and review worktrees are
+untouched; preserve this execution worktree and its ignored raw-data cache.
+No push, PR, merge, Notion write or other-chat message was sent.
+
+## Yadav source checkpoint reviewed and next jobs approved — 30 October 2026
+
+Reviewed execution commit `d1d367735cea9b3830546bf4440b8efc304c77f0`
+against the exact contract/code, receipt, source labels and source-qualification
+report. Fourteen input/code/output hashes and two frozen contract/code checks
+passed; unrelated registry records, canonical questions and protected paths are
+unchanged. The scoped Git attributes preserve bytes/empty TSV fields and do not
+alter research gates. The spatial Methods category duplication was independently
+confirmed against the supplied PDF pixels.
+
+The [review ledger](Research%20Article/gate2_W3_yadav_2025/REVIEW_LOG.md)
+records technical approval for bounded source-value reconstruction and subsequent
+library-level RNA description. Patient slice maps, independent preparation/pooling
+identities, raw normalizers and raw spatial inputs retain their specific holds.
+No scientific acceptance or mechanism/flux conclusion follows.
+
+Integration passed 11,686 repository checks and the base-aware research gate.
+The executor's required tests/evidence verifiers remain valid and were not repeated.
+Its next turn is active (cursor `51593419-65e5-454d-96df-3e67caaaccb8:6`).
+Next executor checkpoint: separately
+frozen functional source reconstructions (F1-F5, including F2 donor combinations
+and optional 6G) followed by full count-entry QC and bounded R1 description if
+annotation qualifies. Preserve every value/blank and report failures; no population
+inference from wells, slices, cells or unverified preparations. No external write.
+
+## Yadav first source-qualification checkpoint - 30 October 2026
+
+Completed steps 1-2 in the isolated execution worktree. The
+[source qualification report](Research%20Article/gate2_W3_yadav_2025/SOURCE_QUALIFICATION.md)
+records the claim/assay map, all source locators, per-job eligibility and exact
+remaining unit holds. Frozen metadata run Yd1_source_qualification_v1 executed
+from commit `6753251515c1c2f1b0aea18997b526b30c107d5c`; scientific acceptance is
+unassessed. The registry adds only article-local Yd1-P01, its contract and receipt,
+with all unrelated records and formatting preserved.
+
+Recovered seven hashed inputs, 34 workbook sheets and six GEO count triplets.
+Independent reading verified all 1,429 populated workbook cells. Panel and workbook
+resolve S3C as a coculture rescue while retaining its conflicting legend. Fig. 3K
+remains metabolite abundance. Donor-pair labels support bounded human coculture
+description; PCLS patient maps and GEO independent preparations/pooling/pairing
+remain unknown. Spatial raw inputs and a duplicated Methods cell-class label hold
+raw spatial reconstruction. Fig. 5D's missing donor-1 monoculture point is retained.
+
+No dependent effect analysis, canonical RQ, existing result, governance or acceptance
+status changed. Inputs remain in ignored `raw_data/Yd1_source_v1` in the execution
+worktree; preserve it. Original checkout PROGRESS edits and review worktree are
+untouched. No remote write or external setting changed. Next: review this checkpoint,
+select bounded eligible jobs, then freeze separate numerical contracts. Do not
+infer missing units from rows, library suffixes or accessions.
+
+Validation passed: 11,683 repository checks, the base-aware research gate,
+158 tests (two skips), compilation, claim bindings and every required saved-evidence
+verifier. Receipt verification and independent workbook checks passed. The first
+base-aware gate rejected a root-attributes addition because historical Choi
+contracts hash that file; exact bytes were restored and new attributes scoped to
+Yadav only. The affected checks then passed. Fresh main remains
+`28fb61015f9b921f591e41ff26010a960c305947`; no scientific run was repeated.
+
+## Yadav source checkpoint interrupted and resumed — 30 October 2026
+
+The execution chat stopped with a model-capacity system error before delivering
+its first source-qualification checkpoint. Its separate worktree exists at
+`C:/Users/dream/.codex/worktrees/yadav-technical-analysis-20261030/ravel` on
+`codex/yadav-technical-analysis-20261030`, still based on `90273d0`.
+The chat reports recovered public workbook/count inputs and a prepared metadata
+contract with passing preflight; these are partial, not yet reviewed results.
+
+Sent an authorized continuation with unchanged model/settings, preserving all
+inputs and partial work. Requested a scoped registry diff instead of formatting
+churn, inspection for existing runs before retry, and a committed qualification
+report/eligibility ledger before effect analyses. No scientific result was
+integrated or accepted. Next: inspect that stable checkpoint and actual evidence.
+The heartbeat remains active. Last observed cursor:
+`51593419-65e5-454d-96df-3e67caaaccb8:2`. No repository analysis or tests were
+rerun for this coordination-only entry; previous checks remain valid.
+
+## Yadav execution chat and continuing review launched — 30 October 2026
+
+The owner authorized a separate technical chat and continuing stepwise review
+until all scoped jobs are completed or have concrete evidence-backed holds with
+no feasible authorized work remaining. The validated proposal is committed at
+`90273d0a1f5a0b23c6fa65a8b320d7efdb349070`; fetched main remains `28fb610`.
+
+Execution chat: `01a18ba9-2ee9-72d0-a6f0-2c77bf838a75` (local). It is active and
+was instructed to create its own scoped worktree from that exact handoff, preserve
+the original/review checkouts, and return a stable source-qualification checkpoint
+before dependent effect analyses. The first review requires the supporting-values
+workbook/replicate map, GEO specimen/preparation evidence, ambiguity resolutions,
+and a per-job eligible/held ledger with contracts and receipts where required.
+
+Heartbeat `review-yadav-analysis-checkpoints` is active every ten minutes in this
+review chat. It checks progress, reviews exact artifacts, sends authorized feedback
+and successive bounded jobs, and continues independent eligible work despite
+branch-specific holds. It reports meaningful changes only and pauses on final
+reviewed disposition. Last execution cursor: `51593419-65e5-454d-96df-3e67caaaccb8:1`.
+
+No numerical result has yet been delivered or accepted. Next: review the executor's
+first committed checkpoint, then authorize eligible reconstruction jobs or request
+specific repairs. Previous proposal validations remain valid; this coordination
+entry changes no analysis, scientific claim or governance. No remote publication,
+Notion write or external message outside the authorized execution chat occurred.
+
+## Yadav reading synthesis and analysis proposal — 30 October 2026
+
+Checked current main, the supplied article/supplement and owner-provided reading
+context. Added the [Yadav evidence card and six-step plan](Research%20Article/gate2_W3_yadav_2025/README.md),
+and reconciled stable paper 16's roadmap status with confirmed completed reading.
+The plan starts with source/biological-unit qualification, then selected functional
+reconstruction, bounded coculture RNA and conditional spatial/context comparison.
+It connects to existing Wg-P06 without changing its hypothesis or any canonical RQ.
+
+Source limits include few independent human donors, unknown GEO specimen/pooling
+maps, unavailable raw spatial inputs, and the distinction between Fig. 3K metabolite
+abundance and unverified tracer/flux language. Workbook contents remain uninspected
+after a failed web retrieval; the supplement was successfully retrieved and checked.
+All prior source results, unfavorable findings and acceptance statuses are preserved.
+No biological analysis ran, and no Notion page or external setting was changed.
+
+The original checkout remains at `78320a1` with its pre-existing PROGRESS edit intact.
+This scoped proposal starts from fetched main `28fb61015f9b921f591e41ff26010a960c305947`.
+Validation passed 11,661 repository checks, the base-aware research gate, claim
+and required saved-evidence verifiers, compilation and 158 tests (two skips).
+Hash-locked published Choi outputs were restored without an analysis rerun.
+Main was re-fetched and remains `28fb610`; changes are local and uncommitted.
+Next: recover the supporting-values replicate map and GSE242510
+specimen/preparation metadata, then qualify the first
+numerical contrast under a versioned research contract. Execution is proposed,
+not completed or automatically accepted.
+
 ## DY1 figure gallery integrated — 31 October 2026
 
 Integrated reviewed rendering handoff `5aa6e08cb89e4df9a866d757c8f6afe6ad1023be`

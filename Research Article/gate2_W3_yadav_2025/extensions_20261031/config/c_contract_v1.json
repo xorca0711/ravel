@@ -1,0 +1,551 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Yd1-P01.extension_c_v1",
+  "owner": "Yd1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do the Gupta2020 first source and Wigerblad2022 sole fallback provide exact source/sample/preparation, feature and retained-state/target-zero support for a bounded human-neutrophil description?",
+  "decision": "Return one conditional Gupta source-grounded description with exact execution holds, and the sole fallback eligibility limits; do not extract expression or silently remove state requirements.",
+  "strongest_rival": "Treating raw droplet barcodes, mixed preparation libraries or distinct accessions as retained neutrophils, independent donors or complete target-zero denominators.",
+  "discriminator": "Verify actual GEO parent/subseries relations; join GEO samples to BioSample and SRA experiments/runs; inventory listed files; inspect only separate Gupta gene-feature exports and preserve unknown retained-state and participant joins.",
+  "evidence_refs": [
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/README.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/REVIEW_B.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/CHECKPOINT_B_RESULTS.md",
+    "Research Article/gate2_W3_yadav_2025/extensions_20261031/EXTERNAL_FEASIBILITY.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published primary Results, reported cell-state labels, GEO series/sample attributes, preparation schemas, file sizes and representative BioSample/SRA fields were read before freeze. Existing SCAHN source rows and Yadav outcomes are exposed. New gene-feature files acquired but target matching not yet executed. No target-expression query, matrix, H5, raw reads or classifier accessed.",
+  "biological_unit": "Published healthy volunteers; exact participant-to-GSM/cross-preparation/cross-study joins unresolved. Libraries and sequencing runs are nested observations, not independent donors.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Gupta and Wigerblad already contribute to SCAHN. Distinct BioSample/SRA accessions do not establish participant independence. Wigerblad mixes whole-blood, granulocyte and purified-neutrophil preparations; title tokens are unverified donor clues.",
+  "population_and_selection": "All seven GSE145230 and nineteen GSE188288 reported sample records, corresponding BioSample/SRA metadata, complete two-series file listings and seven small Gupta feature-only exports. Gupta selected first on source completeness; Wigerblad sole fallback, not chosen by target outcomes.",
+  "contrast": "Metadata availability and source/unit joins only. A conditional raw-count/state description is specified for review but not executed.",
+  "endpoint": "Exact source/sample/library/preparation maps, public attributes, file byte sizes, original-reference target feature membership, unknown author cell/state assignments, target-zero denominator and overlap holds.",
+  "methods": "Parse GEO key/value metadata and BioSample XML, join SRA run-info by experiment/BioSample, inventory exact source file sizes, and match fixed ARG1/IL6R symbols in separate feature exports. Blank unavailable values remain unknown. No expression input is opened. Independent raw-source/feature/file-size reread precedes interpretation.",
+  "missingness_and_exclusions": "All source samples and file listings retained. No author retention/state barcode export recovered; raw barcode files are not assumed cells. Wigerblad feature availability is unknown because only expression-bearing H5 is listed. No labels, donor links, fresh/frozen handling, time or capture coverage inferred from absence.",
+  "multiplicity": "Not applicable: source metadata and availability only, no biological effect tests.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No population effect estimated. Eligibility and metadata counts are not power calculations.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Feature membership proves an assay reference entry, not transcription, protein or functional competence. Missing annotations or unmeasured genes cannot be zero-filled. Raw cell-calling differences and preparation effects limit transport; no pooled study effect, population test, secretion, lineage or IPF repair claim.",
+  "stop_rule": "Stop after this bounded two-lead metadata pass and reviewable conditional design/holds. No expression calculation, new classifier, additional atlas studies or silent reduction of the state question. Reopen with exact retained-cell/state/denominator and unit/preparation evidence plus numerical design/resource review.",
+  "inputs": [
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/c_export_search.txt",
+      "sha256": "b22fdacaaaa6a7a22d993ed53e35bfcec527ea93fd9234913a97ab9267deb2fb",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/c_final_methods.txt",
+      "sha256": "f898a0aa4062e82032c23224ed5898a9d7c74fb18679a536dc3c5f2ae3359c94",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/c_initial_web.txt",
+      "sha256": "a4e8266049eb7c76b135f1a2ae194f616c7d6b9bdd756994a2b7af6eff5f3837",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/c_pdf_index.txt",
+      "sha256": "7ef9ed96674d57162c767f08ea81cd32dcc8bed70be51cd84f25116325ce8d0b",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/c_primary_open.txt",
+      "sha256": "3410ba2c533d8c4d4e47424000ac34cf7d3ad7212ef3805ec94327f7d13a36f8",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/c_targeted_methods.txt",
+      "sha256": "28b066cc5b9b9e45d38cae1bfcb6d935340fb3ab0e0b98a7ba289852dc674bcb",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE145230.txt",
+      "sha256": "a25840a4520a447e1f35573d0b15e78c778b71221e46aca6a4626a8cd361f51a",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE145230_biosamples.xml",
+      "sha256": "4a0e557d7f42e25742b059e3fb0f0c2d9260cd1935933bea459cbdff29f390fa",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE145230_filelist.txt",
+      "sha256": "0cb6946b10387a5a76c69240002268333d3e804a4442004c1e3ea666c6a43199",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE145230_runinfo.csv",
+      "sha256": "0eeab592e07e604fbc89a6289bf923a2b21fa473bb35f78f2bc51c906e51d754",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE145231.txt",
+      "sha256": "6fe2961f38555638ee2f5ac77f4066162387443e9c5b2cea245266b930556c11",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE188288.txt",
+      "sha256": "5d3917d76771ec81a92e9408bbf9e5793fffee32431c89699701286e01930c66",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE188288_biosamples.xml",
+      "sha256": "69c0a035cc92b363f3ebd0d579321a6c006c57bf98fe8ead241a1b9a4d6e8c7f",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE188288_filelist.txt",
+      "sha256": "80dae007675e5e7f3c31d3e0ca31a3e93115c0f1198b521ef8fbd9630ba44b8b",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSE188288_runinfo.csv",
+      "sha256": "f9b77a1309f32e08ce5a913243b3ee0c71aa334f62ff1df1cbf610a377437e65",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308702.txt",
+      "sha256": "09a0f24292c34819bb3197d9b5d16a6e475c408f9cb78ceb551d402ebe66cd38",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308702_scRNA_Male_WBL_01_genes.tsv.gz",
+      "sha256": "83f4901c2894d9406a002a960bd4f97e015aae810133ba6b8dd4a211367afef9",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308703.txt",
+      "sha256": "0f28d0befdcab886eabfd36a84ad2cbb2f043a47e51845f67fec4b81328864cb",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308703_scRNA_Male_WBL_02_genes.tsv.gz",
+      "sha256": "bebf4af3ebef1a1311114cc3d9a60e891b290f5c2d5eb58479da1cbe4a1a7dea",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308704.txt",
+      "sha256": "ef17e4ea0e70f522f1c479f5b4a1edbcbe37d506a096192e0134b90c043f464c",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308704_scRNA_Male_WBL_03_genes.tsv.gz",
+      "sha256": "df0c44e54c2d09bfcbe0fc0ee40aaf94f469ecb7c99a097762666ed24f665fe4",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308705.txt",
+      "sha256": "0a8cff153d3db50b1251f414a211302dbe73040a7cb4e76dd39d93d28861bb12",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308705_scRNA_female_WBL_01_genes.tsv.gz",
+      "sha256": "d8f0b0a4e375fc7a0af28eada05509efca12748b34b3e82fae711f6a708ce07b",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308706.txt",
+      "sha256": "aaf1e49b62c21c9d0d2413526b35f9599bbea6790fee4279cc4493ec9fa54d25",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308706_scRNA_female_WBL_02_genes.tsv.gz",
+      "sha256": "5872ec8b40013c6febe557adf588ea28e20aeb56e88c7ba1c652cded56cc6ae2",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308707.txt",
+      "sha256": "740a95b98f9fdb9e8e117738c7a5007d3ba2d1e53d77fbd0d1ae7554cb02dee7",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308707_scRNA_female_WBL_03_genes.tsv.gz",
+      "sha256": "03a95906352eb90cba934529aa5429a4fe4e020f8b43062c62e889ac9e598682",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308708.txt",
+      "sha256": "cfe7d65c4271ba40150bc9d59c2eca440418fcf8186370a2a7d50428b63df721",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM4308708_scRNA_female_WBL_04_genes.tsv.gz",
+      "sha256": "7efbcbafd36e785b5422c6949f79a3cb2dc8eb60b0c2ed753b0f03cde66d9596",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676972.txt",
+      "sha256": "23c96086130bf5099b5312796b286156c3e5841dd712633b4b8e913fd3b18e32",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676973.txt",
+      "sha256": "85de2788620edfd1f9b61465bec073815fb0c7f601325341638fde29b9bf2600",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676974.txt",
+      "sha256": "9826ddf7d7f4f2264c2f06042162f1c06a87ec5e1381a30df7b4054e85ff5573",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676975.txt",
+      "sha256": "c789922edff2f53d1fd6337fed0bbe03a53f9ad3c2fd8f6ae1e5c7c808c9f131",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676976.txt",
+      "sha256": "fd1bd0cc2e555466e4fc22a1920e6df63958c832850b4d50333b68786651f2e7",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676977.txt",
+      "sha256": "4f67ee0b1a3ff19dc48d4d9ff49edc74e9be7a7d355d1be563c0581fcce72459",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676978.txt",
+      "sha256": "a029f884e16a27c479fc389bed1a115e77d2b4327c8cd410c3f5c6447bda5ea8",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676979.txt",
+      "sha256": "4869d59afaa1a888b14c6f26bf676df93aef2faf4c1d9b25c09c790e65505b9c",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676980.txt",
+      "sha256": "95207edcb4793368f70dd4f4a770c4b6ef7d1086539c7aa055d9985ec5613f7e",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676981.txt",
+      "sha256": "c834cba2e2707216319d364bd552248c7ef7fa7df9c1c5776d53fcaf613e9e1a",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676982.txt",
+      "sha256": "978b1d597ea1b1236e66dfdc548c0994f409c2af26c3bd64c0f59be7189ca76f",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676983.txt",
+      "sha256": "4e371a189ef01b07c022a4aacc97a3a746758f8a32e09310033fffddd0dbc2da",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676984.txt",
+      "sha256": "7ad1aa6a489b237099ef19e0441f2fc3d3a9431914f364018746885ccf6d9f28",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676985.txt",
+      "sha256": "09166ce9b922f8c29a27dc23f1ce1c612a6059c513814f971e73ef868a2d3a1f",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676986.txt",
+      "sha256": "8270586faaf22b92eed848175dc0f68f111becabe43fa8ffaaaf8ce4f579257d",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676987.txt",
+      "sha256": "8b788187f1b00c8891309a166acb9b91caa2da79ed687a7ed56bc3850f103c74",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676988.txt",
+      "sha256": "8c630b06e0e31bfd040e52ecfe4d38859ba24c31860711c37979378ad48df060",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676989.txt",
+      "sha256": "e61d1be95374922ec9629dae4f63c6319f2885879485f340fd14f3d631b93d65",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/GSM5676990.txt",
+      "sha256": "5a8ea47a773819b0507e0317c0c5ec606654910d34a98142a08a4856ea0a9e8c",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/PMC7368314_bioc.xml",
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/retrievals_v1.json",
+      "sha256": "75e59f6a3cb354733c297c9b4338b6f040e171cdfccbbc696bda69a2866993cf",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/retrievals_v2.json",
+      "sha256": "b99e99cd785b5f34f05524ccbd1ef4049f4f84bb4943012421ef5bb3d33290cd",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/retrievals_v3.json",
+      "sha256": "b183c1243a159e460b150dcfaf2637326baac1122b94b252b6177661556b64c2",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Yd1_checkpoint_c_20261031/source_access_scope_v1.json",
+      "sha256": "bf6f8872d7020dd85305ac0b0612438d19bac52a8e8cb34893a07cbbf51e7b83",
+      "study_id": "Yd1_checkpoint_C_two_sources",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/qualify_c_v1.py",
+      "sha256": "354875ac46f75bfa9f7e3e7e51aab5cf2f87985b131af94a14cb979fabdee613"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/common_v1.py",
+      "sha256": "fb8f25fc1c9cfacbbbb91ae94f33bb381737f9ec74fc80861affae0cd117ffbc"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/verify_checkpoint_c_v1.py",
+      "sha256": "d0a7e48c3858bdca89c9c5a7e19c29d14c749b5671a830a461bc6e1f66e551c5"
+    },
+    {
+      "path": "Research Article/gate2_W3_yadav_2025/extensions_20261031/config/checkpoint_c_spec_v1.json",
+      "sha256": "445739a22090a78c29c903ba371d2446fec13e9520fd206fda8cb63c66ad1bcd"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_W3_yadav_2025/extensions_20261031/scripts/qualify_c_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "series_relations.csv",
+    "sample_library_map.csv",
+    "biosample_attributes.csv",
+    "sequencing_run_map.csv",
+    "file_inventory.csv",
+    "target_feature_support.csv",
+    "state_denominator_coverage.csv",
+    "source_decision.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Authorized checkpoint-C continuation; preserves X0/B1/B2 and every frozen output."
+}
