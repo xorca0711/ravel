@@ -1,5 +1,22 @@
 # Current project state
 
+## Saxton recipient-transcript description requested — 31 October 2026
+
+After the completed X1–X3 audits, the owner requested extension analysis.
+The [new E1a plan](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/README.md)
+defines a narrower descriptive endpoint in the existing Choi P001 saved matrix:
+two prespecified receptor transcripts, reported by library and literal pipeline
+label with transparent denominators. It does not reopen engineered-cytokine
+comparisons, infer responses or treat pooled cells as animal replication.
+Persistence/function questions retain their missing-linkage limits.
+
+Current branch `codex/saxton-recipient-context-20261031` starts from reviewed
+extension commit `cb4e4b4`; fresh main remains `4df267d`. The exact source H5AD
+exists and its historical review records pooling and incomplete state recovery.
+Next: technical C0 qualification, prospective C1/C2 contract/run, C3 figure/source
+review, then originating review and local integration if eligible. Nothing new
+has executed at this checkpoint; no external setting or scientific acceptance changed.
+
 ## Saxton extensions reviewed and integrated locally — 31 October 2026
 
 The existing technical chat completed handoff `7d88aa3`, following frozen
