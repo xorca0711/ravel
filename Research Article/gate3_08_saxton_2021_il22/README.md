@@ -1,10 +1,15 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
-**PR integration, 1 November 2026:** [PR #155](https://github.com/xorca0711/ravel/pull/155)
-includes the reviewed recovery, X1–X3 source audits and E1a descriptive extension
-with its corrected figure. PR inclusion does not mean merge to main or human
-scientific acceptance. The original treatment/response and linked-function
-analyses retain their recorded holds.
+**Gallery update, 1 November 2026:** the [combined figure gallery](FIGURES.md)
+brings together R1 library QC, X1 identifier QC and the E1a descriptive transcript
+figure, with source tables and interpretation limits. It is linked directly from
+the repository root and the paper gallery index. The two QC figures visualize
+already-reviewed tables; they do not add biological analyses.
+
+[PR #155](https://github.com/xorca0711/ravel/pull/155) merged the reviewed recovery,
+X1–X3 source audits and E1a extension into main at `41dc127`. The gallery/navigation
+follow-up preserves the original treatment/response and linked-function holds;
+neither merge nor execution implies human scientific acceptance.
 
 **Reviewed recovery closeout, 31 October 2026:** the bounded metadata/source/documentation
 review passed [originating review](REVIEW_2026-10-31.md) and is integrated locally.
@@ -14,7 +19,7 @@ plan below remains historical, including its broader authorization language.
 
 [Results](RESULTS.md) | [Complete hold ledger](COMPLETION_LEDGER.md) |
 [Independent R1 review](R1_REVIEW.md) | [Source correction](SOURCE_CORRECTION_2026-10-31.md) |
-[E1/E2 source feasibility](SOURCE_FEASIBILITY.md) | [Evidence index](FIGURES.md) |
+[E1/E2 source feasibility](SOURCE_FEASIBILITY.md) | [Figure gallery and evidence index](FIGURES.md) |
 [Validation and handoff](VALIDATION.md).
 
 The later [source-readiness extensions](extensions_20261031/RESULTS.md) report

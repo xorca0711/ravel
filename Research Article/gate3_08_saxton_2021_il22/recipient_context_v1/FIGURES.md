@@ -1,5 +1,10 @@
 # E1a descriptive figure and tables
 
+This extension has **one current figure with three panels**. For the additional
+R1 library-QC and X1 identifier-QC figures, open the
+[combined Saxton article gallery](../FIGURES.md). PNG and SVG are alternative
+formats; the preserved v1 image is a superseded rendering of the same results.
+
 **Current presentation: rendering v2.** [Results](RESULTS.md) ·
 [Display amendment](RENDER_AMENDMENT_V2.md) · [Validation](VALIDATION.md).
 

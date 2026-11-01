@@ -1,0 +1,20 @@
+{
+  "scope": "Render-only technical QC from reviewed immutable tables",
+  "r1_library_order": [
+    "PBS_1",
+    "PBS_2",
+    "LH5_1",
+    "LH5_2",
+    "LH30_1",
+    "LH30_2"
+  ],
+  "r1_metric_values": 18,
+  "x1_category_values": 9,
+  "x1_repeated_labels": 52,
+  "x1_annotation_rows": 122,
+  "x1_dimensions_overlap": true,
+  "animal_identity": "unknown",
+  "svg_whitespace": "Normalized in memory before first write; XML parsed before output hashing",
+  "matplotlib": "3.11.1",
+  "scientific_acceptance": "not_assessed"
+}

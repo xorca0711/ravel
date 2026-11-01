@@ -1,5 +1,31 @@
 # Current project state
 
+## Saxton combined gallery and root navigation — 1 November 2026
+
+The owner reported missing root navigation and only one figure on the extension
+page. The E1a page contained one current three-panel transcript figure; its
+PNG/SVG formats and historical rendering are not separate results. The root and
+paper gallery index now directly link the [combined Saxton gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md),
+which adds two render-only visualizations of reviewed R1 library QC and X1
+identifier metadata. Both extension packages link back to the combined gallery.
+
+The existing technical chat froze the new render specification at `05fa2ff`
+before execution. Originating review independently matched all 16 hash bindings,
+18 library measurements and nine annotation-category values, and inspected both
+PNGs/SVGs. [Review and validation](Research%20Article/gate3_08_saxton_2021_il22/GALLERY_REVIEW_2026-11-01.md)
+record units, exact scope and checks. Existing numerical runs, E1a figures,
+canonical RQs, governance and all biological holds remain unchanged.
+
+PR #155 has merged into main at `41dc127`; this presentation correction uses a
+new scoped follow-up branch, `codex/saxton-gallery-navigation-20261101`. GitHub
+connector and CLI identity were verified as `xorca0711`. Combined-tree validation
+passed 12,833 checks and the base-aware gate with zero errors; 260 focused local
+link/image targets resolve and the gallery embeds exactly three distinct figures.
+Eight targeted and 158 shared tests (two skipped) passed in the unchanged
+technical handoff. Main remained `41dc127` after a fresh fetch. The follow-up PR
+carries live publication/review/CI status; merge to main remains a separate step.
+There are no new data requests, scientific holds or external setting changes.
+
 ## Saxton reviewed extensions added to PR #155 — 1 November 2026
 
 The owner authorized adding the reviewed extensions to the existing
