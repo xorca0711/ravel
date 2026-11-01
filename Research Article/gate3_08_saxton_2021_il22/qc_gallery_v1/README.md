@@ -4,6 +4,10 @@
 reviewed technical summaries visible as figures. It does not add biological
 findings or repeat the original analyses.
 
+**Completed locally:** two QC figures, exact plot-value tables and a verified
+[render receipt](../../../analysis/research/runs/sx22_qc_gallery_render_v1/receipt.json).
+[Validation and handoff](VALIDATION.md) records the freeze, checks and scope.
+
 ## Prospective render-only plan
 
 Question: how can the existing library and annotation QC quantities be displayed
@@ -48,7 +52,37 @@ The parent owns root/paper navigation, the article/E1a galleries and PROGRESS.
 Original R2/R3 and all biological execution holds remain unchanged. No new
 canonical RQ, scientific acceptance, push, PR creation or publication is included.
 
-## Execution status
+## Rendered figures
 
-Prospective at plan creation. Results, figure links and validation will be added
-after the committed rendering contract executes.
+The plan/code/contract were committed at `05fa2ff` before the single rendering
+execution. The run reuses reviewed quantities; it supplies no new treatment,
+functional or independent biological result. The prospective plan above remains
+the execution specification. Root/paper navigation and publication are separate
+parent-owned updates.
+
+### R1: technical library QC
+
+![R1 technical QC for all six source libraries](../../../analysis/research/runs/sx22_qc_gallery_render_v1/r1_library_qc.png)
+
+All six technical library records remain in source order. A shows total counts
+with exact integer annotations, B nonzero gene rows, and C the fraction of counts
+in the ten largest gene rows, displayed as a percentage. Treatment contrasts and
+animal-level inference are not supported by this figure; animal IDs remain unknown.
+[SVG](../../../analysis/research/runs/sx22_qc_gallery_render_v1/r1_library_qc.svg) ·
+[Exact values and display labels](../../../analysis/research/runs/sx22_qc_gallery_render_v1/r1_plot_values.csv).
+
+### X1: deposited annotation ambiguity
+
+![X1 repeated-symbol multiplicity and overlapping annotation dimensions](../../../analysis/research/runs/sx22_qc_gallery_render_v1/x1_annotation_qc.png)
+
+A partitions the 52 repeated labels into 48 labels with two records, three with
+three records and one with 17 records, spanning 122 rows. B shows six overlapping
+dimensions; every bar uses denominator 52. The zero chromosome-multiplicity
+category is retained explicitly. These are annotation cardinalities, not gene
+function, named-target priority or expression effects; the annotation release
+remains unknown. [SVG](../../../analysis/research/runs/sx22_qc_gallery_render_v1/x1_annotation_qc.svg) ·
+[Exact category counts and denominators](../../../analysis/research/runs/sx22_qc_gallery_render_v1/x1_plot_values.csv).
+
+The [render summary](../../../analysis/research/runs/sx22_qc_gallery_render_v1/render_summary.json)
+records source order, scope and prospective SVG handling. Original tables,
+receipts, figures, source reviews and biological holds remain unchanged.

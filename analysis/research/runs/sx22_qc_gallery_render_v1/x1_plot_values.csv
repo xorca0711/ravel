@@ -1,0 +1,10 @@
+panel,category,count,denominator,unit,source_key,display
+multiplicity,2 records per label,48,52,repeated symbol labels,repeated_symbol_multiplicity.2,48 / 52
+multiplicity,3 records per label,3,52,repeated symbol labels,repeated_symbol_multiplicity.3,3 / 52
+multiplicity,17 records per label,1,52,repeated symbol labels,repeated_symbol_multiplicity.17,1 / 52
+overlapping_dimensions,Multiple stable IDs,52,52,repeated symbol labels,repeated_symbols_multiple_stable_ids,52 / 52
+overlapping_dimensions,Multiple chromosomes,0,52,repeated symbol labels,repeated_symbols_multiple_chromosomes,0 / 52
+overlapping_dimensions,Multiple strands,4,52,repeated symbol labels,repeated_symbols_multiple_strands,4 / 52
+overlapping_dimensions,Multiple coordinate tuples,51,52,repeated symbol labels,repeated_symbols_multiple_loci,51 / 52
+overlapping_dimensions,Multiple biotypes,18,52,repeated symbol labels,repeated_symbols_multiple_biotypes,18 / 52
+overlapping_dimensions,Multiple descriptions,23,52,repeated symbol labels,repeated_symbols_multiple_descriptions,23 / 52
