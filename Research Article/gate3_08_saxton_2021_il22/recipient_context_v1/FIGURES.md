@@ -1,5 +1,12 @@
 # E1a descriptive figure and tables
 
+**Purpose: external-dataset feasibility.** This figure describes receptor-transcript
+capture in the Choi lung benchmark. Its link to Saxton is the motivation to examine
+recipient context; it does not measure a correlation with Saxton's signaling or
+gene-program results. The intended biological bridge remains unsupported because
+the required IL-22 exposure/response comparison is absent and Il22ra1 capture is
+very sparse. No new IL-22 mechanism follows from this figure.
+
 This extension has **one current figure with three panels**. For the additional
 R1 library-QC and X1 identifier-QC figures, open the
 [combined Saxton article gallery](../FIGURES.md). PNG and SVG are alternative

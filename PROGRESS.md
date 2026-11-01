@@ -1,5 +1,38 @@
 # Current project state
 
+## Saxton scientific-scope clarification — 1 November 2026
+
+The owner questioned the scientific increment and the connection of gallery
+Figure 3 to Saxton. Re-reading the current results, completion ledger, the owner's
+Notion Results/Discussion notes and primary Saxton text confirms: completed work
+is QC/source qualification plus a bounded external transcript description. No
+repository result reproduces STAT1/STAT3 signaling separation, downstream program
+differences or functional decoupling. Additional QC figures did not close that gap.
+
+The [combined gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md) and
+[E1a caption](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/FIGURES.md)
+now identify Figure 3 as external-dataset feasibility. Its receptor-context
+motivation is conceptual; there is no measured correlation with Saxton's results.
+Two single Il22ra1 counts and missing IL-22 exposure/response links do not support
+the intended mechanistic comparison. Sparse capture is not biological absence.
+All frozen evidence, existing candidates and recorded holds remain unchanged.
+
+Current primary-source checks included Saxton Figures 3–7/Discussion,
+[Cineus/Luo 2025](https://doi.org/10.1038/s41590-025-02149-z) Figure 4/results and
+the [Bachmann 2013](https://pubmed.ncbi.nlm.nih.gov/23153456/) record. Live searches
+on 1 November used `"Cineus" "IL-22" "2025" STAT3 receptor` and
+`"IL-22" STAT3 STAT1 chromatin epithelial response context 2024 2025`.
+This was a bounded interpretation check, not a complete novelty search or new RQ
+development. The records distinguish published context dependence from any future
+history/persistence question; no new analysis or formal question was launched.
+
+Base refreshed to `51d3b93`, which merged gallery PR #156. This local documentation
+clarification requires no numerical rerun; publication is not part of this
+assessment. Repository validation passed 12,835 checks and the base-aware gate
+passed with zero errors; the fresh base remained `51d3b93`. The outstanding scientific
+work remains the original unexecuted biological sequence, with its specific
+service/data limits in the existing ledger.
+
 ## Saxton combined gallery and root navigation — 1 November 2026
 
 The owner reported missing root navigation and only one figure on the extension

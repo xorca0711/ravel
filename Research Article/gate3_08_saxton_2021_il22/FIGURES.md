@@ -5,6 +5,12 @@ one descriptive transcript figure.** This gallery brings together the recovery,
 source-readiness extension and recipient-context extension. It does not present
 a treatment-effect or functional reproduction of the paper.
 
+**Scientific status:** no repository analysis has reproduced the paper's
+STAT1/STAT3 signaling separation or its distinct downstream gene programs.
+Figures 1–2 describe data readiness. Figure 3 is an external-dataset feasibility
+check with a limited conceptual connection to Saxton; three displayed figures
+do not represent three biological findings about IL-22.
+
 [Article and completion status](README.md) · [All paper galleries](../README.md#figure-galleries) ·
 [Repository root](../../README.md#figure-galleries-by-analysis-branch).
 
@@ -12,7 +18,7 @@ a treatment-effect or functional reproduction of the paper.
 |---|---|---|
 | [1. Library QC](#figure-1-library-qc) | R1; six deposited sequencing libraries | Count coverage and concentration diagnostics; animal identities remain unverified |
 | [2. Identifier QC](#figure-2-identifier-qc) | X1; deposited annotation rows and repeated symbol labels | Symbol ambiguity; no expression or biological target ranking |
-| [3. Observed transcripts](#figure-3-observed-transcripts) | E1a; retained cells within three pooled Choi libraries | Fixed transcript measurements with denominators; no animal-level response comparison |
+| [3. External-dataset feasibility](#figure-3-observed-transcripts) | E1a; retained cells within three pooled Choi libraries | Receptor-transcript capture in another study; no measured IL-22 response or correlation with Saxton's results |
 
 Each figure's PNG and SVG are alternative formats. Figure 3 has three panels;
 its historical v1 is a superseded rendering, not an additional result. X2 and X3
@@ -55,6 +61,15 @@ stable row identifiers; it does not validate the external annotation release,
 collapse genes or identify biological targets.
 
 ## Figure 3. Observed transcripts
+
+**External-dataset feasibility, not a Saxton reproduction or mechanistic result.**
+The rationale was to ask whether an existing lung dataset could support a
+recipient-context follow-up, motivated by Saxton's evidence that receptor context
+affects signaling. This is a conceptual connection, not a measured correlation.
+The Choi data provide no controlled IL-22 exposure comparison, paired receptor
+protein/STAT activation measurements or linked IL-22 functional outcome. The
+very sparse Il22ra1 capture does not qualify this dataset for that intended
+mechanistic comparison. It also does not demonstrate lack of biological responsiveness.
 
 ![Observed Il22ra1 and Il10rb counts, with retained-cell denominators and literal pipeline labels](../../analysis/research/runs/sx22_e1a_render_v2/recipient_transcripts_v2.png)
 
