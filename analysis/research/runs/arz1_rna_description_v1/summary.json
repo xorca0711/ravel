@@ -1,0 +1,17 @@
+{
+  "analysis": "Arz1.rna_description_v1",
+  "n_libraries": 7,
+  "n_common_rna_ids": 31950,
+  "n_contrasts": 4,
+  "n_cases": 4,
+  "n_gene_contrast_rows": 511200,
+  "n_panel_rows": 128,
+  "target_mapping_holds": [],
+  "rna_qc_mapping_available": true,
+  "rna_qc_definition": "source mt- symbol prefix; 200<=detected<=2500, RNA>=500, mitochondrial fraction<=0.40; all source RNA genes",
+  "empty_or_unavailable_qc_libraries": [],
+  "denominators": "all source RNA genes, not common reporting genes or ATAC",
+  "transformation": "log2(CPM+1) after pooled normalization or equal-barcode averaging",
+  "biological_independence": "unknown",
+  "scientific_acceptance": "not_assessed"
+}
