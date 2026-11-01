@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Arz1.rna_description_v1",
+  "owner": "Arz1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do eight source-selected inflammatory RNA directions recur in four fixed deposited-library post-injury/control contrasts, and how do barcode-depth weighting and source-derived RNA-only QC change them?",
+  "decision": "Describe all fixed results and sensitivity without accepting a within-state, memory, pathway or population claim; keep original Q3/Q4/Q6 holds distinct from Q3a/Q5a execution.",
+  "strongest_rival": "Sorting, lineage/genotype, composition, depth and processing explain whole-library differences without persistent within-state expression. Unknown pooled biological identities preclude population inference.",
+  "discriminator": "Compare all-source RNA-denominator pooled CPM with equal-barcode mean CPM, transformed only after averaging, and the source RNA-only QC subset. Differences identify sensitivity to weighting/QC, not state composition versus within-state biology.",
+  "evidence_refs": [
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/RNA_EXTENSION_BRIEF.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/RNA_EXTENSION_BRIEF_FROZEN_V1.txt",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/RNA_IMPLEMENTATION_V1.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/LITERATURE_CONTEXT.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published directions including Results Sec5/Fig3j and all prior metadata are exposed. Source-selected symbols and mt- feature labels were read before this freeze; no new RNA expression contrast was inspected. Parent authorization is 7d7b721f486a2be3af0593fb20011ef33cd6f416. Original source and metadata v1/v2 evidence remain immutable. Before freeze, bounded GSE329778 fragment headers revealed ARC 2.1.0/GRCm39-2024-A_TdTomato contrary to article/GEO ARC 2.0.2/mm10. This is source metadata exposure, not an accessibility result.",
+  "biological_unit": "Deposited library as the descriptive observational unit; barcodes nested within each library describe its finite sample. Underlying pooled animal/preparation independence is unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Seven libraries, four accession-specific contrasts. GSE329778 LGR5/CTRL and KRT20/CTRL reuse CTRL. No across-accession control averaging, donor reconstruction, independent replication count or cell-based uncertainty.",
+  "population_and_selection": "All seven deposited filtered-matrix barcode sets; positive all-source RNA depth primary. Secondary RNA-only QC uses 200<=detected genes<=2500, RNA>=500, mt- fraction<=0.40. This is not complete author joint QC or state selection.",
+  "contrast": "GSE302685 irradiated-control (GEO Lgr5-associated); GSE302687 irradiated-control (GEO Krt20-associated); GSE329778 LGR5-CTRL; GSE329778 KRT20-CTRL. Preserve source run/sorting disagreements.",
+  "endpoint": "For each of 31,950 common RNA IDs, post-minus-control log2(CPM+1) difference. Pooled CPM=1e6*gene counts/sum of ALL source RNA counts; equal CPM=mean positive-barcode 1e6*gene count/ALL source RNA depth, then log2(mean CPM+1). Panel of Cd74, Reg3g, Reg3b, H2-D1, App, Lgals9, Mif, Ifitm3; median and positive/zero/negative/held counts per contrast/case.",
+  "methods": "Frozen rna_extension_v1.py and plot_rna_v1.py. Stream strict-column MatrixMarket and 128-column HDF5 blocks; positive RNA features only, no ATAC denominators, no dense full matrix. All-source and RNA-QC subsets each have pooled/equal weighting. Operational mt- source-symbol mapping must agree across all libraries. Eight synthetic tests before freeze; all source/common/target maps retained.",
+  "missingness_and_exclusions": "Zero RNA depth excluded only from normalized summaries and enumerated. Empty subsets yield undefined fields and local holds. Ambiguous selected symbols hold only that target; missing/inconsistent mitochondrial labels hold RNA-QC only. No target replacement, arbitrary pseudocount for ratios or outcome-based filtering.",
+  "multiplicity": "Fixed four contrasts x four cases; all 31,950 common stable IDs reported and the eight source-selected targets summarized. No inferential tests/FDR/CI, adaptive targets or added sensitivity cases.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite-library description with unknown biological unit independence; no population uncertainty or invented precision target.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Transformed-expression differences are not unqualified fold changes, pathway activity, persistent memory, state attribution, independent replication, causal effects or later functional prediction. QC and weighting agreement do not eliminate source selection/composition confounding. Cross-deposit reference/processing differences remain unresolved; no genomic interval transfer occurs in the RNA stable-ID comparisons.",
+  "stop_rule": "Hash mismatch, changed common IDs, malformed counts or sparse axis mismatch stop execution. Symbol/mitochondrial/empty-subset problems yield explicitly scoped holds while eligible cases continue. Existing output directories are refused; corrections require new version and retained evidence. No Q4 accessibility endpoint under this contract.",
+  "inputs": [
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302685_control_filtered_feature_bc_matrix.h5",
+      "sha256": "2739d71eccb2299a958f877f2acdfb421b32e3ad4d64dc1cb452c8c365d81744",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302685_irradiated_filtered_feature_bc_matrix.h5",
+      "sha256": "ad3e42339b7da6925e960cf1b146b313619cb56dbb3862e945833cfbd0adc5ab",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302687_control_filtered_feature_bc_matrix.h5",
+      "sha256": "4877ae63f2169a400da36ebbfd2cd47eed55c63ad195f8f774f1f336c7f29e4d",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302687_irradiated_filtered_feature_bc_matrix.h5",
+      "sha256": "34da6012a538550ab498b251998be36a8125cce58857f5dcd29082a5cf936b50",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_matrix_CTRL.mtx.gz",
+      "sha256": "6f9a8b1bf1888ec0b70cd7274ea35f335dfa26c18ea5637bdb850497b71abc24",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_features_CTRL.tsv.gz",
+      "sha256": "b5853b9440c788b9c44940d0f747010d2ce60c7ee3f037333f2d60b6a0b737eb",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_barcodes_CTRL.tsv.gz",
+      "sha256": "9d98d92e895ef575615abfd80290f9ed71169b69c8ce6c470328eb2cc4793ea7",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_matrix_KRT20.mtx.gz",
+      "sha256": "0c28eedd4a98d15e0f38d6785aad84cb155b107ec44b790ed2467591d671bf75",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_features_KRT20.tsv.gz",
+      "sha256": "73debab327c08b26edd7e96c68aeb824d3d73e9075449cc6d03e2d3c62f7861e",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_barcodes_KRT20.tsv.gz",
+      "sha256": "c0335293fdfd788a85f45877781d674bd913b7748cbba09c329cad3a46e3cf33",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_matrix_LGR5.mtx.gz",
+      "sha256": "1aaf82baac60820e19d05ba144c915d727619c8bbdd8789fe6540456040e9060",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_features_LGR5.tsv.gz",
+      "sha256": "7095317b1549f85e9d7c5cf2fcb45c84a8b92abd7f86a253ee4fc7e0be8e9192",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_barcodes_LGR5.tsv.gz",
+      "sha256": "fe8ae0f537b7691f73b450a3bf554c48e196515ece2d346b3c287fbb84cfa6b4",
+      "study_id": "Arozamena_2026",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v2/common_feature_ids.csv",
+      "sha256": "44d0285e6518f20faffe604d778cf7418ea699bb87211ad05704ae968af8983d",
+      "study_id": "Arz1_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v2/matrix_inventory.csv",
+      "sha256": "28fe0e8acdbaec17233861cd4f87353a3dfebea71352a044add3ecef050b0e24",
+      "study_id": "Arz1_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v2/receipt.json",
+      "sha256": "9fcd1514bbef8c4d92476a4bcee0a8eacdda73d3edf95e51c44dd63df873d89a",
+      "study_id": "Arz1_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/RNA_EXTENSION_BRIEF_FROZEN_V1.txt",
+      "sha256": "97d8b0dddef0f0f79559210fd5959ead031e593f51f4489a714e412424167128",
+      "study_id": "Arz1_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/RNA_IMPLEMENTATION_V1.md",
+      "sha256": "9eb6faecd9b5390519fc7fcc12e74ff28a117821be250339272671a03ddeb882",
+      "study_id": "Arz1_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/CTRL.first65536.bin",
+      "sha256": "02d6c6e6e11e348e169888fd0d612a73d9e86aa0719e053238e729bea1447dae",
+      "study_id": "Arz1_Q4a_bounded_source_headers",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/CTRL.request.json",
+      "sha256": "c5f911893b93144f2e8ee2e55d39c3e4e3ae70b4ef98d1ce3799e3a72ac942d7",
+      "study_id": "Arz1_Q4a_bounded_source_headers",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/KRT20.first65536.bin",
+      "sha256": "f43d5f15e48ca4e30eb4050513d245816bcfa4c2770dafba4ae5bfd8db9e33a6",
+      "study_id": "Arz1_Q4a_bounded_source_headers",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/KRT20.request.json",
+      "sha256": "1c59615d0c0354f6665ae316686863505c37c64105575e4f03f3211a9682df24",
+      "study_id": "Arz1_Q4a_bounded_source_headers",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/LGR5.first65536.bin",
+      "sha256": "635ea52e30dc1e7af9be3dda9695a9dde78b7420b65247e85d00ced7e37c21d5",
+      "study_id": "Arz1_Q4a_bounded_source_headers",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/LGR5.request.json",
+      "sha256": "4824161eca9c4b385af56e8f1494d6769e8a43f5af940de153261fc49bcc806d",
+      "study_id": "Arz1_Q4a_bounded_source_headers",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/rna_extension_v1.py",
+      "sha256": "3e118352ad76e7cba68c7da82d63b8d84cb1681295b70fcabe28755d106453e1"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/plot_rna_v1.py",
+      "sha256": "ba596d17af45910fd5d88bc245bdb4672eaabffb3cdfd9cf5ba4bb4ad7f693be"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_rna_v1.py",
+      "sha256": "2b07e2f2d049525e8248e770eec8b2dad2f84414ad87609312ec97e69d8408a4"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/sources/intake_v1.json",
+      "sha256": "79c89ee5ae7fbf078c084c227a5c1d996a50fe1d16cf18b30d729f104afe5222"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/.gitattributes",
+      "sha256": "f53a6d00a3d75d9a2617286480463ecdab4bb95fd1012c29ec30576e3a1ae14e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/rna_extension_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_hashes.csv",
+    "gene_symbol_mapping.csv.gz",
+    "selected_target_mapping.csv",
+    "mitochondrial_mapping.csv",
+    "barcode_qc.csv.gz",
+    "library_qc_summary.json",
+    "library_gene_summaries.csv.gz",
+    "gene_contrasts.csv.gz",
+    "selected_target_contrasts.csv",
+    "selected_target_summary.csv",
+    "summary.json",
+    "figure_01_primary.png",
+    "figure_01_primary.svg",
+    "figure_02_sensitivity.png",
+    "figure_02_sensitivity.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First biological endpoint version after reviewed metadata v1/v2 and parent Q3a/Q5a brief; no prior numerical endpoint is superseded."
+}
