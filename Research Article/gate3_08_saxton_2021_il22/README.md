@@ -1,5 +1,11 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
+**PR integration, 1 November 2026:** [PR #155](https://github.com/xorca0711/ravel/pull/155)
+includes the reviewed recovery, X1–X3 source audits and E1a descriptive extension
+with its corrected figure. PR inclusion does not mean merge to main or human
+scientific acceptance. The original treatment/response and linked-function
+analyses retain their recorded holds.
+
 **Reviewed recovery closeout, 31 October 2026:** the bounded metadata/source/documentation
 review passed [originating review](REVIEW_2026-10-31.md) and is integrated locally.
 The original biological sequence is not completed. The
@@ -19,8 +25,8 @@ recovery dispositions below unchanged and do not resume held biological analyses
 The extension [originating review](extensions_20261031/REVIEW.md) passed and the
 work is integrated on a separate local branch. See the
 [implication note](extensions_20261031/IMPLICATIONS.md) for conditional research
-directions. [PR #155](https://github.com/xorca0711/ravel/pull/155) contains the
-reviewed recovery only; the subsequent extensions remain local.
+directions. The owner subsequently authorized adding these reviewed extensions
+to [PR #155](https://github.com/xorca0711/ravel/pull/155) on 1 November.
 
 The separately scoped [E1a transcript description](recipient_context_v1/RESULTS.md)
 now reports the two fixed transcript measurements in the saved Choi benchmark.
@@ -28,8 +34,8 @@ Its [figure/table gallery](recipient_context_v1/FIGURES.md) preserves literal la
 pooled-library limits and empty strata. Sparse Il22ra1 capture supplies no response
 or biological-absence conclusion; the historical E1/R2/R3 dispositions remain intact.
 Its [originating review](recipient_context_v1/REVIEW.md) passed and the completed
-C0–C3 handoff is integrated locally; no new scientific acceptance or publication
-is implied.
+C0–C3 handoff is integrated locally and included in the PR; no new scientific
+acceptance is implied.
 
 | Step | Current source-review / execution disposition |
 |---|---|

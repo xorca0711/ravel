@@ -1,5 +1,10 @@
 # E1a: observed receptor-transcript context in the retained Choi benchmark
 
+**Publication update, 1 November 2026:** this reviewed extension and its current
+v2 figure are included in [PR #155](https://github.com/xorca0711/ravel/pull/155)
+at the owner's request. The original numerical run and superseded v1 figure
+remain preserved. PR inclusion is separate from merge and scientific acceptance.
+
 31 October 2026 (Asia/Seoul). Owner **Sx22-P01**. The owner requested further
 extension analysis after the completed X1–X3 source audits. This prospective
 scope follows [their reviewed results](../extensions_20261031/RESULTS.md).

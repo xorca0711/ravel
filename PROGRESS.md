@@ -1,5 +1,30 @@
 # Current project state
 
+## Saxton reviewed extensions added to PR #155 — 1 November 2026
+
+The owner authorized adding the reviewed extensions to the existing
+[PR #155](https://github.com/xorca0711/ravel/pull/155). Publication includes the
+X1–X3 source audits from `cb4e4b4` and E1a description/corrected gallery reviewed
+at `a0c0dd6`, alongside the original R1 recovery. GitHub connector and CLI accounts
+were verified as `xorca0711`. The PR branch was an ancestor of the reviewed head;
+integration uses a normal fast-forward push without rewriting remote history.
+
+The PR description separates completed QC/source review, completed observed-cell
+description and the original unexecuted treatment/response/function work. Two
+single Il22ra1 counts remain sparse observed capture, not a responsive-state or
+biological-absence claim. No analysis, figure data, frozen receipt, canonical RQ,
+root attribute or governance rule was changed for publication. Older local-only
+entries below describe their dated checkpoints.
+
+Fresh main remains `4df267d`; the reviewed integration had passed 12,765 repository
+checks and the base-aware gate, with 12 targeted tests and 158 shared tests
+(two Windows skips) recorded by the technical handoff. Publication changes only
+navigation/status prose; its local revalidation passed 12,765 repository checks
+and the base-aware research gate with zero errors. Live CI and review status are
+recorded on the PR. No main merge, Notion edit, author contact, external setting change
+or human scientific acceptance is part of this update. All requested eligible
+extensions are completed; surviving source/service limits remain in their ledgers.
+
 ## Saxton E1a reviewed and integrated locally — 31 October 2026
 
 Technical handoff `b3c6e72` completed the newly requested C0–C3 description.

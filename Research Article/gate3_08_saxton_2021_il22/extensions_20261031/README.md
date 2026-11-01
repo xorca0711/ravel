@@ -1,5 +1,10 @@
 # Saxton source-readiness extensions
 
+**Publication update, 1 November 2026:** the owner authorized inclusion of this
+reviewed package and E1a in [PR #155](https://github.com/xorca0711/ravel/pull/155).
+The dated technical handoff below remains the execution/review record; its
+completion does not lift the original biological-analysis holds.
+
 31 October 2026 (Asia/Seoul). Article-local owner: **Sx22-P01**. This is a
 separate, exposed metadata/documentary follow-up to the reviewed recovery in
 [PR #155](https://github.com/xorca0711/ravel/pull/155), starting at `f4878c1`.
@@ -32,7 +37,8 @@ invented numerical receipt. R1, root
 attributes, governance, canonical hypotheses and the original recovery ledger
 remain unchanged. R2/R3 and the other excluded biological analyses remain held.
 The originating chat's final handoff review passed; human scientific acceptance
-remains unassessed. No extension push or PR mutation occurred here.
+remains unassessed. The technical handoff itself made no push or PR mutation;
+the later originating-chat publication is recorded above.
 
 ## Why these extensions
 
