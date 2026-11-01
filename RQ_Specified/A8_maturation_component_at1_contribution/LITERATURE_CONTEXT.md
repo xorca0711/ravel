@@ -1,5 +1,7 @@
 # A8: literature context and hypothesis schematic
 
+**External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). The intestinal source has molecular and later functional figures, but no early-to-later biological-unit join was located in the inspected deposits. It cannot validate this question's maturation-to-AT1 relationship. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
+
 **Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a biochemical comparison against this question's unchanged fixed RNA component. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.
 
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.

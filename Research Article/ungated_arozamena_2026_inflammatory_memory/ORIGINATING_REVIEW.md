@@ -1,7 +1,8 @@
 # Originating review: Arozamena source and extensions
 
 1 November 2026. Source checkpoint `fe719b14523fddab84411b76b3d6a30556b3e6b9`
-passes for its stated metadata scope. Numerical extensions remain under review.
+passes for its stated metadata scope. RNA and accessibility adaptations now pass
+independent numerical and visual review for their finite-library scope.
 Execution and review do not constitute human scientific acceptance.
 
 ## Source and metadata review
@@ -30,14 +31,14 @@ malformed nonempty records remain errors. Original raw bytes, v1 code, contract
 and outputs are preserved. This is a corrected parser-coverage limitation, not
 recovery of missing biological annotations.
 
-## Authorized adaptation and open review
+## Prospective adaptation record
 
 The [RNA brief](RNA_EXTENSION_BRIEF.md) narrows the executable question to four
 finite-library RNA contrasts and fixed weighting/RNA-only QC sensitivity. It keeps
 the original within-state Q3 held and avoids conflating common RNA reporting IDs
 with the all-source RNA normalization denominator. Q4a source/resource assessment
 is separate from authorization for accessibility endpoints. Later result review,
-actual figure inspection, final checks and exact remaining holds will be recorded
+actual figure inspection, final checks and exact remaining holds are recorded
 below without modifying earlier frozen evidence.
 
 ## RNA numerical and visual review
@@ -67,3 +68,81 @@ with the paper/GEO mm10/ARC 2.0.2 statement. This holds exact coordinate replay;
 it does not invalidate within-accession stable-ID RNA descriptions. A separately
 reviewed GRCm39 four-locus adaptation is specified prospectively, with the custom
 reference, state annotation and functional linkage limitations preserved.
+
+## Accessibility v1 source-identity hold and prospective amendment
+
+The first accessibility freeze `4f1a8f662d9409355aa5065388621c2c54ac1d8e`
+qualified all four M33 loci and verified their exact deposited TSS spans, but
+stopped all three fragment sources at repeated coordinate/barcode keys. No paired
+accessibility endpoint was released; all 64 rows are held. Prefix traversal and
+full compressed-file hashes do not constitute full-file structural validation.
+The placeholder figures remain historical held artifacts, not gallery results.
+
+The parent independently reread the offending raw pairs at CTRL lines 5009/5010,
+KRT20 26860/26861 and LGR5 19538/19539. Each pair has identical coordinates and
+barcode but opposite strand fields. The primary algorithm documentation's
+coordinate/barcode grouping does not resolve that observed representation into
+independently certified physical molecules.
+
+Before any accessibility outcome exposure, parent review authorized a new frozen
+v2 with two explicit counting definitions: unique strand-labelled source records
+as primary, and one count per coordinate/barcode group as sensitivity. Each uses
+its own consistent numerator and all-canonical denominator. Same-strand repeated
+keys remain failures; no source row is silently repaired. Loci, region rules,
+RNA/QC selection, weighting and source-validation boundaries stay fixed. The
+128 paired rows retain both definitions without selecting a favorable one.
+This is an exposed source-semantic amendment, not a relaxation of repository
+governance or a result-based search for agreement. V1 remains immutable.
+
+## Accessibility v2 independent raw-source and visual review
+
+Freeze `3f2b5872b9b1f7e4dcb2ea428b94357c9bd42a4c` completed all 128 paired cases
+under both definitions. The parent audit imported no production analysis code.
+It independently reconstructed the four GTF transcript/window/body definitions,
+traversed all **152,186,923 raw fragment records** through gzip EOF/CRC, and passed
+all **60 hash bindings**, **39,962 barcode-depth rows**, **159,848 barcode-locus
+rows**, collision diagnostics, **128 paired contrasts** and **64 definition
+deltas**. It independently recounted raw RNA for the four selected loci. RNA
+depth/QC were reused from the preceding independent raw-verified audit with their
+hash bindings checked; this was not another all-gene RNA reaggregation.
+Local reviewer code is retained as `verify_arz_accessibility.py` under the
+reviewer's `saxton_review` scratch directory; technical saved-count checks are
+separately documented in [validation](ACCESSIBILITY_VALIDATION.md).
+
+All 19,981 paired barcode sets agree between count definitions. No source,
+locus, population or endpoint hold remains in Q4a. This verifies computation;
+it does not establish independent mice, author states or custom-reference identity.
+The maximum absolute count-definition effect is 0.00270523 with no sign changes
+in the 64 fragment comparisons. Region/QC/weighting sensitivities remain visible:
+LGR5 Tiam1 changes sign between TSS and body; LGR5 Cd74/Cd83 RNA changes sign
+under RNA QC. No equivalence margin, universal discordance or biological mechanism
+is inferred from these results.
+
+The actual sensitivity PNG passed visual review. The initial primary PNG had
+crowded legend/title spacing; parent review requested a separately frozen
+render-only correction (`c9fbf92`). The corrected primary PNG also passed visual
+review. Parent independently passed all **eight render hash bindings** and
+confirmed all **16 signed value labels** unchanged; technical review additionally
+checked unchanged bar geometry. Original v2 images/receipt remain byte-identical.
+The gallery displays four substantive plates, not duplicate formats, held
+placeholders or the superseded rendering. No biological analysis was rerun for
+this layout correction.
+
+## Final integration scope and remaining holds
+
+The current [job ledger](README.md#stepwise-disposition-ledger) separates completed
+metadata, Q3a/Q5a and Q4a adaptations from held Q3/Q4/Q6. Source coverage lacks
+the author state/QC map and actual early-to-later unit links. The first two
+deposits lack located fragments/common recounted features; exact replay also
+needs processing/custom-reference reconciliation. Independent preparation/pool
+identities remain unqualified for population inference. A separately designed
+operational annotation would be new exposed work, not recovery of author labels.
+No current platform-policy refusal is recorded for this qualification/extension.
+
+Parent navigation, registry evidence links, A1/A14/A8 context and DY1-P02/Saxton
+connections are updated without modifying canonical hypotheses or illustrations.
+The independently reviewed technical tests and archive checks are recorded in
+[validation](ACCESSIBILITY_VALIDATION.md); final integration checks and PR state
+are recorded in [PROGRESS](../../PROGRESS.md). All frozen contracts, negative
+results, held runs and source bytes remain preserved. Scientific acceptance,
+claim grades and governance are unchanged.

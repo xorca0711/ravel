@@ -5,6 +5,13 @@ These are conditional question connections, not adopted canonical amendments,
 qualified numerical jobs, new mechanisms or a portfolio ranking. The current
 [hold ledger](../COMPLETION_LEDGER.md) remains in force.
 
+**Subsequent execution:** the [Arozamena article-local package](../../ungated_arozamena_2026_inflammatory_memory/README.md)
+now contains completed source qualification, independently reviewed RNA contrasts
+and a separate GRCm39 accessibility specification. Its RNA-QC sensitivity and
+remaining state/function limits are [connected to the existing RQs](../../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md).
+This updates the source-intake status below without adopting a Saxton mechanism
+or changing any canonical RQ.
+
 ## What the completed analysis changes
 
 The selected IFN-versus-barrier panel distinction persists descriptively, but the
@@ -67,11 +74,11 @@ Figures 5-7 and Discussion, remains the published premise.
 
 ## Feasible next work, without repeating completed scores
 
-1. **Source qualification:** inspect the recent intestinal multiome deposits and
-   their sample/preparation, state, assay-pairing and history metadata. The article
-   lists GSE302685, GSE302687 and GSE329778 for multiome, GSE302684 for bulk ATAC,
-   GSE329965 for scRNA and GSE329696 for bulk RNA. These are article-reported
-   accessions; the attempted direct GEO opens did not succeed in this tool.
+1. **Source qualification completed:** [six accession records and seven multiome
+   matrices](../../ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md)
+   were recovered through public sources after the earlier failed direct opens.
+   The later [fragment-header review](../../ungated_arozamena_2026_inflammatory_memory/Q4A_FEASIBILITY.md)
+   identifies GRCm39/ARC2.1 in the third deposit despite the article/GEO mm10 claim.
 2. **Conditional descriptive extension:** if units/assay pairing qualify, separate
    within-state RNA/accessibility differences from changes in state abundance.
    This is a non-infectious epithelial reference comparison, not replication of
@@ -85,8 +92,13 @@ Figures 5-7 and Discussion, remains the published premise.
 No additional Saxton score, bulk deconvolution or causal STAT model is launched
 by this synthesis. A reference-based attribution could be exploratory, but would
 not establish within-cell regulation from the six bulk libraries. Source intake
-is the next feasible stage; numerical eligibility and human scientific adoption
-remain unassessed.
+was the first stage. [Four finite-library RNA contrasts](../../ungated_arozamena_2026_inflammatory_memory/RNA_RESULTS.md)
+have since executed with mixed directions and QC sensitivity. Original within-state
+and functional jobs remain held. The [four-locus paired adaptation](../../ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md)
+also completed all 128 fixed cases; TSS-versus-body and RNA-selection changes
+show why a regulatory-memory interpretation needs explicit feature and state
+definitions. It supplies neither an IL-22 mechanism nor an early/later outcome
+join. Human scientific adoption remains unassessed.
 
 ## Search and access record
 

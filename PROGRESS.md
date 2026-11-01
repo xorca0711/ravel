@@ -1,6 +1,52 @@
 # Current project state
 
-## Arozamena RNA reviewed; fragment adaptation authorized — 1 November 2026
+## Arozamena eligible extensions reviewed and integrated — 1 November 2026
+
+Technical handoff `a244f7f` is integrated into the existing PR #157 branch.
+The [current article ledger](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+closes source qualification, Q3a/Q5a RNA and Q4a paired four-locus descriptions.
+Independent review passed all 152,186,923 raw fragment records and 128 paired
+cases, alongside the earlier raw RNA/QC audit. All four
+[figure plates](Research%20Article/ungated_arozamena_2026_inflammatory_memory/FIGURES.md)
+passed visual review. A separate render-only correction fixes primary legend
+spacing without changing measurements or overwriting the original.
+
+RNA selection changes some signs; Tiam1's TSS-window and body contrasts differ
+in direction. The largest count-definition effect is 0.00270523 log2(CPM+1),
+without sign changes in those 64 comparisons. These are finite-library
+measurement findings, not within-state regulation, memory or later function.
+A1/A14/A8 and DY1-P02/Saxton context links preserve their original hypotheses.
+
+Q3/Q4 remain held for missing author state/QC mapping, all-deposit common features
+and reference/processing reconciliation; Q6 lacks actual early-to-later unit
+joins. Population inference lacks qualified independent pools/preparations.
+No current content-policy or external account-setting blocker is recorded.
+The original v1 hold and all frozen evidence remain unchanged. Raw inputs reside
+in the ignored technical worktree, with public manifests for reacquisition.
+
+Fresh integration base: `51d3b930b3805c616e67e414390ecf060647d090`.
+Technical targeted/shared/archive checks passed. Parent integration validation
+passed 13,198 repository checks, the base-aware research gate and all 18 claim
+bindings. The six exactly documented frozen whitespace exceptions are retained;
+all current documentation changes are whitespace-clean. No frozen measurement
+asset changed during integration. [Detailed review](Research%20Article/ungated_arozamena_2026_inflammatory_memory/ORIGINATING_REVIEW.md).
+This revision delivers the gallery, README/RQ context and completed/held ledger
+through [existing PR #157](https://github.com/xorca0711/ravel/pull/157); current CI
+status is shown there. Next: normal PR review, or reopen a held scientific job
+only with its specified new source/design evidence. No biological rerun or main
+merge is part of this delivery.
+
+Earlier checkpoints below are historical; their pending wording describes their
+own revisions, not the completed current extensions.
+
+## Historical checkpoint: RNA reviewed; fragment adaptation authorized — 1 November 2026
+
+Current amendment: accessibility v1 freeze `4f1a8f6` stopped all three sources on
+opposite-strand coordinate/barcode collisions and released no paired endpoints.
+Checkpoint `5e85c6f` preserves the hold. Parent independently confirmed all three
+offending pairs and authorized prospective v2 strand-labelled record counts plus
+explicit coordinate-collapsed sensitivity, with consistent denominators and
+unchanged loci/QC/weighting. No biological accessibility outcome has been exposed.
 
 RNA/source checkpoint `0aa33d2` is integrated. All eligible Q3a/Q5a cases executed
 at freeze `a9e469e`: 31,950 genes, four separate contrasts and four fixed cases.

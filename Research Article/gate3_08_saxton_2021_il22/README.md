@@ -1,5 +1,7 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
+**Connected epithelial reference:** [Arozamena 2026](../ungated_arozamena_2026_inflammatory_memory/README.md) now has reviewed source, RNA and four-locus paired RNA/fragment work, a [separate figure gallery](../ungated_arozamena_2026_inflammatory_memory/FIGURES.md) and explicit [RQ connections](../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). These intestinal history measurements are distinct from Saxton's acute IL-22 findings and do not resolve the held STAT/function questions.
+
 **Reviewed gene-program analysis, 1 November 2026:** the [Sx22-P01 reassessment](reassessment_v1/README.md)
 completed every eligible descriptive job through the existing technical chat.
 The reviewed follow-up is in [PR #157](https://github.com/xorca0711/ravel/pull/157).

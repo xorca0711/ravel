@@ -1,5 +1,7 @@
 # Research article roadmap
 
+**Arozamena intestinal reference — 1 November 2026:** the [article-local package](ungated_arozamena_2026_inflammatory_memory/README.md) contains qualified public sources, reviewed RNA contrasts and a completed deposited-GRCm39 four-locus paired RNA/fragment extension (128 cases). [Figures](ungated_arozamena_2026_inflammatory_memory/FIGURES.md) and [RQ context](ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) retain selection sensitivity, coordinate conflicts, absent state maps and missing functional-unit joins. This source sits outside the reading roadmap; no gate, canonical hypothesis or acceptance decision is changed.
+
 **Saxton gene-program reassessment reviewed — 1 November 2026:** all eligible
 [finite-library jobs](gate3_08_saxton_2021_il22/reassessment_v1/README.md) are complete.
 The [results](gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md) support the selected
@@ -207,6 +209,7 @@ linked in each study's gallery.
 
 | Study and biological context | Analysis claims and evidence | Figures |
 |---|---|---|
+| [Arozamena 2026: intestinal history](ungated_arozamena_2026_inflammatory_memory/README.md) | [Reviewed RNA](ungated_arozamena_2026_inflammatory_memory/RNA_RESULTS.md) and [paired four-locus results](ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md), fixed sensitivities and exact state/function holds | [Article gallery](ungated_arozamena_2026_inflammatory_memory/FIGURES.md) |
 | [Saxton 2021: IL-22 and recipient context](gate3_08_saxton_2021_il22/README.md) | [Reviewed colon RNA description](gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md), prior source/QC and external feasibility; no causal STAT, population or functional inference | [Combined gallery: three colon RNA, two QC and one external feasibility figure](gate3_08_saxton_2021_il22/FIGURES.md) |
 | [Damani-Yokota 2026: macrophage immune history](gate2_DY1_damani_yokota_2026/README.md) | [Analysis inventory and synthesis](gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md); baseline diagnostics, human descriptions and external measurement references with explicit source/design holds | [13 current plates and original archive](gate2_DY1_damani_yokota_2026/FIGURES.md) |
 | [Wang 2025: PGAM and Th17 pathogenicity](gate2_W2_wagner_Th17_PGAM/README.md) | [Claim-by-claim reproduction outcome](gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026) across seven governed runs: single cell ([Wp-R1](gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md)), bulk ([Wp-R3](gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md)), human reuse ([Wp-R4](gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md)), a Compass version-and-input sensitivity ([Wp-R2](gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md)) and the branch pair ([Wp-P01](gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md), [Wp-P03](gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md)). | [Current and historical figures](gate2_W2_wagner_Th17_PGAM/FIGURES.md) |

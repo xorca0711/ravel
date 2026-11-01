@@ -103,6 +103,7 @@ Reused deposits and their companion assays remain shared evidence.
 
 | Scope | Gallery and interpretation |
 |---|---|
+| **Arozamena 2026 intestinal history** | [Article gallery](Research%20Article/ungated_arozamena_2026_inflammatory_memory/FIGURES.md): four reviewed plates: accession-specific RNA contrasts, paired four-locus RNA/fragments and fixed measurement sensitivities. [Job ledger](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md) separates completed descriptions from missing state/function linkage and exact-replay limitations. |
 | **Saxton 2021 IL-22** | [Combined article gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md): three reviewed colon RNA figures (published targets, overall-amplitude reference and sensitivity), two QC figures and one external feasibility figure. [Results](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md) distinguish the selected-panel pattern from smaller broad-IFN differences; population, signaling and functional inference retain explicit holds. |
 | All paper packages | [Paper gallery index](Research%20Article/README.md#figure-galleries) |
 | Research questions | [Question figures](RQ_Specified/FIGURES.md) |

@@ -25,7 +25,8 @@ The preceding [search and access record](../gate3_08_saxton_2021_il22/reassessme
 records exact queries, date, recent and older coverage, access limits and the
 bounded correction search. The source-reported accessions are enumerated in the
 README; the failed GEO opens do not establish whether records are public or private.
-Actual source recovery will be distinguished from this initial indexed-text read.
+The completed recovery above supersedes those initial access limits; earlier
+failed routes remain historical observations.
 
 ## Repository observation and unresolved contrast
 
@@ -83,3 +84,50 @@ Refresh literature when a new mechanism or
 specific numerical contrast is adopted; do not infer novelty from absent search
 hits. The first stopping point is an auditable source/unit/assay eligibility
 decision, followed only by prospectively frozen eligible extensions.
+
+## Reviewed RNA observation and qualified accessibility adaptation
+
+The [executed RNA description](RNA_RESULTS.md) retained mixed directions and a
+major selection sensitivity: GSE329778 LGR5's selected-panel median changes from
+-0.506 before RNA QC to +0.556 afterward, retaining 635/6,921 barcodes. The
+[independent review](ORIGINATING_REVIEW.md) verified target values and barcode QC
+against raw inputs. This identifies a measurement/selection issue; it does not
+resolve the paper's within-state ISC interpretation or later functional mechanism.
+
+The [Q4a source report](Q4A_FEASIBILITY.md) subsequently recovered actual fragment
+headers identifying GRCm39/ARC2.1, conflicting with article/GEO mm10/ARC2.0.2
+metadata. The [separate brief](ACCESSIBILITY_EXTENSION_BRIEF.md) therefore uses
+fixed GRCm39 annotation-defined TSS windows and gene bodies as distinct proxies.
+Four loci (Cd74, Tiam1, Cd83, Ciita) were named in the source Figure 5d/e text
+before this extension's outcomes; the selection is not based on the RNA result.
+No new mechanism or novelty claim is introduced by this counting adaptation.
+
+Primary technical sources checked on 1 November 2026:
+[ARC 2.1 fragment format](https://www.10xgenomics.com/support/software/cell-ranger-arc/2.1/analysis/outputs/fragments-file),
+[matrix/TSS definition](https://www.10xgenomics.com/support/software/cell-ranger-arc/2.1/analysis/feature-barcode-matrices),
+[2024-A mouse reference build](https://www.10xgenomics.com/support/software/cell-ranger-arc/downloads/ref-build-steps),
+and [corrected barcode translation](https://www.10xgenomics.com/support/software/cell-ranger-arc/2.1/analysis/atac-barcoded-bam).
+These support half-open intervals, source-record semantics, transcript-TSS
+interpretation, the M33 source and GEX-barcode correspondence; they do not certify
+the study's custom reference or biological-unit identities. The earlier biological
+literature search remains the bounded precedent review; this is additional source
+qualification, not an exhaustive new biological search.
+
+## Reviewed paired observation and retained biological gap
+
+The [completed Q4a report](ACCESSIBILITY_RESULTS.md) now supplies 128 paired
+finite-library cases for the four source-selected loci. LGR5 Tiam1 changes
+fragment-contrast sign between TSS windows and gene body in every fixed QC/weight
+case; selected RNA signs change with RNA-only QC. The independent raw review
+passed all fragment records and contrast calculations. The maximum effect of
+the two prospectively declared record definitions is 0.00270523 log2(CPM+1),
+without fragment-contrast sign changes in those 64 comparisons. This does not
+settle the source's opposite-strand record semantics or establish equivalence.
+
+The contribution remains a robustness/measurement description of the paper's
+Figure 3j and Figure 5d/e premise. Region, selection, composition and source
+identity are explicit limits on calling discordance regulatory memory. Missing
+state annotations and longitudinal outcome joins remain the barriers to the
+original biological comparisons. The existing [RQ connections](RQ_CONNECTIONS.md)
+are updated at that level; no new molecular hypothesis, intervention design or
+claim of novelty is introduced, so the same-day biological search remains valid.

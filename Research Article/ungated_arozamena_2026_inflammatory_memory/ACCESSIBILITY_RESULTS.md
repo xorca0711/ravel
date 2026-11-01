@@ -16,8 +16,9 @@ accessibility analysis ([published article](https://doi.org/10.1038/s41467-026-7
 This adaptation asks how their RNA and fixed-region fragment measurements differ
 between deposited LGR5 or KRT20 libraries and their shared CTRL, and how the
 description changes with barcode QC, weighting, region and count definition.
-The biological unit is the finite deposited library; nested barcodes are not
-independent mice. Mouse/preparation independence and author state maps remain unknown.
+The descriptive observation unit is the finite deposited library; nested barcodes
+are not independent mice. The underlying biological mouse/pool/preparation
+identities and their independence remain unvalidated; author state maps are unknown.
 
 The endpoint is post-minus-CTRL **log2(CPM + 1) difference**, separately for RNA
 and fragment overlap. Primary fragment counts retain unique strand-labelled
