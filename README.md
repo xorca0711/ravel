@@ -101,10 +101,17 @@ Reused deposits and their companion assays remain shared evidence.
 
 ## Figure galleries by analysis branch
 
-Question and paper galleries are linked above. The
-[shared gallery](analysis/figures/rq/README.md) contains cross-question measurements
-and designs. Captions identify units and limits; later corrections take precedence
-over historical image titles.
+| Scope | Gallery and interpretation |
+|---|---|
+| **Saxton 2021 IL-22** | [Combined article gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md): library QC, identifier QC and the descriptive recipient-transcript figure. These are technical diagnostics and observed-cell descriptions; treatment/response and functional analyses retain their recorded holds. |
+| All paper packages | [Paper gallery index](Research%20Article/README.md#figure-galleries) |
+| Research questions | [Question figures](RQ_Specified/FIGURES.md) |
+| Cross-question measurements and designs | [Shared gallery](analysis/figures/rq/README.md) |
+
+Captions identify units and limits; later corrections take precedence over
+historical image titles. The Saxton extension page contains one three-panel
+transcript figure; its PNG/SVG formats and superseded rendering are not separate
+results. The combined article gallery also includes the source-QC figures.
 
 ## Try it yourself
 

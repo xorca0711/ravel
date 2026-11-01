@@ -1,7 +1,11 @@
 # Saxton source-readiness extensions
 
-**Publication update, 1 November 2026:** the owner authorized inclusion of this
-reviewed package and E1a in [PR #155](https://github.com/xorca0711/ravel/pull/155).
+[Combined article figure gallery](../FIGURES.md) includes the library-QC and
+identifier-QC visualizations plus the separately scoped E1a transcript figure.
+X2 provenance and X3 endpoint-linkage review remain tabular/documentary evidence.
+
+**Publication update, 1 November 2026:** this reviewed package and E1a were merged
+in [PR #155](https://github.com/xorca0711/ravel/pull/155) after the owner's authorization.
 The dated technical handoff below remains the execution/review record; its
 completion does not lift the original biological-analysis holds.
 

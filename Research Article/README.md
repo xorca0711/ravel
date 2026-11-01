@@ -4,7 +4,9 @@
 [observed-transcript results](gate3_08_saxton_2021_il22/recipient_context_v1/RESULTS.md)
 and [corrected figure](gate3_08_saxton_2021_il22/recipient_context_v1/FIGURES.md)
 passed [originating review](gate3_08_saxton_2021_il22/recipient_context_v1/REVIEW.md)
-and are integrated locally. Two single Il22ra1 counts in the retained Choi
+and were merged in [PR #155](https://github.com/xorca0711/ravel/pull/155).
+The [combined Saxton gallery](gate3_08_saxton_2021_il22/FIGURES.md) also presents
+the reviewed library and identifier QC tables as figures. Two single Il22ra1 counts in the retained Choi
 benchmark provide sparse measurement coverage, not a responsive-state or
 biological-absence conclusion. Original treatment/response and linked-function
 analyses retain their recorded holds. Canonical RQs and scientific acceptance are unchanged.
@@ -191,6 +193,7 @@ linked in each study's gallery.
 
 | Study and biological context | Analysis claims and evidence | Figures |
 |---|---|---|
+| [Saxton 2021: IL-22 and recipient context](gate3_08_saxton_2021_il22/README.md) | [Reviewed recovery](gate3_08_saxton_2021_il22/RESULTS.md), [source audits](gate3_08_saxton_2021_il22/extensions_20261031/RESULTS.md) and [observed transcripts](gate3_08_saxton_2021_il22/recipient_context_v1/RESULTS.md); no treatment/response or functional inference | [Combined gallery: two QC figures and one transcript figure](gate3_08_saxton_2021_il22/FIGURES.md) |
 | [Damani-Yokota 2026: macrophage immune history](gate2_DY1_damani_yokota_2026/README.md) | [Analysis inventory and synthesis](gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md); baseline diagnostics, human descriptions and external measurement references with explicit source/design holds | [13 current plates and original archive](gate2_DY1_damani_yokota_2026/FIGURES.md) |
 | [Wang 2025: PGAM and Th17 pathogenicity](gate2_W2_wagner_Th17_PGAM/README.md) | [Claim-by-claim reproduction outcome](gate2_W2_wagner_Th17_PGAM/REPRODUCTION_SCOPE.md#claim-by-claim-outcome-4-october-2026) across seven governed runs: single cell ([Wp-R1](gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md)), bulk ([Wp-R3](gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md)), human reuse ([Wp-R4](gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md)), a Compass version-and-input sensitivity ([Wp-R2](gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md)) and the branch pair ([Wp-P01](gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md), [Wp-P03](gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md)). | [Current and historical figures](gate2_W2_wagner_Th17_PGAM/FIGURES.md) |
 | [Wagner 2021: Th17 differentiation and metabolic scores](gate2_W1_wagner_th17_autoimmunity/README.md) | [R1 scores](gate2_W1_wagner_th17_autoimmunity/SOURCE_SCORE_RESULTS.md): 48-hour IL-17A–GFP-positive mouse cells, Th17p (IL-1β/IL-6/IL-23) versus Th17n (TGF-β1/IL-6). [Initial R3 RNA](gate2_W1_wagner_th17_autoimmunity/BULK_RESULTS.md): paired control/DFMO cultures at 68 hours. | [Eight-plate gallery](gate2_W1_wagner_th17_autoimmunity/FIGURES.md); [Figure 3 d/q table](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-3-which-reaction-scores-differ); [Figure 5 axis guide](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-5-exact-axes-and-symbols); [source-aligned PCA/programs](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-6-source-aligned-rna-programs); [direct genotype interactions](gate2_W1_wagner_th17_autoimmunity/FIGURES.md#figure-7-direct-jmjd3-by-dfmo-rna-interactions) |
