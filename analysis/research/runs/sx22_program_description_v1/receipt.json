@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.program_description_v2",
+  "owner": "Sx22-P01",
+  "contract": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/config/description_contract_v2.json",
+  "contract_sha256": "aebf38c2506ecb9c2a85499e69847e7520769d1df24db49f0690d5456dd9a363",
+  "git_commit": "404d23673194abbb388668a2aa74e2ff09399579",
+  "started_at": "2026-11-01T02:52:42.641628+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/describe_v1.py",
+    "--output",
+    "analysis/research/runs/sx22_program_description_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_readcount_genename.xls.gz",
+      "sha256": "26a63db90cbb1c65614205b05a1a957b37f0783b67df72ad4801b48c5bc0646d",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_fpkm_genename.xls.gz",
+      "sha256": "69dd439dc048fe6ff0e4d343d403e2fe277ea004beb4bc10b80c2f0daa7027f1",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/sources/memberships_v1.json",
+      "sha256": "68b1b76c12dbe67ea5d91bb46d3d128bfa2cccf3c9349d69f9720fff53cecb99",
+      "study_id": "Saxton_Figure6",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/sources/mh.all.v2026.1.Mm.symbols.gmt",
+      "sha256": "3a21be724a87dc0375955e725ca9688b87a26e7b74b62fba0c62da0967b789f7",
+      "study_id": "MSigDB_2026.1.Mm",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/METHODS.md",
+      "sha256": "344036048d19f2b16fe21bd9f271e5e34d74b71e127b58e46a046149268397e6",
+      "study_id": "Sx22-P01_prospective_methods",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/describe_v1.py",
+      "sha256": "7dacd5f6c6cc84a5a7bec1ebc5c4f8eb354b9bfdccc396898ca40c8d4b8da335"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/tmm_v1.R",
+      "sha256": "3796f7a53aac0c037d7ebb7b91897d2f620bb33b3f4556b7243df926b6d3f5e7"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/plot_v1.py",
+      "sha256": "c189c9dd7ee04df0a417e6f51aad3047fe55a060fef2ef04a63b38ced0a53af2"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/tests/test_description.py",
+      "sha256": "da0405e89d613b7a2b2534ca33760c3e48af4917012a2a4fe3d18b44a43650ba"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/sources/memberships_v1.json",
+      "sha256": "68b1b76c12dbe67ea5d91bb46d3d128bfa2cccf3c9349d69f9720fff53cecb99"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/verify_v1.py",
+      "sha256": "bc0666efeac4ca64ae7e63327b09e7e733167596f53c5555ff913855428736e3"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/gene_inventory.csv",
+      "sha256": "d8cfdede7b8229b90127c2c86e2c5ed75849b249d06b264515e7021caca9170a"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/counts_for_tmm.csv",
+      "sha256": "533d366d92da5567a5d09d30a8031956f0f24a3c0b7b3f105eea172cd4abb81a"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/member_mapping.csv",
+      "sha256": "083033fe7db726c4bb53eb69a7ace5289c5447e070239765f8cdc4da11c93b16"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/membership_overlap.csv",
+      "sha256": "0cd7800eeb46a461b7c6447cc079a218f27384df4ac247120cf30e34d9f4b515"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/normalization_factors.csv",
+      "sha256": "319402a6ba6d12a70b00eb137026014a6bb20083555f89bea5d53f9c2ece0426"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/tmm_stdout.log",
+      "sha256": "b2f5a4bf46a876888dc2ea0384886dd0c8a77cf56e74659c6657aeeabcafe535"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/tmm_stderr.log",
+      "sha256": "fcc3dd52090295c67f37a032a2532aaac51843d79a5d64e0d6eb599785ccc8aa"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/primary_gene_expression.csv",
+      "sha256": "dc44f45444bbd175f1e2b9ef90ed3e26552248b0914db54e16f5c808e532f086"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/amplitude_fits.csv",
+      "sha256": "939602388a69d8af7864f2de40378c76bac76b8ff1e3d83321fb211204659fed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/panel_set_summaries.csv",
+      "sha256": "30c603c534d8b4d74224c295df854929457d6a4909f1f72a7b6fe6abd077724d"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/tested_gene_sensitivity.csv",
+      "sha256": "8793a2871ecd8a638db54ee7a9915bf9cbff0a2039976559f61648dd0002f7c5"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/sensitivity_ranges.csv",
+      "sha256": "028e7bad98fc76ac42ca19017e728beeb67439c96249b5986e1e464c75bfa806"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/summary.json",
+      "sha256": "78c25d50bd56e3814b8e127f30678c9092ee1d138d8f0b5f3a900a78b0cd3473"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/published_targets.png",
+      "sha256": "44bacbdea9065cf93281ca3dcb1bd29ec00350089151cc2c80d67b176b68c78c"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/published_targets.svg",
+      "sha256": "9ee9712d7106093400c9d89a0d563ccdefad4e6a83eec845cbe5f0746ae78ae6"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/amplitude_reference.png",
+      "sha256": "73fbbe45b48b81eaa150ea631ac4944e49c8e330af3014ded7eefd8ff602570a"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/amplitude_reference.svg",
+      "sha256": "1f639f927c83ed80de7e4fd6b04ae3a5fd1d254743659daacad0055e34299c75"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/sensitivity_ranges.png",
+      "sha256": "c2557dfe3a36bcd238e1a3c880936ae45eb71688377d2ee209cdfbdb19e14480"
+    },
+    {
+      "path": "analysis/research/runs/sx22_program_description_v1/sensitivity_ranges.svg",
+      "sha256": "ae8258140f4b6efa14a16a520ad1cae95e0cc99cfaece2be0181d169c6a8df3d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-01T02:52:51.864734+00:00"
+}
