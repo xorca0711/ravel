@@ -33,9 +33,14 @@ model, memberships, effect margin or favorable-result threshold.
 
 ## Historical service failure versus current status
 
-The owner-supplied historical error is:
+The parent verified both failed turns through `read_thread` on original chat
+`01a19140-3fcb-7012-9c02-b8744eab73c7`. The following is a **verbatim excerpt**
+from the beginning of each `error.message`, correcting the earlier paraphrase:
 
-> Invalid prompt: we have limited access to this content for safety reasons
+> Invalid prompt: we've limited access to this content for safety reasons. This type of information may be used to benefit or to harm people.
+
+The remainder links OpenAI's biology approach and Model Spec;
+`additionalDetails` is null. The triggering job remains unidentified.
 
 The [recovery record](../RECOVERY_SCOPE_2026-10-31.md) documents two failed turns
 in the original technical chat and says the service did not identify the
