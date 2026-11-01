@@ -102,6 +102,14 @@ leads, but were not qualified for numerical use or treated as full reads. A
 versioned external gene-membership source still requires technical qualification
 before Q3; a search hit alone is insufficient.
 
+**Post-execution context, 1 November 2026:** the versioned mouse Hallmark source
+was qualified in [methods](METHODS.md), and the [reviewed results](RESULTS.md)
+show a larger contrast in the selected IFN panel than in the broader memberships.
+This narrows the source-level conclusion; it does not establish a new pathway
+mechanism or convert reused libraries into replication. The selected barrier
+panel's negative direct contrast and the unstable three-target subset are retained.
+The earlier source/search limitations above remain historical reading facts.
+
 Stop this bounded pass at the source-reproduction question. Reopen the literature
 review if a result motivates a particular biological mechanism or a new cohort;
 do not infer novelty or launch a memory/function branch from these RNA summaries.

@@ -1,5 +1,49 @@
 # Current project state
 
+## Saxton descriptive program reassessment reviewed — 1 November 2026
+
+Q0-Q4 and Q9 are complete. The existing technical chat delivered reviewed commit
+`caf4dd98e8884b9f12953af9d0de2556ea33d6d0`, integrated into
+`codex/saxton-program-reassessment-20261101` on fresh main `51d3b93`.
+The [current question/report](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md)
+compares selected-program attenuation with overall weakening, external IFN
+membership and individual-library sensitivity. No new canonical RQ was created.
+
+One prospective hash-bound run retains all six source libraries/35,275 rows,
+eight author memberships and two external IFN memberships, with 21 scale/view
+cases and 210 summaries. The selected IFN-versus-barrier pattern persists
+descriptively; broad IFN differences are smaller, the barrier panel also decreases
+directly, and the three-target Figure 6C residual is omission-sensitive.
+[Three new RNA figures](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/FIGURES.md)
+and the [six-figure combined gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md)
+are linked from root and paper navigation. The external Choi figure retains its
+feasibility-only interpretation. No causal STAT/function/memory claim is made.
+
+[Originating review](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/ORIGINATING_REVIEW.md)
+passed independent arithmetic/hash checks and individual visual inspection.
+The unexecuted v1 contract's exact original bytes were restored; the executed
+v2 and all numerical outputs remain immutable. The membership registration
+failure was corrected prospectively; the temporary-file sandbox issue was
+resolved. Three frozen line-ending exceptions are documented without changing
+attributes or validators. No current content refusal occurred; historical
+prompt-level errors are preserved separately.
+
+The [current ledger](Research%20Article/gate3_08_saxton_2021_il22/COMPLETION_LEDGER.md)
+records exact remaining holds: independent units for population inference;
+original processing for exact replay; raw signaling/function values, nesting
+and panel identity; pooled recipient data and missing cessation-to-function joins.
+No further biological execution is justified without those evidence changes and
+a prospective contract. Human scientific acceptance remains unassessed.
+
+Technical checks passed: seven targeted tests, 158 shared tests (two expected
+Windows skips), 12,911 repository checks, archive/provenance checks and the
+base-aware gate. Final parent integration passed 12,959 repository checks and
+the base-aware gate (`ok=true`, no errors) against freshly fetched `51d3b93`.
+Whitespace passed outside the three preserved artifacts. No unresolved external
+setting change is required for the completed description; no main merge is
+performed here. Next: publish the reviewed follow-up branch/PR, retaining the
+specific evidence holds rather than expanding the analysis to seek a favorable result.
+
 ## Saxton job-by-job program reassessment — 1 November 2026
 
 Owner requested a substantive reassessment and execution of permissible jobs

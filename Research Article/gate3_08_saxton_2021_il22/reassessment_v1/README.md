@@ -1,5 +1,29 @@
 # Sx22-P01: gene-program reassessment
 
+**Reviewed completion, 1 November 2026:** Q0-Q4 and Q9 are complete. The
+[results and final job dispositions](RESULTS.md) report one frozen descriptive
+run over all six source libraries, eight author memberships and two external IFN
+memberships, with three expression scales and six single-library omissions.
+[Three direct RNA figures](FIGURES.md) passed [originating review](ORIGINATING_REVIEW.md).
+Population inference, exact author-method replay, signaling/function reconstruction
+and linked recipient/persistence analyses retain the specific holds in the
+[current article ledger](../COMPLETION_LEDGER.md).
+
+The selected IFN panel has a more negative direct B3-WT median than the selected
+tissue-protection panel (-1.345 versus -0.459 on log2(CPM+1)). Both broad IFN sets
+have a much smaller median (-0.163). The barrier panel also decreases directly;
+its positive residual from an overall-amplitude reference does not establish
+preserved protection. The three-target Figure 6C subset is sensitive to library
+omission. These results qualify the breadth and stability of the source pattern;
+they do not identify causal STAT1/STAT3 activity or a new mechanism.
+
+No current content refusal occurred. Historical prompt-level failures remain
+documented separately; the current results do not assert unrestricted clearance.
+The prospective framing below is retained, with execution facts supplied above
+and in the immutable receipt. No scientific acceptance or canonical RQ is added.
+
+## Prospective amendment (recorded before execution)
+
 1 November 2026. Prospective amendment following the owner's request to reassess
 each held job and complete permissible work through the existing technical chat.
 Owner remains **Sx22-P01**. No canonical RQ or scientific acceptance is created.
@@ -53,7 +77,7 @@ Both PBS contrasts share controls, and the estimated axes contain noise. Fit
 residuals, gene-wise correlations or a collection of genes do not supply an
 independent biological test or exclude cell-composition explanations.
 
-## Job-by-job plan
+## Prospective job-by-job plan
 
 | Job | Concrete work | Current eligibility and boundary |
 |---|---|---|
@@ -68,9 +92,10 @@ independent biological test or exclude cell-composition explanations.
 | Q8 / E1-E2 | Animal-resolved recipient-state, cessation/persistence and later-function comparisons | Existing Choi pooling/sparse-capture and missing exposure/cessation/function joins remain. No further unrelated atlas expansion in this reassessment |
 | Q9 / D1 | Review exact output values, meaningful figures, negative results and every disposition; update the article README and project state | Required even if a numerical job cannot execute. A service failure must be recorded separately from a data/design hold |
 
-The technical eligibility report and subsequent immutable receipts determine
-execution status. This prospective table does not assert that Q1-Q4 ran or that
-a historical service restriction has been lifted.
+This table records pre-execution eligibility. The [final dispositions](RESULTS.md#final-job-dispositions)
+and [originating review](ORIGINATING_REVIEW.md) now document completion of Q0-Q4
+and Q9 and the specific surviving holds. A historical service restriction is
+not asserted to have been lifted.
 
 ## Execution rules and scope amendment
 

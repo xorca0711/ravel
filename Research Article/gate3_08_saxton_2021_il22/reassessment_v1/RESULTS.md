@@ -132,7 +132,7 @@ retain/reject decision or claim-grade promotion is inferred from completion.
 | Q6 / exact Figure 6 replay | Held: author-method evidence | Original gene universe, transformation, aggregation/filtering/zero handling and correlation choices remain unrecovered |
 | Q7 / R4-R5 signaling/function | Held: raw data and panel identity | Raw measurements, replicate/nesting keys and unresolved Figure 5/7 identities remain unqualified; RNA output cannot substitute |
 | Q8 / E1-E2 recipient/persistence | Held beyond completed E1a/X3 scope | Pooled Choi observations, sparse capture and missing animal-resolved exposure/cessation/later-function joins; no unrelated atlas expansion |
-| Q9 / D1 | Technical package complete; parent integration remains | Numerical verification, figures, unfavorable results and this disposition table delivered; originating review and parent-owned navigation/PROGRESS integration remain separate |
+| Q9 / D1 | Completed technical package and parent review/integration | Numerical verification, figures, unfavorable results and this table delivered; [originating review](ORIGINATING_REVIEW.md) records the independent checks and parent README/navigation/PROGRESS integration |
 
 No current service content refusal occurred during this run. The original two
 generic prompt-level failures remain historical evidence with unidentified
