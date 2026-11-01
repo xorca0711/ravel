@@ -1,0 +1,33 @@
+first,second,feature_type,first_n,second_n,shared_ids,identical_sets
+GSE302685_control,GSE302685_control,Gene Expression,32285,32285,32285,True
+GSE302685_control,GSE302685_control,Peaks,141432,141432,141432,True
+GSE302685_control,GSE302685_irradiated,Gene Expression,32285,32285,32285,True
+GSE302685_control,GSE302685_irradiated,Peaks,141432,125314,73,False
+GSE302685_control,GSE302687_control,Gene Expression,32285,32285,32285,True
+GSE302685_control,GSE302687_control,Peaks,141432,96085,25,False
+GSE302685_control,GSE302687_irradiated,Gene Expression,32285,32285,32285,True
+GSE302685_control,GSE302687_irradiated,Peaks,141432,124136,41,False
+GSE302685_irradiated,GSE302685_control,Gene Expression,32285,32285,32285,True
+GSE302685_irradiated,GSE302685_control,Peaks,125314,141432,73,False
+GSE302685_irradiated,GSE302685_irradiated,Gene Expression,32285,32285,32285,True
+GSE302685_irradiated,GSE302685_irradiated,Peaks,125314,125314,125314,True
+GSE302685_irradiated,GSE302687_control,Gene Expression,32285,32285,32285,True
+GSE302685_irradiated,GSE302687_control,Peaks,125314,96085,25,False
+GSE302685_irradiated,GSE302687_irradiated,Gene Expression,32285,32285,32285,True
+GSE302685_irradiated,GSE302687_irradiated,Peaks,125314,124136,40,False
+GSE302687_control,GSE302685_control,Gene Expression,32285,32285,32285,True
+GSE302687_control,GSE302685_control,Peaks,96085,141432,25,False
+GSE302687_control,GSE302685_irradiated,Gene Expression,32285,32285,32285,True
+GSE302687_control,GSE302685_irradiated,Peaks,96085,125314,25,False
+GSE302687_control,GSE302687_control,Gene Expression,32285,32285,32285,True
+GSE302687_control,GSE302687_control,Peaks,96085,96085,96085,True
+GSE302687_control,GSE302687_irradiated,Gene Expression,32285,32285,32285,True
+GSE302687_control,GSE302687_irradiated,Peaks,96085,124136,47,False
+GSE302687_irradiated,GSE302685_control,Gene Expression,32285,32285,32285,True
+GSE302687_irradiated,GSE302685_control,Peaks,124136,141432,41,False
+GSE302687_irradiated,GSE302685_irradiated,Gene Expression,32285,32285,32285,True
+GSE302687_irradiated,GSE302685_irradiated,Peaks,124136,125314,40,False
+GSE302687_irradiated,GSE302687_control,Gene Expression,32285,32285,32285,True
+GSE302687_irradiated,GSE302687_control,Peaks,124136,96085,47,False
+GSE302687_irradiated,GSE302687_irradiated,Gene Expression,32285,32285,32285,True
+GSE302687_irradiated,GSE302687_irradiated,Peaks,124136,124136,124136,True

@@ -1,0 +1,976 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Arz1.source_qualification_v1",
+  "owner": "Arz1-P01",
+  "contract": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/metadata_contract_v1.json",
+  "contract_sha256": "b34915eda1f4f0e86936c200dc3f31162d0e776093a26c536dc168eae26d0aa4",
+  "git_commit": "8673abad74022d8d8a90d43857f68698806ecb66",
+  "started_at": "2026-11-01T05:34:07.001381+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/qualify_v1.py",
+    "--output",
+    "analysis/research/runs/arz1_source_qualification_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM1_ESM.pdf",
+      "sha256": "cda0d7adde603494e71d799107cfe785fb5d6cd470b4c40bda231bf23d7991b2",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM1_ESM.pdf.extraction.json",
+      "sha256": "e25aecc81ddaeaf61ff819ec129b22c2474b3872572f64dc453c2c67970d0657",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM1_ESM.pdf.request.json",
+      "sha256": "63267a65f4a72eca913eb2653bd25081f32e1175617fc1ac27e93d70ae7e820f",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM2_ESM.pdf",
+      "sha256": "e59ceb75ca8f979b5b39aec60aeb6d48fbcabdecc2e8456d1d2b64fd16e46e6c",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM2_ESM.pdf.extraction.json",
+      "sha256": "01d7cbb05e96a1e3918b74d61bb5ef1d3ad95dc9b0071f2985bf9bd829b28761",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM2_ESM.pdf.request.json",
+      "sha256": "00c8742978845adbb82a36d486eb84792c9e6dc0000db0d5b26e60366c2f4ab3",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM3_ESM.pdf",
+      "sha256": "1424f8adb7c3aa6c02675f8a78995f6cd135e4649a02deac08f420f6b575bb19",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM3_ESM.pdf.extraction.json",
+      "sha256": "13c7408a082913525cef41f907104aaccd782279737a789d9b2dfc6a422c3d26",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM3_ESM.pdf.request.json",
+      "sha256": "dad79d6d7ce8d3a96bd8d8d436eba2828e6005d8ffdf29368a7dfb620bdb7575",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM4_ESM.xlsx",
+      "sha256": "2b1d37fd4d550f86db44d0cc1f62c24a2a06f21ae2af70940be6d6ca4364c4c2",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM4_ESM.xlsx.extraction.json",
+      "sha256": "2bd74150fac6afc79bdb422698658d5754a971bd3e4679becac341d6e7d2908d",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/41467_2026_79014_MOESM4_ESM.xlsx.request.json",
+      "sha256": "b179327654effc3b7e06fd330cf43358f4c4d1244db0157dca6bbb7fe56bb5f3",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/article.pdf",
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/article.pdf.request.json",
+      "sha256": "b04519594d8d708763628be5bff377b731de5a861200ddc525480a486c09ff3f",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/article_fulltext.xml",
+      "sha256": "e5719b710fb47107d578e1824e30f3e482ac90c43ff919aa671fc6a973978395",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/article_fulltext.xml.request.json",
+      "sha256": "71e0ca29bcfb1107b6341362a34b1ed82d1076ca584597896a73c05f09c22f82",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/biosamples.xml",
+      "sha256": "3aeb2907d9a3c7e3a3fcf6d0ffabdd944661add698159a5a8bf4a21d374abfc5",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/biosamples.xml.request.json",
+      "sha256": "49fea14095c1613f3ebf00173f1bfd21616f599e8ec2f229b130fe75274472c2",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/crossref.json",
+      "sha256": "f3d0b62e451119d6601db8b083ac307f599460153b02446f170ef8e0f2c4331b",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/crossref.json.request.json",
+      "sha256": "3d49f71036d435773f4e4a11dda758fc614c88fe6b3eb71e3d706a98a43890b9",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/europepmc_search.json",
+      "sha256": "17e78fa241f2a27d1f5a66fcee1bbc73ac82f4560260c7bed86110d814e57dfc",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/europepmc_search.json.request.json",
+      "sha256": "446be8e9377ac17ced05312a3cea6879f60bdde900ae594efdfecd79ac87c5c2",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/europepmc_supplementary.request.json",
+      "sha256": "dfe4c66e9a4290b56bcf1f27122a48b6b2ec1654156c0be0f34a47329bd649fd",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/europepmc_supplementary_response.bin",
+      "sha256": "8fcb91bd772ba0ec966e4a8ef631d08e61478a3efdda18ffe9b6718392340652",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302684_family.soft.gz",
+      "sha256": "222a413615e21732fa64507c21235c602f761baf16526c90d2b43881003ef3f2",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302684_request.json",
+      "sha256": "5c8772b50f9629bbad4fea7072ce9232950b1a46a9d560952278934a72b1d74e",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302684_suppl_index.html",
+      "sha256": "ec82bd9c62e657a5f393a4ab42be47c113994b36edff9ca6589686ccc273b4cd",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302684_suppl_request.json",
+      "sha256": "39fc3cc7bbf4ecd8a679031966483c2bdacdfe64ab5aa7a3f7c92422ef03fd27",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302685_control_filtered_feature_bc_matrix.h5.request.json",
+      "sha256": "fd44a6222796275ef8e5948df32bdc59cb613dabfc35d801420634517cbaa240",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302685_family.soft.gz",
+      "sha256": "72a69d556c9a2471bd2acecdd2211b1eb37a7a2f94872142d7ce2f2337cf4b54",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302685_irradiated_filtered_feature_bc_matrix.h5.request.json",
+      "sha256": "ff82a81f3f795201a92375f910f5f7a93e52f412016fb2496fa94a1c2cfd2b33",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302685_request.json",
+      "sha256": "1b30266f07425c9d853c0c85339f52d32899cfd892b2b7b77466abbc2b55eb1b",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302685_suppl_index.html",
+      "sha256": "5c62c6351844a133d5d2df9e07b5ab4a3cd324257d128ea6176df1ed6afe23e4",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302685_suppl_request.json",
+      "sha256": "f3a1f286bf5b61238569d27616de8c2c54266fb181987d19d5b7e642bfc7d05a",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302687_control_filtered_feature_bc_matrix.h5.request.json",
+      "sha256": "b97fad5e12248b7681333c74a65c3d5a800582ac84a344d2dd3b4b2fed285943",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302687_family.soft.gz",
+      "sha256": "3ead0ea09bc5381871b61347b82ee9645556bedf1e80a7071c6b56c62b05046c",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302687_irradiated_filtered_feature_bc_matrix.h5.request.json",
+      "sha256": "c8cb63e0e8a5efa2ce3a78169e66131b325d6da3c88839310964cc3bd8a68dcf",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302687_request.json",
+      "sha256": "db7ae5ff1e10e7573d6636dfb6c16485f741978cc6cfcfd845e0055aa06157ef",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302687_suppl_index.html",
+      "sha256": "af17c73a8e151d7fa4f16886117a31a94d7e7dcb93f00dc2c85b60832d2f1c63",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE302687_suppl_request.json",
+      "sha256": "cef21c8031ddcba7e4680fe956e605eb7181f4605961c2a0e5f0a7a0da697cc4",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329696_family.soft.gz",
+      "sha256": "aade81cb19e982aad7456417cfaa1a54de147ea71c2dacbbcb3cbf27fe382459",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329696_request.json",
+      "sha256": "7367225ecb11cf19d231a2a93e176becee4fcb2cd04b3a57dadcf38958c139bc",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329696_salmon.merged.gene_counts.tsv.gz.request.json",
+      "sha256": "7ef8dee75eed776dd6f407acd371f2ce9c59dbe28c4a6dd345b205927f0b63b7",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329696_salmon.merged.gene_tpm.tsv.gz.request.json",
+      "sha256": "ab42549992c9e41ca3c973ba368fc86ee6edd36fb90a26cc36b8eaae56f0015f",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329696_suppl_index.html",
+      "sha256": "7ba9180dd07a4af66b6ace1df6547ed694774afde8352ba4436e9a718cf953a6",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329696_suppl_request.json",
+      "sha256": "f299f01659c545b856e6602845b0635d6950f9a0013b48665662172fa5189fa5",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329778_family.soft.gz",
+      "sha256": "819c2a07f497abe295ac57e54c1b09cfd82b25ec55fc34ce99f8f729cb444c30",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329778_filelist.txt",
+      "sha256": "117f8417b6b9eec2e1fbd5b2835fbb70a045ccc5dcc246da8e1d43e92add5f57",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329778_filelist.txt.request.json",
+      "sha256": "e561a0e7f241f4754000c277d8f88c563ab935a176a088e3b1d4c1bdd184dc08",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329778_request.json",
+      "sha256": "3cdee728a27eb127eff8647ae48cc2046f0f8d19a018641cabb4f86bd1de4686",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329778_suppl_index.html",
+      "sha256": "9bbd603fdd8d5fc3e6d7154c6bc4334448aff76f9d8a853c78eea426421aeffe",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329778_suppl_request.json",
+      "sha256": "1d38c4f06206186b30142471fda0ef624d38b0a97776d297ccbe4336d29eb4ba",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329965_family.soft.gz",
+      "sha256": "20d06a1f768cb8b00d8b7b728cc0a75c638fc7b651011bb0ab857516e9fd593f",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329965_filelist.txt",
+      "sha256": "a53be1393539442f11bfd9d52c43947d01a5283dc93d99dac8fde73219a8a4d7",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329965_filelist.txt.request.json",
+      "sha256": "1ee470ec57756d959cfbf656f88695dd9b3b0998d314a9c823ac048f3e3de537",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329965_request.json",
+      "sha256": "454b9e93224820ebff9649685d87053d53eae697243f76515fe9d9ed2dc58dfb",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329965_suppl_index.html",
+      "sha256": "71ed97a29a533c9f76634f2f947be9bc8b18ffa929d8a6dbfd9db4a48ad2c668",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSE329965_suppl_request.json",
+      "sha256": "226a1cdb406cfda47c0b151637da65dbed506fd1506ddce526963f1776af64e7",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711144_barcodes_CTRL.tsv.gz.request.json",
+      "sha256": "e02de462d4c37242fc2011c0ad0b7ffd98c7fb5d1dbbdcc9629e981fc54d6f6a",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711144_features_CTRL.tsv.gz.request.json",
+      "sha256": "2c111fa15fe5089ea51ffb1005cbbf4732d8670bc4e5ff516bc47986815a7fe0",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711144_matrix_CTRL.mtx.gz.request.json",
+      "sha256": "467ec0eba6977a6968dc503689227fdd999f8cf805109898de4b94017a0a5b0f",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711146_barcodes_KRT20.tsv.gz.request.json",
+      "sha256": "a439cdb3f350d4431f32ac31e9ec081b9961b1647d973afe00ec258c3dc0546f",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711146_features_KRT20.tsv.gz.request.json",
+      "sha256": "3d210bed8d7a28e42eb87e54cd03dc779397ada03a72df32fd17b846ddd441a2",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711146_matrix_KRT20.mtx.gz.request.json",
+      "sha256": "776527a3c6fdae63d9411c99271c471be803df89f38a4dbb436fed580ae963ea",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711148_barcodes_LGR5.tsv.gz.request.json",
+      "sha256": "81b8937b2df161013488c3e3bf3f9368f1213de4be28b38e62c3b0773f65bb53",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711148_features_LGR5.tsv.gz.request.json",
+      "sha256": "8e6f8a6f6bdd72b202cdd0a732b332397c3c9f52e0a3957ca73fb643aaf96abc",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9711148_matrix_LGR5.mtx.gz.request.json",
+      "sha256": "1d71499bccb49d2c87c9f6498ceaa7c23646095caed875a25999a01b594b20bb",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9714145_bc_list_CTRL.txt.gz.request.json",
+      "sha256": "b9b21bf6aa4ecc32e5762dc9564f1d3cc93d431388f2d9e0ad284b2cbe5c9539",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9714145_DGE_CTRL.txt.gz.request.json",
+      "sha256": "b3f68eb1cc496f9c4222830914802076792d337e75ca39e9d833c8d65780a2cf",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9714146_bc_list_7DPI.txt.gz.request.json",
+      "sha256": "066dbcae71a299c9283af73a962c57b9f9d54aff637e8040b7470ce743524e2b",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9714146_DGE_7DPI.txt.gz.request.json",
+      "sha256": "6d38d51ff54616506841ba8a82960deb06865cfc560f5dc2190d508bb0282de8",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9714147_bc_list_21DPI.txt.gz.request.json",
+      "sha256": "94bb5860ec1fa230c271fa038cc1eb8322044d6fc5d7a32c61cde8d1d73d7976",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/GSM9714147_DGE_21DPI.txt.gz.request.json",
+      "sha256": "3b2f0b86725349f8acf755c722528cacb3f3aa3706ac3f756e1cd3f0a811a7ad",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/source_acquisition_20261101/pmc_oa_record.request.json",
+      "sha256": "d99769e8ae1e24f937891142f7d9ae8e03ee228252c835d9b01909006e462f0b",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302685_control_filtered_feature_bc_matrix.h5",
+      "sha256": "2739d71eccb2299a958f877f2acdfb421b32e3ad4d64dc1cb452c8c365d81744",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302685_irradiated_filtered_feature_bc_matrix.h5",
+      "sha256": "ad3e42339b7da6925e960cf1b146b313619cb56dbb3862e945833cfbd0adc5ab",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302687_control_filtered_feature_bc_matrix.h5",
+      "sha256": "4877ae63f2169a400da36ebbfd2cd47eed55c63ad195f8f774f1f336c7f29e4d",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302687_irradiated_filtered_feature_bc_matrix.h5",
+      "sha256": "34da6012a538550ab498b251998be36a8125cce58857f5dcd29082a5cf936b50",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE329696_salmon.merged.gene_counts.tsv.gz",
+      "sha256": "6926537b1b5a1e3f95bba6bfea5c18ec285216ba7a72be9e1bb575755f9b5ab2",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE329696_salmon.merged.gene_tpm.tsv.gz",
+      "sha256": "6f04f7d916d7b180f192790775439afcbbceb55f8f053a4505ed875959f51353",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_barcodes_CTRL.tsv.gz",
+      "sha256": "9d98d92e895ef575615abfd80290f9ed71169b69c8ce6c470328eb2cc4793ea7",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_features_CTRL.tsv.gz",
+      "sha256": "b5853b9440c788b9c44940d0f747010d2ce60c7ee3f037333f2d60b6a0b737eb",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_matrix_CTRL.mtx.gz",
+      "sha256": "6f9a8b1bf1888ec0b70cd7274ea35f335dfa26c18ea5637bdb850497b71abc24",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_barcodes_KRT20.tsv.gz",
+      "sha256": "c0335293fdfd788a85f45877781d674bd913b7748cbba09c329cad3a46e3cf33",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_features_KRT20.tsv.gz",
+      "sha256": "73debab327c08b26edd7e96c68aeb824d3d73e9075449cc6d03e2d3c62f7861e",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_matrix_KRT20.mtx.gz",
+      "sha256": "0c28eedd4a98d15e0f38d6785aad84cb155b107ec44b790ed2467591d671bf75",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_barcodes_LGR5.tsv.gz",
+      "sha256": "fe8ae0f537b7691f73b450a3bf554c48e196515ece2d346b3c287fbb84cfa6b4",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_features_LGR5.tsv.gz",
+      "sha256": "7095317b1549f85e9d7c5cf2fcb45c84a8b92abd7f86a253ee4fc7e0be8e9192",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_matrix_LGR5.mtx.gz",
+      "sha256": "1aaf82baac60820e19d05ba144c915d727619c8bbdd8789fe6540456040e9060",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9714145_bc_list_CTRL.txt.gz",
+      "sha256": "8363ae762ee6d78cc75908a5a36a6750b92b1a8893805566aea6d03310982661",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9714145_DGE_CTRL.txt.gz",
+      "sha256": "2ff2a672dd100f39fd41f3eb76ebf2372455740ff1d480e8d905a47fbd503949",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9714146_bc_list_7DPI.txt.gz",
+      "sha256": "dc2ceba208ed56ef639450263ee861017e878b01d509fc2f7ca070a77f71e8fb",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9714146_DGE_7DPI.txt.gz",
+      "sha256": "fe71ceffb1079b9eed8b378d5a346cb262c82fed37e553da6299228a8426b7af",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9714147_bc_list_21DPI.txt.gz",
+      "sha256": "921004932b2c503e823a3ca469f4c0beec3cc60fcfbfba687e37dc6b73bc1782",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9714147_DGE_21DPI.txt.gz",
+      "sha256": "63049dc7a43150b65725ca778d79de36b60d302c4eb69404470f5e128d26bf2f",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/sources/intake_v1.json",
+      "sha256": "79c89ee5ae7fbf078c084c227a5c1d996a50fe1d16cf18b30d729f104afe5222",
+      "study_id": "Arz1_prospective_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/METADATA_METHODS.md",
+      "sha256": "1d9f934fbff90d103412b6cdb03ec021350b0a42f6eb2eb884f84e71c44b83a3",
+      "study_id": "Arz1_prospective_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/qualify_v1.py",
+      "sha256": "e5c4cdd99115b843c271eaa11119d68a72f1f4dce2b08b93abcf797cf043fbd2"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_qualification.py",
+      "sha256": "bcb4e21a68859a9b8ad5fff30236444d03c7dc5f1031d78e1a738c2794381bb5"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/sources/intake_v1.json",
+      "sha256": "79c89ee5ae7fbf078c084c227a5c1d996a50fe1d16cf18b30d729f104afe5222"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/.gitattributes",
+      "sha256": "f53a6d00a3d75d9a2617286480463ecdab4bb95fd1012c29ec30576e3a1ae14e"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/file_manifest.csv",
+      "sha256": "8e93dae1bf193dc1b6fef4cd7e1cd6a75a7757b2d1161fcf023ea817685d6420"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/series_records.csv",
+      "sha256": "fb2fd96df0638d0a861ecf623f0d177cbd3558ff3a4240b17854bfc973f37ef7"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/sample_records.csv",
+      "sha256": "b160ffb02eb9f3fee3e1b57d548a45e6a74fb1e2997eace80101b3d5ff1fded2"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/deposited_file_links.csv",
+      "sha256": "9245c76f5c8e0aefd2eca1f343e60d22460a7760a3ef0dca47db072af95bf587"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/biosample_crosswalk.csv",
+      "sha256": "2c5b308f0d305683ef647ba4468a18e81d1dfd0592455a90f49a71c624993189"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/matrix_inventory.csv",
+      "sha256": "ff533bf970a57d00679155c957356c218133188a8d92a49a7de6c18539d76209"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/feature_types.csv",
+      "sha256": "1dc5166947881cd668ab4bd10aca732cbc3dc365098fa281fa133a1b90229202"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/h5_schema.json",
+      "sha256": "1df695374fe5012fa3c9920e95400d36241576b0a29fb50b4251b6d3e21d06ca"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/barcode_overlap.csv",
+      "sha256": "b5d6025e7ed4cb59510e6ae1d881d6307f6481bef9b049b658903249bda65a42"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/feature_overlap.csv",
+      "sha256": "3cc0b7de086cd2b5fcd32dcf5628f9722c9e26689e99f47d556af5aee89e8dbc"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/dense_table_inventory.json",
+      "sha256": "5f4c2a798f99af880eb49be0a62a11e77f29470920ce3a5d10c9ef7b79b49741"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/source_workbook_text_cells.csv",
+      "sha256": "0c41e18c2bf600db5cd6b010c2a17699ac08b1ce35464b73d5ebb45589de69aa"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/article_source_index.json",
+      "sha256": "31dde76778af8724347494f2256d762a343282bfef8f1782ac01888c6f1589ee"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/summary.json",
+      "sha256": "773d3454c682d5f871f022e5a6b9700be1e7111108f4aa178673c148f9815bbd"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-01T05:34:48.597757+00:00"
+}

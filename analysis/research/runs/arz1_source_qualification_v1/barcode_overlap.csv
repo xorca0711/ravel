@@ -1,0 +1,17 @@
+first,second,first_n,second_n,shared_barcodes,exact_order_match,interpretation
+GSE302685_control,GSE302685_control,6942,6942,6942,True,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302685_control,GSE302685_irradiated,6942,8405,70,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302685_control,GSE302687_control,6942,9897,98,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302685_control,GSE302687_irradiated,6942,10362,104,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302685_irradiated,GSE302685_control,8405,6942,70,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302685_irradiated,GSE302685_irradiated,8405,8405,8405,True,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302685_irradiated,GSE302687_control,8405,9897,102,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302685_irradiated,GSE302687_irradiated,8405,10362,125,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302687_control,GSE302685_control,9897,6942,98,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302687_control,GSE302685_irradiated,9897,8405,102,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302687_control,GSE302687_control,9897,9897,9897,True,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302687_control,GSE302687_irradiated,9897,10362,161,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302687_irradiated,GSE302685_control,10362,6942,104,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302687_irradiated,GSE302685_irradiated,10362,8405,125,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302687_irradiated,GSE302687_control,10362,9897,161,False,Barcode whitelist reuse across libraries is not a cell/animal join
+GSE302687_irradiated,GSE302687_irradiated,10362,10362,10362,True,Barcode whitelist reuse across libraries is not a cell/animal join
