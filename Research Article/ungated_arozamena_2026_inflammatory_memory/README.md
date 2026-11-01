@@ -1,4 +1,4 @@
-# Arozamena 2026: source qualification and conditional multiome extensions
+# Arozamena 2026: deposited RNA patterns and conditional accessibility
 
 1 November 2026. Article-local candidate **Arz1-P01**, proposed and outcome-exposed.
 The owner requested source qualification through the existing technical chat,
@@ -6,6 +6,13 @@ every eligible extension, originating review and updates to PR #157. This packag
 owns the new paper's evidence; the [Saxton connection note](../gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md)
 owns its motivation. Neither a new canonical RQ nor human scientific acceptance
 is created. [Literature/source context](LITERATURE_CONTEXT.md).
+
+**Reviewed RNA result:** the eight selected targets show mixed accession-specific
+directions. GSE329778 LGR5 changes from a -0.506 panel median before RNA QC to
++0.556 after RNA QC; retention is 635 of 6,921 barcodes. This is selection
+sensitivity, not a recovered true direction or a test of the paper's ISC-specific
+claim. [Results](RNA_RESULTS.md) · [Figure gallery](FIGURES.md) ·
+[Originating review](ORIGINATING_REVIEW.md) · [Existing-RQ context](RQ_CONNECTIONS.md).
 
 ## Question, source and intended contribution
 
@@ -32,8 +39,13 @@ located in the documented source coverage. Cohorts remain non-interchangeable.
 
 Plan amendment: run a [narrower four-contrast RNA description](RNA_EXTENSION_BRIEF.md)
 because matched gene IDs and accession-specific controls are available. This
-Q3a/Q5a extension does not complete the held within-state Q3. A separate Q4a
-feasibility assessment considers the third deposit's linked fragment files.
+Q3a/Q5a extension does not complete the held within-state Q3. The subsequent
+[Q4a assessment](Q4A_FEASIBILITY.md) found GRCm39/ARC 2.1 fragment headers that
+conflict with the article/GEO mm10/ARC 2.0.2 description. A streamed four-locus
+adaptation is feasible on the deposited reference; the
+[prospective accessibility brief](ACCESSIBILITY_EXTENSION_BRIEF.md) fixes common
+M33 TSS-proximal windows and gene-body sensitivity before counting. This is not
+exact author replay or a substitute for missing cell-state annotations.
 
 ## Comparison and interpretation limits
 
@@ -64,13 +76,13 @@ p-values/FDR or certainty claims are authorized by a large cell count.
 | Q0 | Verify paper/version/accessions and retrieve legitimate public source records; record hashes/access failures | Completed within documented coverage; full XML and four supplements recovered |
 | Q1 | Reconcile sample/preparation/animal identities, pooling, history/time/lineage, assay pairing and annotations | Source map completed with explicit run-number/sorting contradictions; independent mouse/pool identities unvalidated |
 | Q2 | Contracted metadata/input QC: formats, dimensions, identifiers, barcode overlap, coverage and available state mapping | Completed v1/v2; counted-empty-record adapter resolved three parser holds without changing sources |
-| Q3 | Describe within-state versus state-abundance contributions for a source-supported comparison | Conditional on qualified state/count/unit map and parent-reviewed frozen specification; bulk deconvolution cannot replace missing state observations |
-| Q4 | Describe paired RNA/accessibility relationships within the same qualified state and assay units | Requires actual pairing, defined features/peak links and appropriate depth/selection handling; no causal TF or memory interpretation |
-| Q5 | Bounded sensitivity to source-supported normalization, library omission and state/feature mapping choices | Specify before endpoint exposure; no outcome-driven sample/feature expansion or cell-based population replication |
-| Q6 | Evaluate early molecular information against later measured regeneration/fate/function | Requires genuine biological-unit and timing linkage; separate cohorts remain separate evidence if joins fail |
+| Q3 | Describe within-state versus state-abundance contributions for a source-supported comparison | Held: author barcode-state map not located in inspected deposits/supplements; requires that map or separately reviewed operational state annotation |
+| Q4 | Describe paired RNA/accessibility relationships within the same qualified state and assay units | Held: no common recounted matrix across seven libraries, first/second-deposit fragments not located, state map absent, and actual third-deposit reference conflicts with paper metadata |
+| Q5 | Bounded sensitivity to source-supported normalization, library omission and state/feature mapping choices | RNA weighting/QC family completed as Q5a; state/feature sensitivity for original Q3/Q4 remains dependent on their inputs |
+| Q6 | Evaluate early molecular information against later measured regeneration/fate/function | Held: no actual early-molecular/later-function animal or preparation join located; group labels cannot supply it |
 | Q7 | Originating numerical/source/visual review, figure gallery, README/RQ connections and PR #157 update | Required for completed and held jobs; exact failure type and reopening evidence for every hold |
-| Q3a/Q5a | Four accession-specific whole-library RNA contrasts and fixed weighting/RNA-only QC sensitivities | Authorized by the prospective brief; numerical freeze/execution/review pending |
-| Q4a | Assess third-deposit-only common-feature accessibility using its linked fragments | Source/resource feasibility assessment only; a separate numerical brief is required before endpoints |
+| Q3a/Q5a | Four accession-specific whole-library RNA contrasts and fixed weighting/RNA-only QC sensitivities | Completed and independently reviewed: 31,950 genes, 16 cases, 128 selected-target contrasts; no execution/mapping/empty-subset holds |
+| Q4a | Third-deposit-only four-locus common-region accessibility and paired RNA | Feasibility completed; separately reviewed GRCm39 brief authorizes acquisition, frozen counting and bounded sensitivity; execution/review pending |
 
 ## Execution and ownership
 

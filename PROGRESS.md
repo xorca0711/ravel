@@ -1,5 +1,23 @@
 # Current project state
 
+## Arozamena RNA reviewed; fragment adaptation authorized — 1 November 2026
+
+RNA/source checkpoint `0aa33d2` is integrated. All eligible Q3a/Q5a cases executed
+at freeze `a9e469e`: 31,950 genes, four separate contrasts and four fixed cases.
+Parent independent review passed 45 bindings, raw target/QC reconstruction for
+55,587 barcodes and 128 panel values, and arithmetic for 511,200 gene contrasts.
+Both actual figures passed visual review. The GSE329778 LGR5 panel reverses from
+-0.506 before RNA QC to +0.556 afterward, retaining 635/6,921 barcodes; this is
+selection sensitivity, not proof of memory or failure of the source's ISC result.
+
+[Current article ledger and gallery](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+retain state-map, independent-unit, full common-peak and functional-join holds.
+Fragment headers establish GRCm39/ARC2.1 despite article/GEO mm10/ARC2.0.2 metadata.
+A [separate prospective Q4a brief](Research%20Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_EXTENSION_BRIEF.md)
+authorizes a streamed GRCm39 four-locus adaptation using matched barcodes, fixed
+M33 windows and gene-body sensitivity. Next: technical acquisition/freeze/run,
+originating review, final RQ context/PR #157 update. Fresh main is `51d3b93`.
+
 ## Arozamena source review and eligible RNA extension — 1 November 2026
 
 Source checkpoint `fe719b1` is integrated. Metadata v1/v2 qualified seven deposited
