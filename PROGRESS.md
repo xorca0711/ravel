@@ -1,5 +1,24 @@
 # Current project state
 
+## Arozamena multiome qualification authorized — 1 November 2026
+
+Owner requested source qualification and every eligible extension through the
+existing technical chat, followed by review and PR #157 updates. The new
+[article-local Arz1-P01 package](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+records the within-state/composition question, separate outcome-linkage question,
+Q0-Q7 sequence and current unknowns. This is a non-infectious intestinal reference,
+not an IL-22 or NAM-mechanism result. The namespace was checked absent before
+registration; no canonical RQ or scientific acceptance is created.
+
+Parent clean head at launch was `33b8a22`; PR #157 is open and fresh main remains
+`51d3b93`. Existing technical chat `01a191d5-e0e2-70d2-92e0-97272f85ce11` received
+source-intake scope and separate ownership. Source reading/qualification precedes
+any numerical brief. Article-reported GEO IDs, unit independence, paired assays,
+state labels and functional joins are unverified; failed direct web opens are
+access observations, not missing-data conclusions. Next: review the source
+checkpoint, freeze eligible job-specific contracts, execute, review outputs and
+record exact reasons for surviving holds. No new analysis has executed at launch.
+
 ## Saxton connections to proposed RQs — 1 November 2026
 
 The owner requested extensions and alternative biological framing. The
