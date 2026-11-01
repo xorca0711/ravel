@@ -1,5 +1,27 @@
 # Current project state
 
+## Saxton connections to proposed RQs — 1 November 2026
+
+The owner requested extensions and alternative biological framing. The
+[connection note](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md)
+maps recipient competence to A9/A12, cessation and later output to A14/A8/A19,
+and assay-specific interpretation to A1/DY1-P02, with a bounded A22 analogy.
+Current negative results and source/unit holds are retained. This is article-local
+development; no canonical hypothesis, registry identity, claim grade or scientific
+acceptance changes, and no numerical analysis was launched.
+
+A fresh primary-source pass distinguishes published IL-22/OSMR responsiveness
+from autonomous memory and identifies Arozamena et al. (27 October 2026) as a close
+intestinal multiomics/regeneration precedent. Its accessions are article-reported,
+not qualified inputs: direct GEO opens failed and sample/assay/fate joins remain
+unverified. Exact searches, reading coverage, contrary stem-cell findings and
+access limits are saved in the note. Next feasible work is bounded source intake,
+then a prospective contract only if the specific comparison qualifies. Main
+remains `51d3b93`; this documentation extends the current PR #157 scope without
+changing its frozen analysis. Documentation validation passed 12,972 checks;
+whitespace checks passed. Prior numerical checks remain valid because numerical
+assets are unchanged. This turn adds reading/context only, with no new analysis run.
+
 ## Saxton descriptive program reassessment reviewed — 1 November 2026
 
 Q0-Q4 and Q9 are complete. The existing technical chat delivered reviewed commit

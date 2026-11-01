@@ -1,5 +1,9 @@
 # Sx22-P01: gene-program reassessment
 
+[Connections to existing RQs and conditional biological extensions](RQ_CONNECTIONS.md)
+distinguish recipient competence, post-cessation persistence and mature repair.
+They are proposals with source-qualification requirements, not new numerical results.
+
 **Reviewed completion, 1 November 2026:** Q0-Q4 and Q9 are complete. The
 [results and final job dispositions](RESULTS.md) report one frozen descriptive
 run over all six source libraries, eight author memberships and two external IFN

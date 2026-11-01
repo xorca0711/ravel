@@ -110,6 +110,12 @@ mechanism or convert reused libraries into replication. The selected barrier
 panel's negative direct contrast and the unstable three-target subset are retained.
 The earlier source/search limitations above remain historical reading facts.
 
+**Owner-requested connection review, later on 1 November:** [RQ connections](RQ_CONNECTIONS.md)
+records the bounded refreshed search, exact current question mappings, the
+published OSMR/recipient-response precedent, and a recent intestinal multiome
+lead. Canonical hypotheses are unchanged. No cohort or new numerical job is
+qualified by that synthesis; its access and sample-linkage limits are explicit.
+
 Stop this bounded pass at the source-reproduction question. Reopen the literature
 review if a result motivates a particular biological mechanism or a new cohort;
 do not infer novelty or launch a memory/function branch from these RNA summaries.
