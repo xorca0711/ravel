@@ -1,0 +1,13 @@
+count_definition,library,subset,original_rna_barcodes,paired_barcodes,removed_for_zero_nuclear_fragments,unchanged_from_prior_rna,positive_sets_agree_between_definitions,paired_rna_denominator,paired_nuclear_fragment_denominator
+strand_records,GSE329778_CTRL,all,5164,5164,0,True,True,10428351,25448985
+strand_records,GSE329778_CTRL,rna_qc,1650,1650,0,True,True,3572347,8955910
+coordinate_groups,GSE329778_CTRL,all,5164,5164,0,True,True,10428351,25440023
+coordinate_groups,GSE329778_CTRL,rna_qc,1650,1650,0,True,True,3572347,8954036
+strand_records,GSE329778_KRT20,all,7896,7896,0,True,True,17643253,28201254
+strand_records,GSE329778_KRT20,rna_qc,2711,2711,0,True,True,6409839,9655903
+coordinate_groups,GSE329778_KRT20,all,7896,7896,0,True,True,17643253,28196831
+coordinate_groups,GSE329778_KRT20,rna_qc,2711,2711,0,True,True,6409839,9655191
+strand_records,GSE329778_LGR5,all,6921,6921,0,True,True,11182334,40642682
+strand_records,GSE329778_LGR5,rna_qc,635,635,0,True,True,1165579,7797163
+coordinate_groups,GSE329778_LGR5,all,6921,6921,0,True,True,11182334,40639240
+coordinate_groups,GSE329778_LGR5,rna_qc,635,635,0,True,True,1165579,7796548

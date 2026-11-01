@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Arz1.accessibility_primary_render_v1",
+  "owner": "Arz1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How can the existing primary Q4a descriptive figure be displayed with clear legend/title separation while preserving every frozen measured value and interpretation limit?",
+  "decision": "Replace only the displayed primary figure with an independently frozen render-only spacing correction; preserve all original v2 outputs and its sensitivity figure.",
+  "strongest_rival": "A layout correction could inadvertently change selected cases, plotted values, labels or denominator interpretation; exact source selection and visual/value checks address this presentation risk.",
+  "discriminator": "Same eight primary cases and 16 plotted RNA/fragment differences, same colors/labels/axis extent and full caption; dedicated legend band and lowered axes only.",
+  "evidence_refs": [
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/PRIMARY_RENDER_CORRECTION_V1.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_VALIDATION.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All v2 outcomes and figures are exposed. Originating review requested this precise layout correction after inspecting both actual PNGs; the sensitivity figure passed. The source table and v2 receipt are hash-bound. No raw-source reanalysis or outcome selection is performed.",
+  "biological_unit": "Unchanged finite-library v2 summary; this render creates no biological observations or units.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "All v2 shared-CTRL, barcode nesting and RNA reuse remain. Only the existing primary eight paired cases are rendered; no new measurements.",
+  "population_and_selection": "Exactly v2 strand_records, all paired barcodes, pooled, tss_2kb_union for four fixed loci and two contrasts. No QC or population change.",
+  "contrast": "Unchanged v2 LGR5-minus-CTRL and KRT20-minus-CTRL RNA/fragment differences for Cd74, Tiam1, Cd83 and Ciita.",
+  "endpoint": "Existing 16 plotted log2(CPM+1) differences copied from the frozen v2 table; no new endpoint. Only PNG/SVG primary figure outputs.",
+  "methods": "Read saved paired_contrasts.csv, require all 128 source rows defined and exactly eight unique primary cases. Preserve numeric values, colors, labels and original extent derived from the same source table. Increase canvas height, reserve a dedicated legend row, lower axes. Use unchanged first-generation SVG-save helper. Inspect actual PNG and SVG label positions after rendering.",
+  "missingness_and_exclusions": "No case exclusion or imputation. Unexpected source row count/status/primary mapping stops rendering.",
+  "multiplicity": "No additional comparison or analysis: only redisplay the existing eight primary paired cases. All 128 original rows and 64 deltas remain unchanged.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite deposited-library description with unknown independent biological units; no population precision claim or invented effect margin.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "All v2 finite-library/source-record/region/genotype/state/independence limits remain. Neither counting definition certifies physical molecules. This render creates no biological acceptance or equivalence claim.",
+  "stop_rule": "Hash mismatch, nonfresh output directory, unexpected source cases/status or missing primary cases stops rendering. Preserve previous images; corrections use a new artifact path and receipt.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/paired_contrasts.csv",
+      "sha256": "b73b83a1285b3daf0394ab3ec103604113bd9e19af17527aa3dd618873cccfc0",
+      "study_id": "Arz1_Q4a_v2_reused_summary",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/receipt.json",
+      "sha256": "d322a3a2e76d7b8f7fa8f60d8a277017dfea837cfb3ff0137d0e5db711d65ce1",
+      "study_id": "Arz1_Q4a_v2_reused_summary",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/PRIMARY_RENDER_CORRECTION_V1.md",
+      "sha256": "39a7e0bf2d1c9d4deb29cdd6a527368969a4f52555a1b655adf0be243cc6d7cf",
+      "study_id": "Arz1_Q4a_v2_reused_summary",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/render_primary_v1.py",
+      "sha256": "d104644afc3cc7e87334f81aff0fc1c36b4a9cb1d2bb263092197760da4eb951"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/plot_accessibility_v2.py",
+      "sha256": "bbe75a279dfa53566e672b39b215a70e7674f4fc5089737b90cce8e2608cad60"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/render_primary_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "figure_01_paired_primary_corrected.png",
+    "figure_01_paired_primary_corrected.svg"
+  ],
+  "amendment_of": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v2.json",
+  "amendment_reason": "Originating visual review found primary legend/title crowding. Render-only prospective correction from existing v2 contrasts, with no biological rerun or value change."
+}

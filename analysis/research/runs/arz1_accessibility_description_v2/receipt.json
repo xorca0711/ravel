@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Arz1.accessibility_description_v2",
+  "owner": "Arz1-P01",
+  "contract": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v2.json",
+  "contract_sha256": "d57f1374b16bb1d637328fef8bbca6b8506fc0420c27a0b13675723d46d59c1d",
+  "git_commit": "3f2b5872b9b1f7e4dcb2ea428b94357c9bd42a4c",
+  "started_at": "2026-11-01T06:44:28.222146+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_v2.py",
+    "--output",
+    "analysis/research/runs/arz1_accessibility_description_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_matrix_CTRL.mtx.gz",
+      "sha256": "6f9a8b1bf1888ec0b70cd7274ea35f335dfa26c18ea5637bdb850497b71abc24",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_features_CTRL.tsv.gz",
+      "sha256": "b5853b9440c788b9c44940d0f747010d2ce60c7ee3f037333f2d60b6a0b737eb",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_barcodes_CTRL.tsv.gz",
+      "sha256": "9d98d92e895ef575615abfd80290f9ed71169b69c8ce6c470328eb2cc4793ea7",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_matrix_KRT20.mtx.gz",
+      "sha256": "0c28eedd4a98d15e0f38d6785aad84cb155b107ec44b790ed2467591d671bf75",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_features_KRT20.tsv.gz",
+      "sha256": "73debab327c08b26edd7e96c68aeb824d3d73e9075449cc6d03e2d3c62f7861e",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_barcodes_KRT20.tsv.gz",
+      "sha256": "c0335293fdfd788a85f45877781d674bd913b7748cbba09c329cad3a46e3cf33",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_matrix_LGR5.mtx.gz",
+      "sha256": "1aaf82baac60820e19d05ba144c915d727619c8bbdd8789fe6540456040e9060",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_features_LGR5.tsv.gz",
+      "sha256": "7095317b1549f85e9d7c5cf2fcb45c84a8b92abd7f86a253ee4fc7e0be8e9192",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_barcodes_LGR5.tsv.gz",
+      "sha256": "fe8ae0f537b7691f73b450a3bf554c48e196515ece2d346b3c287fbb84cfa6b4",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711145_atac_fragments_CTRL.tsv.gz",
+      "sha256": "a8071609e08c92ccb7656620fab41c01d1ff0cff21fb289dd131b67bd14d6c84",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711147_atac_fragments_KRT20.tsv.gz",
+      "sha256": "d7e70b71f12fad152f9b5db6859d49f6ba4a62121b9f77de73347fd7380fde20",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711149_atac_fragments_LGR5.tsv.gz",
+      "sha256": "e67f076ee1a5dec7f6ce12687fdd26bb0ee254abdd8d308e604e861cf6bcc836",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/gencode.vM33.primary_assembly.annotation.gtf.gz",
+      "sha256": "930cfb538e447acbad01a29d531ebd29854e9c00b8755c3fb93ba2261b68cd8a",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/arc21_fragments.html.request.json",
+      "sha256": "91999173b770a14de0fbe164d46324d2ecc490110a4c045be271dec9a117a980",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/gencode.vM33.primary_assembly.annotation.gtf.gz.request.json",
+      "sha256": "37c884dc6e87a7b12ce07cf3ac61ee86150a5eb26403c2ae05b8c3dcb2d7b75e",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711145_atac_fragments_CTRL.tsv.gz.request.json",
+      "sha256": "5eed8811ea88c10dfd1839385844ef81edb242d19667439dc1aad3d6a0e095d0",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711147_atac_fragments_KRT20.tsv.gz.request.json",
+      "sha256": "576b29923968203b9a6e8a527a7a8eb729e61e9b635c111b902046b451b99fb4",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711149_atac_fragments_LGR5.tsv.gz.request.json",
+      "sha256": "26a2f89fe37c5cd06f187abd3a878f4927126dc3b0ea0961d14709fe69f0d880",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_rna_description_v1/barcode_qc.csv.gz",
+      "sha256": "dfd9a394394936a124136f48ce59f3f6ff9b4d3f7c6c73cf079e9436d48c66ad",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_rna_description_v1/library_gene_summaries.csv.gz",
+      "sha256": "cf506c22f4c18122a3a25e82c2264b8b05988acc27f17c7dbeade00d93e336a4",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_rna_description_v1/receipt.json",
+      "sha256": "825778d241fbf65ee276191ac6f0a03c0f26215ffc9794b24f751568c8b1c4e9",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_EXTENSION_BRIEF_FROZEN_V1.txt",
+      "sha256": "7a73b02dc41090dce22571b051904d7209b382eaecff42d045ff617da8c45ab7",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_IMPLEMENTATION_V1.md",
+      "sha256": "1383b08807d86bb452703c632f19ae98d04330823d12376a7376d8556240de5a",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/Q4A_REFERENCE_NOTES_V1.md",
+      "sha256": "fed2fedc7bcca716565462b5837db3739d17de9f0624e6794c19104bed6aed17",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/CTRL.first65536.bin",
+      "sha256": "02d6c6e6e11e348e169888fd0d612a73d9e86aa0719e053238e729bea1447dae",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/KRT20.first65536.bin",
+      "sha256": "f43d5f15e48ca4e30eb4050513d245816bcfa4c2770dafba4ae5bfd8db9e33a6",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/LGR5.first65536.bin",
+      "sha256": "635ea52e30dc1e7af9be3dda9695a9dde78b7420b65247e85d00ced7e37c21d5",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_AMENDMENT_V2.md",
+      "sha256": "232012ee3e0c7cffd7bf0e1d5aad739348bba1338fef0fa781d7e12c306e1700",
+      "study_id": "Arz1_Q4a_v2_source_semantic_amendment",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_REVIEW_FROZEN_V2.txt",
+      "sha256": "2f0470b5bda41d2cdb71e829cc71944c1b9380701ce05e8eb3a324e070fc0e77",
+      "study_id": "Arz1_Q4a_v2_source_semantic_amendment",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_V1_HOLD.md",
+      "sha256": "80c6eb0fdc649531e4012e46cdb03c988e7b68601362992e4d0cb2ec37326206",
+      "study_id": "Arz1_Q4a_v2_source_semantic_amendment",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v1/receipt.json",
+      "sha256": "de83fff42bf3ac951e6fd9383f9b2bc22190ab9b2c67d1b043512ef3f309ed1a",
+      "study_id": "Arz1_Q4a_v2_source_semantic_amendment",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v1/source_validation.json",
+      "sha256": "4aaf886e0d465eb650f2184ea7e6dec52ef3fcb706c997c2a03464791ceeac5c",
+      "study_id": "Arz1_Q4a_v2_source_semantic_amendment",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_v2.py",
+      "sha256": "20a4257cb5bcf03c96e026300e829ab589a3d73df5ab99d2c874a4c453af3a5b"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_core_v2.py",
+      "sha256": "96d6e95f977f7a6e486af52b215fb4d84c95340a1b6d6bb122ff305a60f2a3c8"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/plot_accessibility_v2.py",
+      "sha256": "bbe75a279dfa53566e672b39b215a70e7674f4fc5089737b90cce8e2608cad60"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_v1.py",
+      "sha256": "f70b31914ce5de6caae426cf48c6232aff1bf46f0f18ef7294f99e0940bbb1ec"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_core_v1.py",
+      "sha256": "a34cbc2374dde87f9a243ebc381e2e9c2ca5b38119878a8d2af377bbc341c84c"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/rna_extension_v1.py",
+      "sha256": "3e118352ad76e7cba68c7da82d63b8d84cb1681295b70fcabe28755d106453e1"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_accessibility_v2.py",
+      "sha256": "75e939bc93f2fdd9a51a8997855f8e976009cd3eed91973e4abdc4572cfa3fb4"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_sources_v1.json",
+      "sha256": "9adca4a2a712378123aae946d2471b69dc2581fc550c3c6cd939de5e8a6fbde0"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/.gitattributes",
+      "sha256": "f53a6d00a3d75d9a2617286480463ecdab4bb95fd1012c29ec30576e3a1ae14e"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/region_provenance.json",
+      "sha256": "3c29e434428dd1eedb5c7250b2fe512349f22b9d9888517de806ec741153b1e2"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/source_validation.json",
+      "sha256": "d40d6b1e2536f6b3568ff98f8fb30fcb2621258dccf57ac67b0083fe4cc8d7f5"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/barcode_depths.csv.gz",
+      "sha256": "83821cff555241c3f34af84b7da5617530e5ccbb73da9e2261a1c873f6fecd29"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/barcode_locus_counts.csv.gz",
+      "sha256": "3a4a6fbd27af38ddc0eb48aed679690f0b729ac16c5dd4a6b52b25afd59776e9"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/paired_populations.csv",
+      "sha256": "9b947d74e1d123efb761d43c9a56d6168e1b6b8162ee6abf43267cfe05b62cb3"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/library_rna_summaries.csv",
+      "sha256": "2007165c148c8047d0a41197841a96c5f98ec8ab3f43a3b247c43f92719a7ad7"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/library_fragment_summaries.csv",
+      "sha256": "d0f98e67f3aceb28455eba7ddf96cc550d6ef5b9f9f975d1b01cdd4c8f7db641"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/rna_reuse_checks.csv",
+      "sha256": "96da531dcb9d072dfc84f738f59febc6e22377ee72fd50a05e52a0a7c4019fb4"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/paired_contrasts.csv",
+      "sha256": "b73b83a1285b3daf0394ab3ec103604113bd9e19af17527aa3dd618873cccfc0"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/source_hashes.csv",
+      "sha256": "e355db36c9f09e2293b420f99c9ad3b435843739756d418675dcddcfd808a4b6"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/summary.json",
+      "sha256": "feb4cef56c7abe3b6a5df84dc986d605af246699b70fb8044b2011e366aded0d"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/figure_01_paired_primary.png",
+      "sha256": "e24cb0126cc1e0a7d0e84187b8e559188ece1de4fed0bc25e3e4c228b4035dd2"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/figure_01_paired_primary.svg",
+      "sha256": "4f9062332702fc7182ba2da38ca055d79f09aedaaf63db78f539f746ced20fab"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/figure_02_paired_sensitivity.png",
+      "sha256": "73ced3faf2581df3a7d2ca7fbf02fbd9b6f44de865db1f5673a68ba82ad08dad"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/figure_02_paired_sensitivity.svg",
+      "sha256": "f633ee6cb77c05d63ede0d91c3417d4913fe919699b9e46aa3e501b025829cc5"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/collision_barcodes.csv.gz",
+      "sha256": "b5bdd87a7824b4c7cafec2c407432d940bccbb32c2356f187db7c519caef6c62"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/collision_locus_regions.csv",
+      "sha256": "a42beb65cf15fd263cdb989724e10f9f95be75f74380f76a93e6ec28e6cadfc6"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/count_definition_deltas.csv",
+      "sha256": "0f854fe4e84ec97b862167affd1807a8a0af9cf039956d2c345ab67ebeb67326"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-01T06:57:48.423896+00:00"
+}

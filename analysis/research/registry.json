@@ -1049,7 +1049,8 @@
     "Research Article/ungated_arozamena_2026_inflammatory_memory/config/metadata_contract_v2.json",
     "Research Article/ungated_arozamena_2026_inflammatory_memory/config/rna_contract_v1.json",
     "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v1.json",
-    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v2.json"
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v2.json",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/primary_render_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1178,7 +1179,8 @@
     "analysis/research/runs/arz1_source_qualification_v1/receipt.json",
     "analysis/research/runs/arz1_source_qualification_v2/receipt.json",
     "analysis/research/runs/arz1_rna_description_v1/receipt.json",
-    "analysis/research/runs/arz1_accessibility_description_v1/receipt.json"
+    "analysis/research/runs/arz1_accessibility_description_v1/receipt.json",
+    "analysis/research/runs/arz1_accessibility_description_v2/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
