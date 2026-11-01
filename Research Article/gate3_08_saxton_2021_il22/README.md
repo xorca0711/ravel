@@ -2,6 +2,7 @@
 
 **Reviewed gene-program analysis, 1 November 2026:** the [Sx22-P01 reassessment](reassessment_v1/README.md)
 completed every eligible descriptive job through the existing technical chat.
+The reviewed follow-up is in [PR #157](https://github.com/xorca0711/ravel/pull/157).
 The question is whether the six deposited colon libraries support a selected
 program distinction beyond overall response weakening, panel selection and
 individual-library sensitivity. This is exposed shared-source reanalysis.

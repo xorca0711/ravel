@@ -40,9 +40,11 @@ Windows skips), 12,911 repository checks, archive/provenance checks and the
 base-aware gate. Final parent integration passed 12,959 repository checks and
 the base-aware gate (`ok=true`, no errors) against freshly fetched `51d3b93`.
 Whitespace passed outside the three preserved artifacts. No unresolved external
-setting change is required for the completed description; no main merge is
-performed here. Next: publish the reviewed follow-up branch/PR, retaining the
-specific evidence holds rather than expanding the analysis to seek a favorable result.
+setting change is required for the completed description. The reviewed follow-up
+is published in [PR #157](https://github.com/xorca0711/ravel/pull/157) under verified
+GitHub identity `xorca0711`; no main merge is performed here. Next scientific work
+requires the specific reopening evidence in the ledger and its own prospective
+scope; the current eligible sequence is complete.
 
 ## Saxton job-by-job program reassessment — 1 November 2026
 
