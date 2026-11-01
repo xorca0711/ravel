@@ -1,0 +1,297 @@
+{
+  "gtf_headers": [
+    "##description: evidence-based annotation of the mouse genome (GRCm39), version M33 (Ensembl 110)",
+    "##provider: GENCODE",
+    "##contact: gencode-help@ebi.ac.uk",
+    "##format: gtf",
+    "##date: 2023-03-07"
+  ],
+  "loci": {
+    "Cd74": {
+      "target": "Cd74",
+      "stable_id": "ENSMUSG00000024610",
+      "status": "qualified",
+      "source_features": [
+        {
+          "library": "GSE329778_CTRL",
+          "stable_id": "ENSMUSG00000024610",
+          "symbol": "Cd74",
+          "chrom": "chr18",
+          "start": 60936919,
+          "end": 60936928
+        },
+        {
+          "library": "GSE329778_KRT20",
+          "stable_id": "ENSMUSG00000024610",
+          "symbol": "Cd74",
+          "chrom": "chr18",
+          "start": 60936919,
+          "end": 60936928
+        },
+        {
+          "library": "GSE329778_LGR5",
+          "stable_id": "ENSMUSG00000024610",
+          "symbol": "Cd74",
+          "chrom": "chr18",
+          "start": 60936919,
+          "end": 60936928
+        }
+      ],
+      "chrom": "chr18",
+      "strand": "+",
+      "gene_start_1based": 60936920,
+      "gene_end_1based": 60945724,
+      "n_transcripts": 5,
+      "n_basic_transcripts": 3,
+      "fallback_all_transcripts": false,
+      "selected_transcript_ids": [
+        "ENSMUST00000097563.9",
+        "ENSMUST00000050487.16",
+        "ENSMUST00000167610.2"
+      ],
+      "selected_tss_0based": [
+        60936919,
+        60936919,
+        60936927
+      ],
+      "m33_tss_span": [
+        60936919,
+        60936928
+      ],
+      "source_span_exact": true,
+      "regions": {
+        "tss_2kb_union": [
+          [
+            60934919,
+            60938927
+          ]
+        ],
+        "gene_body": [
+          [
+            60936919,
+            60945724
+          ]
+        ]
+      }
+    },
+    "Tiam1": {
+      "target": "Tiam1",
+      "stable_id": "ENSMUSG00000002489",
+      "status": "qualified",
+      "source_features": [
+        {
+          "library": "GSE329778_CTRL",
+          "stable_id": "ENSMUSG00000002489",
+          "symbol": "Tiam1",
+          "chrom": "chr16",
+          "start": 89615239,
+          "end": 89940657
+        },
+        {
+          "library": "GSE329778_KRT20",
+          "stable_id": "ENSMUSG00000002489",
+          "symbol": "Tiam1",
+          "chrom": "chr16",
+          "start": 89615239,
+          "end": 89940657
+        },
+        {
+          "library": "GSE329778_LGR5",
+          "stable_id": "ENSMUSG00000002489",
+          "symbol": "Tiam1",
+          "chrom": "chr16",
+          "start": 89615239,
+          "end": 89940657
+        }
+      ],
+      "chrom": "chr16",
+      "strand": "-",
+      "gene_start_1based": 89583999,
+      "gene_end_1based": 89940657,
+      "n_transcripts": 15,
+      "n_basic_transcripts": 4,
+      "fallback_all_transcripts": false,
+      "selected_transcript_ids": [
+        "ENSMUST00000163370.8",
+        "ENSMUST00000114124.9",
+        "ENSMUST00000002588.11",
+        "ENSMUST00000164263.9"
+      ],
+      "selected_tss_0based": [
+        89771586,
+        89940656,
+        89757714,
+        89615239
+      ],
+      "m33_tss_span": [
+        89615239,
+        89940657
+      ],
+      "source_span_exact": true,
+      "regions": {
+        "tss_2kb_union": [
+          [
+            89613239,
+            89617239
+          ],
+          [
+            89755714,
+            89759714
+          ],
+          [
+            89769586,
+            89773586
+          ],
+          [
+            89938656,
+            89942656
+          ]
+        ],
+        "gene_body": [
+          [
+            89583998,
+            89940657
+          ]
+        ]
+      }
+    },
+    "Cd83": {
+      "target": "Cd83",
+      "stable_id": "ENSMUSG00000015396",
+      "status": "qualified",
+      "source_features": [
+        {
+          "library": "GSE329778_CTRL",
+          "stable_id": "ENSMUSG00000015396",
+          "symbol": "Cd83",
+          "chrom": "chr13",
+          "start": 43938250,
+          "end": 43938251
+        },
+        {
+          "library": "GSE329778_KRT20",
+          "stable_id": "ENSMUSG00000015396",
+          "symbol": "Cd83",
+          "chrom": "chr13",
+          "start": 43938250,
+          "end": 43938251
+        },
+        {
+          "library": "GSE329778_LGR5",
+          "stable_id": "ENSMUSG00000015396",
+          "symbol": "Cd83",
+          "chrom": "chr13",
+          "start": 43938250,
+          "end": 43938251
+        }
+      ],
+      "chrom": "chr13",
+      "strand": "+",
+      "gene_start_1based": 43938251,
+      "gene_end_1based": 43956608,
+      "n_transcripts": 2,
+      "n_basic_transcripts": 1,
+      "fallback_all_transcripts": false,
+      "selected_transcript_ids": [
+        "ENSMUST00000015540.4"
+      ],
+      "selected_tss_0based": [
+        43938250
+      ],
+      "m33_tss_span": [
+        43938250,
+        43938251
+      ],
+      "source_span_exact": true,
+      "regions": {
+        "tss_2kb_union": [
+          [
+            43936250,
+            43940250
+          ]
+        ],
+        "gene_body": [
+          [
+            43938250,
+            43956608
+          ]
+        ]
+      }
+    },
+    "Ciita": {
+      "target": "Ciita",
+      "stable_id": "ENSMUSG00000022504",
+      "status": "qualified",
+      "source_features": [
+        {
+          "library": "GSE329778_CTRL",
+          "stable_id": "ENSMUSG00000022504",
+          "symbol": "Ciita",
+          "chrom": "chr16",
+          "start": 10297922,
+          "end": 10307647
+        },
+        {
+          "library": "GSE329778_KRT20",
+          "stable_id": "ENSMUSG00000022504",
+          "symbol": "Ciita",
+          "chrom": "chr16",
+          "start": 10297922,
+          "end": 10307647
+        },
+        {
+          "library": "GSE329778_LGR5",
+          "stable_id": "ENSMUSG00000022504",
+          "symbol": "Ciita",
+          "chrom": "chr16",
+          "start": 10297922,
+          "end": 10307647
+        }
+      ],
+      "chrom": "chr16",
+      "strand": "+",
+      "gene_start_1based": 10297923,
+      "gene_end_1based": 10346282,
+      "n_transcripts": 8,
+      "n_basic_transcripts": 5,
+      "fallback_all_transcripts": false,
+      "selected_transcript_ids": [
+        "ENSMUST00000230395.2",
+        "ENSMUST00000230450.2",
+        "ENSMUST00000023147.8",
+        "ENSMUST00000230146.2",
+        "ENSMUST00000230392.2"
+      ],
+      "selected_tss_0based": [
+        10297922,
+        10298027,
+        10306142,
+        10307644,
+        10307646
+      ],
+      "m33_tss_span": [
+        10297922,
+        10307647
+      ],
+      "source_span_exact": true,
+      "regions": {
+        "tss_2kb_union": [
+          [
+            10295922,
+            10300027
+          ],
+          [
+            10304142,
+            10309646
+          ]
+        ],
+        "gene_body": [
+          [
+            10297922,
+            10346282
+          ]
+        ]
+      }
+    }
+  }
+}
