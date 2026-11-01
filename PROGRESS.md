@@ -1,5 +1,25 @@
 # Current project state
 
+## Saxton job-by-job program reassessment — 1 November 2026
+
+Owner requested a substantive reassessment and execution of permissible jobs
+through the existing technical chat. The [new article-local plan](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md)
+centers the deposited colon comparison on selective program attenuation versus
+overall response weakening, author-selected panels and library sensitivity.
+[Literature context](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/LITERATURE_CONTEXT.md)
+records current primary-source coverage, prior exposure and the bounded search.
+No new canonical RQ, mechanism, claim grade or human acceptance is proposed.
+
+Current base is main `51d3b93` plus local scope clarification `21aa646`. The
+existing technical chat is assessing job-level source/runtime eligibility;
+no new biological endpoint has yet been calculated. The original service errors
+were explicit prompt-level safety rejections without a job identified. Their
+historical status is preserved; no restriction is bypassed or declared lifted.
+R2b population inference remains independently held by the existing verified-unit
+gate. Descriptive eligibility is being assessed separately, with all original
+paper context retained. Final job dispositions, outputs, review and validation
+remain to be completed before this task stops.
+
 ## Saxton scientific-scope clarification — 1 November 2026
 
 The owner questioned the scientific increment and the connection of gallery

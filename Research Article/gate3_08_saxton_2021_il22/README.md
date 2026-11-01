@@ -1,5 +1,16 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
+**Current reassessment, 1 November 2026:** the owner requested a job-by-job review
+of held gene-program work. The [amended biological question and sequence](reassessment_v1/README.md)
+asks whether the deposited colon expression pattern supports selective program
+attenuation beyond overall response weakening and selected panels. Its
+[literature context](reassessment_v1/LITERATURE_CONTEXT.md) distinguishes this
+same-source robustness question from a new mechanism or memory claim. Numerical
+execution is pending the technical eligibility assessment and a new frozen
+contract; no old service restriction is asserted to have been lifted. Population
+inference remains held by unverified biological-unit identities. Historical plans
+and recovery records below remain intact.
+
 **Gallery update, 1 November 2026:** the [combined figure gallery](FIGURES.md)
 brings together R1 library QC, X1 identifier QC and the E1a descriptive transcript
 figure, with source tables and interpretation limits. It is linked directly from
