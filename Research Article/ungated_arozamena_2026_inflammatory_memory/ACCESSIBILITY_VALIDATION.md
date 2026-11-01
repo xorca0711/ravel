@@ -2,8 +2,9 @@
 
 1 November 2026. [Results](ACCESSIBILITY_RESULTS.md);
 [receipt](../../analysis/research/runs/arz1_accessibility_description_v2/receipt.json).
-Numerical execution and the render-only correction are complete; originating
-raw-source review is still in progress and is not represented as passed.
+Numerical execution, originating independent raw-source audit, and visual review
+of the corrected primary and unchanged sensitivity figures passed. These checks
+do not assign scientific acceptance or establish biological replication.
 
 ## Prospective source-semantic review
 
@@ -34,6 +35,20 @@ v2 test file. This formatting exception is retained transparently; it does not
 change test behavior. No frozen byte or check was rewritten to conceal it.
 The older three Saxton and two RNA-SVG whitespace exceptions remain untouched.
 
+The final `git diff --check origin/main` reports exactly these six frozen files
+(exit 2). Trailing-whitespace counts below are diagnostic locations; SVG line
+spans do not imply that every intervening line is affected. No whitespace rule
+or attribute was weakened, and the final report edits are whitespace-clean.
+
+| Frozen repository path | Preserved whitespace diagnostics |
+|---|---|
+| `Research Article/gate3_08_saxton_2021_il22/reassessment_v1/config/description_contract_v1.json` | 143 trailing-whitespace locations, lines 1–143 |
+| `analysis/research/runs/sx22_program_description_v1/tmm_stderr.log` | 7 trailing-whitespace locations, lines 1–7 |
+| `analysis/research/runs/sx22_program_description_v1/tmm_stdout.log` | 37 trailing-whitespace locations, lines 1–37 |
+| `analysis/research/runs/arz1_rna_description_v1/figure_01_primary.svg` | 232 trailing-whitespace locations, spanning lines 24–1200 |
+| `analysis/research/runs/arz1_rna_description_v1/figure_02_sensitivity.svg` | 53 trailing-whitespace locations, spanning lines 24–1077 |
+| `Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_accessibility_v2.py` | One extra blank line at EOF, line 78 |
+
 ## Post-run validation
 
 The runner completed all three full fragment traversals and all 18 declared
@@ -62,19 +77,27 @@ touches the left panel title. The separately frozen
 `c9fbf92`, binds only the existing contrast table, v2 receipt, correction brief
 and two code files. It generated the corrected primary PNG/SVG under
 [a separate receipt](../../analysis/research/runs/arz1_accessibility_primary_render_v1/receipt.json),
-which passed verification. The corrected PNG passed technical visual inspection.
+which passed verification. The corrected PNG passed both technical and originating
+visual inspection.
 An independent SVG/source-table check confirmed all 16 bar x geometries and all
 16 value labels unchanged, with title/legend baselines now 42.241406 SVG points
 apart. No measurement was rerun or value changed. Original v2 images and receipt
 remain byte-identical. New SVG whitespace cleanup occurred during first generation,
 before receipt hashing; no frozen artifact was normalized afterward.
 
-Originating review is independently recounting the complete raw fragments under
-both definitions, independently building M33 windows and recovering four-target
-RNA counts before checking all 128 cases. That audit is pending here. The saved-
-count audit and raw-source recount are different checks, not independent
-biological replication. Current originating review authority remains
-[ORIGINATING_REVIEW.md](ORIGINATING_REVIEW.md).
+On 1 November 2026, the originating reviewer reported that its independent full
+raw-source audit **passed**: 60 hash bindings, all 152,186,923 fragment records
+through gzip EOF/CRC, 39,962 barcode-depth rows, 159,848 barcode-locus rows, all
+128 paired contrasts, all collision diagnostics and 64 count-definition deltas.
+The reviewer independently reconstructed the GTF TSS windows and gene bodies,
+recounted both fragment definitions, and recounted all four target RNA loci from
+raw input, without importing production analysis code. It reused the hash-bound
+RNA depths/QC that it had already independently verified; this does not claim a
+second fresh reconstruction of every RNA depth/QC value during this audit.
+The saved-count audit and raw-source recount are complementary technical checks,
+not independent biological replication. This records the review received from
+parent chat `01a18687-3e55-7b51-b514-52f5f55a210b`; parent owns the integrated
+[originating review record](ORIGINATING_REVIEW.md).
 
 ## Repository and preservation checks
 
@@ -93,6 +116,11 @@ research gate passed. All five render run files match staged bytes exactly;
 the new artifacts/report changes are whitespace-clean, and the original v2
 outputs are unchanged from their preservation commit. Passed shared/archive
 tests and claim bindings are reused because rendering does not invalidate them.
+After the originating raw audit passed, the requested final repository check
+(13,134 checks), refreshed-base research gate and claim check (18 bindings) also
+passed. Both v2 and render receipts were confirmed registered exactly once;
+no duplicate registry entry was added. This final handoff changes only the two
+accessibility reports and does not rerun any biological analysis or render.
 The last scope check contains only this article package, its new accessibility
 runs and the research registry; parent-owned navigation/PROGRESS remain outside
 this technical patch.

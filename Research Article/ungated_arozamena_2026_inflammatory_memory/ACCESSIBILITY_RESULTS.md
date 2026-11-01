@@ -3,8 +3,9 @@
 1 November 2026. Arz1-P01; GSE329778 only. All three complete sources qualified,
 all four fixed loci qualified, and **all 128 paired cases are defined**. The
 [v2 receipt](../../analysis/research/runs/arz1_accessibility_description_v2/receipt.json)
-records execution, not scientific acceptance. [Validation](ACCESSIBILITY_VALIDATION.md)
-separates technical checks from originating review. The
+records execution, not scientific acceptance. The independent raw-source audit
+and visual reviews of the corrected primary and unchanged sensitivity figures
+passed; [validation](ACCESSIBILITY_VALIDATION.md) records their exact scope. The
 [v1 source-identity hold](ACCESSIBILITY_V1_HOLD.md) and its 64 held cases remain
 unchanged; v2 is the reviewed prospective amendment, not an overwrite.
 
