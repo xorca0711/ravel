@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.X1_annotation_v1",
+  "owner": "Sx22-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Which deposited identifier and annotation ambiguities underlie the repeated nonempty symbol labels?",
+  "decision": "Determine whether deposited annotations admit unambiguous symbol-to-record identity, without remapping or biological ranking.",
+  "strongest_rival": "Repeated symbols refer to distinct deposited loci or annotation records rather than duplicate copies of one stable identifier.",
+  "discriminator": "Compare only nine annotation fields across source tables and diagnose identifier multiplicity, version suffixes and locus metadata.",
+  "evidence_refs": [
+    "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/README.md",
+    "Research Article/gate3_08_saxton_2021_il22/R1_REVIEW.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "The published outcomes and R1 QC were previously reviewed, including 52 repeated labels and 122 affected rows. Source headers and three annotation rows were inspected before this freeze; no expression values are selected.",
+  "biological_unit": "Deposited annotation row; not an animal or independent biological replicate.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Count and FPKM files reuse the same deposited annotation records and samples; their agreement is not replication.",
+  "population_and_selection": "Every annotation row from both declared GSE160217 tables; project the exact nine declared metadata columns only.",
+  "contrast": "Rowwise metadata consistency and identifier multiplicity; no expression or treatment comparison.",
+  "endpoint": "Annotation identity, version suffix presence, repeated-symbol cardinality, coordinate/strand validity and field consistency.",
+  "methods": "Standard-library gzip/CSV projection, exact rowwise comparison, regex identifier diagnostics and metadata counters; preserve row order and all annotations.",
+  "missingness_and_exclusions": "No rows excluded or collapsed. Empty fields and invalid coordinates are reported; no external mappings or annotation release inferred.",
+  "multiplicity": "No biological tests or significance calculations; deterministic metadata checks only.",
+  "precision_status": "not_applicable",
+  "precision_basis": "No biological estimate or precision claim is computed.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Annotation ambiguity cannot establish gene function, receptor response, target priority or treatment effects.",
+  "stop_rule": "Reject missing/duplicate headers, malformed rows or discrepant annotations across source files. Do not relax checks or inspect expression to repair annotation.",
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_readcount_genename.xls.gz",
+      "sha256": "26a63db90cbb1c65614205b05a1a957b37f0783b67df72ad4801b48c5bc0646d",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_fpkm_genename.xls.gz",
+      "sha256": "69dd439dc048fe6ff0e4d343d403e2fe277ea004beb4bc10b80c2f0daa7027f1",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/annotation_v1.py",
+      "sha256": "c295c2477a51ca20def95095eb9ebf912c775f4f7024baa73e67ad16e5b6b10d"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/provenance_v1.py",
+      "sha256": "d47e205fa99b19e4e05bc7ee9cf295b6c8bfa05859b1bd3203bb72901498c539"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/tests/test_metadata.py",
+      "sha256": "2dc78439fff351033ed261c99fda4e88a7b882fd230a28ffe18e31ff9ccfe70a"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/scripts/annotation_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "annotations.csv",
+    "repeated_symbols.csv",
+    "summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective source-only extension; R1 remains immutable and biological execution holds remain unchanged."
+}

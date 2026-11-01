@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.R1_v2",
+  "owner": "Sx22-P01",
+  "contract": "Research Article/gate3_08_saxton_2021_il22/config/r1_contract_v2.json",
+  "contract_sha256": "3cb8e486e1d2b9d41e393defb3fd9ba8c66f61a9fbf018a666f1d9b8e2aaf9ba",
+  "git_commit": "ff09fab3fb37fd4bf915845e5cd59effaa386210",
+  "started_at": "2026-10-31T09:26:16.164295+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate3_08_saxton_2021_il22/scripts/r1_audit_v1.py",
+    "--output",
+    "analysis/research/runs/sx22_r1_v2"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_family.soft.gz",
+      "sha256": "dd5c728e3a8a4128d3c64674ff56b54a24ed3585e3bc9707f33245dbe6a0b273",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_readcount_genename.xls.gz",
+      "sha256": "26a63db90cbb1c65614205b05a1a957b37f0783b67df72ad4801b48c5bc0646d",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_fpkm_genename.xls.gz",
+      "sha256": "69dd439dc048fe6ff0e4d343d403e2fe277ea004beb4bc10b80c2f0daa7027f1",
+      "study_id": "GSE160217",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/scripts/r1_audit_v1.py",
+      "sha256": "3903e4eddfc53830db35ccc93dc249d880c50325a7d367e32d1b1d1844de7bf0"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/tests/test_sources.py",
+      "sha256": "4982cd93a181036af2ab4d10d3e792551980137b9c6fe2d698f75047d8c30ddc"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/sx22_r1_v2/samples.csv",
+      "sha256": "b26a7b65ff57e71e5a45e0e79eaeaff715b83f140f906179d2236ec7aaa528e2"
+    },
+    {
+      "path": "analysis/research/runs/sx22_r1_v2/library_qc.csv",
+      "sha256": "58aa7e7a5b56f6fe2eb0f6e541b013342fc05a61fd81efaec059b94edab9317b"
+    },
+    {
+      "path": "analysis/research/runs/sx22_r1_v2/gene_qc.csv",
+      "sha256": "3805989fa5e777f3d7936ce2fa8315a1855cf75b8bba1632587ef51ef9fdaa18"
+    },
+    {
+      "path": "analysis/research/runs/sx22_r1_v2/summary.json",
+      "sha256": "145afe30cd2c553661eb21c9479f056bcce516652356a09f382e79fc88d9400a"
+    },
+    {
+      "path": "analysis/research/runs/sx22_r1_v2/environment.txt",
+      "sha256": "17f2b660f30dc080556720d5d3c7d4e0fe42345cc4e90598798a26fa2fadc8ae"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-10-31T09:26:17.921719+00:00"
+}

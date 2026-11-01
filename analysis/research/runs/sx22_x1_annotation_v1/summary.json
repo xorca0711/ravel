@@ -1,0 +1,49 @@
+{
+  "rows": 35275,
+  "selected_fields": [
+    "geneID",
+    "Gene_name",
+    "Chrom",
+    "Strand",
+    "Start",
+    "End",
+    "GeneLength",
+    "Gene_type",
+    "Description"
+  ],
+  "expression_columns_selected": [],
+  "empty_fields": {
+    "geneID": 0,
+    "Gene_name": 0,
+    "Chrom": 0,
+    "Strand": 0,
+    "Start": 0,
+    "End": 0,
+    "GeneLength": 0,
+    "Gene_type": 0,
+    "Description": 0
+  },
+  "repeated_gene_id_labels": 0,
+  "repeated_stable_id_labels": 0,
+  "version_suffixed_rows": 0,
+  "nonstandard_id_rows": 0,
+  "repeated_symbol_labels": 52,
+  "rows_with_repeated_nonempty_symbols": 122,
+  "repeated_symbol_multiplicity": {
+    "17": 1,
+    "2": 48,
+    "3": 3
+  },
+  "repeated_symbols_multiple_stable_ids": 52,
+  "repeated_symbols_multiple_chromosomes": 0,
+  "repeated_symbols_multiple_strands": 4,
+  "repeated_symbols_multiple_loci": 51,
+  "repeated_symbols_multiple_biotypes": 18,
+  "repeated_symbols_multiple_descriptions": 23,
+  "coordinate_or_strand_issue_rows": [],
+  "count_fpkm_annotation": "exact rowwise equality",
+  "annotation_release": "not reported; mm10 source label retained without remapping",
+  "mapping_provenance": "deposited annotation only; no external gene mapping",
+  "exclusions": "none; original row order and all annotation records retained",
+  "interpretation": "identifier ambiguity only; no expression, target ranking or biological effect"
+}

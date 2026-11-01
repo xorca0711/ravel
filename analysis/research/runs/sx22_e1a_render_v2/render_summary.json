@@ -1,0 +1,7 @@
+{
+  "kind": "Rendering correction only; numerical source table unchanged",
+  "source": "analysis/research/runs/sx22_e1a_recipient_description_v1/strata.csv",
+  "supersedes_figure": "analysis/research/runs/sx22_e1a_recipient_description_v1/recipient_transcripts.png",
+  "display_rule": "NA for unavailable; 0 for exact zero; <0.1 for strictly positive values below 0.1; otherwise one decimal",
+  "small_positive_display_cells": 4
+}
