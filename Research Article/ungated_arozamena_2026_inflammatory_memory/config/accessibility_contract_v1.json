@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Arz1.accessibility_description_v1",
+  "owner": "Arz1-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "For four paper-named GRCm39 loci, how do paired-library RNA and common-region fragment changes differ in the two GSE329778 contrasts, and how sensitive are they to region, depth weighting and prior RNA-QC selection?",
+  "decision": "Execute every eligible fixed Q4a case and retain source/locus/subset holds; describe paired measurements without a regulatory-memory or population inference. Exact author replay and original state-resolved Q4 remain held.",
+  "strongest_rival": "Composition, lineage/genotype/sorting selection, sparse counts, processing and annotation-defined region choice can explain nonparallel RNA/fragment patterns without regulatory priming. Mouse/preparation independence and author state maps remain unverified.",
+  "discriminator": "Same exact positive-RNA/nuclear-fragment barcode sets for both modalities; compare source-defined TSS-window unions with gene bodies, pooled with equal-barcode summaries, and prior RNA-QC intersection. These distinguish measurement/selection sensitivity, not biological mechanism or cell-state effects.",
+  "evidence_refs": [
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_EXTENSION_BRIEF.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_EXTENSION_BRIEF_FROZEN_V1.txt",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_IMPLEMENTATION_V1.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/Q4A_REFERENCE_NOTES_V1.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/Q4A_FEASIBILITY.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/RNA_RESULTS.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/ORIGINATING_REVIEW.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Parent fd1b8e4 authorizes this bounded adaptation. Article Fig5d/e interpretations, Q3a RNA outcomes, source metadata and GRCm39/ARC2.1 versus article/GEO mm10/ARC2.0.2 conflict are exposed. Complete compressed sources and M33 were acquired and literal headers/gene records read; no fragment interval count or accessibility contrast was computed before freeze.",
+  "biological_unit": "Deposited library as finite descriptive unit; paired barcodes nested within it. Underlying pooled mouse/preparation independence unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Three libraries CTRL/LGR5/KRT20; LGR5-CTRL and KRT20-CTRL reuse CTRL. RNA values repeat across region families without becoming new measurements. No independent animal count, cell-derived inference or fitted four-gene correlation.",
+  "population_and_selection": "Exact deposited GSE329778 RNA barcodes with positive all-source RNA and canonical nuclear fragment depth; second subset additionally uses unchanged prior RNA-only QC. Zero-coverage and nonallowlisted rows are enumerated; no new ATAC threshold or state call.",
+  "contrast": "GSE329778 LGR5 minus CTRL and KRT20 minus CTRL, separately, for Cd74 ENSMUSG00000024610, Tiam1 ENSMUSG00000002489, Cd83 ENSMUSG00000015396 and Ciita ENSMUSG00000022504.",
+  "endpoint": "Within each fixed subset/weighting/region case: post-minus-CTRL log2(CPM+1) differences for RNA and distinct-fragment overlap. Fragment denominator is all canonical nuclear collapsed rows for eligible barcodes, not target counts or readSupport. RNA denominator is all source RNA counts on identical paired barcodes. Pooled counts/depth or mean barcode CPM, then log transform. Report raw counts/detection and 64 paired rows.",
+  "methods": "M33 basic transcripts (all-transcript fallback recorded) yield strand-aware zero-based TSSs, clipped +/-2000 half-open windows merged within gene; gene-record bodies are fixed sensitivity. Full streams validate gzip completion/CRC, header/schema/order and duplicate chromosome/start/end/barcode keys under ARC2.1 algorithm documentation; support and strand do not legitimate repeated keys. Count once per row/gene/region union. Each failed source holds dependent endpoints while other eligible sources continue. No endpoints released from partial traversals. Nine synthetic tests precede freeze.",
+  "missingness_and_exclusions": "Unsupported/incoherent target mappings hold that locus; malformed/truncated/duplicate/header-incompatible streams hold dependent libraries; empty paired sets are undefined. Noncanonical contigs and nonallowlisted rows are separately enumerated. No silent collapse, alias guess, repair, liftOver, threshold relaxation or zero-valued substitution.",
+  "multiplicity": "Fixed two contrasts x two paired subsets x two weighting choices x two region families x four loci. All eligible cases retained; no p-values/FDR/CI, fitted trends, extra loci or outcome-adaptive windows.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite deposited-library description with unknown independent biological units; no population precision claim or invented effect margin.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "GRCm39 public-M33 adaptation, not exact custom-TdTomato or author consensus-peak replay. TSS windows are not experimentally validated promoters; gene-body overlap is a distinct locus proxy. Shared barcodes and nonparallel RNA/fragment signs do not establish within-state effects, causal regulation, TF occupancy, memory or later regeneration.",
+  "stop_rule": "Source hash or global GTF assembly/version mismatch stops execution. File/locus/subset validation failures become explicit local holds; no dependent endpoint uses an invalid input. Same-population RNA must equal frozen prior counts/denominators and transformed summaries within 1e-10; disagreement stops endpoint release. Preserve all failed/partial artifacts; corrections use a new version.",
+  "inputs": [
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_matrix_CTRL.mtx.gz",
+      "sha256": "6f9a8b1bf1888ec0b70cd7274ea35f335dfa26c18ea5637bdb850497b71abc24",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_features_CTRL.tsv.gz",
+      "sha256": "b5853b9440c788b9c44940d0f747010d2ce60c7ee3f037333f2d60b6a0b737eb",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_barcodes_CTRL.tsv.gz",
+      "sha256": "9d98d92e895ef575615abfd80290f9ed71169b69c8ce6c470328eb2cc4793ea7",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_matrix_KRT20.mtx.gz",
+      "sha256": "0c28eedd4a98d15e0f38d6785aad84cb155b107ec44b790ed2467591d671bf75",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_features_KRT20.tsv.gz",
+      "sha256": "73debab327c08b26edd7e96c68aeb824d3d73e9075449cc6d03e2d3c62f7861e",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_barcodes_KRT20.tsv.gz",
+      "sha256": "c0335293fdfd788a85f45877781d674bd913b7748cbba09c329cad3a46e3cf33",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_matrix_LGR5.mtx.gz",
+      "sha256": "1aaf82baac60820e19d05ba144c915d727619c8bbdd8789fe6540456040e9060",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_features_LGR5.tsv.gz",
+      "sha256": "7095317b1549f85e9d7c5cf2fcb45c84a8b92abd7f86a253ee4fc7e0be8e9192",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_barcodes_LGR5.tsv.gz",
+      "sha256": "fe8ae0f537b7691f73b450a3bf554c48e196515ece2d346b3c287fbb84cfa6b4",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711145_atac_fragments_CTRL.tsv.gz",
+      "sha256": "a8071609e08c92ccb7656620fab41c01d1ff0cff21fb289dd131b67bd14d6c84",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711147_atac_fragments_KRT20.tsv.gz",
+      "sha256": "d7e70b71f12fad152f9b5db6859d49f6ba4a62121b9f77de73347fd7380fde20",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711149_atac_fragments_LGR5.tsv.gz",
+      "sha256": "e67f076ee1a5dec7f6ce12687fdd26bb0ee254abdd8d308e604e861cf6bcc836",
+      "study_id": "Arozamena_GSE329778_GRCm39",
+      "unit_ids": [],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/gencode.vM33.primary_assembly.annotation.gtf.gz",
+      "sha256": "930cfb538e447acbad01a29d531ebd29854e9c00b8755c3fb93ba2261b68cd8a",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/arc21_fragments.html.request.json",
+      "sha256": "91999173b770a14de0fbe164d46324d2ecc490110a4c045be271dec9a117a980",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/gencode.vM33.primary_assembly.annotation.gtf.gz.request.json",
+      "sha256": "37c884dc6e87a7b12ce07cf3ac61ee86150a5eb26403c2ae05b8c3dcb2d7b75e",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711145_atac_fragments_CTRL.tsv.gz.request.json",
+      "sha256": "5eed8811ea88c10dfd1839385844ef81edb242d19667439dc1aad3d6a0e095d0",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711147_atac_fragments_KRT20.tsv.gz.request.json",
+      "sha256": "576b29923968203b9a6e8a527a7a8eb729e61e9b635c111b902046b451b99fb4",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711149_atac_fragments_LGR5.tsv.gz.request.json",
+      "sha256": "26a2f89fe37c5cd06f187abd3a878f4927126dc3b0ea0961d14709fe69f0d880",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_rna_description_v1/barcode_qc.csv.gz",
+      "sha256": "dfd9a394394936a124136f48ce59f3f6ff9b4d3f7c6c73cf079e9436d48c66ad",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_rna_description_v1/library_gene_summaries.csv.gz",
+      "sha256": "cf506c22f4c18122a3a25e82c2264b8b05988acc27f17c7dbeade00d93e336a4",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_rna_description_v1/receipt.json",
+      "sha256": "825778d241fbf65ee276191ac6f0a03c0f26215ffc9794b24f751568c8b1c4e9",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_EXTENSION_BRIEF_FROZEN_V1.txt",
+      "sha256": "7a73b02dc41090dce22571b051904d7209b382eaecff42d045ff617da8c45ab7",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/ACCESSIBILITY_IMPLEMENTATION_V1.md",
+      "sha256": "1383b08807d86bb452703c632f19ae98d04330823d12376a7376d8556240de5a",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/Q4A_REFERENCE_NOTES_V1.md",
+      "sha256": "fed2fedc7bcca716565462b5837db3739d17de9f0624e6794c19104bed6aed17",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/CTRL.first65536.bin",
+      "sha256": "02d6c6e6e11e348e169888fd0d612a73d9e86aa0719e053238e729bea1447dae",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/KRT20.first65536.bin",
+      "sha256": "f43d5f15e48ca4e30eb4050513d245816bcfa4c2770dafba4ae5bfd8db9e33a6",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/q4a_source_reading_20261101/LGR5.first65536.bin",
+      "sha256": "635ea52e30dc1e7af9be3dda9695a9dde78b7420b65247e85d00ced7e37c21d5",
+      "study_id": "Arz1_Q4a_source_and_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_v1.py",
+      "sha256": "f70b31914ce5de6caae426cf48c6232aff1bf46f0f18ef7294f99e0940bbb1ec"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_core_v1.py",
+      "sha256": "a34cbc2374dde87f9a243ebc381e2e9c2ca5b38119878a8d2af377bbc341c84c"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/plot_accessibility_v1.py",
+      "sha256": "2f96be5d10963330898434c4553250ea6196cd0410ea42855965e074517af632"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/rna_extension_v1.py",
+      "sha256": "3e118352ad76e7cba68c7da82d63b8d84cb1681295b70fcabe28755d106453e1"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_accessibility_v1.py",
+      "sha256": "868747f6de6aafe075a526a815f1e201a789eb00fff83cf89f3a597b745a2263"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_sources_v1.json",
+      "sha256": "9adca4a2a712378123aae946d2471b69dc2581fc550c3c6cd939de5e8a6fbde0"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/.gitattributes",
+      "sha256": "f53a6d00a3d75d9a2617286480463ecdab4bb95fd1012c29ec30576e3a1ae14e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/accessibility_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "region_provenance.json",
+    "source_validation.json",
+    "barcode_depths.csv.gz",
+    "barcode_locus_counts.csv.gz",
+    "paired_populations.csv",
+    "library_rna_summaries.csv",
+    "library_fragment_summaries.csv",
+    "rna_reuse_checks.csv",
+    "paired_contrasts.csv",
+    "source_hashes.csv",
+    "summary.json",
+    "figure_01_paired_primary.png",
+    "figure_01_paired_primary.svg",
+    "figure_02_paired_sensitivity.png",
+    "figure_02_paired_sensitivity.svg"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "First Q4a endpoint version after explicit originating brief; preserves metadata and RNA analyses and their exposed results."
+}
