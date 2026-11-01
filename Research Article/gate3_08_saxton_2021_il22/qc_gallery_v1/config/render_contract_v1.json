@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.QC_gallery_render_v1",
+  "owner": "Sx22-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "How can reviewed R1 library QC and X1 annotation summaries be made visible without obscuring source order, technical units or overlapping categories?",
+  "decision": "Provide two auditable technical QC figures for the existing evidence gallery; no new biological finding or treatment comparison.",
+  "strongest_rival": "Readers may mistake technical library records for animal replicates or treat overlapping annotation dimensions as disjoint classes.",
+  "discriminator": "Preserve all six libraries in original order and display explicit units; show symbol multiplicity separately from six overlapping metadata dimensions with their shared denominator.",
+  "evidence_refs": [
+    "Research Article/gate3_08_saxton_2021_il22/qc_gallery_v1/README.md",
+    "Research Article/gate3_08_saxton_2021_il22/R1_REVIEW.md",
+    "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All source quantities were exposed in original R1/X1 runs, prior independent reviews and current input reading. Layout and source-validation code were tested on synthetic fixtures before freeze. These figures are exposed presentation of reviewed QC, not new unexposed analyses.",
+  "biological_unit": "R1 unit is a technical library record; separate animal identities remain unknown. X1 unit is a repeated symbol label and its deposited annotation records.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "The same six libraries and same deposited annotation rows are reused from the reviewed source runs. Repeated labels share multiple records; the six annotation ambiguity dimensions overlap. Neither rendering nor repeated-source verification is independent replication.",
+  "population_and_selection": "All six R1 library rows in source order. All 52 repeated nonempty symbol labels covering 122 rows in X1; all reported multiplicity bins and six prespecified annotation dimensions. No named gene selection or raw expression loading.",
+  "contrast": "No treatment, condition, variant or biological contrast. Separate technical library records and fixed metadata categories are displayed without inferential comparisons.",
+  "endpoint": "Copied total counts, nonzero gene rows and largest-ten count fraction per library; copied counts of repeated symbol labels by multiplicity and by multiple stable IDs, chromosomes, strands, coordinate tuples, biotypes and descriptions.",
+  "methods": "Standard-library CSV/JSON projection and source-receipt hash checks; verify X1 summary cardinalities against repeated_symbols.csv without remapping or new annotation. Matplotlib generates two horizontal-bar figures. R1 uses three aligned panels, unchanged source order, one color, exact integer annotations and largest-ten percentage rounded to four decimals. X1 uses a separate multiplicity partition and overlapping-dimension panel, fixed source dimension order and denominator 52. Exact plot tables and display strings are emitted. Normalize SVG trailing whitespace in memory and parse XML before exclusive first write; never edit frozen results.",
+  "missingness_and_exclusions": "No rows or zero categories excluded. Reject missing, reordered, duplicated or inconsistent inputs, invalid count denominators, fractions outside zero to one, source-summary disagreements and existing output artifacts. No invented metadata or animal IDs.",
+  "multiplicity": "No tests, confidence intervals, target ranking or multiple-testing procedure; only the prespecified technical quantities are visualized.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Copied finite technical summaries do not estimate animal-level or population precision. Full source numerical values remain in auditable plot tables.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Technical library QC and deposited annotation ambiguity only. No treatment effects, receptor or functional interpretation, animal independence, biological acceptance or reopening of original R2/R3 tasks.",
+  "stop_rule": "Stop on source/code/hash mismatch, missing or inconsistent fields, source order changes, invalid metadata cardinalities or existing outputs. Preserve failed receipts; do not rewrite frozen sources or relax checks. No raw-source pipeline or held biological task may run.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/sx22_r1_v2/library_qc.csv",
+      "sha256": "58aa7e7a5b56f6fe2eb0f6e541b013342fc05a61fd81efaec059b94edab9317b",
+      "study_id": "GSE160217/reviewed_R1_X1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_r1_v2/samples.csv",
+      "sha256": "b26a7b65ff57e71e5a45e0e79eaeaff715b83f140f906179d2236ec7aaa528e2",
+      "study_id": "GSE160217/reviewed_R1_X1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_r1_v2/receipt.json",
+      "sha256": "f1015696cc5b6632737d84a113ed2047fdc3ab12d47553e90d9aa694fd7d7a52",
+      "study_id": "GSE160217/reviewed_R1_X1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x1_annotation_v1/summary.json",
+      "sha256": "83a8d461c9962e4971dc091913d29ffe1544da6df951116a393177f3f62dea58",
+      "study_id": "GSE160217/reviewed_R1_X1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x1_annotation_v1/repeated_symbols.csv",
+      "sha256": "2a08160ed1ca9e440aa02948572fdfb5f9fa4d79f3bd96aed6cd69a4132d555f",
+      "study_id": "GSE160217/reviewed_R1_X1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/sx22_x1_annotation_v1/receipt.json",
+      "sha256": "528c0e9dcb17f43cc83ac32f0076fa7edda2708e50422fdce473c3a245fa79ed",
+      "study_id": "GSE160217/reviewed_R1_X1",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/qc_gallery_v1/scripts/render_v1.py",
+      "sha256": "c1348b1395e505bfdc538da756f13d0e284f3800c6987c96004c8fe326509dc9"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/qc_gallery_v1/tests/test_render.py",
+      "sha256": "a5d34fe83c4ba1fd8e3688c05b82ac59db2ad7e95e967ae63aed016ccd20bff1"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_08_saxton_2021_il22/qc_gallery_v1/scripts/render_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "r1_library_qc.png",
+    "r1_library_qc.svg",
+    "x1_annotation_qc.png",
+    "x1_annotation_qc.svg",
+    "r1_plot_values.csv",
+    "x1_plot_values.csv",
+    "render_summary.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial exposed render-only QC gallery from already-reviewed immutable R1/X1 tables; no source run superseded or repeated."
+}
