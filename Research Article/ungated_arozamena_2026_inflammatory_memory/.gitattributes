@@ -1,0 +1,7 @@
+# Preserve new hash-bound specification bytes across checkouts. No whitespace exemptions.
+.gitattributes -text
+METADATA_METHODS.md -text
+config/** -text
+scripts/** -text
+tests/** -text
+sources/** -text
