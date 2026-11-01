@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Sx22.program_description_v2",
+  "owner": "Sx22-P01",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Within the six deposited colon RNA libraries, does the published interferon-versus-barrier panel distinction remain beyond broad response attenuation and fixed library/scale sensitivities?",
+  "decision": "Describe the extent and sensitivity of reproduction in these deposited measurements; retain negative or method-sensitive results without selecting interventions or claiming population effects.",
+  "strongest_rival": "Broad response attenuation, outcome-selected panels, individual-library variation, bulk composition and unmeasured batches can mimic a selective transcriptional program.",
+  "discriminator": "Fixed published panels, two qualified external IFN memberships, direct B3-WT contrasts, a tested-membership-excluded amplitude reference and all six omissions compare these descriptions; none separates cell composition or proves causal STAT activity.",
+  "evidence_refs": [
+    "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md",
+    "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/LITERATURE_CONTEXT.md",
+    "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/TECHNICAL_ELIGIBILITY.md",
+    "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/METHODS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published outcomes, exact memberships and historical source/QC evidence were exposed. The new source-dependent endpoints were not inspected during implementation; metadata-only joins and synthetic tests preceded this freeze. The historical generic service failures remain recorded, with no identified triggering job. This is an authorized new bounded descriptive amendment, not confirmatory or independent evidence.",
+  "biological_unit": "Deposited RNA library; paper reports two independent biological samples per group, but animal/preparation identity and allocation keys remain unverified.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Gene rows nest in the same six whole-colon libraries. Fixed sets overlap. Both vehicle-relative axes reuse PBS; omission views and normalization scales reuse the same observations. No gene-based biological replication.",
+  "population_and_selection": "All 35275 stable-ID rows and all six named libraries are preserved. Primary eligible universe is full-library CPM >=1 in at least two of six libraries, fixed for all 21 scale/view cases. Test exactly eight author lists and two mouse Hallmark IFN memberships.",
+  "contrast": "WT-PBS, published 22-B3-PBS and direct 22-B3-WT, each as difference of group means of per-library log2(expression+1); these are not fitted population log-fold changes.",
+  "endpoint": "Per-library CPM and log2(CPM+1), three gene contrasts, fixed-membership median contrasts and median y-beta*x residuals, with coverage and overlap; observed omission ranges are not confidence intervals.",
+  "methods": "METHODS.md specifies exact formulas. Full raw-count sums are primary denominators. Fit through-origin beta=sum(x*y)/sum(x*x) on fixed eligible background excluding all tested membership matches, without clamping. Seven views per CPM, edgeR4.10.5 TMM and deposited FPKM; TMM automatic reference, trims0.3/0.05, weighted, Acutoff=-1e10, all-row denominators and re-estimation per view. Use +1 then log2 in all scales. Produce three fixed figures using source membership order, not outcome ranking.",
+  "missingness_and_exclusions": "No library exclusion in primary analysis and no stable-ID collapse. Exact unique symbol joins only; ambiguous and unmapped members retain explicit mapping rows and are unavailable, not zeros. Low-count members retain values but are excluded from medians. Fixed background excludes all exact tested matches including ambiguous rows. Empty memberships or empty/zero-denominator amplitude fits yield unavailable components; qualified independent components continue.",
+  "multiplicity": "Ten prespecified memberships, three scales and seven views; no p-values, FDR, confidence intervals, bootstrap, equivalence margins, additional sets or outcome-driven tuning.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Finite-library exposed description only. Two source libraries per group do not establish verified population units; six omission ranges describe observed sensitivity, not sampling uncertainty.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Expression contrasts and IFN-associated membership summaries do not measure STAT1/STAT3 activation, tissue protection, secretion, repair, memory, cell-intrinsic regulation or causal selectivity. RNA values for qPCR targets are not qPCR reconstruction. Shared-source reanalysis and alternative membership are not independent replication. Q5-Q8 holds remain.",
+  "stop_rule": "Stop on hash/schema mismatch, invalid count values or library sums, annotation disagreement, changed external membership family, or existing output artifacts. Preserve failed receipts. Missing or invalid TMM runtime holds TMM only with exact logs. Empty or zero-denominator amplitude background holds residual component only. Any actual service refusal stops the affected dependent job; no wording/session evasion or expansion.",
+  "inputs": [
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_readcount_genename.xls.gz",
+      "sha256": "26a63db90cbb1c65614205b05a1a957b37f0783b67df72ad4801b48c5bc0646d",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Sx22/GSE160217_060120_22_fpkm_genename.xls.gz",
+      "sha256": "69dd439dc048fe6ff0e4d343d403e2fe277ea004beb4bc10b80c2f0daa7027f1",
+      "study_id": "GSE160217",
+      "unit_ids": [
+        "PBS_1",
+        "PBS_2",
+        "LH5_1",
+        "LH5_2",
+        "LH30_1",
+        "LH30_2"
+      ],
+      "role": "discovery",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/sources/memberships_v1.json",
+      "sha256": "68b1b76c12dbe67ea5d91bb46d3d128bfa2cccf3c9349d69f9720fff53cecb99",
+      "study_id": "Saxton_Figure6",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/sources/mh.all.v2026.1.Mm.symbols.gmt",
+      "sha256": "3a21be724a87dc0375955e725ca9688b87a26e7b74b62fba0c62da0967b789f7",
+      "study_id": "MSigDB_2026.1.Mm",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/METHODS.md",
+      "sha256": "344036048d19f2b16fe21bd9f271e5e34d74b71e127b58e46a046149268397e6",
+      "study_id": "Sx22-P01_prospective_methods",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/describe_v1.py",
+      "sha256": "7dacd5f6c6cc84a5a7bec1ebc5c4f8eb354b9bfdccc396898ca40c8d4b8da335"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/tmm_v1.R",
+      "sha256": "3796f7a53aac0c037d7ebb7b91897d2f620bb33b3f4556b7243df926b6d3f5e7"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/plot_v1.py",
+      "sha256": "c189c9dd7ee04df0a417e6f51aad3047fe55a060fef2ef04a63b38ced0a53af2"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/tests/test_description.py",
+      "sha256": "da0405e89d613b7a2b2534ca33760c3e48af4917012a2a4fe3d18b44a43650ba"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/sources/memberships_v1.json",
+      "sha256": "68b1b76c12dbe67ea5d91bb46d3d128bfa2cccf3c9349d69f9720fff53cecb99"
+    },
+    {
+      "path": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/verify_v1.py",
+      "sha256": "bc0666efeac4ca64ae7e63327b09e7e733167596f53c5555ff913855428736e3"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/scripts/describe_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "gene_inventory.csv",
+    "counts_for_tmm.csv",
+    "member_mapping.csv",
+    "membership_overlap.csv",
+    "normalization_factors.csv",
+    "tmm_stdout.log",
+    "tmm_stderr.log",
+    "primary_gene_expression.csv",
+    "amplitude_fits.csv",
+    "panel_set_summaries.csv",
+    "tested_gene_sensitivity.csv",
+    "sensitivity_ranges.csv",
+    "summary.json",
+    "published_targets.png",
+    "published_targets.svg",
+    "amplitude_reference.png",
+    "amplitude_reference.svg",
+    "sensitivity_ranges.png",
+    "sensitivity_ranges.svg"
+  ],
+  "amendment_of": "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/config/description_contract_v1.json",
+  "amendment_reason": "Pre-execution registration correction: add the fixed membership JSON as a hash-bound execution dependency as well as input, satisfying the existing changed-scientific-asset gate. Analysis, source membership, scripts and tests unchanged; no real endpoints or runner execution occurred under v1. The unexecuted v1 contract receives LF-only newline normalization, with its original committed bytes retained in Git. Bind the separate read-only numerical verifier prospectively; it imports no production calculation code and does not alter the analysis."
+}

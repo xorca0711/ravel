@@ -1,0 +1,318 @@
+{
+  "GSE302685_control": [
+    {
+      "path": "matrix/barcodes",
+      "shape": [
+        6942
+      ],
+      "dtype": "|S18"
+    },
+    {
+      "path": "matrix/data",
+      "shape": [
+        51868219
+      ],
+      "dtype": "int32"
+    },
+    {
+      "path": "matrix/features/_all_tag_keys",
+      "shape": [
+        2
+      ],
+      "dtype": "|S8"
+    },
+    {
+      "path": "matrix/features/feature_type",
+      "shape": [
+        173717
+      ],
+      "dtype": "|S15"
+    },
+    {
+      "path": "matrix/features/genome",
+      "shape": [
+        173717
+      ],
+      "dtype": "|S4"
+    },
+    {
+      "path": "matrix/features/id",
+      "shape": [
+        173717
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/features/interval",
+      "shape": [
+        173717
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/features/name",
+      "shape": [
+        173717
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/indices",
+      "shape": [
+        51868219
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "matrix/indptr",
+      "shape": [
+        6943
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "matrix/shape",
+      "shape": [
+        2
+      ],
+      "dtype": "int32"
+    }
+  ],
+  "GSE302685_irradiated": [
+    {
+      "path": "matrix/barcodes",
+      "shape": [
+        8405
+      ],
+      "dtype": "|S18"
+    },
+    {
+      "path": "matrix/data",
+      "shape": [
+        42646759
+      ],
+      "dtype": "int32"
+    },
+    {
+      "path": "matrix/features/_all_tag_keys",
+      "shape": [
+        2
+      ],
+      "dtype": "|S8"
+    },
+    {
+      "path": "matrix/features/feature_type",
+      "shape": [
+        157599
+      ],
+      "dtype": "|S15"
+    },
+    {
+      "path": "matrix/features/genome",
+      "shape": [
+        157599
+      ],
+      "dtype": "|S4"
+    },
+    {
+      "path": "matrix/features/id",
+      "shape": [
+        157599
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/features/interval",
+      "shape": [
+        157599
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/features/name",
+      "shape": [
+        157599
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/indices",
+      "shape": [
+        42646759
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "matrix/indptr",
+      "shape": [
+        8406
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "matrix/shape",
+      "shape": [
+        2
+      ],
+      "dtype": "int32"
+    }
+  ],
+  "GSE302687_control": [
+    {
+      "path": "matrix/barcodes",
+      "shape": [
+        9897
+      ],
+      "dtype": "|S18"
+    },
+    {
+      "path": "matrix/data",
+      "shape": [
+        18395817
+      ],
+      "dtype": "int32"
+    },
+    {
+      "path": "matrix/features/_all_tag_keys",
+      "shape": [
+        2
+      ],
+      "dtype": "|S8"
+    },
+    {
+      "path": "matrix/features/feature_type",
+      "shape": [
+        128370
+      ],
+      "dtype": "|S15"
+    },
+    {
+      "path": "matrix/features/genome",
+      "shape": [
+        128370
+      ],
+      "dtype": "|S4"
+    },
+    {
+      "path": "matrix/features/id",
+      "shape": [
+        128370
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/features/interval",
+      "shape": [
+        128370
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/features/name",
+      "shape": [
+        128370
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/indices",
+      "shape": [
+        18395817
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "matrix/indptr",
+      "shape": [
+        9898
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "matrix/shape",
+      "shape": [
+        2
+      ],
+      "dtype": "int32"
+    }
+  ],
+  "GSE302687_irradiated": [
+    {
+      "path": "matrix/barcodes",
+      "shape": [
+        10362
+      ],
+      "dtype": "|S18"
+    },
+    {
+      "path": "matrix/data",
+      "shape": [
+        27262037
+      ],
+      "dtype": "int32"
+    },
+    {
+      "path": "matrix/features/_all_tag_keys",
+      "shape": [
+        2
+      ],
+      "dtype": "|S8"
+    },
+    {
+      "path": "matrix/features/feature_type",
+      "shape": [
+        156421
+      ],
+      "dtype": "|S15"
+    },
+    {
+      "path": "matrix/features/genome",
+      "shape": [
+        156421
+      ],
+      "dtype": "|S4"
+    },
+    {
+      "path": "matrix/features/id",
+      "shape": [
+        156421
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/features/interval",
+      "shape": [
+        156421
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/features/name",
+      "shape": [
+        156421
+      ],
+      "dtype": "|S25"
+    },
+    {
+      "path": "matrix/indices",
+      "shape": [
+        27262037
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "matrix/indptr",
+      "shape": [
+        10363
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "matrix/shape",
+      "shape": [
+        2
+      ],
+      "dtype": "int32"
+    }
+  ]
+}

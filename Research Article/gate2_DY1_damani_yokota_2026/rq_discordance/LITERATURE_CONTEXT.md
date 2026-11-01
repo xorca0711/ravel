@@ -1,5 +1,7 @@
 # DY1-P02: literature context
 
+**Cross-article source review, 1 November 2026:** [Arozamena measurement context](../../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) records a published intestinal RNA/accessibility precedent, reviewed RNA-QC and four-locus TSS/body sensitivities, source-coordinate conflicts and missing state/function joins. This is a bounded external measurement reference, not independent NAM replication or evidence for the proposed mediator axis. The local biological question and scientific disposition are unchanged.
+
 30 October 2026, Asia/Seoul. Codex bounded refresh at repository `747250d`, for
 the owner's request to frame an additional RNA–ATAC/axis question and assess
 extensions. Reuses the [29 October review](../../../docs/research_reviews/2026-10-29-nam-memory/LITERATURE_CONTEXT.md)

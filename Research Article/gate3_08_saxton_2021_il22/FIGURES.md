@@ -1,22 +1,76 @@
 # Saxton 2021 IL-22: combined figure gallery
 
-1 November 2026. **Three current figures: two technical QC visualizations and
-one descriptive transcript figure.** This gallery brings together the recovery,
-source-readiness extension and recipient-context extension. It does not present
-a treatment-effect or functional reproduction of the paper.
+1 November 2026. **Six figures: three direct colon RNA descriptions, two technical
+QC visualizations and one external feasibility figure.** The [reviewed reassessment](reassessment_v1/RESULTS.md)
+now addresses the paper's deposited Figure 6 comparison. The selected-panel
+distinction persists descriptively, while broader IFN medians are much smaller
+and the three-target Figure 6C subset is sensitive to library omission.
+
+**Scientific status:** these are exposed, shared-source descriptions, not
+population inference, causal STAT separation or demonstrated tissue function.
+Figures 4–6 contain the new RNA results and are presented first. Existing figure
+numbers remain stable. Figures 1–2 describe data readiness. Figure 3 remains an
+external feasibility check with no measured correlation to Saxton's results.
 
 [Article and completion status](README.md) · [All paper galleries](../README.md#figure-galleries) ·
 [Repository root](../../README.md#figure-galleries-by-analysis-branch).
 
 | Figure | Source and measurement unit | What it establishes |
 |---|---|---|
+| [4. Published targets](#figure-4-published-targets) | Six deposited colon libraries; 31 author-selected targets | Per-library expression and three contrasts; target selection and qPCR/RNA distinctions remain visible |
+| [5. Overall-amplitude reference](#figure-5-overall-amplitude-reference) | Same six libraries; fixed background and ten overlapping memberships | Selected-panel residuals versus broader IFN summaries; descriptive shared-control reference, no mechanistic attribution |
+| [6. Sensitivity](#figure-6-sensitivity) | Same source; three scales and six single-library omissions | Pattern stability and the unstable three-target subset; observed ranges, not confidence intervals |
 | [1. Library QC](#figure-1-library-qc) | R1; six deposited sequencing libraries | Count coverage and concentration diagnostics; animal identities remain unverified |
 | [2. Identifier QC](#figure-2-identifier-qc) | X1; deposited annotation rows and repeated symbol labels | Symbol ambiguity; no expression or biological target ranking |
-| [3. Observed transcripts](#figure-3-observed-transcripts) | E1a; retained cells within three pooled Choi libraries | Fixed transcript measurements with denominators; no animal-level response comparison |
+| [3. External-dataset feasibility](#figure-3-observed-transcripts) | E1a; retained cells within three pooled Choi libraries | Receptor-transcript capture in another study; no measured IL-22 response or correlation with Saxton's results |
 
 Each figure's PNG and SVG are alternative formats. Figure 3 has three panels;
 its historical v1 is a superseded rendering, not an additional result. X2 and X3
 remain tabular/documentary reviews and are indexed below.
+
+## Figure 4. Published targets
+
+![Published Figure 6 targets in deposited colon RNA](../../analysis/research/runs/sx22_program_description_v1/published_targets.png)
+
+[PNG](../../analysis/research/runs/sx22_program_description_v1/published_targets.png) ·
+[SVG](../../analysis/research/runs/sx22_program_description_v1/published_targets.svg) ·
+[Exact values](../../analysis/research/runs/sx22_program_description_v1/primary_gene_expression.csv).
+
+All 31 unique author symbols map uniquely; Cxcl1 is below the fixed filter and
+marked visibly. The left panel displays each library's log2(CPM+1); the right
+shows differences of group means on that scale. The qPCR target lists are viewed
+in RNA data here, not reconstructed qPCR. Gene labels and colors do not establish
+STAT activation or tissue protection. See [methods and coverage](reassessment_v1/METHODS.md).
+
+## Figure 5. Overall-amplitude reference
+
+![Background amplitude reference and fixed-membership residuals](../../analysis/research/runs/sx22_program_description_v1/amplitude_reference.png)
+
+[PNG](../../analysis/research/runs/sx22_program_description_v1/amplitude_reference.png) ·
+[SVG](../../analysis/research/runs/sx22_program_description_v1/amplitude_reference.svg) ·
+[Membership medians](../../analysis/research/runs/sx22_program_description_v1/panel_set_summaries.csv).
+
+The background coefficient is 0.598 on 14,266 eligible rows excluding tested
+memberships. The selected IFN residual is -0.760; the selected tissue-protection
+residual is +0.278, despite its negative direct B3-WT contrast. Both broad IFN
+residual medians are about -0.081. Shared controls, noisy axes and overlapping
+genes prevent a causal or independent-replication interpretation. The coefficient
+is not a fraction of response explained. See [results](reassessment_v1/RESULTS.md).
+
+## Figure 6. Sensitivity
+
+![Normalization and single-library-omission sensitivity](../../analysis/research/runs/sx22_program_description_v1/sensitivity_ranges.png)
+
+[PNG](../../analysis/research/runs/sx22_program_description_v1/sensitivity_ranges.png) ·
+[SVG](../../analysis/research/runs/sx22_program_description_v1/sensitivity_ranges.svg) ·
+[All ranges](../../analysis/research/runs/sx22_program_description_v1/sensitivity_ranges.csv).
+
+Dots use all six libraries; lines are observed minima/maxima over six omissions.
+CPM, TMM and deposited FPKM retain the fixed primary eligibility universe. The
+selected IFN-versus-barrier distinction persists, but the Figure 6C three-target
+residual crosses zero under omissions on every scale. These are not confidence
+intervals, biological replicates or grounds for removing a library. All outcomes
+remain in the [reviewed package](reassessment_v1/ORIGINATING_REVIEW.md).
 
 ## Figure 1. Library QC
 
@@ -56,6 +110,15 @@ collapse genes or identify biological targets.
 
 ## Figure 3. Observed transcripts
 
+**External-dataset feasibility, not a Saxton reproduction or mechanistic result.**
+The rationale was to ask whether an existing lung dataset could support a
+recipient-context follow-up, motivated by Saxton's evidence that receptor context
+affects signaling. This is a conceptual connection, not a measured correlation.
+The Choi data provide no controlled IL-22 exposure comparison, paired receptor
+protein/STAT activation measurements or linked IL-22 functional outcome. The
+very sparse Il22ra1 capture does not qualify this dataset for that intended
+mechanistic comparison. It also does not demonstrate lack of biological responsiveness.
+
 ![Observed Il22ra1 and Il10rb counts, with retained-cell denominators and literal pipeline labels](../../analysis/research/runs/sx22_e1a_render_v2/recipient_transcripts_v2.png)
 
 [PNG](../../analysis/research/runs/sx22_e1a_render_v2/recipient_transcripts_v2.png) ·
@@ -91,10 +154,11 @@ discriminators. These are shared-source descriptions, not independent replicatio
 The [source-panel correction](SOURCE_CORRECTION_2026-10-31.md) provides exact
 PDF/figure locators and render provenance for the literature audit. Temporary
 page images are review aids from the supplied hash-verified PDF, not new repository
-figures or reconstructed data. Original R2/R3 and numerical R4/R5/E1/E2 have no
-result figures to index; their dispositions are in the [completion ledger](COMPLETION_LEDGER.md).
-The separately scoped E1a description above does not complete those held analyses.
-The QC rendering adds no biological analysis and preserves all earlier frozen outputs.
+figures or reconstructed data. The newly scoped R2a/R3a-R3c descriptions are
+Figures 4–6 above. Population inference, exact replay and numerical R4/R5/E1/E2
+remain specifically held in the [current completion ledger](COMPLETION_LEDGER.md).
+E1a and QC figures do not complete those analyses. Earlier frozen outputs remain
+unchanged.
 
 [QC render receipt](../../analysis/research/runs/sx22_qc_gallery_render_v1/receipt.json) ·
 [Gallery review and integration checks](GALLERY_REVIEW_2026-11-01.md).

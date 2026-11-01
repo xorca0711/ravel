@@ -1,0 +1,57 @@
+{
+  "scope": "Exposed finite-library description; no population inference",
+  "libraries": [
+    "PBS_1",
+    "PBS_2",
+    "LH5_1",
+    "LH5_2",
+    "LH30_1",
+    "LH30_2"
+  ],
+  "source_rows": 35275,
+  "primary_eligible_rows": 14483,
+  "tested_union_rows": 228,
+  "amplitude_background_rows": 14266,
+  "membership_count": 10,
+  "mapping_rows": 319,
+  "summary_rows": 210,
+  "scales": [
+    "CPM",
+    "TMM",
+    "FPKM"
+  ],
+  "views": [
+    "full",
+    "omit_PBS_1",
+    "omit_PBS_2",
+    "omit_LH5_1",
+    "omit_LH5_2",
+    "omit_LH30_1",
+    "omit_LH30_2"
+  ],
+  "tmm": {
+    "status": "qualified",
+    "error": "",
+    "rscript": "X:/GitHub/ravel/analysis/corrections/statistics/.tools/R-portable/app/bin/Rscript.exe",
+    "library": "X:/GitHub/ravel/analysis/corrections/statistics/.tools/R-library",
+    "reference": "edgeR automatic refColumn=NULL; TMM factors re-estimated per view",
+    "parameters": {
+      "logratioTrim": 0.3,
+      "sumTrim": 0.05,
+      "doWeighting": true,
+      "Acutoff": -10000000000.0
+    }
+  },
+  "primary_beta": 0.598012987600391,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+  "numpy": "2.5.1",
+  "endpoint": "Differences of group means of per-library log2(normalized expression + 1)",
+  "shared_control_limit": "Both vehicle-relative axes share PBS; noisy axes and unknown units prevent population or mechanistic inference",
+  "held_jobs": {
+    "Q5_R2b": "Independent biological units remain unverified",
+    "Q6": "Original author gene/filter/zero-handling/aggregation choices not recovered",
+    "Q7": "Raw signaling/function values, replicate/nesting keys and panel identities unqualified",
+    "Q8": "Animal-resolved exposure/cessation/later-function joins unqualified"
+  },
+  "scientific_acceptance": "not_assessed"
+}

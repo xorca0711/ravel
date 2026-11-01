@@ -1,0 +1,114 @@
+{
+  "source": "Saxton et al. Immunity 2021, final supplied PDF p.9 Figure6; DOI 10.1016/j.immuni.2021.03.008",
+  "source_image_sha256": "bdab2a92ba855dae1bf1f38a4d776b1bd0e2be6517c2ea24ebca179c04e28d76",
+  "checked_on": "2026-11-01",
+  "exposure": "Published outcomes and memberships exposed; parent and technical visual checks agree",
+  "interpretation": "Author categories retained literally, not functional certification; qPCR targets yield RNA measurements only",
+  "panels": [
+    {
+      "id": "F6B_tissue_protection",
+      "locator": "6B",
+      "label": "Tissue protection",
+      "role": "published_RNA_panel",
+      "members": [
+        "Reg3b",
+        "Reg3g",
+        "Muc1",
+        "Muc13",
+        "Hamp2",
+        "Lbp"
+      ]
+    },
+    {
+      "id": "F6B_DNA_damage",
+      "locator": "6B",
+      "label": "DNA-damage response",
+      "role": "published_RNA_panel",
+      "members": [
+        "Brca1",
+        "Rad51",
+        "Cdc45",
+        "Mcm2",
+        "Mcm5",
+        "Cdt1",
+        "Chek1"
+      ]
+    },
+    {
+      "id": "F6B_anti_inflammatory",
+      "locator": "6B",
+      "label": "Anti-inflammatory",
+      "role": "published_RNA_panel",
+      "members": [
+        "Il18bp",
+        "Trim40",
+        "Socs3",
+        "Socs1"
+      ]
+    },
+    {
+      "id": "F6D_interferon",
+      "locator": "6D",
+      "label": "Interferon response",
+      "role": "published_RNA_panel",
+      "members": [
+        "Isg15",
+        "Apobec3",
+        "Tmem173",
+        "Ifit1",
+        "Ddx60",
+        "Gbp2",
+        "Apol9b"
+      ]
+    },
+    {
+      "id": "F6D_TNF_Trail",
+      "locator": "6D",
+      "label": "TNF/Trail pathway",
+      "role": "published_RNA_panel",
+      "members": [
+        "Tnfrsf1b",
+        "Tnfsf10",
+        "Tifa",
+        "Ripk2",
+        "Bcl3"
+      ]
+    },
+    {
+      "id": "F6D_Il1rn",
+      "locator": "6D",
+      "label": "Il1rn (separate plot)",
+      "role": "published_RNA_target",
+      "members": [
+        "Il1rn"
+      ]
+    },
+    {
+      "id": "F6C_qPCR_targets",
+      "locator": "6C",
+      "label": "qPCR targets viewed in RNA",
+      "role": "qPCR_targets_RNA_only",
+      "members": [
+        "Reg3b",
+        "Reg3g",
+        "Muc1"
+      ]
+    },
+    {
+      "id": "F6E_qPCR_targets",
+      "locator": "6E",
+      "label": "qPCR targets viewed in RNA",
+      "role": "qPCR_targets_RNA_only",
+      "members": [
+        "Isg15",
+        "Tnfrsf1b",
+        "Tnfsf10",
+        "Cxcl1"
+      ]
+    }
+  ],
+  "external_sets": [
+    "HALLMARK_INTERFERON_ALPHA_RESPONSE",
+    "HALLMARK_INTERFERON_GAMMA_RESPONSE"
+  ]
+}

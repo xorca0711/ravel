@@ -1,0 +1,15 @@
+{
+  "scope": "Empty-record metadata adapter; no biological endpoints",
+  "prior_receipt": "analysis/research/runs/arz1_source_qualification_v1/receipt.json",
+  "reused_HDF5_libraries": 4,
+  "n_multiome_libraries": 7,
+  "n_structurally_checked": 7,
+  "structural_holds": [],
+  "common_feature_counts": {
+    "Gene Expression": 31950
+  },
+  "source_bytes": "unchanged",
+  "state_assignment": "not_performed",
+  "biological_independence": "unknown",
+  "scientific_acceptance": "not_assessed"
+}

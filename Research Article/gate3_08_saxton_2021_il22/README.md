@@ -1,58 +1,66 @@
 # Saxton 2021 IL-22: source reproduction and recipient-context analysis
 
-**Gallery update, 1 November 2026:** the [combined figure gallery](FIGURES.md)
-brings together R1 library QC, X1 identifier QC and the E1a descriptive transcript
-figure, with source tables and interpretation limits. It is linked directly from
-the repository root and the paper gallery index. The two QC figures visualize
-already-reviewed tables; they do not add biological analyses.
+**Connected epithelial reference:** [Arozamena 2026](../ungated_arozamena_2026_inflammatory_memory/README.md) now has reviewed source, RNA and four-locus paired RNA/fragment work, a [separate figure gallery](../ungated_arozamena_2026_inflammatory_memory/FIGURES.md) and explicit [RQ connections](../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). These intestinal history measurements are distinct from Saxton's acute IL-22 findings and do not resolve the held STAT/function questions.
 
-[PR #155](https://github.com/xorca0711/ravel/pull/155) merged the reviewed recovery,
-X1–X3 source audits and E1a extension into main at `41dc127`. The gallery/navigation
-follow-up preserves the original treatment/response and linked-function holds;
-neither merge nor execution implies human scientific acceptance.
+**Reviewed gene-program analysis, 1 November 2026:** the [Sx22-P01 reassessment](reassessment_v1/README.md)
+completed every eligible descriptive job through the existing technical chat.
+The reviewed follow-up is in [PR #157](https://github.com/xorca0711/ravel/pull/157).
+The question is whether the six deposited colon libraries support a selected
+program distinction beyond overall response weakening, panel selection and
+individual-library sensitivity. This is exposed shared-source reanalysis.
 
-**Reviewed recovery closeout, 31 October 2026:** the bounded metadata/source/documentation
-review passed [originating review](REVIEW_2026-10-31.md) and is integrated locally.
-The original biological sequence is not completed. The
-[recovery scope](RECOVERY_SCOPE_2026-10-31.md) governs current work; the original
-plan below remains historical, including its broader authorization language.
+The [results](reassessment_v1/RESULTS.md) reproduce the selected IFN-versus-barrier
+contrast descriptively, with much smaller median differences in the broader IFN
+memberships. The selected barrier panel also decreases directly, and the
+Reg3b/Reg3g/Muc1 subset is sensitive to library omission. Neither transcriptional
+categories nor amplitude residuals measure STAT activity or tissue protection.
 
-[Results](RESULTS.md) | [Complete hold ledger](COMPLETION_LEDGER.md) |
-[Independent R1 review](R1_REVIEW.md) | [Source correction](SOURCE_CORRECTION_2026-10-31.md) |
-[E1/E2 source feasibility](SOURCE_FEASIBILITY.md) | [Figure gallery and evidence index](FIGURES.md) |
-[Validation and handoff](VALIDATION.md).
+[Current question and plan](reassessment_v1/README.md) ·
+[Results and exact values](reassessment_v1/RESULTS.md) ·
+[Methods](reassessment_v1/METHODS.md) · [Literature context](reassessment_v1/LITERATURE_CONTEXT.md) ·
+[Originating review](reassessment_v1/ORIGINATING_REVIEW.md) ·
+[Current completion/hold ledger](COMPLETION_LEDGER.md).
 
-The later [source-readiness extensions](extensions_20261031/RESULTS.md) report
-completed X1 annotation metadata, X2 all-six-record provenance and X3 companion
-supplement/endpoint-linkage review. Their [separate ledger](extensions_20261031/README.md)
-retains annotation, animal-key and functional-link limits. They leave the original
-recovery dispositions below unchanged and do not resume held biological analyses.
-The extension [originating review](extensions_20261031/REVIEW.md) passed and the
-work is integrated on a separate local branch. See the
-[implication note](extensions_20261031/IMPLICATIONS.md) for conditional research
-directions. The owner subsequently authorized adding these reviewed extensions
-to [PR #155](https://github.com/xorca0711/ravel/pull/155) on 1 November.
+The [combined figure gallery](FIGURES.md) now contains **three direct colon RNA
+figures**, two source-QC figures and one external Choi feasibility figure.
+Figures 4-6 address this paper's deposited comparison. Figure 3 remains an
+external receptor-transcript coverage check with no measured correlation to
+Saxton's results. PNG/SVG formats do not count as separate figures.
 
-The separately scoped [E1a transcript description](recipient_context_v1/RESULTS.md)
-now reports the two fixed transcript measurements in the saved Choi benchmark.
-Its [figure/table gallery](recipient_context_v1/FIGURES.md) preserves literal labels,
-pooled-library limits and empty strata. Sparse Il22ra1 capture supplies no response
-or biological-absence conclusion; the historical E1/R2/R3 dispositions remain intact.
-Its [originating review](recipient_context_v1/REVIEW.md) passed and the completed
-C0–C3 handoff is integrated locally and included in the PR; no new scientific
-acceptance is implied.
-
-| Step | Current source-review / execution disposition |
+| Stage | Current execution/review disposition |
 |---|---|
-| R0 | Main source/endpoint audit reviewed; supplementary/raw-source access and assessment limits documented |
-| R1 | Original v2 executed; independent hashes, formats, dimensions, joins and QC arithmetic pass; animal identities remain unverified |
-| R2 | Unexecuted; platform-policy execution hold, despite recovered count files |
-| R3 | Unexecuted; platform-policy execution hold; no response scoring/modeling |
-| R4 | Source audit complete with Figure 5 correction; numerical reconstruction held by policy scope and raw-value/replicate/identity limits |
-| R5 | Endpoint/source audit complete; Figure 7 G/H caption conflict retained; numerical reconstruction held by policy scope and unit/nesting limits |
-| E1 | Bounded existing-source assessment complete; numerical extension unexecuted; pooled-unit and endpoint-linkage limits recorded |
-| E2 | Bounded literature/source assessment complete; no linked persistence/recovery analysis; uninspected sources remain not assessed |
-| D1 | Results, evidence index, exact ledger, local integration and originating technical/source review complete; human scientific acceptance remains unassessed |
+| R0-R1 / Q0 | Prior source/QC evidence reused; current source, runtime and eligibility assessment complete |
+| R2a / Q1 | Completed: all 35,275 source rows, six per-library expression records and three descriptive group contrasts |
+| R3a / Q2 | Completed: eight exact author memberships, mapping/coverage and RNA values; qPCR target lists are not qPCR reconstruction |
+| R3b / Q3 | Completed: two fixed external IFN memberships with mapping, overlap and summaries; no inferred STAT activity |
+| R3c / Q4 | Completed: CPM, TMM and deposited FPKM; full data plus six omissions each; 21 amplitude fits and 210 membership cases |
+| R2b / Q5 | Held: independent animal/preparation units and allocation/nesting remain unverified for population inference |
+| Exact Figure 6 replay / Q6 | Held: original gene universe, filtering, transformation, aggregation and zero-handling choices unrecovered |
+| R4 / Q7 | Held: raw signaling values/replicate keys and panel identities unqualified |
+| R5 / Q7 | Held: raw functional values, organoid/crypt/animal nesting and Figure 7 G/H organ identity unqualified |
+| E1-E2 / Q8 | E1a/X3 bounded work complete; animal-resolved recipient-response and cessation-to-later-function joins remain unqualified |
+| D1 / Q9 | Numerical and visual review, current report, gallery and status integration complete; scientific acceptance remains unassessed |
+
+The [ledger](COMPLETION_LEDGER.md) identifies each hold's exact reopening evidence.
+No current content refusal occurred. Two original prompt-level service failures
+remain historical records with no triggering job identified; this completion
+does not declare unrestricted service clearance. No validators or scientific
+acceptance rules were weakened. Canonical RQs are unchanged.
+
+## Earlier recovery and extensions
+
+[PR #155](https://github.com/xorca0711/ravel/pull/155) merged recovery, X1-X3 and
+E1a at `41dc127`; [PR #156](https://github.com/xorca0711/ravel/pull/156) added
+gallery navigation/QC figures at `51d3b93`. Their source and execution records
+remain intact. The [original recovery scope](RECOVERY_SCOPE_2026-10-31.md) describes
+that historical bounded work; the current descriptive amendment is separately
+specified and does not silently replay its held numerical plans.
+
+[Recovery results](RESULTS.md) · [R1 independent review](R1_REVIEW.md) ·
+[Source-panel correction](SOURCE_CORRECTION_2026-10-31.md) ·
+[X1-X3 source audits](extensions_20261031/RESULTS.md) ·
+[E1a observed transcripts](recipient_context_v1/RESULTS.md) ·
+[Original source feasibility](SOURCE_FEASIBILITY.md).
 
 ## Historical plan (retained verbatim below)
 

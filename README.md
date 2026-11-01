@@ -103,7 +103,8 @@ Reused deposits and their companion assays remain shared evidence.
 
 | Scope | Gallery and interpretation |
 |---|---|
-| **Saxton 2021 IL-22** | [Combined article gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md): library QC, identifier QC and the descriptive recipient-transcript figure. These are technical diagnostics and observed-cell descriptions; treatment/response and functional analyses retain their recorded holds. |
+| **Arozamena 2026 intestinal history** | [Article gallery](Research%20Article/ungated_arozamena_2026_inflammatory_memory/FIGURES.md): four reviewed plates: accession-specific RNA contrasts, paired four-locus RNA/fragments and fixed measurement sensitivities. [Job ledger](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md) separates completed descriptions from missing state/function linkage and exact-replay limitations. |
+| **Saxton 2021 IL-22** | [Combined article gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md): three reviewed colon RNA figures (published targets, overall-amplitude reference and sensitivity), two QC figures and one external feasibility figure. [Results](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md) distinguish the selected-panel pattern from smaller broad-IFN differences; population, signaling and functional inference retain explicit holds. |
 | All paper packages | [Paper gallery index](Research%20Article/README.md#figure-galleries) |
 | Research questions | [Question figures](RQ_Specified/FIGURES.md) |
 | Cross-question measurements and designs | [Shared gallery](analysis/figures/rq/README.md) |
@@ -111,7 +112,8 @@ Reused deposits and their companion assays remain shared evidence.
 Captions identify units and limits; later corrections take precedence over
 historical image titles. The Saxton extension page contains one three-panel
 transcript figure; its PNG/SVG formats and superseded rendering are not separate
-results. The combined article gallery also includes the source-QC figures.
+results. The combined gallery distinguishes the three direct colon RNA figures
+from supporting QC and the external Choi feasibility result.
 
 ## Try it yourself
 

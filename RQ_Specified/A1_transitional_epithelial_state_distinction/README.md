@@ -1,5 +1,7 @@
 # A1: Distinguishing transitional epithelial states
 
+**External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). RNA-QC and fixed TSS-window versus gene-body sensitivity in the intestinal reference distinguish measurement/selection from within-state regulation. The third-deposit four-locus recount supplies common regions and paired barcodes, but no qualified state labels or later-output join. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
+
 **DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
 
 **Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a proposed biochemical feature for this existing question. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.

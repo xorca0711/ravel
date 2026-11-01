@@ -1,0 +1,33 @@
+{
+  "scope": "Source and matrix-structure metadata only; no biological endpoint calculation",
+  "n_series": 6,
+  "n_sample_records": 44,
+  "n_biosample_records": 44,
+  "n_multiome_library_records": 7,
+  "n_structurally_checked_multiome": 4,
+  "structural_holds": [
+    {
+      "component": "GSE329778_CTRL",
+      "error_type": "ValueError",
+      "error": "Missing feature-type column"
+    },
+    {
+      "component": "GSE329778_KRT20",
+      "error_type": "ValueError",
+      "error": "Missing feature-type column"
+    },
+    {
+      "component": "GSE329778_LGR5",
+      "error_type": "ValueError",
+      "error": "Missing feature-type column"
+    }
+  ],
+  "runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "numpy": "2.5.1",
+    "h5py": "3.16.0"
+  },
+  "interpretation": "Shared axes and barcode/feature overlaps do not verify individual animals, state identities, donor deconvolution or longitudinal function joins",
+  "biological_independence": "unknown",
+  "scientific_acceptance": "not_assessed"
+}

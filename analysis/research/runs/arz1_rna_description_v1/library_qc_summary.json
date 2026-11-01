@@ -1,0 +1,317 @@
+[
+  {
+    "library": "GSE302685_control",
+    "n_source_rna_genes": 32285,
+    "n_barcodes": 6942,
+    "n_positive_rna": 6942,
+    "n_rna_qc": 2977,
+    "all_source_rna_denominators": [
+      6240768,
+      4143099
+    ],
+    "common_gene_count_sums": [
+      6216500,
+      4128614
+    ],
+    "qc_mapping_available": true,
+    "overlapping_failure_counts": {
+      "detected_below_200": 2475,
+      "rna_below_500": 2997,
+      "mitochondrial_above_0.40": 2413,
+      "detected_above_2500": 40
+    },
+    "source_barcode_quantiles_min_q25_median_q75_max": {
+      "rna_counts": [
+        18.0,
+        353.0,
+        566.0,
+        1038.0,
+        65863.0
+      ],
+      "detected_rna_genes": [
+        17.0,
+        151.0,
+        305.0,
+        577.0,
+        8628.0
+      ],
+      "mitochondrial_fraction": [
+        0.0,
+        0.13387753560132765,
+        0.2530883025773982,
+        0.5257107709130673,
+        0.8715151515151515
+      ]
+    }
+  },
+  {
+    "library": "GSE302685_irradiated",
+    "n_source_rna_genes": 32285,
+    "n_barcodes": 8405,
+    "n_positive_rna": 8405,
+    "n_rna_qc": 2368,
+    "all_source_rna_denominators": [
+      6809200,
+      3967364
+    ],
+    "common_gene_count_sums": [
+      6770055,
+      3950170
+    ],
+    "qc_mapping_available": true,
+    "overlapping_failure_counts": {
+      "detected_below_200": 4644,
+      "rna_below_500": 4390,
+      "mitochondrial_above_0.40": 4895,
+      "detected_above_2500": 26
+    },
+    "source_barcode_quantiles_min_q25_median_q75_max": {
+      "rna_counts": [
+        15.0,
+        280.0,
+        477.0,
+        962.0,
+        14442.0
+      ],
+      "detected_rna_genes": [
+        15.0,
+        99.0,
+        170.0,
+        489.0,
+        4241.0
+      ],
+      "mitochondrial_fraction": [
+        0.0,
+        0.2249609984399376,
+        0.4838709677419355,
+        0.6737804878048781,
+        0.9022757697456493
+      ]
+    }
+  },
+  {
+    "library": "GSE302687_control",
+    "n_source_rna_genes": 32285,
+    "n_barcodes": 9897,
+    "n_positive_rna": 9897,
+    "n_rna_qc": 911,
+    "all_source_rna_denominators": [
+      18808461,
+      1502903
+    ],
+    "common_gene_count_sums": [
+      17047274,
+      1310424
+    ],
+    "qc_mapping_available": true,
+    "overlapping_failure_counts": {
+      "detected_below_200": 5769,
+      "mitochondrial_above_0.40": 7104,
+      "rna_below_500": 2768,
+      "detected_above_2500": 88
+    },
+    "source_barcode_quantiles_min_q25_median_q75_max": {
+      "rna_counts": [
+        10.0,
+        435.0,
+        1119.0,
+        2467.0,
+        89557.0
+      ],
+      "detected_rna_genes": [
+        7.0,
+        68.0,
+        140.0,
+        440.0,
+        5359.0
+      ],
+      "mitochondrial_fraction": [
+        0.003896103896103896,
+        0.34937888198757766,
+        0.6195988266074685,
+        0.7773711497407746,
+        0.9698189134808853
+      ]
+    }
+  },
+  {
+    "library": "GSE302687_irradiated",
+    "n_source_rna_genes": 32285,
+    "n_barcodes": 10362,
+    "n_positive_rna": 10362,
+    "n_rna_qc": 1135,
+    "all_source_rna_denominators": [
+      24253145,
+      3929953
+    ],
+    "common_gene_count_sums": [
+      22438455,
+      3709560
+    ],
+    "qc_mapping_available": true,
+    "overlapping_failure_counts": {
+      "detected_below_200": 4502,
+      "mitochondrial_above_0.40": 8369,
+      "rna_below_500": 1411,
+      "detected_above_2500": 422
+    },
+    "source_barcode_quantiles_min_q25_median_q75_max": {
+      "rna_counts": [
+        21.0,
+        862.25,
+        1686.0,
+        2776.0,
+        35268.0
+      ],
+      "detected_rna_genes": [
+        9.0,
+        115.0,
+        241.0,
+        563.0,
+        6065.0
+      ],
+      "mitochondrial_fraction": [
+        0.002540220152413209,
+        0.4787269654697322,
+        0.6786264726264726,
+        0.7935112656222496,
+        0.9737390579408086
+      ]
+    }
+  },
+  {
+    "library": "GSE329778_CTRL",
+    "n_source_rna_genes": 33696,
+    "n_barcodes": 5164,
+    "n_positive_rna": 5164,
+    "n_rna_qc": 1650,
+    "all_source_rna_denominators": [
+      10428351,
+      3572347
+    ],
+    "common_gene_count_sums": [
+      10397150,
+      3559462
+    ],
+    "qc_mapping_available": true,
+    "overlapping_failure_counts": {
+      "detected_below_200": 2182,
+      "mitochondrial_above_0.40": 2368,
+      "rna_below_500": 1939,
+      "detected_above_2500": 409
+    },
+    "source_barcode_quantiles_min_q25_median_q75_max": {
+      "rna_counts": [
+        25.0,
+        332.75,
+        713.5,
+        1895.25,
+        102300.0
+      ],
+      "detected_rna_genes": [
+        19.0,
+        116.0,
+        283.5,
+        994.25,
+        9637.0
+      ],
+      "mitochondrial_fraction": [
+        0.002198370619423251,
+        0.2177696516393883,
+        0.37253167381249586,
+        0.5612515700336291,
+        0.9587709062621548
+      ]
+    }
+  },
+  {
+    "library": "GSE329778_KRT20",
+    "n_source_rna_genes": 33696,
+    "n_barcodes": 7896,
+    "n_positive_rna": 7896,
+    "n_rna_qc": 2711,
+    "all_source_rna_denominators": [
+      17643253,
+      6409839
+    ],
+    "common_gene_count_sums": [
+      17591462,
+      6387142
+    ],
+    "qc_mapping_available": true,
+    "overlapping_failure_counts": {
+      "detected_below_200": 2694,
+      "rna_below_500": 1464,
+      "mitochondrial_above_0.40": 4123,
+      "detected_above_2500": 648
+    },
+    "source_barcode_quantiles_min_q25_median_q75_max": {
+      "rna_counts": [
+        47.0,
+        599.0,
+        1059.0,
+        2414.25,
+        78170.0
+      ],
+      "detected_rna_genes": [
+        29.0,
+        148.0,
+        429.0,
+        1210.0,
+        8746.0
+      ],
+      "mitochondrial_fraction": [
+        0.010891763104152484,
+        0.23655913978494625,
+        0.41613279719385887,
+        0.6706642777567788,
+        0.9322381930184805
+      ]
+    }
+  },
+  {
+    "library": "GSE329778_LGR5",
+    "n_source_rna_genes": 33696,
+    "n_barcodes": 6921,
+    "n_positive_rna": 6921,
+    "n_rna_qc": 635,
+    "all_source_rna_denominators": [
+      11182334,
+      1165579
+    ],
+    "common_gene_count_sums": [
+      11164581,
+      1162367
+    ],
+    "qc_mapping_available": true,
+    "overlapping_failure_counts": {
+      "detected_below_200": 3783,
+      "rna_below_500": 2867,
+      "mitochondrial_above_0.40": 5125,
+      "detected_above_2500": 179
+    },
+    "source_barcode_quantiles_min_q25_median_q75_max": {
+      "rna_counts": [
+        22.0,
+        296.0,
+        643.0,
+        1481.0,
+        127811.0
+      ],
+      "detected_rna_genes": [
+        20.0,
+        100.0,
+        177.0,
+        410.0,
+        9492.0
+      ],
+      "mitochondrial_fraction": [
+        0.0009897723523589574,
+        0.3911290322580645,
+        0.5698569856985699,
+        0.7282051282051282,
+        0.9795550210463019
+      ]
+    }
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "gtf": "raw_data/Arz1/q4a_inputs_v1/gencode.vM33.primary_assembly.annotation.gtf.gz",
+  "rna_libraries": [
+    {
+      "id": "GSE329778_CTRL",
+      "accession": "GSE329778",
+      "condition": "CTRL",
+      "format": "mtx",
+      "rna_sample": "GSM9711144",
+      "atac_sample": "GSM9711145",
+      "paths": [
+        "raw_data/Arz1/processed_v1/GSM9711144_matrix_CTRL.mtx.gz",
+        "raw_data/Arz1/processed_v1/GSM9711144_features_CTRL.tsv.gz",
+        "raw_data/Arz1/processed_v1/GSM9711144_barcodes_CTRL.tsv.gz"
+      ]
+    },
+    {
+      "id": "GSE329778_KRT20",
+      "accession": "GSE329778",
+      "condition": "KRT20",
+      "format": "mtx",
+      "rna_sample": "GSM9711146",
+      "atac_sample": "GSM9711147",
+      "paths": [
+        "raw_data/Arz1/processed_v1/GSM9711146_matrix_KRT20.mtx.gz",
+        "raw_data/Arz1/processed_v1/GSM9711146_features_KRT20.tsv.gz",
+        "raw_data/Arz1/processed_v1/GSM9711146_barcodes_KRT20.tsv.gz"
+      ]
+    },
+    {
+      "id": "GSE329778_LGR5",
+      "accession": "GSE329778",
+      "condition": "LGR5",
+      "format": "mtx",
+      "rna_sample": "GSM9711148",
+      "atac_sample": "GSM9711149",
+      "paths": [
+        "raw_data/Arz1/processed_v1/GSM9711148_matrix_LGR5.mtx.gz",
+        "raw_data/Arz1/processed_v1/GSM9711148_features_LGR5.tsv.gz",
+        "raw_data/Arz1/processed_v1/GSM9711148_barcodes_LGR5.tsv.gz"
+      ]
+    }
+  ],
+  "fragments": [
+    {
+      "library": "GSE329778_CTRL",
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711145_atac_fragments_CTRL.tsv.gz",
+      "bytes": 402473208,
+      "sha256": "a8071609e08c92ccb7656620fab41c01d1ff0cff21fb289dd131b67bd14d6c84",
+      "expected_headers": {
+        "id": "CTRL",
+        "pipeline_name": "cellranger-arc",
+        "pipeline_version": "cellranger-arc-2.1.0",
+        "reference_version": "2024-A",
+        "reference_fasta_hash": "0a38e50e7b7b743504ba5e83f12b6076c5090224",
+        "reference_gtf_hash": "b25e6d75b49c486fe87988387b4fa7209f6060bc"
+      }
+    },
+    {
+      "library": "GSE329778_KRT20",
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711147_atac_fragments_KRT20.tsv.gz",
+      "bytes": 512718078,
+      "sha256": "d7e70b71f12fad152f9b5db6859d49f6ba4a62121b9f77de73347fd7380fde20",
+      "expected_headers": {
+        "id": "KRT20",
+        "pipeline_name": "cellranger-arc",
+        "pipeline_version": "cellranger-arc-2.1.0",
+        "reference_version": "2024-A",
+        "reference_fasta_hash": "0a38e50e7b7b743504ba5e83f12b6076c5090224",
+        "reference_gtf_hash": "b25e6d75b49c486fe87988387b4fa7209f6060bc"
+      }
+    },
+    {
+      "library": "GSE329778_LGR5",
+      "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711149_atac_fragments_LGR5.tsv.gz",
+      "bytes": 793731383,
+      "sha256": "e67f076ee1a5dec7f6ce12687fdd26bb0ee254abdd8d308e604e861cf6bcc836",
+      "expected_headers": {
+        "id": "LGR5",
+        "pipeline_name": "cellranger-arc",
+        "pipeline_version": "cellranger-arc-2.1.0",
+        "reference_version": "2024-A",
+        "reference_fasta_hash": "0a38e50e7b7b743504ba5e83f12b6076c5090224",
+        "reference_gtf_hash": "b25e6d75b49c486fe87988387b4fa7209f6060bc"
+      }
+    }
+  ],
+  "acquisition_records": [
+    "raw_data/Arz1/q4a_inputs_v1/arc21_fragments.html.request.json",
+    "raw_data/Arz1/q4a_inputs_v1/gencode.vM33.primary_assembly.annotation.gtf.gz.request.json",
+    "raw_data/Arz1/q4a_inputs_v1/GSM9711145_atac_fragments_CTRL.tsv.gz.request.json",
+    "raw_data/Arz1/q4a_inputs_v1/GSM9711147_atac_fragments_KRT20.tsv.gz.request.json",
+    "raw_data/Arz1/q4a_inputs_v1/GSM9711149_atac_fragments_LGR5.tsv.gz.request.json"
+  ],
+  "reference_notes": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/Q4A_REFERENCE_NOTES_V1.md"
+}

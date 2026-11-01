@@ -1,0 +1,36 @@
+Verified frozen RNA depths/QC: GSE329778_CTRL
+Verified frozen RNA depths/QC: GSE329778_KRT20
+Verified frozen RNA depths/QC: GSE329778_LGR5
+GSE329778_CTRL: 5000000 fragment rows traversed
+GSE329778_CTRL: 10000000 fragment rows traversed
+GSE329778_CTRL: 15000000 fragment rows traversed
+GSE329778_CTRL: 20000000 fragment rows traversed
+GSE329778_CTRL: 25000000 fragment rows traversed
+GSE329778_CTRL: 30000000 fragment rows traversed
+GSE329778_CTRL: 35000000 fragment rows traversed
+Fragment traversal GSE329778_CTRL: qualified
+GSE329778_KRT20: 5000000 fragment rows traversed
+GSE329778_KRT20: 10000000 fragment rows traversed
+GSE329778_KRT20: 15000000 fragment rows traversed
+GSE329778_KRT20: 20000000 fragment rows traversed
+GSE329778_KRT20: 25000000 fragment rows traversed
+GSE329778_KRT20: 30000000 fragment rows traversed
+GSE329778_KRT20: 35000000 fragment rows traversed
+GSE329778_KRT20: 40000000 fragment rows traversed
+Fragment traversal GSE329778_KRT20: qualified
+GSE329778_LGR5: 5000000 fragment rows traversed
+GSE329778_LGR5: 10000000 fragment rows traversed
+GSE329778_LGR5: 15000000 fragment rows traversed
+GSE329778_LGR5: 20000000 fragment rows traversed
+GSE329778_LGR5: 25000000 fragment rows traversed
+GSE329778_LGR5: 30000000 fragment rows traversed
+GSE329778_LGR5: 35000000 fragment rows traversed
+GSE329778_LGR5: 40000000 fragment rows traversed
+GSE329778_LGR5: 45000000 fragment rows traversed
+GSE329778_LGR5: 50000000 fragment rows traversed
+GSE329778_LGR5: 55000000 fragment rows traversed
+GSE329778_LGR5: 60000000 fragment rows traversed
+GSE329778_LGR5: 65000000 fragment rows traversed
+GSE329778_LGR5: 70000000 fragment rows traversed
+Fragment traversal GSE329778_LGR5: qualified
+{"analysis": "Arz1.accessibility_description_v2", "n_fragment_sources": 3, "n_valid_fragment_sources": 3, "n_qualified_loci": 4, "count_definitions": ["strand_records", "coordinate_groups"], "n_paired_contrast_rows": 128, "n_defined_paired_contrasts": 128, "n_count_definition_deltas": 64, "holds": [], "all_valid_sources_reached_eof_before_endpoints": true, "biological_independence": "unknown", "scientific_acceptance": "not_assessed", "interpretation": "GRCm39 finite-library source-record/group overlap; neither definition certifies physical molecules; not ARC cut-site matrix counts, exact author replay, state attribution or causal memory"}

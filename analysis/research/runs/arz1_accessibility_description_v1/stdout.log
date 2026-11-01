@@ -1,0 +1,7 @@
+Verified frozen RNA depths/QC: GSE329778_CTRL
+Verified frozen RNA depths/QC: GSE329778_KRT20
+Verified frozen RNA depths/QC: GSE329778_LGR5
+Fragment traversal GSE329778_CTRL: held
+Fragment traversal GSE329778_KRT20: held
+Fragment traversal GSE329778_LGR5: held
+{"analysis": "Arz1.accessibility_description_v1", "n_fragment_sources": 3, "n_valid_fragment_sources": 0, "n_qualified_loci": 4, "n_paired_contrast_rows": 64, "n_defined_paired_contrasts": 0, "holds": [{"component": "GSE329778_CTRL", "reason": "fragment source validation failed"}, {"component": "GSE329778_KRT20", "reason": "fragment source validation failed"}, {"component": "GSE329778_LGR5", "reason": "fragment source validation failed"}], "all_valid_sources_reached_eof_before_endpoints": true, "biological_independence": "unknown", "scientific_acceptance": "not_assessed", "interpretation": "GRCm39 finite-library fixed-locus adaptation, not exact author replay, state attribution, promoter validation or causal memory"}

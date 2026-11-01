@@ -890,6 +890,21 @@
       ]
     },
     {
+      "id": "Arz1-P01",
+      "plan": "Research Article/ungated_arozamena_2026_inflammatory_memory/README.md",
+      "evidence": [
+        "Research Article/ungated_arozamena_2026_inflammatory_memory/LITERATURE_CONTEXT.md",
+        "Research Article/ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md",
+        "Research Article/ungated_arozamena_2026_inflammatory_memory/Q4A_FEASIBILITY.md",
+        "Research Article/ungated_arozamena_2026_inflammatory_memory/RNA_RESULTS.md",
+        "Research Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md",
+        "Research Article/ungated_arozamena_2026_inflammatory_memory/ORIGINATING_REVIEW.md",
+        "Research Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md",
+        "Research Article/ungated_arozamena_2026_inflammatory_memory/FIGURES.md",
+        "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md"
+      ]
+    },
+    {
       "id": "Sx22-P01",
       "plan": "Research Article/gate3_08_saxton_2021_il22/README.md",
       "evidence": [
@@ -897,7 +912,11 @@
         "Research Article/gate3_08_saxton_2021_il22/SOURCE_CORRECTION_2026-10-31.md",
         "Research Article/gate3_08_saxton_2021_il22/RESULTS.md",
         "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/RESULTS.md",
-        "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/RESULTS.md"
+        "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/RESULTS.md",
+        "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md",
+        "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/LITERATURE_CONTEXT.md",
+        "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md",
+        "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/ORIGINATING_REVIEW.md"
       ]
     }
   ],
@@ -1030,7 +1049,15 @@
     "Research Article/gate3_08_saxton_2021_il22/extensions_20261031/config/x2_contract_v1.json",
     "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/config/description_contract_v1.json",
     "Research Article/gate3_08_saxton_2021_il22/recipient_context_v1/config/render_contract_v2.json",
-    "Research Article/gate3_08_saxton_2021_il22/qc_gallery_v1/config/render_contract_v1.json"
+    "Research Article/gate3_08_saxton_2021_il22/qc_gallery_v1/config/render_contract_v1.json",
+    "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/config/description_contract_v1.json",
+    "Research Article/gate3_08_saxton_2021_il22/reassessment_v1/config/description_contract_v2.json",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/metadata_contract_v1.json",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/metadata_contract_v2.json",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/rna_contract_v1.json",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v1.json",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v2.json",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/primary_render_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1154,7 +1181,14 @@
     "analysis/research/runs/sx22_x2_provenance_v1/receipt.json",
     "analysis/research/runs/sx22_e1a_recipient_description_v1/receipt.json",
     "analysis/research/runs/sx22_e1a_render_v2/receipt.json",
-    "analysis/research/runs/sx22_qc_gallery_render_v1/receipt.json"
+    "analysis/research/runs/sx22_qc_gallery_render_v1/receipt.json",
+    "analysis/research/runs/sx22_program_description_v1/receipt.json",
+    "analysis/research/runs/arz1_source_qualification_v1/receipt.json",
+    "analysis/research/runs/arz1_source_qualification_v2/receipt.json",
+    "analysis/research/runs/arz1_rna_description_v1/receipt.json",
+    "analysis/research/runs/arz1_accessibility_description_v1/receipt.json",
+    "analysis/research/runs/arz1_accessibility_description_v2/receipt.json",
+    "analysis/research/runs/arz1_accessibility_primary_render_v1/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

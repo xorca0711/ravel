@@ -1,5 +1,227 @@
 # Current project state
 
+## Arozamena eligible extensions reviewed and integrated — 1 November 2026
+
+Technical handoff `a244f7f` is integrated into the existing PR #157 branch.
+The [current article ledger](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+closes source qualification, Q3a/Q5a RNA and Q4a paired four-locus descriptions.
+Independent review passed all 152,186,923 raw fragment records and 128 paired
+cases, alongside the earlier raw RNA/QC audit. All four
+[figure plates](Research%20Article/ungated_arozamena_2026_inflammatory_memory/FIGURES.md)
+passed visual review. A separate render-only correction fixes primary legend
+spacing without changing measurements or overwriting the original.
+
+RNA selection changes some signs; Tiam1's TSS-window and body contrasts differ
+in direction. The largest count-definition effect is 0.00270523 log2(CPM+1),
+without sign changes in those 64 comparisons. These are finite-library
+measurement findings, not within-state regulation, memory or later function.
+A1/A14/A8 and DY1-P02/Saxton context links preserve their original hypotheses.
+
+Q3/Q4 remain held for missing author state/QC mapping, all-deposit common features
+and reference/processing reconciliation; Q6 lacks actual early-to-later unit
+joins. Population inference lacks qualified independent pools/preparations.
+No current content-policy or external account-setting blocker is recorded.
+The original v1 hold and all frozen evidence remain unchanged. Raw inputs reside
+in the ignored technical worktree, with public manifests for reacquisition.
+
+Fresh integration base: `51d3b930b3805c616e67e414390ecf060647d090`.
+Technical targeted/shared/archive checks passed. Parent integration validation
+passed 13,198 repository checks, the base-aware research gate and all 18 claim
+bindings. The six exactly documented frozen whitespace exceptions are retained;
+all current documentation changes are whitespace-clean. No frozen measurement
+asset changed during integration. [Detailed review](Research%20Article/ungated_arozamena_2026_inflammatory_memory/ORIGINATING_REVIEW.md).
+This revision delivers the gallery, README/RQ context and completed/held ledger
+through [existing PR #157](https://github.com/xorca0711/ravel/pull/157); current CI
+status is shown there. Next: normal PR review, or reopen a held scientific job
+only with its specified new source/design evidence. No biological rerun or main
+merge is part of this delivery.
+
+Earlier checkpoints below are historical; their pending wording describes their
+own revisions, not the completed current extensions.
+
+## Historical checkpoint: RNA reviewed; fragment adaptation authorized — 1 November 2026
+
+Current amendment: accessibility v1 freeze `4f1a8f6` stopped all three sources on
+opposite-strand coordinate/barcode collisions and released no paired endpoints.
+Checkpoint `5e85c6f` preserves the hold. Parent independently confirmed all three
+offending pairs and authorized prospective v2 strand-labelled record counts plus
+explicit coordinate-collapsed sensitivity, with consistent denominators and
+unchanged loci/QC/weighting. No biological accessibility outcome has been exposed.
+
+RNA/source checkpoint `0aa33d2` is integrated. All eligible Q3a/Q5a cases executed
+at freeze `a9e469e`: 31,950 genes, four separate contrasts and four fixed cases.
+Parent independent review passed 45 bindings, raw target/QC reconstruction for
+55,587 barcodes and 128 panel values, and arithmetic for 511,200 gene contrasts.
+Both actual figures passed visual review. The GSE329778 LGR5 panel reverses from
+-0.506 before RNA QC to +0.556 afterward, retaining 635/6,921 barcodes; this is
+selection sensitivity, not proof of memory or failure of the source's ISC result.
+
+[Current article ledger and gallery](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+retain state-map, independent-unit, full common-peak and functional-join holds.
+Fragment headers establish GRCm39/ARC2.1 despite article/GEO mm10/ARC2.0.2 metadata.
+A [separate prospective Q4a brief](Research%20Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_EXTENSION_BRIEF.md)
+authorizes a streamed GRCm39 four-locus adaptation using matched barcodes, fixed
+M33 windows and gene-body sensitivity. Next: technical acquisition/freeze/run,
+originating review, final RQ context/PR #157 update. Fresh main is `51d3b93`.
+
+## Arozamena source review and eligible RNA extension — 1 November 2026
+
+Source checkpoint `fe719b1` is integrated. Metadata v1/v2 qualified seven deposited
+multiome matrices and 31,950 shared RNA IDs; there are no shared exact peaks across
+all seven. Parent independent review passed 127 unique hash-bound paths, all seven
+raw axes and all saved overlaps; numeric-body validation relies on the separately
+reviewed streaming parsers/tests, not a second complete numeric scan.
+
+The [source report](Research%20Article/ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md)
+records missing author state/donor maps, unvalidated pool identities, source
+run/sorting disagreements, different peak universes and missing early/later unit
+joins. [Prospective Q3a/Q5a brief](Research%20Article/ungated_arozamena_2026_inflammatory_memory/RNA_EXTENSION_BRIEF.md)
+authorizes four separate RNA contrasts and bounded weighting/RNA-only QC sensitivity
+after a numerical freeze. Original within-state Q3, full Q4 and functional Q6
+remain held. Q4a will assess the third deposit's linked fragments separately.
+Next: technical execution, originating numerical/visual review, final ledger/RQ
+context and PR #157 integration. No new biological endpoint has executed yet.
+
+## Arozamena multiome qualification authorized — 1 November 2026
+
+Owner requested source qualification and every eligible extension through the
+existing technical chat, followed by review and PR #157 updates. The new
+[article-local Arz1-P01 package](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md)
+records the within-state/composition question, separate outcome-linkage question,
+Q0-Q7 sequence and current unknowns. This is a non-infectious intestinal reference,
+not an IL-22 or NAM-mechanism result. The namespace was checked absent before
+registration; no canonical RQ or scientific acceptance is created.
+
+Parent clean head at launch was `33b8a22`; PR #157 is open and fresh main remains
+`51d3b93`. Existing technical chat `01a191d5-e0e2-70d2-92e0-97272f85ce11` received
+source-intake scope and separate ownership. Source reading/qualification precedes
+any numerical brief. Article-reported GEO IDs, unit independence, paired assays,
+state labels and functional joins are unverified; failed direct web opens are
+access observations, not missing-data conclusions. Next: review the source
+checkpoint, freeze eligible job-specific contracts, execute, review outputs and
+record exact reasons for surviving holds. No new analysis has executed at launch.
+
+## Saxton connections to proposed RQs — 1 November 2026
+
+The owner requested extensions and alternative biological framing. The
+[connection note](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md)
+maps recipient competence to A9/A12, cessation and later output to A14/A8/A19,
+and assay-specific interpretation to A1/DY1-P02, with a bounded A22 analogy.
+Current negative results and source/unit holds are retained. This is article-local
+development; no canonical hypothesis, registry identity, claim grade or scientific
+acceptance changes, and no numerical analysis was launched.
+
+A fresh primary-source pass distinguishes published IL-22/OSMR responsiveness
+from autonomous memory and identifies Arozamena et al. (27 October 2026) as a close
+intestinal multiomics/regeneration precedent. Its accessions are article-reported,
+not qualified inputs: direct GEO opens failed and sample/assay/fate joins remain
+unverified. Exact searches, reading coverage, contrary stem-cell findings and
+access limits are saved in the note. Next feasible work is bounded source intake,
+then a prospective contract only if the specific comparison qualifies. Main
+remains `51d3b93`; this documentation extends the current PR #157 scope without
+changing its frozen analysis. Documentation validation passed 12,972 checks;
+whitespace checks passed. Prior numerical checks remain valid because numerical
+assets are unchanged. This turn adds reading/context only, with no new analysis run.
+
+## Saxton descriptive program reassessment reviewed — 1 November 2026
+
+Q0-Q4 and Q9 are complete. The existing technical chat delivered reviewed commit
+`caf4dd98e8884b9f12953af9d0de2556ea33d6d0`, integrated into
+`codex/saxton-program-reassessment-20261101` on fresh main `51d3b93`.
+The [current question/report](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md)
+compares selected-program attenuation with overall weakening, external IFN
+membership and individual-library sensitivity. No new canonical RQ was created.
+
+One prospective hash-bound run retains all six source libraries/35,275 rows,
+eight author memberships and two external IFN memberships, with 21 scale/view
+cases and 210 summaries. The selected IFN-versus-barrier pattern persists
+descriptively; broad IFN differences are smaller, the barrier panel also decreases
+directly, and the three-target Figure 6C residual is omission-sensitive.
+[Three new RNA figures](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/FIGURES.md)
+and the [six-figure combined gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md)
+are linked from root and paper navigation. The external Choi figure retains its
+feasibility-only interpretation. No causal STAT/function/memory claim is made.
+
+[Originating review](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/ORIGINATING_REVIEW.md)
+passed independent arithmetic/hash checks and individual visual inspection.
+The unexecuted v1 contract's exact original bytes were restored; the executed
+v2 and all numerical outputs remain immutable. The membership registration
+failure was corrected prospectively; the temporary-file sandbox issue was
+resolved. Three frozen line-ending exceptions are documented without changing
+attributes or validators. No current content refusal occurred; historical
+prompt-level errors are preserved separately.
+
+The [current ledger](Research%20Article/gate3_08_saxton_2021_il22/COMPLETION_LEDGER.md)
+records exact remaining holds: independent units for population inference;
+original processing for exact replay; raw signaling/function values, nesting
+and panel identity; pooled recipient data and missing cessation-to-function joins.
+No further biological execution is justified without those evidence changes and
+a prospective contract. Human scientific acceptance remains unassessed.
+
+Technical checks passed: seven targeted tests, 158 shared tests (two expected
+Windows skips), 12,911 repository checks, archive/provenance checks and the
+base-aware gate. Final parent integration passed 12,959 repository checks and
+the base-aware gate (`ok=true`, no errors) against freshly fetched `51d3b93`.
+Whitespace passed outside the three preserved artifacts. No unresolved external
+setting change is required for the completed description. The reviewed follow-up
+is published in [PR #157](https://github.com/xorca0711/ravel/pull/157) under verified
+GitHub identity `xorca0711`; no main merge is performed here. Next scientific work
+requires the specific reopening evidence in the ledger and its own prospective
+scope; the current eligible sequence is complete.
+
+## Saxton job-by-job program reassessment — 1 November 2026
+
+Owner requested a substantive reassessment and execution of permissible jobs
+through the existing technical chat. The [new article-local plan](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md)
+centers the deposited colon comparison on selective program attenuation versus
+overall response weakening, author-selected panels and library sensitivity.
+[Literature context](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/LITERATURE_CONTEXT.md)
+records current primary-source coverage, prior exposure and the bounded search.
+No new canonical RQ, mechanism, claim grade or human acceptance is proposed.
+
+Current base is main `51d3b93` plus local scope clarification `21aa646`. The
+existing technical chat is assessing job-level source/runtime eligibility;
+no new biological endpoint has yet been calculated. The original service errors
+were explicit prompt-level safety rejections without a job identified. Their
+historical status is preserved; no restriction is bypassed or declared lifted.
+R2b population inference remains independently held by the existing verified-unit
+gate. Descriptive eligibility is being assessed separately, with all original
+paper context retained. Final job dispositions, outputs, review and validation
+remain to be completed before this task stops.
+
+## Saxton scientific-scope clarification — 1 November 2026
+
+The owner questioned the scientific increment and the connection of gallery
+Figure 3 to Saxton. Re-reading the current results, completion ledger, the owner's
+Notion Results/Discussion notes and primary Saxton text confirms: completed work
+is QC/source qualification plus a bounded external transcript description. No
+repository result reproduces STAT1/STAT3 signaling separation, downstream program
+differences or functional decoupling. Additional QC figures did not close that gap.
+
+The [combined gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md) and
+[E1a caption](Research%20Article/gate3_08_saxton_2021_il22/recipient_context_v1/FIGURES.md)
+now identify Figure 3 as external-dataset feasibility. Its receptor-context
+motivation is conceptual; there is no measured correlation with Saxton's results.
+Two single Il22ra1 counts and missing IL-22 exposure/response links do not support
+the intended mechanistic comparison. Sparse capture is not biological absence.
+All frozen evidence, existing candidates and recorded holds remain unchanged.
+
+Current primary-source checks included Saxton Figures 3–7/Discussion,
+[Cineus/Luo 2025](https://doi.org/10.1038/s41590-025-02149-z) Figure 4/results and
+the [Bachmann 2013](https://pubmed.ncbi.nlm.nih.gov/23153456/) record. Live searches
+on 1 November used `"Cineus" "IL-22" "2025" STAT3 receptor` and
+`"IL-22" STAT3 STAT1 chromatin epithelial response context 2024 2025`.
+This was a bounded interpretation check, not a complete novelty search or new RQ
+development. The records distinguish published context dependence from any future
+history/persistence question; no new analysis or formal question was launched.
+
+Base refreshed to `51d3b93`, which merged gallery PR #156. This local documentation
+clarification requires no numerical rerun; publication is not part of this
+assessment. Repository validation passed 12,835 checks and the base-aware gate
+passed with zero errors; the fresh base remained `51d3b93`. The outstanding scientific
+work remains the original unexecuted biological sequence, with its specific
+service/data limits in the existing ledger.
+
 ## Saxton combined gallery and root navigation — 1 November 2026
 
 The owner reported missing root navigation and only one figure on the extension

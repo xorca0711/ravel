@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Arz1.source_qualification_v2",
+  "owner": "Arz1-P01",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do the three held GSE329778 matrices qualify when literal empty records are explicitly skipped and counted, and what exact shared-feature/barcode structure is available across the seven deposited multiome libraries?",
+  "decision": "Resolve a documented parser coverage limitation and consolidate qualified library structure; preserve v1 source results and all biological-design holds.",
+  "strongest_rival": "Incorrect accession/run correspondence, barcode reuse, unvalidated inferred donors, pooled preparations and mismatched feature sets can create false biological-unit or assay joins.",
+  "discriminator": "Reconcile literal GEO/BioSample records, article locators, acquired-file hashes, matrix shapes/IDs/shared axes and source-workbook text labels. Metadata consistency cannot establish biological independence, state identity or causal memory.",
+  "evidence_refs": [
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/README.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/LITERATURE_CONTEXT.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/METADATA_METHODS.md",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/METADATA_AMENDMENT_V2.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "V1 metadata counts and component holds are exposed. Targeted source inspection found valid explicit six-column feature records alternating with empty LF lines; no modality guessing is needed. No biological endpoint or state assignment has been calculated. New adapter tests use synthetic interleaved-empty records.",
+  "biological_unit": "Metadata objects are GEO/SRA/BioSample records, deposited pooled-library matrices and barcodes; independent mice/preparations are not yet verified.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "RNA and ATAC may share a matrix barcode axis, while several source sample records can belong to one pooled preparation. Controls occur across multiome runs; cross-run barcode reuse is not longitudinal or animal pairing. Inferred donor groups are not independently validated mouse identities.",
+  "population_and_selection": "Only the three previously held GSE329778 matrices receive new count-integrity inspection. Four successful HDF5 records are reused from v1, with identifier-only rereads to verify prior fingerprints and cross-format overlaps. No raw biological record is removed; only empty text records are skipped and counted.",
+  "contrast": "No biological contrast. Reconcile three adapted MatrixMarket records and four previously qualified HDF5 records, then compare exact source feature/barcode availability.",
+  "endpoint": "Empty/nonempty physical record counts; explicit feature types; validated matrix dimensions, indices/values and coordinate ordering; consolidated library metadata; pairwise feature/barcode overlaps and all-seven exact feature intersection.",
+  "methods": "METADATA_AMENDMENT_V2.md specifies counted empty/whitespace-only line removal with unchanged source bytes. Preserve every nonempty record and reject malformed types/IDs/dimensions/counts. Stream three MatrixMarket files; reuse prior HDF5 structural evidence and read only IDs/types/barcodes for fingerprint and overlap checks. No source reparsing, dense-table rerun, normalization, feature merging or biological inference.",
+  "missingness_and_exclusions": "Empty text records alone are ignored and counted; malformed nonempty records remain errors. Missing/unknown modality is never guessed. A local schema failure retains its component hold. Only fully qualified seven-library coverage produces the common-feature-ID table; unknown animal/state/function joins stay unknown.",
+  "multiplicity": "All predefined metadata records and all pairwise feature/barcode comparisons; no hypothesis tests, confidence intervals, feature ranking or multiplicity correction.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Deterministic source and structure qualification, not population estimation. Dataset size or barcode count does not supply biological replication or precision.",
+  "validation_scope": "internal",
+  "design_identifiability": "unsupported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Successful metadata execution does not validate independent animals, inferred donor identities, state labels, peak-gene links, TF activity, inflammatory memory or an early-to-later functional join. Biological Q3-Q6 require a separate reviewed estimand and committed contract.",
+  "stop_rule": "Stop on source/contract hash mismatch, wrong output directory, occupied output artifacts or inconsistent declared source/assay crosswalk. Preserve failed receipts. Local schema/value errors produce named component holds without modifying data. Any current content refusal stops affected dependent scope with exact error; no alternate wording/session or authentication bypass.",
+  "inputs": [
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302685_control_filtered_feature_bc_matrix.h5",
+      "sha256": "2739d71eccb2299a958f877f2acdfb421b32e3ad4d64dc1cb452c8c365d81744",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302685_irradiated_filtered_feature_bc_matrix.h5",
+      "sha256": "ad3e42339b7da6925e960cf1b146b313619cb56dbb3862e945833cfbd0adc5ab",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302687_control_filtered_feature_bc_matrix.h5",
+      "sha256": "4877ae63f2169a400da36ebbfd2cd47eed55c63ad195f8f774f1f336c7f29e4d",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSE302687_irradiated_filtered_feature_bc_matrix.h5",
+      "sha256": "34da6012a538550ab498b251998be36a8125cce58857f5dcd29082a5cf936b50",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_barcodes_CTRL.tsv.gz",
+      "sha256": "9d98d92e895ef575615abfd80290f9ed71169b69c8ce6c470328eb2cc4793ea7",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_features_CTRL.tsv.gz",
+      "sha256": "b5853b9440c788b9c44940d0f747010d2ce60c7ee3f037333f2d60b6a0b737eb",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711144_matrix_CTRL.mtx.gz",
+      "sha256": "6f9a8b1bf1888ec0b70cd7274ea35f335dfa26c18ea5637bdb850497b71abc24",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_barcodes_KRT20.tsv.gz",
+      "sha256": "c0335293fdfd788a85f45877781d674bd913b7748cbba09c329cad3a46e3cf33",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_features_KRT20.tsv.gz",
+      "sha256": "73debab327c08b26edd7e96c68aeb824d3d73e9075449cc6d03e2d3c62f7861e",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711146_matrix_KRT20.mtx.gz",
+      "sha256": "0c28eedd4a98d15e0f38d6785aad84cb155b107ec44b790ed2467591d671bf75",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_barcodes_LGR5.tsv.gz",
+      "sha256": "fe8ae0f537b7691f73b450a3bf554c48e196515ece2d346b3c287fbb84cfa6b4",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_features_LGR5.tsv.gz",
+      "sha256": "7095317b1549f85e9d7c5cf2fcb45c84a8b92abd7f86a253ee4fc7e0be8e9192",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/Arz1/processed_v1/GSM9711148_matrix_LGR5.mtx.gz",
+      "sha256": "1aaf82baac60820e19d05ba144c915d727619c8bbdd8789fe6540456040e9060",
+      "study_id": "Arozamena_2026_source_intake",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/sources/intake_v1.json",
+      "sha256": "79c89ee5ae7fbf078c084c227a5c1d996a50fe1d16cf18b30d729f104afe5222",
+      "study_id": "Arz1_prospective_specification",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/receipt.json",
+      "sha256": "f1a2411e2cd8170cde9931d18af2e731442259f2841de0f44b9dd1c7e5fe7f1e",
+      "study_id": "Arz1_v1_metadata_and_v2_amendment",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_source_qualification_v1/matrix_inventory.csv",
+      "sha256": "ff533bf970a57d00679155c957356c218133188a8d92a49a7de6c18539d76209",
+      "study_id": "Arz1_v1_metadata_and_v2_amendment",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/METADATA_AMENDMENT_V2.md",
+      "sha256": "0ba2e9c90f61b3dd0c4a2ee7bf78100727ab004dd3465d31a667b5fe0edbce42",
+      "study_id": "Arz1_v1_metadata_and_v2_amendment",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/qualify_v1.py",
+      "sha256": "e5c4cdd99115b843c271eaa11119d68a72f1f4dce2b08b93abcf797cf043fbd2"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/qualify_mtx_v2.py",
+      "sha256": "5ccc596910ea7c57ec54814c29f6de1f862b584df1e56c1ab8658e86af15aeeb"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/tests/test_mtx_v2.py",
+      "sha256": "e929f6bfc954643d3001f3d499603f3b8854016b9c5b7012289376112d9c053a"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/sources/intake_v1.json",
+      "sha256": "79c89ee5ae7fbf078c084c227a5c1d996a50fe1d16cf18b30d729f104afe5222"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/.gitattributes",
+      "sha256": "f53a6d00a3d75d9a2617286480463ecdab4bb95fd1012c29ec30576e3a1ae14e"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/qualify_mtx_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "matrix_inventory.csv",
+    "empty_record_counts.csv",
+    "feature_types.csv",
+    "barcode_overlap.csv",
+    "feature_overlap.csv",
+    "common_feature_ids.csv",
+    "summary.json"
+  ],
+  "amendment_of": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/metadata_contract_v1.json",
+  "amendment_reason": "V1 preserved the exact Missing feature-type column holds for GSE329778. Source inspection showed valid explicitly typed records interleaved with empty lines. This pre-execution v2 adapter handles that representation, counts excluded empty records, and retains all original nonempty data. Four passed HDF5 integrity checks and all other v1 source checks are reused; only failed scope is re-inspected."
+}

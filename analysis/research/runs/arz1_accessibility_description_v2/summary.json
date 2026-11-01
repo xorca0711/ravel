@@ -1,0 +1,18 @@
+{
+  "analysis": "Arz1.accessibility_description_v2",
+  "n_fragment_sources": 3,
+  "n_valid_fragment_sources": 3,
+  "n_qualified_loci": 4,
+  "count_definitions": [
+    "strand_records",
+    "coordinate_groups"
+  ],
+  "n_paired_contrast_rows": 128,
+  "n_defined_paired_contrasts": 128,
+  "n_count_definition_deltas": 64,
+  "holds": [],
+  "all_valid_sources_reached_eof_before_endpoints": true,
+  "biological_independence": "unknown",
+  "scientific_acceptance": "not_assessed",
+  "interpretation": "GRCm39 finite-library source-record/group overlap; neither definition certifies physical molecules; not ARC cut-site matrix counts, exact author replay, state attribution or causal memory"
+}

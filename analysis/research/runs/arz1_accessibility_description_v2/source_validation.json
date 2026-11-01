@@ -1,0 +1,468 @@
+[
+  {
+    "status": "qualified",
+    "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711145_atac_fragments_CTRL.tsv.gz",
+    "rows": 36427592,
+    "canonical_rows": 36393130,
+    "canonical_allowlisted_rows": 25448985,
+    "canonical_nonallowlisted_rows": 10944145,
+    "noncanonical_rows": 34462,
+    "headers": {
+      "id": [
+        "CTRL"
+      ],
+      "description": [
+        "CTRL"
+      ],
+      "pipeline_name": [
+        "cellranger-arc"
+      ],
+      "pipeline_version": [
+        "cellranger-arc-2.1.0"
+      ],
+      "reference_path": [
+        "/CEPH/shared/databases/cellranger-arc/refdata-cellranger-arc-GRCm39-2024-A_TdTomato/GRCm39"
+      ],
+      "reference_fasta_hash": [
+        "0a38e50e7b7b743504ba5e83f12b6076c5090224"
+      ],
+      "reference_gtf_hash": [
+        "b25e6d75b49c486fe87988387b4fa7209f6060bc"
+      ],
+      "reference_version": [
+        "2024-A"
+      ],
+      "mkref_version": [
+        "cellranger-arc-2.1.0"
+      ],
+      "primary_contig": [
+        "chr1",
+        "chr10",
+        "chr11",
+        "chr12",
+        "chr13",
+        "chr14",
+        "chr15",
+        "chr16",
+        "chr17",
+        "chr18",
+        "chr19",
+        "chr2",
+        "chr3",
+        "chr4",
+        "chr5",
+        "chr6",
+        "chr7",
+        "chr8",
+        "chr9",
+        "chrX",
+        "chrY",
+        "JH584299.1",
+        "GL456211.1",
+        "GL456221.1",
+        "JH584297.1",
+        "JH584296.1",
+        "GL456354.1",
+        "JH584298.1",
+        "GL456219.1",
+        "GL456210.1",
+        "JH584303.1",
+        "GL456212.1",
+        "JH584304.1",
+        "JH584295.1"
+      ]
+    },
+    "excluded_contigs": {
+      "JH584299.1": 223,
+      "GL456211.1": 363,
+      "GL456221.1": 207,
+      "JH584297.1": 6,
+      "JH584296.1": 3,
+      "GL456354.1": 5,
+      "GL456219.1": 1,
+      "GL456210.1": 219,
+      "GL456212.1": 180,
+      "JH584304.1": 33028,
+      "JH584295.1": 227
+    },
+    "opposite_strand_coordinate_groups": 9040,
+    "canonical_opposite_strand_groups": 9034,
+    "canonical_allowlisted_opposite_strand_groups": 8962,
+    "noncanonical_opposite_strand_groups": 6,
+    "gzip_eof_crc": "passed",
+    "n_rna_barcodes": 5164,
+    "n_positive_nuclear_fragment_barcodes": 5164,
+    "n_zero_nuclear_fragment_barcodes": 0,
+    "duplicate_key_rule": "Reject repeated chrom,start,end,barcode,strand regardless of readSupport",
+    "ordering": "contiguous contig blocks; nondecreasing starts; equal-start coordinate/barcode groups",
+    "positive_sets_agree_between_definitions": true,
+    "collision_affected_barcodes": 946,
+    "canonical_collision_affected_barcodes": 945,
+    "canonical_allowlisted_collision_affected_barcodes": 922,
+    "collision_locus_regions": [
+      {
+        "target": "Cd74",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Cd74",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Tiam1",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Tiam1",
+        "region_family": "gene_body",
+        "all_barcode_groups": 2,
+        "allowlisted_groups": 2
+      },
+      {
+        "target": "Cd83",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Cd83",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Ciita",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Ciita",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      }
+    ],
+    "definition_denominators": {
+      "strand_records": 25448985,
+      "coordinate_groups": 25440023
+    },
+    "library": "GSE329778_CTRL"
+  },
+  {
+    "status": "qualified",
+    "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711147_atac_fragments_KRT20.tsv.gz",
+    "rows": 44639326,
+    "canonical_rows": 44597741,
+    "canonical_allowlisted_rows": 28201254,
+    "canonical_nonallowlisted_rows": 16396487,
+    "noncanonical_rows": 41585,
+    "headers": {
+      "id": [
+        "KRT20"
+      ],
+      "description": [
+        "KRT20"
+      ],
+      "pipeline_name": [
+        "cellranger-arc"
+      ],
+      "pipeline_version": [
+        "cellranger-arc-2.1.0"
+      ],
+      "reference_path": [
+        "/CEPH/shared/databases/cellranger-arc/refdata-cellranger-arc-GRCm39-2024-A_TdTomato/GRCm39"
+      ],
+      "reference_fasta_hash": [
+        "0a38e50e7b7b743504ba5e83f12b6076c5090224"
+      ],
+      "reference_gtf_hash": [
+        "b25e6d75b49c486fe87988387b4fa7209f6060bc"
+      ],
+      "reference_version": [
+        "2024-A"
+      ],
+      "mkref_version": [
+        "cellranger-arc-2.1.0"
+      ],
+      "primary_contig": [
+        "chr1",
+        "chr10",
+        "chr11",
+        "chr12",
+        "chr13",
+        "chr14",
+        "chr15",
+        "chr16",
+        "chr17",
+        "chr18",
+        "chr19",
+        "chr2",
+        "chr3",
+        "chr4",
+        "chr5",
+        "chr6",
+        "chr7",
+        "chr8",
+        "chr9",
+        "chrX",
+        "chrY",
+        "JH584299.1",
+        "GL456211.1",
+        "GL456221.1",
+        "JH584297.1",
+        "JH584296.1",
+        "GL456354.1",
+        "JH584298.1",
+        "GL456219.1",
+        "GL456210.1",
+        "JH584303.1",
+        "GL456212.1",
+        "JH584304.1",
+        "JH584295.1"
+      ]
+    },
+    "excluded_contigs": {
+      "JH584299.1": 270,
+      "GL456211.1": 575,
+      "GL456221.1": 304,
+      "JH584297.1": 12,
+      "JH584296.1": 7,
+      "GL456354.1": 14,
+      "GL456219.1": 1,
+      "GL456210.1": 299,
+      "GL456212.1": 320,
+      "JH584304.1": 39591,
+      "JH584295.1": 192
+    },
+    "opposite_strand_coordinate_groups": 4517,
+    "canonical_opposite_strand_groups": 4512,
+    "canonical_allowlisted_opposite_strand_groups": 4423,
+    "noncanonical_opposite_strand_groups": 5,
+    "gzip_eof_crc": "passed",
+    "n_rna_barcodes": 7896,
+    "n_positive_nuclear_fragment_barcodes": 7896,
+    "n_zero_nuclear_fragment_barcodes": 0,
+    "duplicate_key_rule": "Reject repeated chrom,start,end,barcode,strand regardless of readSupport",
+    "ordering": "contiguous contig blocks; nondecreasing starts; equal-start coordinate/barcode groups",
+    "positive_sets_agree_between_definitions": true,
+    "collision_affected_barcodes": 1029,
+    "canonical_collision_affected_barcodes": 1026,
+    "canonical_allowlisted_collision_affected_barcodes": 992,
+    "collision_locus_regions": [
+      {
+        "target": "Cd74",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Cd74",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Tiam1",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Tiam1",
+        "region_family": "gene_body",
+        "all_barcode_groups": 1,
+        "allowlisted_groups": 1
+      },
+      {
+        "target": "Cd83",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Cd83",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Ciita",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Ciita",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      }
+    ],
+    "definition_denominators": {
+      "strand_records": 28201254,
+      "coordinate_groups": 28196831
+    },
+    "library": "GSE329778_KRT20"
+  },
+  {
+    "status": "qualified",
+    "path": "raw_data/Arz1/q4a_inputs_v1/GSM9711149_atac_fragments_LGR5.tsv.gz",
+    "rows": 71120005,
+    "canonical_rows": 71050164,
+    "canonical_allowlisted_rows": 40642682,
+    "canonical_nonallowlisted_rows": 30407482,
+    "noncanonical_rows": 69841,
+    "headers": {
+      "id": [
+        "LGR5"
+      ],
+      "description": [
+        "LGR5"
+      ],
+      "pipeline_name": [
+        "cellranger-arc"
+      ],
+      "pipeline_version": [
+        "cellranger-arc-2.1.0"
+      ],
+      "reference_path": [
+        "/CEPH/shared/databases/cellranger-arc/refdata-cellranger-arc-GRCm39-2024-A_TdTomato/GRCm39"
+      ],
+      "reference_fasta_hash": [
+        "0a38e50e7b7b743504ba5e83f12b6076c5090224"
+      ],
+      "reference_gtf_hash": [
+        "b25e6d75b49c486fe87988387b4fa7209f6060bc"
+      ],
+      "reference_version": [
+        "2024-A"
+      ],
+      "mkref_version": [
+        "cellranger-arc-2.1.0"
+      ],
+      "primary_contig": [
+        "chr1",
+        "chr10",
+        "chr11",
+        "chr12",
+        "chr13",
+        "chr14",
+        "chr15",
+        "chr16",
+        "chr17",
+        "chr18",
+        "chr19",
+        "chr2",
+        "chr3",
+        "chr4",
+        "chr5",
+        "chr6",
+        "chr7",
+        "chr8",
+        "chr9",
+        "chrX",
+        "chrY",
+        "JH584299.1",
+        "GL456211.1",
+        "GL456221.1",
+        "JH584297.1",
+        "JH584296.1",
+        "GL456354.1",
+        "JH584298.1",
+        "GL456219.1",
+        "GL456210.1",
+        "JH584303.1",
+        "GL456212.1",
+        "JH584304.1",
+        "JH584295.1"
+      ]
+    },
+    "excluded_contigs": {
+      "JH584299.1": 424,
+      "GL456211.1": 967,
+      "GL456221.1": 517,
+      "JH584297.1": 12,
+      "GL456354.1": 3,
+      "GL456210.1": 524,
+      "GL456212.1": 610,
+      "JH584304.1": 66493,
+      "JH584295.1": 291
+    },
+    "opposite_strand_coordinate_groups": 3574,
+    "canonical_opposite_strand_groups": 3532,
+    "canonical_allowlisted_opposite_strand_groups": 3442,
+    "noncanonical_opposite_strand_groups": 42,
+    "gzip_eof_crc": "passed",
+    "n_rna_barcodes": 6921,
+    "n_positive_nuclear_fragment_barcodes": 6921,
+    "n_zero_nuclear_fragment_barcodes": 0,
+    "duplicate_key_rule": "Reject repeated chrom,start,end,barcode,strand regardless of readSupport",
+    "ordering": "contiguous contig blocks; nondecreasing starts; equal-start coordinate/barcode groups",
+    "positive_sets_agree_between_definitions": true,
+    "collision_affected_barcodes": 1206,
+    "canonical_collision_affected_barcodes": 1200,
+    "canonical_allowlisted_collision_affected_barcodes": 1176,
+    "collision_locus_regions": [
+      {
+        "target": "Cd74",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Cd74",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Tiam1",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Tiam1",
+        "region_family": "gene_body",
+        "all_barcode_groups": 1,
+        "allowlisted_groups": 1
+      },
+      {
+        "target": "Cd83",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Cd83",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Ciita",
+        "region_family": "tss_2kb_union",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      },
+      {
+        "target": "Ciita",
+        "region_family": "gene_body",
+        "all_barcode_groups": 0,
+        "allowlisted_groups": 0
+      }
+    ],
+    "definition_denominators": {
+      "strand_records": 40642682,
+      "coordinate_groups": 40639240
+    },
+    "library": "GSE329778_LGR5"
+  }
+]
