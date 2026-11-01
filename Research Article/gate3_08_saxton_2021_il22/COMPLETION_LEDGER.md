@@ -1,5 +1,11 @@
 # Completion and hold ledger
 
+**Later owner-requested reassessment, 1 November 2026:** consult the
+[job-by-job amendment](reassessment_v1/README.md) for current eligibility review.
+The original recovery dispositions below are preserved historical evidence;
+the new review distinguishes descriptive jobs, population inference, exact
+author replay and service restrictions. A proposed job is not a completed run.
+
 31 October 2026. This is the current disposition of **every original README stage**.
 The [recovery scope](RECOVERY_SCOPE_2026-10-31.md) supersedes broader execution
 permission in the retained historical plan. Reviewed means a documented technical
