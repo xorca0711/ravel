@@ -2,8 +2,8 @@
 
 1 November 2026. [Results](ACCESSIBILITY_RESULTS.md);
 [receipt](../../analysis/research/runs/arz1_accessibility_description_v2/receipt.json).
-Numerical execution and the checks below are complete; originating raw-source
-review and a primary-figure presentation correction are still in progress.
+Numerical execution and the render-only correction are complete; originating
+raw-source review is still in progress and is not represented as passed.
 
 ## Prospective source-semantic review
 
@@ -57,10 +57,17 @@ and exact result are retained under `.tools/arz1_accessibility_validation/`.
 Both actual PNGs were inspected. The sensitivity figure passed technical and
 originating visual review, including its separate definition-delta color scale.
 Originating review requested correction of the primary legend, which crowds/
-touches the left panel title. A separately frozen render-only correction from the
-existing contrast table is authorized; the original v2 figure/receipt remains
-unchanged. No measurement is rerun or value changed. New SVG whitespace cleanup
-occurred during first generation, before receipt hashing.
+touches the left panel title. The separately frozen
+[render-only contract](config/primary_render_contract_v1.json), committed in
+`c9fbf92`, binds only the existing contrast table, v2 receipt, correction brief
+and two code files. It generated the corrected primary PNG/SVG under
+[a separate receipt](../../analysis/research/runs/arz1_accessibility_primary_render_v1/receipt.json),
+which passed verification. The corrected PNG passed technical visual inspection.
+An independent SVG/source-table check confirmed all 16 bar x geometries and all
+16 value labels unchanged, with title/legend baselines now 42.241406 SVG points
+apart. No measurement was rerun or value changed. Original v2 images and receipt
+remain byte-identical. New SVG whitespace cleanup occurred during first generation,
+before receipt hashing; no frozen artifact was normalized afterward.
 
 Originating review is independently recounting the complete raw fragments under
 both definitions, independently building M33 windows and recovering four-target
@@ -77,9 +84,18 @@ passed with two Windows skips. Required Nabhan, Travaglini/Nabhan, A16, A23 and
 A22/A23 archive/evidence verifiers passed. Logs are retained locally under
 `.tools/arz1_accessibility_validation/`. Before the render-only correction,
 13,127 repository checks, the base-aware research gate and 18 claim bindings
-passed. The v2 receipt is registered. Final staged-output checks and the checks
-affected by the new render contract remain pending; passed shared/archive tests
-will be reused because rendering does not invalidate them.
+passed. All 21 v2 run files matched staged bytes exactly; the three declared gzip
+tables were explicitly staged despite the general gzip ignore rule. These new
+outputs were whitespace-clean. The render code compiled and its input preflight
+and exact staged bindings passed before execution. Both receipts are registered.
+After the render/report additions, 13,134 repository checks and the base-aware
+research gate passed. All five render run files match staged bytes exactly;
+the new artifacts/report changes are whitespace-clean, and the original v2
+outputs are unchanged from their preservation commit. Passed shared/archive
+tests and claim bindings are reused because rendering does not invalidate them.
+The last scope check contains only this article package, its new accessibility
+runs and the research registry; parent-owned navigation/PROGRESS remain outside
+this technical patch.
 
 No governance/validator, claim grade, source freeze, earlier run or human scientific
 decision is changed. Parent owns README, literature/RQ navigation, PROGRESS and PR

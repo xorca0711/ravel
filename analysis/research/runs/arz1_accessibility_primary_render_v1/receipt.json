@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "analysis_id": "Arz1.accessibility_primary_render_v1",
+  "owner": "Arz1-P01",
+  "contract": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/primary_render_contract_v1.json",
+  "contract_sha256": "a06ff85af3f295e86c873b038109a17172ec66a6f2a509b9cd59a767ba5d6f79",
+  "git_commit": "c9fbf926552d142ce58be5df39a209418863a544",
+  "started_at": "2026-11-01T07:05:12.384558+00:00",
+  "argv": [
+    "python",
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/render_primary_v1.py",
+    "--output",
+    "analysis/research/runs/arz1_accessibility_primary_render_v1"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/paired_contrasts.csv",
+      "sha256": "b73b83a1285b3daf0394ab3ec103604113bd9e19af17527aa3dd618873cccfc0",
+      "study_id": "Arz1_Q4a_v2_reused_summary",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_description_v2/receipt.json",
+      "sha256": "d322a3a2e76d7b8f7fa8f60d8a277017dfea837cfb3ff0137d0e5db711d65ce1",
+      "study_id": "Arz1_Q4a_v2_reused_summary",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/config/PRIMARY_RENDER_CORRECTION_V1.md",
+      "sha256": "39a7e0bf2d1c9d4deb29cdd6a527368969a4f52555a1b655adf0be243cc6d7cf",
+      "study_id": "Arz1_Q4a_v2_reused_summary",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/render_primary_v1.py",
+      "sha256": "d104644afc3cc7e87334f81aff0fc1c36b4a9cb1d2bb263092197760da4eb951"
+    },
+    {
+      "path": "Research Article/ungated_arozamena_2026_inflammatory_memory/scripts/plot_accessibility_v2.py",
+      "sha256": "bbe75a279dfa53566e672b39b215a70e7674f4fc5089737b90cce8e2608cad60"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/arz1_accessibility_primary_render_v1/figure_01_paired_primary_corrected.png",
+      "sha256": "1dd367cb8aedf1408ffa15aa50aecd87a207de5d7bdd8a032cac4867f0265bb2"
+    },
+    {
+      "path": "analysis/research/runs/arz1_accessibility_primary_render_v1/figure_01_paired_primary_corrected.svg",
+      "sha256": "b4b4be1f94341fd5d89e3452c3ed19a1c0ef5855b3753c341bc72e73ef048adc"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-01T07:05:14.417905+00:00"
+}

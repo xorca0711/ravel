@@ -89,7 +89,12 @@ All paired barcodes, pooled weighting, TSS-window unions, strand-record counts:
 | Cd83 | -0.07033 | -0.20106 | -0.13347 | -0.29652 |
 | Ciita | -1.37365 | +0.02672 | -0.22846 | +0.09962 |
 
-![Primary paired RNA and fragment-record differences](../../analysis/research/runs/arz1_accessibility_description_v2/figure_01_paired_primary.png)
+![Primary paired RNA and fragment-record differences, corrected legend spacing](../../analysis/research/runs/arz1_accessibility_primary_render_v1/figure_01_paired_primary_corrected.png)
+
+This displayed primary figure is the separately frozen
+[render-only spacing correction](../../analysis/research/runs/arz1_accessibility_primary_render_v1/receipt.json).
+It supersedes the original presentation only; all 16 plotted values and bar x
+positions are unchanged. The original v2 primary figure remains preserved.
 
 Small fragment differences and sparse detection require their count context.
 For example, the primary Ciita TSS measurements are 128 / 154 / 209 records,
@@ -121,10 +126,14 @@ measurement sensitivities, not validated within-state effects.
 ![All fixed sensitivities and explicit counting-definition deltas](../../analysis/research/runs/arz1_accessibility_description_v2/figure_02_paired_sensitivity.png)
 
 The bottom row has a separate, explicitly labelled scale. RNA is shown once
-because region/count-definition repetitions are reused measurements. Frozen
-[primary SVG](../../analysis/research/runs/arz1_accessibility_description_v2/figure_01_paired_primary.svg)
-and [sensitivity SVG](../../analysis/research/runs/arz1_accessibility_description_v2/figure_02_paired_sensitivity.svg)
-are preserved with their PNGs; neither figure was regenerated after execution.
+because region/count-definition repetitions are reused measurements. The
+[corrected primary SVG](../../analysis/research/runs/arz1_accessibility_primary_render_v1/figure_01_paired_primary_corrected.svg)
+and unchanged [sensitivity SVG](../../analysis/research/runs/arz1_accessibility_description_v2/figure_02_paired_sensitivity.svg)
+are available. Original v2
+[primary PNG](../../analysis/research/runs/arz1_accessibility_description_v2/figure_01_paired_primary.png)
+and [primary SVG](../../analysis/research/runs/arz1_accessibility_description_v2/figure_01_paired_primary.svg)
+remain byte-identical. Only the new primary render changes layout; no biological
+analysis or contrast was rerun.
 
 ## Interpretation and remaining limits
 
