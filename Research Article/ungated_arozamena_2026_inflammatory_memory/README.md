@@ -23,11 +23,17 @@ premise, not a new discovery proposed here. The contribution sought is source
 qualification, transparent shared-source reproduction and bounded measurement/model
 discrimination, with explicit failure and eligibility outcomes.
 
-The article lists multiome GSE302685/GSE302687/GSE329778, bulk ATAC GSE302684,
-scRNA GSE329965 and bulk RNA GSE329696. These are article-reported accessions;
-sample metadata, actual files, state annotations and independent units have not
-yet been verified. Direct parent web opens failed; public availability is not
-determined by that tool failure. Cohorts are not interchangeable.
+The [completed source checkpoint](SOURCE_QUALIFICATION.md) qualifies six accessions,
+44 sample/BioSample records and seven processed multiome matrices. Their shared
+RNA universe is 31,950 IDs; no exact peak ID is common to all seven. Full text and
+supplements were recovered from public Europe PMC after direct publisher-route
+failures. State/donor annotations and a validated mouse/pool crosswalk were not
+located in the documented source coverage. Cohorts remain non-interchangeable.
+
+Plan amendment: run a [narrower four-contrast RNA description](RNA_EXTENSION_BRIEF.md)
+because matched gene IDs and accession-specific controls are available. This
+Q3a/Q5a extension does not complete the held within-state Q3. A separate Q4a
+feasibility assessment considers the third deposit's linked fragment files.
 
 ## Comparison and interpretation limits
 
@@ -55,14 +61,16 @@ p-values/FDR or certainty claims are authorized by a large cell count.
 
 | Job | Scope and decision | Initial status / prerequisite |
 |---|---|---|
-| Q0 | Verify paper/version/accessions and retrieve legitimate public source records; record hashes/access failures | Authorized source reading/intake; current direct access failures need classification |
-| Q1 | Reconcile sample/preparation/animal identities, pooling, history/time/lineage, assay pairing and annotations | Source map required before an analysis contrast; no invented independent units |
-| Q2 | Contracted metadata/input QC: formats, dimensions, identifiers, barcode overlap, coverage and available state mapping | Freeze hash-bound metadata contract/code before substantive automated tabulation; inspect runtime/resources first |
+| Q0 | Verify paper/version/accessions and retrieve legitimate public source records; record hashes/access failures | Completed within documented coverage; full XML and four supplements recovered |
+| Q1 | Reconcile sample/preparation/animal identities, pooling, history/time/lineage, assay pairing and annotations | Source map completed with explicit run-number/sorting contradictions; independent mouse/pool identities unvalidated |
+| Q2 | Contracted metadata/input QC: formats, dimensions, identifiers, barcode overlap, coverage and available state mapping | Completed v1/v2; counted-empty-record adapter resolved three parser holds without changing sources |
 | Q3 | Describe within-state versus state-abundance contributions for a source-supported comparison | Conditional on qualified state/count/unit map and parent-reviewed frozen specification; bulk deconvolution cannot replace missing state observations |
 | Q4 | Describe paired RNA/accessibility relationships within the same qualified state and assay units | Requires actual pairing, defined features/peak links and appropriate depth/selection handling; no causal TF or memory interpretation |
 | Q5 | Bounded sensitivity to source-supported normalization, library omission and state/feature mapping choices | Specify before endpoint exposure; no outcome-driven sample/feature expansion or cell-based population replication |
 | Q6 | Evaluate early molecular information against later measured regeneration/fate/function | Requires genuine biological-unit and timing linkage; separate cohorts remain separate evidence if joins fail |
 | Q7 | Originating numerical/source/visual review, figure gallery, README/RQ connections and PR #157 update | Required for completed and held jobs; exact failure type and reopening evidence for every hold |
+| Q3a/Q5a | Four accession-specific whole-library RNA contrasts and fixed weighting/RNA-only QC sensitivities | Authorized by the prospective brief; numerical freeze/execution/review pending |
+| Q4a | Assess third-deposit-only common-feature accessibility using its linked fragments | Source/resource feasibility assessment only; a separate numerical brief is required before endpoints |
 
 ## Execution and ownership
 

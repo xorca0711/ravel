@@ -1,5 +1,23 @@
 # Current project state
 
+## Arozamena source review and eligible RNA extension — 1 November 2026
+
+Source checkpoint `fe719b1` is integrated. Metadata v1/v2 qualified seven deposited
+multiome matrices and 31,950 shared RNA IDs; there are no shared exact peaks across
+all seven. Parent independent review passed 127 unique hash-bound paths, all seven
+raw axes and all saved overlaps; numeric-body validation relies on the separately
+reviewed streaming parsers/tests, not a second complete numeric scan.
+
+The [source report](Research%20Article/ungated_arozamena_2026_inflammatory_memory/SOURCE_QUALIFICATION.md)
+records missing author state/donor maps, unvalidated pool identities, source
+run/sorting disagreements, different peak universes and missing early/later unit
+joins. [Prospective Q3a/Q5a brief](Research%20Article/ungated_arozamena_2026_inflammatory_memory/RNA_EXTENSION_BRIEF.md)
+authorizes four separate RNA contrasts and bounded weighting/RNA-only QC sensitivity
+after a numerical freeze. Original within-state Q3, full Q4 and functional Q6
+remain held. Q4a will assess the third deposit's linked fragments separately.
+Next: technical execution, originating numerical/visual review, final ledger/RQ
+context and PR #157 integration. No new biological endpoint has executed yet.
+
 ## Arozamena multiome qualification authorized — 1 November 2026
 
 Owner requested source qualification and every eligible extension through the

@@ -11,7 +11,15 @@ version of record 27 October 2026, reports intestinal post-injury molecular memo
 and altered subsequent regeneration. The parent inspected primary indexed Abstract,
 selected Results/Figure 2, Figure 7 discussion, references and Data availability.
 Direct publisher access encountered an identity redirect; no bypass was attempted.
-The full methods/supplements and all numerical inputs still require qualification.
+The subsequent [source qualification](SOURCE_QUALIFICATION.md) recovered the full
+article XML and four supplements from public Europe PMC, six GEO SOFT/listing sets,
+44 BioSamples and seven processed multiome matrices. Exact versions, access date,
+hashes and bounded annotation-search coverage are recorded there. Parent source
+reading additionally checked Results Sec5/Figures 3j and 5d/e, Methods Sec22/Sec26,
+and the functional figure captions. Technical review rendered Reporting Summary
+p3 and transparent peer-review p30: inferred donor consistency lacks independent
+genotype validation. This updates the earlier limited-access record, not the
+literature search date or novelty claim.
 
 The preceding [search and access record](../gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md#search-and-access-record)
 records exact queries, date, recent and older coverage, access limits and the
@@ -35,9 +43,12 @@ join. These questions require the deposited design, not a presumed mechanism.
 
 ## Current question and principal alternatives
 
-Arz1-P01 is a descriptive replication/model-discrimination candidate. Its primary
-estimand is not yet fixed because biological units, states and assay correspondence
-remain unverified. Composition/lineage selection, technical depth, mismatched
+Arz1-P01 is a descriptive replication/model-discrimination candidate. The original
+within-state estimand is held because the author state map was not located in the
+documented coverage. The [prospective RNA adaptation](RNA_EXTENSION_BRIEF.md) fixes
+four deposited-library contrasts and weighting/RNA-only QC sensitivity. Shared
+stable gene identifiers support this narrower comparison, but no population unit
+or state label is inferred. Composition/lineage selection, technical depth, mismatched
 features, assay pairing and continued input are consequential alternatives.
 Persistent accessibility alone does not identify the cause or establish functional
 memory. A same-cell paired measurement still cannot replace independent animals.
@@ -59,8 +70,16 @@ unresolved. Composition-dominated, sparse or normalization-sensitive patterns
 are retained. Missing pairing holds Q4; missing later-unit joins holds Q6 without
 preventing eligible source QC or a correctly scoped descriptive Q3.
 
-The technical source report and originating review will update actual reading
-coverage and exact comparisons. Refresh literature when a new mechanism or
+Figure 3j and Results Sec5 already report the eight inflammation-associated targets
+selected for Q3a; Figure 5d/e already reports nonparallel RNA/accessibility patterns.
+Thus the contribution is a deposited-data robustness description, not discovery
+of discordance or memory. Concordant RNA directions would show survival of that
+description under fixed weighting choices; discordance or QC sensitivity would
+identify a measurement/selection limitation. Neither outcome separates cellular
+composition from persistent changes within a state. The third-deposit fragment
+feasibility assessment does not itself authorize an accessibility endpoint.
+
+Refresh literature when a new mechanism or
 specific numerical contrast is adopted; do not infer novelty from absent search
 hits. The first stopping point is an auditable source/unit/assay eligibility
 decision, followed only by prospectively frozen eligible extensions.
