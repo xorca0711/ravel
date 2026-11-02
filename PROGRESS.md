@@ -30,9 +30,14 @@ backups only. The [pilot storyboards](docs/audits/2026-11-02-rq-schematic-review
 and [A0–A32 ledger](docs/audits/2026-11-02-rq-schematic-review/LEDGER.md) are ready
 for real BioRender assembly. No artwork, registry or hypothesis changed.
 The full checks recorded at `36dab95` remain valid; this status-only correction
-runs affected documentation link and whitespace checks only. Integration base
-last verified at `96e6a8d033b11da2599e0fd5d91f87d16817f58c`; no fetch is needed
-for this record correction.
+runs affected documentation link and whitespace checks only. The coordinator
+successfully fetched `origin/main` again on 2 November 2026 and verified it remains
+`96e6a8d033b11da2599e0fd5d91f87d16817f58c`.
+
+The review covers **all 33 registered RQs, A0–A32**. A31, A3 and A28 are three
+visual design pilot cases only, not a research shortlist or portfolio ranking.
+The full portfolio remains in scope for redesign; pilot completion is not
+portfolio completion.
 
 Next action: restore the approved browser session through its normal recovery
 path, then open the existing figure in BioRender so a thumbnail can be generated
