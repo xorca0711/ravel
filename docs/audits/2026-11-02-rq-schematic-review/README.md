@@ -1,13 +1,20 @@
 # Registered question and schematic quality review
 
+**Current route, 2 November 2026:** the owner authorized raw SVG after a fresh trial-browser generation failure. Work has resumed under the [cellular SVG redesign record](RAW_SVG_REDESIGN_2026-11-02.md); earlier stop/no-SVG instructions below are historical. Scientific scope and old figures remain preserved.
+
+All 33 original cellular SVGs are now integrated into their owning guides and contexts. The [all-33 review/index](CELLULAR_FIGURE_REVIEW.md) links each artifact. The owner's follow-up [biological-detail audit](BIOLOGICAL_DETAIL_AUDIT_2026-11-02.md) found and corrected inappropriate protein-symbol reuse, over-specific cell templates and several lost biological premises. Final verification passed (14,019 repository checks, research gate and preservation checks); old artwork and hypotheses remain unchanged.
+
+**Historical handoff checkpoint, before the trial retest:** the owner stopped Codex figure work and requested a self-contained [Claude handoff](CLAUDE_HANDOFF_2026-11-02.md). Both Codex chats paused at that point. The BioRender A3 asymmetric revision was unfinished and unaccepted. The current route above supersedes that pause.
+
 2 November 2026, Asia/Seoul. Owner requested a review of the registered questions
 and their illustrations, followed by a new technical chat for biological
 schematic redesign using available external connectors, preferably BioRender.
 
-Reviewed checkout: `9e7fe4dd86c6610a2e8cafbe65b7f812b0148ea2`, the clean final
-head of [PR #158](https://github.com/xorca0711/ravel/pull/158). Refreshed main was
-`96e6a8d033b11da2599e0fd5d91f87d16817f58c`; A32 remains proposed on the PR branch.
-This follow-up uses `codex/rq-schematic-quality-20261102`, preserving that PR.
+Original review checkout: `9e7fe4dd86c6610a2e8cafbe65b7f812b0148ea2`, the clean final
+head of [PR #158](https://github.com/xorca0711/ravel/pull/158). Main then was
+`96e6a8d033b11da2599e0fd5d91f87d16817f58c`. PR #158 has since merged; current
+main `5eb710d` has the same tree as that reviewed checkout. A32 remains a
+proposed scientific question. This follow-up uses `codex/rq-schematic-quality-20261102`.
 
 ## Coverage and review method
 
@@ -165,7 +172,7 @@ Existing complete context and source-result links are in each registered guide.
 Do not scan the old chat history or follow the previous problematic chat deep
 link; this note and current repository evidence provide the technical handoff.
 
-## Execution status
+## Earlier execution checkpoint (superseded by current production status)
 
 The portfolio review and redesign brief are complete. Technical chat
 `01a199c1-39af-7b92-bdf0-32711480c2eb` checked the now-visible BioRender connector:
@@ -190,3 +197,42 @@ thumbnail, and customize/review A3. The user may open it manually. See the
 [source-grounded pilot storyboards](BIORENDER_STORYBOARDS.md) and
 [per-question ledger](LEDGER.md). No native rollout, artwork integration,
 numerical execution, push or merge. Export and reuse remain unqualified.
+
+## Current all-RQ production inputs and composition
+
+The [production manifest v1](PRODUCTION_MANIFEST_V1.json) retains all 33 RQs,
+source paths, prompts, layouts, arrow legends and captions. These are production
+inputs, not completed figures. Current service history is six failed connector
+jobs, two distinct UI workflow failures (Generate Editable Figure and Leo), and
+one separate no-thumbnail failure before job creation. A valid thumbnail was
+available for the sixth connector job, which still failed. Manual A3 production
+continues; no RQ illustration is accepted or registered by this pass.
+
+Space follows the RQ's biological focus. Reference-only controls can be compact;
+equal panels are reserved for two processes or comparisons that are equally
+central. Scientific matching does not require equal canvas areas. Keep meaningful
+tissue, time, model and perturbation comparisons visible rather than shrinking
+all comparators mechanically.
+
+All A0–A32 were checked for this issue. **Affected IDs: A3, A6, A7.**
+
+- **A3, prompt/layout revision 3:** injury → resolution → post-resolution
+  macrophage question dominates; no-prior-injury is a compact reference.
+  Matching remains explicit without equal areas. Separate programme/function
+  unknowns and rivals remain; neither identical-cell survival nor an observed
+  effect is depicted. A32 supplies visual hierarchy only, never ARG1 biology.
+- **A6, layout only:** IPF within-state RNA and composition occupy the main
+  scene; the control context is a compact reference. Both endpoints remain.
+- **A7, layout only:** preserve both starting states for the interaction, while
+  compacting the control within each genotype comparison. Do not shrink the
+  central baseline-state comparison.
+
+Other 30 question records and all scientific hypotheses remain unchanged.
+Old prompts/layouts are retained in revision histories; the manifest records
+why each meaningful tissue, time, model or perturbation comparison was kept.
+See the [A3 draft review](A3_DRAFT_REVIEW_2026-11-02.md) and
+[storyboards](BIORENDER_STORYBOARDS.md). The latest equally scaled A3 manual
+layout is superseded by owner direction; its flat dashed line was deleted
+pending replacement. The coordinator continues the compact-reference design.
+No browser/generation operation, commit, PROGRESS edit or handoff edit is part
+of this technical composition update.

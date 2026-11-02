@@ -1,12 +1,31 @@
 # BioRender assembly storyboards
 
+**Current route, 2 November 2026:** the owner authorized raw SVG after a fresh trial-browser generation failure. Work has resumed under the [cellular SVG redesign record](RAW_SVG_REDESIGN_2026-11-02.md); earlier stop/no-SVG instructions below are historical. Scientific scope and old figures remain preserved.
+
+**Current execution status, 2 November 2026:** the owner stopped Codex figure work and requested a self-contained [Claude handoff](CLAUDE_HANDOFF_2026-11-02.md). Both Codex chats are stopped/idle; no production continues. Earlier in-progress statements below are historical. The latest A3 asymmetric revision is unfinished and unaccepted; original registered figures are unchanged.
+
 2 November 2026. These are source-grounded drawing specifications, not completed
 figures, new hypotheses or experiments. Use the full registered context for
 scientific meaning. Authentication and browser/connector account matching are
-complete. An [uncustomized template copy](https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7)
-exists for A3; the [current implementation record](IMPLEMENTATION.md#current-status)
-owns the browser recovery and missing-thumbnail blockers. No new generation or
-browser retry is authorized by this documentation update.
+complete. The [editable A3 draft](https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7)
+is being manually redesigned and is not accepted. The
+[implementation record](IMPLEMENTATION.md) owns attempt history; the
+[production manifest](PRODUCTION_MANIFEST_V1.json) owns current prompt revisions.
+Browser and production operations remain with the coordinating chat.
+
+## Portfolio composition guidance
+
+Space follows the RQ's biological focus. Reference-only controls can be compact;
+equal panels are reserved for two processes or comparisons that are equally
+central. Scientific matching does not require equal canvas areas. Keep meaningful
+tissue, time, model and perturbation comparisons visible rather than shrinking
+all comparators mechanically.
+
+All 33 prompts/layouts were reviewed. **A3** changes to a focal injury/resolution
+scene plus compact reference; **A6** clarifies the disease focus with compact
+control; **A7** retains both starting states but compacts the control inside
+each genotype contrast. Other 30 question specifications are preserved. Exact
+rationales and unchanged comparison groups are in the manifest.
 
 ## A31 — fibroblast and candidate receptor
 
@@ -44,6 +63,21 @@ template `5e1dc5a5215de00086dd2014`, returned by successful search. This templat
 is visual context, not evidence or permission to adopt every depicted process.
 
 ## A3 — history within a comparable present context
+
+**Current production revision 3:** make tissue injury → resolution → the
+post-resolution macrophage question dominant, with a compact no-prior-injury
+reference. Retain comparable age, origin, state and resolved present context;
+do not require equal panel areas. Separate programme and independent-function
+unknowns. Keep normal ageing, ongoing input, mixture and processing as rivals.
+Chronology must not imply survival of identical individual cells or an observed
+effect. Use the [manifest](PRODUCTION_MANIFEST_V1.json) and
+[A3 review note](A3_DRAFT_REVIEW_2026-11-02.md).
+
+The registered [A32 illustration](../../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/schematics/hypothesis_v2.svg)
+is a reference for biological focus, compact control and separate readouts only;
+its ARG1/metabolite biology does not transfer to A3. Prior prompt/layout
+revisions 1 and 2 remain in the manifest. The original pilot storyboard below
+is historical and does not override revision 3. The draft is not completed.
 
 **Biological scene:** two distinct earlier histories converge on a comparable
 resolved alveolar environment. Use macrophages with a common origin/state key,

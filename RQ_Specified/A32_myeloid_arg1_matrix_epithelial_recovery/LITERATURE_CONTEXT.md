@@ -70,22 +70,15 @@ cross-paper correlation is proposed.
 
 ## Hypothesis schematic
 
-![A32 qualitative hypothesis illustration and readout-to-decision map](schematics/hypothesis_v2.svg)
+![A32: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
 
-Version 2 replaces text boxes with biological entities: a generic myeloid source,
-ARG1/arginine/ornithine, a fibroblast and collagen fibres, and AT2/AT1 alveolar
-epithelium. Solid arrows show identity/lineage relationships or context-specific
-published premises; they do not establish the complete metabolic chain in a
-new model. Dashed links denote the proposed unmeasured effect comparison, not
-matrix-mediated epithelial recovery. Source identity is deliberately generic
-because the qualified species/model has not been chosen.
+[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
 
-Both endpoints remain separate. Source restriction, lineage and mature-function
-qualification precede interpretation. Source loss, inflammation, direct exposure
-and recipient selection remain alternative explanations. The rejected text-only
-draft is retained in [history](../../docs/history/2026-11-02-navigation-hygiene/A32_hypothesis_v1.svg).
-Source records stay under Yd1-P02/Wg-P06 and the paper package.
-[Plan](PLAN.md) specifies the remaining eligibility steps.
+A linked cytosolic callout retains the local ARG1 conversion of arginine to ornithine and urea without asserting metabolite transfer or a complete intercellular mechanism. The myeloid subtype remains unspecified. Fibroblast collagen production/deposition and absolute lineage-derived mature AT1 output are separate proposed effects; the compact AT2-to-AT1 reference does not establish the effect or matrix mediation.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
+
+Both endpoints remain separate. Source restriction, lineage and mature-function qualification precede interpretation. The rejected text-only draft remains in [history](../../docs/history/2026-11-02-navigation-hygiene/A32_hypothesis_v1.svg). Source records stay under Yd1-P02/Wg-P06 and the paper package; [PLAN.md](PLAN.md) retains the eligibility steps.
 
 ## Next literature check
 

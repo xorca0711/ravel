@@ -43,11 +43,13 @@ A separately measured barrier difference attributable to stromal context at comp
 
 ## Hypothesis schematic
 
-![A24: proposed comparison and strongest rival](schematics/hypothesis_v1.svg)
+![A24: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
 
-[Editable hypothesis schematic](schematics/hypothesis_v1.svg). Original explanatory artwork. Dashed arrows denote the labelled proposal or rival; shapes, colours and cell counts are qualitative, not observations. The three readout cards explain which uncertainty a measurement could resolve. Missing features/endpoints remain marked.
+[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v1.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
 
-New companion to the v2 atlas; source revision `82e749aba099172583447beb26a27365ccf80772`. This figure depicts a proposed question, not a completed analysis.
+The proposal separates stromal context from epithelial age/terminal differentiation using an independently measured barrier endpoint in qualified biological units. Existing atlas RNA and captured proportions do not identify a causal stromal population, absolute senescence burden or barrier dysfunction.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
 
 ## Next literature check
 

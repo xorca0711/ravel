@@ -42,11 +42,13 @@ A smaller early competent pool followed by reduced mature output is compatible w
 
 ## Hypothesis schematic
 
-![A20: proposed comparison and strongest rival](schematics/hypothesis_v2.svg)
+![A20: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
 
-[Editable hypothesis schematic](schematics/hypothesis_v2.svg). Original explanatory artwork. Dashed arrows denote the labelled proposal or rival; shapes, colours and cell counts are qualitative, not observations. The three readout cards explain which uncertainty a measurement could resolve. Missing features/endpoints remain marked.
+[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
 
-A0–A23 artwork is preserved from the checked v2 atlas at source revision `073a69a758f25f988ecc18402477efa268c00927`. Its full hypothesis was compared with the current dossier. Later literature and scope context are supplied by this note.
+A20 retains the narrowed Fzd2-versus-Fzd1 loss comparison in adult AF1-like fibroblasts. Independently qualified units must measure early competent pool and later absolute mature output. Timing and post-treatment pool adjustment do not prove mediation; survival, matrix and unequal engagement remain alternatives.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
 
 ## Next literature check
 

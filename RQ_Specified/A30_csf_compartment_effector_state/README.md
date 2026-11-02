@@ -59,7 +59,9 @@ novelty certification or new numerical execution is recorded by this revision.
 
 [Primary studies, rationale and interpretation limits](LITERATURE_CONTEXT.md).
 
-![A30 hypothesis illustration: paired comparison and conditional extensions](schematics/hypothesis_v2.svg)
+![A30 hypothesis illustration: paired comparison and conditional extensions](schematics/hypothesis_cellular_v1.svg)
+
+Cellular redraw, 2 November 2026; supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display. Original artwork and the working hypothesis remain preserved. Cell geometry and molecular glyphs are qualitative; the owning literature context supplies the full comparison and limits.
 
 *Qualitative proposal, not measured results. Sample symbols do not encode observed
 counts. Extensions require their own qualified designs.*

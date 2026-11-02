@@ -48,14 +48,13 @@ Absolute PEP, 2PG and 3PG pools under PGAM inhibition, with a PEP-supplementatio
 
 ## Hypothesis schematic
 
-![A29: proposed comparison and strongest rival](schematics/hypothesis_v2.svg)
+![A29: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
 
-[Editable hypothesis schematic](schematics/hypothesis_v2.svg). Original
-explanatory artwork. Dashed arrows denote the labelled proposal or rival;
-shapes, colours and any counts are qualitative, not observations. The readout
-cards explain which uncertainty a measurement could resolve. Missing features
-and endpoints remain marked. This figure depicts a proposed question, not a
-completed analysis.
+[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+
+Qualified independent biological preparations must distinguish absolute metabolite pools from isotope-label ratios and protein output from RNA. Stress, demand, off-target effects and RNA-content composition remain alternatives. A supplementation result is not unique mechanistic proof, and no secretion effect is established here.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
 
 ## Next literature check
 

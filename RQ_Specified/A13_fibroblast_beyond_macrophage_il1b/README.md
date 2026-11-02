@@ -32,7 +32,9 @@ results and original plans below retain their recorded scope.
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
-![A13: proposed hypothesis and rival explanation](schematics/hypothesis_v2.svg)
+![A13: proposed hypothesis and rival explanation](schematics/hypothesis_cellular_v1.svg)
+
+Cellular redraw, 2 November 2026; supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display. Original artwork and the working hypothesis remain preserved. Cell geometry and molecular glyphs are qualitative; the owning literature context supplies the full comparison and limits.
 
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->

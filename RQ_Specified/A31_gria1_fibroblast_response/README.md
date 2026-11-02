@@ -15,7 +15,9 @@ Does GRIA1 contribute to a measurable acute glutamate response in independently
 identified adult human alveolar fibroblasts? The atlas expression pattern makes
 this a testable possibility; it does not supply the response measurement.
 
-![A31 qualitative hypothesis illustration: RNA evidence, qualified perturbation/control comparison and informative outcomes](schematics/hypothesis_v1.svg)
+![A31 qualitative hypothesis illustration: RNA evidence, qualified perturbation/control comparison and informative outcomes](schematics/hypothesis_cellular_v1.svg)
+
+Cellular redraw, 2 November 2026; supersedes the [prior illustration](schematics/hypothesis_v1.svg) for display. Original artwork and the working hypothesis remain preserved. Cell geometry and molecular glyphs are qualitative; the owning literature context supplies the full comparison and limits.
 
 The drawing is a qualitative proposal. Its arrows are planned comparisons;
 no cell counts, effect sizes or functional results are depicted. SCN7A is
