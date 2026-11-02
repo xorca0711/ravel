@@ -1,14 +1,14 @@
 # Repository structure and label scope
 
-**Current scope — 7 October 2026:** 31 canonical questions (A0–A30). A24–A27 derive from Nb5; A28–A30 from Wp. Wg is the 2021 Wagner/Compass paper, Wp is Wang/Wagner 2025 PGAM, and Niethamer W1 is a separate macrophage analysis. The [readiness audit](audits/2026-10-07-repository-readiness/REPORT.md) reconciles current execution and historical plans.
+**Current scope — 2 November 2026:** 33 canonical questions (A0–A32) and 37 retained article-local candidates. A32 develops Yd1-P02; registration does not imply scientific acceptance. The [registry](../analysis/research/registry.json) and [illustrated guide](research_dossiers/literature_context_2026-10-03/README.md) own the current inventory.
 
-Updated 7 October 2026; September layout conventions retained. This contract follows the existing shared-analysis
+Navigation and label scope reconciled 2 November 2026; existing evidence ownership retained. This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
 protocols, original trial names and immutable run records remain historical evidence.
 
 | Material | Canonical location | Rule |
 |---|---|---|
-| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A30; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
+| Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A32; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
 | Question-specific plans and analyses | `RQ_Specified/A<id>_<topic>/` | Prospective plan, source metadata, configuration, scripts, tables, reports and gallery; reference the root question register |
 | Shared question figures | [analysis/figures/rq/README.md](../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
 | Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
@@ -25,11 +25,11 @@ protocols, original trial names and immutable run records remain historical evid
 | Current handoff and operating context | [PROGRESS.md](../PROGRESS.md), [AI_CONTEXT.md](../AI_CONTEXT.md) | Concise current handoff; prior long checkpoints are archived under docs/history |
 | Raw inputs, caches and private reading annotations | Ignored local directories | Do not copy them into public figure or documentation directories |
 
-See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 32 questions; the registry locates their evidence and the 31 article-local candidates across Nb4, Nb5, Wg and Wp.
+See [research governance](RESEARCH_GOVERNANCE.md) for authority, contract and immutable evidence rules. [Dossiers](research_dossiers/README.md) develop all 33 questions; the registry locates their evidence and the 37 retained article-local candidates; their IDs do not automatically become canonical RQs.
 
 ## Identifier namespaces
 
-- `A0`–`A30` identify the current repository-wide question cards. A15–A18
+- `A0`–`A32` identify the current repository-wide question cards. A15–A18
   retain their pending proposals; A19–A21 derive from Nb2 and A22–A23 from Nb3.
   Registration is not biological acceptance or confirmatory readiness.
   Figures use the associated question ID, with panel/group suffixes where needed.
@@ -67,6 +67,12 @@ trailing slash; other artifact fields are repository-relative. The owner-selecte
 `gate2_C3_yu_lee_choi_min_2026/` is branch 2C item 3, stable paper 13.
 This documented exception does not renumber the roadmap.
 
+Damani–Yokota 2026 (DY1) is **ungated**, outside the ordered reading roadmap,
+as clarified by the owner on 2 November 2026. Its historical
+`gate2_DY1_damani_yokota_2026/` folder is a provenance-preserving path exception,
+not a Gate 2 assignment. Current article navigation and ROADMAP outside-source
+metadata record that classification; frozen contracts and receipts are unchanged.
+
 Shared IL-1 figures now use scripts 19–21. Their recorded UMAP/PCA preparation
 was executed before relocation; the original script bytes and identities
 remain archived alongside the [current figure report](../analysis/figures/rq/il1b_context/REPORT.md).
@@ -85,8 +91,8 @@ Dated analysis checkpoints belong with their report packages and are linked
 from the documentation index; they do not form sections of the root README.
 Its Start here section links to repository-wide indexes, not individual papers
 or paper-specific results, branches or derived RQs. Those links belong in the
-research-article and question indexes. The main README links to galleries without
-embedding a partial selection.
+research-article and question indexes. Gallery discovery routes through the owning article/question indexes; the root
+README does not maintain selected paper galleries or result summaries.
 PI fit, contact preferences and personal outreach planning stay in the owner's
 Notion workspace; public documents contain scientific questions and portfolio text.
 

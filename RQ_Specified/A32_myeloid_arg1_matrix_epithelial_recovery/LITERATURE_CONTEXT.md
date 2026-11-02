@@ -70,12 +70,22 @@ cross-paper correlation is proposed.
 
 ## Hypothesis schematic
 
-![A32 qualitative hypothesis illustration and readout-to-decision map](schematics/hypothesis_v1.svg)
+![A32 qualitative hypothesis illustration and readout-to-decision map](schematics/hypothesis_v2.svg)
 
-The arrows denote a proposed comparison, not measured effects. The two outcomes
-remain separate; source restriction and lineage/function qualification precede
-interpretation. The source records stay under Yd1-P02/Wg-P06 and the paper
-package. [Plan](PLAN.md) specifies the remaining eligibility steps.
+Version 2 replaces text boxes with biological entities: a generic myeloid source,
+ARG1/arginine/ornithine, a fibroblast and collagen fibres, and AT2/AT1 alveolar
+epithelium. Solid arrows show identity/lineage relationships or context-specific
+published premises; they do not establish the complete metabolic chain in a
+new model. Dashed links denote the proposed unmeasured effect comparison, not
+matrix-mediated epithelial recovery. Source identity is deliberately generic
+because the qualified species/model has not been chosen.
+
+Both endpoints remain separate. Source restriction, lineage and mature-function
+qualification precede interpretation. Source loss, inflammation, direct exposure
+and recipient selection remain alternative explanations. The rejected text-only
+draft is retained in [history](../../docs/history/2026-11-02-navigation-hygiene/A32_hypothesis_v1.svg).
+Source records stay under Yd1-P02/Wg-P06 and the paper package.
+[Plan](PLAN.md) specifies the remaining eligibility steps.
 
 ## Next literature check
 

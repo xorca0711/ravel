@@ -1,9 +1,11 @@
 # Repository-grounding completion and deferred work
 
+**Proposed A32 registration:** [joint ARG1/matrix/mature-output question](A32.md) develops Yd1-P02. Its effect analysis remains held for linked model/data, mature endpoint, source attribution and precision. Source qualification and registration do not fill those gaps.
+
 **7 October portfolio update:** use the [group ledgers and executed extensions](../portfolio_extensions/2026-10-07/README.md) for current eligible analyses and source/functional holds. Proposed [A31](A31.md) needs an independently identified adult fibroblast preparation and qualified acute-response experiment; it is not functionally executed. Earlier dated completion/hold statements retain their original scope.
 
-**Current navigation — 25 October 2026:** fetched main `7840089` includes the
-October portfolio work and reviewed Choi/Weft intake. There are 32 canonical
+**Current navigation — 2 November 2026:** base main `96e6a8d` includes the
+October portfolio work and reviewed Choi/Weft intake. There are 33 canonical
 questions. Use [PROGRESS](../../PROGRESS.md) for the current handoff; the older
 checkout names, merge instructions and revision hashes below are historical.
 Scientific acceptance and missing source/functional evidence remain separate

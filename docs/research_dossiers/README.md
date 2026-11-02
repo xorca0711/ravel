@@ -10,7 +10,7 @@ The [source-mapping closeout](source_mapping_closeout_2026-10-03/README.md) sett
 the bounded recovery task. Later scientific/technical review and placement work
 are deferred; unavailable evidence remains held rather than silently qualified.
 
-All 32 current questions remain available; A24–A27 derive from Nb5, A28–A30 from Wp, and proposed A31 from the Nb4-P09 functional-endpoint extension. Registration is not acceptance.
+All 33 current questions remain available; A24–A27 derive from Nb5, A28–A30 from Wp, proposed A31 from the Nb4-P09 functional-endpoint extension, and proposed A32 from Yd1-P02's joint matrix/mature-output question. Registration is not acceptance.
 The canonical register owns question identity; these dossiers develop the missing
 scientific discriminator and experimental bridge. A completed computational
 analysis is not an experiment-ready hypothesis. Published background and
@@ -61,6 +61,7 @@ scientific-design level; they are not laboratory procedures.
 | A29 | PGAM perturbation, biosynthetic demand and effector output; proposed | [Evidence and next discriminator](A29.md) |
 | A30 | CSF-associated effector state: composition versus within-state association; proposed | [Evidence and next discriminator](A30.md) |
 | A31 | GRIA1-dependent acute glutamate response in adult alveolar fibroblasts | [Evidence and proposed baseline](A31.md) |
+| A32 | Myeloid ARG1: separate matrix and mature epithelial effects in one qualified design | [Evidence and next discriminator](A32.md) |
 
 ## Nb5 review and proposed registrations
 

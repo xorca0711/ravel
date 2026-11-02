@@ -4,12 +4,12 @@
 [Yadav follow-up research plans](Yadav_followups_20261031/README.md) contains
 three separate plans: existing Wg-P06 substrate balance, its routing/signaling
 arm, and proposed Yd1-P02 matrix versus mature repair. [Final technical review](Yadav_followups_20261031/REVIEW_T1B_FINAL.md)
-closes feasible source/design work; empirical tests remain specifically held. The 32 canonical questions
-below and all prior evidence remain unchanged.
+closes feasible source/design work; empirical tests remain specifically held. The prior 32 canonical questions and all source evidence remain unchanged;
+Yd1-P02 now develops into proposed [A32](A32_myeloid_arg1_matrix_epithelial_recovery/README.md).
 
 **Specificity and novelty applied:** [current source comparison](../docs/research_dossiers/NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
 
-**Current alignment — 25 October 2026.** Fetched main `7840089` includes the merged portfolio pass and proposed A31, for 32 questions (A0–A31). A28–A30 retain their Wp-derived workspaces. The 24 conditional packages retain their dated scope; newer plans remain proposals. Read the [current state](../PROGRESS.md), [readiness audit](../docs/audits/2026-10-07-repository-readiness/REPORT.md) and [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md) before extending an analysis.
+**Current alignment — 2 November 2026.** The registry contains 33 canonical questions (A0–A32). A32 develops the joint ARG1/matrix/mature-output comparison from Yd1-P02; source reproduction stays at its original paths. [Registration assessment](../docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md). Read the [current state](../PROGRESS.md) and [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md) before extending an analysis.
 
 ## Reading order and authority
 
@@ -20,14 +20,14 @@ rival, biological unit/endpoint, current evidence and next decision/hold. Read
 the linked current result before its older plan, then use the dossier and
 conditional package for the full argument and measurement requirements.
 
-[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) owns A0–A31 identities and
+[RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) owns A0–A32 identities and
 registered questions; current reports and amendments own the measured results.
 The local summaries communicate proposed development without selecting an RQ,
 changing a claim grade or declaring experimental readiness. Source-library
 labels, analysis execution and package completion do not establish independent
 replication or scientific acceptance.
 
-## All 32 current questions
+## All 33 current questions
 
 Twenty-four questions have dedicated execution folders here; seven use existing
 article/shared source contexts. The latter retain their own dossier and package,
@@ -67,8 +67,10 @@ without creating empty execution workspaces or duplicating scientific pipelines.
 | [A29](../RESEARCH_QUESTIONS.md#a29) | PGAM perturbation, biosynthetic demand and effector output | [RQ folder](A29_pgam_effector_mechanism/README.md) | [Dossier](../docs/research_dossiers/A29.md) |
 | [A30](../RESEARCH_QUESTIONS.md#a30) | CSF-associated effector state: composition versus within-state association | [RQ folder](A30_csf_compartment_effector_state/README.md) | [Dossier](../docs/research_dossiers/A30.md) |
 | [A31](../RESEARCH_QUESTIONS.md#a31) | GRIA1-dependent acute glutamate response in adult alveolar fibroblasts | [RQ folder](A31_gria1_fibroblast_response/README.md) | [Dossier](../docs/research_dossiers/A31.md) · [Plan](A31_gria1_fibroblast_response/PLAN.md) |
+| [A32](../RESEARCH_QUESTIONS.md#a32) | Myeloid ARG1: matrix and mature epithelial effects | [RQ folder](A32_myeloid_arg1_matrix_epithelial_recovery/README.md) | [Dossier](../docs/research_dossiers/A32.md) · [Plan](A32_myeloid_arg1_matrix_epithelial_recovery/PLAN.md) |
 
-## Newly registered Nb5 proposals
+
+## Nb5 registration lineage
 
 A24–A27 follow the owner's distinct-focus/subset instruction and the [bounded
 scientific/overlap review](../Research%20Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md).

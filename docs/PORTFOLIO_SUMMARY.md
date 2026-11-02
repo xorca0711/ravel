@@ -1,7 +1,7 @@
 # Ravel research portfolio summary
 
-**Updated 25 October 2026.** The [current register](../RESEARCH_QUESTIONS.md)
-contains 32 questions, A0–A31. This summary connects representative analyses to
+**Navigation updated 2 November 2026.** The [current register](../RESEARCH_QUESTIONS.md)
+contains 33 questions, A0–A32. This summary connects representative analyses to
 their biological questions; dated source reports retain their own scope.
 
 **Question.** Which epithelial and macrophage programme changes persist after

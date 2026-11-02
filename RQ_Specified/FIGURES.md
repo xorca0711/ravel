@@ -1,8 +1,10 @@
 # Question figure gallery
 
+For current question coverage, use the [illustrated guide](../docs/research_dossiers/literature_context_2026-10-03/README.md) and [workspace index](README.md). Proposed [A32](A32_myeloid_arg1_matrix_epithelial_recovery/README.md) adds a qualitative comparison diagram, not a measured-result plate. The earlier measured-file inventory below retains its historical coverage; current package reports own subsequent figures and corrections.
+
 **7 October extensions:** [A25 regional occupancy](../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) and [A30 common-support sensitivity](../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) have new measured figures. [A31](A31_gria1_fibroblast_response/README.md) has a qualitative proposal schematic; its source RNA figure belongs to [Nb4-P09](../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md).
 
-## Hypothesis illustrations for all 28 questions
+## Hypothesis illustrations for registered questions
 
 The [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md)
 links the explanatory SVG in each question's README or dossier. These qualitative
@@ -28,7 +30,7 @@ supporting panels and proposed designs for the A1 to A14 register and is
 generated largely by `analysis/scripts/16_research_question_figures.py`; this
 page covers only assets that live inside the question folders.
 
-## Questions with figures
+## Earlier local measured-figure inventory
 
 | Question | PNG | Captioned in |
 |---|--:|---|
@@ -59,7 +61,7 @@ and the gallery says so at the point where the corrected versions appear. Three
 of those four PNGs are byte-identical to their corrected counterparts, so the
 correction there was to the SVG and to one raster panel, not to every image.
 
-## Questions without local measured-result figures
+## Questions without local measured-result figures in that inventory
 
 | Question | What it produced instead |
 |---|---|

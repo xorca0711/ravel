@@ -11,10 +11,19 @@ scientific acceptance or readiness to run an experiment.
 [Literature context](LITERATURE_CONTEXT.md) ·
 [Registration assessment](../../docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md).
 
-![A32 hypothesis illustration: source-restricted ARG1 comparison, separate matrix and mature epithelial endpoints, alternatives and holds](schematics/hypothesis_v1.svg)
+![A32 hypothesis illustration: source-restricted ARG1 comparison, separate matrix and mature epithelial endpoints, alternatives and holds](schematics/hypothesis_v2.svg)
 
-The illustration is a qualitative proposed comparison, not a measured result.
-Reduced collagen does not assign the direction of epithelial recovery.
+The illustration shows a generic myeloid source, ARG1-catalysed arginine to
+ornithine conversion, a fibroblast, collagen fibres and alveolar AT2/AT1 cells.
+Solid arrows show biological relationships or context-specific published
+premises; dashed links mark the proposed, unmeasured comparison. They do not
+establish the full metabolic chain or matrix-mediated epithelial recovery in
+the proposed model. Reduced collagen does not assign the epithelial direction.
+
+Version 2 supersedes the owner's rejected text-box draft, preserved byte-for-byte
+in [documentation history](../../docs/history/2026-11-02-navigation-hygiene/A32_hypothesis_v1.svg)
+and its original commit `cecdabad8e97a257d1954ecaa84b8af35cd5f97b`. This is original
+editable vector artwork, not a BioRender export. No numerical result was added.
 
 | Element | Current specification |
 |---|---|

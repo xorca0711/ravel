@@ -601,6 +601,26 @@
       ],
       "trial_status": "done",
       "trial_location": "Research Article/ungated_murthy_2022/GSE178360"
+    },
+    {
+      "key": "damani_yokota_2026",
+      "first_author": "Damani-Yokota",
+      "year": 2026,
+      "classification": "ungated",
+      "doi": "10.1038/s41586-026-11060-y",
+      "folder": "gate2_DY1_damani_yokota_2026",
+      "trial_status": "Reviewed source and bounded descriptive work; exact holds are maintained in the article README. Ungated classification confirmed by owner 2026-11-02.",
+      "trial_location": "Research Article/gate2_DY1_damani_yokota_2026"
+    },
+    {
+      "key": "arozamena_2026",
+      "first_author": "Arozamena",
+      "year": 2026,
+      "classification": "ungated",
+      "doi": "10.1038/s41467-026-79014-6",
+      "folder": "ungated_arozamena_2026_inflammatory_memory",
+      "trial_status": "Reviewed source, RNA and four-locus paired descriptions; state-specific and functional jobs retain source/design holds.",
+      "trial_location": "Research Article/ungated_arozamena_2026_inflammatory_memory"
     }
   ],
   "methods_references": [
@@ -728,7 +748,8 @@
     "england_2025": "gate2_C2_england_2025: branch 2C item 2; stable paper order 12.",
     "nabhan_2023": "gate2_N1_nabhan_2023: owner-selected branch 2N item 1; stable paper order 6.",
     "wagner_2021_compass": "gate2_W1_wagner_th17_autoimmunity: owner-requested paper folder, stable paper 15 / Gate 2W. Wg identifiers distinguish it from the existing Niethamer W1 analysis.",
-    "wang_2025_pgam": "gate2_W2_wagner_Th17_PGAM: owner-requested paper folder, stable paper 17 / Gate 2W item W2. Wp identifiers distinguish it from the 2021 Wagner package's Wg identifiers and from the Niethamer W1 analysis."
+    "wang_2025_pgam": "gate2_W2_wagner_Th17_PGAM: owner-requested paper folder, stable paper 17 / Gate 2W item W2. Wp identifiers distinguish it from the 2021 Wagner package's Wg identifiers and from the Niethamer W1 analysis.",
+    "damani_yokota_2026": "Ungated source outside the ordered roadmap. Historical gate2_DY1_damani_yokota_2026 path retained for immutable contracts/receipts; prefix is not a current Gate 2 assignment. Owner clarification 2026-11-02."
   },
   "current_reading_queue": {
     "updated": "2026-10-04",

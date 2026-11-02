@@ -1,7 +1,7 @@
 # Research architecture and interpretation authority
 
-**Current navigation, 25 October 2026:** the [registry](../analysis/research/registry.json)
-locates all 32 canonical questions, A0–A31. Read [PROGRESS](../PROGRESS.md), the
+**Current navigation, 2 November 2026:** the [registry](../analysis/research/registry.json)
+locates all 33 canonical questions, A0–A32. Read [PROGRESS](../PROGRESS.md), the
 [October portfolio synthesis](portfolio_extensions/2026-10-07/SYNTHESIS.md) and
 [Weft intake](../weft_intake/README.md) for subsequent developments. The
 September execution checkpoints below retain their original scope.

@@ -1,5 +1,10 @@
 # DY1: NAM immune-history source reproduction
 
+**Roadmap classification: ungated — owner clarification, 2 November 2026.**
+The historical `gate2_DY1_damani_yokota_2026` path is retained for frozen
+provenance; it does not assign this paper to Gate 2. Source evidence and
+analysis eligibility are unchanged.
+
 30 October 2026. Current disposition of the [original stages 0–8](../../docs/research_reviews/2026-10-29-nam-memory/README.md).
 This article package owns paper reproduction and article-local descriptions; it
 creates no canonical A-series question or scientific acceptance.
