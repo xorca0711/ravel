@@ -1,5 +1,10 @@
 # DY1-P02: interpreting late RNA–ATAC discordance
 
+**Roadmap classification: ungated — owner clarification, 2 November 2026.**
+The historical `gate2_DY1_damani_yokota_2026` path is retained for frozen
+provenance; it does not assign this paper to Gate 2. Source evidence and
+analysis eligibility are unchanged.
+
 **External measurement reference, 1 November 2026:** the [Arozamena package](../../ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) supplies reviewed intestinal RNA weighting/QC and paired four-locus region/count-definition sensitivities. Its paired multiome design differs from DY1's bulk RNA/separate bulk ATAC and scRNA composition evidence. It does not establish NAM memory, STAT6–EGR2–PPARgamma/RXRA regulation or ARG1 mediation; the current DY1 question and holds remain unchanged.
 
 30 October 2026. Owner-requested article-local question, proposed and exposed.

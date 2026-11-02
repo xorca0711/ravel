@@ -1,5 +1,7 @@
 # Documentation Index
 
+**2 November navigation hygiene and RQ registration:** [audit and checks](audits/2026-11-02-navigation-hygiene/REPORT.md) · [six-candidate scope assessment](audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md). Root navigation stays collection-level; paper galleries stay article-owned. The illustrated guide includes proposed A32 and a separate article-local crosswalk.
+
 **Current entry points:** [project state](../PROGRESS.md), [portfolio summary](PORTFOLIO_SUMMARY.md)
 and [25 October summary synchronization](audits/2026-10-25-summary-synchronization/REPORT.md).
 The [12 October Weft intake](../weft_intake/README.md) is a reviewed trial handoff;

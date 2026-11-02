@@ -13,7 +13,7 @@ numbers remain stable. Figures 1–2 describe data readiness. Figure 3 remains a
 external feasibility check with no measured correlation to Saxton's results.
 
 [Article and completion status](README.md) · [All paper galleries](../README.md#figure-galleries) ·
-[Repository root](../../README.md#figure-galleries-by-analysis-branch).
+[Article gallery index](../README.md#figure-galleries).
 
 | Figure | Source and measurement unit | What it establishes |
 |---|---|---|

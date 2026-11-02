@@ -1,6 +1,6 @@
 # Illustrated research question guide
 
-Explore the **32 registered questions (A0–A31)** by biological topic. Each row
+Explore the **33 registered questions (A0–A32)** by biological topic. Each row
 links to the current question page, its explanatory diagram and the literature
 context behind it. Topic groups are for navigation, not a priority ranking.
 
@@ -24,6 +24,7 @@ of its outcome.
 - [Growth, priming and clonal behaviour](#growth-priming-and-clonal-behaviour)
 - [Ageing across tissues and immune states](#ageing-across-tissues-and-immune-states)
 - [T-cell regulation, metabolism and compartment](#t-cell-regulation-metabolism-and-compartment)
+- [Recent article-local candidates and crosswalk](#recent-article-local-candidates-and-crosswalk)
 
 ## Cell states and alveolar repair
 
@@ -53,6 +54,7 @@ of its outcome.
 | **A21** · [Fzd4-dependent vascular integrity and capillary repair](../../../RQ_Specified/A21_fzd4_capillary_function/README.md) | [Diagram](../../../RQ_Specified/A21_fzd4_capillary_function/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A21_fzd4_capillary_function/LITERATURE_CONTEXT.md) |
 | **A22** · [Epithelial identity versus amount in fibroblast chemokine competence](../../../RQ_Specified/A22_epithelial_identity_niche_response/README.md) | [Diagram](../../../RQ_Specified/A22_epithelial_identity_niche_response/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A22_epithelial_identity_niche_response/LITERATURE_CONTEXT.md) |
 | **A31** · [GRIA1-dependent acute response in adult alveolar fibroblasts](../../../RQ_Specified/A31_gria1_fibroblast_response/README.md) | [Diagram](../../../RQ_Specified/A31_gria1_fibroblast_response/schematics/hypothesis_v1.svg) · [Context](../../../RQ_Specified/A31_gria1_fibroblast_response/LITERATURE_CONTEXT.md) |
+| **A32** · [Myeloid ARG1, matrix and mature epithelial recovery](../../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md) | [Diagram](../../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md) |
 
 ## Macrophage history and disease context
 
@@ -83,17 +85,38 @@ of its outcome.
 
 | Question and focus | Diagram and background |
 |---|---|
-| **A28** · [Regulatory versus effector competence in Th17 transition](../../../RQ_Specified/A28_th17_arm_asymmetry/README.md) | [Diagram](../../../RQ_Specified/A28_th17_arm_asymmetry/schematics/hypothesis_v1.svg) · [Context](../../../RQ_Specified/A28_th17_arm_asymmetry/LITERATURE_CONTEXT.md) |
-| **A29** · [Mechanisms of increased Th17 effector output under PGAM restriction](../../../RQ_Specified/A29_pgam_effector_mechanism/README.md) | [Diagram](../../../RQ_Specified/A29_pgam_effector_mechanism/schematics/hypothesis_v1.svg) · [Context](../../../RQ_Specified/A29_pgam_effector_mechanism/LITERATURE_CONTEXT.md) |
+| **A28** · [Regulatory versus effector competence in Th17 transition](../../../RQ_Specified/A28_th17_arm_asymmetry/README.md) | [Diagram](../../../RQ_Specified/A28_th17_arm_asymmetry/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A28_th17_arm_asymmetry/LITERATURE_CONTEXT.md) |
+| **A29** · [Mechanisms of increased Th17 effector output under PGAM restriction](../../../RQ_Specified/A29_pgam_effector_mechanism/README.md) | [Diagram](../../../RQ_Specified/A29_pgam_effector_mechanism/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A29_pgam_effector_mechanism/LITERATURE_CONTEXT.md) |
 | **A30** · [Inflammatory RNA in paired CSF and blood CD4 T cells](../../../RQ_Specified/A30_csf_compartment_effector_state/README.md) | [Diagram](../../../RQ_Specified/A30_csf_compartment_effector_state/schematics/hypothesis_v2.svg) · [Context](../../../RQ_Specified/A30_csf_compartment_effector_state/LITERATURE_CONTEXT.md) |
+
+## Recent article-local candidates and crosswalk
+
+These six recently registered owners remain distinct from the canonical rows.
+The registry retains all 37 article-local candidates, including older Nb4/Nb5/Wg/Wp
+families. An ID is not acceptance or evidence of a completed mechanism.
+
+| Owner | Current plan / relation to canonical questions |
+|---|---|
+| DY1-P01 — ungated source | [Damani–Yokota source reproduction](../../../Research%20Article/gate2_DY1_damani_yokota_2026/README.md) |
+| DY1-P02 | [RNA–ATAC interpretability](../../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md); supporting measurement context for A3, with an A1 analogy |
+| Yd1-P01 | [Yadav source package](../../../Research%20Article/gate2_W3_yadav_2025/README.md); substrate/routing follow-ups retain Wg-P06 ownership |
+| Yd1-P02 → proposed A32 | [Historical source plan](../../../RQ_Specified/Yadav_followups_20261031/RQ3_MATRIX_AND_REPAIR.md) → [A32 development](../../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md); earlier runs retain Yd1-P02 ownership |
+| Sx22-P01 | [Saxton source reassessment](../../../Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/README.md); [recipient/persistence connections](../../../Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/RQ_CONNECTIONS.md) |
+| Arz1-P01 — ungated source | [Arozamena paired measurements](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md); [A1/A14/A8 connections and limits](../../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md) |
+
+[Scope and overlap assessment](../../audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md)
+records why one new A-series comparison is registered while other owners remain
+article-local. Data holds do not prevent proposed registration; overlapping or
+source-reproduction scope does not require a duplicate canonical ID.
 
 ## Scope and provenance
 
-Navigation updated 7 October 2026 from the [research registry](../../../analysis/research/registry.json).
+Navigation reconciled 2 November 2026 with the [research registry](../../../analysis/research/registry.json).
 The original 3 October index covered A0–A27; A28–A30 are now included through
-their registered guides. Context notes retain their own review dates and access
-limits. This navigation update adds no literature search, scientific result or
-hypothesis revision.
+their registered guides, followed by A31 and the proposed A32. All canonical
+rows and their registered entrypoint/context/diagram links are cross-checked.
+A32 has its own dated literature refresh; other context notes retain their dates
+and access limits. No new numerical result or A0–A31 hypothesis revision is made.
 
 A0–A23 retain their v2 illustrations; the later questions use their registered
 companions. These are explanatory proposals, not scientific acceptance, novelty

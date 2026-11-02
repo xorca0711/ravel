@@ -1,5 +1,12 @@
 # Research questions
 
+**Registration update — 2 November 2026:** [A32](#a32) develops the distinct
+joint matrix/mature-epithelial effect question from Yd1-P02. There are now 33
+canonical questions, A0–A32. The [six-candidate assessment](docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md)
+retains other source/measurement owners and their existing-RQ links. A0–A31
+hypotheses and all scientific acceptance states are unchanged. Earlier dated
+registration notes below describe their original scope.
+
 **Yadav follow-up plans, 31 October 2026:** the
 [new execution workspace](RQ_Specified/Yadav_followups_20261031/README.md)
 develops existing **Wg-P06** substrate balance, a routing/signaling arm of that
@@ -143,6 +150,8 @@ recovery endpoint, and population persistence does not trace the same cells.
 | [A28](#a28) | Th17 score arm asymmetry: losing regulatory versus gaining effector competence | Wp derivation; executed reproduction, branch, metadata and extension evidence | Proposed; see [dossier](docs/research_dossiers/A28.md) for source, endpoint and acceptance holds |
 | [A29](#a29) | Mechanism of the Th17 effector gain under PGAM restriction | Wp derivation; executed reproduction, branch, metadata and extension evidence | Proposed; see [dossier](docs/research_dossiers/A29.md) for source, endpoint and acceptance holds |
 | [A30](#a30) | CSF compartment state versus local activation in human CD4 T cells | Wp derivation; executed reproduction, branch, metadata and extension evidence | Proposed; see [dossier](docs/research_dossiers/A30.md) for source, endpoint and acceptance holds |
+| [A31](#a31) | GRIA1-dependent acute response in adult alveolar fibroblasts | Exposed Nb4-P09 expression context; response not measured | Proposed; source identity, receptor response and functional experiment remain held |
+| [A32](#a32) | Myeloid ARG1: matrix production and mature epithelial recovery | Yd1-P02 source/endpoint review; no joint effect measured | Proposed; linked model/data, mature endpoint, source attribution and precision remain held |
 
 A0 completed its bounded pilot: the frozen programme fails the mature intestinal
 endpoint, and its conditional specificity work is pruned. The A1 continuation,
@@ -1635,6 +1644,41 @@ Nb4-P09 retains ownership of the expression run; no existing question is retired
 [Dossier](docs/research_dossiers/A31.md) · [Illustrated workspace](RQ_Specified/A31_gria1_fibroblast_response/README.md) ·
 [Development plan](RQ_Specified/A31_gria1_fibroblast_response/PLAN.md) ·
 [Source/overlap review](docs/portfolio_extensions/2026-10-07/g2_niche/NEW_QUESTION_CANDIDATE.md).
+
+<a id="a32"></a>
+
+### A32. Does source-restricted myeloid ARG1 reduction change matrix production and mature epithelial recovery differently?
+
+Registered 2 November 2026 as **proposed**, following the owner's instruction to
+assess and register distinct paper-derived questions. This exposed functional
+extension develops Yd1-P02; it does not imply completed effects, human scientific
+acceptance or laboratory readiness.
+
+**Purpose and biology.** In a qualified non-infectious lung-repair system, estimate how source-restricted myeloid ARG1 reduction versus matched source-active control changes absolute lineage-derived mature AT1 output per starting epithelial input and newly produced or deposited collagen, reported separately in the same biological design. No direction of the epithelial effect is prespecified from collagen alone. The principal validity threat is that source-cell loss, changed inflammation, direct recipient exposure or epithelial/fibroblast selection is mistaken for restored niche support or maturation.
+
+**Current evidence.** The published matrix mechanism and repository source/endpoint
+review motivate the question. No eligible linked ARG1–matrix–mature-output
+dataset or confirmed host model was qualified. Existing substrate descriptions
+remain Wg-P06 evidence; Atg5 organoid/marker observations are a different source
+perturbation and do not establish the proposed ARG1 effect.
+
+**Comparison and units.** Qualify source restriction, target engagement, source/
+recipient identity and actual donor/animal crossing/nesting. Separate early
+survival/expansion from later lineage-derived mature output. Images, organoids
+and wells are nested observations. The mature-function assay, timing, meaningful
+effect and precision remain unresolved; a nonsignificant change is not preserved
+function. Matrix and epithelial outcomes remain separate, not a composite score.
+
+**Alternatives and boundaries.** Source loss, altered inflammation, direct recipient
+exposure or selection can explain changes without fibroblast-mediated repair.
+An intervention effect does not establish mediation. The distinct source-
+metabolic/joint-outcome contrast is not A8's prediction, A13's fibroblast output,
+A19's input schedule or A20's Fzd comparison. All original questions and article
+contracts remain preserved; no infection experiment is part of this proposal.
+
+[Dossier](docs/research_dossiers/A32.md) · [Illustrated workspace](RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md) ·
+[Plan](RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/PLAN.md) · [Literature context](RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md) ·
+[Scope assessment](docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md).
 
 ## Execution and interpretation rules
 

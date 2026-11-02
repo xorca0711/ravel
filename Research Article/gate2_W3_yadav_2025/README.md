@@ -1,5 +1,11 @@
 # Yadav 2025: source evidence and article-local synthesis
 
+**Registration crosswalk — 2 November 2026:** Yd1-P02 now develops as proposed
+[A32](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md). This package retains its historical source plans,
+contracts, runs and outcomes; none is relabelled as an A32 effect. Earlier
+article-local wording below records the pre-registration scope. Wg-P06 substrate
+and routing work remains separately owned.
+
 **New follow-up scope, 31 October 2026:** the owner authorized the
 [three-plan research workspace](../../RQ_Specified/Yadav_followups_20261031/README.md)
 after the original/extension closeouts below. Wg-P06 substrate balance and its

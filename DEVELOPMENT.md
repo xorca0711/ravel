@@ -3061,3 +3061,29 @@ scientific acceptance or claim promotion is recorded.
 
 See the [gallery review](Research%20Article/gate2_DY1_damani_yokota_2026/FIGURE_REVIEW_2026-10-30.md)
 for exact scope, checks and remaining interpretation limits.
+
+## 2026-11-02 — navigation hygiene and proposed A32
+
+The owner requested repository-wide navigation hygiene, explicit ungated DY1
+notation, reconciliation of the illustrated question guide and assessment of
+distinct candidates for A-series registration. Codex implemented the edits and
+mechanical review. This records editorial authorization; human scientific
+acceptance of A32 remains unassessed. No biological analysis was rerun.
+
+| Item | Responsible work | Review / authority | Disposition |
+|---|---|---|---|
+| Universal root navigation and current handoff | Codex implementation and local-link/preservation audit | Owner's architecture/hygiene request | Paper-specific galleries stay with article owners; previous summaries archived with working links |
+| Ungated Damani–Yokota classification | Codex metadata/documentation | Owner's explicit classification | Legacy folder retained for frozen provenance; outside-roadmap metadata and current notes corrected |
+| A-series assessment and guide reconciliation | Codex source/overlap review | Owner selected “Assess and register distinct RQs” | Proposed A32 registered; all other local IDs, earlier RQs and decisions preserved |
+| A32 biological schematic | Codex original SVG illustration and visual QA | Owner requested biological entities instead of text boxes | Version 2 current; initial draft preserved in history; no BioRender export or empirical effect claimed |
+| Strict inventory expectation | Codex implementation and focused diff/regression review | Necessary dependency of owner-authorized A32 registration | Extend exact sequence only; missing A31/A32, duplicate, reorder and unregistered-ID cases remain rejected |
+
+| Rejected or revised item | Reason | Rejected / requested by | Disposition |
+|---|---|---|---|
+| Selective root-level paper galleries | Inconsistent with universal collection navigation | Owner | Removed shortcuts and corrected inbound anchor; galleries themselves retained |
+| Initial A32 text-box schematic | Did not show the actual biological entities | Owner | Replaced with cells, enzyme/metabolites, matrix and alveolar epithelium; published and proposed links distinguished |
+| Initial inventory check and local test environment | Old count rejected A32; sandbox blocked temporary fixtures | Deterministic checks | Update only authorized expected inventory; approved test retry passes; no scientific guard relaxed |
+| Repeated article and agent-entry execution summaries | Obscured current owner indexes and duplicated historical states | Codex audit under owner hygiene scope | Archived without discarding historical text; concise current routing |
+
+See the [audit and validation record](docs/audits/2026-11-02-navigation-hygiene/REPORT.md)
+and [RQ assessment](docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md).

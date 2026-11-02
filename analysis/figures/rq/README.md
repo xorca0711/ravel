@@ -14,8 +14,8 @@ A11/A12/A12-S1/A14; see [their report](il1b_context/REPORT.md).
 Paper-local A1, Nb1 and ES1 galleries retain their own producers and provenance.
 Figures that live inside the question folders are indexed separately, with the
 document that captions each one, in the
-[question figure gallery](../../../RQ_Specified/FIGURES.md); six questions there
-hold no figure at all, which that page states rather than leaving blank.
+[question figure gallery](../../../RQ_Specified/FIGURES.md). That index separates
+local measured figures from qualitative proposals and historical inventories.
 
 The former `rq_a2_ligands.png` is a historical output, excluded from this current
 selection; it must not replace `rq_a2_source_rank.png`. A3's title and display

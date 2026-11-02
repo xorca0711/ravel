@@ -20,7 +20,8 @@ def check_research_layout(root: Path, result) -> None:
     # questions derived from the executed Wang PGAM package. A31 is the proposed
     # GRIA1 response question derived from qualified Nb4-P09 expression evidence.
     # Registration checks exact identity/order, not biological acceptance.
-    result.equal(ids, [f'A{i}' for i in range(32)], 'canonical question sequence')
+    # A32 is the proposed myeloid ARG1 joint matrix/epithelial effect question.
+    result.equal(ids, [f'A{i}' for i in range(33)], 'canonical question sequence')
     result.require(not (paper / 'DERIVED_RESEARCH_QUESTIONS.md').exists(),
                    'duplicate current paper-local RQ register')
     roadmap = json.loads((root / 'Research Article/ROADMAP.json').read_text(encoding='utf-8'))

@@ -461,6 +461,20 @@
         "docs/portfolio_extensions/2026-10-07/g2_niche/NEW_QUESTION_CANDIDATE.md",
         "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
       ]
+    },
+    {
+      "id": "A32",
+      "card": "RESEARCH_QUESTIONS.md#a32",
+      "dossier": "docs/research_dossiers/A32.md",
+      "evidence": [
+        "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md",
+        "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/PLAN.md",
+        "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md",
+        "docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md",
+        "RQ_Specified/Yadav_followups_20261031/RQ3_MATRIX_AND_REPAIR.md",
+        "RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md",
+        "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md"
+      ]
     }
   ],
   "article_candidates": [
@@ -886,7 +900,8 @@
         "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md",
         "RQ_Specified/Yadav_followups_20261031/FOLLOWUP_DISPOSITION_T1B.md",
         "RQ_Specified/Yadav_followups_20261031/REVIEW_T1B_FINAL.md",
-        "RQ_Specified/Yadav_followups_20261031/REVIEW_T1B_INTEGRITY.md"
+        "RQ_Specified/Yadav_followups_20261031/REVIEW_T1B_INTEGRITY.md",
+        "docs/research_dossiers/A32.md"
       ]
     },
     {
@@ -1527,6 +1542,16 @@
       "source_revision": "53911171cac9f184d1aa3f2a4b3a7754768dfd84",
       "schematic_sha256": "241093c55118662e4bc480351658f7673ff96e07314d00fd2bd1018551791e56",
       "hypothesis_sha256": "3e3eb4a1f4dab4325a7acf6f4d0af21f3e0be3bd189ff6b979be9369dc001551"
+    },
+    {
+      "question": "A32",
+      "context": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md",
+      "schematic": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/schematics/hypothesis_v2.svg",
+      "kind": "qualitative_hypothesis",
+      "source_revision": "cecdabad8e97a257d1954ecaa84b8af35cd5f97b",
+      "schematic_sha256": "17ddab2654cb2bd41cc6e72edacf68bd2bf954ce245ad1ef08cc8094f4663530",
+      "hypothesis_sha256": "ed0cf6e247dfb82362fa531ae3d6d281780ede540b285d0740d186bf330c9f09"
     }
   ]
 }

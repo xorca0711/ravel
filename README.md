@@ -23,12 +23,11 @@ and preservation of historical evidence.
 
 | What you need | Where to start |
 |---|---|
-| Questions, biological rationale and proposed comparisons | [Illustrated question guide](docs/research_dossiers/literature_context_2026-10-03/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
+| Questions, biological rationale and proposed comparisons | [Illustrated question guide](docs/research_dossiers/literature_context_2026-10-03/README.md) · [Question workspaces](RQ_Specified/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
 | Source papers, reading status and article analyses | [Research article roadmap](Research%20Article/README.md) |
 | Reviewed materials from the ongoing Weft trial | [Weft intake](weft_intake/README.md) |
 | Datasets, biological units and eligibility | [Dataset inventory](docs/DATASETS.md) |
 | Current results and remaining work | [Project state](PROGRESS.md) · [Remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
-| Figures and their interpretation | [Question figures](RQ_Specified/FIGURES.md) · [Paper galleries](Research%20Article/README.md#figure-galleries) |
 | Evidence grades, corrections and negative results | [Claim summary](docs/CLAIM_SUMMARY.md) · [Full register](CLAIMS.md) · [Negative results](docs/NEGATIVE_RESULTS.md) |
 | Reproduction and research development | [Reproducibility](REPRODUCIBILITY.md) · [Research governance](docs/RESEARCH_GOVERNANCE.md) · [Documentation index](docs/README.md) |
 
@@ -75,8 +74,8 @@ acceptance; dated reports preserve earlier results and corrections.
 [Weft](https://github.com/xorca0711/weft) is the separate automation project for
 literature discovery, screening and bounded analysis coordination. Its connection
 to Ravel is currently a **trial-pilot integration**. The [Weft intake](weft_intake/README.md)
-collects reviewed handoffs, starting with Choi's migrated pilot plan, source and
-dataset review, scientific summary and evidence inventory. Ravel's research
+collects reviewed source and dataset handoffs, scientific summaries and evidence
+inventories. Ravel's research
 mission, canonical questions and existing evidence hierarchy remain unchanged.
 
 ```mermaid
@@ -85,9 +84,9 @@ flowchart LR
     I -. "Separate scientific review and authorization" .-> R["Ravel article analyses and RQs"]
 ```
 
-Choi was retained as a bounded descriptive discrepancy benchmark, with no new RQ
-or claim promotion. Fresh-paper material review remains held. Arrival in the
-intake does not imply scientific acceptance or permission to run an analysis.
+Each intake package records its own review, evidence limits and next disposition.
+Arrival in the intake does not imply scientific acceptance or permission to run
+an analysis.
 See the [frontend/backend workflow](https://github.com/xorca0711/weft/blob/main/docs/WORKFLOW_AND_STORAGE.md)
 for interfaces, compute, storage and current qualification limits.
 
@@ -98,22 +97,6 @@ and candidates that do not meet a particular comparison's requirements. Most
 expression analyses use deposited counts; some reproduce deposited normalized
 values. Contracts record exact inputs, inclusion rules and biological units.
 Reused deposits and their companion assays remain shared evidence.
-
-## Figure galleries by analysis branch
-
-| Scope | Gallery and interpretation |
-|---|---|
-| **Arozamena 2026 intestinal history** | [Article gallery](Research%20Article/ungated_arozamena_2026_inflammatory_memory/FIGURES.md): four reviewed plates: accession-specific RNA contrasts, paired four-locus RNA/fragments and fixed measurement sensitivities. [Job ledger](Research%20Article/ungated_arozamena_2026_inflammatory_memory/README.md) separates completed descriptions from missing state/function linkage and exact-replay limitations. |
-| **Saxton 2021 IL-22** | [Combined article gallery](Research%20Article/gate3_08_saxton_2021_il22/FIGURES.md): three reviewed colon RNA figures (published targets, overall-amplitude reference and sensitivity), two QC figures and one external feasibility figure. [Results](Research%20Article/gate3_08_saxton_2021_il22/reassessment_v1/RESULTS.md) distinguish the selected-panel pattern from smaller broad-IFN differences; population, signaling and functional inference retain explicit holds. |
-| All paper packages | [Paper gallery index](Research%20Article/README.md#figure-galleries) |
-| Research questions | [Question figures](RQ_Specified/FIGURES.md) |
-| Cross-question measurements and designs | [Shared gallery](analysis/figures/rq/README.md) |
-
-Captions identify units and limits; later corrections take precedence over
-historical image titles. The Saxton extension page contains one three-panel
-transcript figure; its PNG/SVG formats and superseded rendering are not separate
-results. The combined gallery distinguishes the three direct colon RNA figures
-from supporting QC and the external Choi feasibility result.
 
 ## Try it yourself
 

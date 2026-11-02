@@ -1,5 +1,11 @@
 # Yadav follow-up research plans
 
+**Registration crosswalk — 2 November 2026:** Yd1-P02 now develops as proposed
+[A32](../A32_myeloid_arg1_matrix_epithelial_recovery/README.md). This package retains its historical source plans,
+contracts, runs and outcomes; none is relabelled as an A32 effect. Earlier
+article-local wording below records the pre-registration scope. Wg-P06 substrate
+and routing work remains separately owned.
+
 **Current review, 31 October 2026:** [Follow-up scope dispositioned](REVIEW_T1B_FINAL.md).
 All feasible source descriptions and design qualification are reviewed complete;
 empirical tests of the three questions remain held on exact data/model/assay
