@@ -3,6 +3,36 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Schematic implementation — 2 November 2026
+
+Technical chat `01a199c1-39af-7b92-bdf0-32711480c2eb` is implementing the
+review on the existing `codex/rq-schematic-quality-20261102` worktree, starting
+at `671c284`. Entry was clean; no upstream is configured. Main fetched at
+`96e6a8d033b11da2599e0fd5d91f87d16817f58c`; PR #158 remains unmerged.
+
+BioRender tools are now visible and template search succeeds. The human selected
+the **BioRender** connection as their xorca account. A31, A3 and A28 draft jobs
+all failed with `generation_error: All preview generations failed`. No preview,
+saved figure or editor URL was returned; failed jobs are not polled again.
+This supersedes the earlier capability snapshot, not its historical accuracy.
+Exact jobs, capability distinctions and sources are in the
+[implementation record](docs/audits/2026-11-02-rq-schematic-review/IMPLEMENTATION.md).
+
+Owner steering: the native SVG pilots are too rough. Broad native redraw is
+stopped; the three unregistered pilots remain backups, with no registry change.
+The coordinator's shorter/template-backed BioRender generation also failed.
+The browser template is labelled fully editable, but Use as template requires
+sign-in; the coordinator owns the visible xorca authentication/editor route.
+This technical chat prepared [pilot assembly storyboards](docs/audits/2026-11-02-rq-schematic-review/BIORENDER_STORYBOARDS.md)
+and an [A0–A32 review/hold ledger](docs/audits/2026-11-02-rq-schematic-review/LEDGER.md),
+without duplicate jobs or browser control. All 33 registered artwork/hypothesis
+hashes and the registry are unchanged; the base-aware research gate passed.
+All ordinary repository checks passed, including the complete unittest suite,
+claim/archive checks and full validator. Refetched main is still 96e6a8d.
+Next: authenticate in BioRender and assemble/review real editable pilots, then
+qualify export and intended reuse before any gallery/registry integration.
+No biological analysis, push, PR rewrite or merge.
+
 ## Registered RQ schematic review — 2 November 2026
 
 The owner requested review of all registered questions and their schematics,

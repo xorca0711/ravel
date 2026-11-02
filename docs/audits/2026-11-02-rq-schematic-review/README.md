@@ -164,7 +164,16 @@ link; this note and current repository evidence provide the technical handoff.
 
 ## Execution status
 
-The portfolio review and redesign brief are complete. No registered illustration
-has yet been changed by this follow-up. A separate technical chat is to be launched
-with this brief; its identity and first confirmed status will be recorded in
-the current project handoff. No main merge is authorized by this review.
+The portfolio review and redesign brief are complete. Technical chat
+`01a199c1-39af-7b92-bdf0-32711480c2eb` checked the now-visible BioRender connector:
+template search succeeds, while three long-prompt preview jobs failed. The
+coordinator's later short/template attempt also failed. The owner rejected the
+rough native SVG pilots as the solution; they are preserved only as local
+backups. No registered illustration has changed.
+
+The active route is authenticated BioRender editor assembly from discovered
+templates, with the coordinator owning browser control and xorca sign-in.
+See the [implementation and failure record](IMPLEMENTATION.md),
+[source-grounded pilot storyboards](BIORENDER_STORYBOARDS.md) and
+[per-question ledger](LEDGER.md). Redesign remains unfinished. No main merge,
+numerical execution or public BioRender export is claimed or authorized here.
