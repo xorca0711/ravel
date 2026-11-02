@@ -1,6 +1,6 @@
 # Documentation Index
 
-Current schematic review: [all 33 registered questions and technical redesign brief](audits/2026-11-02-rq-schematic-review/README.md).
+Current schematic review: [all 33 reviewed cellular figures and biological-detail audit](audits/2026-11-02-rq-schematic-review/README.md).
 
 **2 November navigation hygiene and RQ registration:** [audit and checks](audits/2026-11-02-navigation-hygiene/REPORT.md) · [six-candidate scope assessment](audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md). Root navigation stays collection-level; paper galleries stay article-owned. The illustrated guide includes proposed A32 and a separate article-local crosswalk.
 

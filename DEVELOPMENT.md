@@ -3107,3 +3107,13 @@ This is communication review, not a portfolio ranking or human acceptance.
 | Treating all prior drawings as text-only | Most already contain biological symbols | Preserve useful entity/alternative distinctions while reducing prose and strengthening anatomy |
 
 See the [quality review](docs/audits/2026-11-02-rq-schematic-review/README.md).
+
+### Completed schematic publication
+
+The preceding handoff table records the initial connector state. Subsequent
+trial-browser generation failed; the authorized original-SVG route completed
+all 33 figures after the biological-detail audit. Figure commit `a827db6` and
+[PR #159](https://github.com/xorca0711/ravel/pull/159) contain the reviewed artwork
+and owning-guide updates. The publication check passed 14,021 repository checks
+and the research gate against refreshed main `5eb710d`; old SVGs and hypotheses
+remain unchanged. No biological analysis or scientific acceptance was added.

@@ -5,14 +5,16 @@ research registry own scientific status; older checkpoints are history.
 
 ## Schematic publication — 2 November 2026
 
-The owner authorized committing the reviewed A0–A32 figures, owning guide/context
-updates, registry bindings and supporting audit records, then opening a PR.
-The refreshed integration base is `origin/main` at `5eb710d`; its tree matches
-the previous review base. Publication validation passed: 14,021 repository checks, the research gate
-against `origin/main`, and all 33 original/new SVG and hypothesis bindings.
-The reviewed changes are ready for the authorized commit and PR on
-`codex/rq-schematic-quality-20261102`. The review checkpoint below
-records the completed artwork and preservation checks before publication.
+[PR #159](https://github.com/xorca0711/ravel/pull/159) is open against `main`.
+Figure commit `a827db6` contains all 33 reviewed cellular SVGs, owning guide/context
+updates, registry bindings and supporting audit records. The branch is
+`codex/rq-schematic-quality-20261102`, published using verified `xorca0711`.
+Publication validation passed: 14,021 repository checks, research gate against
+refreshed `origin/main` (`5eb710d`), all 33 original/new SVG and hypothesis checks,
+and the complete PR whitespace check. One whitespace-only issue in the historical
+Claude handoff was corrected before push. No scientific/data hold was changed.
+The PR is open for review; no merge was performed. The checkpoint below describes
+the completed figure review before publication.
 
 ## Cellular SVG figures integrated — 2 November 2026
 

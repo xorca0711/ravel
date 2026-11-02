@@ -325,14 +325,18 @@
       "record": "docs/audits/2026-11-02-rq-schematic-review/CELLULAR_FIGURE_REVIEW.md"
     },
     "publication": {
-      "status": "validated_ready_to_commit",
+      "status": "pr_open",
       "branch": "codex/rq-schematic-quality-20261102",
       "base": "5eb710d03ed714e245bb8d34136afcf8034b6d96",
       "validation": {
         "repository_checks": 14021,
         "research_gate": "passed_against_origin/main",
         "preservation": "33_original_svgs_and_hypotheses_unchanged_33_current_hashes_match"
-      }
+      },
+      "pr_number": 159,
+      "pr_url": "https://github.com/xorca0711/ravel/pull/159",
+      "schematics_commit": "a827db62e260a423c84c8337184c47b77f5aea60",
+      "authenticated_login": "xorca0711"
     }
   },
   "visual_policy": [
