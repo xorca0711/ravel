@@ -44,9 +44,9 @@ Lower absolute mature output after the longer history, despite verified cessatio
 
 ## Hypothesis schematic
 
-![A14: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
+![A14: reviewed matte qualitative illustration](schematics/A14_gpt_matte_v1.png)
 
-[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A14_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 H1 concerns lineage-derived mature recovery after different exposure durations with comparable culture age and recovery interval. H2 separately asks about fibroblast reception without a fixed direction. Units follow the qualified biological preparation; mature yield, function, survival and residual stimulation remain distinct.
 

@@ -39,9 +39,9 @@ Confirmed epithelial protein followed by a later response difference within comp
 
 ## Hypothesis schematic
 
-![A16: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
+![A16: reviewed matte qualitative illustration](schematics/A16_gpt_matte_v1.png)
 
-[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A16_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 The proposed marker comparison is within comparable mutant starting states and independent source units. Corrected RNA matching attenuated the association and left imbalance. Protein attribution and later response remain unqualified; contamination, mixture and already-active response are alternatives.
 

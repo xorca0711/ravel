@@ -43,9 +43,9 @@ Estimate state-specific repeated-clone-cell fractions on a common sampling scale
 
 ## Hypothesis schematic
 
-![A27: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
+![A27: reviewed matte qualitative illustration](schematics/A27_gpt_matte_v1.png)
 
-[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v1.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A27_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 Mouse-level state-specific clone measures and a declared fixed-composition contrast assess association components while retaining the aggregate result. Both redistribution and within-state change may contribute. Sparse reconstructed receptors, annotation and sampling limit inference; no percentage of ageing caused or immune function is inferred.
 

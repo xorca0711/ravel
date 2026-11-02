@@ -53,9 +53,9 @@ neuronal excitability or sodium sensing.
 
 ## Hypothesis schematic
 
-![A31: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
+![A31: reviewed matte qualitative illustration](schematics/A31_gpt_matte_v1.png)
 
-[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v1.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A31_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 The membrane inset is a conditional AMPAR channel-class illustration, not evidence of functional assembly, partner composition or ion flow in adult alveolar fibroblasts. Donor-matched perturbation and challenge-minus-vehicle comparisons require receptor/identity qualification and an independently selected acute-response assay. RNA alone does not establish receptor activity.
 

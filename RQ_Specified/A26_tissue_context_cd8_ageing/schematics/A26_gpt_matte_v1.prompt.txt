@@ -1,0 +1,9 @@
+Use case: style-transfer with specified local corrections.
+INPUT IMAGE 1 is the A26 figure to edit: it supplies ALL question-specific biology, composition and labels.
+INPUT IMAGE 2 is the MATTE A32 visual-style reference ONLY. Do not copy any A32 cells, labels, ARG1, collagen or layout into image1. Retain A26's own distinct composition.
+
+STYLE REVISION REQUESTED BY OWNER: The current raster is too glossy and artificial. Change the ENTIRE illustration to a MATTE scientific textbook plate: fine clean drawn outlines, muted pastel pigments, delicate paper-like/colored-pencil shading, shallow restrained volume, soft diffuse light, no white specular spots, NO wet shine, NO glassy or translucent-gel membranes, no plastic/beaded 3D surface texture, no lens-like nuclei, no dramatic bevels, no drop shadows. Render membranes as thin, clean softly coloured bilayer outlines rather than shiny pearls. Organelles should be carefully drawn anatomical forms with subtle flat tonal shading, not 3D toy objects. Keep the biological illustration detailed and readable; do NOT collapse into crude geometric SVG shapes or text boxes. White clean background, crisp typography, natural gentle irregularities. This should look like a professionally hand-illustrated medical textbook figure, understated and calm, with controlled 2D depth. Preserve all scientifically correct objects, compartments, labels, unknowns, comparisons and arrow semantics except the targeted corrections below. No new actors, mechanisms or data.
+
+No additional biological edits: preserve all current labels, arrows, cell identities, qualified unknowns and comparison semantics exactly.
+
+Keep all text legible and correctly spelled. Do not add a result box, numbers, new genes or pathways. Preserve the content and diagram except explicitly requested corrections. No glossy spheres, no highlights, no 3D render. Restrained anatomical linework and soft flat shading, as in the matte reference.

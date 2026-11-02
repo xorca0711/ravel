@@ -70,9 +70,9 @@ cross-paper correlation is proposed.
 
 ## Hypothesis schematic
 
-![A32: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
+![A32: reviewed matte qualitative illustration](schematics/A32_gpt_matte_v1.png)
 
-[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A32_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 A linked cytosolic callout retains the local ARG1 conversion of arginine to ornithine and urea without asserting metabolite transfer or a complete intercellular mechanism. The myeloid subtype remains unspecified. Fibroblast collagen production/deposition and absolute lineage-derived mature AT1 output are separate proposed effects; the compact AT2-to-AT1 reference does not establish the effect or matrix mediation.
 

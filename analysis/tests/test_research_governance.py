@@ -10,7 +10,8 @@ import unittest
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from lib.research_governance import (ResearchError, DOSSIER_SECTIONS, check_registry,
-    contract_errors, execute, receipt_errors, sha256, within, GUIDE_SECTIONS, question_guide_errors)
+    contract_errors, execute, receipt_errors, sha256, within, GUIDE_SECTIONS, question_guide_errors,
+    question_raster_errors)
 
 REPO=Path(__file__).resolve().parents[2]
 
@@ -229,6 +230,104 @@ class GovernanceTests(unittest.TestCase):
     def test_guide_registration_does_not_allow_other_scientific_assets(self):
         self.freeze(); self.write('RQ_Specified/A1/unregistered.csv','result,1\n')
         self.assertTrue(any('Unregistered scientific asset' in e for e in check_registry(self.root,base='HEAD')))
+
+    def add_raster_preview(self):
+        import struct
+        import zlib
+        def chunk(kind, data):
+            return struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind+data) & 0xffffffff)
+        self.png_chunk = chunk
+        png = (b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB',1,1,8,2,0,0,0)) +
+               chunk(b'IDAT', zlib.compress(b'\0\0\0\0')) + chunk(b'IEND', b''))
+        image = 'RQ_Specified/A1/schematics/preview_v1.png'
+        prompt = 'RQ_Specified/A1/schematics/preview_v1.prompt.txt'
+        (self.root/image).write_bytes(png)
+        self.write(prompt, 'Synthetic qualitative drawing prompt.\n')
+        self.write('preview_review.md','| A1 | Actual-image editorial review; not scientific acceptance. |\n')
+        for page in ('README.md','context.md'):
+            self.write(page,(self.root/page).read_text().replace('![Illustration]('+self.guide_svg+')\n','')+f'\n![Matte preview]({image})\n')
+        g = self.index['question_guides'][0]
+        p = dict(question='A1',kind='qualitative_raster_illustration',image=image,image_sha256=sha256(self.root/image),
+                 source_schematic=g['schematic'],source_schematic_sha256=g['schematic_sha256'],
+                 hypothesis_sha256=g['hypothesis_sha256'],source_revision='a'*40,prompt=prompt,
+                 prompt_sha256=hashlib.sha256((self.root/prompt).read_bytes().replace(b'\r\n',b'\n')).hexdigest(),review_record='preview_review.md')
+        self.index['question_raster_provenance']=[p]
+        g.update(schematic=image,schematic_sha256=p['image_sha256'])
+        return p
+
+    def test_primary_raster_replaces_display_but_requires_provenance(self):
+        p=self.add_raster_preview()
+        self.assertEqual(question_guide_errors(self.root,self.index),([],{p['image'],self.guide_svg}))
+        self.assertTrue((self.root/self.guide_svg).is_file())
+        self.assertNotIn(self.guide_svg,(self.root/'README.md').read_text())
+        self.assertTrue(question_raster_errors(self.root,self.index,set())[0])
+        self.index.pop('question_raster_provenance')
+        self.assertTrue(any('missing' in e for e in question_guide_errors(self.root,self.index)[0]))
+
+    def test_raster_preview_source_kind_and_schema_mismatches_rejected(self):
+        p=self.add_raster_preview()
+        for key,value in [('kind','measured_result'),('source_schematic','other.svg'),
+                          ('source_schematic_sha256','b'*64),('hypothesis_sha256','b'*64),
+                          ('source_revision','main'),('image_sha256','b'*64),('prompt_sha256','b'*64),
+                          ('unexpected','field'),('question','A99')]:
+            with self.subTest(key=key):
+                altered=copy.deepcopy(self.index); altered['question_raster_provenance'][0][key]=value
+                self.assertTrue(question_raster_errors(self.root,altered,{p['image']})[0])
+        self.index['question_raster_provenance']=[p,p]
+        self.assertTrue(any('duplicate' in e for e in question_raster_errors(self.root,self.index,{p['image']})[0]))
+
+    def test_raster_preview_requires_review_and_both_embeds(self):
+        p=self.add_raster_preview()
+        self.write('preview_review.md','No per-question review.')
+        self.assertTrue(any('review locator' in e for e in question_raster_errors(self.root,self.index,{p['image']})[0]))
+        self.write('preview_review.md','| A1 | Reviewed qualitative draft. |')
+        for page in ('README.md','context.md'):
+            original=(self.root/page).read_text()
+            self.write(page,original.replace('![Matte preview]','[Not embedded]'))
+            self.assertTrue(any('embed' in e for e in question_raster_errors(self.root,self.index,{p['image']})[0]))
+            self.write(page,original)
+
+    def test_animated_corrupt_and_disguised_raster_previews_rejected(self):
+        p=self.add_raster_preview(); original=(self.root/p['image']).read_bytes()
+        variants=[b'print("not an image")',original[:-2],original+b'trailing',
+                  original[:33]+self.png_chunk(b'acTL',b'\0'*8)+original[33:],
+                  original[:30]+b'bad'+original[33:]]
+        for data in variants:
+            with self.subTest(data_length=len(data)):
+                (self.root/p['image']).write_bytes(data); p['image_sha256']=sha256(self.root/p['image'])
+                self.index['question_guides'][0]['schematic_sha256']=p['image_sha256']
+                self.assertTrue(question_raster_errors(self.root,self.index,{p['image']})[0])
+
+    def test_raster_cannot_register_code_or_asset_outside_owner(self):
+        p=self.add_raster_preview()
+        for path in ('analysis/run.py','elsewhere.png','../escape.png'):
+            altered=copy.deepcopy(self.index); altered['question_raster_provenance'][0]['image']=path
+            self.assertTrue(question_raster_errors(self.root,altered,{p['image']})[0])
+
+    def test_retained_raster_source_must_remain_inert_svg(self):
+        p=self.add_raster_preview()
+        self.write(self.guide_svg,self.guide_xml.replace('</svg>','<script>active</script></svg>'))
+        p['source_schematic_sha256']=sha256(self.root/self.guide_svg)
+        self.assertTrue(any('non-illustration' in e for e in question_raster_errors(self.root,self.index,{p['image']})[0]))
+
+    def test_preview_does_not_allow_unregistered_scientific_assets(self):
+        self.add_raster_preview(); self.save_index(); self.freeze()
+        self.write('RQ_Specified/A1/undeclared.png','unregistered picture')
+        self.assertTrue(any('Unregistered scientific asset' in e for e in check_registry(self.root,base='HEAD')))
+
+    def test_prior_raster_and_prompt_cannot_be_rewritten_with_new_hash(self):
+        p=self.add_raster_preview(); self.save_index(); self.freeze()
+        self.write(p['prompt'],'Changed prompt.\n'); p['prompt_sha256']=sha256(self.root/p['prompt'])
+        (self.root/p['image']).write_bytes((self.root/p['image']).read_bytes()+b'changed')
+        p['image_sha256']=sha256(self.root/p['image']); self.save_index()
+        errors=check_registry(self.root,base='HEAD')
+        self.assertTrue(any('Prior raster preview changed' in e for e in errors))
+        self.assertTrue(any('Prior raster prompt changed' in e for e in errors))
+
+    def test_prompt_line_endings_are_portable(self):
+        p=self.add_raster_preview()
+        (self.root/p['prompt']).write_bytes((self.root/p['prompt']).read_bytes().replace(b'\r\n',b'\n').replace(b'\n',b'\r\n'))
+        self.assertEqual(question_raster_errors(self.root,self.index,{p['image']})[0],[])
 
 
 class CanonicalSequenceTests(unittest.TestCase):

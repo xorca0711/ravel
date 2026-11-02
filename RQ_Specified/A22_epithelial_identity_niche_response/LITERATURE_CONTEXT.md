@@ -41,9 +41,9 @@ Lower measured protein output within comparable recipient states at comparable v
 
 ## Hypothesis schematic
 
-![A22: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
+![A22: reviewed matte qualitative illustration](schematics/A22_gpt_matte_v1.png)
 
-[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A22_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 The focal hypothesis concerns extracellular fibroblast protein output beyond viable epithelial amount, within comparable recipient states and qualified independent preparations. The broad predictor failed and C3 is not a stable proxy. Secretion-rate claims require calibrated collection/recovery.
 

@@ -59,9 +59,9 @@ novelty certification or new numerical execution is recorded by this revision.
 
 [Primary studies, rationale and interpretation limits](LITERATURE_CONTEXT.md).
 
-![A30 hypothesis illustration: paired comparison and conditional extensions](schematics/hypothesis_cellular_v1.svg)
+![A30: reviewed matte qualitative illustration](schematics/A30_gpt_matte_v1.png)
 
-Cellular redraw, 2 November 2026; supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display. Original artwork and the working hypothesis remain preserved. Cell geometry and molecular glyphs are qualitative; the owning literature context supplies the full comparison and limits.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A30_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 *Qualitative proposal, not measured results. Sample symbols do not encode observed
 counts. Extensions require their own qualified designs.*

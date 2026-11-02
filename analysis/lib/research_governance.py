@@ -287,7 +287,7 @@ GUIDE_SECTIONS = ('Published starting point', 'Repository observation',
 def question_guide_errors(root: Path, index: dict) -> tuple[list[str], set[str]]:
     """Check documentation provenance, never biological truth or search coverage.
 
-    Only exact, inert, qualitative SVGs can enter this documentation category.
+    Exact qualitative SVGs or provenance-bound static PNGs can be illustrations.
     Tables, code and measured figures retain the existing analysis requirements.
     """
     from urllib.parse import unquote
@@ -321,8 +321,8 @@ def question_guide_errors(root: Path, index: dict) -> tuple[list[str], set[str]]
             svg = within(root, guide['schematic'])
             if context.suffix != '.md' or entry.suffix != '.md':
                 raise ResearchError('context and entrypoint must be Markdown')
-            if svg.suffix != '.svg' or 'schematics' not in PurePosixPath(guide['schematic']).parts:
-                raise ResearchError('illustration must be an SVG in a schematics directory')
+            if svg.suffix not in {'.svg', '.png'} or 'schematics' not in PurePosixPath(guide['schematic']).parts:
+                raise ResearchError('illustration must be an SVG or PNG in a schematics directory')
             if guide['schematic'] in assets:
                 raise ResearchError('illustrations cannot be shared between guide records')
             text = context.read_text(encoding='utf-8-sig')
@@ -345,26 +345,148 @@ def question_guide_errors(root: Path, index: dict) -> tuple[list[str], set[str]]
                 raise ResearchError('working hypothesis changed; reconcile context and illustration')
             if content_hash(svg) != guide['schematic_sha256']:
                 raise ResearchError('illustration hash mismatch; use a versioned correction')
-            xml = svg.read_text(encoding='utf-8-sig')
-            if '<!DOCTYPE' in xml.upper() or '<!ENTITY' in xml.upper():
-                raise ResearchError('SVG declarations/entities are not allowed')
-            tree = ET.fromstring(xml)
-            allowed = {'svg','title','desc','rect','line','ellipse','polygon','text','a'}
-            for node in tree.iter():
-                if node.tag.split('}')[-1] not in allowed:
-                    raise ResearchError('SVG contains a non-illustration element')
-                for key, value in node.attrib.items():
-                    name = key.split('}')[-1].lower()
-                    if name.startswith('on') or name == 'style' or 'url(' in value.lower():
-                        raise ResearchError('SVG active content is not allowed')
-                    if name == 'href' and not value.startswith(REPOSITORY_SOURCE_PREFIXES):
-                        raise ResearchError('SVG links must reference pinned repository sources')
-            if 'hypothesis illustration' not in ''.join(tree.itertext()).lower():
-                raise ResearchError('SVG must label its illustrative purpose')
+            if svg.suffix == '.png':
+                _static_png(svg)
+                assets.add(guide['schematic'])
+                continue
+            _inert_svg(svg)
             assets.add(guide['schematic'])
         except (ResearchError, KeyError, TypeError, ValueError, OSError, ET.ParseError) as exc:
             label = guide.get('question', '?') if isinstance(guide, dict) else '?'
             errors.append(f'Question guide {label}: {exc}')
+    raster_errors, rasters = question_raster_errors(root, index, assets)
+    errors.extend(raster_errors)
+    return errors, {a for a in assets if a.endswith('.svg')} | rasters
+
+
+def _inert_svg(path: Path) -> None:
+    """Apply the same existing inert-SVG rules to displayed and retained art."""
+    from xml.etree import ElementTree as ET
+    xml = path.read_text(encoding='utf-8-sig')
+    if '<!DOCTYPE' in xml.upper() or '<!ENTITY' in xml.upper():
+        raise ResearchError('SVG declarations/entities are not allowed')
+    try:
+        tree = ET.fromstring(xml)
+    except ET.ParseError as exc:
+        raise ResearchError(f'invalid SVG XML: {exc}') from exc
+    allowed = {'svg','title','desc','rect','line','ellipse','polygon','text','a'}
+    for node in tree.iter():
+        if node.tag.split('}')[-1] not in allowed:
+            raise ResearchError('SVG contains a non-illustration element')
+        for key, value in node.attrib.items():
+            name = key.split('}')[-1].lower()
+            if name.startswith('on') or name == 'style' or 'url(' in value.lower():
+                raise ResearchError('SVG active content is not allowed')
+            if name == 'href' and not value.startswith(REPOSITORY_SOURCE_PREFIXES):
+                raise ResearchError('SVG links must reference pinned repository sources')
+    if 'hypothesis illustration' not in ''.join(tree.itertext()).lower():
+        raise ResearchError('SVG must label its illustrative purpose')
+
+
+def _static_png(path: Path) -> None:
+    """Check static PNG framing/CRC, not the meaning or accuracy of its pixels."""
+    import struct
+    import zlib
+    data = path.read_bytes()
+    if not data.startswith(b'\x89PNG\r\n\x1a\n'):
+        raise ResearchError('preview must be a PNG')
+    pos, chunks = 8, []
+    while pos + 12 <= len(data):
+        size = struct.unpack('>I', data[pos:pos+4])[0]
+        kind = data[pos+4:pos+8]
+        end = pos + 12 + size
+        if end > len(data):
+            raise ResearchError('truncated PNG chunk')
+        payload = data[pos+8:pos+8+size]
+        crc = struct.unpack('>I', data[pos+8+size:end])[0]
+        if zlib.crc32(kind + payload) & 0xffffffff != crc:
+            raise ResearchError('PNG chunk checksum mismatch')
+        if kind in {b'acTL', b'fcTL', b'fdAT'}:
+            raise ResearchError('animated previews are not allowed')
+        if not chunks:
+            if kind != b'IHDR' or size != 13:
+                raise ResearchError('PNG must start with one IHDR')
+            width, height = struct.unpack('>II', payload[:8])
+            if not width or not height:
+                raise ResearchError('PNG dimensions must be positive')
+        elif kind == b'IHDR':
+            raise ResearchError('duplicate PNG IHDR')
+        chunks.append(kind)
+        pos = end
+        if kind == b'IEND':
+            if size or pos != len(data) or b'IDAT' not in chunks:
+                raise ResearchError('invalid PNG ending or missing image data')
+            return
+    raise ResearchError('PNG is missing a complete ending')
+
+
+def question_raster_errors(root: Path, index: dict, illustrations: set[str]) -> tuple[list[str], set[str]]:
+    """A primary qualitative PNG requires exact provenance and retained source art.
+
+    Exact provenance and format checks do not certify that a picture is truly
+    qualitative or biologically correct; that classification requires review.
+    """
+    from urllib.parse import unquote
+    errors, assets, seen = [], set(), set()
+    previews = index.get('question_raster_provenance', [])
+    if not isinstance(previews, list):
+        return ['Question raster previews: invalid list'], assets
+    fields = {'question', 'kind', 'image', 'image_sha256', 'source_schematic',
+              'source_schematic_sha256', 'hypothesis_sha256', 'source_revision',
+              'prompt', 'prompt_sha256', 'review_record'}
+    guides = {g['question']: g for g in index.get('question_guides', []) if isinstance(g, dict) and 'question' in g}
+    expected = {q for q,g in guides.items() if isinstance(g.get('schematic'),str) and g['schematic'].endswith('.png')}
+    ids = [p.get('question') for p in previews if isinstance(p,dict)]
+    if len(ids) != len(previews) or any(not isinstance(q,str) for q in ids) or set(ids) != expected:
+        errors.append('Question raster provenance: missing or extra primary PNG record')
+    for item in previews:
+        try:
+            if not isinstance(item, dict) or set(item) != fields:
+                raise ResearchError('invalid preview fields')
+            q = item['question']
+            guide = guides.get(q)
+            if guide is None or guide['schematic'] not in illustrations or q not in expected:
+                raise ResearchError('raster requires a valid registered PNG guide')
+            if q in seen or item['image'] in assets:
+                raise ResearchError('duplicate preview question or image')
+            seen.add(q)
+            if item['kind'] != 'qualitative_raster_illustration':
+                raise ResearchError('only qualitative raster illustrations are allowed')
+            if not re.fullmatch(r'[0-9a-f]{40}', item['source_revision']):
+                raise ResearchError('source revision must be a full Git revision')
+            if (item['image'] != guide['schematic'] or
+                item['image_sha256'] != guide['schematic_sha256'] or
+                item['source_revision'] != guide['source_revision'] or
+                item['hypothesis_sha256'] != guide['hypothesis_sha256']):
+                raise ResearchError('preview source/hypothesis binding mismatch')
+            image, prompt, review = (within(root, item[k]) for k in ('image', 'prompt', 'review_record'))
+            parent = within(root, guide['schematic']).parent
+            source = within(root, item['source_schematic'])
+            if source.suffix != '.svg' or source.parent != parent or content_hash(source) != item['source_schematic_sha256']:
+                raise ResearchError('retained source SVG path/hash mismatch')
+            _inert_svg(source)
+            if image.suffix != '.png' or image.parent != parent:
+                raise ResearchError('preview must be a PNG beside its registered SVG')
+            if prompt.suffix != '.txt' or prompt.parent != parent or review.suffix != '.md':
+                raise ResearchError('preview needs a local text prompt and Markdown review record')
+            if sha256(image) != item['image_sha256']:
+                raise ResearchError('preview image hash mismatch; use a versioned correction')
+            prompt_hash = hashlib.sha256(prompt.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
+            if prompt_hash != item['prompt_sha256']:
+                raise ResearchError('preview prompt hash mismatch')
+            _static_png(image)
+            if f'| {q} |' not in review.read_text(encoding='utf-8-sig'):
+                raise ResearchError('preview is missing its per-question review locator')
+            for key in ('entrypoint', 'context'):
+                page = within(root, guide[key])
+                targets = re.findall(r'!\[[^\]]*\]\(([^)]+)\)', page.read_text(encoding='utf-8-sig'))
+                if not any((page.parent / unquote(t)).resolve() == image for t in targets):
+                    raise ResearchError(f'{key} does not embed its exact raster preview')
+            assets.add(item['image'])
+            assets.add(item['source_schematic'])
+        except (ResearchError, KeyError, TypeError, ValueError, OSError) as exc:
+            label = item.get('question', '?') if isinstance(item, dict) else '?'
+            errors.append(f'Question raster preview {label}: {exc}')
     return errors, assets
 
 
@@ -446,6 +568,17 @@ def check_registry(root: Path, *, base: str | None = None) -> list[str]:
         except subprocess.CalledProcessError:
             previous=None
         if previous is not None:
+            for preview in previous.get('question_raster_provenance', []):
+                try:
+                    if sha256(within(root, preview['image'])) != preview['image_sha256']:
+                        errors.append(f'Prior raster preview changed: {preview["image"]}; use a new version')
+                    prompt = within(root, preview['prompt']).read_bytes().replace(b'\r\n', b'\n')
+                    if hashlib.sha256(prompt).hexdigest() != preview['prompt_sha256']:
+                        errors.append(f'Prior raster prompt changed: {preview["prompt"]}; use a new version')
+                    if content_hash(within(root, preview['source_schematic'])) != preview['source_schematic_sha256']:
+                        errors.append(f'Prior raster source SVG changed: {preview["source_schematic"]}; retain prior artwork')
+                except (ResearchError, KeyError, OSError) as exc:
+                    errors.append(f'Prior raster preview missing or invalid: {exc}')
             # Explanatory drawings are versioned too; preserve prior artwork.
             for guide in previous.get('question_guides', []):
                 try:

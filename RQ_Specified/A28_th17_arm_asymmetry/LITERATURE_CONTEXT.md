@@ -48,9 +48,9 @@ A per-cell joint protein readout — Foxp3, CTLA4, IL-17A, IL-17F with a divisio
 
 ## Hypothesis schematic
 
-![A28: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
+![A28: reviewed matte qualitative illustration](schematics/A28_gpt_matte_v1.png)
 
-[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A28_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 Both arm-specific patterns are predictions for joint same-cell protein measurements: nutrient context would lower Foxp3/CTLA4 while leaving IL-17A/F unchanged, whereas cytokine context would raise IL-17A/F while leaving Foxp3/CTLA4 unchanged. Unchanged requires equivalence evidence; non-significance is insufficient. Mouse is the unit, division and composition remain alternatives, and marker expression is not regulatory function or secretion.
 

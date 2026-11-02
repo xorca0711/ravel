@@ -3,6 +3,41 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Matte figures applied to PR branch — 3 November 2026
+
+All 33 reviewed matte PNGs replace the displayed SVGs on 66 owning question/context
+pages. The old SVGs remain hash-preserved source artwork, not parallel displays.
+The [RQ gallery](docs/research_dossiers/literature_context_2026-10-03/FIGURE_GALLERY.md)
+is linked from the illustrated question index; the root README is unchanged.
+See the [publication review](docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md).
+Exact PNGs and selected edit prompts are tracked beside their owning schematics.
+
+The registry/validator extension for primary PNGs is proposed for explicit review
+in PR #159 before merge. It binds exact source artwork, hypothesis, prompt and
+image hashes and preserves historical files; scientific-analysis requirements and
+claim grades are unchanged. Validation passed: repository checks; 167 unit tests
+(2 skipped); research gate against refreshed `origin/main` (`5eb710d`); compile
+and whitespace checks; 33 PNG/source/hypothesis checks; 66 sole-display checks;
+and 167 HTML references. Delivery uses existing PR #159 on
+`codex/rq-schematic-quality-20261102`; no merge is authorized or performed. No
+biological run was performed, and no scientific/data hold was removed.
+
+## GPT matte figure drafts complete — 3 November 2026
+
+All 33 RQ illustrations A0–A32 were generated and visually reviewed in the owner's
+requested matte style. The local searchable gallery is
+`.tools/rq_imagegen_20261102/GALLERY.html`; exact prompts, earlier versions, hashes
+and per-image review decisions are retained beside it. See the
+[production review](docs/audits/2026-11-02-rq-schematic-review/GPT_IMAGEGEN_REVIEW_2026-11-03.md)
+for biological corrections and limits. Local validation passed for 33 distinct
+decoded PNGs, 33 source bindings and 233 gallery references. Registered SVGs,
+hypotheses and the root README remain unchanged. These local drafts have not been
+committed or added to PR #159. No generation hold remains; existing data/scientific
+holds are unchanged. Validation passed: 14,023 repository checks, the research
+gate against refreshed `origin/main` (`5eb710d`), and whitespace checks. No
+biological analysis was rerun. Tracked publication of these raster drafts remains
+a separate integration step.
+
 ## Schematic publication — 2 November 2026
 
 [PR #159](https://github.com/xorca0711/ravel/pull/159) is open against `main`.

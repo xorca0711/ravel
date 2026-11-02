@@ -44,9 +44,9 @@ A stable patient-level increment against the frozen shared/stress comparison cou
 
 ## Hypothesis schematic
 
-![A11: cellular hypothesis illustration](schematics/hypothesis_cellular_v1.svg)
+![A11: reviewed matte qualitative illustration](schematics/A11_gpt_matte_v1.png)
 
-[Editable cellular SVG](schematics/hypothesis_cellular_v1.svg), source revision `862f3335bad7700ba89ce8d5bcc794c7c9094fbc`. This 2 November 2026 redraw supersedes the [prior illustration](schematics/hypothesis_v2.svg) for display; that SVG remains unchanged. The working hypothesis, source evidence and scientific disposition are unchanged.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A11_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 Patient-level information from the frozen residual is evaluated beyond the specified shared/stress comparison. The beyond-shared criterion remains unresolved, and a limited injury contrast does not prove specificity. This is measurement utility, not a cancer-specific state or causal lesion mechanism.
 

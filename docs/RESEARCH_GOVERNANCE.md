@@ -63,10 +63,10 @@ observations must be connected to the proposed discriminator. The
 the current bounded application; it is not portfolio-wide novelty clearance.
 
 `question_guides` in the registry binds every canonical question to a context
-note, illustrated entrypoint and exact versioned qualitative SVG. The gate checks
-coverage, required context sections, a primary URL, a local SVG embed, content
-hash, source revision and full working-hypothesis hash. Only these declared inert
-SVGs qualify as explanatory documentation; scripts, data tables and measured
+note, illustrated entrypoint and exact versioned qualitative illustration. The gate checks
+coverage, required context sections, a primary URL, a local registered-image embed,
+content hash, source revision and full working-hypothesis hash. Declared inert
+SVGs and provenance-bound static PNGs qualify as explanatory documentation; scripts, data tables and measured
 figures still require their existing contract/run provenance. Do not place a
 measured result in this category to bypass the analysis gate. Changes to this
 declaration and its validation require explicit review.
@@ -76,6 +76,21 @@ path/version. Mechanical checks can catch missing context and drift, but cannot
 establish source support, search completeness or scientific merit. No analysis
 contract or run receipt is invented for an editorial drawing. Branch protection
 and mandatory review settings remain external to the repository.
+
+**Raster-display proposal — PR #159, 3 November 2026; explicit policy review
+required before merge.** At the owner's request, a PNG can replace the displayed
+SVG in `question_guides`; the old SVG is retained, not displayed alongside it.
+Every PNG guide requires one exact `question_raster_provenance` record binding its
+question, retained source SVG/hash, hypothesis hash, source revision, PNG hash,
+selected edit-prompt hash and per-question editorial review record. Both owning
+pages embed the exact primary image. PNG framing/CRC and non-animation are checked; prompt hashes normalize
+CRLF to LF. Previously registered PNGs and prompts remain immutable and retained.
+Only the exact validated PNG and its hash-bound, inert source SVG join the documentation allowance; no directory,
+arbitrary raster, measured plot, code or table is exempted. Measured results still
+require their analysis provenance. Neither a declared kind nor successful format
+checks can determine biological accuracy or distinguish a disguised result plot:
+the classification and this policy extension require explicit review. The author
+agent's checks are not independent human approval.
 
 ## Work types and gates
 
