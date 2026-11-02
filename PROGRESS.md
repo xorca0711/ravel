@@ -42,8 +42,9 @@ The [audit](docs/audits/2026-11-02-navigation-hygiene/REPORT.md) records navigat
 coverage, preservation, checks and residual limitations. Navigation reconciliation,
 base-aware research gate, 18 claim bindings and 37 governance tests passed. The
 strict canonical-sequence validator was extended to A0–A32 with rejection cases
-retained. Full repository validation passed all 13,321 checks. The scoped branch is ready
-for PR review; remote CI is verified on its published head before handoff.
+retained. Full repository validation passed all 13,321 checks.
+[PR #158](https://github.com/xorca0711/ravel/pull/158) is open for review; its
+GitHub checks own current remote CI status. No main merge has been performed.
 No numerical rerun, existing PR rewrite or main merge is part of this work.
 
 ## Current research navigation

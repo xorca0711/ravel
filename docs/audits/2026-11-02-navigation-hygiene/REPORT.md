@@ -93,6 +93,8 @@ above resolves that mismatch. The first targeted-test attempt could not create
 sandbox temporary fixtures; the authorized unsandboxed retry passed. Neither
 failure was a biological result or a reason to weaken a scientific requirement.
 Full repository validation after the amendment passed all 13,321 checks.
-The scoped branch is prepared for a new PR (PR #157 is already merged); remote
-CI and the final PR locator are checked on delivery.
+[PR #158](https://github.com/xorca0711/ravel/pull/158) contains the scoped
+changes; PR #157 was already merged. GitHub checks are the authority for remote
+CI status on each published head. The coordinating chat checks the final head
+before handoff; no main merge is part of this delivery.
 No biological analyses were rerun.
