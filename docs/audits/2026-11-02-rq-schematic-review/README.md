@@ -134,7 +134,10 @@ Word counts describe typography only; they are not quality or evidence scores.
    new version, visual QA and any precise hold. Stop repeating identical access
    failures. Run link/registry/preservation checks for the final integration.
 
-## Connector qualification and execution plan
+## Original connector qualification and execution plan (historical)
+
+The owner later stopped the native fallback. The current editor route and
+blockers in **Execution status** supersede this original execution plan.
 
 The owner reports BioRender connected through ChatGPT Apps. This coordinating
 chat's refreshed tool inventory still exposes no BioRender method, and its
@@ -171,9 +174,19 @@ coordinator's later short/template attempt also failed. The owner rejected the
 rough native SVG pilots as the solution; they are preserved only as local
 backups. No registered illustration has changed.
 
-The active route is authenticated BioRender editor assembly from discovered
-templates, with the coordinator owning browser control and xorca sign-in.
-See the [implementation and failure record](IMPLEMENTATION.md),
+Authentication is complete. The coordinator observed the
+[Alveolar Epithelium template copy](https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7),
+and the selected connector returned the same figure as **Your file**, confirming
+the account match. The copy is uncustomized; A3 is not complete. Browser recovery
+hit a security-review timeout (not an unsafe judgment), then the permitted retry
+hit a CDP focus-emulation timeout. Do not bypass the browser gate.
+
+A later figure-context connector attempt lacked a thumbnail and failed before
+creating any job. Four prior jobs failed; this latest attempt is a separate
+pre-job failure. No further retries occur in this documentation update.
+Next: restore the approved browser route, open the existing figure to produce a
+thumbnail, and customize/review A3. The user may open it manually. See the
+[implementation and failure record](IMPLEMENTATION.md),
 [source-grounded pilot storyboards](BIORENDER_STORYBOARDS.md) and
-[per-question ledger](LEDGER.md). Redesign remains unfinished. No main merge,
-numerical execution or public BioRender export is claimed or authorized here.
+[per-question ledger](LEDGER.md). No native rollout, artwork integration,
+numerical execution, push or merge. Export and reuse remain unqualified.

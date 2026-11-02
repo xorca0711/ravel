@@ -19,9 +19,9 @@ purchase or credential transfer occurred.
 |---|---|
 | Template / figure search | Successful template search for `alveolar fibroblast receptor`; two template cards and thumbnail URLs returned. No standalone icon-search method. |
 | Asset preview | Thumbnail URLs exposed; no asset downloaded or copied into the original artwork. |
-| Draft creation | Three sessions accepted, then all preview generations failed (table below). |
-| Editable canvas | Tool describes editor-link availability after successful save; not demonstrated by these failed jobs. |
-| Save | Session retrieval with images would auto-save; never invoked because jobs failed. |
+| Draft generation | Four prior jobs failed: three in this technical chat (table below), one short/template-backed job in the coordinator. The later figure-context attempt failed before job creation. |
+| Editable canvas | Coordinator observed a signed-in Alveolar Epithelium template copy in the editor. Its customization is unfinished; the failed jobs produced no generated canvas. |
+| Save / account match | Existing template copy `6ae7e244fcbb6b190eaacce7` was returned by the selected connector as **Your file**, matching the browser figure. No generation auto-save is claimed. |
 | Export | No export method exposed. Current Help export page lists PNG/JPEG and premium PDF, explicitly no vector export. A marketing page mentions SVG; that inconsistency does not establish account capability. |
 | Public repository reuse | Account plan and per-figure terms unverified. No BioRender asset integrated. Personal noncommercial web use may be permitted with attribution; do not assume a premium license is universally required or sublicense assets under the code license. |
 
@@ -32,9 +32,10 @@ purchase or credential transfer occurred.
 | A28 | `afe0b3ea-9474-474f-9984-304db9e1192e` | `7b5ed1ee-bee9-4063-97c1-e3b37f2dde31` | Same terminal error |
 
 These are generation failures, not disconnection or content-moderation results.
-No completed preview, editor link or saved figure was returned. The unchanged
-failure is not retried. Remaining drawings use original native SVG; they are
-not BioRender output, traced assets or raster wrappers.
+Those generation jobs returned no completed preview, editor link or saved figure.
+Their unchanged failure is not retried. The initial native-SVG fallback produced
+three original pilots, then the owner stopped that route. They remain backups
+only, not BioRender output, traced assets or raster wrappers.
 
 Official technical/rights pages checked on 2 November 2026:
 
@@ -43,9 +44,9 @@ Official technical/rights pages checked on 2 November 2026:
 - [Academic terms](https://www.biorender.com/academic-license)
 - [Website uses](https://help.biorender.com/hc/en-gb/articles/26139471293597-How-to-use-BioRender-illustrations-in-a-website-non-profit-commercial-and-personal)
 
-## Editable art and source provenance
+## Historical native-pilot provenance
 
-Each new SVG is its editable master, authored from original geometric primitives
+Each of the three rejected pilot SVGs is an editable master, authored from original geometric primitives
 by Codex, with no imported assets. Only the existing inert element vocabulary
 is used. No validator, policy or infrastructure exemption is changed. Source
 biological premises, current results and limitations were read from each
@@ -62,11 +63,46 @@ Visual QA covers source and biological meaning as well as layout at native
 
 ## Current status
 
+Authentication and account matching are complete: the coordinator observed the
+[Alveolar Epithelium copy](https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7)
+in BioRender, and search through the human-selected **BioRender** connection
+returned the identical figure as **Your file**. This confirms browser/connector
+account correspondence. It is an **uncustomized template copy**, not a completed
+A3 schematic or a successful generation result.
+
+Browser observation then stalled. Recovery returned an automatic security-review
+timeout, explicitly not an unsafe judgment. Its permitted single retry ended
+with a CDP `Emulation.setFocusEmulationEnabled` timeout. The browser approval gate
+must not be bypassed. This documentation update performs no browser retry.
+
+A distinct connector attempt supplied `canvasContext.figureId`
+`6ae7e244fcbb6b190eaacce7`. It failed **before job creation** because no thumbnail
+was available. The tool states identical arguments will fail again and opening
+the figure in BioRender is needed to generate its thumbnail. Thus the record is
+four failed prior jobs plus one pre-job failure, not five failed jobs. No new
+job/session ID exists for the last attempt; no repeated generation is requested.
+
+**Exact next action:** restore the approved browser session through its normal
+recovery path, then open the existing figure to generate a thumbnail and
+customize/review it using the A3 storyboard. The user may open the figure
+manually. Verify actual thumbnail availability before reconsidering a
+figure-context connector call. Sign-in is already complete. Customization,
+visual/source review, export format and intended reuse remain unqualified;
+account correspondence does not satisfy these steps. Native redraw is stopped.
+No artwork registration/integration is part of this update.
+
+These later observations are the coordinator's report, recorded here without
+repeating its browser or connector operations. The earlier states below remain
+historical evidence.
+
+## Historical native-pilot disposition
+
 Owner steering after the initial pilot review: the native schematics are too
 rough; stop scaling or integrating this fallback and investigate actual BioRender
 use. Three original SVG pilots remain unregistered backups. No other RQ SVG was
-generated. The coordinator owns the next shorter-prompt/template attempt and
-connector/editor troubleshooting; this chat does not duplicate those jobs.
+generated. At that checkpoint the coordinator owned the next shorter-prompt/
+template attempt and editor troubleshooting; its later outcomes are recorded
+below and in the current status. This chat did not duplicate those jobs.
 Source-grounded storyboards remain useful for BioRender assembly.
 
 Pilot creation paths (never registered, not accepted):
@@ -99,12 +135,12 @@ no preview. This is the coordinator's observed result, not a duplicate job from
 this technical chat. No further unchanged generation attempt is requested.
 
 The coordinator opened the official template in the browser and observed that
-it is labelled fully editable. **Use as template** requires sign-in. A visible
-BioRender sign-in page was opened for the human's xorca account; authentication
-and browser actions remain with the coordinator to prevent concurrent UI edits.
-An editable-template affordance is demonstrated; an authenticated saved custom
-figure is not yet demonstrated. The next route is real BioRender editor assembly
-after authentication, using the [source-qualified pilot storyboards](BIORENDER_STORYBOARDS.md).
+it was labelled fully editable. Initially **Use as template** required sign-in,
+and a visible sign-in page was opened for the human's xorca account. That initial
+state is superseded: the user signed in, and the resulting template copy was
+confirmed by both editor and connector. Browser operations remain with the
+coordinator; customization is unfinished for the reasons in current status. The
+[source-qualified pilot storyboards](BIORENDER_STORYBOARDS.md) remain the assembly guide.
 
 ## Verification of the preserved repository
 
@@ -134,3 +170,11 @@ suite; claim manifest; Nb1, Nb4, A16, A23 and A22/A23 archived-evidence checks;
 full repository validator. No biological analysis was rerun. Main was fetched
 again before handoff and remains 96e6a8d033b11da2599e0fd5d91f87d16817f58c.
 Only this audit package and PROGRESS are committed; no push, PR rewrite or merge.
+
+## Status-only record update after `36dab95`
+
+Only PROGRESS and the audit handoff documents change. No browser access,
+generation retry, new figure/job, artwork registration, numerical execution,
+full-check rerun, push or merge was performed. Affected local Markdown links and
+Git whitespace checks passed before the scoped commit. Prior scientific/artwork
+preservation and full-suite results remain historical checks of unchanged assets.

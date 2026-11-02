@@ -10,30 +10,39 @@ review on the existing `codex/rq-schematic-quality-20261102` worktree, starting
 at `671c284`. Entry was clean; no upstream is configured. Main fetched at
 `96e6a8d033b11da2599e0fd5d91f87d16817f58c`; PR #158 remains unmerged.
 
-BioRender tools are now visible and template search succeeds. The human selected
-the **BioRender** connection as their xorca account. A31, A3 and A28 draft jobs
-all failed with `generation_error: All preview generations failed`. No preview,
-saved figure or editor URL was returned; failed jobs are not polled again.
-This supersedes the earlier capability snapshot, not its historical accuracy.
-Exact jobs, capability distinctions and sources are in the
+BioRender authentication is complete. The coordinator observed an
+[Alveolar Epithelium template copy](https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7)
+in the editor; the selected **BioRender** connector returned the same figure as
+**Your file**, confirming the browser/connector account match for the human's
+xorca connection. It is an uncustomized template copy, not a completed A3 figure.
+
+Four earlier generation jobs failed. A later figure-context attempt using
+`6ae7e244fcbb6b190eaacce7` failed before job creation because its thumbnail was
+unavailable; unchanged arguments will fail again. Browser observation stalled:
+recovery hit an automatic security-review timeout (not an unsafe judgment), and
+the permitted single retry hit a CDP `Emulation.setFocusEmulationEnabled`
+timeout. Do not bypass the approval gate or repeat browser/generation attempts
+under this documentation handoff. Exact history and blockers are in the
 [implementation record](docs/audits/2026-11-02-rq-schematic-review/IMPLEMENTATION.md).
 
-Owner steering: the native SVG pilots are too rough. Broad native redraw is
-stopped; the three unregistered pilots remain backups, with no registry change.
-The coordinator's shorter/template-backed BioRender generation also failed.
-The browser template is labelled fully editable, but Use as template requires
-sign-in; the coordinator owns the visible xorca authentication/editor route.
-This technical chat prepared [pilot assembly storyboards](docs/audits/2026-11-02-rq-schematic-review/BIORENDER_STORYBOARDS.md)
-and an [A0–A32 review/hold ledger](docs/audits/2026-11-02-rq-schematic-review/LEDGER.md),
-without duplicate jobs or browser control. All 33 registered artwork/hypothesis
-hashes and the registry are unchanged; the base-aware research gate passed.
-All ordinary repository checks passed, including the complete unittest suite,
-claim/archive checks and full validator. Refetched main is still 96e6a8d.
-Next: authenticate in BioRender and assemble/review real editable pilots, then
-qualify export and intended reuse before any gallery/registry integration.
-No biological analysis, push, PR rewrite or merge.
+The owner rejected the rough native SVG solution; three pilots remain local
+backups only. The [pilot storyboards](docs/audits/2026-11-02-rq-schematic-review/BIORENDER_STORYBOARDS.md)
+and [A0–A32 ledger](docs/audits/2026-11-02-rq-schematic-review/LEDGER.md) are ready
+for real BioRender assembly. No artwork, registry or hypothesis changed.
+The full checks recorded at `36dab95` remain valid; this status-only correction
+runs affected documentation link and whitespace checks only. Integration base
+last verified at `96e6a8d033b11da2599e0fd5d91f87d16817f58c`; no fetch is needed
+for this record correction.
 
-## Registered RQ schematic review — 2 November 2026
+Next action: restore the approved browser session through its normal recovery
+path, then open the existing figure in BioRender so a thumbnail can be generated
+and customize/review it against the A3 storyboard. The user can also open the
+same figure manually. Thumbnail availability and finished customization must be
+verified separately; neither is established by account matching. Export/reuse
+qualification remains before integration. No additional browser action, generation,
+artwork integration, numerical analysis, push, PR rewrite or merge in this update.
+
+## Registered RQ schematic review — historical checkpoint, 2 November 2026
 
 The owner requested review of all registered questions and their schematics,
 then a new technical chat for better biological illustrations using attached
@@ -45,14 +54,13 @@ No hypothesis, registered figure, source evidence or claim grade changed.
 The scoped branch is `codex/rq-schematic-quality-20261102`, starting from
 `9e7fe4d`, the clean PR #158 head. Refreshed main remains `96e6a8d`; #158 is
 open and its earlier CI passed. Preserve the pending PR and unrelated work.
-BioRender is not exposed in this coordinating chat; the new technical chat must
-check its own live tools and creation/export/usage permissions independently.
-No BioRender output is claimed. The handoff forbids automatic molecular or
+At that checkpoint BioRender was not exposed in the coordinating chat, so the
+technical chat was asked to check its live tools and permissions independently.
+That historical limitation is superseded by the implementation status above. The handoff forbids automatic molecular or
 functional claims for questions with unresolved features/endpoints.
 
-Next: launch the technical chat on this existing worktree, starting with A31,
-A3 and A28 as different visual design cases, then cover the remaining registered
-questions. Use new versions and preserve old drawings. Keep precise connector,
+The then-planned next step was to launch the technical chat on this worktree,
+starting with A31, A3 and A28, then cover the remaining registered questions. Use new versions and preserve old drawings. Keep precise connector,
 license or biological holds; no numerical rerun or main merge is requested.
 
 ## Navigation hygiene and proposed A32 — 2 November 2026

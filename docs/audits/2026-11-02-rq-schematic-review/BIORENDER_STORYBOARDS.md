@@ -2,8 +2,11 @@
 
 2 November 2026. These are source-grounded drawing specifications, not completed
 figures, new hypotheses or experiments. Use the full registered context for
-scientific meaning. The coordinator owns new generation/editor troubleshooting;
-this technical chat has not duplicated its next attempts.
+scientific meaning. Authentication and browser/connector account matching are
+complete. An [uncustomized template copy](https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7)
+exists for A3; the [current implementation record](IMPLEMENTATION.md#current-status)
+owns the browser recovery and missing-thumbnail blockers. No new generation or
+browser retry is authorized by this documentation update.
 
 ## A31 — fibroblast and candidate receptor
 
@@ -120,5 +123,6 @@ styles and whether the stated unknowns survived generation. A prompt is not
 evidence of its output. Inspect at full size and about 800 pixels, then verify
 editable access, export format and the specific intended reuse terms separately.
 Current registered SVG gates are unchanged; a raster wrap or traced BioRender
-export does not become an original admissible vector. No successful preview,
-editor figure or export is claimed by these storyboards.
+export does not become an original admissible vector. The confirmed editor
+figure is only an uncustomized template copy. These storyboards do not claim a
+completed A3 schematic, successful generation preview or qualified export.
