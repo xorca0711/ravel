@@ -3,6 +3,28 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Registered RQ schematic review — 2 November 2026
+
+The owner requested review of all registered questions and their schematics,
+then a new technical chat for better biological illustrations using attached
+connectors, preferably BioRender. The [33-question review and technical brief](docs/audits/2026-11-02-rq-schematic-review/README.md)
+records question-specific boundaries and redesign needs. Every registered SVG
+was rendered; all six contact sheets and selected full-size views were inspected.
+No hypothesis, registered figure, source evidence or claim grade changed.
+
+The scoped branch is `codex/rq-schematic-quality-20261102`, starting from
+`9e7fe4d`, the clean PR #158 head. Refreshed main remains `96e6a8d`; #158 is
+open and its earlier CI passed. Preserve the pending PR and unrelated work.
+BioRender is not exposed in this coordinating chat; the new technical chat must
+check its own live tools and creation/export/usage permissions independently.
+No BioRender output is claimed. The handoff forbids automatic molecular or
+functional claims for questions with unresolved features/endpoints.
+
+Next: launch the technical chat on this existing worktree, starting with A31,
+A3 and A28 as different visual design cases, then cover the remaining registered
+questions. Use new versions and preserve old drawings. Keep precise connector,
+license or biological holds; no numerical rerun or main merge is requested.
+
 ## Navigation hygiene and proposed A32 — 2 November 2026
 
 The owner requested repository-wide navigation hygiene, ungated notation for

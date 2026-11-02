@@ -3087,3 +3087,23 @@ acceptance of A32 remains unassessed. No biological analysis was rerun.
 
 See the [audit and validation record](docs/audits/2026-11-02-navigation-hygiene/REPORT.md)
 and [RQ assessment](docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md).
+
+## 2026-11-02 — portfolio schematic review and technical handoff
+
+The owner requested review of all registered RQs and current schematic quality,
+then a separate technical chat using attached illustration connectors. Codex
+reviewed all 33 dossier hypotheses and registered SVGs, rendered the originals
+with sharp/librsvg and saved a question-specific biological redesign brief.
+This is communication review, not a portfolio ranking or human acceptance.
+
+| Item | Responsible work | Review / authority | Disposition |
+|---|---|---|---|
+| Question/figure alignment and redesign plan | Coordinating Codex chat | Owner's explicit review and new-chat request | All 33 covered; existing hypotheses and figures preserved |
+| External connector qualification | Coordinating chat; technical chat must recheck its live tools | Owner named BioRender | No BioRender tool exposed to coordinator; no creation/export claimed |
+
+| Revised item | Reason | Disposition |
+|---|---|---|
+| One generic diagram template across disparate RQs | It hides tissue/compartment/time distinctions in prose | Question-specific biological layouts, starting with receptor, history and two-output examples |
+| Treating all prior drawings as text-only | Most already contain biological symbols | Preserve useful entity/alternative distinctions while reducing prose and strengthening anatomy |
+
+See the [quality review](docs/audits/2026-11-02-rq-schematic-review/README.md).
