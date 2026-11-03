@@ -1,0 +1,55 @@
+{
+  "genes": [
+    "Klf4",
+    "Klf5",
+    "Sftpc",
+    "Lamp3",
+    "Ager",
+    "Hopx",
+    "Scgb1a1",
+    "Scgb3a2",
+    "Krt5",
+    "Trp63",
+    "Krt17",
+    "Krt8"
+  ],
+  "states": [
+    "AT2 activated",
+    "Krt8+ ADI",
+    "AT1",
+    "Club",
+    "Basal"
+  ],
+  "budget": 500,
+  "cell_floor": 30,
+  "unit_floor": 3,
+  "day_min": 2,
+  "day_max": 21,
+  "exclude_sample_prefix": "NC",
+  "contrasts": [
+    [
+      "ADI_minus_activated_AT2",
+      "Krt8+ ADI",
+      "AT2 activated",
+      "primary"
+    ],
+    [
+      "AT1_minus_ADI",
+      "AT1",
+      "Krt8+ ADI",
+      "destination_common"
+    ],
+    [
+      "Club_minus_ADI",
+      "Club",
+      "Krt8+ ADI",
+      "destination_common"
+    ]
+  ],
+  "destination_common": [
+    "AT1",
+    "Club",
+    "Krt8+ ADI"
+  ],
+  "source_root": "raw_data/primary_screen_20261103"
+}
