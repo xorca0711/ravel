@@ -35,6 +35,14 @@ Both governed runs executed successfully; scientific acceptance remains unassess
 
 ## Changed paths and exact next action
 
+**Subsequent coordinator CI correction:** the proposed `.gitattributes` rule
+was withdrawn because older Weft contracts bind that entire file. Its exact
+historical bytes were restored. CI also exposed the ignored A25 compressed
+cell-unit output missing from Git; the original receipt-matching bytes were
+added explicitly. See [integration review](COORDINATOR_REVIEW.md#ci-packaging-correction).
+The technical-handoff checks above remain a historical record, not a claim
+that the first published branch passed CI. Numerical results were not rerun.
+
 Freeze `94f6efb` contains only the two scripts, exact JSON specifications/contracts,
 scientific specification notes and required registry contract additions. Results,
 receipt/evidence registration, owning README/context/dossier updates, source-read

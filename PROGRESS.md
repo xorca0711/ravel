@@ -19,6 +19,12 @@ trajectory/cut-or-fill work, article hygiene and portfolio methods panel.
 Next: PR review and the exact scientific inputs recorded in the six-job ledger.
 No merge, new scientific acceptance or automatic follow-up was performed.
 
+The first published CI found an older full-file `.gitattributes` hash dependency
+and one ignored A25 compressed output missing from Git. The original attribute
+bytes were restored and the receipt-matching output was added explicitly;
+[correction record](docs/research_reviews/2026-11-03-primary-candidate-literature/COORDINATOR_REVIEW.md#ci-packaging-correction).
+Numerical outputs and scientific validation rules were not changed.
+
 ## Literature-informed biological screening — 3 November 2026
 
 Two actual numerical comparisons completed under freeze `94f6efb`:

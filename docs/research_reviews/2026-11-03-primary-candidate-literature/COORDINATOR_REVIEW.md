@@ -55,11 +55,16 @@ Final editorial link checking covered 130 local references with no missing
 targets. Staged whitespace passed after removing one extra blank line from the
 unfrozen ledger; the four documented immutable exceptions were preserved.
 
-The exact-file Git attribute rule was reviewed separately. The DY1 specification's
+The proposed exact-file Git attribute rule was initially reviewed separately. The DY1 specification's
 working bytes and `94f6efb` Git blob both match contract SHA-256
 `6747f5a74e2d9ad61ab2efb87fcd068d1229392e78030ae1a6a693e06dd41a53`
-(47 LF, no CRLF). Disabling line-ending conversion for this one file preserves
-that identity on future checkouts; no scientific validator or threshold changed.
+(47 LF, no CRLF). However, that file-level review missed the fact that older
+Weft contracts bind the entire `.gitattributes` file. GitHub CI caught this
+dependency, so the added rule was withdrawn and the exact historical attribute
+bytes restored. No scientific validator or threshold changed. The specification
+must retain its recorded LF bytes; future Windows checkouts with automatic
+line-ending conversion remain a portability consideration, not a reason to
+change frozen contracts or hashes.
 The immutable TSV empty-field and log-whitespace exceptions remain documented
 in the technical ledger rather than being rewritten for cosmetic cleanliness.
 
@@ -81,3 +86,21 @@ Reviewed integration commit `a11267a` was pushed to
 verified `xorca0711` GitHub identity. The PR covers the earlier reviewed work
 and the new screening/literature package. No merge or scientific acceptance
 was performed; GitHub owns the current CI and review status.
+
+### CI packaging correction
+
+PR run `41592512729` exposed two problems missed by the local handoff checks:
+the attribute-file hash dependency above, and an ignored A25 receipt output
+omitted from the published branch. The existing
+`analysis/research/runs/cut_fill_a25_models_v1_20261103/cell_units.csv.gz`
+is 16,450 bytes and exactly matches receipt SHA-256
+`a2bcfd340fef0b5b2afd226511058aca82c3e5d893455c25f1e2561fdc1b6a90`.
+It is added explicitly without regeneration. A scan of outputs in every receipt
+new to this branch found no other omitted output. This correction changes
+packaging and the review record, not numerical evidence or validation rules.
+
+After correction, the local research gate passed. A separate Git-index audit
+verified all 154 checked output/source hashes against the newly added receipts
+and the two existing Weft plus two new screening contracts. This checks the
+bytes being published, including the compressed output, rather than relying
+only on files present in the working tree.
