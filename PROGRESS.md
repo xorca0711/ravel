@@ -31,7 +31,10 @@ Existing source/annotation/literature tools suffice; no plugin was installed.
 Integration checks passed: 15,650 repository checks, all seven receipts,
 required archive/claim checks, and 170 distinct tests with one host-specific
 symlink skip. [Validation details](docs/research_reviews/2026-11-03-full-priority-screening/VALIDATION.md).
-Next: commit/push the reviewed results and open the stacked follow-up PR.
+Reviewed results are committed at `9cab415` and published in
+[PR #163](https://github.com/xorca0711/ravel/pull/163), stacked on still-open
+PR #162. No merge was performed. Remote CI is pending at publication;
+no scientific analysis step remains queued, only the documented measurement holds.
 No frozen output or governance rule has been changed.
 
 ## Remaining public-reference screening reviewed — 3 November 2026

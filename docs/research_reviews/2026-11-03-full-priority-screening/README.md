@@ -8,7 +8,8 @@ This does not add other portfolio questions or authorize their retirement.
 
 The follow-up branch is `codex/full-priority-screening-20261103`, starting at
 `f54ad29`. The earlier [PR #162](https://github.com/xorca0711/ravel/pull/162)
-is preserved separately; fetched main is `445a0ca`. Existing results, exposed
+is preserved separately; the follow-up is [PR #163](https://github.com/xorca0711/ravel/pull/163),
+stacked on #162. Fetched main is `445a0ca`. Existing results, exposed
 outcomes and failed comparisons remain authoritative. Execution and independent
 review are recorded below; planning completion is not biological acceptance.
 
