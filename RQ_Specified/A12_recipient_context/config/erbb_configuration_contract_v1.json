@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.erbb_configuration_binding_v1",
+  "owner": "A12",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do both declarative ERBB configuration/source-manifest files exactly match the original pre-outcome numerical freeze and its recorded input hashes?",
+  "decision": "Resolve changed-asset registration for two already frozen declarative dependencies without modifying the original contract, scripts, inputs, results or validators.",
+  "strongest_rival": "Post-outcome configuration changes could be mistaken for prospectively frozen choices if provenance is not verified against the numerical commit.",
+  "discriminator": "Compare both current file bytes to their exact blobs in the numerical receipt commit and to the original contract input hashes; require both to match.",
+  "evidence_refs": [
+    "RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_SPEC_V1.md",
+    "RQ_Specified/A12_recipient_context/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A12_recipient_context/reports/LIN_REFERENCE_READ_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All numerical outcomes and completed figure are exposed. This is provenance repair only; both assets were already committed and hash-locked as inputs before the original numerical run.",
+  "biological_unit": "Two declarative configuration records, not biological samples.",
+  "unit_status": "not_applicable",
+  "nesting_and_overlap": "These records are the original inputs to the completed A12 single-preparation screen; no new data, independent sample or biological observation is created.",
+  "population_and_selection": "Exactly erbb_sorted_spec_v1.json and erbb_sorted_sources_v1.json, identified by the failed changed-asset check; no additional scientific assets.",
+  "contrast": "Current bytes versus original frozen Git blobs and original contract SHA256 values, for each of the two records.",
+  "endpoint": "Exact byte and SHA256 equality and original pre-outcome commit presence; no receptor expression endpoint is recalculated.",
+  "methods": "Read both records as declarative dependencies, original contract and executed receipt; git show the original commit blobs; fail on any byte/hash mismatch; write a small provenance receipt output.",
+  "missingness_and_exclusions": "No record substitution or rewriting; missing file, original commit, contract input declaration or mismatching hash stops execution.",
+  "multiplicity": "Two fixed provenance records; no statistical testing or selective reporting.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Deterministic provenance equality is checked exactly; no biological precision estimate applies.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "A provenance registration check does not add biological validation, recover cell labels or alter the single-preparation RNA interpretation.",
+  "stop_rule": "Fail on any missing input, hash mismatch, historical-byte change or nonexecuted numerical receipt. Preserve every frozen record; never weaken the validator.",
+  "inputs": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_contract_v1.json",
+      "sha256": "09651f79bf3eed8c723ff6295de0ecb4cc749a6d0036b81cfc3cbe5f6240a08f",
+      "study_id": "A12_ERBB_original_freeze_provenance",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receipt.json",
+      "sha256": "d84023a6f315324a53df6aba4386e50c143fbeaf778c0f506f09b290ac7132d9",
+      "study_id": "A12_ERBB_original_freeze_provenance",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/verify_erbb_configuration_v1.py",
+      "sha256": "e4c9df2dfb90f233ef31ef38120182365f334883f14dab14359165e1aecad779"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_spec_v1.json",
+      "sha256": "23555822ecebc07afb30112bb90bd2697b3d167369ea976f9271394503521378"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_sources_v1.json",
+      "sha256": "6876be6af59f539991071291bc3bf11e8c257993ceb0b768aad7cfec40dab29b"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A12_recipient_context/scripts/verify_erbb_configuration_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "configuration_binding.json"
+  ],
+  "amendment_of": "RQ_Specified/A12_recipient_context/config/erbb_sorted_contract_v1.json",
+  "amendment_reason": "Original spec and source manifest were hash-bound inputs but omitted from changed-asset dependency registration. This separate metadata contract binds and verifies those unchanged original declarative assets; no retrospective scientific choice."
+}
