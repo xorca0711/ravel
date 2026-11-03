@@ -1,0 +1,307 @@
+capture	age	day	state	gene	context	n_BLM	n_PBS	estimated	effect_log2CPM	lower95	upper95	welch_df	interval_status	status
+OldD14	Old	14	AM1	Arg1	source state	2	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM1	Spp1	source state	2	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM1	Trem2	source state	2	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM2	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM2	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM2	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM3	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM3	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM3	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Prolif. AM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Prolif. AM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Prolif. AM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	IM	Arg1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	IM	Spp1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	IM	Trem2	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	LCM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	LCM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	LCM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	cMonocytes	Arg1	source state	3	3	True	-0.6670494111163127	-2.1034075706230353	0.7693087483904101	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	cMonocytes	Spp1	source state	3	3	True	1.375427973557203	-3.72594260116004	6.476798548274446	2.045527180546006	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	cMonocytes	Trem2	source state	3	3	True	0.6347945653379217	-0.07244821787200795	1.3420373485478514	3.0424049099650317	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	ncMonocytes	Arg1	source state	3	3	True	-0.7822057757151865	-4.147765591821929	2.583354040391556	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	ncMonocytes	Spp1	source state	3	3	True	0.26742878897705324	-0.43827374848728995	0.9731313264413964	3.4585384818959217	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	ncMonocytes	Trem2	source state	3	3	True	0.4389033942144689	-1.1220125751239929	1.9998193635529307	3.4060795395989993	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	Neutrophil-like Monocytes	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Neutrophil-like Monocytes	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Neutrophil-like Monocytes	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Neutrophils	Arg1	source state	3	3	True	0.4735198097648993	-1.5638714923104902	2.5109111118402887	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	Neutrophils	Spp1	source state	3	3	True	1.5056532703936831	-0.3637095448557861	3.3750160856431526	2.9881436836336195	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	Neutrophils	Trem2	source state	3	3	True	0.6370789943231527	-4.279648412345009	5.553806400991314	3.6065500229262195	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	Fibroblasts	Col1a1	source state	1	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Fibroblasts	Col3a1	source state	1	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Fibroblasts	Fn1	source state	1	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	Fibroblasts	Cthrc1	source state	1	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT1	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT1	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT1	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT1	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT1	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT1	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT1	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT2	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT2	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT2	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT2	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT2	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT2	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AT2	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD14	Old	14	AM_all	Arg1	composition-sensitive secondary	3	3	True	3.1505601585317984	-6.212680024945662	12.513800342009258	2.063036817480862	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	AM_all	Spp1	composition-sensitive secondary	3	3	True	3.112428646349702	-2.8108240967718485	9.035681389471254	2.071368127118762	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD14	Old	14	AM_all	Trem2	composition-sensitive secondary	3	3	True	1.4672705568035314	-1.7346347645653148	4.669175878172378	2.292270039268746	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	AM1	Arg1	source state	1	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM1	Spp1	source state	1	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM1	Trem2	source state	1	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM2	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM2	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM2	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM3	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM3	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM3	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Prolif. AM	Arg1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Prolif. AM	Spp1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Prolif. AM	Trem2	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	IM	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	IM	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	IM	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	LCM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	LCM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	LCM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	cMonocytes	Arg1	source state	3	3	True	1.129115011142944	-1.3224103025443243	3.5806403248302123	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	cMonocytes	Spp1	source state	3	3	True	0.49587434847042555	-0.49217725669442336	1.4839259536352745	3.9729079816013195	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	cMonocytes	Trem2	source state	3	3	True	1.461013077625239	-1.8266109046478665	4.7486370598983445	2.279923745112054	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	ncMonocytes	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+OldD28	Old	28	ncMonocytes	Spp1	source state	3	3	True	1.8440700845613458	-6.379617537288216	10.067757706410909	2.210714222694987	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	ncMonocytes	Trem2	source state	3	3	True	0.22596309550448868	-6.238266239065324	6.690192430074302	3.925290763906478	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	Neutrophil-like Monocytes	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Neutrophil-like Monocytes	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Neutrophil-like Monocytes	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Neutrophils	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+OldD28	Old	28	Neutrophils	Spp1	source state	3	3	True	0.529445805112676	-2.081912852588779	3.140804462814131	2.2533873477166213	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	Neutrophils	Trem2	source state	3	3	True	-0.24515030415822092	-3.181136126110259	2.690835517793817	3.5896875278908356	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	Fibroblasts	Col1a1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Fibroblasts	Col3a1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Fibroblasts	Fn1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	Fibroblasts	Cthrc1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT1	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT1	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT1	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT1	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT1	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT1	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT1	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT2	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT2	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT2	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT2	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT2	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT2	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AT2	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD28	Old	28	AM_all	Arg1	composition-sensitive secondary	3	3	True	3.4110608119264154	-3.9788059174001664	10.800927541252998	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	AM_all	Spp1	composition-sensitive secondary	3	3	True	2.7407467774190195	-3.959176258939439	9.440669813777479	2.0063691196436158	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD28	Old	28	AM_all	Trem2	composition-sensitive secondary	3	3	True	1.1189705402032537	-2.212287164506345	4.450228244912852	2.1162493062543133	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	AM1	Arg1	source state	3	3	True	1.4633612248159933	-1.6908097788028273	4.617532228434814	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	AM1	Spp1	source state	3	3	True	0.9340193715031031	-0.7663204466170892	2.6343591896232956	2.680730523957313	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	AM1	Trem2	source state	3	3	True	1.1437139787691626	0.5156598003363747	1.7717681572019504	3.208314961857506	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	AM2	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AM2	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AM2	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AM3	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AM3	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AM3	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Prolif. AM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Prolif. AM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Prolif. AM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	IM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	IM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	IM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	LCM	Arg1	source state	0	1	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	LCM	Spp1	source state	0	1	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	LCM	Trem2	source state	0	1	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	cMonocytes	Arg1	source state	3	3	True	0.03773837622619672	-0.9388704837486012	1.0143472362009947	3.908874732389884	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	cMonocytes	Spp1	source state	3	3	True	0.23446418244059508	-2.2536451278239285	2.7225734927051186	3.995868788369629	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	cMonocytes	Trem2	source state	3	3	True	-0.09086244283497624	-0.5987730561752876	0.41704817050533516	3.5821558499428177	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	ncMonocytes	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+OldD60	Old	60	ncMonocytes	Spp1	source state	3	3	True	0.15045098750330244	-4.629086156754583	4.9299881317611876	3.186146580916616	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	ncMonocytes	Trem2	source state	3	3	True	-0.32441199656083963	-1.4072711299667318	0.7584471368450525	3.9680054140610905	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	Neutrophil-like Monocytes	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Neutrophil-like Monocytes	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Neutrophil-like Monocytes	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Neutrophils	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+OldD60	Old	60	Neutrophils	Spp1	source state	3	3	True	0.3510637147915774	-0.6829117863043621	1.3850392158875169	2.8897385320393347	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	Neutrophils	Trem2	source state	3	3	True	0.18835487075182922	-5.032011770919182	5.40872151242284	2.787980846688144	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	Fibroblasts	Col1a1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Fibroblasts	Col3a1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Fibroblasts	Fn1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	Fibroblasts	Cthrc1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT1	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT1	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT1	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT1	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT1	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT1	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT1	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT2	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT2	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT2	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT2	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT2	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT2	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AT2	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+OldD60	Old	60	AM_all	Arg1	composition-sensitive secondary	3	3	True	2.0922284368079844	-3.016657633198044	7.201114506814013	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	AM_all	Spp1	composition-sensitive secondary	3	3	True	1.8384531879947446	-0.8692337370644863	4.546140113053975	2.2113319362705117	pointwise Welch-t; small n	estimated; pointwise descriptive
+OldD60	Old	60	AM_all	Trem2	composition-sensitive secondary	3	3	True	0.6004530255769325	-0.5970065718360436	1.7979126229899085	3.262748630280847	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	AM1	Arg1	source state	3	3	True	2.7081303589668106	1.1501783145243678	4.2660824034092535	2.735492407972784	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	AM1	Spp1	source state	3	3	True	3.707206368149052	2.495024824896084	4.91938791140202	2.957370873638344	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	AM1	Trem2	source state	3	3	True	2.509196741795024	1.8680123168819636	3.150381166708084	3.2170498163099235	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	AM2	Arg1	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AM2	Spp1	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AM2	Trem2	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AM3	Arg1	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AM3	Spp1	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AM3	Trem2	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	Prolif. AM	Arg1	source state	1	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	Prolif. AM	Spp1	source state	1	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	Prolif. AM	Trem2	source state	1	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	IM	Arg1	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	IM	Spp1	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	IM	Trem2	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	LCM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	LCM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	LCM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	cMonocytes	Arg1	source state	3	3	True	1.074365841048862	-3.5482572776896006	5.6969889597873244	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	cMonocytes	Spp1	source state	3	3	True	2.160141364496315	-3.0463250800644364	7.366607809057067	2.1277320356341973	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	cMonocytes	Trem2	source state	3	3	True	0.6049830958880316	-0.10296125077901896	1.312927442555082	3.6308211724018644	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	ncMonocytes	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+YoungD14	Young	14	ncMonocytes	Spp1	source state	3	3	True	-0.049624534008716914	-2.04884624348803	1.9495971754705963	3.4055655275386476	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	ncMonocytes	Trem2	source state	3	3	True	0.9508864642738191	-1.443130108647559	3.344903037195197	3.106521919708159	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	Neutrophil-like Monocytes	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	Neutrophil-like Monocytes	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	Neutrophil-like Monocytes	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	Neutrophils	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+YoungD14	Young	14	Neutrophils	Spp1	source state	3	3	True	0.8677382071532467	-1.2538356477397627	2.989312062046256	2.359371520373524	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	Neutrophils	Trem2	source state	3	3	True	-0.32929017024673524	-4.994397539045584	4.335817198552114	3.621297164207356	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	Fibroblasts	Col1a1	source state	3	3	True	1.0312827485393665	0.35013114494293596	1.712434352135797	3.978705197578133	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	Fibroblasts	Col3a1	source state	3	3	True	0.9147575325160151	0.5374316743808404	1.29208339065119	3.795912460949889	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	Fibroblasts	Fn1	source state	3	3	True	1.1355630347997199	0.5699938019347074	1.7011322676647325	2.3218781882111945	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	Fibroblasts	Cthrc1	source state	3	3	True	1.987553305363797	-3.9841538957550697	7.959260506482664	2.4445029267881857	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	AT1	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT1	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT1	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT1	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT1	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT1	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT1	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT2	Krt8	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT2	Cldn4	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT2	Sftpc	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT2	Abca3	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT2	Ager	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT2	Hopx	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AT2	Aqp5	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD14	Young	14	AM_all	Arg1	composition-sensitive secondary	3	3	True	6.164870736442502	4.493893083157623	7.835848389727381	2.038535262379818	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	AM_all	Spp1	composition-sensitive secondary	3	3	True	5.396261362245625	4.537348109202522	6.255174615288727	3.2094233917347137	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD14	Young	14	AM_all	Trem2	composition-sensitive secondary	3	3	True	3.5938467227445168	3.2490812514192697	3.938612194069764	3.6995895662577105	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	AM1	Arg1	source state	3	3	True	0.9696934097018036	-3.2025605865717255	5.1419474059753325	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	AM1	Spp1	source state	3	3	True	2.1031714080069808	-2.517107559593822	6.723450375607784	2.0307502820943557	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	AM1	Trem2	source state	3	3	True	1.551618011775422	-0.9581462098329432	4.061382233383787	2.0825572813614097	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	AM2	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AM2	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AM2	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AM3	Arg1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AM3	Spp1	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AM3	Trem2	source state	2	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Prolif. AM	Arg1	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Prolif. AM	Spp1	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Prolif. AM	Trem2	source state	0	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	IM	Arg1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	IM	Spp1	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	IM	Trem2	source state	1	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	LCM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	LCM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	LCM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	cMonocytes	Arg1	source state	3	3	True	1.573516885788363	-5.196779838155808	8.343813609732534	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	cMonocytes	Spp1	source state	3	3	True	0.8611734784118754	-3.3858497091467337	5.1081966659704845	2.1259448017631115	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	cMonocytes	Trem2	source state	3	3	True	-2.0986802581231747	-9.610594944905783	5.413234428659434	2.090027438238501	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	ncMonocytes	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+YoungD28	Young	28	ncMonocytes	Spp1	source state	3	3	True	-1.0268322113374109	-9.937706158172348	7.884041735497528	2.0053312610985836	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	ncMonocytes	Trem2	source state	3	3	True	-0.02963618934707446	-5.709422803643548	5.650150424949398	3.9983213320876603	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	Neutrophil-like Monocytes	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Neutrophil-like Monocytes	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Neutrophil-like Monocytes	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Neutrophils	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+YoungD28	Young	28	Neutrophils	Spp1	source state	3	3	True	3.3495047222306225	-4.977397920225701	11.676407364686945	2.7158956912491057	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	Neutrophils	Trem2	source state	3	3	True	-0.9800743838860232	-5.1969941070707435	3.236845339298697	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	Fibroblasts	Col1a1	source state	1	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Fibroblasts	Col3a1	source state	1	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Fibroblasts	Fn1	source state	1	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	Fibroblasts	Cthrc1	source state	1	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT1	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT1	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT1	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT1	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT1	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT1	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT1	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT2	Krt8	source state	0	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT2	Cldn4	source state	0	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT2	Sftpc	source state	0	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT2	Abca3	source state	0	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT2	Ager	source state	0	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT2	Hopx	source state	0	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AT2	Aqp5	source state	0	3	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD28	Young	28	AM_all	Arg1	composition-sensitive secondary	3	3	True	3.0135059852455224	-4.110572686298061	10.137584656789105	2.2739045756766205	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	AM_all	Spp1	composition-sensitive secondary	3	3	True	3.350588186617104	-4.359890760117922	11.06106713335213	2.0228351822403856	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD28	Young	28	AM_all	Trem2	composition-sensitive secondary	3	3	True	2.4408499740867633	-2.342865590702992	7.224565538876519	2.00919355016503	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	AM1	Arg1	source state	3	3	True	1.6840587223385286	1.1460257021545215	2.2220917425225357	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	AM1	Spp1	source state	3	3	True	1.5356696076261471	0.5683049537625257	2.5030342614897685	3.9987571558668997	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	AM1	Trem2	source state	3	3	True	1.2799841660652405	0.7164133709038999	1.8435549612265811	3.8299283284776906	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	AM2	Arg1	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AM2	Spp1	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AM2	Trem2	source state	3	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AM3	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AM3	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AM3	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Prolif. AM	Arg1	source state	0	1	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Prolif. AM	Spp1	source state	0	1	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Prolif. AM	Trem2	source state	0	1	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	IM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	IM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	IM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	LCM	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	LCM	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	LCM	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	cMonocytes	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+YoungD60	Young	60	cMonocytes	Spp1	source state	3	3	True	1.6179734782481145	-2.541296284065113	5.777243240561342	3.3132565605191555	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	cMonocytes	Trem2	source state	3	3	True	0.0049659473223764294	-0.6195371151565238	0.6294690098012766	3.7883424850612424	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	ncMonocytes	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+YoungD60	Young	60	ncMonocytes	Spp1	source state	3	3	True	1.2258607713520633	-4.02238888150566	6.474110424209786	3.9963830172762678	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	ncMonocytes	Trem2	source state	3	3	True	-0.6442912713003008	-5.845326263974307	4.5567437213737065	3.699245629124972	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	Neutrophil-like Monocytes	Arg1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Neutrophil-like Monocytes	Spp1	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Neutrophil-like Monocytes	Trem2	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Neutrophils	Arg1	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+YoungD60	Young	60	Neutrophils	Spp1	source state	3	3	True	-1.0173992359325394	-3.9486958942825865	1.9138974224175076	3.2354582912766205	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	Neutrophils	Trem2	source state	3	3	True	0.0	NA	NA	NA	unestimated: zero observed variance	estimated; pointwise descriptive
+YoungD60	Young	60	Fibroblasts	Col1a1	source state	2	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Fibroblasts	Col3a1	source state	2	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Fibroblasts	Fn1	source state	2	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	Fibroblasts	Cthrc1	source state	2	2	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT1	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT1	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT1	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT1	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT1	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT1	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT1	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT2	Krt8	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT2	Cldn4	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT2	Sftpc	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT2	Abca3	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT2	Ager	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT2	Hopx	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AT2	Aqp5	source state	0	0	False	NA	NA	NA	NA	unestimated: incomplete support	unestimated: incomplete 3-versus-3 cell support
+YoungD60	Young	60	AM_all	Arg1	composition-sensitive secondary	3	3	True	2.459701672322167	1.584410039327738	3.3349933053165963	2.0	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	AM_all	Spp1	composition-sensitive secondary	3	3	True	2.5869269819811063	1.7627938908337661	3.4110600731284464	2.456960492281875	pointwise Welch-t; small n	estimated; pointwise descriptive
+YoungD60	Young	60	AM_all	Trem2	composition-sensitive secondary	3	3	True	1.735425168596521	1.0608637379984391	2.409986599194603	2.1063425619391842	pointwise Welch-t; small n	estimated; pointwise descriptive

@@ -1,0 +1,7 @@
+class Seurat
+cells 45311
+columns barcode,nUMIs,nGenes,percent_mito,percent_ribo,percent_dropouts,orig.ident,condition,mice,celltype,sample,nCount_RNA,nFeature_RNA,nCount_SCT,nFeature_SCT,integrated_snn_res.1,seurat_clusters,clusters,age,group,cellstate
+input_bytes 4853003922
+nodes 1189453
+stripped_arrays 10
+Expression source: original GEO RAW.tar only; stripped arrays are invalid.

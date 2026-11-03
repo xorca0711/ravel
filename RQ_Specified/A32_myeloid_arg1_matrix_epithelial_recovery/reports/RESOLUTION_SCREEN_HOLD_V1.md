@@ -2,6 +2,12 @@
 
 3 November 2026. No new temporal RNA result was computed.
 
+**Later follow-through, 3 November:** the private status was rechecked.
+Public GSE234197 is nominated for a separate resolution-context screen, with
+expression and hashing files listed but not yet inspected. It does not replace
+the Speth source or resolve ARG1 causality/mature function. See
+[recovery and alternative routes](../../../docs/research_reviews/2026-11-03-primary-candidate-literature/HOLD_RESOLUTION_OPTIONS.md).
+
 The Speth VOR names GSE328925 as public. The live primary GEO record instead
 marks the series private, scheduled for release on 1 May 2027; the expected
 FTP supplement listing returns 404. The journal-linked DOCX contains

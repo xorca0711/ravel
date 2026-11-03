@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.erbb_sorted_figure_v2",
+  "owner": "A12",
+  "contract": "RQ_Specified/A12_recipient_context/config/erbb_sorted_figure_contract_v2.json",
+  "contract_sha256": "2b2966650b684c5c32ccac5c4a9d7d7e21a6f97581b3aa3331e7e6f51c703036",
+  "git_commit": "1c39f57eb7e73a8b227ed3492a23fa1e0b70e318",
+  "started_at": "2026-11-03T09:52:02.152727+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A12_recipient_context/scripts/plot_erbb_sorted_v2.py",
+    "--output",
+    "analysis/research/runs/A12_erbb_sorted_figure_v2_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receptor_summary.csv",
+      "sha256": "691a63c827aa0bd30915450bb60a3110e3429f4e31a1ed3378c72dba0ed88527",
+      "study_id": "GSE150068_shared_source_v1_frozen_summary",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/plot_erbb_sorted_v2.py",
+      "sha256": "81f4056f91e10b3bca2fb6ca6395a2f1a68364027b64793e65e01b7eebc9eaa6"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_figure_v2_20261103/erbb_sorted_rna_v2.png",
+      "sha256": "7dae301350c6a74d9c1e3bbfadfdcb85d4af422fe799de5dc0f96a3d43fcd6a1"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T09:52:03.395706+00:00"
+}

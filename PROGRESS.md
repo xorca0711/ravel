@@ -3,6 +3,82 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Remaining public-reference screening reviewed — 3 November 2026
+
+The existing technical chat completed the available A12-adjacent ERBB RNA
+reference, reusing A19's public-source intake. Missing cell-state labels narrowed
+execution to one fresh HTII-280-sorted preparation; the broader state comparison
+remains unestimated. Operational QC retains 11,352 barcodes: ERBB4/ERBB2
+detection is 13.65%/13.46%, with both in 2.03%. This is a preparation-level RNA
+reference, not receptor function, state selection or an IL-1 result.
+[Results and corrected figure](RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_RESULTS_V1.md).
+
+The [coordinator review](docs/research_reviews/2026-11-03-primary-candidate-literature/REMAINING_SCREENING_REVIEW.md)
+records original-matrix R/Python agreement, 68,488 independent table checks and
+visual review. Freeze `5daa3de` owns the numerical work; `1c39f57` corrects only
+the figure legend; `89dd772` verifies unchanged configuration provenance after
+an initial asset-registration gate failure. All three receipts verify. Final
+checks passed: 15,317 repository checks, changed-asset research gate against
+refreshed main `445a0ca`, 170 unit tests (one skipped), compilation, claim and
+required archived-evidence checks. No biological rerun or validator change.
+
+This reviewed follow-through extends [PR #162](https://github.com/xorca0711/ravel/pull/162)
+on `codex/a32-resolution-screen-20261103`; the PR owns live CI status. A32's
+completed outputs remain frozen. Lin reproduction, A31 and Wg-P06 still need
+their [specific missing inputs](docs/research_reviews/2026-11-03-primary-candidate-literature/HOLD_RESOLUTION_OPTIONS.md).
+Next: PR review and those external source/measurement requirements. No merge,
+author contact or controlled-access application occurred; request drafts remain
+private and unsent.
+
+## A32 public resolution follow-through reviewed — 3 November 2026
+
+The approved GSE234197 screen recovered 45,311 cells and 36 mouse identities,
+then completed 88 of 306 planned RNA contrasts; 218 remain explicitly
+unestimated. Sparse epithelial/later fibroblast support required narrowing to
+myeloid comparisons and young D14 fibroblasts. Source-labelled AM2/AM3 in early
+injury carry the useful Arg1 RNA population lead; their PBS comparisons remain
+unsupported. Late AM1 Arg1 is only 2-5 UMIs per injured mouse, not a maintained
+programme. [Results and three measured figures](RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_CONTEXT_RESULTS_V1.md).
+
+The [coordinator review](docs/research_reviews/2026-11-03-primary-candidate-literature/A32_COORDINATOR_REVIEW.md)
+records independent metadata/arithmetic checks, native-R original-matrix
+verification and visual review. Original Speth access and A32 joint functional
+holds remain. Metadata/expression freezes are `7132cc0`/`f63050d`; no frozen
+results, governance, canonical hypothesis or scientific acceptance changed.
+
+The owner merged PR #161; this follow-up uses `codex/a32-resolution-screen-20261103`
+from main `445a0ca`, preserving the earlier hold-resolution notes. The existing
+technical chat `01a1a00c-8680-7fd2-a7ea-4bf804005da8` executed the work.
+Lin, Hamanaka and Speth request drafts are private local files and remain unsent.
+Validation passed: 15,249 repository checks, research gate against refreshed
+main `445a0ca`, 170 unit tests (one skipped), required archived-evidence checks
+and both receipt verifications. The reviewed deposit is committed as `3740df1`
+and published in [PR #162](https://github.com/xorca0711/ravel/pull/162); the PR
+owns live CI status. Next: PR review and the specific missing measurements or
+source access recorded in the hold-resolution note. No merge or author contact
+was performed.
+
+## Hold-resolution assessment — 3 November 2026
+
+Historical checkpoint; the reviewed follow-through above supersedes its
+unexecuted-candidate and integration status.
+
+The owner asked how to reopen the four remaining primary-screening holds.
+[Concrete routes](docs/research_reviews/2026-11-03-primary-candidate-literature/HOLD_RESOLUTION_OPTIONS.md)
+separate recovery of existing data from missing functional measurements.
+Lin HRA009633's public page now loads: sequencing is controlled access under
+HDAC001467. Speth GSE328925 remains private with 1 May 2027 scheduled release.
+Public GSE234197 is a new candidate for an A32 resolution-context screen;
+its expression and hashing files are listed, not yet inspected or analyzed.
+Next: inspect that candidate's compartments/mouse mapping, and prepare focused
+Lin/Wg-P06 data requests if the owner chooses outreach. A31 still needs a direct
+response measurement. No contact, access application or numerical run occurred.
+Main was refreshed and remains `115f3c5`; prior PR #161 CI passed at `85ccb8f`.
+This follow-up is a documentation/source-access update; frozen evidence is intact.
+Validation passed: 15,217 repository checks, the research gate against
+`origin/main` and all six local links in the new note. These follow-up notes
+remain uncommitted; PR #161's previously published analysis is unchanged.
+
 ## Reviewed screening published in PR #161 — 3 November 2026
 
 The [coordinator review](docs/research_reviews/2026-11-03-primary-candidate-literature/COORDINATOR_REVIEW.md)

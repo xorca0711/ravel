@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "source_directory": "raw_data/A12_ERBB_reference_v1",
+  "sample": "GSM4522986",
+  "sample_prefix": "GSM4522986_HT280pos",
+  "targets": {
+    "ERBB4": "ENSG00000178568",
+    "ERBB2": "ENSG00000141736"
+  },
+  "qc": {
+    "minimum_detected_features": 200,
+    "maximum_detected_features": 6000,
+    "maximum_mitochondrial_percent": 10,
+    "mitochondrial_definition": "gene symbol starts with MT-",
+    "fraction": "mitochondrial UMI / all feature UMI",
+    "description": "author-method-informed operational QC reconstruction; unique gene counts interpreted as detected features; inclusive boundaries"
+  },
+  "source_samples": [
+    {
+      "series": "GSE150068",
+      "sample": "GSM4522986",
+      "scope": "HTII-280-sorted fresh preparation"
+    },
+    {
+      "series": "GSE150068",
+      "sample": "GSM4522987",
+      "scope": "mixed organoid day 7"
+    },
+    {
+      "series": "GSE150068",
+      "sample": "GSM4522988",
+      "scope": "mixed organoid day 14"
+    },
+    {
+      "series": "GSE150068",
+      "sample": "GSM4522989",
+      "scope": "mixed organoid day 21"
+    },
+    {
+      "series": "GSE150068",
+      "sample": "GSM4522990",
+      "scope": "live CD45-negative IPF preparation"
+    },
+    {
+      "series": "GSE150068",
+      "sample": "GSM4522991",
+      "scope": "live CD45-negative IPF preparation"
+    },
+    {
+      "series": "GSE150247",
+      "sample": "GSM4544005",
+      "scope": "epithelial and mesenchymal cells mixed before sequencing"
+    },
+    {
+      "series": "GSE150247",
+      "sample": "GSM4544006",
+      "scope": "epithelial and mesenchymal cells mixed before sequencing"
+    },
+    {
+      "series": "GSE150247",
+      "sample": "GSM4544007",
+      "scope": "epithelial and mesenchymal cells mixed before sequencing"
+    }
+  ]
+}

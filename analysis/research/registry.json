@@ -200,7 +200,9 @@
         "RQ_Specified/A12_recipient_context/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_RESULTS_V1.md",
+        "RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_SPEC_V1.md"
       ]
     },
     {
@@ -496,7 +498,10 @@
         "docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md",
         "RQ_Specified/Yadav_followups_20261031/RQ3_MATRIX_AND_REPAIR.md",
         "RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md",
-        "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md"
+        "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md",
+        "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_EXECUTION_LEDGER_V1.md",
+        "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_SCREEN_SPEC_V1.md",
+        "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_CONTEXT_RESULTS_V1.md"
       ]
     }
   ],
@@ -1105,7 +1110,12 @@
     "analysis/cut_fill_20261103/a25_figure_v1.json",
     "analysis/cut_fill_20261103/a12_source_v1.json",
     "RQ_Specified/A5_developmental_programme_reuse/config/destination_features_contract_v1.json",
-    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/identity_targets_contract_v1.json"
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/identity_targets_contract_v1.json",
+    "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/config/resolution_metadata_contract_v1.json",
+    "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/config/resolution_context_contract_v1.json",
+    "RQ_Specified/A12_recipient_context/config/erbb_sorted_contract_v1.json",
+    "RQ_Specified/A12_recipient_context/config/erbb_sorted_figure_contract_v2.json",
+    "RQ_Specified/A12_recipient_context/config/erbb_configuration_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1245,7 +1255,12 @@
     "analysis/research/runs/cut_fill_a25_figure_v1_20261103/receipt.json",
     "analysis/research/runs/cut_fill_a12_source_v1_20261103/receipt.json",
     "analysis/research/runs/PS1_A5_destination_features_v1_20261103/receipt.json",
-    "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/receipt.json"
+    "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/receipt.json",
+    "analysis/research/runs/A32_resolution_metadata_v1_20261103/receipt.json",
+    "analysis/research/runs/A32_resolution_context_v1_20261103/receipt.json",
+    "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receipt.json",
+    "analysis/research/runs/A12_erbb_sorted_figure_v2_20261103/receipt.json",
+    "analysis/research/runs/A12_erbb_configuration_binding_v1_20261103/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

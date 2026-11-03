@@ -120,3 +120,46 @@ missing laboratory facts.
 ## Literature-informed screening disposition — 3 November 2026
 
 The Speth temporal screen is held because the cited GEO series is currently private despite the article data statement. Source pooling also prevents assumed mouse independence. No ARG1/matrix/epithelial temporal effect was computed. [Exact source evidence and reopening condition](reports/RESOLUTION_SCREEN_HOLD_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.
+
+
+## Public resolution-context branch — 3 November 2026
+
+The owner authorized a GSE234197 screen after the Speth access hold. This is a
+bounded shared-source RNA reanalysis, not the canonical ARG1 perturbation test.
+The [prospective specification](reports/RESOLUTION_SCREEN_SPEC_V1.md) and
+[execution ledger](reports/RESOLUTION_EXECUTION_LEDGER_V1.md) own its state.
+
+Today's targeted primary-source refresh used web search/open and public
+EuropePMC full-text XML. Queries included `"Evidence for a lipofibroblast-to-Cthrc1" "resolution" Truchi`,
+`"bleomycin" "resolution" "Arg1" "2025" macrophage epithelial`,
+`"Strunz" "2020" "Krt8" "Cldn4"`,
+`"Collagen-producing lung cell atlas" "Fn1"`, and
+`"Inflammatory Signals Induce AT2" "PMC"`. Coverage was 2024–2026 resolution
+work plus close 2020 precedents; the broader 2 November scan above is reused.
+This is targeted coverage, not a systematic review or novelty clearance.
+
+| Primary source/version and exact locator | Role and limit |
+|---|---|
+| [Truchi 2025](https://doi.org/10.1038/s41467-025-62431-4), PMC12328796 current XML; Fig. 2A–C, S2E/F, Methods HTO/integration/DE | Whole-lung age×stage design; similar macrophage-subset abundance dynamics across ages is contrary context. Published reads and source-code inspection completed; deposited support is a separate check. |
+| [Speth 2026 preprint v1](https://pmc.ncbi.nlm.nih.gov/articles/PMC13082050/), Fig. 3D/E and mesenchymal Results/Discussion | Arg1/Spp1/Trem2 as separate contextual myeloid features. Reported lack of substantial Cthrc1 in that model cautions against a universal fibrosis marker. Public full XML read; its data access/pooling hold is unchanged. |
+| [Tsukui 2020](https://doi.org/10.1038/s41467-020-15647-5), Results “Cthrc1+ cells express pathologic ECM genes”, Fig. 4A | Cthrc1, Col1a1, Col3a1 and Fn1 motivate four separate fibroblast RNA endpoints. Indexed primary Results and published-paper excerpt read; no protein deposition is inferred. |
+| [Choi 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7487779/), Figs. 1D, 2I/J, 4H/I, 7A–C/E | Sftpc/Abca3 AT2 context, Krt8/Cldn4 transition-associated RNA, Hopx early-AT1 and Aqp5 later-AT1 reference. Current full XML/captions read. The paper itself separates early identity from later differentiation; these RNA features do not measure mature function here. |
+| [Strunz 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7366678/), Fig. 7A–F and Fig. 8A–E | Sftpc and Ager lineage/identity reference and Krt8 transition context. Current XML Results/captions read; this cross-sectional screen has no lineage tracing. |
+| [Lingampally et al., ERJ 2025 (online 2024)](https://publications.ersnet.org/content/erj/65/2/2300482), indexed Results Fig. 2A–C | Closest recent Cthrc1 resolution precedent. Publisher full-page access returned 403; only indexed primary excerpts read. No claim of complete reading, independent source replication or novel reversible-switch discovery. |
+
+The chain is published population/marker results → the repository's unresolved
+joint-outcome question → a time-matched descriptive RNA screen → possible
+concordant, divergent or unsupported stages. This is context nomination, not
+new evidence for the published metabolic mechanism. Shared severity, capture,
+selection and within-label substate composition remain alternatives. Source
+histology/hydroxyproline are not linked to sequenced mice without identity proof.
+
+
+The completed [public-source result](reports/RESOLUTION_CONTEXT_RESULTS_V1.md)
+retains early BLM AM2/AM3 as source-population leads based on observed Arg1 RNA,
+with no supported within-state PBS comparison. Young-D14 fibroblast matrix RNA
+co-occurs with myeloid Arg1 observations; later matrix and all epithelial
+condition contrasts remain unestimated. The late AM1 signal is only 2–5 UMIs
+per BLM mouse, not evidence of a maintained programme. The intended joint
+resolution discriminator therefore remains unanswered; no mechanism or claim
+grade was promoted.

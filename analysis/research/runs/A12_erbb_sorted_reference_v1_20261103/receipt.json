@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.erbb_sorted_reference_v1",
+  "owner": "A12",
+  "contract": "RQ_Specified/A12_recipient_context/config/erbb_sorted_contract_v1.json",
+  "contract_sha256": "09651f79bf3eed8c723ff6295de0ecb4cc749a6d0036b81cfc3cbe5f6240a08f",
+  "git_commit": "5daa3de6310b798ffe423051ad448d071901539e",
+  "started_at": "2026-11-03T09:47:42.694257+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A12_recipient_context/scripts/screen_erbb_sorted_v1.py",
+    "--output",
+    "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSE150068.soft",
+      "sha256": "7d88ca57953ce3e6c372bb88517b8ee0953c9f5c79d69c373ebae2b2b6fe8259",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSE150247.soft",
+      "sha256": "2aa7813fca5a951a2673ca8f708031f7a875637d9a8e81198be579019adba1f5",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522986.soft",
+      "sha256": "136470ebcf2c391044d185a2123423fbeb4e74f2c4fceeedd7c8cb259a7197f8",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522987.soft",
+      "sha256": "f388ec1dba4b39212954c53b04564da88c5458a5c7bcbdba5d1aad5486dc4a14",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522988.soft",
+      "sha256": "9cfea2a0d209460d02083b99587264801f7b6cbc7242735de6e9cebba41c10f0",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522989.soft",
+      "sha256": "3d2b10db289ac62d04ece5f52acf8540a1468b0f8150d6938af74738145fb712",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522990.soft",
+      "sha256": "a2c5c0d8dafbac5bfe09c765f36f6504ced7b8a44ce817a841590be6fde178ff",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522991.soft",
+      "sha256": "64a9582bc725919b5fcd1c16daf0d772877004bb8b6a66b149585c72090dd0b9",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4544005.soft",
+      "sha256": "38d4e7f48ceec5df346e3fc3f1189fd2e405a608084f29c448c241cf8da1b3c2",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4544006.soft",
+      "sha256": "1d18a3cb9583fd094008925ff65cae3deee3b1f29515fe694cf59f296808d3d3",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4544007.soft",
+      "sha256": "b4f76b46c9ad6916d10725dc989bb59b85b8ba7f1fe94bca0638a47893e0dcf9",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSE150068_filelist.txt",
+      "sha256": "e3111eb166197c65bbe386ce0c9da8afee7258c49acfa8b60447ff9a4669e83b",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSE150247_filelist.txt",
+      "sha256": "f697bb3144a358fc874d097436d2d84a5523ca0218fc8100eaa04c6a4e72fbb8",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522986_HT280pos_barcodes.tsv.gz",
+      "sha256": "bf247e49b45163ebf0a64ae640281e0def7a4702d15ee505009d352c55941919",
+      "study_id": "GSE150068",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522986_HT280pos_genes.tsv.gz",
+      "sha256": "824d7c2140c1e8a39688f18bd64ef664cfb51b86c46f211ffc9463536992bce3",
+      "study_id": "GSE150068",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522986_HT280pos_matrix.mtx.gz",
+      "sha256": "907c69cf14a9b37d6c0856d6c40fb616c5af96f30e56e36bc5d6cc971d40803a",
+      "study_id": "GSE150068",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "unexposed"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_spec_v1.json",
+      "sha256": "23555822ecebc07afb30112bb90bd2697b3d167369ea976f9271394503521378",
+      "study_id": "A12_ERBB_specification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_sources_v1.json",
+      "sha256": "6876be6af59f539991071291bc3bf11e8c257993ceb0b768aad7cfec40dab29b",
+      "study_id": "A12_ERBB_specification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/screen_erbb_sorted_v1.py",
+      "sha256": "519259c464c2c6d8cdb06f4ea7310cb1876ebfcbe1c77d63c94b4f93e8b21b2c"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/verify_erbb_sorted_v1.R",
+      "sha256": "3db2225fc136d82f3ab7963d4511e3346b67793599e4e266c37a12c4373b45ea"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/source_inventory.csv",
+      "sha256": "247fb34afd0c00871065f0b5382ed3ec00bc19cdd14eacaa9d5c5bcf85744898"
+    },
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/cell_measurements.csv",
+      "sha256": "d4d0db3988cfdbc2723f70a122daaa2ff950f9f2008d74573a35a36dcc310864"
+    },
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receptor_summary.csv",
+      "sha256": "691a63c827aa0bd30915450bb60a3110e3429f4e31a1ed3378c72dba0ed88527"
+    },
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/qc_summary.json",
+      "sha256": "bbf5a1f262f82537bac629bc8d7e1d8bfb513c29e07a166d1f8099994b00bfe0"
+    },
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/independent_verification.json",
+      "sha256": "86225d81082445e49133544daa27a753b335b4d772f7bef481152aee018ce5dc"
+    },
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/erbb_sorted_rna.png",
+      "sha256": "52ee211a33d8985b059c6d4ecc6e34a12b0ef91d1790a431b854e25a4ff41ded"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T09:49:53.207249+00:00"
+}

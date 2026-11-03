@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.erbb_sorted_reference_v1",
+  "owner": "A12",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does the source-defined fresh HTII-280-sorted GSM4522986 preparation provide measurable ERBB4 and ERBB2 RNA context?",
+  "decision": "Establish or limit a measured RNA reference for this single sorted preparation; leave the nine-library epithelial-state comparison unestimated and the canonical A12 pilot/replication hold unchanged.",
+  "strongest_rival": "Sort heterogeneity, ambient RNA, dropout and depth/QC-dependent cell recovery can create sparse receptor signals without functional receptor expression in a defined epithelial state.",
+  "discriminator": "Report exact RNA molecules, detection and co-detection with full RNA denominators in deposited and fixed operational-QC subsets; source identity is independent of receptor counts. These observations do not discriminate receptor activity.",
+  "evidence_refs": [
+    "RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_SPEC_V1.md",
+    "RQ_Specified/A12_recipient_context/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A12_recipient_context/reports/LIN_REFERENCE_READ_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published Lin/Kathiriya findings, prior A12/A19 evidence and the 2026 heterogeneity source are exposed; exact source metadata/feature identifiers were inspected. No new target expression counts inspected before freeze. Choices and nine-library hold fixed before calculation.",
+  "biological_unit": "One source-defined deposited library/preparation GSM4522986; original donor identity unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Barcodes are nested within one preparation; deposited and operational-QC subsets overlap. Shared source with Kathiriya/Lin/Gomez is not independent replication. No donor pairing or biological replicate count is inferred.",
+  "population_and_selection": "Only source-labelled fresh HTII-280-sorted GSM4522986. All deposited barcodes and one fixed operational-QC subset: positive depth, 200-6000 detected features inclusive and <=10 percent mitochondrial UMI. No state assignment.",
+  "contrast": "Descriptive within-preparation target RNA context and nested-subset QC comparison; no between-state, donor, condition, time or perturbation effect.",
+  "endpoint": "Exactly ERBB4 and ERBB2 RNA UMI totals; per-gene full-feature CPM, positive-barcode count/fraction, and both-target co-detection count/fraction. Full recovered RNA denominator is all source features.",
+  "methods": "Stream original integer Matrix Market counts and inspect exact gene/barcode identifiers. Operational QC uses MT- symbols and UMI-weighted fractions. Independent R Matrix readMM/CsparseMatrix checks all barcode values and QC; recompute four summary rows; one measured figure.",
+  "missingness_and_exclusions": "Retain every deposited barcode, QC exclusion reasons, zero-depth and unknown-state/donor status. Undefined ratios are NA, never zero. Missing/ambiguous targets or parity failure stops. Eight mixed libraries are not analyzed; state comparisons for all nine remain unestimated.",
+  "multiplicity": "Two prespecified targets, two nested subsets, all four rows retained; no inferential tests or selected cutoff sensitivities.",
+  "precision_status": "not_applicable",
+  "precision_basis": "One preparation supplies exact descriptive recovered counts, not population precision. No independent donor replication, cell-based confidence interval, power calculation or effect margin.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Source-defined sorted origin is not certified pure AT2 state. RNA detection is not protein, receptor activity/assembly, NRG1 response, IL-1 specificity, lineage or repair. Sparse or zero counts are not biological absence.",
+  "stop_rule": "Stop for hash/dimension/identifier/count/parity failure or unavailable required runtime; retain original frozen evidence. No target-driven threshold, new state annotation, cohort expansion or claim promotion.",
+  "inputs": [
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSE150068.soft",
+      "sha256": "7d88ca57953ce3e6c372bb88517b8ee0953c9f5c79d69c373ebae2b2b6fe8259",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSE150247.soft",
+      "sha256": "2aa7813fca5a951a2673ca8f708031f7a875637d9a8e81198be579019adba1f5",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522986.soft",
+      "sha256": "136470ebcf2c391044d185a2123423fbeb4e74f2c4fceeedd7c8cb259a7197f8",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522987.soft",
+      "sha256": "f388ec1dba4b39212954c53b04564da88c5458a5c7bcbdba5d1aad5486dc4a14",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522988.soft",
+      "sha256": "9cfea2a0d209460d02083b99587264801f7b6cbc7242735de6e9cebba41c10f0",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522989.soft",
+      "sha256": "3d2b10db289ac62d04ece5f52acf8540a1468b0f8150d6938af74738145fb712",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522990.soft",
+      "sha256": "a2c5c0d8dafbac5bfe09c765f36f6504ced7b8a44ce817a841590be6fde178ff",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522991.soft",
+      "sha256": "64a9582bc725919b5fcd1c16daf0d772877004bb8b6a66b149585c72090dd0b9",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4544005.soft",
+      "sha256": "38d4e7f48ceec5df346e3fc3f1189fd2e405a608084f29c448c241cf8da1b3c2",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4544006.soft",
+      "sha256": "1d18a3cb9583fd094008925ff65cae3deee3b1f29515fe694cf59f296808d3d3",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4544007.soft",
+      "sha256": "b4f76b46c9ad6916d10725dc989bb59b85b8ba7f1fe94bca0638a47893e0dcf9",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSE150068_filelist.txt",
+      "sha256": "e3111eb166197c65bbe386ce0c9da8afee7258c49acfa8b60447ff9a4669e83b",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSE150247_filelist.txt",
+      "sha256": "f697bb3144a358fc874d097436d2d84a5523ca0218fc8100eaa04c6a4e72fbb8",
+      "study_id": "GSE150068_GSE150247_source_recovery",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522986_HT280pos_barcodes.tsv.gz",
+      "sha256": "bf247e49b45163ebf0a64ae640281e0def7a4702d15ee505009d352c55941919",
+      "study_id": "GSE150068",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522986_HT280pos_genes.tsv.gz",
+      "sha256": "824d7c2140c1e8a39688f18bd64ef664cfb51b86c46f211ffc9463536992bce3",
+      "study_id": "GSE150068",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/A12_ERBB_reference_v1/GSM4522986_HT280pos_matrix.mtx.gz",
+      "sha256": "907c69cf14a9b37d6c0856d6c40fb616c5af96f30e56e36bc5d6cc971d40803a",
+      "study_id": "GSE150068",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "unexposed"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_spec_v1.json",
+      "sha256": "23555822ecebc07afb30112bb90bd2697b3d167369ea976f9271394503521378",
+      "study_id": "A12_ERBB_specification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_sources_v1.json",
+      "sha256": "6876be6af59f539991071291bc3bf11e8c257993ceb0b768aad7cfec40dab29b",
+      "study_id": "A12_ERBB_specification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/screen_erbb_sorted_v1.py",
+      "sha256": "519259c464c2c6d8cdb06f4ea7310cb1876ebfcbe1c77d63c94b4f93e8b21b2c"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/verify_erbb_sorted_v1.R",
+      "sha256": "3db2225fc136d82f3ab7963d4511e3346b67793599e4e266c37a12c4373b45ea"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A12_recipient_context/scripts/screen_erbb_sorted_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_inventory.csv",
+    "cell_measurements.csv",
+    "receptor_summary.csv",
+    "qc_summary.json",
+    "independent_verification.json",
+    "erbb_sorted_rna.png"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial separately scoped A12-adjacent descriptive run; metadata-driven narrowing reviewed before numerical exposure, with original A12 contracts and all prior results preserved."
+}

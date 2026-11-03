@@ -109,3 +109,9 @@ A new bounded independent-source search is executed. No cohort clears the unchan
 ## Literature-informed screening disposition — 3 November 2026
 
 The Lin reference sharpens the published receptor/identity distinction, but source-value reproduction is held on unrecovered replicate values and preparation identities. The closed pilot and independent replication hold are unchanged. [Exact source evidence and reopening condition](reports/LIN_REFERENCE_READ_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.
+
+## Completed adjacent ERBB RNA reference — 3 November 2026
+
+The source-defined fresh HTII-280-sorted preparation contains ERBB4 and ERBB2 RNA: 13.65% and 13.46% detected barcodes after fixed operational QC, with 2.03% co-detection. These are 11,352 barcodes from one library, with unknown donor/state identities. They establish a measured RNA reference, not receptor activity or a certified AT2 state. The broader nine-library epithelial-state comparison remains unestimated; the closed IL-1 pilot and replication hold are unchanged.
+
+[Complete result, corrected measured figure and limitations](reports/ERBB_SORTED_RESULTS_V1.md) · [Prospective source decision and literature/access record](reports/ERBB_SORTED_SPEC_V1.md).

@@ -1,0 +1,78 @@
+{
+  "sample": "GSM4522986",
+  "deposited_barcodes": 11407,
+  "full_feature_count": 32738,
+  "matrix_nonzero_coordinates": 24324527,
+  "retained_barcodes": 11352,
+  "excluded_barcodes": 55,
+  "zero_depth_barcodes": 0,
+  "below_200_features": 0,
+  "above_6000_features": 0,
+  "above_10pct_mitochondrial": 55,
+  "exclusion_counts_overlap": true,
+  "cell_state_unknown": 11407,
+  "donor_identity": "unresolved",
+  "mitochondrial_features": [
+    {
+      "ensembl": "ENSG00000198888",
+      "symbol": "MT-ND1"
+    },
+    {
+      "ensembl": "ENSG00000198763",
+      "symbol": "MT-ND2"
+    },
+    {
+      "ensembl": "ENSG00000198804",
+      "symbol": "MT-CO1"
+    },
+    {
+      "ensembl": "ENSG00000198712",
+      "symbol": "MT-CO2"
+    },
+    {
+      "ensembl": "ENSG00000228253",
+      "symbol": "MT-ATP8"
+    },
+    {
+      "ensembl": "ENSG00000198899",
+      "symbol": "MT-ATP6"
+    },
+    {
+      "ensembl": "ENSG00000198938",
+      "symbol": "MT-CO3"
+    },
+    {
+      "ensembl": "ENSG00000198840",
+      "symbol": "MT-ND3"
+    },
+    {
+      "ensembl": "ENSG00000212907",
+      "symbol": "MT-ND4L"
+    },
+    {
+      "ensembl": "ENSG00000198886",
+      "symbol": "MT-ND4"
+    },
+    {
+      "ensembl": "ENSG00000198786",
+      "symbol": "MT-ND5"
+    },
+    {
+      "ensembl": "ENSG00000198695",
+      "symbol": "MT-ND6"
+    },
+    {
+      "ensembl": "ENSG00000198727",
+      "symbol": "MT-CYB"
+    }
+  ],
+  "qc_definition": {
+    "minimum_detected_features": 200,
+    "maximum_detected_features": 6000,
+    "maximum_mitochondrial_percent": 10,
+    "mitochondrial_definition": "gene symbol starts with MT-",
+    "fraction": "mitochondrial UMI / all feature UMI",
+    "description": "author-method-informed operational QC reconstruction; unique gene counts interpreted as detected features; inclusive boundaries"
+  },
+  "identity": "source-defined HTII-280-sorted preparation; no state assignment"
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A32.resolution_metadata_v1",
+  "owner": "A32",
+  "contract": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/config/resolution_metadata_contract_v1.json",
+  "contract_sha256": "574c81472146c4857df4af641d1d93df162b22ba9de08197a6f985420d04afe0",
+  "git_commit": "7132cc09afdb9c238d4ab0f3074614ff146e2f85",
+  "started_at": "2026-11-03T07:43:03.483334+00:00",
+  "argv": [
+    "Rscript",
+    "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/scripts/recover_metadata_v1.R",
+    "raw_data/A32_GSE234197_v1/GSE234197_Truchi_et_al_seuratobj.rds.gz",
+    "analysis/research/runs/A32_resolution_metadata_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/A32_GSE234197_v1/GSE234197_Truchi_et_al_seuratobj.rds.gz",
+      "sha256": "48f6a6d963843cad061dbc60681cfd7f73c88365ae5758f530443ff144c026a0",
+      "study_id": "GSE234197_Truchi_2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/scripts/recover_metadata_v1.R",
+      "sha256": "5203680e3f07d64cab2d8e88b6b4b3453502e5bb6776e90830df16e38883a7ed"
+    },
+    {
+      "path": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/scripts/test_recover_metadata_v1.R",
+      "sha256": "a2cd5db0aad065e08ad1530dbe25ec9acd51085f5b61f7aebf2e828698072e3e"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A32_resolution_metadata_v1_20261103/source_metadata.tsv",
+      "sha256": "9892cf7fc1d5e844d2683ef9f7c64a61d63369c482f5e05481f305b54eec6f03"
+    },
+    {
+      "path": "analysis/research/runs/A32_resolution_metadata_v1_20261103/stripped_numeric_payloads.tsv",
+      "sha256": "fe90b004ac684c1874841ecbacc332f14c9637d9dd68ec3e69f3c3c8701d11fd"
+    },
+    {
+      "path": "analysis/research/runs/A32_resolution_metadata_v1_20261103/recovery.txt",
+      "sha256": "91b765e7c4881d6e46f8fb72410373f45fadf2366fb2977c9ed39165aa814574"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T07:45:49.580237+00:00"
+}

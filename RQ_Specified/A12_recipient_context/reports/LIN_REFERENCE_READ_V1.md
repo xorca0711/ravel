@@ -3,6 +3,13 @@
 3 November 2026. This is an adjacent published context, not IL-1 specificity,
 a reopening of the closed A12 pilot, or completed numerical reproduction.
 
+**Later access update, 3 November:** direct retrieval now reaches HRA009633.
+Its public metadata are released, but sequencing files are controlled access
+under DAC HDAC001467. The earlier landing-page failure is resolved; actual
+values and preparation mappings remain unrecovered. See the
+[specific recovery routes](../../../docs/research_reviews/2026-11-03-primary-candidate-literature/HOLD_RESOLUTION_OPTIONS.md).
+The original read and its access history below are retained.
+
 The current primary Fig. 6 compares CHIR-associated RNA/accessibility; Fig. 7
 separately tests NRG1 and receptor dependence in secretory- and AT2-derived
 organoids. Both ERBB4 and ERBB2 contribute in the published comparison. This

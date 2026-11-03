@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A32.resolution_metadata_v1",
+  "owner": "A32",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Can deposited whole-lung cell annotations and original mouse identities be recovered without loading large assay arrays?",
+  "decision": "Qualify original labels and mouse support before the separately frozen RNA resolution-context screen.",
+  "strongest_rival": "An incorrect serialization transform or barcode/HTO interpretation could assign cells to the wrong state or mouse.",
+  "discriminator": "Native-R fixture parity, byte-identical unmodified pass-through and fail-closed parsing; later independent joins against original sparse counts.",
+  "evidence_refs": [
+    "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_SCREEN_SPEC_V1.md",
+    "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_EXECUTION_LEDGER_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Published 36-mouse/45311-cell report and source methods are exposed; no newly aggregated target-gene result inspected.",
+  "biological_unit": "Original source mouse identified by age/day capture plus HTO; pending recovery verification.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Cells nested in mouse, six mice per age/day capture, different mice at each day. Shared source data are not replication.",
+  "population_and_selection": "Retain deposited whole-lung annotations and selection for the male young/old PBS/BLM D14/D28/D60 cohort.",
+  "contrast": "Metadata identity and recoverability only; no gene expression or condition-effect contrast.",
+  "endpoint": "Recovered metadata table, source class and dimensions, and exact inventory of stripped nonmetadata large numeric payloads.",
+  "methods": "R XDR v2/v3 stream transform copies all structure and atomic vectors of <=1000000 elements unchanged; strips larger numeric payloads, then native readRDS recovers metadata. Synthetic parity and failure tests precede source execution.",
+  "missingness_and_exclusions": "No cell exclusion or imputation. Fail if source is not Seurat or metadata is not 45311 unique equal-length rows. Stripped arrays are invalid and never used as expression.",
+  "multiplicity": "Not applicable to metadata recovery; no effect testing.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Metadata identity and exact parity, not biological precision or sample-size justification.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Successful recovery establishes source metadata access only, not mouse independence or biological associations; those require downstream checks.",
+  "stop_rule": "Stop on unsupported serialization types, long vectors, truncation, excessive nesting, trailing bytes or source/metadata mismatch. Preserve failure and amend prospectively.",
+  "inputs": [
+    {
+      "path": "raw_data/A32_GSE234197_v1/GSE234197_Truchi_et_al_seuratobj.rds.gz",
+      "sha256": "48f6a6d963843cad061dbc60681cfd7f73c88365ae5758f530443ff144c026a0",
+      "study_id": "GSE234197_Truchi_2025",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/scripts/recover_metadata_v1.R",
+      "sha256": "5203680e3f07d64cab2d8e88b6b4b3453502e5bb6776e90830df16e38883a7ed"
+    },
+    {
+      "path": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/scripts/test_recover_metadata_v1.R",
+      "sha256": "a2cd5db0aad065e08ad1530dbe25ec9acd51085f5b61f7aebf2e828698072e3e"
+    }
+  ],
+  "runtime": "Rscript",
+  "entrypoint": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/scripts/recover_metadata_v1.R",
+  "arguments": [
+    "raw_data/A32_GSE234197_v1/GSE234197_Truchi_et_al_seuratobj.rds.gz",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "source_metadata.tsv",
+    "stripped_numeric_payloads.tsv",
+    "recovery.txt"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Initial prospective metadata-only recovery; memory limitation prevents an unbounded native whole-object load."
+}
