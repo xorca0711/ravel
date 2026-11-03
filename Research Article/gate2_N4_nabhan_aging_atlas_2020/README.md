@@ -1,5 +1,11 @@
 # Nb5 mouse ageing atlas analysis development
 
+**3 November A25 continuation:** the [bounded male-cortex held-out model comparison](../../docs/audits/2026-11-03-rq-evidence-trajectory/A25_TECHNICAL_RESULT.md)
+is complete. Gain over the endpoint mixture does not consistently exceed flexible
+continuous age in both middle-age mice; no distinct-state claim follows. The
+older unrun-model statements below and in the completion audit are historical
+for this bounded scope. New outputs and figures remain [A25-owned](../../RQ_Specified/A25_microglial_midlife_configuration/README.md).
+
 **7 October A25 extension:** [source-cluster regional/sex occupancy](../../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) is executed; regional heterogeneity and sex-support holds remain. This does not complete the distinct-state/mixture model. [Full branch ledger](../../docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md).
 
 **Current status, 3 October 2026:** [bounded agent scientific review and routing](rq_review/README.md)

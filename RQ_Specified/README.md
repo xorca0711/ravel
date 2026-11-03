@@ -11,7 +11,11 @@ distinguishing empirical narrowing, useful negative diagnostics and untested
 comparisons. It is an agent assessment, not a retain/reject decision.
 [The cut-or-fill plan](../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md)
 now gives a per-question interpretation boundary, bounded follow-up and stop rule;
-each question home links its own row. Numerical work remains conditional.
+each question home links its own row. The [five-package technical ledger](../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md)
+now records completed A25 prediction, A17 synthetic qualification and the
+A5/A12/A30 source/join passes with their remaining downstream holds.
+[Additional metadata screening and folder review](../docs/audits/2026-11-03-article-rq-screening/README.md)
+identifies concrete recovery routes without reopening spent analyses.
 
 ## Reading order
 

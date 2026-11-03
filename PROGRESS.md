@@ -3,6 +3,56 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Reviewed results committed; article/RQ screening — 3 November 2026
+
+Owner-requested result commit: `fe0316c`, following the three scoped freeze
+commits. All reviewed audit/result/run deposits and owning-page updates are now
+committed. Refetched integration base remained `115f3c5`; nothing was pushed.
+Staging exposed cosmetic trailing spaces in two immutable Matplotlib SVGs;
+their original hashes were preserved and the exact whitespace exception is
+recorded in the technical ledger. Other staged files passed whitespace checks.
+
+The [new assessment](docs/audits/2026-11-03-article-rq-screening/README.md)
+covers all 33 RQ homes and 20 article directories (18 study packages, one shared
+module and one archive), using current ledgers before historical plans. Useful
+next qualifications are A30 archival identity reconstruction, A26/A27 receptor
+recovery, A6 fixed donor/state support and the acquired Nb1 external source.
+All six raw A30 inputs exist in the main checkout cache, but hash/runtime and
+membership reconstruction are not yet qualified. No old analysis was replayed.
+
+Three primary GEO text records were recovered: GSE275967 and GSE155005 do not
+supply the existing independent age/paired-organ comparison; GSE129605 confirms
+the prior day-11 design without resolving its animal/state map. GSE165088,
+GSE292440 and GSE300399 refreshes timed out after the sandbox DNS failure was
+addressed. Source absence is not inferred. Exact queries, hashes, coverage and
+per-RQ next conditions are in the starting-point assessment.
+
+Hygiene corrects Yadav's stale unrun status in both roadmap views; adds missing
+article-gallery navigation; links A25's completed comparison ahead of the Nb5
+unrun checkpoint, P09/A31 and Wg-P06's later work; and makes the A17/A25 measured
+figures discoverable from the RQ index. At the owner's subsequent request,
+the root README now excludes the Weft pilot description and shows six existing
+reviewed method examples in a two-column portfolio panel: UMAP, patient-paired
+expression, CUT&Tag, enrichment, spatial RNA and paired RNA/accessibility.
+LinkedIn media were inspected only as a style reference; current repository
+evidence determined the selection. The [curation record](docs/audits/2026-11-03-article-rq-screening/PORTFOLIO_FIGURE_SELECTION.md)
+links every unchanged asset and its current caption. The structure document
+records this bounded showcase; full galleries remain with their analyses.
+Existing frozen paths, canonical IDs,
+hypotheses, schematics, claims and research governance are preserved.
+No new numerical analysis, chat dispatch, account setting, message, PR or merge.
+Next technical work is qualification, followed only by a newly frozen eligible
+analysis; spent same-input rescue branches remain closed. Documentation
+validation passed **15,106 repository checks**, the research gate and whitespace
+checks. A local GitHub-style layout preview showed all six images loaded and
+the complete two-column panel; this was a local rendering, not a GitHub-page
+verification. The first preview attempt was sandbox-blocked; a loopback-only
+server exposing just the preview and six images resolved it. Refetched
+`origin/main` remained `115f3c5`. The numerical test/receipt evidence from the
+reviewed result commit was reused. No biological analyses were rerun for these
+edits. The scoped documentation/portfolio commit contains these updates;
+nothing was pushed. No required analyses remain in this curation task.
+
 ## Coordinator review of technical results — 3 November 2026
 
 The separate technical chat is complete and idle. The review chat has now read

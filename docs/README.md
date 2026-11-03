@@ -1,5 +1,8 @@
 # Documentation Index
 
+**3 November article/RQ screening and structure review:** [all 20 article directories, unfinished work and hygiene](audits/2026-11-03-article-rq-screening/README.md)
+and [source/metadata starting-point assessment](audits/2026-11-03-article-rq-screening/STARTING_POINT_ASSESSMENT.md).
+
 **3 November RQ trajectory review:** [all 33 starting questions, current evidence and framing drift](audits/2026-11-03-rq-evidence-trajectory/README.md).
 Separates measured narrowing from negative diagnostics and unexecuted biological
 comparisons; preserves all question identities and scientific acceptance states.

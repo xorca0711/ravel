@@ -1,5 +1,13 @@
 # Nb5 extension completion audit and subtype follow-up
 
+**Later disposition — 3 November 2026:** the formerly unrun P02 comparison now
+has a completed [A25 male-cortex held-out analysis](../../docs/audits/2026-11-03-rq-evidence-trajectory/A25_TECHNICAL_RESULT.md).
+Its mixed gain over flexible age does not establish a distinct state. The
+original audit below remains unchanged as a 3 October checkpoint; its instruction
+to start that comparison is superseded for the executed scope. Other source,
+region/sex, receptor and functional limits remain. See the [current metadata
+assessment](../../docs/audits/2026-11-03-article-rq-screening/STARTING_POINT_ASSESSMENT.md).
+
 3 October 2026. Some extensions were unfinished. The earlier statement that
 P01/P06 were complete referred to their frozen stage-1 designs, not every
 biological question in those branches. This continuation closes a source-recovery
