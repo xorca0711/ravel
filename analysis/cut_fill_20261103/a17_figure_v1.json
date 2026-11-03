@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A17.cut_fill_figure_v1",
+  "owner": "A17",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "How do the frozen numerical results and their limits appear in a traceable owning-question figure?",
+  "decision": "Attach the executed evidence to the owning question without rerunning any model.",
+  "strongest_rival": "A chart could conceal an adverse mouse or present a synthetic law as empirical biology.",
+  "discriminator": "Plot every declared comparison and label the actual endpoint, scope and limits.",
+  "evidence_refs": [
+    "docs/audits/2026-11-03-rq-evidence-trajectory/EXECUTION_SPEC_V1.md",
+    "docs/research_dossiers/A17.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Existing source outcomes, scores, clusters and coverage are exposed. This session read saved evidence and metadata before freeze. Newly specified model/qualification outputs have not been run; no blind confirmation is claimed.",
+  "biological_unit": "11 source-indexed terminal mice; synthetic replicates are computational only",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Existing source data are reused; cells/clones/libraries and numerical replicates are not independent mice, patients or donors.",
+  "population_and_selection": "Actual 4/4/3 schedule and per-mouse retained sample sizes; five fixed illustrative candidate laws.",
+  "contrast": "Uniform detection versus admissible unknown size/time-specific ascertainment across all candidate families.",
+  "endpoint": "PNG and SVG display of frozen numerical outputs; no new biological estimate.",
+  "methods": "Matplotlib rendering of exact saved outputs; no feature selection, fitting or additional null draws.",
+  "missingness_and_exclusions": "Apply the exact specification. Retain all failed gates and adverse results; do not infer missing identities, zero cells or unmeasured states.",
+  "multiplicity": "One bounded package with all declared comparisons retained; exploratory descriptive outputs, no significance or equivalence claims.",
+  "precision_status": "unknown",
+  "precision_basis": "No biological effect margin or confirmatory precision is supplied. Numerical checks and finite-sample coverage do not supply biological power.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Only the measured qualification or conditional predictive endpoint is supported. No biological mechanism, lineage, functional state, human acceptance or independent replication is established.",
+  "stop_rule": "Stop on hash, identity, probability or numerical verification failure. Apply package-specific observation/source holds in EXECUTION_SPEC_V1; no outcome-driven retuning.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/probabilities.json",
+      "sha256": "1d6fdc925a742dc4788a1a88497b66fa3d2c26c28e487c79eef2fde78becfb55",
+      "study_id": "A17_cut_fill_results",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/recoverability.json",
+      "sha256": "2c3a58252d15f6d6e33d41fa4f80b09ec2b812de19f8b608d5572d04992f7904",
+      "study_id": "A17_cut_fill_results",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/render_results_v1.py",
+      "sha256": "569bad619fd28e6950b62ae5eeefb4a40f8293b2ced70b06fa4df771f35e43a9"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/cut_fill_20261103/render_results_v1.py",
+  "arguments": [
+    "--owner",
+    "A17",
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "a17_observation_ambiguity_v1.png",
+    "a17_observation_ambiguity_v1.svg",
+    "render.json"
+  ],
+  "amendment_of": "analysis/cut_fill_20261103/a17_recoverability_v1.json",
+  "amendment_reason": "Bounded owner-authorized cut-or-fill follow-through; previous results and all exposure retained; exact choices specified prospectively for this new execution."
+}
