@@ -1,5 +1,7 @@
 # A26: literature context and hypothesis schematic
 
+[Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A26.md).
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point

@@ -1,7 +1,9 @@
 # A12: recipient context beyond ligand RNA
 
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 IL-1 receptor and inhibitory context in recipient epithelial cells or fibroblasts may explain an IL-1-dependent response beyond ligand RNA abundance. Those are separate recipient questions; the current portfolio has not fixed one compartment, receptor/inhibitory contrast and biological consequence for a mechanistic experiment. General NF-kB or inflammation scores cannot establish IL-1 specificity.
 
@@ -28,7 +30,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -39,8 +43,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
 
-## Organizing biological question
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Does recipient receptor and inhibitor context explain responses beyond IL-1 ligand RNA?
 
@@ -62,7 +71,7 @@ the source RNA.
 [pilot specification](../../docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json),
 [pilot report](../../docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Rationale and plan written, 28 September 2026.** The [rationale](RATIONALE.md)
 states what the recipient index and endpoint are, why the parent IL-1 question

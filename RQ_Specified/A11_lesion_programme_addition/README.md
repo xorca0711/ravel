@@ -1,9 +1,9 @@
 # A11: lesion-associated programme beyond shared plasticity
 
-**Subsequent evidence — 7 October 2026:** [patient-held-out prediction and capacity qualification](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) preserve the positive log-loss gain but show that a duplicated p53 baseline feature can do slightly better. Unique lesion information is unestablished; this is exposed internal paired discrimination, not independent validation or later outcome prediction.
-
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 The frozen lesion-associated residual component may contain reproducible lesion-context information beyond the specified shared developmental/injury and stress explanations. It is a set-defined measurement, not an identified cancer-specific state or mechanism. The paired-patient beyond-shared criterion remains unresolved, and no lesion-relevant functional mediator is nominated.
 
@@ -30,7 +30,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -41,8 +43,20 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
 
-## Organizing biological question
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+**Subsequent evidence — 7 October 2026:** [patient-held-out prediction and capacity qualification](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) preserve the positive log-loss gain but show that a duplicated p53 baseline feature can do slightly better. Unique lesion information is unestablished; this is exposed internal paired discrimination, not independent validation or later outcome prediction.
+
+
+
+
+
+
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Which lesion-associated programmes add to a shared epithelial plasticity component?
 
@@ -59,7 +73,7 @@ lesion-associated information remains beyond shared plasticity.
 [plan](PLAN.md), [paired-patient results](../A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md),
 [acute-injury results](reports/ACUTE_INJURY_RESULTS.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Latest follow-through:** [A11 results and candidate decisions](../../docs/roadmap_runs/2026-09-27-followthrough/EXPANDED_CANDIDATE_AUDIT.md). Historical specifications and numerical results below are preserved; read the dated follow-through for the current execution state.
 
@@ -76,7 +90,7 @@ is positive (BH q=0.0234). The beyond-shared comparison is unresolved (BH q=0.05
 so the stronger relative-activation criterion is not met. Cancer specificity,
 malignant identity and a separate mechanism remain unestablished.
 
-## Second assay: the acute-injury falsification in GSE198864
+### Second assay: the acute-injury falsification in GSE198864
 
 A separate assay under this question asks whether the same frozen module rises in acute injury,
 which would challenge a tumour-associated reading of it. It has its own contract, its own cohort and
@@ -94,7 +108,7 @@ and the [contract](config/gse198864_acute_injury_contract.json). The assay was e
 computational pipeline and moved into this folder afterwards; the move is recorded in
 [the migration note](../../docs/migrations/2026-09-27-a11-acute-into-rq/README.md).
 
-## Why the test moved to a new cohort
+### Why the test moved to a new cohort
 
 The lesion-specific module frozen by the
 [shared component contract](../A5_A11_shared_component_contract/README.md) is
@@ -103,7 +117,7 @@ identical, gene for gene, to a module the completed human run had already scored
 patients. The Kim 2020 deposit has ten verified tumour-normal pairs and had never
 been scored with these modules.
 
-## Layout
+### Layout
 
 | Path | Contents |
 |---|---|
@@ -119,7 +133,7 @@ been scored with these modules.
 
 Original gate/power outputs are retained. New results use `tables/test_v2/`.
 
-## Reproduce the completed test
+### Reproduce the completed test
 
 Use a clean output directory and the tracked amended configuration. Run
 `Rscript scripts/02_reproduce_discovery.R REPO_ROOT DATA_ROOT`, then the Python

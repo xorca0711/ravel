@@ -1,6 +1,6 @@
 # Repository structure and label scope
 
-**Current scope — 2 November 2026:** 33 canonical questions (A0–A32) and 37 retained article-local candidates. A32 develops Yd1-P02; registration does not imply scientific acceptance. The [registry](../analysis/research/registry.json) and [illustrated guide](research_dossiers/literature_context_2026-10-03/README.md) own the current inventory.
+**Current scope — 3 November 2026:** 33 canonical questions (A0–A32) and 37 retained article-local candidates. A32 develops Yd1-P02; registration does not imply scientific acceptance. The [registry](../analysis/research/registry.json) and [question homes](../RQ_Specified/README.md) own the current inventory.
 
 Navigation and label scope reconciled 2 November 2026; existing evidence ownership retained. This contract follows the existing shared-analysis
 and paper-study layout. It defines where current material belongs; dated
@@ -9,7 +9,9 @@ protocols, original trial names and immutable run records remain historical evid
 | Material | Canonical location | Rule |
 |---|---|---|
 | Repository-wide scientific questions | [RESEARCH_QUESTIONS.md](../RESEARCH_QUESTIONS.md) | One current register, A0–A32; proposed refinements are linked to evidence dossiers; link to source studies rather than maintaining a second register |
-| Question-specific plans and analyses | `RQ_Specified/A<id>_<topic>/` | Prospective plan, source metadata, configuration, scripts, tables, reports and gallery; reference the root question register |
+| Question homes | `RQ_Specified/A<id>_<topic>/` for all 33 RQs | README starts with Organizing Biological Q, then Literature context & visual hypothesis; local context, plan and schematics. Add analysis subdirectories only where work exists; link paper-owned and frozen evidence. |
+| Full scientific argument | `docs/research_dossiers/A<id>.md` | All 33 dossiers retain hypotheses, alternatives and experimental bridges; each links its question home. |
+| Qualitative RQ illustrations | [RQ schematic gallery](../RQ_Specified/SCHEMATIC_GALLERY.md) and each home’s `schematics/` | Current matte PNG and prompt, with preserved source artwork; separate from measured-result figures. |
 | Shared question figures | [analysis/figures/rq/README.md](../analysis/figures/rq/README.md) | Curated gallery/captions; assets, tables and provenance alongside; fresh script-16 runs under `renders/` |
 | Cross-question measurement checks | [RQ_MEASUREMENT_CONTRACTS.md](RQ_MEASUREMENT_CONTRACTS.md) | Reusable checks and legacy-ID crosswalk; biological decisions stay in the root register |
 | Shared plotting and pipeline entrypoints | `analysis/scripts/` | Numbered entrypoints; reusable utilities in `analysis/lib/` |

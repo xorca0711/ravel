@@ -1,0 +1,60 @@
+# A17: literature context and hypothesis schematic
+
+[Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A17.md).
+
+Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
+
+## Published starting point
+
+The source clonal experiments motivate models of growth heterogeneity and state change. A latent founder class is a model component, not an independently identified cell type.
+
+| Primary source | Inspected locator and access record |
+|---|---|
+| [England 2025](https://doi.org/10.1016/j.stem.2025.01.011) | Clonal evidence and mutant-state plasticity; abstract/source audit. [Access / prior review](../../docs/research_dossiers/review_2026-10-03/SOURCES.md#s08) |
+
+Sources above reuse the named review unless the update ledger explicitly records a fresh inspection. Published-source evidence and reanalysis of the same material are not independent replication.
+
+## Repository observation
+
+Source accounting covers 58 rows and 11 source mice. The deposited slow-loss branch is unreachable in its current simulator implementation; the corrected stochastic model comparison remains unrun.
+
+
+Exact current result locators:
+
+- [Research Article/gate2_C2_england_2025/README.md](../../Research%20Article/gate2_C2_england_2025/README.md)
+- [docs/research_dossiers/followup_2026-10-03/NOVELTY.md](../../docs/research_dossiers/followup_2026-10-03/NOVELTY.md)
+- [docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md](../../docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md)
+
+## What this question could add
+
+Compare persistent founder propensity against similarly flexible switching and observation models. Technical identifiability and solver qualification must come first; a local implementation correction is not a refutation of the paper.
+
+## Current hypothesis and rival
+
+Persistent differences inherited from founder lineages may contribute to unequal mutant clone growth beyond reversible state switching and observation effects. A fitted founder class is a latent model term, not a discovered cell type. The current comparison concerns detected clone-size distributions until ascertainment and longitudinal linkage are qualified; numerical solver and identifiability work remain unfinished.
+
+**Strongest rival:** State switching, differential survival, clone merger or observation error accounts for apparent founder persistence.
+
+## What the comparison would teach
+
+A founder component that improves held-out prediction under comparably flexible switching/observation models supports that explanation only where identifiable. Equal adequacy or non-identifiability leaves the question unresolved. Unlinked size snapshots must not be called measured clone trajectories.
+
+## Hypothesis schematic
+
+![A17: reviewed matte qualitative illustration](schematics/A17_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A17_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+Persistent inherited founder differences in unequal clone growth are contrasted with reversible growth-state switching and observation effects. Symbols denote lineage and colours illustrate growth state; icons are conceptual model patterns, not measured clone sizes. Loss, survival and detection must be assessed before interpreting observed clone-size distributions.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
+
+## Next literature check
+
+Planned query (not reported as newly executed): `alveolar mutant clone size founder heterogeneity switching observation model identifiability`. Expand to synonyms, nearest source references/citations and conflicting results using the [literature workflow](../../docs/LITERATURE_WORKFLOW.md). Recheck the exact population, comparison, timing, unit and endpoint before making a stronger contribution claim.
+
+**Current unresolved specification:** Competing model families have not been compared under common observations, biological units and held-out predictive criteria.
+
+**Interpretation limit:** A fitted latent founder class is not a distinct biological cell type or a demonstrated molecular mechanism.
+
+[Current dossier](README.md) · [All-question context index](../../docs/research_dossiers/literature_context_2026-10-03/README.md)

@@ -3,6 +3,47 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Uniform RQ homes and reading order — 3 November 2026
+
+All 33 canonical RQs now have one home under [RQ_Specified](RQ_Specified/README.md).
+Every README begins with **Organizing Biological Q**, then **Literature context &
+visual hypothesis**, followed by evidence and next steps. Seven new homes cover
+A3, A4, A6, A7, A9, A17 and A18; each has local context, planning navigation and
+the unchanged reviewed matte figure. Central dossiers retain the full scientific
+argument. The live gallery is now under the RQ collection; dated guide/context/
+gallery paths remain compatibility pages. Shared and paper-owned evidence stays
+at its original paths.
+
+The [migration record](docs/audits/2026-11-03-rq-structure/README.md) and its
+validation record preserve all 33 hypothesis/artwork bindings and 21 asset-copy
+crosswalk entries. Checks passed for all 33 README orders and contexts, preserved
+analysis text in the 26 existing READMEs, all previous artwork/prompts, and 167
+HTML references. Repository validation and the research gate passed against
+refreshed `origin/main` (`179e413`). No numerical analysis, scientific
+code, claim grade or governance rule changed. The branch is
+`codex/rq-structure-review-20261103`; delivery uses a separate structure PR
+because PR #159 is merged.
+
+## RQ structure review — 3 November 2026
+
+PR #159 is merged; `origin/main` is `179e413` and its tree matches reviewed
+figure commit `1d4de41`. A tracked-file/registry review found 33 canonical RQs:
+26 dedicated folders and seven dossier-led homes (A3, A4, A6, A7, A9, A17, A18).
+`RQ_Specified` also contains the shared A5/A11 workspace and the historically
+retained Yadav follow-up package. All 33 scientific dossiers remain central;
+contexts and schematics follow the 26-local/seven-central split.
+
+Confirmed navigation drift: the RQ index says 24 rather than 26 dedicated
+folders, its figure index still describes SVGs, and the dossier index introduces
+a 31-question historical review as current evidence. Dedicated folders are not
+a maturity indicator: A24–A32 have no tracked local scripts/tables/reports
+directories, although some link completed analyses elsewhere. Recommendation:
+standardize one question home for every A ID and clarify separate ownership of
+schematics, measured figures, shared work and frozen evidence. No restructuring,
+scientific change, commit or PR publication was performed in this review. Next
+step is a scoped migration plan if the owner requests implementation. The review
+branch is `codex/rq-structure-review-20261103`; only this session log is changed.
+
 ## Matte figures applied to PR branch — 3 November 2026
 
 All 33 reviewed matte PNGs replace the displayed SVGs on 66 owning question/context

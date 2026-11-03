@@ -1,9 +1,9 @@
 # A19. Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
 
-**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
-
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 In primary AT2-derived cultures retaining alveolar identity before the schedule comparison, ending Fzd-supported expansion may increase later absolute lineage-derived mature AT1 output while preserving AT2 descendants capable of renewed expansion. Continued receptor input is the comparator. Fzd5-selective stimulation is a source-supported candidate input, not a frozen reagent choice; schedule, starting-state competence and input identity retain separate decisions.
 
@@ -31,7 +31,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -42,10 +44,22 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
+
+
+
+
+
 
 <a id="biological-question"></a>
 
-## Organizing biological question
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Does epithelial state determine whether ending Fzd stimulation converts AT2 expansion into mature AT1 output while retaining an AT2 reserve?
 
@@ -58,7 +72,7 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 [Methods](METHODS.md) · [Source inventory](SOURCES.md) ·
 [Extension pipeline](EXTENSION_PIPELINE.md) · [External evidence](EXTERNAL_EVIDENCE.md).
 
-## Current analysis
+### Current analysis
 
 The [executed analysis](RESULTS.md) extracts 143 qPCR source rows and analyzes
 eight human alveolar-organoid bulk libraries in two source blocks. CHIR absence
@@ -83,7 +97,7 @@ maturation environment. The pipeline distinguishes pre-exposure and
 pre-withdrawal states and treats missing cues, selection and input-dependent
 plasticity as rivals. H1–H3 and the full reserve requirement remain unchanged.
 
-## Working hypothesis and biological logic
+### Working hypothesis and biological logic
 
 Receptor-selective Fzd signaling supports an expandable AT2 state, whereas its
 termination allows competent descendants to enter an AT1 maturation program.
@@ -98,7 +112,7 @@ subsequently contribute mature tissue. A state that expands under stimulation
 could remain reversible, become persistently transitional, or simply select a
 pre-existing population. The question distinguishes those biological outcomes.
 
-## Predictions that distinguish the hypothesis
+### Predictions that distinguish the hypothesis
 
 | Hypothesis | Biological prediction | Contrary result |
 |---|---|---|
@@ -111,7 +125,7 @@ candidate component of the trajectory, not an established mediator. Active Hippo
 MST/LATS kinases restrain YAP/TAZ; their activation is not synonymous with increased
 YAP/TAZ output. A specific mediator claim needs its own dependency evidence.
 
-## Why the results motivate it, and what they do not show
+### Why the results motivate it, and what they do not show
 
 The withdrawal24-to-withdrawal48 AT1-associated RNA direction survives library
 omissions but is imprecise and not serially linked. Fzd agonists compare above

@@ -1,5 +1,31 @@
 # A24: Bladder stromal ageing and urothelial barrier maintenance
 
+## Organizing Biological Q
+
+Does the aged bladder stromal compartment contribute to loss of normal urothelial barrier maintenance independently of epithelial-intrinsic ageing and changing epithelial differentiation?
+
+**Unresolved gap:** The stromal population, its relevant change and a paired independent epithelial barrier endpoint remain unqualified. A mediator is not required to pose the question, but the source population and functional measurement must be nominated before an identifiable causal experiment.
+
+[Full working hypothesis and alternatives](../../docs/research_dossiers/A24.md#working-hypothesis).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A24: reviewed matte qualitative illustration](schematics/A24_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A24_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
 Registered 3 October 2026 as **proposed**, following the owner-authorized
 scientific review and instruction to preserve distinct biological focus and
 cell/context heterogeneity. Codex supplied the bounded scientific review;
@@ -22,15 +48,3 @@ unfinished numerical design.
 This workspace owns future question-specific planning. Existing figures, tables,
 failed runs and amendments remain in the article package. No new analysis has
 been executed under this RQ; shared inputs remain shared biological evidence.
-
-<!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A24: reviewed matte qualitative illustration](schematics/A24_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A24_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->

@@ -1,13 +1,9 @@
 # A1: Distinguishing transitional epithelial states
 
-**External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). RNA-QC and fixed TSS-window versus gene-body sensitivity in the intestinal reference distinguish measurement/selection from within-state regulation. The third-deposit four-locus recount supplies common regions and paired barcodes, but no qualified state labels or later-output join. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
-
-**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
-
-**Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a proposed biochemical feature for this existing question. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.
-
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 RNA-similar transitional alveolar epithelial cells may differ in regulatory competence for later AT1 maturation. The remaining hypothesis would require an early regulatory feature to distinguish later lineage-derived mature AT1 output beyond the starting RNA state. No particular regulatory feature has yet been nominated for that prospective contrast; a generic chromatin assay does not complete it.
 
@@ -35,7 +31,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -46,6 +44,20 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+**External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). RNA-QC and fixed TSS-window versus gene-body sensitivity in the intestinal reference distinguish measurement/selection from within-state regulation. The third-deposit four-locus recount supplies common regions and paired barcodes, but no qualified state labels or later-output join. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
+
+**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
+
+**Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a proposed biochemical feature for this existing question. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.
+
+
+
+
+
 
 **Conditional candidates reviewed 1 October 2026:** [Nb3 response-pattern
 candidate and HLCA population-definition constraint](../../RESEARCH_QUESTIONS.md#a1-candidates-20261001).
@@ -53,7 +65,9 @@ These nominate comparisons; they supply no regulatory-to-fate linkage or new
 A1 fit. The [cross-article review](../../docs/audits/2026-10-01-cross-article-rq-review/README.md)
 records the source chronology and review decisions.
 
-## Organizing biological question
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Do regulatory programmes distinguish RNA-similar transitional states and their functional responses?
 
@@ -69,7 +83,7 @@ without assuming that different state names imply either identical or distinct b
 **Read first:** [question card](../../RESEARCH_QUESTIONS.md#a1),
 [analysis plan](PLAN.md), [regulatory and outcome report](reports/REGULATORY_FATE_REPORT.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Comparison matrix, corrected 29 September 2026.** The
 [comparison matrix](COMPARISON_MATRIX.md) separates a regulatory primary test from a

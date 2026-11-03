@@ -23,7 +23,7 @@ and preservation of historical evidence.
 
 | What you need | Where to start |
 |---|---|
-| Questions, biological rationale and proposed comparisons | [Illustrated question guide](docs/research_dossiers/literature_context_2026-10-03/README.md) · [Question workspaces](RQ_Specified/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
+| Questions, biological rationale and proposed comparisons | [All 33 question homes](RQ_Specified/README.md) · [Scientific dossiers](docs/research_dossiers/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
 | Source papers, reading status and article analyses | [Research article roadmap](Research%20Article/README.md) |
 | Reviewed materials from the ongoing Weft trial | [Weft intake](weft_intake/README.md) |
 | Datasets, biological units and eligibility | [Dataset inventory](docs/DATASETS.md) |

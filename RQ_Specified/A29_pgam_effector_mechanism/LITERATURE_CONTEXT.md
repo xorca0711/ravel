@@ -1,5 +1,7 @@
 # A29: literature context and hypothesis schematic
 
+[Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A29.md).
+
 **Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
 
 Reviewed 5 October 2026. This note connects published findings to the current

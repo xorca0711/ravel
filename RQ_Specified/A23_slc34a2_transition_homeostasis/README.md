@@ -1,7 +1,9 @@
 # A23: does phosphate homeostasis constrain entry into an alveolar transition state?
 
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 SLC34A2 transport impairment may increase acquisition of a transition-associated epithelial stress state before broad AT2 identity loss, rather than merely prolong an existing intermediate state by impairing exit to AT1 maturation. This entry-versus-residence distinction narrows the original proposal. Phosphate-dependent repair failure and the Slc34a2-loss transitional RNA module already have published precedents; the mechanism cannot be claimed new from their combination.
 
@@ -28,7 +30,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -39,8 +43,11 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
 
-## Transporter extension executed, 1 October 2026
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+### Transporter extension executed, 1 October 2026
 
 [New results](reports/transporter_context_v1/RESULTS.md) |
 [Contract](config/transporter_context_v1.json) | [Figure 5](FIGURES.md#figure-5-alternative-transporter-context).
@@ -87,7 +94,7 @@ The article package owns the discovery fits. A23 now owns the external
 case summaries and source-biochemistry reproduction. Neither is a replicated
 phosphate-mediated epithelial-state test.
 
-## Execution status and next step
+### Execution status and next step
 
 P0/P1 intake, P2 coverage/marker analysis and P3 selected endpoint audit are
 complete within their recorded scope. The PAM case does not reproduce a

@@ -1,5 +1,7 @@
 # Explanatory hypothesis artwork
 
+**Historical source artwork:** current illustrations are owned by the [33 RQ homes](../../../RQ_Specified/README.md) and indexed in the [schematic gallery](../../../RQ_Specified/SCHEMATIC_GALLERY.md). Existing assets here are retained for provenance; they are no longer the shared current home for seven RQs.
+
 The [28-question guide](../literature_context_2026-10-03/README.md) embeds the
 schematics in the actual RQ READMEs or the seven existing dossier contexts.
 Twenty-one dedicated RQ folders contain their own `schematics/` SVG. This folder

@@ -13,7 +13,7 @@ Study-specific topics do not define the project-wide mission.
 |---|---|
 | Current Git/research state and next work | [PROGRESS](PROGRESS.md); verify HEAD, upstream and local changes |
 | Question identities and evidence locations | [Question register](RESEARCH_QUESTIONS.md) and [research registry](analysis/research/registry.json) |
-| Question reasoning, context and diagrams | [Illustrated guide](docs/research_dossiers/literature_context_2026-10-03/README.md), [dossiers](docs/research_dossiers/README.md), [question workspaces](RQ_Specified/README.md) |
+| Question reasoning, context and diagrams | [All 33 question homes](RQ_Specified/README.md), each with a local context and schematic; [dossiers](docs/research_dossiers/README.md) retain the full scientific argument |
 | Papers, reading status, analyses and galleries | [Article index](Research%20Article/README.md); current article reports own their results |
 | Documentation ownership and work type | [Structure](docs/REPOSITORY_STRUCTURE.md), [decision workflow](docs/AGENT_DECISION_WORKFLOW.md), [literature workflow](docs/LITERATURE_WORKFLOW.md) |
 | Source units, data and reproducibility | [Dataset inventory](docs/DATASETS.md), [reproducibility](REPRODUCIBILITY.md), [return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md) |

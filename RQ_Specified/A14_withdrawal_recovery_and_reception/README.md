@@ -1,13 +1,9 @@
 # A14: do exposure duration and fibroblast IL-1 reception separately determine recovery?
 
-**External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). The intestinal history reference motivates separating molecular persistence from later response capacity; it does not establish verified input cessation or this question's epithelial/fibroblast mechanisms. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
-
-**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
-
-**Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a proposed early feature alongside this question's existing history/reception alternatives. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.
-
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 H1: longer IL-1-beta exposure reduces subsequent lineage-derived mature AT1 recovery after input cessation, with comparable recovery intervals and culture age. H2, assessed separately: fibroblast IL-1 reception modifies that mature-output recovery beyond direct epithelial reception. H2 has no justified direction yet. The proposed increment concerns post-cessation maturation, not the already published effects of withdrawal or fibroblast pre-exposure on organoid formation.
 
@@ -35,7 +31,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -46,10 +44,26 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+**External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). The intestinal history reference motivates separating molecular persistence from later response capacity; it does not establish verified input cessation or this question's epithelial/fibroblast mechanisms. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
+
+**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
+
+**Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a proposed early feature alongside this question's existing history/reception alternatives. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.
+
+
+
+
+
 
 <a id="biological-question"></a>
 
-## Organizing biological question
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Do exposure duration and fibroblast IL-1 reception separately determine
 > recovery after withdrawal?
@@ -70,7 +84,7 @@ supported; changing both factors in an inseparable contrast cannot answer either
 [rationale](RATIONALE.md), [plan](PLAN.md),
 [design schematic](../../analysis/figures/rq/README.md#a14).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Status, 29 September 2026: registered; the design is unexecuted; nothing
 computed for A14.** This folder was created on the owner's instruction to give A14
@@ -84,7 +98,7 @@ Its schematic is in the register's cross-question gallery
 ([A14 panels](../../analysis/figures/rq/README.md#a14)); its outcome panels
 require eligible measured data, and no anticipated response curve is presented as a result.
 
-## The two hypotheses in one sentence each
+### The two hypotheses in one sentence each
 
 - **H1, duration.** Longer IL-1beta exposure reduces mature epithelial recovery
   after verified withdrawal, compared with transient exposure of the same
@@ -105,7 +119,7 @@ decrement weakens it; imprecision or failed observation/engagement checks is
 inconclusive. The meaningful-effect and uncertainty rules must be fixed before
 outcomes are inspected. Viability and lineage evidence still bound any recovery claim.
 
-## What it stands on, and what that is worth
+### What it stands on, and what that is worth
 
 It stands on the IL-1 work in neighbouring questions, none of which is a recovery
 result. A12's exploratory 12-patient pilot found that recipient receptor and
@@ -118,7 +132,7 @@ RNA-context results in human cross-sections. Neither measures reception, neither
 involves withdrawal, and neither bears on recovery. They motivate H2's compartment
 question and they cannot answer it.
 
-## Register readiness: eligible withdrawal evidence is the blocking input
+### Register readiness: eligible withdrawal evidence is the blocking input
 
 The shared
 [outcome inventory](../A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md)
@@ -138,7 +152,7 @@ contract. No public-archive search under these eligibility conditions has yet be
 completed. New data generation becomes a candidate only if compatible existing
 evidence remains unidentified; all routes retain the same endpoint and unit requirements.
 
-## Layout
+### Layout
 
 | Path | Role |
 |---|---|
@@ -148,7 +162,7 @@ evidence remains unidentified; all routes retain the same endpoint and unit requ
 | [A12 recipient context](../A12_recipient_context/README.md), [A13 fibroblast increment](../A13_fibroblast_beyond_macrophage_il1b/README.md) | The IL-1 RNA-context results that motivate H2 without answering it |
 | [A1 outcome inventory](../A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md) | Shared endpoint sourcing; A14's requirement is row O28 |
 
-## Six things a later session must not do
+### Six things a later session must not do
 
 1. **Do not report loss of a transitional RNA score as recovery.** It cannot
    distinguish maturation, reversion, death or replacement. This is the register

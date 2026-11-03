@@ -1,7 +1,9 @@
 # A5: developmental-gene recruitment in adult repair
 
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 Adult alveolar repair recruits the exact independently sourced developmental epithelial component beyond the identity, stress and labeling genes excluded by the frozen shared-component contract. Its association in 24 mice motivates independent replication of that same component. Whether it performs a developmental function during repair is a separate, untested biological question.
 
@@ -29,7 +31,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -40,8 +44,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
 
-## Organizing biological question
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Does adult alveolar repair reuse part of a developmental epithelial programme?
 
@@ -60,7 +69,7 @@ A5 focuses on developmental reuse in adult alveolar repair.
 [biological rationale](../A5_A11_shared_component_contract/BIOLOGICAL_LOGIC.md),
 [plan](PLAN.md), [revised results](../A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Latest recovery, 28 September 2026:** the [independent-cohort report](replication_gate_20260928/REPORT.md)
 recovers author state labels and library records, but the barcode/state/mouse map
@@ -93,7 +102,7 @@ See [the corrected cohort audit](DATA_AUDIT.md).
 Original audit outputs remain in `tables/`; completed scores, gates and inference
 are in `tables/test_v1/`.
 
-## Reproduce the completed test
+### Reproduce the completed test
 
 Use the repository Python launcher with a compatible scientific environment.
 Run `scripts/02_freeze_external_test.py --source-root SOURCE --data-root DATA`

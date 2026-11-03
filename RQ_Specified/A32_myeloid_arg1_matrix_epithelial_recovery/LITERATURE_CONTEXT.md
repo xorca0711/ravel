@@ -1,5 +1,7 @@
 # A32: literature context and proposed joint-outcome comparison
 
+[Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A32.md).
+
 2 November 2026, Asia/Seoul. Codex review following the owner's authorization to
 assess and register distinct RQs. Base source revision: main `96e6a8d`.
 Reuses the reviewed Yd1-P02 source/design record of 31 October, with a targeted

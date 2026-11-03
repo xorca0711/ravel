@@ -1,5 +1,42 @@
 # A28: Separately regulated regulatory and effector competence in Th17 cells
 
+## Organizing Biological Q
+
+The Th17 pathogenicity score in wide use is a difference: a pro-inflammatory
+gene module minus a pro-regulatory one. When that difference moves, it is
+reported as a change in pathogenicity. But a difference can move by either
+term, and whether a cell that lost its regulatory programme is the same cell as
+one that gained an effector programme is a question about biology, not about
+arithmetic. If the two competences are separately regulated, perturbations that
+produce identical score changes can produce functionally different cells.
+
+**Unresolved gap:** The two best-supported arm asymmetries in the package point in opposite arms,
+under a nutrient perturbation in mouse culture and a compartment contrast in
+human disease. Deposited RNA cannot distinguish separately regulated
+competences from one latent axis, because both arms are computed from the same
+transcriptome and the modules were built to be anti-correlated. The mouse
+evidence rests on two animals; no independent nutrient dataset qualified.
+
+[Full working hypothesis and alternatives](../../docs/research_dossiers/A28.md#working-hypothesis).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A28: reviewed matte qualitative illustration](schematics/A28_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A28_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
 **Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
 
 Registered 5 October 2026 as **proposed**, derived from the executed Wp
@@ -26,15 +63,3 @@ runs, frozen tables, receipts and branch cards remain in the article package and
 keep their article-run ownership. No analysis has been executed under this RQ;
 shared inputs remain shared biological evidence and never become independent
 replication.
-
-<!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A28: reviewed matte qualitative illustration](schematics/A28_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A28_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->

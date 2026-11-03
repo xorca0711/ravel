@@ -1,13 +1,9 @@
 # A8: does a maturation component add information about mature AT1 contribution?
 
-**External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). The intestinal source has molecular and later functional figures, but no early-to-later biological-unit join was located in the inspected deposits. It cannot validate this question's maturation-to-AT1 relationship. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
-
-**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
-
-**Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a biochemical comparison against this question's unchanged fixed RNA component. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.
-
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 An early, frozen maturation-associated RNA component may identify AT2 descendants that later contribute mature AT1 cells beyond information in the shared transition component. The additional claim is prospective information about independent later mature output, not that the score is fate or that one marker causes maturation. The component remains unchanged and the early-to-later biological-unit link is still missing.
 
@@ -35,7 +31,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -46,6 +44,20 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+**External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). The intestinal source has molecular and later functional figures, but no early-to-later biological-unit join was located in the inspected deposits. It cannot validate this question's maturation-to-AT1 relationship. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
+
+**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
+
+**Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a biochemical comparison against this question's unchanged fixed RNA component. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.
+
+
+
+
+
 
 **Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.
 
@@ -53,7 +65,9 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 <a id="biological-question"></a>
 
-## Organizing biological question
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Does a maturation-specific programme add information about measured mature AT1
 > contribution beyond shared transition?
@@ -72,7 +86,7 @@ and a **biological claim** about a maturation-specific mechanism, which is not.
 [rationale](RATIONALE.md), [plan](PLAN.md),
 [shared outcome inventory](../A1_transitional_epithelial_state_distinction/reports/A1_A8_A14_OUTCOME_INVENTORY.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Status, 29 September 2026: registered; blocked on an eligible linked dataset;
 nothing computed for A8.** This folder was created on the owner's instruction to
@@ -89,7 +103,7 @@ The supporting diagnostics are in the register's cross-question gallery
 ([A8 panels](../../analysis/figures/rq/README.md#a8)); they are diagnostics of the
 definitions, not evidence for a mechanism.
 
-## The question in one sentence
+### The question in one sentence
 
 Conditional on a frozen shared-transition component, does a frozen
 maturation-specific component add information about an independently measured
@@ -100,7 +114,7 @@ concurrent, independently measured endpoint; **prospective prediction** requires
 the RNA measurement to precede that endpoint. Both require documented timing,
 compatible biological-unit linkage and a noncircular mature AT1 measurement.
 
-## What it stands on, and what that is worth
+### What it stands on, and what that is worth
 
 It stands on a definitional dependence, not on a biological result. The 119-gene
 overlap and the seed-sensitive panel show that any analysis scoring "transitional"
@@ -110,7 +124,7 @@ that a maturation-specific programme exists, and it is equally not evidence that
 mature AT1 identity is merely an extension of the transition. The
 [rationale](RATIONALE.md) sets out why the inference runs in neither direction.
 
-## Register readiness: blocked, and honest about why
+### Register readiness: blocked, and honest about why
 
 The blocking input is an eligible predictor–outcome linkage, and the component
 partition still needs to be frozen. The shared
@@ -131,7 +145,7 @@ it from either route. Its concurrent RNA and imaging additionally prevent a
 prospective-prediction interpretation; concurrency alone does not exclude an
 otherwise eligible association design.
 
-## Layout
+### Layout
 
 | Path | Role |
 |---|---|
@@ -141,7 +155,7 @@ otherwise eligible association design.
 | [A1 lineage audit](../A1_transitional_epithelial_state_distinction/LINEAGE_AUDIT.md) | Sourcing guide named by the register card |
 | [A1 comparison matrix](../A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md) | Where A8's endpoint requirement sits among A1's branches |
 
-## Five things a later session must not do
+### Five things a later session must not do
 
 1. **Do not define the predictor and the "mature" outcome from the same RNA
    panel.** This is the register card's own instruction and the reason A8 exists.

@@ -1,5 +1,31 @@
 # A25: Regional microglial configuration during middle age
 
+## Organizing Biological Q
+
+Within a specified brain region and sex, do middle-age microglia exhibit reproducible RNA organization that requires an additional configuration beyond redistribution of young/old populations or a continuous age response?
+
+**Unresolved gap:** The actual configuration, feature/model specification and supported region/sex population must be fixed. External datasets differ in age schedules, sex and regional sampling; independently mapped animal units and compatible endpoints remain unqualified.
+
+[Full working hypothesis and alternatives](../../docs/research_dossiers/A25.md#working-hypothesis).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A25: reviewed matte qualitative illustration](schematics/A25_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A25_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
 **Subsequent evidence — 7 October 2026:** The [region/sex occupancy extension](../../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) has executed on 13,130 source-labelled microglia from 14 mice. Complete-region support is 4/3/3 mice; male midlife comparison fails that support, and old female observations are absent. Region heterogeneity remains material. The distinct-state/mixture model is still unrun.
 
 Registered 3 October 2026 as **proposed**, following the owner-authorized
@@ -24,15 +50,3 @@ unfinished numerical design.
 This workspace owns future question-specific planning. Existing figures, tables,
 failed runs and amendments remain in the article package. No new analysis has
 been executed under this RQ; shared inputs remain shared biological evidence.
-
-<!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A25: reviewed matte qualitative illustration](schematics/A25_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A25_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->

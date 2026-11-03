@@ -1,7 +1,9 @@
 # A15: does the epithelial input to fibroblast activation run through the integrin or through the ligand
 
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 Epithelial ITGB6-containing integrin activity may change fibroblast response by activating latent TGF-beta, rather than by changing total ligand supply. That pathway is already established. The repository-specific idea is whether the epithelial Itgb6-associated fibroblast response in the A2 context is explained by this activation route; neither active TGF-beta nor a decisive fibroblast functional endpoint was measured there.
 
@@ -28,7 +30,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -39,8 +43,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
 
-## Organizing biological question
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Does the epithelial input to fibroblast activation run through the integrin or through the ligand?
 
@@ -59,7 +68,7 @@ parent mechanism; A2 owns the source observation that motivated it.
 [plan](PLAN.md), [current interpretation](reports/INTERPRETATION_AUDIT_2026-09-27.md),
 [normalization correction](reports/NORMALIZATION_ERRATUM_2026-09-28.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Normalization correction, 28 September 2026:** the original alternative-normalization
 sensitivity divided out depth twice and is withdrawn. The [versioned correction and
@@ -105,14 +114,14 @@ Read in this order:
 5. [`config/a15_question_contract.json`](config/a15_question_contract.json), for the same
    decisions in machine-readable form.
 
-## The question in one sentence
+### The question in one sentence
 
 Where an epithelium and a fibroblast are in contact, is the epithelial contribution to
 the fibroblast myofibroblast and collagen programme carried by epithelial integrin
 alphaVbeta6 converting latent TGF-beta that the shared matrix already holds, rather than
 by epithelial supply of an EGFR ligand?
 
-## What it stands on, and what that is worth
+### What it stands on, and what that is worth
 
 One unplanned observation in one screen. In the GSE307112 alveolosphere screen, which
 perturbs mouse alveolar type 2 cells and leaves the human lung fibroblasts unedited,
@@ -141,7 +150,7 @@ Four things make that one observation and not a result:
 - **The endpoint is a transcript score.** TGF-beta activation was never measured. The
   proposal names a protein event and the evidence behind it is RNA.
 
-## Register readiness: blocked, and honest about why
+### Register readiness: blocked, and honest about why
 
 No public dataset can test the question. The search in
 [reports/PUBLIC_DATA_SEARCH.md](reports/PUBLIC_DATA_SEARCH.md) covered GEO, PRIDE, the
@@ -156,7 +165,7 @@ GSE190821's epithelial translatome arm can ask whether blocking integrin beta6 m
 epithelium's own programme, which is the "changed epithelium, not the integrin" rival.
 That is a proposal in [RATIONALE.md](RATIONALE.md), not authorized work.
 
-## Layout
+### Layout
 
 | Path | Contents |
 |---|---|
@@ -176,7 +185,7 @@ The `scripts/` and `tables/rival2/` directories belong to the side-branch only. 
 question itself still has no computed result**, and nothing may be computed for it until a
 dataset clears the stage 1 gate in [PLAN.md](PLAN.md), which no candidate in the recorded search did.
 
-## Seven things a later session must not do
+### Seven things a later session must not do
 
 1. **Do not write a study note on the source paper.** The screen's source paper is
    roadmap paper 14, DOI 10.1073/pnas.2606113123, and the owner's reading is recorded as

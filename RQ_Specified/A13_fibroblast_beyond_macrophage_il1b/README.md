@@ -1,7 +1,9 @@
 # A13: fibroblast programmes beyond macrophage interleukin-1 beta
 
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 Fibroblast output may alter epithelial recovery beyond the effect of macrophage IL-1-beta input. The existing TGF-beta-hallmark/HPCS-proxy pilot found no aggregate held-out gain and nominates no mediator. The biological idea remains incomplete until a particular fibroblast product, epithelial response and source-directed contrast are supported; output nomination is preparatory work, not the hypothesis itself.
 
@@ -28,7 +30,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -39,6 +43,9 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.
 
@@ -49,7 +56,9 @@ later 12-triad pilot's worse held-out performance. The no-fit statements below
 belong to the historical IPF/Kim coverage gate; the separately frozen pilot
 is described in the follow-through linked next.
 
-## Organizing biological question
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Do fibroblast programmes add information about epithelial plasticity beyond macrophage IL1B?
 
@@ -68,7 +77,7 @@ endpoint. Neither comparison alone establishes mediation or reciprocal feedback.
 [original coverage report](reports/COVERAGE_RESULTS.md),
 [amended pilot and coverage decisions](../../docs/roadmap_runs/2026-09-27-followthrough/A13_PILOT_AND_COVERAGE.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Rationale and plan written, 28 September 2026.** The [rationale](RATIONALE.md)
 traces the broad niche proposition to the single TGF-beta-RNA/HPCS-proxy pair that
@@ -99,7 +108,7 @@ Read the [coverage results](reports/COVERAGE_RESULTS.md). The frozen decisions a
 [`config/a13_triad_coverage_spec.json`](config/a13_triad_coverage_spec.json), committed before
 any count existed.
 
-## What the gate asked, and the answer
+### What the gate asked, and the answer
 
 A joint model needs at least ten patients holding a complete macrophage, fibroblast and
 epithelial triad. The card recorded six and three such donors in the two IPF cohorts and
@@ -119,7 +128,7 @@ reaching 50 cells in ten of twenty-two samples and a median of 32.5. That constr
 property of the assay rather than of the cohort, so a larger deposit does not open the gate by
 itself.
 
-## Two things a later session should know
+### Two things a later session should know
 
 1. **The earlier triad rule was label-level, and it was not written down.** A compartment met
    the floor when one single cell label reached it, not when its labels summed to it. The first
@@ -130,7 +139,7 @@ itself.
 2. **Do not fit anything on this coverage.** Three patients cannot support a joint model, and
    the card already warns that a met floor would not be a power guarantee either.
 
-## Layout
+### Layout
 
 | Path | Contents |
 |---|---|

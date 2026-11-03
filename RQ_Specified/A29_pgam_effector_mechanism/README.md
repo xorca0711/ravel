@@ -1,5 +1,45 @@
 # A29: Which mechanism raises Th17 effector output under PGAM restriction
 
+## Organizing Biological Q
+
+Inhibiting one step of glycolysis — the phosphoglycerate mutase reaction, 3PG
+to 2PG — increases Th17 effector output, while inhibiting neighbouring steps
+decreases it. Why a single reaction behaves oppositely to the pathway it
+belongs to is unexplained, and the answer determines whether PGAM is a
+plausible target at all: a metabolite-signalling route, an energetic route and
+a stress route imply different companion targets, different dose behaviour and
+different off-target risks.
+
+**Unresolved gap:** Co-occurrence in five bulk libraries per arm is not a mechanism, and no
+transcript measures stress-response activity, which is set by eIF2α
+phosphorylation and ATF4 translation. The PEP route predicts the phenotype
+directly but the source's own ¹³C tracing reports PEP unchanged under EGCG — a
+15-minute label ratio, not a pool size, in one condition. The source cites the
+PEP work as reference 7, in the Introduction's opening citation bundle only; its
+Discussion proposes stress and serine, closes by stating the mechanism needs
+further study, and does not return to the PEP mechanism despite its Compass
+analysis singling out the 3PG-to-PEP segment.
+
+[Full working hypothesis and alternatives](../../docs/research_dossiers/A29.md#working-hypothesis).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
+
+![A29: reviewed matte qualitative illustration](schematics/A29_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A29_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
+<!-- literature-visual-context:end -->
+
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
 **Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
 
 Registered 5 October 2026 as **proposed**, derived from the executed Wp
@@ -26,15 +66,3 @@ runs, frozen tables, receipts and branch cards remain in the article package and
 keep their article-run ownership. No analysis has been executed under this RQ;
 shared inputs remain shared biological evidence and never become independent
 replication.
-
-<!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
-
-[What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
-
-![A29: reviewed matte qualitative illustration](schematics/A29_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A29_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
-<!-- literature-visual-context:end -->
