@@ -3,6 +3,23 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Tool-assisted screening review — 3 November 2026
+
+Reviewed the seven latest screening implementations/results, the full 22-owner
+disposition and all 33 RQ dossier boundaries against available source,
+annotation, Scanpy and NGS tools. [Review and stepwise plan](docs/research_reviews/2026-11-03-tool-assisted-screening-review/README.md).
+Recommended: complete A5's functional annotation, then A31's depth-conditioned
+partner context; A8 sampling decomposition is optional and A9 same-cell
+receptor/feedback context is moderate. A12, A3/DY1 and A27 extensions depend on
+specified new source evidence. Other missing functional/linkage measurements
+remain holds. The owner subsequently authorized execution through the existing
+technical chat; all four analysis preparations and three conditional source
+intakes have been dispatched. [Execution review](docs/research_reviews/2026-11-03-tool-assisted-screening-review/COORDINATOR_REVIEW.md).
+No new numerical run or claim promotion has occurred yet. Follow-through is isolated on
+`codex/tool-assisted-screening-review-20261103` from `300a184`; refreshed main
+remains `445a0ca`. Next numerical work requires the proposed job's reviewed,
+versioned specification and freeze; the existing results remain authoritative.
+
 ## Full primary/moderate screening sequence — 3 November 2026
 
 All 22 owner plans (21 canonical RQs plus Wg-P06) have reviewed rationale,
