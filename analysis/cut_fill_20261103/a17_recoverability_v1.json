@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A17.cut_fill_a17_recoverability_v1_20261103",
+  "owner": "A17",
+  "status": "frozen",
+  "analysis_type": "exploratory",
+  "question": "Can actual retained-clone observation identify persistent, switching and combined families?",
+  "decision": "Stop mechanism selection if unqualified detection admits observationally equivalent families.",
+  "strongest_rival": "Unmeasured size/time-dependent detection can mimic growth-family differences.",
+  "discriminator": "Complete-partition PGF probabilities, uniform-detection KL and common-observed-law counterexample on the actual schedule.",
+  "evidence_refs": [
+    "docs/audits/2026-11-03-rq-evidence-trajectory/EXECUTION_SPEC_V1.md",
+    "docs/research_dossiers/A17.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Existing source outcomes, scores, clusters and coverage are exposed. This session read saved evidence and metadata before freeze. Newly specified model/qualification outputs have not been run; no blind confirmation is claimed.",
+  "biological_unit": "11 source-indexed terminal mice; synthetic replicates are computational only",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Existing source data are reused; cells/clones/libraries and numerical replicates are not independent mice, patients or donors.",
+  "population_and_selection": "Actual 4/4/3 schedule and per-mouse retained sample sizes; five fixed illustrative candidate laws.",
+  "contrast": "Uniform detection versus admissible unknown size/time-specific ascertainment across all candidate families.",
+  "endpoint": "Complete retained-size laws, numerical error, observational total variation and synthetic equal-mouse log loss.",
+  "methods": "Backward PGF coefficient ODE with exact tail bin; K64/K128 and scalar PGF verification; 200 synthetic datasets/family, seed20261103; no cohort fit.",
+  "missingness_and_exclusions": "Apply the exact specification. Retain all failed gates and adverse results; do not infer missing identities, zero cells or unmeasured states.",
+  "multiplicity": "One bounded package with all declared comparisons retained; exploratory descriptive outputs, no significance or equivalence claims.",
+  "precision_status": "unknown",
+  "precision_basis": "No biological effect margin or confirmatory precision is supplied. Numerical checks and finite-sample coverage do not supply biological power.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Only the measured qualification or conditional predictive endpoint is supported. No biological mechanism, lineage, functional state, human acceptance or independent replication is established.",
+  "stop_rule": "Stop on hash, identity, probability or numerical verification failure. Apply package-specific observation/source holds in EXECUTION_SPEC_V1; no outcome-driven retuning.",
+  "inputs": [
+    {
+      "path": "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/primary_cohort_manifest.csv",
+      "sha256": "988ab3c376f2cff5daa46924bc1009c80a164d7e0e9c916c539f66cfa8c99294",
+      "study_id": "A17_existing_source",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/mutant_parameter_trace.json",
+      "sha256": "84a2b3ea950d6e27fa23e9fe53ebb56e816a17241372314bdb8103725604addc",
+      "study_id": "A17_existing_source",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a17_recoverability_v1.py",
+      "sha256": "f9f4a10270609f89b5ad33f64ecbde8f35a0cadde588b99a7efba86c672b2bf6"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/cut_fill_20261103/a17_recoverability_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "probabilities.json",
+    "recoverability.json",
+    "synthetic_recoverability.csv",
+    "verification.json"
+  ],
+  "amendment_of": "analysis/portfolio_extensions/2026-10-07/g1_epithelial/A17.g1_ascertainment_v1.json",
+  "amendment_reason": "Bounded owner-authorized cut-or-fill follow-through; previous results and all exposure retained; exact choices specified prospectively for this new execution."
+}

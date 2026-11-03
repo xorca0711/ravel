@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A30.cut_fill_a30_join_v1_20261103",
+  "owner": "A30",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Do saved state assignments have a provenance key that can join them to the raw barcode/QC export?",
+  "decision": "Permit lineage/doublet and full-background matched null only after a verified cell identity join.",
+  "strongest_rival": "Equal donor totals or row order can create an unsupported state-to-cell mapping.",
+  "discriminator": "Inspect actual shared fields and join cardinalities; validate barcode/library uniqueness without assigning states.",
+  "evidence_refs": [
+    "docs/audits/2026-11-03-rq-evidence-trajectory/EXECUTION_SPEC_V1.md",
+    "docs/research_dossiers/A30.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Existing source outcomes, scores, clusters and coverage are exposed. This session read saved evidence and metadata before freeze. Newly specified model/qualification outputs have not been run; no blind confirmation is claimed.",
+  "biological_unit": "Paired donor for biology; individual raw cells for metadata join qualification",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Existing source data are reused; cells/clones/libraries and numerical replicates are not independent mice, patients or donors.",
+  "population_and_selection": "Immutable v3 saved-state table and corrected human-transfer barcode/QC export.",
+  "contrast": "Saved state keys versus unique raw barcode/library keys.",
+  "endpoint": "Shared key columns, many-to-many cardinality and an explicit traceability verdict.",
+  "methods": "Deterministic key audit; no state attachment by row order, count or score similarity.",
+  "missingness_and_exclusions": "Apply the exact specification. Retain all failed gates and adverse results; do not infer missing identities, zero cells or unmeasured states.",
+  "multiplicity": "One bounded package with all declared comparisons retained; exploratory descriptive outputs, no significance or equivalence claims.",
+  "precision_status": "unknown",
+  "precision_basis": "No biological effect margin or confirmatory precision is supplied. Numerical checks and finite-sample coverage do not supply biological power.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Only the measured qualification or conditional predictive endpoint is supported. No biological mechanism, lineage, functional state, human acceptance or independent replication is established.",
+  "stop_rule": "Stop on hash, identity, probability or numerical verification failure. Apply package-specific observation/source holds in EXECUTION_SPEC_V1; no outcome-driven retuning.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/cell_states.csv.gz",
+      "sha256": "975ff310fdbcf776835fcca55599255f9a1c4f337bd79a227ebd5163d9400741",
+      "study_id": "A30_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/cell_identity_qc.csv.gz",
+      "sha256": "e49e06c24f3b745342af35eb033f7f5b9f7f3c14add9f0be2fde7838c16bbc5b",
+      "study_id": "A30_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a30_join_v1.py",
+      "sha256": "cbf232d10243f50f07f325733bbebc4624af70a58da902236d77dbc130d5290f"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/cut_fill_20261103/a30_join_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "join_cardinality.csv",
+    "qualification.json",
+    "verification.json"
+  ],
+  "amendment_of": "analysis/portfolio_extensions/2026-10-07/g3_immune/a30_common_support_v1.json",
+  "amendment_reason": "Bounded owner-authorized cut-or-fill follow-through; previous results and all exposure retained; exact choices specified prospectively for this new execution."
+}
