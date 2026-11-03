@@ -97,3 +97,23 @@ no existing canonical question is retired or reworded.
 ## Literature-informed screening disposition — 3 November 2026
 
 The Speth temporal screen is held because the cited GEO series is currently private despite the article data statement. Source pooling also prevents assumed mouse independence. No ARG1/matrix/epithelial temporal effect was computed. [Exact source evidence and reopening condition](reports/RESOLUTION_SCREEN_HOLD_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.
+
+
+## Public GSE234197 RNA context screen — 3 November 2026
+
+[Full result and measured figures](reports/RESOLUTION_CONTEXT_RESULTS_V1.md) ·
+[fixed prospective design](reports/RESOLUTION_SCREEN_SPEC_V1.md) ·
+[execution ledger](reports/RESOLUTION_EXECUTION_LEDGER_V1.md).
+The frozen run and independent arithmetic checks completed; all figures were inspected.
+
+The metadata-qualified scope retains myeloid comparisons and young-D14
+fibroblasts. It cannot test joint resolution across myeloid, matrix and
+epithelium: AT1/AT2 support is inadequate and later fibroblast contrasts are
+unestimated. All 14 fixed genes and unsupported rows remain in the results.
+
+Young-D14 BLM AM2/AM3 carry much of the observed Arg1 RNA and are candidate
+source populations for subsequent qualification. Their sparse PBS counterparts
+prevent a within-state induction estimate. Early fibroblast matrix RNA rises;
+this does not establish collagen deposition or ARG1 mediation. The late AM1
+Arg1 observation is only 2–5 UMIs per BLM mouse and cannot establish a maintained
+programme. Canonical functional and Speth access holds remain unchanged.

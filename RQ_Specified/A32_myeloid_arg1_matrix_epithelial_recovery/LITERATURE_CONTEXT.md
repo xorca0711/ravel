@@ -153,3 +153,13 @@ concordant, divergent or unsupported stages. This is context nomination, not
 new evidence for the published metabolic mechanism. Shared severity, capture,
 selection and within-label substate composition remain alternatives. Source
 histology/hydroxyproline are not linked to sequenced mice without identity proof.
+
+
+The completed [public-source result](reports/RESOLUTION_CONTEXT_RESULTS_V1.md)
+retains early BLM AM2/AM3 as source-population leads based on observed Arg1 RNA,
+with no supported within-state PBS comparison. Young-D14 fibroblast matrix RNA
+co-occurs with myeloid Arg1 observations; later matrix and all epithelial
+condition contrasts remain unestimated. The late AM1 signal is only 2–5 UMIs
+per BLM mouse, not evidence of a maintained programme. The intended joint
+resolution discriminator therefore remains unanswered; no mechanism or claim
+grade was promoted.

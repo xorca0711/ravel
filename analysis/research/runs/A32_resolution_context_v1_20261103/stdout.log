@@ -1,0 +1,8 @@
+Qualified original counts: YoungD14 8735 retained cells
+Qualified original counts: YoungD28 6619 retained cells
+Qualified original counts: YoungD60 6063 retained cells
+Qualified original counts: OldD14 9580 retained cells
+Qualified original counts: OldD28 7248 retained cells
+Qualified original counts: OldD60 7066 retained cells
+Independent R verification passed: 306 original-matrix rows; 88 intervals
+{"source_cells": 45311, "source_mice": 36, "genes": ["Arg1", "Spp1", "Trem2", "Col1a1", "Col3a1", "Fn1", "Cthrc1", "Krt8", "Cldn4", "Sftpc", "Abca3", "Ager", "Hopx", "Aqp5"], "cell_floor": 10, "planned_contrasts": 306, "estimated_contrasts": 88, "unestimated_contrasts": 218, "epithelial_contrasts_estimated": 0, "fibroblast_supported_captures": ["YoungD14"], "inference": "Exploratory RNA context; no joint three-compartment resolution conclusion or ARG1 functional effect."}

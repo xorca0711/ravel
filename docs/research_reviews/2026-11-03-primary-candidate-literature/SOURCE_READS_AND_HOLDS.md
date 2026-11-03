@@ -4,6 +4,16 @@
 not numerical execution or negative biological effects. [Execution ledger](EXECUTION_LEDGER.md).
 Primary sources and exact repository evidence are distinguished below.
 
+**Subsequent access assessment:** [hold-resolution options](HOLD_RESOLUTION_OPTIONS.md)
+records successful access to Lin's public metadata (sequencing controlled),
+a fresh confirmation of Speth's private GEO status and a public alternative
+resolution-cohort candidate. The original retrieval record below is historical;
+no numerical hold was silently lifted.
+
+The subsequently authorized [A32 alternative-source run](../../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/reports/RESOLUTION_CONTEXT_RESULTS_V1.md)
+completed at a narrower myeloid/early-fibroblast RNA scope. This leaves the
+original Speth reproduction and joint functional-question holds unchanged.
+
 ## PS1: adopted named-feature comparison
 
 Dong's full XML was recovered through Europe PMC (PMC7618356), replacing the
