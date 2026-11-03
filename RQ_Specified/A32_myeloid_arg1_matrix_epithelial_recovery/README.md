@@ -93,3 +93,7 @@ paths. Their prior exposure and unfavorable results remain explicit.
 Next: qualify the specific linked model/data and endpoints in [PLAN.md](PLAN.md).
 No numerical or bench execution follows automatically from registration, and
 no existing canonical question is retired or reworded.
+
+## Literature-informed screening disposition — 3 November 2026
+
+The Speth temporal screen is held because the cited GEO series is currently private despite the article data statement. Source pooling also prevents assumed mouse independence. No ARG1/matrix/epithelial temporal effect was computed. [Exact source evidence and reopening condition](reports/RESOLUTION_SCREEN_HOLD_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.

@@ -261,3 +261,6 @@ analysis/research/runs/g1_a11_capacity_qualification_v1/** -text
 
 # Preserve exact draft Weft pilot source/config/runtime bytes across platforms.
 "Research Article/gate1_02_choi_2020/weft_pilot_v1/**" -text whitespace=cr-at-eol
+
+# Preserve the exact hash-bound PS3 specification bytes on Windows and Linux.
+"Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md" -text whitespace=cr-at-eol

@@ -232,3 +232,11 @@ The earlier technical framing review remains historical. The
 [E1–E6 execution review](REVIEW.md) covers its five runs; the later
 [F1–F4 review](FOLLOWUP_REVIEW_2026-10-30.md) covers the three additional runs and
 F3 source assessment. Both preserve their stated biological limits.
+
+## Literature-informed screening scope — 3 November 2026
+
+The owner-authorized [DY1-P02 fixed identity-target specification](IDENTITY_TARGETS_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It reuses complete frozen non-infectious reference estimates for six literature-nominated targets, retaining every target and mapped region. This does not reopen original NAM/pathogen analyses or establish a maintenance mechanism. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](IDENTITY_TARGETS_V1_RESULTS.md). The complete fixed-target screen finds co-increased Irf4/Pparg RNA in WT IL4 and heterogeneous mapped-region point differences. This neither reproduces nor refutes the distinct alveolar IL13 mechanism.
+
+![Governed descriptive screening result](../../../analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/identity_targets.png)
+
+ATAC dots are point estimates; complete inherited uncertainty and both mappings/subsets are in the result tables. No regulatory-link or true-discordance claim.

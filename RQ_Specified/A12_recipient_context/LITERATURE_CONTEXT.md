@@ -64,3 +64,7 @@ Planned query (not reported as newly executed): `IL1 recipient epithelial fibrob
 A new bounded independent-source search is executed. No cohort clears the unchanged joint patient/state/count gate; fixed-procedure replication remains held and the original pilot stays closed.
 
 [Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A12_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).
+
+## Literature-informed screening disposition — 3 November 2026
+
+The Lin reference sharpens the published receptor/identity distinction, but source-value reproduction is held on unrecovered replicate values and preparation identities. The closed pilot and independent replication hold are unchanged. [Exact source evidence and reopening condition](reports/LIN_REFERENCE_READ_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.

@@ -125,3 +125,11 @@ The scripts refuse to overwrite results. Source URLs/hashes are recorded in
 The refreshed source inventory is executed; exact mouse and barcode-state maps remain unqualified, so fixed-component expression replication is held.
 
 [Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A5_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).
+
+## Literature-informed screening scope — 3 November 2026
+
+The owner-authorized [A5 destination-feature specification](DESTINATION_SCREEN_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It uses original Strunz labels and mouse-paired named genes; basal-state support remains below the original floor. The fixed Guo component and held external replication remain unchanged. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](reports/DESTINATION_SCREEN_V1_RESULTS.md). The screen completed with mixed identity features and no single destination; basal support remains below floor. The twelve-gene panel does not explain or identify a driver of Guo recruitment.
+
+![Governed descriptive screening result](../../analysis/research/runs/PS1_A5_destination_features_v1_20261103/destination_features.png)
+
+Pointwise descriptive intervals; the two terminal-reference contrasts share ten mice, while the primary uses 24. No fate assignment.

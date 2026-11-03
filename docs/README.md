@@ -1,5 +1,10 @@
 # Documentation Index
 
+**3 November primary-target literature review:** [recent sources and biological implications](research_reviews/2026-11-03-primary-candidate-literature/README.md)
+and [literature-informed screening plan](research_reviews/2026-11-03-primary-candidate-literature/ANALYSIS_PLAN_V1.md).
+New technical execution is tracked separately from the completed reading and
+earlier cut-or-fill results; existing hypotheses and functional limits remain.
+
 **3 November article/RQ screening and structure review:** [all 20 article directories, unfinished work and hygiene](audits/2026-11-03-article-rq-screening/README.md)
 and [source/metadata starting-point assessment](audits/2026-11-03-article-rq-screening/STARTING_POINT_ASSESSMENT.md).
 

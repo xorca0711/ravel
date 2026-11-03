@@ -1,0 +1,73 @@
+contrast	gene	mapping_rule	distance_subset	n_regions	positive	negative	zero	min_delta	max_delta
+WT_IL4_minus_CTRL	Irf4	author_ensembl	all_author_annotated	16	11	5	0	-0.3620604576589437	2.127066365227321
+WT_IL4_minus_CTRL	Pparg	author_ensembl	all_author_annotated	17	13	4	0	-0.570266711413026	1.5624950834752642
+WT_IL4_minus_CTRL	Rxra	author_ensembl	all_author_annotated	15	8	7	0	-0.2725564927597412	0.8995811713667954
+WT_IL4_minus_CTRL	Stat6	author_ensembl	all_author_annotated	3	1	2	0	-0.4110678795966054	0.1122552013947575
+WT_IL4_minus_CTRL	Egr2	author_ensembl	all_author_annotated	14	4	10	0	-0.52581164948473	0.7659294878461647
+WT_IL4_minus_CTRL	Arg1	author_ensembl	all_author_annotated	7	6	1	0	-0.0208134906801795	1.4630347639799215
+WT_IL4_minus_CTRL	Irf4	author_ensembl	within_2kb_of_nearest_tss	1	1	0	0	0.2894834851214645	0.2894834851214645
+WT_IL4_minus_CTRL	Pparg	author_ensembl	within_2kb_of_nearest_tss	2	2	0	0	0.6521735011004808	0.8933601903814237
+WT_IL4_minus_CTRL	Rxra	author_ensembl	within_2kb_of_nearest_tss	2	1	1	0	-0.1409207539296866	0.1321621908299977
+WT_IL4_minus_CTRL	Stat6	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+WT_IL4_minus_CTRL	Egr2	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+WT_IL4_minus_CTRL	Arg1	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+WT_IL4_minus_CTRL	Irf4	author_nearest_tss_symbol	all_author_annotated	16	11	5	0	-0.3620604576589437	2.127066365227321
+WT_IL4_minus_CTRL	Pparg	author_nearest_tss_symbol	all_author_annotated	17	13	4	0	-0.570266711413026	1.5624950834752642
+WT_IL4_minus_CTRL	Rxra	author_nearest_tss_symbol	all_author_annotated	15	8	7	0	-0.2725564927597412	0.8995811713667954
+WT_IL4_minus_CTRL	Stat6	author_nearest_tss_symbol	all_author_annotated	3	1	2	0	-0.4110678795966054	0.1122552013947575
+WT_IL4_minus_CTRL	Egr2	author_nearest_tss_symbol	all_author_annotated	14	4	10	0	-0.52581164948473	0.7659294878461647
+WT_IL4_minus_CTRL	Arg1	author_nearest_tss_symbol	all_author_annotated	7	6	1	0	-0.0208134906801795	1.4630347639799215
+WT_IL4_minus_CTRL	Irf4	author_nearest_tss_symbol	within_2kb_of_nearest_tss	1	1	0	0	0.2894834851214645	0.2894834851214645
+WT_IL4_minus_CTRL	Pparg	author_nearest_tss_symbol	within_2kb_of_nearest_tss	2	2	0	0	0.6521735011004808	0.8933601903814237
+WT_IL4_minus_CTRL	Rxra	author_nearest_tss_symbol	within_2kb_of_nearest_tss	2	1	1	0	-0.1409207539296866	0.1321621908299977
+WT_IL4_minus_CTRL	Stat6	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		
+WT_IL4_minus_CTRL	Egr2	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		
+WT_IL4_minus_CTRL	Arg1	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_IL4	Irf4	author_ensembl	all_author_annotated	16	9	7	0	-0.1760907039619264	0.4393707939708027
+cKO_minus_WT_IL4	Pparg	author_ensembl	all_author_annotated	17	7	10	0	-0.2471668029940139	0.1745368152635689
+cKO_minus_WT_IL4	Rxra	author_ensembl	all_author_annotated	15	9	6	0	-0.1795922875565656	0.2585445178936503
+cKO_minus_WT_IL4	Stat6	author_ensembl	all_author_annotated	3	0	3	0	-0.3624252937224028	-0.0094133588231928
+cKO_minus_WT_IL4	Egr2	author_ensembl	all_author_annotated	14	9	5	0	-0.1516408902871395	0.3094630039416541
+cKO_minus_WT_IL4	Arg1	author_ensembl	all_author_annotated	7	0	7	0	-0.3485372196688172	-0.0517302093786691
+cKO_minus_WT_IL4	Irf4	author_ensembl	within_2kb_of_nearest_tss	1	1	0	0	0.2072207187346273	0.2072207187346273
+cKO_minus_WT_IL4	Pparg	author_ensembl	within_2kb_of_nearest_tss	2	0	2	0	-0.1306297971170549	-0.1244951794739772
+cKO_minus_WT_IL4	Rxra	author_ensembl	within_2kb_of_nearest_tss	2	1	1	0	-0.1082590596066643	0.1450945016367346
+cKO_minus_WT_IL4	Stat6	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_IL4	Egr2	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_IL4	Arg1	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_IL4	Irf4	author_nearest_tss_symbol	all_author_annotated	16	9	7	0	-0.1760907039619264	0.4393707939708027
+cKO_minus_WT_IL4	Pparg	author_nearest_tss_symbol	all_author_annotated	17	7	10	0	-0.2471668029940139	0.1745368152635689
+cKO_minus_WT_IL4	Rxra	author_nearest_tss_symbol	all_author_annotated	15	9	6	0	-0.1795922875565656	0.2585445178936503
+cKO_minus_WT_IL4	Stat6	author_nearest_tss_symbol	all_author_annotated	3	0	3	0	-0.3624252937224028	-0.0094133588231928
+cKO_minus_WT_IL4	Egr2	author_nearest_tss_symbol	all_author_annotated	14	9	5	0	-0.1516408902871395	0.3094630039416541
+cKO_minus_WT_IL4	Arg1	author_nearest_tss_symbol	all_author_annotated	7	0	7	0	-0.3485372196688172	-0.0517302093786691
+cKO_minus_WT_IL4	Irf4	author_nearest_tss_symbol	within_2kb_of_nearest_tss	1	1	0	0	0.2072207187346273	0.2072207187346273
+cKO_minus_WT_IL4	Pparg	author_nearest_tss_symbol	within_2kb_of_nearest_tss	2	0	2	0	-0.1306297971170549	-0.1244951794739772
+cKO_minus_WT_IL4	Rxra	author_nearest_tss_symbol	within_2kb_of_nearest_tss	2	1	1	0	-0.1082590596066643	0.1450945016367346
+cKO_minus_WT_IL4	Stat6	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_IL4	Egr2	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_IL4	Arg1	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_CTRL	Irf4	author_ensembl	all_author_annotated	16	10	6	0	-0.1354872746493978	0.6172578739682302
+cKO_minus_WT_CTRL	Pparg	author_ensembl	all_author_annotated	17	8	9	0	-0.3113178221656443	0.3527231089685307
+cKO_minus_WT_CTRL	Rxra	author_ensembl	all_author_annotated	15	8	7	0	-0.2049565080488022	0.3425481528266285
+cKO_minus_WT_CTRL	Stat6	author_ensembl	all_author_annotated	3	2	1	0	-0.1420134610742569	0.1232485093056956
+cKO_minus_WT_CTRL	Egr2	author_ensembl	all_author_annotated	14	7	7	0	-0.2682360390062155	0.2056589027330717
+cKO_minus_WT_CTRL	Arg1	author_ensembl	all_author_annotated	7	3	4	0	-0.2360847507077457	0.3237978394654892
+cKO_minus_WT_CTRL	Irf4	author_ensembl	within_2kb_of_nearest_tss	1	0	1	0	-0.0072815681536901	-0.0072815681536901
+cKO_minus_WT_CTRL	Pparg	author_ensembl	within_2kb_of_nearest_tss	2	1	1	0	-0.055643476529009	0.1272254952241971
+cKO_minus_WT_CTRL	Rxra	author_ensembl	within_2kb_of_nearest_tss	2	0	2	0	-0.2049565080488022	-0.0459722351499625
+cKO_minus_WT_CTRL	Stat6	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_CTRL	Egr2	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_CTRL	Arg1	author_ensembl	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_CTRL	Irf4	author_nearest_tss_symbol	all_author_annotated	16	10	6	0	-0.1354872746493978	0.6172578739682302
+cKO_minus_WT_CTRL	Pparg	author_nearest_tss_symbol	all_author_annotated	17	8	9	0	-0.3113178221656443	0.3527231089685307
+cKO_minus_WT_CTRL	Rxra	author_nearest_tss_symbol	all_author_annotated	15	8	7	0	-0.2049565080488022	0.3425481528266285
+cKO_minus_WT_CTRL	Stat6	author_nearest_tss_symbol	all_author_annotated	3	2	1	0	-0.1420134610742569	0.1232485093056956
+cKO_minus_WT_CTRL	Egr2	author_nearest_tss_symbol	all_author_annotated	14	7	7	0	-0.2682360390062155	0.2056589027330717
+cKO_minus_WT_CTRL	Arg1	author_nearest_tss_symbol	all_author_annotated	7	3	4	0	-0.2360847507077457	0.3237978394654892
+cKO_minus_WT_CTRL	Irf4	author_nearest_tss_symbol	within_2kb_of_nearest_tss	1	0	1	0	-0.0072815681536901	-0.0072815681536901
+cKO_minus_WT_CTRL	Pparg	author_nearest_tss_symbol	within_2kb_of_nearest_tss	2	1	1	0	-0.055643476529009	0.1272254952241971
+cKO_minus_WT_CTRL	Rxra	author_nearest_tss_symbol	within_2kb_of_nearest_tss	2	0	2	0	-0.2049565080488022	-0.0459722351499625
+cKO_minus_WT_CTRL	Stat6	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_CTRL	Egr2	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		
+cKO_minus_WT_CTRL	Arg1	author_nearest_tss_symbol	within_2kb_of_nearest_tss	0	0	0	0		

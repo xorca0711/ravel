@@ -55,3 +55,7 @@ Recover source ages, processing batches and independent sample identities. Defin
 [Plan and existing implementation](PLAN.md) · [Full scientific dossier](../../docs/research_dossiers/A3.md) · [Current interpretation boundary](../../docs/research_dossiers/A3.md#interpretation-boundary).
 
 This folder is the question home. Existing paper-owned analyses, shared code and frozen runs retain their original ownership and paths.
+
+## Literature-informed screening scope — 3 November 2026
+
+The owner-authorized [DY1-P02 fixed identity-target specification](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It reuses complete frozen non-infectious reference estimates for six literature-nominated targets, retaining every target and mapped region. This does not reopen original NAM/pathogen analyses or establish a maintenance mechanism. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md). The complete fixed-target screen finds co-increased Irf4/Pparg RNA in WT IL4 and heterogeneous mapped-region point differences. This neither reproduces nor refutes the distinct alveolar IL13 mechanism.

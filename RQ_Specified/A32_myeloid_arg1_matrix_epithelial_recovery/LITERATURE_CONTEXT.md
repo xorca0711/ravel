@@ -116,3 +116,7 @@ Reopen the review when a specific model, source intervention, mature endpoint
 or linked dataset is nominated. That is when its closest comparison and strongest
 alternative must be refreshed; broad literature coverage cannot supply those
 missing laboratory facts.
+
+## Literature-informed screening disposition — 3 November 2026
+
+The Speth temporal screen is held because the cited GEO series is currently private despite the article data statement. Source pooling also prevents assumed mouse independence. No ARG1/matrix/epithelial temporal effect was computed. [Exact source evidence and reopening condition](reports/RESOLUTION_SCREEN_HOLD_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.

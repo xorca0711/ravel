@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.identity_targets_v1",
+  "owner": "DY1-P02",
+  "contract": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/identity_targets_contract_v1.json",
+  "contract_sha256": "c794d50d97fb6e1740786896a515c81141e6ea44805e65c449230a30bc4e08f5",
+  "git_commit": "94f6efb1e4cdc4270f0346161b0993be032cee92",
+  "started_at": "2026-11-03T06:27:10.436544+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_targets_v1.py",
+    "--output",
+    "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/primary_screen_20261103/GSE247223_countMatrixUpdated.tsv.gz",
+      "sha256": "5a8bc01d332386e221337d0a866875ef31130deab432cadd5c64715052f19ca3",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/rna_descriptive_effects.tsv.gz",
+      "sha256": "9add4c34919227115434318ca2f23a08eb4cc3fef5a44d01feaa1da53c927d0c",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/atac_descriptive_effects.tsv.gz",
+      "sha256": "fc8dc66929bad643992ee548aef55afa8370655f047534add96ec40a53964b2e",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/mapping_membership.tsv.gz",
+      "sha256": "d42bab98789c7e5219d51128b9ee1b16afeeaa762d49a716a295482f94260858",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/rna_genotype_effects.tsv.gz",
+      "sha256": "8b4f0e182930d7b5ea0db4eda14c4facf1e0634240acf3bdfc1ab0be27ccd674",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/atac_genotype_effects.tsv.gz",
+      "sha256": "aa64149fac73dd3049ff1db2887e2fc450094028cbaf29b0916b02c98f114caa",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_membership.tsv.gz",
+      "sha256": "31004cf4372cf35b7d385ffefbfb49490da05893e262e45ad3f812accae65d5f",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_targets_v1.py",
+      "sha256": "1376a12eca80741eb937675ce0e0c0ba0218a6f9e9004b3af29446d3dcbbe8a3"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/identity_targets_spec_v1.json",
+      "sha256": "6dac32c6fbc7789bb92018679fc4c65faaaca270fe7a4f068a6e72ca3ad3f54f"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md",
+      "sha256": "6747f5a74e2d9ad61ab2efb87fcd068d1229392e78030ae1a6a693e06dd41a53"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/target_identifiers.tsv",
+      "sha256": "f350c2dbde40a0e191339e439d4b4768a71ee996525cfa86ce1d19b40624bb12"
+    },
+    {
+      "path": "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/target_rna_effects.tsv",
+      "sha256": "4d0fefd15c6be63d81c96c5f45047b5e92325e630a3d0458d2592f026bb13171"
+    },
+    {
+      "path": "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/target_region_effects.tsv",
+      "sha256": "0ef8a516269738b1295838758368a203152e909718764976c0cbb2eb080ab5a4"
+    },
+    {
+      "path": "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/target_region_summary.tsv",
+      "sha256": "d71a2e84bc70d271ad605a50979fe4a4605740271f012707b69bd48b03a28537"
+    },
+    {
+      "path": "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/identity_targets.png",
+      "sha256": "e75aff266dd836a5cd0ae94bb37d03c298ab462d6190c93557e74c541b8c11db"
+    },
+    {
+      "path": "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/verification.json",
+      "sha256": "9c5cf9199ec814ab2dfde4d61dbad30a4abfeb068e2d884c42302fdf5ad032a2"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T06:27:36.528099+00:00"
+}

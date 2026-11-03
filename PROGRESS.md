@@ -3,6 +3,62 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Reviewed integration prepared — 3 November 2026
+
+The [coordinator review](docs/research_reviews/2026-11-03-primary-candidate-literature/COORDINATOR_REVIEW.md)
+accepts the two new screening deposits for integration at their descriptive
+scope, preserving all four specific limits. Independent table arithmetic, both
+figures, source-hold evidence and the exact-file portability rule were checked.
+The technical validation suite is reused; no numerical rerun was needed.
+Main was refetched after handoff and remains `115f3c5`. GitHub identity was
+verified as `xorca0711`. The owner authorized commit, push and an overall PR;
+publication is the remaining delivery step. No scientific acceptance changed.
+
+## Literature-informed biological screening — 3 November 2026
+
+Two actual numerical comparisons completed under freeze `94f6efb`:
+[A5 named features](RQ_Specified/A5_developmental_programme_reuse/reports/DESTINATION_SCREEN_V1_RESULTS.md)
+show mixed transitional identity RNA, with Klf4/5 above activated AT2 but no
+single destination assignment (24 primary mice; ten common reference mice).
+Basal support remains below floor; this panel does not explain the fixed Guo result.
+[DY1 six-target reference](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md)
+shows co-increased Irf4/Pparg RNA under WT IL4 and heterogeneous mapped-region
+point differences; no NAM mechanism or replication/refutation of alveolar IL13.
+
+The [six-job ledger](docs/research_reviews/2026-11-03-primary-candidate-literature/EXECUTION_LEDGER.md)
+records receipts, adverse results and exact holds. Lin source reproduction lacks
+recovered preparation-level values/map; Speth's cited GEO series is currently
+private until 1 May 2027 despite its public-data statement. A31 and Wg-P06 retain
+their specific missing functional/linkage measurements; old extractions were not
+rerun. Relevant primary texts/supplements and source hashes are recorded.
+
+Both receipts and independent arithmetic checks pass; the coordinator reviewed
+both reports and figures. Refetched main stayed `115f3c5`. Final validation passed:
+15,199 repository checks, research gate, 170 unit tests (one skipped), compilation
+and all required evidence checks. The ledger records exact immutable empty-field/
+log-whitespace exceptions and the one-file line-ending preservation rule.
+No canonical hypothesis, frozen prior evidence, governance or acceptance changed.
+Only the narrow pre-execution commit was made; all results remain for review.
+The coordinator owns overall commit, push and PR. Next: review/integrate the
+returned reports and exact holds; no execution job or rescue analysis remains.
+
+## Recent literature for biological target screening — 3 November 2026
+
+The [reading map](docs/research_reviews/2026-11-03-primary-candidate-literature/README.md)
+connects eight newly located primary papers to A3/DY1-P02, A5, A12 and A32,
+and distinguishes the already-reviewed direct context for A31 and Wg-P06.
+The main additions are IRF4-associated loss of macrophage PPARgamma identity,
+epithelial maturation versus airway diversion, ERBB4-dependent identity stability,
+and the separation of ARG1-positive repair states from ARG1 catalytic effects.
+Queries, publication versions, exact available locators, the Lin Fig. 3m
+correction and partial-access limits are recorded. No numerical analysis or
+canonical hypothesis/priority change was made. Next: complete figure/methods
+reads for an adopted candidate, then synchronize its context/dossier/README
+before specifying a new analysis. Fetched main remained `115f3c5`; no push.
+Repository validation passed (15,115 checks), the research gate against
+`origin/main` passed, and all eight local links in the new review resolve.
+Biological analyses were not rerun for this documentation-only update.
+
 ## Reviewed results committed; article/RQ screening — 3 November 2026
 
 Owner-requested result commit: `fe0316c`, following the three scoped freeze

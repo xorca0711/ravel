@@ -110,3 +110,7 @@ source-reproduction scope does not require a duplicate canonical ID.
 ## Maintenance
 
 Update the owning README, local literature context and registry together when a current entrypoint changes. Preserve unfavorable results, original artwork and frozen evidence. The [migration record](../docs/audits/2026-11-03-rq-structure/README.md) identifies the seven new homes and preserved source paths.
+
+## Literature-informed screens — 3 November 2026
+
+[Six-job ledger](../docs/research_reviews/2026-11-03-primary-candidate-literature/EXECUTION_LEDGER.md): A5 named-feature and A3/DY1 reference screens are executed; A12/Lin and A32/Speth have exact source-value/access holds. A31 and Wg-P06 retain the prior functional/linkage requirements. Original hypotheses and all earlier evidence remain authoritative.
