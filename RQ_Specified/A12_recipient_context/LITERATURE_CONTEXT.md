@@ -68,3 +68,11 @@ A new bounded independent-source search is executed. No cohort clears the unchan
 ## Literature-informed screening disposition — 3 November 2026
 
 The Lin reference sharpens the published receptor/identity distinction, but source-value reproduction is held on unrecovered replicate values and preparation identities. The closed pilot and independent replication hold are unchanged. [Exact source evidence and reopening condition](reports/LIN_REFERENCE_READ_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.
+
+## A12-adjacent ERBB sorted-origin reference — 3 November 2026
+
+A bounded same-day refresh reused A19 intake and the Lin source read, then checked GSE150068/GSE150247, Kathiriya's original methods and direct reanalysis routes. No usable public barcode-to-state map was recovered. The exposed descriptive extension is restricted to the source-defined fresh HTII-280-sorted GSM4522986 preparation, with ERBB4/ERBB2 RNA molecules, full-RNA denominators and detection. It cannot compare epithelial states or change the closed IL-1 pilot.
+
+The close 2026 Gomez/Koyama primary report (DOI [10.1093/ajrccm/aamaf106](https://doi.org/10.1093/ajrccm/aamaf106), Fig. 2A and supplementary Figs. 2/3) warns that HTII-280 sorting need not isolate a homogeneous AT2 state. Its GSE150068 reanalysis shares these data. We retain the source sort label and unknown cell identity. Original-paper QC is operationally reconstructed, with its wording ambiguity explicit. Positive RNA provides a preparation reference; sparse/absent detection limits measurement without establishing absent receptor function.
+
+[Search date, queries, access/version records, published premise to decision, prospective specification and exposure](reports/ERBB_SORTED_SPEC_V1.md). This is reference characterization, not an independent replication, Lin perturbation reproduction, novelty claim or laboratory-readiness decision. The canonical hypothesis and registered qualitative illustration remain unchanged.
