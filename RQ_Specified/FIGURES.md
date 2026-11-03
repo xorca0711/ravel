@@ -1,13 +1,13 @@
 # Question figure gallery
 
-For current question coverage, use the [illustrated guide](../docs/research_dossiers/literature_context_2026-10-03/README.md) and [workspace index](README.md). Proposed [A32](A32_myeloid_arg1_matrix_epithelial_recovery/README.md) adds a qualitative comparison diagram, not a measured-result plate. The earlier measured-file inventory below retains its historical coverage; current package reports own subsequent figures and corrections.
+For current question coverage, use the [question index](README.md) and [schematic gallery](SCHEMATIC_GALLERY.md). Proposed [A32](A32_myeloid_arg1_matrix_epithelial_recovery/README.md) adds a qualitative comparison diagram, not a measured-result plate. The earlier measured-file inventory below retains its historical coverage; current package reports own subsequent figures and corrections.
 
 **7 October extensions:** [A25 regional occupancy](../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) and [A30 common-support sensitivity](../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) have new measured figures. [A31](A31_gria1_fibroblast_response/README.md) has a qualitative proposal schematic; its source RNA figure belongs to [Nb4-P09](../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md).
 
 ## Hypothesis illustrations for registered questions
 
-The [illustrated context guide](../docs/research_dossiers/literature_context_2026-10-03/README.md)
-links the explanatory SVG in each question's README or dossier. These qualitative
+The [question index](README.md) and [schematic gallery](SCHEMATIC_GALLERY.md)
+link the reviewed matte PNG in each question's README and local context. These qualitative
 hypothesis/rival diagrams are separate from the measured-result inventory below;
 “no figures” in that historical inventory means no local measured-result figure.
 Read each context note for published precedents and the purpose of its readouts.

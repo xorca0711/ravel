@@ -1,5 +1,32 @@
 # A30: Inflammatory RNA programmes in paired CSF and blood CD4 T cells
 
+## Organizing Biological Q
+
+CSF and blood can contain different mixtures and states of CD4 T cells. A paired RNA difference may reflect activation, selective trafficking or context-associated expression. A30 asks whether a residual association is measurable within comparable states; it does not presume a compartment-induced mechanism.
+
+**Unresolved gap:** Are the residual RNA differences robust to lineage/gating, depth, activation balance and state-support qualification? The source cannot establish local induction, residence or regulatory function. Ten paired donors and incomplete clinical covariates restrict precision and interpretation; descriptive states do not guarantee biologically comparable populations.
+
+[Full working hypothesis and alternatives](../../docs/research_dossiers/A30.md#working-hypothesis).
+
+<!-- literature-visual-context:start -->
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
+
+[Primary studies, rationale and interpretation limits](LITERATURE_CONTEXT.md).
+
+![A30: reviewed matte qualitative illustration](schematics/A30_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A30_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+*Qualitative proposal, not measured results. Sample symbols do not encode observed
+counts. Extensions require their own qualified designs.*
+<!-- literature-visual-context:end -->
+
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
 **Subsequent evidence — 7 October 2026:** The [observed-support extension](../../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) has executed. Primary common-state support retains 8 donors (inflammatory median +0.03900); activation-standardized support retains 7 (+0.03810). Median coverage is 67.7% CSF / 33.0% blood after trimming; the floor-five interval crosses zero. These restricted estimands cannot replace the pooled result or exclude activation/trafficking. Raw lineage/doublet, barcode, null and functional qualifications remain.
 
 **Question:** Does the CSF-associated inflammatory RNA difference persist within
@@ -15,7 +42,7 @@ coexist. Technical and lineage-gating effects also need assessment. This is an
 observational association question; it does not establish that CSF induces a
 state or that the cells are tissue-resident.
 
-## Current evidence and audit
+### Current evidence and audit
 
 The [v3 denominator erratum](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/A30_ERRATUM.md)
 corrects the earlier subset-based CP10K denominator. Saved v3 pro-inflammatory
@@ -40,7 +67,7 @@ independent replicates. GSE138266 is shared with Wang and Schafflick et al.; thi
 is not independent replication. The separate Wp-R2 Compass direction error does
 not change A30 arithmetic but cannot support a metabolic interpretation of it.
 
-## Next investigation
+### Next investigation
 
 Use the [revised extension baseline](EXTENSION_BASELINE_V2.md): qualify lineage,
 activation balance, null construction and common-state support before another
@@ -54,20 +81,9 @@ Feasibility, functional endpoints and precision remain unspecified.
 Registered as **proposed**. No human retain/reject decision, claim promotion,
 novelty certification or new numerical execution is recorded by this revision.
 
-<!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
 
-[Primary studies, rationale and interpretation limits](LITERATURE_CONTEXT.md).
 
-![A30: reviewed matte qualitative illustration](schematics/A30_gpt_matte_v1.png)
-
-GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A30_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
-
-*Qualitative proposal, not measured results. Sample symbols do not encode observed
-counts. Extensions require their own qualified designs.*
-<!-- literature-visual-context:end -->
-
-## Historical records
+### Historical records
 
 [Original plan](PLAN.md), [v2 result record](RESULTS.md),
 [v2 measured figure](../../analysis/research/runs/wp_a30_figure_v2/figure_a30_activation_and_composition.png)

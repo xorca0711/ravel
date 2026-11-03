@@ -57,7 +57,10 @@
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
         "docs/research_dossiers/extensions_2026-10-03/A3_Nb5_age_reference.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A3_macrophage_injury_history/README.md",
+        "RQ_Specified/A3_macrophage_injury_history/PLAN.md",
+        "RQ_Specified/A3_macrophage_injury_history/LITERATURE_CONTEXT.md"
       ]
     },
     {
@@ -71,7 +74,10 @@
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
         "docs/research_dossiers/continuation_2026-10-03/PACKAGE_REVIEW.md",
         "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A4_wnt_history_il1_response/README.md",
+        "RQ_Specified/A4_wnt_history_il1_response/PLAN.md",
+        "RQ_Specified/A4_wnt_history_il1_response/LITERATURE_CONTEXT.md"
       ]
     },
     {
@@ -97,7 +103,10 @@
         "Research Article/gate1_04_sikkema_2023_hlca/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A6_ipf_macrophage_state_composition/README.md",
+        "RQ_Specified/A6_ipf_macrophage_state_composition/PLAN.md",
+        "RQ_Specified/A6_ipf_macrophage_state_composition/LITERATURE_CONTEXT.md"
       ]
     },
     {
@@ -112,7 +121,10 @@
         "docs/research_dossiers/followup_2026-10-03/METADATA.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
         "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
-        "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md",
+        "RQ_Specified/A7_cebpa_baseline_state_dependence/README.md",
+        "RQ_Specified/A7_cebpa_baseline_state_dependence/PLAN.md",
+        "RQ_Specified/A7_cebpa_baseline_state_dependence/LITERATURE_CONTEXT.md"
       ]
     },
     {
@@ -142,7 +154,10 @@
         "docs/research_dossiers/followup_2026-10-03/METADATA.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
         "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A9_areg_recipient_competence/README.md",
+        "RQ_Specified/A9_areg_recipient_competence/PLAN.md",
+        "RQ_Specified/A9_areg_recipient_competence/LITERATURE_CONTEXT.md"
       ]
     },
     {
@@ -246,7 +261,10 @@
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
         "docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md",
         "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md",
-        "docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md"
+        "docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md",
+        "RQ_Specified/A17_clonal_growth_persistence/README.md",
+        "RQ_Specified/A17_clonal_growth_persistence/PLAN.md",
+        "RQ_Specified/A17_clonal_growth_persistence/LITERATURE_CONTEXT.md"
       ]
     },
     {
@@ -257,7 +275,10 @@
         "Research Article/gate2_C2_england_2025/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A18_neighbor_wt_expansion_identity/README.md",
+        "RQ_Specified/A18_neighbor_wt_expansion_identity/PLAN.md",
+        "RQ_Specified/A18_neighbor_wt_expansion_identity/LITERATURE_CONTEXT.md"
       ]
     },
     {
@@ -1255,9 +1276,9 @@
     },
     {
       "question": "A3",
-      "context": "docs/research_dossiers/literature_context_2026-10-03/A3.md",
-      "entrypoint": "docs/research_dossiers/A3.md",
-      "schematic": "docs/research_dossiers/schematics/A3_gpt_matte_v1.png",
+      "context": "RQ_Specified/A3_macrophage_injury_history/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A3_macrophage_injury_history/README.md",
+      "schematic": "RQ_Specified/A3_macrophage_injury_history/schematics/A3_gpt_matte_v1.png",
       "kind": "qualitative_hypothesis",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
       "schematic_sha256": "bfd44641a89fef3c5500c1c3e749c9f3defe757132e5d3db66b1ddd3d9a1087a",
@@ -1265,9 +1286,9 @@
     },
     {
       "question": "A4",
-      "context": "docs/research_dossiers/literature_context_2026-10-03/A4.md",
-      "entrypoint": "docs/research_dossiers/A4.md",
-      "schematic": "docs/research_dossiers/schematics/A4_gpt_matte_v1.png",
+      "context": "RQ_Specified/A4_wnt_history_il1_response/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A4_wnt_history_il1_response/README.md",
+      "schematic": "RQ_Specified/A4_wnt_history_il1_response/schematics/A4_gpt_matte_v1.png",
       "kind": "qualitative_hypothesis",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
       "schematic_sha256": "aa010863358ae342c105ecad3973727a74b73d413c7615ce6638d35cdba8b152",
@@ -1285,9 +1306,9 @@
     },
     {
       "question": "A6",
-      "context": "docs/research_dossiers/literature_context_2026-10-03/A6.md",
-      "entrypoint": "docs/research_dossiers/A6.md",
-      "schematic": "docs/research_dossiers/schematics/A6_gpt_matte_v1.png",
+      "context": "RQ_Specified/A6_ipf_macrophage_state_composition/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A6_ipf_macrophage_state_composition/README.md",
+      "schematic": "RQ_Specified/A6_ipf_macrophage_state_composition/schematics/A6_gpt_matte_v1.png",
       "kind": "qualitative_hypothesis",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
       "schematic_sha256": "61ed118cd46fa7752255f734f1b20e7f1b90403cf45dc7d011b27812c94c4fc1",
@@ -1295,9 +1316,9 @@
     },
     {
       "question": "A7",
-      "context": "docs/research_dossiers/literature_context_2026-10-03/A7.md",
-      "entrypoint": "docs/research_dossiers/A7.md",
-      "schematic": "docs/research_dossiers/schematics/A7_gpt_matte_v1.png",
+      "context": "RQ_Specified/A7_cebpa_baseline_state_dependence/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A7_cebpa_baseline_state_dependence/README.md",
+      "schematic": "RQ_Specified/A7_cebpa_baseline_state_dependence/schematics/A7_gpt_matte_v1.png",
       "kind": "qualitative_hypothesis",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
       "schematic_sha256": "5fcefc6e1fd89e96bdc3f9925999091528697c97b9272cd8d56b911a94aa002e",
@@ -1315,9 +1336,9 @@
     },
     {
       "question": "A9",
-      "context": "docs/research_dossiers/literature_context_2026-10-03/A9.md",
-      "entrypoint": "docs/research_dossiers/A9.md",
-      "schematic": "docs/research_dossiers/schematics/A9_gpt_matte_v1.png",
+      "context": "RQ_Specified/A9_areg_recipient_competence/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A9_areg_recipient_competence/README.md",
+      "schematic": "RQ_Specified/A9_areg_recipient_competence/schematics/A9_gpt_matte_v1.png",
       "kind": "qualitative_hypothesis",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
       "schematic_sha256": "442e431cc83cedab2314eac22608113530a985ed5a91572e10ea9bd8f62bf936",
@@ -1395,9 +1416,9 @@
     },
     {
       "question": "A17",
-      "context": "docs/research_dossiers/literature_context_2026-10-03/A17.md",
-      "entrypoint": "docs/research_dossiers/A17.md",
-      "schematic": "docs/research_dossiers/schematics/A17_gpt_matte_v1.png",
+      "context": "RQ_Specified/A17_clonal_growth_persistence/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A17_clonal_growth_persistence/README.md",
+      "schematic": "RQ_Specified/A17_clonal_growth_persistence/schematics/A17_gpt_matte_v1.png",
       "kind": "qualitative_hypothesis",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
       "schematic_sha256": "f47a85b7bb88c9b7a3fcbc6b2e7073f310fb1ab5a6cd35d8a18549f028162d38",
@@ -1405,9 +1426,9 @@
     },
     {
       "question": "A18",
-      "context": "docs/research_dossiers/literature_context_2026-10-03/A18.md",
-      "entrypoint": "docs/research_dossiers/A18.md",
-      "schematic": "docs/research_dossiers/schematics/A18_gpt_matte_v1.png",
+      "context": "RQ_Specified/A18_neighbor_wt_expansion_identity/LITERATURE_CONTEXT.md",
+      "entrypoint": "RQ_Specified/A18_neighbor_wt_expansion_identity/README.md",
+      "schematic": "RQ_Specified/A18_neighbor_wt_expansion_identity/schematics/A18_gpt_matte_v1.png",
       "kind": "qualitative_hypothesis",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
       "schematic_sha256": "c0fe6222d70c2c8d669c20d1819414e6427e6d771965f56069ef3e086bdf618e",
@@ -1597,26 +1618,26 @@
     {
       "question": "A3",
       "kind": "qualitative_raster_illustration",
-      "image": "docs/research_dossiers/schematics/A3_gpt_matte_v1.png",
+      "image": "RQ_Specified/A3_macrophage_injury_history/schematics/A3_gpt_matte_v1.png",
       "image_sha256": "bfd44641a89fef3c5500c1c3e749c9f3defe757132e5d3db66b1ddd3d9a1087a",
-      "source_schematic": "docs/research_dossiers/schematics/A3_cellular_v1.svg",
+      "source_schematic": "RQ_Specified/A3_macrophage_injury_history/schematics/A3_cellular_v1.svg",
       "source_schematic_sha256": "07182e550686a3c95a9a1f112586f5e146ac6947b594eab18aed01ac5f6d309e",
       "hypothesis_sha256": "fd2a84403bebeb6aca0922d0a18a48f8b76c7cc90c9313ce2dc626d9952dbefa",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
-      "prompt": "docs/research_dossiers/schematics/A3_gpt_matte_v1.prompt.txt",
+      "prompt": "RQ_Specified/A3_macrophage_injury_history/schematics/A3_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "803b6fa55a366fe33b0df33a1cff88d8808aba7c4244cabe6c5338c61275148d",
       "review_record": "docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md"
     },
     {
       "question": "A4",
       "kind": "qualitative_raster_illustration",
-      "image": "docs/research_dossiers/schematics/A4_gpt_matte_v1.png",
+      "image": "RQ_Specified/A4_wnt_history_il1_response/schematics/A4_gpt_matte_v1.png",
       "image_sha256": "aa010863358ae342c105ecad3973727a74b73d413c7615ce6638d35cdba8b152",
-      "source_schematic": "docs/research_dossiers/schematics/A4_cellular_v1.svg",
+      "source_schematic": "RQ_Specified/A4_wnt_history_il1_response/schematics/A4_cellular_v1.svg",
       "source_schematic_sha256": "d57d2c06e4d17d532f963f2334b97519f8d0c6d9b65e70c4d68e63a951ca81a2",
       "hypothesis_sha256": "7122cb0ccae794f28ed3226bd65a6b05e494cb93bf9c884eb93e116f223d4df1",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
-      "prompt": "docs/research_dossiers/schematics/A4_gpt_matte_v1.prompt.txt",
+      "prompt": "RQ_Specified/A4_wnt_history_il1_response/schematics/A4_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "7ba6f26ec49985c55542260844eda339c2419965fa02ff433bd0902d5f86e569",
       "review_record": "docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md"
     },
@@ -1636,26 +1657,26 @@
     {
       "question": "A6",
       "kind": "qualitative_raster_illustration",
-      "image": "docs/research_dossiers/schematics/A6_gpt_matte_v1.png",
+      "image": "RQ_Specified/A6_ipf_macrophage_state_composition/schematics/A6_gpt_matte_v1.png",
       "image_sha256": "61ed118cd46fa7752255f734f1b20e7f1b90403cf45dc7d011b27812c94c4fc1",
-      "source_schematic": "docs/research_dossiers/schematics/A6_cellular_v1.svg",
+      "source_schematic": "RQ_Specified/A6_ipf_macrophage_state_composition/schematics/A6_cellular_v1.svg",
       "source_schematic_sha256": "2dc100c4358e0b13ae43cb2a86f461c291db9bc8370b600c7f0fc7f7688888ef",
       "hypothesis_sha256": "0f9f80c1087345b886695ab80813b7a047683fdc90de2f8947a129a84ad3091c",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
-      "prompt": "docs/research_dossiers/schematics/A6_gpt_matte_v1.prompt.txt",
+      "prompt": "RQ_Specified/A6_ipf_macrophage_state_composition/schematics/A6_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "9fb004aa922eac25f4866e53657643f7a1125f978cc0d75136f3acb515858ee7",
       "review_record": "docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md"
     },
     {
       "question": "A7",
       "kind": "qualitative_raster_illustration",
-      "image": "docs/research_dossiers/schematics/A7_gpt_matte_v1.png",
+      "image": "RQ_Specified/A7_cebpa_baseline_state_dependence/schematics/A7_gpt_matte_v1.png",
       "image_sha256": "5fcefc6e1fd89e96bdc3f9925999091528697c97b9272cd8d56b911a94aa002e",
-      "source_schematic": "docs/research_dossiers/schematics/A7_cellular_v1.svg",
+      "source_schematic": "RQ_Specified/A7_cebpa_baseline_state_dependence/schematics/A7_cellular_v1.svg",
       "source_schematic_sha256": "e1949e56489374b3950cdc3293a0e8baa28c257a26729f273b9d4474d28a601c",
       "hypothesis_sha256": "b785f5c69c81b393250cdee5ed50b4c58190a087fb4879e0b2aa477198d3cdef",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
-      "prompt": "docs/research_dossiers/schematics/A7_gpt_matte_v1.prompt.txt",
+      "prompt": "RQ_Specified/A7_cebpa_baseline_state_dependence/schematics/A7_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "463161d0f0d5e583551cd608106b8b57f7c554a2e33c271318104e04edd35e76",
       "review_record": "docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md"
     },
@@ -1675,13 +1696,13 @@
     {
       "question": "A9",
       "kind": "qualitative_raster_illustration",
-      "image": "docs/research_dossiers/schematics/A9_gpt_matte_v1.png",
+      "image": "RQ_Specified/A9_areg_recipient_competence/schematics/A9_gpt_matte_v1.png",
       "image_sha256": "442e431cc83cedab2314eac22608113530a985ed5a91572e10ea9bd8f62bf936",
-      "source_schematic": "docs/research_dossiers/schematics/A9_cellular_v1.svg",
+      "source_schematic": "RQ_Specified/A9_areg_recipient_competence/schematics/A9_cellular_v1.svg",
       "source_schematic_sha256": "5c8d873ea7530cea7dd1ecf5de4079be1004a41793b54967cb59d45cd722de34",
       "hypothesis_sha256": "2f219e6d35d60b248be91f5756d0ca34dfb1e71504df4d924b41d7a897346b0a",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
-      "prompt": "docs/research_dossiers/schematics/A9_gpt_matte_v1.prompt.txt",
+      "prompt": "RQ_Specified/A9_areg_recipient_competence/schematics/A9_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "5e2a91abc2a8a98af3fafe3740d7e321ded56c9c8f7ba0f1bc1cbd8a227a2fb7",
       "review_record": "docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md"
     },
@@ -1779,26 +1800,26 @@
     {
       "question": "A17",
       "kind": "qualitative_raster_illustration",
-      "image": "docs/research_dossiers/schematics/A17_gpt_matte_v1.png",
+      "image": "RQ_Specified/A17_clonal_growth_persistence/schematics/A17_gpt_matte_v1.png",
       "image_sha256": "f47a85b7bb88c9b7a3fcbc6b2e7073f310fb1ab5a6cd35d8a18549f028162d38",
-      "source_schematic": "docs/research_dossiers/schematics/A17_cellular_v1.svg",
+      "source_schematic": "RQ_Specified/A17_clonal_growth_persistence/schematics/A17_cellular_v1.svg",
       "source_schematic_sha256": "febf3a83fc9b2ebf3348e9d8ce71344c606a9deff7373dbed277c9ee7dba0322",
       "hypothesis_sha256": "5ba24f23793dce6c3097668a70a958523ef11f98b8f34023dfca4599be16d149",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
-      "prompt": "docs/research_dossiers/schematics/A17_gpt_matte_v1.prompt.txt",
+      "prompt": "RQ_Specified/A17_clonal_growth_persistence/schematics/A17_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "9ea6dee481d7f860abe88991e71a8794d15f5598b1d4e9de07b711ee7169dcb9",
       "review_record": "docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md"
     },
     {
       "question": "A18",
       "kind": "qualitative_raster_illustration",
-      "image": "docs/research_dossiers/schematics/A18_gpt_matte_v1.png",
+      "image": "RQ_Specified/A18_neighbor_wt_expansion_identity/schematics/A18_gpt_matte_v1.png",
       "image_sha256": "c0fe6222d70c2c8d669c20d1819414e6427e6d771965f56069ef3e086bdf618e",
-      "source_schematic": "docs/research_dossiers/schematics/A18_cellular_v1.svg",
+      "source_schematic": "RQ_Specified/A18_neighbor_wt_expansion_identity/schematics/A18_cellular_v1.svg",
       "source_schematic_sha256": "21335125fb02d4f590389bec643550796fe9808f826039810d7d900474f768c5",
       "hypothesis_sha256": "044115a68e1720e4ac915cb51048469d312762bb17e236490ff43052fc720895",
       "source_revision": "51a3be1a26244b8d73a894629f6b854ab4b7b6c1",
-      "prompt": "docs/research_dossiers/schematics/A18_gpt_matte_v1.prompt.txt",
+      "prompt": "RQ_Specified/A18_neighbor_wt_expansion_identity/schematics/A18_gpt_matte_v1.prompt.txt",
       "prompt_sha256": "2c0842eb5b39f891b0109a98a6d7dadaf33da2ffd60508fa715a38261a4d68ae",
       "review_record": "docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md"
     },

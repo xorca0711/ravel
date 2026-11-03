@@ -1,6 +1,8 @@
 # Research development index
 
-**Current evidence:** use the [7 October readiness review](../audits/2026-10-07-repository-readiness/REPORT.md) and [31-question review ledger](../audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md). Wp score corrections supersede affected earlier summaries; registration is not acceptance.
+**Current navigation:** all [33 question homes](../../RQ_Specified/README.md) have a local README, literature context and visual hypothesis. These central dossiers retain the full scientific argument; current result reports and amendments own the measured evidence. Wp score corrections supersede affected earlier summaries; registration is not acceptance.
+
+**Historical review coverage:** the [7 October readiness review](../audits/2026-10-07-repository-readiness/REPORT.md) and its [31-question review ledger](../audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md) retain their dated scope. They are not the current 33-question inventory.
 
 **Specificity and novelty applied:** [current source comparison](NOVELTY_SPECIFICITY_APPLICATION_2026-10-03.md) reuses the earlier audits and separates established biology from the exact remaining comparison. Short labels below are navigation; the hypothesis paragraphs and contrasting outcome patterns are in each dossier and dedicated README. No question is certified novel or experiment-ready.
 

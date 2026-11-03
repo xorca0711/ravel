@@ -110,5 +110,5 @@ checks do not verify that a search was performed or that a source supports a
 claim. Source interpretation and governance changes require explicit review;
 protected integration remains an external setting, not a property of prose.
 
-[Current question context index](research_dossiers/literature_context_2026-10-03/README.md)
+[Current question context index](../RQ_Specified/README.md)
 contains the applied example and its honest search/access limits.

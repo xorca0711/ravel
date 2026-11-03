@@ -1,7 +1,9 @@
 # A10: epithelial and niche programmes against measured organoid growth
 
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 The existing epithelial programme measurements may forecast subsequent organoid area beyond initial area and cell-cycle information across independent preparations. This is a growth-prediction question supporting the broader epithelial-growth hypothesis. The current day-14 RNA/area association is concurrent; it neither establishes early forecasting nor identifies a causal programme or mature repair function.
 
@@ -29,7 +31,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -40,8 +44,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
 
-## Organizing biological question
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Do epithelial programmes add information about measured organoid growth?
 
@@ -58,7 +67,7 @@ function and successful tissue repair require their own measurements.
 [biological rationale](RATIONALE.md), [plan](PLAN.md),
 [follow-up results](reports/FOLLOWUP_RESULTS.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
 
@@ -112,7 +121,7 @@ a within-screen descriptive association. See the
 [logical review](../../docs/LOGICAL_RATIONALE_REVIEW.md#a10-corrections) for the
 scope of the checks and differences between the written plan and implementation.
 
-## Why this question is worth the effort
+### Why this question is worth the effort
 
 A10 relates compartment-level RNA to a measured imaging endpoint: day-14 mean
 organoid area conditional on day-7 mean area. It complements A1's existing lineage
@@ -126,7 +135,7 @@ profiles may reflect feedback, cell abundance and shared culture conditions.
 Species assignment distinguishes RNA origin, not cell-autonomous versus niche-mediated
 causal effects. The [rationale](RATIONALE.md) explains the biological premise.
 
-## Where the work stands
+### Where the work stands
 
 - **Retrieved and processed.** Metadata, the count workbook and frozen gene sets
   were used for the completed fits. Local input caches are ignored; hashes and
@@ -139,12 +148,12 @@ causal effects. The [rationale](RATIONALE.md) explains the biological premise.
 - **Still unresolved.** The biological unit. With no external cohort available, that is
   now the binding constraint on how strongly any result can be read.
 
-## The gate in one sentence
+### The gate in one sentence
 
 The deposit has 886 RNA libraries across 203 perturbation targets, but a well is not
 an animal, and the deposit does not say how many independent preparations there are.
 
-## Layout
+### Layout
 
 | Path | Contents |
 |---|---|
@@ -166,7 +175,7 @@ an animal, and the deposit does not say how many independent preparations there 
 | `tables/` | Stage outputs and run records |
 | `cache/` | Local metadata/count intermediates; ignored, hashes tracked |
 
-## Current source-paper handoff, 1 October 2026
+### Current source-paper handoff, 1 October 2026
 
 The owner has now finished reading Nabhan 2026. Its
 [paper package](../../Research%20Article/gate2_N2_nabhan_2026/README.md) contains
@@ -174,7 +183,7 @@ the source/annotation synthesis and reproduction-first extension plan. The
 earlier unread-paper restriction is superseded for that new package. Historical
 reading-status fields in frozen A10 configurations remain unchanged.
 
-## Rule retained for later sessions
+### Rule retained for later sessions
 
 - **Do not split wells at random for evaluation.** Wells may share preparation and
   handling. Completed holdouts are entire deposited plate-replicate groups;

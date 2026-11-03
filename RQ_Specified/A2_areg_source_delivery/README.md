@@ -1,9 +1,9 @@
 # A2: does the fibroblast response to AREG depend on delivery or on abundance
 
-**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
-
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 Epithelial AREG delivery can change the effective ligand reaching fibroblasts and thereby their response, even when epithelial AREG RNA or source-cell abundance is similar. The biological contrast is delivery through effective availability versus a recipient-context effect. The source/presentation comparison and downstream fibroblast function remain unnominated, so this is a developing hypothesis, not a specified wet experiment.
 
@@ -31,7 +31,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -42,6 +44,16 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
+
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+**DY1 contextual link, 29 October 2026:** [Paper and human-atlas relevance](DY1_CONTEXT_2026-10-29.md). Article-local observations do not change this question's hypothesis, current evidence or endpoint requirements.
+
+
+
+
+
 
 **Conditional source-state branch reviewed 1 October 2026:** [Cardoso source
 decomposition and England coordinated outputs](../../RESEARCH_QUESTIONS.md#a2-candidates-20261001)
@@ -49,7 +61,9 @@ specify an upstream rival already relevant to A2. They do not establish ligand
 release, controlled delivery or recipient activation. Existing A2 fits and
 contracts remain unchanged.
 
-## Organizing biological question
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Does the fibroblast response to AREG depend on delivery or on abundance?
 
@@ -66,7 +80,7 @@ do not directly distinguish spatial delivery from ligand abundance.
 [biological rationale](RATIONALE.md), [plan](PLAN.md),
 [current interpretation](reports/INTERPRETATION_AUDIT_2026-09-27.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **New source evidence from roadmap P1:** the [recovered methods](../../docs/roadmap_runs/2026-09-27/P1_SCREEN_DESIGN.md) show four wells split from a common cell mixture and recombinant EGF in regular medium. Repeat wells do not provide four independent preparations. Per-library preparation/lot mapping and quantitative ligand conditions remain unresolved. Frozen results below are preserved.
 
@@ -101,13 +115,13 @@ abundance record are in [RATIONALE.md](RATIONALE.md); the stages and their stop
 rules are in [PLAN.md](PLAN.md); the frozen decisions are in
 [`config/a2_delivery_contract.json`](config/a2_delivery_contract.json).
 
-## The hypothesis in one sentence
+### The hypothesis in one sentence
 
 AREG's contribution to a fibroblast response is set by where the ligand is
 released relative to a competent recipient, not by which compartment transcribes
 the most of it.
 
-## Why the previous question is closed
+### Why the previous question is closed
 
 Seven register rows answer the abundance version, and none establishes a
 depth-independent epithelial hierarchy: C37, C39, C45, C40, C48, C49 and C50. C45
@@ -117,7 +131,7 @@ variables is hard to read at all: the one significant pair in that trial tracked
 sequencing depth and a frozen rule refused it. The rationale lists each row with the
 register's own wording and its status. None of them is re-graded here.
 
-## What makes the question testable now
+### What makes the question testable now
 
 The mechanism is short-range and recipient-licensed. Amphiregulin activates
 integrin alphaV on mesenchymal stromal cells and releases bioactive TGF-beta from
@@ -136,7 +150,7 @@ Two legs follow, each able to fail alone:
 | 1 | Removing the epithelial source lowers a frozen fibroblast activation programme; removing epithelial reception does not | GSE307112 organoid knockout screen | 4 units of one repeated plate layout |
 | 2 | The fibroblast response tracks the recipient's post-receptor integrin and latent-complex genes better than it tracks epithelial ligand; now exploratory | GSE136831, the trial E6 instrument reused | donor |
 
-## What the screen can and cannot separate
+### What the screen can and cannot separate
 
 The screen perturbs the mouse epithelium only and leaves the human fibroblasts
 unedited, with reads assigned by species. Targeting mouse Areg challenges a candidate
@@ -153,7 +167,7 @@ A positive result is equally consistent with the abundance version. The five rem
 axis targets sit on plate 3 with one well per target in each of its four units, which
 is forced by the design rather than chosen.
 
-## What the gate found
+### What the gate found
 
 Stage 1 passed all seven stop rules, so the test can run, and it constrained the
 freeze in four ways. Erbb4 RNA was not detected by the screened measure, so it is
@@ -168,7 +182,7 @@ Power is exact rather than estimated. The Areg well must average the 27th percen
 of its unit for the primary to clear alpha 0.05, and being just below the median in
 all four units does not reach it.
 
-## Layout
+### Layout
 
 | Path | Contents |
 |---|---|
@@ -183,7 +197,7 @@ all four units does not reach it.
 | `tables/` | stage 1 outputs and their run record |
 | `reports/` | [synthesis](reports/STAGE5_SYNTHESIS.md), [leg 1](reports/STAGE3_LEG1_RESULTS.md), [leg 2](reports/STAGE4_LEG2_RESULTS.md), [leg 2 standardised](reports/LEG2_DEPTH_STANDARDISED_RESULTS.md), [stage 1 audit](reports/STAGE1_AUDIT.md), the [first freeze](reports/STAGE2_FREEZE.md) and its [withdrawal](reports/STAGE2_WITHDRAWN.md) |
 
-## Three things a later session must not do
+### Three things a later session must not do
 
 1. **Do not compute either endpoint by target before stage 2 is committed.** The
    pre-registration is the only thing that makes four wells per target readable,

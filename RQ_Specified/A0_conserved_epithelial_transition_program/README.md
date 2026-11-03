@@ -1,7 +1,9 @@
 # A0 — Conserved epithelial transition programme
 
 <!-- current-rq-framing:start -->
-## Current biological hypothesis and novelty boundary — 3 October 2026
+<a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
+
+## Organizing Biological Q
 
 Biological aim: adult epithelial repair recruits part of a transition programme also used in other epithelial contexts. The frozen 50-gene lung-to-intestine test failed its intended ordering; the remaining task is to determine whether independently justified source and target states are comparable. No replacement signature or conserved fate-control mechanism is proposed by that failure.
 
@@ -28,7 +30,9 @@ results and original plans below retain their recorded scope.
 <!-- current-rq-framing:end -->
 
 <!-- literature-visual-context:start -->
-## Literature context and visual hypothesis
+<a id="literature-context-and-visual-hypothesis"></a>
+
+## Literature context & visual hypothesis
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
@@ -39,8 +43,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->
 
+## Evidence, analyses and next steps
 
-## Organizing biological question
+The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
+
+<a id="organizing-biological-question"></a>
+
+### Earlier organizing question
 
 > Is a conserved programme reused across epithelial transitions, and could it modulate fate?
 
@@ -56,7 +65,7 @@ cross-tissue test from the still-open causal question about fate.
 **Read first:** [question card](../../RESEARCH_QUESTIONS.md#a0),
 [plan](PLAN.md), [scientific pilot result](reports/PILOT_V1_RESULTS.md).
 
-## Evidence and analysis history
+### Evidence and analysis history
 
 **Audit clarification, 27 September 2026:** the current `pilot_v1` and the earlier
 repair-first exploratory pilot have different cohorts, intestinal state definitions
@@ -74,7 +83,7 @@ Read the [scientific result](reports/PILOT_V1_RESULTS.md) and
 [figure gallery](figures/pilot_v1/README.md). This completed pilot does not resolve
 universality or demonstrate causal modulation of fate.
 
-## Biological question and sequence
+### Biological question and sequence
 
 Could epithelia reuse some of the cellular work needed to move between identities,
 and could that shared process help determine their fate? The observable RNA test
@@ -99,7 +108,7 @@ causal endpoint. No independent cells or technical captures are counted as anima
 | [Current status](tables/pilot_v1/pilot_status.json) | Executed stages and explicitly pruned P4 |
 | [Reproduction](REPRODUCING.md) | Inputs, scripts, safeguards and verification |
 
-## Historical feasibility audit
+### Historical feasibility audit
 
 The [original report](reports/PILOT_REPORT.md), `readiness.json`, `validation.json`
 and `execution_record.json` describe the 25 September audit, when no programme
@@ -110,7 +119,7 @@ preserves the original bytes of updated entry points. The
 The original [plan](PLAN.md) and [candidate list](DATASET_CANDIDATES.md) remain
 available with repaired links to the canonical `Research Article/` directory.
 
-## Separate repair-first exploratory analysis
+### Separate repair-first exploratory analysis
 
 This is a separate repair-first exploratory run, executed from the earlier
 checkout and published beside the already merged [pilot_v1](reports/PILOT_V1_RESULTS.md)

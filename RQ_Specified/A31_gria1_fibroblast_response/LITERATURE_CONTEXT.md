@@ -1,5 +1,7 @@
 # A31 primary-source context
 
+[Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A31.md).
+
 ## Published starting point
 
 [Travaglini/Nabhan 2020](https://doi.org/10.1038/s41586-020-2922-4), stromal

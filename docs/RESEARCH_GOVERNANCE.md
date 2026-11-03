@@ -59,7 +59,7 @@ experimental oversight; a repository proposal does not provide those facts.
 Question development follows the [literature workflow](LITERATURE_WORKFLOW.md):
 recent primary work, older close precedents, contradictions and actual repository
 observations must be connected to the proposed discriminator. The
-[context index](research_dossiers/literature_context_2026-10-03/README.md) provides
+[context index](../RQ_Specified/README.md) provides
 the current bounded application; it is not portfolio-wide novelty clearance.
 
 `question_guides` in the registry binds every canonical question to a context
