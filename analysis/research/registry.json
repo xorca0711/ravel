@@ -487,7 +487,8 @@
         "RQ_Specified/A31_gria1_fibroblast_response/PLAN.md",
         "docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md",
         "docs/portfolio_extensions/2026-10-07/g2_niche/NEW_QUESTION_CANDIDATE.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A31_gria1_fibroblast_response/reports/PARTNER_CONTEXT_V1_RESULTS.md"
       ]
     },
     {
@@ -1122,7 +1123,8 @@
     "analysis/research/contracts/A3.identity_repeat_source_view_v1.json",
     "analysis/research/contracts/A5.component_attribution_v1.json",
     "analysis/research/contracts/A12.il1_components_v1.json",
-    "analysis/research/contracts/A31.partner_context_v1.json"
+    "analysis/research/contracts/A31.partner_context_v1.json",
+    "analysis/research/contracts/A9.receptor_context_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1270,7 +1272,8 @@
     "analysis/research/runs/A12_erbb_configuration_binding_v1_20261103/receipt.json",
     "analysis/research/runs/A3_identity_repeat_source_view_v1_20261103/receipt.json",
     "analysis/research/runs/A5_component_attribution_v1_20261103/receipt.json",
-    "analysis/research/runs/A12_il1_components_v1_20261103/receipt.json"
+    "analysis/research/runs/A12_il1_components_v1_20261103/receipt.json",
+    "analysis/research/runs/A31_partner_context_v1_20261103/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",
