@@ -1099,7 +1099,8 @@
     "analysis/cut_fill_20261103/a25_models_v1.json",
     "analysis/cut_fill_20261103/a30_join_v1.json",
     "analysis/cut_fill_20261103/a17_figure_v1.json",
-    "analysis/cut_fill_20261103/a25_figure_v1.json"
+    "analysis/cut_fill_20261103/a25_figure_v1.json",
+    "analysis/cut_fill_20261103/a12_source_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1234,7 +1235,9 @@
     "analysis/research/runs/cut_fill_a5_source_v1_20261103/receipt.json",
     "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/receipt.json",
     "analysis/research/runs/cut_fill_a25_models_v1_20261103/receipt.json",
-    "analysis/research/runs/cut_fill_a30_join_v1_20261103/receipt.json"
+    "analysis/research/runs/cut_fill_a30_join_v1_20261103/receipt.json",
+    "analysis/research/runs/cut_fill_a17_figure_v1_20261103/receipt.json",
+    "analysis/research/runs/cut_fill_a25_figure_v1_20261103/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

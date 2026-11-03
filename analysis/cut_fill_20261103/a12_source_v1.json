@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.cut_fill_source_v1_20261103",
+  "owner": "A12",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Does a new independent LUAD source meet the unchanged patient, state and count eligibility gate?",
+  "decision": "Admit fixed-procedure replication only after the exact source map and10eligible patient pairs qualify.",
+  "strongest_rival": "Technical libraries or enriched cell captures can be mistaken for paired biological source-recipient coverage.",
+  "discriminator": "Exact SDRF sample-to-patient/disease/capture mapping and primary annotation-access records; no expression prediction.",
+  "evidence_refs": [
+    "docs/audits/2026-11-03-rq-evidence-trajectory/A12_SOURCE_SPEC_V1.md",
+    "RQ_Specified/A12_recipient_context/PLAN.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Existing source outcomes, scores, clusters and coverage are exposed. This session read saved evidence and metadata before freeze. Newly specified model/qualification outputs have not been run; no blind confirmation is claimed.",
+  "biological_unit": "Paired patient for replication; source records for this metadata-only qualification.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Existing source data are reused; cells/clones/libraries and numerical replicates are not independent mice, patients or donors.",
+  "population_and_selection": "Three bounded new candidates; detailed current deposited metadata for E-MTAB-13526; no original pilot rerun.",
+  "contrast": "Available patient/capture/state mapping versus the unchanged prospective source eligibility conditions.",
+  "endpoint": "Deduplicated source patients, supported capture opportunities, access limitations and gate disposition.",
+  "methods": "Exact sample-key deduplication and explicit source characteristic checks, preserving unknown cell support and metadata access failures.",
+  "missingness_and_exclusions": "Apply the exact specification. Retain all failed gates and adverse results; do not infer missing identities, zero cells or unmeasured states.",
+  "multiplicity": "One bounded package with all declared comparisons retained; exploratory descriptive outputs, no significance or equivalence claims.",
+  "precision_status": "unknown",
+  "precision_basis": "No biological effect margin or confirmatory precision is supplied. Numerical checks and finite-sample coverage do not supply biological power.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Only the measured qualification or conditional predictive endpoint is supported. No biological mechanism, lineage, functional state, human acceptance or independent replication is established.",
+  "stop_rule": "Stop on hash, identity, probability or numerical verification failure. Apply package-specific observation/source holds in EXECUTION_SPEC_V1; no outcome-driven retuning.",
+  "inputs": [
+    {
+      "path": "raw_data/cut_fill_20261103/E-MTAB-13526.json",
+      "sha256": "ce7c05891c9858171dcfaddd5aaf6c94f07261272b20b333aa9edcabdeccd5a2",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/E-MTAB-13526-info.json",
+      "sha256": "5691f3ccc59b8e60ef70f502d8067782eace516d1d6fee9da5f7f32faa9d9b97",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/E-MTAB-13526.idf.txt",
+      "sha256": "d55adf738728d8879e134e6fe5ecf7a8a68f6e9d95ef009210ef08884eddc8fd",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/E-MTAB-13526.sdrf.txt",
+      "sha256": "0f97a2604175b1459ef750d2cad922c47b916a6fb3ced8a27c7a8cebdda81bda",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_acquisition_v1.json",
+      "sha256": "29dfdf9021900719784510420ef56c4ac77f8af49bc72ccd6d7b6e88f7330fff",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_GSE304587.txt",
+      "sha256": "abe50e55bb18be1ad53e589766e94a646f9cedf27714c828ace082f473509aca",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_GSE304587_acquisition.json",
+      "sha256": "414db0c3897c2a34b59eaf2de14de2659583085f38be25945e5a05af3707b7c7",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_inventory.json",
+      "sha256": "7d3e5657d9017834c81c09ed73fee9a1c231af2afe6e5fc986774d345e226508",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_inventory_retry.json",
+      "sha256": "19ae66395f3655fcf13d8a80c0e1ac0643147eeace2a1872be47413a120ea3af",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_obs_acquisition.json",
+      "sha256": "b039fd5a76eeea1ba01d4f6cf793be08be1aa88fa4e58ad628aa773eb58c37ad",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_inventory.json",
+      "sha256": "57a32a473d835f3c53685a01d67c11664f147e8ddea628f2cd0e3014c3cd4f9d",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_inventory_retry.json",
+      "sha256": "e195056178149b20ee67ba17a717ff5cfb46c1b9dc59565451097fda6eb91e04",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_obs_acquisition.json",
+      "sha256": "072724f6e3e1c1534dbe37e2b5f5f2ead2ddf6f691e48426e25945c683fdc145",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a12_source_v1.py",
+      "sha256": "aed690523bfec1526c065fe3a836a4b58594720fbffcc10d3e422b9c67af94af"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/cut_fill_20261103/a12_source_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "de_zuani_samples.csv",
+    "qualification.json",
+    "access_attempts.json",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "New bounded primary-source qualification after the closed pilot; unchanged gate and fixed-procedure replication choice."
+}
