@@ -95,7 +95,8 @@
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
         "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
         "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
-        "RQ_Specified/A5_developmental_programme_reuse/reports/DESTINATION_SCREEN_V1_RESULTS.md"
+        "RQ_Specified/A5_developmental_programme_reuse/reports/DESTINATION_SCREEN_V1_RESULTS.md",
+        "RQ_Specified/A5_developmental_programme_reuse/reports/COMPONENT_ATTRIBUTION_V1_RESULTS.md"
       ]
     },
     {
@@ -1118,7 +1119,8 @@
     "RQ_Specified/A12_recipient_context/config/erbb_sorted_figure_contract_v2.json",
     "RQ_Specified/A12_recipient_context/config/erbb_configuration_contract_v1.json",
     "analysis/research/contracts/A3.identity_repeat_source_view_v1.json",
-    "analysis/research/contracts/A5.component_attribution_v1.json"
+    "analysis/research/contracts/A5.component_attribution_v1.json",
+    "analysis/research/contracts/A12.il1_components_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1264,7 +1266,8 @@
     "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receipt.json",
     "analysis/research/runs/A12_erbb_sorted_figure_v2_20261103/receipt.json",
     "analysis/research/runs/A12_erbb_configuration_binding_v1_20261103/receipt.json",
-    "analysis/research/runs/A3_identity_repeat_source_view_v1_20261103/receipt.json"
+    "analysis/research/runs/A3_identity_repeat_source_view_v1_20261103/receipt.json",
+    "analysis/research/runs/A5_component_attribution_v1_20261103/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

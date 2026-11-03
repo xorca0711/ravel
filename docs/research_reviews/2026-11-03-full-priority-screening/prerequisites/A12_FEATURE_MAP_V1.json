@@ -1,0 +1,68 @@
+{
+  "source_path": "X:/GitHub/ravel/Research Article/gate2_C3_yu_lee_choi_min_2026/cache/u5_human_niche/unc20_pooled_triad_counts.csv.gz",
+  "feature_count": 18082,
+  "matrix_columns": 743,
+  "mapping": [
+    {
+      "gene": "IL1R1",
+      "source_occurrences": 1,
+      "in_original_response": false,
+      "index_weight": 0.5
+    },
+    {
+      "gene": "IL1RAP",
+      "source_occurrences": 1,
+      "in_original_response": false,
+      "index_weight": 0.5
+    },
+    {
+      "gene": "IL1R2",
+      "source_occurrences": 1,
+      "in_original_response": false,
+      "index_weight": -0.3333333333333333
+    },
+    {
+      "gene": "IL1RN",
+      "source_occurrences": 1,
+      "in_original_response": false,
+      "index_weight": -0.3333333333333333
+    },
+    {
+      "gene": "SIGIRR",
+      "source_occurrences": 1,
+      "in_original_response": false,
+      "index_weight": -0.3333333333333333
+    },
+    {
+      "gene": "MYD88",
+      "source_occurrences": 1,
+      "in_original_response": false,
+      "index_weight": 0
+    },
+    {
+      "gene": "IRAK1",
+      "source_occurrences": 1,
+      "in_original_response": false,
+      "index_weight": 0
+    },
+    {
+      "gene": "IRAK4",
+      "source_occurrences": 1,
+      "in_original_response": false,
+      "index_weight": 0
+    },
+    {
+      "gene": "NFKBIA",
+      "source_occurrences": 1,
+      "in_original_response": true,
+      "index_weight": 0
+    },
+    {
+      "gene": "TNFAIP3",
+      "source_occurrences": 1,
+      "in_original_response": true,
+      "index_weight": 0
+    }
+  ],
+  "inspection": "Gene names and header only; new target values not inspected"
+}
