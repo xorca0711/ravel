@@ -3,7 +3,7 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
-## Reviewed integration prepared — 3 November 2026
+## Reviewed screening published in PR #161 — 3 November 2026
 
 The [coordinator review](docs/research_reviews/2026-11-03-primary-candidate-literature/COORDINATOR_REVIEW.md)
 accepts the two new screening deposits for integration at their descriptive
@@ -12,7 +12,12 @@ figures, source-hold evidence and the exact-file portability rule were checked.
 The technical validation suite is reused; no numerical rerun was needed.
 Main was refetched after handoff and remains `115f3c5`. GitHub identity was
 verified as `xorca0711`. The owner authorized commit, push and an overall PR;
-publication is the remaining delivery step. No scientific acceptance changed.
+the reviewed integration is committed as `a11267a` and pushed on
+`codex/rq-evidence-trajectory-audit-20261103`.
+[PR #161](https://github.com/xorca0711/ravel/pull/161) includes the earlier
+trajectory/cut-or-fill work, article hygiene and portfolio methods panel.
+Next: PR review and the exact scientific inputs recorded in the six-job ledger.
+No merge, new scientific acceptance or automatic follow-up was performed.
 
 ## Literature-informed biological screening — 3 November 2026
 

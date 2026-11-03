@@ -72,3 +72,12 @@ reviewed RQ trajectory/cut-or-fill work, article hygiene and root methods panel.
 No additional exploratory expansion is scheduled to obtain a positive outcome.
 Further scientific work requires the specific measurement or source listed in
 the ledger, followed by an appropriately scoped new comparison.
+
+## Published handoff
+
+Reviewed integration commit `a11267a` was pushed to
+`codex/rq-evidence-trajectory-audit-20261103`, and
+[PR #161](https://github.com/xorca0711/ravel/pull/161) was opened under the
+verified `xorca0711` GitHub identity. The PR covers the earlier reviewed work
+and the new screening/literature package. No merge or scientific acceptance
+was performed; GitHub owns the current CI and review status.
