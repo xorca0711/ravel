@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.cut_fill_a5_source_v1_20261103",
+  "owner": "A5",
+  "contract": "analysis/cut_fill_20261103/a5_source_v1.json",
+  "contract_sha256": "5857bacd6b27ef31deddf521cafde7927f4763a8d35a2d386484ecfa7588ad7d",
+  "git_commit": "bad95f67ad0c72c006035bb68b3e0750091d682d",
+  "started_at": "2026-11-03T04:29:24.873717+00:00",
+  "argv": [
+    "python",
+    "analysis/cut_fill_20261103/a5_source_v1.py",
+    "--output",
+    "analysis/research/runs/cut_fill_a5_source_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/cut_fill_20261103/a5_geo.txt",
+      "sha256": "0fe373fc56a2ec6032293d718b183c97f9a684eb635718369b73b204673fb527",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_filelist.txt",
+      "sha256": "caaa87d12c4497325df225fb8d37cb2db7e53d114639f8cf0a890ca4bc6fe57e",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_tree.txt",
+      "sha256": "b6eae1c98622f6f709c50782f3c05fb19e0e74d21c123a955c0ac2ca9a44d687",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_zenodo.txt",
+      "sha256": "15328eccf55248b17ba3ad34d0f02c3ce48708532e34b19f3dab08540f7d926d",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_shiny.txt",
+      "sha256": "a3a60b60d44350f02dfd1550db087dca5157cee674679e5d7716ee058b11753d",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_biorxiv.txt",
+      "sha256": "dd3fe763410f3a08c230a71d0613dbe44806bd6d89fb19077a35f5a59ea2d0d2",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/acquisition_a5_v1.json",
+      "sha256": "4c16a7bb3c1472207c18038993a480a7b24764a563cf9c2f80302e6bdf60ec22",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/GSE303646_library_crosswalk.tsv",
+      "sha256": "15bdfb5ddaa785a5dbbbf7e2075d4573ee4b574f57706c9fdaf6b28e7808952c",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a5_source_v1.py",
+      "sha256": "f5c436bc8c75685f36e8c108d212ac309cba5a894d5bc181a062a517c351ac0d"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/cut_fill_a5_source_v1_20261103/qualification.json",
+      "sha256": "d2930956369e799aadcebb624df0268a4179d308e268add84a3da457a6a4ecad"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a5_source_v1_20261103/source_acquisition.json",
+      "sha256": "4c16a7bb3c1472207c18038993a480a7b24764a563cf9c2f80302e6bdf60ec22"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a5_source_v1_20261103/verification.json",
+      "sha256": "367fe294298113feab5933f765e8c3954d858102ee02d476b95e67f647ff33b3"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T04:29:25.517521+00:00"
+}

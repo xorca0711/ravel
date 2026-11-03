@@ -1,0 +1,56 @@
+{
+  "candidate": "E-MTAB-13526",
+  "sample_records": 81,
+  "deposited_patients": 24,
+  "deposited_luad_patients": 12,
+  "luad_patients_with_paired_CD235a_depleted_libraries": [
+    "Patient 15",
+    "Patient 16",
+    "Patient 21",
+    "Patient 22",
+    "Patient 24"
+  ],
+  "paired_CD235a_depleted_patient_count": 5,
+  "all_unit_ids": [
+    "Donor 1",
+    "Donor 2",
+    "Patient 1",
+    "Patient 10",
+    "Patient 11",
+    "Patient 12",
+    "Patient 13",
+    "Patient 14",
+    "Patient 15",
+    "Patient 16",
+    "Patient 17",
+    "Patient 18",
+    "Patient 19",
+    "Patient 2",
+    "Patient 20",
+    "Patient 21",
+    "Patient 22",
+    "Patient 23",
+    "Patient 24",
+    "Patient 3",
+    "Patient 4",
+    "Patient 5",
+    "Patient 6",
+    "Patient 7",
+    "Patient 8",
+    "Patient 9"
+  ],
+  "source_discrepancy": "IDF says 24 patients and SDRF has 24; publication describes25 (13LUAD), while deposited SDRF identifies12LUAD. No missing patient identity invented.",
+  "gate": "HOLD: only5 LUAD patients have intended nonimmune-inclusive libraries in both arms; AT2 coverage in immune-enriched libraries is unverified, not assumed zero. Required author-state/count/patient join and >=10 eligible pairs not established. Annotation object headers accessible by HTTP206; row metadata requests timed out.",
+  "other_candidates": [
+    {
+      "source": "GSE304587",
+      "verdict": "Reject for unchanged minimum-unit gate: primary GEO design has two patients, no qualified10 paired units."
+    },
+    {
+      "source": "Han et al Nature2024 DOI10.1038/s41586-024-07113-9",
+      "verdict": "Not qualified for joint source-recipient replication: epithelial-enriched primary cohort lacks a qualified paired macrophage source export; methods and abstract inspected, no matrices."
+    }
+  ],
+  "prediction_executed": false,
+  "limits": "No claim that no eligible cohort exists elsewhere. Preserve Kim/Laughney/Wu failures and closed GSE308103 pilot. Fixed-procedure replication selected; no serialized pilot fitting, index/alpha/endpoint/state retuning."
+}

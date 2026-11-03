@@ -62,3 +62,9 @@ Planned query (not reported as newly executed): `microglia middle age hippocampu
 **Interpretation limit:** No RNA configuration implies a cell transition, reversibility, beneficial state, Alzheimer mechanism or treatment target. A25 preserves the owner's disease-related motivation without turning it into a measured result. Old female absence cannot be repaired by regression.
 
 [Current dossier](../../docs/research_dossiers/A25.md) · [All-question context index](../../docs/research_dossiers/literature_context_2026-10-03/README.md)
+
+## Cut-or-fill execution — 3 November 2026
+
+The supported male-cortex mouse-held-out comparison is executed. Both middle mice improve over endpoint mixture, but only one improves over flexible continuous age; a distinct-state interpretation remains unsupported.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A25_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).

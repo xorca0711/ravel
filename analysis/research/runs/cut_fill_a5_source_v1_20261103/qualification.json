@@ -1,0 +1,244 @@
+{
+  "geo_samples": [
+    "GSM9131908",
+    "GSM9131909",
+    "GSM9131910",
+    "GSM9131911",
+    "GSM9131912",
+    "GSM9131913",
+    "GSM9131914",
+    "GSM9131915",
+    "GSM9131916",
+    "GSM9131917",
+    "GSM9131918",
+    "GSM9131919",
+    "GSM9131920",
+    "GSM9131921",
+    "GSM9131922",
+    "GSM9131923",
+    "GSM9131924",
+    "GSM9131925",
+    "GSM9131926",
+    "GSM9131927",
+    "GSM9131928",
+    "GSM9131929",
+    "GSM9131930",
+    "GSM9131931",
+    "GSM9131932",
+    "GSM9131933",
+    "GSM9131934",
+    "GSM9131935",
+    "GSM9131936",
+    "GSM9131937",
+    "GSM9131938",
+    "GSM9131939",
+    "GSM9131940",
+    "GSM9131941",
+    "GSM9131942",
+    "GSM9131943",
+    "GSM9131944",
+    "GSM9131945",
+    "GSM9131946",
+    "GSM9131947",
+    "GSM9131948",
+    "GSM9131949",
+    "GSM9131950",
+    "GSM9131951",
+    "GSM9131952",
+    "GSM9131953",
+    "GSM9131954",
+    "GSM9131955",
+    "GSM9131956",
+    "GSM9131957",
+    "GSM9131958",
+    "GSM9131959",
+    "GSM9131960",
+    "GSM9131961",
+    "GSM9131962",
+    "GSM9131963"
+  ],
+  "author_revision": "e52bede4d8a0f9a8a07cb88ceb557fe01455d0c0",
+  "tree_truncated": false,
+  "author_files": [
+    "Proliferation_gene.Rmd",
+    "Python_scripts/Augur/aging_augurpy_baseline_d0.ipynb",
+    "Python_scripts/Augur/aging_augurpy_time_resolved_priorization_old_animals.ipynb",
+    "Python_scripts/Augur/aging_augurpy_time_resolved_priorization_young_animals.ipynb",
+    "Python_scripts/Augur/plot_effectsize_augur.ipynb",
+    "Python_scripts/DGE_analysis/concatenate_dge_tables_meta_label_old.ipynb",
+    "Python_scripts/DGE_analysis/concatenate_dge_tables_meta_label_young.ipynb",
+    "Python_scripts/DGE_analysis/concatenate_dge_tables_meta_label_young_vs_old.ipynb",
+    "Python_scripts/DGE_analysis/concatenate_dge_tables_targeted_old.ipynb",
+    "Python_scripts/DGE_analysis/concatenate_dge_tables_targeted_young.ipynb",
+    "Python_scripts/DGE_analysis/diffxpy_Gzmk+Tcells_old_mice.ipynb",
+    "Python_scripts/DGE_analysis/diffxpy_Pseudobulk_young_vs_old.ipynb",
+    "Python_scripts/DGE_analysis/diffxpy_selected_celltypes.ipynb",
+    "Python_scripts/DGE_analysis/diffxpy_timepoints_old-meta.ipynb",
+    "Python_scripts/DGE_analysis/diffxpy_timepoints_young-meta.ipynb",
+    "Python_scripts/DGE_analysis/diffxpy_timepoints_young_vs_old-meta.ipynb",
+    "Python_scripts/DGE_analysis/plot_effectsize_heatmap_meta.ipynb",
+    "Python_scripts/Gene_trajectory_clustering/mean_expression_pseudobulk.csv",
+    "Python_scripts/Gene_trajectory_clustering/trajectory_clustering_downregulated.ipynb",
+    "Python_scripts/Gene_trajectory_clustering/trajectory_clustering_downregulated_heatmaps.ipynb",
+    "Python_scripts/Gene_trajectory_clustering/trajectory_clustering_upregulated.ipynb",
+    "Python_scripts/Gene_trajectory_clustering/trajectory_gsea_downregulated.ipynb",
+    "Python_scripts/Gene_trajectory_clustering/trajectory_gsea_upregulated.ipynb",
+    "Python_scripts/Gene_trajectory_clustering/trajectory_pathway_scorings_downregulated.ipynb",
+    "Python_scripts/Gene_trajectory_clustering/trajectory_pathway_scorings_upregulated.ipynb",
+    "Python_scripts/Immune_aging_analyses/age-related_immune_change_analysis.ipynb",
+    "Python_scripts/Marker_genes/calculate_allMarker.ipynb",
+    "Python_scripts/Milo/milo_whole_dataset.ipynb",
+    "Python_scripts/NichNet/Nichenet_Plots_meta_label.ipynb",
+    "Python_scripts/NichNet/Nichenet_Plots_targeted.ipynb",
+    "Python_scripts/NichNet/ligand_analysis_targeted_NicheNet_circuit.ipynb",
+    "Python_scripts/Plotting/generate_dataset_overview_plots.ipynb",
+    "Python_scripts/Plotting/plots_functional_analysis_T-alv_epi_crosstalk.ipynb",
+    "Python_scripts/Senescence_analysis/senescence_analysis.ipynb",
+    "README.md",
+    "aging_scitd.Rmd"
+  ],
+  "zenodo_files": [
+    {
+      "key": "plot_effectsize_augur.ipynb",
+      "bytes": 76204
+    },
+    {
+      "key": "aging_augurpy_time_resolved_priorization_young_animals.ipynb",
+      "bytes": 5056367
+    },
+    {
+      "key": "aging_scitd.Rmd",
+      "bytes": 14748
+    },
+    {
+      "key": "trajectory_pathway_scorings_upregulated.ipynb",
+      "bytes": 1091475
+    },
+    {
+      "key": "trajectory_gsea_downregulated.ipynb",
+      "bytes": 274682
+    },
+    {
+      "key": "concatenate_dge_tables_meta_label_young.ipynb",
+      "bytes": 855321
+    },
+    {
+      "key": "mean_expression_pseudobulk.csv",
+      "bytes": 4201461
+    },
+    {
+      "key": "aging_augurpy_baseline_d0.ipynb",
+      "bytes": 4683846
+    },
+    {
+      "key": "diffxpy_selected_celltypes.ipynb",
+      "bytes": 23373653
+    },
+    {
+      "key": "ligand_analysis_targeted_NicheNet_circuit.ipynb",
+      "bytes": 388977
+    },
+    {
+      "key": "Nichenet_Plots_targeted.ipynb",
+      "bytes": 618046
+    },
+    {
+      "key": "calculate_allMarker.ipynb",
+      "bytes": 1043359
+    },
+    {
+      "key": "Nichenet_Plots_meta_label.ipynb",
+      "bytes": 2782804
+    },
+    {
+      "key": "diffxpy_Gzmk+Tcells_old_mice.ipynb",
+      "bytes": 1835318
+    },
+    {
+      "key": "diffxpy_timepoints_young-meta.ipynb",
+      "bytes": 9068274
+    },
+    {
+      "key": "diffxpy_timepoints_young_vs_old-meta.ipynb",
+      "bytes": 10339654
+    },
+    {
+      "key": "generate_dataset_overview_plots.ipynb",
+      "bytes": 10946896
+    },
+    {
+      "key": "aging_augurpy_time_resolved_priorization_old_animals.ipynb",
+      "bytes": 6537592
+    },
+    {
+      "key": "plot_effectsize_heatmap_meta.ipynb",
+      "bytes": 391244
+    },
+    {
+      "key": "concatenate_dge_tables_targeted_young.ipynb",
+      "bytes": 982385
+    },
+    {
+      "key": "concatenate_dge_tables_meta_label_old.ipynb",
+      "bytes": 477037
+    },
+    {
+      "key": "concatenate_dge_tables_targeted_old.ipynb",
+      "bytes": 918841
+    },
+    {
+      "key": "concatenate_dge_tables_meta_label_young_vs_old.ipynb",
+      "bytes": 435943
+    },
+    {
+      "key": "diffxpy_Pseudobulk_young_vs_old.ipynb",
+      "bytes": 1903908
+    },
+    {
+      "key": "diffxpy_timepoints_old-meta.ipynb",
+      "bytes": 9010146
+    },
+    {
+      "key": "senescence_analysis.ipynb",
+      "bytes": 1273830
+    },
+    {
+      "key": "trajectory_clustering_downregulated.ipynb",
+      "bytes": 2971220
+    },
+    {
+      "key": "trajectory_clustering_upregulated.ipynb",
+      "bytes": 2766356
+    },
+    {
+      "key": "trajectory_gsea_upregulated.ipynb",
+      "bytes": 228108
+    },
+    {
+      "key": "trajectory_clustering_downregulated_heatmaps.ipynb",
+      "bytes": 22425
+    },
+    {
+      "key": "trajectory_pathway_scorings_downregulated.ipynb",
+      "bytes": 1872422
+    },
+    {
+      "key": "milo_whole_dataset.ipynb",
+      "bytes": 4191487
+    },
+    {
+      "key": "age-related_immune_change_analysis.ipynb",
+      "bytes": 6464463
+    },
+    {
+      "key": "plots_functional_analysis_T-alv_epi_crosstalk.ipynb",
+      "bytes": 476213
+    }
+  ],
+  "filelist_sha256": "caaa87d12c4497325df225fb8d37cb2db7e53d114639f8cf0a890ca4bc6fe57e",
+  "previous_filelist_sha256": "caaa87d12c4497325df225fb8d37cb2db7e53d114639f8cf0a890ca4bc6fe57e",
+  "crosswalk_rows": 56,
+  "shiny_download_controls": [],
+  "disposition": "HOLD: no barcode-to-author-state or library-to-mouse export in inspected metadata inventories. 56 libraries versus reported 55 mice unresolved. No expression score; fixed component, exclusions, primary activated-AT2 comparator and 500-UMI scale unchanged.",
+  "coverage_limit": "Current GEO series/filelist, complete pinned code tree, Zenodo file inventory and public browser entry HTML; no live websocket export or author contact. No global unavailability claim."
+}

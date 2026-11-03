@@ -45,6 +45,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“The failed proxy identifies feedback or rules out all fibroblast effects.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a13).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Nb4 follow-through, 3 October 2026:** [scoped sequential analyses](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_SEQUENCE_RESULTS.md) and [pipelines](../../Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/reports/RQ_PIPELINES.md). Article-local diagnostics preserve this question’s existing evidence and biological endpoint gates; no claim grade or acceptance decision changes.

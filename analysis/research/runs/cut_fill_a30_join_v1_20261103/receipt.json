@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A30.cut_fill_a30_join_v1_20261103",
+  "owner": "A30",
+  "contract": "analysis/cut_fill_20261103/a30_join_v1.json",
+  "contract_sha256": "dae6bb9f2a32756bd719d344bcd0e21ecdc1c07ab0f9dcf95ed4ae2b8e0e8171",
+  "git_commit": "bad95f67ad0c72c006035bb68b3e0750091d682d",
+  "started_at": "2026-11-03T04:29:58.494678+00:00",
+  "argv": [
+    "python",
+    "analysis/cut_fill_20261103/a30_join_v1.py",
+    "--output",
+    "analysis/research/runs/cut_fill_a30_join_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/wp_a30_state_decomposition_v3/cell_states.csv.gz",
+      "sha256": "975ff310fdbcf776835fcca55599255f9a1c4f337bd79a227ebd5163d9400741",
+      "study_id": "A30_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/wp_human_signature_transfer_v3/cell_identity_qc.csv.gz",
+      "sha256": "e49e06c24f3b745342af35eb033f7f5b9f7f3c14add9f0be2fde7838c16bbc5b",
+      "study_id": "A30_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a30_join_v1.py",
+      "sha256": "cbf232d10243f50f07f325733bbebc4624af70a58da902236d77dbc130d5290f"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/cut_fill_a30_join_v1_20261103/join_cardinality.csv",
+      "sha256": "97b5c097b2d7152ab7a60034e1107c0bc92f5d3f6d6663f77599e81c180fdb17"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a30_join_v1_20261103/qualification.json",
+      "sha256": "bc7e467a406903f2cf76c87b57f48ae620e9943d3ac897243ad537e79c261ae4"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a30_join_v1_20261103/verification.json",
+      "sha256": "56be8451bac1e9eb620c66b3d8822c2c4b1ddd17c67533935b51e1aac5705968"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T04:29:59.793736+00:00"
+}

@@ -58,3 +58,9 @@ Planned query (not reported as newly executed): `IL1 recipient epithelial fibrob
 **Interpretation limit:** A transcript-based receptor index does not establish receptor activity, and NFkB-associated RNA cannot identify the responsible ligand.
 
 [Current dossier](../../docs/research_dossiers/A12.md) · [All-question context index](../../docs/research_dossiers/literature_context_2026-10-03/README.md)
+
+## Cut-or-fill execution — 3 November 2026
+
+A new bounded independent-source search is executed. No cohort clears the unchanged joint patient/state/count gate; fixed-procedure replication remains held and the original pilot stays closed.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A12_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).

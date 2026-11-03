@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A17.cut_fill_figure_v1",
+  "owner": "A17",
+  "contract": "analysis/cut_fill_20261103/a17_figure_v1.json",
+  "contract_sha256": "8421ff39636826a8313720666d47b4a77756170c6a5653646676022f7fa3d10d",
+  "git_commit": "5a792bc2c28a509b0ff646cfe4d12150f7ceb526",
+  "started_at": "2026-11-03T04:34:36.882044+00:00",
+  "argv": [
+    "python",
+    "analysis/cut_fill_20261103/render_results_v1.py",
+    "--owner",
+    "A17",
+    "--output",
+    "analysis/research/runs/cut_fill_a17_figure_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/probabilities.json",
+      "sha256": "1d6fdc925a742dc4788a1a88497b66fa3d2c26c28e487c79eef2fde78becfb55",
+      "study_id": "A17_cut_fill_results",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/recoverability.json",
+      "sha256": "2c3a58252d15f6d6e33d41fa4f80b09ec2b812de19f8b608d5572d04992f7904",
+      "study_id": "A17_cut_fill_results",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/render_results_v1.py",
+      "sha256": "569bad619fd28e6950b62ae5eeefb4a40f8293b2ced70b06fa4df771f35e43a9"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/cut_fill_a17_figure_v1_20261103/a17_observation_ambiguity_v1.png",
+      "sha256": "1c0357909cd59b366bdac1d54ce564f0cb381917f33c78007bc1f45d9824dd0a"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a17_figure_v1_20261103/a17_observation_ambiguity_v1.svg",
+      "sha256": "2e45468c510db9112aceadc7c358aef64ee267b9b1ac4ad2c134ea03a9d77444"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a17_figure_v1_20261103/render.json",
+      "sha256": "cb641a584276391a67bc4abcec2c5546a837dd87fe13f4c2061a8c44c85b44dd"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T04:34:40.518583+00:00"
+}

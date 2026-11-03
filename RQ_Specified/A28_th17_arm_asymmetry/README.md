@@ -35,6 +35,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“RNA-arm asymmetry proves two independently regulated functions in one cell.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a28).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.

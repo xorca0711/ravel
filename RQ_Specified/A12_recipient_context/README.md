@@ -45,6 +45,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“The recipient index identifies IL-1-specific signaling or macrophage transmission.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a12).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 <a id="organizing-biological-question"></a>
@@ -92,3 +99,9 @@ No external score or fit was produced; the exploratory pilot below is preserved.
 The [pre-fit specification](../../docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json) and [complete report](../../docs/roadmap_runs/2026-09-27-followthrough/A12_PILOT.md) define a patient-held-out, gene-disjoint inflammatory RNA response in fixed AT2 and alveolar-fibroblast candidate states. Twelve matched patients pass primary coverage. The epithelial model improves relative to a source/TNF comparator; the fibroblast increment is unstable. Prior data exposure is recorded and no confirmation or IL-1-specific causal claim is made.
 
 The [follow-through scripts and outputs](../../docs/roadmap_runs/2026-09-27-followthrough/README.md) share cohort provenance with the A13 extension. No module, label or normalization was tuned after inspecting the new predictions. Source identity remains conditional on assigned macrophages; A12-S1 is open. Independent epithelial validation is the next biological decision, while activation and selectivity require separate measurements.
+
+## Cut-or-fill execution — 3 November 2026
+
+A new bounded independent-source search is executed. No cohort clears the unchanged joint patient/state/count gate; fixed-procedure replication remains held and the original pilot stays closed.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A12_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).

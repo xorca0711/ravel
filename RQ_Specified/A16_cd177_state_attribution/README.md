@@ -45,6 +45,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Residual CD177-associated RNA proves intrinsic priming or excludes contamination.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a16).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Later evidence reconciled 1 October 2026:** the [corrected C1 analysis on main](https://github.com/xorca0711/scRNA_seq/blob/f61343cc16c83e979b071393adccdcf8084ea294/RQ_Specified/A16_cd177_state_attribution/correction_20260928/reports/CORRECTED_C1_REPORT.md)

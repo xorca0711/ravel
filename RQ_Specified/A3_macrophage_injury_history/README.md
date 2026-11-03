@@ -23,6 +23,13 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Current evidence and interpretation
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Late macrophage RNA demonstrates intrinsic memory, flux or the nominated axis.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a3).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 **Source connection, 2 November 2026:** ungated [DY1-P02](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md) provides assay/selection and regulatory-context qualification relevant to this question. Its external references do not measure a NAM memory mechanism, nominate an accepted causal programme or supply independent functional consequences. The A3 working hypothesis, prior results and registered illustration are unchanged.
 
 **Current entrypoints:** [existing source-analysis context](../../Research%20Article/gate1_01_niethamer_2025/README.md) ·

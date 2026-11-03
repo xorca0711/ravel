@@ -1,0 +1,285 @@
+{
+  "background_inventory.json": {
+    "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/526/E-MTAB-13526/Files/10X_Lung_Healthy_Background_Annotated_v2.h5ad",
+    "size": 45505872062,
+    "root_keys": [
+      "X",
+      "obs",
+      "obsm",
+      "raw",
+      "var"
+    ],
+    "error": "URLError(TimeoutError('_ssl.c:993: The handshake operation timed out'))",
+    "bytes_retrieved": 131072,
+    "etag": "\"a985c80be-61df0cb187c40\"",
+    "blocks": [
+      {
+        "offset": 0,
+        "bytes": 65536,
+        "sha256": "2607173a0a34b5f24f812fda1beb5fc4d45c0af54b6e90097b9348300d21d7c8",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_0.bin"
+      },
+      {
+        "offset": 4939448320,
+        "bytes": 65536,
+        "sha256": "2c314dba82149de7dbe0254e487293a78c3b04e62a3df2c5c3a18d579b5e6268",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_75370.bin"
+      }
+    ]
+  },
+  "background_inventory_retry.json": {
+    "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/526/E-MTAB-13526/Files/10X_Lung_Healthy_Background_Annotated_v2.h5ad",
+    "size": 45505872062,
+    "root_keys": [
+      "X",
+      "obs",
+      "obsm",
+      "raw",
+      "var"
+    ],
+    "obs_attrs": {
+      "_index": "_index",
+      "column-order": "['n_genes' 'patient' 'sample' 'environment' 'n_genes_by_counts'\n 'total_counts' 'total_counts_mt' 'pct_counts_mt' 'total_counts_rb'\n 'pct_counts_rb' 'sex' 'age' 'sorting' 'smoking history' 'cancer stage'\n 'tumour type' '# isolated cells' '# estimated cells' 'sangerID'\n 'cellranger' 'genome' 'batch' 'patient_sample' 'exp' 'n_counts'\n 'doublet_scores' 'S_score' 'G2M_score' 'phase' 'PHASE' 'leiden'\n 'leiden_new_cmcells_v2' 'leiden_new_bcells_v5' 'leiden_new_mastcells_v3'\n 'leiden_new_myeloid_v6' 'leiden_new_nkcells_v4' 'leiden_new_stroma_v11'\n 'leiden_new_tcells_v6' 'leiden_new_broad_v3' 'Cell types' 'Cell types v2'\n 'Cell types v3' 'Cell types v4' 'Cell types v5' 'Cell types v6'\n 'Cell types v7' 'Cell types v8' 'Cell types v9' 'Cell types v10'\n 'Cell types v11' 'Cell types v12']",
+      "encoding-type": "dataframe",
+      "encoding-version": "0.1.0"
+    },
+    "bytes_retrieved": 262144,
+    "etag": "\"a985c80be-61df0cb187c40\"",
+    "blocks": [
+      {
+        "offset": 0,
+        "bytes": 65536,
+        "sha256": "2607173a0a34b5f24f812fda1beb5fc4d45c0af54b6e90097b9348300d21d7c8",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_0.bin"
+      },
+      {
+        "offset": 4939448320,
+        "bytes": 65536,
+        "sha256": "2c314dba82149de7dbe0254e487293a78c3b04e62a3df2c5c3a18d579b5e6268",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_75370.bin"
+      },
+      {
+        "offset": 45328564224,
+        "bytes": 65536,
+        "sha256": "4debe87551a054e844ad70d126e936058eafd4a7bf610efdba1242792ba4643d",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_691659.bin"
+      },
+      {
+        "offset": 45328498688,
+        "bytes": 65536,
+        "sha256": "fb16d5800869e6c13c683d9f886f58ae89819d0d4d4bb2bd3b13bece5951eebb",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_691658.bin"
+      }
+    ]
+  },
+  "background_obs_acquisition.json": {
+    "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/526/E-MTAB-13526/Files/10X_Lung_Healthy_Background_Annotated_v2.h5ad",
+    "size": 45505872062,
+    "root_keys": [
+      "X",
+      "obs",
+      "obsm",
+      "raw",
+      "var"
+    ],
+    "obs_attrs": {
+      "_index": "_index",
+      "column-order": "['n_genes' 'patient' 'sample' 'environment' 'n_genes_by_counts'\n 'total_counts' 'total_counts_mt' 'pct_counts_mt' 'total_counts_rb'\n 'pct_counts_rb' 'sex' 'age' 'sorting' 'smoking history' 'cancer stage'\n 'tumour type' '# isolated cells' '# estimated cells' 'sangerID'\n 'cellranger' 'genome' 'batch' 'patient_sample' 'exp' 'n_counts'\n 'doublet_scores' 'S_score' 'G2M_score' 'phase' 'PHASE' 'leiden'\n 'leiden_new_cmcells_v2' 'leiden_new_bcells_v5' 'leiden_new_mastcells_v3'\n 'leiden_new_myeloid_v6' 'leiden_new_nkcells_v4' 'leiden_new_stroma_v11'\n 'leiden_new_tcells_v6' 'leiden_new_broad_v3' 'Cell types' 'Cell types v2'\n 'Cell types v3' 'Cell types v4' 'Cell types v5' 'Cell types v6'\n 'Cell types v7' 'Cell types v8' 'Cell types v9' 'Cell types v10'\n 'Cell types v11' 'Cell types v12']",
+      "encoding-type": "dataframe",
+      "encoding-version": "0.1.0"
+    },
+    "error": "URLError(TimeoutError(10060, '\uc5f0\uacb0\ub41c \uad6c\uc131\uc6d0\uc73c\ub85c\ubd80\ud130 \uc751\ub2f5\uc774 \uc5c6\uc5b4 \uc5f0\uacb0\ud558\uc9c0 \ubabb\ud588\uac70\ub098, \ud638\uc2a4\ud2b8\ub85c\ubd80\ud130 \uc751\ub2f5\uc774 \uc5c6\uc5b4 \uc5f0\uacb0\uc774 \ub04a\uc5b4\uc84c\uc2b5\ub2c8\ub2e4', None, 10060, None))",
+    "bytes_retrieved": 262144,
+    "etag": null,
+    "blocks": [
+      {
+        "offset": 0,
+        "bytes": 65536,
+        "sha256": "2607173a0a34b5f24f812fda1beb5fc4d45c0af54b6e90097b9348300d21d7c8",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_0.bin",
+        "block_storage_bytes": 65536
+      },
+      {
+        "offset": 4939448320,
+        "bytes": 65536,
+        "sha256": "2c314dba82149de7dbe0254e487293a78c3b04e62a3df2c5c3a18d579b5e6268",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_75370.bin",
+        "block_storage_bytes": 65536
+      },
+      {
+        "offset": 45328564224,
+        "bytes": 65536,
+        "sha256": "4debe87551a054e844ad70d126e936058eafd4a7bf610efdba1242792ba4643d",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_691659.bin",
+        "block_storage_bytes": 65536
+      },
+      {
+        "offset": 45328498688,
+        "bytes": 65536,
+        "sha256": "fb16d5800869e6c13c683d9f886f58ae89819d0d4d4bb2bd3b13bece5951eebb",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_691658.bin",
+        "block_storage_bytes": 65536
+      }
+    ]
+  },
+  "tumour_inventory.json": {
+    "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/526/E-MTAB-13526/Files/10X_Lung_Tumour_Annotated_v2.h5ad",
+    "size": 58739231180,
+    "root_keys": [
+      "X",
+      "obs",
+      "obsm",
+      "raw",
+      "var"
+    ],
+    "error": "TimeoutError('The read operation timed out')",
+    "bytes_retrieved": 524288,
+    "etag": "\"dad2189cc-61df0d6b7f300\"",
+    "blocks": [
+      {
+        "offset": 0,
+        "bytes": 65536,
+        "sha256": "49257b302117ad38c0a4a5e8b67a525f815d96a30c3c4a4a1b4409fae1e1a399",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_0.bin"
+      },
+      {
+        "offset": 6639648768,
+        "bytes": 65536,
+        "sha256": "acf9f5337513b30e2ca26bb2a4da5822dd7b0f745e96b1fddd037f926881672f",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_101313.bin"
+      },
+      {
+        "offset": 58505625600,
+        "bytes": 65536,
+        "sha256": "8404082f36dad830d12a009ac375baec1b990cf0a708489e0f585d743bf07128",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_892725.bin"
+      },
+      {
+        "offset": 58533871616,
+        "bytes": 65536,
+        "sha256": "486d464357ce4ee4496a58f2ffaa4315a137b4840a791e1bbbce81761a529bf9",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_893156.bin"
+      },
+      {
+        "offset": 58593443840,
+        "bytes": 65536,
+        "sha256": "61404e23e43fdf2c0fb23d592865a273f65bac7bb9db98bb79bb25f41a22e1b6",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_894065.bin"
+      },
+      {
+        "offset": 58594492416,
+        "bytes": 65536,
+        "sha256": "523af5b45ce6635148a41a8fe6bc8999ab6ce8ee089809fd2991a047aef4a2ef",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_894081.bin"
+      },
+      {
+        "offset": 58569195520,
+        "bytes": 65536,
+        "sha256": "bf714efb0c4b17b85c98b996150726cfa26de63aaa81b6f07605541af3a68dd6",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_893695.bin"
+      },
+      {
+        "offset": 58598031360,
+        "bytes": 65536,
+        "sha256": "9dad58871c7edff37914cc6f540e5cedd69842664019b8f207e063d59e2fcc44",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_894135.bin"
+      }
+    ]
+  },
+  "tumour_inventory_retry.json": {
+    "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/526/E-MTAB-13526/Files/10X_Lung_Tumour_Annotated_v2.h5ad",
+    "size": 58739231180,
+    "root_keys": [
+      "X",
+      "obs",
+      "obsm",
+      "raw",
+      "var"
+    ],
+    "obs_attrs": {
+      "_index": "_index",
+      "column-order": "['n_genes' 'patient' 'sample' 'environment' 'n_genes_by_counts'\n 'total_counts' 'total_counts_mt' 'pct_counts_mt' 'total_counts_rb'\n 'pct_counts_rb' 'sex' 'age' 'sorting' 'smoking history' 'cancer stage'\n 'tumour type' '# isolated cells' '# estimated cells' 'sangerID'\n 'cellranger' 'genome' 'batch' 'patient_sample' 'exp' 'n_counts'\n 'doublet_scores' 'S_score' 'G2M_score' 'phase' 'PHASE' 'leiden'\n 'leiden_new_cmcells_v4' 'leiden_new_bcells_v4' 'leiden_new_mastcells_v3'\n 'leiden_new_myeloid_v6' 'leiden_new_nkcells_v2' 'leiden_new_stroma_v8'\n 'leiden_new_tcells_v4' 'leiden_new_broad_v1' 'Cell types' 'Cell types v2'\n 'Cell types v3' 'Cell types v4' 'Cell types v5' 'Cell types v6'\n 'Cell types v7' 'Cell types v8' 'Cell types v9' 'Cell types v10'\n 'Cell types v11' 'Cell types v12' 'Cell types v13' 'Cell types v14'\n 'Cell types v15' 'Cell types v16' 'Cell types v17' 'Cell types v18'\n 'Cell types v19' 'Cell types v20' 'Cell types v21' 'Cell types v22'\n 'Cell types v23' 'Cell types v24' 'Cell types v25']",
+      "encoding-type": "dataframe",
+      "encoding-version": "0.1.0"
+    },
+    "bytes_retrieved": 196608,
+    "etag": null,
+    "blocks": [
+      {
+        "offset": 0,
+        "bytes": 65536,
+        "sha256": "49257b302117ad38c0a4a5e8b67a525f815d96a30c3c4a4a1b4409fae1e1a399",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_0.bin"
+      },
+      {
+        "offset": 6639648768,
+        "bytes": 65536,
+        "sha256": "acf9f5337513b30e2ca26bb2a4da5822dd7b0f745e96b1fddd037f926881672f",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_101313.bin"
+      },
+      {
+        "offset": 58505625600,
+        "bytes": 65536,
+        "sha256": "8404082f36dad830d12a009ac375baec1b990cf0a708489e0f585d743bf07128",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_892725.bin"
+      }
+    ]
+  },
+  "tumour_obs_acquisition.json": {
+    "url": "https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/526/E-MTAB-13526/Files/10X_Lung_Tumour_Annotated_v2.h5ad",
+    "size": 58739231180,
+    "root_keys": [
+      "X",
+      "obs",
+      "obsm",
+      "raw",
+      "var"
+    ],
+    "obs_attrs": {
+      "_index": "_index",
+      "column-order": "['n_genes' 'patient' 'sample' 'environment' 'n_genes_by_counts'\n 'total_counts' 'total_counts_mt' 'pct_counts_mt' 'total_counts_rb'\n 'pct_counts_rb' 'sex' 'age' 'sorting' 'smoking history' 'cancer stage'\n 'tumour type' '# isolated cells' '# estimated cells' 'sangerID'\n 'cellranger' 'genome' 'batch' 'patient_sample' 'exp' 'n_counts'\n 'doublet_scores' 'S_score' 'G2M_score' 'phase' 'PHASE' 'leiden'\n 'leiden_new_cmcells_v4' 'leiden_new_bcells_v4' 'leiden_new_mastcells_v3'\n 'leiden_new_myeloid_v6' 'leiden_new_nkcells_v2' 'leiden_new_stroma_v8'\n 'leiden_new_tcells_v4' 'leiden_new_broad_v1' 'Cell types' 'Cell types v2'\n 'Cell types v3' 'Cell types v4' 'Cell types v5' 'Cell types v6'\n 'Cell types v7' 'Cell types v8' 'Cell types v9' 'Cell types v10'\n 'Cell types v11' 'Cell types v12' 'Cell types v13' 'Cell types v14'\n 'Cell types v15' 'Cell types v16' 'Cell types v17' 'Cell types v18'\n 'Cell types v19' 'Cell types v20' 'Cell types v21' 'Cell types v22'\n 'Cell types v23' 'Cell types v24' 'Cell types v25']",
+      "encoding-type": "dataframe",
+      "encoding-version": "0.1.0"
+    },
+    "error": "URLError(TimeoutError(10060, '\uc5f0\uacb0\ub41c \uad6c\uc131\uc6d0\uc73c\ub85c\ubd80\ud130 \uc751\ub2f5\uc774 \uc5c6\uc5b4 \uc5f0\uacb0\ud558\uc9c0 \ubabb\ud588\uac70\ub098, \ud638\uc2a4\ud2b8\ub85c\ubd80\ud130 \uc751\ub2f5\uc774 \uc5c6\uc5b4 \uc5f0\uacb0\uc774 \ub04a\uc5b4\uc84c\uc2b5\ub2c8\ub2e4', None, 10060, None))",
+    "bytes_retrieved": 327680,
+    "etag": "\"dad2189cc-61df0d6b7f300\"",
+    "blocks": [
+      {
+        "offset": 0,
+        "bytes": 65536,
+        "sha256": "49257b302117ad38c0a4a5e8b67a525f815d96a30c3c4a4a1b4409fae1e1a399",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_0.bin",
+        "block_storage_bytes": 65536
+      },
+      {
+        "offset": 6639648768,
+        "bytes": 65536,
+        "sha256": "acf9f5337513b30e2ca26bb2a4da5822dd7b0f745e96b1fddd037f926881672f",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_101313.bin",
+        "block_storage_bytes": 65536
+      },
+      {
+        "offset": 58505625600,
+        "bytes": 65536,
+        "sha256": "8404082f36dad830d12a009ac375baec1b990cf0a708489e0f585d743bf07128",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_892725.bin",
+        "block_storage_bytes": 65536
+      },
+      {
+        "offset": 58588921856,
+        "bytes": 65536,
+        "sha256": "541ca2c0fa8155f5d4a7364f8026d0674ef8d06746dda6d5e7cc8cb2de8b3910",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_893996.bin",
+        "block_storage_bytes": 65536
+      },
+      {
+        "offset": 58545471488,
+        "bytes": 65536,
+        "sha256": "02090b4e8cf8b5da2759da6b9424cdd46d9bc0dbd54e992b4807534c8f73c24a",
+        "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_893333.bin",
+        "block_storage_bytes": 65536
+      }
+    ]
+  }
+}

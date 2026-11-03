@@ -143,3 +143,19 @@ retain the actual run. Independent standard-library RK4 integration of first
 moment, second moment and extinction equations agreed with the reference
 quantities within `1e-8`. That is numerical verification, not biological replication.
 The full biological fit remains unrun for the explicit conditions above.
+
+## Bounded recoverability qualification — 3 November 2026
+
+The [new versioned specification](../../audits/2026-11-03-rq-evidence-trajectory/EXECUTION_SPEC_V1.md#a17-recoverability-and-observation-specification)
+now defines the common structural domains, both switching starting states,
+source variants, complete-tail probability solver and observation sensitivity.
+The [executed result](../../audits/2026-11-03-rq-evidence-trajectory/A17_TECHNICAL_RESULT.md)
+uses the actual11-mouse schedule and sample sizes. Unknown size/time detection
+can erase the model distinction; this is an observation-model counterexample,
+not evidence that fixed uniform-detection families are indistinguishable.
+Biologically justified bounded rate domains and ascertainment constraints remain
+unrecovered. Empirical mechanism selection is therefore stopped at that specific
+qualification limit. Prior kernels, source discrepancies and manuscripts remain
+unchanged; no empirical founder prevalence, extinction rate or curve reproduction
+is claimed. The linked numerical specification is a new version, not a rewrite
+of the historical development choices above.

@@ -61,3 +61,9 @@ Planned query (not reported as newly executed): `fixed developmental gene compon
 **Interpretation limit:** Transcriptional reuse establishes neither developmental ancestry nor a beneficial role.
 
 [Current dossier](../../docs/research_dossiers/A5.md) · [All-question context index](../../docs/research_dossiers/literature_context_2026-10-03/README.md)
+
+## Cut-or-fill execution — 3 November 2026
+
+The refreshed source inventory is executed; exact mouse and barcode-state maps remain unqualified, so fixed-component expression replication is held.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A5_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).

@@ -5,6 +5,14 @@ does not imply completed analysis, scientific acceptance or experimental readine
 The [canonical register](../RESEARCH_QUESTIONS.md) owns identity; the
 [registry](../analysis/research/registry.json) binds each home, context and figure.
 
+[3 November evidence-trajectory review](../docs/audits/2026-11-03-rq-evidence-trajectory/README.md)
+compares every question's first registered wording with its corrected results,
+distinguishing empirical narrowing, useful negative diagnostics and untested
+comparisons. It is an agent assessment, not a retain/reject decision.
+[The cut-or-fill plan](../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md)
+now gives a per-question interpretation boundary, bounded follow-up and stop rule;
+each question home links its own row. Numerical work remains conditional.
+
 ## Reading order
 
 Each question README starts with **Organizing Biological Q → Literature context &

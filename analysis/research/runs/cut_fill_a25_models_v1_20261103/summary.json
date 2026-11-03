@@ -1,0 +1,79 @@
+{
+  "scope": "male cortex only; 3/2/4 mice at 3/18/24 months",
+  "cells": 2129,
+  "mean_nll_by_model": {
+    "additional_component": 6.208108989995857,
+    "continuous_age": 6.242858522759416,
+    "endpoint_mixture": 6.376019483396293
+  },
+  "additional_component_gains": {
+    "endpoint_mixture": {
+      "equal_mouse_gain": 0.16791049340043607,
+      "positive_mice": 2,
+      "per_mouse": {
+        "18_45_M": 0.8177516503826254,
+        "18_53_M": 0.6934427902212992,
+        "24_58_M": 0.0,
+        "24_59_M": 0.0,
+        "24_60_M": 0.0,
+        "24_61_M": 0.0,
+        "3_10_M": 0.0,
+        "3_8_M": 0.0,
+        "3_9_M": 0.0
+      },
+      "delete_one_mouse_range": [
+        0.0866803487776624,
+        0.10221895629782818,
+        0.18889930507549058,
+        0.18889930507549058,
+        0.18889930507549058,
+        0.18889930507549058,
+        0.18889930507549058,
+        0.18889930507549058,
+        0.18889930507549058
+      ]
+    },
+    "continuous_age": {
+      "equal_mouse_gain": 0.034749532763559285,
+      "positive_mice": 4,
+      "per_mouse": {
+        "18_45_M": 0.2094645563356643,
+        "18_53_M": -0.013621597188145707,
+        "24_58_M": 0.0,
+        "24_59_M": 0.0,
+        "24_60_M": 0.0,
+        "24_61_M": 0.0,
+        "3_10_M": 0.10690015511349049,
+        "3_8_M": 0.0013459353628064719,
+        "3_9_M": 0.008656745248218023
+      },
+      "delete_one_mouse_range": [
+        0.01291015481704616,
+        0.04079592400752241,
+        0.0390932243590042,
+        0.0390932243590042,
+        0.0390932243590042,
+        0.0390932243590042,
+        0.025730704969817886,
+        0.03892498243865339,
+        0.038011131202976944
+      ]
+    }
+  },
+  "middle_age_coherence": [
+    {
+      "heldout_mouse": "18_45_M",
+      "mean_extra_posterior": 0.8067693758871582,
+      "fraction_posterior_above_half": 0.8421052631578947,
+      "extra_training_weight": 0.8747292102415986
+    },
+    {
+      "heldout_mouse": "18_53_M",
+      "mean_extra_posterior": 0.581648920403,
+      "fraction_posterior_above_half": 0.6047430830039525,
+      "extra_training_weight": 0.6459716315077609
+    }
+  ],
+  "middle_age_gene_direction_cosine": 0.9330461958315155,
+  "limits": "Exposed internal leave-mouse-out prediction; overlapping training sets; only two middle-age males; continuous age moments saturated at three ages. Gaussian-family restrictions and processing confounding preclude a distinct functional-state claim. Deletion ranges are sensitivity, not confidence intervals."
+}

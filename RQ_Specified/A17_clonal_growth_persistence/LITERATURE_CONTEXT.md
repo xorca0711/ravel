@@ -58,3 +58,9 @@ Planned query (not reported as newly executed): `alveolar mutant clone size foun
 **Interpretation limit:** A fitted latent founder class is not a distinct biological cell type or a demonstrated molecular mechanism.
 
 [Current dossier](README.md) · [All-question context index](../../docs/research_dossiers/literature_context_2026-10-03/README.md)
+
+## Cut-or-fill execution — 3 November 2026
+
+The new synthetic observation qualification is executed. Unqualified size-dependent detection admits observationally equivalent families; empirical mechanism selection remains held. Uniform-detection indistinguishability is not claimed.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A17_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).

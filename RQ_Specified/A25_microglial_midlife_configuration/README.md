@@ -24,6 +24,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Source clusters establish a distinct universal middle-age state.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a25).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Subsequent evidence — 7 October 2026:** The [region/sex occupancy extension](../../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) has executed on 13,130 source-labelled microglia from 14 mice. Complete-region support is 4/3/3 mice; male midlife comparison fails that support, and old female observations are absent. Region heterogeneity remains material. The distinct-state/mixture model is still unrun.
@@ -50,3 +57,13 @@ unfinished numerical design.
 This workspace owns future question-specific planning. Existing figures, tables,
 failed runs and amendments remain in the article package. No new analysis has
 been executed under this RQ; shared inputs remain shared biological evidence.
+
+## Cut-or-fill execution — 3 November 2026
+
+The supported male-cortex mouse-held-out comparison is executed. Both middle mice improve over endpoint mixture, but only one improves over flexible continuous age; a distinct-state interpretation remains unsupported.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A25_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).
+
+![A25 bounded numerical result](../../analysis/research/runs/cut_fill_a25_figure_v1_20261103/a25_heldout_models_v1.png)
+
+[SVG](../../analysis/research/runs/cut_fill_a25_figure_v1_20261103/a25_heldout_models_v1.svg) · [render receipt](../../analysis/research/runs/cut_fill_a25_figure_v1_20261103/receipt.json).
