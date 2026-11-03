@@ -25,6 +25,12 @@ and exact holds](SOURCE_READS_AND_HOLDS.md) supersede the corresponding access
 limits in the historical reading entries below. The organizing hypotheses,
 registered illustrations and scientific acceptance are unchanged.
 
+The later [hold-resolution follow-through](HOLD_RESOLUTION_OPTIONS.md) adds
+the completed A32 public-cohort screen and a narrower A12 sorted-preparation
+ERBB RNA reference. [Remaining-screening review](REMAINING_SCREENING_REVIEW.md)
+records the source-driven narrowing, completed measurements and exact unresolved
+comparisons. These additions do not clear the original functional/source holds.
+
 [Coordinator review](COORDINATOR_REVIEW.md) records the independent numerical,
 interpretation, figure and portability checks for integration. The full Lin
 reading adds ERBB2 participation to the ERBB4/NRG1 receptor context.

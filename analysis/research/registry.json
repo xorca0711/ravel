@@ -200,7 +200,9 @@
         "RQ_Specified/A12_recipient_context/README.md",
         "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_RESULTS_V1.md",
+        "RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_SPEC_V1.md"
       ]
     },
     {
@@ -1255,7 +1257,10 @@
     "analysis/research/runs/PS1_A5_destination_features_v1_20261103/receipt.json",
     "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/receipt.json",
     "analysis/research/runs/A32_resolution_metadata_v1_20261103/receipt.json",
-    "analysis/research/runs/A32_resolution_context_v1_20261103/receipt.json"
+    "analysis/research/runs/A32_resolution_context_v1_20261103/receipt.json",
+    "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receipt.json",
+    "analysis/research/runs/A12_erbb_sorted_figure_v2_20261103/receipt.json",
+    "analysis/research/runs/A12_erbb_configuration_binding_v1_20261103/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

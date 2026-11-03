@@ -3,6 +3,33 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Remaining public-reference screening reviewed — 3 November 2026
+
+The existing technical chat completed the available A12-adjacent ERBB RNA
+reference, reusing A19's public-source intake. Missing cell-state labels narrowed
+execution to one fresh HTII-280-sorted preparation; the broader state comparison
+remains unestimated. Operational QC retains 11,352 barcodes: ERBB4/ERBB2
+detection is 13.65%/13.46%, with both in 2.03%. This is a preparation-level RNA
+reference, not receptor function, state selection or an IL-1 result.
+[Results and corrected figure](RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_RESULTS_V1.md).
+
+The [coordinator review](docs/research_reviews/2026-11-03-primary-candidate-literature/REMAINING_SCREENING_REVIEW.md)
+records original-matrix R/Python agreement, 68,488 independent table checks and
+visual review. Freeze `5daa3de` owns the numerical work; `1c39f57` corrects only
+the figure legend; `89dd772` verifies unchanged configuration provenance after
+an initial asset-registration gate failure. All three receipts verify. Final
+checks passed: 15,317 repository checks, changed-asset research gate against
+refreshed main `445a0ca`, 170 unit tests (one skipped), compilation, claim and
+required archived-evidence checks. No biological rerun or validator change.
+
+This reviewed follow-through extends [PR #162](https://github.com/xorca0711/ravel/pull/162)
+on `codex/a32-resolution-screen-20261103`; the PR owns live CI status. A32's
+completed outputs remain frozen. Lin reproduction, A31 and Wg-P06 still need
+their [specific missing inputs](docs/research_reviews/2026-11-03-primary-candidate-literature/HOLD_RESOLUTION_OPTIONS.md).
+Next: PR review and those external source/measurement requirements. No merge,
+author contact or controlled-access application occurred; request drafts remain
+private and unsent.
+
 ## A32 public resolution follow-through reviewed — 3 November 2026
 
 The approved GSE234197 screen recovered 45,311 cells and 36 mouse identities,

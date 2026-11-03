@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.erbb_configuration_binding_v1",
+  "owner": "A12",
+  "contract": "RQ_Specified/A12_recipient_context/config/erbb_configuration_contract_v1.json",
+  "contract_sha256": "049273f0fb78606aafdca6becf52296aefa485a8ff3949a12d94571193bb5bb7",
+  "git_commit": "89dd772b8d91bdbe241a3f93c58a7e70f72cefb5",
+  "started_at": "2026-11-03T09:58:12.960180+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A12_recipient_context/scripts/verify_erbb_configuration_v1.py",
+    "--output",
+    "analysis/research/runs/A12_erbb_configuration_binding_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_contract_v1.json",
+      "sha256": "09651f79bf3eed8c723ff6295de0ecb4cc749a6d0036b81cfc3cbe5f6240a08f",
+      "study_id": "A12_ERBB_original_freeze_provenance",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receipt.json",
+      "sha256": "d84023a6f315324a53df6aba4386e50c143fbeaf778c0f506f09b290ac7132d9",
+      "study_id": "A12_ERBB_original_freeze_provenance",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "not_applicable",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/verify_erbb_configuration_v1.py",
+      "sha256": "e4c9df2dfb90f233ef31ef38120182365f334883f14dab14359165e1aecad779"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_spec_v1.json",
+      "sha256": "23555822ecebc07afb30112bb90bd2697b3d167369ea976f9271394503521378"
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_sources_v1.json",
+      "sha256": "6876be6af59f539991071291bc3bf11e8c257993ceb0b768aad7cfec40dab29b"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A12_erbb_configuration_binding_v1_20261103/configuration_binding.json",
+      "sha256": "0c940d2aeb2f90b055fa0c6f59b7b77af2198cacd6f2493734a7e0186998ac0d"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T09:58:13.666713+00:00"
+}

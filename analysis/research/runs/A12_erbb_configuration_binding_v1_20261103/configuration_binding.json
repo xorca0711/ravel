@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "numerical_freeze": "5daa3de6310b798ffe423051ad448d071901539e",
+  "original_contract": "RQ_Specified/A12_recipient_context/config/erbb_sorted_contract_v1.json",
+  "original_receipt": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receipt.json",
+  "correction": "Register existing declarative dependencies; no numerical or design change",
+  "assets": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_spec_v1.json",
+      "sha256": "23555822ecebc07afb30112bb90bd2697b3d167369ea976f9271394503521378",
+      "prior_contract_input_hash": "23555822ecebc07afb30112bb90bd2697b3d167369ea976f9271394503521378",
+      "present_at_numerical_freeze": true,
+      "bytes_unchanged": true
+    },
+    {
+      "path": "RQ_Specified/A12_recipient_context/config/erbb_sorted_sources_v1.json",
+      "sha256": "6876be6af59f539991071291bc3bf11e8c257993ceb0b768aad7cfec40dab29b",
+      "prior_contract_input_hash": "6876be6af59f539991071291bc3bf11e8c257993ceb0b768aad7cfec40dab29b",
+      "present_at_numerical_freeze": true,
+      "bytes_unchanged": true
+    }
+  ]
+}

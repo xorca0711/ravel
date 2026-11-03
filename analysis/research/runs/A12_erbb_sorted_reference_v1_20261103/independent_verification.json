@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_method": "R Matrix::readMM -> CsparseMatrix -> sparse colSums and exact target rows; Python streaming is independent",
+  "checked_barcodes": 11407,
+  "checked_integer_fields_per_barcode": 6,
+  "checked_summary_rows": 4,
+  "barcode_order": "exact",
+  "runtime": "R version 4.6.1 (2026-06-24 ucrt); Matrix 1.7.5",
+  "r_stderr": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed",
+  "scope": "arithmetic and identifiers only; not independent biological validation"
+}

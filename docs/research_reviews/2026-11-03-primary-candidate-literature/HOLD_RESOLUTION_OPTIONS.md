@@ -12,6 +12,12 @@ question remains held. [Coordinator review](A32_COORDINATOR_REVIEW.md).
 Lin, Hamanaka and Speth requests are prepared as private, unsent local drafts.
 The proposal and initial access findings below retain their original scope/date.
 
+**Remaining public-reference follow-through:** the [A12-adjacent ERBB screen](../../../RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_RESULTS_V1.md)
+is complete for one fresh HTII-280-sorted preparation. ERBB4/ERBB2 RNA is
+measurable, but the between-state comparison remains unestimated because no
+usable barcode-to-state map was recovered. This does not resolve Lin reproduction
+or the canonical IL-1 hold. [Source decision and coordinator review](REMAINING_SCREENING_REVIEW.md).
+
 ## What changed in this check
 
 - **Lin access is now characterized:** direct retrieval of the public
