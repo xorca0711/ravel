@@ -161,7 +161,8 @@
         "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
         "RQ_Specified/A9_areg_recipient_competence/README.md",
         "RQ_Specified/A9_areg_recipient_competence/PLAN.md",
-        "RQ_Specified/A9_areg_recipient_competence/LITERATURE_CONTEXT.md"
+        "RQ_Specified/A9_areg_recipient_competence/LITERATURE_CONTEXT.md",
+        "RQ_Specified/A9_areg_recipient_competence/reports/RECEPTOR_CONTEXT_V1_RESULTS.md"
       ]
     },
     {
@@ -1125,7 +1126,8 @@
     "analysis/research/contracts/A12.il1_components_v1.json",
     "analysis/research/contracts/A31.partner_context_v1.json",
     "analysis/research/contracts/A9.receptor_context_v1.json",
-    "analysis/research/contracts/A8.panel_attribution_v1.json"
+    "analysis/research/contracts/A8.panel_attribution_v1.json",
+    "analysis/research/contracts/A27.state_representation_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1274,7 +1276,8 @@
     "analysis/research/runs/A3_identity_repeat_source_view_v1_20261103/receipt.json",
     "analysis/research/runs/A5_component_attribution_v1_20261103/receipt.json",
     "analysis/research/runs/A12_il1_components_v1_20261103/receipt.json",
-    "analysis/research/runs/A31_partner_context_v1_20261103/receipt.json"
+    "analysis/research/runs/A31_partner_context_v1_20261103/receipt.json",
+    "analysis/research/runs/A9_receptor_context_v1_20261103/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

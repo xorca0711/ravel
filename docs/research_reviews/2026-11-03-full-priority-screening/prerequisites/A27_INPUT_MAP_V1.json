@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-03",
+  "source_path": "raw_data/A27_state_recovery_v1/official_facs_spleen.h5ad",
+  "source_acquisition": {
+    "date": "2026-11-03",
+    "url": "https://czb-tabula-muris-senis.s3.us-west-2.amazonaws.com/Data-objects/tabula-muris-senis-facs-processed-official-annotations-Spleen.h5ad",
+    "bytes": 129309558,
+    "sha256": "ea3ebbb6d68e9c69238eb276eb0f3454fa404e2505bd18daea5d6dac7a69f309",
+    "headers": {
+      "ETag": "\"392a5c86ea3e73cd9cd0879122f80667-16\"",
+      "Last-Modified": "Wed, 04 Dec 2019 08:14:05 GMT",
+      "Content-Length": "129309558"
+    },
+    "source_listing": "Existing official data_objects_listing.xml,2019-12-04Spleen FACS object; processed source, not raw-read workflow"
+  },
+  "count_layer": "raw.X",
+  "count_var": "raw.var",
+  "shape": [
+    3834,
+    22966
+  ],
+  "technical_domain_check": "First4096 raw.X nonzero values finite/nonnegative/integer; X is noninteger normalized. Full count-domain validation deferred to governed run. No target-specific values read.",
+  "features": {
+    "naive_associated": [
+      "Tcf7",
+      "Lef1",
+      "Ccr7",
+      "Il7r"
+    ],
+    "effector_associated": [
+      "Nkg7",
+      "Ccl5",
+      "Gzmk",
+      "Gzmb",
+      "Prf1"
+    ]
+  },
+  "feature_occurrences": {
+    "Tcf7": 1,
+    "Lef1": 1,
+    "Ccr7": 1,
+    "Il7r": 1,
+    "Nkg7": 1,
+    "Ccl5": 1,
+    "Gzmk": 1,
+    "Gzmb": 1,
+    "Prf1": 1
+  },
+  "join": "Exact prior official_lookup equals legacy obs index;288of288 original mapped spleenCD8 rows match; no new suffix or fuzzy conversion. source_index and cell_name do not directly match this object.",
+  "original_recovered_cd8_rows": 288,
+  "annotated_cd8_rows": 354,
+  "annotated_mice_by_age": {
+    "3m": 6,
+    "18m": 3,
+    "24m": 4
+  },
+  "original_recovered_mice_by_age": {
+    "3m": 4,
+    "18m": 3,
+    "24m": 4
+  },
+  "assembly_attempt_denominator": "Not supplied by declared metadata; observed original-cohort recovered fraction only",
+  "old_join_sha256": "ba90c14565e5b5b71e6fc17ca73820926a34030764cf25229044b20d79e56241"
+}
