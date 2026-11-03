@@ -1,5 +1,7 @@
 # A8: literature context and hypothesis schematic
 
+**Completed full-priority screen, 3 November 2026:** The fixed attribution screen has completed across 35 original units using both original seeds and the full 1,503-gene sampling order. All original panel scores/support reconstruct; only 34 of 140 panel contrasts qualify and all 106 held contrasts remain visible. The selected three-gene early and four-gene late panels are published-marker subsets, not complete programmes. Heterogeneous member contributions and technical sign changes do not predict later AT1 contribution; the required early-to-later biological-unit link remains missing. [Complete result and evidence](reports/PANEL_ATTRIBUTION_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A8.md).
 
 **External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). The intestinal source has molecular and later functional figures, but no early-to-later biological-unit join was located in the inspected deposits. It cannot validate this question's maturation-to-AT1 relationship. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.

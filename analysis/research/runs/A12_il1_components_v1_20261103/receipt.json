@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.il1_components_v1",
+  "owner": "A12",
+  "contract": "analysis/research/contracts/A12.il1_components_v1.json",
+  "contract_sha256": "c398e6a947901ef8d7aa1f83bd3933f01a3b0e6c6a3fad74cf8fb1bd116c55df",
+  "git_commit": "709b446f0c5ded956574d1be9302578946487e60",
+  "started_at": "2026-11-03T11:02:44.275488+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A12_recipient_context/scripts/il1_components_v1.py",
+    "--output",
+    "analysis/research/runs/A12_il1_components_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/A12_COMPONENTS_v1/unc20_pooled_triad_counts.csv.gz",
+      "sha256": "e24fccfa249a52788117bde204bc88f7deb1ce350d2e52c1b92ebc14c08bfc02",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_human_niche/unc20_pooled_units.csv",
+      "sha256": "288f4c9988b048cad9bc4274aad4ea70a194cec205cdc5cc8c00ce8c69c970f1",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_model_inputs.csv",
+      "sha256": "6bc36b82c3f30f525a9901ffa5362a83da5d4b5b9e050c34c442557650f368b6",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+      "sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_results.json",
+      "sha256": "7d157a98e8d585e7691a2c72792f521ff29ef56ac0ba354f4af2763f70544c57",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "14",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_FEATURE_MAP_V1.json",
+      "sha256": "cd89f32ca790ab48a86773f61b87e528eeaec874c5834a9077b27bf853457502",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_COMPONENT_SPEC_V1.md",
+      "sha256": "648aca2ab76bf084a41dca2a3266cbedf2a85d833658464181b5e5c1bc45e9df",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/A12_TARGET_SOURCE_REVIEW.md",
+      "sha256": "b59d057cc5f02f9816b6173745b2586972fd4d6206d6214e1b5fa96a2c7a9874",
+      "study_id": "GSE308103_original_A12_units",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/il1_components_v1.py",
+      "sha256": "24a89bd03d162b97cdebc4dfd151347a71e9bd362512277ac04fffc23e1f0e9f"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-27-followthrough/A12_pilot_specification.json",
+      "sha256": "7378cc55bbb801c587486d8515c03f529ca6b5ecc501682d1a709361d1a4225f"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A12_FEATURE_MAP_V1.json",
+      "sha256": "cd89f32ca790ab48a86773f61b87e528eeaec874c5834a9077b27bf853457502"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A12_il1_components_v1_20261103/unit_gene_primitives.tsv",
+      "sha256": "760f43e61a5ce5905f9252bfc5a8f226cbe1447db8c15dc2e15bc3bd668c23a4"
+    },
+    {
+      "path": "analysis/research/runs/A12_il1_components_v1_20261103/paired_gene_components.tsv",
+      "sha256": "bfc854cba395cf77c78cc5de3293936c3825c4756f1d814a25ef55d80406f363"
+    },
+    {
+      "path": "analysis/research/runs/A12_il1_components_v1_20261103/original_index_parity.tsv",
+      "sha256": "cbd5b96abdd4c217c291ded02fd2ba6d698551a39483ed40052cd4e34bddc511"
+    },
+    {
+      "path": "analysis/research/runs/A12_il1_components_v1_20261103/component_summary.tsv",
+      "sha256": "c31d2434caf1817466ef22b148a12a3eac51a5528d7abb900eb7e856d0d9c694"
+    },
+    {
+      "path": "analysis/research/runs/A12_il1_components_v1_20261103/verification.json",
+      "sha256": "e2fea0adc44d39e775470f174d1773be2a29f47bbf71e03ee70acca8b9e92a62"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T11:02:47.082364+00:00"
+}

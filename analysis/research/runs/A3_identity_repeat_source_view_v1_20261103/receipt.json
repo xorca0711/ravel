@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A3.identity_repeat_source_view_v1",
+  "owner": "A3",
+  "contract": "analysis/research/contracts/A3.identity_repeat_source_view_v1.json",
+  "contract_sha256": "524fe3a284c549172d9eb217cfe0e9bea820b244c5c404a2797941cce75c704d",
+  "git_commit": "b29961b6a0b8c05b41bac06db0229f24e27297fe",
+  "started_at": "2026-11-03T10:50:52.043343+00:00",
+  "argv": [
+    "python",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_repeat_view_v1.py",
+    "--output",
+    "analysis/research/runs/A3_identity_repeat_source_view_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/DY1_P02_temporal_source_v1/GSE115504_memory_averaged.cpm.table.tsv.gz",
+      "sha256": "ca54ef1ffbaf066ec5745a08cc518b0b0ad976528a407ffb34376afff870f75a",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_source_average_response_v1/source_average_contrasts.tsv.gz",
+      "sha256": "056d76f72d1d7d4c54760a9b85e3ac0bb748e382ae6e81f5af7968be9b0e2d1f",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/source_average_parameters_v1.json",
+      "sha256": "bc781f2a714ec1bd77f70994ad7867fe666e7f77fc7406960b0b8c1de53a92eb",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A3_FEATURE_MAP_V1.json",
+      "sha256": "361b824e3dc128149335a749da4e9bb7ee851e514eaefcbfab403a7918620996",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A3_TARGET_VIEW_SPEC_V1.md",
+      "sha256": "efda74c8bd671dd8bfedd0b53cb341e664d7b60e789199143f9cf5da4125dd38",
+      "study_id": "GSE115504_author_averaged_CPM",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_repeat_view_v1.py",
+      "sha256": "0f019c3e8ad92d17be94527adbb4f43ecd07240d64ecdcfc56e245f5b9996150"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A3_FEATURE_MAP_V1.json",
+      "sha256": "361b824e3dc128149335a749da4e9bb7ee851e514eaefcbfab403a7918620996"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A3_identity_repeat_source_view_v1_20261103/target_source_average_view.tsv",
+      "sha256": "e4da4bb158dac817908a48aee404de085115c327bcc82212edb4ba5de24e958a"
+    },
+    {
+      "path": "analysis/research/runs/A3_identity_repeat_source_view_v1_20261103/verification.json",
+      "sha256": "de9d8a370ae1da55cd97e21f06852ef5685ca98a23681249d040f620be16e5b2"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T10:50:52.881002+00:00"
+}

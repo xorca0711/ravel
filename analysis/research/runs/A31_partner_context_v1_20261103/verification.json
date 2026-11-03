@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "genes": [
+    "GRIA1",
+    "GRIA2",
+    "GRIA3",
+    "GRIA4",
+    "CNIH2",
+    "CNIH3",
+    "CACNG2",
+    "CACNG3",
+    "CACNG8"
+  ],
+  "cells": 14142,
+  "strata": 157,
+  "gene_rows": 1413,
+  "joint_rows": 3544,
+  "attempted_pairs": 261,
+  "estimated_pairs": 135,
+  "unestimated_pairs": 126,
+  "donor_gene_rows": 90,
+  "gria1_donor_rows": 10,
+  "max_gria1_parity_error": 4.524380869952438e-11,
+  "limit": "Nine-gene sentinel RNA only; SS2 reads differ from UMIs; depth halves are within-stratum relative-depth sensitivity, not cross-label depth matching; source/assay donors overlap."
+}

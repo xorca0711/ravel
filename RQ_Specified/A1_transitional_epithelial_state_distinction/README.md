@@ -46,6 +46,14 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** The existing regulatory screens nominate source-specific chromatin features, not a general maturity score. CDKN1A H3K27me3 is comparatively stable across the checked TSS/preparation choices; other acetylation/AP1 findings depend on context.
+
+**Remaining discriminator:** Early regulatory measurements are not linked to later lineage-derived output in the same biological units. Reuse the completed screens; reopen a predictive/functional comparison only when that linkage exists.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “Chromatin closure/silencing or later competence has been resolved.” from current conclusions.

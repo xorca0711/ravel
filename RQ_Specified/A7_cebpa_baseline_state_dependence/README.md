@@ -23,6 +23,14 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Current evidence and interpretation
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** The completed CEBPA/AP1 conditional screens retain pooled-well and gating sensitivities; a post-treatment identity gate is not the starting epithelial state.
+
+**Remaining discriminator:** A baseline-state-by-perturbation contrast needs baseline-linked units. Current pooled post-treatment samples cannot identify that interaction, so no replacement state score is added.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “Post-genotype labels establish baseline-state susceptibility.” from current conclusions.

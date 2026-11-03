@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A21.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** Fzd4 is higher in gCap than aCap in all seven eligible paired units, while transitional ECs are lower in all eleven; cycling does not consistently explain the pattern. Existing structural rescue evidence and the recent source refresh retain maintenance, survival and output as separate possibilities. No qualified adult-repair Fzd4-specific comparison links vascular function, survival and traced regenerative output. Tumor structural rescue and separate loss-of-function perfusion data cannot be combined into that causal chain. [Recent primary-source refresh](../../docs/research_reviews/2026-11-03-full-priority-screening/A21_SOURCE_REFRESH.md). [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point

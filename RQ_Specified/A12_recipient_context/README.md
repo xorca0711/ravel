@@ -1,5 +1,7 @@
 # A12: recipient context beyond ligand RNA
 
+**Completed full-priority screen, 3 November 2026:** The reviewed ten-gene component view has completed in the original 12 patients and 48 units. Mixed receptor/accessory/inhibitor directions explain why the signed index cannot be read as uniform receptor activation. NFKBIA/TNFAIP3 overlap the old response and are not independent validation. The unfavorable fibroblast prediction, candidate-label uncertainty and unassigned IL1B source remain; IL-1-dependent function is still unmeasured. [Complete result and evidence](reports/IL1_COMPONENTS_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 

@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A22.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** All seven focal chemokine RNA effects are already available after NKX2-1 perturbation. The small broad-identity predictor gain fails whole-plate transfer and disappears without NKX2-1. Viable source-cell amount, extracellular protein output and recipient selection are not jointly measured. Reuse the focal RNA screen; do not repeat the broad predictor or infer secretion from RNA. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point

@@ -38,6 +38,14 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** Existing demand, stress, effector and tracer comparisons are retained, including the corrected positive but non-BH-supported PGAM Compass association. A selective effector increase with falling demand is not a demonstrated PEP-signaling route.
+
+**Remaining discriminator:** Calibrated PEP pools and discriminating protein/signaling measurements are absent. Isotope fractions are not flux or absolute pools; ATF4 RNA is not activity. No new score is added to rescue a preferred mechanism.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “Corrected Compass or relative RNA selects PEP, excludes stress, or fixes TPM composition.” from current conclusions.

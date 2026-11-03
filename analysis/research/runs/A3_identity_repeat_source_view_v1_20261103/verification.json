@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "targets": 6,
+  "rows": 12,
+  "scalar_parity_checks": 48,
+  "max_absolute_error": 1.5612511283791264e-15,
+  "offsets": [
+    1.0,
+    0.5
+  ],
+  "method": "Read frozen target rows; independently compare scalar log2 ratios of four original WT source averages.",
+  "limit": "Numerical verification of the same source, not biological replication; no individual variance/n or causal interaction."
+}

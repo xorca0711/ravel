@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A31.partner_context_v1",
+  "owner": "A31",
+  "contract": "analysis/research/contracts/A31.partner_context_v1.json",
+  "contract_sha256": "0eecc98e0d312e3fe55ef3ba763c36a4a4d86b0d018df3c26a31e17fa7047e03",
+  "git_commit": "0d5b1fc4c340851c2396744503e7b322d0a67e93",
+  "started_at": "2026-11-03T11:11:20.302850+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A31_gria1_fibroblast_response/scripts/partner_context_v1.py",
+    "--output",
+    "analysis/research/runs/A31_partner_context_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/travaglini_nabhan_2020/cellxgene/c0ee0004-7bd1-4986-9b66-8a9d3593c0e6.h5ad",
+      "sha256": "e99da4d25e3000ee1bbe04d379ac5dc35594ead69d58bcc846e87cfd3c5e6927",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/cellxgene/f5568ea3-c249-4e4e-91f8-46abc30a5612.h5ad",
+      "sha256": "b93b256c2acb4fff13a74e21640b127f739dd75745909af8943dd5d40ae7d8c5",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/external/460b3fe9-f623-4299-a745-78beba61c3d8.h5ad",
+      "sha256": "7fb66db5a5c1c3cb591a668ef7546e5ba48ffc7be1b1e6bf27c10be0e13f9df5",
+      "study_id": "Madissoon2023",
+      "unit_ids": [
+        "A26",
+        "A32",
+        "A37",
+        "A40",
+        "A41",
+        "A42",
+        "A43",
+        "A44",
+        "A47",
+        "A48"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/travaglini_nabhan_2020/prepared/cell_metadata.tsv",
+      "sha256": "95d849c51ef9c1922f4399a80cad04390a3d06b67ddd6195dfa904ad841221cb",
+      "study_id": "Travaglini2020",
+      "unit_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/stratum_gene.tsv",
+      "sha256": "fc83bef12c01d847df67036f6b839a0f498a38d2f106a487a739b3aa3205fb50",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb4_p09_expression_specificity_v1_20261007/donor_effects.tsv",
+      "sha256": "571581a07b20abb5a4b5dc3aa0f70d0f01ec6cf8a2d238508354f9caa1a9c3cd",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A31_FEATURE_MAP_V1.json",
+      "sha256": "abdce15413dad16147431419332b4341e370f0ed2aadcd78d0e0dc5dd14f6833",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A31_PARTNER_SPEC_V1.md",
+      "sha256": "b5671cfb261a86e22a2cbe847aad95086e6fea2edc60db7d9aac9f8c61c13274",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A31_TARGET_SOURCE_REVIEW_V1.md",
+      "sha256": "a99726b57b35349b35c3376a6915edcb5d4446fc9b0a556a6d41aa51de965f99",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A31_gria1_fibroblast_response/scripts/partner_context_v1.py",
+      "sha256": "7effd683668e1e72be89999ee979d7a1fff3a35e73bd875ae39c1dfddb87c39b"
+    },
+    {
+      "path": "analysis/portfolio_extensions/2026-10-07/g2_niche/sensory_v1.py",
+      "sha256": "90a3d8e3ed2e9ca93aea97c73a472fc5163c043bfb9dbc5bd4c1a32d2f7ed1b5"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A31_FEATURE_MAP_V1.json",
+      "sha256": "abdce15413dad16147431419332b4341e370f0ed2aadcd78d0e0dc5dd14f6833"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/cell_partner_counts.tsv.gz",
+      "sha256": "495faee4f808830f37110b4922ffd80bb85cfe4ea80bafd6312aa768c2088249"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/stratum_gene.tsv",
+      "sha256": "6cef31b352a319a5512f91688a8d741bcbe10409ee2f9222adcf53c132fd5639"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/partner_codetection.tsv",
+      "sha256": "aba293ee7ab445c7f6be7bc56e0685a39326b967bd2294953f184dc886ac1df0"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/gria1_stratum_parity.tsv",
+      "sha256": "2797ef6b989110ef57aa033eecfca7a0009ed77c15749a0dfeca5e7a29b3ed22"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/paired_strata.tsv",
+      "sha256": "cffed02316a79649a89bf634c485fb8c4a0036aab249eb40e38da09b01d1dea0"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/donor_effects.tsv",
+      "sha256": "9a98304cdfd8f32291bfb682be7bee9ef5461dee3e50ce57622ca1edf5fd7aad"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/gria1_donor_parity.tsv",
+      "sha256": "4e6d008e348c174ea210944dade485763e3534f1a3d6ccb96bb62bf5bbbdce95"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/verification.json",
+      "sha256": "ab1b9fc9dd020500bb9a237ebd34f5aee6fc796f3059e324ab08bfabcd3c997c"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T11:11:54.932208+00:00"
+}

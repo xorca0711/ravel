@@ -1,0 +1,53 @@
+age_months	mouse_id	state	represented_cells	source_clone_keys	repeated_cells	observed_repetition_fraction	depth	eligible	status	expected_depth5_fraction	scalar_depth5_fraction
+3	3_10_M	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_10_M	effector_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_10_M	mixed	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_10_M	indeterminate	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_11_M	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_11_M	effector_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_11_M	mixed	4	4	0	0.0	5	False	unestimated_fewer_than_five		
+3	3_11_M	indeterminate	13	13	0	0.0	5	True	estimated	0.0	0.0
+3	3_38_F	naive_associated	2	2	0	0.0	5	False	unestimated_fewer_than_five		
+3	3_38_F	effector_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_38_F	mixed	17	17	0	0.0	5	True	estimated	0.0	0.0
+3	3_38_F	indeterminate	17	17	0	0.0	5	True	estimated	0.0	0.0
+3	3_39_F	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_39_F	effector_associated	1	1	0	0.0	5	False	unestimated_fewer_than_five		
+3	3_39_F	mixed	14	14	0	0.0	5	True	estimated	0.0	0.0
+3	3_39_F	indeterminate	12	12	0	0.0	5	True	estimated	0.0	0.0
+3	3_8_M	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_8_M	effector_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_8_M	mixed	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_8_M	indeterminate	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_9_M	naive_associated	1	1	0	0.0	5	False	unestimated_fewer_than_five		
+3	3_9_M	effector_associated	0	0	0		5	False	unestimated_fewer_than_five		
+3	3_9_M	mixed	9	9	0	0.0	5	True	estimated	0.0	0.0
+3	3_9_M	indeterminate	15	15	0	0.0	5	True	estimated	0.0	0.0
+18	18_45_M	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+18	18_45_M	effector_associated	1	1	0	0.0	5	False	unestimated_fewer_than_five		
+18	18_45_M	mixed	1	1	0	0.0	5	False	unestimated_fewer_than_five		
+18	18_45_M	indeterminate	3	3	0	0.0	5	False	unestimated_fewer_than_five		
+18	18_47_F	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+18	18_47_F	effector_associated	4	2	4	1.0	5	False	unestimated_fewer_than_five		
+18	18_47_F	mixed	23	23	0	0.0	5	True	estimated	0.0	0.0
+18	18_47_F	indeterminate	12	12	0	0.0	5	True	estimated	0.0	0.0
+18	18_53_M	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+18	18_53_M	effector_associated	1	1	0	0.0	5	False	unestimated_fewer_than_five		
+18	18_53_M	mixed	24	20	5	0.20833333333333334	5	True	estimated	0.11714191605495954	0.11714191605495954
+18	18_53_M	indeterminate	6	6	0	0.0	5	True	estimated	0.0	0.0
+24	24_58_M	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+24	24_58_M	effector_associated	1	1	0	0.0	5	False	unestimated_fewer_than_five		
+24	24_58_M	mixed	15	15	0	0.0	5	True	estimated	0.0	0.0
+24	24_58_M	indeterminate	12	12	0	0.0	5	True	estimated	0.0	0.0
+24	24_59_M	naive_associated	1	1	0	0.0	5	False	unestimated_fewer_than_five		
+24	24_59_M	effector_associated	2	2	0	0.0	5	False	unestimated_fewer_than_five		
+24	24_59_M	mixed	4	4	0	0.0	5	False	unestimated_fewer_than_five		
+24	24_59_M	indeterminate	3	3	0	0.0	5	False	unestimated_fewer_than_five		
+24	24_60_M	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+24	24_60_M	effector_associated	0	0	0		5	False	unestimated_fewer_than_five		
+24	24_60_M	mixed	25	25	0	0.0	5	True	estimated	0.0	0.0
+24	24_60_M	indeterminate	5	5	0	0.0	5	True	estimated	0.0	0.0
+24	24_61_M	naive_associated	0	0	0		5	False	unestimated_fewer_than_five		
+24	24_61_M	effector_associated	25	21	7	0.28	5	True	estimated	0.06405797101449276	0.06405797101449276
+24	24_61_M	mixed	2	2	0	0.0	5	False	unestimated_fewer_than_five		
+24	24_61_M	indeterminate	13	12	2	0.15384615384615385	5	True	estimated	0.05128205128205129	0.05128205128205129

@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A23.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** Existing transition and alternative-transporter screens are complete. SLC20A1/SLC20A2 RNA is lower in the single PAM case across overlapping selections; this is not evidence of transport compensation. Static fractions and marker endpoints cannot distinguish entry from persistence or exit. Repeated/dynamic unit-linked measurements are missing; pseudotime or relabelled scores would not supply them. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point

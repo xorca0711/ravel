@@ -1,5 +1,7 @@
 # A31 primary-source context
 
+**Completed full-priority screen, 3 November 2026:** The reviewed nine-gene partner context has completed across 14,142 cells and 157 strata, retaining 135 estimated and 126 unsupported gene-stratum pairs. Original GRIA1 enrichment persists, while partner directions are heterogeneous. Ten donor/assay contexts share some donors and are not ten independent people. Co-detected RNA does not establish assembled receptors or an acute GRIA1-dependent response. [Complete result and evidence](reports/PARTNER_CONTEXT_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A31.md).
 
 ## Published starting point

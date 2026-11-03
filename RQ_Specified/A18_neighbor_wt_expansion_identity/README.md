@@ -23,6 +23,14 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Current evidence and interpretation
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** Existing spatial descriptions separate WT-neighbor size from AT2-identity fraction and retain the log-size/logit-fraction sensitivity and declining distal occupancy.
+
+**Remaining discriminator:** Spatial rows lack verified mouse/clone/pair linkage and may repeat neighbors. Separate mouse-indexed arrays cannot be joined by assumption. Molecular mediator/range and animal-level distance interactions remain unestimated.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “WT growth/identity differences establish two signaling channels.” from current conclusions.

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "patients": 12,
+  "patient_recipient_pairs": 24,
+  "recipient_units": 48,
+  "genes": 10,
+  "primitive_rows": 480,
+  "paired_rows": 240,
+  "full_library_checks": 48,
+  "scalar_log_checks": 480,
+  "max_scalar_log_error": 0.0,
+  "original_index_checks": 24,
+  "max_index_error": 1.1102230246251565e-15,
+  "response_overlap": [
+    "NFKBIA",
+    "TNFAIP3"
+  ],
+  "limit": "Original candidate labels and unfavorable fibroblast prediction retained; no new index, refit, response correlation, causal specificity or protein activity claim."
+}

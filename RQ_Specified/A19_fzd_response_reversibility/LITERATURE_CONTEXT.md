@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A19.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** Existing source/passage qPCR distinguishes CHIR media context and changing epithelial markers; it does not measure receptor-selective Fzd withdrawal or retained regenerative reserve. Matched starting-state history, cessation and absolute mature output/reserve are missing. Reuse the donor/source contrasts without treating different source lines or culture ages as a factorial experiment. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point

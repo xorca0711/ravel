@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A18.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** Existing spatial descriptions separate WT-neighbor size from AT2-identity fraction and retain the log-size/logit-fraction sensitivity and declining distal occupancy. Spatial rows lack verified mouse/clone/pair linkage and may repeat neighbors. Separate mouse-indexed arrays cannot be joined by assumption. Molecular mediator/range and animal-level distance interactions remain unestimated. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point

@@ -1,5 +1,7 @@
 # A9: literature context and hypothesis schematic
 
+**Completed full-priority screen, 3 November 2026:** The reviewed six-gene recipient context has completed in the original 22 donors. Nineteen paired donors support 114 gene contrasts; 18 remain unsupported. EGFR and ERRFI1 RNA are lower in Myofibroblast in all supported pairs, with mixed directions for the other four targets. The original 7/22 encoded-complex coverage failure remains. This context does not establish receptor competence, effective inhibition or AREG dependence. [Complete result and evidence](reports/RECEPTOR_CONTEXT_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A9.md).
 
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.

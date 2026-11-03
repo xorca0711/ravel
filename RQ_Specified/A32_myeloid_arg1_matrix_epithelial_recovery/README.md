@@ -31,6 +31,14 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Evidence, analyses and next steps
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** Reuse the public GSE234197 compartment screen: 306 contrast dispositions include 88 estimates and 218 unsupported comparisons. Myeloid ARG1 and matrix RNA can be described in supported contexts; epithelial contrasts remain unsupported.
+
+**Remaining discriminator:** Sparse AT1/AT2 sampling leaves all 84 epithelial contrasts unestimated. Linked ARG1 exposure, matrix function and mature epithelial recovery are missing, and the previously checked GSE328925 release remains private. These are distinct limits, not a completed joint-outcome mechanism.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “Lower matrix output implies mature epithelial recovery.” from current conclusions.

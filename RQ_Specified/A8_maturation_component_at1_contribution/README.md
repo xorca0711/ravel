@@ -1,5 +1,7 @@
 # A8: does a maturation component add information about mature AT1 contribution?
 
+**Completed full-priority screen, 3 November 2026:** The fixed attribution screen has completed across 35 original units using both original seeds and the full 1,503-gene sampling order. All original panel scores/support reconstruct; only 34 of 140 panel contrasts qualify and all 106 held contrasts remain visible. The selected three-gene early and four-gene late panels are published-marker subsets, not complete programmes. Heterogeneous member contributions and technical sign changes do not predict later AT1 contribution; the required early-to-later biological-unit link remains missing. [Complete result and evidence](reports/PANEL_ATTRIBUTION_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 <!-- current-rq-framing:start -->
 <a id="current-biological-hypothesis-and-novelty-boundary--3-october-2026"></a>
 

@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "rna_cells": 354,
+  "represented_cells": 288,
+  "rna_mice": 13,
+  "represented_mice": 11,
+  "inherited_blank_label_singletons": 237,
+  "mouse_state_rows": 52,
+  "supported_mouse_states": 17,
+  "attempted_age_contrasts": 8,
+  "estimated_age_contrasts": 4,
+  "max_scalar_error": 1.1102230246251565e-16,
+  "max_broad_parity_error": 9.71445146547012e-17,
+  "max_synthetic_error": 1.1102230246251565e-16,
+  "limit": "Operational RNA states and prior-table representation; no assembly-attempt denominator. Blank source clone labels inherit singleton convention, not verified sequence uniqueness. Fixed-depth within-state repetition is not fixed-composition attribution or absolute expansion."
+}

@@ -46,6 +46,14 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** Current screening retains Fzd2 versus Fzd1 in AF1 and coexistence of support/ECM RNA changes. RNA donors and organoid-function donors are different sets.
+
+**Remaining discriminator:** The missing comparison links receptor-specific perturbation to the early epithelial pool and later absolute mature output. No donor pairing or functional coupling is inferred across the separate sources.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “The screen established Fzd2 dependence or chose pool maintenance over maturation.” from current conclusions.

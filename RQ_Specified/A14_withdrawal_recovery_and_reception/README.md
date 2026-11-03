@@ -46,6 +46,14 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** The original Choi withdrawal panel and its twelve qPCR endpoints were identified in the primary figure/legend. This completes source intake, not numerical reproduction.
+
+**Remaining discriminator:** Fig7E preparation-level values and the preparation-to-experiment/condition map were not found in the checked attachments. Gapdh/delta-Ct normalization is reported, but the values remain unavailable; continuous-exposure RNA cannot substitute for withdrawal. [Source/endpoint/unit manifest](../../docs/research_reviews/2026-11-03-full-priority-screening/A14_SOURCE_MANIFEST.md).
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “Persistence proves autonomous memory or a directional fibroblast effect.” from current conclusions.

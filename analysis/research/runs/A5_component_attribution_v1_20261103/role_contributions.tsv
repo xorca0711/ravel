@@ -1,0 +1,19 @@
+role	module	annotated_members_in_module	module_denominator	n_mice	mean_contribution_pp	additivity
+enzyme	Guo_AT1_AT2_external	1	99	24	0.00465245731320766	non-additive across overlapping roles
+enzyme	Guo_minus_identity	1	57	24	0.008080583754518568	non-additive across overlapping roles
+enzyme	Guo_minus_identity_and_controls	1	53	24	0.00869043913221808	non-additive across overlapping roles
+extracellular_structure	Guo_AT1_AT2_external	3	99	24	0.024686873116650864	non-additive across overlapping roles
+extracellular_structure	Guo_minus_identity	1	57	24	0.02527071892646697	non-additive across overlapping roles
+extracellular_structure	Guo_minus_identity_and_controls	1	53	24	0.027177942996389	non-additive across overlapping roles
+gene_expression_regulation	Guo_AT1_AT2_external	6	99	24	-0.12582390471401764	non-additive across overlapping roles
+gene_expression_regulation	Guo_minus_identity	4	57	24	0.0048019666964644854	non-additive across overlapping roles
+gene_expression_regulation	Guo_minus_identity_and_controls	4	53	24	0.005164379277329726	non-additive across overlapping roles
+receptor_or_ligand	Guo_AT1_AT2_external	5	99	24	0.14831045080854868	non-additive across overlapping roles
+receptor_or_ligand	Guo_minus_identity	5	57	24	0.25759183561484766	non-additive across overlapping roles
+receptor_or_ligand	Guo_minus_identity_and_controls	3	53	24	0.2618573670267508	non-additive across overlapping roles
+transport	Guo_AT1_AT2_external	4	99	24	-0.09394720181561472	non-additive across overlapping roles
+transport	Guo_minus_identity	0	57	24	0.0	non-additive across overlapping roles
+transport	Guo_minus_identity_and_controls	0	53	24	0.0	non-additive across overlapping roles
+unknown_unreviewed_in_this_pass	Guo_AT1_AT2_external	81	99	24	0.782240016335475	non-additive across overlapping roles
+unknown_unreviewed_in_this_pass	Guo_minus_identity	47	57	24	0.26979818656233995	non-additive across overlapping roles
+unknown_unreviewed_in_this_pass	Guo_minus_identity_and_controls	45	53	24	0.30820639975796005	non-additive across overlapping roles

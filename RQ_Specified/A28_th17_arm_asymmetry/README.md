@@ -35,6 +35,14 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** The completed two-arm decomposition does not support a universal reciprocal regulatory-versus-inflammatory RNA switch. Low-glucose effects and the corrected human compartment contrast have different arm patterns.
+
+**Remaining discriminator:** Regulatory and inflammatory functions need separately measured outputs. RNA scores, two mouse sources and shared donor contrasts cannot establish symmetric or independent functional competence.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “RNA-arm asymmetry proves two independently regulated functions in one cell.” from current conclusions.

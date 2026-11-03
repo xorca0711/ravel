@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A29.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** Existing demand, stress, effector and tracer comparisons are retained, including the corrected positive but non-BH-supported PGAM Compass association. A selective effector increase with falling demand is not a demonstrated PEP-signaling route. Calibrated PEP pools and discriminating protein/signaling measurements are absent. Isotope fractions are not flux or absolute pools; ATF4 RNA is not activity. No new score is added to rescue a preferred mechanism. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 **Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
 
 **Interpretation correction — 3 November 2026:** the earlier statement that a

@@ -1,5 +1,7 @@
 # A3: macrophage injury history
 
+**Completed full-priority screen, 3 November 2026:** The reviewed six-target, two-offset repeat-stimulation view has completed. Target directions are heterogeneous and ARG1 is offset-sensitive; source group averages supply neither individual variance nor persistent macrophage memory. This same-source measurement does not establish NAM/injury memory or a repair mechanism. [Complete result and evidence](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 ## Organizing Biological Q
 
 Does prior injury leave a persistent macrophage programme after age and current tissue context are accounted for?

@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A15.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** Reuse the corrected 28 September normalization and the four-versus-four-mouse perturbation RNA comparison: matrix RNA declines, while the epithelial panels do not separate the groups. Direct active-versus-total TGF-beta measurements are absent. Non-separation is not equivalence or exclusion of epithelial mediation; the obsolete normalization remains superseded. [Authoritative normalization erratum](reports/NORMALIZATION_ERRATUM_2026-09-28.md). [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.
 
 ## Published starting point

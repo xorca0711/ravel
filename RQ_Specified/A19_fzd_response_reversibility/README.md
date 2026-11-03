@@ -46,6 +46,14 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** Existing source/passage qPCR distinguishes CHIR media context and changing epithelial markers; it does not measure receptor-selective Fzd withdrawal or retained regenerative reserve.
+
+**Remaining discriminator:** Matched starting-state history, cessation and absolute mature output/reserve are missing. Reuse the donor/source contrasts without treating different source lines or culture ages as a factorial experiment.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “CHIR transcript changes establish Fzd-specific maturation and functional reserve.” from current conclusions.

@@ -1,5 +1,7 @@
 # A27: Within-state and compositional CD8 repertoire ageing
 
+**Completed full-priority screen, 3 November 2026:** The fixed CD8 RNA-state screen has completed with separate denominators of 354 RNA cells and 288 prior repertoire-table rows. All four naive/effector-associated age contrasts remain unsupported; four mixed/indeterminate contrasts qualify without resolving state redistribution. The 237 blank source clone labels retain an inherited singleton convention, not verified sequence uniqueness. Prior-table representation is not productive assembly success, and within-state depth-five comparisons are not fixed-composition attribution. [Complete result and evidence](reports/STATE_REPRESENTATION_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 ## Organizing Biological Q
 
 In spleen CD8 cells, does the older repertoire concentration primarily reflect redistribution among differentiation states, or a change in concentration within comparable states under qualified receptor ascertainment?

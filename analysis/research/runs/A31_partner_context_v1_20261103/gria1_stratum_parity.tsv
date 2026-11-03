@@ -1,0 +1,158 @@
+cohort	assay	donor	region	protocol	cell_type	count_unit	gene	n_cells_new	library_new	sum_count_new	n_detected_new	fraction_detected_new	log2cpm_new	sensitivity	depth	n_cells_old	library_old	sum_count_old	n_detected_old	fraction_detected_old	log2cpm_old	_merge
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	Adventitial Fibroblast	source_counts	GRIA1	319	3932888	3	3	0.009404388714733543	0.8178673520600153	all	all_depth	319	3932888	3	3	0.00940438871473	0.81786735206	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	Alveolar Fibroblast	source_counts	GRIA1	169	540456	28	24	0.14201183431952663	5.722687406178267	all	all_depth	169	540456	28	24	0.14201183432	5.72268740618	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	NAF_endoneurial	source_counts	GRIA1	2	3279	0	0	0.0	0.0	all	all_depth	2	3279	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	Adventitial Fibroblast	source_counts	GRIA1	493	2702203	6	5	0.010141987829614604	1.687244612035511	all	all_depth	493	2702203	6	5	0.0101419878296	1.68724461204	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	Alveolar Fibroblast	source_counts	GRIA1	610	1454676	45	39	0.06393442622950819	4.997054059089317	all	all_depth	610	1454676	45	39	0.0639344262295	4.99705405909	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	NAF_endoneurial	source_counts	GRIA1	1	1679	0	0	0.0	0.0	all	all_depth	1	1679	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	Schwann_nonmyelinating	source_counts	GRIA1	1	1158	0	0	0.0	0.0	all	all_depth	1	1158	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	66	201028	0	0	0.0	0.0	all	all_depth	66	201028	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	Alveolar Fibroblast	source_counts	GRIA1	69	114325	3	3	0.043478260869565216	4.767706682594349	all	all_depth	69	114325	3	3	0.0434782608696	4.76770668259	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	NAF_epineurial	source_counts	GRIA1	1	934	0	0	0.0	0.0	all	all_depth	1	934	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	274	822758	2	2	0.0072992700729927005	1.77856539488757	all	all_depth	274	822758	2	2	0.00729927007299	1.77856539489	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	416	1123280	62	54	0.12980769230769232	5.812382674081838	all	all_depth	416	1123280	62	54	0.129807692308	5.81238267408	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	NAF_endoneurial	source_counts	GRIA1	3	7350	0	0	0.0	0.0	all	all_depth	3	7350	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	1	3645	0	0	0.0	0.0	all	all_depth	1	3645	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|LibCD45neg	Adventitial Fibroblast	source_counts	GRIA1	375	1775656	2	2	0.005333333333333333	1.088375213058875	all	all_depth	375	1775656	2	2	0.00533333333333	1.08837521306	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|LibCD45neg	Alveolar Fibroblast	source_counts	GRIA1	146	266021	10	10	0.0684931506849315	5.2701931683839085	all	all_depth	146	266021	10	10	0.0684931506849	5.27019316838	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	307	1300877	1	1	0.003257328990228013	0.822699302827429	all	all_depth	307	1300877	1	1	0.00325732899023	0.822699302827	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|LibCD45pos	Alveolar Fibroblast	source_counts	GRIA1	29	70693	0	0	0.0	0.0	all	all_depth	29	70693	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|LibCD45pos	NAF_epineurial	source_counts	GRIA1	1	1984	0	0	0.0	0.0	all	all_depth	1	1984	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	358	1018399	1	1	0.002793296089385475	0.9869084889329055	all	all_depth	358	1018399	1	1	0.00279329608939	0.986908488933	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	61	112643	5	4	0.06557377049180328	5.504239722882758	all	all_depth	61	112643	5	4	0.0655737704918	5.50423972288	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|TrypLibUndigest	NAF_endoneurial	source_counts	GRIA1	2	2140	0	0	0.0	0.0	all	all_depth	2	2140	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	4	11593	0	0	0.0	0.0	all	all_depth	4	11593	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A26	Trachea	EFO:0009899|TrypLibUndigest	Schwann_nonmyelinating	source_counts	GRIA1	5	4482	0	0	0.0	0.0	all	all_depth	5	4482	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	2	815	0	0	0.0	0.0	all	all_depth	2	815	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	38	152165	0	0	0.0	0.0	all	all_depth	38	152165	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	Alveolar Fibroblast	source_counts	GRIA1	4	8121	2	1	0.25	7.949973098366267	all	all_depth	4	8121	2	1	0.25	7.94997309837	both
+Madissoon	Madissoon cell	A32	Trachea	EFO:0009899|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	13	42954	0	0	0.0	0.0	all	all_depth	13	42954	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A32	Trachea	EFO:0009899|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	5	6293	0	0	0.0	0.0	all	all_depth	5	6293	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A32	Trachea	EFO:0009899|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	4	2056	0	0	0.0	0.0	all	all_depth	4	2056	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	128	940718	0	0	0.0	0.0	all	all_depth	128	940718	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	8	68739	0	0	0.0	0.0	all	all_depth	8	68739	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_endoneurial	source_counts	GRIA1	1	1309	0	0	0.0	0.0	all	all_depth	1	1309	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	41	428157	0	0	0.0	0.0	all	all_depth	41	428157	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45pos	Alveolar Fibroblast	source_counts	GRIA1	1	20847	0	0	0.0	0.0	all	all_depth	1	20847	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	323	2653550	2	1	0.0030959752321981426	0.8104079750958183	all	all_depth	323	2653550	2	1	0.0030959752322	0.810407975096	both
+Madissoon	Madissoon cell	A37	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	173	1024585	4	4	0.023121387283236993	2.293964767524734	all	all_depth	173	1024585	4	4	0.0231213872832	2.29396476752	both
+Madissoon	Madissoon cell	A37	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	17	142470	0	0	0.0	0.0	all	all_depth	17	142470	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45pos	Alveolar Fibroblast	source_counts	GRIA1	3	20267	0	0	0.0	0.0	all	all_depth	3	20267	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	179	826604	0	0	0.0	0.0	all	all_depth	179	826604	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	43	170027	1	1	0.023255813953488372	2.782706055187147	all	all_depth	43	170027	1	1	0.0232558139535	2.78270605519	both
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	44	198488	0	0	0.0	0.0	all	all_depth	44	198488	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	1215	5183498	1	1	0.0008230452674897119	0.2544971944843366	all	all_depth	1215	5183498	1	1	0.00082304526749	0.254497194484	both
+Madissoon	Madissoon cell	A37	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	21	174676	0	0	0.0	0.0	all	all_depth	21	174676	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_endoneurial	source_counts	GRIA1	3	4193	0	0	0.0	0.0	all	all_depth	3	4193	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	1	1452	0	0	0.0	0.0	all	all_depth	1	1452	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Schwann_nonmyelinating	source_counts	GRIA1	1	786	0	0	0.0	0.0	all	all_depth	1	786	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	5	21332	0	0	0.0	0.0	all	all_depth	5	21332	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	14	115260	0	0	0.0	0.0	all	all_depth	14	115260	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	13	35766	3	3	0.23076923076923078	6.4073280012373	all	all_depth	13	35766	3	3	0.230769230769	6.40732800124	both
+Madissoon	Madissoon cell	A40	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	16	93238	0	0	0.0	0.0	all	all_depth	16	93238	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	2	1412	0	0	0.0	0.0	all	all_depth	2	1412	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	27	241278	1	1	0.037037037037037035	2.3630579814615174	all	all_depth	27	241278	1	1	0.037037037037	2.36305798146	both
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	6	6369	1	1	0.16666666666666666	7.303876800207241	all	all_depth	6	6369	1	1	0.166666666667	7.30387680021	both
+Madissoon	Madissoon cell	A40	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	40	390826	0	0	0.0	0.0	all	all_depth	40	390826	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	1	2630	0	0	0.0	0.0	all	all_depth	1	2630	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Trachea	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	23	233615	0	0	0.0	0.0	all	all_depth	23	233615	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Trachea	EFO:0030004|LibCD45pos	Alveolar Fibroblast	source_counts	GRIA1	1	10343	0	0	0.0	0.0	all	all_depth	1	10343	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	6	31918	0	0	0.0	0.0	all	all_depth	6	31918	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	1	727	0	0	0.0	0.0	all	all_depth	1	727	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	159	737726	0	0	0.0	0.0	all	all_depth	159	737726	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	185	650670	43	33	0.1783783783783784	6.067933950015637	all	all_depth	185	650670	43	33	0.178378378378	6.06793395002	both
+Madissoon	Madissoon cell	A43	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_endoneurial	source_counts	GRIA1	2	9985	0	0	0.0	0.0	all	all_depth	2	9985	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	2	4884	0	0	0.0	0.0	all	all_depth	2	4884	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Schwann_Myelinating	source_counts	GRIA1	1	1521	0	0	0.0	0.0	all	all_depth	1	1521	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Schwann_nonmyelinating	source_counts	GRIA1	2	1741	0	0	0.0	0.0	all	all_depth	2	1741	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	430	1069813	4	4	0.009302325581395349	2.244573894380683	all	all_depth	430	1069813	4	4	0.0093023255814	2.24457389438	both
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	542	1648579	45	44	0.08118081180811808	4.822538206842454	all	all_depth	542	1648579	45	44	0.0811808118081	4.82253820684	both
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	1	2560	0	0	0.0	0.0	all	all_depth	1	2560	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	319	543198	0	0	0.0	0.0	all	all_depth	319	543198	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_endoneurial	source_counts	GRIA1	10	20214	0	0	0.0	0.0	all	all_depth	10	20214	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	14	22105	0	0	0.0	0.0	all	all_depth	14	22105	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Schwann_Myelinating	source_counts	GRIA1	4	4257	0	0	0.0	0.0	all	all_depth	4	4257	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Schwann_nonmyelinating	source_counts	GRIA1	17	23273	0	0	0.0	0.0	all	all_depth	17	23273	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	168	540410	1	1	0.005952380952380952	1.5111881176054456	all	all_depth	168	540410	1	1	0.00595238095238	1.51118811761	both
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	175	261495	11	10	0.05714285714285714	5.428471191136941	all	all_depth	175	261495	11	10	0.0571428571429	5.42847119114	both
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_endoneurial	source_counts	GRIA1	3	6350	0	0	0.0	0.0	all	all_depth	3	6350	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	2	5612	0	0	0.0	0.0	all	all_depth	2	5612	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Schwann_Myelinating	source_counts	GRIA1	1	1337	0	0	0.0	0.0	all	all_depth	1	1337	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	152	1108398	1	1	0.006578947368421052	0.9276712159315113	all	all_depth	152	1108398	1	1	0.00657894736842	0.927671215932	both
+Madissoon	Madissoon cell	A44	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	28	126021	5	3	0.10714285714285714	5.346103321018933	all	all_depth	28	126021	5	3	0.107142857143	5.34610332102	both
+Madissoon	Madissoon cell	A44	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	1	3417	0	0	0.0	0.0	all	all_depth	1	3417	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	21	117763	1	1	0.047619047619047616	3.246656090466493	all	all_depth	21	117763	1	1	0.047619047619	3.24665609047	both
+Madissoon	Madissoon cell	A44	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	43	172583	0	0	0.0	0.0	all	all_depth	43	172583	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	91	196104	22	17	0.18681318681318682	6.8225436946781945	all	all_depth	91	196104	22	17	0.186813186813	6.82254369468	both
+Madissoon	Madissoon cell	A44	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	7	45585	0	0	0.0	0.0	all	all_depth	7	45585	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibCD45pos	Alveolar Fibroblast	source_counts	GRIA1	1	671	0	0	0.0	0.0	all	all_depth	1	671	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	105	677640	5	5	0.047619047619047616	3.0667004332707584	all	all_depth	105	677640	5	5	0.047619047619	3.06670043327	both
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	179	1079484	51	38	0.2122905027932961	5.5923013892945015	all	all_depth	179	1079484	51	38	0.212290502793	5.59230138929	both
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	10	59707	0	0	0.0	0.0	all	all_depth	10	59707	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	Alveolar Fibroblast	source_counts	GRIA1	1	998	0	0	0.0	0.0	all	all_depth	1	998	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	99	960670	1	1	0.010101010101010102	1.029233895566175	all	all_depth	99	960670	1	1	0.010101010101	1.02923389557	both
+Madissoon	Madissoon cell	A44	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_endoneurial	source_counts	GRIA1	2	17509	0	0	0.0	0.0	all	all_depth	2	17509	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	NAF_epineurial	source_counts	GRIA1	1	5976	0	0	0.0	0.0	all	all_depth	1	5976	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Schwann_Myelinating	source_counts	GRIA1	1	6634	0	0	0.0	0.0	all	all_depth	1	6634	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Trachea	EFO:0030004|LibCD45neg_TrypLibUndigest	Schwann_nonmyelinating	source_counts	GRIA1	2	9543	0	0	0.0	0.0	all	all_depth	2	9543	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Trachea	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	30	262112	0	0	0.0	0.0	all	all_depth	30	262112	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	93	415877	0	0	0.0	0.0	all	all_depth	93	415877	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	42	175483	9	9	0.21428571428571427	5.70838092319056	all	all_depth	42	175483	9	9	0.214285714286	5.70838092319	both
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	Adventitial Fibroblast	source_counts	GRIA1	23	182113	0	0	0.0	0.0	all	all_depth	23	182113	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibAll	Adventitial Fibroblast	source_counts	GRIA1	7	4622	0	0	0.0	0.0	all	all_depth	7	4622	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|LibAll	Alveolar Fibroblast	source_counts	GRIA1	1	521	0	0	0.0	0.0	all	all_depth	1	521	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	77	41330	0	0	0.0	0.0	all	all_depth	77	41330	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 2-3 divison with surrounding parenchyma	EFO:0030004|TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	5	2283	0	0	0.0	0.0	all	all_depth	5	2283	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibAll	Adventitial Fibroblast	source_counts	GRIA1	251	207365	0	0	0.0	0.0	all	all_depth	251	207365	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibAll	Alveolar Fibroblast	source_counts	GRIA1	14	7293	0	0	0.0	0.0	all	all_depth	14	7293	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibAll	NAF_endoneurial	source_counts	GRIA1	6	3319	0	0	0.0	0.0	all	all_depth	6	3319	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibAll	NAF_epineurial	source_counts	GRIA1	1	1285	0	0	0.0	0.0	all	all_depth	1	1285	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|LibAll	Schwann_nonmyelinating	source_counts	GRIA1	1	1801	0	0	0.0	0.0	all	all_depth	1	1801	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Bronchi 4th divison with surrounding parenchyma	EFO:0030004|TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	7	7162	0	0	0.0	0.0	all	all_depth	7	7162	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	Adventitial Fibroblast	source_counts	GRIA1	1	566	0	0	0.0	0.0	all	all_depth	1	566	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	Alveolar Fibroblast	source_counts	GRIA1	2	1396	0	0	0.0	0.0	all	all_depth	2	1396	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	6	5052	0	0	0.0	0.0	all	all_depth	6	5052	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Trachea	EFO:0030004|LibAll	Adventitial Fibroblast	source_counts	GRIA1	3	4002	0	0	0.0	0.0	all	all_depth	3	4002	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Trachea	EFO:0030004|TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	11	10404	0	0	0.0	0.0	all	all_depth	11	10404	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Trachea	EFO:0030004|TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	1	443	0	0	0.0	0.0	all	all_depth	1	443	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	Adventitial Fibroblast	source_counts	GRIA1	19	6777	0	0	0.0	0.0	all	all_depth	19	6777	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	Adventitial Fibroblast	source_counts	GRIA1	23	13033	0	0	0.0	0.0	all	all_depth	23	13033	0	0	0.0	0.0	both
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	Alveolar Fibroblast	source_counts	GRIA1	1	310	0	0	0.0	0.0	all	all_depth	1	310	0	0	0.0	0.0	both
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	Adventitial Fibroblast	source_counts	GRIA1	75	118325	21	7	0.09333333333333334	7.479596679571714	all	all_depth	75	118325	21	7	0.0933333333333	7.47959667957	both
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	Alveolar Fibroblast	source_counts	GRIA1	245	384514	381	139	0.5673469387755102	9.953994422227755	all	all_depth	245	384514	381	139	0.567346938776	9.95399442223	both
+Madissoon	Madissoon nucleus	A42	Bronchi 2-3 divison without surrounding parenchyma	EFO:0009922|nuclei	Adventitial Fibroblast	source_counts	GRIA1	595	2332735	41	20	0.03361344537815126	4.215362966213204	all	all_depth	595	2332735	41	20	0.0336134453782	4.21536296621	both
+Madissoon	Madissoon nucleus	A42	Bronchi 2-3 divison without surrounding parenchyma	EFO:0009922|nuclei	Alveolar Fibroblast	source_counts	GRIA1	297	1487102	132	44	0.14814814814814814	6.488052935159628	all	all_depth	297	1487102	132	44	0.148148148148	6.48805293516	both
+Madissoon	Madissoon nucleus	A42	Bronchi 2-3 divison without surrounding parenchyma	EFO:0009922|nuclei	NAF_endoneurial	source_counts	GRIA1	7	27434	0	0	0.0	0.0	all	all_depth	7	27434	0	0	0.0	0.0	both
+Madissoon	Madissoon nucleus	A42	Bronchi 2-3 divison without surrounding parenchyma	EFO:0009922|nuclei	NAF_epineurial	source_counts	GRIA1	38	135641	7	5	0.13157894736842105	5.71717780314753	all	all_depth	38	135641	7	5	0.131578947368	5.71717780315	both
+Madissoon	Madissoon nucleus	A42	Bronchi 2-3 divison without surrounding parenchyma	EFO:0009922|nuclei	Schwann_nonmyelinating	source_counts	GRIA1	4	13446	0	0	0.0	0.0	all	all_depth	4	13446	0	0	0.0	0.0	both
+Madissoon	Madissoon nucleus	A42	Trachea	EFO:0009922|nuclei	Adventitial Fibroblast	source_counts	GRIA1	442	1839613	226	72	0.16289592760180996	6.95247249272004	all	all_depth	442	1839613	226	72	0.162895927602	6.95247249272	both
+Madissoon	Madissoon nucleus	A42	Trachea	EFO:0009922|nuclei	Alveolar Fibroblast	source_counts	GRIA1	121	487363	206	44	0.36363636363636365	8.726841048673721	all	all_depth	121	487363	206	44	0.363636363636	8.72684104867	both
+Madissoon	Madissoon nucleus	A42	Trachea	EFO:0009922|nuclei	NAF_endoneurial	source_counts	GRIA1	10	35408	2	1	0.1	5.8450988469719265	all	all_depth	10	35408	2	1	0.1	5.84509884697	both
+Madissoon	Madissoon nucleus	A42	Trachea	EFO:0009922|nuclei	NAF_epineurial	source_counts	GRIA1	35	112737	12	6	0.17142857142857143	6.747420001611178	all	all_depth	35	112737	12	6	0.171428571429	6.74742000161	both
+Madissoon	Madissoon nucleus	A42	Trachea	EFO:0009922|nuclei	Schwann_Myelinating	source_counts	GRIA1	1	3178	0	0	0.0	0.0	all	all_depth	1	3178	0	0	0.0	0.0	both
+Madissoon	Madissoon nucleus	A42	Trachea	EFO:0009922|nuclei	Schwann_nonmyelinating	source_counts	GRIA1	20	60500	2	1	0.05	5.089915511005905	all	all_depth	20	60500	2	1	0.05	5.08991551101	both
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	Adventitial Fibroblast	source_counts	GRIA1	28	38958	6	3	0.10714285714285714	7.276236213874776	all	all_depth	28	38958	6	3	0.107142857143	7.27623621387	both
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	Alveolar Fibroblast	source_counts	GRIA1	310	607120	861	208	0.6709677419354839	10.470832756654756	all	all_depth	310	607120	861	208	0.670967741935	10.4708327567	both
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	NAF_epineurial	source_counts	GRIA1	1	720	0	0	0.0	0.0	all	all_depth	1	720	0	0	0.0	0.0	both
+Travaglini	10x	P1	distal	10x	Adventitial Fibroblast	UMIs	GRIA1	133	668583	0	0	0.0	0.0	all	all_depth	133	668583	0	0	0.0	0.0	both
+Travaglini	10x	P1	distal	10x	Alveolar Fibroblast	UMIs	GRIA1	45	139051	2	2	0.044444444444444446	3.943284855022571	all	all_depth	45	139051	2	2	0.0444444444444	3.94328485502	both
+Travaglini	10x	P2	distal	10x	Adventitial Fibroblast	UMIs	GRIA1	15	75083	0	0	0.0	0.0	all	all_depth	15	75083	0	0	0.0	0.0	both
+Travaglini	10x	P2	distal	10x	Alveolar Fibroblast	UMIs	GRIA1	121	378984	18	14	0.11570247933884298	5.599776263878452	all	all_depth	121	378984	18	14	0.115702479339	5.59977626388	both
+Travaglini	10x	P2	medial	10x	Adventitial Fibroblast	UMIs	GRIA1	56	343566	1	1	0.017857142857142856	1.9674080160321128	all	all_depth	56	343566	1	1	0.0178571428571	1.96740801603	both
+Travaglini	10x	P2	medial	10x	Alveolar Fibroblast	UMIs	GRIA1	281	848196	32	31	0.1103202846975089	5.275272651335488	all	all_depth	281	848196	32	31	0.110320284698	5.27527265134	both
+Travaglini	10x	P3	distal	10x	Adventitial Fibroblast	UMIs	GRIA1	58	350691	1	1	0.017241379310344827	1.9454253530779437	all	all_depth	58	350691	1	1	0.0172413793103	1.94542535308	both
+Travaglini	10x	P3	distal	10x	Alveolar Fibroblast	UMIs	GRIA1	599	1560080	60	58	0.09682804674457429	5.302303189847999	all	all_depth	599	1560080	60	58	0.0968280467446	5.30230318985	both
+Travaglini	10x	P3	proximal	10x	Adventitial Fibroblast	UMIs	GRIA1	295	1534401	21	17	0.0576271186440678	3.876381630633208	all	all_depth	295	1534401	21	17	0.0576271186441	3.87638163063	both
+Travaglini	10x	P3	proximal	10x	Alveolar Fibroblast	UMIs	GRIA1	250	788279	39	31	0.124	5.657493346705232	all	all_depth	250	788279	39	31	0.124	5.65749334671	both
+Travaglini	SS2	P1	distal	SS2	Adventitial Fibroblast	reads	GRIA1	54	58367502	25	2	0.037037037037037035	0.5143197820211527	all	all_depth	54	58367502	25	2	0.037037037037	0.514319782021	both
+Travaglini	SS2	P1	distal	SS2	Alveolar Fibroblast	reads	GRIA1	80	51303832	5825	34	0.425	6.8396985935487375	all	all_depth	80	51303832	5825	34	0.425	6.83969859355	both
+Travaglini	SS2	P2	distal	SS2	Adventitial Fibroblast	reads	GRIA1	4	3994833	0	0	0.0	0.0	all	all_depth	4	3994833	0	0	0.0	0.0	both
+Travaglini	SS2	P2	distal	SS2	Alveolar Fibroblast	reads	GRIA1	28	31361733	4738	9	0.32142857142857145	7.248647115378937	all	all_depth	28	31361733	4738	9	0.321428571429	7.24864711538	both
+Travaglini	SS2	P2	medial	SS2	Adventitial Fibroblast	reads	GRIA1	8	9306796	0	0	0.0	0.0	all	all_depth	8	9306796	0	0	0.0	0.0	both
+Travaglini	SS2	P2	medial	SS2	Alveolar Fibroblast	reads	GRIA1	57	70661029	2307	11	0.19298245614035087	5.072484483245158	all	all_depth	57	70661029	2307	11	0.19298245614	5.07248448325	both
+Travaglini	SS2	P3	distal	SS2	Adventitial Fibroblast	reads	GRIA1	37	45984985	0	0	0.0	0.0	all	all_depth	37	45984985	0	0	0.0	0.0	both
+Travaglini	SS2	P3	distal	SS2	Alveolar Fibroblast	reads	GRIA1	140	138489049	10312	47	0.3357142857142857	6.237654747211543	all	all_depth	140	138489049	10312	47	0.335714285714	6.23765474721	both
+Travaglini	SS2	P3	medial	SS2	Adventitial Fibroblast	reads	GRIA1	36	50870577	0	0	0.0	0.0	all	all_depth	36	50870577	0	0	0.0	0.0	both
+Travaglini	SS2	P3	medial	SS2	Alveolar Fibroblast	reads	GRIA1	51	54477139	5364	21	0.4117647058823529	6.636092690726895	all	all_depth	51	54477139	5364	21	0.411764705882	6.63609269073	both
+Travaglini	SS2	P3	proximal	SS2	Adventitial Fibroblast	reads	GRIA1	19	24940435	680	1	0.05263157894736842	4.8209428266323275	all	all_depth	19	24940435	680	1	0.0526315789474	4.82094282663	both
+Travaglini	SS2	P3	proximal	SS2	Alveolar Fibroblast	reads	GRIA1	4	4025679	4126	1	0.25	10.00270289740649	all	all_depth	4	4025679	4126	1	0.25	10.0027028974	both

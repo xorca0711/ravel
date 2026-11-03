@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.component_attribution_v1",
+  "owner": "A5",
+  "contract": "analysis/research/contracts/A5.component_attribution_v1.json",
+  "contract_sha256": "b3979441f7d73a1d24403d9b33ea533f5ac82fcdc95a33ed484f1d26a38a411e",
+  "git_commit": "2841bf5b5ff4c6ca62578338d102037c51a7b8f7",
+  "started_at": "2026-11-03T10:57:04.524199+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A5_developmental_programme_reuse/scripts/component_attribution_v1.py",
+    "--output",
+    "analysis/research/runs/A5_component_attribution_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/cache/GSE141259_HighResolution_cellinfo.csv.gz",
+      "sha256": "fe82e4a9c86720186c03c602148ea52118458e50a0847b869ce375b50a284da8",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/cache/GSE141259_HighResolution_genes.txt.gz",
+      "sha256": "e7c86817507d191a030350c7f595661e283a0ff10a4f7d5b6fcf52b455892c04",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/cache/GSE141259_HighResolution_rawcounts.mtx.gz",
+      "sha256": "ebcf8825e94b787fef9ec69be98d8bdfd1a2adbd7359aeecc828062ab31b61b8",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/cache/GSE141259_HighResolution_barcodes.txt.gz",
+      "sha256": "5d61b289238aeb1c0dda40416378f074183a930d8362d57a98ac977e00d12b1c",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/config/strunz_test_contract.json",
+      "sha256": "2bdd8ae0dbc2c04c07f95744f8ab54b066fbff96498385605c69c71ce711bdb7",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/tables/external_test_modules.json",
+      "sha256": "26740525bb07ab2b239789a680a1ca7a687075bb8edcfecb0948c9f59278c3ec",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/tables/test_v1/unit_scores.tsv",
+      "sha256": "ef0e89ce4ec7498c3b53347139d39cbb97c9e084f89aa424991e59c12145e55e",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/tables/test_v1/paired_differences.tsv",
+      "sha256": "8c49afd16f27c2ba21bb4e4bb447e4cb0cb90ca0f75bc11352265cb8111e607f",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [
+        "D10-E2",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D3-E1",
+        "D3-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2"
+      ],
+      "role": "context",
+      "independence": "verified",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A5_ROLE_TABLE_V1.tsv",
+      "sha256": "4c7b125a8ad189b81d44731e5e23d18146aad0f918ae1eaa96a287646c304176",
+      "study_id": "UniProt_mouse_role_annotation",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A5_ROLE_SOURCES_V1.json",
+      "sha256": "fe308c12a4dce413a1c1b70505188644e7f0d4b53c77d248e9b8a12d45131aa3",
+      "study_id": "UniProt_mouse_role_annotation",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A5_COMPONENT_SPEC_V1.md",
+      "sha256": "48678ffb8d8608552dfa40a9a36adf7a0902aa8ca3ce4357beb5e447abff54d0",
+      "study_id": "GSE141259_fixed_component",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/scripts/component_attribution_v1.py",
+      "sha256": "bd28f5a6e77b3d26797d1464caa234ee12688039c40cc4c92f7a1fcf2a936928"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/config/strunz_test_contract.json",
+      "sha256": "2bdd8ae0dbc2c04c07f95744f8ab54b066fbff96498385605c69c71ce711bdb7"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/tables/external_test_modules.json",
+      "sha256": "26740525bb07ab2b239789a680a1ca7a687075bb8edcfecb0948c9f59278c3ec"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A5_ROLE_TABLE_V1.tsv",
+      "sha256": "4c7b125a8ad189b81d44731e5e23d18146aad0f918ae1eaa96a287646c304176"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-full-priority-screening/prerequisites/A5_ROLE_SOURCES_V1.json",
+      "sha256": "fe308c12a4dce413a1c1b70505188644e7f0d4b53c77d248e9b8a12d45131aa3"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/unit_support.tsv",
+      "sha256": "fb670b4a27063448a31e4f01ce92ab89471094f39056c2847bcb38bf415b05e5"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/cell_target_counts.tsv.gz",
+      "sha256": "a98f14f85b19270e70d405c4027e699ec997c7c2212a94f61130f321552477c0"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/unit_gene_expectations.tsv",
+      "sha256": "025bc1a4e95c8dcb9b97f9d911521ac4f97f5b83f8a8d514542aa846450f2e63"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/member_contributions.tsv",
+      "sha256": "096c037eacdb73ced6a7a329d35831fe7041a5725ab4c82c5f6b25cd9b35f2c1"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/aggregate_parity.tsv",
+      "sha256": "305d95841ce67b4bb586c7aa350218bbf3d7c43dc0efeadc1a5efd2a03b68f33"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/role_contributions.tsv",
+      "sha256": "931e8a01fb41c227e370481ddd3be97f8152a66ab83fed69c8bbe43b7696b9d2"
+    },
+    {
+      "path": "analysis/research/runs/A5_component_attribution_v1_20261103/verification.json",
+      "sha256": "9d28eddd7eaa22f8cf40305dd75ef4e7e40b6a9c4ad030936c6f306e8f976321"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T10:57:50.904218+00:00"
+}

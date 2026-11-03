@@ -3,6 +3,37 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Full primary/moderate screening sequence — 3 November 2026
+
+All 22 owner plans (21 canonical RQs plus Wg-P06) have reviewed rationale,
+ordered steps and final dispositions: seven new numerical screens, fourteen
+reused completed screens and the A14 source intake.
+[Coverage and implications](docs/research_reviews/2026-11-03-full-priority-screening/README.md)
+· [Independent review](docs/research_reviews/2026-11-03-full-priority-screening/COORDINATOR_REVIEW.md).
+A3, A5, A12, A31, A9, A8 and A27 passed independent numerical and biological
+report review. A8 retains 34 supported/106 unsupported module contrasts;
+A27 retains all four unsupported main naive/effector age contrasts. Focused
+RNA context survives some screens, but no uniform regulatory programme,
+functional receptor response, causal repair or redistribution mechanism is inferred.
+
+All owning README/context/dossiers and Wg-P06 entrypoints are reconciled.
+A14 still lacks Fig7E preparation-level qPCR values and experiment/condition
+mapping in the checked attachments. Each remaining biological limit and
+reopening condition is retained in the plans/ledger. No human scientific
+acceptance or claim promotion is implied.
+
+Work is isolated on `codex/full-priority-screening-20261103`, from `f54ad29`.
+Last refreshed main is `445a0ca`; PR #162 remains open on its original branch.
+Larger runs executed at `X:/GitHub/ravel_execution/full-priority-screening-20261103`
+because C: lacks matrix-copy capacity. Relative input hashes and runtime gates
+are unchanged; compact verified outputs returned to this authoring checkout.
+Existing source/annotation/literature tools suffice; no plugin was installed.
+Integration checks passed: 15,650 repository checks, all seven receipts,
+required archive/claim checks, and 170 distinct tests with one host-specific
+symlink skip. [Validation details](docs/research_reviews/2026-11-03-full-priority-screening/VALIDATION.md).
+Next: commit/push the reviewed results and open the stacked follow-up PR.
+No frozen output or governance rule has been changed.
+
 ## Remaining public-reference screening reviewed — 3 November 2026
 
 The existing technical chat completed the available A12-adjacent ERBB RNA

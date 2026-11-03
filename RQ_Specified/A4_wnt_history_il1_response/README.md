@@ -23,6 +23,14 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Current evidence and interpretation
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026.** Current Axin2/Il1r1 RNA and locus context have already been screened. They measure present molecular state, not a cell's prior Wnt exposure.
+
+**Remaining discriminator:** The missing discriminator is a verified historical reporter or exposure linked to later epithelial response. Mesenchymal GSE109444 data cannot supply historical AT2 identity.
+
+[Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). This reuses reviewed evidence and does not record human scientific acceptance.
+<!-- full-priority-screening-20261103:end -->
+
 <!-- evidence-followthrough:start -->
 **Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
 “Fzd5 gates transition entry or the same starting cells have switched.” from current conclusions.

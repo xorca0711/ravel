@@ -2,6 +2,10 @@
 
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A1.md).
 
+<!-- full-priority-screening-20261103:start -->
+**Screening follow-through — 3 November 2026:** The existing regulatory screens nominate source-specific chromatin features, not a general maturity score. CDKN1A H3K27me3 is comparatively stable across the checked TSS/preparation choices; other acetylation/AP1 findings depend on context. Early regulatory measurements are not linked to later lineage-derived output in the same biological units. Reuse the completed screens; reopen a predictive/functional comparison only when that linkage exists. [Reviewed screening sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md).
+<!-- full-priority-screening-20261103:end -->
+
 **External context, 1 November 2026:** [Arozamena article-local evidence and limits](../../Research%20Article/ungated_arozamena_2026_inflammatory_memory/RQ_CONNECTIONS.md). RNA-QC and fixed TSS-window versus gene-body sensitivity in the intestinal reference distinguish measurement/selection from within-state regulation. The third-deposit four-locus recount supplies common regions and paired barcodes, but no qualified state labels or later-output join. This is a context link; the canonical hypothesis, registered illustration and scientific disposition are unchanged.
 
 **Proposed Wagner companion, 4 October 2026:** [Wg-P05](../../Research%20Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md) nominates early epithelial glycolytic relaxation after IL-1β withdrawal as a proposed biochemical feature for this existing question. It remains an article-local proposal; the canonical hypothesis, prior outcomes and registered illustration here are unchanged. Linked biochemical/output measurements and scientific adoption are not yet qualified.

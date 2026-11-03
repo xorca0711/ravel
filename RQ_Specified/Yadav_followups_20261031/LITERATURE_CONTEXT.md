@@ -1,5 +1,9 @@
 # Literature context and overlap for the three follow-ups
 
+<!-- full-priority-screening-20261103:start -->
+**Wg-P06 screening follow-through — 3 November 2026.** Reuse the [final T1-B source review](REVIEW_T1B_FINAL.md) and retain the original vector/mapping holds. Substrate availability, recipient routing and signaling are separate explanations; published ARG1/ornithine biology is a premise, not a newly discovered circuit. No linked source-ARG1, extracellular arginine/ornithine exposure and recipient collagen measurements were recovered. A new RNA proxy or renormalization of incomplete tracer vectors would not answer that comparison. [Reviewed sequence](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md) · [Coordination and review](../../docs/research_reviews/2026-11-03-full-priority-screening/README.md). No human scientific acceptance is implied.
+<!-- full-priority-screening-20261103:end -->
+
 ## T1-B continuation — 31 October 2026
 
 [T1-B](T1B_RESULTS.md) uses the same exposed Hamanaka source lineage and the

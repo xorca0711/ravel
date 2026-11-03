@@ -1,0 +1,9 @@
+state	older_age	reference_age	young_mice	older_mice	young_roster	older_roster	eligible	status	difference_depth5_pp
+naive_associated	18	3	0	0			False	unestimated_fewer_than_two_mice_per_age	
+naive_associated	24	3	0	0			False	unestimated_fewer_than_two_mice_per_age	
+effector_associated	18	3	0	0			False	unestimated_fewer_than_two_mice_per_age	
+effector_associated	24	3	0	1		24_61_M	False	unestimated_fewer_than_two_mice_per_age	
+mixed	18	3	3	2	3_38_F;3_39_F;3_9_M	18_47_F;18_53_M	True	estimated	5.857095802747977
+mixed	24	3	3	2	3_38_F;3_39_F;3_9_M	24_58_M;24_60_M	True	estimated	0.0
+indeterminate	18	3	4	2	3_11_M;3_38_F;3_39_F;3_9_M	18_47_F;18_53_M	True	estimated	0.0
+indeterminate	24	3	4	3	3_11_M;3_38_F;3_39_F;3_9_M	24_58_M;24_60_M;24_61_M	True	estimated	1.7094017094017095

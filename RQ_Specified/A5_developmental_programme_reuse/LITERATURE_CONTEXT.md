@@ -1,5 +1,7 @@
 # A5: literature context and hypothesis schematic
 
+**Completed full-priority screen, 3 November 2026:** The reviewed 99-member attribution has completed in the original 24 mice and 7,806 cells. The six annotated gene-expression-regulation members have a negative net contribution to the full component, while 81 members remain explicitly unreviewed. All 99/57/53 denominators and overlapping roles are retained; this is heterogeneous RNA recruitment, not uniform regulatory activation or demonstrated developmental function. [Complete result and evidence](reports/COMPONENT_ATTRIBUTION_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A5.md).
 
 Reviewed 3 October 2026. This note connects published findings to the current proposed question. It is a bounded synthesis, not novelty clearance or scientific acceptance.

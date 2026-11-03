@@ -1,5 +1,7 @@
 # A3: literature context and hypothesis schematic
 
+**Completed full-priority screen, 3 November 2026:** The reviewed six-target, two-offset repeat-stimulation view has completed. Target directions are heterogeneous and ARG1 is offset-sensitive; source group averages supply neither individual variance nor persistent macrophage memory. This same-source measurement does not establish NAM/injury memory or a repair mechanism. [Complete result and evidence](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_REPEAT_VIEW_V1_RESULTS.md); [reviewed sequence and source rationale](../../docs/research_reviews/2026-11-03-full-priority-screening/PLANS.md). Scientific acceptance and the registered hypothesis remain unchanged.
+
 [Question home](README.md) · [Scientific dossier](../../docs/research_dossiers/A3.md).
 
 **Source-navigation update, 2 November 2026:** [DY1-P02 current results and holds](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md) support measurement/context assessment for A3. This link introduces no new mechanism, literature claim or change to the registered hypothesis; the [scope assessment](../../docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md) preserves the source ownership.
