@@ -59,3 +59,12 @@ user-app closure or system-memory change occurred. The initial coordination
 message review rejection was resolved by the user's explicit destination-specific
 authorization; subsequent coordination succeeded. No scientific acceptance or
 human retain/reject decision was created.
+
+### Coordinator integration follow-through
+
+The coordinator reviewed and committed the complete result deposit as `3740df1`
+and opened [PR #162](https://github.com/xorca0711/ravel/pull/162). The untracked
+and uncommitted states above describe the technical handoff before integration;
+all declared outputs, logs and the receipt are now included. Private raw inputs
+and unsent request drafts remain ignored. The PR owns live CI status; merge and
+the remaining scientific holds are separate decisions.

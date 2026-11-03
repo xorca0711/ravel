@@ -25,7 +25,11 @@ technical chat `01a1a00c-8680-7fd2-a7ea-4bf804005da8` executed the work.
 Lin, Hamanaka and Speth request drafts are private local files and remain unsent.
 Validation passed: 15,249 repository checks, research gate against refreshed
 main `445a0ca`, 170 unit tests (one skipped), required archived-evidence checks
-and both receipt verifications. Next: publish the reviewed follow-up.
+and both receipt verifications. The reviewed deposit is committed as `3740df1`
+and published in [PR #162](https://github.com/xorca0711/ravel/pull/162); the PR
+owns live CI status. Next: PR review and the specific missing measurements or
+source access recorded in the hold-resolution note. No merge or author contact
+was performed.
 
 ## Hold-resolution assessment — 3 November 2026
 
