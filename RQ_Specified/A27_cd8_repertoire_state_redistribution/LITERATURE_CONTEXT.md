@@ -43,11 +43,13 @@ Estimate state-specific repeated-clone-cell fractions on a common sampling scale
 
 ## Hypothesis schematic
 
-![A27: proposed comparison and strongest rival](schematics/hypothesis_v1.svg)
+![A27: reviewed matte qualitative illustration](schematics/A27_gpt_matte_v1.png)
 
-[Editable hypothesis schematic](schematics/hypothesis_v1.svg). Original explanatory artwork. Dashed arrows denote the labelled proposal or rival; shapes, colours and cell counts are qualitative, not observations. The three readout cards explain which uncertainty a measurement could resolve. Missing features/endpoints remain marked.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A27_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
-New companion to the v2 atlas; source revision `82e749aba099172583447beb26a27365ccf80772`. This figure depicts a proposed question, not a completed analysis.
+Mouse-level state-specific clone measures and a declared fixed-composition contrast assess association components while retaining the aggregate result. Both redistribution and within-state change may contribute. Sparse reconstructed receptors, annotation and sampling limit inference; no percentage of ageing caused or immune function is inferred.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
 
 ## Next literature check
 

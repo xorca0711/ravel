@@ -28,7 +28,9 @@ been executed under this RQ; shared inputs remain shared biological evidence.
 
 [What previous findings contribute, what remains, and what the readouts would decide](LITERATURE_CONTEXT.md).
 
-![A27: proposed hypothesis and rival explanation](schematics/hypothesis_v1.svg)
+![A27: reviewed matte qualitative illustration](schematics/A27_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A27_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 *Explanatory proposal, not measured results. Read the linked context and caption; arrows do not certify a mechanism or novelty.*
 <!-- literature-visual-context:end -->

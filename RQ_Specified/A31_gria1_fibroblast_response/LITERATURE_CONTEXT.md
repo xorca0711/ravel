@@ -53,10 +53,15 @@ neuronal excitability or sodium sensing.
 
 ## Hypothesis schematic
 
-The [qualitative illustration](schematics/hypothesis_v1.svg), embedded in the
-[workspace](README.md), separates existing RNA evidence, the missing functional
-comparison and informative outcomes. It depicts no measured effect or numerical
-result. The measured Nb4 plot remains a contract-bound run artifact.
+![A31: reviewed matte qualitative illustration](schematics/A31_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A31_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+The membrane inset is a conditional AMPAR channel-class illustration, not evidence of functional assembly, partner composition or ion flow in adult alveolar fibroblasts. Donor-matched perturbation and challenge-minus-vehicle comparisons require receptor/identity qualification and an independently selected acute-response assay. RNA alone does not establish receptor activity.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
+
+The measured Nb4 plot remains a contract-bound run artifact.
 
 ## Search record and limits
 

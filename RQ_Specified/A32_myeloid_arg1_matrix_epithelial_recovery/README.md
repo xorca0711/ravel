@@ -11,7 +11,9 @@ scientific acceptance or readiness to run an experiment.
 [Literature context](LITERATURE_CONTEXT.md) ·
 [Registration assessment](../../docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md).
 
-![A32 hypothesis illustration: source-restricted ARG1 comparison, separate matrix and mature epithelial endpoints, alternatives and holds](schematics/hypothesis_v2.svg)
+![A32: reviewed matte qualitative illustration](schematics/A32_gpt_matte_v1.png)
+
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A32_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
 The illustration shows a generic myeloid source, ARG1-catalysed arginine to
 ornithine conversion, a fibroblast, collagen fibres and alveolar AT2/AT1 cells.

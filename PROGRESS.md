@@ -3,6 +3,252 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Matte figures applied to PR branch — 3 November 2026
+
+All 33 reviewed matte PNGs replace the displayed SVGs on 66 owning question/context
+pages. The old SVGs remain hash-preserved source artwork, not parallel displays.
+The [RQ gallery](docs/research_dossiers/literature_context_2026-10-03/FIGURE_GALLERY.md)
+is linked from the illustrated question index; the root README is unchanged.
+See the [publication review](docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md).
+Exact PNGs and selected edit prompts are tracked beside their owning schematics.
+
+The registry/validator extension for primary PNGs is proposed for explicit review
+in PR #159 before merge. It binds exact source artwork, hypothesis, prompt and
+image hashes and preserves historical files; scientific-analysis requirements and
+claim grades are unchanged. Validation passed: repository checks; 167 unit tests
+(2 skipped); research gate against refreshed `origin/main` (`5eb710d`); compile
+and whitespace checks; 33 PNG/source/hypothesis checks; 66 sole-display checks;
+and 167 HTML references. Delivery uses existing PR #159 on
+`codex/rq-schematic-quality-20261102`; no merge is authorized or performed. No
+biological run was performed, and no scientific/data hold was removed.
+
+## GPT matte figure drafts complete — 3 November 2026
+
+All 33 RQ illustrations A0–A32 were generated and visually reviewed in the owner's
+requested matte style. The local searchable gallery is
+`.tools/rq_imagegen_20261102/GALLERY.html`; exact prompts, earlier versions, hashes
+and per-image review decisions are retained beside it. See the
+[production review](docs/audits/2026-11-02-rq-schematic-review/GPT_IMAGEGEN_REVIEW_2026-11-03.md)
+for biological corrections and limits. Local validation passed for 33 distinct
+decoded PNGs, 33 source bindings and 233 gallery references. Registered SVGs,
+hypotheses and the root README remain unchanged. These local drafts have not been
+committed or added to PR #159. No generation hold remains; existing data/scientific
+holds are unchanged. Validation passed: 14,023 repository checks, the research
+gate against refreshed `origin/main` (`5eb710d`), and whitespace checks. No
+biological analysis was rerun. Tracked publication of these raster drafts remains
+a separate integration step.
+
+## Schematic publication — 2 November 2026
+
+[PR #159](https://github.com/xorca0711/ravel/pull/159) is open against `main`.
+Figure commit `a827db6` contains all 33 reviewed cellular SVGs, owning guide/context
+updates, registry bindings and supporting audit records. The branch is
+`codex/rq-schematic-quality-20261102`, published using verified `xorca0711`.
+Publication validation passed: 14,021 repository checks, research gate against
+refreshed `origin/main` (`5eb710d`), all 33 original/new SVG and hypothesis checks,
+and the complete PR whitespace check. One whitespace-only issue in the historical
+Claude handoff was corrected before push. No scientific/data hold was changed.
+The PR is open for review; no merge was performed. The checkpoint below describes
+the completed figure review before publication.
+
+## Cellular SVG figures integrated — 2 November 2026
+
+The fresh BioRender browser trial again failed at Reviewing prompt, so the
+owner-authorized SVG fallback was used. All 33 original cellular figures A0–A32
+are integrated into their owning guides, contexts and registry after actual-render
+review. See the [all-33 review/index](docs/audits/2026-11-02-rq-schematic-review/CELLULAR_FIGURE_REVIEW.md)
+and [redesign record](docs/audits/2026-11-02-rq-schematic-review/RAW_SVG_REDESIGN_2026-11-02.md).
+The earlier handoff/stop/no-SVG preference is historical. No biology was rerun.
+All 33 old figure and hypothesis bindings are retained in the audit baseline.
+
+The owner's [biological-detail audit](docs/audits/2026-11-02-rq-schematic-review/BIOLOGICAL_DETAIL_AUDIT_2026-11-02.md)
+corrected inappropriate receptor-symbol reuse, AT2 features in unspecified cells,
+ARG1 location and lost named premises. Distinct comparisons and unresolved
+mechanisms remain explicit. Editorial clearance is not scientific acceptance.
+
+GitHub confirms PR #158 is merged: main is `5eb710d`, whose tree exactly matches
+local `9e7fe4d`. Checks will use that content-equivalent base. Active branch/HEAD
+remain `codex/rq-schematic-quality-20261102` / `862f333`; unrelated and prior
+uncommitted work is preserved. Root README remains unchanged. Verification passed: 14,019 repository checks,
+research gate against the current content-equivalent base, all 33 old SVG and
+hypothesis hashes preserved, all 33 new hashes matched, and whitespace checks.
+Nothing has been committed or pushed. Figure production has no remaining hold;
+BioRender's generation failure and all existing scientific/data limitations remain
+recorded. The technical chat is idle after handoff.
+
+## RQ figures: BioRender account limit blocks production (2 November 2026, 13:41 KST)
+
+A Claude Code session took over the [handoff](docs/audits/2026-11-02-rq-schematic-review/CLAUDE_HANDOFF_2026-11-02.md)
+on `codex/rq-schematic-quality-20261102` (HEAD `862f333`, prior uncommitted
+work preserved; nothing committed or pushed). The `X:/GitHub/ravel` checkout was
+not modified.
+
+- The BioRender connector is connected and returns the A3 draft as **Your file**.
+  Two new jobs failed with `All preview generations failed`: A3 prompt revision
+  3a and a one-sentence diagnostic prompt. That makes eight terminal connector
+  failures, independent of prompt length, content or canvas context.
+- The editor works through Claude in Chrome once its window is not minimized.
+  The saved A3 canvas was reviewed directly: 14 of 50 objects, and it fails the
+  revision 3 brief. No edit was made.
+- **Blocker 1:** File > Make a copy returned "You've reached your illustration
+  limit on your current plan". The first account (13 illustrations, free-plan
+  50-object cap, watermark) cannot create new figures, so 32 RQs cannot start
+  there and A3 can only be redesigned in place.
+- **Blocker 2:** on a second account the owner signed in (displayed 준일 변),
+  new figures can be created, but Leo still failed twice with the same message.
+  So the illustration limit does not explain the AI failures; a free-plan AI
+  entitlement gate is the leading, unconfirmed hypothesis. Generate Editable
+  Figure there stopped at a BioRender data-use notice and a 24-hour AI access
+  offer, both left unaccepted pending the owner's consent.
+
+- **Owner steering (later the same session):** cell-level composition (cell
+  types and crosstalk, not tissue structure), start from reference templates,
+  and use the BioRender connector from Claude rather than browser control or
+  hand-written SVG. A manual cell-level pilot on the second account
+  (`6ae81519634432cb2a07dae2`) stopped unfinished at 8 of 50 objects. The
+  connector then reported its connection **invalidated**; the owner must
+  reconnect it before any connector generation.
+
+- **Connector on the second account (14:21 KST):** after the owner reconnected
+  it, two more jobs failed the same way (A3 prompt revision 4 with the
+  "Origin and Development of Macrophages" template; a one-sentence diagnostic).
+  Ten connector failures in total; generation fails on both free accounts
+  regardless of prompt or context. Leading, unconfirmed hypothesis: an AI
+  entitlement gate (the second account offers 24 hours of AI All Access).
+
+- **24-hour AI access unlocked, still failing (14:31 KST):** with owner
+  approval the second account's onboarding unlocked 24 hours of AI All Access
+  and the AI data-use notice was accepted. Generation still failed on the
+  connector (A3 revision 4 with template; one-sentence diagnostic) and in the
+  browser (manifest A3 revision 3 verbatim reached "Generating 1 of 3
+  previews", then errored). The entitlement hypothesis is refuted; a
+  BioRender-side fault is suspected, not established. Twelve connector
+  failures, zero generated images.
+
+- **Template copy and Leo (14:38 KST):** a "Use as template" copy of
+  "Origin and Development of Macrophages" was cleared to an empty page; Leo's
+  pre-checks now run, but building fails for the manifest A3 prompt and for a
+  one-line prompt alike. The second account has also hit its illustration
+  limit (three illustrations). All BioRender AI building paths fail on both
+  accounts; the cause is not established.
+
+- **AI tools check (about 14:45 KST):** Restyle Icon hung without a result.
+  BioRender's text steps work, but every image-generation step fails or
+  hangs. Manual editor assembly and template copies still work.
+
+- **New network re-test (about 14:47 KST):** connector and Restyle Icon
+  failed the same way after the owner changed network connection; the local
+  network is not the cause. Thirteen connector failures.
+
+Zero new figures are completed, accepted or registered. **Next step needs the
+owner:** re-probe generation later inside the 24-hour window (until about
+14:26 KST on 3 November), raise the job IDs with BioRender support, or change
+route. Then produce the A3
+pilot against prompt revision 3 before batching. Details:
+[implementation record](docs/audits/2026-11-02-rq-schematic-review/IMPLEMENTATION.md),
+[ledger](docs/audits/2026-11-02-rq-schematic-review/LEDGER.md).
+
+## RQ illustration work stopped; Claude handoff prepared — 2 November 2026
+
+The owner explicitly stopped Codex figure work and requested a self-contained
+handoff for a Claude session with only repository access. Both Codex chats are
+stopped/idle, with no browser production or file write continuing. Start with the
+[Claude handoff](docs/audits/2026-11-02-rq-schematic-review/CLAUDE_HANDOFF_2026-11-02.md)
+and [all 33 figure briefs](docs/audits/2026-11-02-rq-schematic-review/CLAUDE_FIGURE_BRIEFS_2026-11-02.md).
+
+All A0–A32 remain in scope. **Zero new BioRender figures are accepted or
+registered.** A3 has an editable, unfinished draft; the other 32 have no new
+completed custom art. The owner rejected equal space for an incidental control:
+use the original A32 SVG's biological focus and compact comparison as a layout
+reference, without transferring its ARG1 biology. All 33 layouts were reviewed;
+A3 prompt v3 and A6/A7 layout amendments preserve previous revisions and all
+scientific hypotheses. The latest A3 has a small uninjured reference and larger
+post-injury macrophage, but the inset label, comparison connector and separate
+readouts remain unresolved. It has no final visual clearance.
+
+Six connector jobs and two distinct UI generation routes failed without images;
+the historical missing-thumbnail pre-job failure is superseded. A PNG download
+was attempted but not verified. Exact failures and remaining design/export/
+integration holds are in the handoff and
+[implementation record](docs/audits/2026-11-02-rq-schematic-review/IMPLEMENTATION.md).
+
+Changes remain local and uncommitted on `codex/rq-schematic-quality-20261102`
+(HEAD `862f333`). A later GitHub DNS check failed; last verified main is
+`96e6a8d`. Original SVGs, registry, hypotheses and biological outputs are
+unchanged. The next step belongs to the receiving Claude session: inspect the
+current repo and actual capabilities/account, produce one acceptable focal
+biological design, then proceed across all 33. No old-chat memory is required.
+
+Handoff validation: all 33 briefs and local links verified; all registered SVG
+canonical hashes preserved; repository validator passed 13,863 checks and the
+unchanged research gate passed against last-verified main `96e6a8d`. These checks
+qualify the documentation package, not artwork quality or scientific acceptance.
+
+## Prior schematic implementation checkpoint — 2 November 2026
+
+Technical chat `01a199c1-39af-7b92-bdf0-32711480c2eb` is implementing the
+review on the existing `codex/rq-schematic-quality-20261102` worktree, starting
+at `671c284`. Entry was clean; no upstream is configured. Main fetched at
+`96e6a8d033b11da2599e0fd5d91f87d16817f58c`; PR #158 remains unmerged.
+
+BioRender authentication is complete. The coordinator observed an
+[Alveolar Epithelium template copy](https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7)
+in the editor; the selected **BioRender** connector returned the same figure as
+**Your file**, confirming the browser/connector account match for the human's
+xorca connection. It is an uncustomized template copy, not a completed A3 figure.
+
+Four earlier generation jobs failed. A later figure-context attempt using
+`6ae7e244fcbb6b190eaacce7` failed before job creation because its thumbnail was
+unavailable; unchanged arguments will fail again. Browser observation stalled:
+recovery hit an automatic security-review timeout (not an unsafe judgment), and
+the permitted single retry hit a CDP `Emulation.setFocusEmulationEnabled`
+timeout. Do not bypass the approval gate or repeat browser/generation attempts
+under this documentation handoff. Exact history and blockers are in the
+[implementation record](docs/audits/2026-11-02-rq-schematic-review/IMPLEMENTATION.md).
+
+The owner rejected the rough native SVG solution; three pilots remain local
+backups only. The [pilot storyboards](docs/audits/2026-11-02-rq-schematic-review/BIORENDER_STORYBOARDS.md)
+and [A0–A32 ledger](docs/audits/2026-11-02-rq-schematic-review/LEDGER.md) are ready
+for real BioRender assembly. No artwork, registry or hypothesis changed.
+The full checks recorded at `36dab95` remain valid; this status-only correction
+runs affected documentation link and whitespace checks only. The coordinator
+successfully fetched `origin/main` again on 2 November 2026 and verified it remains
+`96e6a8d033b11da2599e0fd5d91f87d16817f58c`.
+
+The review covers **all 33 registered RQs, A0–A32**. A31, A3 and A28 are three
+visual design pilot cases only, not a research shortlist or portfolio ranking.
+The full portfolio remains in scope for redesign; pilot completion is not
+portfolio completion.
+
+Next action: restore the approved browser session through its normal recovery
+path, then open the existing figure in BioRender so a thumbnail can be generated
+and customize/review it against the A3 storyboard. The user can also open the
+same figure manually. Thumbnail availability and finished customization must be
+verified separately; neither is established by account matching. Export/reuse
+qualification remains before integration. No additional browser action, generation,
+artwork integration, numerical analysis, push, PR rewrite or merge in this update.
+
+## Registered RQ schematic review — historical checkpoint, 2 November 2026
+
+The owner requested review of all registered questions and their schematics,
+then a new technical chat for better biological illustrations using attached
+connectors, preferably BioRender. The [33-question review and technical brief](docs/audits/2026-11-02-rq-schematic-review/README.md)
+records question-specific boundaries and redesign needs. Every registered SVG
+was rendered; all six contact sheets and selected full-size views were inspected.
+No hypothesis, registered figure, source evidence or claim grade changed.
+
+The scoped branch is `codex/rq-schematic-quality-20261102`, starting from
+`9e7fe4d`, the clean PR #158 head. Refreshed main remains `96e6a8d`; #158 is
+open and its earlier CI passed. Preserve the pending PR and unrelated work.
+At that checkpoint BioRender was not exposed in the coordinating chat, so the
+technical chat was asked to check its live tools and permissions independently.
+That historical limitation is superseded by the implementation status above. The handoff forbids automatic molecular or
+functional claims for questions with unresolved features/endpoints.
+
+The then-planned next step was to launch the technical chat on this worktree,
+starting with A31, A3 and A28, then cover the remaining registered questions. Use new versions and preserve old drawings. Keep precise connector,
+license or biological holds; no numerical rerun or main merge is requested.
+
 ## Navigation hygiene and proposed A32 — 2 November 2026
 
 The owner requested repository-wide navigation hygiene, ungated notation for

@@ -45,11 +45,13 @@ Early regulatory information that improves prediction in independent biological 
 
 ## Hypothesis schematic
 
-![A1: proposed comparison and strongest rival](schematics/hypothesis_v2.svg)
+![A1: reviewed matte qualitative illustration](schematics/A1_gpt_matte_v1.png)
 
-[Editable hypothesis schematic](schematics/hypothesis_v2.svg). Original explanatory artwork. Dashed arrows denote the labelled proposal or rival; shapes, colours and cell counts are qualitative, not observations. The three readout cards explain which uncertainty a measurement could resolve. Missing features/endpoints remain marked.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A1_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
-A0–A23 artwork is preserved from the checked v2 atlas at source revision `073a69a758f25f988ecc18402477efa268c00927`. Its full hypothesis was compared with the current dossier. Later literature and scope context are supplied by this note.
+A1 asks whether an early regulatory feature improves prediction of independent later mature AT1 output beyond RNA state. The feature and longitudinal biological-unit linkage remain missing; regulatory heterogeneity alone does not establish competence or causation.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
 
 ## Next literature check
 

@@ -39,11 +39,13 @@ Confirmed epithelial protein followed by a later response difference within comp
 
 ## Hypothesis schematic
 
-![A16: proposed comparison and strongest rival](schematics/hypothesis_v2.svg)
+![A16: reviewed matte qualitative illustration](schematics/A16_gpt_matte_v1.png)
 
-[Editable hypothesis schematic](schematics/hypothesis_v2.svg). Original explanatory artwork. Dashed arrows denote the labelled proposal or rival; shapes, colours and cell counts are qualitative, not observations. The three readout cards explain which uncertainty a measurement could resolve. Missing features/endpoints remain marked.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A16_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
-A0–A23 artwork is preserved from the checked v2 atlas at source revision `073a69a758f25f988ecc18402477efa268c00927`. Its full hypothesis was compared with the current dossier. Later literature and scope context are supplied by this note.
+The proposed marker comparison is within comparable mutant starting states and independent source units. Corrected RNA matching attenuated the association and left imbalance. Protein attribution and later response remain unqualified; contamination, mixture and already-active response are alternatives.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
 
 ## Next literature check
 

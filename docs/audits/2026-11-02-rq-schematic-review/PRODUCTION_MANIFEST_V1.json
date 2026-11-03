@@ -1,0 +1,2045 @@
+{
+  "schema_version": 1,
+  "kind": "biological_illustration_production_manifest",
+  "record_date": "2026-11-02",
+  "timezone": "Asia/Seoul",
+  "scope": "All 33 registered RQs A0-A32; pilots are visual cases, not a research shortlist.",
+  "purpose": "Production inputs for actual BioRender illustrations. This manifest is not an image, numerical-analysis contract, experiment authorization, scientific acceptance or completed-design claim.",
+  "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+  "registry_path": "analysis/research/registry.json",
+  "reference_review": "docs/audits/2026-11-02-rq-schematic-review/README.md",
+  "coordination": {
+    "live_service_owner": "none_no_further_biorender_generation",
+    "technical_chat_id": "01a199c1-39af-7b92-bdf0-32711480c2eb",
+    "service_identity": "Human-selected BioRender connection identified as xorca; browser/connector match confirmed.",
+    "commit_hold": "Owner authorized commit/push and opening a PR on 2 November 2026; no publication hold.",
+    "generation_calls_by_this_manifest_preparation": 0,
+    "historical_browser_error": "browser.user is unavailable",
+    "confirmed_prior_terminal_failed_jobs": 6,
+    "confirmed_prior_thumbnail_pre_job_failures": 1,
+    "prior_chrome_attempt": {
+      "status": "no_verified_submission_no_image",
+      "history": [
+        "Signed-in Chrome editor and Generate Editable Figure opened successfully.",
+        "Text entry timed out; no submission was verified.",
+        "Tab control disconnected; native Computer Use ended because the browser URL could not be verified."
+      ],
+      "source": "coordinator report"
+    },
+    "current_ui_activity": {
+      "owner": "coordinating_chat",
+      "route": "Chrome manual BioRender assembly",
+      "tab_id": 433667008,
+      "figure_id": "6ae7e244fcbb6b190eaacce7",
+      "status": "stopped_unfinished_unaccepted",
+      "browser_status": "Chrome was usable before owner stop; no further browser work is running.",
+      "note": "Compact grouped uninjured reference at left (approximately 1.8 inches wide, label too small); dominant right macrophage enlarged to 2.5 inches beside lung histology. History arrows present. Flat comparison line deleted; no final comparison connector. Programme/function remain one row. Latest asymmetric revision is unreviewed.",
+      "last_connector_confirmed_save_utc": "2026-11-02T02:22:22.014Z",
+      "thumbnail_now_available": true
+    },
+    "confirmed_ui_generation_failures_without_job_id": 2,
+    "latest_confirmed_connector_failure": {
+      "session_id": "76670228-7a5a-4684-affb-896453d21c0d",
+      "job_id": "06966eac-520d-4d09-a549-a6678a565dc7",
+      "completed_at": "2026-11-02T03:38:16.445Z",
+      "status": "failed",
+      "error": {
+        "type": "generation_error",
+        "message": "All preview generations failed"
+      },
+      "progress": {
+        "total": 1,
+        "completed": 0,
+        "failed": 1
+      },
+      "valid_saved_figure_thumbnail_available": true,
+      "source": "Coordinator report; separate from the earlier pre-job thumbnail failure."
+    },
+    "ui_failure_summary": [
+      {
+        "workflow": "Generate Editable Figure",
+        "progress": "Reviewing prompt",
+        "error_title": "Something went wrong",
+        "message": "We encountered an unexpected error while processing your request.",
+        "job_id": null,
+        "generated_image": false
+      },
+      {
+        "workflow": "Leo UI",
+        "message": "Something went wrong processing your request. Please try again or rephrase.",
+        "job_id": null,
+        "generated_image": false
+      }
+    ],
+    "execution_status": "all_33_svg_integrated_verified",
+    "technical_chat_status": "idle_handoff_complete",
+    "export_attempt": {
+      "format": "PNG",
+      "resolution": "72 DPI",
+      "result": "unverified",
+      "observed": "Export clicked; download wait timed out at 60 seconds and dialog closed. No output file verified."
+    },
+    "handoff": "docs/audits/2026-11-02-rq-schematic-review/CLAUDE_HANDOFF_2026-11-02.md",
+    "claude_session_2026_11_02": {
+      "date": "2026-11-02",
+      "client": "Claude Code (Opus 5.5) desktop session; worktree edited by absolute path",
+      "connector": {
+        "name": "BioRender",
+        "id": "f0eb73fb-980b-43f3-9b58-8b8269235503",
+        "status": "connected, 4 tools"
+      },
+      "account_check": "Connector file search returned figure 6ae7e244fcbb6b190eaacce7 as 'Your file', modified 2026-11-02T04:13:39.996Z; browser shows Junil Byeon.",
+      "new_connector_jobs": [
+        {
+          "question": "A3",
+          "purpose": "prompt revision 3a, no canvas context",
+          "session_id": "2f01fb95-06e3-4937-a7a9-b527f8ed9b14",
+          "job_id": "c7f0612b-04b8-4855-bc06-5a4fd99209ac",
+          "created_utc": "2026-11-02T04:29:47.184Z",
+          "completed_utc": "2026-11-02T04:30:04.557Z",
+          "progress_observed": [
+            "Reviewing your prompt",
+            "Starting preview generation"
+          ],
+          "status": "failed",
+          "error": {
+            "type": "generation_error",
+            "message": "All preview generations failed"
+          }
+        },
+        {
+          "question": null,
+          "purpose": "diagnostic one-sentence prompt: 'A simple illustration of a lung alveolus containing one alveolar macrophage.'",
+          "session_id": "99f8479a-4aa6-443e-bd17-28f69c506c62",
+          "job_id": "ef52a91a-b8da-4d6a-9927-ebfaf1b3ff70",
+          "created_utc": "2026-11-02T04:30:20.729Z",
+          "completed_utc": "2026-11-02T04:30:33.867Z",
+          "status": "failed",
+          "error": {
+            "type": "generation_error",
+            "message": "All preview generations failed"
+          }
+        }
+      ],
+      "confirmed_terminal_connector_failures_total": 13,
+      "account_limit": {
+        "observed": "File > Make a copy returned 'You've reached your illustration limit on your current plan' with a 14-day Premium trial offer.",
+        "object_cap": "Editor status bar: 50 objects per figure (free plan).",
+        "gallery_illustration_count": 13,
+        "consequence": "No new figure can be created on this account; only the existing A3 draft can be edited.",
+        "generation_failure_link": "hypothesis_not_established: earlier AI-generated figures exist in the same gallery, and every new-figure route now fails, but no generation error names the limit. Weakened by second_account_test: Leo also fails on an account with headroom."
+      },
+      "editor_route": "Claude in Chrome works on a non-minimized window; manual editing capability confirmed for reading the saved canvas. No edit made.",
+      "actions_not_taken": [
+        "trial or upgrade",
+        "terms acceptance",
+        "figure deletion",
+        "account creation or sign-in"
+      ],
+      "execution_status": "paused_generation_blocked_service_side_suspected",
+      "second_account_test": {
+        "requested_by": "owner in chat",
+        "account_display_name": "준일 변",
+        "illustrations_before_test": 1,
+        "new_blank_figure": "6ae81519634432cb2a07dae2",
+        "object_cap": 50,
+        "leo": {
+          "prompt_revision": "3a (single paragraph, identical content)",
+          "attempts": 2,
+          "status": "failed",
+          "message": "Something went wrong processing your request. Please try again or rephrase.",
+          "network": {
+            "editor_agent_chat": 200,
+            "ai_ledger": 200,
+            "davinci_promo_enroll_page_initiated": 200
+          }
+        },
+        "generate_editable_figure": "not submitted; data-use consent notice cancelled pending owner consent",
+        "ai_all_access_offer": "not accepted",
+        "interpretation": "Illustration limit does not explain AI generation failures (Leo fails with headroom). Free-plan AI entitlement gate is the leading hypothesis, not established; outage not excluded."
+      },
+      "second_account_connector_jobs": [
+        {
+          "question": "A3",
+          "prompt_revision": 4,
+          "canvas_context": {
+            "type": "template",
+            "templateId": "62cc6e778806ce7ea9d9e71b"
+          },
+          "session_id": "11c28268-190d-4cf8-a239-07502155ddba",
+          "job_id": "7cd22e85-27d4-4f70-bd7b-38590c429999",
+          "created_utc": "2026-11-02T05:20:23.292Z",
+          "completed_utc": "2026-11-02T05:20:43.680Z",
+          "status": "failed",
+          "error": {
+            "type": "generation_error",
+            "message": "All preview generations failed"
+          }
+        },
+        {
+          "question": null,
+          "purpose": "diagnostic one-sentence prompt, no context",
+          "session_id": "eee551fa-63a9-4baa-b5e3-2f8a4a79a430",
+          "job_id": "e9299313-0bc2-4b79-8d03-7a84dc4d58d6",
+          "created_utc": "2026-11-02T05:20:52.576Z",
+          "completed_utc": "2026-11-02T05:21:05.101Z",
+          "status": "failed",
+          "error": {
+            "type": "generation_error",
+            "message": "All preview generations failed"
+          }
+        }
+      ],
+      "connector_reconnected": "Owner reconnected the connector to the second account; file search confirmed it.",
+      "ai_all_access": {
+        "status": "unlocked_by_onboarding_checklist_with_owner_approval",
+        "window": "24 hours from about 2026-11-02T05:26Z",
+        "data_use_notice": "accepted with owner approval",
+        "export_png": "exported; file location unverified (not in Downloads)"
+      },
+      "after_unlock_attempts": [
+        {
+          "route": "connector",
+          "prompt_revision": 4,
+          "canvas_context": {
+            "type": "template",
+            "templateId": "62cc6e778806ce7ea9d9e71b"
+          },
+          "session_id": "ff27e75e-3e34-4da7-ae7f-6f80e43b6119",
+          "job_id": "5ea0d96d-490c-4b9b-8e1d-7fc0df665bde",
+          "created_utc": "2026-11-02T05:26:47.525Z",
+          "completed_utc": "2026-11-02T05:27:08.300Z",
+          "status": "failed",
+          "error": {
+            "type": "generation_error",
+            "message": "All preview generations failed"
+          }
+        },
+        {
+          "route": "browser Generate Editable Figure",
+          "prompt_revision": 3,
+          "prompt_source": "manifest verbatim",
+          "job_id": null,
+          "progress_observed": [
+            "Generating 1 of 3 previews"
+          ],
+          "status": "failed",
+          "error": {
+            "title": "Something went wrong",
+            "message": "We encountered an unexpected error while processing your request."
+          }
+        },
+        {
+          "route": "connector",
+          "purpose": "diagnostic one-sentence prompt",
+          "session_id": "5d990437-fa25-4a10-a966-4c88d2021d41",
+          "job_id": "5ef1bb63-c61b-41ea-917d-55494b359669",
+          "created_utc": "2026-11-02T05:30:19.292Z",
+          "completed_utc": "2026-11-02T05:30:32.397Z",
+          "status": "failed",
+          "error": {
+            "type": "generation_error",
+            "message": "All preview generations failed"
+          }
+        }
+      ],
+      "interpretation": "Language-model steps run; every image or figure generation step fails or hangs on both accounts with AI access unlocked. Cause not established.",
+      "template_copy_and_leo": {
+        "template_copy_figure_id": "6ae8208bbc9d77f25fd9f544",
+        "template_id": "62cc6e778806ce7ea9d9e71b",
+        "copy_objects": "56/50 then cleared to 0/50 at owner direction",
+        "leo_precheck": "responded; flagged object cap; offered delete-objects or new-file",
+        "second_account_illustration_limit": "reached at 3 illustrations (new-file route blocked)",
+        "leo_after_clear": [
+          {
+            "prompt": "manifest A3 revision 3 verbatim",
+            "result": "Something went wrong processing your request. Please try again or rephrase."
+          },
+          {
+            "prompt": "Make a simple figure of one lung macrophage.",
+            "result": "same error"
+          }
+        ],
+        "premium_generators": "Protocol, Timeline, Flowchart remain locked with 24-hour AI access"
+      },
+      "other_ai_tools_diagnostic": {
+        "tool": "Restyle Icon (Textbook)",
+        "target": "teal macrophage in 6ae81519634432cb2a07dae2",
+        "result": "hung at full progress about 2.5 minutes, no error, cancelled; icon unchanged",
+        "custom_edit": "not tried (same image-generation step)"
+      },
+      "network_change_retest": {
+        "connector": {
+          "session_id": "9864c2aa-bf17-403f-bd76-bce93a7561d9",
+          "job_id": "837a3a97-b21e-4bc0-8bac-f6c739852ce1",
+          "created_utc": "2026-11-02T05:45:05.302Z",
+          "completed_utc": "2026-11-02T05:45:17.945Z",
+          "status": "failed",
+          "error": {
+            "type": "generation_error",
+            "message": "All preview generations failed"
+          }
+        },
+        "restyle_icon": "hung about 1 minute 50 seconds at full progress; cancelled; icon unchanged",
+        "conclusion": "Local network does not explain the failures."
+      }
+    },
+    "raw_svg_authorization": {
+      "date": "2026-11-02",
+      "condition": "Fresh browser trial generation failed",
+      "source": "Direct owner request in coordinating chat",
+      "record": "docs/audits/2026-11-02-rq-schematic-review/RAW_SVG_REDESIGN_2026-11-02.md"
+    },
+    "integration_base": {
+      "remote_main": "5eb710d03ed714e245bb8d34136afcf8034b6d96",
+      "verified_tree": "3709f13f16a9c5fcd3488766567a3d3f0c0a5031",
+      "content_equivalent_local_commit": "9e7fe4dd86c6610a2e8cafbe65b7f812b0148ea2"
+    },
+    "fresh_trial_browser_retest": {
+      "date": "2026-11-02",
+      "browser": "Chrome",
+      "figure_id": "6ae8208bbc9d77f25fd9f544",
+      "workflow": "Generate Editable Figure from the existing template-copy workspace",
+      "account_match": "Selected BioRender connector returned this figure as Your file; browser display was 준일 변.",
+      "progress_observed": "Reviewing prompt",
+      "terminal_error": "Something went wrong / We encountered an unexpected error while processing your request.",
+      "job_id": null,
+      "generated_preview": false,
+      "reference_image_uploaded": false,
+      "diagnosis": "Underlying service failure unresolved; not attributed to policy, network or entitlement.",
+      "record": "docs/audits/2026-11-02-rq-schematic-review/RAW_SVG_REDESIGN_2026-11-02.md"
+    },
+    "editorial_review": "docs/audits/2026-11-02-rq-schematic-review/CELLULAR_FIGURE_REVIEW.md",
+    "biological_detail_audit": "docs/audits/2026-11-02-rq-schematic-review/BIOLOGICAL_DETAIL_AUDIT_2026-11-02.md",
+    "verification": {
+      "repository_validator_checks": 14019,
+      "research_gate": "passed_no_errors",
+      "base": "9e7fe4dd86c6610a2e8cafbe65b7f812b0148ea2",
+      "remote_main": "5eb710d03ed714e245bb8d34136afcf8034b6d96",
+      "old_svgs_preserved": 33,
+      "hypotheses_preserved": 33,
+      "new_svg_hashes_matched": 33,
+      "root_readme_unchanged": true,
+      "non_guide_registry_unchanged": true,
+      "diff_check": "passed",
+      "record": "docs/audits/2026-11-02-rq-schematic-review/CELLULAR_FIGURE_REVIEW.md"
+    },
+    "publication": {
+      "status": "pr_open",
+      "branch": "codex/rq-schematic-quality-20261102",
+      "base": "5eb710d03ed714e245bb8d34136afcf8034b6d96",
+      "validation": {
+        "repository_checks": 14021,
+        "research_gate": "passed_against_origin/main",
+        "preservation": "33_original_svgs_and_hypotheses_unchanged_33_current_hashes_match"
+      },
+      "pr_number": 159,
+      "pr_url": "https://github.com/xorca0711/ravel/pull/159",
+      "schematics_commit": "a827db62e260a423c84c8337184c47b77f5aea60",
+      "authenticated_login": "xorca0711"
+    }
+  },
+  "visual_policy": [
+    "Actual cells, tissues and biological compartments dominate; sparse labels, no protocol/checklist template.",
+    "Space follows the RQ’s biological focus. Use compact controls when they serve only as references; equal panels are appropriate only when both processes or comparisons are equally central. Matching and inferential importance do not mandate equal canvas area. Preserve meaningful tissue, time, model and perturbation comparisons.",
+    "Use local labels and line styles to separate published premises, proposals, predictions and measured observations.",
+    "Unknown molecular features, products, directions, assays and biological units stay unknown.",
+    "All icon counts, sizes and geometry are qualitative; do not draw fake numerical plots.",
+    "Keep full hypotheses and primary/repository source citations in the owning context; no new biological claim or literature search.",
+    "Inspect actual output at native and approximately 800-pixel width; a prompt is not evidence of output fidelity.",
+    "Earlier native-SVG fallback restriction was superseded by explicit owner authorization on 2 November 2026. No registered placeholders. Preserve existing figures, hashes, hypotheses and gallery architecture.",
+    "Generated BioRender output requires separate editable-access, export-format and intended-reuse qualification before integration; do not weaken the inert-SVG gate."
+  ],
+  "status_definitions": {
+    "awaiting_generation": "No completed custom RQ image exists for this production record; latest_live_attempt separately records any pending/failed call.",
+    "completed_artifact_null": "No generated result is claimed. An uncustomized template copy does not count.",
+    "manual_draft_needs_redesign": "Editable draft exists but failed visual review; no completed artifact or registered replacement. Final manual-design status pending.",
+    "original_svg_complete": "Original cellular SVG exists; prior BioRender failures remain historical and no BioRender generation success is claimed.",
+    "coordinator_editorial_pass_after_detail_audit": "Actual renders/source boundaries inspected; not human scientific acceptance or molecular-structure validation.",
+    "registered_cellular_v1": "Question guide and owning context embed the new version and link the preserved prior SVG."
+  },
+  "questions": [
+    {
+      "question": "A0",
+      "proposed_artifact_title": "Lung–gut epithelial state correspondence after failed transfer",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Place an alveolus and intestinal crypt/surface epithelium side by side. Separate a crossed, labelled “fixed-component transfer failed” connector from a dashed “state correspondence?” comparison. Shared RNA does not establish shared lineage or function. Keep source and target epithelial states visibly distinct. Qualitative geometry only; no invented data.",
+      "biological_layout": "Two anatomically distinct tissue sections with a narrow comparison space. Transition cells belong inside each tissue, not generic text boxes.",
+      "arrow_legend": {
+        "solid": "Anatomical outlines only; the failed transfer label refers to the preserved repository result.",
+        "dashed": "Proposed state correspondence; no migration, lineage or causal pathway.",
+        "question_marks": "Independent justification of source/target state comparability."
+      },
+      "caption": "The frozen lung-to-intestine component failed its intended ordering. The remaining question concerns independently justified state comparability in independent animals, not a replacement signature or conserved fate mechanism. Counts and geometry are qualitative.",
+      "sources": {
+        "context": "RQ_Specified/A0_conserved_epithelial_transition_program/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A0_conserved_epithelial_transition_program/README.md",
+        "schematic": "RQ_Specified/A0_conserved_epithelial_transition_program/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A0.md",
+        "current_evidence": [
+          "RQ_Specified/A0_conserved_epithelial_transition_program/README.md",
+          "RQ_Specified/A0_conserved_epithelial_transition_program/reports/PILOT_V1_RESULTS.md",
+          "RQ_Specified/A0_conserved_epithelial_transition_program/reports/SOURCE_RECOVERY.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "967f1facd3ea258cb74b2900e4603507071af486bb64a135fd6a3a46b067f5aa",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A0_conserved_epithelial_transition_program/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "7b7c8ef0aa058eea6d340b82002e570a4a0d8cc36f4d4a897296d949ed2bfb20",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A1",
+      "proposed_artifact_title": "Early regulatory information and later epithelial output",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show an RNA-similar transitional alveolar cell with a nucleus labelled “regulatory feature unknown”. Place a later lineage-derived mature AT1 cell well apart in time. Connect them with a dashed arrow labelled “incremental prediction?”. No named chromatin regulator or causal feature-to-fate arrow. Qualitative geometry only; no invented data.",
+      "biological_layout": "Early transitional cell/nuclear close-up on the left; later flattened AT1 anatomy on the right; the prediction link crosses a clear time gap.",
+      "arrow_legend": {
+        "solid": "Anatomy and a labelled time axis only.",
+        "dashed": "Prediction beyond the starting RNA state, not a causal mechanism.",
+        "question_marks": "Early regulatory feature and linked early-to-later units remain unqualified."
+      },
+      "caption": "A1 asks whether an early regulatory feature improves prediction of independent later mature AT1 output beyond RNA state. The feature and longitudinal biological-unit linkage remain missing; regulatory heterogeneity alone does not establish competence or causation.",
+      "sources": {
+        "context": "RQ_Specified/A1_transitional_epithelial_state_distinction/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A1_transitional_epithelial_state_distinction/README.md",
+        "schematic": "RQ_Specified/A1_transitional_epithelial_state_distinction/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A1.md",
+        "current_evidence": [
+          "RQ_Specified/A1_transitional_epithelial_state_distinction/README.md",
+          "RQ_Specified/A1_transitional_epithelial_state_distinction/COMPARISON_MATRIX.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "912e45112f2a80020e949ecdf81e8c1ec64cf4139e6cc6200f4cb024e2657a93",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A1_transitional_epithelial_state_distinction/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "43b9eb4b00332a647db0fd5e35d7629aaca2e28b92b5a83d99dfd44a4e00e845",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A2",
+      "proposed_artifact_title": "Epithelial AREG availability versus recipient context",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw epithelial source, extracellular AREG and fibroblast membrane as separate compartments. Label the delivery connector “availability / presentation?” without choosing a release route. Contrast available ligand with recipient context; mark the fibroblast response as unknown. Keep AREG–EGFR biology as a local published premise. Qualitative geometry only; no invented data.",
+      "biological_layout": "A source epithelial layer faces one fibroblast across extracellular space. Ligand availability occupies the space rather than an intracellular pathway chain.",
+      "arrow_legend": {
+        "solid": "Cell boundaries; any AREG–EGFR premise label is local and source-qualified.",
+        "dashed": "Proposed delivery contrast and recipient response; neither is an observed effect.",
+        "question_marks": "Source/presentation contrast and downstream fibroblast function are not nominated."
+      },
+      "caption": "Independent source/recipient preparations must separate available AREG from recipient response. The corrected RNA association is inconclusive; medium composition and shared split-well preparation remain alternatives. The drawing selects neither a release mechanism nor a functional endpoint.",
+      "sources": {
+        "context": "RQ_Specified/A2_areg_source_delivery/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A2_areg_source_delivery/README.md",
+        "schematic": "RQ_Specified/A2_areg_source_delivery/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A2.md",
+        "current_evidence": [
+          "RQ_Specified/A2_areg_source_delivery/README.md",
+          "RQ_Specified/A2_areg_source_delivery/reports/LEG2_DEPTH_STANDARDISED_RESULTS.md",
+          "RQ_Specified/A2_areg_source_delivery/reports/STAGE3_LEG1_RESULTS.md",
+          "RQ_Specified/A2_areg_source_delivery/reports/STAGE4_LEG2_RESULTS.md",
+          "RQ_Specified/A2_areg_source_delivery/reports/INTERPRETATION_AUDIT_2026-09-27.md",
+          "docs/research_dossiers/qualification_2026-10-03/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/METADATA.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "5e540aad44f550820780cbfdbaf8d0f87cb67ec166ad6bb634358e4bdd16a9ab",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A2_areg_source_delivery/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "d50e85ecf4e4b386a281bfac316b2c859c566a7613e55ad39dfd2aae7e80439d",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A3",
+      "proposed_artifact_title": "Macrophage injury history within a comparable present context",
+      "generation_prompt": "Biological A3 hypothesis schematic: make lung tissue injury → resolution → the post-resolution macrophage question dominant. Show no prior injury as a compact reference inset, not an equal panel. State comparable age, origin, state and resolved present context. Separate proposed “programme unknown” and “independent function unknown” readouts. Use a labelled dashed reference comparison; chronology does not imply survival of identical individual cells. Retain normal-ageing, ongoing-input, mixture and processing alternatives. No observed effect or selected molecular mechanism; qualitative geometry only.",
+      "biological_layout": "A dominant tissue injury-to-resolution sequence leads into a large post-resolution lung macrophage scene and two distinct unknown readouts. A compact no-prior-injury reference sits beside the question with concise matching labels; no equal-area requirement. A labelled dashed comparison connector relates the reference to the focal scene without implying causation or persistence of identical cells. A small rival strip preserves normal ageing, ongoing input, mixture and processing. Adapt only A32’s hierarchy of biological focus, compact control and separate outcomes, never its ARG1/metabolite biology.",
+      "arrow_legend": {
+        "solid": "Time and anatomy only; published history effects are a premise, not the specific mechanism.",
+        "dashed": "History association beyond age/origin/state and current stimulation.",
+        "question_marks": "Programme and independent consequence remain unnamed."
+      },
+      "caption": "A3 concerns history-associated persistence in comparable age, origin, state and resolved context, using independent animals/donors. W1 retains age/processing confounding and negative/ineligible pathway findings. Late RNA is neither intrinsic memory nor flux; DY1 does not nominate an accepted memory mechanism.",
+      "sources": {
+        "context": "docs/research_dossiers/literature_context_2026-10-03/A3.md",
+        "entrypoint": "docs/research_dossiers/A3.md",
+        "schematic": "docs/research_dossiers/schematics/A3_v2.svg",
+        "dossier": "docs/research_dossiers/A3.md",
+        "current_evidence": [
+          "Research Article/gate1_01_niethamer_2025/README.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/extensions_2026-10-03/A3_Nb5_age_reference.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "fd2a84403bebeb6aca0922d0a18a48f8b76c7cc90c9313ce2dc626d9952dbefa",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": {
+        "owner": "claude_code_session",
+        "route": "BioRender connector custom-figure-create-session",
+        "status": "failed",
+        "submitted_prompt_revision": "3a",
+        "session_id": "2f01fb95-06e3-4937-a7a9-b527f8ed9b14",
+        "job_id": "c7f0612b-04b8-4855-bc06-5a4fd99209ac",
+        "error": {
+          "type": "generation_error",
+          "message": "All preview generations failed"
+        },
+        "generated_image_exposed": false
+      },
+      "completed_artifact": {
+        "path": "docs/research_dossiers/schematics/A3_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "07182e550686a3c95a9a1f112586f5e146ac6947b594eab18aed01ac5f6d309e",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1",
+      "existing_template_copy": {
+        "figure_id": "6ae7e244fcbb6b190eaacce7",
+        "url": "https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7",
+        "status": "manually_rearranged_draft_needs_redesign",
+        "thumbnail_status": "unavailable_in_connector_last_reported",
+        "is_completed_rq_figure": false
+      },
+      "prompt_revision": 4,
+      "prompt_revision_history": [
+        {
+          "revision": 1,
+          "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show no-injury and prior-injury histories converging on a comparable resolved alveolar environment. Macrophages share origin/state labels but are not depicted as proven surviving individual cells. Add “programme?” and “independent function?” at the endpoint. Put continuing stimulation in a separate rival inset. No STAT6/PPARG memory pathway or flux claim. Qualitative geometry only; no invented data.",
+          "biological_layout": "History-to-context timeline with a recognisable alveolar niche; an independent ongoing-input inset sits below. Unknown measurements sit beside the endpoint macrophage.",
+          "disposition": "Exact prompt submitted through Generate Editable Figure; UI failed after Reviewing prompt. Subsequent manually rearranged template failed visual review.",
+          "superseded_by_revision": 2
+        },
+        {
+          "revision": 2,
+          "generation_prompt": "Landscape A3 hypothesis schematic. Make two macrophage groups dominant: no prior injury versus prior injury then resolution, comparable in age, origin, state and resolved present context. Keep alveolar anatomy secondary. Compare the groups with a dashed “history-associated difference?” bracket, not a same-cell persistence arrow or observed effect. Separate “programme unknown” and “independent function unknown” readouts. Show normal ageing as a rival, with ongoing input, mixture and processing alternatives. Qualitative geometry; no STAT6/PPARG mechanism or flux claim.",
+          "biological_layout": "Two equally weighted side-by-side macrophage-group panels, each with its own short history timeline and matching age/origin/state/resolved-context labels. Small alveolar backgrounds establish location only. A central dashed comparison bracket leads to separate programme and independent-function question readouts. A visually distinct rival strip lists normal ageing, continued stimulation, mixture and processing; it is an explanatory alternative, not a mandated additional experimental group. No icon reuse implies survival of identical individual cells.",
+          "disposition": "Owner superseded equal-panel framing: no-prior-injury is a reference control, not an equally central biological process. Scientific matching remains required; equal areas do not.",
+          "superseded_by_revision": 3
+        },
+        {
+          "revision": "3a",
+          "derived_from_revision": 3,
+          "change": "Same content as revision 3, phrased as visual instructions for an image generator; adds explicit reference-inset size and stage labels. No new biology.",
+          "generation_prompt": "Landscape scientific hypothesis illustration about lung macrophages, clean flat style, white background, sparse labels.\n\nTitle at top: \"A3 | Does lung injury history persist in macrophages beyond ageing?\"\n\nMAIN SCENE (large, occupies most of the canvas, left to right): a tissue-level timeline of one lung alveolar region in three steps joined by solid grey arrows labelled \"time\".\nStep 1: an injured alveolus with damaged epithelium and infiltrating immune cells, labelled \"Prior lung injury\".\nStep 2: a repairing alveolus, labelled \"Resolution\".\nStep 3 (largest): a resolved, normal-looking alveolus containing a prominent alveolar macrophage, labelled \"Post-resolution lung macrophage\".\n\nFrom the step-3 macrophage, two SEPARATE dashed purple arrows lead to two SEPARATE outcome boxes on the right, each with a large question mark:\nbox 1 \"Persistent programme? (not yet specified)\"\nbox 2 \"Independent function? (not yet specified)\"\n\nCOMPACT REFERENCE INSET (small, top right corner, about one sixth of the canvas): a normal alveolus with an alveolar macrophage, labelled \"Reference: no prior injury\". A dashed bracket connects the inset to the step-3 macrophage, labelled \"Population comparison: matched age, origin, state and resolved present context\".\n\nBOTTOM STRIP (small text): \"Alternatives: normal ageing, cell mixture, ongoing tissue input, sample processing\".\n\nFooter (small): \"Proposed comparison; not an observed effect. Not the same individual cells.\"\n\nDraw only cells and tissue; no molecular pathways, metabolites, graphs or data.",
+          "submitted": "connector job c7f0612b-04b8-4855-bc06-5a4fd99209ac (failed)"
+        },
+        {
+          "revision": 4,
+          "derived_from_revision": "3a",
+          "change": "Owner steering: cell-level composition (cell types and crosstalk), no tissue structure; template context. No new biology beyond dossier matching variables and rivals.",
+          "generation_prompt": "Scientific hypothesis illustration, landscape, clean BioRender style, white background, sparse labels. Show individual cells and their crosstalk; do not draw lung tissue, alveoli or organ structures. Title: \"A3 | Does prior lung injury leave a lasting macrophage programme?\" LEFT, small panel \"1. Prior lung injury\": an injured epithelial cell with a lightning bolt, plus recruited neutrophils and monocytes. A grey arrow labelled \"resolution\" points right. CENTRE, largest panel \"2. Lung macrophages after resolution\": two macrophage types side by side, labelled \"resident origin\" (purple) and \"monocyte-derived\" (teal). Below them an alveolar type II epithelial cell (orange) sends thin solid grey arrows up to both macrophages, labelled \"present tissue signals (matched)\". RIGHT: two separate dashed purple arrows lead from the macrophages to two separate boxes, each with a question mark: \"Persistent programme? (not yet named)\" and \"Independent function? (not yet named)\". SMALL INSET, bottom right: the same three cell types without prior injury, labelled \"Reference: no prior injury; matched age, origin, state and context\", joined to the centre panel by a dashed bracket labelled \"population comparison, not the same cells\". BOTTOM STRIP, small text: \"Alternatives: normal ageing, shifted origin mix, ongoing tissue input, sample processing\". No molecular pathways, metabolites, graphs or data.",
+          "submitted": "connector job 7cd22e85-27d4-4f70-bd7b-38590c429999 (failed)"
+        }
+      ],
+      "editable_draft": {
+        "figure_id": "6ae7e244fcbb6b190eaacce7",
+        "url": "https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7",
+        "title": "A3 — Macrophage history in a resolved niche — draft",
+        "status": "equal_panel_revision_superseded_by_owner_needs_redesign",
+        "content_observed": "Historical screenshots: first generic template, then two matched macrophage/lung scenes. Current compact-reference redesign is coordinator-reported and not yet visually accepted.",
+        "review_note": "docs/audits/2026-11-02-rq-schematic-review/A3_DRAFT_REVIEW_2026-11-02.md",
+        "local_review_screenshot": "C:/Users/dream/.codex/visualizations/2026/10/29/01a18687-3e55-7b51-b514-52f5f55a210b/rq_visual_audit/A3_template_draft_review.jpg",
+        "local_review_screenshot_sha256": "9b5ef5e0d5b9894ceb4dcdc83113aed98bdc7dbb9dd6de6421526e7e9ae164ed",
+        "screenshot_is_repository_asset": false,
+        "is_completed_rq_figure": false,
+        "latest_coordinator_report": "Two thin history arrows and equally scaled 1.6-inch macrophage cells are present. Equal-panel composition is superseded by owner direction; the flat dashed line was deleted pending replacement. Parent continues a dominant injury/resolution scene with compact reference.",
+        "latest_saved_revision_review": "The previously supplied manual-revision screenshot was inspected read-only: scientific framing was closer but finished visual quality failed. No saved preview of the new compact-reference composition has been reviewed."
+      },
+      "manual_revision_after_failed_review": {
+        "status": "partial_unverified_layout",
+        "figure_url": "https://app.biorender.com/illustrations/6ae7e244fcbb6b190eaacce7",
+        "verified_edits": [
+          "Removed the generic alveolar template scene.",
+          "Placed two matched BioRender macrophage icons with distinct injury-history labels.",
+          "Added comparable-context, programme/function and alternative-explanation labels."
+        ],
+        "remaining": [
+          "Verify the final label placement after the timeout.",
+          "Complete the comparison connector and explicit lung/normal-age framing.",
+          "Review the full canvas and readable hierarchy before any acceptance or integration."
+        ],
+        "completed_artifact": false
+      },
+      "composition_reference": {
+        "registered_svg": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/schematics/hypothesis_v2.svg",
+        "use": "Visual hierarchy only: focal biology dominates, reference control stays compact, separate readouts remain visible.",
+        "excluded_transfer": "No ARG1, metabolite, fibroblast/matrix or epithelial-effect mechanism is imported into A3."
+      },
+      "execution_status": "stopped_by_owner_for_handoff",
+      "latest_visible_draft_state": "Compact grouped uninjured reference at left (approximately 1.8 inches wide, label too small); dominant right macrophage enlarged to 2.5 inches beside lung histology. History arrows present. Flat comparison line deleted; no final comparison connector. Programme/function remain one row. Latest asymmetric revision is unreviewed.",
+      "prior_live_attempts": [
+        {
+          "owner": "coordinating_chat",
+          "route": "Chrome Generate Editable Figure",
+          "status": "failed",
+          "submission_verified": true,
+          "submitted_prompt_revision": 1,
+          "progress_observed": [
+            "Reviewing prompt"
+          ],
+          "error": {
+            "title": "Something went wrong",
+            "message": "We encountered an unexpected error while processing your request."
+          },
+          "job_id": null,
+          "session_id": null,
+          "generated_image_exposed": false,
+          "evidence": "Coordinator report; exact prepared A3 prompt was pasted and submitted. No UI job ID was exposed."
+        }
+      ],
+      "editor_observation_2026_11_02_claude": {
+        "observed_in": "BioRender editor via Claude in Chrome",
+        "objects": "14 / 50",
+        "matches_handoff_last_state": true,
+        "agent_visual_review": "fails revision 3 brief: no injury to resolution tissue scene; focal macrophage size reads as a biological difference; reference label unreadable; no comparison connector; programme and function share one row",
+        "connector_thumbnail_note": "Thumbnail served at the same time showed an older equal-panel state; not evidence of the saved canvas.",
+        "edits_made": false,
+        "copy_before_redesign": "blocked by account illustration limit"
+      },
+      "owner_steering_2026_11_02_claude": [
+        "Build A3 by hand in the second account's blank figure.",
+        "Concentrate on cells, distinct cell types and crosstalk, not raw alveolus or tissue structure.",
+        "Start from valuable reference figures or templates.",
+        "Browser control is too slow; use the BioRender connector from this session.",
+        "Not hand-written SVG."
+      ],
+      "manual_pilot_second_account": {
+        "figure_id": "6ae81519634432cb2a07dae2",
+        "title": "A3 | Macrophage injury history, revision 3 manual pilot",
+        "status": "unfinished_8_of_50_objects_not_accepted",
+        "contents": [
+          "title",
+          "injury-phase type I pneumocyte",
+          "neutrophil",
+          "monocyte",
+          "lightning-bolt injury marker",
+          "resident-origin macrophage (purple)",
+          "monocyte-derived macrophage (teal preset)",
+          "type II pneumocyte neighbour (orange preset)"
+        ]
+      },
+      "reference_templates_reviewed": {
+        "use": [
+          "Origin and Development of Macrophages (origin key)",
+          "ARDS: Alveolar Changes (injury-phase cells only)",
+          "Tissue-specific Macrophages 62e6d09df2dd732bb63cb489 (icons)"
+        ],
+        "rejected": [
+          "Mechanisms behind the induction of trained immunity 5f9849cd023b8300a228cf9b (mechanism import)",
+          "The Inflammatory Response (skin/pathogen)",
+          "M1/M2 polarization templates (activation-state framing)"
+        ]
+      }
+    },
+    {
+      "question": "A4",
+      "proposed_artifact_title": "AT2 response acquisition within starting lineages",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show AT2 starting clones with persistent qualitative lineage symbols across a timeline. Separate Wnt-responsive history, current Wnt measurement and later IL-1 response. Add a small survival/loss overlay to distinguish acquisition from selection. No Fzd5 gate or endpoint-marker shortcut to switching. Qualitative geometry only; no invented data.",
+      "biological_layout": "Parallel lineage tracks inside alveolar epithelial context, with identical symbol keys at start and follow-up. A side branch records loss/unresolved observation.",
+      "arrow_legend": {
+        "solid": "Illustrative lineage identity/time tracks, not measured clone trajectories.",
+        "dashed": "Proposed acquisition of IL-1 responsiveness within starting lineages.",
+        "question_marks": "Missing linked history/response observations and unresolved follow-up."
+      },
+      "caption": "The comparison asks whether a response is acquired within eligible starting AT2 lineages rather than selected by differential expansion or survival. Animals define independent units and clones are nested; retain the starting denominator. Wnt history, current Wnt and IL-1 response are separate readouts.",
+      "sources": {
+        "context": "docs/research_dossiers/literature_context_2026-10-03/A4.md",
+        "entrypoint": "docs/research_dossiers/A4.md",
+        "schematic": "docs/research_dossiers/schematics/A4_v2.svg",
+        "dossier": "docs/research_dossiers/A4.md",
+        "current_evidence": [
+          "Research Article/gate1_03_nabhan_2018/README.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/continuation_2026-10-03/PACKAGE_REVIEW.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "7122cb0ccae794f28ed3226bd65a6b05e494cb93bf9c884eb93e116f223d4df1",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "docs/research_dossiers/schematics/A4_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "d57d2c06e4d17d532f963f2334b97519f8d0c6d9b65e70c4d68e63a951ca81a2",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A5",
+      "proposed_artifact_title": "Replication of a fixed developmental epithelial component",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Place developmental lung and adult repair alveoli around one clearly labelled fixed RNA-component measurement. Use a dashed replication comparison between independent animals. Do not draw a gene-regulatory network or an established developmental function in repair. State and mouse mapping remain qualified separately. Qualitative geometry only; no invented data.",
+      "biological_layout": "Two developmental/repair tissue scenes flank the same measurement symbol; the biological contexts differ but the component definition does not.",
+      "arrow_legend": {
+        "solid": "Anatomy and shared measurement identity only.",
+        "dashed": "Independent replication of the exact fixed component.",
+        "question_marks": "External state annotations and library-to-animal mapping."
+      },
+      "caption": "The prior component association motivates replication in independent source-qualified mice with frozen exclusions. Multiple libraries and reused source data are not additional animals. Transport of a fixed RNA component would not establish functional reuse of a developmental mechanism.",
+      "sources": {
+        "context": "RQ_Specified/A5_developmental_programme_reuse/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A5_developmental_programme_reuse/README.md",
+        "schematic": "RQ_Specified/A5_developmental_programme_reuse/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A5.md",
+        "current_evidence": [
+          "RQ_Specified/A5_developmental_programme_reuse/README.md",
+          "RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md",
+          "docs/research_dossiers/qualification_2026-10-03/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/METADATA.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "da71eb96829561b08a0ec15ccb65f92ec74f7bde8487e7484bc64a364b069214",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A5_developmental_programme_reuse/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "01917cead54d40baa6e8189d1e7ac839d246485ab4ee633124dc3dfa221551b2",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A6",
+      "proposed_artifact_title": "Macrophage within-state RNA versus changing abundance",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show macrophages in control and IPF tissue contexts. Separate a close-up of RNA in comparable cells from a qualitative population-composition inset. Keep population symbols explicitly nonquantitative. Label effector and tissue consequence unknown; sparse control support remains a limit. Qualitative geometry only; no invented data.",
+      "biological_layout": "Make the IPF macrophage within-state RNA question the main scene, with a compact control-context reference using the same state key. Keep the cell close-up and the separate qualitative composition inset prominent: within-state RNA and abundance are independent readouts. Reference scale is visual emphasis, not measured abundance or cell size.",
+      "arrow_legend": {
+        "solid": "Anatomical/context links only.",
+        "dashed": "Within-state disease association, separately from composition.",
+        "question_marks": "Specific effector, recipient consequence and adequate control-donor support."
+      },
+      "caption": "Donor-level within-state RNA association and state abundance are distinct endpoints. The current sparse control support cannot establish a population disease mechanism, and more cells do not supply new donors. No inferred effector activity is depicted.",
+      "sources": {
+        "context": "docs/research_dossiers/literature_context_2026-10-03/A6.md",
+        "entrypoint": "docs/research_dossiers/A6.md",
+        "schematic": "docs/research_dossiers/schematics/A6_v2.svg",
+        "dossier": "docs/research_dossiers/A6.md",
+        "current_evidence": [
+          "Research Article/gate1_04_sikkema_2023_hlca/README.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "0f9f80c1087345b886695ab80813b7a047683fdc90de2f8947a129a84ad3091c",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "docs/research_dossiers/schematics/A6_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "2dc100c4358e0b13ae43cb2a86f461c291db9bc8370b600c7f0fc7f7688888ef",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1",
+      "prompt_revision": 2,
+      "prompt_revision_history": [
+        {
+          "revision": 1,
+          "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show macrophages in control and IPF tissue contexts. Separate a close-up of RNA in comparable cells from a qualitative population-composition inset. Keep population symbols explicitly nonquantitative. Label effector and tissue consequence unknown; sparse control support remains a limit. Qualitative geometry only; no invented data.",
+          "biological_layout": "Two tissue contexts share a comparable macrophage-state key. A cell close-up and a separate population inset prevent RNA and abundance from collapsing into one arrow.",
+          "disposition": "Layout-only clarification following reference-control visual hierarchy review. Generation prompt and scientific comparison unchanged.",
+          "superseded_by_revision": 2
+        }
+      ]
+    },
+    {
+      "question": "A7",
+      "proposed_artifact_title": "CEBPA loss across independently defined AT2 starting states",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw two AT2 starting states defined before genotype, each receiving the same control-versus-Cebpa-loss comparison. Use nuclei and alveolar identity features. Label broad identity attenuation as a published premise and the baseline-state interaction as a dashed question. No post-treatment state selection. Qualitative geometry only; no invented data.",
+      "biological_layout": "Keep both independently defined starting states prominent because their interaction is central. Within each state, show the Cebpa-loss identity question with a compact matched control reference, rather than duplicating full control and loss panels. Retain the same genotype contrast and shared identity readout in both states; visual area carries no measured effect.",
+      "arrow_legend": {
+        "solid": "Source-qualified broad identity premise and baseline labels only.",
+        "dashed": "Additional genotype-by-starting-state interaction.",
+        "question_marks": "Independent animal-level interaction, survival and state qualification."
+      },
+      "caption": "A7 separates published broad alveolar identity attenuation from an additional interaction with independently established starting states. Source animals define biological independence; pooled wells/cells do not create it. Post-genotype labels, survival and depth can mimic selectivity; CEBPA and AP-1 sources remain separate.",
+      "sources": {
+        "context": "docs/research_dossiers/literature_context_2026-10-03/A7.md",
+        "entrypoint": "docs/research_dossiers/A7.md",
+        "schematic": "docs/research_dossiers/schematics/A7_v2.svg",
+        "dossier": "docs/research_dossiers/A7.md",
+        "current_evidence": [
+          "Research Article/epithelial_state_specificity/README.md",
+          "Research Article/epithelial_state_specificity/results/SUMMARY.md",
+          "docs/research_dossiers/qualification_2026-10-03/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/METADATA.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "b785f5c69c81b393250cdee5ed50b4c58190a087fb4879e0b2aa477198d3cdef",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "docs/research_dossiers/schematics/A7_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "e1949e56489374b3950cdc3293a0e8baa28c257a26729f273b9d4474d28a601c",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1",
+      "prompt_revision": 2,
+      "prompt_revision_history": [
+        {
+          "revision": 1,
+          "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw two AT2 starting states defined before genotype, each receiving the same control-versus-Cebpa-loss comparison. Use nuclei and alveolar identity features. Label broad identity attenuation as a published premise and the baseline-state interaction as a dashed question. No post-treatment state selection. Qualitative geometry only; no invented data.",
+          "biological_layout": "Two baseline-state rows with the same genotype comparison; a shared identity readout keeps broad loss separate from the interaction.",
+          "disposition": "Layout-only clarification following reference-control visual hierarchy review. Generation prompt and scientific comparison unchanged.",
+          "superseded_by_revision": 2
+        }
+      ]
+    },
+    {
+      "question": "A8",
+      "proposed_artifact_title": "Early maturation RNA and later mature AT1 contribution",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show an early AT2-derived cell containing a fixed RNA-component symbol and a later lineage-derived flattened AT1 cell in an alveolus. A dashed connector reads “prediction beyond transition RNA?”. Keep independent lineage/mature-function qualification beside the late cell. Do not depict the score as fate or MYRF as specific proof. Qualitative geometry only; no invented data.",
+      "biological_layout": "Large time-separated epithelial cells in early and mature alveolar contexts, with the prediction link visually distinct from any lineage annotation.",
+      "arrow_legend": {
+        "solid": "Anatomy and labelled time only.",
+        "dashed": "Incremental prospective prediction of later output.",
+        "question_marks": "Missing early-to-later biological-unit linkage and independent mature endpoint."
+      },
+      "caption": "The frozen early component is a candidate indicator of later mature AT1 contribution beyond shared transition RNA. Prediction requires linked and held-out biological units. RNA, contemporaneous overlap and MYRF expression cannot replace independently established lineage and maturity.",
+      "sources": {
+        "context": "RQ_Specified/A8_maturation_component_at1_contribution/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+        "schematic": "RQ_Specified/A8_maturation_component_at1_contribution/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A8.md",
+        "current_evidence": [
+          "RQ_Specified/A8_maturation_component_at1_contribution/README.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/continuation_2026-10-03/SOURCE_LINKAGE.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "306e4394b101c141c200431ee887b1f92c82c29e617a9cf7e11ec485406e88df",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A8_maturation_component_at1_contribution/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "c7c05614efca381aefe44802b62671c461edda315ac3d0205c5110616cfda433",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A9",
+      "proposed_artifact_title": "Fibroblast AREG reception at comparable effective input",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Make the fibroblast membrane the dominant subject, with extracellular AREG and a generic EGFR-context receptor inset. Label cofactor/inhibitory contrast and functional response as unknown. Show a dashed comparison at comparable effective AREG. Do not specify receptor assembly, homodimer or activity from RNA. Qualitative geometry only; no invented data.",
+      "biological_layout": "One fibroblast membrane close-up with ligand outside and a separate response question; use a receptor-context inset rather than a complete signalling cascade.",
+      "arrow_legend": {
+        "solid": "Anatomy and locally labelled published AREG–EGFR premise only.",
+        "dashed": "Recipient competence contrast at comparable effective exposure.",
+        "question_marks": "Receptor/cofactor/inhibitory contrast and functional readout."
+      },
+      "caption": "A9 asks whether recipient competence changes a qualified response at comparable AREG input in independent preparations/donors. Sparse receptor-complex RNA coverage remains a hold. Receptor RNA and database membership do not establish functional assembly or activity.",
+      "sources": {
+        "context": "docs/research_dossiers/literature_context_2026-10-03/A9.md",
+        "entrypoint": "docs/research_dossiers/A9.md",
+        "schematic": "docs/research_dossiers/schematics/A9_v2.svg",
+        "dossier": "docs/research_dossiers/A9.md",
+        "current_evidence": [
+          "analysis/corrections/ligand/RESULTS.md",
+          "Research Article/gate2_N2_nabhan_2026/README.md",
+          "docs/research_dossiers/qualification_2026-10-03/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/METADATA.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "2f219e6d35d60b248be91f5756d0ca34dfb1e71504df4d924b41d7a897346b0a",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "docs/research_dossiers/schematics/A9_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "5c8d873ea7530cea7dd1ecf5de4079be1004a41793b54967cb59d45cd722de34",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A10",
+      "proposed_artifact_title": "Early organoid predictors and subsequent area",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw an early epithelial organoid and a later organoid with clearly separated time labels. Show early RNA, initial area and cell-cycle information, then a dashed “forecast later area?” link. Use qualitative silhouettes, not a growth curve or invented size difference. Keep proliferation, survival and lumen changes distinct. Qualitative geometry only; no invented data.",
+      "biological_layout": "Two organoid cross-sections with epithelium around a lumen and a wide time gap. Predictor and area labels attach to the relevant time point.",
+      "arrow_legend": {
+        "solid": "Anatomy and time only.",
+        "dashed": "Prediction across independent preparations.",
+        "question_marks": "Preparation identities and genuinely early-to-later linkage."
+      },
+      "caption": "The endpoint is subsequent organoid area beyond initial area and cell-cycle information in independent preparations. Existing day-14 RNA/area measurements are concurrent and plate/target are entangled. Area alone does not identify proliferation, survival or mature repair function; negative predictive results remain.",
+      "sources": {
+        "context": "RQ_Specified/A10_organoid_growth_outcome/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A10_organoid_growth_outcome/README.md",
+        "schematic": "RQ_Specified/A10_organoid_growth_outcome/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A10.md",
+        "current_evidence": [
+          "RQ_Specified/A10_organoid_growth_outcome/README.md",
+          "RQ_Specified/A10_organoid_growth_outcome/reports/FOLLOWUP_RESULTS.md",
+          "docs/research_dossiers/qualification_2026-10-03/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/METADATA.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "3be64b435de8b30afa06a3307ee3fc2a2e88ed26d659b0fc09360edea12ec428",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A10_organoid_growth_outcome/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "efb0d7c50ccbee90bc37ec89c3f2f4ae9783ce479a477c4d44d41027fda49c9e",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A11",
+      "proposed_artifact_title": "Lesion-context information beyond fixed shared components",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw repair epithelium and lesion epithelium around fixed shared/stress and residual RNA measurement symbols. Label the dashed comparison “incremental lesion information?”. Keep the beyond-shared criterion unresolved. No cancer-specific cell type, causal pathway or lesion mediator is invented. Qualitative geometry only; no invented data.",
+      "biological_layout": "Two epithelial tissue contexts with matched measurement definitions in between, not a transformation sequence from normal to malignant cells.",
+      "arrow_legend": {
+        "solid": "Anatomy and fixed measurement definitions.",
+        "dashed": "Residual association increment, not cancer induction.",
+        "question_marks": "Unresolved beyond-shared criterion and unnamed functional mediator."
+      },
+      "caption": "Patient-level information from the frozen residual is evaluated beyond the specified shared/stress comparison. The beyond-shared criterion remains unresolved, and a limited injury contrast does not prove specificity. This is measurement utility, not a cancer-specific state or causal lesion mechanism.",
+      "sources": {
+        "context": "RQ_Specified/A11_lesion_programme_addition/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A11_lesion_programme_addition/README.md",
+        "schematic": "RQ_Specified/A11_lesion_programme_addition/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A11.md",
+        "current_evidence": [
+          "RQ_Specified/A11_lesion_programme_addition/README.md",
+          "RQ_Specified/A5_A11_shared_component_contract/reports/REVISED_TEST_RESULTS.md",
+          "RQ_Specified/A11_lesion_programme_addition/reports/ACUTE_INJURY_RESULTS.md",
+          "docs/research_dossiers/qualification_2026-10-03/A11_PRECEDENTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "ee19a1ea2fbfc284dff557b0059fb912fff84a6de83c16aac2204890e3b76275",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A11_lesion_programme_addition/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "a5b9357b811da77ced86073b0ef95ac7f6633d93626b3bfb80df2c0be51f336b",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A12",
+      "proposed_artifact_title": "Separate epithelial and fibroblast IL-1 recipient questions",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Use two separate IL-1 reception scenes: epithelial membrane above, fibroblast membrane below. Put receptor/inhibitory context question marks at each membrane. Keep ligand source attribution unresolved and the recipient choice open. Dashed links ask about an IL-1-dependent response; no generic inflammation score becomes pathway proof. Qualitative geometry only; no invented data.",
+      "biological_layout": "Stacked recipient-specific membrane panels with extracellular IL-1. No full myeloid-to-two-recipient causal chain joins them.",
+      "arrow_legend": {
+        "solid": "Anatomical boundaries and separate recipient identities.",
+        "dashed": "Each proposed IL-1-specific recipient-context comparison.",
+        "question_marks": "Recipient selection, receptor/inhibitory contrast, consequence and ligand source."
+      },
+      "caption": "Epithelial and fibroblast reception are separate developing questions. The current RNA predictor behaves differently between compartments and ligand-source attribution remains uncertain. Biological units and model need qualification; generic inflammatory RNA cannot identify IL-1 dependence or the active source.",
+      "sources": {
+        "context": "RQ_Specified/A12_recipient_context/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A12_recipient_context/README.md",
+        "schematic": "RQ_Specified/A12_recipient_context/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A12.md",
+        "current_evidence": [
+          "RQ_Specified/A12_recipient_context/README.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "ac20e4cbcf49f3969e2754d7512398121e1b55da3350b67621ad54403a2088aa",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A12_recipient_context/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "282dc95405b280b3b770ee4d2632f17f461c0aeb09210fc7f45d7d2dd3e84ed2",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A13",
+      "proposed_artifact_title": "An unknown fibroblast output beyond myeloid input",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show myeloid IL-1 input, a fibroblast secretory compartment and neighbouring epithelium. Draw an extracellular product with a question mark, never a named invented mediator. Dashed proposed output-to-epithelial links remain distinct from shared inflammation. Retain a small “negative proxy pilot” label. Qualitative geometry only; no invented data.",
+      "biological_layout": "Triangular multicellular niche with a prominent extracellular space between fibroblast and epithelium; product identity is explicitly empty/unknown.",
+      "arrow_legend": {
+        "solid": "Compartment identity only; no complete signalling chain is established.",
+        "dashed": "Hypothesized additional fibroblast-output contribution.",
+        "question_marks": "Fibroblast product, source-directed contrast and epithelial endpoint."
+      },
+      "caption": "The question concerns a fibroblast product affecting epithelial recovery beyond myeloid IL-1 input. The failed proxy pilot nominates no mediator. Product and response require separate qualification in independent biological units; source abundance/survival and shared inflammation remain alternatives.",
+      "sources": {
+        "context": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md",
+        "schematic": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A13.md",
+        "current_evidence": [
+          "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/README.md",
+          "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/reports/COVERAGE_RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "14b8ae2953a6db04bfc04e17692afb536261da6bdeec07d50b614b1ddc414527",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A13_fibroblast_beyond_macrophage_il1b/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "83ec6ae28ad2c7c893f816968f0d1a0ce4d6cbcc4c979694cb4626926a9be6ca",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A14",
+      "proposed_artifact_title": "Exposure cessation, stromal reception and mature recovery",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Place short-versus-long IL-1 exposure histories above a common post-cessation recovery interval. Below, show epithelial and fibroblast compartments and a later mature AT1 endpoint. Mark H1’s proposed lower recovery after longer history as a prediction; H2 fibroblast reception has no assigned direction. Separate survival and residual input. Qualitative geometry only; no invented data.",
+      "biological_layout": "Schedule bands above alveolar epithelial/stromal anatomy; H1 duration and H2 recipient contribution occupy distinct labelled branches.",
+      "arrow_legend": {
+        "solid": "Exposure/recovery chronology only.",
+        "dashed": "H1 proposed history effect and separately assessed H2 stromal-reception effect.",
+        "question_marks": "H2 direction, assay/model qualification and verified cessation."
+      },
+      "caption": "H1 concerns lineage-derived mature recovery after different exposure durations with comparable culture age and recovery interval. H2 separately asks about fibroblast reception without a fixed direction. Units follow the qualified biological preparation; mature yield, function, survival and residual stimulation remain distinct.",
+      "sources": {
+        "context": "RQ_Specified/A14_withdrawal_recovery_and_reception/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A14_withdrawal_recovery_and_reception/README.md",
+        "schematic": "RQ_Specified/A14_withdrawal_recovery_and_reception/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A14.md",
+        "current_evidence": [
+          "RQ_Specified/A14_withdrawal_recovery_and_reception/README.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "Research Article/gate2_W1_wagner_th17_autoimmunity/rq_derivation/P05.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "0961d86df6a0dd289548513caa3fafbf2473428f69836c1d7202e8a4f39e6f5d",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A14_withdrawal_recovery_and_reception/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "2a41f3e0ff97c00555b2601a2c4fedd15fa3ad43c12b0c580ee240ef45c04fc5",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A15",
+      "proposed_artifact_title": "Latent TGF-beta activation versus total ligand supply",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw an epithelial ITGB6-containing integrin facing matrix-bound latent TGF-beta, with a fibroblast recipient nearby. One solid, locally labelled published-premise arrow denotes latent-ligand activation. All links asserting this route explains the repository context are dashed. Separate active ligand, total supply and recipient function. Qualitative geometry only; no invented data.",
+      "biological_layout": "Membrane–matrix–recipient cross-section with the latent complex anchored in matrix, avoiding a single uniformly solid pathway.",
+      "arrow_legend": {
+        "solid": "Only the labelled published integrin/latent-TGF-beta activation premise.",
+        "dashed": "Source-specific attribution and the unmeasured functional response.",
+        "question_marks": "Active ligand, decisive recipient endpoint and source attribution in this context."
+      },
+      "caption": "The activation pathway is established; A15 asks whether it explains the source-specific association at comparable latent supply. Independent preparations must distinguish active ligand from total supply and function. Itgb6 RNA and downstream whole-lung RNA do not measure engagement, activation or mediation.",
+      "sources": {
+        "context": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md",
+        "schematic": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A15.md",
+        "current_evidence": [
+          "RQ_Specified/A15_epithelial_integrin_tgfb_activation/README.md",
+          "RQ_Specified/A15_epithelial_integrin_tgfb_activation/reports/RIVAL2_RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "c5611bee98d85dd4bbe9bd99aa8d7903fa4e816846e4f35b2ff22cbc7f54411e",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A15_epithelial_integrin_tgfb_activation/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "716aa5bbe308ff5823d693c6b9e874e7d9aaa2392826918f1af8c571472f5562",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A16",
+      "proposed_artifact_title": "CD177 as a candidate epithelial marker, not a fate regulator",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show a qualified mutant transitional epithelial cell with a candidate CD177 surface-protein label. Add a separate contamination/other-cell-source inset. A dashed, explicitly predictive link reaches “later response unknown”. Do not draw CD177 causing fate or choose an unsupported response. Qualitative geometry only; no invented data.",
+      "biological_layout": "Large epithelial membrane view with a small source-attribution inset and a time-separated outcome question.",
+      "arrow_legend": {
+        "solid": "Cell anatomy only; candidate protein localization remains to be qualified.",
+        "dashed": "Candidate marker association/prediction, never causal fate control.",
+        "question_marks": "Epithelial protein source and the specific later response."
+      },
+      "caption": "The proposed marker comparison is within comparable mutant starting states and independent source units. Corrected RNA matching attenuated the association and left imbalance. Protein attribution and later response remain unqualified; contamination, mixture and already-active response are alternatives.",
+      "sources": {
+        "context": "RQ_Specified/A16_cd177_state_attribution/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A16_cd177_state_attribution/README.md",
+        "schematic": "RQ_Specified/A16_cd177_state_attribution/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A16.md",
+        "current_evidence": [
+          "RQ_Specified/A16_cd177_state_attribution/README.md",
+          "RQ_Specified/A16_cd177_state_attribution/reports/STAGE1_RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "4dd1a94653ed879ad9d092cff5174e3fbe05500c68dc668905ca8d016db65d5d",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A16_cd177_state_attribution/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "6f32bc3ec87c201f2c9f9d07a00eea0e8c5d89e2c579c29ae80e25c11cdd8416",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A17",
+      "proposed_artifact_title": "Founder persistence versus switching and observation",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Use two qualitative branching lineage diagrams: inherited founder contribution versus reversible state switching. Overlay survival, missed observation and clone-merger symbols. Keep founder classes labelled latent model terms. No measured clone counts, trajectories, empirical distributions or new cell types. Qualitative geometry only; no invented data.",
+      "biological_layout": "Contrasting lineage-tree concepts with an observation layer in front; persistent founder labels and changing state symbols use separate encodings.",
+      "arrow_legend": {
+        "solid": "Illustrative model topology only, not observed lineage histories.",
+        "dashed": "Competing founder/switching explanations and observation effects.",
+        "question_marks": "Identifiability, longitudinal linkage and unfinished corrected model comparison."
+      },
+      "caption": "A17 compares explanations for detected clone-size distributions, with clones nested in source animals and ascertainment qualified. A useful founder term is not a discovered subtype. Unlinked snapshots are not measured trajectories; survival, merger and observation error remain alternatives.",
+      "sources": {
+        "context": "docs/research_dossiers/literature_context_2026-10-03/A17.md",
+        "entrypoint": "docs/research_dossiers/A17.md",
+        "schematic": "docs/research_dossiers/schematics/A17_v2.svg",
+        "dossier": "docs/research_dossiers/A17.md",
+        "current_evidence": [
+          "Research Article/gate2_C2_england_2025/README.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/continuation_2026-10-03/A17_MODEL_SPEC.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "5ba24f23793dce6c3097668a70a958523ef11f98b8f34023dfca4599be16d149",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "docs/research_dossiers/schematics/A17_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "febf3a83fc9b2ebf3348e9d8ce71344c606a9deff7373dbed277c9ee7dba0322",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A18",
+      "proposed_artifact_title": "Neighbouring WT expansion and identity as separate outcomes",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show mutant and WT AT2 neighbours within alveolar tissue. From the WT lineage, separate absolute descendant yield and alveolar identity readouts. Add survival as its own check. SPP1/DLK1 may appear only as optional candidate labels with question marks, not two proven signalling channels. Qualitative geometry only; no invented data.",
+      "biological_layout": "Spatial mutant–WT neighbourhood above two independent WT outcome symbols; no change in icon number represents measured expansion.",
+      "arrow_legend": {
+        "solid": "Neighbourhood anatomy and WT/mutant labels only.",
+        "dashed": "Proposed local-context effects on each outcome separately.",
+        "question_marks": "Mapped animal/clone identities and molecular attribution."
+      },
+      "caption": "The question is whether local mutant context affects absolute WT lineage expansion separately from WT identity. Animal/clone linkage, starting state and survival must be measured. Pooled spatial observations do not supply independent units, and nominated SPP1/DLK1 interactions remain candidates.",
+      "sources": {
+        "context": "docs/research_dossiers/literature_context_2026-10-03/A18.md",
+        "entrypoint": "docs/research_dossiers/A18.md",
+        "schematic": "docs/research_dossiers/schematics/A18_v2.svg",
+        "dossier": "docs/research_dossiers/A18.md",
+        "current_evidence": [
+          "Research Article/gate2_C2_england_2025/README.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "044115a68e1720e4ac915cb51048469d312762bb17e236490ff43052fc720895",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "docs/research_dossiers/schematics/A18_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "21335125fb02d4f590389bec643550796fe9808f826039810d7d900474f768c5",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A19",
+      "proposed_artifact_title": "Ending Fzd input: mature output and retained AT2 reserve",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Split an AT2-derived culture timeline into ending versus continued Fzd-supported input. End at two separate anatomical outcomes: flattened mature AT1 descendants and retained AT2 cells with possible renewed expansion. Keep Fzd5 as a candidate input, not a fixed reagent. No increased area is drawn as repair. Qualitative geometry only; no invented data.",
+      "biological_layout": "A shared alveolar starting population branches by schedule, then points to distinct output and reserve readouts rather than one repair score.",
+      "arrow_legend": {
+        "solid": "Schedule timing and labelled anatomy.",
+        "dashed": "Proposed withdrawal effects on mature output and reserve, evaluated separately.",
+        "question_marks": "Input choice, starting competence and calibrated mature/reserve endpoints."
+      },
+      "caption": "Independent AT2-derived preparations compare ending with continued input. Absolute lineage-derived mature AT1 output and subsequent AT2 response capacity are separate endpoints. Survival and starting mixture may explain differences; CHIR withdrawal does not isolate Fzd5 withdrawal.",
+      "sources": {
+        "context": "RQ_Specified/A19_fzd_response_reversibility/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A19_fzd_response_reversibility/README.md",
+        "schematic": "RQ_Specified/A19_fzd_response_reversibility/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A19.md",
+        "current_evidence": [
+          "RQ_Specified/A19_fzd_response_reversibility/README.md",
+          "RQ_Specified/A19_fzd_response_reversibility/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/continuation_2026-10-03/SOURCE_LINKAGE.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "48623f2fd1595eba25e6de8a1fdbf81fbcb4230faab0a30a0cd024d59dd6f979",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A19_fzd_response_reversibility/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "064dd84e2af67cbf8f809366a6980002a171fa1d62b1a92185ecd2fb47c68ff8",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A20",
+      "proposed_artifact_title": "Fibroblast Fzd2 versus Fzd1 support across time",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show an AF1-like fibroblast with a qualified Fzd2-loss versus Fzd1-loss comparison. Beside it place early maturation-competent AT2 pool and later mature epithelial output. Label a smaller early pool as the proposed explanation, with preserved-pool/later-defect as a rival. Do not imply mediation from timing or adjustment. Qualitative geometry only; no invented data.",
+      "biological_layout": "Recipient-support comparison at the fibroblast membrane feeds a time-separated epithelial panel. Receptor engagement and fibroblast survival remain visible qualifications.",
+      "arrow_legend": {
+        "solid": "Anatomy and time only.",
+        "dashed": "Narrowed receptor contrast and proposed pool-support explanation.",
+        "question_marks": "Comparable engagement, functional support and whether pool change explains later output."
+      },
+      "caption": "A20 retains the narrowed Fzd2-versus-Fzd1 loss comparison in adult AF1-like fibroblasts. Independently qualified units must measure early competent pool and later absolute mature output. Timing and post-treatment pool adjustment do not prove mediation; survival, matrix and unequal engagement remain alternatives.",
+      "sources": {
+        "context": "RQ_Specified/A20_fibroblast_fzd_context/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A20_fibroblast_fzd_context/README.md",
+        "schematic": "RQ_Specified/A20_fibroblast_fzd_context/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A20.md",
+        "current_evidence": [
+          "RQ_Specified/A20_fibroblast_fzd_context/README.md",
+          "RQ_Specified/A20_fibroblast_fzd_context/RESULTS.md",
+          "RQ_Specified/A20_fibroblast_fzd_context/NARROWED_HYPOTHESIS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "c6af6894059770681b4f241c2d328fc2f7a18c299f34336f707e2312a25e0493",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A20_fibroblast_fzd_context/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "29141ec592c1fd5123858a7696653622b0c672fb4aa8612ef24d0894a159589e",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A21",
+      "proposed_artifact_title": "Capillary integrity and lineage output in alveolar repair",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw an alveolar capillary barrier with gCap and aerocyte compartments. Separate vascular integrity, endothelial survival and traced lineage output. A dashed Fzd4-dependent coupling question links them; no solid complete regeneration pathway. Do not transfer tumour-vessel rescue into proof of normal repair. Qualitative geometry only; no invented data.",
+      "biological_layout": "An alveolus–capillary interface dominates, with distinct integrity and lineage readouts beside the vascular compartments.",
+      "arrow_legend": {
+        "solid": "Barrier anatomy and compartment identity.",
+        "dashed": "Proposed Fzd4-dependent function/output coupling.",
+        "question_marks": "Direct barrier, survival and lineage measurements; full route and mediation."
+      },
+      "caption": "Independent animals would link qualified vascular function, division, survival and traced gCap/aerocyte output. Current Fzd4 RNA context does not establish the route. Parallel injury responses or cell loss may explain joint changes; tumour-vessel precedents do not prove adult repair coupling.",
+      "sources": {
+        "context": "RQ_Specified/A21_fzd4_capillary_function/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A21_fzd4_capillary_function/README.md",
+        "schematic": "RQ_Specified/A21_fzd4_capillary_function/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A21.md",
+        "current_evidence": [
+          "RQ_Specified/A21_fzd4_capillary_function/README.md",
+          "RQ_Specified/A21_fzd4_capillary_function/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/OUTCOMES.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "f2e6bfa3e721f99a63d3d2cb21c33f39828dd6a0e4bd3208bbe918159e846cd2",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A21_fzd4_capillary_function/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "63789e791e804628473c3d7fe8e64438d6071f16383dcb207b766f4f63550d49",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A22",
+      "proposed_artifact_title": "NKX2-1 identity versus viable source amount and protein output",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show an AT2 epithelial source with an NKX2-1 identity label, separately mark viable source amount, and face a fibroblast with a matched-state label. Place an unnamed extracellular chemokine protein between fibroblast and collection space. Dashed links describe the focal extension; no generic epithelial maturity mechanism or chosen protein. Qualitative geometry only; no invented data.",
+      "biological_layout": "Epithelial identity/amount on the left; fibroblast state in the centre; extracellular product/collection on the right as separate quantities.",
+      "arrow_legend": {
+        "solid": "Anatomy; locally labelled published RNA direction only.",
+        "dashed": "Proposed extracellular-protein extension of the focal NKX2-1 contrast.",
+        "question_marks": "Primary chemokine protein and collection/recovery definition."
+      },
+      "caption": "The focal hypothesis concerns extracellular fibroblast protein output beyond viable epithelial amount, within comparable recipient states and qualified independent preparations. The broad predictor failed and C3 is not a stable proxy. Older generic maturity wording requires reconciliation; the working hypothesis is not changed. Secretion-rate claims require calibrated collection/recovery.",
+      "sources": {
+        "context": "RQ_Specified/A22_epithelial_identity_niche_response/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A22_epithelial_identity_niche_response/README.md",
+        "schematic": "RQ_Specified/A22_epithelial_identity_niche_response/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A22.md",
+        "current_evidence": [
+          "RQ_Specified/A22_epithelial_identity_niche_response/README.md",
+          "RQ_Specified/A22_epithelial_identity_niche_response/reports/identity_amount_v2/RESULTS.md",
+          "docs/research_dossiers/qualification_2026-10-03/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/followup_2026-10-03/METADATA.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "65f504864344e7be3147b06d4a1a0c2f7f9a4d0772a33a0ae3371b8b1633aa7d",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A22_epithelial_identity_niche_response/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "3cd42807eb6e04e739737ed37ac6337e6e27643d2818985bb2674ebba63eb126",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A23",
+      "proposed_artifact_title": "Transition entry versus prolonged residence after transport impairment",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show AT2, intermediate epithelium and mature AT1 along a time axis. At the AT2 membrane label SLC34A2 transport; mark entry and exit as distinct dashed hypotheses. Add phosphate compartments without quantities. Label the published transport/transition premise and retain the failed external marker-transfer result. Qualitative geometry only; no invented data.",
+      "biological_layout": "Three epithelial stages with separate entry and exit connectors, plus a membrane transport inset distinguishing intracellular/extracellular phosphate.",
+      "arrow_legend": {
+        "solid": "Anatomy, time and the explicitly local published premise only.",
+        "dashed": "Increased entry versus impaired exit/prolonged residence; no result direction is asserted.",
+        "question_marks": "Linked transition rates, transport function and qualified mature exit."
+      },
+      "caption": "Independent lineage-linked units must separate acquisition from subsequent exit; endpoint state abundance cannot do so. Transport, compartment-specific phosphate, survival and injury require distinct measurements. The external negative marker result remains; restoration of counts alone does not identify the affected step.",
+      "sources": {
+        "context": "RQ_Specified/A23_slc34a2_transition_homeostasis/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A23_slc34a2_transition_homeostasis/README.md",
+        "schematic": "RQ_Specified/A23_slc34a2_transition_homeostasis/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A23.md",
+        "current_evidence": [
+          "RQ_Specified/A23_slc34a2_transition_homeostasis/README.md",
+          "RQ_Specified/A23_slc34a2_transition_homeostasis/reports/external_pilot_v2/RESULTS.md",
+          "RQ_Specified/A23_slc34a2_transition_homeostasis/reports/transporter_context_v1/RESULTS.md",
+          "docs/research_dossiers/followup_2026-10-03/NOVELTY.md",
+          "docs/research_dossiers/capabilities_2026-10-03/README.md",
+          "docs/portfolio_extensions/2026-10-07/g1_epithelial/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "4a718b2105deee7ae9bde4bc059baea35ed6d85c4419eac464a5e0ccd49a58bf",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A23_slc34a2_transition_homeostasis/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "b6094516f669b7a840c025bc8fbb6dcb67f6e11d8b4eb03e9c257b28fe75f6f8",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A24",
+      "proposed_artifact_title": "Bladder stromal contribution beyond epithelial ageing",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw layered bladder urothelium with umbrella-cell barrier anatomy and underlying stroma. Keep the stromal population unnamed. A dashed intercompartmental contribution competes with an epithelial-intrinsic ageing branch. Do not assign a stromal subtype, ligand or senescence burden from RNA. Qualitative geometry only; no invented data.",
+      "biological_layout": "Tissue cross-section with lumen, urothelium and stroma spatially distinct. A separate epithelial-age alternative prevents one-way causal overclaim.",
+      "arrow_legend": {
+        "solid": "Barrier and tissue-layer anatomy.",
+        "dashed": "Proposed stromal contribution at comparable epithelial starting condition.",
+        "question_marks": "Stromal population, mechanism, qualified model and barrier assay."
+      },
+      "caption": "The proposal separates stromal context from epithelial age/terminal differentiation using an independently measured barrier endpoint in qualified biological units. Existing atlas RNA and captured proportions do not identify a causal stromal population, absolute senescence burden or barrier dysfunction.",
+      "sources": {
+        "context": "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/README.md",
+        "schematic": "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/schematics/hypothesis_v1.svg",
+        "dossier": "docs/research_dossiers/A24.md",
+        "current_evidence": [
+          "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/README.md",
+          "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/PLAN.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "ec3e51cee711910dc6eddf382eead5d7f0a9571fe82db8303c9011580b2110c8",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A24_bladder_stromal_urothelial_maintenance/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "fc85582090d5519b665cf7467cf8a30ca5f5db9ca33823f52c0c0079d06238bc",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A25",
+      "proposed_artifact_title": "Microglial RNA organisation: mixture, continuity or added structure",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show ramified microglia within recognisable brain-region context. Beside them place three labelled conceptual alternatives: endpoint mixture, continuous age response, additional component. Use symbolic model keys, never invented clusters or distributions. Label animal-held-out comparison and region/sex qualification; no new functional cell state. Qualitative geometry only; no invented data.",
+      "biological_layout": "Brain-region anatomy and a microglial close-up flank model alternatives expressed as schematic symbols rather than numerical plots.",
+      "arrow_legend": {
+        "solid": "Anatomy and model definitions only.",
+        "dashed": "Competing predictive explanations for RNA organisation.",
+        "question_marks": "Generalisation, coherent cell-level structure and state/function interpretation."
+      },
+      "caption": "A25 compares prespecified models using animal-held-out prediction and complexity control within supported region/sex contexts. Source clusters and trajectories are outcome-exposed, not longitudinal transitions. Added RNA structure would not alone establish a discrete state or function; sampling, processing and sex imbalance remain alternatives.",
+      "sources": {
+        "context": "RQ_Specified/A25_microglial_midlife_configuration/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A25_microglial_midlife_configuration/README.md",
+        "schematic": "RQ_Specified/A25_microglial_midlife_configuration/schematics/hypothesis_v1.svg",
+        "dossier": "docs/research_dossiers/A25.md",
+        "current_evidence": [
+          "RQ_Specified/A25_microglial_midlife_configuration/README.md",
+          "RQ_Specified/A25_microglial_midlife_configuration/PLAN.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "510a3acc95eb0f94b806bd331b7b6153a786e9c2d8c40cae1fb9a6751b83e00d",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A25_microglial_midlife_configuration/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "ffa97bdb1ca7d294424a767e169f3a3d619ad48cc6ad5606daf2b2894e99513f",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A26",
+      "proposed_artifact_title": "Paired spleen–marrow CD8 age association",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw spleen and marrow linked to one animal identity, with comparable CD8-state symbols in each tissue. Use separate qualitative clone symbols and a paired age-comparison label. No migration arrow, local proliferation mechanism or quantitative cell-count pattern. Flag exact marrow-state support as unresolved. Qualitative geometry only; no invented data.",
+      "biological_layout": "One animal-level pairing bracket links two recognisable organ scenes; fixed-state T-cell close-ups carry qualitative clone keys.",
+      "arrow_legend": {
+        "solid": "Within-animal pairing and organ anatomy, not cell movement.",
+        "dashed": "Age contrast of paired tissue differences at a common state/sampling scale.",
+        "question_marks": "Exact marrow CD8 support, receptor recovery and precision."
+      },
+      "caption": "The estimand is an age contrast of within-animal spleen-minus-marrow clone-concentration differences at fixed state and sampling scale. Animals, not cells, define independence. The contrast was chosen after exposure; receptor sharing does not prove trafficking or local niche causation.",
+      "sources": {
+        "context": "RQ_Specified/A26_tissue_context_cd8_ageing/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A26_tissue_context_cd8_ageing/README.md",
+        "schematic": "RQ_Specified/A26_tissue_context_cd8_ageing/schematics/hypothesis_v1.svg",
+        "dossier": "docs/research_dossiers/A26.md",
+        "current_evidence": [
+          "RQ_Specified/A26_tissue_context_cd8_ageing/README.md",
+          "RQ_Specified/A26_tissue_context_cd8_ageing/PLAN.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "91356fdc20af07713a980019506ca47ca80cdb99922a9a3a460fba6405a7f3ea",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A26_tissue_context_cd8_ageing/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "d6e7c485c6ba48c97cff9a50fe46c0c453120a7695aa2222f35f03d309e53102",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A27",
+      "proposed_artifact_title": "Within-state CD8 age contribution alongside redistribution",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Show splenic CD8 cells with separate state shapes and clone symbols. Compare total age association with a composition-standardised view, without numbers or pie fractions. Label both within-state change and redistribution as possible contributors. No causal percentage or immune-function claim. Qualitative geometry only; no invented data.",
+      "biological_layout": "A spleen context leads to two conceptual views of the same state/clone encodings; state is never encoded by the same symbol as clone.",
+      "arrow_legend": {
+        "solid": "State/clone identity keys and comparison definitions.",
+        "dashed": "Descriptive decomposition/standardisation, not a causal fraction.",
+        "question_marks": "Fine-state support, receptor ascertainment and sparse-sampling precision."
+      },
+      "caption": "Mouse-level state-specific clone measures and a declared fixed-composition contrast assess association components while retaining the aggregate result. Both redistribution and within-state change may contribute. Sparse reconstructed receptors, annotation and sampling limit inference; no percentage of ageing caused or immune function is inferred.",
+      "sources": {
+        "context": "RQ_Specified/A27_cd8_repertoire_state_redistribution/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md",
+        "schematic": "RQ_Specified/A27_cd8_repertoire_state_redistribution/schematics/hypothesis_v1.svg",
+        "dossier": "docs/research_dossiers/A27.md",
+        "current_evidence": [
+          "RQ_Specified/A27_cd8_repertoire_state_redistribution/README.md",
+          "RQ_Specified/A27_cd8_repertoire_state_redistribution/PLAN.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_COMPLETION.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/EXTENSION_RESULTS.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/README.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/OVERLAP_MATRIX.md",
+          "Research Article/gate2_N4_nabhan_aging_atlas_2020/rq_review/LITERATURE.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "172eec5093e9235c06b3302c0748ae1f39cf19e10740cd45f6f2e4b8c8538770",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A27_cd8_repertoire_state_redistribution/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "e52151023c48684e4d64be3b403d9e53321581271d85207e2bcfdc1acb2c6f68",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A28",
+      "proposed_artifact_title": "Same-cell regulatory-associated and effector-associated proteins",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Make one Th17 cell dominant: nuclear Foxp3, membrane CTLA4 and intracellular IL-17A/F protein. Two separate measurement connectors lead to regulatory-associated and effector-associated marker labels. Add a small “shared axis?” rival with composition/division. No secretion arrow, suppressed target cell or protocol dishes; markers do not establish function. Qualitative geometry only; no invented data.",
+      "biological_layout": "One cell with true nuclear/membrane/intracellular compartments, a pair of separate readout connectors and a small competing-axis inset.",
+      "arrow_legend": {
+        "solid": "Anatomical marker locations as proposed readouts, not demonstrated functional outputs.",
+        "dashed": "Joint same-cell measurement and registered separate-arm predictions.",
+        "question_marks": "Functional competence, secretion and whether marker changes dissociate."
+      },
+      "caption": "Mouse is the unit, with cells nested and division assessed. The registered nutrient/cytokine predictions concern joint marker patterns in the same cell. Protein markers and RNA arms are not suppressive function or secretion; a null contrast is not equivalence, and composition remains an alternative.",
+      "sources": {
+        "context": "RQ_Specified/A28_th17_arm_asymmetry/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A28_th17_arm_asymmetry/README.md",
+        "schematic": "RQ_Specified/A28_th17_arm_asymmetry/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A28.md",
+        "current_evidence": [
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/Q1_arm_asymmetry.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/R1_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/P01_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/P03_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/METADATA_PHENOTYPES_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/SOURCES_AND_GROUNDING.md",
+          "RQ_Specified/A28_th17_arm_asymmetry/README.md",
+          "RQ_Specified/A28_th17_arm_asymmetry/PLAN.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "8dde08c3f5461b8325dbc72f4ebe84cf783d88fe478fa969e0c28c33730ae156",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A28_th17_arm_asymmetry/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "9030b2a10b711f3294e0614883dee8e107371e10f58ef8f99308164aa45afa1d",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A29",
+      "proposed_artifact_title": "PEP route, stress and demand as nonexclusive explanations",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw a Th17 cell with cytoplasmic metabolism, a PEP pool symbol and nuclear JunB/BATF/IRF4 complex. Locally label the published PEP-inhibition premise. Use dashed PGAM-to-pool-to-output hypotheses and separate stress and biosynthetic-demand branches. No invented kinetics, absolute metabolite changes, secretion increase or uniquely decisive rescue. Qualitative geometry only; no invented data.",
+      "biological_layout": "A metabolic/nuclear cell cutaway with nonexclusive stress and growth-demand branches; protein and metabolite readouts sit in their own compartments.",
+      "arrow_legend": {
+        "solid": "Only the locally labelled source-published PEP/complex premise.",
+        "dashed": "Context-specific PGAM/PEP, stress and demand explanations; they may coexist.",
+        "question_marks": "Absolute pools, transient/compartment effects and functional protein output."
+      },
+      "caption": "Qualified independent biological preparations must distinguish absolute metabolite pools from isotope-label ratios and protein output from RNA. Stress, demand, off-target effects and RNA-content composition remain alternatives. A supplementation result is not unique mechanistic proof, and no secretion effect is established here.",
+      "sources": {
+        "context": "RQ_Specified/A29_pgam_effector_mechanism/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A29_pgam_effector_mechanism/README.md",
+        "schematic": "RQ_Specified/A29_pgam_effector_mechanism/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A29.md",
+        "current_evidence": [
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/Q2_biosynthetic_demand.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/E3_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/R3_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/R2_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/branches/P02_serine_one_carbon_direction.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/LITERATURE_UPDATE.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md",
+          "RQ_Specified/A29_pgam_effector_mechanism/README.md",
+          "RQ_Specified/A29_pgam_effector_mechanism/PLAN.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "0fe379b292037b1938bfd5dec31caa299bb8a2b6fd4daca01dd3ec674a8edeb5",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A29_pgam_effector_mechanism/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "67527ba7801885d862feb3ac96734ddccb233e866543e0b8890ba7c57b979415",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A30",
+      "proposed_artifact_title": "Paired blood–CSF T-cell RNA association within state",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Link blood and CSF sampling to the same donor without a cell-migration arrow. Show matched putative CD4 states and separate inflammatory/regulatory RNA readouts. Add activation and composition alternatives. Do not depict CNS residence, induction by movement or preserved regulatory function. Qualitative geometry only; no invented data.",
+      "biological_layout": "Donor pairing above blood-vessel and CSF-compartment scenes; matched-state cells sit below each with separate RNA endpoints.",
+      "arrow_legend": {
+        "solid": "Donor/sample pairing only, not trafficking.",
+        "dashed": "Within-state compartment association and measured-adjustment comparisons.",
+        "question_marks": "Timing, common-state/identity support and residual activation/confounding."
+      },
+      "caption": "Donor is the unit for paired CSF/blood RNA contrasts in comparable putative CD4 states. Total and adjusted associations differ; conditioning on activation may remove biology as well as confounding. Shared clones do not prove residence or migration, and regulatory non-significance is not unchanged function.",
+      "sources": {
+        "context": "RQ_Specified/A30_csf_compartment_effector_state/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A30_csf_compartment_effector_state/README.md",
+        "schematic": "RQ_Specified/A30_csf_compartment_effector_state/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A30.md",
+        "current_evidence": [
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/Q3_csf_compartment.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/R4_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/R0_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/METADATA_PHENOTYPES_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/E5_RESULTS.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/OVERLAP_MATRIX.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/SOURCES_AND_GROUNDING.md",
+          "RQ_Specified/A30_csf_compartment_effector_state/README.md",
+          "RQ_Specified/A30_csf_compartment_effector_state/PLAN.md",
+          "docs/audits/2026-10-07-pr140/REPORT.md",
+          "RQ_Specified/A30_csf_compartment_effector_state/EXTENSION_BASELINE_V2.md",
+          "Research Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/STATUS_LEDGER.md",
+          "docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "2d186e4ae210a563cfc776a35ede166dc27038efb8a065f849f35243aeb05e5c",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A30_csf_compartment_effector_state/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "4f0a56d33048a50130a62028813459d9b07ea49be03cc8f5fbfed3d305ef99cf",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A31",
+      "proposed_artifact_title": "Candidate GRIA1 contribution to an acute fibroblast response",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw an adult alveolar fibroblast, extracellular glutamate and a membrane inset labelled “GRIA1-containing receptor?”. Surface assembly remains unverified. Show matched control versus qualified GRIA1 perturbation with a dashed link to “acute receptor-proximal response?”. Assay and timing are unselected. No calcium/current assay, neuron or repair outcome. Qualitative geometry only; no invented data.",
+      "biological_layout": "Large fibroblast/candidate receptor view with a compact matched comparison and an unnamed acute-response readout.",
+      "arrow_legend": {
+        "solid": "Cell anatomy; atlas GRIA1 RNA enrichment is a separate expression premise.",
+        "dashed": "Proposed challenge and perturbation comparison, not observed dependence.",
+        "question_marks": "Receptor surface assembly, acute assay, timing and viable identity."
+      },
+      "caption": "Donor-matched preparations compare challenge-minus-vehicle responses under qualified GRIA1 perturbation and control; preparations/cells remain nested within donor. RNA does not establish functional receptor assembly. Identity/viability remain measurements, not automatic survivor gates; no excitability or repair result is claimed.",
+      "sources": {
+        "context": "RQ_Specified/A31_gria1_fibroblast_response/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A31_gria1_fibroblast_response/README.md",
+        "schematic": "RQ_Specified/A31_gria1_fibroblast_response/schematics/hypothesis_v1.svg",
+        "dossier": "docs/research_dossiers/A31.md",
+        "current_evidence": [
+          "RQ_Specified/A31_gria1_fibroblast_response/README.md",
+          "RQ_Specified/A31_gria1_fibroblast_response/PLAN.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/NEW_QUESTION_CANDIDATE.md",
+          "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "3e3eb4a1f4dab4325a7acf6f4d0af21f3e0be3bd189ff6b979be9369dc001551",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": {
+        "owner": "coordinating_chat",
+        "status": "failed",
+        "session_id": "b6c780ef-b09b-40b6-bbf4-87dca9315ce2",
+        "job_id": "d715453c-6dc2-4440-b8d3-f2cc12a8cab2",
+        "completed_at": "2026-11-02T01:42:33.723Z",
+        "error": {
+          "type": "generation_error",
+          "message": "All preview generations failed"
+        },
+        "progress": {
+          "total": 1,
+          "completed": 0,
+          "failed": 1
+        },
+        "evidence": "Coordinator-confirmed prior A31 job; no image resulted. This is distinct from current Chrome UI production."
+      },
+      "completed_artifact": {
+        "path": "RQ_Specified/A31_gria1_fibroblast_response/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "6afe0e0b1495cf092bc671a35280fd0be3a515004ac3929931bcbaa1e8b4280a",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    },
+    {
+      "question": "A32",
+      "proposed_artifact_title": "Source-restricted myeloid ARG1: matrix and mature output separately",
+      "generation_prompt": "Landscape biological hypothesis schematic with sparse labels and prominent cell/tissue anatomy. Draw myeloid source, fibroblast/matrix and alveolar epithelium. Compare qualified source-restricted ARG1 reduction with source-active control. Separate newly produced/deposited collagen from lineage-derived mature AT1 output. Give epithelial direction a question mark; no collagen-to-recovery arrow or fixed myeloid subtype. Published metabolic premises remain local. Qualitative geometry only; no invented data.",
+      "biological_layout": "Three biological compartments surround two independent outcome readouts. A shared comparison bracket connects the design without drawing matrix as the mediator of epithelial benefit.",
+      "arrow_legend": {
+        "solid": "Anatomy and locally source-qualified premises only.",
+        "dashed": "Perturbation effects on matrix and mature epithelial output, separately.",
+        "question_marks": "Source qualification, species/model, units, timing, mature assay and epithelial direction."
+      },
+      "caption": "The proposed non-infectious repair comparison estimates matrix and absolute lineage-derived mature epithelial effects in the same qualified design. Donor/animal crossing and nesting define units. Source loss, inflammation, direct recipient exposure and selection limit attribution; reduced collagen does not imply epithelial benefit or mediation.",
+      "sources": {
+        "context": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md",
+        "entrypoint": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md",
+        "schematic": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/schematics/hypothesis_v2.svg",
+        "dossier": "docs/research_dossiers/A32.md",
+        "current_evidence": [
+          "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md",
+          "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/PLAN.md",
+          "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/LITERATURE_CONTEXT.md",
+          "docs/audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md",
+          "RQ_Specified/Yadav_followups_20261031/RQ3_MATRIX_AND_REPAIR.md",
+          "RQ_Specified/Yadav_followups_20261031/T0_RESULTS.md",
+          "RQ_Specified/Yadav_followups_20261031/T2_DISPOSITION.md"
+        ]
+      },
+      "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc",
+      "working_hypothesis_sha256": "ed0cf6e247dfb82362fa531ae3d6d281780ede540b285d0740d186bf330c9f09",
+      "production_status": "original_svg_complete",
+      "latest_live_attempt": null,
+      "completed_artifact": {
+        "path": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/schematics/hypothesis_cellular_v1.svg",
+        "format": "svg",
+        "origin": "original authorable vector artwork; no BioRender asset tracing",
+        "schematic_sha256": "560cb4d998423abdefd42cf8467a4d5e1323cc2e1153171e764353d3a7c20bfd",
+        "source_revision": "862f3335bad7700ba89ce8d5bcc794c7c9094fbc"
+      },
+      "visual_review_status": "coordinator_editorial_pass_after_detail_audit",
+      "integration_status": "registered_cellular_v1"
+    }
+  ],
+  "composition_review": {
+    "date": "2026-11-02",
+    "scope": [
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23",
+      "A24",
+      "A25",
+      "A26",
+      "A27",
+      "A28",
+      "A29",
+      "A30",
+      "A31",
+      "A32"
+    ],
+    "reference_svg": "RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/schematics/hypothesis_v2.svg",
+    "reference_inspection": "Registered SVG text and local A32 render inspected; transfer composition hierarchy only, never biological mechanisms.",
+    "affected_ids": [
+      "A3",
+      "A6",
+      "A7"
+    ],
+    "changes": [
+      {
+        "question": "A3",
+        "changed_fields": [
+          "generation_prompt",
+          "biological_layout"
+        ],
+        "rationale": "The scientific focus is injury/resolution and its post-resolution macrophage consequence; no prior injury is a reference. Equal areas distracted from the biology and were explicitly rejected by the owner. Matching does not require equal panel area."
+      },
+      {
+        "question": "A6",
+        "changed_fields": [
+          "biological_layout"
+        ],
+        "rationale": "IPF within-state RNA and abundance are the biological focus; the control context provides the reference. Compact control frees space for both distinct readouts without claiming a disease mechanism."
+      },
+      {
+        "question": "A7",
+        "changed_fields": [
+          "biological_layout"
+        ],
+        "rationale": "The two baseline states are both central to the interaction and remain prominent. Only the repeated control within each genotype contrast becomes compact; state comparison and broad-loss versus interaction interpretation are preserved."
+      }
+    ],
+    "unchanged_groups": [
+      {
+        "ids": [
+          "A0",
+          "A5"
+        ],
+        "rationale": "Both source/target contexts are central to correspondence or fixed-component replication; neither is merely a display control."
+      },
+      {
+        "ids": [
+          "A1",
+          "A8",
+          "A10"
+        ],
+        "rationale": "Early-to-later linkage is central; preserve both temporal endpoints."
+      },
+      {
+        "ids": [
+          "A2",
+          "A9",
+          "A13",
+          "A15",
+          "A16",
+          "A18",
+          "A21",
+          "A22",
+          "A23",
+          "A24",
+          "A28",
+          "A29",
+          "A31",
+          "A32"
+        ],
+        "rationale": "Existing anatomy/compartment/readout focus does not impose equal control panels; A31 already specifies a compact matched comparison and A32 supplies the reference grammar."
+      },
+      {
+        "ids": [
+          "A4"
+        ],
+        "rationale": "Parallel lineage tracks distinguish acquisition from selection; they are not interchangeable control panels."
+      },
+      {
+        "ids": [
+          "A11"
+        ],
+        "rationale": "Repair versus lesion context is meaningful to the beyond-shared comparison; retain its visibility."
+      },
+      {
+        "ids": [
+          "A12"
+        ],
+        "rationale": "Epithelial versus fibroblast recipient questions remain genuinely open; do not visually select one."
+      },
+      {
+        "ids": [
+          "A14",
+          "A19"
+        ],
+        "rationale": "Schedule contrasts are central and need aligned timing; current wording does not require equal scene areas."
+      },
+      {
+        "ids": [
+          "A17",
+          "A25"
+        ],
+        "rationale": "Competing explanatory models are central, not reference-only controls; do not diminish rivals mechanically."
+      },
+      {
+        "ids": [
+          "A20"
+        ],
+        "rationale": "Fzd2 versus Fzd1 are two active receptor contrasts, not focal treatment versus an incidental control."
+      },
+      {
+        "ids": [
+          "A26",
+          "A30"
+        ],
+        "rationale": "Paired tissues/compartments jointly define the estimand; keep both visible."
+      },
+      {
+        "ids": [
+          "A27"
+        ],
+        "rationale": "Total and fixed-composition views are complementary descriptive comparisons, not reference-only arms."
+      }
+    ]
+  },
+  "production_hold": {
+    "date": "2026-11-02",
+    "reason": "biorender_ai_figure_building_fails_all_paths; both_accounts_at_illustration_limit",
+    "scope": "All 33 RQs: 32 cannot start a new figure; A3 can only be redesigned inside existing draft 6ae7e244fcbb6b190eaacce7.",
+    "owner_decision_needed": "None for SVG: owner explicitly authorized fallback after the fresh failed browser trial. Historical BioRender account/service failures are retained above.",
+    "evidence": "docs/audits/2026-11-02-rq-schematic-review/IMPLEMENTATION.md",
+    "status": "historical_biorender_route_hold_superseded_for_original_svg",
+    "current_route": "All 33 original cellular SVGs integrated and verified. No remaining figure-production hold; historical BioRender failure and existing scientific/data holds remain distinct."
+  }
+}

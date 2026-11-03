@@ -71,12 +71,13 @@ identifies the effect of moving the same cell between compartments.
 
 ## Hypothesis schematic
 
-![A30 proposed comparison and conditional extensions](schematics/hypothesis_v2.svg)
+![A30: reviewed matte qualitative illustration](schematics/A30_gpt_matte_v1.png)
 
-[Editable v2 SVG](schematics/hypothesis_v2.svg) supersedes the framing in
-[v1](schematics/hypothesis_v1.svg), which is preserved. Shapes/arrows are qualitative.
-Existing observations and conditional measurements are separated; no measured
-figure is recategorized as an explanatory schematic.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A30_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
+
+Donor is the unit for paired CSF/blood RNA contrasts in comparable putative CD4 states. Total and adjusted associations differ; conditioning on activation may remove biology as well as confounding. Shared clones do not prove residence or migration, and regulatory non-significance is not unchanged function.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
 
 ## Next literature check
 

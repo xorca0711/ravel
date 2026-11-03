@@ -41,11 +41,13 @@ A Fzd4-dependent output difference with independently measured vascular function
 
 ## Hypothesis schematic
 
-![A21: proposed comparison and strongest rival](schematics/hypothesis_v2.svg)
+![A21: reviewed matte qualitative illustration](schematics/A21_gpt_matte_v1.png)
 
-[Editable hypothesis schematic](schematics/hypothesis_v2.svg). Original explanatory artwork. Dashed arrows denote the labelled proposal or rival; shapes, colours and cell counts are qualitative, not observations. The three readout cards explain which uncertainty a measurement could resolve. Missing features/endpoints remain marked.
+GPT-generated matte illustration, 3 November 2026. Proposed relationships and cell counts are qualitative; the owning context defines the comparison and interpretation limits. [Editorial review](../../docs/audits/2026-11-02-rq-schematic-review/MATTE_PUBLICATION_2026-11-03.md) · [Selected edit prompt](schematics/A21_gpt_matte_v1.prompt.txt). Earlier SVG files are retained as history.
 
-A0–A23 artwork is preserved from the checked v2 atlas at source revision `073a69a758f25f988ecc18402477efa268c00927`. Its full hypothesis was compared with the current dossier. Later literature and scope context are supplied by this note.
+Independent animals would link qualified vascular function, division, survival and traced gCap/aerocyte output. Current Fzd4 RNA context does not establish the route. Parallel injury responses or cell loss may explain joint changes; tumour-vessel precedents do not prove adult repair coupling.
+
+Class-level glyphs and qualitative geometry are not molecular structures, organelle measurements or evidence of functional assembly. Neutral epithelial/stromal shapes do not assert subtype identity or organelle loss, and icon counts are illustrative. Read locally labelled solid premises/references separately from dashed proposed comparisons; no complete mechanism follows from their juxtaposition.
 
 ## Next literature check
 
