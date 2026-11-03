@@ -1,0 +1,59 @@
+cohort	assay	donor	region	protocol	width_log2	n_alveolar	n_adventitial	common_n_alveolar	common_n_adventitial	common_bins	original_support	conditional_support
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	0.5	169	319	144	152	7	True	True
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|ColAll	1.0	169	319	164	156	4	True	True
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	0.5	610	493	579	421	7	True	True
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45neg	1.0	610	493	608	484	5	True	True
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	69	66	51	37	5	True	True
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	69	66	69	65	4	True	True
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	0.5	416	274	409	266	8	True	True
+Madissoon	Madissoon cell	A26	Lower Left Lobe	EFO:0009899|TrypLibUndigest	1.0	416	274	414	273	5	True	True
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	0.5	0	2	0	0	0	False	False
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45neg_TrypLibUndigest	1.0	0	2	0	0	0	False	False
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	0.5	4	38	0	0	0	False	False
+Madissoon	Madissoon cell	A32	Lower Left Lobe	EFO:0009899|LibCD45pos	1.0	4	38	0	0	0	False	False
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	43	179	27	79	4	True	True
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	43	179	38	157	4	True	True
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	0	44	0	0	0	False	False
+Madissoon	Madissoon cell	A37	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	0	44	0	0	0	False	False
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	5	0	0	0	0	False	False
+Madissoon	Madissoon cell	A37	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	5	0	0	0	0	False	False
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	6	27	0	0	0	False	False
+Madissoon	Madissoon cell	A40	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	6	27	0	0	0	False	False
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	1	6	0	0	0	False	False
+Madissoon	Madissoon cell	A40	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	1	6	0	0	0	False	False
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	542	430	538	422	8	True	True
+Madissoon	Madissoon cell	A43	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	542	430	538	422	4	True	True
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	175	168	173	148	8	True	True
+Madissoon	Madissoon cell	A43	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	175	168	175	162	5	True	True
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	179	105	135	89	6	True	True
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	179	105	174	101	5	True	True
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	0.5	1	10	0	0	0	False	False
+Madissoon	Madissoon cell	A44	Lower Left Lobe	EFO:0030004|LibCD45pos	1.0	1	10	0	0	0	False	False
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	0.5	42	93	21	44	3	True	True
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45neg_TrypLibUndigest	1.0	42	93	38	81	4	True	True
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	0.5	0	23	0	0	0	False	False
+Madissoon	Madissoon cell	A44	Upper left lobe	EFO:0030004|LibCD45pos	1.0	0	23	0	0	0	False	False
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	0.5	2	1	0	0	0	False	False
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|LibAll	1.0	2	1	0	0	0	False	False
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	0.5	0	6	0	0	0	False	False
+Madissoon	Madissoon cell	A47	Lower Left Lobe	EFO:0030004|TrypLibUndigest	1.0	0	6	0	0	0	False	False
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	0.5	0	19	0	0	0	False	False
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|LibAll	1.0	0	19	0	0	0	False	False
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	0.5	1	23	0	0	0	False	False
+Madissoon	Madissoon cell	A47	Upper left lobe	EFO:0030004|TrypLibUndigest	1.0	1	23	0	0	0	False	False
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	0.5	245	75	206	69	5	True	True
+Madissoon	Madissoon nucleus	A26	Lower Left Lobe	EFO:0009922|nuclei	1.0	245	75	233	73	3	True	True
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	0.5	310	28	132	17	3	True	False
+Madissoon	Madissoon nucleus	A48	Upper left lobe	EFO:0009922|nuclei	1.0	310	28	293	27	3	True	True
+Travaglini	10x	P1	distal	10x	0.5	45	133	39	86	4	True	True
+Travaglini	10x	P1	distal	10x	1.0	45	133	44	122	3	True	True
+Travaglini	10x	P2	distal	10x	0.5	121	15	30	5	1	False	False
+Travaglini	10x	P2	distal	10x	1.0	121	15	86	13	2	False	False
+Travaglini	10x	P3	distal	10x	0.5	599	58	186	47	3	True	True
+Travaglini	10x	P3	distal	10x	1.0	599	58	402	48	2	True	True
+Travaglini	SS2	P1	distal	SS2	0.5	80	54	31	27	3	True	True
+Travaglini	SS2	P1	distal	SS2	1.0	80	54	67	42	3	True	True
+Travaglini	SS2	P2	distal	SS2	0.5	28	4	0	0	0	False	False
+Travaglini	SS2	P2	distal	SS2	1.0	28	4	0	0	0	False	False
+Travaglini	SS2	P3	distal	SS2	0.5	140	37	95	26	4	True	True
+Travaglini	SS2	P3	distal	SS2	1.0	140	37	120	30	3	True	True

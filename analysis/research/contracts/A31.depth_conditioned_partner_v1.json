@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A31.depth_conditioned_partner_v1",
+  "owner": "A31",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Do the eight fixed AMPA partners show GRIA1-associated same-cell RNA context after common-depth conditioning within original fibroblast strata?",
+  "decision": "Distinguish residual cellular association from marginal prevalence and depth, without asserting physical machinery or functional response.",
+  "strongest_rival": "Marginal detection, within-bin depth, correlated cell state, ambient RNA and annotation can yield residual RNA association without receptor assembly or GRIA1 dependence.",
+  "discriminator": "Observed joint detection minus the product of both marginal detection fractions within common depth bins; identical overlap weights across fibroblast labels, paired strata and equal-stratum donor/assay summaries.",
+  "evidence_refs": [
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/ANALYSIS_PLAN.md",
+    "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_CONDITIONING_SPEC_V1.md",
+    "RQ_Specified/A31_gria1_fibroblast_response/reports/PARTNER_CONTEXT_V1_RESULTS.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All original nine-gene RNA outcomes are exposed. Only source identity and depth columns were used to fix the new bins/support: 14 of 29 primary and 15 of 29 coarse strata qualify, versus 15 originally. New conditional joint endpoints were not computed before this freeze.",
+  "biological_unit": "Original source donors within assay; regions/protocols and cells nested within donors; repeated P1/P3 and A26 assay identities linked.",
+  "unit_status": "verified",
+  "nesting_and_overlap": "Same source cells and donors as the exposed A31 screen; repeated assays are not independent people. No pooled cross-assay inferential sample size.",
+  "population_and_selection": "All original 29 attempted paired fibroblast strata in the original distal/left-lobe regions. Both labels need at least 20 original and retained common-depth cells; each common bin needs at least five cells per label. No gene-positive support gate.",
+  "contrast": "Alveolar minus adventitial residual RNA co-detection under the same shared-bin overlap weights, then equal-stratum means within donor/assay; fixed coarse-bin sensitivity stays separate.",
+  "endpoint": "All eight partners: both marginal frequencies, observed and independent-marginal-expected joint fractions and their residuals, standardized within matched depth support.",
+  "methods": "Reuse immutable 14142-cell primitives. Primary floor(log2(library)/0.5), coarse sensitivity width 1. Common weights proportional to min(label cell counts). Save bins, retained fractions, all unsupported rows, standardized strata, donor context and descriptive leave-one-donor-out means. Verify old count primitives, frozen metadata support, joint bounds, weights, scalar residuals and synthetic fixed-margin expectation.",
+  "missingness_and_exclusions": "All 29 attempted strata and eight partners at both fixed widths remain output. Zero targets do not imply independence. Unsupported primary strata stay unestimated even if coarse sensitivity qualifies. No bin merging, threshold relaxation, imputation or new source.",
+  "multiplicity": "All eight partners and both prespecified widths retained without ranking, p-values or population confidence intervals; no permutation or additional endpoint.",
+  "precision_status": "not_applicable",
+  "precision_basis": "Descriptive same-source donor context; eligibility floors are not power calculations or biological effect margins. Bins only partially condition on depth.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Prevalence-dependent residual RNA association is not physical assembly, protein/localization, acute GRIA1-dependent function or biological independence. Shared-depth selection changes the target population. Linked donors and incompatible read/UMI protocols remain explicit.",
+  "stop_rule": "Stop on source/hash/domain/identity/roster/support/primitive-parity or arithmetic conflict; preserve failed evidence and never tune bins after outcomes.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/cell_partner_counts.tsv.gz",
+      "sha256": "495faee4f808830f37110b4922ffd80bb85cfe4ea80bafd6312aa768c2088249",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/stratum_gene.tsv",
+      "sha256": "6cef31b352a319a5512f91688a8d741bcbe10409ee2f9222adcf53c132fd5639",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/A31_partner_context_v1_20261103/paired_strata.tsv",
+      "sha256": "cffed02316a79649a89bf634c485fb8c4a0036aab249eb40e38da09b01d1dea0",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_CONDITIONING_MAP_V1.json",
+      "sha256": "61079d1419b8dd31a69cab72d66f8f79d0ceaea2538219391268c78c304edd48",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_CONDITIONING_SPEC_V1.md",
+      "sha256": "a1c2850b5a099f51c62e8e5a5ae3f06ba122c0cbad563df10f3aed2c0f5c2692",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_DEPTH_SUPPORT_V1.tsv",
+      "sha256": "95565a10100cfa821acede40ce6e3233f69365a7719f0ef6cc69a15c496dd40c",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_DEPTH_BINS_V1.tsv",
+      "sha256": "71badd2c5d2df35de0e0e72cd63a97a575e4fd664d68cba966f3c72c4ff1f43b",
+      "study_id": "A31_original_source_context",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A31_gria1_fibroblast_response/scripts/depth_conditioned_partner_v1.py",
+      "sha256": "34ee87b0148cf1873c39476683ccb4c349120a4b774060462dd43bc37e013a20"
+    },
+    {
+      "path": "docs/research_reviews/2026-11-03-tool-assisted-screening-review/prerequisites/A31_CONDITIONING_MAP_V1.json",
+      "sha256": "61079d1419b8dd31a69cab72d66f8f79d0ceaea2538219391268c78c304edd48"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A31_gria1_fibroblast_response/scripts/depth_conditioned_partner_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "original_primitive_parity.tsv",
+    "depth_support.tsv",
+    "bin_partner_primitives.tsv",
+    "stratum_standardized_context.tsv",
+    "donor_context.tsv",
+    "donor_influence.tsv",
+    "observed_expected_all_partners.png",
+    "donor_context_all_partners.png",
+    "verification.json"
+  ],
+  "amendment_of": "analysis/research/contracts/A31.partner_context_v1.json",
+  "amendment_reason": "Prospective conditional endpoint extension of the exposed original partner screen; original marginal result and immutable outputs are preserved. Coordinator design review approved before freeze."
+}

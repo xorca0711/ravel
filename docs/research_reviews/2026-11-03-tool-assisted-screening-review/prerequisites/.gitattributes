@@ -1,0 +1,5 @@
+# Preserve exact prospective dependency bytes on every Git checkout.
+/A31_CONDITIONING_SPEC_V1.md -text whitespace=cr-at-eol
+/A31_CONDITIONING_MAP_V1.json -text whitespace=cr-at-eol
+/A31_DEPTH_SUPPORT_V1.tsv -text whitespace=cr-at-eol
+/A31_DEPTH_BINS_V1.tsv -text whitespace=cr-at-eol

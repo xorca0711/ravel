@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-03",
+  "source": "analysis/research/runs/A31_partner_context_v1_20261103/cell_partner_counts.tsv.gz",
+  "source_sha256": "495faee4f808830f37110b4922ffd80bb85cfe4ea80bafd6312aa768c2088249",
+  "metadata_columns_only": [
+    "cohort",
+    "assay",
+    "donor",
+    "region",
+    "protocol",
+    "cell",
+    "cell_type",
+    "library",
+    "count_unit"
+  ],
+  "fixed_partners": [
+    "GRIA2",
+    "GRIA3",
+    "GRIA4",
+    "CNIH2",
+    "CNIH3",
+    "CACNG2",
+    "CACNG3",
+    "CACNG8"
+  ],
+  "keys": [
+    "cohort",
+    "assay",
+    "donor",
+    "region",
+    "protocol"
+  ],
+  "labels": [
+    "Alveolar Fibroblast",
+    "Adventitial Fibroblast"
+  ],
+  "primary_log2_width": 0.5,
+  "sensitivity_log2_width": 1.0,
+  "minimum_cells_per_label_bin": 5,
+  "minimum_cells_per_label_original_and_retained": 20,
+  "endpoint_not_computed": true
+}
