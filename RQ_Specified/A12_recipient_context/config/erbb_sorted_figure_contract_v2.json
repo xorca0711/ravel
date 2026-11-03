@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.erbb_sorted_figure_v2",
+  "owner": "A12",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "Does the source-defined fresh HTII-280-sorted GSM4522986 preparation provide measurable ERBB4 and ERBB2 RNA context?",
+  "decision": "Correct the v1 figure legend overlap and label barcode counts explicitly, preserving all numerical outputs and the original frozen image.",
+  "strongest_rival": "A legend obscuring measured bars or an ambiguous n label can cause visual misreading of a single-preparation RNA description.",
+  "discriminator": "Use the unchanged frozen four-row summary; position legend outside axes and explicitly label barcodes and single-library limitations.",
+  "evidence_refs": [
+    "RQ_Specified/A12_recipient_context/reports/ERBB_SORTED_SPEC_V1.md",
+    "RQ_Specified/A12_recipient_context/LITERATURE_CONTEXT.md",
+    "RQ_Specified/A12_recipient_context/reports/LIN_REFERENCE_READ_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All v1 results and the v1 image have been seen. This fully exposed presentation correction changes no scientific estimate, threshold, eligibility or interpretation.",
+  "biological_unit": "One source-defined deposited library/preparation GSM4522986; original donor identity unresolved.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Barcodes are nested within one preparation; deposited and operational-QC subsets overlap. Shared source with Kathiriya/Lin/Gomez is not independent replication. No donor pairing or biological replicate count is inferred.",
+  "population_and_selection": "Only source-labelled fresh HTII-280-sorted GSM4522986. All deposited barcodes and one fixed operational-QC subset: positive depth, 200-6000 detected features inclusive and <=10 percent mitochondrial UMI. No state assignment.",
+  "contrast": "Plot the same two genes and same two nested subsets from the completed v1 summary; no new scientific contrast or recalculation.",
+  "endpoint": "Exactly ERBB4 and ERBB2 RNA UMI totals; per-gene full-feature CPM, positive-barcode count/fraction, and both-target co-detection count/fraction. Full recovered RNA denominator is all source features.",
+  "methods": "Read frozen receptor_summary.csv; render a two-panel detection/CPM figure with outside legend and explicit barcode/unit labels. No raw matrix or biological recalculation.",
+  "missingness_and_exclusions": "Retain every deposited barcode, QC exclusion reasons, zero-depth and unknown-state/donor status. Undefined ratios are NA, never zero. Missing/ambiguous targets or parity failure stops. Eight mixed libraries are not analyzed; state comparisons for all nine remain unestimated.",
+  "multiplicity": "Two prespecified targets, two nested subsets, all four rows retained; no inferential tests or selected cutoff sensitivities.",
+  "precision_status": "not_applicable",
+  "precision_basis": "One preparation supplies exact descriptive recovered counts, not population precision. No independent donor replication, cell-based confidence interval, power calculation or effect margin.",
+  "validation_scope": "internal",
+  "design_identifiability": "supported",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Source-defined sorted origin is not certified pure AT2 state. RNA detection is not protein, receptor activity/assembly, NRG1 response, IL-1 specificity, lineage or repair. Sparse or zero counts are not biological absence.",
+  "stop_rule": "Stop on input hash mismatch, unexpected row count/order or rendering failure; retain original frozen image and unchanged numerical tables.",
+  "inputs": [
+    {
+      "path": "analysis/research/runs/A12_erbb_sorted_reference_v1_20261103/receptor_summary.csv",
+      "sha256": "691a63c827aa0bd30915450bb60a3110e3429f4e31a1ed3378c72dba0ed88527",
+      "study_id": "GSE150068_shared_source_v1_frozen_summary",
+      "unit_ids": [
+        "GSM4522986"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A12_recipient_context/scripts/plot_erbb_sorted_v2.py",
+      "sha256": "81f4056f91e10b3bca2fb6ca6395a2f1a68364027b64793e65e01b7eebc9eaa6"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "RQ_Specified/A12_recipient_context/scripts/plot_erbb_sorted_v2.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "erbb_sorted_rna_v2.png"
+  ],
+  "amendment_of": "RQ_Specified/A12_recipient_context/config/erbb_sorted_contract_v1.json",
+  "amendment_reason": "Presentation-only correction after visual review: legend overlapped detection bars. New figure supersedes the v1 rendering for display; no biological analysis is rerun."
+}
