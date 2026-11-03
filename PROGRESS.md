@@ -33,8 +33,11 @@ required archive/claim checks, and 170 distinct tests with one host-specific
 symlink skip. [Validation details](docs/research_reviews/2026-11-03-full-priority-screening/VALIDATION.md).
 Reviewed results are committed at `9cab415` and published in
 [PR #163](https://github.com/xorca0711/ravel/pull/163), stacked on still-open
-PR #162. No merge was performed. Remote CI is pending at publication;
-no scientific analysis step remains queued, only the documented measurement holds.
+PR #162. No merge was performed. Initial remote repository checks passed;
+governance identified nine CRLF-bound configuration checkout mismatches.
+Exact-path checkout rules restore the recorded bytes; contracts and outputs
+are unchanged. Corrected-head CI is pending. No scientific analysis step remains
+queued, only the documented measurement holds.
 No frozen output or governance rule has been changed.
 
 ## Remaining public-reference screening reviewed — 3 November 2026

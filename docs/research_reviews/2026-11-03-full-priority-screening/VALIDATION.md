@@ -15,3 +15,11 @@ Validated on `codex/full-priority-screening-20261103`, stacked on `f54ad29c092fc
 The first sandbox test/restore attempts failed on temporary-directory permissions/network access. The same commands succeeded in the authorized local runtime; no tests, outputs, contracts or governance rules were modified to obtain a pass.
 
 These checks establish integration/provenance consistency. Independent numerical and biological review is recorded in [the coordinator review](COORDINATOR_REVIEW.md); scientific limits and reopening conditions remain in [the coverage report](README.md) and [technical ledger](TECHNICAL_LEDGER.md). Execution completion does not constitute human scientific acceptance.
+
+## Cross-platform publication correction
+
+The first remote Repository checks workflow passed, but [Research governance run 41632601028](https://github.com/xorca0711/ravel/actions/runs/41632601028) failed on nine configuration hashes. The Windows execution bytes were CRLF; their unchanged Git text blobs were LF, and Linux materialized LF without an explicit checkout rule. Local validation therefore passed while the clean Linux checkout correctly rejected the mismatched bytes.
+
+Two directory-local `.gitattributes` files now specify `text eol=crlf` for exactly those nine filenames. They leave the root attributes file, contracts, receipts, scripts, recorded hashes, Git configuration blobs and scientific outputs unchanged. An independent check verified every affected input's original raw hash, exact equivalence to its LF Git blob after newline normalization, and all existing code/input bindings. A fresh `core.autocrlf=false` checkout reproduced all nine recorded execution files byte for byte. This is a packaging correction, not a reanalysis, retrospective hash change or validator exception.
+
+The technical chat independently reviewed the exact-byte correction before publication, including the original A12 pilot result/validation hashes and unchanged historical Git blob. No conflicting older raw binding was found. The rules are slash-anchored to direct-child filenames. They make Git checkouts at the corrected revision portable; they do not alter historical commits or raw Git/archive bytes. The succeeding remote workflow on the corrected head remains the authority for the clean Linux result.
