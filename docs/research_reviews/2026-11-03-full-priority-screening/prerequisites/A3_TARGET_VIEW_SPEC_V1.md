@@ -1,0 +1,9 @@
+# A3/DY1-P02 fixed-target source-average view v1
+
+3 November 2026; pending boundary review and contract/code freeze. [Feature map](A3_FEATURE_MAP_V1.json) confirms all six source ORF identifiers exactly once. The missing local raw cache was recovered from the recorded public GEO URL and matched its frozen SHA256 exactly; no outcome was inspected. Existing full-table results remain immutable.
+
+Keep source order Stat6,Egr2,Pparg,Rxra,Irf4,Arg1; label ARG1 as a separate effector. Use only WT_ctrl_0h, WT_ctrl_3h_IL4, WT_IL4_pre_0h, WT_IL4_pre_3h_IL4 and offsets1.0/0.5. Save all four supplied source averages, including both controls/baselines, without renormalization. For each offset: first=log2((WT_ctrl_3h_IL4+c)/(WT_ctrl_0h+c)); second=log2((WT_IL4_pre_3h_IL4+c)/(WT_IL4_pre_0h+c)); stage difference=second-first; baseline shift=log2((WT_IL4_pre_0h+c)/(WT_ctrl_0h+c)). Retain all-zero rows if present.
+
+Extract the twelve target/offset rows from the immutable source_average_contrasts.tsv.gz and independently verify them from the four supplied averages using scalar math.log2 ratios, tolerance1e-10. No recalculation of the full historical table. Output every row, both offsets, original/reconstructed differences and source hashes; display genes in fixed order without effect ranking. A compact table/figure distinguishes first, second, stage difference and baseline shift; no uncertainty bars, p-values or inferred biological n.
+
+These are author-labelled averaged CPM/Cufflinks values with normalization ambiguity; a log ratio of averages is not an average individual response. No KO contrasts, new targets, identity score, causal interaction, maintenance/memory, NAM/infection extrapolation or pooling with other sources. Stop on source/hash/ID/column conflict, invalid values or parity failure; retain failure evidence. The original six-target induction screen remains separate and already completed.
