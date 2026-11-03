@@ -1,6 +1,6 @@
 # A32 GSE234197: prospective resolution-context screen
 
-3 November 2026; main `445a0ca`. Metadata qualification in progress; no new gene outcome viewed. Original A32 functional comparison and Speth access hold remain.
+3 November 2026; main `445a0ca`. Metadata recovered at freeze `7132cc0`; raw barcode/HTO joins verified; no new gene outcome viewed. Original A32 functional comparison and Speth access hold remain.
 
 ## Purpose and decision
 
@@ -41,3 +41,52 @@ Stop for unsupported serialization, truncation, ambiguous join, noninteger count
 ## Ownership
 
 Technical chat owns new contracts/code/receipts and A32 pages. Coordinator owns PROGRESS and integration. No governance, canonical hypothesis, schematic, claim-grade or frozen-output change; execution does not establish scientific acceptance.
+
+
+## Metadata-qualified execution choices (before expression)
+
+Native-R recovery retained 45,311 cells, 41 source celltype labels and 36 distinct
+capture+HTO mice. All cell barcodes match their original RNA capture and all
+HTO/treatment fields agree. The raw source-count equality check remains a run
+prerequisite. Source `celltype` is used, not endothelial-refined `cellstate`.
+
+Exact primary myeloid labels: `AM1`, `AM2`, `AM3`, `Prolif. AM`, `IM`, `LCM`,
+`cMonocytes`, `ncMonocytes`, `Neutrophil-like Monocytes`, `Neutrophils`.
+Other primary labels: `Fibroblasts`, `AT1`, `AT2`. Secondary `AM_all` combines
+AM1/AM2/AM3/Prolif. AM only; it is explicitly composition-sensitive context,
+not evidence for a within-state change. Keep every original primary label.
+
+Eligibility is at least 10 retained cells per mouse/state, selected from metadata
+before outcomes as a practical minimum, not a power calculation. Save every
+mouse/state including zero cells, support counts and raw totals. RNA summaries
+below the floor remain unestimated. Group contrasts require all three PBS and
+all three BLM mice to meet that floor; no dropped-mouse or pooled rescue.
+
+Metadata already rules out epithelial BLM/PBS contrasts: AT1 has 22 cells total,
+AT2 130. Fibroblasts have 559 cells and complete support only in young D14.
+This source cannot answer three-compartment resolution coupling or matrix
+resolution trajectories. It can support bounded myeloid contrasts and a young
+D14 fibroblast comparison. Preserve that limit regardless of gene directions.
+
+Primary tables retain mouse-level log2(CPM+1). Eligible group differences use
+an unpaired equal-mouse mean(BLM) minus mean(PBS). Show 95% Welch-t pointwise
+descriptive intervals using the two sample variances and Satterthwaite degrees
+of freedom. With n=3 per arm normality is unverifiable and precision is fragile;
+intervals are not simultaneous or confirmatory. No p-values or equivalence calls.
+
+Show all fixed genes and eligible contrasts. Secondary AM_all is clearly labelled;
+no across-state averaging, stage pooling, direct age inference, adjusted
+correlation or significance-based nomination. Source/metadata parity and an
+independent original-matrix calculation precede result interpretation.
+
+Exact panel-source locators and contrary findings are recorded in the
+[3 November literature-context addition](../LITERATURE_CONTEXT.md#public-resolution-context-branch--3-november-2026).
+
+
+If both groups have zero observed variance, retain the observed mean difference
+but leave interval bounds and degrees of freedom NA with a degenerate-interval
+flag; zero observed dispersion does not establish precise absence of an effect.
+The focused mouse-value panels are fixed before outcomes: Arg1 in AM1, AM_all,
+cMonocytes, ncMonocytes and Neutrophils, plus all four fibroblast genes. These
+highlight the focal endpoint and metadata-supported populations; the full fixed
+panel remains in tables and the complete heatmap, including unsupported rows.
