@@ -36,7 +36,7 @@ Reviewed results are committed at `9cab415` and published in
 PR #162. No merge was performed. Initial remote repository checks passed;
 governance identified nine CRLF-bound configuration checkout mismatches.
 Exact-path checkout rules restore the recorded bytes; contracts and outputs
-are unchanged. Corrected-head CI is pending. No scientific analysis step remains
+are unchanged. Current remote CI status is tracked in PR #163. No scientific analysis step remains
 queued, only the documented measurement holds.
 No frozen output or governance rule has been changed.
 
