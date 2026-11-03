@@ -4,6 +4,13 @@
 
 **Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
 
+**Interpretation correction — 3 November 2026:** the earlier statement that a
+pool measurement alone separates the mechanisms is withdrawn. It addresses a
+necessary prediction of the proposed bulk-pool route, not unique causal
+attribution. The existing working hypothesis remains a proposal; no route is
+selected and no complete experimental design or host access is established.
+[Cut-or-fill decision](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a29).
+
 Reviewed 5 October 2026. This note connects published findings to the current
 proposed question. It is a bounded synthesis, not novelty clearance and not
 scientific acceptance. The searches actually executed, their hit counts and
@@ -46,7 +53,15 @@ PGAM restriction raises Th17 effector output by lowering the phosphoenolpyruvate
 
 ## What the comparison would teach
 
-Absolute PEP, 2PG and 3PG pools under PGAM inhibition, with a PEP-supplementation rescue arm, a matched growth-slowing arm that does not touch PGAM, and phospho-eIF2α/ATF4 protein. A falling pool with supplementation abolishing the IL-17 increase supports the metabolite route; a precisely bounded absence of a relevant pool decrease would argue against this bulk-pool route, without excluding compartmental or transient effects; matched growth slowing reproducing the gain supports demand relief; rising phospho-eIF2α despite falling target transcripts would show transcript modules mis-read the response. The pool measurement is decisive precisely because the published 15-minute label ratio cannot distinguish a steady pool from a falling one.
+Absolute pool abundance and isotope-label fraction answer different measurement
+questions. A relevant pool decrease would be consistent with the proposed
+bulk-pool route, but would not establish its causal contribution. A precisely
+bounded absence of that decrease would weigh against that route without
+excluding transient or compartment-specific changes. Stress activity, demand,
+off-target effects and RNA composition remain separate explanations requiring
+appropriate evidence. A supplementation response is not unique mechanistic
+proof. The current transcriptome and published label ratio do not discriminate
+all these possibilities; exact assays, comparisons and feasibility remain open.
 
 ## Hypothesis schematic
 
@@ -68,7 +83,7 @@ Expand to synonyms and contrary findings using the
 population, comparison, timing, unit and endpoint before making any stronger
 contribution claim.
 
-**Current unresolved specification:** Measure absolute PEP, 2PG and 3PG pools — not label ratios — under PGAM inhibition, with a PEP-supplementation rescue arm, a matched growth-slowing arm, and phospho-eIF2α/ATF4 protein. The pool measurement is the one quantity that separates the candidate mechanisms and the published labelling ratio cannot supply it.
+**Current unresolved specification:** Qualify evidence that can distinguish the proposed routes. Absolute pool abundance can test the proposed bulk-pool decrease; it cannot by itself select the mechanism or exclude stress, demand, off-target or compositional explanations. The published label ratio does not supply absolute abundance. The exact comparison and model access remain unresolved; the current RNA findings select no route.
 
 **Interpretation limit:** Module scores are RNA, not protein, secretion or
 function. Reanalysis of the source deposits shares one evidence lineage with

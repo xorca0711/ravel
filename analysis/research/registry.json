@@ -60,7 +60,8 @@
         "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
         "RQ_Specified/A3_macrophage_injury_history/README.md",
         "RQ_Specified/A3_macrophage_injury_history/PLAN.md",
-        "RQ_Specified/A3_macrophage_injury_history/LITERATURE_CONTEXT.md"
+        "RQ_Specified/A3_macrophage_injury_history/LITERATURE_CONTEXT.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md"
       ]
     },
     {
@@ -92,7 +93,8 @@
         "docs/research_dossiers/followup_2026-10-03/METADATA.md",
         "docs/research_dossiers/capabilities_2026-10-03/README.md",
         "docs/research_dossiers/source_mapping_closeout_2026-10-03/README.md",
-        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md"
+        "docs/portfolio_extensions/2026-10-07/g2_niche/AUDIT.md",
+        "RQ_Specified/A5_developmental_programme_reuse/reports/DESTINATION_SCREEN_V1_RESULTS.md"
       ]
     },
     {
@@ -871,7 +873,8 @@
         "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_RESULTS_2026-10-30.md",
         "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/FOLLOWUP_REVIEW_2026-10-30.md",
         "Research Article/gate2_DY1_damani_yokota_2026/ANALYSIS_INVENTORY_AND_SYNTHESIS_2026-10-30.md",
-        "Research Article/gate2_DY1_damani_yokota_2026/PRESENTATION_RENDER_NOTE_2026-10-30.md"
+        "Research Article/gate2_DY1_damani_yokota_2026/PRESENTATION_RENDER_NOTE_2026-10-30.md",
+        "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md"
       ]
     },
     {
@@ -1093,7 +1096,16 @@
     "Research Article/ungated_arozamena_2026_inflammatory_memory/config/rna_contract_v1.json",
     "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v1.json",
     "Research Article/ungated_arozamena_2026_inflammatory_memory/config/accessibility_contract_v2.json",
-    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/primary_render_contract_v1.json"
+    "Research Article/ungated_arozamena_2026_inflammatory_memory/config/primary_render_contract_v1.json",
+    "analysis/cut_fill_20261103/a5_source_v1.json",
+    "analysis/cut_fill_20261103/a17_recoverability_v1.json",
+    "analysis/cut_fill_20261103/a25_models_v1.json",
+    "analysis/cut_fill_20261103/a30_join_v1.json",
+    "analysis/cut_fill_20261103/a17_figure_v1.json",
+    "analysis/cut_fill_20261103/a25_figure_v1.json",
+    "analysis/cut_fill_20261103/a12_source_v1.json",
+    "RQ_Specified/A5_developmental_programme_reuse/config/destination_features_contract_v1.json",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/identity_targets_contract_v1.json"
   ],
   "receipts": [
     "analysis/research/runs/a2_source_qualification_v1/receipt.json",
@@ -1224,7 +1236,16 @@
     "analysis/research/runs/arz1_rna_description_v1/receipt.json",
     "analysis/research/runs/arz1_accessibility_description_v1/receipt.json",
     "analysis/research/runs/arz1_accessibility_description_v2/receipt.json",
-    "analysis/research/runs/arz1_accessibility_primary_render_v1/receipt.json"
+    "analysis/research/runs/arz1_accessibility_primary_render_v1/receipt.json",
+    "analysis/research/runs/cut_fill_a5_source_v1_20261103/receipt.json",
+    "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/receipt.json",
+    "analysis/research/runs/cut_fill_a25_models_v1_20261103/receipt.json",
+    "analysis/research/runs/cut_fill_a30_join_v1_20261103/receipt.json",
+    "analysis/research/runs/cut_fill_a17_figure_v1_20261103/receipt.json",
+    "analysis/research/runs/cut_fill_a25_figure_v1_20261103/receipt.json",
+    "analysis/research/runs/cut_fill_a12_source_v1_20261103/receipt.json",
+    "analysis/research/runs/PS1_A5_destination_features_v1_20261103/receipt.json",
+    "analysis/research/runs/PS3_DY1_identity_targets_v1_20261103/receipt.json"
   ],
   "infrastructure_paths": [
     "analysis/lib/research_governance.py",

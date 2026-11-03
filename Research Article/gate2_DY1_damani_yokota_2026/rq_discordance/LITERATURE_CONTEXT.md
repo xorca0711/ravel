@@ -176,3 +176,7 @@ for persistence, actual cessation/temporal evidence. F3's controlled accession
 and inaccessible analysis repository still prevent numerical source qualification.
 ARG1 transcript association, enzyme output and causal mediation stay separate.
 No canonical hypothesis, target priority or novelty claim is added.
+
+## Literature-informed screening scope — 3 November 2026
+
+The owner-authorized [DY1-P02 fixed identity-target specification](IDENTITY_TARGETS_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It reuses complete frozen non-infectious reference estimates for six literature-nominated targets, retaining every target and mapped region. This does not reopen original NAM/pathogen analyses or establish a maintenance mechanism. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](IDENTITY_TARGETS_V1_RESULTS.md). The complete fixed-target screen finds co-increased Irf4/Pparg RNA in WT IL4 and heterogeneous mapped-region point differences. This neither reproduces nor refutes the distinct alveolar IL13 mechanism.

@@ -3,6 +3,242 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Reviewed screening published in PR #161 — 3 November 2026
+
+The [coordinator review](docs/research_reviews/2026-11-03-primary-candidate-literature/COORDINATOR_REVIEW.md)
+accepts the two new screening deposits for integration at their descriptive
+scope, preserving all four specific limits. Independent table arithmetic, both
+figures, source-hold evidence and the exact-file portability rule were checked.
+The technical validation suite is reused; no numerical rerun was needed.
+Main was refetched after handoff and remains `115f3c5`. GitHub identity was
+verified as `xorca0711`. The owner authorized commit, push and an overall PR;
+the reviewed integration is committed as `a11267a` and pushed on
+`codex/rq-evidence-trajectory-audit-20261103`.
+[PR #161](https://github.com/xorca0711/ravel/pull/161) includes the earlier
+trajectory/cut-or-fill work, article hygiene and portfolio methods panel.
+Next: PR review and the exact scientific inputs recorded in the six-job ledger.
+No merge, new scientific acceptance or automatic follow-up was performed.
+
+The first published CI found an older full-file `.gitattributes` hash dependency
+and one ignored A25 compressed output missing from Git. The original attribute
+bytes were restored and the receipt-matching output was added explicitly;
+[correction record](docs/research_reviews/2026-11-03-primary-candidate-literature/COORDINATOR_REVIEW.md#ci-packaging-correction).
+Numerical outputs and scientific validation rules were not changed.
+
+## Literature-informed biological screening — 3 November 2026
+
+Two actual numerical comparisons completed under freeze `94f6efb`:
+[A5 named features](RQ_Specified/A5_developmental_programme_reuse/reports/DESTINATION_SCREEN_V1_RESULTS.md)
+show mixed transitional identity RNA, with Klf4/5 above activated AT2 but no
+single destination assignment (24 primary mice; ten common reference mice).
+Basal support remains below floor; this panel does not explain the fixed Guo result.
+[DY1 six-target reference](Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md)
+shows co-increased Irf4/Pparg RNA under WT IL4 and heterogeneous mapped-region
+point differences; no NAM mechanism or replication/refutation of alveolar IL13.
+
+The [six-job ledger](docs/research_reviews/2026-11-03-primary-candidate-literature/EXECUTION_LEDGER.md)
+records receipts, adverse results and exact holds. Lin source reproduction lacks
+recovered preparation-level values/map; Speth's cited GEO series is currently
+private until 1 May 2027 despite its public-data statement. A31 and Wg-P06 retain
+their specific missing functional/linkage measurements; old extractions were not
+rerun. Relevant primary texts/supplements and source hashes are recorded.
+
+Both receipts and independent arithmetic checks pass; the coordinator reviewed
+both reports and figures. Refetched main stayed `115f3c5`. Final validation passed:
+15,199 repository checks, research gate, 170 unit tests (one skipped), compilation
+and all required evidence checks. The ledger records exact immutable empty-field/
+log-whitespace exceptions and the one-file line-ending preservation rule.
+No canonical hypothesis, frozen prior evidence, governance or acceptance changed.
+Only the narrow pre-execution commit was made; all results remain for review.
+The coordinator owns overall commit, push and PR. Next: review/integrate the
+returned reports and exact holds; no execution job or rescue analysis remains.
+
+## Recent literature for biological target screening — 3 November 2026
+
+The [reading map](docs/research_reviews/2026-11-03-primary-candidate-literature/README.md)
+connects eight newly located primary papers to A3/DY1-P02, A5, A12 and A32,
+and distinguishes the already-reviewed direct context for A31 and Wg-P06.
+The main additions are IRF4-associated loss of macrophage PPARgamma identity,
+epithelial maturation versus airway diversion, ERBB4-dependent identity stability,
+and the separation of ARG1-positive repair states from ARG1 catalytic effects.
+Queries, publication versions, exact available locators, the Lin Fig. 3m
+correction and partial-access limits are recorded. No numerical analysis or
+canonical hypothesis/priority change was made. Next: complete figure/methods
+reads for an adopted candidate, then synchronize its context/dossier/README
+before specifying a new analysis. Fetched main remained `115f3c5`; no push.
+Repository validation passed (15,115 checks), the research gate against
+`origin/main` passed, and all eight local links in the new review resolve.
+Biological analyses were not rerun for this documentation-only update.
+
+## Reviewed results committed; article/RQ screening — 3 November 2026
+
+Owner-requested result commit: `fe0316c`, following the three scoped freeze
+commits. All reviewed audit/result/run deposits and owning-page updates are now
+committed. Refetched integration base remained `115f3c5`; nothing was pushed.
+Staging exposed cosmetic trailing spaces in two immutable Matplotlib SVGs;
+their original hashes were preserved and the exact whitespace exception is
+recorded in the technical ledger. Other staged files passed whitespace checks.
+
+The [new assessment](docs/audits/2026-11-03-article-rq-screening/README.md)
+covers all 33 RQ homes and 20 article directories (18 study packages, one shared
+module and one archive), using current ledgers before historical plans. Useful
+next qualifications are A30 archival identity reconstruction, A26/A27 receptor
+recovery, A6 fixed donor/state support and the acquired Nb1 external source.
+All six raw A30 inputs exist in the main checkout cache, but hash/runtime and
+membership reconstruction are not yet qualified. No old analysis was replayed.
+
+Three primary GEO text records were recovered: GSE275967 and GSE155005 do not
+supply the existing independent age/paired-organ comparison; GSE129605 confirms
+the prior day-11 design without resolving its animal/state map. GSE165088,
+GSE292440 and GSE300399 refreshes timed out after the sandbox DNS failure was
+addressed. Source absence is not inferred. Exact queries, hashes, coverage and
+per-RQ next conditions are in the starting-point assessment.
+
+Hygiene corrects Yadav's stale unrun status in both roadmap views; adds missing
+article-gallery navigation; links A25's completed comparison ahead of the Nb5
+unrun checkpoint, P09/A31 and Wg-P06's later work; and makes the A17/A25 measured
+figures discoverable from the RQ index. At the owner's subsequent request,
+the root README now excludes the Weft pilot description and shows six existing
+reviewed method examples in a two-column portfolio panel: UMAP, patient-paired
+expression, CUT&Tag, enrichment, spatial RNA and paired RNA/accessibility.
+LinkedIn media were inspected only as a style reference; current repository
+evidence determined the selection. The [curation record](docs/audits/2026-11-03-article-rq-screening/PORTFOLIO_FIGURE_SELECTION.md)
+links every unchanged asset and its current caption. The structure document
+records this bounded showcase; full galleries remain with their analyses.
+Existing frozen paths, canonical IDs,
+hypotheses, schematics, claims and research governance are preserved.
+No new numerical analysis, chat dispatch, account setting, message, PR or merge.
+Next technical work is qualification, followed only by a newly frozen eligible
+analysis; spent same-input rescue branches remain closed. Documentation
+validation passed **15,106 repository checks**, the research gate and whitespace
+checks. A local GitHub-style layout preview showed all six images loaded and
+the complete two-column panel; this was a local rendering, not a GitHub-page
+verification. The first preview attempt was sandbox-blocked; a loopback-only
+server exposing just the preview and six images resolved it. Refetched
+`origin/main` remained `115f3c5`. The numerical test/receipt evidence from the
+reviewed result commit was reused. No biological analyses were rerun for these
+edits. The scoped documentation/portfolio commit contains these updates;
+nothing was pushed. No required analyses remain in this curation task.
+
+## Coordinator review of technical results — 3 November 2026
+
+The separate technical chat is complete and idle. The review chat has now read
+all five result reports and checked the key implementation/output boundaries;
+its [interpretation review](docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md#coordinator-interpretation-review--3-november-2026)
+distinguishes A25's mixed empirical prediction result, A17's conditional synthetic
+identifiability result and the three completed source/join qualifications whose
+downstream analyses remain held. A25 does not establish a distinct middle-age
+state; A17 does not establish actual detection bias or empirical model equivalence.
+Technical validation was reused without rerunning biological analyses. No new
+claim grade, human acceptance, push, PR or merge; enabling inputs remain those
+in the ledger. Next work requires those inputs or an independently justified
+prospective amendment, not rescue fitting on the unchanged evidence.
+
+## Cut-or-fill technical execution — 3 November 2026
+
+All five bounded packages now have executed research-runner receipts in the
+[technical ledger](docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).
+A25 completed a male-cortex whole-mouse-held-out comparison: gain over endpoint
+mixture in both middle mice, but mixed gain over flexible continuous age; no
+distinct-state claim. A17 completed a new probability/observation qualification:
+unknown detection admits equivalent observed laws, so empirical mechanism
+selection remains held pending justified ascertainment and model domains.
+A5 refreshed primary sources successfully but still lacks the mouse/state map;
+A12's new candidate has only five paired nonimmune-inclusive capture opportunities
+and an unrecovered author-row map; A30's saved states have no barcode join.
+Exact holds, source coverage, code/input hashes, results and adverse outcomes are
+linked in the ledger. A17/A25 figures are embedded in their owning RQ homes.
+
+Freeze commits are `bad95f6`, `5a792bc` (figures) and `750f7bb` (A12 source).
+Prior dirty audit work, old pipelines and source evidence were preserved; no push,
+PR, merge, external message or account setting change. Scientific acceptance is
+unassessed. Validation passed: 15,008 repository checks, research gate, 167 unit tests
+(2 skipped), all seven receipts and whitespace/preservation checks.
+Next actions are the exact package-specific enabling inputs above, not another
+rescue fit on unchanged evidence. No execution job remains running.
+
+## Technical execution chat launched — 3 November 2026
+
+At the owner's request, a separate local technical chat was created:
+`01a19fa0-97c0-7011-826c-320f94a73809`. The app confirmed an active turn;
+creation is not evidence of an analysis result. Its assignment is to execute
+the five conditional packages in the
+[cut-or-fill plan](docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md):
+A5 source qualification, A17 recoverability, A25 held-out model comparison,
+A12 independent fixed-procedure replication and A30 measurement qualification.
+Each must finish with verified evidence or a specific evidenced limitation.
+
+The technical chat was directed to use this existing review checkout on
+`codex/rq-evidence-trajectory-audit-20261103`, preserve the 38 modified Markdown
+files and five untracked audit files, and freeze only its new analysis assets
+before numerical runs. The review chat retains result review; no push, PR or
+merge was requested. The technical execution ledger will be
+`docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md`.
+No numerical result is asserted at launch. Next: verify input qualification,
+then inspect new contracts, receipts, outputs and exact hold reasons.
+
+## Cut-or-fill follow-through — 3 November 2026
+
+The owner requested an action structure for the trajectory audit's concerns.
+The [cut-or-fill plan](docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md)
+now covers all 33 RQs with the unsupported affirmative claim, smallest useful
+fill, stop rule and reopening evidence. All 33 current READMEs link their row
+and display the claim boundary without changing the organizing hypothesis or
+figure. Existing scientific dossiers already carry the key A11/A25/A30
+corrections; no duplicate correction report or new RQ folder was created.
+
+Five conditional packages cover A5 source-qualified fixed-component transfer,
+A17 recoverability before fitting, A25 held-out model comparison, A12 independent
+fixed-procedure epithelial replication and A30 measurement qualification. None
+is a frozen or executed numerical contract. Repeated rescue fitting/scoring on
+the spent A0/A10/A11/A13/A22/A23 inputs is excluded from this follow-through;
+their questions and negative evidence remain. Functional/linkage questions need
+their named measurements, not substitute RNA scores. The direct GEO refresh
+failed to recover an A5 map; no new source eligibility is claimed.
+
+Implementation identified a remaining current A29 overclaim: the pool
+measurement was described as the single mechanism discriminator, with an
+assumed small addition to shared cultures. Its README, literature context and
+dossier now withdraw that interpretation and unqualified readiness language.
+The registered working hypothesis, source results and illustration are unchanged.
+
+Existing local audit work is preserved on
+`codex/rq-evidence-trajectory-audit-20261103`; refreshed main remains `115f3c5`.
+The first documentation check found 33 unsupported inline table anchors; they
+were replaced by standard question headings without changing the validator.
+Validation passed after correction: all 33 decisions and README notes, original
+text preservation with the documented A29 exception, 1,160 local links, 14,889
+repository checks, the research gate against unchanged refreshed `115f3c5`, and
+whitespace checks. Registry bytes and the A29 working hypothesis are unchanged.
+Exact next actions and unresolved source/model/measurement choices are in the
+plan; no numerical run, external setting change, commit or PR was made.
+
+## RQ evidence and hypothesis trajectories — 3 November 2026
+
+The [all-33 audit](docs/audits/2026-11-03-rq-evidence-trajectory/README.md)
+compares first registered wording with current dossiers, corrections, numerical
+reports and recent article connections. Its editorial assessment identifies
+8 questions with bounded empirical narrowing, 11 whose main progress is a
+useful limit/negative diagnostic, and 14 with the decisive current comparison
+untested. These categories are not claim grades or human acceptance decisions.
+A5 and A31 provide the clearest component/candidate narrowing; A11's capacity
+control, the corrected Compass sign and A30's support restrictions limit earlier
+affirmative interpretations. Historical framing drift is documented without
+attributing every stalled question to AI.
+
+All hypotheses, registry records, figures, source artifacts and frozen analyses
+remain unchanged. No biological run was performed. The audit records exact
+per-question next decisions and data limits; no new source access, laboratory
+capability or external setting was established. Work is on
+`codex/rq-evidence-trajectory-audit-20261103`, based on merged PR #160 (`115f3c5`).
+Validation passed: 33-question/origin coverage, 373 local links, 14,796 repository
+checks, the research gate against freshly fetched unchanged `115f3c5`, and
+whitespace checks. The [validation record](docs/audits/2026-11-03-rq-evidence-trajectory/VALIDATION.md)
+distinguishes saved-evidence inspection from numerical reproduction. The review
+is saved locally, uncommitted; no PR or external settings changed. Exact next
+steps are the missing discriminator or source qualification in each audit entry;
+no new numerical analysis or automatic portfolio retirement is proposed.
+
 ## Uniform RQ homes and reading order — 3 November 2026
 
 All 33 canonical RQs now have one home under [RQ_Specified](RQ_Specified/README.md).

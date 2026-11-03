@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.cut_fill_a5_source_v1_20261103",
+  "owner": "A5",
+  "status": "frozen",
+  "analysis_type": "metadata",
+  "question": "Does the refreshed candidate source expose exact library, mouse and author-state maps?",
+  "decision": "Admit expression replication only if source identities and state mapping qualify.",
+  "strongest_rival": "Library identifiers could be mistaken for mice or author labels inferred from expression.",
+  "discriminator": "Compare exact current primary inventories with the saved crosswalk without expression scoring.",
+  "evidence_refs": [
+    "docs/audits/2026-11-03-rq-evidence-trajectory/EXECUTION_SPEC_V1.md",
+    "docs/research_dossiers/A5.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "Existing source outcomes, scores, clusters and coverage are exposed. This session read saved evidence and metadata before freeze. Newly specified model/qualification outputs have not been run; no blind confirmation is claimed.",
+  "biological_unit": "Biological mouse unknown; library and source-file metadata only",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "Existing source data are reused; cells/clones/libraries and numerical replicates are not independent mice, patients or donors.",
+  "population_and_selection": "GSE303646, author code, Zenodo and public browser metadata; no matrix scoring.",
+  "contrast": "Current metadata versus prior pinned source inventory.",
+  "endpoint": "Source identity and availability of an executable barcode/library/mouse/state join.",
+  "methods": "Deterministic inventory and source-hash checks; exact scope and stop in execution specification.",
+  "missingness_and_exclusions": "Apply the exact specification. Retain all failed gates and adverse results; do not infer missing identities, zero cells or unmeasured states.",
+  "multiplicity": "One bounded package with all declared comparisons retained; exploratory descriptive outputs, no significance or equivalence claims.",
+  "precision_status": "unknown",
+  "precision_basis": "No biological effect margin or confirmatory precision is supplied. Numerical checks and finite-sample coverage do not supply biological power.",
+  "validation_scope": "none",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Only the measured qualification or conditional predictive endpoint is supported. No biological mechanism, lineage, functional state, human acceptance or independent replication is established.",
+  "stop_rule": "Stop on hash, identity, probability or numerical verification failure. Apply package-specific observation/source holds in EXECUTION_SPEC_V1; no outcome-driven retuning.",
+  "inputs": [
+    {
+      "path": "raw_data/cut_fill_20261103/a5_geo.txt",
+      "sha256": "0fe373fc56a2ec6032293d718b183c97f9a684eb635718369b73b204673fb527",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_filelist.txt",
+      "sha256": "caaa87d12c4497325df225fb8d37cb2db7e53d114639f8cf0a890ca4bc6fe57e",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_tree.txt",
+      "sha256": "b6eae1c98622f6f709c50782f3c05fb19e0e74d21c123a955c0ac2ca9a44d687",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_zenodo.txt",
+      "sha256": "15328eccf55248b17ba3ad34d0f02c3ce48708532e34b19f3dab08540f7d926d",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_shiny.txt",
+      "sha256": "a3a60b60d44350f02dfd1550db087dca5157cee674679e5d7716ee058b11753d",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a5_biorxiv.txt",
+      "sha256": "dd3fe763410f3a08c230a71d0613dbe44806bd6d89fb19077a35f5a59ea2d0d2",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/acquisition_a5_v1.json",
+      "sha256": "4c16a7bb3c1472207c18038993a480a7b24764a563cf9c2f80302e6bdf60ec22",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/replication_gate_20260928/GSE303646_library_crosswalk.tsv",
+      "sha256": "15bdfb5ddaa785a5dbbbf7e2075d4573ee4b574f57706c9fdaf6b28e7808952c",
+      "study_id": "A5_existing_source",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a5_source_v1.py",
+      "sha256": "f5c436bc8c75685f36e8c108d212ac309cba5a894d5bc181a062a517c351ac0d"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "analysis/cut_fill_20261103/a5_source_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "qualification.json",
+    "source_acquisition.json",
+    "verification.json"
+  ],
+  "amendment_of": "analysis/research/contracts/A5.biosample_qualification_metadata_v3.json",
+  "amendment_reason": "Bounded owner-authorized cut-or-fill follow-through; previous results and all exposure retained; exact choices specified prospectively for this new execution."
+}

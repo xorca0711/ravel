@@ -25,11 +25,35 @@ and preservation of historical evidence.
 |---|---|
 | Questions, biological rationale and proposed comparisons | [All 33 question homes](RQ_Specified/README.md) · [Scientific dossiers](docs/research_dossiers/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
 | Source papers, reading status and article analyses | [Research article roadmap](Research%20Article/README.md) |
-| Reviewed materials from the ongoing Weft trial | [Weft intake](weft_intake/README.md) |
 | Datasets, biological units and eligibility | [Dataset inventory](docs/DATASETS.md) |
 | Current results and remaining work | [Project state](PROGRESS.md) · [Remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
 | Evidence grades, corrections and negative results | [Claim summary](docs/CLAIM_SUMMARY.md) · [Full register](CLAIMS.md) · [Negative results](docs/NEGATIVE_RESULTS.md) |
 | Reproduction and research development | [Reproducibility](REPRODUCIBILITY.md) · [Research governance](docs/RESEARCH_GOVERNANCE.md) · [Documentation index](docs/README.md) |
+
+## Bioinformatics methods in practice
+
+Selected results from completed repository analyses. The panel highlights
+single-cell, epigenomic, spatial and statistical workflows; each preview opens
+the full-resolution figure, with methods and source values linked below.
+
+| Single-cell RNA · UMAP | Patient-paired expression · PCA and heatmaps |
+|---|---|
+| [![Stromal UMAP with cell identity, donor, anatomy and C3 expression](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/figures/extended_v2/07_stromal_umap.png)](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/figures/extended_v2/07_stromal_umap.png) | [![Patient-level epithelial pseudobulk PCA, paired contrasts and programme heatmap](analysis/figures/rq/rq_a11_epithelial_programs.png)](analysis/figures/rq/rq_a11_epithelial_programs.png) |
+| Variable-gene selection, PCA and neighborhood embedding of 5,033 stromal cells, with donor and anatomical structure visible. **Transcriptional neighborhoods**, without lineage inference. [Methods and data](Research%20Article/gate2_N3_travaglini_nabhan_lung_atlas_2020/FIGURES.md#figure-7-new-stromal-umap-with-technical-context). | Seventy patient–histology pseudobulks and 23 matched normal/LUAD pairs. PCA, within-patient contrasts and fixed-programme heatmaps retain the **patient as the comparison unit**; histology does not establish malignant-cell identity. [Methods and data](analysis/figures/rq/README.md#a11). |
+
+| CUT&Tag · Histone signal tracks | Gene-set enrichment · Dot heatmaps |
+|---|---|
+| [![Three loci with histone-mark and H3-control tracks across induced alveolar states](RQ_Specified/A1_transitional_epithelial_state_distinction/figures/second_batch_verified/a1_histone_loci.png)](RQ_Specified/A1_transitional_epithelial_state_distinction/figures/second_batch_verified/a1_histone_loci.png) | [![Mouse and human Hallmark enrichment with intergene-correlation sensitivity](Research%20Article/gate2_N2_nabhan_2026/figures/followup_v1/Nb3_F08_hallmark_context.png)](Research%20Article/gate2_N2_nabhan_2026/figures/followup_v1/Nb3_F08_hallmark_context.png) |
+| Native-assembly locus profiles retain H3 controls and both preparations per state. **One iPSC line**; CPM-scaled signal is descriptive and does not measure absolute occupancy. Linked results include promoter-window and alternate-TSS sensitivity. [Methods and data](RQ_Specified/A1_transitional_epithelial_state_distinction/figures/README.md#direct-histone-profiles-and-controls). | Rank-based testing and multiple-testing correction compare programmes across targets and species. **Intergene-correlation sensitivity** is displayed alongside enrichment; these exploratory RNA results do not measure pathway activity. [Methods and data](Research%20Article/gate2_N2_nabhan_2026/FIGURES.md#figure-8-hallmark-context-and-correlation-sensitivity). |
+
+| Spatial transcriptomics · Tissue maps | Chromatin accessibility · Paired RNA comparison |
+|---|---|
+| [![Whole-section spatial RNA maps for four genes in paired lung-lesion sections](Research%20Article/gate2_C3_yu_lee_choi_min_2026/figures/human_spatial_measured_maps.png)](Research%20Article/gate2_C3_yu_lee_choi_min_2026/figures/human_spatial_measured_maps.png) | [![Paired RNA and TSS-window fragment-record contrasts at four source-selected loci](analysis/research/runs/arz1_accessibility_primary_render_v1/figure_01_paired_primary_corrected.png)](analysis/research/runs/arz1_accessibility_primary_render_v1/figure_01_paired_primary_corrected.png) |
+| Barcode–coordinate checks, spot QC and shared per-gene scales locate RNA in tissue. This illustration shows **two sections from one patient**; mixed-cell spots do not identify direct cell contact. [Methods and data](Research%20Article/gate2_C3_yu_lee_choi_min_2026/trials/u5_spatial_context/REPORT.md). | Reference-coordinate reconciliation, barcode pairing, TSS-window fragment counting and modality-specific depth normalization. **Finite libraries with a shared control**; accessibility-related signal does not establish promoter activity or regulatory memory. [Methods and data](Research%20Article/ungated_arozamena_2026_inflammatory_memory/ACCESSIBILITY_RESULTS.md). |
+
+These are measured-data views, with source reuse and interpretation limits
+retained. Complete galleries and current research status remain in the
+[article](Research%20Article/README.md) and [question](RQ_Specified/README.md) indexes.
 
 ## How it works
 
@@ -68,27 +92,6 @@ question register owns stable A-series identities, while question workspaces and
 The research registry locates prospective contracts, execution receipts and
 versioned outputs. Registration or successful execution does not imply scientific
 acceptance; dated reports preserve earlier results and corrections.
-
-## Weft trial integration
-
-[Weft](https://github.com/xorca0711/weft) is the separate automation project for
-literature discovery, screening and bounded analysis coordination. Its connection
-to Ravel is currently a **trial-pilot integration**. The [Weft intake](weft_intake/README.md)
-collects reviewed source and dataset handoffs, scientific summaries and evidence
-inventories. Ravel's research
-mission, canonical questions and existing evidence hierarchy remain unchanged.
-
-```mermaid
-flowchart LR
-    W["Weft: discovery and review"] --> I["Ravel / weft_intake: reviewed trial package"]
-    I -. "Separate scientific review and authorization" .-> R["Ravel article analyses and RQs"]
-```
-
-Each intake package records its own review, evidence limits and next disposition.
-Arrival in the intake does not imply scientific acceptance or permission to run
-an analysis.
-See the [frontend/backend workflow](https://github.com/xorca0711/weft/blob/main/docs/WORKFLOW_AND_STORAGE.md)
-for interfaces, compute, storage and current qualification limits.
 
 ## Datasets
 

@@ -95,6 +95,16 @@ Its Start here section links to repository-wide indexes, not individual papers
 or paper-specific results, branches or derived RQs. Those links belong in the
 research-article and question indexes. Gallery discovery routes through the owning article/question indexes; the root
 README does not maintain selected paper galleries or result summaries.
+
+**Owner-requested methods showcase — 3 November 2026:** the root README also
+embeds six existing measured figures in a two-column portfolio panel covering
+UMAP, patient-paired expression, CUT&Tag, enrichment, spatial RNA and paired
+RNA/accessibility. This is a bounded methods presentation, with captions and
+links to the owning reports; study inventories,
+complete galleries and RQ-specific status remain in their collection indexes.
+No figures are copied or reclassified as qualitative schematics. The Weft pilot
+description is excluded from the root README at the owner's request; its
+intake records remain preserved.
 PI fit, contact preferences and personal outreach planning stay in the owner's
 Notion workspace; public documents contain scientific questions and portfolio text.
 

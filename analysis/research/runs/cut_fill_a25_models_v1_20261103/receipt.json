@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A25.cut_fill_a25_models_v1_20261103",
+  "owner": "A25",
+  "contract": "analysis/cut_fill_20261103/a25_models_v1.json",
+  "contract_sha256": "697026c3c131124f4dc495e57539d54aeb68678c3021a1683b87151cb474f939",
+  "git_commit": "bad95f67ad0c72c006035bb68b3e0750091d682d",
+  "started_at": "2026-11-03T04:29:34.031606+00:00",
+  "argv": [
+    "python",
+    "analysis/cut_fill_20261103/a25_models_v1.py",
+    "--output",
+    "analysis/research/runs/cut_fill_a25_models_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/tabula_muris_senis_2020/completion_v1/official_brain.h5ad",
+      "sha256": "73c1b7c4c4045db26df384fd226c6bd248cfbb822d540d9c968bd8ce6f051f66",
+      "study_id": "A25_existing_source",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/nb5_completion_metadata_v2/case_brain_join.tsv",
+      "sha256": "825bcff756c6f334b548ad709f3693970f6944fae0a225e3edcb9cc2b33f5f2d",
+      "study_id": "A25_existing_source",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a25_models_v1.py",
+      "sha256": "7beac527ac3f6e3d643fc6213acc5c31d3037726851ac780ad7e258862f81d04"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/cut_fill_a25_models_v1_20261103/cell_units.csv.gz",
+      "sha256": "a2bcfd340fef0b5b2afd226511058aca82c3e5d893455c25f1e2561fdc1b6a90"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a25_models_v1_20261103/heldout_losses.csv",
+      "sha256": "60acfa65f987fe73fce157e344c150ec294f8e992ad2d6dc185454d6ee28cdde"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a25_models_v1_20261103/fold_models.json",
+      "sha256": "9d4d339b7d6500d560164625d11cbfc22c0b8c1e7c3303494c9f3c92f84f2202"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a25_models_v1_20261103/summary.json",
+      "sha256": "de0e3b6302373ae3638696427b23c470d26c170051c67b201d788730e42a9ac3"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a25_models_v1_20261103/verification.json",
+      "sha256": "8b51d00adcb242c6596454eb6a35c02759fb92b86cf4e38ac4b3524eeea15427"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T04:29:57.922718+00:00"
+}

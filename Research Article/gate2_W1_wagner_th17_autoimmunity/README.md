@@ -1,5 +1,12 @@
 # Wagner 2021: Th17 metabolism and autoimmunity
 
+**Later Wg-P06 context — 3 November 2026:** the [Yadav source/extension package](../gate2_W3_yadav_2025/README.md)
+and [three-plan follow-up workspace](../../RQ_Specified/Yadav_followups_20261031/README.md)
+now carry completed bounded source work and precise remaining substrate/routing
+holds. Earlier P06 specification-only statements are historical. This does not
+complete Wg R2/R4/R5 or make the separately registered [A32](../../RQ_Specified/A32_myeloid_arg1_matrix_epithelial_recovery/README.md)
+epithelial question a Wagner reproduction.
+
 **4 October 2026: six provisional derivation cards drafted and checked against
 the recent merged framing standards. P03/P06 are biological hypotheses; P04 is a
 model-discrimination companion with a directional gap; P05 is a predictive

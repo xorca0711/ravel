@@ -23,6 +23,13 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Current evidence and interpretation
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Late macrophage RNA demonstrates intrinsic memory, flux or the nominated axis.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a3).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 **Source connection, 2 November 2026:** ungated [DY1-P02](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md) provides assay/selection and regulatory-context qualification relevant to this question. Its external references do not measure a NAM memory mechanism, nominate an accepted causal programme or supply independent functional consequences. The A3 working hypothesis, prior results and registered illustration are unchanged.
 
 **Current entrypoints:** [existing source-analysis context](../../Research%20Article/gate1_01_niethamer_2025/README.md) ·
@@ -48,3 +55,7 @@ Recover source ages, processing batches and independent sample identities. Defin
 [Plan and existing implementation](PLAN.md) · [Full scientific dossier](../../docs/research_dossiers/A3.md) · [Current interpretation boundary](../../docs/research_dossiers/A3.md#interpretation-boundary).
 
 This folder is the question home. Existing paper-owned analyses, shared code and frozen runs retain their original ownership and paths.
+
+## Literature-informed screening scope — 3 November 2026
+
+The owner-authorized [DY1-P02 fixed identity-target specification](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It reuses complete frozen non-infectious reference estimates for six literature-nominated targets, retaining every target and mapped region. This does not reopen original NAM/pathogen analyses or establish a maintenance mechanism. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](../../Research%20Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_V1_RESULTS.md). The complete fixed-target screen finds co-increased Irf4/Pparg RNA in WT IL4 and heterogeneous mapped-region point differences. This neither reproduces nor refutes the distinct alveolar IL13 mechanism.

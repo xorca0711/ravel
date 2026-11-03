@@ -1,5 +1,12 @@
 # Nb4: broader proposal analysis plan
 
+**Later disposition — 3 November 2026:** P09's expression/specificity/transport
+stage has executed; read the [7 October result](../../../../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md)
+and proposed [A31 functional question](../../../../RQ_Specified/A31_gria1_fibroblast_response/README.md).
+The nine-row queue below is the original planning checkpoint, not a claim that
+every listed measurement is still unrun. Other candidates retain their specific
+source/measurement gates in the [current article inventory](../../../../docs/audits/2026-11-03-article-rq-screening/ARTICLE_INVENTORY.md).
+
 **Structured 3 October 2026. Status: planning; no new analysis executed in this revision.**
 
 The owner's notes motivate nine candidate families. The earlier completed

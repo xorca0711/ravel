@@ -38,6 +38,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Corrected Compass or relative RNA selects PEP, excludes stress, or fixes TPM composition.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a29).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Evidence update — 7 October 2026:** read the [Wp correction report](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/CORRECTIONS_2026-10-07.md) before the historical derivation. Corrected scores remain descriptive; a null contrast is not equivalence, and marker protein changes alone do not establish functional competence.
@@ -57,7 +64,7 @@ unfinished numerical design.
 
 **Current evidence:** Against an expression-decile-matched null, EGCG in Th17n raises the Th17 effector programme (+0.544, 0/1,000 null draws as extreme; not an exact zero p value) while histones, serine/one-carbon, cell cycle and ribosomal proteins fall and the integrated stress response is the most downward-shifted set (−0.491, 0/1,000 null draws as extreme; not an exact zero p value); UPR, NRF2 and heat shock show no detected set-specific departure (not equivalence). A frozen sensitivity shows the ISR result is not carried by the two genes shared with the serine set. ATF4 output falls while ATF4 transcript shows no detected difference and SESN2 rises.
 
-**Next decision:** Measure absolute PEP, 2PG and 3PG pools — not label ratios — under PGAM inhibition, with a PEP-supplementation rescue arm, a matched growth-slowing arm, and phospho-eIF2α/ATF4 protein. The pool measurement is the one quantity that separates the candidate mechanisms and the published labelling ratio cannot supply it.
+**Next decision:** Qualify evidence that can distinguish the proposed routes. Absolute pool abundance can test the proposed bulk-pool decrease; it cannot by itself select the mechanism or exclude stress, demand, off-target or compositional explanations. The published label ratio does not supply absolute abundance. The exact comparison and model access remain unresolved; the current RNA findings select no route. [3 November cut-or-fill decision](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a29).
 
 [Dossier](../../docs/research_dossiers/A29.md) · [Development plan](PLAN.md) · [Canonical card](../../RESEARCH_QUESTIONS.md#a29) · [Derivation and overlap screen](../../Research%20Article/gate2_W2_wagner_Th17_PGAM/rq_derivation/README.md).
 

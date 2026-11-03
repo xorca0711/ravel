@@ -1,0 +1,14 @@
+{
+  "targets": [
+    "Irf4",
+    "Pparg",
+    "Rxra",
+    "Stat6",
+    "Egr2",
+    "Arg1"
+  ],
+  "offset": 1,
+  "benchmark": "analysis/research/runs/DY1_P02_reference_benchmark_v1",
+  "genotype": "analysis/research/runs/DY1_P02_genotype_reference_v1",
+  "identifier_source": "raw_data/primary_screen_20261103/GSE247223_countMatrixUpdated.tsv.gz"
+}

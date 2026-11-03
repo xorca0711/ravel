@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A17.cut_fill_a17_recoverability_v1_20261103",
+  "owner": "A17",
+  "contract": "analysis/cut_fill_20261103/a17_recoverability_v1.json",
+  "contract_sha256": "f4ee48e3efa93a5e8a09e6b180c661c097ea5ee9022c1c7ebee4b168c9c956b9",
+  "git_commit": "bad95f67ad0c72c006035bb68b3e0750091d682d",
+  "started_at": "2026-11-03T04:29:26.070933+00:00",
+  "argv": [
+    "python",
+    "analysis/cut_fill_20261103/a17_recoverability_v1.py",
+    "--output",
+    "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/primary_cohort_manifest.csv",
+      "sha256": "988ab3c376f2cff5daa46924bc1009c80a164d7e0e9c916c539f66cfa8c99294",
+      "study_id": "A17_existing_source",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "docs/roadmap_runs/2026-09-28-gap-fill/a17_source_accounting/mutant_parameter_trace.json",
+      "sha256": "84a2b3ea950d6e27fa23e9fe53ebb56e816a17241372314bdb8103725604addc",
+      "study_id": "A17_existing_source",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a17_recoverability_v1.py",
+      "sha256": "f9f4a10270609f89b5ad33f64ecbde8f35a0cadde588b99a7efba86c672b2bf6"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/probabilities.json",
+      "sha256": "1d6fdc925a742dc4788a1a88497b66fa3d2c26c28e487c79eef2fde78becfb55"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/recoverability.json",
+      "sha256": "2c3a58252d15f6d6e33d41fa4f80b09ec2b812de19f8b608d5572d04992f7904"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/synthetic_recoverability.csv",
+      "sha256": "b2c13e7c75cc9786e2198e9cc6341ebe6c1a7d37aa45f0f2814d078b827dea9c"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a17_recoverability_v1_20261103/verification.json",
+      "sha256": "4a121505241e10d4477714a90cc0639a66e2cb24bb911e10c2c30a8f6e22b05b"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T04:29:30.934697+00:00"
+}

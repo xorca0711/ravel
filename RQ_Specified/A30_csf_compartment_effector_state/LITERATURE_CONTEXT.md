@@ -88,3 +88,9 @@ actual queries, versions, locators and failures. The 5 October scan is reused fo
 unchanged premises. Full Schafflick methods access, 2026 cohort-overlap qualification,
 and assay/perturbation review for a chosen extension remain pending. No exhaustive
 search, novelty certification or laboratory readiness is claimed.
+
+## Cut-or-fill execution — 3 November 2026
+
+The saved-state/barcode key audit is executed. Equal cell totals do not supply a cell identity join; dependent lineage/doublet and matched-null work remains held.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A30_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).

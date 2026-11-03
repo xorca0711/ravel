@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A5.destination_features_v1",
+  "owner": "A5",
+  "contract": "RQ_Specified/A5_developmental_programme_reuse/config/destination_features_contract_v1.json",
+  "contract_sha256": "78d2745135084784ca6424f239b7d0bb947ad2f0f5bc6af18a60c919e9fb95ed",
+  "git_commit": "94f6efb1e4cdc4270f0346161b0993be032cee92",
+  "started_at": "2026-11-03T06:27:11.930867+00:00",
+  "argv": [
+    "python",
+    "RQ_Specified/A5_developmental_programme_reuse/scripts/destination_features_v1.py",
+    "--output",
+    "analysis/research/runs/PS1_A5_destination_features_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/primary_screen_20261103/strunz_cells.source",
+      "sha256": "fe82e4a9c86720186c03c602148ea52118458e50a0847b869ce375b50a284da8",
+      "study_id": "GSE141259_high_resolution_epithelial",
+      "unit_ids": [
+        "D10-E1",
+        "D10-E2",
+        "D11-E1",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D28-E",
+        "D3-E1",
+        "D3-E2",
+        "D36-E1",
+        "D36-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D54-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2",
+        "NC-E1",
+        "NC-E2"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/primary_screen_20261103/GSE141259_HighResolution_rawcounts.mtx.gz",
+      "sha256": "ebcf8825e94b787fef9ec69be98d8bdfd1a2adbd7359aeecc828062ab31b61b8",
+      "study_id": "GSE141259_high_resolution_epithelial",
+      "unit_ids": [
+        "D10-E1",
+        "D10-E2",
+        "D11-E1",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D28-E",
+        "D3-E1",
+        "D3-E2",
+        "D36-E1",
+        "D36-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D54-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2",
+        "NC-E1",
+        "NC-E2"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/primary_screen_20261103/GSE141259_HighResolution_genes.txt.gz",
+      "sha256": "e7c86817507d191a030350c7f595661e283a0ff10a4f7d5b6fcf52b455892c04",
+      "study_id": "GSE141259_high_resolution_epithelial",
+      "unit_ids": [
+        "D10-E1",
+        "D10-E2",
+        "D11-E1",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D28-E",
+        "D3-E1",
+        "D3-E2",
+        "D36-E1",
+        "D36-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D54-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2",
+        "NC-E1",
+        "NC-E2"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/primary_screen_20261103/GSE141259_HighResolution_barcodes.txt.gz",
+      "sha256": "5d61b289238aeb1c0dda40416378f074183a930d8362d57a98ac977e00d12b1c",
+      "study_id": "GSE141259_high_resolution_epithelial",
+      "unit_ids": [
+        "D10-E1",
+        "D10-E2",
+        "D11-E1",
+        "D11-E2",
+        "D12-E1",
+        "D12-E2",
+        "D13-E1",
+        "D13-E2",
+        "D15-E1",
+        "D15-E2",
+        "D2-E1",
+        "D2-E2",
+        "D21-E",
+        "D28-E",
+        "D3-E1",
+        "D3-E2",
+        "D36-E1",
+        "D36-E2",
+        "D4-E1",
+        "D4-E2",
+        "D5-E1",
+        "D5-E2",
+        "D54-E2",
+        "D6-E1",
+        "D7-E1",
+        "D7-E2",
+        "D8-E1",
+        "D8-E2",
+        "D9-E1",
+        "D9-E2",
+        "NC-E1",
+        "NC-E2"
+      ],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/scripts/destination_features_v1.py",
+      "sha256": "4175fb1307e2a7c63b8d19872206620e68f47980d0999f25434f1f2f20f4683b"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/config/destination_features_spec_v1.json",
+      "sha256": "fbd9619a9600f8f7dd799f7712ae542e814f89663b5d327e3a5b6e3b3d23a69e"
+    },
+    {
+      "path": "RQ_Specified/A5_developmental_programme_reuse/DESTINATION_SCREEN_SPEC_V1.md",
+      "sha256": "80f6c7c91ab1691be33013fa99ae291a5c97109f7e54cd28145424dc23dcd02c"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/PS1_A5_destination_features_v1_20261103/state_support.tsv",
+      "sha256": "70414de78a22f53fd1074a312c3d36a62b27ad9b7bb17a38803e57671c566dd9"
+    },
+    {
+      "path": "analysis/research/runs/PS1_A5_destination_features_v1_20261103/mouse_state_features.tsv",
+      "sha256": "518641afc5dc0de1c366b529e52ed2346ff1ee8dfa409c8f398543fa536b5070"
+    },
+    {
+      "path": "analysis/research/runs/PS1_A5_destination_features_v1_20261103/paired_features.tsv",
+      "sha256": "f01efa91cbcea08d89e3c9f96df64df4edaa0e4b7eaee00ef7734d267d62938f"
+    },
+    {
+      "path": "analysis/research/runs/PS1_A5_destination_features_v1_20261103/feature_summary.tsv",
+      "sha256": "6a4f9f015807856916e2486bd83da3ad8a7f0bb68e6b5ab464797eebf95f9d2b"
+    },
+    {
+      "path": "analysis/research/runs/PS1_A5_destination_features_v1_20261103/per_day_features.tsv",
+      "sha256": "9702bc4797a70008dc5ae2ff1bd80dc37e2615382d52495def4a836a273f7db6"
+    },
+    {
+      "path": "analysis/research/runs/PS1_A5_destination_features_v1_20261103/destination_features.png",
+      "sha256": "01bd472018211c3072f6a1b4b6c031b544ab9dce4ec1cdf3a0826b1e9c717b8f"
+    },
+    {
+      "path": "analysis/research/runs/PS1_A5_destination_features_v1_20261103/verification.json",
+      "sha256": "b017765cc2757bd13053c924a1553ccf06ec1e3a16df89f4590f1794f73eeb38"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T06:27:46.666425+00:00"
+}

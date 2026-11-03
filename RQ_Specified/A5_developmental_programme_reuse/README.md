@@ -46,6 +46,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Partial RNA recruitment proves developmental function or full state identity.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a5).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 <a id="organizing-biological-question"></a>
@@ -112,3 +119,17 @@ SOURCE and the downloaded matrix/barcodes from this folder's ignored `cache/`.
 Then run `Rscript scripts/04_inference.R REPO_ROOT`.
 The scripts refuse to overwrite results. Source URLs/hashes are recorded in
 `tables/audit_run.json`, `tables/external_freeze_run.json` and `tables/count_retrieval.json`.
+
+## Cut-or-fill execution — 3 November 2026
+
+The refreshed source inventory is executed; exact mouse and barcode-state maps remain unqualified, so fixed-component expression replication is held.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A5_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).
+
+## Literature-informed screening scope — 3 November 2026
+
+The owner-authorized [A5 destination-feature specification](DESTINATION_SCREEN_SPEC_V1.md) fixes the measured RNA comparison, units, literature selection and limits before execution. It uses original Strunz labels and mouse-paired named genes; basal-state support remains below the original floor. The fixed Guo component and held external replication remain unchanged. No canonical hypothesis, registered illustration, prior result or scientific acceptance changes. [Completed numerical result](reports/DESTINATION_SCREEN_V1_RESULTS.md). The screen completed with mixed identity features and no single destination; basal support remains below floor. The twelve-gene panel does not explain or identify a driver of Guo recruitment.
+
+![Governed descriptive screening result](../../analysis/research/runs/PS1_A5_destination_features_v1_20261103/destination_features.png)
+
+Pointwise descriptive intervals; the two terminal-reference contrasts share ten mice, while the primary uses 24. No fate assignment.

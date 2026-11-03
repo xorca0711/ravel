@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "analysis_id": "A12.cut_fill_source_v1_20261103",
+  "owner": "A12",
+  "contract": "analysis/cut_fill_20261103/a12_source_v1.json",
+  "contract_sha256": "1721e0031ad598599a40c3f4c8c373f2e45f7242c28636b2a06b3b5dcfc3ee82",
+  "git_commit": "750f7bbc636287b3bfef7d6156e537de74cfb00c",
+  "started_at": "2026-11-03T04:40:37.464379+00:00",
+  "argv": [
+    "python",
+    "analysis/cut_fill_20261103/a12_source_v1.py",
+    "--output",
+    "analysis/research/runs/cut_fill_a12_source_v1_20261103"
+  ],
+  "argv_format": "repository_relative",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:31:18) [MSC v.1943 64 bit (ARM64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "inputs": [
+    {
+      "path": "raw_data/cut_fill_20261103/E-MTAB-13526.json",
+      "sha256": "ce7c05891c9858171dcfaddd5aaf6c94f07261272b20b333aa9edcabdeccd5a2",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/E-MTAB-13526-info.json",
+      "sha256": "5691f3ccc59b8e60ef70f502d8067782eace516d1d6fee9da5f7f32faa9d9b97",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/E-MTAB-13526.idf.txt",
+      "sha256": "d55adf738728d8879e134e6fe5ecf7a8a68f6e9d95ef009210ef08884eddc8fd",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/E-MTAB-13526.sdrf.txt",
+      "sha256": "0f97a2604175b1459ef750d2cad922c47b916a6fb3ced8a27c7a8cebdda81bda",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_acquisition_v1.json",
+      "sha256": "29dfdf9021900719784510420ef56c4ac77f8af49bc72ccd6d7b6e88f7330fff",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_GSE304587.txt",
+      "sha256": "abe50e55bb18be1ad53e589766e94a646f9cedf27714c828ace082f473509aca",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_GSE304587_acquisition.json",
+      "sha256": "414db0c3897c2a34b59eaf2de14de2659583085f38be25945e5a05af3707b7c7",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_inventory.json",
+      "sha256": "7d3e5657d9017834c81c09ed73fee9a1c231af2afe6e5fc986774d345e226508",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_inventory_retry.json",
+      "sha256": "19ae66395f3655fcf13d8a80c0e1ac0643147eeace2a1872be47413a120ea3af",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/background_obs_acquisition.json",
+      "sha256": "b039fd5a76eeea1ba01d4f6cf793be08be1aa88fa4e58ad628aa773eb58c37ad",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_inventory.json",
+      "sha256": "57a32a473d835f3c53685a01d67c11664f147e8ddea628f2cd0e3014c3cd4f9d",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_inventory_retry.json",
+      "sha256": "e195056178149b20ee67ba17a717ff5cfb46c1b9dc59565451097fda6eb91e04",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "raw_data/cut_fill_20261103/a12_remote_obs/tumour_obs_acquisition.json",
+      "sha256": "072724f6e3e1c1534dbe37e2b5f5f2ead2ddf6f691e48426e25945c683fdc145",
+      "study_id": "A12_new_source_qualification",
+      "unit_ids": [],
+      "role": "metadata",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "analysis/cut_fill_20261103/a12_source_v1.py",
+      "sha256": "aed690523bfec1526c065fe3a836a4b58594720fbffcc10d3e422b9c67af94af"
+    }
+  ],
+  "status": "executed",
+  "outputs": [
+    {
+      "path": "analysis/research/runs/cut_fill_a12_source_v1_20261103/de_zuani_samples.csv",
+      "sha256": "2ff217bb5ce0a8eaa41d7e68b92f0ad2fbe94f296385fabd9ad9a1a586cf9262"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a12_source_v1_20261103/qualification.json",
+      "sha256": "7d991532b6b64510d2880001185e00d25a2612d9c064ef12277fe264e49828f1"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a12_source_v1_20261103/access_attempts.json",
+      "sha256": "8a915d0eb01a0fe2e61194e2c964bfdfc7fcb34ff31610b5e172788999c34465"
+    },
+    {
+      "path": "analysis/research/runs/cut_fill_a12_source_v1_20261103/verification.json",
+      "sha256": "02a55ec7322c490fa1cdb1097d8bfe3d78583703e70cca7cfcfb3ecbfacc9f4e"
+    }
+  ],
+  "scientific_acceptance": "not_assessed",
+  "verification": "pending",
+  "exit_code": 0,
+  "finished_at": "2026-11-03T04:40:37.934253+00:00"
+}

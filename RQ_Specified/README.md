@@ -5,6 +5,18 @@ does not imply completed analysis, scientific acceptance or experimental readine
 The [canonical register](../RESEARCH_QUESTIONS.md) owns identity; the
 [registry](../analysis/research/registry.json) binds each home, context and figure.
 
+[3 November evidence-trajectory review](../docs/audits/2026-11-03-rq-evidence-trajectory/README.md)
+compares every question's first registered wording with its corrected results,
+distinguishing empirical narrowing, useful negative diagnostics and untested
+comparisons. It is an agent assessment, not a retain/reject decision.
+[The cut-or-fill plan](../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md)
+now gives a per-question interpretation boundary, bounded follow-up and stop rule;
+each question home links its own row. The [five-package technical ledger](../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md)
+now records completed A25 prediction, A17 synthetic qualification and the
+A5/A12/A30 source/join passes with their remaining downstream holds.
+[Additional metadata screening and folder review](../docs/audits/2026-11-03-article-rq-screening/README.md)
+identifies concrete recovery routes without reopening spent analyses.
+
 ## Reading order
 
 Each question README starts with **Organizing Biological Q → Literature context &
@@ -98,3 +110,7 @@ source-reproduction scope does not require a duplicate canonical ID.
 ## Maintenance
 
 Update the owning README, local literature context and registry together when a current entrypoint changes. Preserve unfavorable results, original artwork and frozen evidence. The [migration record](../docs/audits/2026-11-03-rq-structure/README.md) identifies the seven new homes and preserved source paths.
+
+## Literature-informed screens — 3 November 2026
+
+[Six-job ledger](../docs/research_reviews/2026-11-03-primary-candidate-literature/EXECUTION_LEDGER.md): A5 named-feature and A3/DY1 reference screens are executed; A12/Lin and A32/Speth have exact source-value/access holds. A31 and Wg-P06 retain the prior functional/linkage requirements. Original hypotheses and all earlier evidence remain authoritative.

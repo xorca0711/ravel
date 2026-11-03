@@ -1,0 +1,82 @@
+Source Name,Characteristics[individual],Characteristics[disease],Characteristics[FACS],Characteristics[sampling site]
+D1_1,Donor 1,normal,CD45+,upper lobe
+D1_2,Donor 1,normal,CD45+,upper lobe
+D2_1,Donor 2,normal,CD45+,upper lobe
+D2_2,Donor 2,normal,MDSC,upper lobe
+D2_3,Donor 2,normal,CD45+,lower lobe
+D2_4,Donor 2,normal,MDSC,lower lobe
+P1_B1,Patient 1,non-small cell lung cancer,MDSC,normal tissue adjacent to tumor
+P1_T1,Patient 1,non-small cell lung cancer,MDSC,tumor
+P10_B1,Patient 10,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P10_T1,Patient 10,lung adenocarcinoma,CD45+,tumor
+P11_B1,Patient 11,lung squamous cell carcinoma,CD45+,normal tissue adjacent to tumor
+P11_T1,Patient 11,lung squamous cell carcinoma,CD45+,tumor
+P12_B1,Patient 12,non-small cell lung cancer,CD45+,normal tissue adjacent to tumor
+P12_T1,Patient 12,non-small cell lung cancer,CD45+,tumor
+P13_B1,Patient 13,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P13_T1,Patient 13,lung adenocarcinoma,CD45+,tumor
+P14_B1,Patient 14,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P14_T1,Patient 14,lung adenocarcinoma,CD45+,tumor
+P15_B1,Patient 15,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P15_B2,Patient 15,lung adenocarcinoma,CD235a-,normal tissue adjacent to tumor
+P15_T1,Patient 15,lung adenocarcinoma,CD45+,tumor
+P15_T2,Patient 15,lung adenocarcinoma,CD235a-,tumor
+P16_B1,Patient 16,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P16_B2,Patient 16,lung adenocarcinoma,CD235a-,normal tissue adjacent to tumor
+P16_T1,Patient 16,lung adenocarcinoma,CD45+,tumor
+P16_T2,Patient 16,lung adenocarcinoma,CD235a-,tumor
+P17_B1,Patient 17,non-small cell lung cancer,CD45+,normal tissue adjacent to tumor
+P17_B2,Patient 17,non-small cell lung cancer,CD235a-,normal tissue adjacent to tumor
+P17_T1,Patient 17,non-small cell lung cancer,CD45+,tumor
+P17_T2,Patient 17,non-small cell lung cancer,CD235a-,tumor
+P17_T3,Patient 17,non-small cell lung cancer,CD235a-,tumor
+P18_B1,Patient 18,lung squamous cell carcinoma,CD45+,normal tissue adjacent to tumor
+P18_B2,Patient 18,lung squamous cell carcinoma,CD235a-,normal tissue adjacent to tumor
+P18_T1,Patient 18,lung squamous cell carcinoma,CD45+,tumor
+P18_T2,Patient 18,lung squamous cell carcinoma,CD235a-,tumor
+P19_B1,Patient 19,lung squamous cell carcinoma,CD45+,normal tissue adjacent to tumor
+P19_T1,Patient 19,lung squamous cell carcinoma,CD45+,tumor
+P19_T2,Patient 19,lung squamous cell carcinoma,CD235a-,tumor
+P2_B1,Patient 2,lung squamous cell carcinoma,MDSC,normal tissue adjacent to tumor
+P2_T1,Patient 2,lung squamous cell carcinoma,MDSC,tumor
+P20_B1,Patient 20,lung squamous cell carcinoma,CD45+,normal tissue adjacent to tumor
+P20_B2,Patient 20,lung squamous cell carcinoma,CD235a-,normal tissue adjacent to tumor
+P20_T1,Patient 20,lung squamous cell carcinoma,CD45+,tumor
+P20_T2,Patient 20,lung squamous cell carcinoma,CD235a-,tumor
+P21_B1,Patient 21,lung adenocarcinoma,CD235a-,normal tissue adjacent to tumor
+P21_B2,Patient 21,lung adenocarcinoma,CD235a-,normal tissue adjacent to tumor
+P21_B3,Patient 21,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P21_T1,Patient 21,lung adenocarcinoma,CD235a-,tumor
+P21_T2,Patient 21,lung adenocarcinoma,CD235a-,tumor
+P22_B1,Patient 22,lung adenocarcinoma,CD235a-,normal tissue adjacent to tumor
+P22_B2,Patient 22,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P22_T1,Patient 22,lung adenocarcinoma,CD235a-,tumor
+P22_T2,Patient 22,lung adenocarcinoma,CD45+,tumor
+P23_B1,Patient 23,non-small cell lung cancer,CD235a-,normal tissue adjacent to tumor
+P23_B2,Patient 23,non-small cell lung cancer,CD45+,normal tissue adjacent to tumor
+P23_T1,Patient 23,non-small cell lung cancer,CD235a-,tumor
+P23_T2,Patient 23,non-small cell lung cancer,CD45+,tumor
+P24_B1,Patient 24,lung adenocarcinoma,CD235a-,normal tissue adjacent to tumor
+P24_B2,Patient 24,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P24_T1,Patient 24,lung adenocarcinoma,CD235a-,tumor
+P24_T2,Patient 24,lung adenocarcinoma,CD45+,tumor
+P3_B1,Patient 3,lung squamous cell carcinoma,CD45+ + MDSC,normal tissue adjacent to tumor
+P3_T1,Patient 3,lung squamous cell carcinoma,CD45+ + MDSC,tumor
+P4_B1,Patient 4,lung squamous cell carcinoma,CD45+ + MDSC,normal tissue adjacent to tumor
+P4_B2,Patient 4,lung squamous cell carcinoma,CD235a-,normal tissue adjacent to tumor
+P4_B3,Patient 4,lung squamous cell carcinoma,CD235a-,normal tissue adjacent to tumor
+P4_T1,Patient 4,lung squamous cell carcinoma,CD45+ + MDSC,tumor
+P4_T2,Patient 4,lung squamous cell carcinoma,CD235a-,tumor
+P4_T3,Patient 4,lung squamous cell carcinoma,CD235a-,tumor
+P5_B1,Patient 5,lung adenocarcinoma,CD45+ + MDSC,normal tissue adjacent to tumor
+P5_T1,Patient 5,lung adenocarcinoma,CD45+ + MDSC,tumor
+P6_B1,Patient 6,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P6_T1,Patient 6,lung adenocarcinoma,CD45+,tumor
+P7_B1,Patient 7,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P7_T1,Patient 7,lung adenocarcinoma,CD45+,tumor
+P8_B1,Patient 8,lung squamous cell carcinoma,CD45+ + MDSC,normal tissue adjacent to tumor
+P8_B2,Patient 8,lung squamous cell carcinoma,CD235a-,normal tissue adjacent to tumor
+P8_T1,Patient 8,lung squamous cell carcinoma,CD45+ + MDSC,tumor
+P8_T2,Patient 8,lung squamous cell carcinoma,CD235a-,tumor
+P9_B1,Patient 9,lung adenocarcinoma,CD45+,normal tissue adjacent to tumor
+P9_T1,Patient 9,lung adenocarcinoma,CD45+,tumor

@@ -31,6 +31,13 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Lower matrix output implies mature epithelial recovery.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a32).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Proposed — 2 November 2026.** Does source-restricted myeloid ARG1 reduction
@@ -86,3 +93,7 @@ paths. Their prior exposure and unfavorable results remain explicit.
 Next: qualify the specific linked model/data and endpoints in [PLAN.md](PLAN.md).
 No numerical or bench execution follows automatically from registration, and
 no existing canonical question is retired or reworded.
+
+## Literature-informed screening disposition — 3 November 2026
+
+The Speth temporal screen is held because the cited GEO series is currently private despite the article data statement. Source pooling also prevents assumed mouse independence. No ARG1/matrix/epithelial temporal effect was computed. [Exact source evidence and reopening condition](reports/RESOLUTION_SCREEN_HOLD_V1.md). No canonical hypothesis, registered illustration or scientific acceptance changes.

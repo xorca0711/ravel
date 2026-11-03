@@ -23,6 +23,13 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Current evidence and interpretation
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“The sparse within-state IPF comparison establishes a population mechanism.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a6).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 **Current entrypoints:** [existing source-analysis context](../../Research%20Article/gate1_04_sikkema_2023_hlca/README.md) ·
 [conditional hypothesis package](../../docs/research_dossiers/packages_2026-10-03/A6.md).
 The package draft exists. The requested specificity/novelty revision is applied;

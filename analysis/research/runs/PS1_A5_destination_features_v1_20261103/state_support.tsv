@@ -1,0 +1,130 @@
+sample_id	day	state	before_depth	after_depth	eligible
+D10-E1	10	AT1	66	62	True
+D10-E1	10	AT2 activated	29	28	False
+D10-E1	10	Basal	3	3	False
+D10-E1	10	Club	177	171	True
+D10-E1	10	Krt8+ ADI	84	84	True
+D10-E2	10	AT1	14	14	False
+D10-E2	10	AT2 activated	112	112	True
+D10-E2	10	Basal	5	5	False
+D10-E2	10	Club	18	18	False
+D10-E2	10	Krt8+ ADI	74	74	True
+D11-E1	11	AT1	40	40	True
+D11-E1	11	AT2 activated	10	10	False
+D11-E1	11	Basal	11	11	False
+D11-E1	11	Club	125	125	True
+D11-E1	11	Krt8+ ADI	98	98	True
+D11-E2	11	AT1	42	42	True
+D11-E2	11	AT2 activated	51	51	True
+D11-E2	11	Basal	12	12	False
+D11-E2	11	Club	133	133	True
+D11-E2	11	Krt8+ ADI	93	93	True
+D12-E1	12	AT1	62	62	True
+D12-E1	12	AT2 activated	58	58	True
+D12-E1	12	Basal	3	3	False
+D12-E1	12	Club	89	89	True
+D12-E1	12	Krt8+ ADI	109	109	True
+D12-E2	12	AT1	40	40	True
+D12-E2	12	AT2 activated	37	37	True
+D12-E2	12	Basal	6	6	False
+D12-E2	12	Club	93	93	True
+D12-E2	12	Krt8+ ADI	87	87	True
+D13-E1	13	AT1	98	98	True
+D13-E1	13	AT2 activated	40	40	True
+D13-E1	13	Basal	9	9	False
+D13-E1	13	Club	200	200	True
+D13-E1	13	Krt8+ ADI	116	116	True
+D13-E2	13	AT1	70	70	True
+D13-E2	13	AT2 activated	64	64	True
+D13-E2	13	Basal	6	6	False
+D13-E2	13	Club	86	86	True
+D13-E2	13	Krt8+ ADI	78	78	True
+D15-E1	15	AT1	50	50	True
+D15-E1	15	AT2 activated	38	38	True
+D15-E1	15	Basal	14	14	False
+D15-E1	15	Club	121	121	True
+D15-E1	15	Krt8+ ADI	59	59	True
+D15-E2	15	AT1	60	60	True
+D15-E2	15	AT2 activated	60	60	True
+D15-E2	15	Basal	6	6	False
+D15-E2	15	Club	256	256	True
+D15-E2	15	Krt8+ ADI	82	82	True
+D2-E1	2	AT1	1	1	False
+D2-E1	2	AT2 activated	333	333	True
+D2-E1	2	Basal	2	2	False
+D2-E1	2	Club	15	15	False
+D2-E1	2	Krt8+ ADI	32	32	True
+D2-E2	2	AT1	1	1	False
+D2-E2	2	AT2 activated	171	143	True
+D2-E2	2	Basal	2	1	False
+D2-E2	2	Club	60	54	True
+D2-E2	2	Krt8+ ADI	48	41	True
+D21-E	21	AT1	100	100	True
+D21-E	21	AT2 activated	113	113	True
+D21-E	21	Basal	14	14	False
+D21-E	21	Club	336	336	True
+D21-E	21	Krt8+ ADI	138	138	True
+D3-E1	3	AT1	14	14	False
+D3-E1	3	AT2 activated	514	514	True
+D3-E1	3	Basal	3	3	False
+D3-E1	3	Club	14	14	False
+D3-E1	3	Krt8+ ADI	84	84	True
+D3-E2	3	AT1	9	9	False
+D3-E2	3	AT2 activated	554	554	True
+D3-E2	3	Basal	5	5	False
+D3-E2	3	Club	14	14	False
+D3-E2	3	Krt8+ ADI	59	59	True
+D4-E1	4	AT1	2	2	False
+D4-E1	4	AT2 activated	541	541	True
+D4-E1	4	Basal	3	3	False
+D4-E1	4	Club	13	13	False
+D4-E1	4	Krt8+ ADI	133	133	True
+D4-E2	4	AT1	1	1	False
+D4-E2	4	AT2 activated	811	811	True
+D4-E2	4	Basal	1	1	False
+D4-E2	4	Club	10	10	False
+D4-E2	4	Krt8+ ADI	84	84	True
+D5-E1	5	AT1	16	16	False
+D5-E1	5	AT2 activated	490	490	True
+D5-E1	5	Basal	1	1	False
+D5-E1	5	Club	15	15	False
+D5-E1	5	Krt8+ ADI	134	134	True
+D5-E2	5	AT1	7	7	False
+D5-E2	5	AT2 activated	523	523	True
+D5-E2	5	Basal	6	6	False
+D5-E2	5	Club	8	8	False
+D5-E2	5	Krt8+ ADI	85	85	True
+D6-E1	6	AT1	11	11	False
+D6-E1	6	AT2 activated	294	294	True
+D6-E1	6	Basal	1	1	False
+D6-E1	6	Club	16	16	False
+D6-E1	6	Krt8+ ADI	78	78	True
+D7-E1	7	AT1	20	20	False
+D7-E1	7	AT2 activated	162	162	True
+D7-E1	7	Basal	5	5	False
+D7-E1	7	Club	13	13	False
+D7-E1	7	Krt8+ ADI	124	124	True
+D7-E2	7	AT1	10	10	False
+D7-E2	7	AT2 activated	255	255	True
+D7-E2	7	Club	4	4	False
+D7-E2	7	Krt8+ ADI	64	64	True
+D8-E1	8	AT1	23	23	False
+D8-E1	8	AT2 activated	124	124	True
+D8-E1	8	Basal	6	6	False
+D8-E1	8	Club	25	25	False
+D8-E1	8	Krt8+ ADI	87	87	True
+D8-E2	8	AT1	27	27	False
+D8-E2	8	AT2 activated	149	149	True
+D8-E2	8	Basal	1	1	False
+D8-E2	8	Club	14	14	False
+D8-E2	8	Krt8+ ADI	105	105	True
+D9-E1	9	AT1	27	27	False
+D9-E1	9	AT2 activated	93	93	True
+D9-E1	9	Basal	3	3	False
+D9-E1	9	Club	21	21	False
+D9-E1	9	Krt8+ ADI	134	134	True
+D9-E2	9	AT1	19	19	False
+D9-E2	9	AT2 activated	68	68	True
+D9-E2	9	Basal	9	9	False
+D9-E2	9	Club	32	32	True
+D9-E2	9	Krt8+ ADI	99	99	True

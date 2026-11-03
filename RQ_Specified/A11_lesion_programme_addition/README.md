@@ -45,6 +45,13 @@ GPT-generated matte illustration, 3 November 2026. Proposed relationships and ce
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Lower penalized loss establishes distinct lesion information.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a11).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Subsequent evidence — 7 October 2026:** [patient-held-out prediction and capacity qualification](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) preserve the positive log-loss gain but show that a duplicated p53 baseline feature can do slightly better. Unique lesion information is unestablished; this is exposed internal paired discrimination, not independent validation or later outcome prediction.

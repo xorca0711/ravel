@@ -1,5 +1,11 @@
 # Question figure gallery
 
+**3 November measured-result additions:** [A17 synthetic observation ambiguity](../docs/audits/2026-11-03-rq-evidence-trajectory/A17_TECHNICAL_RESULT.md)
+and [A25 held-out model comparison](../docs/audits/2026-11-03-rq-evidence-trajectory/A25_TECHNICAL_RESULT.md).
+Their figures are embedded in the owning RQ READMEs and stored in immutable
+analysis-run deposits. A17 is a synthetic diagnostic; A25 is an empirical,
+scope-limited prediction comparison. Neither is another qualitative schematic.
+
 For current question coverage, use the [question index](README.md) and [schematic gallery](SCHEMATIC_GALLERY.md). Proposed [A32](A32_myeloid_arg1_matrix_epithelial_recovery/README.md) adds a qualitative comparison diagram, not a measured-result plate. The earlier measured-file inventory below retains its historical coverage; current package reports own subsequent figures and corrections.
 
 **7 October extensions:** [A25 regional occupancy](../docs/portfolio_extensions/2026-10-07/g3_immune/A25_RESULTS.md) and [A30 common-support sensitivity](../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) have new measured figures. [A31](A31_gria1_fibroblast_response/README.md) has a qualitative proposal schematic; its source RNA figure belongs to [Nb4-P09](../docs/portfolio_extensions/2026-10-07/g2_niche/RESULTS.md).

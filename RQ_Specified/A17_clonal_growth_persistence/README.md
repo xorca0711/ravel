@@ -23,6 +23,13 @@ cell counts are qualitative. [Editorial review](../../docs/audits/2026-11-02-rq-
 
 ## Current evidence and interpretation
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“A diagnostic recovered actual founder prevalence or disproved the founder model.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a17).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 **Subsequent evidence — 7 October 2026:** The [source-parameter ascertainment extension](../../docs/portfolio_extensions/2026-10-07/g1_epithelial/RESULTS.md) now separates founder, retained-clone and expected-cell fractions. At week 4, 8% fast founders yield 8.24% of retained size>=2 clones and 95.01% of expected retained cells under the fixed model. This is a mathematical ratio of expectations, not measured tissue composition or a fitted founder-versus-switching result.
 
 **Current entrypoints:** [existing source-analysis context](../../Research%20Article/gate2_C2_england_2025/README.md) ·
@@ -49,3 +56,13 @@ Freeze competing model families, source-unit handling and identifiability diagno
 [Plan and existing implementation](PLAN.md) · [Full scientific dossier](../../docs/research_dossiers/A17.md) · [Current interpretation boundary](../../docs/research_dossiers/A17.md#interpretation-boundary).
 
 This folder is the question home. Existing paper-owned analyses, shared code and frozen runs retain their original ownership and paths.
+
+## Cut-or-fill execution — 3 November 2026
+
+The new synthetic observation qualification is executed. Unqualified size-dependent detection admits observationally equivalent families; empirical mechanism selection remains held. Uniform-detection indistinguishability is not claimed.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A17_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).
+
+![A17 bounded numerical result](../../analysis/research/runs/cut_fill_a17_figure_v1_20261103/a17_observation_ambiguity_v1.png)
+
+[SVG](../../analysis/research/runs/cut_fill_a17_figure_v1_20261103/a17_observation_ambiguity_v1.svg) · [render receipt](../../analysis/research/runs/cut_fill_a17_figure_v1_20261103/receipt.json).

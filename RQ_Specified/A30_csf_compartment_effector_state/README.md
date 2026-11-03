@@ -25,6 +25,13 @@ counts. Extensions require their own qualified designs.*
 
 ## Evidence, analyses and next steps
 
+<!-- evidence-followthrough:start -->
+**Evidence follow-through — 3 November 2026:** Exclude the affirmative claim
+“Adjustment excludes biological activation; CSF induces residency or preserves regulatory function.” from current conclusions.
+[Bounded fill, stop rule and reopening evidence](../../docs/audits/2026-11-03-rq-evidence-trajectory/CUT_OR_FILL_PLAN.md#a30).
+The hypothesis remains a proposal where its decisive comparison is untested.
+<!-- evidence-followthrough:end -->
+
 The existing analysis records below retain their scope. Read the latest linked result or amendment before an older plan.
 
 **Subsequent evidence — 7 October 2026:** The [observed-support extension](../../docs/portfolio_extensions/2026-10-07/g3_immune/A30_RESULTS.md) has executed. Primary common-state support retains 8 donors (inflammatory median +0.03900); activation-standardized support retains 7 (+0.03810). Median coverage is 67.7% CSF / 33.0% blood after trimming; the floor-five interval crosses zero. These restricted estimands cannot replace the pooled result or exclude activation/trafficking. Raw lineage/doublet, barcode, null and functional qualifications remain.
@@ -90,3 +97,9 @@ novelty certification or new numerical execution is recorded by this revision.
 and [v1 hypothesis illustration](schematics/hypothesis_v1.svg) are preserved.
 The measured figure uses superseded normalization and is not the current v3 plot.
 The v2 schematic supersedes the earlier causal and regulatory-function framing.
+
+## Cut-or-fill execution — 3 November 2026
+
+The saved-state/barcode key audit is executed. Equal cell totals do not supply a cell identity join; dependent lineage/doublet and matched-null work remains held.
+
+[Current technical result and limits](../../docs/audits/2026-11-03-rq-evidence-trajectory/A30_TECHNICAL_RESULT.md) · [Execution ledger](../../docs/audits/2026-11-03-rq-evidence-trajectory/TECHNICAL_STATUS.md).

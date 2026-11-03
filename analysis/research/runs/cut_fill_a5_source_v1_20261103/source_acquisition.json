@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a5_geo",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303646&targ=self&form=text&view=full",
+    "date_utc": "2026-11-03T04:21:06.316523+00:00",
+    "status": 200,
+    "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303646&targ=self&form=text&view=full",
+    "bytes": 4930,
+    "sha256": "0fe373fc56a2ec6032293d718b183c97f9a684eb635718369b73b204673fb527",
+    "path": "raw_data/cut_fill_20261103/a5_geo.txt"
+  },
+  {
+    "id": "a5_filelist",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303646/suppl/filelist.txt",
+    "date_utc": "2026-11-03T04:21:06.317707+00:00",
+    "status": 200,
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303646/suppl/filelist.txt",
+    "bytes": 8060,
+    "sha256": "caaa87d12c4497325df225fb8d37cb2db7e53d114639f8cf0a890ca4bc6fe57e",
+    "path": "raw_data/cut_fill_20261103/a5_filelist.txt"
+  },
+  {
+    "id": "a5_tree",
+    "url": "https://api.github.com/repos/schillerlab/2025_Aging_Bleo/git/trees/master?recursive=1",
+    "date_utc": "2026-11-03T04:21:06.318711+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/schillerlab/2025_Aging_Bleo/git/trees/master?recursive=1",
+    "bytes": 12805,
+    "sha256": "b6eae1c98622f6f709c50782f3c05fb19e0e74d21c123a955c0ac2ca9a44d687",
+    "path": "raw_data/cut_fill_20261103/a5_tree.txt"
+  },
+  {
+    "id": "a5_zenodo",
+    "url": "https://zenodo.org/api/records/16412867",
+    "date_utc": "2026-11-03T04:21:06.318711+00:00",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/16412867",
+    "bytes": 15330,
+    "sha256": "15328eccf55248b17ba3ad34d0f02c3ce48708532e34b19f3dab08540f7d926d",
+    "path": "raw_data/cut_fill_20261103/a5_zenodo.txt"
+  },
+  {
+    "id": "a5_shiny",
+    "url": "https://hschillerlabshiny.shinyapps.io/BleomycinAging/",
+    "date_utc": "2026-11-03T04:21:06.796899+00:00",
+    "status": 200,
+    "final_url": "https://hschillerlabshiny.shinyapps.io/BleomycinAging/",
+    "bytes": 48997,
+    "sha256": "a3a60b60d44350f02dfd1550db087dca5157cee674679e5d7716ee058b11753d",
+    "path": "raw_data/cut_fill_20261103/a5_shiny.txt"
+  },
+  {
+    "id": "a5_biorxiv",
+    "url": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.07.24.666371/na/json",
+    "date_utc": "2026-11-03T04:21:07.086076+00:00",
+    "status": 200,
+    "final_url": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.07.24.666371/na/json",
+    "bytes": 2227,
+    "sha256": "dd3fe763410f3a08c230a71d0613dbe44806bd6d89fb19077a35f5a59ea2d0d2",
+    "path": "raw_data/cut_fill_20261103/a5_biorxiv.txt"
+  }
+]

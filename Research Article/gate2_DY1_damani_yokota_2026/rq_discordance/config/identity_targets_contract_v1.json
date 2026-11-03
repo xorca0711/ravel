@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "analysis_id": "DY1-P02.identity_targets_v1",
+  "owner": "DY1-P02",
+  "status": "frozen",
+  "analysis_type": "descriptive",
+  "question": "What are the complete fixed Irf4/Pparg/Rxra/Stat6/Egr2/Arg1 RNA and mapped-region profiles in the non-infectious reference?",
+  "decision": "Distinguish uniform identity-direction interpretations from target/region heterogeneity in this reference only; no NAM target selection or memory inference.",
+  "strongest_rival": "Model/annotation choices, compositional normalization, baseline genotype differences and unknown preparation dependence can explain RNA/accessibility patterns.",
+  "discriminator": "Complete six-literature-target extraction from frozen WT IL4-minus-CTRL and cKO-minus-WT IL4/CTRL estimates, with every mapped region and both mappings/subsets.",
+  "evidence_refs": [
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/README.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/LITERATURE_CONTEXT.md",
+    "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md",
+    "docs/research_reviews/2026-11-03-primary-candidate-literature/ANALYSIS_PLAN_V1.md"
+  ],
+  "prior_outcome_exposure": "exposed",
+  "exposure_record": "All published and aggregate E2/F1/F4 results are exposed. Six targets selected from named literature premises before inspecting saved target outcomes, never on effect/p-value. This is not a favorable selected-feature rescue.",
+  "biological_unit": "Source-reported cultured-macrophage mouse/preparation within group and assay; exact preparation/litter/batch map remains unknown.",
+  "unit_status": "unknown",
+  "nesting_and_overlap": "RNA WT3/group; cKO IL4=3 and CTRL=4; ATAC4/group. Across-condition and cross-assay overlap unknown. Features/regions are dependent observations, not biological replicates.",
+  "population_and_selection": "Exact six symbol/Ensembl targets in the complete saved eligible E2/F4 universes. Keep both mapping rules and all-annotated/within2kb subsets, all zeros and opposite signs.",
+  "contrast": "Frozen WT IL4-minus-CTRL at offset1; frozen cKO-minus-WT withinIL4 and withinCTRL; no new interaction or RNA/ATAC subtraction.",
+  "endpoint": "Copied mean log2(1+CPM) differences and full inherited conditional uncertainty fields; mapped-region sign counts/ranges without activity aggregation.",
+  "methods": "One-to-one source identifier join, exact frozen-row extraction, many-to-one region join, full parity verification against all copied fields and cardinalities; no count refit.",
+  "missingness_and_exclusions": "Stop on ambiguous/missing target RNA identity or source mismatch. Absent mapped regions reported as absent coverage, not zero. No significant-peak selection.",
+  "multiplicity": "No new tests or p-values; all six targets, three contrasts, both mappings and distance subsets reported without ranking.",
+  "precision_status": "unknown",
+  "precision_basis": "Inherit WT dependence-model sensitivity envelopes and F4 independence-conditional Welch intervals exactly. Unknown dependence prevents population-CI interpretation; no effect margin or power.",
+  "validation_scope": "internal",
+  "design_identifiability": "unknown",
+  "inference_scope": "descriptive",
+  "interpretation_limit": "Non-infectious BMDM conditional description; no IL13 alveolar switch reproduction, verified regulon, binding, mediation, ARG1 catalysis, NAM maintenance or pathogen-challenge extension.",
+  "stop_rule": "Stop on hash/identifier/mapping/parity mismatch. Retain all prespecified targets and adverse outcomes. No favorable region selection, scale subtraction, held-source bypass or outcome-based extension.",
+  "inputs": [
+    {
+      "path": "raw_data/primary_screen_20261103/GSE247223_countMatrixUpdated.tsv.gz",
+      "sha256": "5a8bc01d332386e221337d0a866875ef31130deab432cadd5c64715052f19ca3",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/rna_descriptive_effects.tsv.gz",
+      "sha256": "9add4c34919227115434318ca2f23a08eb4cc3fef5a44d01feaa1da53c927d0c",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/atac_descriptive_effects.tsv.gz",
+      "sha256": "fc8dc66929bad643992ee548aef55afa8370655f047534add96ec40a53964b2e",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_reference_benchmark_v1/mapping_membership.tsv.gz",
+      "sha256": "d42bab98789c7e5219d51128b9ee1b16afeeaa762d49a716a295482f94260858",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/rna_genotype_effects.tsv.gz",
+      "sha256": "8b4f0e182930d7b5ea0db4eda14c4facf1e0634240acf3bdfc1ab0be27ccd674",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/atac_genotype_effects.tsv.gz",
+      "sha256": "aa64149fac73dd3049ff1db2887e2fc450094028cbaf29b0916b02c98f114caa",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    },
+    {
+      "path": "analysis/research/runs/DY1_P02_genotype_reference_v1/mapping_membership.tsv.gz",
+      "sha256": "31004cf4372cf35b7d385ffefbfb49490da05893e262e45ad3f812accae65d5f",
+      "study_id": "GSE247223_GSE248042_frozen_reference",
+      "unit_ids": [],
+      "role": "context",
+      "independence": "unknown",
+      "exposure": "exposed"
+    }
+  ],
+  "code": [
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_targets_v1.py",
+      "sha256": "1376a12eca80741eb937675ce0e0c0ba0218a6f9e9004b3af29446d3dcbbe8a3"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/config/identity_targets_spec_v1.json",
+      "sha256": "6dac32c6fbc7789bb92018679fc4c65faaaca270fe7a4f068a6e72ca3ad3f54f"
+    },
+    {
+      "path": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/IDENTITY_TARGETS_SPEC_V1.md",
+      "sha256": "6747f5a74e2d9ad61ab2efb87fcd068d1229392e78030ae1a6a693e06dd41a53"
+    }
+  ],
+  "runtime": "python",
+  "entrypoint": "Research Article/gate2_DY1_damani_yokota_2026/rq_discordance/scripts/identity_targets_v1.py",
+  "arguments": [
+    "--output",
+    "{run_dir}"
+  ],
+  "expected_outputs": [
+    "target_identifiers.tsv",
+    "target_rna_effects.tsv",
+    "target_region_effects.tsv",
+    "target_region_summary.tsv",
+    "identity_targets.png",
+    "verification.json"
+  ],
+  "amendment_of": "",
+  "amendment_reason": "Owner-authorized literature-informed target screen, separately scoped from existing frozen results; no prior design is overwritten."
+}
