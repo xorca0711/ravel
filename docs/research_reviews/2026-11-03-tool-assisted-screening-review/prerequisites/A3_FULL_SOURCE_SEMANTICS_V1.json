@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-04",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247943/suppl/GSE247943_rna.counts.tsv.gz",
+  "cache_path": "X:\\GitHub\\ravel\\raw_data\\source_intake_20261104\\A3\\GSE247943_rna.counts.tsv.gz",
+  "compressed_sha256": "fc58938d85e701844f87cb2820665cd2c93ebe8ffaedc4d3145b3ade4955a3fd",
+  "decompressed_sha256": "df810dbe880191f79ab5019b7b844e67113642046975d4194a2010370af09fc7",
+  "compressed_bytes": 1417986,
+  "decompressed_bytes": 4098491,
+  "representation": "Deposited gene-by-sample reported counts/estimates; GEO describes Salmon transcript quantification and tximport gene summarization. All deposited values are integer-valued; this does not establish raw-read identity.",
+  "delimiter": "whitespace despite .tsv name; 52 header sample tokens and 53 data tokens including leading gene symbol",
+  "gene_rows": 24411,
+  "sample_columns": [
+    "WT-CTR_1",
+    "WT-IL10_2",
+    "WT-IL4_24h_1",
+    "WT-IL4_24h_2",
+    "WT-IL4+LPS_1",
+    "WT-IL4+LPS_2",
+    "WT-IL4+IFNG_1",
+    "WT-IL4+IFNG_2",
+    "WT-IL4+DEX_1",
+    "WT-IL4+DEX_2",
+    "WT-IL4+IL10_1",
+    "WT-CTR_2",
+    "WT-IL4+IL10_2",
+    "WT-pIL4_1",
+    "WT-pIL4_2",
+    "WT-pIL4+LPS_1",
+    "WT-pIL4+LPS_2",
+    "WT-pIL4+IFNG_1",
+    "WT-pIL4+IFNG_2",
+    "WT-pIL4+DEX_1",
+    "WT-pIL4+DEX_2",
+    "WT-pIL4+IL10_1",
+    "WT-LPS_1",
+    "WT-pIL4+IL10_2",
+    "KO-CTR_1",
+    "KO-CTR_2",
+    "KO-IL4_24h_1",
+    "KO-IL4_24h_2",
+    "KO-IL4+LPS_1",
+    "KO-IL4+LPS_2",
+    "KO-IL4+IFNG_1",
+    "KO-IL4+IFNG_2",
+    "KO-IL4+DEX_1",
+    "WT-LPS_2",
+    "KO-IL4+DEX_2",
+    "KO-IL4+IL10_1",
+    "KO-IL4+IL10_2",
+    "KO-pIL4_1",
+    "KO-pIL4_2",
+    "KO-pIL4+LPS_1",
+    "KO-pIL4+LPS_2",
+    "KO-pIL4+IFNG_1",
+    "KO-pIL4+IFNG_2",
+    "KO-pIL4+DEX_1",
+    "WT-IFNG_1",
+    "KO-pIL4+DEX_2",
+    "KO-pIL4+IL10_1",
+    "KO-pIL4+IL10_2",
+    "WT-IFNG_2",
+    "WT-DEX_1",
+    "WT-DEX_2",
+    "WT-IL10_1"
+  ],
+  "selected_columns_in_display_order": [
+    "WT-CTR_1",
+    "WT-CTR_2",
+    "WT-IL4_24h_1",
+    "WT-IL4_24h_2",
+    "WT-pIL4_1",
+    "WT-pIL4_2"
+  ],
+  "selected_GSMs": [
+    "GSM7903557",
+    "GSM7903558",
+    "GSM7903565",
+    "GSM7903566",
+    "GSM7903577",
+    "GSM7903578"
+  ],
+  "target_order": [
+    "Stat6",
+    "Egr2",
+    "Pparg",
+    "Rxra",
+    "Irf4",
+    "Arg1"
+  ],
+  "numeric_structure": {
+    "fractional_entries": 0,
+    "negative_entries": 0,
+    "nonfinite_entries": 0
+  },
+  "symbol_mapping": "case-sensitive exact source symbol; every fixed target occurs exactly once; no alias/fuzzy remapping",
+  "sample_join": "exact match to all 52 prior qualified header-join column labels; no preparation pairing inferred",
+  "GEO_data_processing_by_selected_GSM": {
+    "GSM7903557": [
+      "!Sample_data_processing = Fastq files were aligned to a mm10 transcriptome index with STAR",
+      "!Sample_data_processing = The abundance of transcripts was quantified using Salmon",
+      "!Sample_data_processing = Transcript-level abundance estimates were imported and summarized using tximport v1.16.1",
+      "!Sample_data_processing = Differential expression was determined using the DESeq2 package v1.28.11 in Bioconductor v.3.11.",
+      "!Sample_data_processing = Assembly: mm10",
+      "!Sample_data_processing = Supplementary files format and content: Raw and normalized counts(.xls)."
+    ],
+    "GSM7903558": [
+      "!Sample_data_processing = Fastq files were aligned to a mm10 transcriptome index with STAR",
+      "!Sample_data_processing = The abundance of transcripts was quantified using Salmon",
+      "!Sample_data_processing = Transcript-level abundance estimates were imported and summarized using tximport v1.16.1",
+      "!Sample_data_processing = Differential expression was determined using the DESeq2 package v1.28.11 in Bioconductor v.3.11.",
+      "!Sample_data_processing = Assembly: mm10",
+      "!Sample_data_processing = Supplementary files format and content: Raw and normalized counts(.xls)."
+    ],
+    "GSM7903565": [
+      "!Sample_data_processing = Fastq files were aligned to a mm10 transcriptome index with STAR",
+      "!Sample_data_processing = The abundance of transcripts was quantified using Salmon",
+      "!Sample_data_processing = Transcript-level abundance estimates were imported and summarized using tximport v1.16.1",
+      "!Sample_data_processing = Differential expression was determined using the DESeq2 package v1.28.11 in Bioconductor v.3.11.",
+      "!Sample_data_processing = Assembly: mm10",
+      "!Sample_data_processing = Supplementary files format and content: Raw and normalized counts(.xls)."
+    ],
+    "GSM7903566": [
+      "!Sample_data_processing = Fastq files were aligned to a mm10 transcriptome index with STAR",
+      "!Sample_data_processing = The abundance of transcripts was quantified using Salmon",
+      "!Sample_data_processing = Transcript-level abundance estimates were imported and summarized using tximport v1.16.1",
+      "!Sample_data_processing = Differential expression was determined using the DESeq2 package v1.28.11 in Bioconductor v.3.11.",
+      "!Sample_data_processing = Assembly: mm10",
+      "!Sample_data_processing = Supplementary files format and content: Raw and normalized counts(.xls)."
+    ],
+    "GSM7903577": [
+      "!Sample_data_processing = Fastq files were aligned to a mm10 transcriptome index with STAR",
+      "!Sample_data_processing = The abundance of transcripts was quantified using Salmon",
+      "!Sample_data_processing = Transcript-level abundance estimates were imported and summarized using tximport v1.16.1",
+      "!Sample_data_processing = Differential expression was determined using the DESeq2 package v1.28.11 in Bioconductor v.3.11.",
+      "!Sample_data_processing = Assembly: mm10",
+      "!Sample_data_processing = Supplementary files format and content: Raw and normalized counts(.xls)."
+    ],
+    "GSM7903578": [
+      "!Sample_data_processing = Fastq files were aligned to a mm10 transcriptome index with STAR",
+      "!Sample_data_processing = The abundance of transcripts was quantified using Salmon",
+      "!Sample_data_processing = Transcript-level abundance estimates were imported and summarized using tximport v1.16.1",
+      "!Sample_data_processing = Differential expression was determined using the DESeq2 package v1.28.11 in Bioconductor v.3.11.",
+      "!Sample_data_processing = Assembly: mm10",
+      "!Sample_data_processing = Supplementary files format and content: Raw and normalized counts(.xls)."
+    ]
+  },
+  "source_methods_locator": "SI physical PDF p6 / printed p5, RNA-seq analysis, hash in A3_METHOD_QUALIFICATION_V2.json",
+  "semantics_limits": [
+    "No transcript-level or effective-length matrix in this retrieved product; exact tximport countsFromAbundance option and integer rounding/export step are not resolved.",
+    "GEO calls supplementary products raw and normalized counts generically; the deposited .counts product, integer structure, nonscaled sample totals and Salmon/tximport methods support a reported-count display, not a claim of raw reads.",
+    "CPM would divide by the sum of the 24411 deposited gene values per library, not total sequenced reads or total molecules. No gene filtering before denominator."
+  ],
+  "exposure": "Prior DY1 six-target outcomes and article figures exposed. File validation scanned numerical structure and library totals only, without reporting target values/contrasts. The first non-target row was inadvertently displayed during delimiter inspection; no unexposed-confirmatory claim.",
+  "preparation_outputs": {
+    "A3_SOURCE_LIBRARY_TOTALS_V1.tsv": "a13a52f10e5ffb83dc7b5b34d8a858df6b163978b74cd93463ca56b8be0d9cd2",
+    "A3_FIXED_TARGET_MAP_V1.tsv": "6f1fb6d005b6817576e4ce40b48ee142a15c13efa8eec422b6ab33efc7c363c6",
+    "A3_GSE247943_HEADER_JOIN_V1.tsv": "a505d528807f77061b7069b955191ccf68a411aa20e97c8fbf02fba94c989cbc"
+  }
+}
