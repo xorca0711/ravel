@@ -3,6 +3,33 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Biological-screening guidance revision — 4 November 2026
+
+Owner-requested policy PR, isolated from the preserved research continuation.
+[AGENTS.md](AGENTS.md#biological-screening-and-question-progression) and the
+[decision workflow](docs/AGENT_DECISION_WORKFLOW.md#screening-as-question-development)
+now require a visible connection from published premises and repository
+observations to the next biological comparison, informative outcomes and the
+next decision. Task-specific skill/connector guidance preserves source provenance
+and distinguishes access failures from missing measurements. Descriptive work,
+replication, qualified partial screening and unfavorable results remain valid.
+No contract, validator, frozen output, question identity or claim grade changes.
+
+Review checked compatibility with existing governance, proportional design,
+partial screens, tool availability and owner-requested halts. This is agent
+review under the owner's explicit instruction to open and merge the policy PR;
+it is not independent human scientific acceptance. The user authorized restarting
+the existing technical chat only after this guidance is merged. Research remains
+paused until that merge; the coordinator will record the resumed scope and review
+checkpoints in the preserved research checkout. No numerical rerun is required
+for this documentation change.
+
+Validation on the isolated main-based checkout: 46 governance tests passed,
+15,328 repository checks passed, and all 56 local links/anchors across the three
+edited files resolved. Existing hash-locked published files were restored for
+verification; no analysis was rerun. Remote CI and the final provenance gate
+remain required before merge.
+
 ## Remaining public-reference screening reviewed — 3 November 2026
 
 The existing technical chat completed the available A12-adjacent ERBB RNA
