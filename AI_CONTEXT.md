@@ -12,6 +12,7 @@ Study-specific topics do not define the project-wide mission.
 | Need | Authority / entry point |
 |---|---|
 | Current Git/research state and next work | [PROGRESS](PROGRESS.md); verify HEAD, upstream and local changes |
+| Topic-based discovery across RQs and papers | [Biological topic map](docs/RESEARCH_TOPICS.md); tags describe scope, not evidence status |
 | Question identities and evidence locations | [Question register](RESEARCH_QUESTIONS.md) and [research registry](analysis/research/registry.json) |
 | Question reasoning, context and diagrams | [All 33 question homes](RQ_Specified/README.md), each with a local context and schematic; [dossiers](docs/research_dossiers/README.md) retain the full scientific argument |
 | Papers, reading status, analyses and galleries | [Article index](Research%20Article/README.md); current article reports own their results |
@@ -19,7 +20,7 @@ Study-specific topics do not define the project-wide mission.
 | Source units, data and reproducibility | [Dataset inventory](docs/DATASETS.md), [reproducibility](REPRODUCIBILITY.md), [return checklist](docs/audits/2026-10-07-repository-readiness/RETURN_CHECKLIST.md) |
 | Evidence grades, corrections and negative outcomes | [Claims](CLAIMS.md), [negative results](docs/NEGATIVE_RESULTS.md); execution is not scientific acceptance |
 | Reviewed automation trial handoffs | [Weft intake](weft_intake/README.md); arrival does not promote an RQ |
-| Historical audits, portfolio work and packages | [Documentation index](docs/README.md) and [remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
+| Historical audits, portfolio work and packages | [Documentation index](docs/README.md) and [historical remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
 
 Read each current result and amendment before its older plan. Use registry paths
 to find frozen contracts and receipts; do not infer state from a dated summary.

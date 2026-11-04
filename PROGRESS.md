@@ -3,6 +3,29 @@
 Update this before stopping work, every session. Current reports and the
 research registry own scientific status; older checkpoints are history.
 
+## Topic navigation and architecture review — 4 November 2026
+
+Applied the owner's overlapping-topic navigation across all 33 RQs and 18 paper
+packages, on `codex/topic-navigation-20261104` from merged main `3f70489` (PR #165).
+The [topic map](docs/RESEARCH_TOPICS.md) and collection tag columns keep biological
+scope separate from current evidence and reading/execution status. Twelve RQs
+missing from the earlier topic routes are included. Current-status links no
+longer route through historical package ledgers; stale A15 registration and
+October-current wording are clarified. A16 is correctly tagged as epithelial.
+[Architecture findings and validation](docs/audits/2026-11-04-topic-navigation/README.md).
+
+The physical layout remains 33 RQ homes plus two supporting workspaces, and 18
+paper packages plus a cross-study module and source archive. No evidence paths,
+owner README/context/figure bytes, hypotheses, registry, roadmap or governance
+are changed. Existing dirty review worktrees are preserved. The 854 focused
+coverage/preservation checks, repository link/artifact validation and provenance
+gate against refreshed main passed. There are no remaining navigation/provenance
+holds in this scope. This documentation work starts no biological analysis queue.
+The owner subsequently authorized commit, push and a PR for this reviewed scope.
+Publication uses `X:/GitHub/ravel/.worktrees/topic-navigation-20261104`; the PR
+records its published head and remote checks. Earlier local/uncommitted handoff
+statements describe the pre-publication checkpoint. Merge is a separate decision.
+
 ## RQ restructuring publication — 4 November 2026
 
 The owner authorized commit, push and a PR for the reviewed all-33 restructuring

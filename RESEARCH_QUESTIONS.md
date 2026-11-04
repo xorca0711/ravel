@@ -5,6 +5,8 @@ links each question to its current scientific argument and measured contribution
 The [rationale review](docs/research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
 distinguishes supported observations, exploratory leads and unresolved interpretations.
 The registered cards and historical hypotheses below remain unchanged.
+[Topic-guided navigation](docs/RESEARCH_TOPICS.md) links related questions and paper
+packages without changing these IDs or assigning scientific acceptance.
 
 **Registration update — 2 November 2026:** [A32](#a32) develops the distinct
 joint matrix/mature-epithelial effect question from Yd1-P02. There are now 33

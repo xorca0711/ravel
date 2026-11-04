@@ -2,7 +2,7 @@
 
 The current collection entrypoint is [RQ_Specified](../../../RQ_Specified/README.md), with [all 33 visual hypotheses](../../../RQ_Specified/SCHEMATIC_GALLERY.md). All questions now have their own local literature context. This dated directory retains compatibility links and historical source-review records.
 
-The current index also offers [biological topics](../../../RQ_Specified/README.md#browse-by-biological-topic)
+The current index also offers [biological topics across RQs and papers](../../RESEARCH_TOPICS.md)
 and [examples of scientific contribution](../../../RQ_Specified/README.md#browse-by-scientific-contribution),
 including mixed results, failed generalizations and model diagnostics. Current
 owner pages explain how these results changed the question; this directory does

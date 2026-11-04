@@ -1,5 +1,11 @@
 # Documentation Index
 
+**Current navigation — 4 November 2026:** [biological topic map](RESEARCH_TOPICS.md)
+connects all 33 RQs and 18 paper packages. [Current question arguments](../RQ_Specified/README.md),
+[reviewed rationale](research_reviews/2026-11-04-portfolio-reasoning-restructure/RATIONALE_ASSESSMENT.md)
+and [project state](../PROGRESS.md) own current findings and work status.
+[Architecture audit and navigation fixes](audits/2026-11-04-topic-navigation/README.md).
+
 **3 November primary-target literature review:** [recent sources and biological implications](research_reviews/2026-11-03-primary-candidate-literature/README.md)
 and [literature-informed screening plan](research_reviews/2026-11-03-primary-candidate-literature/ANALYSIS_PLAN_V1.md).
 New technical execution is tracked separately from the completed reading and
@@ -18,12 +24,12 @@ Current schematic review: [all 33 reviewed cellular figures and biological-detai
 
 **2 November navigation hygiene and RQ registration:** [audit and checks](audits/2026-11-02-navigation-hygiene/REPORT.md) · [six-candidate scope assessment](audits/2026-11-02-navigation-hygiene/RQ_ASSESSMENT.md). Root navigation stays collection-level; paper galleries stay article-owned. The illustrated guide includes proposed A32 and a separate article-local crosswalk.
 
-**Current entry points:** [project state](../PROGRESS.md), [portfolio summary](PORTFOLIO_SUMMARY.md)
+**Portfolio presentation and history:** [portfolio summary](PORTFOLIO_SUMMARY.md)
 and [25 October summary synchronization](audits/2026-10-25-summary-synchronization/REPORT.md).
 The [12 October Weft intake](../weft_intake/README.md) is a reviewed trial handoff;
 it does not supersede the existing question portfolio.
 
-**Latest portfolio analysis checkpoint:** [integrated results](portfolio_extensions/2026-10-07/SYNTHESIS.md), [selected evidence statuses](portfolio_extensions/2026-10-07/EVIDENCE_CHECKPOINT.md), and [return checklist](portfolio_extensions/2026-10-07/RETURN_CHECKLIST.md).
+**Historical integrated checkpoint — 7 October 2026:** [integrated results](portfolio_extensions/2026-10-07/SYNTHESIS.md), [selected evidence statuses](portfolio_extensions/2026-10-07/EVIDENCE_CHECKPOINT.md), and [return checklist](portfolio_extensions/2026-10-07/RETURN_CHECKLIST.md).
 
 **Preceding repository audit:** [findings and corrections](audits/2026-10-07-repository-readiness/REPORT.md) and [all-question review](audits/2026-10-07-repository-readiness/QUESTION_REVIEW.md).
 
@@ -31,9 +37,10 @@ Start current research development with the [dossier index](research_dossiers/RE
 
 Start with the [research questions](../RESEARCH_QUESTIONS.md),
 [paper roadmap](../Research%20Article/README.md) and [dataset inventory](DATASETS.md).
-The [current project state](../PROGRESS.md), [conditional packages](research_dossiers/packages_2026-10-03/README.md)
-and [remaining-work ledger](research_dossiers/REMAINING_WORK.md) distinguish
-completed drafting from remaining inputs, scientific review and eligibility.
+The [current project state](../PROGRESS.md) and [conditional packages](research_dossiers/packages_2026-10-03/README.md)
+describe current handoff and historical package conditions, respectively. The
+[historical remaining-work ledger](research_dossiers/REMAINING_WORK.md) retains
+its dated scope; current owner reports supply later results and unresolved inputs.
 The [September roadmap](RESEARCH_ROADMAP.md) and
 [28 September gap-fill ledger](roadmap_runs/2026-09-28-gap-fill/RESULTS.md) retain
 historical planning and execution context.

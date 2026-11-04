@@ -29,10 +29,11 @@ and preservation of historical evidence.
 
 | What you need | Where to start |
 |---|---|
+| Browse related biological topics across questions and papers | [Topic map](docs/RESEARCH_TOPICS.md) |
 | Questions, biological rationale and proposed comparisons | [All 33 question homes](RQ_Specified/README.md) · [Scientific dossiers](docs/research_dossiers/README.md) · [Question register](RESEARCH_QUESTIONS.md) |
 | Source papers, reading status and article analyses | [Research article roadmap](Research%20Article/README.md) |
 | Datasets, biological units and eligibility | [Dataset inventory](docs/DATASETS.md) |
-| Current results and remaining work | [Project state](PROGRESS.md) · [Remaining-work ledger](docs/research_dossiers/REMAINING_WORK.md) |
+| Current results and remaining work | [Project state](PROGRESS.md) · [Current question findings](RQ_Specified/README.md#all-33-current-questions) |
 | Evidence grades, corrections and negative results | [Claim summary](docs/CLAIM_SUMMARY.md) · [Full register](CLAIMS.md) · [Negative results](docs/NEGATIVE_RESULTS.md) |
 | Reproduction and research development | [Reproducibility](REPRODUCIBILITY.md) · [Research governance](docs/RESEARCH_GOVERNANCE.md) · [Documentation index](docs/README.md) |
 
